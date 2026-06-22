@@ -1,11 +1,12 @@
 ---
 id: PLACE-0001
 name: "Babaji's Cave (Dunagiri)"
-type: "grot / inwijdingsplaats"
+type: ["grot", "gebeurtenisplek"]
 status: ONGEMERKT
 decided_by_decision: null
 visitable: yes
-axis: ["Kriya-lijn"]
+access: ["restricted", "seasonal"]
+axis: ["kriya-lijn"]
 detected_by: ["PERSON-0001", "PERSON-0002"]
 sources: ["SOURCE-0001", "SOURCE-0002"]
 audits: []
@@ -21,7 +22,7 @@ created_at: "2026-06-22"
 # Babaji's Cave (Dunagiri)
 
 ## Wat is deze plek
-Een grot op de Dunagiri-berg boven het gehucht Kukuchina, op ongeveer vijfentwintig kilometer van het stadje Dwarahat in de Kumaon-regio van Uttarakhand. De Yogoda Satsanga Society heeft op de plek een gedenkschrijn opgericht, het Babaji Smriti Bhavan, dat het punt van de gebeurtenis markeert.
+Een grot op de Dunagiri-berg boven het gehucht Kukuchina, op ongeveer vijfentwintig kilometer van het stadje Dwarahat in de Kumaon-regio van Uttarakhand. De Yogoda Satsanga Society heeft op de plek een gedenkschrijn opgericht, het Babaji Smriti Bhavan, dat de plek van de overlevering markeert.
 
 ## Waarom relevant
 Volgens de overlevering is dit de plek waar Mahavatar Babaji in het jaar achttienhonderdeenenzestig Lahiri Mahasaya opnieuw inwijdde in Kriya Yoga: de grondsteen van de hele Kriya-lijn waartoe Mark behoort. De plek wordt aangewezen door twee detectoren: Lahiri Mahasaya (PERSON-0001), die hier de inwijding ontving, en Mahavatar Babaji (PERSON-0002), die hier verscheen.
