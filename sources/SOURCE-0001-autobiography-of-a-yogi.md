@@ -5,7 +5,7 @@ title: "Autobiography of a Yogi"
 author: "Paramahansa Yogananda"
 url: ""
 accessed_at: "2026-06-22"
-reliability: "primaire traditiebron"
+reliability: "primair"
 supports: ["PLACE-0001", "PERSON-0001", "PERSON-0002"]
 created_by: "Claude"
 created_at: "2026-06-22"
