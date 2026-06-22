@@ -55,3 +55,9 @@ prioriteitsgroep zijn geplaatst, niet onderling rangschikken.
 ## 13. Reproduceerbaarheid
 Elke conclusie moet herleidbaar zijn tot de AUDIT- en SOURCE-records waarop ze steunt.
 Wie de keten niet kan tonen, neemt geen besluit.
+
+## 14. Gecontroleerde woordenlijsten
+De velden type, axis, visitable, access en reliability volgen de woordenlijsten in VOCABULARY.md.
+Records gebruiken uitsluitend waarden uit die lijsten. Een nieuwe waarde wordt eerst voorgesteld via
+een AUDIT-record en pas na een DECISION van Mark aan VOCABULARY.md toegevoegd; daarna mag hij in
+records gebruikt worden. Velden zonder lijst (zoals lineage en relation) blijven vrije tekst.
