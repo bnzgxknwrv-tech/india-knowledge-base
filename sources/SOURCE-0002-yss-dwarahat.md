@@ -5,7 +5,7 @@ title: "Yogoda Satsanga Society of India - Dwarahat Ashram en Babaji-grot"
 author: "Yogoda Satsanga Society of India"
 url: "https://yssofindia.org"
 accessed_at: "2026-06-22"
-reliability: "officiele lijn-organisatie"
+reliability: "lijn-organisatie"
 supports: ["PLACE-0001"]
 created_by: "Claude"
 created_at: "2026-06-22"
