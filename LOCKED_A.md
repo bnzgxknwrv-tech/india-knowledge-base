@@ -1,6 +1,6 @@
 # LOCKED_A - Door Mark definitief als A gekozen locaties
 
-Deze locaties zijn door Mark definitief als A gekozen: dit zijn de bestemmingen van de reis. Niet herwaarderen, niet opnieuw ranken, niet naar B of C verplaatsen. Dit bestand registreert Marks keuze als huidige waarheid. Alleen Mark wijzigt deze lijst. Verblijfsbases staan apart in CLUSTER_ANCHORS.md en zijn geen A.
+Deze locaties zijn door Mark definitief als A gekozen: dit zijn de bestemmingen van de reis. Niet herwaarderen, niet opnieuw ranken, niet naar B of C verplaatsen. Alleen Mark wijzigt deze lijst. Verblijfsbases staan apart in CLUSTER_ANCHORS.md en zijn geen A. B-bestemmingen staan in LOCKED_B.md.
 
 ## Bodh Gaya
 1. Mahabodhi Tempel
@@ -30,6 +30,9 @@ Deze locaties zijn door Mark definitief als A gekozen: dit zijn de bestemmingen 
 24. Hanuman Garhi
 27. Bhumiyadhar Temple
 
-Totaal: 20 locaties.
+## Agra
+28. Taj Mahal bij zonsopgang
 
-De nummering volgt CLUSTER_LOCATIONS.md. Bewust niet als A gelockt en buiten deze lijst gehouden: 3 Dungeshwari Caves, 7 Dashashwamedh Ghat, 9 Bhaskarananda-samadhi, 13 Kabir Math, 14 eerste ontmoeting Yogananda-Yukteswar, 25 Hotel Evelyn (nu CLUSTER_ANCHOR-kandidaat), 26 KK Sah huis.
+Totaal: 21 locaties.
+
+De nummering volgt CLUSTER_LOCATIONS.md. Bewust niet als A gelockt: 3 Dungeshwari Caves, 7 Dashashwamedh Ghat, 9 Bhaskarananda-samadhi, 13 Kabir Math, 14 eerste ontmoeting Yogananda-Yukteswar, 25 Hotel Evelyn (CLUSTER_ANCHOR-kandidaat), 26 KK Sah huis.
