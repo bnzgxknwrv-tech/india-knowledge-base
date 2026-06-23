@@ -35,3 +35,4 @@ Volledige reconstructie van alle eerder genoemde locaties binnen de vier vaste c
 24. Hanuman Garhi - Neem Karoli-tempel, Nainital
 25. Hotel Evelyn - verblijf westerse devotees, Nainital
 26. KK Sah huis - devotee-huis, bezoekbaar via satsang
+27. Bhumiyadhar Temple - eerste ontmoeting Ram Dass / Neem Karoli Baba
