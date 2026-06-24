@@ -1,6 +1,6 @@
 # LOCKED_A - Door Mark definitief als A gekozen locaties
 
-Deze locaties zijn door Mark definitief als A gekozen: dit zijn de bestemmingen van de reis. Niet herwaarderen, niet opnieuw ranken, niet naar B of C verplaatsen. Alleen Mark wijzigt deze lijst. Verblijfsbases staan apart in CLUSTER_ANCHORS.md en zijn geen A. B-bestemmingen staan in LOCKED_B.md.
+A = bezoeken. Dit zijn de bestemmingen van de reis. Niet herwaarderen, niet opnieuw ranken, niet naar B of C verplaatsen. Alleen Mark wijzigt deze lijst. Verblijfsbases staan apart in CLUSTER_ANCHORS.md en zijn geen A. B in LOCKED_B.md, C in LOCKED_C.md. Definities in METHODOLOGY.md.
 
 ## Bodh Gaya
 1. Mahabodhi Tempel
@@ -28,11 +28,15 @@ Deze locaties zijn door Mark definitief als A gekozen: dit zijn de bestemmingen 
 22. Kakrighat
 23. Jageshwar
 24. Hanuman Garhi
-27. Bhumiyadhar Temple
+29. Ramakrishna Kutir
+30. Chitai Golu Devta Temple
 
 ## Agra
 28. Taj Mahal bij zonsopgang
 
-Totaal: 21 locaties.
+Totaal bevestigde A: 22 locaties.
 
-De nummering volgt CLUSTER_LOCATIONS.md. Bewust niet als A gelockt: 3 Dungeshwari Caves, 7 Dashashwamedh Ghat, 9 Bhaskarananda-samadhi, 13 Kabir Math, 14 eerste ontmoeting Yogananda-Yukteswar, 25 Hotel Evelyn (CLUSTER_ANCHOR-kandidaat), 26 KK Sah huis.
+## Onder hercontrole (nog geen definitieve A)
+27. Bhumiyadhar (Temple/Ashram) - STATUS: HERCONTROLE. A alleen indien aantoonbaar de eerste ontmoeting tussen Ram Dass en Neem Karoli Baba; anders B. Verificatie nog te doen.
+
+De nummering volgt CLUSTER_LOCATIONS.md. Bewust niet als A: 3 Dungeshwari, 7 Dashashwamedh, 9 Bhaskarananda, 13 Kabir Math, 14 eerste ontmoeting Yogananda-Yukteswar, 25 Hotel Evelyn (CLUSTER_ANCHOR), 26 KK Sah huis.
