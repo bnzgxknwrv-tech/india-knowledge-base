@@ -1,26 +1,20 @@
-# CURRENT_FOCUS - Waar het onderzoek vandaag staat
+# CURRENT_FOCUS - Huidige projectfase
 
-Datum: 23 juni 2026.
+## Status nu
+KUMAON: BEVROREN op ongeveer 95% compleet. Niet 100% (er kan altijd nog een obscure grot of huis opduiken), maar binnen Marks lijn afgedekt:
+- Neem Karoli Baba / Ram Dass / Krishna Das: compleet (Kainchi, Hanuman Garhi, Kakrighat, Bhumiyadhar).
+- Babaji / Lahiri / Yogananda: compleet (Babaji Cave, Smriti Bhavan, Dunagiri, YSS Dwarahat).
+- Anandamayi Ma: vrijwel compleet (Patal Devi nog TE CLASSIFICEREN).
+- Vivekananda: vrijwel compleet (kleine meditatieplekken plus het verre Mayavati als rest).
 
-## Fase nu
-De architectuurfase is afgesloten. De governance staat compleet: PROJECT, AI_RULES, VOCABULARY, PRIORITY_GROUPS, OPERATING_MODEL, LESSONS en CHAT_DISTILLATION. Het datamodel is stabiel en gehard. De energie gaat nu naar inhoud.
+## Open blocker Kumaon
+Turiya Niwas (Kasar Devi-anchor): winter-check open (open in december, verwarming, warm water, 5-7 nachten). Pas daarna LOCKED. Fallback: Kripal House, dan Rudra Himalayan Retreat.
 
-Repository-toegang: de repo is publiek, dus DeepSeek en Mark kunnen lezen; schrijven is alleen voor Claude bewezen. Samenwerking loopt via gedeelde repository-kennis, niet via directe AI-naar-AI-uitwisseling.
+## Volgende fase
+Vrindavan / Agra / Taj Mahal-cluster volledig uitwerken: slaapbasis, aantal nachten Vrindavan, 1 nacht Agra ja of nee, A/B-locaties rond Vrindavan, en de reis daarna naar Kumaon. Daarna: Varanasi, Kolkata, Puri.
 
-## Wat staat er al in de repository
-- Governance: PROJECT, AI_RULES, VOCABULARY, PRIORITY_GROUPS (de vaste persoonlijke index), OPERATING_MODEL, LESSONS, CHAT_DISTILLATION.
-- Inventarisatie: AOAY_MASTERS (fysieke plekken van AOAY-figuren, geen waarderingen).
-- Vier kandidaatkaarten: KUMAON, VARANASI, KOLKATA_SERAMPORE, PURI (ONGEMERKT-kandidaten, geen records, geen waarderingen).
-- Eerste records als ijkpunt: PLACE-0001 (Babaji's Cave, Dunagiri) met PERSON-0001 (Lahiri Mahasaya), PERSON-0002 (Mahavatar Babaji), SOURCE-0001 (Autobiography of a Yogi), SOURCE-0002 (Yogoda Satsanga Society).
+## Vastgehouden ter verificatie (NIET geclassificeerd)
+Karkateshwar Mahadev en Daulchina Ashram: kwamen niet uit de Claude-sweep; lijnverbinding nog onbevestigd. Niet als B vastgelegd tot geverifieerd.
 
-## Actieve hotspots (niet meer ter discussie)
-Kumaon, Varanasi, Kolkata/Serampore, Puri. Onderzoek vindt plaats binnen de radius van deze hotspots.
-
-## Waar we nu staan
-Huidige fase: een gecombineerde DeepSeek-audit op de vier kandidaatkaarten (ontbrekende plekken, zwakke plekken, dubbelingen, sfeer versus krachtplek, detectorfouten, bronproblemen). Parallel lopen kruisanalyses van de kaarten.
-
-## Bewust uitgesteld
-GitHub Action, automatische validatie en ID-generator (te vroeg). Fine-grained token (zodra de pilot rond is). Borderline-verificaties (Hotel Evelyn, KK Sah) wachten op de audit. De Puri-versus-Bergen-beslissing (door Mark, ter plekke). Off-route plekken (Ranchi, Gorakhpur, Badrinath, Haridwar, Arunachala) voor een eventuele tweede reis.
-
-## Eerstvolgende beslissing voor Mark
-Welke kandidaten uit de vier kaarten daadwerkelijk PLACE-records worden (per kandidaat: record-waard ja of nee).
+## Nog open in Kumaon (klein, niet blokkerend)
+Voorgestelde nieuwe B (Dewaldhar) en C (Shyahi Devi, Raghunath Temple, Mayavati, Chilkapeta House) wachten op Marks definitieve rating voordat ze in LOCKED_B/LOCKED_C gaan.
