@@ -1,6 +1,6 @@
-# CLUSTER_LOCATIONS - Alle bekende locaties binnen de vier vaste clusters
+# CLUSTER_LOCATIONS - Alle bekende locaties binnen de clusters
 
-Volledige reconstructie van alle eerder genoemde locaties binnen de vier vaste clusters, met doorlopende unieke nummering. Geen A/B/C, geen route, geen waardering. De door Mark als A gekozen subset staat in LOCKED_A.md.
+Volledige reconstructie van alle eerder genoemde locaties, met doorlopende unieke nummering. Neutrale inventaris: geen A/B/C, geen route, geen waardering. Waarderingen staan in LOCKED_A.md, LOCKED_B.md en LOCKED_C.md.
 
 ## Bodh Gaya
 1. Mahabodhi Tempel - plek van Boeddha's verlichting
@@ -36,3 +36,13 @@ Volledige reconstructie van alle eerder genoemde locaties binnen de vier vaste c
 25. Hotel Evelyn - verblijf westerse devotees, Nainital
 26. KK Sah huis - devotee-huis, bezoekbaar via satsang
 27. Bhumiyadhar Temple - eerste ontmoeting Ram Dass / Neem Karoli Baba
+29. Ramakrishna Kutir (Almora) - Vivekananda-bibliotheek en gedenkplek
+30. Chitai Golu Devta - Golu Devta-tempel bij Almora
+31. Mirtola / Krishnaprem Ashram - Panvanola, westerse-zoeker-resonantie
+32. Binsar Wildlife Sanctuary - bosreservaat nabij Almora
+33. Patal Bhuvaneshwar - grottempel, Gangolihat-gebied (ver)
+34. Naina Devi Mandir - tempel aan het meer, Nainital
+35. Lala Badri Shah House (Almora) - Vivekananda verbleef hier 1890 en 1897
+
+## Agra
+28. Taj Mahal bij zonsopgang - wereldwonder, zonsopgangervaring
