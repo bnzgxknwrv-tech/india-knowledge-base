@@ -56,6 +56,7 @@ Nog TE CLASSIFICEREN (status U):
 - Lala Badri Shah's House (Almora) - Vivekananda verbleef hier 1890 en 1897.
 - Naina Devi Mandir (Nainital) - hoort bij de Nainital-basis.
 - Exacte Vivekananda-grot bij Kasar Devi - verfijning van de gelockte Kasar Devi.
+- Patal Devi Ashram/Tempel (Almora) - Anandamayi Ma-plek; hoge prioriteit-lijn, daarom bewust niet als C maar TE CLASSIFICEREN tot Mark beslist.
 
 ## Nog te bepalen
 Vrindavan: onderzoek loopt, nog geen definitieve slaapbasis. Bodh Gaya en Varanasi hebben nog geen vastgelegde CLUSTER_ANCHOR. Agra: maximaal 1 overnachting, uitsluitend voor Taj Mahal bij zonsopgang. Delhi: aankomstpoort, zo kort mogelijk.
