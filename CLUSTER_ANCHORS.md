@@ -15,7 +15,36 @@ Routeregel: alle reistijden binnen een cluster worden gemeten vanaf de CLUSTER_A
 - Hotel Evelyn, Nainital - STATUS: CLUSTER_ANCHOR. Functie: Neem Karoli Baba / Ram Dass / Krishna Das / KK Sah-basis (Kainchi Dham, Hanuman Garhi, Bhumiyadhar, Naina Devi).
 
 ## Kumaon / Kasar Devi / Almora (subcluster)
-- Lali's Organic Gift Shop & Stay - STATUS: CLUSTER_ANCHOR CANDIDATE. Functie: Kasar Devi / Crank's Ridge / Almora-basis (Kasar Devi, Crank's Ridge, Jageshwar, en de te classificeren kandidaten hieronder).
+Voorlopige definitieve volgorde voor de slaap-anchor van dit subcluster.
+
+### #1 Turiya Niwas - STATUS: PROVISIONAL LOCK
+Waarom: Sunyata Baba woonde hier; direct op Crank's Ridge; hoogste historische waarde; bewoonbare geschiedenis.
+Nog NIET gelockt. Blocker: winter-check.
+Open checks (alle bevestigen voor LOCKED):
+- Open in december / winterseizoen
+- Verwarming aanwezig (niet alleen dekens)
+- Warm water aanwezig
+Volledige boekcheck voor definitieve lock:
+1. Open voor gasten eind december
+2. Open gedurende het winterseizoen
+3. Verwarming aanwezig (niet alleen dekens)
+4. Warm water aanwezig
+5. Elektriciteit betrouwbaar
+6. Verblijf van 5-7 nachten toegestaan
+Pas als 1 tot en met 6 bevestigd zijn: STATUS wordt LOCKED.
+Noot: Turiya Niwas blijft LOCKED_A als bestemming (zie LOCKED_A nummer 36). De PROVISIONAL LOCK hier betreft uitsluitend zijn rol als slaap-anchor.
+
+### #2 Kripal House - STATUS: FALLBACK #1
+Waarom: langverblijf-karakter; familie-gerund; zonneboiler/geiser; stroom-backup; bewezen woonbaar in winter; dichtbij het Kasar Devi-cluster.
+Gebruik indien: Turiya Niwas niet beschikbaar of wintervoorzieningen onvoldoende.
+
+### #3 Rudra Himalayan Retreat - STATUS: FALLBACK #2
+Waarom: direct bij de Kasar Devi-tempel; restaurant; comfortabele kamers met eigen badkamer en balkon; stroom-backup; veel positieve langverblijf-reviews.
+Nadeel: geen ingebouwde verwarming (kachel op verzoek tegen meerprijs); warm water soms wisselend; minder historische ziel; meer hotel dan ankerpunt.
+Gebruik indien: Turiya Niwas en Kripal House beide afvallen.
+
+### Lali's Organic Gift Shop & Stay - STATUS: SOCIAL HUB (geen slaap-anchor)
+Overdag sociale uitvalsbasis van de seeker-gemeenschap; niet opgenomen als slaap-fallback.
 
 ## Belangrijke beslissing
 "Kainchi/Kasar Devi = een basis" is VERWORPEN. Nainital en Kasar Devi/Almora liggen ongeveer 50 km en 2 uur uit elkaar. Kumaon vereist minimaal twee, waarschijnlijk drie slaapbases (Babaji/Dwarahat, Nainital, Kasar Devi/Almora). Kakrighat ligt tussen Nainital en Almora en is een tussenstop, geen eigen basis.
