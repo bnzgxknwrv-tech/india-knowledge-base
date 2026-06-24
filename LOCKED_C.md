@@ -6,5 +6,6 @@ C = waarschijnlijk niet bezoeken. C betekent NIET verwijderen: deze locaties bli
 31. Mirtola / Krishnaprem Ashram - Panvanola, ongeveer 25 km van Almora
 32. Binsar Wildlife Sanctuary - bosreservaat nabij Almora
 33. Patal Bhuvaneshwar - grottempel in het Gangolihat-gebied (ver)
+38. Daulchina (Dhaulchina) Ashram - Anandamayi Ma-hermitage, ongeveer 15-40 km van Almora; toegangsbeperkt (alleenstaande vrouwen niet toegestaan)
 
-Totaal: 3 locaties.
+Totaal: 4 locaties.
