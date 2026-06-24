@@ -30,7 +30,7 @@ Volledige reconstructie van alle eerder genoemde locaties, met doorlopende uniek
 19. Kainchi Dham - Neem Karoli-ashram; Ram Dass-ontmoeting
 20. Kasar Devi-tempel - Vivekananda-meditatiegrot nabij
 21. Crank's Ridge - heuvelrug, westerse zoekers
-22. Kakrighat - oeverplek, Vivekananda-realisatie 1890
+22. Kakrighat - oeverplek, Vivekananda-realisatie 1890; Shiva-tempel heet Karkateshwar Mahadev
 23. Jageshwar - oud Shiva-tempelcomplex
 24. Hanuman Garhi - Neem Karoli-tempel, Nainital
 25. Hotel Evelyn - verblijf westerse devotees, Nainital
@@ -43,6 +43,9 @@ Volledige reconstructie van alle eerder genoemde locaties, met doorlopende uniek
 33. Patal Bhuvaneshwar - grottempel, Gangolihat-gebied (ver)
 34. Naina Devi Mandir - tempel aan het meer, Nainital
 35. Lala Badri Shah House (Almora) - Vivekananda verbleef hier 1890 en 1897
+36. Turiya Niwas - huis van Alfred "Sunyata" Sorensen op Crank's Ridge, nu homestay
+37. Bodh Ashram - landgoed Evans-Wentz en daarna Lama Govinda, nu boeddhistisch centrum
+38. Daulchina (Dhaulchina) Ashram - Anandamayi Ma-hermitage bij Almora, toegangsbeperkt
 
 ## Agra
 28. Taj Mahal bij zonsopgang - wereldwonder, zonsopgangervaring
