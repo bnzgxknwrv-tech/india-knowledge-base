@@ -20,12 +20,11 @@ Routeregel: alle reistijden binnen een cluster worden gemeten vanaf de CLUSTER_A
 ## Belangrijke beslissing
 "Kainchi/Kasar Devi = een basis" is VERWORPEN. Nainital en Kasar Devi/Almora liggen ongeveer 50 km en 2 uur uit elkaar. Kumaon vereist minimaal twee, waarschijnlijk drie slaapbases (Babaji/Dwarahat, Nainital, Kasar Devi/Almora). Kakrighat ligt tussen Nainital en Almora en is een tussenstop, geen eigen basis.
 
-## Nieuwe kandidaten - status TE CLASSIFICEREN (geen A/B/C toegekend)
-Behoren bij het Kasar Devi / Almora-gebied tenzij anders vermeld:
-- Lala Badri Shah's House (Almora) - Vivekananda verbleef hier 1890 en 1897, marmeren plaquette.
-- Ramakrishna Kutir (Almora) - Vivekananda-bibliotheek en gedenkplek; tapasya van Ramakrishna-discipelen.
-- Mirtola / Krishnaprem Ashram (Panvanola, ongeveer 25 km) - westerse-zoeker-resonantie (Krishnaprem, Yashoda Ma).
-- Chitai Golu Devta (bij Almora) - let op: andere tempel dan Ghorakhal Golu Devta bij Bhowali.
+## Beoordeling van eerdere kandidaten (door Mark)
+Nu beoordeeld: Ramakrishna Kutir -> A (LOCKED_A.md), Chitai Golu Devta -> A (LOCKED_A.md), Mirtola / Krishnaprem Ashram -> C (LOCKED_C.md).
+
+Nog TE CLASSIFICEREN (status U):
+- Lala Badri Shah's House (Almora) - Vivekananda verbleef hier 1890 en 1897.
 - Naina Devi Mandir (Nainital) - hoort bij de Nainital-basis.
 - Exacte Vivekananda-grot bij Kasar Devi - verfijning van de gelockte Kasar Devi.
 
