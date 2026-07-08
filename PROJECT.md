@@ -1,7 +1,7 @@
 # PROJECT - Waarom dit project bestaat
 
 ## Wat dit is
-De planning van een spirituele pelgrimsreis door India (rond 16 december 2026 tot 16 januari 2027) voor Mark, beoefenaar van Kriya Yoga in de Yogananda/Ananda-lijn.
+De planning van een spirituele pelgrimsreis door India (definitieve reisperiode: 18 december 2026 t/m 21 januari 2027, vluchten geboekt) voor Mark, beoefenaar van Kriya Yoga in de Yogananda/Ananda-lijn.
 
 ## Het kernidee - lees dit eerst
 Het kennisobject is de fysieke, bezoekbare plek, niet de meester. De vraag is nooit "hoe belangrijk is meester X?", maar: "als Mark daar fysiek staat, welke plek heeft de meeste spirituele dichtheid?" Personen zijn detectoren om plekken te vinden, geen doel op zich.

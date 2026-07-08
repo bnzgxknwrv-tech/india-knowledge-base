@@ -19,6 +19,7 @@ Voorlopige definitieve volgorde voor de slaap-anchor van dit subcluster.
 
 ### #1 Turiya Niwas - STATUS: PROVISIONAL LOCK
 Waarom: Sunyata Baba woonde hier; direct op Crank's Ridge; hoogste historische waarde; bewoonbare geschiedenis.
+Praktische notitie (onderzoek 9 juli 2026): historie extern bevestigd via ashramsofindia.com - Alfred "Sunyata" Sorensen bouwde stenen cottages op Crank's Ridge bij de Kasar Devi-tempel, noemde zijn huis Turiya Niwas en plaatste een bord "Silence!". Beheer via familie Karki: Harshit Karki (beheerder/gastheer ter plaatse, in reviews consistent genoemd), Mayank Karki (Booking-registratie). Adres: Crank's Ridge, Kasar Devi, Almora-Bageshwar Road, 263601. Winter-check: jaarrond boekbaar lijkt waarschijnlijk (recente Airbnb-listing jan 2026; open haard aanwezig), maar directe host-bevestiging voor december (verwarming, warm water) staat nog open. LET OP: naamsverwarring met andere "Turiya Niwas"-panden (o.a. een listing met host "Lovedeep" bij Mall Road = ander pand); juiste huis = Crank's Ridge, gerund door Harshit, 10 min lopen van Kasar Devi-tempel.
 Nog NIET gelockt. Blocker: winter-check.
 Open checks (alle bevestigen voor LOCKED):
 - Open in december / winterseizoen
@@ -59,4 +60,17 @@ Nog TE CLASSIFICEREN (status U):
 - Patal Devi Ashram/Tempel (Almora) - Anandamayi Ma-plek; hoge prioriteit-lijn, daarom bewust niet als C maar TE CLASSIFICEREN tot Mark beslist.
 
 ## Nog te bepalen
-Vrindavan: onderzoek loopt, nog geen definitieve slaapbasis. Bodh Gaya en Varanasi hebben nog geen vastgelegde CLUSTER_ANCHOR. Agra: maximaal 1 overnachting, uitsluitend voor Taj Mahal bij zonsopgang. Delhi: aankomstpoort, zo kort mogelijk.
+Vrindavan: onderzoek loopt, nog geen definitieve slaapbasis. Bodh Gaya heeft nog geen vastgelegde CLUSTER_ANCHOR. Varanasi: PROVISIONAL anchor, voorkeursvolgorde in Varanasi-subcluster (Sahi River View #1, Banaras Paying Guest House #2), onderzoek naar spiritueel sterkere basis blijft open. Agra: maximaal 1 overnachting, uitsluitend voor Taj Mahal bij zonsopgang. Delhi: aankomstpoort, zo kort mogelijk.
+
+## Varanasi (subcluster)
+
+### STATUS: PROVISIONAL CLUSTER_ANCHOR - voorkeursvolgorde
+Geen definitieve LOCK.
+
+1. Sahi River View Guest House - Assi Ghat, Varanasi. Persoonlijke aanbeveling van Debby, die jarenlang in Varanasi woonde, er een school heeft en beide accommodaties uit eigen ervaring kent. Zij adviseert nadrukkelijk Sahi River View als het prettiger verblijf. Bij beschikbaarheid: voorkeur balcony room. Contactpersoon: Jitendre (groeten van Debby).
+
+2. Banaras Paying Guest House - Assi Ghat, Varanasi. Eerdere onderzoeksfavoriet.
+
+Onderzoek blijft open naar een historisch/spiritueel betere ashram.
+
+Indien tijdens verder onderzoek een aantoonbaar betere historische of spirituele ashram als slaapbasis wordt gevonden, vervalt bovenstaande voorkeursvolgorde automatisch en wordt opnieuw beoordeeld. Actief verder onderzoeken: historische ashrams; plekken met directe Kriya-/Yogananda-/Lahiri-/Babaji-connectie; spiritueel sterkere verblijfsbases.

@@ -19,3 +19,6 @@ Vrindavan / Agra / Taj Mahal-cluster volledig uitwerken: slaapbasis, aantal nach
 
 ## Nog open in Kumaon (klein, niet blokkerend)
 Voorgestelde nieuwe B (Dewaldhar) en C (Shyahi Devi, Raghunath Temple, Mayavati, Chilkapeta House) wachten op Marks definitieve rating voordat ze in LOCKED_B/LOCKED_C gaan.
+
+## Reisdata (definitief)
+18 december 2026 t/m 21 januari 2027, vluchten geboekt. Reisduur 34 dagen (ruimer dan eerder aangenomen). Boekingsdetails staan in Marks Air India-account, bewust niet in de repo.
