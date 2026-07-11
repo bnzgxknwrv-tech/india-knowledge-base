@@ -7,7 +7,7 @@ SLAAPPLAATS: Hotel Evelyn (CLUSTER_ANCHOR-kandidaat) - historische Ram Dass / Kr
 LOCATIES:
 - Kainchi Dham (A) - Neem Karoli Baba ashram en samadhi - 17 km
 - Hanuman Garhi (A) - door Neem Karoli Baba gebouwde Hanuman-tempel - 3,5 km
-- Bhumiyadhar Temple (A) - eerste ontmoeting Ram Dass en Neem Karoli Baba
+- Bhumiyadhar (eerste ontmoeting Ram Dass - Maharaj-ji) (A) - op/bij het tempelterrein, 1967
 - Kakrighat (A) - Vivekananda-realisatieplek aan de rivier
 - Ghorakhal Temple (B) - Golu Devta-tempel (God of Justice)
 

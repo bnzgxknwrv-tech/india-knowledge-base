@@ -2,7 +2,7 @@
 
 ## Status nu
 KUMAON: BEVROREN op ongeveer 95% compleet. Niet 100% (er kan altijd nog een obscure grot of huis opduiken), maar binnen Marks lijn afgedekt:
-- Neem Karoli Baba / Ram Dass / Krishna Das: compleet (Kainchi, Hanuman Garhi, Kakrighat, Bhumiyadhar).
+- Neem Karoli Baba / Ram Dass / Krishna Das: compleet (Kainchi, Hanuman Garhi, Kakrighat, Bhumiyadhar = eerste ontmoeting Ram Dass - Maharaj-ji).
 - Babaji / Lahiri / Yogananda: compleet (Babaji Cave, Smriti Bhavan, Dunagiri, YSS Dwarahat).
 - Anandamayi Ma: vrijwel compleet (Patal Devi TE CLASSIFICEREN; Daulchina als C).
 - Vivekananda: vrijwel compleet (kleine meditatieplekken plus het verre Mayavati als rest).

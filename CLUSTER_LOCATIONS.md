@@ -35,7 +35,7 @@ Volledige reconstructie van alle eerder genoemde locaties, met doorlopende uniek
 24. Hanuman Garhi - Neem Karoli-tempel, Nainital
 25. Hotel Evelyn - verblijf westerse devotees, Nainital
 26. KK Sah huis - devotee-huis, bezoekbaar via satsang
-27. Bhumiyadhar Temple - eerste ontmoeting Ram Dass / Neem Karoli Baba
+27. Bhumiyadhar (eerste ontmoeting Ram Dass - Maharaj-ji) - op/bij het tempelterrein vond in 1967 Ram Dass' eerste ontmoeting met Neem Karoli Baba plaats (Ram Dass' autobiografische chronologie). Waardering: A (DECISION-0002).
 29. Ramakrishna Kutir (Almora) - Vivekananda-bibliotheek en gedenkplek
 30. Chitai Golu Devta - Golu Devta-tempel bij Almora
 31. Mirtola / Krishnaprem Ashram - Panvanola, westerse-zoeker-resonantie

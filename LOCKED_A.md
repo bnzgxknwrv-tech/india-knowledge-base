@@ -41,9 +41,8 @@ Crank's Ridge-kern binnen dit cluster: 20 Kasar Devi + 21 Crank's Ridge + 36 Tur
 ## Kumaon (Haidakhan)
 46. Haidakhan Babaji Ashram (Haidakhan Vishwa Mahadham) - A per DECISION-0001. Bestemming bezoeken; ashramovernachting gewenst, aantal nachten OPEN (werkhypothese 3 nachten, nog geen definitief besluit). Identificatie Haidakhan Baba met Mahavatar Babaji niet als feit vastgelegd.
 
-Totaal bevestigde A: 25 locaties.
+27. Bhumiyadhar (eerste ontmoeting Ram Dass - Maharaj-ji) - bevestigd A per DECISION-0002. Op/bij het tempelterrein vond in 1967 Ram Dass' eerste ontmoeting met Neem Karoli Baba plaats (primaire bronnen: Ram Dass' eigen boeken).
 
-## Onder hercontrole (nog geen definitieve A)
-27. Bhumiyadhar (Temple/Ashram) - STATUS: HERCONTROLE. A alleen indien aantoonbaar de eerste ontmoeting tussen Ram Dass en Neem Karoli Baba; anders B. Verificatie nog te doen.
+Totaal bevestigde A: 26 locaties.
 
 De nummering volgt CLUSTER_LOCATIONS.md. Bewust niet als A: 3 Dungeshwari, 7 Dashashwamedh, 9 Bhaskarananda, 13 Kabir Math, 14 eerste ontmoeting Yogananda-Yukteswar, 25 Hotel Evelyn (CLUSTER_ANCHOR), 26 KK Sah huis.

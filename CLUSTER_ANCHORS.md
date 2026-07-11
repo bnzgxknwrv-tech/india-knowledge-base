@@ -12,7 +12,7 @@ Routeregel: alle reistijden binnen een cluster worden gemeten vanaf de CLUSTER_A
 - Joshi Guest House, Kukuchina - STATUS: LOCKED. Functie: Babaji Cave / Dwarahat-basis (Babaji Cave, Babaji Smriti Bhavan, Dunagiri Tempel, YSS Dwarahat-ashram).
 
 ## Kumaon / Nainital (subcluster)
-- Hotel Evelyn, Nainital - STATUS: CLUSTER_ANCHOR. Functie: Neem Karoli Baba / Ram Dass / Krishna Das / KK Sah-basis (Kainchi Dham, Hanuman Garhi, Bhumiyadhar, Naina Devi).
+- Hotel Evelyn, Nainital - STATUS: CLUSTER_ANCHOR. Functie: Neem Karoli Baba / Ram Dass / Krishna Das / KK Sah-basis (Kainchi Dham, Hanuman Garhi, Bhumiyadhar (eerste ontmoeting Ram Dass - Maharaj-ji), Naina Devi).
 
 ## Kumaon / Kasar Devi / Almora (subcluster)
 Voorlopige definitieve volgorde voor de slaap-anchor van dit subcluster.
