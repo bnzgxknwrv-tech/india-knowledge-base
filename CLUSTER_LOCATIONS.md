@@ -35,7 +35,7 @@ Volledige reconstructie van alle eerder genoemde locaties, met doorlopende uniek
 24. Hanuman Garhi - Neem Karoli-tempel, Nainital
 25. Hotel Evelyn - verblijf westerse devotees, Nainital
 26. KK Sah huis - devotee-huis, bezoekbaar via satsang
-27. Bhumiyadhar (eerste ontmoeting Ram Dass - Maharaj-ji) - op/bij het tempelterrein vond in 1967 Ram Dass' eerste ontmoeting met Neem Karoli Baba plaats (Ram Dass' autobiografische chronologie). Waardering: A (DECISION-0002).
+27. Bhumiyadhar (eerste ontmoeting Ram Dass - Maharaj-ji) - op/bij het tempelterrein vond in 1967 Ram Dass' eerste ontmoeting met Neem Karoli Baba plaats (Ram Dass' autobiografische chronologie). (Waardering staat in LOCKED_A en DECISION-0002, niet in deze neutrale inventaris.)
 29. Ramakrishna Kutir (Almora) - Vivekananda-bibliotheek en gedenkplek
 30. Chitai Golu Devta - Golu Devta-tempel bij Almora
 31. Mirtola / Krishnaprem Ashram - Panvanola, westerse-zoeker-resonantie
@@ -50,7 +50,7 @@ Volledige reconstructie van alle eerder genoemde locaties, met doorlopende uniek
 (Nummers 39-45 zijn gereserveerd voor de Bodh Gaya-kandidaten, zie BODH_GAYA_CANDIDATES.md. Zij krijgen pas een definitieve plaats in deze inventaris nadat Mark Bodh Gaya heeft beoordeeld; het nummergat is dus bewust en geen fout.)
 
 ## Haidakhan / Haldwani
-46. Haidakhan Babaji Ashram (Haidakhan Vishwa Mahadham) - levende ashram van Haidakhan Baba. Exacte relatie tussen de verschijningsplek, samadhi en gastenverblijf nog afzonderlijk verifiëren. De identificatie van Haidakhan Baba met Mahavatar Babaji blijft omstreden en wordt niet als feit vastgelegd. Waardering: A (DECISION-0001). Verblijfsduur niet hier vastgelegd.
+46. Haidakhan Babaji Ashram (Haidakhan Vishwa Mahadham) - levende ashram van Haidakhan Baba. Exacte relatie tussen de verschijningsplek, samadhi en gastenverblijf nog afzonderlijk verifiëren. De identificatie van Haidakhan Baba met Mahavatar Babaji blijft omstreden en wordt niet als feit vastgelegd. (Waardering en verblijfsduur staan in LOCKED_A en DECISION-0001, niet in deze neutrale inventaris.)
 
 ## Agra
 28. Taj Mahal bij zonsopgang - wereldwonder, zonsopgangervaring
