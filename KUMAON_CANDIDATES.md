@@ -1,6 +1,18 @@
-# KUMAON_CANDIDATES - Kandidaatkaart voor audit
+# KUMAON_CANDIDATES - Kandidaatkaart (AFGEHANDELD / HISTORISCH)
 
-Status: ONGEMERKT-kandidaten, nog geen PLACE-records. Doel: DeepSeek schiet hier gaten in (bron, plek, poort), daarna beslist Mark welke kandidaten records worden. Geen waarderingen.
+> STATUS: AFGEHANDELD - lees dit NIET als actuele status. Deze kandidatenkaart komt uit de audit-fase vóórdat Mark Kumaon beoordeelde. Mark heeft deze locaties inmiddels beoordeeld; de actuele waarderingen staan in LOCKED_A.md, LOCKED_B.md en LOCKED_C.md, en de neutrale inventaris in CLUSTER_LOCATIONS.md. Bij tegenspraak winnen die bestanden altijd.
+>
+> Actuele stand van de hier genoemde kandidaten (juli 2026):
+> - YSS Dwarahat, Dunagiri, Kasar Devi/Crank's Ridge, Kainchi Dham, Hanuman Garhi: nu A in LOCKED_A (#18, #17, #20/#21, #19, #24).
+> - Kakrighat: nu A in LOCKED_A (#22, alias Karkateshwar Mahadev).
+> - Jageshwar: NIET uitgesloten - juist A in LOCKED_A (#23). De uitsluiting hieronder is achterhaald.
+> - Hotel Evelyn: nu CLUSTER_ANCHOR (Nainital), zie CLUSTER_ANCHORS.md. K.K. Sah-huis: onderdeel van die basisfunctie.
+>
+> De oorspronkelijke kandidaattekst hieronder is bewaard als audit-geschiedenis, niet als actuele waarheid.
+
+---
+
+Status (historisch): ONGEMERKT-kandidaten, nog geen PLACE-records. Doel destijds: DeepSeek schiet hier gaten in (bron, plek, poort), daarna beslist Mark welke kandidaten records worden. Geen waarderingen.
 
 ## Kandidaten
 
