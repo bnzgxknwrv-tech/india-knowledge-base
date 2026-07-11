@@ -25,8 +25,7 @@ Sterke persoonlijke aantrekking van Mark, sterker dan vooraf gedacht: de levende
 - Ashramovernachting gewenst, niet vastgelegd.
 
 ## Waarderingslegenda (door Mark beheerd)
-A+ = hoogste prioriteit om te bezoeken
-A  = sterke prioriteit
-B  = relevant, secundair
-C  = optioneel, alleen indien onderweg
-R  = afgewezen, niet bezoeken
+A = zeker bezoeken
+B = interessant, Mark beslist later
+C = gezien en bewust verworpen (niet bezoeken, wel bewaren)
+U = onbeoordeeld (werkstatus, geen waardering)

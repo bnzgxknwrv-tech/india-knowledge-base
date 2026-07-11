@@ -12,7 +12,7 @@ Werk altijd toe naar fysieke, bezoekbare plekken. Personen dienen om plekken te 
 niet om zelf het eindobject te zijn.
 
 ## 3. Waarderingen zijn exclusief voor de eigenaar
-A+, A, B, C en R worden uitsluitend door Mark toegekend, via een DECISION-record.
+A, B en C worden uitsluitend door Mark toegekend, via een DECISION-record. (U = onbeoordeeld is een werkstatus, geen waardering.)
 Een kunstmatig intelligentiesysteem mag een waardering nooit toekennen, voorstellen als feit, of wijzigen.
 Een kunstmatig intelligentiesysteem mag wel beargumenteren waarom een plek aandacht verdient — in een AUDIT-record.
 

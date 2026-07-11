@@ -18,7 +18,7 @@ Zijn eigen lijn is leidend: Babaji, Lahiri Mahasaya, Sri Yukteswar, Yogananda. D
 Tier 1 = eigen Kriya-lijn plus de AOAY-meesters. Tier 2 = Ram Dass en Neem Karoli Baba. Tier 3 = de bredere Lahiri-lijn en de grote heiligen.
 
 ## Wie doet wat
-Claude = curator/schrijver. DeepSeek = auditor/tegenkracht. ChatGPT = architect/regisseur. Mark = eindbeslisser. Alleen Mark kent waarderingen toe (A+, A, B, C, R).
+Claude = curator/schrijver. DeepSeek = auditor/tegenkracht. ChatGPT = architect/regisseur. Mark = eindbeslisser. Alleen Mark kent waarderingen toe (A, B, C; U = onbeoordeeld).
 
 ## Harde poorten
 Bezoekbaarheidspoort: geen fysieke plek = geen kandidaat. Nieuwe plekken starten ONGEMERKT. Een feit verwijst naar minstens een bron. Geen stille wijzigingen; een wijziging is altijd een nieuw besluit met reden.

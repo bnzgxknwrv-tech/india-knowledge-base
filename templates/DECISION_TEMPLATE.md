@@ -13,7 +13,7 @@ based_on_sources: []
 # DECISION {id}: {korte titel}
 
 ## Besluit
-De definitieve keuze, voluit. Bij een waardering: welke (A+/A/B/C/R) en op
+De definitieve keuze, voluit. Bij een waardering: welke (A/B/C) en op
 welke PLACE deze van toepassing is.
 
 ## Onderbouwing
@@ -25,8 +25,7 @@ bij zodat de spiegel klopt. Eerdere besluiten worden niet verwijderd, maar via
 `supersedes` aan elkaar geketend voor reproduceerbaarheid.
 
 ## Waarderingslegenda (door Mark beheerd)
-A+ = hoogste prioriteit om te bezoeken
-A  = sterke prioriteit
-B  = relevant, secundair
-C  = optioneel, alleen indien onderweg
-R  = afgewezen, niet bezoeken
+A = zeker bezoeken
+B = interessant, Mark beslist later
+C = gezien en bewust verworpen (niet bezoeken, wel bewaren)
+U = onbeoordeeld (werkstatus, geen waardering)

@@ -30,7 +30,7 @@ Geen fysieke, bezoekbare plek = geen kandidaat, hoe groot de heilige ook. Het mo
 
 ## Blijvende besluiten
 - PLACE is de centrale entiteit; PERSON is detector.
-- Alleen Mark kent waarderingen toe (A+, A, B, C, R); nieuwe plekken starten ONGEMERKT.
+- Alleen Mark kent waarderingen toe (A, B, C); nieuwe plekken starten ONGEMERKT (status U).
 - GitHub is de waarheid; losse chats tellen niet.
 - Actieve hotspots: Kumaon, Varanasi, Kolkata/Serampore, Puri; onderzoek binnen hun radius.
 - Babaji (Mahavatar) en Haidakhan Babaji zijn verschillende figuren.
