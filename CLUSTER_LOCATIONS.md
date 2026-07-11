@@ -47,6 +47,8 @@ Volledige reconstructie van alle eerder genoemde locaties, met doorlopende uniek
 37. Bodh Ashram - landgoed Evans-Wentz en daarna Lama Govinda, nu boeddhistisch centrum
 38. Daulchina (Dhaulchina) Ashram - Anandamayi Ma-hermitage bij Almora, toegangsbeperkt
 
+(Nummers 39-45 zijn gereserveerd voor de Bodh Gaya-kandidaten, zie BODH_GAYA_CANDIDATES.md. Zij krijgen pas een definitieve plaats in deze inventaris nadat Mark Bodh Gaya heeft beoordeeld; het nummergat is dus bewust en geen fout.)
+
 ## Haidakhan / Haldwani
 46. Haidakhan Babaji Ashram (Haidakhan Vishwa Mahadham) - levende ashram van Haidakhan Baba. Exacte relatie tussen de verschijningsplek, samadhi en gastenverblijf nog afzonderlijk verifiëren. De identificatie van Haidakhan Baba met Mahavatar Babaji blijft omstreden en wordt niet als feit vastgelegd. Waardering: A (DECISION-0001). Verblijfsduur niet hier vastgelegd.
 
