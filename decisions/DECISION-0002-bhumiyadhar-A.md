@@ -2,7 +2,7 @@
 id: DECISION-0002
 subject: "Bhumiyadhar (eerste ontmoeting Ram Dass - Maharaj-ji) als A"
 decided_by: "Mark"
-decided_at: "2026-07-16"
+decided_at: "2026-07-11"
 outcome: "A"
 applies_to_place: "CLUSTER_LOCATIONS #27 Bhumiyadhar Temple"
 supersedes: null
