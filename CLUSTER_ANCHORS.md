@@ -20,19 +20,7 @@ Voorlopige definitieve volgorde voor de slaap-anchor van dit subcluster.
 ### #1 Turiya Niwas - STATUS: PROVISIONAL LOCK
 Waarom: Sunyata Baba woonde hier; direct op Crank's Ridge; hoogste historische waarde; bewoonbare geschiedenis.
 Praktische notitie (onderzoek 9 juli 2026): historie extern bevestigd via ashramsofindia.com - Alfred "Sunyata" Sorensen bouwde stenen cottages op Crank's Ridge bij de Kasar Devi-tempel, noemde zijn huis Turiya Niwas en plaatste een bord "Silence!". Beheer via familie Karki: Harshit Karki (beheerder/gastheer ter plaatse, in reviews consistent genoemd), Mayank Karki (Booking-registratie). Adres: Crank's Ridge, Kasar Devi, Almora-Bageshwar Road, 263601. Wintercomfort BEVESTIGD via directe host-bevestiging (Facebook/WhatsApp, juli 2026). BEVESTIGD: host woont in Kasar Devi en is rond de vermoedelijke periode beschikbaar; gehele woning privé; warm water; kamerverwarming; elektrische deken; voldoende warme dekens; jaarrond bereikbaar; huisgemaakte maaltijd via buurvrouw mogelijk; cafés dichtbij; weinig stroomuitval (lampen circa 1 uur back-up, wifi circa 3 uur back-up); host adviseert over taxi's en treinen. NOG OPEN: exacte data; exacte verblijfsduur; definitief blokkeren/reserveren; keuze direct boeken of via Airbnb. Wintercomfort-blocker daarmee OPGELOST; blijft PROVISIONAL LOCK tot exacte data en duur definitief geblokkeerd zijn (niet "definitief beschikbaar" noemen zolang data niet vaststaan). LET OP: naamsverwarring met andere "Turiya Niwas"-panden (o.a. een listing met host "Lovedeep" bij Mall Road = ander pand); juiste huis = Crank's Ridge, gerund door Harshit, 10 min lopen van Kasar Devi-tempel.
-Nog NIET gelockt. Blocker: winter-check.
-Open checks (alle bevestigen voor LOCKED):
-- Open in december / winterseizoen
-- Verwarming aanwezig (niet alleen dekens)
-- Warm water aanwezig
-Volledige boekcheck voor definitieve lock:
-1. Open voor gasten eind december
-2. Open gedurende het winterseizoen
-3. Verwarming aanwezig (niet alleen dekens)
-4. Warm water aanwezig
-5. Elektriciteit betrouwbaar
-6. Verblijf van 5-7 nachten toegestaan
-Pas als 1 tot en met 6 bevestigd zijn: STATUS wordt LOCKED.
+Resterend voor definitieve LOCK (wintercomfort is al bevestigd, zie hierboven): alleen nog exacte data blokkeren, verblijfsduur bepalen en definitief reserveren. Zodra data en reservering vaststaan: STATUS wordt LOCKED.
 Noot: Turiya Niwas blijft LOCKED_A als bestemming (zie LOCKED_A nummer 36). De PROVISIONAL LOCK hier betreft uitsluitend zijn rol als slaap-anchor.
 
 ### #2 Kripal House - STATUS: FALLBACK #1
