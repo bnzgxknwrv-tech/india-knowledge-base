@@ -3,14 +3,21 @@
 Dit document beschrijft de samenwerking - niet het project (zie PROJECT.md), niet het datamodel (zie AI_RULES.md).
 
 ## 0. Verplichte inleesvolgorde
-Voordat een AI nieuw onderzoek uitvoert, leest deze minimaal, in deze volgorde:
-1. PROJECT.md
-2. PRIORITY_GROUPS.md
-3. LESSONS.md
-4. CURRENT_FOCUS.md
-5. de relevante PLACE-records
 
-Doel: voorkomen dat eerder genomen besluiten, prioriteiten of lessen opnieuw ontdekt moeten worden. Dit was het kernprobleem van de opstartfase: nieuwe analyses begonnen telkens zonder volledig projectgeheugen.
+1. README.md
+2. AI_RULES.md
+3. PROJECT.md
+4. OPERATING_MODEL.md
+5. CHATGPT_ROLE.md
+6. PRIORITY_GROUPS.md
+7. LESSONS.md
+8. METHODOLOGY.md
+9. CHAT_DISTILLATION.md
+10. CHATGPT_HANDOFF.md
+11. CURRENT_FOCUS.md
+12. relevante cluster-, PLACE-, SOURCE-, AUDIT- en DECISION-records
+
+Een nieuwe chat mag niet meteen onderzoek starten. Hij levert eerst een STATE RECONSTRUCTION: projectdoel; eigen rol; huidige fase; definitieve besluiten; open besluiten; eerstvolgende stap; gevonden tegenstrijdigheden; informatie die alleen in CHATGPT_HANDOFF staat maar nog niet formeel is verwerkt. Mark bevestigt daarna of de reconstructie klopt, vóór nieuw onderzoek.
 
 ## 1. Doel
 Het doel is niet heiligen verzamelen. Het doel is bezoekbare fysieke krachtplaatsen identificeren in Marks eigen spirituele stamboom. De plek is het doel; de persoon is de detector. Alles in dit model dient een vraag: als Mark daar fysiek staat, welke plek heeft de meeste spirituele dichtheid?

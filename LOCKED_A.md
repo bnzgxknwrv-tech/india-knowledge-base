@@ -38,7 +38,10 @@ Crank's Ridge-kern binnen dit cluster: 20 Kasar Devi + 21 Crank's Ridge + 36 Tur
 ## Agra
 28. Taj Mahal bij zonsopgang
 
-Totaal bevestigde A: 24 locaties.
+## Kumaon (Haidakhan)
+46. Haidakhan Babaji Ashram (Haidakhan Vishwa Mahadham) - A per DECISION-0001. Bestemming bezoeken; ashramovernachting gewenst, aantal nachten OPEN (werkhypothese 3 nachten, nog geen definitief besluit). Identificatie Haidakhan Baba met Mahavatar Babaji niet als feit vastgelegd.
+
+Totaal bevestigde A: 25 locaties.
 
 ## Onder hercontrole (nog geen definitieve A)
 27. Bhumiyadhar (Temple/Ashram) - STATUS: HERCONTROLE. A alleen indien aantoonbaar de eerste ontmoeting tussen Ram Dass en Neem Karoli Baba; anders B. Verificatie nog te doen.

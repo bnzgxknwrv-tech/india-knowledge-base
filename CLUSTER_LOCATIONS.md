@@ -48,7 +48,7 @@ Volledige reconstructie van alle eerder genoemde locaties, met doorlopende uniek
 38. Daulchina (Dhaulchina) Ashram - Anandamayi Ma-hermitage bij Almora, toegangsbeperkt
 
 ## Haidakhan / Haldwani
-46. Haidakhan Babaji Ashram (Haidakhan Vishwa Mahadham) - levende ashram van Haidakhan Baba; beoogd verblijf van twee dagen en twee nachten. Exacte relatie tussen de verschijningsplek, samadhi en gastenverblijf nog afzonderlijk verifiëren. De identificatie van Haidakhan Baba met Mahavatar Babaji blijft omstreden en wordt niet als feit vastgelegd.
+46. Haidakhan Babaji Ashram (Haidakhan Vishwa Mahadham) - levende ashram van Haidakhan Baba. Exacte relatie tussen de verschijningsplek, samadhi en gastenverblijf nog afzonderlijk verifiëren. De identificatie van Haidakhan Baba met Mahavatar Babaji blijft omstreden en wordt niet als feit vastgelegd. Waardering: A (DECISION-0001). Verblijfsduur niet hier vastgelegd.
 
 ## Agra
 28. Taj Mahal bij zonsopgang - wereldwonder, zonsopgangervaring
