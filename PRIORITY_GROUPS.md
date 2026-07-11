@@ -15,6 +15,9 @@ Dit is geen universele spirituele ranking. Het is Marks vaste persoonlijke prior
 10. Ramana Maharshi
 11. Hariharananda
 12. Vivekananda
+13. Krishna
+
+Krishna is toegevoegd als nummer 13 via DECISION-0003. De bestaande volgorde 1 tot en met 12 bleef ongewijzigd.
 
 ## Buiten de hoofdindex
 Shri Mataji Nirmala Devi staat niet in deze hoofdindex. Haar Mahasamadhi-locatie in Delhi blijft wel een gewenste bezoekplek.
