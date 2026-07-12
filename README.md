@@ -2,10 +2,10 @@
 
 Gedeelde waarheid voor Marks India-pelgrimage (18 december 2026 t/m 21 januari 2027). Dit is de bron. Chatgeheugen is niet duurzaam en telt niet als waarheid; alleen wat hier staat is vastgelegd.
 
-## START HERE - begin niet met willekeurig zoeken
+## START HERE — algemene regie en projectwerk
 
 Verplichte inleesvolgorde voor de regisseur en algemene projectchats:
-1. README.md (dit bestand)
+1. README.md
 2. AI_RULES.md
 3. PROJECT.md
 4. OPERATING_MODEL.md
@@ -14,17 +14,22 @@ Verplichte inleesvolgorde voor de regisseur en algemene projectchats:
 7. LESSONS.md
 8. METHODOLOGY.md
 9. CHAT_DISTILLATION.md
-10. CHATGPT_HANDOFF.md (actuele stand + eerstvolgende stap)
+10. CHATGPT_HANDOFF.md
 11. CURRENT_FOCUS.md
 12. relevante cluster-, PLACE-, SOURCE-, AUDIT- en DECISION-records
 
-Een nieuwe regiechat reconstrueert eerst de stand (projectdoel, eigen rol, huidige fase, definitieve besluiten, open punten, eerstvolgende stap, gevonden tegenstrijdigheden) en laat Mark die bevestigen VOOR nieuw onderzoek. Zie CHATGPT_HANDOFF.md voor het levende startpunt en CHATGPT_ROLE.md voor de rol van de architect/regisseur.
+Een nieuwe regiechat reconstrueert eerst de stand en laat Mark die bevestigen vóór nieuw onderzoek.
 
 ## BRONS–ZILVER–GOUD-onderzoekspijplijn
 
-Afgebakende locatie-sweeps kunnen via drie opeenvolgende schone chats worden uitgevoerd. Start daarvoor bij:
+Afgebakende locatie-sweeps gebruiken een afzonderlijke GitHub-native uitvoeringsroute.
 
-1. `pipeline/README.md`
+Start uitsluitend bij:
+1. `pipeline/ENTRYPOINT.md`
 2. `pipeline/START_PROMPTS.md`
 
-BRONS bouwt, ZILVER verifieert en verbetert, GOUD finaliseert. Alleen het GOUD-rapport gaat terug naar de regisseur. De pijplijnrollen voeren geen algemene state reconstruction met Mark uit; zij volgen hun afgebakende pipelinecontract en ontvangen de benodigde clusterinvoer in hun startbericht.
+BRONS, ZILVER en GOUD draaien elk in een volledig nieuwe chat met GitHub-lees- en schrijfrechten. Mark activeert alleen een run-id en rol. Rapporten worden niet tussen chats geplakt: iedere fase schrijft een volledige eigen versie in `research/active/<run-id>/` en de volgende fase haalt die via een gepind contextmanifest uit GitHub.
+
+Alleen het GOUD-dossier gaat naar de regisseur. BRONS en ZILVER blijven in GitHub zichtbaar als controleerbare tussenfasen.
+
+END_OF_ARTIFACT
