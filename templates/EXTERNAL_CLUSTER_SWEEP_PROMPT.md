@@ -1,212 +1,282 @@
-# EXTERNAL_CLUSTER_SWEEP_PROMPT - Sjabloon voor externe onderzoekers zonder GitHub-toegang
+# EXTERNAL_CLUSTER_SWEEP_PROMPT - Generiek sweep-protocol voor externe onderzoekers
 
 > **STATUS: TOOL TEMPLATE**
 >
 > Dit bestand bevat geen projectwaarheid en mag nooit als bron van projectfeiten worden gebruikt.
 >
-> Alle projectinhoud (reisdata, prioriteitsindex, bestaande locaties, projectfase, besluiten, clusterstatus, enzovoort) wordt per sweep door INDIA 2 uit de actuele GitHub-repository ingevuld.
+> Alle projectinhoud wordt per sweep door INDIA 2 uit de actuele GitHub-repository ingevuld.
 >
 > **Bij een conflict tussen dit template en de repository is de repository altijd leidend.**
 >
-> Doel van dit bestand is uitsluitend het genereren van zelfstandige opdrachten voor externe AI-onderzoekers zonder GitHub-toegang.
+> Doel: zelfstandige opdrachten genereren voor externe AI-onderzoekers zonder GitHub-toegang.
 
 ## Waarom dit bestand bestaat
 
-Externe consumenten-AI's (Perplexity, Gemini) kunnen een GitHub-repository niet betrouwbaar lezen. DeepSeek beweerde dit wel te kunnen en bleek te liegen; Copilot bleek het niet te kunnen. Daarom krijgen externe onderzoekers **geen GitHub-opdracht**, maar een volledig zelfstandige prompt waarin INDIA 2 alle benodigde context heeft ingevuld. De externe AI hoeft alleen internetonderzoek te doen.
+Externe consumenten-AI's (Perplexity, Gemini, DeepSeek, Copilot) kunnen een GitHub-repository niet betrouwbaar lezen. DeepSeek beweerde het te kunnen en loog; Copilot bleek het niet te kunnen. Daarom krijgen externe onderzoekers **geen GitHub-opdracht**, maar een volledig zelfstandige prompt waarin INDIA 2 alle context heeft ingevuld.
 
-Voor AI's die GitHub WEL kunnen lezen (INDIA 2 zelf, Claude) blijft `GENERIC_CLUSTER_SWEEP_STARTPROMPT.md` de juiste prompt. Dat bestand wordt niet vervangen.
+Voor AI's die GitHub WEL kunnen lezen (INDIA 2, Claude) blijft `GENERIC_CLUSTER_SWEEP_STARTPROMPT.md` in de hoofdmap de juiste prompt.
 
-## Eenmalige capaciteitstest per nieuwe AI
+## Wat de eerste sweep leerde (verwerkt in dit protocol)
 
-Test één keer, bij een nieuwe AI-dienst, of hij een publieke GitHub-URL werkelijk kan openen (bijvoorbeeld een raw.githubusercontent.com-link naar README.md, en vraag om een woordelijk citaat). Sla het resultaat op. Kan hij het → mooi meegenomen. Kan hij het niet → geen probleem, hij krijgt altijd de zelfstandige prompt. **Test daarna nooit meer.** Vertrouw nooit op zelfrapportage van een AI over zijn eigen GitHub-toegang.
+De eerste Vrindavan-sweep met drie AI's mislukte op vier punten (zie LESSONS 9-12):
+- de controlelijst werd een plafond: alle drie leverden precies de lijst terug, nul eigen vondsten;
+- geen enkele AI gaf bronlinks, omdat er geen consequentie op stond;
+- de tellingsectie werd genegeerd omdat hij achteraan stond;
+- de prioriteitsindex werd niet systematisch langsgelopen.
 
-## Huidige werkwijze (kalibratiefase)
-
-De eerste 2 à 3 clusters krijgen **Perplexity en Gemini exact dezelfde opdracht**. Doel is niet alleen een goede sweep, maar de twee AI's kalibreren: wie mist structureel minder, wie gebruikt betere bronnen, wie verzint niets, wie levert een bruikbaar rapport. Dat kan alleen eerlijk worden gemeten bij een identieke opdracht. Pas na die kalibratie wordt besloten of er verschillende rollen komen, of dat één de hoofdonderzoeker wordt en de ander de tweede controle.
+Dit protocol corrigeert alle vier. **Wijzig de structuur niet zonder reden** - elk onderdeel lost een bewezen faalmodus op.
 
 ## Rolverdeling
 - GitHub = de waarheid
-- INDIA 2 (ChatGPT) = regisseur en contextgenerator; leest GitHub en vult dit sjabloon in
+- INDIA 2 (ChatGPT) = regisseur; leest GitHub, vult dit protocol in, vergelijkt de rapporten
 - Claude = curator; controleert repository-delta, schrijft alleen na Marks besluit
-- Perplexity + Gemini = parallelle externe onderzoekers; lezen alleen, schrijven nooit
+- Externe AI's = onderzoekers; lezen alleen, schrijven nooit, kennen geen waarderingen toe
 - Mark = enige beslisser en enige beoordelaar
 
 ---
 
-## HET SJABLOON
+## HET PROTOCOL
 
-INDIA 2 vult alle `{{...}}` in en levert het resultaat als één kopieerbaar codeblok. Mark plakt dat blok ongewijzigd in Perplexity én in Gemini.
+INDIA 2 vult alle `{{...}}` in en levert het resultaat als één kopieerbaar codeblok. Mark plakt dat blok ongewijzigd in elke externe AI.
 
 ```text
 Jij voert één afgebakende BASIS-SWEEP uit voor een spirituele pelgrimsreis door India.
 
-Je hebt GEEN toegang tot een repository nodig. Alle projectcontext staat hieronder.
-Je taak is uitsluitend internetonderzoek met controleerbare bronnen.
+Je hebt GEEN GitHub-toegang nodig. Alle context staat hieronder.
+Je taak is uitsluitend actueel internetonderzoek met controleerbare bronnen.
 
-========================================
-PROJECTCONTEXT
-========================================
+=== BRONREGELS (hier valt of staat je rapport) ===
+
+VERPLICHT PER KANDIDAAT
+Elke kandidaat in sectie B moet minimaal één PRIMAIRE of INSTITUTIONELE bron hebben
+met een aanklikbare link. Alleen wanneer zo'n bron aantoonbaar niet bestaat, mag je
+één SECUNDAIRE bron gebruiken - expliciet vermeld en gemotiveerd.
+
+Een kandidaat met alleen een ZWAKKE bron hoort NIET in sectie B of C, maar uitsluitend
+in sectie F.
+
+BRONHIERARCHIE (label elke bron)
+- PRIMAIR: officiële tempel-, ashram- of beheerderswebsite; primair geschrift;
+  institutioneel archief.
+- INSTITUTIONEEL: overheid, Archaeological Survey of India, museum,
+  erfgoedorganisatie, universiteit.
+- SECUNDAIR: serieuze journalistiek, gepubliceerd historisch onderzoek.
+- ZWAK: reisblog, YouTube, commerciële reissite, forum. (Alleen sectie F.)
+
+GELDEN NIET ALS BRON
+- Google Search-resultaten, AI-overzichten, zoekpagina's.
+- Wikipedia - gebruik het als navigatie NAAR de oorspronkelijke bron, en citeer die.
+- Commerciële reis- of boekingssites voor historische of spirituele claims.
+
+LINK NAAR DE JUISTE PAGINA
+Een algemene homepage geldt alleen als bron wanneer de relevante informatie daar
+direct zichtbaar is. Link anders naar de specifieke onderliggende pagina.
+
+BRONONDERSTEUNING PER FEIT, NIET ALLEEN PER PLEK
+Praktische en historische gegevens - openingstijden, bouwjaar, oprichtingsjaar,
+afstanden, reistijden, verblijfsmogelijkheden, historische gebeurtenissen - mag je
+alleen noemen als de aangehaalde bron die informatie daadwerkelijk bevat. Vul niets
+aan uit eigen kennis. Weet je het niet: schrijf "niet gevonden in bron".
+
+NEGATIEVE RESULTATEN ZIJN GELDIG EN VERPLICHT
+Heb je bewust gezocht en niets betrouwbaars gevonden: meld dat expliciet. "Niets
+gevonden" is een goed antwoord. Vul nooit op om een sectie te vullen. Blaas niets op.
+Presenteer geen alias als nieuwe vondst.
+
+=== PROJECTCONTEXT ===
 {{PROJECT_CONTEXT}}
-(doel van de reis; reisperiode)
+(doel van de reis; reisperiode; spirituele lijn van Mark)
 
-========================================
-HUIDIGE FASE
-========================================
-{{CURRENT_PHASE}}
-(huidige projectfase; waarom juist dit cluster nu aan de beurt is)
+Het onderzoeksobject is ALTIJD de fysiek bestaande, bezoekbare plek. Personen en
+lijnen zijn alleen DETECTOREN om plekken te vinden.
 
-========================================
-DOELCLUSTER
-========================================
-{{CLUSTER}}
-(naam; kernplaatsen; vorige cluster; volgende cluster)
+Centrale vraag: niet "welke beroemde heiligen horen bij dit gebied?" maar
+"Welke fysieke plek heeft betekenis wanneer Mark daar werkelijk staat?"
 
-========================================
-WAT AL BEKEND IS
-========================================
-{{CURRENT_GITHUB_STATUS}}
-(reeds vastgelegde locaties en hun status in dit cluster; bekende kandidaten;
-bekende ashrams; open beslissingen. Dit is wat al onderzocht is - zoek naar wat
-hier NIET staat.)
+Ken GEEN waarderingen toe. Dat doet alleen Mark.
 
-========================================
-PERSOONLIJKE PRIORITEITSINDEX
-========================================
+=== AOAY - DWINGEND IN ELK CLUSTER ===
+"Autobiography of a Yogi" van Paramahansa Yogananda is de kernbron van dit project.
+
+VERPLICHTE CONTROLE: zoek systematisch of er in of rond dit cluster plekken liggen die
+in de AOAY voorkomen - hoe klein of terloops ook genoemd.
+
+Denk aan: tempels waar Yogananda iemand bezocht; huizen waar hij logeerde; plaatsen
+waar hij een heilige ontmoette; plekken waar een gebeurtenis uit het boek zich
+afspeelde; verblijfplaatsen van Sri Yukteswar, Lahiri Mahasaya of Babaji; en van
+heiligen die maar één hoofdstuk lang voorkomen.
+
+UITZONDERING OP DE GROOTTE-REGEL: bij AOAY-plekken telt grootte NIET. Een klein,
+onbekend tempeltje waar Yogananda werkelijk geweest is, is voor Mark een bestemming.
+De fysieke voetstap maakt de plek, niet de omvang of bekendheid.
+
+Is zo'n plek nog fysiek te bezoeken - ook al is het een straat, een huis, of een
+tempeltje dat niemand kent - dan MOET Mark erop gewezen worden.
+
+Meld expliciet in sectie D, ook als het antwoord nee is.
+
+=== PRIORITEITSINDEX (detectoren, geen filter) ===
 {{PRIORITY_INDEX}}
-(de vaste persoonlijke index; hoger = sterkere persoonlijke aantrekking. Gebruik
-deze personen als DETECTOR om plekken te vinden. Het onderzoeksobject is altijd
-de fysieke, bezoekbare PLEK - nooit de persoon zelf.)
 
-========================================
-ONDERZOEKSNIVEAU - DRIE GEOGRAFISCHE LAGEN
-========================================
-1. KERN: de kernplaatsen zelf en hun directe omgeving.
-2. CLUSTERZONE: relevante plekken binnen grofweg twee uur reizen vanaf een
-   vermoedelijke centrale basis.
-3. ROUTECORRIDOR: relevante plekken die logisch liggen tussen het vorige cluster,
-   dit cluster en het volgende cluster.
+DRIE REGELS, IN DEZE VOLGORDE:
 
-Zoek systematisch naar: directe levensplaatsen, woonhuizen, geboorteplaatsen en
-samadhi-plaatsen; aantoonbare gebeurtenisplekken; grotten, tempels, ghats,
-shrines, ashrams en historische gebouwen; plekken gekoppeld aan de
-prioriteitsindex; minder bekende maar fysiek bezoekbare plekken; authentieke
-levende ashrams die de route of verblijfsduur mogelijk kunnen veranderen;
-belangrijke plaatsen in de omgeving die inhoudelijk sterker kunnen zijn dan de
-hoofdplaats zelf; logische tussenstops in de routecorridor.
+1. DE KRACHT VAN DE PLEK WEEGT HET ZWAARST - niet de positie van de persoon. Een
+   kleine, onbeduidende plek van een hoog geplaatste persoon weegt minder dan een
+   grote, levende, betekenisvolle plek van een lager geplaatste persoon.
 
-========================================
-HARD ONDERSCHEID - VERPLICHT PER BEWERING
-========================================
-Markeer duidelijk het verschil tussen:
-- FEIT: historisch of praktisch verifieerbaar;
-- TRADITIECLAIM: door een lijn of gemeenschap overgeleverd, niet onafhankelijk
-  vastgesteld;
-- PERSOONLIJKE ERVARING: getuigenis of spirituele duiding;
-- LOGISTIEKE INSCHATTING: reistijd of haalbaarheid die later exact moet worden
-  gecontroleerd.
+2. DE POSITIE IS EEN WEEGFACTOR BIJ GELIJKE PLEK-KRACHT, geen automatische rangorde.
+   Een lage positie betekent niet dat de persoon minder waard is.
 
-Een groot verhaal zonder aanwijsbare fysieke plek haalt de bezoekbaarheidspoort
-niet.
+3. DE INDEX IS NIET UITPUTTEND. Vind je een krachtige plek van een heilige, traditie
+   of religie die NIET in deze lijst staat - meld hem toch. Mark wil daar mogelijk
+   ook heen. De index helpt plekken VINDEN; hij sluit niets uit.
 
-========================================
-BRONREGELS
-========================================
-Geef prioriteit aan: (1) officiële beheerders, ashrams, tempels, musea,
-overheden, archeologische instanties; (2) primaire geschriften en institutionele
-archieven; (3) betrouwbare historische of wetenschappelijke bronnen; (4) pas
-daarna lokale reisbronnen, blogs en video's voor praktische aanwijzingen.
+=== DOELCLUSTER ===
+{{CLUSTER}}
+(naam; kernplaatsen; vorige cluster; volgende cluster; bijzondere context, zoals:
+welke plaatsen zijn nog niet gekozen en moeten zichzelf bewijzen)
 
-Neem commerciële reisbureauteksten niet zonder controle over. Noem onzekerheden
-expliciet. Verzin GEEN coördinaten, toegang, openingstijden of gebeurtenissen.
-Geef per vondst je bron.
+=== AL VASTGELEGD (niet herbeoordelen, wel bronmateriaal leveren) ===
+{{CURRENT_STATUS}}
+(bestaande A/B/C-locaties in dit cluster; wat nog helemaal open is)
 
-========================================
-VOORKOM DUBBELING EN INFLATIE
-========================================
-Controleer per vondst: is dit werkelijk een afzonderlijke fysieke plek, of een
-onderdeel van een groter complex? Is de historische gebeurtenis aan deze exacte
-plek gekoppeld? Is het de originele locatie, een latere gedenkplek, of alleen een
-moderne organisatie? Bestaat de plek al onder een andere naam of spelling?
-Voegt de plek inhoud toe, of blaast hij de lijst kunstmatig op?
+Lever voor de al vastgelegde plekken bronnen en fysieke status. Geef GEEN waardering
+en GEEN advies over hun status.
 
-Gebruik volledige namen; geen onverklaarde afkortingen.
+=== ZOEK ACTIEF BUITEN DE CONTROLELIJST ===
+De controlelijst (sectie G) is de ONDERGRENS, niet het werk. Zoek gericht naar plekken
+die er NIET op staan: kleine ashrams, samadhi-plaatsen, minder bekende ghats,
+verblijfplaatsen van heiligen, AOAY-plekken, plekken die alleen in lijn-eigen bronnen
+voorkomen.
 
-========================================
-WAT JE NIET DOET
-========================================
-{{PROJECT_RULES}}
-- Ken GEEN waarderingen toe (dat doet alleen Mark).
-- Kies GEEN hotels.
-- Bepaal GEEN aantallen nachten.
-- Leg GEEN definitieve route vast.
-- Maak GEEN dagplanning.
-- Schrijf niet alsof Mark al besloten heeft.
+Vind je er weinig of geen met voldoende bronkwaliteit: meld dat eerlijk. Een korte,
+goed onderbouwde lijst is beter dan een lange lijst met zwakke vondsten.
 
-========================================
-GEWENSTE UITVOER
-========================================
-{{OUTPUT_FORMAT}}
+=== HARD ONDERSCHEID (verplicht per bewering) ===
+FEIT: verifieerbaar (historisch, geografisch, praktisch), met bron.
+TRADITIECLAIM: overgeleverd door een lijn of gemeenschap, niet onafhankelijk
+vastgesteld. Noem altijd WELKE traditie de claim draagt.
 
-A. CLUSTERDEFINITIE
-   Wat valt geografisch en inhoudelijk onder dit cluster? Wat hoort er NIET bij
-   en waarom niet?
+Presenteer nooit een moderne gedenkplek, vijver, boom of tempel als de ongewijzigde
+oorspronkelijke gebeurtenisplek, tenzij een bron dat aantoont.
+
+Een groot verhaal zonder fysiek aanwijsbare, bezoekbare plek haalt de
+bezoekbaarheidspoort niet.
+
+=== WAT JE NIET DOET ===
+Geen waarderingen toekennen of adviseren. Geen hotels, nachten, dagplanning, route of
+vervoer. Geen prijzen of kamers vergelijken. Niet aannemen dat Mark alle gevonden
+plekken bezoekt. Geen traditieclaim als feit presenteren.
+
+=== GEWENSTE UITVOER ===
+
+A. TELLING
+Zet deze sectie bovenaan je antwoord, maar vul hem pas in NADAT je onderzoek af is.
+- Aantal kandidaten in sectie B: ...
+- Waarvan met primaire of institutionele bron: ...
+- Waarvan met alleen een secundaire bron (met motivatie): ...
+- Aantal kandidaten buiten de vaste controlelijst: ...
+- Aantal namen uit de vaste controlelijst behandeld: ... van {{AANTAL_CONTROLELIJST}}
+- Aantal keer "niets betrouwbaars gevonden": ...
+- AOAY-plekken gevonden: ...
 
 B. KANDIDATENKAART
-   Per fysieke plek een afzonderlijk blok:
-   NAAM:
-   ALIASES/SPELLINGEN:
-   LAAG: kern / clusterzone / routecorridor
-   WAT IS HET:
-   WIE OF WELKE LIJN:
-   WAAROM RELEVANT:
-   FYSIEKE STATUS EN BEZOEKBAARHEID:
-   FEIT / TRADITIECLAIM / PERSOONLIJKE ERVARING:
-   GLOBALE LIGGING TEN OPZICHTE VAN HET CLUSTER:
-   BRON (met link):
-   ZEKERHEID: hoog / middel / laag
-   NOG LATER TE VERIFIEREN:
+Per fysieke plek, precies deze velden:
 
-C. ASHRAMS EN BIJZONDERE VERBLIJFSERVARINGEN
-   Welke authentieke ashrams bestaan? Welke kunnen mogelijk routevormend zijn
-   (dus: een verblijf waard, niet alleen een bezoek)? Welke zijn alleen modern of
-   organisatorisch? Welke vragen moeten later nog worden geverifieerd?
+NAAM:
+ALIASES:
+LAAG: kern / clusterzone (ongeveer 2 uur) / routecorridor
+STATUS: bestaande waardering indien bekend, anders "nieuw"
+WAT IS HET:
+DETECTOR (welke persoon of lijn - of: AOAY, hoofdstuk indien bekend):
+UNIEKE INHOUD (wat voegt deze plek toe dat een andere niet heeft):
+FYSIEK BEZOEKBAAR:
+FEIT vs TRADITIECLAIM (scheid expliciet):
+BRON (aanklikbare link naar de specifieke pagina):
+BRONKWALITEIT: primair / institutioneel / secundair
+ZEKERHEID: hoog / middel / laag
+  (ZEKERHEID gaat over de bewijssterkte van de fysieke en historische gegevens, NIET
+  over de religieuze waarheid van een traditieclaim.)
 
-D. OMGEVING EN ROUTECORRIDOR
-   Welke sterke plekken liggen buiten de kern maar binnen circa twee uur? Welke
-   betekenisvolle tussenstops liggen logisch op de aan- of afreisroute? Welke
-   genoemde plekken zijn juist te ver en vormen een afzonderlijke module?
+C. VONDSTEN BUITEN DE CONTROLELIJST
+Tabel, GEEN herhaling van de volledige velden uit B:
+| Naam | Verwijzing naar B | Waarom buiten de lijst gevonden | Gebruikte zoekrichting |
 
-E. COMPLEETHEIDSCONTROLE
-   Welke personen uit de prioriteitsindex zijn systematisch gecontroleerd? Welke
-   zoekrichtingen leverden niets op? Welk risico op gemiste obscure plekken
-   blijft bestaan?
+Vond je er geen of weinig met voldoende bronkwaliteit: zeg dat, en beschrijf welke
+zoekrichtingen je hebt geprobeerd.
 
-F. BASISCONCLUSIE
-   Is de kandidatenkaart compleet genoeg om de locaties te laten beoordelen?
-   Welke maximaal vijf open vragen blokkeren die beoordeling nog?
+D. AOAY-CONTROLE (verplicht, ook bij negatief resultaat)
+"AOAY-controle uitgevoerd. Gecontroleerd: [wat je hebt onderzocht]. Gevonden:
+[plekken met verwijzing naar B, of: geen bezoekbare AOAY-plekken in dit cluster]."
 
-Eindig met "BASIS-SWEEP COMPLEET" of "BASIS-SWEEP NOG NIET COMPLEET - BLOKKERS: ..."
+E. PRIORITEITSINDEX-TABEL (alle personen, geen veld leeg)
+| # | Persoon | Fysieke plek in dit cluster? | Welke | Bron | Bronkwaliteit |
+Loop de hele index langs. "Nee, niets gevonden" is een geldig en gewenst antwoord.
+
+Noem hier ook plekken van heiligen of tradities BUITEN de index die je krachtig genoeg
+vindt om te melden (regel 3).
+
+F. ONZEKER OF ONGEVERIFIEERD
+Plekken die je tegenkwam maar niet kon staven met een aanvaardbare bron, of die alleen
+een zwakke bron hebben. Noem ze hier, niet in B. Vermeld wat je wél vond en waarom het
+onvoldoende is.
+
+G. CONTROLELIJST - AFVINKEN
+{{CONTROLELIJST}}
+(per plaats de bekende namen; INDIA 2 stelt deze samen uit GitHub en eigen kennis;
+vermeld het aantal per plaats)
+
+Behandel elke naam. Zeg per naam: zelfstandige kandidaat / onderdeel van groter
+complex / alias / geen fysieke plek / bewust weggelaten (met reden).
+
+H. DUBBELINGEN OPLOSSEN
+{{DUBBELINGEN}}
+(clusterspecifieke dubbelingsvragen; INDIA 2 formuleert deze op basis van bekende
+alias- en complexrisico's in dit cluster)
+
+Neem niet elke beroemde tempel automatisch op. Toon per kandidaat welke UNIEKE inhoud
+hij toevoegt.
+
+I. ASHRAMS - ROUTEVORMENDE TOETS
+Onderzoek ashrams niet als goedkoop hotel, maar als mogelijke spirituele
+verblijfservaring. Per ashram: relatie met de prioriteitsindex of AOAY; historisch
+origineel of modern centrum; dagbezoek, gastenverblijf of retreat; kan verblijf de
+inhoud of duur van het cluster veranderen; wat moet later nog worden geverifieerd.
+
+{{ASHRAMS_MINIMAAL}}
+(minimaal te behandelen ashrams in dit cluster)
+
+Vergelijk geen kamers of prijzen.
+
+J. BASISCONCLUSIE
+1. Is de kandidatenkaart compleet genoeg om Mark de locaties te laten beoordelen?
+2. Maximaal vijf open onderzoeksvragen die dat nog blokkeren.
+3. Welke plekken lijken inhoudelijk uniek? (geen waarderingsadvies)
+
+Eindig met exact één van deze regels:
+BASIS-SWEEP COMPLEET
+BASIS-SWEEP NOG NIET COMPLEET - BLOKKERS: <maximaal vijf>
 ```
 
 ---
 
-## Vergelijkprotocol (INDIA 2 na ontvangst van beide rapporten)
+## Vergelijkprotocol (na ontvangst van meerdere rapporten)
 
-| Controle | Perplexity | Gemini |
-|---|---|---|
-| Gemiste kernlocaties | | |
-| Nieuwe kandidaten gevonden | | |
-| Bronkwaliteit | | |
-| Feit/traditie correct gescheiden | | |
-| Aliasfouten | | |
-| Dubbeltellingen | | |
-| Hallucinaties (verzonnen details) | | |
-| Bruikbaarheid van het rapport | | |
+Gebruik hiervoor een APARTE, wegwerpbare chat - niet INDIA 2. Meerdere lange rapporten vullen de context, en INDIA 2 moet schoon blijven voor de regie.
 
-Oordeel per sweep: beide goed / Perplexity beter / Gemini beter / beide onvoldoende.
+Scoor elke AI op zes punten:
+
+| Controle | Wat je beoordeelt |
+|---|---|
+| Recall | Aantal kandidaten; aantal controlelijst-namen behandeld; unieke vondsten die anderen missen |
+| Bronkwaliteit | Aanklikbare links? Primair/institutioneel of overwegend blogs? Kandidaten zonder bron? |
+| Hallucinatie | Verdacht precieze data zonder bron? Traditieclaims als feit? Plekken die geen enkele andere AI kent? |
+| Structuurdiscipline | Uitvoerstructuur gevolgd? Afgekapt? Velden opgevuld met lege frasen? |
+| Feit vs traditieclaim | Consequent onderscheiden, of alleen waar het makkelijk is? |
+| Dubbelingen | Zijn de gestelde dubbelingsvragen opgelost? Wordt één complex kunstmatig als meerdere bestemmingen geteld? |
 
 Beslisregels:
-- Een vondst die maar één AI heeft, blijft behouden als kandidaat (dat is juist de winst van twee onderzoekers).
-- Tegenspraak over een feit → INDIA 2 zoekt uit, of het wordt een open vraag.
-- Beide missen iets dat Mark verwacht → extra gerichte ronde.
-- Een AI die plekken verzint of geen bronnen geeft → ongeschikt, meld dit aan Mark.
+- Een vondst die maar één AI heeft, blijft behouden als kandidaat - dat is de winst van meerdere onderzoekers. Maar markeer hem als te verifiëren.
+- Tegenspraak over een feit: INDIA 2 zoekt uit, of het wordt een open vraag.
+- Een AI die plekken verzint of geen bronnen geeft is ongeschikt, hoe uitgebreid zijn rapport ook oogt.
+- Een AI die weigert te werken zonder zoekresultaten (zoals Copilot deed) valt af.

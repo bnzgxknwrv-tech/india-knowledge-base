@@ -25,5 +25,16 @@ Shri Mataji Nirmala Devi staat niet in deze hoofdindex. Haar Mahasamadhi-locatie
 ## Regel voor AI's
 Deze volgorde is van Mark en ligt vast. Een AI mag hem niet herordenen, niet aanvullen, niet interpreteren en niet inkorten. Alleen Mark wijzigt de index, uitsluitend op zijn expliciete instructie, vastgelegd als een DECISION-record.
 
-## Hoe te gebruiken
-Hoger in de index betekent sterkere persoonlijke aantrekking. Dit is een weegfactor in de spirituele dichtheid van een plek; het vervangt de bezoekbaarheidspoort niet en bepaalt geen waardering. Mark kent waarderingen toe; AI's gebruiken de index alleen als weegfactor in hun onderbouwing.
+## Hoe te gebruiken - DRIE REGELS, IN DEZE VOLGORDE
+
+### 1. De kracht van de PLEK weegt het zwaarst
+Niet de positie van de persoon. Een kleine, onbeduidende plek van een hoog geplaatste persoon weegt MINDER dan een grote, levende, betekenisvolle plek van een lager geplaatste persoon. Voorbeeld: een klein YSS-centrum (Yogananda, positie 1) weegt minder dan een grote Krishna-tempel (positie 13) waar heel India naartoe komt. De index detecteert plekken; hij bepaalt niet automatisch hun waarde.
+
+### 2. De positie is een weegfactor BIJ GELIJKE plek-kracht
+Een lagere positie betekent sterkere persoonlijke aantrekking, maar dat is geen automatische rangorde bij keuzes. Krishna staat op 13 omdat Mark er weinig concreet beeld bij had - NIET omdat Krishna minder waard is. Een prachtige Krishna-tempel is even sterk als welke andere krachtplek dan ook.
+
+### 3. De index is NIET uitputtend
+Wordt een krachtige, betekenisvolle plek gevonden van een heilige, traditie of religie die NIET in deze index staat, dan moet die tóch gemeld worden. Mark wil daar mogelijk ook heen. De index helpt plekken VINDEN; hij sluit niets uit. (Voorbeeld: Bodh Gaya werd een A-cluster puur door de kracht van de plek zelf.)
+
+### Overige
+De index vervangt de bezoekbaarheidspoort niet en bepaalt geen waardering. Mark kent waarderingen toe; AI's gebruiken de index alleen als weegfactor in hun onderbouwing.
