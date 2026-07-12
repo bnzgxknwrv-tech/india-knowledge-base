@@ -1,52 +1,59 @@
-# PIPELINE_CONTRACT
+# PIPELINE_CONTRACT v2.0
 
-## 1. Eén rapport, drie kwaliteitsfasen
-De invoer van ZILVER is het volledige BRONS-rapport. De invoer van GOUD is het volledige ZILVER-rapport. Iedere rol herschrijft het hele rapport; geen rol levert alleen commentaar.
+## 1. Eén run, drie volledige faseversies
 
-## 2. Repository is leidend
-De actuele regels en projectfeiten in GitHub gaan vóór instructies, aannames of conclusies in de aangeleverde voorgangertekst. Conflicten worden in het rapport gecorrigeerd of als onzekerheid vastgelegd.
+BRONS, ZILVER en GOUD maken geen concurrerende rapporten. Iedere fase bouwt een volledige eigen versie in dezelfde geïsoleerde runmap. De voorganger blijft ongewijzigd beschikbaar voor controle.
 
-## 3. Onderzoeksobject
-Alleen een fysiek bestaande, aanwijsbare plek kan kandidaat zijn. Personen, boeken en tradities zijn detectoren. Geen identificeerbare huidige plek betekent geen kandidaat.
+## 2. GitHub is de enige IPC
 
-## 4. Bewijspoorten
-Een kandidaat haalt de kandidatenkaart alleen wanneer afzonderlijk is onderzocht:
-1. fysieke identiteit of ligging;
-2. historische, spirituele of tekstuele relatie;
-3. actuele bezoekbaarheid.
+Een chat is een tijdelijke worker. Geen rapport, bronnenlijst, onzekerheid of beslissing mag alleen in de chat bestaan. De volgende rol haalt de volledige voorgangeroutput uit GitHub via een gepind contextmanifest.
 
-Wanneer alleen 1 en 2 betrouwbaar zijn bevestigd, schrijf exact:
+## 3. Modelonafhankelijke rollen
+
+Iedere AI met bewezen GitHub-lees- en schrijfrechten kan BRONS, ZILVER of GOUD uitvoeren. De activatie noemt exact één run-id en één rol. Het model ontleent zijn gedrag uitsluitend aan de gepinde repositorycontracten.
+
+## 4. Deterministische context
+
+Geen rol leest de volledige repository of kiest vrij interne bestanden. Iedere rol leest exact haar contextmanifest en stopt bij ontbrekende, gewijzigde of afgeknotte required files.
+
+## 5. Onderzoeksobject en methodologie
+
+Alleen een fysiek aanwijsbare huidige plaats kan kandidaat zijn. Methodology v2.0 behandelt fysieke identiteit, institutionele identiteit, historische identiteit, traditie, lineage, levende praktijk, bezoekbaarheid en getuigenissen als afzonderlijke lagen.
+
+Verschillende onderbouwingstypen worden nooit gecombineerd tot een score. Een mythische of bovennatuurlijke figuur wordt onderzocht via gedragen traditie en lineage, niet via een onmogelijke klassieke biografische bewijsproef.
+
+## 6. Projectoverlays
+
+Overlays zijn projectspecifieke relaties en staan buiten de generieke methodologie. Zij kennen geen waarde of prioriteit toe. AOAY gebruikt dubbele controle: tekstuele vermelding én afzonderlijke fysieke identificatie.
+
+## 7. Claims en bronnen
+
+Iedere materiële claim is atomair, heeft een claimtype, bewijsstatus en bestaande source_id. Lijn-eigen of institutionele bronnen worden gebruikt voor het type claim dat zij werkelijk kunnen dragen.
+
+## 8. Bezoekbaarheid
+
+Fysiek bestaan, levende spirituele functie en actuele toegang zijn afzonderlijke vragen. Wanneer actuele toegang niet betrouwbaar is vastgesteld, wordt exact geschreven:
 
 `Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.`
 
-Geen bron of onvoldoende verificatie betekent: `niet vastgesteld`, met reden en ontbrekende verificatie.
+## 9. Geen waardering
 
-## 5. Bronnen
-Gebruik per claim de sterkst beschikbare specifieke bron:
-- PRIMAIR: beheerder, officiële lijnbron, primair document of institutioneel archief;
-- INSTITUTIONEEL: overheid, museum, universiteit, erfgoed- of archeologie-instantie;
-- SECUNDAIR: degelijk gepubliceerd onderzoek of serieuze journalistiek;
-- ZWAK: reisblog, commerciële reissite, forum, sociale media of video zonder gezaghebbende documentatie.
+Alleen Mark kent A/B/C toe. Rollen maken geen totaalscore, projectrelevantie, impliciete rangorde, route- of verblijfsadvies. Nieuwe kandidaten blijven ONGEMERKT.
 
-Google-resultaten, AI-overzichten en Wikipedia zijn geen eindbron. Een zwakke bron kan alleen een zoekrichting opleveren en draagt geen kandidaat.
+## 10. Claim-lock, pinning en stopvoorwaarden
 
-Een religieuze of lijn-eigen bron kan een traditieclaim dragen, maar bewijst niet zelfstandig dat de huidige fysieke plek dezelfde historische gebeurtenisplek is.
+Geen fase start zonder geldige claim, overeenkomende source commit, expected state en outputpad. Stop bij write-tekort, bestaande claim, SHA-afwijking, contextgat, truncatie of state/event-desynchronisatie.
 
-## 6. AOAY-dubbele bewijsvoering
-Voor een plek uit `Autobiography of a Yogi` zijn beide nodig:
-- de gebeurtenis daadwerkelijk in een controleerbare boekeditie of officiële Yogananda-bron;
-- onafhankelijke identificatie van de huidige fysieke locatie.
+## 11. Volledige maar opgesplitste output
 
-Ontbreekt de tweede stap, dan blijft de vermelding onzeker en komt zij niet als bevestigde AOAY-kandidaat in de kandidatenkaart.
+Een fase-output is logisch volledig en fysiek opgesplitst via `report/INDEX.md`. Geen primair bestand boven 1500 regels. Iedere tekstartifact eindigt met `END_OF_ARTIFACT`. `REPORT_ASSEMBLED.md` is alleen een optionele afgeleide menselijke view.
 
-## 7. Geen waardering of reisadvies
-Alleen Mark kent A/B/C toe. Nieuwe plekken zijn `ONGEMERKT`. Rollen geven geen bezoekadvies, route, nachten, hotels, vervoer, prijzen of dagindeling, tenzij een later expliciet projectprotocol dat toestaat.
+## 12. Handoff en vrijgave
 
-## 8. Geen verlies van geldige inhoud
-Een volgende fase mag correcte, unieke en onderbouwde inhoud uit de voorganger niet verwijderen zonder inhoudelijke reden. Verwijdering, samenvoeging of verplaatsing moet uit bewijs, duplicatie of scope volgen.
+Iedere fase schrijft manifest, claims, bronnen, audit, handoff en COMPLETED. GOUD geeft `PASS`, `PARTIAL` of `BLOCKED`. Alleen GOUD gaat naar de regisseur, via run-id, commit en manifestpad.
 
-## 9. Volledige vervanging
-De uitvoer bevat uitsluitend de volledige nieuwe rapportversie. Geen voorwoord, veranderlog, beoordeling van de voorganger of uitleg aan Mark.
+## 13. Geen protocolmutatie tijdens uitvoering
 
-## 10. Eerlijk einde
-Een rapport mag alleen `BASIS-SWEEP COMPLEET` verklaren wanneer alle geldende kwaliteitscontroles aantoonbaar zijn gehaald. Anders vermeldt het concrete blokkers.
+Een uitvoerende rol wijzigt niet tegelijk haar eigen regels. Verbeteringen door India2, Claude, ChatGPT of andere bevoegde schrijvers gebeuren als afzonderlijke commit of pull request en gelden alleen voor nieuwe of expliciet gemigreerde runs.
+
+END_OF_ARTIFACT
