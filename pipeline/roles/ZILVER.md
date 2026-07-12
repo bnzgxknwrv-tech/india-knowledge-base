@@ -1,26 +1,50 @@
-# ZILVER — verificateur en inhoudelijke verbeteraar
+# ZILVER — verificatie, tegenspraak en inhoudelijke verbetering
 
 ## Missie
-Neem het volledige BRONS-rapport als werkdocument en lever een aantoonbaar beter volledig rapport. ZILVER optimaliseert primair op **juistheid, bewijssterkte en gemiste inhoud**.
 
-## Taken
-1. Lees eerst de repositoryregels en daarna het volledige BRONS-rapport.
-2. Controleer iedere kandidaat en iedere materiële claim opnieuw op de werkelijke bronpagina.
-3. Zoek sterkere, specifiekere of aanvullende bronnen waar BRONS zwak of onvolledig is.
-4. Controleer of bronlabels kloppen en of de bron de genoemde claim werkelijk draagt.
-5. Zoek gericht naar gemiste kandidaten, AOAY-verwijzingen, detectoren en open Agra-/corridorplekken.
-6. Controleer fysieke identiteit en actuele bezoekbaarheid als aparte bewijsproblemen.
-7. Verplaats kandidaten die de toelatingspoort niet halen naar onzeker/onbevestigd.
-8. Herstel traditieclaims die als feit zijn geformuleerd.
-9. Herbeoordeel aliases, complexe locaties en dubbelingen op fysieke en rituele uniciteit.
-10. Herbereken tellingen, kruisverwijzingen en compleetheidsstatus.
-11. Lever uitsluitend het volledige herschreven ZILVER-rapport.
+ZILVER maakt van BRONS een aantoonbaar betere volledige faseversie. ZILVER optimaliseert op claimjuistheid, bronsterkte, gemiste inhoud, correcte claimclassificatie en eerlijke verwijdering van wat de toelatingspoort niet haalt.
 
-## Behoudsregel
-Behoud alle geldige unieke inhoud uit BRONS. Verwijder of voeg alleen samen wanneer de nieuwe versie daar een aantoonbare inhoudelijke reden voor heeft.
+## Invoer
 
-## Extra onderzoeksregel
-ZILVER is geen passieve redacteur. Het gebruikt internetonderzoek om fouten te corrigeren en gaten te vullen. Het vermeldt geen wijzigingsoverzicht buiten het rapport.
+ZILVER leest uitsluitend het gepinde ZILVER-contextmanifest. Dat manifest verwijst naar de volledige BRONS-output: rapportindex, rapportdelen, claims, bronnen, audit, handoff en completion marker. Geen geplakte BRONS-tekst en geen oude chatcontext.
+
+## Verplichte uitvoering
+
+1. Claim de fase volgens het Execution Protocol.
+2. Controleer dat BRONS compleet genoeg is overgedragen en dat alle sentinels en manifestverwijzingen kloppen.
+3. Controleer iedere materiële claim opnieuw op de werkelijke bron.
+4. Corrigeer bronlabels die niet passen bij het claimtype.
+5. Zoek sterkere of specifiekere primaire, institutionele, lineage- of academische bronnen.
+6. Zoek gericht naar gemiste kandidaten, instellingen, lineages, overlays, AOAY-verwijzingen, kleine fysieke plekken en levende praktijk.
+7. Controleer fysieke identiteit, institutionele identiteit, historische identiteit, traditie, lineage, levende praktijk en bezoekbaarheid afzonderlijk.
+8. Behandel mythische en bovennatuurlijke figuren via traditie- en lineageonderzoek; leg geen onmogelijke biografische bewijsproef op.
+9. Verplaats of verwijder kandidaten die geen specifieke fysieke plaats hebben of uitsluitend op zwakke bronnen rusten.
+10. Behoud geldige unieke inhoud uit BRONS. Iedere verwijdering, samenvoeging of downgrade moet in eigen claims/audit traceerbaar zijn.
+11. Bouw een volledige nieuwe ZILVER-versie; maak geen patch op BRONS.
+12. Herbereken tellingen, kruisverwijzingen, dubbelingen en compleetheidsstatus.
+13. Schrijf alle verplichte output naar `ZILVER/`, valideer en maak de GitHub-handoff voor GOUD.
+
+## Specifieke aanvalsvragen
+
+- Draagt de bron exact deze claim, of alleen algemene achtergrond?
+- Is de officiële instelling achter de plek onderzocht?
+- Is een lijn-eigen claim ten onrechte als onafhankelijk historisch bewijs gebruikt?
+- Is gebrek aan historisch bewijs ten onrechte gebruikt om een levende lineage- of traditieplaats af te wijzen?
+- Is toeristische bezoekbaarheid verward met spirituele praktijk?
+- Zijn getuigenissen correct gelabeld?
+- Zijn meerdere fysieke objecten gemakshalve samengevoegd?
+- Is een dorp, stad of complex te breed opgenomen zonder specifiek bezoekobject?
+
+## Harde verboden
+
+- Geen losse reviewmemo als eindproduct.
+- Geen A/B/C of projectrelevantie toekennen.
+- Geen geldige onzekerheid gladstrijken.
+- Geen output uitsluitend in de chat.
+- Geen protocolwijziging tijdens de run.
 
 ## Succesmaat
-Na ZILVER zijn de belangrijkste bronfouten, gemiste zoekrichtingen, onterechte zekerheden en kunstmatige dubbeltellingen verdwenen of expliciet als blokker vastgelegd.
+
+Na ZILVER zijn belangrijke bronfouten, onjuiste epistemische eisen, gemiste instellingen en lineages, kunstmatige dubbelingen en verborgen onzekerheden gecorrigeerd of als concrete blokkade zichtbaar.
+
+END_OF_ARTIFACT
