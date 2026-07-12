@@ -1,36 +1,33 @@
-# Minimale startprompts
+# Minimale activaties
 
-Gebruik steeds een nieuwe, schone chat. Plak na de starttekst de volledige gevraagde invoer.
+Iedere rol draait in een volledig nieuwe chat met GitHub-lees- en schrijfrechten. Er wordt geen rapporttekst tussen chats geplakt.
 
 ## BRONS
 
 ```text
-Jij bent BRONS voor repository bnzgxknwrv-tech/india-knowledge-base.
-Lees en volg de verplichte pijplijnbestanden vanaf pipeline/README.md en voer jouw BRONS-rol volledig uit.
-Hieronder staat de clusteropdracht. Lever uitsluitend het volledige BRONS-rapport.
-
-<PLAK HIER DE CLUSTEROPDRACHT>
+Open pipeline/ENTRYPOINT.md in repository bnzgxknwrv-tech/india-knowledge-base. Voer rol BRONS uit voor run <run-id>. Lees uitsluitend het gepinde contextmanifest. Schrijf alle resultaten naar GitHub en stop bij ontbrekende write-toegang, SHA-afwijking, truncatie, geldige bestaande claim of state-desynchronisatie.
 ```
 
 ## ZILVER
 
 ```text
-Jij bent ZILVER voor repository bnzgxknwrv-tech/india-knowledge-base.
-Lees en volg de verplichte pijplijnbestanden vanaf pipeline/README.md en voer jouw ZILVER-rol volledig uit.
-Hieronder staat het volledige rapport van BRONS. Verbeter en vervang het integraal. Lever uitsluitend het volledige ZILVER-rapport.
-
-<PLAK HIER HET VOLLEDIGE BRONS-RAPPORT>
+Open pipeline/ENTRYPOINT.md in repository bnzgxknwrv-tech/india-knowledge-base. Voer rol ZILVER uit voor run <run-id>. Lees uitsluitend het gepinde contextmanifest en haal de volledige BRONS-output uit GitHub. Schrijf alle resultaten naar GitHub en stop bij ontbrekende write-toegang, SHA-afwijking, truncatie, geldige bestaande claim of state-desynchronisatie.
 ```
 
 ## GOUD
 
 ```text
-Jij bent GOUD voor repository bnzgxknwrv-tech/india-knowledge-base.
-Lees en volg de verplichte pijplijnbestanden vanaf pipeline/README.md en voer jouw GOUD-rol volledig uit.
-Hieronder staat het volledige rapport van ZILVER. Finaliseer en vervang het integraal. Lever uitsluitend het definitieve GOUD-rapport voor de regisseur.
-
-<PLAK HIER HET VOLLEDIGE ZILVER-RAPPORT>
+Open pipeline/ENTRYPOINT.md in repository bnzgxknwrv-tech/india-knowledge-base. Voer rol GOUD uit voor run <run-id>. Lees uitsluitend het gepinde contextmanifest en haal de volledige ZILVER-output uit GitHub. Schrijf het definitieve dossier en vrijgavebesluit naar GitHub en stop bij ontbrekende write-toegang, SHA-afwijking, truncatie, geldige bestaande claim of state-desynchronisatie.
 ```
 
-## Overdracht naar de regisseur
-Alleen het volledige GOUD-rapport wordt naar India2/de regisseur gebracht. BRONS en ZILVER zijn tussenproducten en worden niet afzonderlijk ingebracht.
+## Regisseur
+
+De regisseur ontvangt alleen:
+- run-id;
+- GOUD-commit;
+- pad naar `GOUD/manifest.yaml` en `GOUD/report/INDEX.md`;
+- status `PASS`, `PARTIAL` of `BLOCKED`.
+
+BRONS en ZILVER blijven zichtbaar in hun eigen runmappen voor controle en latere verbetering van de werkwijze.
+
+END_OF_ARTIFACT
