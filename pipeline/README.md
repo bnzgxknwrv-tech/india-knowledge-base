@@ -1,38 +1,57 @@
-# BRONS–ZILVER–GOUD-pijplijn
+# BRONS–ZILVER–GOUD-pijplijn v2.0
 
 ## Doel
-Eén rapport wordt in drie opeenvolgende, schone chats opgebouwd. Er ontstaan geen drie concurrerende rapporten.
 
-1. **BRONS** bouwt het eerste volledige onderzoeksrapport.
-2. **ZILVER** controleert, heronderzoekt en herschrijft BRONS tot een aantoonbaar betere volledige versie.
-3. **GOUD** voert de laatste inhoudelijke en structurele kwaliteitscontrole uit en levert het enige rapport dat naar de regisseur gaat.
+Eén onderzoeksrun wordt in drie opeenvolgende, volledig nieuwe AI-sessies opgebouwd. GitHub is het enige overdrachtskanaal.
 
-Elke rol ontvangt uitsluitend:
-- een korte startzin;
-- de volledige tekst van de voorganger, behalve BRONS, dat de clusteropdracht ontvangt.
+1. **BRONS** detecteert breed en bouwt de eerste volledige faseversie.
+2. **ZILVER** verifieert, spreekt tegen, vult aan en bouwt een volledige verbeterde faseversie.
+3. **GOUD** synthetiseert, valideert en levert het enige dossier voor de regisseur.
 
-Alle duurzame instructies staan in deze repository. Chatprompts bevatten geen gekopieerde protocollen.
+De rollen kunnen worden uitgevoerd door iedere AI die de repository volledig kan lezen én schrijven en het rolcontract volgt.
 
-## Verplichte inleesvolgorde voor iedere rol
-1. `README.md`
-2. `AI_RULES.md`
-3. `pipeline/PIPELINE_CONTRACT.md`
-4. het eigen rolbestand in `pipeline/roles/`
-5. `pipeline/QUALITY_GATE.md`
-6. `CURRENT_FOCUS.md`
-7. relevante project-, cluster- en recordbestanden
+## Start
 
-De rol gebruikt de versie die bij aanvang van de run op de standaardbranch staat. Een rol wijzigt het protocol niet tijdens dezelfde rapportproductie.
+Iedere uitvoerende sessie begint bij `pipeline/ENTRYPOINT.md` met alleen een run-id en rol. Er wordt geen voorgangerrapport in de chat geplakt.
 
-## Enig overdrachtsobject
-Iedere stap levert één volledige vervangende rapporttekst. Geen annotaties, verschillenlijst, adviesmemo of losse correcties naast het rapport.
+## Architectuur
+
+- `knowledge/methodology/` — generieke onderzoeksmethodologie;
+- `knowledge/project/` — India-specifieke overlays en projectdata;
+- `pipeline/roles/` — modelonafhankelijke rolcontracten;
+- `pipeline/protocols/` — uitvoering, context en bewijs;
+- `pipeline/templates/` — run- en artifacttemplates;
+- `research/active/<run-id>/` — geïsoleerde lopende run;
+- `research/completed/<run-id>/` — afgeronde, standaard niet-ingelezen run.
+
+## Verplichte principes
+
+- Nooit “lees de repository”; altijd “lees het gepinde contextmanifest”.
+- Iedere run is geïsoleerd.
+- Iedere fase schrijft naar haar eigen map.
+- Rapporten zijn logisch volledig maar fysiek opgesplitst.
+- Geen primair bestand boven 1500 regels.
+- Claims en bronnen zijn ook machineleesbaar vastgelegd.
+- Iedere tekstartifact eindigt met `END_OF_ARTIFACT`.
+- Geen `COMPLETED` zonder herlezing en validatie.
+- Geen protocolwijziging midden in een run.
+- Alleen Mark kent A/B/C toe.
+
+## Methodologie
+
+Methodology v2.0 onderzoekt blijvende spirituele bestemmingen via afzonderlijke lagen: fysieke identiteit, institutionele identiteit, historische identiteit, traditie, lineage, levende praktijk, bezoekbaarheid en getuigenissen.
+
+Verschillende soorten onderbouwing worden nooit samengevoegd tot één totaalscore. Mythische of bovennatuurlijke figuren worden onderzocht via gedragen traditie en lineage, niet via een onmogelijke klassieke biografische bewijsproef.
+
+Projectspecifieke interpretatie-overlays staan apart in `knowledge/project/OVERLAYS_INDIA.md`.
 
 ## Doorontwikkeling
-India2, Claude, ChatGPT en andere bevoegde schrijvers mogen deze pijplijn verbeteren via een expliciete commit of pull request. Iedere wijziging moet:
-- een concrete waargenomen fout of kwaliteitswinst benoemen;
-- alle drie rollen op onderlinge consistentie controleren;
-- `pipeline/VERSION.md` bijwerken;
-- bestaande projectgrondwetten respecteren;
-- nooit een A/B/C-waardering aan een kunstmatig intelligentiesysteem delegeren.
 
-Mark blijft eindbeslisser. GOUD finaliseert onderzoek, maar neemt geen reis- of waarderingsbesluit.
+India2, Claude, ChatGPT en andere bevoegde schrijvers mogen de pipeline na een run verbeteren via een expliciete commit of pull request. Iedere verbetering:
+- benoemt een waargenomen fout of kwaliteitswinst;
+- controleert gevolgen voor alle drie rollen;
+- verhoogt `pipeline/VERSION.md`;
+- respecteert AI_RULES en Marks exclusieve beslissingsrecht;
+- verandert nooit stil de gepinde regels van een actieve run.
+
+END_OF_ARTIFACT
