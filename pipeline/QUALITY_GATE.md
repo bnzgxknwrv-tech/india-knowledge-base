@@ -1,38 +1,67 @@
-# QUALITY_GATE — verplichte vrijgavecontrole
+# QUALITY_GATE v2.0 — verplichte fase- en vrijgavecontrole
 
-Iedere rol past deze controle toe; GOUD gebruikt haar als harde vrijgavepoort.
+Iedere rol past deze controle toe. GOUD gebruikt haar als harde vrijgavepoort.
 
-## Kandidaatniveau
+## A. Technische fase-integriteit
+
+- [ ] rol en run zijn expliciet geactiveerd;
+- [ ] GitHub-write is bevestigd;
+- [ ] claim-lock, source commit en expected state kloppen;
+- [ ] state en eventlog zijn synchroon;
+- [ ] alle required contextbestanden zijn volledig gelezen;
+- [ ] geen forbidden file is gebruikt;
+- [ ] alle verplichte outputbestanden bestaan;
+- [ ] ieder tekstbestand eindigt met `END_OF_ARTIFACT`;
+- [ ] geen primair bestand overschrijdt 1500 regels;
+- [ ] manifest, handoff en COMPLETED stemmen overeen;
+- [ ] geen materiaal bestaat uitsluitend in de chat;
+- [ ] artifacts zijn na schrijven opnieuw geopend en gecontroleerd.
+
+## B. Kandidaatniveau
+
 Voor iedere kandidaat:
-- [ ] fysieke identiteit of ligging heeft een specifieke aanvaardbare bron;
-- [ ] historische/spirituele relatie is onderbouwd of expliciet `niet vastgesteld`;
-- [ ] traditieclaim is als traditieclaim benoemd met dragende lijn;
-- [ ] actuele bezoekbaarheid is afzonderlijk onderbouwd of gebruikt exact de voorgeschreven onzekerheidszin;
-- [ ] bronlabels kloppen;
-- [ ] geen Google-resultaat, AI-overzicht, Wikipedia of zwakke bron draagt de kandidaat;
-- [ ] unieke inhoud rechtvaardigt zelfstandige opname;
-- [ ] bestaande A/B-status is niet herbeoordeeld;
-- [ ] nieuwe status is ONGEMERKT.
+- [ ] fysieke identiteit is specifiek en brongebonden;
+- [ ] institutionele identiteit is onderzocht;
+- [ ] historische identiteit is afzonderlijk gerapporteerd;
+- [ ] traditie is als traditie gelabeld en de dragende gemeenschap is genoemd;
+- [ ] lineage is afzonderlijk onderzocht wanneer relevant;
+- [ ] levende praktijk en continuïteit zijn afzonderlijk onderzocht;
+- [ ] actuele bezoekbaarheid is afzonderlijk bevestigd of gebruikt exact de onzekerheidszin;
+- [ ] getuigenissen zijn als getuigenis gelabeld;
+- [ ] place types zijn objectief en niet waarderend;
+- [ ] overlays zijn relaties, geen prioriteit of totaalscore;
+- [ ] iedere materiële claim heeft een bewijsstatus en bestaande source_id;
+- [ ] bronlabels passen bij het claimtype;
+- [ ] geen zoekresultaat, AI-overzicht, Wikipedia of zwakke bron draagt een kernclaim;
+- [ ] lijn-eigen bronnen worden niet als onafhankelijk bewijs misbruikt;
+- [ ] ontbrekend historisch bewijs diskwalificeert niet automatisch een sterke lineage- of traditieplaats;
+- [ ] toeristische populariteit vervangt geen levende spirituele praktijk;
+- [ ] unieke fysieke of rituele inhoud rechtvaardigt zelfstandige opname;
+- [ ] bestaande A/B/C-status is niet herbeoordeeld;
+- [ ] nieuwe kandidaat blijft ONGEMERKT.
 
-## Rapportniveau
-- [ ] alle vaste controlelijstnamen behandeld;
+## C. Rapportniveau
+
+- [ ] volledige scope en vaste controlelijst behandeld;
 - [ ] buiten de controlelijst aantoonbaar gezocht;
-- [ ] AOAY-controle met dubbele bewijsvoering uitgevoerd;
-- [ ] alle detectoren behandeld;
-- [ ] open regio-/corridoronderzoek uitgevoerd;
-- [ ] verplichte dubbelingsvragen opgelost;
-- [ ] verplichte ashrams behandeld zonder onbewezen verblijfsclaims;
+- [ ] alle verplichte projectoverlays behandeld;
+- [ ] AOAY-relaties gebruiken dubbele bewijsvoering;
+- [ ] open regio-/corridoronderzoek uitgevoerd waar de scope dit vereist;
 - [ ] negatieve zoekresultaten zichtbaar;
-- [ ] tellingen stemmen exact overeen met het rapport;
-- [ ] sectieverwijzingen en kandidaatnummers kloppen;
-- [ ] geen waardering, route, nachten, hoteladvies, vervoer of prijzen toegevoegd;
+- [ ] dubbelingen en aliases opgelost of expliciet open;
+- [ ] ashrams en levende praktijk zonder onbewezen verblijfsclaims behandeld;
+- [ ] onzekerheden staan lokaal bij claims én systematisch in audit;
+- [ ] tellingen, kandidaatnummers en kruisverwijzingen kloppen;
+- [ ] geen A/B/C, totaalscore, projectrelevantie, route, nachten, hotels, vervoer of prijzen toegevoegd;
+- [ ] rapportindex en alle delen vormen samen een zelfstandig dossier;
 - [ ] rapport is volledig en niet afgekapt.
 
-## Compleetheidsregel
-Alle harde controles moeten `JA` zijn voor `BASIS-SWEEP COMPLEET`.
+## D. Vrijgavestatus
 
-Wanneer één of meer harde controles niet zijn gehaald, eindigt het rapport met:
+- `PASS`: alle harde technische en inhoudelijke controles zijn JA.
+- `PARTIAL`: dossier is betrouwbaar bruikbaar, maar expliciete niet-fatale onderzoeksgaten blijven open.
+- `BLOCKED`: technische integriteit, kernbewijs of overdracht is onvoldoende.
 
-`BASIS-SWEEP NOG NIET COMPLEET — BLOKKERS: <maximaal vijf concrete blokkers>`
+Een bron-, context-, bezoekbaarheids- of truncatietekort mag nooit worden verborgen door algemene formuleringen als “grotendeels compleet”. Maximaal vijf hoogste blokkers worden concreet benoemd in `decision.md` en `COMPLETED`.
 
-Een bron- of bezoekbaarheidstekort mag niet worden verborgen door algemene formuleringen als “grotendeels compleet”.
+END_OF_ARTIFACT
