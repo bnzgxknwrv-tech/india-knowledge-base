@@ -1,0 +1,153 @@
+# Run templates
+
+Kopieer deze structuren naar `research/active/<run-id>/`. Vervang alle `<...>`-waarden vóór activatie.
+
+## run.yaml
+
+```yaml
+run_id: <run-id>
+project: india
+scope_file: research/active/<run-id>/scope.md
+created_at: <ISO-8601>
+created_by: <controller>
+immutable_after_first_claim: true
+pins:
+  entrypoint: pipeline/ENTRYPOINT.md
+  methodology: knowledge/methodology/METHODOLOGY_V2.md
+  overlays: knowledge/project/OVERLAYS_INDIA.md
+  execution_protocol: pipeline/protocols/EXECUTION_PROTOCOL.md
+  context_protocol: pipeline/protocols/CONTEXT_PROTOCOL.md
+  evidence_protocol: pipeline/protocols/EVIDENCE_PROTOCOL.md
+  quality_gate: pipeline/QUALITY_GATE.md
+  roles:
+    BRONS: pipeline/roles/BRONS.md
+    ZILVER: pipeline/roles/ZILVER.md
+    GOUD: pipeline/roles/GOUD.md
+versions:
+  pipeline: 2.0.0
+  methodology: 2.0.0
+source_base_commit: <commit-sha>
+```
+
+## state.yaml
+
+```yaml
+run_id: <run-id>
+state: READY_FOR_BRONS
+active_role: null
+claim: null
+last_event_id: EVT-0001
+last_validated_commit: <commit-sha>
+blockers: []
+```
+
+## events.jsonl
+
+```json
+{"event_id":"EVT-0001","run_id":"<run-id>","event_type":"RUN_CREATED","at":"<ISO-8601>","actor":"<controller>","from_state":null,"to_state":"READY_FOR_BRONS","commit":"<commit-sha>","notes":""}
+```
+
+## context/<ROLE>_CONTEXT.yaml
+
+```yaml
+run_id: <run-id>
+role: <ROLE>
+source_commit: <commit-sha>
+protocol_versions:
+  pipeline: 2.0.0
+  methodology: 2.0.0
+required_files:
+  - pipeline/ENTRYPOINT.md
+  - pipeline/roles/<ROLE>.md
+  - knowledge/methodology/METHODOLOGY_V2.md
+  - knowledge/project/OVERLAYS_INDIA.md
+  - pipeline/protocols/EXECUTION_PROTOCOL.md
+  - pipeline/protocols/CONTEXT_PROTOCOL.md
+  - pipeline/protocols/EVIDENCE_PROTOCOL.md
+  - pipeline/QUALITY_GATE.md
+  - research/active/<run-id>/run.yaml
+  - research/active/<run-id>/state.yaml
+  - research/active/<run-id>/scope.md
+optional_files: []
+forbidden_files:
+  - research/completed/**
+priority_order: []
+expected_hashes: {}
+maximum_context_budget:
+  files: 40
+  lines_per_file: 1500
+predecessor_manifest: null
+output_path: research/active/<run-id>/<ROLE>/
+```
+
+Voor ZILVER en GOUD worden de predecessor-manifesten en alle verplichte voorgangerbestanden expliciet toegevoegd.
+
+## Fase manifest.yaml
+
+```yaml
+run_id: <run-id>
+role: <ROLE>
+source_commit: <commit-sha>
+result_status: <PASS|PARTIAL|BLOCKED>
+protocol_versions:
+  pipeline: 2.0.0
+  methodology: 2.0.0
+required_outputs:
+  - report/INDEX.md
+  - claims.jsonl
+  - sources/registry.jsonl
+  - sources/rejected.jsonl
+  - audit.md
+  - handoff.yaml
+  - COMPLETED
+artifacts: []
+validation:
+  all_required_exist: false
+  all_sentinels_present: false
+  references_valid: false
+  reread_complete: false
+```
+
+## report/INDEX.md
+
+```markdown
+# <ROLE> report index
+
+Lees in deze volgorde:
+1. 01_scope_and_counts.md
+2. 02_candidates_01.md
+3. 03_outside_list_and_overlays.md
+4. 04_uncertainties_and_duplicates.md
+5. 05_ashrams_and_living_practice.md
+6. 06_conclusion_and_gate.md
+
+END_OF_ARTIFACT
+```
+
+## handoff.yaml
+
+```yaml
+run_id: <run-id>
+completed_role: <ROLE>
+result_status: <PASS|PARTIAL|BLOCKED>
+output_manifest: research/active/<run-id>/<ROLE>/manifest.yaml
+next_role: <ZILVER|GOUD|REGISSEUR>
+next_expected_state: <state>
+source_commit: <phase-completion-commit>
+open_blockers: []
+required_predecessor_files: []
+```
+
+## COMPLETED
+
+```text
+RUN_ID=<run-id>
+ROLE=<ROLE>
+STATUS=<PASS|PARTIAL|BLOCKED>
+SOURCE_COMMIT=<sha>
+OUTPUT_MANIFEST=<path>
+VALIDATED=true
+END_OF_ARTIFACT
+```
+
+END_OF_ARTIFACT
