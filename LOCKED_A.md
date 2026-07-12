@@ -35,6 +35,9 @@ A = bezoeken. Dit zijn de bestemmingen van de reis. Niet herwaarderen, niet opni
 
 Crank's Ridge-kern binnen dit cluster: 20 Kasar Devi + 21 Crank's Ridge + 36 Turiya Niwas + 37 Bodh Ashram vormen samen een aaneengesloten loopbaar A-cluster.
 
+## Vrindavan
+- Katyayani Peeth - A per DECISION-0004. Shakti Peeth én fysieke Kriya-lijnlocatie via oprichter Swami Keshavanand, discipel van Lahiri Mahasaya; Babaji-verbinding uitsluitend als traditieclaim van de eigen lijn.
+
 ## Agra
 28. Taj Mahal bij zonsopgang
 
@@ -43,6 +46,6 @@ Crank's Ridge-kern binnen dit cluster: 20 Kasar Devi + 21 Crank's Ridge + 36 Tur
 
 27. Bhumiyadhar (eerste ontmoeting Ram Dass - Maharaj-ji) - bevestigd A per DECISION-0002. Op/bij het tempelterrein vond in 1967 Ram Dass' eerste ontmoeting met Neem Karoli Baba plaats (primaire bronnen: Ram Dass' eigen boeken).
 
-Totaal bevestigde A: 26 locaties.
+Totaal bevestigde A: 27 locaties.
 
-De nummering volgt CLUSTER_LOCATIONS.md. Bewust niet als A: 3 Dungeshwari, 7 Dashashwamedh, 9 Bhaskarananda, 13 Kabir Math, 14 eerste ontmoeting Yogananda-Yukteswar, 25 Hotel Evelyn (CLUSTER_ANCHOR), 26 KK Sah huis.
+De nummering volgt CLUSTER_LOCATIONS.md waar een bestaand nummer beschikbaar is. Bewust niet als A: 3 Dungeshwari, 7 Dashashwamedh, 9 Bhaskarananda, 13 Kabir Math, 14 eerste ontmoeting Yogananda-Yukteswar, 25 Hotel Evelyn (CLUSTER_ANCHOR), 26 KK Sah huis.
