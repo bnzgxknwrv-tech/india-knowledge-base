@@ -6,8 +6,7 @@ B-bestemmingen: plekken waar Mark heen wil als de tijd het toelaat. Geen verblij
 - Ghorakhal Temple - Golu Devta-tempel (God of Justice)
 
 ## Vrindavan
-- Katyayani Peeth - Shakti Peeth
 - Neem Karoli Baba Ashram - verblijfplaats Neem Karoli Baba
 - Radha Raman Tempel - historische Krishna-tempel
 
-Totaal: 4 bestemmingen.
+Totaal: 3 bestemmingen.
