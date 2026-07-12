@@ -1,7 +1,14 @@
 # EXTERNAL_CLUSTER_SWEEP_PROMPT - Sjabloon voor externe onderzoekers zonder GitHub-toegang
 
-> **DIT BESTAND BEVAT GEEN PROJECTWAARHEID.**
-> Het is uitsluitend een promptstructuur. Alle inhoud tussen `{{...}}` wordt per sweep door INDIA 2 (ChatGPT) vers uit GitHub ingevuld op het moment dat de prompt wordt gemaakt. Behandel dit bestand nooit als bron van projectkennis. De waarheid staat in de gewone repositorybestanden.
+> **STATUS: TOOL TEMPLATE**
+>
+> Dit bestand bevat geen projectwaarheid en mag nooit als bron van projectfeiten worden gebruikt.
+>
+> Alle projectinhoud (reisdata, prioriteitsindex, bestaande locaties, projectfase, besluiten, clusterstatus, enzovoort) wordt per sweep door INDIA 2 uit de actuele GitHub-repository ingevuld.
+>
+> **Bij een conflict tussen dit template en de repository is de repository altijd leidend.**
+>
+> Doel van dit bestand is uitsluitend het genereren van zelfstandige opdrachten voor externe AI-onderzoekers zonder GitHub-toegang.
 
 ## Waarom dit bestand bestaat
 
