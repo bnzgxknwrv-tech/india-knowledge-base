@@ -1,9 +1,15 @@
 run_id: VRINDAVAN-INTEGRATION-001
-state: ZILVER_COMPLETE
-active_role: null
-claim: null
-last_event_id: EVT-0013
-last_validated_commit: 93118a17da603bfa1151d26bcd93c8d33e44ca20
+state: TRANSITION_TO_GOUD_CLAIMED
+active_role: CONTROLLER
+claim:
+  transition: ZILVER_COMPLETE_TO_READY_FOR_GOUD
+  claimed_by: ChatGPT-pipeline-controller
+  claimed_at: 2026-07-13T22:40:00+02:00
+  source_commit: 8bbfed3755b330ae48bf221097531a5fc62a17bd
+  expected_state: ZILVER_COMPLETE
+  target_context_manifest: research/active/VRINDAVAN-INTEGRATION-001/context/GOUD_CONTEXT.yaml
+last_event_id: EVT-0014
+last_validated_commit: 8bbfed3755b330ae48bf221097531a5fc62a17bd
 blockers:
   - AOAY double verification for the exact Keshavanand place remains incomplete.
   - Exact current visitability and restrictions remain unresolved for most candidates.
