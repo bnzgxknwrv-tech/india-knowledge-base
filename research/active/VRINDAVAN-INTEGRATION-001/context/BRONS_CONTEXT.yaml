@@ -1,0 +1,46 @@
+run_id: VRINDAVAN-INTEGRATION-001
+role: BRONS
+source_commit: 16155f9b05b461d4ec9928d7cb1d2756beea9d00
+protocol_versions:
+  pipeline: 2.1.0
+  methodology: 2.0.0
+required_files:
+  - pipeline/ENTRYPOINT.md
+  - pipeline/roles/BRONS.md
+  - knowledge/methodology/METHODOLOGY_V2.md
+  - knowledge/project/OVERLAYS_INDIA.md
+  - pipeline/protocols/EXECUTION_PROTOCOL.md
+  - pipeline/protocols/CONTEXT_PROTOCOL.md
+  - pipeline/protocols/EVIDENCE_PROTOCOL.md
+  - pipeline/QUALITY_GATE.md
+  - research/active/VRINDAVAN-INTEGRATION-001/run.yaml
+  - research/active/VRINDAVAN-INTEGRATION-001/state.yaml
+  - research/active/VRINDAVAN-INTEGRATION-001/events.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/scope.md
+  - LOCKED_A.md
+  - LOCKED_B.md
+  - decisions/DECISION-0004-katyayani-peeth-a.md
+optional_files:
+  - path: LESSONS.md
+    trigger: Alleen openen wanneer BRONS een methodologische onzekerheid aantreft over lineage-, institutionele of broncontrole.
+forbidden_files:
+  - research/completed/**
+  - research/active/VRINDAVAN-INTEGRATION-001/ZILVER/**
+  - research/active/VRINDAVAN-INTEGRATION-001/GOUD/**
+  - clusters/**
+priority_order:
+  - research/active/VRINDAVAN-INTEGRATION-001/scope.md
+  - pipeline/roles/BRONS.md
+  - knowledge/methodology/METHODOLOGY_V2.md
+  - knowledge/project/OVERLAYS_INDIA.md
+  - pipeline/protocols/EVIDENCE_PROTOCOL.md
+  - pipeline/QUALITY_GATE.md
+  - LOCKED_A.md
+  - LOCKED_B.md
+  - decisions/DECISION-0004-katyayani-peeth-a.md
+expected_hashes: {}
+maximum_context_budget:
+  files: 40
+  lines_per_file: 1500
+predecessor_manifest: null
+output_path: research/active/VRINDAVAN-INTEGRATION-001/BRONS/
