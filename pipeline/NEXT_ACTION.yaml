@@ -6,15 +6,17 @@ route: BRONS
 expected_state: READY_FOR_BRONS
 context_manifest: research/active/VRINDAVAN-SUPPLEMENT-001/context/BRONS_CONTEXT.yaml
 entrypoint: pipeline/ENTRYPOINT.md
+operating_mode: CONTROLLED_MANUAL_FAST
 required_connector:
   github_read: true
   github_write: true
 instruction: >-
-  Execute only the targeted BRONS supplementation action designated by this file and the pinned contracts.
-  Research only the five blockers in scope.md. Do not repeat the full Vrindavan cluster sweep, do not alter
-  predecessor GOUD artifacts, do not create ZILVER context, and do not perform a controller transition.
+  Start immediately. Execute only the targeted BRONS supplementation action designated by this file and the pinned contracts.
+  Research only the five blockers in scope.md. Do not repeat the full Vrindavan cluster sweep. Do not alter predecessor
+  GOUD artifacts, build new pipeline architecture, create ZILVER context, or perform a controller transition.
 completion_destination: VOOR_SUBREGIE_INDIA
 created_by: SUBREGIE_INDIA
 created_at: 2026-07-13T23:25:00+02:00
+updated_at: 2026-07-13T23:48:00+02:00
 source_commit: ee437e179a6a6b60a9ac8e510f2327b849096ed7
 END_OF_ARTIFACT
