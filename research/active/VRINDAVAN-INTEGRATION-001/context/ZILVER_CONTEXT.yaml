@@ -3,6 +3,15 @@ role: ZILVER
 status: READY
 source_commit: ee0d0076157ff4264cb49c8a5eb9f5d6b02c3dab
 prepared_by: ChatGPT-pipeline-controller
+repair_note: Revalidated after EVT-0008 and EVT-0009. Independent branch-head changes do not invalidate this context when every pinned required-file blob SHA still matches.
+source_commit_semantics:
+  purpose: immutable predecessor and context snapshot reference
+  branch_head_may_advance: true
+  stop_only_if:
+    - a required file blob SHA differs from expected_git_blob_shas
+    - a required file is missing or truncated
+    - state and events are desynchronized
+    - a valid existing claim exists
 protocol_versions:
   pipeline: 2.1.0
   methodology: 2.0.0
