@@ -1,0 +1,24 @@
+PARTIAL
+run_id: VRINDAVAN-SUPPLEMENT-001
+role: GOUD
+source_commit: f2a67a3fdc628738ecf4e0d83ed51de312c085d0
+outputs:
+  - manifest.yaml
+  - report/INDEX.md
+  - report/01_final_five_blocker_decision.md
+  - report/02_quality_gate_and_conclusion.md
+  - decision.md
+  - claims.jsonl
+  - sources/registry.jsonl
+  - sources/rejected.jsonl
+  - audit.md
+  - handoff.yaml
+highest_blockers:
+  - Controlled SRF/YSS AOAY edition passage with stable metadata remains unavailable.
+  - Authoritative current visitability remains incomplete for all eight candidates.
+  - Official NKB Vrindavan operating management, recurring practice and visitor rules remain unresolved.
+  - Exclusive object-level daily management remains unresolved for distributed objects.
+  - Separate recurring object-level Kusum Sarovar practice remains unresolved.
+validation: required artifacts created and reopened; sentinels checked; all ten pinned ZILVER blob SHAs matched; exact five-blocker scope preserved; source-ID references valid and unique; no forbidden paths used; no A/B/C status assigned; no archiving or regisseur transition executed.
+completion_destination: VOOR_SUBREGIE_INDIA
+END_OF_ARTIFACT
