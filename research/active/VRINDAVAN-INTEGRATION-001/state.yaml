@@ -1,8 +1,14 @@
 run_id: VRINDAVAN-INTEGRATION-001
-state: READY_FOR_ZILVER
-active_role: null
-claim: null
-last_event_id: EVT-0011
+state: ZILVER_CLAIMED
+active_role: ZILVER
+claim:
+  role: ZILVER
+  claimed_by: ChatGPT-ZILVER
+  claimed_at: 2026-07-13T22:10:00+02:00
+  source_commit: ee0d0076157ff4264cb49c8a5eb9f5d6b02c3dab
+  expected_state: READY_FOR_ZILVER
+  output_path: research/active/VRINDAVAN-INTEGRATION-001/ZILVER/
+last_event_id: EVT-0012
 last_validated_commit: df5b71e60d3a5342542b9003e4641ec59d8a5a45
 blockers:
   - Current visitability details incomplete for most candidates.
