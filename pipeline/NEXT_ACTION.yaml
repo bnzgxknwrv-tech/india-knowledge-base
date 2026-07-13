@@ -1,21 +1,21 @@
 schema_version: 1
 run_id: VRINDAVAN-SUPPLEMENT-001
-action_id: VRINDAVAN-SUPPLEMENT-001-ZILVER-001
+action_id: VRINDAVAN-SUPPLEMENT-001-GOUD-001
 status: READY
-route: ZILVER
-expected_state: READY_FOR_ZILVER
-context_manifest: research/active/VRINDAVAN-SUPPLEMENT-001/context/ZILVER_CONTEXT.yaml
+route: GOUD
+expected_state: READY_FOR_GOUD
+context_manifest: research/active/VRINDAVAN-SUPPLEMENT-001/context/GOUD_CONTEXT.yaml
 entrypoint: pipeline/ENTRYPOINT.md
 operating_mode: CONTROLLED_MANUAL_FAST
 required_connector:
   github_read: true
   github_write: true
 instruction: >-
-  Start immediately. Execute only the targeted ZILVER verification action designated by this file and the pinned contracts.
-  Verify and improve only the five Vrindavan blockers and the BRONS supplement findings. Do not repeat the full cluster sweep,
-  alter predecessor artifacts, build pipeline architecture, create GOUD context, or perform a controller transition.
+  Start immediately. Execute only the targeted GOUD final verification action designated by this file and the pinned contracts.
+  Apply the final quality gate only to the five Vrindavan blockers and the ZILVER supplement findings. Do not repeat the full
+  cluster sweep, alter predecessor artifacts, build pipeline architecture, archive the run, or perform regisseur processing.
 completion_destination: VOOR_SUBREGIE_INDIA
 created_by: SUBREGIE_INDIA
-created_at: 2026-07-14T00:01:00+02:00
-source_commit: d5b722d27f6fb457d66b0229eeb550b35f826fc8
+created_at: 2026-07-14T00:27:00+02:00
+source_commit: f2a67a3fdc628738ecf4e0d83ed51de312c085d0
 END_OF_ARTIFACT
