@@ -1,0 +1,21 @@
+run_id: VRINDAVAN-SUPPLEMENT-001
+completed_role: BRONS
+result_status: PARTIAL
+output_manifest_path: research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/manifest.yaml
+next_role: ZILVER
+next_expected_transition: CONTROLLER_TRANSITION_TO_ZILVER
+open_blockers:
+  - Controlled AOAY/SRF/YSS edition passage for Keshavanand in Vrindavan remains unavailable.
+  - Complete authoritative current visitability regimes remain unresolved for all eight candidates.
+  - Current official management and recurring-practice evidence for NKB Vrindavan remains unresolved.
+  - Exclusive daily object-level management remains unresolved for the distributed kund, hill, route and sarovar objects.
+  - Separate recurring object-level living practice at Kusum Sarovar remains unresolved.
+required_predecessor_files:
+  - research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/manifest.yaml
+  - research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/report/INDEX.md
+  - research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/claims.jsonl
+  - research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/sources/registry.jsonl
+  - research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/sources/rejected.jsonl
+  - research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/audit.md
+future_source_commit: null
+END_OF_ARTIFACT
