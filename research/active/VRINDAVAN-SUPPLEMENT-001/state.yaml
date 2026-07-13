@@ -1,0 +1,13 @@
+run_id: VRINDAVAN-SUPPLEMENT-001
+state: READY_FOR_BRONS
+active_role: null
+claim: null
+last_event_id: EVT-0001
+last_validated_commit: 5c0f37a31547f9e62bb1fc94965d1ccd4cf5bb80
+blockers:
+  - AOAY double verification for the exact Keshavanand place remains incomplete.
+  - Exact current visitability and restrictions remain unresolved for all eight candidates.
+  - Current official management and recurring-practice evidence for Neem Karoli Baba Ashram Vrindavan remains insufficient.
+  - Object-level operational management remains unresolved for distributed kund, hill, route and sarovar objects.
+  - Kusum Sarovar object-level recurring living-practice evidence remains incomplete.
+END_OF_ARTIFACT
