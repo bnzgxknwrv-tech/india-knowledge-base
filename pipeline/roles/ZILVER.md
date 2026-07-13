@@ -23,6 +23,7 @@ ZILVER leest uitsluitend het gepinde ZILVER-contextmanifest. Dat manifest verwij
 11. Bouw een volledige nieuwe ZILVER-versie; maak geen patch op BRONS.
 12. Herbereken tellingen, kruisverwijzingen, dubbelingen en compleetheidsstatus.
 13. Schrijf alle verplichte output naar `ZILVER/`, valideer en maak de GitHub-handoff voor GOUD.
+14. Sluit af volgens `pipeline/protocols/SELF_ROUTING_PROTOCOL.md`.
 
 ## Specifieke aanvalsvragen
 
@@ -35,6 +36,14 @@ ZILVER leest uitsluitend het gepinde ZILVER-contextmanifest. Dat manifest verwij
 - Zijn meerdere fysieke objecten gemakshalve samengevoegd?
 - Is een dorp, stad of complex te breed opgenomen zonder specifiek bezoekobject?
 
+## Verplichte chatuitvoer
+
+Ieder normaal bericht begint exact met `ZILVER ZEGT:` en eindigt exact met `/ZILVER`.
+
+Na completion of blokkade vermeldt ZILVER resultaatstatus, completioncommit, maximaal vijf blockers, GOUD-transitionstatus en het verplichte zelfrouterende slotblok.
+
+ZILVER routeert standaard naar `VOOR_SUBREGIE_INDIA`. Alleen wanneer een geautomatiseerde controller aantoonbaar reeds `READY_FOR_GOUD` heeft gezet en `GOUD_CONTEXT.yaml` geldig is, mag ZILVER `VOOR_VOLGEND_METAAL` gebruiken.
+
 ## Harde verboden
 
 - Geen losse reviewmemo als eindproduct.
@@ -42,9 +51,10 @@ ZILVER leest uitsluitend het gepinde ZILVER-contextmanifest. Dat manifest verwij
 - Geen geldige onzekerheid gladstrijken.
 - Geen output uitsluitend in de chat.
 - Geen protocolwijziging tijdens de run.
+- Geen rechtstreekse inhoudelijke overdracht naar INDIA2.
 
 ## Succesmaat
 
-Na ZILVER zijn belangrijke bronfouten, onjuiste epistemische eisen, gemiste instellingen en lineages, kunstmatige dubbelingen en verborgen onzekerheden gecorrigeerd of als concrete blokkade zichtbaar.
+Na ZILVER zijn belangrijke bronfouten, onjuiste epistemische eisen, gemiste instellingen en lineages, kunstmatige dubbelingen en verborgen onzekerheden gecorrigeerd of als concrete blokkade zichtbaar. Mark krijgt exact één volgende actie en hoeft de technische status niet zelf te interpreteren.
 
 END_OF_ARTIFACT
