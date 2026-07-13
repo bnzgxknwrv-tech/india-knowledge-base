@@ -1,0 +1,67 @@
+run_id: VRINDAVAN-SUPPLEMENT-001
+role: BRONS
+status: READY
+source_commit: 5c0f37a31547f9e62bb1fc94965d1ccd4cf5bb80
+protocol_versions:
+  pipeline: 2.4.0
+  methodology: 2.0.0
+required_files:
+  - pipeline/ENTRYPOINT.md
+  - pipeline/roles/BRONS.md
+  - knowledge/methodology/METHODOLOGY_V2.md
+  - knowledge/project/OVERLAYS_INDIA.md
+  - pipeline/protocols/EXECUTION_PROTOCOL.md
+  - pipeline/protocols/CONTEXT_PROTOCOL.md
+  - pipeline/protocols/EVIDENCE_PROTOCOL.md
+  - pipeline/protocols/SELF_ROUTING_PROTOCOL.md
+  - pipeline/QUALITY_GATE.md
+  - research/active/VRINDAVAN-SUPPLEMENT-001/run.yaml
+  - research/active/VRINDAVAN-SUPPLEMENT-001/state.yaml
+  - research/active/VRINDAVAN-SUPPLEMENT-001/events.jsonl
+  - research/active/VRINDAVAN-SUPPLEMENT-001/scope.md
+  - research/active/VRINDAVAN-INTEGRATION-001/GOUD/manifest.yaml
+  - research/active/VRINDAVAN-INTEGRATION-001/GOUD/report/INDEX.md
+  - research/active/VRINDAVAN-INTEGRATION-001/GOUD/report/01_final_candidates.md
+  - research/active/VRINDAVAN-INTEGRATION-001/GOUD/report/02_overlays_boundaries_visitability.md
+  - research/active/VRINDAVAN-INTEGRATION-001/GOUD/report/03_quality_gate_and_conclusion.md
+  - research/active/VRINDAVAN-INTEGRATION-001/GOUD/decision.md
+  - research/active/VRINDAVAN-INTEGRATION-001/GOUD/claims.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/GOUD/sources/registry.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/GOUD/sources/rejected.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/GOUD/audit.md
+  - research/active/VRINDAVAN-INTEGRATION-001/GOUD/handoff.yaml
+  - research/active/VRINDAVAN-INTEGRATION-001/GOUD/COMPLETED
+optional_files: []
+forbidden_files:
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/**
+  - research/active/VRINDAVAN-INTEGRATION-001/ZILVER/**
+  - research/active/VRINDAVAN-SUPPLEMENT-001/ZILVER/**
+  - research/active/VRINDAVAN-SUPPLEMENT-001/GOUD/**
+  - research/completed/**
+priority_order:
+  - research/active/VRINDAVAN-SUPPLEMENT-001/scope.md
+  - research/active/VRINDAVAN-INTEGRATION-001/GOUD/decision.md
+  - research/active/VRINDAVAN-INTEGRATION-001/GOUD/claims.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/GOUD/sources/rejected.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/GOUD/audit.md
+expected_git_blob_shas:
+  research/active/VRINDAVAN-INTEGRATION-001/GOUD/manifest.yaml: 9f4018f6ba0918b87370ebfcd9b34ae92d3d4153
+  research/active/VRINDAVAN-INTEGRATION-001/GOUD/report/INDEX.md: aa9c355e0104e3cb20089a01454f879c5879be52
+  research/active/VRINDAVAN-INTEGRATION-001/GOUD/decision.md: 7371a3e75320a83636adc1281840ad60d5d66147
+  research/active/VRINDAVAN-INTEGRATION-001/GOUD/claims.jsonl: f06fa6c8e08242ec935be2493a96539fded1e435
+  research/active/VRINDAVAN-INTEGRATION-001/GOUD/sources/registry.jsonl: 19445c1623e69c157876f73b243ecc7f9640771e
+  research/active/VRINDAVAN-INTEGRATION-001/GOUD/sources/rejected.jsonl: 13946b8efa5fae3c6728456dcc73d6d60af78ec7
+  research/active/VRINDAVAN-INTEGRATION-001/GOUD/audit.md: 3df1a21bb84b1a1d7dc5332490c3ed24fe650938
+  research/active/VRINDAVAN-INTEGRATION-001/GOUD/handoff.yaml: 62331187f9c64767ab67529e42e65a27792db770
+  research/active/VRINDAVAN-INTEGRATION-001/GOUD/COMPLETED: 7fe0a648e05b3c20c66d62be5f844e8afbedeaee
+maximum_context_budget:
+  files: 32
+  lines_per_file: 1500
+predecessor_manifest: research/active/VRINDAVAN-INTEGRATION-001/GOUD/manifest.yaml
+output_path: research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/
+required_focus:
+  - Work only on the five blockers in scope.md.
+  - Do not repeat the full cluster sweep.
+  - Produce blocker-specific claims and sources that can be compared to the predecessor GOUD claims.
+  - Preserve all existing A/B/C statuses without reassessment.
+END_OF_ARTIFACT
