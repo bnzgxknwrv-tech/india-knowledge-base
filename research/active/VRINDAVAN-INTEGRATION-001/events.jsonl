@@ -1,0 +1,1 @@
+{"event_id":"EVT-0001","run_id":"VRINDAVAN-INTEGRATION-001","event_type":"RUN_CREATED","at":"2026-07-13T15:00:00+02:00","actor":"India2-controller","from_state":null,"to_state":"READY_FOR_BRONS","commit":"7dfa9449131290b890a00fd78ac6b1cce425f5ea","notes":"Integratietest aangemaakt; alleen BRONS_CONTEXT.yaml wordt uitvoerbaar gemaakt."}
