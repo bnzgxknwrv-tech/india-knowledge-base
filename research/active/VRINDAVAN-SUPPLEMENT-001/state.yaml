@@ -1,19 +1,13 @@
 run_id: VRINDAVAN-SUPPLEMENT-001
-state: BRONS_CLAIMED
-active_role: BRONS
-claim:
-  role: BRONS
-  claimed_by: ChatGPT-BRONS
-  claimed_at: 2026-07-13T23:18:00+02:00
-  source_commit: 5c0f37a31547f9e62bb1fc94965d1ccd4cf5bb80
-  expected_state: READY_FOR_BRONS
-  output_path: research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/
-last_event_id: EVT-0002
-last_validated_commit: 5c0f37a31547f9e62bb1fc94965d1ccd4cf5bb80
+state: BRONS_COMPLETE
+active_role: null
+claim: null
+last_event_id: EVT-0003
+last_validated_commit: 768dba81d4e7f2d0d0c42d5a32a6b4e567497d9b
 blockers:
-  - AOAY double verification for the exact Keshavanand place remains incomplete.
-  - Exact current visitability and restrictions remain unresolved for all eight candidates.
-  - Current official management and recurring-practice evidence for Neem Karoli Baba Ashram Vrindavan remains insufficient.
-  - Object-level operational management remains unresolved for distributed kund, hill, route and sarovar objects.
-  - Kusum Sarovar object-level recurring living-practice evidence remains incomplete.
+  - Controlled AOAY edition passage remains unavailable.
+  - Authoritative current visitability remains incomplete for all eight candidates.
+  - Official NKB Vrindavan management and recurring practice remain unresolved.
+  - Exclusive daily management of distributed objects remains unresolved.
+  - Separate recurring object-level Kusum Sarovar practice remains unresolved.
 END_OF_ARTIFACT
