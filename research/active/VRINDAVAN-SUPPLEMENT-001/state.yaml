@@ -1,8 +1,14 @@
 run_id: VRINDAVAN-SUPPLEMENT-001
-state: READY_FOR_GOUD
-active_role: null
-claim: null
-last_event_id: EVT-0011
+state: GOUD_CLAIMED
+active_role: GOUD
+claim:
+  role: GOUD
+  claimed_by: ChatGPT-GOUD
+  claimed_at: 2026-07-13T23:40:00+02:00
+  source_commit: f2a67a3fdc628738ecf4e0d83ed51de312c085d0
+  expected_state: READY_FOR_GOUD
+  output_path: research/active/VRINDAVAN-SUPPLEMENT-001/GOUD/
+last_event_id: EVT-0012
 last_validated_commit: f2a67a3fdc628738ecf4e0d83ed51de312c085d0
 blockers:
   - Controlled AOAY edition passage remains unavailable.
