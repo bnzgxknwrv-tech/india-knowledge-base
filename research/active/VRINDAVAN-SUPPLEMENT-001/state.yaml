@@ -1,8 +1,14 @@
 run_id: VRINDAVAN-SUPPLEMENT-001
-state: READY_FOR_ZILVER
-active_role: null
-claim: null
-last_event_id: EVT-0006
+state: ZILVER_CLAIMED
+active_role: ZILVER
+claim:
+  role: ZILVER
+  claimed_by: ChatGPT-ZILVER
+  claimed_at: 2026-07-14T00:10:00+02:00
+  source_commit: d5b722d27f6fb457d66b0229eeb550b35f826fc8
+  expected_state: READY_FOR_ZILVER
+  output_path: research/active/VRINDAVAN-SUPPLEMENT-001/ZILVER/
+last_event_id: EVT-0007
 last_validated_commit: d5b722d27f6fb457d66b0229eeb550b35f826fc8
 blockers:
   - Controlled AOAY edition passage remains unavailable.
