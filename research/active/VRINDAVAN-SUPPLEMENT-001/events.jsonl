@@ -1,0 +1,2 @@
+{"event_id":"EVT-0001","run_id":"VRINDAVAN-SUPPLEMENT-001","event_type":"RUN_CREATED","at":"2026-07-13T23:20:00+02:00","actor":"SUBREGIE_INDIA","from_state":null,"to_state":"READY_FOR_BRONS","predecessor_run":"VRINDAVAN-INTEGRATION-001","predecessor_role":"GOUD","predecessor_commit":"5c0f37a31547f9e62bb1fc94965d1ccd4cf5bb80","notes":"Targeted supplementation run created for exactly five INDIA2-approved blockers; no full cluster sweep."}
+END_OF_ARTIFACT
