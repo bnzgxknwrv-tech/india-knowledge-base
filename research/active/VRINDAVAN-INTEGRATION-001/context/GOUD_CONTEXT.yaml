@@ -1,0 +1,86 @@
+run_id: VRINDAVAN-INTEGRATION-001
+role: GOUD
+status: READY
+source_commit: 8bbfed3755b330ae48bf221097531a5fc62a17bd
+prepared_by: ChatGPT-pipeline-controller
+protocol_versions:
+  pipeline: 2.1.0
+  methodology: 2.0.0
+required_files:
+  - pipeline/ENTRYPOINT.md
+  - pipeline/roles/GOUD.md
+  - knowledge/methodology/METHODOLOGY_V2.md
+  - knowledge/project/OVERLAYS_INDIA.md
+  - pipeline/protocols/EXECUTION_PROTOCOL.md
+  - pipeline/protocols/CONTEXT_PROTOCOL.md
+  - pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md
+  - pipeline/protocols/EVIDENCE_PROTOCOL.md
+  - pipeline/QUALITY_GATE.md
+  - research/active/VRINDAVAN-INTEGRATION-001/run.yaml
+  - research/active/VRINDAVAN-INTEGRATION-001/state.yaml
+  - research/active/VRINDAVAN-INTEGRATION-001/events.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/scope.md
+  - research/active/VRINDAVAN-INTEGRATION-001/ZILVER/manifest.yaml
+  - research/active/VRINDAVAN-INTEGRATION-001/ZILVER/report/INDEX.md
+  - research/active/VRINDAVAN-INTEGRATION-001/ZILVER/report/01_verified_candidates.md
+  - research/active/VRINDAVAN-INTEGRATION-001/ZILVER/report/02_overlays_boundaries_and_visitability.md
+  - research/active/VRINDAVAN-INTEGRATION-001/ZILVER/report/03_conclusion_and_gate.md
+  - research/active/VRINDAVAN-INTEGRATION-001/ZILVER/claims.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/ZILVER/sources/registry.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/ZILVER/sources/rejected.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/ZILVER/audit.md
+  - research/active/VRINDAVAN-INTEGRATION-001/ZILVER/handoff.yaml
+  - research/active/VRINDAVAN-INTEGRATION-001/ZILVER/COMPLETED
+optional_files:
+  - path: research/active/VRINDAVAN-INTEGRATION-001/BRONS/manifest.yaml
+    trigger: Loss-control only when ZILVER removal, merge or downgrade requires predecessor comparison.
+  - path: research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/INDEX.md
+    trigger: Loss-control only.
+  - path: research/active/VRINDAVAN-INTEGRATION-001/BRONS/claims.jsonl
+    trigger: Loss-control only.
+forbidden_files:
+  - research/completed/**
+  - research/active/*/GOUD/**
+  - research/active/*/ZILVER/**
+  - research/active/*/BRONS/**
+priority_order:
+  - research/active/VRINDAVAN-INTEGRATION-001/ZILVER/manifest.yaml
+  - research/active/VRINDAVAN-INTEGRATION-001/ZILVER/report/INDEX.md
+  - research/active/VRINDAVAN-INTEGRATION-001/ZILVER/claims.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/ZILVER/sources/registry.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/ZILVER/sources/rejected.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/ZILVER/audit.md
+expected_git_blob_shas:
+  research/active/VRINDAVAN-INTEGRATION-001/ZILVER/manifest.yaml: 04bcafa496178cef5aec411051db89f933a7cb22
+  research/active/VRINDAVAN-INTEGRATION-001/ZILVER/report/INDEX.md: 5abb96834b4a52cf12f7ba319e7c3109db7e2260
+  research/active/VRINDAVAN-INTEGRATION-001/ZILVER/report/01_verified_candidates.md: e70038de44fba30afff064dc2d214c1184cca306
+  research/active/VRINDAVAN-INTEGRATION-001/ZILVER/report/02_overlays_boundaries_and_visitability.md: 79cfe9f0b5ddbad8430e69bc01253efcd219d90d
+  research/active/VRINDAVAN-INTEGRATION-001/ZILVER/report/03_conclusion_and_gate.md: be57d7e40eb51dcb99ded4cc1741016c71ba3841
+  research/active/VRINDAVAN-INTEGRATION-001/ZILVER/claims.jsonl: 4952354938f4e7c519164c3f5a924591fb242318
+  research/active/VRINDAVAN-INTEGRATION-001/ZILVER/sources/registry.jsonl: 0d9501d12189059b9e47c2dbc613355e3b96ba9b
+  research/active/VRINDAVAN-INTEGRATION-001/ZILVER/sources/rejected.jsonl: 4a9f67a5f77bbb4b8824f604384d581d8a8ae1b7
+  research/active/VRINDAVAN-INTEGRATION-001/ZILVER/audit.md: d0c005d718abf616b72dd965f0cc5fe7c4cab7f4
+  research/active/VRINDAVAN-INTEGRATION-001/ZILVER/handoff.yaml: c930dbafc57b31604ae9148a5d6de5a6e6796b3d
+  research/active/VRINDAVAN-INTEGRATION-001/ZILVER/COMPLETED: b4341741c91ffd2e42527991d367a6aeaf7b3abd
+maximum_context_budget:
+  files: 40
+  lines_per_file: 1500
+predecessor_manifest: research/active/VRINDAVAN-INTEGRATION-001/ZILVER/manifest.yaml
+output_path: research/active/VRINDAVAN-INTEGRATION-001/GOUD/
+known_predecessor_status: PARTIAL
+required_focus:
+  - Apply the final quality gate without inventing completeness.
+  - Attempt only targeted research on the five remaining blockers.
+  - Revalidate AOAY double verification and preserve POSSIBLE if still incomplete.
+  - Revalidate current visitability and exact management evidence per candidate.
+  - Verify all claim-to-source references across accepted and rejected registers.
+  - Check for information loss from BRONS only when triggered.
+  - Preserve Mark-assigned A/B statuses without reassessment.
+source_commit_semantics:
+  independent_branch_head_advancement_allowed: true
+  block_only_when:
+    - a pinned required-file blob SHA differs
+    - a required file is missing or truncated
+    - state and eventlog are desynchronized
+    - a valid existing claim exists
+END_OF_ARTIFACT
