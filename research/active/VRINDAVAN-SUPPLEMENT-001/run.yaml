@@ -1,0 +1,33 @@
+run_id: VRINDAVAN-SUPPLEMENT-001
+project: india
+run_type: TARGETED_SUPPLEMENT
+parent_run: VRINDAVAN-INTEGRATION-001
+scope_file: research/active/VRINDAVAN-SUPPLEMENT-001/scope.md
+created_at: 2026-07-13T23:20:00+02:00
+created_by: SUBREGIE_INDIA
+immutable_after_first_claim: true
+pins:
+  entrypoint: pipeline/ENTRYPOINT.md
+  methodology: knowledge/methodology/METHODOLOGY_V2.md
+  overlays: knowledge/project/OVERLAYS_INDIA.md
+  execution_protocol: pipeline/protocols/EXECUTION_PROTOCOL.md
+  context_protocol: pipeline/protocols/CONTEXT_PROTOCOL.md
+  controller_transition_protocol: pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md
+  evidence_protocol: pipeline/protocols/EVIDENCE_PROTOCOL.md
+  self_routing_protocol: pipeline/protocols/SELF_ROUTING_PROTOCOL.md
+  quality_gate: pipeline/QUALITY_GATE.md
+  roles:
+    BRONS: pipeline/roles/BRONS.md
+    ZILVER: pipeline/roles/ZILVER.md
+    GOUD: pipeline/roles/GOUD.md
+versions:
+  pipeline: 2.4.0
+  methodology: 2.0.0
+source_base_commit: 93f2c3a1ef29c1903f8145df67e496392be31426
+predecessor:
+  run_id: VRINDAVAN-INTEGRATION-001
+  role: GOUD
+  status: PARTIAL
+  completion_commit: 5c0f37a31547f9e62bb1fc94965d1ccd4cf5bb80
+  manifest: research/active/VRINDAVAN-INTEGRATION-001/GOUD/manifest.yaml
+END_OF_ARTIFACT
