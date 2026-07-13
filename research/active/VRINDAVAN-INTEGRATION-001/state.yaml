@@ -1,7 +1,13 @@
 run_id: VRINDAVAN-INTEGRATION-001
-state: READY_FOR_BRONS
-active_role: null
-claim: null
-last_event_id: EVT-0001
+state: BRONS_CLAIMED
+active_role: BRONS
+claim:
+  role: BRONS
+  claimed_by: ChatGPT-BRONS
+  claimed_at: 2026-07-13T20:35:00+02:00
+  source_commit: 16155f9b05b461d4ec9928d7cb1d2756beea9d00
+  expected_state: READY_FOR_BRONS
+  output_path: research/active/VRINDAVAN-INTEGRATION-001/BRONS/
+last_event_id: EVT-0002
 last_validated_commit: 7dfa9449131290b890a00fd78ac6b1cce425f5ea
 blockers: []
