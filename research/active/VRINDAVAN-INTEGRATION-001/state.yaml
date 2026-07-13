@@ -1,0 +1,7 @@
+run_id: VRINDAVAN-INTEGRATION-001
+state: READY_FOR_BRONS
+active_role: null
+claim: null
+last_event_id: EVT-0001
+last_validated_commit: 7dfa9449131290b890a00fd78ac6b1cce425f5ea
+blockers: []
