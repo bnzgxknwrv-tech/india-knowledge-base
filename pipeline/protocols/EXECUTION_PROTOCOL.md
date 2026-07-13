@@ -1,4 +1,4 @@
-# Execution Protocol v2.1
+# Execution Protocol v2.2.1
 
 ## 1. Repository-only handoff
 
@@ -45,7 +45,16 @@ Controllertransitions gebruiken een afzonderlijke transitionclaim volgens `pipel
 
 ## 5. Source-commit pinning
 
-De worker leest vanaf de commit die in het contextmanifest staat. Voor de eigen fase-uitvoer geldt die commit als `source_commit`. Verandert de branch vóór de claim of blijkt een expected hash afwijkend, dan stopt de worker.
+`source_commit` identificeert de gepinde invoersnapshot en predecessorcontext. Het is niet vereist dat deze commit gelijk blijft aan de actuele branch-head.
+
+Een branch mag na contextvoorbereiding vooruitgaan door onafhankelijke commits. Dat blokkeert de worker niet wanneer:
+- alle `required_files` nog bestaan;
+- alle beschikbare `expected_git_blob_shas` exact overeenkomen;
+- state en eventlog synchroon zijn;
+- geen geldige bestaande claim bestaat;
+- het contextmanifest zelf niet is vervangen door een ongeldig of ongeautoriseerd manifest.
+
+De worker stopt alleen bij materiële inputdrift: een required file ontbreekt, is afgekapt of heeft een afwijkende gepinde hash; of bij een andere expliciete stopvoorwaarde. Een verschil tussen `source_commit` en de actuele branch-head is op zichzelf geen SHA-afwijking.
 
 Na claimen schrijft de worker alleen naar zijn eigen fase-output en de overeengekomen state/eventbestanden. Andere protocol- of onderzoeksbestanden worden niet gewijzigd.
 
@@ -110,6 +119,7 @@ Na `BRONS_COMPLETE` en `ZILVER_COMPLETE` is een aparte controllertransition verp
 - Onjuiste claim: alleen expliciete override door Mark/controller.
 - Protocolwijziging tijdens run: negeren; gepinde versie blijft leidend.
 - Ontbrekend opvolgercontextmanifest: volgende rol wordt niet geactiveerd; controllertransition uitvoeren.
+- Alleen branch-head advancement zonder required-file drift: niet blokkeren.
 
 ## 11. Archivering
 
