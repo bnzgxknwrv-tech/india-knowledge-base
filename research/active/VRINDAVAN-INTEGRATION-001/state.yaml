@@ -1,8 +1,14 @@
 run_id: VRINDAVAN-INTEGRATION-001
-state: READY_FOR_GOUD
-active_role: null
-claim: null
-last_event_id: EVT-0016
+state: GOUD_CLAIMED
+active_role: GOUD
+claim:
+  role: GOUD
+  claimed_by: ChatGPT-GOUD
+  claimed_at: 2026-07-13T22:42:00+02:00
+  source_commit: 8bbfed3755b330ae48bf221097531a5fc62a17bd
+  expected_state: READY_FOR_GOUD
+  output_path: research/active/VRINDAVAN-INTEGRATION-001/GOUD/
+last_event_id: EVT-0017
 last_validated_commit: 8bbfed3755b330ae48bf221097531a5fc62a17bd
 blockers:
   - AOAY double verification for the exact Keshavanand place remains incomplete.
@@ -10,3 +16,4 @@ blockers:
   - Current official management and practice evidence for Neem Karoli Baba Ashram Vrindavan remains insufficient.
   - Operational management remains unresolved for several distributed objects.
   - Kusum Sarovar living-practice evidence remains incomplete.
+END_OF_ARTIFACT
