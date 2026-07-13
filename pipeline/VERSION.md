@@ -1,8 +1,26 @@
 # Pipelineversie
 
-**Versie:** 2.2.0  
+**Versie:** 2.2.1  
 **Status:** implementatie gereed voor integratietest  
 **Datum:** 2026-07-13
+
+## 2.2.1
+
+Aanleiding:
+- ZILVER blokkeerde uitsluitend omdat de branch-head na contextvoorbereiding was gewijzigd;
+- alle gepinde BRONS-bestanden en blob-SHA's waren inhoudelijk ongewijzigd;
+- hierdoor werd een onafhankelijke protocolcommit ten onrechte als inputdrift behandeld.
+
+Gewijzigd gedrag:
+- `source_commit` is voortaan de gepinde invoersnapshot, niet een eis dat de branch-head gelijk blijft;
+- onafhankelijke branch-headwijzigingen zijn toegestaan wanneer alle required files en gepinde blob-SHA's gelijk blijven;
+- alleen materiële inputdrift, ontbrekende of afgekapt gelezen bestanden, state-desynchronisatie of een geldige bestaande claim blokkeren;
+- de systeemles is vastgelegd als `PL-0002`.
+
+Verwachte kwaliteitswinst:
+- rollen blokkeren niet meer op ongerelateerde commits;
+- actieve runs kunnen veilig naast protocolverbeteringen bestaan;
+- SHA-controle beschermt de werkelijke invoer in plaats van de globale branchpositie.
 
 ## 2.2.0
 
