@@ -1,0 +1,75 @@
+run_id: VRINDAVAN-INTEGRATION-001
+role: ZILVER
+status: READY
+source_commit: ee0d0076157ff4264cb49c8a5eb9f5d6b02c3dab
+prepared_by: ChatGPT-pipeline-controller
+protocol_versions:
+  pipeline: 2.1.0
+  methodology: 2.0.0
+required_files:
+  - pipeline/ENTRYPOINT.md
+  - pipeline/roles/ZILVER.md
+  - knowledge/methodology/METHODOLOGY_V2.md
+  - knowledge/project/OVERLAYS_INDIA.md
+  - pipeline/protocols/EXECUTION_PROTOCOL.md
+  - pipeline/protocols/CONTEXT_PROTOCOL.md
+  - pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md
+  - pipeline/protocols/EVIDENCE_PROTOCOL.md
+  - pipeline/QUALITY_GATE.md
+  - research/active/VRINDAVAN-INTEGRATION-001/run.yaml
+  - research/active/VRINDAVAN-INTEGRATION-001/state.yaml
+  - research/active/VRINDAVAN-INTEGRATION-001/events.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/scope.md
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/manifest.yaml
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/INDEX.md
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/01_scope_and_counts.md
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/02_candidates_core.md
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/03_outside_list_and_overlays.md
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/04_uncertainties_and_duplicates.md
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/05_ashrams_and_living_practice.md
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/06_conclusion_and_gate.md
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/claims.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/sources/registry.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/sources/rejected.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/audit.md
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/handoff.yaml
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/COMPLETED
+optional_files: []
+forbidden_files:
+  - research/active/VRINDAVAN-INTEGRATION-001/GOUD/**
+  - research/completed/**
+  - research/active/*/BRONS/**
+  - research/active/*/ZILVER/**
+  - research/active/*/GOUD/**
+priority_order:
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/manifest.yaml
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/INDEX.md
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/claims.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/sources/registry.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/sources/rejected.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/audit.md
+expected_git_blob_shas:
+  research/active/VRINDAVAN-INTEGRATION-001/BRONS/manifest.yaml: 51af5849e96108c2fab4c6a091be8549f641c861
+  research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/INDEX.md: 6877b83bc616b9fed4a52d36e88037bd0868bdee
+  research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/01_scope_and_counts.md: 5ffda3dc43da4ab04cd843aa44c4f9c17dd5d226
+  research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/02_candidates_core.md: 08b7ddfc09ad5013054d499dd6fc168478b7040f
+  research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/03_outside_list_and_overlays.md: 9ba39892a38cc858a36f8effdc2e1653d80b1a94
+  research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/04_uncertainties_and_duplicates.md: 4f8e7de688d7c570de8b796667f9f88fc25a8c45
+  research/active/VRINDAVAN-INTEGRATION-001/BRONS/claims.jsonl: 39893e324244cf3efed119a13a11914c3cff04f6
+  research/active/VRINDAVAN-INTEGRATION-001/BRONS/sources/registry.jsonl: a82f4d6c0d916d47d33b2c4acf155b1cc135b1fb
+  research/active/VRINDAVAN-INTEGRATION-001/BRONS/sources/rejected.jsonl: 9f1bf39e80936805e3dd28af74d8a5931f730463
+  research/active/VRINDAVAN-INTEGRATION-001/BRONS/handoff.yaml: 0f5da8b6d4b0f313e633bd23862b619f3e92be90
+  research/active/VRINDAVAN-INTEGRATION-001/BRONS/COMPLETED: ad4aa8c92fcde8f89cfcd059621722fb3feb3455
+maximum_context_budget:
+  files: 40
+  lines_per_file: 1500
+predecessor_manifest: research/active/VRINDAVAN-INTEGRATION-001/BRONS/manifest.yaml
+output_path: research/active/VRINDAVAN-INTEGRATION-001/ZILVER/
+known_predecessor_status: PARTIAL
+required_focus:
+  - Resolve or preserve visitability uncertainty per candidate.
+  - Strengthen exact institutional management identities.
+  - Complete AOAY double verification where possible.
+  - Recheck every claim-to-source reference across accepted and rejected registers.
+  - Preserve Mark-assigned A/B statuses without reassessment.
+END_OF_ARTIFACT
