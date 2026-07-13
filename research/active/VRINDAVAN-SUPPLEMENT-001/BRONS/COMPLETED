@@ -1,0 +1,26 @@
+PARTIAL
+run_id: VRINDAVAN-SUPPLEMENT-001
+role: BRONS
+source_commit: 5c0f37a31547f9e62bb1fc94965d1ccd4cf5bb80
+outputs:
+  - manifest.yaml
+  - report/INDEX.md
+  - report/01_scope_and_counts.md
+  - report/02_candidates_blockers.md
+  - report/03_sources_and_management.md
+  - report/04_uncertainties_and_negative_results.md
+  - report/05_living_practice.md
+  - report/06_conclusion_and_gate.md
+  - claims.jsonl
+  - sources/registry.jsonl
+  - sources/rejected.jsonl
+  - audit.md
+  - handoff.yaml
+highest_blockers:
+  - Controlled AOAY edition passage remains unavailable.
+  - Authoritative current visitability remains incomplete for all eight candidates.
+  - Official NKB Vrindavan management and recurring practice remain unresolved.
+  - Exclusive daily management of distributed objects remains unresolved.
+  - Separate recurring object-level Kusum Sarovar practice remains unresolved.
+validation: all required artifacts reopened; sentinels checked; source-ID references valid and unique; no forbidden paths used; no A/B/C status assigned; no ZILVER context or controller transition executed.
+END_OF_ARTIFACT
