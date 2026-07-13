@@ -10,6 +10,8 @@ Een controller of Mark activeert exact één rol voor exact één run:
 
 Geen rapporttekst wordt tussen chats geplakt. GitHub is het enige overdrachtskanaal.
 
+ZILVER en GOUD mogen alleen worden geactiveerd nadat een aparte controllertransition hun definitieve contextmanifest heeft gegenereerd en de state op de juiste READY-status heeft gezet.
+
 ## Verplichte volgorde
 
 1. Controleer lees- en schrijfrechten voor de repository.
@@ -22,8 +24,9 @@ Geen rapporttekst wordt tussen chats geplakt. GitHub is het enige overdrachtskan
 8. Claim de fase volgens `pipeline/protocols/EXECUTION_PROTOCOL.md`.
 9. Voer de rol uit en schrijf uitsluitend naar het toegewezen fasepad.
 10. Valideer alle verplichte outputs, sentinels en verwijzingen.
-11. Schrijf `manifest.yaml`, `handoff.yaml`, `COMPLETED`, update `state.yaml` en append één event aan `events.jsonl`.
+11. Schrijf `manifest.yaml`, `handoff.yaml`, `COMPLETED`, update `state.yaml` en append de vereiste events aan `events.jsonl`.
 12. Commit de volledige fase-uitkomst.
+13. Stop. De worker maakt nooit zelf het contextmanifest van zijn opvolger; dat gebeurt via `pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md`.
 
 ## Stopvoorwaarden
 
@@ -31,7 +34,7 @@ Stop zonder inhoudelijk werk wanneer:
 - GitHub-write ontbreekt;
 - run of rol niet bestaat;
 - `source_commit` niet overeenkomt;
-- een niet-verlopen geldige claim van een andere worker bestaat;
+- een geldige bestaande claim van een andere worker of controller bestaat;
 - state en eventlog elkaar tegenspreken;
 - het contextmanifest ontbreekt of niet volledig gelezen kan worden;
 - een required file ontbreekt of een expected hash niet klopt;
