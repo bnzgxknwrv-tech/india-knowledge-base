@@ -1,9 +1,9 @@
 run_id: VRINDAVAN-SUPPLEMENT-001
-state: BRONS_COMPLETE
+state: READY_FOR_ZILVER
 active_role: null
 claim: null
-last_event_id: EVT-0003
-last_validated_commit: 768dba81d4e7f2d0d0c42d5a32a6b4e567497d9b
+last_event_id: EVT-0006
+last_validated_commit: d5b722d27f6fb457d66b0229eeb550b35f826fc8
 blockers:
   - Controlled AOAY edition passage remains unavailable.
   - Authoritative current visitability remains incomplete for all eight candidates.
