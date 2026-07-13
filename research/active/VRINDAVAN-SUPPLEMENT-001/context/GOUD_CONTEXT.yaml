@@ -1,0 +1,76 @@
+run_id: VRINDAVAN-SUPPLEMENT-001
+role: GOUD
+status: READY
+source_commit: f2a67a3fdc628738ecf4e0d83ed51de312c085d0
+prepared_by: SUBREGIE_INDIA
+operating_mode: CONTROLLED_MANUAL_FAST
+protocol_versions:
+  pipeline: 2.4.0
+  methodology: 2.0.0
+required_files:
+  - pipeline/ENTRYPOINT.md
+  - pipeline/roles/GOUD.md
+  - pipeline/protocols/EXECUTION_PROTOCOL.md
+  - pipeline/protocols/CONTEXT_PROTOCOL.md
+  - pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md
+  - pipeline/protocols/EVIDENCE_PROTOCOL.md
+  - pipeline/protocols/SELF_ROUTING_PROTOCOL.md
+  - pipeline/QUALITY_GATE.md
+  - knowledge/methodology/METHODOLOGY_V2.md
+  - knowledge/project/OVERLAYS_INDIA.md
+  - research/active/VRINDAVAN-SUPPLEMENT-001/run.yaml
+  - research/active/VRINDAVAN-SUPPLEMENT-001/scope.md
+  - research/active/VRINDAVAN-SUPPLEMENT-001/state.yaml
+  - research/active/VRINDAVAN-SUPPLEMENT-001/events.jsonl
+  - research/active/VRINDAVAN-SUPPLEMENT-001/ZILVER/manifest.yaml
+  - research/active/VRINDAVAN-SUPPLEMENT-001/ZILVER/report/INDEX.md
+  - research/active/VRINDAVAN-SUPPLEMENT-001/ZILVER/report/01_five_blocker_verification.md
+  - research/active/VRINDAVAN-SUPPLEMENT-001/ZILVER/report/02_conclusion_and_gate.md
+  - research/active/VRINDAVAN-SUPPLEMENT-001/ZILVER/claims.jsonl
+  - research/active/VRINDAVAN-SUPPLEMENT-001/ZILVER/sources/registry.jsonl
+  - research/active/VRINDAVAN-SUPPLEMENT-001/ZILVER/sources/rejected.jsonl
+  - research/active/VRINDAVAN-SUPPLEMENT-001/ZILVER/audit.md
+  - research/active/VRINDAVAN-SUPPLEMENT-001/ZILVER/handoff.yaml
+  - research/active/VRINDAVAN-SUPPLEMENT-001/ZILVER/COMPLETED
+optional_files:
+  - path: research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/manifest.yaml
+    trigger: Loss-control only when ZILVER removal, merge or downgrade requires predecessor comparison.
+  - path: research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/report/INDEX.md
+    trigger: Loss-control only.
+  - path: research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/claims.jsonl
+    trigger: Loss-control only.
+expected_git_blob_shas:
+  research/active/VRINDAVAN-SUPPLEMENT-001/ZILVER/manifest.yaml: c98418c424c913cb4b133c9c5318b72373296cf8
+  research/active/VRINDAVAN-SUPPLEMENT-001/ZILVER/report/INDEX.md: 215b1659243eb4080c714c0f08e4fb1f2384b497
+  research/active/VRINDAVAN-SUPPLEMENT-001/ZILVER/report/01_five_blocker_verification.md: d52ccd7f105b8a35a3436e08782bfdafc0dd8c86
+  research/active/VRINDAVAN-SUPPLEMENT-001/ZILVER/report/02_conclusion_and_gate.md: 82a377970c79b8698da4fe4890238b8c8d3be437
+  research/active/VRINDAVAN-SUPPLEMENT-001/ZILVER/claims.jsonl: 101b22c2c983ef4e02aea16f67251c78bc393a02
+  research/active/VRINDAVAN-SUPPLEMENT-001/ZILVER/sources/registry.jsonl: de0ecdda4704383ddfc65324cf8df49953cdcfcf
+  research/active/VRINDAVAN-SUPPLEMENT-001/ZILVER/sources/rejected.jsonl: 87a5b4698398c801e2eca5d17598e201497ca038
+  research/active/VRINDAVAN-SUPPLEMENT-001/ZILVER/audit.md: 6069cec2108f67377d2b30d4728f7b1e36ec66a1
+  research/active/VRINDAVAN-SUPPLEMENT-001/ZILVER/handoff.yaml: 83f1217e101654da0d09096ea34f1e8e4460921a
+  research/active/VRINDAVAN-SUPPLEMENT-001/ZILVER/COMPLETED: 4bb81e3c0f8b657f8daf5b79e63de085336ad642
+predecessor_manifest: research/active/VRINDAVAN-SUPPLEMENT-001/ZILVER/manifest.yaml
+output_path: research/active/VRINDAVAN-SUPPLEMENT-001/GOUD/
+known_predecessor_status: PARTIAL
+required_focus:
+  - Apply the final quality gate only to the five pinned Vrindavan blockers.
+  - Do not repeat the full Vrindavan cluster sweep.
+  - Preserve the existing eight-candidate boundary and parent GOUD dossier.
+  - Perform only targeted final verification where it can materially close or clarify a blocker.
+  - Recheck every claim-to-source reference across accepted and rejected registers.
+  - Preserve uncertainty when evidence remains insufficient.
+  - Make no A/B/C assessment, ranking, route, stay, hotel, transport or price recommendation.
+forbidden_files:
+  - research/completed/**
+maximum_context_budget:
+  files: 40
+  lines_per_file: 1500
+source_commit_semantics:
+  independent_branch_head_advancement_allowed: true
+  block_only_when:
+    - a pinned required-file blob SHA differs
+    - a required file is missing or truncated
+    - state and eventlog are desynchronized
+    - a valid existing claim exists
+END_OF_ARTIFACT
