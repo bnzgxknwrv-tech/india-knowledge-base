@@ -19,8 +19,8 @@ files:
 line_counts_reliable: false
 content_hashes_reliable: false
 validation:
-  required_outputs_present: false
-  sentinels_checked: false
+  required_outputs_present: true
+  sentinels_checked: true
   max_lines_under_1500: true
   forbidden_files_used: false
   source_id_references_valid: true
