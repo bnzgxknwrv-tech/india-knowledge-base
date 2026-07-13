@@ -1,0 +1,26 @@
+PARTIAL
+run_id: VRINDAVAN-INTEGRATION-001
+role: BRONS
+source_commit: 16155f9b05b461d4ec9928d7cb1d2756beea9d00
+outputs:
+  - manifest.yaml
+  - report/INDEX.md
+  - report/01_scope_and_counts.md
+  - report/02_candidates_core.md
+  - report/03_outside_list_and_overlays.md
+  - report/04_uncertainties_and_duplicates.md
+  - report/05_ashrams_and_living_practice.md
+  - report/06_conclusion_and_gate.md
+  - claims.jsonl
+  - sources/registry.jsonl
+  - sources/rejected.jsonl
+  - audit.md
+  - handoff.yaml
+highest_blockers:
+  - Current visitability details incomplete for most candidates.
+  - Exact institutional management unresolved for several objects.
+  - Official current-management evidence for Neem Karoli Baba Ashram Vrindavan not retrieved.
+  - AOAY double verification incomplete.
+  - Kusum Sarovar living-practice evidence incomplete.
+validation: required artifacts created, sentinels checked, no forbidden paths used, no primary file over 1500 lines.
+END_OF_ARTIFACT
