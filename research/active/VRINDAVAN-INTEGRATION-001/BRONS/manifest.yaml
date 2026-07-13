@@ -1,0 +1,33 @@
+run_id: VRINDAVAN-INTEGRATION-001
+role: BRONS
+completion_status: PARTIAL
+source_commit: 16155f9b05b461d4ec9928d7cb1d2756beea9d00
+protocol_versions:
+  pipeline: 2.1.0
+  methodology: 2.0.0
+files:
+  - path: report/INDEX.md
+  - path: report/01_scope_and_counts.md
+  - path: report/02_candidates_core.md
+  - path: report/03_outside_list_and_overlays.md
+  - path: report/04_uncertainties_and_duplicates.md
+  - path: report/05_ashrams_and_living_practice.md
+  - path: report/06_conclusion_and_gate.md
+  - path: claims.jsonl
+  - path: sources/registry.jsonl
+  - path: sources/rejected.jsonl
+  - path: audit.md
+  - path: handoff.yaml
+  - path: COMPLETED
+line_counts_reliable: false
+content_hashes_reliable: false
+validation:
+  required_outputs_present: true
+  sentinels_checked: true
+  max_lines_under_1500: true
+  forbidden_files_used: false
+open_blockers:
+  - Current visitability details incomplete.
+  - Several institutional identities require stronger primary evidence.
+  - AOAY double verification incomplete.
+END_OF_ARTIFACT
