@@ -1,15 +1,9 @@
 run_id: VRINDAVAN-INTEGRATION-001
-state: BRONS_COMPLETE
-active_role: CONTROLLER
-claim:
-  transition: BRONS_COMPLETE_TO_READY_FOR_ZILVER
-  claimed_by: ChatGPT-pipeline-controller
-  claimed_at: 2026-07-13T21:24:00+02:00
-  source_commit: ee0d0076157ff4264cb49c8a5eb9f5d6b02c3dab
-  expected_state: BRONS_COMPLETE
-  target_context_manifest: research/active/VRINDAVAN-INTEGRATION-001/context/ZILVER_CONTEXT.yaml
-last_event_id: EVT-0004
-last_validated_commit: ee0d0076157ff4264cb49c8a5eb9f5d6b02c3dab
+state: READY_FOR_ZILVER
+active_role: null
+claim: null
+last_event_id: EVT-0007
+last_validated_commit: 831c31efcfc0058f23470a864c854186273b2354
 blockers:
   - Current visitability details incomplete for most candidates.
   - Exact institutional management unresolved for several objects.
