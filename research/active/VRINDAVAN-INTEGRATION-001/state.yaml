@@ -2,8 +2,8 @@ run_id: VRINDAVAN-INTEGRATION-001
 state: BRONS_COMPLETE
 active_role: null
 claim: null
-last_event_id: EVT-0003
-last_validated_commit: 8d9c06994f3034fb73706155a1f7c45f7bba9c92
+last_event_id: EVT-0004
+last_validated_commit: 8f12bd2d9a30e0b8d74d5477afb67537dba2c5bb
 blockers:
   - Current visitability details incomplete for most candidates.
   - Exact institutional management unresolved for several objects.
