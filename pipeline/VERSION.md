@@ -1,31 +1,35 @@
 # Pipelineversie
 
-**Versie:** 2.3.0  
-**Status:** operationeel bewezen; regie-interface ingevoerd  
+**Versie:** 2.4.0  
+**Status:** operationeel bewezen; zelfrouterende minimale-MARK-workflow ingevoerd  
 **Datum:** 2026-07-13
+
+## 2.4.0
+
+Aanleiding:
+- Mark moest completion- en blockerberichten nog zelf interpreteren en naar de juiste chat kopiëren;
+- afzonderlijke lange startprompts en handmatige tussenregie veroorzaakten onnodige stappen;
+- een ChatGPT-worker kan de GitHub-connector niet autonoom naar een andere chat verplaatsen of daar inschakelen.
+
+Gewijzigd gedrag:
+- `SELF_ROUTING_PROTOCOL.md` toegevoegd;
+- iedere metaalworker geeft exact één bestemming, één volgende actie voor Mark en een volledig kopieerbare doorstuurtekst;
+- BRONS en ZILVER mogen alleen rechtstreeks naar het volgende metaal wanneer een controller de volgende READY-state en context al aantoonbaar heeft voorbereid;
+- GOUD gaat altijd eerst naar SUBREGIE INDIA voor technische eindvalidatie;
+- universele startopdracht en `NEXT_ACTION_TEMPLATE.yaml` toegevoegd;
+- automatiseringsroute via GitHub Actions en optionele externe orchestratie vastgelegd;
+- rollen BRONS, ZILVER en GOUD aangescherpt op zelfroutering en vaste berichtvorm.
+
+Verwachte kwaliteitswinst:
+- Mark hoeft technische berichten niet meer te interpreteren;
+- minder kopieerwerk en minder kans op verkeerde bestemming;
+- dezelfde startopdracht kan voor iedere volgende metaalchat worden gebruikt;
+- controllerautomatisering kan later de tussenkomst van SUBREGIE INDIA tussen fasen grotendeels verwijderen;
+- heldere grens tussen wat via de ChatGPT-connector kan en wat een externe orchestrator vereist.
 
 ## 2.3.0
 
-Aanleiding:
-- de eerste end-to-end run heeft BRONS, controllertransition, ZILVER, controllertransition en GOUD volledig doorlopen;
-- INDIA2 moet inhoudelijk schoon blijven en niet worden belast met workercoördinatie, state/events, connectorproblemen en protocolreparaties;
-- er ontbrak een formele vaste tussenregie tussen Mark, de drie metalen en INDIA2.
-
-Gewijzigd gedrag:
-- `SUBREGIE INDIA` toegevoegd als vaste pipeline- en kwaliteitsregie;
-- rolcontract toegevoegd onder `pipeline/roles/SUBREGIE_INDIA.md`;
-- verplichte routering tussen INDIA2 en SUBREGIE INDIA vastgelegd in `pipeline/protocols/REGIE_INTERFACE_PROTOCOL.md`;
-- INDIA2 stuurt alle operationele pipelineberichten verplicht door en ontvangt alleen een gevalideerd GOUD-regisseurspakket;
-- SUBREGIE INDIA mag technische pipeline- en efficiëntieverbeteringen zelfstandig uitvoeren;
-- methodologische en projectinhoudelijke wijzigingen blijven bij INDIA2 en Mark;
-- berichtvorm en harde GitHub-connectorfoutmelding vastgelegd.
-
-Verwachte kwaliteitswinst:
-- INDIA2 blijft gericht op inhoudelijke projectkoers en integratie;
-- minder contextvervuiling door technische uitvoeringsdetails;
-- één consistente begeleider voor alle metalen en controllertransitions;
-- snellere foutafhandeling en structureel leren tussen runs;
-- duidelijkere bevoegdheidsgrenzen tussen Mark, INDIA2 en pipeline-uitvoering.
+SUBREGIE INDIA en de schone interface met INDIA2 ingevoerd. De eerste end-to-end BRONS-ZILVER-GOUD-run verklaarde de pipeline operationeel bewezen.
 
 ## 2.2.1
 
