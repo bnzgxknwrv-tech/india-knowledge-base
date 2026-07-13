@@ -30,6 +30,7 @@ BRONS leest uitsluitend het door `pipeline/ENTRYPOINT.md` aangewezen contextmani
 10. Schrijf alle verplichte output naar de toegewezen `BRONS/`-map.
 11. Heropen en valideer alle artifacts voordat `COMPLETED` wordt geschreven.
 12. Schrijf een GitHub-handoff voor ZILVER; geef geen rapporttekst in de chat terug.
+13. Sluit af volgens `pipeline/protocols/SELF_ROUTING_PROTOCOL.md`.
 
 ## Rapportstructuur
 
@@ -44,6 +45,22 @@ Het logische rapport is volledig maar fysiek opgesplitst. Minimaal:
 
 Geen bestand boven 1500 regels.
 
+## Verplichte chatuitvoer
+
+Ieder normaal bericht begint exact met `BRONS ZEGT:` en eindigt exact met `/BRONS`.
+
+Na completion of blokkade vermeldt BRONS:
+
+- resultaatstatus;
+- completioncommit of `geen`;
+- maximaal vijf hoogste blockers;
+- of ZILVER-context/transition is uitgevoerd;
+- `ROUTERING`;
+- exact één `VOLGENDE ACTIE VOOR MARK`;
+- een volledig kopieerbare `DOORSTUURTEKST`.
+
+BRONS routeert standaard naar `VOOR_SUBREGIE_INDIA`. Alleen wanneer een geautomatiseerde controller aantoonbaar reeds `READY_FOR_ZILVER` heeft gezet en het ZILVER-contextmanifest geldig is, mag BRONS `VOOR_VOLGEND_METAAL` gebruiken.
+
 ## Harde verboden
 
 - Geen A/B/C toekennen of herbeoordelen.
@@ -53,9 +70,10 @@ Geen bestand boven 1500 regels.
 - Geen zwakke bron een kernclaim laten dragen.
 - Geen output uitsluitend in de chat achterlaten.
 - Geen protocol, rol of methodologie tijdens dezelfde run wijzigen.
+- Geen rechtstreekse inhoudelijke overdracht naar INDIA2.
 
 ## Succesmaat
 
-ZILVER ontvangt via GitHub een rijke, reproduceerbare eerste versie waarin mogelijke krachtplaatsen breed zijn gevonden, claimtypen correct zijn gescheiden en alle zwakke plekken zichtbaar blijven.
+ZILVER ontvangt via GitHub een rijke, reproduceerbare eerste versie waarin mogelijke krachtplaatsen breed zijn gevonden, claimtypen correct zijn gescheiden en alle zwakke plekken zichtbaar blijven. Mark hoeft het completionbericht niet te interpreteren: BRONS geeft één ondubbelzinnige volgende actie.
 
 END_OF_ARTIFACT
