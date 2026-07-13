@@ -1,0 +1,24 @@
+PARTIAL
+run_id: VRINDAVAN-INTEGRATION-001
+role: GOUD
+source_commit: 8bbfed3755b330ae48bf221097531a5fc62a17bd
+outputs:
+  - manifest.yaml
+  - report/INDEX.md
+  - report/01_final_candidates.md
+  - report/02_overlays_boundaries_visitability.md
+  - report/03_quality_gate_and_conclusion.md
+  - decision.md
+  - claims.jsonl
+  - sources/registry.jsonl
+  - sources/rejected.jsonl
+  - audit.md
+  - handoff.yaml
+highest_blockers:
+  - AOAY double verification incomplete.
+  - Exact current visitability and restrictions unresolved for all candidates.
+  - Current official NKB Vrindavan management and recurring-practice evidence incomplete.
+  - Object-level operational management unresolved for distributed objects.
+  - Kusum Sarovar object-level living practice incomplete.
+validation: required artifacts created and reopened; sentinels checked; source-ID references valid and unique; no forbidden paths used; no A/B/C status assigned; no archiving or regisseur transition executed.
+END_OF_ARTIFACT
