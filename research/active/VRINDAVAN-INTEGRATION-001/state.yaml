@@ -2,8 +2,8 @@ run_id: VRINDAVAN-INTEGRATION-001
 state: READY_FOR_ZILVER
 active_role: null
 claim: null
-last_event_id: EVT-0007
-last_validated_commit: 831c31efcfc0058f23470a864c854186273b2354
+last_event_id: EVT-0011
+last_validated_commit: df5b71e60d3a5342542b9003e4641ec59d8a5a45
 blockers:
   - Current visitability details incomplete for most candidates.
   - Exact institutional management unresolved for several objects.
