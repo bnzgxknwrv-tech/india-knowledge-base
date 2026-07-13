@@ -72,8 +72,10 @@ Populariteit als toeristische attractie is geen vervanging voor levende spiritue
 Een kandidaat krijgt één of meer objectieve typen:
 - `EVENT` — door een traditie of historie aan een gebeurtenis verbonden;
 - `LINEAGE` — fysiek anker van een guru-parampara of spirituele lijn;
-- `SAMADHI` — graf-, as-, mahasamadhi- of herinneringsplaats;
+- `SAMADHI` — fysieke graf-, as-, mahasamadhi- of traditioneel als samadhi beheerde plaats;
 - `LIVING_PRACTICE` — actieve ashram-, tempel-, meditatie- of pelgrimspraktijk.
+
+Een algemeen herdenkingsmonument zonder graf, as, mahasamadhi of expliciete samadhi-identiteit krijgt geen `SAMADHI`-label. Een eventueel type `MEMORIAL` vereist een latere expliciete methodologiewijziging.
 
 Meerdere typen zijn toegestaan. De typen zijn geen waardering.
 
