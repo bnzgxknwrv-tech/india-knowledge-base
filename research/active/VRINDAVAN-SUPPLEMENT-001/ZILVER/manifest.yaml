@@ -1,0 +1,36 @@
+run_id: VRINDAVAN-SUPPLEMENT-001
+role: ZILVER
+completion_status: PARTIAL
+source_commit: d5b722d27f6fb457d66b0229eeb550b35f826fc8
+protocol_versions:
+  pipeline: 2.4.0
+  methodology: 2.0.0
+files:
+  - path: report/INDEX.md
+  - path: report/01_five_blocker_verification.md
+  - path: report/02_conclusion_and_gate.md
+  - path: claims.jsonl
+  - path: sources/registry.jsonl
+  - path: sources/rejected.jsonl
+  - path: audit.md
+  - path: handoff.yaml
+  - path: COMPLETED
+line_counts_reliable: false
+content_hashes_reliable: false
+validation:
+  required_outputs_present: true
+  sentinels_checked: true
+  max_lines_under_1500: true
+  forbidden_files_used: false
+  source_id_references_valid: true
+  exact_five_blocker_scope: true
+  abc_status_assigned: false
+  goud_context_created: false
+  controller_transition_executed: false
+open_blockers:
+  - Controlled AOAY edition passage remains unavailable.
+  - Authoritative current visitability remains incomplete for all eight candidates.
+  - Official NKB Vrindavan management and recurring practice remain unresolved.
+  - Exclusive daily management of distributed objects remains unresolved.
+  - Separate recurring object-level Kusum Sarovar practice remains unresolved.
+END_OF_ARTIFACT
