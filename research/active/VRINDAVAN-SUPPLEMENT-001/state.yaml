@@ -1,8 +1,14 @@
 run_id: VRINDAVAN-SUPPLEMENT-001
-state: READY_FOR_BRONS
-active_role: null
-claim: null
-last_event_id: EVT-0001
+state: BRONS_CLAIMED
+active_role: BRONS
+claim:
+  role: BRONS
+  claimed_by: ChatGPT-BRONS
+  claimed_at: 2026-07-13T23:18:00+02:00
+  source_commit: 5c0f37a31547f9e62bb1fc94965d1ccd4cf5bb80
+  expected_state: READY_FOR_BRONS
+  output_path: research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/
+last_event_id: EVT-0002
 last_validated_commit: 5c0f37a31547f9e62bb1fc94965d1ccd4cf5bb80
 blockers:
   - AOAY double verification for the exact Keshavanand place remains incomplete.
