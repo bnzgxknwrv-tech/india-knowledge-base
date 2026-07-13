@@ -1,4 +1,4 @@
-# QUALITY_GATE v2.0 — verplichte fase- en vrijgavecontrole
+# QUALITY_GATE v2.2 — verplichte fase- en vrijgavecontrole
 
 Iedere rol past deze controle toe. GOUD gebruikt haar als harde vrijgavepoort.
 
@@ -15,7 +15,12 @@ Iedere rol past deze controle toe. GOUD gebruikt haar als harde vrijgavepoort.
 - [ ] geen primair bestand overschrijdt 1500 regels;
 - [ ] manifest, handoff en COMPLETED stemmen overeen;
 - [ ] geen materiaal bestaat uitsluitend in de chat;
-- [ ] artifacts zijn na schrijven opnieuw geopend en gecontroleerd.
+- [ ] artifacts zijn na schrijven opnieuw geopend en gecontroleerd;
+- [ ] iedere `source_id` uit claims bestaat in accepted of rejected source register;
+- [ ] source-ID’s zijn uniek over beide registers;
+- [ ] afgewezen bronnen zonder unieke ID worden nergens als claimreferentie gebruikt;
+- [ ] alle manifest- en handoffpaden bestaan;
+- [ ] iedere tijdens validatie gevonden fout is geclassificeerd volgens `CONTINUOUS_LEARNING_PROTOCOL.md`.
 
 ## B. Kandidaatniveau
 
