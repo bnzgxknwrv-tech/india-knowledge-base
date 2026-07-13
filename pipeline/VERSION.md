@@ -1,31 +1,33 @@
 # Pipelineversie
 
-**Versie:** 2.4.0  
-**Status:** operationeel bewezen; zelfrouterende minimale-MARK-workflow ingevoerd  
+**Versie:** 2.4.1  
+**Status:** operationeel bewezen; gecontroleerde handmatige snelmodus actief  
 **Datum:** 2026-07-13
+
+## 2.4.1
+
+Aanleiding:
+- het project gebruikt naar verwachting maximaal ongeveer twintig sweeps;
+- verdere platformarchitectuur kostte meer tijd dan zij binnen deze schaal bespaart;
+- Vrindavan moet inhoudelijk doorgaan zonder opnieuw een theoretisch productiesysteem te ontwerpen.
+
+Gewijzigd gedrag:
+- `pipeline/OPERATING_MODE.yaml` zet de pipeline op `CONTROLLED_MANUAL_FAST`;
+- onderzoeksvoortgang krijgt voorrang boven nieuwe architectuur;
+- slechts één actieve run tegelijk en één globaal `NEXT_ACTION.yaml` zijn voor deze projectomvang aanvaardbaar;
+- n8n, event sourcing, leases, staging branches, uitgebreide schemas en autonome orchestratie zijn uitgesteld;
+- alleen actuele runblockers, reeds waargenomen herhaalfouten, beveiligingsproblemen en werkelijk dataverlies rechtvaardigen directe protocolwijziging;
+- actieve gepinde runs blijven op hun eigen versie werken.
+
+Verwachte kwaliteitswinst:
+- minder tijdverlies aan infrastructuur;
+- sneller door BRONS, ZILVER en GOUD;
+- voldoende controle voor een klein aantal sequentiële sweeps;
+- architectuurwerk wordt pas hervat wanneer de werkelijke schaal dat vereist.
 
 ## 2.4.0
 
-Aanleiding:
-- Mark moest completion- en blockerberichten nog zelf interpreteren en naar de juiste chat kopiëren;
-- afzonderlijke lange startprompts en handmatige tussenregie veroorzaakten onnodige stappen;
-- een ChatGPT-worker kan de GitHub-connector niet autonoom naar een andere chat verplaatsen of daar inschakelen.
-
-Gewijzigd gedrag:
-- `SELF_ROUTING_PROTOCOL.md` toegevoegd;
-- iedere metaalworker geeft exact één bestemming, één volgende actie voor Mark en een volledig kopieerbare doorstuurtekst;
-- BRONS en ZILVER mogen alleen rechtstreeks naar het volgende metaal wanneer een controller de volgende READY-state en context al aantoonbaar heeft voorbereid;
-- GOUD gaat altijd eerst naar SUBREGIE INDIA voor technische eindvalidatie;
-- universele startopdracht en `NEXT_ACTION_TEMPLATE.yaml` toegevoegd;
-- automatiseringsroute via GitHub Actions en optionele externe orchestratie vastgelegd;
-- rollen BRONS, ZILVER en GOUD aangescherpt op zelfroutering en vaste berichtvorm.
-
-Verwachte kwaliteitswinst:
-- Mark hoeft technische berichten niet meer te interpreteren;
-- minder kopieerwerk en minder kans op verkeerde bestemming;
-- dezelfde startopdracht kan voor iedere volgende metaalchat worden gebruikt;
-- controllerautomatisering kan later de tussenkomst van SUBREGIE INDIA tussen fasen grotendeels verwijderen;
-- heldere grens tussen wat via de ChatGPT-connector kan en wat een externe orchestrator vereist.
+Zelfroutering, vaste volgende actie voor Mark, universele startopdracht en automatiseringsroadmap ingevoerd.
 
 ## 2.3.0
 
