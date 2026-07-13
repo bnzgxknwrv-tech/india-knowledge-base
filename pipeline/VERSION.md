@@ -1,47 +1,39 @@
 # Pipelineversie
 
-**Versie:** 2.2.1  
-**Status:** implementatie gereed voor integratietest  
+**Versie:** 2.3.0  
+**Status:** operationeel bewezen; regie-interface ingevoerd  
 **Datum:** 2026-07-13
+
+## 2.3.0
+
+Aanleiding:
+- de eerste end-to-end run heeft BRONS, controllertransition, ZILVER, controllertransition en GOUD volledig doorlopen;
+- INDIA2 moet inhoudelijk schoon blijven en niet worden belast met workercoördinatie, state/events, connectorproblemen en protocolreparaties;
+- er ontbrak een formele vaste tussenregie tussen Mark, de drie metalen en INDIA2.
+
+Gewijzigd gedrag:
+- `SUBREGIE INDIA` toegevoegd als vaste pipeline- en kwaliteitsregie;
+- rolcontract toegevoegd onder `pipeline/roles/SUBREGIE_INDIA.md`;
+- verplichte routering tussen INDIA2 en SUBREGIE INDIA vastgelegd in `pipeline/protocols/REGIE_INTERFACE_PROTOCOL.md`;
+- INDIA2 stuurt alle operationele pipelineberichten verplicht door en ontvangt alleen een gevalideerd GOUD-regisseurspakket;
+- SUBREGIE INDIA mag technische pipeline- en efficiëntieverbeteringen zelfstandig uitvoeren;
+- methodologische en projectinhoudelijke wijzigingen blijven bij INDIA2 en Mark;
+- berichtvorm en harde GitHub-connectorfoutmelding vastgelegd.
+
+Verwachte kwaliteitswinst:
+- INDIA2 blijft gericht op inhoudelijke projectkoers en integratie;
+- minder contextvervuiling door technische uitvoeringsdetails;
+- één consistente begeleider voor alle metalen en controllertransitions;
+- snellere foutafhandeling en structureel leren tussen runs;
+- duidelijkere bevoegdheidsgrenzen tussen Mark, INDIA2 en pipeline-uitvoering.
 
 ## 2.2.1
 
-Aanleiding:
-- ZILVER blokkeerde uitsluitend omdat de branch-head na contextvoorbereiding was gewijzigd;
-- alle gepinde BRONS-bestanden en blob-SHA's waren inhoudelijk ongewijzigd;
-- hierdoor werd een onafhankelijke protocolcommit ten onrechte als inputdrift behandeld.
-
-Gewijzigd gedrag:
-- `source_commit` is voortaan de gepinde invoersnapshot, niet een eis dat de branch-head gelijk blijft;
-- onafhankelijke branch-headwijzigingen zijn toegestaan wanneer alle required files en gepinde blob-SHA's gelijk blijven;
-- alleen materiële inputdrift, ontbrekende of afgekapt gelezen bestanden, state-desynchronisatie of een geldige bestaande claim blokkeren;
-- de systeemles is vastgelegd als `PL-0002`.
-
-Verwachte kwaliteitswinst:
-- rollen blokkeren niet meer op ongerelateerde commits;
-- actieve runs kunnen veilig naast protocolverbeteringen bestaan;
-- SHA-controle beschermt de werkelijke invoer in plaats van de globale branchpositie.
+Source-commitsemantiek gecorrigeerd: branch-headwijziging blokkeert niet wanneer alle gepinde required-file blob-SHA's gelijk blijven. Systeemles `PL-0002`.
 
 ## 2.2.0
 
-Aanleiding:
-- de eerste BRONS-integratietest bevatte een claimreferentie naar `R-001`, terwijl afgewezen bronnen geen unieke source-ID hadden;
-- de bestaande gate benoemde referentiële integriteit, maar schreef geen volledige cross-registercontrole en geen structurele leeractie voor.
-
-Gewijzigd gedrag:
-- `CONTINUOUS_LEARNING_PROTOCOL.md` toegevoegd;
-- iedere fout wordt geclassificeerd en krijgt een expliciete leerbeslissing;
-- lokale runreparatie en structurele systeemverbetering zijn strikt gescheiden;
-- systeemlessen worden append-only vastgelegd in `pipeline/learning/LESSONS.jsonl`;
-- quality gate valideert alle claim-sourceverwijzingen over accepted en rejected registers;
-- de assistent vermeldt voortaan bij iedere fout wat lokaal wordt gerepareerd en wat blijvend aan rollen/protocollen wordt verbeterd;
-- actieve runs blijven onder hun gepinde versie werken.
-
-Verwachte kwaliteitswinst:
-- dezelfde fout wordt niet stil in volgende runs herhaald;
-- minder afhankelijkheid van chatgeheugen;
-- aantoonbare en versieerbare verbetering van BRONS, ZILVER, GOUD en controller;
-- structurele lessen blijven beschikbaar voor iedere toekomstige GitHub-capabele worker.
+Continuous learning ingevoerd met foutclassificatie, gescheiden runreparatie/systeemverbetering, learning register en cross-register source-ID-validatie.
 
 ## 2.1.0
 
