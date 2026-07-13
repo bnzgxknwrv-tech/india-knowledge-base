@@ -1,0 +1,19 @@
+schema_version: 1
+run_id: <RUN_ID>
+action_id: <UNIQUE_ACTION_ID>
+status: READY
+route: <BRONS|ZILVER|GOUD|SUBREGIE_INDIA|INDIA2>
+expected_state: <STATE>
+context_manifest: <PATH_OR_NULL>
+entrypoint: pipeline/ENTRYPOINT.md
+required_connector:
+  github_read: true
+  github_write: true
+instruction: >-
+  Execute only the action designated by this file and the pinned contracts.
+  Do not infer another role or transition.
+completion_destination: <VOOR_SUBREGIE_INDIA|VOOR_VOLGEND_METAAL|VOOR_INDIA2|GEEN_VERVOLG>
+created_by: <ACTOR>
+created_at: <ISO8601>
+source_commit: <COMMIT_SHA>
+END_OF_ARTIFACT
