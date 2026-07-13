@@ -1,45 +1,33 @@
 # Pipelineversie
 
-**Versie:** 2.1.0  
+**Versie:** 2.2.0  
 **Status:** implementatie gereed voor integratietest  
 **Datum:** 2026-07-13
 
-## 2.1.0
+## 2.2.0
 
 Aanleiding:
-- ZILVER- en GOUD-contextmanifesten konden niet correct vooraf worden gepind omdat predecessor-output bij runcreatie nog niet bestaat;
-- de verantwoordelijkheid voor het genereren van het volgende contextmanifest was niet formeel toegewezen;
-- ENTRYPOINT gebruikte ten onrechte de term `niet-verlopen claim` terwijl claims niet automatisch verlopen;
-- `SAMADHI` omvatte ten onrechte algemene herinneringsplaatsen;
-- de pipeline was nog niet end-to-end bewezen.
+- de eerste BRONS-integratietest bevatte een claimreferentie naar `R-001`, terwijl afgewezen bronnen geen unieke source-ID hadden;
+- de bestaande gate benoemde referentiële integriteit, maar schreef geen volledige cross-registercontrole en geen structurele leeractie voor.
 
 Gewijzigd gedrag:
-- expliciet `CONTROLLER_TRANSITION_PROTOCOL.md` toegevoegd;
-- bij runcreatie wordt alleen `BRONS_CONTEXT.yaml` aangemaakt;
-- na BRONS_COMPLETE valideert de controller BRONS en genereert hij pas daarna `ZILVER_CONTEXT.yaml` op de definitieve BRONS-resultaatcommit;
-- na ZILVER_COMPLETE gebeurt hetzelfde voor `GOUD_CONTEXT.yaml`;
-- workers genereren nooit het contextmanifest van hun opvolger;
-- transitionclaims, eventtypen, toegestane controllerwrites en stopvoorwaarden vastgelegd;
-- overal `geldige bestaande claim` gebruikt;
-- `SAMADHI` beperkt tot graf-, as-, mahasamadhi- of expliciet als samadhi beheerde plaatsen;
-- huidige status gewijzigd naar `IMPLEMENTATIE GEREED VOOR INTEGRATIETEST`.
-
-Betrokken bestanden:
-- `pipeline/ENTRYPOINT.md`;
-- `pipeline/README.md`;
-- `pipeline/START_PROMPTS.md`;
-- `pipeline/protocols/EXECUTION_PROTOCOL.md`;
-- `pipeline/protocols/CONTEXT_PROTOCOL.md`;
-- `pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md`;
-- `pipeline/templates/RUN_TEMPLATE.md`;
-- `knowledge/methodology/METHODOLOGY_V2.md`.
+- `CONTINUOUS_LEARNING_PROTOCOL.md` toegevoegd;
+- iedere fout wordt geclassificeerd en krijgt een expliciete leerbeslissing;
+- lokale runreparatie en structurele systeemverbetering zijn strikt gescheiden;
+- systeemlessen worden append-only vastgelegd in `pipeline/learning/LESSONS.jsonl`;
+- quality gate valideert alle claim-sourceverwijzingen over accepted en rejected registers;
+- de assistent vermeldt voortaan bij iedere fout wat lokaal wordt gerepareerd en wat blijvend aan rollen/protocollen wordt verbeterd;
+- actieve runs blijven onder hun gepinde versie werken.
 
 Verwachte kwaliteitswinst:
-- geen stale of onmogelijk vooraf gepind opvolgercontextmanifest;
-- deterministische, controleerbare overgang tussen fasen;
-- heldere scheiding tussen onderzoeksworker en controller;
-- minder risico op dubbele writers, state-drift en ongeldige READY-status;
-- eerlijkere operationele status totdat een volledige proefrun is geslaagd.
+- dezelfde fout wordt niet stil in volgende runs herhaald;
+- minder afhankelijkheid van chatgeheugen;
+- aantoonbare en versieerbare verbetering van BRONS, ZILVER, GOUD en controller;
+- structurele lessen blijven beschikbaar voor iedere toekomstige GitHub-capabele worker.
+
+## 2.1.0
+
+Controllertransitions, dynamische opvolgercontexten, claimterminologiecorrectie, strikte SAMADHI-definitie en integratieteststatus ingevoerd.
 
 ## 2.0.0
 
