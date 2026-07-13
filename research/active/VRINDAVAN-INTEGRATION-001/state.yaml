@@ -1,16 +1,12 @@
 run_id: VRINDAVAN-INTEGRATION-001
-state: ZILVER_CLAIMED
-active_role: ZILVER
-claim:
-  role: ZILVER
-  claimed_by: ChatGPT-ZILVER
-  claimed_at: 2026-07-13T22:10:00+02:00
-  source_commit: ee0d0076157ff4264cb49c8a5eb9f5d6b02c3dab
-  expected_state: READY_FOR_ZILVER
-  output_path: research/active/VRINDAVAN-INTEGRATION-001/ZILVER/
-last_event_id: EVT-0012
-last_validated_commit: df5b71e60d3a5342542b9003e4641ec59d8a5a45
+state: ZILVER_COMPLETE
+active_role: null
+claim: null
+last_event_id: EVT-0013
+last_validated_commit: 93118a17da603bfa1151d26bcd93c8d33e44ca20
 blockers:
-  - Current visitability details incomplete for most candidates.
-  - Exact institutional management unresolved for several objects.
-  - AOAY double verification incomplete.
+  - AOAY double verification for the exact Keshavanand place remains incomplete.
+  - Exact current visitability and restrictions remain unresolved for most candidates.
+  - Current official management and practice evidence for Neem Karoli Baba Ashram Vrindavan remains insufficient.
+  - Operational management remains unresolved for several distributed objects.
+  - Kusum Sarovar living-practice evidence remains incomplete.
