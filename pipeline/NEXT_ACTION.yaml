@@ -1,21 +1,24 @@
 schema_version: 1
 run_id: VRINDAVAN-SUPPLEMENT-001
-action_id: VRINDAVAN-SUPPLEMENT-001-GOUD-001
+action_id: VRINDAVAN-SUPPLEMENT-001-INDIA2-001
 status: READY
-route: GOUD
-expected_state: READY_FOR_GOUD
-context_manifest: research/active/VRINDAVAN-SUPPLEMENT-001/context/GOUD_CONTEXT.yaml
+route: INDIA2
+expected_state: GOUD_PARTIAL
+context_manifest: null
+regisseur_package: research/active/VRINDAVAN-SUPPLEMENT-001/transitions/INDIA2_REGISSEUR_PACKAGE.md
 entrypoint: pipeline/ENTRYPOINT.md
 operating_mode: CONTROLLED_MANUAL_FAST
 required_connector:
   github_read: true
-  github_write: true
+  github_write: false
 instruction: >-
-  Start immediately. Execute only the targeted GOUD final verification action designated by this file and the pinned contracts.
-  Apply the final quality gate only to the five Vrindavan blockers and the ZILVER supplement findings. Do not repeat the full
-  cluster sweep, alter predecessor artifacts, build pipeline architecture, archive the run, or perform regisseur processing.
-completion_destination: VOOR_SUBREGIE_INDIA
+  Read the validated INDIA2 regisseur package and the referenced GOUD reports. Combine the parent Vrindavan GOUD dossier and
+  this targeted supplement into one clear human-language report for Mark. Keep confirmed findings, plausible but unconfirmed
+  relations and visit-time checks separate. Do not include pipeline mechanics, hashes, state/events or protocol discussion.
+completion_destination: GEEN_VERVOLG
 created_by: SUBREGIE_INDIA
-created_at: 2026-07-14T00:27:00+02:00
-source_commit: f2a67a3fdc628738ecf4e0d83ed51de312c085d0
+created_at: 2026-07-14T08:08:00+02:00
+source_commit: 41d6f7dd326df6daa0afae8d9fba646ff3870825
+technical_validation_commit: c8d66fe48a516db5cfd8fdcb2b93dd9fa5a0e9a4
+package_commit: a21f7299a1dd05e43dd7c5f2f14e4bbb378c1b18
 END_OF_ARTIFACT
