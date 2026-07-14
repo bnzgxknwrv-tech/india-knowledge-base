@@ -1,24 +1,24 @@
 schema_version: 1
-run_id: VRINDAVAN-SUPPLEMENT-001
-action_id: VRINDAVAN-SUPPLEMENT-001-INDIA2-001
+run_id: PROJECT-METHODOLOGY-DEVOTIONAL-001
+action_id: PROJECT-METHODOLOGY-DEVOTIONAL-001-SUBREGIE-001
 status: READY
-route: INDIA2
-expected_state: GOUD_PARTIAL
-context_manifest: null
-regisseur_package: research/active/VRINDAVAN-SUPPLEMENT-001/transitions/INDIA2_REGISSEUR_PACKAGE.md
+route: SUBREGIE_INDIA
+expected_state: READY_FOR_SUBREGIE_IMPLEMENTATION
+context_manifest: pipeline/directives/INDIA2-2026-07-14-DEVOTIONAL-METHODOLOGY-REVISION.md
 entrypoint: pipeline/ENTRYPOINT.md
 operating_mode: CONTROLLED_MANUAL_FAST
 required_connector:
   github_read: true
-  github_write: false
+  github_write: true
 instruction: >-
-  Read the validated INDIA2 regisseur package and the referenced GOUD reports. Combine the parent Vrindavan GOUD dossier and
-  this targeted supplement into one clear human-language report for Mark. Keep confirmed findings, plausible but unconfirmed
-  relations and visit-time checks separate. Do not include pipeline mechanics, hashes, state/events or protocol discussion.
-completion_destination: GEEN_VERVOLG
-created_by: SUBREGIE_INDIA
-created_at: 2026-07-14T08:08:00+02:00
-source_commit: 41d6f7dd326df6daa0afae8d9fba646ff3870825
-technical_validation_commit: c8d66fe48a516db5cfd8fdcb2b93dd9fa5a0e9a4
-package_commit: a21f7299a1dd05e43dd7c5f2f14e4bbb378c1b18
+  Read decisions/DECISION-0005-tradition-confirmation-devotional-reporting-and-advisory-ratings.md and
+  pipeline/directives/INDIA2-2026-07-14-DEVOTIONAL-METHODOLOGY-REVISION.md. Implement the complete methodological,
+  evidence, role, quality-gate and human-reporting revision for future runs. Preserve completed run artifacts and
+  Marks exclusive authority over formal A/B/C status. Add project-confirmed tradition and lineage handling,
+  devotional practice, visitor participation, atmosphere research and INDIA2 advisory A/B/C reporting as specified.
+  Write all changes to GitHub, version them, add the required regression examples and route the validated result to INDIA2.
+completion_destination: VOOR_INDIA2
+created_by: INDIA2
+created_at: 2026-07-14T08:42:16+02:00
+source_commit: 56bf0ceb80b2fc00afa61c47a51cf3bc78b60304
 END_OF_ARTIFACT
