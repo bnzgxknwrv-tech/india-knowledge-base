@@ -1,6 +1,6 @@
 schema_version: 1
 run_id: PROJECT-METHODOLOGY-DEVOTIONAL-001
-action_id: PROJECT-METHODOLOGY-DEVOTIONAL-001-SUBREGIE-001
+action_id: PROJECT-METHODOLOGY-DEVOTIONAL-001-SUBREGIE-002
 status: READY
 route: SUBREGIE_INDIA
 expected_state: READY_FOR_SUBREGIE_IMPLEMENTATION
@@ -11,14 +11,19 @@ required_connector:
   github_read: true
   github_write: true
 instruction: >-
-  Read decisions/DECISION-0005-tradition-confirmation-devotional-reporting-and-advisory-ratings.md and
-  pipeline/directives/INDIA2-2026-07-14-DEVOTIONAL-METHODOLOGY-REVISION.md. Implement the complete methodological,
-  evidence, role, quality-gate and human-reporting revision for future runs. Preserve completed run artifacts and
-  Marks exclusive authority over formal A/B/C status. Add project-confirmed tradition and lineage handling,
-  devotional practice, visitor participation, atmosphere research and INDIA2 advisory A/B/C reporting as specified.
-  Write all changes to GitHub, version them, add the required regression examples and route the validated result to INDIA2.
+  Read decisions/DECISION-0005-tradition-confirmation-devotional-reporting-and-advisory-ratings.md,
+  decisions/DECISION-0006-place-experience-proximity-and-base-selection.md,
+  decisions/DECISION-0007-photos-and-strict-abc-semantics.md,
+  pipeline/directives/INDIA2-2026-07-14-DEVOTIONAL-METHODOLOGY-REVISION.md and
+  pipeline/directives/INDIA2-2026-07-14-PHOTOS-STRICT-ABC-ADDENDUM.md. Implement the complete methodological,
+  evidence, role, quality-gate, visual-dossier, proximity, base-selection and human-reporting revision for future runs.
+  Preserve completed run artifacts and Marks exclusive authority over formal A/B/C status. Add project-confirmed tradition
+  and lineage handling, devotional practice, visitor participation, atmosphere research, at least ten representative images
+  per place or an explicit image gap, strict A=visit/B=maybe/C=do-not-visit semantics, C weight zero, route-adjusted visit
+  decisions and INDIA2 advisory reporting as specified. Write all changes to GitHub, version them, add the required Vrindavan
+  regression report and route the validated result to INDIA2.
 completion_destination: VOOR_INDIA2
 created_by: INDIA2
-created_at: 2026-07-14T08:42:16+02:00
-source_commit: 56bf0ceb80b2fc00afa61c47a51cf3bc78b60304
+created_at: 2026-07-14T09:10:00+02:00
+source_commit: 4daae49e0478ed5c4799e474bd6e1a7497167259
 END_OF_ARTIFACT
