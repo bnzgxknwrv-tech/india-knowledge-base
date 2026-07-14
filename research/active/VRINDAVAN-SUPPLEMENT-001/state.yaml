@@ -2,8 +2,12 @@ run_id: VRINDAVAN-SUPPLEMENT-001
 state: GOUD_PARTIAL
 active_role: null
 claim: null
-last_event_id: EVT-0013
+last_event_id: EVT-0014
 last_validated_commit: 85127c2bd35fe9bb8010a5b76eb676f749e748ec
+technical_integrity: PASS
+subregie_validation: research/active/VRINDAVAN-SUPPLEMENT-001/transitions/SUBREGIE_FINAL_VALIDATION.md
+regisseur_package: research/active/VRINDAVAN-SUPPLEMENT-001/transitions/INDIA2_REGISSEUR_PACKAGE.md
+completion_destination: VOOR_INDIA2
 blockers:
   - Controlled SRF/YSS AOAY edition passage with stable metadata remains unavailable.
   - Authoritative current visitability remains incomplete for all eight candidates.
