@@ -1,0 +1,10 @@
+run_id: BRAJ-COMPLETE-001
+state: READY_FOR_BRONS
+active_role: null
+claim: null
+last_event_id: EVT-0001
+last_validated_commit: ed9e0cb3b9b97c069c063900a05de9b3b53c1d47
+blockers: []
+context_profile: BRONS_MIN
+parels_layer_active: false
+END_OF_ARTIFACT

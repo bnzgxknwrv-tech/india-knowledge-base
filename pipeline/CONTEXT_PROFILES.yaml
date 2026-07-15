@@ -1,0 +1,64 @@
+schema_version: 1
+policy: >-
+  Context is role-specific and proportional. Every required file must have a reason and task.
+  Full predecessor reports are included only for loss control, unresolved conflicts or necessary cluster continuity.
+profiles:
+  BRONS_MIN:
+    purpose: broad first detection without loading predecessor narrative unnecessarily
+    required_categories:
+      - scope
+      - known_anchors_and_formal_statuses
+      - detector_and_overlay_rules
+      - methodology
+      - evidence_protocol
+      - role_contract
+      - required_output_templates
+      - canonical_place_registry
+    predecessor_rule: >-
+      Include only compact predecessor summaries, canonical place records and explicitly relevant claims/sources.
+      Do not load full older reports unless the scope states a concrete loss-control reason.
+    default_limits:
+      files: 30
+      lines_per_file: 1500
+  ZILVER_MIN:
+    purpose: independent verification of BRONS outputs and risk-based correction
+    required_categories:
+      - scope
+      - brons_handoff
+      - brons_claims_and_sources
+      - open_or_corrected_layers
+      - verification_rules
+      - relevant_decisions
+      - canonical_place_registry
+    predecessor_rule: >-
+      Reopen ACCEPTED non-dragende layers only by motivated sample. Always verify dragende claims and OPEN layers.
+    default_limits:
+      files: 35
+      lines_per_file: 1500
+  GOUD_MIN:
+    purpose: final synthesis and decision readiness without repeating accepted sweeps
+    required_categories:
+      - scope
+      - zilver_handoff
+      - zilver_claims_and_sources
+      - open_conflicted_or_high_risk_layers
+      - quality_gate
+      - decision_inputs_template
+      - canonical_place_registry
+    predecessor_rule: >-
+      Full BRONS or older narrative is optional and only triggered by removal, merge, downgrade or suspected information loss.
+    default_limits:
+      files: 30
+      lines_per_file: 1500
+manifest_requirements:
+  each_file:
+    - path
+    - reason
+    - task
+    - expected_git_blob_sha
+  reject_when:
+    - file_has_no_role_specific_reason
+    - general_background_exceeds_run_context
+    - predecessor_narrative_is_loaded_without_trigger
+    - required_hash_is_missing
+END_OF_ARTIFACT

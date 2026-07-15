@@ -9,6 +9,7 @@ depends_on:
   - "DECISION-0006"
   - "DECISION-0007"
   - "DECISION-0008"
+  - "DECISION-0012"
 ---
 
 # DECISION 0009: A-ankerpunten, loopclusters en reistijd per item
@@ -113,7 +114,7 @@ Daarin worden alle relevante B- en C-plekken genoemd, geordend op extra tijd:
 - 31-60 minuten extra;
 - meer dan 60 minuten extra.
 
-Iedere naam krijgt opnieuw de verplichte herkenningshaak uit DECISION-0008.
+Iedere naam krijgt opnieuw de verplichte herkenningshaak uit DECISION-0012.
 
 ## 8. Volledige A-naar-rest-matrix
 

@@ -1,13 +1,19 @@
 ---
-id: DECISION-0008
+id: DECISION-0012
 subject: "Herkenningshaken bij iedere exotische plaatsnaam"
 decided_by: "Mark"
 decided_at: "2026-07-14"
 outcome: "Iedere latere vermelding van een moeilijk te onthouden plaatsnaam krijgt opnieuw nummer, type en spirituele kern tussen haakjes"
 applies_to: "Alle India-rapporten, tabellen, matrices, routes, hotelvergelijkingen en chatuitvoer"
+clarifies:
+  - "DECISION-0008"
+migration_from:
+  id: "DECISION-0008"
+  path: "decisions/DECISION-0008-place-name-recognition-hooks.md"
+  reason: "Duplicate decision ID repaired; content unchanged except ID and references."
 ---
 
-# DECISION 0008: herkenningshaken bij iedere plaatsnaam
+# DECISION 0012: herkenningshaken bij iedere plaatsnaam
 
 ## 1. Aanleiding
 
@@ -68,11 +74,11 @@ Bij twijfel wordt de herkenningshaak wel toegevoegd.
 
 ## 5. Nummerconsistentie
 
-De nummering blijft binnen één rapport, run of routekaart stabiel. Een nummer mag niet veranderen zonder expliciete migratie van alle verwijzingen.
+De wereldwijde plaatsindex uit `knowledge/places/NUMBERING_POLICY.md` is leidend. Lokale rapportnummers mogen daarnaast worden getoond, maar veranderen nooit de permanente plaats-ID.
 
 ## 6. Taal
 
-Gebruik eenvoudig Nederlands. Vermijd alleen technische categorieën. De haak moet in enkele woorden zeggen:
+Gebruik eenvoudig Nederlands. De haak moet in enkele woorden zeggen:
 
 1. welk nummer de plek heeft;
 2. wat voor plek het fysiek is;
@@ -80,6 +86,6 @@ Gebruik eenvoudig Nederlands. Vermijd alleen technische categorieën. De haak mo
 
 ## 7. Gevolg
 
-SUBREGIE INDIA verwerkt deze regel in de mensentaalrapporttemplates, route- en afstandsmatrices, plaatskaarten en INDIA2-uitvoer. De regel geldt ook voor reeds bekende plaatsen wanneer zij in een nieuw rapport opnieuw worden genoemd.
+SUBREGIE INDIA verwerkt deze regel in mensentaalrapporttemplates, route- en afstandsmatrices, plaatskaarten en INDIA2-uitvoer. De regel geldt ook voor reeds bekende plaatsen wanneer zij in een nieuw rapport opnieuw worden genoemd.
 
 END_OF_ARTIFACT
