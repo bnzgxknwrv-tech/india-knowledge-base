@@ -13,6 +13,7 @@ created_at: <ISO8601>
 created_by: SUBREGIE_INDIA
 immutable_after_first_claim: true
 operating_mode: CONTROLLED_MANUAL_FAST
+context_profile: BRONS_MIN
 pins:
   entrypoint: pipeline/ENTRYPOINT.md
   methodology: knowledge/methodology/METHODOLOGY_V2.md
@@ -22,6 +23,11 @@ pins:
   context_protocol: pipeline/protocols/CONTEXT_PROTOCOL.md
   controller_transition_protocol: pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md
   self_routing_protocol: pipeline/protocols/SELF_ROUTING_PROTOCOL.md
+  context_profiles: pipeline/CONTEXT_PROFILES.yaml
+  handoff_layer_template: pipeline/templates/HANDOFF_LAYER_STATUS_TEMPLATE.yaml
+  place_registry: knowledge/places/registry.jsonl
+  place_numbering_policy: knowledge/places/NUMBERING_POLICY.md
+  decisions_index: decisions/INDEX.yaml
   roles:
     BRONS: pipeline/roles/BRONS.md
     ZILVER: pipeline/roles/ZILVER.md
@@ -51,18 +57,35 @@ Iedere nieuwe clusterscope bevat:
 - expliciete verboden;
 - criteria voor clustercompleetheid.
 
+## Rolgebonden context
+
+Gebruik verplicht `pipeline/CONTEXT_PROFILES.yaml`:
+
+- BRONS: `BRONS_MIN`;
+- ZILVER: `ZILVER_MIN`;
+- GOUD: `GOUD_MIN`.
+
+Ieder required bestand in een contextmanifest vermeldt:
+
+- `path`;
+- `reason`;
+- `task`;
+- `expected_git_blob_sha`.
+
+Volledige oudere rapporten worden alleen toegevoegd bij een concrete loss-control-, conflict- of clustercontinuïteitstrigger.
+
 ## BRONS_CONTEXT vereisten
 
-Naast de bestaande technische bestanden bevat de context:
+Naast de technische bestanden bevat BRONS alleen:
 
+- scope en bekende ankers/statussen;
 - Methodology v3;
 - Evidence Protocol v3;
 - Quality Gate v3;
-- relevante INDIA2-decisions;
-- bestaande place/status-records;
-- relevante predecessorrapporten;
-- compact-report- en image-registertemplates;
-- herkenningshaken of vaste kandidaatnummering waar beschikbaar.
+- relevante decisions;
+- canonical place registry en nummeringsbeleid;
+- compacte predecessorcontext die duplicaten voorkomt;
+- required outputtemplates.
 
 ## Fase-artifacts
 
@@ -77,8 +100,10 @@ Minimaal per metaal:
 - `experience_reviews.jsonl`;
 - `proximity.jsonl` of expliciet `DEFERRED_TO_ROUTE_PHASE`;
 - `audit.md`;
-- `handoff.yaml`;
+- `handoff.yaml` met laagstatussen `ACCEPTED`, `CORRECTED`, `OPEN` of `NOT_APPLICABLE`;
 - `COMPLETED`.
+
+De opvolger heropent altijd `OPEN`, alle dragende claims en `CORRECTED` met hoog risico. Een `ACCEPTED` niet-dragende review- of beeldlaag wordt alleen met een gemotiveerde steekproef heropend.
 
 GOUD levert daarnaast een compacte `decision_inputs.md` voor INDIA2 met per kandidaat de negen mensentaallagen uit Methodology v3, maar zonder adviserend A/B/C.
 
