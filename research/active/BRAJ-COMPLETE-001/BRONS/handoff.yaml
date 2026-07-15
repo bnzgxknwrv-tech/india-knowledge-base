@@ -1,0 +1,62 @@
+schema_version: 1
+run_id: BRAJ-COMPLETE-001
+completed_role: BRONS
+result_status: PARTIAL
+output_manifest_path: research/active/BRAJ-COMPLETE-001/BRONS/manifest.yaml
+next_role: ZILVER
+next_expected_transition: CONTROLLER_TRANSITION_TO_ZILVER
+layer_statuses:
+  physical_identity:
+    status: OPEN
+    risk: MEDIUM
+    reason: 29 physical candidates are mapped, but several new small-place identities and Gokul/Mahavan aliases require primary verification.
+    reopen_instruction: VERIFY_DRAGGING_CLAIMS
+  institution:
+    status: OPEN
+    risk: HIGH
+    reason: Current operators remain unresolved for multiple kunds, sarovars, ghats, landscape objects and small temples.
+    reopen_instruction: VERIFY_ALL
+  history_tradition_lineage:
+    status: OPEN
+    risk: MEDIUM
+    reason: Tradition and lineage coverage is broad, but several new candidates rely on government regional or secondary detector sources.
+    reopen_instruction: VERIFY_DRAGGING_CLAIMS
+  devotional_practice_and_participation:
+    status: OPEN
+    risk: MEDIUM
+    reason: Devotional purposes and practices are described, while welcome, etiquette and participation details remain incomplete.
+    reopen_instruction: VERIFY_ALL
+  experience_reviews_and_images:
+    status: OPEN
+    risk: HIGH
+    reason: No candidate has a complete ten-function image dossier or systematic multi-source review analysis.
+    reopen_instruction: VERIFY_ALL
+  visitability_and_practicality:
+    status: OPEN
+    risk: HIGH
+    reason: Complete authoritative current access, restrictions, photography, clothing and closure regimes are unavailable for most candidates.
+    reopen_instruction: VERIFY_ALL
+  proximity_and_cluster_effect:
+    status: OPEN
+    risk: HIGH
+    reason: Logical clusters are identified, but current travel times and the A-to-rest matrix are absent.
+    reopen_instruction: VERIFY_ALL
+open_blockers:
+  - Complete ten-function image dossier missing for all 29 candidates.
+  - Systematic recent review and atmosphere basis incomplete.
+  - Current visitability and participation rules incomplete.
+  - Institutional identity unresolved for multiple distributed or small objects.
+  - Current A-anchor travel-time matrix not established.
+required_predecessor_files:
+  - research/active/BRAJ-COMPLETE-001/BRONS/manifest.yaml
+  - research/active/BRAJ-COMPLETE-001/BRONS/report/INDEX.md
+  - research/active/BRAJ-COMPLETE-001/BRONS/claims.jsonl
+  - research/active/BRAJ-COMPLETE-001/BRONS/sources/registry.jsonl
+  - research/active/BRAJ-COMPLETE-001/BRONS/sources/rejected.jsonl
+  - research/active/BRAJ-COMPLETE-001/BRONS/images.jsonl
+  - research/active/BRAJ-COMPLETE-001/BRONS/experience_reviews.jsonl
+  - research/active/BRAJ-COMPLETE-001/BRONS/proximity.jsonl
+  - research/active/BRAJ-COMPLETE-001/BRONS/place_candidates.jsonl
+  - research/active/BRAJ-COMPLETE-001/BRONS/audit.md
+future_source_commit: null
+END_OF_ARTIFACT
