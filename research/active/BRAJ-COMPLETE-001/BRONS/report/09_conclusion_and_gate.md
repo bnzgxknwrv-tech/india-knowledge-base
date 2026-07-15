@@ -2,7 +2,7 @@
 
 Resultaat: PARTIAL.
 
-De volledige geografische scope is behandeld als één Braj-cluster. Alle zes kerngebieden zijn aantoonbaar onderzocht. De acht canonical plaatsen zijn behouden zonder duplicatie of statuswijziging. Negentien nieuwe fysieke kandidaten zijn met tijdelijke run-ID's voorgesteld. De detectoren omvatten Krishna/Radha-lila, Gaudiya/Chaitanya, Radha Raman, Radha Vallabh, Pushtimarg, rasika/Nimbarka-richtingen, AOAY/Kriya, NKB, levende ashrams, samadhi's, kunds, sarovars, ghats, heuvels en parikrama-objecten.
+De volledige geografische scope is behandeld als één Braj-cluster. Alle zes kerngebieden zijn aantoonbaar onderzocht. De acht canonical plaatsen zijn behouden zonder duplicatie of statuswijziging. Eenentwintig nieuwe fysieke kandidaten zijn met tijdelijke run-ID's voorgesteld. De detectoren omvatten Krishna/Radha-lila, Gaudiya/Chaitanya, Radha Raman, Radha Vallabh, Pushtimarg, rasika/Nimbarka-richtingen, AOAY/Kriya, NKB, levende ashrams, samadhi's, kunds, sarovars, ghats, heuvels en parikrama-objecten.
 
 Sterke lagen:
 - fysieke kandidatenkaart en clustergrenzen;
