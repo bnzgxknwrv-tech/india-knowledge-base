@@ -1,0 +1,41 @@
+PARTIAL
+run_id: BRAJ-COMPLETE-001
+role: GOUD
+source_commit: 10e0e4128f1f3f7f0498b4e2612549a8f68ae090
+candidate_counts:
+  existing_canonical: 8
+  temporary_new: 21
+  total: 29
+location_id_assignment:
+  block: 200-299
+  assigned_start: 200
+  assigned_end: 228
+  assigned_count: 29
+outputs:
+  - manifest.yaml
+  - report/INDEX.md
+  - report/01_final_candidate_map.md
+  - report/02_open_layers_and_geo.md
+  - report/03_quality_gate_and_conclusion.md
+  - claims.jsonl
+  - sources/registry.jsonl
+  - sources/rejected.jsonl
+  - images.jsonl
+  - experience_reviews.jsonl
+  - proximity.jsonl
+  - place_candidates.jsonl
+  - geo_locations.jsonl
+  - geo_connections.jsonl
+  - location_id_audit.md
+  - decision_inputs.md
+  - audit.md
+  - decision.md
+  - handoff.yaml
+highest_gaps:
+  - Verified WGS84 visitor entrances or exact sites remain absent for all 29 candidates; LOCATION_ID 221 is identity-conflicted.
+  - Complete ten-function image dossiers remain absent for all 29 candidates.
+  - Systematic recent review and current participation/visitability coverage remains incomplete.
+  - Object-level management and current traffic-aware A-anchor connections remain incomplete.
+validation: Existing GOUD claim resumed without a new claim; all mandatory GOUD artifacts reopened; sentinels checked; all 29 candidates retained; LOCATION_IDs 200-228 unique and inside the Braj block; claim-source references valid and unique; GEO records complete without guessed coordinates; no KML, formal or advisory A/B/C, PARELS activation, archiving, regisseur processing, route, hotel or pipeline modification performed.
+completion_destination: VOOR_SUBREGIE_INDIA
+END_OF_ARTIFACT
