@@ -1,20 +1,15 @@
 run_id: BRAJ-COMPLETE-001
-state: GOUD_CLAIMED
-active_role: GOUD
-claim:
-  role: GOUD
-  claimed_by: ChatGPT-GOUD
-  claimed_at: 2026-07-15T15:20:00+02:00
-  source_commit: 10e0e4128f1f3f7f0498b4e2612549a8f68ae090
-  expected_state: READY_FOR_GOUD
-  output_path: research/active/BRAJ-COMPLETE-001/GOUD/
-last_event_id: EVT-0012
-last_validated_commit: 10e0e4128f1f3f7f0498b4e2612549a8f68ae090
+state: GOUD_PARTIAL
+active_role: null
+claim: null
+last_event_id: EVT-0013
+last_validated_commit: ac0a26fd65729690581a3356e4bf8a9c85dbefbb
 blockers:
+  - Verified WGS84 visitor entrances or exact sites remain absent for all 29 candidates; LOCATION_ID 221 is identity-conflicted.
   - Complete ten-function image dossiers remain absent for all 29 candidates.
   - Systematic recent review and current participation/visitability coverage remains incomplete.
-  - Object-level management and current traffic-aware A-anchor matrix remain incomplete.
-  - Verified WGS84 visitor points are not present in the pinned predecessor context.
+  - Object-level management remains unresolved for multiple distributed and small objects.
+  - Current traffic-aware A-anchor matrix remains unavailable without verified endpoints.
 context_profile: GOUD_MIN
 active_context_manifest: research/active/BRAJ-COMPLETE-001/context/GOUD_CONTEXT.yaml
 location_id_block: 200-299
