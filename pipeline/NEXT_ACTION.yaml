@@ -1,46 +1,33 @@
 schema_version: 2
-run_id: PROJECT-METHODOLOGY-DEVOTIONAL-001
-action_id: PROJECT-METHODOLOGY-DEVOTIONAL-001-INDIA2-004
+run_id: PIPELINE-3-ARCHITECTURE-FOLLOWUP-001
+action_id: PIPELINE-3-ARCHITECTURE-FOLLOWUP-001-SUBREGIE-001
 status: READY
-route: INDIA2
-expected_state: READY_FOR_INDIA2_REVIEW
+route: SUBREGIE_INDIA
+expected_state: READY_FOR_ARCHITECTURE_CORRECTIONS_AND_BRAJ_SETUP
 context_manifest: null
 entrypoint: pipeline/ENTRYPOINT.md
 operating_mode: CONTROLLED_MANUAL_FAST
 required_connector:
   github_read: true
-  github_write: false
+  github_write: true
 mandatory_first_instruction: >-
-  Activeer in deze chat onmiddellijk de GitHub-connector en houd deze gedurende de volledige beoordeling beschikbaar.
-  Test vóór inhoudelijk werk GitHub-read voor repository bnzgxknwrv-tech/india-knowledge-base. Ontbreekt read,
-  antwoord dan uitsluitend: MARK: IK MIS GITHUB CONNECTOR!
+  Activeer in deze chat onmiddellijk de GitHub-connector en houd deze gedurende de volledige uitvoering beschikbaar.
+  Test vóór inhoudelijk werk GitHub-read en GitHub-write voor repository bnzgxknwrv-tech/india-knowledge-base.
+  Ontbreekt read of write, antwoord dan uitsluitend: MARK: IK MIS GITHUB CONNECTOR!
 instruction: >-
-  Review pipeline 3.0.0 and Methodology v3 against decisions DECISION-0005 through DECISION-0010 and the three
-  INDIA2 directives. Read pipeline/reviews/FIRST_GENERATION_SWEEP_AUDIT.md, pipeline/plans/CLUSTER_BATCH_PLAN_001.md,
-  pipeline/templates/COMPACT_DECISION_REPORT_TEMPLATE.md, pipeline/templates/RUN_TEMPLATE_V3.md and
-  pipeline/regression/VRINDAVAN_METHOD_V3_EXAMPLES.md. Confirm role separation between INDIA2, SUBREGIE INDIA,
-  BRONS, ZILVER, GOUD and Mark. Check that devotional meaning, participation, experience, imagery, recognition hooks,
-  A-anchor proximity and compact reporting are fully implemented without overengineering or changing completed runs.
-  If valid, select and authorize the first next cluster run. Return a compact human-language decision to Mark.
-completion_destination: GEEN_VERVOLG
-created_by: SUBREGIE_INDIA
-created_at: 2026-07-15T11:15:00+02:00
-source_commit: 22203df478f8c90e050f0b22c93a01f467ab6048
-implementation_branch: feature/methodology-v3-coordinated-sweeps
-implementation_files:
-  - knowledge/methodology/METHODOLOGY_V2.md
-  - pipeline/protocols/EVIDENCE_PROTOCOL.md
-  - pipeline/QUALITY_GATE.md
-  - pipeline/ENTRYPOINT.md
-  - pipeline/roles/BRONS.md
-  - pipeline/roles/ZILVER.md
-  - pipeline/roles/GOUD.md
-  - pipeline/roles/SUBREGIE_INDIA.md
-  - pipeline/reviews/FIRST_GENERATION_SWEEP_AUDIT.md
-  - pipeline/plans/CLUSTER_BATCH_PLAN_001.md
-  - pipeline/templates/COMPACT_DECISION_REPORT_TEMPLATE.md
-  - pipeline/templates/NEXT_ACTION_TEMPLATE.yaml
-  - pipeline/templates/RUN_TEMPLATE_V3.md
-  - pipeline/regression/VRINDAVAN_METHOD_V3_EXAMPLES.md
-  - pipeline/VERSION.md
+  Read pipeline/reviews/INDIA2_ARCHITECTURE_REVIEW_PIPELINE_3.md and
+  decisions/DECISION-0011-parels-layer-exception-only-local-discovery.md. Implement only the accepted and required
+  architecture corrections that are prerequisites for the first next cluster run: repair the duplicate DECISION-0008 ID
+  atomically with all references; create a unique decisions index and collision validation; define or create the stable global
+  place-index registry and numbering policy; introduce proportional role-specific minimal context profiles and risk-based
+  handoff layer statuses without expanding active-run complexity; preserve all completed Vrindavan artifacts. Then create and
+  validate the BRAJ-COMPLETE run using pipeline 3.0 and route its first BRONS action. Do not activate the PARELS layer yet;
+  DECISION-0011 is a deferred future enrichment rule. Do not start ARUNACHALA or KUMAON as writing runs in this action.
+  Return only compact progress information to Mark.
+completion_destination: VOOR_BRONS
+created_by: INDIA2
+created_at: 2026-07-15T12:10:00+02:00
+source_commits:
+  architecture_review: 5f71518abe204c5f7e03d91f3b8b9e740fcbd1ad
+  parels_decision: 381e1fb5c8d0bc6e6f5acf08eb58f1c55421a224
 END_OF_ARTIFACT
