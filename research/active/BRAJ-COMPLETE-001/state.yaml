@@ -1,14 +1,16 @@
 run_id: BRAJ-COMPLETE-001
-state: ZILVER_COMPLETE
+state: READY_FOR_GOUD
 active_role: null
 claim: null
-last_event_id: EVT-0008
-last_validated_commit: 9adb9a9ae07f45eb6f7c5897fb5bed929017668e
+last_event_id: EVT-0011
+last_validated_commit: 10e0e4128f1f3f7f0498b4e2612549a8f68ae090
 blockers:
   - Complete ten-function image dossiers remain absent for all 29 candidates.
   - Systematic recent review and current participation/visitability coverage remains incomplete.
   - Object-level management and current traffic-aware A-anchor matrix remain incomplete.
-context_profile: ZILVER_MIN
-active_context_manifest: research/active/BRAJ-COMPLETE-001/context/ZILVER_CONTEXT.yaml
+context_profile: GOUD_MIN
+active_context_manifest: research/active/BRAJ-COMPLETE-001/context/GOUD_CONTEXT.yaml
+location_id_block: 200-299
+geo_protocol: pipeline/protocols/GEO_LOCATION_PROTOCOL.md
 parels_layer_active: false
 END_OF_ARTIFACT
