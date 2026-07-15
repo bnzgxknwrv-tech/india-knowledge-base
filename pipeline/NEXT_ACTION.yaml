@@ -1,10 +1,10 @@
 schema_version: 2
-run_id: PIPELINE-3-ARCHITECTURE-FOLLOWUP-001
-action_id: PIPELINE-3-ARCHITECTURE-FOLLOWUP-001-SUBREGIE-001
+run_id: BRAJ-COMPLETE-001
+action_id: BRAJ-COMPLETE-001-BRONS-001
 status: READY
-route: SUBREGIE_INDIA
-expected_state: READY_FOR_ARCHITECTURE_CORRECTIONS_AND_BRAJ_SETUP
-context_manifest: null
+route: BRONS
+expected_state: READY_FOR_BRONS
+context_manifest: research/active/BRAJ-COMPLETE-001/context/BRONS_CONTEXT.yaml
 entrypoint: pipeline/ENTRYPOINT.md
 operating_mode: CONTROLLED_MANUAL_FAST
 required_connector:
@@ -12,22 +12,17 @@ required_connector:
   github_write: true
 mandatory_first_instruction: >-
   Activeer in deze chat onmiddellijk de GitHub-connector en houd deze gedurende de volledige uitvoering beschikbaar.
-  Test vóór inhoudelijk werk GitHub-read en GitHub-write voor repository bnzgxknwrv-tech/india-knowledge-base.
-  Ontbreekt read of write, antwoord dan uitsluitend: MARK: IK MIS GITHUB CONNECTOR!
+  Dit onderzoek gebruikt GitHub als enige bron van waarheid en overdrachtskanaal. Test vóór ieder inhoudelijk werk
+  zowel GitHub-read als GitHub-write voor repository bnzgxknwrv-tech/india-knowledge-base. Ontbreekt read of write,
+  antwoord dan uitsluitend: MARK: IK MIS GITHUB CONNECTOR! Ga alleen verder wanneer beide aantoonbaar werken.
 instruction: >-
-  Read pipeline/reviews/INDIA2_ARCHITECTURE_REVIEW_PIPELINE_3.md and
-  decisions/DECISION-0011-parels-layer-exception-only-local-discovery.md. Implement only the accepted and required
-  architecture corrections that are prerequisites for the first next cluster run: repair the duplicate DECISION-0008 ID
-  atomically with all references; create a unique decisions index and collision validation; define or create the stable global
-  place-index registry and numbering policy; introduce proportional role-specific minimal context profiles and risk-based
-  handoff layer statuses without expanding active-run complexity; preserve all completed Vrindavan artifacts. Then create and
-  validate the BRAJ-COMPLETE run using pipeline 3.0 and route its first BRONS action. Do not activate the PARELS layer yet;
-  DECISION-0011 is a deferred future enrichment rule. Do not start ARUNACHALA or KUMAON as writing runs in this action.
-  Return only compact progress information to Mark.
-completion_destination: VOOR_BRONS
-created_by: INDIA2
-created_at: 2026-07-15T12:10:00+02:00
-source_commits:
-  architecture_review: 5f71518abe204c5f7e03d91f3b8b9e740fcbd1ad
-  parels_decision: 381e1fb5c8d0bc6e6f5acf08eb58f1c55421a224
+  Start immediately and execute only the BRAJ-COMPLETE-001 BRONS action from the pinned BRONS_MIN context.
+  Sweep Vrindavan, Mathura, Govardhan, Gokul/Mahavan, Barsana and Nandgaon as one complete spiritual Braj cluster.
+  Preserve all completed Vrindavan artifacts and existing formal statuses. Do not activate PARELS, start ARUNACHALA
+  or KUMAON, assign formal or advisory A/B/C, choose hotels, build the final route, or modify pipeline architecture.
+  Produce all required BRONS artifacts including layer-status handoff, then stop without creating ZILVER context.
+completion_destination: VOOR_SUBREGIE_INDIA
+created_by: SUBREGIE_INDIA
+created_at: 2026-07-15T12:45:00+02:00
+source_commit: ed9e0cb3b9b97c069c063900a05de9b3b53c1d47
 END_OF_ARTIFACT
