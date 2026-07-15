@@ -1,0 +1,50 @@
+run_id: BRAJ-COMPLETE-001
+role: ZILVER
+completion_status: PARTIAL
+source_commit: 6d542aeada499e709055bf788ce315b29986adac
+context_profile: ZILVER_MIN
+protocol_versions:
+  pipeline: 3.0.0
+  methodology: 3.0.0
+candidate_counts:
+  existing_canonical: 8
+  temporary_new: 21
+  total: 29
+files:
+  - path: report/INDEX.md
+  - path: report/01_scope_claims_and_corrections.md
+  - path: report/02_candidates_verified.md
+  - path: report/03_open_layers_images_reviews_visitability.md
+  - path: report/04_proximity_conclusion_and_gate.md
+  - path: claims.jsonl
+  - path: sources/registry.jsonl
+  - path: sources/rejected.jsonl
+  - path: images.jsonl
+  - path: experience_reviews.jsonl
+  - path: proximity.jsonl
+  - path: place_candidates.jsonl
+  - path: audit.md
+  - path: handoff.yaml
+  - path: COMPLETED
+line_counts_reliable: false
+content_hashes_reliable: false
+validation:
+  github_read_confirmed: true
+  github_write_confirmed: true
+  required_outputs_present: true
+  sentinels_checked: true
+  max_lines_under_1500: true
+  forbidden_files_used: false
+  source_id_references_valid: true
+  source_ids_unique_across_registers: true
+  identifiers_unique: true
+  all_29_candidates_accounted: true
+  formal_or_advisory_abc_assigned: false
+  parels_activated: false
+  successor_context_created: false
+  controller_transition_executed: false
+open_blockers:
+  - Complete ten-function image dossiers remain absent for all 29 candidates.
+  - Systematic recent review and current participation/visitability coverage remains incomplete.
+  - Object-level management and current traffic-aware A-anchor matrix remain incomplete.
+END_OF_ARTIFACT
