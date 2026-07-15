@@ -1,15 +1,16 @@
 run_id: BRAJ-COMPLETE-001
-state: BRONS_COMPLETE
+state: READY_FOR_ZILVER
 active_role: null
 claim: null
-last_event_id: EVT-0003
-last_validated_commit: ed38d776664b2708f2c54c531580fd7e8daebfb4
+last_event_id: EVT-0006
+last_validated_commit: 6d542aeada499e709055bf788ce315b29986adac
 blockers:
   - Ten-function image dossiers missing for all 29 candidates.
   - Systematic recent review and experience analysis incomplete.
   - Current visitability and participation rules incomplete.
   - Institutional identity unresolved for multiple distributed and small objects.
   - Current A-anchor travel-time matrix not established.
-context_profile: BRONS_MIN
+context_profile: ZILVER_MIN
+active_context_manifest: research/active/BRAJ-COMPLETE-001/context/ZILVER_CONTEXT.yaml
 parels_layer_active: false
 END_OF_ARTIFACT
