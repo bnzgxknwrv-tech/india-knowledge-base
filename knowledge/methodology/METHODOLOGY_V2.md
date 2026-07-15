@@ -1,136 +1,180 @@
-# Methodology v2.0 — blijvende spirituele bestemmingen
+# Methodology v3.0 — spirituele bestemmingen voor Marks pelgrimsreis
 
 ## 1. Centrale onderzoeksvraag
 
-Het systeem onderzoekt waarom een fysiek bestaande plaats binnen één of meer spirituele tradities een blijvende bestemming is geworden, welke typen onderbouwing daarvoor bestaan en welke huidige fysieke werkelijkheid daarmee verbonden is.
+Het systeem onderzoekt waarom een fysiek bestaande plaats binnen een levende spirituele traditie een blijvende bestemming is geworden, wat devotees er zoeken en doen, hoe Mark de plek waarschijnlijk kan beleven en welke praktische controles nog nodig zijn.
 
-Het systeem bewijst of ontkent geen spirituele werkelijkheid. Het onderzoekt fysieke plaatsen, institutionele identiteit, historische gegevens, gedragen tradities, lineages, levende praktijk en getuigenissen. Deze lagen blijven afzonderlijk zichtbaar en worden nooit samengevoegd tot één totaalscore.
+Het systeem bewijst of ontkent geen spirituele werkelijkheid. Het houdt verschillende bevestigingsdomeinen naast elkaar zichtbaar en behandelt lineage- of traditiebevestiging niet als een inferieure vorm van historische bevestiging.
 
-## 2. Harde grens: de plek is het onderzoeksobject
+## 2. De plek is het onderzoeksobject
 
-Alleen een fysiek aanwijsbare huidige plaats kan kandidaat zijn: gebouw, terrein, grot, oever, ghat, kund, tempel, ashram, samadhi, monument, route of ander bezoekbaar object.
+Alleen een fysiek aanwijsbare huidige plaats kan kandidaat zijn: gebouw, terrein, grot, oever, ghat, heilige vijver of ritueel waterbekken (kund), tempel, ashram, samadhi-heiligdom, monument, pelgrimsrondgang (parikrama), route of landschappelijk heilig object.
 
-Een persoon, boek, visioen, leer of traditie is geen PLACE maar kan een zoekrichting, relatie of interpretatie-overlay opleveren.
+Personen, boeken, lineages, tradities, visioenen en getuigenissen zijn detectoren en interpretatielagen die naar zulke plekken leiden.
 
-## 3. Verplichte onderzoekslagen per kandidaat
+## 3. Gelijkwaardige bevestigingsdomeinen
 
-### 3.1 Fysieke identiteit
-- exacte naam, aliassen en ligging;
-- welk huidig object of terrein bedoeld wordt;
-- onderscheid tussen dorp, complex, afzonderlijk gebouw, route en traditieclaim;
-- huidige fysieke continuïteit voor zover vaststelbaar.
+Iedere materiële relatie wordt in het passende domein beoordeeld:
 
-### 3.2 Institutionele identiteit
-Verplicht onderzoeken:
-- huidige beheerder, trust, orde, tempelorganisatie of overheid;
-- oprichter en officiële geschiedenis;
-- officiële missie;
-- officiële lineage of parampara;
-- officiële publicaties en bronnen die de instelling zelf gezaghebbend noemt.
+- `HISTORICALLY_DOCUMENTED` — klassieke documentaire of historische onderbouwing;
+- `INSTITUTIONALLY_CONFIRMED` — bevestigd door de huidige dragende instelling;
+- `LINEAGE_CONFIRMED` — bevestigd door een gezaghebbende spirituele lerarenlijn;
+- `TRADITION_CONFIRMED` — consistent gedragen door de relevante levende traditie;
+- `EXPERIENTIALLY_REPORTED` — terugkerend beschreven door devotees of bezoekers;
+- `PRACTICAL_CHECK_REQUIRED` — actuele toegang, deelname of regels moeten nog rechtstreeks worden gecontroleerd;
+- `CONFLICTED` — betrouwbare bronnen spreken elkaar materieel tegen;
+- `NOT_ESTABLISHED` — het vereiste domein is na gerichte controle niet vastgesteld.
 
-Een instellingsbron is sterk voor eigen identiteit, beheer, praktijk en lijntraditie, maar bewijst niet automatisch een onafhankelijke historische gebeurtenis.
+Deze statussen gelden per claim. Eén plek kan tegelijk historisch onzeker, institutioneel bevestigd, lineage-bevestigd en praktisch nog te controleren zijn.
 
-### 3.3 Historische identiteit
-- onafhankelijk verifieerbare personen, gebeurtenissen, bouwfasen en documenten;
-- expliciet aangeven wat niet historisch is vastgesteld;
-- een historisch tekort diskwalificeert een traditie- of lineageplaats niet automatisch.
+## 4. Verplichte onderzoekslagen per kandidaat
 
-### 3.4 Traditie
-- welke religieuze of spirituele traditie de plaats aanwijst;
-- wie de overlevering draagt;
-- sinds wanneer dit aantoonbaar wordt verteld;
-- welke teksten, instellingen of rituelen de relatie onderhouden.
+### 4.1 Fysieke en institutionele identiteit
 
-Traditie wordt als traditie gerapporteerd, nooit als historisch feit vermomd.
+Onderzoek naam, aliassen, precieze ligging, huidig fysiek object, dragende trust/orde/tempelorganisatie/overheid, officiële geschiedenis, missie, lineage en praktijk.
 
-### 3.5 Lineage
-- welke guru-parampara of spirituele lijn de plaats verbindt met personen of gebeurtenissen;
-- welke primaire lijnbronnen dit dragen;
-- of de lijn intern consistent is;
-- waar onafhankelijke bevestiging wel of niet bestaat.
+### 4.2 Historie, traditie en lineage
 
-Mythische of bovennatuurlijke figuren worden niet aan een onmogelijke klassieke biografische bewijsproef onderworpen. Onderzoek in plaats daarvan welke levende lineage de relatie draagt en welke fysieke plaats daarbij hoort.
+Rapporteer afzonderlijk:
 
-### 3.6 Levende praktijk en continuïteit
-- is de plek vandaag actief;
-- dagelijkse of periodieke praktijk: meditatie, puja, satsang, retraite, darshan, parikrama of pelgrimage;
-- actieve gemeenschap, priesterschap of lineage;
-- aantoonbare duur of continuïteit;
-- jaarlijkse festivals en terugkerende pelgrimspraktijk;
-- actuele toegang afzonderlijk van spirituele betekenis.
+- wat historisch gedocumenteerd is;
+- wat de huidige instelling zelf bevestigt;
+- welke lineage de relatie draagt;
+- welke levende traditie de relatie onderhoudt;
+- wie de dichtstbijzijnde gezaghebbende bron is;
+- of concrete tegenspraak bestaat.
 
-Populariteit als toeristische attractie is geen vervanging voor levende spirituele praktijk.
+Een geloofwaardige directe lijnbron kan voor Marks reisdoel zelfstandig voldoende projectbevestiging geven.
 
-### 3.7 Persoonlijke getuigenissen
-- wie een ervaring, verschijning, visioen of bijzonder gevoel beschrijft;
-- bron en context;
-- nooit presenteren als onafhankelijk historisch bewijs;
-- wel gebruiken om de levende betekenis en aantrekkingskracht van een plaats te begrijpen.
+### 4.3 Babaji-regel
 
-## 4. Place types
+Vraag nooit of Mahavatar Babaji volgens moderne biografische maatstaven bewezen heeft bestaan. Onderzoek welke belangrijke swami, directe leerling, guru-parampara of officiële lineage de plaatsrelatie draagt, hoe consistent de overlevering is, welke fysieke plek daaruit voortkwam en welke levende praktijk daar nu bestaat.
 
-Een kandidaat krijgt één of meer objectieve typen:
-- `EVENT` — door een traditie of historie aan een gebeurtenis verbonden;
-- `LINEAGE` — fysiek anker van een guru-parampara of spirituele lijn;
-- `SAMADHI` — fysieke graf-, as-, mahasamadhi- of traditioneel als samadhi beheerde plaats;
-- `LIVING_PRACTICE` — actieve ashram-, tempel-, meditatie- of pelgrimspraktijk.
+### 4.4 AOAY-regel
 
-Een algemeen herdenkingsmonument zonder graf, as, mahasamadhi of expliciete samadhi-identiteit krijgt geen `SAMADHI`-label. Een eventueel type `MEMORIAL` vereist een latere expliciete methodologiewijziging.
+Wanneer *Autobiography of a Yogi* een relevante persoon, ontmoeting of regionale relatie beschrijft en een huidige officiële instelling of lineage de eigen fysieke plek met die relatie identificeert, is de plek voor Marks project `PROJECT_CONFIRMED`, tenzij concrete tegenspraak bestaat.
 
-Meerdere typen zijn toegestaan. De typen zijn geen waardering.
+Exacte editie-, huisnummer- of perceelsreconstructie blijft nuttig documentair detail, maar is niet de enige toegangspoort tot projectbevestiging.
 
-## 5. Interpretatie-overlays
+### 4.5 Devotionele binnenkant
 
-Het systeem ondersteunt projectspecifieke overlays. Een overlay verbindt een kandidaat met een referentiekader, boek, traditie of lineage. Een overlay:
-- verandert de feiten niet;
-- kent geen score of waardering toe;
-- mag geen kandidaat uitsluiten;
-- wordt alleen toegepast wanneer de relatie onderbouwd of expliciet onzeker is.
+Onderzoek verplicht:
 
-De concrete overlays staan buiten deze generieke methodologie in een projectbestand.
+- waarom devotees hierheen gaan;
+- wie of wat zij er vereren of herinneren;
+- welk spiritueel ideaal of welke behoefte centraal staat;
+- wat mensen er concreet doen;
+- welke rituelen Mark respectvol kan volgen;
+- hoe deelname werkt;
+- of buitenlanders, niet-hindoes en niet-ingewijden welkom zijn;
+- etiquette, kleding, fotografie, stilte, donaties en eventuele beperkingen;
+- hoe de sfeer terugkerend wordt beschreven.
 
-## 6. Bewijsstatus per claim
+### 4.6 Levende praktijk
 
-Iedere materiële claim krijgt één status:
-- `VERIFIED_PRIMARY`
-- `VERIFIED_INSTITUTIONAL`
-- `SUPPORTED_SECONDARY`
-- `INFERRED`
-- `CONFLICTED`
-- `NOT_ESTABLISHED`
+Onderzoek dagelijkse of periodieke puja, aarti, mantra, kirtan, satsang, meditatie, darshan, seva, parikrama, pelgrimage, festivals en actieve gemeenschap. Toeristische populariteit vervangt geen levende devotionele praktijk.
 
-De status geldt per claim, niet per hele kandidaat. Een plek kan bijvoorbeeld fysiek en institutioneel sterk bevestigd zijn, historisch onzeker, lineage-sterk en als levende praktijk sterk.
+### 4.7 Plaatsbeleving en reviews
 
-## 7. Bronregels
+Onderzoek afzonderlijk:
 
-Gebruik de sterkst beschikbare specifieke bron voor het betreffende claimtype:
-- primaire tekst of direct document;
-- officiële beheerder- of lineagebron;
-- overheid, universiteit, museum, archief of erfgoedinstantie;
-- degelijk secundair onderzoek.
+- visuele schoonheid en karakter;
+- rust, drukte, chaos en commercie;
+- netheid en onderhoud;
+- intimiteit of massaliteit;
+- mogelijkheid om rustig te zitten of mediteren;
+- verschillen tussen gewone dagen, ochtend, avond en festivals;
+- terugkerende positieve en negatieve bezoekersthema's.
 
-Zoekresultaten, AI-samenvattingen en Wikipedia zijn alleen zoekrichtingen. Blogs, commerciële reissites, sociale media en video zonder controleerbare documentatie dragen geen kernclaim.
+Gebruik recente reviews, actuele bezoekersfoto's, officiële beelden, devoteeverslagen, video's en reisverslagen voor sfeer en praktische ervaring. Gebruik deze niet als bewijs voor oude of bovennatuurlijke gebeurtenissen.
 
-Een lijn-eigen bron mag lineage, traditie, eigen geschiedenis en praktijk dragen. Zij bewijst niet zelfstandig dat een bovennatuurlijke of oude gebeurtenis objectief heeft plaatsgevonden.
+### 4.8 Visueel dossier
 
-## 8. Bezoekbaarheid
+Per kandidaat worden minimaal tien verschillende representatieve beelden verzameld of wordt een expliciet beeldtekort gemeld. De set bestrijkt waar beschikbaar:
 
-Fysiek bestaan, levende functie en actuele bezoekbaarheid zijn drie verschillende vragen.
+1. totaal- of aankomstbeeld;
+2. ingang of toegang;
+3. heilig middelpunt;
+4. devotees tijdens normale praktijk;
+5. zit-, meditatie- of gebedsmogelijkheid;
+6. normale drukte;
+7. piek- of festivalsituatie;
+8. omgeving, verkeer en commercie;
+9. onderhoud, netheid of waterkwaliteit;
+10. ochtend-, avond- of ander sfeerbeeld.
 
-Wanneer identiteit wel maar actuele toegang niet is bevestigd, schrijf exact:
+Duplicaten tellen niet mee. Bron en vermoedelijke actualiteit worden vastgelegd.
+
+### 4.9 Bezoekbaarheid
+
+Fysiek bestaan, levende functie en actuele toegang zijn verschillende vragen. Wanneer identiteit vaststaat maar actuele toegang niet, noteer technisch:
 
 `Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.`
 
-Geen algemene aanname van toegang op basis van het bestaan van een tempel, ashram of kaartvermelding.
+In Marks rapport wordt dit natuurlijk vertaald naar een concrete controle vlak voor of tijdens het bezoek.
 
-## 9. Geen AI-waardering
+### 4.10 Nabijheid en routewaarde
 
-De onderzoeker rapporteert lagen, bronnen, onzekerheden en overlays afzonderlijk. Hij berekent geen totaalscore, projectrelevantie of impliciete rangorde.
+Na de kandidatenkaart wordt per cluster vastgelegd:
 
-Alleen Mark kent A, B of C toe. Nieuwe kandidaten blijven `ONGEMERKT`.
+- realistische reistijd en wegafstand tussen relevante plekken;
+- looptijd wanneer realistisch;
+- verkeers- en toegangsafhankelijkheden;
+- dichtstbijzijnde A-ankers;
+- logische loop- of dagclusters.
 
-## 10. Volledigheid
+Reistijd weegt zwaarder dan kilometers.
 
-Een sweep is alleen compleet wanneer de opgegeven controlelijst, verplichte open zoekrichtingen, relevante overlays, negatieve resultaten, dubbelingen en actuele onzekerheden zichtbaar zijn behandeld. Onvolledigheid wordt expliciet verklaard; zij mag niet door overtuigende formulering worden verborgen.
+## 5. Belevingsclassificatie
+
+Gebruik waar voldoende materiaal bestaat:
+
+- `ZEER_MOOI`;
+- `MOOI`;
+- `RAUW_MAAR_BETEKENISVOL`;
+- `CHAOTISCH`;
+- `NIET_VASTGESTELD`.
+
+Iedere classificatie noemt de bronbasis en eventuele verschillen per dagdeel of festivalperiode.
+
+## 6. Advisering en formele status
+
+BRONS, ZILVER en GOUD kennen geen formele A/B/C-status toe en wijzigen geen LOCKED-bestanden.
+
+INDIA2 mag adviseren:
+
+- `ADVIES A` — bezoeken;
+- `ADVIES B` — misschien bezoeken;
+- `ADVIES C` — niet bezoeken.
+
+Waar routecontext relevant is, blijven intrinsiek advies en routeadvies gescheiden, gevolgd door één ondubbelzinnige eindregel: `BEZOEKEN`, `MISSCHIEN` of `NIET BEZOEKEN`.
+
+Alleen Mark kent formele A/B/C toe. Voor basis- of hotelberekeningen geldt: A gewicht 5, B gewicht 2, C gewicht 0.
+
+## 7. Verplichte mensentaalvolgorde per plek
+
+1. Wat voor plaats is dit?
+2. Waarom devotees hierheen gaan.
+3. Wat mensen er doen.
+4. Kan Mark meedoen en zich welkom voelen?
+5. Sfeer en visueel oordeel.
+6. Historische, institutionele, lineage- en traditiebevestiging.
+7. Nabijheid tot belangrijke ankers en praktische combinaties.
+8. Wat vlak voor of tijdens het bezoek moet worden gecontroleerd.
+9. INDIA2-advies met concrete reden.
+
+Waarschuwingen en beheeronzekerheden domineren niet, tenzij veiligheid of feitelijke onbereikbaarheid dat vereist.
+
+## 8. Compact beslisproduct
+
+De volledige technische onderbouwing blijft in GitHub. Marks hoofdrapport bevat alleen beslisrelevante informatie, eenvoudige Nederlandse herkenningshaken bij plaatsnamen en maximaal de noodzakelijke onzekerheden. Het is een beslisrapport, geen encyclopedie en geen technische audit.
+
+## 9. Clustercompleetheid
+
+Een clusterbesluit mag pas definitief worden geadviseerd nadat omliggende relevante plekken, bekende A-ankers, open detectoren, lineage- en traditie-overlays, belevingsdata en relevante reistijden voldoende zijn onderzocht. Deelonderzoeken moeten later verplicht in één geïntegreerde clusterbeoordeling worden samengevoegd.
+
+## 10. Volledigheid en proportionaliteit
+
+Een sweep behandelt de vastgelegde scope volledig, maar bouwt geen extra protocol wanneer bestaande regels volstaan. Technische perfectionering mag onderzoeksvoortgang niet verdringen. Voor het huidige project met een beperkt aantal gecontroleerde sweeps geldt `CONTROLLED_MANUAL_FAST`: één actieve run, minimale noodzakelijke transitions en alleen structurele wijzigingen met aantoonbare inhoudelijke of tijdsbesparing.
 
 END_OF_ARTIFACT

@@ -1,35 +1,46 @@
-schema_version: 1
+schema_version: 2
 run_id: PROJECT-METHODOLOGY-DEVOTIONAL-001
-action_id: PROJECT-METHODOLOGY-DEVOTIONAL-001-SUBREGIE-003
+action_id: PROJECT-METHODOLOGY-DEVOTIONAL-001-INDIA2-004
 status: READY
-route: SUBREGIE_INDIA
-expected_state: READY_FOR_SUBREGIE_IMPLEMENTATION
-context_manifest: pipeline/directives/INDIA2-2026-07-14-DEVOTIONAL-METHODOLOGY-REVISION.md
+route: INDIA2
+expected_state: READY_FOR_INDIA2_REVIEW
+context_manifest: null
 entrypoint: pipeline/ENTRYPOINT.md
 operating_mode: CONTROLLED_MANUAL_FAST
 required_connector:
   github_read: true
-  github_write: true
+  github_write: false
+mandatory_first_instruction: >-
+  Activeer in deze chat onmiddellijk de GitHub-connector en houd deze gedurende de volledige beoordeling beschikbaar.
+  Test vóór inhoudelijk werk GitHub-read voor repository bnzgxknwrv-tech/india-knowledge-base. Ontbreekt read,
+  antwoord dan uitsluitend: MARK: IK MIS GITHUB CONNECTOR!
 instruction: >-
-  Read decisions/DECISION-0005-tradition-confirmation-devotional-reporting-and-advisory-ratings.md,
-  decisions/DECISION-0006-place-experience-proximity-and-base-selection.md,
-  decisions/DECISION-0007-photos-and-strict-abc-semantics.md,
-  decisions/DECISION-0008-readable-place-references-and-vrindavan-a-statuses.md,
-  decisions/DECISION-0008-place-name-recognition-hooks.md,
-  decisions/DECISION-0009-anchor-clusters-travel-time-and-item-proximity.md,
-  decisions/DECISION-0010-parallel-cluster-batch-and-compact-decision-reports.md,
-  pipeline/directives/INDIA2-2026-07-14-DEVOTIONAL-METHODOLOGY-REVISION.md,
-  pipeline/directives/INDIA2-2026-07-14-PHOTOS-STRICT-ABC-ADDENDUM.md and
-  pipeline/directives/INDIA2-2026-07-15-PARALLEL-CLUSTER-BATCH-AND-COMPACT-REPORTS.md.
-  Implement the complete methodological, evidence, role, quality-gate, visual-dossier, recognition-hook,
-  A-anchor, travel-time, compact-reporting and human-reporting revision for future runs. Preserve completed
-  run artifacts and Marks exclusive authority over formal A/B/C status. Audit the first-generation research
-  questions and outputs, write the structural improvements, and prepare a safe executable batch plan for
-  BRAJ-COMPLETE, ARUNACHALA-TIRUVANNAMALAI and KUMAON-BABAJI-KRIYA-NKB. Do not activate unsafe parallel
-  states. Keep GitHub as the full inter-role handoff and return only compact progress information to Mark.
-  Version all changes, add the required regression examples and route the validated result to INDIA2.
-completion_destination: VOOR_INDIA2
-created_by: INDIA2
-created_at: 2026-07-15T10:30:00+02:00
+  Review pipeline 3.0.0 and Methodology v3 against decisions DECISION-0005 through DECISION-0010 and the three
+  INDIA2 directives. Read pipeline/reviews/FIRST_GENERATION_SWEEP_AUDIT.md, pipeline/plans/CLUSTER_BATCH_PLAN_001.md,
+  pipeline/templates/COMPACT_DECISION_REPORT_TEMPLATE.md, pipeline/templates/RUN_TEMPLATE_V3.md and
+  pipeline/regression/VRINDAVAN_METHOD_V3_EXAMPLES.md. Confirm role separation between INDIA2, SUBREGIE INDIA,
+  BRONS, ZILVER, GOUD and Mark. Check that devotional meaning, participation, experience, imagery, recognition hooks,
+  A-anchor proximity and compact reporting are fully implemented without overengineering or changing completed runs.
+  If valid, select and authorize the first next cluster run. Return a compact human-language decision to Mark.
+completion_destination: GEEN_VERVOLG
+created_by: SUBREGIE_INDIA
+created_at: 2026-07-15T11:15:00+02:00
 source_commit: 22203df478f8c90e050f0b22c93a01f467ab6048
+implementation_branch: feature/methodology-v3-coordinated-sweeps
+implementation_files:
+  - knowledge/methodology/METHODOLOGY_V2.md
+  - pipeline/protocols/EVIDENCE_PROTOCOL.md
+  - pipeline/QUALITY_GATE.md
+  - pipeline/ENTRYPOINT.md
+  - pipeline/roles/BRONS.md
+  - pipeline/roles/ZILVER.md
+  - pipeline/roles/GOUD.md
+  - pipeline/roles/SUBREGIE_INDIA.md
+  - pipeline/reviews/FIRST_GENERATION_SWEEP_AUDIT.md
+  - pipeline/plans/CLUSTER_BATCH_PLAN_001.md
+  - pipeline/templates/COMPACT_DECISION_REPORT_TEMPLATE.md
+  - pipeline/templates/NEXT_ACTION_TEMPLATE.yaml
+  - pipeline/templates/RUN_TEMPLATE_V3.md
+  - pipeline/regression/VRINDAVAN_METHOD_V3_EXAMPLES.md
+  - pipeline/VERSION.md
 END_OF_ARTIFACT
