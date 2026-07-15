@@ -1,0 +1,49 @@
+schema_version: 1
+run_id: BRAJ-COMPLETE-001
+completed_role: GOUD
+result_status: PARTIAL
+output_manifest_path: research/active/BRAJ-COMPLETE-001/GOUD/manifest.yaml
+next_role: SUBREGIE_INDIA
+next_expected_transition: TECHNICAL_FINAL_VALIDATION
+completion_destination: VOOR_SUBREGIE_INDIA
+candidate_counts:
+  existing_canonical: 8
+  temporary_new: 21
+  total: 29
+location_ids:
+  assigned_start: "200"
+  assigned_end: "228"
+  assigned_count: 29
+  block: "200-299"
+open_blockers:
+  - Verified WGS84 visitor entrances or exact sites remain absent for all 29 candidates; LOCATION_ID 221 is identity-conflicted.
+  - Complete ten-function image dossiers remain absent for all 29 candidates.
+  - Systematic recent reviews and current participation/visitability remain incomplete.
+  - Object-level management remains unresolved for multiple distributed and small objects.
+  - Current traffic-aware A-anchor connections remain unavailable without verified endpoints.
+required_predecessor_files:
+  - research/active/BRAJ-COMPLETE-001/GOUD/manifest.yaml
+  - research/active/BRAJ-COMPLETE-001/GOUD/report/INDEX.md
+  - research/active/BRAJ-COMPLETE-001/GOUD/report/01_final_candidate_map.md
+  - research/active/BRAJ-COMPLETE-001/GOUD/report/02_open_layers_and_geo.md
+  - research/active/BRAJ-COMPLETE-001/GOUD/report/03_quality_gate_and_conclusion.md
+  - research/active/BRAJ-COMPLETE-001/GOUD/claims.jsonl
+  - research/active/BRAJ-COMPLETE-001/GOUD/sources/registry.jsonl
+  - research/active/BRAJ-COMPLETE-001/GOUD/sources/rejected.jsonl
+  - research/active/BRAJ-COMPLETE-001/GOUD/images.jsonl
+  - research/active/BRAJ-COMPLETE-001/GOUD/experience_reviews.jsonl
+  - research/active/BRAJ-COMPLETE-001/GOUD/proximity.jsonl
+  - research/active/BRAJ-COMPLETE-001/GOUD/place_candidates.jsonl
+  - research/active/BRAJ-COMPLETE-001/GOUD/geo_locations.jsonl
+  - research/active/BRAJ-COMPLETE-001/GOUD/geo_connections.jsonl
+  - research/active/BRAJ-COMPLETE-001/GOUD/location_id_audit.md
+  - research/active/BRAJ-COMPLETE-001/GOUD/decision_inputs.md
+  - research/active/BRAJ-COMPLETE-001/GOUD/audit.md
+  - research/active/BRAJ-COMPLETE-001/GOUD/decision.md
+  - research/active/BRAJ-COMPLETE-001/GOUD/COMPLETED
+archiving_executed: false
+regisseur_transition_executed: false
+kml_created: false
+formal_or_advisory_abc_assigned: false
+future_source_commit: null
+END_OF_ARTIFACT
