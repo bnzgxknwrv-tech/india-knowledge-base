@@ -1,0 +1,10 @@
+schema_version: 1
+id_prefix: IND-PLACE-
+number_width: 6
+next_place_number: 9
+last_reserved_by: SUBREGIE_INDIA
+last_updated_at: 2026-07-15
+registry: knowledge/places/registry.jsonl
+schema: knowledge/places/place.schema.json
+numbering_policy: knowledge/places/NUMBERING_POLICY.md
+END_OF_ARTIFACT
