@@ -1,8 +1,14 @@
 run_id: BRAJ-COMPLETE-001
-state: READY_FOR_ZILVER
-active_role: null
-claim: null
-last_event_id: EVT-0006
+state: ZILVER_CLAIMED
+active_role: ZILVER
+claim:
+  role: ZILVER
+  claimed_by: ChatGPT-ZILVER
+  claimed_at: 2026-07-15T13:43:25+02:00
+  source_commit: 6d542aeada499e709055bf788ce315b29986adac
+  expected_state: READY_FOR_ZILVER
+  output_path: research/active/BRAJ-COMPLETE-001/ZILVER/
+last_event_id: EVT-0007
 last_validated_commit: 6d542aeada499e709055bf788ce315b29986adac
 blockers:
   - Ten-function image dossiers missing for all 29 candidates.
