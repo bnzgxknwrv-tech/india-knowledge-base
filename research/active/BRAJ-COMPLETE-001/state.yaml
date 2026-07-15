@@ -1,8 +1,14 @@
 run_id: BRAJ-COMPLETE-001
-state: READY_FOR_BRONS
-active_role: null
-claim: null
-last_event_id: EVT-0001
+state: BRONS_CLAIMED
+active_role: BRONS
+claim:
+  role: BRONS
+  claimed_by: ChatGPT-BRONS
+  claimed_at: 2026-07-15T12:50:00+02:00
+  source_commit: ed9e0cb3b9b97c069c063900a05de9b3b53c1d47
+  expected_state: READY_FOR_BRONS
+  output_path: research/active/BRAJ-COMPLETE-001/BRONS/
+last_event_id: EVT-0002
 last_validated_commit: ed9e0cb3b9b97c069c063900a05de9b3b53c1d47
 blockers: []
 context_profile: BRONS_MIN
