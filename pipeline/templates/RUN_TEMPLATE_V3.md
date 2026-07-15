@@ -20,6 +20,7 @@ pins:
   evidence_protocol: pipeline/protocols/EVIDENCE_PROTOCOL.md
   quality_gate: pipeline/QUALITY_GATE.md
   execution_protocol: pipeline/protocols/EXECUTION_PROTOCOL.md
+  long_running_execution_protocol: pipeline/protocols/LONG_RUNNING_EXECUTION_PROTOCOL.md
   context_protocol: pipeline/protocols/CONTEXT_PROTOCOL.md
   controller_transition_protocol: pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md
   self_routing_protocol: pipeline/protocols/SELF_ROUTING_PROTOCOL.md
@@ -71,6 +72,8 @@ Ieder required bestand in een contextmanifest vermeldt:
 - `reason`;
 - `task`;
 - `expected_git_blob_sha`.
+
+Iedere metaalcontext bevat tevens `pipeline/protocols/LONG_RUNNING_EXECUTION_PROTOCOL.md`. Bij omvangrijke runs werkt de rol in afsluitbare blokken en schrijft zij vóór sessie-uitputting een `CHECKPOINT.yaml` met dezelfde actieve claim. Een hervattende chat maakt geen nieuwe claim en herhaalt geen afgerond onderzoek.
 
 Volledige oudere rapporten worden alleen toegevoegd bij een concrete loss-control-, conflict- of clustercontinuïteitstrigger.
 
