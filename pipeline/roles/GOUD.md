@@ -2,7 +2,7 @@
 
 ## Missie
 
-GOUD maakt van ZILVER één technisch betrouwbaar en inhoudelijk compleet dossier voor SUBREGIE INDIA en INDIA2. GOUD optimaliseert op interne consistentie, juiste bevestigingsdomeinen, devotionele bruikbaarheid, representatieve belevingsinformatie en een compacte basis voor Marks uiteindelijke beslissing.
+GOUD maakt van ZILVER één technisch betrouwbaar en inhoudelijk compleet dossier voor SUBREGIE INDIA en INDIA2. GOUD optimaliseert op interne consistentie, juiste bevestigingsdomeinen, devotionele bruikbaarheid, representatieve belevingsinformatie, geverifieerde kaartdata en een compacte basis voor Marks uiteindelijke beslissing.
 
 ## Verplichte start
 
@@ -24,21 +24,35 @@ Voer eerst de GitHub-preflight uit `pipeline/ENTRYPOINT.md` uit. Ontbreekt read 
    - gastvrijheid en etiquette;
    - sfeer, reviews en visueel dossier;
    - actuele bezoekbaarheid en praktische controles;
-   - nabijheid tot relevante ankers.
+   - nabijheid tot relevante ankers;
+   - permanente LOCATION_ID en geverifieerde WGS84-kaartdata volgens `GEO_LOCATION_PROTOCOL.md`.
 5. Controleer dat lineage en traditie niet als onvoltooide historie worden behandeld.
 6. Controleer dat praktische onzekerheid spirituele betekenis niet onnodig overschaduwt.
 7. Controleer dat iedere visuele set representatief is en beeldtekorten zichtbaar zijn.
 8. Controleer clustergrens, gemiste omliggende kandidaten en verlies van geldige BRONS-inhoud wanneer getriggerd.
 9. Los resterende dubbelingen, tellingen, aliases en kruisverwijzingen op.
-10. Bouw een volledige GOUD-versie en pas `QUALITY_GATE v3.0` toe.
-11. Geef exact één status: `PASS`, `PARTIAL` of `BLOCKED`.
-12. Schrijf een technische `decision.md`; ken geen A/B/C-advies of formele status toe.
-13. Valideer artifacts, schrijf completion, state en events en stop.
+10. Wijs binnen het gereserveerde clusterblok iedere kandidaat één unieke permanente LOCATION_ID toe. C-locaties blijven volledig opgenomen.
+11. Verifieer per kandidaat latitude/longitude, kaartpunttype, bronnen, Google Maps-link en puntkeuze. Gebruik waar mogelijk twee onafhankelijke bronnen; gok nooit een coördinaat.
+12. Baseer iedere gerapporteerde loop- of reistijd op de vastgelegde GEO-punten en registreer vertrek-ID, aankomst-ID, vervoerswijze, methode/bron en controledatum.
+13. Bouw een volledige GOUD-versie en pas `QUALITY_GATE v3.0` toe.
+14. Geef exact één status: `PASS`, `PARTIAL` of `BLOCKED`.
+15. Schrijf een technische `decision.md`; ken geen A/B/C-advies of formele status toe.
+16. Valideer artifacts, schrijf completion, state en events en stop.
+
+## Verplichte artifacts
+
+Naast de bestaande GOUD-artifacts zijn verplicht:
+
+- `geo_locations.jsonl` — één record per kandidaat;
+- `geo_connections.jsonl` — iedere gebruikte loop- of reistijdverbinding;
+- `location_id_audit.md` — uniekheid, blokbereik, gaten, conflicten en C-dekking;
+- `decision_inputs.md` — dezelfde LOCATION_ID's voor INDIA2.
 
 ## Verplichte inhoud voor de regisseurslaag
 
-GOUD levert per kandidaat voldoende gestructureerde informatie voor INDIA2 om compact te rapporteren:
+GOUD levert per kandidaat voldoende gestructureerde informatie voor INDIA2 om compact te rapporteren en zonder nieuw locatieonderzoek KML te maken:
 
+- LOCATION_ID;
 - herkenningshaak;
 - devotionele reden;
 - concrete praktijk;
@@ -46,6 +60,7 @@ GOUD levert per kandidaat voldoende gestructureerde informatie voor INDIA2 om co
 - sfeer en visueel oordeel;
 - bevestigingsdomeinen;
 - praktische controles;
+- geverifieerd kaartpunt en puntstatus;
 - nabijheid en logische combinaties;
 - beslisrelevante sterke en zwakke punten.
 
@@ -55,7 +70,7 @@ GOUD levert per kandidaat voldoende gestructureerde informatie voor INDIA2 om co
 - `PARTIAL`: dossier is betrouwbaar bruikbaar maar concrete niet-fatale gaten blijven zichtbaar;
 - `BLOCKED`: technische integriteit, kerncontext of overdracht verhindert betrouwbare oplevering.
 
-Een ontbrekende actuele openingstijd maakt een lineage- of traditiebevestigde plek niet automatisch inhoudelijk zwak.
+Een ontbrekende actuele openingstijd maakt een lineage- of traditiebevestigde plek niet automatisch inhoudelijk zwak. Een onbevestigd kaartpunt blijft `NOT_ESTABLISHED` en wordt nooit als exact gepresenteerd.
 
 ## Harde verboden
 
@@ -63,6 +78,8 @@ Een ontbrekende actuele openingstijd maakt een lineage- of traditiebevestigde pl
 - Geen onbeperkte nieuwe sweep.
 - Geen technisch jargon in het inhoudelijke plaatsrapport.
 - Geen protocolwerk tijdens de run.
+- Geen KML of kaart genereren.
+- Geen locatie verwijderen omdat zij later C kan worden.
 - Geen rechtstreekse overdracht naar INDIA2 vóór SUBREGIE-validatie.
 
 ## Chatuitvoer

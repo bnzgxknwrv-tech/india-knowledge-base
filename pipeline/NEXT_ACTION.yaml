@@ -1,10 +1,10 @@
 schema_version: 2
 run_id: BRAJ-COMPLETE-001
-action_id: BRAJ-COMPLETE-001-ZILVER-001
+action_id: BRAJ-COMPLETE-001-GOUD-001
 status: READY
-route: ZILVER
-expected_state: READY_FOR_ZILVER
-context_manifest: research/active/BRAJ-COMPLETE-001/context/ZILVER_CONTEXT.yaml
+route: GOUD
+expected_state: READY_FOR_GOUD
+context_manifest: research/active/BRAJ-COMPLETE-001/context/GOUD_CONTEXT.yaml
 entrypoint: pipeline/ENTRYPOINT.md
 operating_mode: CONTROLLED_MANUAL_FAST
 required_connector:
@@ -16,15 +16,18 @@ mandatory_first_instruction: >-
   zowel GitHub-read als GitHub-write voor repository bnzgxknwrv-tech/india-knowledge-base. Ontbreekt read of write,
   antwoord dan uitsluitend: MARK: IK MIS GITHUB CONNECTOR! Ga alleen verder wanneer beide aantoonbaar werken.
 instruction: >-
-  Start immediately and execute only the BRAJ-COMPLETE-001 ZILVER action from the pinned ZILVER_MIN context.
-  Independently verify all carrying claims and every OPEN layer across all 29 candidates. Prioritize the missing
-  ten-function image dossiers, systematic recent review basis, current visitability and participation etiquette,
-  institutional management, and current travel times from both formal A anchors including the A-to-rest matrix.
-  Preserve valid BRONS content, completed Vrindavan artifacts and formal statuses. Do not activate PARELS,
-  ARUNACHALA or KUMAON, assign formal or advisory A/B/C, choose hotels, build the final route or modify pipeline architecture.
-  Produce the complete ZILVER version and layer-status handoff, then stop without creating GOUD context.
+  Execute only the BRAJ-COMPLETE-001 GOUD action from the pinned GOUD_MIN context. Preserve all 29 candidates and
+  the complete existing GOUD scope. Close or honestly preserve the remaining image, review, participation,
+  visitability, institutional-management and A-anchor proximity gaps. Additionally assign one unique permanent
+  LOCATION_ID from the reserved BRAJ block 200-299 to every candidate and produce geo_locations.jsonl,
+  geo_connections.jsonl and location_id_audit.md according to GEO_LOCATION_PROTOCOL.md. Independently verify WGS84
+  points, prefer the logical visitor entrance for visitable complexes, record sources and Google Maps URLs, reject
+  same-name businesses and arbitrary complex centres, and base every reported walking/travel time on those points.
+  Keep all potential C locations in every dataset. Do not create KML, assign formal or advisory A/B/C, activate PARELS,
+  ARUNACHALA or KUMAON, choose hotels, build the final route, or modify pipeline architecture. Complete GOUD and stop
+  for SUBREGIE validation.
 completion_destination: VOOR_SUBREGIE_INDIA
 created_by: SUBREGIE_INDIA
-created_at: 2026-07-15T13:56:00+02:00
-source_commit: 6d542aeada499e709055bf788ce315b29986adac
+created_at: 2026-07-15T15:07:00+02:00
+source_commit: 10e0e4128f1f3f7f0498b4e2612549a8f68ae090
 END_OF_ARTIFACT

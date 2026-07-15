@@ -64,5 +64,10 @@ entries:
     supersedes: []
     clarifies:
       - DECISION-0008
+  - id: DECISION-0013
+    path: decisions/DECISION-0013-location-ids-and-verified-geo-data.md
+    date: 2026-07-15
+    status: ACTIVE
+    supersedes: []
 
 END_OF_ARTIFACT
