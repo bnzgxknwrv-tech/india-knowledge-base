@@ -2,48 +2,69 @@
 
 Dit is het enige startpunt voor een nieuwe uitvoerende AI-sessie.
 
-## Activatie
+## Verplichte eerste instructie in iedere metaalopdracht
 
-Een controller of Mark activeert exact één rol voor exact één run:
+Iedere startvraag aan BRONS, ZILVER of GOUD begint met deze tekst:
 
-`Open pipeline/ENTRYPOINT.md. Voer rol <BRONS|ZILVER|GOUD> uit voor run <run-id>. Lees uitsluitend het gepinde contextmanifest. Schrijf alle resultaten naar GitHub en stop bij ontbrekende write-toegang, SHA-afwijking, truncatie, geldige bestaande claim of state-desynchronisatie.`
+`Activeer in deze chat onmiddellijk de GitHub-connector en houd deze gedurende de volledige uitvoering beschikbaar. Dit onderzoek gebruikt GitHub als enige bron van waarheid en overdrachtskanaal. Test vóór ieder inhoudelijk werk zowel GitHub-read als GitHub-write voor repository bnzgxknwrv-tech/india-knowledge-base. Ontbreekt read of write, antwoord dan uitsluitend: MARK: IK MIS GITHUB CONNECTOR! Ga alleen verder wanneer beide aantoonbaar werken.`
 
-Geen rapporttekst wordt tussen chats geplakt. GitHub is het enige overdrachtskanaal.
+Een worker mag nooit beweren de connector zelf te hebben geactiveerd wanneer die niet beschikbaar is. De gebruiker activeert de connector in de chat; de worker test de feitelijke toegang.
 
-ZILVER en GOUD mogen alleen worden geactiveerd nadat een aparte controllertransition hun definitieve contextmanifest heeft gegenereerd en de state op de juiste READY-status heeft gezet.
+## Universele activatie
+
+Na de verplichte eerste instructie volstaat:
+
+`Open pipeline/ENTRYPOINT.md en voer uitsluitend de actie uit die in pipeline/NEXT_ACTION.yaml staat.`
+
+`NEXT_ACTION.yaml` bepaalt exact één run, rol, expected state en contextmanifest. Een worker leidt geen andere rol of vervolgactie af.
 
 ## Verplichte volgorde
 
-1. Controleer lees- en schrijfrechten voor de repository.
-2. Open `research/active/<run-id>/run.yaml`.
-3. Controleer dat de gevraagde rol overeenkomt met `state.yaml` en dat de verwachte fase gereed is.
-4. Lees het gepinde rolcontract uit `run.yaml`.
-5. Lees het gepinde protocol- en methodologiebestand uit `run.yaml`.
-6. Lees uitsluitend `research/active/<run-id>/context/<ROLE>_CONTEXT.yaml` en de daarin genoemde bestanden.
-7. Controleer `source_commit`, hashes, vereiste bestanden en contextbudget.
-8. Claim de fase volgens `pipeline/protocols/EXECUTION_PROTOCOL.md`.
-9. Voer de rol uit en schrijf uitsluitend naar het toegewezen fasepad.
-10. Valideer alle verplichte outputs, sentinels en verwijzingen.
-11. Schrijf `manifest.yaml`, `handoff.yaml`, `COMPLETED`, update `state.yaml` en append de vereiste events aan `events.jsonl`.
-12. Commit de volledige fase-uitkomst.
-13. Stop. De worker maakt nooit zelf het contextmanifest van zijn opvolger; dat gebeurt via `pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md`.
+1. Test GitHub-read en GitHub-write.
+2. Open `pipeline/NEXT_ACTION.yaml`.
+3. Controleer dat route, run, expected state en contextmanifest bestaan en onderling overeenstemmen.
+4. Open `research/active/<run-id>/run.yaml` en `state.yaml`.
+5. Controleer dat geen geldige claim actief is en state/eventcursor overeenkomen.
+6. Lees het gepinde rolcontract, methodologie, evidence-protocol en quality gate.
+7. Lees uitsluitend het contextmanifest en de daarin genoemde runbestanden.
+8. Controleer source commit, hashes, volledigheid en sentinels.
+9. Claim de fase volgens `EXECUTION_PROTOCOL.md`.
+10. Voer uitsluitend de inhoudelijke rol en scope uit.
+11. Schrijf alle verplichte outputs naar het toegewezen fasepad.
+12. Valideer artifacts, bronverwijzingen, scope en sentinels.
+13. Schrijf manifest, handoff, COMPLETED, state en events.
+14. Commit de volledige fase-uitkomst en stop.
+
+De worker maakt nooit zelf het contextmanifest van zijn opvolger. SUBREGIE INDIA of een geldige controllertransition doet dit.
+
+## Inhoudelijke prioriteit
+
+De metalen onderzoeken niet alleen bewijsbeperkingen. Iedere toekomstige plaats-sweep behandelt ook:
+
+- waarom devotees naar de plek gaan;
+- wat mensen er werkelijk doen;
+- of Mark respectvol kan deelnemen;
+- sfeer, actuele beleving en representatieve beelden;
+- institutionele, historische, lineage- en traditiebevestiging als afzonderlijke domeinen;
+- praktische controles en nabijheid tot relevante ankers.
 
 ## Stopvoorwaarden
 
 Stop zonder inhoudelijk werk wanneer:
-- GitHub-write ontbreekt;
-- run of rol niet bestaat;
-- `source_commit` niet overeenkomt;
-- een geldige bestaande claim van een andere worker of controller bestaat;
+
+- GitHub-read of GitHub-write ontbreekt;
+- `NEXT_ACTION.yaml`, run, rol of context ontbreekt of tegenstrijdig is;
+- een geldige bestaande claim bestaat;
 - state en eventlog elkaar tegenspreken;
-- het contextmanifest ontbreekt of niet volledig gelezen kan worden;
-- een required file ontbreekt of een expected hash niet klopt;
-- output wordt afgekapt of een verplichte sectie niet kan worden voltooid.
+- een required file ontbreekt, afgekapt is of een gepinde hash afwijkt;
+- de output niet volledig kan worden geschreven.
 
-Schrijf bij een stop alleen een `BLOCKED`-event en, indien toegestaan, de blokkade in `state.yaml`. Maak geen gedeeltelijk fase-resultaat geldig.
+Bij ontbrekende GitHub-toegang is het volledige antwoord uitsluitend:
 
-## Verbod
+`MARK: IK MIS GITHUB CONNECTOR!`
 
-Een uitvoerende rol wijzigt tijdens dezelfde run nooit zijn eigen rolcontract, methodologie, protocol, contextregels of schemas. Verbeteringen gebeuren na afloop in een afzonderlijke commit of pull request.
+## Geen protocolwerk tijdens een onderzoeksfase
+
+Een uitvoerende rol wijzigt tijdens dezelfde run nooit zijn eigen rolcontract, methodologie, protocol, contextregels of schemas. Verbeteringen gebeuren na afloop via SUBREGIE INDIA en worden alleen ingevoerd wanneer zij aantoonbaar kwaliteit verhogen of Marks werk verminderen.
 
 END_OF_ARTIFACT
