@@ -1,0 +1,43 @@
+run_id: BRAJ-COMPLETE-001
+project: india
+run_type: CLUSTER_SWEEP
+scope_file: research/active/BRAJ-COMPLETE-001/scope.md
+created_at: 2026-07-15T12:30:00+02:00
+created_by: SUBREGIE_INDIA
+immutable_after_first_claim: true
+operating_mode: CONTROLLED_MANUAL_FAST
+context_profile: BRONS_MIN
+pins:
+  entrypoint: pipeline/ENTRYPOINT.md
+  methodology: knowledge/methodology/METHODOLOGY_V2.md
+  evidence_protocol: pipeline/protocols/EVIDENCE_PROTOCOL.md
+  quality_gate: pipeline/QUALITY_GATE.md
+  execution_protocol: pipeline/protocols/EXECUTION_PROTOCOL.md
+  context_protocol: pipeline/protocols/CONTEXT_PROTOCOL.md
+  controller_transition_protocol: pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md
+  self_routing_protocol: pipeline/protocols/SELF_ROUTING_PROTOCOL.md
+  context_profiles: pipeline/CONTEXT_PROFILES.yaml
+  handoff_layer_template: pipeline/templates/HANDOFF_LAYER_STATUS_TEMPLATE.yaml
+  place_registry: knowledge/places/registry.jsonl
+  place_numbering_policy: knowledge/places/NUMBERING_POLICY.md
+  decisions_index: decisions/INDEX.yaml
+  roles:
+    BRONS: pipeline/roles/BRONS.md
+    ZILVER: pipeline/roles/ZILVER.md
+    GOUD: pipeline/roles/GOUD.md
+versions:
+  pipeline: 3.0.0
+  methodology: 3.0.0
+source_base_commit: ed9e0cb3b9b97c069c063900a05de9b3b53c1d47
+predecessors:
+  - run_id: VRINDAVAN-INTEGRATION-001
+    role: GOUD
+    status: PARTIAL
+    purpose: established eight-candidate Vrindavan/Braj seed and formal A anchors
+  - run_id: VRINDAVAN-SUPPLEMENT-001
+    role: GOUD
+    status: PARTIAL
+    purpose: targeted unresolved evidence and management context
+parallel_writers_allowed: false
+parels_layer_active: false
+END_OF_ARTIFACT
