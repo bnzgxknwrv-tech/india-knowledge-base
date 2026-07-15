@@ -1,7 +1,7 @@
 # 08 — Uncertainties, conflicts and duplicate control
 
 ## Harde open lagen
-- Geen van de 27 kandidaten heeft een volledig actueel pakket met openingstoestand, beperkingen, fotografie, kleding, toegankelijkheid en tijdelijke sluitingen.
+- Geen van de 29 kandidaten heeft een volledig actueel pakket met openingstoestand, beperkingen, fotografie, kleding, toegankelijkheid en tijdelijke sluitingen.
 - Het vereiste tienbeelden-dossier is voor geen kandidaat volledig samengesteld; dit is per kandidaat expliciet in `images.jsonl` vastgelegd.
 - Recente reviewanalyse met meerdere onafhankelijke bronnen is voor geen kandidaat volledig; `experience_reviews.jsonl` bevat de open status.
 - Actuele betrouwbare reistijden vanaf de twee formele A-ankers ontbreken; geen tijden zijn gegokt.
