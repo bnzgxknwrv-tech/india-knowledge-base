@@ -1,0 +1,2 @@
+{"event_id":"EVT-0001","run_id":"BRAJ-COMPLETE-001","event_type":"RUN_CREATED","at":"2026-07-15T12:30:00+02:00","actor":"SUBREGIE_INDIA","from_state":null,"to_state":"READY_FOR_BRONS","source_base_commit":"ed9e0cb3b9b97c069c063900a05de9b3b53c1d47","context_profile":"BRONS_MIN","parels_layer_active":false,"notes":"Pipeline 3.0 complete Braj cluster sweep created after required architecture prerequisites; completed Vrindavan artifacts remain immutable."}
+END_OF_ARTIFACT
