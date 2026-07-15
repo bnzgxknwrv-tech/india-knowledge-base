@@ -1,0 +1,37 @@
+PARTIAL
+run_id: BRAJ-COMPLETE-001
+role: BRONS
+source_commit: ed9e0cb3b9b97c069c063900a05de9b3b53c1d47
+candidate_counts:
+  existing_canonical: 8
+  temporary_new: 21
+  total: 29
+outputs:
+  - manifest.yaml
+  - report/INDEX.md
+  - report/01_scope_and_counts.md
+  - report/02_vrindavan_mathura.md
+  - report/03_govardhan.md
+  - report/04_gokul_mahavan.md
+  - report/05_barsana_nandgaon.md
+  - report/06_detectors_and_outside_list.md
+  - report/07_clusters_and_proximity.md
+  - report/08_uncertainties_conflicts_duplicates.md
+  - report/09_conclusion_and_gate.md
+  - claims.jsonl
+  - sources/registry.jsonl
+  - sources/rejected.jsonl
+  - images.jsonl
+  - experience_reviews.jsonl
+  - proximity.jsonl
+  - place_candidates.jsonl
+  - audit.md
+  - handoff.yaml
+highest_gaps:
+  - Ten-function image dossiers missing for all 29 candidates.
+  - Systematic recent review and experience analysis incomplete.
+  - Current visitability and participation rules incomplete.
+  - Institutional identity unresolved for multiple distributed and small objects.
+  - Current A-anchor travel-time matrix not established.
+validation: All required artifacts were reopened; END_OF_ARTIFACT sentinels were checked; identifiers and source references are unique and valid; all six core areas were treated; no formal or advisory A/B/C was assigned; no PARELS, successor context, controller transition, route, hotel or pipeline architecture work was performed.
+END_OF_ARTIFACT
