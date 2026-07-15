@@ -1,6 +1,6 @@
 schema_version: 1
 run_id: PROJECT-METHODOLOGY-DEVOTIONAL-001
-action_id: PROJECT-METHODOLOGY-DEVOTIONAL-001-SUBREGIE-002
+action_id: PROJECT-METHODOLOGY-DEVOTIONAL-001-SUBREGIE-003
 status: READY
 route: SUBREGIE_INDIA
 expected_state: READY_FOR_SUBREGIE_IMPLEMENTATION
@@ -14,16 +14,22 @@ instruction: >-
   Read decisions/DECISION-0005-tradition-confirmation-devotional-reporting-and-advisory-ratings.md,
   decisions/DECISION-0006-place-experience-proximity-and-base-selection.md,
   decisions/DECISION-0007-photos-and-strict-abc-semantics.md,
-  pipeline/directives/INDIA2-2026-07-14-DEVOTIONAL-METHODOLOGY-REVISION.md and
-  pipeline/directives/INDIA2-2026-07-14-PHOTOS-STRICT-ABC-ADDENDUM.md. Implement the complete methodological,
-  evidence, role, quality-gate, visual-dossier, proximity, base-selection and human-reporting revision for future runs.
-  Preserve completed run artifacts and Marks exclusive authority over formal A/B/C status. Add project-confirmed tradition
-  and lineage handling, devotional practice, visitor participation, atmosphere research, at least ten representative images
-  per place or an explicit image gap, strict A=visit/B=maybe/C=do-not-visit semantics, C weight zero, route-adjusted visit
-  decisions and INDIA2 advisory reporting as specified. Write all changes to GitHub, version them, add the required Vrindavan
-  regression report and route the validated result to INDIA2.
+  decisions/DECISION-0008-readable-place-references-and-vrindavan-a-statuses.md,
+  decisions/DECISION-0008-place-name-recognition-hooks.md,
+  decisions/DECISION-0009-anchor-clusters-travel-time-and-item-proximity.md,
+  decisions/DECISION-0010-parallel-cluster-batch-and-compact-decision-reports.md,
+  pipeline/directives/INDIA2-2026-07-14-DEVOTIONAL-METHODOLOGY-REVISION.md,
+  pipeline/directives/INDIA2-2026-07-14-PHOTOS-STRICT-ABC-ADDENDUM.md and
+  pipeline/directives/INDIA2-2026-07-15-PARALLEL-CLUSTER-BATCH-AND-COMPACT-REPORTS.md.
+  Implement the complete methodological, evidence, role, quality-gate, visual-dossier, recognition-hook,
+  A-anchor, travel-time, compact-reporting and human-reporting revision for future runs. Preserve completed
+  run artifacts and Marks exclusive authority over formal A/B/C status. Audit the first-generation research
+  questions and outputs, write the structural improvements, and prepare a safe executable batch plan for
+  BRAJ-COMPLETE, ARUNACHALA-TIRUVANNAMALAI and KUMAON-BABAJI-KRIYA-NKB. Do not activate unsafe parallel
+  states. Keep GitHub as the full inter-role handoff and return only compact progress information to Mark.
+  Version all changes, add the required regression examples and route the validated result to INDIA2.
 completion_destination: VOOR_INDIA2
 created_by: INDIA2
-created_at: 2026-07-14T09:10:00+02:00
-source_commit: 4daae49e0478ed5c4799e474bd6e1a7497167259
+created_at: 2026-07-15T10:30:00+02:00
+source_commit: 22203df478f8c90e050f0b22c93a01f467ab6048
 END_OF_ARTIFACT
