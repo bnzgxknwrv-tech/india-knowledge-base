@@ -1,33 +1,23 @@
 schema_version: 2
 run_id: BRAJ-COMPLETE-001
-action_id: BRAJ-COMPLETE-001-GOUD-001
+action_id: BRAJ-COMPLETE-001-INDIA2-001
 status: READY
-route: GOUD
-expected_state: READY_FOR_GOUD
-context_manifest: research/active/BRAJ-COMPLETE-001/context/GOUD_CONTEXT.yaml
+route: INDIA2
+expected_state: GOUD_PARTIAL
 entrypoint: pipeline/ENTRYPOINT.md
 operating_mode: CONTROLLED_MANUAL_FAST
 required_connector:
   github_read: true
-  github_write: true
-mandatory_first_instruction: >-
-  Activeer in deze chat onmiddellijk de GitHub-connector en houd deze gedurende de volledige uitvoering beschikbaar.
-  Dit onderzoek gebruikt GitHub als enige bron van waarheid en overdrachtskanaal. Test vóór ieder inhoudelijk werk
-  zowel GitHub-read als GitHub-write voor repository bnzgxknwrv-tech/india-knowledge-base. Ontbreekt read of write,
-  antwoord dan uitsluitend: MARK: IK MIS GITHUB CONNECTOR! Ga alleen verder wanneer beide aantoonbaar werken.
+  github_write: false
 instruction: >-
-  Execute only the BRAJ-COMPLETE-001 GOUD action from the pinned GOUD_MIN context. Preserve all 29 candidates and
-  the complete existing GOUD scope. Close or honestly preserve the remaining image, review, participation,
-  visitability, institutional-management and A-anchor proximity gaps. Additionally assign one unique permanent
-  LOCATION_ID from the reserved BRAJ block 200-299 to every candidate and produce geo_locations.jsonl,
-  geo_connections.jsonl and location_id_audit.md according to GEO_LOCATION_PROTOCOL.md. Independently verify WGS84
-  points, prefer the logical visitor entrance for visitable complexes, record sources and Google Maps URLs, reject
-  same-name businesses and arbitrary complex centres, and base every reported walking/travel time on those points.
-  Keep all potential C locations in every dataset. Do not create KML, assign formal or advisory A/B/C, activate PARELS,
-  ARUNACHALA or KUMAON, choose hotels, build the final route, or modify pipeline architecture. Complete GOUD and stop
-  for SUBREGIE validation.
-completion_destination: VOOR_SUBREGIE_INDIA
+  Read research/active/BRAJ-COMPLETE-001/transitions/GOUD_FINAL_VALIDATION.md first, then read
+  research/active/BRAJ-COMPLETE-001/GOUD/decision_inputs.md and the GOUD report index and supporting artifacts named there.
+  Produce one compact Dutch decision report for Mark covering all 29 Braj candidates with the same permanent LOCATION_IDs
+  200-228. Clearly separate confirmed content, practical checks, unresolved GEO identity or coordinate gaps, and route relevance.
+  INDIA2 may give advisory A/B/C, but only Mark may assign formal A/B/C. Do not create KML from unverified points and do not
+  present absent WGS84 data as mapped. Do not discuss commits, claims, state, events or protocols in Mark's report.
+completion_destination: VOOR_MARK
 created_by: SUBREGIE_INDIA
-created_at: 2026-07-15T15:07:00+02:00
-source_commit: 10e0e4128f1f3f7f0498b4e2612549a8f68ae090
+created_at: 2026-07-15T16:05:00+02:00
+source_commit: 298df490772c573d5489c6d8250d283415ba784e
 END_OF_ARTIFACT
