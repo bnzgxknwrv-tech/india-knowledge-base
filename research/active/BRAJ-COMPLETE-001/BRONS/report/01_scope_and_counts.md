@@ -4,8 +4,8 @@ Onderzocht als één spiritueel Braj-cluster: Vrindavan, Mathura, Govardhan/pari
 
 Resultaten:
 - bestaande canonical plaatsen behouden: 8;
-- nieuwe tijdelijke kandidaten: 19;
-- totaal behandelde fysieke kandidaten: 27;
+- nieuwe tijdelijke kandidaten: 21;
+- totaal behandelde fysieke kandidaten: 29;
 - formele A-statussen ongewijzigd: IND-PLACE-000001 en IND-PLACE-000002;
 - nieuwe formele of adviserende A/B/C: 0;
 - PARELS geactiveerd: nee;
