@@ -1,0 +1,241 @@
+run_id: VRINDAVAN-KUMAON-CORRIDOR-001
+role: ZILVER
+status: READY
+context_profile: ZILVER_MIN
+source_commit: 60d87c0869584c2c89a3a19a626b65b496e1a2c9
+prepared_by: SUBREGIE_INDIA
+prepared_at: 2026-07-16T12:20:00+02:00
+source_commit_semantics:
+  purpose: definitive BRONS result and immutable predecessor snapshot
+  branch_head_may_advance: true
+  stop_only_if:
+    - a required file blob SHA differs
+    - a required file is missing or truncated
+    - state and events are desynchronized
+    - a valid existing claim exists
+protocol_versions:
+  pipeline: 3.0.0
+  methodology: 3.0.0
+  corridor_policy: 1.0.0
+required_files:
+  - path: pipeline/ENTRYPOINT.md
+    reason: canonical worker start and stop conditions
+    task: execute only the routed ZILVER action
+    expected_git_blob_sha: 0c87c24a091cc197991d89a20923d1a018cd7629
+  - path: pipeline/roles/ZILVER.md
+    reason: role-specific independent verification contract
+    task: verify and improve BRONS without protocol work or A/B/C assignment
+    expected_git_blob_sha: 91698d1659dfac0fad05414598c9c762dbe72d39
+  - path: knowledge/methodology/METHODOLOGY_V2.md
+    reason: project confirmation and decision-focused methodology
+    task: apply separate evidence domains and strict place relevance
+    expected_git_blob_sha: cba69457b46f26f60a4775a848f9fc4bf01000ff
+  - path: pipeline/protocols/EVIDENCE_PROTOCOL.md
+    reason: claim and source validation rules
+    task: independently open and classify every material source
+    expected_git_blob_sha: 5d853e6dae868495782363d0864f641fa2747186
+  - path: pipeline/QUALITY_GATE.md
+    reason: phase completeness and release criteria
+    task: apply technical, route, geographic and decision-readiness gates
+    expected_git_blob_sha: 8c9d39ed09e8992d785baf15d727a920ccdbb0c0
+  - path: pipeline/protocols/EXECUTION_PROTOCOL.md
+    reason: claim, state, output and completion rules
+    task: claim and complete only ZILVER
+    expected_git_blob_sha: ddc5b75bd0dd69d05a026e3377fbdb0efc97ab31
+  - path: pipeline/protocols/CONTEXT_PROTOCOL.md
+    reason: deterministic context boundary
+    task: read no internal files outside this manifest
+    expected_git_blob_sha: 872bce45f01e276d76dc65479c09e71dc72a15de
+  - path: pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md
+    reason: preserves separation from GOUD transition
+    task: do not create GOUD context or transition
+    expected_git_blob_sha: c49e17a1f775fcbc3f7cb6342d95c63df6d38e51
+  - path: pipeline/protocols/SELF_ROUTING_PROTOCOL.md
+    reason: mandatory completion routing
+    task: route completion to SUBREGIE INDIA
+    expected_git_blob_sha: a64fcf5197edb7072b0f13d067b223ddc70289b9
+  - path: pipeline/protocols/LONG_RUNNING_EXECUTION_PROTOCOL.md
+    reason: controlled checkpoint and same-claim resume
+    task: checkpoint before context exhaustion and never repeat completed work
+    expected_git_blob_sha: 0640c6af87df2ed94155fa5b04b377c2e729161a
+  - path: pipeline/protocols/GEO_LOCATION_PROTOCOL.md
+    reason: permanent identifiers and map-point integrity
+    task: distinguish WORKING from VERIFIED and reject wrong identities
+    expected_git_blob_sha: 149c0515010930ec9306a6d68f5beb2a7b3bbe91
+  - path: pipeline/CONTEXT_PROFILES.yaml
+    reason: ZILVER_MIN risk-based reopening rules
+    task: verify every OPEN or carrying layer and sample accepted low-risk layers
+    expected_git_blob_sha: 4526bb1fe5e3605d63af45d81f8efb152bef1863
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/run.yaml
+    reason: immutable run identity, pins and block plan
+    task: verify run identity and no successor activation
+    expected_git_blob_sha: d0644e6153955fdbe7d41c02fec072e2626d3790
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/scope.md
+    reason: complete corridor, strict heavy-A, WORKING_GEO and KML scope
+    task: independently test all corridor and map requirements
+    expected_git_blob_sha: 79a00587b87e6e7d8e305c392071a01a0f8ad7cd
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/WORKING_GEO_POLICY.md
+    reason: run-specific practical mapping standard
+    task: verify reasonable points without demanding exact entrances as a release blocker
+    expected_git_blob_sha: 90160d8a4a90cc5bc4a587f0399740bd933ac653
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS_OUTPUT_REQUIREMENTS.yaml
+    reason: predecessor output and validation contract
+    task: verify every required artifact and conditional KML rule
+    expected_git_blob_sha: e47acca3aac3c6a2db6e96f7e82ef2112db05d85
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/formal_status_snapshot.yaml
+    reason: immutable formal A/B/C input controlled by Mark
+    task: preserve all formal statuses without reinterpretation
+    expected_git_blob_sha: e3d63e22a423861371ea4f3977499fc46baf5296
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/location_id_plan.yaml
+    reason: reserved block and permanence rules
+    task: validate block purity, uniqueness and requests for unreserved clusters
+    expected_git_blob_sha: b83b6c9e1db993ab4c8e6cc6822950311e007dc6
+  - path: decisions/DECISION-0014-corridor-strict-a-working-geo-and-kml.md
+    reason: governing corridor and practical map decision
+    task: apply the strict heavy-A gate, WORKING_GEO and central KML requirements
+    expected_git_blob_sha: f551c60302252c42d249ce142d2dc58d5cc1c0fb
+  - path: knowledge/places/location_blocks.yaml
+    reason: global non-overlapping LOCATION_ID block registry
+    task: validate 200-299, 300-399 and 400-499 and do not reserve new blocks
+    expected_git_blob_sha: 17ea08ec7e62eb08f2c03565d6c659a1df0957f5
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/manifest.yaml
+    reason: authoritative predecessor inventory, counts and self-validation
+    task: challenge and independently validate the complete BRONS package
+    expected_git_blob_sha: 110f247c3576452edc8b5926e9e94fa6bf3f61d4
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/report/INDEX.md
+    reason: mandatory report reading order
+    task: read all corridor report parts in order
+    expected_git_blob_sha: c80b19da75f0b10b96c73e165681afc77e9890f7
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/report/01_corridors_and_transport.md
+    reason: complete route and transport comparison
+    task: independently verify current and date-sensitive road, rail and combined options
+    expected_git_blob_sha: e93c803cb702940f978e9b664d5b2925d51fdf54
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/report/02_stations_cities_and_route_zones.md
+    reason: city, station and route-zone coverage
+    task: verify geometry, station identity and detour classes
+    expected_git_blob_sha: e23ea3f90b2184ae178f698564ab1e4b928848b0
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/report/03_heavy_a_gate_candidates.md
+    reason: strict heavy-A candidate conclusions
+    task: attack YSS Noida, Kankhal, Bareilly and Soron for inflation or missed significance
+    expected_git_blob_sha: c5c7b36ff319272a09fec1986429a005d1fa6e9a
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/report/04_detector_and_negative_search.md
+    reason: detector and negative-search narrative
+    task: verify complete TOP_X, AOAY, lineage, Krishna and India-Essential coverage
+    expected_git_blob_sha: d545d4853fa15ca8228e335bd0d17860a8be5d6f
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/report/05_working_geo_and_map_readiness.md
+    reason: GEO and practical map readiness assessment
+    task: verify point identities, status labels and KML exclusions
+    expected_git_blob_sha: 067dcb3f8bc3d58ff5f8325683fdacea7816df70
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/report/06_conclusion_and_gate.md
+    reason: predecessor decision and quality-gate conclusion
+    task: test whether DOORREIZEN_NAAR_KUMAON remains supported
+    expected_git_blob_sha: 19cfe0d3afcb6f601f4d31d22833746cffb899b4
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/claims.jsonl
+    reason: atomic predecessor claims
+    task: open every material source and correct claim status or wording when required
+    expected_git_blob_sha: ab4c8a98a3e3e97f0f06bfb41b23f8446ddb51b3
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/sources/registry.jsonl
+    reason: accepted source registry
+    task: replace secondary timetable and identity leads with stronger current sources where available
+    expected_git_blob_sha: ec1f4a97c82095310e659ec2128c6dac78b1df6c
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/sources/rejected.jsonl
+    reason: rejected-source and negative-search register
+    task: preserve rejection reasons and seek valid replacements without reusing weak sources
+    expected_git_blob_sha: 10c0a470bc594f93d3ba7f08800f3fd4f9383fc6
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/route_corridors.jsonl
+    reason: machine-readable corridor comparison
+    task: verify route geometry, time classes, same-day feasibility and detours
+    expected_git_blob_sha: b41f512f515b45ff8087646c620e309d5c6c9743
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/transport_options.jsonl
+    reason: date-sensitive road, rail and helicopter leads
+    task: verify official operating status, frequency and booking logic
+    expected_git_blob_sha: 11412abeeef27a1946165c2cfd9aed3757a7ae31
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/route_zones.jsonl
+    reason: complete per-zone decision coverage
+    task: verify every route zone has a defensible gate and overnight conclusion
+    expected_git_blob_sha: 64325d504848e3dcfc5945c2ce4b3008ff3cb48e
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/heavy_a_gate.jsonl
+    reason: machine-readable strict gate records
+    task: independently retest every pass, fail and exception classification
+    expected_git_blob_sha: a8d01110153ef801d80edb92450d5646e4bdb71c
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/detector_checks.jsonl
+    reason: required detector coverage
+    task: verify no relevant direct-line or India-Essential physical place was missed
+    expected_git_blob_sha: be6446a6a45f95f62c0ac92163bc4ded4b56c33e
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/negative_searches.jsonl
+    reason: explicit negative search evidence by route zone
+    task: repeat and strengthen material negative searches without treating absence as proof
+    expected_git_blob_sha: d9cd94777abc4b4cf204bd7f8bbf16c0e33a3e44
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/working_geo.jsonl
+    reason: forty practical WORKING points
+    task: check identity, same-name risk, point type and reasonable 50-500 metre accuracy
+    expected_git_blob_sha: 6202166552b2e6e3f5b124c3ad01282d18fdd32f
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/location_assignments.jsonl
+    reason: new corridor LOCATION_ID assignments 300-315
+    task: verify permanence, uniqueness and candidate mapping
+    expected_git_blob_sha: 8710591ffada0ce7578af3cd39e9d53c3a387d8a
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/location_id_requests.jsonl
+    reason: unreserved cluster requests retained without invented IDs
+    task: validate requests but do not reserve new blocks during ZILVER
+    expected_git_blob_sha: a52fda3b3038b49ebb58f431419194fd865d431f
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/central_map_source.jsonl
+    reason: complete 51-record central map source
+    task: verify all formal statuses, labels, GEO data and map-layer semantics
+    expected_git_blob_sha: 01c6af5151426399b1fb68f8dc4f798497206dd3
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/corridor_working.kml
+    reason: provisional practical KML generated from assigned WORKING points
+    task: validate XML, 40 placemarks, colours, labels, exclusions and layer semantics
+    expected_git_blob_sha: 4194c756b8ec4c4eb8771310bf2766a45dbe8735
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/formal_status_coverage.md
+    reason: formal status and LOCATION_ID coverage audit
+    task: verify all 28 A, 2 B and 4 C inputs remain unchanged
+    expected_git_blob_sha: 0829c3dd8def2041af67b27f137eae69ac549afb
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/audit.md
+    reason: predecessor self-audit
+    task: challenge rather than merely accept the validation claims
+    expected_git_blob_sha: 066a7e5ad83c7acdfe53dbf96af20b11800d46e7
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/handoff.yaml
+    reason: risk-based layer status and successor instructions
+    task: reopen every OPEN layer and all high-risk claims
+    expected_git_blob_sha: 8d3ebe418a7923ff97a672267d3e44f7cfa87978
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/COMPLETED
+    reason: definitive BRONS completion declaration
+    task: confirm PARTIAL status, artifact inventory and open gaps
+    expected_git_blob_sha: 8ce306cfa7be35345d6ea1bd9f5bea7a8d99aa78
+optional_files: []
+forbidden_files:
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/**
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/**
+  - research/completed/**
+  - pipeline/**/PARELS/**
+priority_order:
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/manifest.yaml
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/handoff.yaml
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/report/INDEX.md
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/claims.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/sources/registry.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/working_geo.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/central_map_source.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/corridor_working.kml
+maximum_context_budget:
+  files: 50
+  lines_per_file: 1500
+extension_reason: >-
+  The corridor package has multiple high-risk OPEN layers and a mandatory map product. Full predecessor loss control is required
+  for route, heavy-A, negative-search, WORKING_GEO, formal-status and KML verification.
+predecessor_manifest: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/manifest.yaml
+output_path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/
+known_predecessor_status: PARTIAL
+required_focus:
+  - Independently verify every carrying transport and corridor claim, using official or primary current sources where available.
+  - Verify the December 2026 status of trains 12040/12039, 15035/15036 and 15055, plus current Moradabad connections.
+  - Recalculate direct-road and comparison-route time classes with current routing evidence and retain winter/fog uncertainty.
+  - Retest every heavy-A pass, fail and exception; ordinary local or regional places must not be inflated.
+  - Repeat the material negative searches and explicitly preserve honest negative results.
+  - Verify all forty WORKING_GEO records for intended physical identity and reasonable point placement; exact entrances are preferred but not a release prerequisite.
+  - Correct the map-layer semantic defect: BRONS placed two already-formal B records in B_ADVIES while scope permits B_ADVIES only for non-formal advisory B. Preserve Mark's formal B statuses and make the resulting map semantics unambiguous without assigning new advisory B.
+  - Strengthen Anandamayi Ma Samadhi, Kankhal with a primary institutional source or preserve the limitation explicitly.
+  - Validate all LOCATION_ID assignments and block requests without reserving new cluster blocks.
+  - Produce a complete corrected ZILVER dataset and KML where technically valid, preserving every formal status and all valid BRONS content.
+  - Do not activate PARELS, assign formal or advisory A/B/C, choose hotels, create GOUD context or modify pipeline architecture.
+END_OF_ARTIFACT
