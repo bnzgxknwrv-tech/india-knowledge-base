@@ -64,9 +64,9 @@ validation:
   required_context_files_fully_read: true
   required_context_hashes_match: true
   forbidden_files_used: false
-  required_outputs_present: pending_final_reopen
-  text_sentinels_checked: pending_final_reopen
-  kml_xml_closing_checked: pending_final_reopen
+  required_outputs_present: true
+  text_sentinels_checked: true
+  kml_xml_closing_checked: true
   kml_manifest_hash_recorded: true
   source_id_references_valid: true
   source_ids_unique_across_registers: true
