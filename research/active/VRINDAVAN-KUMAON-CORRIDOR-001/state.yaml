@@ -1,9 +1,15 @@
 run_id: VRINDAVAN-KUMAON-CORRIDOR-001
-state: READY_FOR_BRONS
-active_role: null
-claim: null
-last_event_id: EVT-0001
-last_validated_commit: d59b5faa759fb2b8bc672f03856df433ad9be0fd
+state: BRONS_CLAIMED
+active_role: BRONS
+claim:
+  role: BRONS
+  claimed_by: ChatGPT-BRONS
+  claimed_at: 2026-07-16T11:17:00+02:00
+  source_commit: 8a734669910e51d9805c2179fa610b3a05f9f6bb
+  expected_state: READY_FOR_BRONS
+  output_path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/
+last_event_id: EVT-0002
+last_validated_commit: 8a734669910e51d9805c2179fa610b3a05f9f6bb
 blockers: []
 context_profile: BRONS_MIN_ROUTE_EXTENDED
 active_context_manifest: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/context/BRONS_CONTEXT.yaml
