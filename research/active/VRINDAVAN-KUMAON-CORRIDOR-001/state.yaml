@@ -3,7 +3,7 @@ state: READY_FOR_BRONS
 active_role: null
 claim: null
 last_event_id: EVT-0001
-last_validated_commit: dbb9a3609226012e3838e96926bfd5d670b310e4
+last_validated_commit: d59b5faa759fb2b8bc672f03856df433ad9be0fd
 blockers: []
 context_profile: BRONS_MIN_ROUTE_EXTENDED
 active_context_manifest: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/context/BRONS_CONTEXT.yaml
