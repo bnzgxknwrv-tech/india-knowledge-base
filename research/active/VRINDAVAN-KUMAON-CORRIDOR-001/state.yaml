@@ -1,0 +1,18 @@
+run_id: VRINDAVAN-KUMAON-CORRIDOR-001
+state: READY_FOR_BRONS
+active_role: null
+claim: null
+last_event_id: EVT-0001
+last_validated_commit: bea4af0cad8b47ca4a01e82a9ee9dc702009b131
+blockers: []
+context_profile: BRONS_MIN_ROUTE_EXTENDED
+active_context_manifest: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/context/BRONS_CONTEXT.yaml
+location_id_blocks:
+  braj: 200-299
+  corridor: 300-399
+  kumaon: 400-499
+working_geo: true
+central_kml_required: true
+parels_layer_active: false
+parallel_writers_allowed: false
+END_OF_ARTIFACT
