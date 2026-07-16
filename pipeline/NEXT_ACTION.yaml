@@ -1,10 +1,10 @@
 schema_version: 2
 run_id: VRINDAVAN-KUMAON-CORRIDOR-001
-action_id: VRINDAVAN-KUMAON-CORRIDOR-001-BRONS-001
+action_id: VRINDAVAN-KUMAON-CORRIDOR-001-ZILVER-001
 status: READY
-route: BRONS
-expected_state: READY_FOR_BRONS
-context_manifest: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/context/BRONS_CONTEXT.yaml
+route: ZILVER
+expected_state: READY_FOR_ZILVER
+context_manifest: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/context/ZILVER_CONTEXT.yaml
 entrypoint: pipeline/ENTRYPOINT.md
 operating_mode: CONTROLLED_MANUAL_FAST
 required_connector:
@@ -16,18 +16,18 @@ mandatory_first_instruction: >-
   zowel GitHub-read als GitHub-write voor repository bnzgxknwrv-tech/india-knowledge-base. Ontbreekt read of write,
   antwoord dan uitsluitend: MARK: IK MIS GITHUB CONNECTOR! Ga alleen verder wanneer beide aantoonbaar werken.
 instruction: >-
-  Execute only the VRINDAVAN-KUMAON-CORRIDOR-001 BRONS action from the pinned BRONS_MIN_ROUTE_EXTENDED context.
-  Determine the fastest and most logical road, rail or combined corridor from the two formal Vrindavan A anchors to
-  the formal Kumaon A cluster. Compare Moradabad/Rampur/Rudrapur/Lal Kuan/Haldwani/Kathgodam, Kasganj/Bareilly/Lal Kuan,
-  logical Mathura rail options, Delhi only as a comparison, and any demonstrably better corridor. Search broadly but
-  pass only candidates that meet the strict direct-personal-line or India-Essential heavy-A gate. Apply the five-part
-  Krishna rule, record negative searches per city and route zone, use reserved LOCATION_ID blocks 300-399 and 400-499,
-  fill labelled WORKING or VERIFIED GEO points, and produce the full map-ready source plus a provisional corridor KML
-  when technically valid. Preserve all formal statuses and Braj IDs 200-228. Do not assign formal or advisory A/B/C,
-  activate PARELS, choose hotels, build unrelated route stages, create successor contexts or modify pipeline architecture.
-  Use the long-running checkpoint protocol before context exhaustion. Complete every BRONS artifact and stop for SUBREGIE validation.
+  Execute only the VRINDAVAN-KUMAON-CORRIDOR-001 ZILVER action from the pinned ZILVER_MIN context. Independently
+  verify every carrying transport and corridor claim, official December 2026 train operation where currently knowable,
+  current route geometry and time classes, winter uncertainty, the strict heavy-A gate, all material negative searches,
+  forty WORKING_GEO identities and point placements, Kankhal institutional support, LOCATION_ID integrity, the complete
+  central map source and provisional KML. Correct the semantic defect in which BRONS placed already-formal B records in
+  B_ADVIES even though that layer is non-formal advisory only; preserve Mark's formal B statuses and assign no new advice.
+  Exact visitor entrances are preferred but not a release prerequisite under WORKING_GEO. Preserve valid BRONS content,
+  all formal statuses and permanent IDs. Do not reserve new blocks, activate PARELS, assign formal or advisory A/B/C,
+  choose hotels, create GOUD context or modify pipeline architecture. Use controlled checkpoints before context exhaustion.
+  Produce the complete ZILVER version and stop for SUBREGIE validation.
 completion_destination: VOOR_SUBREGIE_INDIA
 created_by: SUBREGIE_INDIA
-created_at: 2026-07-16T10:00:00+02:00
-source_commit: 8a734669910e51d9805c2179fa610b3a05f9f6bb
+created_at: 2026-07-16T12:22:00+02:00
+source_commit: 60d87c0869584c2c89a3a19a626b65b496e1a2c9
 END_OF_ARTIFACT
