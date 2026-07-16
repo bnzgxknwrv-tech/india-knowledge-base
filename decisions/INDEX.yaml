@@ -69,5 +69,15 @@ entries:
     date: 2026-07-15
     status: ACTIVE
     supersedes: []
+  - id: DECISION-0014
+    path: decisions/DECISION-0014-corridor-strict-a-working-geo-and-kml.md
+    date: 2026-07-16
+    status: ACTIVE
+    supersedes: []
+    clarifies:
+      - DECISION-0003
+      - DECISION-0005
+      - DECISION-0009
+      - DECISION-0013
 
 END_OF_ARTIFACT
