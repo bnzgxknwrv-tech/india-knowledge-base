@@ -1,8 +1,14 @@
 run_id: VRINDAVAN-KUMAON-CORRIDOR-001
 state: BRONS_COMPLETE
 active_role: null
-claim: null
-last_event_id: EVT-0003
+claim:
+  transition: BRONS_COMPLETE_TO_READY_FOR_ZILVER
+  claimed_by: SUBREGIE_INDIA
+  claimed_at: 2026-07-16T12:18:00+02:00
+  source_commit: 60d87c0869584c2c89a3a19a626b65b496e1a2c9
+  expected_state: BRONS_COMPLETE
+  target_context_manifest: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/context/ZILVER_CONTEXT.yaml
+last_event_id: EVT-0004
 last_validated_commit: 899ac84f55f8b1616f7cdfc947f79a0236e58505
 blockers:
   - Official December 2026 train operation remains to be verified.
@@ -10,6 +16,7 @@ blockers:
   - WORKING_GEO identity and visitor entrances remain to be verified.
   - Kankhal institutional primary verification remains open.
   - Missing cluster block reservations prevent definitive complete-project KML release.
+  - BRONS B_ADVIES layer contains already-formal B records and requires ZILVER semantic correction.
 context_profile: BRONS_MIN_ROUTE_EXTENDED
 active_context_manifest: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/context/BRONS_CONTEXT.yaml
 location_id_blocks:
