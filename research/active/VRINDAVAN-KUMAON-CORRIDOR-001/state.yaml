@@ -1,16 +1,15 @@
 run_id: VRINDAVAN-KUMAON-CORRIDOR-001
-state: BRONS_CLAIMED
-active_role: BRONS
-claim:
-  role: BRONS
-  claimed_by: ChatGPT-BRONS
-  claimed_at: 2026-07-16T11:17:00+02:00
-  source_commit: 8a734669910e51d9805c2179fa610b3a05f9f6bb
-  expected_state: READY_FOR_BRONS
-  output_path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/
-last_event_id: EVT-0002
-last_validated_commit: 8a734669910e51d9805c2179fa610b3a05f9f6bb
-blockers: []
+state: BRONS_COMPLETE
+active_role: null
+claim: null
+last_event_id: EVT-0003
+last_validated_commit: 899ac84f55f8b1616f7cdfc947f79a0236e58505
+blockers:
+  - Official December 2026 train operation remains to be verified.
+  - Live winter road timing and conditions remain to be verified.
+  - WORKING_GEO identity and visitor entrances remain to be verified.
+  - Kankhal institutional primary verification remains open.
+  - Missing cluster block reservations prevent definitive complete-project KML release.
 context_profile: BRONS_MIN_ROUTE_EXTENDED
 active_context_manifest: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/context/BRONS_CONTEXT.yaml
 location_id_blocks:
