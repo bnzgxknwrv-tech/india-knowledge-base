@@ -1,23 +1,33 @@
 schema_version: 2
-run_id: BRAJ-COMPLETE-001
-action_id: BRAJ-COMPLETE-001-INDIA2-001
+run_id: VRINDAVAN-KUMAON-CORRIDOR-001
+action_id: VRINDAVAN-KUMAON-CORRIDOR-001-BRONS-001
 status: READY
-route: INDIA2
-expected_state: GOUD_PARTIAL
+route: BRONS
+expected_state: READY_FOR_BRONS
+context_manifest: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/context/BRONS_CONTEXT.yaml
 entrypoint: pipeline/ENTRYPOINT.md
 operating_mode: CONTROLLED_MANUAL_FAST
 required_connector:
   github_read: true
-  github_write: false
+  github_write: true
+mandatory_first_instruction: >-
+  Activeer in deze chat onmiddellijk de GitHub-connector en houd deze gedurende de volledige uitvoering beschikbaar.
+  Dit onderzoek gebruikt GitHub als enige bron van waarheid en overdrachtskanaal. Test vóór ieder inhoudelijk werk
+  zowel GitHub-read als GitHub-write voor repository bnzgxknwrv-tech/india-knowledge-base. Ontbreekt read of write,
+  antwoord dan uitsluitend: MARK: IK MIS GITHUB CONNECTOR! Ga alleen verder wanneer beide aantoonbaar werken.
 instruction: >-
-  Read research/active/BRAJ-COMPLETE-001/transitions/GOUD_FINAL_VALIDATION.md first, then read
-  research/active/BRAJ-COMPLETE-001/GOUD/decision_inputs.md and the GOUD report index and supporting artifacts named there.
-  Produce one compact Dutch decision report for Mark covering all 29 Braj candidates with the same permanent LOCATION_IDs
-  200-228. Clearly separate confirmed content, practical checks, unresolved GEO identity or coordinate gaps, and route relevance.
-  INDIA2 may give advisory A/B/C, but only Mark may assign formal A/B/C. Do not create KML from unverified points and do not
-  present absent WGS84 data as mapped. Do not discuss commits, claims, state, events or protocols in Mark's report.
-completion_destination: VOOR_MARK
+  Execute only the VRINDAVAN-KUMAON-CORRIDOR-001 BRONS action from the pinned BRONS_MIN_ROUTE_EXTENDED context.
+  Determine the fastest and most logical road, rail or combined corridor from the two formal Vrindavan A anchors to
+  the formal Kumaon A cluster. Compare Moradabad/Rampur/Rudrapur/Lal Kuan/Haldwani/Kathgodam, Kasganj/Bareilly/Lal Kuan,
+  logical Mathura rail options, Delhi only as a comparison, and any demonstrably better corridor. Search broadly but
+  pass only candidates that meet the strict direct-personal-line or India-Essential heavy-A gate. Apply the five-part
+  Krishna rule, record negative searches per city and route zone, use reserved LOCATION_ID blocks 300-399 and 400-499,
+  fill labelled WORKING or VERIFIED GEO points, and produce the full map-ready source plus a provisional corridor KML
+  when technically valid. Preserve all formal statuses and Braj IDs 200-228. Do not assign formal or advisory A/B/C,
+  activate PARELS, choose hotels, build unrelated route stages, create successor contexts or modify pipeline architecture.
+  Use the long-running checkpoint protocol before context exhaustion. Complete every BRONS artifact and stop for SUBREGIE validation.
+completion_destination: VOOR_SUBREGIE_INDIA
 created_by: SUBREGIE_INDIA
-created_at: 2026-07-15T16:05:00+02:00
-source_commit: 298df490772c573d5489c6d8250d283415ba784e
+created_at: 2026-07-16T10:00:00+02:00
+source_commit: 8a734669910e51d9805c2179fa610b3a05f9f6bb
 END_OF_ARTIFACT

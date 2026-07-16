@@ -1,0 +1,154 @@
+schema_version: 1
+run_id: VRINDAVAN-KUMAON-CORRIDOR-001
+policy:
+  global_blocks: knowledge/places/location_blocks.yaml
+  permanent_ids_never_change: true
+  reuse_forbidden: true
+  cross_block_assignment_forbidden: true
+  first_published_assignment_becomes_permanent: true
+existing_assignments:
+  BRAJ:
+    block: 200-299
+    assigned: 200-228
+    authority: research/active/BRAJ-COMPLETE-001/GOUD/location_id_audit.md
+reserved_blocks:
+  VRINDAVAN_KUMAON_CORRIDOR:
+    block: 300-399
+    next_free: "300"
+    assignment_authority: BRONS_WITHIN_RESERVED_RUN_BLOCK
+    assignment_rule: >-
+      Assign sequentially only after a specific physical station, city transport node, route object or spiritual candidate
+      has been identified. Record every assignment in location_assignments.jsonl before use elsewhere. Once committed,
+      the ID is permanent even if the candidate later becomes context-only or rejected for visiting.
+  KUMAON:
+    block: 400-499
+    next_free_after_seed: "427"
+    assignment_authority: SUBREGIE_SEED_THEN_BRONS_WITHIN_RESERVED_RUN_BLOCK
+kumaon_seed_assignments:
+  - location_id: "400"
+    legacy_id: "15"
+    name: Babaji Cave
+    formal_status: A
+  - location_id: "401"
+    legacy_id: "16"
+    name: Babaji Smriti Bhavan
+    formal_status: A
+  - location_id: "402"
+    legacy_id: "17"
+    name: Dunagiri Tempel
+    formal_status: A
+  - location_id: "403"
+    legacy_id: "18"
+    name: YSS Dwarahat Ashram
+    formal_status: A
+  - location_id: "404"
+    legacy_id: "19"
+    name: Kainchi Dham
+    formal_status: A
+  - location_id: "405"
+    legacy_id: "20"
+    name: Kasar Devi
+    formal_status: A
+  - location_id: "406"
+    legacy_id: "21"
+    name: Crank's Ridge
+    formal_status: A
+  - location_id: "407"
+    legacy_id: "22"
+    name: Kakrighat / Karkateshwar Mahadev
+    formal_status: A
+  - location_id: "408"
+    legacy_id: "23"
+    name: Jageshwar
+    formal_status: A
+  - location_id: "409"
+    legacy_id: "24"
+    name: Hanuman Garhi
+    formal_status: A
+  - location_id: "410"
+    legacy_id: "25"
+    name: Hotel Evelyn
+    formal_status: U
+    record_type: CLUSTER_ANCHOR
+  - location_id: "411"
+    legacy_id: "26"
+    name: KK Sah huis
+    formal_status: U
+  - location_id: "412"
+    legacy_id: "27"
+    name: Bhumiyadhar, eerste ontmoeting Ram Dass en Maharaj-ji
+    formal_status: A
+  - location_id: "413"
+    legacy_id: "29"
+    name: Ramakrishna Kutir
+    formal_status: A
+  - location_id: "414"
+    legacy_id: "30"
+    name: Chitai Golu Devta Temple
+    formal_status: A
+  - location_id: "415"
+    legacy_id: "31"
+    name: Mirtola / Krishnaprem Ashram
+    formal_status: C
+  - location_id: "416"
+    legacy_id: "32"
+    name: Binsar Wildlife Sanctuary
+    formal_status: C
+  - location_id: "417"
+    legacy_id: "33"
+    name: Patal Bhuvaneshwar
+    formal_status: C
+  - location_id: "418"
+    legacy_id: "34"
+    name: Naina Devi Mandir
+    formal_status: U
+  - location_id: "419"
+    legacy_id: "35"
+    name: Lala Badri Shah House
+    formal_status: U
+  - location_id: "420"
+    legacy_id: "36"
+    name: Turiya Niwas
+    formal_status: A
+    record_type: PLACE_AND_CLUSTER_ANCHOR
+  - location_id: "421"
+    legacy_id: "37"
+    name: Bodh Ashram
+    formal_status: A
+  - location_id: "422"
+    legacy_id: "38"
+    name: Daulchina / Dhaulchina Ashram
+    formal_status: C
+  - location_id: "423"
+    legacy_id: "46"
+    name: Haidakhan Babaji Ashram / Haidakhan Vishwa Mahadham
+    formal_status: A
+  - location_id: "424"
+    legacy_id: null
+    name: Ghorakhal Temple
+    formal_status: B
+  - location_id: "425"
+    legacy_id: null
+    name: Patal Devi Ashram / Tempel
+    formal_status: U
+  - location_id: "426"
+    legacy_id: null
+    name: Exacte Vivekananda-grot bij Kasar Devi
+    formal_status: U
+    record_type: REFINEMENT_CANDIDATE
+validation:
+  seed_count: 27
+  seed_min: "400"
+  seed_max: "426"
+  duplicate_ids: false
+  overlaps_braj: false
+  overlaps_corridor: false
+remaining_ranges:
+  corridor: 300-399
+  kumaon: 427-499
+other_clusters:
+  rule: >-
+    Formal A, B or C locations outside Delhi, Braj, corridor and Kumaon remain mandatory in central_map_source.jsonl.
+    When no permanent cluster block exists, record BLOCK_RESERVATION_REQUIRED in location_id_requests.jsonl and never
+    invent a temporary permanent ID. A definitive full-project KML is released only after SUBREGIE reserves those blocks.
+END_OF_ARTIFACT
