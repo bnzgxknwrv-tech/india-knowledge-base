@@ -1,0 +1,54 @@
+schema_version: 1
+run_id: VRINDAVAN-KUMAON-CORRIDOR-001
+role: BRONS
+output_path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS
+required_text_artifacts:
+  - manifest.yaml
+  - report/INDEX.md
+  - report/01_corridors_and_transport.md
+  - report/02_stations_cities_and_route_zones.md
+  - report/03_heavy_a_gate_candidates.md
+  - report/04_detector_and_negative_search.md
+  - report/05_working_geo_and_map_readiness.md
+  - report/06_conclusion_and_gate.md
+  - claims.jsonl
+  - sources/registry.jsonl
+  - sources/rejected.jsonl
+  - route_corridors.jsonl
+  - transport_options.jsonl
+  - route_zones.jsonl
+  - heavy_a_gate.jsonl
+  - detector_checks.jsonl
+  - negative_searches.jsonl
+  - working_geo.jsonl
+  - location_assignments.jsonl
+  - location_id_requests.jsonl
+  - central_map_source.jsonl
+  - formal_status_coverage.md
+  - audit.md
+  - handoff.yaml
+  - COMPLETED
+conditional_artifacts:
+  - path: corridor_working.kml
+    condition: technically valid KML can be generated from assigned LOCATION_IDs and WORKING or VERIFIED points
+    completeness_rule: valid XML closing tags and manifest hash; END_OF_ARTIFACT is not inserted inside XML
+  - path: KML_DEFERRED.md
+    condition: corridor_working.kml cannot be generated reliably
+    requirement: full deterministic conversion instructions and exact blocking records; no new research may be needed later
+standard_optional_but_expected_when_material_exists:
+  - images.jsonl
+  - experience_reviews.jsonl
+  - proximity.jsonl
+validation:
+  all_jsonl_ids_unique: true
+  source_references_resolve_once: true
+  location_ids_unique_and_in_reserved_block: true
+  all_formal_statuses_covered: true
+  all_route_zones_have_negative_search_result: true
+  all_transport_claims_have_source_and_checked_at: true
+  every_geo_record_has_status_point_type_accuracy_and_source: true
+  no_formal_or_advisory_abc_assigned: true
+  parels_forbidden: true
+  successor_context_forbidden: true
+  checkpoint_protocol_required: true
+END_OF_ARTIFACT
