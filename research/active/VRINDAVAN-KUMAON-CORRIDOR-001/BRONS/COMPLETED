@@ -1,0 +1,41 @@
+PARTIAL
+run_id: VRINDAVAN-KUMAON-CORRIDOR-001
+role: BRONS
+source_commit: 8a734669910e51d9805c2179fa610b3a05f9f6bb
+corridor_result: DOORREIZEN_NAAR_KUMAON
+preferred_working_corridor: CR-001
+route_changing_heavy_a_passes: 0
+outputs:
+  - manifest.yaml
+  - report/INDEX.md
+  - report/01_corridors_and_transport.md
+  - report/02_stations_cities_and_route_zones.md
+  - report/03_heavy_a_gate_candidates.md
+  - report/04_detector_and_negative_search.md
+  - report/05_working_geo_and_map_readiness.md
+  - report/06_conclusion_and_gate.md
+  - claims.jsonl
+  - sources/registry.jsonl
+  - sources/rejected.jsonl
+  - route_corridors.jsonl
+  - transport_options.jsonl
+  - route_zones.jsonl
+  - heavy_a_gate.jsonl
+  - detector_checks.jsonl
+  - negative_searches.jsonl
+  - working_geo.jsonl
+  - location_assignments.jsonl
+  - location_id_requests.jsonl
+  - central_map_source.jsonl
+  - corridor_working.kml
+  - formal_status_coverage.md
+  - audit.md
+  - handoff.yaml
+highest_gaps:
+  - Official December 2026 train operation remains to be verified.
+  - Live winter road timing and conditions remain to be verified.
+  - WORKING_GEO identity and visitor entrances remain to be verified.
+  - Kankhal institutional primary verification remains open.
+  - Missing cluster block reservations prevent definitive complete-project KML release.
+validation: All required artifacts were reopened; END_OF_ARTIFACT sentinels and the KML XML closing were checked; claims, sources, identifiers and LOCATION_IDs are unique and valid; all formal statuses and route zones are covered; no formal or advisory A/B/C, PARELS work, hotel choice, successor context, controller transition or pipeline modification was performed.
+END_OF_ARTIFACT
