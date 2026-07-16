@@ -2,7 +2,7 @@ run_id: BRAJ-COMPLETE-001
 state: GOUD_PARTIAL
 active_role: null
 claim: null
-last_event_id: EVT-0013
+last_event_id: EVT-0014
 last_validated_commit: ac0a26fd65729690581a3356e4bf8a9c85dbefbb
 blockers:
   - Verified WGS84 visitor entrances or exact sites remain absent for all 29 candidates; LOCATION_ID 221 is identity-conflicted.
@@ -15,4 +15,7 @@ active_context_manifest: research/active/BRAJ-COMPLETE-001/context/GOUD_CONTEXT.
 location_id_block: 200-299
 geo_protocol: pipeline/protocols/GEO_LOCATION_PROTOCOL.md
 parels_layer_active: false
+india2_handoff_status: RECEIVED_BY_MARK
+india2_handoff_record: research/active/BRAJ-COMPLETE-001/transitions/INDIA2_HANDOFF_PROCESSED.md
+archived: false
 END_OF_ARTIFACT
