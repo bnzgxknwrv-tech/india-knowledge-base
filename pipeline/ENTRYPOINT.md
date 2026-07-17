@@ -1,14 +1,14 @@
-# ENTRYPOINT — BRONS / ZILVER / GOUD
+# ENTRYPOINT — BRONS / ZILVER / GOUD v3.1
 
 Dit is het enige startpunt voor een nieuwe uitvoerende AI-sessie.
 
-## Verplichte eerste instructie in iedere metaalopdracht
+## Verplichte eerste instructie
 
-Iedere startvraag aan BRONS, ZILVER of GOUD begint met deze tekst:
+Iedere startvraag aan BRONS, ZILVER of GOUD begint met:
 
 `Activeer in deze chat onmiddellijk de GitHub-connector en houd deze gedurende de volledige uitvoering beschikbaar. Dit onderzoek gebruikt GitHub als enige bron van waarheid en overdrachtskanaal. Test vóór ieder inhoudelijk werk zowel GitHub-read als GitHub-write voor repository bnzgxknwrv-tech/india-knowledge-base. Ontbreekt read of write, antwoord dan uitsluitend: MARK: IK MIS GITHUB CONNECTOR! Ga alleen verder wanneer beide aantoonbaar werken.`
 
-Een worker mag nooit beweren de connector zelf te hebben geactiveerd wanneer die niet beschikbaar is. De gebruiker activeert de connector in de chat; de worker test de feitelijke toegang.
+Een worker beweert nooit dat hij een connector in een andere chat heeft geactiveerd. De gebruiker activeert de connector; de worker test de feitelijke toegang.
 
 ## Universele activatie
 
@@ -16,13 +16,13 @@ Na de verplichte eerste instructie volstaat:
 
 `Open pipeline/ENTRYPOINT.md en voer uitsluitend de actie uit die in pipeline/NEXT_ACTION.yaml staat.`
 
-`NEXT_ACTION.yaml` bepaalt exact één run, rol, expected state en contextmanifest. Een worker leidt geen andere rol of vervolgactie af.
+`NEXT_ACTION.yaml` bepaalt exact één run, rol, expected state, contextmanifest en — uitsluitend voor nieuwe gepinde runs — één `post_completion`-actie. Een worker leidt geen andere rol of vervolgactie af.
 
 ## Verplichte volgorde
 
 1. Test GitHub-read en GitHub-write.
 2. Open `pipeline/NEXT_ACTION.yaml`.
-3. Controleer dat route, run, expected state en contextmanifest bestaan en onderling overeenstemmen.
+3. Controleer route, run, expected state, contextmanifest en eventuele `post_completion`-velden.
 4. Open `research/active/<run-id>/run.yaml` en `state.yaml`.
 5. Controleer dat geen geldige claim actief is en state/eventcursor overeenkomen.
 6. Lees het gepinde rolcontract, methodologie, evidence-protocol en quality gate.
@@ -33,13 +33,35 @@ Na de verplichte eerste instructie volstaat:
 11. Schrijf alle verplichte outputs naar het toegewezen fasepad.
 12. Valideer artifacts, bronverwijzingen, scope en sentinels.
 13. Schrijf manifest, handoff, COMPLETED, state en events.
-14. Commit de volledige fase-uitkomst en stop.
+14. Commit de volledige fase-uitkomst en voer finale readback uit.
+15. Controleer daarna uitsluitend de expliciet gepinde `post_completion`-modus:
+    - zonder geldige nieuwe pin: stop en gebruik het oude routingproces;
+    - `INLINE_POST_PHASE_CONTROLLER`: beëindig de workerrol formeel en voer daarna als afzonderlijke controllerrol het gepinde `ROLE_HANDOFF_PROTOCOL.md` en `CONTROLLER_TRANSITION_PROTOCOL.md` uit;
+    - `MARK_FINAL_REPORT`: maak als GOUD het volledige gepinde Markrapport, valideer dit en lever het rechtstreeks aan Mark.
 
-De worker maakt nooit zelf het contextmanifest van zijn opvolger. SUBREGIE INDIA of een geldige controllertransition doet dit.
+De worker maakt nooit als worker het contextmanifest van zijn opvolger. Alleen een afzonderlijke controllerrol doet dit.
+
+## Expliciete rolwissel
+
+Een sessie mag alleen naar `INLINE_POST_PHASE_CONTROLLER` wisselen wanneer `run.yaml` en `NEXT_ACTION.yaml` dit expliciet pinnen. De rolwissel vereist:
+
+- volledige workercompletion en fasecommit;
+- geen verdere fase-outputwrites;
+- nieuwe GitHub-preflight;
+- opnieuw lezen van de controllerprotocollen;
+- een afzonderlijke controllerclaim;
+- uitsluitend controllerwrites;
+- finale readback vóór een volgende startopdracht.
+
+De workerclaim wordt nooit als controllerclaim hergebruikt.
+
+## Compatibiliteit
+
+Oude, reeds gepinde of geclaimde runs worden niet stil gemigreerd. Ontbreekt een geldige `post_completion`-pin of het gepinde `ROLE_HANDOFF_PROTOCOL.md`, dan stopt BRONS of ZILVER na completion en routeert volgens het oude protocol naar SUBREGIE INDIA of een afzonderlijke controller. GOUD routeert in dat geval volgens zijn oude gepinde contract.
 
 ## Inhoudelijke prioriteit
 
-De metalen onderzoeken niet alleen bewijsbeperkingen. Iedere toekomstige plaats-sweep behandelt ook:
+Iedere toekomstige plaats-sweep behandelt ook:
 
 - waarom devotees naar de plek gaan;
 - wat mensen er werkelijk doen;
@@ -65,6 +87,6 @@ Bij ontbrekende GitHub-toegang is het volledige antwoord uitsluitend:
 
 ## Geen protocolwerk tijdens een onderzoeksfase
 
-Een uitvoerende rol wijzigt tijdens dezelfde run nooit zijn eigen rolcontract, methodologie, protocol, contextregels of schemas. Verbeteringen gebeuren na afloop via SUBREGIE INDIA en worden alleen ingevoerd wanneer zij aantoonbaar kwaliteit verhogen of Marks werk verminderen.
+Een uitvoerende rol wijzigt tijdens dezelfde run nooit zijn rolcontract, methodologie, protocol, contextregels of schemas. Nieuwe pipelineversies gelden alleen voor runs die deze vóór de eerste claim expliciet pinnen.
 
 END_OF_ARTIFACT
