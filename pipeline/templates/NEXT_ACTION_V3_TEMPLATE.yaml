@@ -1,0 +1,32 @@
+schema_version: 3
+run_id: <RUN_ID>
+action_id: <ACTION_ID>
+status: READY
+route: <BRONS|ZILVER|GOUD>
+expected_state: <READY_FOR_BRONS|READY_FOR_ZILVER|READY_FOR_GOUD>
+context_manifest: research/active/<RUN_ID>/context/<BRONS_CONTEXT.yaml|ZILVER_CONTEXT.yaml|GOUD_CONTEXT.yaml>
+entrypoint: pipeline/ENTRYPOINT.md
+operating_mode: CONTROLLED_MANUAL_INLINE_HANDOFF
+required_connector:
+  github_read: true
+  github_write: true
+mandatory_first_instruction: >-
+  Activeer in deze chat onmiddellijk de GitHub-connector en houd deze gedurende de volledige uitvoering beschikbaar.
+  Dit onderzoek gebruikt GitHub als enige bron van waarheid en overdrachtskanaal. Test vóór ieder inhoudelijk werk
+  zowel GitHub-read als GitHub-write voor repository bnzgxknwrv-tech/india-knowledge-base. Ontbreekt read of write,
+  antwoord dan uitsluitend: MARK: IK MIS GITHUB CONNECTOR! Ga alleen verder wanneer beide aantoonbaar werken.
+instruction: >-
+  <Volledige run- en rolgebonden opdracht. Geen inhoudelijke predecessoroutput in dit veld opnemen.>
+post_completion:
+  mode: <INLINE_POST_PHASE_CONTROLLER|MARK_FINAL_REPORT>
+  transition_protocol: <pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md|NOT_APPLICABLE>
+  role_handoff_protocol: pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md
+  target_role: <ZILVER|GOUD|MARK>
+  target_ready_state: <READY_FOR_ZILVER|READY_FOR_GOUD|NOT_APPLICABLE>
+  emit_next_role_handoff: <true|false>
+  report_template: <NOT_APPLICABLE|pipeline/templates/MARK_FINAL_REPORT_TEMPLATE.md>
+  completion_destination: <VOOR_VOLGEND_METAAL|VOOR_MARK>
+created_by: INDIA2
+created_at: <ISO8601>
+source_commit: <PINNED_SOURCE_COMMIT>
+END_OF_ARTIFACT
