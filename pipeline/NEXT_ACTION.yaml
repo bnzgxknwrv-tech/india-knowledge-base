@@ -1,34 +1,27 @@
 schema_version: 2
 run_id: VRINDAVAN-KUMAON-CORRIDOR-001
-action_id: VRINDAVAN-KUMAON-CORRIDOR-001-GOUD-001
+action_id: VRINDAVAN-KUMAON-CORRIDOR-001-INDIA2-001
 status: READY
-route: GOUD
-expected_state: READY_FOR_GOUD
-context_manifest: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/context/GOUD_CONTEXT.yaml
+route: INDIA2
+expected_state: GOUD_PARTIAL
 entrypoint: pipeline/ENTRYPOINT.md
 operating_mode: CONTROLLED_MANUAL_FAST
 required_connector:
   github_read: true
-  github_write: true
-mandatory_first_instruction: >-
-  Activeer in deze chat onmiddellijk de GitHub-connector en houd deze gedurende de volledige uitvoering beschikbaar.
-  Dit onderzoek gebruikt GitHub als enige bron van waarheid en overdrachtskanaal. Test vóór ieder inhoudelijk werk
-  zowel GitHub-read als GitHub-write voor repository bnzgxknwrv-tech/india-knowledge-base. Ontbreekt read of write,
-  antwoord dan uitsluitend: MARK: IK MIS GITHUB CONNECTOR! Ga alleen verder wanneer beide aantoonbaar werken.
+  github_write: false
 instruction: >-
-  Execute only the VRINDAVAN-KUMAON-CORRIDOR-001 GOUD action from the pinned schema-v2 GOUD_MIN context. Preserve
-  the separate-controller workflow and do not migrate this run to inline handoff. Synthesize and final-check the complete
-  validated ZILVER corridor package without repeating the full sweep. Preserve DOORREIZEN_NAAR_KUMAON unless targeted
-  GOUD verification finds a material contradiction. Recheck only the remaining decision-relevant gaps: exact December 2026
-  train operation where currently knowable, live winter-road and fog controls, unresolved WORKING_GEO points and external
-  cluster block requests. Preserve the strict heavy-A gate, all honest negative searches, all 40 WORKING_GEO records,
-  LOCATION_ID block purity, all 28 formal A, 2 formal B and 4 formal C records and the corrected B_FORMEEL semantics.
-  Validate the existing ZILVER central map source and forty-placemark provisional KML as immutable predecessor artifacts;
-  do not regenerate, rewrite or create a final all-project KML. Assign no formal or advisory A/B/C, reserve no new blocks,
-  activate no PARELS, choose no hotel except to state transport necessity, build no internal Kumaon day plan, create no
-  successor context and modify no pipeline architecture. Produce the complete GOUD outputs and stop for SUBREGIE validation.
-completion_destination: VOOR_SUBREGIE_INDIA
-created_by: ChatGPT-CONTROLLER
-created_at: 2026-07-18T13:32:00+02:00
-source_commit: 6cbc233b5831c0474e0eb2f06be24416130a49e7
+  Read research/active/VRINDAVAN-KUMAON-CORRIDOR-001/transitions/SUBREGIE_FINAL_VALIDATION.md first,
+  then read research/active/VRINDAVAN-KUMAON-CORRIDOR-001/transitions/INDIA2_REGISSEUR_PACKAGE.md,
+  research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/decision_inputs.md,
+  research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/report/INDEX.md and the supporting artifacts named there.
+  Produce one compact Dutch decision report for Mark that preserves DOORREIZEN_NAAR_KUMAON and all time-sensitive
+  transport and weather controls. Treat all forty points as WORKING rather than exact visitor entrances; an exact entrance
+  is not a release prerequisite. Preserve all 28 formal A, 2 formal B, 4 formal C and all existing LOCATION_IDs.
+  INDIA2 may give advisory A/B/C, but only Mark may assign formal A/B/C. Do not start new research or a new sweep,
+  create PARELS, build internal Kumaon planning, perform inline-handoff migration or create a complete-project KML.
+  Do not discuss commits, claims, state, events or protocols in Mark's report.
+completion_destination: VOOR_MARK
+created_by: SUBREGIE_INDIA
+created_at: 2026-07-18T22:44:00+02:00
+source_commit: 264bba42b299110689c3b877ce3dbae2cdcf0e6b
 END_OF_ARTIFACT

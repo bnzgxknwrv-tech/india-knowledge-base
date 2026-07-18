@@ -2,8 +2,8 @@ run_id: VRINDAVAN-KUMAON-CORRIDOR-001
 state: GOUD_PARTIAL
 active_role: null
 claim: null
-last_event_id: EVT-0013
-last_validated_commit: c06a8de2c0c8f11c2b61066a537c54638870097d
+last_event_id: EVT-0014
+last_validated_commit: 264bba42b299110689c3b877ce3dbae2cdcf0e6b
 blockers:
   - Exact December 2026 train operation and booking availability require PRS or IRCTC recheck.
   - Live winter road time, fog, weather and hill conditions require recheck near departure.
@@ -21,5 +21,5 @@ parallel_writers_allowed: false
 schema_v2_context_preserved: true
 inline_handoff_migration_performed: false
 completion_artifact_commit: c06a8de2c0c8f11c2b61066a537c54638870097d
-completion_destination: VOOR_SUBREGIE_INDIA
+completion_destination: VOOR_INDIA2
 END_OF_ARTIFACT
