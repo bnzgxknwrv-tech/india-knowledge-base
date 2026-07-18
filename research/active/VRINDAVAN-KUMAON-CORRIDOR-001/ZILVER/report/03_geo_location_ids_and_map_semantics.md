@@ -16,7 +16,7 @@ De onafhankelijke controle vond dat vier Dwarahat-objecten in BRONS te dicht bij
 Andere materiële correcties:
 
 - Neem Karoli Baba Ashram Vrindavan: 27.567400, 77.692150;
-- Radha Raman Temple: 27.585250, 77.698570;
+- Radha Raman Temple: 27.585380, 77.698730;
 - Kainchi Dham: 29.422550, 79.512450;
 - Kasar Devi Temple: 29.641600, 79.661540;
 - Kakrighat representatief punt: 29.543710, 79.532740;
