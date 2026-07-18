@@ -1,4 +1,4 @@
-# Execution Protocol v2.3.0
+# Execution Protocol v2.3.1
 
 ## 1. Repository-only handoff
 
@@ -21,6 +21,7 @@ Nieuwe inline-handoffruns pinnen tevens:
 - `pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md`;
 - `pipeline/templates/NEXT_ROLE_HANDOFF_TEMPLATE.md`;
 - `pipeline/templates/MARK_FINAL_REPORT_TEMPLATE.md`;
+- `pipeline/templates/CANONICAL_INTEGRATION_PROPOSAL_TEMPLATE.md`;
 - `pipeline/templates/NEXT_ACTION_V3_TEMPLATE.yaml`.
 
 Ontbreken deze pins, dan geldt het oude proces.
@@ -37,7 +38,7 @@ Een overgang is alleen geldig wanneer:
 3. verplichte output voor de overgang bestaat en is gevalideerd;
 4. voor `READY_FOR_ZILVER` of `READY_FOR_GOUD` het definitieve contextmanifest door een controller is gegenereerd en gepind.
 
-## 4. Claim-lock
+## 4. Claim-lock en claimsluiting
 
 Voor inhoudelijk werk schrijft de worker een claim in `state.yaml` en een `CLAIMED`-event met:
 - `role`;
@@ -45,11 +46,20 @@ Voor inhoudelijk werk schrijft de worker een claim in `state.yaml` en een `CLAIM
 - `claimed_at`;
 - `source_commit`;
 - `expected_state`;
-- `output_path`.
+- `output_path`;
+- `claim_status: ACTIVE`.
 
-Claims verlopen niet automatisch. Overname vereist expliciete activatie door Mark of een controller en een `CLAIM_OVERRIDDEN`-event met reden.
+Claims verlopen niet automatisch. Overname van een actieve claim vereist expliciete activatie door Mark of een controller en een `CLAIM_OVERRIDDEN`-event met reden.
 
-Controllertransitions gebruiken altijd een afzonderlijke transitionclaim. Een workerclaim wordt nooit hergebruikt.
+Bij geldige fasecompletion moet dezelfde workerclaim in dezelfde completioncommit aantoonbaar worden gesloten met:
+- `claim_status: CLOSED`;
+- `claim_closed_at`;
+- `completion_commit`;
+- `completion_result: PASS|PARTIAL|BLOCKED`.
+
+Het completionevent noemt dezelfde claimsluiting. Een claim met `claim_status: CLOSED` blokkeert geen opvolgende controllerclaim. Een ontbrekende, tegenstrijdige of nog `ACTIVE` workerclaim blokkeert iedere inline transition.
+
+Controllertransitions gebruiken altijd een afzonderlijke transitionclaim met `claim_status: ACTIVE`. Een workerclaim wordt nooit hergebruikt.
 
 ## 5. Source-commit pinning
 
@@ -57,7 +67,7 @@ Controllertransitions gebruiken altijd een afzonderlijke transitionclaim. Een wo
 
 Een verschil tussen `source_commit` en branch-head is op zichzelf geen fout. Materiële inputdrift is wel een stopvoorwaarde: ontbrekend of afgekapt required bestand, afwijkende hash, state/event-desynchronisatie of ongeldig contextmanifest.
 
-Na claimen schrijft de worker alleen naar zijn eigen fase-output en de overeengekomen state/eventbestanden.
+Na claimen schrijft de worker alleen naar zijn eigen fase-output en de overeengekomen state/eventbestanden, behalve de expliciet gepinde GOUD-integratiescope uit sectie 9.3.
 
 ## 6. Fase-output
 
@@ -77,10 +87,8 @@ Geen primair fasebestand is groter dan 1500 regels. Splits eerder wanneer leesba
 `REPORT_ASSEMBLED.md` is optioneel en nooit de primaire opvolgerinvoer.
 
 GOUD schrijft bij een gepinde `MARK_FINAL_REPORT`-modus aanvullend:
-
-`research/active/<RUN_ID>/GOUD/MARK_FINAL_REPORT.md`
-
-volgens het gepinde template.
+- `research/active/<RUN_ID>/GOUD/MARK_FINAL_REPORT.md`;
+- `research/active/<RUN_ID>/GOUD/CANONICAL_INTEGRATION_PROPOSAL.md`.
 
 ## 7. Volledigheid en truncatie
 
@@ -118,11 +126,27 @@ Zonder geldige nieuwe pins stopt BRONS na `BRONS_COMPLETE` en ZILVER na `ZILVER_
 
 Wanneer `run.yaml` en `NEXT_ACTION.yaml` dit expliciet toestaan, mag dezelfde sessie na volledige workercompletion een afzonderlijke controllerrol starten volgens `ROLE_HANDOFF_PROTOCOL.md`.
 
-De workerrol moet eerst aantoonbaar eindigen. Daarna zijn fase-outputwrites verboden. De sessie herhaalt GitHub-preflight, leest de controllerprotocollen opnieuw, schrijft een afzonderlijke controllerclaim en voert alleen controllerwrites uit.
+De workerrol moet eerst aantoonbaar eindigen. De workerclaim moet `CLOSED` zijn. Daarna zijn fase-outputwrites verboden. De sessie herhaalt GitHub-preflight, leest de controllerprotocollen opnieuw, schrijft een afzonderlijke controllerclaim en voert alleen controllerwrites uit.
 
-### 9.3 `MARK_FINAL_REPORT`
+### 9.3 `MARK_FINAL_REPORT` met deterministische canonieke integratie
 
-GOUD schrijft, commit en herleest het volledige Markrapport. Bij geldige `PASS` of `PARTIAL` toont GOUD het volledige rapport rechtstreeks aan Mark. Alleen echte technische blockers gaan naar SUBREGIE INDIA en echte inhoudelijke regisseursbeslissingen naar INDIA2.
+GOUD schrijft eerst een volledig `CANONICAL_INTEGRATION_PROPOSAL.md`. Alleen wanneer `run.yaml` en `NEXT_ACTION.yaml` expliciet `canonical_integration.mode: DETERMINISTIC_NON_DECISIONAL` pinnen, mag GOUD vóór completion de exact voorgestelde canonieke writes uitvoeren naar:
+- `knowledge/places/registry.jsonl`;
+- `decisions/INDEX.yaml`.
+
+Deze uitzonderlijke GOUD-write-scope geldt uitsluitend voor mechanische integratie die één-op-één uit gevalideerde GOUD-artifacts volgt. Toegestaan zijn technische documentstatus, artifactpaden, bestaande LOCATION_ID-koppelingen, gecontroleerde aliases/GEO-statussen en koppelingen naar reeds bestaande decision-ID's.
+
+Absoluut verboden zijn:
+- nieuwe of gewijzigde formele A/B/C-status;
+- nieuwe of gewijzigde adviserende A/B/C-status;
+- een nieuw decision-ID;
+- nieuwe of herschreven beslistekst;
+- een koerskeuze namens Mark;
+- een canonieke wijziging bij twijfel of onvolledig bewijs.
+
+Wanneer een beslissing van Mark nodig is, past GOUD de betreffende canonieke wijziging niet toe, zet het voorstel op `mark_decision_required: YES`, benoemt de keuze exact in het Markrapport en archiveert de run niet als volledig geïntegreerd.
+
+Na toegestane canonieke writes valideert GOUD syntax, unieke LOCATION_ID's, bestaande decision-ID's, ongewijzigde A/B/C-velden en finale readback. Daarna schrijft GOUD completion, sluit de workerclaim en levert het volledige Markrapport.
 
 ## 10. Controllertransitions
 
@@ -133,14 +157,16 @@ Na `BRONS_COMPLETE` en `ZILVER_COMPLETE` blijft een controllertransition verplic
 - Ontbrekend bestand of sentinel: geen COMPLETE-status of transition.
 - State/event mismatch: append `DESYNC_DETECTED`, stop en laat Mark/controller herstellen.
 - Partiële commit: herstel binnen dezelfde fase; schrijf pas daarna COMPLETED.
+- Actieve of onduidelijk gesloten claim: geen inline transition.
 - Onjuiste claim: alleen expliciete override.
 - Protocolwijziging tijdens run: negeren; gepinde versie blijft leidend.
 - Ontbrekend opvolgercontextmanifest: volgende rol niet activeren.
 - Alleen branch-head advancement zonder required-file drift: niet blokkeren.
 - Inline transition faalt: behoud geldige fasecompletion maar schrijf geen volgende READY-state of startopdracht.
+- Canonieke integratie vereist een inhoudelijk besluit: wijzig de betreffende canonieke records niet; lever een exact beslispunt aan Mark.
 
 ## 12. Archivering
 
-Na GOUD PASS/PARTIAL kan de run volgens het archiveringsprotocol worden verplaatst. Een geldig Markrapport vereist geen normale eindredactie door INDIA2.
+Na GOUD PASS/PARTIAL kan de run volgens het archiveringsprotocol worden verplaatst wanneer de deterministische canonieke integratie is voltooid of expliciet `NOT_APPLICABLE` is. Bij `mark_decision_required: YES` blijft de run zichtbaar als nog niet volledig geïntegreerd. Een geldig Markrapport vereist geen normale eindredactie door INDIA2.
 
 END_OF_ARTIFACT
