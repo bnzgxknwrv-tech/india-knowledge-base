@@ -1,19 +1,22 @@
-# Run template v3 — toekomstige plaats-sweeps
+# Run template v3.1.1 — toekomstige plaats-sweeps
 
-Gebruik dit uitsluitend voor nieuwe runs na INDIA2-validatie van pipeline 3.0.0.
+Gebruik dit uitsluitend voor nieuwe runs nadat `pipeline/tests/results/PIPELINE_HANDOFF_SMOKE_001_RESULT.md` aantoonbaar `PRODUCTION_READY: YES` bevat en de implementatie is gemerged. Oude, reeds gepinde of geclaimde runs blijven hun oude protocolversie volgen.
 
 ## run.yaml kern
 
 ```yaml
 run_id: <RUN_ID>
 project: india
-run_type: <CLUSTER_SWEEP|TARGETED_SUPPLEMENT>
+run_type: <CLUSTER_SWEEP|TARGETED_SUPPLEMENT|SYNTHETIC_TEST>
 scope_file: research/active/<RUN_ID>/scope.md
 created_at: <ISO8601>
-created_by: SUBREGIE_INDIA
+created_by: INDIA2
 immutable_after_first_claim: true
-operating_mode: CONTROLLED_MANUAL_FAST
+operating_mode: CONTROLLED_MANUAL_INLINE_HANDOFF
 context_profile: BRONS_MIN
+production_gate:
+  smoke_result: pipeline/tests/results/PIPELINE_HANDOFF_SMOKE_001_RESULT.md
+  required_value: PRODUCTION_READY: YES
 pins:
   entrypoint: pipeline/ENTRYPOINT.md
   methodology: knowledge/methodology/METHODOLOGY_V2.md
@@ -24,7 +27,12 @@ pins:
   context_protocol: pipeline/protocols/CONTEXT_PROTOCOL.md
   controller_transition_protocol: pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md
   self_routing_protocol: pipeline/protocols/SELF_ROUTING_PROTOCOL.md
+  role_handoff_protocol: pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md
   context_profiles: pipeline/CONTEXT_PROFILES.yaml
+  next_action_template: pipeline/templates/NEXT_ACTION_V3_TEMPLATE.yaml
+  next_role_handoff_template: pipeline/templates/NEXT_ROLE_HANDOFF_TEMPLATE.md
+  mark_final_report_template: pipeline/templates/MARK_FINAL_REPORT_TEMPLATE.md
+  canonical_integration_proposal_template: pipeline/templates/CANONICAL_INTEGRATION_PROPOSAL_TEMPLATE.md
   handoff_layer_template: pipeline/templates/HANDOFF_LAYER_STATUS_TEMPLATE.yaml
   place_registry: knowledge/places/registry.jsonl
   place_numbering_policy: knowledge/places/NUMBERING_POLICY.md
@@ -34,9 +42,34 @@ pins:
     ZILVER: pipeline/roles/ZILVER.md
     GOUD: pipeline/roles/GOUD.md
 versions:
-  pipeline: 3.0.0
+  pipeline: 3.1.1
   methodology: 3.0.0
 source_base_commit: <COMMIT_SHA>
+claim_policy:
+  worker_claim_initial_status: ACTIVE
+  close_worker_claim_in_completion_commit: true
+  controller_claim_initial_status: ACTIVE
+  close_controller_claim_in_transition_commit: true
+post_completion_policy:
+  BRONS:
+    mode: INLINE_POST_PHASE_CONTROLLER
+    target_role: ZILVER
+    target_ready_state: READY_FOR_ZILVER
+  ZILVER:
+    mode: INLINE_POST_PHASE_CONTROLLER
+    target_role: GOUD
+    target_ready_state: READY_FOR_GOUD
+  GOUD:
+    mode: MARK_FINAL_REPORT
+    completion_destination: VOOR_MARK
+    canonical_integration:
+      mode: DETERMINISTIC_NON_DECISIONAL
+      proposal_template: pipeline/templates/CANONICAL_INTEGRATION_PROPOSAL_TEMPLATE.md
+      allowed_registry_path: knowledge/places/registry.jsonl
+      allowed_decisions_index_path: decisions/INDEX.yaml
+      forbid_new_or_changed_abc: true
+      forbid_new_decision_id: true
+      require_mark_decision_on_content_choice: true
 ```
 
 ## Verplichte scopevelden
@@ -73,18 +106,24 @@ Ieder required bestand in een contextmanifest vermeldt:
 - `task`;
 - `expected_git_blob_sha`.
 
-Iedere metaalcontext bevat tevens `pipeline/protocols/LONG_RUNNING_EXECUTION_PROTOCOL.md`. Bij omvangrijke runs werkt de rol in afsluitbare blokken en schrijft zij vóór sessie-uitputting een `CHECKPOINT.yaml` met dezelfde actieve claim. Een hervattende chat maakt geen nieuwe claim en herhaalt geen afgerond onderzoek.
+Iedere nieuwe metaalcontext bevat ook:
+
+- `pipeline/protocols/LONG_RUNNING_EXECUTION_PROTOCOL.md`;
+- `pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md`;
+- voor BRONS en ZILVER: `pipeline/templates/NEXT_ROLE_HANDOFF_TEMPLATE.md`;
+- voor GOUD: `pipeline/templates/MARK_FINAL_REPORT_TEMPLATE.md` en `pipeline/templates/CANONICAL_INTEGRATION_PROPOSAL_TEMPLATE.md`.
+
+Bij omvangrijke runs schrijft de rol vóór sessie-uitputting `CHECKPOINT.yaml` onder dezelfde actieve workerclaim. Een hervattende chat maakt geen nieuwe workerclaim en herhaalt geen afgerond onderzoek.
 
 Volledige oudere rapporten worden alleen toegevoegd bij een concrete loss-control-, conflict- of clustercontinuïteitstrigger.
 
 ## BRONS_CONTEXT vereisten
 
-Naast de technische bestanden bevat BRONS alleen:
+Naast technische bestanden bevat BRONS alleen:
 
 - scope en bekende ankers/statussen;
-- Methodology v3;
-- Evidence Protocol v3;
-- Quality Gate v3;
+- gepinde methodologie en evidence-protocol;
+- quality gate;
 - relevante decisions;
 - canonical place registry en nummeringsbeleid;
 - compacte predecessorcontext die duplicaten voorkomt;
@@ -108,23 +147,77 @@ Minimaal per metaal:
 
 De opvolger heropent altijd `OPEN`, alle dragende claims en `CORRECTED` met hoog risico. Een `ACCEPTED` niet-dragende review- of beeldlaag wordt alleen met een gemotiveerde steekproef heropend.
 
-GOUD levert daarnaast een compacte `decision_inputs.md` voor INDIA2 met per kandidaat de negen mensentaallagen uit Methodology v3, maar zonder adviserend A/B/C.
+GOUD levert daarnaast alle run-specifieke finale artifacts, `CANONICAL_INTEGRATION_PROPOSAL.md` en `MARK_FINAL_REPORT.md`.
+
+## NEXT_ACTION per fase
+
+Maak `pipeline/NEXT_ACTION.yaml` voor nieuwe runs volgens `pipeline/templates/NEXT_ACTION_V3_TEMPLATE.yaml`.
+
+BRONS en ZILVER gebruiken:
+
+```yaml
+post_completion:
+  mode: INLINE_POST_PHASE_CONTROLLER
+  transition_protocol: pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md
+  role_handoff_protocol: pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md
+  target_role: <ZILVER|GOUD>
+  target_ready_state: <READY_FOR_ZILVER|READY_FOR_GOUD>
+  emit_next_role_handoff: true
+  report_template: NOT_APPLICABLE
+  completion_destination: VOOR_VOLGEND_METAAL
+  canonical_integration:
+    mode: NOT_APPLICABLE
+    proposal_template: NOT_APPLICABLE
+    allowed_registry_path: NOT_APPLICABLE
+    allowed_decisions_index_path: NOT_APPLICABLE
+    forbid_new_or_changed_abc: true
+    forbid_new_decision_id: true
+    require_mark_decision_on_content_choice: true
+```
+
+GOUD gebruikt:
+
+```yaml
+post_completion:
+  mode: MARK_FINAL_REPORT
+  transition_protocol: NOT_APPLICABLE
+  role_handoff_protocol: pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md
+  target_role: MARK
+  target_ready_state: NOT_APPLICABLE
+  emit_next_role_handoff: false
+  report_template: pipeline/templates/MARK_FINAL_REPORT_TEMPLATE.md
+  completion_destination: VOOR_MARK
+  canonical_integration:
+    mode: DETERMINISTIC_NON_DECISIONAL
+    proposal_template: pipeline/templates/CANONICAL_INTEGRATION_PROPOSAL_TEMPLATE.md
+    allowed_registry_path: knowledge/places/registry.jsonl
+    allowed_decisions_index_path: decisions/INDEX.yaml
+    forbid_new_or_changed_abc: true
+    forbid_new_decision_id: true
+    require_mark_decision_on_content_choice: true
+```
 
 ## Chatstart
 
-Iedere metaalchat krijgt eerst de verplichte GitHub-preflight uit `pipeline/ENTRYPOINT.md`, gevolgd door:
+INDIA2 levert één volledige BRONS-startopdracht. Daarna gebruikt iedere volgende chat het geldige, door de inline controller geleverde handoffblok.
 
-`Open pipeline/ENTRYPOINT.md en voer uitsluitend de actie uit die in pipeline/NEXT_ACTION.yaml staat.`
+De volgende rol leest inhoudelijke predecessoroutput uitsluitend uit het gepinde GitHub-contextmanifest.
 
 ## Chatuitvoer
 
-Maximaal:
+BRONS en ZILVER leveren compact:
 
 - cluster;
 - fase;
 - status;
-- completioncommit;
-- drie inhoudelijke gaten;
-- één volgende startzin.
+- fasecompletioncommit;
+- bevestiging dat de workerclaim is gesloten;
+- transitioncommit of blocker;
+- bevestiging dat de controllerclaim is gesloten;
+- maximaal drie inhoudelijke gaten;
+- `NEXT_ROLE_READY`;
+- de volledige plakbare opvolgeropdracht wanneer READY.
+
+GOUD levert niet alleen een completionnote maar het volledige gecommitte rapport rechtstreeks aan Mark, inclusief aanbevolen vervolgstap, canonieke integratiestatus en uitsluitend wanneer nodig één exact beslispunt.
 
 END_OF_ARTIFACT

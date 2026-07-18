@@ -1,0 +1,3 @@
+{"place_id":"SYN-PLACE-001","location_id":"SYN-LOC-001","canonical_name":"Synthetic Valid Anchor","formal_status":"U","artifact_path":"GOUD/report/anchor.md","aliases":["Synthetic Anchor"]}
+{"place_id":"SYN-PLACE-002","location_id":"SYN-LOC-002","canonical_name":"Synthetic Alias Conflict","formal_status":"C","artifact_path":"GOUD/report/conflict.md","aliases":["Conflicting Alias"]}
+{"_sentinel":"END_OF_ARTIFACT"}

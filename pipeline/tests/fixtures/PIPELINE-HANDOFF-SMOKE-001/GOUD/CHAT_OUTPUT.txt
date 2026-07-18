@@ -1,0 +1,111 @@
+GOUD ZEGT:
+# PIPELINE-HANDOFF-SMOKE-001 — definitief rapport voor Mark
+
+## 1. Eindantwoord
+
+De synthetische BRONS → ZILVER → GOUD-keten is volledig doorlopen. Eén kunstmatige kandidaat is geldig gebleven. Het aliasconflict is zichtbaar afgewezen. De claim met een ontbrekende source-ID is geblokkeerd. Er is geen echte reis- of locatiebeslissing genomen.
+
+## 2. Status
+
+- GOUD-status: `PASS`
+- onderzoeksdatum / peildatum: `2026-07-18`
+- run-id: `PIPELINE-HANDOFF-SMOKE-001`
+- formele completioncommit: `FIXTURE_COMMIT`
+- bruikbaar voor beslissing: `JA`
+- canonieke integratie: `APPLIED`
+- MARK_DECISION_REQUIRED: `YES`
+
+## 3. Wat is onderzocht
+
+Uitsluitend synthetische protocoldata, drie kunstmatige kandidaten, claims, state, events, contextpins, handoffs, rapportpariteit en fixturekopieën van canonieke registers.
+
+## 4. Belangrijkste uitkomst voor Mark
+
+De keten kan zonder normale tussenkomst van SUBREGIE of INDIA2 tussen de metalen functioneren. Alleen technische, niet-beslissende integratie is toegepast. Een inhoudelijke statuskeuze blijft expliciet voor Mark.
+
+## 5. Definitieve locaties of kandidaten
+
+### SYN-LOC-001 — Synthetic Valid Anchor
+
+- fysiek type: synthetisch testobject;
+- concrete ligging: niet van toepassing;
+- relatietype: `DIRECT_FYSIEK_ANKER` als testwaarde;
+- bevestigingsstatus: geldig binnen de fixture;
+- concrete betekenis: controleert volledige happy path.
+
+## 6. Afgevallen of contextlocaties
+
+- SYN-LOC-002 — aliasconflict; niet doorgelaten.
+- SYN-003 — ontbrekende source-ID; transition geblokkeerd in negatieve test.
+
+## 7. Route, kaart en praktische GEO
+
+Niet van toepassing op deze synthetische protocoltest.
+
+## 8. Wat ZILVER en GOUD hebben gewijzigd
+
+ZILVER bevestigde de geldige kandidaat en verwierp de ongeldige bronverwijzing. GOUD controleerde rapportkwaliteit, pariteit en canonieke writescope.
+
+## 9. Open punten
+
+Geen technische blocker. Eén kunstmatige inhoudelijke statuskeuze is bewust niet toegepast.
+
+## 10. Aanbevolen vervolgstap
+
+`MARK_DECISION_REQUIRED`
+
+Concrete keuze: behoud SYN-LOC-001 op formele status U of ken in een afzonderlijke, expliciete beslissing een status toe. Bij niets doen blijft de status U en verandert geen canoniek record.
+
+## 11. Canonieke integratie
+
+- integratievoorstelpad: fixture/GOUD/CANONICAL_INTEGRATION_PROPOSAL.md
+- registry bijgewerkt: `JA`, uitsluitend fixturekopie
+- decisions-index bijgewerkt: `NEE`
+- integration commit: `FIXTURE_COMMIT`
+- bestaande A/B/C-statussen ongewijzigd: `JA`
+- nieuwe decision-ID aangemaakt: `NEE`
+- niet-toegepaste wijziging wegens Markbesluit: formele status SYN-LOC-001
+
+## 12. Bron- en bewijsstatus
+
+Alle gebruikte bron-ID’s zijn synthetisch. De negatieve bron-ID bestaat bewust niet en werd geblokkeerd.
+
+## 13. Technische eindcontrole
+
+- BRONS geldig afgerond: `JA`
+- BRONS-workerclaim gesloten: `JA`
+- BRONS -> ZILVER-transition geldig: `JA`
+- BRONS -> ZILVER-controllerclaim gesloten: `JA`
+- ZILVER geldig afgerond: `JA`
+- ZILVER-workerclaim gesloten: `JA`
+- ZILVER -> GOUD-transition geldig: `JA`
+- ZILVER -> GOUD-controllerclaim gesloten: `JA`
+- GOUD geldig afgerond: `JA`
+- GOUD-workerclaim gesloten: `JA`
+- contextmanifesten gepind: `JA`
+- required artifacts compleet: `JA`
+- source-ID's resolveerbaar: `JA`, behalve de bewust geblokkeerde negatieve testclaim
+- state/events synchroon: `JA`
+- canonieke syntax/readback geldig: `JA`
+- finale readback geslaagd: `JA`
+- chattekst gelijk aan gecommitte rapport: `JA`
+
+## 14. Geschreven eindproducten
+
+- hoofdrapport: fixture/GOUD/MARK_FINAL_REPORT.md
+- canoniek integratievoorstel: fixture/GOUD/CANONICAL_INTEGRATION_PROPOSAL.md
+- fixture- en validatiebestanden: pipeline/tests/fixtures/PIPELINE-HANDOFF-SMOKE-001/
+- completioncommit: `FIXTURE_COMMIT`
+
+## 15. Blockers
+
+`NONE`
+
+## 16. Definitieve afsluiting
+
+De synthetische keten is inhoudelijk en technisch geschikt voor productie na een volledig PASS-resultaat en merge van PR #15. Geen echte run is gestart of gewijzigd.
+
+END_OF_ARTIFACT
+
+ROUTING: VOOR_MARK
+/GOUD
