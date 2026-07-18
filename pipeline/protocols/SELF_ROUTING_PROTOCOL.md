@@ -1,4 +1,4 @@
-# SELF_ROUTING_PROTOCOL v1.1
+# SELF_ROUTING_PROTOCOL v1.1.1
 
 ## 1. Doel
 
@@ -14,9 +14,9 @@ Iedere completion, blocker of connectorstop bevat exact één route:
 
 - `VOOR_SUBREGIE_INDIA` — technische validatie, reparatie, desynchronisatie, repinning of een geblokkeerde transition;
 - `VOOR_VOLGEND_METAAL` — alleen na een volledig geldige controllertransition naar de volgende READY-state;
-- `VOOR_INDIA2` — uitsluitend bij een echt inhoudelijk regisseursbesluit of bij oude gepinde runs die dit vereisen;
-- `VOOR_MARK` — geldig GOUD-eindrapport bij PASS of PARTIAL;
-- `GEEN_VERVOLG` — bewust gestopte of gearchiveerde run.
+- `VOOR_INDIA2` — uitsluitend bij een echte cross-run koerskeuze, een nieuw inhoudelijk regisseursbesluit of bij oude gepinde runs die dit vereisen;
+- `VOOR_MARK` — geldig GOUD-eindrapport bij PASS of PARTIAL, inclusief eventueel exact één beslispunt;
+- `GEEN_VERVOLG` — bewust gestopte of volledig gearchiveerde run.
 
 BRONS en ZILVER routeerden onder oude protocollen standaard naar SUBREGIE INDIA. Onder een nieuwe, expliciet gepinde inline-handoffrun mogen zij na een geslaagde afzonderlijke controllerrol rechtstreeks `VOOR_VOLGEND_METAAL` leveren.
 
@@ -34,20 +34,22 @@ DOORSTUURTEKST: <volledig zelfstandig blok dat Mark zonder wijziging kan kopiër
 
 Bij BRONS of ZILVER met geldige inline transition is `DOORSTUURTEKST` het volledige blok uit `NEXT_ROLE_HANDOFF_TEMPLATE.md`.
 
-Bij GOUD naar Mark is `DOORSTUURTEKST: GEEN`; het volledige Markrapport staat al in hetzelfde chatantwoord.
+Bij GOUD naar Mark is `DOORSTUURTEKST: GEEN`, tenzij `MARK_DECISION_REQUIRED: YES`. In dat geval bevat het uitsluitend één zelfstandig beslisblok; het volledige Markrapport staat al in hetzelfde chatantwoord.
 
 ## 4. Directe metaaloverdracht
 
 `VOOR_VOLGEND_METAAL` is alleen geldig wanneer:
 
 1. een geldige controllerrol de predecessor volledig heeft gevalideerd;
-2. `state.yaml` op de volgende READY-state staat;
-3. state en events synchroon zijn;
-4. het opvolgercontextmanifest bestaat en de vereiste hashes bevat;
-5. `pipeline/NEXT_ACTION.yaml` exact naar de volgende rol wijst;
-6. geen geldige claim actief is;
-7. finale readback is geslaagd;
-8. `NEXT_ROLE_READY: YES` is vastgesteld.
+2. de predecessor-workerclaim aantoonbaar `CLOSED` is;
+3. `state.yaml` op de volgende READY-state staat;
+4. state en events synchroon zijn;
+5. het opvolgercontextmanifest bestaat en de vereiste hashes bevat;
+6. `pipeline/NEXT_ACTION.yaml` exact naar de volgende rol wijst;
+7. de controllerclaim aantoonbaar `CLOSED` is;
+8. geen andere `ACTIVE` claim bestaat;
+9. finale readback is geslaagd;
+10. `NEXT_ROLE_READY: YES` is vastgesteld.
 
 Zonder deze bewijzen gaat het bericht verplicht naar `VOOR_SUBREGIE_INDIA` en wordt geen volgende metaalopdracht geleverd.
 
@@ -57,12 +59,15 @@ Zonder deze bewijzen gaat het bericht verplicht naar `VOOR_SUBREGIE_INDIA` en wo
 
 1. GOUD-status `PASS` of `PARTIAL` is;
 2. alle verplichte GOUD-artifacts bestaan;
-3. `MARK_FINAL_REPORT.md` volledig en gecommit is;
-4. state en events synchroon zijn;
-5. finale readback is geslaagd;
-6. de chatversie inhoudelijk overeenkomt met het gecommitte rapport.
+3. `CANONICAL_INTEGRATION_PROPOSAL.md` volledig en gecommit is;
+4. uitsluitend toegestane deterministische canonieke writes zijn toegepast of integratie `NOT_APPLICABLE`/`PENDING_MARK_DECISION` is;
+5. `MARK_FINAL_REPORT.md` volledig en gecommit is;
+6. de GOUD-workerclaim aantoonbaar `CLOSED` is;
+7. state en events synchroon zijn;
+8. finale readback is geslaagd;
+9. de chatversie inhoudelijk overeenkomt met het gecommitte rapport.
 
-Een geldige normale GOUD-oplevering vereist geen terugkeer naar INDIA2 of SUBREGIE INDIA.
+Een geldige normale GOUD-oplevering vereist geen terugkeer naar INDIA2 of SUBREGIE INDIA. Wanneer een nieuw formeel besluit nodig is, krijgt Mark exact het beslispunt; de niet-toegestane canonieke wijziging blijft onuitgevoerd.
 
 ## 6. Universele startopdracht
 
@@ -72,7 +77,7 @@ Wanneer de repository een geldige `NEXT_ACTION.yaml` bevat:
 GitHub INDIA PIPELINE: voer de exact in pipeline/NEXT_ACTION.yaml aangewezen actie uit volgens pipeline/ENTRYPOINT.md. Geef na afloop uitsluitend het verplichte zelfrouterende slotbericht en, bij GOUD, het volledige gepinde Markrapport.
 ```
 
-De worker leest run-id, rol, expected state, contextmanifest en post-completionmodus zelf uit GitHub. Bij ontbrekende of tegenstrijdige gegevens stopt hij.
+De worker leest run-id, rol, expected state, contextmanifest, post-completionmodus en eventuele canonieke-integratiemodus zelf uit GitHub. Bij ontbrekende of tegenstrijdige gegevens stopt hij.
 
 ## 7. Connectorstop
 
@@ -88,7 +93,7 @@ Voor nieuwe inline-handoffruns:
 2. Mark start één verse BRONS-chat;
 3. Mark kopieert na geldige inline transition alleen het volledige ZILVER-overdrachtsblok naar een verse ZILVER-chat;
 4. Mark kopieert daarna alleen het GOUD-overdrachtsblok naar een verse GOUD-chat;
-5. GOUD levert het volledige eindrapport rechtstreeks aan Mark.
+5. GOUD levert het volledige eindrapport rechtstreeks aan Mark en integreert deterministische kennisbasiswijzigingen zonder normale INDIA2-eindredactie.
 
 Er is geen normale INDIA2- of SUBREGIE-stap tussen de metalen.
 
