@@ -1,6 +1,6 @@
-# Run template v3.1 — toekomstige plaats-sweeps
+# Run template v3.1.1 — toekomstige plaats-sweeps
 
-Gebruik dit uitsluitend voor nieuwe runs nadat de handoff-smoketest is geslaagd en de implementatie is gemerged. Oude, reeds gepinde of geclaimde runs blijven hun oude protocolversie volgen.
+Gebruik dit uitsluitend voor nieuwe runs nadat `pipeline/tests/results/PIPELINE_HANDOFF_SMOKE_001_RESULT.md` aantoonbaar `PRODUCTION_READY: YES` bevat en de implementatie is gemerged. Oude, reeds gepinde of geclaimde runs blijven hun oude protocolversie volgen.
 
 ## run.yaml kern
 
@@ -14,6 +14,9 @@ created_by: INDIA2
 immutable_after_first_claim: true
 operating_mode: CONTROLLED_MANUAL_INLINE_HANDOFF
 context_profile: BRONS_MIN
+production_gate:
+  smoke_result: pipeline/tests/results/PIPELINE_HANDOFF_SMOKE_001_RESULT.md
+  required_value: PRODUCTION_READY: YES
 pins:
   entrypoint: pipeline/ENTRYPOINT.md
   methodology: knowledge/methodology/METHODOLOGY_V2.md
@@ -29,6 +32,7 @@ pins:
   next_action_template: pipeline/templates/NEXT_ACTION_V3_TEMPLATE.yaml
   next_role_handoff_template: pipeline/templates/NEXT_ROLE_HANDOFF_TEMPLATE.md
   mark_final_report_template: pipeline/templates/MARK_FINAL_REPORT_TEMPLATE.md
+  canonical_integration_proposal_template: pipeline/templates/CANONICAL_INTEGRATION_PROPOSAL_TEMPLATE.md
   handoff_layer_template: pipeline/templates/HANDOFF_LAYER_STATUS_TEMPLATE.yaml
   place_registry: knowledge/places/registry.jsonl
   place_numbering_policy: knowledge/places/NUMBERING_POLICY.md
@@ -38,9 +42,14 @@ pins:
     ZILVER: pipeline/roles/ZILVER.md
     GOUD: pipeline/roles/GOUD.md
 versions:
-  pipeline: 3.1.0
+  pipeline: 3.1.1
   methodology: 3.0.0
 source_base_commit: <COMMIT_SHA>
+claim_policy:
+  worker_claim_initial_status: ACTIVE
+  close_worker_claim_in_completion_commit: true
+  controller_claim_initial_status: ACTIVE
+  close_controller_claim_in_transition_commit: true
 post_completion_policy:
   BRONS:
     mode: INLINE_POST_PHASE_CONTROLLER
@@ -53,6 +62,14 @@ post_completion_policy:
   GOUD:
     mode: MARK_FINAL_REPORT
     completion_destination: VOOR_MARK
+    canonical_integration:
+      mode: DETERMINISTIC_NON_DECISIONAL
+      proposal_template: pipeline/templates/CANONICAL_INTEGRATION_PROPOSAL_TEMPLATE.md
+      allowed_registry_path: knowledge/places/registry.jsonl
+      allowed_decisions_index_path: decisions/INDEX.yaml
+      forbid_new_or_changed_abc: true
+      forbid_new_decision_id: true
+      require_mark_decision_on_content_choice: true
 ```
 
 ## Verplichte scopevelden
@@ -94,7 +111,7 @@ Iedere nieuwe metaalcontext bevat ook:
 - `pipeline/protocols/LONG_RUNNING_EXECUTION_PROTOCOL.md`;
 - `pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md`;
 - voor BRONS en ZILVER: `pipeline/templates/NEXT_ROLE_HANDOFF_TEMPLATE.md`;
-- voor GOUD: `pipeline/templates/MARK_FINAL_REPORT_TEMPLATE.md`.
+- voor GOUD: `pipeline/templates/MARK_FINAL_REPORT_TEMPLATE.md` en `pipeline/templates/CANONICAL_INTEGRATION_PROPOSAL_TEMPLATE.md`.
 
 Bij omvangrijke runs schrijft de rol vóór sessie-uitputting `CHECKPOINT.yaml` onder dezelfde actieve workerclaim. Een hervattende chat maakt geen nieuwe workerclaim en herhaalt geen afgerond onderzoek.
 
@@ -130,7 +147,7 @@ Minimaal per metaal:
 
 De opvolger heropent altijd `OPEN`, alle dragende claims en `CORRECTED` met hoog risico. Een `ACCEPTED` niet-dragende review- of beeldlaag wordt alleen met een gemotiveerde steekproef heropend.
 
-GOUD levert daarnaast alle run-specifieke finale artifacts en verplicht `MARK_FINAL_REPORT.md`.
+GOUD levert daarnaast alle run-specifieke finale artifacts, `CANONICAL_INTEGRATION_PROPOSAL.md` en `MARK_FINAL_REPORT.md`.
 
 ## NEXT_ACTION per fase
 
@@ -148,6 +165,14 @@ post_completion:
   emit_next_role_handoff: true
   report_template: NOT_APPLICABLE
   completion_destination: VOOR_VOLGEND_METAAL
+  canonical_integration:
+    mode: NOT_APPLICABLE
+    proposal_template: NOT_APPLICABLE
+    allowed_registry_path: NOT_APPLICABLE
+    allowed_decisions_index_path: NOT_APPLICABLE
+    forbid_new_or_changed_abc: true
+    forbid_new_decision_id: true
+    require_mark_decision_on_content_choice: true
 ```
 
 GOUD gebruikt:
@@ -162,6 +187,14 @@ post_completion:
   emit_next_role_handoff: false
   report_template: pipeline/templates/MARK_FINAL_REPORT_TEMPLATE.md
   completion_destination: VOOR_MARK
+  canonical_integration:
+    mode: DETERMINISTIC_NON_DECISIONAL
+    proposal_template: pipeline/templates/CANONICAL_INTEGRATION_PROPOSAL_TEMPLATE.md
+    allowed_registry_path: knowledge/places/registry.jsonl
+    allowed_decisions_index_path: decisions/INDEX.yaml
+    forbid_new_or_changed_abc: true
+    forbid_new_decision_id: true
+    require_mark_decision_on_content_choice: true
 ```
 
 ## Chatstart
@@ -178,11 +211,13 @@ BRONS en ZILVER leveren compact:
 - fase;
 - status;
 - fasecompletioncommit;
+- bevestiging dat de workerclaim is gesloten;
 - transitioncommit of blocker;
+- bevestiging dat de controllerclaim is gesloten;
 - maximaal drie inhoudelijke gaten;
 - `NEXT_ROLE_READY`;
 - de volledige plakbare opvolgeropdracht wanneer READY.
 
-GOUD levert niet alleen een completionnote maar het volledige gecommitte rapport rechtstreeks aan Mark, gevolgd door het zelfrouterende slotblok.
+GOUD levert niet alleen een completionnote maar het volledige gecommitte rapport rechtstreeks aan Mark, inclusief aanbevolen vervolgstap, canonieke integratiestatus en uitsluitend wanneer nodig één exact beslispunt.
 
 END_OF_ARTIFACT
