@@ -1,10 +1,10 @@
 schema_version: 2
 run_id: VRINDAVAN-KUMAON-CORRIDOR-001
-action_id: VRINDAVAN-KUMAON-CORRIDOR-001-ZILVER-001
+action_id: VRINDAVAN-KUMAON-CORRIDOR-001-GOUD-001
 status: READY
-route: ZILVER
-expected_state: READY_FOR_ZILVER
-context_manifest: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/context/ZILVER_CONTEXT.yaml
+route: GOUD
+expected_state: READY_FOR_GOUD
+context_manifest: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/context/GOUD_CONTEXT.yaml
 entrypoint: pipeline/ENTRYPOINT.md
 operating_mode: CONTROLLED_MANUAL_FAST
 required_connector:
@@ -16,18 +16,19 @@ mandatory_first_instruction: >-
   zowel GitHub-read als GitHub-write voor repository bnzgxknwrv-tech/india-knowledge-base. Ontbreekt read of write,
   antwoord dan uitsluitend: MARK: IK MIS GITHUB CONNECTOR! Ga alleen verder wanneer beide aantoonbaar werken.
 instruction: >-
-  Execute only the VRINDAVAN-KUMAON-CORRIDOR-001 ZILVER action from the pinned ZILVER_MIN context. Independently
-  verify every carrying transport and corridor claim, official December 2026 train operation where currently knowable,
-  current route geometry and time classes, winter uncertainty, the strict heavy-A gate, all material negative searches,
-  forty WORKING_GEO identities and point placements, Kankhal institutional support, LOCATION_ID integrity, the complete
-  central map source and provisional KML. Correct the semantic defect in which BRONS placed already-formal B records in
-  B_ADVIES even though that layer is non-formal advisory only; preserve Mark's formal B statuses and assign no new advice.
-  Exact visitor entrances are preferred but not a release prerequisite under WORKING_GEO. Preserve valid BRONS content,
-  all formal statuses and permanent IDs. Do not reserve new blocks, activate PARELS, assign formal or advisory A/B/C,
-  choose hotels, create GOUD context or modify pipeline architecture. Use controlled checkpoints before context exhaustion.
-  Produce the complete ZILVER version and stop for SUBREGIE validation.
+  Execute only the VRINDAVAN-KUMAON-CORRIDOR-001 GOUD action from the pinned schema-v2 GOUD_MIN context. Preserve
+  the separate-controller workflow and do not migrate this run to inline handoff. Synthesize and final-check the complete
+  validated ZILVER corridor package without repeating the full sweep. Preserve DOORREIZEN_NAAR_KUMAON unless targeted
+  GOUD verification finds a material contradiction. Recheck only the remaining decision-relevant gaps: exact December 2026
+  train operation where currently knowable, live winter-road and fog controls, unresolved WORKING_GEO points and external
+  cluster block requests. Preserve the strict heavy-A gate, all honest negative searches, all 40 WORKING_GEO records,
+  LOCATION_ID block purity, all 28 formal A, 2 formal B and 4 formal C records and the corrected B_FORMEEL semantics.
+  Validate the existing ZILVER central map source and forty-placemark provisional KML as immutable predecessor artifacts;
+  do not regenerate, rewrite or create a final all-project KML. Assign no formal or advisory A/B/C, reserve no new blocks,
+  activate no PARELS, choose no hotel except to state transport necessity, build no internal Kumaon day plan, create no
+  successor context and modify no pipeline architecture. Produce the complete GOUD outputs and stop for SUBREGIE validation.
 completion_destination: VOOR_SUBREGIE_INDIA
-created_by: SUBREGIE_INDIA
-created_at: 2026-07-16T12:22:00+02:00
-source_commit: 60d87c0869584c2c89a3a19a626b65b496e1a2c9
+created_by: ChatGPT-CONTROLLER
+created_at: 2026-07-18T13:32:00+02:00
+source_commit: 6cbc233b5831c0474e0eb2f06be24416130a49e7
 END_OF_ARTIFACT
