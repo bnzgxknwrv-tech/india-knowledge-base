@@ -1,22 +1,13 @@
 run_id: VRINDAVAN-KUMAON-CORRIDOR-001
-state: ZILVER_CLAIMED
-active_role: ZILVER
-claim:
-  role: ZILVER
-  claimed_by: ChatGPT-ZILVER
-  claimed_at: 2026-07-18T12:45:00+02:00
-  source_commit: 60d87c0869584c2c89a3a19a626b65b496e1a2c9
-  expected_state: READY_FOR_ZILVER
-  output_path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/
-last_event_id: EVT-0007
+state: ZILVER_COMPLETE
+active_role: null
+claim: null
+last_event_id: EVT-0008
 last_validated_commit: 60d87c0869584c2c89a3a19a626b65b496e1a2c9
 blockers:
-  - Official December 2026 train operation remains to be independently verified.
-  - Live winter road timing and conditions remain to be independently verified.
-  - Forty WORKING_GEO identities and point placements remain to be independently verified.
-  - Kankhal institutional primary verification remains open.
-  - Missing cluster block reservations prevent definitive complete-project KML release.
-  - BRONS B_ADVIES layer contains already-formal B records and requires ZILVER semantic correction.
+  - Exact December 2026 train operation and booking availability require PRS or IRCTC recheck.
+  - Live winter road time, fog, weather and hill conditions require recheck near departure.
+  - Some WORKING points and external cluster block reservations remain unresolved before definitive all-project KML release.
 context_profile: ZILVER_MIN
 active_context_manifest: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/context/ZILVER_CONTEXT.yaml
 location_id_blocks:
