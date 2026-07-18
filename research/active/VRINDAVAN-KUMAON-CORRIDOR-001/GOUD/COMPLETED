@@ -1,0 +1,34 @@
+PARTIAL
+run_id: VRINDAVAN-KUMAON-CORRIDOR-001
+role: GOUD
+source_commit: 6cbc233b5831c0474e0eb2f06be24416130a49e7
+context_profile: GOUD_MIN
+corridor_result: DOORREIZEN_NAAR_KUMAON
+schema_v2_context_preserved: true
+inline_handoff_migration_performed: false
+counts:
+  claims: 8
+  accepted_sources: 24
+  rejected_sources: 7
+  route_corridors: 5
+  transport_options: 6
+  route_zones: 10
+  heavy_a_gate_records: 4
+  detector_checks: 12
+  negative_searches: 10
+  working_geo_records: 40
+  corridor_location_assignments: 16
+  location_id_requests: 4
+  central_map_records: 51
+  predecessor_kml_placemarks: 40
+  geo_connections: 4
+formal_status_counts:
+  A: 28
+  B: 2
+  C: 4
+highest_gaps:
+  - Exact December 2026 train operation and booking availability require PRS or IRCTC recheck.
+  - Live winter road time, fog, weather and hill conditions require recheck near departure.
+  - External cluster blocks and outside-scope GEO remain required before definitive complete-project KML.
+validation: GOUD completed the pinned schema-v2 synthesis, targeted official train and weather-control readback, source-integrity check, GEO/LOCATION_ID audit and immutable predecessor-KML validation. No inline migration, successor context, new A/B/C, PARELS, hotel choice, internal Kumaon plan, block reservation, pipeline modification or final all-project KML was created.
+END_OF_ARTIFACT
