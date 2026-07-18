@@ -21,7 +21,7 @@
 ## Bronintegriteit
 
 - GOUD claim IDs GC-001 t/m GC-008 zijn uniek.
-- De GOUD accepted registry bevat 24 unieke, werkelijk gebruikte ZS- en GS-source-ID's.
+- De GOUD accepted registry bevat 25 unieke, werkelijk gebruikte ZS- en GS-source-ID's.
 - Rejected source IDs ZR-001 t/m ZR-007 zijn uniek.
 - Iedere GOUD-claimreferentie resolveert exact één keer in accepted of rejected.
 - Reviews of secundaire bronnen dragen geen officiële trein- of historische claims buiten hun domein.

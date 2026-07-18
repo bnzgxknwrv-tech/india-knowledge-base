@@ -10,7 +10,7 @@ protocol_versions:
   corridor_policy: 1.0.0
 counts:
   claims: 8
-  accepted_sources: 24
+  accepted_sources: 25
   rejected_sources: 7
   route_corridors: 5
   transport_options: 6

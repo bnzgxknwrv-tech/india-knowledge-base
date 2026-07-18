@@ -8,7 +8,7 @@ schema_v2_context_preserved: true
 inline_handoff_migration_performed: false
 counts:
   claims: 8
-  accepted_sources: 24
+  accepted_sources: 25
   rejected_sources: 7
   route_corridors: 5
   transport_options: 6
