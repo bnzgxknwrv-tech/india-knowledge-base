@@ -26,6 +26,14 @@ post_completion:
   emit_next_role_handoff: <true|false>
   report_template: <NOT_APPLICABLE|pipeline/templates/MARK_FINAL_REPORT_TEMPLATE.md>
   completion_destination: <VOOR_VOLGEND_METAAL|VOOR_MARK>
+  canonical_integration:
+    mode: <NOT_APPLICABLE|DETERMINISTIC_NON_DECISIONAL>
+    proposal_template: <NOT_APPLICABLE|pipeline/templates/CANONICAL_INTEGRATION_PROPOSAL_TEMPLATE.md>
+    allowed_registry_path: <NOT_APPLICABLE|knowledge/places/registry.jsonl>
+    allowed_decisions_index_path: <NOT_APPLICABLE|decisions/INDEX.yaml>
+    forbid_new_or_changed_abc: true
+    forbid_new_decision_id: true
+    require_mark_decision_on_content_choice: true
 created_by: INDIA2
 created_at: <ISO8601>
 source_commit: <PINNED_SOURCE_COMMIT>
