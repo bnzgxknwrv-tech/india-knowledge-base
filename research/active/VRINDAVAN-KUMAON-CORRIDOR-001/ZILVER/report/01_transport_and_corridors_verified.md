@@ -21,7 +21,7 @@ De 15055 Agra Fort–Ramnagar-route via Mathura/Kasganj/Bareilly blijft een brui
 
 ## Wegduur en winter
 
-Huidige routebronnen ondersteunen een non-stop routeklasse van ongeveer vijf uur naar Haldwani onder gunstige omstandigheden. BRONS' zeven–negen uur blijft bruikbaar als conservatieve winterse deur-tot-deur-planningsklasse met pauzes, stedelijke vertraging, mist en marge. Het is geen actuele ETA.
+BRONS' zeven–negen uur blijft bruikbaar als conservatieve winterse deur-tot-deur-planningsklasse met pauzes, stedelijke vertraging, mist en marge. Het is geen actuele ETA. Een live routerberekening moet vlak voor vertrek worden uitgevoerd.
 
 IMD-documentatie uit december 2025 bevestigt dat dichte tot zeer dichte mist in Uttar Pradesh en geïsoleerd Uttarakhand een reëel seizoensrisico is. Dit bewijst geen weersituatie voor december 2026. Live router, IMD-waarschuwingen en wegstatus moeten vlak voor vertrek opnieuw worden gecontroleerd.
 
