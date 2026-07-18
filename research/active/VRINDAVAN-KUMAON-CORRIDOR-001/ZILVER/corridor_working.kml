@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>VRINDAVAN-KUMAON-CORRIDOR-001 — ZILVER WORKING GEO</name>
+<Style id="aStyle"><IconStyle><color>ff00aa00</color><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle></Style>
+<Style id="bStyle"><IconStyle><color>ff00a5ff</color><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle></Style>
+<Style id="cStyle"><IconStyle><color>ff0000ff</color><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle></Style>
+<Style id="corridorStyle"><IconStyle><color>ffff0000</color><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle></Style>
+<Folder><name>A_FORMEEL</name>
+<Placemark><name>200 — Katyayani Peeth / Keshav Ashram</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 200 | formal A | GEO WORKING | exact gate open</description><Point><coordinates>77.6905,27.5769,0</coordinates></Point></Placemark>
+<Placemark><name>201 — Neem Karoli Baba Ashram and Samadhi, Vrindavan</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 201 | formal A | GEO WORKING corrected</description><Point><coordinates>77.69215,27.5674,0</coordinates></Point></Placemark>
+<Placemark><name>400 — Babaji Cave</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 400 | formal A | geotagged cave point; trail recheck</description><Point><coordinates>79.4654,29.8334,0</coordinates></Point></Placemark>
+<Placemark><name>401 — Babaji Smriti Bhavan</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 401 | formal A | building near cave; WORKING</description><Point><coordinates>79.464364,29.832873,0</coordinates></Point></Placemark>
+<Placemark><name>402 — Dunagiri Temple</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 402 | formal A | temple object corrected</description><Point><coordinates>79.45123,29.79672,0</coordinates></Point></Placemark>
+<Placemark><name>403 — YSS Dwarahat Ashram</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 403 | formal A | official ashram point; WORKING</description><Point><coordinates>79.422761,29.784767,0</coordinates></Point></Placemark>
+<Placemark><name>404 — Kainchi Dham</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 404 | formal A | complex centre; traffic entrance recheck</description><Point><coordinates>79.51245,29.42255,0</coordinates></Point></Placemark>
+<Placemark><name>405 — Kasar Devi</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 405 | formal A | temple object corrected</description><Point><coordinates>79.66154,29.6416,0</coordinates></Point></Placemark>
+<Placemark><name>406 — Crank's Ridge</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 406 | formal A | representative landscape point</description><Point><coordinates>79.663,29.648,0</coordinates></Point></Placemark>
+<Placemark><name>407 — Kakrighat / Karkateshwar Mahadev</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 407 | formal A | representative site point corrected</description><Point><coordinates>79.53274,29.54371,0</coordinates></Point></Placemark>
+<Placemark><name>408 — Jageshwar</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 408 | formal A | temple-complex point refined</description><Point><coordinates>79.85428,29.6375,0</coordinates></Point></Placemark>
+<Placemark><name>409 — Hanuman Garhi</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 409 | formal A | WORKING complex point</description><Point><coordinates>79.455,29.381,0</coordinates></Point></Placemark>
+<Placemark><name>412 — Bhumiyadhar, first Ram Dass–Maharaj-ji meeting</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 412 | formal A | grounds point; exact meeting spot not claimed</description><Point><coordinates>79.509,29.411,0</coordinates></Point></Placemark>
+<Placemark><name>413 — Ramakrishna Kutir</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 413 | formal A | official institution; exact gate open</description><Point><coordinates>79.655,29.597,0</coordinates></Point></Placemark>
+<Placemark><name>414 — Chitai Golu Devta Temple</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 414 | formal A | WORKING temple point</description><Point><coordinates>79.714,29.642,0</coordinates></Point></Placemark>
+<Placemark><name>420 — Turiya Niwas</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 420 | formal A | WORKING building point</description><Point><coordinates>79.669,29.654,0</coordinates></Point></Placemark>
+<Placemark><name>421 — Bodh Ashram</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 421 | formal A | WORKING ashram point</description><Point><coordinates>79.675,29.643,0</coordinates></Point></Placemark>
+<Placemark><name>423 — Haidakhan Vishwa Mahadham</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 423 | formal A | WORKING complex point; no Babaji equivalence claim</description><Point><coordinates>79.701,29.119,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>B_FORMEEL</name>
+<Placemark><name>209 — Radha Raman Temple</name><styleUrl>#bStyle</styleUrl><description>LOCATION_ID 209 | existing formal B | not ZILVER advice | GEO corrected</description><Point><coordinates>77.69873,27.58538,0</coordinates></Point></Placemark>
+<Placemark><name>424 — Ghorakhal Temple</name><styleUrl>#bStyle</styleUrl><description>LOCATION_ID 424 | existing formal B | not ZILVER advice | GEO corrected</description><Point><coordinates>79.54545,29.37953,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>C_CONTEXT</name>
+<Placemark><name>415 — Mirtola / Krishnaprem Ashram</name><styleUrl>#cStyle</styleUrl><description>LOCATION_ID 415 | formal C | WORKING</description><Point><coordinates>79.787,29.663,0</coordinates></Point></Placemark>
+<Placemark><name>416 — Binsar Wildlife Sanctuary</name><styleUrl>#cStyle</styleUrl><description>LOCATION_ID 416 | formal C | representative sanctuary centre corrected</description><Point><coordinates>79.75,29.6667,0</coordinates></Point></Placemark>
+<Placemark><name>417 — Patal Bhuvaneshwar</name><styleUrl>#cStyle</styleUrl><description>LOCATION_ID 417 | formal C | WORKING</description><Point><coordinates>80.091,29.691,0</coordinates></Point></Placemark>
+<Placemark><name>422 — Daulchina / Dhaulchina Ashram</name><styleUrl>#cStyle</styleUrl><description>LOCATION_ID 422 | formal C | locality-level WORKING point</description><Point><coordinates>79.632,29.743,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>CORRIDOR_EN_STATIONS</name>
+<Placemark><name>300 — Mathura Junction railway station</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 300 | corridor station</description><Point><coordinates>77.6737,27.4924,0</coordinates></Point></Placemark>
+<Placemark><name>301 — Mathura Cantt railway station</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 301 | corridor station</description><Point><coordinates>77.6907,27.5006,0</coordinates></Point></Placemark>
+<Placemark><name>302 — New Delhi railway station</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 302 | Delhi comparison station</description><Point><coordinates>77.2199,28.6429,0</coordinates></Point></Placemark>
+<Placemark><name>303 — YSS Noida Ashram</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 303 | direct-line context only | route gate fail</description><Point><coordinates>77.3718,28.6246,0</coordinates></Point></Placemark>
+<Placemark><name>304 — Gajraula Junction / road node</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 304 | direct corridor node</description><Point><coordinates>78.2395,28.8447,0</coordinates></Point></Placemark>
+<Placemark><name>305 — Moradabad Junction railway station</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 305 | direct corridor and rail transfer</description><Point><coordinates>78.7733,28.8386,0</coordinates></Point></Placemark>
+<Placemark><name>306 — Rampur Junction railway station</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 306 | direct corridor</description><Point><coordinates>79.0245,28.806,0</coordinates></Point></Placemark>
+<Placemark><name>307 — Rudrapur City railway station</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 307 | direct corridor</description><Point><coordinates>79.3996,28.9743,0</coordinates></Point></Placemark>
+<Placemark><name>308 — Lal Kuan Junction railway station</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 308 | Kumaon junction</description><Point><coordinates>79.5195,29.0665,0</coordinates></Point></Placemark>
+<Placemark><name>309 — Haldwani railway station</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 309 | Kumaon gateway</description><Point><coordinates>79.5127,29.2183,0</coordinates></Point></Placemark>
+<Placemark><name>310 — Kathgodam railway station</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 310 | rail terminus and hill gateway</description><Point><coordinates>79.546,29.2693,0</coordinates></Point></Placemark>
+<Placemark><name>311 — Kasganj Junction railway station</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 311 | alternative corridor station</description><Point><coordinates>78.6463,27.8087,0</coordinates></Point></Placemark>
+<Placemark><name>312 — Soron Shukar Kshetra</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 312 | context only | heavy gate fail</description><Point><coordinates>78.746,27.8904,0</coordinates></Point></Placemark>
+<Placemark><name>313 — Bareilly Junction railway station</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 313 | alternative corridor station</description><Point><coordinates>79.4111,28.3364,0</coordinates></Point></Placemark>
+<Placemark><name>314 — Ramnagar railway station</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 314 | date-dependent western Kumaon arrival</description><Point><coordinates>79.1265,29.3941,0</coordinates></Point></Placemark>
+<Placemark><name>315 — Dargah-e-Ala Hazrat</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 315 | research exception only | heavy route gate fail</description><Point><coordinates>79.4155,28.3676,0</coordinates></Point></Placemark>
+</Folder>
+</Document>
+</kml>
