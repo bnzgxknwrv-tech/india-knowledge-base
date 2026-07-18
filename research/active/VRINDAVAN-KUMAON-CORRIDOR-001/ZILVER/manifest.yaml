@@ -1,0 +1,83 @@
+run_id: VRINDAVAN-KUMAON-CORRIDOR-001
+role: ZILVER
+completion_status: PARTIAL
+corridor_result: DOORREIZEN_NAAR_KUMAON
+source_commit: 60d87c0869584c2c89a3a19a626b65b496e1a2c9
+context_profile: ZILVER_MIN
+protocol_versions:
+  pipeline: 3.1.0
+  methodology: 3.0.0
+counts:
+  claims: 19
+  accepted_sources: 27
+  rejected_sources: 7
+  route_corridors: 5
+  transport_options: 6
+  route_zones: 10
+  heavy_a_gate_records: 4
+  detector_checks: 12
+  negative_searches: 10
+  working_geo_records: 40
+  corridor_location_assignments: 16
+  location_id_requests: 4
+  central_map_records: 51
+  kml_placemarks: 40
+formal_status_counts:
+  expected_a: 28
+  present_a: 28
+  expected_b: 2
+  present_b: 2
+  expected_c: 4
+  present_c: 4
+files:
+  - path: report/INDEX.md
+  - path: report/01_transport_and_corridors_verified.md
+  - path: report/02_heavy_a_and_negative_search_verified.md
+  - path: report/03_geo_location_ids_and_map_semantics.md
+  - path: report/04_conclusion_and_gate.md
+  - path: claims.jsonl
+  - path: sources/registry.jsonl
+  - path: sources/rejected.jsonl
+  - path: route_corridors.jsonl
+  - path: transport_options.jsonl
+  - path: route_zones.jsonl
+  - path: heavy_a_gate.jsonl
+  - path: detector_checks.jsonl
+  - path: negative_searches.jsonl
+  - path: working_geo.jsonl
+  - path: location_assignments.jsonl
+  - path: location_id_requests.jsonl
+  - path: central_map_source.jsonl
+  - path: corridor_working.kml
+  - path: formal_status_coverage.md
+  - path: audit.md
+  - path: handoff.yaml
+  - path: COMPLETED
+line_counts_reliable: false
+content_hashes_reliable: false
+validation:
+  github_read_confirmed: true
+  github_write_confirmed: true
+  schema_v2_context_preserved: true
+  inline_handoff_migration_performed: false
+  required_outputs_present: true
+  sentinels_checked: true
+  kml_xml_closing_checked: true
+  kml_placemark_count_checked: true
+  max_lines_under_1500: true
+  forbidden_files_used: false
+  source_id_references_valid: true
+  source_ids_unique_across_registers: true
+  identifiers_unique: true
+  working_geo_records_complete: true
+  formal_status_records_complete: true
+  formal_or_advisory_abc_assigned: false
+  parels_activated: false
+  successor_context_created: false
+  controller_transition_executed: false
+  pipeline_architecture_modified: false
+open_blockers:
+  - Exact December 2026 train operation and booking availability require PRS or IRCTC recheck.
+  - Live winter road time, fog, weather and hill conditions require recheck near departure.
+  - Some WORKING points and external cluster block reservations remain unresolved before definitive all-project KML release.
+END_OF_ARTIFACT
