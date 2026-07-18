@@ -1,8 +1,15 @@
 run_id: VRINDAVAN-KUMAON-CORRIDOR-001
-state: READY_FOR_GOUD
-active_role: null
-claim: null
-last_event_id: EVT-0011
+state: GOUD_CLAIMED
+active_role: GOUD
+claim:
+  role: GOUD
+  claimed_by: ChatGPT-GOUD
+  claimed_at: 2026-07-18T14:55:00+02:00
+  source_commit: 6cbc233b5831c0474e0eb2f06be24416130a49e7
+  expected_state: READY_FOR_GOUD
+  output_path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/
+  claim_status: ACTIVE
+last_event_id: EVT-0012
 last_validated_commit: 6cbc233b5831c0474e0eb2f06be24416130a49e7
 blockers:
   - Exact December 2026 train operation and booking availability require PRS or IRCTC recheck.
