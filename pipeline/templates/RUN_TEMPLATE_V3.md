@@ -7,7 +7,7 @@ Gebruik dit uitsluitend voor nieuwe runs nadat `pipeline/tests/results/PIPELINE_
 ```yaml
 run_id: <RUN_ID>
 project: india
-run_type: <CLUSTER_SWEEP|TARGETED_SUPPLEMENT>
+run_type: <CLUSTER_SWEEP|TARGETED_SUPPLEMENT|SYNTHETIC_TEST>
 scope_file: research/active/<RUN_ID>/scope.md
 created_at: <ISO8601>
 created_by: INDIA2
