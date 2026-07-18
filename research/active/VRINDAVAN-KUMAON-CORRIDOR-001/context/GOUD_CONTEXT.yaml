@@ -1,0 +1,147 @@
+schema_version: 2
+run_id: VRINDAVAN-KUMAON-CORRIDOR-001
+role: GOUD
+status: READY
+source_commit: 6cbc233b5831c0474e0eb2f06be24416130a49e7
+context_profile: GOUD_MIN
+prepared_by: ChatGPT-CONTROLLER
+prepared_at: 2026-07-18T13:30:00+02:00
+protocol_versions:
+  pipeline: 3.0.0
+  methodology: 3.0.0
+  corridor_policy: 1.0.0
+schema_v2_context_preserved: true
+inline_handoff_migration_performed: false
+required_files:
+  - pipeline/ENTRYPOINT.md
+  - pipeline/roles/GOUD.md
+  - knowledge/methodology/METHODOLOGY_V2.md
+  - pipeline/protocols/EVIDENCE_PROTOCOL.md
+  - pipeline/protocols/EXECUTION_PROTOCOL.md
+  - pipeline/protocols/CONTEXT_PROTOCOL.md
+  - pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md
+  - pipeline/protocols/SELF_ROUTING_PROTOCOL.md
+  - pipeline/protocols/LONG_RUNNING_EXECUTION_PROTOCOL.md
+  - pipeline/protocols/GEO_LOCATION_PROTOCOL.md
+  - pipeline/QUALITY_GATE.md
+  - pipeline/CONTEXT_PROFILES.yaml
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/run.yaml
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/scope.md
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/state.yaml
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/events.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/WORKING_GEO_POLICY.md
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS_OUTPUT_REQUIREMENTS.yaml
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/formal_status_snapshot.yaml
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/location_id_plan.yaml
+  - decisions/DECISION-0014-corridor-strict-a-working-geo-and-kml.md
+  - knowledge/places/location_blocks.yaml
+  - knowledge/places/registry.jsonl
+  - knowledge/places/NUMBERING_POLICY.md
+  - decisions/INDEX.yaml
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/manifest.yaml
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/report/INDEX.md
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/report/01_transport_and_corridors_verified.md
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/report/02_heavy_a_and_negative_search_verified.md
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/report/03_geo_location_ids_and_map_semantics.md
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/report/04_conclusion_and_gate.md
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/claims.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/sources/registry.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/sources/rejected.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/route_corridors.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/transport_options.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/route_zones.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/heavy_a_gate.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/detector_checks.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/negative_searches.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/working_geo.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/location_assignments.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/location_id_requests.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/central_map_source.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/corridor_working.kml
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/formal_status_coverage.md
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/audit.md
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/handoff.yaml
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/COMPLETED
+required_focus:
+  - Preserve the existing schema-v2 separate-controller workflow; do not migrate this run to inline handoff or add post_completion fields.
+  - Synthesize and final-check the complete validated ZILVER corridor package without repeating the full BRONS or ZILVER sweep.
+  - Preserve `DOORREIZEN_NAAR_KUMAON` unless targeted GOUD verification finds a material contradiction in a carrying route or heavy-A claim.
+  - Recheck only remaining decision-relevant gaps: exact December 2026 train operation where currently knowable, live-check requirements for winter road and fog, unresolved WORKING points and external cluster block requests.
+  - Preserve the strict heavy-A gate and honest negative-search conclusions; do not inflate ordinary local or regional religious places.
+  - Preserve all 40 WORKING_GEO records, distinguish WORKING from VERIFIED, reject wrong-place matches and do not make exact visitor entrances a release prerequisite when the run policy permits a reasonable working point.
+  - Preserve all permanent LOCATION_ID assignments and block purity: Braj 200-299, corridor 300-399 and Kumaon 400-499. Do not reserve new external-cluster blocks or invent IDs.
+  - Preserve all 28 formal A, 2 formal B and 4 formal C records without reassessment. Keep the corrected `B_FORMEEL` semantics and assign no formal or advisory A/B/C.
+  - Validate the existing ZILVER central map source and forty-placemark provisional KML as immutable predecessor artifacts. Do not regenerate, rewrite or create a final all-project KML during GOUD.
+  - Produce a complete technical GOUD decision for SUBREGIE INDIA, including corridor, transport, gate, GEO, identifier, map-readiness and open-control conclusions.
+  - Do not activate PARELS, choose hotels except to state transport necessity, build an internal Kumaon day plan, modify pipeline architecture or create a successor context.
+required_outputs:
+  - report/INDEX.md
+  - report/01_final_corridor_and_transport.md
+  - report/02_heavy_a_and_negative_search.md
+  - report/03_geo_location_ids_and_map_readiness.md
+  - report/04_quality_gate_and_conclusion.md
+  - claims.jsonl
+  - sources/registry.jsonl
+  - sources/rejected.jsonl
+  - route_corridors.jsonl
+  - transport_options.jsonl
+  - route_zones.jsonl
+  - heavy_a_gate.jsonl
+  - detector_checks.jsonl
+  - negative_searches.jsonl
+  - working_geo.jsonl
+  - location_assignments.jsonl
+  - location_id_requests.jsonl
+  - central_map_source.jsonl
+  - formal_status_coverage.md
+  - geo_locations.jsonl
+  - geo_connections.jsonl
+  - location_id_audit.md
+  - decision_inputs.md
+  - audit.md
+  - decision.md
+  - handoff.yaml
+  - COMPLETED
+expected_git_blob_shas:
+  research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/manifest.yaml: 4e0a79f512ead3aaf79f7d2775e1319142936b25
+  research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/report/INDEX.md: 3b6389e3350f5652dd17b7a65dd694082d782b4b
+  research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/report/01_transport_and_corridors_verified.md: e6d0c92e426d2c69ee307e727de522f7748729bd
+  research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/report/02_heavy_a_and_negative_search_verified.md: 09050518336b641d07643b085af7b4c14ee086e8
+  research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/report/03_geo_location_ids_and_map_semantics.md: dca93907ffc3aa09aaceaf6de4edf0def752404e
+  research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/report/04_conclusion_and_gate.md: 08497e46725acbeeb95a234052107f4fdfc7d3db
+  research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/claims.jsonl: 47fa624fb9b496cb6b55c4b3b94c4e4d4ae0b959
+  research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/sources/registry.jsonl: 33a205b2c6e3e9afcde1bffd70edf31c9b3c712c
+  research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/sources/rejected.jsonl: 46cad98bc4aab97f7e37e513d3ee0a1cc7a62eea
+  research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/route_corridors.jsonl: 2dd556e7857572fb87bcd21a1f095dc753a7078a
+  research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/transport_options.jsonl: e99769e8ab5112999147f3da90c0c0edecc4fb8e
+  research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/route_zones.jsonl: bd31b2d2487377796767f34d74ea9f8281754ac0
+  research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/heavy_a_gate.jsonl: 2274309561dc092128f57a4cdc8220777bfe7659
+  research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/detector_checks.jsonl: b19e9a0ae925a774a1c2b1e29a497029fb9ef6b9
+  research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/negative_searches.jsonl: b0b74ee16b95868a3aa25e036053c5cfcb14ff76
+  research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/working_geo.jsonl: 2dd7f3e903d2c3be4098167afd8caca2643b3c9d
+  research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/location_assignments.jsonl: 185948e8e2bd8b6e2caac5d3853811b286c88609
+  research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/location_id_requests.jsonl: 4ddb575131f3bf277a855e7013e01b3efa53d9c9
+  research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/central_map_source.jsonl: 8551908d851960f989a0e9cea32c28a94c0b40e1
+  research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/corridor_working.kml: b83fae2a47835c9b0506f26014c4e44aeab33631
+  research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/formal_status_coverage.md: d2a0e0504155dac25c693e8665efca16bdc524a6
+  research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/audit.md: 164918077be2b5562522092caf750bd285ed2d72
+  research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/handoff.yaml: a346b141da37802246fd23e1aa5edf0b3a916e0c
+  research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/COMPLETED: 019b432eeb6d18e7954c31019d3611ce385dc352
+forbidden_files:
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/**
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/**
+  - research/completed/**
+  - research/active/ARUNACHALA-*/**
+  - research/active/KUMAON-*/**
+  - pipeline/**/PARELS/**
+maximum_context_budget:
+  files: 50
+  lines_per_file: 1500
+predecessor_manifest: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/manifest.yaml
+output_path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/
+known_predecessor_status: PARTIAL
+corridor_result: DOORREIZEN_NAAR_KUMAON
+working_geo_enabled: true
+central_kml_predecessor_required: true
+parels_layer_active: false
+END_OF_ARTIFACT
