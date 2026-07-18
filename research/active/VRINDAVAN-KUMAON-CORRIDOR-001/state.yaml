@@ -1,20 +1,13 @@
 run_id: VRINDAVAN-KUMAON-CORRIDOR-001
-state: GOUD_CLAIMED
-active_role: GOUD
-claim:
-  role: GOUD
-  claimed_by: ChatGPT-GOUD
-  claimed_at: 2026-07-18T14:55:00+02:00
-  source_commit: 6cbc233b5831c0474e0eb2f06be24416130a49e7
-  expected_state: READY_FOR_GOUD
-  output_path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/
-  claim_status: ACTIVE
-last_event_id: EVT-0012
-last_validated_commit: 6cbc233b5831c0474e0eb2f06be24416130a49e7
+state: GOUD_PARTIAL
+active_role: null
+claim: null
+last_event_id: EVT-0013
+last_validated_commit: c06a8de2c0c8f11c2b61066a537c54638870097d
 blockers:
   - Exact December 2026 train operation and booking availability require PRS or IRCTC recheck.
   - Live winter road time, fog, weather and hill conditions require recheck near departure.
-  - Some WORKING points and external cluster block reservations remain unresolved before definitive all-project KML release.
+  - External cluster blocks and outside-scope GEO remain unresolved before definitive complete-project KML release.
 context_profile: GOUD_MIN
 active_context_manifest: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/context/GOUD_CONTEXT.yaml
 location_id_blocks:
@@ -27,4 +20,6 @@ parels_layer_active: false
 parallel_writers_allowed: false
 schema_v2_context_preserved: true
 inline_handoff_migration_performed: false
+completion_artifact_commit: c06a8de2c0c8f11c2b61066a537c54638870097d
+completion_destination: VOOR_SUBREGIE_INDIA
 END_OF_ARTIFACT
