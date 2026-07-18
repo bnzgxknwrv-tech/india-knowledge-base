@@ -1,0 +1,51 @@
+PARTIAL
+run_id: VRINDAVAN-KUMAON-CORRIDOR-001
+role: ZILVER
+source_commit: 60d87c0869584c2c89a3a19a626b65b496e1a2c9
+context_profile: ZILVER_MIN
+corridor_result: DOORREIZEN_NAAR_KUMAON
+counts:
+  claims: 19
+  accepted_sources: 27
+  rejected_sources: 7
+  route_corridors: 5
+  transport_options: 6
+  route_zones: 10
+  heavy_a_gate_records: 4
+  detector_checks: 12
+  negative_searches: 10
+  working_geo_records: 40
+  corridor_location_assignments: 16
+  location_id_requests: 4
+  central_map_records: 51
+  kml_placemarks: 40
+outputs:
+  - manifest.yaml
+  - report/INDEX.md
+  - report/01_transport_and_corridors_verified.md
+  - report/02_heavy_a_and_negative_search_verified.md
+  - report/03_geo_location_ids_and_map_semantics.md
+  - report/04_conclusion_and_gate.md
+  - claims.jsonl
+  - sources/registry.jsonl
+  - sources/rejected.jsonl
+  - route_corridors.jsonl
+  - transport_options.jsonl
+  - route_zones.jsonl
+  - heavy_a_gate.jsonl
+  - detector_checks.jsonl
+  - negative_searches.jsonl
+  - working_geo.jsonl
+  - location_assignments.jsonl
+  - location_id_requests.jsonl
+  - central_map_source.jsonl
+  - corridor_working.kml
+  - formal_status_coverage.md
+  - audit.md
+  - handoff.yaml
+highest_gaps:
+  - Exact December 2026 train operation and booking availability require PRS or IRCTC recheck.
+  - Live winter road time, fog, weather and hill conditions require recheck near departure.
+  - Some WORKING points and external cluster block reservations remain unresolved before definitive all-project KML release.
+validation: All required ZILVER artifacts were reopened; END_OF_ARTIFACT sentinels and KML closing tags were checked; 19 claims resolve to 27 accepted and 7 rejected unique source IDs; 40 WORKING_GEO records, 51 central-map records and 40 KML placemarks were counted; all formal statuses and LOCATION_IDs were preserved; no formal or advisory A/B/C, PARELS work, hotel choice, internal Kumaon planning, inline-handoff migration, successor context, controller transition or pipeline modification occurred.
+END_OF_ARTIFACT
