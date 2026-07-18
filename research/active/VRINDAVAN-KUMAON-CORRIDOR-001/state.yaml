@@ -1,9 +1,15 @@
 run_id: VRINDAVAN-KUMAON-CORRIDOR-001
 state: ZILVER_COMPLETE
 active_role: null
-claim: null
-last_event_id: EVT-0008
-last_validated_commit: 60d87c0869584c2c89a3a19a626b65b496e1a2c9
+claim:
+  transition: ZILVER_COMPLETE_TO_READY_FOR_GOUD
+  claimed_by: ChatGPT-CONTROLLER
+  claimed_at: 2026-07-18T13:28:00+02:00
+  source_commit: 6cbc233b5831c0474e0eb2f06be24416130a49e7
+  expected_state: ZILVER_COMPLETE
+  target_context_manifest: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/context/GOUD_CONTEXT.yaml
+last_event_id: EVT-0009
+last_validated_commit: 6cbc233b5831c0474e0eb2f06be24416130a49e7
 blockers:
   - Exact December 2026 train operation and booking availability require PRS or IRCTC recheck.
   - Live winter road time, fog, weather and hill conditions require recheck near departure.
