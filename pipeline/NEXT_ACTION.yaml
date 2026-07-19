@@ -1,10 +1,10 @@
 schema_version: 3
 run_id: KUMAON-COMPLETE-001
-action_id: KUMAON-COMPLETE-001-BRONS-001
+action_id: KUMAON-COMPLETE-001-ZILVER-001
 status: READY
-route: BRONS
-expected_state: READY_FOR_BRONS
-context_manifest: research/active/KUMAON-COMPLETE-001/context/BRONS_CONTEXT.yaml
+route: ZILVER
+expected_state: READY_FOR_ZILVER
+context_manifest: research/active/KUMAON-COMPLETE-001/context/ZILVER_CONTEXT.yaml
 entrypoint: pipeline/ENTRYPOINT.md
 operating_mode: CONTROLLED_MANUAL_INLINE_HANDOFF
 required_connector:
@@ -16,26 +16,24 @@ mandatory_first_instruction: >-
   zowel GitHub-read als GitHub-write voor repository bnzgxknwrv-tech/india-knowledge-base. Ontbreekt read of write,
   antwoord dan uitsluitend: MARK: IK MIS GITHUB CONNECTOR! Ga alleen verder wanneer beide aantoonbaar werken.
 instruction: >-
-  Voer uitsluitend de BRONS-fase van KUMAON-COMPLETE-001 uit volgens het gepinde BRONS_MIN-contextmanifest.
-  Dit is een volledige geografische en inhoudelijke Kumaon-clustersweep, niet een herbeoordeling van het geaccepteerde
-  INDIA2-rapport van VRINDAVAN-KUMAON-CORRIDOR-001. Onderzoek alle formele en bekende onbeoordeelde fysieke locaties,
-  alle verplichte detectoren en alle geografische subclusters. Leg negatieve zoekresultaten vast. Onderzoek Bhowali,
-  Nainital, Kainchi, Kathgodam, Haldwani en waar relevant Lal Kuan als vergelijkbare mogelijke eerste bases of
-  aankomstknooppunten, maar kies nog geen station, basis, hotel, eerste bezoeklocatie, interne route, laatste Kumaon-locatie
-  of uitreisrichting. Behoud alle formele A/B/C en LOCATION_IDs exact. Ken geen formele of adviserende A/B/C toe en maak
-  geen nieuw decision-ID. Gebruik WORKING_GEO met de gepinde fallback, wijs nieuwe Kumaon-IDs uitsluitend vanaf 427 toe
-  nadat fysieke identiteit voldoende is vastgesteld en houd iedere onderzochte kaartbare locatie zichtbaar. Bouw de volledige
-  eerste Kumaon-KML met de zeven verplichte lagen en alle vereiste bron-, praktische, nabijheids-, basisvergelijkings-,
-  station-, detector-, kandidaten- en compleetheidsartifacts. Maak geen PARELS en geen definitieve route. Gebruik bij een
-  lange uitvoering gecontroleerde checkpoints onder dezelfde workerclaim. Schrijf en valideer alle BRONS-output in GitHub,
-  sluit de workerclaim in de completioncommit en voer daarna uitsluitend de gepinde afzonderlijke inline controllertransition
-  BRONS naar ZILVER uit. Lever alleen bij geldige finale readback een uitvoerbare ZILVER-handoff.
+  Voer uitsluitend de ZILVER-fase van KUMAON-COMPLETE-001 uit volgens het gepinde ZILVER_MIN-contextmanifest.
+  Valideer de volledige BRONS-uitkomst onafhankelijk. Open de werkelijke bron achter iedere materiële claim en corrigeer
+  claimtype, bevestigingsdomein, bronclassificatie, kandidaatidentiteit, praktische toegang, review- en beelddekking,
+  nabijheidsgegevens, WORKING_GEO, LOCATION_ID-toewijzingen en alle zeven KML-lagen waar nodig. Heropen alle OPEN en
+  hoog-risicolagen uit BRONS/handoff.yaml. Zoek binnen dezelfde Kumaon-scope gericht naar gemiste fysieke kandidaten,
+  maar start geen nieuwe megasweep en herhaal de geaccepteerde oude corridorbeoordeling niet. Behoud alle formele
+  16 A, 1 B en 4 C en alle bestaande LOCATION_IDs exact. Ken geen formele of adviserende A/B/C toe, maak geen nieuw
+  decision-ID, kies geen station, basis, hotel, eerste bezoeklocatie, interne route, laatste Kumaon-locatie of uitreisrichting
+  en maak geen PARELS. Verifieer of de BRONS-onderlaag voldoende kan worden gecorrigeerd voor latere routeoptimalisatie.
+  Schrijf en valideer alle ZILVER-output in GitHub, sluit de workerclaim in de completioncommit en voer daarna uitsluitend
+  de gepinde afzonderlijke inline controllertransition ZILVER naar GOUD uit. Lever alleen bij geldige finale readback een
+  uitvoerbare GOUD-handoff.
 post_completion:
   mode: INLINE_POST_PHASE_CONTROLLER
   transition_protocol: pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md
   role_handoff_protocol: pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md
-  target_role: ZILVER
-  target_ready_state: READY_FOR_ZILVER
+  target_role: GOUD
+  target_ready_state: READY_FOR_GOUD
   emit_next_role_handoff: true
   report_template: NOT_APPLICABLE
   completion_destination: VOOR_VOLGEND_METAAL
@@ -47,7 +45,7 @@ post_completion:
     forbid_new_or_changed_abc: true
     forbid_new_decision_id: true
     require_mark_decision_on_content_choice: true
-created_by: INDIA2
-created_at: 2026-07-19T10:41:36+02:00
-source_commit: a10c848b7fe203a32563675293a6d2e0de484728
+created_by: ChatGPT-INLINE-CONTROLLER
+created_at: 2026-07-19T15:25:00+02:00
+source_commit: 9afdbb21ab4cb202144c2a6346218d6e1a3639aa
 END_OF_ARTIFACT
