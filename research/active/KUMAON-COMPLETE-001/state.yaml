@@ -1,6 +1,6 @@
 schema_version: 3
 run_id: KUMAON-COMPLETE-001
-state: ZILVER_COMPLETE
+state: TRANSITION_TO_GOUD_CLAIMED
 active_role: null
 claim:
   role: ZILVER
@@ -15,29 +15,27 @@ claim:
   completion_commit: THIS_ATOMIC_COMMIT
   completion_commit_ref: THIS_ATOMIC_COMMIT
 controller_claim:
-  transition: BRONS_COMPLETE_TO_READY_FOR_ZILVER
+  transition: ZILVER_COMPLETE_TO_READY_FOR_GOUD
   claimed_by: ChatGPT-INLINE-CONTROLLER
-  claimed_at: 2026-07-19T15:12:00+02:00
-  source_commit: 9afdbb21ab4cb202144c2a6346218d6e1a3639aa
-  expected_state: BRONS_COMPLETE
-  target_context_manifest: research/active/KUMAON-COMPLETE-001/context/ZILVER_CONTEXT.yaml
+  claimed_at: 2026-07-19T18:56:00+02:00
+  source_commit: 55fc0924b29ac3e006efc8b5c5f095a561b41b56
+  expected_state: ZILVER_COMPLETE
+  target_context_manifest: research/active/KUMAON-COMPLETE-001/context/GOUD_CONTEXT.yaml
   activation_mode: INLINE_POST_PHASE_CONTROLLER
-  claim_status: CLOSED
-  closed_at: 2026-07-19T15:25:00+02:00
-  transition_commit_ref: THIS_ATOMIC_COMMIT
+  claim_status: ACTIVE
+  claim_commit_ref: THIS_ATOMIC_COMMIT
 completion_repair:
   transient_commits:
     - 25e410a1af2f5e832e5ba548701f95f88bacce01
     - 91c1c1f7f9a7e7e8eb1403c10e33cbe4ade02085
-  status: REPAIRED_IN_THIS_ATOMIC_COMMIT
+  status: REPAIRED_IN_COMPLETION_COMMIT
   repair_events: [EVT-0008, EVT-0011]
 claim_order_validation:
   status: VALID_BY_GIT_ANCESTRY
   claim_commit: 7a358b6d2625945f4967207580cfdbda79816128
   metadata_repair_event: EVT-0009
-  note: The claim event at-field is non-monotonic, but Git ancestry proves the claim commit followed the READY_FOR_ZILVER transition.
-last_event_id: EVT-0012
-last_validated_commit: 192ed242b378817b0ef3131bafab218d078f43a6
+last_event_id: EVT-0013
+last_validated_commit: 55fc0924b29ac3e006efc8b5c5f095a561b41b56
 blockers:
   - Exact identity, access and GEO remain open for K. K. Sah house, Bodh Ashram and the Vivekananda cave.
   - Complete ten-function image and systematic recent-review coverage remains absent.
