@@ -1,10 +1,10 @@
 schema_version: 3
 run_id: KUMAON-COMPLETE-001
-action_id: KUMAON-COMPLETE-001-ZILVER-001
+action_id: KUMAON-COMPLETE-001-GOUD-001
 status: READY
-route: ZILVER
-expected_state: READY_FOR_ZILVER
-context_manifest: research/active/KUMAON-COMPLETE-001/context/ZILVER_CONTEXT.yaml
+route: GOUD
+expected_state: READY_FOR_GOUD
+context_manifest: research/active/KUMAON-COMPLETE-001/context/GOUD_CONTEXT.yaml
 entrypoint: pipeline/ENTRYPOINT.md
 operating_mode: CONTROLLED_MANUAL_INLINE_HANDOFF
 required_connector:
@@ -16,36 +16,35 @@ mandatory_first_instruction: >-
   zowel GitHub-read als GitHub-write voor repository bnzgxknwrv-tech/india-knowledge-base. Ontbreekt read of write,
   antwoord dan uitsluitend: MARK: IK MIS GITHUB CONNECTOR! Ga alleen verder wanneer beide aantoonbaar werken.
 instruction: >-
-  Voer uitsluitend de ZILVER-fase van KUMAON-COMPLETE-001 uit volgens het gepinde ZILVER_MIN-contextmanifest.
-  Valideer de volledige BRONS-uitkomst onafhankelijk. Open de werkelijke bron achter iedere materiële claim en corrigeer
-  claimtype, bevestigingsdomein, bronclassificatie, kandidaatidentiteit, praktische toegang, review- en beelddekking,
-  nabijheidsgegevens, WORKING_GEO, LOCATION_ID-toewijzingen en alle zeven KML-lagen waar nodig. Heropen alle OPEN en
-  hoog-risicolagen uit BRONS/handoff.yaml. Zoek binnen dezelfde Kumaon-scope gericht naar gemiste fysieke kandidaten,
-  maar start geen nieuwe megasweep en herhaal de geaccepteerde oude corridorbeoordeling niet. Behoud alle formele
-  16 A, 1 B en 4 C en alle bestaande LOCATION_IDs exact. Ken geen formele of adviserende A/B/C toe, maak geen nieuw
-  decision-ID, kies geen station, basis, hotel, eerste bezoeklocatie, interne route, laatste Kumaon-locatie of uitreisrichting
-  en maak geen PARELS. Verifieer of de BRONS-onderlaag voldoende kan worden gecorrigeerd voor latere routeoptimalisatie.
-  Schrijf en valideer alle ZILVER-output in GitHub, sluit de workerclaim in de completioncommit en voer daarna uitsluitend
-  de gepinde afzonderlijke inline controllertransition ZILVER naar GOUD uit. Lever alleen bij geldige finale readback een
-  uitvoerbare GOUD-handoff.
+  Voer uitsluitend de GOUD-fase van KUMAON-COMPLETE-001 uit volgens het gepinde GOUD_MIN-contextmanifest.
+  Valideer en synthetiseer de volledige ZILVER-uitkomst en gebruik alleen gericht aanvullend onderzoek voor resterende
+  dragende conflicten of verplichte open lagen. Behoud alle 47 kandidaten, formele 16 A, 1 B en 4 C en alle LOCATION_IDs
+  exact. Ken geen nieuwe formele of adviserende A/B/C toe, creëer geen nieuw decision-ID en kies geen station, basis,
+  hotel, eerste bezoeklocatie, interne route, laatste Kumaon-locatie of uitreisrichting. Lever de definitieve technische
+  datasets, geo_locations.jsonl, geo_connections.jsonl, location_id_audit.md, decision_inputs.md en de complete
+  zevenlaagse KUMAON_COMPLETE.kml. Schrijf verplicht eerst CANONICAL_INTEGRATION_PROPOSAL.md. Voer uitsluitend
+  deterministische, niet-beslissende integratie uit naar knowledge/places/registry.jsonl en decisions/INDEX.yaml en
+  alleen wanneer deze één-op-één uit gevalideerde GOUD-artifacts volgt; wijzig geen A/B/C en maak geen nieuwe beslissing.
+  Schrijf daarna het volledige MARK_FINAL_REPORT.md, valideer alle artifacts en eventuele canonieke writes, sluit de
+  GOUD-workerclaim in de completioncommit en lever bij PASS of PARTIAL het gecommitte rapport rechtstreeks aan Mark.
 post_completion:
-  mode: INLINE_POST_PHASE_CONTROLLER
-  transition_protocol: pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md
+  mode: MARK_FINAL_REPORT
+  transition_protocol: NOT_APPLICABLE
   role_handoff_protocol: pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md
-  target_role: GOUD
-  target_ready_state: READY_FOR_GOUD
-  emit_next_role_handoff: true
-  report_template: NOT_APPLICABLE
-  completion_destination: VOOR_VOLGEND_METAAL
+  target_role: MARK
+  target_ready_state: NOT_APPLICABLE
+  emit_next_role_handoff: false
+  report_template: pipeline/templates/MARK_FINAL_REPORT_TEMPLATE.md
+  completion_destination: VOOR_MARK
   canonical_integration:
-    mode: NOT_APPLICABLE
-    proposal_template: NOT_APPLICABLE
-    allowed_registry_path: NOT_APPLICABLE
-    allowed_decisions_index_path: NOT_APPLICABLE
+    mode: DETERMINISTIC_NON_DECISIONAL
+    proposal_template: pipeline/templates/CANONICAL_INTEGRATION_PROPOSAL_TEMPLATE.md
+    allowed_registry_path: knowledge/places/registry.jsonl
+    allowed_decisions_index_path: decisions/INDEX.yaml
     forbid_new_or_changed_abc: true
     forbid_new_decision_id: true
     require_mark_decision_on_content_choice: true
 created_by: ChatGPT-INLINE-CONTROLLER
-created_at: 2026-07-19T15:25:00+02:00
-source_commit: 9afdbb21ab4cb202144c2a6346218d6e1a3639aa
+created_at: 2026-07-19T18:59:00+02:00
+source_commit: 55fc0924b29ac3e006efc8b5c5f095a561b41b56
 END_OF_ARTIFACT

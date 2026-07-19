@@ -1,0 +1,105 @@
+schema_version: 3
+run_id: KUMAON-COMPLETE-001
+role: GOUD
+status: READY
+source_commit: 55fc0924b29ac3e006efc8b5c5f095a561b41b56
+context_profile: GOUD_MIN
+protocol_versions: {pipeline: 3.1.1, methodology: 3.0.0, execution_protocol: 2.3.1, controller_transition_protocol: 2.3.1, role_handoff_protocol: '1.1'}
+required_files:
+  - {path: 'pipeline/ENTRYPOINT.md', reason: 'single executable entrypoint', task: 'obey startup, claim, completion and MARK_FINAL_REPORT rules', expected_git_blob_sha: '2cb50f0e6307bded90da1bb7418e103791c96dd4'}
+  - {path: 'pipeline/roles/GOUD.md', reason: 'GOUD synthesis and direct-to-Mark contract', task: 'finalize the validated ZILVER dossier without new formal or advisory A/B/C', expected_git_blob_sha: '62e7f34f896bd5850be0b654d6a3543170753f67'}
+  - {path: 'knowledge/methodology/METHODOLOGY_V2.md', reason: 'physical-place and devotional methodology', task: 'apply separate confirmation domains, participation, experience and completeness rules', expected_git_blob_sha: 'cba69457b46f26f60a4775a848f9fc4bf01000ff'}
+  - {path: 'pipeline/protocols/EVIDENCE_PROTOCOL.md', reason: 'atomic claim and source integrity rules', task: 'validate every final claim and source reference', expected_git_blob_sha: '5d853e6dae868495782363d0864f641fa2747186'}
+  - {path: 'pipeline/QUALITY_GATE.md', reason: 'technical and substantive release gate', task: 'apply the final PASS, PARTIAL or BLOCKED gate', expected_git_blob_sha: '8c9d39ed09e8992d785baf15d727a920ccdbb0c0'}
+  - {path: 'pipeline/protocols/EXECUTION_PROTOCOL.md', reason: 'claim, artifact, canonical integration and completion lifecycle', task: 'claim GOUD, write complete outputs, apply only allowed deterministic integration and close the workerclaim', expected_git_blob_sha: 'f384e45c824ea4c10194dbf476b30b61312a0ed2'}
+  - {path: 'pipeline/protocols/LONG_RUNNING_EXECUTION_PROTOCOL.md', reason: 'controlled checkpoint rules', task: 'checkpoint before session exhaustion and never repeat validated blocks', expected_git_blob_sha: '0640c6af87df2ed94155fa5b04b377c2e729161a'}
+  - {path: 'pipeline/protocols/CONTEXT_PROTOCOL.md', reason: 'deterministic context boundary', task: 'read only this manifest and explicitly triggered optional files', expected_git_blob_sha: '872bce45f01e276d76dc65479c09e71dc72a15de'}
+  - {path: 'pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md', reason: 'transition integrity reference', task: 'verify the predecessor transition and closed controllerclaim in the final technical audit', expected_git_blob_sha: '0c52ebc9a2be47583e08619c6422efad582619b3'}
+  - {path: 'pipeline/protocols/SELF_ROUTING_PROTOCOL.md', reason: 'direct GOUD-to-Mark routing', task: 'route a valid PASS or PARTIAL directly to Mark', expected_git_blob_sha: 'b6b7f07bd7f6c946ba35776124f8fa6e6ced564c'}
+  - {path: 'pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md', reason: 'worker and direct-delivery boundaries', task: 'validate the ZILVER-to-GOUD handoff and GOUD direct delivery', expected_git_blob_sha: 'f4663ed3049f5d5586fcf6fc98d8c64a292b1998'}
+  - {path: 'pipeline/protocols/GEO_LOCATION_PROTOCOL.md', reason: 'permanent LOCATION_ID and GEO integrity', task: 'produce final geo_locations and geo_connections without guessed precision', expected_git_blob_sha: '149c0515010930ec9306a6d68f5beb2a7b3bbe91'}
+  - {path: 'pipeline/CONTEXT_PROFILES.yaml', reason: 'GOUD_MIN reopening policy', task: 'reopen all open, corrected high-risk and decision-bearing layers', expected_git_blob_sha: '4526bb1fe5e3605d63af45d81f8efb152bef1863'}
+  - {path: 'pipeline/templates/MARK_FINAL_REPORT_TEMPLATE.md', reason: 'mandatory direct-to-Mark report schema', task: 'write the complete final report and reproduce it in chat', expected_git_blob_sha: 'b8d929b4d04c6bfc82e9a3f6cfd4abd3697b2bcc'}
+  - {path: 'pipeline/templates/CANONICAL_INTEGRATION_PROPOSAL_TEMPLATE.md', reason: 'mandatory pre-write canonical proposal', task: 'propose and constrain deterministic non-decisional integration', expected_git_blob_sha: '3f48cf5f69f9aa2792881254c93ad803b16f3a5b'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/run.yaml', reason: 'immutable run identity and pins', task: 'preserve CLUSTER_SWEEP scope, no-route boundary, KML requirement and canonical mode', expected_git_blob_sha: 'cc26ba82a8d4fafee228bb7aac5f56d7378880f9'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/scope.md', reason: 'complete Kumaon synthesis scope', task: 'answer the central question and deliver route-optimization readiness without choosing the route', expected_git_blob_sha: 'bd03682b3169d04a98ec5812e3e5b4925422867b'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/state.yaml', reason: 'transition-generated READY_FOR_GOUD control state', task: 'require READY_FOR_GOUD, no ACTIVE claim and closed ZILVER controllerclaim before claiming', expected_git_blob_sha: '2250718e37b9a22f332bbd95177b9834f2b47b73'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/events.jsonl', reason: 'transition-generated append-only run cursor', task: 'require EVT-0015 and synchronization with READY_FOR_GOUD', expected_git_blob_sha: '09d32d072ea0cb68753dd021a2c544314726ea9c'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/formal_status_snapshot.yaml', reason: 'immutable 16 A, 1 B and 4 C snapshot', task: 'preserve every formal status exactly', expected_git_blob_sha: '8681d0776d1acd4a5847637cfb3401a5af1ccfdd'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/decision_snapshot.yaml', reason: 'Mark authority and run directives', task: 'apply no-new-decision, KML, WORKING_GEO and no-route rules', expected_git_blob_sha: '057aee6221364a126a960a1ee4b177e418da9c94'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/location_id_plan.yaml', reason: 'permanent 400-499 allocation plan', task: 'verify all inherited and new assignments without reuse or renumbering', expected_git_blob_sha: '241377bb76f6c1a70100ad614ddc924fd9c27f53'}
+  - {path: 'knowledge/places/registry.jsonl', reason: 'canonical place registry and allowed integration target', task: 'prepare deterministic record integration without creating status decisions', expected_git_blob_sha: '3aa17754af90f45dd5a122a14b2fb98f1f87a485'}
+  - {path: 'decisions/INDEX.yaml', reason: 'canonical decision index and allowed integration target', task: 'link only existing decision IDs and create no new decision', expected_git_blob_sha: '2ce46e9b7328da8ab4a5301b81a707777d967466'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/manifest.yaml', reason: 'authoritative ZILVER inventory and hashes', task: 'validate all predecessor counts, files, repairs and completion assertions', expected_git_blob_sha: '3b68eb78f12b884434bca0d543c6d12375c6bb72'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/handoff.yaml', reason: 'risk-based ZILVER-to-GOUD handoff', task: 'reopen every OPEN and high-risk CORRECTED layer', expected_git_blob_sha: '730f652840bf49c8fe7407a4fc486196fe45a51a'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/COMPLETED', reason: 'ZILVER completion sentinel', task: 'verify PARTIAL status, complete output list and repaired atomic completion', expected_git_blob_sha: 'af4f4617216ea1c3472ade4fa3f0e23a3d4700cb'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/report/INDEX.md', reason: 'mandatory ZILVER report order', task: 'open all four report parts through explicit optional triggers', expected_git_blob_sha: 'd16a0a3b01d23e1545597d43b069b845c770cb1e'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/claims.jsonl', reason: 'seventy-seven atomic ZILVER claims', task: 'validate all final load-bearing, corrected and open claims', expected_git_blob_sha: '910f2807247c5547bcf1fc9fc063217a0adb8e2b'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/sources/registry.jsonl', reason: 'accepted ZILVER source register', task: 'validate all material accepted sources and suitable domains', expected_git_blob_sha: '1d94e01394ddf2d805d37b2f03a4620149c5dfc4'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/sources/rejected.jsonl', reason: 'rejected ZILVER source register', task: 'validate unique rejected-source resolution and exclusions', expected_git_blob_sha: 'baacf28eec16da41d17f3679f167ba8a54754a0a'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/candidates.jsonl', reason: 'complete forty-seven-candidate register', task: 'preserve every candidate, status layer, alias and physical identity', expected_git_blob_sha: '28ec04c9cea0a0b5cc07757909a76b93b6ea402e'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/working_geo.jsonl', reason: 'corrected forty-seven-record WORKING_GEO register', task: 'produce final GEO records and retain honest micro-site uncertainty', expected_git_blob_sha: '4a2765d86e77b1c660cdfa00a6e60bc07967c143'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/practical_access.jsonl', reason: 'place-specific access and participation layer', task: 'finalize practical checks without weakening confirmed spiritual meaning', expected_git_blob_sha: '1c99a22cae17d69173802369f988f7bd27c7f10b'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/KUMAON_ZILVER_WORKING.kml', reason: 'validated seven-layer predecessor KML', task: 'deliver the final run-local KUMAON_COMPLETE.kml after GEO and marker validation', expected_git_blob_sha: 'd1cb312ec9329853e2c290a2e447256cfbc1aa78'}
+optional_files:
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/report/01_verified_candidate_map.md', trigger: 'always after report/INDEX.md', reason: 'candidate and confirmation narrative', task: 'verify preservation and final candidate meaning', expected_git_blob_sha: 'ac51eb75c3a03bad0c8b0208a7f82d1f086beadd'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/report/02_access_experience_and_visuals.md', trigger: 'always; experience, images and access remain open or high-risk', reason: 'access and experience narrative', task: 'retain shortages and finalize concrete controls', expected_git_blob_sha: '2e2e9cfcd13dd31ac2cfaf81cb3a0bc3421be694'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/report/03_geo_connections_and_map.md', trigger: 'always; GEO and proximity are corrected high-risk layers', reason: 'GEO and connections narrative', task: 'validate route-optimization input without selecting a route', expected_git_blob_sha: 'a3ce271d51d167b8aa9b769af23f3af2ae542ddb'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/report/04_conclusion_and_gate.md', trigger: 'always; predecessor status is PARTIAL', reason: 'ZILVER conclusion and gate', task: 'test whether final GOUD status can be PASS or remains PARTIAL', expected_git_blob_sha: 'a91b82164ca7d0bd9c228e35aa98bfa752b13dd2'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/location_assignments.jsonl', trigger: 'always; permanent ID loss-control is required', reason: 'seventeen assignments 427-443', task: 'verify sequence, uniqueness and permanence', expected_git_blob_sha: '5f015b21775e904ed9dcf9ed4fd958b275430227'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/detector_checks.jsonl', trigger: 'always; cluster completeness must be finalized', reason: 'nine verified detector records', task: 'verify no required physical detector was lost', expected_git_blob_sha: 'ca7dc8d856e6db8963c7556a20a8a96b5b17417a'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/negative_searches.jsonl', trigger: 'always; negative conclusions remain bounded evidence', reason: 'eight negative-search records', task: 'retain absence wording without converting it to proof', expected_git_blob_sha: '515578066c15050f6481ae490c795733d78085f8'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/base_comparison.jsonl', trigger: 'always; factual base readiness is in scope', reason: 'nine base records without winner', task: 'validate comparable facts and preserve no-choice boundary', expected_git_blob_sha: '6bf244c28f02611ba033f338d62903537b843e2e'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/station_and_route_nodes.jsonl', trigger: 'always; station readiness is in scope', reason: 'four station and route-node records', task: 'verify identity and time-sensitive December checks', expected_git_blob_sha: '169bd9376c4fce754cb8387987d5e629f7af7d00'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/proximity.jsonl', trigger: 'always; proximity is high-risk CORRECTED', reason: 'thirty-two working connections', task: 'produce final geo_connections with honest time classes', expected_git_blob_sha: 'f75dc0782077d0c455e6203ee5d77e88924fba7b'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/map_source.jsonl', trigger: 'always; final KML and map integrity are mandatory', reason: 'central forty-seven-record map source', task: 'verify one-to-one layer and candidate coverage', expected_git_blob_sha: '548be6a5a902192b0325888ff342af933fdd205d'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/images.jsonl', trigger: 'always; image layer remains high-risk OPEN', reason: 'explicit image leads and shortages', task: 'preserve honest ten-function shortages in final report', expected_git_blob_sha: '780822e2341a51fc81531d8676d5e470c6959266'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/experience_reviews.jsonl', trigger: 'always; experience layer remains high-risk OPEN', reason: 'experience and review register', task: 'retain limited review themes and explicit shortages', expected_git_blob_sha: 'd45ae50061e0dcb680a3af8fe2f8acda0761a4e0'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/formal_status_coverage.md', trigger: 'always; immutable status loss-control', reason: 'formal status coverage', task: 'confirm 16 A, 1 B and 4 C remain unchanged', expected_git_blob_sha: 'd11dfd0188e0f0d1739289635139fe2291d2fdcf'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/completeness_matrix.md', trigger: 'always; final readiness decision required', reason: 'ZILVER completeness matrix', task: 'resolve or retain each PARTIAL layer', expected_git_blob_sha: '513e60109c0d1981c75b8f85a79f98c833327d95'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/audit.md', trigger: 'always; predecessor repairs and technical assertions require final validation', reason: 'ZILVER technical audit', task: 'validate repaired completion, counts and forbidden actions', expected_git_blob_sha: '886ad74e8874bcd0dfcf3ff8235870c188ae85fb'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/BRONS/manifest.yaml', trigger: 'always for loss-control because ZILVER corrected GEO and access layers', reason: 'authoritative BRONS inventory', task: 'verify no predecessor artifact class was lost', expected_git_blob_sha: '32872e83bc5b0444872c4df9fb2879bce4d494a4'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/BRONS/handoff.yaml', trigger: 'always for original-open-layer comparison', reason: 'BRONS risk handoff', task: 'confirm GOUD addresses or explicitly retains every original high-risk gap', expected_git_blob_sha: '1dd7273abe149dbc0ed8d21aada9ae4ad3c75efb'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/BRONS/candidates.jsonl', trigger: 'always for candidate loss-control after ZILVER corrections', reason: 'BRONS candidate baseline', task: 'verify all forty-seven records survive', expected_git_blob_sha: 'af30c871b822591f80c88338b77e8f1f96345203'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/BRONS/working_geo.jsonl', trigger: 'always for corrected GEO comparison', reason: 'BRONS GEO baseline', task: 'trace Mayavati and every other point correction', expected_git_blob_sha: 'ed0fdea3398cc01a261dd6e0ffb5c0d47a8cbf3b'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/BRONS/map_source.jsonl', trigger: 'always for map loss-control', reason: 'BRONS map baseline', task: 'verify layer and marker preservation', expected_git_blob_sha: '162568cc6608ee3108f5034f0735e56e53f56af3'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/BRONS/KUMAON_BRONS_WORKING.kml', trigger: 'always for KML loss-control', reason: 'BRONS seven-layer KML baseline', task: 'verify the final KML preserves all valid markers and corrections', expected_git_blob_sha: '2a0e1f77a4591940ff61b28585f802a172ce24f5'}
+forbidden_files:
+  - 'research/completed/**'
+  - 'research/active/KUMAON-ROUTE-OPTIMIZATION-001/**'
+  - 'research/active/VRINDAVAN-KUMAON-CORRIDOR-001/** except compact predecessor files already incorporated in this run'
+  - 'pipeline/**/PARELS/**'
+  - 'every repository file not listed in required_files or activated by an explicit optional_files trigger'
+priority_order:
+  - research/active/KUMAON-COMPLETE-001/run.yaml
+  - research/active/KUMAON-COMPLETE-001/state.yaml
+  - research/active/KUMAON-COMPLETE-001/events.jsonl
+  - research/active/KUMAON-COMPLETE-001/scope.md
+  - research/active/KUMAON-COMPLETE-001/ZILVER/manifest.yaml
+  - research/active/KUMAON-COMPLETE-001/ZILVER/handoff.yaml
+  - research/active/KUMAON-COMPLETE-001/ZILVER/COMPLETED
+  - research/active/KUMAON-COMPLETE-001/ZILVER/report/INDEX.md
+  - research/active/KUMAON-COMPLETE-001/ZILVER/claims.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/sources/registry.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/sources/rejected.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/candidates.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/working_geo.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/KUMAON_ZILVER_WORKING.kml
+maximum_context_budget: {required_files: 35, optional_files_maximum_when_triggered: 22, lines_per_file: 1500}
+predecessor_manifest: research/active/KUMAON-COMPLETE-001/ZILVER/manifest.yaml
+output_path: research/active/KUMAON-COMPLETE-001/GOUD/
+completion_destination: VOOR_MARK
+post_completion:
+  mode: MARK_FINAL_REPORT
+  target_role: MARK
+  emit_next_role_handoff: false
+  report_template: pipeline/templates/MARK_FINAL_REPORT_TEMPLATE.md
+  canonical_integration:
+    mode: DETERMINISTIC_NON_DECISIONAL
+    proposal_template: pipeline/templates/CANONICAL_INTEGRATION_PROPOSAL_TEMPLATE.md
+    allowed_registry_path: knowledge/places/registry.jsonl
+    allowed_decisions_index_path: decisions/INDEX.yaml
+    forbid_new_or_changed_abc: true
+    forbid_new_decision_id: true
+    require_mark_decision_on_content_choice: true
+END_OF_ARTIFACT

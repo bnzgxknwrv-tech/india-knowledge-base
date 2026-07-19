@@ -1,7 +1,7 @@
 schema_version: 3
 run_id: KUMAON-COMPLETE-001
-state: TRANSITION_TO_GOUD_CLAIMED
-active_role: null
+state: READY_FOR_GOUD
+active_role: GOUD
 claim:
   role: ZILVER
   claimed_by: ChatGPT-ZILVER
@@ -22,8 +22,10 @@ controller_claim:
   expected_state: ZILVER_COMPLETE
   target_context_manifest: research/active/KUMAON-COMPLETE-001/context/GOUD_CONTEXT.yaml
   activation_mode: INLINE_POST_PHASE_CONTROLLER
-  claim_status: ACTIVE
-  claim_commit_ref: THIS_ATOMIC_COMMIT
+  claim_status: CLOSED
+  closed_at: 2026-07-19T18:59:00+02:00
+  transition_commit: THIS_ATOMIC_COMMIT
+  transition_commit_ref: THIS_ATOMIC_COMMIT
 completion_repair:
   transient_commits:
     - 25e410a1af2f5e832e5ba548701f95f88bacce01
@@ -34,14 +36,14 @@ claim_order_validation:
   status: VALID_BY_GIT_ANCESTRY
   claim_commit: 7a358b6d2625945f4967207580cfdbda79816128
   metadata_repair_event: EVT-0009
-last_event_id: EVT-0013
+last_event_id: EVT-0015
 last_validated_commit: 55fc0924b29ac3e006efc8b5c5f095a561b41b56
 blockers:
   - Exact identity, access and GEO remain open for K. K. Sah house, Bodh Ashram and the Vivekananda cave.
   - Complete ten-function image and systematic recent-review coverage remains absent.
   - Live December 2026 rail, winter-road, trail, taxi and travel-time conditions remain time-sensitive.
-context_profile: ZILVER_MIN
-active_context_manifest: research/active/KUMAON-COMPLETE-001/context/ZILVER_CONTEXT.yaml
+context_profile: GOUD_MIN
+active_context_manifest: research/active/KUMAON-COMPLETE-001/context/GOUD_CONTEXT.yaml
 location_id_blocks:
   corridor_nodes_preserved: 300-399
   kumaon: 400-499
@@ -51,8 +53,15 @@ working_geo: true
 run_local_complete_kml_required: true
 parels_layer_active: false
 parallel_writers_allowed: false
-inline_handoff_active: true
-post_completion_mode: INLINE_POST_PHASE_CONTROLLER
-next_role_after_zilver: GOUD
-completion_destination: VOOR_VOLGEND_METAAL
+inline_handoff_active: false
+post_completion_mode: MARK_FINAL_REPORT
+next_role_after_goud: MARK
+completion_destination: VOOR_MARK
+canonical_integration:
+  mode: DETERMINISTIC_NON_DECISIONAL
+  allowed_registry_path: knowledge/places/registry.jsonl
+  allowed_decisions_index_path: decisions/INDEX.yaml
+  forbid_new_or_changed_abc: true
+  forbid_new_decision_id: true
+  require_mark_decision_on_content_choice: true
 END_OF_ARTIFACT
