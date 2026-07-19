@@ -1,0 +1,85 @@
+schema_version: 1
+run_id: KUMAON-COMPLETE-001
+completed_role: BRONS
+result_status: PARTIAL
+output_manifest_path: research/active/KUMAON-COMPLETE-001/BRONS/manifest.yaml
+next_role: ZILVER
+next_expected_transition: CONTROLLER_TRANSITION_TO_ZILVER
+layer_statuses:
+  physical_identity:
+    status: OPEN
+    risk: MEDIUM
+    reason: Forty-seven physical or route/base objects are mapped; small private or historic micro-sites need verification.
+    reopen_instruction: VERIFY_DRAGGING_CLAIMS
+  institution:
+    status: OPEN
+    risk: MEDIUM
+    reason: Major official institutions are established; Bodh Ashram, private sites and several small objects remain open.
+    reopen_instruction: VERIFY_DRAGGING_CLAIMS
+  history_tradition_lineage:
+    status: OPEN
+    risk: HIGH
+    reason: Direct-line findings are strong but all load-bearing Babaji, Ram Dass, Vivekananda, Anandamayi and Haidakhandi claims require independent verification.
+    reopen_instruction: VERIFY_ALL
+  devotional_practice_and_participation:
+    status: OPEN
+    risk: HIGH
+    reason: Current participation and visitor rules are incomplete for many locations.
+    reopen_instruction: VERIFY_ALL
+  experience_reviews_and_images:
+    status: OPEN
+    risk: HIGH
+    reason: Complete ten-function image dossiers and systematic recent review analyses are absent for most candidates.
+    reopen_instruction: VERIFY_ALL
+  visitability_and_practicality:
+    status: OPEN
+    risk: HIGH
+    reason: Winter roads, trails, private access, parking, taxis and date-specific services remain time-sensitive.
+    reopen_instruction: VERIFY_ALL
+  proximity_and_cluster_effect:
+    status: OPEN
+    risk: HIGH
+    reason: Thirty-two working connections support comparison but require live verification before optimization.
+    reopen_instruction: VERIFY_ALL
+  formal_status_coverage:
+    status: ACCEPTED
+    risk: LOW
+    reason: All 16 A, 1 B and 4 C are present and unchanged.
+    reopen_instruction: MOTIVATED_SAMPLE
+  location_ids_and_kml:
+    status: OPEN
+    risk: MEDIUM
+    reason: All IDs and 47 placemarks are coherent; several WORKING_GEO points require verification.
+    reopen_instruction: VERIFY_ALL
+routing_rule: >-
+  ZILVER reopens all OPEN layers and all load-bearing claims; no formal or advisory A/B/C may be assigned.
+open_blockers:
+  - Verify exact identity, access and GEO for K. K. Sah house, Bodh Ashram, Vivekananda cave and small Almora historic sites.
+  - Verify outer-Kumaon WORKING_GEO and access for Mayavati and Shyamla Tal.
+  - Build complete current image and review coverage or preserve explicit shortages.
+  - Verify winter roads, trails, parking, taxis, travel times and December 2026 rail connections.
+  - Preserve the no-route/no-base-choice boundary while testing route-optimization readiness.
+required_predecessor_files:
+  - research/active/KUMAON-COMPLETE-001/BRONS/manifest.yaml
+  - research/active/KUMAON-COMPLETE-001/BRONS/report/INDEX.md
+  - research/active/KUMAON-COMPLETE-001/BRONS/claims.jsonl
+  - research/active/KUMAON-COMPLETE-001/BRONS/sources/registry.jsonl
+  - research/active/KUMAON-COMPLETE-001/BRONS/sources/rejected.jsonl
+  - research/active/KUMAON-COMPLETE-001/BRONS/candidates.jsonl
+  - research/active/KUMAON-COMPLETE-001/BRONS/detector_checks.jsonl
+  - research/active/KUMAON-COMPLETE-001/BRONS/negative_searches.jsonl
+  - research/active/KUMAON-COMPLETE-001/BRONS/working_geo.jsonl
+  - research/active/KUMAON-COMPLETE-001/BRONS/location_assignments.jsonl
+  - research/active/KUMAON-COMPLETE-001/BRONS/practical_access.jsonl
+  - research/active/KUMAON-COMPLETE-001/BRONS/base_comparison.jsonl
+  - research/active/KUMAON-COMPLETE-001/BRONS/station_and_route_nodes.jsonl
+  - research/active/KUMAON-COMPLETE-001/BRONS/proximity.jsonl
+  - research/active/KUMAON-COMPLETE-001/BRONS/map_source.jsonl
+  - research/active/KUMAON-COMPLETE-001/BRONS/images.jsonl
+  - research/active/KUMAON-COMPLETE-001/BRONS/experience_reviews.jsonl
+  - research/active/KUMAON-COMPLETE-001/BRONS/KUMAON_BRONS_WORKING.kml
+  - research/active/KUMAON-COMPLETE-001/BRONS/formal_status_coverage.md
+  - research/active/KUMAON-COMPLETE-001/BRONS/completeness_matrix.md
+  - research/active/KUMAON-COMPLETE-001/BRONS/audit.md
+future_source_commit: null
+END_OF_ARTIFACT
