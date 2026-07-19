@@ -1,0 +1,37 @@
+PARTIAL
+run_id: KUMAON-COMPLETE-001
+role: ZILVER
+source_commit: 9afdbb21ab4cb202144c2a6346218d6e1a3639aa
+outputs:
+  - manifest.yaml
+  - report/INDEX.md
+  - report/01_verified_candidate_map.md
+  - report/02_access_experience_and_visuals.md
+  - report/03_geo_connections_and_map.md
+  - report/04_conclusion_and_gate.md
+  - candidates.jsonl
+  - claims.jsonl
+  - sources/registry.jsonl
+  - sources/rejected.jsonl
+  - detector_checks.jsonl
+  - negative_searches.jsonl
+  - working_geo.jsonl
+  - location_assignments.jsonl
+  - practical_access.jsonl
+  - base_comparison.jsonl
+  - station_and_route_nodes.jsonl
+  - proximity.jsonl
+  - map_source.jsonl
+  - images.jsonl
+  - experience_reviews.jsonl
+  - KUMAON_ZILVER_WORKING.kml
+  - formal_status_coverage.md
+  - completeness_matrix.md
+  - audit.md
+  - handoff.yaml
+highest_gaps:
+  - Exact identity, access and GEO remain open for K. K. Sah house, Bodh Ashram and the Vivekananda cave.
+  - Complete ten-function image and systematic recent-review coverage remains absent.
+  - Live December 2026 rail, winter-road, trail, taxi and travel-time conditions remain time-sensitive.
+validation: All required ZILVER artifacts were reopened from GitHub; sentinels, 47 candidates, 77 claims, 39 accepted sources, 8 rejected sources, 47 GEO records, 32 connections and 47 KML placemarks in seven layers are structurally coherent. Mayavati GEO was corrected. All formal statuses and LOCATION_IDs were preserved. No formal or advisory A/B/C, PARELS, hotel, base, station or route choice was made. The transient partial commits 25e410a1af2f5e832e5ba548701f95f88bacce01 and 91c1c1f7f9a7e7e8eb1403c10e33cbe4ade02085 were not accepted as completion and are repaired append-only in the final atomic completion commit.
+END_OF_ARTIFACT
