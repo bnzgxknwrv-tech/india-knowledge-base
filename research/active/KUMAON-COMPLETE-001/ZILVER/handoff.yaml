@@ -1,0 +1,83 @@
+schema_version: 1
+run_id: KUMAON-COMPLETE-001
+completed_role: ZILVER
+result_status: PARTIAL
+output_manifest_path: research/active/KUMAON-COMPLETE-001/ZILVER/manifest.yaml
+next_role: GOUD
+next_expected_transition: CONTROLLER_TRANSITION_TO_GOUD
+layer_statuses:
+  physical_identity:
+    status: CORRECTED
+    risk: MEDIUM
+    reason: All records retained; Mayavati corrected; three micro-sites remain explicitly open.
+    reopen_instruction: VERIFY_DRAGGING_CLAIMS
+  institution:
+    status: CORRECTED
+    risk: MEDIUM
+    reason: Current institutions and stay rules strengthened; Bodh Ashram management remains open.
+    reopen_instruction: VERIFY_DRAGGING_CLAIMS
+  history_tradition_lineage:
+    status: ACCEPTED
+    risk: MEDIUM
+    reason: Load-bearing lineage claims independently verified; Turiya history remains reported only.
+    reopen_instruction: MOTIVATED_SAMPLE
+  devotional_practice_and_participation:
+    status: CORRECTED
+    risk: MEDIUM
+    reason: Place-specific participation and reservation restrictions replace generic rows.
+    reopen_instruction: VERIFY_OPEN_ENTRANCES
+  experience_reviews_and_images:
+    status: OPEN
+    risk: HIGH
+    reason: Complete ten-function images and systematic current reviews remain absent.
+    reopen_instruction: VERIFY_ALL
+  visitability_and_practicality:
+    status: CORRECTED
+    risk: HIGH
+    reason: Official rules captured; live winter, date-specific and private-site access remains open.
+    reopen_instruction: VERIFY_ALL
+  proximity_and_cluster_effect:
+    status: CORRECTED
+    risk: HIGH
+    reason: Thirty-two WORKING connections retained without route selection.
+    reopen_instruction: VERIFY_ALL
+  formal_status_coverage:
+    status: ACCEPTED
+    risk: LOW
+    reason: All 16 A, 1 B and 4 C remain present and unchanged.
+    reopen_instruction: MOTIVATED_SAMPLE
+  location_ids_and_kml:
+    status: CORRECTED
+    risk: MEDIUM
+    reason: Mayavati corrected; 47 records and seven layers retained.
+    reopen_instruction: VERIFY_ALL
+routing_rule: GOUD reopens OPEN, high-risk CORRECTED and dragende claims required for release.
+open_blockers:
+  - Exact micro-site identity/access/GEO remains open for K. K. Sah house, Bodh Ashram and Vivekananda cave.
+  - Complete ten-function image and systematic recent-review coverage remains absent.
+  - Live December 2026 train, winter-road, trail, taxi and travel-time conditions remain time-sensitive.
+required_predecessor_files:
+  - research/active/KUMAON-COMPLETE-001/ZILVER/manifest.yaml
+  - research/active/KUMAON-COMPLETE-001/ZILVER/report/INDEX.md
+  - research/active/KUMAON-COMPLETE-001/ZILVER/claims.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/sources/registry.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/sources/rejected.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/candidates.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/detector_checks.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/negative_searches.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/working_geo.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/location_assignments.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/practical_access.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/base_comparison.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/station_and_route_nodes.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/proximity.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/map_source.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/images.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/experience_reviews.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/KUMAON_ZILVER_WORKING.kml
+  - research/active/KUMAON-COMPLETE-001/ZILVER/formal_status_coverage.md
+  - research/active/KUMAON-COMPLETE-001/ZILVER/completeness_matrix.md
+  - research/active/KUMAON-COMPLETE-001/ZILVER/audit.md
+future_source_commit: null
+
+END_OF_ARTIFACT
