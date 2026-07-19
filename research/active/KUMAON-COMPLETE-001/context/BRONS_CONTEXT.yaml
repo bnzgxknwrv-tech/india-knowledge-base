@@ -1,0 +1,270 @@
+schema_version: 3
+run_id: KUMAON-COMPLETE-001
+role: BRONS
+status: READY
+source_commit: a10c848b7fe203a32563675293a6d2e0de484728
+context_profile: BRONS_MIN
+protocol_versions:
+  pipeline: 3.1.1
+  methodology: 3.0.0
+  execution_protocol: 2.3.1
+  controller_transition_protocol: 2.3.1
+  role_handoff_protocol: 1.1
+required_files:
+  - path: pipeline/ENTRYPOINT.md
+    reason: single executable entrypoint and mandatory GitHub preflight
+    task: obey startup, stop conditions, role order and inline-handoff boundary
+    expected_git_blob_sha: 2cb50f0e6307bded90da1bb7418e103791c96dd4
+  - path: pipeline/roles/BRONS.md
+    reason: v3.1.1 broad-detection role contract
+    task: execute BRONS only, create no formal or advisory A/B/C and stop the worker before inline controller activation
+    expected_git_blob_sha: 3074c2276411e98e750fb37661096a4e33b85abb
+  - path: knowledge/methodology/METHODOLOGY_V2.md
+    reason: physical-place, lineage, devotion, participation, experience and completeness methodology
+    task: apply all candidate layers and detector rules
+    expected_git_blob_sha: cba69457b46f26f60a4775a848f9fc4bf01000ff
+  - path: pipeline/protocols/EVIDENCE_PROTOCOL.md
+    reason: atomized claims, confirmation domains and source integrity
+    task: create typed claims and accepted/rejected source registers with valid source IDs
+    expected_git_blob_sha: 5d853e6dae868495782363d0864f641fa2747186
+  - path: pipeline/QUALITY_GATE.md
+    reason: technical, candidate, devotional, visual, proximity and completeness gate
+    task: validate every mandatory layer and artifact before completion
+    expected_git_blob_sha: 8c9d39ed09e8992d785baf15d727a920ccdbb0c0
+  - path: pipeline/protocols/EXECUTION_PROTOCOL.md
+    reason: claim lifecycle, source pinning, write scope, completion and inline mode
+    task: claim BRONS, close the workerclaim in the completioncommit and do no phase writes after role termination
+    expected_git_blob_sha: f384e45c824ea4c10194dbf476b30b61312a0ed2
+  - path: pipeline/protocols/LONG_RUNNING_EXECUTION_PROTOCOL.md
+    reason: this complete geographic sweep may exceed one worker session
+    task: checkpoint under the same active claim before session exhaustion and never repeat completed research blocks
+    expected_git_blob_sha: 0640c6af87df2ed94155fa5b04b377c2e729161a
+  - path: pipeline/protocols/CONTEXT_PROTOCOL.md
+    reason: deterministic internal read boundary
+    task: read only this manifest and its listed required or triggered optional files
+    expected_git_blob_sha: 872bce45f01e276d76dc65479c09e71dc72a15de
+  - path: pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md
+    reason: separately bounded inline BRONS-to-ZILVER transition after worker completion
+    task: reread only after the BRONS workerrole has ended and perform controller-only writes
+    expected_git_blob_sha: 0c52ebc9a2be47583e08619c6422efad582619b3
+  - path: pipeline/protocols/SELF_ROUTING_PROTOCOL.md
+    reason: deterministic completion and next-role routing
+    task: emit a ZILVER prompt only after valid transition readback
+    expected_git_blob_sha: b6b7f07bd7f6c946ba35776124f8fa6e6ced564c
+  - path: pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md
+    reason: explicit worker/controller role separation and next-chat handoff
+    task: close the workerclaim, switch roles, create a separate controllerclaim and hand off only when NEXT_ROLE_READY is valid
+    expected_git_blob_sha: f4663ed3049f5d5586fcf6fc98d8c64a292b1998
+  - path: pipeline/protocols/GEO_LOCATION_PROTOCOL.md
+    reason: permanent LOCATION_ID and map-point integrity
+    task: preserve identifiers and maintain visible point type, accuracy and uncertainty
+    expected_git_blob_sha: 149c0515010930ec9306a6d68f5beb2a7b3bbe91
+  - path: pipeline/CONTEXT_PROFILES.yaml
+    reason: BRONS_MIN proportional context rules
+    task: avoid unlisted repository exploration and predecessor narrative inflation
+    expected_git_blob_sha: 4526bb1fe5e3605d63af45d81f8efb152bef1863
+  - path: pipeline/templates/NEXT_ACTION_V3_TEMPLATE.yaml
+    reason: exact v3 routing schema for the later inline controller
+    task: use only after worker completion when updating NEXT_ACTION to ZILVER
+    expected_git_blob_sha: 7ad211a3f1f6da02643c52b60b4839f9facbc87d
+  - path: pipeline/templates/NEXT_ROLE_HANDOFF_TEMPLATE.md
+    reason: operational ZILVER handoff format
+    task: emit only after transition, closed claims and final readback
+    expected_git_blob_sha: 048ed3df254d0e98ac7c94c943dcfe122214633a
+  - path: pipeline/templates/HANDOFF_LAYER_STATUS_TEMPLATE.yaml
+    reason: risk-based phase layer handoff
+    task: classify each substantive layer as ACCEPTED, CORRECTED, OPEN or NOT_APPLICABLE
+    expected_git_blob_sha: 335f43721be70f999ccc43f4d1873108ac42c6db
+  - path: research/active/KUMAON-COMPLETE-001/run.yaml
+    reason: immutable run identity, production gate, pins and post-completion policy
+    task: verify CLUSTER_SWEEP, BRONS_MIN, inline handoff, deterministic integration and status prohibitions
+    expected_git_blob_sha: cc26ba82a8d4fafee228bb7aac5f56d7378880f9
+  - path: research/active/KUMAON-COMPLETE-001/scope.md
+    reason: complete geographic, detector, practical, base-comparison, KML and completeness contract
+    task: execute every mandatory subcluster and artifact without choosing the final route or base
+    expected_git_blob_sha: bd03682b3169d04a98ec5812e3e5b4925422867b
+  - path: research/active/KUMAON-COMPLETE-001/state.yaml
+    reason: executable state and claim check
+    task: require READY_FOR_BRONS, no active claim and EVT-0001 synchronization before claiming
+    expected_git_blob_sha: 6c500f23db94fd18f3b24c4782bd3506637391fb
+  - path: research/active/KUMAON-COMPLETE-001/events.jsonl
+    reason: append-only state cursor and run-creation evidence
+    task: verify the RUN_CREATED event matches READY_FOR_BRONS
+    expected_git_blob_sha: be5982a548b7e789791287afa1313b61b536582e
+  - path: research/active/KUMAON-COMPLETE-001/formal_status_snapshot.yaml
+    reason: immutable Kumaon formal A/B/C subset
+    task: preserve all 16 A, 1 B and 4 C and never assign or change status
+    expected_git_blob_sha: 8681d0776d1acd4a5847637cfb3401a5af1ccfdd
+  - path: research/active/KUMAON-COMPLETE-001/decision_snapshot.yaml
+    reason: compact relevant Mark-decision and run-directive set
+    task: apply authority, KML, WORKING_GEO, no-inflation and no-new-decision rules
+    expected_git_blob_sha: 057aee6221364a126a960a1ee4b177e418da9c94
+  - path: research/active/KUMAON-COMPLETE-001/known_locations_snapshot.yaml
+    reason: complete known seed list for formal, unassessed, station and base objects
+    task: investigate every seed and search beyond it through all mandatory detectors
+    expected_git_blob_sha: fbd4a4705349966751308846795a500ea508d019
+  - path: research/active/KUMAON-COMPLETE-001/location_id_plan.yaml
+    reason: exact existing assignments and reserved free Kumaon range
+    task: preserve 400-426 and assign only 427-499 after physical identity is established
+    expected_git_blob_sha: 241377bb76f6c1a70100ad614ddc924fd9c27f53
+  - path: research/active/KUMAON-COMPLETE-001/predecessor_context.md
+    reason: compact accepted predecessor continuity without rerunning the old INDIA2 assessment
+    task: preserve validated facts and treat unresolved Kumaon questions as the new scope
+    expected_git_blob_sha: ebcafc6b9a7c3af316177f72bb365a4c6062adae
+  - path: research/active/KUMAON-COMPLETE-001/predecessor_geo_snapshot.jsonl
+    reason: compact existing Kumaon and arrival-node WORKING_GEO layer
+    task: retain, verify, refine or visibly correct every predecessor point; never silently remove it
+    expected_git_blob_sha: 8b13d5f930ef54ca95e79fd00ada7f4c562b40f3
+  - path: knowledge/places/registry.jsonl
+    reason: canonical global place registry
+    task: prevent duplicate physical records and preserve existing canonical IDs
+    expected_git_blob_sha: 3aa17754af90f45dd5a122a14b2fb98f1f87a485
+  - path: knowledge/places/NUMBERING_POLICY.md
+    reason: permanent global place and LOCATION_ID policy
+    task: never reuse, renumber or cross-assign identifiers
+    expected_git_blob_sha: 99c7934a87fde4120404d8f97fb5d73ed0df5359
+  - path: knowledge/places/location_blocks.yaml
+    reason: non-overlapping cluster blocks and inherited Kumaon block
+    task: use only 400-499 for Kumaon and preserve corridor node IDs 308-310
+    expected_git_blob_sha: 17ea08ec7e62eb08f2c03565d6c659a1df0957f5
+  - path: decisions/INDEX.yaml
+    reason: canonical existing decision index
+    task: resolve referenced decisions and create no new decision ID
+    expected_git_blob_sha: 2ce46e9b7328da8ab4a5301b81a707777d967466
+optional_files:
+  - path: pipeline/protocols/CONTINUOUS_LEARNING_PROTOCOL.md
+    trigger: only after the BRONS workerrole has formally ended and the separate inline controllerrole begins
+    reason: classify transition defects without changing research output
+    task: apply during controller transition only
+    expected_git_blob_sha: 38186f203d33623fc11476d712410284cb49b95b
+  - path: pipeline/tests/results/PIPELINE_HANDOFF_SMOKE_001_RESULT.md
+    trigger: only when the production-gate value or implementation-on-main status is questioned
+    reason: production authorization evidence
+    task: require SMOKE_TEST_STATUS PASS and PRODUCTION_READY YES
+    expected_git_blob_sha: 82e1b743bf6d4869da6a142596ce7189caae6789
+  - path: LOCKED_A.md
+    trigger: only for exact loss-control against formal_status_snapshot.yaml
+    reason: source authority for formal A
+    task: do not reassess or change formal A
+    expected_git_blob_sha: 4f2a9a1adf2f8046652035a72b8b76bce884d012
+  - path: LOCKED_B.md
+    trigger: only for exact loss-control against formal_status_snapshot.yaml
+    reason: source authority for formal B
+    task: do not reassess or change formal B
+    expected_git_blob_sha: ee35ea06ee760563344640103680cb28ae67ea1d
+  - path: LOCKED_C.md
+    trigger: only for exact loss-control against formal_status_snapshot.yaml
+    reason: source authority for formal C
+    task: retain every C in datasets and KML
+    expected_git_blob_sha: 1259ef443192cad88a1c311bfaf0016ce757aa15
+  - path: decisions/DECISION-0001-haidakhan-A.md
+    trigger: when researching Haidakhan or a Babaji-identity claim
+    reason: formal Haidakhan A and identity nuance
+    task: preserve A and never equate Haidakhan Baba with Mahavatar Babaji as fact
+    expected_git_blob_sha: 916c325a805814b229d0bb897083486b46f3f6fb
+  - path: decisions/DECISION-0002-bhumiyadhar-A.md
+    trigger: when researching Bhumiyadhar or the Ram Dass-Maharaj-ji encounter
+    reason: formal Bhumiyadhar A and event basis
+    task: preserve A and separate temple grounds from an unverified exact meeting point
+    expected_git_blob_sha: 72cd328f1c46800657a4cb48cc47a1f9b991879c
+  - path: decisions/DECISION-0005-tradition-confirmation-devotional-reporting-and-advisory-ratings.md
+    trigger: when a lineage, tradition or devotional claim needs exact authority wording
+    reason: confirmation domains and status authority
+    task: do not degrade lineage/tradition and assign no advisory A/B/C
+    expected_git_blob_sha: 584917b02f0003d8641522c91eda6e51a49dd041
+  - path: decisions/DECISION-0006-place-experience-proximity-and-base-selection.md
+    trigger: when building base_comparison or proximity records
+    reason: experience, proximity and base-comparison rules
+    task: provide comparable facts without selecting the winning base
+    expected_git_blob_sha: d7e49ff8806acb576e4bae39d4e4ac2122fba4f3
+  - path: decisions/DECISION-0007-photos-and-strict-abc-semantics.md
+    trigger: when validating visual dossiers or formal status representation
+    reason: ten-image functions and strict A/B/C semantics
+    task: document shortages and keep unassessed separate from formal statuses
+    expected_git_blob_sha: 669f0acddc28d2e7f4e8d4762c13cb1b71a986a9
+  - path: decisions/DECISION-0009-anchor-clusters-travel-time-and-item-proximity.md
+    trigger: when constructing proximity and connection records
+    reason: A-anchor, loop-cluster and realistic travel-time logic
+    task: measure facts without creating the final internal route
+    expected_git_blob_sha: 4debd488dd6a5ac49d703f31b8f6fba3b016eff9
+  - path: decisions/DECISION-0012-place-name-recognition-hooks.md
+    trigger: when writing marker descriptions or report place names
+    reason: readable place recognition hooks
+    task: include physical type and spiritual core in short descriptions
+    expected_git_blob_sha: a6f11d922d43fd103ab50b1da583e13e766acd33
+  - path: decisions/DECISION-0013-location-ids-and-verified-geo-data.md
+    trigger: when assigning a new LOCATION_ID or creating GEO/connection records
+    reason: permanent LOCATION_ID, GEO fields and C retention
+    task: apply exact identifier and connection requirements
+    expected_git_blob_sha: 30c27d37d9b2d40f3da59793672a57b6bcb753a0
+  - path: decisions/DECISION-0014-corridor-strict-a-working-geo-and-kml.md
+    trigger: when applying detector inflation limits, WORKING_GEO fallback or KML semantics
+    reason: A creates a cluster, no cluster inflation, WORKING_GEO and map completeness
+    task: preserve usable uncertain points and avoid ordinary local temple inflation
+    expected_git_blob_sha: f551c60302252c42d249ce142d2dc58d5cc1c0fb
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/formal_status_snapshot.yaml
+    trigger: only when the new formal snapshot has a concrete mismatch
+    reason: predecessor loss-control
+    task: resolve status drift without rerunning content
+    expected_git_blob_sha: e3d63e22a423861371ea4f3977499fc46baf5296
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/location_id_plan.yaml
+    trigger: only when an existing 400-426 assignment or the free start 427 is disputed
+    reason: predecessor ID audit
+    task: prevent collision, reuse or renumbering
+    expected_git_blob_sha: b83b6c9e1db993ab4c8e6cc6822950311e007dc6
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/working_geo.jsonl
+    trigger: only when a predecessor_geo_snapshot point needs original source-detail loss-control
+    reason: full predecessor WORKING_GEO records
+    task: inspect the specific disputed record only
+    expected_git_blob_sha: 2dd7f3e903d2c3be4098167afd8caca2643b3c9d
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/central_map_source.jsonl
+    trigger: only when predecessor layer semantics or marker coverage is disputed
+    reason: predecessor central map source
+    task: inspect the specific disputed record only
+    expected_git_blob_sha: 8551908d851960f989a0e9cea32c28a94c0b40e1
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/report/03_geo_location_ids_and_map_readiness.md
+    trigger: only when predecessor GEO readiness or ID conclusions require loss-control
+    reason: compact GEO and ID validation
+    task: do not reopen the old corridor assessment
+    expected_git_blob_sha: 886a8cd2a5aebdae619f8a1c0e3ffb9114d64d33
+  - path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/transitions/SUBREGIE_FINAL_VALIDATION.md
+    trigger: only when predecessor technical validity is questioned
+    reason: technical predecessor validation
+    task: confirm PASS and preserve the accepted repair boundary
+    expected_git_blob_sha: 56ab94baedecba6604ffcb831eb1bc74cdef840e
+forbidden_files:
+  - research/completed/**
+  - research/active/KUMAON-COMPLETE-001/context/ZILVER_CONTEXT.yaml
+  - research/active/KUMAON-COMPLETE-001/context/GOUD_CONTEXT.yaml
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/**
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/** except optional_files explicitly listed above
+  - pipeline/**/PARELS/**
+  - every repository file not listed in required_files or activated by an explicit optional_files trigger
+priority_order:
+  - research/active/KUMAON-COMPLETE-001/run.yaml
+  - research/active/KUMAON-COMPLETE-001/state.yaml
+  - research/active/KUMAON-COMPLETE-001/events.jsonl
+  - research/active/KUMAON-COMPLETE-001/scope.md
+  - research/active/KUMAON-COMPLETE-001/formal_status_snapshot.yaml
+  - research/active/KUMAON-COMPLETE-001/known_locations_snapshot.yaml
+  - research/active/KUMAON-COMPLETE-001/location_id_plan.yaml
+  - research/active/KUMAON-COMPLETE-001/decision_snapshot.yaml
+  - research/active/KUMAON-COMPLETE-001/predecessor_context.md
+  - research/active/KUMAON-COMPLETE-001/predecessor_geo_snapshot.jsonl
+  - pipeline/roles/BRONS.md
+  - knowledge/methodology/METHODOLOGY_V2.md
+  - pipeline/protocols/EVIDENCE_PROTOCOL.md
+  - pipeline/QUALITY_GATE.md
+maximum_context_budget:
+  required_files: 30
+  optional_files_maximum_when_triggered: 12
+  lines_per_file: 1500
+predecessor_manifest: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/manifest.yaml
+output_path: research/active/KUMAON-COMPLETE-001/BRONS/
+completion_destination: VOOR_VOLGEND_METAAL
+post_completion:
+  mode: INLINE_POST_PHASE_CONTROLLER
+  target_role: ZILVER
+  target_ready_state: READY_FOR_ZILVER
+  emit_next_role_handoff: true
+END_OF_ARTIFACT
