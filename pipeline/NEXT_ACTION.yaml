@@ -1,27 +1,53 @@
-schema_version: 2
-run_id: VRINDAVAN-KUMAON-CORRIDOR-001
-action_id: VRINDAVAN-KUMAON-CORRIDOR-001-INDIA2-001
+schema_version: 3
+run_id: KUMAON-COMPLETE-001
+action_id: KUMAON-COMPLETE-001-BRONS-001
 status: READY
-route: INDIA2
-expected_state: GOUD_PARTIAL
+route: BRONS
+expected_state: READY_FOR_BRONS
+context_manifest: research/active/KUMAON-COMPLETE-001/context/BRONS_CONTEXT.yaml
 entrypoint: pipeline/ENTRYPOINT.md
-operating_mode: CONTROLLED_MANUAL_FAST
+operating_mode: CONTROLLED_MANUAL_INLINE_HANDOFF
 required_connector:
   github_read: true
-  github_write: false
+  github_write: true
+mandatory_first_instruction: >-
+  Activeer in deze chat onmiddellijk de GitHub-connector en houd deze gedurende de volledige uitvoering beschikbaar.
+  Dit onderzoek gebruikt GitHub als enige bron van waarheid en overdrachtskanaal. Test vóór ieder inhoudelijk werk
+  zowel GitHub-read als GitHub-write voor repository bnzgxknwrv-tech/india-knowledge-base. Ontbreekt read of write,
+  antwoord dan uitsluitend: MARK: IK MIS GITHUB CONNECTOR! Ga alleen verder wanneer beide aantoonbaar werken.
 instruction: >-
-  Read research/active/VRINDAVAN-KUMAON-CORRIDOR-001/transitions/SUBREGIE_FINAL_VALIDATION.md first,
-  then read research/active/VRINDAVAN-KUMAON-CORRIDOR-001/transitions/INDIA2_REGISSEUR_PACKAGE.md,
-  research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/decision_inputs.md,
-  research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/report/INDEX.md and the supporting artifacts named there.
-  Produce one compact Dutch decision report for Mark that preserves DOORREIZEN_NAAR_KUMAON and all time-sensitive
-  transport and weather controls. Treat all forty points as WORKING rather than exact visitor entrances; an exact entrance
-  is not a release prerequisite. Preserve all 28 formal A, 2 formal B, 4 formal C and all existing LOCATION_IDs.
-  INDIA2 may give advisory A/B/C, but only Mark may assign formal A/B/C. Do not start new research or a new sweep,
-  create PARELS, build internal Kumaon planning, perform inline-handoff migration or create a complete-project KML.
-  Do not discuss commits, claims, state, events or protocols in Mark's report.
-completion_destination: VOOR_MARK
-created_by: SUBREGIE_INDIA
-created_at: 2026-07-18T22:44:00+02:00
-source_commit: 264bba42b299110689c3b877ce3dbae2cdcf0e6b
+  Voer uitsluitend de BRONS-fase van KUMAON-COMPLETE-001 uit volgens het gepinde BRONS_MIN-contextmanifest.
+  Dit is een volledige geografische en inhoudelijke Kumaon-clustersweep, niet een herbeoordeling van het geaccepteerde
+  INDIA2-rapport van VRINDAVAN-KUMAON-CORRIDOR-001. Onderzoek alle formele en bekende onbeoordeelde fysieke locaties,
+  alle verplichte detectoren en alle geografische subclusters. Leg negatieve zoekresultaten vast. Onderzoek Bhowali,
+  Nainital, Kainchi, Kathgodam, Haldwani en waar relevant Lal Kuan als vergelijkbare mogelijke eerste bases of
+  aankomstknooppunten, maar kies nog geen station, basis, hotel, eerste bezoeklocatie, interne route, laatste Kumaon-locatie
+  of uitreisrichting. Behoud alle formele A/B/C en LOCATION_IDs exact. Ken geen formele of adviserende A/B/C toe en maak
+  geen nieuw decision-ID. Gebruik WORKING_GEO met de gepinde fallback, wijs nieuwe Kumaon-IDs uitsluitend vanaf 427 toe
+  nadat fysieke identiteit voldoende is vastgesteld en houd iedere onderzochte kaartbare locatie zichtbaar. Bouw de volledige
+  eerste Kumaon-KML met de zeven verplichte lagen en alle vereiste bron-, praktische, nabijheids-, basisvergelijkings-,
+  station-, detector-, kandidaten- en compleetheidsartifacts. Maak geen PARELS en geen definitieve route. Gebruik bij een
+  lange uitvoering gecontroleerde checkpoints onder dezelfde workerclaim. Schrijf en valideer alle BRONS-output in GitHub,
+  sluit de workerclaim in de completioncommit en voer daarna uitsluitend de gepinde afzonderlijke inline controllertransition
+  BRONS naar ZILVER uit. Lever alleen bij geldige finale readback een uitvoerbare ZILVER-handoff.
+post_completion:
+  mode: INLINE_POST_PHASE_CONTROLLER
+  transition_protocol: pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md
+  role_handoff_protocol: pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md
+  target_role: ZILVER
+  target_ready_state: READY_FOR_ZILVER
+  emit_next_role_handoff: true
+  report_template: NOT_APPLICABLE
+  completion_destination: VOOR_VOLGEND_METAAL
+  canonical_integration:
+    mode: NOT_APPLICABLE
+    proposal_template: NOT_APPLICABLE
+    allowed_registry_path: NOT_APPLICABLE
+    allowed_decisions_index_path: NOT_APPLICABLE
+    forbid_new_or_changed_abc: true
+    forbid_new_decision_id: true
+    require_mark_decision_on_content_choice: true
+created_by: INDIA2
+created_at: 2026-07-19T10:41:36+02:00
+source_commit: a10c848b7fe203a32563675293a6d2e0de484728
 END_OF_ARTIFACT
