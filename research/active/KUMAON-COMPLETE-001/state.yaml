@@ -1,7 +1,7 @@
 schema_version: 3
 run_id: KUMAON-COMPLETE-001
-state: TRANSITION_TO_ZILVER_CLAIMED
-active_role: CONTROLLER
+state: READY_FOR_ZILVER
+active_role: ZILVER
 claim:
   role: BRONS
   claimed_by: ChatGPT-BRONS
@@ -21,8 +21,10 @@ controller_claim:
   expected_state: BRONS_COMPLETE
   target_context_manifest: research/active/KUMAON-COMPLETE-001/context/ZILVER_CONTEXT.yaml
   activation_mode: INLINE_POST_PHASE_CONTROLLER
-  claim_status: ACTIVE
-last_event_id: EVT-0004
+  claim_status: CLOSED
+  closed_at: 2026-07-19T15:25:00+02:00
+  transition_commit_ref: THIS_ATOMIC_COMMIT
+last_event_id: EVT-0006
 last_validated_commit: 9afdbb21ab4cb202144c2a6346218d6e1a3639aa
 blockers:
   - Small private and historic sites need identity, access and GEO verification.
@@ -30,8 +32,8 @@ blockers:
   - Complete image and review coverage is absent for most candidates.
   - Winter roads, trails, parking, taxis, travel times and December 2026 rail services remain time-sensitive.
   - No final base, station or internal route was selected by design.
-context_profile: BRONS_MIN
-active_context_manifest: research/active/KUMAON-COMPLETE-001/context/BRONS_CONTEXT.yaml
+context_profile: ZILVER_MIN
+active_context_manifest: research/active/KUMAON-COMPLETE-001/context/ZILVER_CONTEXT.yaml
 location_id_blocks:
   corridor_nodes_preserved: 300-399
   kumaon: 400-499
@@ -43,6 +45,6 @@ parels_layer_active: false
 parallel_writers_allowed: false
 inline_handoff_active: true
 post_completion_mode: INLINE_POST_PHASE_CONTROLLER
-next_role_after_brons: ZILVER
+next_role_after_zilver: GOUD
 completion_destination: VOOR_VOLGEND_METAAL
 END_OF_ARTIFACT
