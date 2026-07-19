@@ -1,10 +1,17 @@
 schema_version: 3
 run_id: KUMAON-COMPLETE-001
-state: READY_FOR_BRONS
+state: BRONS_CLAIMED
 active_role: BRONS
-claim: null
-last_event_id: EVT-0001
-last_validated_commit: ea6f2eda979f2aaf8827648227fa39c8bfc2444b
+claim:
+  role: BRONS
+  claimed_by: ChatGPT-BRONS
+  claimed_at: 2026-07-19T11:15:09+02:00
+  source_commit: a10c848b7fe203a32563675293a6d2e0de484728
+  expected_state: READY_FOR_BRONS
+  output_path: research/active/KUMAON-COMPLETE-001/BRONS/
+  claim_status: ACTIVE
+last_event_id: EVT-0002
+last_validated_commit: a10c848b7fe203a32563675293a6d2e0de484728
 blockers: []
 context_profile: BRONS_MIN
 active_context_manifest: research/active/KUMAON-COMPLETE-001/context/BRONS_CONTEXT.yaml
