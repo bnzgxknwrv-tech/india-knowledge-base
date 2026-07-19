@@ -1,0 +1,50 @@
+schema_version: 1
+run_id: KUMAON-COMPLETE-001
+captured_at: 2026-07-19T10:41:36+02:00
+source_run: VRINDAVAN-KUMAON-CORRIDOR-001
+rules:
+  omission_due_to_unknown_exact_entrance_forbidden: true
+  all_mapable_investigated_locations_must_remain_in_kml: true
+  unassessed_is_not_formal_abc: true
+existing_kumaon_locations:
+  - {location_id: "400", name: Babaji Cave, cluster: KUMAON_DWARAHAT, status: A_FORMEEL}
+  - {location_id: "401", name: Babaji Smriti Bhavan, cluster: KUMAON_DWARAHAT, status: A_FORMEEL}
+  - {location_id: "402", name: Dunagiri Tempel, cluster: KUMAON_DWARAHAT, status: A_FORMEEL}
+  - {location_id: "403", name: YSS Dwarahat Ashram, cluster: KUMAON_DWARAHAT, status: A_FORMEEL}
+  - {location_id: "404", name: Kainchi Dham, cluster: KUMAON_KAINCHI_NAINITAL, status: A_FORMEEL}
+  - {location_id: "405", name: Kasar Devi, cluster: KUMAON_ALMORA, status: A_FORMEEL}
+  - {location_id: "406", name: "Crank's Ridge", cluster: KUMAON_ALMORA, status: A_FORMEEL}
+  - {location_id: "407", name: Kakrighat / Karkateshwar Mahadev, cluster: KUMAON_ALMORA, status: A_FORMEEL}
+  - {location_id: "408", name: Jageshwar, cluster: KUMAON_ALMORA, status: A_FORMEEL}
+  - {location_id: "409", name: Hanuman Garhi, cluster: KUMAON_KAINCHI_NAINITAL, status: A_FORMEEL}
+  - {location_id: "410", name: Hotel Evelyn, cluster: KUMAON_NAINITAL, status: NOG_DOOR_MARK_TE_BEOORDELEN, record_type: HISTORICAL_BASE_CANDIDATE}
+  - {location_id: "411", name: KK Sah huis, cluster: KUMAON_KAINCHI_NAINITAL, status: NOG_DOOR_MARK_TE_BEOORDELEN}
+  - {location_id: "412", name: Bhumiyadhar eerste ontmoeting Ram Dass en Maharaj-ji, cluster: KUMAON_KAINCHI_NAINITAL, status: A_FORMEEL}
+  - {location_id: "413", name: Ramakrishna Kutir, cluster: KUMAON_ALMORA, status: A_FORMEEL}
+  - {location_id: "414", name: Chitai Golu Devta Temple, cluster: KUMAON_ALMORA, status: A_FORMEEL}
+  - {location_id: "415", name: Mirtola / Krishnaprem Ashram, cluster: KUMAON_ALMORA, status: C_FORMEEL}
+  - {location_id: "416", name: Binsar Wildlife Sanctuary, cluster: KUMAON_ALMORA, status: C_FORMEEL}
+  - {location_id: "417", name: Patal Bhuvaneshwar, cluster: KUMAON_OUTER, status: C_FORMEEL}
+  - {location_id: "418", name: Naina Devi Mandir, cluster: KUMAON_NAINITAL, status: NOG_DOOR_MARK_TE_BEOORDELEN}
+  - {location_id: "419", name: Lala Badri Shah House, cluster: KUMAON_ALMORA, status: NOG_DOOR_MARK_TE_BEOORDELEN}
+  - {location_id: "420", name: Turiya Niwas, cluster: KUMAON_ALMORA, status: A_FORMEEL}
+  - {location_id: "421", name: Bodh Ashram, cluster: KUMAON_ALMORA, status: A_FORMEEL}
+  - {location_id: "422", name: Daulchina / Dhaulchina Ashram, cluster: KUMAON_ALMORA, status: C_FORMEEL}
+  - {location_id: "423", name: Haidakhan Babaji Ashram / Haidakhan Vishwa Mahadham, cluster: KUMAON_HAIDAKHAN, status: A_FORMEEL}
+  - {location_id: "424", name: Ghorakhal Temple, cluster: KUMAON_KAINCHI_NAINITAL, status: B_FORMEEL}
+  - {location_id: "425", name: Patal Devi Ashram / Tempel, cluster: KUMAON_ALMORA, status: NOG_DOOR_MARK_TE_BEOORDELEN}
+  - {location_id: "426", name: Exacte Vivekananda-grot bij Kasar Devi, cluster: KUMAON_ALMORA, status: NOG_DOOR_MARK_TE_BEOORDELEN, record_type: REFINEMENT_CANDIDATE}
+existing_arrival_nodes:
+  - {location_id: "308", name: Lal Kuan Junction railway station, layer: STATIONS_EN_ROUTEKNOOPPUNTEN, geo_status: WORKING}
+  - {location_id: "309", name: Haldwani railway station, layer: STATIONS_EN_ROUTEKNOOPPUNTEN, geo_status: WORKING}
+  - {location_id: "310", name: Kathgodam railway station, layer: STATIONS_EN_ROUTEKNOOPPUNTEN, geo_status: WORKING}
+mandatory_unassigned_base_and_route_objects:
+  - {name: Bhowali town / practical base point, cluster: KUMAON_BHOWALI, required_layer: MOGELIJKE_BASES_EN_OVERNACHTING}
+  - {name: Nainital practical base point, cluster: KUMAON_NAINITAL, required_layer: MOGELIJKE_BASES_EN_OVERNACHTING}
+  - {name: Kainchi practical base point, cluster: KUMAON_KAINCHI_NAINITAL, required_layer: MOGELIJKE_BASES_EN_OVERNACHTING}
+  - {name: Kathgodam practical base point, cluster: KUMAON_FOOTHILLS, required_layer: MOGELIJKE_BASES_EN_OVERNACHTING}
+  - {name: Haldwani practical base point, cluster: KUMAON_FOOTHILLS, required_layer: MOGELIJKE_BASES_EN_OVERNACHTING}
+  - {name: Lal Kuan practical transfer/base comparison point, cluster: KUMAON_FOOTHILLS, required_layer: STATIONS_EN_ROUTEKNOOPPUNTEN}
+mandatory_detector_discovery_rule: >-
+  This snapshot is a seed, not a closed list. BRONS must systematically discover additional physical Kumaon locations through every detector in scope and record honest negative results.
+END_OF_ARTIFACT
