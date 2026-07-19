@@ -1,18 +1,16 @@
 schema_version: 3
 run_id: KUMAON-COMPLETE-001
-state: READY_FOR_ZILVER
+state: ZILVER_CLAIMED
 active_role: ZILVER
 claim:
-  role: BRONS
-  claimed_by: ChatGPT-BRONS
-  claimed_at: 2026-07-19T11:15:09+02:00
-  source_commit: a10c848b7fe203a32563675293a6d2e0de484728
-  expected_state: READY_FOR_BRONS
-  output_path: research/active/KUMAON-COMPLETE-001/BRONS/
-  claim_status: CLOSED
-  closed_at: 2026-07-19T15:02:00+02:00
-  result_status: PARTIAL
-  completion_commit_ref: THIS_ATOMIC_COMMIT
+  role: ZILVER
+  claimed_by: ChatGPT-ZILVER
+  claimed_at: 2026-07-19T15:13:17+02:00
+  source_commit: 9afdbb21ab4cb202144c2a6346218d6e1a3639aa
+  expected_state: READY_FOR_ZILVER
+  output_path: research/active/KUMAON-COMPLETE-001/ZILVER/
+  claim_status: ACTIVE
+  claim_commit_ref: THIS_ATOMIC_COMMIT
 controller_claim:
   transition: BRONS_COMPLETE_TO_READY_FOR_ZILVER
   claimed_by: ChatGPT-INLINE-CONTROLLER
@@ -24,7 +22,7 @@ controller_claim:
   claim_status: CLOSED
   closed_at: 2026-07-19T15:25:00+02:00
   transition_commit_ref: THIS_ATOMIC_COMMIT
-last_event_id: EVT-0006
+last_event_id: EVT-0007
 last_validated_commit: 9afdbb21ab4cb202144c2a6346218d6e1a3639aa
 blockers:
   - Small private and historic sites need identity, access and GEO verification.
