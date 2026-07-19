@@ -1,7 +1,7 @@
 schema_version: 3
 run_id: KUMAON-COMPLETE-001
-state: BRONS_CLAIMED
-active_role: BRONS
+state: BRONS_COMPLETE
+active_role: null
 claim:
   role: BRONS
   claimed_by: ChatGPT-BRONS
@@ -9,17 +9,25 @@ claim:
   source_commit: a10c848b7fe203a32563675293a6d2e0de484728
   expected_state: READY_FOR_BRONS
   output_path: research/active/KUMAON-COMPLETE-001/BRONS/
-  claim_status: ACTIVE
-last_event_id: EVT-0002
-last_validated_commit: a10c848b7fe203a32563675293a6d2e0de484728
-blockers: []
+  claim_status: CLOSED
+  closed_at: 2026-07-19T15:02:00+02:00
+  result_status: PARTIAL
+  completion_commit_ref: THIS_ATOMIC_COMMIT
+last_event_id: EVT-0003
+last_validated_commit: 4e1fe8530e8ec428000eb55a548d99986c51ea77
+blockers:
+  - Small private and historic sites need identity, access and GEO verification.
+  - Outer-Kumaon WORKING_GEO and long road connections need independent verification.
+  - Complete image and review coverage is absent for most candidates.
+  - Winter roads, trails, parking, taxis, travel times and December 2026 rail services remain time-sensitive.
+  - No final base, station or internal route was selected by design.
 context_profile: BRONS_MIN
 active_context_manifest: research/active/KUMAON-COMPLETE-001/context/BRONS_CONTEXT.yaml
 location_id_blocks:
   corridor_nodes_preserved: 300-399
   kumaon: 400-499
   existing_kumaon_assignments: 400-426
-  free_kumaon_reservation: 427-499
+  new_kumaon_assignments: 427-443
 working_geo: true
 run_local_complete_kml_required: true
 parels_layer_active: false
