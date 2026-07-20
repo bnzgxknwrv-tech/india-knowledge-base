@@ -1,0 +1,34 @@
+PARTIAL
+run_id: VARANASI-COMPLETE-001
+role: BRONS
+source_commit: 5e351144fe19fe40b487588c43827dc937df3de6
+output_manifest: research/active/VARANASI-COMPLETE-001/BRONS/manifest.yaml
+completion_commit_ref: THIS_ATOMIC_COMMIT
+outputs:
+  - report/INDEX.md
+  - report/01_candidate_map.md
+  - report/02_lineages_and_living_practice.md
+  - report/03_ghats_temples_and_sarnath.md
+  - report/04_master_ab_registry_and_kml.md
+  - report/05_quality_gate_and_conclusion.md
+  - candidates.jsonl
+  - claims.jsonl
+  - sources/registry.jsonl
+  - sources/rejected.jsonl
+  - detector_checks.jsonl
+  - negative_searches.jsonl
+  - working_geo.jsonl
+  - images.jsonl
+  - experience_reviews.jsonl
+  - proximity.jsonl
+  - formal_ab_coverage.md
+  - INDIA_ALL_FORMAL_A_B_WORKING_PREPARED.kml
+  - ../shared/MASTER_A_B_GEO_REGISTRY.jsonl
+  - audit.md
+  - handoff.yaml
+highest_gaps:
+  - Small/private physical identities, management and access require independent verification.
+  - Complete current image and review coverage remains absent and is explicitly registered.
+  - Current rituals, opening, photography, foreign access and crowd conditions remain time-sensitive.
+validation: All mandatory BRONS artifacts were reopened from GitHub; every text sentinel is visible; claim-source references resolve uniquely; 40 candidates, 57 claims, 22 accepted sources, 6 rejected sources, 40 GEO records, 40 image-shortage records and 40 review-shortage records are coherent; the shared registry contains 28 A and 2 B records; the prepared KML is valid XML with exactly 28 A, 2 B and 30 placemarks; no C, route, station, base, hotel, status change or parked-run mutation occurred.
+END_OF_ARTIFACT
