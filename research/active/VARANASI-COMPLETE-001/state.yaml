@@ -1,7 +1,7 @@
 schema_version: 3
 run_id: VARANASI-COMPLETE-001
-state: TRANSITION_TO_ZILVER_CLAIMED
-active_role: CONTROLLER
+state: READY_FOR_ZILVER
+active_role: ZILVER
 claim:
   role: BRONS
   claimed_by: ChatGPT-BRONS
@@ -21,20 +21,22 @@ controller_claim:
   expected_state: BRONS_COMPLETE
   target_context_manifest: research/active/VARANASI-COMPLETE-001/context/ZILVER_CONTEXT.yaml
   activation_mode: INLINE_POST_PHASE_CONTROLLER
-  claim_status: ACTIVE
-last_event_id: EVT-0005
+  claim_status: CLOSED
+  claim_closed_at: 2026-07-20T23:50:00+02:00
+  transition_commit: THIS_ATOMIC_COMMIT
+last_event_id: EVT-0007
 last_validated_commit: d4459c0f58c4a9ab88213e4f04a1e61d291a1124
 initialization_status: COMPLETE
 blockers:
   - Small/private physical identities, management and access require independent verification.
   - Complete current image and review coverage remains absent and is explicitly registered.
   - Current rituals, opening, photography, foreign access and crowd conditions remain time-sensitive.
-context_profile: BRONS_MIN
-active_context_manifest: research/active/VARANASI-COMPLETE-001/context/BRONS_CONTEXT.yaml
-output_path: research/active/VARANASI-COMPLETE-001/BRONS/
+context_profile: ZILVER_MIN
+active_context_manifest: research/active/VARANASI-COMPLETE-001/context/ZILVER_CONTEXT.yaml
+output_path: research/active/VARANASI-COMPLETE-001/ZILVER/
 completion_destination: VOOR_VOLGEND_METAAL
 post_completion_mode: INLINE_POST_PHASE_CONTROLLER
-next_role_after_brons: ZILVER
+next_role_after_zilver: GOUD
 formal_status_policy:
   preserve_existing_abc: true
   only_mark_changes_formal_abc: true

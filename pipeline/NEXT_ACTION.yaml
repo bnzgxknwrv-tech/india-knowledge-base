@@ -1,10 +1,10 @@
 schema_version: 3
 run_id: VARANASI-COMPLETE-001
-action_id: VARANASI-COMPLETE-001-BRONS-001
+action_id: VARANASI-COMPLETE-001-ZILVER-001
 status: READY
-route: BRONS
-expected_state: READY_FOR_BRONS
-context_manifest: research/active/VARANASI-COMPLETE-001/context/BRONS_CONTEXT.yaml
+route: ZILVER
+expected_state: READY_FOR_ZILVER
+context_manifest: research/active/VARANASI-COMPLETE-001/context/ZILVER_CONTEXT.yaml
 entrypoint: pipeline/ENTRYPOINT.md
 operating_mode: CONTROLLED_MANUAL_INLINE_HANDOFF
 required_connector:
@@ -16,36 +16,24 @@ mandatory_first_instruction: >-
   zowel GitHub-read als GitHub-write voor repository bnzgxknwrv-tech/india-knowledge-base. Ontbreekt read of write,
   antwoord dan uitsluitend: MARK: IK MIS GITHUB CONNECTOR! Ga alleen verder wanneer beide aantoonbaar werken.
 instruction: >-
-  Voer uitsluitend de BRONS-fase van VARANASI-COMPLETE-001 uit volgens het gepinde BRONS_MIN-contextmanifest.
-  Voer één volledige brede Varanasi/Kashi-clustersweep uit met alle verplichte detectoren, fysieke-plekcontrole,
-  historische en spirituele broncontrole, lineage- en traditieclassificatie, actuele bezoekbaarheid, devotionele praktijk,
-  deelname voor Mark, beelden, recente beleving, nabijheid en loopclusters. Behoud alle bestaande formele A/B/C-statussen;
-  alleen Mark wijzigt formele status. Maak nieuwe statusvoorstellen uitsluitend adviserend en traceerbaar.
-
-  Voer parallel de volledige repositorybrede A/B-kaartopdracht uit. Verzamel letterlijk alle geldige formele A's en B's
-  uit de gepinde statusbronnen, decisions en canonieke registry. Herwaardeer niets. Hergebruik geldige bestaande GEO.
-  Wanneer een bruikbaar exact punt ontbreekt, gebruik direct een herkenbare Google Maps-pin, terreincentrum, adrespunt
-  of verantwoord lokaal werkpunt. Circa 100 meter afwijking is acceptabel; bereken niet kunstmatig de exacte afwijking
-  en laat deur- of ingangprecisie de opname niet blokkeren. Leg bron, GEO-status en onzekerheid zichtbaar vast.
-
-  Bouw en onderhoud `research/active/VARANASI-COMPLETE-001/shared/MASTER_A_B_GEO_REGISTRY.jsonl` als enige bewerkbare
-  kaartbron. Gebruik het gepinde schema. Bereid een deterministisch gegenereerde KML voor met exact twee hoofdlagen:
-  A_FORMEEL groen en B_FORMEEL oranje. Gebruik eenvoudige uniforme pins zonder categorie-logo's. Iedere markernaam moet
-  direct begrijpelijk zijn; voeg bij voornamelijk Indiase namen tussen haakjes een korte Nederlandse functie toe,
-  bijvoorbeeld `Kashi Vishwanath (Shiva-tempel)`. Neem geen C's, treinhaltes, routes, bases of hotels op.
-
-  Bewaar alle eerdere BRONS-, ZILVER- en GOUD-output volledig. Overschrijf geen oude BRONS-informatie en wijzig niets
-  onder KUMAON-ROUTE-OPTIMIZATION-001. Schrijf alle verplichte BRONS-artifacts in het nieuwe runpad. Valideer dat
-  formele A/B-bron, actieve registryrecords en voorbereide KML-placemarks exact dezelfde dekking hebben, zonder dubbele
-  LOCATION_ID's of stille weglatingen. Commit de volledige BRONS-fase en sluit de BRONS-workerclaim in de completioncommit.
-  Maak als worker geen ZILVER-context. Alleen na geldige completion en formele workerbeëindiging mag dezelfde sessie als
-  afzonderlijke inline controller de gepinde transition naar ZILVER uitvoeren en de controllerclaim sluiten.
+  Voer uitsluitend de ZILVER-fase van VARANASI-COMPLETE-001 uit volgens het gepinde ZILVER_MIN-contextmanifest.
+  Valideer de volledige BRONS-uitkomst onafhankelijk. Open de werkelijke bron achter iedere materiële claim en corrigeer
+  fysieke identiteit, claimtype, bevestigingsdomein, bronclassificatie, actuele bezoekbaarheid, devotionele praktijk,
+  deelname, beelden, reviews, nabijheid en WORKING_GEO waar nodig. Controleer alle 40 Varanasi/Sarnath-kandidaten,
+  alle detectoren en negatieve zoekresultaten. Verifieer repositorybreed dat het gedeelde masterregister en de voorbereide
+  KML exact 28 formele A, 2 formele B en 30 placemarks bevatten, met twee lagen A_FORMEEL groen en B_FORMEEL oranje,
+  zonder C, routes, treinhaltes, bases, hotels of categorie-logo's. Behoud alle bestaande formele statussen en geldige
+  LOCATION_ID's exact. Ken geen formele of adviserende A/B/C toe, maak geen nieuw decision-ID en wijzig niets onder
+  KUMAON-ROUTE-OPTIMIZATION-001. Behoud geldige BRONS-inhoud en maak iedere correctie, samenvoeging of verwijdering
+  traceerbaar. Schrijf en valideer alle ZILVER-output in GitHub, sluit de ZILVER-workerclaim in de completioncommit en
+  voer daarna uitsluitend de gepinde afzonderlijke inline controllertransition naar GOUD uit. Lever alleen bij geldige
+  finale readback een uitvoerbare GOUD-handoff.
 post_completion:
   mode: INLINE_POST_PHASE_CONTROLLER
   transition_protocol: pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md
   role_handoff_protocol: pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md
-  target_role: ZILVER
-  target_ready_state: READY_FOR_ZILVER
+  target_role: GOUD
+  target_ready_state: READY_FOR_GOUD
   emit_next_role_handoff: true
   report_template: NOT_APPLICABLE
   completion_destination: VOOR_VOLGEND_METAAL
@@ -57,12 +45,7 @@ post_completion:
     forbid_new_or_changed_abc: true
     forbid_new_decision_id: true
     require_mark_decision_on_content_choice: true
-created_by: INDIA2
-created_at: 2026-07-20T21:05:00+02:00
-source_commit: ea92a06f015685088a5248ad4efc12f96a6c8c96
-parked_previous_action:
-  run_id: KUMAON-ROUTE-OPTIMIZATION-001
-  route: ZILVER
-  preserved: true
-  mutation_forbidden_by_new_run: true
+created_by: ChatGPT-INLINE-CONTROLLER
+created_at: 2026-07-20T23:50:00+02:00
+source_commit: d4459c0f58c4a9ab88213e4f04a1e61d291a1124
 END_OF_ARTIFACT
