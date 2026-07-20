@@ -1,2 +1,0 @@
-Controller GitHub write test passed.
-END_OF_ARTIFACT
