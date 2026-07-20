@@ -1,0 +1,35 @@
+schema_version: 3
+run_id: KUMAON-ROUTE-OPTIMIZATION-001
+role: BRONS
+status: PREPARING
+source_commit: PENDING_FINAL_SOURCE_COMMIT
+context_profile: BRONS_MIN
+protocol_versions:
+  pipeline: 3.1.1
+  methodology: 3.0.0
+  execution_protocol: 2.3.1
+  context_protocol: 2.1
+  controller_transition_protocol: 2.3.1
+  role_handoff_protocol: 1.1
+required_files: []
+optional_files: []
+forbidden_files:
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/context/ZILVER_CONTEXT.yaml
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/context/GOUD_CONTEXT.yaml
+  - research/active/KUMAON-COMPLETE-001/** except files explicitly listed in the final required_files or optional_files
+  - research/completed/**
+  - every repository file not listed in required_files or activated by an explicit optional_files trigger
+priority_order: []
+maximum_context_budget:
+  required_files: 35
+  optional_files_maximum_when_triggered: 10
+  lines_per_file: 1500
+predecessor_manifest: research/active/KUMAON-COMPLETE-001/GOUD/manifest.yaml
+output_path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/
+completion_destination: VOOR_VOLGEND_METAAL
+post_completion:
+  mode: INLINE_POST_PHASE_CONTROLLER
+  target_role: ZILVER
+  target_ready_state: READY_FOR_ZILVER
+  emit_next_role_handoff: true
+END_OF_ARTIFACT
