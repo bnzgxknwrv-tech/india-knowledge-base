@@ -1,0 +1,2 @@
+{"event_id":"EVT-0001","run_id":"VARANASI-COMPLETE-001","event":"RUN_CREATED","at":"2026-07-20T20:58:18+02:00","actor":"INDIA2","commit":"ee4e3b62789de527611d7f1b43d3cbf944a07cc6"}
+{"event_id":"EVT-0002","run_id":"VARANASI-COMPLETE-001","event":"READY_FOR_BRONS","at":"2026-07-20T21:02:00+02:00","actor":"INDIA2","state":"READY_FOR_BRONS","context":"research/active/VARANASI-COMPLETE-001/context/BRONS_CONTEXT.yaml"}
