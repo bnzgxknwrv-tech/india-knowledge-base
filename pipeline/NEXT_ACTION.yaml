@@ -1,10 +1,10 @@
 schema_version: 3
-run_id: KUMAON-COMPLETE-001
-action_id: KUMAON-COMPLETE-001-GOUD-001
+run_id: KUMAON-ROUTE-OPTIMIZATION-001
+action_id: KUMAON-ROUTE-OPTIMIZATION-001-BRONS-001
 status: READY
-route: GOUD
-expected_state: READY_FOR_GOUD
-context_manifest: research/active/KUMAON-COMPLETE-001/context/GOUD_CONTEXT.yaml
+route: BRONS
+expected_state: READY_FOR_BRONS
+context_manifest: research/active/KUMAON-ROUTE-OPTIMIZATION-001/context/BRONS_CONTEXT.yaml
 entrypoint: pipeline/ENTRYPOINT.md
 operating_mode: CONTROLLED_MANUAL_INLINE_HANDOFF
 required_connector:
@@ -16,35 +16,45 @@ mandatory_first_instruction: >-
   zowel GitHub-read als GitHub-write voor repository bnzgxknwrv-tech/india-knowledge-base. Ontbreekt read of write,
   antwoord dan uitsluitend: MARK: IK MIS GITHUB CONNECTOR! Ga alleen verder wanneer beide aantoonbaar werken.
 instruction: >-
-  Voer uitsluitend de GOUD-fase van KUMAON-COMPLETE-001 uit volgens het gepinde GOUD_MIN-contextmanifest.
-  Valideer en synthetiseer de volledige ZILVER-uitkomst en gebruik alleen gericht aanvullend onderzoek voor resterende
-  dragende conflicten of verplichte open lagen. Behoud alle 47 kandidaten, formele 16 A, 1 B en 4 C en alle LOCATION_IDs
-  exact. Ken geen nieuwe formele of adviserende A/B/C toe, creëer geen nieuw decision-ID en kies geen station, basis,
-  hotel, eerste bezoeklocatie, interne route, laatste Kumaon-locatie of uitreisrichting. Lever de definitieve technische
-  datasets, geo_locations.jsonl, geo_connections.jsonl, location_id_audit.md, decision_inputs.md en de complete
-  zevenlaagse KUMAON_COMPLETE.kml. Schrijf verplicht eerst CANONICAL_INTEGRATION_PROPOSAL.md. Voer uitsluitend
-  deterministische, niet-beslissende integratie uit naar knowledge/places/registry.jsonl en decisions/INDEX.yaml en
-  alleen wanneer deze één-op-één uit gevalideerde GOUD-artifacts volgt; wijzig geen A/B/C en maak geen nieuwe beslissing.
-  Schrijf daarna het volledige MARK_FINAL_REPORT.md, valideer alle artifacts en eventuele canonieke writes, sluit de
-  GOUD-workerclaim in de completioncommit en lever bij PASS of PARTIAL het gecommitte rapport rechtstreeks aan Mark.
+  Voer uitsluitend de BRONS-fase van KUMAON-ROUTE-OPTIMIZATION-001 uit volgens het gepinde BRONS_MIN-contextmanifest.
+  Gebruik KUMAON-COMPLETE-001 op completioncommit 41a77b967d784de5babb67d603becf2b9f2ebf75 als inhoudelijk voltooide
+  Kumaon-onderlaag en voer geen nieuwe brede Kumaon-sweep uit. Onderzoek uitsluitend routeoptimalisatie voor 19 december
+  2026 tot en met 21 januari 2027: aankomststation of aankomstwijze, eerste basis en eerste formele A, volledige interne
+  Kumaon-route, optimale basiswissels en overnachtingsverdeling, laatste Kumaon-locatie en beste uitgang, keuze van het
+  logisch volgende reeds bestaande projectcluster en een voorlopige clusterketen voor de rest van de reis. Vergelijk
+  minimaal Haridwar/Kankhal, Varanasi, Bodh Gaya en Kolkata/Dakshineswar plus andere reeds formeel bestaande clusters
+  wanneer geografisch logischer, maar start geen inhoudelijk onderzoek van het volgende cluster. Vergelijk trein en
+  vliegtuig op volledige deur-tot-deurtijd, totale kosten, bagage, transfers, eventueel noodzakelijke hotelnacht en
+  effectieve verloren daguren. Gebruik nooit bus. Gebruik auto/taxi alleen kort, voor bergtrajecten en first/last mile.
+  Reken bij vluchten met rugzak/dagtas plus 23 kg ruimbagage. Registreer voor ieder aanbevolen treintraject beginstation,
+  alle tussenstops en eindstation met stationscode, trein, volgorde, tijden en stopduur waar betrouwbaar beschikbaar en
+  markeer exact waar Mark in- en uitstapt. Bereid grijze treinmarkers met één treinlogo en detectorinput voor mogelijke
+  latere zware-A-sweeps langs haltes; een halte wordt nooit automatisch A. Behoud alle formele A/B/C exact, ken geen
+  nieuwe formele of adviserende A/B/C toe en gebruik D_DOOR_MARK_TE_BEOORDELEN als mensvriendelijke naam voor onbeoordeeld,
+  waarbij D geen vierde waarderingsklasse is. Lever alle in scope.md verplichte BRONS-artifacts en routegerichte registers,
+  inclusief volledige alternatieven, bronregisters, stationreeksen, kostencomponenten, live-recheckregister en technische
+  input voor KUMAON_ROUTE_OPTIMIZED.kml en MASTER-INDIA-KML-001. Maak geen hotelboeking, treinboeking of vluchtboeking.
+  Behandel dienstregelingen, prijzen, winterwegen, trails, taxi's, parking en reistijden als tijdgevoelig en pin concrete
+  latere live rechecks. Schrijf en commit de volledige BRONS-fase, sluit de workerclaim in de completioncommit en voer
+  daarna alleen bij geldige completion als afzonderlijke inline controller de overgang naar ZILVER uit.
 post_completion:
-  mode: MARK_FINAL_REPORT
-  transition_protocol: NOT_APPLICABLE
+  mode: INLINE_POST_PHASE_CONTROLLER
+  transition_protocol: pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md
   role_handoff_protocol: pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md
-  target_role: MARK
-  target_ready_state: NOT_APPLICABLE
-  emit_next_role_handoff: false
-  report_template: pipeline/templates/MARK_FINAL_REPORT_TEMPLATE.md
-  completion_destination: VOOR_MARK
+  target_role: ZILVER
+  target_ready_state: READY_FOR_ZILVER
+  emit_next_role_handoff: true
+  report_template: NOT_APPLICABLE
+  completion_destination: VOOR_VOLGEND_METAAL
   canonical_integration:
-    mode: DETERMINISTIC_NON_DECISIONAL
-    proposal_template: pipeline/templates/CANONICAL_INTEGRATION_PROPOSAL_TEMPLATE.md
-    allowed_registry_path: knowledge/places/registry.jsonl
-    allowed_decisions_index_path: decisions/INDEX.yaml
+    mode: NOT_APPLICABLE
+    proposal_template: NOT_APPLICABLE
+    allowed_registry_path: NOT_APPLICABLE
+    allowed_decisions_index_path: NOT_APPLICABLE
     forbid_new_or_changed_abc: true
     forbid_new_decision_id: true
     require_mark_decision_on_content_choice: true
-created_by: ChatGPT-INLINE-CONTROLLER
-created_at: 2026-07-19T18:59:00+02:00
-source_commit: 55fc0924b29ac3e006efc8b5c5f095a561b41b56
+created_by: INDIA2
+created_at: 2026-07-20T17:16:34+02:00
+source_commit: dbac7e3e89f275ec1c99bf348da55f6bcf7ac5e8
 END_OF_ARTIFACT
