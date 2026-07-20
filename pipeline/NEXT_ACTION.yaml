@@ -1,10 +1,10 @@
 schema_version: 3
-run_id: KUMAON-ROUTE-OPTIMIZATION-001
-action_id: KUMAON-ROUTE-OPTIMIZATION-001-ZILVER-001
+run_id: VARANASI-COMPLETE-001
+action_id: VARANASI-COMPLETE-001-BRONS-001
 status: READY
-route: ZILVER
-expected_state: READY_FOR_ZILVER
-context_manifest: research/active/KUMAON-ROUTE-OPTIMIZATION-001/context/ZILVER_CONTEXT.yaml
+route: BRONS
+expected_state: READY_FOR_BRONS
+context_manifest: research/active/VARANASI-COMPLETE-001/context/BRONS_CONTEXT.yaml
 entrypoint: pipeline/ENTRYPOINT.md
 operating_mode: CONTROLLED_MANUAL_INLINE_HANDOFF
 required_connector:
@@ -16,24 +16,36 @@ mandatory_first_instruction: >-
   zowel GitHub-read als GitHub-write voor repository bnzgxknwrv-tech/india-knowledge-base. Ontbreekt read of write,
   antwoord dan uitsluitend: MARK: IK MIS GITHUB CONNECTOR! Ga alleen verder wanneer beide aantoonbaar werken.
 instruction: >-
-  Voer uitsluitend de ZILVER-fase van KUMAON-ROUTE-OPTIMIZATION-001 uit volgens het gepinde ZILVER_MIN-contextmanifest.
-  Valideer de volledige BRONS-overdracht uitsluitend vanuit GitHub. Open de werkelijke bron achter iedere materiële claim
-  en controleer onafhankelijk bronautoriteit, bevestigingsdomein, tegenstrijdigheid, dienstregeling, volledige stationreeks,
-  kosten, 23 kg-bagage, transfers, hotelnacht, verloren daglicht, bases, nachten, winterwegen, trails, taxi's, parking,
-  Bodh Ashram-toegang, routevolgorde, next-clusterkeuze, live rechecks en KML-/treinmarkerinput. Zoek alleen gericht naar
-  sterkere bronnen en gemiste routealternatieven binnen de gepinde routegrens; voer geen brede Kumaon-sweep en geen
-  inhoudelijk onderzoek van opvolgerclusters uit. Gebruik nooit bus, maak geen boekingen, wijzig geen protocollen en ken
-  geen formele of adviserende A/B/C toe. Behoud geldige unieke BRONS-inhoud en maak iedere correctie, verwijdering,
-  samenvoeging of downgrade traceerbaar. Schrijf alle verplichte ZILVER-artifacts, valideer registers en source-ID's,
-  commit de volledige fase en sluit de ZILVER-workerclaim in de completioncommit. Maak als worker geen GOUD-context.
-  Alleen na geldige completion en formele workerbeëindiging mag dezelfde sessie als afzonderlijke inline controller de
-  door dit bestand toegestane transition naar GOUD uitvoeren en de controllerclaim in de transitioncommit sluiten.
+  Voer uitsluitend de BRONS-fase van VARANASI-COMPLETE-001 uit volgens het gepinde BRONS_MIN-contextmanifest.
+  Voer één volledige brede Varanasi/Kashi-clustersweep uit met alle verplichte detectoren, fysieke-plekcontrole,
+  historische en spirituele broncontrole, lineage- en traditieclassificatie, actuele bezoekbaarheid, devotionele praktijk,
+  deelname voor Mark, beelden, recente beleving, nabijheid en loopclusters. Behoud alle bestaande formele A/B/C-statussen;
+  alleen Mark wijzigt formele status. Maak nieuwe statusvoorstellen uitsluitend adviserend en traceerbaar.
+
+  Voer parallel de volledige repositorybrede A/B-kaartopdracht uit. Verzamel letterlijk alle geldige formele A's en B's
+  uit de gepinde statusbronnen, decisions en canonieke registry. Herwaardeer niets. Hergebruik geldige bestaande GEO.
+  Wanneer een bruikbaar exact punt ontbreekt, gebruik direct een herkenbare Google Maps-pin, terreincentrum, adrespunt
+  of verantwoord lokaal werkpunt. Circa 100 meter afwijking is acceptabel; bereken niet kunstmatig de exacte afwijking
+  en laat deur- of ingangprecisie de opname niet blokkeren. Leg bron, GEO-status en onzekerheid zichtbaar vast.
+
+  Bouw en onderhoud `research/active/VARANASI-COMPLETE-001/shared/MASTER_A_B_GEO_REGISTRY.jsonl` als enige bewerkbare
+  kaartbron. Gebruik het gepinde schema. Bereid een deterministisch gegenereerde KML voor met exact twee hoofdlagen:
+  A_FORMEEL groen en B_FORMEEL oranje. Gebruik eenvoudige uniforme pins zonder categorie-logo's. Iedere markernaam moet
+  direct begrijpelijk zijn; voeg bij voornamelijk Indiase namen tussen haakjes een korte Nederlandse functie toe,
+  bijvoorbeeld `Kashi Vishwanath (Shiva-tempel)`. Neem geen C's, treinhaltes, routes, bases of hotels op.
+
+  Bewaar alle eerdere BRONS-, ZILVER- en GOUD-output volledig. Overschrijf geen oude BRONS-informatie en wijzig niets
+  onder KUMAON-ROUTE-OPTIMIZATION-001. Schrijf alle verplichte BRONS-artifacts in het nieuwe runpad. Valideer dat
+  formele A/B-bron, actieve registryrecords en voorbereide KML-placemarks exact dezelfde dekking hebben, zonder dubbele
+  LOCATION_ID's of stille weglatingen. Commit de volledige BRONS-fase en sluit de BRONS-workerclaim in de completioncommit.
+  Maak als worker geen ZILVER-context. Alleen na geldige completion en formele workerbeëindiging mag dezelfde sessie als
+  afzonderlijke inline controller de gepinde transition naar ZILVER uitvoeren en de controllerclaim sluiten.
 post_completion:
   mode: INLINE_POST_PHASE_CONTROLLER
   transition_protocol: pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md
   role_handoff_protocol: pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md
-  target_role: GOUD
-  target_ready_state: READY_FOR_GOUD
+  target_role: ZILVER
+  target_ready_state: READY_FOR_ZILVER
   emit_next_role_handoff: true
   report_template: NOT_APPLICABLE
   completion_destination: VOOR_VOLGEND_METAAL
@@ -45,12 +57,12 @@ post_completion:
     forbid_new_or_changed_abc: true
     forbid_new_decision_id: true
     require_mark_decision_on_content_choice: true
-created_by: ChatGPT-CONTROLLER-KUMAON-ROUTE-001
-created_at: 2026-07-20T19:08:45+02:00
-source_commit: 3eb11704c769e69f1c6533ce3a26249eb0293e92
-repair:
-  repair_id: KUMAON-ROUTE-OPTIMIZATION-001-RUN-REPAIR-001
-  repaired_at: 2026-07-20T20:01:07+02:00
-  previous_source_commit: 73c11932a17f9ab0186c32621597c21a8f8b1984
-  reason: The ZILVER context manifest was created in transition commit 3eb11704c769e69f1c6533ce3a26249eb0293e92 and therefore cannot be fetched from the earlier BRONS completion commit.
+created_by: INDIA2
+created_at: 2026-07-20T21:05:00+02:00
+source_commit: ea92a06f015685088a5248ad4efc12f96a6c8c96
+parked_previous_action:
+  run_id: KUMAON-ROUTE-OPTIMIZATION-001
+  route: ZILVER
+  preserved: true
+  mutation_forbidden_by_new_run: true
 END_OF_ARTIFACT
