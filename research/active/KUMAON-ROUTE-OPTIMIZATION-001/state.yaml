@@ -1,11 +1,18 @@
 schema_version: 3
 run_id: KUMAON-ROUTE-OPTIMIZATION-001
-state: READY_FOR_BRONS
-active_role: null
-claim: null
+state: BRONS_CLAIMED
+active_role: BRONS
+claim:
+  role: BRONS
+  claimed_by: ChatGPT-BRONS-KUMAON-ROUTE-001
+  claimed_at: 2026-07-20T18:10:21+02:00
+  source_commit: dbac7e3e89f275ec1c99bf348da55f6bcf7ac5e8
+  expected_state: READY_FOR_BRONS
+  output_path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/
+  claim_status: ACTIVE
 controller_claim: null
-last_event_id: EVT-0002
-last_validated_commit: c03ceb80c7ad39e5bf9f2b26874c20007b8ff39d
+last_event_id: EVT-0003
+last_validated_commit: 08ac340e4c0bf4b9c0c044def025a697467f3e16
 initialization_status: COMPLETE
 blockers: []
 context_profile: BRONS_MIN
