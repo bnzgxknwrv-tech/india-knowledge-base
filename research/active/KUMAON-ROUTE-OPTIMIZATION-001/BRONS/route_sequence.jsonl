@@ -1,0 +1,17 @@
+{"sequence":1,"date":"2026-12-19","weekday":"Saturday","overnight_base":"Delhi","action":"International arrival and protected overnight near practical departure access.","formal_locations":[],"transport":"arrival"}
+{"sequence":2,"date":"2026-12-20","weekday":"Sunday","overnight_base":"Bhowali","action":"12040 NDLS 06:20 to KGM 11:55; short mountain taxi to Bhowali.","formal_locations":[],"transport":"TRN-12040-NDLS-KGM"}
+{"sequence":3,"date":"2026-12-21","weekday":"Monday","overnight_base":"Bhowali","action":"Kainchi corridor first A day.","formal_locations":["404","412"],"transport":"short local mountain taxi"}
+{"sequence":4,"date":"2026-12-22","weekday":"Tuesday","overnight_base":"Bhowali","action":"Nainital-side A and optional B.","formal_locations":["409"],"optional_formal_B":["424"],"transport":"short local mountain taxi"}
+{"sequence":5,"date":"2026-12-23","weekday":"Wednesday","overnight_base":"Almora/Kasar Devi","action":"Transfer to Almora via Kakrighat; Kakrighat visit en route.","formal_locations":["407"],"transport":"mountain taxi"}
+{"sequence":6,"date":"2026-12-24","weekday":"Thursday","overnight_base":"Almora/Kasar Devi","action":"Almora institutional and temple day.","formal_locations":["413","414"],"transport":"local taxi/walk"}
+{"sequence":7,"date":"2026-12-25","weekday":"Friday","overnight_base":"Almora/Kasar Devi","action":"Kasar ridge A cluster; Bodh Ashram only if identity/access confirmed.","formal_locations":["405","406","420","421"],"conditional_locations":["421"],"transport":"walk/short taxi"}
+{"sequence":8,"date":"2026-12-26","weekday":"Saturday","overnight_base":"Almora/Kasar Devi","action":"Jageshwar day trip.","formal_locations":["408"],"transport":"mountain taxi"}
+{"sequence":9,"date":"2026-12-27","weekday":"Sunday","overnight_base":"Almora/Kasar Devi","action":"Weather/access buffer and unresolved ridge micro-site recheck; no new destination.","formal_locations":[],"transport":"buffer"}
+{"sequence":10,"date":"2026-12-28","weekday":"Monday","overnight_base":"Dwarahat","action":"Transfer Almora/Kasar to Dwarahat.","formal_locations":[],"transport":"mountain taxi"}
+{"sequence":11,"date":"2026-12-29","weekday":"Tuesday","overnight_base":"Dwarahat","action":"YSS Dwarahat and Dunagiri cluster.","formal_locations":["403","402","401"],"transport":"local mountain taxi"}
+{"sequence":12,"date":"2026-12-30","weekday":"Wednesday","overnight_base":"Dwarahat","action":"Babaji Cave full-day trail excursion.","formal_locations":["400"],"transport":"mountain taxi plus walk"}
+{"sequence":13,"date":"2026-12-31","weekday":"Thursday","overnight_base":"Dwarahat","action":"Mandatory winter/trail recovery and weather buffer.","formal_locations":[],"transport":"buffer"}
+{"sequence":14,"date":"2027-01-01","weekday":"Friday","overnight_base":"Haldwani","action":"Mountain transfer to Haldwani; Ranikhet/Chiliyanaula is transfer context only.","formal_locations":[],"transport":"mountain taxi"}
+{"sequence":15,"date":"2027-01-02","weekday":"Saturday","overnight_base":"Haldwani","action":"Haidakhan Vishwa Mahadham full day; last formal Kumaon A.","formal_locations":["423"],"transport":"short regional mountain/river-road taxi"}
+{"sequence":16,"date":"2027-01-03","weekday":"Sunday","overnight_base":"Haridwar/Kankhal","action":"Board 12092 at Haldwani 05:40; alight Haridwar 11:05.","formal_locations":[],"transport":"TRN-12092-HDW-HW"}
+END_OF_ARTIFACT
