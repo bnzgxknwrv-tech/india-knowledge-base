@@ -1,0 +1,10 @@
+run_id: KUMAON-ROUTE-OPTIMIZATION-001
+role: BRONS
+status: PARTIAL
+research_commit: e49ceb2598dc8d587c04799eae545b746301c336
+handoff_path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/handoff.yaml
+manifest_path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/manifest.yaml
+worker_claim: ChatGPT-BRONS-KUMAON-ROUTE-001
+claim_status: CLOSED_IN_THIS_COMPLETION_COMMIT
+completed_at: 2026-07-20T18:56:48+02:00
+END_OF_ARTIFACT

@@ -1,0 +1,130 @@
+schema_version: 3
+run_id: KUMAON-ROUTE-OPTIMIZATION-001
+role: BRONS
+result_status: PARTIAL
+source_commit: dbac7e3e89f275ec1c99bf348da55f6bcf7ac5e8
+predecessor_completion_commit: 41a77b967d784de5babb67d603becf2b9f2ebf75
+research_commit: e49ceb2598dc8d587c04799eae545b746301c336
+completion_commit: THIS_ATOMIC_COMMIT
+completed_at: 2026-07-20T18:56:48+02:00
+artifact_count: 26
+counts:
+  accepted_sources: 23
+  rejected_sources: 3
+  claims: 16
+  train_services: 4
+  recommended_train_services: 3
+  train_stop_rows: 30
+  route_days: 16
+  formal_A_accounted: 16
+  formal_B_preserved: 1
+  formal_C_preserved: 4
+  kumaon_bases: 4
+  arrival_buffer_bases: 1
+  live_rechecks: 10
+validation:
+  github_read_confirmed: true
+  github_write_confirmed: true
+  required_context_files_fully_read: true
+  required_context_hashes_match: true
+  predecessor_pin_respected: true
+  predecessor_route_reactivated: false
+  broad_kumaon_sweep_performed: false
+  all_required_outputs_present: true
+  all_artifacts_end_with_sentinel: true
+  all_claim_source_ids_valid: true
+  formal_statuses_preserved: true
+  new_formal_or_advisory_abc_assigned: false
+  bus_used: false
+  booking_performed: false
+  successor_cluster_content_researched: false
+  worker_claim_closed_in_completion_commit: true
+  master_kml_mutated: false
+integrity:
+  algorithm: git_blob_sha1
+  aggregate_commit: e49ceb2598dc8d587c04799eae545b746301c336
+  completion_binding: THIS_ATOMIC_COMMIT
+artifacts:
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/report/INDEX.md
+    line_count: 12
+    git_blob_sha: 53856cb630b7141ff179e7ae171990887ea6b24e
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/report/01_arrival_internal_route_and_bases.md
+    line_count: 47
+    git_blob_sha: 81051ba36a5659e88260207aace1b2978d9e3182
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/report/02_exit_next_cluster_and_remaining_chain.md
+    line_count: 39
+    git_blob_sha: 591f6d1994bb87c6c24984450b8a1e1bff888175
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/report/03_transport_registers_kml_and_live_controls.md
+    line_count: 32
+    git_blob_sha: 4c635d8827d166aa7701c80d2f4cbfbf00f9d2ab
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/report/04_quality_gate_and_open_gaps.md
+    line_count: 37
+    git_blob_sha: c378e86339246889a5908506b7d5d4fd34bf11cb
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/next_cluster_decision.md
+    line_count: 23
+    git_blob_sha: 3920b4a210dc396f95a005004f32b4333828d3c3
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/MASTER_INDIA_KML_LINKAGE.md
+    line_count: 26
+    git_blob_sha: ff71f25cc92d1c2814921052017953be647fe85d
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/images.jsonl
+    line_count: 2
+    git_blob_sha: da02f6858e79e2d0a722ba96e44c05044a8c64f9
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/experience_reviews.jsonl
+    line_count: 2
+    git_blob_sha: 75a99727f46fa3ccee947f6d17212e58e882b2d8
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/sources/registry.jsonl
+    line_count: 24
+    git_blob_sha: f3e144ad980869c182ab638492adeb0efad8eed1
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/sources/rejected.jsonl
+    line_count: 4
+    git_blob_sha: 34b41e5ba8a71737d12955ce63a98acdfbcc4aca
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/claims.jsonl
+    line_count: 17
+    git_blob_sha: e833ca6059d816229a93377bc535eb0f668ac93f
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/train_services.jsonl
+    line_count: 5
+    git_blob_sha: d7c972170cdbb06050c020187887fd53ef133d50
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/train_stops.jsonl
+    line_count: 31
+    git_blob_sha: 8f2c8265c01c5317c8b7695ff1911a740a400f7e
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/train_stop_detector_inputs.jsonl
+    line_count: 5
+    git_blob_sha: 134e0b510011db197936ababf8c0798c22b39f5f
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/route_sequence.jsonl
+    line_count: 17
+    git_blob_sha: 00f5c675e469bebdeafd025c132ece419b5a9854
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/base_and_nights_plan.jsonl
+    line_count: 6
+    git_blob_sha: 175e2b80266ba703e501807ac02e821de26b7cf6
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/arrival_and_exit_analysis.jsonl
+    line_count: 4
+    git_blob_sha: 6a413ff8538b3f7ca2c503117d1658b3d686795e
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/door_to_door_comparison.jsonl
+    line_count: 5
+    git_blob_sha: e99931441b802de712f32a93b4c71707fe2bac6d
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/intercluster_transport_matrix.jsonl
+    line_count: 6
+    git_blob_sha: 7120d55db17301f933824a838623b00aa9433e8d
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/live_recheck_register.jsonl
+    line_count: 11
+    git_blob_sha: 072fbe7957bc0d326754c4ea66029030e43bda50
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/kml_route_input.jsonl
+    line_count: 6
+    git_blob_sha: 32f09c1717de45991a0626aebbd21822997363cc
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/audit.md
+    line_count: 48
+    git_blob_sha: 9e235551862013fb47752c71895820b4c1eb59f0
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/handoff.yaml
+    line_count: 68
+    git_blob_sha: bc73321b5f891f93113bd843483773f7f827f926
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/COMPLETED
+    line_count: 10
+    git_blob_sha: 85834b8a0e15271b86f8bd30e276cd5bf7b44651
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/manifest.yaml
+    line_count: SELF
+    git_blob_sha: SELF_IN_THIS_COMPLETION_COMMIT
+open_blockers:
+  - Final December 2026 and January 2027 timetable, fares and inventory.
+  - Bodh Ashram physical identity, management and public access.
+  - Winter roads, Babaji Cave trail, taxi availability and external station WGS84 points.
+END_OF_ARTIFACT
