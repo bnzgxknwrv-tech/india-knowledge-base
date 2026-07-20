@@ -2,7 +2,7 @@ schema_version: 3
 run_id: KUMAON-ROUTE-OPTIMIZATION-001
 role: BRONS
 status: READY
-source_commit: 3c8782425d31d7af97fecb1f4822d74902e66ee6
+source_commit: dbac7e3e89f275ec1c99bf348da55f6bcf7ac5e8
 context_profile: BRONS_MIN
 protocol_versions:
   pipeline: 3.1.1
@@ -12,174 +12,47 @@ protocol_versions:
   controller_transition_protocol: 2.3.1
   role_handoff_protocol: 1.1
 required_files:
-  - path: pipeline/ENTRYPOINT.md
-    reason: single executable entrypoint and mandatory GitHub preflight
-    task: obey startup, stop conditions, role order and inline-handoff boundary
-    expected_git_blob_sha: 2cb50f0e6307bded90da1bb7418e103791c96dd4
-  - path: pipeline/roles/BRONS.md
-    reason: v3.1.1 BRONS role contract
-    task: execute BRONS only and interpret broad detection as broad route-alternative detection within this restricted route scope
-    expected_git_blob_sha: 3074c2276411e98e750fb37661096a4e33b85abb
-  - path: knowledge/methodology/METHODOLOGY_V2.md
-    reason: project place, status, proximity and travel-time methodology
-    task: preserve physical-place semantics and existing formal statuses without reopening a cluster sweep
-    expected_git_blob_sha: cba69457b46f26f60a4775a848f9fc4bf01000ff
-  - path: pipeline/protocols/EVIDENCE_PROTOCOL.md
-    reason: atomized transport, route, access and cost claims with source integrity
-    task: create typed claims and accepted/rejected source registers for all material route recommendations
-    expected_git_blob_sha: 5d853e6dae868495782363d0864f641fa2747186
-  - path: pipeline/QUALITY_GATE.md
-    reason: technical and route-completeness gate
-    task: apply technical integrity and the scope-specific completeness criteria before BRONS completion
-    expected_git_blob_sha: 8c9d39ed09e8992d785baf15d727a920ccdbb0c0
-  - path: pipeline/protocols/EXECUTION_PROTOCOL.md
-    reason: claim lifecycle, source pinning, write scope and completion
-    task: claim BRONS, close the workerclaim in the completioncommit and perform no phase writes after worker termination
-    expected_git_blob_sha: f384e45c824ea4c10194dbf476b30b61312a0ed2
-  - path: pipeline/protocols/LONG_RUNNING_EXECUTION_PROTOCOL.md
-    reason: route, timetable, station and cost research can exceed one session
-    task: checkpoint before exhaustion and never repeat validated research blocks
-    expected_git_blob_sha: 0640c6af87df2ed94155fa5b04b377c2e729161a
-  - path: pipeline/protocols/CONTEXT_PROTOCOL.md
-    reason: deterministic internal read boundary
-    task: read only this manifest and its listed required or triggered optional files
-    expected_git_blob_sha: 872bce45f01e276d76dc65479c09e71dc72a15de
-  - path: pipeline/protocols/GEO_LOCATION_PROTOCOL.md
-    reason: permanent LOCATION_ID and route/KML point integrity
-    task: preserve identifiers, make uncertainty visible and create no arbitrary coordinates
-    expected_git_blob_sha: 149c0515010930ec9306a6d68f5beb2a7b3bbe91
-  - path: pipeline/CONTEXT_PROFILES.yaml
-    reason: BRONS_MIN proportional context rules
-    task: avoid unlisted repository exploration and predecessor narrative inflation
-    expected_git_blob_sha: 4526bb1fe5e3605d63af45d81f8efb152bef1863
-  - path: pipeline/templates/RUN_TEMPLATE_V3.md
-    reason: current v3.1.1 run lifecycle and output contract
-    task: verify all normal run invariants while accepting the explicitly pinned ROUTE_OPTIMIZATION type extension
-    expected_git_blob_sha: 859a72f4209024754ab79afa8a8300aeffbc0167
-  - path: pipeline/templates/HANDOFF_LAYER_STATUS_TEMPLATE.yaml
-    reason: risk-based phase layer handoff
-    task: classify route, timetable, station, cost, KML and recheck layers as ACCEPTED, CORRECTED, OPEN or NOT_APPLICABLE
-    expected_git_blob_sha: 335f43721be70f999ccc43f4d1873108ac42c6db
-  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/run.yaml
-    reason: immutable run identity, pins, travel window and transport policy
-    task: verify ROUTE_OPTIMIZATION, dates, no-bus rule, baggage, status prohibitions and post-completion modes
-    expected_git_blob_sha: ab9513b3cfceff207c30e79e8ce59b6a4307b2ed
-  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/scope.md
-    reason: complete route, train, flight, base, next-cluster and KML contract
-    task: execute every mandatory output and prohibition without starting a new place sweep
-    expected_git_blob_sha: b3f4fbdad3d96b022f575089182528ff64ba2619
-  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/state.yaml
-    reason: executable READY state and claim check
-    task: require READY_FOR_BRONS, no active worker or controller claim and EVT-0002 synchronization before claiming
-    expected_git_blob_sha: 66b2f140ce1d654ab266f018ac7b7d982ba17d1e
-  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/events.jsonl
-    reason: append-only run creation and context preparation evidence
-    task: verify EVT-0001 and EVT-0002 match READY_FOR_BRONS and no claim event exists
-    expected_git_blob_sha: 312f923987e32980cebbca7ca8db3f28efd00500
-  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/issue_requirements.md
-    reason: exact issue #18 execution contract and issue #17 master-KML linkage contract
-    task: implement every listed transport, station, marker, status and output requirement
-    expected_git_blob_sha: 9d1e571c3ebf312d0c764247dd26fa8e8f19d902
-  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/predecessor_pin.yaml
-    reason: authoritative predecessor commit, artifacts, counts and open controls
-    task: use KUMAON-COMPLETE-001 as completed route input and never reactivate its old GOUD route
-    expected_git_blob_sha: d9bd40187e57f13faf91a724f678d4c178eb1235
-  - path: research/active/KUMAON-COMPLETE-001/state.yaml
-    reason: predecessor state and closed-claim proof
-    task: confirm GOUD_PARTIAL and no ACTIVE predecessor worker or controller claim
-    expected_git_blob_sha: 630d324c186e4cb4993af9dcc8d5d10a8d922ef0
-  - path: research/active/KUMAON-COMPLETE-001/GOUD/MARK_FINAL_REPORT.md
-    reason: compact authoritative content and route-readiness synthesis
-    task: preserve all 47 records, statuses, known gaps and route-readiness boundary without broad reinvestigation
-    expected_git_blob_sha: 739adf902bb2ec5777ece5d23f0e93678258ebe9
-  - path: research/active/KUMAON-COMPLETE-001/GOUD/manifest.yaml
-    reason: validated predecessor artifact inventory and counts
-    task: use the authoritative GOUD deliverables and validation flags as loss-control
-    expected_git_blob_sha: df21cb2b772f63da0ce2039eec900e11a89f084e
-  - path: research/active/KUMAON-COMPLETE-001/GOUD/KUMAON_COMPLETE.kml
-    reason: complete seven-layer Kumaon map input
-    task: preserve all placemarks and statuses while adding route, base, train and possible flight layers in the new run
-    expected_git_blob_sha: d1cb312ec9329853e2c290a2e447256cfbc1aa78
-  - path: research/active/KUMAON-COMPLETE-001/GOUD/geo_locations.jsonl
-    reason: permanent LOCATION_ID and working coordinate input for route calculations
-    task: use all 47 location records and preserve visible uncertainty
-    expected_git_blob_sha: 1d44fbce8c9372d631b69f992af158ef456a6f8e
-  - path: research/active/KUMAON-COMPLETE-001/GOUD/geo_connections.jsonl
-    reason: 32 validated WORKING internal connection inputs
-    task: verify and refine only connections material to route optimization and winter feasibility
-    expected_git_blob_sha: da369f8f96f88d4915f1c243963656be93cb11fe
-  - path: research/active/KUMAON-COMPLETE-001/GOUD/base_comparison.jsonl
-    reason: nine existing base-area comparison inputs
-    task: determine optimal base changes and nights without selecting or booking a hotel
-    expected_git_blob_sha: 6bf244c28f02611ba033f338d62903537b843e2e
-  - path: research/active/KUMAON-COMPLETE-001/GOUD/station_and_route_nodes.jsonl
-    reason: existing Kumaon arrival stations and route nodes
-    task: compare Lal Kuan, Haldwani, Kathgodam and mountain approach functions against live route options
-    expected_git_blob_sha: 169bd9376c4fce754cb8387987d5e629f7af7d00
-  - path: research/active/KUMAON-COMPLETE-001/GOUD/practical_access.jsonl
-    reason: access and stay constraints that can affect route order
-    task: use only route-material access controls and schedule live rechecks
-    expected_git_blob_sha: 1c99a22cae17d69173802369f988f7bd27c7f10b
-  - path: research/active/KUMAON-COMPLETE-001/GOUD/map_source.jsonl
-    reason: compact 47-record names, layers, statuses and working points
-    task: preserve every existing marker and rename only the human-facing unassessed layer to D_DOOR_MARK_TE_BEOORDELEN
-    expected_git_blob_sha: 548be6a5a902192b0325888ff342af933fdd205d
-  - path: research/active/KUMAON-COMPLETE-001/GOUD/formal_status_coverage.md
-    reason: exact status and LOCATION_ID loss-control
-    task: preserve 16 A, 1 B, 4 C and all identifiers without new formal or advisory status
-    expected_git_blob_sha: d11dfd0188e0f0d1739289635139fe2291d2fdcf
-  - path: LOCKED_A.md
-    reason: existing formal A clusters needed for next-cluster route comparison
-    task: compare existing clusters geographically and logistically without reassessment or next-cluster research
-    expected_git_blob_sha: 4f2a9a1adf2f8046652035a72b8b76bce884d012
-  - path: LOCKED_B.md
-    reason: existing formal B context and optional route weighting
-    task: preserve status and do not use B as a substitute for A-cluster logic
-    expected_git_blob_sha: ee35ea06ee760563344640103680cb28ae67ea1d
-  - path: decisions/INDEX.yaml
-    reason: canonical existing decisions and prohibition on new decision IDs
-    task: resolve only already existing decisions needed for status and route constraints
-    expected_git_blob_sha: 2ce46e9b7328da8ab4a5301b81a707777d967466
-  - path: knowledge/places/registry.jsonl
-    reason: canonical existing project places and cluster aliases
-    task: prevent duplicate place identities and identify already existing projectclusters without broad research
-    expected_git_blob_sha: 3aa17754af90f45dd5a122a14b2fb98f1f87a485
+  - {path: pipeline/ENTRYPOINT.md, reason: executable entrypoint, task: obey preflight and stop conditions, expected_git_blob_sha: 2cb50f0e6307bded90da1bb7418e103791c96dd4}
+  - {path: pipeline/roles/BRONS.md, reason: BRONS v3.1.1 role contract, task: execute only routegerichte BRONS within the restricted scope, expected_git_blob_sha: 3074c2276411e98e750fb37661096a4e33b85abb}
+  - {path: knowledge/methodology/METHODOLOGY_V2.md, reason: project methodology, task: preserve place and status semantics without a new cluster sweep, expected_git_blob_sha: cba69457b46f26f60a4775a848f9fc4bf01000ff}
+  - {path: pipeline/protocols/EVIDENCE_PROTOCOL.md, reason: claim and source integrity, task: atomize material route transport access and cost claims, expected_git_blob_sha: 5d853e6dae868495782363d0864f641fa2747186}
+  - {path: pipeline/QUALITY_GATE.md, reason: technical and completeness gate, task: apply technical integrity plus scope-specific route gates, expected_git_blob_sha: 8c9d39ed09e8992d785baf15d727a920ccdbb0c0}
+  - {path: pipeline/protocols/EXECUTION_PROTOCOL.md, reason: claim lifecycle and write scope, task: close workerclaim in completioncommit and stop worker before controller, expected_git_blob_sha: f384e45c824ea4c10194dbf476b30b61312a0ed2}
+  - {path: pipeline/protocols/LONG_RUNNING_EXECUTION_PROTOCOL.md, reason: long timetable and route research, task: checkpoint before exhaustion without repeating validated blocks, expected_git_blob_sha: 0640c6af87df2ed94155fa5b04b377c2e729161a}
+  - {path: pipeline/protocols/CONTEXT_PROTOCOL.md, reason: deterministic read boundary, task: read only listed or explicitly triggered files, expected_git_blob_sha: 872bce45f01e276d76dc65479c09e71dc72a15de}
+  - {path: pipeline/protocols/GEO_LOCATION_PROTOCOL.md, reason: LOCATION_ID and map integrity, task: preserve identifiers and visible uncertainty, expected_git_blob_sha: 149c0515010930ec9306a6d68f5beb2a7b3bbe91}
+  - {path: pipeline/CONTEXT_PROFILES.yaml, reason: BRONS_MIN proportionality, task: avoid unlisted repository exploration, expected_git_blob_sha: 4526bb1fe5e3605d63af45d81f8efb152bef1863}
+  - {path: pipeline/templates/RUN_TEMPLATE_V3.md, reason: v3.1.1 run lifecycle, task: apply normal invariants and the explicitly pinned ROUTE_OPTIMIZATION extension, expected_git_blob_sha: 859a72f4209024754ab79afa8a8300aeffbc0167}
+  - {path: pipeline/templates/HANDOFF_LAYER_STATUS_TEMPLATE.yaml, reason: phase handoff layers, task: classify route timetable station cost KML and recheck layers, expected_git_blob_sha: 335f43721be70f999ccc43f4d1873108ac42c6db}
+  - {path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/run.yaml, reason: immutable run identity and policy, task: verify dates transport baggage status and handoff pins, expected_git_blob_sha: ab9513b3cfceff207c30e79e8ce59b6a4307b2ed}
+  - {path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/scope.md, reason: complete route contract, task: execute all outputs and prohibitions without next-cluster research, expected_git_blob_sha: b3f4fbdad3d96b022f575089182528ff64ba2619}
+  - {path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/state.yaml, reason: READY state and claim check, task: require READY_FOR_BRONS no active claim and EVT-0002 sync, expected_git_blob_sha: 2d996b4727fd3e36daa73f1ca0fe55973c9121bc}
+  - {path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/events.jsonl, reason: run creation and context events, task: verify EVT-0001 and EVT-0002 with no claim event, expected_git_blob_sha: 312f923987e32980cebbca7ca8db3f28efd00500}
+  - {path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/issue_requirements.md, reason: issue 18 and issue 17 contract, task: implement every transport station marker status and output requirement, expected_git_blob_sha: 9d1e571c3ebf312d0c764247dd26fa8e8f19d902}
+  - {path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/predecessor_pin.yaml, reason: authoritative predecessor pin, task: use completed Kumaon input and never reactivate old GOUD routing, expected_git_blob_sha: d9bd40187e57f13faf91a724f678d4c178eb1235}
+  - {path: research/active/KUMAON-COMPLETE-001/state.yaml, reason: predecessor state and closed claims, task: confirm GOUD_PARTIAL and no ACTIVE predecessor claim, expected_git_blob_sha: 630d324c186e4cb4993af9dcc8d5d10a8d922ef0}
+  - {path: research/active/KUMAON-COMPLETE-001/GOUD/MARK_FINAL_REPORT.md, reason: authoritative Kumaon synthesis, task: preserve 47 records statuses gaps and route-readiness boundary, expected_git_blob_sha: 739adf902bb2ec5777ece5d23f0e93678258ebe9}
+  - {path: research/active/KUMAON-COMPLETE-001/GOUD/manifest.yaml, reason: validated predecessor inventory, task: use counts artifacts and validation flags for loss-control, expected_git_blob_sha: df21cb2b772f63da0ce2039eec900e11a89f084e}
+  - {path: research/active/KUMAON-COMPLETE-001/GOUD/KUMAON_COMPLETE.kml, reason: complete seven-layer map input, task: preserve placemarks and statuses while adding route transport and base layers, expected_git_blob_sha: d1cb312ec9329853e2c290a2e447256cfbc1aa78}
+  - {path: research/active/KUMAON-COMPLETE-001/GOUD/geo_locations.jsonl, reason: permanent location and coordinate input, task: use all records and preserve uncertainty, expected_git_blob_sha: 1d44fbce8c9372d631b69f992af158ef456a6f8e}
+  - {path: research/active/KUMAON-COMPLETE-001/GOUD/geo_connections.jsonl, reason: 32 internal WORKING connections, task: refine only route-material and winter-sensitive links, expected_git_blob_sha: da369f8f96f88d4915f1c243963656be93cb11fe}
+  - {path: research/active/KUMAON-COMPLETE-001/GOUD/base_comparison.jsonl, reason: nine base inputs, task: determine base changes and nights without hotel selection or booking, expected_git_blob_sha: 6bf244c28f02611ba033f338d62903537b843e2e}
+  - {path: research/active/KUMAON-COMPLETE-001/GOUD/station_and_route_nodes.jsonl, reason: Kumaon gateway nodes, task: compare live arrival and exit functions, expected_git_blob_sha: 169bd9376c4fce754cb8387987d5e629f7af7d00}
+  - {path: research/active/KUMAON-COMPLETE-001/GOUD/practical_access.jsonl, reason: route-material access constraints, task: schedule concrete live rechecks, expected_git_blob_sha: 1c99a22cae17d69173802369f988f7bd27c7f10b}
+  - {path: research/active/KUMAON-COMPLETE-001/GOUD/map_source.jsonl, reason: compact names layers statuses and points, task: preserve all markers and use D_DOOR_MARK_TE_BEOORDELEN for unassessed, expected_git_blob_sha: 548be6a5a902192b0325888ff342af933fdd205d}
+  - {path: research/active/KUMAON-COMPLETE-001/GOUD/formal_status_coverage.md, reason: status and identifier loss-control, task: preserve 16 A 1 B 4 C and every LOCATION_ID, expected_git_blob_sha: d11dfd0188e0f0d1739289635139fe2291d2fdcf}
+  - {path: LOCKED_A.md, reason: existing formal A clusters, task: compare established clusters geographically without reassessment, expected_git_blob_sha: 4f2a9a1adf2f8046652035a72b8b76bce884d012}
+  - {path: LOCKED_B.md, reason: existing formal B context, task: preserve status and optional weighting, expected_git_blob_sha: ee35ea06ee760563344640103680cb28ae67ea1d}
+  - {path: decisions/INDEX.yaml, reason: canonical existing decisions, task: create no new decision ID, expected_git_blob_sha: 2ce46e9b7328da8ab4a5301b81a707777d967466}
+  - {path: knowledge/places/registry.jsonl, reason: canonical place and cluster aliases, task: prevent duplicates and identify existing projectclusters only, expected_git_blob_sha: 3aa17754af90f45dd5a122a14b2fb98f1f87a485}
 optional_files:
-  - path: pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md
-    trigger: only after the BRONS workerrole has formally ended and the separate inline controllerrole begins
-    reason: BRONS-to-ZILVER transition contract
-    task: perform controller-only validation, context generation and routing
-    expected_git_blob_sha: 0c52ebc9a2be47583e08619c6422efad582619b3
-  - path: pipeline/protocols/CONTINUOUS_LEARNING_PROTOCOL.md
-    trigger: only after the BRONS workerrole has formally ended and the separate inline controllerrole begins
-    reason: classify transition defects without changing BRONS research output
-    task: apply during controller transition only
-    expected_git_blob_sha: 38186f203d33623fc11476d712410284cb49b95b
-  - path: pipeline/protocols/SELF_ROUTING_PROTOCOL.md
-    trigger: only when composing the post-transition ZILVER handoff
-    reason: deterministic next-role routing
-    task: emit a ZILVER prompt only after valid transition readback
-    expected_git_blob_sha: b6b7f07bd7f6c946ba35776124f8fa6e6ced564c
-  - path: pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md
-    trigger: only after BRONS completion and workerrole termination
-    reason: explicit worker/controller role separation
-    task: use a separate controllerclaim and hand off only when NEXT_ROLE_READY is valid
-    expected_git_blob_sha: f4663ed3049f5d5586fcf6fc98d8c64a292b1998
-  - path: pipeline/templates/NEXT_ACTION_V3_TEMPLATE.yaml
-    trigger: only during the separate inline controllerrole
-    reason: exact v3 routing schema for ZILVER
-    task: replace NEXT_ACTION only after valid BRONS completion validation
-    expected_git_blob_sha: 7ad211a3f1f6da02643c52b60b4839f9facbc87d
-  - path: pipeline/templates/NEXT_ROLE_HANDOFF_TEMPLATE.md
-    trigger: only during the separate inline controllerrole after successful transition
-    reason: operational ZILVER handoff format
-    task: emit only after closed claims and final readback
-    expected_git_blob_sha: 048ed3df254d0e98ac7c94c943dcfe122214633a
-  - path: pipeline/tests/results/PIPELINE_HANDOFF_SMOKE_001_RESULT.md
-    trigger: only when the production gate is questioned
-    reason: production authorization evidence
-    task: require SMOKE_TEST_STATUS PASS and PRODUCTION_READY YES
-    expected_git_blob_sha: 82e1b743bf6d4869da6a142596ce7189caae6789
+  - {path: pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md, trigger: after BRONS workerrole ends, reason: BRONS-to-ZILVER transition, task: perform controller-only transition, expected_git_blob_sha: 0c52ebc9a2be47583e08619c6422efad582619b3}
+  - {path: pipeline/protocols/CONTINUOUS_LEARNING_PROTOCOL.md, trigger: after BRONS workerrole ends, reason: transition defect classification, task: apply only in controllerrole, expected_git_blob_sha: 38186f203d33623fc11476d712410284cb49b95b}
+  - {path: pipeline/protocols/SELF_ROUTING_PROTOCOL.md, trigger: when composing ZILVER handoff, reason: deterministic routing, task: emit only after final readback, expected_git_blob_sha: b6b7f07bd7f6c946ba35776124f8fa6e6ced564c}
+  - {path: pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md, trigger: after BRONS completion, reason: worker controller separation, task: use separate controllerclaim, expected_git_blob_sha: f4663ed3049f5d5586fcf6fc98d8c64a292b1998}
+  - {path: pipeline/templates/NEXT_ACTION_V3_TEMPLATE.yaml, trigger: during inline controllerrole, reason: ZILVER routing schema, task: update NEXT_ACTION only after validation, expected_git_blob_sha: 7ad211a3f1f6da02643c52b60b4839f9facbc87d}
+  - {path: pipeline/templates/NEXT_ROLE_HANDOFF_TEMPLATE.md, trigger: after successful transition, reason: ZILVER start format, task: emit only with NEXT_ROLE_READY YES, expected_git_blob_sha: 048ed3df254d0e98ac7c94c943dcfe122214633a}
+  - {path: pipeline/tests/results/PIPELINE_HANDOFF_SMOKE_001_RESULT.md, trigger: if production gate is questioned, reason: production authorization, task: require PASS and PRODUCTION_READY YES, expected_git_blob_sha: 82e1b743bf6d4869da6a142596ce7189caae6789}
 forbidden_files:
   - research/active/KUMAON-ROUTE-OPTIMIZATION-001/context/ZILVER_CONTEXT.yaml
   - research/active/KUMAON-ROUTE-OPTIMIZATION-001/context/GOUD_CONTEXT.yaml
