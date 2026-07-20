@@ -27,16 +27,19 @@ controller_claim:
   transition_commit: THIS_ATOMIC_COMMIT
   transition_commit_ref: THIS_ATOMIC_COMMIT
 completion_repair:
-  transient_commits:
+  predecessor_transient_commits:
     - 25e410a1af2f5e832e5ba548701f95f88bacce01
     - 91c1c1f7f9a7e7e8eb1403c10e33cbe4ade02085
-  status: REPAIRED_IN_COMPLETION_COMMIT
-  repair_events: [EVT-0008, EVT-0011]
+  predecessor_status: REPAIRED_IN_ZILVER_COMPLETION
+  predecessor_repair_events: [EVT-0008, EVT-0011]
+  goud_superseded_completion_commit: a0fbd45b57faa5041025f4f6b02e5c79e4aee448
+  goud_repair_status: GEO_SCHEMA_REISSUED
+  goud_repair_event: EVT-0018
 claim_order_validation:
   status: VALID_BY_GIT_ANCESTRY
   claim_commit: 7a358b6d2625945f4967207580cfdbda79816128
   metadata_repair_event: EVT-0009
-last_event_id: EVT-0017
+last_event_id: EVT-0018
 last_validated_commit: THIS_ATOMIC_COMMIT
 blockers:
   - Exact identity, access and GEO remain open for K. K. Sah house, Bodh Ashram and the Vivekananda cave.

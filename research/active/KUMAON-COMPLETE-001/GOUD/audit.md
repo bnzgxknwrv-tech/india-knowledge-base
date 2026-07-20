@@ -33,9 +33,13 @@
 
 `CANONICAL_INTEGRATION_PROPOSAL.md` is opgesteld. Geen canonieke write is uitgevoerd omdat geen gepinde canonieke place-ID-mapping bestaat en de decisions-index reeds volledig is. Geen A/B/C of decision-ID is gewijzigd.
 
+## Completionherstel
+
+De eerste completioncommit `a0fbd45b57faa5041025f4f6b02e5c79e4aee448` gebruikte voor de twee verplichte GEO-overdrachtsbestanden nog de voorgangerregistervorm. Deze commit is niet de definitieve vrijgave. In `EVT-0018` zijn `geo_locations.jsonl` en `geo_connections.jsonl` atomair heruitgegeven met de expliciete GEO-protocolvelden, Maps-links, puntkeuze, bron/methode, controledatum en WORKING-beperkingen. Manifest, COMPLETED, state en events zijn in dezelfde herstelcommit opnieuw uitgegeven.
+
 ## Quality gate
 
-Technische integriteit: PASS.
+Technische integriteit na herstel: PASS.
 Inhoudelijke status: PARTIAL.
 Routeoptimalisatiegereedheid: YES, met live en micro-site-controles.
 
