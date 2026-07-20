@@ -1,7 +1,7 @@
 schema_version: 3
 run_id: KUMAON-COMPLETE-001
-state: GOUD_CLAIMED
-active_role: GOUD
+state: GOUD_PARTIAL
+active_role: null
 claim:
   role: GOUD
   claimed_by: ChatGPT-GOUD
@@ -9,7 +9,11 @@ claim:
   source_commit: 55fc0924b29ac3e006efc8b5c5f095a561b41b56
   expected_state: READY_FOR_GOUD
   output_path: research/active/KUMAON-COMPLETE-001/GOUD/
-  claim_status: ACTIVE
+  claim_status: CLOSED
+  closed_at: 2026-07-20T16:55:00+02:00
+  result_status: PARTIAL
+  completion_commit: THIS_ATOMIC_COMMIT
+  completion_commit_ref: THIS_ATOMIC_COMMIT
 controller_claim:
   transition: ZILVER_COMPLETE_TO_READY_FOR_GOUD
   claimed_by: ChatGPT-INLINE-CONTROLLER
@@ -32,12 +36,12 @@ claim_order_validation:
   status: VALID_BY_GIT_ANCESTRY
   claim_commit: 7a358b6d2625945f4967207580cfdbda79816128
   metadata_repair_event: EVT-0009
-last_event_id: EVT-0016
-last_validated_commit: 55fc0924b29ac3e006efc8b5c5f095a561b41b56
+last_event_id: EVT-0017
+last_validated_commit: THIS_ATOMIC_COMMIT
 blockers:
   - Exact identity, access and GEO remain open for K. K. Sah house, Bodh Ashram and the Vivekananda cave.
   - Complete ten-function image and systematic recent-review coverage remains absent.
-  - Live December 2026 rail, winter-road, trail, taxi and travel-time conditions remain time-sensitive.
+  - Live December 2026 rail, winter-road, trail, taxi, parking and travel-time conditions remain time-sensitive.
 context_profile: GOUD_MIN
 active_context_manifest: research/active/KUMAON-COMPLETE-001/context/GOUD_CONTEXT.yaml
 location_id_blocks:
@@ -53,8 +57,13 @@ inline_handoff_active: false
 post_completion_mode: MARK_FINAL_REPORT
 next_role_after_goud: MARK
 completion_destination: VOOR_MARK
+mark_final_report_ready: true
+route_optimization_ready: true
 canonical_integration:
   mode: DETERMINISTIC_NON_DECISIONAL
+  status: NOT_APPLICABLE
+  registry_write_applied: false
+  decisions_index_write_applied: false
   allowed_registry_path: knowledge/places/registry.jsonl
   allowed_decisions_index_path: decisions/INDEX.yaml
   forbid_new_or_changed_abc: true

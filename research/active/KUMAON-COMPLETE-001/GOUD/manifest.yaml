@@ -1,0 +1,109 @@
+schema_version: 3
+run_id: KUMAON-COMPLETE-001
+role: GOUD
+completion_status: PARTIAL
+source_commit: 55fc0924b29ac3e006efc8b5c5f095a561b41b56
+context_profile: GOUD_MIN
+post_completion_mode: MARK_FINAL_REPORT
+completion_destination: VOOR_MARK
+counts:
+  candidates: 47
+  claims: 77
+  accepted_sources: 39
+  rejected_sources: 8
+  detector_checks: 9
+  negative_searches: 8
+  geo_locations: 47
+  geo_connections: 32
+  location_assignments: 17
+  practical_access: 47
+  bases: 9
+  station_and_route_nodes: 4
+  map_records: 47
+  images: 47
+  experience_reviews: 47
+  kml_placemarks: 47
+  kml_layers: 7
+formal_status_coverage:
+  A: 16
+  B: 1
+  C: 4
+  changed: 0
+location_ids:
+  corridor_nodes: 308-310
+  kumaon_records: 400-443
+  newly_assigned: 427-443
+  duplicates: 0
+files:
+  - report/INDEX.md
+  - report/01_final_candidate_and_status_map.md
+  - report/02_access_experience_and_visuals.md
+  - report/03_geo_connections_kml_and_route_readiness.md
+  - report/04_quality_gate_and_conclusion.md
+  - candidates.jsonl
+  - claims.jsonl
+  - sources/registry.jsonl
+  - sources/rejected.jsonl
+  - detector_checks.jsonl
+  - negative_searches.jsonl
+  - working_geo.jsonl
+  - location_assignments.jsonl
+  - practical_access.jsonl
+  - base_comparison.jsonl
+  - station_and_route_nodes.jsonl
+  - proximity.jsonl
+  - map_source.jsonl
+  - images.jsonl
+  - experience_reviews.jsonl
+  - formal_status_coverage.md
+  - completeness_matrix.md
+  - geo_locations.jsonl
+  - geo_connections.jsonl
+  - location_id_audit.md
+  - decision_inputs.md
+  - KUMAON_COMPLETE.kml
+  - CANONICAL_INTEGRATION_PROPOSAL.md
+  - audit.md
+  - decision.md
+  - handoff.yaml
+  - MARK_FINAL_REPORT.md
+  - manifest.yaml
+  - COMPLETED
+validation:
+  github_read_confirmed: true
+  github_write_confirmed: true
+  required_context_files_fully_read: true
+  required_context_hashes_match: true
+  triggered_optional_files_fully_read: true
+  forbidden_files_used: false
+  all_required_outputs_present: true
+  text_sentinels_checked: true
+  kml_xml_closing_checked: true
+  kml_placemark_count_checked: true
+  kml_layer_count_checked: true
+  source_id_references_valid: true
+  source_ids_unique_across_registers: true
+  identifiers_unique: true
+  all_47_candidates_accounted: true
+  location_ids_unique_and_in_blocks: true
+  all_formal_statuses_preserved: true
+  canonical_proposal_written_before_any_allowed_write: true
+  canonical_registry_write_applied: false
+  canonical_decisions_index_write_applied: false
+  formal_or_advisory_abc_assigned: false
+  new_decision_id_created: false
+  route_selected: false
+  base_selected: false
+  station_selected: false
+  hotel_selected: false
+  parels_activated: false
+  pipeline_modified: false
+  worker_claim_closed_in_completion_commit: true
+  mark_final_report_reopened: true
+canonical_integration_status: NOT_APPLICABLE
+route_optimization_ready: YES_WITH_OPEN_CONTROLS
+open_blockers:
+  - Exact identity, access and GEO remain open for K. K. Sah house, Bodh Ashram and the Vivekananda cave.
+  - Complete ten-function image and systematic recent-review coverage remains absent.
+  - Live December 2026 rail, winter-road, trail, taxi, parking and travel-time conditions remain time-sensitive.
+END_OF_ARTIFACT

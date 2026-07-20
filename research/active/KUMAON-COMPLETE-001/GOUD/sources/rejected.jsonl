@@ -1,0 +1,9 @@
+{"source_id":"ZKR-001","url":"generic map search pins for private and micro-sites","reason":"Exact KK Sah house, Bodh Ashram and Vivekananda cave coordinates were not corroborated.","searched_for":"micro-site GEO","replacement_source_id":null}
+{"source_id":"ZKR-002","url":"generic route-time websites","reason":"Non-live times omit winter, traffic, stops and road condition.","searched_for":"road and connection times","replacement_source_id":null}
+{"source_id":"ZKR-003","url":"single unsourced cave pins near Kasar Devi","reason":"Could not establish the exact Vivekananda meditation cave entrance or boundary.","searched_for":"Vivekananda cave GEO","replacement_source_id":null}
+{"source_id":"ZKR-004","url":"SEO retreat pages naming Bodh Ashram","reason":"No official institution, reliable address or access rule was found.","searched_for":"Bodh Ashram identity/access","replacement_source_id":null}
+{"source_id":"ZKR-005","url":"tourism lists without direct-line evidence","reason":"Not sufficient for adding spiritual candidates or assigning status.","searched_for":"new candidate detection","replacement_source_id":null}
+{"source_id":"ZKR-006","url":"Airbnb host lineage statement for Turiya Niwas","reason":"Supports a current lodging property and reported association only, not independent historical proof.","searched_for":"Turiya Niwas lineage","replacement_source_id":"ZKS-026"}
+{"source_id":"ZKR-007","url":"review aggregators as official opening-hours sources","reason":"Useful only for recurring visitor themes; official confirmation remains required.","searched_for":"opening hours and rules","replacement_source_id":null}
+{"source_id":"ZKR-008","url":"old rail schedules copied by tourism sites","reason":"Current train existence does not establish operation on Mark's exact December 2026 date.","searched_for":"December 2026 rail operation","replacement_source_id":"ZKS-029"}
+END_OF_ARTIFACT
