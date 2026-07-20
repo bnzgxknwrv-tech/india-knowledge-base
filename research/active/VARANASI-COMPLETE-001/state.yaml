@@ -1,7 +1,7 @@
 schema_version: 3
 run_id: VARANASI-COMPLETE-001
-state: BRONS_COMPLETE
-active_role: null
+state: TRANSITION_TO_ZILVER_CLAIMED
+active_role: CONTROLLER
 claim:
   role: BRONS
   claimed_by: ChatGPT-BRONS
@@ -11,11 +11,19 @@ claim:
   output_path: research/active/VARANASI-COMPLETE-001/BRONS/
   claim_status: CLOSED
   claim_closed_at: 2026-07-20T23:20:00+02:00
-  completion_commit: THIS_ATOMIC_COMMIT
+  completion_commit: d4459c0f58c4a9ab88213e4f04a1e61d291a1124
   completion_result: PARTIAL
-controller_claim: null
-last_event_id: EVT-0004
-last_validated_commit: THIS_ATOMIC_COMMIT
+controller_claim:
+  transition: BRONS_COMPLETE_TO_READY_FOR_ZILVER
+  claimed_by: ChatGPT-INLINE-CONTROLLER
+  claimed_at: 2026-07-20T23:35:00+02:00
+  source_commit: d4459c0f58c4a9ab88213e4f04a1e61d291a1124
+  expected_state: BRONS_COMPLETE
+  target_context_manifest: research/active/VARANASI-COMPLETE-001/context/ZILVER_CONTEXT.yaml
+  activation_mode: INLINE_POST_PHASE_CONTROLLER
+  claim_status: ACTIVE
+last_event_id: EVT-0005
+last_validated_commit: d4459c0f58c4a9ab88213e4f04a1e61d291a1124
 initialization_status: COMPLETE
 blockers:
   - Small/private physical identities, management and access require independent verification.
