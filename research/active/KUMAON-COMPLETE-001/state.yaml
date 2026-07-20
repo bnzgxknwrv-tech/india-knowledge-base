@@ -1,19 +1,15 @@
 schema_version: 3
 run_id: KUMAON-COMPLETE-001
-state: READY_FOR_GOUD
+state: GOUD_CLAIMED
 active_role: GOUD
 claim:
-  role: ZILVER
-  claimed_by: ChatGPT-ZILVER
-  claimed_at: 2026-07-19T15:13:17+02:00
-  source_commit: 9afdbb21ab4cb202144c2a6346218d6e1a3639aa
-  expected_state: READY_FOR_ZILVER
-  output_path: research/active/KUMAON-COMPLETE-001/ZILVER/
-  claim_status: CLOSED
-  closed_at: 2026-07-19T18:55:00+02:00
-  result_status: PARTIAL
-  completion_commit: THIS_ATOMIC_COMMIT
-  completion_commit_ref: THIS_ATOMIC_COMMIT
+  role: GOUD
+  claimed_by: ChatGPT-GOUD
+  claimed_at: 2026-07-20T16:23:00+02:00
+  source_commit: 55fc0924b29ac3e006efc8b5c5f095a561b41b56
+  expected_state: READY_FOR_GOUD
+  output_path: research/active/KUMAON-COMPLETE-001/GOUD/
+  claim_status: ACTIVE
 controller_claim:
   transition: ZILVER_COMPLETE_TO_READY_FOR_GOUD
   claimed_by: ChatGPT-INLINE-CONTROLLER
@@ -36,7 +32,7 @@ claim_order_validation:
   status: VALID_BY_GIT_ANCESTRY
   claim_commit: 7a358b6d2625945f4967207580cfdbda79816128
   metadata_repair_event: EVT-0009
-last_event_id: EVT-0015
+last_event_id: EVT-0016
 last_validated_commit: 55fc0924b29ac3e006efc8b5c5f095a561b41b56
 blockers:
   - Exact identity, access and GEO remain open for K. K. Sah house, Bodh Ashram and the Vivekananda cave.
