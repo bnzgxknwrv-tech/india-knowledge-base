@@ -1,0 +1,30 @@
+schema_version: 3
+run_id: KUMAON-ROUTE-OPTIMIZATION-001
+state: READY_FOR_BRONS
+active_role: null
+claim: null
+controller_claim: null
+last_event_id: EVT-0001
+last_validated_commit: 41a77b967d784de5babb67d603becf2b9f2ebf75
+initialization_status: FILES_CREATED_ROUTING_PIN_PENDING
+blockers: []
+context_profile: BRONS_MIN
+active_context_manifest: research/active/KUMAON-ROUTE-OPTIMIZATION-001/context/BRONS_CONTEXT.yaml
+working_geo: true
+run_local_complete_kml_required: true
+parallel_writers_allowed: false
+inline_handoff_active: true
+post_completion_mode: INLINE_POST_PHASE_CONTROLLER
+next_role_after_brons: ZILVER
+master_india_kml_issue: 17
+execution_issue: 18
+predecessor:
+  run_id: KUMAON-COMPLETE-001
+  completion_commit: 41a77b967d784de5babb67d603becf2b9f2ebf75
+  accepted_state: GOUD_PARTIAL
+  content_complete_for_route_optimization: true
+formal_status_policy:
+  preserve_existing_abc: true
+  forbid_new_formal_or_advisory_abc: true
+  unassessed_human_name: D_DOOR_MARK_TE_BEOORDELEN
+END_OF_ARTIFACT
