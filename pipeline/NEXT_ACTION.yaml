@@ -47,5 +47,10 @@ post_completion:
     require_mark_decision_on_content_choice: true
 created_by: ChatGPT-CONTROLLER-KUMAON-ROUTE-001
 created_at: 2026-07-20T19:08:45+02:00
-source_commit: 73c11932a17f9ab0186c32621597c21a8f8b1984
+source_commit: 3eb11704c769e69f1c6533ce3a26249eb0293e92
+repair:
+  repair_id: KUMAON-ROUTE-OPTIMIZATION-001-RUN-REPAIR-001
+  repaired_at: 2026-07-20T20:01:07+02:00
+  previous_source_commit: 73c11932a17f9ab0186c32621597c21a8f8b1984
+  reason: The ZILVER context manifest was created in transition commit 3eb11704c769e69f1c6533ce3a26249eb0293e92 and therefore cannot be fetched from the earlier BRONS completion commit.
 END_OF_ARTIFACT
