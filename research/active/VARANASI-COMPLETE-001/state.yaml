@@ -1,0 +1,29 @@
+schema_version: 3
+run_id: VARANASI-COMPLETE-001
+state: READY_FOR_BRONS
+active_role: BRONS
+claim: null
+controller_claim: null
+last_event_id: EVT-0002
+last_validated_commit: 71ee43672376f4f1f06e591afc9c7babb8985b36
+initialization_status: COMPLETE
+blockers: []
+context_profile: BRONS_MIN
+active_context_manifest: research/active/VARANASI-COMPLETE-001/context/BRONS_CONTEXT.yaml
+output_path: research/active/VARANASI-COMPLETE-001/BRONS/
+completion_destination: VOOR_VOLGEND_METAAL
+post_completion_mode: INLINE_POST_PHASE_CONTROLLER
+next_role_after_brons: ZILVER
+formal_status_policy:
+  preserve_existing_abc: true
+  only_mark_changes_formal_abc: true
+map_policy:
+  master_ab_registry_required: true
+  master_ab_kml_required: true
+  a_color: GREEN
+  b_color: ORANGE
+  include_c: false
+parked_run:
+  run_id: KUMAON-ROUTE-OPTIMIZATION-001
+  mutation_forbidden: true
+END_OF_ARTIFACT
