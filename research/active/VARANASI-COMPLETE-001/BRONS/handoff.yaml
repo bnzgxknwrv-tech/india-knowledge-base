@@ -1,0 +1,80 @@
+schema_version: 1
+run_id: VARANASI-COMPLETE-001
+completed_role: BRONS
+result_status: PARTIAL
+output_manifest_path: research/active/VARANASI-COMPLETE-001/BRONS/manifest.yaml
+next_role: ZILVER
+next_expected_transition: CONTROLLER_TRANSITION_TO_ZILVER
+layer_statuses:
+  physical_identity:
+    status: OPEN
+    risk: MEDIUM
+    reason: Forty Varanasi/Sarnath physical objects are mapped; several small or private sites need independent identity checks.
+    reopen_instruction: VERIFY_ALL
+  institution:
+    status: OPEN
+    risk: MEDIUM
+    reason: Major institutions are confirmed; management of small temples, Lahartara and Bhaskarananda remains open.
+    reopen_instruction: VERIFY_DRAGGING_CLAIMS
+  history_tradition_lineage:
+    status: OPEN
+    risk: HIGH
+    reason: Lahiri, Trailanga, Kabir, Aghor, Anandamayi, Ramakrishna and Buddhist claims require independent source verification.
+    reopen_instruction: VERIFY_ALL
+  devotional_practice_and_participation:
+    status: OPEN
+    risk: HIGH
+    reason: Current rituals, participation and foreign-visitor etiquette are incomplete for many sites.
+    reopen_instruction: VERIFY_ALL
+  experience_reviews_and_images:
+    status: OPEN
+    risk: HIGH
+    reason: Complete ten-function image dossiers and systematic recent review analyses are absent.
+    reopen_instruction: VERIFY_ALL
+  visitability_and_practicality:
+    status: OPEN
+    risk: HIGH
+    reason: Opening, photography, crowd, cremation-ghat conduct and festival conditions remain time-sensitive.
+    reopen_instruction: VERIFY_ALL
+  proximity_and_cluster_effect:
+    status: OPEN
+    risk: MEDIUM
+    reason: Fifteen working cluster relations are present but no live travel-time verification was attempted.
+    reopen_instruction: VERIFY_ALL
+  formal_ab_registry:
+    status: ACCEPTED
+    risk: LOW
+    reason: Twenty-eight formal A and two formal B are covered exactly without reassessment.
+    reopen_instruction: MOTIVATED_SAMPLE
+  prepared_ab_kml:
+    status: OPEN
+    risk: MEDIUM
+    reason: Two-layer KML matches coverage, but non-Kumaon working points need independent map validation.
+    reopen_instruction: VERIFY_ALL
+routing_rule: >-
+  ZILVER reopens all OPEN layers and every load-bearing claim. No formal or advisory A/B/C may be assigned.
+open_blockers:
+  - Verify identity, management and access for small/private Varanasi sites.
+  - Verify all non-Kumaon formal A/B working GEO points.
+  - Build image and systematic recent-review coverage or preserve explicit shortages.
+  - Recheck current rituals, photography, foreign access, crowd and opening conditions.
+  - Preserve exact 28 A / 2 B registry-to-KML equality.
+required_predecessor_files:
+  - research/active/VARANASI-COMPLETE-001/BRONS/manifest.yaml
+  - research/active/VARANASI-COMPLETE-001/BRONS/report/INDEX.md
+  - research/active/VARANASI-COMPLETE-001/BRONS/candidates.jsonl
+  - research/active/VARANASI-COMPLETE-001/BRONS/claims.jsonl
+  - research/active/VARANASI-COMPLETE-001/BRONS/sources/registry.jsonl
+  - research/active/VARANASI-COMPLETE-001/BRONS/sources/rejected.jsonl
+  - research/active/VARANASI-COMPLETE-001/BRONS/detector_checks.jsonl
+  - research/active/VARANASI-COMPLETE-001/BRONS/negative_searches.jsonl
+  - research/active/VARANASI-COMPLETE-001/BRONS/working_geo.jsonl
+  - research/active/VARANASI-COMPLETE-001/BRONS/images.jsonl
+  - research/active/VARANASI-COMPLETE-001/BRONS/experience_reviews.jsonl
+  - research/active/VARANASI-COMPLETE-001/BRONS/proximity.jsonl
+  - research/active/VARANASI-COMPLETE-001/BRONS/formal_ab_coverage.md
+  - research/active/VARANASI-COMPLETE-001/BRONS/INDIA_ALL_FORMAL_A_B_WORKING_PREPARED.kml
+  - research/active/VARANASI-COMPLETE-001/shared/MASTER_A_B_GEO_REGISTRY.jsonl
+  - research/active/VARANASI-COMPLETE-001/BRONS/audit.md
+future_source_commit: null
+END_OF_ARTIFACT
