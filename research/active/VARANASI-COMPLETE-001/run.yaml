@@ -1,0 +1,100 @@
+schema_version: 3
+run_id: VARANASI-COMPLETE-001
+project: india
+run_type: CLUSTER_SWEEP
+scope_file: research/active/VARANASI-COMPLETE-001/scope.md
+created_at: 2026-07-20T20:58:18+02:00
+created_by: INDIA2
+immutable_after_first_claim: true
+operating_mode: CONTROLLED_MANUAL_INLINE_HANDOFF
+context_profile: BRONS_MIN
+production_gate:
+  smoke_result: pipeline/tests/results/PIPELINE_HANDOFF_SMOKE_001_RESULT.md
+  required_value: "PRODUCTION_READY: YES"
+  verified_on_main: true
+pins:
+  entrypoint: pipeline/ENTRYPOINT.md
+  run_template: pipeline/templates/RUN_TEMPLATE_V3.md
+  methodology: knowledge/methodology/METHODOLOGY_V2.md
+  evidence_protocol: pipeline/protocols/EVIDENCE_PROTOCOL.md
+  quality_gate: pipeline/QUALITY_GATE.md
+  execution_protocol: pipeline/protocols/EXECUTION_PROTOCOL.md
+  long_running_execution_protocol: pipeline/protocols/LONG_RUNNING_EXECUTION_PROTOCOL.md
+  context_protocol: pipeline/protocols/CONTEXT_PROTOCOL.md
+  controller_transition_protocol: pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md
+  continuous_learning_protocol: pipeline/protocols/CONTINUOUS_LEARNING_PROTOCOL.md
+  self_routing_protocol: pipeline/protocols/SELF_ROUTING_PROTOCOL.md
+  role_handoff_protocol: pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md
+  geo_protocol: pipeline/protocols/GEO_LOCATION_PROTOCOL.md
+  context_profiles: pipeline/CONTEXT_PROFILES.yaml
+  next_action_template: pipeline/templates/NEXT_ACTION_V3_TEMPLATE.yaml
+  next_role_handoff_template: pipeline/templates/NEXT_ROLE_HANDOFF_TEMPLATE.md
+  mark_final_report_template: pipeline/templates/MARK_FINAL_REPORT_TEMPLATE.md
+  canonical_integration_proposal_template: pipeline/templates/CANONICAL_INTEGRATION_PROPOSAL_TEMPLATE.md
+  handoff_layer_template: pipeline/templates/HANDOFF_LAYER_STATUS_TEMPLATE.yaml
+  place_registry: knowledge/places/registry.jsonl
+  place_numbering_policy: knowledge/places/NUMBERING_POLICY.md
+  decisions_index: decisions/INDEX.yaml
+  roles:
+    BRONS: pipeline/roles/BRONS.md
+    ZILVER: pipeline/roles/ZILVER.md
+    GOUD: pipeline/roles/GOUD.md
+versions:
+  pipeline: 3.1.1
+  methodology: 3.0.0
+source_base_commit: c57b7b8140d43f8d2ba0bd98856f1f2221df8791
+issues:
+  execution_issue: 19
+  master_kml_issue: 17
+predecessor_policy:
+  preserve_all_existing_phase_outputs: true
+  overwrite_old_brons_forbidden: true
+  parked_run: KUMAON-ROUTE-OPTIMIZATION-001
+  parked_run_mutation_forbidden: true
+status_policy:
+  only_mark_changes_formal_abc: true
+  preserve_existing_formal_abc: true
+  new_candidates_may_receive_advisory_status: true
+  unassessed_human_name: D_DOOR_MARK_TE_BEOORDELEN
+geo_policy:
+  target: PRACTICAL_WORKING_MAP
+  preferred_point: RECOGNIZABLE_GOOGLE_MAPS_PIN
+  acceptable_alternatives: [SITE_CENTRE, ADDRESS_POINT, APPROXIMATE_LOCAL_POINT]
+  target_accuracy_m: 100
+  exact_error_calculation_required: false
+  missing_precision_must_not_block_marker: true
+  uncertainty_must_be_visible: true
+kml_policy:
+  source_of_truth: research/active/VARANASI-COMPLETE-001/shared/MASTER_A_B_GEO_REGISTRY.jsonl
+  output_path: research/active/VARANASI-COMPLETE-001/GOUD/INDIA_ALL_FORMAL_A_B_WORKING.kml
+  layers: [A_FORMEEL, B_FORMEEL]
+  include_c: false
+  a_color: GREEN
+  b_color: ORANGE
+  category_logos_forbidden: true
+  marker_name_policy: "Readable name; when mainly Indian terminology, add short Dutch function in parentheses"
+  examples: ["Kashi Vishwanath (Shiva-tempel)", "Manikarnika Ghat (crematieghat)"]
+  deterministic_generation_required: true
+  coverage_equality_required: true
+claim_policy:
+  worker_claim_initial_status: ACTIVE
+  close_worker_claim_in_completion_commit: true
+  controller_claim_initial_status: ACTIVE
+  close_controller_claim_in_transition_commit: true
+post_completion_policy:
+  BRONS: {mode: INLINE_POST_PHASE_CONTROLLER, target_role: ZILVER, target_ready_state: READY_FOR_ZILVER}
+  ZILVER: {mode: INLINE_POST_PHASE_CONTROLLER, target_role: GOUD, target_ready_state: READY_FOR_GOUD}
+  GOUD:
+    mode: MARK_FINAL_REPORT
+    completion_destination: VOOR_MARK
+    canonical_integration:
+      mode: DETERMINISTIC_NON_DECISIONAL
+      proposal_template: pipeline/templates/CANONICAL_INTEGRATION_PROPOSAL_TEMPLATE.md
+      allowed_registry_path: knowledge/places/registry.jsonl
+      allowed_decisions_index_path: decisions/INDEX.yaml
+      forbid_new_or_changed_abc: true
+      forbid_new_decision_id: true
+      require_mark_decision_on_content_choice: true
+parallel_writers_allowed: false
+successor_contexts_precreated: false
+END_OF_ARTIFACT
