@@ -1,7 +1,7 @@
 schema_version: 3
 run_id: VARANASI-COMPLETE-001
-state: ZILVER_CLAIMED
-active_role: ZILVER
+state: ZILVER_COMPLETE
+active_role: null
 claim:
   role: ZILVER
   claimed_by: ChatGPT-ZILVER
@@ -9,8 +9,11 @@ claim:
   source_commit: d4459c0f58c4a9ab88213e4f04a1e61d291a1124
   expected_state: READY_FOR_ZILVER
   output_path: research/active/VARANASI-COMPLETE-001/ZILVER/
-  claim_status: ACTIVE
-  claim_commit_ref: THIS_ATOMIC_COMMIT
+  claim_status: CLOSED
+  closed_at: 2026-07-21T09:08:00+02:00
+  result_status: PARTIAL
+  completion_commit: THIS_ATOMIC_COMMIT
+  completion_commit_ref: THIS_ATOMIC_COMMIT
 controller_claim:
   transition: BRONS_COMPLETE_TO_READY_FOR_ZILVER
   claimed_by: ChatGPT-INLINE-CONTROLLER
@@ -22,13 +25,14 @@ controller_claim:
   claim_status: CLOSED
   claim_closed_at: 2026-07-20T23:50:00+02:00
   transition_commit: THIS_ATOMIC_COMMIT
-last_event_id: EVT-0008
-last_validated_commit: d4459c0f58c4a9ab88213e4f04a1e61d291a1124
+last_event_id: EVT-0009
+last_validated_commit: fb49407f724c689b99618b4c63edbe12f5c90559
 initialization_status: COMPLETE
 blockers:
-  - Small/private physical identities, management and access require independent verification.
-  - Complete current image and review coverage remains absent and is explicitly registered.
-  - Current rituals, opening, photography, foreign access and crowd conditions remain time-sensitive.
+  - Lahartara and Bhaskarananda/Anand Bagh exact micro-identity, GEO, management and access remain not established.
+  - Direct management and access confirmation remains open for Lahiri Samadhi/Satyalok, Lahiri house and Trailanga Math.
+  - Complete ten-function image sets and systematic recent review analyses remain absent for all candidates.
+  - Opening, photography, foreign access, festival and crowd conditions remain time-sensitive for many sites.
 context_profile: ZILVER_MIN
 active_context_manifest: research/active/VARANASI-COMPLETE-001/context/ZILVER_CONTEXT.yaml
 output_path: research/active/VARANASI-COMPLETE-001/ZILVER/
@@ -46,5 +50,6 @@ map_policy:
   include_c: false
 parked_run:
   run_id: KUMAON-ROUTE-OPTIMIZATION-001
-  mutation_forbidden: true
+  read_performed: false
+  mutation_performed: false
 END_OF_ARTIFACT

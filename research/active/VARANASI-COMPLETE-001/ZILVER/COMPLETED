@@ -1,0 +1,35 @@
+PARTIAL
+run_id: VARANASI-COMPLETE-001
+role: ZILVER
+source_commit: d4459c0f58c4a9ab88213e4f04a1e61d291a1124
+outputs:
+  - manifest.yaml
+  - report/INDEX.md
+  - report/01_verified_candidate_map.md
+  - report/02_lineages_practice_and_access.md
+  - report/03_geo_visuals_reviews_and_proximity.md
+  - report/04_master_ab_registry_and_kml.md
+  - report/05_quality_gate_and_conclusion.md
+  - candidates.jsonl
+  - claims.jsonl
+  - sources/registry.jsonl
+  - sources/rejected.jsonl
+  - detector_checks.jsonl
+  - negative_searches.jsonl
+  - working_geo.jsonl
+  - practical_access.jsonl
+  - images.jsonl
+  - experience_reviews.jsonl
+  - proximity.jsonl
+  - formal_ab_coverage.md
+  - MASTER_A_B_GEO_REGISTRY_VERIFIED.jsonl
+  - INDIA_ALL_FORMAL_A_B_WORKING_ZILVER.kml
+  - audit.md
+  - handoff.yaml
+highest_gaps:
+  - Lahartara and Bhaskarananda/Anand Bagh exact micro-identity, GEO, management and access remain not established.
+  - Direct management and access confirmation remains open for Lahiri Samadhi/Satyalok, Lahiri house and Trailanga Math.
+  - Complete ten-function image sets and systematic recent review analyses remain absent for all candidates.
+  - Opening, photography, foreign access, festival and crowd conditions remain time-sensitive for many sites.
+validation: All required ZILVER artifacts were reopened from GitHub. Forty candidates, fifty-seven reassessed claims, twenty-five accepted sources, seven rejected sources, eight detectors, six negative searches, forty GEO records, forty practical-access records, forty image records, forty review records and fifteen proximity records are structurally coherent. The repositorywide formal map remains exactly twenty-eight A, two B and thirty placemarks with A only green and B only orange. No formal or advisory status, decision, route, base, hotel or station was created, and KUMAON-ROUTE-OPTIMIZATION-001 was neither read nor modified.
+END_OF_ARTIFACT

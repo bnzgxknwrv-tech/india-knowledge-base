@@ -1,0 +1,112 @@
+schema_version: 3
+run_id: VARANASI-COMPLETE-001
+role: ZILVER
+completion_status: PARTIAL
+source_commit: d4459c0f58c4a9ab88213e4f04a1e61d291a1124
+context_profile: ZILVER_MIN
+protocol_versions:
+  pipeline: 3.1.1
+  methodology: 3.0.0
+  execution_protocol: 2.3.1
+  controller_transition_protocol: 2.3.1
+  role_handoff_protocol: '1.1'
+counts:
+  candidates: 40
+  confirmed_candidates: 35
+  working_supported_candidates: 3
+  partial_candidates: 2
+  claims: 57
+  confirmed_claims: 45
+  retained_with_limits_claims: 5
+  corrected_claims: 3
+  corrected_to_partial_claims: 3
+  confirmed_negative_claims: 1
+  accepted_sources: 25
+  rejected_sources: 7
+  detector_checks: 8
+  negative_searches: 6
+  working_geo: 40
+  practical_access: 40
+  images: 40
+  experience_reviews: 40
+  proximity: 15
+formal_ab:
+  A: 28
+  B: 2
+  changed: 0
+  registry_records: 30
+  kml_placemarks: 30
+  kml_folders: 2
+  A_style: A_GREEN
+  A_color: ff00aa00
+  B_style: B_ORANGE
+  B_color: ff00a5ff
+  C_records: 0
+  route_station_base_hotel_records: 0
+identifiers:
+  candidate_ids_unique: true
+  claim_ids_unique: true
+  source_ids_unique_across_registers: true
+  registry_record_ids_unique: true
+  duplicate_nonempty_location_ids: 0
+  missing_coordinates: 0
+files:
+  - {path: report/INDEX.md, lines: 13, git_blob_sha: 6e942474a08e1dd67533b141d31a6e65e6da808d}
+  - {path: report/01_verified_candidate_map.md, lines: 30, git_blob_sha: 21e6308bb049169d2501a84455ab9cc1b553dbe4}
+  - {path: report/02_lineages_practice_and_access.md, lines: 29, git_blob_sha: 3a925e32982277f8cf0035d6131aa49ed9877e5e}
+  - {path: report/03_geo_visuals_reviews_and_proximity.md, lines: 30, git_blob_sha: 16d8fda02aa110fc347edc81e60a4f3b20684c70}
+  - {path: report/04_master_ab_registry_and_kml.md, lines: 34, git_blob_sha: 9345de9fd252aa7b78f8f4646852c78a83dce822}
+  - {path: report/05_quality_gate_and_conclusion.md, lines: 41, git_blob_sha: d74926e96aecf4fc036d7663b59b3bfed6cd7432}
+  - {path: candidates.jsonl, lines: 41, git_blob_sha: 6e1f8688b4af305333986dd299ce8ba9c071b9d0}
+  - {path: claims.jsonl, lines: 58, git_blob_sha: 65047e76d6774023dd462cee5a0f7266edc0e84c}
+  - {path: sources/registry.jsonl, lines: 26, git_blob_sha: fe68142dae76abf2027276538d5b3efca455d1a7}
+  - {path: sources/rejected.jsonl, lines: 8, git_blob_sha: 3db4f3b55c097cac8f080a17a6075e108889106d}
+  - {path: detector_checks.jsonl, lines: 9, git_blob_sha: 2099a950295fe28b9a0184ff6920825a27a63ff9}
+  - {path: negative_searches.jsonl, lines: 7, git_blob_sha: 32a007f0fd7e9e195a8019f9da37623c98578934}
+  - {path: working_geo.jsonl, lines: 41, git_blob_sha: 2413a99159ef2cc17fd6d66a3aea701f7e70e7d3}
+  - {path: practical_access.jsonl, lines: 41, git_blob_sha: d6e3eaa9bd5e93d44e86d62e9d5d8d96b9232fc9}
+  - {path: images.jsonl, lines: 41, git_blob_sha: eaa607d69788a26dacc5e454a72ce167a8f8e8a2}
+  - {path: experience_reviews.jsonl, lines: 41, git_blob_sha: b467e9c44ff8aa612bddf512a83e74a1b1d1e3a5}
+  - {path: proximity.jsonl, lines: 16, git_blob_sha: 173e7f288e81fcf5f624a0eb0778eadf921e3db0}
+  - {path: formal_ab_coverage.md, lines: 34, git_blob_sha: 0b74949874397526f06341578077d6429e9072f4}
+  - {path: MASTER_A_B_GEO_REGISTRY_VERIFIED.jsonl, lines: 31, git_blob_sha: da7be7eb5257398b6d49681bb52abcebe1499688}
+  - {path: INDIA_ALL_FORMAL_A_B_WORKING_ZILVER.kml, lines: 283, git_blob_sha: 510ccbcbc8665b12ba2edff807638558f41a677d}
+  - {path: audit.md, lines: 69, git_blob_sha: 375868f725c6afe69fd66615c9b15316cdd2ca1e}
+  - {path: handoff.yaml, lines: 95, git_blob_sha: 72fa18476478f1a7689e2bc2b4fb73be5ca78991}
+  - {path: manifest.yaml, git_blob_sha: SELF_IN_COMPLETION_COMMIT}
+  - {path: COMPLETED, git_blob_sha: SAME_COMPLETION_COMMIT}
+validation:
+  github_read_confirmed: true
+  github_write_confirmed: true
+  required_context_files_fully_read: true
+  required_context_hashes_match: true
+  forbidden_files_used: false
+  parked_kumaon_route_run_read: false
+  parked_kumaon_route_run_mutated: false
+  required_outputs_present: true
+  all_outputs_reopened_from_github: true
+  text_sentinels_checked: true
+  kml_xml_closing_checked: true
+  kml_exact_28_a_2_b_30_total: true
+  kml_a_only_green_b_only_orange: true
+  source_id_references_valid: true
+  source_ids_unique_across_registers: true
+  identifiers_unique: true
+  all_40_candidates_preserved: true
+  all_57_claims_reassessed: true
+  all_8_detectors_reassessed: true
+  all_6_negative_searches_reassessed: true
+  formal_or_advisory_abc_assigned: false
+  formal_abc_changed: false
+  new_decision_id_created: false
+  route_base_hotel_station_selected: false
+  parels_activated: false
+  image_shortages_explicit: true
+  review_shortages_explicit: true
+  worker_claim_closed_in_completion_commit: true
+open_blockers:
+  - Lahartara and Bhaskarananda/Anand Bagh exact micro-identity, GEO, management and access remain not established.
+  - Direct management and access confirmation remains open for Lahiri Samadhi/Satyalok, Lahiri house and Trailanga Math.
+  - Complete ten-function image sets and systematic recent review analyses remain absent for all candidates.
+  - Opening, photography, foreign access, festival and crowd conditions remain time-sensitive for many sites.
+END_OF_ARTIFACT
