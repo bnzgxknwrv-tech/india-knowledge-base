@@ -1,19 +1,15 @@
 schema_version: 3
 run_id: VARANASI-COMPLETE-001
-state: READY_FOR_GOUD
+state: GOUD_CLAIMED
 active_role: GOUD
 claim:
-  role: ZILVER
-  claimed_by: ChatGPT-ZILVER
-  claimed_at: 2026-07-21T08:25:35+02:00
-  source_commit: d4459c0f58c4a9ab88213e4f04a1e61d291a1124
-  expected_state: READY_FOR_ZILVER
-  output_path: research/active/VARANASI-COMPLETE-001/ZILVER/
-  claim_status: CLOSED
-  closed_at: 2026-07-21T09:08:00+02:00
-  result_status: PARTIAL
-  completion_commit: ddf5f7963feb67d3ea8436cdccbc1c1c68685c68
-  completion_commit_ref: ddf5f7963feb67d3ea8436cdccbc1c1c68685c68
+  role: GOUD
+  claimed_by: ChatGPT-GOUD
+  claimed_at: 2026-07-21T17:20:00+02:00
+  source_commit: ddf5f7963feb67d3ea8436cdccbc1c1c68685c68
+  expected_state: READY_FOR_GOUD
+  output_path: research/active/VARANASI-COMPLETE-001/GOUD/
+  claim_status: ACTIVE
 controller_claim:
   transition: ZILVER_COMPLETE_TO_READY_FOR_GOUD
   claimed_by: ChatGPT-INLINE-CONTROLLER
