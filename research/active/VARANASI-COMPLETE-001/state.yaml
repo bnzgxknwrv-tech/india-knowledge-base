@@ -1,6 +1,6 @@
 schema_version: 3
 run_id: VARANASI-COMPLETE-001
-state: ZILVER_COMPLETE
+state: TRANSITION_TO_GOUD_CLAIMED
 active_role: null
 claim:
   role: ZILVER
@@ -12,21 +12,20 @@ claim:
   claim_status: CLOSED
   closed_at: 2026-07-21T09:08:00+02:00
   result_status: PARTIAL
-  completion_commit: THIS_ATOMIC_COMMIT
-  completion_commit_ref: THIS_ATOMIC_COMMIT
+  completion_commit: ddf5f7963feb67d3ea8436cdccbc1c1c68685c68
+  completion_commit_ref: ddf5f7963feb67d3ea8436cdccbc1c1c68685c68
 controller_claim:
-  transition: BRONS_COMPLETE_TO_READY_FOR_ZILVER
+  transition: ZILVER_COMPLETE_TO_READY_FOR_GOUD
   claimed_by: ChatGPT-INLINE-CONTROLLER
-  claimed_at: 2026-07-20T23:35:00+02:00
-  source_commit: d4459c0f58c4a9ab88213e4f04a1e61d291a1124
-  expected_state: BRONS_COMPLETE
-  target_context_manifest: research/active/VARANASI-COMPLETE-001/context/ZILVER_CONTEXT.yaml
+  claimed_at: 2026-07-21T09:11:30+02:00
+  source_commit: ddf5f7963feb67d3ea8436cdccbc1c1c68685c68
+  expected_state: ZILVER_COMPLETE
+  target_context_manifest: research/active/VARANASI-COMPLETE-001/context/GOUD_CONTEXT.yaml
   activation_mode: INLINE_POST_PHASE_CONTROLLER
-  claim_status: CLOSED
-  claim_closed_at: 2026-07-20T23:50:00+02:00
-  transition_commit: THIS_ATOMIC_COMMIT
-last_event_id: EVT-0009
-last_validated_commit: fb49407f724c689b99618b4c63edbe12f5c90559
+  claim_status: ACTIVE
+  claim_commit_ref: THIS_ATOMIC_COMMIT
+last_event_id: EVT-0010
+last_validated_commit: ddf5f7963feb67d3ea8436cdccbc1c1c68685c68
 initialization_status: COMPLETE
 blockers:
   - Lahartara and Bhaskarananda/Anand Bagh exact micro-identity, GEO, management and access remain not established.
@@ -35,7 +34,6 @@ blockers:
   - Opening, photography, foreign access, festival and crowd conditions remain time-sensitive for many sites.
 context_profile: ZILVER_MIN
 active_context_manifest: research/active/VARANASI-COMPLETE-001/context/ZILVER_CONTEXT.yaml
-output_path: research/active/VARANASI-COMPLETE-001/ZILVER/
 completion_destination: VOOR_VOLGEND_METAAL
 post_completion_mode: INLINE_POST_PHASE_CONTROLLER
 next_role_after_zilver: GOUD
