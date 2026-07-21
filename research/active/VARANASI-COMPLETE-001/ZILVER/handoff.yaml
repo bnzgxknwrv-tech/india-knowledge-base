@@ -1,0 +1,95 @@
+schema_version: 3
+run_id: VARANASI-COMPLETE-001
+from_role: ZILVER
+to_role: GOUD
+result_status: PARTIAL
+source_commit: d4459c0f58c4a9ab88213e4f04a1e61d291a1124
+worker_claim_commit: 5becc01f8821298218ab10877db5482e57cbf2dd
+candidate_summary:
+  total: 40
+  confirmed: 35
+  working_supported: 3
+  partial: 2
+claim_summary:
+  total: 57
+  confirmed: 45
+  retained_with_limits: 5
+  corrected: 3
+  corrected_to_partial: 3
+  confirmed_negative: 1
+formal_ab:
+  A: 28
+  B: 2
+  placemarks: 30
+  changed: 0
+  a_color: GREEN
+  b_color: ORANGE
+layers:
+  candidate_identity:
+    status: CORRECTED
+    risk: HIGH
+    goud_action: Reopen Lahartara, Bhaskarananda, Lahiri Samadhi, Lahiri house and Trailanga Math; preserve all other candidates.
+  lineage_and_tradition:
+    status: VERIFIED
+    risk: MEDIUM
+    goud_action: Preserve separate lineage, institution, history and tradition domains.
+  living_practice:
+    status: PARTIAL
+    risk: HIGH
+    goud_action: Use current official practice only for Kashi Vishwanath, YSS, Anandamayi, RK Mission, Kabir Chaura and Kring Kund; do not generalize.
+  practical_access:
+    status: OPEN
+    risk: HIGH
+    goud_action: Convert time-sensitive details into control-before-departure or direct-contact actions.
+  working_geo:
+    status: CORRECTED
+    risk: HIGH
+    goud_action: Retain two approximate points and three working address points without entrance precision.
+  proximity:
+    status: CORRECTED
+    risk: MEDIUM
+    goud_action: Use straight-line values only as sanity checks; no route time or route choice.
+  images:
+    status: OPEN
+    risk: HIGH
+    goud_action: Preserve explicit ten-function shortages; visual leads establish identity only.
+  experience_reviews:
+    status: OPEN
+    risk: HIGH
+    goud_action: Preserve lack of systematic recent review coverage.
+  detector_completeness:
+    status: VERIFIED_WITH_LIMITS
+    risk: MEDIUM
+    goud_action: Do not inflate negative searches into proof; no new broad sweep.
+  master_ab_registry:
+    status: VERIFIED
+    risk: HIGH
+    goud_action: Preserve exact 28 A, 2 B, 30 placemarks and all valid LOCATION_IDs.
+  master_ab_kml:
+    status: VERIFIED
+    risk: HIGH
+    goud_action: Preserve exact two folders and green/orange style assignment.
+highest_open_gaps:
+  - Lahartara and Bhaskarananda/Anand Bagh exact micro-identity, GEO, management and access.
+  - Direct management/access confirmation for Lahiri Samadhi/Satyalok, Lahiri house and Trailanga Math.
+  - Complete ten-function image sets and systematic recent review analyses for all candidates.
+  - Time-sensitive opening, photography, foreign access, festival and crowd conditions.
+forbidden_for_goud:
+  - change formal or advisory A/B/C
+  - create a new decision-ID
+  - select route, base, hotel, station or first visit location
+  - mutate research/active/KUMAON-ROUTE-OPTIMIZATION-001/**
+required_reopen:
+  - candidates.jsonl
+  - claims.jsonl
+  - sources/registry.jsonl
+  - sources/rejected.jsonl
+  - practical_access.jsonl
+  - working_geo.jsonl
+  - images.jsonl
+  - experience_reviews.jsonl
+  - proximity.jsonl
+  - formal_ab_coverage.md
+  - INDIA_ALL_FORMAL_A_B_WORKING_ZILVER.kml
+  - audit.md
+END_OF_ARTIFACT
