@@ -1,18 +1,16 @@
 schema_version: 3
 run_id: VARANASI-COMPLETE-001
-state: READY_FOR_ZILVER
+state: ZILVER_CLAIMED
 active_role: ZILVER
 claim:
-  role: BRONS
-  claimed_by: ChatGPT-BRONS
-  claimed_at: 2026-07-20T21:30:00+02:00
-  source_commit: 5e351144fe19fe40b487588c43827dc937df3de6
-  expected_state: READY_FOR_BRONS
-  output_path: research/active/VARANASI-COMPLETE-001/BRONS/
-  claim_status: CLOSED
-  claim_closed_at: 2026-07-20T23:20:00+02:00
-  completion_commit: d4459c0f58c4a9ab88213e4f04a1e61d291a1124
-  completion_result: PARTIAL
+  role: ZILVER
+  claimed_by: ChatGPT-ZILVER
+  claimed_at: 2026-07-21T08:25:35+02:00
+  source_commit: d4459c0f58c4a9ab88213e4f04a1e61d291a1124
+  expected_state: READY_FOR_ZILVER
+  output_path: research/active/VARANASI-COMPLETE-001/ZILVER/
+  claim_status: ACTIVE
+  claim_commit_ref: THIS_ATOMIC_COMMIT
 controller_claim:
   transition: BRONS_COMPLETE_TO_READY_FOR_ZILVER
   claimed_by: ChatGPT-INLINE-CONTROLLER
@@ -24,7 +22,7 @@ controller_claim:
   claim_status: CLOSED
   claim_closed_at: 2026-07-20T23:50:00+02:00
   transition_commit: THIS_ATOMIC_COMMIT
-last_event_id: EVT-0007
+last_event_id: EVT-0008
 last_validated_commit: d4459c0f58c4a9ab88213e4f04a1e61d291a1124
 initialization_status: COMPLETE
 blockers:
