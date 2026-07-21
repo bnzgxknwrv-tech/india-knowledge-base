@@ -1,7 +1,7 @@
 schema_version: 3
 run_id: VARANASI-COMPLETE-001
-state: TRANSITION_TO_GOUD_CLAIMED
-active_role: null
+state: READY_FOR_GOUD
+active_role: GOUD
 claim:
   role: ZILVER
   claimed_by: ChatGPT-ZILVER
@@ -22,9 +22,11 @@ controller_claim:
   expected_state: ZILVER_COMPLETE
   target_context_manifest: research/active/VARANASI-COMPLETE-001/context/GOUD_CONTEXT.yaml
   activation_mode: INLINE_POST_PHASE_CONTROLLER
-  claim_status: ACTIVE
-  claim_commit_ref: THIS_ATOMIC_COMMIT
-last_event_id: EVT-0010
+  claim_status: CLOSED
+  claim_closed_at: 2026-07-21T09:16:00+02:00
+  transition_commit: THIS_ATOMIC_COMMIT
+  transition_commit_ref: THIS_ATOMIC_COMMIT
+last_event_id: EVT-0012
 last_validated_commit: ddf5f7963feb67d3ea8436cdccbc1c1c68685c68
 initialization_status: COMPLETE
 blockers:
@@ -32,11 +34,11 @@ blockers:
   - Direct management and access confirmation remains open for Lahiri Samadhi/Satyalok, Lahiri house and Trailanga Math.
   - Complete ten-function image sets and systematic recent review analyses remain absent for all candidates.
   - Opening, photography, foreign access, festival and crowd conditions remain time-sensitive for many sites.
-context_profile: ZILVER_MIN
-active_context_manifest: research/active/VARANASI-COMPLETE-001/context/ZILVER_CONTEXT.yaml
-completion_destination: VOOR_VOLGEND_METAAL
-post_completion_mode: INLINE_POST_PHASE_CONTROLLER
-next_role_after_zilver: GOUD
+context_profile: GOUD_MIN
+active_context_manifest: research/active/VARANASI-COMPLETE-001/context/GOUD_CONTEXT.yaml
+completion_destination: VOOR_MARK
+post_completion_mode: MARK_FINAL_REPORT
+next_role_after_goud: MARK
 formal_status_policy:
   preserve_existing_abc: true
   only_mark_changes_formal_abc: true
@@ -46,6 +48,16 @@ map_policy:
   a_color: GREEN
   b_color: ORANGE
   include_c: false
+canonical_integration:
+  mode: DETERMINISTIC_NON_DECISIONAL
+  allowed_registry_path: knowledge/places/registry.jsonl
+  allowed_decisions_index_path: decisions/INDEX.yaml
+  forbid_new_or_changed_abc: true
+  forbid_new_decision_id: true
+  require_mark_decision_on_content_choice: true
+location_id_policy:
+  new_ids_by_goud_forbidden: true
+  reason: Only SUBREGIE INDIA reserves new permanent place IDs under NUMBERING_POLICY.md.
 parked_run:
   run_id: KUMAON-ROUTE-OPTIMIZATION-001
   read_performed: false
