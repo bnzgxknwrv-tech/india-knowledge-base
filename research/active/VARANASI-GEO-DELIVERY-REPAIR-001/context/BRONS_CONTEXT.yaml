@@ -1,8 +1,9 @@
-schema_version: 1
+schema_version: 2
 run_id: VARANASI-GEO-DELIVERY-REPAIR-001
 role: BRONS
+status: PREPARED
 expected_state: READY_FOR_BRONS
-source_commit: 5a5b9ee79900ba25320d6b6e75248fd2bb051c48
+source_commit: 35314d63a35d1e5afe0cc008904b907a4732ba5d
 predecessor_completion_commit: null
 role_contract: india3/roles/BRONS.md
 required_files:
@@ -10,46 +11,75 @@ required_files:
     sha: b2cdfb9ce21cd06486816813d2cd8e2d5544c414
   - path: pipeline/ACTIVE_SYSTEM.yaml
     sha: 5fbdecffcb40e0ceece76ca35fc425cde64d7b70
-  - path: pipeline/NEXT_ACTION.yaml
-    sha: TO_BE_REPLACED_BY_CONTROLLER_TRANSITION_COMMIT
   - path: india3/roles/BRONS.md
     sha: 9e8ee6a07d84c4ccb3ea37256563253f8a254925
   - path: india3/CAPABILITY_CHECK.md
-    sha: null
+    sha: e64968dcd4ea9f65cadb69ccba30c529751a7690
   - path: india3/protocols/TOOL_CAPABILITY_PROTOCOL.md
     sha: 382c260a74142aa32991fd799636e33062c1086d
+  - path: india3/protocols/EXTERNAL_RESEARCH_PROTOCOL.md
+    sha: ce844ed40b9f5932a827ca3a484662a89bd2c8d4
   - path: india3/protocols/GEO_PROTOCOL.md
     sha: e187e186271401e4921d1e8287ddf1fd20c6171b
-  - path: india3/protocols/EXTERNAL_RESEARCH_PROTOCOL.md
-    sha: null
+  - path: india3/protocols/SOURCE_PROTOCOL.md
+    sha: 779a70a4f6e879d90618b234edcfc255f21e3475
+  - path: india3/protocols/CLAIM_STATUS_PROTOCOL.md
+    sha: 9e272f0495333a81bae34d2698b8c04e2d4f9e13
+  - path: india3/protocols/DECISION_PROTOCOL.md
+    sha: 7e93ca2a6a0ac503eed00fb0042a27fb4bf1eb01
+  - path: india3/protocols/GITHUB_WRITE_PROTOCOL.md
+    sha: c352e9c19d19f7c113dda784c98065a20be2eac6
+  - path: india3/protocols/QUALITY_GATE_PROTOCOL.md
+    sha: 9bce1e4158c8ad3dde1cd483a4bfbb345eaf866b
   - path: decisions/MARK_DECISIONS.jsonl
     sha: 6314e359e86d0d99c9f37204365126e94902ca55
   - path: research/active/VARANASI-GEO-DELIVERY-REPAIR-001/run.yaml
     sha: 018c3ffc2b1273c8f6a792b9d903cf50e61a084e
   - path: research/active/VARANASI-GEO-DELIVERY-REPAIR-001/state.yaml
-    sha: 4afba872f02fd0c42ba6a2e2c72dfa79429ff1ca
+    sha: a056acdf0424d7a5812b53a4692d33e33d6619fb
   - path: research/active/VARANASI-COMPLETE-001/run.yaml
     sha: b0e000c62188a102144eb68888bcd2864901686a
+  - path: research/active/VARANASI-COMPLETE-001/scope.md
+    sha: 6a53e3288a9c765feb8c0481ebbb9aa7b3100af5
+  - path: research/active/VARANASI-COMPLETE-001/ZILVER/candidates.jsonl
+    sha: 6e1f8688b4af305333986dd299ce8ba9c071b9d0
+  - path: research/active/VARANASI-COMPLETE-001/ZILVER/working_geo.jsonl
+    sha: 2413a99159ef2cc17fd6d66a3aea701f7e70e7d3
 allowed_repository_paths:
-  - research/active/VARANASI-COMPLETE-001/**
+  - research/active/VARANASI-COMPLETE-001/ZILVER/candidates.jsonl
+  - research/active/VARANASI-COMPLETE-001/ZILVER/working_geo.jsonl
   - research/active/VARANASI-GEO-DELIVERY-REPAIR-001/**
   - decisions/MARK_DECISIONS.jsonl
 forbidden_repository_paths:
   - knowledge/places/registry.jsonl
   - any central India master KML
   - research/active/KUMAON-ROUTE-OPTIMIZATION-001/**
+  - research/active/VARANASI-COMPLETE-001/BRONS/**
+  - research/active/VARANASI-COMPLETE-001/ZILVER/** except the two explicitly required files
+  - research/active/VARANASI-COMPLETE-001/GOUD/**
 allowed_public_research_scope:
-  object: all 40 existing Varanasi candidates from VARANASI-COMPLETE-001
+  object: all 40 candidates listed in research/active/VARANASI-COMPLETE-001/ZILVER/candidates.jsonl
+  purpose: independently establish the best supportable current practical map point for each candidate
   methods:
     - public indexed Google Maps place mentions and Maps URLs
     - official institution or site map links
-    - addresses and locality descriptions
-    - cross-checking nearby physical anchors
+    - official and reliable address records
+    - locality, ghat and neighbourhood identity checks
+    - nearby physical anchor cross-checks
     - coordinate extraction and comparison
   restrictions:
-    - inherited coordinates are comparison material only
-    - no visual Google Maps verification claim without direct tool-supported opening
-    - VNS-CAND-008 rejected point 25.3045,82.979369 cannot be reused as final point
+    - inherited coordinates are comparison material only and carry no presumption of correctness
+    - no direct Google Maps visual verification claim without actual tool-supported place opening and identity matching
+    - candidate-specific uncertainty must be isolated
+    - VNS-CAND-008 requires extra research
+    - rejected point 25.3045,82.979369 for VNS-CAND-008 may not be used as the final point unless a later explicit Mark decision supersedes the rejection
+mark_choices_for_current_product:
+  VNS-CAND-001: A
+  VNS-CAND-002: A
+  VNS-CAND-003: A
+  VNS-CAND-007: A
+  VNS-CAND-008: B
+  all_other_35: DOOR_MARK_TE_BEOORDELEN
 required_outputs:
   - research/active/VARANASI-GEO-DELIVERY-REPAIR-001/BRONS/SOURCES.jsonl
   - research/active/VARANASI-GEO-DELIVERY-REPAIR-001/BRONS/GEO_AUDIT.jsonl
@@ -63,16 +93,19 @@ required_capability_checks:
 quality_gates:
   - exactly_40_candidate_records
   - one_geo_audit_record_per_candidate
-  - source_ids_resolve
+  - every_source_id_resolves
+  - every_record_contains_required_geo_protocol_fields
   - inherited_coordinates_not_blindly_copied
   - vns_cand_008_rejection_preserved
   - candidate_uncertainty_isolated
+  - no_worker_assigned_abc
+  - outputs_read_back_after_commit
 stop_conditions:
   - github_read_missing
   - github_write_missing
-  - hash_mismatch
+  - required_file_missing
+  - required_file_hash_mismatch
   - state_desynchronization
   - active_claim_conflict
   - canonical_mark_decision_conflict
-  - missing_candidate_identity_source_file
 END_OF_ARTIFACT
