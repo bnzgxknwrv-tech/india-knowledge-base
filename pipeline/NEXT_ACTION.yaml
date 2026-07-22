@@ -1,16 +1,20 @@
-schema_version: 2
+schema_version: 3
 status: READY
 route: BRONS
 run_id: VARANASI-GEO-DELIVERY-REPAIR-001
 expected_state: READY_FOR_BRONS
 context_manifest: research/active/VARANASI-GEO-DELIVERY-REPAIR-001/context/BRONS_CONTEXT.yaml
-context_manifest_sha: 71208a7012488a70ea902f891c12804916e5faea
+context_manifest_sha: a8d485cc6a0c88e90dda54ea5a9a6db3edf795c9
 entrypoint: pipeline/ENTRYPOINT.md
 active_system: pipeline/ACTIVE_SYSTEM.yaml
 required_connector:
   github_read: true
   github_write: true
-instruction: Execute only the pinned BRONS contract for all 40 Varanasi candidates. Do not repair controller state and do not create successor context.
+instruction: Reconstruct the full 40-candidate BRONS GEO audit. Write durable GitHub checkpoints after at most every five candidates and read each checkpoint back. Do not rely on local-only completion.
+recovery_context:
+  prior_local_result: LOST
+  unused_blob_sha: 31999ce39a2a728df54a5cce17fdf10d50e8f933
+  blob_status: TRUNCATED_UNRECOVERABLE_AS_COMPLETE_OUTPUT
 stop_conditions:
   - github_read_missing
   - github_write_missing
