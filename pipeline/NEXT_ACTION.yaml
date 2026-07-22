@@ -1,20 +1,22 @@
-schema_version: 1
-status: PREPARING
-route: CONTROLLER
+schema_version: 2
+status: READY
+route: BRONS
 run_id: VARANASI-GEO-DELIVERY-REPAIR-001
-expected_state: CONTROLLER_REPAIRING_BRONS_CONTEXT
+expected_state: READY_FOR_BRONS
 context_manifest: research/active/VARANASI-GEO-DELIVERY-REPAIR-001/context/BRONS_CONTEXT.yaml
-context_manifest_sha: null
+context_manifest_sha: 9026a6eb692e7474a3822fce582446db2445354f
 entrypoint: pipeline/ENTRYPOINT.md
 active_system: pipeline/ACTIVE_SYSTEM.yaml
 required_connector:
   github_read: true
   github_write: true
-instruction: Repair and validate the BRONS context. Do not start BRONS while status is PREPARING.
+instruction: Execute only the pinned BRONS contract for all 40 Varanasi candidates. Do not repair controller state and do not create successor context.
 stop_conditions:
   - github_read_missing
   - github_write_missing
   - active_claim_conflict
   - state_desynchronization
   - canonical_mark_decision_conflict
+  - required_file_missing
+  - required_file_hash_mismatch
 END_OF_ARTIFACT
