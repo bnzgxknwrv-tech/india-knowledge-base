@@ -1,22 +1,27 @@
 schema_version: 1
 migration_id: INDIA3-MIGRATION-001
-actor: INDIA3
-status: ITERATION_1_READY_TO_COMMIT
-active_iteration: 1
-last_valid_commit: 912c24a3054c179c270a1dd09cb7d3267d650121
+status: COMPLETE
+active_iteration: 3
+iteration_1_commit: d960960e75653ff860ab0da87a3d23cb9f575344
+iteration_2_commit: 9ae23681adc7d4be61fb61678e0e37f69cde4294
+iteration_3_commit: PENDING_THIS_COMMIT
+last_valid_commit: 9ae23681adc7d4be61fb61678e0e37f69cde4294
+active_system: INDIA3
+quality_gate: PASS
 completed_checks:
-  - github_read
-  - github_write
-  - default_branch_main
-  - concurrent_migration_absent
-  - targeted_inventory
-  - canonical_decisions_identified
-  - preservation_gate
-open_step: commit_iteration_1
-required_files:
-  - india3/migration/ITERATION_1_AUDIT.md
-  - india3/migration/LESSONS_INDIA_1_2.md
-  - india3/migration/FILE_INVENTORY.yaml
-  - india3/migration/FILE_DISPOSITION.yaml
-resume_prompt: GitHub INDIA3 — open pipeline/ENTRYPOINT.md and india3/migration/MIGRATION_STATUS.yaml; resume from the first incomplete validated migration step only.
+  - all_required_india3_files_present
+  - entrypoint_active
+  - active_system_india3
+  - role_boundaries_unambiguous
+  - pinned_context_enforced
+  - recovery_machine_readable
+  - mark_decisions_protected
+  - no_worker_abc
+  - capability_checks_required
+  - geo_false_claims_prevented
+  - user_delivery_required
+  - legacy_reference_only
+  - clean_chat_short_start
+open_step: none
+resume_prompt: GitHub INDIA3 — open pipeline/ENTRYPOINT.md and execute only the indicated task.
 END_OF_ARTIFACT

@@ -1,0 +1,12 @@
+schema_version: 1
+active_system: INDIA3
+status: ACTIVE
+activated_at: 2026-07-22T16:00:00+02:00
+entrypoint: pipeline/ENTRYPOINT.md
+controller_role: india3/roles/CONTROLLER.md
+legacy_systems:
+  INDIA1: ARCHIVED_REFERENCE_ONLY
+  INDIA2: ARCHIVED_REFERENCE_ONLY
+normal_context_policy: PINNED_MINIMUM_ONLY
+mark_decision_policy: ONLY_MARK
+END_OF_ARTIFACT
