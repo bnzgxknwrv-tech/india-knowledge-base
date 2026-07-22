@@ -3,7 +3,7 @@ run_id: VARANASI-GEO-DELIVERY-REPAIR-001
 state: READY_FOR_BRONS
 active_role: null
 activation_commit_recording: EXTERNAL_CONTROLLER_REPORT_ONLY
-controller_transition_status: ACTIVATED
+controller_transition_status: RECONSTRUCTION_ACTIVATION_PREPARING
 completed_steps:
   - controller_preflight_read
   - controller_preflight_write
@@ -14,9 +14,10 @@ completed_steps:
   - transition_defect_classified_as_controller_owned
   - structural_protocol_hotfix_written
   - exhaustive_brons_context_prepared
-  - manifest_hashes_validated
-  - worker_preflight_simulated
-  - next_action_activated_last
-open_step: execute_brons_geo_research
-resume_prompt: "GitHub BRONS — perform the hard GitHub preflight, read pipeline/ENTRYPOINT.md and pipeline/NEXT_ACTION.yaml, then execute only the pinned BRONS context for VARANASI-GEO-DELIVERY-REPAIR-001."
+  - first_brons_attempt_completed_local_40_candidate_audit
+  - first_brons_attempt_failed_before_durable_output_commit
+  - unused_blob_31999ce39a2a728df54a5cce17fdf10d50e8f933_examined
+  - unused_blob_confirmed_truncated_and_not_recoverable_as_complete_output
+open_step: reconstruct_brons_with_incremental_github_checkpoints
+resume_prompt: "GitHub BRONS — reconstruct the 40-candidate GEO audit for VARANASI-GEO-DELIVERY-REPAIR-001 and checkpoint durable output to GitHub throughout execution; do not wait until the end to write the full dataset."
 END_OF_ARTIFACT
