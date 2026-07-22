@@ -1,9 +1,9 @@
-schema_version: 2
+schema_version: 3
 run_id: VARANASI-GEO-DELIVERY-REPAIR-001
 role: BRONS
 status: PREPARED
 expected_state: READY_FOR_BRONS
-source_commit: 5986b7c9a5ed4db8463078ac26794109d4eb81a3
+source_commit: 4d1f17f8b6935585dfb14a71190436bec9779982
 predecessor_completion_commit: null
 role_contract: india3/roles/BRONS.md
 required_files:
@@ -36,7 +36,7 @@ required_files:
   - path: research/active/VARANASI-GEO-DELIVERY-REPAIR-001/run.yaml
     sha: 018c3ffc2b1273c8f6a792b9d903cf50e61a084e
   - path: research/active/VARANASI-GEO-DELIVERY-REPAIR-001/state.yaml
-    sha: 94bc3d00a1d708c27652c87d7a6ec4874735f75c
+    sha: f495c3f8b36703af75ae6af89f4e8b40fd31b498
   - path: research/active/VARANASI-COMPLETE-001/run.yaml
     sha: b0e000c62188a102144eb68888bcd2864901686a
   - path: research/active/VARANASI-COMPLETE-001/scope.md
@@ -84,6 +84,22 @@ required_outputs:
   - research/active/VARANASI-GEO-DELIVERY-REPAIR-001/BRONS/SOURCES.jsonl
   - research/active/VARANASI-GEO-DELIVERY-REPAIR-001/BRONS/GEO_AUDIT.jsonl
   - research/active/VARANASI-GEO-DELIVERY-REPAIR-001/BRONS/HANDOFF.md
+execution_checkpoint_policy:
+  reason: prior 40-candidate local output was lost before durable GitHub write
+  mandatory: true
+  rules:
+    - create SOURCES.jsonl and GEO_AUDIT.jsonl in GitHub before researching more than five candidates
+    - after every maximum of five completed candidates, update and read back both checkpoint files
+    - every checkpoint must contain only complete valid JSONL records; never partial lines
+    - record candidate IDs covered and current source-ID range in HANDOFF.md or a BRONS checkpoint status file
+    - do not postpone the first durable write until all 40 candidates are complete
+    - if tool budget becomes constrained, stop after the latest read-backed checkpoint rather than continuing locally
+    - report every unused blob SHA explicitly before stopping
+  completion_condition: final files contain all 40 records and pass full readback
+known_failed_recovery_artifact:
+  blob_sha: 31999ce39a2a728df54a5cce17fdf10d50e8f933
+  status: TRUNCATED_UNRECOVERABLE_AS_COMPLETE_OUTPUT
+  usable_scope: first record only; do not treat as complete audit
 required_capability_checks:
   - public_web_search
   - public_maps_link_inspection
@@ -99,6 +115,7 @@ quality_gates:
   - vns_cand_008_rejection_preserved
   - candidate_uncertainty_isolated
   - no_worker_assigned_abc
+  - incremental_checkpoints_read_back
   - outputs_read_back_after_commit
 stop_conditions:
   - github_read_missing
