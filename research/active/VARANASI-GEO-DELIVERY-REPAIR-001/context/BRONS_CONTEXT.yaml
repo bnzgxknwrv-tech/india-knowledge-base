@@ -3,7 +3,7 @@ run_id: VARANASI-GEO-DELIVERY-REPAIR-001
 role: BRONS
 status: PREPARED
 expected_state: READY_FOR_BRONS
-source_commit: cfbde885b42eab07946f5e699b34d295878e26a1
+source_commit: 7ae64c87a57fd8a3f20345ba09ca496a0363b524
 predecessor_completion_commit: null
 role_contract: india3/roles/BRONS.md
 required_files:
@@ -36,7 +36,7 @@ required_files:
   - path: research/active/VARANASI-GEO-DELIVERY-REPAIR-001/run.yaml
     sha: 018c3ffc2b1273c8f6a792b9d903cf50e61a084e
   - path: research/active/VARANASI-GEO-DELIVERY-REPAIR-001/state.yaml
-    sha: b22e0110fc70e033964a8aeca60efddedfa35b48
+    sha: 475b5c18d1bca52470514932db2d1b853b09436a
   - path: research/active/VARANASI-COMPLETE-001/run.yaml
     sha: b0e000c62188a102144eb68888bcd2864901686a
   - path: research/active/VARANASI-COMPLETE-001/scope.md
