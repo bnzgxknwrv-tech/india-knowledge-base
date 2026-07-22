@@ -2,7 +2,7 @@ schema_version: 1
 run_id: VARANASI-GEO-DELIVERY-REPAIR-001
 state: READY_FOR_BRONS
 active_role: null
-last_valid_activation_commit: a3902e84e0ce5f85e1150b19f09705b61bd9e94d
+activation_commit_recording: EXTERNAL_CONTROLLER_REPORT_ONLY
 controller_transition_status: ACTIVATED
 completed_steps:
   - controller_preflight_read
