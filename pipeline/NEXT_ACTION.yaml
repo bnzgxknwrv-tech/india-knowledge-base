@@ -4,7 +4,7 @@ route: BRONS
 run_id: VARANASI-GEO-DELIVERY-REPAIR-001
 expected_state: READY_FOR_BRONS
 context_manifest: research/active/VARANASI-GEO-DELIVERY-REPAIR-001/context/BRONS_CONTEXT.yaml
-context_manifest_sha: e206a4c666bc2f1467d074099384d0aab11c1ac2
+context_manifest_sha: 71208a7012488a70ea902f891c12804916e5faea
 entrypoint: pipeline/ENTRYPOINT.md
 active_system: pipeline/ACTIVE_SYSTEM.yaml
 required_connector:
