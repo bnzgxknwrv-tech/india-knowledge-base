@@ -1,0 +1,22 @@
+schema_version: 1
+migration_id: INDIA3-MIGRATION-001
+actor: INDIA3
+status: ITERATION_1_READY_TO_COMMIT
+active_iteration: 1
+last_valid_commit: 912c24a3054c179c270a1dd09cb7d3267d650121
+completed_checks:
+  - github_read
+  - github_write
+  - default_branch_main
+  - concurrent_migration_absent
+  - targeted_inventory
+  - canonical_decisions_identified
+  - preservation_gate
+open_step: commit_iteration_1
+required_files:
+  - india3/migration/ITERATION_1_AUDIT.md
+  - india3/migration/LESSONS_INDIA_1_2.md
+  - india3/migration/FILE_INVENTORY.yaml
+  - india3/migration/FILE_DISPOSITION.yaml
+resume_prompt: GitHub INDIA3 — open pipeline/ENTRYPOINT.md and india3/migration/MIGRATION_STATUS.yaml; resume from the first incomplete validated migration step only.
+END_OF_ARTIFACT
