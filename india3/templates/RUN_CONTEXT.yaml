@@ -1,0 +1,22 @@
+schema_version: 1
+run_id: RUN-ID
+run_type: CLUSTER_SWEEP
+status: READY_FOR_BRONS
+created_by: INDIA3_CONTROLLER
+pins:
+  active_system: pipeline/ACTIVE_SYSTEM.yaml
+  entrypoint: pipeline/ENTRYPOINT.md
+  role_contracts:
+    BRONS: india3/roles/BRONS.md
+    ZILVER: india3/roles/ZILVER.md
+    GOUD: india3/roles/GOUD.md
+  protocols:
+    run: india3/protocols/RUN_PROTOCOL.md
+    context: india3/protocols/CONTEXT_MANIFEST_PROTOCOL.md
+    source: india3/protocols/SOURCE_PROTOCOL.md
+    geo: india3/protocols/GEO_PROTOCOL.md
+    decision: india3/protocols/DECISION_PROTOCOL.md
+    delivery: india3/protocols/USER_DELIVERY_PROTOCOL.md
+mark_decision_policy: ONLY_MARK
+parallel_writers_allowed: false
+END_OF_ARTIFACT

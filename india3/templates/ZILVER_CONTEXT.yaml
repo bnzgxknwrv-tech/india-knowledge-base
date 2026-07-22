@@ -1,0 +1,21 @@
+schema_version: 1
+run_id: RUN-ID
+role: ZILVER
+expected_state: READY_FOR_ZILVER
+source_commit: BRONS_COMPLETION_COMMIT
+role_contract: india3/roles/ZILVER.md
+required_files:
+  - path: research/active/RUN-ID/run.yaml
+  - path: research/active/RUN-ID/state.yaml
+  - path: research/active/RUN-ID/BRONS/manifest.yaml
+  - path: research/active/RUN-ID/BRONS/claims.jsonl
+  - path: research/active/RUN-ID/BRONS/sources/registry.jsonl
+allowed_repository_paths:
+  - research/active/RUN-ID/**
+  - decisions/MARK_DECISIONS.jsonl
+forbidden_repository_paths:
+  - research/active/OTHER-RUN/**
+outputs:
+  - research/active/RUN-ID/ZILVER/**
+capability_checks: [external_research, geo_if_required]
+END_OF_ARTIFACT

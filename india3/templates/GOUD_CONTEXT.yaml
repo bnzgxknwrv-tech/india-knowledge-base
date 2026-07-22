@@ -1,0 +1,25 @@
+schema_version: 1
+run_id: RUN-ID
+role: GOUD
+expected_state: READY_FOR_GOUD
+source_commit: ZILVER_COMPLETION_COMMIT
+role_contract: india3/roles/GOUD.md
+required_files:
+  - path: research/active/RUN-ID/run.yaml
+  - path: research/active/RUN-ID/state.yaml
+  - path: research/active/RUN-ID/ZILVER/manifest.yaml
+  - path: research/active/RUN-ID/ZILVER/claims.jsonl
+  - path: research/active/RUN-ID/ZILVER/sources/registry.jsonl
+  - path: decisions/MARK_DECISIONS.jsonl
+allowed_repository_paths:
+  - research/active/RUN-ID/**
+  - decisions/**
+forbidden_repository_paths:
+  - research/active/OTHER-RUN/**
+outputs:
+  - research/active/RUN-ID/GOUD/**
+required_user_delivery:
+  decision_pdf: true
+  complete_kml: true
+capability_checks: [artifact_generation, geo_if_required]
+END_OF_ARTIFACT

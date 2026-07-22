@@ -1,0 +1,11 @@
+schema_version: 1
+migration_id: INDIA3-MIGRATION-001
+status: ITERATION_2_BUILDING
+active_iteration: 2
+iteration_1_commit: d960960e75653ff860ab0da87a3d23cb9f575344
+last_valid_commit: d960960e75653ff860ab0da87a3d23cb9f575344
+completed_checks:
+  - iteration_1_quality_gate_pass
+open_step: build_roles_protocols_templates_and_tests
+resume_prompt: GitHub INDIA3 — open pipeline/ENTRYPOINT.md and india3/migration/MIGRATION_STATUS.yaml; resume from iteration 2 only.
+END_OF_ARTIFACT

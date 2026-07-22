@@ -1,0 +1,9 @@
+schema_version: 1
+status: IDLE
+route: CONTROLLER
+run_id: null
+expected_state: IDLE
+context_manifest: null
+required_connector: {github_read: true, github_write: true}
+instruction: Create or resume a run according to india3 protocols. Do not perform substantive research as controller.
+END_OF_ARTIFACT
