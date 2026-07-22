@@ -11,7 +11,12 @@ Before stopping, write a machine-readable failure report and update run or migra
 - next exact action;
 - exact clean-chat resume prompt.
 
-A new chat verifies HEAD and the last valid commit, reads only the status-listed required files and resumes at the first incomplete validated step. It never restarts a completed iteration or phase.
+## Controller-transition defects
+Placeholders, absent or stale blob SHAs, wrong manifest paths, circular activation dependencies and PREPARING status are controller-owned defects. BRONS, ZILVER and GOUD stop before substantive work and do not bypass or repair them. The controller repairs them autonomously when canonical intent is unambiguous.
+
+A repaired transition uses PREPARING, exhaustive manifest readback and a final NEXT_ACTION activation write. The controller records the defect and durable protocol lesson so the same failure class receives a structural test rather than only a one-run patch.
+
+A new chat verifies current repository state, reads only the status-listed required files and resumes at the first incomplete validated step. It never restarts completed role work.
 
 GitHub read/write failure is reported only as `MARK: IK MIS GITHUB CONNECTOR!` because no reliable status commit can be guaranteed.
 
