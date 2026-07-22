@@ -1,0 +1,15 @@
+schema_version: 1
+run_id: VARANASI-GEO-DELIVERY-REPAIR-001
+state: READY_FOR_BRONS
+active_role: BRONS
+last_valid_commit: 5a5b9ee79900ba25320d6b6e75248fd2bb051c48
+controller_transition_status: PREPARED
+completed_steps:
+  - controller_preflight_read
+  - controller_preflight_write
+  - active_system_india3_confirmed
+  - prior_varanasi_run_identified_as_historical_source
+  - repair_run_created
+open_step: execute_brons_geo_research
+resume_prompt: "GitHub BRONS — open pipeline/ENTRYPOINT.md and execute the action pinned in pipeline/NEXT_ACTION.yaml for VARANASI-GEO-DELIVERY-REPAIR-001."
+END_OF_ARTIFACT

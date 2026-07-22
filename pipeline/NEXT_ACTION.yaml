@@ -1,19 +1,20 @@
 schema_version: 1
-status: IDLE
-route: CONTROLLER
-run_id: null
-expected_state: IDLE
-context_manifest: null
+status: READY
+route: BRONS
+run_id: VARANASI-GEO-DELIVERY-REPAIR-001
+expected_state: READY_FOR_BRONS
+context_manifest: research/active/VARANASI-GEO-DELIVERY-REPAIR-001/context/BRONS_CONTEXT.yaml
 entrypoint: pipeline/ENTRYPOINT.md
 active_system: pipeline/ACTIVE_SYSTEM.yaml
 required_connector:
   github_read: true
   github_write: true
-instruction: Create or resume exactly one INDIA3 run. The controller performs no substantive research.
+instruction: Execute only the pinned BRONS role for the Varanasi GEO and delivery repair run. Do not create successor context.
 stop_conditions:
   - github_read_missing
   - github_write_missing
   - active_claim_conflict
   - state_desynchronization
   - canonical_mark_decision_conflict
+  - required_file_hash_mismatch
 END_OF_ARTIFACT

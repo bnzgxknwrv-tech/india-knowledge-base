@@ -1,0 +1,39 @@
+schema_version: 1
+run_id: VARANASI-GEO-DELIVERY-REPAIR-001
+project: india
+run_type: GEO_DELIVERY_REPAIR
+status: ACTIVE
+created_at: 2026-07-22T17:00:00+02:00
+created_by_role: CONTROLLER
+source_run: VARANASI-COMPLETE-001
+source_commit: 5a5b9ee79900ba25320d6b6e75248fd2bb051c48
+objective:
+  - Re-research all 40 Varanasi candidates for substantive GEO identity.
+  - Treat inherited coordinates only as comparison material.
+  - Perform extra review for VNS-CAND-008.
+  - Produce the complete practical Mark delivery in the same run after BRONS and ZILVER.
+mark_choices:
+  VNS-CAND-001: A
+  VNS-CAND-002: A
+  VNS-CAND-003: A
+  VNS-CAND-007: A
+  VNS-CAND-008: B
+  all_other_35: DOOR_MARK_TE_BEOORDELEN
+explicitly_rejected_coordinate:
+  candidate_id: VNS-CAND-008
+  latitude: 25.3045
+  longitude: 82.979369
+  rule: MUST_NOT_BE_REUSED_AS_FINAL_POINT_WITHOUT_LATER_EXPLICIT_MARK_SUPERSESSION
+required_outputs:
+  - research/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/USER/VARANASI_KEUZE.pdf
+  - research/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/USER/VARANASI_KEUZE.kml
+  - research/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/GEO_AUDIT.md
+  - research/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/CORRECTIERAPPORT.md
+forbidden_outputs:
+  - central India master KML update
+candidate_blocker_policy: Isolate candidate-specific uncertainty and continue all unaffected candidates.
+role_sequence:
+  - BRONS
+  - ZILVER
+  - GOUD
+END_OF_ARTIFACT
