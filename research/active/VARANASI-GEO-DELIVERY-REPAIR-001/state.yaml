@@ -1,15 +1,18 @@
 schema_version: 1
 run_id: VARANASI-GEO-DELIVERY-REPAIR-001
-state: READY_FOR_BRONS
-active_role: BRONS
-last_valid_commit: 5a5b9ee79900ba25320d6b6e75248fd2bb051c48
-controller_transition_status: PREPARED
+state: CONTROLLER_REPAIRING_BRONS_CONTEXT
+active_role: CONTROLLER
+last_valid_activation_commit: null
+controller_transition_status: PREPARING
 completed_steps:
   - controller_preflight_read
   - controller_preflight_write
   - active_system_india3_confirmed
   - prior_varanasi_run_identified_as_historical_source
   - repair_run_created
-open_step: execute_brons_geo_research
-resume_prompt: "GitHub BRONS — open pipeline/ENTRYPOINT.md and execute the action pinned in pipeline/NEXT_ACTION.yaml for VARANASI-GEO-DELIVERY-REPAIR-001."
+  - brons_correctly_blocked_on_invalid_context
+  - transition_defect_classified_as_controller_owned
+  - structural_protocol_hotfix_written
+open_step: prepare_exhaustive_brons_context_and_activate_last
+resume_prompt: "GitHub INDIA3 CONTROLLER — open pipeline/ENTRYPOINT.md and pipeline/NEXT_ACTION.yaml; resume VARANASI-GEO-DELIVERY-REPAIR-001 at BRONS context preparation only."
 END_OF_ARTIFACT
