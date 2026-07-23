@@ -1,11 +1,11 @@
 # BRONS HANDOFF — VARANASI-GEO-DELIVERY-REPAIR-001
 
 Status: CHECKPOINTED_PARTIAL
-Checkpoint: 1
+Checkpoint: 2
 Checked at: 2026-07-23
-Covered candidates: VNS-CAND-001, VNS-CAND-002, VNS-CAND-003, VNS-CAND-004, VNS-CAND-005
-Candidate records: 5
-Registered sources: 8
+Covered candidates: VNS-CAND-001, VNS-CAND-002, VNS-CAND-003, VNS-CAND-004, VNS-CAND-005, VNS-CAND-006, VNS-CAND-007, VNS-CAND-008, VNS-CAND-009, VNS-CAND-010
+Candidate records: 10
+Registered sources: 18
 
 ## Capability classification
 
@@ -27,4 +27,4 @@ Candidate-specific uncertainty is recorded in each GEO audit record and does not
 
 ## Next durable block
 
-Resume with the first candidate after VNS-CAND-005.
+Resume with the first candidate after VNS-CAND-010.
