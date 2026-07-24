@@ -1,0 +1,15 @@
+schema_version: 1
+active_system: INDIA4
+status: ACTIVE
+activated_at: 2026-07-24
+entrypoint: india4/START.md
+controller_role: null
+route: BRONS_TO_ZILVER_TO_GOUD_TO_KLAAR
+legacy_systems:
+  INDIA1: ARCHIVED_REFERENCE_ONLY
+  INDIA2: ARCHIVED_REFERENCE_ONLY
+  INDIA3: ARCHIVED_REFERENCE_ONLY
+normal_context_policy: DIRECT_RUN_AND_PREDECESSOR
+mark_decision_policy: ONLY_MARK
+hash_pinning: NONE
+context_manifest_required: false
