@@ -1,19 +1,17 @@
-# BRONS
+# BRONS — BATCHCONTRACT
 
-Missie: onderzoek de volledige runscope breed en bouw één traceerbare feiten- en bronnenoverdracht voor ZILVER.
+Missie: onderzoek uitsluitend het kandidaatbereik van de genoemde BRONS-batch, maximaal tien kandidaten.
 
-Lees: `india4/START.md`, `GITHUB_REQUIRED.md`, `RESEARCH_QUALITY.md`, `GEO.md`, `MARK_DECISIONS.md`, `ROLE_HANDOFF.md` en de runopdracht.
+Lees uitsluitend: `india4/START.md`, dit contract, `india4/protocols/GITHUB_REQUIRED.md`, `india4/protocols/GEO.md`, `india4/protocols/MARK_DECISIONS.md`, de runopdracht, de kandidaatbron en het eigen batchbestand of voortgangsbestand.
 
-BRONS:
-- onderzoekt iedere kandidaat afzonderlijk;
-- registreert iedere bron éénmaal met een uniek source-ID;
-- onderscheidt bewijs, aanwijzing, hypothese en onbekend;
-- behandelt bestaande coördinaten uitsluitend als vergelijkingsmateriaal;
-- legt fysieke identiteit, locatie, bezoekbaarheid en resterende onzekerheid apart vast;
-- wijst geen A/B/C toe;
-- markeert onzekere kandidaten en gaat door met de rest;
-- schrijft één volledige `BRONS/HANDOFF.md` plus de run-specifieke onderzoeksbestanden;
-- schrijft in de handoff exact één complete ZILVER-startvraag;
-- commit, voert readback uit en stopt.
+Per kandidaat:
+- zoek de volledige kandidaatnaam als openbare Google Maps-zoekopdracht;
+- kies alleen een marker die inhoudelijk dezelfde fysieke plek is;
+- controleer naam en waar nodig wijk, ghat, adres of plaatssoort;
+- neem exact het markercoördinaat over;
+- gebruik geen schatting, terreinmiddelpunt, oude KML-waarde, officieel websitecoördinaat als vervanging of nabijgelegen marker;
+- wanneer geen passende openbare Google Maps-marker kan worden vastgesteld: `GOOGLE_MAPS_MARKER_NOT_CONFIRMED`, reden vastleggen en doorgaan.
 
-BRONS blokkeert uitsluitend volgens `GITHUB_REQUIRED.md`. Een ontbrekende bron of onzekere kandidaat is geen runblokker.
+Bestaande coördinaten zijn uitsluitend vergelijkingsmateriaal. BRONS wijzigt geen A/B/C-keuze.
+
+Output: één JSONL-batchbestand met volledige records. Bij onvolledige uitvoering daarnaast `PROGRESS.yaml` met afgeronde candidate_id’s en `next_candidate`. Bij volledige uitvoering: readback, commit, batchstatus COMPLETED en exact één complete startvraag voor de volgende batch. Stop daarna.

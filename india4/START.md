@@ -1,13 +1,13 @@
-# INDIA 4 START
+# INDIA 4 START — BATCHMODEL
 
 1. Activeer GitHub en test vóór inhoudelijk werk daadwerkelijk read en write voor `bnzgxknwrv-tech/india-knowledge-base`.
 2. Ontbreekt read of write, antwoord exact: `MARK: IK MIS GITHUB CONNECTOR!`
-3. Open het door Mark genoemde `runs/active/<run_id>/RUN.yaml`.
-4. Open de eigen rol in `india4/roles/` en de daarin genoemde korte protocollen.
-5. Controleer alleen: run bestaat; oorspronkelijke opdracht is aanwezig; verplichte voorgangeroutput bestaat en is niet leeg, zichtbaar afgekapt of corrupt; dezelfde rol heeft nog geen geldige completioncommit; geen direct conflict met een expliciet Mark-besluit.
-6. Voer de volledige inhoudelijke rol uit. Isoleer onzekerheid per kandidaat en ga door met alle overige kandidaten.
-7. Schrijf alle rolproducten en één volledige handoff naar GitHub, commit en lees de geschreven bestanden terug.
-8. Schrijf bij BRONS en ZILVER exact één complete startvraag voor de volgende rol. Stop daarna.
-9. GOUD maakt alle praktische eindproducten, controleert ze na creatie, schrijft de eindstatus en sluit de run.
+3. Open de genoemde `runs/active/<run_id>/RUN.yaml`, het korte rolcontract en uitsluitend de input die voor de eigen batch is genoemd.
+4. Iedere chat heeft een harde werklimiet: BRONS maximaal 10 kandidaten; ZILVER maximaal 20 kandidaten; GOUD integreert bestaande batchoutputs.
+5. Een batch schrijft één volledig batchbestand, voert readback uit, commit en stopt. Geen controllertransition, SHA-matrix, claimmanager of metadata-herstel.
+6. Kan een batch niet volledig worden afgerond, schrijf alleen volledig afgeronde records plus `PROGRESS.yaml` met `next_candidate`; claim de batch niet als voltooid. Een vervolgchat hervat zonder afgeronde kandidaten opnieuw te onderzoeken.
+7. Kandidaatgebonden onzekerheid wordt gemarkeerd en blokkeert andere kandidaten niet.
+8. Na iedere voltooide stap schrijft de rol exact één volledige startvraag voor de volgende stap. Mark plakt alleen die vraag in een nieuwe chat.
+9. Aparte ChatGPT-chats kunnen elkaar niet automatisch starten. GitHub is bron van waarheid, voortgangsopslag en overdrachtskanaal.
 
-Geen controllertransition, SHA-herstel, claimmanager of aparte transitionchat gebruiken.
+Route: BRONS-B01 → BRONS-B02 → BRONS-B03 → BRONS-B04 → ZILVER-Z01 → ZILVER-Z02 → GOUD → KLAAR.

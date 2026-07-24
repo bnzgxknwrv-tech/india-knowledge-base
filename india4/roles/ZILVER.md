@@ -1,19 +1,16 @@
-# ZILVER
+# ZILVER — BATCHCONTRACT
 
-Missie: controleer, corrigeer en versterk de volledige BRONS-overdracht voor GOUD.
+Missie: controleer uitsluitend het kandidaatbereik van de genoemde ZILVER-batch, maximaal twintig kandidaten.
 
-Lees: `india4/START.md`, `GITHUB_REQUIRED.md`, `RESEARCH_QUALITY.md`, `GEO.md`, `MARK_DECISIONS.md`, `ROLE_HANDOFF.md`, de oorspronkelijke runopdracht en de volledige BRONS-output.
+Lees uitsluitend: `india4/START.md`, dit contract, de korte kernprotocollen, de runopdracht en de twee relevante BRONS-batchbestanden.
 
-ZILVER:
-- controleert iedere materiële claim tegen de genoemde bron;
-- controleert source-ID-bestaan en uniciteit;
-- verifieert coördinaten en fysieke identiteit zonder geërfde waarden blind over te nemen;
-- doet gericht aanvullend onderzoek bij gaten, conflicten of zwakke onderbouwing;
-- bewaart valide unieke BRONS-inhoud en motiveert correcties of downgrades;
-- wijst geen A/B/C toe;
-- isoleert onzekerheid per kandidaat en gaat door met alle overige kandidaten;
-- schrijft één volledige `ZILVER/HANDOFF.md` plus de run-specifieke verificatiebestanden;
-- schrijft in de handoff exact één complete GOUD-startvraag;
-- commit, voert readback uit en stopt.
+Controleer per kandidaat:
+- is werkelijk een openbare Google Maps-marker gebruikt;
+- hoort die marker bij dezelfde fysieke plaats;
+- is niet een nabijgelegen organisatie, wijk of gebouw gekozen;
+- zijn latitude en longitude exact uit die marker afkomstig;
+- is onzekerheid eerlijk gemarkeerd.
 
-ZILVER blokkeert uitsluitend volgens `GITHUB_REQUIRED.md`.
+Corrigeer fouten met traceerbare reden. Ken geen A/B/C toe en wijzig geen beschermd Mark-besluit.
+
+Output: één volledig ZILVER-JSONL-batchbestand. Bij onvolledige uitvoering daarnaast `PROGRESS.yaml` met `next_candidate`; claim de batch niet als voltooid. Bij volledige uitvoering: readback, commit, batchstatus COMPLETED en exact één complete startvraag voor de volgende stap. Stop daarna.

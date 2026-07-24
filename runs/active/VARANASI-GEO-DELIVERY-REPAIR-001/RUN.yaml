@@ -1,22 +1,18 @@
-schema_version: 1
+schema_version: 2
 run_id: VARANASI-GEO-DELIVERY-REPAIR-001
 system: INDIA4
-status: READY_FOR_BRONS
+status: READY_FOR_BRONS_B01
 created_at: 2026-07-24
+batch_model: FIXED_BOUNDED_CHATS
 objective:
   - Onderzoek alle 40 Varanasi-kandidaten opnieuw op fysieke locatie.
+  - Gebruik uitsluitend exact vastgestelde openbare Google Maps-markers als eindcoördinaat.
   - Behandel bestaande coördinaten uitsluitend als vergelijkingsmateriaal.
-  - Maak per kandidaat één afzonderlijk GEO-auditrecord.
-  - Isoleer kandidaatgebonden onzekerheid en ga door met alle overige kandidaten.
-  - Laat BRONS, ZILVER en GOUD de volledige keten uitvoeren.
-  - Laat GOUD alle praktische eindproducten werkelijk maken.
-source_runs:
-  - VARANASI-COMPLETE-001
-legacy_input_paths:
-  - research/active/VARANASI-COMPLETE-001/ZILVER/candidates.jsonl
-  - research/active/VARANASI-COMPLETE-001/ZILVER/working_geo.jsonl
-  - research/active/VARANASI-GEO-DELIVERY-REPAIR-001/run.yaml
-  - decisions/MARK_DECISIONS.jsonl
+  - Isoleer kandidaatgebonden onzekerheid en ga door.
+inputs:
+  candidate_source: research/active/VARANASI-COMPLETE-001/ZILVER/candidates.jsonl
+  old_geo_comparison: research/active/VARANASI-COMPLETE-001/ZILVER/working_geo.jsonl
+  mark_decisions: decisions/MARK_DECISIONS.jsonl
 protected_mark_decisions:
   VNS-CAND-001: A
   VNS-CAND-002: A
@@ -27,38 +23,48 @@ protected_mark_decisions:
 explicit_rejections:
   - candidate_id: VNS-CAND-008
     coordinate: [25.3045, 82.979369]
-    rule: MUST_NOT_BE_REUSED_AS_FINAL_POINT_WITHOUT_LATER_EXPLICIT_MARK_DECISION
-research_scope:
-  candidate_count: 40
-  geography: Varanasi
-  rule: EACH_CANDIDATE_RESEARCHED_SEPARATELY
-required_role_outputs:
-  BRONS:
-    - BRONS/SOURCES.jsonl
-    - BRONS/GEO_AUDIT.jsonl
-    - BRONS/HANDOFF.md
-  ZILVER:
-    - ZILVER/SOURCES_VALIDATED.jsonl
-    - ZILVER/GEO_AUDIT_VALIDATED.jsonl
-    - ZILVER/CORRECTIONS.jsonl
-    - ZILVER/HANDOFF.md
+    rule: MUST_NOT_BE_REUSED_AS_FINAL_POINT
+geo_marker_rule:
+  accepted_status: EXACT_GOOGLE_MAPS_MARKER
+  unresolved_status: GOOGLE_MAPS_MARKER_NOT_CONFIRMED
+  forbidden_substitutes: [ESTIMATE, SITE_CENTRE, OLD_KML_COORDINATE, OFFICIAL_WEBSITE_COORDINATE_AS_REPLACEMENT, NEARBY_MARKER]
+batches:
+  BRONS-B01:
+    range: [VNS-CAND-001, VNS-CAND-010]
+    status: READY
+    output: BRONS/BRONS-B01.jsonl
+  BRONS-B02:
+    range: [VNS-CAND-011, VNS-CAND-020]
+    status: WAITING
+    output: BRONS/BRONS-B02.jsonl
+  BRONS-B03:
+    range: [VNS-CAND-021, VNS-CAND-030]
+    status: WAITING
+    output: BRONS/BRONS-B03.jsonl
+  BRONS-B04:
+    range: [VNS-CAND-031, VNS-CAND-040]
+    status: WAITING
+    output: BRONS/BRONS-B04.jsonl
+  ZILVER-Z01:
+    range: [VNS-CAND-001, VNS-CAND-020]
+    prerequisites: [BRONS-B01, BRONS-B02]
+    status: WAITING
+    output: ZILVER/ZILVER-Z01.jsonl
+  ZILVER-Z02:
+    range: [VNS-CAND-021, VNS-CAND-040]
+    prerequisites: [BRONS-B03, BRONS-B04]
+    status: WAITING
+    output: ZILVER/ZILVER-Z02.jsonl
   GOUD:
-    - GOUD/USER/VARANASI_40_KANDIDATEN.kml
-    - GOUD/USER/VARANASI_KEUZE.pdf
-    - GOUD/GEO_AUDIT.md
-    - GOUD/CORRECTIERAPPORT.md
-    - GOUD/ZEKER_ONZEKER_OVERZICHT.md
-    - GOUD/MARK_KEUZES.md
-    - GOUD/DOOR_MARK_TE_BEOORDELEN.md
-    - GOUD/COMPLETION.md
+    prerequisites: [BRONS-B01, BRONS-B02, BRONS-B03, BRONS-B04, ZILVER-Z01, ZILVER-Z02]
+    status: WAITING
+required_goud_outputs:
+  - GOUD/USER/VARANASI_40_KANDIDATEN.kml
+  - GOUD/USER/VARANASI_KEUZE.pdf
+  - GOUD/GEO_AUDIT.md
+  - GOUD/CORRECTIERAPPORT.md
+  - GOUD/COMPLETION.md
 forbidden_outputs:
   - CENTRAL_INDIA_MASTER_KML_UPDATE
-candidate_uncertainty_policy: ISOLATE_AND_CONTINUE
-role_sequence: [BRONS, ZILVER, GOUD]
-current_role: BRONS
-completioncommits:
-  BRONS: null
-  ZILVER: null
-  GOUD: null
-original_mark_instruction: |
-  Bouw INDIA 4 als eenvoudige opvolger van INDIA 3 en activeer deze Varanasi GEO-herstelopdracht als eerste BRONS-run. Voer tijdens de architectuurmigratie nog geen volledig onderzoek naar de 40 kandidaten uit.
+active_batch: BRONS-B01
+chat_automation: MANUAL_NEXT_PROMPT_BY_MARK

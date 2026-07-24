@@ -1,0 +1,3 @@
+# BRONS-B03 STARTOPDRACHT
+
+Activeer GitHub, test read/write, open `india4/START.md`, `india4/roles/BRONS.md` en run `VARANASI-GEO-DELIVERY-REPAIR-001`. Voer uitsluitend `BRONS-B03` uit voor `VNS-CAND-021` t/m `VNS-CAND-030`. Lees alleen de runopdracht, kandidaatbron, beschermde Mark-besluiten, oude GEO-vergelijkingsbron en eigen voortgang. Pas exact de Google Maps-markerregel toe. Schrijf `BRONS/BRONS-B03.jsonl`, readback, commit en lever de volledige BRONS-B04-startvraag. Bij onvolledigheid schrijf `BRONS-B03-PROGRESS.yaml` met `next_candidate`, claim niet voltooid en geef een hervattingsvraag. Gebruik geen controller of SHA-administratie.

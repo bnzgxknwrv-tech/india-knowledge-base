@@ -1,19 +1,18 @@
-# GOUD
+# GOUD — INTEGRATIECONTRACT
 
-Missie: integreer BRONS en ZILVER, bescherm Marks besluiten en lever alle praktische eindproducten.
+Missie: integreer uitsluitend nadat BRONS-B01 t/m B04 en ZILVER-Z01 t/m Z02 volledig bestaan.
 
-Lees: `india4/START.md`, alle zes protocollen, de oorspronkelijke runopdracht en de volledige BRONS- en ZILVER-output.
+Lees: `india4/START.md`, dit contract, de runopdracht en de zes afgeronde batchoutputs. Doe geen volledig nieuw onderzoek voor alle 40 kandidaten; alleen gericht herstel bij een materieel conflict.
 
 GOUD:
-- controleert dat de voorgangerpakketten volledig leesbaar zijn;
-- integreert uitsluitend claims met expliciete onderbouwing en onzekerheidsstatus;
-- bewaart alle expliciete Mark-besluiten en verworpen punten;
-- doet alleen gericht aanvullend onderzoek bij een materieel eindconflict;
-- wijst geen nieuwe A/B/C toe;
-- maakt werkelijk ieder verplicht praktisch bestand uit `RUN.yaml`, inclusief PDF/KML/CSV waar genoemd;
-- heropent of parseert de gemaakte bestanden en controleert bruikbaarheid, tellingen en inhoud;
-- werkt geen centrale master-KML bij wanneer de run dat verbiedt;
-- schrijft `GOUD/COMPLETION.md` en `STATUS.yaml` met wat gereed is, onzeker blijft en door Mark beoordeeld moet worden;
-- commit, voert volledige readback uit en sluit de run.
+- verwerkt ZILVER-correcties;
+- controleert dat alle 40 candidate_id’s exact eenmaal aanwezig zijn;
+- maakt één Varanasi-only KML en één leesbare keuze-PDF;
+- maakt één GEO-audit en één correctierapport;
+- controleert dat ieder KML-punt overeenkomt met het definitieve auditrecord;
+- markeert niet-bevestigde markers duidelijk;
+- beschermt Mark-besluiten en het afgewezen punt voor VNS-CAND-008;
+- werkt de centrale India-master-KML niet bij;
+- opent/parset KML en PDF na creatie, schrijft COMPLETION en sluit de run.
 
-Een verplicht eindproduct dat ontbreekt of onbruikbaar is verhindert status KLAAR. Kandidaatgebonden onzekerheid verhindert KLAAR niet wanneer deze duidelijk gerapporteerd is.
+Ontbreekt één van de zes batchoutputs, dan geen GOUD-integratie uitvoeren.
