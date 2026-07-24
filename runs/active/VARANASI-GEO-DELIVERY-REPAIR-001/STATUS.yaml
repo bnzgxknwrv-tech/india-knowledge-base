@@ -1,0 +1,8 @@
+system: INDIA4
+run_id: VARANASI-GEO-DELIVERY-REPAIR-001
+status: READY_FOR_BRONS
+current_role: BRONS
+next_role: ZILVER
+closed: false
+updated_at: 2026-07-24
+note: INDIA4 activated; no candidate research performed during migration.

@@ -1,0 +1,17 @@
+schema_version: 1
+run_id: EXAMPLE-RUN-001
+status: READY_FOR_BRONS
+created_at: YYYY-MM-DD
+objective: []
+source_runs: []
+research_scope: []
+protected_mark_decisions: {}
+explicit_rejections: []
+required_role_outputs:
+  BRONS: []
+  ZILVER: []
+  GOUD: []
+forbidden_outputs: []
+candidate_uncertainty_policy: ISOLATE_AND_CONTINUE
+role_sequence: [BRONS, ZILVER, GOUD]
+current_role: BRONS

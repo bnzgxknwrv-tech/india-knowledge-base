@@ -1,7 +1,0 @@
-{"negative_search_id":"VN-001","query":"exact Yogananda Sri Yukteswar first meeting current physical site Varanasi","result":"NOT_ESTABLISHED","reason":"City-level lineage relation exists; exact current object was not reliably identified.","source_ids":["VR-004"]}
-{"negative_search_id":"VN-002","query":"additional official Lahiri Mahasaya houses samadhis Varanasi","result":"NO_ADDITIONAL_DISTINCT_SITE","reason":"House and Satyalok/samadhi retained; duplicate aliases rejected.","source_ids":["VS-008","VS-009"]}
-{"negative_search_id":"VN-003","query":"additional Trailanga Swami samadhi Varanasi","result":"NO_ADDITIONAL_DISTINCT_SITE","reason":"Panchganga math carries the identifiable samadhi function.","source_ids":["VS-010"]}
-{"negative_search_id":"VN-004","query":"Kabir exact birthplace Varanasi","result":"CONFLICTED_TRADITION_ZONE","reason":"Kabir Chaura and Lahartara remain distinct physical tradition sites; exact birth claim not resolved.","source_ids":["VS-007","VS-012","VR-005"]}
-{"negative_search_id":"VN-005","query":"Babaji physical sites Varanasi official lineage","result":"NO_NEW_PHYSICAL_SITE","reason":"No additional Babaji-specific physical site passed the identity gate beyond Kriya institutions.","source_ids":["VS-003"]}
-{"negative_search_id":"VN-006","query":"small Varanasi spiritual places outside standard lists","result":"FOUND_AGHOR_AND_KABIR_SITES","reason":"Kring Kund, Kabir sites and minor living temples were retained where physically identifiable.","source_ids":["VS-007","VS-021"]}
-END_OF_ARTIFACT

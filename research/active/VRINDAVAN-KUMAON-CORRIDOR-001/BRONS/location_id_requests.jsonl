@@ -1,5 +1,0 @@
-{"request_id":"LIR-001","cluster":"BODH_GAYA","requested_for":["Mahabodhi Temple","Bodhi Tree"],"reason":"Formal A locations must remain in central map source but no permanent block is assigned in the pinned plan.","status":"BLOCK_RESERVATION_REQUIRED"}
-{"request_id":"LIR-002","cluster":"VARANASI","requested_for":["Lahiri Mahasaya Samadhi","Lahiri House","Manikarnika Ghat","Trailanga Swami Samadhi","Anandamayi Ma Ashram","Sarnath","Kashi Vishwanath"],"reason":"Formal A locations must remain in central map source but no permanent block is assigned in the pinned plan.","status":"BLOCK_RESERVATION_REQUIRED"}
-{"request_id":"LIR-003","cluster":"AGRA","requested_for":["Taj Mahal at sunrise"],"reason":"Formal A location must remain in central map source but no permanent block is assigned in the pinned plan.","status":"BLOCK_RESERVATION_REQUIRED"}
-{"request_id":"LIR-004","cluster":"HARIDWAR_KANKHAL","requested_for":["Anandamayi Ma Samadhi, Kankhal"],"reason":"Direct-line gate-pass candidate lies outside corridor and Kumaon blocks; no permanent ID may be invented.","status":"BLOCK_RESERVATION_REQUIRED"}
-END_OF_ARTIFACT
