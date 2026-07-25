@@ -10,9 +10,8 @@ objective:
   - Behandel bestaande coördinaten uitsluitend als vergelijkingsmateriaal.
   - Isoleer kandidaatgebonden onzekerheid en ga door.
 inputs:
-  candidate_source: research/active/VARANASI-COMPLETE-001/ZILVER/candidates.jsonl
-  old_geo_comparison: research/active/VARANASI-COMPLETE-001/ZILVER/working_geo.jsonl
-  mark_decisions: decisions/MARK_DECISIONS.jsonl
+  candidate_source: runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/INPUT/candidates.jsonl
+  old_geo_comparison: runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/INPUT/old_geo_comparison.jsonl
 protected_mark_decisions:
   VNS-CAND-001: A
   VNS-CAND-002: A
