@@ -4,8 +4,9 @@ status: IN_PROGRESS
 completed_candidates:
   - VNS-CAND-001
   - VNS-CAND-002
-last_completed_candidate: VNS-CAND-002
-next_candidate: VNS-CAND-003
-completed_count: 2
+  - VNS-CAND-003
+last_completed_candidate: VNS-CAND-003
+next_candidate: VNS-CAND-004
+completed_count: 3
 total_batch_count: 10
-note: VNS-CAND-001 and VNS-CAND-002 completed with GOOGLE_MAPS_MARKER_NOT_CONFIRMED; old coordinates retained only as comparison data.
+note: VNS-CAND-001 through VNS-CAND-003 completed; exact Google Maps marker coordinates were not confirmed and old coordinates remain comparison-only.
