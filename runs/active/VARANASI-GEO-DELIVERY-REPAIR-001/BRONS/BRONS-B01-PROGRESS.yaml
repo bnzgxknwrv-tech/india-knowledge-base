@@ -5,8 +5,9 @@ completed_candidates:
   - VNS-CAND-001
   - VNS-CAND-002
   - VNS-CAND-003
-last_completed_candidate: VNS-CAND-003
-next_candidate: VNS-CAND-004
-completed_count: 3
+  - VNS-CAND-004
+last_completed_candidate: VNS-CAND-004
+next_candidate: VNS-CAND-005
+completed_count: 4
 total_batch_count: 10
-note: VNS-CAND-001 through VNS-CAND-003 completed; exact Google Maps marker coordinates were not confirmed and old coordinates remain comparison-only.
+note: VNS-CAND-001 through VNS-CAND-004 completed; exact Google Maps marker coordinates were not confirmed and old coordinates remain comparison-only.
