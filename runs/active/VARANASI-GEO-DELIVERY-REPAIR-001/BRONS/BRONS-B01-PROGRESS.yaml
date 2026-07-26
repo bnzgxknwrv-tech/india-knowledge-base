@@ -3,8 +3,9 @@ batch: BRONS-B01
 status: IN_PROGRESS
 completed_candidates:
   - VNS-CAND-001
-last_completed_candidate: VNS-CAND-001
-next_candidate: VNS-CAND-002
-completed_count: 1
+  - VNS-CAND-002
+last_completed_candidate: VNS-CAND-002
+next_candidate: VNS-CAND-003
+completed_count: 2
 total_batch_count: 10
-note: VNS-CAND-001 completed with GOOGLE_MAPS_MARKER_NOT_CONFIRMED; old coordinates retained only as comparison data.
+note: VNS-CAND-001 and VNS-CAND-002 completed with GOOGLE_MAPS_MARKER_NOT_CONFIRMED; old coordinates retained only as comparison data.
