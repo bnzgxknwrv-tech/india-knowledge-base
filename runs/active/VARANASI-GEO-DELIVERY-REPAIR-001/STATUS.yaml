@@ -1,8 +1,11 @@
 system: INDIA4
 run_id: VARANASI-GEO-DELIVERY-REPAIR-001
-status: READY_FOR_BRONS
+status: BRONS_B03_IN_PROGRESS
 current_role: BRONS
 next_role: ZILVER
 closed: false
-updated_at: 2026-07-24
-note: INDIA4 activated; no candidate research performed during migration.
+updated_at: 2026-07-28
+note: >
+  Gecorrigeerd op 2026-07-28 (zie ROOT_CAUSE.md) -- stond hier al sinds 2026-07-24 op
+  READY_FOR_BRONS/"geen onderzoek uitgevoerd", terwijl 21 kandidaten al af waren.
+  Dit veld is niet langer de bron van waarheid; gebruik altijd scripts/next_candidate.py.

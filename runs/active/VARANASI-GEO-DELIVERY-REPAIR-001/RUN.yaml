@@ -1,9 +1,14 @@
 schema_version: 2
 run_id: VARANASI-GEO-DELIVERY-REPAIR-001
 system: INDIA4
-status: READY_FOR_BRONS_B01
+status: BRONS_B03_IN_PROGRESS
+status_corrected_at: 2026-07-28
+status_correction_note: >
+  Voorheen stond hier READY_FOR_BRONS_B01, sterk verouderd t.o.v. de werkelijke voortgang
+  (B01+B02 waren toen al volledig af). Zie ROOT_CAUSE.md. Vertrouw voor de actuele stand
+  altijd scripts/next_candidate.py, niet dit veld.
 created_at: 2026-07-24
-batch_model: FIXED_BOUNDED_CHATS
+batch_model: AUTONOMOUS_SEQUENTIAL_COMMIT_PER_CANDIDATE
 objective:
   - Onderzoek alle 40 Varanasi-kandidaten opnieuw op fysieke locatie.
   - Gebruik uitsluitend exact vastgestelde openbare Google Maps-markers als eindcoördinaat.
@@ -30,15 +35,15 @@ geo_marker_rule:
 batches:
   BRONS-B01:
     range: [VNS-CAND-001, VNS-CAND-010]
-    status: READY
+    status: COMPLETED
     output: BRONS/BRONS-B01.jsonl
   BRONS-B02:
     range: [VNS-CAND-011, VNS-CAND-020]
-    status: WAITING
+    status: COMPLETED
     output: BRONS/BRONS-B02.jsonl
   BRONS-B03:
     range: [VNS-CAND-021, VNS-CAND-030]
-    status: WAITING
+    status: IN_PROGRESS
     output: BRONS/BRONS-B03.jsonl
   BRONS-B04:
     range: [VNS-CAND-031, VNS-CAND-040]
@@ -65,5 +70,6 @@ required_goud_outputs:
   - GOUD/COMPLETION.md
 forbidden_outputs:
   - CENTRAL_INDIA_MASTER_KML_UPDATE
-active_batch: BRONS-B01
-chat_automation: MANUAL_NEXT_PROMPT_BY_MARK
+active_batch: BRONS-B03
+chat_automation: AUTONOMOUS_VIA_BRONS_AUTOBATCH_PROMPT
+next_candidate_source_of_truth: runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/scripts/next_candidate.py

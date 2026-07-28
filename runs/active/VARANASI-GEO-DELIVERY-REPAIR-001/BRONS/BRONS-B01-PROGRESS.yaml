@@ -1,13 +1,14 @@
 run_id: VARANASI-GEO-DELIVERY-REPAIR-001
 batch: BRONS-B01
-status: IN_PROGRESS
-completed_candidates:
-  - VNS-CAND-001
-  - VNS-CAND-002
-  - VNS-CAND-003
-  - VNS-CAND-004
-last_completed_candidate: VNS-CAND-004
-next_candidate: VNS-CAND-005
-completed_count: 4
-total_batch_count: 10
-note: VNS-CAND-001 through VNS-CAND-004 completed; exact Google Maps marker coordinates were not confirmed and old coordinates remain comparison-only.
+status: DEPRECATED_SUPERSEDED_BY_DATA
+deprecated_at: 2026-07-28
+deprecation_note: >
+  Dit bestand bleef staan op completed_count: 4 / next_candidate: VNS-CAND-005 terwijl
+  BRONS-B01.jsonl daadwerkelijk alle 10 records (001-010) al bevatte -- zie ROOT_CAUSE.md,
+  hoofdoorzaak 1. Losse *-PROGRESS.yaml-bestanden worden voortaan niet meer bijgehouden of
+  vertrouwd. Gebruik altijd runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/scripts/next_candidate.py
+  voor de actuele voortgang, berekend rechtstreeks uit de BRONS-B0X.jsonl-bestanden.
+last_known_stale_value:
+  completed_count: 4
+  next_candidate: VNS-CAND-005
+actual_status_at_deprecation: BRONS-B01 volledig af (10/10, VNS-CAND-001 t/m VNS-CAND-010)
