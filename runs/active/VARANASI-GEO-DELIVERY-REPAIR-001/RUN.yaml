@@ -63,8 +63,11 @@ batches:
   ZILVER-TESTSWEEP-022-040:
     range: [VNS-CAND-022, VNS-CAND-040]
     prerequisites: [BRONS-B03, BRONS-B04]
-    status: WAITING
+    status: COMPLETED
     output: ZILVER/ZILVER-TESTSWEEP-022-040.jsonl
+    summary: 19/19 kandidaten gecontroleerd; 3 opgewaardeerd naar VERIFIED_OFFICIAL_MAP_LINK (officiele
+      Google Earth entity-links gevonden voor VNS-CAND-029, 031, 033), overige 16 blijven
+      GOOGLE_MAPS_MARKER_NOT_CONFIRMED (kandidaatgebonden onzekerheid, geen blokkade).
   GOUD-TESTSWEEP-022-040:
     prerequisites: [ZILVER-TESTSWEEP-022-040]
     status: WAITING

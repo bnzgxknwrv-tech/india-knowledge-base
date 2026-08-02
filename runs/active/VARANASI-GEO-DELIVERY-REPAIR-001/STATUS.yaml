@@ -1,8 +1,8 @@
 system: INDIA4
 run_id: VARANASI-GEO-DELIVERY-REPAIR-001
-status: BRONS_ALL_40_COMPLETE_TESTSWEEP_ZILVER_IN_PROGRESS_022_040
-current_role: ZILVER
-next_role: GOUD
+status: TESTSWEEP_022_040_ZILVER_COMPLETE_GOUD_IN_PROGRESS
+current_role: GOUD
+next_role: KLAAR
 closed: false
 updated_at: 2026-08-02
 note: >
