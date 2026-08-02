@@ -1,0 +1,100 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "india5/schemas/task.schema.json",
+  "title": "INDIA5 TASK.yaml",
+  "description": "Schema voor een taak in de bestandsgebaseerde INDIA5-taakarchitectuur (india5/TASK_PROTOCOL.md). Gevalideerd door india5/scripts/validate_task.py.",
+  "type": "object",
+  "required": [
+    "task_id",
+    "protocol_version",
+    "issued_by",
+    "issued_at",
+    "target_branch",
+    "expected_head",
+    "task_file",
+    "task_file_sha256",
+    "scope",
+    "required_inputs",
+    "allowed_reads",
+    "allowed_writes",
+    "forbidden_writes",
+    "expected_outputs",
+    "status",
+    "completion_marker"
+  ],
+  "properties": {
+    "task_id": {
+      "type": "string",
+      "pattern": "^INDIA5-[A-Z0-9]+-[0-9]{3,}$",
+      "description": "Immutable, uniek. Conventie: INDIA5-<SCOPE>-<NNN>, bv. INDIA5-ARCH-TEST-001, INDIA5-VNS-002."
+    },
+    "protocol_version": {
+      "type": "string",
+      "description": "Versie van india5/TASK_PROTOCOL.md waartegen deze taak is opgesteld."
+    },
+    "issued_by": {
+      "type": "string",
+      "description": "Wie de taak heeft uitgeschreven, bv. INDIA2 (ChatGPT, architect) of Mark."
+    },
+    "issued_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "target_branch": {
+      "type": "string",
+      "description": "De branch waarop deze taak moet worden uitgevoerd."
+    },
+    "expected_head": {
+      "type": "string",
+      "description": "Commit-SHA die target_branch moet hebben op het moment van claimen. Bij afwijking: STALE_EXPECTED_HEAD, taak niet uitvoeren."
+    },
+    "task_file": {
+      "type": "string",
+      "description": "Relatief pad naar het volledige taakdocument (TASK.md) binnen dezelfde taakdirectory."
+    },
+    "task_file_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$",
+      "description": "SHA-256 van task_file op het moment van uitgifte. Bij mismatch bij het lezen: taak NIET uitvoeren, mogelijk afgekapt of gemanipuleerd."
+    },
+    "scope": {
+      "type": "string",
+      "enum": ["ARCHITECTURE", "PRE_BRONS", "BRONS", "ZILVER", "GOUD", "TRAVEL", "REGION_FULL_FLOW", "OTHER"],
+      "description": "REGION_FULL_FLOW dekt een volledige PRE-BRONS->BRONS->ZILVER->GOUD->TRAVEL-doorloop in één taak."
+    },
+    "required_inputs": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Paden die moeten bestaan en gelezen mogen worden vóór uitvoering."
+    },
+    "allowed_reads": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "allowed_writes": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Padpatronen die deze taak mag aanmaken/wijzigen."
+    },
+    "forbidden_writes": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Padpatronen die deze taak nooit mag aanraken, ongeacht scope. Mag nooit overlappen met allowed_writes."
+    },
+    "expected_outputs": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Paden die na succesvolle uitvoering moeten bestaan; complete_task.py controleert dit."
+    },
+    "status": {
+      "type": "string",
+      "enum": ["QUEUED"],
+      "description": "In TASK.yaml zelf altijd QUEUED bij uitgifte -- de feitelijke voortgangsstatus leeft in STATUS.yaml, nooit in TASK.yaml (dat blijft immutable na uitgifte)."
+    },
+    "completion_marker": {
+      "type": "string",
+      "description": "Exacte string die RESULT.md moet bevatten om als volledig (niet afgekapt) te gelden, bv. 'INDIA5-TASK-COMPLETE::<task_id>'."
+    }
+  },
+  "additionalProperties": true
+}

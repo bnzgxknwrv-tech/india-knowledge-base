@@ -1,0 +1,17 @@
+task_id: INDIA5-ARCH-TEST-001
+state: ACTIVE
+claimed_at: '2026-08-02T19:56:47.770752+00:00'
+claimed_by: CCI
+started_at: '2026-08-02T19:56:47.770752+00:00'
+completed_at: null
+git_commit_at_claim: null
+git_commit_at_complete: null
+completion_marker_found: null
+failure_reason: null
+history:
+- at: '2026-08-02T19:00:00Z'
+  event: ISSUED
+  detail: Taak aangemaakt door CCI als voorbeeldtaak voor de nieuwe taakarchitectuur.
+- at: '2026-08-02T19:56:47.770752+00:00'
+  event: CLAIMED
+  detail: queue -> active, door CCI
