@@ -1,0 +1,41 @@
+{"registry_type":"IMMUTABLE_LOCATION_NUMBERING","scope":"ALL_INDIA_LOCATIONS","rule":"Elke kandidaat/fysieke locatie start altijd met haar vaste, permanente driecijferige nummer. Eenmaal toegekend wijzigt het nooit, wordt het nooit hergebruikt en blijft het permanent aan dezelfde fysieke locatie gekoppeld. Nieuwe locaties krijgen een nieuw vrij nummer. Nummering loopt voorlopig door tot 999; een toekomstige nummerreeks per regio/cluster mag alleen vooraf gereserveerd worden en nooit bestaande nummers wijzigen.","decided_by":"Mark","decided_at":"2026-08-02","source_commit":"58be47b9d7bdb9e60187e11de13f687f0f8c09e4"}
+{"candidate_id":"VNS-CAND-001","display_id":"001","canonical_name":"Lahiri Mahasaya Samadhi / Satyalok","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-002","display_id":"002","canonical_name":"Lahiri Mahasaya original home","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-003","display_id":"003","canonical_name":"Manikarnika Ghat","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-004","display_id":"004","canonical_name":"Shri Tailanga Swami Math","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-005","display_id":"005","canonical_name":"Shree Shree Ma Anandamayi Ashram, Bhadaini","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-006","display_id":"006","canonical_name":"Sarnath sacred complex","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-007","display_id":"007","canonical_name":"Shri Kashi Vishwanath Temple","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-008","display_id":"008","canonical_name":"Yogoda Satsanga Dhyana Mandali, Varanasi","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-009","display_id":"009","canonical_name":"Dashashwamedh Ghat","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-010","display_id":"010","canonical_name":"Assi Ghat","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-011","display_id":"011","canonical_name":"Panchganga Ghat","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-012","display_id":"012","canonical_name":"Harishchandra Ghat","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-013","display_id":"013","canonical_name":"Kaal Bhairav Temple","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-014","display_id":"014","canonical_name":"Maa Annapurna Temple","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-015","display_id":"015","canonical_name":"Sankat Mochan Hanuman Temple","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-016","display_id":"016","canonical_name":"Durga Temple and Durga Kund","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-017","display_id":"017","canonical_name":"Vishalakshi Gauri Temple","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-018","display_id":"018","canonical_name":"Sankatha Devi Temple","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-019","display_id":"019","canonical_name":"Kedareshwar Temple and Kedar Ghat","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-020","display_id":"020","canonical_name":"Lalita Ghat","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-021","display_id":"021","canonical_name":"Nepali Temple / Kathwala Temple","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-022","display_id":"022","canonical_name":"Bindu Madhav Temple","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-023","display_id":"023","canonical_name":"Mrityunjay Mahadev Temple","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-024","display_id":"024","canonical_name":"Kabir Chaura Math","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-025","display_id":"025","canonical_name":"Lahartara Kabir birthplace memorial","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-026","display_id":"026","canonical_name":"Ramakrishna Mission Home of Service","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-027","display_id":"027","canonical_name":"Baba Keenaram Sthal / Krim Kund","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-028","display_id":"028","canonical_name":"Bhaskarananda Samadhi / Anand Bagh","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-029","display_id":"029","canonical_name":"Dhamek Stupa","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-030","display_id":"030","canonical_name":"Mulagandha Kuti Vihara","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-031","display_id":"031","canonical_name":"Chaukhandi Stupa","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-032","display_id":"032","canonical_name":"Sarnath Archaeological Museum","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-033","display_id":"033","canonical_name":"Deer Park / Isipatana sacred landscape","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-034","display_id":"034","canonical_name":"Saranganath Temple","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-035","display_id":"035","canonical_name":"Tulsi Manas Temple","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-036","display_id":"036","canonical_name":"Tulsi Ghat","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-037","display_id":"037","canonical_name":"Lolark Kund","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-038","display_id":"038","canonical_name":"Ratneshwar Mahadev Temple","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-039","display_id":"039","canonical_name":"Shitala Mata Temple, Dashashwamedh","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-040","display_id":"040","canonical_name":"Bharat Mata Temple","region":"VARANASI","assigned_at":"2026-08-02"}

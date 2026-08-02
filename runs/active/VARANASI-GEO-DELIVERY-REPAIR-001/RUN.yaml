@@ -23,12 +23,56 @@ inputs:
   candidate_source: runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/INPUT/candidates.jsonl
   old_geo_comparison: runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/INPUT/old_geo_comparison.jsonl
 protected_mark_decisions:
+  # Bijgewerkt 2026-08-02 met Marks definitieve keuzeronde, vastgelegd in
+  # MARK_DECISIONS_2026-08-02.jsonl (commit 58be47b), gezaghebbende bron.
   VNS-CAND-001: A
   VNS-CAND-002: A
   VNS-CAND-003: A
+  VNS-CAND-004: A
+  VNS-CAND-005: A
+  VNS-CAND-006: A   # uitsluitend de koepelkandidaat; 029-034 NIET automatisch A, zie note hieronder
   VNS-CAND-007: A
   VNS-CAND-008: B
-  all_other_35: DOOR_MARK_TE_BEOORDELEN
+  VNS-CAND-009: A
+  VNS-CAND-010: A
+  VNS-CAND-011: A
+  VNS-CAND-012: DOOR_MARK_TE_BEOORDELEN
+  VNS-CAND-013: B
+  VNS-CAND-014: A
+  VNS-CAND-015: A
+  VNS-CAND-016: A
+  VNS-CAND-017: A
+  VNS-CAND-018: A
+  VNS-CAND-019: DOOR_MARK_TE_BEOORDELEN
+  VNS-CAND-020: A
+  VNS-CAND-021: A
+  VNS-CAND-022: A
+  VNS-CAND-023: B
+  VNS-CAND-024: A
+  VNS-CAND-025: B
+  VNS-CAND-026: C
+  VNS-CAND-027: C
+  VNS-CAND-028: A
+  VNS-CAND-029: DOOR_MARK_TE_BEOORDELEN  # zie note: mogelijk tegenstrijdige instructie, bevestiging gevraagd
+  VNS-CAND-030: DOOR_MARK_TE_BEOORDELEN  # idem
+  VNS-CAND-031: DOOR_MARK_TE_BEOORDELEN  # idem
+  VNS-CAND-032: DOOR_MARK_TE_BEOORDELEN  # idem
+  VNS-CAND-033: DOOR_MARK_TE_BEOORDELEN  # idem
+  VNS-CAND-034: DOOR_MARK_TE_BEOORDELEN  # idem
+  VNS-CAND-035: A
+  VNS-CAND-036: A
+  VNS-CAND-037: A
+  VNS-CAND-038: A
+  VNS-CAND-039: A
+  VNS-CAND-040: DOOR_MARK_TE_BEOORDELEN
+  note: >
+    006=A geldt uitsluitend voor de koepelkandidaat "Sarnath sacred complex". De zes deelsites
+    029-034 zijn NIET automatisch A; het committed besluitbestand (MARK_DECISIONS_2026-08-02.jsonl)
+    zegt expliciet dat ze afzonderlijk open blijven, en de CCI-opdracht van 2026-08-02 herhaalt dit
+    drie keer expliciet. Diezelfde opdracht bevat echter ook één losse, ongestructureerde zin die het
+    tegenovergestelde zegt ("de sites van cluster Sarnath mag je allemaal A maken"). Bij die
+    tegenstrijdigheid is gekozen om de expliciete, herhaalde en gecommitte instructie te volgen en
+    029-034 NIET stil te wijzigen -- bevestiging aan Mark gevraagd, zie BESLISOVERZICHT.md.
 explicit_rejections:
   - candidate_id: VNS-CAND-008
     coordinate: [25.3045, 82.979369]

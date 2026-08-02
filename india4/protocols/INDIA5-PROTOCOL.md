@@ -87,6 +87,28 @@ Eén startopdracht voor twintig Varanasi-kandidaten, waarna BRONS → ZILVER →
 tussenkomst van Mark doorloopt en eindigt met: één PDF, één KML, één gevalideerde dataset en één
 korte eindmelding aan Mark. Geen tussentijdse handelingen van Mark tijdens de doorloop.
 
+## Immutable Location Numbering (Mark-besluit 2026-08-02, commit 58be47b)
+
+Elke kandidaat/fysieke locatie in ALLE India-regio's (niet alleen Varanasi) heeft een vast,
+permanent nummer:
+- het nummer staat altijd vóór de naam, bijvoorbeeld `007 Shri Kashi Vishwanath Temple`;
+- eenmaal toegekend wijzigt het nummer NOOIT, wordt het NOOIT hergebruikt voor een andere locatie,
+  en blijft het permanent aan diezelfde fysieke locatie gekoppeld;
+- nieuwe locaties krijgen uitsluitend een nieuw vrij nummer, nooit een bestaand nummer;
+- nummering loopt voorlopig door tot 999; een toekomstige nummerreeks per regio/cluster mag
+  uitsluitend vooraf worden gereserveerd en mag bestaande nummers nooit veranderen.
+
+Bron van waarheid: `runs/active/<run_id>/NUMBERING_REGISTRY.jsonl` (append-only, per regio). Elke
+BRONS/ZILVER/GOUD-stap die een candidate_id aanmaakt, registreert het nummer hier vóór het elders
+gebruikt wordt. `scripts/validate_numbering.py` (per run, naar analogie van `validate_brons.py`)
+blokkeert wanneer:
+- een bestaand nummer bij een andere locatie terechtkomt;
+- een locatie een ander nummer krijgt dan voorheen;
+- een nummer dubbel wordt gebruikt;
+- een gegenereerde KML- of PDF-naam niet met het nummer begint.
+
+Draai deze validator verplicht als onderdeel van elke GOUD-validatieronde, naast `validate_brons.py`.
+
 ## GOUD-PDF-format (verplicht vanaf 2026-08-02)
 
 De GOUD-keuze-PDF is een REISGIDS voor Mark, geen GEO-validatierapport. Volledig

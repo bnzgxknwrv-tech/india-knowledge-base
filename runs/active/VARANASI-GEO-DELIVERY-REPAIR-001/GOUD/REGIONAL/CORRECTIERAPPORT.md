@@ -66,3 +66,23 @@ hierover genomen namens Mark, en geen van beide kandidaattypen is gewijzigd of s
 - Geen nieuwe A/B/C-keuze namens Mark voor welke kandidaat dan ook.
 - Geen wijziging aan de centrale India-master-KML.
 - Geen hergebruik van het expliciet afgewezen VNS-CAND-008-coordinaat, in geen enkel bestand.
+
+## 7. Mark-besluitronde 2026-08-02 (commit 58be47b) en de Immutable Location Numbering-regel
+
+Mark heeft `MARK_DECISIONS_2026-08-02.jsonl` gecommit met 31 individuele/cluster-besluiten en een
+nieuwe canonieke regel: elk kandidaatnummer is permanent en onwijzigbaar (vastgelegd in het nieuwe
+`NUMBERING_REGISTRY.jsonl`, gehandhaafd door `scripts/validate_numbering.py`, verwerkt in
+`INDIA5-PROTOCOL.md` en `india4/templates/GOUD_PDF_TEMPLATE.md`).
+
+Alle 31 besluiten zijn exact overgenomen in `RUN.yaml` (`protected_mark_decisions`) en
+`DATASET_VARANASI_40.jsonl`. Resultaat: 25x A, 4x B, 2x C, 9x nog open (012, 019, 029-034, 040).
+KML en reisgids-PDF zijn opnieuw gegenereerd met nummerprefixen en de nieuwe kleurcodering
+(A=groen, B=oranje, C=paars, open=wit); coordinaten en geo-status zijn NIET gewijzigd door deze
+ronde.
+
+**Gevonden tegenstrijdigheid (niet stilzwijgend opgelost):** de begeleidende CCI-opdracht zegt drie
+keer expliciet, en het gecommitte besluitbestand zegt letterlijk, dat het 006=A-besluit NIET
+automatisch de zes Sarnath-deelsites (029-034) tot A maakt. Dezelfde opdracht bevat echter ook één
+losse, niet-gecommitte zin die het tegenovergestelde suggereert. Bij deze tegenstrijdigheid is de
+expliciete, herhaalde en gecommitte instructie gevolgd: 029-034 blijven in dit pakket
+DOOR_MARK_TE_BEOORDELEN. Zie BESLISOVERZICHT.md punt 1 voor de aan Mark gevraagde bevestiging.

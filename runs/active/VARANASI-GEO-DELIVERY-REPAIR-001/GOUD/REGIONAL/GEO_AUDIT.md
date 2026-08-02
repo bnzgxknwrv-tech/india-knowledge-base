@@ -68,9 +68,18 @@ alsnog via ZILVER te laten lopen (zie CORRECTIERAPPORT.md); het BRONS-record zel
 
 ## Mark-keuze-verdeling
 
-- A: 4 (VNS-CAND-001, 002, 003, 007)
-- B: 1 (VNS-CAND-008)
-- DOOR_MARK_TE_BEOORDELEN: 35
+Bijgewerkt 2026-08-02 met Marks definitieve keuzeronde (`MARK_DECISIONS_2026-08-02.jsonl`,
+commit 58be47b) -- zie ook `NUMBERING_REGISTRY.jsonl` voor het permanente nummer per kandidaat.
+
+- A: 25 (001, 002, 003, 004, 005, 006, 007, 009, 010, 011, 014, 015, 016, 017, 018, 020, 021, 022,
+  024, 028, 035, 036, 037, 038, 039)
+- B: 4 (008, 013, 023, 025)
+- C: 2 (026, 027)
+- DOOR_MARK_TE_BEOORDELEN: 9 (012, 019, 029, 030, 031, 032, 033, 034, 040)
+
+**Let op bij 006 = A**: dit geldt uitsluitend voor de koepelkandidaat "Sarnath sacred complex". De
+zes deelsites 029-034 zijn NIET automatisch A -- zie CORRECTIERAPPORT.md voor de precieze
+tegenstrijdigheid in de opdracht en waarom ze vooralsnog open blijven.
 
 ## Kritieke bevinding: VNS-CAND-008 heeft geen enkel veilig kaartpunt
 

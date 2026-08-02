@@ -2,20 +2,23 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
 <name>Varanasi -- definitieve regio-KML (40 kandidaten)</name>
-<description>run_id: VARANASI-GEO-DELIVERY-REPAIR-001 | INDIA5-PROTOCOL, regionaal GOUD-pakket, 2026-08-02. Kleur = Mark-keuze (groen=A, oranje=B, wit=DOOR_MARK_TE_BEOORDELEN). Vorm = bevestigingsstatus (ster=CONFIRMED, cirkel=PROVISIONAL). Gele/onbevestigde markers gebruiken het oude vergelijkingspunt en zijn GEEN definitief punt.</description>
+<description>run_id: VARANASI-GEO-DELIVERY-REPAIR-001 | INDIA5-PROTOCOL, regionaal GOUD-pakket, bijgewerkt 2026-08-02 met Marks definitieve A/B/C-keuzeronde (MARK_DECISIONS_2026-08-02.jsonl, commit 58be47b). Elke naam begint met het permanente, onwijzigbare locatienummer (Mark-besluit IMMUTABLE_LOCATION_NUMBERING). Kleur = Mark-keuze (groen=A, oranje=B, paars=C, wit=DOOR_MARK_TE_BEOORDELEN). Vorm = bevestigingsstatus (ster=CONFIRMED, cirkel=PROVISIONAL) -- dit staat los van de A/B/C-kleur: een A-besluit verandert nooit een coordinaat of geo-onzekerheid. Onbevestigde markers gebruiken het oude vergelijkingspunt en zijn GEEN definitief punt.</description>
 <Style id="grn-stars"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-stars.png</href></Icon></IconStyle></Style>
 <Style id="grn-circle"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href></Icon></IconStyle></Style>
 <Style id="orange-stars"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/paddle/orange-stars.png</href></Icon></IconStyle></Style>
 <Style id="orange-circle"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/paddle/orange-circle.png</href></Icon></IconStyle></Style>
+<Style id="purple-stars"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href></Icon></IconStyle></Style>
+<Style id="purple-circle"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href></Icon></IconStyle></Style>
 <Style id="wht-stars"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-stars.png</href></Icon></IconStyle></Style>
 <Style id="wht-circle"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon></IconStyle></Style>
 <Style id="red-stars"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href></Icon></IconStyle></Style>
 <Style id="red-circle"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon></IconStyle></Style>
-<Folder><name>Mark-keuze A (groen) (4)</name>
+<Folder><name>Mark-keuze A (groen) (25)</name>
 <Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-001 -- Lahiri Mahasaya Samadhi / Satyalok</name>
+<name>[ONBEVESTIGD] 001 Lahiri Mahasaya Samadhi / Satyalok</name>
 <styleUrl>#grn-circle</styleUrl>
-<description>candidate_id: VNS-CAND-001
+<description>nummer: 001
+candidate_id: VNS-CAND-001
 naam: Lahiri Mahasaya Samadhi / Satyalok
 status: PROVISIONAL
 herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
@@ -26,9 +29,10 @@ adres: 7/111, Sonarpura Road, Bangali Tola, Varanasi, Uttar Pradesh 221001, Indi
 <Point><coordinates>83.0074,25.3028,0</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-002 -- Lahiri Mahasaya original home</name>
+<name>[ONBEVESTIGD] 002 Lahiri Mahasaya original home</name>
 <styleUrl>#grn-circle</styleUrl>
-<description>candidate_id: VNS-CAND-002
+<description>nummer: 002
+candidate_id: VNS-CAND-002
 naam: Lahiri Mahasaya original home
 status: PROVISIONAL
 herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
@@ -39,9 +43,10 @@ adres: D 31/58, Madanpura Road, Bangali Tola, Varanasi, Uttar Pradesh 221001, In
 <Point><coordinates>83.0068,25.3018,0</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-003 -- Manikarnika Ghat</name>
+<name>[ONBEVESTIGD] 003 Manikarnika Ghat</name>
 <styleUrl>#grn-circle</styleUrl>
-<description>candidate_id: VNS-CAND-003
+<description>nummer: 003
+candidate_id: VNS-CAND-003
 naam: Manikarnika Ghat
 status: PROVISIONAL
 herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
@@ -52,9 +57,52 @@ adres: near Lalita Ghat, Ghats of Varanasi, Lahori Tola, Varanasi, Uttar Pradesh
 <Point><coordinates>83.0142,25.3109,0</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-007 -- Shri Kashi Vishwanath Temple</name>
+<name>[ONBEVESTIGD] 004 Shri Tailanga Swami Math</name>
 <styleUrl>#grn-circle</styleUrl>
-<description>candidate_id: VNS-CAND-007
+<description>nummer: 004
+candidate_id: VNS-CAND-004
+naam: Shri Tailanga Swami Math
+status: PROVISIONAL
+herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
+onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
+Mark-keuze: A
+cluster: PANCHGANGA
+adres: K.23/95, Panchganga Ghat, Chowk, Ghasi Tola, Varanasi, Uttar Pradesh 221001, India</description>
+<Point><coordinates>83.013,25.3188,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] 005 Shree Shree Ma Anandamayi Ashram, Bhadaini</name>
+<styleUrl>#grn-circle</styleUrl>
+<description>nummer: 005
+candidate_id: VNS-CAND-005
+naam: Shree Shree Ma Anandamayi Ashram, Bhadaini
+status: PROVISIONAL
+herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
+onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
+Mark-keuze: A
+cluster: BHADAINI_ASSI
+adres: Bhadaini, Varanasi, Uttar Pradesh 221001, India</description>
+<Point><coordinates>83.0068,25.2897,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] 006 Sarnath sacred complex</name>
+<styleUrl>#grn-circle</styleUrl>
+<description>nummer: 006
+candidate_id: VNS-CAND-006
+naam: Sarnath sacred complex
+status: PROVISIONAL
+herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
+onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
+Mark-keuze: A
+cluster: SARNATH
+adres: Sarnath, Varanasi, Uttar Pradesh, India</description>
+<Point><coordinates>83.0214,25.3811,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] 007 Shri Kashi Vishwanath Temple</name>
+<styleUrl>#grn-circle</styleUrl>
+<description>nummer: 007
+candidate_id: VNS-CAND-007
 naam: Shri Kashi Vishwanath Temple
 status: PROVISIONAL
 herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
@@ -64,12 +112,265 @@ cluster: VISHWANATH_OLD_CITY
 adres: Lahori Tola, Varanasi, Uttar Pradesh 221001, India</description>
 <Point><coordinates>83.0107,25.3109,0</coordinates></Point>
 </Placemark>
-</Folder>
-<Folder><name>Mark-keuze B (oranje) (1)</name>
 <Placemark>
-<name>[GEEN PUNT -- AFGEWEZEN COORDINAAT UITGESLOTEN] VNS-CAND-008 -- Yogoda Satsanga Dhyana Mandali, Varanasi</name>
+<name>[ONBEVESTIGD] 009 Dashashwamedh Ghat</name>
+<styleUrl>#grn-circle</styleUrl>
+<description>nummer: 009
+candidate_id: VNS-CAND-009
+naam: Dashashwamedh Ghat
+status: PROVISIONAL
+herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
+onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
+Mark-keuze: A
+cluster: GHATS_OLD_CITY
+adres: Dashashwamedh Ghat Road, Ghats of Varanasi, Godowlia, Varanasi, Uttar Pradesh 221001, India</description>
+<Point><coordinates>83.0104,25.3062,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] 010 Assi Ghat</name>
+<styleUrl>#grn-circle</styleUrl>
+<description>nummer: 010
+candidate_id: VNS-CAND-010
+naam: Assi Ghat
+status: PROVISIONAL
+herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
+onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
+Mark-keuze: A
+cluster: BHADAINI_ASSI
+adres: Assi Ghat, Varanasi, Uttar Pradesh 221005, India</description>
+<Point><coordinates>83.0061,25.2887,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] 011 Panchganga Ghat</name>
+<styleUrl>#grn-circle</styleUrl>
+<description>nummer: 011
+candidate_id: VNS-CAND-011
+naam: Panchganga Ghat
+status: PROVISIONAL
+herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
+onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
+Mark-keuze: A
+cluster: PANCHGANGA
+adres: Panchganga Ghat, Varanasi, Uttar Pradesh 221001, India</description>
+<Point><coordinates>83.0128,25.3185,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] 014 Maa Annapurna Temple</name>
+<styleUrl>#grn-circle</styleUrl>
+<description>nummer: 014
+candidate_id: VNS-CAND-014
+naam: Maa Annapurna Temple
+status: PROVISIONAL
+herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
+onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
+Mark-keuze: A
+cluster: VISHWANATH_OLD_CITY
+adres: Bansphatak and Annapurna temple area beside the Kashi Vishwanath complex, Varanasi, Uttar Pradesh 221001, India</description>
+<Point><coordinates>83.0103,25.3107,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] 015 Sankat Mochan Hanuman Temple</name>
+<styleUrl>#grn-circle</styleUrl>
+<description>nummer: 015
+candidate_id: VNS-CAND-015
+naam: Sankat Mochan Hanuman Temple
+status: PROVISIONAL
+herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
+onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
+Mark-keuze: A
+cluster: SOUTH_VARANASI
+adres: Durgakund, Jawahar Nagar Colony, Bhelupur, Varanasi, Uttar Pradesh 221005, India</description>
+<Point><coordinates>82.9992,25.282,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] 016 Durga Temple and Durga Kund</name>
+<styleUrl>#grn-circle</styleUrl>
+<description>nummer: 016
+candidate_id: VNS-CAND-016
+naam: Durga Temple and Durga Kund
+status: PROVISIONAL
+herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
+onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
+Mark-keuze: A
+cluster: SOUTH_VARANASI
+adres: C14/160-36-A, Durgakund, Naipokhari, Varanasi, Uttar Pradesh 221005, India</description>
+<Point><coordinates>82.9998,25.288,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] 017 Vishalakshi Gauri Temple</name>
+<styleUrl>#grn-circle</styleUrl>
+<description>nummer: 017
+candidate_id: VNS-CAND-017
+naam: Vishalakshi Gauri Temple
+status: PROVISIONAL
+herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
+onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
+Mark-keuze: A
+cluster: VISHWANATH_OLD_CITY
+adres: Mir Ghat and Kashi Vishwanath old-city area, Varanasi, Uttar Pradesh 221001, India</description>
+<Point><coordinates>83.0119,25.3102,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>018 Sankatha Devi Temple</name>
+<styleUrl>#grn-stars</styleUrl>
+<description>nummer: 018
+candidate_id: VNS-CAND-018
+naam: Sankatha Devi Temple
+status: CONFIRMED
+herkomst coordinaat: EXACT_GOOGLE_MAPS_MARKER
+onzekerheid: Geen -- bevestigd via officiele Google-kaartbron.
+Mark-keuze: A
+cluster: SCINDIA_GHAT
+adres: CK 7/159, Sankataji, near Sankata Ghat and north of Scindia Ghat, Chowk, Varanasi, Uttar Pradesh 221001, India</description>
+<Point><coordinates>83.0154469,25.3126289,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] 020 Lalita Ghat</name>
+<styleUrl>#grn-circle</styleUrl>
+<description>nummer: 020
+candidate_id: VNS-CAND-020
+naam: Lalita Ghat
+status: PROVISIONAL
+herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
+onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
+Mark-keuze: A
+cluster: VISHWANATH_OLD_CITY
+adres: Banaras Ghat Road, Ghats of Varanasi, Bangali Tola/Lahori Tola, Varanasi, Uttar Pradesh 221001, India</description>
+<Point><coordinates>83.0131,25.3114,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] 021 Nepali Temple / Kathwala Temple</name>
+<styleUrl>#grn-circle</styleUrl>
+<description>nummer: 021
+candidate_id: VNS-CAND-021
+naam: Nepali Temple / Kathwala Temple
+status: PROVISIONAL
+herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
+onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
+Mark-keuze: A
+cluster: LALITA_GHAT
+adres: near Lalita Ghat, Ghats of Varanasi, Lahori Tola, Varanasi, Uttar Pradesh 221001, India</description>
+<Point><coordinates>83.0132,25.312,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] 022 Bindu Madhav Temple</name>
+<styleUrl>#grn-circle</styleUrl>
+<description>nummer: 022
+candidate_id: VNS-CAND-022
+naam: Bindu Madhav Temple
+status: PROVISIONAL
+herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
+onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
+Mark-keuze: A
+cluster: PANCHGANGA
+adres: Sri Bindu Madhava Perumal Temple, Panch Ganga Ghat, Ratan Phatak, Ghasi Tola, Varanasi, Uttar Pradesh 221001, India</description>
+<Point><coordinates>83.0125,25.3187,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] 024 Kabir Chaura Math</name>
+<styleUrl>#grn-circle</styleUrl>
+<description>nummer: 024
+candidate_id: VNS-CAND-024
+naam: Kabir Chaura Math
+status: PROVISIONAL
+herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
+onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
+Mark-keuze: A
+cluster: KABIR_CHAURA
+adres: C23/5, Kotwali, Dav College Road, Piplani Katra, Varanasi, Uttar Pradesh 221001, India</description>
+<Point><coordinates>82.9992,25.3233,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] 028 Bhaskarananda Samadhi / Anand Bagh</name>
+<styleUrl>#grn-circle</styleUrl>
+<description>nummer: 028
+candidate_id: VNS-CAND-028
+naam: Bhaskarananda Samadhi / Anand Bagh
+status: PROVISIONAL
+herkomst coordinaat: oud vergelijkingspunt (APPROXIMATE_LOCAL_POINT), NIET een gevalideerde marker
+onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
+Mark-keuze: A
+cluster: DURGAKUND
+adres: Durgakund Road, Anandbagh, Bhelupur, near Vankatti Hanumanji Mandir, Durgakund, Varanasi, Uttar Pradesh 221005, India</description>
+<Point><coordinates>82.9968,25.2868,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] 035 Tulsi Manas Temple</name>
+<styleUrl>#grn-circle</styleUrl>
+<description>nummer: 035
+candidate_id: VNS-CAND-035
+naam: Tulsi Manas Temple
+status: PROVISIONAL
+herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
+onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
+Mark-keuze: A
+cluster: SOUTH_VARANASI
+adres: Durga Kund, Bhelupur, Varanasi, Uttar Pradesh, India</description>
+<Point><coordinates>83.0003,25.2883,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] 036 Tulsi Ghat</name>
+<styleUrl>#grn-circle</styleUrl>
+<description>nummer: 036
+candidate_id: VNS-CAND-036
+naam: Tulsi Ghat
+status: PROVISIONAL
+herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
+onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
+Mark-keuze: A
+cluster: GHATS_SOUTH
+adres: B2/40, Assi Rd, Ghats of Varanasi, Shivala, Varanasi, Uttar Pradesh 221001, India</description>
+<Point><coordinates>83.0068,25.2906,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] 037 Lolark Kund</name>
+<styleUrl>#grn-circle</styleUrl>
+<description>nummer: 037
+candidate_id: VNS-CAND-037
+naam: Lolark Kund
+status: PROVISIONAL
+herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
+onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
+Mark-keuze: A
+cluster: BHADAINI_ASSI
+adres: Bhadaini, near Assi/Tulsi Ghat, Shivala, Varanasi, Uttar Pradesh 221005, India</description>
+<Point><coordinates>83.0038,25.2875,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] 038 Ratneshwar Mahadev Temple</name>
+<styleUrl>#grn-circle</styleUrl>
+<description>nummer: 038
+candidate_id: VNS-CAND-038
+naam: Ratneshwar Mahadev Temple
+status: PROVISIONAL
+herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
+onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
+Mark-keuze: A
+cluster: MANIKARNIKA
+adres: Manikarnika Ghat, Varanasi, Uttar Pradesh, India</description>
+<Point><coordinates>83.0145,25.3113,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] 039 Shitala Mata Temple, Dashashwamedh</name>
+<styleUrl>#grn-circle</styleUrl>
+<description>nummer: 039
+candidate_id: VNS-CAND-039
+naam: Shitala Mata Temple, Dashashwamedh
+status: PROVISIONAL
+herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
+onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
+Mark-keuze: A
+cluster: GHATS_OLD_CITY
+adres: Shitala Ghat / near Dashashwamedh Ghat, Ghasi Tola / Bangali Tola, Varanasi, Uttar Pradesh 221001, India</description>
+<Point><coordinates>83.0105,25.3064,0</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder><name>Mark-keuze B (oranje) (4)</name>
+<Placemark>
+<name>[GEEN PUNT -- AFGEWEZEN COORDINAAT UITGESLOTEN] 008 Yogoda Satsanga Dhyana Mandali, Varanasi</name>
 <styleUrl>#orange-circle</styleUrl>
-<description>candidate_id: VNS-CAND-008
+<description>nummer: 008
+candidate_id: VNS-CAND-008
 naam: Yogoda Satsanga Dhyana Mandali, Varanasi
 status: PROVISIONAL
 herkomst coordinaat: GEEN -- het enige bekende vergelijkingspunt is een expliciet door Mark afgewezen coordinaat
@@ -79,90 +380,85 @@ cluster: MAHMOORGANJ
 adres: C/o M/s B. Mehrotra &amp; Co., B-38/9 Gha B-1, Raghunath Nagar, Mahmoorganj, Varanasi 221010, Uttar Pradesh, India</description>
 
 </Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] 013 Kaal Bhairav Temple</name>
+<styleUrl>#orange-circle</styleUrl>
+<description>nummer: 013
+candidate_id: VNS-CAND-013
+naam: Kaal Bhairav Temple
+status: PROVISIONAL
+herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
+onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
+Mark-keuze: B
+cluster: NORTH_OLD_CITY
+adres: K32/26, Golghar, Bhaironath, Ghasi Tola, Varanasi, Uttar Pradesh 221001, India</description>
+<Point><coordinates>83.009,25.3223,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] 023 Mrityunjay Mahadev Temple</name>
+<styleUrl>#orange-circle</styleUrl>
+<description>nummer: 023
+candidate_id: VNS-CAND-023
+naam: Mrityunjay Mahadev Temple
+status: PROVISIONAL
+herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
+onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
+Mark-keuze: B
+cluster: NORTH_VARANASI
+adres: Maha Mritunjay Rd, Bagh, Daranagar, Kotwali, Varanasi, Uttar Pradesh 221001, India (alt: K52/39 Daranagar Visheshwarganj)</description>
+<Point><coordinates>83.0056,25.3291,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] 025 Lahartara Kabir birthplace memorial</name>
+<styleUrl>#orange-circle</styleUrl>
+<description>nummer: 025
+candidate_id: VNS-CAND-025
+naam: Lahartara Kabir birthplace memorial
+status: PROVISIONAL
+herkomst coordinaat: oud vergelijkingspunt (APPROXIMATE_LOCAL_POINT), NIET een gevalideerde marker
+onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
+Mark-keuze: B
+cluster: LAHARTARA
+adres: Lahartara, Varanasi, Uttar Pradesh, India (nabij Kabir Math Lahartara)</description>
+<Point><coordinates>82.966,25.304,0</coordinates></Point>
+</Placemark>
 </Folder>
-<Folder><name>Door Mark te beoordelen (wit/neutraal) (35)</name>
+<Folder><name>Mark-keuze C (paars) (2)</name>
 <Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-004 -- Shri Tailanga Swami Math</name>
-<styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-004
-naam: Shri Tailanga Swami Math
+<name>[ONBEVESTIGD] 026 Ramakrishna Mission Home of Service</name>
+<styleUrl>#purple-circle</styleUrl>
+<description>nummer: 026
+candidate_id: VNS-CAND-026
+naam: Ramakrishna Mission Home of Service
 status: PROVISIONAL
 herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
 onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
-Mark-keuze: DOOR_MARK_TE_BEOORDELEN
-cluster: PANCHGANGA
-adres: K.23/95, Panchganga Ghat, Chowk, Ghasi Tola, Varanasi, Uttar Pradesh 221001, India</description>
-<Point><coordinates>83.013,25.3188,0</coordinates></Point>
+Mark-keuze: C
+cluster: LUXA
+adres: Ramakrishna Mission Home of Service, Luxa Road, Ramapura Luxa, Varanasi, Uttar Pradesh 221010, India</description>
+<Point><coordinates>82.9974,25.309,0</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-005 -- Shree Shree Ma Anandamayi Ashram, Bhadaini</name>
-<styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-005
-naam: Shree Shree Ma Anandamayi Ashram, Bhadaini
+<name>[ONBEVESTIGD] 027 Baba Keenaram Sthal / Krim Kund</name>
+<styleUrl>#purple-circle</styleUrl>
+<description>nummer: 027
+candidate_id: VNS-CAND-027
+naam: Baba Keenaram Sthal / Krim Kund
 status: PROVISIONAL
 herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
 onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
-Mark-keuze: DOOR_MARK_TE_BEOORDELEN
-cluster: BHADAINI_ASSI
-adres: Bhadaini, Varanasi, Uttar Pradesh 221001, India</description>
-<Point><coordinates>83.0068,25.2897,0</coordinates></Point>
+Mark-keuze: C
+cluster: RAVINDRAPURI
+adres: Ravindrapuri Rd, Anandbagh, Bhelupur, Varanasi, Uttar Pradesh 221005, India</description>
+<Point><coordinates>83.001,25.2928,0</coordinates></Point>
 </Placemark>
+</Folder>
+<Folder><name>Door Mark te beoordelen (wit/neutraal) (9)</name>
 <Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-006 -- Sarnath sacred complex</name>
+<name>[ONBEVESTIGD] 012 Harishchandra Ghat</name>
 <styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-006
-naam: Sarnath sacred complex
-status: PROVISIONAL
-herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
-onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
-Mark-keuze: DOOR_MARK_TE_BEOORDELEN
-cluster: SARNATH
-adres: Sarnath, Varanasi, Uttar Pradesh, India</description>
-<Point><coordinates>83.0214,25.3811,0</coordinates></Point>
-</Placemark>
-<Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-009 -- Dashashwamedh Ghat</name>
-<styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-009
-naam: Dashashwamedh Ghat
-status: PROVISIONAL
-herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
-onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
-Mark-keuze: DOOR_MARK_TE_BEOORDELEN
-cluster: GHATS_OLD_CITY
-adres: Dashashwamedh Ghat Road, Ghats of Varanasi, Godowlia, Varanasi, Uttar Pradesh 221001, India</description>
-<Point><coordinates>83.0104,25.3062,0</coordinates></Point>
-</Placemark>
-<Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-010 -- Assi Ghat</name>
-<styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-010
-naam: Assi Ghat
-status: PROVISIONAL
-herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
-onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
-Mark-keuze: DOOR_MARK_TE_BEOORDELEN
-cluster: BHADAINI_ASSI
-adres: Assi Ghat, Varanasi, Uttar Pradesh 221005, India</description>
-<Point><coordinates>83.0061,25.2887,0</coordinates></Point>
-</Placemark>
-<Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-011 -- Panchganga Ghat</name>
-<styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-011
-naam: Panchganga Ghat
-status: PROVISIONAL
-herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
-onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
-Mark-keuze: DOOR_MARK_TE_BEOORDELEN
-cluster: PANCHGANGA
-adres: Panchganga Ghat, Varanasi, Uttar Pradesh 221001, India</description>
-<Point><coordinates>83.0128,25.3185,0</coordinates></Point>
-</Placemark>
-<Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-012 -- Harishchandra Ghat</name>
-<styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-012
+<description>nummer: 012
+candidate_id: VNS-CAND-012
 naam: Harishchandra Ghat
 status: PROVISIONAL
 herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
@@ -173,87 +469,10 @@ adres: Harishchandra Ghat, Varanasi, Uttar Pradesh 221001, India</description>
 <Point><coordinates>83.009,25.2994,0</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-013 -- Kaal Bhairav Temple</name>
-<styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-013
-naam: Kaal Bhairav Temple
-status: PROVISIONAL
-herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
-onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
-Mark-keuze: DOOR_MARK_TE_BEOORDELEN
-cluster: NORTH_OLD_CITY
-adres: K32/26, Golghar, Bhaironath, Ghasi Tola, Varanasi, Uttar Pradesh 221001, India</description>
-<Point><coordinates>83.009,25.3223,0</coordinates></Point>
-</Placemark>
-<Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-014 -- Maa Annapurna Temple</name>
-<styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-014
-naam: Maa Annapurna Temple
-status: PROVISIONAL
-herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
-onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
-Mark-keuze: DOOR_MARK_TE_BEOORDELEN
-cluster: VISHWANATH_OLD_CITY
-adres: Bansphatak and Annapurna temple area beside the Kashi Vishwanath complex, Varanasi, Uttar Pradesh 221001, India</description>
-<Point><coordinates>83.0103,25.3107,0</coordinates></Point>
-</Placemark>
-<Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-015 -- Sankat Mochan Hanuman Temple</name>
-<styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-015
-naam: Sankat Mochan Hanuman Temple
-status: PROVISIONAL
-herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
-onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
-Mark-keuze: DOOR_MARK_TE_BEOORDELEN
-cluster: SOUTH_VARANASI
-adres: Durgakund, Jawahar Nagar Colony, Bhelupur, Varanasi, Uttar Pradesh 221005, India</description>
-<Point><coordinates>82.9992,25.282,0</coordinates></Point>
-</Placemark>
-<Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-016 -- Durga Temple and Durga Kund</name>
-<styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-016
-naam: Durga Temple and Durga Kund
-status: PROVISIONAL
-herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
-onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
-Mark-keuze: DOOR_MARK_TE_BEOORDELEN
-cluster: SOUTH_VARANASI
-adres: C14/160-36-A, Durgakund, Naipokhari, Varanasi, Uttar Pradesh 221005, India</description>
-<Point><coordinates>82.9998,25.288,0</coordinates></Point>
-</Placemark>
-<Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-017 -- Vishalakshi Gauri Temple</name>
-<styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-017
-naam: Vishalakshi Gauri Temple
-status: PROVISIONAL
-herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
-onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
-Mark-keuze: DOOR_MARK_TE_BEOORDELEN
-cluster: VISHWANATH_OLD_CITY
-adres: Mir Ghat and Kashi Vishwanath old-city area, Varanasi, Uttar Pradesh 221001, India</description>
-<Point><coordinates>83.0119,25.3102,0</coordinates></Point>
-</Placemark>
-<Placemark>
-<name>VNS-CAND-018 -- Sankatha Devi Temple</name>
+<name>019 Kedareshwar Temple and Kedar Ghat</name>
 <styleUrl>#wht-stars</styleUrl>
-<description>candidate_id: VNS-CAND-018
-naam: Sankatha Devi Temple
-status: CONFIRMED
-herkomst coordinaat: EXACT_GOOGLE_MAPS_MARKER
-onzekerheid: Geen -- bevestigd via officiele Google-kaartbron.
-Mark-keuze: DOOR_MARK_TE_BEOORDELEN
-cluster: SCINDIA_GHAT
-adres: CK 7/159, Sankataji, near Sankata Ghat and north of Scindia Ghat, Chowk, Varanasi, Uttar Pradesh 221001, India</description>
-<Point><coordinates>83.0154469,25.3126289,0</coordinates></Point>
-</Placemark>
-<Placemark>
-<name>VNS-CAND-019 -- Kedareshwar Temple and Kedar Ghat</name>
-<styleUrl>#wht-stars</styleUrl>
-<description>candidate_id: VNS-CAND-019
+<description>nummer: 019
+candidate_id: VNS-CAND-019
 naam: Kedareshwar Temple and Kedar Ghat
 status: CONFIRMED
 herkomst coordinaat: EXACT_GOOGLE_MAPS_MARKER
@@ -264,126 +483,10 @@ adres: B-6/102, Kedar Ghat, Sonarpura, Varanasi, Uttar Pradesh 221001, India</de
 <Point><coordinates>83.0060964,25.2995855,0</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-020 -- Lalita Ghat</name>
-<styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-020
-naam: Lalita Ghat
-status: PROVISIONAL
-herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
-onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
-Mark-keuze: DOOR_MARK_TE_BEOORDELEN
-cluster: VISHWANATH_OLD_CITY
-adres: Banaras Ghat Road, Ghats of Varanasi, Bangali Tola/Lahori Tola, Varanasi, Uttar Pradesh 221001, India</description>
-<Point><coordinates>83.0131,25.3114,0</coordinates></Point>
-</Placemark>
-<Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-021 -- Nepali Temple / Kathwala Temple</name>
-<styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-021
-naam: Nepali Temple / Kathwala Temple
-status: PROVISIONAL
-herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
-onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
-Mark-keuze: DOOR_MARK_TE_BEOORDELEN
-cluster: LALITA_GHAT
-adres: near Lalita Ghat, Ghats of Varanasi, Lahori Tola, Varanasi, Uttar Pradesh 221001, India</description>
-<Point><coordinates>83.0132,25.312,0</coordinates></Point>
-</Placemark>
-<Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-022 -- Bindu Madhav Temple</name>
-<styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-022
-naam: Bindu Madhav Temple
-status: PROVISIONAL
-herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
-onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
-Mark-keuze: DOOR_MARK_TE_BEOORDELEN
-cluster: PANCHGANGA
-adres: Sri Bindu Madhava Perumal Temple, Panch Ganga Ghat, Ratan Phatak, Ghasi Tola, Varanasi, Uttar Pradesh 221001, India</description>
-<Point><coordinates>83.0125,25.3187,0</coordinates></Point>
-</Placemark>
-<Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-023 -- Mrityunjay Mahadev Temple</name>
-<styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-023
-naam: Mrityunjay Mahadev Temple
-status: PROVISIONAL
-herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
-onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
-Mark-keuze: DOOR_MARK_TE_BEOORDELEN
-cluster: NORTH_VARANASI
-adres: Maha Mritunjay Rd, Bagh, Daranagar, Kotwali, Varanasi, Uttar Pradesh 221001, India (alt: K52/39 Daranagar Visheshwarganj)</description>
-<Point><coordinates>83.0056,25.3291,0</coordinates></Point>
-</Placemark>
-<Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-024 -- Kabir Chaura Math</name>
-<styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-024
-naam: Kabir Chaura Math
-status: PROVISIONAL
-herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
-onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
-Mark-keuze: DOOR_MARK_TE_BEOORDELEN
-cluster: KABIR_CHAURA
-adres: C23/5, Kotwali, Dav College Road, Piplani Katra, Varanasi, Uttar Pradesh 221001, India</description>
-<Point><coordinates>82.9992,25.3233,0</coordinates></Point>
-</Placemark>
-<Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-025 -- Lahartara Kabir birthplace memorial</name>
-<styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-025
-naam: Lahartara Kabir birthplace memorial
-status: PROVISIONAL
-herkomst coordinaat: oud vergelijkingspunt (APPROXIMATE_LOCAL_POINT), NIET een gevalideerde marker
-onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
-Mark-keuze: DOOR_MARK_TE_BEOORDELEN
-cluster: LAHARTARA
-adres: Lahartara, Varanasi, Uttar Pradesh, India (nabij Kabir Math Lahartara)</description>
-<Point><coordinates>82.966,25.304,0</coordinates></Point>
-</Placemark>
-<Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-026 -- Ramakrishna Mission Home of Service</name>
-<styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-026
-naam: Ramakrishna Mission Home of Service
-status: PROVISIONAL
-herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
-onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
-Mark-keuze: DOOR_MARK_TE_BEOORDELEN
-cluster: LUXA
-adres: Ramakrishna Mission Home of Service, Luxa Road, Ramapura Luxa, Varanasi, Uttar Pradesh 221010, India</description>
-<Point><coordinates>82.9974,25.309,0</coordinates></Point>
-</Placemark>
-<Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-027 -- Baba Keenaram Sthal / Krim Kund</name>
-<styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-027
-naam: Baba Keenaram Sthal / Krim Kund
-status: PROVISIONAL
-herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
-onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
-Mark-keuze: DOOR_MARK_TE_BEOORDELEN
-cluster: RAVINDRAPURI
-adres: Ravindrapuri Rd, Anandbagh, Bhelupur, Varanasi, Uttar Pradesh 221005, India</description>
-<Point><coordinates>83.001,25.2928,0</coordinates></Point>
-</Placemark>
-<Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-028 -- Bhaskarananda Samadhi / Anand Bagh</name>
-<styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-028
-naam: Bhaskarananda Samadhi / Anand Bagh
-status: PROVISIONAL
-herkomst coordinaat: oud vergelijkingspunt (APPROXIMATE_LOCAL_POINT), NIET een gevalideerde marker
-onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
-Mark-keuze: DOOR_MARK_TE_BEOORDELEN
-cluster: DURGAKUND
-adres: Durgakund Road, Anandbagh, Bhelupur, near Vankatti Hanumanji Mandir, Durgakund, Varanasi, Uttar Pradesh 221005, India</description>
-<Point><coordinates>82.9968,25.2868,0</coordinates></Point>
-</Placemark>
-<Placemark>
-<name>VNS-CAND-029 -- Dhamek Stupa</name>
+<name>029 Dhamek Stupa</name>
 <styleUrl>#wht-stars</styleUrl>
-<description>candidate_id: VNS-CAND-029
+<description>nummer: 029
+candidate_id: VNS-CAND-029
 naam: Dhamek Stupa
 status: CONFIRMED
 herkomst coordinaat: VERIFIED_OFFICIAL_MAP_LINK
@@ -394,9 +497,10 @@ adres: Dhamek Stupa, Sarnath, Varanasi, Uttar Pradesh 221007, India</description
 <Point><coordinates>83.024276,25.380889,0</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-030 -- Mulagandha Kuti Vihara</name>
+<name>[ONBEVESTIGD] 030 Mulagandha Kuti Vihara</name>
 <styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-030
+<description>nummer: 030
+candidate_id: VNS-CAND-030
 naam: Mulagandha Kuti Vihara
 status: PROVISIONAL
 herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
@@ -407,9 +511,10 @@ adres: Singhpuri, Sarnath, Varanasi, Uttar Pradesh 221007, India</description>
 <Point><coordinates>83.0216,25.3819,0</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>VNS-CAND-031 -- Chaukhandi Stupa</name>
+<name>031 Chaukhandi Stupa</name>
 <styleUrl>#wht-stars</styleUrl>
-<description>candidate_id: VNS-CAND-031
+<description>nummer: 031
+candidate_id: VNS-CAND-031
 naam: Chaukhandi Stupa
 status: CONFIRMED
 herkomst coordinaat: VERIFIED_OFFICIAL_MAP_LINK
@@ -420,9 +525,10 @@ adres: 92FF+JC4, Rishipattan Rd, Sarnath, Varanasi, Uttar Pradesh 221007, India<
 <Point><coordinates>83.023588,25.37402,0</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-032 -- Sarnath Archaeological Museum</name>
+<name>[ONBEVESTIGD] 032 Sarnath Archaeological Museum</name>
 <styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-032
+<description>nummer: 032
+candidate_id: VNS-CAND-032
 naam: Sarnath Archaeological Museum
 status: PROVISIONAL
 herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
@@ -433,9 +539,10 @@ adres: Archaeological Museum Sarnath, Sarnath Station Rd, Sarnath, Varanasi, Utt
 <Point><coordinates>83.0205,25.3817,0</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>VNS-CAND-033 -- Deer Park / Isipatana sacred landscape</name>
+<name>033 Deer Park / Isipatana sacred landscape</name>
 <styleUrl>#wht-stars</styleUrl>
-<description>candidate_id: VNS-CAND-033
+<description>nummer: 033
+candidate_id: VNS-CAND-033
 naam: Deer Park / Isipatana sacred landscape
 status: CONFIRMED
 herkomst coordinaat: VERIFIED_OFFICIAL_MAP_LINK
@@ -446,9 +553,10 @@ adres: Deer Park, Sarnath, Varanasi, Uttar Pradesh 221007, India</description>
 <Point><coordinates>83.024445,25.3825,0</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-034 -- Saranganath Temple</name>
+<name>[ONBEVESTIGD] 034 Saranganath Temple</name>
 <styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-034
+<description>nummer: 034
+candidate_id: VNS-CAND-034
 naam: Saranganath Temple
 status: PROVISIONAL
 herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
@@ -459,74 +567,10 @@ adres: Baraipur, Sarnath, Varanasi, Uttar Pradesh 221007, India</description>
 <Point><coordinates>83.0225,25.3833,0</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-035 -- Tulsi Manas Temple</name>
+<name>[ONBEVESTIGD] 040 Bharat Mata Temple</name>
 <styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-035
-naam: Tulsi Manas Temple
-status: PROVISIONAL
-herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
-onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
-Mark-keuze: DOOR_MARK_TE_BEOORDELEN
-cluster: SOUTH_VARANASI
-adres: Durga Kund, Bhelupur, Varanasi, Uttar Pradesh, India</description>
-<Point><coordinates>83.0003,25.2883,0</coordinates></Point>
-</Placemark>
-<Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-036 -- Tulsi Ghat</name>
-<styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-036
-naam: Tulsi Ghat
-status: PROVISIONAL
-herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
-onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
-Mark-keuze: DOOR_MARK_TE_BEOORDELEN
-cluster: GHATS_SOUTH
-adres: B2/40, Assi Rd, Ghats of Varanasi, Shivala, Varanasi, Uttar Pradesh 221001, India</description>
-<Point><coordinates>83.0068,25.2906,0</coordinates></Point>
-</Placemark>
-<Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-037 -- Lolark Kund</name>
-<styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-037
-naam: Lolark Kund
-status: PROVISIONAL
-herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
-onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
-Mark-keuze: DOOR_MARK_TE_BEOORDELEN
-cluster: BHADAINI_ASSI
-adres: Bhadaini, near Assi/Tulsi Ghat, Shivala, Varanasi, Uttar Pradesh 221005, India</description>
-<Point><coordinates>83.0038,25.2875,0</coordinates></Point>
-</Placemark>
-<Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-038 -- Ratneshwar Mahadev Temple</name>
-<styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-038
-naam: Ratneshwar Mahadev Temple
-status: PROVISIONAL
-herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
-onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
-Mark-keuze: DOOR_MARK_TE_BEOORDELEN
-cluster: MANIKARNIKA
-adres: Manikarnika Ghat, Varanasi, Uttar Pradesh, India</description>
-<Point><coordinates>83.0145,25.3113,0</coordinates></Point>
-</Placemark>
-<Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-039 -- Shitala Mata Temple, Dashashwamedh</name>
-<styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-039
-naam: Shitala Mata Temple, Dashashwamedh
-status: PROVISIONAL
-herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
-onzekerheid: ONBEVESTIGD -- GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Positie is het oude vergelijkingspunt, geen definitief adres.
-Mark-keuze: DOOR_MARK_TE_BEOORDELEN
-cluster: GHATS_OLD_CITY
-adres: Shitala Ghat / near Dashashwamedh Ghat, Ghasi Tola / Bangali Tola, Varanasi, Uttar Pradesh 221001, India</description>
-<Point><coordinates>83.0105,25.3064,0</coordinates></Point>
-</Placemark>
-<Placemark>
-<name>[ONBEVESTIGD] VNS-CAND-040 -- Bharat Mata Temple</name>
-<styleUrl>#wht-circle</styleUrl>
-<description>candidate_id: VNS-CAND-040
+<description>nummer: 040
+candidate_id: VNS-CAND-040
 naam: Bharat Mata Temple
 status: PROVISIONAL
 herkomst coordinaat: oud vergelijkingspunt (WORKING_GOOGLE_MAPS_PIN), NIET een gevalideerde marker
