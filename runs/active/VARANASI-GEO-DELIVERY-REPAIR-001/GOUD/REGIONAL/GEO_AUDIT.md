@@ -66,20 +66,21 @@ alsnog via ZILVER te laten lopen (zie CORRECTIERAPPORT.md); het BRONS-record zel
 - AMBIGUOUS: 0
 - REJECTED: 0
 
-## Mark-keuze-verdeling
+## Mark-keuze-verdeling -- COMPLEET (alle 40 besloten)
 
-Bijgewerkt 2026-08-02 met Marks definitieve keuzeronde (`MARK_DECISIONS_2026-08-02.jsonl`,
-commit 58be47b) -- zie ook `NUMBERING_REGISTRY.jsonl` voor het permanente nummer per kandidaat.
+Afgerond 2026-08-02: eerste ronde in `MARK_DECISIONS_2026-08-02.jsonl` (commit 58be47b), laatste
+negen kandidaten (012, 019, 029-034, 040) besloten in dezelfde CCI-sessie. Geen kandidaat is nog
+DOOR_MARK_TE_BEOORDELEN. Zie `NUMBERING_REGISTRY.jsonl` voor het permanente nummer per kandidaat.
 
-- A: 25 (001, 002, 003, 004, 005, 006, 007, 009, 010, 011, 014, 015, 016, 017, 018, 020, 021, 022,
-  024, 028, 035, 036, 037, 038, 039)
-- B: 4 (008, 013, 023, 025)
-- C: 2 (026, 027)
-- DOOR_MARK_TE_BEOORDELEN: 9 (012, 019, 029, 030, 031, 032, 033, 034, 040)
+- A: 32 (001, 002, 003, 004, 005, 006, 007, 009, 010, 011, 014, 015, 016, 017, 018, 019, 020, 021,
+  022, 024, 028, 029, 030, 031, 032, 033, 034, 035, 036, 037, 038, 039)
+- B: 5 (008, 012, 013, 023, 025)
+- C: 3 (026, 027, 040)
+- DOOR_MARK_TE_BEOORDELEN: 0
 
-**Let op bij 006 = A**: dit geldt uitsluitend voor de koepelkandidaat "Sarnath sacred complex". De
-zes deelsites 029-034 zijn NIET automatisch A -- zie CORRECTIERAPPORT.md voor de precieze
-tegenstrijdigheid in de opdracht en waarom ze vooralsnog open blijven.
+**006 = A en 029-034 = A**: dit zijn twee aparte, expliciete Mark-besluiten (niet automatisch uit
+elkaar afgeleid). Zie CORRECTIERAPPORT.md voor de eerder gevonden tegenstrijdigheid over de
+Sarnath-deelsites en hoe die door Mark expliciet is bevestigd/opgelost.
 
 ## Kritieke bevinding: VNS-CAND-008 heeft geen enkel veilig kaartpunt
 

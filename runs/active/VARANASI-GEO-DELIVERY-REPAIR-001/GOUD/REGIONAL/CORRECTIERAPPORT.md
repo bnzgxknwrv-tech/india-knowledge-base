@@ -80,9 +80,24 @@ KML en reisgids-PDF zijn opnieuw gegenereerd met nummerprefixen en de nieuwe kle
 (A=groen, B=oranje, C=paars, open=wit); coordinaten en geo-status zijn NIET gewijzigd door deze
 ronde.
 
-**Gevonden tegenstrijdigheid (niet stilzwijgend opgelost):** de begeleidende CCI-opdracht zegt drie
-keer expliciet, en het gecommitte besluitbestand zegt letterlijk, dat het 006=A-besluit NIET
-automatisch de zes Sarnath-deelsites (029-034) tot A maakt. Dezelfde opdracht bevat echter ook één
-losse, niet-gecommitte zin die het tegenovergestelde suggereert. Bij deze tegenstrijdigheid is de
-expliciete, herhaalde en gecommitte instructie gevolgd: 029-034 blijven in dit pakket
-DOOR_MARK_TE_BEOORDELEN. Zie BESLISOVERZICHT.md punt 1 voor de aan Mark gevraagde bevestiging.
+**Gevonden tegenstrijdigheid (niet stilzwijgend opgelost):** de begeleidende CCI-opdracht zei drie
+keer expliciet, en het gecommitte besluitbestand zei letterlijk, dat het 006=A-besluit NIET
+automatisch de zes Sarnath-deelsites (029-034) tot A maakt. Dezelfde opdracht bevatte echter ook één
+losse, niet-gecommitte zin die het tegenovergestelde suggereerde. Bij die tegenstrijdigheid is
+destijds de expliciete, herhaalde en gecommitte instructie gevolgd: 029-034 bleven open, en de
+tegenstrijdigheid is expliciet aan Mark voorgelegd (BESLISOVERZICHT.md) in plaats van stilzwijgend
+naar één kant opgelost.
+
+## 8. Afronding: laatste negen kandidaten besloten (zelfde dag, vervolg-CCI)
+
+Mark heeft daarna expliciet bevestigd:
+- 012 Harishchandra Ghat = B
+- 019 Kedareshwar Temple and Kedar Ghat = A
+- 040 Bharat Mata Temple = C
+- 029 t/m 034 (de zes Sarnath-deelsites) = ALLEMAAL A -- dit lost de eerder gesignaleerde
+  tegenstrijdigheid definitief op, als een apart, expliciet bevestigd besluit (niet als
+  automatische afleiding uit het 006=A-besluit).
+
+Alle 40 Varanasi-kandidaten hebben nu een definitieve Mark-keuze: 32x A, 5x B, 3x C, 0x nog open.
+`RUN.yaml`, `DATASET_VARANASI_40.jsonl`, de KML en de reisgids-PDF zijn opnieuw bijgewerkt; geen
+BRONS/ZILVER-feit, geo-status of coordinaat is door deze afrondende ronde gewijzigd.

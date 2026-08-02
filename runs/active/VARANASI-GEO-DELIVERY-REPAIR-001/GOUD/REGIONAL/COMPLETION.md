@@ -1,7 +1,7 @@
 run_id: VARANASI-GEO-DELIVERY-REPAIR-001
 role: GOUD
 scope: volledig regionaal Varanasi-pakket, alle 40 kandidaten (VNS-CAND-001 t/m 040)
-status: KLAAR
+status: KLAAR -- inhoudelijke A/B/C-keuzeronde COMPLEET (32x A, 5x B, 3x C, 0x nog open)
 
 ## Eindproducten
 
@@ -36,13 +36,14 @@ status: KLAAR
 - Reisgids-PDF teruggelezen met `pypdf`: 42 pagina's, alle 40 candidate_id's aanwezig, geen
   technische reason-tekst of herhaalde generieke zin overgenomen.
 - Dataset gecontroleerd: 40 unieke candidate_id's, statusverdeling 5 CONFIRMED / 35 PROVISIONAL / 0
-  AMBIGUOUS / 0 REJECTED, Mark-verdeling 25x A / 4x B / 2x C / 9x DOOR_MARK_TE_BEOORDELEN.
+  AMBIGUOUS / 0 REJECTED, Mark-verdeling 32x A / 5x B / 3x C / 0x DOOR_MARK_TE_BEOORDELEN.
+- Volledige geautomatiseerde cross-check dataset/KML/PDF: alle 40 Mark-keuzes consistent op alle
+  drie plekken (geen enkele mismatch).
 
 ## Zekere locaties (5)
 
-018, 019 (eerder bevestigd), 029, 031, 033 (bevestigd tijdens ZILVER van de testsweep) -- alle vijf
-via een officiele Google-kaartbron. Status los van A/B/C: 018 en 029/031/033 zijn nu A, 019 is nog
-open.
+018, 019, 029, 031, 033 -- alle vijf via een officiele Google-kaartbron. Status los van A/B/C: alle
+vijf zijn inmiddels A.
 
 ## Onzekere locaties (35)
 
@@ -52,22 +53,20 @@ coordinaat of geo-status.
 
 ## Beschermde Mark-keuzes
 
-25x A, 4x B, 2x C -- volledige lijst in GEO_AUDIT.md en RUN.yaml `protected_mark_decisions`. Het
+32x A, 5x B, 3x C -- volledige lijst in GEO_AUDIT.md en RUN.yaml `protected_mark_decisions`. Het
 expliciet afgewezen VNS-CAND-008-coordinaat [25.3045, 82.979369] is nergens gebruikt.
 
 ## Door Mark te beoordelen
 
-9 kandidaten blijven open: 012, 019, 040, plus 029-034 (zie BESLISOVERZICHT.md punt 1 voor een
-gevonden tegenstrijdigheid over de Sarnath-deelsites die expliciete bevestiging vraagt). Ook 008
-(coordinaatprobleem) en 023 (3km-afwijking) hebben een openstaand technisch punt, los van hun reeds
-vaste B-keuze.
+Geen A/B/C-vragen meer -- alle 40 kandidaten zijn besloten. Resterende punten zijn zuiver technisch
+(geen A/B/C-vraag): 008 heeft geen veilig coordinaat, 023 heeft een 3km-afwijking tussen bronnen.
+Zie BESLISOVERZICHT.md.
 
 ## Niet uitgevoerd of verboden
 
 - Centrale India-master-KML niet bijgewerkt.
-- Geen nieuwe A/B/C-keuze namens Mark (alleen de gecommitte besluiten van Mark zelf verwerkt).
-- 029-034 NIET stil op A gezet ondanks de losse tegenstrijdige zin in de opdracht (zie
-  BESLISOVERZICHT.md punt 1).
+- Geen nieuwe A/B/C-keuze namens Mark (alleen de gecommitte/expliciet bevestigde besluiten van Mark
+  zelf verwerkt, inclusief de expliciete bevestiging voor 029-034 in de afrondende ronde).
 - Geen bestaand geldig kandidaatrecord (VNS-CAND-001 t/m 021) inhoudelijk gewijzigd.
 - Geen afgewezen coordinaat teruggeplaatst.
 - Geen bestaand permanent nummer gewijzigd, hergebruikt of dubbel toegekend.
