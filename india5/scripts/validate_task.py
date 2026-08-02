@@ -52,6 +52,25 @@ def current_head(branch: str) -> str:
         return ""
 
 
+def is_ancestor(candidate_sha: str, descendant_sha: str) -> bool | None:
+    """True als candidate_sha een voorouder is van (of gelijk aan) descendant_sha.
+    None als een van beide SHA's lokaal niet resolvebaar is (bv. nog niet gefetcht)."""
+    if candidate_sha == descendant_sha:
+        return True
+    try:
+        subprocess.run(
+            ["git", "-C", str(REPO_ROOT), "cat-file", "-e", candidate_sha],
+            capture_output=True, check=True,
+        )
+    except subprocess.CalledProcessError:
+        return None
+    result = subprocess.run(
+        ["git", "-C", str(REPO_ROOT), "merge-base", "--is-ancestor", candidate_sha, descendant_sha],
+        capture_output=True,
+    )
+    return result.returncode == 0
+
+
 def find_task_dir(task_id: str, stage: str | None):
     stages = [stage] if stage else ["queue", "active", "done", "failed"]
     for s in stages:
@@ -112,14 +131,53 @@ def validate_task_yaml(task_dir: Path, errors: list, warnings: list, skip_head_c
             actual_head = current_head(target_branch)
             if not actual_head:
                 warnings.append(f"kon HEAD van {target_branch!r} niet bepalen (lokaal niet aanwezig?)")
-            elif actual_head != expected_head:
-                errors.append(
-                    f"STALE_EXPECTED_HEAD -- target_branch {target_branch!r} staat nu op "
-                    f"{actual_head}, taak verwachtte {expected_head}. Taak NIET uitvoeren "
-                    f"zonder herbevestiging van de opdrachtgever."
-                )
+            else:
+                # expected_head betekent: de basiscommit waarop deze taak is gebouwd, NIET de
+                # exacte HEAD op claimmoment. Exacte gelijkheid zou circulair zijn -- het
+                # aanmaken/committen van TASK.md/TASK.yaml zelf (en de claim-commit erna)
+                # verzet HEAD altijd voorbij expected_head, zelfs bij een geldige, verse taak.
+                # Daarom: expected_head moet een voorouder zijn van (of gelijk aan) de huidige
+                # HEAD. Alleen een ECHTE divergentie (expected_head is GEEN voorouder meer, bv.
+                # door een non-fast-forward/force-push elders) telt als STALE_EXPECTED_HEAD.
+                ancestor = is_ancestor(expected_head, actual_head)
+                if ancestor is None:
+                    errors.append(
+                        f"expected_head {expected_head!r} is lokaal niet resolvebaar -- "
+                        f"mogelijk nog niet gefetcht. Taak NIET uitvoeren zonder eerst te "
+                        f"fetchen en opnieuw te valideren."
+                    )
+                elif ancestor is False:
+                    errors.append(
+                        f"STALE_EXPECTED_HEAD -- target_branch {target_branch!r} staat nu op "
+                        f"{actual_head}, en {expected_head} is GEEN voorouder meer daarvan "
+                        f"(divergente geschiedenis, bv. door een force-push elders). Taak NIET "
+                        f"uitvoeren zonder herbevestiging van de opdrachtgever."
+                    )
+                # ancestor is True: expected_head is een voorouder van (of gelijk aan) HEAD --
+                # dat is de normale, verwachte situatie (taak-eigen commits liggen er tussenin).
+
+    check_hold(task_dir, errors)
 
     return task
+
+
+def check_hold(task_dir: Path, errors: list):
+    """Instructieprecedentie punt 2: een expliciete HOLD in STATUS.yaml blokkeert uitvoering
+    van de TASK.md-inhoud, ook als de taak verder geldig/geclaimd is. Staat boven Mark-
+    besluitenregister, PR-comments en chattekst -- maar de taak zelf mag wel gelezen/
+    gerapporteerd worden, alleen niet inhoudelijk uitgevoerd."""
+    status_path = task_dir / "STATUS.yaml"
+    if not status_path.exists():
+        return
+    status = yaml.safe_load(status_path.read_text(encoding="utf-8")) or {}
+    hold = status.get("hold") or {}
+    if hold.get("active"):
+        errors.append(
+            f"HOLD ACTIEF -- deze taak mag NIET inhoudelijk worden uitgevoerd. "
+            f"reden: {hold.get('reason')!r}, ingesteld door {hold.get('set_by')!r} op "
+            f"{hold.get('set_at')!r}. Wacht op een expliciete unhold (hold.active: false) "
+            f"vóórdat verder wordt gewerkt."
+        )
 
 
 def validate_post_hoc(task_dir: Path, stage: str, errors: list):

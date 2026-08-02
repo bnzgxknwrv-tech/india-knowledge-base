@@ -15,6 +15,7 @@ Gebruik:
     python3 india5/scripts/complete_task.py <TASK_ID> [--fail "reden"]
 """
 import argparse
+import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -23,6 +24,7 @@ import yaml
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 TASKS_ROOT = REPO_ROOT / "india5" / "tasks"
+CHECK_FORBIDDEN_SCRIPT = REPO_ROOT / "india5" / "scripts" / "check_forbidden_writes.py"
 
 
 def load_yaml(path: Path) -> dict:
@@ -93,6 +95,16 @@ def main():
         full = resolve_expected(out_path)
         if not full.exists():
             errors.append(f"expected_output ontbreekt: {out_path} (gecontroleerd op {full})")
+
+    forbidden_check = subprocess.run(
+        [sys.executable, str(CHECK_FORBIDDEN_SCRIPT), args.task_id],
+        capture_output=True, text=True,
+    )
+    if forbidden_check.returncode != 0:
+        errors.append(
+            "forbidden_writes-controle mislukt (check_forbidden_writes.py):\n"
+            + forbidden_check.stdout.strip()
+        )
 
     if errors:
         print(f"AFRONDEN MISLUKT -- {len(errors)} probleem/problemen, taak blijft ACTIVE:\n")

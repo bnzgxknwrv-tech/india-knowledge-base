@@ -31,6 +31,25 @@ def active_tasks():
     return [d for d in active_dir.iterdir() if d.is_dir() and not d.name.startswith(".")]
 
 
+def pre_existing_dirty_paths() -> list:
+    """Paden die AL gewijzigd/ongetrackt waren vóórdat deze taak geclaimd werd (bv. ander,
+    bewust vastgehouden werk zoals een CCI_HOLD). check_forbidden_writes.py moet deze paden
+    NIET aan deze taak toerekenen, ook al blijven ze in de working tree afwijken van de
+    claim-commit -- ze zijn niet door deze taak veroorzaakt."""
+    result = subprocess.run(
+        ["git", "-C", str(REPO_ROOT), "status", "--porcelain"],
+        capture_output=True, text=True,
+    )
+    paths = []
+    for line in result.stdout.splitlines():
+        # porcelain-formaat: XY <pad> (of "XY <oud> -> <nieuw>" bij rename)
+        rest = line[3:]
+        path = rest.split(" -> ")[-1].strip()
+        if path:
+            paths.append(path)
+    return sorted(set(paths))
+
+
 def main():
     if len(sys.argv) != 2:
         print("Gebruik: python3 claim_task.py <TASK_ID>")
@@ -41,6 +60,16 @@ def main():
     if not queue_dir.exists():
         print(f"CLAIM MISLUKT -- {task_id} niet gevonden in india5/tasks/queue/")
         sys.exit(1)
+
+    # task_id is immutable en wordt nooit hergebruikt (zelfde principe als Immutable Location
+    # Numbering) -- een taak die al COMPLETED of FAILED is, mag nooit opnieuw geclaimd/
+    # uitgevoerd worden, ook niet als iemand per ongeluk een kopie in queue/ zou terugzetten.
+    for finished_stage in ("done", "failed"):
+        finished_dir = TASKS_ROOT / finished_stage / task_id
+        if finished_dir.exists():
+            print(f"CLAIM MISLUKT -- {task_id} bestaat al in india5/tasks/{finished_stage}/ "
+                  f"(task_id is immutable, wordt nooit hergebruikt of opnieuw uitgevoerd).")
+            sys.exit(1)
 
     others = active_tasks()
     if others:
@@ -56,6 +85,11 @@ def main():
         print("CLAIM MISLUKT -- validate_task.py gaf fouten, taak wordt niet geclaimd:\n")
         print(result.stdout)
         sys.exit(1)
+
+    # Snapshot van reeds-vuile paden VÓÓR de verplaatsing (die zelf ook een wijziging is, dus
+    # dit moet ervoor gebeuren). Dit onderscheidt "al vuil vóór deze taak" (bv. een CCI_HOLD
+    # elders) van "door deze taak gewijzigd" bij de latere forbidden_writes-controle.
+    dirty_before = pre_existing_dirty_paths()
 
     active_dir = TASKS_ROOT / "active" / task_id
     queue_dir.rename(active_dir)
@@ -76,6 +110,7 @@ def main():
     status.setdefault("git_commit_at_complete", None)
     status.setdefault("completion_marker_found", None)
     status.setdefault("failure_reason", None)
+    status["pre_existing_dirty_paths"] = dirty_before
     history = status.setdefault("history", [])
     history.append({"at": now, "event": "CLAIMED", "detail": "queue -> active, door CCI"})
 

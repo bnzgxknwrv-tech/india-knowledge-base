@@ -28,6 +28,26 @@
       "description": "True zodra complete_task.py heeft geverifieerd dat RESULT.md de exacte completion_marker uit TASK.yaml bevat."
     },
     "failure_reason": {"type": ["string", "null"]},
+    "pre_existing_dirty_paths": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Door claim_task.py vastgelegde snapshot van paden die al gewijzigd/ongetrackt waren VOORDAT deze taak geclaimd werd (bv. ander vastgehouden werk zoals een CCI_HOLD). check_forbidden_writes.py rekent deze paden niet toe aan deze taak."
+    },
+    "hold": {
+      "type": "object",
+      "description": "Instructieprecedentie punt 2: een expliciete HOLD/ABORT-status in de taakbestanden zelf staat BOVEN Mark-besluitenregister, PR-comments, chattekst en lokale hooks (maar ONDER de canonieke TASK.yaml/TASK.md zelf). Zolang hold.active=true, mag CCI de TASK.md-instructies niet uitvoeren, alleen lezen/wachten/rapporteren.",
+      "required": ["active", "reason", "set_at", "set_by"],
+      "properties": {
+        "active": {"type": "boolean"},
+        "reason": {"type": ["string", "null"]},
+        "set_at": {"type": ["string", "null"], "format": "date-time"},
+        "set_by": {"type": ["string", "null"]}
+      }
+    },
+    "result_comment_posted": {
+      "type": "boolean",
+      "description": "True zodra de CCI_RESULT(_ENVELOPE)-comment daadwerkelijk op de PR is geplaatst. Voorkomt dat een hervattende sessie na een completion-move zonder comment (crashtoestand d) de comment dubbel of nooit post."
+    },
     "history": {
       "type": "array",
       "description": "Append-only logboek van state-overgangen, nooit eerdere regels overschrijven.",
