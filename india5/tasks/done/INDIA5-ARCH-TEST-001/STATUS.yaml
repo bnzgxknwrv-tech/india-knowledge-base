@@ -1,12 +1,12 @@
 task_id: INDIA5-ARCH-TEST-001
-state: ACTIVE
+state: COMPLETED
 claimed_at: '2026-08-02T19:56:47.770752+00:00'
 claimed_by: CCI
 started_at: '2026-08-02T19:56:47.770752+00:00'
-completed_at: null
+completed_at: '2026-08-02T19:58:22.995718+00:00'
 git_commit_at_claim: null
 git_commit_at_complete: null
-completion_marker_found: null
+completion_marker_found: true
 failure_reason: null
 history:
 - at: '2026-08-02T19:00:00Z'
@@ -15,3 +15,6 @@ history:
 - at: '2026-08-02T19:56:47.770752+00:00'
   event: CLAIMED
   detail: queue -> active, door CCI
+- at: '2026-08-02T19:58:22.995718+00:00'
+  event: COMPLETED
+  detail: active -> done, door CCI

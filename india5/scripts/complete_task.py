@@ -64,6 +64,19 @@ def main():
     completion_marker = task.get("completion_marker")
     expected_outputs = task.get("expected_outputs") or []
 
+    # expected_outputs beschrijft de UITEINDELIJKE (done/) locatie, maar op het moment van
+    # controleren staat de taakdirectory nog in active/ (de verplaatsing gebeurt pas na een
+    # geslaagde controle). Voor paden die binnen deze taak-directory vallen, controleren we
+    # daarom op de huidige (active/) locatie; overige paden (buiten de taak-directory, bv.
+    # echte regio-outputs elders in de repo) worden gewoon als absoluut repo-pad gecontroleerd.
+    done_prefix = f"india5/tasks/done/{args.task_id}/"
+    active_prefix = f"india5/tasks/active/{args.task_id}/"
+
+    def resolve_expected(out_path: str) -> Path:
+        if out_path.startswith(done_prefix):
+            return REPO_ROOT / active_prefix / out_path[len(done_prefix):]
+        return REPO_ROOT / out_path
+
     errors = []
     result_path = active_dir / "RESULT.md"
     if not result_path.exists():
@@ -77,9 +90,9 @@ def main():
             )
 
     for out_path in expected_outputs:
-        full = REPO_ROOT / out_path
+        full = resolve_expected(out_path)
         if not full.exists():
-            errors.append(f"expected_output ontbreekt: {out_path}")
+            errors.append(f"expected_output ontbreekt: {out_path} (gecontroleerd op {full})")
 
     if errors:
         print(f"AFRONDEN MISLUKT -- {len(errors)} probleem/problemen, taak blijft ACTIVE:\n")
