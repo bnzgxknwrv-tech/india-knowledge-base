@@ -1,7 +1,7 @@
 schema_version: 2
 run_id: VARANASI-GEO-DELIVERY-REPAIR-001
 system: INDIA4
-status: BRONS_ALL_40_COMPLETE_TESTSWEEP_ZILVER_GOUD_IN_PROGRESS_022_040
+status: BRONS_ZILVER_GOUD_COMPLETE_ALL_40_AWAITING_MARK_DECISIONS
 status_corrected_at: 2026-08-02
 status_correction_note: >
   Bijgewerkt op 2026-08-02 na de eerste INDIA5-PROTOCOL testsweep (india4/protocols/INDIA5-PROTOCOL.md).
@@ -55,11 +55,11 @@ batches:
     status: COMPLETED
     output: BRONS/BRONS-B04.jsonl
   ZILVER-Z01:
-    range: [VNS-CAND-001, VNS-CAND-020]
-    prerequisites: [BRONS-B01, BRONS-B02]
-    status: OUT_OF_SCOPE_FOR_TESTSWEEP
+    range: [VNS-CAND-001, VNS-CAND-021]
+    prerequisites: [BRONS-B01, BRONS-B02, BRONS-B03]
+    status: COMPLETED
     output: ZILVER/ZILVER-Z01.jsonl
-    note: Buiten de INDIA5-testsweep van 2026-08-02 (die dekt uitsluitend VNS-CAND-022 t/m 040).
+    note: Bereik uitgebreid met VNS-CAND-021 op 2026-08-02 (dekkingsgat gedicht, zie CORRECTIERAPPORT.md).
   ZILVER-TESTSWEEP-022-040:
     range: [VNS-CAND-022, VNS-CAND-040]
     prerequisites: [BRONS-B03, BRONS-B04]
@@ -77,7 +77,20 @@ batches:
       - GOUD/TESTSWEEP-022-040/GEO_AUDIT.md
       - GOUD/TESTSWEEP-022-040/CORRECTIERAPPORT.md
       - GOUD/TESTSWEEP-022-040/COMPLETION.md
-    note: Regionaal eindpakket voor de volledige 40 kandidaten (GOUD) blijft apart en buiten deze testsweep.
+    note: Testsweep-only pakket (19 kandidaten), voorafgaand aan het volledige regio-pakket.
+  GOUD-REGIONAL-ALL-40:
+    prerequisites: [ZILVER-Z01, ZILVER-TESTSWEEP-022-040]
+    status: COMPLETED
+    outputs:
+      - GOUD/REGIONAL/DATASET_VARANASI_40.jsonl
+      - GOUD/REGIONAL/USER/VARANASI_40_KANDIDATEN.kml
+      - GOUD/REGIONAL/USER/VARANASI_40_KEUZE.pdf
+      - GOUD/REGIONAL/GEO_AUDIT.md
+      - GOUD/REGIONAL/CORRECTIERAPPORT.md
+      - GOUD/REGIONAL/BESLISOVERZICHT.md
+      - GOUD/REGIONAL/COMPLETION.md
+    note: Volledig regionaal eindpakket, alle 40 kandidaten. Centrale India-master-KML niet bijgewerkt
+      (forbidden_outputs, ongewijzigd).
 required_goud_outputs:
   - GOUD/USER/VARANASI_40_KANDIDATEN.kml
   - GOUD/USER/VARANASI_KEUZE.pdf
