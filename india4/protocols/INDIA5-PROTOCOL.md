@@ -133,6 +133,21 @@ GOUD-rol. Kern:
   (GEO_AUDIT.md/CORRECTIERAPPORT.md/BESLISOVERZICHT.md), maar is niet langer het hoofddocument dat
   aan Mark wordt overhandigd.
 
+### PDF is eenmalig — NIET automatisch herbouwen (Mark-besluit 2026-08-02)
+
+De reisgids-PDF is een eenmalig leesdocument voor Mark, geen doorlopend bijgewerkt kanaal. Mark
+leest 'm één keer en gooit 'm daarna weg — het is geen opslagformaat. Daarom:
+
+- Elke wijziging in dataset/RUN.yaml/register (nieuwe Mark-keuze, hotelbesluit, nummering, enz.)
+  wordt bijgewerkt in de brondata (JSONL/RUN.yaml/register) en in de KML. De PDF wordt
+  **NIET automatisch herbouwd** bij elke ronde — dat kost onnodig tokens voor een document dat na
+  lezen toch wordt weggegooid.
+- Een nieuwe PDF-build gebeurt alleen als Mark dat expliciet vraagt (bv. "bouw de PDF opnieuw",
+  "ik wil een nieuwe leesversie").
+  Data-updates zonder die expliciete vraag blijven beperkt tot dataset/RUN.yaml/register/KML/MD.
+- De brondata (dataset/RUN.yaml/register) is te allen tijde de bron van waarheid, ook als de PDF
+  achterloopt of niet meer bestaat.
+
 ## Accommodatiebesluiten (Mark-besluit 2026-08-02, commit cf2daf2)
 
 Hotels, guesthouses, bases en andere verblijfskeuzes zijn GEEN kandidaten (geen A/B/C-locatie-ID uit
