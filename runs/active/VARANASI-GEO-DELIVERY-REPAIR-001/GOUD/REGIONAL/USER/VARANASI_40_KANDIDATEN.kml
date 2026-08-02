@@ -13,6 +13,7 @@
 <Style id="wht-circle"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon></IconStyle></Style>
 <Style id="red-stars"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href></Icon></IconStyle></Style>
 <Style id="red-circle"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon></IconStyle></Style>
+<Style id="hotel-locked"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href></Icon></IconStyle></Style>
 <Folder><name>Mark-keuze A (groen) (32)</name>
 <Placemark>
 <name>[ONBEVESTIGD] 001 Lahiri Mahasaya Samadhi / Satyalok</name>
@@ -580,6 +581,24 @@ adres: Mahatma Gandhi Kashi Vidyapeeth campus, Varanasi, Uttar Pradesh, India</d
 </Placemark>
 </Folder>
 <Folder><name>Door Mark te beoordelen (wit/neutraal) (0)</name>
+</Folder>
+<Folder><name>Gekozen verblijf (LOCKED_BY_MARK) (1)</name>
+<Placemark>
+<name>HOTEL -- Sahi River View Guesthouse</name>
+<styleUrl>#hotel-locked</styleUrl>
+<description>accommodatie_id: VNS-HOTEL-001
+status: LOCKED_BY_MARK
+adres: B1/158 A2, Assi Ghat Rd, Varanasi, Uttar Pradesh 221005, India
+bron: PERSONAL_RECOMMENDATION -- Debby
+aanbeveling: En mocht je nog geen plek hebben om te slapen: Sahi River View Guesthouse is echt een heerlijke plek in Assi Ghat (echt een hele fijne plek om te verblijven), vraag om een balcony room en doe ze de groeten van Debby - Jitendre die er werkt is een fijne kerel.
+kamerwens: balcony room
+contactpersoon: Jitendre (staff), groeten van Debby
+boekingsnotities: Vraag expliciet om een balcony room. Doe Jitendre de groeten van Debby. Behandel als vast besluit, niet als suggestie.
+marker-status: GOOGLE_MAPS_MARKER_NOT_CONFIRMED -- Websearch uitgevoerd (booking.com, tripadvisor, wanderlog, Google Hotels-entity, hotelswebsite/locatiepagina); adres gevonden en herbevestigd via meerdere onafhankelijke bronnen, maar geen extraheerbaar publiek Google Maps-plaats-URL met @lat,lng-coordinaat gevonden. Geen schatting gebruikt; tekstueel opgenomen zonder kaartgeometrie, conform GEO.md-regels.
+geometrie: GEEN -- geen geverifieerde Google Maps-marker gevonden, geen coordinaat geraden.
+logisch bereikbare A-clusters vanaf hier: 005 Shree Shree Ma Anandamayi Ashram, Bhadaini, 010 Assi Ghat, 015 Sankat Mochan Hanuman Temple, 016 Durga Temple and Durga Kund, 028 Bhaskarananda Samadhi / Anand Bagh, 035 Tulsi Manas Temple, 036 Tulsi Ghat, 037 Lolark Kund
+let op: dit is een vastgelegd besluit (LOCKED_BY_MARK), niet vervangen zonder expliciet nieuw besluit van Mark.</description>
+</Placemark>
 </Folder>
 <Folder><name>AMBIGUOUS -- aparte beoordelingslaag (0)</name><description>Geen enkele van de 40 kandidaten heeft in deze ronde status AMBIGUOUS (0 of meerdere niet-onderscheidbare Google Maps-pins). Deze laag blijft gereserveerd voor een toekomstige kandidaat met die status en wordt nooit gemengd met de normale bestemmingslagen hierboven.</description></Folder>
 <!-- REJECTED-kandidaten worden nooit als normale bestemming getoond. Geen van de 40 kandidaten heeft in deze ronde status REJECTED, dus deze laag bevat geen Placemarks. Het expliciet afgewezen coordinaat voor VNS-CAND-008 [25.3045, 82.979369] is NERGENS in dit bestand gebruikt. -->

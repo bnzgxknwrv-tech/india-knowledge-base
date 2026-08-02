@@ -38,12 +38,26 @@ zelfstandig bevestigd besluit -- niet als automatische afleiding uit 006=A.
   verandert nooit een coordinaat of geo-status. Dit vraagt op termijn een sessie met interactieve
   Google Maps-toegang, buiten wat deze sessie kan uitvoeren.
 
+## Gekozen verblijf -- Sahi River View Guesthouse (LOCKED_BY_MARK)
+
+Mark heeft (commit `cf2daf27299cf4153921ed1fdc64a876b9b2661f`, `HOTEL_DECISION.md`) de Varanasi-basis
+vastgelegd: **Sahi River View Guesthouse**, Assi Ghat. Dit is GEEN openstaande vraag -- status
+`LOCKED_BY_MARK`, niet te vervangen zonder een expliciet nieuw besluit van Mark. Vastgelegd in het
+nieuwe `ACCOMMODATION_REGISTER.jsonl` (accommodatie-ID `VNS-HOTEL-001`, apart van de kandidaat-
+nummering 001-040) en verwerkt in de reisgids-PDF ("Gekozen verblijf"-hoofdstuk) en de KML (aparte
+folder "Gekozen verblijf (LOCKED_BY_MARK)"). Verplichte notities: balcony room aanvragen, groeten aan
+Jitendre van Debby. Geen geverifieerde Google Maps-marker gevonden -- alleen tekstueel adres
+opgenomen, geen coordinaat geraden (adres: B1/158 A2, Assi Ghat Rd, Varanasi, Uttar Pradesh 221005).
+Data is routeklaar (basis + logisch bereikbare A-clusters gelijst); er is nog GEEN volledige
+dagroute-/planningberekening uitgevoerd -- dat is een aparte, nog niet uitgevoerde stap.
+
 ## Definitief vastgelegd
 
 - Alle 40 Mark-keuzes: zie hierboven, of de keuze-index in `USER/VARANASI_40_KEUZE_REISGIDS.pdf`.
 - Immutable Location Numbering-regel: elk permanent nummer in `NUMBERING_REGISTRY.jsonl` is
   vastgelegd en wijzigt nooit.
 - Het expliciet afgewezen coordinaat van 008 [25.3045, 82.979369] is nergens gebruikt.
+- Accommodatiebesluit Varanasi: Sahi River View Guesthouse, `LOCKED_BY_MARK` (zie hierboven).
 - Centrale India-master-KML: niet aangepast.
 
 ## Volgende stap

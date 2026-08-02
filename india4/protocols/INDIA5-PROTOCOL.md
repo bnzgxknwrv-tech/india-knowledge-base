@@ -133,6 +133,42 @@ GOUD-rol. Kern:
   (GEO_AUDIT.md/CORRECTIERAPPORT.md/BESLISOVERZICHT.md), maar is niet langer het hoofddocument dat
   aan Mark wordt overhandigd.
 
+## Accommodatiebesluiten (Mark-besluit 2026-08-02, commit cf2daf2)
+
+Hotels, guesthouses, bases en andere verblijfskeuzes zijn GEEN kandidaten (geen A/B/C-locatie-ID uit
+de Immutable Location Numbering) en moeten toch altijd expliciet en duurzaam worden gelogd — nooit
+alleen in de chat. Bron/aanleiding: `runs/active/<RUN_ID>/GOUD/REGIONAL/HOTEL_DECISION.md` (Varanasi:
+`ACCOMMODATION_REGISTER.jsonl`, accommodatie-ID `VNS-HOTEL-001`).
+
+Elke regio krijgt een eigen `ACCOMMODATION_REGISTER.jsonl` naast het kandidaat-dataset. Elk record
+heeft minimaal: `accommodation_id` (aparte reeks, bv. `<REGIOCODE>-HOTEL-NNN`), region, run_id,
+accommodation_name, city/area, status (`SUGGESTED` | `SHORTLISTED` | `LOCKED_BY_MARK` |
+`REJECTED_BY_MARK`), source_type, source_person_or_source_id, letterlijke gebruikerswoorden of
+compacte besluitmotivatie, kamerwens, genoemde contactpersoon, boekingsnotities, datum, en
+supersedes/superseded_by.
+
+Harde regels, geldig voor elke toekomstige sweep:
+
+1. Vóór nieuw hotelonderzoek altijd eerst bestaande accommodatiebesluiten lezen (register + eerdere
+   HOTEL_DECISION-bestanden in de run).
+2. `LOCKED_BY_MARK` is canoniek en mag nooit stilzwijgend worden vervangen of opnieuw vergeleken —
+   alleen een nieuw, expliciet besluit van Mark mag dat wijzigen.
+3. Persoonlijke aanbevelingen van bekenden (naam van de bron, kamerwens, genoemde contactpersoon,
+   letterlijke kernnotitie) worden woordelijk bewaard, niet samengevat of weggelaten.
+4. GOUD neemt het gekozen verblijf standaard op in de reisgids-PDF (eigen hoofdstuk "Gekozen
+   verblijf", direct na de keuze-index), de KML (aparte folder, GEEN A/B/C-ID) en de route-
+   /planninginput (lijst logisch bereikbare A-kandidaten = "routeklaar"; een volledige
+   dagroute-/planningberekening is een aparte, pas op expliciet verzoek uit te voeren stap).
+5. Als er geen accommodatiebesluit bestaat, meldt GOUD dat expliciet ("NOG NIET ONDERZOCHT") — nooit
+   aannemen dat er nog niets gekozen is zonder eerst het register en de commit-historie te
+   controleren.
+6. Een chatvermelding of instructie die een concrete accommodatiekeuze of een sterke persoonlijke
+   aanbeveling bevat, wordt zo snel mogelijk duurzaam naar het register/GitHub overgebracht in
+   plaats van alleen in het gesprek te blijven staan.
+7. Voor de kaartgeometrie van een accommodatie gelden dezelfde regels als voor kandidaten: alleen een
+   `<Point>` toevoegen bij een geverifieerde Google Maps-marker; zonder voldoende markerbewijs wordt
+   de accommodatie tekstueel opgenomen (adres, geen geraden coördinaat).
+
 ## Scope-afspraak (belangrijk, expliciet door Mark vastgesteld op 2026-08-02)
 
 CC (de Home Assistant-sessie) heeft hier een ARCHITECTUUR/TOOLING-rol — kritiek leveren, scripts

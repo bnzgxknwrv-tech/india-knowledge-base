@@ -24,6 +24,9 @@ status: KLAAR -- inhoudelijke A/B/C-keuzeronde COMPLEET (32x A, 5x B, 3x C, 0x n
 - `GOUD/REGIONAL/BESLISOVERZICHT.md` -- compleet beslisoverzicht voor Mark, incl. de gevonden
   tegenstrijdigheid over de Sarnath-deelsites.
 - `GOUD/REGIONAL/COMPLETION.md` -- dit bestand.
+- `ACCOMMODATION_REGISTER.jsonl` -- nieuw permanent accommodatieregister (los van de kandidaat-
+  nummering 001-999), met het vastgelegde Varanasi-hotelbesluit (`VNS-HOTEL-001`, LOCKED_BY_MARK,
+  commit cf2daf2).
 
 ## Bestandscontroles
 
@@ -62,6 +65,15 @@ Geen A/B/C-vragen meer -- alle 40 kandidaten zijn besloten. Resterende punten zi
 (geen A/B/C-vraag): 008 heeft geen veilig coordinaat, 023 heeft een 3km-afwijking tussen bronnen.
 Zie BESLISOVERZICHT.md.
 
+## Gekozen verblijf
+
+Sahi River View Guesthouse (Assi Ghat) is vastgelegd als `LOCKED_BY_MARK` Varanasi-basis (commit
+cf2daf2, `HOTEL_DECISION.md`). Verwerkt in `ACCOMMODATION_REGISTER.jsonl` (`VNS-HOTEL-001`), de
+reisgids-PDF (hoofdstuk "Gekozen verblijf", direct na de keuze-index) en de KML (aparte folder
+"Gekozen verblijf (LOCKED_BY_MARK)", geen A/B/C-ID). Geen geverifieerde Google Maps-marker gevonden
+-- geen `<Point>`-geometrie toegevoegd, alleen tekstueel adres. Data is routeklaar (basis +
+bereikbare A-clusters); nog geen volledige dagroute berekend (bewust buiten scope van deze ronde).
+
 ## Niet uitgevoerd of verboden
 
 - Centrale India-master-KML niet bijgewerkt.
@@ -70,6 +82,9 @@ Zie BESLISOVERZICHT.md.
 - Geen bestaand geldig kandidaatrecord (VNS-CAND-001 t/m 021) inhoudelijk gewijzigd.
 - Geen afgewezen coordinaat teruggeplaatst.
 - Geen bestaand permanent nummer gewijzigd, hergebruikt of dubbel toegekend.
+- Geen volledige dagroute-/planningberekening uitgevoerd vanuit het hotel (alleen routeklaar gemaakt,
+  zoals expliciet gevraagd).
+- Geen coordinaat geraden voor het hotel bij gebrek aan een geverifieerde Google Maps-marker.
 
 ## Readback
 
