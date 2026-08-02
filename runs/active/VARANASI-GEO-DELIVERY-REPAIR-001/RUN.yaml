@@ -70,7 +70,13 @@ batches:
       GOOGLE_MAPS_MARKER_NOT_CONFIRMED (kandidaatgebonden onzekerheid, geen blokkade).
   GOUD-TESTSWEEP-022-040:
     prerequisites: [ZILVER-TESTSWEEP-022-040]
-    status: WAITING
+    status: COMPLETED
+    outputs:
+      - GOUD/TESTSWEEP-022-040/USER/VARANASI_TESTSWEEP_022-040.kml
+      - GOUD/TESTSWEEP-022-040/USER/VARANASI_TESTSWEEP_022-040_KEUZE.pdf
+      - GOUD/TESTSWEEP-022-040/GEO_AUDIT.md
+      - GOUD/TESTSWEEP-022-040/CORRECTIERAPPORT.md
+      - GOUD/TESTSWEEP-022-040/COMPLETION.md
     note: Regionaal eindpakket voor de volledige 40 kandidaten (GOUD) blijft apart en buiten deze testsweep.
 required_goud_outputs:
   - GOUD/USER/VARANASI_40_KANDIDATEN.kml
