@@ -87,6 +87,30 @@ Eén startopdracht voor twintig Varanasi-kandidaten, waarna BRONS → ZILVER →
 tussenkomst van Mark doorloopt en eindigt met: één PDF, één KML, één gevalideerde dataset en één
 korte eindmelding aan Mark. Geen tussentijdse handelingen van Mark tijdens de doorloop.
 
+## GOUD-PDF-format (verplicht vanaf 2026-08-02)
+
+De GOUD-keuze-PDF is een REISGIDS voor Mark, geen GEO-validatierapport. Volledig
+gespecificeerd in `india4/templates/GOUD_PDF_TEMPLATE.md` — verplichte leesstof voor elke
+GOUD-rol. Kern:
+- Per kandidaat eerst: waarom bezoeken, spirituele/historische betekenis, wat je ziet/ervaart, hoe
+  bijzonder het is, verwachte bezoektijd, goed te combineren met (op werkelijke geografische
+  nabijheid), praktische tips, reden om eventueel over te slaan, en een voorlopige keuzehulp
+  (advies, geen formele A/B/C-wijziging). GEO-status/coördinaat/Mark-keuze komen pas daarna, in een
+  klein technisch blok.
+- Kandidaten worden gegroepeerd per geografisch bezoekcluster (wijk/ghat-route), niet op
+  candidate_id-volgorde. Een keuze-index vooraan bevat candidate_id, naam, cluster, Mark-keuze,
+  keuzehulp in één zin en het paginanummer.
+- Ontbrekende keuze-informatie wordt expliciet als "NOG NIET ONDERZOCHT" vermeld — nooit ingevuld
+  met een aanname.
+- **Gevolg voor BRONS**: BRONS verzamelt vanaf de eerste kandidaat van elke nieuwe sweep ook de
+  reisgidsvelden (korte omschrijving, betekenis, wat te zien, uniekheid, bezoektijd, praktische
+  info indien bronnen dat toelaten) — niet alleen GEO-verificatievelden. Zie
+  `india4/templates/GOUD_PDF_TEMPLATE.md` voor de exacte veldenlijst. Dit voorkomt dat GOUD
+  achteraf reisgidsinhoud moet reconstrueren, zoals bij de Varanasi-regio nodig was.
+- De oude GEO-rapport-stijl PDF blijft geldig als GOUD ook een technische bijlage oplevert
+  (GEO_AUDIT.md/CORRECTIERAPPORT.md/BESLISOVERZICHT.md), maar is niet langer het hoofddocument dat
+  aan Mark wordt overhandigd.
+
 ## Scope-afspraak (belangrijk, expliciet door Mark vastgesteld op 2026-08-02)
 
 CC (de Home Assistant-sessie) heeft hier een ARCHITECTUUR/TOOLING-rol — kritiek leveren, scripts
