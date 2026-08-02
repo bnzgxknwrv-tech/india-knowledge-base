@@ -1,12 +1,17 @@
 schema_version: 2
 run_id: VARANASI-GEO-DELIVERY-REPAIR-001
 system: INDIA4
-status: BRONS_B03_IN_PROGRESS
-status_corrected_at: 2026-07-28
+status: BRONS_ALL_40_COMPLETE_TESTSWEEP_ZILVER_GOUD_IN_PROGRESS_022_040
+status_corrected_at: 2026-08-02
 status_correction_note: >
-  Voorheen stond hier READY_FOR_BRONS_B01, sterk verouderd t.o.v. de werkelijke voortgang
-  (B01+B02 waren toen al volledig af). Zie ROOT_CAUSE.md. Vertrouw voor de actuele stand
-  altijd scripts/next_candidate.py, niet dit veld.
+  Bijgewerkt op 2026-08-02 na de eerste INDIA5-PROTOCOL testsweep (india4/protocols/INDIA5-PROTOCOL.md).
+  Alle 40 Varanasi-kandidaten hebben nu een BRONS-record (B01 t/m B04 compleet). Mark heeft op
+  2026-08-02 expliciet gekozen om de testsweep op de resterende 19 kandidaten (VNS-CAND-022 t/m 040)
+  te draaien i.p.v. de oorspronkelijk gevraagde 20, omdat er in candidates.jsonl geen 20e overbleef
+  na VNS-CAND-021 (zie journaal runs.jsonl voor het besluitmoment). ZILVER/GOUD voor deze testsweep
+  dekken uitsluitend VNS-CAND-022 t/m 040. ZILVER-Z01 (001-020) en een volledige regio-GOUD (alle 40)
+  vallen BUITEN deze testsweep en blijven openstaand voor een latere, aparte doorloop. Vertrouw voor
+  de actuele BRONS-stand altijd scripts/next_candidate.py, niet dit veld.
 created_at: 2026-07-24
 batch_model: AUTONOMOUS_SEQUENTIAL_COMMIT_PER_CANDIDATE
 objective:
@@ -43,25 +48,27 @@ batches:
     output: BRONS/BRONS-B02.jsonl
   BRONS-B03:
     range: [VNS-CAND-021, VNS-CAND-030]
-    status: IN_PROGRESS
+    status: COMPLETED
     output: BRONS/BRONS-B03.jsonl
   BRONS-B04:
     range: [VNS-CAND-031, VNS-CAND-040]
-    status: WAITING
+    status: COMPLETED
     output: BRONS/BRONS-B04.jsonl
   ZILVER-Z01:
     range: [VNS-CAND-001, VNS-CAND-020]
     prerequisites: [BRONS-B01, BRONS-B02]
-    status: WAITING
+    status: OUT_OF_SCOPE_FOR_TESTSWEEP
     output: ZILVER/ZILVER-Z01.jsonl
-  ZILVER-Z02:
-    range: [VNS-CAND-021, VNS-CAND-040]
+    note: Buiten de INDIA5-testsweep van 2026-08-02 (die dekt uitsluitend VNS-CAND-022 t/m 040).
+  ZILVER-TESTSWEEP-022-040:
+    range: [VNS-CAND-022, VNS-CAND-040]
     prerequisites: [BRONS-B03, BRONS-B04]
     status: WAITING
-    output: ZILVER/ZILVER-Z02.jsonl
-  GOUD:
-    prerequisites: [BRONS-B01, BRONS-B02, BRONS-B03, BRONS-B04, ZILVER-Z01, ZILVER-Z02]
+    output: ZILVER/ZILVER-TESTSWEEP-022-040.jsonl
+  GOUD-TESTSWEEP-022-040:
+    prerequisites: [ZILVER-TESTSWEEP-022-040]
     status: WAITING
+    note: Regionaal eindpakket voor de volledige 40 kandidaten (GOUD) blijft apart en buiten deze testsweep.
 required_goud_outputs:
   - GOUD/USER/VARANASI_40_KANDIDATEN.kml
   - GOUD/USER/VARANASI_KEUZE.pdf
