@@ -21,7 +21,7 @@ hold:
   reason: null
   set_at: null
   set_by: null
-result_comment_posted: false
+result_comment_posted: true
 history:
 - at: '2026-08-02T20:30:00Z'
   event: ISSUED
@@ -40,3 +40,6 @@ history:
 - at: '2026-08-02T20:45:38.507458+00:00'
   event: COMPLETED
   detail: active -> done, door CCI
+- at: '2026-08-02T21:15:00Z'
+  event: RESULT_COMMENT_POSTED
+  detail: 'CCI_RESULT_ENVELOPE geplaatst op PR #23 (comment 5160266108).'
