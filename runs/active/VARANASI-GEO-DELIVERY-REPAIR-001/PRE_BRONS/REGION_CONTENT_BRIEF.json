@@ -1,0 +1,41 @@
+{
+  "region": "VARANASI",
+  "run_id": "VARANASI-GEO-DELIVERY-REPAIR-001",
+  "area_definition": "Varanasi stad + straal van circa 20 km rond het centrum (Dashashwamedh Ghat, ~25.31N 83.01E). Een gevonden Jain-kalyanaksite (Chandraprabhu/Chandrawati) op ~34 km valt buiten dit gebied en is expliciet uitgesloten.",
+  "mark_known_interests": "Kriya Yoga/Lahiri Mahasaya-lijn (001/002, sinds BRONS-B01.md), Sarnath boeddhistisch erfgoed (006, 029-034), hoofd-ghats/tempels, persoonlijke niet-institutionele aanbevelingen (precedent: hotelbesluit via Debby).",
+  "mark_known_anchors": "Lahiri Mahasaya, Sarnath/boeddhisme, hoofd-ghats van de oude stad, Sahi River View Guesthouse (Assi Ghat) als basis.",
+  "relevant_traditions": [
+    "Hindoeisme (Shaivisme, Vishnuisme, Shaktisme) -- al breed vertegenwoordigd",
+    "Kriya Yoga/Lahiri Mahasaya-lijn -- al vertegenwoordigd, getoetst op uitbreiding, niets nieuws binnen de straal gevonden",
+    "Boeddhisme (Sarnath) -- al volledig vertegenwoordigd",
+    "Kabir-traditie -- al vertegenwoordigd",
+    "Aghor/Ramakrishna -- al vertegenwoordigd",
+    "Jainisme -- NIET vertegenwoordigd vóór deze audit, 3 nieuwe in-regio kalyanaka-kandidaten gevonden",
+    "Koninklijke/wereldlijke geschiedenis (Kashi Naresh) -- NIET vertegenwoordigd, 1 nieuwe kandidaat gevonden",
+    "Islamitisch/soefi-erfgoed -- NIET vertegenwoordigd, NIET zelfstandig ingevuld (gevoeligheid, expliciet voorgelegd)"
+  ],
+  "active_detectors_applied": [],
+  "provisional_detectors_introduced": [
+    {"detector_id": "DET-P001", "name": "LINEAGE_TEXT_DETECTOR"},
+    {"detector_id": "DET-P002", "name": "JAIN_HERITAGE_DETECTOR"},
+    {"detector_id": "DET-P003", "name": "ASI_ROYAL_HERITAGE_DETECTOR"},
+    {"detector_id": "DET-P004", "name": "GHAT_COMPLETENESS_DETECTOR"}
+  ],
+  "planned_source_families": [
+    {"name": "officiele_gemeentelijke_listing", "detector_id": "DET-P002", "example": "kashi.gov.in"},
+    {"name": "encyclopedie", "detector_id": ["DET-P001", "DET-P002", "DET-P003", "DET-P004"], "example": "Wikipedia"},
+    {"name": "religieuze_naslagbron", "detector_id": "DET-P002", "example": "jainsite.com, jaintreasures.org.uk, jainsamaj.org"},
+    {"name": "reis_kruiscontrole", "detector_id": ["DET-P001", "DET-P002", "DET-P003", "DET-P004"], "example": "meerdere onafhankelijke reissites per claim"}
+  ],
+  "known_risks_blind_spots": "Eén onderzoeksronde, geen meervoudige-sessie-verzadiging. Geen lokale insider-/priesterbronnen geraadpleegd. Islamitisch/soefi-erfgoed is een bekend, onopgelost hiaat. Geen GEO-marker-verificatie (dat is BRONS' taak).",
+  "expected_candidate_categories": [
+    "lineage-uitbreiding (getoetst, niets nieuws)",
+    "Jain-erfgoed (3 nieuwe)",
+    "koninklijke/wereldlijke geschiedenis (1 nieuwe)",
+    "ghat-volledigheid (1 nieuwe)"
+  ],
+  "saturation_and_stop_criteria": "Per detector: minimaal 2 zoekbenaderingen, stoppen bij 3 opeenvolgende richtingen zonder nieuwe high-value lead. Sweepniveau DISCOVERY_SATURATED pas bij afsluitstatus voor alle detectoren EN geen resterende open lead die een dramatisch te missen A-locatie kan zijn.",
+  "dramatic_miss_check": "Islamitisch/soefi-erfgoed van Varanasi is nog niet onderzocht -- grootste resterende, expliciet erkende gat. Geen insider-/priesterbron geraadpleegd (alleen webbronnen), wat volgens eerder filosofie-overleg de belangrijkste bron voor verborgen parels is. Beide expliciet gemeld, niet stilzwijgend opgelost.",
+  "written_at": "2026-08-03",
+  "written_by": "CCI"
+}

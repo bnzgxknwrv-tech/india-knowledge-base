@@ -1,12 +1,12 @@
 task_id: INDIA5-VNS-DISCOVERY-COVERAGE-003
-state: ACTIVE
+state: COMPLETED
 claimed_at: '2026-08-03T20:11:44.694753+00:00'
 claimed_by: CCI
 started_at: '2026-08-03T20:11:44.694753+00:00'
-completed_at: null
+completed_at: '2026-08-03T20:19:41.619132+00:00'
 git_commit_at_claim: null
 git_commit_at_complete: null
-completion_marker_found: null
+completion_marker_found: true
 failure_reason: null
 pre_existing_dirty_paths: []
 hold:
@@ -24,3 +24,6 @@ history:
 - at: '2026-08-03T20:11:44.694753+00:00'
   event: CLAIMED
   detail: queue -> active, door CCI
+- at: '2026-08-03T20:19:41.619132+00:00'
+  event: COMPLETED
+  detail: active -> done, door CCI
