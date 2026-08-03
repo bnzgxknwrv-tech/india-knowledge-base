@@ -11,10 +11,10 @@ failure_reason: null
 pre_existing_dirty_paths:
 - india5/tasks/queue/
 hold:
-  active: false
-  reason: null
-  set_at: null
-  set_by: null
+  active: true
+  reason: 'CCI_HOLD via PR #23-comment (INDIA2): discoverylogica stuurde te veel op categorie-volledigheid, kan locaties toevoegen die niet aantoonbaar bij Marks interesses passen of niet werkelijk NOT_TO_BE_MISSED zijn. Geen saturation-run, geen nieuwe kandidaten, geen wijziging aan detectoren/nummers/A-B-C/KML/PDF/datasets. Wacht op nieuwe, inhoudelijk gecorrigeerde taak met eerst formeel vastgelegd Marks selectiecanon + NOT_TO_BE_MISSED-toets.'
+  set_at: '2026-08-03T21:10:00Z'
+  set_by: INDIA2
 result_comment_posted: false
 history:
 - at: '2026-08-03T20:35:00Z'
@@ -23,3 +23,6 @@ history:
 - at: '2026-08-03T20:40:42.065124+00:00'
   event: CLAIMED
   detail: queue -> active, door CCI
+- at: '2026-08-03T21:10:00Z'
+  event: HOLD
+  detail: 'CCI_HOLD ontvangen via PR #23-comment (INDIA2), taak ingetrokken vóór afronding. Alle inhoudelijke werkbestanden (nieuwe kandidaat 046, detectoren DET-P005..011, bronfamilie-uitbreidingen, EXISTING_40_MEANING_AUDIT.jsonl, registry-toevoeging) waren nog NIET gecommit en zijn door CCI teruggedraaid (git checkout / verwijderd) zodat de branch geen spoor bevat van de ingetrokken taak. Geen commit, geen push voor het inhoudelijke werk. CCI wacht op een nieuwe taak.'
