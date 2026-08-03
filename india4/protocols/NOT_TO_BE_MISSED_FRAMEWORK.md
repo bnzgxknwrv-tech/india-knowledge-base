@@ -1,10 +1,11 @@
-# NOT_TO_BE_MISSED — ontwerpstudie selectiecanon (vóór kandidaatstatus)
+# NOT_TO_BE_MISSED — selectiecanon (vóór kandidaatstatus en nummering)
 
-Status: ONTWERPDOCUMENT, ter beoordeling door INDIA2. Nog GEEN protocolwijziging, nog GEEN
-verplichte stap in de keten. Bevat GEEN nieuwe kandidaten, GEEN nieuwe detectoren, GEEN
-wijziging aan nummering of A/B/C. Varanasi wordt uitsluitend als casestudy gebruikt, met
-bestaande, reeds vastgelegde kandidaten en besluiten als illustratie — niets daaraan is
-gewijzigd door dit document.
+Status: CANONIEK vanaf 2026-08-03 (INDIA2-besluit, PR #23). Verplichte stap in de INDIA5-keten
+VOORDAT een gevonden plek kandidaatstatus en een permanent nummer krijgt — zie
+`india4/roles/PRE-BRONS.md` voor de bijgewerkte volgorde. Dit document bevat GEEN nieuwe
+kandidaten, GEEN nieuwe detectoren, GEEN wijziging aan bestaande nummering of A/B/C. Varanasi
+041-045 is de eerste toepassing (testronde, apart gerapporteerd in
+`india5/reports/`), niet gewijzigd door dit document zelf.
 
 Aanleiding: de discovery-audits (INDIA5-VNS-DISCOVERY-COVERAGE-003 en de ingetrokken
 SATURATION-004) zochten impliciet naar "welke tradities/categorieën ontbreken nog", niet naar
@@ -133,77 +134,98 @@ als aanbeveling voor een volgende, wel-geautoriseerde ronde:
   hier herhaling omdat categorie-jagende detectoren extra vatbaar zijn voor deze verleiding
   (elke reisblog noemt tenslotte "iets" van bijna elke categorie).
 
-## 6. Ontwerp: het NOT_TO_BE_MISSED-framework (vóórdat iets kandidaat wordt)
+## 6. Het NOT_TO_BE_MISSED-framework (canoniek, vóórdat iets kandidaat wordt)
 
-Een voorgestelde toets, toe te passen VOORDAT een gevonden plek de status PROVISIONAL/
-kandidaat krijgt (dus vóór nummering, vóór DISCOVERY_CANDIDATES.jsonl) — nog geen protocol-
-wijziging, ter beoordeling door INDIA2:
+Verplichte toets, toe te passen VOORDAT een gevonden plek de status PROVISIONAL/kandidaat
+krijgt en VOORDAT een permanent nummer wordt toegekend (dus vóór DISCOVERY_CANDIDATES.jsonl,
+vóór NUMBERING_REGISTRY.jsonl). Bijgewerkt per INDIA2-besluit van 2026-08-03 (PR #23):
 
 ```
-NOT_TO_BE_MISSED_CHECK (per gevonden plek, vóór kandidaatstatus)
+NOT_TO_BE_MISSED_CHECK (per gevonden plek, vóór kandidaatstatus en nummering)
 
-1. SPIJT_VRAAG (verplicht, eerst beantwoorden)
+1. SPIJT_VRAAG (verplicht, eerst beantwoorden -- door CCI, met bronverwijzing)
    "Zou Mark achteraf, staand op deze reis, dramatisch jammer vinden dat hij dit gemist heeft?"
    Beantwoord vanuit de drie vaste bronnen (PROJECT.md, PRIORITY_GROUPS.md, METHODOLOGY.md),
    niet vanuit een generieke inschatting van 'bijzonderheid'.
-   -> NEE / ONZEKER  => stop, geen kandidaat (categorie-volledigheid alleen is GEEN geldig JA)
-   -> JA             => ga door naar stap 2
+   Drie mogelijke uitkomsten:
+   -> PASS       -- aannemelijk NOT_TO_BE_MISSED voor Mark, onderbouwd
+   -> WATCHLIST  -- mogelijk waardevol, maar onvoldoende bewezen (dit is de ONZEKER-uitkomst;
+                    wordt NIET stil verwijderd, blokkeert de sweep NIET, gaat als compacte
+                    lijst na afloop naar INDIA2/Mark -- geen tussentijdse vraag per locatie)
+   -> FAIL       -- geen overtuigende reden voor kandidaatstatus
+   Alleen PASS gaat door naar stap 2. WATCHLIST en FAIL krijgen geen kandidaatnummer.
 
-2. ONVERVANGBAARHEIDSTOETS
-   Is dit een eenmalige, plaatsgebonden gebeurtenis/spoor (samadhi, geboorteplek, gedocumenteerd
-   bezoek, actieve unieke praktijk) die niet door een vergelijkbare plek elders vervangen kan
-   worden?
-   -> NEE (verwisselbaar met een al vertegenwoordigde plek/traditie) => zwakke kandidaat, apart
-      vlaggen, niet automatisch toevoegen
-   -> JA => ga door naar stap 3
+2. STERKTE-TOETS (GEEN harde onvervangbaarheidspoort meer -- INDIA2-correctie 2026-08-03)
+   Onvervangbaarheid (eenmalige, plaatsgebonden gebeurtenis/spoor) is EEN geldige grond, maar
+   niet de enige. Een plek kan ook PASS krijgen zonder letterlijk uniek te zijn, wanneer ze
+   uitzonderlijk sterk scoort op ten minste EEN van deze zes gronden:
+   a. aantoonbaar krachtveld op precies die plek;
+   b. directe relatie met Marks Tier-1/AOAY-interesses;
+   c. uitzonderlijke levende ervaring;
+   d. werkelijk iconische of bepalende ervaring van het gebied;
+   e. sterke persoonlijke aanbeveling;
+   f. uitzonderlijke combinatie met een reeds gekozen route/cluster, MITS de inhoudelijke
+      waarde ook zelfstandig (los van die combinatie) overeind blijft.
+   NOOIT zelfstandig voldoende: categorievolledigheid, logistiek gemak, bekendheid, of "het
+   ontbreekt nog aan de lijst".
 
-3. KRACHTVELD-TOETS (drie assen, apart houden — PROJECT.md)
+3. KRACHTVELD-TOETS (drie assen, apart houden -- PROJECT.md)
    a. Krachtveld-gewicht: is de spirituele dichtheid op de plek zelf aantoonbaar (bron met
       minstens één primaire/institutionele/academische verwijzing, AI_RULES.md regel 9)?
    b. Persoonlijke aantrekking: valt de plek in Tier 1 (eigen lijn + AOAY) of Tier 2/3
-      (PROJECT.md focus-tiers) — dit is een bonus, geen vereiste; PRIORITY_GROUPS.md regel 3
+      (PROJECT.md focus-tiers) -- dit is een bonus, geen vereiste; PRIORITY_GROUPS.md regel 3
       blijft leidend (index sluit niets uit).
-   c. Route-prioriteit: NIET gebruikt om toe te voegen/uitsluiten op dit punt — puur
-      logistiek, hoort bij ZILVER/GOUD, niet bij de kandidaatpoort.
+   c. Route-prioriteit: NIET gebruikt om toe te voegen/uitsluiten op dit punt -- puur
+      logistiek, hoort bij ZILVER/GOUD, niet bij de kandidaatpoort (uitzondering: grond 2f
+      hierboven, en ook dan blijft de inhoudelijke waarde doorslaggevend, niet het gemak zelf).
 
 4. LEVEND-OF-MONUMENTAAL-SIGNAAL (informatief, geen harde poort)
-   Registreer of de ervaring "erbij zijn" (levende praktijk) of "bekijken" (monumentaal) is —
+   Registreer of de ervaring "erbij zijn" (levende praktijk) of "bekijken" (monumentaal) is --
    beide kunnen NOT_TO_BE_MISSED zijn, maar het signaal helpt Mark bij de uiteindelijke A/B/C-
    afweging (METHODOLOGY.md-analysemethode, punt "wat is het").
 
-5. BEZOEKBAARHEIDSPOORT (harde poort, ongewijzigd — AI_RULES.md regel 10)
+5. BEZOEKBAARHEIDSPOORT (harde poort, ongewijzigd -- AI_RULES.md regel 10)
    Geen aanwijsbare fysieke, bezoekbare plek = geen kandidaat, ongeacht uitkomst van 1-4.
 
-6. UITKOMST
-   Alleen bij JA op stap 1 EN JA op stap 2 (of expliciet gemotiveerde uitzondering) EN
-   voldoende onderbouwing op stap 3a EN geslaagde stap 5: status PROVISIONAL/
-   DOOR_MARK_TE_BEOORDELEN. In alle andere gevallen: gerapporteerd als open lead of
-   negatieve bevinding, GEEN kandidaatstatus.
+DEFINITIEVE KANDIDAATPOORT -- kandidaatstatus + permanent nummer uitsluitend wanneer ALLE
+gelden:
+   A. de SPIJT_VRAAG (stap 1) = PASS;
+   B. de plek fysiek bezoekbaar is (stap 5);
+   C. de kernclaim voldoende betrouwbaar is onderbouwd (bron met minstens één primaire/
+      institutionele/academische verwijzing);
+   D. er minimaal één concrete, niet-generieke beslissende reden bestaat (stap 2, gronden a-f);
+   E. de reden niet uitsluitend categorievolledigheid, beroemdheid of routegemak is.
+WATCHLIST en FAIL krijgen GEEN kandidaatnummer -- WATCHLIST gaat als compacte lijst naar
+INDIA2/Mark, FAIL wordt gerapporteerd als negatieve bevinding (geen actie).
 ```
 
 Kernverschil met de oude discovery-detectoren: een detector mag nog steeds gebruikt worden om
-een gebied te doorzoeken (dat blijft nuttig als *vindmiddel*, AI_RULES.md regel 2 — personen/
+een gebied te doorzoeken (dat blijft nuttig als *vindmiddel*, AI_RULES.md regel 2 -- personen/
 categorieën zijn detectoren om plekken te vinden), maar de beslissing om iets kandidaat te maken
 verschuift van "vult dit een gat?" naar "zou het missen hiervan spijt opleveren, gegeven Marks
 eigen, al vastgelegde selectiecanon?". Categorie-volledigheid wordt daarmee een zoekhulpmiddel,
 nooit meer een toevoegingscriterium op zichzelf.
 
-## Openstaande vragen voor INDIA2
+## Besluiten van INDIA2 op de drie openstaande ontwerpvragen (2026-08-03, PR #23)
 
-- Moet de SPIJT_VRAAG (stap 1) uiteindelijk door CCI beantwoord worden (met bronverwijzing,
-  zoals nu voorgesteld), of moet elke ONZEKER-uitkomst automatisch naar Mark/INDIA2 als
-  blocker-vraag, in plaats van stilzwijgend "geen kandidaat"?
-  BELANGRIJK: dit is een openstaande ontwerpvraag zelf, geen tussentijdse uitvoeringsvraag over
-  een lopende taak — dus geen schending van "geen tussentijdse vraag tenzij blocker/besluit".
-- Moet dit framework met terugwerkende kracht worden toegepast op de bestaande 40 (dus een
-  hertoetsing), of uitsluitend voorwaarts op nieuwe vondsten? Dit document doet daar bewust geen
-  uitspraak over — dat is een besluit voor INDIA2/Mark, geen ontwerpkeuze van CCI.
-- Moet stap 2 (onvervangbaarheid) een harde poort worden (zoals hier voorgesteld) of een
-  weegfactor naast stap 3? Dit document kiest voor hard, maar motiveert dat niet als
-  onaantastbaar.
+1. **Wie beantwoordt de SPIJT_VRAAG?** CCI doet de eerste inhoudelijke beoordeling met
+   brononderbouwing, met drie uitkomsten (PASS/WATCHLIST/FAIL). Een ONZEKER-resultaat wordt
+   niet stil verwijderd en blokkeert de sweep niet -- het gaat naar WATCHLIST. Alleen een
+   compacte WATCHLIST wordt na afloop aan INDIA2/Mark voorgelegd. Geen tussentijdse vragen per
+   locatie.
+2. **Terugwerkende kracht.** Het framework wordt nu uitsluitend als test toegepast op de nieuw
+   ontdekte 041-045 (zie `india5/reports/`). De bestaande 001-040 worden NIET heropend -- die
+   zijn al door Mark beoordeeld en blijven ongewijzigd. Alleen wanneer later concreet nieuw
+   bewijs verschijnt dat een bestaand besluit wezenlijk raakt, mag dat signalerend worden
+   gemeld -- nooit zelfstandig gewijzigd. Voor alle toekomstige ontdekkingen geldt het framework
+   vóór kandidaatstatus en vóór toekenning van een permanent nummer.
+3. **Onvervangbaarheid.** Onvervangbaarheid is GEEN absolute harde poort meer (zie stap 2
+   hierboven, "STERKTE-TOETS") -- vervangen door zes mogelijke gronden waarvan er minstens één
+   uitzonderlijk sterk moet scoren.
 
 ---
-Geschreven door: CCI, op verzoek van INDIA2 (PR #23-comment, ontwerpstudie-opdracht).
+Geschreven door: CCI, op verzoek van INDIA2 (PR #23, ontwerpstudie + canoniek besluit).
 Datum: 2026-08-03.
-Status: ontwerpdocument, geen protocolwijziging, geen kandidaat/detector/nummering/A-B-C
-aangeraakt of gewijzigd.
+Status: CANONIEK, verplichte stap in INDIA5 vóór kandidaatstatus en nummering (zie
+`india4/roles/PRE-BRONS.md`). Geen bestaande kandidaat/detector/nummering/A-B-C aangeraakt of
+gewijzigd door dit document.

@@ -12,9 +12,18 @@ die BRONS mag starten.
 ## Volgorde in de grotere keten
 
 ```
-PRE-BRONS → detectoren → kandidaten → betekenis → onderscheid → Mark-relevantie
-    → cluster/koepeltoets → GEO (BRONS) → ZILVER → GOUD → Mark-keuze
+PRE-BRONS → detectoren → gevonden plekken → NOT_TO_BE_MISSED_CHECK → kandidaten (PASS only)
+    → betekenis → onderscheid → Mark-relevantie → cluster/koepeltoets
+    → GEO (BRONS) → ZILVER → GOUD → Mark-keuze
 ```
+
+**Verplicht vanaf 2026-08-03 (INDIA2-besluit, PR #23)**: elke door een detector gevonden plek
+doorloopt eerst de `NOT_TO_BE_MISSED_CHECK` uit
+`india4/protocols/NOT_TO_BE_MISSED_FRAMEWORK.md` VOORDAT ze kandidaatstatus en een permanent
+nummer krijgt. Alleen een PASS-uitkomst gaat door naar kandidaatstatus/nummering. WATCHLIST
+(onzeker, niet stil verwijderd) gaat als compacte lijst naar INDIA2/Mark na afloop van de run;
+FAIL wordt als negatieve bevinding gerapporteerd. Geen categorie-volledigheid, bekendheid of
+routegemak als zelfstandige toevoegingsreden — zie het framework voor de volledige toets.
 
 ## Input
 
