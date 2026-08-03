@@ -1,0 +1,25 @@
+task_id: INDIA5-VNS-DISCOVERY-SATURATION-004
+state: ACTIVE
+claimed_at: '2026-08-03T20:40:42.065124+00:00'
+claimed_by: CCI
+started_at: '2026-08-03T20:40:42.065124+00:00'
+completed_at: null
+git_commit_at_claim: null
+git_commit_at_complete: null
+completion_marker_found: null
+failure_reason: null
+pre_existing_dirty_paths:
+- india5/tasks/queue/
+hold:
+  active: false
+  reason: null
+  set_at: null
+  set_by: null
+result_comment_posted: false
+history:
+- at: '2026-08-03T20:35:00Z'
+  event: ISSUED
+  detail: 'Taak overgenomen uit PR #23 CCI_TASK_ENVELOPE (INDIA2), vervolg op INDIA5-VNS-DISCOVERY-COVERAGE-003.'
+- at: '2026-08-03T20:40:42.065124+00:00'
+  event: CLAIMED
+  detail: queue -> active, door CCI
