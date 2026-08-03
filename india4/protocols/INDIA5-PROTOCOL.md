@@ -184,6 +184,130 @@ Harde regels, geldig voor elke toekomstige sweep:
    `<Point>` toevoegen bij een geverifieerde Google Maps-marker; zonder voldoende markerbewijs wordt
    de accommodatie tekstueel opgenomen (adres, geen geraden coördinaat).
 
+## PRE-BRONS en de detectorbibliotheek (INDIA2-architectuurbesluit, 2026-08-02, PR #23)
+
+Fundamentele correctie op het oorspronkelijke BRONS-ontwerp: een sweep is geen locatie-
+afwerklijst, maar een inhoudelijk detectieproces. BRONS was nooit bedoeld om een vooraf gegeven
+lijst kandidaten af te werken — BRONS moet bewijzen dat de inhoudelijke werkelijkheid van een
+gebied voldoende is afgedekt. Het aantal kandidaten is een UITKOMST van het onderzoek, nooit een
+vooraf ingestelde invoer (geen minimum, geen maximum, niet kunstmatig aanvullen, niet vroeg
+stoppen omdat er "genoeg" lijkt te zijn).
+
+### Nieuwe volgorde
+
+```
+PRE-BRONS → detectoren → kandidaten → betekenis → onderscheid → Mark-relevantie
+    → cluster/koepeltoets → GEO (BRONS) → ZILVER → GOUD → Mark-keuze
+```
+
+BRONS start dus niet meer met een gegeven naamlijst, maar met een intern consistente
+regio-inhoudsbrief van PRE-BRONS (zie `india4/roles/PRE-BRONS.md`).
+
+### PRE-BRONS
+
+Vaste stap vóór elke BRONS-batch: bepaalt gebied, straal of functionele corridor, Marks bekende
+interesses/A-criteria/ankers, relevante tradities/lineages/personen/heilige landschappen/
+historische lagen, en welke detectoren van toepassing zijn. Levert vier bestanden onder
+`runs/active/<run_id>/PRE_BRONS/`: `REGION_CONTENT_BRIEF.md` + `.json`,
+`PRE_BRONS_DETECTORS.jsonl`, `SOURCE_FAMILY_PLAN.jsonl`. Structuur en verplichte velden:
+`india4/templates/PRE_BRONS_REGION_CONTENT_BRIEF_TEMPLATE.md`. Validatie vóór BRONS mag starten:
+`india4/scripts/validate_pre_brons_brief.py`. Bevat verplicht een expliciet antwoord op: "welke
+dramatisch te missen A-locatie zou dit plan nog kunnen missen?" — nooit leeg of "geen" zonder
+toelichting.
+
+### Detectorbibliotheek
+
+Een detector is een herbruikbare zoekrichting (traditie, lineage, bronfamilie, landschapstype,
+enz.), cumulatief opgebouwd over regio's heen — bv. AOAY ontdekt tijdens Varanasi, mogelijk
+Advaita-ashrams tijdens Kumaon, vroege boeddhistische kloosters tijdens Bodh Gaya. Elke sweep
+levert daarom niet alleen kandidaten, maar ook een antwoord op: "hebben we een nieuwe detector
+ontdekt?"
+
+Canonieke bestanden:
+- `india4/registries/DETECTOR_LIBRARY.jsonl` — één record per detector: `detector_id`
+  (immutable), `name`, `definition`, `purpose`, `trigger_conditions`, `exclusion_conditions`,
+  `required_source_families`, `applicability_facets`, `discovered_in_run`, `status`
+  (PROVISIONAL/ACTIVE/RETIRED), `parent_detector_id`, `aliases`, `created_at`, `approved_by`.
+- `india4/registries/DETECTOR_RUN_HISTORY.jsonl` — append-only scoregeschiedenis per
+  (detector_id, run_id): toegepaste zoekrichtingen, nieuwe kandidaten, high-value leads (die de
+  WHY_THIS_ONE/WHY_NOT_THE_OTHERS-toets overleefden), false positives, evaluatie. NIET genest in
+  de bibliotheek zelf.
+
+Validatie: `india4/scripts/validate_detector_library.py`.
+
+**Wie mag wat:**
+- CCI mag tijdens PRE-BRONS zelfstandig een nieuwe detector PROVISIONAL gebruiken om de sweep
+  niet te blokkeren, vastgelegd in het per-run `PRE_BRONS_DETECTORS.jsonl`. Nooit automatisch
+  canoniek ACTIVE.
+- Na de run legt CCI PROVISIONAL detectoren voor aan INDIA2/ChatGPT voor promotie, aanscherping,
+  samenvoeging of afwijzing.
+- Uitsluitend INDIA2/ChatGPT (architect) mag canoniek: detectoren fuseren, ACTIVE maken,
+  hernoemen, RETIRED zetten, parent-child-structuur wijzigen. CCI mag overlap en
+  parent-child-relaties signaleren, niet zelf fuseren.
+- Mark beslist alleen wanneer een detector zijn persoonlijke interesseprofiel of A-definitie
+  inhoudelijk verandert.
+
+**Scoring**: gemeten per gebiedstype/thema (zie `applicability_facets`), niet als één platte
+globale ranglijst — een detector die sterk scoort in het ene soort gebied hoeft dat niet te zijn
+in een fundamenteel ander soort gebied. Waardemaat is niet "aantal gevonden kandidaten" maar
+"aantal kandidaten dat de differentiatietoets (WHY_THIS_ONE/WHY_NOT_THE_OTHERS) overleeft".
+
+### Regiotype-taxonomie (applicability_facets)
+
+Nog geen starre enkelvoudige lijst — te vroeg en te grof. Voorlopig multi-label, organisch
+groeiend in de eerste 3-4 regio's, daarna door INDIA2 geconsolideerd tot een gecontroleerde
+taxonomie:
+- `settlement`: pelgrimsstad / kloosterstad / metropool / dorp / landschap
+- `tradition`: hindoe / boeddhistisch / jain / sikh / islamitisch / christelijk / gemengd
+- `sacred_form`: tempelnetwerk / ghatlandschap / samadhi-cluster / kloosterlandschap /
+  yatra-corridor
+- `temporal_layer`: oud / middeleeuws / koloniaal / modern
+- `practice_state`: levend / gemengd / monumentaal
+- `visitor_context`: lineage-specifiek / algemeen spiritueel / historisch / architectonisch
+
+Geen vrije tekst zonder facetnaam.
+
+### Verplichte kandidaatvelden vóór GEO-verificatie
+
+Elke kandidaat krijgt, vóór GEO-verificatie: `why_this_one`, `why_not_the_others`,
+`meaning_evidence`, `living_or_monumental`, `mark_relevance_link`. Zie
+`india4/templates/BATCH_OUTPUT.md`. Dit voorkomt kandidaat-inflatie (honderden generieke
+tempels) en de "beroemd-maar-leeg"-valkuil (plekken die historisch beroemd zijn maar
+tegenwoordig nauwelijks nog levende betekenis hebben).
+
+### Verzadigingsdrempel
+
+Hybride harde/inhoudelijke regel — geen enkel magisch getal beslist alleen.
+
+Per detector:
+- minimaal twee wezenlijk verschillende zoekbenaderingen;
+- minimaal twee relevante bronfamilies indien beschikbaar;
+- alle gevonden high-value leads zijn opgelost als kandidaat, duplicaat, afgewezen of open
+  onzekerheid;
+- daarna leveren drie opeenvolgende materieel verschillende query-/bronrichtingen geen nieuwe
+  high-value kandidaat of nieuwe detector meer op (alleen nog duplicaten, lage-waarde generieke
+  locaties of reeds bekende context).
+
+Op sweepniveau:
+- alle detectoren hebben een afsluitstatus;
+- alle bronfamilies zijn uitgevoerd of expliciet ONBESCHIKBAAR;
+- geen open lead kan redelijkerwijs een dramatisch te missen A-locatie zijn;
+- een cross-detector pass levert geen nieuwe high-value lead meer op.
+
+Machine-status: `DISCOVERY_SATURATED` / `NOT_YET_SATURATED`. `REASONABLY_COMPLETE` is toegestaan
+als mensleesbare samenvatting, nooit als primaire machine-status.
+
+### Retroactiviteit
+
+Deze correctie geldt ook voor de reeds afgeronde Varanasi-regio, maar begrensd: een
+`VARANASI_DISCOVERY_COVERAGE_AUDIT` (niet een volledige herstart van de 40 GEO-records). Doel:
+controleren of de bestaande 40-kandidatenlijst detector- en brondekking mist, actief zoeken naar
+niet-ontdekte high-value kandidaten, en de bestaande 40 toetsen op `why_this_one`/
+`why_not_the_others`/levend-vs-monumentaal/beroemd-maar-leeg. Geen A/B/C-wijziging zonder Mark,
+niets stil verwijderen — uitsluitend missing leads, zwakke kandidaten, detectorgaten en
+dekkingsstatus als output. Deze audit wordt apart en expliciet door Mark opgestart, niet
+automatisch als onderdeel van een tooling-update.
+
 ## Scope-afspraak (belangrijk, expliciet door Mark vastgesteld op 2026-08-02)
 
 CC (de Home Assistant-sessie) heeft hier een ARCHITECTUUR/TOOLING-rol — kritiek leveren, scripts
