@@ -13,6 +13,31 @@ SATURATION-004) zochten impliciet naar "welke tradities/categorieën ontbreken n
 doelstelling en kan tot een ander soort kandidaat leiden — mogelijk objectief bijzonder, maar
 niet aantoonbaar bij Marks reis passend. Dit document herstelt het onderscheid.
 
+## De hoofdvraag (staat boven alle detectoren, INDIA2-besluit 2026-08-03)
+
+Elke sweep, elke detector en elke kandidaatbeoordeling is ondergeschikt aan precies één vraag:
+
+> "Van welke locaties zou Mark later waarschijnlijk zeggen: 'Als ik had geweten dat deze hier
+> lag, had ik hem absoluut niet willen missen.'"
+
+NIET: "welke locaties bestaan hier?" NIET: "welke religieuze tradities ontbreken?" Daaruit volgen
+acht regels, die boven alle detectoren en boven categorievolledigheid staan:
+
+1. Detectoren zijn hulpmiddelen. Niet het doel.
+2. Categorievolledigheid is nooit een reden om een kandidaat op te nemen.
+3. Een complete religieuze traditie mag volledig ontbreken wanneer die voor Mark geen aantoonbare
+   meerwaarde heeft.
+4. Een sweep mag eindigen met NUL nieuwe kandidaten. Dat is een volledig geldig resultaat.
+5. Een nieuwe kandidaat moet zichzelf verdienen.
+6. Vaste volgorde: BESTAAT → BETEKENIS → ERVAARBAAR → NOT_TO_BE_MISSED → pas daarna kandidaat.
+7. De onderzoeksstraal (bijvoorbeeld 20 km) is een onderzoeksgebied, geen harde afkapgrens:
+   0-20 km moet aantoonbaar onderzocht zijn; 20-30 km mag uitsluitend signalerend worden bekeken
+   op uitzonderlijke "zou zonde zijn geweest"-locaties; verder alleen op expliciet verzoek. Zie
+   `india4/protocols/INDIA5_REGION_START_PROTOCOL.md`, stap 2 (Discovery), voor de verwerking van
+   deze regel in de stapvolgorde.
+8. Dit is een algemeen ontwerpprincipe, canoniek vastgelegd in zowel dit document als
+   `india4/protocols/INDIA5_REGION_START_PROTOCOL.md` — niet Varanasi-specifiek.
+
 ---
 
 ## 1. Hoe vertaal je Marks interesses naar objectieve zoekcriteria?

@@ -10,6 +10,22 @@ stap gelden de reeds bestaande canonieke bronnen, hieronder per stap aangehaald:
 Dit document vervangt die bronnen niet — het legt uitsluitend de vaste volgorde en de
 beslissingsbevoegdheid per stap vast, op één plek.
 
+## Leidend principe (staat boven alle negen stappen, INDIA2-besluit 2026-08-03)
+
+Elke stap hieronder is ondergeschikt aan één hoofdvraag, die boven elke detector en boven
+categorievolledigheid staat:
+
+> "Van welke locaties zou Mark later waarschijnlijk zeggen: 'Als ik had geweten dat deze hier
+> lag, had ik hem absoluut niet willen missen.'"
+
+NIET "welke locaties bestaan hier?" en NIET "welke religieuze tradities ontbreken?". Voluit
+uitgewerkt in `india4/protocols/NOT_TO_BE_MISSED_FRAMEWORK.md`, sectie "De hoofdvraag" — kernpunten:
+detectoren zijn hulpmiddelen, nooit het doel; categorievolledigheid is nooit op zichzelf een
+reden om een kandidaat op te nemen; een complete traditie mag volledig ontbreken zonder
+aantoonbare meerwaarde voor Mark; een sweep mag eindigen met NUL nieuwe kandidaten — dat is een
+volledig geldig resultaat; een nieuwe kandidaat moet zichzelf verdienen; de vaste volgorde is
+BESTAAT → BETEKENIS → ERVAARBAAR → NOT_TO_BE_MISSED → pas daarna kandidaat.
+
 ## De negen stappen (vast, nooit overslaan of omdraaien)
 
 ```
@@ -87,6 +103,16 @@ gevolgd door drie opeenvolgende materieel verschillende richtingen zonder nieuwe
 Op sweepniveau: alle detectoren hebben een afsluitstatus, alle bronfamilies zijn uitgevoerd of
 expliciet ONBESCHIKBAAR, en geen open lead kan redelijkerwijs een dramatisch te missen A-locatie
 zijn.
+
+**Onderzoeksstraal, geen harde afkapgrens** (INDIA2-besluit 2026-08-03): de in stap 1 vastgestelde
+straal (bijvoorbeeld 20 km) is een onderzoeksgebied, geen harde grens. Het volledige gebied
+binnen die straal moet aantoonbaar onderzocht zijn. Het gebied tot 50% daarbuiten (bijvoorbeeld
+20-30 km) mag uitsluitend signalerend worden bekeken, en uitsluitend op uitzonderlijke "zou zonde
+zijn geweest"-locaties die de hoofdvraag zelf zouden doorstaan. Nog verder daarbuiten wordt alleen
+op Marks expliciete verzoek onderzocht. Een vondst buiten de kernstraal krijgt nooit automatisch
+kandidaatstatus — hij doorloopt dezelfde stappen 3-5 als elke andere vondst, en wordt bij twijfel
+gerapporteerd als `OUT_OF_SCOPE_HIGH_VALUE_LEAD` in plaats van stilzwijgend genegeerd of
+stilzwijgend opgenomen.
 
 **Wanneer Mark beslist**: nooit tijdens Discovery zelf — dit is zuiver onderzoekswerk zonder
 inhoudelijke keuzemomenten voor Mark.
