@@ -6,7 +6,7 @@ completed_by: CCI
 
 ## Status
 
-`GOUD_COMPLETE_4_CANDIDATES_AWAITING_MARK_DECISIONS`
+`GOUD_COMPLETE_4_CANDIDATES_MARK_DECISIONS_RECEIVED_ALL_A`
 
 ## Scope
 
@@ -35,8 +35,19 @@ kandidaten toegevoegd.
 - Niet-bevestigde markers (048, 049) duidelijk gemarkeerd, zowel in het rapport als in de KML.
 - Geen kandidaat, nummer of A/B/C stilzwijgend gewijzigd t.o.v. eerdere goedgekeurde rondes.
 
+## Mark-besluit (2026-08-05)
+
+Mark heeft direct in de chat gereageerd op de keuze-reisgids-PDF met "Alles A". Vastgelegd in
+`../MARK_DECISIONS_2026-08-05.jsonl` en verwerkt in `PRE_BRONS/DISCOVERY_CANDIDATES.jsonl`
+(`protected_mark_status: A` voor alle vier). Definitief:
+
+- 046 Mahabodhi Temple Complex — **A**
+- 047 Sujata Stupa, Bakraur — **A**
+- 048 Dungeshwari Cave Temples (Mahakala Caves) — **A**
+- 049 Great Buddha Statue — **A**
+
 ## Volgende stap
 
-Discovery, BRONS, ZILVER en GOUD zijn voor deze vier kandidaten inhoudelijk afgerond. De run
-wacht nu op Marks A/B/C-keuze voor 046-049 — geen verdere CCI-actie tot die keuze of een nieuwe
-INDIA2-opdracht.
+Discovery, BRONS, ZILVER, GOUD en Marks A/B/C-keuzeronde zijn voor deze vier kandidaten volledig
+afgerond. Eventuele vervolgstappen (KML bijwerken met A-kleur, reisplanning/TRAVEL) uitsluitend op
+expliciete opdracht van INDIA2 of Mark — geen automatisch vervolg.
