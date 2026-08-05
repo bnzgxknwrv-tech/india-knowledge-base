@@ -114,8 +114,9 @@ candidate_block(
     "de Ratnachakrama (het juwelenwandelpad, met stenen lotusbloemen die zijn voetstappen "
     "markeren), de Ratnaghar Chaitya, de Ajapala Nigrodh-boom, de Muchalinda-vijver en de "
     "Rajyatana-boom. Het geheel is UNESCO-werelderfgoed. Bijzonder: Swami Sri Yukteswar Giri "
-    "-- de leraar van de leraar van Yogananda, in Marks eigen Kriya-lijn -- werd hier in juli "
-    "1906 geinitieerd in de sannyas-orde.",
+    "-- Yogananda's eigen, directe guru, in Marks eigen Kriya-lijn (Babaji, Lahiri Mahasaya, "
+    "Sri Yukteswar, Yogananda) -- werd hier op Guru Purnima, juli 1906, geinitieerd in de "
+    "sannyas-orde door Swami Krishna Dayal Giri van Bodh Gaya.",
     "Het 50 meter hoge tempelgebouw, de eeuwenoude boom, monniken en pelgrims uit de hele "
     "boeddhistische wereld, votiefstoepa's rondom -- een levend, dagelijks bezocht heiligdom, "
     "geen stil monument.",
