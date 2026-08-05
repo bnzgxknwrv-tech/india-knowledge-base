@@ -1,6 +1,6 @@
 # INDIA3 HANDOFF — canonieke overdracht
 
-Datum: 2026-08-05
+Datum: 2026-08-05 (bijgewerkt na commit `ad641131d47b4c11f7adbbdf4914e70fb37df6d1`)
 Repository: `bnzgxknwrv-tech/india-knowledge-base`
 Werkbranch: `claude/werk-je-nu-of-niet-oa10y7`
 PR: `#23` (draft; niet mergen zonder expliciete vrijgave van Mark)
@@ -35,7 +35,7 @@ Status: ACTIEF
 
 Daarna gebruikt CCI `Bericht: 012` en sluit af met `/CCI (012)`.
 
-De laatste feitelijke overdracht van CCI na ChatGPT-bericht 009 geldt als briefje **010**, ook al labelde CCI die envelop niet correct. Het eerstvolgende inter-AI-briefje moet daarom **011** zijn.
+**Actuele tellerstand:** het laatste inter-AI-briefje was CCI-bericht **012** (kwaliteitscorrecties op 054/055/056 + Muchalinda-uitkomst, zie commit `ad641131d47b4c11f7adbbdf4914e70fb37df6d1` en PR-comment op #23). Het eerstvolgende inter-AI-briefje van India3 naar CCI moet dus **013** zijn. Nooit opnieuw bij 011 beginnen.
 
 ## Kernfilosofie van de sweep
 
@@ -89,13 +89,29 @@ Deze besluiten staan in `MARK_DECISIONS_2026-08-05.jsonl` en mogen niet opnieuw 
 
 ### Heropende voorselectie
 
-Commit `d62f00f30190872a495deb0c53acbf8f5e73658c` bevat:
+Commit `d62f00f30190872a495deb0c53acbf8f5e73658c` bevat de heropening:
 
 - `runs/active/BODHGAYA-DISCOVERY-001/GOUD/MARK_SELECTION_REPORT.md`
 - `runs/active/BODHGAYA-DISCOVERY-001/GOUD/EXCLUSION_REPORT.md`
 - bijgewerkte `NUMBERING_REGISTRY.jsonl`
 - bijgewerkte `DISCOVERY_CANDIDATES.jsonl`
 - bijgewerkte `WATCHLIST.jsonl`
+
+Commit `ad641131d47b4c11f7adbbdf4914e70fb37df6d1` (CCI-bericht 012, ná ChatGPT-bericht 011) bevat
+de daarop volgende kwaliteitscorrectieronde:
+
+- 054 (Wat Thai Buddhagaya): "eerste buitenlandse klooster" afgezwakt naar "eerste moderne
+  buitenlandse klooster"; onbevestigd 25m-tuinbeeld gemarkeerd als niet-geverifieerd.
+- 055 (Royal Bhutan Monastery): absolute architectuurclaim vervangen door de daadwerkelijke,
+  superlatieve brontekst; officiële details toegevoegd.
+- 056: canonical_name **opgelost en gecorrigeerd** naar het officieel bevestigde "Tibetan
+  Temple" (tourism.bihar.gov.in) — de eerdere "Namgyal Monastery"/Dalai-Lama-claim staat nu
+  uitsluitend als expliciet onbevestigde alias vermeld, niet meer als hoofdclaim. Nummer 056
+  zelf ongewijzigd.
+- Muchalinda-vijver (sublocatie van 046, week 6): formele uitkomst vastgelegd —
+  `MODERN_COMPLEX_REPRESENTATION_VS_HISTORICAL_SITE`. Niets zelfstandig genummerd.
+- Deel 1 (046–049) van `MARK_SELECTION_REPORT.md` staat nu volledig inline, niet meer alleen
+  als verwijzing naar `BODHGAYA_GOUD_REPORT.md`.
 
 Negen eerder verborgen items zijn terecht als MARK_WAARDIG hersteld en permanent genummerd:
 
@@ -105,11 +121,14 @@ Negen eerder verborgen items zijn terecht als MARK_WAARDIG hersteld en permanent
 - 053 Root Institute (FPMT)
 - 054 Wat Thai Buddhagaya / Thai Monastery
 - 055 Royal Bhutan Monastery
-- 056 Namgyal Monastery Bodhgaya / Tibetaans klooster tegenover Mahabodhi — identiteit niet 100% bevestigd
+- 056 Tibetan Temple / Tibetaans klooster tegenover Mahabodhi (identiteit nu opgelost; Namgyal
+  Monastery en Karma Temple staan alleen nog als onbevestigde aliassen vermeld)
 - 057 Vietnamese Temple
 - 058 Japanese Temple / Indosan Nippon
 
-Mark heeft voor 050–058 nog **geen A/B/C** gekozen.
+Mark heeft voor 050–058 nog **geen A/B/C** gekozen. Inhoudelijk zijn deze negen nu klaar om
+compact aan Mark te worden voorgelegd — India3's eerste taak is dat zelf te verifiëren, niet
+klakkeloos aan te nemen.
 
 ### Harde uitsluitingen / leads
 
@@ -120,7 +139,12 @@ Mark heeft voor 050–058 nog **geen A/B/C** gekozen.
 
 In `MARK_SELECTION_REPORT.md` zijn de traditionele weekplekken binnen het Mahabodhi-complex uitgewerkt als sublocaties zonder eigen nummer, waaronder Animeshlochan Chaitya, Ratnachakrama, Ratnaghar Chaitya, Ajapala Nigrodh, Muchalinda-vijver en Rajyatana-boom.
 
-Open beslispunt: Muchalinda kan naar twee gelijknamige plekken verwijzen. Niet stil oplossen of apart nummeren zonder voldoende bewijs/besluit.
+Muchalinda-vijver: onderzoek afgerond, geclassificeerd als `MODERN_COMPLEX_REPRESENTATION_VS_HISTORICAL_SITE`
+(officiële Muchalinda Sarovar binnen het complex + apart dorp Mocharim ~1 km zuid met een eigen,
+gelijknamige vijver; geen bron koppelt de twee expliciet aan elkaar). Het aparte Mocharim-dorp is
+op het huidige bronmateriaal niet aantoonbaar zelfstandig MARK_WAARDIG bevonden — bewust NIET
+apart genummerd. Als India3/Mark hier verder onderzoek naar wil, is dat een nieuwe, expliciete
+opdracht, geen automatische vervolgstap.
 
 ### GEO
 
@@ -130,12 +154,22 @@ Open beslispunt: Muchalinda kan naar twee gelijknamige plekken verwijzen. Niet s
 
 ## Direct volgende inhoudelijke stap
 
-1. India3 leest `MARK_SELECTION_REPORT.md` en `EXCLUSION_REPORT.md` volledig.
-2. India3 controleert of 050–058 elk voldoende, begrijpelijke informatie geven waarmee Mark zelfstandig A/B/C kan kiezen.
-3. Controlepunten: identiteit 056; daadwerkelijke bezoekbaarheid 052/053; onderscheid tussen internationale kloosters; geen verborgen advies dat Marks keuze stuurt; 046-sublocaties voldoende duidelijk.
+1. India3 leest `MARK_SELECTION_REPORT.md` en `EXCLUSION_REPORT.md` volledig, in de actuele
+   versie op commit `ad641131d47b4c11f7adbbdf4914e70fb37df6d1` (niet een oudere, uit een oude
+   chat onthouden versie).
+2. India3 controleert zelfstandig — niet aannemen op gezag van deze overdracht — of 050–058 elk
+   voldoende, begrijpelijke informatie geven waarmee Mark zelfstandig A/B/C kan kiezen, en of de
+   054/055/056-correcties en de Muchalinda-uitkomst daadwerkelijk correct verwerkt zijn.
+3. Resterende controlepunten: daadwerkelijke bezoekbaarheid 052/053; onderscheid tussen de vijf
+   internationale kloosters (054/055/056/057/058); geen verborgen advies dat Marks keuze stuurt;
+   046-sublocaties voldoende duidelijk. (056-identiteit en Muchalinda zijn al opgelost — dit is
+   ter verificatie, niet om opnieuw uit te zoeken.)
 4. Nog **geen PDF**.
-5. Als Markdown inhoudelijk voldoet: leg 050–058 compact aan Mark voor voor A/B/C, of laat CCI eerst gerichte tekortkomingen repareren.
-6. Na Marks keuzes: besluiten duurzaam loggen, daarna pas BRONS/ZILVER/GEO voor de door protocol vereiste records en uiteindelijk KML/TRAVEL. PDF alleen op expliciet verzoek.
+5. Als Markdown inhoudelijk voldoet: leg 050–058 compact aan Mark voor voor A/B/C, of laat CCI
+   eerst gerichte tekortkomingen repareren via een genummerd inter-AI-briefje (begin bij 013).
+6. Na Marks keuzes: besluiten duurzaam loggen (zelfde JSONL-patroon als
+   `MARK_DECISIONS_2026-08-05.jsonl`), daarna pas BRONS/ZILVER/GEO voor 050–058 conform
+   `INDIA5_REGION_START_PROTOCOL.md`, en uiteindelijk KML/TRAVEL. PDF alleen op expliciet verzoek.
 
 ## Verboden regressies
 
