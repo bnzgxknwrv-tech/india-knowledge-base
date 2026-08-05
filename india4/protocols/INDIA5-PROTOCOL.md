@@ -148,6 +148,15 @@ leest 'm één keer en gooit 'm daarna weg — het is geen opslagformaat. Daarom
 - De brondata (dataset/RUN.yaml/register) is te allen tijde de bron van waarheid, ook als de PDF
   achterloopt of niet meer bestaat.
 
+**HARDE HERBEVESTIGING (Mark-besluit 2026-08-05, na een schending van deze regel)**: CCI heeft
+deze regel zelf overtreden door na een kleine tekstcorrectie (één foutieve zin) zonder te vragen
+een volledige nieuwe PDF te bouwen en te versturen. Vanaf nu geldt zonder uitzondering: CCI mag
+NOOIT uit eigen beweging een PDF bouwen of herbouwen, ook niet voor een correctie, ook niet als
+de fout klein lijkt. Altijd eerst expliciet vragen ("wil je dat ik de PDF opnieuw bouw met deze
+correctie, of volstaat de correctie in de brondata?") en pas bouwen na Marks eigen "ja". Een
+tekstfout in een reeds geleverde PDF wordt gemeld en in de brondata gecorrigeerd; de PDF zelf
+wordt pas herbouwd na expliciete toestemming.
+
 ## Accommodatiebesluiten (Mark-besluit 2026-08-02, commit cf2daf2)
 
 Hotels, guesthouses, bases en andere verblijfskeuzes zijn GEEN kandidaten (geen A/B/C-locatie-ID uit
