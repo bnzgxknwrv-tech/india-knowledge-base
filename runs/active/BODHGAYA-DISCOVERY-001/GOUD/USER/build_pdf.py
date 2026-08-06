@@ -1,258 +1,591 @@
 #!/usr/bin/env python3
-"""Bouwt de Bodh Gaya-keuze-reisgids-PDF voor 046-049, volgens
-india4/templates/GOUD_PDF_TEMPLATE.md. Geen nieuw onderzoek -- uitsluitend bestaande,
-al goedgekeurde brondata uit BODHGAYA_GOUD_REPORT.md / ZILVER-Z01.jsonl / DISCOVERY_CANDIDATES.jsonl.
+"""Bouwt de Bodh Gaya-keuze-reisgids-PDF voor 046-058, in het Varanasi-reisgidsformaat
+(VARANASI_40_KEUZE_REISGIDS.pdf als visueel/inhoudelijk model). Geen nieuw onderzoek --
+uitsluitend bestaande, al goedgekeurde brondata uit MARK_SELECTION_REPORT.md,
+BODHGAYA_GOUD_REPORT.md, MARK_DECISIONS_2026-08-05.jsonl en DISCOVERY_CANDIDATES.jsonl.
+
+046-049: bestaande Mark-keuze A (LOCKED, niet opnieuw ter keuze).
+050-058: DOOR MARK TE BEOORDELEN.
+
+Twee-pass build: pass 1 rendert met een placeholder-index om de echte paginanummers per
+kandidaat te bepalen (via een onzichtbare Marker-flowable), pass 2 rendert de definitieve
+PDF met de juiste paginanummers in de keuze-index. Layout/inhoud is tussen beide passes
+identiek, dus de paginering verschuift niet.
 """
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.units import cm
 from reportlab.lib import colors
 from reportlab.platypus import (
-    SimpleDocTemplate, Paragraph, Spacer, PageBreak, Table, TableStyle, HRFlowable
+    SimpleDocTemplate, Paragraph, Spacer, PageBreak, Table, TableStyle, HRFlowable, Flowable
 )
 from reportlab.lib.enums import TA_CENTER
 
-OUT = "runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/BODHGAYA_046_049_KEUZE_REISGIDS.pdf"
+OUT = "runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/BODHGAYA_046_058_KEUZE_REISGIDS.pdf"
+TMP = "/tmp/claude-0/-home-user-india-knowledge-base/1fd594af-6399-554f-b402-799cc673ccdc/scratchpad/_bgy_pdf_pass1.pdf"
 
 styles = getSampleStyleSheet()
 styles.add(ParagraphStyle("CoverTitle", parent=styles["Title"], fontSize=26, spaceAfter=6, alignment=TA_CENTER))
 styles.add(ParagraphStyle("CoverSub", parent=styles["Normal"], fontSize=13, alignment=TA_CENTER, spaceAfter=4, textColor=colors.HexColor("#444444")))
-styles.add(ParagraphStyle("CandTitle", parent=styles["Heading1"], fontSize=17, spaceBefore=6, spaceAfter=4, textColor=colors.HexColor("#7a3b12")))
+styles.add(ParagraphStyle("CandTitle", parent=styles["Heading1"], fontSize=16, spaceBefore=6, spaceAfter=4, textColor=colors.HexColor("#7a3b12")))
 styles.add(ParagraphStyle("SectionHead", parent=styles["Heading2"], fontSize=12, spaceBefore=10, spaceAfter=10))
-styles.add(ParagraphStyle("SubHead", parent=styles["Heading3"], fontSize=10.5, spaceBefore=8, spaceAfter=3, textColor=colors.HexColor("#7a3b12")))
-styles.add(ParagraphStyle("Body", parent=styles["Normal"], fontSize=10.2, leading=14.5, spaceAfter=6))
-styles.add(ParagraphStyle("Bijzonder", parent=styles["Normal"], fontSize=10.8, leading=14.5, spaceAfter=8, textColor=colors.HexColor("#1f5c1f"), fontName="Helvetica-Oblique"))
-styles.add(ParagraphStyle("TechBlock", parent=styles["Normal"], fontSize=7.8, leading=10.5, textColor=colors.HexColor("#555555")))
+styles.add(ParagraphStyle("SubHead", parent=styles["Heading3"], fontSize=10.2, spaceBefore=7, spaceAfter=3, textColor=colors.HexColor("#7a3b12")))
+styles.add(ParagraphStyle("Body", parent=styles["Normal"], fontSize=9.8, leading=13.8, spaceAfter=5))
+styles.add(ParagraphStyle("Bijzonder", parent=styles["Normal"], fontSize=10.2, leading=13.8, spaceAfter=7, textColor=colors.HexColor("#1f5c1f"), fontName="Helvetica-Oblique"))
+styles.add(ParagraphStyle("Onzeker", parent=styles["Normal"], fontSize=9.4, leading=13, spaceAfter=6, textColor=colors.HexColor("#8a4b00")))
+styles.add(ParagraphStyle("TechBlock", parent=styles["Normal"], fontSize=7.6, leading=10.3, textColor=colors.HexColor("#555555")))
 styles.add(ParagraphStyle("ClusterHead", parent=styles["Heading2"], fontSize=13, spaceBefore=14, spaceAfter=6, textColor=colors.HexColor("#7a3b12")))
+styles.add(ParagraphStyle("StatusA", parent=styles["Normal"], fontSize=10, spaceAfter=6, textColor=colors.HexColor("#1f5c1f"), fontName="Helvetica-Bold"))
+styles.add(ParagraphStyle("StatusOpen", parent=styles["Normal"], fontSize=10, spaceAfter=6, textColor=colors.HexColor("#a05a00"), fontName="Helvetica-Bold"))
+styles.add(ParagraphStyle("CellText", parent=styles["Normal"], fontSize=8.0, leading=9.6))
+styles.add(ParagraphStyle("CellHead", parent=styles["Normal"], fontSize=8.3, leading=10, textColor=colors.white, fontName="Helvetica-Bold"))
+styles.add(ParagraphStyle("CellGreen", parent=styles["Normal"], fontSize=8.0, leading=9.6, textColor=colors.HexColor("#1f5c1f"), fontName="Helvetica-Bold"))
+styles.add(ParagraphStyle("CellOrange", parent=styles["Normal"], fontSize=8.0, leading=9.6, textColor=colors.HexColor("#a05a00"), fontName="Helvetica-Bold"))
 
-story = []
+page_map = {}
 
-# --- Voorblad ---
-story.append(Spacer(1, 5 * cm))
-story.append(Paragraph("Bodh Gaya", styles["CoverTitle"]))
-story.append(Paragraph("Keuze-reisgids -- 046 t/m 049", styles["CoverSub"]))
-story.append(Paragraph("run_id: BODHGAYA-DISCOVERY-001 | 3 augustus 2026", styles["CoverSub"]))
-story.append(Spacer(1, 1 * cm))
-story.append(Paragraph(
-    "Dit is een reisgids voor vier locaties die de NOT_TO_BE_MISSED-poort doorstonden. "
-    "Voor de volledige onderbouwing, GEO-verificatie en de negen onderzochte maar afgevallen "
-    "locaties, zie het technische GOUD-rapport (BODHGAYA_GOUD_REPORT.md) en WATCHLIST.jsonl.",
-    styles["Body"]))
-story.append(PageBreak())
 
-# --- Samenvattingstabel ---
-story.append(Paragraph("Samenvatting", styles["SectionHead"]))
-story.append(Paragraph(
-    "Van dertien onderzochte, sterk onderbouwde vondsten bleven na een strenge onderlinge "
-    "vergelijking vier locaties over die kandidaatstatus en een permanent nummer kregen. De "
-    "overige negen zijn onderzocht en bewust niet genummerd (zie laatste pagina).",
-    styles["Body"]))
+class Marker(Flowable):
+    """Onzichtbare flowable die het huidige paginanummer registreert onder 'key'."""
 
-data = [
-    ["Nr.", "Naam", "GEO-status", "NOT_TO_BE_MISSED"],
-    ["046", "Mahabodhi Temple Complex", "CONFIRMED", "CORE_PASS"],
-    ["047", "Sujata Stupa, Bakraur", "CONFIRMED", "CORE_PASS"],
-    ["048", "Dungeshwari Cave Temples", "niet bevestigd", "CORE_PASS"],
-    ["049", "Great Buddha Statue", "niet bevestigd", "OPTIONAL_PASS"],
+    def __init__(self, key):
+        Flowable.__init__(self)
+        self.key = key
+
+    def wrap(self, availWidth, availHeight):
+        return (0, 0)
+
+    def draw(self):
+        page_map[self.key] = self.canv.getPageNumber()
+
+
+# ---------------------------------------------------------------------------
+# Kandidaatdata -- uitsluitend overgenomen uit MARK_SELECTION_REPORT.md /
+# BODHGAYA_GOUD_REPORT.md / DISCOVERY_CANDIDATES.jsonl. Geen nieuw onderzoek.
+# ---------------------------------------------------------------------------
+
+CANDIDATES = [
+    dict(
+        nr="046", naam="Mahabodhi Temple Complex", hook="de plek van de verlichting zelf",
+        cluster="Kerncluster", mark_status="A",
+        wat_is_het="Het complex rond de plek waar Boeddha 2500 jaar geleden verlichting bereikte. "
+        "Omvat de Vajrasana (de diamanttroon, bewaard door keizer Ashoka) en de directe "
+        "nakomeling van de oorspronkelijke Bodhi-boom.",
+        waarom="Sta op de plaats waar Boeddha de verlichting bereikte -- niet een afbeelding of "
+        "herdenkteken, maar de plek zelf.",
+        betekenis="Binnen dezelfde ommuurde grens liggen ook de zeven traditionele plekken van de "
+        "weken direct na de verlichting: de Animeshlochan Chaitya (waar Boeddha een week lang "
+        "onafgebroken naar de boom staarde), de Ratnachakrama (het juwelenwandelpad, met stenen "
+        "lotusbloemen die zijn voetstappen markeren), de Ratnaghar Chaitya, de Ajapala "
+        "Nigrodh-boom, de Muchalinda-vijver en de Rajyatana-boom. Het geheel is UNESCO-"
+        "werelderfgoed. Bijzonder: Swami Sri Yukteswar Giri -- Yogananda's eigen, directe guru, "
+        "in Marks eigen Kriya-lijn (Babaji, Lahiri Mahasaya, Sri Yukteswar, Yogananda) -- werd "
+        "hier op Guru Purnima, juli 1906, geinitieerd in de sannyas-orde.",
+        ervaart="Het 50 meter hoge tempelgebouw, de eeuwenoude boom, monniken en pelgrims uit de "
+        "hele boeddhistische wereld, votiefstoepa's rondom -- een levend, dagelijks bezocht "
+        "heiligdom, geen stil monument.",
+        onderscheidend="Een van de vier belangrijkste boeddhistische pelgrimsplaatsen ter wereld, "
+        "en de enige plek die de verlichting zelf markeert.",
+        bezoektijd="NOG NIET ONDERZOCHT",
+        combineer="047 Sujata Stupa (circa 20 minuten lopen, inclusief oversteek Phalgu-rivier).",
+        tips="Dagelijks vrij toegankelijk, geen inschrijving of speciale toegang nodig.",
+        overslaan="Geen reden om over te slaan -- dit is de ankerplek van de hele regio.",
+        onzekerheden="Exacte locatie van Sri Yukteswars sannyas-initiatie (1906) binnen Bodh Gaya "
+        "niet vastgesteld. De Muchalinda-vijver binnen het complex heeft mogelijk een tweede, "
+        "gelijknamige plek in het dorp Mocharim (circa 1 km zuid) -- geen bron bevestigt de "
+        "relatie tussen beide; dit vraagt geen actie tijdens een regulier bezoek.",
+        geo_status="CONFIRMED", coord_text="24.6959222N, 84.9914193E (rechtstreekse Google Maps/Earth-marker)",
+        checked_at="2026-08-05",
+    ),
+    dict(
+        nr="047", naam="Sujata Stupa, Bakraur", hook="waar de Middenweg begon",
+        cluster="Kerncluster", mark_status="A",
+        wat_is_het="Een archeologisch stoepacomplex (oorspronkelijke bouw 2e eeuw v.Chr., latere "
+        "uitbreidingsfase 8e-10e eeuw CE) op de plek waar Sujata, een dorpsvrouw uit Bakraur, "
+        "Boeddha een kom rijstpudding aanbood.",
+        waarom="Bezoek de exacte plek waar een dorpsvrouw Boeddha's leven een beslissende wending "
+        "gaf.",
+        betekenis="Deze gebeurtenis beeindigde Boeddha's zesjarige extreme ascese en leidde "
+        "rechtstreeks tot zijn ontdekking van de Middenweg -- een kernleerstuk van het "
+        "boeddhisme, geen zijdelings detail.",
+        ervaart="Een tastbaar, gedateerd monument op de exacte plek van deze gebeurtenis, circa 20 "
+        "minuten lopen van het hoofdcomplex, rustiger en minder toeristisch.",
+        onderscheidend="Onvervangbaar: de enige plek die deze specifieke, verhaalbepalende "
+        "gebeurtenis markeert -- complementair aan zowel Mahabodhi (de verlichting zelf) als "
+        "Dungeshwari (de ascese die voorafging), geen overlap.",
+        bezoektijd="NOG NIET ONDERZOCHT",
+        combineer="046 Mahabodhi Temple Complex (circa 1,2 km, eenvoudig te combineren op dezelfde "
+        "dag).",
+        tips="Vereist een korte oversteek van de Phalgu-rivier vanaf Bodh Gaya.",
+        overslaan="Geen duidelijke reden om over te slaan -- complementair aan 046 en 048.",
+        onzekerheden="Geen open onzekerheden meer; een eerder gemeld drievoudig "
+        "coordinaatconflict is opgelost via rechtstreekse Google Maps/Earth-bevestiging "
+        "(inclusief Google Plus Code M2X3+58W).",
+        geo_status="CONFIRMED", coord_text="24.6979887N, 85.0033228E (rechtstreekse Google Maps/Earth-marker, Plus Code M2X3+58W)",
+        checked_at="2026-08-05",
+    ),
+    dict(
+        nr="048", naam="Dungeshwari Cave Temples (Mahakala Caves)", hook="de grotten van de zes jaar ascese",
+        cluster="Aanvullend", mark_status="A",
+        wat_is_het="Rotsgehouwen grottempels (5e-6e eeuw CE) op de plek waar Boeddha zes jaar "
+        "extreme ascese beoefende voor hij naar Bodh Gaya afdaalde voor de uiteindelijke "
+        "verlichting.",
+        waarom="Ga naar de plek waar Boeddha, voor zijn verlichting, zichzelf tot op het bot "
+        "uithongerde op zoek naar waarheid.",
+        betekenis="Het spiegelbeeld-verhaal van Sujata's aanbieding -- de ascese die eraan "
+        "voorafging. Genoemd door de 7e-eeuwse Chinese pelgrim Xuanzang in zijn reisverslag. Een "
+        "van de grotten bevat een gouden beeld van de uitgemergelde Boeddha.",
+        ervaart="Rustige rotsgrotten in de heuvels, ver van de drukte van het hoofdcomplex, met het "
+        "aangrijpende uitgemergelde-Boeddhabeeld als middelpunt.",
+        onderscheidend="Onvervangbaar: geen andere plek toont dit specifieke moment.",
+        bezoektijd="NOG NIET ONDERZOCHT",
+        combineer="Eigen rit nodig; niet zonder meer op dezelfde ochtend te combineren met de "
+        "kerncluster.",
+        tips="Circa 12-14 km van Bodh Gaya (bronnen varieren), vereist een aparte rit per taxi of "
+        "auto-riksja.",
+        overslaan="Geen duidelijke reden om over te slaan qua inhoud -- toont een uniek moment dat "
+        "nergens anders getoond wordt; wel de grootste reisinspanning van de kerngroep.",
+        onzekerheden="Geen bevestigde Google Maps-marker gevonden ondanks vijf zoekpogingen over "
+        "twee ZILVER-rondes -- identiteit blijft wel eenduidig bevestigd via twee onafhankelijke "
+        "overheidsbronnen en de dorpsnaam Larpur.",
+        geo_status="GOOGLE_MAPS_MARKER_NOT_CONFIRMED", coord_text="geen bevestigde marker gevonden -- geen coordinaat geraden",
+        checked_at="2026-08-05",
+    ),
+    dict(
+        nr="049", naam="Great Buddha Statue", hook="het grootste Boeddhabeeld van India",
+        cluster="Optioneel", mark_status="A",
+        wat_is_het="Een circa 20 m hoog zittend Boeddhabeeld (circa 24 m totale constructie "
+        "inclusief lotus en voetstuk), gebouwd door Daijokyo Buddhist Temple (Japanse "
+        "leken-boeddhistische organisatie, tempelgebouw geopend 13 februari 1983).",
+        waarom="Bekijk het eerste en grootste Boeddhabeeld ooit gebouwd in modern India -- "
+        "indrukwekkend, maar geen onderdeel van het historische verlichtingsverhaal zelf.",
+        betekenis="Geconsacreerd door de 14e Dalai Lama op 18 november 1989 als symbool van de "
+        "wereldwijde herleving van het boeddhisme.",
+        ervaart="Een groot, vrij toegankelijk beeld in open lucht, in tuinen even buiten het "
+        "centrum.",
+        onderscheidend="Indrukwekkend landmark, maar niet essentieel voor het begrip van Boeddha's "
+        "eigen verhaal, in tegenstelling tot de drie plekken hierboven.",
+        bezoektijd="NOG NIET ONDERZOCHT",
+        combineer="046 Mahabodhi Temple Complex (circa 1,1-1,5 km, eenvoudig te combineren).",
+        tips="Vrij toegankelijk, altijd zichtbaar, geen inschrijving nodig.",
+        overslaan="Geen onderdeel van Boeddha's eigen biografische verhaal -- wie voorrang geeft "
+        "aan de kernverhalen mist hierdoor geen gat in het verlichtingsverhaal.",
+        onzekerheden="Geen bevestigde Google Maps-marker; de gebruikte afstand tot 046 is "
+        "gebaseerd op een niet-bevestigd Wikipedia-infobox-coordinaat, niet op een geverifieerde "
+        "marker. Hoogte van het beeld zelf is intern inconsistent tussen bronnen (18,5 m vs. 20 m).",
+        geo_status="GOOGLE_MAPS_MARKER_NOT_CONFIRMED", coord_text="geen bevestigde marker gevonden -- geen coordinaat geraden",
+        checked_at="2026-08-05",
+    ),
+    dict(
+        nr="050", naam="Archaeological Museum of Bodh Gaya (ASI)", hook="de originele Bodhi-boom-omheining",
+        cluster="Naast 046", mark_status="OPEN",
+        wat_is_het="Een door de Archaeological Survey of India beheerd museum (opgericht 1956), "
+        "direct naast het Mahabodhi-complex.",
+        waarom="Bekijk de ORIGINELE stenen balustrade-fragmenten die ooit de Bodhi-boom zelf "
+        "omsloten (Sunga-periode, circa 2e eeuw v.Chr.) -- geen replica, maar een direct fysiek "
+        "object uit de kernplek van de verlichting.",
+        betekenis="Er is geen ander museum met objecten die direct van de Bodhi-boom-omheining "
+        "zelf afkomstig zijn -- uniek in zijn soort binnen Bodh Gaya.",
+        ervaart="Gereconstrueerde stenen balustrade, reliefs, Pala-periode sculpturen, munten uit "
+        "de Mughal-, Maurya- en Gupta-periode, in twee galerijen en een open binnenplaats.",
+        onderscheidend="Enige museum ter plekke met objecten rechtstreeks afkomstig van de "
+        "Bodhi-boom-omheining zelf.",
+        bezoektijd="NOG NIET ONDERZOCHT",
+        combineer="046 Mahabodhi Temple Complex (grenst direct aan het complex).",
+        tips="Regulier entreekaartje, geen speciale toegang of inschrijving nodig.",
+        overslaan="Geen levende praktijk en geen directe biografische link met de verlichting zelf "
+        "-- een museale, archeologische aanvulling op 046, geen zelfstandig verhaal.",
+        onzekerheden="Geen gemeld.",
+        geo_status="GOOGLE_MAPS_MARKER_NOT_CONFIRMED", coord_text="nog geen BRONS/ZILVER-GEO-stap doorlopen",
+        checked_at="2026-08-05",
+    ),
+    dict(
+        nr="051", naam="Vishnupad Temple, Gaya", hook="het voetspoor van Vishnu",
+        cluster="Gaya-stad", mark_status="OPEN",
+        wat_is_het="Een actieve hindoetempel aan de Falgu-rivier in Gaya-stad (circa 12-15 km van "
+        "Bodh Gaya), met een 40 cm lange voetafdruk in zwart basaltgesteente, vereerd als het "
+        "voetspoor van Vishnu.",
+        waarom="Een singulier, fysiek uniek relict (geen generiek Vishnu-beeld), en een van de "
+        "belangrijkste plekken in heel India voor Pind Daan (voorouder-verlossingsrituelen).",
+        betekenis="Volgens overlevering bevrijdt een Pind Daan hier voorouders tot veertien "
+        "generaties terug.",
+        ervaart="Een drukke, levende tempel met het vereerde voetspoor als centraal object, aan de "
+        "oevers van de Falgu.",
+        onderscheidend="Geen andere plek in de straal heeft dit specifieke relict of deze "
+        "specifieke, eeuwenoude rituele functie.",
+        bezoektijd="NOG NIET ONDERZOCHT",
+        combineer="NOG NIET ONDERZOCHT (eigen stad, circa 12-15 km van de Bodh Gaya-kerncluster, "
+        "geen combinatie-informatie onderzocht).",
+        tips="Drukst tijdens Pitru Paksha (september); permanent toegankelijk als actieve "
+        "publieke tempel.",
+        overslaan="Geen directe koppeling aan Marks eigen Kriya-/boeddhistische focus -- wie "
+        "strikt bij het boeddhistische verlichtingsverhaal wil blijven, kan dit overslaan.",
+        onzekerheden="Geen gemeld.",
+        geo_status="GOOGLE_MAPS_MARKER_NOT_CONFIRMED", coord_text="nog geen BRONS/ZILVER-GEO-stap doorlopen",
+        checked_at="2026-08-05",
+    ),
+    dict(
+        nr="052", naam="Tergar Monastery", hook="het Karmapa-klooster",
+        cluster="Studie/retraite", mark_status="OPEN",
+        wat_is_het="Een Karma-Kagyu-klooster/studie-instituut, gesticht door Yongey Mingyur "
+        "Rinpoche (grond geschonken door Tai Situ Rinpoche in 2000, gebouw voltooid 2006), met "
+        "ruim 300 monniken.",
+        waarom="Jaarlijkse gastheer van het Kagyu Monlam-gebedsfestival onder leiding van de 17e "
+        "Karmapa, een van de hoogste gezagsdragers binnen het Tibetaans boeddhisme.",
+        betekenis="Enige klooster in Bodh Gaya met een directe, jaarlijkse aanwezigheid van de "
+        "Karmapa zelf.",
+        ervaart="Buiten het festival: een actief studieklooster, monniken in studie/meditatie. "
+        "Tijdens het Monlam (doorgaans januari-februari): een grote internationale samenkomst met "
+        "de Karmapa zelf.",
+        onderscheidend="Enige klooster met een directe, jaarlijkse Karmapa-aanwezigheid.",
+        bezoektijd="NOG NIET ONDERZOCHT",
+        combineer="NOG NIET ONDERZOCHT.",
+        tips="Kloostergebouw permanent aanwezig; bezoekbaarheid buiten het festivalseizoen "
+        "(doorgaans januari-februari) is onzeker -- geen bevestigde publieke "
+        "bezoekersprogramma's buiten het festival gevonden.",
+        overslaan="De sterkste reden om te komen (Karmapa/Monlam) is evenement- en "
+        "seizoensafhankelijk; buiten die periode is het een regulier studieklooster.",
+        onzekerheden="Bezoekbaarheid buiten het festivalseizoen niet bevestigd.",
+        geo_status="GOOGLE_MAPS_MARKER_NOT_CONFIRMED", coord_text="nog geen BRONS/ZILVER-GEO-stap doorlopen",
+        checked_at="2026-08-05",
+    ),
+    dict(
+        nr="053", naam="Root Institute (FPMT)", hook="meerdaags meditatieprogramma",
+        cluster="Studie/retraite", mark_status="OPEN",
+        wat_is_het="Een retraitecentrum van de Foundation for the Preservation of the Mahayana "
+        "Tradition (FPMT), gesticht in 1984 door Lama Thubten Yeshe en Lama Thubten Zopa "
+        "Rinpoche, 15 minuten lopen van het hoofdcomplex.",
+        waarom="Lama Yeshe beschouwde Bodh Gaya als \"de wortel waaruit de takken van het "
+        "boeddhisme zich over de rest van de wereld verspreidden\".",
+        betekenis="Het instituut biedt een doorlopend programma van residentiele "
+        "meditatiecursussen (circa 10 dagen, oktober-maart).",
+        ervaart="Zonder cursusinschrijving: waarschijnlijk beperkt (besloten retraitecentrum, geen "
+        "vrije-inloop-tempel). Met inschrijving: een meerdaags, begeleid meditatieprogramma.",
+        onderscheidend="Enige plek in de straal met een gestructureerd, toegankelijk (tegen "
+        "inschrijving) meerdaags meditatieprogramma voor buitenstaanders.",
+        bezoektijd="NOG NIET ONDERZOCHT",
+        combineer="15 minuten lopen van het hoofdcomplex (046).",
+        tips="Sterk programma- en seizoensafhankelijk (oktober-maart, circa 10-daagse cursus); "
+        "alleen toegankelijk met inschrijving voor een cursus, geen bevestigde losse "
+        "bezoekersfaciliteit voor wie niet deelneemt.",
+        overslaan="Zonder cursusinschrijving waarschijnlijk beperkt toegankelijk -- relevant "
+        "vooral voor wie tijd/interesse heeft voor een meerdaagse retraite.",
+        onzekerheden="Geen bevestigde losse bezoekersfaciliteit voor niet-deelnemers gevonden.",
+        geo_status="GOOGLE_MAPS_MARKER_NOT_CONFIRMED", coord_text="nog geen BRONS/ZILVER-GEO-stap doorlopen",
+        checked_at="2026-08-05",
+    ),
+    dict(
+        nr="054", naam="Wat Thai Buddhagaya (Thai Monastery)", hook="de enige Thaise tempel van India",
+        cluster="Internationale kloosters", mark_status="OPEN",
+        wat_is_het="Het Koninklijk Thaise Klooster, gesticht in 1956/1957 (bronnen verschillen op "
+        "het exacte jaar) op uitnodiging van Nehru ter gelegenheid van de 25e boeddhistische "
+        "eeuw, gebouwd door de Thaise regering. Het enige Thaise tempel in India.",
+        waarom="Gebouwd op uitdrukkelijke uitnodiging van India's eerste premier -- een concreet "
+        "historisch-diplomatiek gegeven. Rijk verguld, sterk gelijkend op de tempels van Bangkok "
+        "-- visueel volledig anders dan de rest van Bodh Gaya.",
+        betekenis="Correctie na brongecontroleerde herbeoordeling: de claim \"eerste buitenlandse "
+        "klooster van Bodh Gaya\" is niet hard te onderbouwen -- een bron noemt een veel oudere "
+        "(4e-eeuwse) Sri Lankaanse Sangharam die aan de moderne internationale kloosters "
+        "voorafging. De houdbare claim is: het eerste MODERNE buitenlandse klooster in Bodh Gaya.",
+        ervaart="Een goudkleurig, sterk hellend gelakt dak en een groot bronzen Boeddhabeeld in "
+        "het heiligdom (stevig bevestigd).",
+        onderscheidend="Enige Thaise tempel in heel India, met een concreet historisch-"
+        "diplomatiek stichtingsverhaal.",
+        bezoektijd="NOG NIET ONDERZOCHT",
+        combineer="NOG NIET ONDERZOCHT.",
+        tips="Vrij toegankelijk. Gemelde ochtend-/avondmeditatiesessies en een jaarlijkse stille "
+        "retraite in januari zijn uitsluitend via reisbronnen bevestigd, niet institutioneel "
+        "geverifieerd.",
+        overslaan="Geen directe biografische link met Boeddha's eigen verlichtingsverhaal -- "
+        "vooral relevant voor wie de internationale/architectonische diversiteit van Bodh Gaya "
+        "wil zien.",
+        onzekerheden="\"Eerste buitenlandse klooster\" is bijgesteld naar \"eerste moderne "
+        "buitenlandse klooster\" (een oudere Sri Lankaanse Sangharam ging vooraf). Een apart "
+        "gemeld 25 m hoog tuinbeeld is niet bevestigd door Wikipedia of een officiele bron en "
+        "lijkt mogelijk verward met de aparte Great Buddha Statue (049). Stichtingsjaar wisselt "
+        "tussen bronnen (1956/1957).",
+        geo_status="GOOGLE_MAPS_MARKER_NOT_CONFIRMED", coord_text="nog geen BRONS/ZILVER-GEO-stap doorlopen",
+        checked_at="2026-08-05",
+    ),
+    dict(
+        nr="055", naam="Royal Bhutan Monastery", hook="Bhutaanse dzong-architectuur",
+        cluster="Internationale kloosters", mark_status="OPEN",
+        wat_is_het="Een klooster in authentieke Bhutaanse dzong-architectuur, gebouwd in de jaren "
+        "'90 met steun van Bhutans Vierde Koning Jigme Singye Wangchuck.",
+        waarom="Een van de meest opvallende voorbeelden van traditionele Bhutaanse "
+        "dzong-architectuur buiten het Himalaya-koninkrijk -- vestingachtige witgekalkte muren "
+        "met karakteristieke rode banden, een centrale utse-toren, en houtsnijwerk met de "
+        "acht-spaaks Dharma-wiel, de eindeloze knoop en beschermende godheden.",
+        betekenis="Een van de meest opvallende voorbeelden van authentieke dzong-architectuur "
+        "buiten de Himalaya in de straal -- duidelijk onderscheidend van de andere internationale "
+        "kloosters in Bodh Gaya.",
+        ervaart="Een architectonisch geheel duidelijk anders dan de andere kloosters in Bodh "
+        "Gaya, met kleiwerk en muurschilderingen die Boeddha's levensverhaal uitbeelden, en een "
+        "zeven voet (circa 2,1 m) hoog Boeddhabeeld in het heiligdom.",
+        onderscheidend="Enige authentieke dzong-architectuur in de straal.",
+        bezoektijd="NOG NIET ONDERZOCHT",
+        combineer="NOG NIET ONDERZOCHT.",
+        tips="Bezoekers wordt gepaste kleding en respectvol gedrag gevraagd; publieke toegang "
+        "officieel bevestigd (tourism.bihar.gov.in).",
+        overslaan="Geen directe biografische link met Boeddha's verlichting -- vooral relevant "
+        "voor wie architectuur/vormgeving waardeert.",
+        onzekerheden="Een eerdere claim (\"architectuurstijl die verder nergens buiten de "
+        "Himalaya bestaat\") was een overstatement en is gecorrigeerd naar de daadwerkelijke, "
+        "minder absolute brontekst.",
+        geo_status="GOOGLE_MAPS_MARKER_NOT_CONFIRMED", coord_text="nog geen BRONS/ZILVER-GEO-stap doorlopen",
+        checked_at="2026-08-05",
+    ),
+    dict(
+        nr="056", naam="Tibetan Temple", hook="Tibetaans klooster tegenover Mahabodhi",
+        cluster="Internationale kloosters", mark_status="OPEN",
+        wat_is_het="Een Tibetaans klooster direct tegenover het hoofdcomplex, officieel \"Tibetan "
+        "Temple\" genoemd (tourism.bihar.gov.in), met een reuzengebedmolen en een "
+        "Maitreya-Boeddhabeeld (Boeddha van de Toekomst).",
+        waarom="De gebedsmolen zelf is een concreet, imposant object: officieel bevestigd circa "
+        "10 meter hoog, goud- en roodgekleurd, met een gewicht van ruim 20 ton.",
+        betekenis="De schaal van de gebedsmolen en de toekomstgerichte Maitreya-symboliek zijn "
+        "concreet onderscheidend van de andere internationale kloosters in Bodh Gaya.",
+        ervaart="Een grote (circa 10 m hoge, ruim 20 ton wegende) gouden en rode gebedsmolen, een "
+        "Maitreya-Boeddhabeeld, monniken in studie/gebed, direct tegenover de hoofdtempel.",
+        onderscheidend="Schaal van de gebedsmolen en de Maitreya-symboliek, onafhankelijk van "
+        "enige ongeverifieerde Dalai-Lama-claim.",
+        bezoektijd="NOG NIET ONDERZOCHT",
+        combineer="046 Mahabodhi Temple Complex (direct tegenover, geen extra reisinspanning).",
+        tips="Direct tegenover de hoofdtempel, geen extra reisinspanning nodig.",
+        overslaan="Geen directe biografische link met Boeddha's verlichting -- de eerder "
+        "gesuggereerde Dalai Lama-connectie is niet bevestigd.",
+        onzekerheden="De eerdere identificatie als \"Namgyal Monastery\" met een Dalai "
+        "Lama-connectie was onbevestigde speculatie en is gecorrigeerd; de officiele bron "
+        "(tourism.bihar.gov.in) noemt geen Namgyal Monastery, Karma Temple of Dalai Lama. Namen "
+        "als \"Namgyal Monastery\" of \"Karma Temple\" staan uitsluitend als onbevestigde "
+        "aliassen. Exacte institutionele gelieerdheid blijft onbevestigd.",
+        geo_status="GOOGLE_MAPS_MARKER_NOT_CONFIRMED", coord_text="nog geen BRONS/ZILVER-GEO-stap doorlopen",
+        checked_at="2026-08-05",
+    ),
+    dict(
+        nr="057", naam="Vietnamese Temple", hook="drakendak en Avalokiteshvara",
+        cluster="Internationale kloosters", mark_status="OPEN",
+        wat_is_het="Een door de Vietnamese regering gebouwde tempel (2002), ook bekend als "
+        "\"Vietnam Phat Quoc Tu\", 500 m van het hoofdcomplex, als symbool van de banden tussen "
+        "Vietnam en India.",
+        waarom="Een driedelig dak met drakenversieringen -- architectonisch uniek in Bodh Gaya -- "
+        "en een Avalokiteshvara-beeld (in plaats van uitsluitend een Boeddhabeeld) als centraal "
+        "object.",
+        betekenis="Enige tempel in de straal met specifiek Vietnamese (Mahayana) architectuur en "
+        "een Avalokiteshvara-focus in plaats van een Boeddha-focus.",
+        ervaart="Een sereen, modern gebouwd heiligdom met drakenmotieven, art-deco-elementen en "
+        "uitgestrekte tuinen.",
+        onderscheidend="Architectonisch en iconografisch uniek (Avalokiteshvara i.p.v. Boeddha) "
+        "binnen Bodh Gaya.",
+        bezoektijd="NOG NIET ONDERZOCHT",
+        combineer="500 m van het hoofdcomplex (046).",
+        tips="Vrij toegankelijk.",
+        overslaan="Geen directe biografische link met Boeddha's eigen verhaal -- vooral relevant "
+        "voor wie de architectonische/iconografische diversiteit wil zien.",
+        onzekerheden="Geen apart officieel overheidsbron gevonden voor deze locatie; de "
+        "onderbouwing steunt op algemene reisbronnen (geen enkelvoudige bron als "
+        "kernonderbouwing).",
+        geo_status="GOOGLE_MAPS_MARKER_NOT_CONFIRMED", coord_text="nog geen BRONS/ZILVER-GEO-stap doorlopen",
+        checked_at="2026-08-05",
+    ),
+    dict(
+        nr="058", naam="Japanese Temple / Indosan Nippon (Nipponzan-Myohoji)", hook="stichter van de vredespagode-beweging",
+        cluster="Internationale kloosters", mark_status="OPEN",
+        wat_is_het="Een klooster van de Nipponzan-Myohoji-orde, gesticht 1972 door Nichidatsu "
+        "Fujii (1885-1985) -- apart en bevestigd verschillend van Daijokyo Buddhist Temple "
+        "(eigenaar van 049).",
+        waarom="Fujii was de stichter van de wereldwijde vredespagode-beweging (Peace Pagoda's) "
+        "en nauw geassocieerd met geweldloosheidsfilosofie.",
+        betekenis="Enige klooster in Bodh Gaya met een directe koppeling aan de internationale "
+        "vredespagode-beweging.",
+        ervaart="Een Japans klooster in Nichiren-traditie, gesticht door een figuur die wereldwijd "
+        "bekend staat om zijn inzet voor vrede.",
+        onderscheidend="Specifieke, internationaal significante stichtersgeschiedenis, geen "
+        "anoniem nationaal paviljoen.",
+        bezoektijd="NOG NIET ONDERZOCHT",
+        combineer="NOG NIET ONDERZOCHT.",
+        tips="Vrij toegankelijk, gratis entree (bevestigd).",
+        overslaan="Geen directe biografische link met Boeddha's verlichting -- te onderscheiden "
+        "van de aparte Great Buddha Statue (049).",
+        onzekerheden="Geen gemeld -- bevestigd als andere locatie dan 049 (Daijokyo Buddhist "
+        "Temple).",
+        geo_status="GOOGLE_MAPS_MARKER_NOT_CONFIRMED", coord_text="nog geen BRONS/ZILVER-GEO-stap doorlopen",
+        checked_at="2026-08-05",
+    ),
 ]
-t = Table(data, colWidths=[1.5 * cm, 7.5 * cm, 3.7 * cm, 4 * cm])
-t.setStyle(TableStyle([
-    ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#7a3b12")),
-    ("TEXTCOLOR", (0, 0), (-1, 0), colors.white),
-    ("FONTSIZE", (0, 0), (-1, -1), 9.5),
-    ("GRID", (0, 0), (-1, -1), 0.5, colors.HexColor("#cccccc")),
-    ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
-    ("ROWBACKGROUNDS", (0, 1), (-1, -1), [colors.white, colors.HexColor("#f7f0e8")]),
-]))
-story.append(t)
-story.append(Spacer(1, 0.4 * cm))
-story.append(Paragraph(
-    "Legenda: CORE_PASS = Mark zou er waarschijnlijk echte spijt van hebben dit te missen. "
-    "OPTIONAL_PASS = sterk genoeg om voor te leggen, geen automatische kernbestemming. "
-    "GEO-status “CONFIRMED” = coordinaat rechtstreeks bevestigd via een geopende Google "
-    "Maps/Earth-marker. “niet bevestigd” = geen geverifieerde marker gevonden, geen "
-    "coordinaat geraden.", styles["Body"]))
-story.append(PageBreak())
+
+KEUZEHULP = {
+    "046": "Bestaande keuze: A -- de verlichting zelf",
+    "047": "Bestaande keuze: A -- waar de Middenweg begon",
+    "048": "Bestaande keuze: A -- de zes jaar ascese",
+    "049": "Bestaande keuze: A -- modern eerbetoon",
+    "050": "Door Mark te beoordelen -- originele Bodhi-boom-omheining",
+    "051": "Door Mark te beoordelen -- voetspoor van Vishnu, Gaya-stad",
+    "052": "Door Mark te beoordelen -- Karmapa-klooster, evenementafhankelijk",
+    "053": "Door Mark te beoordelen -- meerdaags retraiteprogramma",
+    "054": "Door Mark te beoordelen -- enige Thaise tempel in India",
+    "055": "Door Mark te beoordelen -- Bhutaanse dzong-architectuur",
+    "056": "Door Mark te beoordelen -- Tibetaans klooster tegenover 046",
+    "057": "Door Mark te beoordelen -- Vietnamese tempel, Avalokiteshvara",
+    "058": "Door Mark te beoordelen -- vredespagode-stichter Fujii",
+}
+
+CLUSTER_INTRO = {
+    "Kerncluster": "Kerncluster -- samen te combineren, korte afstand lopend (bestaande Mark-keuze: A)",
+    "Aanvullend": "Aanvullende rit -- eigen tijd nodig, blijft kernwaardig (bestaande Mark-keuze: A)",
+    "Optioneel": "Optionele plek -- dichtbij, niet kernwaardig (bestaande Mark-keuze: A)",
+    "Naast 046": "Direct naast het hoofdcomplex -- door Mark te beoordelen",
+    "Gaya-stad": "Eigen stad, verder weg -- door Mark te beoordelen",
+    "Studie/retraite": "Boeddhistische studie- en retraitecentra -- door Mark te beoordelen",
+    "Internationale kloosters": "Internationale kloosters -- door Mark te beoordelen",
+}
+CLUSTER_ORDER = ["Kerncluster", "Aanvullend", "Optioneel", "Naast 046", "Gaya-stad", "Studie/retraite", "Internationale kloosters"]
 
 
-def candidate_block(nr, naam, hook, waarom, betekenis, watzieje, bijzonder, combineer,
-                     tips, geo_status, coord_text, checked_at):
-    story.append(Paragraph(f"{nr} {naam}{(' -- ' + hook) if hook else ''}", styles["CandTitle"]))
+def candidate_block(story, c):
+    story.append(Marker(c["nr"]))
+    story.append(Paragraph(f"{c['nr']} {c['naam']}{(' -- ' + c['hook']) if c['hook'] else ''}", styles["CandTitle"]))
+    if c["mark_status"] == "A":
+        story.append(Paragraph("Bestaande Mark-keuze: A", styles["StatusA"]))
+    else:
+        story.append(Paragraph("DOOR MARK TE BEOORDELEN", styles["StatusOpen"]))
+
+    story.append(Paragraph("Wat is het?", styles["SubHead"]))
+    story.append(Paragraph(c["wat_is_het"], styles["Body"]))
     story.append(Paragraph("Waarom hier naartoe?", styles["SubHead"]))
-    story.append(Paragraph(waarom, styles["Body"]))
+    story.append(Paragraph(c["waarom"], styles["Body"]))
     story.append(Paragraph("Spirituele / historische betekenis", styles["SubHead"]))
-    story.append(Paragraph(betekenis, styles["Body"]))
-    story.append(Paragraph("Wat zie je hier?", styles["SubHead"]))
-    story.append(Paragraph(watzieje, styles["Body"]))
-    story.append(Paragraph(bijzonder, styles["Bijzonder"]))
-    if combineer:
-        story.append(Paragraph("Goed te combineren met", styles["SubHead"]))
-        story.append(Paragraph(combineer, styles["Body"]))
-    if tips:
-        story.append(Paragraph("Praktisch", styles["SubHead"]))
-        story.append(Paragraph(tips, styles["Body"]))
-    story.append(Spacer(1, 0.15 * cm))
+    story.append(Paragraph(c["betekenis"], styles["Body"]))
+    story.append(Paragraph("Wat ervaart Mark concreet?", styles["SubHead"]))
+    story.append(Paragraph(c["ervaart"], styles["Body"]))
+    story.append(Paragraph(c["onderscheidend"], styles["Bijzonder"]))
+    story.append(Paragraph("Verwachte bezoektijd", styles["SubHead"]))
+    story.append(Paragraph(c["bezoektijd"], styles["Body"]))
+    story.append(Paragraph("Goed te combineren met", styles["SubHead"]))
+    story.append(Paragraph(c["combineer"], styles["Body"]))
+    story.append(Paragraph("Praktische tips", styles["SubHead"]))
+    story.append(Paragraph(c["tips"], styles["Body"]))
+    story.append(Paragraph("Reden om eventueel over te slaan", styles["SubHead"]))
+    story.append(Paragraph(c["overslaan"], styles["Body"]))
+    story.append(Paragraph("Belangrijke feitelijke onzekerheden", styles["SubHead"]))
+    story.append(Paragraph(c["onzekerheden"], styles["Onzeker"]))
+
+    story.append(Spacer(1, 0.12 * cm))
     story.append(HRFlowable(width="100%", thickness=0.4, color=colors.HexColor("#cccccc")))
+    status_text = "A (vastgelegd, zie MARK_DECISIONS_2026-08-05.jsonl)" if c["mark_status"] == "A" else "DOOR_MARK_TE_BEOORDELEN"
     story.append(Paragraph(
-        f"<b>Technisch:</b> candidate_id BGY-CAND-{nr} | GEO-status: {geo_status} | "
-        f"{coord_text} | Mark-keuze: DOOR_MARK_TE_BEOORDELEN | laatst gecontroleerd: {checked_at}",
+        f"<b>Technisch:</b> candidate_id BGY-CAND-{c['nr']} | GEO-status: {c['geo_status']} | "
+        f"{c['coord_text']} | Mark-status: {status_text} | laatst gecontroleerd: {c['checked_at']}",
         styles["TechBlock"]))
-    story.append(Spacer(1, 0.5 * cm))
+    story.append(Spacer(1, 0.45 * cm))
 
 
-# --- Kerncluster ---
-story.append(Paragraph("Kerncluster -- samen te combineren, korte afstand lopend", styles["ClusterHead"]))
+def build_body(story):
+    current_cluster = None
+    for c in CANDIDATES:
+        if c["cluster"] != current_cluster:
+            current_cluster = c["cluster"]
+            story.append(Paragraph(CLUSTER_INTRO[current_cluster], styles["ClusterHead"]))
+        candidate_block(story, c)
+    story.append(PageBreak())
+    story.append(Paragraph("Slot", styles["SectionHead"]))
+    story.append(Paragraph(
+        "046-049 zijn een vastgelegd Mark-besluit (alle vier A) en worden niet opnieuw ter keuze "
+        "voorgelegd. 050-058 zijn permanent genummerd, volledig onderzocht en wachten op Mark's "
+        "A/B/C. Voor de volledige technische onderbouwing, GEO-verificatie en brontabellen: zie "
+        "GOUD/MARK_SELECTION_REPORT.md, GOUD/BODHGAYA_GOUD_REPORT.md, BRONS/BRONS-B01.jsonl en "
+        "ZILVER/ZILVER-Z01.jsonl in deze run. Geen route, geen nachten, geen hotel/ashram en geen "
+        "pacing zijn onderdeel van dit document.", styles["TechBlock"]))
 
-candidate_block(
-    "046", "Mahabodhi Temple Complex", "de plek van de verlichting zelf",
-    "Sta op de plaats waar Boeddha 2500 jaar geleden verlichting bereikte -- niet een "
-    "afbeelding of herdenkteken, maar de plek zelf.",
-    "Het complex omvat de Vajrasana (de diamanttroon, bewaard door keizer Ashoka) en de "
-    "directe nakomeling van de oorspronkelijke Bodhi-boom. Binnen dezelfde ommuurde grens "
-    "liggen ook de zeven traditionele plekken van de weken direct na de verlichting: de "
-    "Animeshlochan Chaitya (waar Boeddha een week lang onafgebroken naar de boom staarde), "
-    "de Ratnachakrama (het juwelenwandelpad, met stenen lotusbloemen die zijn voetstappen "
-    "markeren), de Ratnaghar Chaitya, de Ajapala Nigrodh-boom, de Muchalinda-vijver en de "
-    "Rajyatana-boom. Het geheel is UNESCO-werelderfgoed. Bijzonder: Swami Sri Yukteswar Giri "
-    "-- Yogananda's eigen, directe guru, in Marks eigen Kriya-lijn (Babaji, Lahiri Mahasaya, "
-    "Sri Yukteswar, Yogananda) -- werd hier op Guru Purnima, juli 1906, geinitieerd in de "
-    "sannyas-orde door Swami Krishna Dayal Giri van Bodh Gaya.",
-    "Het 50 meter hoge tempelgebouw, de eeuwenoude boom, monniken en pelgrims uit de hele "
-    "boeddhistische wereld, votiefstoepa's rondom -- een levend, dagelijks bezocht heiligdom, "
-    "geen stil monument.",
-    "Uniek: dit is een van de vier belangrijkste boeddhistische pelgrimsplaatsen ter wereld, "
-    "en de enige plek die de verlichting zelf markeert.",
-    "047 Sujata Stupa (circa 20 minuten lopen, inclusief oversteek Phalgu-rivier).",
-    "Dagelijks vrij toegankelijk, geen inschrijving of speciale toegang nodig.",
-    "CONFIRMED", "24.6959222N, 84.9914193E (rechtstreekse Google Maps/Earth-marker)", "2026-08-03",
-)
 
-candidate_block(
-    "047", "Sujata Stupa, Bakraur", "waar de Middenweg begon",
-    "Bezoek de exacte plek waar een dorpsvrouw Boeddha's leven een beslissende wending gaf.",
-    "Sujata, een jonge vrouw uit het dorp Bakraur, bood Boeddha hier een kom rijstpudding "
-    "(kheer) aan nadat hij zichzelf zes jaar lang had uitgehongerd in extreme ascese. Zijn "
-    "aanvaarding van dat voedsel markeert het moment waarop hij de Middenweg ontdekte -- "
-    "noch overdadige genietingen, noch zelfkwelling. Het huidige stoepamonument dateert "
-    "oorspronkelijk uit de 2e eeuw v.Chr., met een latere uitbreidingsfase in de 8e-10e eeuw.",
-    "Een gedateerd, archeologisch stoepacomplex aan de overkant van de Phalgu-rivier, "
-    "rustiger en minder toeristisch dan het hoofdcomplex.",
-    "Onvervangbaar: dit is de enige plek die deze specifieke, verhaalbepalende gebeurtenis "
-    "markeert -- niet inwisselbaar met een andere tempel.",
-    "046 Mahabodhi Temple Complex (circa 1,2 km, goed te combineren op dezelfde ochtend of "
-    "middag).",
-    "Vereist een korte oversteek van de Phalgu-rivier vanaf Bodh Gaya.",
-    "CONFIRMED", "24.6979887N, 85.0033228E (rechtstreekse Google Maps/Earth-marker, Plus Code M2X3+58W)", "2026-08-03",
-)
+def build_cover(story):
+    story.append(Spacer(1, 4.5 * cm))
+    story.append(Paragraph("Bodh Gaya", styles["CoverTitle"]))
+    story.append(Paragraph("Keuze-reisgids -- 046 t/m 058", styles["CoverSub"]))
+    story.append(Paragraph("run_id: BODHGAYA-DISCOVERY-001 | protocol: INDIA5-PROTOCOL", styles["CoverSub"]))
+    story.append(Spacer(1, 1 * cm))
+    story.append(Paragraph(
+        "Leeswijzer -- Dit is een reisgids, geen technisch validatierapport. Elke locatie "
+        "beschrijft wat het is, waarom de plek de moeite waard is, wat Mark er concreet ervaart, "
+        "hoe onderscheidend het is en hoe die te combineren is met andere plekken in de buurt. "
+        "De volledige GEO-technische onderbouwing staat NIET in dit document, maar in "
+        "GOUD/MARK_SELECTION_REPORT.md, GOUD/BODHGAYA_GOUD_REPORT.md en de BRONS/ZILVER-bijlagen "
+        "in dezelfde run. Elke locatie heeft hier wel een klein technisch blok onderaan, "
+        "uitsluitend ter referentie.", styles["Body"]))
+    story.append(Paragraph(
+        "Waar keuze-informatie ontbreekt staat expliciet \"NOG NIET ONDERZOCHT\" in plaats van een "
+        "verzonnen antwoord.", styles["Body"]))
+    story.append(Paragraph(
+        "046-049 zijn een vastgelegd Mark-besluit (alle vier A, zie "
+        "MARK_DECISIONS_2026-08-05.jsonl) en worden hier uitsluitend ter referentie getoond, niet "
+        "opnieuw ter keuze voorgelegd. 050-058 zijn permanent genummerd en staan open voor Mark's "
+        "A/B/C -- dit document geeft geen voorspelde A/B/C-adviezen en bevat geen route, nachten, "
+        "hotel/ashram of pacing.", styles["Body"]))
+    story.append(PageBreak())
 
-# --- Aanvullende cluster ---
-story.append(Paragraph("Aanvullende rit -- eigen tijd nodig, blijft kernwaardig", styles["ClusterHead"]))
 
-candidate_block(
-    "048", "Dungeshwari Cave Temples", "de grotten van de zes jaar ascese",
-    "Ga naar de plek waar Boeddha, vóór zijn verlichting, zichzelf tot op het bot uithongerde "
-    "op zoek naar waarheid.",
-    "In deze rotsgehouwen grottempels (5e-6e eeuw CE) beoefende Boeddha zes jaar extreme "
-    "ascese, voordat hij naar Bodh Gaya afdaalde. De 7e-eeuwse Chinese pelgrim Xuanzang "
-    "beschreef deze plek al in zijn reisverslag. Een van de grotten bevat een gouden beeld "
-    "van de uitgemergelde Boeddha -- een direct, fysiek beeld van deze episode.",
-    "Rustige rotsgrotten in de heuvels, ver van de drukte van het hoofdcomplex, met het "
-    "aangrijpende uitgemergelde-Boeddhabeeld als middelpunt.",
-    "Onvervangbaar: het spiegelbeeld-verhaal van Sujata Stupa -- de ascese die aan de "
-    "aanbieding voorafging. Geen andere plek toont dit moment.",
-    None,
-    "Circa 12-14 km van Bodh Gaya (bronnen varieren enigszins), vereist een aparte rit per "
-    "taxi of auto-riksja.",
-    "niet bevestigd", "geen bevestigde marker gevonden -- geen coordinaat geraden", "2026-08-03",
-)
+def build_index(story, page_lookup):
+    story.append(Paragraph("Keuze-index", styles["SectionHead"]))
+    story.append(Paragraph(
+        "Alle 13 kandidaten in een oogopslag. Groen = bestaande Mark-keuze A, grijs = door Mark "
+        "te beoordelen.", styles["Body"]))
+    head = lambda s: Paragraph(s, styles["CellHead"])
+    data = [[head("Nr."), head("Naam"), head("Cluster"), head("Mark-status"), head("Keuzehulp in een zin"), head("Pag.")]]
+    for c in CANDIDATES:
+        status_style = styles["CellGreen"] if c["mark_status"] == "A" else styles["CellOrange"]
+        status = "A" if c["mark_status"] == "A" else "open"
+        pag = str(page_lookup.get(c["nr"], "-"))
+        data.append([
+            Paragraph(c["nr"], styles["CellText"]),
+            Paragraph(c["naam"], styles["CellText"]),
+            Paragraph(c["cluster"], styles["CellText"]),
+            Paragraph(status, status_style),
+            Paragraph(KEUZEHULP[c["nr"]], styles["CellText"]),
+            Paragraph(pag, styles["CellText"]),
+        ])
+    t = Table(data, colWidths=[1.0 * cm, 4.3 * cm, 2.5 * cm, 2.0 * cm, 5.9 * cm, 1.1 * cm], repeatRows=1)
+    style_cmds = [
+        ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#7a3b12")),
+        ("GRID", (0, 0), (-1, -1), 0.5, colors.HexColor("#cccccc")),
+        ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
+        ("ROWBACKGROUNDS", (0, 1), (-1, -1), [colors.white, colors.HexColor("#f7f0e8")]),
+        ("TOPPADDING", (0, 0), (-1, -1), 3),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 3),
+    ]
+    t.setStyle(TableStyle(style_cmds))
+    story.append(t)
+    story.append(Spacer(1, 0.3 * cm))
+    story.append(Paragraph(
+        "Legenda: \"A\" = vastgelegd Mark-besluit (niet opnieuw ter keuze). \"open\" = "
+        "DOOR_MARK_TE_BEOORDELEN, permanent genummerd en volledig onderzocht.", styles["Body"]))
+    story.append(PageBreak())
 
-# --- Losse optionele plek ---
-story.append(Paragraph("Optionele plek -- dichtbij, niet kernwaardig", styles["ClusterHead"]))
 
-candidate_block(
-    "049", "Great Buddha Statue", "het grootste Boeddhabeeld van India",
-    "Bekijk het eerste en grootste Boeddhabeeld ooit gebouwd in modern India -- indrukwekkend, "
-    "maar geen onderdeel van het historische verlichtingsverhaal zelf.",
-    "Het circa 20 meter hoge zittende Boeddhabeeld (circa 24 meter totale constructie "
-    "inclusief lotus en voetstuk) werd gebouwd door Daijokyo Buddhist Temple, een Japanse "
-    "leken-boeddhistische organisatie, en op 18 november 1989 geconsacreerd door de 14e Dalai "
-    "Lama, als symbool van de wereldwijde herleving van het boeddhisme.",
-    "Een groot, vrij toegankelijk beeld in open lucht, in tuinen even buiten het centrum.",
-    "Indrukwekkend landmark, maar niet essentieel: het missen ervan slaat geen gat in het "
-    "begrip van Boeddha's eigen verhaal, in tegenstelling tot de drie plekken hierboven.",
-    "046 Mahabodhi Temple Complex (circa 1,1-1,5 km, eenvoudig te combineren).",
-    "Vrij toegankelijk, altijd zichtbaar, geen inschrijving nodig.",
-    "niet bevestigd", "geen bevestigde marker gevonden -- geen coordinaat geraden", "2026-08-03",
-)
+def make_doc(path, page_lookup):
+    story = []
+    build_cover(story)
+    build_index(story, page_lookup)
+    build_body(story)
+    doc = SimpleDocTemplate(
+        path, pagesize=A4,
+        leftMargin=2 * cm, rightMargin=2 * cm, topMargin=2 * cm, bottomMargin=2 * cm,
+        title="Bodh Gaya -- Keuze-reisgids 046-058", author="CCI / INDIA5-PROTOCOL",
+    )
+    doc.build(story)
 
-story.append(PageBreak())
 
-# --- Compacte overzichtspagina ---
-story.append(Paragraph("Overzicht en vergelijking", styles["SectionHead"]))
+if __name__ == "__main__":
+    import os
+    os.makedirs(os.path.dirname(TMP), exist_ok=True)
 
-story.append(Paragraph("Indeling", styles["SubHead"]))
-story.append(Paragraph(
-    "<b>Kerncluster</b> (samen te combineren, kort lopen): 046 Mahabodhi Temple Complex, "
-    "047 Sujata Stupa.<br/>"
-    "<b>Aanvullende rit</b> (eigen tijd nodig, blijft kernwaardig): 048 Dungeshwari Cave "
-    "Temples.<br/>"
-    "<b>Optionele plek</b> (dichtbij, niet kernwaardig): 049 Great Buddha Statue.",
-    styles["Body"]))
+    # Pass 1: placeholder index (zelfde rijaantal/opmaak) om echte paginanummers te bepalen.
+    page_map.clear()
+    make_doc(TMP, {})
+    pass1_map = dict(page_map)
 
-story.append(Paragraph("Korte vergelijking", styles["SubHead"]))
-comp_data = [
-    ["Nr.", "Kernvraag beantwoord", "Afstand tot 046", "Reisinspanning"],
-    ["046", "De verlichting zelf", "-", "geen (ankerplek)"],
-    ["047", "Waarom de ascese eindigde", "~1,2 km", "korte wandeling"],
-    ["048", "Wat aan de verlichting voorafging", "~12-14 km", "aparte rit"],
-    ["049", "Modern eerbetoon, geen biografisch moment", "~1,1-1,5 km*", "korte wandeling"],
-]
-t2 = Table(comp_data, colWidths=[1.5 * cm, 7 * cm, 3.3 * cm, 4.4 * cm])
-t2.setStyle(TableStyle([
-    ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#7a3b12")),
-    ("TEXTCOLOR", (0, 0), (-1, 0), colors.white),
-    ("FONTSIZE", (0, 0), (-1, -1), 9),
-    ("GRID", (0, 0), (-1, -1), 0.5, colors.HexColor("#cccccc")),
-    ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
-    ("ROWBACKGROUNDS", (0, 1), (-1, -1), [colors.white, colors.HexColor("#f7f0e8")]),
-]))
-story.append(t2)
-story.append(Spacer(1, 0.2 * cm))
-story.append(Paragraph(
-    "* Afstand voor 049 is berekend op basis van een niet-bevestigd referentiecoordinaat "
-    "(Wikipedia-infobox), niet op een geverifieerde marker -- indicatief, geen harde waarde.",
-    styles["TechBlock"]))
+    # Pass 2: definitieve PDF met de juiste paginanummers in de index.
+    page_map.clear()
+    make_doc(OUT, pass1_map)
 
-story.append(Paragraph("Open onzekerheden", styles["SubHead"]))
-story.append(Paragraph(
-    "Exacte locatie van Sri Yukteswars sannyas-initiatie (1906) binnen Bodh Gaya niet "
-    "vastgesteld. Muchalinda-vijver mogelijk twee gelijknamige plekken. UNESCO-brondocument "
-    "voor 046 rechtstreeks ontoegankelijk (status wel elders bevestigd). Xuanzang-vertaling "
-    "gelokaliseerd, specifieke Bodh-Gaya-passage nog niet geextraheerd. 048 en 049 hebben geen "
-    "bevestigde Google Maps-marker ondanks meerdere zoekpogingen. Geen lokale insider-/"
-    "kloosterbron geraadpleegd.", styles["Body"]))
-
-story.append(Paragraph("Onderzocht, niet genummerd", styles["SubHead"]))
-story.append(Paragraph(
-    "Negen locaties zijn onderzocht en na een strenge onderlinge vergelijking bewust niet "
-    "genummerd of van kandidaatstatus voorzien: Archaeological Museum of Bodh Gaya, Vishnupad "
-    "Temple (Gaya), Tergar Monastery, Root Institute, Thai Monastery, Royal Bhutanese "
-    "Monastery, een generiek Tibetaans klooster, een Vietnamese tempel, en de Japanese "
-    "Temple/Indosan Nippon. Volledige redenen staan in WATCHLIST.jsonl.",
-    styles["Body"]))
-
-story.append(Spacer(1, 0.6 * cm))
-story.append(HRFlowable(width="100%", thickness=0.6, color=colors.HexColor("#7a3b12")))
-story.append(Spacer(1, 0.3 * cm))
-story.append(Paragraph(
-    "Voor de volledige technische onderbouwing, GEO-verificatie en brontabellen: zie "
-    "GOUD/BODHGAYA_GOUD_REPORT.md, BRONS/BRONS-B01.jsonl en ZILVER/ZILVER-Z01.jsonl in deze run.",
-    styles["TechBlock"]))
-
-doc = SimpleDocTemplate(
-    OUT, pagesize=A4,
-    leftMargin=2 * cm, rightMargin=2 * cm, topMargin=2 * cm, bottomMargin=2 * cm,
-    title="Bodh Gaya -- Keuze-reisgids 046-049", author="CCI / INDIA5-PROTOCOL",
-)
-doc.build(story)
-print("OK, written", OUT)
+    print("OK, written", OUT)
+    print("page map:", pass1_map)
