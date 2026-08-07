@@ -192,8 +192,9 @@ Mark een eerlijke keuze te geven; daar is gericht aanvullend onderzoek gedaan.
 3. **Wat ervaart Mark concreet?** Gereconstrueerde stenen balustrade, reliëfs, Pala-periode
    sculpturen, munten uit de Mughal-, Maurya- en Gupta-periode, in twee galerijen en een open
    binnenplaats.
-4. **Verschil met vergelijkbare instellingen?** Er is geen ander museum met objecten die direct
-   van de Bodhi-boom-omheining zelf afkomstig zijn — uniek in zijn soort binnen Bodh Gaya.
+4. **Verschil met vergelijkbare instellingen?** Voor zover onderzocht is er geen ander museum met
+   objecten die direct van de Bodhi-boom-omheining zelf afkomstig zijn — uniek in zijn soort
+   binnen Bodh Gaya.
 5. **Permanent of afhankelijk?** Permanent — reguliere museumopeningstijden, geen cursus, leraar,
    ceremonie of seizoen vereist.
 6. **Bezoekbaarheid voor gewone reiziger?** Volledig — entreekaartje, geen speciale toegang.
@@ -205,22 +206,38 @@ Mark een eerlijke keuze te geven; daar is gericht aanvullend onderzoek gedaan.
 
 ### 051 — Vishnupad Temple, Gaya
 
+**Toegangsregel, gecorrigeerd na gerichte controle (INDIA6, bericht 021):** meerdere
+onafhankelijke reisbronnen melden consistent dat niet-hindoes de tempel zelf niet mogen betreden
+(vergelijkbaar met de bekendere regel bij de Jagannath-tempel in Puri). De officiële
+Bihar Tourism-pagina bevestigt of ontkent dit niet expliciet — deze regel steunt dus op
+consistente reisbron-corroboratie, niet op een officiële bron. Eén losse, zwakke vermelding
+suggereert dat boeddhisten mogelijk wel toegang krijgen; dat is niet hard bevestigd en wordt hier
+niet als feit overgenomen.
+
 1. **Wat is het precies?** Een actieve hindoetempel aan de Falgu-rivier in Gaya-stad (circa 12-15
    km van Bodh Gaya), met een 40 cm lange voetafdruk in zwart basaltgesteente, vereerd als het
    voetspoor van Vishnu.
 2. **Waarom onderscheidend?** Een singulier, fysiek uniek relict (niet een generiek Vishnu-beeld),
    en een van de belangrijkste plekken in heel India voor Pind Daan (voorouder-verlossingsrituelen)
    — volgens overlevering bevrijdt een Pind Daan hier voorouders tot veertien generaties terug.
-3. **Wat ervaart Mark concreet?** Een drukke, levende tempel met het vereerde voetspoor als
-   centraal object, aan de oevers van de Falgu.
+3. **Wat ervaart Mark concreet?** Als niet-hindoe vermoedelijk GEEN toegang tot het
+   tempelinterieur/het voetspoor zelf — wel de omliggende straatjes, de buitenkant van de tempel,
+   en de drukte van een actieve, levende bedevaartsplek eromheen. Zie de toegangsregel hierboven.
 4. **Verschil met vergelijkbare instellingen?** Geen andere plek in de straal heeft dit specifieke
-   relict of deze specifieke, eeuwenoude rituele functie.
-5. **Permanent of afhankelijk?** Permanent toegankelijk; drukst tijdens Pitru Paksha (september).
-6. **Bezoekbaarheid?** Volledig, actieve publieke tempel.
+   relict of deze specifieke, eeuwenoude rituele functie — al is het relict zelf voor een
+   niet-hindoe bezoeker vermoedelijk niet rechtstreeks te zien.
+5. **Permanent of afhankelijk?** Permanent toegankelijk (het gebied eromheen); drukst tijdens
+   Pitru Paksha (september).
+6. **Bezoekbaarheid?** BEPERKT voor een niet-hindoe bezoeker: het tempelinterieur zelf is
+   vermoedelijk niet toegankelijk (zie toegangsregel); de omgeving en het religieuze leven
+   eromheen zijn wel te zien. Dit is wezenlijk anders dan de andere kandidaten in dit rapport, die
+   allemaal vrij toegankelijk zijn.
 7. **Waarom A, B of C mogelijk?** Geen directe koppeling aan Marks eigen Kriya-/boeddhistische
-   focus, dus A minder waarschijnlijk zonder verdere reden — maar de singuliere aard van het
-   relict en de nationale religieuze betekenis maken B of C goed voorstelbaar, vooral als Mark
-   interesse heeft in de bredere hindoe-krachtplaatsen van India.
+   focus, dus A minder waarschijnlijk zonder verdere reden. De gecorrigeerde toegangsbeperking
+   (punt 6) betekent bovendien dat een bezoek vermoedelijk uitsluitend de sfeer/omgeving oplevert,
+   niet het relict zelf — een relevant gegeven bij de afweging, geen uitsluitingsgrond. De
+   singuliere aard van het relict en de nationale religieuze betekenis maken B of C nog steeds
+   voorstelbaar, vooral als Mark interesse heeft in de bredere hindoe-krachtplaatsen van India.
 8. **Einduitkomst:** **MARK_WAARDIG.**
 
 ### 052 — Tergar Monastery
@@ -231,10 +248,14 @@ Mark een eerlijke keuze te geven; daar is gericht aanvullend onderzoek gedaan.
 2. **Waarom onderscheidend?** Jaarlijkse gastheer van het Kagyü Monlam-gebedsfestival onder
    leiding van de 17e Karmapa, een van de hoogste gezagsdragers binnen het Tibetaans boeddhisme.
 3. **Wat ervaart Mark concreet?** Buiten het festival: een actief studieklooster, monniken in
-   studie/meditatie. Tijdens het Monlam (doorgaans januari-februari): een grote internationale
-   samenkomst met de Karmapa zelf.
+   studie/meditatie. Tijdens het Monlam: een grote internationale samenkomst met de Karmapa zelf.
+   **Datumcorrectie (INDIA6, bericht 021):** de eerdere claim "doorgaans januari-februari" was te
+   stellig — de exacte data verschuiven jaarlijks met de Tibetaanse maankalender, niet met een
+   vaste Gregoriaanse maand. Bevestigde meest recente editie: de 40e Kagyü Monlam Chenmo, 23
+   december 2025 – 3 januari 2026. De datum van de eerstvolgende (41e) editie is nog niet
+   gepubliceerd — **ONBEKEND**, niet zelf geschat.
 4. **Verschil met vergelijkbare instellingen?** Enige klooster in Bodh Gaya met een directe,
-   jaarlijkse aanwezigheid van de Karmapa zelf.
+   periodieke (doorgaans jaarlijkse) aanwezigheid van de Karmapa zelf.
 5. **Permanent of afhankelijk?** Het kloostergebouw is permanent aanwezig; de sterkste reden om
    het te bezoeken (Karmapa/Monlam) is EVENEMENT- EN SEIZOENSAFHANKELIJK. Geen bevestigde
    publieke bezoekersprogramma's buiten het festival gevonden.
@@ -247,35 +268,59 @@ Mark een eerlijke keuze te geven; daar is gericht aanvullend onderzoek gedaan.
 
 ### 053 — Root Institute (FPMT)
 
+**Correctie na officiële bron (INDIA6, bericht 021; rootinstitute.ngo):** de eerdere indruk dat
+een bezoek alleen mogelijk is met cursusinschrijving was ONJUIST. Er zijn vier afzonderlijke
+manieren om hier te komen, niet slechts "met of zonder cursus":
+
+1. Een gewoon dagbezoek — de tuinen zijn vrij toegankelijk tijdens openingstijden (doorgaans
+   9.00-17.00 uur), gratis entree, geen inschrijving nodig.
+2. De dagelijkse meditatiesessies staan open voor iedere bezoeker, ook zonder cursusinschrijving.
+3. Een gewoon verblijf zonder cursus is mogelijk — Root Institute is GEEN hotel/guesthouse, maar
+   biedt wel accommodatie (eenpersoons-, tweepersoons- en meerpersoonskamers, maaltijden tegen
+   betaling) aan wie er rustig wil verblijven; niet-cursusgasten moeten zich wel aan de
+   kloosterregels/precepten houden (o.a. geen intoxicanten, celibaat tijdens verblijf).
+4. De residentiële, begeleide meditatiecursus (circa 10 dagen, oktober-maart) is de meest
+   intensieve, vooraf-inschrijving-vereisende optie.
+
 1. **Wat is het precies?** Een retraitecentrum van de Foundation for the Preservation of the
    Mahayana Tradition (FPMT), gesticht in 1984 door Lama Thubten Yeshe en Lama Thubten Zopa
    Rinpoche, 15 minuten lopen van het hoofdcomplex.
 2. **Waarom onderscheidend?** Lama Yeshe beschouwde Bodh Gaya als "de wortel waaruit de takken
-   van het boeddhisme zich over de rest van de wereld verspreidden" — het instituut biedt een
-   doorlopend programma van residentiële meditatiecursussen (circa 10 dagen, oktober-maart).
-3. **Wat ervaart Mark concreet?** Zonder cursusinschrijving: waarschijnlijk beperkt (besloten
-   retraitecentrum, geen vrije-inloop-tempel). Met inschrijving: een meerdaags, begeleid
-   meditatieprogramma.
-4. **Verschil met vergelijkbare instellingen?** Enige plek in de straal met een gestructureerd,
-   toegankelijk (tegen inschrijving) meerdaags meditatieprogramma voor buitenstaanders.
-5. **Permanent of afhankelijk?** Sterk PROGRAMMA- EN SEIZOENSAFHANKELIJK (oktober-maart, circa
-   10-daagse cursus).
-6. **Bezoekbaarheid?** Alleen met inschrijving voor een cursus; geen bevestigde losse
-   bezoekersfaciliteit voor wie niet deelneemt.
-7. **Waarom A, B of C mogelijk?** Zeer afhankelijk van of Mark tijd/interesse heeft voor een
-   meerdaagse retraite — dat maakt A/B mogelijk voor wie dat zoekt, C of zelfs een bewust "nee"
-   voor wie dat niet zoekt. Precies dit soort afweging hoort bij Mark, niet bij CCI.
+   van het boeddhisme zich over de rest van de wereld verspreidden" — het instituut biedt zowel
+   vrij toegankelijke tuinen en dagelijkse meditatiesessies, gewoon verblijf zonder cursus, als
+   een doorlopend programma van residentiële meditatiecursussen (circa 10 dagen, oktober-maart).
+3. **Wat ervaart Mark concreet?** Zie de vier opties hierboven — van een kort dagbezoek aan de
+   tuinen tot een meerdaags, begeleid meditatieprogramma.
+4. **Verschil met vergelijkbare instellingen?** Onder de tot nu toe onderzochte kandidaten in de
+   straal de enige plek met zowel een vrij toegankelijk dagbezoek/tuinen en gewoon verblijf zonder
+   cursus, als een gestructureerd (tegen inschrijving) meerdaags meditatieprogramma.
+5. **Permanent of afhankelijk?** Het dagbezoek, de tuinen, de dagelijkse meditatiesessies en een
+   gewoon verblijf zonder cursus zijn het hele jaar door mogelijk (PERMANENT); alleen de
+   residentiële, begeleide meditatiecursus zelf is programma- en seizoensafhankelijk
+   (oktober-maart, circa 10-daagse cursus).
+6. **Bezoekbaarheid?** VOLLEDIG voor een gewoon dagbezoek (tuinen, dagelijkse meditatiesessies) en
+   voor een gewoon verblijf zonder cursus (tegen betaling van accommodatie/maaltijden); alleen de
+   residentiële cursus zelf vereist vooraf inschrijving.
+7. **Waarom A, B of C mogelijk?** Toegankelijk op meerdere niveaus (kort dagbezoek, gewoon
+   verblijf, of meerdaagse cursus) maakt een eerlijke keuze breder dan eerder vermeld — welk
+   niveau bij Mark past, is aan hem.
 8. **Einduitkomst:** **MARK_WAARDIG.**
 
 ### 054 — Wat Thai Buddhagaya (Thai Monastery)
 
+**Correctie (INDIA6, bericht 021):** de eerdere claim "het ENIGE Thaise tempel in India" is
+ONJUIST en hierbij verwijderd. Gericht nagezocht: er bestaan minstens twee andere Thaise
+tempels/kloosters in India (Wat Thai Temple, Sant Nagar, Delhi; Bhogal Buddha Vihar, een
+Thaise-stijl klooster in Delhi). De houdbare claim is: de Thaise tempel binnen Bodh Gaya zelf
+(waar hij inderdaad de enige is), niet "de enige in heel India".
+
 1. **Wat is het precies?** Het Koninklijk Thaise Klooster, gesticht in 1956/1957 (bronnen
    verschillen op het exacte jaar) op uitnodiging van Nehru ter gelegenheid van de 25e
-   boeddhistische eeuw, gebouwd door de Thaise regering. Het ENIGE Thaise tempel in India
-   (goed gecorroboreerd, meerdere onafhankelijke bronnen).
+   boeddhistische eeuw, gebouwd door de Thaise regering. De Thaise tempel binnen Bodh Gaya zelf
+   (niet: de enige in heel India — zie correctie hierboven).
 2. **Waarom onderscheidend?** Gebouwd op uitdrukkelijke uitnodiging van India's eerste premier
    — een concreet historisch-diplomatiek gegeven. Rijk verguld, sterk gelijkend op de tempels
-   van Bangkok — visueel volledig anders dan de rest van Bodh Gaya. **Correctie na
+   van Bangkok — visueel volledig anders dan de rest van Bodh Gaya. **Eerdere correctie na
    brongecontroleerde herbeoordeling (INDIA2, bericht 011):** de claim "eerste buitenlandse
    klooster van Bodh Gaya" is NIET hard te onderbouwen — een bron noemt een veel oudere
    (4e-eeuwse) Sri Lankaanse Sangharam die aan de moderne internationale kloosters voorafging.
@@ -288,18 +333,20 @@ Mark een eerlijke keuze te geven; daar is gericht aanvullend onderzoek gedaan.
    gedocumenteerde Great Buddha Statue (049) elders in Bodh Gaya. Ochtend- en
    avondmeditatiesessies en een jaarlijkse stille retraite in januari zijn eveneens uitsluitend
    via reisbronnen bevestigd, niet institutioneel geverifieerd — vermeld met dat voorbehoud.
-4. **Verschil met vergelijkbare instellingen?** Enige Thaise tempel in heel India (goed
-   onderbouwd). "Eerste buitenlandse klooster" is, zoals hierboven toegelicht, een te sterke
-   claim — beter: een van de eerste, en het eerste moderne buitenlandse klooster.
+4. **Verschil met vergelijkbare instellingen?** De Thaise tempel binnen Bodh Gaya zelf (niet: de
+   enige in heel India — die eerdere claim is onjuist gebleken en verwijderd). "Eerste
+   buitenlandse klooster" blijft een te sterke claim — beter: een van de eerste, en het eerste
+   moderne buitenlandse klooster.
 5. **Permanent of afhankelijk?** De architectuur is permanent; de gemelde dagelijkse
    meditatiesessies en de jaarlijkse stille retraite (januari) berusten op reisbronnen, niet op
    een officiële bevestiging — als ze bestaan, is de architectuur zelf hoe dan ook een
    permanente, niet-afhankelijke reden om te komen.
 6. **Bezoekbaarheid?** Volledig, vrij toegankelijk.
-7. **Waarom A, B of C mogelijk?** Sterk kandidaat op basis van de bevestigde feiten alleen
-   (enige Thaise tempel in India, Nehru-uitnodiging, opvallend afwijkende architectuur) — B goed
-   voorstelbaar, A niet uitgesloten, maar zonder de eerdere overclaims (eerste buitenlandse
-   klooster ooit, apart 25 m tuinbeeld, bevestigde dagelijkse sessies).
+7. **Waarom A, B of C mogelijk?** Kandidaat op basis van de bevestigde feiten alleen (de Thaise
+   tempel binnen Bodh Gaya, Nehru-uitnodiging, opvallend afwijkende architectuur) — B goed
+   voorstelbaar, A niet uitgesloten, maar zonder de eerdere overclaims (enige Thaise tempel in
+   heel India, eerste buitenlandse klooster ooit, apart 25 m tuinbeeld, bevestigde dagelijkse
+   sessies).
 8. **Einduitkomst:** **MARK_WAARDIG.**
 
 ### 055 — Royal Bhutan Monastery
@@ -381,9 +428,9 @@ reisbronnen, geen enkelvoudige bron als kernonderbouwing gebruikt.*
    centraal object.
 3. **Wat ervaart Mark concreet?** Een sereen, modern gebouwd heiligdom met drakenmotieven,
    art-deco-elementen en uitgestrekte tuinen.
-4. **Verschil met vergelijkbare instellingen?** Enige tempel in de straal met specifiek
-   Vietnamese (Mahayana) architectuur en een Avalokiteshvara-focus in plaats van een
-   Boeddha-focus.
+4. **Verschil met vergelijkbare instellingen?** Onder de tot nu toe onderzochte kandidaten in de
+   straal de enige tempel met specifiek Vietnamese (Mahayana) architectuur en een
+   Avalokiteshvara-focus in plaats van een Boeddha-focus.
 5. **Permanent of afhankelijk?** Permanent, geen cursus of evenement vereist.
 6. **Bezoekbaarheid?** Volledig, vrij toegankelijk.
 7. **Waarom A, B of C mogelijk?** Geen directe biografische link met Boeddha's eigen verhaal,

@@ -188,8 +188,8 @@ CANDIDATES = [
         "zelf afkomstig zijn -- uniek in zijn soort binnen Bodh Gaya.",
         ervaart="Gereconstrueerde stenen balustrade, reliefs, Pala-periode sculpturen, munten uit "
         "de Mughal-, Maurya- en Gupta-periode, in twee galerijen en een open binnenplaats.",
-        onderscheidend="Enige museum ter plekke met objecten rechtstreeks afkomstig van de "
-        "Bodhi-boom-omheining zelf.",
+        onderscheidend="Voor zover onderzocht het enige museum ter plekke met objecten "
+        "rechtstreeks afkomstig van de Bodhi-boom-omheining zelf.",
         bezoektijd="NOG NIET ONDERZOCHT",
         combineer="046 Mahabodhi Temple Complex (grenst direct aan het complex).",
         tips="Regulier entreekaartje, geen speciale toegang of inschrijving nodig.",
@@ -208,21 +208,29 @@ CANDIDATES = [
         waarom="Een singulier, fysiek uniek relict (geen generiek Vishnu-beeld), en een van de "
         "belangrijkste plekken in heel India voor Pind Daan (voorouder-verlossingsrituelen).",
         betekenis="Volgens overlevering bevrijdt een Pind Daan hier voorouders tot veertien "
-        "generaties terug.",
-        ervaart="Een drukke, levende tempel met het vereerde voetspoor als centraal object, aan de "
-        "oevers van de Falgu.",
+        "generaties terug. Toegangsregel, gecorrigeerd na gerichte controle: meerdere "
+        "onafhankelijke reisbronnen melden consistent dat niet-hindoes de tempel zelf niet mogen "
+        "betreden (vergelijkbaar met de bekendere regel bij Jagannath Temple, Puri) -- geen "
+        "officiele bron bevestigt of ontkent dit expliciet.",
+        ervaart="Als niet-hindoe vermoedelijk GEEN toegang tot het tempelinterieur/het voetspoor "
+        "zelf -- wel de omliggende straatjes, de buitenkant van de tempel, en de drukte van een "
+        "actieve, levende bedevaartsplek eromheen.",
         onderscheidend="Geen andere plek in de straal heeft dit specifieke relict of deze "
-        "specifieke, eeuwenoude rituele functie.",
+        "specifieke, eeuwenoude rituele functie -- al is het relict zelf voor een niet-hindoe "
+        "bezoeker vermoedelijk niet rechtstreeks te zien.",
         bezoektijd="NOG NIET ONDERZOCHT",
         combineer="NOG NIET ONDERZOCHT (eigen stad, circa 12-15 km van de Bodh Gaya-kerncluster, "
         "geen combinatie-informatie onderzocht).",
-        tips="Drukst tijdens Pitru Paksha (september); permanent toegankelijk als actieve "
-        "publieke tempel.",
-        overslaan="Geen directe koppeling aan Marks eigen Kriya-/boeddhistische focus -- wie "
-        "strikt bij het boeddhistische verlichtingsverhaal wil blijven, kan dit overslaan.",
-        onzekerheden="Geen gemeld.",
+        tips="Drukst tijdens Pitru Paksha (september); de omgeving is permanent toegankelijk. Het "
+        "tempelinterieur is voor een niet-hindoe bezoeker vermoedelijk NIET toegankelijk (zie "
+        "hierboven).",
+        overslaan="Geen directe koppeling aan Marks eigen Kriya-/boeddhistische focus, en het "
+        "tempelinterieur zelf is voor een niet-hindoe bezoeker vermoedelijk niet toegankelijk -- "
+        "wie strikt bij het boeddhistische verlichtingsverhaal wil blijven, kan dit overslaan.",
+        onzekerheden="De toegangsbeperking voor niet-hindoes steunt op consistente reisbronnen, "
+        "niet op een officiele bevestiging.",
         geo_status="GOOGLE_MAPS_MARKER_NOT_CONFIRMED", coord_text="nog geen BRONS/ZILVER-GEO-stap doorlopen",
-        checked_at="2026-08-05",
+        checked_at="2026-08-06",
     ),
     dict(
         nr="052", naam="Tergar Monastery", hook="het Karmapa-klooster",
@@ -230,24 +238,29 @@ CANDIDATES = [
         wat_is_het="Een Karma-Kagyu-klooster/studie-instituut, gesticht door Yongey Mingyur "
         "Rinpoche (grond geschonken door Tai Situ Rinpoche in 2000, gebouw voltooid 2006), met "
         "ruim 300 monniken.",
-        waarom="Jaarlijkse gastheer van het Kagyu Monlam-gebedsfestival onder leiding van de 17e "
-        "Karmapa, een van de hoogste gezagsdragers binnen het Tibetaans boeddhisme.",
-        betekenis="Enige klooster in Bodh Gaya met een directe, jaarlijkse aanwezigheid van de "
+        waarom="Periodieke (doorgaans jaarlijkse) gastheer van het Kagyu Monlam-gebedsfestival "
+        "onder leiding van de 17e Karmapa, een van de hoogste gezagsdragers binnen het Tibetaans "
+        "boeddhisme.",
+        betekenis="Enige klooster in Bodh Gaya met een directe, periodieke aanwezigheid van de "
         "Karmapa zelf.",
         ervaart="Buiten het festival: een actief studieklooster, monniken in studie/meditatie. "
-        "Tijdens het Monlam (doorgaans januari-februari): een grote internationale samenkomst met "
-        "de Karmapa zelf.",
-        onderscheidend="Enige klooster met een directe, jaarlijkse Karmapa-aanwezigheid.",
+        "Tijdens het Monlam: een grote internationale samenkomst met de Karmapa zelf. "
+        "Datumcorrectie: de exacte data volgen de Tibetaanse maankalender, niet een vaste "
+        "Gregoriaanse maand. Bevestigde meest recente editie: 40e Kagyu Monlam Chenmo, 23 "
+        "december 2025 -- 3 januari 2026. Datum volgende editie: ONBEKEND, nog niet gepubliceerd.",
+        onderscheidend="Enige klooster met een directe, periodieke Karmapa-aanwezigheid.",
         bezoektijd="NOG NIET ONDERZOCHT",
         combineer="NOG NIET ONDERZOCHT.",
-        tips="Kloostergebouw permanent aanwezig; bezoekbaarheid buiten het festivalseizoen "
-        "(doorgaans januari-februari) is onzeker -- geen bevestigde publieke "
-        "bezoekersprogramma's buiten het festival gevonden.",
+        tips="Kloostergebouw permanent aanwezig; bezoekbaarheid buiten het festivalseizoen is "
+        "onzeker -- geen bevestigde publieke bezoekersprogramma's buiten het festival gevonden. "
+        "Exacte datum eerstvolgende editie nog niet gepubliceerd.",
         overslaan="De sterkste reden om te komen (Karmapa/Monlam) is evenement- en "
-        "seizoensafhankelijk; buiten die periode is het een regulier studieklooster.",
-        onzekerheden="Bezoekbaarheid buiten het festivalseizoen niet bevestigd.",
+        "seizoensafhankelijk, met een datum die niet ver vooraf vaststaat; buiten die periode is "
+        "het een regulier studieklooster.",
+        onzekerheden="Bezoekbaarheid buiten het festivalseizoen niet bevestigd. Datum "
+        "eerstvolgende editie nog niet gepubliceerd (ONBEKEND).",
         geo_status="GOOGLE_MAPS_MARKER_NOT_CONFIRMED", coord_text="nog geen BRONS/ZILVER-GEO-stap doorlopen",
-        checked_at="2026-08-05",
+        checked_at="2026-08-06",
     ),
     dict(
         nr="053", naam="Root Institute (FPMT)", hook="meerdaags meditatieprogramma",
@@ -256,41 +269,55 @@ CANDIDATES = [
         "Tradition (FPMT), gesticht in 1984 door Lama Thubten Yeshe en Lama Thubten Zopa "
         "Rinpoche, 15 minuten lopen van het hoofdcomplex.",
         waarom="Lama Yeshe beschouwde Bodh Gaya als \"de wortel waaruit de takken van het "
-        "boeddhisme zich over de rest van de wereld verspreidden\".",
-        betekenis="Het instituut biedt een doorlopend programma van residentiele "
-        "meditatiecursussen (circa 10 dagen, oktober-maart).",
-        ervaart="Zonder cursusinschrijving: waarschijnlijk beperkt (besloten retraitecentrum, geen "
-        "vrije-inloop-tempel). Met inschrijving: een meerdaags, begeleid meditatieprogramma.",
-        onderscheidend="Enige plek in de straal met een gestructureerd, toegankelijk (tegen "
-        "inschrijving) meerdaags meditatieprogramma voor buitenstaanders.",
+        "boeddhisme zich over de rest van de wereld verspreidden\". Correctie na officiele bron "
+        "(rootinstitute.ngo): vier afzonderlijke manieren om hier te komen, niet alleen 'met of "
+        "zonder cursus' -- (1) een gratis dagbezoek aan de tuinen tijdens openingstijden "
+        "(doorgaans 9.00-17.00u), (2) dagelijkse meditatiesessies open voor iedereen, (3) een "
+        "gewoon verblijf zonder cursus (geen hotel, wel accommodatie tegen betaling, met "
+        "inachtneming van de kloosterprecepten), en (4) de residentiele meditatiecursus zelf.",
+        betekenis="Het instituut biedt zowel vrij toegankelijke tuinen en dagelijkse "
+        "meditatiesessies, gewoon verblijf zonder cursus, als een doorlopend programma van "
+        "residentiele meditatiecursussen (circa 10 dagen, oktober-maart).",
+        ervaart="Van een kort, gratis dagbezoek aan de tuinen en de dagelijkse meditatiesessies, "
+        "tot een gewoon verblijf zonder cursus, tot een meerdaags, begeleid meditatieprogramma -- "
+        "zie de vier opties hierboven.",
+        onderscheidend="Onder de onderzochte kandidaten de enige plek met zowel vrij "
+        "dagbezoek/gewoon verblijf als een gestructureerd (tegen inschrijving) meerdaags "
+        "meditatieprogramma voor buitenstaanders.",
         bezoektijd="NOG NIET ONDERZOCHT",
         combineer="15 minuten lopen van het hoofdcomplex (046).",
-        tips="Sterk programma- en seizoensafhankelijk (oktober-maart, circa 10-daagse cursus); "
-        "alleen toegankelijk met inschrijving voor een cursus, geen bevestigde losse "
-        "bezoekersfaciliteit voor wie niet deelneemt.",
-        overslaan="Zonder cursusinschrijving waarschijnlijk beperkt toegankelijk -- relevant "
-        "vooral voor wie tijd/interesse heeft voor een meerdaagse retraite.",
-        onzekerheden="Geen bevestigde losse bezoekersfaciliteit voor niet-deelnemers gevonden.",
+        tips="Dagbezoek, tuinen, dagelijkse meditatiesessies en een gewoon verblijf zonder cursus "
+        "zijn het hele jaar mogelijk; alleen de residentiele, begeleide cursus zelf is "
+        "programma- en seizoensafhankelijk (oktober-maart, circa 10-daagse cursus) en vereist "
+        "vooraf inschrijving.",
+        overslaan="Wie geen interesse heeft in meditatie/retraite in welke vorm dan ook kan dit "
+        "overslaan; voor wie dat wel heeft, is er nu een breder aanbod dan eerder vermeld (kort "
+        "dagbezoek tot meerdaagse cursus).",
+        onzekerheden="Geen -- eerdere onjuiste indruk ('alleen met cursusinschrijving') is "
+        "gecorrigeerd aan de hand van de officiele bron.",
         geo_status="GOOGLE_MAPS_MARKER_NOT_CONFIRMED", coord_text="nog geen BRONS/ZILVER-GEO-stap doorlopen",
-        checked_at="2026-08-05",
+        checked_at="2026-08-06",
     ),
     dict(
-        nr="054", naam="Wat Thai Buddhagaya (Thai Monastery)", hook="de enige Thaise tempel van India",
+        nr="054", naam="Wat Thai Buddhagaya (Thai Monastery)", hook="de Thaise tempel binnen Bodh Gaya",
         cluster="Internationale kloosters", mark_status="OPEN",
         wat_is_het="Het Koninklijk Thaise Klooster, gesticht in 1956/1957 (bronnen verschillen op "
         "het exacte jaar) op uitnodiging van Nehru ter gelegenheid van de 25e boeddhistische "
-        "eeuw, gebouwd door de Thaise regering. Het enige Thaise tempel in India.",
+        "eeuw, gebouwd door de Thaise regering. De Thaise tempel binnen Bodh Gaya.",
         waarom="Gebouwd op uitdrukkelijke uitnodiging van India's eerste premier -- een concreet "
         "historisch-diplomatiek gegeven. Rijk verguld, sterk gelijkend op de tempels van Bangkok "
         "-- visueel volledig anders dan de rest van Bodh Gaya.",
         betekenis="Correctie na brongecontroleerde herbeoordeling: de claim \"eerste buitenlandse "
         "klooster van Bodh Gaya\" is niet hard te onderbouwen -- een bron noemt een veel oudere "
         "(4e-eeuwse) Sri Lankaanse Sangharam die aan de moderne internationale kloosters "
-        "voorafging. De houdbare claim is: het eerste MODERNE buitenlandse klooster in Bodh Gaya.",
+        "voorafging. De houdbare claim is: het eerste MODERNE buitenlandse klooster in Bodh Gaya. "
+        "Verdere correctie: \"enige Thaise tempel in India\" is ONJUIST en verwijderd -- er "
+        "bestaan minstens twee andere Thaise tempels in India (Wat Thai Temple, Sant Nagar, "
+        "Delhi; Bhogal Buddha Vihar, Delhi).",
         ervaart="Een goudkleurig, sterk hellend gelakt dak en een groot bronzen Boeddhabeeld in "
         "het heiligdom (stevig bevestigd).",
-        onderscheidend="Enige Thaise tempel in heel India, met een concreet historisch-"
-        "diplomatiek stichtingsverhaal.",
+        onderscheidend="De Thaise tempel binnen Bodh Gaya (niet: de enige in heel India -- zie "
+        "correctie), met een concreet historisch-diplomatiek stichtingsverhaal.",
         bezoektijd="NOG NIET ONDERZOCHT",
         combineer="NOG NIET ONDERZOCHT.",
         tips="Vrij toegankelijk. Gemelde ochtend-/avondmeditatiesessies en een jaarlijkse stille "
@@ -299,13 +326,14 @@ CANDIDATES = [
         overslaan="Geen directe biografische link met Boeddha's eigen verlichtingsverhaal -- "
         "vooral relevant voor wie de internationale/architectonische diversiteit van Bodh Gaya "
         "wil zien.",
-        onzekerheden="\"Eerste buitenlandse klooster\" is bijgesteld naar \"eerste moderne "
-        "buitenlandse klooster\" (een oudere Sri Lankaanse Sangharam ging vooraf). Een apart "
-        "gemeld 25 m hoog tuinbeeld is niet bevestigd door Wikipedia of een officiele bron en "
-        "lijkt mogelijk verward met de aparte Great Buddha Statue (049). Stichtingsjaar wisselt "
-        "tussen bronnen (1956/1957).",
+        onzekerheden="\"Enige Thaise tempel in India\" bleek ONJUIST en is verwijderd (minstens "
+        "twee andere Thaise tempels bevestigd in Delhi). \"Eerste buitenlandse klooster\" blijft "
+        "bijgesteld naar \"eerste moderne buitenlandse klooster\" (een oudere Sri Lankaanse "
+        "Sangharam ging vooraf). Een apart gemeld 25 m hoog tuinbeeld is niet bevestigd door "
+        "Wikipedia of een officiele bron en lijkt mogelijk verward met de aparte Great Buddha "
+        "Statue (049). Stichtingsjaar wisselt tussen bronnen (1956/1957).",
         geo_status="GOOGLE_MAPS_MARKER_NOT_CONFIRMED", coord_text="nog geen BRONS/ZILVER-GEO-stap doorlopen",
-        checked_at="2026-08-05",
+        checked_at="2026-08-06",
     ),
     dict(
         nr="055", naam="Royal Bhutan Monastery", hook="Bhutaanse dzong-architectuur",
@@ -371,8 +399,9 @@ CANDIDATES = [
         waarom="Een driedelig dak met drakenversieringen -- architectonisch uniek in Bodh Gaya -- "
         "en een Avalokiteshvara-beeld (in plaats van uitsluitend een Boeddhabeeld) als centraal "
         "object.",
-        betekenis="Enige tempel in de straal met specifiek Vietnamese (Mahayana) architectuur en "
-        "een Avalokiteshvara-focus in plaats van een Boeddha-focus.",
+        betekenis="Onder de tot nu toe onderzochte kandidaten in de straal de enige tempel met "
+        "specifiek Vietnamese (Mahayana) architectuur en een Avalokiteshvara-focus in plaats van "
+        "een Boeddha-focus.",
         ervaart="Een sereen, modern gebouwd heiligdom met drakenmotieven, art-deco-elementen en "
         "uitgestrekte tuinen.",
         onderscheidend="Architectonisch en iconografisch uniek (Avalokiteshvara i.p.v. Boeddha) "
@@ -423,7 +452,7 @@ KEUZEHULP = {
     "051": "Door Mark te beoordelen -- voetspoor van Vishnu, Gaya-stad",
     "052": "Door Mark te beoordelen -- Karmapa-klooster, evenementafhankelijk",
     "053": "Door Mark te beoordelen -- meerdaags retraiteprogramma",
-    "054": "Door Mark te beoordelen -- enige Thaise tempel in India",
+    "054": "Door Mark te beoordelen -- de Thaise tempel binnen Bodh Gaya",
     "055": "Door Mark te beoordelen -- Bhutaanse dzong-architectuur",
     "056": "Door Mark te beoordelen -- Tibetaans klooster tegenover 046",
     "057": "Door Mark te beoordelen -- Vietnamese tempel, Avalokiteshvara",
