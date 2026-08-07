@@ -21,7 +21,10 @@ from reportlab.platypus import (
 )
 from reportlab.lib.enums import TA_CENTER
 
-OUT = "runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/BODHGAYA_046_058_KEUZE_REISGIDS.pdf"
+# Versienummer VOORAAN in de bestandsnaam (Mark-besluit 2026-08-06), oplopend per sweep, nooit
+# hergebruikt. Vorige, ongeversioneerde build blijft staan als historisch record. Bouw uitsluitend
+# na een opdracht met het letterlijke veld `PDF_GO: JA` (zie INDIA5-PROTOCOL.md, PDF-poort).
+OUT = "runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/V1_BODHGAYA_046_058_KEUZE_REISGIDS.pdf"
 TMP = "/tmp/claude-0/-home-user-india-knowledge-base/1fd594af-6399-554f-b402-799cc673ccdc/scratchpad/_bgy_pdf_pass1.pdf"
 
 styles = getSampleStyleSheet()

@@ -177,6 +177,18 @@ Elke nieuwe CCI-opdracht bevat vanaf nu expliciet een van de twee velden `PDF_ST
 of `PDF_GO: JA`. Ontbreekt dat veld, dan geldt VERBODEN als impliciete default — CCI mag het
 ontbreken van dit veld nooit als toestemming lezen.
 
+### Bestandsnaamgeving — versienummer vooraan (Mark-besluit 2026-08-06)
+
+Elk versieerbaar eindbestand (PDF, en waar van toepassing andere per-sweep herbouwbare
+eindproducten) krijgt een versienummer VOORAAN in de bestandsnaam, niet aan het einde:
+
+- Correct: `V1_BODHGAYA_046_058_KEUZE_REISGIDS.pdf`, daarna bij een volgende, expliciet
+  toegestane herbouw: `V2_BODHGAYA_046_058_KEUZE_REISGIDS.pdf`, enzovoort.
+- Fout: `BODHGAYA_046_058_KEUZE_REISGIDS_V1.pdf` (versienummer aan het einde).
+- Het versienummer loopt altijd op, per sweep/deliverable, nooit hergebruikt of teruggezet.
+- Oudere versies blijven staan als historisch record (niet overschrijven, niet verwijderen)
+  tenzij Mark expliciet om opruiming vraagt.
+
 ## Accommodatiebesluiten (Mark-besluit 2026-08-02, commit cf2daf2)
 
 Hotels, guesthouses, bases en andere verblijfskeuzes zijn GEEN kandidaten (geen A/B/C-locatie-ID uit
