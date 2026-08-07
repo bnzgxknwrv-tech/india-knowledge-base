@@ -157,6 +157,26 @@ correctie, of volstaat de correctie in de brondata?") en pas bouwen na Marks eig
 tekstfout in een reeds geleverde PDF wordt gemeld en in de brondata gecorrigeerd; de PDF zelf
 wordt pas herbouwd na expliciete toestemming.
 
+**TWEEDE HERBEVESTIGING — expliciete PDF-poort (INDIA6-besluit, bericht 022, 2026-08-06, na een
+tweede schending)**: ondanks de regel hierboven werd een PDF opnieuw gebouwd op basis van een
+opdracht die zelf niet het expliciete woord "PDF_GO: JA" bevatte (alleen "herbouw daarna: [pdf]"
+in een correctietaak) — dat bleek onvoldoende expliciet en kostte onnodige tokens. Vanaf nu geldt
+een vaste, ondubbelzinnige poort, voor alle regio's:
+
+1. **Discovery/onderzoek** — alleen onderzoek + brondata, geen PDF.
+2. **Correctie** — alleen inhoud/data corrigeren, geen PDF.
+3. **INDIA6-eindcontrole** — India6 controleert de volledige keuze-inhoud (alle kandidaten,
+   hoofdclaims, absolute claims, toegankelijkheid, seizoenen, gebeurtenissen, onzekerheden).
+4. Bij fouten: CCI corrigeert uitsluitend inhoud/data, daarna opnieuw controle door India6.
+5. Een PDF-build mag UITSLUITEND plaatsvinden in een aparte opdracht die letterlijk het veld
+   `PDF_GO: JA` bevat. Zonder dat exacte veld is een PDF-build VERBODEN — ook als de opdracht wel
+   naar een PDF-bestandsnaam verwijst, ook als een sweep of correctieronde "klaar" is. "Sweep
+   klaar" betekent dus NIET automatisch "PDF bouwen".
+
+Elke nieuwe CCI-opdracht bevat vanaf nu expliciet een van de twee velden `PDF_STATUS: VERBODEN`
+of `PDF_GO: JA`. Ontbreekt dat veld, dan geldt VERBODEN als impliciete default — CCI mag het
+ontbreken van dit veld nooit als toestemming lezen.
+
 ## Accommodatiebesluiten (Mark-besluit 2026-08-02, commit cf2daf2)
 
 Hotels, guesthouses, bases en andere verblijfskeuzes zijn GEEN kandidaten (geen A/B/C-locatie-ID uit
