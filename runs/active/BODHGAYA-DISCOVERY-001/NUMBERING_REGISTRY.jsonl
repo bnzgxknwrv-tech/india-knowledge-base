@@ -13,3 +13,22 @@
 {"candidate_id":"BGY-CAND-057","display_id":"057","canonical_name":"Vietnamese Temple","region":"BODHGAYA","assigned_at":"2026-08-05"}
 {"candidate_id":"BGY-CAND-058","display_id":"058","canonical_name":"Japanese Temple / Indosan Nippon (Nipponzan-Myohoji)","region":"BODHGAYA","assigned_at":"2026-08-05"}
 {"correction_type": "CANONICAL_NAME_CORRECTION", "candidate_id": "BGY-CAND-056", "display_id": "056", "previous_canonical_name": "Namgyal Monastery (Bodhgaya) / Tibetaans klooster tegenover Mahabodhi", "corrected_canonical_name": "Tibetan Temple (Tibetaans klooster tegenover Mahabodhi)", "reason": "Eerdere naam bevatte een onbevestigde identificatie (Namgyal Monastery) en een onbevestigde Dalai Lama-connectie, gebruikt als primaire claim voor een permanent genummerde kandidaat. Officiele bron (tourism.bihar.gov.in, pagina Tibetan Temple) noemt geen Namgyal Monastery, geen Karma Temple, geen Dalai Lama. Nummer 056 blijft ongewijzigd (immutable), alleen de naam is gecorrigeerd. Zie GOUD/MARK_SELECTION_REPORT.md en PRE_BRONS/DISCOVERY_CANDIDATES.jsonl.", "decided_by": "INDIA2 (bericht 011)", "corrected_by": "CCI", "corrected_at": "2026-08-05"}
+{"candidate_id": "BGY-CAND-059", "display_id": "059", "canonical_name": "Metta Buddharam Temple (Silver Temple)", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-060", "display_id": "060", "canonical_name": "Palyul Namdroling Monastery (Ngagyur Palyul Thubten Shedrub Choekhor Dargyeling)", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-061", "display_id": "061", "canonical_name": "Burmese Vihara", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-062", "display_id": "062", "canonical_name": "Mahabodhi Society of India (Bodh Gaya-centrum)", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-063", "display_id": "063", "canonical_name": "Padmasambhava Grand Temple and Nyingma Center", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-064", "display_id": "064", "canonical_name": "Chinese Temple", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-065", "display_id": "065", "canonical_name": "Bangladesh Buddhist Monastery", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-066", "display_id": "066", "canonical_name": "Cambodian Monastery", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-067", "display_id": "067", "canonical_name": "Korean Temple (Bunhwang-sa)", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-068", "display_id": "068", "canonical_name": "Shechen Monastery", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-069", "display_id": "069", "canonical_name": "Mongolian Temple", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-070", "display_id": "070", "canonical_name": "Mangala Gauri Temple (Shakti Peeth)", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-071", "display_id": "071", "canonical_name": "Pretshila Hill", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-072", "display_id": "072", "canonical_name": "Brahmayoni Hill / Gayasisa Stupa (Vuurpreek-locatie)", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-073", "display_id": "073", "canonical_name": "Jagannath Temple (naast Mahabodhi)", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-074", "display_id": "074", "canonical_name": "International Meditation Centre / Dhamma Bodhi (Vipassana, S.N. Goenka-lijn)", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-075", "display_id": "075", "canonical_name": "Jain Temple, Gaya (Bhagawan Mahavira)", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-076", "display_id": "076", "canonical_name": "Akshayavat (de onvergankelijke banyanboom)", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-077", "display_id": "077", "canonical_name": "Bitho Sharif Dargah", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
