@@ -2,9 +2,10 @@
 
 *Alleen de kandidaten die daadwerkelijk keuze-relevant veranderd zijn sinds jouw vorige A/B/C-
 keuze (bericht 053). De overige 17 blijven ongewijzigd vastgelegd — die krijg je hier niet
-opnieuw voorgelegd (governance/SWEEP_PROTOCOL.md poort T, DELTA-ONLY herbeoordeling). Volledige
-achtergrond per kandidaat blijft staan in `PRE_PDF_CONTENT.md` als je wilt doorlezen; dat is nu
-naslag, geen verplicht leesstuk.*
+opnieuw voorgelegd. Dit is een eenmalig praktisch hulpmiddel voor deze correctieronde (bericht
+061), geen permanente canonregel — zie `governance/ACTIVE_STATE.md`, `INGETROKKEN_CANONPOGING`.
+Volledige achtergrond per kandidaat blijft staan in `PRE_PDF_CONTENT.md` als je wilt doorlezen;
+dat is nu naslag, geen verplicht leesstuk.*
 
 **Waarom slechts 3, en niet 4**: de reconciliatie (bericht 058, `PRE_BRONS/AOAY_TOP11_AUDIT.md`)
 raakte vier kandidaten (046, 051, 061, 074). Kandidaat **046** is bewust NIET opgenomen: die staat
@@ -82,6 +83,6 @@ CCI de besluiten vast en kan een geconsolideerde V2-PDF worden voorbereid — ni
 `PDF_STATUS: VERBODEN` blijft van kracht totdat een apart, letterlijk `PDF_GO: JA` volgt.*
 
 ---
-Geschreven door: CCI, op verzoek van INDIA6 (PR #23, bericht 061 — DELTA-ONLY herbeoordeling,
-governance/SWEEP_PROTOCOL.md poort T). Geen PDF, geen route/pacing, geen A/B/C ingevuld namens
-Mark.
+Geschreven door: CCI, op verzoek van INDIA6 (PR #23, bericht 061 — eenmalig praktisch hulpmiddel
+voor deze correctieronde, geen permanente canonregel). Geen PDF, geen route/pacing, geen A/B/C
+ingevuld namens Mark.

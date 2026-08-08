@@ -53,7 +53,7 @@ Deel 4 hieronder.
 
 ---
 
-## Deel 2 — Sweep-protocol (poorten A-T)
+## Deel 2 — Sweep-protocol (poorten A-S)
 
 Elke poort hieronder is een TOEVOEGING aan een bestaande stap uit
 `INDIA5_REGION_START_PROTOCOL.md`. Waar een poort een bestaand mechanisme al dekt, wordt dat
@@ -638,48 +638,6 @@ beslissen.
 geen nieuwe laag aan toe — poort K (Onafhankelijke INDIA-controle) en poort O
 (Vervangbaarheid/handoff) blijven ongewijzigd van kracht, deze poort maakt alleen expliciet dat
 GitHub/PR het kanaal is en dat Mark niet de verplichte tussenpersoon is.
-
-### T. DELTA-ONLY herbeoordeling voor Mark (nieuw, INDIA6 bericht 061, 2026-08-08 — vervolg op
-poort S/HUMAN_TOUCHPOINTS_MINIMIZED)
-
-**Principe**: als Mark al een A/B/C heeft gegeven en later onderzoek, reconciliatie of
-kwaliteitscontrole nieuwe informatie oplevert, beoordeelt Mark NOOIT opnieuw de volledige
-kandidatenlijst. Hij krijgt uitsluitend de kandidaten opnieuw voorgelegd die daadwerkelijk
-keuze-relevant veranderd zijn.
-
-**Een kandidaat wordt `DELTA_REVIEW_REQUIRED` als minstens één van de volgende geldt**:
-1. nieuwe informatie die redelijkerwijs zijn eerdere A/B/C kan veranderen;
-2. een nieuwe kandidaat, pas ontdekt ná zijn vorige keuze;
-3. een eerdere hoofdclaim bleek materieel fout — MAAR alleen als die correctie ook daadwerkelijk
-   de A/B/C-uitkomst zou kunnen raken (een correctie op een reeds aan het plafond zittende,
-   `protected`/onvoorwaardelijke A op onafhankelijke gronden hoeft NIET opnieuw voorgelegd te
-   worden — wél transparant gedocumenteerd, zie voorbeeld hieronder);
-4. praktische haalbaarheid (toegang, seizoen, cursusvereiste e.d.) veranderde wezenlijk.
-
-**Ongewijzigde kandidaten blijven `LOCKED_BY_MARK`** en worden nooit opnieuw aangeboden, ook niet
-als ze in dezelfde reconciliatieronde terloops genoemd worden.
-
-**Verplicht compact format per heropende kandidaat** (nooit de volledige tienveldenkaart
-herhalen — dat blijft in `PRE_PDF_CONTENT.md` staan voor wie het wil nalezen):
-- nummer + volledige naam;
-- vorige keuze;
-- WAT IS NIEUW sinds die keuze;
-- waarom dit mogelijk keuze-relevant is;
-- alleen de noodzakelijke nieuwe context (geen herhaling van al bekende, ongewijzigde feiten);
-- keuzeveld: nieuwe A/B/C, of expliciet "oude keuze behouden".
-
-**PDF-gevolg**: geen volledige nieuwe keuze-PDF afdwingen wanneer slechts enkele kandidaten
-materieel veranderden. In plaats daarvan een compacte DELTA-keuze-uitvoer (Markdown, of een PDF
-alleen als dat na expliciete `PDF_GO: JA` nuttig blijkt). Een volledige geconsolideerde PDF komt
-pas later, ná verwerking van de gewijzigde keuzes — niet per delta-ronde.
-
-**Voorbeeld (Bodh Gaya, 2026-08-08, ná de AOAY/Top-11-reconciliatie van bericht 058)**: van de vier
-door de reconciliatie geraakte kandidaten (046, 051, 061, 074) is alleen 046 UITGESLOTEN van
-DELTA_REVIEW_REQUIRED, ondanks een materieel foutieve hoofdclaim (de ingetrokken Ramakrishna-
-claim) — omdat 046 al `protected`/onvoorwaardelijk A staat op geheel andere, onafhankelijke
-gronden (de verlichtingsplek zelf + AOAY-bevestigde Sri Yukteswar-inwijding) en geen enkele
-gevonden of ingetrokken claim die uitkomst kan veranderen. 051, 061 en 074 zijn wél
-`DELTA_REVIEW_REQUIRED` — zie de compacte DELTA-uitvoer voor de exacte, per-kandidaat toepassing.
 
 ---
 

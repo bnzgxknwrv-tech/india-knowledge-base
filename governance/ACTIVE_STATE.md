@@ -42,14 +42,13 @@ HUMAN_TOUCHPOINTS_MINIMIZED: JA (bericht 060, 2026-08-08, governance/SWEEP_PROTO
   zelfstandig — geen fictieve automatisering geclaimd: INDIA kan niet autonoom draaien of door CCI
   worden aangeroepen, maar zodra een kant een PR-comment/commit van de andere leest, volgt de
   eerstvolgende eigen actie zonder dat Mark als koerier hoeft te fungeren.
-DELTA_ONLY_REVIEW: JA (bericht 061, 2026-08-08, governance/SWEEP_PROTOCOL.md poort T) — als
-  onderzoek/reconciliatie ná een eerdere Mark-A/B/C-keuze nieuwe informatie oplevert, krijgt Mark
-  NOOIT de volledige kandidatenlijst opnieuw voorgelegd, alleen de kandidaten die daadwerkelijk
-  `DELTA_REVIEW_REQUIRED` zijn (nieuwe info die de uitkomst kan raken, nieuwe kandidaat, materieel
-  foutieve hoofdclaim mét mogelijke uitkomstimpact, of wezenlijk veranderde haalbaarheid).
-  Ongewijzigde kandidaten blijven LOCKED_BY_MARK, nooit opnieuw aangeboden. Compact per-kandidaat-
-  format verplicht (nummer+naam, vorige keuze, WAT IS NIEUW, relevantie, nieuwe context, nieuwe
-  keuze/oude keuze behouden) — geen volledige nieuwe PDF per delta-ronde.
+INGETROKKEN_CANONPOGING (2026-08-08, bericht 061): een "DELTA-ONLY herbeoordeling"-poort werd
+  kort gecanoniseerd en is diezelfde dag door INDIA6 INGETROKKEN als permanente regel — bedoeld was
+  alleen een eenmalig praktisch hulpmiddel voor de huidige Bodh Gaya-correctieronde, niet een
+  algemene regel voor toekomstige sweeps (die moeten juist zulke late correcties voorkomen via
+  poort R's dubbele sweep + integrale pre-PDF-QA). `governance/SWEEP_PROTOCOL.md` bevat GEEN
+  poort T meer; het praktische bijproduct `DELTA_REVIEW_2026-08-08.md` voor Bodh Gaya blijft
+  gewoon bestaan als eenmalig documenten, niet als canonprecedent.
 OPEN_SYSTEM_DECISIONS:
   - Tweede, ongebruikte taakarchitectuur onder india5/tasks/ (TASK.yaml/STATUS.yaml) — reactiveren,
     archiveren of samenvoegen met Coverage Matrix/Lead Register? Nog niet besloten.
@@ -124,9 +123,9 @@ REGIONS:
       of pure architectuur, geen zelfstandige bedevaarts-/heilige zwaarte); 076 (Akshayavat) =
       SUBLOCATION, samengevoegd bij 051 (Vishnupad Temple) — alle 13 uitgesloten/sublocatie-
       nummers blijven permanent gereserveerd, nooit hergebruikt
-    blockers: wacht op Marks DELTA-keuze (poort T, bericht 061) over de 3
-      DELTA_REVIEW_REQUIRED-kandidaten (051, 061, 074) vóórdat PRE_PDF_CONTENT.md definitief kan
-      worden opgesteld/vrijgegeven voor een V2_-PDF
+    blockers: wacht op Marks keuze (bericht 061) over de 3 kandidaten met een open
+      MARK_DECISION_CONFLICT (051, 061, 074) vóórdat PRE_PDF_CONTENT.md definitief kan worden
+      opgesteld/vrijgegeven voor een V2_-PDF
     PDF geleverd: runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/V1_BODHGAYA_KEUZE_REISGIDS.pdf
       (19 pagina's, commit 5910439) — eerste build onder de V1_-naamgevingsregel voor deze run;
       GEEN nieuwe A/B/C-status meer, PDF toont de OUDE open/twijfelgeval-labels — vervangen zodra
@@ -134,13 +133,14 @@ REGIONS:
     PRE_PDF_CONTENT geleverd: runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/PRE_PDF_CONTENT.md —
       volledige beoogde V2-PDF-inhoud (20 kandidaatkaarten met alle 10 verplichte velden,
       beslismatrix, clusteroverzicht, de 3 MARK_DECISION_CONFLICTs zichtbaar gemarkeerd),
-      bijgewerkt na reconciliatie (bericht 058); blijft het naslagdocument, niet meer het
-      verplichte leesstuk voor Mark (zie DELTA_ONLY_REVIEW, poort T)
-    DELTA_REVIEW geleverd (2026-08-08, bericht 061, poort T): runs/active/BODHGAYA-DISCOVERY-001/
-      GOUD/USER/DELTA_REVIEW_2026-08-08.md — compacte herbeoordeling voor Mark van alleen de 3
-      DELTA_REVIEW_REQUIRED-kandidaten (051, 061, 074); 046 expliciet UITGESLOTEN met reden (al
-      protected/onvoorwaardelijk A op onafhankelijke gronden, de ingetrokken Ramakrishna-claim kan
-      die uitkomst niet raken); overige 16 blijven LOCKED_BY_MARK, niet opnieuw aangeboden
+      bijgewerkt na reconciliatie (bericht 058); volledig naslagdocument
+    DELTA_REVIEW geleverd (2026-08-08, bericht 061 — eenmalig praktisch hulpmiddel voor DEZE
+      correctieronde, GEEN permanente canonregel, zie "Ingetrokken canonpogingen" hieronder):
+      runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/DELTA_REVIEW_2026-08-08.md — compacte
+      herbeoordeling voor Mark van alleen de 3 kandidaten met een open MARK_DECISION_CONFLICT
+      (051, 061, 074); 046 bewust niet meegenomen (al protected/onvoorwaardelijk A op
+      onafhankelijke gronden, de ingetrokken Ramakrishna-claim kan die uitkomst niet raken);
+      overige 16 blijven LOCKED_BY_MARK, niet opnieuw aangeboden
     next_allowed_step: Mark leest DELTA_REVIEW_2026-08-08.md (kort, alleen 3 kandidaten) en geeft
       per kandidaat nieuwe A/B/C of "oude keuze behouden"; pas daarna, met `PRE_PDF_CONTENT_APPROVED:
       JA` + apart, letterlijk `PDF_GO: JA`, mag een geconsolideerde V2_ gerenderd worden
