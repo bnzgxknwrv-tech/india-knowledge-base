@@ -385,21 +385,123 @@ thematische verwantschap als GEO-combinatie gepresenteerd wordt; of combineerbaa
 onderzocht is (dat laatste moet expliciet gemeld worden, niet stilzwijgend blijven staan als
 "nog niet onderzocht").
 
-### M. Content-QA vóór PDF (bevestiging/formalisering van de reeds bestaande PDF-poort)
+### M. Content-QA vóór PDF — verplichte PRE_PDF_CONTENT-stap (aangescherpt, INDIA6 bericht 055, 2026-08-08)
 
-Ongewijzigd t.o.v. de al ingevoerde regel in `INDIA5-PROTOCOL.md`: CCI levert tekst/data, INDIA
-controleert de volledige inhoud, correcties gaan eerst in brondata/rapport. Aangescherpt (INDIA6
-bericht 032/tweede versie): dit levert een apart, expliciet, letterlijk token op —
-`CONTENT_QA_ACCEPTED: JA` — LOS van `PDF_GO: JA`. Zonder dit token blijft de sweep in
-`AWAITING_CONTENT_QA`; pas daarna kan een apart, eveneens letterlijk `PDF_GO: JA` een PDF-build
-openen. Deze twee tokens zijn nooit hetzelfde besluit: content-goedkeuring zegt niets over
-toestemming om daadwerkelijk te bouwen (fixt fout #9, scherper dan de eerdere versie van dit
-voorstel).
+**Vervangt/specificeert het eerdere `CONTENT_QA_ACCEPTED`-token** — hetzelfde principe (CCI levert
+tekst/data, INDIA controleert de volledige inhoud, correcties gaan eerst in brondata/rapport),
+maar nu met een verplichte, concrete tussenstap zodat INDIA altijd het EINDPRODUCT als geheel
+controleert, niet alleen losse bronrapporten:
 
-### N. PDF (ongewijzigd)
+1. CCI rondt research/data af.
+2. CCI bouwt de VOLLEDIGE beoogde PDF-inhoud als één human-readable Markdown-bestand
+   (`PRE_PDF_CONTENT.md` in `GOUD/USER/` van de run), exact in de uiteindelijke volgorde en met
+   dezelfde koppen/tabellen/kandidaatteksten die later in de PDF verschijnen.
+3. CCI committeert dit bestand. **Nog GEEN PDF-build.**
+4. INDIA leest het volledige `PRE_PDF_CONTENT.md` als eindproduct.
+5. Correcties gaan terug naar CCI en worden in hetzelfde bestand verwerkt (niet in een los kanaal).
+6. INDIA voert een laatste integrale controle uit op het gecorrigeerde bestand.
+7. Alleen bij expliciet, letterlijk `PRE_PDF_CONTENT_APPROVED: JA` ÉN een apart, letterlijk
+   `PDF_GO: JA` mag CCI renderen. Dit vervangt het oude losse `CONTENT_QA_ACCEPTED: JA`-token voor
+   PDF-doeleinden — gebruik voortaan uitsluitend `PRE_PDF_CONTENT_APPROVED: JA` als het
+   content-goedkeuringstoken vóór een PDF-build, om verwarring tussen een oud en nieuw token te
+   voorkomen.
+8. De uiteindelijke PDF mag inhoudelijk niet afwijken van het goedgekeurde `PRE_PDF_CONTENT.md`,
+   behalve automatische paginering/typografie. De renderer herschrijft nooit zelfstandig inhoud.
+9. Na build: CCI controleert uitsluitend visueel op lay-out (zoals al gangbare praktijk); inhoud
+   wordt niet opnieuw autonoom herschreven.
 
-Eén definitieve keuze-PDF per sweep-fase, uitsluitend ná content-QA. De PDF is een presentatie van
-al goedgekeurde inhoud, nooit zelf een onderzoeksstap of correctiekanaal.
+Een PDF die INDIA niet integraal als volledige eindtekst heeft gelezen en goedgekeurd, mag nooit
+aan Mark als keuze-PDF gepresenteerd worden.
+
+### N. PDF — vorm/leesbaarheid en verplichte kandidaatblok-inhoud (aangescherpt, INDIA6 berichten 055/056/057, 2026-08-08)
+
+Eén definitieve keuze-PDF per sweep-fase, uitsluitend ná de PRE_PDF_CONTENT-stap (poort M). De PDF
+is een presentatie van al goedgekeurde inhoud, nooit zelf een onderzoeksstap of correctiekanaal.
+
+**Voorkeursvolgorde van het document:**
+1. Regio + Marks persoonlijke missie daar in het kort + AOAY-treffers + Top-11-treffers + overige
+   zwaargewichten als bonus.
+2. Compacte beslismatrix: nr + naam | Jouw link | GEO/cluster | bezoektijd | toegang | kernreden |
+   A/B/C-vak (of, na een keuzeronde, de vastgelegde A/B/C).
+3. Eenvoudige geografische clusterkaart, uitsluitend indien voldoende betrouwbare GEO-data
+   beschikbaar is; onzekere GEO apart gemarkeerd, niet geraden.
+4. Compacte kandidaatkaarten, bij voorkeur niet over een pagina-einde gesplitst.
+5. Laatste pagina: compact A/B/C-invuloverzicht (of, na een keuzeronde, een overzicht van de
+   vastgelegde besluiten).
+
+**Verplichte velden per kandidaatkaart (minimaal):**
+1. `JOUW LINK` — AOAY (exacte passage/gebeurtenis) OF Top-11 (naam + exacte link) OF
+   `GEEN AOAY/TOP-11-LINK — zelfstandig pelgrims-/spiritueel zwaargewicht`. Nooit generiek "Kriya-/
+   boeddhistische focus" schrijven — Boeddha is geen Top-11-naam.
+2. `OBJECTIEVE SPIRITUELE/PELGRIMS-ZWAARTE` — zie poort L.2 hieronder.
+3. `MAGNETISME TER PLEKKE` — zie poort L.2.
+4. `WAAROM DIT VOOR MARK KAN TELLEN` — vertaling naar zijn reisdoel, zonder A/B/C te voorspellen.
+5. `WAT ER CONCREET TE ERVAREN IS`.
+6. `PRAKTISCH/GEO` — combineerbaarheid uitsluitend volgens poort L.1.
+7. `BEZOEKTIJD` — realistische bandbreedte; een transparante INDIA/CCI-planningsschatting is
+   toegestaan zonder officiële bron, mits expliciet zo gelabeld ("inschatting op basis van
+   omvang/type bezoek") — geen schijnprecisie. Dit is geen routeplanning/ervaringstijd voor het
+   hele cluster.
+8. `REISPERIODE-RELEVANTIE` — Marks daadwerkelijke reisperiode is **18 december 2026 t/m 21
+   januari 2027** (vastgelegd in `governance/ACTIVE_STATE.md`). Keuze-relevante festivals/
+   evenementen/toegang worden hiertegen gecontroleerd, niet tegen een oud/generiek festivaljaar:
+   `evenement tijdens reisperiode: JA/NEE/ONBEKEND NA ONDERZOEK`.
+9. `AFWEGING` — het echte beslispunt, geen verborgen A/B/C-advies.
+10. `ECHTE ONZEKERHEID` — alleen onzekerheid die overblijft NA onderzoek, met een concrete
+    categorie: `RELEVANTIE-TWIJFEL`, `BRON-TWIJFEL`, `TOEGANG-TWIJFEL`, `DATUM-TWIJFEL`,
+    `GEO-TWIJFEL`, of een andere concrete categorie (meerdere toegestaan). Nooit een kaal
+    "TWIJFELGEVAL" zonder aard van de twijfel.
+
+**Verboden placeholders voor keuze-relevante velden**: `NOG NIET ONDERZOCHT`, `TODO`, `TBD` of
+gelijkwaardig. Als iets na echt gericht onderzoek onbekend blijft: `ONBEKEND NA ONDERZOEK` + korte
+reden. Dit geldt minimaal voor: persoonlijke betekenis/link, spirituele/pelgrims-zwaarte, concrete
+ervaring, bezoekbaarheid/toegang, GEO-identiteit, combineerbaarheid, bezoektijd voor zover redelijk
+afleidbaar, keuze-relevante datum-/festivalinformatie.
+
+**Na een Mark-keuze**: oude AI-classificaties (`CORE_PASS`, `OPTIONAL_PASS`, "niet kernwaardig",
+e.d.) worden niet meer zichtbaar getoond in de gebruikers-PDF zodra Mark A/B/C heeft gekozen — dan
+gewoon `MARK: A/B/C`. Oude AI-classificaties zijn niet gebruikersrelevant na Marks besluit.
+
+Kale nummers zijn verboden — altijd `nummer + naam`. Vermijd meta-/protocoltekst in de
+gebruikers-PDF en onnodige herhaling tussen "waarom", "betekenis", "ervaring" en "afweging".
+
+#### L.2 Zwaarte voor Mark — verplicht blok (INDIA6 bericht 056, 2026-08-08)
+
+Elke kandidaat krijgt, naast `JOUW LINK` (zie poort N), een `ZWAARTE VOOR MARK`-blok:
+
+- **Objectieve pelgrims-/heiligdomzwaarte**: een klasse, geen kunstmatig puntensysteem:
+  `WERELD-/PAN-INDIA HEAVYWEIGHT`, `NATIONAAL/ZEER ZWAAR`, `REGIONAAL ZWAAR`, `LOKAAL/BEPERKT`, of
+  `GEEN ECHTE PELGRIMSMAGNEET — vooral historisch/institutioneel/architectonisch/studiecentrum`.
+  Onderbouw concreet met wat beschikbaar is: aantoonbare bezoekers-/pelgrimsstroom (alleen cijfers
+  bij betrouwbare bron), status binnen een canonieke groep (bv. één van een beperkt aantal
+  Shakti Peethas), uniek reliek/lichaamsdeel/voetafdruk/graf/grot/boom/gebeurtenis, centrale
+  rituele functie, nationale/internationale faam binnen de traditie, ouderdom/continuïteit van
+  levende bedevaart, omvang van jaarlijkse festivals, levende devotie versus alleen historisch
+  belang.
+- **Magnetisme ter plekke**: feitelijk, observeerbaar (voortdurend veel pelgrims/offers/puja/zang;
+  vooral druk tijdens één festival, daarbuiten rustig; actief klooster zonder pelgrimsmagneet;
+  monument/museum met weinig levende praktijk; `ONBEKEND` indien niet betrouwbaar onderzocht) —
+  geen zweverige "energie"-claims.
+- **Relatieve context** (optioneel, alleen indien onderbouwd): één korte, feitelijke vergelijking
+  met een andere kandidaat uit dezelfde regio — nooit een ranking om de ranking.
+- **Voor Mark in één zin**: concrete persoonlijke vertaling, geen verborgen A/B/C-advies.
+
+Regel: populariteit alleen is GEEN spirituele zwaarte; "vertegenwoordigt religie X" is NOOIT een
+zwaarteargument (zie ook FK-011/E.1). Een kleine AOAY/Top-11-plek blijft voor Mark belangrijker dan
+een objectief enorme bedevaartsplek zonder AOAY/Top-11-link.
+
+#### L.3 Feitelijke claimdiscipline in gebruikerstekst (INDIA6 bericht 057, 2026-08-08)
+
+Vóór elke PRE_PDF_CONTENT-vrijgave controleert CCI nogmaals alle keuze-relevante absolute claims:
+"exacte plek", "eerste", "oudste", "grootste", "enige", directe causaliteitsclaims, en een
+gebeurtenis-op-exact-deze-fysieke-plek-claim. Bij twijfel: genuanceerd formuleren, nooit
+stilzwijgend een stad/regio-gebeurtenis versmallen tot een specifiek tempelcomplex, en
+toegangsbeleid nooit afleiden uit de afwezigheid van een gemeld verbod (bestaande regel, poort G,
+hier herbevestigd). Bekende Bodh Gaya-precedenten: Sri Yukteswars sannyas-gebeurtenis in Bodh Gaya
+≠ bewezen exacte locatie Mahabodhi Temple Complex (zie poort E.1, gebeurtenis vs. exacte plek);
+Sujata Stupa niet zonder sterk bewijs als "exacte plek van aanbieding" presenteren; Great Buddha
+Statue niet onnodig absoluut als "grootste van India" formuleren; Mahabodhi Society niet absoluut
+"oudste bestaande kloostergebouw" zonder sterke onderbouwing.
 
 ### O. Vervangbaarheid/handoff (nieuw format, zie ook Deel 2 van dit voorstel-pakket:
 `governance/ACTIVE_STATE.md`)
@@ -453,7 +555,8 @@ structurele (niet-inhoudelijke) voorwaarden vóór fase-overgangen:
   nummering uniek/valide (hergebruikt `validate_global_numbering.py`); actieve kandidaten hebben
   geen status `HARD_EXCLUDED`/`SUBLOCATION`/`DUPLICATE`; saturation-evidence-bestand aanwezig;
   `INDIA_ACCEPTED_SATURATION: JA` aanwezig.
-- **Vóór PDF**: `CONTENT_QA_ACCEPTED: JA` aanwezig; `PDF_GO: JA` aanwezig.
+- **Vóór PDF**: `PRE_PDF_CONTENT_APPROVED: JA` aanwezig (vervangt `CONTENT_QA_ACCEPTED: JA` voor
+  PDF-doeleinden, zie poort M); `PDF_GO: JA` aanwezig.
 
 **Grens van de validator (expliciet, niet verhuld)**: de validator controleert uitsluitend
 structurele/machinaal-checkbare voorwaarden (bestaat het veld, is de status geldig, is er geen

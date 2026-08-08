@@ -16,7 +16,7 @@ Gebruik:
 
 phase=discovery -> checks vóór keuzerapportfase (Coverage Matrix, Lead Register, identity-
     /access-blockers, nummering, saturation-evidence, INDIA_ACCEPTED_SATURATION: JA).
-phase=pdf        -> checks vóór een PDF-build (CONTENT_QA_ACCEPTED: JA, PDF_GO: JA).
+phase=pdf        -> checks vóór een PDF-build (PRE_PDF_CONTENT_APPROVED: JA, PDF_GO: JA).
 
 Exit code 0 als alle controleerbare checks OK zijn (NIET_CONTROLEERBAAR blokkeert niet, maar
 wordt wel zichtbaar gerapporteerd); exit code 1 bij minstens één FAIL.
@@ -185,7 +185,7 @@ def main():
         check_saturation_evidence(run_dir, results)
         check_token(run_dir, "INDIA_ACCEPTED_SATURATION: JA", "INDIA_ACCEPTED_SATURATION", results)
     else:
-        check_token(run_dir, "CONTENT_QA_ACCEPTED: JA", "CONTENT_QA_ACCEPTED", results)
+        check_token(run_dir, "PRE_PDF_CONTENT_APPROVED: JA", "PRE_PDF_CONTENT_APPROVED", results)
         check_token(run_dir, "PDF_GO: JA", "PDF_GO", results)
 
     print(f"Preflight ({args.phase}) voor {run_dir}\n")

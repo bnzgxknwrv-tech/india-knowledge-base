@@ -15,6 +15,9 @@ overdraagbare projectkennis — niet chatgeheugen.
 
 ```
 PROJECT: India-pelgrimsroute-onderzoek voor Mark (bnzgxknwrv-tech/india-knowledge-base, PR #23)
+MARKS_REISPERIODE: 18 december 2026 t/m 21 januari 2027 (bron: INDIA6 bericht 055/057) — alle
+  keuze-relevante festival-/evenement-/toegangsinformatie in kandidaatteksten wordt hiertegen
+  gecontroleerd, niet tegen een oud/generiek festivaljaar (zie governance/SWEEP_PROTOCOL.md poort N)
 CURRENT_REGISSEUR_ROLE: INDIA (rolgebaseerd — huidige regisseursessie is vervangbaar, niet canoniek)
 CURRENT_SESSION_LABEL: INDIA6 (informatief, niet functioneel vereist)
 ACTIVE_PROTOCOL: governance/SWEEP_PROTOCOL.md (ACTIEF/CANONIEK) + india4/protocols/INDIA5-PROTOCOL.md
@@ -139,11 +142,15 @@ de zoekruimte en nooit zelfstandig bewijs voor kandidaatstatus. Zie
   content-acceptatie.
 - **Huidige INDIA-regisseur** (`CURRENT_REGISSEUR_ROLE`, vandaag ingevuld door de sessie met
   label INDIA6): regisseert, bewaakt canon, controleert saturatie-evidence
-  (`INDIA_ACCEPTED_SATURATION: JA`) en content (`CONTENT_QA_ACCEPTED: JA`). Niet canoniek/
-  onmisbaar — een toekomstige INDIA7/INDIA8/... erft deze rol volledig via dit bestand plus de
-  actieve protocolcanon, nooit via chatgeschiedenis.
+  (`INDIA_ACCEPTED_SATURATION: JA`) en content (`PRE_PDF_CONTENT_APPROVED: JA`, vervangt het oude
+  losse `CONTENT_QA_ACCEPTED: JA` voor PDF-doeleinden — zie governance/SWEEP_PROTOCOL.md poort M).
+  Niet canoniek/onmisbaar — een toekomstige INDIA7/INDIA8/... erft deze rol volledig via dit
+  bestand plus de actieve protocolcanon, nooit via chatgeschiedenis. **Actieplicht (bericht 057)**:
+  als INDIA constateert dat iets inhoudelijk noodzakelijk moet gebeuren, mag dat niet eindigen als
+  passieve TODO — INDIA voert het zelf uit met beschikbare tools of geeft in dezelfde beurt een
+  concrete CCI-opdracht. Alleen blokkeren bij werkelijk ontbrekende informatie/toestemming.
 - **CCI (ClaudeCodeIndia)**: uitvoerende engine — onderzoek, datasets, rapporten, commits. Bouwt
-  uitsluitend een PDF na een letterlijk `PDF_GO: JA`.
+  uitsluitend een PDF na `PRE_PDF_CONTENT_APPROVED: JA` én een apart, letterlijk `PDF_GO: JA`.
 
 ---
 Geschreven door: CCI, bijgewerkt na protocolreview van de huidige INDIA-regisseur (PR #23,
