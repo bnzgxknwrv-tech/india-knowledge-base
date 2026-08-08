@@ -15,6 +15,11 @@ overdraagbare projectkennis — niet chatgeheugen.
 
 ```
 PROJECT: India-pelgrimsroute-onderzoek voor Mark (bnzgxknwrv-tech/india-knowledge-base, PR #23)
+WAAROM_MARK_REIST: een persoonlijke pelgrimsreis langs (1) verifieerbare fysieke plekken uit/
+  verbonden met *Autobiography of a Yogi* en (2) plekken verbonden aan zijn persoonlijke Top-11
+  (zie hieronder) — dat is het eigenlijke reisdoel, missiekritisch. Overige, objectief zware
+  bedevaartsplekken zijn bonusmateriaal, alleen bij hoge zelfstandige zwaarte (zie
+  "Reisdoel-prioriteit" hieronder).
 MARKS_REISPERIODE: 18 december 2026 t/m 21 januari 2027 (bron: INDIA6 bericht 055/057) — alle
   keuze-relevante festival-/evenement-/toegangsinformatie in kandidaatteksten wordt hiertegen
   gecontroleerd, niet tegen een oud/generiek festivaljaar (zie governance/SWEEP_PROTOCOL.md poort N)
