@@ -53,7 +53,7 @@ Deel 4 hieronder.
 
 ---
 
-## Deel 2 — Sweep-protocol (poorten A-Q)
+## Deel 2 — Sweep-protocol (poorten A-S)
 
 Elke poort hieronder is een TOEVOEGING aan een bestaande stap uit
 `INDIA5_REGION_START_PROTOCOL.md`. Waar een poort een bestaand mechanisme al dekt, wordt dat
@@ -530,17 +530,124 @@ Dit protocol moet first-time-right verbeteren zonder een bureaucratisch monster 
 | Vaste stopcriteria (Verzadigingsdrempel, evidence-matrix) | Lange narratieve statusrapporten waar een tabel volstaat |
 | Gerichte bronqueries per openstaande lens/lead | Volledige nieuwe sweep om één deelvraag te beantwoorden |
 
-Deze regel is geen aparte controlestap maar een werkinstructie voor hoe alle poorten A-Q worden
+Deze regel is geen aparte controlestap maar een werkinstructie voor hoe alle poorten A-R worden
 uitgevoerd — vandaar geen eigen JSONL-bestand of token.
+
+### R. Dubbele onafhankelijke sweep + reconciliatie (nieuw, INDIA6 bericht 059, 2026-08-08 —
+foutprecedent: Bodh Gaya)
+
+**Waarom deze poort bestaat**: de Bodh Gaya-run toonde aan dat één CCI-sweep niet betrouwbaar
+genoeg is voor Marks missiekritische laag (AOAY + Top-11). Pas nadat INDIA6 onafhankelijk dezelfde
+regio onderzocht (bericht 058, "ONAFHANKELIJKE CROSS-CHECK"), kwamen meerdere gemiste/foutieve
+links boven water: Ram Dass bij 061 versus 074 (datum + gebouw), Anandamayi Ma bij 051, Vivekananda
+bij 046 (verdieping), een echte Ramakrishna-fout bij 046 (ingetrokken, correcte link verplaatst
+naar 051), en Neem Karoli Baba's devotee-context bij 046 (correct geclassificeerd als geen directe
+fysieke link). Dit lost tevens openstaande ontwerpvraag 3 (hieronder, "reikwijdte van de
+adversarial pass") op door een harde ondergrens te zetten: één interne CCI-pass (poort I) is NOOIT
+voldoende voor de missiekritische laag — er moet een echt onafhankelijke tweede sweep zijn.
+
+**Twee onafhankelijke sweeps, verplicht vóór een regio als inhoudelijk compleet geldt**:
+- **Sweep A = CCI primaire sweep**: normale discovery volgens dit protocol (AOAY volledig, elk
+  Top-11-lid individueel, daarna laag-3 zwaargewichten), stopt alleen op geldige
+  saturatieregels (poort J).
+  - **Sweep B = onafhankelijke INDIA-tegensweep**: uitgevoerd door de actuele INDIA-regisseur,
+  of — als Mark dat expliciet kiest — door een aparte, onafhankelijke onderzoekschat. Krijgt
+  dezelfde regio en dezelfde Mark-kernprioriteiten, maar NIET vooraf CCI's kandidatenlijst of
+  conclusies. Doel is zelfstandig ontdekken, niet kandidaat-voor-kandidaat CCI verifiëren:
+  andere queryformuleringen, bronfamilies, biografische ingangen, historische spellingen.
+  Rapporteert ook negatieve resultaten per AOAY/Top-11-persoon. Mag NIET vervangen worden door
+  INDIA die achteraf alleen CCI's lijst naleest — dat veroorzaakt anchoring.
+
+**Wat dubbel moet, wat niet**: verplicht dubbel — volledige AOAY-regioverbindingen, elk Top-11-lid
+apart, fysieke gebeurtenissen/locaties (ook obscure huizen/kamers/tempeltjes/grotten/stations/
+bomen/ashrams), gebeurtenis en exacte fysieke locatie apart geverifieerd; laag-3-zwaargewichten
+(religie-onafhankelijk, geen religies afvinken, focus op zelfstandige zwaarte/magnetisme). NIET
+verplicht dubbel tot detailniveau: GEO-coördinaten, openingstijden, PDF-layout, bronformattering,
+technische validators — die blijven CCI-uitvoer/QA.
+
+**Blinde volgorde (anchoring-preventie)**: (1) CCI rondt Sweep A af en bevriest de uitkomst; (2)
+INDIA voert Sweep B uit zonder eerst Sweep A's kandidaten/conclusies als zoekbasis te gebruiken;
+(3) pas daarna worden A en B naast elkaar gelegd; (4) elk verschil krijgt één van: `CCI_MISSED`,
+`INDIA_MISSED`, `SAME_FINDING`, `SOURCE_CONFLICT`, `DIFFERENT_PHYSICAL_IDENTIFICATION`,
+`NOT_RELEVANT_AFTER_RECONCILIATION`; (5) alleen de gereconcilieerde uitkomst mag door naar
+keuzerapport-gereedheid.
+
+**Reconciliatiegate (verplicht vóór keuzerapport/PDF)**:
+
+```text
+DOUBLE_SWEEP_COMPLETED: JA
+INDEPENDENT_SWEEP_PERFORMED: JA
+RECONCILIATION_COMPLETED: JA
+MISSION_CRITICAL_DIFFERENCES_RESOLVED: JA
+```
+
+Een regio geldt NIET als inhoudelijk sweep-compleet/keuzerijp zolang een missiekritisch verschil
+openstaat. Geen consensus-door-meerderheid, geen automatisch-CCI-gelijk-geven: bij verschil worden
+bronnen opnieuw getoetst; als het verschil niet betrouwbaar oplosbaar is, gaat het zichtbaar naar
+Mark (als `MARK_DECISION_CONFLICT` of vergelijkbaar).
+
+**Rol van Mark**: Mark hoeft geen twee rapporten te lezen — INDIA en CCI lossen de verschillen
+onderling op (via GitHub/PR, zie poort S, `HUMAN_TOUCHPOINTS_MINIMIZED`) en Mark krijgt pas
+daarna één geconsolideerde, menselijke keuzebasis. Alleen echte onoplosbare inhoudelijke
+conflicten of persoonlijke classificatiekeuzes gaan naar Mark.
+
+**Efficiency**: dubbel DENKEN/ZOEKEN, niet dubbel PRODUCEREN — Sweep B focust op onafhankelijke
+discovery/inhoud, geen tweede datasetsuite/PDF/KML; één compact onafhankelijk sweep-rapport
+volstaat; reconciliatie in één bestand vastgelegd; alleen nieuwe/differente leads worden daarna
+door CCI volledig technisch uitgewerkt (zie ook poort Q).
+
+**Bodh Gaya blijft het geldige precedent** voor waarom deze poort bestaat, óók na de huidige
+reconciliatieronde (bericht 058) — deze poort geldt voortaan voor toekomstige regio's, niet
+retroactief als blokkade voor het al lopende Bodh Gaya-werk.
+
+### S. HUMAN_TOUCHPOINTS_MINIMIZED — GitHub als communicatiebrug (nieuw, INDIA6 bericht 060,
+2026-08-08)
+
+**Principe**: Mark is geen menselijke message-bus tussen INDIA en CCI. GitHub/PR is de
+gezamenlijke communicatie- en state-laag tussen INDIA en CCI; Mark komt alleen in beeld voor
+beslissingen die uitsluitend hij kan nemen.
+
+**Belangrijke grens (geen fictieve automatisering)**: INDIA kan technisch niet autonoom/achter-
+grond blijven draaien of door CCI worden aangeroepen. Deze poort claimt dus GEEN automatische
+INDIA-activering. Wat wél geldt: zodra Mark (of een geplande/getriggerde sessie) terugkeert in de
+INDIA-chat, of zodra CCI een nieuwe PR-comment van INDIA leest, moet de betreffende kant
+zelfstandig GitHub uitlezen — zien wat de andere kant inmiddels heeft gedaan/gecommit/gerapporteerd
+— en de eerstvolgende eigen controle/actie uitvoeren zonder Mark opnieuw als koerier te gebruiken.
+
+**Gewenste normale flow** (per sweep): (1) Mark geeft één opdracht: sweep regio X. (2) CCI voert
+Sweep A uit en schrijft resultaten/state in GitHub. (3) INDIA leest die resultaten rechtstreeks uit
+GitHub en voert onafhankelijk Sweep B uit (poort R). (4) INDIA zet verschillen/gaten rechtstreeks
+op GitHub. (5) CCI onderzoekt/reconcileert die verschillen en commit de uitkomst. (6) INDIA leest
+de volledige gereconcilieerde PRE_PDF_CONTENT rechtstreeks uit GitHub en reviewt integraal. (7)
+Correcties tussen INDIA↔CCI lopen rechtstreeks via GitHub, zonder dat Mark teksten hoeft te
+kopiëren. (8) Pas als beide inhoudelijk akkoord zijn, krijgt Mark één goede keuze-PDF. (9) Mark
+geeft alleen A/B/C en eventuele persoonlijke inhoudelijke correcties. (10) CCI legt besluiten vast;
+vervolgcluster/pacing kan daarna volgens canon.
+
+**Mark hoeft normaal NIET**: CCI-uitvoer naar INDIA te kopiëren als die al op GitHub staat;
+INDIA-instructies naar CCI te kopiëren als INDIA ze rechtstreeks op de PR kan plaatsen;
+tussenreviews te lezen; technische commits/statusvelden te beoordelen; meerdere concept-PDF's te
+beoordelen.
+
+**Mark moet wel**: de initiële reis-/sweepvraag geven; persoonlijke voorkeuren/nieuwe
+canonbesluiten geven; de uiteindelijke A/B/C-keuzes maken; alleen bij echte inhoudelijke ambiguïteit
+die niet door bronnen/protocol oplosbaar is (bijv. een niet-oplosbare `MARK_DECISION_CONFLICT`)
+beslissen.
+
+**Geen aparte bureaucratische subarchitectuur**: dit vereenvoudigt de bestaande flow, het voegt er
+geen nieuwe laag aan toe — poort K (Onafhankelijke INDIA-controle) en poort O
+(Vervangbaarheid/handoff) blijven ongewijzigd van kracht, deze poort maakt alleen expliciet dat
+GitHub/PR het kanaal is en dat Mark niet de verplichte tussenpersoon is.
 
 ---
 
 ## Deel 3 — Foutklassenregister (apart bestand)
 
 Zie `governance/SWEEP_ERROR_CLASSES.md`. Bevat de tien fouten uit Deel 1 als herbruikbare,
-genummerde klassen (FK-001 t/m FK-010), zodat een toekomstige, nieuwe fout eerst tegen dit
-register gelegd kan worden ("is dit een bekende klasse, of nieuw?") in plaats van dat elke fout
-een losse, steeds langere ad-hoc regel wordt.
+genummerde klassen (FK-001 t/m FK-010), plus later toegevoegde klassen uit canoncorrecties
+(FK-011 t/m FK-012 en verder), zodat een toekomstige, nieuwe fout eerst tegen dit register gelegd
+kan worden ("is dit een bekende klasse, of nieuw?") in plaats van dat elke fout een losse, steeds
+langere ad-hoc regel wordt.
 
 ---
 
@@ -557,6 +664,14 @@ structurele (niet-inhoudelijke) voorwaarden vóór fase-overgangen:
   `INDIA_ACCEPTED_SATURATION: JA` aanwezig.
 - **Vóór PDF**: `PRE_PDF_CONTENT_APPROVED: JA` aanwezig (vervangt `CONTENT_QA_ACCEPTED: JA` voor
   PDF-doeleinden, zie poort M); `PDF_GO: JA` aanwezig.
+- **Vóór keuzerapport-gereedheid van een missiekritische regio (poort R, nieuw 2026-08-08, nog NIET
+  in `preflight_validator.py` geïmplementeerd — hier expliciet als open punt genoteerd, niet
+  verhuld)**: `DOUBLE_SWEEP_COMPLETED: JA`, `INDEPENDENT_SWEEP_PERFORMED: JA`,
+  `RECONCILIATION_COMPLETED: JA`, `MISSION_CRITICAL_DIFFERENCES_RESOLVED: JA`. Vooralsnog
+  handmatig door INDIA/CCI gecontroleerd,
+  zoals ook `INDIA_ACCEPTED_SATURATION` aanvankelijk handmatig was vóórdat het een script-check
+  werd — een validator-uitbreiding is mogelijke v2-toekomstige stap (zie Openstaande
+  ontwerpbeslissingen, punt 2).
 
 **Grens van de validator (expliciet, niet verhuld)**: de validator controleert uitsluitend
 structurele/machinaal-checkbare voorwaarden (bestaat het veld, is de status geldig, is er geen
@@ -593,10 +708,13 @@ zijn vóór een fase-overgang wordt toegestaan.
 2. **Machine-validatie**: gedeeltelijk opgelost door `governance/scripts/preflight_validator.py`
    (Deel 4) — dekt de structurele checks. Nog open: of ook Coverage Matrix/Lead Register-inhoud
    zelf (niet alleen status-volledigheid) verder geautomatiseerd moet worden.
-3. **Reikwijdte van de adversarial pass (poort I)**: nog altijd niet vastgelegd hoeveel nieuwe
-   zoekrichtingen/brontypen "genoeg anders" zijn om als geldige adversarial pass te tellen.
-   Voorstel: hergebruik de bestaande Verzadigingsdrempel-taal ("minimaal twee wezenlijk
-   verschillende benaderingen") — nog niet formeel bevestigd.
+3. **Reikwijdte van de adversarial pass (poort I)**: GEDEELTELIJK OPGELOST (2026-08-08, poort R) —
+   voor de missiekritische laag (AOAY + Top-11) is nu een harde ondergrens gezet: één interne CCI-
+   pass is nooit voldoende, er is een echt onafhankelijke tweede sweep (Sweep B, door INDIA of een
+   aparte onderzoekschat) plus reconciliatiegate verplicht. Nog open: of dezelfde harde eis ook
+   voor de bonusmateriaal-laag (laag 3, overige zwaargewichten) geldt, of dat daar de bestaande,
+   lichtere adversarial-pass-taal (poort I, "minimaal twee wezenlijk verschillende benaderingen")
+   blijft volstaan — nog niet formeel bevestigd.
 
 ## Activatie
 

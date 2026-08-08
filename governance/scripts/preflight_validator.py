@@ -58,6 +58,34 @@ def grep_literal(run_dir: Path, token: str):
     return hits
 
 
+_TOKEN_LINE_STRIP_CHARS = " \t*`->#•"
+
+
+def grep_standalone_token(run_dir: Path, token: str):
+    """Zoekt TOKEN als een op-zichzelf-staande statusregel (niet als losse substring).
+
+    Een regel telt alleen mee als de regel, na het strippen van markdown-opmaak
+    (backticks/asterisks/lijst-markers/whitespace) aan begin en eind, EXACT gelijk is aan
+    `token`. Dit voorkomt de valse-positiefklasse waarbij een zin die het token alleen NOEMT
+    ("Wacht op `PRE_PDF_CONTENT_APPROVED: JA` ...") ten onrechte als een echte toekenning
+    wordt gelezen -- de reden dat deze functie is toegevoegd (2026-08-08, gevonden tijdens de
+    Bodh Gaya-reconciliatieronde: PRE_PDF_CONTENT.md noemt beide tokens al in de openingsregel
+    als iets waarop nog gewacht wordt, wat de oude substring-check ten onrechte als OK las).
+    """
+    hits = []
+    for path in list(run_dir.rglob("*.md")) + list(run_dir.rglob("*.jsonl")) + \
+            list(run_dir.rglob("*.yaml")) + list(run_dir.rglob("*.yml")):
+        try:
+            text = path.read_text(encoding="utf-8")
+        except (UnicodeDecodeError, OSError):
+            continue
+        for line in text.splitlines():
+            if line.strip(_TOKEN_LINE_STRIP_CHARS).strip() == token:
+                hits.append(path)
+                break
+    return hits
+
+
 def check_coverage_matrix(run_dir: Path, results: list):
     path = run_dir / "PRE_BRONS" / "COVERAGE_MATRIX.jsonl"
     if not path.exists():
@@ -153,11 +181,13 @@ def check_saturation_evidence(run_dir: Path, results: list):
 
 
 def check_token(run_dir: Path, token: str, label: str, results: list):
-    hits = grep_literal(run_dir, token)
+    hits = grep_standalone_token(run_dir, token)
     if hits:
-        results.append((label, "OK", f"'{token}' gevonden in: " + ", ".join(str(p) for p in hits)))
+        results.append((label, "OK", f"'{token}' gevonden als op-zichzelf-staande regel in: "
+                         + ", ".join(str(p) for p in hits)))
     else:
-        results.append((label, "FAIL", f"'{token}' NIET gevonden in run-directory {run_dir}."))
+        results.append((label, "FAIL", f"'{token}' NIET gevonden als op-zichzelf-staande regel in "
+                         f"run-directory {run_dir} (losse vermeldingen binnen een zin tellen niet mee)."))
 
 
 def main():

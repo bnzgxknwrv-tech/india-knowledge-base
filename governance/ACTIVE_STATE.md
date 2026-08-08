@@ -30,12 +30,28 @@ ACTIVE_PROTOCOL: governance/SWEEP_PROTOCOL.md (ACTIEF/CANONIEK) + india4/protoco
 LAST_GLOBAL_LOCATION_NUMBER: 078 (BODHGAYA; VARANASI eindigt op 045, geen overlap)
 PDF_STATUS: VERBODEN (projectbreed default; per taak expliciet PDF_GO: JA vereist, zie
   governance/SWEEP_PROTOCOL.md poort M/N)
+DOUBLE_SWEEP_PROTOCOL_CANONICAL: JA (bericht 059, 2026-08-08) — geen regionale sweep geldt als
+  inhoudelijk compleet zonder een echt onafhankelijke tweede sweep + reconciliatie (governance/
+  SWEEP_PROTOCOL.md poort R, foutklasse FK-012). Geldt voor toekomstige regio's; Bodh Gaya's al
+  lopende reconciliatie (bericht 058) wordt er niet retroactief door geblokkeerd.
+HUMAN_TOUCHPOINTS_MINIMIZED: JA (bericht 060, 2026-08-08, governance/SWEEP_PROTOCOL.md poort S) —
+  GitHub/PR #23 is de communicatie-/state-laag tussen INDIA en CCI, niet Mark. Mark geeft de
+  initiële sweepvraag, persoonlijke voorkeuren/canonbesluiten en de uiteindelijke A/B/C-keuzes, en
+  beslist alleen bij echte, bronnelijk onoplosbare ambiguïteit (bijv. een openstaande
+  `MARK_DECISION_CONFLICT`). CCI en INDIA lezen elkaars GitHub-uitvoer rechtstreeks en handelen
+  zelfstandig — geen fictieve automatisering geclaimd: INDIA kan niet autonoom draaien of door CCI
+  worden aangeroepen, maar zodra een kant een PR-comment/commit van de andere leest, volgt de
+  eerstvolgende eigen actie zonder dat Mark als koerier hoeft te fungeren.
 OPEN_SYSTEM_DECISIONS:
   - Tweede, ongebruikte taakarchitectuur onder india5/tasks/ (TASK.yaml/STATUS.yaml) — reactiveren,
     archiveren of samenvoegen met Coverage Matrix/Lead Register? Nog niet besloten.
   - Of Coverage Matrix/Lead Register-inhoud (niet alleen statusvolledigheid) verder machinaal
-    gevalideerd moet worden, naast de huidige governance/scripts/preflight_validator.py.
-  - Concreet minimum voor een geldige adversarial pass (poort I) nog niet formeel vastgelegd.
+    gevalideerd moet worden, naast de huidige governance/scripts/preflight_validator.py — inclusief
+    of poort R's nieuwe reconciliatiegate-tokens (DOUBLE_SWEEP_COMPLETED e.a.) een scriptcheck
+    moeten krijgen.
+  - Concreet minimum voor een geldige adversarial pass (poort I) voor de bonusmateriaal-laag (laag
+    3) nog niet formeel vastgelegd — voor de missiekritische laag is dit inmiddels wel hard gezet
+    via poort R (dubbele onafhankelijke sweep verplicht).
 LAST_RELEVANT_COMMIT: (zie onderaan dit bestand, wordt bijgewerkt per commit)
 
 REGIONS:
@@ -57,29 +73,42 @@ REGIONS:
       NOT_TO_BE_MISSED-locatie
 
   BODHGAYA:
-    fase: MARK_SELECTION_KLAAR + AOAY/Top-11-audit KLAAR — wacht op Marks beslissing over 2
-      MARK_DECISION_CONFLICTs (051, 074), daarna PRE_PDF_CONTENT.md voor een V2_-PDF
+    fase: MARK_SELECTION_KLAAR + AOAY/Top-11-audit KLAAR + reconciliatie tegen onafhankelijke
+      INDIA6-tegencontrole KLAAR — wacht op Marks beslissing over 3 MARK_DECISION_CONFLICTs
+      (051, 061, 074), daarna PRE_PDF_CONTENT.md voor een V2_-PDF
     saturation-status: SATURATED=JA (SATURATION_REPORT_002.md + _003_ADDENDUM.md)
     INDIA_ACCEPTED_SATURATION: JA (geaccepteerd, bericht 028)
     CONTENT_QA_ACCEPTED: JA (bericht 048, gold voor V1); PDF_GO: JA (bericht 048, V1 gebouwd) —
       voor een V2_ is een nieuw, apart PRE_PDF_CONTENT_APPROVED: JA + PDF_GO: JA vereist
-    AOAY_TOP11_AUDIT: KLAAR (bericht 054, 2026-08-08) — volledige AOAY-primaire-tekstsweep (1
+    AOAY_TOP11_AUDIT: KLAAR (bericht 054, 2026-08-08; GERECONCILIEERD 2026-08-08 na een
+      onafhankelijke INDIA6-tegencontrole, bericht 058) — volledige AOAY-primaire-tekstsweep (1
       treffer: Sri Yukteswars Swami-inwijding "door de Mahant van Buddh Gaya", AOAY ch.36) + alle
-      11 Top-11-namen individueel onderzocht. 4 LINK_GEVONDEN (Sri Yukteswar, Ramakrishna,
-      Vivekananda -> 046, reeds A, verrijking; Anandamayi Ma -> 051; Ram Dass -> 074), 7 geen link
-      gevonden. Volledige matrix: runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/AOAY_TOP11_AUDIT.md
+      11 Top-11-namen individueel onderzocht, daarna elk gemeld discrepantiepunt opnieuw tegen
+      bronnen getoetst. 5 LINK_GEVONDEN (Sri Yukteswar -> 046; Vivekananda -> 046, verrijking;
+      Anandamayi Ma -> 051; Ramakrishna -> 051 via zijn vader Kshudirams naamgevende
+      Gadadhar/Vishnu-visioen, NIET via een eigen bezoek; Ram Dass -> onzeker tussen 061 en 074),
+      6 geen directe fysieke link (waaronder Neem Karoli Baba zelf, wel niet-promoveerbare
+      lineage-context bij 046 via devotee Krishna Das). CORRECTIE t.o.v. de eerste versie: de
+      claim "Ramakrishna bezocht Bodh Gaya" was ONJUIST (rechtstreekse brondubbelcheck toonde het
+      tegendeel) en is ingetrokken/verplaatst; de Ram Dass-datum is gecorrigeerd naar januari 1971
+      (was onjuist "winter 1969-70") en de kandidaat is niet langer zeker 074 alleen. Volledige
+      matrix: runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/AOAY_TOP11_AUDIT.md
     Mark-selection-status: MARK_SELECTION_KLAAR: JA (bericht 053, 2026-08-08). A: 046, 047, 048,
       049. B: 050, 052, 070, 073. C: 051, 058, 060, 061, 062, 063, 068, 071, 072, 074, 077, 078.
-      Alle 20 nummers LOCKED_BY_MARK — geen open kandidaten meer, BEHALVE 2 open
+      Alle 20 nummers LOCKED_BY_MARK — geen open kandidaten meer, BEHALVE 3 open
       MARK_DECISION_CONFLICTs hieronder.
     MARK_DECISION_CONFLICTs (open, niet zelfstandig door CCI opgelost): **051** Vishnupad Temple
-      (huidig: C) — Anandamayi Ma-link (Top-11 #7) pas ontdekt na de C-keuze. **074** Dhamma
-      Bodhi/Samanvaya Ashram (huidig: C) — Ram Dass-link (Top-11 #5) pas ontdekt na de C-keuze.
-      Beide expliciet gemarkeerd in MARK_SELECTION_REPORT.md; wacht op Mark/INDIA6-beslissing of
-      dit de bestaande C-keuzes verandert.
+      (huidig: C) — TWEE Top-11-links pas ontdekt na de C-keuze: Anandamayi Ma (Top-11 #7) en
+      Ramakrishna (Top-11 #8, via zijn vaders visioen). **061** Burmese Vihara (huidig: C) —
+      Ram Dass-link (Top-11 #5) pas ontdekt tijdens de reconciliatie, LOCATIE ONZEKER (zie 074).
+      **074** Dhamma Bodhi/Samanvaya Ashram (huidig: C) — Ram Dass-link (Top-11 #5), datum
+      gecorrigeerd naar januari 1971, LOCATIE ONZEKER, gedeeld met 061. Alle drie expliciet
+      gemarkeerd in MARK_SELECTION_REPORT.md en PRE_PDF_CONTENT.md; wacht op Mark/INDIA6-beslissing
+      of dit de bestaande C-keuzes verandert. Geen apart "Gadadhar Vishnu Temple"-nummer nodig
+      (dit IS 051, geen aparte fysieke plek) — expliciet onderzocht en afgewezen.
     protected A/B/C-besluiten: 046-049 = A (bron: MARK_DECISIONS_2026-08-05.jsonl); 050-078-groep
       zie hierboven (bron: runs/active/BODHGAYA-DISCOVERY-001/MARK_DECISIONS_2026-08-08.jsonl,
-      LOCKED_BY_MARK, mag niet stilzwijgend heropend worden — alleen expliciet via de 2
+      LOCKED_BY_MARK, mag niet stilzwijgend heropend worden — alleen expliciet via de 3
       MARK_DECISION_CONFLICTs hierboven)
     reserved/excluded nummers: 069, 075 = EXCLUDED_HARD_REASON (eerder); 053, 054, 055, 056, 057,
       059, 064, 065, 066, 067 = EXCLUDED_HARD_REASON (2026-08-08, retroactieve E.1-canontoets,
@@ -87,16 +116,16 @@ REGIONS:
       of pure architectuur, geen zelfstandige bedevaarts-/heilige zwaarte); 076 (Akshayavat) =
       SUBLOCATION, samengevoegd bij 051 (Vishnupad Temple) — alle 13 uitgesloten/sublocatie-
       nummers blijven permanent gereserveerd, nooit hergebruikt
-    blockers: wacht op Mark/INDIA6-beslissing over de 2 MARK_DECISION_CONFLICTs (051, 074) vóórdat
-      PRE_PDF_CONTENT.md definitief kan worden opgesteld voor een V2_-PDF
+    blockers: wacht op Mark/INDIA6-beslissing over de 3 MARK_DECISION_CONFLICTs (051, 061, 074)
+      vóórdat PRE_PDF_CONTENT.md definitief kan worden opgesteld voor een V2_-PDF
     PDF geleverd: runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/V1_BODHGAYA_KEUZE_REISGIDS.pdf
       (19 pagina's, commit 5910439) — eerste build onder de V1_-naamgevingsregel voor deze run;
       GEEN nieuwe A/B/C-status meer, PDF toont de OUDE open/twijfelgeval-labels — vervangen zodra
       een V2_ wordt gebouwd, niet tussentijds herbouwd
     PRE_PDF_CONTENT geleverd: runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/PRE_PDF_CONTENT.md —
       volledige beoogde V2-PDF-inhoud (20 kandidaatkaarten met alle 10 verplichte velden,
-      beslismatrix, clusteroverzicht, de 2 MARK_DECISION_CONFLICTs zichtbaar gemarkeerd), NOG GEEN
-      PDF gerenderd
+      beslismatrix, clusteroverzicht, de 3 MARK_DECISION_CONFLICTs zichtbaar gemarkeerd),
+      bijgewerkt na reconciliatie (bericht 058), NOG GEEN PDF gerenderd
     next_allowed_step: INDIA leest PRE_PDF_CONTENT.md volledig, geeft correcties (verwerkt in
       hetzelfde bestand) of `PRE_PDF_CONTENT_APPROVED: JA`; pas daarna, met een apart, letterlijk
       `PDF_GO: JA`, mag V2_ gerenderd worden
