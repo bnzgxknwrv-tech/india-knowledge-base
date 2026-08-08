@@ -52,34 +52,45 @@ REGIONS:
       NOT_TO_BE_MISSED-locatie
 
   BODHGAYA:
-    fase: MARK_SELECTION_KLAAR — alle 20 kandidaten hebben een A/B/C; AOAY+Top-11-volledigheidsaudit
-      (bericht 054) loopt vóór een volgende PDF (V2_) gebouwd mag worden
+    fase: MARK_SELECTION_KLAAR + AOAY/Top-11-audit KLAAR — wacht op Marks beslissing over 2
+      MARK_DECISION_CONFLICTs (051, 074), daarna PRE_PDF_CONTENT.md voor een V2_-PDF
     saturation-status: SATURATED=JA (SATURATION_REPORT_002.md + _003_ADDENDUM.md)
     INDIA_ACCEPTED_SATURATION: JA (geaccepteerd, bericht 028)
-    CONTENT_QA_ACCEPTED: JA (bericht 048); PDF_GO: JA (bericht 048, V1 gebouwd)
+    CONTENT_QA_ACCEPTED: JA (bericht 048, gold voor V1); PDF_GO: JA (bericht 048, V1 gebouwd) —
+      voor een V2_ is een nieuw, apart PRE_PDF_CONTENT_APPROVED: JA + PDF_GO: JA vereist
+    AOAY_TOP11_AUDIT: KLAAR (bericht 054, 2026-08-08) — volledige AOAY-primaire-tekstsweep (1
+      treffer: Sri Yukteswars Swami-inwijding "door de Mahant van Buddh Gaya", AOAY ch.36) + alle
+      11 Top-11-namen individueel onderzocht. 4 LINK_GEVONDEN (Sri Yukteswar, Ramakrishna,
+      Vivekananda -> 046, reeds A, verrijking; Anandamayi Ma -> 051; Ram Dass -> 074), 7 geen link
+      gevonden. Volledige matrix: runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/AOAY_TOP11_AUDIT.md
     Mark-selection-status: MARK_SELECTION_KLAAR: JA (bericht 053, 2026-08-08). A: 046, 047, 048,
       049. B: 050, 052, 070, 073. C: 051, 058, 060, 061, 062, 063, 068, 071, 072, 074, 077, 078.
-      Alle 20 nummers LOCKED_BY_MARK — geen open kandidaten meer.
+      Alle 20 nummers LOCKED_BY_MARK — geen open kandidaten meer, BEHALVE 2 open
+      MARK_DECISION_CONFLICTs hieronder.
+    MARK_DECISION_CONFLICTs (open, niet zelfstandig door CCI opgelost): **051** Vishnupad Temple
+      (huidig: C) — Anandamayi Ma-link (Top-11 #7) pas ontdekt na de C-keuze. **074** Dhamma
+      Bodhi/Samanvaya Ashram (huidig: C) — Ram Dass-link (Top-11 #5) pas ontdekt na de C-keuze.
+      Beide expliciet gemarkeerd in MARK_SELECTION_REPORT.md; wacht op Mark/INDIA6-beslissing of
+      dit de bestaande C-keuzes verandert.
     protected A/B/C-besluiten: 046-049 = A (bron: MARK_DECISIONS_2026-08-05.jsonl); 050-078-groep
       zie hierboven (bron: runs/active/BODHGAYA-DISCOVERY-001/MARK_DECISIONS_2026-08-08.jsonl,
-      LOCKED_BY_MARK, mag niet stilzwijgend heropend worden — alleen expliciet als
-      MARK_DECISION_CONFLICT bij een tot-nu-toe-gemiste AOAY/Top-11-link, zie bericht 054 punt F)
+      LOCKED_BY_MARK, mag niet stilzwijgend heropend worden — alleen expliciet via de 2
+      MARK_DECISION_CONFLICTs hierboven)
     reserved/excluded nummers: 069, 075 = EXCLUDED_HARD_REASON (eerder); 053, 054, 055, 056, 057,
       059, 064, 065, 066, 067 = EXCLUDED_HARD_REASON (2026-08-08, retroactieve E.1-canontoets,
       INDIA6 bericht 042 — enige resterende onderscheiding was land-/traditievertegenwoordiging
       of pure architectuur, geen zelfstandige bedevaarts-/heilige zwaarte); 076 (Akshayavat) =
       SUBLOCATION, samengevoegd bij 051 (Vishnupad Temple) — alle 13 uitgesloten/sublocatie-
       nummers blijven permanent gereserveerd, nooit hergebruikt
-    blockers: AOAY+Top-11-volledigheidsaudit (bericht 054) moet klaar zijn vóórdat een volgende
-      PDF (V2_) gebouwd mag worden; daarna PRE_PDF_CONTENT_APPROVED: JA + apart PDF_GO: JA vereist
-      (nieuwe tweestapsregel, bericht 055)
+    blockers: wacht op Mark/INDIA6-beslissing over de 2 MARK_DECISION_CONFLICTs (051, 074) vóórdat
+      PRE_PDF_CONTENT.md definitief kan worden opgesteld voor een V2_-PDF
     PDF geleverd: runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/V1_BODHGAYA_KEUZE_REISGIDS.pdf
       (19 pagina's, commit 5910439) — eerste build onder de V1_-naamgevingsregel voor deze run;
       GEEN nieuwe A/B/C-status meer, PDF toont de OUDE open/twijfelgeval-labels — vervangen zodra
-      een V2_ wordt gebouwd (na de audit), niet tussentijds herbouwd
-    next_allowed_step: CCI voert de AOAY+Top-11-audit uit (bericht 054), verwerkt de resultaten,
-      stelt daarna een PRE_PDF_CONTENT.md op (nieuwe standaard, berichten 055/056) en stopt zonder
-      te renderen — pas na expliciete PRE_PDF_CONTENT_APPROVED: JA + PDF_GO: JA volgt V2_
+      een V2_ wordt gebouwd, niet tussentijds herbouwd
+    next_allowed_step: CCI stelt PRE_PDF_CONTENT.md op (nieuwe standaard, berichten 055/056) met
+      de 2 MARK_DECISION_CONFLICTs zichtbaar gemarkeerd, commit, STOP zonder te renderen — pas na
+      expliciete PRE_PDF_CONTENT_APPROVED: JA + PDF_GO: JA volgt V2_
 ```
 
 ## Governance-canon (versie-onafhankelijk, deze map)

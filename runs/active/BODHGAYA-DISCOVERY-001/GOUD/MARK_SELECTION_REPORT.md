@@ -88,10 +88,22 @@ doorlopend bezoek, dagelijks vrij toegankelijk.
 
 **Waarom wel/niet NOT_TO_BE_MISSED**: **CORE_PASS**, na actieve weerlegging in de vergelijkende
 snoeironde standgehouden. Onvoorwaardelijk toegankelijk, geen enkele andere plek dekt de
-verlichting zelf af. Extra, zwaarwegend gegeven: Swami Sri Yukteswar Giri (Marks eigen
-paramaguru-lijn, positie 4 in `PRIORITY_GROUPS.md`) werd hier op Guru Purnima, juli 1906,
-geïnitieerd in de sannyas-orde — bevestigd via lineage-/institutionele bronnen, exacte locatie
-binnen Bodh Gaya nog niet vastgesteld (open onzekerheid).
+verlichting zelf af.
+
+**AOAY/Top-11-volledigheidsaudit (bijgewerkt 2026-08-08, INDIA6 bericht 054 — zie
+`PRE_BRONS/AOAY_TOP11_AUDIT.md` voor de volledige onderbouwing)**: Sri Yukteswar (Top-11 #4) werd
+formeel in de Swami Orde ingewijd "door de Mahant van Buddh Gaya" — dit staat letterlijk in AOAY
+zelf (hoofdstuk 36, voetnoot). `gebeurtenis_geverifieerd: JA` (AOAY-primaire bron).
+`exacte_locatie_geverifieerd: NEE` — AOAY noemt geen specifiek gebouw; de historische "Mahant"
+was hoofd van de Bodh Gaya Math, een aparte Hindoe-kloosterinstelling die tot 1949 (Bodh Gaya
+Temple Act) de Mahabodhi-tempel beheerde en vandaag nog als gedeeld complex naast de tempel
+bestaat — niet bewezen dat de ceremonie in het huidige 046-tempelgebouw zelf plaatsvond. De
+datum "juli 1906, Guru Purnima" staat NERGENS in AOAY zelf — dit blijft een secundaire-
+bronclaim (lineage-/institutionele bronnen), hier expliciet zo onderscheiden. Twee aanvullende,
+niet-conflicterende Top-11-vondsten (verrijking, 046 blijft A): Ramakrishna (Top-11 #8) bezocht
+Bodh Gaya en mediteerde voor het Boeddhabeeld/de Bodhi-boom; Vivekananda (Top-11 #11) bezocht Bodh
+Gaya tweemaal — zijn eerste daad na het aannemen van sannyas én zijn allerlaatste reis (bron:
+Sister Nivedita).
 
 **Reistijd/afstand**: ankerplek van de kerncluster (0 km).
 
@@ -257,6 +269,13 @@ stubs hieronder. 058 blijft MARK_WAARDIG als twijfelgeval.
    opgemeten).
 
 ### 051 — Vishnupad Temple, Gaya
+
+**MARK_DECISION_CONFLICT (2026-08-08, INDIA6 bericht 054 — AOAY/Top-11-audit, zie
+`PRE_BRONS/AOAY_TOP11_AUDIT.md`)**: Anandamayi Ma (Top-11 #7) woonde op 18 oktober 1956 de Arti
+bij in DEZE tempel en bezocht dezelfde dag ook Bodh Gaya (bron: anandamayi.org, officiële
+levensgeschiedenis). Deze Top-11-link was niet bekend toen Mark C koos voor 051. Niet zelfstandig
+door CCI gewijzigd — expliciet voorgelegd aan INDIA6/Mark om te beoordelen of dit de eerdere
+C-keuze verandert.
 
 **Toegangsregel, gecorrigeerd na gerichte controle (INDIA6, bericht 021):** meerdere
 onafhankelijke reisbronnen melden consistent dat niet-hindoes de tempel zelf niet mogen betreden
@@ -763,6 +782,14 @@ bedevaartsfaam zoals bij 051/070. Expliciet aan INDIA6/Mark voorgelegd.
 ### Meditatiecentrum
 
 ### 074 — International Meditation Centre / Dhamma Bodhi (Vipassana, S.N. Goenka-lijn)
+
+**MARK_DECISION_CONFLICT (2026-08-08, INDIA6 bericht 054 — AOAY/Top-11-audit, zie
+`PRE_BRONS/AOAY_TOP11_AUDIT.md`)**: Ram Dass (Top-11 #5) studeerde in de winter van 1969-1970
+Vipassana onder S.N. Goenka bij het Samanvaya Ashram, Bodh Gaya — dezelfde eerste 10-daagse
+cursusreeks van heel Bihar die in punt 2 hieronder al genoemd wordt, institutioneel bevestigd
+(Vipassana Research Institute). Deze Top-11-link was niet bekend toen Mark C koos voor 074. Niet
+zelfstandig door CCI gewijzigd — expliciet voorgelegd aan INDIA6/Mark om te beoordelen of dit de
+eerdere C-keuze verandert.
 
 **Twijfelgeval (retroactieve E.1-canontoets, INDIA6 bericht 042, 2026-08-08)**: niet uitgesloten
 omdat "eerste Vipassana-cursus van heel Bihar" (1970) een reële historische-primeurclaim is
