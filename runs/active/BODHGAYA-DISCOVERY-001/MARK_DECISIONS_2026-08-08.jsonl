@@ -1,0 +1,17 @@
+{"decision_type": "AB_C_KEUZERONDE", "region": "BODHGAYA", "run_id": "BODHGAYA-DISCOVERY-001", "rule": "Mark-besluit, doorgegeven via INDIA6 (PR #23, bericht 053) na ontvangst van de V1-keuze-reisgids-PDF: definitieve A/B/C voor alle 16 open kandidaten (050-078, exclusief eerder vastgelegde 046-049 en exclusief EXCLUDED_HARD_REASON/SUBLOCATION-nummers).", "decided_by": "Mark", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-050", "display_id": "050", "name": "Archaeological Museum of Bodh Gaya (ASI)", "mark_status": "B", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-051", "display_id": "051", "name": "Vishnupad Temple, Gaya", "mark_status": "C", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-052", "display_id": "052", "name": "Tergar Monastery", "mark_status": "B", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-058", "display_id": "058", "name": "Japanese Temple / Indosan Nippon (Nipponzan-Myohoji)", "mark_status": "C", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-060", "display_id": "060", "name": "Palyul Namdroling Monastery (Ngagyur Palyul Thubten Shedrub Choekhor Dargyeling)", "mark_status": "C", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-061", "display_id": "061", "name": "Burmese Vihara", "mark_status": "C", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-062", "display_id": "062", "name": "Mahabodhi Society of India (Bodh Gaya-centrum)", "mark_status": "C", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-063", "display_id": "063", "name": "Padmasambhava Grand Temple and Nyingma Center", "mark_status": "C", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-068", "display_id": "068", "name": "Shechen Monastery (Shechen Tennyi Dargyeling)", "mark_status": "C", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-070", "display_id": "070", "name": "Mangala Gauri Temple (Shakti Peeth)", "mark_status": "B", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-071", "display_id": "071", "name": "Pretshila Hill", "mark_status": "C", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-072", "display_id": "072", "name": "Brahmayoni Hill / Gayasisa Stupa (Vuurpreek-locatie)", "mark_status": "C", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-073", "display_id": "073", "name": "Jagannath Temple (naast Mahabodhi)", "mark_status": "B", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-074", "display_id": "074", "name": "International Meditation Centre / Dhamma Bodhi (Vipassana, S.N. Goenka-lijn)", "mark_status": "C", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-077", "display_id": "077", "name": "Bitho Sharif Dargah", "mark_status": "C", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-078", "display_id": "078", "name": "Gurdwara Sri Guru Tegh Bahadur Ji, Gaya", "mark_status": "C", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}

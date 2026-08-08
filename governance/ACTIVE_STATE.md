@@ -49,29 +49,34 @@ REGIONS:
       NOT_TO_BE_MISSED-locatie
 
   BODHGAYA:
-    fase: GOUD, PDF geleverd (V1) — wacht op Marks eigen A/B/C op de 16 open kandidaten
+    fase: MARK_SELECTION_KLAAR — alle 20 kandidaten hebben een A/B/C; AOAY+Top-11-volledigheidsaudit
+      (bericht 054) loopt vóór een volgende PDF (V2_) gebouwd mag worden
     saturation-status: SATURATED=JA (SATURATION_REPORT_002.md + _003_ADDENDUM.md)
     INDIA_ACCEPTED_SATURATION: JA (geaccepteerd, bericht 028)
-    CONTENT_QA_ACCEPTED: JA (bericht 048); PDF_GO: JA (bericht 048)
-    Mark-selection-status: 046-049 = A (PROTECTED, besluit 2026-08-05, direct na de eerste
-      keuze-reisgids-PDF); 16 kandidaten nog door Mark te beoordelen (050, 051, 052, 058, 060,
-      061, 062, 063, 068, 070, 071, 072, 073, 074, 077, 078), waarvan 9 met een expliciete
-      twijfelgeval-kanttekening (058, 060, 061, 063, 068, 073, 074, 077, 078) na de retroactieve
-      E.1-canontoets — nu ook in de V1-PDF verwerkt (zie hieronder)
-    protected A/B/C-besluiten: 046 Mahabodhi Temple Complex = A; 047 Sujata Stupa = A; 048
-      Dungeshwari Cave Temples = A; 049 Great Buddha Statue = A (bron:
-      runs/active/BODHGAYA-DISCOVERY-001/MARK_DECISIONS_2026-08-05.jsonl)
+    CONTENT_QA_ACCEPTED: JA (bericht 048); PDF_GO: JA (bericht 048, V1 gebouwd)
+    Mark-selection-status: MARK_SELECTION_KLAAR: JA (bericht 053, 2026-08-08). A: 046, 047, 048,
+      049. B: 050, 052, 070, 073. C: 051, 058, 060, 061, 062, 063, 068, 071, 072, 074, 077, 078.
+      Alle 20 nummers LOCKED_BY_MARK — geen open kandidaten meer.
+    protected A/B/C-besluiten: 046-049 = A (bron: MARK_DECISIONS_2026-08-05.jsonl); 050-078-groep
+      zie hierboven (bron: runs/active/BODHGAYA-DISCOVERY-001/MARK_DECISIONS_2026-08-08.jsonl,
+      LOCKED_BY_MARK, mag niet stilzwijgend heropend worden — alleen expliciet als
+      MARK_DECISION_CONFLICT bij een tot-nu-toe-gemiste AOAY/Top-11-link, zie bericht 054 punt F)
     reserved/excluded nummers: 069, 075 = EXCLUDED_HARD_REASON (eerder); 053, 054, 055, 056, 057,
       059, 064, 065, 066, 067 = EXCLUDED_HARD_REASON (2026-08-08, retroactieve E.1-canontoets,
       INDIA6 bericht 042 — enige resterende onderscheiding was land-/traditievertegenwoordiging
       of pure architectuur, geen zelfstandige bedevaarts-/heilige zwaarte); 076 (Akshayavat) =
       SUBLOCATION, samengevoegd bij 051 (Vishnupad Temple) — alle 13 uitgesloten/sublocatie-
       nummers blijven permanent gereserveerd, nooit hergebruikt
-    blockers: geen — inhoud en PDF zijn geleverd; wacht uitsluitend op Marks eigen A/B/C-keuze
+    blockers: AOAY+Top-11-volledigheidsaudit (bericht 054) moet klaar zijn vóórdat een volgende
+      PDF (V2_) gebouwd mag worden; daarna PRE_PDF_CONTENT_APPROVED: JA + apart PDF_GO: JA vereist
+      (nieuwe tweestapsregel, bericht 055)
     PDF geleverd: runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/V1_BODHGAYA_KEUZE_REISGIDS.pdf
-      (19 pagina's, commit 5910439) — eerste build onder de V1_-naamgevingsregel voor deze run
-    next_allowed_step: Mark beoordeelt de 16 open kandidaten (A/B/C); een volgende PDF-build
-      vereist opnieuw een apart, letterlijk PDF_GO: JA en wordt V2_ (nooit V1_ overschrijven)
+      (19 pagina's, commit 5910439) — eerste build onder de V1_-naamgevingsregel voor deze run;
+      GEEN nieuwe A/B/C-status meer, PDF toont de OUDE open/twijfelgeval-labels — vervangen zodra
+      een V2_ wordt gebouwd (na de audit), niet tussentijds herbouwd
+    next_allowed_step: CCI voert de AOAY+Top-11-audit uit (bericht 054), verwerkt de resultaten,
+      stelt daarna een PRE_PDF_CONTENT.md op (nieuwe standaard, berichten 055/056) en stopt zonder
+      te renderen — pas na expliciete PRE_PDF_CONTENT_APPROVED: JA + PDF_GO: JA volgt V2_
 ```
 
 ## Governance-canon (versie-onafhankelijk, deze map)
