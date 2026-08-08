@@ -17,6 +17,15 @@ geen reisplanning, geen nieuwe regio.
 A, zie `MARK_DECISIONS_2026-08-05.jsonl`). Ze worden hieronder uitsluitend ter referentie kort
 herhaald, niet opnieuw beoordeeld.
 
+**Bijgewerkt 2026-08-06 (INDIA6, berichten 024/026/028) — definitieve saturation sweep**: dit
+rapport dekt nu alle actieve Bodh Gaya-kandidaten, 046-078, met twee uitzonderingen die
+permanent genummerd blijven maar niet als losse keuze worden aangeboden: **075** (Jain Temple,
+Gaya) is `EXCLUDED_HARD_REASON` na hertoetsing (geen zelfstandige betekenis/ervaring boven "een
+Jaintempel"), en **076** (Akshayavat) is een sublocatie binnen het bezoek aan 051 (Vishnupad),
+inhoudelijk daar verwerkt. Volledige onderbouwing: `PRE_BRONS/SATURATION_REPORT_002.md` en
+`SATURATION_REPORT_003_ADDENDUM.md`. Actief aantal keuzeplekken in dit rapport: 31 (046-049 vast
+A, 050-074 en 077-078 door Mark te beoordelen).
+
 ---
 
 ## Deel 1 — Bestaande kandidaten 046-049 (referentie, reeds door Mark beoordeeld: alle A)
@@ -239,6 +248,19 @@ niet als feit overgenomen.
    singuliere aard van het relict en de nationale religieuze betekenis maken B of C nog steeds
    voorstelbaar, vooral als Mark interesse heeft in de bredere hindoe-krachtplaatsen van India.
 8. **Einduitkomst:** **MARK_WAARDIG.**
+
+**Akshayavat, verwerkt bij dit bezoek (INDIA6-besluit, bericht 028)**: binnen dezelfde
+tempelbinnenplaats groeit de Akshayavat, een als onvergankelijk vereerde eeuwenoude banyanboom,
+met naam genoemd in de Purana's, de Ramayana én Jain-teksten. Kernverhaal: toen Sita hier een Pind
+Daan uitvoerde voor koning Dasharatha en de Falgu-rivier, een brahmaan, een koe en de Tulsi-plant
+haar verhaal niet bevestigden, was de Akshayavat de enige getuige die de waarheid sprak — vandaar
+"akshaya" (onvergankelijk). Omdat de boom fysiek binnen dezelfde binnenplaats staat als het
+Vishnupad-relict, geldt dezelfde toegangsverwachting: voor een niet-hindoe bezoeker vermoedelijk
+niet rechtstreeks te zien, net zomin als het voetspoor zelf (zie toegangsregel hierboven). Dit is
+geen aparte kandidaat (nummer 076 blijft permanent gereserveerd maar wordt niet los aangeboden) —
+het is onderdeel van hetzelfde 051-bezoek, met dezelfde onzekerheid over daadwerkelijke
+zichtbaarheid. Bronvoorbehoud: er bestaat een andere, bekendere Akshayavat in Prayagraj/Allahabad
+(Patalpuri-tempel) — dit betreft uitdrukkelijk de Gaya-boom, niet die andere plek.
 
 ### 052 — Tergar Monastery
 
@@ -464,6 +486,401 @@ Fujii-stichtingsgeschiedenis.*
    eerder B/C dan A — maar de stichtersgeschiedenis (Fujii, vredesbeweging) is concreet en
    onderscheidend genoeg om een eerlijke B/C-overweging te verdienen.
 8. **Einduitkomst:** **MARK_WAARDIG.**
+
+---
+
+## Deel 2b — Nieuwe locaties uit de definitieve saturation sweep (059-074, 077-078)
+
+Gevonden en genummerd op verzoek van INDIA6 (berichten 024 en 026, volledige onderbouwing in
+`PRE_BRONS/SATURATION_REPORT_002.md` en `SATURATION_REPORT_003_ADDENDUM.md`). 075 (Jain Temple,
+Gaya) is EXCLUDED en wordt hier niet aangeboden. 076 (Akshayavat) is verwerkt bij 051 hierboven en
+wordt hier niet los aangeboden — het nummer blijft permanent gereserveerd.
+
+Per locatie: wat is het, waarom hierheen, spirituele/historische betekenis, concrete ervaring,
+onderscheidend vermogen, praktische toegankelijkheid, relevante onzekerheden, reden om eventueel
+over te slaan, relaties/combinaties voor zover feitelijk bekend. Geen A/B/C ingevuld namens Mark.
+
+### Aanvullende internationale kloosters/instellingen
+
+### 059 — Metta Buddharam Temple (Silver Temple)
+
+1. **Wat is het?** Een Thaise/Theravada-geïnspireerde meditatietempel met een opvallend
+   zilver-wit exterieur (roestvrijstaal en spiegelmozaïek) en een wit Boeddhabeeld.
+2. **Waarom hierheen?** Het visuele tegenovergestelde van de gouden Wat Thai Buddhagaya (054) —
+   dezelfde bredere Thaise traditie, een geheel andere esthetiek en nadruk (Metta, liefdevolle
+   vriendelijkheid).
+3. **Spirituele/historische betekenis** Gericht op Metta-meditatie, een kernpraktijk binnen
+   Theravada-boeddhisme.
+4. **Concrete ervaring** Een zilverkleurige, spiegelende gevel — uniek in Bodh Gaya — met een wit
+   (niet gouden) Boeddhabeeld en een rustige tempeltuin.
+5. **Onderscheidend vermogen** Enige zilver/spiegel-tempel in Bodh Gaya; geen enkele andere
+   kandidaat heeft deze esthetiek.
+6. **Praktische toegankelijkheid** Vrij toegankelijk, geen inschrijving of entreekosten gemeld.
+7. **Relevante onzekerheden** Geen officiële/academische bron gevonden — alleen tourism.bihar.gov.in
+   en reisbronnen (chalbanjare.com, tripadvisor.com).
+8. **Reden om eventueel over te slaan** Zelfde bredere Thaise traditie als 054 — wie al voor 054
+   kiest en geen specifieke architectuurinteresse heeft, kan dit als niet-essentiële aanvulling
+   zien.
+9. **Relaties/combinaties** Nog niet onderzocht qua exacte afstand/route tot andere kandidaten.
+
+### 060 — Palyul Namdroling Monastery (Ngagyur Palyul Thubten Shedrub Choekhor Dargyeling)
+
+1. **Wat is het?** Een groot Nyingma-klooster (Palyul-lijn) bij de Great Buddha Statue (049),
+   nog deels in aanbouw.
+2. **Waarom hierheen?** Officiële naam gegeven door zowel Drubwang Pema Norbu Rinpoche als de
+   Dalai Lama; minder toeristisch dan de meeste andere kloosters, expliciet geschikt om te
+   mediteren.
+3. **Spirituele/historische betekenis** Vertegenwoordigt de Nyingma-traditie, de oudste school
+   van het Tibetaans boeddhisme — een andere lijn dan de bestaande Karma-Kagyü (052 Tergar) en het
+   generieke "Tibetan Temple" (056).
+4. **Concrete ervaring** Een groot, rustig kloostercomplex, deels nog in aanbouw, met ruimte voor
+   stille meditatie.
+5. **Onderscheidend vermogen** Andere Tibetaans-boeddhistische traditie (Nyingma) dan de al
+   genummerde Tibetaanse kandidaten — geen duplicaat.
+6. **Praktische toegankelijkheid** Vrij toegankelijk, minder toeristisch dan vergelijkbare
+   kloosters.
+7. **Relevante onzekerheden** Geen officiële/academische bron gevonden — namdroling.net,
+   palyul.org, tripadvisor.com, wanderlog.com.
+8. **Reden om eventueel over te slaan** Geen directe biografische link met Boeddha's verlichting;
+   vooral relevant voor wie de verschillende Tibetaanse tradities afzonderlijk wil zien.
+9. **Relaties/combinaties** Bij de Great Buddha Statue (049), dus logisch te combineren met dat
+   bezoek.
+
+### 061 — Burmese Vihara
+
+1. **Wat is het?** Een Myanmarees (Birmees) klooster, gesticht 1936, aan de oorspronkelijke weg
+   Gaya-Bodhgaya, dicht bij Mahabodhi.
+2. **Waarom hierheen?** Een van de vroegste internationale kloosters van Bodh Gaya — pionierstatus
+   binnen de internationale kloosterzone.
+3. **Spirituele/historische betekenis** Gesticht onder leiding van Eerwaarde U Dhammetsara, de
+   eerste door de Birmese boeddhistische autoriteiten aangestelde abt.
+4. **Concrete ervaring** Een Boeddhabeeld gemaakt van riet (ongebruikelijk materiaal), een
+   meditatiezaal, een bibliotheek met boeken over Boeddha's leer, en een dagelijkse gratis
+   vegetarische lunch (12.30u, op donatiebasis).
+5. **Onderscheidend vermogen** Enige Myanmar/Birmese vertegenwoordiging in de straal; het rieten
+   Boeddhabeeld is elders niet gemeld.
+6. **Praktische toegankelijkheid** Vrij toegankelijk, gastenverblijf aanwezig.
+7. **Relevante onzekerheden** Geen gemeld — burmesevihar-bodhgaya.com (institutionele eigen bron),
+   holidify.com, fundforeducationabroad.org.
+8. **Reden om eventueel over te slaan** Geen directe biografische link met Boeddha's verlichting;
+   vooral relevant voor wie de internationale/historische diversiteit wil zien.
+9. **Relaties/combinaties** Dicht bij Mahabodhi (046), eenvoudig te combineren.
+
+### 062 — Mahabodhi Society of India (Bodh Gaya-centrum)
+
+1. **Wat is het?** Het honderd jaar oude, oudste bestaande kloostergebouw van Bodh Gaya, ten
+   westen van de Mahabodhi-tempel, van de organisatie gesticht in 1891 door Anagarika Dharmapala
+   (Sri Lanka).
+2. **Waarom hierheen?** Dit is de plek/organisatie die aan de basis lag van het herstel van
+   boeddhistische eredienst bij de Mahabodhi-tempel zelf — destijds beheerd door een Saivitische
+   priester, met het Boeddhabeeld tot hindoe-icoon gemaakt en boeddhisten geweerd van aanbidding.
+3. **Spirituele/historische betekenis** Dharmapala's campagne leidde uiteindelijk tot de Bodh Gaya
+   Temple Act (1949) en gedeeld beheer van het hoofdcomplex — een direct, causaal verhaal achter
+   de huidige, vrij toegankelijke status van 046.
+4. **Concrete ervaring** Het oudste kloostergebouw van de hele plek, met een tastbare band met de
+   herstelgeschiedenis van Mahabodhi zelf.
+5. **Onderscheidend vermogen** Dit is geen "nog een nationaal paviljoen" maar de organisatie
+   achter de herstelde boeddhistische controle over het hoofdcomplex — uniek historisch-
+   institutioneel gegeven.
+6. **Praktische toegankelijkheid** Vrij toegankelijk, actieve organisatie.
+7. **Relevante onzekerheden** Geen gemeld — britannica.com, en.wikipedia.org/wiki/Mahabodhi_Society,
+   theosophy.wiki.
+8. **Reden om eventueel over te slaan** Geen levende praktijk in de zin van een klooster met
+   monniken in dagelijkse studie; vooral relevant voor wie het herstelverhaal van 046 zelf wil
+   begrijpen.
+9. **Relaties/combinaties** Direct ten westen van 046, onderdeel van hetzelfde complexbezoek.
+
+### 063 — Padmasambhava Grand Temple and Nyingma Center
+
+1. **Wat is het?** Een nieuw ingewijd (23 januari 2026) tempelcomplex voor de Nyingma-traditie,
+   geconsacreerd in verband met de 37e Nyingma Monlam Chenmo.
+2. **Waarom hierheen?** Het nieuwste grote toevoeging aan Bodh Gaya's internationale
+   kloosterlandschap, met een ceremonie geleid door Kyabje Shechen Rabjam Rinpoche en aanwezigheid
+   van de Karmapa.
+3. **Spirituele/historische betekenis** Huisvest monniken, nonnen en ngakpa's tijdens het
+   jaarlijkse gebedsfestival — een actief, groeiend centrum, geen statisch monument.
+4. **Concrete ervaring** Een grootschalig, nieuw tempelcomplex; buiten het festivalseizoen
+   vermoedelijk rustiger.
+5. **Onderscheidend vermogen** Bevestigd DIFFERENT_LOCATIONS t.o.v. Palyul Namdroling (060) en
+   Shechen Monastery (068) — een derde, aparte Nyingma-vestiging (zie identiteitscontrole
+   `SATURATION_REPORT_003_ADDENDUM.md`).
+6. **Praktische toegankelijkheid** Vrij toegankelijk verwacht (nieuw, geen expliciete
+   toegangsregel gevonden); drukst tijdens de jaarlijkse Monlam Chenmo (januari).
+7. **Relevante onzekerheden** Exacte publieke toegankelijkheid buiten het festivalseizoen niet
+   bevestigd — tibet.net (Central Tibetan Administration), buddhistdoor.net, kagyuoffice.org.
+8. **Reden om eventueel over te slaan** Zeer nieuw, dus weinig onafhankelijke reisverslagen nog
+   beschikbaar; wie liever een bewezen, langer bestaand klooster bezoekt kan dit overslaan.
+9. **Relaties/combinaties** Nog niet onderzocht qua exacte afstand tot andere kandidaten.
+
+### 064 — Chinese Temple
+
+1. **Wat is het?** Een Chinees boeddhistisch klooster in pagodestijl, gebouwd 1945, direct
+   tegenover de hoofdingang van het Mahabodhi-complex.
+2. **Waarom hierheen?** Een van de oudste internationale kloosters ter plekke — gebouwd vóór de
+   Indiase onafhankelijkheid, door Chinese monniken i.s.m. de toenmalige Chinese overheid.
+3. **Spirituele/historische betekenis** Mahayana-praktijk (chanten, sutra-studie), met een
+   architectuur die duidelijk afwijkt van de Zuidoost-Aziatische en Tibetaanse kloosters.
+4. **Concrete ervaring** Pagodestijl-architectuur direct tegenover 046's hoofdingang, actieve
+   Mahayana-praktijk.
+5. **Onderscheidend vermogen** Enige Chinese vertegenwoordiging in de straal; historische ouderdom
+   (1945) en ligging (tegenover 046) zijn beide op zichzelf onderscheidend.
+6. **Praktische toegankelijkheid** Vrij toegankelijk, gerenoveerd in 1997.
+7. **Relevante onzekerheden** Geen officiële bron gevonden — trawell.in, prayagsamagam.com,
+   tripadvisor.in.
+8. **Reden om eventueel over te slaan** Geen directe biografische link met Boeddha's verlichting;
+   vooral relevant voor wie de historische/architectonische diversiteit wil zien.
+9. **Relaties/combinaties** Direct tegenover 046, geen extra reisinspanning.
+
+### 065 — Bangladesh Buddhist Monastery
+
+1. **Wat is het?** Een groot klooster van de boeddhistische gemeenschap van Bangladesh, met twee
+   verbonden delen (klooster en tempel).
+2. **Waarom hierheen?** Een overwegend islamitisch land dat hier een groot, prominent klooster
+   onderhoudt — een minderheidsverhaal dat op zichzelf onderscheidend is.
+3. **Spirituele/historische betekenis** Toegangspoorten met reliëfs uit Boeddha's leven; het
+   hoofdgebedshuis bevat tientallen Boeddhabeelden, met een groot wit centraal beeld.
+4. **Concrete ervaring** Uitgebreid, goed onderhouden kloostercomplex met een decoratieve torana-
+   poort.
+5. **Onderscheidend vermogen** Enige Bangladese vertegenwoordiging in de straal; schaal en het
+   minderheidsverhaal zijn beide concreet.
+6. **Praktische toegankelijkheid** Vrij toegankelijk, geen entreekosten gemeld.
+7. **Relevante onzekerheden** Geen officiële bron gevonden — dhammawiki.com, tripadvisor.com,
+   facebook.com/BBMBIn.
+8. **Reden om eventueel over te slaan** Geen directe biografische link met Boeddha's verlichting;
+   vooral relevant voor wie de internationale diversiteit wil zien.
+9. **Relaties/combinaties** Nog niet onderzocht qua exacte afstand/route.
+
+### 066 — Cambodian Monastery
+
+1. **Wat is het?** Een rijk gekleurd, ornamenteel Cambodjaans kloostergebouw met een enorm
+   Boeddhabeeld.
+2. **Waarom hierheen?** Visueel sterk afwijkend van de andere kloosters — felle kleuren en
+   gedetailleerd bewerkte muren.
+3. **Spirituele/historische betekenis** Niet specifiek gedocumenteerd buiten de architecturale
+   beschrijving — dit is de zwakste bronbasis van de internationale-klooster-groep.
+4. **Concrete ervaring** Een groot, kleurrijk beeld en gedetailleerde muurdecoratie.
+5. **Onderscheidend vermogen** Enige Cambodjaanse vertegenwoordiging in de straal; visuele stijl
+   wijkt duidelijk af.
+6. **Praktische toegankelijkheid** Vermoedelijk vrij toegankelijk (niet expliciet bevestigd).
+7. **Relevante onzekerheden** Alleen reisbronnen (kuchbhi.com en vergelijkbare) — geen officiële of
+   academische bron gevonden, zwakker onderbouwd dan de meeste andere kandidaten in dit rapport.
+8. **Reden om eventueel over te slaan** Dunne bronbasis en geen specifiek verhaal buiten het
+   visuele — wie een sterker onderbouwd verhaal zoekt, kan dit overslaan.
+9. **Relaties/combinaties** Nog niet onderzocht.
+
+### 067 — Korean Temple (Bunhwang-sa)
+
+1. **Wat is het?** Een nieuwe Koreaanse tempel, vernoemd naar de historische Bunhwang-sa-tempel
+   uit 634 CE in Gyeongju, Zuid-Korea.
+2. **Waarom hierheen?** Geen verzonnen naam maar een bewuste lijnverwijzing naar een echte,
+   eeuwenoude Koreaanse tempeltraditie.
+3. **Spirituele/historische betekenis** Biedt onderdak, chantsessies en begeleiding in het
+   Koreaans — gericht op Koreaanse pelgrims en geïnteresseerden.
+4. **Concrete ervaring** Een nieuw gebouwd klooster met Koreaanse rituele elementen.
+5. **Onderscheidend vermogen** Enige Koreaanse vertegenwoordiging in de straal, met een
+   aantoonbare historische naamgevingslijn.
+6. **Praktische toegankelijkheid** Nieuw, gastenverblijf aanwezig.
+7. **Relevante onzekerheden** Eén hoofdbron (buddhistdoor.net) — geen tweede onafhankelijke bron
+   gevonden.
+8. **Reden om eventueel over te slaan** Zeer nieuw, weinig reisverslagen beschikbaar.
+9. **Relaties/combinaties** Nog niet onderzocht.
+
+### 068 — Shechen Monastery (Shechen Tennyi Dargyeling)
+
+1. **Wat is het?** Een Nyingma-klooster, officieel Shechen Tennyi Dargyeling, gebouwd 1996,
+   ingewijd door de Dalai Lama, dicht bij de Mahabodhi-tempel.
+2. **Waarom hierheen?** Shechen is wereldwijd een van de bekendste Nyingma-kloosterlijnen,
+   geassocieerd met Dilgo Khyentse Rinpoche, een van de belangrijkste Tibetaans-boeddhistische
+   leraren van de 20e eeuw.
+3. **Spirituele/historische betekenis** Internationale reputatie binnen de Nyingma-traditie,
+   los van de andere Tibetaanse kandidaten in dit rapport.
+4. **Concrete ervaring** Een gevestigd (1996), actief klooster dicht bij het hoofdcomplex.
+5. **Onderscheidend vermogen** Bevestigd DIFFERENT_LOCATIONS t.o.v. Padmasambhava Grand
+   Temple/Nyingma Center (063) — zie identiteitscontrole in `SATURATION_REPORT_003_ADDENDUM.md`.
+6. **Praktische toegankelijkheid** Vrij toegankelijk verwacht (niet expliciet bevestigd).
+7. **Relevante onzekerheden** Eén hoofdbron met detail (kuchbhi.com) — Tripadvisor en Google Maps
+   bevestigen alleen naam/bestaan (Shechen Tennyi Dargyeling).
+8. **Reden om eventueel over te slaan** Geen directe biografische link met Boeddha's verlichting;
+   vooral relevant voor wie de Nyingma-traditie specifiek wil verkennen.
+9. **Relaties/combinaties** Dicht bij Mahabodhi (046).
+
+### 069 — Mongolian Temple
+
+1. **Wat is het?** Een eenvoudig ogende tempel die de Mongoolse boeddhistische traditie
+   vertegenwoordigt.
+2. **Waarom hierheen?** Mongoolse boeddhisme is een eigen, historisch onderscheiden vermenging
+   van Tibetaans Vajrayana-boeddhisme met Mongoolse cultuur — anders volledig afwezig in de straal.
+3. **Spirituele/historische betekenis** Niet specifiek gedocumenteerd buiten de nationale
+   vertegenwoordiging zelf — de onderscheiding zit vooral in de traditie, minder in het gebouw.
+4. **Concrete ervaring** Eenvoudige, serene tempelarchitectuur.
+5. **Onderscheidend vermogen** Enige Mongoolse vertegenwoordiging in de straal.
+6. **Praktische toegankelijkheid** Vermoedelijk vrij toegankelijk (niet expliciet bevestigd).
+7. **Relevante onzekerheden** Alleen reisbronnen (kuchbhi.com) — geen officiële of academische
+   bron gevonden, zwakker onderbouwd dan de meeste andere kandidaten.
+8. **Reden om eventueel over te slaan** Dunne bronbasis, weinig fysiek-onderscheidende details
+   gevonden.
+9. **Relaties/combinaties** Nog niet onderzocht.
+
+### Hindoeïstische plekken, Gaya-stad
+
+### 070 — Mangala Gauri Temple (Shakti Peeth)
+
+1. **Wat is het?** Een van de 18 Maha Shakti Peethas van heel India, op een heuvel met circa 200
+   treden, circa 4 km van Gaya Junction.
+2. **Waarom hierheen?** Volgens de legende viel hier Sati's borst — een van de nationaal
+   belangrijkste Shakti-plekken van heel India, vermeld in de Padma Purana, Vayu Purana, Agni
+   Purana en Devi Bhagwat Purana.
+3. **Spirituele/historische betekenis** Nationaal-religieus van een hogere orde dan een generieke
+   tempel — vergelijkbaar in gewicht met Vishnupad (051), maar een aparte traditie (Shakti i.p.v.
+   Vishnu-voetspoor).
+4. **Concrete ervaring** Een actieve heuveltempel, bereikbaar via een trappenpad, met uitzicht
+   over Gaya.
+5. **Onderscheidend vermogen** Shakti-Peeth-status is een nationale religieuze categorie — geen
+   andere kandidaat in dit rapport heeft deze status.
+6. **Praktische toegankelijkheid** Actieve, publieke tempel.
+7. **Relevante onzekerheden** Geen expliciete niet-hindoe-toegangsregel gevonden (niet hetzelfde
+   patroon als 051) — niet apart geverifieerd deze ronde, dus ook niet bevestigd als vrij.
+8. **Reden om eventueel over te slaan** Geen directe koppeling aan Marks Kriya-/boeddhistische
+   focus; vooral relevant voor wie de bredere hindoe-krachtplaatsen van India wil zien.
+9. **Relaties/combinaties** Zelfde bredere Gaya-stad-zone als 051, 071, 078.
+
+### 071 — Pretshila Hill
+
+1. **Wat is het?** "Heuvel van de Geesten" — centrum van hindoe voorouderverlossingsrituelen
+   (pind daan), met een Yama-tempel gebouwd in 1787 door Ahilya Bai en de Brahma Kund eronder.
+2. **Waarom hierheen?** Volgens overlevering bezocht Rama deze heuvel met Sita om Pind Daan te
+   doen voor koning Dasharatha.
+3. **Spirituele/historische betekenis** Een van de kernplekken van het bredere Gaya
+   pind-daan-complex, met een eigen, specifiek relict (de Yama-tempel) en verhaal.
+4. **Concrete ervaring** Heuveltop bereikbaar via een trap, uitzicht, de Yama-tempel en de Brahma
+   Kund.
+5. **Onderscheidend vermogen** Ander specifiek relict/verhaal dan Vishnupad (051) en Mangala
+   Gauri (070) — geen duplicaat, wel onderdeel van hetzelfde bredere complex.
+6. **Praktische toegankelijkheid** GEVERIFIEERD (INDIA6 bericht 026): geen expliciete
+   niet-hindoe-toegangsbeperking gevonden, in duidelijk contrast met 051. Mark kan naar
+   verwachting de heuvel, de Yama-tempel en de Brahma Kund bezoeken/bekijken.
+7. **Relevante onzekerheden** Afwezigheid van een gemeld verbod is geen garantie van vrije
+   toegang — tourism.bihar.gov.in, bihardarshann.wordpress.com, prayagpandits.com.
+8. **Reden om eventueel over te slaan** Geen directe koppeling aan Marks Kriya-/boeddhistische
+   focus; vooral relevant voor wie de bredere hindoe-krachtplaatsen van India wil zien.
+9. **Relaties/combinaties** Zelfde bredere Gaya-stad-zone als 051, 070, 078.
+
+### Boeddha-biografische plek na de verlichting
+
+### 072 — Brahmayoni Hill / Gayasisa Stupa (Vuurpreek-locatie)
+
+1. **Wat is het?** Een heuvel (voorheen Gayasisa genoemd) waar Boeddha de beroemde Vuurpreek
+   (Adittapariyaya Sutta) hield, gemarkeerd door de Gayasisa Stupa.
+2. **Waarom hierheen?** Boeddha preekte hier aan circa 1000 voormalige vuur-vererende asceten, die
+   allen verlicht raakten tijdens het luisteren — een van Boeddha's bekendste toespraken.
+3. **Spirituele/historische betekenis** Een biografisch/leerstellig moment NA de verlichting, in
+   tegenstelling tot de bestaande kandidaten die de periode rond en vóór de verlichting dekken
+   (046-049) — vult een echte hiaat in de eerdere detectorset (zie nieuwe detector DET-BGY-P008).
+4. **Concrete ervaring** Een heuvel met de Gayasisa Stupa als markering, uitzicht over de regio.
+5. **Onderscheidend vermogen** Vergelijkbaar in soort biografische zwaarte met 047 (Sujata) en 048
+   (Dungeshwari), maar dekt een ander, later moment (na de verlichting, tijdens Boeddha's
+   onderwijzende periode).
+6. **Praktische toegankelijkheid** Publiek toegankelijke heuvel/pelgrimsplek (niet expliciet
+   toegangsbeperkt).
+7. **Relevante onzekerheden** Geen officiële overheidsbron met de volledige Vuurpreek-context
+   gevonden — alamy.com (fotobijschriften), jatland.com, religion.fandom.com,
+   gaya.nic.in/places-of-interest.
+8. **Reden om eventueel over te slaan** Geen duidelijke reden — dit is qua biografisch gewicht
+   vergelijkbaar met de bestaande kerncluster-kandidaten.
+9. **Relaties/combinaties** In de bredere Gaya-omgeving; exacte afstand tot 046 nog niet
+   berekend (geen bevestigd coördinaat).
+
+### Direct naast Mahabodhi
+
+### 073 — Jagannath Temple (naast Mahabodhi)
+
+1. **Wat is het?** Een hindoetempel op circa 25 voet (7,5 m) afstand ten noorden van de
+   Mahabodhi-tempel zelf, met Krishna/Balarama/Subhadra-idolen en een Ram-Janaki-tempel.
+2. **Waarom hierheen?** De opvallende fysieke nabijheid tot de heiligste boeddhistische plek ter
+   wereld — een eigen interreligieus coëxistentieverhaal.
+3. **Spirituele/historische betekenis** Toont hoe hindoeïsme en boeddhisme letterlijk naast
+   elkaar bestaan op de drempel van 046.
+4. **Concrete ervaring** Een actieve tempel met dagelijkse Mahaprasad-uitdeling (12.00-14.00u).
+5. **Onderscheidend vermogen** Geen andere kandidaat in dit rapport ligt zo dicht bij 046 met een
+   eigen, andere traditie.
+6. **Praktische toegankelijkheid** Vrij toegankelijk, actieve publieke tempel.
+7. **Relevante onzekerheden** Geen expliciete niet-hindoe-toegangsregel gevonden (niet apart
+   geverifieerd) — tourism.bihar.gov.in, quora.com, tripadvisor.com.
+8. **Reden om eventueel over te slaan** Geen directe biografische link met Boeddha's verlichting;
+   vooral relevant voor wie het coëxistentieverhaal wil zien.
+9. **Relaties/combinaties** Direct naast 046, geen extra reisinspanning.
+
+### Meditatiecentrum
+
+### 074 — International Meditation Centre / Dhamma Bodhi (Vipassana, S.N. Goenka-lijn)
+
+1. **Wat is het?** Een Vipassana-meditatiecentrum in de traditie van S.N. Goenka. Het formele
+   centrum "Dhamma Bodhi" werd gesticht in 1994 (10 acres grond), met een Dhamma-hal voor 100
+   studenten en een pagode met 70 cellen.
+2. **Waarom hierheen?** De eerste 10-daagse Vipassana-cursus van heel Bihar werd hier al in 1970
+   gehouden, in het naburige Samanvaya Ashram vlak bij de Mahabodhi-tempel.
+3. **Spirituele/historische betekenis** Andere traditie/lijn dan Root Institute (053,
+   FPMT/Tibetaans-boeddhistisch) — Theravada-afgeleide, seculiere Vipassana-techniek.
+4. **Concrete ervaring** Sinds 2008 ook langere cursussen naast de standaard 10-daagse — een
+   omvangrijk, gevestigd meditatie-instituut.
+5. **Onderscheidend vermogen** Historische primeur (eerste Vipassana-cursus van Bihar) en een
+   eigen, herkenbare traditie (Goenka-Vipassana) — geen duplicaat van 053.
+6. **Praktische toegankelijkheid** Sterk cursusafhankelijk, vergelijkbaar met 053: vooraf
+   inschrijving nodig voor de cursussen zelf; exacte losse-bezoekmogelijkheden niet apart
+   geverifieerd deze ronde (in tegenstelling tot 053, waar dit wel is gecorrigeerd).
+7. **Relevante onzekerheden** Losse-bezoekmogelijkheden (zoals bij 053 gevonden: dagbezoek/
+   gewoon verblijf) zijn voor dit centrum NIET apart geverifieerd — niet aangenomen dat dezelfde
+   regeling geldt.
+8. **Reden om eventueel over te slaan** Zeer afhankelijk van of Mark tijd/interesse heeft voor een
+   Vipassana-cursus — vergelijkbare afweging als bij 053.
+9. **Relaties/combinaties** Ontstaan bij het Samanvaya Ashram, vlak bij Mahabodhi (046).
+
+### Signaleringszone — andere tradities
+
+### 077 — Bitho Sharif Dargah
+
+**Scope-let op**: circa 20-25 km van Bodh Gaya — dit valt in de 20-30 km-signaleringszone, NIET in
+de volledig onderzochte 0-20 km-kernstraal. Gesignaleerd conform protocol, niet als kernkandidaat
+behandeld.
+
+1. **Wat is het?** Een soefi-heiligdom, gesticht 1443 CE door Hazrat Makhdoom Syed Shah Durwesh
+   Ashraf.
+2. **Waarom hierheen?** Vertegenwoordigt een traditie (soefi-islam) die anders volledig afwezig
+   is in de hele regio.
+3. **Spirituele/historische betekenis** Bekend om genezingsverhalen en als symbool van
+   hindoe-moslim-eenheid; jaarlijkse Urs-viering met Qawwali's.
+4. **Concrete ervaring** Een actief heiligdom met een jaarlijks festival (Urs).
+5. **Onderscheidend vermogen** Enige soefi-/islamitische vertegenwoordiging binnen signaleringsbereik.
+6. **Praktische toegankelijkheid** Actief, publiek toegankelijk heiligdom (niet apart
+   geverifieerd voor niet-moslimbezoekers).
+7. **Relevante onzekerheden** Geen officiële overheidsbron gevonden; afstand zelf geschat uit
+   route-omschrijvingen, niet uit bevestigde coördinaten — newageislam.com, waliofallah.blogspot.com.
+8. **Reden om eventueel over te slaan** Buiten de kernstraal, extra reisinspanning; alleen
+   relevant als Mark specifiek geïnteresseerd is in interreligieuze/soefi-geschiedenis.
+9. **Relaties/combinaties** Nog niet onderzocht — signaleringszone, geen routegegevens verzameld.
+
+### Sikh-traditie
+
+### 078 — Gurdwara Sri Guru Tegh Bahadur Ji, Gaya
+
+1. **Wat is het?** Een gurdwara nabij Vishnupad Temple (051), aan de Falgu-rivier, beheerd door
+   Udasi-priesters.
+2. **Waarom hierheen?** Zowel Guru Nanak Dev als later Guru Tegh Bahadur bezochten deze plek en
+   bekritiseerden er direct de pind-daan-praktijk.
+3. **Spirituele/historische betekenis** Zij onderwezen dat iemands eigen goede daden tijdens het
+   leven bepalend zijn voor het lot van de ziel, niet de rituelen die nakomelingen na de dood laten
+   uitvoeren — een inhoudelijke tegenstem, precies op de plek waar die praktijk het meest
+   geconcentreerd voorkomt.
+4. **Concrete ervaring** Drie exemplaren van de Siri Guru Granth Sahib (Gurmukhi en Devnagri
+   schrift) naast elkaar, in een rechthoekig paviljoen op een verhoogd platform.
+5. **Onderscheidend vermogen** Enige Sikh-vertegenwoordiging in de hele straal, met een concreet,
+   tweevoudig Guru-bezoek en een specifieke leerstelling op deze exacte plek.
+6. **Praktische toegankelijkheid** Actieve, publiek toegankelijke gurdwara.
+7. **Relevante onzekerheden** Geen officiële overheidsbron gevonden — sikhiwiki.org,
+   worldgurudwaras.com (meerdere onafhankelijke Sikh-specifieke bronnen, elkaar bevestigend).
+8. **Reden om eventueel over te slaan** Geen directe koppeling aan Marks Kriya-/boeddhistische
+   focus; vooral relevant voor wie de bredere religieuze diversiteit van Gaya wil zien.
+9. **Relaties/combinaties** Zelfde bredere Gaya-stad-zone als 051, 070, 071.
 
 ---
 
