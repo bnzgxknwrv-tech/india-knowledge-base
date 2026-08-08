@@ -19,15 +19,29 @@ herhaald, niet opnieuw beoordeeld.
 
 **Bijgewerkt 2026-08-06 (INDIA6, berichten 024/026/028/030) — definitieve saturation sweep +
 inhoudelijke kwaliteitscontrole**: dit rapport dekt nu alle actieve Bodh Gaya-kandidaten,
-046-078, met drie uitzonderingen die permanent genummerd blijven maar niet als losse keuze
-worden aangeboden: **069** (Mongolian Temple) en **075** (Jain Temple, Gaya) zijn
-`EXCLUDED_HARD_REASON` na (her)toetsing (geen zelfstandige betekenis/ervaring boven "een tempel
-van land X"), en **076** (Akshayavat) is een sublocatie binnen het bezoek aan 051 (Vishnupad),
-inhoudelijk daar verwerkt. Volledige onderbouwing: `PRE_BRONS/SATURATION_REPORT_002.md`,
+046-078. Volledige onderbouwing: `PRE_BRONS/SATURATION_REPORT_002.md`,
 `SATURATION_REPORT_003_ADDENDUM.md`. Dit rapport is bovendien gecontroleerd op voorspelde A/B/C-
 taal (verwijderd, uitsluitend feiten + reden om over te slaan resteren) en op interne
-bronkwaliteit-tegenstrijdigheden (gecorrigeerd). Actief aantal keuzeplekken in dit rapport: 30
-(046-049 vast A, 050-068 en 070-074 en 077-078 door Mark te beoordelen).
+bronkwaliteit-tegenstrijdigheden (gecorrigeerd).
+
+**Bijgewerkt 2026-08-08 (INDIA6, canoncorrectie E.1 + bericht 042, retroactieve canontoets) —
+religie-onafhankelijke bedevaartszoeking**: alle open kandidaten (050-068, 070-074, 077-078) zijn
+opnieuw getoetst tegen `governance/SWEEP_PROTOCOL.md` poort E.1 (AOAY-override → Top-X-toets →
+religie-onafhankelijke hoge drempel voor overige bedevaarts-/heilige plekken, nooit "vertegen-
+woordiging" op zichzelf). Geen van de open kandidaten heeft een AOAY- of Top-X-link. Tien
+kandidaten wier enige resterende onderscheiding neerkwam op land-/traditievertegenwoordiging of
+pure architectuur zijn alsnog `EXCLUDED_HARD_REASON`: **053, 054, 055, 056, 057, 059, 064, 065,
+066, 067**. Negen kandidaten met een reëel maar betwistbaar zwaartesignaal (event, naamgenoemde
+belangrijke persoon, historische primeur) zijn NIET uitgesloten maar expliciet als
+**twijfelgeval** gemarkeerd voor INDIA6/Mark: **058, 060, 061, 063, 068, 073, 074, 077, 078**.
+Permanent gereserveerd, samen met de eerder al uitgesloten 069/075 en de sublocatie 076: **053,
+054, 055, 056, 057, 059, 064, 065, 066, 067, 069, 075** (12 nummers), plus 076 (sublocatie bij
+051).
+
+Samen met 046-049 (vast A) en de zeven duidelijk zelfstandig zware kandidaten (050, 051, 052, 062,
+070, 071, 072) en de negen twijfelgevallen (058, 060, 061, 063, 068, 073, 074, 077, 078): **actief
+aantal keuzeplekken in dit rapport: 20** (4 vast A + 16 door Mark te beoordelen, waarvan 9 met een
+expliciete twijfelgeval-kanttekening).
 
 ---
 
@@ -188,11 +202,12 @@ afsluiting, open onzekerheden): `BODHGAYA_GOUD_REPORT.md`.
 
 ## Deel 2 — Nieuw beoordeelde locaties (MARK_WAARDIG, nieuw genummerd vanaf 050)
 
-Alle negen eerder onderzochte, niet-genummerde locaties zijn opnieuw beoordeeld tegen de nieuwe,
-lagere drempel (MARK_WAARDIG = redelijke kans op A, B óf C na een eerlijke uitleg). Alle negen
-bleken MARK_WAARDIG — geen enkele voldeed aan een van de harde uitsluitingsgronden. Voor vier
-locaties (Thai, Bhutanees, Tibetaans, Vietnamees) was het eerdere onderzoek te oppervlakkig om
-Mark een eerlijke keuze te geven; daar is gericht aanvullend onderzoek gedaan.
+Alle negen eerder onderzochte, niet-genummerde locaties zijn destijds opnieuw beoordeeld tegen de
+toen geldende, lagere drempel (MARK_WAARDIG = redelijke kans op A, B óf C na een eerlijke
+uitleg) en bleken alle negen MARK_WAARDIG. **Bijgewerkt 2026-08-08 (retroactieve E.1-canontoets,
+INDIA6 bericht 042)**: vijf van deze negen (053, 054, 055, 056, 057) zijn bij hertoetsing tegen
+de scherpere, religie-onafhankelijke E.1-canon alsnog `EXCLUDED_HARD_REASON` — zie de korte
+stubs hieronder. 058 blijft MARK_WAARDIG als twijfelgeval.
 
 ### 050 — Archaeological Museum of Bodh Gaya (ASI)
 
@@ -292,175 +307,41 @@ zichtbaarheid. Bronvoorbehoud: er bestaat een andere, bekendere Akshayavat in Pr
    gedocumenteerd.
 8. **Einduitkomst:** **MARK_WAARDIG.**
 
-### 053 — Root Institute (FPMT)
+### 053 — Root Institute (FPMT) — EXCLUDED
 
-**Correctie na officiële bron (INDIA6, bericht 021; rootinstitute.ngo):** de eerdere indruk dat
-een bezoek alleen mogelijk is met cursusinschrijving was ONJUIST. Er zijn vier afzonderlijke
-manieren om hier te komen, niet slechts "met of zonder cursus":
+**Retroactieve E.1-canontoets (INDIA6 bericht 042, 2026-08-08):** onderscheidend vermogen was
+uitsluitend toegangsflexibiliteit (dagbezoek/verblijf/cursus) plus een stichterscitaat — geen
+relict, geen grote pelgrimsstroom, geen aan de plek verbonden vereerd persoon, geen zelfstandige
+zware bedevaarts-/heilige betekenis. Voldoet aan de generiek-check (governance/SWEEP_PROTOCOL.md
+poort E.1). Status: `EXCLUDED_HARD_REASON`. Nummer 053 blijft permanent gereserveerd.
 
-1. Een gewoon dagbezoek — de tuinen zijn vrij toegankelijk tijdens openingstijden (doorgaans
-   9.00-17.00 uur), gratis entree, geen inschrijving nodig.
-2. De dagelijkse meditatiesessies staan open voor iedere bezoeker, ook zonder cursusinschrijving.
-3. Een gewoon verblijf zonder cursus is mogelijk — Root Institute is GEEN hotel/guesthouse, maar
-   biedt wel accommodatie (eenpersoons-, tweepersoons- en meerpersoonskamers, maaltijden tegen
-   betaling) aan wie er rustig wil verblijven; niet-cursusgasten moeten zich wel aan de
-   kloosterregels/precepten houden (o.a. geen intoxicanten, celibaat tijdens verblijf).
-4. De residentiële, begeleide meditatiecursus (circa 10 dagen, oktober-maart) is de meest
-   intensieve, vooraf-inschrijving-vereisende optie.
+### 054 — Wat Thai Buddhagaya (Thai Monastery) — EXCLUDED
 
-1. **Wat is het precies?** Een retraitecentrum van de Foundation for the Preservation of the
-   Mahayana Tradition (FPMT), gesticht in 1984 door Lama Thubten Yeshe en Lama Thubten Zopa
-   Rinpoche, 15 minuten lopen van het hoofdcomplex.
-2. **Waarom onderscheidend?** Lama Yeshe beschouwde Bodh Gaya als "de wortel waaruit de takken
-   van het boeddhisme zich over de rest van de wereld verspreidden" — het instituut biedt zowel
-   vrij toegankelijke tuinen en dagelijkse meditatiesessies, gewoon verblijf zonder cursus, als
-   een doorlopend programma van residentiële meditatiecursussen (circa 10 dagen, oktober-maart).
-3. **Wat ervaart Mark concreet?** Zie de vier opties hierboven — van een kort dagbezoek aan de
-   tuinen tot een meerdaags, begeleid meditatieprogramma.
-4. **Verschil met vergelijkbare instellingen?** Onder de tot nu toe onderzochte kandidaten in de
-   straal de enige plek met zowel een vrij toegankelijk dagbezoek/tuinen en gewoon verblijf zonder
-   cursus, als een gestructureerd (tegen inschrijving) meerdaags meditatieprogramma.
-5. **Permanent of afhankelijk?** Het dagbezoek, de tuinen, de dagelijkse meditatiesessies en een
-   gewoon verblijf zonder cursus zijn het hele jaar door mogelijk (PERMANENT); alleen de
-   residentiële, begeleide meditatiecursus zelf is programma- en seizoensafhankelijk
-   (oktober-maart, circa 10-daagse cursus).
-6. **Bezoekbaarheid?** VOLLEDIG voor een gewoon dagbezoek (tuinen, dagelijkse meditatiesessies) en
-   voor een gewoon verblijf zonder cursus (tegen betaling van accommodatie/maaltijden); alleen de
-   residentiële cursus zelf vereist vooraf inschrijving.
-7. **Relevante feiten voor Marks eigen afweging** Toegankelijk op meerdere, onafhankelijke
-   niveaus: kort dagbezoek, gewoon verblijf zonder cursus, of de meerdaagse residentiële cursus.
-   Elk niveau vraagt een andere tijdsinvestering en interesse.
-8. **Einduitkomst:** **MARK_WAARDIG.**
+**Retroactieve E.1-canontoets (INDIA6 bericht 042, 2026-08-08):** na eerdere correcties resteerde
+uitsluitend "de Thaise tempel binnen Bodh Gaya" (representatie) plus een historisch-diplomatiek
+feit (Nehru-uitnodiging, eerste moderne buitenlandse klooster) — geen zelfstandige bedevaarts-/
+heilige zwaarte. Status: `EXCLUDED_HARD_REASON`. Nummer 054 blijft permanent gereserveerd.
 
-### 054 — Wat Thai Buddhagaya (Thai Monastery)
+### 055 — Royal Bhutan Monastery — EXCLUDED
 
-**Correctie (INDIA6, bericht 021):** de eerdere claim "het ENIGE Thaise tempel in India" is
-ONJUIST en hierbij verwijderd. Gericht nagezocht: er bestaan minstens twee andere Thaise
-tempels/kloosters in India (Wat Thai Temple, Sant Nagar, Delhi; Bhogal Buddha Vihar, een
-Thaise-stijl klooster in Delhi). De houdbare claim is: de Thaise tempel binnen Bodh Gaya zelf
-(waar hij inderdaad de enige is), niet "de enige in heel India".
+**Retroactieve E.1-canontoets (INDIA6 bericht 042, 2026-08-08):** onderscheiding was uitsluitend
+architectuur (dzong-stijl) plus koninklijke financiering — geen relict, pelgrimsstroom of aan de
+plek verbonden vereerd persoon. Status: `EXCLUDED_HARD_REASON`. Nummer 055 blijft permanent
+gereserveerd.
 
-1. **Wat is het precies?** Het Koninklijk Thaise Klooster, gesticht in 1956/1957 (bronnen
-   verschillen op het exacte jaar) op uitnodiging van Nehru ter gelegenheid van de 25e
-   boeddhistische eeuw, gebouwd door de Thaise regering. De Thaise tempel binnen Bodh Gaya zelf
-   (niet: de enige in heel India — zie correctie hierboven).
-2. **Waarom onderscheidend?** Gebouwd op uitdrukkelijke uitnodiging van India's eerste premier
-   — een concreet historisch-diplomatiek gegeven. Rijk verguld, sterk gelijkend op de tempels
-   van Bangkok — visueel volledig anders dan de rest van Bodh Gaya. **Eerdere correctie na
-   brongecontroleerde herbeoordeling (INDIA2, bericht 011):** de claim "eerste buitenlandse
-   klooster van Bodh Gaya" is NIET hard te onderbouwen — een bron noemt een veel oudere
-   (4e-eeuwse) Sri Lankaanse Sangharam die aan de moderne internationale kloosters voorafging.
-   De houdbare, correcte claim is: het eerste MODERNE buitenlandse klooster in Bodh Gaya, niet
-   het eerste buitenlandse klooster ooit.
-3. **Wat ervaart Mark concreet?** Een goudkleurig, sterk hellend gelakt dak en een groot bronzen
-   Boeddhabeeld in het heiligdom — dit is stevig bevestigd. **Onzeker/niet bevestigd:** een
-   apart 25 m hoog Boeddhabeeld in de tuin wordt genoemd in algemene reisbronnen, maar niet in
-   Wikipedia of een officiële bron; dit lijkt mogelijk verward met het aparte, wél goed
-   gedocumenteerde Great Buddha Statue (049) elders in Bodh Gaya. Ochtend- en
-   avondmeditatiesessies en een jaarlijkse stille retraite in januari zijn eveneens uitsluitend
-   via reisbronnen bevestigd, niet institutioneel geverifieerd — vermeld met dat voorbehoud.
-4. **Verschil met vergelijkbare instellingen?** De Thaise tempel binnen Bodh Gaya zelf (niet: de
-   enige in heel India — die eerdere claim is onjuist gebleken en verwijderd). "Eerste
-   buitenlandse klooster" blijft een te sterke claim — beter: een van de eerste, en het eerste
-   moderne buitenlandse klooster.
-5. **Permanent of afhankelijk?** De architectuur is permanent; de gemelde dagelijkse
-   meditatiesessies en de jaarlijkse stille retraite (januari) berusten op reisbronnen, niet op
-   een officiële bevestiging — als ze bestaan, is de architectuur zelf hoe dan ook een
-   permanente, niet-afhankelijke reden om te komen.
-6. **Bezoekbaarheid?** Volledig, vrij toegankelijk.
-7. **Relevante feiten voor Marks eigen afweging** De bevestigde feiten zijn: de Thaise tempel
-   binnen Bodh Gaya, de Nehru-uitnodiging, en de opvallend afwijkende architectuur. De eerdere
-   overclaims (enige Thaise tempel in heel India, eerste buitenlandse klooster ooit, apart 25 m
-   tuinbeeld, bevestigde dagelijkse sessies) zijn verwijderd of gecorrigeerd — zie boven.
-8. **Einduitkomst:** **MARK_WAARDIG.**
+### 056 — Tibetan Temple (Tibetaans klooster tegenover Mahabodhi) — EXCLUDED
 
-### 055 — Royal Bhutan Monastery
+**Retroactieve E.1-canontoets (INDIA6 bericht 042, 2026-08-08):** onderscheiding was een
+indrukwekkend object (grote gebedsmolen) bij een institutioneel onbevestigde identiteit — geen
+bevestigde bedevaarts-/heilige zwaarte. Status: `EXCLUDED_HARD_REASON`. Nummer 056 blijft
+permanent gereserveerd.
 
-1. **Wat is het precies?** Een klooster in authentieke Bhutaanse dzong-architectuur, gebouwd in
-   de jaren '90 met steun van Bhutans Vierde Koning Jigme Singye Wangchuck — officieel bevestigd
-   via tourism.bihar.gov.in.
-2. **Waarom onderscheidend?** **Correctie na brongecontroleerde herbeoordeling (INDIA2, bericht
-   011):** de eerdere claim "een architectuurstijl die verder nergens buiten de Himalaya
-   bestaat" was een overstatement — de bron zelf zegt "een van de meest opvallende voorbeelden
-   van traditionele Bhutaanse dzong-architectuur buiten het Himalaya-koninkrijk", een
-   superlatief, geen absolute uniciteitsclaim. Hier exact volgens de brontekst weergegeven:
-   vestingachtige witgekalkte muren met karakteristieke rode banden, een centrale utse-toren, en
-   houtsnijwerk met de acht-spaaks Dharma-wiel, de eindeloze knoop en beschermende godheden.
-3. **Wat ervaart Mark concreet?** Een architectonisch geheel duidelijk anders dan de andere
-   kloosters in Bodh Gaya, met kleiwerk en muurschilderingen die Boeddha's levensverhaal
-   uitbeelden, en een zeven voet (circa 2,1 m) hoog Boeddhabeeld in het heiligdom (officieel
-   bevestigd). Bezoekers wordt gepaste kleding en respectvol gedrag gevraagd.
-4. **Verschil met vergelijkbare instellingen?** Een van de meest opvallende voorbeelden van
-   authentieke dzong-architectuur buiten de Himalaya in de straal — niet de enige ter wereld,
-   wel duidelijk onderscheidend van de andere internationale kloosters in Bodh Gaya.
-5. **Permanent of afhankelijk?** Permanent — gebouw en architectuur zijn er altijd, geen cursus
-   of evenement vereist. Publieke toegang officieel bevestigd (tourism.bihar.gov.in).
-6. **Bezoekbaarheid?** Volledig, klein wisselend gezelschap Bhutaanse monniken aanwezig.
-7. **Relevante feiten voor Marks eigen afweging** Geen directe biografische link met Boeddha's
-   verlichting. De dzong-architectuur is elders in de straal niet te vinden en officieel bevestigd
-   als een van de meest opvallende voorbeelden buiten de Himalaya zelf.
-8. **Einduitkomst:** **MARK_WAARDIG.**
+### 057 — Vietnamese Temple — EXCLUDED
 
-### 056 — Tibetan Temple (Tibetaans klooster tegenover Mahabodhi)
-
-**Correctie na brongecontroleerde herbeoordeling (INDIA2, bericht 011):** de eerdere primaire
-identificatie als "Namgyal Monastery (Bodhgaya)" met een directe Dalai Lama-connectie was
-onbevestigde speculatie, gebruikt als hoofdclaim voor een permanent genummerde kandidaat — dat is
-niet toegestaan. Rechtstreeks nagetrokken bij de officiële bron (tourism.bihar.gov.in, pagina
-"Tibetan Temple"): deze noemt GEEN Namgyal Monastery, GEEN Karma Temple en GEEN Dalai Lama. De
-veilige, bevestigde canonieke naam is simpelweg **"Tibetan Temple" / "Tibetan Monastery"**. Het
-nummer 056 blijft ongewijzigd; alleen de naam en de onderbouwing zijn gecorrigeerd.
-
-1. **Wat is het precies?** Een Tibetaans klooster direct tegenover het hoofdcomplex, officieel
-   "Tibetan Temple" genoemd (tourism.bihar.gov.in), met een reuzengebedmolen en een
-   Maitreya-Boeddhabeeld (Boeddha van de Toekomst).
-2. **Waarom onderscheidend?** De gebedsmolen zelf is een concreet, imposant object: officieel
-   bevestigd circa 10 meter hoog, goud- en roodgekleurd, met een gewicht van ruim 20 ton. Namen
-   als "Namgyal Monastery (Gendhen Phelgyeling)" of "Karma Temple" duiken op in secundaire
-   reisbronnen als mogelijke, NIET-officieel-bevestigde aliassen voor deze of een naburige
-   locatie — expliciet als onbevestigd vermeld, niet als vaststaand feit, en zonder de eerder
-   gesuggereerde Dalai Lama-connectie, die in de officiële bron ontbreekt.
-3. **Wat ervaart Mark concreet?** Een grote (circa 10 m hoge, ruim 20 ton wegende) gouden en rode
-   gebedsmolen, een Maitreya-Boeddhabeeld, monniken in studie/gebed, direct tegenover de
-   hoofdtempel.
-4. **Verschil met vergelijkbare instellingen?** De schaal van de gebedsmolen (circa 10 m, 20+ ton)
-   en de toekomstgerichte Maitreya-symboliek zijn concreet onderscheidend van de andere
-   internationale kloosters in Bodh Gaya, onafhankelijk van enige ongeverifieerde
-   Dalai-Lama-claim.
-5. **Permanent of afhankelijk?** Permanent — geen cursus, evenement of seizoen vereist voor het
-   bezoeken van het gebouw en het bekijken van de gebedsmolen/het beeld.
-6. **Bezoekbaarheid?** Volledig, direct tegenover 046, geen extra reisinspanning.
-7. **Relevante feiten voor Marks eigen afweging** De bevestigde feiten zijn: ligging tegenover
-   046, de opvallende grote gebedsmolen, het Maitreya-beeld. De eerder gesuggereerde Dalai
-   Lama-connectie is niet bevestigd en dus geen geldig gegeven voor de afweging.
-8. **Einduitkomst:** **MARK_WAARDIG.** Open onzekerheid: de exacte institutionele
-   gelieerdheid (eventuele koppeling aan Namgyal Monastery of een andere orde) is niet
-   bevestigd door de officiële bron en wordt uitsluitend als onbevestigde alias vermeld.
-
-### 057 — Vietnamese Temple
-
-*Lichte aanvullende controle (INDIA2, bericht 011): kernclaims herbevestigd. Alternatieve naam
-gevonden: "Vietnam Phat Quoc Tu". Kanttekening: voor deze locatie is geen apart officieel
-overheidsbron (zoals tourism.bihar.gov.in) gevonden — de onderbouwing steunt op algemene
-reisbronnen, geen enkelvoudige bron als kernonderbouwing gebruikt.*
-
-1. **Wat is het precies?** Een door de Vietnamese regering gebouwde tempel (2002), ook bekend als
-   "Vietnam Phat Quoc Tu", 500 m van het hoofdcomplex, als symbool van de banden tussen Vietnam
-   en India.
-2. **Waarom onderscheidend?** Een driedelig dak met drakenversieringen — architectonisch uniek
-   in Bodh Gaya — en een Avalokiteshvara-beeld (in plaats van uitsluitend een Boeddhabeeld) als
-   centraal object.
-3. **Wat ervaart Mark concreet?** Een sereen, modern gebouwd heiligdom met drakenmotieven,
-   art-deco-elementen en uitgestrekte tuinen.
-4. **Verschil met vergelijkbare instellingen?** Onder de tot nu toe onderzochte kandidaten in de
-   straal de enige tempel met specifiek Vietnamese (Mahayana) architectuur en een
-   Avalokiteshvara-focus in plaats van een Boeddha-focus.
-5. **Permanent of afhankelijk?** Permanent, geen cursus of evenement vereist.
-6. **Bezoekbaarheid?** Volledig, vrij toegankelijk.
-7. **Relevante feiten voor Marks eigen afweging** Geen directe biografische link met Boeddha's
-   eigen verhaal. De architectonische en iconografische eigenheid (Avalokiteshvara i.p.v.
-   Boeddha) is relevant voor wie de internationale diversiteit van Bodh Gaya wil zien.
-8. **Einduitkomst:** **MARK_WAARDIG.**
+**Retroactieve E.1-canontoets (INDIA6 bericht 042, 2026-08-08):** eigen tekst noemde expliciet
+"internationale diversiteit" als reden om te bezoeken — architectuur/iconografie zonder
+zelfstandige bedevaarts-/heilige betekenis. Status: `EXCLUDED_HARD_REASON`. Nummer 057 blijft
+permanent gereserveerd.
 
 ### 058 — Japanese Temple / Indosan Nippon (Nipponzan-Myohoji)
 
@@ -486,7 +367,12 @@ Fujii-stichtingsgeschiedenis.*
 7. **Relevante feiten voor Marks eigen afweging** Geen directe biografische link met Boeddha's
    verlichting. De stichtersgeschiedenis (Fujii, internationale vredesbeweging) is concreet en
    onderscheidend gedocumenteerd.
-8. **Einduitkomst:** **MARK_WAARDIG.**
+8. **Einduitkomst:** **MARK_WAARDIG.** **Twijfelgeval (retroactieve E.1-canontoets, INDIA6
+   bericht 042, 2026-08-08)**: niet uitgesloten omdat Fujii een internationaal significante,
+   naamgenoemde religieus-pacifistische figuur is (stichter van de wereldwijde
+   vredespagode-beweging) — een reëel persoonsgebonden zwaartesignaal, geen loutere
+   land-/traditievertegenwoordiging. Of dit voldoende is voor "belangrijke heilige persoon" in de
+   zin van poort E.1 is echter geen uitgemaakte zaak — expliciet aan INDIA6/Mark voorgelegd.
 
 ---
 
@@ -495,8 +381,10 @@ Fujii-stichtingsgeschiedenis.*
 Gevonden en genummerd op verzoek van INDIA6 (berichten 024, 026 en 030, volledige onderbouwing in
 `PRE_BRONS/SATURATION_REPORT_002.md` en `SATURATION_REPORT_003_ADDENDUM.md`). 069 (Mongolian
 Temple) en 075 (Jain Temple, Gaya) zijn `EXCLUDED_HARD_REASON` en worden hier niet aangeboden.
-076 (Akshayavat) is verwerkt bij 051 hierboven en wordt hier niet los aangeboden — alle drie
-nummers blijven permanent gereserveerd.
+076 (Akshayavat) is verwerkt bij 051 hierboven en wordt hier niet los aangeboden. **Bijgewerkt
+2026-08-08 (retroactieve E.1-canontoets, INDIA6 bericht 042)**: ook 059, 064, 065, 066 en 067 zijn
+alsnog `EXCLUDED_HARD_REASON` (korte stubs hieronder); 060, 063, 068, 073, 074, 077, 078 blijven
+MARK_WAARDIG als twijfelgeval. Alle genoemde nummers blijven permanent gereserveerd.
 
 Per locatie: wat is het, waarom hierheen, spirituele/historische betekenis, concrete ervaring,
 onderscheidend vermogen, praktische toegankelijkheid, relevante onzekerheden, reden om eventueel
@@ -504,27 +392,11 @@ over te slaan, relaties/combinaties voor zover feitelijk bekend. Geen A/B/C inge
 
 ### Aanvullende internationale kloosters/instellingen
 
-### 059 — Metta Buddharam Temple (Silver Temple)
+### 059 — Metta Buddharam Temple (Silver Temple) — EXCLUDED
 
-1. **Wat is het?** Een Thaise/Theravada-geïnspireerde meditatietempel met een opvallend
-   zilver-wit exterieur (roestvrijstaal en spiegelmozaïek) en een wit Boeddhabeeld.
-2. **Waarom hierheen?** Het visuele tegenovergestelde van de gouden Wat Thai Buddhagaya (054) —
-   dezelfde bredere Thaise traditie, een geheel andere esthetiek en nadruk (Metta, liefdevolle
-   vriendelijkheid).
-3. **Spirituele/historische betekenis** Gericht op Metta-meditatie, een kernpraktijk binnen
-   Theravada-boeddhisme.
-4. **Concrete ervaring** Een zilverkleurige, spiegelende gevel — uniek in Bodh Gaya — met een wit
-   (niet gouden) Boeddhabeeld en een rustige tempeltuin.
-5. **Onderscheidend vermogen** Enige zilver/spiegel-tempel in Bodh Gaya; geen enkele andere
-   kandidaat heeft deze esthetiek.
-6. **Praktische toegankelijkheid** Vrij toegankelijk, geen inschrijving of entreekosten gemeld.
-7. **Relevante onzekerheden** Officiële overheidsbron (tourism.bihar.gov.in) bevestigt bestaan en
-   basisfeiten; geen academische bron gevonden. Aanvullende details via reisbronnen
-   (chalbanjare.com, tripadvisor.com).
-8. **Reden om eventueel over te slaan** Zelfde bredere Thaise traditie als 054 — wie al voor 054
-   kiest en geen specifieke architectuurinteresse heeft, kan dit als niet-essentiële aanvulling
-   zien.
-9. **Relaties/combinaties** Nog niet onderzocht qua exacte afstand/route tot andere kandidaten.
+**Retroactieve E.1-canontoets (INDIA6 bericht 042, 2026-08-08):** onderscheiding was uitsluitend
+visuele esthetiek ("enige zilver/spiegel-tempel") — geen geschiedenis, stichter, gebeurtenis of
+relict gevonden. Status: `EXCLUDED_HARD_REASON`. Nummer 059 blijft permanent gereserveerd.
 
 ### 060 — Palyul Namdroling Monastery (Ngagyur Palyul Thubten Shedrub Choekhor Dargyeling)
 
@@ -548,8 +420,20 @@ over te slaan, relaties/combinaties voor zover feitelijk bekend. Geen A/B/C inge
    vooral relevant voor wie de verschillende Tibetaanse tradities afzonderlijk wil zien.
 9. **Relaties/combinaties** Bij de Great Buddha Statue (049), dus logisch te combineren met dat
    bezoek.
+10. **Twijfelgeval (retroactieve E.1-canontoets, INDIA6 bericht 042, 2026-08-08)**: niet
+    uitgesloten omdat de naam/lijn officieel is toegekend door twee erkende hoge Tibetaans-
+    boeddhistische autoriteiten (Drubwang Pema Norbu Rinpoche én de Dalai Lama) — een reëel
+    persoons-/lijngebonden zwaartesignaal, ondanks de op zichzelf onvoldoende
+    "andere-Tibetaanse-traditie"-framing in punt 5. Expliciet aan INDIA6/Mark voorgelegd.
 
 ### 061 — Burmese Vihara
+
+**Twijfelgeval (retroactieve E.1-canontoets, INDIA6 bericht 042, 2026-08-08)**: niet uitgesloten
+ondanks de "enige Myanmar-vertegenwoordiging"-framing in punt 5 hieronder, omdat er ook een
+pioniersstatus (een van de vroegste internationale kloosters van Bodh Gaya), een expliciet
+door de Birmese boeddhistische autoriteiten aangestelde abt, en een doorlopende, dagelijkse
+liefdadigheidspraktijk (gratis vegetarische lunch) zijn — reële, zij het bescheiden,
+zwaartesignalen. Expliciet aan INDIA6/Mark voorgelegd, geen zelfstandige INDIA-beslissing.
 
 1. **Wat is het?** Een Myanmarees (Birmees) klooster, gesticht 1936, aan de oorspronkelijke weg
    Gaya-Bodhgaya, dicht bij Mahabodhi.
@@ -595,6 +479,14 @@ over te slaan, relaties/combinaties voor zover feitelijk bekend. Geen A/B/C inge
 
 ### 063 — Padmasambhava Grand Temple and Nyingma Center
 
+**Twijfelgeval (retroactieve E.1-canontoets, INDIA6 bericht 042, 2026-08-08)**: niet uitgesloten
+omdat het complex jaarlijks de Nyingma Monlam Chenmo huisvest met Karmapa-aanwezigheid en een
+consecratieceremonie geleid door Shechen Rabjam Rinpoche — een reëel, event-gebonden
+zwaartesignaal ("grote jaarlijkse pelgrimsstroom" tijdens het festival), vergelijkbaar met 052's
+Monlam-argument. Tegen: de tekst framet het onderscheid deels als "een derde, aparte
+Nyingma-vestiging" (representatie-achtig) en toegankelijkheid buiten het festival is volledig
+onbevestigd. Expliciet aan INDIA6/Mark voorgelegd.
+
 1. **Wat is het?** Een nieuw ingewijd (23 januari 2026) tempelcomplex voor de Nyingma-traditie,
    geconsacreerd in verband met de 37e Nyingma Monlam Chenmo.
 2. **Waarom hierheen?** Het nieuwste grote toevoeging aan Bodh Gaya's internationale
@@ -619,80 +511,39 @@ over te slaan, relaties/combinaties voor zover feitelijk bekend. Geen A/B/C inge
    beschikbaar; wie liever een bewezen, langer bestaand klooster bezoekt kan dit overslaan.
 9. **Relaties/combinaties** Nog niet onderzocht qua exacte afstand tot andere kandidaten.
 
-### 064 — Chinese Temple
+### 064 — Chinese Temple — EXCLUDED
 
-1. **Wat is het?** Een Chinees boeddhistisch klooster in pagodestijl, gebouwd 1945, direct
-   tegenover de hoofdingang van het Mahabodhi-complex.
-2. **Waarom hierheen?** Een van de oudste internationale kloosters ter plekke — gebouwd vóór de
-   Indiase onafhankelijkheid, door Chinese monniken i.s.m. de toenmalige Chinese overheid.
-3. **Spirituele/historische betekenis** Mahayana-praktijk (chanten, sutra-studie), met een
-   architectuur die duidelijk afwijkt van de Zuidoost-Aziatische en Tibetaanse kloosters.
-4. **Concrete ervaring** Pagodestijl-architectuur direct tegenover 046's hoofdingang, actieve
-   Mahayana-praktijk.
-5. **Onderscheidend vermogen** Enige Chinese vertegenwoordiging in de straal; historische ouderdom
-   (1945) en ligging (tegenover 046) zijn beide op zichzelf onderscheidend.
-6. **Praktische toegankelijkheid** Vrij toegankelijk, gerenoveerd in 1997.
-7. **Relevante onzekerheden** Geen officiële bron gevonden — trawell.in, prayagsamagam.com,
-   tripadvisor.in.
-8. **Reden om eventueel over te slaan** Geen directe biografische link met Boeddha's verlichting;
-   vooral relevant voor wie de historische/architectonische diversiteit wil zien.
-9. **Relaties/combinaties** Direct tegenover 046, geen extra reisinspanning.
+**Retroactieve E.1-canontoets (INDIA6 bericht 042, 2026-08-08):** onderscheiding was "enige
+Chinese vertegenwoordiging" plus ouderdom/ligging — geen relict, pelgrimsstroom of aan de plek
+verbonden vereerd persoon. Status: `EXCLUDED_HARD_REASON`. Nummer 064 blijft permanent
+gereserveerd.
 
-### 065 — Bangladesh Buddhist Monastery
+### 065 — Bangladesh Buddhist Monastery — EXCLUDED
 
-1. **Wat is het?** Een groot klooster van de boeddhistische gemeenschap van Bangladesh, met twee
-   verbonden delen (klooster en tempel).
-2. **Waarom hierheen?** Een overwegend islamitisch land dat hier een groot, prominent klooster
-   onderhoudt — een minderheidsverhaal dat op zichzelf onderscheidend is.
-3. **Spirituele/historische betekenis** Toegangspoorten met reliëfs uit Boeddha's leven; het
-   hoofdgebedshuis bevat tientallen Boeddhabeelden, met een groot wit centraal beeld.
-4. **Concrete ervaring** Uitgebreid, goed onderhouden kloostercomplex met een decoratieve torana-
-   poort.
-5. **Onderscheidend vermogen** Enige Bangladese vertegenwoordiging in de straal; schaal en het
-   minderheidsverhaal zijn beide concreet.
-6. **Praktische toegankelijkheid** Vrij toegankelijk, geen entreekosten gemeld.
-7. **Relevante onzekerheden** Geen officiële bron gevonden — dhammawiki.com, tripadvisor.com,
-   facebook.com/BBMBIn.
-8. **Reden om eventueel over te slaan** Geen directe biografische link met Boeddha's verlichting;
-   vooral relevant voor wie de internationale diversiteit wil zien.
-9. **Relaties/combinaties** Nog niet onderzocht qua exacte afstand/route.
+**Retroactieve E.1-canontoets (INDIA6 bericht 042, 2026-08-08):** onderscheiding was "enige
+Bangladese vertegenwoordiging" en een minderheidsverhaal — geen zelfstandige bedevaarts-/heilige
+zwaarte. Status: `EXCLUDED_HARD_REASON`. Nummer 065 blijft permanent gereserveerd.
 
-### 066 — Cambodian Monastery
+### 066 — Cambodian Monastery — EXCLUDED
 
-1. **Wat is het?** Een rijk gekleurd, ornamenteel Cambodjaans kloostergebouw met een enorm
-   Boeddhabeeld.
-2. **Waarom hierheen?** Visueel sterk afwijkend van de andere kloosters — felle kleuren en
-   gedetailleerd bewerkte muren.
-3. **Spirituele/historische betekenis** Niet specifiek gedocumenteerd buiten de architecturale
-   beschrijving — dit is de zwakste bronbasis van de internationale-klooster-groep.
-4. **Concrete ervaring** Een groot, kleurrijk beeld en gedetailleerde muurdecoratie.
-5. **Onderscheidend vermogen** Enige Cambodjaanse vertegenwoordiging in de straal; visuele stijl
-   wijkt duidelijk af.
-6. **Praktische toegankelijkheid** Vermoedelijk vrij toegankelijk (niet expliciet bevestigd).
-7. **Relevante onzekerheden** Alleen reisbronnen (kuchbhi.com en vergelijkbare) — geen officiële of
-   academische bron gevonden, zwakker onderbouwd dan de meeste andere kandidaten in dit rapport.
-8. **Reden om eventueel over te slaan** Dunne bronbasis en geen specifiek verhaal buiten het
-   visuele — wie een sterker onderbouwd verhaal zoekt, kan dit overslaan.
-9. **Relaties/combinaties** Nog niet onderzocht.
+**Retroactieve E.1-canontoets (INDIA6 bericht 042, 2026-08-08):** onderscheiding was "enige
+Cambodjaanse vertegenwoordiging" plus visuele stijl; het rapport noemde dit zelf al de zwakst
+onderbouwde kandidaat. Status: `EXCLUDED_HARD_REASON`. Nummer 066 blijft permanent gereserveerd.
 
-### 067 — Korean Temple (Bunhwang-sa)
+### 067 — Korean Temple (Bunhwang-sa) — EXCLUDED
 
-1. **Wat is het?** Een nieuwe Koreaanse tempel, vernoemd naar de historische Bunhwang-sa-tempel
-   uit 634 CE in Gyeongju, Zuid-Korea.
-2. **Waarom hierheen?** Geen verzonnen naam maar een bewuste lijnverwijzing naar een echte,
-   eeuwenoude Koreaanse tempeltraditie.
-3. **Spirituele/historische betekenis** Biedt onderdak, chantsessies en begeleiding in het
-   Koreaans — gericht op Koreaanse pelgrims en geïnteresseerden.
-4. **Concrete ervaring** Een nieuw gebouwd klooster met Koreaanse rituele elementen.
-5. **Onderscheidend vermogen** Enige Koreaanse vertegenwoordiging in de straal, met een
-   aantoonbare historische naamgevingslijn.
-6. **Praktische toegankelijkheid** Nieuw, gastenverblijf aanwezig.
-7. **Relevante onzekerheden** Eén hoofdbron (buddhistdoor.net) — geen tweede onafhankelijke bron
-   gevonden.
-8. **Reden om eventueel over te slaan** Zeer nieuw, weinig reisverslagen beschikbaar.
-9. **Relaties/combinaties** Nog niet onderzocht.
+**Retroactieve E.1-canontoets (INDIA6 bericht 042, 2026-08-08):** onderscheiding was "enige
+Koreaanse vertegenwoordiging" plus een naamgevingsverwijzing, op een enkele zwakke bron — geen
+zelfstandige bedevaarts-/heilige zwaarte. Status: `EXCLUDED_HARD_REASON`. Nummer 067 blijft
+permanent gereserveerd.
 
 ### 068 — Shechen Monastery (Shechen Tennyi Dargyeling)
+
+**Twijfelgeval (retroactieve E.1-canontoets, INDIA6 bericht 042, 2026-08-08)**: niet uitgesloten
+omdat Shechen wereldwijd geassocieerd is met Dilgo Khyentse Rinpoche, "een van de belangrijkste
+Tibetaans-boeddhistische leraren van de 20e eeuw" — een reëel persoonsgebonden zwaartesignaal,
+geen loutere vertegenwoordiging. Tegen: dit is een dochterklooster, niet de hoofdzetel, en de
+onderbouwing steunt op één hoofdbron. Expliciet aan INDIA6/Mark voorgelegd.
 
 1. **Wat is het?** Een Nyingma-klooster, officieel Shechen Tennyi Dargyeling, gebouwd 1996,
    ingewijd door de Dalai Lama, dicht bij de Mahabodhi-tempel.
@@ -814,6 +665,12 @@ een traditionele/geleerde identificatie, geen GPS-exacte, onbetwiste zekerheid.
 
 ### 073 — Jagannath Temple (naast Mahabodhi)
 
+**Twijfelgeval (retroactieve E.1-canontoets, INDIA6 bericht 042, 2026-08-08)**: niet uitgesloten
+— actieve, doorlopende praktijk (dagelijkse Mahaprasad-uitdeling, jaarlijkse rathyatra) is een
+reëel zwaartesignaal, geen loutere vertegenwoordiging. Tegen: het gewicht van deze kandidaat
+leunt zwaar op de fysieke nabijheid tot 046 (25 voet), niet op onafhankelijke, eigen nationale
+bedevaartsfaam zoals bij 051/070. Expliciet aan INDIA6/Mark voorgelegd.
+
 1. **Wat is het?** Een hindoetempel op officieel bevestigd 25 voet (7,5 m) afstand ten noorden
    van de Mahabodhi-tempel zelf, met grote idolen van Krishna, Balarama en Subhadra, en een
    nieuw gebouwde Ram-Janaki-tempel binnen hetzelfde complex.
@@ -844,6 +701,13 @@ een traditionele/geleerde identificatie, geen GPS-exacte, onbetwiste zekerheid.
 
 ### 074 — International Meditation Centre / Dhamma Bodhi (Vipassana, S.N. Goenka-lijn)
 
+**Twijfelgeval (retroactieve E.1-canontoets, INDIA6 bericht 042, 2026-08-08)**: niet uitgesloten
+omdat "eerste Vipassana-cursus van heel Bihar" (1970) een reële historische-primeurclaim is
+binnen een wereldwijd nog actief beoefende traditie (Goenka-Vipassana), geen loutere
+vertegenwoordiging. Tegen: het is een moderne (1994) institutie zonder relict/pelgrimsstroom, en
+toegang is uitsluitend via volledige cursusinschrijving (zie punt 6) — een gewone bezoeker kan
+hier feitelijk niets van meemaken. Expliciet aan INDIA6/Mark voorgelegd.
+
 1. **Wat is het?** Een Vipassana-meditatiecentrum in de traditie van S.N. Goenka. Het formele
    centrum "Dhamma Bodhi" werd gesticht in 1994 (10 acres grond), met een Dhamma-hal voor 100
    studenten en een pagode met 70 cellen.
@@ -872,6 +736,13 @@ een traditionele/geleerde identificatie, geen GPS-exacte, onbetwiste zekerheid.
 ### Signaleringszone — andere tradities
 
 ### 077 — Bitho Sharif Dargah
+
+**Twijfelgeval (retroactieve E.1-canontoets, INDIA6 bericht 042, 2026-08-08)**: niet uitgesloten
+ondanks de "enige soefi-/islamitische vertegenwoordiging"-framing in punt 5 hieronder, omdat een
+regionaal significant jaarlijks Urs-festival (naar verluidt bijgewoond door de zittende
+minister-president van Bihar) een reëel, bovenlokaal pelgrims-/zwaartesignaal is, met een
+naamgenoemde 15e-eeuwse stichter. Tegen: geen officiële bron, buiten de kernstraal, het
+CM-bezoek is "naar verluidt" (niet hard bevestigd). Expliciet aan INDIA6/Mark voorgelegd.
 
 **Scope-let op**: gelegen in het dorp Bitho, Kandi Panchayat, circa 10 km van Gaya-stad op de
 Gaya-Patna-weg (bron: newageislam.com) — samen met de eerder vastgestelde afstand Bodh Gaya-Gaya
@@ -908,6 +779,14 @@ Gesignaleerd conform protocol, niet als kernkandidaat behandeld.
 ### Sikh-traditie
 
 ### 078 — Gurdwara Sri Guru Tegh Bahadur Ji, Gaya
+
+**Twijfelgeval (retroactieve E.1-canontoets, INDIA6 bericht 042, 2026-08-08)**: niet uitgesloten
+ondanks de "enige Sikh-vertegenwoordiging"-framing in punt 5 hieronder, omdat een overgeleverd
+bezoek van twee Sikh-Guru's (Guru Nanak Dev, Guru Tegh Bahadur) met een specifieke, inhoudelijke
+leerstelling op deze exacte plek een reëel persoons-/leerstelling-gebonden zwaartesignaal is —
+precies het type "obscure traditie met een echt zwaartepunt" dat E.1 wil kunnen laten zien. Tegen:
+uitsluitend Sikh-eigen historiografie (SikhiWiki), geen academische/primaire bevestiging. Expliciet
+aan INDIA6/Mark voorgelegd.
 
 **Bronbeoordeling (INDIA6 bericht 030 — sterkere bron gezocht voor de Guru-bezoeken)**: geen
 academische of primaire Sikh-tekstbron (bijv. een specifieke janamsakhi of Guru Kian Sakhian-

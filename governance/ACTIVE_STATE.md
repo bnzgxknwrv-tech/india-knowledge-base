@@ -53,22 +53,28 @@ REGIONS:
     saturation-status: SATURATED=JA (SATURATION_REPORT_002.md + _003_ADDENDUM.md)
     INDIA_ACCEPTED_SATURATION: JA (geaccepteerd, bericht 028)
     Mark-selection-status: 046-049 = A (PROTECTED, besluit 2026-08-05, direct na de eerste
-      keuze-reisgids-PDF); 050-068, 070-074, 077-078 nog door Mark te beoordelen —
-      MARK_SELECTION_REPORT.md staat daarvoor klaar, content-QA-ronde verwerkt (geen
-      voorspellende A/B/C-taal, sourcing/toegankelijkheid gecorrigeerd)
+      keuze-reisgids-PDF); 16 kandidaten nog door Mark te beoordelen (050, 051, 052, 058, 060,
+      061, 062, 063, 068, 070, 071, 072, 073, 074, 077, 078), waarvan 9 met een expliciete
+      twijfelgeval-kanttekening (058, 060, 061, 063, 068, 073, 074, 077, 078) na de retroactieve
+      E.1-canontoets — MARK_SELECTION_REPORT.md staat daarvoor klaar, content-QA-ronde verwerkt
+      (geen voorspellende A/B/C-taal, sourcing/toegankelijkheid gecorrigeerd, religie-
+      onafhankelijke bedevaartszoeking toegepast, zie hieronder)
     protected A/B/C-besluiten: 046 Mahabodhi Temple Complex = A; 047 Sujata Stupa = A; 048
       Dungeshwari Cave Temples = A; 049 Great Buddha Statue = A (bron:
       runs/active/BODHGAYA-DISCOVERY-001/MARK_DECISIONS_2026-08-05.jsonl)
-    reserved/excluded nummers: 069 (Mongolian Temple) = EXCLUDED_HARD_REASON; 075 (Jain Temple
-      Gaya) = EXCLUDED_HARD_REASON; 076 (Akshayavat) = SUBLOCATION, samengevoegd bij 051
-      (Vishnupad Temple), geen zelfstandige kandidaat — alle drie nummers permanent gereserveerd,
-      nooit hergebruikt
-    blockers: geen open content-blocker meer na de QA-ronde (bericht 030); wacht op INDIA/Mark om
-      MARK_SELECTION_REPORT.md inhoudelijk te accepteren
+    reserved/excluded nummers: 069, 075 = EXCLUDED_HARD_REASON (eerder); 053, 054, 055, 056, 057,
+      059, 064, 065, 066, 067 = EXCLUDED_HARD_REASON (2026-08-08, retroactieve E.1-canontoets,
+      INDIA6 bericht 042 — enige resterende onderscheiding was land-/traditievertegenwoordiging
+      of pure architectuur, geen zelfstandige bedevaarts-/heilige zwaarte); 076 (Akshayavat) =
+      SUBLOCATION, samengevoegd bij 051 (Vishnupad Temple) — alle 13 uitgesloten/sublocatie-
+      nummers blijven permanent gereserveerd, nooit hergebruikt
+    blockers: geen open content-blocker meer na de QA-ronde (bericht 030) + de retroactieve
+      E.1-canontoets (bericht 042); wacht op INDIA/Mark om MARK_SELECTION_REPORT.md inhoudelijk te
+      accepteren, inclusief een besluit over de 9 twijfelgevallen
     next_allowed_step: content-QA-acceptatie (CONTENT_QA_ACCEPTED: JA) door de huidige
       INDIA-regisseur; PAS DAARNA, en alleen met een apart, letterlijk PDF_GO: JA, mag een PDF
-      gebouwd worden (30 actieve keuzelocaties, 046-078 minus 069/075/076, plus Mahabodhi
-      weeksublocaties zonder eigen nummer)
+      gebouwd worden (20 actieve keuzelocaties, plus Mahabodhi weeksublocaties zonder eigen
+      nummer)
 ```
 
 ## Governance-canon (versie-onafhankelijk, deze map)
