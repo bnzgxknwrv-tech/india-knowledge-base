@@ -80,16 +80,19 @@ REGIONS:
   keuzerapportfase en vóór PDF (zie SWEEP_PROTOCOL.md Deel 4 voor de exacte grenzen).
 - `governance/ACTIVE_STATE.md` — dit bestand.
 
-### Discriminatieregel MARK_WAARDIG (canoncorrectie 2026-08-08, duurzaam te erven)
+### Discriminatieregel MARK_WAARDIG (canoncorrectie 2026-08-08, verscherpt dezelfde dag, duurzaam te erven)
 
 Elke toekomstige INDIA-regisseur/CCI-uitvoering erft automatisch de beslisvolgorde uit
 `governance/SWEEP_PROTOCOL.md` poort E.1: (1) AOAY-link (*Autobiography of a Yogi*) = absolute
 override, altijd tonen, ook bij een objectief onbeduidende plek; (2) zonder AOAY-link: Top-X
-persoonlijke zwaarte, breed zoeken, lage drempel; (3) alles daarbuiten: religieuze/bedevaarts-
-zwaargewicht met een HOGE drempel — nooit "elke religie moet vertegenwoordigd zijn." Coverage van
-religies/tradities (poort A) is uitsluitend een zoeklens, nooit zelfstandig bewijs voor
-kandidaatstatus. Zie `governance/SWEEP_ERROR_CLASSES.md` FK-011 voor het Bodh Gaya-precedent
-(Mongolian Temple, 069).
+persoonlijke zwaarte, breed zoeken, lage drempel; (3) alles daarbuiten: **religie-onafhankelijke**
+bedevaarts-/pelgrimszwaarte met een HOGE drempel. De zoekvraag is NIET "welke belangrijke religies
+zijn hier aanwezig?" maar UITSLUITEND "welke fysieke plekken hebben hier uitzonderlijke
+religieuze/spirituele/pelgrimszwaarte?" — een grote wereldreligie geeft op zichzelf geen recht op
+opname; een obscure/kleine traditie met één plaats van enorme pelgrimszwaarte moet juist boven
+komen. Religiecategorieën (poort A) zijn hoogstens aanvullende zoektermen, nooit de begrenzing van
+de zoekruimte en nooit zelfstandig bewijs voor kandidaatstatus. Zie
+`governance/SWEEP_ERROR_CLASSES.md` FK-011 voor het Bodh Gaya-precedent (Mongolian Temple, 069).
 
 ## Nog geldige, ongewijzigde canon buiten `governance/`
 

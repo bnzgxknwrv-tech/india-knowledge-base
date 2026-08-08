@@ -80,7 +80,7 @@ wordt geschreven:
 | Levende praktijk: kloosters, tempels, ashrams, meditatiecentra, retraiteplekken | ☐ |
 | Alle relevante internationale tradities/kloosters (niet vooraf beperkt tot een sublijst) | ☐ |
 | Directe stad/regio-omgeving (niet alleen het hoofdcomplex) | ☐ |
-| Andere religieuze tradities: hindoeïsme, jaïnisme, soefisme/islam, sikhisme, christendom | ☐ |
+| Religie-onafhankelijke bedevaarts-/heiligdomzoeking (zie E.1) — directe zoektermen: bedevaart, pelgrimsstromen, heiligdommen, beroemde relieken/beelden/graven/grotten/heilige plaatsen; hindoeïsme/jaïnisme/soefisme-islam/sikhisme/christendom e.a. zijn hier ALLEEN aanvullende zoektermen, nooit de begrenzing | ☐ |
 | Historische/archeologische plekken en fysiek unieke heilige objecten | ☐ |
 | Spirituele extremen buiten Marks bekende voorkeuren | ☐ |
 | Officiële/institutionele bronnen geraadpleegd | ☐ |
@@ -89,7 +89,9 @@ wordt geschreven:
 
 Regel: een lens mag pas als "gedekt" gelden met status `SATURATED` of
 `EXPLICIET_ONBESCHIKBAAR` — nooit stilzwijgend overgeslagen. Dit lijstje wordt het skelet van de
-Coverage Matrix (poort C).
+Coverage Matrix (poort C). De religie-lens hierboven is expliciet GEEN vaste religielijst om af
+te vinken (zie E.1) — de zoekvraag is "welke fysieke plekken hebben hier uitzonderlijke
+religieuze/spirituele/pelgrimszwaarte?", niet "welke bekende religies zijn hier aanwezig?".
 
 ### B. Discovery (bevestiging van bestaande regel, geen wijziging)
 
@@ -160,20 +162,34 @@ Voor iedere lead, in deze volgorde:
    fysieke plekken rond geboorte, verblijf, samadhi, ashram, initiatie, ontmoeting, meditatie,
    leer, lineage, reliek, belangrijke gebeurtenis van Marks Top X personen/lijnen. Lage drempel
    voor tonen — niet beperken tot beroemde of drukbezochte plekken.
-3. **ALLES BUITEN AOAY/TOP X = RELIGIEUZE ZWAARGEWICHTEN, HOGE DREMPEL.** Hier geldt NIET
-   "elke religie moet vertegenwoordigd zijn." Wel: echte bedevaarts-/heiligdom-zwaargewichten die
-   ook voor buitenstaanders relevant zijn — sterke signalen zijn zeer grote jaarlijkse
-   pelgrimsstromen, nationaal/internationaal beroemde bedevaartsstatus, een uitzonderlijk vereerd
-   beeld/relict/graf/grot/tempel, een belangrijke heilige persoon, een zeer oude levende traditie,
-   uitzonderlijke religieuze/historische zwaarte, of een plek waarheen ook mensen buiten de eigen
-   religie bewust reizen. Een gewone sikh-/jain-/moslim-/christelijke/hindoe-tempel puur voor
-   categoriedekking is NIET MARK_WAARDIG; een heiligdom van vergelijkbare traditie mét enorme
-   pelgrimszwaarte WEL.
+3. **ALLES BUITEN AOAY/TOP X = RELIGIE-ONAFHANKELIJKE BEDEVAARTSZOEKING, HOGE DREMPEL** (verscherpt,
+   INDIA6 bericht 040/tweede versie, 2026-08-08 — vervangt de eerdere, voor misverstand vatbare
+   formulering "religieuze zwaargewichten"). De zoekvraag is NIET "welke belangrijke religies zijn
+   hier aanwezig?" maar UITSLUITEND: **"welke fysieke plekken in deze sweepregio hebben
+   uitzonderlijke religieuze/spirituele/pelgrimszwaarte?"** Concreet:
+   - Een grote wereldreligie geeft op zichzelf GEEN recht op opname.
+   - Een zeer kleine, obscure of lokaal onbekende religie/traditie MOET wél ontdekt worden zodra
+     zij hier een extreem belangrijke bedevaartsplek heeft — een obscure traditie met één plaats
+     waar enorme aantallen mensen naartoe pelgrimeren moet juist boven komen.
+   - Religiecategorieën (hindoeïsme, jaïnisme, islam, sikhisme, christendom, ...) zijn hoogstens
+     aanvullende zoektermen, nooit de begrenzing van de zoekruimte.
+   - Discovery moet daarom ook rechtstreeks zoeken op bedevaart, heiligdommen, pelgrimsstromen,
+     beroemde relieken/beelden/graven/grotten/heilige plaatsen en vergelijkbare zwaartesignalen,
+     zonder vooraf bekende religielijst als filter.
+   - Sterke signalen (illustratief, geen religielijst): zeer grote jaarlijkse pelgrimsstromen,
+     nationaal/internationaal beroemde bedevaartsstatus, een uitzonderlijk vereerd
+     beeld/relict/graf/grot/heiligdom, een belangrijke heilige persoon, een zeer oude levende
+     traditie, uitzonderlijke religieuze/historische zwaarte, of een plek waarheen ook mensen
+     buiten de eigen traditie bewust reizen.
+   - Een gewone tempel/heiligdom van eender welke traditie, puur aanwezig voor categoriedekking,
+     is NIET MARK_WAARDIG; een heiligdom van eender welke traditie (groot of obscuur) mét
+     aantoonbaar zware, zelfstandige bedevaartsbetekenis WEL.
 
 **Geen "religies afvinken"**: religieuze/traditie-coverage (poort A, de lenzenlijst) is
-uitsluitend een zoeklens om mogelijke zwaargewichten niet te missen — nooit zelfstandig bewijs
-voor kandidaatstatus. Coverage mag discovery openen; kandidaatstatus vereist altijd óf een
-AOAY/Top-X-override, óf aantoonbare zelfstandige religieuze zwaarte onder laag 3.
+uitsluitend aanvullende zoekterminologie om mogelijke zwaargewichten niet te missen — nooit
+zelfstandig bewijs voor kandidaatstatus, en nooit een begrenzing van waar discovery mag zoeken.
+Coverage mag discovery openen; kandidaatstatus vereist altijd óf een AOAY/Top-X-override, óf
+aantoonbare zelfstandige, religie-onafhankelijke bedevaarts-/pelgrimszwaarte onder laag 3.
 
 Praktisch: iedere lead doorloopt A→B→C. A: AOAY-link? Ja → tonen (mits fysieke identiteit
 verifieerbaar). Nee → B: Top-X-link? Ja → brede toets, lage drempel. Nee → C: algemene
