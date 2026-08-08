@@ -1,13 +1,14 @@
 # Bodh Gaya — persoonlijke keuzegids voor Mark
 
-*Status: PRE_PDF_CONTENT — nog GEEN PDF. Dit bestand is de volledige, definitieve inhoud zoals
-die straks in de V2-PDF verschijnt. Wacht op integrale controle en `PRE_PDF_CONTENT_APPROVED: JA`
-+ een apart, letterlijk `PDF_GO: JA` (governance/SWEEP_PROTOCOL.md poort M) vóórdat gerenderd
-wordt. Drie kandidaten (051, 061, 074) hadden een `MARK_DECISION_CONFLICT` — **opgelost op
-2026-08-08 (bericht 065): Mark bevestigt C voor alle drie, geen wijziging.** Zie hun kaart en de
-laatste pagina. (Bijgewerkt 2026-08-08 na INDIA6-tegencontrole bericht 058 — twee correcties: de
-Ramakrishna-claim bij 046 bleek onjuist en is verplaatst naar 051; de Ram Dass-link bij 074 is
-datumgecorrigeerd en nu onzeker gedeeld met 061.)*
+*Status: DEFINITIEF LEESBAAR EINDPRODUCT — GEEN PDF meer gepland. Mark heeft op 2026-08-08
+rechtstreeks aangegeven geen nieuwe Bodh Gaya-PDF meer te willen ("Geen pdf meer!!!"), bevestigd
+door INDIA6 (bericht 066). Dit Markdown-bestand blijft de volledige, actuele inhoud — geen
+`PRE_PDF_CONTENT_APPROVED`/`PDF_GO`-stap meer nodig voor deze run. Drie kandidaten (051, 061, 074)
+hadden een `MARK_DECISION_CONFLICT` — **opgelost op 2026-08-08 (bericht 065): Mark bevestigt C
+voor alle drie, geen wijziging.** Zie hun kaart en de laatste pagina. (Bijgewerkt 2026-08-08 na
+INDIA6-tegencontrole bericht 058 — twee correcties: de Ramakrishna-claim bij 046 bleek onjuist en
+is verplaatst naar 051; de Ram Dass-link bij 074 is datumgecorrigeerd en nu onzeker gedeeld met
+061.)*
 
 ---
 
@@ -640,6 +641,6 @@ Alle drie blijven C, expliciet door Mark bevestigd — geen automatische wijzigi
 open beslissing meer op deze drie.
 
 ---
-Geschreven door: CCI, op verzoek van INDIA6 (PR #23, berichten 053-065). Dit is PRE_PDF_CONTENT —
-GEEN PDF. Wacht op `PRE_PDF_CONTENT_APPROVED: JA` + apart `PDF_GO: JA`. Geen route/nachten/
-hotel/ashram/pacing. `PDF_STATUS: VERBODEN` gerespecteerd.
+Geschreven door: CCI, op verzoek van INDIA6 (PR #23, berichten 053-066). Definitief leesbaar
+eindproduct — GEEN PDF meer gepland (Mark, 2026-08-08: "Geen pdf meer!!!", bevestigd bericht 066).
+Geen route/nachten/hotel/ashram/pacing. `PDF_STATUS: VERBODEN` gerespecteerd.

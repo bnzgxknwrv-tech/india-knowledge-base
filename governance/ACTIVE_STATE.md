@@ -80,13 +80,21 @@ REGIONS:
       NOT_TO_BE_MISSED-locatie
 
   BODHGAYA:
-    fase: MARK_SELECTION_KLAAR + AOAY/Top-11-audit KLAAR + reconciliatie tegen onafhankelijke
-      INDIA6-tegencontrole KLAAR — wacht op Marks beslissing over 3 MARK_DECISION_CONFLICTs
-      (051, 061, 074), daarna PRE_PDF_CONTENT.md voor een V2_-PDF
+    fase: KEUZEFASE INHOUDELIJK AFGEROND (2026-08-08, Mark rechtstreeks + INDIA6 bericht 066) —
+      MARK_SELECTION_KLAAR + AOAY/Top-11-audit KLAAR + reconciliatie KLAAR + alle drie
+      MARK_DECISION_CONFLICTs opgelost (bericht 065). GEEN V2-PDF meer — zie
+      BODHGAYA_PDF_V2_CANCELLED_BY_MARK hieronder.
+    BODHGAYA_PDF_V2_CANCELLED_BY_MARK: JA (2026-08-08) — Mark rechtstreeks in chat: "Geen pdf
+      meer!!!"; onafhankelijk bevestigd door INDIA6 (PR #23, bericht 066): "MARK-BESLUIT: GEEN
+      NIEUWE BODH GAYA-PDF MEER." Bestaande A/B/C-keuzes (incl. 051=C, 061=C, 074=C) blijven
+      leidend en ONGEWIJZIGD. Dit annuleert uitsluitend de PDF-STAP, niet het onderzoek/de
+      besluiten zelf — alle onderzoeksdata, correcties en governance-learnings blijven intact
+      voor latere route-/reisplanning.
     saturation-status: SATURATED=JA (SATURATION_REPORT_002.md + _003_ADDENDUM.md)
     INDIA_ACCEPTED_SATURATION: JA (geaccepteerd, bericht 028)
     CONTENT_QA_ACCEPTED: JA (bericht 048, gold voor V1); PDF_GO: JA (bericht 048, V1 gebouwd) —
-      voor een V2_ is een nieuw, apart PRE_PDF_CONTENT_APPROVED: JA + PDF_GO: JA vereist
+      een V2_-PDF wordt NIET meer gebouwd (zie BODHGAYA_PDF_V2_CANCELLED_BY_MARK); V1 blijft de
+      laatst geleverde, gedateerde PDF, niet vervangen
     AOAY_TOP11_AUDIT: KLAAR (bericht 054, 2026-08-08; GERECONCILIEERD 2026-08-08 na een
       onafhankelijke INDIA6-tegencontrole, bericht 058) — volledige AOAY-primaire-tekstsweep (1
       treffer: Sri Yukteswars Swami-inwijding "door de Mahant van Buddh Gaya", AOAY ch.36) + alle
@@ -123,27 +131,27 @@ REGIONS:
       of pure architectuur, geen zelfstandige bedevaarts-/heilige zwaarte); 076 (Akshayavat) =
       SUBLOCATION, samengevoegd bij 051 (Vishnupad Temple) — alle 13 uitgesloten/sublocatie-
       nummers blijven permanent gereserveerd, nooit hergebruikt
-    blockers: geen open Mark-beslissingen meer; wacht nu op INDIA's integrale eindlezing van
-      PRE_PDF_CONTENT.md (`PRE_PDF_CONTENT_APPROVED: JA`) + apart, letterlijk `PDF_GO: JA` vóórdat
-      een V2_-PDF gerenderd mag worden
+    blockers: geen — run is inhoudelijk afgerond voor de keuzefase; enige "blocker" is
+      permanent/gewenst: GEEN PDF meer bouwen (zie BODHGAYA_PDF_V2_CANCELLED_BY_MARK)
     PDF geleverd: runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/V1_BODHGAYA_KEUZE_REISGIDS.pdf
-      (19 pagina's, commit 5910439) — eerste build onder de V1_-naamgevingsregel voor deze run;
-      GEEN nieuwe A/B/C-status meer, PDF toont de OUDE open/twijfelgeval-labels — vervangen zodra
-      een V2_ wordt gebouwd, niet tussentijds herbouwd
+      (19 pagina's, commit 5910439) — eerste én LAATSTE build voor deze run; GEEN V2 meer, PDF
+      toont de OUDE open/twijfelgeval-labels en wordt NIET meer vervangen (geannuleerd door Mark)
     PRE_PDF_CONTENT geleverd: runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/PRE_PDF_CONTENT.md —
-      volledige beoogde V2-PDF-inhoud (20 kandidaatkaarten met alle 10 verplichte velden,
+      volledige, actuele kandidaatinhoud (20 kandidaatkaarten met alle 10 verplichte velden,
       beslismatrix, clusteroverzicht), bijgewerkt na reconciliatie (bericht 058) EN na de drie
-      opgeloste MARK_DECISION_CONFLICTs (bericht 065); volledig naslagdocument, klaar voor INDIA's
-      integrale eindlezing
+      opgeloste MARK_DECISION_CONFLICTs (bericht 065). Dit is het DEFINITIEVE leesbare
+      eindproduct voor Bodh Gaya — geen PDF-render meer gepland, dus geen
+      `PRE_PDF_CONTENT_APPROVED`/`PDF_GO`-stap meer nodig voor deze run.
     DELTA_REVIEW gebruikt en afgehandeld (2026-08-08, bericht 061 → besluit bericht 065 — eenmalig
       praktisch hulpmiddel voor DEZE correctieronde, GEEN permanente canonregel, zie "Ingetrokken
       canonpogingen" hieronder): runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/
       DELTA_REVIEW_2026-08-08.md diende als compacte herbeoordeling voor Mark van de 3 kandidaten
       met een open MARK_DECISION_CONFLICT (051, 061, 074) — Mark koos "oude keuze (C) behouden"
       voor alle drie; document blijft staan als afgehandeld historisch artefact
-    next_allowed_step: INDIA leest PRE_PDF_CONTENT.md volledig, geeft correcties (verwerkt in
-      hetzelfde bestand) of `PRE_PDF_CONTENT_APPROVED: JA`; pas daarna, met een apart, letterlijk
-      `PDF_GO: JA`, mag een geconsolideerde V2_ gerenderd worden
+    next_allowed_step: GEEN inhoudelijke PDF-stap meer voor Bodh Gaya. Alle onderzoeksdata,
+      A/B/C-besluiten en governance-learnings blijven intact voor latere route-/reisplanning.
+      Volgende inhoudelijke werk is een NIEUWE regio-sweep onder het V2-protocol (poorten G.1,
+      R, S, N-herordening) — niet verder sleutelen aan Bodh Gaya.
 ```
 
 ## Governance-canon (versie-onafhankelijk, deze map)
