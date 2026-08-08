@@ -54,6 +54,15 @@ Elke poort hieronder is een TOEVOEGING aan een bestaande stap uit
 `INDIA5_REGION_START_PROTOCOL.md`. Waar een poort een bestaand mechanisme al dekt, wordt dat
 expliciet vermeld in plaats van gedupliceerd.
 
+**Letteringsnoot (na INDIA6 bericht 032/tweede, gedetailleerdere versie van dezelfde
+systeemtaak):** INDIA6's eigen versie gebruikt een iets andere letter-indeling (o.a. losse
+Coverage-Plan/Lead-Register-samenvoeging onder A, Discovery Feedback Loop als eigen letter D,
+Content-QA en PDF-Gate als twee gescheiden letters M/N met elk een eigen token). Inhoudelijk zijn
+beide versies gelijk; deze versie behoudt haar eigen A-P-indeling (die al gecommit was) en dekt
+alle punten uit INDIA6's versie af — zie de mapping in de PR-reactie. Twee inhoudelijke deltas uit
+INDIA6's versie zijn hieronder wél verwerkt: een zesde Lead Register-uitkomst `SUBLOCATION` (D) en
+een apart `CONTENT_QA_ACCEPTED: JA`-token vóór `PDF_GO: JA` (M).
+
 ### A. Pre-sweep dekkingsplan (nieuw, vóór PRE-BRONS-detectoren worden geschreven)
 
 Vast, verplicht controlelijstje — elke regel-start doorloopt dit EERST, vóór de eerste detector
@@ -103,8 +112,13 @@ Eén JSONL-bestand: `runs/active/<RUN_ID>/PRE_BRONS/LEAD_REGISTER.jsonl`. Elke c
 één regel met verplichte einduitkomst:
 
 ```json
-{"lead": "...", "outcome": "MARK_WAARDIG|HARD_EXCLUDED|DUPLICATE|OUT_OF_SCOPE_HIGH_VALUE|EXPLICIET_ONBESCHIKBAAR", "candidate_id_if_any": "...", "reden": "..."}
+{"lead": "...", "outcome": "MARK_WAARDIG|HARD_EXCLUDED|DUPLICATE|SUBLOCATION|OUT_OF_SCOPE_HIGH_VALUE|EXPLICIET_ONBESCHIKBAAR", "candidate_id_if_any": "...", "reden": "..."}
 ```
+
+Toegevoegd (bijgewerkt na INDIA6 bericht 032/tweede versie): `SUBLOCATION` als eigen uitkomst,
+los van `DUPLICATE` — een lead kan een feitelijk andere, bestaande plek zijn zonder een duplicaat
+te zijn (precies het 076 Akshayavat-geval: geen dubbele plek, wel binnen dezelfde
+tempelbinnenplaats als 051, dus geen zelfstandige kandidaat maar ook geen "duplicaat").
 
 Harde regel: geen lead mag zonder eindstatus blijven staan bij sweep-afsluiting (fixt fout #10 —
 "vergeten open leads" worden zichtbaar in plaats van pas later herontdekt).
@@ -200,9 +214,13 @@ v2 — zie Deel 3).
 ### M. Content-QA vóór PDF (bevestiging/formalisering van de reeds bestaande PDF-poort)
 
 Ongewijzigd t.o.v. de al ingevoerde regel in `INDIA5-PROTOCOL.md`: CCI levert tekst/data, INDIA
-controleert de volledige inhoud, correcties gaan eerst in brondata/rapport, en pas een letterlijk
-`PDF_GO: JA` opent een PDF-build. Hier herbevestigd als vast onderdeel van de sweep-flow, niet als
-losse ad-hoc regel.
+controleert de volledige inhoud, correcties gaan eerst in brondata/rapport. Aangescherpt (INDIA6
+bericht 032/tweede versie): dit levert een apart, expliciet, letterlijk token op —
+`CONTENT_QA_ACCEPTED: JA` — LOS van `PDF_GO: JA`. Zonder dit token blijft de sweep in
+`AWAITING_CONTENT_QA`; pas daarna kan een apart, eveneens letterlijk `PDF_GO: JA` een PDF-build
+openen. Deze twee tokens zijn nooit hetzelfde besluit: content-goedkeuring zegt niets over
+toestemming om daadwerkelijk te bouwen (fixt fout #9, scherper dan de eerdere versie van dit
+voorstel).
 
 ### N. PDF (ongewijzigd)
 
@@ -223,6 +241,21 @@ bestand kunnen lezen en zonder chatgeschiedenis verder kunnen.
 Zie `india4/protocols/FOUTKLASSEN_REGISTER.md` (nieuw, apart bestand — zie Deel 3 hieronder). Bij
 elke nieuwe, generaliseerbare fout: classificeren, een preventieve poort toevoegen aan dit
 document (niet een losse ad-hoc regel ernaast), en één keer centraal documenteren.
+
+### Q. Token-/efficiencyregel (nieuw, toegevoegd na INDIA6 bericht 032/tweede versie)
+
+Dit protocol moet first-time-right verbeteren zonder een bureaucratisch monster te worden.
+
+| Gebruik wél | Vermijd |
+|---|---|
+| Matrices/JSONL-regels i.p.v. lange vrije tekst | Herhaalde brede repo-scans wanneer gerichte bestanden volstaan |
+| Korte, vaste statusvelden (bv. `SATURATED`/`ACTIVE`) | PDF-herbouw zonder nieuw `PDF_GO: JA` |
+| Validatorscripts waar mogelijk (zie ook Deel 3, ontwerpvraag 2) | Heronderzoek van al gesloten/bevestigde feiten |
+| Vaste stopcriteria (Verzadigingsdrempel, evidence-matrix) | Lange narratieve statusrapporten waar een tabel volstaat |
+| Gerichte bronqueries per openstaande lens/lead | Volledige nieuwe sweep om één deelvraag te beantwoorden |
+
+Deze regel is geen aparte controlestap maar een werkinstructie voor hoe alle poorten A-P worden
+uitgevoerd — vandaar geen eigen JSONL-bestand of token.
 
 ---
 
