@@ -88,9 +88,9 @@ REGIONS:
 
 ### Reisdoel-prioriteit: AOAY + Top-X = missiekritisch, rest = bonus (canoncorrectie 2026-08-08, bericht 044)
 
-Marks eigenlijke reisdoel is (1) AOAY (*Autobiography of a Yogi*) en (2) Top-X-personen/lijnen —
-NIET een gelijkwaardige derde categorie naast "overige bedevaartsplekken". Elke regio-sweep is
-verplicht tot een 100%-sweep van deze twee lagen (elke AOAY-plek, elke Top-X-persoon een eigen
+Marks eigenlijke reisdoel is (1) AOAY (*Autobiography of a Yogi*) en (2) de **definitieve Top-11**
+— NIET een gelijkwaardige derde categorie naast "overige bedevaartsplekken". Elke regio-sweep is
+verplicht tot een 100%-sweep van deze twee lagen (elke AOAY-plek, elke Top-11-persoon een eigen
 detector — zie `governance/SWEEP_PROTOCOL.md` poort A/E.1) VÓÓRDAT algemene bedevaarts-
 "bonusmateriaal"-kandidaten mogen meetellen als bewijs voor een sweep-brede `SATURATED=JA`-claim
 (harde volgordedwang, poort C/J). Praktisch gevolg, letterlijk zoals door Mark bedoeld: een
@@ -98,6 +98,17 @@ obscure schuur waar Yogananda aantoonbaar mediteerde staat qua keuzeprioriteit B
 bedevaartsoord met miljoenen bezoekers — geen inconsistentie, maar het punt van de hele reis. Dit
 verandert NIETS aan de MARK_WAARDIG-gate zelf (nog steeds geen quotum, geen filtering op
 verwachte A/B/C) — het bepaalt uitsluitend zoekvolgorde/-diepte en saturatie-afhankelijkheid.
+
+**Definitieve Top-11 (canoncorrectie 2026-08-08, bericht 046 — vervangt elke eerdere, bredere
+Top-X-omschrijving)**: Paramahansa Yogananda, Mahavatar Babaji, Lahiri Mahasaya, Sri Yukteswar,
+Ram Dass, Neem Karoli Baba, Anandamayi Ma, Ramakrishna, Ramana Maharshi, Hariharananda,
+Vivekananda. Apart, met een eigen expliciet gewenste Mahasamadhi-locatie in Delhi: **Shri Mataji
+Nirmala Devi** (buiten de Top-11, wel missiekritisch voor die ene locatie). **Boeddha en Krishna
+staan NIET in de Top-11** — beiden zijn te groot/alomtegenwoordig, wat kandidaat-inflatie zou
+veroorzaken (elke gewone boeddhistische/Krishna-tempel zou anders automatisch missiekritisch
+worden). Boeddha-/Krishna-kandidaten worden voortaan uitsluitend onder laag 3 beoordeeld (hoge,
+zelfstandige-zwaarte-drempel) — Mahabodhi Temple/Bodh Gaya blijft daar vanzelfsprekend kandidaat
+omdat de plek zelf die drempel overduidelijk haalt.
 
 ### Discriminatieregel MARK_WAARDIG (canoncorrectie 2026-08-08, verscherpt dezelfde dag, duurzaam te erven)
 

@@ -95,8 +95,38 @@ hierbij IRRELEVANT — zie ook poort E.1.
 **Laag 1B — Top-X, 100% prioriteitssweep.** Voor iedere Top-X-persoon systematisch alle
 betekenisvolle fysieke verbindingen zoeken: geboorte, jeugd, verblijf, meditatie, initiatie,
 leraar/leerling-ontmoeting, ashram, samadhi, onderricht, lineage-gebeurtenis, relieken,
-belangrijke reis/gebeurtenis. Voorbeeld van exact gewenste informatie: Sri Yukteswar trad in Bodh
-Gaya in de swami/sannyas-orde in de sannyas-orde (zie 046). Zo'n verbinding moet door de sweep
+belangrijke reis/gebeurtenis.
+
+**Definitieve Top-11 (canoncorrectie INDIA6 bericht 046, 2026-08-08 — vervangt elke eerdere,
+bredere Top-X-omschrijving)**:
+
+1. Paramahansa Yogananda
+2. Mahavatar Babaji
+3. Lahiri Mahasaya
+4. Sri Yukteswar
+5. Ram Dass
+6. Neem Karoli Baba
+7. Anandamayi Ma
+8. Ramakrishna
+9. Ramana Maharshi
+10. Hariharananda
+11. Vivekananda
+
+Apart van deze lijst, met een expliciet gewenste Mahasamadhi-locatie in Delhi: **Shri Mataji
+Nirmala Devi** — buiten de Top-11, maar wel met een eigen, met naam benoemde missiekritische
+locatiewens.
+
+**Boeddha en Krishna staan NIET in de Top-11** (bericht 046, expliciete correctie op een eerdere,
+te brede lezing): beiden zijn zo groot/alomtegenwoordig/religieus breed vertegenwoordigd dat een
+lage Top-X-drempel enorme kandidaat-inflatie zou veroorzaken (een gewone boeddhistische of
+Krishna-tempel zou anders automatisch een missiekritische link krijgen). Boeddha- en
+Krishna-gerelateerde kandidaten vallen daarom voortaan volledig onder **laag 3** (zie hieronder)
+— alleen behouden als de fysieke plek ZELF de hoge, zelfstandige-zwaarte-drempel haalt (zoals
+Mahabodhi Temple/Bodh Gaya dat overduidelijk doet), NOOIT alleen omdat Boeddha/Krishna er wordt
+vereerd.
+
+Voorbeeld van exact gewenste informatie voor een échte Top-11-verbinding: Sri Yukteswar trad in
+Bodh Gaya in de swami/sannyas-orde (zie 046). Zo'n verbinding moet door de sweep
 worden gevonden, ook wanneer de precieze fysieke sublocatie niet meer vaststelbaar is — scheid
 dan expliciet: gebeurtenis = verifieerbaar (JA/NEE), exacte fysieke plek = wel/niet verifieerbaar
 (los van elkaar vastgelegd, nooit stilzwijgend samengevoegd tot één "onbevestigd").
@@ -104,7 +134,7 @@ dan expliciet: gebeurtenis = verifieerbaar (JA/NEE), exacte fysieke plek = wel/n
 | Lens | Laag | Verplicht overwogen? |
 |---|---|---|
 | AOAY/Kriya/Yogananda/Sri Yukteswar/Giri-lijn (100% sweepverplichting, zie Laag 1A) | 1 (missiekritisch) | ☐ |
-| Top-X: per Top-X-persoon een eigen detector (100% sweepverplichting, zie Laag 1B) | 1 (missiekritisch) | ☐ |
+| Top-11 (Yogananda, Babaji, Lahiri Mahasaya, Sri Yukteswar, Ram Dass, Neem Karoli Baba, Anandamayi Ma, Ramakrishna, Ramana Maharshi, Hariharananda, Vivekananda) + Shri Mataji Nirmala Devi apart: elk een eigen detector (100% sweepverplichting, zie Laag 1B; Boeddha/Krishna vallen NIET hieronder, zie laag 2/E.1) | 1 (missiekritisch) | ☐ |
 | Boeddha-biografie: geboorte/verlichting/vóór-verlichting/NA-verlichting (leermomenten)/overlijden | 2 (bonus) | ☐ |
 | Levende praktijk: kloosters, tempels, ashrams, meditatiecentra, retraiteplekken | 2 (bonus) | ☐ |
 | Alle relevante internationale tradities/kloosters (niet vooraf beperkt tot een sublijst) | 2 (bonus) | ☐ |
@@ -207,8 +237,12 @@ sweepverplichting en volgordedwang). Voor iedere lead, in deze volgorde:
 2. **TOP X = MAXIMALE PERSOONLIJKE ZWAARTE, MISSIEKRITISCH.** Zonder AOAY-link: breed zoeken naar
    betekenisvolle fysieke plekken rond geboorte, jeugd, verblijf, meditatie, initiatie,
    leraar/leerling-ontmoeting, ashram, samadhi, onderricht, lineage-gebeurtenis, relieken,
-   belangrijke reis/gebeurtenis van Marks Top X personen/lijnen. Lage drempel voor tonen — niet
-   beperken tot beroemde of drukbezochte plekken. **Gebeurtenis vs. exacte plek, apart vastleggen
+   belangrijke reis/gebeurtenis van de **definitieve Top-11** (zie poort A: Yogananda, Babaji,
+   Lahiri Mahasaya, Sri Yukteswar, Ram Dass, Neem Karoli Baba, Anandamayi Ma, Ramakrishna, Ramana
+   Maharshi, Hariharananda, Vivekananda — plus Shri Mataji Nirmala Devi apart, met haar eigen
+   Mahasamadhi-locatiewens). **Boeddha en Krishna staan NIET in deze lijst** (bericht 046) — hun
+   kandidaten vallen onder laag 3. Lage drempel voor tonen binnen de Top-11 — niet beperken tot
+   beroemde of drukbezochte plekken. **Gebeurtenis vs. exacte plek, apart vastleggen
    (bericht 044)**: als een betekenisvolle verbinding wél verifieerbaar is maar de precieze
    fysieke sublocatie niet meer vaststelbaar is (bijvoorbeeld: Sri Yukteswar trad in Bodh Gaya in
    de sannyas-orde, exacte plek binnen Bodh Gaya onbekend — zie 046), wordt dit ALTIJD getoond met
@@ -234,6 +268,12 @@ sweepverplichting en volgordedwang). Voor iedere lead, in deze volgorde:
      beeld/relict/graf/grot/heiligdom, een belangrijke heilige persoon, een zeer oude levende
      traditie, uitzonderlijke religieuze/historische zwaarte, of een plek waarheen ook mensen
      buiten de eigen traditie bewust reizen.
+   - **Boeddha- en Krishna-kandidaten vallen hier expliciet onder** (bericht 046): een kleine
+     boeddhistische tempel of gewone Krishna-tempel wordt NIET opgenomen alleen omdat Boeddha/
+     Krishna er wordt vereerd; een plek als Mahabodhi Temple/Bodh Gaya blijft vanzelfsprekend
+     kandidaat omdat de fysieke plek zelf uitzonderlijke internationale bedevaarts-/spirituele
+     zwaarte heeft; een uitzonderlijk groot Krishna-bedevaartsoord blijft eveneens kandidaat als
+     de plek zelf de hoge drempel haalt.
    - Een gewone tempel/heiligdom van eender welke traditie, puur aanwezig voor categoriedekking,
      is NIET MARK_WAARDIG; een heiligdom van eender welke traditie (groot of obscuur) mét
      aantoonbaar zware, zelfstandige bedevaartsbetekenis WEL.
