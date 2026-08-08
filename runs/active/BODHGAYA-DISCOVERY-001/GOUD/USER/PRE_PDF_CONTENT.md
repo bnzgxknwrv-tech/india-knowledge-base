@@ -3,9 +3,10 @@
 *Status: PRE_PDF_CONTENT — nog GEEN PDF. Dit bestand is de volledige, definitieve inhoud zoals
 die straks in de V2-PDF verschijnt. Wacht op integrale controle en `PRE_PDF_CONTENT_APPROVED: JA`
 + een apart, letterlijk `PDF_GO: JA` (governance/SWEEP_PROTOCOL.md poort M) vóórdat gerenderd
-wordt. Drie kandidaten (051, 061, 074) hebben een open `MARK_DECISION_CONFLICT` — zie hun kaart en
-de laatste pagina. (Bijgewerkt 2026-08-08 na INDIA6-tegencontrole bericht 058 — twee correcties:
-de Ramakrishna-claim bij 046 bleek onjuist en is verplaatst naar 051; de Ram Dass-link bij 074 is
+wordt. Drie kandidaten (051, 061, 074) hadden een `MARK_DECISION_CONFLICT` — **opgelost op
+2026-08-08 (bericht 065): Mark bevestigt C voor alle drie, geen wijziging.** Zie hun kaart en de
+laatste pagina. (Bijgewerkt 2026-08-08 na INDIA6-tegencontrole bericht 058 — twee correcties: de
+Ramakrishna-claim bij 046 bleek onjuist en is verplaatst naar 051; de Ram Dass-link bij 074 is
 datumgecorrigeerd en nu onzeker gedeeld met 061.)*
 
 ---
@@ -24,13 +25,13 @@ Yukteswar → Yogananda) formeel in de Swami Orde werd ingewijd. Je reisdoel hie
 - Sri Yukteswar (zie boven) → **046**
 - Vivekananda bezocht Bodh Gaya tweemaal (eerste daad na sannyas én zijn laatste reis) → **046**
 - Anandamayi Ma woonde Arti bij in Vishnupad Temple en bezocht Bodh Gaya, 18 okt. 1956 → **051**
-  (⚠ MARK_DECISION_CONFLICT — zie hieronder)
+  (conflict opgelost — bericht 065: C bevestigd)
 - Ramakrishna: geen eigen bezoek (hij weigerde bewust), maar zijn vader Kshudirams naamgevende
   Gadadhar/Vishnu-visioen tijdens diens Gaya-pelgrimage (1835) → **051**
-  (⚠ MARK_DECISION_CONFLICT, zelfde kandidaat als Anandamayi Ma hierboven)
+  (zelfde kandidaat als Anandamayi Ma hierboven, conflict opgelost — bericht 065: C bevestigd)
 - Ram Dass studeerde Vipassana bij S.N. Goenka, januari 1971 — locatie onzeker tussen twee
   cursusgebouwen → **061** óf **074** (niet definitief te onderscheiden)
-  (⚠ MARK_DECISION_CONFLICT op BEIDE — zie hieronder)
+  (conflict op BEIDE opgelost — bericht 065: C bevestigd voor beide)
 
 Daarnaast een niet-promoveerbare lineage-context bij **046**: een Neem Karoli Baba-devotee
 (Krishna Das) ontving hier een Bodhi-boomzaad van een oude lama — géén directe, fysieke NKB-link
@@ -49,12 +50,12 @@ ingetrokken; de correcte Ramakrishna-link (via zijn vader) staat nu bij 051.
 070, 071, 072, 073, 077, 078 — elk hieronder met een eigen, eerlijke kaart. Landendekking of
 religie-vertegenwoordiging is nooit de reden dat ze hier staan (zie E.1-canon) — elk heeft een
 eigen, zelfstandige reden. (061 staat nu bij de missiekritische Top-11-treffers hierboven, niet
-meer hier — zie de conflictmelding.)
+meer hier — zie de toelichting daar.)
 
-**⚠ Drie open beslissingen vóór deze gids definitief is:** 046-049 zijn vastgelegd (A). Voor de
-overige 16 heb je al eerder een A/B/C gekozen (bericht 053) — maar de audit + tegencontrole
-hierboven vond bij **051**, **061** en **074** een Top-11-link die je nog niet kende toen je koos.
-Die keuzes zijn NIET automatisch veranderd. Zie hun kaarten en de laatste pagina.
+**Drie eerder open beslissingen — inmiddels opgelost (bericht 065):** 046-049 zijn vastgelegd (A).
+Voor de overige 16 had je al eerder een A/B/C gekozen (bericht 053) — de audit + tegencontrole
+vond bij **051**, **061** en **074** een Top-11-link die je nog niet kende toen je koos. Mark heeft
+alle drie op C bevestigd, geen wijziging. Zie hun kaarten en de laatste pagina.
 
 ---
 
@@ -67,11 +68,11 @@ Die keuzes zijn NIET automatisch veranderd. Zie hun kaarten en de laatste pagina
 | 048 | Dungeshwari Cave Temples | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Geen (eigen rit) | 45-60 min (schatting) | Vrij toegankelijk | De zes jaar ascese | **A** |
 | 049 | Great Buddha Statue | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Bij Mahabodhi | 20-30 min (schatting) | Vrij toegankelijk | Grootste Boeddhabeeld van India | **A** |
 | 050 | Archaeological Museum | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Bij Mahabodhi | 30-45 min (schatting) | Vrij (entreekaartje) | Originele Bodhi-boom-omheining | **B** |
-| 051 | Vishnupad Temple | Top-11 (Anandamayi Ma + Ramakrishna/vader Kshudiram) ⚠ conflict | Gaya-stad | 30-45 min (schatting) | Beperkt (niet-hindoe: alleen omgeving) | Voetspoor van Vishnu | **C** |
+| 051 | Vishnupad Temple | Top-11 (Anandamayi Ma + Ramakrishna/vader Kshudiram) — C bevestigd | Gaya-stad | 30-45 min (schatting) | Beperkt (niet-hindoe: alleen omgeving) | Voetspoor van Vishnu | **C** |
 | 052 | Tergar Monastery | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Combineerbaarheid onbekend na GEO-controle | 30-60 min, veel langer tijdens Monlam (schatting) | Onzeker buiten festival | Karmapa-klooster | **B** |
 | 058 | Japanese Temple/Indosan Nippon | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Combineerbaarheid onbekend na GEO-controle | 20-30 min (schatting) | Vrij, gratis | Vredespagode-stichter Fujii | **C** |
 | 060 | Palyul Namdroling Monastery | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Bij Great Buddha Statue (049) | 20-30 min (schatting) | Vrij | Nyingma, genoemd door Dalai Lama | **C** |
-| 061 | Burmese Vihara | Top-11 (Ram Dass, onzeker met 074) ⚠ conflict | Bij Mahabodhi | 20-30 min (schatting) | Vrij | Pioniersklooster, rieten Boeddhabeeld | **C** |
+| 061 | Burmese Vihara | Top-11 (Ram Dass, onzeker met 074) — C bevestigd | Bij Mahabodhi | 20-30 min (schatting) | Vrij | Pioniersklooster, rieten Boeddhabeeld | **C** |
 | 062 | Mahabodhi Society of India | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Bij Mahabodhi | 15-20 min (schatting) | Vrij | Organisatie achter herstel van 046 | **C** |
 | 063 | Padmasambhava Grand Temple | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Combineerbaarheid onbekend na GEO-controle | 30-45 min, veel langer tijdens Monlam (schatting) | Onbevestigd buiten festival | Nieuw Nyingma-complex | **C** |
 | 068 | Shechen Monastery | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Bij Mahabodhi | 20-30 min (schatting) | Vrij verwacht | Dilgo Khyentse Rinpoche-lijn | **C** |
@@ -79,7 +80,7 @@ Die keuzes zijn NIET automatisch veranderd. Zie hun kaarten en de laatste pagina
 | 071 | Pretshila Hill | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Gaya-stad | 45-60 min (schatting, incl. trap) | Vrij (geen verbod gevonden) | Pind-daan-heuvel, Yama-tempel | **C** |
 | 072 | Brahmayoni Hill/Gayasisa | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Combineerbaarheid onbekend na GEO-controle | 45-60 min (schatting, incl. klim) | Vrij | Waar Boeddha de Vuurpreek hield | **C** |
 | 073 | Jagannath Temple | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Bij Mahabodhi | 15-20 min (schatting) | Vrij (tempel-specifiek geverifieerd) | Krishna-tempel 25 voet van 046 | **B** |
-| 074 | Dhamma Bodhi/Samanvaya Ashram | Top-11 (Ram Dass, onzeker met 061) ⚠ conflict | Bij Mahabodhi | N.v.t. zonder cursus (10 dagen) | Alleen volledige cursus | Eerste Vipassana-cursus van Bihar | **C** |
+| 074 | Dhamma Bodhi/Samanvaya Ashram | Top-11 (Ram Dass, onzeker met 061) — C bevestigd | Bij Mahabodhi | N.v.t. zonder cursus (10 dagen) | Alleen volledige cursus | Eerste Vipassana-cursus van Bihar | **C** |
 | 077 | Bitho Sharif Dargah | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Combineerbaarheid onbekend na GEO-controle | 30-45 min (schatting) | Algemeen dargah-patroon (niet plek-specifiek bevestigd) | Regionaal Urs-festival | **C** |
 | 078 | Gurdwara Sri Guru Tegh Bahadur Ji | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Gaya-stad | 20-30 min (schatting) | Vrij (actieve gurdwara) | Guru-bezoek-overlevering | **C** |
 
@@ -227,7 +228,8 @@ bevestigde GPS-marker) — daarom een tekstuele clusterlijst i.p.v. een gegiste 
 
 ### 051 — Vishnupad Temple, Gaya
 
-**⚠ MARK_DECISION_CONFLICT**: TWEE Top-11-links pas ontdekt ná jouw C-keuze — Anandamayi Ma
+**MARK_DECISION_CONFLICT — OPGELOST (bericht 065): Mark bevestigt C, geen wijziging.** TWEE
+Top-11-links pas ontdekt ná jouw C-keuze — Anandamayi Ma
 (bericht 054) én, na tegencontrole (bericht 058), ook een Ramakrishna-link (via zijn vader). Niet
 zelfstandig door CCI gewijzigd. Zie laatste pagina.
 
@@ -261,7 +263,7 @@ zelfstandig door CCI gewijzigd. Zie laatste pagina.
     "bezoek aan Bodh Gaya" dezelfde dag is niet aan een specifieke sublocatie gekoppeld (los van
     haar bevestigde Vishnupad-Arti hier).
 
-**MARK: C** (vastgelegd, MARK_DECISIONS_2026-08-08.jsonl) — **⚠ conflict, zie boven**
+**MARK: C** (bevestigd, MARK_DECISIONS_2026-08-08_DELTA.jsonl) — **conflict opgelost, zie boven**
 
 ---
 
@@ -336,7 +338,8 @@ zelfstandig door CCI gewijzigd. Zie laatste pagina.
 
 ### 061 — Burmese Vihara
 
-**⚠ MARK_DECISION_CONFLICT (nieuw, ontdekt 2026-08-08 tijdens INDIA6-tegencontrole bericht 058)**:
+**MARK_DECISION_CONFLICT — OPGELOST (bericht 065): Mark bevestigt C, geen wijziging.**
+Historie (ontdekt 2026-08-08 tijdens INDIA6-tegencontrole bericht 058):
 Ram Dass-link (Top-11 #5) pas ontdekt ná jouw C-keuze, en zelfs nu nog onzeker of dit gebouw of
 074 de juiste plek is. Niet zelfstandig door CCI gewijzigd. Zie laatste pagina.
 
@@ -365,7 +368,7 @@ Ram Dass-link (Top-11 #5) pas ontdekt ná jouw C-keuze, en zelfs nu nog onzeker 
 10. **ECHTE ONZEKERHEID**: BRON-TWIJFEL — welk van de twee cursusgebouwen (061 of 074) Ram Dass'
     daadwerkelijke locatie was, is met de beschikbare bronnen niet op te lossen.
 
-**MARK: C** (vastgelegd) — **⚠ conflict, zie boven**
+**MARK: C** (bevestigd, MARK_DECISIONS_2026-08-08_DELTA.jsonl) — **conflict opgelost, zie boven**
 
 ---
 
@@ -531,7 +534,8 @@ Ram Dass-link (Top-11 #5) pas ontdekt ná jouw C-keuze, en zelfs nu nog onzeker 
 
 ### 074 — International Meditation Centre / Dhamma Bodhi (Vipassana, S.N. Goenka-lijn)
 
-**⚠ MARK_DECISION_CONFLICT (GECORRIGEERD 2026-08-08 na INDIA6-tegencontrole bericht 058)**: Ram
+**MARK_DECISION_CONFLICT — OPGELOST (bericht 065): Mark bevestigt C, geen wijziging.**
+Historie (GECORRIGEERD 2026-08-08 na INDIA6-tegencontrole bericht 058): Ram
 Dass-link (Top-11 #5) pas ontdekt ná jouw C-keuze — en datum + exacte locatie zijn nu bijgesteld,
 zie punt 1. Niet zelfstandig door CCI gewijzigd. Zie laatste pagina.
 
@@ -561,7 +565,7 @@ zie punt 1. Niet zelfstandig door CCI gewijzigd. Zie laatste pagina.
     Plus BRON-TWIJFEL: welk van de twee cursusgebouwen (061 of 074) Ram Dass' daadwerkelijke
     locatie was, is met de beschikbare bronnen niet op te lossen.
 
-**MARK: C** (vastgelegd, MARK_DECISIONS_2026-08-08.jsonl) — **⚠ conflict, zie boven**
+**MARK: C** (bevestigd, MARK_DECISIONS_2026-08-08_DELTA.jsonl) — **conflict opgelost, zie boven**
 
 ---
 
@@ -618,22 +622,24 @@ Alle 20 kandidaten hebben een vastgelegd besluit (bericht 053, `MARK_DECISIONS_2
 **B**: 050, 052, 070, 073
 **C**: 051, 058, 060, 061, 062, 063, 068, 071, 072, 074, 077, 078
 
-**⚠ Drie open MARK_DECISION_CONFLICTs** (AOAY/Top-11-audit, bericht 054; gereconcilieerd na
-INDIA6-tegencontrole bericht 058 — niet zelfstandig door CCI gewijzigd):
-- **051 Vishnupad Temple** (huidig: C) — TWEE links: Anandamayi Ma (Top-11) bezocht deze tempel,
+**Drie MARK_DECISION_CONFLICTs — allemaal OPGELOST (bericht 065, 2026-08-08)** (AOAY/Top-11-audit,
+bericht 054; gereconcilieerd na INDIA6-tegencontrole bericht 058; Mark bevestigt C op alle drie via
+de compacte DELTA-review, `MARK_DECISIONS_2026-08-08_DELTA.jsonl` — niet zelfstandig door CCI
+gewijzigd):
+- **051 Vishnupad Temple** (C bevestigd) — TWEE links: Anandamayi Ma (Top-11) bezocht deze tempel,
   18-10-1956; plus Ramakrishna (Top-11) via het naamgevende Gadadhar/Vishnu-visioen van zijn vader
   Kshudiram (1835). (De eerdere claim dat Ramakrishna zelf Bodh Gaya bezocht, bij kandidaat 046,
   bleek onjuist en is ingetrokken — de correcte link staat hier.)
-- **061 Burmese Vihara** (huidig: C) — Ram Dass (Top-11) studeerde mogelijk hier Vipassana onder
+- **061 Burmese Vihara** (C bevestigd) — Ram Dass (Top-11) studeerde mogelijk hier Vipassana onder
   S.N. Goenka, januari 1971 — gedeelde onzekerheid met 074, niet definitief op te lossen.
-- **074 Dhamma Bodhi/Samanvaya Ashram** (huidig: C) — Ram Dass (Top-11) studeerde mogelijk hier
+- **074 Dhamma Bodhi/Samanvaya Ashram** (C bevestigd) — Ram Dass (Top-11) studeerde mogelijk hier
   Vipassana, januari 1971 (datum gecorrigeerd t.o.v. eerdere versie "1969-70") — gedeelde
   onzekerheid met 061.
 
-Alle drie blijven C totdat jij/INDIA6 expliciet anders beslist. Niets in dit document verandert
-dat automatisch.
+Alle drie blijven C, expliciet door Mark bevestigd — geen automatische wijziging, geen verdere
+open beslissing meer op deze drie.
 
 ---
-Geschreven door: CCI, op verzoek van INDIA6 (PR #23, berichten 053-058). Dit is PRE_PDF_CONTENT —
+Geschreven door: CCI, op verzoek van INDIA6 (PR #23, berichten 053-065). Dit is PRE_PDF_CONTENT —
 GEEN PDF. Wacht op `PRE_PDF_CONTENT_APPROVED: JA` + apart `PDF_GO: JA`. Geen route/nachten/
 hotel/ashram/pacing. `PDF_STATUS: VERBODEN` gerespecteerd.

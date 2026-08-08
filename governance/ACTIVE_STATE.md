@@ -102,48 +102,48 @@ REGIONS:
       matrix: runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/AOAY_TOP11_AUDIT.md
     Mark-selection-status: MARK_SELECTION_KLAAR: JA (bericht 053, 2026-08-08). A: 046, 047, 048,
       049. B: 050, 052, 070, 073. C: 051, 058, 060, 061, 062, 063, 068, 071, 072, 074, 077, 078.
-      Alle 20 nummers LOCKED_BY_MARK — geen open kandidaten meer, BEHALVE 3 open
-      MARK_DECISION_CONFLICTs hieronder.
-    MARK_DECISION_CONFLICTs (open, niet zelfstandig door CCI opgelost): **051** Vishnupad Temple
-      (huidig: C) — TWEE Top-11-links pas ontdekt na de C-keuze: Anandamayi Ma (Top-11 #7) en
-      Ramakrishna (Top-11 #8, via zijn vaders visioen). **061** Burmese Vihara (huidig: C) —
-      Ram Dass-link (Top-11 #5) pas ontdekt tijdens de reconciliatie, LOCATIE ONZEKER (zie 074).
-      **074** Dhamma Bodhi/Samanvaya Ashram (huidig: C) — Ram Dass-link (Top-11 #5), datum
-      gecorrigeerd naar januari 1971, LOCATIE ONZEKER, gedeeld met 061. Alle drie expliciet
-      gemarkeerd in MARK_SELECTION_REPORT.md en PRE_PDF_CONTENT.md; wacht op Mark/INDIA6-beslissing
-      of dit de bestaande C-keuzes verandert. Geen apart "Gadadhar Vishnu Temple"-nummer nodig
-      (dit IS 051, geen aparte fysieke plek) — expliciet onderzocht en afgewezen.
+      Alle 20 nummers LOCKED_BY_MARK — geen open kandidaten, geen open MARK_DECISION_CONFLICTs meer
+      (zie hieronder, opgelost bericht 065).
+    MARK_DECISION_CONFLICTs — ALLE DRIE OPGELOST (bericht 065, 2026-08-08, via de compacte
+      DELTA-review): **051** Vishnupad Temple — C bevestigd, ondanks TWEE nieuwe Top-11-links
+      (Anandamayi Ma, Top-11 #7; Ramakrishna, Top-11 #8, via zijn vaders visioen). **061** Burmese
+      Vihara — C bevestigd, ondanks mogelijke Ram Dass-link (Top-11 #5, LOCATIE ONZEKER, zie 074).
+      **074** Dhamma Bodhi/Samanvaya Ashram — C bevestigd, Ram Dass-link (datum gecorrigeerd naar
+      januari 1971), LOCATIE ONZEKER, gedeeld met 061. Vastgelegd in
+      runs/active/BODHGAYA-DISCOVERY-001/MARK_DECISIONS_2026-08-08_DELTA.jsonl; banners in
+      MARK_SELECTION_REPORT.md en PRE_PDF_CONTENT.md bijgewerkt naar "OPGELOST". Geen apart
+      "Gadadhar Vishnu Temple"-nummer nodig (dit IS 051, geen aparte fysieke plek) — expliciet
+      onderzocht en afgewezen.
     protected A/B/C-besluiten: 046-049 = A (bron: MARK_DECISIONS_2026-08-05.jsonl); 050-078-groep
-      zie hierboven (bron: runs/active/BODHGAYA-DISCOVERY-001/MARK_DECISIONS_2026-08-08.jsonl,
-      LOCKED_BY_MARK, mag niet stilzwijgend heropend worden — alleen expliciet via de 3
-      MARK_DECISION_CONFLICTs hierboven)
+      zie hierboven (bron: runs/active/BODHGAYA-DISCOVERY-001/MARK_DECISIONS_2026-08-08.jsonl +
+      MARK_DECISIONS_2026-08-08_DELTA.jsonl, LOCKED_BY_MARK, mag niet stilzwijgend heropend worden)
     reserved/excluded nummers: 069, 075 = EXCLUDED_HARD_REASON (eerder); 053, 054, 055, 056, 057,
       059, 064, 065, 066, 067 = EXCLUDED_HARD_REASON (2026-08-08, retroactieve E.1-canontoets,
       INDIA6 bericht 042 — enige resterende onderscheiding was land-/traditievertegenwoordiging
       of pure architectuur, geen zelfstandige bedevaarts-/heilige zwaarte); 076 (Akshayavat) =
       SUBLOCATION, samengevoegd bij 051 (Vishnupad Temple) — alle 13 uitgesloten/sublocatie-
       nummers blijven permanent gereserveerd, nooit hergebruikt
-    blockers: wacht op Marks keuze (bericht 061) over de 3 kandidaten met een open
-      MARK_DECISION_CONFLICT (051, 061, 074) vóórdat PRE_PDF_CONTENT.md definitief kan worden
-      opgesteld/vrijgegeven voor een V2_-PDF
+    blockers: geen open Mark-beslissingen meer; wacht nu op INDIA's integrale eindlezing van
+      PRE_PDF_CONTENT.md (`PRE_PDF_CONTENT_APPROVED: JA`) + apart, letterlijk `PDF_GO: JA` vóórdat
+      een V2_-PDF gerenderd mag worden
     PDF geleverd: runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/V1_BODHGAYA_KEUZE_REISGIDS.pdf
       (19 pagina's, commit 5910439) — eerste build onder de V1_-naamgevingsregel voor deze run;
       GEEN nieuwe A/B/C-status meer, PDF toont de OUDE open/twijfelgeval-labels — vervangen zodra
       een V2_ wordt gebouwd, niet tussentijds herbouwd
     PRE_PDF_CONTENT geleverd: runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/PRE_PDF_CONTENT.md —
       volledige beoogde V2-PDF-inhoud (20 kandidaatkaarten met alle 10 verplichte velden,
-      beslismatrix, clusteroverzicht, de 3 MARK_DECISION_CONFLICTs zichtbaar gemarkeerd),
-      bijgewerkt na reconciliatie (bericht 058); volledig naslagdocument
-    DELTA_REVIEW geleverd (2026-08-08, bericht 061 — eenmalig praktisch hulpmiddel voor DEZE
-      correctieronde, GEEN permanente canonregel, zie "Ingetrokken canonpogingen" hieronder):
-      runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/DELTA_REVIEW_2026-08-08.md — compacte
-      herbeoordeling voor Mark van alleen de 3 kandidaten met een open MARK_DECISION_CONFLICT
-      (051, 061, 074); 046 bewust niet meegenomen (al protected/onvoorwaardelijk A op
-      onafhankelijke gronden, de ingetrokken Ramakrishna-claim kan die uitkomst niet raken);
-      overige 16 blijven LOCKED_BY_MARK, niet opnieuw aangeboden
-    next_allowed_step: Mark leest DELTA_REVIEW_2026-08-08.md (kort, alleen 3 kandidaten) en geeft
-      per kandidaat nieuwe A/B/C of "oude keuze behouden"; pas daarna, met `PRE_PDF_CONTENT_APPROVED:
-      JA` + apart, letterlijk `PDF_GO: JA`, mag een geconsolideerde V2_ gerenderd worden
+      beslismatrix, clusteroverzicht), bijgewerkt na reconciliatie (bericht 058) EN na de drie
+      opgeloste MARK_DECISION_CONFLICTs (bericht 065); volledig naslagdocument, klaar voor INDIA's
+      integrale eindlezing
+    DELTA_REVIEW gebruikt en afgehandeld (2026-08-08, bericht 061 → besluit bericht 065 — eenmalig
+      praktisch hulpmiddel voor DEZE correctieronde, GEEN permanente canonregel, zie "Ingetrokken
+      canonpogingen" hieronder): runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/
+      DELTA_REVIEW_2026-08-08.md diende als compacte herbeoordeling voor Mark van de 3 kandidaten
+      met een open MARK_DECISION_CONFLICT (051, 061, 074) — Mark koos "oude keuze (C) behouden"
+      voor alle drie; document blijft staan als afgehandeld historisch artefact
+    next_allowed_step: INDIA leest PRE_PDF_CONTENT.md volledig, geeft correcties (verwerkt in
+      hetzelfde bestand) of `PRE_PDF_CONTENT_APPROVED: JA`; pas daarna, met een apart, letterlijk
+      `PDF_GO: JA`, mag een geconsolideerde V2_ gerenderd worden
 ```
 
 ## Governance-canon (versie-onafhankelijk, deze map)

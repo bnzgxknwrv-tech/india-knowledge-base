@@ -312,6 +312,24 @@ Akshayavat-nummer (076) niet vooraf gebeurde.
 Regel: "onzeker" wordt altijd expliciet als onzeker geschreven — nooit stilzwijgend opgevuld met
 de meest waarschijnlijke aanname.
 
+**G.1 Primaire-bronverificatie voor AOAY/Top-11-hoofdclaims (verplicht, canoncorrectie, INDIA6
+berichten 063/065, 2026-08-08 — foutprecedent: de ingetrokken Ramakrishna-claim bij Bodh Gaya)**:
+elke AOAY- of Top-11-hoofdclaim mag pas als bevestigd gelden nadat de volgende harde regel is
+toegepast, NIET pas bij een latere controle:
+- nooit vertrouwen op een zoekresultaat/snippet/samenvatting als enige basis;
+- de exacte geciteerde brontekst rechtstreeks openen en lezen (WebFetch/download), niet
+  parafraseren op basis van een AI-samenvatting;
+- primaire/officiële bron gebruiken waar die bestaat; formuleer dit nooit als "primaire bron
+  verplicht" wanneer voor die claim geen primaire bron bestaat — gebruik dan de sterkste
+  betrouwbare secundaire bron, expliciet als zodanig gelabeld;
+- gebeurtenis en exacte fysieke locatie altijd apart verifiëren (`gebeurtenis_geverifieerd` vs.
+  `exacte_fysieke_locatie_geverifieerd`, zie ook poort E.1) — nooit het één als bewijs voor het
+  ander laten doorgaan.
+
+Dit voorkomt specifiek de foutklasse waarbij een claim al in de eerste sweep aanwezig is, feitelijk
+onjuist is, en zonder deze stap een dubbele sweep (poort R) kan overleven omdat Sweep B toevallig
+niet precies die claim herhaalt.
+
 ### H. Toegankelijkheid vóór keuzerapport (nieuw, verplicht veld)
 
 Elke kandidaat krijgt, vóór opname in het keuzerapport, een ingevuld veld: "wat kan Mark als
@@ -346,12 +364,17 @@ terug naar `ACTIVE`).
 
 Geen vrije-tekst-conclusie zonder deze matrix. Dit is de directe fix voor fout #10.
 
-### K. Onafhankelijke INDIA-controle (bevestiging van reeds gegroeide praktijk, nu geformaliseerd)
+### K. [OPGEGAAN IN POORT R, 2026-08-08, INDIA6 bericht 065, na expliciete equivalentiecheck]
 
-Na een CCI-`SATURATED=JA` met evidence-matrix: INDIA (huidige regisseur) controleert de matrix
-zelf, niet alleen de conclusie. Pas na een expliciet `INDIA_ACCEPTED_SATURATION: JA` (analoog aan
-`PDF_GO: JA`) opent de keuzerapportfase. Zonder dat token blijft de sweep in
-`AWAITING_INDIA_REVIEW`.
+Poort K bestond uit twee onderdelen. (1) INDIA controleert CCI's evidence-matrix zelf (niet alleen
+de conclusie) — dit is nu een letterlijke sub-eis in poort R's reconciliatiegate hieronder, dus
+GEEN verloren bescherming. (2) Het token `INDIA_ACCEPTED_SATURATION: JA` — dit token blijft
+ONGEWIJZIGD bestaan en wordt nog steeds gecheckt door `preflight_validator.py --phase discovery`;
+alleen de bijbehorende poorttekst is verplaatst naar poort R, omdat een echte onafhankelijke
+tweede sweep (Sweep B) een strenger substituut is voor "INDIA leest de matrix" — wie een volledige
+zelfstandige sweep doet, heeft de matrix per definitie ook inhoudelijk getoetst. Geen aparte
+poorttitel meer nodig; deze regel blijft alleen als vindplaats-verwijzing staan zodat oudere
+verwijzingen naar "poort K" niet in het niets verwijzen.
 
 ### L. Keuzerapport — verbod op voorspelde A/B/C (nieuw, met concrete verboden lijst)
 
@@ -384,6 +407,16 @@ relaties asymmetrisch zijn; een kandidaat slechts een deel van een aantoonbaar c
 thematische verwantschap als GEO-combinatie gepresenteerd wordt; of combineerbaarheid nog niet
 onderzocht is (dat laatste moet expliciet gemeld worden, niet stilzwijgend blijven staan als
 "nog niet onderzocht").
+
+**Machineleesbare canonieke relatie (canoncorrectie, INDIA6 bericht 065, 2026-08-08)**: geen grote
+pairwise matrix nodig, maar wél een machineleesbaar veld per kandidaat-record (bijvoorbeeld
+`combine_with: [display_ids]`) als de canonieke bron van waarheid; de mensleesbare
+PDF-combineerbaarheidstekst wordt daaruit afgeleid, niet andersom. Een symmetrie-validator
+(`governance/scripts/preflight_validator.py`) controleert dit veld automatisch: voor elk
+`display_id` X dat kandidaat Y in `combine_with` noemt, moet Y's eigen record X terugnoemen.
+Ontbreekt het veld bij een run (zoals bij de bestaande Bodh Gaya-tekstvelden, nog niet
+gemigreerd), dan rapporteert de validator `NIET_CONTROLEERBAAR`, geen valse `FAIL`/`OK` — nieuwe
+runs vullen dit veld voortaan direct in.
 
 ### M. Content-QA vóór PDF — verplichte PRE_PDF_CONTENT-stap (aangescherpt, INDIA6 bericht 055, 2026-08-08)
 
@@ -429,6 +462,13 @@ is een presentatie van al goedgekeurde inhoud, nooit zelf een onderzoeksstap of 
 5. Laatste pagina: compact A/B/C-invuloverzicht (of, na een keuzeronde, een overzicht van de
    vastgelegde besluiten).
 
+**Beslissingsblok bovenaan elke kaart (canoncorrectie, INDIA6 bericht 065, 2026-08-08)**: velden 1
+(`JOUW LINK`), 2 (`OBJECTIEVE SPIRITUELE/PELGRIMS-ZWAARTE`) en, indien reeds bekend, de huidige
+`MARK: A/B/C`-status (of een leeg keuzevakje vóór een keuzeronde) staan als compact, in 5-10
+seconden scanbaar blok BOVENAAN elke kandidaatkaart, vóór de overige, narratieve velden. Geen
+nieuwe velden — alleen volgorde. De overige verplichte velden (3-10 hieronder) blijven zichtbaar en
+volledig, gewoon eronder.
+
 **Verplichte velden per kandidaatkaart (minimaal):**
 1. `JOUW LINK` — AOAY (exacte passage/gebeurtenis) OF Top-11 (naam + exacte link) OF
    `GEEN AOAY/TOP-11-LINK — zelfstandig pelgrims-/spiritueel zwaargewicht`. Nooit generiek "Kriya-/
@@ -445,7 +485,10 @@ is een presentatie van al goedgekeurde inhoud, nooit zelf een onderzoeksstap of 
 8. `REISPERIODE-RELEVANTIE` — Marks daadwerkelijke reisperiode is **18 december 2026 t/m 21
    januari 2027** (vastgelegd in `governance/ACTIVE_STATE.md`). Keuze-relevante festivals/
    evenementen/toegang worden hiertegen gecontroleerd, niet tegen een oud/generiek festivaljaar:
-   `evenement tijdens reisperiode: JA/NEE/ONBEKEND NA ONDERZOEK`.
+   `evenement tijdens reisperiode: JA/NEE/ONBEKEND NA ONDERZOEK`. Expliciete regel (canoncorrectie,
+   INDIA6 bericht 065, 2026-08-08): een oudere, bevestigde editie mag NOOIT stilzwijgend als
+   actuele 2026/27-informatie gepresenteerd worden; een nog onbevestigde nieuwe editie moet
+   expliciet zo benoemd worden ("editie 2026/27 nog niet gepubliceerd").
 9. `AFWEGING` — het echte beslispunt, geen verborgen A/B/C-advies.
 10. `ECHTE ONZEKERHEID` — alleen onzekerheid die overblijft NA onderzoek, met een concrete
     categorie: `RELEVANTIE-TWIJFEL`, `BRON-TWIJFEL`, `TOEGANG-TWIJFEL`, `DATUM-TWIJFEL`,
@@ -456,7 +499,10 @@ is een presentatie van al goedgekeurde inhoud, nooit zelf een onderzoeksstap of 
 gelijkwaardig. Als iets na echt gericht onderzoek onbekend blijft: `ONBEKEND NA ONDERZOEK` + korte
 reden. Dit geldt minimaal voor: persoonlijke betekenis/link, spirituele/pelgrims-zwaarte, concrete
 ervaring, bezoekbaarheid/toegang, GEO-identiteit, combineerbaarheid, bezoektijd voor zover redelijk
-afleidbaar, keuze-relevante datum-/festivalinformatie.
+afleidbaar, keuze-relevante datum-/festivalinformatie. **Machine-afgedwongen (canoncorrectie,
+INDIA6 bericht 065, 2026-08-08)**: `preflight_validator.py --phase pdf` blokkeert vanaf nu hard op
+deze placeholders binnen `GOUD/USER/` vóór `PRE_PDF_CONTENT_APPROVED` geldig kan zijn — geen
+handmatige discipline meer alleen.
 
 **Na een Mark-keuze**: oude AI-classificaties (`CORE_PASS`, `OPTIONAL_PASS`, "niet kernwaardig",
 e.d.) worden niet meer zichtbaar getoond in de gebruikers-PDF zodra Mark A/B/C heeft gekozen — dan
@@ -560,10 +606,18 @@ voldoende voor de missiekritische laag — er moet een echt onafhankelijke tweed
 
 **Wat dubbel moet, wat niet**: verplicht dubbel — volledige AOAY-regioverbindingen, elk Top-11-lid
 apart, fysieke gebeurtenissen/locaties (ook obscure huizen/kamers/tempeltjes/grotten/stations/
-bomen/ashrams), gebeurtenis en exacte fysieke locatie apart geverifieerd; laag-3-zwaargewichten
-(religie-onafhankelijk, geen religies afvinken, focus op zelfstandige zwaarte/magnetisme). NIET
-verplicht dubbel tot detailniveau: GEO-coördinaten, openingstijden, PDF-layout, bronformattering,
-technische validators — die blijven CCI-uitvoer/QA.
+bomen/ashrams), gebeurtenis en exacte fysieke locatie apart geverifieerd. NIET verplicht dubbel tot
+detailniveau: GEO-coördinaten, openingstijden, PDF-layout, bronformattering, technische validators
+— die blijven CCI-uitvoer/QA.
+
+**Laag-3/bonuslaag: HEAVYWEIGHT-DISCOVERY PASS, geen volledige duplicatie (canoncorrectie, INDIA6
+bericht 065, 2026-08-08)**: Sweep B dupliceert NIET alle middelgrote/lokale bonuskandidaten van
+Sweep A. In plaats daarvan voert INDIA een eigen, onafhankelijke HEAVYWEIGHT-DISCOVERY PASS uit —
+andere zoekingangen/detectors dan Sweep A, specifiek gericht op het vinden van grote religieuze/
+spirituele/pelgrimsmagneten die Sweep A kan hebben gemist (bijvoorbeeld een enorme Shakti-, Sikh-,
+Jain-, soefi-, boeddhistische, tribale of andere obscure bedevaartsplek). Doel: een gemiste
+zwaargewicht-kandidaat moet een reële kans hebben om alsnog boven te komen, zonder dat elke kleine
+of middelgrote bonuskandidaat twee keer wordt onderzocht.
 
 **Blinde volgorde (anchoring-preventie)**: (1) CCI rondt Sweep A af en bevriest de uitkomst; (2)
 INDIA voert Sweep B uit zonder eerst Sweep A's kandidaten/conclusies als zoekbasis te gebruiken;
@@ -579,12 +633,17 @@ DOUBLE_SWEEP_COMPLETED: JA
 INDEPENDENT_SWEEP_PERFORMED: JA
 RECONCILIATION_COMPLETED: JA
 MISSION_CRITICAL_DIFFERENCES_RESOLVED: JA
+INDIA_ACCEPTED_SATURATION: JA
 ```
 
 Een regio geldt NIET als inhoudelijk sweep-compleet/keuzerijp zolang een missiekritisch verschil
 openstaat. Geen consensus-door-meerderheid, geen automatisch-CCI-gelijk-geven: bij verschil worden
 bronnen opnieuw getoetst; als het verschil niet betrouwbaar oplosbaar is, gaat het zichtbaar naar
-Mark (als `MARK_DECISION_CONFLICT` of vergelijkbaar).
+Mark (als `MARK_DECISION_CONFLICT` of vergelijkbaar). Het laatste token (`INDIA_ACCEPTED_SATURATION:
+JA`, oorspronkelijk poort K) bevestigt dat INDIA ook CCI's structurele evidence-matrix (Coverage
+Matrix/Lead Register-volledigheid, poort J) zelf heeft gecontroleerd, niet alleen de conclusie —
+een echte Sweep B dekt dit inhoudelijk al af, maar het token blijft apart gecheckt door
+`preflight_validator.py --phase discovery` (ongewijzigd).
 
 **Rol van Mark**: Mark hoeft geen twee rapporten te lezen — INDIA en CCI lossen de verschillen
 onderling op (via GitHub/PR, zie poort S, `HUMAN_TOUCHPOINTS_MINIMIZED`) en Mark krijgt pas
@@ -614,6 +673,11 @@ INDIA-chat, of zodra CCI een nieuwe PR-comment van INDIA leest, moet de betreffe
 zelfstandig GitHub uitlezen — zien wat de andere kant inmiddels heeft gedaan/gecommit/gerapporteerd
 — en de eerstvolgende eigen controle/actie uitvoeren zonder Mark opnieuw als koerier te gebruiken.
 
+**Geen apart scope-bevestigingsmoment (canoncorrectie, INDIA6 bericht 065, 2026-08-08)**: als
+Marks initiële opdracht/scope al duidelijk is, wacht CCI niet op een aparte
+scope-bevestigingsvraag/-fase — CCI start direct met Sweep A. Mark komt normaal pas terug bij de
+uiteindelijke keuze-PDF, of bij een echte inhoudelijke blocker die alleen hij kan beslissen.
+
 **Gewenste normale flow** (per sweep): (1) Mark geeft één opdracht: sweep regio X. (2) CCI voert
 Sweep A uit en schrijft resultaten/state in GitHub. (3) INDIA leest die resultaten rechtstreeks uit
 GitHub en voert onafhankelijk Sweep B uit (poort R). (4) INDIA zet verschillen/gaten rechtstreeks
@@ -635,7 +699,7 @@ die niet door bronnen/protocol oplosbaar is (bijv. een niet-oplosbare `MARK_DECI
 beslissen.
 
 **Geen aparte bureaucratische subarchitectuur**: dit vereenvoudigt de bestaande flow, het voegt er
-geen nieuwe laag aan toe — poort K (Onafhankelijke INDIA-controle) en poort O
+geen nieuwe laag aan toe — poort R (met de van poort K opgegane INDIA-structuurcontrole) en poort O
 (Vervangbaarheid/handoff) blijven ongewijzigd van kracht, deze poort maakt alleen expliciet dat
 GitHub/PR het kanaal is en dat Mark niet de verplichte tussenpersoon is.
 
@@ -649,6 +713,16 @@ genummerde klassen (FK-001 t/m FK-010), plus later toegevoegde klassen uit canon
 kan worden ("is dit een bekende klasse, of nieuw?") in plaats van dat elke fout een losse, steeds
 langere ad-hoc regel wordt.
 
+**Eén-incident-regel (canoncorrectie, INDIA6 berichten 064/065, 2026-08-08 — precedent: poort T,
+dezelfde dag gecanoniseerd én weer ingetrokken)**: een praktische oplossing die ontstaat als reactie
+op ÉÉN specifiek correctiemoment wordt niet automatisch permanente canon. Eerst toetsen of het een
+algemene, herhaalbare foutklasse is (past het in een bestaande FK-rij, of verdient het een nieuwe?)
+— pas na een tweede, onafhankelijke keer dat dezelfde situatie zich voordoet, mag het een
+standaardregel/poort worden. Uitzondering: een MACHINE-CHECKBARE validator die een objectieve fout
+voorkomt (JSONL-structuur, verboden placeholders, GEO-symmetrie e.d.) mag wél meteen worden
+toegevoegd, ook na één incident — dat is geen nieuwe procesregel voor mensen, alleen een
+goedkope, foutloze extra controle.
+
 ---
 
 ## Deel 4 — Machine-checkbare preflight
@@ -661,8 +735,12 @@ structurele (niet-inhoudelijke) voorwaarden vóór fase-overgangen:
   identiteit/duplicatencheck; geen open keuze-relevante toegankelijkheidsblocker; permanente
   nummering uniek/valide (hergebruikt `validate_global_numbering.py`); actieve kandidaten hebben
   geen status `HARD_EXCLUDED`/`SUBLOCATION`/`DUPLICATE`; saturation-evidence-bestand aanwezig;
-  `INDIA_ACCEPTED_SATURATION: JA` aanwezig.
-- **Vóór PDF**: `PRE_PDF_CONTENT_APPROVED: JA` aanwezig (vervangt `CONTENT_QA_ACCEPTED: JA` voor
+  `INDIA_ACCEPTED_SATURATION: JA` aanwezig; GEO-combinatiesymmetrie (poort L.1) via het optionele
+  `combine_with`-veld — `NIET_CONTROLEERBAAR` zolang een run dat veld niet gebruikt (bv. Bodh Gaya,
+  nog vrije tekst), machine-`FAIL` bij asymmetrie zodra het veld wél gebruikt wordt.
+- **Vóór PDF**: verboden placeholders (poort N: `NOG NIET ONDERZOCHT`/`TODO`/`TBD`) in `GOUD/USER/`
+  — machine-`FAIL` bij een treffer (canoncorrectie 2026-08-08, bericht 065, voorheen alleen
+  handmatig); `PRE_PDF_CONTENT_APPROVED: JA` aanwezig (vervangt `CONTENT_QA_ACCEPTED: JA` voor
   PDF-doeleinden, zie poort M); `PDF_GO: JA` aanwezig.
 - **Vóór keuzerapport-gereedheid van een missiekritische regio (poort R, nieuw 2026-08-08, nog NIET
   in `preflight_validator.py` geïmplementeerd — hier expliciet als open punt genoteerd, niet
@@ -701,20 +779,26 @@ zijn vóór een fase-overgang wordt toegestaan.
    `TASK.yaml`/`STATUS.yaml`, `india5/schemas/`). Die tweede architectuur lijkt na de eerste
    Varanasi-coverage-taken (`INDIA5-VNS-DISCOVERY-COVERAGE-003`, nog altijd "active" staande
    `INDIA5-VNS-DISCOVERY-SATURATION-004`) niet meer gebruikt te zijn voor Bodh Gaya — de run
-   gebruikte in plaats daarvan de PR-comment-envelop + `runs/active/`-structuur. Nog niet
-   opgelost: reactiveren, bewust archiveren, of samenvoegen met Coverage Matrix/Lead Register.
-   Dit document kiest voorlopig: nieuwe bestanden onder `runs/active/<RUN_ID>/PRE_BRONS/`, niet
-   onder `india5/tasks/` — overrulebaar door de huidige regisseur.
-2. **Machine-validatie**: gedeeltelijk opgelost door `governance/scripts/preflight_validator.py`
-   (Deel 4) — dekt de structurele checks. Nog open: of ook Coverage Matrix/Lead Register-inhoud
-   zelf (niet alleen status-volledigheid) verder geautomatiseerd moet worden.
-3. **Reikwijdte van de adversarial pass (poort I)**: GEDEELTELIJK OPGELOST (2026-08-08, poort R) —
-   voor de missiekritische laag (AOAY + Top-11) is nu een harde ondergrens gezet: één interne CCI-
-   pass is nooit voldoende, er is een echt onafhankelijke tweede sweep (Sweep B, door INDIA of een
-   aparte onderzoekschat) plus reconciliatiegate verplicht. Nog open: of dezelfde harde eis ook
-   voor de bonusmateriaal-laag (laag 3, overige zwaargewichten) geldt, of dat daar de bestaande,
-   lichtere adversarial-pass-taal (poort I, "minimaal twee wezenlijk verschillende benaderingen")
-   blijft volstaan — nog niet formeel bevestigd.
+   gebruikte in plaats daarvan de PR-comment-envelop + `runs/active/`-structuur. **Richting
+   bevestigd (INDIA6 bericht 065, 2026-08-08)**: geen hybride samenvoeging bouwen — bij een
+   volgende regio-start expliciet deprecaten in plaats van open laten hangen. Dit document blijft:
+   nieuwe bestanden onder `runs/active/<RUN_ID>/PRE_BRONS/`, niet onder `india5/tasks/`.
+2. **Machine-validatie**: verder opgelost door `governance/scripts/preflight_validator.py`
+   (Deel 4) — dekt de structurele checks, inclusief (sinds 2026-08-08, bericht 065) een
+   GEO-symmetrie-check (poort L.1, via `combine_with`) en een hard placeholder-verbod (poort N)
+   vóór PDF. Nog open: of ook Coverage Matrix/Lead Register-inhoud zelf (niet alleen
+   status-volledigheid) en poort R's vier reconciliatiegate-tokens verder geautomatiseerd moeten
+   worden.
+3. **Reikwijdte van de adversarial pass (poort I)**: OPGELOST (2026-08-08, poort R, bevestigd
+   bericht 065) — voor de missiekritische laag (AOAY + Top-11) is een harde ondergrens gezet: één
+   interne CCI-pass is nooit voldoende, er is een echt onafhankelijke tweede sweep (Sweep B, door
+   INDIA of een aparte onderzoekschat) plus reconciliatiegate verplicht. Voor de bonusmateriaal-laag
+   (laag 3): expliciet GEEN volledige pariteit — een gerichte HEAVYWEIGHT-DISCOVERY PASS (zie poort
+   R) volstaat, geen dubbele bewerking van elke middelgrote/lokale kandidaat.
+4. **Volgende regio = prospectieve test (nieuw, INDIA6 bericht 065, 2026-08-08)**: het V2-protocol
+   (poorten G.1, R, S, N-herordening, machine-checks) is tot nu toe alleen retroactief op Bodh Gaya
+   getoetst. De eerstvolgende, volledig nieuwe regio-sweep test het protocol prospectief vanaf nul
+   — alleen echte afwijkingen/fouten loggen, geen aannames vooraf overnemen.
 
 ## Activatie
 

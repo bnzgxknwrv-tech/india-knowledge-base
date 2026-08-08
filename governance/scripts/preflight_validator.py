@@ -15,8 +15,10 @@ Gebruik:
         --phase pdf
 
 phase=discovery -> checks vóór keuzerapportfase (Coverage Matrix, Lead Register, identity-
-    /access-blockers, nummering, saturation-evidence, INDIA_ACCEPTED_SATURATION: JA).
-phase=pdf        -> checks vóór een PDF-build (PRE_PDF_CONTENT_APPROVED: JA, PDF_GO: JA).
+    /access-blockers, nummering, saturation-evidence, INDIA_ACCEPTED_SATURATION: JA,
+    GEO-combinatiesymmetrie via het optionele 'combine_with'-veld).
+phase=pdf        -> checks vóór een PDF-build (verboden placeholders in GOUD/USER/,
+    PRE_PDF_CONTENT_APPROVED: JA, PDF_GO: JA).
 
 Exit code 0 als alle controleerbare checks OK zijn (NIET_CONTROLEERBAAR blokkeert niet, maar
 wordt wel zichtbaar gerapporteerd); exit code 1 bij minstens één FAIL.
@@ -190,6 +192,77 @@ def check_token(run_dir: Path, token: str, label: str, results: list):
                          f"run-directory {run_dir} (losse vermeldingen binnen een zin tellen niet mee)."))
 
 
+FORBIDDEN_PLACEHOLDERS = ("NOG NIET ONDERZOCHT", "TODO", "TBD")
+
+
+def check_forbidden_placeholders(run_dir: Path, results: list):
+    """Poort N: verboden placeholders in de gebruikers-PDF-inhoud (GOUD/USER/).
+
+    Machine-afgedwongen sinds 2026-08-08 (INDIA6 bericht 065) -- voorheen alleen handmatige
+    discipline. Scant uitsluitend GOUD/USER/ (de daadwerkelijke PDF-inhoud), niet de hele
+    run-directory -- onderzoeksbestanden elders mogen deze woorden best bevatten (bv. om uit te
+    leggen wat er niet meer in mag staan).
+    """
+    user_dir = run_dir / "GOUD" / "USER"
+    if not user_dir.exists():
+        results.append(("Verboden placeholders (poort N)", "NIET_CONTROLEERBAAR",
+                         f"{user_dir} niet gevonden -- nog geen GOUD/USER-inhoud voor deze run."))
+        return
+    hits = []
+    for path in sorted(user_dir.rglob("*.md")):
+        try:
+            text = path.read_text(encoding="utf-8")
+        except (UnicodeDecodeError, OSError):
+            continue
+        for placeholder in FORBIDDEN_PLACEHOLDERS:
+            if placeholder in text:
+                hits.append(f"{path.name}: '{placeholder}'")
+    if hits:
+        results.append(("Verboden placeholders (poort N)", "FAIL",
+                         f"{len(hits)} treffer(s): " + "; ".join(hits)))
+    else:
+        results.append(("Verboden placeholders (poort N)", "OK",
+                         f"Geen verboden placeholders gevonden in {user_dir}."))
+
+
+def check_geo_symmetry(run_dir: Path, results: list):
+    """Poort L.1: machineleesbare GEO-combinatiesymmetrie via het optionele veld `combine_with`.
+
+    Voor elk display_id X dat kandidaat Y in `combine_with` noemt, moet Y's eigen record X
+    terugnoemen. Geen enkel record met dit veld -> NIET_CONTROLEERBAAR (oudere runs, zoals Bodh
+    Gaya, gebruiken nog vrije tekst; nieuwe runs vullen dit veld voortaan direct in, zie poort L.1).
+    """
+    candidates_files = list(run_dir.glob("PRE_BRONS/DISCOVERY_CANDIDATES.jsonl"))
+    if not candidates_files:
+        results.append(("GEO-combinatiesymmetrie (poort L.1)", "NIET_CONTROLEERBAAR",
+                         "DISCOVERY_CANDIDATES.jsonl niet gevonden."))
+        return
+    rows = load_jsonl(candidates_files[0])
+    with_field = [r for r in rows if isinstance(r.get("combine_with"), list)]
+    if not with_field:
+        results.append(("GEO-combinatiesymmetrie (poort L.1)", "NIET_CONTROLEERBAAR",
+                         "Geen enkel record heeft het machineleesbare veld 'combine_with' -- "
+                         "deze run gebruikt (nog) alleen vrije-tekstvelden voor combineerbaarheid."))
+        return
+    by_id = {r.get("display_id"): r for r in rows if r.get("display_id")}
+    asymmetric = []
+    for r in with_field:
+        src = r.get("display_id")
+        for target in r.get("combine_with", []):
+            other = by_id.get(target)
+            if other is None:
+                asymmetric.append(f"{src} noemt onbekend display_id {target}")
+                continue
+            if src not in (other.get("combine_with") or []):
+                asymmetric.append(f"{src} -> {target} niet symmetrisch (({target} noemt {src} niet terug)")
+    if asymmetric:
+        results.append(("GEO-combinatiesymmetrie (poort L.1)", "FAIL",
+                         f"{len(asymmetric)} asymmetrische relatie(s): " + "; ".join(asymmetric)))
+    else:
+        results.append(("GEO-combinatiesymmetrie (poort L.1)", "OK",
+                         f"{len(with_field)} record(s) met 'combine_with', allemaal symmetrisch."))
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--run-dir", required=True, help="Pad naar de run-directory, bv. runs/active/BODHGAYA-DISCOVERY-001")
@@ -214,7 +287,9 @@ def main():
         check_active_candidates_not_excluded(run_dir, results)
         check_saturation_evidence(run_dir, results)
         check_token(run_dir, "INDIA_ACCEPTED_SATURATION: JA", "INDIA_ACCEPTED_SATURATION", results)
+        check_geo_symmetry(run_dir, results)
     else:
+        check_forbidden_placeholders(run_dir, results)
         check_token(run_dir, "PRE_PDF_CONTENT_APPROVED: JA", "PRE_PDF_CONTENT_APPROVED", results)
         check_token(run_dir, "PDF_GO: JA", "PDF_GO", results)
 

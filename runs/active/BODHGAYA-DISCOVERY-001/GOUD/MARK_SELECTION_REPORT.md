@@ -278,8 +278,9 @@ stubs hieronder. 058 blijft MARK_WAARDIG als twijfelgeval.
 
 ### 051 — Vishnupad Temple, Gaya
 
-**MARK_DECISION_CONFLICT (2026-08-08, INDIA6 bericht 054 — AOAY/Top-11-audit; UITGEBREID
-2026-08-08 na INDIA6-tegencontrole bericht 058, zie `PRE_BRONS/AOAY_TOP11_AUDIT.md`)**: TWEE
+**MARK_DECISION_CONFLICT — OPGELOST (2026-08-08, bericht 065): Mark bevestigt C, geen wijziging.**
+Historie (2026-08-08, INDIA6 bericht 054 — AOAY/Top-11-audit; UITGEBREID
+2026-08-08 na INDIA6-tegencontrole bericht 058, zie `PRE_BRONS/AOAY_TOP11_AUDIT.md`): TWEE
 Top-11-links, niet één. (1) Anandamayi Ma (Top-11 #7) woonde op 18 oktober 1956 de Arti bij in
 DEZE tempel en bezocht dezelfde dag ook Bodh Gaya (bron: anandamayi.org, officiële
 levensgeschiedenis). (2) Ramakrishna (Top-11 #8): geen eigen bezoek — hij weigerde in 1868 bewust
@@ -502,8 +503,9 @@ relict gevonden. Status: `EXCLUDED_HARD_REASON`. Nummer 059 blijft permanent ger
 
 ### 061 — Burmese Vihara
 
-**MARK_DECISION_CONFLICT (2026-08-08, ontdekt tijdens INDIA6-tegencontrole bericht 058 — zie
-`PRE_BRONS/AOAY_TOP11_AUDIT.md`)**: Ram Dass (Top-11 #5) studeerde in januari 1971 Vipassana onder
+**MARK_DECISION_CONFLICT — OPGELOST (2026-08-08, bericht 065): Mark bevestigt C, geen wijziging.**
+Historie (ontdekt tijdens INDIA6-tegencontrole bericht 058 — zie
+`PRE_BRONS/AOAY_TOP11_AUDIT.md`): Ram Dass (Top-11 #5) studeerde in januari 1971 Vipassana onder
 S.N. Goenka in Bodh Gaya — mogelijk in DIT gebouw. Twee cursussen liepen vlak na elkaar:
 Samanvaya Ashram (24-12-1970 t/m 3-1-1971, nu candidate 074) en Burmese Vihara (4 t/m 14-1-1971,
 deze kandidaat). Joseph Goldstein, die met Ram Dass in dezelfde groep van zes Amerikanen zat,
@@ -811,8 +813,9 @@ bedevaartsfaam zoals bij 051/070. Expliciet aan INDIA6/Mark voorgelegd.
 
 ### 074 — International Meditation Centre / Dhamma Bodhi (Vipassana, S.N. Goenka-lijn)
 
-**MARK_DECISION_CONFLICT (2026-08-08, INDIA6 bericht 054 — AOAY/Top-11-audit; GECORRIGEERD
-2026-08-08 na INDIA6-tegencontrole bericht 058, zie `PRE_BRONS/AOAY_TOP11_AUDIT.md`)**: Ram Dass
+**MARK_DECISION_CONFLICT — OPGELOST (2026-08-08, bericht 065): Mark bevestigt C, geen wijziging.**
+Historie (2026-08-08, INDIA6 bericht 054 — AOAY/Top-11-audit; GECORRIGEERD
+2026-08-08 na INDIA6-tegencontrole bericht 058, zie `PRE_BRONS/AOAY_TOP11_AUDIT.md`): Ram Dass
 (Top-11 #5) studeerde in **januari 1971** (datumcorrectie — de eerste versie van dit onderzoek
 zei onjuist "winter 1969-1970") Vipassana onder S.N. Goenka. Twee cursussen liepen vlak na elkaar
 in deze periode: Samanvaya Ashram (24-12-1970 t/m 3-1-1971, deze kandidaat, dezelfde plek die in
