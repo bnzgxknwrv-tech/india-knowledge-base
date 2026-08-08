@@ -86,6 +86,19 @@ REGIONS:
   keuzerapportfase en vóór PDF (zie SWEEP_PROTOCOL.md Deel 4 voor de exacte grenzen).
 - `governance/ACTIVE_STATE.md` — dit bestand.
 
+### Reisdoel-prioriteit: AOAY + Top-X = missiekritisch, rest = bonus (canoncorrectie 2026-08-08, bericht 044)
+
+Marks eigenlijke reisdoel is (1) AOAY (*Autobiography of a Yogi*) en (2) Top-X-personen/lijnen —
+NIET een gelijkwaardige derde categorie naast "overige bedevaartsplekken". Elke regio-sweep is
+verplicht tot een 100%-sweep van deze twee lagen (elke AOAY-plek, elke Top-X-persoon een eigen
+detector — zie `governance/SWEEP_PROTOCOL.md` poort A/E.1) VÓÓRDAT algemene bedevaarts-
+"bonusmateriaal"-kandidaten mogen meetellen als bewijs voor een sweep-brede `SATURATED=JA`-claim
+(harde volgordedwang, poort C/J). Praktisch gevolg, letterlijk zoals door Mark bedoeld: een
+obscure schuur waar Yogananda aantoonbaar mediteerde staat qua keuzeprioriteit BOVEN een enorm
+bedevaartsoord met miljoenen bezoekers — geen inconsistentie, maar het punt van de hele reis. Dit
+verandert NIETS aan de MARK_WAARDIG-gate zelf (nog steeds geen quotum, geen filtering op
+verwachte A/B/C) — het bepaalt uitsluitend zoekvolgorde/-diepte en saturatie-afhankelijkheid.
+
 ### Discriminatieregel MARK_WAARDIG (canoncorrectie 2026-08-08, verscherpt dezelfde dag, duurzaam te erven)
 
 Elke toekomstige INDIA-regisseur/CCI-uitvoering erft automatisch de beslisvolgorde uit

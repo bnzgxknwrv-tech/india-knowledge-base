@@ -70,28 +70,64 @@ een apart `CONTENT_QA_ACCEPTED: JA`-token vóór `PDF_GO: JA` (M).
 
 ### A. Pre-sweep dekkingsplan (nieuw, vóór PRE-BRONS-detectoren worden geschreven)
 
-Vast, verplicht controlelijstje — elke regel-start doorloopt dit EERST, vóór de eerste detector
-wordt geschreven:
+**Reisdoel-prioriteitscorrectie (INDIA6 bericht 044, 2026-08-08) — GEEN gelijkwaardige lijst.**
+De lenzen hieronder vallen in twee, uitdrukkelijk NIET gelijkwaardige lagen:
 
-| Lens | Verplicht overwogen? |
-|---|---|
-| AOAY/Kriya/Yogananda/Sri Yukteswar/Giri-lijn | ☐ |
-| Boeddha-biografie: geboorte/verlichting/vóór-verlichting/NA-verlichting (leermomenten)/overlijden | ☐ |
-| Levende praktijk: kloosters, tempels, ashrams, meditatiecentra, retraiteplekken | ☐ |
-| Alle relevante internationale tradities/kloosters (niet vooraf beperkt tot een sublijst) | ☐ |
-| Directe stad/regio-omgeving (niet alleen het hoofdcomplex) | ☐ |
-| Religie-onafhankelijke bedevaarts-/heiligdomzoeking (zie E.1) — directe zoektermen: bedevaart, pelgrimsstromen, heiligdommen, beroemde relieken/beelden/graven/grotten/heilige plaatsen; hindoeïsme/jaïnisme/soefisme-islam/sikhisme/christendom e.a. zijn hier ALLEEN aanvullende zoektermen, nooit de begrenzing | ☐ |
-| Historische/archeologische plekken en fysiek unieke heilige objecten | ☐ |
-| Spirituele extremen buiten Marks bekende voorkeuren | ☐ |
-| Officiële/institutionele bronnen geraadpleegd | ☐ |
-| Lokale/insider-bronnen geraadpleegd indien beschikbaar | ☐ |
-| Geografische zones (0-20 km kernstraal, 20-30 km signalering, >30 km alleen uitzonderlijk) | ☐ |
+- **Laag 1 — MISSIEKRITISCH (AOAY + Top-X)**: onderworpen aan een 100%-sweepverplichting, zie
+  hieronder. Dit is Marks eigenlijke reisdoel.
+- **Laag 2 — BONUSMATERIAAL (alle overige lenzen)**: pas relevant NADAT laag 1 aantoonbaar is
+  afgezocht. Mag de zoekinspanning voor laag 1 nooit verdringen. Zie ook poort C/J: laag-2-
+  kandidaten mogen een `SATURATED=JA`-claim pas mee ondersteunen als de laag-1-detectoren
+  zelf `SATURATED` of `EXPLICIET_ONBESCHIKBAAR` zijn.
+
+**Bestaande regel die hiermee botste (herkend bij deze correctie)**: de dekkingsmatrix hieronder
+behandelde voorheen alle elf lenzen als gelijkwaardige checkboxvakjes met dezelfde statusregel —
+zonder enige prioriteitsvolgorde tussen bijvoorbeeld de AOAY-lens en "spirituele extremen buiten
+Marks bekende voorkeuren". Hersteld door de laag 1/laag 2-scheiding hieronder en de bijbehorende
+volgordedwang in poort C/J.
+
+**Laag 1A — AOAY, 100% sweepverplichting.** Zoek systematisch naar ELKE verifieerbare fysieke
+plek uit, of rechtstreeks verbonden met, *Autobiography of a Yogi* — ook een klein huis, kamer,
+schuur, boom, straat, station, eenvoudige tempel, grot, ashram, verblijfplaats, ontmoetingsplek,
+initiatieplek, meditatieplek of gebeurtenislocatie. Objectieve beroemdheid of bezoekersaantal is
+hierbij IRRELEVANT — zie ook poort E.1.
+
+**Laag 1B — Top-X, 100% prioriteitssweep.** Voor iedere Top-X-persoon systematisch alle
+betekenisvolle fysieke verbindingen zoeken: geboorte, jeugd, verblijf, meditatie, initiatie,
+leraar/leerling-ontmoeting, ashram, samadhi, onderricht, lineage-gebeurtenis, relieken,
+belangrijke reis/gebeurtenis. Voorbeeld van exact gewenste informatie: Sri Yukteswar trad in Bodh
+Gaya in de swami/sannyas-orde in de sannyas-orde (zie 046). Zo'n verbinding moet door de sweep
+worden gevonden, ook wanneer de precieze fysieke sublocatie niet meer vaststelbaar is — scheid
+dan expliciet: gebeurtenis = verifieerbaar (JA/NEE), exacte fysieke plek = wel/niet verifieerbaar
+(los van elkaar vastgelegd, nooit stilzwijgend samengevoegd tot één "onbevestigd").
+
+| Lens | Laag | Verplicht overwogen? |
+|---|---|---|
+| AOAY/Kriya/Yogananda/Sri Yukteswar/Giri-lijn (100% sweepverplichting, zie Laag 1A) | 1 (missiekritisch) | ☐ |
+| Top-X: per Top-X-persoon een eigen detector (100% sweepverplichting, zie Laag 1B) | 1 (missiekritisch) | ☐ |
+| Boeddha-biografie: geboorte/verlichting/vóór-verlichting/NA-verlichting (leermomenten)/overlijden | 2 (bonus) | ☐ |
+| Levende praktijk: kloosters, tempels, ashrams, meditatiecentra, retraiteplekken | 2 (bonus) | ☐ |
+| Alle relevante internationale tradities/kloosters (niet vooraf beperkt tot een sublijst) | 2 (bonus) | ☐ |
+| Directe stad/regio-omgeving (niet alleen het hoofdcomplex) | 2 (bonus) | ☐ |
+| Religie-onafhankelijke bedevaarts-/heiligdomzoeking (zie E.1) — directe zoektermen: bedevaart, pelgrimsstromen, heiligdommen, beroemde relieken/beelden/graven/grotten/heilige plaatsen; hindoeïsme/jaïnisme/soefisme-islam/sikhisme/christendom e.a. zijn hier ALLEEN aanvullende zoektermen, nooit de begrenzing | 2 (bonus) | ☐ |
+| Historische/archeologische plekken en fysiek unieke heilige objecten | 2 (bonus) | ☐ |
+| Spirituele extremen buiten Marks bekende voorkeuren | 2 (bonus) | ☐ |
+| Officiële/institutionele bronnen geraadpleegd | 2 (bonus) | ☐ |
+| Lokale/insider-bronnen geraadpleegd indien beschikbaar | 2 (bonus) | ☐ |
+| Geografische zones (0-20 km kernstraal, 20-30 km signalering, >30 km alleen uitzonderlijk) | 2 (bonus) | ☐ |
 
 Regel: een lens mag pas als "gedekt" gelden met status `SATURATED` of
 `EXPLICIET_ONBESCHIKBAAR` — nooit stilzwijgend overgeslagen. Dit lijstje wordt het skelet van de
 Coverage Matrix (poort C). De religie-lens hierboven is expliciet GEEN vaste religielijst om af
 te vinken (zie E.1) — de zoekvraag is "welke fysieke plekken hebben hier uitzonderlijke
 religieuze/spirituele/pelgrimszwaarte?", niet "welke bekende religies zijn hier aanwezig?".
+
+**Voorbeeld van de bedoelde prioriteit (INDIA6 bericht 044)**: een obscure schuur waar Yogananda
+aantoonbaar mediteerde staat qua keuzeprioriteit BOVEN een enorm bedevaartsoord met miljoenen
+bezoekers — dat is geen inconsistentie, maar precies Marks persoonlijke reisdoel. Dit bepaalt
+NIET wat wordt getoond (poort B/E blijven quotumvrij en filteren niet op verwachte A/B/C) — het
+bepaalt uitsluitend de verplichte zoekvolgorde/-diepte en de saturatie-afhankelijkheid (poort
+C/J).
 
 ### B. Discovery (bevestiging van bestaande regel, geen wijziging)
 
@@ -106,11 +142,18 @@ Eén JSONL-bestand per run: `runs/active/<RUN_ID>/PRE_BRONS/COVERAGE_MATRIX.json
 lens uit poort A, plus elke detector die eruit ontstaat:
 
 ```json
-{"lens_of_detector_id": "...", "status": "NOT_STARTED|ACTIVE|SATURATED|EXPLICIET_ONBESCHIKBAAR", "reden": "...", "laatst_bijgewerkt": "YYYY-MM-DD"}
+{"lens_of_detector_id": "...", "status": "NOT_STARTED|ACTIVE|SATURATED|EXPLICIET_ONBESCHIKBAAR", "reden": "...", "laatst_bijgewerkt": "YYYY-MM-DD", "laag": "1_MISSIEKRITISCH|2_BONUS"}
 ```
 
 Harde regel: een sweep mag pas naar stap 4 (Kandidaatstatus) van de negen-stappenflow zolang GEEN
 regel `NOT_STARTED` of `ACTIVE` heeft. Dit is de directe fix voor fout #2 en #3.
+
+**Volgordedwang laag 1 vóór laag 2 (INDIA6 bericht 044, 2026-08-08)**: de AOAY-regel en ELKE
+Top-X-persoon-regel (`laag: "1_MISSIEKRITISCH"`) moeten `SATURATED` of `EXPLICIET_ONBESCHIKBAAR`
+zijn vóórdat laag-2-regels (algemene bedevaartsplekken/tradities) mogen meetellen als steun voor
+een `SATURATED=JA`-claim op sweepniveau (zie poort J). Een sweep mag laag-2-onderzoek best parallel
+verrichten, maar de saturatieclaim zelf blijft geblokkeerd zolang een laag-1-regel nog
+`NOT_STARTED`/`ACTIVE` is.
 
 ### D. Lead Register (nieuw, machine-leesbaar bestand per run)
 
@@ -147,21 +190,31 @@ Landendekking/categorievolledigheid is nooit op zichzelf voldoende — dit stond
 `NOT_TO_BE_MISSED_FRAMEWORK.md`, hier herbevestigd met een verplichte, expliciete checkstap i.p.v.
 een achteraf-principe.
 
-#### E.1 Prioriteitslagen / beslisvolgorde (canoncorrectie, INDIA6 bericht 036, 2026-08-08)
+#### E.1 Prioriteitslagen / beslisvolgorde (canoncorrectie, INDIA6 berichten 036 + 044, 2026-08-08)
 
 De generiek-check hierboven is niet absoluut — er zijn drie lagen, elk met een eigen drempel.
-Voor iedere lead, in deze volgorde:
+**Dit is uitdrukkelijk GEEN gelijkwaardige drielaagse lijst (bericht 044-verscherping)**: laag 1
+en 2 (AOAY, Top-X) zijn Marks eigenlijke, missiekritische reisdoel; laag 3 is bonusmateriaal, pas
+relevant nadat laag 1/2 aantoonbaar zijn afgezocht (zie poort A/C/J voor de bijbehorende
+sweepverplichting en volgordedwang). Voor iedere lead, in deze volgorde:
 
-1. **AOAY = ABSOLUTE OVERRIDE.** Een verifieerbare fysieke plek die expliciet voorkomt in
-   *Autobiography of a Yogi*, rechtstreeks gekoppeld is aan een daarin beschreven gebeurtenis, of
-   aantoonbaar de fysieke plek is waar zo'n gebeurtenis plaatsvond → MOET getoond worden, ook als
-   de plek objectief klein, lokaal, architectonisch onbelangrijk, geen grote bedevaartsplaats of
-   verder niet onderscheidend is. AOAY overrulet de generiek-/zwaartefilter volledig. Enige eis:
-   fysieke identiteit verifieerbaar (welke plek dat werkelijk is).
-2. **TOP X = MAXIMALE PERSOONLIJKE ZWAARTE.** Zonder AOAY-link: breed zoeken naar betekenisvolle
-   fysieke plekken rond geboorte, verblijf, samadhi, ashram, initiatie, ontmoeting, meditatie,
-   leer, lineage, reliek, belangrijke gebeurtenis van Marks Top X personen/lijnen. Lage drempel
-   voor tonen — niet beperken tot beroemde of drukbezochte plekken.
+1. **AOAY = ABSOLUTE OVERRIDE, MISSIEKRITISCH.** Een verifieerbare fysieke plek die expliciet
+   voorkomt in *Autobiography of a Yogi*, rechtstreeks gekoppeld is aan een daarin beschreven
+   gebeurtenis, of aantoonbaar de fysieke plek is waar zo'n gebeurtenis plaatsvond → MOET getoond
+   worden, ook als de plek objectief klein, lokaal, architectonisch onbelangrijk, geen grote
+   bedevaartsplaats of verder niet onderscheidend is. AOAY overrulet de generiek-/zwaartefilter
+   volledig. Enige eis: fysieke identiteit verifieerbaar (welke plek dat werkelijk is).
+2. **TOP X = MAXIMALE PERSOONLIJKE ZWAARTE, MISSIEKRITISCH.** Zonder AOAY-link: breed zoeken naar
+   betekenisvolle fysieke plekken rond geboorte, jeugd, verblijf, meditatie, initiatie,
+   leraar/leerling-ontmoeting, ashram, samadhi, onderricht, lineage-gebeurtenis, relieken,
+   belangrijke reis/gebeurtenis van Marks Top X personen/lijnen. Lage drempel voor tonen — niet
+   beperken tot beroemde of drukbezochte plekken. **Gebeurtenis vs. exacte plek, apart vastleggen
+   (bericht 044)**: als een betekenisvolle verbinding wél verifieerbaar is maar de precieze
+   fysieke sublocatie niet meer vaststelbaar is (bijvoorbeeld: Sri Yukteswar trad in Bodh Gaya in
+   de sannyas-orde, exacte plek binnen Bodh Gaya onbekend — zie 046), wordt dit ALTIJD getoond met
+   twee losse velden: `gebeurtenis_geverifieerd: JA/NEE` en `exacte_locatie_geverifieerd:
+   JA/NEE/ONBEKEND` — nooit stilzwijgend samengevoegd tot één "onbevestigd" dat de gebeurtenis
+   zelf verdoezelt.
 3. **ALLES BUITEN AOAY/TOP X = RELIGIE-ONAFHANKELIJKE BEDEVAARTSZOEKING, HOGE DREMPEL** (verscherpt,
    INDIA6 bericht 040/tweede versie, 2026-08-08 — vervangt de eerdere, voor misverstand vatbare
    formulering "religieuze zwaargewichten"). De zoekvraag is NIET "welke belangrijke religies zijn
@@ -242,6 +295,8 @@ terug naar `ACTIVE`).
 
 ```text
 [ ] Coverage Matrix: alle regels SATURATED of EXPLICIET_ONBESCHIKBAAR (geen NOT_STARTED/ACTIVE)
+[ ] Laag 1 (AOAY + elke Top-X-persoon) apart bevestigd SATURATED/EXPLICIET_ONBESCHIKBAAR vóórdat
+    laag-2-bevindingen (algemene bedevaartsplekken) meetellen als saturatiebewijs (INDIA6 bericht 044)
 [ ] Lead Register: geen regel zonder eindstatus
 [ ] Ontbrekende-categoriecheck: uitgevoerd, resultaat vermeld (ook als "niets nieuws")
 [ ] Identiteit/duplicaatvragen die kandidaten beinvloeden: opgelost of expliciet UNRESOLVED_BLOCKER
