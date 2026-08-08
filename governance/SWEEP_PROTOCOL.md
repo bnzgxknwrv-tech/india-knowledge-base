@@ -362,6 +362,29 @@ lettercode-voorspelling. Aanbevolen praktische check vóór commit: een eenvoudi
 zinsneden over het GOUD-bestand (geen aparte validator-script verplicht in v1, wel aanbevolen voor
 v2 — zie Deel 3).
 
+#### L.1 GEO-combinatiesymmetrie (canoncorrectie, INDIA6 bericht 051, 2026-08-08)
+
+"Goed te combineren met" betekent UITSLUITEND: de locaties liggen geografisch/praktisch zo dicht
+bij elkaar dat ze in hetzelfde bezoek, wandeling, korte rit of dagdeel te combineren zijn. Het is
+NOOIT: inhoudelijke verwantschap, zelfde religie/thema, "zou leuk samen zijn", of
+routeplannings-voorkeur — thematische verwantschap mag nooit als GEO-combinatie gepresenteerd
+worden.
+
+**Verplichte symmetrie**: als kandidaat A vermeldt dat hij goed te combineren is met B, dan MOET
+B's eigen tekst ook A vermelden. Vormen A, B en C samen één logisch cluster, dan noemt elk van de
+drie de andere twee — nooit een eenrichtingsrelatie of een gedeeltelijk genoemd cluster. Altijd
+`nummer + naam`, nooit een kaal nummer.
+
+**Bij onvoldoende betrouwbare locatiegegevens**: niet raden. Schrijf letterlijk
+`combineerbaarheid niet betrouwbaar vast te stellen na GEO-controle — [reden]` in plaats van een
+aangenomen combinatie of een stille leegte.
+
+**Permanente PDF-gate-uitbreiding**: een keuze-PDF faalt de gate (poort M/N) als: combineer-
+relaties asymmetrisch zijn; een kandidaat slechts een deel van een aantoonbaar cluster noemt;
+thematische verwantschap als GEO-combinatie gepresenteerd wordt; of combineerbaarheid nog niet
+onderzocht is (dat laatste moet expliciet gemeld worden, niet stilzwijgend blijven staan als
+"nog niet onderzocht").
+
 ### M. Content-QA vóór PDF (bevestiging/formalisering van de reeds bestaande PDF-poort)
 
 Ongewijzigd t.o.v. de al ingevoerde regel in `INDIA5-PROTOCOL.md`: CCI levert tekst/data, INDIA

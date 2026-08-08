@@ -95,6 +95,14 @@ binnen Bodh Gaya nog niet vastgesteld (open onzekerheid).
 
 **Reistijd/afstand**: ankerplek van de kerncluster (0 km).
 
+**GEO-combinatiesymmetrie (bijgewerkt 2026-08-08, INDIA6 bericht 051)**: 047 Sujata Stupa (circa
+1,2 km/20 min lopen). Op loopafstand van het hoofdcomplex, elk onafhankelijk als "direct
+naast"/"dicht bij"/"tegenover" 046 beschreven, dus onderling ook praktisch combinabel: 049 Great
+Buddha Statue, 050 Archaeological Museum, 061 Burmese Vihara, 062 Mahabodhi Society, 068 Shechen
+Monastery, 073 Jagannath Temple, 074 Dhamma Bodhi/Samanvaya Ashram. Deze zeven zijn niet individueel
+paarsgewijs opgemeten, maar elk afzonderlijk als vlakbij 046 bevestigd — de clusterrelatie is via
+dat gemeenschappelijke ankerpunt afgeleid, niet elk apart geverifieerd.
+
 **Bezoekbaarheid**: dagelijks vrij toegankelijk binnen normale tempeltijden, geen inschrijving of
 speciale toegang nodig.
 
@@ -124,6 +132,10 @@ voorafging) — geen overlap.
 van beide kandidaten), bronnen noemen circa 20 minuten lopen (inclusief oversteek van de
 Phalgu-rivier).
 
+**GEO-combinatiesymmetrie (bijgewerkt 2026-08-08, INDIA6 bericht 051)**: 046 Mahabodhi Temple
+Complex (circa 1,2 km/20 min lopen, incl. rivieroversteek). Geen bevestigde nabijheid tot andere
+kandidaten gevonden.
+
 **Bezoekbaarheid**: archeologische site, altijd te bezoeken, geen speciale toegang nodig.
 
 **GEO-status**: **CONFIRMED** — rechtstreekse Google Maps/Earth-entiteitsbevestiging (inclusief
@@ -151,6 +163,10 @@ de grotere reisinspanning — geen andere plek toont dit specifieke moment.
 12 km, andere bronnen tot 13,9 km) — dit is een brongebaseerde schatting, GEEN zelf berekende
 afstand, omdat er geen bevestigd coördinaat beschikbaar is voor 048 (zie GEO-status). Vereist een
 aparte rit (taxi/auto-riksja), geen speciale toegang.
+
+**GEO-combinatiesymmetrie (bijgewerkt 2026-08-08, INDIA6 bericht 051)**: geen. Vereist een eigen,
+aparte rit (12-14 km) en ligt niet in dezelfde zone als enige andere kandidaat — praktisch niet in
+hetzelfde bezoek te combineren met de kerncluster of andere clusters.
 
 **Bezoekbaarheid**: vrij toegankelijk, geen inschrijving nodig, wel een aparte reisinspanning.
 
@@ -184,6 +200,11 @@ het begrip van het verlichtingsverhaal zelf.
 **Reistijd/afstand**: circa 1,1-1,5 km van 046 — LET OP: deze afstand is berekend op basis van een
 NIET-bevestigd referentiecoördinaat (Wikipedia-infobox), niet op een geverifieerde marker. Vrij
 toegankelijk, geen speciale toegang nodig, eenvoudig te combineren met de kerncluster.
+
+**GEO-combinatiesymmetrie (bijgewerkt 2026-08-08, INDIA6 bericht 051)**: 046 Mahabodhi Temple
+Complex (circa 1,1-1,5 km) en, via hetzelfde ankerpunt, ook 050, 061, 062, 068, 073, 074 (allen
+onafhankelijk als vlakbij 046 bevestigd — niet paarsgewijs met 049 zelf opgemeten). Apart, meer
+specifiek: 060 Palyul Namdroling Monastery ligt bij 049 zelf ("Bij de Great Buddha Statue").
 
 **Bezoekbaarheid**: vrij toegankelijk, altijd zichtbaar, geen inschrijving nodig.
 
@@ -230,6 +251,10 @@ stubs hieronder. 058 blijft MARK_WAARDIG als twijfelgeval.
    De objecten zijn wel letterlijk afkomstig van 046, relevant voor wie de archeologische/
    historische diepte van de plek wil begrijpen.
 8. **Einduitkomst:** **MARK_WAARDIG.**
+9. **GEO-combinatiesymmetrie (bijgewerkt 2026-08-08, INDIA6 bericht 051)** 046 Mahabodhi Temple
+   Complex (grenst direct aan het complex) en, via hetzelfde ankerpunt, ook 049, 061, 062, 068,
+   073, 074 (allen onafhankelijk als vlakbij 046 bevestigd — niet paarsgewijs met 050 zelf
+   opgemeten).
 
 ### 051 — Vishnupad Temple, Gaya
 
@@ -265,6 +290,11 @@ niet als feit overgenomen.
    uitsluitingsgrond. Het relict is singulier en heeft nationale religieuze betekenis, relevant
    voor wie interesse heeft in de bredere hindoe-krachtplaatsen van India.
 8. **Einduitkomst:** **MARK_WAARDIG.**
+9. **GEO-combinatiesymmetrie (bijgewerkt 2026-08-08, INDIA6 bericht 051)** Eigen stad, circa
+   12-15 km van de Bodh Gaya-kerncluster — niet op dezelfde dag/dagdeel eenvoudig te combineren met
+   046-cluster-kandidaten. Wél in dezelfde bredere Gaya-stad-zone als 070 Mangala Gauri Temple, 071
+   Pretshila Hill en 078 Gurdwara Sri Guru Tegh Bahadur Ji — deze vier vermelden elkaar nu
+   symmetrisch.
 
 **Akshayavat, verwerkt bij dit bezoek (INDIA6-besluit, bericht 028)**: binnen dezelfde
 tempelbinnenplaats groeit de Akshayavat, een als onvergankelijk vereerde eeuwenoude banyanboom,
@@ -306,6 +336,10 @@ zichtbaarheid. Bronvoorbehoud: er bestaat een andere, bekendere Akshayavat in Pr
    regulier, minder uitzonderlijk studieklooster. Stichter en Karmapa-connectie zijn concreet
    gedocumenteerd.
 8. **Einduitkomst:** **MARK_WAARDIG.**
+9. **GEO-combinatiesymmetrie (bijgewerkt 2026-08-08, INDIA6 bericht 051)** Combineerbaarheid niet
+   betrouwbaar vast te stellen na GEO-controle — geen afstands- of nabijheidsgegevens t.o.v. andere
+   kandidaten gevonden in het bestaande onderzoek, en geen andere kandidaat vermeldt Tergar als
+   nabijgelegen.
 
 ### 053 — Root Institute (FPMT) — EXCLUDED
 
@@ -373,6 +407,10 @@ Fujii-stichtingsgeschiedenis.*
    vredespagode-beweging) — een reëel persoonsgebonden zwaartesignaal, geen loutere
    land-/traditievertegenwoordiging. Of dit voldoende is voor "belangrijke heilige persoon" in de
    zin van poort E.1 is echter geen uitgemaakte zaak — expliciet aan INDIA6/Mark voorgelegd.
+9. **GEO-combinatiesymmetrie (bijgewerkt 2026-08-08, INDIA6 bericht 051)** Combineerbaarheid niet
+   betrouwbaar vast te stellen na GEO-controle — geen afstands- of nabijheidsgegevens t.o.v. andere
+   kandidaten gevonden in het bestaande onderzoek, en geen andere kandidaat vermeldt deze tempel
+   als nabijgelegen.
 
 ---
 
@@ -418,8 +456,8 @@ relict gevonden. Status: `EXCLUDED_HARD_REASON`. Nummer 059 blijft permanent ger
    palyul.org, tripadvisor.com, wanderlog.com.
 8. **Reden om eventueel over te slaan** Geen directe biografische link met Boeddha's verlichting;
    vooral relevant voor wie de verschillende Tibetaanse tradities afzonderlijk wil zien.
-9. **Relaties/combinaties** Bij de Great Buddha Statue (049), dus logisch te combineren met dat
-   bezoek.
+9. **Relaties/combinaties (GEO-symmetrisch bijgewerkt 2026-08-08, INDIA6 bericht 051)** Bij 049
+   Great Buddha Statue, dus logisch te combineren met dat bezoek.
 10. **Twijfelgeval (retroactieve E.1-canontoets, INDIA6 bericht 042, 2026-08-08)**: niet
     uitgesloten omdat de naam/lijn officieel is toegekend door twee erkende hoge Tibetaans-
     boeddhistische autoriteiten (Drubwang Pema Norbu Rinpoche én de Dalai Lama) — een reëel
@@ -451,7 +489,11 @@ zwaartesignalen. Expliciet aan INDIA6/Mark voorgelegd, geen zelfstandige INDIA-b
    holidify.com, fundforeducationabroad.org.
 8. **Reden om eventueel over te slaan** Geen directe biografische link met Boeddha's verlichting;
    vooral relevant voor wie de internationale/historische diversiteit wil zien.
-9. **Relaties/combinaties** Dicht bij Mahabodhi (046), eenvoudig te combineren.
+9. **Relaties/combinaties (GEO-symmetrisch bijgewerkt 2026-08-08, INDIA6 bericht 051)** Dicht bij
+   046 Mahabodhi Temple Complex, eenvoudig te combineren — en via dat gemeenschappelijke ankerpunt
+   ook met 049 Great Buddha Statue, 050 Archaeological Museum, 062 Mahabodhi Society, 068 Shechen
+   Monastery, 073 Jagannath Temple, 074 Dhamma Bodhi (elk onafhankelijk vlakbij 046 bevestigd, niet
+   paarsgewijs met deze kandidaat zelf opgemeten).
 
 ### 062 — Mahabodhi Society of India (Bodh Gaya-centrum)
 
@@ -475,7 +517,11 @@ zwaartesignalen. Expliciet aan INDIA6/Mark voorgelegd, geen zelfstandige INDIA-b
 8. **Reden om eventueel over te slaan** Geen levende praktijk in de zin van een klooster met
    monniken in dagelijkse studie; vooral relevant voor wie het herstelverhaal van 046 zelf wil
    begrijpen.
-9. **Relaties/combinaties** Direct ten westen van 046, onderdeel van hetzelfde complexbezoek.
+9. **Relaties/combinaties (GEO-symmetrisch bijgewerkt 2026-08-08, INDIA6 bericht 051)** Direct ten
+   westen van 046 Mahabodhi Temple Complex, onderdeel van hetzelfde complexbezoek — en via dat
+   gemeenschappelijke ankerpunt ook met 049 Great Buddha Statue, 050 Archaeological Museum, 061
+   Burmese Vihara, 068 Shechen Monastery, 073 Jagannath Temple, 074 Dhamma Bodhi (elk onafhankelijk
+   vlakbij 046 bevestigd, niet paarsgewijs met deze kandidaat zelf opgemeten).
 
 ### 063 — Padmasambhava Grand Temple and Nyingma Center
 
@@ -509,7 +555,10 @@ onbevestigd. Expliciet aan INDIA6/Mark voorgelegd.
    onopgeloste, keuze-relevante onzekerheid — niet zelf ingevuld.
 8. **Reden om eventueel over te slaan** Zeer nieuw, dus weinig onafhankelijke reisverslagen nog
    beschikbaar; wie liever een bewezen, langer bestaand klooster bezoekt kan dit overslaan.
-9. **Relaties/combinaties** Nog niet onderzocht qua exacte afstand tot andere kandidaten.
+9. **Relaties/combinaties (GEO-symmetrisch bijgewerkt 2026-08-08, INDIA6 bericht 051)**
+   Combineerbaarheid niet betrouwbaar vast te stellen na GEO-controle — geen afstands- of
+   nabijheidsgegevens t.o.v. andere kandidaten gevonden, en geen andere kandidaat vermeldt deze
+   plek als nabijgelegen.
 
 ### 064 — Chinese Temple — EXCLUDED
 
@@ -560,7 +609,11 @@ onderbouwing steunt op één hoofdbron. Expliciet aan INDIA6/Mark voorgelegd.
    bevestigen alleen naam/bestaan (Shechen Tennyi Dargyeling).
 8. **Reden om eventueel over te slaan** Geen directe biografische link met Boeddha's verlichting;
    vooral relevant voor wie de Nyingma-traditie specifiek wil verkennen.
-9. **Relaties/combinaties** Dicht bij Mahabodhi (046).
+9. **Relaties/combinaties (GEO-symmetrisch bijgewerkt 2026-08-08, INDIA6 bericht 051)** Dicht bij
+   046 Mahabodhi Temple Complex — en via dat gemeenschappelijke ankerpunt ook met 049 Great Buddha
+   Statue, 050 Archaeological Museum, 061 Burmese Vihara, 062 Mahabodhi Society, 073 Jagannath
+   Temple, 074 Dhamma Bodhi (elk onafhankelijk vlakbij 046 bevestigd, niet paarsgewijs met deze
+   kandidaat zelf opgemeten).
 
 ### 069 — Mongolian Temple — EXCLUDED
 
@@ -593,7 +646,9 @@ Nummer 069 blijft permanent gereserveerd (immutable-regel), niet aangeboden als 
    patroon als 051) — niet apart geverifieerd deze ronde, dus ook niet bevestigd als vrij.
 8. **Reden om eventueel over te slaan** Geen directe koppeling aan Marks Kriya-/boeddhistische
    focus; vooral relevant voor wie de bredere hindoe-krachtplaatsen van India wil zien.
-9. **Relaties/combinaties** Zelfde bredere Gaya-stad-zone als 051, 071, 078.
+9. **Relaties/combinaties (GEO-symmetrisch bijgewerkt 2026-08-08, INDIA6 bericht 051)** Zelfde
+   bredere Gaya-stad-zone als 051 Vishnupad Temple, 071 Pretshila Hill en 078 Gurdwara Sri Guru
+   Tegh Bahadur Ji.
 
 ### 071 — Pretshila Hill
 
@@ -614,7 +669,9 @@ Nummer 069 blijft permanent gereserveerd (immutable-regel), niet aangeboden als 
    toegang — tourism.bihar.gov.in, bihardarshann.wordpress.com, prayagpandits.com.
 8. **Reden om eventueel over te slaan** Geen directe koppeling aan Marks Kriya-/boeddhistische
    focus; vooral relevant voor wie de bredere hindoe-krachtplaatsen van India wil zien.
-9. **Relaties/combinaties** Zelfde bredere Gaya-stad-zone als 051, 070, 078.
+9. **Relaties/combinaties (GEO-symmetrisch bijgewerkt 2026-08-08, INDIA6 bericht 051)** Zelfde
+   bredere Gaya-stad-zone als 051 Vishnupad Temple, 070 Mangala Gauri Temple en 078 Gurdwara Sri
+   Guru Tegh Bahadur Ji.
 
 ### Boeddha-biografische plek na de verlichting
 
@@ -658,8 +715,10 @@ een traditionele/geleerde identificatie, geen GPS-exacte, onbetwiste zekerheid.
 8. **Reden om eventueel over te slaan** Geen bevestigd coördinaat, dus geen bekende exacte afstand
    of reistijd vanaf 046 — dat maakt inplannen nu nog lastig. Verder geen inhoudelijke reden
    gevonden om over te slaan.
-9. **Relaties/combinaties** In de bredere Gaya-omgeving; exacte afstand tot 046 nog niet
-   berekend (geen bevestigd coördinaat).
+9. **Relaties/combinaties (GEO-symmetrisch bijgewerkt 2026-08-08, INDIA6 bericht 051)**
+   Combineerbaarheid niet betrouwbaar vast te stellen na GEO-controle — ligt ergens in de bredere
+   Gaya-omgeving, maar geen bevestigd coördinaat en geen bevestigde relatieve afstand tot 046 of
+   tot de Gaya-stad-kandidaten (051/070/071/078) gevonden.
 
 ### Direct naast Mahabodhi
 
@@ -695,7 +754,11 @@ bedevaartsfaam zoals bij 051/070. Expliciet aan INDIA6/Mark voorgelegd.
    (officiële bron).
 8. **Reden om eventueel over te slaan** Geen directe biografische link met Boeddha's verlichting;
    vooral relevant voor wie het coëxistentieverhaal wil zien.
-9. **Relaties/combinaties** Direct naast 046, geen extra reisinspanning.
+9. **Relaties/combinaties (GEO-symmetrisch bijgewerkt 2026-08-08, INDIA6 bericht 051)** Direct
+   naast 046 Mahabodhi Temple Complex (25 voet/7,5 m), geen extra reisinspanning — en via dat
+   gemeenschappelijke ankerpunt ook met 049 Great Buddha Statue, 050 Archaeological Museum, 061
+   Burmese Vihara, 062 Mahabodhi Society, 068 Shechen Monastery, 074 Dhamma Bodhi (elk
+   onafhankelijk vlakbij 046 bevestigd, niet paarsgewijs met deze kandidaat zelf opgemeten).
 
 ### Meditatiecentrum
 
@@ -731,7 +794,11 @@ hier feitelijk niets van meemaken. Expliciet aan INDIA6/Mark voorgelegd.
 8. **Reden om eventueel over te slaan** Zeer afhankelijk van of Mark tijd/interesse heeft voor een
    volledige Vipassana-cursus (minimaal 10 dagen) — een kort of los bezoek is, voor zover bekend,
    geen optie hier.
-9. **Relaties/combinaties** Ontstaan bij het Samanvaya Ashram, vlak bij Mahabodhi (046).
+9. **Relaties/combinaties (GEO-symmetrisch bijgewerkt 2026-08-08, INDIA6 bericht 051)** Ontstaan
+   bij het Samanvaya Ashram, vlak bij 046 Mahabodhi Temple Complex — en via dat gemeenschappelijke
+   ankerpunt ook met 049 Great Buddha Statue, 050 Archaeological Museum, 061 Burmese Vihara, 062
+   Mahabodhi Society, 068 Shechen Monastery, 073 Jagannath Temple (elk onafhankelijk vlakbij 046
+   bevestigd, niet paarsgewijs met deze kandidaat zelf opgemeten).
 
 ### Signaleringszone — andere tradities
 
@@ -774,7 +841,9 @@ Gesignaleerd conform protocol, niet als kernkandidaat behandeld.
    bharatpedia.org.
 8. **Reden om eventueel over te slaan** Buiten de kernstraal, extra reisinspanning; alleen
    relevant als Mark specifiek geïnteresseerd is in interreligieuze/soefi-geschiedenis.
-9. **Relaties/combinaties** Nog niet onderzocht — signaleringszone, geen routegegevens verzameld.
+9. **Relaties/combinaties (GEO-symmetrisch bijgewerkt 2026-08-08, INDIA6 bericht 051)**
+   Combineerbaarheid niet betrouwbaar vast te stellen na GEO-controle — signaleringszone (20-25
+   km), geen routegegevens verzameld, geen andere kandidaat in deze zone bekend.
 
 ### Sikh-traditie
 
@@ -817,7 +886,8 @@ overclaim.
    academische of primaire bron — sikhiwiki.org, worldgurudwaras.com.
 8. **Reden om eventueel over te slaan** Geen directe koppeling aan Marks Kriya-/boeddhistische
    focus; vooral relevant voor wie de bredere religieuze diversiteit van Gaya wil zien.
-9. **Relaties/combinaties** Zelfde bredere Gaya-stad-zone als 051, 070, 071.
+9. **Relaties/combinaties (GEO-symmetrisch bijgewerkt 2026-08-08, INDIA6 bericht 051)** Zelfde
+   bredere Gaya-stad-zone als 051 Vishnupad Temple, 070 Mangala Gauri Temple en 071 Pretshila Hill.
 
 ---
 
