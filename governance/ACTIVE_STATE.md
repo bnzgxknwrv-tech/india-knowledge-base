@@ -49,16 +49,15 @@ REGIONS:
       NOT_TO_BE_MISSED-locatie
 
   BODHGAYA:
-    fase: GOUD (keuzerapport geschreven en content-QA-gecorrigeerd; wacht op finale acceptatie)
+    fase: GOUD, PDF geleverd (V1) — wacht op Marks eigen A/B/C op de 16 open kandidaten
     saturation-status: SATURATED=JA (SATURATION_REPORT_002.md + _003_ADDENDUM.md)
     INDIA_ACCEPTED_SATURATION: JA (geaccepteerd, bericht 028)
+    CONTENT_QA_ACCEPTED: JA (bericht 048); PDF_GO: JA (bericht 048)
     Mark-selection-status: 046-049 = A (PROTECTED, besluit 2026-08-05, direct na de eerste
       keuze-reisgids-PDF); 16 kandidaten nog door Mark te beoordelen (050, 051, 052, 058, 060,
       061, 062, 063, 068, 070, 071, 072, 073, 074, 077, 078), waarvan 9 met een expliciete
       twijfelgeval-kanttekening (058, 060, 061, 063, 068, 073, 074, 077, 078) na de retroactieve
-      E.1-canontoets — MARK_SELECTION_REPORT.md staat daarvoor klaar, content-QA-ronde verwerkt
-      (geen voorspellende A/B/C-taal, sourcing/toegankelijkheid gecorrigeerd, religie-
-      onafhankelijke bedevaartszoeking toegepast, zie hieronder)
+      E.1-canontoets — nu ook in de V1-PDF verwerkt (zie hieronder)
     protected A/B/C-besluiten: 046 Mahabodhi Temple Complex = A; 047 Sujata Stupa = A; 048
       Dungeshwari Cave Temples = A; 049 Great Buddha Statue = A (bron:
       runs/active/BODHGAYA-DISCOVERY-001/MARK_DECISIONS_2026-08-05.jsonl)
@@ -68,13 +67,11 @@ REGIONS:
       of pure architectuur, geen zelfstandige bedevaarts-/heilige zwaarte); 076 (Akshayavat) =
       SUBLOCATION, samengevoegd bij 051 (Vishnupad Temple) — alle 13 uitgesloten/sublocatie-
       nummers blijven permanent gereserveerd, nooit hergebruikt
-    blockers: geen open content-blocker meer na de QA-ronde (bericht 030) + de retroactieve
-      E.1-canontoets (bericht 042); wacht op INDIA/Mark om MARK_SELECTION_REPORT.md inhoudelijk te
-      accepteren, inclusief een besluit over de 9 twijfelgevallen
-    next_allowed_step: content-QA-acceptatie (CONTENT_QA_ACCEPTED: JA) door de huidige
-      INDIA-regisseur; PAS DAARNA, en alleen met een apart, letterlijk PDF_GO: JA, mag een PDF
-      gebouwd worden (20 actieve keuzelocaties, plus Mahabodhi weeksublocaties zonder eigen
-      nummer)
+    blockers: geen — inhoud en PDF zijn geleverd; wacht uitsluitend op Marks eigen A/B/C-keuze
+    PDF geleverd: runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/V1_BODHGAYA_KEUZE_REISGIDS.pdf
+      (19 pagina's, commit 5910439) — eerste build onder de V1_-naamgevingsregel voor deze run
+    next_allowed_step: Mark beoordeelt de 16 open kandidaten (A/B/C); een volgende PDF-build
+      vereist opnieuw een apart, letterlijk PDF_GO: JA en wordt V2_ (nooit V1_ overschrijven)
 ```
 
 ## Governance-canon (versie-onafhankelijk, deze map)
