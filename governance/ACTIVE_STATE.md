@@ -52,10 +52,13 @@ REGIONS:
     fase: GOUD (keuzerapport geschreven en content-QA-gecorrigeerd; wacht op finale acceptatie)
     saturation-status: SATURATED=JA (SATURATION_REPORT_002.md + _003_ADDENDUM.md)
     INDIA_ACCEPTED_SATURATION: JA (geaccepteerd, bericht 028)
-    Mark-selection-status: nog GEEN A/B/C — MARK_SELECTION_REPORT.md staat klaar voor Marks eigen
-      keuze, content-QA-ronde verwerkt (geen voorspellende A/B/C-taal, sourcing/toegankelijkheid
-      gecorrigeerd)
-    protected A/B/C-besluiten: nog geen (Mark heeft nog niet gekozen)
+    Mark-selection-status: 046-049 = A (PROTECTED, besluit 2026-08-05, direct na de eerste
+      keuze-reisgids-PDF); 050-068, 070-074, 077-078 nog door Mark te beoordelen —
+      MARK_SELECTION_REPORT.md staat daarvoor klaar, content-QA-ronde verwerkt (geen
+      voorspellende A/B/C-taal, sourcing/toegankelijkheid gecorrigeerd)
+    protected A/B/C-besluiten: 046 Mahabodhi Temple Complex = A; 047 Sujata Stupa = A; 048
+      Dungeshwari Cave Temples = A; 049 Great Buddha Statue = A (bron:
+      runs/active/BODHGAYA-DISCOVERY-001/MARK_DECISIONS_2026-08-05.jsonl)
     reserved/excluded nummers: 069 (Mongolian Temple) = EXCLUDED_HARD_REASON; 075 (Jain Temple
       Gaya) = EXCLUDED_HARD_REASON; 076 (Akshayavat) = SUBLOCATION, samengevoegd bij 051
       (Vishnupad Temple), geen zelfstandige kandidaat — alle drie nummers permanent gereserveerd,
