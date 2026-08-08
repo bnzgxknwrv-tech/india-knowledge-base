@@ -88,9 +88,13 @@ REGIONS:
       (19 pagina's, commit 5910439) — eerste build onder de V1_-naamgevingsregel voor deze run;
       GEEN nieuwe A/B/C-status meer, PDF toont de OUDE open/twijfelgeval-labels — vervangen zodra
       een V2_ wordt gebouwd, niet tussentijds herbouwd
-    next_allowed_step: CCI stelt PRE_PDF_CONTENT.md op (nieuwe standaard, berichten 055/056) met
-      de 2 MARK_DECISION_CONFLICTs zichtbaar gemarkeerd, commit, STOP zonder te renderen — pas na
-      expliciete PRE_PDF_CONTENT_APPROVED: JA + PDF_GO: JA volgt V2_
+    PRE_PDF_CONTENT geleverd: runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/PRE_PDF_CONTENT.md —
+      volledige beoogde V2-PDF-inhoud (20 kandidaatkaarten met alle 10 verplichte velden,
+      beslismatrix, clusteroverzicht, de 2 MARK_DECISION_CONFLICTs zichtbaar gemarkeerd), NOG GEEN
+      PDF gerenderd
+    next_allowed_step: INDIA leest PRE_PDF_CONTENT.md volledig, geeft correcties (verwerkt in
+      hetzelfde bestand) of `PRE_PDF_CONTENT_APPROVED: JA`; pas daarna, met een apart, letterlijk
+      `PDF_GO: JA`, mag V2_ gerenderd worden
 ```
 
 ## Governance-canon (versie-onafhankelijk, deze map)
