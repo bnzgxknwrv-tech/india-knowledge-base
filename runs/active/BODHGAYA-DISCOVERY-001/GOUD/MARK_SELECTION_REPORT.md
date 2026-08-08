@@ -17,14 +17,17 @@ geen reisplanning, geen nieuwe regio.
 A, zie `MARK_DECISIONS_2026-08-05.jsonl`). Ze worden hieronder uitsluitend ter referentie kort
 herhaald, niet opnieuw beoordeeld.
 
-**Bijgewerkt 2026-08-06 (INDIA6, berichten 024/026/028) — definitieve saturation sweep**: dit
-rapport dekt nu alle actieve Bodh Gaya-kandidaten, 046-078, met twee uitzonderingen die
-permanent genummerd blijven maar niet als losse keuze worden aangeboden: **075** (Jain Temple,
-Gaya) is `EXCLUDED_HARD_REASON` na hertoetsing (geen zelfstandige betekenis/ervaring boven "een
-Jaintempel"), en **076** (Akshayavat) is een sublocatie binnen het bezoek aan 051 (Vishnupad),
-inhoudelijk daar verwerkt. Volledige onderbouwing: `PRE_BRONS/SATURATION_REPORT_002.md` en
-`SATURATION_REPORT_003_ADDENDUM.md`. Actief aantal keuzeplekken in dit rapport: 31 (046-049 vast
-A, 050-074 en 077-078 door Mark te beoordelen).
+**Bijgewerkt 2026-08-06 (INDIA6, berichten 024/026/028/030) — definitieve saturation sweep +
+inhoudelijke kwaliteitscontrole**: dit rapport dekt nu alle actieve Bodh Gaya-kandidaten,
+046-078, met drie uitzonderingen die permanent genummerd blijven maar niet als losse keuze
+worden aangeboden: **069** (Mongolian Temple) en **075** (Jain Temple, Gaya) zijn
+`EXCLUDED_HARD_REASON` na (her)toetsing (geen zelfstandige betekenis/ervaring boven "een tempel
+van land X"), en **076** (Akshayavat) is een sublocatie binnen het bezoek aan 051 (Vishnupad),
+inhoudelijk daar verwerkt. Volledige onderbouwing: `PRE_BRONS/SATURATION_REPORT_002.md`,
+`SATURATION_REPORT_003_ADDENDUM.md`. Dit rapport is bovendien gecontroleerd op voorspelde A/B/C-
+taal (verwijderd, uitsluitend feiten + reden om over te slaan resteren) en op interne
+bronkwaliteit-tegenstrijdigheden (gecorrigeerd). Actief aantal keuzeplekken in dit rapport: 30
+(046-049 vast A, 050-068 en 070-074 en 077-078 door Mark te beoordelen).
 
 ---
 
@@ -207,10 +210,10 @@ Mark een eerlijke keuze te geven; daar is gericht aanvullend onderzoek gedaan.
 5. **Permanent of afhankelijk?** Permanent — reguliere museumopeningstijden, geen cursus, leraar,
    ceremonie of seizoen vereist.
 6. **Bezoekbaarheid voor gewone reiziger?** Volledig — entreekaartje, geen speciale toegang.
-7. **Waarom A, B of C mogelijk?** A onwaarschijnlijk (geen levende praktijk, geen directe
-   biografische link met Boeddha's verlichtingsverhaal zelf), maar B of C goed voorstelbaar voor
-   wie de archeologische/historische diepte van de plek wil begrijpen — de objecten zijn letterlijk
-   afkomstig van 046.
+7. **Relevante feiten voor Marks eigen afweging** Geen levende praktijk — het is een museum,
+   geen actieve tempel — en geen directe biografische link met Boeddha's verlichtingsverhaal zelf.
+   De objecten zijn wel letterlijk afkomstig van 046, relevant voor wie de archeologische/
+   historische diepte van de plek wil begrijpen.
 8. **Einduitkomst:** **MARK_WAARDIG.**
 
 ### 051 — Vishnupad Temple, Gaya
@@ -241,12 +244,11 @@ niet als feit overgenomen.
    vermoedelijk niet toegankelijk (zie toegangsregel); de omgeving en het religieuze leven
    eromheen zijn wel te zien. Dit is wezenlijk anders dan de andere kandidaten in dit rapport, die
    allemaal vrij toegankelijk zijn.
-7. **Waarom A, B of C mogelijk?** Geen directe koppeling aan Marks eigen Kriya-/boeddhistische
-   focus, dus A minder waarschijnlijk zonder verdere reden. De gecorrigeerde toegangsbeperking
-   (punt 6) betekent bovendien dat een bezoek vermoedelijk uitsluitend de sfeer/omgeving oplevert,
-   niet het relict zelf — een relevant gegeven bij de afweging, geen uitsluitingsgrond. De
-   singuliere aard van het relict en de nationale religieuze betekenis maken B of C nog steeds
-   voorstelbaar, vooral als Mark interesse heeft in de bredere hindoe-krachtplaatsen van India.
+7. **Relevante feiten voor Marks eigen afweging** Geen directe koppeling aan Marks eigen Kriya-/
+   boeddhistische focus. De toegangsbeperking (punt 6) betekent dat een bezoek vermoedelijk
+   uitsluitend de sfeer/omgeving oplevert, niet het relict zelf — een relevant gegeven, geen
+   uitsluitingsgrond. Het relict is singulier en heeft nationale religieuze betekenis, relevant
+   voor wie interesse heeft in de bredere hindoe-krachtplaatsen van India.
 8. **Einduitkomst:** **MARK_WAARDIG.**
 
 **Akshayavat, verwerkt bij dit bezoek (INDIA6-besluit, bericht 028)**: binnen dezelfde
@@ -283,9 +285,11 @@ zichtbaarheid. Bronvoorbehoud: er bestaat een andere, bekendere Akshayavat in Pr
    publieke bezoekersprogramma's buiten het festival gevonden.
 6. **Bezoekbaarheid?** Onzeker buiten het festivalseizoen — eerlijk als open punt gemeld, niet
    verzonnen.
-7. **Waarom A, B of C mogelijk?** A alleen aannemelijk als Mark's reis samenvalt met het Monlam;
-   anders eerder C ("bezoeken als tijd/route het toelaten") — maar de stichter en de Karmapa-
-   connectie zijn concreet genoeg om Mark een eerlijke keuze te geven.
+7. **Relevante feiten voor Marks eigen afweging** De sterkste reden om te komen (aanwezigheid van
+   de Karmapa tijdens het Monlam) valt of staat met of Mark's reis samenvalt met het festival
+   (data van de eerstvolgende editie: ONBEKEND, zie punt 3). Buiten die periode is het een
+   regulier, minder uitzonderlijk studieklooster. Stichter en Karmapa-connectie zijn concreet
+   gedocumenteerd.
 8. **Einduitkomst:** **MARK_WAARDIG.**
 
 ### 053 — Root Institute (FPMT)
@@ -323,9 +327,9 @@ manieren om hier te komen, niet slechts "met of zonder cursus":
 6. **Bezoekbaarheid?** VOLLEDIG voor een gewoon dagbezoek (tuinen, dagelijkse meditatiesessies) en
    voor een gewoon verblijf zonder cursus (tegen betaling van accommodatie/maaltijden); alleen de
    residentiële cursus zelf vereist vooraf inschrijving.
-7. **Waarom A, B of C mogelijk?** Toegankelijk op meerdere niveaus (kort dagbezoek, gewoon
-   verblijf, of meerdaagse cursus) maakt een eerlijke keuze breder dan eerder vermeld — welk
-   niveau bij Mark past, is aan hem.
+7. **Relevante feiten voor Marks eigen afweging** Toegankelijk op meerdere, onafhankelijke
+   niveaus: kort dagbezoek, gewoon verblijf zonder cursus, of de meerdaagse residentiële cursus.
+   Elk niveau vraagt een andere tijdsinvestering en interesse.
 8. **Einduitkomst:** **MARK_WAARDIG.**
 
 ### 054 — Wat Thai Buddhagaya (Thai Monastery)
@@ -364,11 +368,10 @@ Thaise-stijl klooster in Delhi). De houdbare claim is: de Thaise tempel binnen B
    een officiële bevestiging — als ze bestaan, is de architectuur zelf hoe dan ook een
    permanente, niet-afhankelijke reden om te komen.
 6. **Bezoekbaarheid?** Volledig, vrij toegankelijk.
-7. **Waarom A, B of C mogelijk?** Kandidaat op basis van de bevestigde feiten alleen (de Thaise
-   tempel binnen Bodh Gaya, Nehru-uitnodiging, opvallend afwijkende architectuur) — B goed
-   voorstelbaar, A niet uitgesloten, maar zonder de eerdere overclaims (enige Thaise tempel in
-   heel India, eerste buitenlandse klooster ooit, apart 25 m tuinbeeld, bevestigde dagelijkse
-   sessies).
+7. **Relevante feiten voor Marks eigen afweging** De bevestigde feiten zijn: de Thaise tempel
+   binnen Bodh Gaya, de Nehru-uitnodiging, en de opvallend afwijkende architectuur. De eerdere
+   overclaims (enige Thaise tempel in heel India, eerste buitenlandse klooster ooit, apart 25 m
+   tuinbeeld, bevestigde dagelijkse sessies) zijn verwijderd of gecorrigeerd — zie boven.
 8. **Einduitkomst:** **MARK_WAARDIG.**
 
 ### 055 — Royal Bhutan Monastery
@@ -393,9 +396,9 @@ Thaise-stijl klooster in Delhi). De houdbare claim is: de Thaise tempel binnen B
 5. **Permanent of afhankelijk?** Permanent — gebouw en architectuur zijn er altijd, geen cursus
    of evenement vereist. Publieke toegang officieel bevestigd (tourism.bihar.gov.in).
 6. **Bezoekbaarheid?** Volledig, klein wisselend gezelschap Bhutaanse monniken aanwezig.
-7. **Waarom A, B of C mogelijk?** Geen directe biografische link met Boeddha's verlichting, dus
-   A minder waarschijnlijk zonder architectuurinteresse, maar de onderscheidende, elders in de
-   straal niet te vinden dzong-architectuur maakt B of C goed voorstelbaar.
+7. **Relevante feiten voor Marks eigen afweging** Geen directe biografische link met Boeddha's
+   verlichting. De dzong-architectuur is elders in de straal niet te vinden en officieel bevestigd
+   als een van de meest opvallende voorbeelden buiten de Himalaya zelf.
 8. **Einduitkomst:** **MARK_WAARDIG.**
 
 ### 056 — Tibetan Temple (Tibetaans klooster tegenover Mahabodhi)
@@ -427,10 +430,9 @@ nummer 056 blijft ongewijzigd; alleen de naam en de onderbouwing zijn gecorrigee
 5. **Permanent of afhankelijk?** Permanent — geen cursus, evenement of seizoen vereist voor het
    bezoeken van het gebouw en het bekijken van de gebedsmolen/het beeld.
 6. **Bezoekbaarheid?** Volledig, direct tegenover 046, geen extra reisinspanning.
-7. **Waarom A, B of C mogelijk?** Op basis van de bevestigde feiten alleen (ligging tegenover
-   046, de opvallende grote gebedsmolen, het Maitreya-beeld) een degelijke C-, mogelijk B-optie;
-   A is niet uitgesloten voor wie specifiek waarde hecht aan Tibetaans-boeddhistische symboliek,
-   maar niet op basis van een onbevestigde Dalai Lama-connectie.
+7. **Relevante feiten voor Marks eigen afweging** De bevestigde feiten zijn: ligging tegenover
+   046, de opvallende grote gebedsmolen, het Maitreya-beeld. De eerder gesuggereerde Dalai
+   Lama-connectie is niet bevestigd en dus geen geldig gegeven voor de afweging.
 8. **Einduitkomst:** **MARK_WAARDIG.** Open onzekerheid: de exacte institutionele
    gelieerdheid (eventuele koppeling aan Namgyal Monastery of een andere orde) is niet
    bevestigd door de officiële bron en wordt uitsluitend als onbevestigde alias vermeld.
@@ -455,10 +457,9 @@ reisbronnen, geen enkelvoudige bron als kernonderbouwing gebruikt.*
    Avalokiteshvara-focus in plaats van een Boeddha-focus.
 5. **Permanent of afhankelijk?** Permanent, geen cursus of evenement vereist.
 6. **Bezoekbaarheid?** Volledig, vrij toegankelijk.
-7. **Waarom A, B of C mogelijk?** Geen directe biografische link met Boeddha's eigen verhaal,
-   dus eerder B/C dan A — maar de architectonische en iconografische eigenheid (Avalokiteshvara
-   i.p.v. Boeddha) maakt het een redelijke C-kandidaat voor wie de internationale diversiteit
-   van Bodh Gaya wil zien.
+7. **Relevante feiten voor Marks eigen afweging** Geen directe biografische link met Boeddha's
+   eigen verhaal. De architectonische en iconografische eigenheid (Avalokiteshvara i.p.v.
+   Boeddha) is relevant voor wie de internationale diversiteit van Bodh Gaya wil zien.
 8. **Einduitkomst:** **MARK_WAARDIG.**
 
 ### 058 — Japanese Temple / Indosan Nippon (Nipponzan-Myohoji)
@@ -482,19 +483,20 @@ Fujii-stichtingsgeschiedenis.*
    koppeling aan de internationale vredespagode-beweging.
 5. **Permanent of afhankelijk?** Permanent, geen cursus of evenement vereist.
 6. **Bezoekbaarheid?** Volledig, vrij toegankelijk, gratis entree (bevestigd).
-7. **Waarom A, B of C mogelijk?** Geen directe biografische link met Boeddha's verlichting, dus
-   eerder B/C dan A — maar de stichtersgeschiedenis (Fujii, vredesbeweging) is concreet en
-   onderscheidend genoeg om een eerlijke B/C-overweging te verdienen.
+7. **Relevante feiten voor Marks eigen afweging** Geen directe biografische link met Boeddha's
+   verlichting. De stichtersgeschiedenis (Fujii, internationale vredesbeweging) is concreet en
+   onderscheidend gedocumenteerd.
 8. **Einduitkomst:** **MARK_WAARDIG.**
 
 ---
 
-## Deel 2b — Nieuwe locaties uit de definitieve saturation sweep (059-074, 077-078)
+## Deel 2b — Nieuwe locaties uit de definitieve saturation sweep (059-068, 070-074, 077-078)
 
-Gevonden en genummerd op verzoek van INDIA6 (berichten 024 en 026, volledige onderbouwing in
-`PRE_BRONS/SATURATION_REPORT_002.md` en `SATURATION_REPORT_003_ADDENDUM.md`). 075 (Jain Temple,
-Gaya) is EXCLUDED en wordt hier niet aangeboden. 076 (Akshayavat) is verwerkt bij 051 hierboven en
-wordt hier niet los aangeboden — het nummer blijft permanent gereserveerd.
+Gevonden en genummerd op verzoek van INDIA6 (berichten 024, 026 en 030, volledige onderbouwing in
+`PRE_BRONS/SATURATION_REPORT_002.md` en `SATURATION_REPORT_003_ADDENDUM.md`). 069 (Mongolian
+Temple) en 075 (Jain Temple, Gaya) zijn `EXCLUDED_HARD_REASON` en worden hier niet aangeboden.
+076 (Akshayavat) is verwerkt bij 051 hierboven en wordt hier niet los aangeboden — alle drie
+nummers blijven permanent gereserveerd.
 
 Per locatie: wat is het, waarom hierheen, spirituele/historische betekenis, concrete ervaring,
 onderscheidend vermogen, praktische toegankelijkheid, relevante onzekerheden, reden om eventueel
@@ -516,8 +518,9 @@ over te slaan, relaties/combinaties voor zover feitelijk bekend. Geen A/B/C inge
 5. **Onderscheidend vermogen** Enige zilver/spiegel-tempel in Bodh Gaya; geen enkele andere
    kandidaat heeft deze esthetiek.
 6. **Praktische toegankelijkheid** Vrij toegankelijk, geen inschrijving of entreekosten gemeld.
-7. **Relevante onzekerheden** Geen officiële/academische bron gevonden — alleen tourism.bihar.gov.in
-   en reisbronnen (chalbanjare.com, tripadvisor.com).
+7. **Relevante onzekerheden** Officiële overheidsbron (tourism.bihar.gov.in) bevestigt bestaan en
+   basisfeiten; geen academische bron gevonden. Aanvullende details via reisbronnen
+   (chalbanjare.com, tripadvisor.com).
 8. **Reden om eventueel over te slaan** Zelfde bredere Thaise traditie als 054 — wie al voor 054
    kiest en geen specifieke architectuurinteresse heeft, kan dit als niet-essentiële aanvulling
    zien.
@@ -599,15 +602,19 @@ over te slaan, relaties/combinaties voor zover feitelijk bekend. Geen A/B/C inge
    van de Karmapa.
 3. **Spirituele/historische betekenis** Huisvest monniken, nonnen en ngakpa's tijdens het
    jaarlijkse gebedsfestival — een actief, groeiend centrum, geen statisch monument.
-4. **Concrete ervaring** Een grootschalig, nieuw tempelcomplex; buiten het festivalseizoen
-   vermoedelijk rustiger.
+4. **Concrete ervaring** Een grootschalig, nieuw tempelcomplex, tijdens het festivalseizoen
+   (januari) vol met monniken/nonnen/ngakpa's.
 5. **Onderscheidend vermogen** Bevestigd DIFFERENT_LOCATIONS t.o.v. Palyul Namdroling (060) en
    Shechen Monastery (068) — een derde, aparte Nyingma-vestiging (zie identiteitscontrole
    `SATURATION_REPORT_003_ADDENDUM.md`).
-6. **Praktische toegankelijkheid** Vrij toegankelijk verwacht (nieuw, geen expliciete
-   toegangsregel gevonden); drukst tijdens de jaarlijkse Monlam Chenmo (januari).
-7. **Relevante onzekerheden** Exacte publieke toegankelijkheid buiten het festivalseizoen niet
-   bevestigd — tibet.net (Central Tibetan Administration), buddhistdoor.net, kagyuoffice.org.
+6. **Praktische toegankelijkheid** ONBEVESTIGD BUITEN HET FESTIVAL (INDIA6 bericht 030, gericht
+   gecontroleerd): geen enkele geraadpleegde bron (tibet.net, buddhistdoor.net, kagyuoffice.org)
+   vermeldt reguliere openingstijden, dagelijkse toegankelijkheid of een bezoekersbeleid buiten de
+   Monlam Chenmo. De eerdere aanname "vrij toegankelijk verwacht" is verwijderd — dit is niet
+   bevestigd en dus niet aangenomen. Wat wél vaststaat: tijdens het festivalseizoen (januari) is
+   het complex actief en vol.
+7. **Relevante onzekerheden** Publieke toegankelijkheid buiten het festivalseizoen is een
+   onopgeloste, keuze-relevante onzekerheid — niet zelf ingevuld.
 8. **Reden om eventueel over te slaan** Zeer nieuw, dus weinig onafhankelijke reisverslagen nog
    beschikbaar; wie liever een bewezen, langer bestaand klooster bezoekt kan dit overslaan.
 9. **Relaties/combinaties** Nog niet onderzocht qua exacte afstand tot andere kandidaten.
@@ -704,22 +711,15 @@ over te slaan, relaties/combinaties voor zover feitelijk bekend. Geen A/B/C inge
    vooral relevant voor wie de Nyingma-traditie specifiek wil verkennen.
 9. **Relaties/combinaties** Dicht bij Mahabodhi (046).
 
-### 069 — Mongolian Temple
+### 069 — Mongolian Temple — EXCLUDED
 
-1. **Wat is het?** Een eenvoudig ogende tempel die de Mongoolse boeddhistische traditie
-   vertegenwoordigt.
-2. **Waarom hierheen?** Mongoolse boeddhisme is een eigen, historisch onderscheiden vermenging
-   van Tibetaans Vajrayana-boeddhisme met Mongoolse cultuur — anders volledig afwezig in de straal.
-3. **Spirituele/historische betekenis** Niet specifiek gedocumenteerd buiten de nationale
-   vertegenwoordiging zelf — de onderscheiding zit vooral in de traditie, minder in het gebouw.
-4. **Concrete ervaring** Eenvoudige, serene tempelarchitectuur.
-5. **Onderscheidend vermogen** Enige Mongoolse vertegenwoordiging in de straal.
-6. **Praktische toegankelijkheid** Vermoedelijk vrij toegankelijk (niet expliciet bevestigd).
-7. **Relevante onzekerheden** Alleen reisbronnen (kuchbhi.com) — geen officiële of academische
-   bron gevonden, zwakker onderbouwd dan de meeste andere kandidaten.
-8. **Reden om eventueel over te slaan** Dunne bronbasis, weinig fysiek-onderscheidende details
-   gevonden.
-9. **Relaties/combinaties** Nog niet onderzocht.
+**Hertoetsing (INDIA6 bericht 030):** strikt opnieuw beoordeeld tegen de vraag of er een
+zelfstandig verhaal, object, praktijk of ervaring is boven "een Mongoolse vertegenwoordiging".
+Na deze en de eerdere onderzoeksronde is niets gevonden buiten: "een eenvoudig ogende tempel...
+Buddhist serenity" (kuchbhi.com, de enige bron). Geen naam, geen stichtingsjaar, geen specifiek
+object, geen bevestigde praktijk. Dit voldoet aan de harde uitsluitingsgrond "geen zelfstandige
+betekenis of ervaring" — niet behouden vanwege landendekking. Status: `EXCLUDED_HARD_REASON`.
+Nummer 069 blijft permanent gereserveerd (immutable-regel), niet aangeboden als keuze.
 
 ### Hindoeïstische plekken, Gaya-stad
 
@@ -769,8 +769,24 @@ over te slaan, relaties/combinaties voor zover feitelijk bekend. Geen A/B/C inge
 
 ### 072 — Brahmayoni Hill / Gayasisa Stupa (Vuurpreek-locatie)
 
-1. **Wat is het?** Een heuvel (voorheen Gayasisa genoemd) waar Boeddha de beroemde Vuurpreek
-   (Adittapariyaya Sutta) hield, gemarkeerd door de Gayasisa Stupa.
+**Bronversterking (INDIA6 bericht 030 — Alamy/fandom mochten niet de dragende bron zijn):** de
+klassieke Pali-canon plaatst de Vuurpreek zelf op "Gayasisa, near Gaya" (Samyutta Nikaya;
+Vinaya i.34f, ii.199) — dit is een primaire tekstbron, geen toeristische claim. De identificatie
+van deze Gayasisa met de huidige Brahmayoni-heuvel komt uit G.P. Malalasekera's "Dictionary of
+Pali Proper Names" (het standaard academische naslagwerk voor Pali-plaatsnamen, hier geraadpleegd
+via de samenvatting op wisdomlib.org): "The hill stands about one mile to the south west of Gaya
+and is now called Brahmayoni." Dezelfde bron citeert de 7e-eeuwse Chinese pelgrim Xuanzang
+(Hiouen Thsang), die er de drie stoepa's zag van de bekeerde Kassapa-broers (de voormalige
+vuuraanbidders uit het Vuurpreek-verhaal). Onafhankelijk hiervan zijn op en rond de Brahmayoni-
+heuvel archeologische vondsten gedaan (Boeddhabeelden in bhumisparsa-mudra, een votiefstoepa,
+stenen met Pali-inscripties) die vroege boeddhistische aanwezigheid bevestigen. Dit is dus een
+drievoudig onderbouwde identificatie (primaire canon + academisch naslagwerk + archeologie), geen
+losse toeristische claim — al blijft het, zoals bij vrijwel elke 2500 jaar oude plaatsidentificatie,
+een traditionele/geleerde identificatie, geen GPS-exacte, onbetwiste zekerheid.
+
+1. **Wat is het?** Een heuvel (voorheen Gayasisa genoemd, nu Brahmayoni), waar volgens de Pali-
+   canon en de academische identificatie hierboven Boeddha de Vuurpreek (Adittapariyaya Sutta)
+   hield, gemarkeerd door de Gayasisa Stupa.
 2. **Waarom hierheen?** Boeddha preekte hier aan circa 1000 voormalige vuur-vererende asceten, die
    allen verlicht raakten tijdens het luisteren — een van Boeddha's bekendste toespraken.
 3. **Spirituele/historische betekenis** Een biografisch/leerstellig moment NA de verlichting, in
@@ -782,11 +798,15 @@ over te slaan, relaties/combinaties voor zover feitelijk bekend. Geen A/B/C inge
    onderwijzende periode).
 6. **Praktische toegankelijkheid** Publiek toegankelijke heuvel/pelgrimsplek (niet expliciet
    toegangsbeperkt).
-7. **Relevante onzekerheden** Geen officiële overheidsbron met de volledige Vuurpreek-context
-   gevonden — alamy.com (fotobijschriften), jatland.com, religion.fandom.com,
-   gaya.nic.in/places-of-interest.
-8. **Reden om eventueel over te slaan** Geen duidelijke reden — dit is qua biografisch gewicht
-   vergelijkbaar met de bestaande kerncluster-kandidaten.
+7. **Relevante onzekerheden** De plaatsidentificatie zelf steunt nu op de sterkere bronnen
+   hierboven (Pali-canon, Malalasekera/wisdomlib.org, Xuanzang, archeologie); wat WEL onbevestigd
+   blijft: geen enkele officiële overheidsbron (zoals tourism.bihar.gov.in) is gevonden die de
+   Vuurpreek-context zelf vermeldt — gaya.nic.in noemt de heuvel wel als bezienswaardigheid, maar
+   niet expliciet in de Vuurpreek-context. Aanvullend, ter illustratie: alamy.com (fotobijschriften),
+   jatland.com, religion.fandom.com.
+8. **Reden om eventueel over te slaan** Geen bevestigd coördinaat, dus geen bekende exacte afstand
+   of reistijd vanaf 046 — dat maakt inplannen nu nog lastig. Verder geen inhoudelijke reden
+   gevonden om over te slaan.
 9. **Relaties/combinaties** In de bredere Gaya-omgeving; exacte afstand tot 046 nog niet
    berekend (geen bevestigd coördinaat).
 
@@ -794,18 +814,28 @@ over te slaan, relaties/combinaties voor zover feitelijk bekend. Geen A/B/C inge
 
 ### 073 — Jagannath Temple (naast Mahabodhi)
 
-1. **Wat is het?** Een hindoetempel op circa 25 voet (7,5 m) afstand ten noorden van de
-   Mahabodhi-tempel zelf, met Krishna/Balarama/Subhadra-idolen en een Ram-Janaki-tempel.
+1. **Wat is het?** Een hindoetempel op officieel bevestigd 25 voet (7,5 m) afstand ten noorden
+   van de Mahabodhi-tempel zelf, met grote idolen van Krishna, Balarama en Subhadra, en een
+   nieuw gebouwde Ram-Janaki-tempel binnen hetzelfde complex.
 2. **Waarom hierheen?** De opvallende fysieke nabijheid tot de heiligste boeddhistische plek ter
-   wereld — een eigen interreligieus coëxistentieverhaal.
-3. **Spirituele/historische betekenis** Toont hoe hindoeïsme en boeddhisme letterlijk naast
-   elkaar bestaan op de drempel van 046.
-4. **Concrete ervaring** Een actieve tempel met dagelijkse Mahaprasad-uitdeling (12.00-14.00u).
+   wereld — een eigen interreligieus coëxistentieverhaal, letterlijk op de drempel van 046.
+3. **Spirituele/historische betekenis** Jaarlijkse rathyatra (wagenprocessie) in juni/juli,
+   gelijktijdig met het festival van de Jagannath-tempel in Puri. Een oude peepal-boom staat op
+   het terrein; de hoofdingang ligt op het zuiden.
+4. **Concrete ervaring** Een actieve tempel met dagelijkse Mahaprasad-uitdeling (12.00-14.00u,
+   rijst/linzen/groenten/papadum door de week, khichdi op zaterdag).
 5. **Onderscheidend vermogen** Geen andere kandidaat in dit rapport ligt zo dicht bij 046 met een
    eigen, andere traditie.
-6. **Praktische toegankelijkheid** Vrij toegankelijk, actieve publieke tempel.
-7. **Relevante onzekerheden** Geen expliciete niet-hindoe-toegangsregel gevonden (niet apart
-   geverifieerd) — tourism.bihar.gov.in, quora.com, tripadvisor.com.
+6. **Praktische toegankelijkheid** GEVERIFIEERD specifiek voor deze tempel (INDIA6 bericht 030,
+   niet afgeleid van de Jagannath-tempel in Puri): de officiële Bihar Tourism-pagina voor DEZE
+   tempel vermeldt generieke bezoekersregels (gepaste kleding, schoenen uit, respectvol
+   deelnemen aan rituelen, elektronica toegestaan) en noemt GEEN religie- of
+   nationaliteitsgebonden toegangsbeperking — een wezenlijk andere situatie dan de
+   Puri-Jagannath-tempel, die wel zo'n beperking heeft. Beste bezoekperiode: september-april.
+7. **Relevante onzekerheden** Het ontbreken van een vermelde beperking op een algemene
+   tourismpagina is geen absolute garantie, maar is een directe, tempel-specifieke bevinding, geen
+   aanname gebaseerd op Puri — tourism.bihar.gov.in/en/destinations/gaya/jagannath-temple
+   (officiële bron).
 8. **Reden om eventueel over te slaan** Geen directe biografische link met Boeddha's verlichting;
    vooral relevant voor wie het coëxistentieverhaal wil zien.
 9. **Relaties/combinaties** Direct naast 046, geen extra reisinspanning.
@@ -825,36 +855,52 @@ over te slaan, relaties/combinaties voor zover feitelijk bekend. Geen A/B/C inge
    omvangrijk, gevestigd meditatie-instituut.
 5. **Onderscheidend vermogen** Historische primeur (eerste Vipassana-cursus van Bihar) en een
    eigen, herkenbare traditie (Goenka-Vipassana) — geen duplicaat van 053.
-6. **Praktische toegankelijkheid** Sterk cursusafhankelijk, vergelijkbaar met 053: vooraf
-   inschrijving nodig voor de cursussen zelf; exacte losse-bezoekmogelijkheden niet apart
-   geverifieerd deze ronde (in tegenstelling tot 053, waar dit wel is gecorrigeerd).
-7. **Relevante onzekerheden** Losse-bezoekmogelijkheden (zoals bij 053 gevonden: dagbezoek/
-   gewoon verblijf) zijn voor dit centrum NIET apart geverifieerd — niet aangenomen dat dezelfde
-   regeling geldt.
+6. **Praktische toegankelijkheid** GECONTROLEERD (INDIA6 bericht 030): de officiële centrumbron
+   (bodhi.vridhamma.org) beschrijft uitsluitend de residentiële 10-daagse (en langere) cursussen,
+   met vooraf-inschrijving en een vaste capaciteit (120 mannen, 80 vrouwen). Er wordt GEEN
+   dagbezoek, terreinbezichtiging, korte meditatiesessie of los verblijf zonder cursus vermeld —
+   dit is een wezenlijk ander beeld dan Root Institute (053), waar die opties wél expliciet
+   bevestigd zijn. Niet aangenomen dat dezelfde soepele regeling hier ook geldt.
+7. **Relevante onzekerheden** Op basis van de beschikbare bron lijkt dit centrum uitsluitend
+   toegankelijk via een volledige cursusinschrijving — een niet-deelnemende bezoeker heeft
+   vermoedelijk geen toegang, in tegenstelling tot 053.
 8. **Reden om eventueel over te slaan** Zeer afhankelijk van of Mark tijd/interesse heeft voor een
-   Vipassana-cursus — vergelijkbare afweging als bij 053.
+   volledige Vipassana-cursus (minimaal 10 dagen) — een kort of los bezoek is, voor zover bekend,
+   geen optie hier.
 9. **Relaties/combinaties** Ontstaan bij het Samanvaya Ashram, vlak bij Mahabodhi (046).
 
 ### Signaleringszone — andere tradities
 
 ### 077 — Bitho Sharif Dargah
 
-**Scope-let op**: circa 20-25 km van Bodh Gaya — dit valt in de 20-30 km-signaleringszone, NIET in
-de volledig onderzochte 0-20 km-kernstraal. Gesignaleerd conform protocol, niet als kernkandidaat
-behandeld.
+**Scope-let op**: gelegen in het dorp Bitho, Kandi Panchayat, circa 10 km van Gaya-stad op de
+Gaya-Patna-weg (bron: newageislam.com) — samen met de eerder vastgestelde afstand Bodh Gaya-Gaya
+(circa 12-15 km) komt dit uit op een geschatte totale afstand van circa 20-25 km vanaf Bodh Gaya.
+Dit valt in de 20-30 km-signaleringszone, NIET in de volledig onderzochte 0-20 km-kernstraal.
+Gesignaleerd conform protocol, niet als kernkandidaat behandeld.
 
-1. **Wat is het?** Een soefi-heiligdom, gesticht 1443 CE door Hazrat Makhdoom Syed Shah Durwesh
-   Ashraf.
+1. **Wat is het?** Een soefi-heiligdom (Khanqah-e-Ashrafia) in het dorp Bitho, gesticht 1443 CE
+   door Hazrat Makhdoom Syed Shah Durwesh Ashraf, met een moskee en een school (thans MDA Public
+   School) op een terrein van circa 6-7 acres.
 2. **Waarom hierheen?** Vertegenwoordigt een traditie (soefi-islam) die anders volledig afwezig
    is in de hele regio.
 3. **Spirituele/historische betekenis** Bekend om genezingsverhalen en als symbool van
-   hindoe-moslim-eenheid; jaarlijkse Urs-viering met Qawwali's.
-4. **Concrete ervaring** Een actief heiligdom met een jaarlijks festival (Urs).
-5. **Onderscheidend vermogen** Enige soefi-/islamitische vertegenwoordiging binnen signaleringsbereik.
-6. **Praktische toegankelijkheid** Actief, publiek toegankelijk heiligdom (niet apart
-   geverifieerd voor niet-moslimbezoekers).
-7. **Relevante onzekerheden** Geen officiële overheidsbron gevonden; afstand zelf geschat uit
-   route-omschrijvingen, niet uit bevestigde coördinaten — newageislam.com, waliofallah.blogspot.com.
+   hindoe-moslim-eenheid; jaarlijkse driedaagse Urs-viering (10-12 Shaban, islamitische kalender)
+   met Qawwali's, naar verluidt bijgewoond door de zittende minister-president van Bihar — een
+   concrete aanwijzing van regionale, niet uitsluitend lokale betekenis.
+4. **Concrete ervaring** Een actief heiligdom met een jaarlijks festival (Urs), moskee en
+   schoolterrein.
+5. **Onderscheidend vermogen** Enige soefi-/islamitische vertegenwoordiging binnen
+   signaleringsbereik.
+6. **Praktische toegankelijkheid** Sufi-heiligdommen (dargahs) staan in India in het algemeen
+   bekend als doorgaans toegankelijk voor bezoekers van alle religies — dit is een algemeen
+   gegeven over dargahs, GEEN specifiek bevestigd toegangsbeleid voor deze exacte plek. Niet
+   apart geverifieerd voor niet-moslimbezoekers, dus niet als zekerheid gepresenteerd.
+7. **Relevante onzekerheden** Geen officiële overheidsbron gevonden ondanks herhaalde
+   zoekpogingen; de bewoners-/bezoekerstoegang voor niet-moslims is voor DEZE dargah specifiek
+   niet bevestigd (alleen het algemene dargah-patroon in India, zie punt 6); exacte afstand is een
+   berekende schatting, geen bevestigd coördinaat — newageislam.com, waliofallah.blogspot.com,
+   bharatpedia.org.
 8. **Reden om eventueel over te slaan** Buiten de kernstraal, extra reisinspanning; alleen
    relevant als Mark specifiek geïnteresseerd is in interreligieuze/soefi-geschiedenis.
 9. **Relaties/combinaties** Nog niet onderzocht — signaleringszone, geen routegegevens verzameld.
@@ -863,21 +909,33 @@ behandeld.
 
 ### 078 — Gurdwara Sri Guru Tegh Bahadur Ji, Gaya
 
+**Bronbeoordeling (INDIA6 bericht 030 — sterkere bron gezocht voor de Guru-bezoeken)**: geen
+academische of primaire Sikh-tekstbron (bijv. een specifieke janamsakhi of Guru Kian Sakhian-
+vermelding) gevonden die deze exacte gurdwara noemt. Wél gevonden: het verhaal wordt consistent
+en onafhankelijk beschreven op meerdere pagina's van SikhiWiki (een door de Sikh-gemeenschap
+onderhouden encyclopedie, vergelijkbaar in functie met de Sikh-eigen equivalent van
+Wikipedia) — inclusief een specifieke reisroute (Guru Tegh Bahadur reisde van Baba Bakala via
+Sasram naar Gaya, waar lokale Brahmanen hem de verdiensten van de Gaya-bedevaart uitlegden).
+Geen exact jaartal gevonden. Dit is dus een consistente, cross-bevestigde Sikh-historiografische
+overlevering, GEEN onafhankelijk academisch bewezen feit — expliciet zo gepresenteerd, geen
+overclaim.
+
 1. **Wat is het?** Een gurdwara nabij Vishnupad Temple (051), aan de Falgu-rivier, beheerd door
-   Udasi-priesters.
-2. **Waarom hierheen?** Zowel Guru Nanak Dev als later Guru Tegh Bahadur bezochten deze plek en
-   bekritiseerden er direct de pind-daan-praktijk.
+   Udasi-priesters (een Sikh-gerelateerde ordetraditie).
+2. **Waarom hierheen?** Volgens de Sikh-traditie (zie bronbeoordeling) bezochten zowel Guru Nanak
+   Dev als later Guru Tegh Bahadur deze plek en bekritiseerden er direct de pind-daan-praktijk.
 3. **Spirituele/historische betekenis** Zij onderwezen dat iemands eigen goede daden tijdens het
    leven bepalend zijn voor het lot van de ziel, niet de rituelen die nakomelingen na de dood laten
-   uitvoeren — een inhoudelijke tegenstem, precies op de plek waar die praktijk het meest
-   geconcentreerd voorkomt.
+   uitvoeren — een inhoudelijke tegenstem, volgens deze overlevering precies op de plek waar die
+   praktijk het meest geconcentreerd voorkomt.
 4. **Concrete ervaring** Drie exemplaren van de Siri Guru Granth Sahib (Gurmukhi en Devnagri
    schrift) naast elkaar, in een rechthoekig paviljoen op een verhoogd platform.
-5. **Onderscheidend vermogen** Enige Sikh-vertegenwoordiging in de hele straal, met een concreet,
-   tweevoudig Guru-bezoek en een specifieke leerstelling op deze exacte plek.
+5. **Onderscheidend vermogen** Enige Sikh-vertegenwoordiging in de hele straal, met een
+   overgeleverd tweevoudig Guru-bezoek en een specifieke leerstelling op deze exacte plek.
 6. **Praktische toegankelijkheid** Actieve, publiek toegankelijke gurdwara.
-7. **Relevante onzekerheden** Geen officiële overheidsbron gevonden — sikhiwiki.org,
-   worldgurudwaras.com (meerdere onafhankelijke Sikh-specifieke bronnen, elkaar bevestigend).
+7. **Relevante onzekerheden** Geen officiële overheidsbron gevonden; het historische Guru-bezoek
+   zelf steunt uitsluitend op Sikh-eigen historiografie (SikhiWiki), niet op een onafhankelijke
+   academische of primaire bron — sikhiwiki.org, worldgurudwaras.com.
 8. **Reden om eventueel over te slaan** Geen directe koppeling aan Marks Kriya-/boeddhistische
    focus; vooral relevant voor wie de bredere religieuze diversiteit van Gaya wil zien.
 9. **Relaties/combinaties** Zelfde bredere Gaya-stad-zone als 051, 070, 071.
