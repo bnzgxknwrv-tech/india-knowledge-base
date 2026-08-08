@@ -55,8 +55,10 @@ Daarna gebruikt CCI `Bericht: 012` en sluit af met `/CCI (012)`.
 - Elk genummerd locatie-item houdt permanent hetzelfde nummer.
 - Nummers worden nooit gewijzigd, hergebruikt, stil samengevoegd of aan een andere plek gekoppeld.
 - Varanasi gebruikt 001–045.
-- Bodh Gaya gebruikt momenteel 046–077 (na de definitieve saturation sweep van 2026-08-06, zie
-  `runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/SATURATION_REPORT_002.md`).
+- Bodh Gaya gebruikt momenteel 046–078 (na de definitieve saturation sweep van 2026-08-06, zie
+  `runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/SATURATION_REPORT_002.md` en
+  `SATURATION_REPORT_003_ADDENDUM.md`). Let op: 075 is EXCLUDED (geen MARK_WAARDIG), nummer
+  blijft permanent gereserveerd maar niet actief.
 - Sublocaties binnen één normaal complexbezoek krijgen geen apart nummer, tenzij ze aantoonbaar zelfstandige bestemmingen zijn en dit expliciet is besloten.
 
 ## PDF-regel
