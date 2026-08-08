@@ -1,5 +1,10 @@
 # INDIA3 HANDOFF — canonieke overdracht
 
+> **VEROUDERD — zie `india5/ACTIVE_STATE.md` voor de actuele, versie-onafhankelijke overdracht.**
+> Dit bestand is gedateerd (naam verwijst nog naar "INDIA3", tellerstand hieronder is niet meer
+> actueel) en blijft alleen als historisch document staan. Niet gebruiken als bron voor de
+> huidige status — alleen `india5/ACTIVE_STATE.md` is actueel.
+
 Datum: 2026-08-05 (bijgewerkt na commit `ad641131d47b4c11f7adbbdf4914e70fb37df6d1`)
 Repository: `bnzgxknwrv-tech/india-knowledge-base`
 Werkbranch: `claude/werk-je-nu-of-niet-oa10y7`
