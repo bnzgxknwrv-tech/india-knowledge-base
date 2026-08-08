@@ -165,9 +165,12 @@ een vaste, ondubbelzinnige poort, voor alle regio's:
 
 1. **Discovery/onderzoek** — alleen onderzoek + brondata, geen PDF.
 2. **Correctie** — alleen inhoud/data corrigeren, geen PDF.
-3. **INDIA6-eindcontrole** — India6 controleert de volledige keuze-inhoud (alle kandidaten,
-   hoofdclaims, absolute claims, toegankelijkheid, seizoenen, gebeurtenissen, onzekerheden).
-4. Bij fouten: CCI corrigeert uitsluitend inhoud/data, daarna opnieuw controle door India6.
+3. **Eindcontrole door de huidige INDIA-regisseur** (rolgebaseerd, niet aan een sessienaam
+   gebonden — zie `governance/ACTIVE_STATE.md`, veld `CURRENT_REGISSEUR_ROLE`) — controleert de
+   volledige keuze-inhoud (alle kandidaten, hoofdclaims, absolute claims, toegankelijkheid,
+   seizoenen, gebeurtenissen, onzekerheden).
+4. Bij fouten: CCI corrigeert uitsluitend inhoud/data, daarna opnieuw controle door de huidige
+   INDIA-regisseur.
 5. Een PDF-build mag UITSLUITEND plaatsvinden in een aparte opdracht die letterlijk het veld
    `PDF_GO: JA` bevat. Zonder dat exacte veld is een PDF-build VERBODEN — ook als de opdracht wel
    naar een PDF-bestandsnaam verwijst, ook als een sweep of correctieronde "klaar" is. "Sweep

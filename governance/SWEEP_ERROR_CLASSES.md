@@ -1,15 +1,16 @@
 # FOUTKLASSENREGISTER
 
-Status: onderdeel van `SWEEP_PROTOCOL_V1_PROPOSAL.md` (VOORSTEL, nog niet bindend — zie dat
-document voor activatievoorwaarde). Doel: elke nieuwe, generaliseerbare fout eerst tegen dit
-register leggen ("is dit een bekende klasse, of nieuw?") in plaats van telkens een losse,
-steeds langere ad-hoc regel te schrijven. Bron van FK-001 t/m FK-010: de root-cause-tabel in
-`SWEEP_PROTOCOL_V1_PROPOSAL.md`, Deel 1, ontstaan tijdens de Bodh Gaya-sweep.
+Status: **ACTIEF/CANONIEK**, onderdeel van `governance/SWEEP_PROTOCOL.md` (Deel 3). Versie-
+onafhankelijke locatie — niet gebonden aan een specifieke regisseursessie. Doel: elke nieuwe,
+generaliseerbare fout eerst tegen dit register leggen ("is dit een bekende klasse, of nieuw?") in
+plaats van telkens een losse, steeds langere ad-hoc regel te schrijven. Bron van FK-001 t/m
+FK-010: de root-cause-tabel in `governance/SWEEP_PROTOCOL.md`, Deel 1, ontstaan tijdens de
+Bodh Gaya-sweep.
 
 Bij een nieuwe fout: (1) checken of hij in een bestaande klasse past, zo ja daar de
 voorbeelden-kolom aanvullen; (2) zo nee, een nieuwe klasse FK-0NN toevoegen met dezelfde
-kolomstructuur; (3) de bijbehorende poort in `SWEEP_PROTOCOL_V1_PROPOSAL.md` (Deel 2)
-aanvullen of, bij een echt nieuw type fout, een nieuwe poort voorstellen.
+kolomstructuur; (3) de bijbehorende poort in `governance/SWEEP_PROTOCOL.md` (Deel 2) aanvullen
+of, bij een echt nieuw type fout, een nieuwe poort voorstellen.
 
 | Klasse | Naam | Kernpatroon | Voorbeeld (Bodh Gaya) | Preventiepoort |
 |---|---|---|---|---|
@@ -25,6 +26,6 @@ aanvullen of, bij een echt nieuw type fout, een nieuwe poort voorstellen.
 | FK-010 | Niet-auditeerbare saturatieclaim | CCI's eigen `SATURATED=JA` is een vrije-tekstconclusie i.p.v. een controleerbare, itemized matrix, waardoor INDIA herhaald handmatig moet speuren | Berichten 021, 024, 026, 028, 030 — telkens handmatig gaten gevonden door INDIA6 | Poort J (evidence-matrix) + Poort K (INDIA_ACCEPTED_SATURATION: JA) |
 
 ---
-Geschreven door: CCI, op verzoek van INDIA6 (PR #23, bericht 031), als Deel 3-bijlage bij
-`SWEEP_PROTOCOL_V1_PROPOSAL.md`. Geen PDF, geen nieuwe regionale sweep, geen A/B/C,
+Geschreven door: CCI, geactiveerd na protocolreview (PR #23), als Deel 3-bijlage bij
+`governance/SWEEP_PROTOCOL.md`. Geen PDF, geen nieuwe regionale sweep, geen A/B/C,
 geen route/pacing. `PDF_STATUS: VERBODEN` gerespecteerd.

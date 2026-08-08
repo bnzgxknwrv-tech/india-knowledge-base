@@ -1,16 +1,21 @@
-# SWEEP_PROTOCOL_V1 — VOORSTEL (nog niet actief)
+# SWEEP_PROTOCOL_V1 — ACTIEF/CANONIEK
 
-Status: **VOORSTEL**, geschreven door CCI op verzoek van INDIA6 (bericht 031, PR #23,
-2026-08-06). Wordt pas canoniek/bindend na expliciete acceptatie door INDIA6 (of Mark) — zie
-sectie "Activatie" onderaan. Overschrijft geen bestaande canon stilzwijgend: totdat geaccepteerd
-blijven `INDIA5_REGION_START_PROTOCOL.md`, `NOT_TO_BE_MISSED_FRAMEWORK.md` en
-`INDIA5-PROTOCOL.md` (inclusief de bestaande "Verzadigingsdrempel"-sectie) ongewijzigd van kracht.
+Status: **ACTIEF/CANONIEK** sinds `SWEEP_PROTOCOL_V1: GEACCEPTEERD` (protocolreview door de
+huidige INDIA-regisseur, PR #23). Deze locatie (`governance/`) is de versie-onafhankelijke canon:
+niet gebonden aan een specifieke regisseursessie (INDIA4, INDIA5, INDIA6, ... zijn vervangbare
+regisseursessies, geen canonieke systeemversies — zie `governance/ACTIVE_STATE.md`).
 
-Dit voorstel VERVANGT die documenten niet — het voegt harde, controleerbare poorten toe op de
-plekken in de bestaande negen-stappenflow (`INDIA5_REGION_START_PROTOCOL.md`) waar Bodh Gaya
-aantoonbaar faalde. Waar mogelijk hergebruikt dit voorstel bestaande, al goed ontworpen regels
-(met name de Verzadigingsdrempel-sectie in `INDIA5-PROTOCOL.md`, regels 319-339) in plaats van ze
-te herschrijven.
+Dit document VERVANGT `INDIA5_REGION_START_PROTOCOL.md`, `NOT_TO_BE_MISSED_FRAMEWORK.md` en
+`INDIA5-PROTOCOL.md` niet — het voegt harde, controleerbare poorten toe op de plekken in de
+bestaande negen-stappenflow (`INDIA5_REGION_START_PROTOCOL.md`) waar Bodh Gaya aantoonbaar
+faalde. Waar mogelijk hergebruikt dit document bestaande, al goed ontworpen regels (met name de
+Verzadigingsdrempel-sectie in `INDIA5-PROTOCOL.md`, regels 319-339) in plaats van ze te
+herschrijven. Activatie/acceptatie van vervolgwijzigingen aan dit document gebeurt voortaan via
+het rolgebaseerde token `CURRENT_INDIA_REGISSEUR: ACCEPTEERT` (of, historisch, het eerdere
+`SWEEP_PROTOCOL_V1: GEACCEPTEERD`) — nooit via een sessienaam-specifieke formulering.
+
+Machine-checkbare preflight: zie `governance/scripts/preflight_validator.py` en de toelichting in
+Deel 4 hieronder.
 
 ---
 
@@ -48,7 +53,7 @@ te herschrijven.
 
 ---
 
-## Deel 2 — Nieuw sweep-protocol (poorten A-P)
+## Deel 2 — Sweep-protocol (poorten A-Q)
 
 Elke poort hieronder is een TOEVOEGING aan een bestaande stap uit
 `INDIA5_REGION_START_PROTOCOL.md`. Waar een poort een bestaand mechanisme al dekt, wordt dat
@@ -228,7 +233,7 @@ Eén definitieve keuze-PDF per sweep-fase, uitsluitend ná content-QA. De PDF is
 al goedgekeurde inhoud, nooit zelf een onderzoeksstap of correctiekanaal.
 
 ### O. Vervangbaarheid/handoff (nieuw format, zie ook Deel 2 van dit voorstel-pakket:
-`india5/ACTIVE_STATE.md`)
+`governance/ACTIVE_STATE.md`)
 
 Elke actieve run houdt een `STATUS.md` (of vergelijkbaar) bij met minimaal: huidige fase (van de
 negen stappen), laatste permanente nummers, harde Mark-besluiten, open blockers, protocolversie
@@ -238,7 +243,7 @@ bestand kunnen lezen en zonder chatgeschiedenis verder kunnen.
 
 ### P. Zelflerende foutklassen (nieuw register)
 
-Zie `india4/protocols/FOUTKLASSEN_REGISTER.md` (nieuw, apart bestand — zie Deel 3 hieronder). Bij
+Zie `governance/SWEEP_ERROR_CLASSES.md` (nieuw, apart bestand — zie Deel 3 hieronder). Bij
 elke nieuwe, generaliseerbare fout: classificeren, een preventieve poort toevoegen aan dit
 document (niet een losse ad-hoc regel ernaast), en één keer centraal documenteren.
 
@@ -254,61 +259,83 @@ Dit protocol moet first-time-right verbeteren zonder een bureaucratisch monster 
 | Vaste stopcriteria (Verzadigingsdrempel, evidence-matrix) | Lange narratieve statusrapporten waar een tabel volstaat |
 | Gerichte bronqueries per openstaande lens/lead | Volledige nieuwe sweep om één deelvraag te beantwoorden |
 
-Deze regel is geen aparte controlestap maar een werkinstructie voor hoe alle poorten A-P worden
+Deze regel is geen aparte controlestap maar een werkinstructie voor hoe alle poorten A-Q worden
 uitgevoerd — vandaar geen eigen JSONL-bestand of token.
 
 ---
 
-## Deel 3 — Foutklassenregister (nieuw, apart bestand aangemaakt)
+## Deel 3 — Foutklassenregister (apart bestand)
 
-Zie `india4/protocols/FOUTKLASSEN_REGISTER.md`. Bevat de tien fouten uit Deel 1 als herbruikbare,
+Zie `governance/SWEEP_ERROR_CLASSES.md`. Bevat de tien fouten uit Deel 1 als herbruikbare,
 genummerde klassen (FK-001 t/m FK-010), zodat een toekomstige, nieuwe fout eerst tegen dit
 register gelegd kan worden ("is dit een bekende klasse, of nieuw?") in plaats van dat elke fout
 een losse, steeds langere ad-hoc regel wordt.
 
 ---
 
-## Wat dit voorstel NIET doet
+## Deel 4 — Machine-checkbare preflight
+
+`governance/scripts/preflight_validator.py` controleert, voor een gegeven run-directory, de
+structurele (niet-inhoudelijke) voorwaarden vóór fase-overgangen:
+
+- **Vóór keuzerapportfase**: Coverage Matrix bevat geen `NOT_STARTED`/`ACTIVE`-regel; Lead
+  Register: elke lead heeft een geldige eindstatus; geen open `UNRESOLVED_BLOCKER` in de
+  identiteit/duplicatencheck; geen open keuze-relevante toegankelijkheidsblocker; permanente
+  nummering uniek/valide (hergebruikt `validate_global_numbering.py`); actieve kandidaten hebben
+  geen status `HARD_EXCLUDED`/`SUBLOCATION`/`DUPLICATE`; saturation-evidence-bestand aanwezig;
+  `INDIA_ACCEPTED_SATURATION: JA` aanwezig.
+- **Vóór PDF**: `CONTENT_QA_ACCEPTED: JA` aanwezig; `PDF_GO: JA` aanwezig.
+
+**Grens van de validator (expliciet, niet verhuld)**: de validator controleert uitsluitend
+structurele/machinaal-checkbare voorwaarden (bestaat het veld, is de status geldig, is er geen
+lege/tegenstrijdige waarde). Hij kan NIET beoordelen of een saturatieclaim inhoudelijk klopt, of
+een bron sterk genoeg is voor een claim, of een generiek-check correct is uitgevoerd — dat blijft
+mensen-/CCI-/INDIA-oordeel. De validator doet dus nooit alsof hij inhoudelijke kwaliteit
+garandeert; hij garandeert alleen dat de vereiste structuur/velden aanwezig en intern consistent
+zijn vóór een fase-overgang wordt toegestaan.
+
+---
+
+## Wat dit protocol NIET doet
 
 - Geen nieuwe regionale sweep gestart.
 - Geen PDF gebouwd.
 - Geen A/B/C ingevuld namens Mark.
 - Geen route/pacing/accommodatie.
 - Geen bestaande canon (INDIA5-PROTOCOL.md, INDIA5_REGION_START_PROTOCOL.md,
-  NOT_TO_BE_MISSED_FRAMEWORK.md) stilzwijgend overschreven of automatisch actief verklaard.
+  NOT_TO_BE_MISSED_FRAMEWORK.md) stilzwijgend overschreven — dit document VOEGT TOE, het vervangt
+  niet.
 
-## Openstaande ontwerpbeslissingen voor INDIA6
+## Openstaande ontwerpbeslissingen (rolgebaseerd — voor de huidige INDIA-regisseur)
 
-1. **Twee protocol-lineages ontdekt**: naast `india4/protocols/INDIA5-PROTOCOL.md` (het document
-   dat feitelijk deze hele sessie is gebruikt) bestaat een parallelle, eerder opgezette
-   architectuur onder `india5/` (`GOVERNANCE.md`, `TASK_PROTOCOL.md`, `india5/tasks/` met
+1. **Twee protocol-lineages**: naast `india4/protocols/INDIA5-PROTOCOL.md` (het document dat
+   feitelijk deze hele sessie is gebruikt) bestaat een parallelle, eerder opgezette architectuur
+   onder `india5/` (`GOVERNANCE.md`, `TASK_PROTOCOL.md`, `india5/tasks/` met
    `TASK.yaml`/`STATUS.yaml`, `india5/schemas/`). Die tweede architectuur lijkt na de eerste
    Varanasi-coverage-taken (`INDIA5-VNS-DISCOVERY-COVERAGE-003`, nog altijd "active" staande
    `INDIA5-VNS-DISCOVERY-SATURATION-004`) niet meer gebruikt te zijn voor Bodh Gaya — de run
-   gebruikte in plaats daarvan de PR-comment-envelop + `runs/active/`-structuur. INDIA6 moet
-   beslissen: (a) de `india5/tasks/`-architectuur alsnog gebruiken/reactiveren, (b) haar bewust
-   als gearchiveerd/legacy markeren, of (c) de nieuwe Coverage Matrix/Lead Register (Deel 2, C/D)
-   daarin integreren i.p.v. als losse bestanden onder `runs/active/`. Dit voorstel kiest voorlopig
-   optie (c)-light: nieuwe bestanden onder `runs/active/<RUN_ID>/PRE_BRONS/`, niet onder
-   `india5/tasks/`, puur omdat dat de locatie is die deze hele sessie daadwerkelijk werd gebruikt
-   — maar dit is expliciet een keuze die INDIA6 kan overrulen.
-2. **Machine-validatie vs. handmatige discipline**: dit voorstel beschrijft de Coverage
-   Matrix/Lead Register/evidence-matrix als bestandsformaten en checklists, niet als afgedwongen
-   door een script. INDIA6 kan beslissen of een v2 een Python-validator verdient (zoals
-   `validate_global_numbering.py` al bestaat voor nummering) die deze bestanden automatisch
-   controleert vóór een `SATURATED=JA`-claim wordt geaccepteerd.
-3. **Reikwijdte van de adversarial pass (poort I)**: dit voorstel laat in het midden hoeveel
-   nieuwe zoekrichtingen/brontypen "genoeg anders" zijn om als een geldige adversarial pass te
-   tellen. INDIA6 kan hier een concreet minimum aan willen verbinden (vergelijkbaar met de
-   bestaande Verzadigingsdrempel: "minimaal twee wezenlijk verschillende benaderingen").
+   gebruikte in plaats daarvan de PR-comment-envelop + `runs/active/`-structuur. Nog niet
+   opgelost: reactiveren, bewust archiveren, of samenvoegen met Coverage Matrix/Lead Register.
+   Dit document kiest voorlopig: nieuwe bestanden onder `runs/active/<RUN_ID>/PRE_BRONS/`, niet
+   onder `india5/tasks/` — overrulebaar door de huidige regisseur.
+2. **Machine-validatie**: gedeeltelijk opgelost door `governance/scripts/preflight_validator.py`
+   (Deel 4) — dekt de structurele checks. Nog open: of ook Coverage Matrix/Lead Register-inhoud
+   zelf (niet alleen status-volledigheid) verder geautomatiseerd moet worden.
+3. **Reikwijdte van de adversarial pass (poort I)**: nog altijd niet vastgelegd hoeveel nieuwe
+   zoekrichtingen/brontypen "genoeg anders" zijn om als geldige adversarial pass te tellen.
+   Voorstel: hergebruik de bestaande Verzadigingsdrempel-taal ("minimaal twee wezenlijk
+   verschillende benaderingen") — nog niet formeel bevestigd.
 
 ## Activatie
 
-Dit document is **VOORSTEL** totdat INDIA6 (of Mark) expliciet schrijft: `SWEEP_PROTOCOL_V1:
-GEACCEPTEERD`. Tot die tijd blijft de bestaande canon (negen-stappenflow, Verzadigingsdrempel,
-NOT_TO_BE_MISSED-framework) ongewijzigd van kracht; dit voorstel is uitsluitend leesvoer en nog
-niet bindend voor lopende of toekomstige sweeps.
+Status: **ACTIEF/CANONIEK**, geaccepteerd via protocolreview (PR #23) door de huidige
+INDIA-regisseur. Toekomstige, verdere wijzigingen aan dit document worden pas bindend na een
+expliciet `CURRENT_INDIA_REGISSEUR: ACCEPTEERT`-token (rolgebaseerd, niet aan een sessienaam
+gebonden) in een PR-reactie. De bestaande canon (negen-stappenflow, Verzadigingsdrempel,
+NOT_TO_BE_MISSED-framework) blijft daarnaast onverkort van kracht; dit document is een aanvulling,
+geen vervanging.
 
 ---
-Geschreven door: CCI, op verzoek van INDIA6 (PR #23, bericht 031). Geen PDF, geen nieuwe
-regionale sweep, geen A/B/C, geen route/pacing. `PDF_STATUS: VERBODEN` gerespecteerd.
+Geschreven door: CCI, geactiveerd na protocolreview door de huidige INDIA-regisseur (PR #23).
+Geen PDF, geen nieuwe regionale sweep, geen A/B/C, geen route/pacing. `PDF_STATUS: VERBODEN`
+gerespecteerd tijdens het schrijven van dit document.
