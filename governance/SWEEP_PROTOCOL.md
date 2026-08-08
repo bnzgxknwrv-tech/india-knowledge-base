@@ -137,13 +137,48 @@ alleen impliciet aannemen):
 |---|---|
 | Concrete, aanwijsbare fysieke plek (geen diffuus gebied) | ja |
 | Eigen verhaal/ervaring, los van de categorie waartoe het behoort | ja |
-| **Generiek-check**: is het onderscheid UITSLUITEND "vertegenwoordigt land/traditie X"? Zo ja → `EXCLUDED_HARD_REASON`, geen nummer | ja (nieuw, fixt fout #4) |
+| **Generiek-check**: is het onderscheid UITSLUITEND "vertegenwoordigt land/traditie X"? Zo ja → `EXCLUDED_HARD_REASON`, geen nummer, TENZIJ E.1 hieronder een AOAY- of Top-X-override geeft | ja (fixt fout #4) |
 | Geen bevestigd duplicaat/sublocatie van een bestaande kandidaat (zie poort F) | ja |
 | Redelijkerwijs A, B of C mogelijk na eerlijke uitleg | ja |
 
 Landendekking/categorievolledigheid is nooit op zichzelf voldoende — dit stond al in
 `NOT_TO_BE_MISSED_FRAMEWORK.md`, hier herbevestigd met een verplichte, expliciete checkstap i.p.v.
 een achteraf-principe.
+
+#### E.1 Prioriteitslagen / beslisvolgorde (canoncorrectie, INDIA6 bericht 036, 2026-08-08)
+
+De generiek-check hierboven is niet absoluut — er zijn drie lagen, elk met een eigen drempel.
+Voor iedere lead, in deze volgorde:
+
+1. **AOAY = ABSOLUTE OVERRIDE.** Een verifieerbare fysieke plek die expliciet voorkomt in
+   *Autobiography of a Yogi*, rechtstreeks gekoppeld is aan een daarin beschreven gebeurtenis, of
+   aantoonbaar de fysieke plek is waar zo'n gebeurtenis plaatsvond → MOET getoond worden, ook als
+   de plek objectief klein, lokaal, architectonisch onbelangrijk, geen grote bedevaartsplaats of
+   verder niet onderscheidend is. AOAY overrulet de generiek-/zwaartefilter volledig. Enige eis:
+   fysieke identiteit verifieerbaar (welke plek dat werkelijk is).
+2. **TOP X = MAXIMALE PERSOONLIJKE ZWAARTE.** Zonder AOAY-link: breed zoeken naar betekenisvolle
+   fysieke plekken rond geboorte, verblijf, samadhi, ashram, initiatie, ontmoeting, meditatie,
+   leer, lineage, reliek, belangrijke gebeurtenis van Marks Top X personen/lijnen. Lage drempel
+   voor tonen — niet beperken tot beroemde of drukbezochte plekken.
+3. **ALLES BUITEN AOAY/TOP X = RELIGIEUZE ZWAARGEWICHTEN, HOGE DREMPEL.** Hier geldt NIET
+   "elke religie moet vertegenwoordigd zijn." Wel: echte bedevaarts-/heiligdom-zwaargewichten die
+   ook voor buitenstaanders relevant zijn — sterke signalen zijn zeer grote jaarlijkse
+   pelgrimsstromen, nationaal/internationaal beroemde bedevaartsstatus, een uitzonderlijk vereerd
+   beeld/relict/graf/grot/tempel, een belangrijke heilige persoon, een zeer oude levende traditie,
+   uitzonderlijke religieuze/historische zwaarte, of een plek waarheen ook mensen buiten de eigen
+   religie bewust reizen. Een gewone sikh-/jain-/moslim-/christelijke/hindoe-tempel puur voor
+   categoriedekking is NIET MARK_WAARDIG; een heiligdom van vergelijkbare traditie mét enorme
+   pelgrimszwaarte WEL.
+
+**Geen "religies afvinken"**: religieuze/traditie-coverage (poort A, de lenzenlijst) is
+uitsluitend een zoeklens om mogelijke zwaargewichten niet te missen — nooit zelfstandig bewijs
+voor kandidaatstatus. Coverage mag discovery openen; kandidaatstatus vereist altijd óf een
+AOAY/Top-X-override, óf aantoonbare zelfstandige religieuze zwaarte onder laag 3.
+
+Praktisch: iedere lead doorloopt A→B→C. A: AOAY-link? Ja → tonen (mits fysieke identiteit
+verifieerbaar). Nee → B: Top-X-link? Ja → brede toets, lage drempel. Nee → C: algemene
+religieuze/spirituele plek? Alleen tonen als aantoonbaar zwaargewicht/bedevaartsplek/
+uitzonderlijke fysieke of historische betekenis, zoals hierboven omschreven.
 
 ### F. Identiteit/duplicaten (nieuw, verplichte stap vóór nummering)
 

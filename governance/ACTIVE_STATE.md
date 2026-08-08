@@ -72,10 +72,21 @@ REGIONS:
 
 - `governance/SWEEP_PROTOCOL.md` — ACTIEF/CANONIEK sweep-protocol (poorten A-Q), aanvulling op
   de bestaande negen-stappenflow.
-- `governance/SWEEP_ERROR_CLASSES.md` — ACTIEF foutklassenregister (FK-001 t/m FK-010).
+- `governance/SWEEP_ERROR_CLASSES.md` — ACTIEF foutklassenregister (FK-001 t/m FK-011).
 - `governance/scripts/preflight_validator.py` — machine-checkbare structurele preflight vóór
   keuzerapportfase en vóór PDF (zie SWEEP_PROTOCOL.md Deel 4 voor de exacte grenzen).
 - `governance/ACTIVE_STATE.md` — dit bestand.
+
+### Discriminatieregel MARK_WAARDIG (canoncorrectie 2026-08-08, duurzaam te erven)
+
+Elke toekomstige INDIA-regisseur/CCI-uitvoering erft automatisch de beslisvolgorde uit
+`governance/SWEEP_PROTOCOL.md` poort E.1: (1) AOAY-link (*Autobiography of a Yogi*) = absolute
+override, altijd tonen, ook bij een objectief onbeduidende plek; (2) zonder AOAY-link: Top-X
+persoonlijke zwaarte, breed zoeken, lage drempel; (3) alles daarbuiten: religieuze/bedevaarts-
+zwaargewicht met een HOGE drempel — nooit "elke religie moet vertegenwoordigd zijn." Coverage van
+religies/tradities (poort A) is uitsluitend een zoeklens, nooit zelfstandig bewijs voor
+kandidaatstatus. Zie `governance/SWEEP_ERROR_CLASSES.md` FK-011 voor het Bodh Gaya-precedent
+(Mongolian Temple, 069).
 
 ## Nog geldige, ongewijzigde canon buiten `governance/`
 
