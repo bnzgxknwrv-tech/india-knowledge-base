@@ -57,7 +57,7 @@ ACTIVE_TASKS (bron van waarheid voor lopende taken — PR #23 is index/relay met
   - task_id: GAYA-AIRPORT-BODHGAYA-CORRIDOR-001
     task_file: runs/active/GAYA-AIRPORT-BODHGAYA-CORRIDOR-001/TASK.md
     status_file: runs/active/GAYA-AIRPORT-BODHGAYA-CORRIDOR-001/STATUS.md
-    state: TASK_VASTGELEGD -- SWEEP A NOG NIET UITGEVOERD
+    state: SWEEP_A_KLAAR -- WACHT OP ONAFHANKELIJKE SWEEP B (INDIA), zie RESULT.md
 OPEN_SYSTEM_DECISIONS:
   - Tweede, ongebruikte taakarchitectuur onder india5/tasks/ (TASK.yaml/STATUS.yaml) — BESLOTEN
     (2026-08-08, RELAY-MIGRATION-001): expliciet overwogen voor het nieuwe TASK.md/STATUS.md-
