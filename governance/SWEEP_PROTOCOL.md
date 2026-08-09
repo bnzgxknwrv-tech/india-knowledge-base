@@ -558,6 +558,33 @@ negen stappen), laatste permanente nummers, harde Mark-besluiten, open blockers,
 (verwijzing naar Deel 3, het foutklassenregister). Een nieuwe regisseursessie moet dit ene
 bestand kunnen lezen en zonder chatgeschiedenis verder kunnen.
 
+**O.1 Taakbestanden i.p.v. PR-transcript als bron van waarheid (canoncorrectie, INDIA6 taak
+RELAY-MIGRATION-001, 2026-08-08 — reden: PR #23 werd zo lang dat INDIA's connectorweergave
+truncateerde)**: vanaf nu krijgt elke actieve taak een eigen, klein bestandenpaar onder
+`runs/active/<TASK_ID>/`:
+- `TASK.md` — de volledige, vastgelegde opdracht (scope, prioriteiten, brondiscipline,
+  verplichte outputvelden). Wordt bij een correctie IN HETZELFDE bestand bijgewerkt, niet
+  opnieuw als lange PR-tekst herhaald.
+- `STATUS.md` — kort, altijd actueel: `task_id`, `state`, paden naar `TASK.md`/`RESULT.md`,
+  `blockers`, `next_allowed_step`, en een letterlijke, kopieerbare startzin voor de volgende
+  actie ("korte startzin voor CCI/INDIA").
+- `RESULT.md` — het laatste resultaat van de laatst uitgevoerde stap (Sweep A, reconciliatie,
+  etc.). Wordt per fase OVERSCHREVEN of uitgebreid, niet als eindeloze geschiedenis bijgehouden
+  — de git-historie van het bestand is de geschiedenis, niet het bestand zelf.
+
+**Bestaande `india5/tasks/`-architectuur (TASK.yaml/STATUS.yaml met ACL's, sha256-hashes,
+completion-markers) NIET hergebruikt**: expliciet overwogen en te zwaar bevonden voor dit doel —
+die architectuur was al aangemerkt voor deprecatie (zie Openstaande ontwerpbeslissingen, punt 1)
+en voegt machinerie toe (hash-pinning, allow/forbid-lijsten) die hier geen functie heeft. Dit is
+bewust de kleinste duurzame oplossing, geen nieuwe bureaucratische architectuur.
+
+**PR #23 wordt index/relay, niet meer het volledige transcript**: nieuwe PR-comments zijn vanaf
+nu KORTE enveloppen (`task_id`, `task_file`/`status_file`, status, commit) — de volledige inhoud
+staat in de taakbestanden zelf, niet meer herhaald in de PR-tekst. Een nieuwe INDIA-sessie hoeft
+dus niet de volledige PR-geschiedenis op te halen: `governance/ACTIVE_STATE.md` (altijd het
+eerste bestand dat gelezen wordt, zie kop van dit document) bevat een `ACTIVE_TASKS`-lijst met
+directe paden naar elke actieve `STATUS.md`.
+
 ### P. Zelflerende foutklassen (nieuw register)
 
 Zie `governance/SWEEP_ERROR_CLASSES.md` (nieuw, apart bestand — zie Deel 3 hieronder). Bij
@@ -665,6 +692,11 @@ retroactief als blokkade voor het al lopende Bodh Gaya-werk.
 **Principe**: Mark is geen menselijke message-bus tussen INDIA en CCI. GitHub/PR is de
 gezamenlijke communicatie- en state-laag tussen INDIA en CCI; Mark komt alleen in beeld voor
 beslissingen die uitsluitend hij kan nemen.
+
+**Precisering (2026-08-08, RELAY-MIGRATION-001)**: "GitHub als communicatiebrug" betekent sinds
+poort O.1 niet meer "de volledige inhoud in PR-comments" — PR #23 blijft het kanaal, maar de
+comments zelf worden korte enveloppen die naar taakbestanden (`TASK.md`/`STATUS.md`/`RESULT.md`)
+verwijzen. Dit voorkomt dat de PR zelf te lang wordt om nog bruikbaar te zijn als relay.
 
 **Belangrijke grens (geen fictieve automatisering)**: INDIA kan technisch niet autonoom/achter-
 grond blijven draaien of door CCI worden aangeroepen. Deze poort claimt dus GEEN automatische

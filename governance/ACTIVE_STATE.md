@@ -11,7 +11,10 @@ PR: `#23` (draft; niet mergen zonder expliciete vrijgave van Mark)
 Deze locatie (`governance/`) is de canonieke overdrachtswaarheid, niet gebonden aan een
 specifieke regisseursessie. `india5/INDIA3_HANDOFF.md` en `india5/ACTIVE_STATE.md` zijn
 gedateerd/gedeprecieerd en verwijzen hierheen (zie hun eigen kop). GitHub is waarheid voor
-overdraagbare projectkennis — niet chatgeheugen.
+overdraagbare projectkennis — niet chatgeheugen. **Sinds 2026-08-08 (poort O.1)**: PR #23 is
+index/relay met KORTE enveloppen (task_id/status/commit), niet meer het volledige transcript —
+de daadwerkelijke inhoud van elke lopende taak staat in `TASK.md`/`STATUS.md`/`RESULT.md` onder
+`runs/active/<TASK_ID>/`, waarvan de paden hieronder bij `ACTIVE_TASKS` staan.
 
 ```
 PROJECT: India-pelgrimsroute-onderzoek voor Mark (bnzgxknwrv-tech/india-knowledge-base, PR #23)
@@ -49,9 +52,19 @@ INGETROKKEN_CANONPOGING (2026-08-08, bericht 061): een "DELTA-ONLY herbeoordelin
   poort R's dubbele sweep + integrale pre-PDF-QA). `governance/SWEEP_PROTOCOL.md` bevat GEEN
   poort T meer; het praktische bijproduct `DELTA_REVIEW_2026-08-08.md` voor Bodh Gaya blijft
   gewoon bestaan als eenmalig documenten, niet als canonprecedent.
+ACTIVE_TASKS (bron van waarheid voor lopende taken — PR #23 is index/relay met KORTE enveloppen,
+  niet meer het volledige transcript; zie governance/SWEEP_PROTOCOL.md poort O.1, 2026-08-08):
+  - task_id: GAYA-AIRPORT-BODHGAYA-CORRIDOR-001
+    task_file: runs/active/GAYA-AIRPORT-BODHGAYA-CORRIDOR-001/TASK.md
+    status_file: runs/active/GAYA-AIRPORT-BODHGAYA-CORRIDOR-001/STATUS.md
+    state: TASK_VASTGELEGD -- SWEEP A NOG NIET UITGEVOERD
 OPEN_SYSTEM_DECISIONS:
-  - Tweede, ongebruikte taakarchitectuur onder india5/tasks/ (TASK.yaml/STATUS.yaml) — reactiveren,
-    archiveren of samenvoegen met Coverage Matrix/Lead Register? Nog niet besloten.
+  - Tweede, ongebruikte taakarchitectuur onder india5/tasks/ (TASK.yaml/STATUS.yaml) — BESLOTEN
+    (2026-08-08, RELAY-MIGRATION-001): expliciet overwogen voor het nieuwe TASK.md/STATUS.md-
+    /RESULT.md-patroon (poort O.1), maar te zwaar bevonden (sha256-hash-pinning, allow/forbid-
+    ACL's, completion-markers zonder duidelijke meerwaarde hier) — NIET gereactiveerd. Blijft
+    ongebruikt/gedeprecieerd; het lichtere `runs/active/<TASK_ID>/TASK.md`+`STATUS.md`-patroon is
+    nu de canonieke aanpak voor taakbestanden.
   - Of Coverage Matrix/Lead Register-inhoud (niet alleen statusvolledigheid) verder machinaal
     gevalideerd moet worden, naast de huidige governance/scripts/preflight_validator.py — inclusief
     of poort R's nieuwe reconciliatiegate-tokens (DOUBLE_SWEEP_COMPLETED e.a.) een scriptcheck
