@@ -3,7 +3,7 @@
 **Een nieuwe INDIA-regisseursessie moet eerst ACTIVE_STATE + actieve protocolcanon lezen. Oude
 chatgeschiedenis is niet vereist voor correcte voortzetting.**
 
-Datum: 2026-08-08
+Datum: 2026-08-14
 Repository: `bnzgxknwrv-tech/india-knowledge-base`
 Werkbranch: `claude/werk-je-nu-of-niet-oa10y7`
 PR: `#23` (draft; niet mergen zonder expliciete vrijgave van Mark)
@@ -30,7 +30,9 @@ CURRENT_REGISSEUR_ROLE: INDIA (rolgebaseerd — huidige regisseursessie is verva
 CURRENT_SESSION_LABEL: INDIA6 (informatief, niet functioneel vereist)
 ACTIVE_PROTOCOL: governance/SWEEP_PROTOCOL.md (ACTIEF/CANONIEK) + india4/protocols/INDIA5-PROTOCOL.md
   + india4/protocols/INDIA5_REGION_START_PROTOCOL.md + india4/protocols/NOT_TO_BE_MISSED_FRAMEWORK.md
-LAST_GLOBAL_LOCATION_NUMBER: 078 (BODHGAYA; VARANASI eindigt op 045, geen overlap)
+LAST_GLOBAL_LOCATION_NUMBER: 078 (BODHGAYA; VARANASI eindigt op 045, geen overlap; corridor-taak
+  GAYA-AIRPORT-BODHGAYA-CORRIDOR-001 leverde na dubbele sweep + reconciliatie 0 nieuwe nummers,
+  079+ blijft ongebruikt)
 PDF_STATUS: VERBODEN (projectbreed default; per taak expliciet PDF_GO: JA vereist, zie
   governance/SWEEP_PROTOCOL.md poort M/N)
 DOUBLE_SWEEP_PROTOCOL_CANONICAL: JA (bericht 059, 2026-08-08) — geen regionale sweep geldt als
@@ -57,7 +59,10 @@ ACTIVE_TASKS (bron van waarheid voor lopende taken — PR #23 is index/relay met
   - task_id: GAYA-AIRPORT-BODHGAYA-CORRIDOR-001
     task_file: runs/active/GAYA-AIRPORT-BODHGAYA-CORRIDOR-001/TASK.md
     status_file: runs/active/GAYA-AIRPORT-BODHGAYA-CORRIDOR-001/STATUS.md
-    state: SWEEP_A_KLAAR -- WACHT OP ONAFHANKELIJKE SWEEP B (INDIA), zie RESULT.md
+    result_file: runs/active/GAYA-AIRPORT-BODHGAYA-CORRIDOR-001/RESULT.md
+    state: DOUBLE_SWEEP_COMPLETED_RECONCILED (2026-08-14) — 0/0 nieuwe fysieke kandidaten,
+      4 reconciliatiepunten verwerkt na CCI-broncontrole (poort G.1), geen PDF/A-B-C (nooit in
+      scope). Geen verder actief werk tenzij nieuwe taak/regio of expliciet Mark-verzoek.
 OPEN_SYSTEM_DECISIONS:
   - Tweede, ongebruikte taakarchitectuur onder india5/tasks/ (TASK.yaml/STATUS.yaml) — BESLOTEN
     (2026-08-08, RELAY-MIGRATION-001): expliciet overwogen voor het nieuwe TASK.md/STATUS.md-
@@ -94,9 +99,10 @@ REGIONS:
 
   BODHGAYA:
     fase: KEUZEFASE INHOUDELIJK AFGEROND (2026-08-08, Mark rechtstreeks + INDIA6 bericht 066) —
-      MARK_SELECTION_KLAAR + AOAY/Top-11-audit KLAAR + reconciliatie KLAAR + alle drie
+      MARK_SELECTIE_KLAAR + AOAY/Top-11-audit KLAAR + reconciliatie KLAAR + alle drie
       MARK_DECISION_CONFLICTs opgelost (bericht 065). GEEN V2-PDF meer — zie
-      BODHGAYA_PDF_V2_CANCELLED_BY_MARK hieronder.
+      BODHGAYA_PDF_V2_CANCELLED_BY_MARK hieronder. Aanvullende corridor-taak
+      GAYA-AIRPORT-BODHGAYA-CORRIDOR-001 (zie ACTIVE_TASKS) is DOUBLE_SWEEP_COMPLETED_RECONCILED.
     BODHGAYA_PDF_V2_CANCELLED_BY_MARK: JA (2026-08-08) — Mark rechtstreeks in chat: "Geen pdf
       meer!!!"; onafhankelijk bevestigd door INDIA6 (PR #23, bericht 066): "MARK-BESLUIT: GEEN
       NIEUWE BODH GAYA-PDF MEER." Bestaande A/B/C-keuzes (incl. 051=C, 061=C, 074=C) blijven
@@ -121,7 +127,7 @@ REGIONS:
       tegendeel) en is ingetrokken/verplaatst; de Ram Dass-datum is gecorrigeerd naar januari 1971
       (was onjuist "winter 1969-70") en de kandidaat is niet langer zeker 074 alleen. Volledige
       matrix: runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/AOAY_TOP11_AUDIT.md
-    Mark-selection-status: MARK_SELECTION_KLAAR: JA (bericht 053, 2026-08-08). A: 046, 047, 048,
+    Mark-selection-status: MARK_SELECTIE_KLAAR: JA (bericht 053, 2026-08-08). A: 046, 047, 048,
       049. B: 050, 052, 070, 073. C: 051, 058, 060, 061, 062, 063, 068, 071, 072, 074, 077, 078.
       Alle 20 nummers LOCKED_BY_MARK — geen open kandidaten, geen open MARK_DECISION_CONFLICTs meer
       (zie hieronder, opgelost bericht 065).
@@ -143,7 +149,8 @@ REGIONS:
       INDIA6 bericht 042 — enige resterende onderscheiding was land-/traditievertegenwoordiging
       of pure architectuur, geen zelfstandige bedevaarts-/heilige zwaarte); 076 (Akshayavat) =
       SUBLOCATION, samengevoegd bij 051 (Vishnupad Temple) — alle 13 uitgesloten/sublocatie-
-      nummers blijven permanent gereserveerd, nooit hergebruikt
+      nummers blijven permanent gereserveerd, nooit hergebruikt; corridor-taak (zie ACTIVE_TASKS)
+      leverde geen nieuwe nummers op, 079+ blijft ongebruikt
     blockers: geen — run is inhoudelijk afgerond voor de keuzefase; enige "blocker" is
       permanent/gewenst: GEEN PDF meer bouwen (zie BODHGAYA_PDF_V2_CANCELLED_BY_MARK)
     PDF geleverd: runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/V1_BODHGAYA_KEUZE_REISGIDS.pdf
@@ -238,6 +245,6 @@ de zoekruimte en nooit zelfstandig bewijs voor kandidaatstatus. Zie
   uitsluitend een PDF na `PRE_PDF_CONTENT_APPROVED: JA` én een apart, letterlijk `PDF_GO: JA`.
 
 ---
-Geschreven door: CCI, bijgewerkt na protocolreview van de huidige INDIA-regisseur (PR #23,
-bericht 034). Geen PDF, geen nieuwe regionale sweep, geen A/B/C, geen route/pacing.
+Geschreven door: CCI, bijgewerkt na reconciliatie van GAYA-AIRPORT-BODHGAYA-CORRIDOR-001 (poort R,
+2026-08-14). Geen PDF, geen nieuwe regionale sweep, geen A/B/C, geen route/pacing.
 `PDF_STATUS: VERBODEN` gerespecteerd tijdens het schrijven van dit document.
