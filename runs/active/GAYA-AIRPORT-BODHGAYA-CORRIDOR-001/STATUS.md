@@ -8,6 +8,7 @@ status_file: runs/active/GAYA-AIRPORT-BODHGAYA-CORRIDOR-001/STATUS.md
 result_file: runs/active/GAYA-AIRPORT-BODHGAYA-CORRIDOR-001/RESULT.md
 last_updated: 2026-08-14
 last_updated_by: CCI (reconciliatie na onafhankelijke INDIA Sweep B)
+reconciliatie_commit: 916b20edd80ea4a5367cd7d17863941712354227
 ```
 
 **blockers**: geen.
