@@ -15,6 +15,15 @@ volledig doorzocht op primaire brontekst; alle 11 Top-11-namen individueel onder
 gericht op zelfstandige zwaargewichten binnen de regionale samenhang. 8 tijdelijke
 Sweep-A-kandidaten gevonden, geen permanente ID's toegekend.
 
+## MARK_PREFERENCE (2026-08-14, rechtstreeks in chat, buiten protocolvolgorde om)
+
+Mark reageerde rechtstreeks op de melding van KUM-SWEEP-A-001, letterlijk: “Ik weet het. Die grot
+is bijna reden 1 voor me om naar India te gaan. A dus.” Dit is een echte, ondubbelzinnige
+voorkeursuitspraak, maar NOG GEEN formele A/B/C-lock — conform TASK.md krijgt Sweep A geen A/B/C
+en geen permanent nummer vóór Sweep B + reconciliatie. Vastgelegd hier zodat de voorkeur het
+reconciliatieproces overleeft en bij toekenning van het permanente nummer direct als `A` wordt
+verwerkt, zie ook het `mark_preference`-veld bij KUM-SWEEP-A-001 in TIJDELIJKE_NIEUWE_FYSIEKE_KANDIDATEN.
+
 ## SCOPE_DEFINITION
 
 Geografische as bepaald op basis van TASK.md-omgeving en bevestigd via onderzoek: Nainital-district
@@ -106,6 +115,9 @@ KUM-SWEEP-A-001 — Mahavatar Babaji-grot (Kukuchina, Dunagiri-berg, nabij Dwara
   bron: Project Gutenberg eBook #7452 (rechtstreeks doorzocht); yssofindia.org/location/dwarahat; euttaranchal.com; atlastravel.in
   as_of: 2026-08-14
   freshness: STABLE (historische/geografische identiteit)
+  mark_preference: A (Mark rechtstreeks, 2026-08-14, buiten protocolvolgorde om) — “Ik weet het.
+    Die grot is bijna reden 1 voor me om naar India te gaan. A dus.” Geen formele lock (temp-ID,
+    wacht op permanent nummer na reconciliatie), maar bij toekenning direct als A te verwerken.
 
 KUM-SWEEP-A-002 — Kainchi Dham (Neem Karoli Baba-ashram, Bhowali-vallei, Nainital-district)
   laag: Top-11 (Neem Karoli Baba, Ram Dass)
@@ -227,4 +239,5 @@ Geen. Klaar voor Sweep B door INDIA (blind, zonder dit RESULT.md als zoekbasis �
 
 ---
 Geschreven door: CCI. Geen A/B/C, geen PDF, geen permanente locatienummers toegekend — uitsluitend
-tijdelijke sweep-ID's, conform TASK.md.
+tijdelijke sweep-ID's, conform TASK.md. Marks A-voorkeur voor KUM-SWEEP-A-001 vastgelegd, niet
+formeel gelockt (zie MARK_PREFERENCE hierboven).
