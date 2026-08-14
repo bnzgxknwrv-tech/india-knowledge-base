@@ -14,7 +14,9 @@ gedateerd/gedeprecieerd en verwijzen hierheen (zie hun eigen kop). GitHub is waa
 overdraagbare projectkennis — niet chatgeheugen. **Sinds 2026-08-08 (poort O.1)**: PR #23 is
 index/relay met KORTE enveloppen (task_id/status/commit), niet meer het volledige transcript —
 de daadwerkelijke inhoud van elke lopende taak staat in `TASK.md`/`STATUS.md`/`RESULT.md` onder
-`runs/active/<TASK_ID>/`, waarvan de paden hieronder bij `ACTIVE_TASKS` staan.
+`runs/active/<TASK_ID>/`, waarvan de paden hieronder bij `ACTIVE_TASKS` staan. **Sinds 2026-08-14**:
+`governance/INDIA_SESSION_START.md` is de duurzame bootstrap voor een nieuwe INDIA-regisseursessie
+(bevestigd bestaand, ongewijzigd correct).
 
 ```
 PROJECT: India-pelgrimsroute-onderzoek voor Mark (bnzgxknwrv-tech/india-knowledge-base, PR #23)
@@ -30,9 +32,10 @@ CURRENT_REGISSEUR_ROLE: INDIA (rolgebaseerd — huidige regisseursessie is verva
 CURRENT_SESSION_LABEL: INDIA6 (informatief, niet functioneel vereist)
 ACTIVE_PROTOCOL: governance/SWEEP_PROTOCOL.md (ACTIEF/CANONIEK) + india4/protocols/INDIA5-PROTOCOL.md
   + india4/protocols/INDIA5_REGION_START_PROTOCOL.md + india4/protocols/NOT_TO_BE_MISSED_FRAMEWORK.md
+  + governance/INDIA_SESSION_START.md (bootstrap-samenvatting)
 LAST_GLOBAL_LOCATION_NUMBER: 078 (BODHGAYA; VARANASI eindigt op 045, geen overlap; corridor-taak
-  GAYA-AIRPORT-BODHGAYA-CORRIDOR-001 leverde na dubbele sweep + reconciliatie 0 nieuwe nummers,
-  079+ blijft ongebruikt)
+  GAYA-AIRPORT-BODHGAYA-CORRIDOR-001 leverde 0 nieuwe nummers op; KUMAON-V2-RESWEEP-001 Sweep A
+  gebruikt uitsluitend tijdelijke sweep-ID's, nog geen permanente nummers toegekend)
 PDF_STATUS: VERBODEN (projectbreed default; per taak expliciet PDF_GO: JA vereist, zie
   governance/SWEEP_PROTOCOL.md poort M/N)
 DOUBLE_SWEEP_PROTOCOL_CANONICAL: JA (bericht 059, 2026-08-08) — geen regionale sweep geldt als
@@ -61,8 +64,15 @@ ACTIVE_TASKS (bron van waarheid voor lopende taken — PR #23 is index/relay met
     status_file: runs/active/GAYA-AIRPORT-BODHGAYA-CORRIDOR-001/STATUS.md
     result_file: runs/active/GAYA-AIRPORT-BODHGAYA-CORRIDOR-001/RESULT.md
     state: DOUBLE_SWEEP_COMPLETED_RECONCILED (2026-08-14) — 0/0 nieuwe fysieke kandidaten,
-      4 reconciliatiepunten verwerkt na CCI-broncontrole (poort G.1), geen PDF/A-B-C (nooit in
-      scope). Geen verder actief werk tenzij nieuwe taak/regio of expliciet Mark-verzoek.
+      afgerond, geen verder actief werk.
+  - task_id: KUMAON-V2-RESWEEP-001
+    task_file: runs/active/KUMAON-V2-RESWEEP-001/TASK.md
+    status_file: runs/active/KUMAON-V2-RESWEEP-001/STATUS.md
+    result_file: runs/active/KUMAON-V2-RESWEEP-001/RESULT.md
+    state: SWEEP_A_KLAAR_WACHT_OP_INDIA_SWEEP_B (2026-08-14) — 8 tijdelijke kandidaten
+      (KUM-SWEEP-A-001 t/m 008), sterke AOAY-hoofdvondst (Mahavatar Babaji-grot nabij Ranikhet/
+      Dwarahat). Wacht op onafhankelijke INDIA Sweep B, daarna reconciliatie tegen legacy
+      Kumaon-data (KUMAON-COMPLETE-001/VRINDAVAN-KUMAON-CORRIDOR-001).
 OPEN_SYSTEM_DECISIONS:
   - Tweede, ongebruikte taakarchitectuur onder india5/tasks/ (TASK.yaml/STATUS.yaml) — BESLOTEN
     (2026-08-08, RELAY-MIGRATION-001): expliciet overwogen voor het nieuwe TASK.md/STATUS.md-
@@ -170,8 +180,15 @@ REGIONS:
       voor alle drie; document blijft staan als afgehandeld historisch artefact
     next_allowed_step: GEEN inhoudelijke PDF-stap meer voor Bodh Gaya. Alle onderzoeksdata,
       A/B/C-besluiten en governance-learnings blijven intact voor latere route-/reisplanning.
-      Volgende inhoudelijke werk is een NIEUWE regio-sweep onder het V2-protocol (poorten G.1,
-      R, S, N-herordening) — niet verder sleutelen aan Bodh Gaya.
+
+  KUMAON (V2-RESWEEP):
+    fase: SWEEP_A_KLAAR_WACHT_OP_INDIA_SWEEP_B (2026-08-14) — zie ACTIVE_TASKS voor taakpointer.
+    legacy: KUMAON-COMPLETE-001 en VRINDAVAN-KUMAON-CORRIDOR-001 bevatten ouder onderzoek/
+      Mark-besluiten — NIET geraadpleegd tijdens Sweep A discovery (blindheidsregel TASK.md), pas
+      relevant bij reconciliatie NA Sweep B.
+    blockers: geen — wacht op INDIA Sweep B.
+    next_allowed_step: INDIA voert onafhankelijk Sweep B uit; daarna reconciliatie tegen Sweep A +
+      legacy-data.
 ```
 
 ## Governance-canon (versie-onafhankelijk, deze map)
@@ -182,6 +199,8 @@ REGIONS:
 - `governance/scripts/preflight_validator.py` — machine-checkbare structurele preflight vóór
   keuzerapportfase en vóór PDF (zie SWEEP_PROTOCOL.md Deel 4 voor de exacte grenzen).
 - `governance/ACTIVE_STATE.md` — dit bestand.
+- `governance/INDIA_SESSION_START.md` — duurzame bootstrap-samenvatting voor een nieuwe
+  INDIA-regisseursessie (bevestigd bestaand en correct, 2026-08-14).
 
 ### Reisdoel-prioriteit: AOAY + Top-X = missiekritisch, rest = bonus (canoncorrectie 2026-08-08, bericht 044)
 
@@ -245,6 +264,6 @@ de zoekruimte en nooit zelfstandig bewijs voor kandidaatstatus. Zie
   uitsluitend een PDF na `PRE_PDF_CONTENT_APPROVED: JA` én een apart, letterlijk `PDF_GO: JA`.
 
 ---
-Geschreven door: CCI, bijgewerkt na reconciliatie van GAYA-AIRPORT-BODHGAYA-CORRIDOR-001 (poort R,
-2026-08-14). Geen PDF, geen nieuwe regionale sweep, geen A/B/C, geen route/pacing.
-`PDF_STATUS: VERBODEN` gerespecteerd tijdens het schrijven van dit document.
+Geschreven door: CCI, bijgewerkt na Sweep A van KUMAON-V2-RESWEEP-001 (2026-08-14). Geen PDF, geen
+A/B/C, geen permanente locatienummers. `PDF_STATUS: VERBODEN` gerespecteerd tijdens het schrijven
+van dit document.
