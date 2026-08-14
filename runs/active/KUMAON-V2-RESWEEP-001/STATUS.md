@@ -2,45 +2,38 @@
 
 ```
 task_id: KUMAON-V2-RESWEEP-001
-state: SWEEP_A_KLAAR_WACHT_OP_INDIA_SWEEP_B
+state: RECONCILED_PARTIAL — 079 (Babaji-grot) PERMANENT_A_LOCKED, overige kandidaten tijdelijk
 task_file: runs/active/KUMAON-V2-RESWEEP-001/TASK.md
 status_file: runs/active/KUMAON-V2-RESWEEP-001/STATUS.md
 result_file: runs/active/KUMAON-V2-RESWEEP-001/RESULT.md
+sweep_b_file: runs/active/KUMAON-V2-RESWEEP-001/INDIA_SWEEP_B.md (branch india/kumaon-v2-sweep-b-001)
+reconciliation_file: runs/active/KUMAON-V2-RESWEEP-001/RECONCILIATION.md
 last_updated: 2026-08-14
-last_updated_by: CCI (Sweep A uitgevoerd; Mark-voorkeur vastgelegd)
+last_updated_by: CCI (reconciliatie na Sweep A + Sweep B + legacy KUMAON-COMPLETE-001)
 ```
 
 **blockers**: geen.
 
-**MARK_PREFERENCE (2026-08-14, rechtstreeks in chat, buiten protocolvolgorde om)**: Mark heeft
-zelf al zijn voorkeur uitgesproken voor `KUM-SWEEP-A-001` (Mahavatar Babaji-grot, Kukuchina/
-Dunagiri nabij Dwarahat/Ranikhet) — letterlijk: “Ik weet het. Die grot is bijna reden 1 voor me
-om naar India te gaan. A dus.” Dit is NOG GEEN formele A/B/C-lock: `KUM-SWEEP-A-001` is een
-tijdelijke sweep-ID, en TASK.md verbiedt A/B/C en permanente locatienummers vóór Sweep B +
-reconciliatie. Marks voorkeur is desondanks ondubbelzinnig en wordt hier onuitwisbaar bewaard
-zodat ze bij toekenning van het permanente nummer direct als `A` wordt overgenomen — niet opnieuw
-gevraagd, niet vergeten.
+**Reconciliatie-samenvatting**: Sweep A (CCI, 8 temp-ID's) vs Sweep B (INDIA, 45 temp-ID's,
+bevroren op branch `india/kumaon-v2-sweep-b-001`) vs legacy `KUMAON-COMPLETE-001` (branch
+`controller/kumaon-complete-001-ready-for-zilver-20260719`, 46 genummerde locaties + LOCKED
+A/B/C) vergeleken. Babaji-grot (`KUM-SWEEP-A-001`/`KB2-001`/legacy `#15`) drievoudig fysiek
+bevestigd + dubbel Mark-bevestigd (legacy A vóór dit gesprek, plus Marks verse "A dus" vandaag) —
+nu permanent nummer **079**, `A`, `LOCKED_BY_MARK`. Coördinaten nog open (ook in legacy nooit
+ingevuld) — zie NEXT_ALLOWED_STEP.
 
-**Sweep A samenvatting**: volledig blinde discovery (geen oude Kumaon-runs geraadpleegd). AOAY
-leverde een sterke hoofdvondst op: de Mahavatar Babaji-grot nabij Ranikhet/Dwarahat waar Babaji
-Lahiri Mahasaya in 1861 initieerde, rechtstreeks uit de AOAY-brontekst geciteerd. 8 tijdelijke
-kandidaten (KUM-SWEEP-A-001 t/m 008) met bronvermelding. 7 van 11 Top-11-namen hebben een
-gevonden link (Babaji, Lahiri Mahasaya, Ram Dass, Neem Karoli Baba, Anandamayi Ma, Hariharananda,
-Vivekananda); 4 negatief (Yogananda persoonlijk bezoek, Sri Yukteswar, Ramakrishna, Ramana
-Maharshi), elk expliciet vastgelegd. Volledige details: `RESULT.md`.
+Sterke overlap tussen Sweep A/B en legacy voor Kainchi Dham, Kasar Devi, Jageshwar, Haidakhan,
+Ramakrishna Kutir, Chitai Golu Devta. Substantieel nieuw materiaal uit Sweep B: een uitgebreid
+Vivekananda-circuit (15 punten) dat legacy niet zo gedetailleerd had. Legacy had twee locaties
+(Turiya Niwas #36, Bodh Ashram #37, beide LOCKED A) die beide nieuwe sweeps misten — vastgelegd
+voor heropening, niet stilzwijgend genegeerd. Eén bronconflict (Bhumiadhar vs Bhumiya Dhara-
+identiteit) gedeeltelijk opgelost via legacy DECISION-0002. Geen `MARK_BESLUIT_CONFLICT`.
+Volledige tabellen: `RECONCILIATION.md`.
 
-**next_allowed_step**: INDIA voert onafhankelijk Sweep B uit (poort R) — blind, zonder dit
-`RESULT.md` als zoekbasis te gebruiken vóórdat de eigen sweep is afgerond, en zonder de oude
-Kumaon-runs als discovery-basis. Sweep B blijft blind op kandidaatniveau — Marks voorkeur hierboven
-verandert niets aan de vereiste onafhankelijkheid van Sweep B. Pas na Sweep B volgt reconciliatie
-tegen zowel Sweep A als legacy-data (`NIEUW_INTERSECT_OUD`, `NIEUW_MIN_OUD`, `OUD_MIN_NIEUW`,
-`BRON_CONFLICTEN`, `MARK_BESLUIT_CONFLICTEN`). Geen PRE_PDF_CONTENT, geen PDF, geen formele A/B/C,
-geen permanente locatienummers tot na reconciliatie — Marks A-voorkeur voor KUM-SWEEP-A-001 wordt
-dan direct verwerkt.
-
-**Korte startzin voor INDIA** (kopieerbaar):
-`Voer onafhankelijk Sweep B uit voor KUMAON-V2-RESWEEP-001 volgens TASK.md — lees CCI's RESULT.md
-pas NA je eigen sweep, en gebruik geen oude Kumaon-kandidaatset als zoekbasis.`
+**next_allowed_step**: coördinaten voor 079 verifiëren; Bhumiadhar/Bhumiya Dhara-identiteit verder
+uitzoeken; Turiya Niwas + Bodh Ashram heropenen; per Vivekananda-circuitpunt uit Sweep B een
+identity-check tegen legacy vóór verdere permanente toekenning. Geen PDF, geen route, geen A/B/C
+voor andere locaties dan 079.
 
 ---
 Dit bestand is de kortste, altijd-actuele bron van waarheid voor deze taak (poort O.1).

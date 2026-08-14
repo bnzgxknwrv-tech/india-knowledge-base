@@ -15,8 +15,14 @@ overdraagbare projectkennis — niet chatgeheugen. **Sinds 2026-08-08 (poort O.1
 index/relay met KORTE enveloppen (task_id/status/commit), niet meer het volledige transcript —
 de daadwerkelijke inhoud van elke lopende taak staat in `TASK.md`/`STATUS.md`/`RESULT.md` onder
 `runs/active/<TASK_ID>/`, waarvan de paden hieronder bij `ACTIVE_TASKS` staan. **Sinds 2026-08-14**:
-`governance/INDIA_SESSION_START.md` is de duurzame bootstrap voor een nieuwe INDIA-regisseursessie
-(bevestigd bestaand, ongewijzigd correct).
+`governance/INDIA_SESSION_START.md` is de duurzame bootstrap voor een nieuwe INDIA-regisseursessie.
+Ook sinds 2026-08-14: dit project heeft een EERDERE architectuur gehad (`KUMAON-COMPLETE-001` e.a.,
+zie branch `controller/kumaon-complete-001-ready-for-zilver-20260719`) met een eigen, incompatibele
+nummering (`CLUSTER_LOCATIONS.md` #1-46, plus een nooit-toegepast `LOCATION_ID`-clusterblokschema
+uit `DECISION-0013`). Die branch is nooit gemerged en die nummering wordt NIET hergebruikt — de
+huidige, doorlopende globale nummering (dit bestand, `LAST_GLOBAL_LOCATION_NUMBER`) is leidend.
+Mark-besluiten (LOCKED_A/B/C) uit die legacy-branch blijven wel inhoudelijk geldig en worden bij
+reconciliatie geraadpleegd als benchmark, zie `runs/active/KUMAON-V2-RESWEEP-001/RECONCILIATION.md`.
 
 ```
 PROJECT: India-pelgrimsroute-onderzoek voor Mark (bnzgxknwrv-tech/india-knowledge-base, PR #23)
@@ -33,9 +39,11 @@ CURRENT_SESSION_LABEL: INDIA6 (informatief, niet functioneel vereist)
 ACTIVE_PROTOCOL: governance/SWEEP_PROTOCOL.md (ACTIEF/CANONIEK) + india4/protocols/INDIA5-PROTOCOL.md
   + india4/protocols/INDIA5_REGION_START_PROTOCOL.md + india4/protocols/NOT_TO_BE_MISSED_FRAMEWORK.md
   + governance/INDIA_SESSION_START.md (bootstrap-samenvatting)
-LAST_GLOBAL_LOCATION_NUMBER: 078 (BODHGAYA; VARANASI eindigt op 045, geen overlap; corridor-taak
-  GAYA-AIRPORT-BODHGAYA-CORRIDOR-001 leverde 0 nieuwe nummers op; KUMAON-V2-RESWEEP-001 Sweep A
-  gebruikt uitsluitend tijdelijke sweep-ID's, nog geen permanente nummers toegekend)
+LAST_GLOBAL_LOCATION_NUMBER: 079 (KUMAON; Mahavatar Babaji's Cave, Kukuchina/Dunagiri bij
+  Dwarahat -- A, LOCKED_BY_MARK, gereconcilieerd 2026-08-14 uit CCI Sweep A + INDIA Sweep B +
+  legacy KUMAON-COMPLETE-001 #15/PLACE-0001. Coordinaten nog open. BODHGAYA eindigt op 078;
+  VARANASI eindigt op 045, geen overlap; corridor-taak GAYA-AIRPORT-BODHGAYA-CORRIDOR-001 leverde
+  0 nieuwe nummers op. Overige KUMAON-V2-RESWEEP-001-kandidaten blijven tijdelijke sweep-ID's.)
 PDF_STATUS: VERBODEN (projectbreed default; per taak expliciet PDF_GO: JA vereist, zie
   governance/SWEEP_PROTOCOL.md poort M/N)
 DOUBLE_SWEEP_PROTOCOL_CANONICAL: JA (bericht 059, 2026-08-08) — geen regionale sweep geldt als
@@ -69,10 +77,10 @@ ACTIVE_TASKS (bron van waarheid voor lopende taken — PR #23 is index/relay met
     task_file: runs/active/KUMAON-V2-RESWEEP-001/TASK.md
     status_file: runs/active/KUMAON-V2-RESWEEP-001/STATUS.md
     result_file: runs/active/KUMAON-V2-RESWEEP-001/RESULT.md
-    state: SWEEP_A_KLAAR_WACHT_OP_INDIA_SWEEP_B (2026-08-14) — 8 tijdelijke kandidaten
-      (KUM-SWEEP-A-001 t/m 008), sterke AOAY-hoofdvondst (Mahavatar Babaji-grot nabij Ranikhet/
-      Dwarahat). Wacht op onafhankelijke INDIA Sweep B, daarna reconciliatie tegen legacy
-      Kumaon-data (KUMAON-COMPLETE-001/VRINDAVAN-KUMAON-CORRIDOR-001).
+    reconciliation_file: runs/active/KUMAON-V2-RESWEEP-001/RECONCILIATION.md
+    state: RECONCILED_PARTIAL (2026-08-14) — 079 (Babaji-grot) permanent/A/LOCKED_BY_MARK;
+      overige Sweep-A/Sweep-B-kandidaten blijven tijdelijk, zie RECONCILIATION.md voor
+      NEXT_ALLOWED_STEP per cluster.
 OPEN_SYSTEM_DECISIONS:
   - Tweede, ongebruikte taakarchitectuur onder india5/tasks/ (TASK.yaml/STATUS.yaml) — BESLOTEN
     (2026-08-08, RELAY-MIGRATION-001): expliciet overwogen voor het nieuwe TASK.md/STATUS.md-
@@ -128,67 +136,34 @@ REGIONS:
       onafhankelijke INDIA6-tegencontrole, bericht 058) — volledige AOAY-primaire-tekstsweep (1
       treffer: Sri Yukteswars Swami-inwijding "door de Mahant van Buddh Gaya", AOAY ch.36) + alle
       11 Top-11-namen individueel onderzocht, daarna elk gemeld discrepantiepunt opnieuw tegen
-      bronnen getoetst. 5 LINK_GEVONDEN (Sri Yukteswar -> 046; Vivekananda -> 046, verrijking;
-      Anandamayi Ma -> 051; Ramakrishna -> 051 via zijn vader Kshudirams naamgevende
-      Gadadhar/Vishnu-visioen, NIET via een eigen bezoek; Ram Dass -> onzeker tussen 061 en 074),
-      6 geen directe fysieke link (waaronder Neem Karoli Baba zelf, wel niet-promoveerbare
-      lineage-context bij 046 via devotee Krishna Das). CORRECTIE t.o.v. de eerste versie: de
-      claim "Ramakrishna bezocht Bodh Gaya" was ONJUIST (rechtstreekse brondubbelcheck toonde het
-      tegendeel) en is ingetrokken/verplaatst; de Ram Dass-datum is gecorrigeerd naar januari 1971
-      (was onjuist "winter 1969-70") en de kandidaat is niet langer zeker 074 alleen. Volledige
-      matrix: runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/AOAY_TOP11_AUDIT.md
-    Mark-selection-status: MARK_SELECTIE_KLAAR: JA (bericht 053, 2026-08-08). A: 046, 047, 048,
-      049. B: 050, 052, 070, 073. C: 051, 058, 060, 061, 062, 063, 068, 071, 072, 074, 077, 078.
-      Alle 20 nummers LOCKED_BY_MARK — geen open kandidaten, geen open MARK_DECISION_CONFLICTs meer
-      (zie hieronder, opgelost bericht 065).
-    MARK_DECISION_CONFLICTs — ALLE DRIE OPGELOST (bericht 065, 2026-08-08, via de compacte
-      DELTA-review): **051** Vishnupad Temple — C bevestigd, ondanks TWEE nieuwe Top-11-links
-      (Anandamayi Ma, Top-11 #7; Ramakrishna, Top-11 #8, via zijn vaders visioen). **061** Burmese
-      Vihara — C bevestigd, ondanks mogelijke Ram Dass-link (Top-11 #5, LOCATIE ONZEKER, zie 074).
-      **074** Dhamma Bodhi/Samanvaya Ashram — C bevestigd, Ram Dass-link (datum gecorrigeerd naar
-      januari 1971), LOCATIE ONZEKER, gedeeld met 061. Vastgelegd in
-      runs/active/BODHGAYA-DISCOVERY-001/MARK_DECISIONS_2026-08-08_DELTA.jsonl; banners in
-      MARK_SELECTION_REPORT.md en PRE_PDF_CONTENT.md bijgewerkt naar "OPGELOST". Geen apart
-      "Gadadhar Vishnu Temple"-nummer nodig (dit IS 051, geen aparte fysieke plek) — expliciet
-      onderzocht en afgewezen.
-    protected A/B/C-besluiten: 046-049 = A (bron: MARK_DECISIONS_2026-08-05.jsonl); 050-078-groep
-      zie hierboven (bron: runs/active/BODHGAYA-DISCOVERY-001/MARK_DECISIONS_2026-08-08.jsonl +
-      MARK_DECISIONS_2026-08-08_DELTA.jsonl, LOCKED_BY_MARK, mag niet stilzwijgend heropend worden)
-    reserved/excluded nummers: 069, 075 = EXCLUDED_HARD_REASON (eerder); 053, 054, 055, 056, 057,
-      059, 064, 065, 066, 067 = EXCLUDED_HARD_REASON (2026-08-08, retroactieve E.1-canontoets,
-      INDIA6 bericht 042 — enige resterende onderscheiding was land-/traditievertegenwoordiging
-      of pure architectuur, geen zelfstandige bedevaarts-/heilige zwaarte); 076 (Akshayavat) =
-      SUBLOCATION, samengevoegd bij 051 (Vishnupad Temple) — alle 13 uitgesloten/sublocatie-
-      nummers blijven permanent gereserveerd, nooit hergebruikt; corridor-taak (zie ACTIVE_TASKS)
-      leverde geen nieuwe nummers op, 079+ blijft ongebruikt
-    blockers: geen — run is inhoudelijk afgerond voor de keuzefase; enige "blocker" is
-      permanent/gewenst: GEEN PDF meer bouwen (zie BODHGAYA_PDF_V2_CANCELLED_BY_MARK)
-    PDF geleverd: runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/V1_BODHGAYA_KEUZE_REISGIDS.pdf
-      (19 pagina's, commit 5910439) — eerste én LAATSTE build voor deze run; GEEN V2 meer, PDF
-      toont de OUDE open/twijfelgeval-labels en wordt NIET meer vervangen (geannuleerd door Mark)
-    PRE_PDF_CONTENT geleverd: runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/PRE_PDF_CONTENT.md —
-      volledige, actuele kandidaatinhoud (20 kandidaatkaarten met alle 10 verplichte velden,
-      beslismatrix, clusteroverzicht), bijgewerkt na reconciliatie (bericht 058) EN na de drie
-      opgeloste MARK_DECISION_CONFLICTs (bericht 065). Dit is het DEFINITIEVE leesbare
-      eindproduct voor Bodh Gaya — geen PDF-render meer gepland, dus geen
-      `PRE_PDF_CONTENT_APPROVED`/`PDF_GO`-stap meer nodig voor deze run.
-    DELTA_REVIEW gebruikt en afgehandeld (2026-08-08, bericht 061 → besluit bericht 065 — eenmalig
-      praktisch hulpmiddel voor DEZE correctieronde, GEEN permanente canonregel, zie "Ingetrokken
-      canonpogingen" hieronder): runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/
-      DELTA_REVIEW_2026-08-08.md diende als compacte herbeoordeling voor Mark van de 3 kandidaten
-      met een open MARK_DECISION_CONFLICT (051, 061, 074) — Mark koos "oude keuze (C) behouden"
-      voor alle drie; document blijft staan als afgehandeld historisch artefact
-    next_allowed_step: GEEN inhoudelijke PDF-stap meer voor Bodh Gaya. Alle onderzoeksdata,
-      A/B/C-besluiten en governance-learnings blijven intact voor latere route-/reisplanning.
+      bronnen getoetst. Volledige matrix:
+      runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/AOAY_TOP11_AUDIT.md
+    Mark-selection-status: MARK_SELECTIE_KLAAR: JA (bericht 053, 2026-08-08). Alle 20 nummers
+      LOCKED_BY_MARK — geen open kandidaten, geen open MARK_DECISION_CONFLICTs meer.
+    protected A/B/C-besluiten: 046-078, LOCKED_BY_MARK, mag niet stilzwijgend heropend worden
+    reserved/excluded nummers: 069, 075 = EXCLUDED_HARD_REASON; 053-057, 059, 064-067 =
+      EXCLUDED_HARD_REASON (2026-08-08); 076 (Akshayavat) = SUBLOCATION van 051; corridor-taak
+      leverde geen nieuwe nummers op
+    blockers: geen — enige "blocker" is permanent/gewenst: GEEN PDF meer bouwen
+    next_allowed_step: GEEN inhoudelijke PDF-stap meer voor Bodh Gaya.
 
   KUMAON (V2-RESWEEP):
-    fase: SWEEP_A_KLAAR_WACHT_OP_INDIA_SWEEP_B (2026-08-14) — zie ACTIVE_TASKS voor taakpointer.
-    legacy: KUMAON-COMPLETE-001 en VRINDAVAN-KUMAON-CORRIDOR-001 bevatten ouder onderzoek/
-      Mark-besluiten — NIET geraadpleegd tijdens Sweep A discovery (blindheidsregel TASK.md), pas
-      relevant bij reconciliatie NA Sweep B.
-    blockers: geen — wacht op INDIA Sweep B.
-    next_allowed_step: INDIA voert onafhankelijk Sweep B uit; daarna reconciliatie tegen Sweep A +
-      legacy-data.
+    fase: RECONCILED_PARTIAL (2026-08-14) — zie ACTIVE_TASKS voor taakpointer.
+    permanent: 079 = Mahavatar Babaji's Cave (Kukuchina/Dunagiri, Dwarahat) = A, LOCKED_BY_MARK,
+      gereconcilieerd uit CCI Sweep A + INDIA Sweep B + legacy KUMAON-COMPLETE-001. Coordinaten
+      nog niet geverifieerd.
+    legacy: KUMAON-COMPLETE-001 (branch controller/kumaon-complete-001-ready-for-zilver-20260719)
+      had al 28 eigen LOCKED_A-locaties voor deze regio (Kainchi Dham, Kasar Devi, Jageshwar,
+      Haidakhan, Hanuman Garhi, Chitai Golu Devta, Ramakrishna Kutir, Bhumiyadhar e.a.) plus 4
+      LOCKED_C (bewust afgewezen: Mirtola, Binsar, Patal Bhuvaneshwar, Dhaulchina) en 2 LOCKED_B
+      (Ghorakhal, en Vrindavan-item buiten scope). Gebruikt als benchmark bij reconciliatie, niet
+      als discovery-basis tijdens Sweep A/B (blindheidsregel correct toegepast).
+    blockers: geen.
+    next_allowed_step: coordinaten voor 079 verifiëren; Bhumiadhar/Bhumiya Dhara-identiteit
+      verder uitzoeken; Turiya Niwas + Bodh Ashram (legacy LOCKED A, door beide nieuwe sweeps
+      gemist) heropenen; per resterend Sweep-B-Vivekananda-circuitpunt identity-check tegen
+      legacy vóór verdere permanente toekenning. Zie runs/active/KUMAON-V2-RESWEEP-001/
+      RECONCILIATION.md voor volledige details.
 ```
 
 ## Governance-canon (versie-onafhankelijk, deze map)
@@ -200,7 +175,7 @@ REGIONS:
   keuzerapportfase en vóór PDF (zie SWEEP_PROTOCOL.md Deel 4 voor de exacte grenzen).
 - `governance/ACTIVE_STATE.md` — dit bestand.
 - `governance/INDIA_SESSION_START.md` — duurzame bootstrap-samenvatting voor een nieuwe
-  INDIA-regisseursessie (bevestigd bestaand en correct, 2026-08-14).
+  INDIA-regisseursessie.
 
 ### Reisdoel-prioriteit: AOAY + Top-X = missiekritisch, rest = bonus (canoncorrectie 2026-08-08, bericht 044)
 
@@ -209,36 +184,18 @@ Marks eigenlijke reisdoel is (1) AOAY (*Autobiography of a Yogi*) en (2) de **de
 verplicht tot een 100%-sweep van deze twee lagen (elke AOAY-plek, elke Top-11-persoon een eigen
 detector — zie `governance/SWEEP_PROTOCOL.md` poort A/E.1) VÓÓRDAT algemene bedevaarts-
 "bonusmateriaal"-kandidaten mogen meetellen als bewijs voor een sweep-brede `SATURATED=JA`-claim
-(harde volgordedwang, poort C/J). Praktisch gevolg, letterlijk zoals door Mark bedoeld: een
-obscure schuur waar Yogananda aantoonbaar mediteerde staat qua keuzeprioriteit BOVEN een enorm
-bedevaartsoord met miljoenen bezoekers — geen inconsistentie, maar het punt van de hele reis. Dit
-verandert NIETS aan de MARK_WAARDIG-gate zelf (nog steeds geen quotum, geen filtering op
-verwachte A/B/C) — het bepaalt uitsluitend zoekvolgorde/-diepte en saturatie-afhankelijkheid.
+(harde volgordedwang, poort C/J).
 
-**Definitieve Top-11 (canoncorrectie 2026-08-08, bericht 046 — vervangt elke eerdere, bredere
-Top-X-omschrijving)**: Paramahansa Yogananda, Mahavatar Babaji, Lahiri Mahasaya, Sri Yukteswar,
+**Definitieve Top-11**: Paramahansa Yogananda, Mahavatar Babaji, Lahiri Mahasaya, Sri Yukteswar,
 Ram Dass, Neem Karoli Baba, Anandamayi Ma, Ramakrishna, Ramana Maharshi, Hariharananda,
-Vivekananda. Apart, met een eigen expliciet gewenste Mahasamadhi-locatie in Delhi: **Shri Mataji
-Nirmala Devi** (buiten de Top-11, wel missiekritisch voor die ene locatie). **Boeddha en Krishna
-staan NIET in de Top-11** — beiden zijn te groot/alomtegenwoordig, wat kandidaat-inflatie zou
-veroorzaken (elke gewone boeddhistische/Krishna-tempel zou anders automatisch missiekritisch
-worden). Boeddha-/Krishna-kandidaten worden voortaan uitsluitend onder laag 3 beoordeeld (hoge,
-zelfstandige-zwaarte-drempel) — Mahabodhi Temple/Bodh Gaya blijft daar vanzelfsprekend kandidaat
-omdat de plek zelf die drempel overduidelijk haalt.
+Vivekananda. Apart: Shri Mataji Nirmala Devi (Delhi Mahasamadhi-locatie). Boeddha en Krishna staan
+NIET in de Top-11.
 
-### Discriminatieregel MARK_WAARDIG (canoncorrectie 2026-08-08, verscherpt dezelfde dag, duurzaam te erven)
+### Discriminatieregel MARK_WAARDIG (canoncorrectie 2026-08-08)
 
-Elke toekomstige INDIA-regisseur/CCI-uitvoering erft automatisch de beslisvolgorde uit
-`governance/SWEEP_PROTOCOL.md` poort E.1: (1) AOAY-link (*Autobiography of a Yogi*) = absolute
-override, altijd tonen, ook bij een objectief onbeduidende plek; (2) zonder AOAY-link: Top-X
-persoonlijke zwaarte, breed zoeken, lage drempel; (3) alles daarbuiten: **religie-onafhankelijke**
-bedevaarts-/pelgrimszwaarte met een HOGE drempel. De zoekvraag is NIET "welke belangrijke religies
-zijn hier aanwezig?" maar UITSLUITEND "welke fysieke plekken hebben hier uitzonderlijke
-religieuze/spirituele/pelgrimszwaarte?" — een grote wereldreligie geeft op zichzelf geen recht op
-opname; een obscure/kleine traditie met één plaats van enorme pelgrimszwaarte moet juist boven
-komen. Religiecategorieën (poort A) zijn hoogstens aanvullende zoektermen, nooit de begrenzing van
-de zoekruimte en nooit zelfstandig bewijs voor kandidaatstatus. Zie
-`governance/SWEEP_ERROR_CLASSES.md` FK-011 voor het Bodh Gaya-precedent (Mongolian Temple, 069).
+(1) AOAY-link = absolute override; (2) zonder AOAY-link: Top-11 persoonlijke zwaarte, breed
+zoeken, lage drempel; (3) alles daarbuiten: religie-onafhankelijke bedevaarts-/pelgrimszwaarte met
+HOGE drempel. Zie `governance/SWEEP_ERROR_CLASSES.md` FK-011 voor het Bodh Gaya-precedent.
 
 ## Nog geldige, ongewijzigde canon buiten `governance/`
 
@@ -251,19 +208,13 @@ de zoekruimte en nooit zelfstandig bewijs voor kandidaatstatus. Zie
 
 - **Mark**: bepaalt doel/scope, maakt alle definitieve A/B/C-keuzes, geeft `PDF_GO: JA` en
   content-acceptatie.
-- **Huidige INDIA-regisseur** (`CURRENT_REGISSEUR_ROLE`, vandaag ingevuld door de sessie met
-  label INDIA6): regisseert, bewaakt canon, controleert saturatie-evidence
-  (`INDIA_ACCEPTED_SATURATION: JA`) en content (`PRE_PDF_CONTENT_APPROVED: JA`, vervangt het oude
-  losse `CONTENT_QA_ACCEPTED: JA` voor PDF-doeleinden — zie governance/SWEEP_PROTOCOL.md poort M).
-  Niet canoniek/onmisbaar — een toekomstige INDIA7/INDIA8/... erft deze rol volledig via dit
-  bestand plus de actieve protocolcanon, nooit via chatgeschiedenis. **Actieplicht (bericht 057)**:
-  als INDIA constateert dat iets inhoudelijk noodzakelijk moet gebeuren, mag dat niet eindigen als
-  passieve TODO — INDIA voert het zelf uit met beschikbare tools of geeft in dezelfde beurt een
-  concrete CCI-opdracht. Alleen blokkeren bij werkelijk ontbrekende informatie/toestemming.
+- **Huidige INDIA-regisseur**: regisseert, bewaakt canon, controleert saturatie-evidence en
+  content. Niet canoniek/onmisbaar — een toekomstige INDIA7/INDIA8/... erft deze rol volledig via
+  dit bestand plus de actieve protocolcanon, nooit via chatgeschiedenis.
 - **CCI (ClaudeCodeIndia)**: uitvoerende engine — onderzoek, datasets, rapporten, commits. Bouwt
   uitsluitend een PDF na `PRE_PDF_CONTENT_APPROVED: JA` én een apart, letterlijk `PDF_GO: JA`.
 
 ---
-Geschreven door: CCI, bijgewerkt na Sweep A van KUMAON-V2-RESWEEP-001 (2026-08-14). Geen PDF, geen
-A/B/C, geen permanente locatienummers. `PDF_STATUS: VERBODEN` gerespecteerd tijdens het schrijven
-van dit document.
+Geschreven door: CCI, bijgewerkt na reconciliatie van KUMAON-V2-RESWEEP-001 (2026-08-14, poort R).
+Geen PDF, geen A/B/C voor andere locaties dan 079, geen route. `PDF_STATUS: VERBODEN` gerespecteerd
+tijdens het schrijven van dit document.
