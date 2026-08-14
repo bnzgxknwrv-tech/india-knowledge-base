@@ -11,7 +11,7 @@ Dit bestand maakt de huidige ChatGPT/INDIA-regisseur vervangbaar. Een nieuwe ses
 3. dit bestand opnieuw als korte operationele samenvatting
 4. het `STATUS.md` van de nieuwste actieve taak
 5. het bijbehorende `TASK.md`
-6. `RESULT.md` alleen wanneer de taakstatus/protocol dat toestaat; respecteer blindheid tussen onafhankelijke sweeps.
+6. lees bij Kumaon óók de LIVE STATE hieronder vóór een `RESULT.md` wordt geopend; respecteer blindheid tussen onafhankelijke sweeps.
 
 GitHub is de duurzame bron van waarheid. Oude chatgeschiedenis is niet nodig voor voortzetting.
 
@@ -66,17 +66,35 @@ Rajgir/Nalanda staat voorlopig NIET in beeld als volgende actieve regio.
 ## Actuele keuze: Kumaon opnieuw, maar blind en modern
 De oude repo bevat al veel `KUMAON-COMPLETE-001`-onderzoek en oudere locaties/Mark-statussen. Dat werk wordt NIET weggegooid, maar mag de nieuwe discovery niet sturen.
 
-Nieuwe aanpak voor `KUMAON-V2-RESWEEP-001`:
+Aanpak voor `KUMAON-V2-RESWEEP-001`:
 1. CCI Sweep A volledig vers vanaf nul onder huidige AOAY + Top-11 + laag-3-regels, zonder oude Kumaon-kandidatenlijst als zoekbasis.
-2. INDIA Sweep B daarna eveneens onafhankelijk en blind voor zowel CCI Sweep A als de oude kandidaatset als discovery-basis.
+2. INDIA Sweep B volledig onafhankelijk en blind voor zowel CCI Sweep A als de oude kandidaatset als discovery-basis.
 3. Pas na beide sweeps wordt het oude Kumaon-onderzoek geopend als benchmark.
 4. Reconciliatie vergelijkt `NIEUW∩OUD`, `NIEUW\OUD`, `OUD\NIEUW` en bronconflicten.
 5. Oude Mark-besluiten/IDs nooit automatisch wijzigen; legacy-only locaties worden opnieuw geverifieerd, niet stil verwijderd.
 6. Nieuwe fysieke vondsten krijgen pas na reconciliatie een permanente ID volgens de dan geldende registry; tijdens blinde discovery alleen tijdelijke sweep-ID's gebruiken.
 
-Zo krijgen we een echte nieuwe kwaliteitsmeting zonder oud werk weg te gooien of discovery te bevooroordelen.
+## LIVE STATE — KUMAON-V2-RESWEEP-001
 
-## Actieve eerstvolgende taak
+- CCI Sweep A: door Mark gestart en op dit snapshotmoment nog bezig; canonieke status altijd opnieuw controleren in `runs/active/KUMAON-V2-RESWEEP-001/STATUS.md`.
+- INDIA Sweep B: REEDS parallel en blind uitgevoerd vóór inzage in CCI Sweep A of oude Kumaon-candidates.
+- Sweep-B-bestand: `runs/active/KUMAON-V2-RESWEEP-001/INDIA_SWEEP_B.md`
+- Sweep-B-branch: `india/kumaon-v2-sweep-b-001`
+- Sweep-B-freeze-commit: `41bd4a7caebe83e44b9ee2470ecf1212d5111d9e`
+- Sweep-B-status: `SWEEP_B_FROZEN_BLIND`.
+- Blindheidsattest en tijdelijke `KB2-*`-kandidaten staan in dat bestand.
+- CCI mag Sweep B niet gebruiken om zijn nog lopende Sweep A te sturen.
+
+### NEXT_ACTION exact
+1. Controleer canonieke `STATUS.md`.
+2. Als CCI Sweep A NOG loopt: wijzig/lees CCI-resultaat niet als sturing; er is geen extra Mark-actie nodig.
+3. Zodra CCI Sweep A expliciet KLAAR/BEVROREN is: open CCI `RESULT.md` en het reeds bevroren `INDIA_SWEEP_B.md`.
+4. Vergelijk A vs B.
+5. Open PAS DAARNA legacy `KUMAON-COMPLETE-001` en relevante oude Mark-besluiten als benchmark.
+6. Reconcileer `NIEUW_INTERSECT_OUD`, `NIEUW_MIN_OUD`, `OUD_MIN_NIEUW`, `BRON_CONFLICTEN` en eventuele `MARK_BESLUIT_CONFLICTEN`.
+7. Geen PDF en geen A/B/C voorspellen; daarna pas compacte keuze-ready kandidaatoutput voor Mark.
+
+## Actieve taak
 `runs/active/KUMAON-V2-RESWEEP-001/TASK.md`
 
 ## Startzin voor een nieuwe ChatGPT-sessie
