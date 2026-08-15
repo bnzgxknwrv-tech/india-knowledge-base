@@ -81,9 +81,19 @@ ACTIVE_TASKS (bron van waarheid voor lopende taken — PR #23 is index/relay met
     status_file: runs/active/KUMAON-V2-RESWEEP-001/STATUS.md
     result_file: runs/active/KUMAON-V2-RESWEEP-001/RESULT.md
     reconciliation_file: runs/active/KUMAON-V2-RESWEEP-001/RECONCILIATION.md
-    state: RECONCILED_PARTIAL (2026-08-14) — 079 (Babaji-grot) permanent/A/LOCKED_BY_MARK;
-      overige Sweep-A/Sweep-B-kandidaten blijven tijdelijk, zie RECONCILIATION.md voor
-      NEXT_ALLOWED_STEP per cluster.
+    miss_rescue_file: runs/active/KUMAON-V2-RESWEEP-001/MISS_ROOT_CAUSE_RESCUE.md
+    state: RECONCILED_PARTIAL (2026-08-15) — 079/080/081 permanent/A/LOCKED_BY_MARK (Babaji-grot,
+      Turiya Niwas, Bodh Ashram); overige Sweep-A/Sweep-B-kandidaten blijven tijdelijk, zie
+      RECONCILIATION.md + MISS_ROOT_CAUSE_RESCUE.md voor NEXT_ALLOWED_STEP per cluster.
+  - task_id: TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
+    task_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/TASK.md
+    status_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/STATUS.md
+    pilot_result_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/PILOT_RESULT.md
+    state: PILOT_KLAAR_WACHT_OP_INDIA_QA (2026-08-15) — nieuwe orthogonale detectorlaag
+      (persoon->heel India, i.p.v. regio->personen), pilot op Anandamayi Ma + Neem Karoli Baba.
+      Grootste vondst: Kankhal/Haridwar (Anandamayi Ma's mahasamadhi) ontbreekt volledig uit de
+      huidige repo. PERSON_SWEEP_SATURATED: NEE voor beide — eerste-laag pilot, geen volledige
+      verzadiging. Gestopt conform TASK.md, wacht op INDIA-QA vóór de overige 9 personen.
 OPEN_SYSTEM_DECISIONS:
   - Tweede, ongebruikte taakarchitectuur onder india5/tasks/ (TASK.yaml/STATUS.yaml) — BESLOTEN
     (2026-08-08, RELAY-MIGRATION-001): expliciet overwogen voor het nieuwe TASK.md/STATUS.md-
