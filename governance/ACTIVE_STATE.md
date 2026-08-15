@@ -39,9 +39,12 @@ CURRENT_SESSION_LABEL: INDIA6 (informatief, niet functioneel vereist)
 ACTIVE_PROTOCOL: governance/SWEEP_PROTOCOL.md (ACTIEF/CANONIEK) + india4/protocols/INDIA5-PROTOCOL.md
   + india4/protocols/INDIA5_REGION_START_PROTOCOL.md + india4/protocols/NOT_TO_BE_MISSED_FRAMEWORK.md
   + governance/INDIA_SESSION_START.md (bootstrap-samenvatting)
-LAST_GLOBAL_LOCATION_NUMBER: 079 (KUMAON; Mahavatar Babaji's Cave, Kukuchina/Dunagiri bij
-  Dwarahat -- A, LOCKED_BY_MARK, gereconcilieerd 2026-08-14 uit CCI Sweep A + INDIA Sweep B +
-  legacy KUMAON-COMPLETE-001 #15/PLACE-0001. Coordinaten nog open. BODHGAYA eindigt op 078;
+LAST_GLOBAL_LOCATION_NUMBER: 081 (KUMAON; 079 Mahavatar Babaji's Cave, 080 Turiya Niwas, 081 Bodh
+  Ashram -- alle drie A, LOCKED_BY_MARK. 079 gereconcilieerd 2026-08-14 uit CCI Sweep A + INDIA
+  Sweep B + legacy KUMAON-COMPLETE-001 #15/PLACE-0001. 080/081 toegekend 2026-08-15 na
+  miss-root-cause-rescue (CCI_TASK 078) -- beide legacy #36/#37, door beide nieuwe sweeps gemist,
+  herverifieerd en zonder Mark-conflict alsnog toegekend; zie runs/active/KUMAON-V2-RESWEEP-001/
+  MISS_ROOT_CAUSE_RESCUE.md. Coordinaten voor alle drie nog open. BODHGAYA eindigt op 078;
   VARANASI eindigt op 045, geen overlap; corridor-taak GAYA-AIRPORT-BODHGAYA-CORRIDOR-001 leverde
   0 nieuwe nummers op. Overige KUMAON-V2-RESWEEP-001-kandidaten blijven tijdelijke sweep-ID's.)
 PDF_STATUS: VERBODEN (projectbreed default; per taak expliciet PDF_GO: JA vereist, zie
@@ -148,22 +151,34 @@ REGIONS:
     next_allowed_step: GEEN inhoudelijke PDF-stap meer voor Bodh Gaya.
 
   KUMAON (V2-RESWEEP):
-    fase: RECONCILED_PARTIAL (2026-08-14) — zie ACTIVE_TASKS voor taakpointer.
-    permanent: 079 = Mahavatar Babaji's Cave (Kukuchina/Dunagiri, Dwarahat) = A, LOCKED_BY_MARK,
-      gereconcilieerd uit CCI Sweep A + INDIA Sweep B + legacy KUMAON-COMPLETE-001. Coordinaten
-      nog niet geverifieerd.
+    fase: RECONCILED_PARTIAL (2026-08-15, na miss-root-cause-rescue) — zie ACTIVE_TASKS voor
+      taakpointer.
+    permanent: 079 = Mahavatar Babaji's Cave (Kukuchina/Dunagiri, Dwarahat); 080 = Turiya Niwas
+      (Crank's Ridge, kluizenaarswoning Sunyata Sorensen); 081 = Bodh Ashram (voormalig landgoed
+      Evans-Wentz/Lama Govinda, bezocht door Anandamayi Ma + Neem Karoli Baba) — alle drie A,
+      LOCKED_BY_MARK. 080/081 toegekend na gerichte rescue-audit (CCI_TASK 078, 2026-08-15) nadat
+      bleek dat beide nieuwe sweeps ze gemist hadden; root cause + fix in runs/active/
+      KUMAON-V2-RESWEEP-001/MISS_ROOT_CAUSE_RESCUE.md. Coordinaten voor alle drie nog niet
+      geverifieerd.
+    protocolwijziging (2026-08-15): governance/SWEEP_PROTOCOL.md poort E.1 minimaal gepatcht na
+      dit incident — (1) Top-11-zoeken moet ook host-/gastheer-/landgoedketens meenemen, niet
+      alleen de eigen instellingen van een Top-11-naam; (2) laag 3 bevestigt expliciet dat
+      informele, niet-institutionele historische verblijfplaatsen (geen tempel/complex) evengoed
+      MARK_WAARDIG kunnen zijn.
     legacy: KUMAON-COMPLETE-001 (branch controller/kumaon-complete-001-ready-for-zilver-20260719)
       had al 28 eigen LOCKED_A-locaties voor deze regio (Kainchi Dham, Kasar Devi, Jageshwar,
       Haidakhan, Hanuman Garhi, Chitai Golu Devta, Ramakrishna Kutir, Bhumiyadhar e.a.) plus 4
       LOCKED_C (bewust afgewezen: Mirtola, Binsar, Patal Bhuvaneshwar, Dhaulchina) en 2 LOCKED_B
       (Ghorakhal, en Vrindavan-item buiten scope). Gebruikt als benchmark bij reconciliatie, niet
-      als discovery-basis tijdens Sweep A/B (blindheidsregel correct toegepast).
+      als discovery-basis tijdens Sweep A/B (blindheidsregel correct toegepast). Rescue-audit op
+      alle 16 Kumaon-LOCKED_A's: 12 door minstens één sweep gevonden, 2 lage-ernst sub-
+      locatiemisses zonder actie nodig (Babaji Smriti Bhavan, Crank's Ridge — beide onderdeel van
+      een wél gevonden cluster), 2 hoge-ernst misses nu gerescued (080, 081).
     blockers: geen.
-    next_allowed_step: coordinaten voor 079 verifiëren; Bhumiadhar/Bhumiya Dhara-identiteit
-      verder uitzoeken; Turiya Niwas + Bodh Ashram (legacy LOCKED A, door beide nieuwe sweeps
-      gemist) heropenen; per resterend Sweep-B-Vivekananda-circuitpunt identity-check tegen
-      legacy vóór verdere permanente toekenning. Zie runs/active/KUMAON-V2-RESWEEP-001/
-      RECONCILIATION.md voor volledige details.
+    next_allowed_step: coordinaten voor 079/080/081 verifiëren; Bhumiadhar/Bhumiya Dhara-
+      identiteit verder uitzoeken; per resterend Sweep-B-Vivekananda-circuitpunt identity-check
+      tegen legacy vóór verdere permanente toekenning. Zie runs/active/KUMAON-V2-RESWEEP-001/
+      RECONCILIATION.md + MISS_ROOT_CAUSE_RESCUE.md voor volledige details.
 ```
 
 ## Governance-canon (versie-onafhankelijk, deze map)

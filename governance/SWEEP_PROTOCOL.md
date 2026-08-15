@@ -248,7 +248,17 @@ sweepverplichting en volgordedwang). Voor iedere lead, in deze volgorde:
    de sannyas-orde, exacte plek binnen Bodh Gaya onbekend — zie 046), wordt dit ALTIJD getoond met
    twee losse velden: `gebeurtenis_geverifieerd: JA/NEE` en `exacte_locatie_geverifieerd:
    JA/NEE/ONBEKEND` — nooit stilzwijgend samengevoegd tot één "onbevestigd" dat de gebeurtenis
-   zelf verdoezelt.
+   zelf verdoezelt. **Host-/gastheerketen verplicht meezoeken (nieuw, KUMAON-V2-RESWEEP-001-
+   precedent, 2026-08-15)**: zoeken uitsluitend naar de EIGEN ashrams/instellingen/bekende
+   ontmoetingsplekken van een Top-11-naam is niet voldoende — een Top-11-figuur die als GAST
+   verbleef bij of op bezoek ging bij een niet-Top-11-gastheer (bijv. een lokaal bekende
+   kluizenaar, geleerde of landgoedbewoner) moet apart worden opgespoord door ook op die
+   gastheer/dat landgoed/die verblijfplaats te zoeken, niet alleen vanuit de naam van de
+   Top-11-persoon zelf. Precedent: Bodh Ashram (voormalig landgoed van Evans-Wentz, later Lama
+   Govinda), bezocht door zowel Anandamayi Ma als Neem Karoli Baba, werd door twee onafhankelijke
+   sweeps gemist omdat beide uitsluitend zochten vanuit de namen Anandamayi Ma/Neem Karoli Baba
+   naar hun EIGEN instellingen, niet naar regionaal bekende landgoederen/gastheren die zij als
+   bezoeker aandeden.
 3. **ALLES BUITEN AOAY/TOP X = RELIGIE-ONAFHANKELIJKE BEDEVAARTSZOEKING, HOGE DREMPEL** (verscherpt,
    INDIA6 bericht 040/tweede versie, 2026-08-08 — vervangt de eerdere, voor misverstand vatbare
    formulering "religieuze zwaargewichten"). De zoekvraag is NIET "welke belangrijke religies zijn
@@ -277,6 +287,16 @@ sweepverplichting en volgordedwang). Voor iedere lead, in deze volgorde:
    - Een gewone tempel/heiligdom van eender welke traditie, puur aanwezig voor categoriedekking,
      is NIET MARK_WAARDIG; een heiligdom van eender welke traditie (groot of obscuur) mét
      aantoonbaar zware, zelfstandige bedevaartsbetekenis WEL.
+   - **Informele, niet-institutionele historische verblijfplaatsen tellen ook mee (nieuw,
+     KUMAON-V2-RESWEEP-001-precedent, 2026-08-15)**: laag 3 is niet beperkt tot formele tempels/
+     ashrams/complexen. Een woonhuis, kluizenaarsverblijf of landgoed van een regionaal bekende,
+     niet-Top-11 spirituele/historische figuur kan zelfstandig MARK_WAARDIG zijn wanneer het
+     aantoonbaar zware, eigen historische/culturele betekenis heeft (bijv. een bekend
+     verzamelpunt van spirituele zoekers, een erkende kluizenaarstraditie) — dezelfde hoge drempel
+     geldt, maar "geen tempel/complex" is op zichzelf geen reden om zo'n plek over te slaan.
+     Precedent: Turiya Niwas (woonhuis van kluizenaar Alfred "Sunyata" Sorensen, Crank's Ridge),
+     gemist door twee onafhankelijke sweeps die laag-3-discovery vooral op formele
+     tempels/complexen richtten.
 
 **Geen "religies afvinken"**: religieuze/traditie-coverage (poort A, de lenzenlijst) is
 uitsluitend aanvullende zoekterminologie om mogelijke zwaargewichten niet te missen — nooit
