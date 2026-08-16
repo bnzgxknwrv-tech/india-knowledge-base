@@ -4,16 +4,21 @@ Dit repository is de duurzame bron van waarheid voor het India-project. Een nieu
 
 ## Harde bootregel voor iedere nieuwe INDIA-regisseur
 
-Voer vóór inhoudelijk handelen altijd een volledige repository-orientatie uit op de actuele werkbranch.
+**Lees de gehele GitHub-repository voordat je inhoudelijk handelt.** Niet alleen de handoff, niet alleen governance, niet alleen actieve taken.
 
-1. Haal de **volledige recursieve repository-tree** op. Inspecteer alle mappen en bestandsnamen; ga nooit uit van één handoff-bestand als enige waarheid.
-2. Lees daarna volledig:
-   - `README.md` (dit bestand);
-   - alle actuele bestanden onder `governance/`, minimaal `ACTIVE_STATE.md`, `INDIA_SESSION_START.md`, `SWEEP_PROTOCOL.md`, `SWEEP_ERROR_CLASSES.md` en relevante validators;
-   - alle `runs/active/*/STATUS.md` en bijbehorende `TASK.md`;
-   - voor elke taak waarvan `STATUS.md` zegt dat een resultaat klaar is voor INDIA: het relevante `RESULT.md`, `RECONCILIATION.md`, `METHOD*.md`, `SATURATION*.md` of andere genoemde output;
-   - alle actuele decision/registry-bestanden die door de actieve taak worden genoemd.
-3. Scan vervolgens repo-breed op de state-tokens:
+Praktisch betekent dit:
+
+1. Haal de volledige recursieve tree van de actuele werkbranch op.
+2. Lees vervolgens **alle tekstuele bronbestanden op die werkbranch inhoudelijk**, inclusief governance, actieve runs, oudere runs, registries, decisions, protocollen, methodes, scripts, README/START/HANDOFF-bestanden, research-notities en legacy-projectbestanden. Oude bestanden kunnen fouten bevatten of gedeprecieerd zijn, maar moeten wel gelezen worden zodat een opvolger weet wat er bestond, wat vervangen is en welke Mark-besluiten mogelijk beschermd zijn.
+3. Niet-tekstuele/binaire artefacten (PDF's, afbeeldingen, ZIP's) hoeven niet byte-voor-byte gelezen te worden als hun relevante inhoud al in tekstbestanden is vastgelegd. Zodra een actuele taak, decision of audit naar zo'n artefact verwijst als inhoudelijke bron, moet het wel worden geopend/gecontroleerd.
+4. Inventariseer daarnaast alle relevante branches en open PR's. Lees in elk geval de actieve werkbranch volledig en inspecteer legacy/andere branches die in de repo of actieve taken worden genoemd. PR #23 moet volledig als relay/index worden gecontroleerd op de nieuwste envelopes; inhoudelijke waarheid blijft in de repo-bestanden.
+5. Lees daarna nogmaals de actuele canonieke statebestanden om prioriteit en conflictoplossing vast te zetten:
+   - `governance/ACTIVE_STATE.md`
+   - `governance/INDIA_SESSION_START.md`
+   - `governance/SWEEP_PROTOCOL.md`
+   - `governance/SWEEP_ERROR_CLASSES.md`
+   - alle `runs/active/*/STATUS.md` + bijbehorende `TASK.md` en genoemde outputbestanden.
+6. Scan repo-breed op minimaal:
    - `LOCKED_BY_MARK`
    - `MARK_DECISION_CONFLICT`
    - `LAST_GLOBAL_LOCATION_NUMBER`
@@ -22,13 +27,12 @@ Voer vóór inhoudelijk handelen altijd een volledige repository-orientatie uit 
    - `PERSON_SWEEP_SATURATED`
    - `AOAY_LOCATION_SWEEP_SATURATED`
    - `DOUBLE_SWEEP_COMPLETED`
-4. Controleer PR #23 op **nieuwste korte relay-enveloppen** en controleer de nieuwste commits op de werkbranch. PR #23 is index/relay, niet de volledige waarheid.
-5. Controleer of er een nieuwere `STATUS.md` bestaat dan de snapshot in `ACTIVE_STATE.md` of `INDIA_SESSION_START.md`. Bij verschil geldt voor taakspecifieke voortgang altijd: **actuele taak-STATUS > INDIA_SESSION_START > ACTIVE_STATE > oude chat/legacy**.
-6. Lees legacy/archiefmateriaal wanneer een actieve taak of reconciliatie ernaar verwijst. Legacy mag nooit stil actuele canon overschrijven; alleen via expliciete reconciliatie.
-7. Handel daarna DIRECT de nieuwste `next_allowed_step` af. Mark is geen koerier tussen INDIA en CCI.
+7. Controleer de nieuwste commits op de werkbranch en de nieuwste PR #23-enveloppen.
+8. Bij tegenstrijdige state geldt voor actuele taakspecifieke voortgang: **actuele taak-STATUS > INDIA_SESSION_START > ACTIVE_STATE > oudere/legacy-bestanden > oude chat**. Maar oudere bestanden mogen niet worden genegeerd wanneer ze beschermde Mark-besluiten, eerdere evidence of een expliciete reconciliatiebron bevatten.
+9. Handel daarna DIRECT de nieuwste `next_allowed_step` af. Mark is geen koerier tussen INDIA en CCI.
 
-### Wat “gehele GitHub lezen” hier praktisch betekent
-Een opvolger moet altijd de volledige tree inventariseren, alle governance/current-state-bestanden en alle actieve taakbestanden inhoudelijk lezen, en de rest van de repo repo-breed doorzoeken op state/decision-tokens en verwijzingen. Historische PDF-binaries hoeven niet opnieuw gerenderd te worden tenzij een actuele taak ze expliciet nodig heeft. Geen onbekende map of actieve run mag worden overgeslagen omdat een handoff-samenvatting hem niet noemt.
+### Waarom echt de hele repo lezen
+Dit project heeft meerdere architectuurfasen, oude branches, legacy-besluiten en later ontdekte misses. Alleen een samenvatting lezen kan precies de fouten herhalen die we proberen te voorkomen. De volledige repo is daarom de oriëntatielaag; de statebestanden bepalen daarna wat actueel/canoniek is.
 
 ## State-bestanden en onderhoud
 
@@ -36,7 +40,7 @@ Een opvolger moet altijd de volledige tree inventariseren, alle governance/curre
 - `governance/ACTIVE_STATE.md` = langere centrale projectstaat/canon.
 - `runs/active/<TASK_ID>/STATUS.md` = kortste en meest actuele waarheid per taak.
 - `runs/active/<TASK_ID>/TASK.md` = taakcontract.
-- PR #23 = korte relay/index, geen transcript.
+- PR #23 = korte relay/index, geen vervanging voor repo-inhoud.
 
 **Verplichte onderhoudsregel voor iedere INDIA-regisseur:** update `governance/INDIA_SESSION_START.md` in dezelfde werksessie wanneer één van deze dingen verandert: nieuwe taak, taak afgerond/geblokkeerd, nieuwe CCI-opdracht, nieuwe permanente locatie-ID, Mark A/B/C-lock, methode/protocolwijziging, regioprioriteit, of `NEXT_ACTION`. Update daarnaast altijd het betrokken taak-`STATUS.md`. Laat een opvolger nooit afhankelijk zijn van chatgeheugen.
 
@@ -107,4 +111,4 @@ Rajgir/Nalanda staat voorlopig niet in beeld als actieve volgende regio.
 
 Mark kan in een nieuwe chat alleen dit sturen:
 
-> Neem de INDIA-regie over. Lees eerst de volledige GitHub-repository volgens README.md op de actuele werkbranch, daarna governance/INDIA_SESSION_START.md en alle actieve STATUS/TASK-bestanden. Controleer PR #23 en recente commits. Handel vervolgens direct de nieuwste NEXT_ACTION af. Vraag mij niet de geschiedenis opnieuw uit te leggen.
+> Neem de INDIA-regie over. Lees eerst de **gehele GitHub-repository inhoudelijk** op de actuele werkbranch volgens README.md, inclusief legacy/oud tekstmateriaal, en inventariseer relevante branches/PR's. Lees daarna de actuele governance en alle actieve STATUS/TASK/output-bestanden opnieuw om canon en prioriteit vast te zetten. Controleer PR #23 en recente commits. Handel vervolgens direct de nieuwste NEXT_ACTION af. Vraag mij niet de geschiedenis opnieuw uit te leggen.
