@@ -5,7 +5,7 @@ task_id: TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
 trigger: CCI_TASK 081 (AUTHORIZED_BY_INDIA, METHOD_V1.md)
 uitgevoerd_door: CCI
 gestart_op: 2026-08-16
-status: IN_UITVOERING — persoon 1/9 gereed
+status: IN_UITVOERING — persoon 2/9 gereed
 ```
 
 Werkwijze: één persoon volledig afwerken (Fase A landelijke discovery blind t.o.v. bestaande
@@ -88,6 +88,66 @@ Babaji als ahistorisch en nooit-gastheer-bezoekend beschrijft. Dit is fundamente
 Anandamayi Ma/Neem Karoli Baba (moderne, goed gedocumenteerde historische personen) en mag niet als
 sjabloon voor de overige 8 personen worden aangenomen — elke volgende persoon krijgt zijn eigen
 volledige host-/gastheer-doorzoeking.
+
+---
+
+## PERSOON 2/9 — LAHIRI MAHASAYA
+
+```
+status: PERSON_SWEEP_SATURATED: JA (gekalibreerd, zie hieronder)
+```
+
+### Fase A — landelijke discovery
+
+Bronnen: officiële YSS-biografie (yssofindia.org/about/lahiri-mahasaya), onafhankelijke
+overzichtsbronnen, en direct geverifieerde adres-/locatiebronnen voor zijn huis en samadhi-tempel
+in Varanasi (incl. incredibleindia.gov.in — officiële overheids-toerismebron).
+
+### Atlaspunten
+
+| atlas_id | plek | plaats/staat | tier | link-type | bron | verificatie |
+|---|---|---|---|---|---|---|
+| ATL-LM-001 | Geboortedorp Ghurni | Nadia-district, West-Bengal | 2 | geboorteplek, 30-09-1828; fysieke plek in 1833 verzwolgen door rivierverlegging | YSS officieel + onafhankelijke biografiebronnen | person_event: JA; physical_identity: JA (dorp geïdentificeerd); exact_sublocation: NEE (oorspronkelijke locatie niet meer fysiek bestaand) |
+| ATL-LM-002 | Woonhuis Lahiri Mahasaya | D 31/58 Madanpura Road/Lane, Bangali Tola/Garudeswar Mohalla, Varanasi, UP | 1 | woonhuis + plek waar hij dagelijks devotees ontving en Kriya Yoga initieerde, tot overlijden 1895 | yappe.in + incredibleindia.gov.in (officiële overheidsbron) | person_event: JA; physical_identity: JA; exact_sublocation: JA |
+| ATL-LM-003 | Satyalok / Lahiri Mahasaya Samadhi-tempel | 7/111 Sonarpura Road, Bangali Tola, Varanasi, UP | 1 | samadhi/relieken, dagelijkse puja door nazaat | path2yoga.net + bharatibiz.com | person_event: JA; physical_identity: JA; exact_sublocation: JA |
+| ATL-LM-004 | Danapur | Bihar (bij Patna) | 2 | werkplek als accountant, Military Engineering Department, tot 1861 vóór overplaatsing naar Ranikhet | onafhankelijke AOAY-secundaire bronnen | person_event: JA; physical_identity: DEELS (garnizoensplaats, geen specifiek gebouw); exact_sublocation: NEE |
+| ATL-LM-005 | Ranikhet (overplaatsing/aankomst) | Kumaon, Uttarakhand | 2 | overplaatsingsplaats vlak vóór de grot-ontmoeting met Babaji | zelfde bronnen als ATL-MB-001/002 | zie ATL-MB-001 — zelfde event, geen apart punt |
+
+### Fase C — vergelijking met repo
+
+- **ATL-LM-002 (woonhuis) = FOUND_AND_ALREADY_KNOWN.** Reeds in repo als `VNS-CAND-002`,
+  `protected_mark_status: A`, adres D 31/58 Madanpura Road bevestigd — identiek adres, geen conflict.
+- **ATL-LM-003 (Satyalok-samadhi) = FOUND_AND_ALREADY_KNOWN.** Reeds `VNS-CAND-001`, `A`,
+  Sonarpura Road-adres bevestigd — identiek, geen conflict.
+- **ATL-LM-001 (Ghurni) en ATL-LM-004 (Danapur) = NIEUW, niet eerder in de repo aangetroffen**
+  (grep op "Ghurni", "Nadia", "Danapur", "Krishnanagar" leverde niets op in de volledige repo).
+  Beide zijn geïsoleerde losse punten, geen cluster: `FOUND_BUT_MISSING_FROM_REPO` maar bewust NIET
+  als `NEW_REGION_SIGNAL` bestempeld (één los punt per regio, geen aangetoonde dichtheid van
+  belangrijke plekken). Praktische waarde voor Mark is bovendien laag: Ghurni's oorspronkelijke
+  fysieke plek bestaat niet meer, Danapur heeft geen specifiek identificeerbaar gebouw.
+- **ATL-LM-005 = DUPLICATE_OR_SAME_PHYSICAL_SITE** van het reeds bij Babaji (079) vastgelegde event.
+
+### Saturatie-beoordeling tegen de 6 TASK-punten
+
+1. Officiële/lineage-bronnen + primaire teksten: **JA**.
+2. Grote levensfasen/reizen afgedekt: **JA** — geboorte, jeugd/gezinsramp, ambtenaarsloopbaan
+   (Danapur), overplaatsing (Ranikhet), initiatie (1861), vestiging Varanasi, overlijden (1895).
+3. Alternatieve spellingen: **DEELS** — "Shyama Charan/Shyamacharan Lahiri", "Lahiri Mahashaya"
+   gecontroleerd en consistent; geen nieuwe vondsten via spellingvarianten.
+4. Host-/landgoedketens teruggevolgd: **DEELS, gemotiveerd** — belangrijkste discipelen
+   (Panchanan Bhattacharya, Bhupendranath Sanyal e.a.) geïdentificeerd, maar het patroon van deze
+   specifieke persoon is dat devotees NAAR HEM kwamen in zijn vaste huis in Varanasi, niet dat hij
+   als gast bij hún landgoederen verbleef — structureel ander reispatroon dan Anandamayi Ma/NKB.
+5. Expliciet "op bezoek bij anderen": **NEE, geen bewijs gevonden** — na de vestiging in Varanasi
+   (1861-1895) is geen enkele bron aangetroffen die een verblijf van Lahiri Mahasaya als gast bij
+   een ander huishouden/landgoed beschrijft; hij was in die periode een honkvaste huisvader-yogi.
+   Dit is expliciet als `NIET_GEVONDEN`, niet als ongecontroleerd, vastgelegd.
+6. Negatieve/onzekere claims vastgelegd: **JA** — Ghurni's fysieke verdwijning, ontbreken van
+   pre-Danapur functies/postings (`NIET_GEVONDEN`, niet aangenomen als afwezig).
+
+**`PERSON_SWEEP_SATURATED: JA`**, met expliciete kalibratie dat punt 5 voor deze specifieke persoon
+een echt onderzocht en bevestigd `NIET_GEVONDEN`-resultaat is (structureel honkvaste levensfase na
+1861), niet een overgeslagen stap.
 
 ---
 Dit bestand is de kortste, altijd-actuele bron van waarheid voor Fase 2 van deze taak (poort O.1).
