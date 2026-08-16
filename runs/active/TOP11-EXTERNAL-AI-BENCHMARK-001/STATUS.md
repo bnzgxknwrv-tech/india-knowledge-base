@@ -2,16 +2,36 @@
 
 ```
 task_id: TOP11-EXTERNAL-AI-BENCHMARK-001
-state: WAITING_FOR_EXTERNAL_AI_MASTER_ATLAS_INPUT
-task_file: runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/TASK.md
+state: ANANDAMAYI_EXTERNAL_UNION_INGESTED__INDIA_SOURCE_FIRST_PASS_COMPLETE__RECONCILIATION_NEXT
 last_updated: 2026-08-16
 last_updated_by: INDIA
 ```
 
-CCI's landelijke Top-11-lijst bestaat al: circa 90 atlaspunten, 11/11 door CCI als `PERSON_SWEEP_SATURATED: JA` gemarkeerd. Deze saturation-status is voor INDIA voorlopig **PROVISIONEEL / NOG NIET EXTERN GEBENCHMARKT**.
+## Ingevoerd
+- `EXTERNAL_UNION_INPUT.md`: Marks gecombineerde onafhankelijke AI-union voor Anandamayi Ma, 156 masterlocaties.
+- `INDIA_SOURCE_FIRST_SWEEP_ANANDAMAYI.md`: INDIA's eigen source-first corpuspass over de officiële/lineage Anandamayi-corpus.
+- `TASK.md`: benchmark is nu expliciet driehoek CCI vs INDIA-source-first vs externe multi-AI-union.
 
-Mark heeft meerdere onafhankelijke AI-antwoorden al laten combineren in een aparte chat. De gecombineerde master-atlas/union is nog niet in deze repo aangeleverd.
+## Harde QA-uitkomst tot nu toe
+1. CCI's Anandamayi-atlas (~23 punten) is **aantoonbaar niet compleet genoeg**. Het eerdere `PERSON_SWEEP_SATURATED: JA` is voor recall-doeleinden voorlopig ingetrokken/provisioneel.
+2. Marks externe union (156) is **veel rijker dan CCI** en bewijst de waarde van onafhankelijke AI-detectoren.
+3. De externe union is zelf óók niet compleet: een source-first scan van `anandamayi.org` Life History 1896–1982 + Sangha-biografie levert opnieuw vele expliciete fysieke sites/events die niet als afzonderlijk record in de 156-union zichtbaar zijn.
+4. Conclusie: AI-search alleen — ongeacht welke AI — mag niet de primaire completeness-engine zijn. Corpus-extractie moet vóór discovery komen.
 
-**next_allowed_step:** Mark levert alleen de gecombineerde externe master-atlas/union aan (niet alle ruwe AI-antwoorden nodig). INDIA vergelijkt die eerst met CCI. Bij minimaal één betekenisvolle, bronmatig bevestigde CCI-miss wordt de externe-unioncontrole uitgebreid naar alle Top-11-personen.
+## Voorlopige architectuur
+`CORPUS EXTRACTIE -> CCI/INDIA independent-method discovery -> host/gastheer graph -> EXTERNAL MULTI-AI adversarial union -> directe bronverificatie -> identity reconciliation -> SATURATION`
 
-Geen PDF. Geen A/B/C. Geen nieuwe CCI-discovery zolang benchmarkinput ontbreekt.
+## Test om te bepalen of externe AI structureel nodig blijft
+Anandamayi Ma is door alle partijen inmiddels 'besmet' met elkaars resultaten en is daarom geen zuivere toekomstige blindtest meer. Gebruik haar voor methodebouw en reconciliatie.
+
+Daarna een **prospectieve control-test op Paramahansa Yogananda**:
+1. CCI + INDIA voeren eerst METHOD_V2 source-first uit en freezen de volledige Yogananda-atlas.
+2. Pas daarna krijgt een onafhankelijke externe multi-AI-set dezelfde blanco opdracht zonder CCI/INDIA-lijst.
+3. External-only claims worden rechtstreeks geverifieerd.
+4. Als externe AI nog betekenisvolle geverifieerde plekken toevoegt => externe multi-AI wordt verplichte derde detector voor alle Top-11.
+5. Als CCI+INDIA METHOD_V2 de externe geverifieerde union volledig reproduceert => externe AI kan terug naar periodieke/adversarial audit in plaats van iedere persoon volledig.
+
+## next_allowed_step
+INDIA maakt `BENCHMARK_RESULT.md` voor Anandamayi Ma en laat CCI vervolgens de drieweg-reconciliatie + METHOD_V2-draft onafhankelijk auditen. Daarna prospectieve Yogananda-control-test vóór een besluit over externe AI voor de overige personen.
+
+Geen PDF. Geen A/B/C.
