@@ -5,7 +5,7 @@ task_id: TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
 trigger: CCI_TASK 081 (AUTHORIZED_BY_INDIA, METHOD_V1.md)
 uitgevoerd_door: CCI
 gestart_op: 2026-08-16
-status: IN_UITVOERING — persoon 8/9 gereed
+status: FASE_2_NEGEN_PERSONEN_GEREED — synthese volgt
 ```
 
 Werkwijze: één persoon volledig afwerken (Fase A landelijke discovery blind t.o.v. bestaande
@@ -513,6 +513,73 @@ rkmm.org), ramakrishnavivekananda.info (primaire tekstbron, Gospel-vertaling).
    `NIET_GEVONDEN` op adresniveau, niet verzwegen.
 
 **`PERSON_SWEEP_SATURATED: JA`.**
+
+---
+
+## PERSOON 9/9 — RAMANA MAHARSHI
+
+```
+status: PERSON_SWEEP_SATURATED: JA
+```
+
+### Fase A — landelijke discovery
+
+Bronnen: Wikipedia, officiële gururamana.org (Sri Ramanasramam) tijdlijn, arunachala.org.
+
+**Bijzonderheid van deze persoon**: Ramana Maharshi verliet Arunachala na aankomst in 1896 nooit
+meer, 54 jaar lang tot zijn mahanirvana in 1950. Een geografisch smalle atlas is hier het correcte,
+verwachte resultaat — geen zoekgat.
+
+### Atlaspunten
+
+| atlas_id | plek | plaats/staat | tier | link-type | bron | verificatie |
+|---|---|---|---|---|---|---|
+| ATL-RM-001 | Tiruchuzhi | Virudhunagar-district, Tamil Nadu | 1 | geboorteplek 30-12-1879 | Wikipedia + richardarunachala.wordpress.com | person_event: JA; physical_identity: JA; exact_sublocation: JA |
+| ATL-RM-002 | Oomsom-huis (oom), Madurai | Madurai, Tamil Nadu | 2 | spontane "doodservaring"/ontwaken, 1896 | Wikipedia | person_event: JA; physical_identity: DEELS (stad, exact huis niet apart bevestigd in deze pass); exact_sublocation: NEE |
+| ATL-RM-003 | Arunachaleswarar-tempel (duizend-zuilenhal) | Tiruvannamalai, Tamil Nadu | 1 | eerste verblijf na aankomst, sept. 1896 | gururamana.org officieel | person_event: JA; physical_identity: JA; exact_sublocation: JA |
+| ATL-RM-004 | Virupaksha-grot (+ Mango Tree Cave als zomerverblijf) | Arunachala-berg, Tiruvannamalai | 1 | verblijf 1899-1916, schreef hier kernteksten | gururamana.org officieel | person_event: JA; physical_identity: JA; exact_sublocation: JA |
+| ATL-RM-005 | Skandashram | Arunachala-berg, Tiruvannamalai | 1 | verblijf 1916-1922, moeder voegde zich hier bij hem | gururamana.org officieel | person_event: JA; physical_identity: JA; exact_sublocation: JA |
+| ATL-RM-006 | Sri Ramanasramam | Tiruvannamalai, Tamil Nadu | 1 | hoofdverblijf 1922-1950, mahanirvana april 1950, huidig hoofdashram | gururamana.org officieel | person_event: JA; physical_identity: JA; exact_sublocation: JA |
+
+### Fase C — vergelijking met repo
+
+Grep op "Tiruvannamalai", "Arunachala", "Tiruchuzhi", "Ramanasramam" leverde niets op in de
+bestaande repo — **alle zes punten zijn `FOUND_BUT_MISSING_FROM_REPO`.** Vier ervan
+(ATL-RM-003/004/005/006) vormen samen een **echte, dichte cluster op en rond de Arunachala-berg** —
+dit is het duidelijkste `NEW_REGION_SIGNAL` van heel Fase 2: Tamil Nadu had tot nu toe geen enkele
+vermelding in de repo, en krijgt via deze ene persoon meteen een sterk vijfpuntscluster (inclusief
+Tiruchuzhi). Samen met Vivekananda's Kanyakumari (persoon 7/9) en Rameswaram-landing betekent dit
+dat Tamil Nadu inmiddels drie onafhankelijke Top-11-personen met fysieke aanwezigheid heeft.
+
+- **ATL-RM-006 (Ramanasramam) = `PERSON_LINK_UPGRADE`-kans**: dit is dezelfde plek als ATL-PY-009
+  (Yogananda's bezoek okt/nov 1935) — bevestigt dat cross-persoon-punt nu ook vanuit Ramana
+  Maharshi's eigen sweep, geen dubbeltelling.
+
+### Saturatie-beoordeling tegen de 6 TASK-punten
+
+1. Officiële/lineage + primaire teksten: **JA** — officiële ashram-tijdlijn.
+2. Grote levensfasen/reizen afgedekt: **JA, volledig** — vier chronologische fasen (tempel → Virupaksha
+   → Skandashram → Ramanasramam) dekken zijn hele 54-jarige verblijf.
+3. Alternatieve spellingen: **JA** — geboortenaam "Venkataraman Iyer" meegenomen.
+4. Host-/landgoedketens teruggevolgd: **N.V.T., gemotiveerd** — na 1896 was hij zelf het vaste
+   middelpunt waar anderen (incl. zijn moeder, incl. Yogananda in 1935) naartoe kwamen, geen bron
+   beschrijft hem als gast bij een ander huishouden na zijn aankomst in Tiruvannamalai.
+5. Expliciet "op bezoek bij anderen": **N.V.T., zelfde reden als punt 4** — vóór 1896 (Madurai) was
+   hij bij familie, niet als spiritueel-relevante gastheer-reis; na 1896 structureel afwezig.
+6. Negatieve/onzekere claims: **JA** — exact huis in Madurai `NIET_GEVONDEN` in deze pass, niet
+   verzwegen.
+
+**`PERSON_SWEEP_SATURATED: JA`**, met dezelfde gemotiveerde N.V.T.-kalibratie als bij Mahavatar
+Babaji en (deels) Ramana's eigen latere periode: een persoon die 54 jaar op één plek bleef, genereert
+per definitie geen host-keten na die vestiging — dat is een kenmerk van de persoon, geen zoekgat.
+
+---
+
+## FASE 2 — ALLE 9 PERSONEN GEREED
+
+Alle negen overige Top-11-personen zijn nu individueel gefreezed en tegen de repo vergeleken.
+Volgende stap: landelijke consolidatie-atlas + totaalsynthese (zie `PHASE2_SYNTHESIS.md`), conform
+de eindeliverable-eis uit CCI_TASK 081.
 
 ---
 Dit bestand is de kortste, altijd-actuele bron van waarheid voor Fase 2 van deze taak (poort O.1).
