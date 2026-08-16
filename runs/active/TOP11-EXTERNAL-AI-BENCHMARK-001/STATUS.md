@@ -31,7 +31,30 @@ Daarna een **prospectieve control-test op Paramahansa Yogananda**:
 4. Als externe AI nog betekenisvolle geverifieerde plekken toevoegt => externe multi-AI wordt verplichte derde detector voor alle Top-11.
 5. Als CCI+INDIA METHOD_V2 de externe geverifieerde union volledig reproduceert => externe AI kan terug naar periodieke/adversarial audit in plaats van iedere persoon volledig.
 
+## Update — CCI_TASK 084 Deel A + B afgerond (CCI, 2026-08-16)
+
+**Deel A**: `RECONCILIATION_CCI_084.md` — CCI heeft 8/10 CCI-misses, 13 source-first-only plekken
+en 5 externe-only/verdachte claims rechtstreeks tegen de officiële `anandamayi.org`-chronologie
+geverifieerd, niet de aangeleverde lijsten blind overgenomen. Bevindt onafhankelijk: `BENCHMARK_
+RESULT.md`'s conclusies kloppen; de externe union bevat zowel echte waarde als minstens één
+aantoonbare fout (Krishnamurti-ontmoeting: juiste plek is Kitty Shiva Rao's tuin, niet de
+Rajghat/Krishnamurti Foundation-campus) en één vermoedelijk compilatieartefact (Mandi-claim
+gesourcet aan "AI2's eigen methodesectie", geen echte plaatsvermelding).
+
+**Deel B**: `runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/METHOD_V2.md` geformaliseerd
+(negen fasen, vier verplichte saturation-gates: corpus-coverage, hostgraph, discovery,
+reconciliatie). Prospectief toegepast op Yogananda vóórdat een externe Yogananda-union bestaat:
+`.../YOGANANDA_V2_FREEZE.md`, corpus-eerst (volledige AOAY-brontekst + YSS-chronologie), expliciet
+NIET gebaseerd op de oude Fase-2-ATL-PY-lijst als checklist. Resultaat: zes nieuwe, bronmatig
+bevestigde sub-locaties binnen Mysore/Bangalore (hoofdstuk 41, Chamundi-tempel, Krishnaraja Sagar
+Dam, Yuvaraja's zomerpaleis, drie lezingzalen, C.V. Raman-ontmoeting) die de oude lijst niet had.
+Bijvangst: één fout in de eerdere AOAY-locatie-atlas gevonden en gecorrigeerd (Belur Math/Bengal
+verward met de Belur-tempel/Karnataka in hoofdstuk 41 — nu rechtgezet in `PLACE_ATLAS.jsonl`).
+`AOAY_YOGANANDA_V2_SATURATED: NEE`, expliciete hiaten vastgelegd (zie freeze-bestand).
+
 ## next_allowed_step
-INDIA maakt `BENCHMARK_RESULT.md` voor Anandamayi Ma en laat CCI vervolgens de drieweg-reconciliatie + METHOD_V2-draft onafhankelijk auditen. Daarna prospectieve Yogananda-control-test vóór een besluit over externe AI voor de overige personen.
+STOP hier conform CCI_TASK 084 punt 11. Wacht op INDIA/Mark voor de prospectieve externe-AI-
+blanco-sweep op Yogananda tegen `YOGANANDA_V2_FREEZE.md` — dit is de "zuivere beslisproef" die
+bepaalt of externe multi-AI structureel verplicht blijft voor alle Top-11.
 
 Geen PDF. Geen A/B/C.
