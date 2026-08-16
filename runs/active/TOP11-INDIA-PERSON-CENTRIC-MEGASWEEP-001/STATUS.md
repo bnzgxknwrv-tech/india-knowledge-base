@@ -2,14 +2,15 @@
 
 ```
 task_id: TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
-state: METHOD_APPROVED__PHASE2_REMAINING_9_AUTHORIZED
+state: PHASE2_IN_PROGRESS__PERSOON_1_VAN_9_GEREED
 method_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/METHOD_V1.md
 task_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/TASK.md
 status_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/STATUS.md
 pilot_result_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/PILOT_RESULT.md
 saturation_result_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/SATURATION_RESULT.md
+phase2_result_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/PHASE2_RESULT.md
 last_updated: 2026-08-16
-last_updated_by: INDIA (QA approved method after CCI_TASK 080)
+last_updated_by: CCI (CCI_TASK 081, Fase 2 gestart)
 ```
 
 **blockers**: geen.
