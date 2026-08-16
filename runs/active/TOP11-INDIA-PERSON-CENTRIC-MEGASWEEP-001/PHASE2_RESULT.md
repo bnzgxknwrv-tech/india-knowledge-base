@@ -5,7 +5,7 @@ task_id: TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
 trigger: CCI_TASK 081 (AUTHORIZED_BY_INDIA, METHOD_V1.md)
 uitgevoerd_door: CCI
 gestart_op: 2026-08-16
-status: IN_UITVOERING — persoon 4/9 gereed
+status: IN_UITVOERING — persoon 5/9 gereed
 ```
 
 Werkwijze: één persoon volledig afwerken (Fase A landelijke discovery blind t.o.v. bestaande
@@ -277,6 +277,59 @@ Ram Dass-locatie die los van Maharajji's eigen plekken staat.
 **`PERSON_SWEEP_SATURATED: JA`**, met de kalibratie dat een dunne, vrijwel volledig NKB-overlappende
 atlas voor déze persoon het juiste, verwachte resultaat is — geen zoekgat, maar een structureel
 kenmerk van wie Ram Dass in India was.
+
+---
+
+## PERSOON 5/9 — SRI YUKTESWAR GIRI
+
+```
+status: PERSON_SWEEP_SATURATED: JA
+```
+
+### Fase A — landelijke discovery
+
+Bronnen: Wikipedia, sriyukteswargiri.com, babajicave.com/Serampore-ashrampagina, onafhankelijke
+Puri-ashrambronnen (kararashram.org, TripHobo, Justdial).
+
+### Atlaspunten
+
+| atlas_id | plek | plaats/staat | tier | link-type | bron | verificatie |
+|---|---|---|---|---|---|---|
+| ATL-SY-001 | Geboorteplek + Yogoda Satsanga-ashram (Smriti Mandir op oude ashramgrond), 3A Buro Bibi/Rai Ghat Lane | Serampore, West-Bengal | 1 | geboorte (10-05-1855) + hoofdashram, jaarlijks afgewisseld met Puri | Wikipedia + babajicave.com/sriyukteswargiri.com | person_event: JA; physical_identity: JA; exact_sublocation: JA |
+| ATL-SY-002 | Karar Ashram, Swargadwar | Puri, Odisha | 1 | tweede ashram, overlijden/mahasamadhi 09-03-1936, samadhi-tempel in ashramtuin | kararashram.org + Wikipedia | person_event: JA; physical_identity: JA; exact_sublocation: JA |
+| ATL-SY-003 | Lahiri Mahasaya's huis (herhaalde bezoeken aan zijn guru) | Bangali Tola, Varanasi, UP | 1 | leerling-bezoeken aan Lahiri Mahasaya, jaren na 1884 | Wikipedia + vivekavani.com | person_event: JA; physical_identity: JA (zelfde plek als bestaand `VNS-CAND-002`); exact_sublocation: JA |
+| ATL-SY-004 | Kumbh Mela, Allahabad (Prayag) | Allahabad, Uttar Pradesh | 2 | ontmoeting met Mahavatar Babaji, 1894, ontving titel "Swami" | Wikipedia + vivekavani.com | person_event: JA; physical_identity: DEELS (Kumbh Mela-terrein); exact_sublocation: NEE — **zelfde event als ATL-MB-003**, niet apart tellen |
+
+### Fase C — vergelijking met repo
+
+- **ATL-SY-001 (Serampore) = FOUND_BUT_MISSING_FROM_REPO** (grep leverde niets op) — bevestigt en
+  verscherpt tegelijk het exacte adres voor het punt dat al bij Yogananda (ATL-PY-007) als
+  person-link was aangekondigd. Geen dubbel punt: dit IS de bronbevestiging van dat punt.
+- **ATL-SY-002 (Puri/Karar Ashram) = FOUND_BUT_MISSING_FROM_REPO, sterk `NEW_REGION_SIGNAL`.**
+  Odisha komt tot nu toe in de hele repo nergens voor. Dit is een TIER 1, exact geadresseerde,
+  officieel toegankelijke mahasamadhi-plek van een directe Top-11-guru — missiekritisch signaal.
+- **ATL-SY-003 (Lahiri's huis) = FOUND_AND_ALREADY_KNOWN, `PERSON_LINK_UPGRADE`.** `VNS-CAND-002`
+  krijgt hiermee een derde bevestigde Top-11-link (Lahiri Mahasaya zelf + nu expliciet Sri Yukteswar
+  als herhaalde bezoeker).
+- **ATL-SY-004 = DUPLICATE_OR_SAME_PHYSICAL_SITE/EVENT als ATL-MB-003** (Babaji-entry) — één en
+  hetzelfde 1894-moment vanuit twee personen bekeken, geen apart of extra telpunt.
+
+### Saturatie-beoordeling tegen de 6 TASK-punten
+
+1. Officiële/lineage + primaire teksten: **JA**.
+2. Grote levensfasen/reizen afgedekt: **JA** — geboorte, jaarlijkse Serampore/Puri-wisseling,
+   Kumbh Mela-ontmoeting 1894, mahasamadhi 1936.
+3. Alternatieve spellingen: **JA** — geboortenaam "Priya Nath Karar"/"Priar Nath Karar" gecontroleerd.
+4. Host-/landgoedketens teruggevolgd: **N.V.T., gemotiveerd** — Sri Yukteswar was zelf gastheer/
+   ashramhoofd op beide vaste locaties; geen bron beschrijft hem als gast bij het huis/landgoed van
+   een ander, behalve zijn eigen guru Lahiri Mahasaya (al meegenomen, punt 5).
+5. Expliciet "op bezoek bij anderen": **JA** — herhaalde bezoeken aan Lahiri Mahasaya in Varanasi
+   zijn exact dat, en zijn expliciet vastgelegd.
+6. Negatieve/onzekere claims: **JA** — geen aanvullende losse claims aangetroffen die onzeker
+   bleven; niets verzwegen.
+
+**`PERSON_SWEEP_SATURATED: JA`**, zonder kalibratie-uitzonderingen nodig — dit is een compacte maar
+volledig doorlopen sweep met één sterk nieuw regiosignaal (Puri/Odisha).
 
 ---
 Dit bestand is de kortste, altijd-actuele bron van waarheid voor Fase 2 van deze taak (poort O.1).
