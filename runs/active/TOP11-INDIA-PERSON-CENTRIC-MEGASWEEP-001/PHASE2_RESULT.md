@@ -5,7 +5,7 @@ task_id: TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
 trigger: CCI_TASK 081 (AUTHORIZED_BY_INDIA, METHOD_V1.md)
 uitgevoerd_door: CCI
 gestart_op: 2026-08-16
-status: IN_UITVOERING — persoon 5/9 gereed
+status: IN_UITVOERING — persoon 6/9 gereed
 ```
 
 Werkwijze: één persoon volledig afwerken (Fase A landelijke discovery blind t.o.v. bestaande
@@ -330,6 +330,58 @@ Puri-ashrambronnen (kararashram.org, TripHobo, Justdial).
 
 **`PERSON_SWEEP_SATURATED: JA`**, zonder kalibratie-uitzonderingen nodig — dit is een compacte maar
 volledig doorlopen sweep met één sterk nieuw regiosignaal (Puri/Odisha).
+
+---
+
+## PERSOON 6/9 — HARIHARANANDA (PARAMAHAMSA HARIHARANANDA GIRI)
+
+```
+status: PERSON_SWEEP_SATURATED: JA
+```
+
+### Fase A — landelijke discovery
+
+Bronnen: Wikipedia, officiële lijnorganisatiepagina's (kriya.org, prajnanamission.org),
+anantahimalayas.blogspot.com (biografische bron over Bhupendranath Sanyal/Hariharananda-lijn).
+
+### Atlaspunten
+
+| atlas_id | plek | plaats/staat | tier | link-type | bron | verificatie |
+|---|---|---|---|---|---|---|
+| ATL-HH-001 | Habibpur | Nadia-district, West-Bengal | 2 | geboorteplek, 27-05-1907 (als Rabindranath Bhattacharya) | Wikipedia | person_event: JA; physical_identity: DEELS (dorp, geen specifiek gebouw); exact_sublocation: NEE |
+| ATL-HH-002 | Karar Ashram, Swargadwar | Puri, Odisha | 1 | trad in 1938 het klooster van zijn guru Bhupendranath Sanyal binnen; later `sadhu sabhapati` (voorzitter) van dit ashram | anantahimalayas.blogspot.com + Wikipedia | person_event: JA; physical_identity: JA — **zelfde fysieke plek als ATL-SY-002** | 
+| ATL-HH-003 | Bhagalpur (guru's ashram) | Bihar | 3 | tweede ashram van zijn guru Bhupendranath Sanyal; persoonlijke aanwezigheid van Hariharananda zelf niet apart bronmatig bevestigd | anantahimalayas.blogspot.com | person_event: ONBEKEND (alleen guru's ashram bevestigd, niet Hariharananda's eigen aanwezigheid daar); physical_identity: DEELS; exact_sublocation: NEE — traditieclaim/afgeleid, niet hard bevestigd |
+| ATL-HH-004 | Hariharananda Gurukulam, Balighai (circa 14 km van Jagannath-tempel) | Puri, Odisha | 1 | eigen hoofdashram/samadhi-schrijn (Shri Guru Mandir), lineage-tempel | prajnanamission.org officieel | person_event: JA; physical_identity: JA; exact_sublocation: DEELS (regio/afstand tot Jagannath-tempel bevestigd, geen los GPS-adres in deze pass) |
+
+### Fase C — vergelijking met repo
+
+- **ATL-HH-001 (Habibpur) = FOUND_BUT_MISSING_FROM_REPO**, geïsoleerd punt, geen cluster.
+- **ATL-HH-002 = DUPLICATE_OR_SAME_PHYSICAL_SITE als ATL-SY-002/Karar Ashram.** Krijgt hierdoor een
+  tweede onafhankelijke Top-11-link (Sri Yukteswar + Hariharananda) — versterkt het `NEW_REGION_
+  SIGNAL`-gewicht van Puri dat al bij persoon 5 werd vastgelegd.
+- **ATL-HH-003 (Bhagalpur) = NIET toegevoegd als hard punt** — de bron bevestigt alleen dat het
+  guru's ashram was, niet dat Hariharananda daar zelf persoonlijk verbleef; expliciet als
+  `ONZEKER`/afgeleide claim vastgelegd, geen kandidaat.
+- **ATL-HH-004 (Balighai) = FOUND_BUT_MISSING_FROM_REPO, sterk aanvullend `NEW_REGION_SIGNAL` voor
+  Puri/Odisha** — een DERDE, fysiek apart adres in dezelfde stad als ATL-SY-002, met eigen
+  samadhi-schrijn en lineage-tempel. Puri/Odisha begint hiermee een aantoonbare cluster te vormen
+  (Karar Ashram + Balighai), niet langer een los enkel punt.
+
+### Saturatie-beoordeling tegen de 6 TASK-punten
+
+1. Officiële/lineage + primaire teksten: **JA**.
+2. Grote levensfasen/reizen afgedekt: **JA** — geboorte, intrede klooster 1938, sannyasa-inwijding
+   1959, latere internationale Kriya Yoga-verspreiding (grotendeels buiten India, correct niet
+   overgenomen als India-locatie).
+3. Alternatieve spellingen: **JA** — geboortenaam "Rabindranath Bhattacharya" en kloosternaam
+   "Brahmachari Rabinarayan" beide meegenomen.
+4. Host-/landgoedketens teruggevolgd: **JA** — guru Bhupendranath Sanyal en diens twee ashrams
+   expliciet als zoekingang gebruikt; Bhagalpur bewust niet hard overgenomen zonder eigen bewijs.
+5. Expliciet "op bezoek bij anderen": **JA** — intrede in guru's ashram (Puri) is exact dat.
+6. Negatieve/onzekere claims: **JA** — Bhagalpur-onzekerheid expliciet vastgelegd, niet verzwegen
+   en niet stilzwijgend als bevestigd punt toegevoegd.
+
+**`PERSON_SWEEP_SATURATED: JA`.**
 
 ---
 Dit bestand is de kortste, altijd-actuele bron van waarheid voor Fase 2 van deze taak (poort O.1).
