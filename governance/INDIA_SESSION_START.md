@@ -21,6 +21,10 @@ Prioriteit bij stateverschil: `actuele taak-STATUS > INDIA_SESSION_START > ACTIV
 ## ONDERHOUDSREGEL
 Update dit bestand in dezelfde werksessie bij iedere nieuwe taak/CCI_TASK, taakstatus/NEXT_ACTION, permanent locatie-ID, Mark A/B/C-lock/conflict, methode/protocolwijziging, regioprioriteit of belangrijke researchlaag-status. Update altijd ook de betrokken taak-STATUS. Chat mag nooit de enige actuele waarheid zijn.
 
+## MARK-UI-REGEL — EXTERNE AI PROMPTS
+Lees en volg `governance/EXTERNAL_AI_PROMPT_RULES.md`.
+Iedere tekst die Mark naar een andere AI/chat/Claude Code moet kopiëren staat volledig in één los fenced code block (monospace/kopieerknop). Geen noodzakelijke prompttekst erbuiten. Dit geldt ook voor éénregelige startvragen.
+
 ## REPO / RELAY
 - Repo: `bnzgxknwrv-tech/india-knowledge-base`
 - Werkbranch: `claude/werk-je-nu-of-niet-oa10y7`
@@ -44,55 +48,60 @@ Geen A/B/C voorspellen namens Mark. Bestaande Mark-besluiten beschermd. Nieuwe c
 - 081 Bodh Ashram — A, `LOCKED_BY_MARK`.
 
 ## ACTIEVE TAAK 1 — TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
-Actuele STATUS: `PHASE2_COMPLEET__ALLE_11_TOP11_PERSONEN_SATURATED__WACHT_OP_INDIA`.
-- CCI heeft de volledige Top-11-lijst al gemaakt: circa 90 atlaspunten.
-- Alle 11 zijn door CCI `PERSON_SWEEP_SATURATED: JA` genoemd volgens METHOD_V1.
-- Sterke nieuwe clusters: Puri/Odisha; Tamil Nadu/Arunachala; West-Bengal-kernregio.
-- `REGION_MISS`: Almora/Vivekananda binnen bestaand Kumaon-gebied.
-- Geen `MARK_DECISION_CONFLICT`.
-- Belangrijk QA-signaal: `PHASE2_SYNTHESIS.md` zegt zelf dat de definitieve passes methodisch selectief waren en dat o.a. een brede Vivekananda-reisperiode gebundeld is. Daarom is CCI-saturation nog NIET als externe kwaliteitswaarheid geaccepteerd.
+CCI heeft METHOD_V1 afgerond: circa 90 atlaspunten voor alle 11 en 11/11 `PERSON_SWEEP_SATURATED: JA`. Die saturation-labels zijn voor INDIA **NIET meer geldig als completeness-bewijs**. Anandamayi-benchmark heeft aangetoond dat METHOD_V1 hele categorieën en tientallen fysieke touchpoints mist.
 
-Bestanden: `STATUS.md`, `TASK.md`, `METHOD_V1.md`, `PILOT_RESULT.md`, `SATURATION_RESULT.md`, `PHASE2_RESULT.md`, `PHASE2_SYNTHESIS.md`.
-
-**NEXT_ACTION TOP11:** eerst externe-AI-benchmark hieronder; geen permanente nummering of afsluiting op alleen CCI's eigen saturation-label.
+Bestaande atlas blijft input; niet verwijderen. Geen permanente nummering/clusterkeuze op basis van METHOD_V1 alleen.
 
 ## ACTIEVE TAAK 2 — TOP11-EXTERNAL-AI-BENCHMARK-001
-Actuele STATUS: `WAITING_FOR_EXTERNAL_AI_MASTER_ATLAS_INPUT`.
-
-Mark heeft meerdere andere AI's onafhankelijk persoon-centrisch laten zoeken en hun volledige antwoorden in een aparte chat laten combineren tot één master-atlas/union. Die gecombineerde union is nog niet in de repo ingevoerd.
-
-Doel: externe union fysiek-identiteitsgewijs vergelijken met CCI. Iedere externe-only plek bronmatig controleren; host/gastheer-misses apart tellen. CCI's huidige `PERSON_SWEEP_SATURATED: JA` is voorlopig **PROVISIONEEL / NOG NIET EXTERN GEBENCHMARKT**.
-
-Beslisregel: zodra minstens één betekenisvolle, bronmatig bevestigde fysieke plek uit de externe union ontbreekt bij CCI, is de CCI-saturation als recall-bewijs onvoldoende en wordt dezelfde externe-unioncontrole over ALLE Top-11-personen uitgevoerd.
+Actuele STATUS: `ANANDAMAYI_EXTERNAL_UNION_INGESTED__INDIA_SOURCE_FIRST_PASS_COMPLETE__RECONCILIATION_NEXT`.
 
 Bestanden:
-- `runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/TASK.md`
-- `.../STATUS.md`
+- `TASK.md`
+- `STATUS.md`
+- `EXTERNAL_UNION_INPUT.md` — Marks externe multi-AI union: 156 Anandamayi-masterlocaties.
+- `INDIA_SOURCE_FIRST_SWEEP_ANANDAMAYI.md` — INDIA source-first scan officiële/lineage corpus.
+- `BENCHMARK_RESULT.md` — voorlopige driehoeksconclusie.
 
-**NEXT_ACTION BENCHMARK:** Mark levert alleen de gecombineerde externe master-atlas/union aan; ruwe AI-antwoorden zijn niet nodig. INDIA vergelijkt direct met CCI.
+### Harde bevindingen
+1. CCI's Anandamayi-set (~23) is aantoonbaar zwaar incompleet.
+2. Externe multi-AI union (156) heeft echte waarde: onafhankelijke AI's vinden reële long-tail host-/reislocaties die CCI mist.
+3. Externe union is zelf óók aantoonbaar incompleet: source-first scan van officiële Life History 1896–1982 + Sangha-biografie vond opnieuw vele afzonderlijke sites die niet in de 156-union staan.
+4. Sommige externe claims zijn fout/overmerged en moeten rechtstreeks worden geverifieerd; consensus is geen bewijs.
+
+### METHOD_V2 richting
+Primaire volgorde wordt:
+`CORPUS INVENTORY -> LOSSLESS CORPUS OCCURRENCE EXTRACTION -> EVENT/PLACE NORMALIZATION -> HOST/NETWORK GRAPH -> WEB DISCOVERY -> INDIA INDEPENDENT METHOD PASS -> EXTERNAL MULTI-AI ADVERSARIAL UNION -> DIRECT VERIFICATION/RECONCILIATION -> SATURATION`.
+
+`PERSON_SWEEP_SATURATED` mag pas na aantoonbare corpuscoverage, hostgraph, discovery en detectorreconciliatie; niet meer na alleen zoekcategorieën afvinken.
+
+### Beslissen of externe AI voor ALLE 11 nodig blijft
+Anandamayi is inmiddels door iedereen besmet met elkaars data en kan geen zuivere prospectieve blindtest meer zijn. Gebruik haar voor methodebouw.
+
+Daarna **Paramahansa Yogananda als prospectieve control-test**:
+1. CCI + INDIA voeren eerst METHOD_V2 source-first uit en freezen hun atlas vóór externe input.
+2. Dan laat Mark meerdere externe AI's blanco hetzelfde onderzoek doen.
+3. External-only claims rechtstreeks verifiëren.
+4. Als externe AI betekenisvolle echte extra's houdt => externe multi-AI verplicht voor alle Top-11.
+5. Als verbeterde CCI+INDIA METHOD_V2 de geverifieerde externe union volledig reproduceert => externe AI kan terug naar periodieke/adversarial audit.
+
+**NEXT_ACTION BENCHMARK:** CCI moet de drieweg-Anandamayi-reconciliatie onafhankelijk auditen, METHOD_V2 formaliseren en daarna Yogananda source-first V2 freezen vóór enige Yogananda-external-union.
 
 ## ACTIEVE TAAK 3 — AOAY-FULL-LOCATION-ATLAS-001
 Actuele STATUS: `SUBSTANTIELE_EERSTE_OOGST__NIET_SATURATED__WACHT_OP_INDIA`.
-- CCI_TASK 082 eerste ronde: 1.359 occurrence-records; 123 genormaliseerde plaatsen; 30 `AOAY_FOUND_BUT_MISSING_FROM_REPO`; sterk nieuw Kashmir-cluster.
+- eerste ronde: 1.359 occurrence-records; 123 genormaliseerde plaatsen; 30 `AOAY_FOUND_BUT_MISSING_FROM_REPO`; Kashmir nieuw signaal.
 - `AOAY_LOCATION_SWEEP_SATURATED: NEE`.
-- 6.691 kandidaat-tokentypes nog `UNRESOLVED_BUT_RECORDED`.
-- Occurrence-niveau event/physical identity/exact sublocation nog niet ingevuld.
+- duizenden kandidaat-tokentypes unresolved; occurrence-level verification nog niet compleet.
 
-**NEXT_ACTION AOAY:** niet afsluiten. Vervolgronde nodig tot echte saturation of blocker; detector-verdieping + occurrence-verificatie. Kashmir is signaal, niet reden om AOAY-completeness los te laten.
+**NEXT_ACTION AOAY:** niet afsluiten. Vervolgronde tot echte saturation/blocker met detector-verdieping + occurrence-verificatie. Nieuwe PERSON_METHOD_V2-corpuslessen moeten ook hier worden toegepast waar relevant.
 
 ## ACTIEVE TAAK 4 — YOGANANDA-ANANDAMAYI-PHOTO-LOCATION-001
-Actuele STATUS: `RESULT_KLAAR__TWEE_SITES_ONDERSCHEIDEN__WACHT_OP_INDIA`.
-- CCI_TASK 083 afgerond, commit `45495942d6a4ce59173ca98fbd4852fda7cb2bb1`.
-- De eerdere werkhypothese dat de expliciete AOAY-tuinfotografie in Bhowanipur plaatsvond bleek onjuist.
-- AOAY onderscheidt: Bhowanipur/Calcutta straatontmoeting (dec. 1935; Bholanath aanwezig; geen fotografie genoemd), Ranchi Vidyalaya-tuin (later; expliciet veel foto's; exact bezoekbare site), Serampore station (later afscheid; geen fotografie).
-- Ranchi/Old Hazaribag Road = `VISITABLE_EXACT_SITE` voor de bronmatig zekerste fotosessie.
-- Bhowanipur = `HISTORIC_SITE_NOT_IDENTIFIED` op adresniveau; waarschijnlijk context voor bekende Bholanath-foto maar nog niet exact bewezen.
-- Open vervolgrichting: Gurupriya Devi-dagboek OCR/handmatige inspectie + visuele foto-inspectie.
-
-Bestanden: `TASK.md`, `STATUS.md`, `RESULT.md`.
+Status: `RESULT_KLAAR__TWEE_SITES_ONDERSCHEIDEN__WACHT_OP_INDIA`.
+- Ranchi Vidyalaya-tuin = bronmatig zekerste fotosessie, exact bezoekbaar.
+- Bhowanipur/Calcutta = historische ontmoeting met Bholanath aanwezig, maar exact huis/adres nog niet bewezen.
+- open: Gurupriya Devi-dagboek/OCR + visuele fotoinspectie om Bholanath-foto exact toe te wijzen.
 
 ## ACTIEVE/OPEN TAAK 5 — KUMAON-V2-RESWEEP-001
-Regionale dubbele sweep + legacy-reconciliatie leverde 079–081 op. Overige Sweep-A/Sweep-B-kandidaten blijven tijdelijk en vereisen clustergewijze identity/reconciliatie.
+079–081 beschermd. Overige kandidaten tijdelijk; identity/reconciliatie nog open. Nieuwe landelijke METHOD_V2/atlaslagen moeten vóór choice-ready eindstatus over Kumaon worden gekruist.
 
 ## AFGEROND
 - VARANASI: 001–040 beoordeeld/beschermd; 041–045 alleen op Marks initiatief.
