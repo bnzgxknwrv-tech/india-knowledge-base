@@ -5,7 +5,7 @@ task_id: TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
 trigger: CCI_TASK 081 (AUTHORIZED_BY_INDIA, METHOD_V1.md)
 uitgevoerd_door: CCI
 gestart_op: 2026-08-16
-status: IN_UITVOERING — persoon 6/9 gereed
+status: IN_UITVOERING — persoon 7/9 gereed
 ```
 
 Werkwijze: één persoon volledig afwerken (Fase A landelijke discovery blind t.o.v. bestaande
@@ -382,6 +382,81 @@ anantahimalayas.blogspot.com (biografische bron over Bhupendranath Sanyal/Hariha
    en niet stilzwijgend als bevestigd punt toegevoegd.
 
 **`PERSON_SWEEP_SATURATED: JA`.**
+
+---
+
+## PERSOON 7/9 — VIVEKANANDA
+
+```
+status: PERSON_SWEEP_SATURATED: JA
+```
+
+### Fase A — landelijke discovery
+
+Bronnen: Wikipedia, officiële belurmath.org, advaitaashrama.org, RKM Khetri-geschiedenispagina
+(khetri.rkmm.org), incredibleindia.gov.in/Tamil Nadu-toerismebron voor Kanyakumari, primaire
+Vivekananda-lezingenbundel "Lectures from Colombo to Almora" (Wikisource).
+
+**Methodologische keuze bij deze persoon**: Vivekananda's parivrajaka-periode (1890-1893) doorkruist
+vrijwel heel India. Conform TASK.md ("maximale recall zonder kunstmatig duizenden irrelevante
+punten") worden de sterkste, bronmatig concrete TIER 1-plekken individueel vastgelegd; de bredere
+Rajputana-rondreis wordt bewust als één gebundeld TIER 2/3-punt behandeld in plaats van elke
+tussenstop apart te forceren tot schijnprecisie.
+
+### Atlaspunten
+
+| atlas_id | plek | plaats/staat | tier | link-type | bron | verificatie |
+|---|---|---|---|---|---|---|
+| ATL-VK-001 | Voorouderlijk huis, 105 Vivekananda Road | Kolkata, West-Bengal | 1 | geboorteplek 12-01-1863, nu museum/cultureel centrum van Ramakrishna Mission | Wikipedia + belurmath.org officieel | person_event: JA; physical_identity: JA; exact_sublocation: JA |
+| ATL-VK-002 | Belur Math | Belur, Howrah-district, West-Bengal | 1 | hoofdkwartier Ramakrishna Math/Mission, door hemzelf gesticht 1899 | belurmath.org officieel | person_event: JA; physical_identity: JA; exact_sublocation: JA |
+| ATL-VK-003 | Baranagar Math | Baranagar, West-Bengal | 2 | eerste klooster na Ramakrishna's overlijden, 1886 | Wikipedia (Alambazar Math-context) | person_event: JA; physical_identity: DEELS (exact adres niet apart bevestigd in deze pass); exact_sublocation: NEE |
+| ATL-VK-004 | Khetri House/Khetri | Khetri, Rajasthan | 1 | ontmoette gastheer/patroon Raja Ajit Singh (Abu, 04-06-1891), verbleef in Khetri 07-08 t/m 27-10-1891; kreeg hier de naam "Vivekananda" | khetri.rkmm.org officieel + Wikipedia (Ajit Singh of Khetri) | person_event: JA; physical_identity: JA; exact_sublocation: DEELS |
+| ATL-VK-005 | Rajputana-rondreis (Mount Abu, Alwar, Jaipur, Ajmer, e.a.) | Rajasthan | 2/3 (gebundeld) | parivrajaka-zwerftocht 1891, meerdere vorstelijke gastheren | onafhankelijke biografiebronnen | person_event: JA (algemeen); physical_identity: DEELS per losse stad; exact_sublocation: NEE — bewust niet uitgesplitst tot losse kandidaten |
+| ATL-VK-006 | Vivekananda-rots (Shripada Parai) | Kanyakumari, Tamil Nadu | 1 | driedaagse meditatie 24-26-12-1892, vlak vóór vertrek naar Chicago; nu Rock Memorial | incredibleindia.gov.in officieel + Tamil Nadu-toerisme | person_event: JA; physical_identity: JA; exact_sublocation: JA |
+| ATL-VK-007 | Advaita Ashrama, Mayavati | Champawat-district (bij Lohaghat), Uttarakhand | 1 | door hem gesticht 19-03-1899, via discipelen James/Charlotte Sevier | advaitaashrama.org officieel + Wikipedia | person_event: JA; physical_identity: JA; exact_sublocation: JA |
+| ATL-VK-008 | Landingsplaats Kundukal, Rameswaram-eiland (route Colombo-Pamban) | Rameswaram, Tamil Nadu | 1 | terugkeer uit het Westen, 26-01-1897, beroemde toespraak | onafhankelijke bronnen + Wikisource "Lectures from Colombo to Almora" | person_event: JA; physical_identity: DEELS (eiland/plek bevestigd, geen apart GPS-punt); exact_sublocation: NEE |
+| ATL-VK-009 | Almora | Almora-district, Uttarakhand | 2 | lezingenreeks tijdens de terugkeertour, 1897 (titelgevend aan "Lectures from Colombo to Almora") | Wikisource primaire bron | person_event: JA; physical_identity: DEELS (stad, geen exacte lezingslocatie); exact_sublocation: NEE |
+
+**Bewust niet apart geteld**: Dakshineswar (eerste ontmoeting met Ramakrishna) — dit wordt in de
+eigen Ramakrishna-sweep (persoon 8/9) als primair punt behandeld, geen dubbeltelling hier.
+
+### Fase C — vergelijking met repo
+
+- **ATL-VK-007 (Mayavati Advaita Ashrama) = FOUND_AND_ALREADY_KNOWN als tijdelijke kandidaat.**
+  Staat al in `RECONCILIATION.md` als `KB2-038` uit INDIA's blinde Kumaon Sweep B, nog geen
+  permanent nummer. Dit is een sterke `PERSON_LINK_UPGRADE`: bevestigt Vivekananda zelf als
+  stichter, versterkt de zaak voor permanente toekenning bij een volgende Kumaon-vervolgstap.
+- **ATL-VK-009 (Almora) = mogelijke `REGION_MISS`-check voor Kumaon** — geen exacte match
+  aangetroffen in de bestaande Kumaon-kandidatenset onder deze specifieke naam/reden (lezingenreeks
+  1897); vastgelegd als aandachtspunt voor een toekomstige Kumaon-vervolgronde, geen nieuw hard punt
+  in deze taak (buiten scope van Fase 2 om zelf Kumaon-kandidaten aan te vullen).
+- **ATL-VK-001, 002, 004, 006, 008 = allemaal FOUND_BUT_MISSING_FROM_REPO** (grep op "Belur",
+  "Khetri", "Kanyakumari", "Rameswaram", "Baranagar" leverde niets op in de bestaande candidate-sets)
+  — vijf sterke, onafhankelijke TIER 1-punten in vijf verschillende staten (West-Bengal, Rajasthan,
+  Tamil Nadu ×2). Elk te zwak als los cluster om nu al `NEW_REGION_SIGNAL` te claimen (telkens één
+  enkel, zij het zeer sterk, punt), maar samen bevestigen ze dat Vivekananda de breedst verspreide
+  Top-11-persoon tot nu toe is.
+- **ATL-VK-003 (Baranagar) en ATL-VK-005 (Rajputana-bundel) en ATL-VK-008 (Rameswaram)**: te vaag
+  qua exacte sublocatie voor harde kandidaatstatus in deze pass; vastgelegd als context/mogelijke
+  toekomstige verdieping.
+
+### Saturatie-beoordeling tegen de 6 TASK-punten
+
+1. Officiële/lineage + primaire teksten (incl. Vivekananda's eigen lezingenbundel): **JA**.
+2. Grote levensfasen/reizen afgedekt: **JA** — geboorte, Ramakrishna-periode (verwezen naar
+   Ramakrishna-sweep), Baranagar Math, parivrajaka-zwerftocht, Chicago-vertrek (Kanyakumari),
+   terugkeer 1897, Belur Math + Mayavati-stichtingen 1899.
+3. Alternatieve spellingen: **JA** — geboortenaam "Narendranath Datta" meegenomen.
+4. Host-/landgoedketens teruggevolgd: **JA** — Raja Ajit Singh van Khetri als sterkste voorbeeld
+   (gaf zelfs zijn naam), overige Rajputana-vorsten als gebundelde context.
+5. Expliciet "op bezoek bij anderen": **JA** — vrijwel de hele parivrajaka-periode is per definitie
+   "op bezoek bij anderen"; Khetri is het sterkste individuele voorbeeld.
+6. Negatieve/onzekere claims: **JA** — Baranagar-adres, Rajputana-substops en Rameswaram-sublocatie
+   expliciet als onvoldoende precies vastgelegd, niet als hard punt gepresenteerd.
+
+**`PERSON_SWEEP_SATURATED: JA`**, met de kalibratie dat de brede parivrajaka-periode bewust
+gebundeld is behandeld (methodologische keuze tegen kunstmatige verdichting), niet omdat er een
+zoekgat was.
 
 ---
 Dit bestand is de kortste, altijd-actuele bron van waarheid voor Fase 2 van deze taak (poort O.1).
