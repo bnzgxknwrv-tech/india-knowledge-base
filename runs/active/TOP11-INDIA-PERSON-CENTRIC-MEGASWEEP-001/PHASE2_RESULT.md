@@ -5,7 +5,7 @@ task_id: TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
 trigger: CCI_TASK 081 (AUTHORIZED_BY_INDIA, METHOD_V1.md)
 uitgevoerd_door: CCI
 gestart_op: 2026-08-16
-status: IN_UITVOERING — persoon 3/9 gereed
+status: IN_UITVOERING — persoon 4/9 gereed
 ```
 
 Werkwijze: één persoon volledig afwerken (Fase A landelijke discovery blind t.o.v. bestaande
@@ -218,6 +218,65 @@ records). Alle tien punten zijn dus **FOUND_BUT_MISSING_FROM_REPO**, met de volg
 
 **`PERSON_SWEEP_SATURATED: JA`** — dit is de rijkste en best gedocumenteerde persoon tot nu toe;
 alle 6 punten zijn zonder structurele uitzondering doorlopen.
+
+---
+
+## PERSOON 4/9 — RAM DASS (RICHARD ALPERT)
+
+```
+status: PERSON_SWEEP_SATURATED: JA (gekalibreerd, zie hieronder)
+```
+
+### Fase A — landelijke discovery
+
+Bronnen: Britannica, nkbashram.org (officiële NKB-ashrambron), onafhankelijke devotee-overzichten
+(maharajji.love), Wikipedia. Directe ramdass.org-artikelen gaven HTTP 403 op WebFetch (geen
+authenticatie beschikbaar) — dit is expliciet vastgelegd als `BRON_GEBLOKKEERD`, niet stilzwijgend
+overgeslagen; content is via search-snippets en kruisbronnen wel voldoende gedekt.
+
+### Atlaspunten
+
+| atlas_id | plek | plaats/staat | tier | link-type | bron | verificatie |
+|---|---|---|---|---|---|---|
+| ATL-RD-001 | Boudhanath Stupa | Kathmandu, **Nepal — buiten India** | 3 | ontmoette hier Bhagavan Das, die hem naar Maharajji bracht, 1967 | Britannica + maharajji.love | person_event: JA; buiten Marks reisscope, alleen voor context |
+| ATL-RD-002 | Kainchi Dham-ashram | Nainital-district, Uttarakhand | 1 | eerste ontmoeting met Neem Karoli Baba, naamgeving "Ram Dass", intensieve sadhana, 1967 e.v. | Britannica + nkbashram.org officieel | person_event: JA; physical_identity: JA; exact_sublocation: JA |
+| ATL-RD-003 | NKB-ashram/samadhi, Vrindavan | Vrindavan, Uttar Pradesh | 1 | aanwezig in latere Maharajji-jaren en na diens mahasamadhi (1973); veelvuldig beschreven in Ram Dass' eigen boeken | onafhankelijke devotee-bronnen (kruiscontrole, geen directe primaire ramdass.org-toegang) | person_event: DEELS (goed gedocumenteerd in secundaire/devotee-bronnen, primaire ramdass.org-bron geblokkeerd); physical_identity: JA; exact_sublocation: JA |
+
+### Fase C — vergelijking met repo
+
+- **ATL-RD-002 (Kainchi) = FOUND_AND_ALREADY_KNOWN.** Kainchi Dham staat al als sterke overlap in
+  de Kumaon-reconciliatie (KUMAON-V2-RESWEEP-001), reeds bekend/gevestigd. Dit is een
+  `PERSON_LINK_UPGRADE`: Kainchi krijgt nu een expliciete, bronmatig bevestigde Ram Dass-link
+  bovenop de bestaande Neem Karoli Baba-link — nuttig voor toekomstige presentatie, geen nieuwe
+  locatie.
+- **ATL-RD-003 (Vrindavan) = FOUND_AND_ALREADY_KNOWN.** Al bevestigd via CCI_TASK 080
+  (`SATURATION_RESULT.md`, match met legacy `DECISION-0008`). Zelfde `PERSON_LINK_UPGRADE`-logica.
+- **ATL-RD-001 (Kathmandu)** buiten scope, geen repo-actie.
+
+**Dit is de dunste atlas tot nu toe, en dat is een eerlijke, verwachte uitkomst**: Ram Dass' hele
+India-verhaal is vrijwel volledig samengevouwen met Neem Karoli Baba's eigen, reeds `PERSON_SWEEP_
+SATURATED: JA` gemaakte atlas (CCI_TASK 080). Er is geen aanwijzing gevonden voor een zelfstandige
+Ram Dass-locatie die los van Maharajji's eigen plekken staat.
+
+### Saturatie-beoordeling tegen de 6 TASK-punten
+
+1. Officiële/lineage + primaire teksten: **DEELS** — primaire ramdass.org-bron `BRON_GEBLOKKEERD`;
+   voldoende gedekt via Britannica + officiële NKB-ashrambron + kruiscontrole devotee-bronnen.
+2. Grote levensfasen/reizen afgedekt: **JA voor het India-deel** — aankomst via Nepal, eerste
+   ontmoeting, intensieve periode tot 1973, latere jaren rond Vrindavan.
+3. Alternatieve spellingen: **JA** — "Richard Alpert" als geboortenaam expliciet meegenomen; expliciet
+   genoteerd dat "Ram Dass" ook een generieke devotee-naam bij Haidakhan-ashram is en NIET dezelfde
+   persoon betreft — verwarringsrisico bewust vastgelegd, niet samengevoegd.
+4. Host-/landgoedketens teruggevolgd: **JA, maar structureel identiek aan NKB's eigen keten** — Ram
+   Dass was zelf altijd de gast van Maharajji, nooit een eigen gastheer/landgoedketen in India.
+5. Expliciet "op bezoek bij anderen": **JA, zelfde reden** — zijn hele India-aanwezigheid is één
+   doorlopend "op bezoek bij Maharajji"-verhaal.
+6. Negatieve/onzekere claims vastgelegd: **JA** — ramdass.org-blokkade, Kathmandu buiten scope,
+   naamverwarring met Haidakhan-devotees, alle drie expliciet genoteerd.
+
+**`PERSON_SWEEP_SATURATED: JA`**, met de kalibratie dat een dunne, vrijwel volledig NKB-overlappende
+atlas voor déze persoon het juiste, verwachte resultaat is — geen zoekgat, maar een structureel
+kenmerk van wie Ram Dass in India was.
 
 ---
 Dit bestand is de kortste, altijd-actuele bron van waarheid voor Fase 2 van deze taak (poort O.1).
