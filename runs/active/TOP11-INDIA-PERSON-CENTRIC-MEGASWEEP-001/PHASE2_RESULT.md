@@ -5,7 +5,7 @@ task_id: TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
 trigger: CCI_TASK 081 (AUTHORIZED_BY_INDIA, METHOD_V1.md)
 uitgevoerd_door: CCI
 gestart_op: 2026-08-16
-status: IN_UITVOERING — persoon 7/9 gereed
+status: IN_UITVOERING — persoon 8/9 gereed
 ```
 
 Werkwijze: één persoon volledig afwerken (Fase A landelijke discovery blind t.o.v. bestaande
@@ -457,6 +457,62 @@ eigen Ramakrishna-sweep (persoon 8/9) als primair punt behandeld, geen dubbeltel
 **`PERSON_SWEEP_SATURATED: JA`**, met de kalibratie dat de brede parivrajaka-periode bewust
 gebundeld is behandeld (methodologische keuze tegen kunstmatige verdichting), niet omdat er een
 zoekgat was.
+
+---
+
+## PERSOON 8/9 — RAMAKRISHNA
+
+```
+status: PERSON_SWEEP_SATURATED: JA
+```
+
+### Fase A — landelijke discovery
+
+Bronnen: Wikipedia, officiële RKM-bronnen (rkmsambhajinagar.org, rkmudyanbati.org, holypilgrimage.
+rkmm.org), ramakrishnavivekananda.info (primaire tekstbron, Gospel-vertaling).
+
+### Atlaspunten
+
+| atlas_id | plek | plaats/staat | tier | link-type | bron | verificatie |
+|---|---|---|---|---|---|---|
+| ATL-RK-001 | Kamarpukur | Hooghly-district, West-Bengal | 1 | geboorteplek 18-02-1836, jeugd; RKM-tempelcomplex | rkmsambhajinagar.org officieel | person_event: JA; physical_identity: JA; exact_sublocation: JA |
+| ATL-RK-002 | Dakshineswar Kali-tempel | Kolkata (noordkant, Hooghly-oever), West-Bengal | 1 | priester vanaf 1855/56 tot vlak vóór overlijden; hoofdlocatie van zijn volwassen spirituele leven en ontmoetingsplek met vrijwel alle latere discipelen (incl. Vivekananda) | Wikipedia + officiële RKM-bronnen | person_event: JA; physical_identity: JA; exact_sublocation: JA |
+| ATL-RK-003 | Cossipore Garden House | Cossipore, Kolkata, West-Bengal | 1 | laatste verblijfplaats (11-12-1885 tot overlijden 16-08-1886) | rkmudyanbati.org officieel + holypilgrimage.rkmm.org | person_event: JA; physical_identity: JA; exact_sublocation: JA |
+| ATL-RK-004 | Varanasi (Kashi, algemeen) | Varanasi, Uttar Pradesh | 2 | pilgrimagebezoek, intense spirituele ervaringen | ramakrishnavivekananda.info | person_event: JA; physical_identity: DEELS (stad, geen specifiek adres in deze pass); exact_sublocation: NEE |
+| ATL-RK-005 | Akrura Ghat, Vrindavan | Vrindavan, Uttar Pradesh | 1 | intense extatische ervaring tijdens Vrindavan-pelgrimage | ramakrishnavivekananda.info (primaire tekstbron) | person_event: JA; physical_identity: JA; exact_sublocation: DEELS |
+| ATL-RK-006 | Jayrambati | Bankura-district, West-Bengal | 2 | geboortedorp/familie van echtgenote Sarada Devi | onafhankelijke biografiebronnen | person_event: JA (huwelijksverband); physical_identity: JA; exact_sublocation: NEE |
+| ATL-RK-007 | Tarakeswar | Hooghly-district, West-Bengal | 3 | Shiva-pelgrimageplek, bezocht tijdens religieuze reizen | ramakrishnavivekananda.info | person_event: JA; physical_identity: DEELS; exact_sublocation: NEE |
+
+### Fase C — vergelijking met repo
+
+- **ATL-RK-004 (Varanasi, algemeen)**: de stad zelf is uitgebreid gedekt in de bestaande
+  40-kandidaten Varanasi-dataset, maar geen enkele bestaande kandidaat is specifiek aan Ramakrishna
+  gekoppeld — `FOUND_AND_ALREADY_KNOWN op stadsniveau`, geen nieuw hard punt, wel een zwakke
+  `PERSON_LINK_UPGRADE`-kans indien een later specifiek adres wordt gevonden.
+- **ATL-RK-001, 002, 003, 005, 006, 007 = allemaal FOUND_BUT_MISSING_FROM_REPO** (grep op
+  "Kamarpukur", "Dakshineswar", "Cossipore", "Jayrambati", "Tarakeswar" leverde niets op).
+  Dakshineswar (ATL-RK-002) is het sterkste signaal: dit is tegelijk de plek waar praktisch de hele
+  Ramakrishna-orde is ontstaan én waar Vivekananda hem voor het eerst ontmoette — een directe
+  cross-persoon-verbinding met persoon 7/9.
+- Geen van deze zes vormt samen een dichte cluster in één regio (verspreid over West-Bengal + UP);
+  geen `NEW_REGION_SIGNAL`, wel vijf onafhankelijke sterke losse punten.
+
+### Saturatie-beoordeling tegen de 6 TASK-punten
+
+1. Officiële/lineage + primaire teksten: **JA**.
+2. Grote levensfasen/reizen afgedekt: **JA** — geboorte, priesterschap Dakshineswar, pelgrimages
+   (Varanasi, Vrindavan, Tarakeswar), laatste ziekte/overlijden Cossipore.
+3. Alternatieve spellingen: **JA** — "Ramakrishna Paramahamsa/Paramahansa", geboortenaam
+   "Gadadhar Chattopadhyay" gecontroleerd.
+4. Host-/landgoedketens teruggevolgd: **JA** — Rani Rasmani (bouwde/stichtte Dakshineswar-tempel,
+   waar Ramakrishna als priester woonde — een omgekeerde gastheer-relatie, expliciet vastgelegd);
+   Jayrambati/familie van Sarada Devi als huwelijksverband.
+5. Expliciet "op bezoek bij anderen": **JA** — de pelgrimagereizen (Varanasi, Vrindavan, Tarakeswar)
+   zijn exact dat.
+6. Negatieve/onzekere claims: **JA** — exacte sublocaties Varanasi/Tarakeswar/Jayrambati expliciet
+   `NIET_GEVONDEN` op adresniveau, niet verzwegen.
+
+**`PERSON_SWEEP_SATURATED: JA`.**
 
 ---
 Dit bestand is de kortste, altijd-actuele bron van waarheid voor Fase 2 van deze taak (poort O.1).
