@@ -45,38 +45,53 @@ Geen A/B/C voorspellen namens Mark. Bestaande Mark-besluiten beschermd. Nieuwe c
 
 ## ACTIEVE TAAK 1 — TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
 Actuele STATUS: `PHASE2_COMPLEET__ALLE_11_TOP11_PERSONEN_SATURATED__WACHT_OP_INDIA`.
-- Alle 11 personen: `PERSON_SWEEP_SATURATED: JA` volgens huidige methode.
-- Circa 90 atlaspunten in fase 2.
+- CCI heeft de volledige Top-11-lijst al gemaakt: circa 90 atlaspunten.
+- Alle 11 zijn door CCI `PERSON_SWEEP_SATURATED: JA` genoemd volgens METHOD_V1.
 - Sterke nieuwe clusters: Puri/Odisha; Tamil Nadu/Arunachala; West-Bengal-kernregio.
 - `REGION_MISS`: Almora/Vivekananda binnen bestaand Kumaon-gebied.
 - Geen `MARK_DECISION_CONFLICT`.
-- Bestanden: `STATUS.md`, `TASK.md`, `METHOD_V1.md`, `PILOT_RESULT.md`, `SATURATION_RESULT.md`, `PHASE2_RESULT.md`, `PHASE2_SYNTHESIS.md`.
+- Belangrijk QA-signaal: `PHASE2_SYNTHESIS.md` zegt zelf dat de definitieve passes methodisch selectief waren en dat o.a. een brede Vivekananda-reisperiode gebundeld is. Daarom is CCI-saturation nog NIET als externe kwaliteitswaarheid geaccepteerd.
 
-**NEXT_ACTION TOP11:** INDIA voert integrale QA/reconciliatie uit vóór permanente nummering of clusterkeuzes. Geen automatisch nummeren.
+Bestanden: `STATUS.md`, `TASK.md`, `METHOD_V1.md`, `PILOT_RESULT.md`, `SATURATION_RESULT.md`, `PHASE2_RESULT.md`, `PHASE2_SYNTHESIS.md`.
 
-## ACTIEVE TAAK 2 — AOAY-FULL-LOCATION-ATLAS-001
+**NEXT_ACTION TOP11:** eerst externe-AI-benchmark hieronder; geen permanente nummering of afsluiting op alleen CCI's eigen saturation-label.
+
+## ACTIEVE TAAK 2 — TOP11-EXTERNAL-AI-BENCHMARK-001
+Actuele STATUS: `WAITING_FOR_EXTERNAL_AI_MASTER_ATLAS_INPUT`.
+
+Mark heeft meerdere andere AI's onafhankelijk persoon-centrisch laten zoeken en hun volledige antwoorden in een aparte chat laten combineren tot één master-atlas/union. Die gecombineerde union is nog niet in de repo ingevoerd.
+
+Doel: externe union fysiek-identiteitsgewijs vergelijken met CCI. Iedere externe-only plek bronmatig controleren; host/gastheer-misses apart tellen. CCI's huidige `PERSON_SWEEP_SATURATED: JA` is voorlopig **PROVISIONEEL / NOG NIET EXTERN GEBENCHMARKT**.
+
+Beslisregel: zodra minstens één betekenisvolle, bronmatig bevestigde fysieke plek uit de externe union ontbreekt bij CCI, is de CCI-saturation als recall-bewijs onvoldoende en wordt dezelfde externe-unioncontrole over ALLE Top-11-personen uitgevoerd.
+
+Bestanden:
+- `runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/TASK.md`
+- `.../STATUS.md`
+
+**NEXT_ACTION BENCHMARK:** Mark levert alleen de gecombineerde externe master-atlas/union aan; ruwe AI-antwoorden zijn niet nodig. INDIA vergelijkt direct met CCI.
+
+## ACTIEVE TAAK 3 — AOAY-FULL-LOCATION-ATLAS-001
 Actuele STATUS: `SUBSTANTIELE_EERSTE_OOGST__NIET_SATURATED__WACHT_OP_INDIA`.
 - CCI_TASK 082 eerste ronde: 1.359 occurrence-records; 123 genormaliseerde plaatsen; 30 `AOAY_FOUND_BUT_MISSING_FROM_REPO`; sterk nieuw Kashmir-cluster.
 - `AOAY_LOCATION_SWEEP_SATURATED: NEE`.
 - 6.691 kandidaat-tokentypes nog `UNRESOLVED_BUT_RECORDED`.
-- Occurrence-niveau `event_verified_from_AOAY` / physical identity / exact sublocation nog niet ingevuld.
+- Occurrence-niveau event/physical identity/exact sublocation nog niet ingevuld.
 
-**NEXT_ACTION AOAY:** niet afsluiten. INDIA moet vervolgronde autoriseren tot echte saturation of blocker, met detector-verdieping + occurrence-verificatie; Kashmir is signaal, niet reden om eerst AOAY-completeness los te laten.
+**NEXT_ACTION AOAY:** niet afsluiten. Vervolgronde nodig tot echte saturation of blocker; detector-verdieping + occurrence-verificatie. Kashmir is signaal, niet reden om AOAY-completeness los te laten.
 
-## ACTIEVE TAAK 3 — YOGANANDA-ANANDAMAYI-PHOTO-LOCATION-001
-Mark wil expliciet de historische fysieke plek bezoeken waar de bekende foto('s) van Paramahansa Yogananda met Anandamayi Ma zijn gemaakt.
-- CCI_TASK 083 uitgegeven op PR #23.
-- Publieke/lineage-bronnen bevestigen: Yogananda ontmoette Anandamayi Ma in december 1935 in Bhowanipur/Bhawanipur, Calcutta; AOAY beschrijft dat C. Richard Wright tijdens die ontmoeting foto's in `the garden` maakte; YSS captiont de bekende foto met Anandamayi Ma + Bholanath + Yogananda als `in Calcutta`.
-- Werkhypothese: tuin van het discipelshuis in Bhowanipur. Exact huis/adres/current-site-match nog NIET bewezen.
-- Taak moet foto-events scheiden van later Ranchi-bezoek en exact host/huis/tuin/adres/current access onderzoeken.
+## ACTIEVE TAAK 4 — YOGANANDA-ANANDAMAYI-PHOTO-LOCATION-001
+Actuele STATUS: `RESULT_KLAAR__TWEE_SITES_ONDERSCHEIDEN__WACHT_OP_INDIA`.
+- CCI_TASK 083 afgerond, commit `45495942d6a4ce59173ca98fbd4852fda7cb2bb1`.
+- De eerdere werkhypothese dat de expliciete AOAY-tuinfotografie in Bhowanipur plaatsvond bleek onjuist.
+- AOAY onderscheidt: Bhowanipur/Calcutta straatontmoeting (dec. 1935; Bholanath aanwezig; geen fotografie genoemd), Ranchi Vidyalaya-tuin (later; expliciet veel foto's; exact bezoekbare site), Serampore station (later afscheid; geen fotografie).
+- Ranchi/Old Hazaribag Road = `VISITABLE_EXACT_SITE` voor de bronmatig zekerste fotosessie.
+- Bhowanipur = `HISTORIC_SITE_NOT_IDENTIFIED` op adresniveau; waarschijnlijk context voor bekende Bholanath-foto maar nog niet exact bewezen.
+- Open vervolgrichting: Gurupriya Devi-dagboek OCR/handmatige inspectie + visuele foto-inspectie.
 
-Bestanden:
-- `runs/active/YOGANANDA-ANANDAMAYI-PHOTO-LOCATION-001/TASK.md`
-- `.../STATUS.md`
+Bestanden: `TASK.md`, `STATUS.md`, `RESULT.md`.
 
-**NEXT_ACTION FOTO:** CCI 083 laten uitvoeren; daarna INDIA audit. Geen permanente ID vóór exact-site QA.
-
-## ACTIEVE/OPEN TAAK 4 — KUMAON-V2-RESWEEP-001
+## ACTIEVE/OPEN TAAK 5 — KUMAON-V2-RESWEEP-001
 Regionale dubbele sweep + legacy-reconciliatie leverde 079–081 op. Overige Sweep-A/Sweep-B-kandidaten blijven tijdelijk en vereisen clustergewijze identity/reconciliatie.
 
 ## AFGEROND
