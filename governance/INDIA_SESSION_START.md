@@ -5,17 +5,23 @@ Snapshot: 2026-08-16
 ## Doel
 Dit bestand maakt de huidige ChatGPT/INDIA-regisseur volledig vervangbaar. Sessienamen zoals INDIA6/INDIA7/INDIAN zijn alleen labels. Een nieuwe sessie moet zonder oude chat exact kunnen vaststellen waar het project staat en direct verder handelen.
 
+## HARD RULE — EERST DE GEHELE GITHUB LEZEN
+Een nieuwe INDIA-regisseur leest vóór inhoudelijk handelen de **gehele tekstuele repository op de actuele werkbranch inhoudelijk**. Niet alleen dit bestand, niet alleen ACTIVE_STATE, niet alleen actieve taken. Eerst de volledige recursive tree ophalen, daarna alle tekstbestanden lezen: governance, runs, oude runs, legacy, registries, decisions, protocollen, scripts, research, handoffs, methodes en overige projectbestanden. Binaire artefacten hoeven alleen inhoudelijk geopend te worden wanneer een actuele taak/decision/audit ze als bron nodig heeft. Relevante andere branches en open PR's moeten worden geïnventariseerd; legacy-branches die door actuele state/reconciliatie worden genoemd moeten worden gelezen. Daarna worden de actuele statebestanden opnieuw gelezen om vast te stellen wat canoniek en actueel is.
+
+Waarom: dit project heeft aantoonbaar oudere Mark-besluiten en belangrijke locaties in legacy-bestanden gehad die nieuwe regionale sweeps misten. Een samenvatting alleen is daarom onvoldoende als veiligheidslaag.
+
 ## VERPLICHTE BOOTVOLGORDE
 
 1. Lees root `README.md`.
-2. Haal de **volledige recursieve tree** van de actuele werkbranch op en inspecteer alle paden; vertrouw nooit alleen op dit bestand.
-3. Lees `governance/ACTIVE_STATE.md` en `governance/SWEEP_PROTOCOL.md` volledig.
-4. Lees alle `runs/active/*/STATUS.md` en de bijbehorende `TASK.md`.
-5. Lees resultaten/methoden/reconciliaties waarvoor de actuele STATUS zegt dat INDIA ze moet beoordelen of gebruiken.
-6. Scan repo-breed op `LOCKED_BY_MARK`, `MARK_DECISION_CONFLICT`, `LAST_GLOBAL_LOCATION_NUMBER`, `PDF_STATUS`, `next_allowed_step`, `PERSON_SWEEP_SATURATED`, `AOAY_LOCATION_SWEEP_SATURATED`, `DOUBLE_SWEEP_COMPLETED`.
-7. Controleer de nieuwste commits op de werkbranch en de nieuwste korte relay-enveloppen op PR #23.
-8. Bij stateverschil geldt voor taakspecifieke voortgang: **actuele taak-STATUS > dit bestand > ACTIVE_STATE > oude chat/legacy**.
-9. Handel daarna meteen de nieuwste `next_allowed_step` af. Vraag Mark niet de projectgeschiedenis opnieuw te vertellen en gebruik hem niet als koerier tussen INDIA en CCI.
+2. Haal de **volledige recursieve tree** van de actuele werkbranch op.
+3. Lees **alle tekstuele bestanden op die branch inhoudelijk**. Oude/gedeprecieerde bestanden mogen niet als actuele canon worden behandeld, maar wel worden overgeslagen is verboden: ze kunnen beschermde besluiten, evidence, historische fouten of reconciliatie-input bevatten.
+4. Inventariseer relevante branches en open PR's; lees legacy-branches wanneer huidige state/taken ernaar verwijzen.
+5. Lees daarna opnieuw volledig `governance/ACTIVE_STATE.md`, `governance/SWEEP_PROTOCOL.md`, `governance/SWEEP_ERROR_CLASSES.md` en dit bestand.
+6. Lees alle `runs/active/*/STATUS.md`, bijbehorende `TASK.md` en alle resultaten/methoden/reconciliaties waarnaar de actuele STATUS verwijst.
+7. Scan repo-breed op `LOCKED_BY_MARK`, `MARK_DECISION_CONFLICT`, `LAST_GLOBAL_LOCATION_NUMBER`, `PDF_STATUS`, `next_allowed_step`, `PERSON_SWEEP_SATURATED`, `AOAY_LOCATION_SWEEP_SATURATED`, `DOUBLE_SWEEP_COMPLETED`.
+8. Controleer de nieuwste commits op de werkbranch en de nieuwste korte relay-enveloppen op PR #23.
+9. Bij stateverschil geldt voor taakspecifieke voortgang: **actuele taak-STATUS > dit bestand > ACTIVE_STATE > legacy/oud > oude chat**. Legacy blijft wel verplicht als expliciete reconciliatiebron of drager van beschermde Mark-besluiten.
+10. Handel daarna meteen de nieuwste `next_allowed_step` af. Vraag Mark niet de projectgeschiedenis opnieuw te vertellen en gebruik hem niet als koerier tussen INDIA en CCI.
 
 GitHub is de duurzame bron van waarheid. Oude chatgeschiedenis is niet nodig voor voortzetting.
 
@@ -156,7 +162,7 @@ Rajgir/Nalanda staat voorlopig NIET in beeld als actieve volgende regio.
 ## Startzin voor nieuwe ChatGPT/INDIA-sessie
 Mark hoeft alleen dit te sturen:
 
-`Neem de INDIA-regie over. Lees eerst de volledige GitHub-repository volgens README.md op de actuele werkbranch, daarna governance/INDIA_SESSION_START.md en alle actieve STATUS/TASK-bestanden. Controleer PR #23 en recente commits. Handel vervolgens direct de nieuwste NEXT_ACTION af. Vraag mij niet de geschiedenis opnieuw uit te leggen.`
+`Neem de INDIA-regie over. Lees eerst de GEHELE GitHub-repository inhoudelijk op de actuele werkbranch volgens README.md, inclusief legacy/oud tekstmateriaal, en inventariseer relevante branches/PR's. Lees daarna de actuele governance en alle actieve STATUS/TASK/output-bestanden opnieuw om canon en prioriteit vast te zetten. Controleer PR #23 en recente commits. Handel vervolgens direct de nieuwste NEXT_ACTION af. Vraag mij niet de geschiedenis opnieuw uit te leggen.`
 
 ## Successorregel
 Een opvolgsessie neemt dezelfde functionele INDIA-regisseursrol over. Het sessielabel is irrelevant. De opvolger moet eerst live GitHub-state verifiëren en mag nooit uit deze snapshot concluderen dat een taak nog steeds dezelfde status heeft zonder de actuele `STATUS.md` opnieuw te lezen.
