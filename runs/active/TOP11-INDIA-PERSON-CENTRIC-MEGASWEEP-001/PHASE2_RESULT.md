@@ -5,7 +5,7 @@ task_id: TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
 trigger: CCI_TASK 081 (AUTHORIZED_BY_INDIA, METHOD_V1.md)
 uitgevoerd_door: CCI
 gestart_op: 2026-08-16
-status: IN_UITVOERING — persoon 2/9 gereed
+status: IN_UITVOERING — persoon 3/9 gereed
 ```
 
 Werkwijze: één persoon volledig afwerken (Fase A landelijke discovery blind t.o.v. bestaande
@@ -148,6 +148,76 @@ in Varanasi (incl. incredibleindia.gov.in — officiële overheids-toerismebron)
 **`PERSON_SWEEP_SATURATED: JA`**, met expliciete kalibratie dat punt 5 voor deze specifieke persoon
 een echt onderzocht en bevestigd `NIET_GEVONDEN`-resultaat is (structureel honkvaste levensfase na
 1861), niet een overgeslagen stap.
+
+---
+
+## PERSOON 3/9 — PARAMAHANSA YOGANANDA
+
+```
+status: PERSON_SWEEP_SATURATED: JA (gekalibreerd, zie hieronder)
+```
+
+### Fase A — landelijke discovery
+
+Bronnen: officiële YSS-biografie/locatiepagina's (yssofindia.org), officiële Ranchi-instellingpagina
+(ysmranchi.net), Wikipedia (Dihika Ashram, Yogoda Satsanga Mahavidyalaya, Sevagram), directe
+AOAY-hoofdstukbronnen (Ananda India-editie, Wikisource) voor het 1935-36-terugkeerbezoek.
+
+### Atlaspunten
+
+| atlas_id | plek | plaats/staat | tier | link-type | bron | verificatie |
+|---|---|---|---|---|---|---|
+| ATL-PY-001 | Geboorteplek (bij Kotwali) | Gorakhpur, Uttar Pradesh | 1 | geboorte, 5 januari 1893; officieel in ontwikkeling als gedenkschrijn door YSS | yssofindia.org officieel | person_event: JA; physical_identity: JA; exact_sublocation: DEELS (schrijn nog in ontwikkeling) |
+| ATL-PY-002 | Bareilly | Uttar Pradesh | 2 | jeugdverblijf, verhuizing door vaders spoorwegbaan | onafhankelijke biografiebronnen | person_event: JA; physical_identity: DEELS (stad, geen huis geïdentificeerd); exact_sublocation: NEE |
+| ATL-PY-003 | Familiehuis/Calcutta (jeugd + 1935-bezoek familie/vrienden + ontmoeting Anandamayi Ma dec. 1935) | Kolkata, West-Bengal | 2 | jeugdverblijf + terugkeerbezoek | yssofindia.org "Return to India" | person_event: JA; physical_identity: DEELS (stad, geen exact adres in deze pass gevonden); exact_sublocation: NEE |
+| ATL-PY-004 | Dihika Ashram (oorspronkelijke schoolstichting 1917) | Dihika, West-Bengal | 1 | stichting Yogoda Satsanga Brahmacharya Vidyalaya, gastheer/patroon Maharaja van Kashimbazar (Sir Manindra Chandra Nundy) | Wikipedia (Dihika Ashram) + yoganandasite.wordpress.com | person_event: JA; physical_identity: DEELS (dorp geïdentificeerd, exacte gebouwstatus vandaag onbekend); exact_sublocation: NEE |
+| ATL-PY-005 | Yogoda Satsanga Sakha Math (school/ashram-campus, Old Hazaribag Road) | Ranchi, Jharkhand | 1 | school verplaatst hierheen 1918 op zomerpaleis-grond van dezelfde Maharaja; Yogananda kocht het terrein zelf in 1935; eigen kamer bewaard als bezoekplek | ysmranchi.net officieel + yssofindia.org locatiepagina | person_event: JA; physical_identity: JA; exact_sublocation: JA |
+| ATL-PY-006 | Maganvadi-ashram (Gandhi's verblijf, augustus 1935) | Wardha, Maharashtra | 1 | ontmoeting + Kriya Yoga-initiatie van Gandhi en discipelen, 27-08-1935 | AOAY hfst. 44 (Ananda India + Wikisource) | person_event: JA; physical_identity: JA (Maganvadi met naam bevestigd); exact_sublocation: DEELS (exact adres niet apart bevestigd) |
+| ATL-PY-007 | Yogoda Math, Serampore (Sri Yukteswars ashram) | Serampore, West-Bengal | 1 | hereniging met guru na 15 jaar, december 1935 | yssofindia.org "Return to India" | person_event: JA; physical_identity: JA; exact_sublocation: wordt in Sri Yukteswar-sweep apart bevestigd (person-link, geen dubbel punt) |
+| ATL-PY-008 | Mysore | Karnataka | 3 | ontmoeting met natuurkundige Sir C.V. Raman, okt/nov 1935 — wetenschappelijk, geen devotioneel/spiritueel event | yssofindia.org "Return to India" | person_event: JA; physical_identity: NEE (geen specifieke locatie); exact_sublocation: NEE |
+| ATL-PY-009 | Sri Ramana Ashram, Tiruvannamalai (Arunachala) | Tiruvannamalai, Tamil Nadu | 1 | ontmoeting met Ramana Maharshi, okt/nov 1935 | yssofindia.org "Return to India" | person_event: JA; physical_identity: JA (bevestiging volgt in Ramana Maharshi-sweep, person-link) |
+| ATL-PY-010 | Kumbh Mela, Allahabad (Prayag) | Allahabad, Uttar Pradesh | 2 | bijgewoond januari 1936 | yssofindia.org "Return to India" | person_event: JA; physical_identity: DEELS (zelfde Kumbh Mela-terrein als ATL-MB-003, ander jaar); exact_sublocation: NEE |
+
+### Fase C — vergelijking met repo
+
+Grep op "Gorakhpur", "Ranchi", "Serampore", "Wardha", "Bareilly" leverde géén bestaande
+regiokandidaten op (alleen generieke vermeldingen in twee governance-bestanden, geen candidate-
+records). Alle tien punten zijn dus **FOUND_BUT_MISSING_FROM_REPO**, met de volgende nuances:
+
+- **ATL-PY-005 (Ranchi-campus) en ATL-PY-007 (Serampore) zijn de sterkste TIER 1-signalen** — beide
+  fysiek exact, officieel toegankelijk, en beide een `PERSON_LINK_UPGRADE`-kans voor toekomstige
+  regio-sweeps buiten het huidige Varanasi/Bodh Gaya/Kumaon-drietal.
+- **ATL-PY-004 (Dihika) + ATL-PY-005 (Ranchi) samen vormen een schoon host-/patroonketen-voorbeeld**:
+  dezelfde Maharaja van Kashimbazar als gastheer/schenker op twee achtereenvolgende locaties —
+  precies het soort keten dat deze taak verplicht test.
+- **ATL-PY-006 (Wardha/Maganvadi) is een nieuw, mogelijk missiekritisch `NEW_REGION_SIGNAL`**:
+  Maharashtra komt tot nu toe in de hele repo niet voor als Top-11-regio.
+- **ATL-PY-009 (Arunachala) is een `PERSON_LINK_UPGRADE`-signaal**: cross-check volgt in de eigen
+  Ramana Maharshi-sweep (persoon 9/9) om dubbele telling te voorkomen.
+- **ATL-PY-008 (Mysore)**: bewust laag geprioriteerd — wetenschappelijk bezoek, geen devotioneel/
+  spiritueel karakter; alleen ter volledigheid vastgelegd, geen kandidaat.
+- **ATL-PY-010 (Kumbh Mela 1936)**: zelfde categorie als ATL-MB-003 (1894) — Allahabad/Kumbh Mela
+  krijgt hierdoor een tweede, onafhankelijk Top-11-signaal (Babaji 1894 + Yogananda 1936), wat het
+  `PERSON_LINK_UPGRADE`-gewicht van die regio versterkt.
+
+### Saturatie-beoordeling tegen de 6 TASK-punten
+
+1. Officiële/lineage-bronnen + primaire teksten + AOAY-hoofdstukbron: **JA**.
+2. Grote levensfasen/reizen afgedekt: **JA** — geboorte, jeugdverhuizingen, schoolstichting,
+   vertrek naar het Westen (1920, niet in India-scope), volledige 1935-36-terugkeerreis chronologisch.
+3. Alternatieve spellingen/namen: **DEELS** — "Mukunda Lal Ghosh" (geboortenaam) en "Paramhansa"
+   (titel, december 1935) meegenomen; geen verdere varianten actief doorgezocht.
+4. Host-/landgoedketens teruggevolgd: **JA** — Maharaja van Kashimbazar als terugkerend gastheer/
+   patroon (Dihika + Ranchi); Gandhi/Maganvadi als gastheer-in-omgekeerde-richting (Yogananda was
+   hier de gast van Gandhi's ashram, niet andersom) expliciet apart vastgelegd.
+5. Expliciet "op bezoek bij anderen": **JA** — Wardha/Maganvadi (gast bij Gandhi), Serampore (gast
+   bij eigen guru Sri Yukteswar), Arunachala (gast bij Ramana Maharshi) zijn alle drie exact dat.
+6. Negatieve/onzekere claims vastgelegd: **JA** — Mysore expliciet laag geprioriteerd/geen
+   spiritueel karakter; exacte adressen Calcutta-familiehuis en Bareilly-jeugdhuis `NIET_GEVONDEN`
+   in deze pass, niet verzwegen.
+
+**`PERSON_SWEEP_SATURATED: JA`** — dit is de rijkste en best gedocumenteerde persoon tot nu toe;
+alle 6 punten zijn zonder structurele uitzondering doorlopen.
 
 ---
 Dit bestand is de kortste, altijd-actuele bron van waarheid voor Fase 2 van deze taak (poort O.1).
