@@ -52,9 +52,42 @@ Bijvangst: één fout in de eerdere AOAY-locatie-atlas gevonden en gecorrigeerd 
 verward met de Belur-tempel/Karnataka in hoofdstuk 41 — nu rechtgezet in `PLACE_ATLAS.jsonl`).
 `AOAY_YOGANANDA_V2_SATURATED: NEE`, expliciete hiaten vastgelegd (zie freeze-bestand).
 
+## Update — CCI_TASK 085 afgerond: definitieve pre-external Yogananda-freeze (CCI, 2026-08-16)
+
+```
+freeze_commit: cd0ff2b159900015fcdc3d69617850efc32bc550
+freeze_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/YOGANANDA_V2_PRE_EXTERNAL_FINAL_FREEZE.md
+YOGANANDA_V2_PRE_EXTERNAL_SATURATED: NEE
+```
+
+Pre-external completion-pass op de hiaten uit `YOGANANDA_V2_FREEZE.md`: alle 82 India-plaatsen uit
+de AOAY-atlas herlezen met volledige occurrence-context (niet alleen de dichtste hoofdstukken).
+Resultaat:
+- **Tweede fout in de AOAY-locatie-atlas gevonden en gecorrigeerd**: "Dwarka" (5 occurrences) bleek
+  "Dwarka Prasad" — een persoonsnaam (huisbaaszoon in Bareilly), geen vermelding van de
+  bedevaartsstad Dwarka. Naamcollision, niet een plaats. Gecorrigeerd in `PLACE_ATLAS.jsonl`.
+- **Hyderabad/Ellora/Ajanta definitief opgelost**: `YOGANANDA_PERSONALLY_PRESENT: NEE`, tekstueel
+  onderbouwd (regionale geschiedenisdigressie zonder eerste-persoonstaal, in scherp contrast met de
+  omringende Mysore/Bangalore-passages die wél "I"/"we" gebruiken).
+- **Drie nieuwe bevestigde persoonlijke bezoeken**: Delhi (zwager Satish, hfst. 22), Simla
+  (Kashmir-reis, hfst. 21), Purulia (hfst. 46).
+- **Vier plaatsen gecorrigeerd van "mogelijk Yogananda" naar "eigenlijk Lahiri Mahasaya's eigen
+  levensverhaal"**: Danapur, Ranikhet, Ghurni, Nadia (blijven geldig als Lahiri Mahasaya-punten,
+  niet als Yogananda-eigen-aanwezigheid).
+- **Belangrijke nuance**: Yogoda Math bij Dakshineswar (Yogananda's eigen stichting, gewijd 1939)
+  is apart gehouden van zijn persoonlijke aanwezigheid — hij keerde na 1935-36 niet meer fysiek
+  naar India terug, dus stichter zijn ≠ fysiek aanwezig bij de latere wijding.
+- **Wright's volledige dagboek bevestigd structureel nooit gepubliceerd** (geen falende zoekactie).
+  EAST-WEST-tijdschriftarchief gevonden maar ongeoCR'd, `BRON_GEBLOKKEERD/DEELS`.
+
+Alle vier METHOD_V2-gates beoordeeld; corpus-coverage en discovery blijven `DEELS` met expliciet
+benoemde, niet-verzwegen hiaten. `NEE` bewust gekozen boven een valse `JA`-claim.
+
 ## next_allowed_step
-STOP hier conform CCI_TASK 084 punt 11. Wacht op INDIA/Mark voor de prospectieve externe-AI-
-blanco-sweep op Yogananda tegen `YOGANANDA_V2_FREEZE.md` — dit is de "zuivere beslisproef" die
-bepaalt of externe multi-AI structureel verplicht blijft voor alle Top-11.
+STOP hier conform CCI_TASK 085 stopvoorwaarde. Wacht op INDIA/Mark voor de prospectieve externe-
+AI-blanco-sweep op Yogananda tegen `YOGANANDA_V2_PRE_EXTERNAL_FINAL_FREEZE.md` (freeze-commit
+`cd0ff2b1`) — dit is de "zuivere beslisproef" die bepaalt of externe multi-AI structureel verplicht
+blijft voor alle Top-11. Geen nieuwe Top-11-persoon starten. Geen externe resultaten zoeken,
+simuleren of alvast vergelijken.
 
 Geen PDF. Geen A/B/C.

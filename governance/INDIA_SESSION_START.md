@@ -84,7 +84,19 @@ Daarna **Paramahansa Yogananda als prospectieve control-test**:
 4. Als externe AI betekenisvolle echte extra's houdt => externe multi-AI verplicht voor alle Top-11.
 5. Als verbeterde CCI+INDIA METHOD_V2 de geverifieerde externe union volledig reproduceert => externe AI kan terug naar periodieke/adversarial audit.
 
-**NEXT_ACTION BENCHMARK:** CCI moet de drieweg-Anandamayi-reconciliatie onafhankelijk auditen, METHOD_V2 formaliseren en daarna Yogananda source-first V2 freezen vóór enige Yogananda-external-union.
+**Status per 2026-08-16 (CCI_TASK 084+085 afgerond)**: drieweg-Anandamayi-reconciliatie
+onafhankelijk geauditeerd (`RECONCILIATION_CCI_084.md`), `METHOD_V2.md` geformaliseerd, en
+Yogananda source-first V2 tweemaal gefreezed — eerst `YOGANANDA_V2_FREEZE.md`, daarna een
+pre-external completion-pass in `YOGANANDA_V2_PRE_EXTERNAL_FINAL_FREEZE.md`
+(freeze-commit `cd0ff2b159900015fcdc3d69617850efc32bc550`,
+`YOGANANDA_V2_PRE_EXTERNAL_SATURATED: NEE`, gates + hiaten expliciet vastgelegd).
+
+**NEXT_ACTION BENCHMARK:** de interne CCI/INDIA-zijde is klaar. De duurzame vervolgstap is nu
+extern: Mark/INDIA laat één of meer externe AI's een blanco Yogananda-sweep uitvoeren (geen
+CCI-lijst vooraf), en legt de resultaten daarna tegen `YOGANANDA_V2_PRE_EXTERNAL_FINAL_FREEZE.md`
+(freeze-commit `cd0ff2b1`) om te bepalen of externe multi-AI structureel verplicht blijft voor alle
+Top-11. CCI start geen nieuwe Top-11-persoon en zoekt/simuleert geen externe resultaten totdat die
+externe sweep binnen is.
 
 ## ACTIEVE TAAK 3 — AOAY-FULL-LOCATION-ATLAS-001
 Actuele STATUS: `SUBSTANTIELE_EERSTE_OOGST__NIET_SATURATED__WACHT_OP_INDIA`.
