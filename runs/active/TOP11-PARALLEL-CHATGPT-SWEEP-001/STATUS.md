@@ -14,9 +14,15 @@ comparison_with_internal_allowed: NEE
   - freeze_sha: 69a387d162b4fe7b89b63bbd1b11f0d56e62443d
 - Mahavatar Babaji: IN_PROGRESS
 - Lahiri Mahasaya: IN_PROGRESS
-- Sri Yukteswar: IN_PROGRESS
+- Sri Yukteswar: FROZEN
+  - normalized_location_count: 38
+  - physical_identity: EXACT 11; DEELS 23; ALLEEN_PLAATS 3; ONBEKEND 1
+  - corpus_families: primary/semi-primary published narrative; institutional histories; ashrams; private homes; travel and pilgrimage nodes; room/sublocation evidence; adversarial negative checks
+  - blocked_sources: complete Satyananda biography; private-address and room records; Kashmir inn records; cadastral confirmation for relative sites
+  - saturation: NEE — broad source/type/place sweep completed, but inaccessible biography and unresolved private/relative locations leave material leads
+  - freeze_sha: 7ebad72652cf14d750c00aaa77fc25f53f2be2cd
 - Neem Karoli Baba: IN_PROGRESS
-- Ram Dass: QUEUED
+- Ram Dass: IN_PROGRESS
 - Ramana Maharshi: QUEUED
 - Ramakrishna: QUEUED
 
