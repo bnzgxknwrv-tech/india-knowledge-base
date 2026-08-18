@@ -23,3 +23,7 @@ Alleen Mark maakt nieuwe A/B/C-keuzes. Een worker bewaart bestaande keuzes en no
 
 ## Blokkeerregel
 Alleen ontbrekende GitHub-read/write, ontbrekende runopdracht, ontbrekende of corrupte voorgangeroutput, geldige eerdere voltooiing van dezelfde rol, of een direct conflict met een expliciet Mark-besluit blokkeert een volledige rol. Kandidaatgebonden onzekerheid wordt geïsoleerd en blokkeert andere kandidaten niet.
+
+## Vaste naslag
+- Voor vragen over fysieke locaties van Paramahansa Yogananda in India: lees eerst `india4/reference/PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md`.
+- Deze atlas combineert vijf onafhankelijke AI-sweeps en bewaart bewijsniveaus, conflicten, unieke vondsten en expliciete negatieve associaties. Behandel betwiste locaties niet als definitief geverifieerd.
