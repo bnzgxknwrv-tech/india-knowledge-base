@@ -1,6 +1,26 @@
 # INDIA_SESSION_START — duurzame bootstrap voor iedere nieuwe INDIA-regisseursessie
 
-Snapshot: 2026-08-16
+Snapshot: 2026-08-18 23:59 CEST
+
+## LATEST HANDOFF — INDIA7
+Lees na de volledige repo-boot expliciet:
+- `governance/INDIA7_BOOTSTRAP_DELTA_2026-08-18.md`
+- `handoffs/INDIA6_TO_INDIA7_2026-08-18.md`
+- `decisions/TOP11_SWEEP_DEPTH_BY_PERSON_2026-08-18.md`
+- `decisions/ARUNACHALA_TIRUVANNAMALAI_A_ANCHOR_2026-08-18.md`
+- `governance/CCI_GITHUB_WAKE_RELAY.md`
+- `research/YOGANANDA_RAMANA_ARUNACHALA_POST_FREEZE_NOTE_2026-08-18.md`
+
+Actuele strategische volgorde is nu LOCKED:
+`LANDELIJKE PERSONEN-SWEEPS -> EXTERNAL BLIND FREEZES -> RECONCILIATIE -> CLUSTERHEATMAP -> REGIONALE CLUSTERSWEEPS -> MARK A/B/C -> ROUTE`.
+
+Full-deep personen: Paramahansa Yogananda, Mahavatar Babaji, Lahiri Mahasaya, Sri Yukteswar, Neem Karoli Baba, Ram Dass, Ramana Maharshi, Ramakrishna. Vivekananda + Hariharananda targeted major-sites only. Anandamayi niet opnieuw vanaf nul.
+
+CCI_TASK 087R staat al op PR #23 als recovery/resume van 087; op handoffmoment nog geen CCI_RESULT 087R zichtbaar. Een werkelijk `<wake reason="external-event">` met `source="github" kind="issue_comment.created"` is voor deze comment waargenomen: PR-comment is dus bewezen CCI-wake; Mark hoeft CCI niet handmatig te starten. Niet dupliceren.
+
+Parallel loopt een onafhankelijke externe ChatGPT-run op branch `agent/chatgpt-top11-parallel-sweep`; lees daar `runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/TASK.md` + actuele `STATUS.md`. Op snapshotmoment waren Yogananda (127) en Sri Yukteswar (38) gefreezed; Babaji/Lahiri/NKB/Ram Dass in progress; Ramana/Ramakrishna queued. Deze branchstatus kan inmiddels nieuwer zijn.
+
+Arunachala/Tiruvannamalai is `LOCKED_BY_MARK` A-anker voor latere routeanalyse, maar route/nachten nog niet vast. Eerst nationale persoonslaag/heatmap. Terugvlucht is gepland vanaf Delhi.
 
 ## HARD RULE — EERST DE GEHELE GITHUB LEZEN
 Een nieuwe INDIA-regisseur leest vóór inhoudelijk handelen de gehele tekstuele repository op de actuele werkbranch inhoudelijk. Eerst de volledige recursive tree, daarna alle tekstbestanden: governance, actieve en oude runs, legacy, registries, decisions, protocollen, scripts, research, handoffs, methodes en overige projectbestanden. Binaire artefacten alleen openen wanneer een actuele taak/decision/audit ze als bron nodig heeft. Relevante andere branches en open PR's inventariseren; genoemde legacy-branches lezen. Daarna actuele statebestanden opnieuw lezen om canon vast te zetten.
@@ -30,6 +50,7 @@ Iedere tekst die Mark naar een andere AI/chat/Claude Code moet kopiëren staat v
 - Werkbranch: `claude/werk-je-nu-of-niet-oa10y7`
 - PR #23 draft; niet mergen zonder expliciete Mark-vrijgave.
 - PR #23 = korte relay/index; lange inhoud onder `runs/active/<TASK_ID>/`.
+- Bewezen relaygedrag: een nieuwe top-level PR-comment genereert `github issue_comment.created` wake voor CCI; zie `governance/CCI_GITHUB_WAKE_RELAY.md`.
 
 ## PROJECTDOEL
 Drie orthogonale missiekritische detectorlagen:
@@ -53,67 +74,37 @@ CCI heeft METHOD_V1 afgerond: circa 90 atlaspunten voor alle 11 en 11/11 `PERSON
 Bestaande atlas blijft input; niet verwijderen. Geen permanente nummering/clusterkeuze op basis van METHOD_V1 alleen.
 
 ## ACTIEVE TAAK 2 — TOP11-EXTERNAL-AI-BENCHMARK-001
-Actuele STATUS: `ANANDAMAYI_EXTERNAL_UNION_INGESTED__INDIA_SOURCE_FIRST_PASS_COMPLETE__RECONCILIATION_NEXT`.
+Actuele benchmarkconclusie: Yogananda prospective control is afgerond via CCI_TASK 086 en heeft `EXTERNAL_MULTI_AI_MANDATORY_FOR_REMAINING_TOP11: JA` opgeleverd.
 
 Bestanden:
 - `TASK.md`
 - `STATUS.md`
 - `EXTERNAL_UNION_INPUT.md` — Marks externe multi-AI union: 156 Anandamayi-masterlocaties.
-- `INDIA_SOURCE_FIRST_SWEEP_ANANDAMAYI.md` — INDIA source-first scan officiële/lineage corpus.
-- `BENCHMARK_RESULT.md` — voorlopige driehoeksconclusie.
+- `INDIA_SOURCE_FIRST_SWEEP_ANANDAMAYI.md`
+- `BENCHMARK_RESULT.md`
+- `YOGANANDA_EXTERNAL_RECONCILIATION_CCI_086.md`
 
 ### Harde bevindingen
 1. CCI's Anandamayi-set (~23) is aantoonbaar zwaar incompleet.
 2. Externe multi-AI union (156) heeft echte waarde: onafhankelijke AI's vinden reële long-tail host-/reislocaties die CCI mist.
 3. Externe union is zelf óók aantoonbaar incompleet: source-first scan van officiële Life History 1896–1982 + Sangha-biografie vond opnieuw vele afzonderlijke sites die niet in de 156-union staan.
 4. Sommige externe claims zijn fout/overmerged en moeten rechtstreeks worden geverifieerd; consensus is geen bewijs.
+5. Yogananda control: 114 externe masterrecords; 8/8 rechtstreeks getoetste externe kandidaten `VERIFIED_TRUE`.
+6. CCI vond zelf Regent Hotel Bombay, gemist door alle vijf externe AI's. Dus volledige METHOD_V2-keten blijft nodig.
 
-### METHOD_V2 richting
-Primaire volgorde wordt:
+### METHOD_V2
 `CORPUS INVENTORY -> LOSSLESS CORPUS OCCURRENCE EXTRACTION -> EVENT/PLACE NORMALIZATION -> HOST/NETWORK GRAPH -> WEB DISCOVERY -> INDIA INDEPENDENT METHOD PASS -> EXTERNAL MULTI-AI ADVERSARIAL UNION -> DIRECT VERIFICATION/RECONCILIATION -> SATURATION`.
 
-`PERSON_SWEEP_SATURATED` mag pas na aantoonbare corpuscoverage, hostgraph, discovery en detectorreconciliatie; niet meer na alleen zoekcategorieën afvinken.
+`PERSON_SWEEP_SATURATED` mag pas na aantoonbare corpuscoverage, hostgraph, discovery en detectorreconciliatie.
 
-### Beslissen of externe AI voor ALLE 11 nodig blijft
-Anandamayi is inmiddels door iedereen besmet met elkaars data en kan geen zuivere prospectieve blindtest meer zijn. Gebruik haar voor methodebouw.
+### CCI_TASK 087 / 087R
+087 = nationale pre-external METHOD_V2 freezes voor Mahavatar Babaji + Lahiri Mahasaya + Sri Yukteswar.
+087R = context-limit recovery; hervat uit duurzame state, geen restart, geen externe contaminatie vóór interne freezes. Op 2026-08-18 23:59 nog geen resultaat zichtbaar; eerst PR #23 opnieuw controleren.
 
-Daarna **Paramahansa Yogananda als prospectieve control-test**:
-1. CCI + INDIA voeren eerst METHOD_V2 source-first uit en freezen hun atlas vóór externe input.
-2. Dan laat Mark meerdere externe AI's blanco hetzelfde onderzoek doen.
-3. External-only claims rechtstreeks verifiëren.
-4. Als externe AI betekenisvolle echte extra's houdt => externe multi-AI verplicht voor alle Top-11.
-5. Als verbeterde CCI+INDIA METHOD_V2 de geverifieerde externe union volledig reproduceert => externe AI kan terug naar periodieke/adversarial audit.
-
-**Status per 2026-08-16 (CCI_TASK 084+085 afgerond)**: drieweg-Anandamayi-reconciliatie
-onafhankelijk geauditeerd (`RECONCILIATION_CCI_084.md`), `METHOD_V2.md` geformaliseerd, en
-Yogananda source-first V2 tweemaal gefreezed — eerst `YOGANANDA_V2_FREEZE.md`, daarna een
-pre-external completion-pass in `YOGANANDA_V2_PRE_EXTERNAL_FINAL_FREEZE.md`
-(freeze-commit `cd0ff2b159900015fcdc3d69617850efc32bc550`,
-`YOGANANDA_V2_PRE_EXTERNAL_SATURATED: NEE`, gates + hiaten expliciet vastgelegd).
-
-**Status per 2026-08-18 (CCI_TASK 086 afgerond)**: de prospectieve externe Yogananda-control
-(PR #24, head `e8c7ef68`, 114-record atlas van Grok/Gemini/DeepSeek/Copilot/AI-5) is ontvangen,
-bevroren (`YOGANANDA_EXTERNAL_UNION_FREEZE.md`) en gereconcilieerd tegen de interne freeze
-(`YOGANANDA_EXTERNAL_RECONCILIATION_CCI_086.md`). Acht getoetste externe kandidaten `VERIFIED_TRUE`
-(o.a. Pranabananda-residentie Benares, Sri Yukteswars Rana Mahal-huis, Giri Bala/Biur,
-Keshabananda-ashram Brindaban, Kumbh Mela 1936-aanwezigheid). Vier zelf-gerapporteerde externe
-identiteitsconflicten opgelost (Anandamayi Ma = Bhowanipur/Ranchi niet Varanasi; Gandhi = Wardha
-niet Sabarmati; Ramana = Tiruvannamalai niet "Bangalore"; Ellora/Ajanta/Hyderabad geen bewezen
-bezoek). CCI vond bovendien zelf één plek die alle vijf externe AI's misten: de **Regent Hotel,
-Bombay** als werkelijke locatie van het Sri Yukteswar-"resurrection"-visioen (hfst. 43), tegenover
-de externe atlas' eigen `ONBEKEND`-label daar.
-
-**Verdict**: `EXTERNAL_MULTI_AI_MANDATORY_FOR_REMAINING_TOP11: JA`. Root cause: CCI's eigen
-token-/gazetteerdetector is sterk voor toponiemen, structureel zwakker voor privéadressen die de
-brontekst alleen via de bewonersnaam aanduidt — precies waar externe host-netwerkanalyse
-meerwaarde had. Tegelijk blijft CCI's eigen directe bronverificatie onmisbaar (Regent Hotel-vondst
-die de externe union zelf miste). Juiste architectuur: de volledige METHOD_V2-keten, niet "CCI OF
-externe AI".
-
-**NEXT_ACTION BENCHMARK:** wacht op INDIA-QA-audit van het CCI_TASK 086-verdict. Zodra bevestigd,
-kan METHOD_V2 + verplichte externe-AI-laag op de overige 9 Top-11-personen worden toegepast, in de
-vastgelegde volgorde. **Arunachala-regiosweep-hold blijft van kracht** tot na deze audit. CCI start
-geen nieuwe Top-11-persoon en geen Arunachala-sweep totdat INDIA dit expliciet vrijgeeft.
+## EXTERNE PARALLEL CHATGPT-RUN
+Branch: `agent/chatgpt-top11-parallel-sweep`.
+Task: `runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/TASK.md`.
+Doel: onafhankelijke blinde externe freezes voor acht full-deep personen. Geen interne repo-kandidaten lezen vóór alle acht freezes; eigen branch; commit per persoon; pas later reconciliëren.
 
 ## ACTIEVE TAAK 3 — AOAY-FULL-LOCATION-ATLAS-001
 Actuele STATUS: `SUBSTANTIELE_EERSTE_OOGST__NIET_SATURATED__WACHT_OP_INDIA`.
@@ -121,7 +112,7 @@ Actuele STATUS: `SUBSTANTIELE_EERSTE_OOGST__NIET_SATURATED__WACHT_OP_INDIA`.
 - `AOAY_LOCATION_SWEEP_SATURATED: NEE`.
 - duizenden kandidaat-tokentypes unresolved; occurrence-level verification nog niet compleet.
 
-**NEXT_ACTION AOAY:** niet afsluiten. Vervolgronde tot echte saturation/blocker met detector-verdieping + occurrence-verificatie. Nieuwe PERSON_METHOD_V2-corpuslessen moeten ook hier worden toegepast waar relevant.
+**NEXT_ACTION AOAY:** niet afsluiten. Vervolgronde tot echte saturation/blocker met detector-verdieping + occurrence-verificatie. Eerst huidige personenlaag respecteren.
 
 ## ACTIEVE TAAK 4 — YOGANANDA-ANANDAMAYI-PHOTO-LOCATION-001
 Status: `RESULT_KLAAR__TWEE_SITES_ONDERSCHEIDEN__WACHT_OP_INDIA`.
@@ -131,6 +122,11 @@ Status: `RESULT_KLAAR__TWEE_SITES_ONDERSCHEIDEN__WACHT_OP_INDIA`.
 
 ## ACTIEVE/OPEN TAAK 5 — KUMAON-V2-RESWEEP-001
 079–081 beschermd. Overige kandidaten tijdelijk; identity/reconciliatie nog open. Nieuwe landelijke METHOD_V2/atlaslagen moeten vóór choice-ready eindstatus over Kumaon worden gekruist.
+
+## ARUNACHALA / TIRUVANNAMALAI
+`decisions/ARUNACHALA_TIRUVANNAMALAI_A_ANCHOR_2026-08-18.md` = LOCKED_BY_MARK A-anker, nog geen route/nachten.
+Yogananda-Ramana direct bewijs + film-sublocatie staat in `research/YOGANANDA_RAMANA_ARUNACHALA_POST_FREEZE_NOTE_2026-08-18.md`.
+Niet verwarren: film-scène exact op bank ten noorden van Old Hall; volledige conversatie exact daar nog niet bewezen.
 
 ## AFGEROND
 - VARANASI: 001–040 beoordeeld/beschermd; 041–045 alleen op Marks initiatief.
@@ -144,4 +140,4 @@ Na huidige landelijke atlas/QA-stroom:
 Rajgir/Nalanda niet actief als volgende regio.
 
 ## STARTZIN NIEUWE CHAT
-`Neem de INDIA-regie over. Lees eerst de GEHELE GitHub-repository inhoudelijk op de actuele werkbranch volgens README.md, inclusief legacy/oud tekstmateriaal, en inventariseer relevante branches/PR's. Lees daarna de actuele governance en alle actieve STATUS/TASK/output-bestanden opnieuw om canon en prioriteit vast te zetten. Controleer PR #23 en recente commits. Handel vervolgens direct de nieuwste NEXT_ACTION af. Vraag mij niet de geschiedenis opnieuw uit te leggen.`
+`Neem de INDIA-regie over als INDIA7. Gebruik GitHub onmiddellijk als primaire waarheid. Lees eerst de GEHELE tekstuele repository op branch claude/werk-je-nu-of-niet-oa10y7 volgens README.md. Lees daarna governance/INDIA7_BOOTSTRAP_DELTA_2026-08-18.md en handoffs/INDIA6_TO_INDIA7_2026-08-18.md opnieuw, inventariseer PR #23, PR #24 en branch agent/chatgpt-top11-parallel-sweep, en lees hun nieuwste states. Controleer als eerste of CCI_RESULT 087R inmiddels binnen is. Respecteer de blindheid van nog onafgeronde external freezes en start geen regionale/cluster-sweep voordat de nationale persoonslaag dit toestaat. Handel daarna direct de nieuwste next_allowed_step af zonder mij de geschiedenis opnieuw te laten uitleggen.`
