@@ -18,11 +18,12 @@ Vivekananda en Hariharananda zijn expliciet NIET in scope voor exhaustieve sweep
 Dit is een externe/adversarial sweep. Tijdens discovery mag de onderzoeks-chat GEEN bestaande interne kandidatenlijsten, CCI-atlassen, eerdere persoonsresultaten, externe union-resultaten of regionale selectie-output uit deze repository lezen.
 
 Toegestaan vóór de freeze:
-- dit TASK-bestand;
+- uitsluitend dit TASK-bestand;
 - openbare externe bronnen op internet;
 - eigen onafhankelijke bronanalyse.
 
 Niet toegestaan vóór de freeze:
+- root README / governance die naar interne resultaten leidt;
 - bestaande person-centric atlasbestanden;
 - Yogananda PR #24 atlas;
 - CCI 084–087 output;
@@ -73,9 +74,13 @@ Per locatie minimaal:
 - Negatieve bevindingen bewaren wanneer bekende claims na controle niet blijken te kloppen.
 - Geen A/B/C, geen routeadvies, geen clusterkeuze.
 
-## OUTPUTPADEN
-Schrijf rechtstreeks naar de werkbranch `claude/werk-je-nu-of-niet-oa10y7` onder:
+## OUTPUTBRANCH EN PADEN
+Schrijf uitsluitend naar de aparte branch:
+`agent/chatgpt-top11-parallel-sweep`
 
+Niet naar de actieve CCI-werkbranch, zodat CCI en ChatGPT echt parallel zonder write-conflicten kunnen werken.
+
+Onder:
 `runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/`
 
 Bestanden:
