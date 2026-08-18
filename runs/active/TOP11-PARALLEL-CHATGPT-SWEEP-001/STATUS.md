@@ -5,7 +5,13 @@ branch: agent/chatgpt-top11-parallel-sweep
 comparison_with_internal_allowed: NEE
 
 ## PERSONEN
-- Yogananda: IN_PROGRESS
+- Yogananda: FROZEN
+  - normalized_location_count: 127
+  - physical_identity: EXACT 48; DEELS 20; ALLEEN_PLAATS 15; ONBEKEND 44
+  - corpus_families: autobiography/travel narrative; YSS institutional site histories; photo captions; hosts/family/disciples; itinerary nodes; private houses/lodging; schools/halls/temples/gardens; room-level sublocations
+  - blocked_sources: family diaries/correspondence; complete Mejda/later appendices; municipal/cadastral records; hotel/palace/rail registers; Kumbh camp plans; private-house access; photo negatives
+  - saturation: NEE — primary narrative swept, but unnamed houses, hotels, camps, route stops, rooms and photo locations remain archive-dependent
+  - freeze_sha: 69a387d162b4fe7b89b63bbd1b11f0d56e62443d
 - Mahavatar Babaji: IN_PROGRESS
 - Lahiri Mahasaya: IN_PROGRESS
 - Sri Yukteswar: IN_PROGRESS
