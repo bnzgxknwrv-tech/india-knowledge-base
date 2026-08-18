@@ -8,23 +8,41 @@ comparison_with_internal_allowed: NEE
 - Yogananda: FROZEN
   - normalized_location_count: 127
   - physical_identity: EXACT 48; DEELS 20; ALLEEN_PLAATS 15; ONBEKEND 44
-  - corpus_families: autobiography/travel narrative; YSS institutional site histories; photo captions; hosts/family/disciples; itinerary nodes; private houses/lodging; schools/halls/temples/gardens; room-level sublocations
-  - blocked_sources: family diaries/correspondence; complete Mejda/later appendices; municipal/cadastral records; hotel/palace/rail registers; Kumbh camp plans; private-house access; photo negatives
-  - saturation: NEE — primary narrative swept, but unnamed houses, hotels, camps, route stops, rooms and photo locations remain archive-dependent
+  - corpus_families: autobiography/travel narrative; YSS site histories; photo captions; host networks; itinerary nodes; private houses/lodging; institutions and room-level sublocations
+  - blocked_sources: family diaries/correspondence; complete Mejda/later appendices; cadastral/hotel/palace/rail registers; camp plans; photo negatives
+  - saturation: NEE — unnamed houses, hotels, camps, routes, rooms and photo sites remain archive-dependent
   - freeze_sha: 69a387d162b4fe7b89b63bbd1b11f0d56e62443d
-- Mahavatar Babaji: IN_PROGRESS
-- Lahiri Mahasaya: IN_PROGRESS
+- Mahavatar Babaji: FROZEN
+  - normalized_location_count: 35
+  - physical_identity: EXACT 5; DEELS 17; ALLEEN_PLAATS 11; ONBEKEND 2
+  - corpus_families: web-accessible core lineage source; four major claimant traditions; ashrams/caves; appearance traditions; adversarial claim separation
+  - blocked_sources: print-only and private archives; open-ended modern appearance claims; unresolved physical-identity conflicts
+  - saturation: NEE — broad claimant sweep completed, but nonpublic archives and open-ended claims prevent exhaustion
+  - freeze_sha: f565ff163e35597d2c4ed802676a4671f9da3b70
+- Lahiri Mahasaya: FROZEN
+  - normalized_location_count: 60
+  - physical_identity: EXACT 6; DEELS 20; ALLEEN_PLAATS 17; ONBEKEND 17
+  - corpus_families: full family/lineage biography; Autobiography of a Yogi full text; official lineage; multilingual spelling/host/route/school/temple/photo/adversarial sweeps
+  - blocked_sources: PWD and host-address archives; school/marriage records; cave identification; fieldwork
+  - saturation: JA — final independent web rounds yielded no new localizable India locations; remaining uncertainty requires archive/field research
+  - freeze_sha: 71bb5b6406fec1e7b59511e7957d247c3bdabc50
 - Sri Yukteswar: FROZEN
   - normalized_location_count: 38
   - physical_identity: EXACT 11; DEELS 23; ALLEEN_PLAATS 3; ONBEKEND 1
-  - corpus_families: primary/semi-primary published narrative; institutional histories; ashrams; private homes; travel and pilgrimage nodes; room/sublocation evidence; adversarial negative checks
-  - blocked_sources: complete Satyananda biography; private-address and room records; Kashmir inn records; cadastral confirmation for relative sites
-  - saturation: NEE — broad source/type/place sweep completed, but inaccessible biography and unresolved private/relative locations leave material leads
+  - corpus_families: published primary/semi-primary narrative; institutional histories; ashrams; private homes; pilgrimage nodes; room/sublocation evidence; adversarial checks
+  - blocked_sources: complete Satyananda biography; private-address/room records; Kashmir inn records; cadastral confirmation
+  - saturation: NEE — inaccessible biography and unresolved private/relative locations leave material leads
   - freeze_sha: 7ebad72652cf14d750c00aaa77fc25f53f2be2cd
-- Neem Karoli Baba: IN_PROGRESS
+- Neem Karoli Baba: FROZEN
+  - normalized_location_count: 113
+  - physical_identity: EXACT 35; DEELS 23; ALLEEN_PLAATS 19; ONBEKEND 36
+  - corpus_families: close-devotee memoir; Ram Dass/Western devotee stories; ashram/trust histories; private houses; rooms/verandas/kitchens/courtyards; rail/road nodes; pan-Indian pilgrimage; final medical journey; later-memorial checks
+  - blocked_sources: full searchable core book editions; Hindi press OCR; family address books; railway/military/police/cadastral/medical/hotel records; trust files; photo negatives
+  - saturation: NEE — thousands of journeys and unnamed private locations remain, and several core books were not fully searchable
+  - freeze_sha: 180bf023a0a06f7ebb0d9df762e5fe0530f59954
 - Ram Dass: IN_PROGRESS
-- Ramana Maharshi: QUEUED
-- Ramakrishna: QUEUED
+- Ramana Maharshi: IN_PROGRESS
+- Ramakrishna: IN_PROGRESS
 
 ## HARD
 Lees vóór de acht PRE-COMPARE freezes geen interne persoonsresultaten of kandidaatlijsten. Schrijf alleen op deze branch. Commit per persoon.
