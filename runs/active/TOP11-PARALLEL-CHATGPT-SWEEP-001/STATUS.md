@@ -15,7 +15,7 @@ comparison_with_internal_allowed: NEE
 - Mahavatar Babaji: IN_PROGRESS
 - Lahiri Mahasaya: IN_PROGRESS
 - Sri Yukteswar: IN_PROGRESS
-- Neem Karoli Baba: QUEUED
+- Neem Karoli Baba: IN_PROGRESS
 - Ram Dass: QUEUED
 - Ramana Maharshi: QUEUED
 - Ramakrishna: QUEUED
