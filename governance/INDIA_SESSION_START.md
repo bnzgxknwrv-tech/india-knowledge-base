@@ -91,12 +91,29 @@ pre-external completion-pass in `YOGANANDA_V2_PRE_EXTERNAL_FINAL_FREEZE.md`
 (freeze-commit `cd0ff2b159900015fcdc3d69617850efc32bc550`,
 `YOGANANDA_V2_PRE_EXTERNAL_SATURATED: NEE`, gates + hiaten expliciet vastgelegd).
 
-**NEXT_ACTION BENCHMARK:** de interne CCI/INDIA-zijde is klaar. De duurzame vervolgstap is nu
-extern: Mark/INDIA laat één of meer externe AI's een blanco Yogananda-sweep uitvoeren (geen
-CCI-lijst vooraf), en legt de resultaten daarna tegen `YOGANANDA_V2_PRE_EXTERNAL_FINAL_FREEZE.md`
-(freeze-commit `cd0ff2b1`) om te bepalen of externe multi-AI structureel verplicht blijft voor alle
-Top-11. CCI start geen nieuwe Top-11-persoon en zoekt/simuleert geen externe resultaten totdat die
-externe sweep binnen is.
+**Status per 2026-08-18 (CCI_TASK 086 afgerond)**: de prospectieve externe Yogananda-control
+(PR #24, head `e8c7ef68`, 114-record atlas van Grok/Gemini/DeepSeek/Copilot/AI-5) is ontvangen,
+bevroren (`YOGANANDA_EXTERNAL_UNION_FREEZE.md`) en gereconcilieerd tegen de interne freeze
+(`YOGANANDA_EXTERNAL_RECONCILIATION_CCI_086.md`). Acht getoetste externe kandidaten `VERIFIED_TRUE`
+(o.a. Pranabananda-residentie Benares, Sri Yukteswars Rana Mahal-huis, Giri Bala/Biur,
+Keshabananda-ashram Brindaban, Kumbh Mela 1936-aanwezigheid). Vier zelf-gerapporteerde externe
+identiteitsconflicten opgelost (Anandamayi Ma = Bhowanipur/Ranchi niet Varanasi; Gandhi = Wardha
+niet Sabarmati; Ramana = Tiruvannamalai niet "Bangalore"; Ellora/Ajanta/Hyderabad geen bewezen
+bezoek). CCI vond bovendien zelf één plek die alle vijf externe AI's misten: de **Regent Hotel,
+Bombay** als werkelijke locatie van het Sri Yukteswar-"resurrection"-visioen (hfst. 43), tegenover
+de externe atlas' eigen `ONBEKEND`-label daar.
+
+**Verdict**: `EXTERNAL_MULTI_AI_MANDATORY_FOR_REMAINING_TOP11: JA`. Root cause: CCI's eigen
+token-/gazetteerdetector is sterk voor toponiemen, structureel zwakker voor privéadressen die de
+brontekst alleen via de bewonersnaam aanduidt — precies waar externe host-netwerkanalyse
+meerwaarde had. Tegelijk blijft CCI's eigen directe bronverificatie onmisbaar (Regent Hotel-vondst
+die de externe union zelf miste). Juiste architectuur: de volledige METHOD_V2-keten, niet "CCI OF
+externe AI".
+
+**NEXT_ACTION BENCHMARK:** wacht op INDIA-QA-audit van het CCI_TASK 086-verdict. Zodra bevestigd,
+kan METHOD_V2 + verplichte externe-AI-laag op de overige 9 Top-11-personen worden toegepast, in de
+vastgelegde volgorde. **Arunachala-regiosweep-hold blijft van kracht** tot na deze audit. CCI start
+geen nieuwe Top-11-persoon en geen Arunachala-sweep totdat INDIA dit expliciet vrijgeeft.
 
 ## ACTIEVE TAAK 3 — AOAY-FULL-LOCATION-ATLAS-001
 Actuele STATUS: `SUBSTANTIELE_EERSTE_OOGST__NIET_SATURATED__WACHT_OP_INDIA`.

@@ -83,11 +83,43 @@ Resultaat:
 Alle vier METHOD_V2-gates beoordeeld; corpus-coverage en discovery blijven `DEELS` met expliciet
 benoemde, niet-verzwegen hiaten. `NEE` bewust gekozen boven een valse `JA`-claim.
 
-## next_allowed_step
-STOP hier conform CCI_TASK 085 stopvoorwaarde. Wacht op INDIA/Mark voor de prospectieve externe-
-AI-blanco-sweep op Yogananda tegen `YOGANANDA_V2_PRE_EXTERNAL_FINAL_FREEZE.md` (freeze-commit
-`cd0ff2b1`) — dit is de "zuivere beslisproef" die bepaalt of externe multi-AI structureel verplicht
-blijft voor alle Top-11. Geen nieuwe Top-11-persoon starten. Geen externe resultaten zoeken,
-simuleren of alvast vergelijken.
+## Update — CCI_TASK 086 afgerond: externe Yogananda-union gereconcilieerd (CCI, 2026-08-18)
 
-Geen PDF. Geen A/B/C.
+```
+task_id: TOP11-EXTERNAL-AI-BENCHMARK-001
+state: YOGANANDA_EXTERNAL_RECONCILIATION_COMPLETE__VERDICT_JA__WACHT_OP_INDIA_QA
+external_input: PR #24, head e8c7ef6899feaa2a8fdfd1d82d98986f85d8281d, atlas blob 089b652e
+reconciliation_file: runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/YOGANANDA_EXTERNAL_RECONCILIATION_CCI_086.md
+EXTERNAL_MULTI_AI_MANDATORY_FOR_REMAINING_TOP11: JA
+```
+
+De 114-record externe union (Grok/Gemini/DeepSeek/Copilot/AI-5-synthese) is gereconcilieerd tegen
+de bevroren interne pre-external freeze (`cd0ff2b1`). Acht betekenisvolle `EXTERNAL_ONLY_CLAIM`/
+`EXTERNAL_MORE_GRANULAR`-kandidaten zijn rechtstreeks tegen de lokale AOAY-brontekst geverifieerd —
+**allemaal `VERIFIED_TRUE`** (Pranabananda's residentie Benares, Sri Yukteswars Rana Mahal-huis,
+Bhaduri Mahasaya's woning, Bose Institute, Giri Bala/Biur, Keshabananda-ashram Brindaban, Kumbh
+Mela 1936-persoonlijke-aanwezigheid, Taj Mahal Hotel Bombay). Vier zelf-gerapporteerde externe
+identiteitsconflicten opgelost (Anandamayi Ma-ontmoeting is Bhowanipur/Ranchi niet Varanasi;
+Gandhi-ontmoeting is Wardha niet Sabarmati; Ramana-ontmoeting is Tiruvannamalai niet "Bangalore";
+Ellora/Ajanta/Hyderabad zijn geen bewezen bezoek).
+
+**CCI vond bovendien zelf iets dat alle vijf externe AI's misten**: de externe atlas liet de kamer
+van het Sri Yukteswar-"resurrection"-visioen expliciet `ONBEKEND`. Rechtstreekse lezing van
+hoofdstuk 43 noemt tweemaal de **Regent Hotel, Bombay** (derde verdieping) — een derde, door geen
+enkele externe AI genoemde naam, die noch met "Taj Mahal Hotel" (Grok) noch met "Royal Hotel"
+(AI-5, voor Wright) overeenkomt.
+
+**Root cause van de echte misses**: CCI's eigen token-/gazetteerdetector (uit
+`AOAY-FULL-LOCATION-ATLAS-001`) is sterk voor plaatsnamen met een eigen toponiem, maar structureel
+zwakker voor privéadressen die de tekst alleen via de bewonersnaam aanduidt ("huis van [naam]") —
+precies het gat dat de externe host-netwerkanalyse dichtte.
+
+**Verdict**: `EXTERNAL_MULTI_AI_MANDATORY_FOR_REMAINING_TOP11: JA`, met de aanvullende bevinding dat
+CCI's eigen directe bronverificatie evenmin gemist mag worden (Regent Hotel-vondst). De juiste
+architectuur blijft de volledige METHOD_V2-keten: corpus -> CCI/INDIA-pass -> externe union ->
+directe verificatie -> reconciliatie, niet "CCI OF externe AI".
+
+## next_allowed_step
+STOP hier conform CCI_TASK 086 stopvoorwaarde. Wacht op INDIA-QA-audit van dit verdict. Geen nieuwe
+Top-11-persoon starten. **Arunachala-regiosweep-hold blijft van kracht** totdat INDIA deze 086-audit
+heeft afgerond. Geen A/B/C, geen PDF, geen route.
