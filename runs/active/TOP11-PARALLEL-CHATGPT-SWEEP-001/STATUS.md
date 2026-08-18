@@ -40,7 +40,13 @@ comparison_with_internal_allowed: NEE
   - blocked_sources: full searchable core book editions; Hindi press OCR; family address books; railway/military/police/cadastral/medical/hotel records; trust files; photo negatives
   - saturation: NEE — thousands of journeys and unnamed private locations remain, and several core books were not fully searchable
   - freeze_sha: 180bf023a0a06f7ebb0d9df762e5fe0530f59954
-- Ram Dass: IN_PROGRESS
+- Ram Dass: FROZEN
+  - normalized_location_count: 57
+  - physical_identity: EXACT 13; DEELS 24; ALLEEN_PLAATS 2; ONBEKEND 18
+  - corpus_families: first-person memoir/interviews; Love Serve Remember materials; Indian ashram narratives; private houses/hotels; rail/road routes; medical and photo-location leads
+  - blocked_sources: South India Shiva-route and Baneshwar identity; Sombari ashram; private houses/hotels; 2004 medical location; Lama Govinda visit records
+  - saturation: NEE — several materially distinct route, lodging, host and medical locations remain unresolved
+  - freeze_sha: 799949b551564a9993d4afe15403c36e55213af2
 - Ramana Maharshi: IN_PROGRESS
 - Ramakrishna: IN_PROGRESS
 
