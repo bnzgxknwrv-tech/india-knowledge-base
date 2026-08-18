@@ -47,7 +47,13 @@ comparison_with_internal_allowed: NEE
   - blocked_sources: South India Shiva-route and Baneshwar identity; Sombari ashram; private houses/hotels; 2004 medical location; Lama Govinda visit records
   - saturation: NEE — several materially distinct route, lodging, host and medical locations remain unresolved
   - freeze_sha: 799949b551564a9993d4afe15403c36e55213af2
-- Ramana Maharshi: IN_PROGRESS
+- Ramana Maharshi: FROZEN
+  - normalized_location_count: 103
+  - physical_identity: EXACT 47; DEELS 37; ALLEEN_PLAATS 7; ONBEKEND 12
+  - corpus_families: main chronology; complete Madurai–Arunachala journey; residences; giripradakshina; ashram and photo sublocations; adversarial presence checks
+  - blocked_sources: incompletely searchable core books; nonpublic ashram registers and negatives; unnamed bhiksha, rock, tree and route points
+  - saturation: NEE — broad route/residence/sublocation coverage leaves material archive- and field-dependent recall leads
+  - freeze_sha: 1eb3e422c25bba5ef8ec9c72a43332e62ca227c4
 - Ramakrishna: IN_PROGRESS
 
 ## HARD
