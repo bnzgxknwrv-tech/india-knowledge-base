@@ -1,6 +1,6 @@
 # STATUS — TOP11-PARALLEL-CHATGPT-SWEEP-001
 
-state: EXTERNAL_BLIND_PARALLEL_SWEEP_IN_PROGRESS
+state: ALL_EIGHT_PRE_COMPARE_FREEZES_COMPLETE_STOP
 branch: agent/chatgpt-top11-parallel-sweep
 comparison_with_internal_allowed: NEE
 
@@ -54,9 +54,15 @@ comparison_with_internal_allowed: NEE
   - blocked_sources: incompletely searchable core books; nonpublic ashram registers and negatives; unnamed bhiksha, rock, tree and route points
   - saturation: NEE — broad route/residence/sublocation coverage leaves material archive- and field-dependent recall leads
   - freeze_sha: 1eb3e422c25bba5ef8ec9c72a43332e62ca227c4
-- Ramakrishna: IN_PROGRESS
+- Ramakrishna: FROZEN
+  - normalized_location_count: 175
+  - physical_identity: EXACT 55; DEELS 52; ALLEEN_PLAATS 30; ONBEKEND 38
+  - corpus_families: complete Great Master biography; all 52 Gospel chapters; official Ramakrishna Math/Mission pilgrimage corpus; host/private-house, temple, route, photo and adversarial miss-detection sweeps
+  - blocked_sources: historical parcel/address identity; private estate/house archives; nonpublic registers and image negatives
+  - saturation: JA — repeated full-corpus and adversarial discovery passes yielded chiefly already-normalized places or locations belonging to others; parcel identity remains separate
+  - freeze_sha: f813a8ae17ca61a98ac0beb0dac214ad2169e9a8
 
 ## HARD
-Lees vóór de acht PRE-COMPARE freezes geen interne persoonsresultaten of kandidaatlijsten. Schrijf alleen op deze branch. Commit per persoon.
+Alle acht onafhankelijke externe PRE-COMPARE freezes zijn voltooid en afzonderlijk gecommit. Geen interne persoonsatlas, CCI-resultaat of oude kandidatenlijst is geopend of vergeleken.
 
-next_allowed_step: onafhankelijke externe persoons-sweeps uitvoeren en iedere persoonsfreeze direct afzonderlijk committen; daarna STOP zonder reconciliatie.
+next_allowed_step: STOP — geen vergelijking, reconciliatie, A/B/C, route- of clusterkeuze, merge of verdere interne lezing in deze run.
