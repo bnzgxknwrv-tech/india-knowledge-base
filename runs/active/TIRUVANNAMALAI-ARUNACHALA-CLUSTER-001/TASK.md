@@ -14,6 +14,21 @@ Tiruvannamalai / Arunachala is door Mark expliciet als **A-cluster** aangemerkt:
 
 Route-fit/nachten worden LATER beslist. De geplande terugvlucht vanaf Delhi blijft een harde routeconstraint voor de latere routefase; nu nog niets schrappen op reistijd.
 
+## Tweede-cluster-beslisregel — MARK 2026-08-18
+Na Arunachala wordt **NIET automatisch Puducherry/Sri Aurobindo gekozen**.
+
+Eerst wordt rondom Arunachala onderzocht welk nabijgelegen gebied de **hoogste dichtheid aan missiekritische AOAY + Top-11 fysieke locaties** heeft. Dat gebied is voorkeurskandidaat als tweede cluster, mits de transferafstand/reistijd nog redelijk is.
+
+Beslisvolgorde:
+1. Arunachala/Tiruvannamalai blijft vast A-anker.
+2. Zoek daarna de sterkste nabije concentratie van AOAY + Top-11 touchpoints.
+3. Vergelijk die concentratie met Puducherry/Sri Aurobindo.
+4. Puducherry krijgt alleen voorrang wanneer het inhoudelijk zwaar genoeg scoort (meerdere relevante Top-11/AOAY-punten of uitzonderlijke zwaarte) ten opzichte van alternatieven dichterbij.
+5. Een persoonlijke wens om Sri Aurobindo te bezoeken telt positief, maar mag niet zelfstandig een veel sterkere AOAY/Top-11-cluster verdringen wanneer tijd keuzes afdwingt.
+6. Bij te grote transferafstand wordt het gebied als apart routeblok behandeld en pas in de latere 34-nachten/Delhi-fitbeslissing meegenomen.
+
+Doel: **maximale dichtheid van Marks eigen missiepunten per verplaatsing**, niet zoveel mogelijk bekende spirituele steden verzamelen.
+
 ## Waarom missiekritisch
 - Ramana Maharshi is Top-11.
 - Paramahansa Yogananda bezocht Tiruvannamalai/Arunachala en ontmoette Ramana Maharshi; de exacte fysieke ontmoeting-/film-/Old Hall-identiteit moet in de regionale sweep bronmatig worden vastgezet.
@@ -31,6 +46,17 @@ METHOD_V2 + regionale dubbele sweep, waaronder:
 - overige Ramana-, Yogananda-, AOAY- en Top-11-touchpoints in Tiruvannamalai-regio;
 - host/gastheer-, verblijf-, foto/film- en concrete gebouwlocaties;
 - laag-3 alleen echte zelfstandige zwaargewichten.
+
+### Aansluitende cluster-scan
+Na de lokale Arunachala-sweep moet een **nabijheids-/dichtheidsscan** worden uitgevoerd voor potentiële tweede clusters. Niet op toeristische bekendheid rangschikken, maar op:
+- aantal unieke AOAY-touchpoints;
+- aantal unieke Top-11-personen;
+- concrete fysieke locatiekwaliteit;
+- overlap tussen personen op dezelfde plek/regio;
+- historische zwaarte;
+- reistijd/transferfrictie vanaf Arunachala.
+
+Puducherry/Sri Aurobindo is één kandidaat in deze vergelijking, geen vooraf gekozen winnaar.
 
 Geen route/nachten/hotel/PDF tijdens discovery.
 
