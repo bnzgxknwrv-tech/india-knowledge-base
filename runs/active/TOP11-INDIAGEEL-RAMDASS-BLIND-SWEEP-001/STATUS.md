@@ -1,0 +1,9 @@
+# STATUS — TOP11-INDIAGEEL-RAMDASS-BLIND-SWEEP-001
+
+STATUS: READY_FOR_INDIAGEEL
+PERSON: Ram Dass
+MODE: PRE-COMPARE BLIND
+BRANCH: agent/indiageel-ramana-ramakrishna-sweep
+FREEZE: NOT_STARTED
+BLINDNESS_REQUIRED: JA
+NEXT_ALLOWED_STEP: India GEEL leest uitsluitend TASK.md + STATUS.md en voert de blinde Ram Dass sweep uit.
