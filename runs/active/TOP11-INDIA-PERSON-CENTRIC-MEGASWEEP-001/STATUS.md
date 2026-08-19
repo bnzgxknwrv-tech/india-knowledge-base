@@ -2,7 +2,7 @@
 
 ```
 task_id: TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
-state: CCI_TASK_088_CORE_KRIYA_RECONCILIATION_ISSUED__WACHT_OP_CCI_RESULT
+state: CCI_TASK_089_NKB_RAMDASS_V2_PRE_EXTERNAL_ISSUED__WACHT_OP_CCI_RESULT
 method_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/METHOD_V1.md
 method_v2_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/METHOD_V2.md
 task_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/TASK.md
@@ -16,7 +16,7 @@ babaji_v2_freeze_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/BABA
 lahiri_mahasaya_v2_freeze_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/LAHIRI_MAHASAYA_V2_PRE_EXTERNAL_FREEZE.md
 sri_yukteswar_v2_freeze_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/SRI_YUKTESWAR_V2_PRE_EXTERNAL_FREEZE.md
 last_updated: 2026-08-19
-last_updated_by: INDIA7 (CCI_TASK 088 issued)
+last_updated_by: INDIA7 (CCI_TASK 089 issued)
 ```
 
 ## Update — CCI_TASK 087/087R afgerond: drie pre-external freezes (CCI, 2026-08-19)
@@ -145,6 +145,21 @@ aangekondigde derde, onafhankelijke detector) bij geen van de checkpoints een du
 deltareconciliatie zodra beschikbaar. Geen automatische vervolgtaak (interne NKB/Ram Dass/Ramana/
 Ramakrishna-freezes) vanuit hier gestart. Geen cluster/regio (Arunachala-hold van kracht), A/B/C,
 permanente IDs, PDF of route.
+
+## Update — CCI_TASK 089 uitgegeven (INDIA7, 2026-08-19)
+
+Nieuwe taak:
+`runs/active/TOP11-NKB-RAMDASS-V2-PRE-EXTERNAL-001/TASK.md`.
+
+CCI voert verse landelijke METHOD_V2 pre-external freezes uit voor Neem Karoli Baba en Ram Dass,
+met een zelfstandige checkpointcommit per persoon. De reeds bevroren externe resultaten blijven
+gesloten tot beide interne freezes duurzaam vaststaan. Oude METHOD_V1/PHASE2-lijsten zijn geen
+discoverychecklist.
+
+**next_allowed_step (actueel):** CCI_TASK 089 uitvoeren en STOP na beide freezecommits +
+resultaatenvelop. Daarna volgt pas een aparte lossless externe reconciliatie. Parallel blijft de
+IndiaROOD-delta voor Babaji/Lahiri/Sri Yukteswar open. Geen cluster/regio, A/B/C, permanente IDs,
+PDF of route.
 
 ---
 Dit bestand is de kortste actuele bron van waarheid voor deze taak.

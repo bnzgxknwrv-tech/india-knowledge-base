@@ -2,6 +2,26 @@
 
 Snapshot: 2026-08-18 23:59 CEST
 
+## LATEST ACTION — CCI_TASK 089 UITGEGEVEN (INDIA7, 2026-08-19)
+
+Nieuwe duurzame taak:
+- `runs/active/TOP11-NKB-RAMDASS-V2-PRE-EXTERNAL-001/TASK.md`
+- `runs/active/TOP11-NKB-RAMDASS-V2-PRE-EXTERNAL-001/STATUS.md`
+
+Doel: verse landelijke corpus-first METHOD_V2 pre-external freezes voor Neem Karoli Baba en Ram
+Dass. CCI mag de reeds bevroren externe persoonsresultaten pas in een latere reconciliatietaak
+openen. Neem Karoli Baba en Ram Dass blijven fysiek en persoonsmatig gescheiden; netwerkoverlap wordt
+pas na beide onafhankelijke freezes vastgelegd. Commit per persoon is verplicht.
+
+Parallelle staat: CCI_TASK 088 is provisioneel afgerond en wacht op duurzame IndiaROOD-delta's voor
+Babaji, Lahiri Mahasaya en Sri Yukteswar. De bestaande externe ChatGPT-branch heeft alle acht
+PRE-COMPARE-freezes voltooid en staat op STOP. IndiaROOD heeft volgens Mark een lokale Babaji-freeze,
+maar zonder GitHub-pad/commit is die nog geen duurzame reconciliatie-input.
+
+**NEXT_ACTION:** CCI voert uitsluitend CCI_TASK 089 uit en stopt na beide pre-external
+checkpointcommits/resultaatenvelop. Geen externe vergelijking, cluster/regio, A/B/C, permanente
+IDs, PDF of route.
+
 ## LATEST ACTION — CCI_TASK 088 AFGEROND (CCI, 2026-08-19)
 
 Resultaat:
