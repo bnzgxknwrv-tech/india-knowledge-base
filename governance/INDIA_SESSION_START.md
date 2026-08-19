@@ -2,29 +2,39 @@
 
 Snapshot: 2026-08-18 23:59 CEST
 
-## LATEST ACTION — CCI_TASK 088 UITGEGEVEN (INDIA7, 2026-08-19)
+## LATEST ACTION — CCI_TASK 088 AFGEROND (CCI, 2026-08-19)
 
-Nieuwe duurzame taak:
-- `runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/TASK.md`
-- `runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/STATUS.md`
+Resultaat:
+- `runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/BABAJI_RECONCILIATION.md`
+- `runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/LAHIRI_MAHASAYA_RECONCILIATION.md`
+- `runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/SRI_YUKTESWAR_RECONCILIATION.md`
+- `runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl`
+- `runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/RECONCILIATION_RESULT.md`
+- checkpoint commits: `0bfeb45` (Babaji), `05cc7da` (Lahiri Mahasaya), `59463c1` (Sri Yukteswar)
 
-Doel: bidirectionele METHOD_V2-reconciliatie van interne 087/087R-freezes versus de bevroren
-externe ChatGPT-freezes voor Mahavatar Babaji, Lahiri Mahasaya en Sri Yukteswar. Directe
-bronverificatie van internal-only, external-only en conflictclaims is verplicht. De externe branch
-blijft frozen en wordt niet gewijzigd of gemerged.
+Volledige bidirectionele METHOD_V2-reconciliatie van interne 087/087R-freezes (40 records) versus de
+bevroren externe ChatGPT-freezes (133 records) voor Mahavatar Babaji, Lahiri Mahasaya en Sri
+Yukteswar. Directe bronverificatie uitgevoerd op alle internal-only/external-only/conflictclaims
+waar mogelijk. Kernresultaten: twee correcties in interne richting (Lahiri's Allahabad-aanwezigheid
+ten onrechte extern ontkend; een Babaji-datumcitatie niet in AOAY teruggevonden), vier bevestigde
+interne gaps gecorrigeerd (Sri Yukteswars moeders woning Rana Mahal, een Serampore-kerk, Albert
+Hall-podium, een Babaji-Himalayakamp-anekdote), één interne locatiefout gecorrigeerd
+(Babaji/Mataji/Lahiri-visioen naar Dashashwamedh Ghat i.p.v. Ram Gopal's grot) en één datumfout
+(Sri Yukteswars mahasamadhi 9 maart, niet 21 maart). 21 Babaji-records uit drie andere
+claimant-tradities (Hariharananda, Nagaraj/Ramaiah, Haidakhan) terecht apart gehouden. Eén
+bronblokkade: Chatterjee's *Purana Purusha*-Lahiri-biografie (dokumen.pub) ontoegankelijk, alle
+daarop gebaseerde claims blijven `BRON_GEBLOKKEERD`. Externe branch niet gewijzigd/gemerged.
+IndiaROOD had bij geen van de drie checkpoints een duurzame freeze — de blindheid is niet besmet.
 
-Een gelijktijdige PR #23-heads-up kondigt een derde blinde detector aan: de onafhankelijke
-ChatGPT-context `IndiaROOD`. Er was bij taakuitgifte nog geen duurzaam freeze-pad/commit. CCI neemt
-iedere vóór de persoonscheckpoint beschikbare IndiaROOD-freeze lossless mee; anders blijft die
-persoonsreconciliatie expliciet provisioneel met verplichte latere delta. De blindheid mag niet
-worden besmet.
+**Geen `PERSON_SWEEP_SATURATED: JA` voor deze drie** — `EXTERNAL_MODEL_DIVERSITY_GATE` blijft NEE
+(de bestaande externe branch is één ChatGPT-sessie, geen multi-provider-union) en
+`RECONCILIATION_GATE` is PROVISIONEEL zolang de IndiaROOD-delta ontbreekt.
 
-Finale saturation mag niet worden geclaimd zolang de verplichte
-`EXTERNAL_MODEL_DIVERSITY_GATE`, de IndiaROOD-delta of een andere METHOD_V2-gate NEE/ONBEPAALD is.
-Geen cluster/regio, A/B/C, permanente IDs, PDF of route.
-
-**NEXT_ACTION:** CCI voert CCI_TASK 088 inclusief het IndiaROOD-addendum uit met checkpointcommit
-per persoon en stopt na de finale reconciliatiesynthese.
+**NEXT_ACTION:** STOP, wacht op INDIA-QA-audit van dit resultaat. Verplichte lossless
+IndiaROOD-deltareconciliatie voor alle drie personen zodra Mark's IndiaROOD-chat een duurzame
+freeze-envelop op PR #23 plaatst. Geen automatische vervolgtaak (interne NKB/Ram Dass/Ramana/
+Ramakrishna-freezes, ondanks dat voor hen externe freezes gereed zijn of komen) vanuit hier gestart.
+Geen cluster/regio (Arunachala-hold blijft van kracht), A/B/C, permanente IDs, PDF of route.
 
 ## LATEST HANDOFF — INDIA7
 Lees na de volledige repo-boot expliciet:

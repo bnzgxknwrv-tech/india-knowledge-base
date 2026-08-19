@@ -114,5 +114,37 @@ bronverificatie en checkpointcommit per persoon. Geen nieuwe blanco ChatGPT-disc
 drie, geen cluster/regio, A/B/C, permanente IDs, PDF of route. Finale saturation alleen wanneer
 alle METHOD_V2-gates inclusief detector-/modeldiversiteit aantoonbaar zijn voldaan.
 
+## Update — CCI_TASK 088 afgerond (CCI, 2026-08-19)
+
+```
+result_file: runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/RECONCILIATION_RESULT.md
+checkpoint_commits: 0bfeb45 (Babaji), 05cc7da (Lahiri Mahasaya), 59463c1 (Sri Yukteswar)
+```
+
+Volledige bidirectionele reconciliatie afgerond voor Babaji, Lahiri Mahasaya en Sri Yukteswar (40
+interne records tegen 133 externe records). Belangrijkste opbrengst: twee correcties in interne
+richting (Lahiri's Allahabad-aanwezigheid, een Babaji-datumclaim), meerdere echte interne gaps
+gecorrigeerd na directe AOAY-bronverificatie (Sri Yukteswars moeder Kadambini Devi's woning in
+Rana Mahal, een Serampore-kerk, Albert Hall-podium, een Kebalananda-Himalayakamp-anekdote voor
+Babaji), één interne locatiefout gecorrigeerd (Babaji/Mataji/Lahiri-visioen was ten onrechte bij
+Ram Gopal's grot gelokaliseerd, hoort bij Dashashwamedh Ghat Varanasi), en één eigen datumfout
+gecorrigeerd (Sri Yukteswars mahasamadhi 9 maart 1936, niet 21 maart — dat is de bhandara-
+herdenkingsceremonie). Voor Babaji zijn 21 externe records uit drie andere claimant-tradities
+(Hariharananda, Nagaraj/Ramaiah, Haidakhan) terecht apart gehouden zonder identiteitsbrug.
+
+Een grote nieuwe primaire bron voor Lahiri Mahasaya (Chatterjee's *Purana Purusha*-familiebiografie)
+kon niet zelf worden geverifieerd — bron ontoegankelijk ("under maintenance"); alle daarop
+gebaseerde externe claims blijven `BRON_GEBLOKKEERD`/`UNVERIFIED`, niet stilzwijgend overgenomen.
+
+**Geen van de drie personen krijgt `PERSON_SWEEP_SATURATED: JA`** — `EXTERNAL_MODEL_DIVERSITY_GATE`
+is voor alle drie `NEE` (de bestaande externe branch is één ChatGPT-sessie, geen aantoonbare
+multi-provider-union) en `RECONCILIATION_GATE` is `PROVISIONEEL` omdat IndiaROOD (de door Mark
+aangekondigde derde, onafhankelijke detector) bij geen van de checkpoints een duurzame freeze had.
+
+**next_allowed_step (bijgewerkt):** STOP, wacht op INDIA-QA. Verplichte lossless IndiaROOD-
+deltareconciliatie zodra beschikbaar. Geen automatische vervolgtaak (interne NKB/Ram Dass/Ramana/
+Ramakrishna-freezes) vanuit hier gestart. Geen cluster/regio (Arunachala-hold van kracht), A/B/C,
+permanente IDs, PDF of route.
+
 ---
 Dit bestand is de kortste actuele bron van waarheid voor deze taak.
