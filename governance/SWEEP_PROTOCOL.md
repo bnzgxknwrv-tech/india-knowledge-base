@@ -350,6 +350,23 @@ Dit voorkomt specifiek de foutklasse waarbij een claim al in de eerste sweep aan
 onjuist is, en zonder deze stap een dubbele sweep (poort R) kan overleven omdat Sweep B toevallig
 niet precies die claim herhaalt.
 
+**G.2 Mythische/ahistorische persoonsclaims (verplicht; FK-013, MARK_DECISION 2026-08-19):**
+bij een figuur zonder onafhankelijk documenteerbare historische biografie — in dit project
+specifiek Mahavatar Babaji — moeten drie assen altijd los worden opgeslagen:
+
+1. `TRADITION_CLAIM_DOCUMENTED`: bevat de aangewezen bron/traditie de claim werkelijk?
+2. `PHYSICAL_SITE_IDENTITY`: bestaat/is de genoemde fysieke plek identificeerbaar?
+3. `HISTORICALLY_VERIFIED_PERSON_PRESENCE`: is de aanwezigheid van de figuur onafhankelijk
+   historisch verifieerbaar?
+
+Voor Babaji is as 3 canoniek `NIET_VASTSTELBAAR`, ook bij een directe lineage- of
+ooggetuigenclaim. Tier A/B/C/D meet alleen claimprovenance binnen de traditie en mag nooit worden
+omgezet in historische waarschijnlijkheid. De aanwezigheid van Lahiri Mahasaya, Yogananda, Sri
+Yukteswar of een andere beter documenteerbare getuige kan apart wel worden geverifieerd.
+Heatmaps mogen traditionele betekenis apart wegen, maar mogen Babaji-claims niet als geverifieerde
+historische aanwezigheid tellen. Claimant-tradities blijven strikt gescheiden. Volledige canon:
+`decisions/BABAJI_MYTHIC_FIGURE_EVIDENCE_RULE_2026-08-19.md`.
+
 ### H. Toegankelijkheid vóór keuzerapport (nieuw, verplicht veld)
 
 Elke kandidaat krijgt, vóór opname in het keuzerapport, een ingevuld veld: "wat kan Mark als

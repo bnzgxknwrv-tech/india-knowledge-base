@@ -75,6 +75,13 @@ PP-only claims (het gros van de 60 externe Lahiri-records) blijven daarom `EXTER
 `BRON_GEBLOKKEERD`, niet stilzwijgend overgenomen. Eén cruciaal, écht bronconflict blootgelegd dat
 hierdoor niet is opgelost: AOAY plaatst de Ranikhet-transfer in 1861, PP in 1868.
 
+**Babaji-epistemische correctie:** Mahavatar Babaji wordt canoniek als mythisch/
+ahistorisch traditiefiguur behandeld. Reconciliatie bevestigt uitsluitend dat een specifieke bron
+of traditie een aanwezigheid claimt; zij kan Babaji's historische bestaan of lichamelijke
+aanwezigheid niet verifiëren. Fysieke site-identiteit, bezoek door volgelingen en claimprovenance
+blijven afzonderlijke verifieerbare velden. Zie
+`decisions/BABAJI_MYTHIC_FIGURE_EVIDENCE_RULE_2026-08-19.md`.
+
 **Babaji-claimanttraditiescheiding correct toegepast:** 21 van de 35 externe Babaji-records vallen
 buiten de AOAY/Yogananda-Lahiri-Sri Yukteswar-lijn (Hariharananda's eigen overlevering, de Zuid-
 Indiase Nagaraj/Ramaiah-Siddha-traditie, en de historische Haidakhan Babaji, 1970-1984). Conform

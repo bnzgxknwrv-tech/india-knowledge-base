@@ -24,6 +24,17 @@ reconciliatie-uitkomst uit de vaste taxonomie van `TASK.md` §5. Directe bronver
 uitgevoerd voor elke external-only claim, elke internal-only claim en elk conflict — de externe
 branch is niet gewijzigd, alleen gelezen.
 
+## Canonieke epistemische regel — geen historische Babaji-verificatie
+
+De onderstaande reconciliatie verifieert **claims en hun provenance**, niet Babaji's historische
+bestaan of lichamelijke aanwezigheid. Labels als `BODILY_FIRSTHAND`, tier A of
+`CLAIM_DOCUMENTED` betekenen alleen dat een bepaalde bron/traditie de ontmoeting als lichamelijk
+rapporteert. Canoniek blijft voor ieder Babaji-record:
+`HISTORICALLY_VERIFIED_BABAJI_PRESENCE: NIET_VASTSTELBAAR`.
+De fysieke site en de aanwezigheid van een beter documenteerbare volgeling/getuige kunnen
+afzonderlijk wel worden geverifieerd. Zie
+`decisions/BABAJI_MYTHIC_FIGURE_EVIDENCE_RULE_2026-08-19.md`.
+
 ## Claimant-tradities in de externe set
 
 De externe freeze dekt vier duidelijk gescheiden tradities. Mijn interne freeze dekte uitsluitend

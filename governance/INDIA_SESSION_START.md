@@ -2,6 +2,24 @@
 
 Snapshot: 2026-08-18 23:59 CEST
 
+## LATEST MARK_DECISION — BABAJI MYTHISCH/AHISTORISCH (2026-08-19)
+
+Canoniek besluit:
+`decisions/BABAJI_MYTHIC_FIGURE_EVIDENCE_RULE_2026-08-19.md`.
+
+Mahavatar Babaji wordt niet behandeld als historisch verifieerbare persoon met objectief bewijsbare
+verblijfplaatsen. Per locatie wordt alleen afzonderlijk vastgesteld: (1) welke traditie/bron de
+claim maakt, (2) of de fysieke site identificeerbaar is en (3) dat Babaji's eigen historische
+aanwezigheid `NIET_VASTSTELBAAR` blijft. A/B/C/D meet uitsluitend claimprovenance, niet
+historische waarschijnlijkheid. De aanwezigheid van beter documenteerbare volgelingen/getuigen kan
+apart wel worden geverifieerd.
+
+Heatmaps mogen traditionele betekenis en Marks persoonlijke pelgrimswaarde wegen, maar Babaji niet
+als geverifieerde historische aanwezigheid tellen. 079 Mahavatar Babaji's Cave blijft
+`A`/`LOCKED_BY_MARK` en hoofdreden van de reis; dat berust op betekenis/toewijding, niet op
+historische bewijsbaarheid. FK-013 + protocolpoort G.2 toegevoegd en bestaande Babaji-output
+gecorrigeerd.
+
 ## LATEST ACTION — CCI_TASK 089 AFGEROND (CCI, 2026-08-19)
 
 Resultaat:
