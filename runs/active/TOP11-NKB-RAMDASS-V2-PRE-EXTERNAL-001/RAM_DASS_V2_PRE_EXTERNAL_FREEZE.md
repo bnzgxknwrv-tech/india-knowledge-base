@@ -100,3 +100,77 @@ IndiaROOD-resultaat geraadpleegd tijdens deze pas.
 
 ---
 Geschreven door: CCI. Checkpoint 2/2 (laatste persoon) van CCI_TASK 089.
+
+## DELTA — CCI_TASK 090 (2026-08-19, bronherstelpas)
+
+Deze paragraaf is een toevoeging bovenop het bovenstaande, niet een overschrijving. Zie
+`runs/active/TOP11-NKB-RAMDASS-CORE-SOURCE-RECOVERY-001/SOURCE_RECOVERY_RESULT.md` voor de volledige
+bronroute-documentatie.
+
+### Titelcorrectie — belangrijkste bevinding van deze pas
+
+"Sacred Wanderer" (genoemd in TASK.md van CCI_TASK 089 als mogelijke kernbron) bleek bij nader
+onderzoek **niet van Ram Dass** te zijn. *The Sacred Wanderer* is een boek van **Ravi Dass**, een
+andere Neem-Karoli-Baba-devotee — een naamsverwisseling. De correcte kernbiografische bron is
+**"Being Ram Dass"** (2021, Sounds True, met Rameshwar Das), zijn postume definitieve memoire. Dit
+corrigeert de aanname in de Eerlijkheidsverklaring en Werkpakket A hierboven zonder die tekst stil
+te overschrijven.
+
+### WERKPAKKET A — herziene corpus-coverage
+
+| bronfamilie | status (090) | toelichting |
+|---|---|---|
+| *Be Here Now* (Ram Dass, 1971) | `FULL` (was `BRON_GEBLOKKEERD`) | Volledige tekst gevonden en gedownload via archive.org/details/be-here-now-pdfdrive — een volledig open "Community Texts"-item, geen login/omzeiling nodig. 17.535 regels platte tekst, corpusbreed doorzocht op India-plaatstermen. |
+| "Being Ram Dass" (2021, Rameshwar Das) — **vervangt de foutieve "Sacred Wanderer"-aanname** | `PARTIAL` | Eén legaal uitgeversfragment (Tricycle) hersteld; volledige tekst niet vrij toegankelijk (recente titel, nog onder copyright). |
+
+### WERKPAKKET B — nieuwe lossless atlasrecords uit *Be Here Now* en "Being Ram Dass"
+
+| # | plaats | staat/district | type | gebeurtenis/periode | PERSONALLY_PRESENT | PHYSICAL_IDENTITY | bron |
+|---|---|---|---|---|---|---|---|
+| 6 | Amarnath Cave | Kashmir | grot/pelgrimsoord | Te paard bezocht tijdens een pre-guru pelgrimstocht met een reisgenoot, vóór de ontmoeting met Neem Karoli Baba | JA | EXACT | *Be Here Now*, regel 770 |
+| 7 | Benares (Varanasi), niet-gespecificeerde locatie | Uttar Pradesh | stad (algemeen) | Bezocht in dezelfde pre-guru reissequentie, vóór doorreis naar Nepal | JA | ALLEEN_PLAATS | *Be Here Now*, regel 770-771 |
+| 8 | Sarnath | Uttar Pradesh (bij Varanasi) | Chinees-boeddhistisch klooster | Verblijf van "een paar weken", vóór de ontmoeting met Neem Karoli Baba | JA | EXACT | *Be Here Now*, regel 988 |
+| 9 | Delhi — Connaught Place, American Express-kantoor, visumkantoor, ongenoemd vegetarisch restaurant, ongenoemd boeddhistisch klooster (één nacht) | Delhi | stad + meerdere sublocaties | 12 uur durende bustocht om zijn visum te regelen, ná de eerste ontmoeting met Maharaj-ji; loopt blootsvoets en zwijgend rond | JA | DEELS (Connaught Place EXACT als buurt; overige sublocaties ALLEEN_PLAATS, geen namen) | *Be Here Now*, regel 967-1001 |
+| 10 | Onbenoemde tempel/veld, "3 mijl" per Land Rover van een beeldhouwersverblijf | Uttarakhand, voetheuvels Himalaya | tempel/veld | Eerste ontmoeting met Neem Karoli Baba, incl. "je-moeder-is-overleden"-episode; zeer waarschijnlijk dezelfde plek als bestaande record 2 (Kainchi Dham), maar bron gebruikt de naam "Kainchi" zelf niet | JA | ALLEEN_PLAATS (geen naamsanker in déze bron; naam wordt wel bevestigd door record 13 hieronder) | *Be Here Now*, regel 1093-1180, 1273 |
+| 11 | Forestry camp (onbenoemd) | Uttarakhand (heuvelgebied) | verblijfplaats | Zie identieke NKB-freeze-record 20 (gedeelde sublocatie) | JA | ALLEEN_PLAATS | *Be Here Now*, regel 1440-1468 |
+| 12 | Onbenoemde "estate" bij een niet-genoemde "town near-by" | Uttarakhand (heuvelgebied) | landgoed/verblijfplaats | Zie identieke NKB-freeze-record 21 (gedeelde sublocatie); ook plaats van de moeder-visioen-episode | JA | ALLEEN_PLAATS | *Be Here Now*, regel 990-1005 |
+| 13 | K.K. (Krishna Kumar) Sah's familiehuis, nabij Nainital | Nainital-district, Uttarakhand | privéwoning | Ram Dass hier ontvangen en gevoed ("double roti") kort na de eerste ontmoeting; K.K. vertaalde het eerste gesprek met Maharaj-ji | JA | DEELS (huis zelf ongenoemd bij naam/adres, "nabij Nainital" wel expliciet) | *Be Here Now*, regel 17000-17022 (50-jarig-jubileum-nawoord, zelfde editie/tekstbestand) |
+| 14 | Kainchi (naamsbevestiging, geen los occurrence-record) | Nainital-district, Uttarakhand | naambevestiging bij bestaande record 2 | Fotobijschrift: "Ram Dass and his teacher Maharaj-ji in Kainchi, India" — bevestigt de naam voor de in record 10 beschreven ontmoetingsscène via een onafhankelijke tweede bron | JA | EXACT (naambevestiging) | "Being Ram Dass" (2021), tricycle.org/article/being-ram-dass-excerpt/ (fotobijschrift) |
+
+### Aanvullende negatieve bevindingen (aanvulling op de bestaande lijst hierboven)
+
+- **Sewalti Hotel**: verblijfplaats tijdens het vijfdaagse seminar met Bhagwan Dass, direct na de
+  Blue-Tibetan-ontmoeting in Kathmandu. Land/plaats niet ondubbelzinnig vastgesteld binnen de
+  brontekst (context suggereert mogelijk nog Nepal) — **niet als India-record opgenomen**, geen gok.
+- **Badrinath**: uitsluitend genoemd als achtergrond over K.K. Sah's vaders politiefunctie (opende/
+  sloot de tempel jaarlijks) — geen Ram-Dass-aanwezigheidsrecord, uitgesloten als context-only.
+- **Dalai Lama-bezoek**: genoemd zonder plaatsnaam — niet geregistreerd, geen Dharamsala-aanname.
+- Zes maanden yoga-/meditatietraining in de "Himalaya foothills" vóór 1968 ("Being Ram Dass",
+  Tricycle-fragment) is inhoudelijk consistent met de reeds bekende sadhana-periode bij record 2
+  (Kainchi Dham) — behandeld als corroboratie van bestaande record 2, niet als nieuw record.
+
+### WERKPAKKET D — herziene saturation-gates
+
+| gate | status (090) | onderbouwing |
+|---|---|---|
+| **CORPUS-COVERAGE-GATE** | **DEELS** (was `NEE`) | *Be Here Now* — Ram Dass' belangrijkste eigen bron — is nu volledig doorzocht. "Being Ram Dass" (2021) is pas gedeeltelijk bereikt (één fragment). |
+| **HOSTGRAPH-GATE** | **DEELS** | K.K. Sah (vertaler/gastheer) toegevoegd aan het netwerk; zie Werkpakket C-aanvulling hieronder. |
+| **DISCOVERY-GATE** | **DEELS** | Volledige corpusdoorzoeking van *Be Here Now* uitgevoerd; "Being Ram Dass" nog niet volledig; maharajji.love nog steeds niet doorzocht. |
+| **RECONCILIATIE-GATE** | **N.V.T. in deze taak** | Geen externe/IndiaROOD-claims geraadpleegd, conform de blindheidsgrens van CCI_TASK 090. |
+
+**`RAM_DASS_V2_PRE_EXTERNAL_SATURATED: NEE`** — ongewijzigd. Onderbouwing: de recordcount groeide
+van 5 naar 13 (plus één naamsbevestiging), maar drie locaties blijven onbenoemd in de brontekst
+(records 10-12) en de tweede kernbiografie ("Being Ram Dass") is nog niet volledig doorzocht. Een
+schijnbare `JA` op basis van een gedeeltelijk gedekt corpus zou de eerlijkheidsnorm van dit project
+tegenspreken.
+
+### WERKPAKKET C — aanvulling host/netwerkgraaf
+
+| persoon | relatie | locatie |
+|---|---|---|
+| K.K. (Krishna Kumar) Sah | vertaler bij eerste ontmoeting, gastheer | nabij Nainital |
+| Bina (K.K.'s zus) | gastvrouw, bereidde maaltijden | K.K.'s familiehuis, nabij Nainital |
+| Bhawani Das Sah (K.K.'s vader) | Circle Inspector of Police, Kumaon-heuveldistrict; contact met Maharaj-ji vóór K.K.'s geboorte | Kumaon-heuvels (Badrinath-toezicht als contextvermelding, geen eigen aanwezigheidsrecord) |
+| Bhagwan Dass (reisgenoot) | introduceerde Ram Dass bij Maharaj-ji | Kathmandu (ontmoeting) → Amarnath/Benares (gedeelde reis) → eerste-ontmoetingsscène |
+
+Checkpoint: Ram-Dass-source-recovery, CCI_TASK 090, checkpoint 2/2.
