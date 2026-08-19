@@ -92,3 +92,26 @@ verwerkt, vier eigen correcties toegepast) maar nog altijd zonder Satyananda-vol
 
 ---
 Geschreven door: CCI, checkpoint 3 (laatste persoon) van CCI_TASK 088.
+
+## DELTA — CCI_TASK 092 (2026-08-19, IndiaROOD-derde-detectorreconciliatie)
+
+Volledige drieweg-reconciliatie tegen de nu duurzame IndiaROOD-freeze (42 records + 14 negatieve
+bevindingen, commit `6f71180`): zie
+`runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/SRI_YUKTESWAR_INDIAROOD_DELTA.md`.
+
+**Belangrijkste uitkomst**: IndiaROOD gebruikt dezelfde Satyananda-directe-discipel-biografie die
+088 als `BRON_GEBLOKKEERD` had; de twee grootste 088-leads die daarop steunden (Bodh Gaya-
+monastieke geloften; Calcutta Medical College) worden nu onafhankelijk door IndiaROOD bevestigd —
+status omhoog van `BRON_GEBLOKKEERD` naar `PLAUSIBLE`. Twee volledig nieuwe claims (het
+maharaja-huis-weigeringsverhaal; de 1930-foto's op het dak van 4 Garpar Road) zijn Tier-1
+woordelijk bevestigd via een rechtstreeks toegankelijke eyewitness-bron (Hare Krishna Ghosh,
+anandaindia.org). De 9-maart-1936-mahasamadhi/10-maart-begrafenis/21-maart-bhandara-datumreeks
+(088's eigen eerdere zelfcorrectie) wordt drievoudig cross-gevalideerd. Negen volledig nieuwe
+Tier-2-locaties toegevoegd (Goswami-huis, Santal-guru, Dabru Ballav, Chandrakanta Shiromani,
+Jeletola/Narendranath Basu, Pranabashram, Tulsi Bose-huis, Ghatal/Khukurdaha,
+Ganga-Sagar-Mela-kamp). Geen conflicten of hallucinaties gevonden.
+
+`RECONCILIATION_GATE`: PROVISIONEEL → JA. `EXTERNAL_MODEL_DIVERSITY_GATE`: NEE → JA.
+`SRI_YUKTESWAR_SATURATED: NEE` blijft de eerlijke uitkomst.
+
+Checkpoint: Sri-Yukteswar-IndiaROOD-delta, CCI_TASK 092, checkpoint 3/3 (laatste persoon).
