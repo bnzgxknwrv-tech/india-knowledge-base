@@ -2,7 +2,7 @@
 
 ```
 task_id: TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
-state: METHOD_V1_SUPERSEDED_BY_V2__PHASE2_SATURATION_PROVISIONEEL__YOGANANDA_V2_FREEZE_KLAAR
+state: BABAJI_LAHIRI_SRIYUKTESWAR_V2_PRE_EXTERNAL_FREEZES_KLAAR__WACHT_OP_INDIA_QA
 method_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/METHOD_V1.md
 method_v2_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/METHOD_V2.md
 task_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/TASK.md
@@ -12,9 +12,52 @@ saturation_result_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/SAT
 phase2_result_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/PHASE2_RESULT.md
 phase2_synthesis_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/PHASE2_SYNTHESIS.md
 yogananda_v2_freeze_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/YOGANANDA_V2_FREEZE.md
-last_updated: 2026-08-16
-last_updated_by: CCI (CCI_TASK 084, METHOD_V2 + Yogananda-freeze)
+babaji_v2_freeze_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/BABAJI_V2_PRE_EXTERNAL_FREEZE.md
+lahiri_mahasaya_v2_freeze_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/LAHIRI_MAHASAYA_V2_PRE_EXTERNAL_FREEZE.md
+sri_yukteswar_v2_freeze_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/SRI_YUKTESWAR_V2_PRE_EXTERNAL_FREEZE.md
+last_updated: 2026-08-19
+last_updated_by: CCI (CCI_TASK 087/087R)
 ```
+
+## Update — CCI_TASK 087/087R afgerond: drie pre-external freezes (CCI, 2026-08-19)
+
+```
+commits: 6b79f1c (Babaji), 642e464 (Lahiri Mahasaya), ea60ba5 (Sri Yukteswar)
+BABAJI_V2_PRE_EXTERNAL_SATURATED: NEE
+LAHIRI_MAHASAYA_V2_PRE_EXTERNAL_SATURATED: NEE
+SRI_YUKTESWAR_V2_PRE_EXTERNAL_SATURATED: NEE
+```
+
+Verse, blinde METHOD_V2 Fase 0-4-sweeps voor de drie kernpersonen van de Kriya-lijn, uitgevoerd
+direct door CCI nadat een eerste poging met drie parallelle subagents faalde op een sessielimiet
+zonder duurzame output (zie git-historie/PR #23 voor de recovery-context, CCI_TASK 087R).
+`PHASE2_RESULT.md` (oude METHOD_V1 ATL-MB/ATL-LM/ATL-SY-lijsten) NIET gebruikt als
+discovery-checklist tijdens de blinde pas; alleen achteraf ter vergelijking geraadpleegd, zoals
+gedocumenteerd in elk freeze-bestand zelf. Geen inzage in de aparte externe blinde
+ChatGPT-parallelsweep (`TOP11-PARALLEL-CHATGPT-SWEEP-001`).
+
+**Babaji**: 14 occurrence-clusters, A/B/C/D-evidentietier toegepast (ahistorisch/legendarisch
+karakter van de figuur zelf). Sterkste vondst: Yogananda's eigen, nooit eerder verteld
+ooggetuigenverslag van een persoonlijke Babaji-ontmoeting op 4 Gurpar Road, Calcutta (hfst. 37) —
+ontbrak in de oude lijst en is het sterkste bewijsstuk voor Babaji's fysieke bestaan in het hele
+corpus.
+
+**Lahiri Mahasaya**: 19 occurrence-clusters, volledige geboorte-tot-dood-biografische lijn (Ghurni
+1828, 1833-vloed, vijf overplaatsingsstandplaatsen, vaste woning Garudeswar Mohulla Benares,
+pensionering 1886, dood 1895). Nieuwe vondst: een materialisatie nabij Gorakhpur die Yogananda's
+vaders eigen bekering verklaart (hfst. 1).
+
+**Sri Yukteswar**: site-niveau sweep (284 occurrences over 32 hoofdstukken, te wijdverspreid voor
+volledige occurrence-normalisatie in de beschikbare tijd — expliciet benoemde beperking). Twee
+kernlocaties stevig bevestigd (Serampore/Rai Ghat Lane als geboorteplaats ÉN hermitage; zelf
+gebouwde Puri-zeehermitage als sterfplaats). Belangrijkste nieuwe vondst: de Kashmir-reis
+(Simla/Srinagar/Shalimar Bagh/Nishat Bagh/Gulmarg, vandaag al voor Yogananda geverifieerd in
+`TOP11-EXTERNAL-AI-BENCHMARK-001/WERKPAKKET_D_DEEPENING_CCI_086.md`) blijkt ook Sri Yukteswars eigen
+reis te zijn geweest — stond nog niet als Sri-Yukteswar-record vast.
+
+Alle drie `NEE` op saturation, met expliciet benoemde hiaten (o.a. niet-AOAY lineage-bronnen
+niet geraadpleegd, Sri Yukteswar geen volledige Fase 4-discovery). `NEE` bewust boven een schijnbare
+`JA`, conform staand projectbeleid.
 
 **blockers**: geen.
 
@@ -60,10 +103,11 @@ Vivekananda + Sri Yukteswar + Lahiri Mahasaya-geboorte + Yogananda-jeugd). Eén 
 Mayavati/KB2-038, Ramanasramam). Geen `MARK_DECISION_CONFLICT`. Volledige synthese:
 `PHASE2_SYNTHESIS.md`.
 
-**next_allowed_step**: STOP hier voor INDIA-QA, conform CCI_TASK 081. Voorstel aan INDIA: eigen
-reconciliatie-/permanente-nummeringstaak voor de drie sterkste nieuwe clusters (Puri, Tamil Nadu,
-West-Bengal-kernregio), plus een gerichte Kumaon-vervolgronde voor de Almora-miss. Geen automatische
-voortzetting zonder INDIA-akkoord. Geen PDF, geen route, geen A/B/C namens Mark.
+**next_allowed_step (bijgewerkt na CCI_TASK 087/087R)**: STOP hier conform CCI_TASK 087R's
+stopvoorwaarde. Blanco externe multi-AI-sweeps voor Babaji/Lahiri Mahasaya/Sri Yukteswar zijn de
+volgende toegestane stap, daarna directe verificatie/reconciliatie — niet automatisch door CCI
+gestart. Geen clustersweep, geen regiosweep (Arunachala-hold blijft van kracht), geen A/B/C, geen
+PDF, geen route. Wacht op INDIA-QA-audit van deze drie freezes.
 
 ---
 Dit bestand is de kortste actuele bron van waarheid voor deze taak.

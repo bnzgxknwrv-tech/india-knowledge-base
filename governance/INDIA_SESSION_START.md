@@ -97,9 +97,19 @@ Bestanden:
 
 `PERSON_SWEEP_SATURATED` mag pas na aantoonbare corpuscoverage, hostgraph, discovery en detectorreconciliatie.
 
-### CCI_TASK 087 / 087R
+### CCI_TASK 087 / 087R — AFGEROND (CCI, 2026-08-19)
 087 = nationale pre-external METHOD_V2 freezes voor Mahavatar Babaji + Lahiri Mahasaya + Sri Yukteswar.
-087R = context-limit recovery; hervat uit duurzame state, geen restart, geen externe contaminatie vóór interne freezes. Op 2026-08-18 23:59 nog geen resultaat zichtbaar; eerst PR #23 opnieuw controleren.
+087R = context-limit recovery; eerste subagent-poging (3 parallelle workers) faalde op sessielimiet
+zonder duurzame output. CCI heeft daarna alle drie freezes direct (niet via subagent) uitgevoerd,
+met tussentijdse checkpoint-commits per persoon: Babaji (`6b79f1c`), Lahiri Mahasaya (`642e464`),
+Sri Yukteswar (`ea60ba5`). Bestanden:
+`runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/BABAJI_V2_PRE_EXTERNAL_FREEZE.md`,
+`.../LAHIRI_MAHASAYA_V2_PRE_EXTERNAL_FREEZE.md`, `.../SRI_YUKTESWAR_V2_PRE_EXTERNAL_FREEZE.md`.
+Alle drie `SATURATED: NEE` met expliciet benoemde hiaten (zie STATUS.md van die taak voor details).
+Geen PHASE2_RESULT.md-checklist gebruikt tijdens de blinde pas; geen inzage in de externe
+ChatGPT-parallelsweep. **NEXT_ACTION 087:** blanco externe multi-AI-sweeps voor deze drie personen,
+daarna directe verificatie/reconciliatie. Geen clustersweep/regiosweep (Arunachala-hold van kracht),
+geen A/B/C, geen PDF, geen route. Wacht op INDIA-QA-audit.
 
 ## EXTERNE PARALLEL CHATGPT-RUN
 Branch: `agent/chatgpt-top11-parallel-sweep`.
