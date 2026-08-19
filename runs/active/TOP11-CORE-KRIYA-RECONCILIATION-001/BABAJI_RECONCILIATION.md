@@ -152,3 +152,26 @@ cluster/regio, A/B/C, permanente ID's, PDF of route.
 
 ---
 Geschreven door: CCI, checkpoint 1 van CCI_TASK 088.
+
+## DELTA — CCI_TASK 092 (2026-08-19, IndiaROOD-derde-detectorreconciliatie)
+
+Volledige drieweg-reconciliatie tegen de nu duurzame IndiaROOD-freeze (50 records, commit
+`f9e7e25`): zie `runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/BABAJI_INDIAROOD_DELTA.md`.
+
+**Belangrijkste uitkomst**: `INDIA_ROOD_PENDING: JA` hierboven is nu opgelost.
+`EXTERNAL_MODEL_DIVERSITY_GATE` gaat van **NEE naar JA** — IndiaROOD is een tweede, aantoonbaar
+onafhankelijke ChatGPT-sessie die een geheel nieuwe claimanttraditie vond (Hansavedas/Tryambaknath)
+die noch CCI, noch de eerste externe sessie had ontdekt. `RECONCILIATION_GATE` gaat van
+**PROVISIONEEL naar JA** voor de drieweg-vergelijking zelf.
+
+Twee bestaande 088-correcties (Dashashwamedh Ghat i.p.v. Ram Gopal's grot; "25 juli 1920" als
+niet-AOAY-eigen datum) zijn onafhankelijk drievoudig cross-gevalideerd doordat IndiaROOD zelf tot
+dezelfde bevindingen kwam. Eén volledig nieuwe traditie (Hansavedas/Tryambaknath, records 29-31)
+is Tier-1 bronmatig bevestigd. IndiaROOD breidt de Haidakhan-tak uit van 3 naar 19 records, maar
+mist de volledige Sri M/Nath-traditie (extern B19-B23) en vijf kleinere Yogananda-lijn-records
+(Barrackpore, Hariharananda-stem-Ranikhet, twee Daya-Mata-visioenen, Satyalok/Shibendu Lahiri).
+
+`BABAJI_SATURATED: NEE` blijft de eerlijke uitkomst — zie de volledige gate-heroverweging in de
+delta-file.
+
+Checkpoint: Babaji-IndiaROOD-delta, CCI_TASK 092, checkpoint 1/3.
