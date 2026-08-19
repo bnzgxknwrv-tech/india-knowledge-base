@@ -119,7 +119,28 @@ CCI's eigen directe bronverificatie evenmin gemist mag worden (Regent Hotel-vond
 architectuur blijft de volledige METHOD_V2-keten: corpus -> CCI/INDIA-pass -> externe union ->
 directe verificatie -> reconciliatie, niet "CCI OF externe AI".
 
+## Update — Werkpakket D verdiepende parallelle verificatie afgerond (CCI, 2026-08-18)
+
+```
+werkpakket_d_bestand: runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/WERKPAKKET_D_DEEPENING_CCI_086.md
+uitgevoerd_via: 6 parallelle subagent-workers, elk een eigen regionale batch of adversarial rol
+```
+
+Op Marks expliciete verzoek is de in CCI_086 nog ontbrekende parallellisatie alsnog uitgevoerd: zes
+onafhankelijke workers hebben vrijwel de volledige 114-record externe atlas rechtstreeks tegen de
+lokale AOAY-brontekst geverifieerd (i.p.v. de eerste pas se 8 steekproefrecords). Resultaat: ~45
+VERIFIED_TRUE, ~10 VERIFIED_FALSE, ~11 PARTIALLY_TRUE, ~9 UNRESOLVED/OUT_OF_SCOPE. Geen nieuwe
+door-alle-vijf-AI's-gemiste locatie zoals het Regent Hotel-precedent; wel diverse materiële
+precisiecorrecties in beide richtingen (o.a. Rai Ghat Lane-adres bevestigd sterker dan het externe
+atlas zelf durfde stellen; Yogoda Math Dakshineswar en de Jagannath-tempel-claim juist te positief
+gelabeld door de externe atlas; oom Sarada-bezoek juist onderschat). Volledige lijst in het
+werkpakket-D-bestand. **Wijzigt de CCI_086-kernconclusie niet** (`EXTERNAL_MULTI_AI_MANDATORY_FOR_
+REMAINING_TOP11: JA` blijft staan), bevestigt wel dat bronverificatie in beide richtingen nodig
+blijft — niet alleen om externe missers te vangen maar ook om externe overconfidence/hallucinaties
+(record #42, Jagannath-tempel) te corrigeren.
+
 ## next_allowed_step
-STOP hier conform CCI_TASK 086 stopvoorwaarde. Wacht op INDIA-QA-audit van dit verdict. Geen nieuwe
-Top-11-persoon starten. **Arunachala-regiosweep-hold blijft van kracht** totdat INDIA deze 086-audit
-heeft afgerond. Geen A/B/C, geen PDF, geen route.
+STOP hier conform CCI_TASK 086 stopvoorwaarde. Wacht op INDIA-QA-audit van dit verdict (nu inclusief
+Werkpakket D). Geen nieuwe Top-11-persoon starten via dit taakspoor — CCI_TASK 087 (Babaji/Lahiri
+Mahasaya/Sri Yukteswar) loopt apart en onveranderd. **Arunachala-regiosweep-hold blijft van kracht**
+totdat INDIA deze 086-audit heeft afgerond. Geen A/B/C, geen PDF, geen route.
