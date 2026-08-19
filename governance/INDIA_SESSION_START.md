@@ -2,7 +2,29 @@
 
 Snapshot: 2026-08-18 23:59 CEST
 
-## LATEST ACTION — CCI_TASK 094 AFGEROND (CCI, 2026-08-19)
+## LATEST ACTION — CCI_TASK 095 AFGEROND (CCI, 2026-08-19)
+
+Resultaat:
+- `runs/active/TOP11-NKB-RAMDASS-INDIAGEEL-MULTIDETECTOR-RECONCILIATION-001/NEEM_KAROLI_BABA_INDIAGEEL_RECONCILIATION.md`
+- `runs/active/TOP11-NKB-RAMDASS-INDIAGEEL-MULTIDETECTOR-RECONCILIATION-001/RAM_DASS_INDIAGEEL_RECONCILIATION.md`
+- `runs/active/TOP11-NKB-RAMDASS-INDIAGEEL-MULTIDETECTOR-RECONCILIATION-001/TRAVEL_READINESS_GATE.md`
+- `runs/active/TOP11-NKB-RAMDASS-INDIAGEEL-MULTIDETECTOR-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl` (44 regels)
+- checkpoint commits: `8cda7cc` (Neem Karoli Baba), `cf3e9da` (Ram Dass)
+
+IndiaGEEL toegevoegd als derde onafhankelijke detector aan de bestaande CCI_TASK 091-reconciliatie
+voor Neem Karoli Baba en Ram Dass. NKB: twee Tier-1-bevestigde, nieuw travel-ready locaties
+(Hanuman Setu/Sankat Mochan-tempel Lucknow, upgrade van `ONZEKER`; Veerapuram/Chennai, volledig
+nieuwe Zuid-India-tak). Ram Dass: drie nieuwe, nog niet Tier-1-bevestigde kandidaatclusters
+(Dharamsala/Dalai-Lama-audiëntie — vult een gat dat de 091-externe-freeze bewust openliet;
+Ganeshpuri/Muktananda-ashram; Anandamayi Ma-ashrams Vrindavan/Kankhal). Extra corroboratie
+gevonden voor het bestaande NKB Mathura-doodsvolgordeconflict, dat open blijft. Nieuw
+`TRAVEL_READINESS_GATE.md`-document onderscheidt expliciet travel-relevante blockers van
+academische restgaten. Beide `EXTERNAL_MODEL_DIVERSITY_GATE: JA`, beide `SATURATED: NEE`.
+
+**NU_DOEN:** CCI stopt na de resultaatenvelop op PR #23 en wacht op INDIA-QA. Geen verdere taak
+voorgequeued.
+
+## PREVIOUS ACTION — CCI_TASK 094 AFGEROND (CCI, 2026-08-19)
 
 Resultaat:
 - `runs/active/TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001/RAMANA_MAHARSHI_MULTIDETECTOR_RECONCILIATION.md`

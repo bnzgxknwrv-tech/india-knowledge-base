@@ -292,9 +292,24 @@ records) nu voor het eerst gedekt. Checkpoint commits: `e089bc0` (Ramana), `0779
 Volledige documenten in
 `runs/active/TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001/`.
 
-**next_allowed_step (actueel):** CCI stopt na resultaatenvelop op PR #23 en wacht op INDIA-QA.
-CCI_TASK 095 (IndiaGEEL toevoegen aan de bestaande NKB/Ram Dass-reconciliatie) staat al
-geprequeued door INDIA8 en is nu ontgrendeld.
+**next_allowed_step (voorheen):** CCI_TASK 095 (IndiaGEEL toevoegen aan de bestaande NKB/Ram
+Dass-reconciliatie) stond geprequeued door INDIA8.
+
+## Update — CCI_TASK 095 afgerond (CCI, 2026-08-19)
+
+IndiaGEEL toegevoegd als derde detector aan de NKB/Ram Dass-reconciliatie uit CCI_TASK 091. NKB:
+twee Tier-1 bevestigde nieuwe travel-ready locaties (Hanuman Setu/Sankat Mochan-tempel Lucknow —
+upgrade van ONZEKER; Veerapuram/Chennai — volledig nieuwe Zuid-India-tak). Ram Dass: drie nieuwe,
+nog niet Tier-1 bevestigde kandidaatclusters (Dharamsala/Dalai Lama-audiëntie — vult een expliciet
+091-gat; Ganeshpuri/Muktananda-ashram; Anandamayi Ma-ashrams Vrindavan/Kankhal). Extra
+(niet-doorslaggevende) corroboratie gevonden voor het NKB Mathura-doodsvolgordeconflict uit
+CCI_TASK 091, dat open blijft. Nieuw `TRAVEL_READINESS_GATE.md` onderscheidt expliciet
+travel-relevante van academische restgaten. Checkpoint commits: `8cda7cc` (NKB), `cf3e9da` (Ram
+Dass). Volledige documenten in
+`runs/active/TOP11-NKB-RAMDASS-INDIAGEEL-MULTIDETECTOR-RECONCILIATION-001/`.
+
+**next_allowed_step (actueel):** CCI stopt na resultaatenvelop op PR #23 en wacht op INDIA-QA. Geen
+verdere taak voorgequeued.
 
 ---
 Dit bestand is de kortste actuele bron van waarheid voor deze taak.
