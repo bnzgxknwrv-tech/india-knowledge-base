@@ -174,3 +174,42 @@ tegenspreken.
 | Bhagwan Dass (reisgenoot) | introduceerde Ram Dass bij Maharaj-ji | Kathmandu (ontmoeting) → Amarnath/Benares (gedeelde reis) → eerste-ontmoetingsscène |
 
 Checkpoint: Ram-Dass-source-recovery, CCI_TASK 090, checkpoint 2/2.
+
+## DELTA — CCI_TASK 091 (2026-08-19, externe reconciliatie)
+
+Volledige reconciliatie tegen de externe `agent/chatgpt-top11-parallel-sweep`-freeze (57 records):
+zie `runs/active/TOP11-NKB-RAMDASS-EXTERNAL-RECONCILIATION-001/RAM_DASS_RECONCILIATION.md` en
+`RECONCILIATION_MATRIX.jsonl`. Deze paragraaf registreert alleen de overgenomen toevoegingen/
+correcties zonder de bovenstaande rows stil te overschrijven.
+
+**Nieuwe sublocaties, Tier-1 bevestigd in de eigen reeds gedownloade *Be Here Now*-tekst**:
+1. **"Health Department"-kantoor, Delhi** — woordelijk teruggevonden op regel 1373 van
+   `be_here_now.txt`. Sublocatie van het bestaande Delhi-record.
+2. **Rivier-badplaats bij Kainchi** — woordelijk teruggevonden op regel 1508: "I would get up
+   early, take my bath in the river or out...". Nieuwe sublocatie bij record 2 (Kainchi Dham).
+3. **Appelboomgaard-tussenstop** — extern splitst dit terecht als apart record vóór het Forestry
+   camp (record 11/090); toegevoegd als sub-stap in dezelfde route.
+
+**Overgenomen, niet volledig geverifieerd**:
+4. **Kausani/Anasakti Ashram**: extern koppelt het gehuurde huis inferentieel aan Anasakti Ashram
+   (Gandhi-verbonden) — overgenomen als aanvullende, niet volledig bewezen naamskoppeling naast het
+   bestaande "gehuurd huis"-record.
+
+**Expliciet NIET overgenomen (fout gevonden)**:
+5. **Jagannath Puri-strandwandeling**: de externe freeze citeert Sara Davidson met de quote
+   "walking on the beach in Jaganath Puri", maar deze quote staat **niet** in de twee door de
+   externe freeze zelf aangehaalde SD-bronnen (saradavidson.com/ram-dass-does-a-saint-get-angry/
+   en beezone.com/ramdass/ram_dass_history.html) — beide volledig gedownload en doorzocht op
+   "Puri" en "beach", nul treffers. Geregistreerd als `FALSE_OR_UNSUPPORTED_EXTERNAL_CLAIM`,
+   conform het Yogananda-precedent. Niet als locatie toegevoegd.
+
+**Cross-persoon bevestigd**: Auroville-bezoek (december 1992) rechtstreeks bevestigd via de
+officiële Auroville-pagina — dit is een geheel nieuwe, extern-only locatie voor Ram Dass buiten de
+Kainchi/NKB-lijn, niet toegevoegd als los record binnen deze taak (behoort tot een bredere
+levensfase-inventarisatie) maar wel als geverifieerd feit vastgelegd in de reconciliatiedoc.
+
+**Herziene gates**: CORPUS-COVERAGE-GATE blijft **DEELS** (ongewijzigd t.o.v. 090). HOSTGRAPH-GATE
+**DEELS** (Mr. Soni, Sathya Sai Baba-kring, Sri Aurobindo Ashram-gemeenschap als nieuwe leads).
+`RAM_DASS_SATURATED: NEE` blijft de eerlijke uitkomst.
+
+Checkpoint: Ram-Dass-externe-reconciliatie, CCI_TASK 091, checkpoint 2/2.
