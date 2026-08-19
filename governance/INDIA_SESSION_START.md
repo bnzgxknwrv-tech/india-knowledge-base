@@ -2,6 +2,24 @@
 
 Snapshot: 2026-08-18 23:59 CEST
 
+## LATEST ACTION — CCI_TASK 088 UITGEGEVEN (INDIA7, 2026-08-19)
+
+Nieuwe duurzame taak:
+- `runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/TASK.md`
+- `runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/STATUS.md`
+
+Doel: bidirectionele METHOD_V2-reconciliatie van interne 087/087R-freezes versus de bevroren
+externe ChatGPT-freezes voor Mahavatar Babaji, Lahiri Mahasaya en Sri Yukteswar. Directe
+bronverificatie van internal-only, external-only en conflictclaims is verplicht. De externe branch
+blijft frozen en wordt niet gewijzigd of gemerged.
+
+De reconciliatie start nu, maar finale saturation mag niet worden geclaimd zolang de verplichte
+`EXTERNAL_MODEL_DIVERSITY_GATE` of een andere METHOD_V2-gate NEE/ONBEPAALD is. Geen cluster/regio,
+A/B/C, permanente IDs, PDF of route.
+
+**NEXT_ACTION:** CCI voert CCI_TASK 088 uit met checkpointcommit per persoon en stopt na de finale
+reconciliatiesynthese.
+
 ## LATEST HANDOFF — INDIA7
 Lees na de volledige repo-boot expliciet:
 - `governance/INDIA7_BOOTSTRAP_DELTA_2026-08-18.md`

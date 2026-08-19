@@ -2,7 +2,7 @@
 
 ```
 task_id: TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
-state: BABAJI_LAHIRI_SRIYUKTESWAR_V2_PRE_EXTERNAL_FREEZES_KLAAR__WACHT_OP_INDIA_QA
+state: CCI_TASK_088_CORE_KRIYA_RECONCILIATION_ISSUED__WACHT_OP_CCI_RESULT
 method_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/METHOD_V1.md
 method_v2_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/METHOD_V2.md
 task_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/TASK.md
@@ -16,7 +16,7 @@ babaji_v2_freeze_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/BABA
 lahiri_mahasaya_v2_freeze_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/LAHIRI_MAHASAYA_V2_PRE_EXTERNAL_FREEZE.md
 sri_yukteswar_v2_freeze_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/SRI_YUKTESWAR_V2_PRE_EXTERNAL_FREEZE.md
 last_updated: 2026-08-19
-last_updated_by: CCI (CCI_TASK 087/087R)
+last_updated_by: INDIA7 (CCI_TASK 088 issued)
 ```
 
 ## Update — CCI_TASK 087/087R afgerond: drie pre-external freezes (CCI, 2026-08-19)
@@ -103,11 +103,16 @@ Vivekananda + Sri Yukteswar + Lahiri Mahasaya-geboorte + Yogananda-jeugd). Eén 
 Mayavati/KB2-038, Ramanasramam). Geen `MARK_DECISION_CONFLICT`. Volledige synthese:
 `PHASE2_SYNTHESIS.md`.
 
-**next_allowed_step (bijgewerkt na CCI_TASK 087/087R)**: STOP hier conform CCI_TASK 087R's
-stopvoorwaarde. Blanco externe multi-AI-sweeps voor Babaji/Lahiri Mahasaya/Sri Yukteswar zijn de
-volgende toegestane stap, daarna directe verificatie/reconciliatie — niet automatisch door CCI
-gestart. Geen clustersweep, geen regiosweep (Arunachala-hold blijft van kracht), geen A/B/C, geen
-PDF, geen route. Wacht op INDIA-QA-audit van deze drie freezes.
+## Update — CCI_TASK 088 uitgegeven (INDIA7, 2026-08-19)
+
+De onafhankelijke externe ChatGPT-run heeft inmiddels alle acht PRE-COMPARE freezes afgerond.
+Voor Babaji, Lahiri Mahasaya en Sri Yukteswar zijn dus zowel interne als externe freezes beschikbaar.
+Nieuwe taak: `runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/TASK.md`.
+
+**next_allowed_step:** CCI voert CCI_TASK 088 uit: volledige bidirectionele reconciliatie, directe
+bronverificatie en checkpointcommit per persoon. Geen nieuwe blanco ChatGPT-discovery voor deze
+drie, geen cluster/regio, A/B/C, permanente IDs, PDF of route. Finale saturation alleen wanneer
+alle METHOD_V2-gates inclusief detector-/modeldiversiteit aantoonbaar zijn voldaan.
 
 ---
 Dit bestand is de kortste actuele bron van waarheid voor deze taak.
