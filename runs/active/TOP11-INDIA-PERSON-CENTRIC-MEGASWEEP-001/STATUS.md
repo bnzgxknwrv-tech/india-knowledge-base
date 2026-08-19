@@ -225,5 +225,23 @@ blijven ongewijzigd. Checkpoint commits: `76020b9` (NKB), `0f7a099` (Ram Dass). 
 beslist tussen nog één gerichte corpuspass ("Being Ram Dass" volledig, maharajji.love) of externe
 lossless reconciliatie starten. Ramana Maharshi/Ramakrishna blijven niet gestart.
 
+## Update — CCI_TASK 091 afgerond (CCI, 2026-08-19)
+
+Volledige bidirectionele externe reconciliatie tegen `agent/chatgpt-top11-parallel-sweep`. NKB:
+21 intern vs. 113 extern; 3 correcties overgenomen (Akbarpur-district, sterfteziekenhuis =
+Ramakrishna Mission Hospital Vrindavan, Delhi-Ashram/Hanumangarhi-zekerheid); 1 nieuw conflict
+(doodsvolgorde, onopgelost). Ram Dass: 13+1 intern vs. 57 extern; 2 nieuwe Tier-1-sublocaties
+("Health Department"-kantoor, rivier-badplaats Kainchi, beide woordelijk teruggevonden in eigen
+*Be Here Now*-tekst); 1 externe claim afgewezen (Puri-strandwandeling — geciteerde Sara-Davidson-
+quote niet in de aangehaalde bronnen aangetroffen, `FALSE_OR_UNSUPPORTED_EXTERNAL_CLAIM`). Nieuwe
+volledig toegankelijke primaire bron ontdekt: *The Near and the Dear* (dokumen.pub, i.t.t. het nog
+steeds geblokkeerde *By His Grace*). Checkpoint commits: `54d0b51` (NKB), `20c281c` (Ram Dass).
+Resultaat: `runs/active/TOP11-NKB-RAMDASS-EXTERNAL-RECONCILIATION-001/RECONCILIATION_RESULT.md`.
+
+**next_allowed_step (actueel):** CCI stopt na resultaatenvelop op PR #23 en wacht op INDIA-QA. INDIA
+beslist over: (a) de inmiddels lossless IndiaROOD Core-Kriya-freezes alsnog aan CCI_TASK 088
+toevoegen; (b) het NKB-doodsvolgordeconflict gericht laten uitzoeken; (c) Ramana Maharshi/
+Ramakrishna blijven niet gestart zonder nieuwe opdracht.
+
 ---
 Dit bestand is de kortste actuele bron van waarheid voor deze taak.

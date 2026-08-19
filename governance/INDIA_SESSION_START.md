@@ -2,28 +2,35 @@
 
 Snapshot: 2026-08-18 23:59 CEST
 
-## LATEST ACTION — CCI_TASK 090 AFGEROND (CCI, 2026-08-19)
+## LATEST ACTION — CCI_TASK 091 AFGEROND (CCI, 2026-08-19)
 
 Resultaat:
-- `runs/active/TOP11-NKB-RAMDASS-CORE-SOURCE-RECOVERY-001/SOURCE_RECOVERY_RESULT.md`
-- DELTA-paragrafen toegevoegd aan `NEEM_KAROLI_BABA_V2_PRE_EXTERNAL_FREEZE.md` (19→21 records) en
-  `RAM_DASS_V2_PRE_EXTERNAL_FREEZE.md` (5→13 records + 1 naamsbevestiging)
-- checkpoint commits: `76020b9` (Neem Karoli Baba), `0f7a099` (Ram Dass)
+- `runs/active/TOP11-NKB-RAMDASS-EXTERNAL-RECONCILIATION-001/RECONCILIATION_RESULT.md`
+- `NEEM_KAROLI_BABA_RECONCILIATION.md`, `RAM_DASS_RECONCILIATION.md`, `RECONCILIATION_MATRIX.jsonl`
+  (141 regels)
+- DELTA-paragrafen toegevoegd aan beide V2-pre-external-freezes
+- checkpoint commits: `54d0b51` (Neem Karoli Baba), `20c281c` (Ram Dass)
 
-*Be Here Now* volledig hersteld via een open archive.org-item ("Community Texts", geen login) en
-corpusbreed doorzocht. *Miracle of Love* en *By His Grace* blijven `BRON_GEBLOKKEERD` (access-
-restricted Archive-items + geblokkeerde search-inside-API, bewust niet omzeild; dokumen.pub nog
-steeds "under maintenance"). Belangrijkste correctie: "Sacred Wanderer" (CCI_TASK 089) bleek een
-titelverwarring met een boek van Ravi Dass — de juiste kernbron is "Being Ram Dass" (2021), waarvan
-één legaal fragment (Tricycle) is hersteld (`PARTIAL`). Ram Dass' CORPUS-COVERAGE-GATE verbetert van
-`NEE` naar `DEELS`. Beide `SATURATED`-vlaggen blijven `NEE` — eerlijk, niet verzwegen. Externe
-freezes en IndiaROOD zijn NIET geopend tijdens deze taak.
+Volledige bidirectionele reconciliatie tegen `agent/chatgpt-top11-parallel-sweep` (NKB 113, Ram
+Dass 57 externe records), beide bronbestanden vooraf blob-SHA-geverifieerd. Belangrijkste
+bevindingen: NKB-sterfteziekenhuis rechtstreeks bevestigd als Ramakrishna Mission Hospital,
+Vrindavan (lost oud naamconflict op, maar opent een nieuw onopgelost conflict over de exacte
+reisvolgorde/Mathura-tussenstop); Delhi-Ashram/Hanumangarhi-onzekerheid opgeheven naar extern
+JA/EXACT. Voor Ram Dass: twee nieuwe sublocaties woordelijk bevestigd in de eigen *Be Here Now*-
+tekst ("Health Department"-kantoor, rivier-badplaats Kainchi); één externe claim (Jagannath-Puri-
+strandwandeling) expliciet afgewezen omdat de geciteerde Sara-Davidson-quote niet in de aangehaalde
+bronnen staat — `FALSE_OR_UNSUPPORTED_EXTERNAL_CLAIM`, Yogananda-precedent toegepast. Een nieuwe,
+volledig toegankelijke NKB-primaire bron ontdekt (*The Near and the Dear*, dokumen.pub — in
+tegenstelling tot het nog steeds geblokkeerde *By His Grace*). Meerdere cross-persoon-bevestigingen
+tussen de NKB- en Ram-Dass-externe freezes (4 Church Lane, Allahabad-station, Vrindavan-ashram,
+Hanuman Garh-tempel) versterken het vertrouwen in beide externe bronnen. Beide `SATURATED: NEE`
+blijven eerlijk ongewijzigd. IndiaROOD en Core-Kriya zijn NIET geopend, conform TASK.md §8.
 
 **NU_DOEN:** CCI stopt na de resultaatenvelop op PR #23 en wacht op INDIA-QA. INDIA beslist tussen
-(a) nog één gerichte corpuspass ("Being Ram Dass" volledig proberen te bereiken, maharajji.love
-doorzoeken) of (b) externe lossless reconciliatie starten met de bestaande
-`agent/chatgpt-top11-parallel-sweep`-freezes, analoog aan CCI_TASK 088. Mark laat parallel IndiaROOD
-verder werken; de eerder gemelde Babaji-freeze-content is nog niet als repo-bestand ontvangen.
+(a) de inmiddels lossless IndiaROOD Core-Kriya-freezes (Babaji, Lahiri Mahasaya, Sri Yukteswar —
+nu duurzaam gecommit op `agent/indiarood-core-kriya-sweep`) alsnog aan CCI_TASK 088 toevoegen;
+(b) het NKB-doodsvolgordeconflict (Mathura-tussenstop, zie CCI_TASK 091) gericht laten uitzoeken;
+of (c) Ramana Maharshi/Ramakrishna starten. Geen van deze is automatisch gestart.
 
 ## LATEST MARK_DECISION — BABAJI MYTHISCH/AHISTORISCH (2026-08-19)
 
