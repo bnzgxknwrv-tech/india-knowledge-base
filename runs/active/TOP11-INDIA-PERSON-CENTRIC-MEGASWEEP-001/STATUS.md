@@ -280,5 +280,21 @@ Aparte multi-detector-reconciliatietaak (extern ChatGPT + IndiaGEEL) volgt pas n
 INDIA-opdracht. Overige openstaande opties (Lahiri-Mahasaya-conflicten, NKB-doodsvolgordeconflict,
 Satyananda-volledige-tekst) blijven ongewijzigd staan.
 
+## Update — CCI_TASK 094 afgerond (CCI, 2026-08-19)
+
+Volledige drieweg-multidetectorreconciliatie (intern 093 / extern ChatGPT / IndiaGEEL) uitgevoerd
+voor zowel Ramana Maharshi als Ramakrishna. Beide `EXTERNAL_MODEL_DIVERSITY_GATE: JA`. Ramana: twee
+Tier-1-bevestigde IndiaGEEL-only locaties (Azhagar Koil; banyanboom/horzelsteek-route), één
+onopgelost drievoudig erkend conflict (Gurumurtam-jaar 1897/1898). Ramakrishna: één Tier-1-bevestigde
+IndiaGEEL-only naamgranulariteit (Fouzdar Kunj), één IndiaGEEL-datumfout Tier-1 gecorrigeerd (Mati
+Seal-reservoir: 1883, niet 1885), en het volledige Kolkata-devoteehuizennetwerk (~80 externe
+records) nu voor het eerst gedekt. Checkpoint commits: `e089bc0` (Ramana), `0779bf2` (Ramakrishna).
+Volledige documenten in
+`runs/active/TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001/`.
+
+**next_allowed_step (actueel):** CCI stopt na resultaatenvelop op PR #23 en wacht op INDIA-QA.
+CCI_TASK 095 (IndiaGEEL toevoegen aan de bestaande NKB/Ram Dass-reconciliatie) staat al
+geprequeued door INDIA8 en is nu ontgrendeld.
+
 ---
 Dit bestand is de kortste actuele bron van waarheid voor deze taak.

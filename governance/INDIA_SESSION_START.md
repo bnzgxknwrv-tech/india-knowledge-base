@@ -2,7 +2,33 @@
 
 Snapshot: 2026-08-18 23:59 CEST
 
-## LATEST ACTION — CCI_TASK 093 AFGEROND (CCI, 2026-08-19)
+## LATEST ACTION — CCI_TASK 094 AFGEROND (CCI, 2026-08-19)
+
+Resultaat:
+- `runs/active/TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001/RAMANA_MAHARSHI_MULTIDETECTOR_RECONCILIATION.md`
+- `runs/active/TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001/RAMAKRISHNA_MULTIDETECTOR_RECONCILIATION.md`
+- `runs/active/TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl` (80 regels)
+- DELTA-secties (append-only) toegevoegd aan beide 093-freezes
+- checkpoint commits: `e089bc0` (Ramana Maharshi), `0779bf2` (Ramakrishna)
+
+Volledige drieweg-reconciliatie (intern 093-freeze / externe ChatGPT-sweep / IndiaGEEL, de vierde
+onafhankelijke detector) uitgevoerd voor Ramana Maharshi (103 externe + 51 IndiaGEEL-records) en
+Ramakrishna (175 externe + 55 IndiaGEEL-records). Alle vier bronbestanden vóór opening
+blob-SHA-geverifieerd. Ramana: twee Tier-1-bevestigde IndiaGEEL-only locaties (Azhagar Koil;
+banyanboom/horzelsteek-route naar Seven Springs), één onopgelost drievoudig erkend conflict
+(Gurumurtam-jaar 1897/1898). Ramakrishna: één Tier-1-bevestigde IndiaGEEL-only naamgranulariteit
+(Fouzdar Kunj, Vrindavan-verblijf) én één eigen IndiaGEEL-datumfout Tier-1 gecorrigeerd (Mati
+Seal-tuinreservoir-episode: 18 juni 1883, niet 1885 zoals IndiaGEEL zelf had) — plus het volledige
+Kolkata-devoteehuizennetwerk (~80 externe records, via *The Gospel of Sri Ramakrishna*) nu voor het
+eerst gedekt, een 093-eigen open lead die hiermee grotendeels is gedicht. Geen hallucinaties
+gevonden. Beide `EXTERNAL_MODEL_DIVERSITY_GATE: JA`, beide `SATURATED: NEE`.
+
+**NU_DOEN:** CCI stopt na de resultaatenvelop op PR #23 en wacht op INDIA-QA. CCI_TASK 095
+(IndiaGEEL toevoegen aan de bestaande NKB/Ram Dass-reconciliatie uit CCI_TASK 091) staat al
+geprequeued door INDIA8 (`runs/active/TOP11-NKB-RAMDASS-MULTIDETECTOR-RECONCILIATION-001/`, state
+`QUEUED_AFTER_094`) en is met deze resultaatenvelop ontgrendeld.
+
+## PREVIOUS ACTION — CCI_TASK 093 AFGEROND (CCI, 2026-08-19)
 
 Resultaat:
 - `runs/active/TOP11-RAMANA-RAMAKRISHNA-V2-PRE-EXTERNAL-001/RAMANA_MAHARSHI_V2_PRE_EXTERNAL_FREEZE.md`
@@ -20,10 +46,6 @@ Opmerkelijke bevinding: Ramana Maharshi verliet Tiruvannamalai, voor zover in de
 na zijn aankomst op 1 september 1896 nooit meer. Ramakrishna's freeze bevat de volledige grote
 pelgrimsreis plus een expliciete negatieve controle (Baranagar-klooster, postuum gesticht). Beide
 `SATURATED: NEE`.
-
-**NU_DOEN:** CCI stopt na de resultaatenvelop op PR #23 en wacht op INDIA-QA. Een aparte
-multi-detector-reconciliatietaak (extern ChatGPT + IndiaGEEL) voor deze twee personen volgt pas na
-een nieuwe INDIA-opdracht — niet automatisch gestart.
 
 ## PREVIOUS ACTION — CCI_TASK 092 AFGEROND (CCI, 2026-08-19)
 

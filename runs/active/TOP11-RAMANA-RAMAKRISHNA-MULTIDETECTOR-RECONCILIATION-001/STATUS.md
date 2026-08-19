@@ -14,6 +14,6 @@ OUTPUTS:
   - RAMAKRISHNA_MULTIDETECTOR_RECONCILIATION.md
   - RECONCILIATION_MATRIX.jsonl (34 Ramana-rijen + 46 Ramakrishna-rijen = 80 rijen)
   - DELTA-secties toegevoegd aan beide 093-freezes (append-only)
-NEXT_ALLOWED_STEP: CCI post CCI_RESULT 094 op PR #23 en stopt voor INDIA-QA. INDIA8 beslist daarna
-  tussen (a) voorlopige landelijke clusterheatmap, indien de deep-person-laag voldoende afgerond
-  wordt geacht, of (b) eerst de nu beschikbare IndiaGEEL NKB/Ram-Dass-delta reconciliëren.
+NEXT_ALLOWED_STEP: CCI post CCI_RESULT 094 op PR #23 en stopt voor INDIA-QA. CCI_TASK 095
+  (NKB+Ram Dass IndiaGEEL-reconciliatie) staat al geprequeued (state QUEUED_AFTER_094) en is nu
+  ontgrendeld. Landelijke clusterheatmap blijft een niet-voorgequeued optie voor INDIA.
