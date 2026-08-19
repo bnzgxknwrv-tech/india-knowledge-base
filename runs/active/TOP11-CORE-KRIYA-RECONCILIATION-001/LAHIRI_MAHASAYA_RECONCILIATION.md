@@ -132,3 +132,26 @@ zelf onjuist gebleken bij directe AOAY-herlezing.
 
 ---
 Geschreven door: CCI, checkpoint 2 van CCI_TASK 088.
+
+## DELTA — CCI_TASK 092 (2026-08-19, IndiaROOD-derde-detectorreconciliatie)
+
+Volledige drieweg-reconciliatie tegen de nu duurzame IndiaROOD-freeze (40 records + 6 negatieve
+associaties, commit `fc8418b`): zie
+`runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/LAHIRI_MAHASAYA_INDIAROOD_DELTA.md`.
+
+**Belangrijkste uitkomst**: IndiaROOD gebruikt een ANDERE, eveneens nieuwe secundaire bron (Swami
+Bidyananda Giri's familiebiografie) dan de nog steeds geblokkeerde PP (*Purana Purusha*) — twee
+onafhankelijke familiebiografie-lijnen die elkaar grotendeels bevestigen. Vier volledig nieuwe
+locaties/gebeurtenissen zijn Tier-1 bronmatig bevestigd, waaronder drie die een echte lossless-gap
+in mijn eigen oorspronkelijke interne freeze dichten (de postmortale Keshabananda/Panchanon/
+Pranabananda-verschijningen uit AOAY hfst. 36 zelf, woordelijk teruggevonden). Het 1861-vs-1868-
+Ranikhet-dateringsconflict is nu getrianguleerd via een derde, wél toegankelijke bron
+(rykym.org) maar blijft onopgelost. Eén nieuw sub-conflict: welk familielid trouwde bij de
+Bishnupur-reis van 1886 (PP: dochter Harimohini; IndiaROOD: zoon Dukari) — niet gekozen, expliciet
+open gelaten. De Ramnagar-paleis/Kashi-Naresh-tutorschapclaim (voorheen `BRON_GEBLOKKEERD` in 088)
+krijgt nu `PLAUSIBLE`-status door tweevoudige onafhankelijke secundaire convergentie.
+
+`RECONCILIATION_GATE`: PROVISIONEEL → JA. `EXTERNAL_MODEL_DIVERSITY_GATE`: NEE → JA.
+`LAHIRI_MAHASAYA_SATURATED: NEE` blijft de eerlijke uitkomst.
+
+Checkpoint: Lahiri-Mahasaya-IndiaROOD-delta, CCI_TASK 092, checkpoint 2/3.
