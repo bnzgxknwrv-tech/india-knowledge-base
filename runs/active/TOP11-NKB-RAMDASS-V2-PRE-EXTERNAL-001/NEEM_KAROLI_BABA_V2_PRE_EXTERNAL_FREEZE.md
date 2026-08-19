@@ -153,3 +153,35 @@ traceerbaarheid.
 over Neem Karoli Baba zelf zijn nog steeds niet doorzoekbaar. `NEEM_KAROLI_BABA_V2_PRE_EXTERNAL_SATURATED: NEE` blijft ongewijzigd de eerlijke uitkomst.
 
 Checkpoint: NKB-source-recovery, CCI_TASK 090, checkpoint 1/2.
+
+## DELTA — CCI_TASK 091 (2026-08-19, externe reconciliatie)
+
+Volledige reconciliatie tegen de externe `agent/chatgpt-top11-parallel-sweep`-freeze (113 records):
+zie `runs/active/TOP11-NKB-RAMDASS-EXTERNAL-RECONCILIATION-001/NEEM_KAROLI_BABA_RECONCILIATION.md`
+en `RECONCILIATION_MATRIX.jsonl`. Deze paragraaf registreert alleen de drie overgenomen correcties
+zonder de bovenstaande rows stil te overschrijven.
+
+**Correcties**:
+1. **Record 1 (Akbarpur)**: district gecorrigeerd naar **Firozabad** (extern P1-lineagebron,
+   consistent met de eigen interne voetnoot dat Ambedkar Nagar waarschijnlijk fout was).
+2. **Record 13 (sterfteziekenhuis)**: het onopgelost naamconflict is opgelost — **Ramakrishna
+   Mission Hospital, Vrindavan**, rechtstreeks bronmatig bevestigd via S15
+   (maharajji.love/heaven-at-shri-vrindavandham/, direct gefetcht 2026-08-19). Let op: een
+   **nieuw, apart conflict** is hierbij ontstaan over de exacte reisvolgorde (met of zonder
+   Mathura-tussenstop) — zie de reconciliatiedoc §2.1, niet opgelost.
+3. **Records 18 en 19 (Delhi Ashram, Hanuman Garhi)**: interne `ONZEKER`-status opgeheven naar de
+   externe `JA`/`EXACT`-bevindingen (Jonapur-ashram, zomer 1973 ingewijd; Hanumangarhi bij
+   Nainital) — de onderliggende externe bronnen S9/S5 zijn niet apart binnen dit taakbudget
+   rechtstreeks nagelopen, dus deze correctie is `PLAUSIBLE`, niet `CONFIRMED`.
+
+**Bevestigd via directe bronverificatie (Tier 1)**: de Panki-bilocatie-episode (record 9/10) is
+woordelijk teruggevonden in P1 en bevestigt zowel het interne als externe verslag exact.
+
+**Nieuwe sublocaties**: circa 90 externe-only records toegevoegd als corpusbrede aanvulling (zie
+matrix), grotendeels Tier-2 (corpusaanwezigheid in P1 bevestigd, niet woordelijk herverifieerd).
+
+**Herziene gates**: CORPUS-COVERAGE-GATE **NEE → DEELS** (P1 nu volledig doorzocht; MOL/By His
+Grace blijven dicht). HOSTGRAPH-GATE **DEELS** (sterk uitgebreid). `NEEM_KAROLI_BABA_SATURATED:
+NEE` blijft de eerlijke uitkomst.
+
+Checkpoint: NKB-externe-reconciliatie, CCI_TASK 091, checkpoint 1/2.
