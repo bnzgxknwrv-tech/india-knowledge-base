@@ -2,7 +2,30 @@
 
 Snapshot: 2026-08-18 23:59 CEST
 
-## LATEST ACTION — CCI_TASK 092 AFGEROND (CCI, 2026-08-19)
+## LATEST ACTION — CCI_TASK 093 AFGEROND (CCI, 2026-08-19)
+
+Resultaat:
+- `runs/active/TOP11-RAMANA-RAMAKRISHNA-V2-PRE-EXTERNAL-001/RAMANA_MAHARSHI_V2_PRE_EXTERNAL_FREEZE.md`
+  (23 records)
+- `runs/active/TOP11-RAMANA-RAMAKRISHNA-V2-PRE-EXTERNAL-001/RAMAKRISHNA_V2_PRE_EXTERNAL_FREEZE.md`
+  (19 records)
+- checkpoint commits: `6e3f939` (Ramana Maharshi), `12e99c1` (Ramakrishna)
+
+Verse blinde METHOD_V2 pre-external freezes vanaf nul, blind voor `agent/chatgpt-top11-parallel-
+sweep` én het nieuw ontdekte `agent/indiageel-ramana-ramakrishna-sweep` (IndiaGEEL — een vierde
+parallelle detector, kennelijk door Mark opgestart). Primaire bronnen: B.V. Narasimha Swami's
+*Self-Realisation* (Ramana Maharshi) en Swami Saradananda's *Sri Ramakrishna, the Great Master*
+(Ramakrishna) — beide volledig gedownload van archive.org en gericht op plaatsnamen doorzocht.
+Opmerkelijke bevinding: Ramana Maharshi verliet Tiruvannamalai, voor zover in deze pas gevonden,
+na zijn aankomst op 1 september 1896 nooit meer. Ramakrishna's freeze bevat de volledige grote
+pelgrimsreis plus een expliciete negatieve controle (Baranagar-klooster, postuum gesticht). Beide
+`SATURATED: NEE`.
+
+**NU_DOEN:** CCI stopt na de resultaatenvelop op PR #23 en wacht op INDIA-QA. Een aparte
+multi-detector-reconciliatietaak (extern ChatGPT + IndiaGEEL) voor deze twee personen volgt pas na
+een nieuwe INDIA-opdracht — niet automatisch gestart.
+
+## PREVIOUS ACTION — CCI_TASK 092 AFGEROND (CCI, 2026-08-19)
 
 Resultaat:
 - `runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/RECONCILIATION_RESULT.md`

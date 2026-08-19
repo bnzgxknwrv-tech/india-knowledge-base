@@ -263,5 +263,22 @@ beslist over: (a) Ramana Maharshi/Ramakrishna starten (externe freezes bestaan a
 (c) NKB-doodsvolgordeconflict (CCI_TASK 091) gericht uitzoeken; (d) een andere route naar
 Satyananda's volledige Sri-Yukteswar-biografie proberen.
 
+## Update — CCI_TASK 093 afgerond (CCI, 2026-08-19)
+
+Optie (a) hierboven is uitgevoerd: verse blinde METHOD_V2 pre-external freezes voor Ramana Maharshi
+(23 records) en Ramakrishna (19 records), beide vanaf nul, blind voor `agent/chatgpt-top11-parallel-
+sweep` én het nieuwe `agent/indiageel-ramana-ramakrishna-sweep`. Ramana Maharshi bleek na zijn
+aankomst in Tiruvannamalai (1 sept. 1896) in deze pas nooit meer de regio te hebben verlaten — alle
+17 latere records liggen rond Arunachala. Ramakrishna's freeze bevat de volledige grote pelgrimsreis
+(Vaidyanath/Deoghar → Kasi/Kedarghat → Prayag → Vrindavan/Nidhuvan → terug naar Kasi) plus een
+expliciete negatieve controle (Baranagar-klooster, pas na zijn dood gesticht, terecht niet
+meegeteld als eigen locatie). Beide `SATURATED: NEE`. Checkpoint commits: `6e3f939` (Ramana
+Maharshi), `12e99c1` (Ramakrishna).
+
+**next_allowed_step (actueel):** CCI stopt na resultaatenvelop op PR #23 en wacht op INDIA-QA.
+Aparte multi-detector-reconciliatietaak (extern ChatGPT + IndiaGEEL) volgt pas na een nieuwe
+INDIA-opdracht. Overige openstaande opties (Lahiri-Mahasaya-conflicten, NKB-doodsvolgordeconflict,
+Satyananda-volledige-tekst) blijven ongewijzigd staan.
+
 ---
 Dit bestand is de kortste actuele bron van waarheid voor deze taak.
