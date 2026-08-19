@@ -13,12 +13,18 @@ externe ChatGPT-freezes voor Mahavatar Babaji, Lahiri Mahasaya en Sri Yukteswar.
 bronverificatie van internal-only, external-only en conflictclaims is verplicht. De externe branch
 blijft frozen en wordt niet gewijzigd of gemerged.
 
-De reconciliatie start nu, maar finale saturation mag niet worden geclaimd zolang de verplichte
-`EXTERNAL_MODEL_DIVERSITY_GATE` of een andere METHOD_V2-gate NEE/ONBEPAALD is. Geen cluster/regio,
-A/B/C, permanente IDs, PDF of route.
+Een gelijktijdige PR #23-heads-up kondigt een derde blinde detector aan: de onafhankelijke
+ChatGPT-context `IndiaROOD`. Er was bij taakuitgifte nog geen duurzaam freeze-pad/commit. CCI neemt
+iedere vóór de persoonscheckpoint beschikbare IndiaROOD-freeze lossless mee; anders blijft die
+persoonsreconciliatie expliciet provisioneel met verplichte latere delta. De blindheid mag niet
+worden besmet.
 
-**NEXT_ACTION:** CCI voert CCI_TASK 088 uit met checkpointcommit per persoon en stopt na de finale
-reconciliatiesynthese.
+Finale saturation mag niet worden geclaimd zolang de verplichte
+`EXTERNAL_MODEL_DIVERSITY_GATE`, de IndiaROOD-delta of een andere METHOD_V2-gate NEE/ONBEPAALD is.
+Geen cluster/regio, A/B/C, permanente IDs, PDF of route.
+
+**NEXT_ACTION:** CCI voert CCI_TASK 088 inclusief het IndiaROOD-addendum uit met checkpointcommit
+per persoon en stopt na de finale reconciliatiesynthese.
 
 ## LATEST HANDOFF — INDIA7
 Lees na de volledige repo-boot expliciet:

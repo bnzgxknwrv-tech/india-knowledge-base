@@ -20,8 +20,11 @@ Lahiri Mahasaya en Sri Yukteswar, inclusief directe bronverificatie en traditie-
 
 - drie interne CCI_TASK 087/087R freezes: FROZEN;
 - drie externe PRE-COMPARE freezes: FROZEN;
-- externe branch: IMMUTABLE / NIET MERGEN;
-- blockers: geen.
+- IndiaROOD derde blinde detector: AANGEKONDIGD / FREEZE-PAD EN COMMIT NOG NIET BESCHIKBAAR;
+- externe branches/contexts: IMMUTABLE / NIET MERGEN / NIET BESMETTEN;
+- blockers voor tweedetector-reconciliatie: geen;
+- finale reconciliation/saturation gate: PROVISIONEEL zolang IndiaROOD-delta en vereiste
+  modeldiversiteit ontbreken.
 
 ## Harde holds
 
@@ -30,5 +33,6 @@ staan.
 
 ## next_allowed_step
 
-CCI voert uitsluitend `TASK.md` uit, commit per persoon en stopt na de finale
-reconciliatiesynthese/resultaatenvelop.
+CCI voert uitsluitend `TASK.md` inclusief het IndiaROOD-addendum uit, commit per persoon en stopt
+na de finale reconciliatiesynthese/resultaatenvelop. Een nog niet beschikbare IndiaROOD-freeze
+wordt als verplichte latere lossless delta vastgelegd.

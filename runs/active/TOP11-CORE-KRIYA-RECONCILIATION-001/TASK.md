@@ -58,13 +58,38 @@ Branch: `agent/chatgpt-top11-parallel-sweep`
 HARD: wijzig, merge of herschrijf de externe branch niet. Deze task schrijft uitsluitend naar de
 CCI-werkbranch.
 
+### Concurrent aangekondigde derde detector — IndiaROOD
+
+PR #23-comment `5339299346` kondigt een tweede, volledig onafhankelijke blinde ChatGPT-context
+("IndiaROOD") aan voor dezelfde drie personen. Op het uitgiftemoment is nog geen duurzaam
+freeze-bestand, branchpad of commit-SHA voor IndiaROOD beschikbaar.
+
+Verplichte omgang:
+
+1. Controleer vóór de lossless inventarisatie van iedere persoon uitsluitend PR #23 op een duurzame
+   IndiaROOD-resultaatenvelop met exact bestandspad en freeze-commit.
+2. Lees geen in-progress IndiaROOD-werk en onthul geen interne of bestaande externe kandidaten aan
+   IndiaROOD; de blinde detector mag niet worden besmet.
+3. Is een duurzame IndiaROOD-freeze voor die persoon beschikbaar vóór de persoonscheckpoint, neem
+   dan ELK record daarvan lossless als derde detectorlaag op, met eigen provenance en commit-SHA.
+4. Is die freeze nog niet beschikbaar, voer de hieronder opgedragen tweedetector-reconciliatie wel
+   uit, maar label haar `INDIA_ROOD_PENDING: JA`,
+   `RECONCILIATION_GATE: PROVISIONEEL` en
+   `EXTERNAL_MODEL_DIVERSITY_GATE: NEE/ONBEPAALD`. Leg als verplichte
+   `next_allowed_step` een latere lossless IndiaROOD-deltareconciliatie vast.
+5. Komt IndiaROOD pas ná een persoonscheckpoint binnen, herschrijf die checkpoint niet stilzwijgend;
+   vermeld de nieuwe freeze in de finale synthese als ongebruikte, verplichte delta-input.
+6. Een tweede onafhankelijke ChatGPT-context vergroot detectoronafhankelijkheid, maar geldt zonder
+   aanvullende modelfamilies niet automatisch als multi-provider/multi-model-union.
+
 ## 3. Verplichte canon vóór uitvoering
 
 Lees volledig:
 
 1. dit `TASK.md` en bijbehorende `STATUS.md`;
 2. `runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/METHOD_V2.md`;
-3. alle zes hierboven genoemde freeze-bestanden vanaf hun bevroren refs;
+3. alle zes vaste hierboven genoemde freeze-bestanden vanaf hun bevroren refs, plus iedere volgens
+   de IndiaROOD-regel toegelaten duurzame freeze;
 4. `runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/YOGANANDA_EXTERNAL_RECONCILIATION_CCI_086.md`;
 5. `runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/WERKPAKKET_D_DEEPENING_CCI_086.md`;
 6. `governance/SWEEP_ERROR_CLASSES.md`;
@@ -80,7 +105,8 @@ mag verdwijnen doordat twee namen op elkaar lijken.
 
 Per record minimaal:
 
-- bronrecord-ID en detectorlaag;
+- bronrecord-ID en detectorlaag; gebruik een lossless `detector_sources`-lijst wanneer meer dan één
+  detector hetzelfde record vond;
 - naam, alternatieve spellingen en plaats/staat;
 - gebeurtenis;
 - onderzochte persoon werkelijk persoonlijk aanwezig: JA / ONZEKER / NEE;
@@ -216,8 +242,9 @@ workers van hetzelfde model zijn niet automatisch een multi-provider/multi-model
 
 Daarom:
 
-- voer de reconciliatie nu volledig uit;
-- leg aantoonbaar vast welke detector-/modeldiversiteit werkelijk aanwezig was;
+- voer de reconciliatie nu volledig uit volgens de IndiaROOD-regel in §2;
+- leg aantoonbaar vast welke detector-/modeldiversiteit werkelijk aanwezig was, inclusief of
+  IndiaROOD per persoon beschikbaar, verwerkt of nog pending was;
 - claim `EXTERNAL_MODEL_DIVERSITY_GATE: JA` uitsluitend met concrete provenance van meerdere
   onafhankelijke modelfamilies;
 - claim geen definitieve `PERSON_SWEEP_SATURATED: JA` zolang een verplichte gate NEE of
