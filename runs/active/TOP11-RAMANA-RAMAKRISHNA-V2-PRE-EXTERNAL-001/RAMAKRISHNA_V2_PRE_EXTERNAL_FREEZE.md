@@ -145,3 +145,44 @@ externe of IndiaGEEL-freeze geraadpleegd tijdens deze pas.
 
 ---
 Geschreven door: CCI. Checkpoint 2/2 (laatste persoon) van CCI_TASK 093.
+
+## DELTA — CCI_TASK 094
+
+Deze sectie is append-only toegevoegd na de driewegs-multidetectorreconciliatie (CCI_TASK 094,
+tegen `agent/chatgpt-top11-parallel-sweep` en `agent/indiageel-ramana-ramakrishna-sweep`). De
+oorspronkelijke 24 tabelregels hierboven zijn ongewijzigd. Volledige onderbouwing:
+`runs/active/TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001/RAMAKRISHNA_MULTIDETECTOR_RECONCILIATION.md`.
+
+**Nieuwe, Tier-1-bevestigde locaties (toegevoegd door IndiaGEEL, direct tegen primaire/officiële
+bron geverifieerd door CCI):**
+- **Fouzdar Kunj, Retia Bazar, Vrindavan** — het specifiek benoemde pelgrimsverblijf van Mathur Babu
+  tijdens de 1868-pelgrimage (bovenkamer met halfronde veranda), waar record 16 hierboven alleen
+  "een huis bij Nidhuvan" generiek benoemde. Bevestigd via RKM Sevashrama Vrindavan-bronnen.
+- **Mati Seal's tuinreservoir**, Panihati/Belgharia — het vissen-onderricht over vormloze meditatie,
+  een sublocatie bij record 21 (Panihati-festival) die hierboven niet apart stond. Datum
+  rechtstreeks tegen *The Gospel of Sri Ramakrishna* geverifieerd: **18 juni 1883** (niet 1885, zoals
+  IndiaGEEL zelf abusievelijk vermeldde — zie reconciliatiedocument §2 voor de gecorrigeerde
+  datumtoewijzing).
+
+**Nieuwe, plausibele maar niet Tier-1-geverifieerde toevoeging:**
+- **Kusum Sarovar**, Govardhan-gebied, Uttar Pradesh — heilige tank binnen het reeds bevestigde
+  1868-pelgrimagegebied (Radha Kund/Shyam Kund), alleen bij IndiaGEEL aanwezig.
+
+**Groot, voorheen ontbrekend cluster bevestigd door minstens één externe detector:** het brede
+Kolkata-privéhuizennetwerk van devotees (Balaram Bose, Ishwar Chandra Vidyasagar, Manimohan
+Mallick, Jayagopal Sen, en tientallen extern-only records uit *The Gospel of Sri Ramakrishna*) —
+deze bron was in de 093-freeze expliciet als open lead genoteerd (UNRESOLVED_LEADS punt 1) en is nu
+grotendeels gedicht.
+
+**Negatieve controles toegevoegd:** Gaya en Puri/Jagannath — beide expliciet **geen bezoek**
+volgens *Great Master* (Ramakrishna weigerde beide reizen uit angst zijn lichaamsbewustzijn te
+verliezen), drieweg stilzwijgend/expliciet bevestigd.
+
+**Onopgeloste lead, niet geforceerd samengevoegd:** mogelijke locatie-dubbelzinnigheid rond
+"Jayagopal Sen's huis" (extern: Belgharia, 1875; IndiaGEEL: Mathaghasa-wijk, 1883) — kan twee
+reële, verschillende bezoeken betreffen; niet apart Tier-1-geverifieerd dit taakbudget.
+
+`PERSON_SWEEP_SATURATED: NEE` blijft van kracht — extern's eigen saturatieclaim is expliciet beperkt
+tot *discovery*-saturatie, niet fysieke-identiteitssaturatie.
+
+Checkpoint 2/2 van CCI_TASK 094.
