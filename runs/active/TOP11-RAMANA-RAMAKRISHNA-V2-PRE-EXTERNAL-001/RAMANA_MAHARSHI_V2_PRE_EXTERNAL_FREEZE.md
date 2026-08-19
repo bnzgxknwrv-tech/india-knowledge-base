@@ -150,3 +150,24 @@ externe of IndiaGEEL-freeze geraadpleegd tijdens deze pas.
 
 ---
 Geschreven door: CCI. Checkpoint 1/2 van CCI_TASK 093.
+
+## DELTA — CCI_TASK 094 (2026-08-19, multidetector-reconciliatie)
+
+Volledige drieweg-reconciliatie tegen de externe ChatGPT-freeze (103 records) en de nieuwe
+IndiaGEEL-freeze (51 records): zie
+`runs/active/TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001/RAMANA_MAHARSHI_MULTIDETECTOR_RECONCILIATION.md`.
+
+**Opgeloste unresolved leads**: schoolnamen Scott's Middle School/American Mission High School
+bevestigd; Madurai-woonstraat = West Chittirai Street.
+
+**Twee nieuwe, Tier-1 bronmatig bevestigde locaties** (via IndiaGEEL, rechtstreeks nagelopen):
+Azhagar Koil (Vishnu-tempel, jeugdbezoek) en de banyanboom/horzelsteek-route naar Seven Springs
+(Ramana's eigen relaas in *Day by Day with Bhagavan*).
+
+**Eén drievoudig erkend, onopgelost conflict**: Gurumurtam-verhuisdatum (1897 vs. 1898).
+
+Beide externe detectoren zijn aanzienlijk granulairder dan deze site-niveau-freeze, met name in de
+giripradakshina-microstops en de film-gedocumenteerde Sri-Ramanasramam-sublocaties (extern-
+ChatGPT) — overgenomen als bevestigende aanvulling, niet als vervanging van deze freeze.
+
+Checkpoint: Ramana-Maharshi-multidetector-delta, CCI_TASK 094, checkpoint 1/2.
