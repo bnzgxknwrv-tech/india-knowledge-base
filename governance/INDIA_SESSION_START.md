@@ -2,25 +2,35 @@
 
 Snapshot: 2026-08-18 23:59 CEST
 
-## LATEST ACTION — CCI_TASK 089 UITGEGEVEN (INDIA7, 2026-08-19)
+## LATEST ACTION — CCI_TASK 089 AFGEROND (CCI, 2026-08-19)
 
-Nieuwe duurzame taak:
-- `runs/active/TOP11-NKB-RAMDASS-V2-PRE-EXTERNAL-001/TASK.md`
-- `runs/active/TOP11-NKB-RAMDASS-V2-PRE-EXTERNAL-001/STATUS.md`
+Resultaat:
+- `runs/active/TOP11-NKB-RAMDASS-V2-PRE-EXTERNAL-001/NEEM_KAROLI_BABA_V2_PRE_EXTERNAL_FREEZE.md` (19 records)
+- `runs/active/TOP11-NKB-RAMDASS-V2-PRE-EXTERNAL-001/RAM_DASS_V2_PRE_EXTERNAL_FREEZE.md` (5 records)
+- checkpoint commits: `d85c32e` (Neem Karoli Baba), `f3a5e5d` (Ram Dass)
 
-Doel: verse landelijke corpus-first METHOD_V2 pre-external freezes voor Neem Karoli Baba en Ram
-Dass. CCI mag de reeds bevroren externe persoonsresultaten pas in een latere reconciliatietaak
-openen. Neem Karoli Baba en Ram Dass blijven fysiek en persoonsmatig gescheiden; netwerkoverlap wordt
-pas na beide onafhankelijke freezes vastgelegd. Commit per persoon is verplicht.
+Verse landelijke corpus-first METHOD_V2 pre-external freezes, blindheidsgrens gerespecteerd (geen
+externe freezes, IndiaROOD of oude METHOD_V1/PHASE2-lijsten geraadpleegd). **Kernbevinding: voor
+beide personen waren de belangrijkste primaire devotee-bronnen niet toegankelijk** — *Miracle of
+Love*/*By His Grace* (Neem Karoli Baba) en *Be Here Now*/*Sacred Wanderer* (Ram Dass, zelfs
+ramdass.org gaf een 403-toegangsfout). Beide freezes steunen daardoor grotendeels op secundaire/
+institutionele bronnen; `CORPUS_COVERAGE_GATE` is voor beide `NEE`. Ram Dass' freeze (5 records) is
+de dunste pre-external freeze tot nu toe in dit project.
 
-Parallelle staat: CCI_TASK 088 is provisioneel afgerond en wacht op duurzame IndiaROOD-delta's voor
-Babaji, Lahiri Mahasaya en Sri Yukteswar. De bestaande externe ChatGPT-branch heeft alle acht
-PRE-COMPARE-freezes voltooid en staat op STOP. IndiaROOD heeft volgens Mark een lokale Babaji-freeze,
-maar zonder GitHub-pad/commit is die nog geen duurzame reconciliatie-input.
+Neem Karoli Baba: geboorte Akbarpur, Neem Karoli-dorp (treinwonder/naamgeving), Kainchi Dham
+(hoofdashram), Bhumiadhar, Kakrighat, Vrindavan (ashram/dood/crematie, met een onopgelost
+ziekenhuisnaamconflict), Panki-tempel Kanpur met een bilocatie-overlevering naar Allahabad. Ram
+Dass: Kainchi Dham (eerste ontmoeting met Maharajji 1967), Hotel Evelyn Nainital, Kausani, Delhi,
+een niet-gelokaliseerd laatste 2004-bezoek. Eén claim expliciet uitgesloten (1997-Vrindavan-
+vermelding bleek over een andere devotee te gaan, niet Ram Dass zelf).
 
-**NEXT_ACTION:** CCI voert uitsluitend CCI_TASK 089 uit en stopt na beide pre-external
-checkpointcommits/resultaatenvelop. Geen externe vergelijking, cluster/regio, A/B/C, permanente
-IDs, PDF of route.
+Beide `SATURATED: NEE`. Parallelle staat ongewijzigd: CCI_TASK 088 blijft provisioneel, wacht op
+IndiaROOD-delta's voor Babaji/Lahiri/Sri Yukteswar.
+
+**NEXT_ACTION:** STOP, wacht op INDIA-QA. Overweeg voor INDIA-QA: gezien de zwakke corpus-coverage
+kan een gerichte tweede poging om de vier geblokkeerde kernbronnen alsnog te bereiken (andere
+bronroute) nuttig zijn vóór externe reconciliatie voor deze twee personen wordt gestart. Geen
+cluster/regio, A/B/C, permanente IDs, PDF of route.
 
 ## LATEST ACTION — CCI_TASK 088 AFGEROND (CCI, 2026-08-19)
 

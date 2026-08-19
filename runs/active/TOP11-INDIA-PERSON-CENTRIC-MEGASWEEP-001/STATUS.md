@@ -161,5 +161,45 @@ resultaatenvelop. Daarna volgt pas een aparte lossless externe reconciliatie. Pa
 IndiaROOD-delta voor Babaji/Lahiri/Sri Yukteswar open. Geen cluster/regio, A/B/C, permanente IDs,
 PDF of route.
 
+## Update — CCI_TASK 089 afgerond (CCI, 2026-08-19)
+
+```
+checkpoint_commits: d85c32e (Neem Karoli Baba), f3a5e5d (Ram Dass)
+NEEM_KAROLI_BABA_V2_PRE_EXTERNAL_SATURATED: NEE
+RAM_DASS_V2_PRE_EXTERNAL_SATURATED: NEE
+```
+
+Beide freezes afgerond, blindheidsgrens gerespecteerd (externe freezes, IndiaROOD en oude
+METHOD_V1/PHASE2-lijsten niet geraadpleegd). **Belangrijkste bevinding: voor beide personen bleken
+de kern-primaire devotee-bronnen tijdens deze sessie niet toegankelijk** — *Miracle of Love* en
+*By His Grace* (Neem Karoli Baba) alleen als voorwerk/dokumen.pub-storing bereikt; *Be Here Now* en
+*Sacred Wanderer* (Ram Dass) helemaal niet gevonden als doorzoekbare tekst, zelfs ramdass.org gaf
+een toegangsfout. Beide freezes steunen daardoor grotendeels op secundaire/institutionele bronnen.
+
+**Neem Karoli Baba**: 19 records — geboorte Akbarpur, Neem Karoli-dorp (treinwonder/naamgeving),
+Kainchi Dham (hoofdashram 1964), Bhumiadhar, Kakrighat, Vrindavan (ashram/Mahasamadhi/crematie),
+Panki-tempel Kanpur met een bilocatie-overlevering naar een kamer in Allahabad, en de laatste
+treinreis/ziekenhuisepisode rond zijn dood (sept. 1973, met een onopgelost naamconflict over het
+exacte ziekenhuis). Vier ashrams (Rishikesh/Lucknow/Shimla/Delhi) staan alleen op naam, zonder
+aparte gebeurtenis — zwakste deel van deze atlas.
+
+**Ram Dass**: slechts 5 records — de zwakste pre-external freeze tot nu toe in dit project qua
+corpus-coverage. Kainchi Dham (eerste ontmoeting met Maharajji, 1967, naamgeving), Hotel Evelyn
+Nainital (mini-ashram 1970/1971), Kausani (Vipassana-retraite), Delhi (aankomstpunt, indirect) en
+een niet-gelokaliseerd laatste India-bezoek (2004). Eén claim expliciet uitgesloten: een
+1997-Vrindavan-vermelding bleek over een ANDERE devotee te gaan, niet over Ram Dass' eigen
+aanwezigheid.
+
+Beide `SATURATED: NEE`, `CORPUS_COVERAGE_GATE` NEE (Ram Dass) / NEE (Neem Karoli Baba) — eerlijk
+benoemd, geen schijnzekerheid.
+
+**next_allowed_step:** STOP, wacht op INDIA-QA. Externe reconciliatie voor deze twee personen
+(dezelfde opzet als CCI_TASK 088) volgt pas na een nieuwe INDIA-opdracht. Overweeg voor INDIA-QA
+expliciet: gezien de zwakke corpus-coverage kan het zinvol zijn om vóór reconciliatie eerst een
+gerichte tweede interne poging te doen om *Miracle of Love*, *By His Grace*, *Be Here Now* en
+*Sacred Wanderer* alsnog toegankelijk te krijgen (andere bronroute/host), zodat de externe
+vergelijking niet grotendeels tegen een dunne interne baseline hoeft te worden getoetst. Geen
+cluster/regio, A/B/C, permanente IDs, PDF of route.
+
 ---
 Dit bestand is de kortste actuele bron van waarheid voor deze taak.
