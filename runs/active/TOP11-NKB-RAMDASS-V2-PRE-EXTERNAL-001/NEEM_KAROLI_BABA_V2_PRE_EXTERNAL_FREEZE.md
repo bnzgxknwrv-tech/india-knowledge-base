@@ -112,3 +112,44 @@ IndiaROOD-resultaat geraadpleegd tijdens deze pas.
 
 ---
 Geschreven door: CCI. Checkpoint 1/2 van CCI_TASK 089.
+
+## DELTA — CCI_TASK 090 (2026-08-19, bronherstelpas)
+
+Deze paragraaf is een toevoeging bovenop het bovenstaande, niet een overschrijving. Zie
+`runs/active/TOP11-NKB-RAMDASS-CORE-SOURCE-RECOVERY-001/SOURCE_RECOVERY_RESULT.md` voor de volledige
+bronroute-documentatie.
+
+**Bronstatus**: *Miracle of Love* en *By His Grace* blijven beide `BRON_GEBLOKKEERD` na hernieuwde,
+onafhankelijke legale routepogingen (Internet Archive access-restricted items, geblokkeerde
+search-inside-API met HTTP 403 — bewust niet omzeild; dokumen.pub nog steeds "under maintenance").
+Wel is *Be Here Now* (Ram Dass' eigen ooggetuigenverslag) deze pas volledig hersteld als
+doorzoekbare tekst, wat twee nieuwe, met duidelijke gebeurtenisprovenance onderbouwde
+Neem-Karoli-Baba-occurrences opleverde (conform TASK.md §4: alleen gebruikt omdat Ram Dass zelf
+ooggetuige is van Maharaj-ji's fysieke aanwezigheid, niet als automatische NKB-locatie).
+
+| # | plaats | staat/district | type | gebeurtenis/periode | PERSONALLY_PRESENT | PHYSICAL_IDENTITY | bron |
+|---|---|---|---|---|---|---|---|
+| 20 | Forestry camp (onbenoemd) | Nainital-district, Uttarakhand (heuvelgebied, exacte locatie onbenoemd) | verblijfplaats, bosbeheer-gebouw | Bezocht per Land Rover, verder de heuvel op vanaf een appelboomgaard-tussenstop, kort na de eerste ontmoeting; beschikbaar gesteld door devotees bij de Forestry-afdeling | JA (Ram Dass ooggetuige, Neem Karoli Baba aanwezig) | ALLEEN_PLAATS (geen eigennaam in bron) | *Be Here Now* (Ram Dass, volledige tekst via archive.org/details/be-here-now-pdfdrive), regel 1440-1468 |
+| 21 | Onbenoemde "estate" bij een niet-genoemde "town near-by" | Uttarakhand (heuvelgebied, exacte locatie onbenoemd) | landgoed/verblijfplaats | Neem Karoli Baba's jaarlijkse visum hier geregeld; Ram Dass kreeg een "holy man's house"; plaats van de moeder-visioen-episode onder de sterren | JA (Ram Dass ooggetuige, Neem Karoli Baba aanwezig) | ALLEEN_PLAATS (geen eigennaam in bron) | *Be Here Now*, regel 990-1005 |
+
+**Corroboratie, geen nieuw record**: de eerste-ontmoetingsscène in *Be Here Now* (onbenoemde
+tempel/veld, "3 mijl" per Land Rover, voetheuvels van de Himalaya, inclusief de
+"je-moeder-is-overleden"-episode — regel 1093-1180, 1273) is inhoudelijk vrijwel zeker hetzelfde
+fysieke moment als bestaande record 5 (Kainchi Dham, `EXACT`). De brontekst van *Be Here Now* zelf
+gebruikt de naam "Kainchi" echter **geen enkele keer** (corpusbreed geverifieerd) — er is dus geen
+naamsanker vanuit deze bron. Een onafhankelijke tweede bron, "Being Ram Dass" (2021, Tricycle-
+fragment), bevestigt de naam wél via een fotobijschrift: "Ram Dass and his teacher Maharaj-ji in
+Kainchi, India" (tricycle.org/article/being-ram-dass-excerpt/). Record 5's `EXACT`-status wordt
+hiermee versterkt met een tweede onafhankelijke primaire-bronfamilie-citatie, maar record 5 zelf
+wordt niet herschreven — deze paragraaf documenteert de aanvullende bronbevestiging.
+
+**Titelcorrectie doorgegeven vanuit de Ram Dass-freeze**: "Sacred Wanderer" (genoemd als mogelijke
+bron in CCI_TASK 089) bleek een boek van Ravi Dass te zijn, een andere Neem-Karoli-Baba-devotee —
+niet gerelateerd aan Ram Dass. Geen NKB-records in deze freeze waren op die titel gebaseerd, dus
+geen correctie nodig aan bovenstaande atlas zelf; hier alleen genoteerd voor volledige
+traceerbaarheid.
+
+**Herziene gate-inschatting**: CORPUS-COVERAGE-GATE blijft **NEE** — de twee kern-devotee-bronnen
+over Neem Karoli Baba zelf zijn nog steeds niet doorzoekbaar. `NEEM_KAROLI_BABA_V2_PRE_EXTERNAL_SATURATED: NEE` blijft ongewijzigd de eerlijke uitkomst.
+
+Checkpoint: NKB-source-recovery, CCI_TASK 090, checkpoint 1/2.
