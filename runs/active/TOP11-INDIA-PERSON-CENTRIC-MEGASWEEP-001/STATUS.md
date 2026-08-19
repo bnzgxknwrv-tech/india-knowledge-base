@@ -243,5 +243,25 @@ beslist over: (a) de inmiddels lossless IndiaROOD Core-Kriya-freezes alsnog aan 
 toevoegen; (b) het NKB-doodsvolgordeconflict gericht laten uitzoeken; (c) Ramana Maharshi/
 Ramakrishna blijven niet gestart zonder nieuwe opdracht.
 
+## Update — CCI_TASK 092 afgerond (CCI, 2026-08-19)
+
+Optie (a) hierboven is uitgevoerd: volledige drieweg-reconciliatie (intern/extern-088/IndiaROOD)
+voor Babaji (50 IndiaROOD-records), Lahiri Mahasaya (40+6) en Sri Yukteswar (42+14). Belangrijkste
+opbrengst: een volledig nieuwe Babaji-claimanttraditie (Hansavedas/Tryambaknath) Tier-1 bevestigd;
+vier Tier-1-bevestigde Lahiri-Mahasaya-vondsten (drie sluiten een AOAY-lossless-gap uit hfst. 36);
+twee Tier-1-bevestigde Sri-Yukteswar-vondsten plus twee eerder geblokkeerde 088-leads
+geconvergeerd (Bodh Gaya-geloften, Calcutta Medical College). Twee onopgeloste Lahiri-Mahasaya-
+conflicten (Ranikhet-jaar, Bishnupur-huwelijk). Geen hallucinaties gevonden bij IndiaROOD.
+`RECONCILIATION_GATE` en `EXTERNAL_MODEL_DIVERSITY_GATE` naar `JA` voor alle drie personen;
+`SATURATED` blijft `NEE`. Checkpoint commits: `3019884` (Babaji), `9338c4f` (Lahiri Mahasaya),
+`2889174` (Sri Yukteswar). Resultaat:
+`runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/RECONCILIATION_RESULT.md`.
+
+**next_allowed_step (actueel):** CCI stopt na resultaatenvelop op PR #23 en wacht op INDIA-QA. INDIA
+beslist over: (a) Ramana Maharshi/Ramakrishna starten (externe freezes bestaan al op
+`agent/chatgpt-top11-parallel-sweep`); (b) de twee Lahiri-Mahasaya-conflicten gericht uitzoeken;
+(c) NKB-doodsvolgordeconflict (CCI_TASK 091) gericht uitzoeken; (d) een andere route naar
+Satyananda's volledige Sri-Yukteswar-biografie proberen.
+
 ---
 Dit bestand is de kortste actuele bron van waarheid voor deze taak.
