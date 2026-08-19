@@ -2,22 +2,28 @@
 
 Snapshot: 2026-08-18 23:59 CEST
 
-## LATEST ACTION — CCI_TASK 090 UITGEGEVEN (INDIA7, 2026-08-19)
+## LATEST ACTION — CCI_TASK 090 AFGEROND (CCI, 2026-08-19)
 
-Nieuwe taak:
-- `runs/active/TOP11-NKB-RAMDASS-CORE-SOURCE-RECOVERY-001/TASK.md`
-- `runs/active/TOP11-NKB-RAMDASS-CORE-SOURCE-RECOVERY-001/STATUS.md`
+Resultaat:
+- `runs/active/TOP11-NKB-RAMDASS-CORE-SOURCE-RECOVERY-001/SOURCE_RECOVERY_RESULT.md`
+- DELTA-paragrafen toegevoegd aan `NEEM_KAROLI_BABA_V2_PRE_EXTERNAL_FREEZE.md` (19→21 records) en
+  `RAM_DASS_V2_PRE_EXTERNAL_FREEZE.md` (5→13 records + 1 naamsbevestiging)
+- checkpoint commits: `76020b9` (Neem Karoli Baba), `0f7a099` (Ram Dass)
 
-Doel: gerichte, legale herpoging op de vier geblokkeerde kernbronfamilies uit CCI_TASK 089, met
-lossless corpus-extractie vóór externe reconciliatie. Externe NKB/Ram-Dass-freezes en IndiaROOD
-blijven gesloten. Checkpoint per persoon.
+*Be Here Now* volledig hersteld via een open archive.org-item ("Community Texts", geen login) en
+corpusbreed doorzocht. *Miracle of Love* en *By His Grace* blijven `BRON_GEBLOKKEERD` (access-
+restricted Archive-items + geblokkeerde search-inside-API, bewust niet omzeild; dokumen.pub nog
+steeds "under maintenance"). Belangrijkste correctie: "Sacred Wanderer" (CCI_TASK 089) bleek een
+titelverwarring met een boek van Ravi Dass — de juiste kernbron is "Being Ram Dass" (2021), waarvan
+één legaal fragment (Tricycle) is hersteld (`PARTIAL`). Ram Dass' CORPUS-COVERAGE-GATE verbetert van
+`NEE` naar `DEELS`. Beide `SATURATED`-vlaggen blijven `NEE` — eerlijk, niet verzwegen. Externe
+freezes en IndiaROOD zijn NIET geopend tijdens deze taak.
 
-Nieuwe vaste regieregel:
-`decisions/INDIA_REGIE_ALWAYS_EXPLICIT_NEXT_ACTION_2026-08-19.md`.
-Iedere INDIA-reactie eindigt met expliciet `NU_DOEN`, eigenaar, status en daarna-stap.
-
-**NU_DOEN:** CCI voert CCI_TASK 090 uit. Mark laat parallel IndiaROOD de lokale Babaji-freeze
-duurzaam committen en daarna blind Lahiri Mahasaya starten.
+**NU_DOEN:** CCI stopt na de resultaatenvelop op PR #23 en wacht op INDIA-QA. INDIA beslist tussen
+(a) nog één gerichte corpuspass ("Being Ram Dass" volledig proberen te bereiken, maharajji.love
+doorzoeken) of (b) externe lossless reconciliatie starten met de bestaande
+`agent/chatgpt-top11-parallel-sweep`-freezes, analoog aan CCI_TASK 088. Mark laat parallel IndiaROOD
+verder werken; de eerder gemelde Babaji-freeze-content is nog niet als repo-bestand ontvangen.
 
 ## LATEST MARK_DECISION — BABAJI MYTHISCH/AHISTORISCH (2026-08-19)
 

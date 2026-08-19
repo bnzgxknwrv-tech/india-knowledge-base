@@ -54,3 +54,12 @@ CCI_TASK 089-rows worden niet stil overschreven; bronmatige delta's worden toege
 
 CCI voert CCI_TASK 090 uit en stopt na de gerichte bronherstelresultaatenvelop. Externe
 reconciliatie blijft een aparte latere taak.
+
+## Update — CCI_TASK 090 afgerond (CCI, 2026-08-19)
+
+Bronherstelpas afgerond: *Be Here Now* volledig hersteld en verwerkt (Neem Karoli Baba 19→21,
+Ram Dass 5→13 records + naamsbevestiging); *Miracle of Love*/*By His Grace* blijven
+`BRON_GEBLOKKEERD`; titelcorrectie "Sacred Wanderer" → "Being Ram Dass" (2021, `PARTIAL`). Zie
+`runs/active/TOP11-NKB-RAMDASS-CORE-SOURCE-RECOVERY-001/SOURCE_RECOVERY_RESULT.md` en de
+DELTA-paragrafen in beide freeze-bestanden. Beide `SATURATED`-vlaggen blijven `NEE`. Checkpoint
+commits 76020b9, 0f7a099.

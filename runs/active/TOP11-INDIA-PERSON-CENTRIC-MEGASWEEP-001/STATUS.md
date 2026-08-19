@@ -212,5 +212,18 @@ lossless. Externe freezes blijven gesloten.
 resultaatenvelop. Daarna INDIA-QA vóór externe reconciliatie. Parallel blijft IndiaROOD core-Kriya
 lopen. Geen cluster/regio, A/B/C, permanente IDs, PDF of route.
 
+## Update — CCI_TASK 090 afgerond (CCI, 2026-08-19)
+
+*Be Here Now* volledig hersteld (open archive.org-item) en corpusbreed doorzocht; *Miracle of
+Love*/*By His Grace* blijven `BRON_GEBLOKKEERD`. Titelcorrectie: "Sacred Wanderer" → "Being Ram
+Dass" (2021, `PARTIAL` via Tricycle-fragment). NKB 19→21 records, Ram Dass 5→13 records + 1
+naamsbevestiging (Kainchi). Ram Dass CORPUS-COVERAGE-GATE: NEE → DEELS. Beide `SATURATED: NEE`
+blijven ongewijzigd. Checkpoint commits: `76020b9` (NKB), `0f7a099` (Ram Dass). Resultaat:
+`runs/active/TOP11-NKB-RAMDASS-CORE-SOURCE-RECOVERY-001/SOURCE_RECOVERY_RESULT.md`.
+
+**next_allowed_step (actueel):** CCI stopt na resultaatenvelop op PR #23 en wacht op INDIA-QA. INDIA
+beslist tussen nog één gerichte corpuspass ("Being Ram Dass" volledig, maharajji.love) of externe
+lossless reconciliatie starten. Ramana Maharshi/Ramakrishna blijven niet gestart.
+
 ---
 Dit bestand is de kortste actuele bron van waarheid voor deze taak.
