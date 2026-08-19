@@ -1,8 +1,8 @@
 # STATUS — INDIAGOUD-NONPERSON-ANCHOR-AUDIT-001
 
-state: READY
+state: PAUSED_SUPERSEDED_FOR_NOW
 branch: agent/indiagoud-nonperson-anchor-audit
 owner: INDIA GOUD
 scope: non-person spiritual anchors + 35-day capacity impact
-outputs: NONPERSON_ANCHOR_INVENTORY.md, BUDDHIST_SPINE_AUDIT.md, MISSING_FROM_PERSON_HEATMAP.md, 35_DAY_CAPACITY_IMPACT.md, MASTER_CLUSTER_UNION_INPUT.md
-next_allowed_step: INDIA GOUD voert TASK.md volledig uit en commit outputs.
+reason: INDIA8 corrected course on 2026-08-19. Existing pre-person A/B/C cluster canon must be reconstructed first; Bodh Gaya/Mahabodhi and other previously researched anchors must not be rediscovered or duplicated. Do not execute TASK.md until explicitly reactivated after the baseline audit.
+next_allowed_step: NONE until INDIA8 reactivates after PREPERSON_CLUSTER_BASELINE.
