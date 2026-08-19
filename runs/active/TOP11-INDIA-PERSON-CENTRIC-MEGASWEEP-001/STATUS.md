@@ -2,7 +2,7 @@
 
 ```
 task_id: TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
-state: CCI_TASK_089_NKB_RAMDASS_V2_PRE_EXTERNAL_ISSUED__WACHT_OP_CCI_RESULT
+state: CCI_TASK_090_NKB_RAMDASS_CORE_SOURCE_RECOVERY_ISSUED__WACHT_OP_CCI_RESULT
 method_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/METHOD_V1.md
 method_v2_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/METHOD_V2.md
 task_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/TASK.md
@@ -16,7 +16,7 @@ babaji_v2_freeze_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/BABA
 lahiri_mahasaya_v2_freeze_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/LAHIRI_MAHASAYA_V2_PRE_EXTERNAL_FREEZE.md
 sri_yukteswar_v2_freeze_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/SRI_YUKTESWAR_V2_PRE_EXTERNAL_FREEZE.md
 last_updated: 2026-08-19
-last_updated_by: INDIA7 (CCI_TASK 089 issued)
+last_updated_by: INDIA7 (CCI_TASK 090 issued)
 ```
 
 ## Update — CCI_TASK 087/087R afgerond: drie pre-external freezes (CCI, 2026-08-19)
@@ -200,6 +200,17 @@ gerichte tweede interne poging te doen om *Miracle of Love*, *By His Grace*, *Be
 *Sacred Wanderer* alsnog toegankelijk te krijgen (andere bronroute/host), zodat de externe
 vergelijking niet grotendeels tegen een dunne interne baseline hoeft te worden getoetst. Geen
 cluster/regio, A/B/C, permanente IDs, PDF of route.
+
+## Update — CCI_TASK 090 uitgegeven (INDIA7, 2026-08-19)
+
+CCI_TASK 089 is afgerond: NKB 19 records, Ram Dass 5 records, beide `SATURATED: NEE` en
+`CORPUS_COVERAGE_GATE: NEE` door vier geblokkeerde kernbronfamilies. CCI_TASK 090 probeert die
+bronnen via meerdere legale routes gericht te herstellen en verwerkt ieder toegankelijk deel
+lossless. Externe freezes blijven gesloten.
+
+**next_allowed_step (actueel):** CCI_TASK 090 uitvoeren en STOP na bronherstelcheckpoints +
+resultaatenvelop. Daarna INDIA-QA vóór externe reconciliatie. Parallel blijft IndiaROOD core-Kriya
+lopen. Geen cluster/regio, A/B/C, permanente IDs, PDF of route.
 
 ---
 Dit bestand is de kortste actuele bron van waarheid voor deze taak.

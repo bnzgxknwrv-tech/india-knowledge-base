@@ -2,6 +2,23 @@
 
 Snapshot: 2026-08-18 23:59 CEST
 
+## LATEST ACTION — CCI_TASK 090 UITGEGEVEN (INDIA7, 2026-08-19)
+
+Nieuwe taak:
+- `runs/active/TOP11-NKB-RAMDASS-CORE-SOURCE-RECOVERY-001/TASK.md`
+- `runs/active/TOP11-NKB-RAMDASS-CORE-SOURCE-RECOVERY-001/STATUS.md`
+
+Doel: gerichte, legale herpoging op de vier geblokkeerde kernbronfamilies uit CCI_TASK 089, met
+lossless corpus-extractie vóór externe reconciliatie. Externe NKB/Ram-Dass-freezes en IndiaROOD
+blijven gesloten. Checkpoint per persoon.
+
+Nieuwe vaste regieregel:
+`decisions/INDIA_REGIE_ALWAYS_EXPLICIT_NEXT_ACTION_2026-08-19.md`.
+Iedere INDIA-reactie eindigt met expliciet `NU_DOEN`, eigenaar, status en daarna-stap.
+
+**NU_DOEN:** CCI voert CCI_TASK 090 uit. Mark laat parallel IndiaROOD de lokale Babaji-freeze
+duurzaam committen en daarna blind Lahiri Mahasaya starten.
+
 ## LATEST MARK_DECISION — BABAJI MYTHISCH/AHISTORISCH (2026-08-19)
 
 Canoniek besluit:

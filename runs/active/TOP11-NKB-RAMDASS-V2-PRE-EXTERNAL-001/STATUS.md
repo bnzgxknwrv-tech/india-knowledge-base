@@ -44,8 +44,13 @@ uit beide bestanden zonder aparte overlapnotitie nodig te maken.
 
 Geen cluster/regio, Arunachala-werk, A/B/C, permanente IDs, PDF of route.
 
+## Update — CCI_TASK 090 uitgegeven (INDIA7, 2026-08-19)
+
+Gerichte bronherstelpass op *Miracle of Love*, *By His Grace*, *Be Here Now* en de bedoelde
+*Sacred Wanderer*/Ram-Dass-kernbiografie. De externe freezes blijven gesloten. Bestaande
+CCI_TASK 089-rows worden niet stil overschreven; bronmatige delta's worden toegevoegd.
+
 ## next_allowed_step
 
-STOP conform TASK.md §8. Wacht op INDIA-QA. Externe vergelijking/reconciliatie (inclusief de al
-bestaande externe freezes voor deze twee personen) volgt uitsluitend na een nieuwe INDIA-opdracht,
-zoals gedaan voor de Kriya-drie in CCI_TASK 088.
+CCI voert CCI_TASK 090 uit en stopt na de gerichte bronherstelresultaatenvelop. Externe
+reconciliatie blijft een aparte latere taak.
