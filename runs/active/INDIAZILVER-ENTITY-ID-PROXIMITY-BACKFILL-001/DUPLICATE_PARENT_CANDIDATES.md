@@ -1,6 +1,6 @@
 # DUPLICATE_PARENT_CANDIDATES — INDIA ZILVER
 
-status: UPDATED_WITH_GEEL_AND_TURQUOISE
+status: UPDATED_WITH_GEEL_TURQUOISE_AND_NUMERIC_PROXIMITY
 branch: agent/indiazilver-cluster-completeness-audit
 
 Hard rule: no existing ID/A-B-C/lock changes. Parent/child microsites are not duplicates. Historic→modern successor relations are not silent same-building merges.
@@ -13,7 +13,7 @@ Hard rule: no existing ID/A-B-C/lock changes. Parent/child microsites are not du
 - Banke Bihari Temple: `LC-RD-BANKEBIHARI` = `LC-RK-BANKEBIHARI`; one temple entity, two person links.
 - Kainchi Dham: existing parent remains one entity for Neem Karoli Baba + Ram Dass; no duplicate parent ID.
 - NKB Vrindavan Ashram/Mahasamadhi complex: existing locked parent remains one entity for Neem Karoli Baba + Ram Dass; no duplicate parent ID.
-- Lahiri residence `VNS-CAND-002`: one exact house entity with Lahiri + Sri Yukteswar links; Babaji tradition link remains epistemically separate.
+- Lahiri residence `002` / prior key `VNS-CAND-002`: one exact house entity with Lahiri + Sri Yukteswar links; Babaji tradition link remains epistemically separate.
 - Hanuman Garh/Hanuman Garhi Nainital: alias same physical site at entity layer; original labels retained.
 
 ## Parent → child relations that MUST remain separate
@@ -83,5 +83,15 @@ Garden House, upstairs final room, and cremation ghat remain distinct physical l
 - Bhowanipur disciple-house exact building identity.
 - Surendra Nath Mitra Kankurgachi garden house ↔ Ramchandra Datta Yogodyan: explicitly separate until property evidence proves otherwise.
 - NKB final-day Agra `S.` house ↔ Jagmohan Sharma residence: do not merge.
+
+## Numeric proximity is not identity
+
+The current hard-coordinate pass confirms:
+- `OLD31-28` Rana Mahal Ghat ↔ `019` Kedareshwar Temple/Kedar Ghat: 0.895 km.
+- `OLD31-28` Rana Mahal Ghat ↔ `018` Sankatha Devi Temple: 1.285 km.
+
+Both pairs are `DISTINCT_NEARBY_ENTITIES`, not duplicate candidates. No merge or parent-child relation is inferred from distance alone.
+
+Five protected B/C records (`012`, `013`, `026`, `027`, `040`) have old working-pin screening positions within 3 km of Rana Mahal, but those endpoints are not marker-confirmed and therefore remain coordinate dependencies. This screening may justify later review after coordinate closure; it does not authorize a duplicate/merge or an A/B/C change.
 
 No ambiguous relation in this file authorizes a new permanent ID or an A/B/C change.
