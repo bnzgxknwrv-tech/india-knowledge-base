@@ -77,3 +77,27 @@ IDs 001-081 and all A/B/C/locks are unchanged by construction.
 **next_allowed_step**: INDIA8/INDIA9 reviews `MASTER_BUILD_EXCEPTIONS.md` and decides whether to
 close gap #1 (WIT/Anandamayi full expansion) before the Vrindavan/Braj or Prayagraj/Allahabad
 cluster slices go to Mark, per this task's own `MARK-READY GATE`. Full report posted to PR #23.
+
+---
+
+## CCI — FULL-KNOWN-UNIVERSE COMPLETENESS CLOSURE (2026-08-20)
+
+```
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-20
+trigger: CCI_TASK "FULL-KNOWN-UNIVERSE COMPLETENESS CLOSURE" + Mark scope correction
+         (Anandamayi travel-core not exhaustive) + photo-location-closure addendum
+```
+
+`ALL_FINDINGS_LOCATION_MASTER.jsonl` rebuilt: 459 -> **700 rows**. `ALL_FINDINGS_ENTITY_INDEX.jsonl`:
+**575 unique physical entities**. Full method/accounting in `GLOBAL_ACCOUNTING.md`,
+`MASTER_BUILD_EXCEPTIONS.md`, `PHOTO_LOCATION_CLOSURE.md`. Anandamayi's full 292-claim corpus
+preserved losslessly in `ANANDAMAYI_FULL_CORPUS_REFERENCE.jsonl` (236 rows, not promoted to
+master per Mark's corrected scope). Working layers kept in `reconciliation_layers/` for audit.
+
+READY_FOR_CLUSTER_DECISION_SLICES under Mark's corrected asymmetric scope: **JA**, with the named
+open items in `MASTER_BUILD_EXCEPTIONS.md` (none of which block a cluster decision).
+
+next_allowed_step: Mark/INDIA8 cluster-decision slices (Kolkata/East, Ranchi, Vrindavan/Braj,
+Varanasi already-locked, etc.), OR OCR Gurupriya Devi's diary if Bhowanipur precision is wanted
+before a Kolkata/East decision specifically. No A/B/C taken here.

@@ -1,109 +1,131 @@
-# GLOBAL_ACCOUNTING — ALL_FINDINGS_LOCATION_MASTER
+# GLOBAL_ACCOUNTING — FULL-KNOWN-UNIVERSE COMPLETENESS CLOSURE
 
 ```
-build_date: 2026-08-20
-built_by: CCI
-input_families: BLAUW (AOAY/Yogananda), ROOD (Core Kriya), GEEL (NKB/Ram Dass/Ramana/Ramakrishna),
-  WIT (Anandamayi/heritage), TURQUOISE (relation overlay), ZILVER (canon/proximity/new-ID overlay)
-input_commit_basis: HEAD of each family's own branch at build time (agent/indiablauw-trip-ops-prep,
-  agent/indiarood-core-kriya-sweep, agent/indiageel-ramana-ramakrishna-sweep,
-  agent/indiawit-master-travel-readiness, agent/indiaturquoise-allperson-overlap,
-  agent/indiazilver-cluster-completeness-audit), fetched and read directly (not via secondhand
-  central-branch summaries) to avoid the staleness trap found in round-1 QA.
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-20
+scope: Mark's asymmetric scope correction (2026-08-20) -- AOAY/Yogananda exhaustive,
+       Anandamayi Ma travel-core + lossless corpus reference (not exhaustive)
 ```
 
-## Accounting equation — CLOSES
+## Headline equation
 
 ```
-TOTAL_SOURCE_ROWS = PHYSICAL_ENTITY_LINKED + EXPLICIT_DUPLICATE + NEGATIVE/NONPRESENCE + STILL_UNRESOLVED
-            459    =        259            +         0          +          33         +      167
+TOTAL_MASTER_ROWS (700) = PHYSICAL_ENTITY_LINKED (268)
+                         + PHYSICAL_ENTITY_LINKED_TO_EXISTING_CANON (13)
+                         + EXPLICIT_DUPLICATE (128)
+                         + NEGATIVE/NONPRESENCE (80)
+                         + STILL_UNRESOLVED (211)
+268 + 13 + 128 + 80 + 211 = 700  -- closes exactly, no remainder.
 ```
 
-`259 = 246 (PHYSICAL_ENTITY_LINKED) + 13 (PHYSICAL_ENTITY_LINKED_TO_EXISTING_CANON, i.e. the subset
-already carrying a permanent/legacy canon ID via the ZILVER overlay)`.
+`ALL_FINDINGS_ENTITY_INDEX.jsonl`: **575 unique physical_entity_key rows** (700 master rows
+minus rows that share a key because multiple detectors/layers back-link the same physical
+site -- BLAUW/atlas/external-114 overlap and the two new Anandamayi photo-closure rows both
+being deliberately not counted as new entities).
 
-**`EXPLICIT_DUPLICATE = 0` is expected, not an error**: the four families are person-partitioned
-(BLAUW=Yogananda, ROOD=Babaji/Lahiri/Sri Yukteswar, GEEL=NKB/Ram Dass/Ramana/Ramakrishna,
-WIT=Anandamayi), so no two source rows in this build restate the identical underlying claim.
-Cross-family *physical-site* overlap (e.g. Kainchi visited by both NKB and Ram Dass) is real and is
-captured — but at the **entity-index level** via the TURQUOISE relation overlay (see below), not as
-row-level duplication, because each person's visit to a shared site is itself a distinct, valid
-source claim, not a restatement of another family's claim.
+## By source family (700 rows)
 
-## By source family
+| source_family | rows | what it is |
+|---|---|---|
+| ROOD_CORE_KRIYA | 178 | Babaji/Lahiri/Sri Yukteswar primary source records, **now label-propagated** |
+| GEEL_FOURPERSON | 126 | NKB/Ram Dass/Ramana/Ramakrishna base rows (unchanged from P0 build) |
+| AOAY_PLACE_ATLAS_RECONCILIATION | 123 | full 123-place internal AOAY atlas vs BLAUW |
+| AOAY_EXTERNAL_114_RECONCILIATION | 114 | full 114-record external 5-AI Yogananda union vs BLAUW+atlas |
+| BLAUW_AOAY_YOGANANDA | 58 | original BLAUW AOAY/Yogananda closure (P0 build, unchanged) |
+| ROOD_CORE_KRIYA_SPLIT | 58 | Core-Kriya sublocation splits, **now label-propagated** |
+| WIT_ANANDAMAYI_HERITAGE | 39 | WIT's promoted Anandamayi entities (P0 build, unchanged -- travel-core) |
+| WIT_ANANDAMAYI_PHOTO_LOCATION_CLOSURE | 2 | NEW: Bhowanipur + Serampore-station photo-event rows |
+| GEEL_NKB_RAMDASS_TURQUOISE_CLOSURE | 2 | NEW: TQ-ENT-018/019 (Jonapur ashram, unnamed Delhi estate) |
 
-| family | rows | note |
-|---|---:|---|
-| BLAUW_AOAY_YOGANANDA | 58 | AOAY/Yogananda closure layer (previously R4/R5 items), fully self-descriptive |
-| ROOD_CORE_KRIYA | 178 | Babaji/Lahiri Mahasaya/Sri Yukteswar primary source-record layer (146 claims + 32 negative controls), per ROOD's own lossless `_meta` |
-| ROOD_CORE_KRIYA_SPLIT | 58 | ROOD's own physical micro-site/successor splits, fully self-descriptive |
-| GEEL_FOURPERSON | 126 | NKB/Ram Dass/Ramana/Ramakrishna closure entities, fully self-descriptive, each backlinked to source freeze record IDs |
-| WIT_ANANDAMAYI_HERITAGE | 39 | Anandamayi/heritage closure entities — **representative promoted subset**, not the full underlying corpus (see Exceptions §1) |
-| **TOTAL** | **459** | |
+## AOAY/Yogananda -- EXHAUSTIVE (per Mark's correction)
 
-## By disposition
+Three independently-built AOAY corpora are now fully reconciled against each other with no
+physical entity counted twice:
 
-| disposition | rows |
-|---|---:|
-| PHYSICAL_ENTITY_LINKED (new, no existing canon ID) | 246 |
-| PHYSICAL_ENTITY_LINKED_TO_EXISTING_CANON (matches 001-081 or a staged OLD31-candidate) | 13 |
-| NEGATIVE/NONPRESENCE | 33 |
-| STILL_UNRESOLVED (R4/R5) | 167 |
+1. **BLAUW's 58 closure rows** (base P0 build) -- the anchor layer.
+2. **123-place internal PLACE_ATLAS** -- 37 EXPLICIT_DUPLICATE of BLAUW, 36 NEGATIVE/NONPRESENCE
+   (non-India mentions, kept visible not dropped), 14 new PHYSICAL_ENTITY_LINKED, 36 new
+   STILL_UNRESOLVED. = 123.
+3. **114-record external 5-AI union** (frozen PR #24 file, blob `089b652e...`, byte-verified
+   unchanged) -- 81 EXPLICIT_DUPLICATE of BLAUW, 10 EXPLICIT_DUPLICATE of the atlas reconciliation,
+   9 NEGATIVE/NONPRESENCE from the union's own explicit A8 "foutieve associatie" section (forced
+   negative regardless of incidental keyword overlap with a real site -- see bugfix note below),
+   2 more NEGATIVE/NONPRESENCE caught elsewhere (#65 Sabarmati, #96 Gouden Tempel -- both already-
+   flagged false associations), 6 new PHYSICAL_ENTITY_LINKED, 6 new STILL_UNRESOLVED. = 114.
 
-32 of the 33 negatives are ROOD's own explicit `negative_control` records (Core-Kriya claimant/
-non-presence controls); 1 is BLAUW's AOAY `NEGATIVE_NOT_VISITED` Rishikesh record. WIT and GEEL
-carry no additional negatives in their respective closure-entity layers.
+**Bugfix applied during this pass**: the external-114 reconciler initially let coincidental
+keyword overlap mark explicit "this did NOT happen" claims (Ranikhet, Ghurni, Taxila, Belur Math,
+the Dehradun-Anandamayi non-visit, the cancelled first Kashmir trip) as `EXPLICIT_DUPLICATE` of an
+unrelated real site. Fixed by forcing section-A8 rows to `NEGATIVE/NONPRESENCE` unconditionally
+before any keyword match runs. Caught and fixed before merge, not after.
 
-## Entity index
+**AOAY total physical-place claims accounted**: 58 (BLAUW) + 123 (atlas) + 114 (external-114) =
+295 source claims, all with an explicit disposition, closing into far fewer unique physical
+entities once duplicates are collapsed (see entity index).
 
-`ALL_FINDINGS_ENTITY_INDEX.jsonl` — 459 unique `physical_entity_key` values, one row per key, each
-with backlinked `master_row_id`s, `R_classes_seen`, `dispositions`, source families and (where
-applicable) the linked existing permanent/legacy canon ID.
+## ROOD Core-Kriya -- label propagation (P0-C)
 
-**Important scope caveat**: 459 unique keys is *not* the same claim as "459 unique physical places
-in India." Each family's own closure work already assigned distinct temporary keys at the
-resolution granularity that family chose (often already split to micro-site level, e.g. Kainchi has
-10 separate keys for room/river/bridge/hut/etc.), so this key count is the correct unit for the
-accounting equation above, but should not be read as a final GPS-place count — that requires the
-proximity/new-ID staging ZILVER already performs on top of this layer (see below).
+All **146 primary anchors** (178 source records + 58 splits = 236 rows total) now carry a real,
+human-readable place name, recovered by joining each closure ID back to its authoritative freeze
+file:
 
-## TURQUOISE cross-family relation overlay
+- **LM-\*** (Lahiri Mahasaya, 46 records) and **SY-\*** (Sri Yukteswar, 56 records incl. `N-*`
+  negatives) and their `NEG-LM-*` negatives: the freeze-file headings **already embed the ID**
+  (`### LM-004 — Tijdelijke gezinsverblijven in Benares vóór 1839`) -- direct, unambiguous join.
+- **IR-\*** (Babaji positives, 50 records) and **NEG-BABAJI-\*** (12 records): the freeze file
+  numbers headings but does not embed the `IR-`/`NEG-BABAJI-` ID in the heading text itself.
+  Verified empirically that document order matches ID order exactly (`IR-1` = heading "1.", `IR-25`
+  = heading "25. Puja-kamer van V.T. Neelakantan, 9 Surammal Lane, Egmore", etc. -- spot-checked
+  against the live file, not assumed) before using positional join.
+- **ext-B\*** (14 delta-matrix temporary records): already carried a `q` claim-label field in
+  `INDIAROOD_DELTA_MATRIX.jsonl`; used directly, no join needed.
 
-TURQUOISE's own `ENTITY_MERGE_MAP.jsonl` (20 rows) references an **older audit-ID scheme**
-(`VNS-CAND-*`, `B11`, `ATL-SY-*`, etc.) that predates the closure-candidate-keys ROOD/GEEL/WIT
-minted in this round. There is no automated ID join between the two. CCI performed a **manual,
-documented semantic match** (by place name/context, not by ID lookup) for 16 of the 20 TURQUOISE
-relations against this master's `physical_entity_key`s — all 16 found a match, tagging 68 entity-
-index rows with their `turquoise_relations` and a human-readable `turquoise_group_label` (e.g. all
-`LC-NKB-KAINCHI-*`/`LC-RD-KAINCHI-*` keys carry `TQ-ENT-002`, "Kainchi Dham parent complex +
-microsites"). The remaining 4 TURQUOISE relations (`TQ-ENT-014/015/018/019`) describe claims that do
-not yet have a corresponding closure-candidate-key in any of the four families' outputs and are
-therefore not joinable at this time — not dropped, just not yet backed by a row in this master (see
-Exceptions §5).
+**R-class/access/disposition were never touched** -- only `raw_place_name`/`normalized_claim_name`
+were filled in and the placeholder "label not yet propagated" note replaced with the real
+provenance note. 0/236 unmatched.
 
-**This manual join is a transparency-flagged methodology choice, not an automated guarantee** —
-an independent reviewer should be able to re-derive the same 16 matches from the same place names,
-but it was not produced by a deterministic ID lookup and should be spot-checked before being
-treated as load-bearing for a route decision.
+## Anandamayi Ma -- travel-core + lossless corpus reference (CORRECTED SCOPE)
 
-## Canon / A-B-C / lock integrity
+Mark's 2026-08-20 scope correction: do **not** exhaustively expand and individually
+travel-resolve all 292 known Anandamayi claims (156 external-union L-records + 108 source-first +
+28 CCI084 verification entries). Instead:
 
-`ALL_FINDINGS_LOCATION_MASTER_V0.md`'s canon file, `PROTECTED_CANON_BASELINE.csv`
-(`agent/indiazilver-cluster-completeness-audit`), was **read only, never written**, by this build's
-own scripts — existing IDs 001-081, all A/B/C values and all locks are therefore unchanged by
-construction, not merely by claim. 13 rows in this master link to an existing canon/legacy entry
-(`002`, `004`, `009`, `011`, `044`, `079`, plus the `OLD31-13/14/21/22/28/29` staged-candidate keys
-and `NKB_VRINDAVAN_EXISTING`) via the same explicit `SAME_AS_/NO_NEW_PARENT_ID__ENRICH_EXISTING`
-mapping ZILVER itself already established — CCI did not invent any new canon linkage, only
-propagated ZILVER's own stated mapping onto the corresponding master rows.
+- The **39 WIT-promoted entities** already in the P0-build master stay exactly as they were --
+  these already include several of the strongest, most travel-relevant sites (Bhadaini Ashram
+  Varanasi R1, Kankhal Ashram Haridwar R1, Vrindavan Ashram R1, Ranchi Ashram R1, Ratu Palace R1,
+  Ramanasramam cross-person R1, Karar Ashram cross-person R5).
+- **2 new rows** added directly from the bounded photo-location-closure subtask (below): the
+  Bhowanipur first-meeting site and the Serampore-station sighting, both cross-linked to their
+  already-resolved Yogananda-side BLAUW entities rather than counted as new physical entities.
+- The **full 236-row expansion** (133 new L-record rows + 83 new source-first rows + 20 new
+  CCI084 rows -- the remaining part of the 292-claim corpus not already represented by the 39
+  WIT entities, 56 of which were confirmed already-covered by name/keyword match against the 39)
+  is preserved losslessly, **each row already carrying its own computed disposition**
+  (115 PHYSICAL_ENTITY_LINKED, 120 STILL_UNRESOLVED, 1 NEGATIVE/NONPRESENCE), in
+  `ANANDAMAYI_FULL_CORPUS_REFERENCE.jsonl`. This file is committed alongside the master but its
+  236 rows are **not** promoted into `ALL_FINDINGS_LOCATION_MASTER.jsonl` -- per Mark's explicit
+  instruction not to spend heavy research effort resolving every minor Anandamayi house/address.
+  Nothing is silently dropped: every one of the 292 claims has a documented, auditable
+  disposition, just not all of them at "travel master row" status.
+- **Trigger to promote further**: if a future cluster decision brings Kolkata/East or a
+  Vrindavan/Braj-adjacent route into scope, or a cross-person overlap with another Top-11 person
+  surfaces inside this reference file, the relevant rows can be promoted from
+  `ANANDAMAYI_FULL_CORPUS_REFERENCE.jsonl` into the master without redoing any research.
 
-## Proximity
+## TURQUOISE relation-join closure (P0-D)
 
-Proximity is intentionally **not** recomputed or merged row-by-row into this master. ZILVER's
-`PROXIMITY_1KM_3KM_MATRIX.csv` (16 trustworthy numeric pairs, 7 tight bands, 0 guessed coordinates —
-independently re-verified by CCI in round-1 QA) remains the single authoritative proximity source,
-referenced here rather than duplicated, to avoid a second copy silently drifting out of sync with
-ZILVER's own file as ZILVER continues its work.
+| relation | resolution |
+|---|---|
+| **TQ-ENT-014** Serampore railway station | RESOLVED -- linked to `BLAUW-AYC-SRC-018` (already R1/EXACT in the base master); also now backed by the new Anandamayi photo-closure row (event 3). Respects TURQUOISE's own guard `DO_NOT_MERGE_WITH_SERAMPORE_ASHRAM`. |
+| **TQ-ENT-015** Bhowanipur disciple-house encounter zone | RESOLVED at neighbourhood level -- linked to `BLAUW-AYC-SRC-017` (R5, unchanged). Exact house/host address remains irreducibly unresolved: primary candidate source (Gurupriya Devi's diary) is a scanned image-PDF with no text layer (`BRON_GEBLOKKEERD`, OCR needed -- not a dead end, a concrete next step); the Sangha photo-archive image itself 404s. R5 is correct, not a gap. |
+| **TQ-ENT-018** Delhi/Jonapur NKB Ashram | RESOLVED -- instantiated as a new master row from GEEL's own `RECONCILIATION_MATRIX.jsonl` row 18 (was missing from the P0 build's row-level output despite existing in GEEL's reconciliation). R4/STILL_UNRESOLVED, matching GEEL's own PLAUSIBLE (not CONFIRMED) verdict. |
+| **TQ-ENT-019** Unnamed estate near Delhi | RESOLVED -- instantiated as a new master row from GEEL's `RECONCILIATION_MATRIX.jsonl` row 21. Kept as its own unnamed entity per TURQUOISE's explicit guard not to merge with Jonapur just because both are Delhi-region. |
 
----
-Geschreven door: CCI.
+All 4 previously-unjoined TURQUOISE relations are now closed with real master rows or an
+explicit, source-cited irreducible reason -- none silently dropped.
+
+## Canon integrity
+
+No row in this build touches `PROTECTED_CANON_BASELINE.csv` or any existing 001-081/A-B-C/lock
+ID. `PHYSICAL_ENTITY_LINKED_TO_EXISTING_CANON` (13 rows, unchanged from the P0 build) remain
+read-only references to canon IDs, never rewrites.

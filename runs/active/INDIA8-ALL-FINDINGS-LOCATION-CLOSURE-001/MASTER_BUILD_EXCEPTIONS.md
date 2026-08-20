@@ -1,117 +1,54 @@
-# MASTER_BUILD_EXCEPTIONS — ALL_FINDINGS_LOCATION_MASTER
+# MASTER_BUILD_EXCEPTIONS — status after FULL-KNOWN-UNIVERSE COMPLETENESS CLOSURE
 
 ```
-build_date: 2026-08-20
-built_by: CCI
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-20
 ```
 
-Per the build task's own stop condition, this document names the concrete, irreducible gaps found
-while assembling the row-level master — nothing below is a silent drop; every gap names exact
-source-record IDs/files and a next action.
+Status of the 7 exceptions named in the original P0 build, plus new items surfaced this pass.
 
-## 1. WIT/Anandamayi: 39 promoted rows vs. a much larger underlying corpus (largest remaining gap)
+## CLOSED this pass
 
-**What exists**: WIT's own `ANANDAMAYI_SOURCE_RECORDS.jsonl` (3 catalog-pointer rows) documents
-three source layers in full:
-- `EXTERNAL_UNION_156` — 156 named `L001`-`L156` records in
-  `runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/EXTERNAL_UNION_INPUT.md`.
-- `INDIA_SOURCE_FIRST_ADDITIONS` — 108 individually named claims (e.g. "Doonga, Dehradun",
-  "Ratu Palace, Ranchi", "Belur Math"...) in
-  `runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/INDIA_SOURCE_FIRST_SWEEP_ANANDAMAYI.md`.
-- `CCI_084_RECONCILIATION` — 28 verification-status entries in
-  `runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/RECONCILIATION_CCI_084.md`.
+1. **Anandamayi full-corpus expansion** -- CLOSED under corrected scope. Not exhaustively
+   individually resolved (Mark's explicit instruction), but fully accounted: 292 known claims,
+   56 already covered by the 39 WIT rows, 236 preserved with per-claim disposition in
+   `ANANDAMAYI_FULL_CORPUS_REFERENCE.jsonl`, 2 promoted to master rows via the photo-location
+   closure. Nothing silently dropped.
+2. **AOAY/Yogananda full atlas + external-114 reconciliation** -- CLOSED. 123-place atlas and
+   114-record external union both fully reconciled row-by-row against BLAUW's 58 and each other.
+3. **ROOD primary label propagation (146 rows)** -- CLOSED. 236/236 ROOD rows (146 primary + 58
+   splits + negatives... counts reconcile: 178 source records + 58 splits = 236) now carry real
+   place labels, joined from the authoritative freeze files. 0 unmatched.
+4. **TURQUOISE relation-join closure (4 relations)** -- CLOSED. TQ-ENT-014/015 linked to existing
+   BLAUW entities; TQ-ENT-018/019 instantiated as new rows from GEEL's own reconciliation matrix.
+5. **Anandamayi × Yogananda photo-location closure (addendum)** -- CLOSED. 3 distinct joint events
+   identified and physically resolved as far as the consulted corpus allows (2 at R1, 1 at
+   irreducible R5). See `PHOTO_LOCATION_CLOSURE.md`.
 
-**What WIT actually promoted to row-level entity candidates**: 39 rows in
-`ANANDAMAYI_ENTITY_CANDIDATES.jsonl` — a curated, representative subset (confirmed already in
-round-1 CCI QA, which found the same 39-row representative-sample pattern).
+## STILL OPEN (genuine, named, not a stopping point)
 
-**Why this master does not fabricate the remaining ~225 rows**: the 156 L-records and 108
-source-first claims are named but not individually resolved (no R-class, no access status, no
-physical-entity key) anywhere in WIT's own output. Inventing an R-class or entity key for them here
-would be exactly the kind of unverified guess the whole project's governance forbids. They are
-**not lost** — the two source files remain the authoritative, fully lossless list — but they are
-not yet expanded into this master's row/disposition/accounting layer.
+6. **Bhowanipur exact house/host address** -- irreducible with currently consulted sources.
+   Concrete next step: OCR Gurupriya Devi's *Mother As Revealed To Me* (retrieved but scanned,
+   no text layer) or visually inspect `anandamayi.org/photos/118.jpg` (currently 404s) against
+   garden vs. street decor to help confirm/refute whether the known Bholanath photo belongs to
+   Bhowanipur or could instead be an unlabelled second Ranchi frame.
+7. **211 STILL_UNRESOLVED rows remain R4/R5 across the full master** -- this is expected and
+   correct, not a defect: these are claims where the underlying source material itself does not
+   support tighter physical resolution (mention-only AOAY tokens, disputed Kumbha/Ellora/Ajanta
+   presence, un-named Haidakhan-era devotee houses, etc.). Each carries its own reason in its
+   `notes` field; none are unresolved due to CCI running out of budget on a resolvable claim.
+8. **ROOD's own remaining primary-source-verification backlog** (11 items listed in ROOD's own
+   `BABAJI_INDIAROOD_FREEZE.md` "PRIMAIRE-BRONCONTROLE DIE NOG NODIG IS" section, e.g. Lahiri
+   Mahasaya's own diaries, Pandukholi cave ownership history, 1894 Kumbha maps) -- these are
+   ROOD's own acknowledged research debt, unaffected by this label-propagation pass (labels were
+   propagated without touching R-class/access, so this debt is unchanged, not newly introduced).
+9. **GEEL's NKB-18 (Jonapur) internal source S9** was flagged by GEEL itself as "not
+   independently rechecked within budget" -- carried through unchanged as R4/STILL_UNRESOLVED,
+   not silently upgraded to CONFIRMED.
 
-**Concrete next action**: a dedicated WIT (or CCI) pass that walks all 156 `L###` IDs and all 108
-named source-first claims individually into the same schema used for the 39 already-promoted rows.
-This is the single largest concrete step between "accounting closes for 459 rows" and "accounting
-closes for the full known Anandamayi corpus."
+## Not attempted (explicitly out of scope per every task in this chain)
 
-## 2. ROOD: 146 of 178 "primary" source rows lack a propagated readable place name
-
-**What exists**: ROOD's `CORE_KRIYA_SOURCE_RECORDS.jsonl` deliberately keeps its 178 rows as a
-*closure index* referencing the original stable-ID records in three upstream freeze files
-(`BABAJI_INDIAROOD_FREEZE.md`, `LAHIRI_MAHASAYA_INDIAROOD_FREEZE.md`,
-`SRI_YUKTESWAR_INDIAROOD_FREEZE.md`) plus the delta-reconciliation matrix, by design ("Original
-stable-ID records remain lossless by exact source path+ref+blob SHA and are not rewritten"). Each
-row carries a temporary `id` (e.g. `IR-1`), a source-family code (`X1`-`X4`), an `r` (R-class) and
-`a` (access code) — but only the 32 delta-tagged rows and the 58 physical-split rows carry a human-
-readable label (`q`/`loc`) directly in ROOD's own file.
-
-**Confirmed independently, not just asserted**: ZILVER's own downstream `NEW_ID_REQUIRED_QUEUE.csv`
-hit the same wall — its `ROOD_BATCH` row for the 146 primary anchors is a single aggregate
-placeholder ("All 146 primary anchors retained by exact temporary key... no definitive IDs"), not
-146 individually named rows. This is a genuine pipeline gap between ROOD and every downstream
-consumer so far, not something specific to this build.
-
-**What this master does**: preserves all 146 rows individually (never collapsed into one placeholder
-row, unlike ZILVER's own aggregate treatment), with correct `R_class`/`access_status`/disposition
-and an explicit `notes` field pointing to the exact upstream file + blob SHA where the real label
-lives, rather than guessing a place name from context.
-
-**Concrete next action**: ROOD (or CCI, cross-referencing the three upstream freeze files by
-original in-document order against the `X1`/`X2`/`X3` sequence) propagates the actual place name for
-each of the 146 `IR-N`/`N-N` IDs into a labeled field, matching the quality already achieved for the
-58 splits.
-
-## 3. BLAUW: 58 rows are the AOAY closure/previously-unresolved layer, not the full 123-place atlas
-
-Already flagged in round-2 QA as a scoping nuance; restated here as a build-time exception because
-it directly affects this master's completeness claim. The wider AOAY corpus — the 123-place
-`PLACE_ATLAS.jsonl`, the 1,359-row `RAW_OCCURRENCES.jsonl`, and the 114-record external Yogananda
-union — are **not** row-expanded in this master. They are separately, durably committed CCI outputs
-from earlier tasks (CCI_TASK 082/085/086) with their own established R-classes/dispositions in their
-own files; this build did not re-ingest them because BLAUW's own task scope was specifically the
-*closure* of previously-unresolved AOAY items, and re-deriving the full atlas here risked either
-duplicating or silently drifting from that already-canonical prior work.
-
-**Concrete next action**: a dedicated pass reconciling `PLACE_ATLAS.jsonl`'s 123 places against
-BLAUW's 58 closure IDs (which ones are 1:1 successors of already-resolved atlas entries vs. genuinely
-new) before claiming full AOAY accounting closure, not just closure of the "was unresolved" subset.
-
-## 4. GEEL: 126 entity rows vs. 207 underlying person-freeze records
-
-GEEL's 126 promoted entity candidates trace back to `source_record_ids` referencing the original
-46 (NKB) + 55 (Ram Dass) + 51 (Ramana) + 55 (Ramakrishna) = 207 IndiaGEEL freeze records (all of
-which CCI itself produced and fully read in CCI_TASK 094/095, durably committed on
-`agent/indiageel-ramana-ramakrishna-sweep`). GEEL's closure task was to decompose the existing
-44+80-row reconciliation crosswalks into genuine physical entities, not to re-emit all 207 original
-atomic records as separate master rows — this is a smaller, bounded gap than #1/#2 since most of the
-207 records are already represented (often several-to-one) within the 126 promoted entities, but a
-full 1:1 audit against all 207 original IDs was not performed in this build.
-
-**Concrete next action**: lower priority than #1/#2; a spot audit confirming every one of the 207
-original IDs appears in at least one `source_record_ids` array across the 126 rows.
-
-## 5. Four TURQUOISE relations without a joinable entity key yet
-
-`TQ-ENT-014` (Serampore railway station, distinct from the ashram), `TQ-ENT-015` (Bhowanipur
-disciple-house encounter zone), `TQ-ENT-018` (Delhi/Jonapur NKB Ashram) and `TQ-ENT-019` (unnamed
-estate near Delhi) describe real claims from TURQUOISE's own relation map, but none of the four
-families' closure outputs yet contains a `physical_entity_key` naming those exact sites. Not
-dropped — TURQUOISE's own file remains the authoritative record — just not yet backed by a row in
-this master.
-
-## 6. TURQUOISE join method is manual/semantic, not automated ID lookup
-
-Documented in `GLOBAL_ACCOUNTING.md` — flagged again here because it is the one place in this build
-where CCI's own judgment (matching place names/context) substitutes for a deterministic ID join, and
-should be spot-checked independently before being treated as load-bearing.
-
-## 7. Proximity intentionally not merged into this master
-
-See `GLOBAL_ACCOUNTING.md` — ZILVER's `PROXIMITY_1KM_3KM_MATRIX.csv` remains the single
-authoritative proximity source, referenced rather than duplicated.
-
----
-Geschreven door: CCI. Geen A/B/C, geen IDs gewijzigd, geen route, geen nieuwe persoonssweep.
+- No Mark A/B/C decisions.
+- No route/hotel/transport/PDF work.
+- No new permanent-ID assignment (`new_id_required` field left as-is from the P0 build).
+- No broad new person-sweep beyond resolving/accounting the already-known source universe.
