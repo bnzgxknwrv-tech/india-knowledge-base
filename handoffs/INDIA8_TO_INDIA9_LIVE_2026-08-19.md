@@ -33,25 +33,26 @@ Merge `f5e156f3e23850cc5f52f71bf26ff3a2346b6900`; same-site `4cd8396f6acf19b7056
 
 ### GEEL — COMPLETE 2026-08-20
 Task `INDIAGEEL-FOURPERSON-LOCATION-CLOSURE-001` on `agent/indiageel-ramana-ramakrishna-sweep` COMPLETE.
-Commits: source `9cbf630f55858afabf53839dd6d3c9269baee695`; entities `30486eaf3478057246727a56fd5fb8a5b22a1189`; R4/R5 `314094dc49a539fc71fc4117e2d27cd51a54c554`; access `da7184ab727b3100a5c43dbd068e32fb45c696a7`; status `9c0b1a0d7ec5b8990287cb79c53f17db52f93f09`.
-Central receipt: `b1f5b26de727ef735fc7edb4186f7ec07e36a2d5`.
-Critical: micro-sites split losslessly for Hotel Evelyn, Kainchi/Bhumiadhar, NKB final journey, Ramana caves/Ramanasramam, Ramakrishna Fouzdar Kunj/Ganga Mata/Mani Sen/Cossipore. R4/R5 retained. ZILVER GEEL feed commit `8a9f6e33b62e08a97fd6375e87838df190d5eabc`.
+Commits: source `9cbf630f55858afabf53839dd6d3c9269baee695`; entities `30486eaf3478057246727a56fd5fb8a5b22a1189`; R4/R5 `314094dc49a539fc71fc4117e2d27cd51a54c554`; access `da7184ab727b3100a5c43dbd068e32fb45c696a7`; status `9c0b1a0d7ec5b8990287cb79c53f17db52f93f09`. Central receipt `b1f5b26de727ef735fc7edb4186f7ec07e36a2d5`. ZILVER feed `8a9f6e33b62e08a97fd6375e87838df190d5eabc`.
 
-### WIT — CONTENT COMPLETE, SCHEMA PASS DISPATCHED
-Outputs: `cf5974bf69053e466e94a93433cd8282adbde7ba`, `1fd1ec3213466e3c440ea5143e0c6d6f91c2d971`, `e1d8f8422501fb9a579e7269dd8e81caf561587e`, `61d96b016786d9208c964661cdaa92f72f1e9621`, `c6933d04b1a93e50015bf5ecdec7b34d0cb7c187`, status `aae890510c44cad584fabc3ffb671a93d1d902ab`. Central receipt `e2b2243ddc92db587aec69c6c9cb2b7cbab1281a`. Canonical R1-R5 schema pushed to WIT as `6ac2647c855fe55f8c418b7e76d7159d379d8753`; WIT must only schema-classify existing researched entities, no rediscovery.
+### WIT — COMPLETE 2026-08-20
+Final schema-classified outputs: ANANDAMAYI_ENTITY_CANDIDATES `379b637706023b6f1891ba53e89b16150c193fee`; HERITAGE_STAY_ENTITY_MATRIX `ef493aad36650de1dcc7caa24645bab185ee3ab5`; STATUS `b5ec1abddfe23669c8ea273970760944d312a90a`. Central final receipt `3ef793a806bbb9b9bf28e0c34a0b3c90f3a8ac62`. ZILVER final WIT feed `43fef27574e0bb620d4c404ce6e94b5b49e3b086`. All researched Anandamayi + cross-person heritage entities now have canonical R1-R5 + access; unresolved room/access/bookability retained; no rediscovery needed.
 
-### ROOD — INPUT BLOCKER REMOVED
+### ROOD — INPUT BLOCKER REMOVED, ACTIVE
 ROOD TASK explicitly permits read-only cross-branch input from `agent/india8-cluster-casting` for exact delta files + governance; writes remain only on `agent/indiarood-core-kriya-sweep`. TASK update `846bd86ae99dab6577600e9f5fbcd1922b7bc1d4`; STATUS `READY_UNBLOCKED_CROSS_BRANCH_INPUTS_ALLOWED` commit `828950f06b9bfe4b273131b2e1d6f4b713c2915b`. ROOD must continue immediately.
 
-### ZILVER — STAGED, NOT BLOCKED
-Works from existing canon + known 31 candidates, reliable coordinates only, UNKNOWN/dependency otherwise. TURQUOISE feed commit `1d1607dba2d48fae604ce5cd469fe98876f9a4bd`; GEEL feed commit `8a9f6e33b62e08a97fd6375e87838df190d5eabc`. Must not wait for ROOD/WIT.
+### ZILVER — STAGED, ACTIVE, NOT BLOCKED
+Works from existing canon + known 31 candidates, reliable coordinates only, UNKNOWN/dependency otherwise. TURQUOISE feed `1d1607dba2d48fae604ce5cd469fe98876f9a4bd`; GEEL feed `8a9f6e33b62e08a97fd6375e87838df190d5eabc`; WIT final feed `43fef27574e0bb620d4c404ce6e94b5b49e3b086`. Must not wait for ROOD if current staged work remains.
+
+## ACTIVE CLOSURE STREAMS NOW
+Only ROOD + ZILVER remain active. BLAUW, TURQUOISE, GEEL, WIT are complete and should not be re-run.
 
 ## IMMEDIATE NEXT ACTIONS FOR INDIA9
 1. Enforce DOORGANGSPROTOCOL every turn.
-2. Register ROOD/WIT/ZILVER result immediately when it arrives.
-3. If any agent reports blocker: treat blocker as regie-task, attempt repo/branch/path/cross-branch/staged workaround immediately, and continue another workstream if true blocker remains.
-4. Once feeds sufficiently close, build consolidated `ALL_FINDINGS_LOCATION_MASTER` with explicit source->entity links and accounting equation.
-5. Then complete cluster lists -> Mark A/B/C -> cluster choice -> route/nights/transport/hotels.
+2. Register ROOD and ZILVER result immediately when they arrive.
+3. If blocker: solve repo/branch/path/cross-branch/staged dependency immediately; do not stop the program.
+4. In parallel, prepare consolidated `ALL_FINDINGS_LOCATION_MASTER` structure and accounting so final ingest can start as soon as ROOD/ZILVER close.
+5. After master closure: complete cluster lists -> Mark A/B/C -> cluster choice -> route/nights/transport/hotels.
 
 ## HARDE GRENZEN
 Geen A/B/C namens Mark. Geen silent filtering. Geen oude locks wijzigen. Geen route definitief vóór candidate closure. Geen PDF zonder PDF_GO. Geen merge zonder Mark. Oost geparkeerd. Ademruimte blijft expliciet reisdoel.
