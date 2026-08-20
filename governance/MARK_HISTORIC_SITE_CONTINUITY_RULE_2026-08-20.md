@@ -23,8 +23,20 @@ If Yogananda and another person lived, walked, talked, meditated, sat, ate, slep
 
 Original fabric is a bonus, not a prerequisite.
 
+## ABC-PHASE RESEARCH BUDGET — IMPORTANT
+During the current cluster A/B/C selection phase, DO NOT launch expensive micro-location research merely to decide whether an already well-localized historic site deserves A/B/C.
+
+If event certainty + site continuity are sufficient for Mark to understand the significance of the visitable place, present the site and move on. Do not attempt exhaustive old-photo comparison, architectural matching, room reconstruction, exact tree/pond/gate identification or similar work at this stage unless the microplace itself is the only reason the candidate would be visitable.
+
+Known micro-site findings from completed sweeps remain preserved, but unresolved micro-sites must not generate a new research spiral now.
+
 ## A-site end-stage requirement
-For every Mark A site, the final travel guide must later attempt micro-resolution: original surviving structures, rooms, gardens, ponds, gates, steps, trees, caves, platforms, station/perron areas, photo positions, etc.; what happened at each; who was present; current access; and uncertainty. Never invent precision.
+Only AFTER clusters and A-sites are substantially selected, the final travel-guide phase may attempt useful micro-resolution for the A-sites: surviving original rooms/structures, gardens, ponds, gates, steps, trees, caves, platforms, station/perron areas, photo positions, shrines or displays; what happened there; who was present; current access; and uncertainty.
+
+This later work is prioritized by practical travel value. It is not a requirement to prove every historical microplace. Never invent precision.
+
+## ON-SITE REALITY
+Some details may only become obvious on location: an old photograph, commemorative plaque, shrine, guide explanation, preserved room, changed building, or visible historic feature. That is acceptable. The planning system does not need to reconstruct every such detail in advance.
 
 ## Presentation rule
-When presenting a candidate to Mark, explicitly state SITE CONTINUITY separately from BUILDING CONTINUITY. Avoid vague wording such as 'not the same building' when the historically important grounds are securely the same place.
+When presenting a candidate to Mark, explicitly state SITE CONTINUITY separately from BUILDING CONTINUITY where relevant. Keep the explanation practical. Avoid vague wording such as 'not the same building' when the historically important grounds are securely the same place, and avoid flooding the A/B/C decision with unresolved micro-site caveats that do not affect whether the site itself is worth visiting.
