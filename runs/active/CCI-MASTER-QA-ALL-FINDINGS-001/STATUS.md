@@ -17,3 +17,19 @@ kern: geen data-integriteitsfouten gevonden bij steekproef (0 silent drops, 0 ge
 next_allowed_step: CCI stopt en wacht op INDIA8/INDIA9-QA. Beschikbaar voor een tweede, korte
   verificatiepas zodra P0 gesloten is (op de samengevoegde master zelf en op de eerste clusterslice
   Vrindavan/Braj).
+
+## Update — Ronde 2 (CCI, 2026-08-20)
+
+INDIA8 reageerde direct op P0-1: `ALL_FINDINGS_LOCATION_MASTER_V0.md` bestaat nu. Familie A (AOAY/
+Yogananda) volledig rij-per-rij uitgewerkt (58/58, handmatig geteld, geen gat/duplicaat) en
+gekruiscontroleerd tegen ronde 1's eigen unresolved-queue — alle eerder genoteerde items zijn terug
+te vinden met een concrete dispositie. Families B/C/D (Core Kriya/GEEL/WIT) staan nog met
+representatieve voorbeeldrijen, eerlijk zelf zo gelabeld. Geen nieuwe fouten gevonden. Verdict
+blijft `PASS_WITH_FIXES`. Nieuw punt: de "58/58"-accounting is correct binnen BLAUW's eigen
+taakscope maar dekt nog niet expliciet de bredere AOAY-corpus (123-atlas/114-unie/1.359-occurrence)
+— concretisering van P0-2, geen nieuwe fout. Volledig rapport: `MASTER_QA_REPORT_ROUND2.md`.
+
+next_allowed_step (actueel): INDIA8 breidt Families B/C/D uit tot dezelfde volledigheid als A;
+koppelt daarbij expliciet de bredere AOAY-corpus terug; vervangt/markeert de verouderde
+`FEED_INDIAZILVER_PARTIAL_...md`. CCI voert een derde verificatieronde uit zodra dat klaar is en de
+globale accounting-vergelijking kan sluiten.
