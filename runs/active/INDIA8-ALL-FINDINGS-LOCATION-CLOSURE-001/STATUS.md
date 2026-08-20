@@ -2,46 +2,51 @@
 
 ```
 task_id: INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001
-state: STAGE_A_SOURCE_LEDGER_BUILT__ENTITY_EXPANSION_AND_DEDUP_REQUIRED
+state: PARALLEL_RESOLUTION_DISPATCHED__WAITING_FOR_AGENT_OUTPUTS__CENTRAL_INTEGRATION_ACTIVE
 branch: agent/india8-cluster-casting
 last_updated: 2026-08-20
 executed_by: INDIA8
 ```
 
-## COMPLETED NOW
-- Global no-silent-drop governance established in `governance/LOCATION_RESOLUTION_BEFORE_ABC_2026-08-19.md`.
-- Repo-wide source families inspected for AOAY, Yogananda external/reconciliation, Core Kriya, Ramana/Ramakrishna, NKB/Ram Dass, Anandamayi Ma and targeted Vivekananda/Hariharananda.
-- `SOURCE_LEDGER.md` created with verified source-family counts and accounting rule.
-- `GLOBAL_UNRESOLVED_QUEUE_SEED.md` created so difficult/unknown micro-sites cannot disappear during later cluster presentation.
+## COMPLETED
+- Global no-silent-drop governance established.
+- Repo-wide source families inspected for AOAY, Yogananda, Core Kriya, Ramana/Ramakrishna, NKB/Ram Dass, Anandamayi Ma and targeted Vivekananda/Hariharananda.
+- `SOURCE_LEDGER.md` built.
+- `GLOBAL_UNRESOLVED_QUEUE_SEED.md` built.
+- Directly countable source-layer lower bound: >=856 records/listed claims; NOT a unique-place count.
+- Unique physical entity count intentionally withheld until traceable reconciliation closes.
 
-## VERIFIED COUNTS / LOWER BOUND
-- AOAY: 1,359 raw occurrences; 123 normalized places; first atlas not saturated.
-- Core Kriya IndiaROOD source freezes: Babaji 50, Lahiri 40, Sri Yukteswar 42; reconciliation crosswalk exactly 120 rows.
-- Ramana 51 + Ramakrishna 55; reconciliation crosswalk exactly 80 rows.
-- NKB 46 + Ram Dass 55; reconciliation crosswalk exactly 44 rows.
-- Vivekananda targeted 9; Hariharananda targeted 7.
-- Yogananda external union: 114 records.
-- Anandamayi external union: 156 master locations; independent source-first pass lists 108 additional/extra-route discovery claims before formal dedup against union.
+## PARALLEL EXECUTION NOW DISPATCHED
+Central dispatch: `runs/active/INDIA8-ALL-FINDINGS-DISPATCH-001/DISPATCH.md`.
+Active handoff: `handoffs/INDIA8_TO_INDIA9_DISPATCH_2026-08-20.md`.
 
-Known directly countable normalized/source-list inputs therefore total at least 856 source-layer location records/listed claims. This is NOT a unique-place count and MUST NOT be presented as one. It deliberately excludes the 1,359 raw AOAY occurrences, crosswalk matrices and negative controls from the arithmetic.
+Six READY workpacks:
+1. BLAUW — AOAY/Yogananda exact-location/access closure.
+2. ROOD — Babaji/Lahiri/Sri Yukteswar location closure.
+3. GEEL — NKB/Ram Dass/Ramana/Ramakrishna location closure.
+4. WIT — Anandamayi + heritage-stay location closure.
+5. ZILVER — protected canon / coordinate / ID-prep / <=1km <=3km proximity.
+6. TURQUOISE — cross-person entity/alias/parent-child/successor reconciliation.
 
-## IMPORTANT FINDING
-The unresolved burden is material, not incidental. Existing reconciliations retain unresolved hotels, rooms, private homes, dharamshalas, historic offices, stations, caves, pilgrimage micro-sites, host houses and broad-place records. The old practice of presenting only already-easy exact sites would therefore materially hide travel options.
+## CENTRAL INTEGRATION GATE
+For every source record, final disposition must be exactly one traceable path:
+- PHYSICAL_ENTITY
+- DUPLICATE_TO_ENTITY
+- NEGATIVE/NONPRESENCE
+- UNRESOLVED_AFTER_EXHAUSTION
 
-## CURRENT GATE
-`UNIQUE_PHYSICAL_ENTITY_COUNT: NOT_YET_SAFE`
-Reason: detector and person layers overlap heavily and several reconciliation rows aggregate multiple sublocations. A unique count can only be published after one-row-per-source-claim expansion and traceable entity links.
+Aggregate rows must be expanded before counting unique entities. Micro-sites inside a complex remain parent-child unless actual duplicate evidence exists.
 
-## NEXT_ALLOWED_STEP — MUST EXECUTE BEFORE MARK A/B/C
-1. Expand every relevant source layer to one row per source claim in `ALL_FINDINGS_LOCATION_MASTER`.
-2. Link every row to a physical entity or explicit unresolved/negative/duplicate disposition.
-3. Expand aggregate reconciliation rows (especially Ramakrishna Kolkata ~80-record network and compound ashram/room/courtyard rows) so no micro-site is hidden.
-4. Classify entities R1-R5.
-5. Research all R4/R5, highest weight first: AOAY personal scenes -> Kriya/Babaji -> overlaps/heritage stays -> other person locations -> transit/context.
-6. Add current access status to every R1/R2/R3 entity.
-7. Only then reopen Vrindavan/Braj, Prayagraj/Allahabad and the certain clusters for Mark A/B/C.
+## AFTER AGENT OUTPUTS
+INDIA8/INDIA9 does NOT wait for all six if some finish earlier. Integrate completed outputs incrementally. Create targeted repair tasks for any incomplete R4/R5 family while other streams continue.
 
-## TRAVEL SCOPE UNAFFECTED
-Oost remains parked for this trip but its findings remain in the master. Haridwar/Kankhal/Rishikesh remains off as an independent route cluster; its stored A/B choices and unresolved AOAY scene remain preserved. Current core focus remains Delhi short, Kumaon, Varanasi, Bodh Gaya and Tiruvannamalai / Arunachala, with Vrindavan/Braj and Prayagraj/Allahabad to be decided after resolution closure.
+Order after reconciliation:
+1. close remaining high-weight R4/R5;
+2. finalize entity count;
+3. prepare/assign new permanent IDs without touching old IDs;
+4. Mark A/B/C for Vrindavan/Braj + Prayagraj/Allahabad and additive deltas in certain clusters;
+5. complete Tiruvannamalai / Arunachala candidates;
+6. route/nights/transport/hotels.
 
-No Mark A/B/C changed. No existing permanent IDs changed. No PDF. No merge.
+## HARD
+No Mark A/B/C changed. No existing permanent IDs changed. No route finalization. No PDF. No merge. No silent filtering.
