@@ -50,3 +50,30 @@ Order after reconciliation:
 
 ## HARD
 No Mark A/B/C changed. No existing permanent IDs changed. No route finalization. No PDF. No merge. No silent filtering.
+
+## Update — CCI P0 build complete (CCI, 2026-08-20)
+
+CCI executed the P0 task dispatched via PR #23 ("CCI_TASK — CENTRAL MASTER P0 BUILD"): physically
+assembled the row-level master by fetching all six family branches locally (not via secondhand
+central-branch summaries) and normalizing each family's own schema into one common row format.
+
+**New files in this directory**:
+- `ALL_FINDINGS_LOCATION_MASTER.jsonl` — 459 row-level records (BLAUW 58, ROOD 178 primary + 58
+  physical splits, GEEL 126, WIT 39), each with explicit disposition.
+- `ALL_FINDINGS_ENTITY_INDEX.jsonl` — 459 unique physical-entity-key rows with backlinks, R-classes,
+  dispositions, existing-canon linkage (13 rows link to 001-081/legacy canon), and a manual
+  TURQUOISE same-site relation overlay (68 rows tagged across 16 of TURQUOISE's 20 relations).
+- `GLOBAL_ACCOUNTING.md` — the accounting equation **closes**: 459 = 259 (physical-entity-linked,
+  incl. 13 already-canon) + 0 (explicit duplicate — expected, families are person-partitioned) + 33
+  (negative/nonpresence) + 167 (still unresolved).
+- `MASTER_BUILD_EXCEPTIONS.md` — 7 named, concrete, irreducible gaps (not silent drops), the largest
+  being WIT/Anandamayi's 39 promoted rows vs. its own documented 156-external-union +
+  108-source-first corpus, and ROOD's 146 primary rows lacking a propagated readable label (a gap
+  independently confirmed to already exist in ZILVER's own downstream output, not introduced here).
+
+**Canon integrity**: `PROTECTED_CANON_BASELINE.csv` was read-only throughout this build; existing
+IDs 001-081 and all A/B/C/locks are unchanged by construction.
+
+**next_allowed_step**: INDIA8/INDIA9 reviews `MASTER_BUILD_EXCEPTIONS.md` and decides whether to
+close gap #1 (WIT/Anandamayi full expansion) before the Vrindavan/Braj or Prayagraj/Allahabad
+cluster slices go to Mark, per this task's own `MARK-READY GATE`. Full report posted to PR #23.
