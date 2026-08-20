@@ -89,3 +89,5 @@ LEGACY_PROTECTED,KUMAON-LEGACY-31,Mirtola / Krishnaprem Ashram,KUMAON,C,LOCKED_B
 LEGACY_PROTECTED,KUMAON-LEGACY-32,Binsar Wildlife Sanctuary,KUMAON,C,LOCKED_BY_MARK,NOT_GLOBAL_PERMANENT_ID,,,UNKNOWN,KUMAON RECONCILIATION,"Do not convert legacy number into global ID"
 LEGACY_PROTECTED,KUMAON-LEGACY-33,Patal Bhuvaneshwar,KUMAON,C,LOCKED_BY_MARK,NOT_GLOBAL_PERMANENT_ID,,,UNKNOWN,KUMAON RECONCILIATION,"Do not convert legacy number into global ID"
 LEGACY_PROTECTED,KUMAON-LEGACY-38,Dhaulchina Ashram,KUMAON,C,LOCKED_BY_MARK,NOT_GLOBAL_PERMANENT_ID,,,UNKNOWN,KUMAON RECONCILIATION,"Do not convert legacy number into global ID"
+FEED_GUARD,ROOD-FINAL,Core Kriya final entity feed,GLOBAL,N/A,PRESERVE_001_081,NO_DEFINITIVE_ID_ISSUE,,,MIXED_R1_R5,ROOD_ENTITY_FEED + source commit 96d1a58,"204 temporary physical candidates integrated only as additive staging; claimant traditions and historic/current layers remain separate"
+FEED_GUARD,WIT-FINAL,Master travel-readiness integration,GLOBAL,N/A,PRESERVE_001_081,NO_DEFINITIVE_ID_ISSUE,,,NO_NEW_COORDINATES,WIT COMPLETE master outputs,"WIT supplies exact-site/non-merge/travel context only; no protected canon or A/B/C mutation"
