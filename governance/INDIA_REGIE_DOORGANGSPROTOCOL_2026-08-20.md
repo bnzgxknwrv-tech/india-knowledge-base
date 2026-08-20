@@ -23,11 +23,22 @@ Bij ieder COMPLETE/PARTIAL/BLOCKED-resultaat van een kleur of CCI:
 2. registreer het direct in de centrale INDIA8/INDIA9 feed/handoff;
 3. bepaal onmiddellijk wat dit downstream ontgrendelt;
 4. voer die downstream actie NU uit: task aanpassen, feed maken, dependency ontsluiten, central master bijwerken, of volgende agent dispatchen;
-5. kijk vervolgens of er nog een onafhankelijk parallel werkpakket klaarstaat; zo ja, dispatch dat ook;
+5. kijk vervolgens of er nog een onafhankelijk parallel werkpakket klaarstaat; zo ja, dispatch dat alleen binnen de actieve-agentlimiet hieronder;
 6. pas daarna kort rapporteren aan Mark.
 
 Nooit: `resultaat binnen -> samenvatten -> stoppen`.
-Wel: `resultaat binnen -> integreren -> volgende dependency starten -> paralleliseren -> kort rapporteren`.
+Wel: `resultaat binnen -> integreren -> volgende dependency starten -> beperkte parallelisatie -> kort rapporteren`.
+
+## ACTIEVE-AGENTLIMIET — MARK BESLUIT 2026-08-20
+Om plakwerk, branch-sync en regie-overhead te beperken geldt voortaan:
+- standaard maximaal **2 actieve uitvoerende streams tegelijk** naast de centrale regiechat;
+- voorkeur: `INDIA8/9 regie + 1 zware worker`; alleen als echte parallelle winst groot is mag tijdelijk een tweede worker actief zijn;
+- geen nieuwe kleurenwaaier opzetten als bestaand werk door 1 of 2 workers sequentieel kan worden uitgevoerd;
+- een bestaande worker krijgt bij voorkeur direct de volgende taak zodra zijn huidige taak klaar is;
+- afgeronde kleuren worden niet opnieuw geactiveerd tenzij hun unieke eerdere context echt noodzakelijk is;
+- consolidatie/integratie blijft bij INDIA8/9, zodat Mark niet meerdere agents hoeft te synchroniseren.
+
+Als al meer dan twee workers actief zijn wanneer deze regel ingaat: laat lopende taken afmaken, maar geef afgeronde workers geen nieuwe taak totdat de actieve set is teruggebracht tot maximaal twee.
 
 ## DOORGAANS-CHECK VOOR ELKE FINALE ANTWOORD
 Voor verzenden moet de regie-agent intern deze vragen beantwoorden:
@@ -35,7 +46,7 @@ Voor verzenden moet de regie-agent intern deze vragen beantwoorden:
 - Wat is nu de kritieke keten naar dat eindpunt?
 - Welke stap kan ik ZONDER Mark nu zelf uitvoeren?
 - Heb ik die stap daadwerkelijk uitgevoerd/gestart?
-- Kan nog een andere agent parallel werken?
+- Kan maximaal één extra worker nuttig parallel werken zonder overdrachtslast te vergroten?
 - Heb ik die taak al duurzaam uitgezet als dat nuttig is?
 - Is de actuele stand veilig genoeg opgeslagen dat INDIA9/later zonder chatgeschiedenis kan doorgaan?
 
@@ -51,7 +62,7 @@ INDIA-regie:
 - bepaalt zelfstandig werkvolgorde;
 - maakt taken/branches/feeds;
 - lost dependencies op;
-- zet parallelle agents aan het werk;
+- zet beperkt parallelle agents aan het werk;
 - integreert resultaten;
 - bewaakt no-silent-drop, IDs, locks en methodiek;
 - brengt pas keuzes naar Mark wanneer de informatie beslisrijp is.
@@ -69,11 +80,12 @@ Geen eindigen met abstracties als `dit staat nu hard in de handoff` zonder direc
 ## MEGA-KLUS / PARALLELLISATIE
 Bij grote worksets:
 - eerst lossless centrale scope;
-- splits daarna in onafhankelijke pakketten;
-- parallel waar mogelijk;
+- splits alleen wanneer dat echte doorlooptijdwinst geeft;
+- maximaal twee actieve workerstreams;
 - ieder pakket commit tussentijds/duurzaam;
-- ieder COMPLETE-resultaat direct integreren zonder te wachten op alle andere pakketten;
-- zodra een downstream taak gedeeltelijk kan draaien, staged uitvoeren in plaats van wachten op perfecte input.
+- ieder COMPLETE-resultaat direct integreren zonder te wachten op andere pakketten;
+- zodra een downstream taak gedeeltelijk kan draaien, staged uitvoeren in plaats van wachten op perfecte input;
+- na de brede researchfase terugschakelen naar één worker + regie voor consolidatie.
 
 ## BLOCKER-REGEL
 Een blocker is een taak voor de regie-agent, niet automatisch een reden om te stoppen.
