@@ -57,4 +57,4 @@ OLD31-28,025,COORDINATE_DEPENDENCY,TRUSTED_HERITAGE_COORD,APPROXIMATE_100_500M,U
 OLD31-28,028,COORDINATE_DEPENDENCY,TRUSTED_HERITAGE_COORD,APPROXIMATE_100_500M,UNKNOWN,UNKNOWN,DEPENDENCY_COORDINATE,"Approximate point not used for <=1 km / <=3 km gate"
 OLD31-28,VNS-041-045,COORDINATE_DEPENDENCY,TRUSTED_HERITAGE_COORD,UNKNOWN_NOT_GEO_VERIFIED,UNKNOWN,UNKNOWN,DEPENDENCY_COORDINATE,"Five provisional permanent records remain without trusted coordinates"
 SUMMARY,TRUSTED_NUMERIC_PAIRS,COUNT,NA,NA,16,NUMERIC_PAIRS_COMPUTED,APPEND_ONLY,"15 pairwise calculations across the six trusted Varanasi endpoints plus 046-047 Bodh Gaya; no guessed coordinates"
-SUMMARY,TIGHT_BANDS,COUNT,NA,NA,6,"<=1km:4; <=3km additional:2",NO_AUTO_ABC,"Rana Mahal contributes one <=1km pair (019) and one additional <=3km pair (018); remaining tight pairs are existing-existing baseline references"
+SUMMARY,TIGHT_BANDS,COUNT,NA,NA,7,"<=1km:4; <=3km additional:3",NO_AUTO_ABC,"Rana Mahal contributes one <=1km pair (019) and one additional <=3km pair (018); 046-047 contributes one additional <=3km baseline pair; remaining tight pairs are existing-existing Varanasi baseline references"
