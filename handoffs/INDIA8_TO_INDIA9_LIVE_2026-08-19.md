@@ -3,56 +3,49 @@
 ## MANDATORY FIRST READ FOR INDIA9+
 Lees vóór regie-uitvoering:
 `governance/INDIA_REGIE_DOORGANGSPROTOCOL_2026-08-20.md`
-Commit: `4a0acf0a397c221a29955dee84b55c4508b72bb0`.
-Dit protocol is HARD: nooit eindigen met alleen status/volgende stap; iedere beurt moet daadwerkelijk uitvoeren/starten of parallel dispatchen zolang veilig zelfstandig werk bestaat.
-
-## DOEL
-Deze file maakt INDIA8 onmiddellijk vervangbaar. GitHub is source of truth; chatgeschiedenis is niet vereist.
+Actuele governance bevat ook de limiet: maximaal twee actieve workerstreams, liefst één worker naast INDIA-regie.
 
 ## KERNREIS / BESLUITEN
-Reisperiode 18-12-2026 t/m 21-01-2027; terugvlucht Delhi. Zeker: Delhi zeer kort (alleen expliciete A: Mahasamadhi Shri Mataji Nirmala Devi), Kumaon, Varanasi, Bodh Gaya, Tiruvannamalai / Arunachala. Vrindavan/Braj en Prayagraj/Allahabad blijven kandidaat tot global closure. Haridwar/Kankhal/Rishikesh is als zelfstandig cluster afgevallen, maar individuele uitzonderlijke sites mogen terugkomen. Oost (Ranchi/Kolkata/Puri) geparkeerd voor deze reis tenzij capaciteit/exceptionele override.
-AOAY/Yogananda is P0: kleine concrete AOAY-scènes kunnen voor Mark zwaarder wegen dan beroemde sites. Geen onzeker finding ooit stil filteren.
+Reisperiode 18-12-2026 t/m 21-01-2027; terugvlucht Delhi. Zeker: Delhi zeer kort; Kumaon; Varanasi; Bodh Gaya; Tiruvannamalai / Arunachala. Vrindavan/Braj en Prayagraj/Allahabad kandidaat tot global closure. Haridwar/Kankhal/Rishikesh als zelfstandig cluster afgevallen; individuele uitzonderlijke sites mogen terugkomen. Oost geparkeerd tenzij capaciteit/exceptionele override.
+AOAY/Yogananda blijft P0. Geen onzeker finding ooit stil filteren.
 
 ## METHODIEK
 `LOCATION/CORPUS -> PERSON REVERSE -> ALL-FINDINGS LOSSLESS MASTER -> PHYSICAL RESOLUTION -> LOCAL PROXIMITY/BACKFILL -> nieuwe IDs -> Mark A/B/C -> TRAVEL COMPLETE`
-Resolution: R1 exact current; R2 exact historic successor; R3 strong localized approximation; R4 broad place; R5 unresolved. Oude/mythische claims mogen eerlijk op R3 eindigen; 20e-eeuwse hotels/huizen/kamers moeten veel harder exact worden onderzocht.
-Geen oude IDs renummeren. Geen bestaande A/B/C of locks stil wijzigen. Nieuwe fysieke candidates later append-only ID + eigen Mark A/B/C. Oude B/C kan REVIEW_FOR_UPGRADE krijgen.
+R1 exact current; R2 exact historic successor; R3 strong localized approximation; R4 broad place; R5 unresolved.
 
-## GLOBAL SOURCE ACCOUNTING
-Centrale taak: `runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/TASK.md` op `agent/india8-cluster-casting`.
-Bronlaag lower bound >=856 claims/listed records; NIET uniek-site-totaal. Unique physical entity count blijft unset tot iedere source claim disposition heeft.
+## COMPLETE FEEDS
+### BLAUW — COMPLETE
+58 source records -> 58 entity mappings -> 0 silent drops. Central receipt `23d57b73e62c4f31d842175723aa9f1b6eb116d9`.
 
-## PARALLEL LOCATION-CLOSURE DISPATCH
-Zes stromen: BLAUW AOAY/Yogananda; ROOD Core Kriya; GEEL NKB/Ram Dass/Ramana/Ramakrishna; WIT Anandamayi/heritage; ZILVER entity-ID/proximity; TURQUOISE entity overlap. Iedere COMPLETE feed direct centraal registreren; niet wachten op alle kleuren.
+### TURQUOISE — COMPLETE
+Entity merge/same-site/parent-child/successor/ambiguous rules complete. Central receipt `f5f8a69ef4f2a19063a83e1efa140754ef3e4af8`.
 
-### BLAUW — COMPLETE 2026-08-20
-58 source records -> 58 entity mappings -> 0 silent drops. Commits: `18d472cce9f145187a1ca6e3071fbf62eaf529fe`, `7e60302cf46cd2380e1fae03978a14706d23ae9f`, `7122f85dad8e3d0710e48df83ee72eae56b5d5d2`, `90d14cb6bcbdd7e88c4c83ee3e7bfa0084ac67d6`, status `58854d1840147b8ae2f1eff42b310e417cb5d836`. Central receipt `23d57b73e62c4f31d842175723aa9f1b6eb116d9`.
+### GEEL — COMPLETE
+Four-person closure complete; micro-sites split losslessly. Central receipt `b1f5b26de727ef735fc7edb4186f7ec07e36a2d5`.
 
-### TURQUOISE — COMPLETE 2026-08-20
-Merge `f5e156f3e23850cc5f52f71bf26ff3a2346b6900`; same-site `4cd8396f6acf19b70564a34a833bed5ab020624a`; parent-child `fedf7432d8458f4efa47b41bc93007e77229f2c2`; successor `9759e86dadf8f1fc28047549bdcc304420ecd514`; ambiguous `473d90a6cda65a182b58180daf9290c8432d134a`; status `0aef428540474bcee26122f3913c26ced6aad10f`. Central receipt `f5f8a69ef4f2a19063a83e1efa140754ef3e4af8`.
+### WIT — COMPLETE
+Final schema-classified Anandamayi + heritage entities complete. Central receipt `3ef793a806bbb9b9bf28e0c34a0b3c90f3a8ac62`.
 
-### GEEL — COMPLETE 2026-08-20
-Task `INDIAGEEL-FOURPERSON-LOCATION-CLOSURE-001` on `agent/indiageel-ramana-ramakrishna-sweep` COMPLETE.
-Commits: source `9cbf630f55858afabf53839dd6d3c9269baee695`; entities `30486eaf3478057246727a56fd5fb8a5b22a1189`; R4/R5 `314094dc49a539fc71fc4117e2d27cd51a54c554`; access `da7184ab727b3100a5c43dbd068e32fb45c696a7`; status `9c0b1a0d7ec5b8990287cb79c53f17db52f93f09`. Central receipt `b1f5b26de727ef735fc7edb4186f7ec07e36a2d5`. ZILVER feed `8a9f6e33b62e08a97fd6375e87838df190d5eabc`.
+### ROOD — COMPLETE
+Core Kriya closure complete. Source `e45dd559b7e442d47f2f94cfc548137d1f4ffd58`; entities `96d1a58eb4e5a34f6048c757bf7ed7149a68233d`; R4/R5 `cd817119ffdb6ec1af0293e8842f9cb3d6bde893`; access `844bdc276aafb2553b9c97584f14596f3f85d672`; STATUS COMPLETE `5443eeceab292c714d3c4e5b328f55d300464259`. Accounting: 178 source records = 146 claims + 32 negatives; 204 entity candidates; 58 micro/successor splits; R1 31 / R2 2 / R3 34 / R4 54 / R5 25; 0 silent drops. Central receipt `78500534100cbb1187e0603685a3c141368291fd`.
 
-### WIT — COMPLETE 2026-08-20
-Final schema-classified outputs: ANANDAMAYI_ENTITY_CANDIDATES `379b637706023b6f1891ba53e89b16150c193fee`; HERITAGE_STAY_ENTITY_MATRIX `ef493aad36650de1dcc7caa24645bab185ee3ab5`; STATUS `b5ec1abddfe23669c8ea273970760944d312a90a`. Central final receipt `3ef793a806bbb9b9bf28e0c34a0b3c90f3a8ac62`. ZILVER final WIT feed `43fef27574e0bb620d4c404ce6e94b5b49e3b086`. All researched Anandamayi + cross-person heritage entities now have canonical R1-R5 + access; unresolved room/access/bookability retained; no rediscovery needed.
+### ZILVER — CURRENT STAGED PASS COMPLETE, ADDITIVE FINALIZATION ONLY
+Current pass status: `PARTIAL_COMPLETE__CURRENT_INPUTS_EXHAUSTED__Z1_Z4_COMPLETE__OTHER_FEEDS_ADDITIVE`, blocked NO. Canon 001-081 protected. 31 seed + GEEL/TURQUOISE processed. 16 reliable distance pairs, 7 tight pairs (4 <=1km, 3 >1-<=3km). Rana Mahal Ghat -> 019 Kedareshwar/Kedar Ghat 0.895 km; -> 018 Sankatha Devi 1.285 km. Existing 012 B, 013 B, 026 C, 027 C, 040 C only potential review after coord confirmation; no A/B/C changed.
+Current outputs: baseline `befbe4dc199c934de86c6d76d82fa97f676b7e3d`; queue `7075f86b8d94822a978256d59df05b0001bfce9f`; proximity `d03627f55fa89fad74b96d8d68596693a26b2025`; duplicate-parent `73da2210051da5f78b866ccf0bb58f493e6ca17a`; ABC review `d1dc8b6e2d495cec952af65e9c997b3593920f67`; status `d0de9967385651906d383fc851f1a30a3a405afd`.
+ROOD feed added on ZILVER branch as `ROOD_ENTITY_FEED.md` commit `d475a90bbd603eb5ccc7609b2d1a8cb80e82a087`. WIT feed already present `43fef27574e0bb620d4c404ce6e94b5b49e3b086`.
 
-### ROOD — INPUT BLOCKER REMOVED, ACTIVE
-ROOD TASK explicitly permits read-only cross-branch input from `agent/india8-cluster-casting` for exact delta files + governance; writes remain only on `agent/indiarood-core-kriya-sweep`. TASK update `846bd86ae99dab6577600e9f5fbcd1922b7bc1d4`; STATUS `READY_UNBLOCKED_CROSS_BRANCH_INPUTS_ALLOWED` commit `828950f06b9bfe4b273131b2e1d6f4b713c2915b`. ROOD must continue immediately.
+## ACTIVE WORKSTREAMS NOW
+Only TWO:
+1. INDIA8/9 central integration: build the consolidated `ALL_FINDINGS_LOCATION_MASTER` now.
+2. ZILVER one final additive pass using WIT + ROOD feeds, then stop as separate worker.
+No new color workers unless central master exposes a genuinely independent heavy task that cannot efficiently be done by current worker.
 
-### ZILVER — STAGED, ACTIVE, NOT BLOCKED
-Works from existing canon + known 31 candidates, reliable coordinates only, UNKNOWN/dependency otherwise. TURQUOISE feed `1d1607dba2d48fae604ce5cd469fe98876f9a4bd`; GEEL feed `8a9f6e33b62e08a97fd6375e87838df190d5eabc`; WIT final feed `43fef27574e0bb620d4c404ce6e94b5b49e3b086`. Must not wait for ROOD if current staged work remains.
-
-## ACTIVE CLOSURE STREAMS NOW
-Only ROOD + ZILVER remain active. BLAUW, TURQUOISE, GEEL, WIT are complete and should not be re-run.
-
-## IMMEDIATE NEXT ACTIONS FOR INDIA9
-1. Enforce DOORGANGSPROTOCOL every turn.
-2. Register ROOD and ZILVER result immediately when they arrive.
-3. If blocker: solve repo/branch/path/cross-branch/staged dependency immediately; do not stop the program.
-4. In parallel, prepare consolidated `ALL_FINDINGS_LOCATION_MASTER` structure and accounting so final ingest can start as soon as ROOD/ZILVER close.
-5. After master closure: complete cluster lists -> Mark A/B/C -> cluster choice -> route/nights/transport/hotels.
+## IMMEDIATE NEXT ACTIONS
+1. ZILVER final additive WIT+ROOD ingest only; update proximity/new-ID/ABC review where reliable. No waiting, no rediscovery.
+2. INDIA8/9 central master starts immediately from complete BLAUW/TURQUOISE/GEEL/WIT/ROOD receipts plus protected canon and ZILVER outputs.
+3. Master must preserve every source claim with source->entity/disposition link; parent-child/successor not collapsed; R4/R5 visible.
+4. After master accounting closes, produce decision-ready complete cluster lists beginning with candidate Vrindavan/Braj + Prayagraj/Allahabad, then additive delta for Kumaon/Varanasi/Bodh Gaya and full concrete layer Tiruvannamalai / Arunachala.
+5. Only then Mark A/B/C, cluster decisions, route/nights/transport/hotels.
 
 ## HARDE GRENZEN
-Geen A/B/C namens Mark. Geen silent filtering. Geen oude locks wijzigen. Geen route definitief vóór candidate closure. Geen PDF zonder PDF_GO. Geen merge zonder Mark. Oost geparkeerd. Ademruimte blijft expliciet reisdoel.
+Geen A/B/C namens Mark. Geen silent filtering. Geen oude IDs/locks wijzigen. Geen PDF zonder PDF_GO. Geen merge zonder Mark. Oost geparkeerd. Ademruimte blijft reisdoel.
