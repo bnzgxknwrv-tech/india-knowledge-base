@@ -1,70 +1,72 @@
 # ABC_REVIEW_AFTER_CLOSURE_QUEUE — INDIA ZILVER
 
-status: UPDATED_WITH_GEEL_AND_TURQUOISE
+status: UPDATED_WITH_GEEL_TURQUOISE_AND_NUMERIC_PROXIMITY
 hard_rule: no A/B/C choice is changed or proposed automatically; this file only stages later Mark review after entity closure/ID assignment.
 
 ## Existing 31-candidate review seed
 
-All 31 candidates from `REOPEN_AND_ID_QUEUE.md` remain `MARK_REVIEW_REQUIRED: JA`. Their earlier review flags remain valid. TURQUOISE/GEEL adds the following material review context without altering any choice:
+All 31 candidates from `REOPEN_AND_ID_QUEUE.md` remain `MARK_REVIEW_REQUIRED: JA` once their entity/ID gate is satisfied. No candidate receives an A/B/C here.
 
-- Sri Ramanasramam: `MULTI_PERSON_SAME_SITE` Ramana + Yogananda; child microsites now explicit.
-- Dakshineswar Kali Temple complex: `MULTI_PERSON_SAME_COMPLEX`; Ramakrishna room/Panchavati/Bel tree/ghat now explicit children.
-- Cossipore Garden House: terminal room and physically separate cremation ghat now explicit.
-- Ramana Arunachala cluster: Virupaksha, Mango Tree Cave, Skandashram and additional caves/rocks/springs are distinct sites, not one compound candidate.
-- Akbarpur NKB: historic birth/family site and 2001 temple are temporal-chain entities, not one lifetime building.
-- Ranchi: historic Vidyalaya/current YSS campus is a same-campus successor relation; exact garden event remains a child dependency.
+Material context:
+- Sri Ramanasramam: `MULTI_PERSON_SAME_SITE` Ramana + Yogananda; child microsites explicit.
+- Dakshineswar Kali Temple complex: `MULTI_PERSON_SAME_COMPLEX`; room/Panchavati/Bel tree remain children.
+- Cossipore Garden House: final room child; cremation ghat physically distinct.
+- Ramana Arunachala cluster: Virupaksha, Mango Tree Cave, Skandashram and other cave/rock/spring sites remain distinct.
+- Akbarpur NKB: historic birth/family site and 2001 temple are a temporal chain, not one lifetime building.
+- Ranchi: historic Vidyalaya/current YSS campus is same-campus institutional succession; garden event remains child dependency.
 
-## New GEEL entities that require later Mark review after ID/dedup
+## Numeric proximity consequences from this pass
 
-### Neem Karoli Baba / Ram Dass — Kumaon
-- Neeb Karori Hanuman temple above cave — `MARK_REVIEW_REQUIRED`; `HISTORIC_RESIDENCE_CLUSTER`.
-- Historic Neeb Karori cave / current continuity cave — `MARK_REVIEW_REQUIRED`; `SUCCESSOR_IDENTITY_CAVEAT`.
-- Neeb Karori railway station/platform — `MARK_REVIEW_REQUIRED`; `TRANSIT_EVENT`.
-- Hanuman Garhi/Hanumangarh temple — `MARK_REVIEW_REQUIRED`; `MULTI_PERSON_SAME_SITE`.
-- Hanumangarh Baba hut — `MARK_REVIEW_REQUIRED`; `CHILD_MICROSITE`.
-- Bhumiadhar parent/room/first-meeting field — `MARK_REVIEW_REQUIRED`; `PARENT_CHILD_CLUSTER`; parent dedup first.
-- Kainchi rock/platform, Maharajji room, Hanuman courtyard, bridge, Ram Dass room, river bathing site — `MARK_REVIEW_REQUIRED`; `CHILD_MICROSITES_OF_EXISTING_PARENT`; no duplicate parent ID.
-- Hotel Evelyn — `MARK_REVIEW_REQUIRED`; `HISTORIC_STAY`; cave-room/patio children must remain visible; cave-room itself remains R4 dependency.
-- Ramsay Hospital clinic — `MARK_REVIEW_REQUIRED`; `MEDICAL_EVENT`.
+Hard numeric gate used only endpoints whose coordinates are independently strong enough for the task. The old Varanasi 25–100 m working pins are preserved in the baseline but are not promoted to hard proximity evidence unless the Varanasi final decision overview also records a confirmed marker.
 
-### Prayagraj / Vrindavan
-- 4 Church Lane / Red House parent — `MARK_REVIEW_REQUIRED`; `MULTI_PERSON_SAME_SITE`; room/hall/veranda/kitchen children explicit.
-- Ramakrishna Mission Hospital Vrindavan — `MARK_REVIEW_REQUIRED`; `FINAL_JOURNEY_MEDICAL_SITE`; distinct from NKB ashram.
-- NKB Vrindavan parent — existing locked entity: `PERSON_LINK_UPGRADE` only; no automatic ABC review unless existing policy later requests it.
-- NKB Vrindavan office/courtyard children — `MARK_REVIEW_REQUIRED`; `CHILD_MICROSITES` after ID policy decision.
-- Seth Anandram Jaipuria Bhawan — `MARK_REVIEW_REQUIRED`; `HISTORIC_STAY`.
-- Banke Bihari Temple — `MARK_REVIEW_REQUIRED`; `MULTI_PERSON_SAME_SITE` Ram Dass + Ramakrishna.
-- Fouzdar Kunj building/upper room/veranda — `MARK_REVIEW_REQUIRED`; `HISTORIC_STAY`; parent-child preserved.
-- Nidhivan grove and Ganga Mata historic hut — `MARK_REVIEW_REQUIRED`; `HISTORIC_SPIRITUAL_SITE`; later dharamshala successor must not inherit lifetime-presence claim.
+Confirmed new-candidate proximity:
+- `OLD31-28` Rana Mahal Ghat ↔ permanent `019` Kedareshwar Temple/Kedar Ghat: **0.895 km (<=1 km)**. Existing `019` is **A**, therefore no `REVIEW_FOR_UPGRADE`; this is clustering/context only.
+- `OLD31-28` Rana Mahal Ghat ↔ permanent `018` Sankatha Devi Temple: **1.285 km (<=3 km)**. Existing `018` is **A**, therefore no `REVIEW_FOR_UPGRADE`; clustering/context only.
 
-### Ramana — Tiruvannamalai / Arunachala
-- Arunachaleswarar inner sanctum, Thousand-Pillared Hall and Patala Lingam — `MARK_REVIEW_REQUIRED`; `CHILD_MICROSITES`; do not flatten into temple parent.
-- Mango Tree Cave — `MARK_REVIEW_REQUIRED`; `DISTINCT_FROM_VIRUPAKSHA`.
-- Satguru Swami Cave, Guhai Namasivaya, Tortoise Rock/Cave, Seven Springs — `MARK_REVIEW_REQUIRED`; `ARUNACHALA_MICROSITE`.
-- Sri Ramanasramam Mother shrine, Old Hall, kitchen, Mathrubhuteswara inner shrine, New Hall, Nirvana Room — `MARK_REVIEW_REQUIRED`; `CHILD_MICROSITES_OF_RAMANASRAMAM`.
+Confirmed baseline reference pairs include 029↔031 0.620 km, 029↔033 0.165 km, 031↔033 0.642 km and Bodh Gaya 046↔047 1.224 km. These do not change existing protected A/B/C.
 
-### Ramakrishna — Kolkata
-- Dakshineswar Ramakrishna room, Panchavati and Bel-tree site — `MARK_REVIEW_REQUIRED`; `CHILD_MICROSITES_OF_EXISTING_PARENT_CANDIDATE`.
-- Balaram Mandir — `MARK_REVIEW_REQUIRED`; `MAJOR_HOST_HOUSE`; Jagannath/Ratha first-floor room remains child.
-- Shyampukur Bati — `MARK_REVIEW_REQUIRED`; `FINAL_ILLNESS_SITE`; first-floor room child.
-- Cossipore final upstairs room — `MARK_REVIEW_REQUIRED`; `CHILD_OF_COSSIPORE`.
-- Cossipore cremation ghat — `MARK_REVIEW_REQUIRED`; `DISTINCT_TERMINAL_SITE`; proximity backfill required.
-- Panihati Mani Sen house / Radhakanta temple and Raghava Pandit site — `MARK_REVIEW_REQUIRED`; `PARENT_CHILD_OR_COMPOUND_REVIEW`.
+### Existing B/C that merit later proximity screening after coordinate confirmation
+
+These are **not confirmed <=1/3-km findings**. Their old working pins place them near Rana Mahal and therefore they are explicitly staged for re-check once their own marker is confirmed:
+- `012` Harishchandra Ghat — current **B** — old working-pin screen ~0.594 km from Rana Mahal → `POTENTIAL_REVIEW_FOR_UPGRADE_AFTER_COORD_CONFIRMATION`.
+- `013` Kaal Bhairav Temple — current **B** — old working-pin screen ~1.958 km → same conditional review.
+- `026` Ramakrishna Mission Home of Service — current **C** — old working-pin screen ~1.330 km → same conditional review.
+- `027` Baba Keenaram Sthal / Krim Kund — current **C** — old working-pin screen ~1.589 km → same conditional review.
+- `040` Bharat Mata Temple — current **C** — old working-pin screen ~2.494 km → same conditional review.
+
+Do **not** treat those five screening distances as hard matrix results until their coordinate quality closes. `008` (B) has an explicitly rejected old coordinate; `023` (B) has an unresolved ~3 km coordinate conflict; `025` (B) has only an approximate 100–500 m class point. All three remain `DEPENDENCY_COORDINATE` rather than being forced into a proximity band.
+
+## Existing Varanasi enrichment / identity cases — protected decisions now resolved
+
+- `002` Lahiri house is **A**. Sri Yukteswar linkage is `PERSON_LINK_ENRICHMENT_ONLY`; no A/B/C upgrade queue.
+- `009` Dashashwamedh Ghat is **A**. Babaji/Mataji/Lahiri tradition/event enrichment does not reopen A/B/C; hidden cave remains entity dependency.
+- `004` and `011` are both **A**. Panchganga/Trailanga work is identity/dedup review only, not an upgrade request.
+- `044` is a permanent but **PROVISIONAL_NO_ABC** record. Kashi Naresh tutoring lead requires identity closure first; later treatment is an initial A/B/C decision, not an upgrade of an existing B/C.
+- `VNS-HOTEL-001` remains `LOCKED_BY_MARK`; it is outside A/B/C candidate numbering.
+
+## New GEEL entities requiring later Mark review after ID/dedup
+
+Neem Karoli Baba / Ram Dass — Kumaon: Neeb Karori temple/cave/station; Hanuman Garhi parent/child hut; Bhumiadhar parent/room/first-meeting field; Kainchi child rock/room/Hanuman/bridge/Ram Dass room/river; Hotel Evelyn parent/patio; Ramsay Hospital. Kainchi parent itself is existing and receives enrichment only.
+
+Prayagraj / Vrindavan: 4 Church Lane parent and children; Ramakrishna Mission Hospital Vrindavan; NKB Vrindavan child office/courtyard; Seth Anandram Jaipuria Bhawan; Banke Bihari Temple; Fouzdar Kunj parent/room/veranda; Nidhivan and Ganga Mata historic hut. NKB Vrindavan parent remains existing/locked and is not duplicated.
+
+Ramana — Tiruvannamalai / Arunachala: Arunachaleswarar inner sanctum, Thousand-Pillared Hall and Patala Lingam; Mango Tree Cave; Satguru Swami Cave; Guhai Namasivaya; Tortoise Rock/Cave; Seven Springs; Sri Ramanasramam Mother shrine, Old Hall, kitchen, Mathrubhuteswara inner shrine, New Hall and Nirvana Room.
+
+Ramakrishna — Kolkata: Dakshineswar room/Panchavati/Bel-tree children; Balaram Mandir; Shyampukur Bati and first-floor room; Cossipore final room and distinct cremation ghat; Panihati Mani Sen property / Radhakanta temple and Raghava Pandit site.
+
+Rule for all: `ENTITY_CLOSURE_FIRST -> ID/DEDUP -> MARK_REVIEW`.
 
 ## R4/R5 dependency queue — preserve but DO NOT send to ABC yet
 
 These findings remain entity-closure dependencies and are not silently dropped: Hotel Evelyn cave-room; K.K. Sah house address; Gethia sanatorium; 4 Church Lane front/bathrooms area; NKB Agra Jagmohan/S-house/clinic/station micro-sites; Mathura station steps conflict; Ram Dass Varanasi hotel; Dharamsala Swarg Ashram/guesthouse; Delhi Health/Finance/AmEx/restaurant/alley/hotel/Soni house; Surat cave; Ramana float-room/tower/bridge/banyan route; Ramakrishna Jayagopal/Lily/Surendra/Adhar/Nanda/Ramchandra/Ganu/Brahmani private-house findings.
 
-Rule: `ENTITY_CLOSURE_FIRST -> ID/DEDUP -> MARK_REVIEW`. No R4/R5 item receives guessed coordinates or an automatic A/B/C.
+No R4/R5 item receives guessed coordinates or an automatic A/B/C.
 
-## Existing locations — review-for-upgrade only, never modify here
+## Other protected existing locations
 
-- `VNS-CAND-002` Lahiri house: Sri Yukteswar person-link enrichment; `REVIEW_FOR_UPGRADE` only if current status is B/C.
-- `VNS-CAND-009` Dashashwamedh Ghat: tradition/event-link enrichment; hidden cave remains unresolved; `REVIEW_FOR_UPGRADE` only if current B/C.
-- `VNS-CAND-004` / `VNS-CAND-011`: identity review for Trailanga/Panchganga lead before any upgrade review.
-- `VNS-CAND-044`: Kashi Naresh tutoring identity review before any upgrade review.
-- Kainchi Dham: Ram Dass person-link enrichment; existing status unchanged.
+- Kainchi Dham: Ram Dass person-link enrichment; existing status/lock unchanged.
 - NKB Vrindavan Ashram/Mahasamadhi: Ram Dass person-link enrichment; existing lock/status unchanged.
-- `KB2-038` Mayavati: Vivekananda link enrichment; upgrade review only after Kumaon identity/numbering policy allows it.
+- `KB2-038` Mayavati: Vivekananda link enrichment; any later A/B/C handling waits for Kumaon global-ID/identity policy.
+- Bodh Gaya `051`, `061` and `074` were explicitly reconfirmed **C** after their Top-11/delta review; this pass does not reopen them without new qualifying entity/proximity evidence.
 
 No downgrade queue is created.
