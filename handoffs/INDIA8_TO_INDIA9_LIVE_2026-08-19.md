@@ -9,6 +9,11 @@ Actuele governance bevat ook de limiet: maximaal twee actieve workerstreams, lie
 Reisperiode 18-12-2026 t/m 21-01-2027; terugvlucht Delhi. Zeker: Delhi zeer kort; Kumaon; Varanasi; Bodh Gaya; Tiruvannamalai / Arunachala. Vrindavan/Braj en Prayagraj/Allahabad kandidaat tot global closure. Haridwar/Kankhal/Rishikesh als zelfstandig cluster afgevallen; individuele uitzonderlijke sites mogen terugkomen. Oost geparkeerd tenzij capaciteit/exceptionele override.
 AOAY/Yogananda blijft P0. Geen onzeker finding ooit stil filteren.
 
+Anandamayi Ma algemene scope: travel-core, NIET elk historisch huis/hostadres exhaustief oplossen. Een beperkt aantal zeer sterke, concrete en bezoekbare kernplekken is voldoende voor de reis, tenzij overlap/heritage/clusterwaarde een extra locatie relevant maakt.
+
+HARD OVERRIDE — Anandamayi Ma × Paramahansa Yogananda joint-photo locations:
+Elke fysiek oplosbare plek waar Anandamayi Ma en Paramahansa Yogananda samen op een gedocumenteerde foto staan moet altijd gericht worden opgelost en expliciet in de relevante clusterlijst verschijnen. Als het cluster in de reis komt, geldt de locatie als `MUST_VISIT_WITHIN_INCLUDED_CLUSTER` tenzij fysiek onmogelijk of historisch niet bruikbaar te lokaliseren. Deze regel overrulet de beperkte algemene Anandamayi-scope. Governance: `governance/ANANDAMAYI_YOGANANDA_PHOTO_OVERRIDE_2026-08-20.md`, commit `dd5c1aed639dc8057fd8c5b14a9dec1328064f6d`.
+
 ## METHODIEK
 `LOCATION/CORPUS -> PERSON REVERSE -> ALL-FINDINGS LOSSLESS MASTER -> PHYSICAL RESOLUTION -> LOCAL PROXIMITY/BACKFILL -> nieuwe IDs -> Mark A/B/C -> TRAVEL COMPLETE`
 R1 exact current; R2 exact historic successor; R3 strong localized approximation; R4 broad place; R5 unresolved.
@@ -41,10 +46,7 @@ Final numeric totals: 16 pair calculations; 7 tight pairs = 4 <=1km + 3 >1-<=3km
 
 ## CCI / CLAUDE CODE ROLE — AVAILABLE AND SHOULD BE USED STRATEGICALLY
 CCI is a standing independent QA/reconciliation resource, not another color worker. Use it when a second pair of eyes materially lowers integration risk.
-Current CCI task prepared centrally:
-`runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/CCI_MASTER_QA_TASK.md`
-Commit `8b5ed6618fb1073032af4815e8ddf257ca4dd337`.
-CCI should QA central-master accounting, source->entity disposition, micro-site preservation, successor handling, A/B/C readiness, Babaji claimant separation, AOAY visibility and ZILVER reliability gates. No new broad discovery and no A/B/C.
+Current active CCI completeness task is relayed via PR #23. It must prioritize exhaustive AOAY/Yogananda integration and may NOT spend a full pass resolving every Anandamayi host-house merely for completeness. Joint-photo Anandamayi×Yogananda locations are the hard exception and must be resolved explicitly.
 
 ## FINAL FEED MANIFEST
 Central manifest is ready:
@@ -52,15 +54,15 @@ Central manifest is ready:
 Commit `b0486eb3ca4cae911b809c14cf98848185de51cd`.
 
 ## ACTIVE WORKSTREAMS NOW — MAX TWO
-1. INDIA8/9 central integration: build consolidated `ALL_FINDINGS_LOCATION_MASTER` + accounting + unresolved queue + cluster-ready projection.
-2. CCI independent master QA in parallel.
+1. INDIA8/9 central integration / travel-decision preparation.
+2. CCI completeness closure / independent QA via PR #23.
 No loose color workers remain active. Do not restart them unless central master exposes a genuinely isolated heavy correction task.
 
 ## IMMEDIATE NEXT ACTIONS
-1. Build central master from FINAL_FEED_MANIFEST + schema + completed feeds.
-2. Run CCI QA concurrently; integrate fixes immediately when CCI reports.
-3. Close accounting: every source claim -> physical entity / explicit duplicate / unresolved disposition; zero silent drops.
-4. Produce decision-ready complete cluster lists beginning with candidate Vrindavan/Braj + Prayagraj/Allahabad, then additive delta for Kumaon/Varanasi/Bodh Gaya and full concrete layer Tiruvannamalai / Arunachala.
+1. Finish full-enough master accounting with AOAY/Yogananda exhaustive priority.
+2. Explicitly identify and physically resolve every documented Anandamayi×Yogananda joint-photo location; attach photo provenance, date/event, current identity, R-class, access and cluster membership.
+3. Do not exhaustively chase all Anandamayi host houses; keep full underlying source universe lossless and bring only travel-core + override cases into deep closure.
+4. Produce decision-ready complete cluster lists beginning with Vrindavan/Braj + Prayagraj/Allahabad, then additive delta for Kumaon/Varanasi/Bodh Gaya and full concrete layer Tiruvannamalai / Arunachala.
 5. Only then Mark A/B/C, cluster decisions, route/nights/transport/hotels.
 
 ## HARDE GRENZEN
