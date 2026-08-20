@@ -29,22 +29,38 @@ Final schema-classified Anandamayi + heritage entities complete. Central receipt
 ### ROOD — COMPLETE
 Core Kriya closure complete. Source `e45dd559b7e442d47f2f94cfc548137d1f4ffd58`; entities `96d1a58eb4e5a34f6048c757bf7ed7149a68233d`; R4/R5 `cd817119ffdb6ec1af0293e8842f9cb3d6bde893`; access `844bdc276aafb2553b9c97584f14596f3f85d672`; STATUS COMPLETE `5443eeceab292c714d3c4e5b328f55d300464259`. Accounting: 178 source records = 146 claims + 32 negatives; 204 entity candidates; 58 micro/successor splits; R1 31 / R2 2 / R3 34 / R4 54 / R5 25; 0 silent drops. Central receipt `78500534100cbb1187e0603685a3c141368291fd`.
 
-### ZILVER — CURRENT STAGED PASS COMPLETE, ADDITIVE FINALIZATION ONLY
-Current pass status: `PARTIAL_COMPLETE__CURRENT_INPUTS_EXHAUSTED__Z1_Z4_COMPLETE__OTHER_FEEDS_ADDITIVE`, blocked NO. Canon 001-081 protected. 31 seed + GEEL/TURQUOISE processed. 16 reliable distance pairs, 7 tight pairs (4 <=1km, 3 >1-<=3km). Rana Mahal Ghat -> 019 Kedareshwar/Kedar Ghat 0.895 km; -> 018 Sankatha Devi 1.285 km. Existing 012 B, 013 B, 026 C, 027 C, 040 C only potential review after coord confirmation; no A/B/C changed.
-Current outputs: baseline `befbe4dc199c934de86c6d76d82fa97f676b7e3d`; queue `7075f86b8d94822a978256d59df05b0001bfce9f`; proximity `d03627f55fa89fad74b96d8d68596693a26b2025`; duplicate-parent `73da2210051da5f78b866ccf0bb58f493e6ca17a`; ABC review `d1dc8b6e2d495cec952af65e9c997b3593920f67`; status `d0de9967385651906d383fc851f1a30a3a405afd`.
-ROOD feed added on ZILVER branch as `ROOD_ENTITY_FEED.md` commit `d475a90bbd603eb5ccc7609b2d1a8cb80e82a087`. WIT feed already present `43fef27574e0bb620d4c404ce6e94b5b49e3b086`.
+### ZILVER — FINAL COMPLETE
+Final state verified on branch `agent/indiazilver-cluster-completeness-audit`: `COMPLETE_CURRENT_GLOBAL_FEEDS__READY_FOR_CENTRAL_MASTER`, blocked NO. No further loose ZILVER pass required.
+Final outputs:
+- protected canon `f491be93f9585e1a3eb9ac3e82362fc220d4c6f2`
+- new-ID queue `a0f199fb055e6093e3e57b3540a2e73a38463e37`
+- proximity `7ddcb764bb01a120f7d30c43f88f85d1554e4ba4`
+- duplicate-parent `c64c67076d5cd7b32c9c4bb4a8e6e13c4bd0e668`
+- ABC-after-closure queue `118cacae2ea9b48ef031f3b344dfc31709acb25d`
+Final numeric totals: 16 pair calculations; 7 tight pairs = 4 <=1km + 3 >1-<=3km; guessed coordinates 0. Existing 001-081/A-B-C/locks unchanged. R4/R5 retained. READY_FOR_CENTRAL_MASTER = JA.
 
-## ACTIVE WORKSTREAMS NOW
-Only TWO:
-1. INDIA8/9 central integration: build the consolidated `ALL_FINDINGS_LOCATION_MASTER` now.
-2. ZILVER one final additive pass using WIT + ROOD feeds, then stop as separate worker.
-No new color workers unless central master exposes a genuinely independent heavy task that cannot efficiently be done by current worker.
+## CCI / CLAUDE CODE ROLE — AVAILABLE AND SHOULD BE USED STRATEGICALLY
+CCI is a standing independent QA/reconciliation resource, not another color worker. Use it when a second pair of eyes materially lowers integration risk.
+Current CCI task prepared centrally:
+`runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/CCI_MASTER_QA_TASK.md`
+Commit `8b5ed6618fb1073032af4815e8ddf257ca4dd337`.
+CCI should QA central-master accounting, source->entity disposition, micro-site preservation, successor handling, A/B/C readiness, Babaji claimant separation, AOAY visibility and ZILVER reliability gates. No new broad discovery and no A/B/C.
+
+## FINAL FEED MANIFEST
+Central manifest is ready:
+`runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/FINAL_FEED_MANIFEST.md`
+Commit `b0486eb3ca4cae911b809c14cf98848185de51cd`.
+
+## ACTIVE WORKSTREAMS NOW — MAX TWO
+1. INDIA8/9 central integration: build consolidated `ALL_FINDINGS_LOCATION_MASTER` + accounting + unresolved queue + cluster-ready projection.
+2. CCI independent master QA in parallel.
+No loose color workers remain active. Do not restart them unless central master exposes a genuinely isolated heavy correction task.
 
 ## IMMEDIATE NEXT ACTIONS
-1. ZILVER final additive WIT+ROOD ingest only; update proximity/new-ID/ABC review where reliable. No waiting, no rediscovery.
-2. INDIA8/9 central master starts immediately from complete BLAUW/TURQUOISE/GEEL/WIT/ROOD receipts plus protected canon and ZILVER outputs.
-3. Master must preserve every source claim with source->entity/disposition link; parent-child/successor not collapsed; R4/R5 visible.
-4. After master accounting closes, produce decision-ready complete cluster lists beginning with candidate Vrindavan/Braj + Prayagraj/Allahabad, then additive delta for Kumaon/Varanasi/Bodh Gaya and full concrete layer Tiruvannamalai / Arunachala.
+1. Build central master from FINAL_FEED_MANIFEST + schema + completed feeds.
+2. Run CCI QA concurrently; integrate fixes immediately when CCI reports.
+3. Close accounting: every source claim -> physical entity / explicit duplicate / unresolved disposition; zero silent drops.
+4. Produce decision-ready complete cluster lists beginning with candidate Vrindavan/Braj + Prayagraj/Allahabad, then additive delta for Kumaon/Varanasi/Bodh Gaya and full concrete layer Tiruvannamalai / Arunachala.
 5. Only then Mark A/B/C, cluster decisions, route/nights/transport/hotels.
 
 ## HARDE GRENZEN
