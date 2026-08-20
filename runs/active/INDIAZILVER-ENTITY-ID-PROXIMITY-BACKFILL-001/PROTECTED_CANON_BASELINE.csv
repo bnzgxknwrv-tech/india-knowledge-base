@@ -1,0 +1,3 @@
+record_type,status,notes
+BASELINE,PROTECTED,"Existing IDs/A-B-C/locks intentionally not modified in this pass"
+DEPENDENCY,UNKNOWN,"Required canonical source ledger/permanent location export not available at expected path during execution"
