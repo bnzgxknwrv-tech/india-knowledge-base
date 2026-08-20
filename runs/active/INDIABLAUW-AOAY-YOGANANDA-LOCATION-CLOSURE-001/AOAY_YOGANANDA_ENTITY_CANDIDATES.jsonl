@@ -1,0 +1,58 @@
+{"candidate_id":"AYC-ENT-001","source_record_ids":["AYC-SRC-001"],"entity":"Gorakhpur childhood family compound","mapping":"UNRESOLVED_ENTITY","resolution":"R4"}
+{"candidate_id":"AYC-ENT-002","source_record_ids":["AYC-SRC-002"],"entity":"Bareilly family bungalow/piazza/sheoli-tree micro-site","mapping":"UNRESOLVED_ENTITY","resolution":"R5"}
+{"candidate_id":"AYC-ENT-003","source_record_ids":["AYC-SRC-003"],"entity":"4 Garpar Road / linked YSS Garpar Road centre","mapping":"SUCCESSOR_CONTINUITY","resolution":"R2"}
+{"candidate_id":"AYC-ENT-004","source_record_ids":["AYC-SRC-004"],"entity":"Barddhaman Junction","mapping":"SUCCESSOR_CONTINUITY","resolution":"R2"}
+{"candidate_id":"AYC-ENT-005","source_record_ids":["AYC-SRC-005"],"entity":"Pt. Deen Dayal Upadhyaya Junction (Mughalsarai)","mapping":"SUCCESSOR_CONTINUITY","resolution":"R2"}
+{"candidate_id":"AYC-ENT-006","source_record_ids":["AYC-SRC-006"],"entity":"Bareilly Junction","mapping":"SUCCESSOR_CONTINUITY","resolution":"R2"}
+{"candidate_id":"AYC-ENT-007","source_record_ids":["AYC-SRC-007"],"entity":"Haridwar Junction","mapping":"SUCCESSOR_CONTINUITY","resolution":"R2"}
+{"candidate_id":"AYC-ENT-008","source_record_ids":["AYC-SRC-008"],"entity":"Hardwar station police/station bungalow","mapping":"UNRESOLVED_ENTITY","resolution":"R5"}
+{"candidate_id":"AYC-ENT-009","source_record_ids":["AYC-SRC-009"],"entity":"Rishikesh intended destination","mapping":"NEGATIVE_NOT_VISITED","resolution":"R5"}
+{"candidate_id":"AYC-ENT-010","source_record_ids":["AYC-SRC-010"],"entity":"Pranabananda residence, Benares","mapping":"UNRESOLVED_ENTITY","resolution":"R5"}
+{"candidate_id":"AYC-ENT-011","source_record_ids":["AYC-SRC-011"],"entity":"scriptural authority home/courtyard, Benares","mapping":"UNRESOLVED_ENTITY","resolution":"R5"}
+{"candidate_id":"AYC-ENT-012","source_record_ids":["AYC-SRC-012"],"entity":"Sri Yukteswar temporary house, Rana Mahal zone","mapping":"HISTORIC_ZONE","resolution":"R3"}
+{"candidate_id":"AYC-ENT-013","source_record_ids":["AYC-SRC-013"],"entity":"Nagendra Math / Bhaduri Mahasaya house successor","mapping":"SUCCESSOR_CONTINUITY","resolution":"R2"}
+{"candidate_id":"AYC-ENT-014","source_record_ids":["AYC-SRC-014"],"entity":"Acharya Bhavan / Sir J.C. Bose Trust","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-015","source_record_ids":["AYC-SRC-015"],"entity":"Dakshineswar Kali Temple","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-016","source_record_ids":["AYC-SRC-016"],"entity":"50 Amherst Street heritage site","mapping":"HISTORIC_ZONE","resolution":"R3"}
+{"candidate_id":"AYC-ENT-017","source_record_ids":["AYC-SRC-017"],"entity":"Bhowanipore Anandamayi Ma encounter point","mapping":"UNRESOLVED_ENTITY","resolution":"R5"}
+{"candidate_id":"AYC-ENT-018","source_record_ids":["AYC-SRC-018"],"entity":"Sri Yukteswar Smriti Mandir, 3A Buro Bibi Lane / Rai Ghat Lane site","mapping":"SUCCESSOR_CONTINUITY","resolution":"R2"}
+{"candidate_id":"AYC-ENT-019","source_record_ids":["AYC-SRC-019"],"entity":"Anandaloka / uncle Sarada Prasad Ghosh home","mapping":"SUCCESSOR_CONTINUITY","resolution":"R2"}
+{"candidate_id":"AYC-ENT-020","source_record_ids":["AYC-SRC-020"],"entity":"Serampore railway station","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-021","source_record_ids":["AYC-SRC-021"],"entity":"Vrindavan railway station","mapping":"SUCCESSOR_CONTINUITY","resolution":"R2"}
+{"candidate_id":"AYC-ENT-022","source_record_ids":["AYC-SRC-022"],"entity":"Madan Mohan Temple, Vrindavan","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-023","source_record_ids":["AYC-SRC-023"],"entity":"Kriya-initiation secluded spot near Vrindavan station","mapping":"UNRESOLVED_ENTITY","resolution":"R5"}
+{"candidate_id":"AYC-ENT-024","source_record_ids":["AYC-SRC-024"],"entity":"Katayani Peith Ashram historic building claim","mapping":"UNRESOLVED_ENTITY","resolution":"R4"}
+{"candidate_id":"AYC-ENT-025","source_record_ids":["AYC-SRC-025"],"entity":"Ananta bungalow, Agra","mapping":"UNRESOLVED_ENTITY","resolution":"R5"}
+{"candidate_id":"AYC-ENT-026","source_record_ids":["AYC-SRC-026"],"entity":"Taj Mahal, Agra","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-027","source_record_ids":["AYC-SRC-027"],"entity":"YSS Ranchi Ashram/school site","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-028","source_record_ids":["AYC-SRC-028"],"entity":"YSS Dihika retreat/heritage continuity","mapping":"SUCCESSOR_CONTINUITY","resolution":"R2"}
+{"candidate_id":"AYC-ENT-029","source_record_ids":["AYC-SRC-029"],"entity":"Karar Ashram, Puri","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-030","source_record_ids":["AYC-SRC-030"],"entity":"Santiniketan Tagore meeting/study-room claim","mapping":"HISTORIC_ZONE","resolution":"R3"}
+{"candidate_id":"AYC-ENT-031","source_record_ids":["AYC-SRC-031"],"entity":"Wardha Junction","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-032","source_record_ids":["AYC-SRC-032"],"entity":"Maganvadi guesthouse claim","mapping":"HISTORIC_ZONE","resolution":"R3"}
+{"candidate_id":"AYC-ENT-033","source_record_ids":["AYC-SRC-033"],"entity":"Gandhi writing-room claim, Maganvadi","mapping":"HISTORIC_ZONE","resolution":"R3"}
+{"candidate_id":"AYC-ENT-034","source_record_ids":["AYC-SRC-034"],"entity":"Mumbai Harbour arrival landscape","mapping":"LANDSCAPE","resolution":"R5"}
+{"candidate_id":"AYC-ENT-035","source_record_ids":["AYC-SRC-035"],"entity":"The Taj Mahal Palace, Mumbai","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-036","source_record_ids":["AYC-SRC-036"],"entity":"1936 Regent Hotel, Bombay; current 8 BEST Road candidate","mapping":"UNRESOLVED_ENTITY","resolution":"R4"}
+{"candidate_id":"AYC-ENT-037","source_record_ids":["AYC-SRC-037"],"entity":"C. V. Rangacharlu Memorial Hall / Mysore Town Hall","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-038","source_record_ids":["AYC-SRC-038"],"entity":"Maharaja's College, Mysuru","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-039","source_record_ids":["AYC-SRC-039"],"entity":"Mysore Medical College historic campus","mapping":"SUCCESSOR_CONTINUITY","resolution":"R2"}
+{"candidate_id":"AYC-ENT-040","source_record_ids":["AYC-SRC-040"],"entity":"National High School, Bengaluru","mapping":"HISTORIC_ZONE","resolution":"R3"}
+{"candidate_id":"AYC-ENT-041","source_record_ids":["AYC-SRC-041"],"entity":"Intermediate College, Bangalore","mapping":"UNRESOLVED_ENTITY","resolution":"R5"}
+{"candidate_id":"AYC-ENT-042","source_record_ids":["AYC-SRC-042"],"entity":"Sir Puttanna Chetty Town Hall, Bengaluru","mapping":"SUCCESSOR_CONTINUITY","resolution":"R2"}
+{"candidate_id":"AYC-ENT-043","source_record_ids":["AYC-SRC-043"],"entity":"Sri Chamundeshwari Temple, Chamundi Hill","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-044","source_record_ids":["AYC-SRC-044"],"entity":"Krishna Raja Sagara Dam","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-045","source_record_ids":["AYC-SRC-045"],"entity":"Brindavan Gardens","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-046","source_record_ids":["AYC-SRC-046"],"entity":"Yuvaraja summer palace, Mysore","mapping":"UNRESOLVED_ENTITY","resolution":"R5"}
+{"candidate_id":"AYC-ENT-047","source_record_ids":["AYC-SRC-047"],"entity":"Srinagar double-storey inn","mapping":"UNRESOLVED_ENTITY","resolution":"R5"}
+{"candidate_id":"AYC-ENT-048","source_record_ids":["AYC-SRC-048"],"entity":"Shankaracharya Temple, Srinagar","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-049","source_record_ids":["AYC-SRC-049"],"entity":"Gulmarg","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-050","source_record_ids":["AYC-SRC-050"],"entity":"Khilanmarg excursion landscape","mapping":"HISTORIC_ZONE","resolution":"R3"}
+{"candidate_id":"AYC-ENT-051","source_record_ids":["AYC-SRC-051"],"entity":"Shalimar Bagh, Srinagar","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-052","source_record_ids":["AYC-SRC-052"],"entity":"Nishat Bagh, Srinagar","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-053","source_record_ids":["AYC-SRC-053"],"entity":"Dal Lake channels/floating gardens","mapping":"HISTORIC_ZONE","resolution":"R3"}
+{"candidate_id":"AYC-ENT-054","source_record_ids":["AYC-SRC-054"],"entity":"Shimla personal stop","mapping":"UNRESOLVED_ENTITY","resolution":"R4"}
+{"candidate_id":"AYC-ENT-055","source_record_ids":["AYC-SRC-055"],"entity":"Lambadar Dey host location, Purulia","mapping":"UNRESOLVED_ENTITY","resolution":"R5"}
+{"candidate_id":"AYC-ENT-056","source_record_ids":["AYC-SRC-056"],"entity":"Giri Bala two-storey house, Biur","mapping":"UNRESOLVED_ENTITY","resolution":"R4"}
+{"candidate_id":"AYC-ENT-057","source_record_ids":["AYC-SRC-057"],"entity":"1936 Allahabad Kumbh Mela grounds","mapping":"UNRESOLVED_ENTITY","resolution":"R4"}
+{"candidate_id":"AYC-ENT-058","source_record_ids":["AYC-SRC-058"],"entity":"Satish Chandra Bose residence, Delhi","mapping":"UNRESOLVED_ENTITY","resolution":"R5"}
