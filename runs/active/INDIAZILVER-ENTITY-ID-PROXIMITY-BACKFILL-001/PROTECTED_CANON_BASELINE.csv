@@ -1,3 +1,13 @@
-record_type,status,notes
-BASELINE,PROTECTED,"Existing IDs/A-B-C/locks intentionally not modified in this pass"
-DEPENDENCY,UNKNOWN,"Required canonical source ledger/permanent location export not available at expected path during execution"
+record_type,existing_id_or_key,name,cluster,abc_status,lock_status,coordinates_status,notes
+BASELINE_RULE,PROTECTED_CANON,Existing permanent canon,ALL,UNCHANGED,UNCHANGED,ONLY_TRUSTED,"No existing IDs/A-B-C/locks are modified by this task"
+EXISTING,VNS-CAND-002,Lahiri Mahasaya original home,Varanasi,UNCHANGED,UNCHANGED,UNKNOWN,"TURQUOISE confirms SAME_PHYSICAL_SITE for Lahiri + Sri Yukteswar links; no duplicate ID"
+EXISTING,VNS-CAND-004,Shri Tailanga Swami Math,Varanasi,UNCHANGED,UNCHANGED,UNKNOWN,"Identity review against Panchganga/Trailanga meeting lead; no automatic merge"
+EXISTING,VNS-CAND-009,Dashashwamedh Ghat,Varanasi,UNCHANGED,UNCHANGED,UNKNOWN,"Existing entity; Babaji/Mataji/Lahiri tradition adds person/event links only; hidden cave point unresolved"
+EXISTING,VNS-CAND-011,Panchganga Ghat,Varanasi,UNCHANGED,UNCHANGED,UNKNOWN,"Identity review against Trailanga meeting lead"
+EXISTING,VNS-CAND-044,Ramnagar Fort,Varanasi,UNCHANGED,UNCHANGED,UNKNOWN,"Identity review against Kashi Naresh tutoring lead"
+EXISTING,KB2-038,Mayavati Advaita Ashrama,Kumaon,UNCHANGED,UNCHANGED,UNKNOWN,"Existing Kumaon candidate/entity; Vivekananda link is enrichment only"
+EXISTING,080,Turiya Niwas,Kumaon,A,LOCKED,UNKNOWN,"Protected prior permanent record per earlier ZILVER audit"
+EXISTING,081,Bodh Ashram,Kumaon,A,LOCKED,UNKNOWN,"Protected prior permanent record per earlier ZILVER audit"
+EXISTING,KAINCHI_EXISTING,Kainchi Dham,Kumaon,UNCHANGED,UNCHANGED,UNKNOWN,"TURQUOISE: one parent complex; NKB/Ram Dass links + microsites; no duplicate parent ID"
+EXISTING,NKB_VRINDAVAN_EXISTING,NKB Vrindavan Ashram / Mahasamadhi complex,Vrindavan,UNCHANGED,LOCK_PRESERVED,UNKNOWN,"Existing/locked location per prior audit; GEEL/TURQUOISE microsites remain children"
+BASELINE_NOTE,COORDINATE_GAP,Protected canon coordinates,ALL,NA,NA,UNKNOWN,"Current branch still lacks a complete trustworthy permanent-canon coordinate export; UNKNOWN retained rather than guessed"
