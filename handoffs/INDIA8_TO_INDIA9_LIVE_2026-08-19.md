@@ -26,19 +26,25 @@ Zes stromen zijn uitgezet: BLAUW AOAY/Yogananda; ROOD Core Kriya; GEEL NKB/Ram D
 Task `INDIABLAUW-AOAY-YOGANANDA-LOCATION-CLOSURE-001` op `agent/indiablauw-trip-ops-prep` is COMPLETE.
 Accounting: 58 source records -> 58 entity mappings -> 0 silent drops.
 Commits: source records `18d472cce9f145187a1ca6e3071fbf62eaf529fe`; entity candidates `7e60302cf46cd2380e1fae03978a14706d23ae9f`; R4/R5 closure `7122f85dad8e3d0710e48df83ee72eae56b5d5d2`; access matrix `90d14cb6bcbdd7e88c4c83ee3e7bfa0084ac67d6`; status COMPLETE `58854d1840147b8ae2f1eff42b310e417cb5d836`.
-Central receipt: `runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/FEED_INDIABLAUW_AOAY_YOGANANDA_COMPLETE.md` commit `23d57b73e62c4f31d842175723aa9f1b6eb116d9`.
+Central receipt commit `23d57b73e62c4f31d842175723aa9f1b6eb116d9`.
 High value: Haridwar ch4 station/detention bungalow/not-reached Rishikesh separated; Vrindavan ch11 Madanamohana Temple explicit; Keshabananda -> Katayani Peith Ashram; Regent Hotel Bombay historical third-floor scene retained without false modern continuity; Bhaduri -> Nagendra Math successor; Rai Ghat Lane -> Smriti Mandir continuity; Mysore/Bangalore halls + Kashmir microsites split.
 Still unresolved and MUST remain: Pranabananda Benares house; exact Rana Mahal house; Bareilly bungalow; Srinagar inn; Giri Bala house; Satish Delhi house; Regent modern continuity.
 
+### TURQUOISE — COMPLETE 2026-08-20
+Task `INDIATURQUOISE-ENTITY-OVERLAP-RECONCILIATION-001` on `agent/indiaturquoise-allperson-overlap` is COMPLETE.
+Commits: merge map `f5e156f3e23850cc5f52f71bf26ff3a2346b6900`; same-site `4cd8396f6acf19b70564a34a833bed5ab020624a`; parent-child `fedf7432d8458f4efa47b41bc93007e77229f2c2`; successor `9759e86dadf8f1fc28047549bdcc304420ecd514`; ambiguous queue `473d90a6cda65a182b58180daf9290c8432d134a`; status `0aef428540474bcee26122f3913c26ced6aad10f`.
+Central receipt commit `f5f8a69ef4f2a19063a83e1efa140754ef3e4af8`.
+Critical rules: Kainchi Dham, NKB Vrindavan, 4 Church Lane and Karar Ashram are parent complexes; rooms/verandas/cremation/memorial microsites remain separate child entities. True physical overlaps include Lahiri residence Varanasi, Sri Ramanasramam, Dakshineswar and Ranchi/YSS. Kumbh remains event-zone. Historic->modern successor mappings must remain explicit and not be collapsed to false fabric continuity. Ambiguous merges remain unmerged.
+
 ### ZILVER — STAGED, NOT BLOCKED
-Task changed to staged execution. It must work now from existing canon + known 31 new candidates, calculate reliable <=1km/<=3km where possible, mark UNKNOWN/dependency otherwise, then append later entity feeds. Do not wait for all colors.
+Task uses existing canon + known 31 candidates and now MUST also consume TURQUOISE entity feed. Added on ZILVER branch: `TURQUOISE_ENTITY_FEED.md` commit `1d1607dba2d48fae604ce5cd469fe98876f9a4bd`. ZILVER must use merge/parent-child/successor rules for proximity and new-ID staging and not wait for remaining colors.
 
 ## IMMEDIATE NEXT ACTIONS FOR INDIA9
-1. As each ROOD/GEEL/WIT/TURQUOISE/ZILVER result arrives, register it centrally immediately.
-2. BLAUW is already complete: its 58 mappings are now authoritative feed input to the central all-findings master, not a reason to re-run AOAY discovery.
-3. Newly resolved BLAUW R1-R3 entities must be handed to ZILVER for coordinates/proximity/new-ID staging and TURQUOISE for duplicate/same-site reconciliation. R4/R5 remain explicitly unresolved.
+1. Register each ROOD/GEEL/WIT/ZILVER result centrally immediately.
+2. BLAUW and TURQUOISE are complete; do not re-run their discovery/reconciliation.
+3. Ensure ZILVER consumes both BLAUW resolved entities and TURQUOISE merge/parent-child/successor mapping while calculating coordinates/proximity/new-ID staging.
 4. Do NOT return to Mark A/B/C or Vrindavan/Prayagraj casting until relevant global closure/entity resolution is sufficiently closed.
-5. Once parallel feeds close, build the consolidated `ALL_FINDINGS_LOCATION_MASTER` and accounting equation; then Mark gets complete physical candidate lists per chosen/candidate cluster.
+5. Once parallel feeds close, build consolidated `ALL_FINDINGS_LOCATION_MASTER` with accounting equation and explicit source->entity links; then Mark gets complete physical candidate lists.
 
 ## HARDE GRENZEN
 Geen A/B/C namens Mark. Geen silent filtering. Geen oude locks wijzigen. Geen route definitief vóór candidate closure. Geen PDF zonder PDF_GO. Geen merge zonder Mark. Oost geparkeerd. Ademruimte blijft expliciet reisdoel.
