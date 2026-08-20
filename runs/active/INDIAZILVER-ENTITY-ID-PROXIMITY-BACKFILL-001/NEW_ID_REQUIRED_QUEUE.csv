@@ -1,0 +1,2 @@
+candidate_status,entity_key,id_action,notes
+EMPTY,none,NEW_ID_REQUIRED only,"No definitive IDs issued; awaiting validated physical candidate inputs"
