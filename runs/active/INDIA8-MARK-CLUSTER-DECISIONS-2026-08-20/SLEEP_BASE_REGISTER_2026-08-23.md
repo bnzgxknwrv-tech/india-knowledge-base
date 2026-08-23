@@ -21,8 +21,10 @@ This is a multi-base cluster; one-base model is explicitly rejected.
 - **Hotel Evelyn, Nainital**
 - status: **CLUSTER_ANCHOR + site A**
 - use for: Kainchi Dham; Bhumiadhar; Hanuman Garhi; Nainital/NKB/Ram Dass layer; Naina Peak; central Nainital micro-gems.
-- historic/current web check executed 2026-08-23: Hotel Evelyn is well supported as 1970–71 devotee base; balcony and front-patio/porch scenes are supportable, but no exact current room number can honestly be identified as Ram Dass's room from public evidence.
-- current-stay caution: recent 2024–2025 reports include serious maintenance/cleanliness/hot-water complaints; treat as heritage-first / comfort-risk and verify winter conditions directly before payment.
+- historic/current web check executed 2026-08-23: Hotel Evelyn is well supported as 1970–71 devotee base; balcony and front-patio/porch scenes are supportable, but no exact current room number can honestly be identified as Ram Dass's room from public evidence yet.
+- **MARK OVERRIDE 2026-08-23:** historic authenticity has priority over comfort here. Maintenance problems, primitive conditions, poor reviews, limited comfort, or extra heating cost are NOT grounds to demote or replace Hotel Evelyn. Mark is willing to accept very basic sleeping conditions to stay at the historic place.
+- practical caution is therefore informational only: verify that overnight stay is physically/legalistically possible and safe; do not use comfort reviews as ranking criteria.
+- targeted independent closure queued: `runs/active/INDIA8-HOTEL-EVELYN-RAMDASS-ROOM-CLOSURE-001/TASK.md` to resolve room/floor/wing/balcony/patio as far as evidence permits.
 - routing origin for LP layer: YES.
 
 #### Base K3 — Kasar Devi / Almora
