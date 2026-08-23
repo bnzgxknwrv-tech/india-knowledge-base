@@ -27,6 +27,15 @@ Outputs:
   identity before commit. Zero mismatches.
 - `FULL_BYTE_READ_STREAM_INDEX.md` (task 002) — chunking rule, row schema, verification result,
   and suggested ~8-row fetch ranges (173 fetches) for INDIA9's own semantic read.
+- `read_pages/PAGE_0001.jsonl` ... `PAGE_0346.jsonl` (task 002R, repair) — the same 1,383-row
+  stream split into 346 small page files of exactly 4 original stream rows each (final page 3
+  rows), byte-for-byte slices of the original file with no reserialization, because the single
+  large `FULL_BYTE_READ_STREAM.jsonl` was too big for the GitHub connector's ranged fetch.
+- `READ_PAGES_INDEX.jsonl` (task 002R) — 346 rows: page_number, first/last_stream_row,
+  represented_original_bytes, page_file, page_blob_sha. Concatenating all 346 pages in order
+  reproduces `FULL_BYTE_READ_STREAM.jsonl` byte-for-byte (verified: identical length, identical
+  SHA-256) and the 366/366 blob-reconstruction check was independently re-run from the
+  concatenated pages with the same zero-mismatch result.
 - `STATUS.md` — this file.
 
 Headline finding: `PROTECTED_CANON_BASELINE.csv` does not exist in frozen central at all — it
