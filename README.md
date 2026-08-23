@@ -1,121 +1,99 @@
 # INDIA — START HIER
 
-## STOP — VERPLICHTE EERSTE POORT VOOR INDIA9 EN LATER
+## HIGHEST BOOT AUTHORITY — INDIA10+
 
-**Lees vóór ALLES eerst:**
-`governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md`
+Lees als eerste:
+`governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md`
 
-Deze poort is toegevoegd na een ernstige INDIA8-regiefout op 2026-08-23: recente runs werden wel gelezen, maar oudere nog geldige Mark-canon (A/B/C, cluster-anchors, accommodation locks en legacy-besluiten) werd onvoldoende gereconcilieerd. Daardoor werden reeds beoordeelde plekken opnieuw als keuzes gepresenteerd en bestaande slaapbases onvoldoende gebruikt.
+Dat protocol is vanaf 2026-08-23 de hoogste operationele bootautoriteit voor een nieuwe INDIA-regisseur totdat het expliciet wordt superseded.
 
-Daarom geldt voortaan vóór ELK inhoudelijk advies:
+## Waarom dit veranderd is
 
-`GEHELE REPO LEZEN -> ACTUELE CANON RECONCILIËREN -> AL-BESLIST-CHECK PER ITEM -> PAS DAN PRESENTEREN`
+De eerdere regel dwong iedere opvolger opnieuw de volledige repository en alle relevante legacybranches woord voor woord te lezen. Dat voorkwam kennisverlies, maar veroorzaakte contextvervuiling, enorme herhaalkosten en vergrootte de kans dat oude snapshots opnieuw als actuele waarheid werden behandeld.
 
-En tevens hard:
+INDIA9 + CCI hebben daarom de volledige toenmalige 54-branch-universe mechanisch geaudit en de werkelijk unieke branch-only kennis semantisch gesloten. De gecertificeerde opvolgersmethode is nu:
 
-**Iets wat INDIA NU veilig zelfstandig kan uitvoeren, wordt in DEZELFDE beurt uitgevoerd en duurzaam in GitHub vastgelegd. Nooit bewaren als "volgende stap" als het nu kan.**
+`GECERTIFICEERDE BASELINE + 100% NIEUWE/GEWIJZIGDE SEMANTISCHE DELTA + ACTUELE AUTHORITY RECONCILIATION + FRESHNESS = KNOWLEDGE_READY 100%`
 
----
+Een volledige semantische repo/bootstrap blijft de harde fallback wanneer de baseline of delta niet bewijsbaar valideert.
 
-Dit repository is de duurzame bron van waarheid voor het India-project. Een nieuwe ChatGPT/INDIA-regisseursessie (INDIA7, INDIA8, INDIA9, enz.) moet de oude chat NIET nodig hebben en mag Mark niet vragen de geschiedenis opnieuw uit te leggen.
+## Verplichte startvolgorde
 
-## Harde bootregel voor iedere nieuwe INDIA-regisseur
+1. `governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md`
+2. `governance/KNOWLEDGE_BASELINE_LATEST.md`
+3. `governance/ACTIVE_FRAMEWORK.md`
+4. `governance/PRECEDENCE_MAP.jsonl`
+5. `governance/CENTRAL_INTEGRATION_REGISTRY.jsonl`
+6. `governance/SEMANTIC_IMPORT_REGISTRY_2026-08-23.jsonl` en eventuele latere opvolgers
+7. `governance/CCI_COLLABORATION_PROTOCOL.md`
+8. `governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md`
+9. `governance/INDIA_SESSION_START.md`
+10. nieuwste successor handoff onder `handoffs/`
+11. actuele authority-set/delta volgens het successor protocol
 
-**Lees de gehele GitHub-repository voordat je inhoudelijk handelt.** Niet alleen de handoff, niet alleen governance, niet alleen actieve taken.
+Pas inhoudelijk handelen als alle verplichte knowledge gates sluiten.
 
-Praktisch betekent dit:
+## Harde kennispoort
 
-1. Lees eerst `governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md` volledig.
-2. Haal de volledige recursieve tree van de actuele werkbranch op.
-3. Lees vervolgens **alle tekstuele bronbestanden op die werkbranch inhoudelijk**, inclusief governance, actieve runs, oudere runs, registries, decisions, protocollen, methodes, scripts, README/START/HANDOFF-bestanden, research-notities en legacy-projectbestanden. Oude bestanden kunnen fouten bevatten of gedeprecieerd zijn, maar moeten wel gelezen worden zodat een opvolger weet wat er bestond, wat vervangen is en welke Mark-besluiten mogelijk beschermd zijn.
-4. Niet-tekstuele/binaire artefacten (PDF's, afbeeldingen, ZIP's) hoeven niet byte-voor-byte gelezen te worden als hun relevante inhoud al in tekstbestanden is vastgelegd. Zodra een actuele taak, decision of audit naar zo'n artefact verwijst als inhoudelijke bron, moet het wel worden geopend/gecontroleerd.
-5. Inventariseer daarnaast alle relevante branches en open PR's. Lees in elk geval de actieve werkbranch volledig en inspecteer legacy/andere branches die in de repo of actieve taken worden genoemd. PR #23 moet volledig als relay/index worden gecontroleerd op de nieuwste envelopes; inhoudelijke waarheid blijft in de repo-bestanden.
-6. Lees daarna nogmaals de actuele canonieke statebestanden om prioriteit en conflictoplossing vast te zetten:
-   - `governance/ACTIVE_STATE.md`
-   - `governance/INDIA_SESSION_START.md`
-   - `governance/SWEEP_PROTOCOL.md`
-   - `governance/SWEEP_ERROR_CLASSES.md`
-   - alle `runs/active/*/STATUS.md` + bijbehorende `TASK.md` en genoemde outputbestanden.
-7. Scan repo-breed op minimaal:
-   - `LOCKED_BY_MARK`
-   - `LOCKED_A`
-   - `LOCKED_B`
-   - `LOCKED_C`
-   - `CLUSTER_ANCHOR`
-   - `accommodation`
-   - `hotel`
-   - `MARK_DECISION_CONFLICT`
-   - `LAST_GLOBAL_LOCATION_NUMBER`
-   - `PDF_STATUS`
-   - `next_allowed_step`
-   - `PERSON_SWEEP_SATURATED`
-   - `AOAY_LOCATION_SWEEP_SATURATED`
-   - `DOUBLE_SWEEP_COMPLETED`
-8. Controleer de nieuwste commits op de werkbranch en de nieuwste PR #23-enveloppen.
-9. Bouw vóór presentatie één actuele canonlaag. Voor reisregie geldt: nieuwste expliciete Mark-beslissing/lock > nieuwste accommodation/base lock > nieuwste clusterbesluit > nieuwste site-A/B/C > centrale all-findings/reconciliatie > actuele governance/handoff > oudere beschermde locks/anchors > oude kandidaat-/overzichtsbestanden.
-10. Doe voor ELK item dat aan Mark wordt genoemd eerst de `AL BESLIST?`-check uit de critical boot file. Een bestaand A/B/C/lock wordt nooit opnieuw als nieuwe keuze gepresenteerd.
-11. Handel daarna DIRECT de nieuwste uitvoerbare actie af. Mark is geen koerier tussen INDIA en CCI.
-12. Vóór ieder finaal antwoord: scan je eigen concept op woorden als `moet nog`, `later`, `volgende stap`, `nog onderzoeken`, `nog bepalen`. Als INDIA dit nu veilig zelf kan doen: NIET verzenden, eerst uitvoeren.
+Voor inhoudelijk werk moet de regisseur kunnen vaststellen:
+- `SEMANTIC_KNOWLEDGE_COVERAGE: 100%`
+- `INTEGRITY_COVERAGE: 100%`
+- `AUTHORITY_RECONCILIATION: PASS`
+- `FRESHNESS_GATE: PASS_FOR_CURRENT_USE` voor de actuele taak
+- `KNOWLEDGE_READY: 100%`
 
-### Waarom echt de hele repo lezen
-Dit project heeft meerdere architectuurfasen, oude branches, legacy-besluiten en later ontdekte misses. Alleen een samenvatting lezen kan precies de fouten herhalen die we proberen te voorkomen. De volledige repo is daarom de oriëntatielaag; de statebestanden bepalen daarna wat actueel/canoniek is.
+Past booten niet in één beurt: checkpointen en exact hervatten. Geen inhoudelijke regie op halve kennis.
 
-## State-bestanden en onderhoud
+## Authority en oude bestanden
 
-- `governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md` = verplichte eerste foutpreventiepoort.
-- `governance/INDIA_SESSION_START.md` = compacte, actuele operationele overdracht.
-- `governance/ACTIVE_STATE.md` = langere centrale projectstaat/canon.
-- `runs/active/<TASK_ID>/STATUS.md` = kortste en meest actuele waarheid per taak.
-- `runs/active/<TASK_ID>/TASK.md` = taakcontract.
-- PR #23 = korte relay/index, geen vervanging voor repo-inhoud.
+`governance/ACTIVE_STATE.md`, oude `pipeline/`, `india4/india5`, oudere handoffs, workerbranches en historische taskfiles blijven als provenance bestaan. Hun aanwezigheid maakt ze niet automatisch actueel.
 
-**Verplichte onderhoudsregel voor iedere INDIA-regisseur:** update `governance/INDIA_SESSION_START.md` of een expliciete actuele canon-delta in dezelfde werksessie wanneer één van deze dingen verandert: nieuwe taak, taak afgerond/geblokkeerd, nieuwe CCI-opdracht, nieuwe permanente locatie-ID, Mark A/B/C-lock, accommodation/base lock, methode/protocolwijziging, regioprioriteit, foutcorrectie of `NEXT_ACTION`. Update daarnaast altijd het betrokken taak-`STATUS.md`. Laat een opvolger nooit afhankelijk zijn van chatgeheugen.
+Gebruik `ACTIVE_FRAMEWORK.md` + `PRECEDENCE_MAP.jsonl` + expliciete actuele beslissingen om te bepalen welk deel nog autoriteit heeft.
 
-## Projectdoel
+Belangrijkste regel:
+**nieuwste expliciete Mark-beslissing / LOCKED_BY_MARK / expliciete supersede wint altijd van aanbevelingen, queues en oudere snapshots.**
 
-Marks India-reis draait primair om drie orthogonale detectorlagen:
+## Protected canon
 
-1. **AOAY** — iedere verifieerbare fysieke plek uit of direct verbonden met *Autobiography of a Yogi*, hoe klein ook.
-2. **Top-11 persoon-centraal** — per persoon heel India afzoeken naar aantoonbare fysieke touchpoints, inclusief host/gastheer/landgoed/huis-bezoeken.
-3. **Regionaal** — per zware regio een onafhankelijke dubbele sweep + reconciliatie; daarnaast alleen zelfstandige spirituele/pelgrimszwaargewichten als bonuslaag.
+De centraal beschikbaar gemaakte protected-canon/integratiebundle staat onder:
+`runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/`
 
-Top-11, vaste volgorde:
-1. Paramahansa Yogananda
-2. Mahavatar Babaji
-3. Lahiri Mahasaya
-4. Sri Yukteswar
-5. Ram Dass
-6. Neem Karoli Baba
-7. Anandamayi Ma
-8. Ramakrishna
-9. Ramana Maharshi
-10. Hariharananda
-11. Vivekananda
+`PROTECTED_CANON_BASELINE.csv` beschermt de bestaande permanente 001–081 en relevante legacy/accommodation states. Staging- en reviewqueues in dezelfde directory zijn geen definitieve nieuwe IDs en geen Mark-keuzes.
 
-Geen A/B/C voorspellen namens Mark. Geen PDF zonder expliciet `PDF_GO: JA`.
+## CCI-samenwerking
 
-## Historische snapshot — 2026-08-16
+Lees `governance/CCI_COLLABORATION_PROTOCOL.md`.
 
-LET OP: onderstaande snapshot is historisch en kan door latere besluiten zijn superseded. Gebruik hem NIET als actuele reiscanon zonder de verplichte canonreconciliatie hierboven.
+Standaard:
+`CCI worker/review -> INDIA integration branch -> validator -> CCI read-only red-team -> INDIA central fast-forward`.
 
-Repository: `bnzgxknwrv-tech/india-knowledge-base`
-Werkbranch destijds: `claude/werk-je-nu-of-niet-oa10y7`
-PR: #23 draft; niet mergen zonder expliciete vrijgave van Mark.
-Laatste globale permanente locatienummer in die snapshot: **081**.
+PR #23 blijft relay/index. Mark is geen koerier. Zodra INDIA een CCI-task heeft opengezet, controleert INDIA zelf PR #23 bij grote fasegrenzen en vóór lange/eindantwoorden.
 
-### Kumaon
-`KUMAON-V2-RESWEEP-001` was gedeeltelijk gereconcilieerd.
-- 079 Mahavatar Babaji's Cave — A, `LOCKED_BY_MARK`.
-- 080 Turiya Niwas — A, `LOCKED_BY_MARK`.
-- 081 Bodh Ashram — A, `LOCKED_BY_MARK`.
+## Centrale regiebranch
 
-### Reeds inhoudelijk afgerond in die snapshot
-- Varanasi: 001–040 beoordeeld/beschermd; latere deltas bestaan.
-- Bodh Gaya: 046–078 verwerkt; keuzes beschermd; geen nieuwe Bodh Gaya-PDF.
-- Gaya Airport → Bodh Gaya corridor: dubbele sweep + reconciliatie, 0 nieuwe locaties.
+Huidige centrale regiebranch tijdens deze successor-migratie:
+`agent/india8-cluster-casting`
 
-## Exacte startzin voor een nieuwe chat
+Een opvolger verandert de centrale branchnaam niet stilzwijgend. Branchmigratie is een expliciete governancehandeling.
 
-Gebruik bij voorkeur de actuele startvraag die INDIA8 op 2026-08-23 aan Mark heeft gegeven. Minimaal moet iedere startvraag eisen:
+## No-deferral en `AL BESLIST?`
 
-> Neem de INDIA-regie over. Open eerst README.md en volg de verplichte `INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md`-poort. Lees daarna de gehele tekstuele repository en relevante branches/legacy-canon, reconcileer alle bestaande Mark A/B/C-, cluster-, accommodation- en base-locks vóór je iets presenteert, controleer per item of het al besloten is, en voer iedere actie die je nu veilig zelfstandig kunt doen meteen uit en commit die; laat niets als 'volgende stap' liggen wanneer het nu kan.
+De incidentguards uit `governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md` blijven bindend:
+- vóór ieder item: `AL BESLIST?`;
+- beschermde keuzes niet opnieuw aan Mark voorleggen;
+- wat INDIA nu veilig zelfstandig kan uitvoeren, niet als losse toekomstige stap parkeren;
+- nieuwe relevante state/correcties duurzaam vastleggen.
+
+## Auditprovenance
+
+De INDIA9 repo-wide knowledge-audit is centraal gearchiveerd onder:
+`archive/india9-knowledge-audit-2026-08-23/`
+
+De auditpackaging is bewijs, geen tweede live stateboom. De originele worker-/legacybranches zijn niet verwijderd.
+
+## Nieuwe sessie
+
+Gebruik de actuele letterlijke startprompt uit:
+`handoffs/INDIA9_TO_INDIA10_SUCCESSOR_READY_2026-08-23.md`
+
+Als die handoff nog geen `SUCCESSOR_ARCHITECTURE: PASS` bevat, is de migratie nog niet gereed en mag geen verse INDIA als volledig overgedragen worden beschouwd.
