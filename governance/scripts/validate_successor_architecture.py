@@ -1,16 +1,28 @@
 #!/usr/bin/env python3
 """Fail-closed validator for the INDIA successor architecture.
 
-Run from repository root. Exit 0 = PASS, non-zero = FAIL.
+Run from repository root.
+- `python3 governance/scripts/validate_successor_architecture.py --preflight`
+  validates a candidate before CCI adversarial review.
+- `python3 governance/scripts/validate_successor_architecture.py`
+  validates final certification before central fast-forward.
+
+Exit 0 = PASS, non-zero = FAIL.
 This validates structure/integrity, not travel facts or subjective Mark decisions.
 """
 from __future__ import annotations
 
+import argparse
 import csv
 import json
 import subprocess
 import sys
 from pathlib import Path
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--preflight", action="store_true")
+args = parser.parse_args()
+MODE = "PREFLIGHT" if args.preflight else "FINAL"
 
 ROOT = Path(__file__).resolve().parents[2]
 errors: list[str] = []
@@ -27,6 +39,8 @@ REQUIRED = [
     "governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md",
     "governance/INDIA_SESSION_START.md",
     "handoffs/INDIA9_TO_INDIA10_SUCCESSOR_READY_2026-08-23.md",
+    "runs/active/INDIA9-SUCCESSOR-ARCHITECTURE-INTEGRATION-001/TASK.md",
+    "runs/active/INDIA9-SUCCESSOR-ARCHITECTURE-INTEGRATION-001/STATUS.md",
     "runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv",
     "runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/STATUS.md",
     "archive/india9-knowledge-audit-2026-08-23/task006/BRANCH_ONLY_SEMANTIC_COVERAGE_LEDGER.jsonl",
@@ -97,26 +111,41 @@ if canon.exists():
     ids = [r.get("entity_id", "") for r in rows if r.get("record_type") == "PERMANENT"]
     expected_ids = [f"{i:03d}" for i in range(1, 82)]
     if sorted(ids) != expected_ids:
-        errors.append(f"PROTECTED_ID_SET_MISMATCH: got {len(ids)} permanent rows; expected exact 001..081")
+        errors.append(
+            f"PROTECTED_ID_SET_MISMATCH: got {len(ids)} permanent rows; expected exact 001..081"
+        )
 
-# Binding semantic guards.
+# Binding semantic guards common to both phases.
 checks = [
     ("governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md", "KNOWLEDGE_READY: 100%"),
     ("governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md", "Full-bootstrap fallback"),
     ("governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md", "AL BESLIST?"),
-    ("governance/ACTIVE_FRAMEWORK.md", "WORKER"),
+    ("governance/ACTIVE_FRAMEWORK.md", "worker branch saying `COMPLETE`"),
     ("governance/CCI_COLLABORATION_PROTOCOL.md", "controleer PR #23"),
     ("governance/CCI_COLLABORATION_PROTOCOL.md", "read-only red-team"),
-    ("governance/KNOWLEDGE_BASELINE_LATEST.md", "status: CERTIFIED"),
     ("governance/KNOWLEDGE_BASELINE_LATEST.md", "62 bestanden / 344.876 bronbytes"),
     ("README.md", "governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md"),
     ("governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md", "baseline + delta"),
     ("governance/INDIA_SESSION_START.md", "KNOWLEDGE_READY"),
-    ("handoffs/INDIA9_TO_INDIA10_SUCCESSOR_READY_2026-08-23.md", "SUCCESSOR_ARCHITECTURE: PASS"),
     ("handoffs/INDIA9_TO_INDIA10_SUCCESSOR_READY_2026-08-23.md", "DEFINITIEVE STARTPROMPT INDIA10"),
 ]
 for rel, needle in checks:
     require(rel, needle)
+
+if MODE == "PREFLIGHT":
+    require("governance/KNOWLEDGE_BASELINE_LATEST.md", "status: CERTIFIED_CANDIDATE_PENDING_FINAL_VALIDATOR")
+    require("handoffs/INDIA9_TO_INDIA10_SUCCESSOR_READY_2026-08-23.md", "SUCCESSOR_ARCHITECTURE: NOT_YET_PASS")
+else:
+    # Final mode is deliberately stricter and cannot pass on a candidate.
+    baseline = text("governance/KNOWLEDGE_BASELINE_LATEST.md")
+    if "status: CERTIFIED\n" not in baseline:
+        errors.append("FINAL_BASELINE_NOT_CERTIFIED")
+    handoff = text("handoffs/INDIA9_TO_INDIA10_SUCCESSOR_READY_2026-08-23.md")
+    if "SUCCESSOR_ARCHITECTURE: PASS" not in handoff:
+        errors.append("FINAL_HANDOFF_NOT_PASS")
+    status = text("runs/active/INDIA9-SUCCESSOR-ARCHITECTURE-INTEGRATION-001/STATUS.md")
+    if "SUCCESSOR_ARCHITECTURE: PASS" not in status:
+        errors.append("FINAL_TASK_STATUS_NOT_PASS")
 
 # The old brute-force rule must no longer be the default in entrypoints.
 for rel in ["README.md", "governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md"]:
@@ -125,12 +154,12 @@ for rel in ["README.md", "governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2
         errors.append(f"OLD_BRUTE_FORCE_DEFAULT_STILL_ACTIVE: {rel}")
 
 if errors:
-    print("SUCCESSOR_ARCHITECTURE_VALIDATOR: FAIL")
+    print(f"SUCCESSOR_ARCHITECTURE_VALIDATOR_{MODE}: FAIL")
     for err in errors:
         print(f"- {err}")
     sys.exit(1)
 
-print("SUCCESSOR_ARCHITECTURE_VALIDATOR: PASS")
+print(f"SUCCESSOR_ARCHITECTURE_VALIDATOR_{MODE}: PASS")
 print("protected_canon: exact blob + exact permanent IDs 001-081")
 print("audit_provenance: exact key blobs")
 print("authority/jsonl/entrypoints/handoff: PASS")
