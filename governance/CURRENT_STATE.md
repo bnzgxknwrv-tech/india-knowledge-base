@@ -73,13 +73,22 @@ Current master state there:
 - existing permanent IDs 001–081 and existing A/B/C/locks preserved;
 - next execution order remains Mark-ready cluster/location slices and additive location closure before route/transport/hotel finalization.
 
-Cluster-level decisions already made by Mark remain protected and must not be reopened. Examples include Kumaon, Vrindavan/Braj/Mathura, Varanasi/Sarnath, Bodh Gaya/Gaya, Tiruvannamalai/Arunachala, Mysore/Bengaluru, Haridwar/Kankhal/Rishikesh and Agra as recorded in the existing cluster-decision files. Cluster ABC and individual-site ABC remain separate.
+Cluster-level decisions and site A/B/C choices already made by Mark remain protected provenance and must never be silently changed. However, on 2026-08-23 Mark explicitly opened a DELIBERATE RE-EVALUATION ROUND because many earlier A/B/C decisions predate completed person sweeps and/or true regional discovery. During this round it is allowed to present old decisions back to Mark for reconsideration after person + regional/location + traveler/experience layers are merged. Preserve the old grade/lock visibly as provenance until Mark explicitly supersedes it. INDIA/CCI/workers do not change A/B/C or cluster status on Mark's behalf.
 
 Therefore the live phase is:
 
-`NATIONAL PERSON/LOCATION CLOSURE -> ADDITIVE/REVERSE DISCOVERY -> MARK-READY LOCATION/CLUSTER DECISION SLICES -> LATER ROUTE/NIGHTS/TRANSPORT/HOTELS -> LATER BOOKING`
+`COVERAGE AUDIT -> MISSING REGIONAL/LOCATION DISCOVERY + MULTI-AI TRAVELER/EXPERIENCE DISCOVERY -> MERGE WITH PERSON LAYERS + OLD ABC -> MARK RE-EVALUATES SITES/CLUSTER WEIGHT -> LATER NIGHTS/ROUTE/TRANSPORT/HOTELS -> LATER BOOKING`
 
 Do not use the existence of route drafts, calendar work or booking-prep files as proof that upstream location/person closure is finished.
+
+### Re-evaluation design — explicit Mark instruction 2026-08-23
+- The trip remains primarily a spiritual pilgrimage. AOAY/Top-11 person relevance stays mission-critical.
+- Regional/location discovery must also surface independently exceptional spiritual, cultural, historical and world-magnet places.
+- Traveler/Lonely-Planet-style discovery must include EXPERIENCES, not only places: e.g. exceptional rafting/adventure, hot springs/wellness, wildlife, unusual transport, strange historical/cult experiences, old local institutions, markets/crafts, spectacular short nature experiences and other repeated traveler highlights.
+- Do not use a fixed geographic radius as a hard exclusion. Run an adaptive WORLD-MAGNET check: a truly extraordinary place/experience substantially farther away may deserve Mark review, while a mediocre nearby place does not.
+- Historic person evidence is not automatically a visit candidate. Private homes, ordinary hospitals, schools or workplaces without shrine/memorial/visitor context remain in the knowledge base but normally should not be surfaced as practical pilgrimage choices.
+- Old `A` may have meant “definitely visit if already nearby” rather than “add a day/night for this”. During re-evaluation separately ask whether a site/experience is a CLUSTER DRIVER that justifies incremental cluster time.
+- Do not move into quarter-hour itinerary construction until this re-evaluation has been completed far enough to recalculate cluster weight and nights.
 
 ## Current person/location front
 
@@ -99,7 +108,22 @@ Result at travel-identity level only:
 
 This does not assign A/B/C or include any of these in Mark's route. Exact rooms/microsublocations remain separate where not proven.
 
-Other national person layers also remain honestly non-saturated even where multi-detector reconciliation is already complete. Do not confuse a completed reconciliation task with total person-layer saturation.
+Other national person layers also remain honestly non-saturated even where multi-detector reconciliation is already complete. For current travel re-evaluation, Mark considers the completed person-sweep bodies sufficient to proceed unless a concrete location/identity gap can materially change a cluster decision. Do not regress into open-ended national person research merely because a technical saturation token says NEE.
+
+## Multi-AI traveler/experience discovery — active
+
+Central task:
+`runs/active/INDIA10-MULTIAI-TRAVELER-DISCOVERY-001/TASK.md`
+
+This layer deliberately uses independent AI/search styles. CCI is not required for discovery. Workers freeze their own findings before reading the existing 80 findings or other worker outputs. Diversity is the detector; agreement is useful evidence but not required for a unique high-value finding.
+
+Prepared worker branches:
+- `agent/indialp-multiai-weird-human`
+- `agent/indialp-multiai-nature-adventure`
+- `agent/indialp-multiai-world-magnets`
+- `agent/indialp-multiai-blind-general`
+
+Central INDIA reconciles/deduplicates only after each independent freeze.
 
 ## Booking-prep artifact disposition
 
@@ -116,4 +140,4 @@ Architecture optimization is over. The correction above is not a new governance 
 
 ## Current next-action rule
 
-Continue the highest-value executable **person/location research or reconciliation gap** that can materially affect later Mark-ready cluster/location decisions. Do not reopen anything already decided. Ask Mark only when a genuine new A/B/C, cluster, hotel, route or other personal choice is actually ready and necessary.
+Finish the retained-cluster coverage audit. Execute only genuine RED/ORANGE regional/location gaps plus the independent multi-AI traveler/experience layer. Then merge person + region/location + traveler/experience + old A/B/C into Mark-ready cluster review slices. Preserve prior decisions until Mark explicitly changes them; do not infer regrades. Quarter-hour planning stays downstream of the renewed cluster/nights decision.
