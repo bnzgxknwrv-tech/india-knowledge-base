@@ -1,50 +1,36 @@
-# ACTIVE FRAMEWORK — single current map
+# ACTIVE FRAMEWORK — CURRENT MAP
 
-```
-effective_date: 2026-08-23
-authorized_by: Mark (live chat, "Luister naar hem, hij is nieuwe regisseur"), task 008.
-```
+Effective: 2026-08-23
+
+This page answers one question: what should an INDIA session treat as current authority versus useful history?
 
 ## Current operational authority
+Use, in order of practical importance:
+1. explicit current Mark decisions and locks;
+2. `governance/CURRENT_STATE.md`;
+3. `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv` for protected permanent decisions/IDs;
+4. current task `TASK.md`/`STATUS.md` and current outputs relevant to the question;
+5. current `india4/` research workflow where a task still uses it.
 
-The current, live operational framework is the combination of:
-- `governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md` — highest boot authority (INDIA10+).
-- current `governance/*.md` files (not superseded — see
-  `governance/PRECEDENCE_MAP.jsonl`) and `decisions/*.md`.
-- current `runs/active/*` task contracts and their live `TASK.md`/`STATUS.md` state.
-- `india4/` — the surviving active prompt/role framework (`prompts/`, `START.md`,
-  `ACTIVE_SYSTEM.yaml`).
+When a newer explicit Mark decision conflicts with an older stored decision, the newer explicit decision wins and the durable canon should be updated clearly.
 
-## Explicitly provenance-only, not active authority
+## Useful history / provenance
+The following remain useful evidence but are not routine boot authority:
+- `governance/ACTIVE_STATE.md` and older session-start/handoff files;
+- old `pipeline/`, earlier `india4/india5` generations not used by the current task;
+- `governance/PRECEDENCE_MAP.jsonl`;
+- `governance/SEMANTIC_IMPORT_REGISTRY_2026-08-23.jsonl`;
+- `governance/CENTRAL_INTEGRATION_REGISTRY.jsonl`;
+- `governance/KNOWLEDGE_BASELINE_*` and INDIA9 audit archives;
+- old worker branches, staging queues, read streams and review volumes.
 
-These generations are retained for their historical/methodological value and are
-**not** consulted for current operational rules unless an active authority file
-explicitly imports a specific principle from them:
+Do not delete useful history merely because it is no longer routine authority. Read it when a concrete provenance question or conflict requires it.
 
-- `pipeline/**` — an earlier, parallel framework generation (protocols/roles/
-  templates/tests/reviews/proposals/directives/learning/regression/validators).
-  Central retains only one leftover `pipeline/ACTIVE_SYSTEM.yaml`; `india4/` is the
-  framework that actually carried forward. This does not erase pipeline/'s rules —
-  many of its principles (staged validation, explicit contracts) are worth mining —
-  but nothing in `pipeline/` is authoritative by default.
-- `persons/`, `places/`, `sources/`, `templates/`, `knowledge/**` — an early
-  structured-knowledge-base schema (numbered `PERSON-*`/`PLACE-*`/`SOURCE-*` record
-  files). Superseded in role by `india5/` conventions and per-task `runs/active/*`
-  output; retained as provenance.
-- older handoff/protocol generations (`governance/INDIA7_BOOTSTRAP_DELTA_*`,
-  `governance/HANDOFF_INDIA6_TO_INDIA7_*`, the numbered `decisions/DECISION-000N-*.md`
-  protocol from 2026-07, `research/active/*-COMPLETE-001/**` legacy BRONS/ZILVER/GOUD
-  research) — historical provenance; do not reread on boot unless specifically
-  researching provenance for a specific item.
-- `archive/india9-branch-only-semantic-2026-08-23/**` — the task-008 provenance
-  archive (see `governance/SEMANTIC_IMPORT_REGISTRY_2026-08-23.jsonl`); staging-level
-  or time-sensitive worker output that was not promoted to active canon.
+## Worker-output rule
+`COMPLETE` on a worker branch means the worker completed its own task. It is not automatically a new Mark decision, permanent canon or central route truth.
 
-## Rule
+## Time-sensitive rule
+Old logistical facts can stay in the repository. Revalidate them when they are actually about to matter to advice or booking.
 
-Do not erase useful legacy rules by deleting these trees. Point to inherited
-principles explicitly (a specific governance file citing a specific legacy rule) rather
-than treating an entire legacy tree as live authority by default.
-
----
-Geschreven door: CCI, task 008.
+## Scope rule
+This is a travel knowledge base. Prefer a small number of readable current files over expanding governance layers. If a new governance mechanism does not clearly reduce repeated travel work, forgotten decisions or handoff confusion, do not add it.
