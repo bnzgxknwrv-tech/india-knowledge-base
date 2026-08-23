@@ -9,6 +9,9 @@ Mark has clarified that ordinary A/B/C cannot be judged responsibly before the i
 
 This file does not itself assign A+, A, B or C. Only Mark does that.
 
+## TERMINOLOGY — HARD
+Use **cost/kosten** only for money. For planning and proximity use precise terms such as duration, extra travel time, detour, walking/driving time and logistical burden. Do not call a nearby or time-efficient stop "free/gratis" unless monetary price is literally meant.
+
 ## A+ DEFINITION
 A+ is a separate decision dimension from ordinary A/B/C.
 
@@ -52,7 +55,7 @@ Therefore:
 8. Build the global route / quarter-hour itinerary from surviving complete clusters.
 
 ## WHY ORDINARY A/B/C MUST WAIT FOR A+
-A moderate candidate may rationally rise because it is essentially free to add to an A+ visit. Conversely, an old A may fall if it requires a large separate excursion and is not intrinsically strong enough to justify it.
+A moderate candidate may rationally rise because it adds almost no extra time to an A+ visit. Conversely, an old A may fall if it requires a large separate excursion and is not intrinsically strong enough to justify it.
 
 Examples of the intended logic:
 - pleasant waterfall 5 minutes from a heavy A+ -> may become A in context;
@@ -61,7 +64,7 @@ Examples of the intended logic:
 - world-class traveler experience can itself become A+ if Mark judges it a major trip reason.
 
 ## PROXIMITY METRIC — DO NOT USE KILOMETRES ALONE
-The existing `PROXIMITY_1KM_3KM_MATRIX.csv` is useful foundation evidence, but the new decision model needs practical route cost.
+The existing `PROXIMITY_1KM_3KM_MATRIX.csv` is useful foundation evidence, but the new decision model needs practical travel-time and detour impact.
 
 Required context fields for Mark review where feasible:
 - `nearest_A_plus`
