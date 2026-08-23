@@ -1,0 +1,769 @@
+>>> CHUNK stream_row=22 path=runs/active/INDIABLAUW-VISA-READY-PACK-001/VISA_SCAM_GUARD.md blob_sha=074026f219d010242c30037dbbb20ca51ba0873a original_offset=0 original_length=3160 payload_bytes=3160 chunk_index=0 chunk_count=1 classification=text
+# VISA SCAM GUARD — INDIA BLAUW
+
+Checkdatum: 2026-08-19
+
+## Enige officiële e-Visa route
+
+De officiële Indiase e-Visa FAQ zegt expliciet dat voor e-Visa Services alleen deze overheidswebsite gebruikt moet worden:
+
+https://indianvisaonline.gov.in/evisa/
+
+Hoofdportal:
+https://indianvisaonline.gov.in/
+
+De hoofdportal noemt zichzelf `Authorized Portal for Visa Application to India` en wordt beheerd door Bureau of Immigration, Ministry of Home Affairs, Government of India.
+
+## Officiële waarschuwingen
+
+Government of India zegt:
+- er is geen andere website nodig voor de e-Visa aanvraag;
+- e-Visa Services zijn volledig online;
+- geen facilitator, intermediary of travel agent is nodig;
+- geloof geen partijen die tegen extra betaling een speedy/express e-Visa beloven;
+- deel geen persoonsgegevens met ongeautoriseerde websites;
+- er bestaat geen officiële emergency/express toeslag bovenop de normale e-Visa processing fee.
+
+## Veilige werkwijze
+
+- Typ of open zelf `https://indianvisaonline.gov.in/evisa/`.
+- Controleer vóór upload/betaling exact het domein `indianvisaonline.gov.in`.
+- Begin geen aanvraag via een advertentie, vergelijkingssite, reisagent of commerciële 'India visa' website.
+- Deel paspoortscan, foto, geboortedatum en andere aanvraagdata alleen in de officiële portal.
+- Betaal e-Visa fee alleen via de betaalstap die vanuit de officiële portal wordt geopend.
+- De officiële portal ondersteunt online betaling via de daar aangeboden payment channels; gebruik geen los betaalverzoek van een derde.
+- Verifieer payment status via `Verify Payment/ Pay e-Visa Fee` op de officiële portal.
+- Controleer Visa Status eveneens alleen via de officiële portal.
+- Bewaar Application ID en betaalbevestiging.
+
+## Rode vlaggen
+
+Direct stoppen bij:
+- domeinnaam die op India/visa lijkt maar niet `indianvisaonline.gov.in` is;
+- belofte van 'guaranteed visa';
+- aparte express/emergency fee;
+- WhatsApp/telefonisch verzoek om paspoortscan buiten de portal;
+- betaalverzoek naar privérekening/cryptocurrency/losse payment link;
+- partij die zegt dat een agent verplicht is;
+- verzoek om persoonsgegevens te mailen naar een niet-`gov.in` adres als onderdeel van normale aanvraag.
+
+## Officiële ondersteuning
+
+De officiële FAQ vermeldt voor e-Visa clarification:
+- e-mail: `indian-evisa[at]gov[dot]in`
+- telefoon: (+91) 827808 7808
+- telefoon: +91 11 24300666
+
+Gebruik actuele gegevens op de officiële portal als deze later wijzigen.
+
+## Na betaling / grant
+
+- Processing fee is volgens de officiële FAQ non-refundable en niet afhankelijk van grant/rejection.
+- Geen extra betaling op luchthaven nodig voor e-Visa naast de online processing fee.
+- Voor vertrek ETA-status `GRANTED` controleren op officiële site.
+
+## Officiële bronnen
+
+- https://indianvisaonline.gov.in/evisa/ — officiële FAQ, Q3/Q4 en aanvraag-/betaalproces; gecontroleerd 2026-08-19.
+- https://indianvisaonline.gov.in/ — Authorized Portal for Visa Application to India en advisory over agents/emergency/express fees; gecontroleerd 2026-08-19.
+- https://www.mha.gov.in/en/commoncontent/e-visa — Ministry of Home Affairs e-Visa page; gecontroleerd 2026-08-19.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=23 path=runs/active/INDIABLAUW-VISA-READY-PACK-001/VISA_TIMING_RECOMMENDATION.md blob_sha=11a1534ad1e6c72d98b0cbcc2728d6eac9b265b1 original_offset=0 original_length=3255 payload_bytes=3255 chunk_index=0 chunk_count=1 classification=text
+# VISA TIMING RECOMMENDATION — INDIA BLAUW
+
+Checkdatum: 2026-08-19
+Beoogde aankomst: 2026-12-18
+Beoogd vertrek: 2027-01-21
+
+## Officiële grenzen
+
+Voor een e-Tourist Visa van 1 jaar of 5 jaar vermeldt de officiële Indiase e-Visa FAQ:
+- aanvraag kan vanaf 120 dagen vóór de voorgestelde reisdatum;
+- aanvraag moet minimaal 4 dagen vóór aankomst worden gedaan.
+
+Voor aankomst op 2026-12-18 betekent 120 dagen terug: 2026-08-20.
+
+Dus:
+- Eerste formeel mogelijke aanvraagdatum volgens het 120-dagenvenster: 2026-08-20.
+- Formele minimumgrens volgens de huidige regel: uiterlijk 4 dagen vóór aankomst; dit is geen aanbevolen operationele deadline.
+
+## Praktisch verstandig moment
+
+Aanbevolen operationele aanpak: aanvraag niet tot de minimumgrens uitstellen. Zodra paspoort, foto, persoonlijke gegevens en gekozen visa-optie definitief zijn, de aanvraag ruim vóór vertrek indienen.
+
+Voor deze reis is september 2026 een logisch voorkeursvenster om het dossier af te ronden. Dat is een operationele aanbeveling, geen officiële Indiase verwerkingstermijn. Het doel is uitsluitend tijd overhouden voor eventuele foutcorrectie, document-reupload, betaalproblemen of hercontrole vóór vertrek.
+
+Een aanvraag op 20 augustus is formeel mogelijk, maar niet verplicht. Voor een 1-jaars e-Tourist Visa begint de geldigheid volgens de officiële portal vanaf de datum waarop de ETA wordt verleend. Een zeer vroege aanvraag verbruikt dus iets meer van die geldigheidsperiode vóór de reis; voor deze reisduur levert dat geen probleem op, maar het is een reden om niet per se op de allereerste dag te moeten indienen.
+
+## Harde beslisregel
+
+1. Vanaf 2026-08-20: aanvraagvenster open.
+2. September 2026: voorkeursperiode om daadwerkelijk in te dienen als alle gegevens definitief zijn.
+3. Oktober 2026: nog steeds ruime operationele marge, maar opnieuw actuele officiële regels controleren vóór submit.
+4. November 2026: niet onnodig verder uitstellen; officiële regels opnieuw controleren en aanvraag afronden.
+5. December 2026: alleen als noodzakelijk; de officiële 4-dagenminimumgrens is een formele ondergrens, geen veilige planningsmarge.
+
+## Geen verzonnen verwerkingstermijn
+
+De officiële portal zegt dat de aanvrager per e-mail over Granted/Rejected wordt geïnformeerd en status online kan controleren. Deze pack gebruikt bewust geen onbevestigde belofte zoals 'binnen X werkdagen gegarandeerd'.
+
+Na indienen:
+- bevestiging van submission/payment bewaren;
+- status uitsluitend op officiële portal controleren;
+- alleen reizen als ETA `GRANTED` toont;
+- ETA meenemen/printen.
+
+## Recheck
+
+Vóór daadwerkelijke aanvraag opnieuw controleren:
+- aanvraagvenster;
+- visa-categorie en geldigheid;
+- documentformaten;
+- officiële fee voor Nederlandse nationaliteit;
+- eventuele portal/advisory-wijzigingen.
+
+Voorgestelde recheckdatum: dezelfde dag als daadwerkelijke indiening.
+
+## Officiële bronnen
+
+- https://indianvisaonline.gov.in/evisa/ — FAQ Q5, geldigheid, aanvraagproces en status; gecontroleerd 2026-08-19.
+- https://indianvisaonline.gov.in/ — Authorized Portal for Visa Application to India; gecontroleerd 2026-08-19.
+- https://www.mha.gov.in/en/commoncontent/e-visa — Ministry of Home Affairs e-Visa page; gecontroleerd 2026-08-19.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=24 path=runs/active/INDIAGOUD-NONPERSON-ANCHOR-AUDIT-001/35_DAY_CAPACITY_IMPACT.md blob_sha=307112f582ec76b316130b0f89f43b1ef1c4cfb5 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# 35_DAY_CAPACITY_IMPACT — INDIA GOUD
+
+Reisperiode: 18-12-2026 t/m 21-01-2027
+Beschikbare kalenderduur: 35 dagen inclusief aankomst-/vertrekdagen.
+Doel: capaciteit toetsen, **geen route kiezen**, geen nachten/hotels vastleggen.
+
+## Uitgangspunten
+
+- Minimum = fysiek haalbare inhoudelijke band zonder te doen alsof elke transfer gratis is.
+- Comfortabel = voldoende tijd om een zwaar spiritueel cluster daadwerkelijk te beleven in plaats van alleen af te vinken.
+- Grote intercitywissels vragen daarnaast transfer-/bufferblokken. Deze audit telt die niet kunstmatig weg.
+- Combinatiepotentieel betekent alleen dat clusters geografisch/logistiek samen onderzocht kunnen worden; het is GEEN routebesluit.
+
+## Clusterbanden
+
+| groot cluster / clusterfamilie | minimum | comfortabel | combinatiepotentieel / waarschuwing |
+|---|---:|---:|---|
+| Delhi / aankomst-uitgangsbuffer | 1.0-1.5 d | 2.0-2.5 d | internationale gateway; niet inhoudelijk met andere clusters samenvoegen |
+| Varanasi + Sarnath | 2.5-3.0 d | 3.5-4.5 d | Sarnath lokaal combineerbaar, maar inhoudelijk eigen A-anker |
+| Bodh Gaya | 2.0 d | 2.5-3.0 d | bestaand zwaar A-cluster; Rajgir/Nalanda later logistiek te vergelijken |
+| Rajgir + Nalanda | 1.5 d | 2.0-2.5 d | onderling sterke combinatie; niet automatisch onderdeel Bodh Gaya |
+| Kushinagar | 1.0-1.5 d | 1.5-2.0 d | zelfstandig oost-UP cluster + transferlast |
+| Prayagraj / Kumbh-context | 0.75-1.0 d | 1.5-2.0 d | person/event-driven; alleen behouden zolang union dit vereist |
+| Kolkata / Belur / Dakshineswar / Cossipore / Serampore | 3.0 d | 4.0-5.0 d | zwaar personcluster, meerdere fysieke subclusters |
+| Puri / Odisha | 2.0 d | 2.5-3.0 d | Karar Ashram + Hariharananda; zelfstandige staatstransfer |
+| Ranchi / YSS | 1.0 d | 1.5-2.0 d | compact inhoudelijk punt, maar geografisch eigen transfer |
+| Tiruvannamalai / Arunachala | 2.5 d | 3.5-4.0 d | LOCKED_BY_MARK A-anker; geen automatische Puducherry-koppeling |
+| Kumaon | 3.0 d | 4.0-5.0 d | meerdere A-locks + verspreide Himalaya-logistiek |
+| Haridwar + Rishikesh | 2.0 d | 3.0-4.0 d | geografisch combineerbaar; beide zelfstandig spiritueel gewicht |
+| Wardha/Maharashtra signaal | 0.75 d | 1.0-1.5 d | dun person-signaal; alleen capaciteit reserveren als Mark later kiest |
+
+## Rekenbanden
+
+### A. Alleen reeds duidelijk zware/beschermde ruggengraat
+
+Indicatieve inhoudelijke kern zonder alle nieuwe non-person kandidaten:
+- Delhi buffer
+- Varanasi + Sarnath
+- Bodh Gaya
+- Kolkata-regio
+- Puri
+- Tiruvannamalai/Arunachala
+- Kumaon
+
+**Minimum:** circa 16-17 dagen inhoudelijke tijd.
+**Comfortabel:** circa 22-27 dagen inhoudelijke tijd.
+
+Daar bovenop komen meerdere lange verplaatsingen en herstel-/onzekerheidsbuffers. Zelfs deze kern gebruikt dus praktisch een groot deel van 35 dagen.
+
+### B. Kern + volledige Buddhist Spine
+
+Voeg Rajgir/Nalanda en Kushinagar toe aan bovenstaande kern.
+
+**Extra:** circa 2.5-3 dagen minimum inhoudelijk, circa 3.5-4.5 dagen comfortabel, plus intercitytransferlast.
+
+Effect: de boeddhistische spine is groot genoeg om andere optionele clusters uit de comfortzone te drukken. Dit moet vóór routefixatie door Mark worden gewogen.
+
+### C. Kern + Buddhist Spine + Haridwar/Rishikesh
+
+Voeg nog circa 2 dagen minimum / 3-4 dagen comfortabel toe.
+
+**OVER_CAPACITY_RISK: HOOG** zodra ook Prayagraj, Ranchi, Wardha of andere losse signalen allemaal als volwaardige verblijfsclusters worden behandeld.
+
+## Totale capaciteit als alle gesignaleerde grote clusters zouden worden behandeld
+
+Som van de bovenstaande minimum-banden: ruwweg **23-25 inhoudelijke dagen**.
+Som comfortabele banden: ruwweg **32-40 inhoudelijke dagen**.
+
+Deze som bevat nog niet alle intercitytransfers, aankomstfrictie, eventuele wintervertragingen, rust, ziektebuffer of operationele marges. Een comfortabele behandeling van alles is daarom **OVER_CAPACITY** voor 35 kalenderdagen. Zelfs de minimumvariant heeft weinig ruimte zodra de verplaatsingsstructuur wordt meegerekend.
+
+## Combinatiemogelijkheden zonder routebesluit
+
+- Varanasi + Sarnath: lokaal sterke combinatie; Sarnath blijft inhoudelijk zi
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=25 path=runs/active/INDIAGOUD-NONPERSON-ANCHOR-AUDIT-001/35_DAY_CAPACITY_IMPACT.md blob_sha=307112f582ec76b316130b0f89f43b1ef1c4cfb5 original_offset=4096 original_length=2128 payload_bytes=2128 chunk_index=1 chunk_count=2 classification=text
+chtbaar.
+- Rajgir + Nalanda: sterkste interne combinatie binnen de nieuwe Buddhist Spine-kandidaten.
+- Bodh Gaya + Rajgir/Nalanda: kan later als Bihar-logistiek worden onderzocht, maar niet semantisch tot één cluster samengevoegd.
+- Haridwar + Rishikesh: geografisch geschikt voor gezamenlijke capaciteitsanalyse; geen automatische gezamenlijke keuze.
+- Kolkata + Serampore/Belur/Dakshineswar/Cossipore: reeds één brede regio maar meerdere fysieke subclusters; geen onderschatting van lokale tijd.
+
+## Capaciteitsregels voor latere routebouw
+
+1. Locks en bestaande A's eerst als beschermde input meenemen, niet als automatisch aantal nachten.
+2. Nieuwe non-person ankers eerst Mark A/B/C laten krijgen voordat ze routecapaciteit definitief claimen.
+3. Geen person-count gebruiken als vervanging voor spirituele zwaarte.
+4. Transferdagen expliciet tellen; India-afstanden niet als 'gratis halve dag' modelleren.
+5. Bij OVER_CAPACITY moet Mark kiezen; INDIA GOUD kiest niets weg.
+
+## Kritieke conclusie
+
+De 35 dagen kunnen een sterke spirituele reis dragen, maar **niet comfortabel alle person-driven zware clusters plus de volledige non-person spine tegelijk**. De non-person audit verandert de capaciteit wezenlijk: alleen Buddhist Spine-uitbreiding + Haridwar/Rishikesh kan ongeveer 5-8 extra inhoudelijke dagen claimen, exclusief transfers. Daarom moet de masterclusterlijst eerst lossless compleet zijn en pas daarna door Mark worden gewogen.
+
+## Actuele broncontrole
+
+- Bihar Tourism bevestigt actuele bezoekbaarheid/transportopties voor Rajgir/Nalanda-subsites: https://tourism.bihar.gov.in/en/destinations/nalanda
+- Uttarakhand Tourism bevestigt Haridwar/Rishikesh als actuele grote pelgrims-/spiritualiteitscentra: https://www.uttarakhandtourism.gov.in/destination/haridwar en https://www.uttarakhandtourism.gov.in/destination/rishikesh
+- UNESCO bevestigt de blijvende kernstatus van Mahabodhi en Nalanda: https://whc.unesco.org/en/list/1056/ en https://whc.unesco.org/en/list/1502/
+
+Deze bronnen worden voor inhoudelijke/logistieke plausibiliteit gebruikt; er is geen definitieve route of dienstregeling vastgelegd.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=26 path=runs/active/INDIAGOUD-NONPERSON-ANCHOR-AUDIT-001/BUDDHIST_SPINE_AUDIT.md blob_sha=65ed4541f01c1a82fb34280bfdd08fc9540ca85b original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# BUDDHIST_SPINE_AUDIT — INDIA GOUD
+
+Datum: 2026-08-19
+Doel: Bodh Gaya / Sarnath / Kushinagar / Rajgir / Nalanda als zelfstandige boeddhistische reis-as toetsen zonder routebesluit te nemen.
+
+## Samenvatting
+
+De boeddhistische ruggengraat wordt door een person-heatmap structureel onderschat. Twee kernpunten zijn al door Mark beschermd: **Bodh Gaya (046 A)** en **Sarnath (006 A)**. Kushinagar, Rajgir en Nalanda hebben op de toegestane GOUD-branch geen aangetroffen permanent ID/A-B-C en moeten daarom alleen als latere fysieke clusterkandidaten worden gesignaleerd.
+
+| cluster | historische/spirituele betekenis | repo-status | relatie tot andere projectclusters | capaciteit |
+|---|---|---|---|---|
+| Bodh Gaya | verlichting van de Boeddha; Mahabodhi/Bodhi Tree | 046 A + meerdere bestaande 047-078 besluiten | afzonderlijk Bihar-anker; logisch te vergelijken met Rajgir/Nalanda, en intercity met Varanasi | minimum 2 d; comfortabel 2.5-3 d |
+| Sarnath | eerste leerrede / Dharmachakra | 006 A, bestaand Varanasi-cluster | praktisch Varanasi-satelliet; inhoudelijk eigen anker | minimum 0.5 d bovenop Varanasi; comfortabel 0.75-1 d |
+| Kushinagar | Mahaparinirvana | geen bestaande ID/A-B-C aangetroffen op toegestane branch | zelfstandig UP-oost cluster; niet als Varanasi-bijvangst behandelen | minimum 1 d + transferblok; comfortabel 1.5-2 d |
+| Rajgir | Gridhakuta/Vulture Peak, Venuvan, vroege sangha/Magadha | geen bestaande ID/A-B-C aangetroffen | Bihar-combinatiepotentieel met Nalanda; inhoudelijk niet hetzelfde cluster als Bodh Gaya | minimum 1 d; comfortabel 1.5 d |
+| Nalanda | groot boeddhistisch monastiek/kenniscentrum; UNESCO | geen bestaande ID/A-B-C aangetroffen | sterke combinatie met Rajgir; afzonderlijke historische kern | minimum 0.5-1 d; comfortabel 1 d |
+
+## Bodh Gaya
+
+UNESCO classificeert het Mahabodhi Temple Complex als een van de vier heilige plaatsen die direct met het leven van de Boeddha verbonden zijn en specifiek met de verlichting. Het project heeft dit al veel sterker vastgezet dan een gewone kandidaat: 046 Mahabodhi Temple Complex = A, plus 047 Sujata Stupa, 048 Dungeshwari en 049 Great Buddha Statue = A. Latere Bodh Gaya-besluiten 050-078 zijn eveneens beschermd.
+
+**Auditbesluit:** bestaand hoofdanker; person-count mag dit nooit wegdrukken.
+
+## Sarnath
+
+Sarnath is historisch de plaats van de eerste leerrede na de verlichting. Projectmatig is het al `VNS-CAND-006`, display-ID 006, A, cluster SARNATH. De geografische nabijheid tot Varanasi maakt combineren mogelijk, maar methodisch blijft het een eigen spirituele ankerreden.
+
+**Auditbesluit:** bestaand hoofdanker; geen nieuwe ID.
+
+## Kushinagar
+
+Kushinagar is de plaats die traditioneel wordt verbonden met de Mahaparinirvana van de Boeddha. Actuele 2026-bronnen tonen dat Kushinagar nog steeds actief als internationale Buddhist-circuitbestemming wordt ontwikkeld en bezocht. Op deze branch is geen beschermde Mark-ID/A-B-C voor Kushinagar aangetroffen.
+
+**Auditbesluit:** `NEW_PHYSICAL_CLUSTER_SIGNAL` voor later ID/A-B-C; geen keuze nu.
+
+## Rajgir
+
+Rajgir heeft zelfstandige boeddhistische betekenis via o.a. Gridhakuta/Vulture Peak en Venuvan. Bihar Tourism beschrijft Venuvan als een door koning Bimbisara aan de Boeddha geschonken verblijf/monastieke plek en Rajgir als actief bezoekcluster met o.a. Gridhakut Hill en Vishwa Shanti Stupa.
+
+**Auditbesluit:** inhoudelijk relevant en sterk genoeg om in de master-union te blijven totdat Mark het later beoordeelt.
+
+## Nalanda
+
+UNESCO beschrijft Nalanda Mahavihara als een uitzonderlijk vroeg en langdurig monastiek-scholastiek instituut, met resten vanaf de 3e eeuw v.Chr. tot de 13e eeuw. Het is dus niet alleen 'iets nabij Rajgir' maar een zelfstandig historisch boeddhistisch anker.
+
+De README-snapshot meldt dat Rajgir/Nalanda eerder niet als actieve volgende regio stond. Dat is een werkvolgorde, geen afwijzing en geen C-besluit.
+
+**Auditbesluit:** behouden als later te beoordelen clusterkandidaat.
+
+## Relatie met Varanasi / Prayagraj / Delhi / Kolkata
+
+- **Varanasi:** Sarnath is geografisch een lokale satelliet maar inhou
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=27 path=runs/active/INDIAGOUD-NONPERSON-ANCHOR-AUDIT-001/BUDDHIST_SPINE_AUDIT.md blob_sha=65ed4541f01c1a82fb34280bfdd08fc9540ca85b original_offset=4096 original_length=1527 payload_bytes=1527 chunk_index=1 chunk_count=2 classification=text
+delijk een eigen boeddhistisch anker. Bodh Gaya is een afzonderlijk Bihar-cluster.
+- **Prayagraj:** is person-/Kumbh-gedreven in de bestaande personlaag; het is geen onderdeel van de Buddhist Spine maar kan in een latere routefase logistiek met noord/oost-India worden vergeleken.
+- **Delhi:** functioneert als groot toegang-/uitgangsknooppunt in de bredere reiscontext; geen reden om de Buddhist Spine inhoudelijk onder Delhi te bundelen.
+- **Kolkata:** is een zwaar person-driven spiritueel cluster (Ramakrishna/Vivekananda/Kriya-lijnen), maar inhoudelijk een andere detectorlaag dan de Buddhist Spine.
+
+## Capaciteitswaarschuwing
+
+Alle vijf boeddhistische clusters volledig en comfortabel behandelen vraagt grofweg **6.5-8.5 inhoudelijke dagen**, exclusief grote intercity transfers. Met minimale behandeling blijft circa **5 dagen inhoudelijke tijd** nodig. Dat is groot genoeg om een 35-daagse reis wezenlijk te beïnvloeden en mag dus niet pas na routebouw worden ontdekt.
+
+## Bronnen
+
+Repo:
+- runs/active/BODHGAYA-DISCOVERY-001/MARK_DECISIONS_2026-08-05.jsonl
+- runs/active/BODHGAYA-DISCOVERY-001/MARK_DECISIONS_2026-08-08.jsonl
+- runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/MARK_DECISIONS_2026-08-02.jsonl
+- README.md
+
+Actueel extern:
+- UNESCO Mahabodhi: https://whc.unesco.org/en/list/1056/
+- UNESCO Nalanda: https://whc.unesco.org/en/list/1502/
+- Bihar Tourism Nalanda/Rajgir: https://tourism.bihar.gov.in/en/destinations/nalanda
+- Bihar Tourism Venuvan: https://tourism.bihar.gov.in/en/destinations/nalanda/venuvan
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=28 path=runs/active/INDIAGOUD-NONPERSON-ANCHOR-AUDIT-001/MASTER_CLUSTER_UNION_INPUT.md blob_sha=a56f37f0c46aa15b0f262c01522e9b58155ad2c8 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# MASTER_CLUSTER_UNION_INPUT — INDIA GOUD
+
+Datum: 2026-08-19
+Doel: verliesloze invoer voor latere master-clusterintegratie.
+
+Dit bestand kiest GEEN route, verwijdert GEEN bestemming en kent GEEN nieuwe A/B/C toe. Het bewaart drie orthogonale lagen naast elkaar:
+1. person-driven clusters/signalen;
+2. non-person spiritual/historical anchors;
+3. bestaande Mark-locks en permanente IDs.
+
+## Statuslabels in deze union
+
+- `EXISTING_MARK_LOCK` — bestaande beslissing exact behouden.
+- `EXISTING_ID` — permanent bestaand nummer; niet dupliceren/hernummeren.
+- `PERSON_CLUSTER` — uit landelijke Top-11/person-synthese.
+- `NONPERSON_ANCHOR` — zelfstandige spirituele/historische betekenis.
+- `NEW_CLUSTER_SIGNAL_ONLY` — nog geen nieuwe ID/A-B-C; later beoordelen.
+- `REGION_MISS_SIGNAL` — eerder gemist in reeds onderzochte regio; niet automatisch toevoegen.
+
+## A. Bestaande beschermde projectankers
+
+| cluster | union-tags | bestaande projectwaarheid |
+|---|---|---|
+| VARANASI / KASHI | EXISTING_ID, EXISTING_MARK_LOCK, PERSON_CLUSTER, NONPERSON_ANCHOR | 001-040 bestaande beoordeelde/protected set; bestaande individuele A/B/C ongewijzigd |
+| SARNATH | EXISTING_ID, EXISTING_MARK_LOCK, NONPERSON_ANCHOR | 006 Sarnath sacred complex = A; specifieke sublocaties blijven exact in hun bestaande status |
+| BODH_GAYA | EXISTING_ID, EXISTING_MARK_LOCK, NONPERSON_ANCHOR | 046-078 bestaand nummer-/besluitdomein; 046-049 A en alle latere Mark-keuzes behouden |
+| KUMAON | EXISTING_ID, EXISTING_MARK_LOCK, PERSON_CLUSTER | 079 Mahavatar Babaji's Cave A; 080 Turiya Niwas A; 081 Bodh Ashram A volgens canonieke branch-snapshot; verdere tijdelijke kandidaten niet door GOUD herbeslist |
+| ARUNACHALA / TIRUVANNAMALAI | EXISTING_MARK_LOCK, PERSON_CLUSTER, NONPERSON_ANCHOR | expliciet A-anker LOCKED_BY_MARK d.d. 2026-08-18; geen route-/nachtenlock |
+
+## B. Person-driven clusters en signalen — lossless behouden
+
+Gebaseerd op de op deze branch aanwezige landelijke `PHASE2_SYNTHESIS.md` en gerelateerde canon:
+
+| cluster / signaal | union-tag | notitie |
+|---|---|---|
+| Kolkata / Belur / Dakshineswar / Cossipore / Serampore / Kamarpukur | PERSON_CLUSTER | zwaar West-Bengal-cluster over Ramakrishna/Vivekananda/Kriya-lijnen |
+| Puri / Odisha: Karar Ashram + Hariharananda-context | PERSON_CLUSTER | twee onafhankelijke Top-11-lijnen; geen nieuw A/B/C in GOUD |
+| Tiruvannamalai / Arunachala / Sri Ramanasramam | PERSON_CLUSTER + bestaand Mark-lock | Ramana + Yogananda; lock afzonderlijk beschermd |
+| Ranchi / Yogoda Satsanga Sakha Math | PERSON_CLUSTER | exact Yogananda-signaal; nog geen GOUD-besluit over route |
+| Wardha / Maganvadi | PERSON_CLUSTER | Yogananda-Gandhi 1935; relatief dun cluster, lossless bewaren |
+| Prayagraj / Allahabad / Kumbh | PERSON_CLUSTER + event-anchor | Babaji/Sri Yukteswar 1894 en Yogananda 1936 signalen; eventkarakter niet laten verdwijnen |
+| Kainchi Dham / Kumaon | PERSON_CLUSTER + bestaand regionaal projectcluster | cross-person upgrade Ram Dass; bestaande besluiten ongemoeid |
+| Mayavati Advaita Ashrama | PERSON_CLUSTER + REGION_MISS/upgrade context | tijdelijke Kumaon-kandidaat KB2-038 in person-synthese; geen nieuwe nummering door GOUD |
+| Almora | REGION_MISS_SIGNAL | Vivekananda-signaal in reeds onderzochte Kumaon-regio; later reconciliëren, niet nu beslissen |
+| NKB Vrindavan-ashram/samadhi | PERSON_CLUSTER | bestaand legacy-personanker; + Ram Dass-link in synthese |
+| Kanyakumari / Rameswaram Tamil-Nadu-signalen | PERSON_CLUSTER_SIGNAL | person-synthese noemt Vivekananda-signalen binnen de bredere Tamil-Nadu-as; niet automatisch koppelen aan Arunachala-route |
+
+## C. Non-person anchors die verplicht naast person-count moeten bestaan
+
+| cluster / anker | union-tag | ID/A-B-C-status in deze audit |
+|---|---|---|
+| Bodh Gaya / Mahabodhi / Bodhi Tree | NONPERSON_ANCHOR + bestaand beschermd | bestaande 046+ beslissingen behouden; geen duplicaat |
+| Sarnath | NONPERSON_ANCHOR + bestaand beschermd | 006 A behouden; geen duplicaat |
+| Varanasi/Kashi/Ganga-kern | NONPERSON_ANCHOR + bestaand beschermd | bestaande 001-040-statusse
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=29 path=runs/active/INDIAGOUD-NONPERSON-ANCHOR-AUDIT-001/MASTER_CLUSTER_UNION_INPUT.md blob_sha=a56f37f0c46aa15b0f262c01522e9b58155ad2c8 original_offset=4096 original_length=3928 payload_bytes=3928 chunk_index=1 chunk_count=2 classification=text
+n behouden |
+| Arunachala sacred hill / Tiruvannamalai | NONPERSON_ANCHOR + bestaand A-anker | lock behouden |
+| Kushinagar | NEW_CLUSTER_SIGNAL_ONLY + NONPERSON_ANCHOR | later fysieke ID/clusterreconciliatie + Mark A/B/C; nu niets toegekend |
+| Rajgir | NEW_CLUSTER_SIGNAL_ONLY + NONPERSON_ANCHOR | later beoordelen; niet automatisch met Bodh Gaya samenvoegen |
+| Nalanda | NEW_CLUSTER_SIGNAL_ONLY + NONPERSON_ANCHOR | later beoordelen; sterke combinatiepotentie met Rajgir zonder semantische merge |
+| Haridwar | NEW_CLUSTER_SIGNAL_ONLY + NONPERSON_ANCHOR | later project-/A-B-C-beoordeling; niet automatisch bestemming |
+| Rishikesh | NEW_CLUSTER_SIGNAL_ONLY + NONPERSON_ANCHOR | later project-/A-B-C-beoordeling; niet automatisch bestemming |
+| Prayagraj / Kumbh | PERSON_CLUSTER + event/non-person anchor | behoud eventgewicht naast person-overlap; geen nieuw besluit |
+
+## D. Exacte aanvulling die een person-only masterlijst nodig heeft
+
+Als een latere person-heatmap deze items niet zelfstandig zichtbaar maakt, moet de integrator minimaal de volgende laag toevoegen:
+
+1. `BODH_GAYA` — bestaand beschermd hoofdanker.
+2. `SARNATH` — bestaand beschermd hoofdanker.
+3. `KUSHINAGAR` — nieuw cluster-signaal voor latere ID/A-B-C.
+4. `RAJGIR` — nieuw cluster-signaal voor latere ID/A-B-C.
+5. `NALANDA` — nieuw cluster-signaal voor latere ID/A-B-C.
+6. `HARIDWAR` — nieuw cluster-signaal voor latere ID/A-B-C.
+7. `RISHIKESH` — nieuw cluster-signaal voor latere ID/A-B-C.
+8. alle `EXISTING_MARK_LOCK`-ankers onafhankelijk van hun person-score, met name ARUNACHALA/TIRUVANNAMALAI.
+
+Dit zijn union-records, geen routekeuzes.
+
+## E. Deduplicatie- en integratieregels
+
+1. Een bestaand permanent ID wint altijd van een nieuw tekstueel label voor dezelfde fysieke plek; nooit een tweede ID aanmaken.
+2. A/B/C en `LOCKED_BY_MARK` worden alleen gekopieerd, nooit geïnterpreteerd of gewijzigd.
+3. `NEW_CLUSTER_SIGNAL_ONLY` mag pas een permanent ID/A-B-C krijgen via de daarvoor geldende latere reconciliatie-/keuzestap.
+4. Geografische combinatie is geen identity-merge: Rajgir, Nalanda en Bodh Gaya blijven afzonderlijke inhoudelijke clusters totdat een expliciete projectregel anders bepaalt.
+5. Een person-score en een non-person-anchor-weight blijven twee kolommen/detectorlagen; niet reduceren tot één telling.
+6. Een lock is bescherming tegen verlies, niet automatisch een hotel-, nacht- of routebesluit.
+7. Geen enkel record in dit bestand mag worden gelezen als namens Mark gekozen toevoeging of verwijdering.
+
+## F. TURQUOISE-integratie
+
+De feitelijke `INDIATURQUOISE-ALLPERSON-OVERLAP-001`-run is niet aanwezig op deze strikt toegestane GOUD-branch en is bewust niet cross-branch gelezen. Een latere integrator moet daarom:
+
+`TURQUOISE_PERSON_CLUSTER_SET ∪ THIS_FILE_PERSON_SET ∪ THIS_FILE_NONPERSON_SET ∪ EXISTING_MARK_LOCK_SET`
+
+lossless samenvoegen en alleen echte fysieke identiteiten dedupliceren. Geen enkel lager person-count mag een bestaand lock of zelfstandig non-person anker verwijderen.
+
+## G. Capaciteitsflag voor integrator
+
+De volledige union is groter dan een comfortabele 35-daagse reis. Zie `35_DAY_CAPACITY_IMPACT.md`: alle grote gesignaleerde clusters samen komen grofweg op 32-40 inhoudelijke comfortabele dagen vóór volledige transferlast. Daarom is de juiste volgende stap na union **Mark-weging / bestaande governance**, niet automatische routeoptimalisatie door GOUD.
+
+## Bronnen binnen repo
+
+- runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/PHASE2_SYNTHESIS.md
+- runs/active/BODHGAYA-DISCOVERY-001/MARK_DECISIONS_2026-08-05.jsonl
+- runs/active/BODHGAYA-DISCOVERY-001/MARK_DECISIONS_2026-08-08.jsonl
+- runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/MARK_DECISIONS_2026-08-02.jsonl
+- decisions/ARUNACHALA_TIRUVANNAMALAI_A_ANCHOR_2026-08-18.md
+- README.md
+- NONPERSON_ANCHOR_INVENTORY.md
+- BUDDHIST_SPINE_AUDIT.md
+- MISSING_FROM_PERSON_HEATMAP.md
+- 35_DAY_CAPACITY_IMPACT.md
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=30 path=runs/active/INDIAGOUD-NONPERSON-ANCHOR-AUDIT-001/MISSING_FROM_PERSON_HEATMAP.md blob_sha=b5849ce968447b6bdd2bfe3b3a10d6d5cac728fb original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# MISSING_FROM_PERSON_HEATMAP — INDIA GOUD
+
+Datum: 2026-08-19
+
+## Hoofdantwoord
+
+**Nee:** een grote-clusterlijst die uitsluitend uit Top-person overlap/person-count is opgebouwd kan niet veilig als volledige spirituele reisruggengraat dienen.
+
+De person-methode detecteert vooral waar geselecteerde personen fysiek verbleven, bezochten of samenkomen. Zij detecteert niet betrouwbaar plaatsen die hun zwaarte ontlenen aan een gebeurtenis, religieuze traditie, heilige geografie, pelgrimsfunctie of historische instelling.
+
+## Zeker gemist / structureel ondergewaardeerd
+
+### Bodh Gaya
+- Waarom person-heatmap faalt: hoofdwaarde = Boeddha's verlichting en Mahabodhi/Bodhi Tree, niet Top-11-overlap.
+- Projectwaarheid: bestaand 046 A + beschermde Bodh Gaya-keuzes.
+- Consequentie: moet hard in master union blijven, onafhankelijk van person-score.
+
+### Sarnath
+- Waarom person-heatmap faalt: hoofdwaarde = eerste leerrede.
+- Projectwaarheid: 006 A, LOCKED_BY_MARK-context via Varanasi-besluit.
+- Consequentie: als Varanasi alleen op Top-person-count wordt geclusterd kan Sarnath ten onrechte als laagwaardige satelliet verdwijnen.
+
+### Kushinagar
+- Waarom person-heatmap faalt: hoofdwaarde = Mahaparinirvana.
+- Projectstatus: geen bestaande permanente ID/A-B-C aangetroffen op toegestane GOUD-branch.
+- Consequentie: expliciet als kandidaatcluster voor latere ID/A-B-C bewaren.
+
+### Rajgir / Nalanda
+- Waarom person-heatmap faalt: vroege boeddhistische geschiedenis, heilige plekken en monastiek-universitaire betekenis zijn niet afhankelijk van de Top-11.
+- Projectstatus: README meldt dat deze eerder niet de actieve volgende regio waren; geen afwijzing.
+- Consequentie: behouden in union; later door Mark laten wegen tegen capaciteit.
+
+### Haridwar / Rishikesh
+- Waarom person-heatmap faalt: zelfstandige Hindu/Ganga/yoga/pelgrimsfunctie kan sterk zijn bij geringe Top-11-overlap.
+- Actuele officiële bronstatus: Uttarakhand Tourism noemt Haridwar een van India's belangrijkste Hindu-pelgrimsplaatsen/Kumbh-stad en Rishikesh een groot pelgrims- en yogacentrum.
+- Consequentie: niet automatisch route-includen, maar ook niet laten verdwijnen door person-score.
+
+## Bestaande clusters die person-score wél vindt, maar niet uitsluitend daarom mogen blijven
+
+- **Arunachala/Tiruvannamalai:** personlaag vindt Ramana + Yogananda; daarnaast expliciet `LOCKED_BY_MARK` A-anker.
+- **Varanasi/Kashi:** personlaag is sterk, maar Kashi Vishwanath, Ganga/ghats en Sarnath hebben zelfstandige religieuze zwaarte.
+- **Prayagraj/Kumbh:** personlaag vindt historische Top-person events, maar Kumbh is zelfstandig religieus evenement/anker.
+- **Kolkata/Belur/Dakshineswar:** sterke person-overlap én zelfstandige institutionele/historische betekenis.
+- **Puri:** person-overlap via Sri Yukteswar/Hariharananda; daarnaast Jagannath/Puri als zelfstandige spirituele omgeving. Deze audit verheft Jagannath niet automatisch tot nieuwe Mark-bestemming; het signaleert alleen dat person-count niet de enige detector mag zijn.
+
+## Methodische fout als alleen TURQUOISE/person-overlap wordt gebruikt
+
+1. `person_count = 0/1` kan toch `spiritual_anchor_weight = very_high` zijn.
+2. Een lokale satelliet zoals Sarnath kan geografisch in een groter cluster verdwijnen terwijl de inhoudelijke reden zelfstandig is.
+3. Een bestaande Mark-lock kan lager scoren dan nieuwe overlapclusters en daardoor visueel wegzakken; locks moeten als aparte beschermde laag worden ge-unioned.
+4. Historische gebeurtenissen (verlichting, eerste leerrede, parinirvana, Kumbh) zijn geen 'personenbezoek'-datamodel.
+5. Traditieclusters (Ganga, yoga, Sikh/Hindu/Jain/Buddhist pilgrimage) vereisen een detector die niet aan de Top-11-selectie hangt.
+
+## Branch-lokale beperking
+
+De map `runs/active/INDIATURQUOISE-ALLPERSON-OVERLAP-001` is niet aanwezig op de door deze taak exclusief toegestane branch `agent/indiagoud-nonperson-anchor-audit`. Daarom is **geen cross-branch TURQUOISE-read** uitgevoerd. De vergelijking gebruikt:
+- de taakpremisse dat TURQUOISE een person-heatmap is;
+- de op deze branch aanwezige `PHASE2_SYNTHESIS.md` als pe
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=31 path=runs/active/INDIAGOUD-NONPERSON-ANCHOR-AUDIT-001/MISSING_FROM_PERSON_HEATMAP.md blob_sha=b5849ce968447b6bdd2bfe3b3a10d6d5cac728fb original_offset=4096 original_length=1252 payload_bytes=1252 chunk_index=1 chunk_count=2 classification=text
+rson-driven referentielaag;
+- bestaande Mark-besluiten en locks op dezelfde branch.
+
+Dit voorkomt schending van de branchregel. Een latere integrator kan dit bestand lossless tegen de daadwerkelijke TURQUOISE-output unionen.
+
+## Kritieke missing-cluster set voor de master union
+
+Minimaal verplicht als aparte non-person/lock-laag:
+- BODH_GAYA — bestaand, beschermd
+- SARNATH — bestaand, beschermd
+- KUSHINAGAR — kandidaatcluster voor later besluit
+- RAJGIR_NALANDA — kandidaatcluster voor later besluit; intern twee inhoudelijke ankers
+- HARIDWAR_RISHIKESH — kandidaatcluster/familie voor later besluit; niet automatisch één route-eenheid
+- alle bestaande Mark-locks, met ARUNACHALA/TIRUVANNAMALAI expliciet beschermd
+
+## Bronnen
+
+Repo:
+- runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/PHASE2_SYNTHESIS.md
+- runs/active/BODHGAYA-DISCOVERY-001/MARK_DECISIONS_2026-08-05.jsonl
+- runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/MARK_DECISIONS_2026-08-02.jsonl
+- decisions/ARUNACHALA_TIRUVANNAMALAI_A_ANCHOR_2026-08-18.md
+
+Actueel extern:
+- https://whc.unesco.org/en/list/1056/
+- https://whc.unesco.org/en/list/1502/
+- https://www.uttarakhandtourism.gov.in/destination/haridwar
+- https://www.uttarakhandtourism.gov.in/destination/rishikesh
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=32 path=runs/active/INDIAGOUD-NONPERSON-ANCHOR-AUDIT-001/NONPERSON_ANCHOR_INVENTORY.md blob_sha=4eef77dec3c2f68755da98c054f30794737ff6d6 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# NONPERSON_ANCHOR_INVENTORY — INDIA GOUD
+
+Datum audit: 2026-08-19
+Scope: reisrelevante spirituele/historische ankers die niet veilig door person-count alleen worden gedetecteerd.
+Regel: bestaande IDs/A-B-C/locks blijven exact staan; nieuwe ankers krijgen hier GEEN ID en GEEN A/B/C.
+
+## Kernconclusie
+
+De person-driven laag is onvoldoende als enige reisruggengraat. Op deze branch zijn minstens twee zwaarwegende niet-persoonsgedreven ankers al aantoonbaar door Mark beschermd maar methodisch kwetsbaar in een person-heatmap: **Bodh Gaya** en **Sarnath**. Daarnaast zijn **Kushinagar**, **Rajgir/Nalanda** en **Haridwar/Rishikesh** inhoudelijk grote spirituele clusters die expliciet in deze audit moeten blijven staan als union-input, ook als hun Top-11-person overlap laag of nul is.
+
+## Bestaande beschermde ankers
+
+| cluster / anker | projectstatus op deze branch | bestaande ID / lock | auditstatus |
+|---|---|---|---|
+| Bodh Gaya / Mahabodhi Temple Complex | volledig eerder discovery-traject | 046 Mahabodhi Temple Complex = A, LOCKED_BY_MARK; 047-049 eveneens A; 050-078 bestaande besluiten behouden | BESTAAND — nooit dupliceren |
+| Sarnath sacred complex | bestaand Varanasi-cluster | 006 = A, cluster SARNATH, Mark-besluit 2026-08-02 | BESTAAND — nooit dupliceren |
+| Varanasi/Kashi kern | uitgebreid bestaand regionaal cluster | 001-040 canoniek beoordeeld; o.a. Kashi Vishwanath 007 A, Dashashwamedh 009 A | BESTAAND |
+| Arunachala / Tiruvannamalai | expliciet zelfstandig A-anker | LOCKED_BY_MARK 2026-08-18; geen route-lock | BESTAAND, person + non-person betekenis |
+| Kumaon kern | bestaand zwaar spiritueel cluster | 079 Babaji Cave A; 080 Turiya Niwas A; 081 Bodh Ashram A volgens repo-snapshot | BESTAAND |
+
+## Expliciet te behouden niet-person / laag-person ankers
+
+### 1. Bodh Gaya
+Niet alleen relevant via een persoon, maar als wereldhistorische plaats van Boeddha's verlichting. UNESCO noemt Mahabodhi een van de vier heilige plaatsen die direct met het leven van de Boeddha verbonden zijn, specifiek met de verlichting. Het bestaande Mark-besluit maakt dit bovendien projectmatig onmiskenbaar.
+
+Status: **REISBEPALEND BESTAAND ANKER**.
+
+### 2. Sarnath
+Plaats van de eerste leerrede; projectmatig al ID 006 A. Person-overlap is hier niet de juiste maatstaf: de kernbetekenis is gebeurtenis-/traditiegedreven.
+
+Status: **REISBEPALEND BESTAAND ANKER**.
+
+### 3. Kushinagar
+Plaats geassocieerd met de Mahaparinirvana van de Boeddha. Op de toegestane branch is geen bestaand permanent ID/Mark-A-B-C voor het Kushinagar-cluster aangetroffen in de geraadpleegde canonieke bestaande clusters.
+
+Status: **SIGNALEREN VOOR LATERE ID/A-B-C**, niet nu beslissen.
+
+### 4. Rajgir
+Oud Magadha/Buddhist cluster met o.a. Gridhakuta/Vulture Peak, Venuvan en vroege sangha-context. Bihar Tourism behandelt Rajgir/Nalanda als actief Buddhist-circuitgebied; Venuvan wordt daar gekoppeld aan Boeddha en Bimbisara.
+
+Status: **SIGNALEREN VOOR LATERE CLUSTERBEOORDELING**. Niet automatisch toevoegen aan route.
+
+### 5. Nalanda
+Archaeological Site of Nalanda Mahavihara is UNESCO Werelderfgoed en een van de belangrijkste historische monastiek-universitaire boeddhistische sites. De repo-snapshot zegt expliciet dat Rajgir/Nalanda eerder nog niet als actieve volgende regio stond; dat is geen inhoudelijke afwijzing en mag niet worden vertaald naar C.
+
+Status: **SIGNALEREN VOOR LATERE CLUSTERBEOORDELING**.
+
+### 6. Haridwar
+Uttarakhand Tourism classificeert Haridwar als een van de belangrijkste Hindu-pelgrimsplaatsen, Kumbh-stad en gateway naar Char Dham. Dit is een klassiek voorbeeld van een cluster dat door een Top-person-count te laag kan eindigen ondanks zelfstandige religieuze zwaarte.
+
+Status: **SIGNALEREN / UNION BEHOUDEN**, geen A/B/C toegekend.
+
+### 7. Rishikesh
+Uttarakhand Tourism beschrijft Rishikesh als een groot pelgrims- en spiritueel centrum en als 'yoga capital of the world', met talrijke ashrams en meditatiecentra.
+
+Status: **SIGNALEREN / UNION BEHOUDEN**, geen A/B/C toegekend.
+
+## Person-driven clusters die óók zelfstandig clustergewicht hebben
+
+Deze blijven 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=33 path=runs/active/INDIAGOUD-NONPERSON-ANCHOR-AUDIT-001/NONPERSON_ANCHOR_INVENTORY.md blob_sha=4eef77dec3c2f68755da98c054f30794737ff6d6 original_offset=4096 original_length=1670 payload_bytes=1670 chunk_index=1 chunk_count=2 classification=text
+in de union omdat ze in de personlaag sterk zijn én zelfstandig spiritueel/historisch gewicht hebben: Kolkata/Belur/Dakshineswar/Cossipore/Serampore, Puri/Odisha, Tiruvannamalai/Arunachala, Prayagraj/Kumbh, Ranchi/YSS, Kumaon en Varanasi. Hun aanwezigheid in een person-heatmap maakt de non-person laag niet overbodig; het zijn overlappende detectoren.
+
+## Niet als nieuw projectbesluit opgenomen
+
+Grote Indiase pelgrimsplaatsen zoals Amritsar/Golden Temple, Ajmer, Shirdi, Kedarnath/Badrinath, Jain tirthas enz. worden hier **niet automatisch tot Mark-bestemming verheven**. TASK.md vraagt te beginnen bij repo/reisintentie en niet blind heel India opnieuw te onderzoeken. Alleen wanneer een dergelijke plek uit bestaande repo-intentie of een latere gecontroleerde non-person sweep naar voren komt, moet zij als kandidaat naar ID/A-B-C.
+
+## Bronnen
+
+Repo:
+- runs/active/BODHGAYA-DISCOVERY-001/MARK_DECISIONS_2026-08-05.jsonl
+- runs/active/BODHGAYA-DISCOVERY-001/MARK_DECISIONS_2026-08-08.jsonl
+- runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/MARK_DECISIONS_2026-08-02.jsonl
+- decisions/ARUNACHALA_TIRUVANNAMALAI_A_ANCHOR_2026-08-18.md
+- runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/PHASE2_SYNTHESIS.md
+- README.md
+
+Actuele externe controle (2026-08-19):
+- UNESCO Mahabodhi Temple Complex: https://whc.unesco.org/en/list/1056/
+- UNESCO Nalanda Mahavihara: https://whc.unesco.org/en/list/1502/
+- Bihar Tourism Nalanda/Rajgir: https://tourism.bihar.gov.in/en/destinations/nalanda
+- Uttarakhand Tourism Haridwar: https://www.uttarakhandtourism.gov.in/destination/haridwar
+- Uttarakhand Tourism Rishikesh: https://www.uttarakhandtourism.gov.in/destination/rishikesh
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=34 path=runs/active/INDIAGOUD-NONPERSON-ANCHOR-AUDIT-001/STATUS.md blob_sha=46a42d8fa703ad4805bcf8083b63989d093ae3c3 original_offset=0 original_length=2054 payload_bytes=2054 chunk_index=0 chunk_count=1 classification=text
+# STATUS — INDIAGOUD-NONPERSON-ANCHOR-AUDIT-001
+
+state: PAUSED_SUPERSEDED_FOR_NOW
+branch: agent/indiagoud-nonperson-anchor-audit
+owner: INDIA GOUD
+scope: non-person spiritual anchors + 35-day capacity impact
+reason: INDIA8 corrected course on 2026-08-19. Existing pre-person A/B/C cluster canon must be reconstructed first; Bodh Gaya/Mahabodhi and other previously researched anchors must not be rediscovered or duplicated. Do not execute TASK.md until explicitly reactivated after the baseline audit.
+
+concurrent_execution_note: Tijdens een reeds gestarte INDIA GOUD-run veranderde STATUS.md van READY naar PAUSED_SUPERSEDED_FOR_NOW. De vijf inhoudelijke auditoutputs waren toen al op dezelfde branch gecommit. Zij wijzigen geen bestaande A/B/C, IDs of locks en kiezen geen route, maar gelden zolang deze pause actief is uitsluitend als NIET-CANONIEKE VOORLOPIGE AUDITOUTPUT voor latere reconciliatie tegen PREPERSON_CLUSTER_BASELINE.
+
+provisional_outputs_committed:
+- NONPERSON_ANCHOR_INVENTORY.md
+- BUDDHIST_SPINE_AUDIT.md
+- MISSING_FROM_PERSON_HEATMAP.md
+- 35_DAY_CAPACITY_IMPACT.md
+- MASTER_CLUSTER_UNION_INPUT.md
+
+provisional_output_commits:
+- 7fd0e2371e433f550c81560c4d3a726cf4b53355 — NONPERSON_ANCHOR_INVENTORY.md
+- 51f2851420271a5745f38abfad2347390679e821 — BUDDHIST_SPINE_AUDIT.md
+- 2b09ef22b4d4dfdfe548820a3181dbba190ee16b — MISSING_FROM_PERSON_HEATMAP.md
+- 02515f7a04bc0ea56e4a59dfbac4f740d953c059 — 35_DAY_CAPACITY_IMPACT.md
+- 0db7af5fa234d71333ae4557a8accf9a9117fce2 — MASTER_CLUSTER_UNION_INPUT.md
+
+safety_preserved:
+- geen bestaand A/B/C gewijzigd;
+- geen permanent ID gewijzigd of gedupliceerd;
+- geen LOCKED_BY_MARK gewijzigd;
+- geen route/hotel/definitief aantal nachten gekozen;
+- feitelijke TURQUOISE-run niet cross-branch gelezen omdat deze niet op de strikt toegestane GOUD-branch stond.
+
+next_allowed_step: NONE until INDIA8 reactivates after PREPERSON_CLUSTER_BASELINE. Bij reactivatie moeten de vijf voorlopige outputs eerst lossless tegen die baseline worden gereconcilieerd voordat zij canoniek worden verklaard.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=35 path=runs/active/INDIAGOUD-NONPERSON-ANCHOR-AUDIT-001/TASK.md blob_sha=bf8470d3c0cc468b173b74ef902ebe9861402b65 original_offset=0 original_length=3080 payload_bytes=3080 chunk_index=0 chunk_count=1 classification=text
+# INDIA GOUD — NON-PERSON SPIRITUAL ANCHOR AUDIT
+
+STATUS: READY
+OWNER: INDIA GOUD
+MODE: TRAVEL-CONTENT COMPLETENESS / NON-PERSON ANCHORS
+
+## Aanleiding
+De recente all-person heatmap is waardevol, maar kan reisbepalende spirituele ankers missen die niet primair uit de Top-person sweeps komen. Voorbeeld: Bodh Gaya / Mahabodhi Temple / Bodhi Tree. Het eindproduct is een complete spirituele India-reis, niet uitsluitend een Top-person overlaproute.
+
+## Opdracht
+Audit de bestaande repo en daarna actuele betrouwbare bronnen voor reisrelevante spirituele/historische ankers die buiten of ondervertegenwoordigd zijn in de Top-person heatmap. Begin bij bestaande projectbesluiten en oude cluster-/ABC-bestanden; onderzoek NIET blind opnieuw heel India zonder aanleiding.
+
+Minimaal expliciet toetsen:
+- Bodh Gaya / Mahabodhi Temple / Bodhi Tree (Boeddha-verlichting)
+- Sarnath (eerste leerrede)
+- Kushinagar (parinirvana)
+- Rajgir / Nalanda indien projectmatig/reisinhoudelijk relevant
+- Haridwar / Rishikesh
+- overige eerder door Mark beoordeelde of gelockte niet-Top-person spirituele ankers die in de person-heatmap niet zichtbaar zijn
+- grote Sikh/Hindu/Jain/Buddhist/algemeen spirituele ankers die al in de repo/reisintentie aanwezig waren maar uit de person-overlap synthese zijn gevallen
+
+## Hoofddoel
+Maak zichtbaar welke reisbepalende clusters de person-heatmap niet kan detecteren, zodat routeplanning nooit op alleen person-count/overlap rust.
+
+## Outputs
+1. NONPERSON_ANCHOR_INVENTORY.md — bestaande + nieuw teruggevonden ankers, met bron van projectstatus/Mark-besluit.
+2. BUDDHIST_SPINE_AUDIT.md — Bodh Gaya/Sarnath/Kushinagar/Rajgir/Nalanda: betekenis, huidige reisrelevantie, relatie tot Varanasi/Prayagraj/Delhi/Kolkata en of ze reeds een ID/ABC hebben.
+3. MISSING_FROM_PERSON_HEATMAP.md — alle ankers/clusters die belangrijk kunnen zijn maar in TURQUOISE ontbreken of te laag scoren door de gebruikte methode.
+4. 35_DAY_CAPACITY_IMPACT.md — GEEN route kiezen, maar realistische minimum/comfortabele tijdsbanden per groot cluster en totaalcapaciteit voor reisperiode 18-12-2026 t/m 21-01-2027. Markeer OVER_CAPACITY-risico's en combinatiemogelijkheden. Gebruik actuele reistijd/logistiek alleen waar nodig.
+5. MASTER_CLUSTER_UNION_INPUT.md — verliesloze union: person-driven clusters + non-person anchors + existing Mark locks, zonder A/B/C te veranderen.
+6. STATUS.md update.
+
+## Harde regels
+- Geen bestaande A/B/C of locks wijzigen.
+- Geen bestemming namens Mark toevoegen/verwijderen.
+- Als Bodh Gaya of andere ankers al een oude ID/ABC hebben: behouden, niet dupliceren.
+- Nieuwe fysieke kandidaat alleen signaleren voor later ID/ABC; niet zelf beslissen.
+- Geen hotel/route/nachten definitief vastleggen.
+- Geen PDF/merge/PR.
+- Gebruik actuele webbronnen wanneer huidige toegang/logistiek/reistijd relevant is.
+
+## Kritieke vraag
+Kan de huidige grote-clusterlijst als reisruggengraat dienen zonder belangrijke niet-persoonsgedreven spirituele doelen te missen? Zo nee, geef exact de ontbrekende clusters en wat dit betekent voor 35 dagen capaciteit.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=36 path=runs/active/INDIAWIT-HERITAGE-STAY-OVERRIDE-001/CURRENT_EXISTENCE_AND_BOOKABILITY.md blob_sha=7422780bbeab0befe4a43e663365521025673d33 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# CURRENT_EXISTENCE_AND_BOOKABILITY — INDIA WIT
+
+status: CURRENT-WORLD-VERIFIED
+verified_at: 2026-08-19
+scope: only already-detected heritage-stay claims; current verification does not expand person-location discovery
+
+## Verified current state
+
+| heritage candidate | physical existence today | overnight today | same historic room today | confidence | current source / note |
+|---|---|---|---|---|---|
+| **Hotel Evelyn, Nainital** | **JA** | **JA** | **ONZEKER** | HIGH for hotel; LOW-MEDIUM for room continuity | Current Google Hotels entity lists Hotel Evelyn, Mall Rd, Mallital, Nainital, with availability/contact. A current Evelyn Hotels web presence also exists. No authoritative archive/floorplan linking a modern room number to Ram Dass' 1971 top-floor room was found. |
+| **Taj Mahal Palace, Mumbai** | **JA** | **JA** | **ONZEKER** | VERY HIGH for hotel/bookability | Official Taj Hotels page lists current hotel at Apollo Bunder and current rooms/suites with booking. Yogananda's source says `suite`, but no suite number/name was recovered. |
+| **Sri Ramanasramam, Tiruvannamalai** | **JA** | **JA, restricted devotee accommodation** | **NEE for historic Nirvana Room/caves** | VERY HIGH | Official Sri Ramanasramam accommodation system accepts stay requests; rooms are modern guest rooms. Official visitor material says Nirvana Room is preserved and Virupaksha Cave/Skandashramam are historic sites; overnight on hill/in caves is prohibited. |
+| **Virupaksha Cave / Skandashramam** | **JA** | **NEE** | not applicable | VERY HIGH | Official Sri Ramanasramam rules explicitly prohibit overnight stays in hills/caves. |
+| **Anandaloka room, Serampore** | **JA** | **NEE in the historic shrine room** | **NEE** | HIGH | YSS says uncle Sarada Prasad Ghosh's property was acquired/restored and the room where Yogananda stayed is preserved as shrine `Anandaloka`. YSS Serampore operates a retreat where retreatants can stay, but that is not evidence that Anandaloka itself is lodging. |
+| **Sri Yukteswar Serampore hermitage / Smriti Mandir** | **JA at site/institution level** | **ONZEKER in historic building; JA at separate YSS Serampore retreat** | **ONZEKER/NEE** | HIGH site; MEDIUM room continuity | YSS current Serampore/associated-place pages confirm Smriti Mandir and heritage sites. Current YSS retreat provides stays; no public proof that Sri Yukteswar's bedroom is used for guests. |
+| **Ranchi YSS Ashram** | **JA** | **TEMPORARILY NEE** | historic room not bookable | VERY HIGH | Official YSS says guest accommodation is closed until early 2027 due planned civil works/road renovations. Because the trip extends to 21 Jan 2027, exact reopening date must be rechecked if Ranchi becomes a chosen overnight. |
+| **Kainchi Dham historical Ram Dass/NKB rooms** | **JA at complex level** | **ONZEKER via official Trust only** | **ONZEKER** | HIGH for complex; LOW for room-bookability | Official Shri Kainchi Hanuman Mandir Trust states it is the sole authority for all communications regarding bookings/stays. Numerous third-party room-booking sites were found and are not treated as proof. No official public statement was found tying Ram Dass' historical room to a reservable room. |
+| **4 Church Lane / Red House, Prayagraj** | **JA/DEELS** | **no public lodging verified** | **ONZEKER** | MEDIUM | Current devotional material continues to identify the Mukerjee house at 4 Church Lane. No public commercial/ashram lodging offer or owner-authorized room booking was verified. Treat as private-house heritage unless later permission is obtained. |
+| **Katyayani Peeth / Keshav Ashram, Vrindavan** | **JA** | **ONZEKER** | **ONZEKER** | HIGH site; LOW lodging | Current Katyayani Trust site lists Keshav Ashram, Radha Bagh, Vrindaban and current contacts. No explicit public guest-room booking policy was found in the audited pages. |
+| **Maganwadi, Wardha** | **JA** | **not verified at historic guest bedroom** | **ONZEKER** | HIGH site | Current Magan Sangrahalaya/MGIRI presence confirms Maganwadi continuity. Historic Yogananda guest bedroom was not identified. Separate 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=37 path=runs/active/INDIAWIT-HERITAGE-STAY-OVERRIDE-001/CURRENT_EXISTENCE_AND_BOOKABILITY.md blob_sha=7422780bbeab0befe4a43e663365521025673d33 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+Sevagram Ashram Yatri Niwas is currently bookable but is a different visitor facility/site. |
+| **Sevagram Yatri Niwas** | **JA** | **JA** | not a historical Yogananda room | VERY HIGH | Official Gandhi Sevagram Ashram site provides online Yatri Niwas booking. Useful only as Gandhi-heritage logistics, not as a claim that Yogananda slept in that modern visitor residence. |
+| **Belur Math** | **JA** | **JA for pilgrims/devotees** | **NEE for Vivekananda's preserved historic room** | VERY HIGH | Official Belur Math gives guesthouse contact and states accommodation is for devotees on pilgrimage. New Ma Sarada Bhavan/Yatri Nivas opened in May 2026. Same-room heritage claim is not allowed. |
+| **Kamarpukur Ramakrishna Math** | **JA** | **JA** | **NEE/ONZEKER for historic family room** | VERY HIGH | Official Kamarpukur RKM page offers limited guest house/dormitory accommodation to devotees by email. This is same heritage complex/town context, not a booking of Ramakrishna's childhood room. |
+| **Anandamayi Ma Varanasi Ashram, Bhadaini** | **JA** | **JA** | **ONZEKER** | VERY HIGH for present lodging | Official/current Shree Shree Anandamayee Sangha contact page explicitly lists `room bookings` and a separate local dharamshala contact for the Varanasi Ashram. No specific room associated with Ma was publicly identified. |
+| **Anandamayi Ma Kankhal / International Centre** | **JA** | **JA** | **ONZEKER / generally separate facility** | VERY HIGH | Anandamayi organization pages describe the International Centre adjoining Ma's Ashram/Samadhi as a retreat centre offering rooms with modern amenities and current booking contact. It is adjacent to, not proven identical with, a historic sleeping room of Ma. |
+| **Anandamayi Ma Vrindavan Ashram** | **JA** | **ONZEKER / contact required** | **ONZEKER** | HIGH site | Current Sangha lists the Vrindavan Ashram and contacts. Public pages do not provide sufficiently explicit room-allocation details for this audit. |
+| **Karar Ashram, Puri** (Sri Yukteswar/Hariharananda) | **JA** | **ONZEKER** | **ONZEKER** | HIGH site; LOW lodging | Existing project exact-overlap layer confirms site identity. No sufficiently authoritative public current guest-room booking policy was found in the targeted audit; direct institution contact is required before any stay claim. |
+| **Yogananda Regent Hotel, Mumbai** | **ONZEKER** | **ONZEKER** | **ONZEKER** | LOW | Historical hotel name is explicit, but exact address/building identity was unresolved in the person freeze. Modern businesses sharing the name are not accepted as continuity proof. |
+| **Yogananda Santiniketan guest house** | **ONZEKER** | **ONZEKER** | **ONZEKER** | LOW-MEDIUM | Historic institutional overnight is source-supported but the building was not named in the project freeze; no modern match was guessed. |
+| **Ramakrishna Fouzdar Kunj, Vrindavan** | **ONZEKER current fabric** | **ONZEKER** | **ONZEKER** | MEDIUM historical, LOW current | CCI 094 verified the historic lodging name and upper-room/veranda detail; current same-building survival/bookability was not safely established in this audit. |
+
+## Current-source set used
+
+- Official Shri Kainchi Hanuman Mandir Trust: `https://shreekainchimandirtrust.org/`
+- YSS accommodation: `https://yssofindia.org/request-accommodation`
+- YSS Ranchi: `https://yssofindia.org/location/ranchi`
+- YSS Serampore / associated heritage pages: `https://yssofindia.org/location/serampore`, `https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar`
+- Sri Ramanasramam accommodation/current heritage: `https://www.gururamana.org/Ashram/accommodation`, `https://www.gururamana.org/Ashram/visiting-us`, `https://stay.gururamana.org/`
+- Taj Hotels official Mumbai page: `https://www.tajhotels.com/en-in/hotels/taj-mahal-palace-mumbai`
+- Belur Math official: `https://belurmath.org/`
+- Kamarpukur RKM official guesthouse: `https://kamarpukur.rkmm.org/guest-house`
+- Gandhi Sevagram Ashram: `https://www.gandhiashramsevagram.org/`
+- Katyayani Trust: `https://www.katyayanipeeth.org.in/`
+- Anandamayi organization/Sangha: `https://ww
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=38 path=runs/active/INDIAWIT-HERITAGE-STAY-OVERRIDE-001/CURRENT_EXISTENCE_AND_BOOKABILITY.md blob_sha=7422780bbeab0befe4a43e663365521025673d33 original_offset=8192 original_length=766 payload_bytes=766 chunk_index=2 chunk_count=3 classification=text
+w.anandamayi.org/`, `https://www.shreeshreeanandamayeesangha.org/`
+- Hotel Evelyn current existence: current Google Hotels entity plus current Evelyn Hotels web presence; this is weaker than the institutional/official sources above and therefore room-level continuity remains unverified.
+
+## Fraud / false-continuity warning
+
+The Kainchi search produced multiple sites offering rooms while presenting themselves as Kainchi/Neem Karoli Baba accommodation. The official Trust explicitly states it is the sole authority for all bookings/stays. WIT therefore rejects every third-party page as proof of ashram-room availability unless the Trust itself confirms it.
+
+Likewise, a modern hotel with the same name as a historical hotel is never continuity evidence by itself.
+<<< END CHUNK >>>
+

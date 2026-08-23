@@ -1,0 +1,984 @@
+>>> CHUNK stream_row=1 path=india4/README.md blob_sha=7e7bf13afc97359c354008638ae4e0e512003fa2 original_offset=0 original_length=1617 payload_bytes=1617 chunk_index=0 chunk_count=1 classification=text
+# INDIA 4
+
+Status: ACTIVE
+
+INDIA 4 is de eenvoudige onderzoeksworkflow voor India-runs. De vaste route is:
+
+BRONS -> ZILVER -> GOUD -> KLAAR
+
+Er is geen controller, transitionchat, SHA-matrix of verplicht contextmanifest. Iedere rol leest de oorspronkelijke runopdracht en de voorgangeroutput rechtstreeks uit GitHub, schrijft één volledige overdracht, commit en levert exact één startvraag voor de volgende rol.
+
+## Start
+Gebruik `india4/START.md`.
+
+## Structuur
+- `india4/roles/`: drie inhoudelijke rollen.
+- `india4/protocols/`: zes korte kwaliteitsprotocollen.
+- `india4/templates/`: run-, handoff- en completionmodellen.
+- `runs/active/<run_id>/`: één runbestand, rolmappen en één statusbestand.
+- `runs/completed/<run_id>/`: afgesloten runs.
+
+## Besluitregel
+Alleen Mark maakt nieuwe A/B/C-keuzes. Een worker bewaart bestaande keuzes en noteert andere kandidaten als `DOOR_MARK_TE_BEOORDELEN`.
+
+## Blokkeerregel
+Alleen ontbrekende GitHub-read/write, ontbrekende runopdracht, ontbrekende of corrupte voorgangeroutput, geldige eerdere voltooiing van dezelfde rol, of een direct conflict met een expliciet Mark-besluit blokkeert een volledige rol. Kandidaatgebonden onzekerheid wordt geïsoleerd en blokkeert andere kandidaten niet.
+
+## Vaste naslag
+- Voor vragen over fysieke locaties van Paramahansa Yogananda in India: lees eerst `india4/reference/PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md`.
+- Deze atlas combineert vijf onafhankelijke AI-sweeps en bewaart bewijsniveaus, conflicten, unieke vondsten en expliciete negatieve associaties. Behandel betwiste locaties niet als definitief geverifieerd.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=2 path=india4/protocols/INDIA5-PROTOCOL.md blob_sha=75db6184e8f28a7ef886db9e2c66881af8ac2b80 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# INDIA5-PROTOCOL (definitief, akkoord CC + ChatGPT, 2026-08-02)
+
+Status: CONFIRMED — voorgesteld door CC (Home Assistant-sessie), akkoord door ChatGPT met één
+verwerkt tegenpunt (autonome regio-doorloop, zie hieronder). Dit is het geldende protocol voor
+elke sweep vanaf nu. Lees dit document eerst volledig voordat je verder werkt aan een sweep.
+
+## Doel
+
+Niet één regio (Varanasi) handmatig oplossen, maar een architectuur waarmee uiteindelijk
+duizenden locaties verwerkt kunnen worden met zo min mogelijk handmatige tussenkomst van Mark.
+
+## Waarom het oude INDIA4-protocol faalde
+
+`india4/roles/BRONS.md` schreef letterlijk "Stop daarna" voor na elke kandidaat — dat forceerde
+één chatronde per kandidaat, wat bij honderden/duizenden kandidaten onhoudbaar is. Root-cause
+volledig gedocumenteerd in `runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/ROOT_CAUSE.md`.
+
+## Autonome regio-doorloop (ChatGPT's tegenpunt, verwerkt — dit is de kern van het protocol)
+
+Mark start een regiosweep met ÉÉN opdracht. Daarna mag hij GEEN batchplanner of doorgeefluik
+worden. De uitvoerende sessie doorloopt zelfstandig, zonder tussentijdse Mark-actie:
+
+```
+Mark start één regiosweep
+        ↓
+BRONS verwerkt automatisch alle batches van 15-25 (achter elkaar, zelfde sessie/keten)
+        ↓
+ZILVER valideert automatisch alle batches
+        ↓
+GOUD maakt één regionaal eindpakket
+        ↓
+Mark ontvangt PDF + KML + beslisoverzicht
+```
+
+Ontwerpdoel is dus NIET "precies 3 commits" — voor een regio met meerdere batches zijn meer dan
+drie interne commits normaal en logisch. Het echte doel:
+- **één gebruikershandeling bij de start**;
+- **nul tussentijdse handelingen bij normale voortgang** — geen paden, statussen of
+  onderzoeksinhoud die Mark moet overnemen of doorgeven tussen BRONS/ZILVER/GOUD;
+- **één complete eindoplevering**;
+- **alleen terug naar Mark bij een echte inhoudelijke beslissing of een niet-herstelbare
+  blocker** (bijv. een structureel gat in de bronnen dat een beleidskeuze vereist).
+
+## Rolverdeling
+
+- **CONTROLLER**: bepaalt scope, kiest eindproducten, en orkestreert vervolgens de VOLLEDIGE
+  regio-doorloop zelf (roept intern BRONS → ZILVER → GOUD aan, batch na batch) — verdwijnt niet
+  na één batch, blijft de keten besturen tot de regio af is of een echte blocker optreedt. Leest
+  bij elke (her)start uitsluitend `runs.jsonl` (append-only journaal) om te bepalen waar verder
+  te gaan.
+- **BRONS**: verwerkt batches van 15-25 kandidaten, ná elkaar, zonder op een nieuwe
+  Mark-opdracht te wachten (niet "alle kandidaten in RAM" — dat bestaat niet voor een chat-agent,
+  elke kandidaat kost context ongeacht wanneer je commit, vandaar de kleine vaste batchgrootte).
+  Puur onderzoek → JSON. Eén lokaal checkpoint elke ~5 kandidaten (géén git-commit, puur
+  crashbescherming). Eén git-commit per afgeronde batch.
+- **ZILVER**: start automatisch zodra BRONS een batch heeft afgerond, leest alleen de JSON van
+  die batch, valideert bronnen/Google Maps/consistentie. Her-zoekt UITSLUITEND als een
+  kandidaat's status ≠ `CONFIRMED` (harde regel, geen open "tenzij nodig"-oordeel). Eén commit
+  per batch.
+- **GOUD**: start automatisch zodra de VOLLEDIGE regio door ZILVER is gevalideerd (niet na elke
+  kleine batch), bouwt het regionale eindpakket (PDF/KML/kaart/print/A-B-C-overzicht). Eén
+  afsluitende commit.
+
+## Kernregels (vervangen het oorspronkelijke INDIA5-voorstel op deze punten)
+
+1. **Batchgrootte klein en vast** (15-25 kandidaten per BRONS-run), nooit "alles ineens."
+2. **Volgende kandidaat = diff van doellijst tegen output**, via de bestaande
+   `runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/scripts/next_candidate.py`-logica. NOOIT
+   "laatste ID + 1" — dat breekt bij een overgeslagen of opnieuw-gedane kandidaat.
+3. **Elke kandidaat krijgt een status-veld vanaf record 1**: `CONFIRMED` / `NEEDS_REVIEW` /
+   `GEEN_BRON` / `AMBIGUE_PIN`. Geen eenduidige Google Maps-pin (0 of >1 kandidaten zonder
+   onderscheidend signaal) = altijd `AMBIGUE_PIN`, nooit gokken/substitueren (zie
+   `runs/active/VARANASI-GE
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=3 path=india4/protocols/INDIA5-PROTOCOL.md blob_sha=75db6184e8f28a7ef886db9e2c66881af8ac2b80 original_offset=4096 original_length=1724 payload_bytes=1724 chunk_index=1 chunk_count=2 classification=text
+O-DELIVERY-REPAIR-001/scripts/validate_brons.py` voor het bestaande
+   verbod op nep-coördinaten).
+4. **`runs.jsonl`** = de enige overblijvende "state": één regel per afgeronde batch (regio,
+   batch-ID, kandidaat-range, commit-SHA, timestamp), uitsluitend door CONTROLLER geschreven.
+   Geen los `progress.yaml`.
+5. **GitHub bevat alleen input/output**, geen state/locks/controller-logica — die logica leeft in
+   de uitvoerende agent-sessie zelf, niet in de repo.
+6. **Google Maps = bron van waarheid** voor coördinaten (niet website → coördinaten → Maps).
+7. **Losse dedup-stap** bij ZILVER of GOUD vóór het eindpakket (naam-gelijkenis + geo-nabijheid),
+   belangrijk bij religieuze locaties met meerdere filialen/naamvarianten.
+
+## Definitieve testdoelstelling
+
+Eén startopdracht voor twintig Varanasi-kandidaten, waarna BRONS → ZILVER → GOUD zonder
+tussenkomst van Mark doorloopt en eindigt met: één PDF, één KML, één gevalideerde dataset en één
+korte eindmelding aan Mark. Geen tussentijdse handelingen van Mark tijdens de doorloop.
+
+## Scope-afspraak (belangrijk, expliciet door Mark vastgesteld op 2026-08-02)
+
+CC (de Home Assistant-sessie) heeft hier een ARCHITECTUUR/TOOLING-rol — kritiek leveren, scripts
+zoals `next_candidate.py`/`validate_brons.py` bouwen/onderhouden — GEEN uitvoerende rol in de
+daadwerkelijke kandidaat-sweeps zelf. Een aparte, aan deze repo toegewijde Claude Code-sessie
+voert de sweeps zelf uit, om te voorkomen dat sweep-werk Mark's tokens in de HA-sessie verbruikt.
+
+## Volgende stap
+
+Protocol is akkoord. Eerste testsweep (20 Varanasi-kandidaten, volledig autonome doorloop)
+uitvoeren volgens bovenstaande regels, resultaat vastleggen onder `runs/active/`.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=4 path=runs/active/INDIABLAUW-TRIP-OPS-PREP-001/BOOKING_WINDOWS.md blob_sha=b8c403138d83f8f9e0fe15fb460071bd1e4c18d5 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# BOOKING WINDOWS — INDIA TRIP 2026-12-18 → 2027-01-21
+
+Status: CURRENT-WEB-VERIFIED
+Verified: 2026-08-19
+Scope: route-onafhankelijk; geen specifieke rit, vlucht of bestemming geboekt.
+
+## Indian Railways — reguliere Advance Reservation Period
+
+Indian Railways heeft de Advance Reservation Period (ARP) voor veel gereserveerde treinen per 01-11-2024 teruggebracht van 120 naar 60 dagen, exclusief de reisdag. Een officiële Railway Ministry/PIB-publicatie van 08-08-2025 bevestigt dat dit nog het geldende regime is. Sommige treinen hebben een kortere ARP.
+
+Voor de reisperiode betekent dit, als een reisdag onder de normale 60-dagen-ARP valt:
+- reis 18-12-2026 → venster opent 19-10-2026;
+- reis 21-01-2027 → venster opent 22-11-2026;
+- tussenliggende reisdata openen dus geleidelijk tussen deze data.
+
+Praktische regel: zodra concrete treinsegmenten later zijn gekozen, per trein het exacte opening moment in IRCTC/Indian Railways controleren en niet alleen op de generieke 60-dagenregel vertrouwen.
+
+## Buitenlandse toeristen / Foreign Tourist booking
+
+De Railway Ministry meldde bij de ARP-wijziging dat de aparte 365-dagenlimiet voor buitenlandse toeristen onveranderd bleef. Tegelijk vermelden huidige IRCTC internetvoorwaarden dat `advance booking for foreign tourists 360 days in advance` niet via de gewone internetservice wordt aangeboden. Dit is een belangrijk operationeel onderscheid: het bestaan van een langere buitenlandse-toeristen-ARP betekent niet automatisch dat elke trein/klasse online via de normale IRCTC-flow zo vroeg te boeken is.
+
+Daarom:
+- behandel Foreign Tourist quota/advance facility als potentieel nuttig, maar NIET als gegarandeerde beschikbaarheid;
+- zodra treinsegmenten bekend zijn: check per trein of Foreign Tourist quota bestaat, via welk kanaal en met welke actuele identificatie-/betalingsvoorwaarden;
+- buitenlandse reizigers moeten volgens IRCTC hun paspoort als geautoriseerde ID kunnen tonen.
+
+## Tatkal
+
+Officiële IRCTC-informatie: Tatkal opent één dag vóór vertrek vanaf het vertrekstation van de trein; doorgaans 10:00 IST voor AC-klassen en 11:00 IST voor non-AC. Dit is een nood-/last-minute mechanisme, geen hoofdplanningsstrategie. Regels, quota en tijden vóór gebruik opnieuw controleren.
+
+## Binnenlandse vluchten
+
+Er bestaat geen universele Indiase wettelijke boekingshorizon voor alle binnenlandse airlines; elke maatschappij publiceert eigen schema’s.
+
+Actuele primaire voorbeelden:
+- IndiGo: online tickets kunnen tot circa 12 maanden vooruit worden geboekt, afhankelijk van de gepubliceerde schedule; IndiGo adviseert bij domestic travel in algemene zin vroeg te boeken en noemt 2–8 weken als typische fare-planningrange, maar dat is prijsadvies, geen harde deadline.
+- Air India: de officiële boekingspagina vermeldt dat internationale tickets tot 361 dagen vooruit kunnen worden gekocht; voor domestic noemt de pagina geen vergelijkbare harde maximale horizon maar boekbaarheid tot kort voor vertrek. In de praktijk bepaalt de vrijgegeven schedule de horizon.
+
+Operationele conclusie zonder routekeuze: domestic flights hoeven niet te wachten op het trein-ARP. Zodra een binnenlandse vlucht later logisch blijkt, kan die vaak maanden eerder worden vastgelegd. Rond kerst/nieuwjaar en januari-events kan vroeg vastleggen praktisch belangrijker zijn dan een formele airline-deadline.
+
+## Kritieke boekingsfase voor deze reis
+
+- Vanaf nu (augustus 2026): internationale en veel domestic air schedules voor de reisperiode zijn al of grotendeels gepubliceerd; alleen monitoren/voorbereiden, geen route kiezen.
+- 19-10-2026: eerste normale 60-dagen-treinvensters voor reisdag 18-12-2026 openen.
+- 19-10 t/m 22-11-2026: kritieke golf waarin normale treinvensters voor de hele reisperiode openen.
+- Vanaf circa half november: kerst/nieuwjaar en midden-januari vergroten het risico dat populaire trein-/vluchtcapaciteit minder flexibel wordt. Dit is een praktische risicowaarschuwing, geen garantie dat specifieke verbindingen uitverkopen.
+
+## Bronnen
+
+- Ministry of Railways / PIB — ARP 60 days (17-10-2024): https://w
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=5 path=runs/active/INDIABLAUW-TRIP-OPS-PREP-001/BOOKING_WINDOWS.md blob_sha=b8c403138d83f8f9e0fe15fb460071bd1e4c18d5 original_offset=4096 original_length=875 payload_bytes=875 chunk_index=1 chunk_count=2 classification=text
+ww.pib.gov.in/Pressreleaseshare.aspx?PRID=2065879
+- Ministry of Railways / PIB — bevestiging 60-day ARP (08-08-2025): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2154363
+- IRCTC Terms & Conditions: https://contents.irctc.co.in/en/userRegTermsAndConditions.html
+- IRCTC Tatkal guide: https://contents.irctc.co.in/en/TatkalBooking.html
+- IndiGo official flights/booking information: https://www.goindigo.in/flights
+- Air India official booking page: https://www.airindia.com/en-nl/book-flights/
+
+## Recheck
+
+- 2026-10-01: bevestig dat Railway ARP nog 60 dagen is en controleer Foreign Tourist facility.
+- 2026-10-18: final pre-opening check voor eerste 60-dagenvenster.
+- Bij elk later gekozen treinsegment: exacte trein-specifieke ARP/quota/openingstijd checken.
+- Bij elke later gekozen domestic vlucht: alleen primaire airline-schedule en fare conditions gebruiken.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=6 path=runs/active/INDIABLAUW-TRIP-OPS-PREP-001/CALENDAR_RISK.md blob_sha=d14f6cf816707ded011d4c36e7125c995c52b17a original_offset=0 original_length=3726 payload_bytes=3726 chunk_index=0 chunk_count=1 classification=text
+# CALENDAR RISK — INDIA TRIP 2026-12-18 → 2027-01-21
+
+Status: CURRENT-WEB-VERIFIED
+Verified: 2026-08-19
+Scope: alleen reisimpact; geen route- of bestemmingskeuze.
+
+## Landelijke / centrale kalenderpunten
+
+### 25-12-2026 — Christmas Day
+Christmas Day is in 2026 een Gazetted Holiday voor Central Government offices. Mogelijke impact: overheidskantoren gesloten, lokaal afwijkende openingstijden, extra recreatie-/familiedrukte en hogere vraag rond het lange kerstweekend. Transport blijft niet automatisch stil; capaciteit en dienstregelingen moeten per operator worden gecontroleerd.
+
+### 01-01-2027 — New Year's Day
+De officiële centrale kalender voor 2027 vermeldt New Year's Day als Restricted Holiday. Het is dus niet hetzelfde als een landelijke verplichte sluitingsdag. Praktisch kunnen commerciële openingstijden, recreatieve drukte en transportvraag wel afwijken rond 31 december/1 januari.
+
+### 14-01-2027 — Makar Sankranti / Magha Bihu / Pongal
+De officiële Government of India kalender vermeldt 14 januari 2027 als Restricted Holiday voor Makar Sankranti / Magha Bihu / Pongal. Dit is een belangrijke feestperiode met regionaal zeer verschillende intensiteit. De impact kan bestaan uit lokale feestdrukte, aangepaste openingstijden en meer vraag naar vervoer; de feitelijke impact moet later per gekozen regio worden geverifieerd.
+
+### Republic Day valt buiten de reisperiode
+Republic Day is 26-01-2027 en valt na de geplande terugkeer op 21-01-2027. Wel kan in Delhi en andere grote steden in de dagen vóór 26 januari al veiligheids-/repetitie-impact optreden. Omdat terugkeer via Delhi is vastgelegd, moet circa 15-21 januari een actuele Delhi traffic/security recheck plaatsvinden; geen aanname doen dat beperkingen al op een vaste datum beginnen.
+
+## Kerst–nieuwjaarperiode
+
+18-12-2026 t/m begin januari bevat internationaal en binnenlands vakantieverkeer. De officiële holiday status alleen voorspelt geen bezetting. Operationeel geldt daarom: trein- en vluchtcapaciteit rond 24-26 december, 31 december/1 januari en het eerste januarieweekend als verhoogd vraagrisico behandelen en bij concrete segmenten vroeg beschikbaarheid controleren.
+
+## Midden januari — regionale oogstfeesten
+
+14 januari is landelijk herkenbaar maar regionaal verschillend: Makar Sankranti, Pongal en Magha Bihu hebben uiteenlopende lokale patronen. Dit dossier selecteert geen regio. Zodra de route later bekend is, moeten 13-16 januari specifiek worden gecontroleerd op:
+- regionale feestdagen en school-/kantoorsluitingen;
+- grote lokale evenementen/processies/fairs;
+- transportvraag en eventuele verkeersmaatregelen.
+
+## Grote events: alleen bewezen impact meenemen
+
+Er is geen route gekozen, dus events die slechts één stad/regio raken worden hier niet als routeargument gebruikt. Zodra een route bestaat, moet een event-sweep worden herhaald met officiële state/district/tourism bronnen. Dat voorkomt dat een lokaal evenement ten onrechte nu al een bestemming beïnvloedt.
+
+## Bronnen
+
+- National Portal of India — Holiday Calendar (2026/2027): https://www.india.gov.in/calendar
+- India Post — All India Holidays 2026: https://www.indiapost.gov.in/holidays-list
+- Ministry of Parliamentary Affairs — official calendar/holiday list: https://mpa.gov.in/media/calendar
+
+## Recheck-datums
+
+- 2026-10-01: 2027 central/state holiday calendars opnieuw controleren.
+- Zodra regio’s vaststaan: state/district calendars voor 18-12-2026 t/m 21-01-2027 controleren.
+- 2026-12-01: kerst/nieuwjaar transport- en openingsimpact actualiseren.
+- 2027-01-05: 13-16 januari regionale festivalimpact actualiseren.
+- 2027-01-15: Delhi pre-Republic-Day verkeers-/securitymaatregelen voor terugkeerperiode controleren.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=7 path=runs/active/INDIABLAUW-TRIP-OPS-PREP-001/DEADLINE_BOARD.md blob_sha=9a70ed964c63d3e170036dda412d0ef8c0297094 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# DEADLINE BOARD — INDIA TRIP 2026-12-18 → 2027-01-21
+
+Status: CURRENT-WEB-VERIFIED
+Verified: 2026-08-19
+
+| Datum | Actie | Waarom | Confidence | Source date / recheck |
+|---|---|---|---|---|
+| 2026-08-20 | e-Tourist Visa 1y/5y aanvraagvenster opent voor aankomst 18-12-2026 | Officiële e-Visa FAQ: max 120 dagen vooruit | HIGH | Official portal checked 2026-08-19; recheck 2026-08-20 |
+| 2026-10-01 | Volledige entry/visa/e-Arrival Card-regels opnieuw verifiëren | Regels en entry-point-lijsten kunnen wijzigen | HIGH | Recheck required |
+| 2026-10-01 | Indian Railways ARP + Foreign Tourist facility opnieuw verifiëren | 60-dagen-ARP is huidig maar beleid kan wijzigen | HIGH | Railway Ministry confirmation 2025-08-08; recheck 2026-10-01 |
+| 2026-10-18 | Pre-opening check voor eerste normale treinvenster | Reisdag 18-12 opent onder 60-dagenregel op 19-10 | HIGH | Recheck exact per trein zodra segmenten bestaan |
+| 2026-10-19 | Eerste normale 60-dagen-treinvensters voor 18-12-2026 openen | Tijdkritisch voor populaire gereserveerde treinen | HIGH | Generic rule; train-specific exceptions possible |
+| 2026-10-19 → 2026-11-22 | Dagelijks/periodiek gekozen treinsegmenten boeken zodra hun ARP opent | Hele reisperiode rolt door het 60-dagenvenster | HIGH | Alleen nadat route later is gekozen |
+| 2026-11-22 | Laatste normale 60-dagen-opening binnen huidige reisperiode: reisdag 21-01-2027 | Sluit de ARP-openingsgolf af | HIGH | Generic rule |
+| 2026-12-01 | Final pre-trip admin check: ETA, passport, entry airport, airline docs | Voorkomt last-minute documentblokkade | HIGH | Recheck official sources |
+| 2026-12-01 | Winter/fog seasonal check bij IMD | December-januari is kernperiode voor noordelijke mist en Himalayan disturbances | HIGH | IMD recheck |
+| 2026-12-01 | Kerst/nieuwjaar transportdruk en openingstijden actualiseren | 25-12 Gazetted Holiday; 01-01 Restricted Holiday | MEDIUM-HIGH | Calendar verified 2026-08-19 |
+| 2026-12-14 | Niet later dan dit als formele minimumgrens voor 1y/5y e-Visa-aanvraag bij aankomst 18-12 | Officiële minimum 4 dagen vooraf; operationeel veel te laat | HIGH | Gebruik als hard stop, niet als streefdatum |
+| circa 2026-12-15 | e-Arrival Card venster opent, afhankelijk van exacte aankomsttijd | Officiële regel: binnen 72 uur vóór aankomst | HIGH | Recheck 2026-12-14 |
+| 2027-01-05 | Midden-januari festivalimpact per gekozen regio controleren | Makar Sankranti / Pongal / Magha Bihu 14-01 | HIGH voor datum, impact regionaal variabel | Official 2027 calendar |
+| 7-14 dagen vóór ieder gekozen Himalayan segment | IMD + state/district/road-authority winterstatus | Sneeuw/closures zijn plaats- en weersafhankelijk | HIGH | Fresh sources required |
+| 72 uur vóór ieder gekozen Himalayan segment | Hercontrole weather/road status | Korte-termijnverandering mogelijk | HIGH | Fresh sources required |
+| 2027-01-15 | Delhi return-chain risk check starten | Fog + mogelijke pre-Republic-Day maatregelen vóór terugkeer 21-01 | MEDIUM-HIGH | Fresh IMD/Delhi authority check required |
+| 2027-01-18 → 2027-01-21 | Dagelijkse Delhi fog/flight/rail operation check zodra return-chain vastligt | Beschermt internationale terugkeer tegen kettingvertraging | HIGH | Fresh operational sources required |
+
+## Harde onderscheidingen
+
+- `deadline` = formele grens uit primaire bron.
+- `recheck` = datum waarop veranderlijke informatie opnieuw moet worden geverifieerd.
+- `booking critical` = praktisch moment waarop capaciteit/flexibiliteit kan afnemen; geen formele wettelijke deadline.
+
+## Belangrijkste huidige blockers
+
+1. Geen concrete route/treinsegmenten — bewust buiten scope. Daardoor kan Foreign Tourist quota niet per trein worden bevestigd.
+2. Geen domestic-flightsegmenten — bewust buiten scope. Airline-specifieke beschikbaarheid kan pas later exact worden gecontroleerd.
+3. Winter-road closures kunnen zonder bestemming en zonder korte-termijnforecast niet exact worden voorspeld.
+4. Delhi pre-Republic-Day maatregelen voor 15-21 januari 2027 zijn nog niet gepubliceerd; fresh check in januari vereist.
+
+## Bronset
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=8 path=runs/active/INDIABLAUW-TRIP-OPS-PREP-001/DEADLINE_BOARD.md blob_sha=9a70ed964c63d3e170036dda412d0ef8c0297094 original_offset=4096 original_length=559 payload_bytes=559 chunk_index=1 chunk_count=2 classification=text
+
+- Indian Visa Online / Bureau of Immigration: https://indianvisaonline.gov.in/
+- e-Visa official portal: https://indianvisaonline.gov.in/evisa/tvoa.html
+- Ministry of Railways / PIB: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2154363
+- IRCTC: https://contents.irctc.co.in/en/userRegTermsAndConditions.html
+- National Portal of India calendar: https://www.india.gov.in/calendar
+- Ministry of Parliamentary Affairs calendar: https://mpa.gov.in/media/calendar
+- India Meteorological Department: https://internal.imd.gov.in/pages/press_release_mausam.php
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=9 path=runs/active/INDIABLAUW-TRIP-OPS-PREP-001/ENTRY_AND_ADMIN.md blob_sha=8aab7c9ceadeddbda6bd43477452f40aadd9b333 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# ENTRY AND ADMIN — INDIA TRIP 2026-12-18 → 2027-01-21
+
+Status: CURRENT-WEB-VERIFIED
+Verified: 2026-08-19
+Scope: Nederlandse reiziger; route-onafhankelijk; geen persoonslocaties.
+
+## Kern
+
+- Een Nederlands paspoort staat op de officiële Indiase e-Visa eligibility-lijst.
+- Voor toeristisch verblijf bestaan 30-dagen-, 1-jaars- en 5-jaars e-Tourist Visa. De geplande reisduur 18-12-2026 t/m 21-01-2027 is langer dan 30 dagen; een 30-dagen e-Tourist Visa dekt de volledige reis daarom niet. Dit document kiest niet namens Mark tussen 1 jaar en 5 jaar.
+- Voor 1-jaars/5-jaars e-Tourist Visa mag volgens de officiële FAQ maximaal 120 dagen vóór de voorgenomen aankomst worden aangevraagd en minimaal 4 dagen vooraf. Voor aankomst 18-12-2026 opent dat venster op 20-08-2026; formele minimumgrens is 14-12-2026. Operationeel is zo laat aanvragen onwenselijk vanwege correcties/afwijzing/technische problemen.
+- Paspoort: minimaal 6 maanden geldig op het moment van e-Visa-aanvraag en minimaal 2 blanco pagina's; retour- of onward-ticket en voldoende middelen worden als voorwaarden genoemd.
+- De reiziger moet reizen op het paspoort waarop de e-Visa is aangevraagd. Bij een nieuw paspoort na afgifte staat de officiële site onder voorwaarden entry toe met nieuw én oud paspoort; dit moet vlak voor vertrek opnieuw worden gecontroleerd.
+- ETA-status moet vóór vertrek daadwerkelijk `GRANTED` zijn; een aanvraag- of betalingsbevestiging is geen visumgoedkeuring.
+- De officiële e-Visa-site waarschuwt dat er geen geautoriseerde commerciële tussenpersoon nodig is en geen officiële express/emergency surcharge bestaat.
+
+## e-Arrival Card
+
+De Bureau of Immigration / Indian Visa Online portal meldt dat buitenlanders en OCI-houders de e-Arrival Card online kunnen invullen binnen 72 uur vóór aankomst via boi.gov.in, indianvisaonline.gov.in of de officiële Indian Visa Su-Swagatam-app. De e-Arrival Card is aankomstinformatie en vervangt geen visum.
+
+Voor aankomst op 18-12-2026 betekent dit: venster opent circa 15-12-2026, afhankelijk van exacte aankomsttijd. Recheck 14-12-2026 omdat implementatiedetails nog kunnen veranderen.
+
+## Aankomstpunt
+
+De officiële e-Visa-site publiceert een lijst van toegestane entry-airports en seaports; Delhi staat daarbij. Omdat de opdracht geen routekeuze toestaat, worden overige punten hier niet geselecteerd. Departure mag via aangewezen Immigration Check Posts volgens de actuele lijst.
+
+## Documenten voorbereiden
+
+Voor e-Tourist Visa noemt de officiële portal in ieder geval:
+- scan bio-pagina paspoort;
+- digitale frontale pasfoto volgens opgegeven formaat/kwaliteit;
+- aanvullende documenten alleen indien het specifieke doel/type dat vereist.
+
+Controleer bij indienen steeds de actuele technische specificaties op de portal; die kunnen wijzigen.
+
+## Onzekerheden / recheck
+
+1. De officiële e-Visa-site bevat verschillende historisch gecachte/gespiegelde teksten over het aanvraagvenster van het 30-dagenvisum. Dit is voor deze reis niet beslissend omdat 30 dagen de reisduur niet dekt. Voor 1- en 5-jaars e-Tourist Visa is de actuele officiële FAQ duidelijk: maximaal 120 dagen vooruit en minimaal 4 dagen vooraf.
+2. Entry-point-lijsten en app/arrival-card-procedure kunnen vóór december wijzigen.
+3. Yellow-fever-regels zijn itinerary-afhankelijk (herkomst/transit door aangewezen landen) en worden pas relevant zodra internationale transit vaststaat; geen routekeuze in deze taak.
+4. Protected/Restricted/Cantonment Areas vereisen aparte toestemming; dit wordt pas destination-specifiek en valt buiten deze prep.
+
+## Bronnen
+
+- Government of India — Indian Visa Online: https://indianvisaonline.gov.in/
+- Government of India — e-Visa portal/eligibility/FAQ: https://indianvisaonline.gov.in/evisa/tvoa.html
+- Bureau of Immigration wordt via bovenstaande officiële portal gelinkt: https://boi.gov.in/
+
+## Recheck-datums
+
+- 2026-08-20: aanvraagvenster 1-/5-jaars e-Tourist Visa opent voor aankomst 18-12-2026.
+- 2026-10-01: volledige visa/entry-regels opnieuw verifiëren vóór definitieve boekingsfase.
+- 2026-12-01: ETA, paspoort
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=10 path=runs/active/INDIABLAUW-TRIP-OPS-PREP-001/ENTRY_AND_ADMIN.md blob_sha=8aab7c9ceadeddbda6bd43477452f40aadd9b333 original_offset=4096 original_length=142 payload_bytes=142 chunk_index=1 chunk_count=2 classification=text
+geldigheid, entry point en arrival-card-procedure final check.
+- 2026-12-14: laatste operationele recheck vóór 72-uurs arrival-cardvenster.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=11 path=runs/active/INDIABLAUW-TRIP-OPS-PREP-001/STATUS.md blob_sha=ccc7697e4af2c96039a9ecbef2104edcd438f71c original_offset=0 original_length=1187 payload_bytes=1187 chunk_index=0 chunk_count=1 classification=text
+# STATUS — INDIABLAUW-TRIP-OPS-PREP-001
+
+state: COMPLETE
+branch: agent/indiablauw-trip-ops-prep
+owner: INDIA BLAUW
+scope: route-independent travel operations and deadlines
+completed: 2026-08-19
+web_verified: 2026-08-19
+outputs:
+  - ENTRY_AND_ADMIN.md
+  - BOOKING_WINDOWS.md
+  - CALENDAR_RISK.md
+  - WINTER_ACCESS_RISK.md
+  - DEADLINE_BOARD.md
+constraints_respected:
+  - no_person_location_research: true
+  - no_destination_choice_for_mark: true
+  - no_route_or_hotel_booking: true
+  - no_pdf: true
+  - no_merge_or_pr: true
+blockers:
+  - Foreign Tourist rail quota/facility must be revalidated per concrete train once route segments exist.
+  - Domestic-airline exact availability can only be verified once segments exist; no universal airline booking horizon applies.
+  - Himalayan winter road access requires destination-specific and short-range weather/road-status checks later.
+  - Delhi pre-Republic-Day traffic/security measures for 15-21 January 2027 are not yet published and require January recheck.
+next_allowed_step: Use DEADLINE_BOARD.md as route-independent guardrail; route planner may later resolve segment-specific bookings without overriding Mark's destination choices.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=12 path=runs/active/INDIABLAUW-TRIP-OPS-PREP-001/TASK.md blob_sha=56c4a144c2ae476cabf8bba07df33414abc869e5 original_offset=0 original_length=1917 payload_bytes=1917 chunk_index=0 chunk_count=1 classification=text
+# INDIA BLAUW — TRIP OPERATIONS PREP
+
+STATUS: READY
+OWNER: INDIA BLAUW
+MODE: CURRENT-WEB-VERIFIED TRAVEL OPS
+TRAVEL_DATES: 2026-12-18 through 2027-01-21
+RETURN: Delhi
+
+## Doel
+Onderzoek nu al alle tijdkritieke en route-onafhankelijke praktische zaken die later de A-Z reisplanning kunnen blokkeren of deadlines kunnen veroorzaken. Geen bestemmingskeuzes namens Mark en geen persoonslocatieonderzoek.
+
+## Werkpakketten
+1. ENTRY_AND_ADMIN.md — actuele officiële India-entry/visa/e-visa/passport/arrival-form regels voor Nederlandse reiziger, alleen officiële primaire bronnen; noteer aanvraagvensters/deadlines en onzekerheden.
+2. BOOKING_WINDOWS.md — officiële of primaire bronnen voor Indian Railways reserveringshorizon, relevante toeristenquota indien bestaand, domestic-airline booking horizon waar zinvol, en wanneer rond 18 dec–21 jan boekingen praktisch kritisch worden. Geen specifieke route boeken.
+3. CALENDAR_RISK.md — officiële kalender/authoritative bronnen voor nationale feestdagen en grote travel-impact events in 18-12-2026 t/m 21-01-2027 die drukte/sluitingen/transport kunnen beïnvloeden. Alleen impact, geen routekeuze.
+4. WINTER_ACCESS_RISK.md — route-onafhankelijke inventaris van regio-types die in deze periode potentieel winter-/sneeuw-/mist-/wegsluitingsrisico hebben, met nadruk Himalaya/Uttarakhand/Delhi fog; geen bestemming selecteren of uitsluiten.
+5. DEADLINE_BOARD.md — concrete datumgestuurde actielijst: wat moet uiterlijk wanneer gecontroleerd/geboekt/aangevraagd worden, met confidence/source-date en recheck-date.
+
+## Regels
+- Gebruik web en verifieer actuele informatie; voor officiële regels primaire bronnen voorrang.
+- Geen persoonslocaties onderzoeken.
+- Geen A/B/C namens Mark.
+- Geen route, nachten, hotels of specifieke binnenlandse ritten vastleggen.
+- Geen PDF.
+- Geen merge/PR.
+- Schrijf alle outputs en STATUS.md op agent/indiablauw-trip-ops-prep.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=13 path=runs/active/INDIABLAUW-TRIP-OPS-PREP-001/WINTER_ACCESS_RISK.md blob_sha=56686f53cf58ef1dcd903c69927e757b3222430b original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# WINTER ACCESS RISK — INDIA TRIP 2026-12-18 → 2027-01-21
+
+Status: CURRENT-WEB-VERIFIED
+Verified: 2026-08-19
+Scope: route-onafhankelijke risicoinventaris; geen bestemming selecteren of uitsluiten.
+
+## 1. Delhi / Noord-Indiase laagvlakte — mist
+
+IMD-bronnen bevestigen dat december-januari de kernperiode is voor wintermist over Noord-India en dat Delhi en aangrenzende delen bijzonder gevoelig zijn. IMD-climatologie noemt mist in de Indo-Gangetic Plain gemiddeld op meerdere dagen per maand in december en januari; historische IMD-studies beschrijven bovendien terugkerende hardnekkige mist rond eind december en begin januari.
+
+Operationele impact:
+- lage zichtbaarheid kan vroege/late vluchten vertragen of omleiden;
+- treinen kunnen aanzienlijke vertraging oplopen;
+- wegverkeer kan trager en risicovoller worden;
+- aansluitingen met krappe buffers zijn kwetsbaar.
+
+Voor de vaste terugkeer via Delhi is daarom een ruime operationele buffer rationeel; exacte buffer pas bepalen wanneer vluchten/treinen bekend zijn.
+
+## 2. Westelijke Himalaya — snowfall / western disturbances
+
+IMD publiceert in winter regelmatig waarschuwingen voor western disturbances die de Western Himalayan Region beïnvloeden. Daarbij kunnen sneeuw, regen, kou en lokaal verkeershinder optreden. De exacte timing is slechts dagen tot circa twee weken vooraf betrouwbaar te beoordelen.
+
+Regio-types met verhoogd wintertoegangsrisico:
+- hogere Himalayawegen en bergpassen;
+- hoger gelegen valleien/bergdorpen met één primaire toegangsweg;
+- wegen gevoelig voor sneeuwophoping, ijs of lawinebeheersing;
+- gebieden waar lokale wegbeheerders seizoenssluitingen of tijdelijke closures hanteren.
+
+Dit document selecteert geen enkele specifieke bestemming als wel/niet haalbaar.
+
+## 3. Uttarakhand / hogere berggebieden
+
+Voor Uttarakhand en vergelijkbare Himalayan states geldt dat wintertoegang sterk hoogte- en wegafhankelijk is. Sommige religieuze/bergfaciliteiten kennen seizoenssluitingen; wegen kunnen tijdelijk dichtgaan door sneeuw, ijs, aardverschuivingen of veiligheidsmaatregelen. Zonder gekozen bestemming is een generieke `open/closed` uitspraak onbetrouwbaar.
+
+Operationele regel zodra een concrete plek later op de route komt:
+1. 14 dagen vooraf: district/state tourism + road authority + IMD check;
+2. 72 uur vooraf: actuele weerswaarschuwing en road status;
+3. dag ervoor: lokale wegstatus opnieuw verifiëren;
+4. geen kritieke onward-aansluiting direct na een winterbergsegment zonder buffer.
+
+## 4. Hoogte en wegtype belangrijker dan kalender alleen
+
+`Himalaya in winter` is geen uniforme risicoklasse. Lage foothill-steden kunnen volledig normaal bereikbaar zijn terwijl hogere passen of zijwegen tijdelijk sluiten. Daarom geen blanket exclusion toepassen. De latere routeplanner moet per segment hoogte, wegklasse, alternatieve toegang en recente road-status beoordelen.
+
+## 5. Delhi fog + Himalayan weather kunnen tegelijk optreden
+
+Een belangrijke systeemrisico-combinatie in deze reisperiode is:
+- bergsegment vertraagd door sneeuw/western disturbance;
+- daarna trein/weg naar noordelijke laagvlakte;
+- vervolgens mistvertraging bij Delhi/airport.
+
+Daarom moeten kritieke internationale vertrekdagen later niet afhankelijk worden gemaakt van één strak, weergevoelig binnenlands segment.
+
+## Primaire / authoritative bronnen
+
+- India Meteorological Department press-release archive: https://internal.imd.gov.in/pages/press_release_mausam.php
+- IMD Regional Meteorological Centre New Delhi archive: https://mausam.imd.gov.in/newdelhi/archived_reports.php
+- IMD MAUSAM — winter fog climatology: https://mausamjournal.imd.gov.in/index.php/MAUSAM/article/view/858
+- IMD MAUSAM — Delhi/IGI fog climatology: https://mausamjournal.imd.gov.in/index.php/MAUSAM/article/view/1459
+
+## Confidence
+
+- Delhi/Noord-India mist als structureel december-januaririsico: HIGH.
+- Western disturbances en sneeuw als structureel Himalayan winterrisico: HIGH.
+- Exacte wegsluiting voor een nog onbekende bestemming: LOW / NIET VOORAF VAST TE STELLEN.
+
+## Recheck
+
+- 2026-12-01: IMD seasonal/extended outlook en w
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=14 path=runs/active/INDIABLAUW-TRIP-OPS-PREP-001/WINTER_ACCESS_RISK.md blob_sha=56686f53cf58ef1dcd903c69927e757b3222430b original_offset=4096 original_length=300 payload_bytes=300 chunk_index=1 chunk_count=2 classification=text
+interpatroon opnieuw beoordelen.
+- 7-14 dagen vóór elk later gekozen Himalayan segment: IMD + officiële lokale road status.
+- 72 uur vóór elk weergevoelig segment: fresh forecast/closure check.
+- 2027-01-15 t/m vertrek: dagelijkse Delhi fog/flight/rail impactcheck zodra return-chain vaststaat.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=15 path=runs/active/INDIABLAUW-VISA-READY-PACK-001/PHOTO_PASSPORT_SPEC.md blob_sha=71239338567aba6ce68999f0770b204c19514e8c original_offset=0 original_length=3204 payload_bytes=3204 chunk_index=0 chunk_count=1 classification=text
+# PHOTO & PASSPORT SPEC — INDIA BLAUW
+
+Checkdatum: 2026-08-19
+Bronbasis: uitsluitend officiële Indiase e-Visa-bronnen.
+
+## Digitale foto — officiële eisen
+
+- Formaat: JPEG.
+- Bestandsgrootte: minimaal 10 KB, maximaal 1 MB.
+- Hoogte en breedte moeten gelijk zijn.
+- Volledig gezicht, frontaal.
+- Ogen open.
+- Zonder bril.
+- Hoofd gecentreerd.
+- Volledig hoofd zichtbaar van bovenkant haar tot onderkant kin.
+- Achtergrond: effen lichtgekleurd of wit.
+- Geen schaduw op gezicht of achtergrond.
+- Geen rand om de foto.
+
+Praktische preflight:
+- [ ] Bestand opent normaal als JPEG.
+- [ ] Bestand is vierkant.
+- [ ] Bestandsgrootte ligt tussen 10 KB en 1 MB.
+- [ ] Geen bril.
+- [ ] Gezicht recht naar camera.
+- [ ] Ogen zichtbaar en open.
+- [ ] Geen schaduwen.
+- [ ] Achtergrond egaal en licht/wit.
+- [ ] Geen crop door haar/kin.
+- [ ] Geen rand/frame toegevoegd.
+- [ ] Foto is scherp genoeg om gezicht zonder twijfel te herkennen.
+
+## Paspoortscan — officiële eisen
+
+- Vereist: scanned Bio Page van paspoort waarop foto en persoonsgegevens zichtbaar zijn.
+- Formaat: PDF.
+- Bestandsgrootte: minimaal 10 KB, maximaal 300 KB.
+- Upload moet duidelijk zijn; onduidelijke of niet-conforme documenten kunnen tot afwijzing leiden.
+
+Praktische preflight:
+- [ ] Juiste paspoort gebruikt.
+- [ ] Volledige bio-pagina zichtbaar.
+- [ ] Foto zichtbaar.
+- [ ] Naam volledig leesbaar.
+- [ ] Geboortedatum leesbaar.
+- [ ] Nationaliteit leesbaar.
+- [ ] Paspoortnummer leesbaar.
+- [ ] Afgifte- en vervaldatum leesbaar.
+- [ ] Geen vingers, reflectie, onscherpte of afgesneden hoeken.
+- [ ] PDF opent normaal.
+- [ ] Bestandsgrootte 10–300 KB.
+
+## Paspoortvaliditeit / gebruik
+
+- Officiële e-Visa eligibility: paspoort moet bij het doen van de aanvraag ten minste 6 maanden geldig zijn.
+- Iedere reiziger moet een eigen paspoort hebben; e-Visa is niet beschikbaar voor personen die alleen op het paspoort van ouder/echtgenoot staan.
+- e-Visa is niet beschikbaar voor diplomatic/official passport holders of andere international travel documents dan een paspoort.
+- Reis in beginsel met het paspoort waarop de e-Visa is aangevraagd.
+- Volgens de officiële FAQ kan binnenkomst met een nieuw paspoort mogelijk zijn als ETA op het oude paspoort is afgegeven, mits zowel het nieuwe als het oude paspoort met de ETA wordt meegenomen.
+
+## Kritieke eindcontrole vóór submit
+
+Vergelijk de getypte velden rechtstreeks met de paspoortpagina:
+1. Achternaam.
+2. Voornamen.
+3. Geboortedatum.
+4. Nationaliteit.
+5. Paspoortnummer.
+6. Afgiftedatum.
+7. Vervaldatum.
+8. Geboorteplaats/-land voor zover formulier vraagt.
+
+De officiële FAQ legt verantwoordelijkheid voor discrepanties in naam, nationaliteit, paspoortnummer, geboortedatum en foto/self-image bij de aanvrager. Daarom niet vertrouwen op autofill zonder handmatige controle.
+
+## Officiële bronnen
+
+- https://indianvisaonline.gov.in/evisa/ — document requirements, foto- en PDF-specificaties, eligibility en FAQ; gecontroleerd 2026-08-19.
+- https://indianvisaonline.gov.in/ — Authorized Portal for Visa Application to India; gecontroleerd 2026-08-19.
+- https://www.mha.gov.in/en/commoncontent/e-visa — Ministry of Home Affairs e-Visa page; gecontroleerd 2026-08-19.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=16 path=runs/active/INDIABLAUW-VISA-READY-PACK-001/STATUS.md blob_sha=f5fc87840f40a2e347668b2bbb11036e79a320b6 original_offset=0 original_length=1987 payload_bytes=1987 chunk_index=0 chunk_count=1 classification=text
+# STATUS — INDIABLAUW-VISA-READY-PACK-001
+
+state: COMPLETE
+branch: agent/indiablauw-trip-ops-prep
+owner: INDIA BLAUW
+completed: 2026-08-19
+official_sources_rechecked: 2026-08-19
+source_policy: official Indian Government sources only for visa requirements
+
+outputs:
+  - VISA_APPLICATION_CHECKLIST.md
+  - VISA_FORM_FIELD_PREP.md
+  - PHOTO_PASSPORT_SPEC.md
+  - VISA_TIMING_RECOMMENDATION.md
+  - VISA_SCAM_GUARD.md
+  - VISA_READY_STATUS.md
+
+constraints_respected:
+  - visa_application_submitted: false
+  - personal_data_guessed_or_external_collected: false
+  - person_location_research: false
+  - route_or_hotel_choice: false
+  - destination_choice_for_mark: false
+  - pdf_created: false
+  - merge_or_pr: false
+
+key_verified_facts:
+  - Netherlands is e-Visa eligible.
+  - 1-year and 5-year e-Tourist Visa are multiple-entry options.
+  - For 1y/5y e-Tourist Visa the official application window is up to 120 days before proposed travel and minimum 4 days before arrival.
+  - For planned arrival 2026-12-18 the 120-day window opens 2026-08-20.
+  - Passport must have at least six months validity at time of e-Visa application.
+  - Photo: JPEG, 10 KB–1 MB, square, official face/background requirements apply.
+  - Passport bio page: PDF, 10–300 KB.
+  - Only official e-Visa application website: https://indianvisaonline.gov.in/evisa/ .
+
+blockers:
+  - Mark must choose the actual visa validity option when submitting; no choice was made on his behalf.
+  - Personal/family/employment/previous-visa data not already available must be entered by Mark and was not guessed.
+  - Arrival/exit port and any India reference must wait for real trip facts; no route/hotel placeholder was invented.
+  - Exact country-specific fee and live form wording must be rechecked on submission day because portal rules/fees can change.
+
+next_allowed_step: Mark can supply/verify his own application data and submit through the official portal once he chooses to do so; recheck official rules on submission day.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=17 path=runs/active/INDIABLAUW-VISA-READY-PACK-001/TASK.md blob_sha=b1e11287ce62e7f3a86d8c6e00336b6391201b17 original_offset=0 original_length=1728 payload_bytes=1728 chunk_index=0 chunk_count=1 classification=text
+# INDIA BLAUW — VISA READY PACK
+
+STATUS: READY
+OWNER: INDIA BLAUW
+GOAL: maak Mark visumaanvraag-klaar met zo min mogelijk latere handelingen, zonder de aanvraag zelf in te dienen.
+
+## Context
+Reis: Nederland -> India, beoogde aankomst 2026-12-18, vertrek 2027-01-21. Volgens de op 2026-08-19 geverifieerde officiële e-Visa-regels opent het 1y/5y e-Tourist Visa-aanvraagvenster op 2026-08-20.
+
+## Opdracht
+Gebruik uitsluitend actuele officiële Indiase bronnen voor vereisten. Maak:
+1. VISA_APPLICATION_CHECKLIST.md — exact welke gegevens/documenten Mark straks nodig heeft, met formaat/maat/validiteitsregels waar officieel gespecificeerd.
+2. VISA_FORM_FIELD_PREP.md — alle te verwachten formuliercategorieën/velden als invulblad; persoonsgegevens die niet in repo staan leeg laten, nooit raden.
+3. PHOTO_PASSPORT_SPEC.md — officiële foto/paspoortscanvereisten + praktische preflight-check.
+4. VISA_TIMING_RECOMMENDATION.md — verschil tussen 'kan vanaf 20-08', formele minimumgrens en praktisch verstandig aanvraagmoment; geen garantie op verwerkingstijd verzinnen.
+5. VISA_SCAM_GUARD.md — officiële domeinen, herkenning van tussenpersonen/fake sites, welke betaling/website alleen via officiële portal te vertrouwen is.
+6. VISA_READY_STATUS.md — wat nu al klaar kan, wat Mark later éénmalig zelf moet aanleveren/doen.
+
+## Grenzen
+- Dien geen visumaanvraag in.
+- Geen persoonsgegevens raden of verzamelen buiten wat reeds expliciet beschikbaar is.
+- Geen persoonslocatieonderzoek, route, hotel of A/B/C.
+- Geen PDF/merge/PR.
+- Citeer officiële bronnen met URL + checkdatum in de bestanden.
+
+Commit alle outputs op branch agent/indiablauw-trip-ops-prep en update een STATUS.md in deze taakmap naar COMPLETE.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=18 path=runs/active/INDIABLAUW-VISA-READY-PACK-001/VISA_APPLICATION_CHECKLIST.md blob_sha=cc8b759c4f156eaeeb154670c08cfc411d496068 original_offset=0 original_length=3937 payload_bytes=3937 chunk_index=0 chunk_count=1 classification=text
+# VISA APPLICATION CHECKLIST — INDIA BLAUW
+
+Checkdatum: 2026-08-19
+Reiscontext: Nederlandse reiziger; beoogde aankomst India 2026-12-18; vertrek 2027-01-21.
+Doel: voorbereid zijn op een e-Tourist Visa-aanvraag zonder de aanvraag nu in te dienen.
+
+## Officieel bevestigd
+
+- Nederland staat op de officiële lijst van nationaliteiten die e-Visa kunnen gebruiken.
+- Voor toerisme bestaan o.a. 30 dagen, 1 jaar en 5 jaar e-Tourist Visa.
+- 1 jaar en 5 jaar: multiple entry; maximale verblijfsduur in India in één kalenderjaar: 180 dagen.
+- Voor 1 jaar / 5 jaar e-Tourist Visa: aanvraag vanaf 120 dagen vóór de voorgestelde reisdatum en minimaal 4 dagen vóór aankomst.
+- Paspoort moet bij aanvraag minimaal 6 maanden geldig zijn.
+- Reiziger moet een retour- of onward-ticket hebben en voldoende middelen voor het verblijf.
+- Reizen moet gebeuren op het paspoort waarmee e-Visa is aangevraagd; als ETA op oud paspoort staat en een nieuw paspoort is uitgegeven, moeten volgens de FAQ beide worden meegenomen.
+- ETA moet vóór vertrek de status GRANTED tonen; een kopie van de ETA moet tijdens de reis worden meegenomen.
+- Biometrische gegevens worden bij immigratie bij aankomst afgenomen.
+
+## Klaarleggen vóór invullen
+
+- Geldig eigen Nederlands paspoort.
+- Exacte persoonsgegevens zoals op paspoort: achternaam, voornamen, geboortedatum, geboorteplaats/-land, nationaliteit, paspoortnummer, afgifteplaats/-datum, vervaldatum.
+- Actueel e-mailadres dat tijdens aanvraag en reis toegankelijk blijft.
+- Actueel woonadres en contactgegevens.
+- Gegevens over ouders en, indien van toepassing, echtgeno(o)t(e), zoals het formulier deze vraagt.
+- Beroeps-/werkgegevens zoals gevraagd door het formulier; nooit afkorten of gokken.
+- Gegevens van eventuele eerdere reizen naar India en eerdere Indiase visa/e-Visa's; als oudere visadetails echt niet meer beschikbaar zijn, staat de officiële FAQ toe passende tekst zoals NA / Not Available / Not Applicable te gebruiken.
+- Reisdoel: toerisme.
+- Beoogde aankomstdatum: 2026-12-18.
+- Verwachte vertrekdatum: 2027-01-21.
+- Aankomsthulpinformatie (poort/airport) pas invullen zodra feitelijk vaststaat; niet vooraf verzinnen.
+- Referentiegegevens die het actuele formulier vraagt pas met echte gegevens invullen.
+
+## Uploads
+
+### Digitale foto
+- JPEG.
+- 10 KB t/m 1 MB.
+- Hoogte en breedte gelijk.
+- Volledig gezicht, frontaal, ogen open, zonder bril.
+- Hoofd gecentreerd; volledig hoofd zichtbaar van haarlijn tot kin.
+- Effen lichtgekleurde of witte achtergrond.
+- Geen schaduwen op gezicht of achtergrond.
+- Geen rand.
+
+### Paspoort-bio page
+- Scan van de biografische paspoortpagina met foto en persoonsgegevens.
+- PDF.
+- 10 KB t/m 300 KB.
+- Duidelijk en volledig leesbaar.
+
+Voor een gewone e-Tourist aanvraag is de gescande bio-pagina het standaard vereiste document. Extra stukken gelden bij specifieke toeristische subdoelen, zoals een korte cursus, vrijwilligerswerk of mountaineering; alleen relevant indien feitelijk van toepassing.
+
+## Voor indienen nog één keer controleren
+
+- Naam, nationaliteit, paspoortnummer en geboortedatum exact tegen paspoort controleren.
+- Foto/self-image correct.
+- Geen oud/ander paspoortnummer gebruikt.
+- Alle antwoorden waarheidsgetrouw; formulier zelf invullen en verantwoordelijkheid nemen voor juistheid.
+- Uploads helder en binnen officiële limieten.
+- Betaalstatus controleren in officiële portal.
+- Na beslissing: alleen reizen als status GRANTED is.
+- ETA printen/bewaren.
+
+## Officiële bronnen
+
+1. Bureau of Immigration / Ministry of Home Affairs, e-Visa portal: https://indianvisaonline.gov.in/evisa/ — gecontroleerd 2026-08-19.
+2. Authorized India Visa Online portal: https://indianvisaonline.gov.in/ — gecontroleerd 2026-08-19.
+3. Ministry of Home Affairs e-Visa landing page: https://www.mha.gov.in/en/commoncontent/e-visa — gecontroleerd 2026-08-19.
+
+Geen aanvraag ingediend. Geen persoonsgegevens geraden of extern verzameld.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=19 path=runs/active/INDIABLAUW-VISA-READY-PACK-001/VISA_FORM_FIELD_PREP.md blob_sha=901c52b4c4de618b496edd862df20116a4fe932b original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# VISA FORM FIELD PREP — INDIA BLAUW
+
+Checkdatum: 2026-08-19
+Doel: invulblad voor de actuele officiële e-Visa-aanvraag. Persoonsgegevens die niet expliciet beschikbaar zijn blijven leeg; niets wordt geraden.
+
+LET OP: het live formulier kan velden dynamisch tonen op basis van eerdere antwoorden. Onderstaande categorieën zijn bedoeld als complete preflight op basis van de officiële e-Visa portal, officiële FAQ en het door de portal aangeboden Sample e-Visa Application. Controleer bij werkelijk indienen altijd het dan getoonde live formulier.
+
+## 1. Basis aanvraag
+
+- Nationality: Netherlands
+- Passport type: ____________________
+- Port of arrival / immigration check post: ____________________
+- Date of birth: ____________________
+- Email address: ____________________
+- Re-enter email address: ____________________
+- Expected date of arrival: 2026-12-18
+- Visa service / category: e-Tourist Visa
+- Subcategory / validity option: ____________________
+
+## 2. Applicant details
+
+- Surname exactly as passport: ____________________
+- Given name(s) exactly as passport: ____________________
+- Have you ever changed your name?: ____________________
+- Previous/other name, if applicable: ____________________
+- Sex: ____________________
+- Town/city of birth: ____________________
+- Country of birth: ____________________
+- Citizenship / national ID number if requested: ____________________
+- Religion: ____________________
+- Visible identification mark: ____________________
+- Educational qualification: ____________________
+- Nationality acquired by birth or naturalization: ____________________
+- Previous nationality, if applicable: ____________________
+
+## 3. Passport details
+
+- Passport number: ____________________
+- Place of issue: ____________________
+- Date of issue: ____________________
+- Date of expiry: ____________________
+- Any other valid passport / identity certificate held?: ____________________
+- If yes: country of issue, passport/IC number, date/place of issue, nationality/status: ____________________
+
+## 4. Address / contact
+
+Current address:
+- House/street: ____________________
+- Village/town/city: ____________________
+- State/province: ____________________
+- Postal/ZIP code: ____________________
+- Country: Netherlands
+- Phone/mobile: ____________________
+
+Permanent address, if different:
+- Address: ____________________
+- City: ____________________
+- State/province: ____________________
+- Country: ____________________
+
+## 5. Family details
+
+Father:
+- Name: ____________________
+- Nationality: ____________________
+- Previous nationality, if any: ____________________
+- Place of birth: ____________________
+- Country of birth: ____________________
+
+Mother:
+- Name: ____________________
+- Nationality: ____________________
+- Previous nationality, if any: ____________________
+- Place of birth: ____________________
+- Country of birth: ____________________
+
+Marital status: ____________________
+If married, spouse:
+- Name: ____________________
+- Nationality: ____________________
+- Previous nationality, if any: ____________________
+- Place of birth: ____________________
+- Country of birth: ____________________
+
+Pakistani-origin ancestry question(s), if shown in live form: answer strictly factually; details if applicable: ____________________
+
+## 6. Profession / occupation
+
+- Present occupation: ____________________
+- Employer/business name: ____________________
+- Designation: ____________________
+- Employer/business address: ____________________
+- Employer/business phone: ____________________
+- Past occupation, if asked: ____________________
+- Defence/military/security/police background, serving or retired?: ____________________
+- If yes, exact organization / designation / rank / place as requested: ____________________
+
+CRITICAL: de officiële e-Visa portal zegt dat een defence/military/security/police background (serving/retired) of een official/diplomatic passport niet in aanmerking komt voor e-Visa; dan regular visa gebruiken.
+
+## 7. Visa / travel details
+
+- Purpose: Tourism
+- Places likely to be visited, indien gevraagd: pas invull
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=20 path=runs/active/INDIABLAUW-VISA-READY-PACK-001/VISA_FORM_FIELD_PREP.md blob_sha=901c52b4c4de618b496edd862df20116a4fe932b original_offset=4096 original_length=2974 payload_bytes=2974 chunk_index=1 chunk_count=2 classification=text
+en nadat eigen reiskeuzes vaststaan: ____________________
+- Planned arrival date: 2026-12-18
+- Planned departure date: 2027-01-21
+- Port of arrival: ____________________
+- Expected port of exit, indien gevraagd: ____________________
+
+Eerdere India-reizen:
+- Ever visited India before?: ____________________
+- Previous address in India, indien van toepassing: ____________________
+- Cities/places visited: ____________________
+- Previous visa number: ____________________
+- Type of previous visa: ____________________
+- Place/date of issue: ____________________
+- Has permission to visit or extend stay in India ever been refused?: ____________________
+- Details if yes: ____________________
+
+Officiële FAQ: previous visa details zijn verplicht; als oude nummer/details werkelijk niet meer bekend zijn mag volgens de FAQ passende tekst zoals `NA`, `Not Available` of `Not Applicable` worden gebruikt.
+
+## 8. Internationale reishistorie
+
+- Countries visited in recent years / period requested by live form: ____________________
+- SAARC-country visit details, if shown: ____________________
+- Any relevant travel-history detail dynamically requested: ____________________
+
+Niet reconstrueren uit giswerk; alleen feitelijke gegevens invullen.
+
+## 9. References
+
+Reference in India, indien gevraagd:
+- Name: ____________________
+- Address: ____________________
+- Phone: ____________________
+
+Reference in Netherlands / home country:
+- Name: ____________________
+- Address: ____________________
+- Phone: ____________________
+
+Geen verzonnen hotel, contact of adres gebruiken om het formulier te vullen.
+
+## 10. Security / background declarations
+
+Het live formulier kan ja/nee-verklaringen tonen over o.a. strafrechtelijke veroordelingen/vervolging, deportatie/uitzetting, mensenhandel, drugs, terrorisme/geweld, cybercrime en andere veiligheids- of immigratiekwesties. Elk antwoord uitsluitend feitelijk geven en de actuele exacte vraagtekst op het formulier lezen vóór bevestigen.
+
+Security declarations prep / bijzonderheden: ____________________
+
+## 11. Upload / final declaration
+
+- JPEG-foto gereed: ____________________
+- Paspoort bio-page PDF gereed: ____________________
+- Alle gegevens tegen paspoort gecontroleerd: ____________________
+- Application ID na starten veilig opgeslagen: ____________________
+- Betaalstatus gecontroleerd: ____________________
+- ETA status na beslissing gecontroleerd: ____________________
+
+## Officiële bronnen
+
+1. https://indianvisaonline.gov.in/evisa/ — officiële Bureau of Immigration / Ministry of Home Affairs e-Visa portal; inclusief FAQ, document requirements en link naar Sample e-Visa Application; gecontroleerd 2026-08-19.
+2. https://indianvisaonline.gov.in/ — Authorized Portal for Visa Application to India; gecontroleerd 2026-08-19.
+3. https://www.mha.gov.in/en/commoncontent/e-visa — Ministry of Home Affairs e-Visa page; gecontroleerd 2026-08-19.
+
+Geen aanvraag ingediend; velden zijn alleen voorbereidingsvelden.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=21 path=runs/active/INDIABLAUW-VISA-READY-PACK-001/VISA_READY_STATUS.md blob_sha=719d366ee5502967c1f4485517be073b2ec6d23c original_offset=0 original_length=3130 payload_bytes=3130 chunk_index=0 chunk_count=1 classification=text
+# VISA READY STATUS — INDIA BLAUW
+
+Checkdatum: 2026-08-19
+Reis: Nederland -> India; aankomst 2026-12-18; vertrek 2027-01-21.
+
+## Nu al klaar / voorbereid
+
+- e-Visa eligibility voor Nederlands paspoort officieel bevestigd.
+- 1- en 5-jaars e-Tourist Visa als geschikte duurcategorieën voor een reis langer dan 30 dagen geïdentificeerd zonder namens Mark een keuze tussen 1/5 jaar te maken.
+- 120-dagen aanvraagvenster en minimaal 4 dagen vooraf officieel bevestigd.
+- Eerste formele aanvraagdatum voor aankomst 2026-12-18: 2026-08-20.
+- Foto-specificatie vastgelegd.
+- Paspoortscan-specificatie vastgelegd.
+- Formuliercategorieën voorbereid als invulblad.
+- Scam/agent guard vastgelegd.
+- Officiële portal en officiële support vastgelegd.
+- Operationeel voorkeursvenster voor aanvraag vastgelegd zonder verwerkingstijd te verzinnen.
+
+## Mark moet later éénmalig zelf aanleveren / doen
+
+1. Definitieve keuze maken tussen de op dat moment beschikbare relevante e-Tourist Visa-opties.
+2. Geldig paspoort bij de hand nemen en alle paspoortvelden exact controleren.
+3. Persoonsgegevens invullen die bewust niet in deze repo zijn geraden of extern verzameld.
+4. Familie-, beroep-, eerdere India-visum- en reishistorievelden feitelijk invullen waar het live formulier ze vraagt.
+5. Vierkante conforme JPEG-foto aanleveren.
+6. Duidelijke bio-pagina van paspoort als PDF 10–300 KB aanleveren.
+7. Alleen werkelijk gekozen reis-/arrival/referencegegevens invullen zodra die feitelijk vaststaan; geen placeholders als feiten indienen.
+8. Op dag van aanvraag de officiële regels opnieuw controleren.
+9. Aanvraag persoonlijk indienen via `https://indianvisaonline.gov.in/evisa/`.
+10. Processing fee via de officiële portal betalen.
+11. Application ID en bevestigingen bewaren.
+12. ETA-status op officiële portal controleren en alleen bij `GRANTED` reizen.
+13. ETA printen/bewaren en meenemen.
+14. Binnen 72 uur vóór aankomst de dan geldende officiële e-Arrival Card-regel opnieuw controleren en zo vereist via de officiële India Visa/Bureau of Immigration route invullen; dit staat los van het visum.
+
+## Nog bewust open
+
+- 1 jaar versus 5 jaar: keuze blijft bij Mark.
+- Port of arrival / exit: nog niet invullen zolang route niet vaststaat.
+- Reference in India: pas echte gegevens gebruiken wanneer deze beschikbaar en relevant zijn.
+- Exacte e-Visa fee: op aanvraagdag opnieuw via officiële country-specific fee-pagina controleren.
+- Live form kan dynamische velden of gewijzigde formulering tonen; daarom op submit-dag laatste vergelijking uitvoeren.
+
+## Ready-state
+
+`READY_FOR_USER_DATA_AND_SUBMISSION_WINDOW`
+
+Deze taak heeft alles voorbereid wat zonder het indienen van de aanvraag, zonder persoonsgegevens te raden en zonder route/hotel/bestemmingskeuzes kan worden voorbereid.
+
+## Officiële bronnen
+
+- https://indianvisaonline.gov.in/evisa/ — officiële e-Visa portal; gecontroleerd 2026-08-19.
+- https://indianvisaonline.gov.in/ — Authorized Portal for Visa Application to India; gecontroleerd 2026-08-19.
+- https://www.mha.gov.in/en/commoncontent/e-visa — Ministry of Home Affairs; gecontroleerd 2026-08-19.
+
+<<< END CHUNK >>>
+
