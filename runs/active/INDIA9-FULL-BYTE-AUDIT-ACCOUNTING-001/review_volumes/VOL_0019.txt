@@ -1,0 +1,467 @@
+>>> CHUNK stream_row=268 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/reconciliation_layers/EXTERNAL_114_RECONCILIATION_ROWS.jsonl blob_sha=2e4288036623478e60a0f11ee9f6cec45cebaf13 original_offset=118784 original_length=4096 payload_bytes=4096 chunk_index=29 chunk_count=37 classification=text
+ physical_identity=**EXACT** als site; outside_india=False", "disposition": "STILL_UNRESOLVED", "notes": "external-union-only claim, section A5; presence=**BETWIST**; physical_identity=**EXACT** als site; conflicts=Grok/Copilot zeggen bezocht; DeepSeek twijfelt; AI-5 stelt mogelijk alleen genoemd. Datum en daadwerkelijke aanwezigheid primair controleren.", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #90", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0091", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-91", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Ajanta Caves", "normalized_claim_name": "Ajanta Caves", "event_scene_summary": "Mogelijk bezoek tijdens tour", "AOAY_chapter_scene_if_any": "AY hfst. 41 (Grok, DeepSeek, Copilot; AI-5 negatieve audit)", "personally_present": "**BETWIST**", "R_class": "R4", "access_status": null, "physical_entity_key": "EY-91", "parent_entity_key": null, "current_address_or_locator": "Maharashtra", "evidence_status": "host=—; physical_identity=**EXACT** als site; outside_india=False", "disposition": "STILL_UNRESOLVED", "notes": "external-union-only claim, section A5; presence=**BETWIST**; physical_identity=**EXACT** als site; conflicts=Zelfde conflict als Ellora; “of beide of één” blijft open.", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #91", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0092", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-92", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Trivandrum/Travancore", "normalized_claim_name": "Trivandrum/Travancore", "event_scene_summary": "Genoemd in sommige pelgrimsroutes als Zuid-India-stop", "AOAY_chapter_scene_if_any": "Secundaire routes (AI-5 lead)", "personally_present": "**GEEN BEWIJS**", "R_class": null, "access_status": null, "physical_entity_key": "EY-92", "parent_entity_key": null, "current_address_or_locator": "Kerala", "evidence_status": "host=—; physical_identity=**ALLEEN PLAATS**; outside_india=False", "disposition": "NEGATIVE/NONPRESENCE", "notes": "external-union #92: **GEEN BEWIJS**; kept visible per no-silent-drop rule, not a real Yogananda-India location claim", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #92", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0093", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-93", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Kaap Comorin/Kanyakumari", "normalized_claim_name": "Kaap Comorin/Kanyakumari", "event_scene_summary": "Genoemd in sommige routes", "AOAY_chapter_scene_if_any": "Secundaire routes (AI-5 lead)", "personally_present": "**GEEN BEWIJS**", "R_class": null, "access_status": null, "physical_entity_key": "EY-93", "parent_entity_key": null, "current_address_or_locator": "Tamil Nadu", "evidence_status": "host=—; physical_identity=**ALLEEN PLAATS**; outside_india=False", "disposition": "NEGATIVE/NONPRESENCE", "notes": "external-union #93: **GEEN BEWIJS**; kept visible per no-silent-drop rule, not a real Yogananda-India location claim", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #93", "source_c
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=269 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/reconciliation_layers/EXTERNAL_114_RECONCILIATION_ROWS.jsonl blob_sha=2e4288036623478e60a0f11ee9f6cec45cebaf13 original_offset=122880 original_length=4096 payload_bytes=4096 chunk_index=30 chunk_count=37 classification=text
+ommit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0094", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-94", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Markt van Shimla/Simla", "normalized_claim_name": "Markt van Shimla/Simla", "event_scene_summary": "Stop; Sri Yukteswar kocht aardbeien, ca. 1918", "AOAY_chapter_scene_if_any": "AY hfst. 21 (Grok noemt stad; DeepSeek route; AI-5 microplek)", "personally_present": "**BEWEZEN**", "R_class": null, "access_status": null, "physical_entity_key": "BLAUW-AYC-SRC-054", "parent_entity_key": null, "current_address_or_locator": "Shimla, Himachal Pradesh", "evidence_status": "host=Sri Yukteswar; physical_identity=**DEELS**; outside_india=False", "disposition": "EXPLICIT_DUPLICATE", "notes": "external-union #94 'Markt van Shimla/Simla' already closed via BLAUW row AYC-SRC-054; not a second physical entity", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #94", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0095", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-95", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Amritsar doorreis", "normalized_claim_name": "Amritsar doorreis", "event_scene_summary": "Mogelijke tussenstop op Kashmir-route, ca. 1918", "AOAY_chapter_scene_if_any": "AY hfst. 21/kaartpagina (Grok, DeepSeek, AI-5)", "personally_present": "**ALLEEN PLAATS / BETWIST**", "R_class": null, "access_status": null, "physical_entity_key": "AOAY-AOAY-ATL-014", "parent_entity_key": null, "current_address_or_locator": "Amritsar, Punjab", "evidence_status": "host=Sri Yukteswar; physical_identity=**ALLEEN PLAATS**; outside_india=False", "disposition": "EXPLICIT_DUPLICATE", "notes": "external-union #95 'Amritsar doorreis' already represented via PLACE_ATLAS reconciliation row AT-0014; not a second physical entity", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #95", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0096", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-96", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Gouden Tempel", "normalized_claim_name": "Gouden Tempel", "event_scene_summary": "Vaak geassocieerd met route", "AOAY_chapter_scene_if_any": "Latere pelgrimsblog, niet Yogananda (Gemini-lead, AI-5 audit)", "personally_present": "**FOUTIEVE ASSOCIATIE / GEEN BEWIJS**", "R_class": null, "access_status": null, "physical_entity_key": "AOAY-AOAY-ATL-014", "parent_entity_key": null, "current_address_or_locator": "Amritsar, Punjab", "evidence_status": "host=—; physical_identity=**EXACT** als site; outside_india=False", "disposition": "EXPLICIT_DUPLICATE", "notes": "external-union #96 'Gouden Tempel' already represented via PLACE_ATLAS reconciliation row AT-0014; not a second physical entity", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #96", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0097", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_08
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=270 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/reconciliation_layers/EXTERNAL_114_RECONCILIATION_ROWS.jsonl blob_sha=2e4288036623478e60a0f11ee9f6cec45cebaf13 original_offset=126976 original_length=4096 payload_bytes=4096 chunk_index=31 chunk_count=37 classification=text
+6", "source_record_id": "EXTY-97", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Shankaracharya-tempel", "normalized_claim_name": "Shankaracharya-tempel", "event_scene_summary": "Extatische ervaring tijdens Kashmir-reis, ca. 1918", "AOAY_chapter_scene_if_any": "AY hfst. 21 (Grok, AI-5)", "personally_present": "**BEWEZEN**", "R_class": null, "access_status": null, "physical_entity_key": "BLAUW-AYC-SRC-047", "parent_entity_key": null, "current_address_or_locator": "Srinagar, Jammu en Kasjmir", "evidence_status": "host=Sri Yukteswar; physical_identity=**EXACT**; outside_india=False", "disposition": "EXPLICIT_DUPLICATE", "notes": "external-union #97 'Shankaracharya-tempel' already closed via BLAUW row AYC-SRC-047; not a second physical entity", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #97", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0098", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-98", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Onbenoemde dubbelverdiepingsherberg", "normalized_claim_name": "Onbenoemde dubbelverdiepingsherberg", "event_scene_summary": "Verblijf met uitzicht op heuvels", "AOAY_chapter_scene_if_any": "AY hfst. 21 (AI-5; Grok noemt overnachtingen onbekend)", "personally_present": "**BEWEZEN**", "R_class": null, "access_status": null, "physical_entity_key": "BLAUW-AYC-SRC-047", "parent_entity_key": null, "current_address_or_locator": "Srinagar, Jammu en Kasjmir", "evidence_status": "host=Reisgroep; physical_identity=**ALLEEN PLAATS**; outside_india=False", "disposition": "EXPLICIT_DUPLICATE", "notes": "external-union #98 'Onbenoemde dubbelverdiepingsherberg' already closed via BLAUW row AYC-SRC-047; not a second physical entity", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #98", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0099", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-99", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Gulmarg/Khilanmarg-pad", "normalized_claim_name": "Gulmarg/Khilanmarg-pad", "event_scene_summary": "Paardrijden/wedstrijd, ca. 1918", "AOAY_chapter_scene_if_any": "AY hfst. 21 (AI-5)", "personally_present": "**BEWEZEN**", "R_class": null, "access_status": null, "physical_entity_key": "BLAUW-AYC-SRC-049", "parent_entity_key": null, "current_address_or_locator": "Gulmarg, Jammu en Kasjmir", "evidence_status": "host=Reisgroep; physical_identity=**DEELS**; outside_india=False", "disposition": "EXPLICIT_DUPLICATE", "notes": "external-union #99 'Gulmarg/Khilanmarg-pad' already closed via BLAUW row AYC-SRC-049; not a second physical entity", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #99", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0100", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-100", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Dal Lake en drijvende tuinen", "normalized_claim_name": "Dal Lake en drijvende tuinen", "event_scene_summary": "Shikara-tocht, ca. 1918", "AOAY_chapter_scene_if_any": "AY hfst. 21 (AI-5; DeepSeek noemt mogelijke houseboats als lead)", "personally_present": "**BEWEZEN**",
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=271 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/reconciliation_layers/EXTERNAL_114_RECONCILIATION_ROWS.jsonl blob_sha=2e4288036623478e60a0f11ee9f6cec45cebaf13 original_offset=131072 original_length=4096 payload_bytes=4096 chunk_index=32 chunk_count=37 classification=text
+ "R_class": null, "access_status": null, "physical_entity_key": "BLAUW-AYC-SRC-047", "parent_entity_key": null, "current_address_or_locator": "Srinagar, Jammu en Kasjmir", "evidence_status": "host=Reisgroep; physical_identity=**ALLEEN PLAATS**; outside_india=False", "disposition": "EXPLICIT_DUPLICATE", "notes": "external-union #100 'Dal Lake en drijvende tuinen' already closed via BLAUW row AYC-SRC-047; not a second physical entity", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #100", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0101", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-101", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Shalimar Bagh", "normalized_claim_name": "Shalimar Bagh", "event_scene_summary": "Bezoek tijdens Kashmir-reis", "AOAY_chapter_scene_if_any": "AY hfst. 21 (AI-5)", "personally_present": "**BEWEZEN**", "R_class": null, "access_status": null, "physical_entity_key": "BLAUW-AYC-SRC-047", "parent_entity_key": null, "current_address_or_locator": "Srinagar, Jammu en Kasjmir", "evidence_status": "host=—; physical_identity=**EXACT**; outside_india=False", "disposition": "EXPLICIT_DUPLICATE", "notes": "external-union #101 'Shalimar Bagh' already closed via BLAUW row AYC-SRC-047; not a second physical entity", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #101", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0102", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-102", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Nishat Bagh", "normalized_claim_name": "Nishat Bagh", "event_scene_summary": "Bezoek tijdens Kashmir-reis", "AOAY_chapter_scene_if_any": "AY hfst. 21 (AI-5)", "personally_present": "**BEWEZEN**", "R_class": null, "access_status": null, "physical_entity_key": "BLAUW-AYC-SRC-047", "parent_entity_key": null, "current_address_or_locator": "Srinagar, Jammu en Kasjmir", "evidence_status": "host=—; physical_identity=**EXACT**; outside_india=False", "disposition": "EXPLICIT_DUPLICATE", "notes": "external-union #102 'Nishat Bagh' already closed via BLAUW row AYC-SRC-047; not a second physical entity", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #102", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0103", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-103", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Familiewoning Lahore", "normalized_claim_name": "Familiewoning Lahore", "event_scene_summary": "Wonen na overplaatsing vader; vliegers en amuletverhaal, ca. 1902–1904", "AOAY_chapter_scene_if_any": "AY hfst. 1 (DeepSeek-lead, AI-5)", "personally_present": "**BEWEZEN** voor stad", "R_class": null, "access_status": null, "physical_entity_key": "AOAY-AOAY-ATL-012", "parent_entity_key": null, "current_address_or_locator": "Lahore, Pakistan", "evidence_status": "host=Familie; physical_identity=**ALLEEN PLAATS**; outside_india=True", "disposition": "EXPLICIT_DUPLICATE", "notes": "external-union #103 'Familiewoning Lahore' already represented via PLACE_ATLAS reconciliation row AT-0012; not a second physical entity", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.m
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=272 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/reconciliation_layers/EXTERNAL_114_RECONCILIATION_ROWS.jsonl blob_sha=2e4288036623478e60a0f11ee9f6cec45cebaf13 original_offset=135168 original_length=4096 payload_bytes=4096 chunk_index=33 chunk_count=37 classification=text
+d (blob 089b652e) #103", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0104", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-104", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Chittagong-haven en heuvels", "normalized_claim_name": "Chittagong-haven en heuvels", "event_scene_summary": "Bezoek aan vader; wandeling naar haven/heuvels, mei–juli 1906", "AOAY_chapter_scene_if_any": "*Mejda* via YSS (AI-5)", "personally_present": "**BEWEZEN** volgens broer-memoire", "R_class": "R3", "access_status": null, "physical_entity_key": "EY-104", "parent_entity_key": null, "current_address_or_locator": "Chattogram, Bangladesh", "evidence_status": "host=Vader; physical_identity=**DEELS**; outside_india=True", "disposition": "PHYSICAL_ENTITY_LINKED", "notes": "external-union-only claim, section A7; presence=**BEWEZEN** volgens broer-memoire; physical_identity=**DEELS**; conflicts=Namen ontbreken; steunt niet op AY. Buiten huidige India-scope.", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #104", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0105", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-105", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Rawalpindi vertrekpunt", "normalized_claim_name": "Rawalpindi vertrekpunt", "event_scene_summary": "Huurde landau voor Kashmir-reis, ca. 1918", "AOAY_chapter_scene_if_any": "AY hfst. 21 (Grok, DeepSeek, AI-5)", "personally_present": "**BEWEZEN** voor stad", "R_class": "R4", "access_status": null, "physical_entity_key": "EY-105", "parent_entity_key": null, "current_address_or_locator": "Rawalpindi, Pakistan", "evidence_status": "host=Reisgroep/Sri Yukteswar; physical_identity=**ALLEEN PLAATS**; outside_india=True", "disposition": "STILL_UNRESOLVED", "notes": "external-union-only claim, section A7; presence=**BEWEZEN** voor stad; physical_identity=**ALLEEN PLAATS**; conflicts=Exact station/plein onbekend; buiten huidige India-scope.", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #105", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0106", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-106", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Babaji's Cave / Dwarahat", "normalized_claim_name": "Babaji's Cave / Dwarahat", "event_scene_summary": "Plaats van Lahiri Mahasaya–Babaji-verhaal; later YSS-pelgrimsoord", "AOAY_chapter_scene_if_any": "Grok, DeepSeek en AI-5 sluiten uit; latere ashram ontstond na Yogananda.", "personally_present": "**FOUTIEVE ASSOCIATIE / GEEN YOGANANDA-BEZOEK BEWEZEN**", "R_class": null, "access_status": null, "physical_entity_key": "EY-106", "parent_entity_key": null, "current_address_or_locator": "Uttarakhand", "evidence_status": "host=n/a; physical_identity=n/a; outside_india=False", "disposition": "NEGATIVE/NONPRESENCE", "notes": "external-union #106 (section A8, explicit negative/foutieve associatie): Plaats van Lahiri Mahasaya–Babaji-verhaal; later YSS-pelgrimsoord; status=**FOUTIEVE ASSOCIATIE / GEEN YOGANANDA-BEZOEK BEWEZEN**; bron=Grok, DeepSeek en AI-5 sluiten uit; latere ashram ontstond na Yogananda.; kept visible per no-silent-drop rule, forced NEGATIVE regardless of any inc
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=273 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/reconciliation_layers/EXTERNAL_114_RECONCILIATION_ROWS.jsonl blob_sha=2e4288036623478e60a0f11ee9f6cec45cebaf13 original_offset=139264 original_length=4096 payload_bytes=4096 chunk_index=34 chunk_count=37 classification=text
+idental keyword overlap with a real BLAUW/atlas entity name -- must not be merged into a real physical entity", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #106", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0107", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-107", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Ranikhet", "normalized_claim_name": "Ranikhet", "event_scene_summary": "Lahiri Mahasaya/Babaji-context", "AOAY_chapter_scene_if_any": "DeepSeek negatieve lijst; geen Yogananda-bezoek.", "personally_present": "**FOUTIEVE ASSOCIATIE**", "R_class": null, "access_status": null, "physical_entity_key": "EY-107", "parent_entity_key": null, "current_address_or_locator": "Uttarakhand", "evidence_status": "host=n/a; physical_identity=n/a; outside_india=False", "disposition": "NEGATIVE/NONPRESENCE", "notes": "external-union #107 (section A8, explicit negative/foutieve associatie): Lahiri Mahasaya/Babaji-context; status=**FOUTIEVE ASSOCIATIE**; bron=DeepSeek negatieve lijst; geen Yogananda-bezoek.; kept visible per no-silent-drop rule, forced NEGATIVE regardless of any incidental keyword overlap with a real BLAUW/atlas entity name -- must not be merged into a real physical entity", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #107", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0108", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-108", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Moradabad", "normalized_claim_name": "Moradabad", "event_scene_summary": "Babaji verscheen hier volgens verhaal over Lahiri", "AOAY_chapter_scene_if_any": "DeepSeek negatieve lijst.", "personally_present": "**FOUTIEVE ASSOCIATIE**", "R_class": null, "access_status": null, "physical_entity_key": "EY-108", "parent_entity_key": null, "current_address_or_locator": "Uttar Pradesh", "evidence_status": "host=n/a; physical_identity=n/a; outside_india=False", "disposition": "NEGATIVE/NONPRESENCE", "notes": "external-union #108 (section A8, explicit negative/foutieve associatie): Babaji verscheen hier volgens verhaal over Lahiri; status=**FOUTIEVE ASSOCIATIE**; bron=DeepSeek negatieve lijst.; kept visible per no-silent-drop rule, forced NEGATIVE regardless of any incidental keyword overlap with a real BLAUW/atlas entity name -- must not be merged into a real physical entity", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #108", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0109", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-109", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Ghurni", "normalized_claim_name": "Ghurni", "event_scene_summary": "Geboorteplaats Lahiri Mahasaya", "AOAY_chapter_scene_if_any": "DeepSeek negatieve lijst.", "personally_present": "**FOUTIEVE ASSOCIATIE**", "R_class": null, "access_status": null, "physical_entity_key": "EY-109", "parent_entity_key": null, "current_address_or_locator": "West-Bengalen", "evidence_status": "host=n/a; physical_identity=n/a; outside_india=False", "disposition": "NEGATIVE/NONPRESENCE", "notes": "external-union #109 (section A8, explicit negative/foutieve associatie): Geboorte
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=274 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/reconciliation_layers/EXTERNAL_114_RECONCILIATION_ROWS.jsonl blob_sha=2e4288036623478e60a0f11ee9f6cec45cebaf13 original_offset=143360 original_length=4096 payload_bytes=4096 chunk_index=35 chunk_count=37 classification=text
+plaats Lahiri Mahasaya; status=**FOUTIEVE ASSOCIATIE**; bron=DeepSeek negatieve lijst.; kept visible per no-silent-drop rule, forced NEGATIVE regardless of any incidental keyword overlap with a real BLAUW/atlas entity name -- must not be merged into a real physical entity", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #109", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0110", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-110", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Madura/Madurai", "normalized_claim_name": "Madura/Madurai", "event_scene_summary": "Verhaal over Sadasiva of Zuid-India-overzicht", "AOAY_chapter_scene_if_any": "DeepSeek en AI-5 waarschuwen dat noemen niet hetzelfde is als bezoeken.", "personally_present": "**ALLEEN GENOEMD / GEEN BEWIJS**", "R_class": null, "access_status": null, "physical_entity_key": "EY-110", "parent_entity_key": null, "current_address_or_locator": "Tamil Nadu", "evidence_status": "host=n/a; physical_identity=n/a; outside_india=False", "disposition": "NEGATIVE/NONPRESENCE", "notes": "external-union #110 (section A8, explicit negative/foutieve associatie): Verhaal over Sadasiva of Zuid-India-overzicht; status=**ALLEEN GENOEMD / GEEN BEWIJS**; bron=DeepSeek en AI-5 waarschuwen dat noemen niet hetzelfde is als bezoeken.; kept visible per no-silent-drop rule, forced NEGATIVE regardless of any incidental keyword overlap with a real BLAUW/atlas entity name -- must not be merged into a real physical entity", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #110", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0111", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-111", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Taxila", "normalized_claim_name": "Taxila", "event_scene_summary": "Historische verwijzing naar Alexander", "AOAY_chapter_scene_if_any": "DeepSeek negatieve lijst; buiten India en niet Yogananda's reis.", "personally_present": "**FOUTIEVE ASSOCIATIE**", "R_class": null, "access_status": null, "physical_entity_key": "EY-111", "parent_entity_key": null, "current_address_or_locator": "Pakistan", "evidence_status": "host=n/a; physical_identity=n/a; outside_india=False", "disposition": "NEGATIVE/NONPRESENCE", "notes": "external-union #111 (section A8, explicit negative/foutieve associatie): Historische verwijzing naar Alexander; status=**FOUTIEVE ASSOCIATIE**; bron=DeepSeek negatieve lijst; buiten India en niet Yogananda's reis.; kept visible per no-silent-drop rule, forced NEGATIVE regardless of any incidental keyword overlap with a real BLAUW/atlas entity name -- must not be merged into a real physical entity", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #111", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0112", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-112", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Dehradun-hermitage Anandamoyi Ma", "normalized_claim_name": "Dehradun-hermitage Anandamoyi Ma", "event_scene_summary": "Anandamoyi Ma reisde erheen", "AOAY_chapter_scene_if_any": "AI-5: Yogananda zag haar vertrekken vanaf Serampore-station; geen eig
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=275 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/reconciliation_layers/EXTERNAL_114_RECONCILIATION_ROWS.jsonl blob_sha=2e4288036623478e60a0f11ee9f6cec45cebaf13 original_offset=147456 original_length=4021 payload_bytes=4021 chunk_index=36 chunk_count=37 classification=text
+en bezoek. Grok onderschrijft negatieve bevinding.", "personally_present": "**FOUTIEVE ASSOCIATIE / GEEN BEWIJS**", "R_class": null, "access_status": null, "physical_entity_key": "EY-112", "parent_entity_key": null, "current_address_or_locator": "Dehradun, Uttarakhand", "evidence_status": "host=n/a; physical_identity=n/a; outside_india=False", "disposition": "NEGATIVE/NONPRESENCE", "notes": "external-union #112 (section A8, explicit negative/foutieve associatie): Anandamoyi Ma reisde erheen; status=**FOUTIEVE ASSOCIATIE / GEEN BEWIJS**; bron=AI-5: Yogananda zag haar vertrekken vanaf Serampore-station; geen eigen bezoek. Grok onderschrijft negatieve bevinding.; kept visible per no-silent-drop rule, forced NEGATIVE regardless of any incidental keyword overlap with a real BLAUW/atlas entity name -- must not be merged into a real physical entity", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #112", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0113", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-113", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Belur Math", "normalized_claim_name": "Belur Math", "event_scene_summary": "Algemene spirituele associatie", "AOAY_chapter_scene_if_any": "AI-5 negatieve audit.", "personally_present": "**GEEN GEDOCUMENTEERD BEZOEK**", "R_class": null, "access_status": null, "physical_entity_key": "EY-113", "parent_entity_key": null, "current_address_or_locator": "Howrah, West-Bengalen", "evidence_status": "host=n/a; physical_identity=n/a; outside_india=False", "disposition": "NEGATIVE/NONPRESENCE", "notes": "external-union #113 (section A8, explicit negative/foutieve associatie): Algemene spirituele associatie; status=**GEEN GEDOCUMENTEERD BEZOEK**; bron=AI-5 negatieve audit.; kept visible per no-silent-drop rule, forced NEGATIVE regardless of any incidental keyword overlap with a real BLAUW/atlas entity name -- must not be merged into a real physical entity", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #113", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0114", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-114", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Afgezegde eerste Kashmir-reis", "normalized_claim_name": "Afgezegde eerste Kashmir-reis", "event_scene_summary": "Geplande maar door cholera geannuleerde reis", "AOAY_chapter_scene_if_any": "AY hfst. 20 “We Do Not Visit Kashmir” (AI-5). De latere reis in #94–105 vond wel plaats.", "personally_present": "**GEEN LOCATIEBEZOEK**", "R_class": null, "access_status": null, "physical_entity_key": "EY-114", "parent_entity_key": null, "current_address_or_locator": "Kashmir-route", "evidence_status": "host=n/a; physical_identity=n/a; outside_india=False", "disposition": "NEGATIVE/NONPRESENCE", "notes": "external-union #114 (section A8, explicit negative/foutieve associatie): Geplande maar door cholera geannuleerde reis; status=**GEEN LOCATIEBEZOEK**; bron=AY hfst. 20 “We Do Not Visit Kashmir” (AI-5). De latere reis in #94–105 vond wel plaats.; kept visible per no-silent-drop rule, forced NEGATIVE regardless of any incidental keyword overlap with a real BLAUW/atlas entity name -- must not be merged into a real physical entity", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #114", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=276 path=india4/scripts/validate_detector_library.py blob_sha=2e7400fdbe31bb4b559c69e6ab86e09437741fc3 original_offset=0 original_length=3038 payload_bytes=3038 chunk_index=0 chunk_count=1 classification=text
+#!/usr/bin/env python3
+"""Valideert india4/registries/DETECTOR_LIBRARY.jsonl (INDIA2-architectuurbesluit, 2026-08-02).
+
+Regel: elke detector heeft een immutable detector_id, een geldige status
+(PROVISIONAL/ACTIVE/RETIRED) en, indien parent_detector_id gezet is, verwijst dat naar een
+bestaande detector_id in dezelfde bibliotheek.
+
+Deze validator blokkeert (exit-code 1) wanneer:
+1. een detector_id dubbel voorkomt;
+2. een verplicht veld ontbreekt;
+3. status geen geldige waarde heeft;
+4. parent_detector_id verwijst naar een niet-bestaande detector_id;
+5. een detector met status ACTIVE of RETIRED geen approved_by heeft (canonieke status vereist
+   goedkeuring door INDIA2/ChatGPT als architect).
+
+Gebruik:
+    python3 india4/scripts/validate_detector_library.py
+Exit code 0 = alles geldig, 1 = een of meer fouten (details op stdout).
+"""
+import json
+import sys
+from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+LIBRARY = REPO_ROOT / "india4" / "registries" / "DETECTOR_LIBRARY.jsonl"
+
+REQUIRED_FIELDS = [
+    "detector_id", "name", "definition", "purpose", "trigger_conditions",
+    "exclusion_conditions", "required_source_families", "applicability_facets",
+    "discovered_in_run", "status", "created_at",
+]
+VALID_STATUS = {"PROVISIONAL", "ACTIVE", "RETIRED"}
+
+
+def load_jsonl(path):
+    out = []
+    if not path.exists():
+        return out
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            out.append(json.loads(line))
+    return out
+
+
+def main():
+    rows = load_jsonl(LIBRARY)
+    detectors = [r for r in rows if "detector_id" in r]
+    errors = []
+
+    seen_ids = {}
+    for d in detectors:
+        did = d["detector_id"]
+        if did in seen_ids:
+            errors.append(f"detector_id DUBBEL: {did}")
+        seen_ids[did] = d
+
+    for d in detectors:
+        did = d.get("detector_id", "<geen id>")
+        missing = [f for f in REQUIRED_FIELDS if f not in d]
+        if missing:
+            errors.append(f"{did}: ontbrekende verplichte velden: {missing}")
+
+        status = d.get("status")
+        if status not in VALID_STATUS:
+            errors.append(f"{did}: ongeldige status {status!r}, verwacht een van {VALID_STATUS}")
+
+        parent = d.get("parent_detector_id")
+        if parent and parent not in seen_ids:
+            errors.append(f"{did}: parent_detector_id {parent!r} verwijst naar onbekende detector")
+
+        if status in ("ACTIVE", "RETIRED") and not d.get("approved_by"):
+            errors.append(f"{did}: status {status} vereist approved_by (canonieke wijziging, "
+                           f"uitsluitend door INDIA2/ChatGPT als architect)")
+
+    if errors:
+        print(f"VALIDATIE MISLUKT -- {len(errors)} probleem/problemen:\n")
+        for e in errors:
+            print(f"  - {e}")
+        sys.exit(1)
+
+    print(f"VALIDATIE OK -- {len(detectors)} detectoren gecontroleerd, geen fouten.")
+    sys.exit(0)
+
+
+if __name__ == "__main__":
+    main()
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=277 path=india5/schemas/knowledge_gate.schema.json blob_sha=2ff33f5d66e42c645b7b3377171b7b9c28139415 original_offset=0 original_length=1784 payload_bytes=1784 chunk_index=0 chunk_count=1 classification=text
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "india5/schemas/knowledge_gate.schema.json",
+  "title": "INDIA5 KNOWLEDGE_GATE_REVIEW",
+  "description": "Machineleesbare rubriek voor CCI-kennis/capability-gates (INDIA5-ARCH-HARDEN-002). Vervangt het beoordelen van vrijgave op basis van één lange prose-comment door een vaste, vergelijkbare checklist.",
+  "type": "object",
+  "required": ["gate_id", "reviewed_at", "reviewed_by", "items", "overall_verdict"],
+  "properties": {
+    "gate_id": {"type": "string"},
+    "reviewed_at": {"type": "string", "format": "date-time"},
+    "reviewed_by": {"type": "string"},
+    "items": {
+      "type": "array",
+      "description": "Minimaal de vaste onderwerpenlijst uit INDIA5-PR23-KNOWLEDGE-GATE-002 Deel 5; extra onderwerpen mogen worden toegevoegd, geen mogen ontbreken.",
+      "items": {
+        "type": "object",
+        "required": ["topic", "verdict", "evidence_path", "notes"],
+        "properties": {
+          "topic": {"type": "string"},
+          "verdict": {"type": "string", "enum": ["PASS", "FAIL", "PARTIAL", "NOT_APPLICABLE"]},
+          "evidence_path": {
+            "type": "string",
+            "description": "Repo-relatief pad + optioneel commit-SHA dat het verdict onderbouwt. 'NOT_PROVEN_IN_GITHUB' toegestaan als letterlijke waarde wanneer er geen bewijs bestaat."
+          },
+          "notes": {"type": "string"}
+        }
+      },
+      "minItems": 1
+    },
+    "overall_verdict": {
+      "type": "string",
+      "enum": ["READY", "NOT_READY", "READY_WITH_CONDITIONS"]
+    },
+    "conditions": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Verplicht niet-leeg wanneer overall_verdict = READY_WITH_CONDITIONS."
+    }
+  },
+  "additionalProperties": true
+}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=278 path=runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/DELTA_REVIEW_2026-08-08.md blob_sha=3006c8b6d6525705534336492ee102fbcbb0db23 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# Bodh Gaya — DELTA-review voor Mark (2026-08-08)
+
+*Alleen de kandidaten die daadwerkelijk keuze-relevant veranderd zijn sinds jouw vorige A/B/C-
+keuze (bericht 053). De overige 17 blijven ongewijzigd vastgelegd — die krijg je hier niet
+opnieuw voorgelegd. Dit is een eenmalig praktisch hulpmiddel voor deze correctieronde (bericht
+061), geen permanente canonregel — zie `governance/ACTIVE_STATE.md`, `INGETROKKEN_CANONPOGING`.
+Volledige achtergrond per kandidaat blijft staan in `PRE_PDF_CONTENT.md` als je wilt doorlezen;
+dat is nu naslag, geen verplicht leesstuk.*
+
+**Waarom slechts 3, en niet 4**: de reconciliatie (bericht 058, `PRE_BRONS/AOAY_TOP11_AUDIT.md`)
+raakte vier kandidaten (046, 051, 061, 074). Kandidaat **046** is bewust NIET opgenomen: die staat
+al onvoorwaardelijk op **A**, op eigen kracht (de verlichtingsplek zelf + Sri Yukteswars
+AOAY-bevestigde inwijding). Eén van de vier claims daar (dat Ramakrishna zelf Bodh Gaya bezocht)
+bleek bij hercontrole fout en is ingetrokken — maar geen enkele vondst of correctie op 046 kan die
+A-status veranderen, dus er valt voor jou niets te herbeslissen. Zie de volledige uitleg in
+`PRE_PDF_CONTENT.md` bij kandidaat 046 als je de correctie zelf wilt lezen.
+
+---
+
+## 051 — Vishnupad Temple, Gaya
+
+**Vorige keuze**: C
+
+**WAT IS NIEUW sinds die keuze**: twee dingen. (1) Anandamayi Ma (uit je persoonlijke Top-11) woonde
+op 18 oktober 1956 de Arti bij in DEZE tempel en bezocht dezelfde dag ook Bodh Gaya. (2) Ramakrishna
+zelf kwam hier nooit — hij weigerde bewust — maar zijn vader Kshudiram kreeg hier in 1835 een visioen
+van Gadadhar (Vishnu, de god van deze tempel) die beloofde als zijn zoon geboren te worden. Vandaar
+Ramakrishna's geboortenaam "Gadadhar". (Punt 2 is een correctie: eerder stond hier ten onrechte dat
+Ramakrishna zelf Bodh Gaya bezocht — dat was fout en is ingetrokken; dít is de juiste link.)
+
+**Waarom dit mogelijk keuze-relevant is**: dit is niet langer alleen "een singulier hindoe-relict",
+maar een tempel met TWEE eigen Top-11-verbindingen — precies het soort link dat bij andere
+kandidaten (046) al tot A leidde.
+
+**Nieuwe context (kort)**: toegang blijft beperkt voor niet-hindoes (alleen omgeving, niet het
+voetspoor/tempelinterieur zelf) — dat is ongewijzigd.
+
+**Jouw keuze**: ⬜ A ⬜ B ⬜ C (nieuw) ⬜ oude keuze (C) behouden
+
+---
+
+## 061 — Burmese Vihara
+
+**Vorige keuze**: C
+
+**WAT IS NIEUW sinds die keuze**: Ram Dass (Top-11) studeerde in januari 1971 Vipassana onder S.N.
+Goenka in Bodh Gaya — mogelijk in dit gebouw. Twee cursussen liepen vlak na elkaar: Samanvaya
+Ashram (24-12-1970 t/m 3-1-1971, nu kandidaat 074) en Burmese Vihara (4 t/m 14-1-1971, deze
+kandidaat). Joseph Goldstein, die met Ram Dass in dezelfde groep van zes Amerikanen zat, woonde in
+die periode zelf in de Burmese Vihara — een reëel maar niet doorslaggevend signaal.
+
+**Waarom dit mogelijk keuze-relevant is**: een nieuwe, potentiële Top-11-link die er bij jouw
+vorige C-keuze nog niet was.
+
+**Nieuwe context (kort)**: met de beschikbare bronnen NIET vast te stellen of dit gebouw of 074 de
+juiste plek was — zie ook 074 hieronder, dezelfde onzekerheid geldt daar.
+
+**Jouw keuze**: ⬜ A ⬜ B ⬜ C (nieuw) ⬜ oude keuze (C) behouden
+
+---
+
+## 074 — Dhamma Bodhi / Samanvaya Ashram
+
+**Vorige keuze**: C
+
+**WAT IS NIEUW sinds die keuze**: de Ram Dass-link zelf was al bekend (bericht 054), maar de
+datum was fout — dat is nu gecorrigeerd naar januari 1971 (was ten onrechte "winter 1969-70").
+Belangrijker: het is niet langer zeker dat dit de juiste plek is — zie 061 hierboven, dezelfde
+Ram Dass-cursus kan ook daar geweest zijn.
+
+**Waarom dit mogelijk keuze-relevant is**: de eerdere, schijnbaar zekere Top-11-link aan exact
+deze plek is nu gedeeld met 061 — minder zeker dan het leek toen dit voor het eerst gemeld werd.
+
+**Nieuwe context (kort)**: toegang blijft uitsluitend via een volledige 10-daagse cursus —
+ongewijzigd.
+
+**Jouw keuze**: ⬜ A ⬜ B ⬜ C (nieuw) ⬜ oude keuze (C) behouden
+
+---
+
+*Zodra je (via INDIA6 of direct hier op de PR) voor alle drie hebt aangeg
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=279 path=runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/DELTA_REVIEW_2026-08-08.md blob_sha=3006c8b6d6525705534336492ee102fbcbb0db23 original_offset=4096 original_length=427 payload_bytes=427 chunk_index=1 chunk_count=2 classification=text
+even wat je kiest, legt
+CCI de besluiten vast en kan een geconsolideerde V2-PDF worden voorbereid — niet eerder.
+`PDF_STATUS: VERBODEN` blijft van kracht totdat een apart, letterlijk `PDF_GO: JA` volgt.*
+
+---
+Geschreven door: CCI, op verzoek van INDIA6 (PR #23, bericht 061 — eenmalig praktisch hulpmiddel
+voor deze correctieronde, geen permanente canonregel). Geen PDF, geen route/pacing, geen A/B/C
+ingevuld namens Mark.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=280 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/FEED_INDIABLAUW_AOAY_YOGANANDA_COMPLETE.md blob_sha=307c62632b6ded52311a6e679f79edae206170e7 original_offset=0 original_length=1770 payload_bytes=1770 chunk_index=0 chunk_count=1 classification=text
+# FEED — INDIABLAUW AOAY/YOGANANDA LOCATION CLOSURE
+
+Date: 2026-08-20
+Source branch: `agent/indiablauw-trip-ops-prep`
+Task: `INDIABLAUW-AOAY-YOGANANDA-LOCATION-CLOSURE-001`
+State: COMPLETE
+
+## ACCOUNTING
+- 58 source records
+- 58 entity mappings
+- 0 silent drops
+
+## SOURCE OUTPUT COMMITS
+- AOAY_YOGANANDA_SOURCE_RECORDS.jsonl — `18d472cce9f145187a1ca6e3071fbf62eaf529fe`
+- AOAY_YOGANANDA_ENTITY_CANDIDATES.jsonl — `7e60302cf46cd2380e1fae03978a14706d23ae9f`
+- AOAY_YOGANANDA_R4_R5_CLOSURE.md — `7122f85dad8e3d0710e48df83ee72eae56b5d5d2`
+- AOAY_YOGANANDA_ACCESS_MATRIX.md — `90d14cb6bcbdd7e88c4c83ee3e7bfa0084ac67d6`
+- STATUS COMPLETE — `58854d1840147b8ae2f1eff42b310e417cb5d836`
+
+## HIGH-VALUE CLOSURES
+- Haridwar AOAY chapter 4 split into station, detention-bungalow, and not-reached Rishikesh.
+- Vrindavan AOAY chapter 11 explicitly includes Madanamohana Temple.
+- Keshabananda historical Vrindavan location resolved to Katayani Peith Ashram.
+- Regent Hotel Bombay historical scene fixed to third-floor room context; modern same-name hotel is NOT assumed continuous.
+- Bhaduri house linked to Nagendra Math successor continuity.
+- Serampore Rai Ghat Lane linked to present Smriti Mandir continuity.
+- Mysore/Bangalore halls and Kashmir microsites kept separately.
+
+## STILL R4/R5 / DO NOT DROP
+Pranabananda Benares residence; exact Rana Mahal house; Bareilly bungalow; Srinagar inn; Giri Bala house; Satish Delhi residence; Regent Hotel modern continuity unresolved.
+
+## CENTRAL ACTION
+Ingest this feed into ALL_FINDINGS_LOCATION_MASTER. Do not wait for other colors. Preserve all 58 mappings. Feed newly physical R1-R3 candidates to ZILVER proximity/new-ID staging and TURQUOISE entity-overlap reconciliation. R4/R5 remain in global unresolved accounting.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=281 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/VRINDAVAN_MARK_DECISIONS.md blob_sha=311f180cbde6bb6a0e4c260ca02ad26d576c2db0 original_offset=0 original_length=1381 payload_bytes=1381 chunk_index=0 chunk_count=1 classification=text
+# VRINDAVAN / BRAJ — MARK DECISIONS
+
+Status: IN_PROGRESS
+Date: 2026-08-20
+
+## 1. Vrindavan Railway Station — A
+- Person/layer: Paramahansa Yogananda / AOAY.
+- Mark decision: A.
+- Decision rationale: historic arrival/departure point from the 'two penniless boys' episode is personally meaningful; Mark especially values the likely original arrival-platform context.
+- Precision note: historical station location strongly continuous; later station had one platform. Exact survival of the circa-1910/1912 platform fabric is not yet proven and must never be invented. Recheck physical survival/access before travel.
+
+## 2. Madan Mohan Temple — A
+- Person/layer: Paramahansa Yogananda / AOAY.
+- Mark decision: A.
+- Decision rationale: exact named AOAY temple location; Mark definitely wants to visit.
+- Physical status: R1 exact existing site.
+- Travel intent: suitable for an intentional AOAY visit, potentially reading the relevant chapter/scene and spending time at the site.
+
+## Pending
+3. Kriya initiation spot near Vrindavan station — undecided.
+4. Keshabananda hermitage / Katyayani Peeth area — undecided.
+5. Samb Sadashiv Kunj — undecided.
+6. Neem Karoli Baba Vrindavan Ashram — undecided.
+
+Presentation preference recorded: future choices must use visually prominent large headings per numbered location so Mark can scroll back and distinguish locations easily.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=282 path=decisions/TOP11_SWEEP_DEPTH_BY_PERSON_2026-08-18.md blob_sha=31ad2f4fe7d86876dde3e7ed1f871a3d22f95743 original_offset=0 original_length=3898 payload_bytes=3898 chunk_index=0 chunk_count=1 classification=text
+# BESLUIT — TOP-11 sweepdiepte per persoon
+
+Datum: 2026-08-18
+Beslist door: Mark
+Status: LOCKED_BY_MARK
+
+## Hoofdregel
+Niet iedere naam uit de oorspronkelijke Top-11 krijgt automatisch een landelijke exhaustieve METHOD_V2 deep sweep.
+
+De projectvolgorde blijft voor de personen die wél deep-sweepwaardig zijn:
+`LANDELIJKE PERSONEN-SWEEPS -> CLUSTERHEATMAP -> REGIONALE CLUSTERSWEEPS -> MARK A/B/C -> ROUTE`.
+
+## LOCKED_BY_MARK — volledige landelijke METHOD_V2 deep sweep
+Mark wil voor deze personen/lijnen WEL de volledige person-centric deep sweep:
+
+1. **Paramahansa Yogananda** — volledige deep sweep; externe benchmark/reconciliatie reeds uitgevoerd.
+2. **Lahiri Mahasaya** — volledige deep sweep.
+3. **Sri Yukteswar** — volledige deep sweep.
+4. **Neem Karoli Baba** — volledige deep sweep.
+5. **Ram Dass** — volledige deep sweep; gekoppelde netwerk-/locatielaag met Neem Karoli Baba waar relevant, maar fysieke locaties afzonderlijk bewaren.
+6. **Ramana Maharshi** — volledige deep sweep; belangrijk voor latere Tiruvannamalai/Arunachala A-clusteranalyse.
+7. **Ramakrishna** — volledige deep sweep. Mark beschouwt hem als een van de groten en vindt hem nu ondervertegenwoordigd. Reiswens: bij voorkeur minstens één wezenlijke Ramakrishna-locatie bezoeken als dat logisch in de uiteindelijke route past; geen harde omwegverplichting als dat praktisch niet past.
+
+Dit is Marks kernset voor exhaustieve landelijke persoonsdetectie, naast bestaand/lopend werk.
+
+### Mahavatar Babaji
+CCI_TASK 087 bevat al een volledige METHOD_V2-sweep voor Mahavatar Babaji samen met Lahiri Mahasaya en Sri Yukteswar. Dat lopende werk wordt niet geschrapt of ingekort.
+
+### Anandamayi Ma
+Anandamayi Ma heeft al een uitzonderlijk brede benchmark/source-first/externe-union behandeling gehad. Niet opnieuw vanaf nul uitvoeren; bestaande resultaten blijven input voor landelijke kaart en clusters.
+
+## LOCKED_BY_MARK — targeted-only, GEEN landelijke exhaustieve deep sweep
+
+### Vivekananda
+- GEEN landelijke exhaustieve person-centric deep sweep.
+- Alleen de grootste / belangrijkste fysieke locaties bewaren en later gericht verifiëren voor mogelijke reisopname.
+- Geen long-tail huizen, reisstops, lezingen, hotels of volledige hostgraph najagen alleen om completeness te claimen.
+
+### Hariharananda
+- GEEN landelijke exhaustieve person-centric deep sweep.
+- Alleen de grootste / belangrijkste fysieke locaties bewaren en later gericht verifiëren voor mogelijke reisopname.
+- Geen long-tail completeness-onderzoek tenzij Mark dit later expliciet heropent.
+
+## Gevolg voor benchmarkregel
+`EXTERNAL_MULTI_AI_MANDATORY_FOR_REMAINING_TOP11: JA` blijft gelden voor personen die daadwerkelijk als volledige METHOD_V2 deep sweep worden uitgevoerd.
+
+Daarmee is de verplichte externe adversarial laag in ieder geval van toepassing op:
+- Lahiri Mahasaya;
+- Sri Yukteswar;
+- Neem Karoli Baba;
+- Ram Dass;
+- Ramana Maharshi;
+- Ramakrishna;
+- en op andere personen die later alsnog full-deep worden verklaard.
+
+Voor targeted-only personen volstaat later een compacte major-site audit met bronverificatie en, waar nuttig, een beperkte adversarial controle om een voor de reis belangrijke hoofdlocatie niet te missen.
+
+## Lopend werk
+CCI_TASK 087 (Babaji + Lahiri Mahasaya + Sri Yukteswar) wordt door dit besluit niet gewijzigd.
+
+Na 087 + externe reconciliatie zijn de volgende expliciete full-deep personen logisch:
+1. Neem Karoli Baba + Ram Dass, waar mogelijk parallel maar onafhankelijk genoeg om conflaties te vermijden.
+2. Ramana Maharshi.
+3. Ramakrishna.
+
+Daarna: landelijke resultaten samenbrengen -> clusterheatmap -> regionale clustersweeps.
+
+## Correcte lineage-notitie
+Vivekananda was een discipel van Ramakrishna, niet van Ramana Maharshi. Dit verandert Marks besluit niet: Vivekananda krijgt alleen major-site behandeling, terwijl Ramakrishna zelf wel volledig person-centric wordt gesweept.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=283 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/REGIONAL/TRAVEL/README.md blob_sha=31cd26d163bea24c234a1abe6763c3b73cc77542 original_offset=0 original_length=1559 payload_bytes=1559 chunk_index=0 chunk_count=1 classification=text
+# Varanasi TRAVEL-module
+
+run_id: VARANASI-GEO-DELIVERY-REPAIR-001
+status: KLAAR. Op basis van de definitieve dataset (40/40 besloten), Marks A/B/C-keuzes en het
+LOCKED_BY_MARK-hotelbesluit. Geen nieuw kandidaatonderzoek, geen A/B/C-wijziging.
+
+## Bestanden
+
+- `DAGROUTES.md` -- dagblokken A-D, en de combinaties voor 2, 3 en 4 dagen, vertrek/eind bij de
+  hotelbasis.
+- `AARTI_EN_BOOT.md` -- Ganga Aarti (Dashashwamedh, avond) en Subah-e-Banaras (Assi Ghat, ochtend)
+  tijden, plus bootmomenten.
+- `PRAKTISCHE_TIPS.md` -- weer/kleding, ghats/rivier, vervoer, geld, gezondheid, respect/gedrag.
+- `RESTAURANTS.md` -- compacte selectie rond Assi Ghat/hotelbasis (informatief, geen GEO-
+  kandidaatverificatie).
+
+## Integratie
+
+- **KML**: `USER/VARANASI_40_KANDIDATEN.kml` heeft een nieuwe folder "Travel -- dagroutes (Dagblok
+  A-D)" met per dagblok een route-lijn (LineString) langs de bestaande kandidaatcoordinaten, in
+  bezoekvolgorde. Geen nieuwe coordinaten toegevoegd; de hotelbasis heeft geen geverifieerde
+  marker en staat daarom niet als lijnstartpunt.
+- **PDF**: NIET bijgewerkt in deze ronde. Mark heeft expliciet gevraagd te stoppen met het
+  (her)bouwen van de PDF -- die regel staat nu in `INDIA5-PROTOCOL.md` ("PDF is eenmalig — NIET
+  automatisch herbouwen"). De CCI-travel-opdracht noemde PDF-integratie als punt 8; dat is
+  hiermee in tegenspraak met de net daarvoor gegeven, zeer expliciete stop-instructie. Dit is
+  bewust NIET stilzwijgend opgelost -- zie het bijbehorende eindrapport, waarin dit expliciet aan
+  Mark wordt voorgelegd.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=284 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/ZILVER/ZILVER-TESTSWEEP-022-040.jsonl blob_sha=31e06bc16b109e035c8cdb075744e1c24a69a270 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=10 classification=text
+{"candidate_id": "VNS-CAND-022", "canonical_name": "Bindu Madhav Temple", "status": "NEEDS_REVIEW", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "research_status": "COMPLETED_UNRESOLVED", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "old_comparison": {"latitude": 25.3187, "longitude": 83.0125, "geo_status": "WORKING_GOOGLE_MAPS_PIN", "use": "COMPARISON_ONLY"}, "identity_check": {"matched_place": "Sri Bindu Madhava Perumal Temple / Bindu Madhav Mandir, Panchganga Ghat", "address": "Sri Bindu Madhava Perumal Temple, Panch Ganga Ghat, Ratan Phatak, Ghasi Tola, Varanasi, Uttar Pradesh 221001, India", "physical_identity": "CONFIRMED", "marker_identity": "NOT_EXACTLY_EXTRACTED"}, "zilver_check": {"public_google_maps_marker_used": false, "marker_matches_physical_place": null, "nearby_substitute_check": "OK -- geen nabijgelegen organisatie/wijk/gebouw verward met de kandidaat, adres en context consistent met de kandidaatnaam", "coordinates_exactly_from_marker": false, "uncertainty_honestly_marked": true}, "correction": null, "evidence": [{"url": "https://kashi.gov.in/listing-details/bindu-madhav-temple", "supports": "Official Varanasi district government listing confirms name, Vishnu-temple identity and Panchganga Ghat location"}, {"url": "https://www.sribindumadhav.org/", "supports": "Institutional/temple site confirms identity and address at Panch Ganga Ghat, Ratan Phatak, Ghasi Tola"}, {"url": "https://wanderlog.com/place/details/5004119/bindu-madhav-temple-varanasi", "supports": "Google-derived listing corroborates name, place type and Panchganga Ghat context"}], "reason": "De kandidaat is geidentificeerd als de Bindu Madhav-tempel (Vishnu) direct aan Panchganga Ghat, bevestigd door een officiele overheids-listing en de eigen tempelinstitutie. Geen publieke Google Maps-plaatslink met ingesloten marker-coordinaat kon worden vastgesteld; het oude vergelijkingscoordinaat is niet hergebruikt als eindpunt.", "brons_source": "BRONS-B03.jsonl", "checked_at": "2026-08-02"}
+{"candidate_id": "VNS-CAND-023", "canonical_name": "Mrityunjay Mahadev Temple", "status": "NEEDS_REVIEW", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "research_status": "COMPLETED_UNRESOLVED", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "old_comparison": {"latitude": 25.3291, "longitude": 83.0056, "geo_status": "WORKING_GOOGLE_MAPS_PIN", "use": "COMPARISON_ONLY"}, "identity_check": {"matched_place": "Mrityunjay Mahadev Mandir", "address": "Maha Mritunjay Rd, Bagh, Daranagar, Kotwali, Varanasi, Uttar Pradesh 221001, India (alt: K52/39 Daranagar Visheshwarganj)", "physical_identity": "CONFIRMED", "marker_identity": "NOT_EXACTLY_EXTRACTED"}, "zilver_check": {"public_google_maps_marker_used": false, "marker_matches_physical_place": null, "nearby_substitute_check": "OK -- geen nabijgelegen organisatie/wijk/gebouw verward met de kandidaat, adres en context consistent met de kandidaatnaam", "coordinates_exactly_from_marker": false, "uncertainty_honestly_marked": true}, "correction": null, "evidence": [{"url": "https://en.wikipedia.org/wiki/Mrityunjay_Mahadev_Mandir", "supports": "Encyclopedic entry confirms identity, Daranagar/Bagh locality, and gives an independent coordinate 25.317645,82.973914 (not a Google Maps marker extraction)"}, {"url": "https://temple.yatradham.org/temple/mrityunjay-mahadev-mandir", "supports": "Confirms temple identity and Daranagar Visheshwarganj address"}, {"url": "https://varanasitemples.in/category/shiva-temples/main-shiva-temples/mrityunjay-mahadev/", "supports": "Dedicated Varanasi temple reference confirms identity and Shiva-temple type"}], "reason": "Fysieke identiteit bevestigd via meerdere onafhankelijke bronnen op Daranagar/Bagh, Kotwali. LET OP voor ZILVER/GOUD: de Wikipedia-coordinaat (25.317645,82.973914) ligt ca. 3 km van het oude vergelijkingscoordinaat (25.3291,83.0056) -- dit is geen Google Maps-marker en dus geen eindpunt, maar het verschil is groot genoeg om apart te vermelden in het correctierapport. G
+<<< END CHUNK >>>
+

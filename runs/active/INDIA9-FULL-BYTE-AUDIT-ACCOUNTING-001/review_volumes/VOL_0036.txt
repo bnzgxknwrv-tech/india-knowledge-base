@@ -1,0 +1,800 @@
+>>> CHUNK stream_row=531 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/GLOBAL_UNRESOLVED_QUEUE_SEED.md blob_sha=689246791b7ddded06dcf47026068acca4569259 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# GLOBAL UNRESOLVED LOCATION QUEUE — SEED
+
+Date: 2026-08-20
+Status: SEED_FROM_RECONCILED_FINDINGS — must expand losslessly during source-record ingestion.
+
+This is NOT a filtered shortlist. It is the first explicit queue of already-known findings that still need physical identity / continuity / access resolution. Hard cases remain visible.
+
+## PRIORITY 1 — AOAY / YOGANANDA PERSONAL SCENES
+- Vrindavan/Brindaban chapter 11: reconstruct every physical stop in `Two Penniless Boys in Brindaban` beyond the already identifiable named sites; preserve unknown hermitage/tree/station-area teaching scene separately until proven same/different.
+- Keshabananda Brindaban ashram/hermitage: resolve historical property to current physical site/continuity/access.
+- Allahabad/Prayagraj Kumbh 1936: event is real; resolve best historically defensible localized zone without inventing a lost tent position.
+- Haridwar chapter-4 Yogananda event: city/event proven; resolve the smallest defensible physical route/micro-site.
+- All Yogananda host-house/private-address records from the external 114-union that were not building-level closed, especially resident-name-only locations.
+- Any AOAY scene represented only by broad city/place in the 123-place atlas but with recoverable house, room, hotel, temple, ghat, station or host identity in the underlying 1,359 occurrences.
+
+## PRIORITY 2 — BABAJI / KRIYA HIGH-WEIGHT
+### Mahavatar Babaji traditions
+- Badrinarayan-region broad claim: best defensible localized landscape only; do not force false precision.
+- 1861 Dunagiri/Drongiri tradition: reconcile Dunagiri cave, YSS Pandukholi cave, Gogash riverbank, golden-palace scene and Harapriya Devi temple into separate physical/tradition entities with explicit relationship.
+- Kumbh Allahabad 1894: bridge + tree / feet-washing episodes — identify best historical Kumbh/Sangam localization; no invented exact tree.
+- Rai Ghat banyan and Lahiri salon/threshold: resolve current physical continuity.
+- Keshabananda cave and other Himalayan camp/cliff records: resolve only to best defensible small zone if exact meters are impossible.
+- Sri M/Nath-tradition records: Neelkant Hill, Mauni Baba cave, Panar/Kakbhusundi Tal, Kedarnath secret path, Jaisalmer — preserve as distinct claimant tradition and resolve geography/access separately.
+
+### Lahiri Mahasaya
+- Ghurni original birthplace: historic location reportedly lost to river change; resolve successor/memorial/localized R2/R3 rather than dropping.
+- Historic PWD offices/posts: Benares, Ghazipur, Mirzapur, Nainital, Danapur, Buxar, Gorakhpur — identify actual historic/current properties where reasonably possible.
+- Moradabad host house / Babaji-call scene.
+- Panchganga Ghat ashram / Trailanga Swami meeting.
+- Rana Mahal Ghat brick episode and Krishnaram house/courtyard.
+- Keshabananda Hardwar hermitage and Keshabananda Benares room.
+- Panchanon Bhattacharya Calcutta house.
+- Pranabananda postmortem-appearance city/site currently unknown.
+- Ramnagar palace tutoring context: resolve exact palace/property and evidence.
+
+### Sri Yukteswar
+- Panthi boardinghouse.
+- Albert Hall.
+- Srinagar inn.
+- Regent Hotel Bombay: historic hotel identity/current successor/access, with third-floor resurrection-vision context.
+- Rana Mahal mother's residence.
+- rich disciple/maharaja house (Hare Krishna Ghosh context).
+- Goswami family house Serampore.
+- Santal guru hut / mountain jungle.
+- Dabru Ballav forest hermitage, eastern Bengal.
+- Puri astrologer Chandrakanta Shiromani location.
+- Narendranath Basu house, Jeletola Street.
+- Pranabashram Benares.
+- Tulsi Bose house / Sadhana Mandir.
+- Ghatal and Khukurdaha festival grounds.
+- Ganga Sagar Mela camp.
+
+## PRIORITY 3 — SAME-SITE / MULTI-PERSON AND HERITAGE STAYS
+- Hotel Evelyn, Nainital: historical Ram Dass stay and `top-floor small cave room`; determine current building, bookability and best room-level continuity without inventing a modern room number.
+- Jaipuria Bhawan, Vrindavan: map 1971-72 Ram Dass stay to present property/rooms and current bookability.
+- 4 Church Lane, P
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=532 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/GLOBAL_UNRESOLVED_QUEUE_SEED.md blob_sha=689246791b7ddded06dcf47026068acca4569259 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+rayagraj: current private property identity/access; separately preserve Maharaj-ji's room as a sublocation.
+- K.K. Sah home, Nainital: exact historic/current house identity and access.
+- Ram Dass room(s) at Kainchi, including 1967 and 2004 ground-floor/back-room sublocations: distinguish what can still be identified.
+- Anandamayi Ma host-house/room records wherever current lodging or preserved room is plausible.
+- Hariharananda rented Puri seashore house before Karar Ashram: historically attested, exact identity unresolved; must no longer be hidden by the earlier targeted-list exclusion.
+
+## PRIORITY 4 — NKB / RAM DASS UNRESOLVED MICRO-SITES
+### Neem Karoli Baba
+- final-journey chain: departure, stations, Agra host house, doctor/clinic, Mathura station steps/outdoor-latrine area, Ramakrishna Mission Hospital room if recoverable, transfer to Vrindavan.
+- Old Allahabad Mukerjee house before 4 Church Lane.
+- Prabhudatt Brahmachari ashram, Allahabad current exact institution/property.
+- flood-side Hanuman temple/Ganges bank, Allahabad.
+- private Bareilly / Kanpur / Agra host houses not yet building-level closed.
+- Badrinath sage hut/cow-shed area.
+- South-India Sindhi Dharmsala room(s), Vaishnavi Devi and Veerapuram sublocations.
+
+### Ram Dass
+- Srinagar houseboat `New Ruby`: historical/current vessel identity if recoverable.
+- Amarnath base camp for 1967 trip.
+- Dharamsala/McLeod Ganj: memoir's `Swarg Ashram` / Dalai Lama headquarters naming, Dalai Lama brother guesthouse, mother/sister residence-charity site, repair shop.
+- British Consulate, American Express, vegetarian restaurant/alley, Kumar Gallery and other historical Delhi offices/venues.
+- Harish Johari family home, Bareilly.
+- Varanasi small hotel near Manikarnika.
+- unnamed Bhagavan Das pilgrimage dharamshalas.
+- unnamed Hanuman-devotee family house before first Maharaj-ji meeting.
+- Bombay soccer stadium for Muktananda rally.
+- Trivedi house / Ganeshpuri sublocations.
+- reclining Hanuman temple near Sangam: test Bade/Lete Hanuman Ji identity directly; do not assume.
+- unnamed South-India temple-town room during Muktananda yatra.
+- Surat meditation cave complex.
+- Kausani rented/retreat house.
+- Haldwani/Ghaziabad mechanic sites only if presence itself survives verification.
+- Vrindavan sacred garden described as Krishna/Radha dance garden: resolve Nidhivan/Seva Kunj possibilities from source wording.
+
+## PRIORITY 5 — RAMANA / RAMAKRISHNA LONG TAIL
+### Ramana Maharshi
+- Scott's/American Mission School historical building continuity.
+- grandfather's house near temple car.
+- Kandaswami hut / rock spring.
+- giripradakshina microcluster: Unnamulai tank, Sona Tirtham, Gautama Ashram, Venamma mango tree, Adi Annamalai side path and other external-only microstops — verify one by one.
+- banyan/hornet-sting route: localize to best defensible route/tree zone; exact ancient tree may be impossible.
+- Ramanasramam external sublocations: ensure each distinct physical micro-site is not collapsed merely because it lies in one complex.
+
+### Ramakrishna
+- Puri-road pilgrim shelter near Kamarpukur.
+- old/private Kolkata devotee-house network: the external detector has about 80 granular records; must be expanded one by one rather than retained as one aggregate row.
+- Nahabat / Sambhu Charan Mallick garden house-dispensary continuity.
+- poor village by Deoghar.
+- golden Annapurna shrine identity.
+- Fouzdar Kunj upper room/veranda access in Vrindavan.
+- Ganga Mata hut within/near Nidhivan.
+- Navadwip visit remains only place-level: attempt occurrence-level sites.
+- Jayagopal Sen house: Belgharia vs Mathaghasa occurrence distinction.
+- Mati Seal garden reservoir: place retained; date conflict already corrected to 1883 in reconciliation.
+- cremation/ghat and Kalpataru sublocations around Cossipore must stay separate where physically distinct.
+
+## PRIORITY 6 — ANANDAMAYI MA
+The external 156-union plus official source-first chronology contain a very large host/guest/location tail. Every union/source-first item must eventually receive an entity/disposition link. High-weight unresolv
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=533 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/GLOBAL_UNRESOLVED_QUEUE_SEED.md blob_sha=689246791b7ddded06dcf47026068acca4569259 original_offset=8192 original_length=1072 payload_bytes=1072 chunk_index=2 chunk_count=3 classification=text
+ed classes include:
+- private host houses and preserved rooms;
+- dharamshalas and royal residences;
+- sanatoria;
+- Delhi official/private residences;
+- Allahabad host houses and ashrams;
+- Haridwar/Kankhal/Rishikesh host/stay sites;
+- Vrindavan stays/ashrams;
+- South-India host houses/huts;
+- final-period Dehradun residences.
+The 108 source-first listed additions are NOT to be treated as already deduplicated against the external 156.
+
+## TARGETED PERSON GUARDRAIL
+Vivekananda and Hariharananda remain targeted-only by Mark decision. Do not launch a new exhaustive nationwide sweep. However every location that those targeted sweeps ALREADY FOUND, including an unresolved one mentioned in exclusions/limitations, must remain visible in the master ledger.
+
+## EXIT CONDITION
+This seed is complete only when each item is either:
+- mapped to R1/R2/R3 physical entity + access status;
+- proven duplicate with traceable source links;
+- proven non-presence/false claim;
+- or remains R4/R5 with documented exhausted search route.
+No row may vanish because it is inconvenient.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=534 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/REGIONAL/TRAVEL/AARTI_EN_BOOT.md blob_sha=6893760b7558d39f0b953ee61421def00181bf95 original_offset=0 original_length=2821 payload_bytes=2821 chunk_index=0 chunk_count=1 classification=text
+# Varanasi -- bootmomenten en Aarti-planning
+
+run_id: VARANASI-GEO-DELIVERY-REPAIR-001
+status: TRAVEL-module. Tijden zijn seizoensindicatief (bron: websearch augustus 2026,
+zie bronnen onderaan) en GEEN GEO-geverifieerd kandidaatgegeven -- controleer lokaal bij het
+hotel (Sahi River View Guesthouse / Jitendre) vlak voor vertrek, tijden kunnen enkele minuten
+schuiven met het seizoen en weer.
+
+## Ganga Aarti -- Dashashwamedh Ghat (hoofdceremonie, avond)
+
+- Tijd: zomer/moesson (april-september, dus ook augustus) start rond **18:45-19:00**, duurt ca.
+  45 minuten. 's Winters (oktober-maart) rond 17:45.
+- Uitgevoerd door zeven priesters synchroon, dagelijkse traditie.
+- Praktisch: 40 minuten van tevoren aanwezig zijn voor een goede plek; drukte kan hoog oplopen.
+  Alternatief: vanaf een boot op de rivier kijken (rustiger, iets duurder, vooraf regelen).
+- Ligt op Dagblok B (oude stad/ghats) -- logisch te combineren met het einde van die dag.
+
+## Subah-e-Banaras -- Assi Ghat (ochtendceremonie, vlak bij de hotelbasis)
+
+- Tijd: zomer/moesson rond **05:00** (ca. 04:45-05:45), 's winters rond 05:30 (ca. 05:30-06:15).
+- Dagelijks gratis cultureel ochtendprogramma: yoga, klassieke muziek (sitar/tabla), Ganga Aarti
+  bij zonsopgang, Panchbhuta-ceremonie.
+- Voordeel: begint letterlijk bij de hotelbasis (Assi Ghat) -- geen vervoer nodig, goed te
+  combineren met de start van Dagblok A.
+
+## Bootmomenten
+
+- **Zonsopgang-boottocht (aanbevolen)**: vanaf de ghats bij/nabij Assi noordwaarts langs de
+  ghats-reeks tot Dashashwamedh/Manikarnika, aansluitend op Dagblok B. Rustige rivier, goed licht,
+  minder druk dan overdag. Bootjes onderhandelbaar per uur bij de ghats, geen vaste GEO-marker
+  beschikbaar voor een specifieke aanlegsteiger (praktische keuze ter plekke).
+- **Avond-bootrit tijdens de Ganga Aarti**: alternatief voor een plek op de trappen bij
+  Dashashwamedh Ghat -- vanaf het water toekijken, vooraf te regelen bij een bootverhuurder op de
+  ghat.
+
+## Bronnen (websearch, augustus 2026, uitsluitend voor deze praktische travel-module -- geen
+kandidaat-GEO-verificatie)
+
+- [Ganga Aarti Dashashwamedh Ghat | Daily Timing Guide - 2026](https://pikme.org/activity/attractions/ganga-aarti-timing-dashashwamedh-ghat)
+- [Ganga Aarti Timing Varanasi 2026 | Varanasi Guru](https://www.varanasiguru.com/ganga-aarti-timing-varanasi/)
+- [Dashashwamedh Ghat Aarti Timing 2026 - Ayodhya Varanasi Tourism](https://ayodhyavaranasitourism.com/dashashwamedh-ghat-aarti-timing-varanasi/)
+- [Subah-e-Banaras — Morning Aarti, Timings & Sunrise Experience at Assi Ghat - Roobaroo Walks](https://roobaroowalks.com/subah-e-banaras-morning-aarti-timings-sunrise-experience-at-assi-ghat/)
+- [Assi Ghat Aarti Time 2026: Morning & Evening Timings Today - Kashi Taxi](https://www.kashitaxi.in/en/assi-ghat-aarti-timings-2026)
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=535 path=runs/active/YOGANANDA-ANANDAMAYI-PHOTO-LOCATION-001/STATUS.md blob_sha=692c806468bc9b1da704ddd8d0f938bfc1259c74 original_offset=0 original_length=1960 payload_bytes=1960 chunk_index=0 chunk_count=1 classification=text
+# STATUS — YOGANANDA-ANANDAMAYI-PHOTO-LOCATION-001
+
+```
+task_id: YOGANANDA-ANANDAMAYI-PHOTO-LOCATION-001
+state: RESULT_KLAAR__TWEE_SITES_ONDERSCHEIDEN__WACHT_OP_INDIA
+task_file: runs/active/YOGANANDA-ANANDAMAYI-PHOTO-LOCATION-001/TASK.md
+result_file: runs/active/YOGANANDA-ANANDAMAYI-PHOTO-LOCATION-001/RESULT.md
+last_updated: 2026-08-16
+last_updated_by: CCI
+```
+
+**blockers**: geen harde blocker; wel `BRON_GEBLOKKEERD` op Gurupriya Devi's dagboek-PDF (gescand,
+geen tekstlaag, OCR nog niet uitgevoerd).
+
+**Belangrijkste bevinding**: de werkhypothese uit TASK.md (tuinfoto hoort bij de Bhowanipur/Calcutta-
+ontmoeting) is bij directe lezing van AOAY hoofdstuk 45 **onjuist gebleken**. AOAY beschrijft
+expliciet drie gescheiden gebeurtenissen: (1) Bhowanipur/Calcutta straatontmoeting, december 1935 —
+Bholanath hier expliciet fysiek aangewezen, GEEN fotografie vermeld; (2) Ranchi Vidyalaya-tuin,
+later — expliciet "many photographs", Bholanath hier NIET vermeld; (3) Serampore station, maanden
+later, kort afscheid, geen fotografie.
+
+**Conclusie**: geen enkelvoudig antwoord. **Ranchi (Old Hazaribag Road, Ranchi, Jharkhand;
+reeds bekend als `ATL-PY-005`) = `VISITABLE_EXACT_SITE`** voor de bronmatig zekerste,
+meervoudig-bevestigde fotosessie — bestaat nog, publiek toegankelijk. **Bhowanipur, Calcutta =
+`HISTORIC_SITE_NOT_IDENTIFIED` op adresniveau** (wel wijkniveau bevestigd); dit is waarschijnlijk
+de plek van de bekende Bholanath-foto (op basis van zijn bevestigde aanwezigheid daar in AOAY),
+maar geen exact huis/gastheer gevonden. Volledige redenering + brontabel in `RESULT.md`.
+
+**next_allowed_step**: STOP hier voor INDIA-richting. Mogelijke vervolgstap: OCR/handmatige
+inspectie van Gurupriya Devi's dagboek voor het exacte Bhowanipur-adres, en visuele inspectie van
+de originele foto (garden vs. straatdecor) om de Calcutta/Ranchi-toewijzing van de Bholanath-foto
+verder te bevestigen. Geen permanente locatie-ID, geen A/B/C, geen PDF.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=536 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/SATURATION_ACCEPTANCE.md blob_sha=6932148e556ec8609086f1b5c6854eb5d6f2c58b original_offset=0 original_length=896 payload_bytes=896 chunk_index=0 chunk_count=1 classification=text
+# SATURATION_ACCEPTANCE — Bodh Gaya
+
+Retroactieve, machine-checkbare vastlegging van een besluit dat al eerder in PR #23 werd genomen
+(INDIA6 bericht 028: "SATURATED = JA geaccepteerd"), nu geformaliseerd volgens het token-formaat
+van `governance/SWEEP_PROTOCOL.md` poort K, zodat `governance/scripts/preflight_validator.py`
+dit structureel kan vinden.
+
+Saturatiebewijs: `SATURATION_REPORT.md`, `SATURATION_REPORT_002.md`,
+`SATURATION_REPORT_003_ADDENDUM.md` (alle drie in deze map).
+
+INDIA_ACCEPTED_SATURATION: JA
+
+Geaccepteerd door: de toenmalige INDIA-regisseursessie (label INDIA6), PR #23, bericht 028,
+2026-08-06. Rolgebaseerd vastgelegd — niet afhankelijk van die specifieke sessienaam.
+
+---
+Geschreven door: CCI, tijdens de governance-canonverplaatsing (PR #23, bericht 034). Geen PDF,
+geen nieuwe regionale sweep, geen A/B/C, geen route/pacing. `PDF_STATUS: VERBODEN` gerespecteerd.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=537 path=india4/templates/GOUD_PDF_TEMPLATE.md blob_sha=698f32857d5d288dee14bb0e3b46ede6a7533f8a original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# INDIA5 GOUD-PDF-TEMPLATE (VERPLICHT vanaf 2026-08-02)
+
+status: VERPLICHT -- goedgekeurd door Mark op 2026-08-02, vastgelegd in `INDIA5-PROTOCOL.md`
+geldigheidsbereik: alle toekomstige GOUD-keuze-PDF's, voor elke stad/regio in INDIA5-PROTOCOL
+gebaseerd op: analyse van `VARANASI_40_KEUZE.pdf` (GEO-validatierapport-stijl); eerste toepassing
+in `VARANASI_40_KEUZE_REISGIDS.pdf` (runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/REGIONAL/USER/)
+
+## Kernprobleem met het huidige formaat
+
+De huidige GOUD-PDF is opgebouwd als GEO-validatierapport: per kandidaat eerst de bevestigingsstatus
+(CONFIRMED/PROVISIONAL), dan adres, dan een technische "reason"-tekst uit BRONS/ZILVER, dan pas een
+open vraag. Dat is correct als audittrail, maar onbruikbaar als iets waar Mark een middag mee de stad
+in kan. Dit template keert de volgorde om: de PDF wordt een reisgids met een klein technisch blok
+achteraan, niet andersom.
+
+## Documentstructuur (stad-niveau)
+
+1. **Voorblad**: titel, regio, datum, één zin leeswijzer -- "Dit is een reisgids. Voor de volledige
+   geo-validatie, zie GEO_AUDIT.md / CORRECTIERAPPORT.md / BESLISOVERZICHT.md."
+2. **Samenvattingstabel** (kort, 1 pagina): aantal kandidaten, hoeveel bevestigd/voorlopig, en een
+   mini-legenda van de statusaanduidingen die in de PDF zelf gebruikt worden (geen GEO-jargon, zie
+   hieronder).
+3. **Kandidaten gegroepeerd per wijk/ghat-cluster, niet op candidate_id-volgorde.** Mark plant een
+   bezoek per wijk, niet per interne ID. Binnen elk cluster: kandidaten die letterlijk dicht bij
+   elkaar liggen (looproute), ook als hun ruwe `cluster`-veld in de data verschilt -- zie de
+   voorbeeldkandidaat hieronder, waar de data-clusters "MANIKARNIKA" / "GHATS_OLD_CITY" /
+   "SCINDIA_GHAT" / "VISHWANATH_OLD_CITY" in werkelijkheid een aaneengesloten wandeling langs de
+   ghats zijn. GOUD moet dit geografisch groeperen, niet blind het `cluster`-label volgen.
+4. **Sluitstuk**: korte verwijzing naar de technische bijlagen (GEO_AUDIT.md, CORRECTIERAPPORT.md,
+   BESLISOVERZICHT.md) voor wie de onderbouwing wil zien. Die bijlagen blijven ongewijzigd
+   Markdown-documenten, apart van de PDF -- de PDF zelf wordt licht en leesbaar gehouden.
+
+## Kandidaatstructuur (per plek, in deze volgorde)
+
+1. **Titel**: kandidaatnaam + korte pakkende aanduiding tussen haakjes (bestaande
+   `recognition_hook`-stijl, bv. "Ratneshwar Mahadev Temple (de scheve tempel van Kashi)").
+2. **Waarom hier naartoe?** -- 1-2 zinnen, de emotionele/ervaringsgerichte kern. Geen adres, geen
+   GEO-jargon.
+3. **Spirituele / historische betekenis** -- kort narratief blok (2-4 zinnen): oorsprong, legende,
+   religieuze of historische rol. Geput uit de bestaande BRONS/ZILVER-evidence en reason-teksten,
+   herschreven als lopende tekst i.p.v. brontechnische opsomming.
+4. **Wat zie je hier?** -- concrete, zintuiglijke beschrijving: architectuur, sfeer, geluid, drukte,
+   wat maakt het herkenbaar op straat.
+5. **Hoe bijzonder is het?** -- één heldere kwalificerende zin (geen numerieke score): bv. "Uniek in
+   Kashi -- er is er maar één van", "Een van de zeven belangrijkste ghats, verwacht drukte", "Klein en
+   rustig, weinig toeristen". Dit vervangt de technische CONFIRMED/PROVISIONAL-badge als eerste
+   indruk.
+6. **Verwachte bezoektijd** -- praktische tijdsindicatie (bv. "15-30 minuten", "reken op een uur rond
+   zonsondergang voor de aarti").
+7. **Goed te combineren met** -- 2-4 nabijgelegen kandidaten (candidate_id + naam), gebaseerd op
+   werkelijke geografische nabijheid (looproute), met één zin waarom ze samen te doen zijn. Gebruik
+   bestaande coordinaten (final of old_comparison) om nabijheid te bepalen -- geen nieuw onderzoek.
+8. **Praktische tips** -- kleding/schoeisel, drukke/rustige momenten, toegankelijkheid, fotoregels,
+   veiligheid -- uitsluitend voor zover al af te leiden uit bestaande evidence/bronnen, anders
+   weglaten (geen invulling verzinnen).
+9. **Technisch blok (klein, onderaan, visueel duidelijk gescheiden -- klein lettertype/grijs kader)**:
+   candidate_id, GEO-status, coordinaat (of "onbevestigd -- indicatief p
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=538 path=india4/templates/GOUD_PDF_TEMPLATE.md blob_sha=698f32857d5d288dee14bb0e3b46ede6a7533f8a original_offset=4096 original_length=2753 payload_bytes=2753 chunk_index=1 chunk_count=2 classification=text
+unt"), Mark-keuze
+   (A/B/DOOR_MARK_TE_BEOORDELEN), laatste controledatum. Dit is het ENIGE technische onderdeel op
+   kandidaatniveau; geen "reason"-tekst, geen brontabel in de hoofd-PDF.
+
+## Wat NIET meer in de hoofd-PDF komt (verplaatst naar de technische bijlagen)
+
+- Volledige BRONS/ZILVER `reason`-tekst woord voor woord.
+- Brontabellen met URL's en "supports"-velden.
+- ZILVER-controlevelden (`zilver_check`, `nearby_substitute_check`, enz.).
+- Statuslabels als hoofdkenmerk (CONFIRMED/PROVISIONAL blijven bestaan, maar uitsluitend in het kleine
+  technische blok, niet als eerste regel van de kandidaat).
+
+## Stijlregels
+
+- Nederlands, lopende tekst, geen ambtelijke opsomming van GEO-velden in de hoofdtekst.
+- Eén kandidaat = maximaal circa driekwart tot één pagina (korter dan het huidige formaat, dat door de
+  volledige reason-tekst en brontabel al snel een halve pagina aan puur technische tekst kostte).
+- Kleurgebruik consistent met de KML-conventie (groen=A, oranje=B, neutraal=DOOR_MARK_TE_BEOORDELEN)
+  uitsluitend in het technische blok, niet in de reisgids-tekst zelf.
+- Geen nieuwe feiten verzinnen: elke uitspraak in de reisgids-secties moet herleidbaar zijn tot
+  bestaande BRONS/ZILVER-evidence. Als informatie ontbreekt (bv. exacte bezoektijd, praktische tip),
+  wordt het veld weggelaten in plaats van ingevuld met een aanname.
+
+## Invoering
+
+Dit is per 2026-08-02 het VERPLICHTE standaardformaat voor de GOUD-keuze-PDF, voor Varanasi en alle
+volgende steden/regio's. De oorspronkelijke Varanasi-PDF (`GOUD/REGIONAL/USER/VARANASI_40_KEUZE.pdf`,
+GEO-validatierapport-stijl) blijft voorlopig ter vergelijking bestaan naast de nieuwe
+`VARANASI_40_KEUZE_REISGIDS.pdf`; de KML en de onderliggende BRONS/ZILVER-data zijn niet gewijzigd.
+Voor elke volgende stad/regio is de reisgids-PDF de ENIGE GOUD-keuze-PDF die wordt opgeleverd.
+
+## Gevolg voor BRONS (verplicht vanaf de volgende sweep)
+
+Om te voorkomen dat GOUD deze reisgidsinhoud achteraf moet reconstrueren (zoals bij Varanasi is
+gebeurd), verzamelt BRONS voortaan per kandidaat -- naast de bestaande GEO-onderzoeksvelden --
+minimaal:
+- een korte, begrijpelijke omschrijving (het "recognition_hook"-veld bestaat al in `candidates.jsonl`
+  voor Varanasi; dit wordt voortaan een verplicht BRONS-onderzoeksveld, niet alleen inputmetadata);
+- minstens één zin over spirituele/historische betekenis, brononderbouwd;
+- minstens één zin over wat er fysiek te zien/ervaren is;
+- indien uit de bronnen af te leiden: een uniekheidsopmerking, een indicatie van bezoektijd, en
+  praktische toegangsinformatie.
+Ontbreekt een van deze punten in de bronnen, dan noteert BRONS expliciet "NOG NIET ONDERZOCHT" in
+plaats van dit veld leeg te laten of GOUD dit later te laten verzinnen.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=539 path=india5/scripts/validate_global_numbering.py blob_sha=699649972b04c0fc7831a3ac126cb26449e75796 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+#!/usr/bin/env python3
+"""Globale, repositorybrede nummeringsvalidator (INDIA5-ARCH-HARDEN-002).
+
+Vanaf de tweede regio moet gegarandeerd worden dat een display_id (het permanente,
+driecijferige locatienummer) NOOIT in twee verschillende regio's aan een andere fysieke
+locatie hangt. Tot nu toe bestond alleen een PER-REGIO validator
+(runs/active/<run_id>/scripts/validate_numbering.py). Dit script is de repositorybrede
+opvolger: het scant ALLE `NUMBERING_REGISTRY.jsonl`-bestanden onder `runs/*/`, en:
+
+1. controleert dat elk display_id repositorybreed hoogstens één candidate_id/region heeft;
+2. controleert dat een candidate_id nooit met een ander display_id in een andere registry
+   voorkomt (immutable, ook over regio's heen);
+3. rapporteert per regio het gereserveerde/gebruikte nummerbereik, zodat een nieuwe regio
+   vooraf een niet-overlappend bereik kan reserveren (conform INDIA5-PROTOCOL.md, Immutable
+   Location Numbering: "een toekomstige nummerreeks per regio/cluster mag uitsluitend vooraf
+   worden gereserveerd en mag bestaande nummers nooit veranderen").
+
+Dit script is PUUR LEZEND -- het wijzigt of raakt geen enkel bestaand registrybestand aan,
+dus ook niet de bestaande Varanasi-nummers 001-040.
+
+Gebruik:
+    python3 india5/scripts/validate_global_numbering.py
+"""
+import json
+import sys
+from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+
+
+def load_jsonl(path: Path):
+    out = []
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                out.append(json.loads(line))
+            except json.JSONDecodeError:
+                continue
+    return out
+
+
+def main():
+    registries = sorted(REPO_ROOT.glob("runs/*/*/NUMBERING_REGISTRY.jsonl")) + \
+        sorted(REPO_ROOT.glob("runs/*/NUMBERING_REGISTRY.jsonl"))
+    registries = sorted(set(registries))
+
+    if not registries:
+        print("VALIDATIE OK -- geen enkele NUMBERING_REGISTRY.jsonl gevonden, niets te controleren.")
+        sys.exit(0)
+
+    errors = []
+    display_id_owner = {}  # display_id -> (region, candidate_id)
+    candidate_id_display = {}  # candidate_id -> (region, display_id)
+    per_region_range = {}  # region -> (min_id, max_id, count)
+
+    for registry_path in registries:
+        rows = [r for r in load_jsonl(registry_path) if "candidate_id" in r]
+        region = rows[0].get("region") if rows else registry_path.parent.name
+
+        ids_this_region = []
+        for r in rows:
+            cid = r["candidate_id"]
+            did = r["display_id"]
+            ids_this_region.append(did)
+
+            if did in display_id_owner and display_id_owner[did] != (region, cid):
+                errors.append(
+                    f"display_id {did!r} DUBBEL GEBRUIKT over regio's heen: "
+                    f"{display_id_owner[did]} vs. ({region}, {cid}) [{registry_path}]"
+                )
+            display_id_owner.setdefault(did, (region, cid))
+
+            if cid in candidate_id_display and candidate_id_display[cid][1] != did:
+                errors.append(
+                    f"candidate_id {cid!r} heeft VERSCHILLENDE nummers in verschillende "
+                    f"registries: {candidate_id_display[cid]} vs. ({region}, {did}) "
+                    f"[{registry_path}]"
+                )
+            candidate_id_display.setdefault(cid, (region, did))
+
+        if ids_this_region:
+            nums = sorted(int(x) for x in ids_this_region if x.isdigit())
+            if nums:
+                per_region_range[region] = (min(nums), max(nums), len(nums))
+
+    print(f"Gescand: {len(registries)} registrybestand(en), "
+          f"{len(display_id_owner)} uniek(e) display_id('s) over {len(per_region_range)} regio('s).\n")
+    print("Bereik per regio (voor toekomstige reservering van een niet-overlappend bereik):")
+    for region, (lo, hi, count) in sorted(per_region_range.items()):
+        print(f"  - {region}: {lo:03d}-{hi:03d} ({count} nummers)")
+
+    if errors:
+        print(f"\nVALIDATIE MISLUKT -- {len(errors)} 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=540 path=india5/scripts/validate_global_numbering.py blob_sha=699649972b04c0fc7831a3ac126cb26449e75796 original_offset=4096 original_length=259 payload_bytes=259 chunk_index=1 chunk_count=2 classification=text
+probleem/problemen:\n")
+        for e in errors:
+            print(f"  - {e}")
+        sys.exit(1)
+
+    print("\nVALIDATIE OK -- geen enkel nummer wordt over regio's heen dubbel of gewijzigd gebruikt.")
+    sys.exit(0)
+
+
+if __name__ == "__main__":
+    main()
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=541 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/MARK_PREVIEW_VRINDAVAN_BRAJ_V0.md blob_sha=6999d7356f96c3ddf96abcfb96a7bce6cddf419c original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# MARK PREVIEW — VRINDAVAN / BRAJ V0
+
+Date: 2026-08-20
+State: PREVIEW__CURRENT_MASTER_ONLY__NOT_YET_FINAL_ABC
+Purpose: give Mark something readable NOW while CCI closes the full-known-universe accounting. No locations are removed because they are uncertain.
+
+## WHY THIS CLUSTER MATTERS
+Vrindavan/Braj currently has an unusually strong mix of:
+- AOAY / Paramahansa Yogananda scenes;
+- Neem Karoli Baba + Ram Dass;
+- Ramakrishna;
+- Anandamayi Ma;
+- exact cross-person temple overlap;
+- several micro-sites/rooms/ashram details rather than only city-level associations.
+
+This is therefore already a serious travel-cluster candidate even before final A/B/C review.
+
+## CURRENT MASTER LOCATIONS — EXPLAINED FOR MARK
+
+### AOAY / PARAMAHANSA YOGANANDA
+1. **Vrindavan railway station** — AOAY ch.11. Yogananda arrives/departs here during the penniless-test episode. Historic station continuity is strong (R2). Visitability: railway/transit site; service/access recheck later.
+2. **Madan Mohan Temple** — AOAY ch.11. Concrete Krishna temple visited during the Vrindavan episode. Exact enduring physical site (R1). High travel relevance because this is a directly readable AOAY scene at an exact temple.
+3. **Secluded spot near Vrindavan station** — AOAY ch.11. Yogananda gives Pratap Kriya initiation at a secluded spot near the station. Scene itself is strong; exact micro-location is not recoverable from current evidence (R5). MUST REMAIN VISIBLE; do not silently delete.
+4. **Keshabananda / Katyayani Peeth historic ashram claim** — AOAY ch.42. Yogananda stays overnight with Keshabananda. Historic name/context strong, but current building continuity to Katyayani Peeth is not yet proven (R4). Important AOAY unresolved lead.
+
+### NEEM KAROLI BABA + RAM DASS
+5. **Neem Karoli Baba Vrindavan Ashram, Parikrama Marg** — exact current parent complex (R1). Both NKB and Ram Dass are directly linked. Existing protected/canon parent; do not issue duplicate parent ID.
+6. **Maharajji's office inside NKB Vrindavan Ashram** — explicit Ram Dass occurrence; separate micro-site (R2), not absorbed into #5.
+7. **Temple courtyard / fire-platform context inside NKB Vrindavan Ashram** — Ram Dass funeral/bhandara detail, physically retained separately (R2).
+8. **Hanuman murti sanctum inside NKB Vrindavan Ashram** — source occurrence retained, but stronger closure/access still needed (R4).
+9. **Main gate inside NKB Vrindavan Ashram** — occurrence retained as separate micro-site, currently R4.
+10. **Hathiwale Baba hut historic footprint / current Gore Dauji site, Parikrama Marg** — historical NKB hut no longer survives as hut; current successor footprint identified (R2).
+11. **Seth Anandram Jaipuria Bhawan** — Ram Dass. Current establishment confirmed; official history places Vrindavan unit from 1964 and it still operates near Banke Bihari Mandir (R1). Potential heritage-stay/logistics interest; exact historical sleep-room not claimed.
+12. **Ramakrishna Mission Hospital, Vrindavan** — NKB final journey. Hospital identity resolved exactly (R1); emergency-room micro-location not known. Historically important because this is his final medical chain.
+
+### RAM DASS + RAMAKRISHNA CROSS-PERSON OVERLAP
+13. **Banke Bihari Temple** — exact enduring temple (R1). Both Ram Dass and Ramakrishna have person-links to the SAME physical temple. This is one of the clearest exact cross-person overlaps in the cluster and should be highlighted during Mark A/B/C.
+14. **Yamuna river excursion landscape** — Ram Dass. River presence is proven, exact ghat/landing not yet resolved (R4). Keep visible.
+
+### RAMAKRISHNA
+15. **Fouzdar Kunj, Retia Bazar** — official Ramakrishna Mission Vrindavan account identifies the building where Ramakrishna stayed (R1).
+16. **Upper room used by Ramakrishna in Fouzdar Kunj** — explicit room-level historical identification (R2). Separate from the building parent.
+17. **Semicircular veranda at Fouzdar Kunj** — explicit physical feature in the official account (R2). Separate micro-site.
+18. **Nidhivan grove** — Ramakrishna presence at t
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=542 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/MARK_PREVIEW_VRINDAVAN_BRAJ_V0.md blob_sha=6999d7356f96c3ddf96abcfb96a7bce6cddf419c original_offset=4096 original_length=2843 payload_bytes=2843 chunk_index=1 chunk_count=2 classification=text
+he exact named sacred grove (R1).
+19. **Historic Ganga Mata kutiya footprint** — historic hut linked by official RKM account; hut replaced but ground localised, on left side of Nidhivan toward Radha Raman Mandir (R2).
+20. **Kanpurwali Dharam Shala / Batala Ashrama successor property** — successor on the historic Ganga Mata ground; this does NOT mean Ramakrishna entered the later building (R2 successor distinction).
+
+### ANANDAMAYI MA — TRAVEL CORE ONLY, NOT EXHAUSTIVE
+21. **Burdwan/Vardhaman Kunj** — confirmed Anandamayi residence in 1936; current lineage successor/reference exists but original-room continuity is not proven (R2; private permission possible).
+22. **Anandamayi Ashram Vrindavan** — exact current institution (R1, public open; stay/contact may be possible). This is enough to keep Anandamayi represented in the cluster without exhaustively hunting every historical host house.
+
+## NEARBY BRAJ / FINAL-JOURNEY CONTEXT CURRENTLY VISIBLE
+23. **Mathura railway station** — one NKB final-journey lineage has disembarkation here; another chronology omits it. Physical station is localized (R3) but historical sequence remains conflict-tagged.
+24. **Station steps near outdoor latrine, Mathura** — one final-journey version gives this micro-scene; exact steps/platform unresolved (R4). Retain, do not promote as certain.
+
+## CURRENT DECISION SIGNALS
+- **Very strong exact-person overlap**: Banke Bihari Temple = Ram Dass + Ramakrishna.
+- **Very strong parent + micro-site density**: NKB Vrindavan Ashram.
+- **Strong room-level historic value**: Fouzdar Kunj upper room + veranda.
+- **High-priority AOAY exact site**: Madan Mohan Temple.
+- **High-priority AOAY unresolved site**: Keshabananda overnight ashram / Katyayani Peeth continuity.
+- **Potential historical stay interest**: Jaipuria Bhawan.
+- **NKB final-life significance**: Ramakrishna Mission Hospital + Mathura conflict chain.
+
+## NOT YET READY FOR FINAL A/B/C BECAUSE
+1. CCI is still closing the full-known-universe master/accounting gaps.
+2. AOAY wider 123-place atlas is being reconciled so no Vrindavan scene can be missing from this preview.
+3. Several R4/R5 micro-sites remain unresolved and must stay visible.
+4. Final proximity/new-ID allocation must use the central/ZILVER overlay, not guessed coordinates.
+
+## MARK PRESENTATION FORMAT AFTER FINAL CLOSURE
+The final review will use the same numbered format, but each item will additionally show:
+- person(s)
+- why it matters in plain Dutch
+- exact modern place/address/locator
+- what physically survives
+- whether you can enter / need permission / exterior only
+- overlap with another Top-X person
+- distance to other candidate sites when reliably known
+- existing ID + old A/B/C, or NEW_ID_REQUIRED
+- then one empty field: `MARK: A / B / C`
+
+No item is removed merely because it remains R4/R5.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=543 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/YOGANANDA_V2_PRE_EXTERNAL_FINAL_FREEZE.md blob_sha=69c2c9445099418eeebe05ca02a2aec3f0c927e6 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+# YOGANANDA_V2_PRE_EXTERNAL_FINAL_FREEZE
+
+```
+task_id: TOP11-EXTERNAL-AI-BENCHMARK-001
+trigger: CCI_TASK 085 (pre-external completion pass)
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-16
+freeze_moment: bij commit van dit bestand (SHA in STATUS.md)
+methode: METHOD_V2.md Fase 0-4, gevolgd door deze definitieve freeze. Fase 5-7 (onafhankelijke
+  tweede pass, externe multi-AI-union, reconciliatie) volgen NIET in deze taak.
+```
+
+## Eerlijkheidsverklaring (ongewijzigd t.o.v. YOGANANDA_V2_FREEZE.md)
+
+Corpus-eerst, niet zoekmachine-eerst. Niet geheugen-blind (CCI schreef eerder zelf `PHASE2_
+RESULT.md`/ATL-PY-*); die lijst is in deze en de vorige ronde NIET als discovery-checklist
+geraadpleegd. Vergelijking daarmee is Fase C en volgt apart, na deze freeze.
+
+---
+
+## WERKPAKKET A — corpus-coverage, bijgewerkte tabel
+
+| bronfamilie | status | toelichting |
+|---|---|---|
+| *Autobiography of a Yogi* (Gutenberg #7452, volledige tekst, alle 48 hoofdstukken) | **VOLLEDIG DOORZOCHT, incl. occurrence-context** | Alle 82 India-plaatsen uit `AOAY-FULL-LOCATION-ATLAS-001/PLACE_ATLAS.jsonl` zijn deze ronde stuk voor stuk met hun volledige occurrence-context herlezen (niet alleen de dichtste hoofdstukken zoals in de vorige freeze). Twee fouten in de eerdere AOAY-atlas gevonden en gecorrigeerd (zie hieronder). |
+| YSS officiële ashram-/locatie-index (`yssofindia.org/ashrams`) | **DOORZOCHT** | Bevestigt vijf officiële YSS-ashrams (Ranchi, Dakshineswar, Dwarahat, Noida, Chennai) + acht retraites (Igatpuri, Shimla, Pune, Dihika, Puri, Serampore, Telary, Coimbatore). Belangrijk: dit is de HUIDIGE (2026) institutionele voetafdruk van de organisatie, niet automatisch bewijs van Yogananda's eigen persoonlijke aanwezigheid — Noida, Chennai, Igatpuri, Telary, Coimbatore zijn zonder aanvullend bewijs NIET aangenomen als door hemzelf bezocht. |
+| YSS "Return to India"-chronologie | **DOORZOCHT (herbevestigd)** | Zie eerdere freeze; ongewijzigd. |
+| C. Richard Wright's volledige reisdagboek | **BRON_GEBLOKKEERD, bevestigd bij bron zelf.** | Gerichte zoekactie uitgevoerd: het volledige dagboek is, blijkens meerdere onafhankelijke Yogananda-lineage-bronnen (o.a. `ananda.org/ask/why-is-richard-wrights-travel-diary...-not-published`), NOOIT als geheel gepubliceerd. Alleen de fragmenten die Yogananda zelf in AOAY citeerde (reeds volledig verwerkt, o.a. hoofdstuk 41) zijn publiek. Dit is dus geen falende zoekactie maar een bevestigd, structureel ontoegankelijk archief. |
+| EAST-WEST/Inner Culture-tijdschriftarchief (1920s-1940s) | **DEELS TOEGANKELIJK, niet verwerkt.** | Een ongeoCR'de PDF-scan is publiek gevonden (`amanuensis.us/page9.html`) plus een los OCR'de inhoudsopgave-index. De scan zelf is, net als Gurupriya Devi's dagboek, een beeld-PDF zonder doorzoekbare tekst — lezen zou bladzijde-voor-bladzijde visuele inspectie vergen, niet uitgevoerd in deze ronde. `BRON_GEBLOKKEERD/DEELS`, concreet benoemd i.p.v. verzwegen. |
+| Gurupriya Devi/Anandamayi-kruisbron | **BRON_GEBLOKKEERD, ongewijzigd** | Zie `YOGANANDA-ANANDAMAYI-PHOTO-LOCATION-001/RESULT.md`; opnieuw geprobeerd noch opgelost deze ronde (buiten scope van de kern-Yogananda-corpora; blokkade blijft technisch, niet inhoudelijk verklaard). |
+| Wikipedia (Yogananda, Yogoda Satsanga Mahavidyalaya, Dihika Ashram) | **DOORZOCHT** | Ongewijzigd, secundair. |
+
+## Twee fouten in de eerdere AOAY-locatie-atlas gevonden en gecorrigeerd (bijvangst)
+
+1. **"Dwarka" (AOAY-ATL-020)**: alle vijf occurrences (hoofdstuk 2, 4) bleken bij close-reading
+   NIET de bedevaartsstad Dwarka (Gujarat) te zijn, maar **"Dwarka Prasad"**, de zoon van
+   Yogananda's huisbaas in Bareilly — een persoonsnaam, later kortweg "Dwarka" genoemd. Naam-
+   collision, geen echte plaatsvermelding. Gecorrigeerd in `PLACE_ATLAS.jsonl`.
+2. **"Belur" (AOAY-ATL-106)**: al gecorrigeerd in de vorige freeze-ronde (CCI_TASK 084) — de
+   Karnataka-tempel, niet Belur Math.
+
+Beide fouten zijn in het bronbestand zelf gecorrigeerd, niet stil verwijderd — de oorspronkelijke
+(foutieve) identificatie staat als toelichting in de `notes`-velden.
+
+##
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=544 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/YOGANANDA_V2_PRE_EXTERNAL_FINAL_FREEZE.md blob_sha=69c2c9445099418eeebe05ca02a2aec3f0c927e6 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+ Hyderabad / Ellora / Ajanta — definitief opgelost
+
+**YOGANANDA_PERSONALLY_PRESENT = NEE (tekstueel onderbouwd, geen gok).** Alle vier occurrences in
+hoofdstuk 41 staan in een aaneengesloten alinea-blok van algemene regionale geschiedenis/
+architectuur ("Southern India, rich with historical and archaeological remains..."; "Hyderabad
+history is a long, colorful story..."; "The most breath-taking display of architecture...is found
+at Hyderabad in the ancient rock-sculptured caves of Ellora and Ajanta..."; "Hyderabad City is
+graced by the Osmania University..."). Geen van de vier zinnen gebruikt eerste-persoonstaal ("I/we
+visited/saw"), in scherp contrast met de onmiddellijk voorafgaande en volgende alinea's over Mysore
+en Bangalore die wél expliciet "I", "we", "my companion and I" gebruiken. Dit is een bewuste
+schrijfkeuze van Yogananda (regionale reisbeschrijving versus persoonlijk verslag), geen toevallig
+ontbrekend detail. Conclusie: `TIER_AOAY_MENTION_ONLY`, `YOGANANDA_PERSONALLY_PRESENT: NEE`.
+
+## Overige hard geclassificeerde India-plaatsen (aanvullend op de vorige freeze)
+
+| plek | YOGANANDA_PERSONALLY_PRESENT | toelichting |
+|---|---|---|
+| **Delhi** | **JA — NIEUW gevonden deze ronde** | Hfst. 22: "Years later, I visited my brother-in-law in Delhi. I was overjoyed..." — expliciet eerste-persoonsbezoek, gastheer = zwager Satish Chandra Bose. |
+| **Simla** | **JA — NIEUW gevonden deze ronde** | Hfst. 21: "leisurely stop was at Simla, a queenly city..."/"Our party soon left Simla and entrained for Rawalpindi" — bevestigde tussenstop tijdens de Kashmir-reis. |
+| **Purulia** | **JA — NIEUW gevonden deze ronde** | Hfst. 46: "in a few hours we shall reach Purulia... our little circle in Purulia" — expliciet, eigen reis. |
+| **Naini Tal** | **NEE (poging, niet aangekomen) — verscherpt** | Hfst. 2: "I fled that afternoon toward Naini Tal... Ananta gave determined chase; I was forced to return sadly to Bareilly." Hij probeerde als jongen te ontsnappen naar Naini Tal maar werd onderweg tegengehouden en teruggebracht — GEEN aankomst. Apart van de andere Naini Tal-vermelding (hfst. 32), die niet over Yogananda zelf gaat maar over Lahiri Mahasaya's ambtelijke overplaatsingen. |
+| **Danapur, Ranikhet (ch. 32/33/34), Ghurni, Nadia** | **NEE voor Yogananda persoonlijk** | Deze occurrences beschrijven allemaal Lahiri Mahasaya's eigen levensloop/overplaatsingen/geboorteregio, zoals Yogananda die in zijn boek navertelt — niet Yogananda's eigen fysieke aanwezigheid. (Ranikhet/Danapur blijven uiteraard wel geldig als LAHIRI MAHASAYA-punten, al bevestigd in `PHASE2_RESULT.md`.) |
+| **Kidderpore** | **NEE voor Yogananda persoonlijk** | Hfst. 36/42: gaat over een discipel die daar woonde en over een (mogelijk nooit doorgegaan) bezoekplan van Sri Yukteswar, niet over Yogananda zelf. |
+| **Dehra Dun** | **NEE voor Yogananda persoonlijk** | Hfst. 45: Anandamayi Ma's eigen (toekomstige) hermitage, genoemd tijdens een gesprek op Serampore-station — niet Yogananda's eigen bezoek aan Dehra Dun. |
+| **Patna, Rajputana, Kolar, Nasik, Ahmedabad, Poona** | **NEE, bevestigd mention-only** | Historische/economische/bibliografische zijsprongen (Chandragupta-hof; Kumbh Mela-context; Mysore-industrie; vier heilige Mela-steden algemeen; Gandhi-boekuitgever; Kasturba Gandhi's overlijdensplaats) — geen van alle beschrijft Yogananda's eigen aanwezigheid. |
+| **Dakshineswar (tempel, hfst. 9/22)** | **JA, sterk** | Twee aparte, uitgebreide persoonlijke bezoeken: eerste pelgrimage met Master Mahasaya (hfst. 9, "the first of many pilgrimages"), en het dramatische visioen-bezoek met zuster Roma en zwager Satish (hfst. 22). Dit is de Ramakrishna Kali-tempel. |
+| **Yogoda Math, Dakshineswar (hfst. 28/40, ander adres dan de tempel)** | **NEE/ONBEWEZEN voor persoonlijke aanwezigheid — belangrijke nuance** | Dit is Yogananda's EIGEN, latere hermitage-stichting op de Ganges-oever bij Dakshineswar, "dedicated in 1939" — maar Yogananda keerde na zijn 1935-36-bezoek niet meer fysiek naar India terug (hij overleed in 1952 in de VS). De AOAY-tek
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=545 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/YOGANANDA_V2_PRE_EXTERNAL_FINAL_FREEZE.md blob_sha=69c2c9445099418eeebe05ca02a2aec3f0c927e6 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+st zelf beschrijft de wijding in de derde/verleden tijd, zonder "I attended/I was there". Instellingsstichter ≠ automatisch fysiek aanwezig bij latere wijding — expliciet apart gehouden, niet aangenomen. |
+
+## WERKPAKKET B — sublocaties + hostgraph, uitgebreid
+
+### Zes Mysore/Bangalore-punten verder geverifieerd (van de vorige freeze)
+
+- **Chamundi-tempel**: fysieke identiteit bevestigd als bestaande, actieve, publiek toegankelijke
+  tempel op Chamundi Hill, Mysore (algemeen erkende, nog altijd bestaande grote pelgrimsplaats;
+  geen aparte adrescontrole nodig gezien de eenduidigheid van de naam). `PHYSICAL_IDENTITY: EXACT`.
+- **Krishnaraja Sagar Dam**: bestaande, nog altijd functionerende stuwdam nabij Mysore (KRS Dam/
+  Brindavan Gardens); `PHYSICAL_IDENTITY: EXACT`, niet apart heradres-geverifieerd.
+- **Yuvaraja's zomerpaleis**: `PHYSICAL_IDENTITY: DEELS` — AOAY noemt geen eigen naam voor dit
+  specifieke zomerpaleis (onderscheiden van het hoofdpaleis, Mysore Palace); niet verder opgelost
+  deze ronde.
+- **Lezingzalen (Town Hall, Maharajah's College, University Medical School, Mysore; National High
+  School, Intermediate College, Chetty Town Hall, Bangalore)**: `PHYSICAL_IDENTITY: DEELS` — namen
+  bevestigd uit de brontekst zelf, huidige status/bestaan niet apart gecontroleerd deze ronde.
+- **C.V. Raman-ontmoeting**: geen apart fysiek adres in AOAY; ontmoeting geplaatst binnen de
+  Mysore-context, geen aparte locatie te claimen boven wat al genoteerd is.
+
+### Hostgraph — bijgewerkt met nieuwe vondsten
+
+| gastheer/netwerkpersoon | relatie | locatie |
+|---|---|---|
+| Satish Chandra Bose (zwager) | gastheer/gezelschap, twee aparte gelegenheden | Dakshineswar-tempel (hfst. 22), Delhi (hfst. 22) |
+| Master Mahasaya (discipel van Ramakrishna) | gids/introductie | Dakshineswar-tempel (hfst. 9) |
+| Prokash Das | latere directeur Yogoda Math Dakshineswar | Dakshineswar (institutioneel, niet Yogananda's eigen bezoek) |
+| Lambadar Dey | gastheer/advocaat | Purulia (hfst. 46) |
+
+Overige hostgraph-entries (Maharaja van Kashimbazar, Yuvaraja/Maharaja van Mysore, Gandhi,
+Sri Yukteswar, Anandamayi Ma, C.V. Raman) ongewijzigd t.o.v. de vorige freeze.
+
+## WERKPAKKET C — lossless resultaat
+
+Alle occurrence-niveau brongegevens blijven in `AOAY-FULL-LOCATION-ATLAS-001/RAW_OCCURRENCES.jsonl`
+(1.359 records, herbruikt, twee entries gecorrigeerd zoals hierboven) en `PLACE_ATLAS.jsonl` (123
+records). Dit bestand voegt de Yogananda-specifieke `YOGANANDA_PERSONALLY_PRESENT`-laag toe die in
+het generieke AOAY-atlasbestand ontbrak (dat bestand normaliseert per plaats, niet per persoon).
+Geen apart nieuw JSONL-bestand aangemaakt deze ronde — de bovenstaande tabellen zijn de volledige,
+voor Yogananda gefilterde laag; een toekomstige machine-leesbare export kan hieruit worden afgeleid
+zonder informatieverlies (alle occurrence_ids herleidbaar naar de bronbestanden).
+
+## WERKPAKKET D — definitieve gate-status
+
+| gate | status | onderbouwing |
+|---|---|---|
+| **CORPUS-COVERAGE-GATE** | **DEELS** | AOAY volledig (alle 48 hoofdstukken, occurrence-niveau); YSS-chronologie + ashram-index doorzocht. Wright-dagboek en EAST-WEST-archief bevestigd `BRON_GEBLOKKEERD`/`DEELS` met concrete, benoemde reden — niet stilzwijgend overgeslagen, maar ook niet opgelost. |
+| **HOSTGRAPH-GATE** | **JA voor de gevonden gastheren** | Alle in AOAY genoemde gastheren voor bevestigde Yogananda-aanwezigheid zijn teruggezocht; geen aanwijzing voor systematisch gemiste hostrelaties binnen het doorzochte corpus. |
+| **DISCOVERY-GATE** | **DEELS** | Gerichte discovery uitgevoerd voor Wright-dagboek, EAST-WEST-archief, YSS-ashramindex; NIET voor elke individuele lezingzaal/sublocatie-adres. |
+| **RECONCILIATIE-GATE** | **N.V.T. in deze taak** | Fase 7 vereist externe/detector-only claims om te reconciliëren; die bestaan nog niet voor Yogananda (dat is precies het doel van de prospectieve control-test). Geen externe claims geraadpleegd of gesimuleerd, conform de stopvoorwaarde. |
+
+**`YOGANANDA_V2_PRE_EXTERNAL_SATURATED: NEE`**
+
+Onderbouwing: twee bronfamilies (Wrig
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=546 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/YOGANANDA_V2_PRE_EXTERNAL_FINAL_FREEZE.md blob_sha=69c2c9445099418eeebe05ca02a2aec3f0c927e6 original_offset=12288 original_length=1503 payload_bytes=1503 chunk_index=3 chunk_count=4 classification=text
+ht's volledige dagboek, EAST-WEST-archief) blijven
+structureel ontoegankelijk zonder OCR/handmatige scanpagina-inspectie — een eerlijke, benoemde
+hiaat, geen verzwegen gok. `NEE` is hier bewust gekozen boven een schijnbare `JA`, conform de
+taakinstructie dat `NEE` toegestaan en beter is dan een valse saturationclaim.
+
+## Onopgeloste bronfamilies/claims — expliciete lijst
+
+1. C. Richard Wright's volledige reisdagboek — structureel nooit gepubliceerd; alleen AOAY-citaten
+   beschikbaar (al volledig verwerkt).
+2. EAST-WEST/Inner Culture-tijdschriftarchief 1925-1945 — publiek gevonden maar ongeoCR'd; vereist
+   bladzijde-voor-bladzijde visuele inspectie, niet uitgevoerd.
+3. Gurupriya Devi/Anandamayi-dagboek — ongewijzigd geblokkeerd (gescande PDF).
+4. Individuele adresverificatie voor de zes Mysore/Bangalore-lezingzalen en het Yuvaraja-
+   zomerpaleis — namen bevestigd, exacte huidige adressen niet.
+5. YSS-locatiepagina's voor Noida/Chennai/Igatpuri/Telary/Coimbatore — bestaan institutioneel,
+   maar Yogananda's eigen persoonlijke aanwezigheid daar is NIET onderzocht/aangenomen (waarschijnlijk
+   grotendeels postuum gesticht, maar dit is zelf niet hard geverifieerd in deze ronde — vermeld
+   als open vraag, niet als aanname in beide richtingen).
+
+Geen A/B/C namens Mark. Geen permanente locatie-ID. Geen PDF. Geen route.
+
+---
+Geschreven door: CCI. STOP hierna conform CCI_TASK 085 stopvoorwaarde — geen externe Yogananda-
+resultaten gezocht, gesimuleerd of vergeleken.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=547 path=runs/active/TOP11-NKB-RAMDASS-INDIAGEEL-MULTIDETECTOR-RECONCILIATION-001/STATUS.md blob_sha=69cc156a40bce8559e4f7dfddced858d5b8965c0 original_offset=0 original_length=516 payload_bytes=516 chunk_index=0 chunk_count=1 classification=text
+# STATUS — TOP11-NKB-RAMDASS-INDIAGEEL-MULTIDETECTOR-RECONCILIATION-001
+
+state: BEIDE_RECONCILIATIES_AFGEROND__TRAVEL_GATE_EN_RESULTAAT_VOLGEN
+cci_task: CCI_TASK 095
+branch: claude/werk-je-nu-of-niet-oa10y7
+persons: Neem Karoli Baba, Ram Dass
+mode: post-freeze third-detector reconciliation
+checkpoint_1_2_nkb: 8cda7cc
+checkpoint_2_2_ramdass: (dit checkpoint, zie commit)
+next_allowed_step: CCI schrijft TRAVEL_READINESS_GATE.md + RECONCILIATION_RESULT.md, plaatst CCI_RESULT 095 op PR #23 en stopt voor INDIA-QA.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=548 path=handoffs/INDIA8_TO_INDIA9_QUARTER_HOUR_PLANNING_DELTA_2026-08-23.md blob_sha=6b73a5e6a1f055c81e6932b51e35297f00823cfe original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+# INDIA8 -> INDIA9 — QUARTER-HOUR ITINERARY / GEO QA DELTA — 2026-08-23
+
+Status: CURRENT LATEST DELTA. Read immediately after `handoffs/INDIA8_TO_INDIA9_FINAL_BOOT_2026-08-23.md` and before doing further itinerary work.
+
+This file preserves the last INDIA8 working session so India9 can continue without asking Mark to reconstruct it.
+
+## 1. NEW EXPLICIT MARK LODGING RULE — SUPERSEDES RISHIKESH ASHRAM SLEEP IDEA
+
+Mark explicitly decided:
+- only **two ashram stays** are wanted on this trip:
+  1. **Haidakhan Ashram**;
+  2. **Sri Ramanasramam / Ramana Maharshi ashram** in Tiruvannamalai.
+- all other nights should use **non-ashram accommodation** (hotel/guesthouse).
+
+Operational consequences:
+- Haidakhan ashram sleep remains desired.
+- Sri Ramanasramam stay remains desired; if actual ashram lodging is unavailable, use the existing Ramana Nagar / Chengam Road fallback zone, but the preference is the ashram itself.
+- **Rishikesh must NOT use Parmarth Niketan as the sleep base.** Parmarth may remain a New-Year / Ganga / retreat experience only. Select a hotel on foot or a short tuk-tuk/taxi ride from the relevant Rishikesh/Parmarth zone.
+- Existing non-ashram locks remain: Joshi Guest House / Kukuchina; Hotel Evelyn / Nainital; Sahi River View Guesthouse / Varanasi; later specific hotels still to be chosen in Vrindavan, Bodh Gaya, Agra, Rishikesh and Delhi where not locked.
+
+## 2. NEW OUTPUT MARK WANTS NEXT — NOT ANOTHER ROUGH ROUTE
+
+Mark accepts the current rough V2 as a useful starting plan. The next required product is a **full day-by-day operational itinerary with quarter-hour timing** so feasibility errors become visible.
+
+For EVERY calendar day:
+- show clock times in ~15-minute increments where useful;
+- show wake/start early and aim for early bed;
+- show every transfer and **travel time between consecutive stops**;
+- show realistic station/airport/parking/walking/entry buffers where material;
+- reserve **1 hour every evening for dinner**;
+- **do NOT schedule a separate lunch block** — lunch/snacks happen en route and should not consume a formal itinerary slot unless a specific future logistics reason makes it unavoidable;
+- use actual sleep base / hotel door as origin and destination, never an arbitrary city-centre point when a base is already known;
+- treat overnight trains as sleep/travel nights, not automatically as a lost sightseeing day;
+- use the schedule diagnostically: if a day only works under perfect conditions, label it overloaded rather than making the arithmetic fit.
+
+## 3. LOCATION DESCRIPTIONS MUST BE LONGER FOR THIS REVIEW ROUND
+
+For every A and B location in the day plan, give enough plain-language context for Mark to judge whether the grade still feels right:
+- what the place physically is;
+- why it matters to the relevant person/story/tradition;
+- what Mark will actually see/do/experience there;
+- whether it is a room, house, ghat, temple, cave, memorial, working station, landscape, etc.;
+- if relevant, what specific event/person link occurred there;
+- any material uncertainty in the identity or exact micro-location.
+
+Purpose: Mark wants to be able to see from the itinerary itself whether some A's should become B's or vice versa. INDIA9 must NOT change grades itself; only expose the trade-off clearly.
+
+## 4. HARD GEO REQUIREMENT FOR THE QUARTER-HOUR PLAN
+
+Before a final operational itinerary can be trusted, **every retained-route A and B physical visit point must have a good Google Maps coordinate / verified Google official map location**, unless it is genuinely non-public/non-visitable or only resolvable as a zone.
+
+Rules:
+- check GitHub first and reuse existing exact/verified Google pins when valid;
+- never promote an old `WORKING_GOOGLE_MAPS_PIN` simply because it looks plausible;
+- verify the physical identity against address / official / institutional evidence;
+- never guess a coordinate;
+- if exact marker closure remains impossible, carry an explicit `ADDRESS_CONFIRMED_MARKER_NOT_CLOSED`, `ZONE_ONLY`, `GEO_CONFLICT`, or `NONPUBLIC_OR_NOT_FOR_VISIT` disposition and make the timing uncertai
+<<< END CHUNK >>>
+

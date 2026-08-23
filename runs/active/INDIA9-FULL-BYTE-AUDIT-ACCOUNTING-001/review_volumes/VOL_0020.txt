@@ -1,0 +1,384 @@
+>>> CHUNK stream_row=285 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/ZILVER/ZILVER-TESTSWEEP-022-040.jsonl blob_sha=31e06bc16b109e035c8cdb075744e1c24a69a270 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=10 classification=text
+een publieke Google Maps-marker vastgesteld; geen schatting overgenomen.", "brons_source": "BRONS-B03.jsonl", "checked_at": "2026-08-02"}
+{"candidate_id": "VNS-CAND-024", "canonical_name": "Kabir Chaura Math", "status": "NEEDS_REVIEW", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "research_status": "COMPLETED_UNRESOLVED", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "old_comparison": {"latitude": 25.3233, "longitude": 82.9992, "geo_status": "WORKING_GOOGLE_MAPS_PIN", "use": "COMPARISON_ONLY"}, "identity_check": {"matched_place": "Kabir Math, Kabirchaura", "address": "C23/5, Kotwali, Dav College Road, Piplani Katra, Varanasi, Uttar Pradesh 221001, India", "physical_identity": "CONFIRMED", "marker_identity": "NOT_EXACTLY_EXTRACTED"}, "zilver_check": {"public_google_maps_marker_used": false, "marker_matches_physical_place": null, "nearby_substitute_check": "OK -- geen nabijgelegen organisatie/wijk/gebouw verward met de kandidaat, adres en context consistent met de kandidaatnaam", "coordinates_exactly_from_marker": false, "uncertainty_honestly_marked": true}, "correction": null, "evidence": [{"url": "https://en.wikipedia.org/wiki/Kabir_Chaura", "supports": "Confirms Kabir Chaura as a distinct locality/math north of BHU, near Kabir Chaura Hospital"}, {"url": "https://kashivacations.com/varanasi/kabir-math-kabirchaura-lehartara-varanasi-india-kabir-birth-place.php", "supports": "Confirms Kabir Math Kabirchaura identity and address, distinguishes it from the Lahartara site"}, {"url": "https://mindtrip.ai/attraction/varanasi-uttar-pradesh/kabir-chaura-math/at-YAl93uuY", "supports": "Corroborates name and Piplani Katra locality"}], "reason": "Kabir Chaura Math is geidentificeerd als een apart, gevestigd math-complex in de wijk Kabir Chaura (te onderscheiden van het Lahartara-herdenkingspunt, VNS-CAND-025). Geen publieke Google Maps-marker met ingesloten coordinaat vastgesteld; het oude vergelijkingscoordinaat is niet hergebruikt.", "brons_source": "BRONS-B03.jsonl", "checked_at": "2026-08-02"}
+{"candidate_id": "VNS-CAND-025", "canonical_name": "Lahartara Kabir birthplace memorial", "status": "NEEDS_REVIEW", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "research_status": "COMPLETED_UNRESOLVED", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "old_comparison": {"latitude": 25.304, "longitude": 82.966, "geo_status": "APPROXIMATE_LOCAL_POINT", "use": "COMPARISON_ONLY"}, "identity_check": {"matched_place": "Lahartara Pond / Kabir Math, Lahartara", "address": "Lahartara, Varanasi, Uttar Pradesh, India (nabij Kabir Math Lahartara)", "physical_identity": "PARTIAL", "marker_identity": "NOT_EXACTLY_EXTRACTED"}, "zilver_check": {"public_google_maps_marker_used": false, "marker_matches_physical_place": null, "nearby_substitute_check": "OK -- geen nabijgelegen organisatie/wijk/gebouw verward met de kandidaat, adres en context consistent met de kandidaatnaam", "coordinates_exactly_from_marker": false, "uncertainty_honestly_marked": true}, "correction": null, "evidence": [{"url": "https://en.wikipedia.org/wiki/Lahartara_Pond", "supports": "Confirms the Lahartara pond/lake as the traditional Kabir birth-legend site and its partition between ASI and Satguru Kabir Prakat Dham"}, {"url": "https://kashivacations.com/varanasi/kabir-math-kabirchaura-lehartara-varanasi-india-kabir-birth-place.php", "supports": "Confirms the Lahartara site as distinct from Kabirchaura Math and its role in the Kabir birth tradition"}, {"url": "https://wanderlog.com/place/details/10418098/kabir-temple-lahartara-varanasi", "supports": "Google-derived listing for a Kabir Temple at Lahartara, corroborating the locality"}], "reason": "Bronidentiteit bevestigt de Lahartara-vijver/herdenkingszone als traditionele Kabir-geboorteplek, met een apart Kabir-tempel/Math-punt in dezelfde locatie. De brondata markeerde physical_identity al als PARTIAL (meerdere structuren in een zone); dat is bevestigd, geen precieze enkele gebouwmarker vastgesteld. Geen Google Maps-ma
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=286 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/ZILVER/ZILVER-TESTSWEEP-022-040.jsonl blob_sha=31e06bc16b109e035c8cdb075744e1c24a69a270 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=10 classification=text
+rker geconfirmeerd; geen schatting of terreinmiddelpunt overgenomen.", "brons_source": "BRONS-B03.jsonl", "checked_at": "2026-08-02"}
+{"candidate_id": "VNS-CAND-026", "canonical_name": "Ramakrishna Mission Home of Service", "status": "NEEDS_REVIEW", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "research_status": "COMPLETED_UNRESOLVED", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "old_comparison": {"latitude": 25.309, "longitude": 82.9974, "geo_status": "WORKING_GOOGLE_MAPS_PIN", "use": "COMPARISON_ONLY"}, "identity_check": {"matched_place": "Ramakrishna Mission Home of Service", "address": "Ramakrishna Mission Home of Service, Luxa Road, Ramapura Luxa, Varanasi, Uttar Pradesh 221010, India", "physical_identity": "CONFIRMED", "marker_identity": "NOT_EXACTLY_EXTRACTED"}, "zilver_check": {"public_google_maps_marker_used": false, "marker_matches_physical_place": null, "nearby_substitute_check": "OK -- geen nabijgelegen organisatie/wijk/gebouw verward met de kandidaat, adres en context consistent met de kandidaatnaam", "coordinates_exactly_from_marker": false, "uncertainty_honestly_marked": true}, "correction": null, "evidence": [{"url": "https://en.wikipedia.org/wiki/Ramakrishna_Mission_Home_of_Service", "supports": "Confirms institutional identity, founding and Luxa Road location"}, {"url": "https://belurmath.org/ramakrishna-mission-home-of-service-varanasi/", "supports": "Official Ramakrishna Math/Mission (Belur Math) page confirms the branch identity and address"}, {"url": "https://varanasi.rkmm.org/", "supports": "Institution's own site confirms Luxa, Varanasi address and contact details"}], "reason": "Institutionele identiteit sluitend bevestigd via de officiele Belur Math-bronvermelding en de instelling zelf op Luxa Road. Een Mappls (MapmyIndia)-vermelding bevatte een coordinaat-achtige URL-parameter, maar dit is geen Google Maps-bron en is daarom NIET gebruikt als eindcoordinaat (Google Maps is de enige geaccepteerde bron van waarheid). Geen publieke Google Maps-marker geconfirmeerd; oude vergelijkingscoordinaat niet hergebruikt.", "brons_source": "BRONS-B03.jsonl", "checked_at": "2026-08-02"}
+{"candidate_id": "VNS-CAND-027", "canonical_name": "Baba Keenaram Sthal / Krim Kund", "status": "NEEDS_REVIEW", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "research_status": "COMPLETED_UNRESOLVED", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "old_comparison": {"latitude": 25.2928, "longitude": 83.001, "geo_status": "WORKING_GOOGLE_MAPS_PIN", "use": "COMPARISON_ONLY"}, "identity_check": {"matched_place": "Baba Keenaram Sthal / Kreem Kund", "address": "Ravindrapuri Rd, Anandbagh, Bhelupur, Varanasi, Uttar Pradesh 221005, India", "physical_identity": "CONFIRMED", "marker_identity": "NOT_EXACTLY_EXTRACTED"}, "zilver_check": {"public_google_maps_marker_used": false, "marker_matches_physical_place": null, "nearby_substitute_check": "OK -- geen nabijgelegen organisatie/wijk/gebouw verward met de kandidaat, adres en context consistent met de kandidaatnaam", "coordinates_exactly_from_marker": false, "uncertainty_honestly_marked": true}, "correction": null, "evidence": [{"url": "https://en.wikipedia.org/wiki/Baba_Keenaram_Sthal", "supports": "Confirms identity as Aghor-sect headquarters/samadhi complex and gives an independent coordinate 25.29608,83.00264 (encyclopedic, not a Google Maps marker) close to the old comparison point"}, {"url": "https://yappe.in/uttar-pradesh/varanasi/baba-kinaram-krim-kund-varanasi/1283781", "supports": "Corroborates name, Ravindrapuri Road address and Aghor-peeth identity"}], "reason": "Fysieke identiteit sluitend: Aghor-hoofdzetel op Ravindrapuri Road, Bhelupur. De encyclopedische coordinaat (25.29608,83.00264) ligt dicht bij (~0.4 km) het oude vergelijkingscoordinaat, wat de algemene locatie ondersteunt, maar telt niet als Google Maps-marker. Geen publieke Google Maps-marker geconfirmeerd; geen schatting overgenomen.", "brons_source": "BRONS-B03.jsonl", "checked_at": "2026-08-02"}
+{
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=287 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/ZILVER/ZILVER-TESTSWEEP-022-040.jsonl blob_sha=31e06bc16b109e035c8cdb075744e1c24a69a270 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=10 classification=text
+"candidate_id": "VNS-CAND-028", "canonical_name": "Bhaskarananda Samadhi / Anand Bagh", "status": "NEEDS_REVIEW", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "research_status": "COMPLETED_UNRESOLVED", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "old_comparison": {"latitude": 25.2868, "longitude": 82.9968, "geo_status": "APPROXIMATE_LOCAL_POINT", "use": "COMPARISON_ONLY"}, "identity_check": {"matched_place": "Anand Bagh (samadhi-herdenking Swami Bhaskarananda Saraswati)", "address": "Durgakund Road, Anandbagh, Bhelupur, near Vankatti Hanumanji Mandir, Durgakund, Varanasi, Uttar Pradesh 221005, India", "physical_identity": "PARTIAL", "marker_identity": "NOT_EXACTLY_EXTRACTED"}, "zilver_check": {"public_google_maps_marker_used": false, "marker_matches_physical_place": null, "nearby_substitute_check": "OK -- geen nabijgelegen organisatie/wijk/gebouw verward met de kandidaat, adres en context consistent met de kandidaatnaam", "coordinates_exactly_from_marker": false, "uncertainty_honestly_marked": true}, "correction": null, "evidence": [{"url": "https://en.wikipedia.org/wiki/Swami_Bhaskarananda_Saraswati", "supports": "Confirms identity of the saint and that his samadhi shrine is at Durga Kund, Varanasi"}, {"url": "https://kevinstandagephotography.wordpress.com/2021/12/08/anand-bagh-memorial-swami-bhaskarananda-saraswati-varanasi/", "supports": "Detailed on-site account confirms the 1910 memorial location immediately east of Durga Kund"}], "reason": "Fysieke identiteit bevestigd als samadhi-herdenkingscomplex (Anand Bagh) direct bij Durga Kund; de brondata markeerde physical_identity al als PARTIAL, wat overeind blijft omdat het een herdenkingsterrein is zonder eenduidig hoofdgebouw. Geen publieke Google Maps-marker geconfirmeerd; geen schatting of terreinmiddelpunt overgenomen.", "brons_source": "BRONS-B03.jsonl", "checked_at": "2026-08-02"}
+{"candidate_id": "VNS-CAND-029", "canonical_name": "Dhamek Stupa", "status": "CONFIRMED", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "research_status": "COMPLETED_CONFIRMED", "geo_status": "VERIFIED_OFFICIAL_MAP_LINK", "final_latitude": 25.380889, "final_longitude": 83.024276, "old_comparison": {"latitude": 25.3807, "longitude": 83.0245, "geo_status": "WORKING_GOOGLE_MAPS_PIN", "use": "COMPARISON_ONLY"}, "identity_check": {"matched_place": "Dhamek Stupa", "address": "Dhamek Stupa, Sarnath, Varanasi, Uttar Pradesh 221007, India", "physical_identity": "CONFIRMED", "marker_identity": "NOT_EXACTLY_EXTRACTED"}, "zilver_check": {"public_google_maps_marker_used": true, "marker_matches_physical_place": true, "nearby_substitute_check": "OK -- geen nabijgelegen organisatie/wijk/gebouw verward met de kandidaat, adres en context consistent met de kandidaatnaam", "coordinates_exactly_from_marker": true, "uncertainty_honestly_marked": true}, "correction": "ZILVER-correctie: een officiele Google-kaartbron (Google Earth entity-API, geen Wikipedia/OSM-afgeleide) met expliciet coordinaat en feature-ID gevonden voor Dhamek Stupa. Status opgewaardeerd van GOOGLE_MAPS_MARKER_NOT_CONFIRMED naar VERIFIED_OFFICIAL_MAP_LINK; coordinaat overgenomen als eindpunt.", "evidence": [{"url": "https://en.wikipedia.org/wiki/Dhamek_Stupa", "supports": "Confirms identity as the Buddhist first-sermon stupa and gives coordinate 25.3808,83.0245 (encyclopedic, not a Google Maps marker), near-identical to the old comparison point"}, {"url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/dhamek-stupa", "supports": "Official government tourism source confirms identity and Sarnath location"}, {"url": "https://kashi.gov.in/listing-details/sarnath-dhamek-stupa", "supports": "Official Varanasi district listing confirms identity and location"}, {"url": "https://www.google.com/earth/rpc/entity?lat=25.380889&lng=83.024276&fid=0x398e2ec2c11a7a87:0x4462d0cd478e7d64&q=Dhamekh", "supports": "Officiele Google Earth entity-API-link (google.com/earth/rpc/entity) met ingesloten coordinaat 25.380889,83.024276 en feature-ID, opgehaald met zoekterm 'Dhamekh'; kom
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=288 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/ZILVER/ZILVER-TESTSWEEP-022-040.jsonl blob_sha=31e06bc16b109e035c8cdb075744e1c24a69a270 original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=10 classification=text
+t vrijwel exact overeen met het oude vergelijkingscoordinaat en de Wikipedia-coordinaat"}], "reason": "Fysieke identiteit ondubbelzinnig: hoofdstupa van Sarnath. De encyclopedische coordinaat (25.3808,83.0245) komt vrijwel exact overeen met het oude vergelijkingscoordinaat (25.3807,83.0245), een sterke onafhankelijke bevestiging van de bestaande pin, maar dit is geen Google Maps-marker en telt daarom niet als eindbevestiging. Geen publieke Google Maps-marker geconfirmeerd; het bestaande punt is niet automatisch overgenomen. ZILVER-correctie: een officiele Google-kaartbron (Google Earth entity-API, geen Wikipedia/OSM-afgeleide) met expliciet coordinaat en feature-ID gevonden voor Dhamek Stupa. Status opgewaardeerd van GOOGLE_MAPS_MARKER_NOT_CONFIRMED naar VERIFIED_OFFICIAL_MAP_LINK; coordinaat overgenomen als eindpunt.", "brons_source": "BRONS-B03.jsonl", "checked_at": "2026-08-02"}
+{"candidate_id": "VNS-CAND-030", "canonical_name": "Mulagandha Kuti Vihara", "status": "NEEDS_REVIEW", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "research_status": "COMPLETED_UNRESOLVED", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "old_comparison": {"latitude": 25.3819, "longitude": 83.0216, "geo_status": "WORKING_GOOGLE_MAPS_PIN", "use": "COMPARISON_ONLY"}, "identity_check": {"matched_place": "Mulagandha Kuti Vihara", "address": "Singhpuri, Sarnath, Varanasi, Uttar Pradesh 221007, India", "physical_identity": "CONFIRMED", "marker_identity": "NOT_EXACTLY_EXTRACTED"}, "zilver_check": {"public_google_maps_marker_used": false, "marker_matches_physical_place": null, "nearby_substitute_check": "OK -- geen nabijgelegen organisatie/wijk/gebouw verward met de kandidaat, adres en context consistent met de kandidaatnaam", "coordinates_exactly_from_marker": false, "uncertainty_honestly_marked": true}, "correction": null, "evidence": [{"url": "https://en.wikipedia.org/wiki/Sarnath", "supports": "Confirms Mulagandha Kuti Vihara as the Mahabodhi Society temple built 1931 in Sarnath"}, {"url": "https://www.tourmyindia.com/states/uttarpradesh/mulagandha-kuti-vihar-sarnath.html", "supports": "Confirms Singhpuri, Sarnath address and Mahabodhi Society management"}], "reason": "Fysieke identiteit bevestigd als actieve Mahabodhi Society-vihara in Singhpuri, Sarnath, ca. 1 km van Dhamek Stupa. Geen publieke Google Maps-marker met ingesloten coordinaat vastgesteld; oude vergelijkingscoordinaat niet hergebruikt.", "brons_source": "BRONS-B03.jsonl", "checked_at": "2026-08-02"}
+{"candidate_id": "VNS-CAND-031", "canonical_name": "Chaukhandi Stupa", "status": "CONFIRMED", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "research_status": "COMPLETED_CONFIRMED", "geo_status": "VERIFIED_OFFICIAL_MAP_LINK", "final_latitude": 25.37402, "final_longitude": 83.023588, "old_comparison": {"latitude": 25.3756, "longitude": 83.022, "geo_status": "WORKING_GOOGLE_MAPS_PIN", "use": "COMPARISON_ONLY"}, "identity_check": {"matched_place": "Chaukhandi Stupa", "address": "92FF+JC4, Rishipattan Rd, Sarnath, Varanasi, Uttar Pradesh 221007, India", "physical_identity": "CONFIRMED", "marker_identity": "NOT_EXACTLY_EXTRACTED"}, "zilver_check": {"public_google_maps_marker_used": true, "marker_matches_physical_place": true, "nearby_substitute_check": "OK -- geen nabijgelegen organisatie/wijk/gebouw verward met de kandidaat, adres en context consistent met de kandidaatnaam", "coordinates_exactly_from_marker": true, "uncertainty_honestly_marked": true}, "correction": "ZILVER-correctie: officiele Google-kaartbron (Google Earth entity-API) gevonden voor Chaukhandi Stupa. Status opgewaardeerd van GOOGLE_MAPS_MARKER_NOT_CONFIRMED naar VERIFIED_OFFICIAL_MAP_LINK; coordinaat overgenomen als eindpunt.", "evidence": [{"url": "https://en.wikipedia.org/wiki/Chaukhandi_Stupa", "supports": "Confirms identity as the Mughal-era octagonal tower stupa marking the Buddha/disciples meeting site, south of the main Sarnath complex"}, {"url": "https://www.tourmyindia.com/states/uttarpradesh/chaukhandi-stupa-sarnath.html", "supports": "Confirms Riship
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=289 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/ZILVER/ZILVER-TESTSWEEP-022-040.jsonl blob_sha=31e06bc16b109e035c8cdb075744e1c24a69a270 original_offset=20480 original_length=4096 payload_bytes=4096 chunk_index=5 chunk_count=10 classification=text
+attan Road address and site description"}, {"url": "https://www.google.com/earth/rpc/entity?lat=25.37402&lng=83.02358799999999&fid=0x398e2eef53b0d223:0x7ec223b12dc9827a&q=Chaukhandi", "supports": "Officiele Google Earth entity-API-link met ingesloten coordinaat 25.37402,83.023588 en feature-ID, opgehaald met zoekterm 'Chaukhandi'; ligt dicht bij (~200 m) het oude vergelijkingscoordinaat"}], "reason": "Fysieke identiteit bevestigd als apart, zuidelijker gelegen stupa-monument in Sarnath (los van Dhamek Stupa). Geen publieke Google Maps-marker met ingesloten coordinaat vastgesteld; oude vergelijkingscoordinaat niet hergebruikt. ZILVER-correctie: officiele Google-kaartbron (Google Earth entity-API) gevonden voor Chaukhandi Stupa. Status opgewaardeerd van GOOGLE_MAPS_MARKER_NOT_CONFIRMED naar VERIFIED_OFFICIAL_MAP_LINK; coordinaat overgenomen als eindpunt.", "brons_source": "BRONS-B04.jsonl", "checked_at": "2026-08-02"}
+{"candidate_id": "VNS-CAND-032", "canonical_name": "Sarnath Archaeological Museum", "status": "NEEDS_REVIEW", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "research_status": "COMPLETED_UNRESOLVED", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "old_comparison": {"latitude": 25.3817, "longitude": 83.0205, "geo_status": "WORKING_GOOGLE_MAPS_PIN", "use": "COMPARISON_ONLY"}, "identity_check": {"matched_place": "Sarnath Museum", "address": "Archaeological Museum Sarnath, Sarnath Station Rd, Sarnath, Varanasi, Uttar Pradesh 221007, India", "physical_identity": "CONFIRMED", "marker_identity": "NOT_EXACTLY_EXTRACTED"}, "zilver_check": {"public_google_maps_marker_used": false, "marker_matches_physical_place": null, "nearby_substitute_check": "OK -- geen nabijgelegen organisatie/wijk/gebouw verward met de kandidaat, adres en context consistent met de kandidaatnaam", "coordinates_exactly_from_marker": false, "uncertainty_honestly_marked": true}, "correction": null, "evidence": [{"url": "https://www.google.com/maps/place/Sarnath+Museum/data=!4m2!3m1!1s0x398e2ec2876ae30d:0xca00dec06b2e8c37", "supports": "Publieke Google Maps-plaatspagina bevestigt het bestaan en de naam 'Sarnath Museum', maar de URL bevat geen zichtbaar/extraheerbaar marker-coordinaat (@lat,lng); de pagina zelf kon niet interactief geopend worden om de marker af te lezen"}, {"url": "https://en.wikipedia.org/wiki/Sarnath_Museum", "supports": "Confirms identity as oldest ASI site museum, established 1910, gives independent coordinate ~25.38389,83.02194 close to old comparison"}], "reason": "Fysieke identiteit sluitend bevestigd, inclusief een gevonden publieke Google Maps-plaatspagina voor 'Sarnath Museum'. Uit die pagina kon echter geen exact marker-coordinaat worden afgelezen (geen '@lat,lng' in de URL, en interactief openen van de Maps-pagina was niet mogelijk in deze sessie); daarom blijft de status GOOGLE_MAPS_MARKER_NOT_CONFIRMED in plaats van EXACT_GOOGLE_MAPS_MARKER. Geen schatting overgenomen.", "brons_source": "BRONS-B04.jsonl", "checked_at": "2026-08-02"}
+{"candidate_id": "VNS-CAND-033", "canonical_name": "Deer Park / Isipatana sacred landscape", "status": "CONFIRMED", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "research_status": "COMPLETED_CONFIRMED", "geo_status": "VERIFIED_OFFICIAL_MAP_LINK", "final_latitude": 25.3825, "final_longitude": 83.024445, "old_comparison": {"latitude": 25.3813, "longitude": 83.023, "geo_status": "WORKING_GOOGLE_MAPS_PIN", "use": "COMPARISON_ONLY"}, "identity_check": {"matched_place": "Sarnath Deer Park (Isipatana)", "address": "Deer Park, Sarnath, Varanasi, Uttar Pradesh 221007, India", "physical_identity": "CONFIRMED", "marker_identity": "NOT_EXACTLY_EXTRACTED"}, "zilver_check": {"public_google_maps_marker_used": true, "marker_matches_physical_place": true, "nearby_substitute_check": "OK -- geen nabijgelegen organisatie/wijk/gebouw verward met de kandidaat, adres en context consistent met de kandidaatnaam", "coordinates_exactly_from_marker": true, "uncertainty_honestly_marked": true}, "correction": "ZILVER-correctie: officiele Google-kaartbron (Goo
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=290 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/ZILVER/ZILVER-TESTSWEEP-022-040.jsonl blob_sha=31e06bc16b109e035c8cdb075744e1c24a69a270 original_offset=24576 original_length=4096 payload_bytes=4096 chunk_index=6 chunk_count=10 classification=text
+gle Earth entity-API) gevonden voor Deer Park/Isipatana. Status opgewaardeerd van GOOGLE_MAPS_MARKER_NOT_CONFIRMED naar VERIFIED_OFFICIAL_MAP_LINK; coordinaat overgenomen als eindpunt.", "evidence": [{"url": "https://en.wikipedia.org/wiki/Sarnath_Deer_Park", "supports": "Confirms identity as the historic Isipatana deer park within the Sarnath sacred landscape, gives coordinate 25.3820367,83.0266202 close to old comparison"}, {"url": "https://www.trawell.in/uttar-pradesh/sarnath/deer-park", "supports": "Corroborates identity, function and Sarnath location"}, {"url": "https://www.google.com/earth/rpc/entity?lat=25.3825&lng=83.02444500000001&fid=0x398e2ec325d7e09b:0x9c039a08bc3a2a76&q=deer", "supports": "Officiele Google Earth entity-API-link met ingesloten coordinaat 25.3825,83.024445 en feature-ID, opgehaald met zoekterm 'deer' (Sarnath Deer Park); ligt dicht bij (~150 m) het oude vergelijkingscoordinaat"}], "reason": "Fysieke identiteit bevestigd als het historische Isipatana-hertenpark, onderdeel van het Sarnath-heiligdomlandschap. Geen publieke Google Maps-marker met ingesloten coordinaat vastgesteld; oude vergelijkingscoordinaat niet hergebruikt. ZILVER-correctie: officiele Google-kaartbron (Google Earth entity-API) gevonden voor Deer Park/Isipatana. Status opgewaardeerd van GOOGLE_MAPS_MARKER_NOT_CONFIRMED naar VERIFIED_OFFICIAL_MAP_LINK; coordinaat overgenomen als eindpunt.", "brons_source": "BRONS-B04.jsonl", "checked_at": "2026-08-02"}
+{"candidate_id": "VNS-CAND-034", "canonical_name": "Saranganath Temple", "status": "NEEDS_REVIEW", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "research_status": "COMPLETED_UNRESOLVED", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "old_comparison": {"latitude": 25.3833, "longitude": 83.0225, "geo_status": "WORKING_GOOGLE_MAPS_PIN", "use": "COMPARISON_ONLY"}, "identity_check": {"matched_place": "Saranganath Mahadev Mandir", "address": "Baraipur, Sarnath, Varanasi, Uttar Pradesh 221007, India", "physical_identity": "CONFIRMED", "marker_identity": "NOT_EXACTLY_EXTRACTED"}, "zilver_check": {"public_google_maps_marker_used": false, "marker_matches_physical_place": null, "nearby_substitute_check": "OK -- geen nabijgelegen organisatie/wijk/gebouw verward met de kandidaat, adres en context consistent met de kandidaatnaam", "coordinates_exactly_from_marker": false, "uncertainty_honestly_marked": true}, "correction": null, "evidence": [{"url": "https://yappe.in/uttar-pradesh/varanasi/saarngnaath-mhaadev-mndir-saranganath-mahadev-mandir/448087", "supports": "Confirms temple identity and Baraipur, Sarnath address"}, {"url": "https://wanderlog.com/place/details/12471177/sarangnath-shiv-temple-saranath", "supports": "Google-derived listing corroborates name and Sarnath locality, and the two-lingam (Sarang Nath/Somnath) identity"}], "reason": "Fysieke identiteit bevestigd als lokale Shiva-tempel in Baraipur, Sarnath, met twee lingams (Sarang Nath en Somnath). Geen publieke Google Maps-marker met ingesloten coordinaat vastgesteld; oude vergelijkingscoordinaat niet hergebruikt.", "brons_source": "BRONS-B04.jsonl", "checked_at": "2026-08-02"}
+{"candidate_id": "VNS-CAND-035", "canonical_name": "Tulsi Manas Temple", "status": "NEEDS_REVIEW", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "research_status": "COMPLETED_UNRESOLVED", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "old_comparison": {"latitude": 25.2883, "longitude": 83.0003, "geo_status": "WORKING_GOOGLE_MAPS_PIN", "use": "COMPARISON_ONLY"}, "identity_check": {"matched_place": "Tulsi Manas Mandir", "address": "Durga Kund, Bhelupur, Varanasi, Uttar Pradesh, India", "physical_identity": "CONFIRMED", "marker_identity": "NOT_EXACTLY_EXTRACTED"}, "zilver_check": {"public_google_maps_marker_used": false, "marker_matches_physical_place": null, "nearby_substitute_check": "OK -- geen nabijgelegen organisatie/wijk/gebouw verward met de kandidaat, adres en context consistent met de kandidaatnaam", "coordinates_exactly_from_marker": fa
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=291 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/ZILVER/ZILVER-TESTSWEEP-022-040.jsonl blob_sha=31e06bc16b109e035c8cdb075744e1c24a69a270 original_offset=28672 original_length=4096 payload_bytes=4096 chunk_index=7 chunk_count=10 classification=text
+lse, "uncertainty_honestly_marked": true}, "correction": null, "evidence": [{"url": "https://en.wikipedia.org/wiki/Tulsi_Manas_Mandir", "supports": "Confirms identity, Durga Kund location and Tulsidas association, gives coordinate 25.287206,83.000417 near-identical to the old comparison point"}, {"url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/tulsi-manas-mandir", "supports": "Official government tourism source confirms identity and location"}], "reason": "Fysieke identiteit ondubbelzinnig bevestigd. De encyclopedische coordinaat (25.287206,83.000417) komt vrijwel exact overeen met het oude vergelijkingscoordinaat, een sterke onafhankelijke bevestiging, maar geen Google Maps-marker. Geen publieke Google Maps-marker geconfirmeerd; het bestaande punt is niet automatisch overgenomen.", "brons_source": "BRONS-B04.jsonl", "checked_at": "2026-08-02"}
+{"candidate_id": "VNS-CAND-036", "canonical_name": "Tulsi Ghat", "status": "NEEDS_REVIEW", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "research_status": "COMPLETED_UNRESOLVED", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "old_comparison": {"latitude": 25.2906, "longitude": 83.0068, "geo_status": "WORKING_GOOGLE_MAPS_PIN", "use": "COMPARISON_ONLY"}, "identity_check": {"matched_place": "Tulsi Ghat", "address": "B2/40, Assi Rd, Ghats of Varanasi, Shivala, Varanasi, Uttar Pradesh 221001, India", "physical_identity": "CONFIRMED", "marker_identity": "NOT_EXACTLY_EXTRACTED"}, "zilver_check": {"public_google_maps_marker_used": false, "marker_matches_physical_place": null, "nearby_substitute_check": "OK -- geen nabijgelegen organisatie/wijk/gebouw verward met de kandidaat, adres en context consistent met de kandidaatnaam", "coordinates_exactly_from_marker": false, "uncertainty_honestly_marked": true}, "correction": null, "evidence": [{"url": "https://en.wikipedia.org/wiki/Tulsi_Ghat", "supports": "Confirms identity, Tulsidas association (formerly Lolark Ghat) and Shivala/Assi Road location"}, {"url": "https://mnmtravels.in/blog/detail/tulsi-ghat-varanasi", "supports": "Corroborates address and historical significance"}], "reason": "Fysieke identiteit bevestigd als de ghat waar Tulsidas woonde, in de Shivala-wijk. Geen publieke Google Maps-marker met ingesloten coordinaat vastgesteld; oude vergelijkingscoordinaat niet hergebruikt.", "brons_source": "BRONS-B04.jsonl", "checked_at": "2026-08-02"}
+{"candidate_id": "VNS-CAND-037", "canonical_name": "Lolark Kund", "status": "NEEDS_REVIEW", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "research_status": "COMPLETED_UNRESOLVED", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "old_comparison": {"latitude": 25.2875, "longitude": 83.0038, "geo_status": "WORKING_GOOGLE_MAPS_PIN", "use": "COMPARISON_ONLY"}, "identity_check": {"matched_place": "Lolark Kund / Sri Lolarkeshwar Mahadev Temple", "address": "Bhadaini, near Assi/Tulsi Ghat, Shivala, Varanasi, Uttar Pradesh 221005, India", "physical_identity": "CONFIRMED", "marker_identity": "NOT_EXACTLY_EXTRACTED"}, "zilver_check": {"public_google_maps_marker_used": false, "marker_matches_physical_place": null, "nearby_substitute_check": "OK -- geen nabijgelegen organisatie/wijk/gebouw verward met de kandidaat, adres en context consistent met de kandidaatnaam", "coordinates_exactly_from_marker": false, "uncertainty_honestly_marked": true}, "correction": null, "evidence": [{"url": "https://kashi.gov.in/listing-details/lolark-kund-temple", "supports": "Official Varanasi district listing confirms identity and Shivala/Bhadaini location"}, {"url": "https://kevinstandagephotography.wordpress.com/2021/12/06/sri-lolarkeshwar-mahadev-temple-lolark-kund-varanasi-banaras-kashi/", "supports": "Detailed on-site account confirms identity, sun-tank function and location near Tulsi Ghat"}], "reason": "Fysieke identiteit bevestigd als rechthoekige heilige waterput (kund) met Lolarkeshwar Mahadev-tempel, nabij Assi/Tulsi Ghat. Geen decimale coordinaten in de gevonden bronnen en geen pub
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=292 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/ZILVER/ZILVER-TESTSWEEP-022-040.jsonl blob_sha=31e06bc16b109e035c8cdb075744e1c24a69a270 original_offset=32768 original_length=4096 payload_bytes=4096 chunk_index=8 chunk_count=10 classification=text
+lieke Google Maps-marker vastgesteld; oude vergelijkingscoordinaat niet hergebruikt.", "brons_source": "BRONS-B04.jsonl", "checked_at": "2026-08-02"}
+{"candidate_id": "VNS-CAND-038", "canonical_name": "Ratneshwar Mahadev Temple", "status": "NEEDS_REVIEW", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "research_status": "COMPLETED_UNRESOLVED", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "old_comparison": {"latitude": 25.3113, "longitude": 83.0145, "geo_status": "WORKING_GOOGLE_MAPS_PIN", "use": "COMPARISON_ONLY"}, "identity_check": {"matched_place": "Ratneshwar Mahadev Mandir (het 'scheve/leunende' tempel)", "address": "Manikarnika Ghat, Varanasi, Uttar Pradesh, India", "physical_identity": "CONFIRMED", "marker_identity": "NOT_EXACTLY_EXTRACTED"}, "zilver_check": {"public_google_maps_marker_used": false, "marker_matches_physical_place": null, "nearby_substitute_check": "OK -- geen nabijgelegen organisatie/wijk/gebouw verward met de kandidaat, adres en context consistent met de kandidaatnaam", "coordinates_exactly_from_marker": false, "uncertainty_honestly_marked": true}, "correction": null, "evidence": [{"url": "https://en.wikipedia.org/wiki/Ratneshwar_Mahadev_temple", "supports": "Confirms identity as the leaning Shiva temple at Manikarnika Ghat, its 9-degree tilt, and gives coordinate 25.3119,83.01603 close to the old comparison point"}, {"url": "https://www.varanasiguru.com/ratneshwar-mahadev-temple/", "supports": "Corroborates identity, location and leaning-temple description"}], "reason": "Fysieke identiteit ondubbelzinnig: het bekende scheve Shiva-tempeltje aan Manikarnika Ghat. De encyclopedische coordinaat (25.3119,83.01603) ligt dicht bij het oude vergelijkingscoordinaat, een goede onafhankelijke bevestiging, maar geen Google Maps-marker. Geen publieke Google Maps-marker geconfirmeerd; bestaand punt niet automatisch overgenomen.", "brons_source": "BRONS-B04.jsonl", "checked_at": "2026-08-02"}
+{"candidate_id": "VNS-CAND-039", "canonical_name": "Shitala Mata Temple, Dashashwamedh", "status": "NEEDS_REVIEW", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "research_status": "COMPLETED_UNRESOLVED", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "old_comparison": {"latitude": 25.3064, "longitude": 83.0105, "geo_status": "WORKING_GOOGLE_MAPS_PIN", "use": "COMPARISON_ONLY"}, "identity_check": {"matched_place": "Shitala Mata Mandir, Shitala Ghat", "address": "Shitala Ghat / near Dashashwamedh Ghat, Ghasi Tola / Bangali Tola, Varanasi, Uttar Pradesh 221001, India", "physical_identity": "CONFIRMED", "marker_identity": "NOT_EXACTLY_EXTRACTED"}, "zilver_check": {"public_google_maps_marker_used": false, "marker_matches_physical_place": null, "nearby_substitute_check": "OK -- geen nabijgelegen organisatie/wijk/gebouw verward met de kandidaat, adres en context consistent met de kandidaatnaam", "coordinates_exactly_from_marker": false, "uncertainty_honestly_marked": true}, "correction": null, "evidence": [{"url": "https://kashi.gov.in/listing-details/shitala-mata-mandir", "supports": "Official Varanasi district listing confirms identity and Shitala Ghat location adjoining Dashashwamedh Ghat"}, {"url": "https://www.explorebanaras.in/place/shitala-mata-mandir/", "supports": "Corroborates identity, address and Shakti-temple function"}], "reason": "Fysieke identiteit bevestigd als Shakti-tempel op Shitala Ghat, direct ten zuiden van Dashashwamedh Ghat. Geen publieke Google Maps-marker met ingesloten coordinaat vastgesteld; oude vergelijkingscoordinaat niet hergebruikt.", "brons_source": "BRONS-B04.jsonl", "checked_at": "2026-08-02"}
+{"candidate_id": "VNS-CAND-040", "canonical_name": "Bharat Mata Temple", "status": "NEEDS_REVIEW", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "research_status": "COMPLETED_UNRESOLVED", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "old_comparison": {"latitude": 25.317, "longitude": 82.989, "geo_status": "WORKING_GOOGLE_MAPS_PIN"
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=293 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/ZILVER/ZILVER-TESTSWEEP-022-040.jsonl blob_sha=31e06bc16b109e035c8cdb075744e1c24a69a270 original_offset=36864 original_length=1577 payload_bytes=1577 chunk_index=9 chunk_count=10 classification=text
+, "use": "COMPARISON_ONLY"}, "identity_check": {"matched_place": "Bharat Mata Mandir", "address": "Mahatma Gandhi Kashi Vidyapeeth campus, Varanasi, Uttar Pradesh, India", "physical_identity": "CONFIRMED", "marker_identity": "NOT_EXACTLY_EXTRACTED"}, "zilver_check": {"public_google_maps_marker_used": false, "marker_matches_physical_place": null, "nearby_substitute_check": "OK -- geen nabijgelegen organisatie/wijk/gebouw verward met de kandidaat, adres en context consistent met de kandidaatnaam", "coordinates_exactly_from_marker": false, "uncertainty_honestly_marked": true}, "correction": null, "evidence": [{"url": "https://en.wikipedia.org/wiki/Bharat_Mata_Mandir", "supports": "Confirms identity, 1936 construction by Babu Shiv Prasad Gupta, Gandhi inauguration, marble Akhand Bharat relief map, and gives coordinate 25.317222,82.989167 near-identical to the old comparison point"}, {"url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/bharat-mata-temple", "supports": "Official government tourism source confirms identity and Kashi Vidyapeeth campus location"}], "reason": "Fysieke identiteit ondubbelzinnig bevestigd: het civiele 'tempel'-monument met reliëfkaart van India op de Kashi Vidyapeeth-campus. De encyclopedische coordinaat (25.317222,82.989167) komt vrijwel exact overeen met het oude vergelijkingscoordinaat, een sterke onafhankelijke bevestiging, maar geen Google Maps-marker. Geen publieke Google Maps-marker geconfirmeerd; bestaand punt niet automatisch overgenomen.", "brons_source": "BRONS-B04.jsonl", "checked_at": "2026-08-02"}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=294 path=india5/schemas/status.schema.json blob_sha=3304052bb6ddcf34112d4e7936816092c0b288d6 original_offset=0 original_length=3320 payload_bytes=3320 chunk_index=0 chunk_count=1 classification=text
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "india5/schemas/status.schema.json",
+  "title": "INDIA5 STATUS.yaml",
+  "description": "Schema voor de voortgangsstatus van een taak. TASK.yaml is immutable na uitgifte; alle voortgang leeft hier.",
+  "type": "object",
+  "required": ["task_id", "state", "history"],
+  "properties": {
+    "task_id": {"type": "string"},
+    "state": {
+      "type": "string",
+      "enum": ["QUEUED", "ACTIVE", "COMPLETED", "FAILED"]
+    },
+    "claimed_at": {"type": ["string", "null"], "format": "date-time"},
+    "claimed_by": {"type": ["string", "null"]},
+    "started_at": {"type": ["string", "null"], "format": "date-time"},
+    "completed_at": {"type": ["string", "null"], "format": "date-time"},
+    "git_commit_at_claim": {
+      "type": ["string", "null"],
+      "description": "HEAD-commit op het moment van claimen (vóór de claim-commit zelf)."
+    },
+    "git_commit_at_complete": {
+      "type": ["string", "null"],
+      "description": "Kan NIET zelfreferentieel in dit bestand staan (de commit die dit bestand bevat, bestaat nog niet op schrijfmoment). Blijft null tot een latere, aparte git-log-opzoeking dit invult, of wordt uitsluitend gerapporteerd in de CCI_RESULT PR-comment na de daadwerkelijke push."
+    },
+    "completion_marker_found": {
+      "type": ["boolean", "null"],
+      "description": "True zodra complete_task.py heeft geverifieerd dat RESULT.md de exacte completion_marker uit TASK.yaml bevat."
+    },
+    "failure_reason": {"type": ["string", "null"]},
+    "pre_existing_dirty_paths": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Door claim_task.py vastgelegde snapshot van paden die al gewijzigd/ongetrackt waren VOORDAT deze taak geclaimd werd (bv. ander vastgehouden werk zoals een CCI_HOLD). check_forbidden_writes.py rekent deze paden niet toe aan deze taak."
+    },
+    "hold": {
+      "type": "object",
+      "description": "Instructieprecedentie punt 2: een expliciete HOLD/ABORT-status in de taakbestanden zelf staat BOVEN Mark-besluitenregister, PR-comments, chattekst en lokale hooks (maar ONDER de canonieke TASK.yaml/TASK.md zelf). Zolang hold.active=true, mag CCI de TASK.md-instructies niet uitvoeren, alleen lezen/wachten/rapporteren.",
+      "required": ["active", "reason", "set_at", "set_by"],
+      "properties": {
+        "active": {"type": "boolean"},
+        "reason": {"type": ["string", "null"]},
+        "set_at": {"type": ["string", "null"], "format": "date-time"},
+        "set_by": {"type": ["string", "null"]}
+      }
+    },
+    "result_comment_posted": {
+      "type": "boolean",
+      "description": "True zodra de CCI_RESULT(_ENVELOPE)-comment daadwerkelijk op de PR is geplaatst. Voorkomt dat een hervattende sessie na een completion-move zonder comment (crashtoestand d) de comment dubbel of nooit post."
+    },
+    "history": {
+      "type": "array",
+      "description": "Append-only logboek van state-overgangen, nooit eerdere regels overschrijven.",
+      "items": {
+        "type": "object",
+        "required": ["at", "event"],
+        "properties": {
+          "at": {"type": "string", "format": "date-time"},
+          "event": {"type": "string"},
+          "detail": {"type": "string"}
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=295 path=governance/HANDOFF_INDIA6_TO_INDIA7_2026-08-19.md blob_sha=3312cdfa85dd26e6b2be1cb3f9b393e0c121c765 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# HANDOFF INDIA6 -> INDIA7
+
+Datum: 2026-08-19
+Status: DURABLE SUCCESSOR HANDOFF — BIJGEWERKT NA 087R + EXTERNE CHATGPT-FREEZES
+Repo: `bnzgxknwrv-tech/india-knowledge-base`
+Actieve CCI-werkbranch: `claude/werk-je-nu-of-niet-oa10y7`
+PR relay: #23
+
+## 1. ROLCONTINUITEIT
+- INDIA7 is de directe functionele opvolger van INDIA6 en daarmee van INDIA2.
+- INDIA3/INDIA4/INDIA5 waren experimentele/mislukte architecturen en zijn geen inhoudelijke rolvoorgangers.
+- Mark bepaalt doelen, voorkeuren en A/B/C-keuzes.
+- ChatGPT/INDIA = regisseur, onafhankelijke bronredenering/synthese, CCI-tasking en QA.
+- CCI = Claude Code India, uitvoerende research/GitHub-engine.
+- Losse externe AI-runs = onafhankelijke detectorlagen; geen claims als waarheid behandelen zonder bronverificatie.
+
+## 2. WERKSTIJL
+- Handel eerst, praat daarna.
+- Als iets moet gebeuren: dezelfde beurt uitvoeren met tools of exacte uitvoeractie geven.
+- Na afronding altijd direct `what's next` bepalen.
+- Kort/direct; technische details alleen indien nodig/gevraagd.
+- Geen passieve TODO's.
+- Alles dat Mark naar een andere AI moet plakken volledig in één los fenced code block.
+- Geen PDF tenzij Mark expliciet vraagt.
+- Geen oude beslissingen heropenen zonder nieuwe cruciale informatie.
+
+## 3. HOOFDARCHITECTUUR
+Strategische volgorde LOCKED:
+`LANDELIJKE PERSONEN-SWEEPS -> EXTERNAL BLIND FREEZES -> RECONCILIATIE -> CLUSTERHEATMAP -> REGIONALE CLUSTERSWEEPS -> MARK A/B/C -> ROUTE`
+
+METHOD_V2:
+`CORPUS INVENTORY -> LOSSLESS CORPUS OCCURRENCE EXTRACTION -> EVENT/PLACE NORMALIZATION -> HOST/NETWORK GRAPH -> WEB DISCOVERY -> INDIA INDEPENDENT METHOD PASS -> EXTERNAL MULTI-AI ADVERSARIAL UNION -> DIRECT VERIFICATION/RECONCILIATION -> SATURATION`
+
+Yogananda-benchmark:
+- externe union leverde echte interne misses;
+- 8/8 rechtstreeks getoetste externe kandidaten waren `VERIFIED_TRUE`;
+- CCI vond zelf Regent Hotel Bombay, gemist door alle vijf externe AI's.
+Verdict: `EXTERNAL_MULTI_AI_MANDATORY_FOR_REMAINING_TOP11: JA` voor alle full-deep personen.
+
+## 4. SWEEPDIEPTE — LOCKED_BY_MARK
+Volledige landelijke METHOD_V2 deep sweep:
+1. Paramahansa Yogananda
+2. Mahavatar Babaji
+3. Lahiri Mahasaya
+4. Sri Yukteswar
+5. Neem Karoli Baba
+6. Ram Dass
+7. Ramana Maharshi
+8. Ramakrishna
+
+Anandamayi Ma:
+- al uitzonderlijk breed behandeld via source-first + externe union + reconciliatie;
+- niet opnieuw vanaf nul.
+
+Targeted-only, GEEN exhaustieve landelijke sweep:
+- Vivekananda: alleen grootste/belangrijkste fysieke locaties.
+- Hariharananda: alleen grootste/belangrijkste fysieke locaties.
+
+Ramakrishna is expliciet full-deep omdat hij ondervertegenwoordigd was. Mark wil graag minstens één wezenlijke Ramakrishna-locatie bezoeken indien logisch passend; geen geforceerde grote omweg.
+
+## 5. CCI_TASK 087 / 087R — AFGEROND
+087 = Babaji + Lahiri Mahasaya + Sri Yukteswar, nationale METHOD_V2 pre-external freezes.
+087R = recovery na max-context.
+
+Uitkomst:
+- eerste poging met 3 parallelle subagents faalde door sessielimiet zonder duurzame output;
+- CCI controleerde vervolgens durable state en voerde de drie freezes direct uit;
+- checkpoint commits:
+  - Babaji `6b79f1c`
+  - Lahiri Mahasaya `642e464`
+  - Sri Yukteswar `ea60ba5`
+  - STATUS + governance `7af5c4c`
+- bestanden:
+  - `runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/BABAJI_V2_PRE_EXTERNAL_FREEZE.md`
+  - `.../LAHIRI_MAHASAYA_V2_PRE_EXTERNAL_FREEZE.md`
+  - `.../SRI_YUKTESWAR_V2_PRE_EXTERNAL_FREEZE.md`
+- alle drie `SATURATED: NEE` met expliciete hiaten.
+
+NEXT voor deze drie:
+- blanco externe multi-AI sweeps / externe blind data gebruiken;
+- daarna directe verificatie + reconciliatie;
+- geen cluster/regio/A-B-C/route vóór deze nationale fase correct is verwerkt.
+
+## 6. GITHUB-COMMENT WEKT CCI AUTOMATISCH
+Mark heeft daadwerkelijk een Claude Code event gezien:
+`<wake reason="external-event">` met `source="github" kind="issue_comment.created"` voor CCI_TASK 087R.
+
+Operationele regel:
+- nieuwe CCI_TASK als top-level PR #23-comment wekt CCI automatisch;
+- Mark hoeft CCI normaal NIET handmatig te starten;
+- geen duplicate task plaatsen omdat resultaat ni
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=296 path=governance/HANDOFF_INDIA6_TO_INDIA7_2026-08-19.md blob_sha=3312cdfa85dd26e6b2be1cb3f9b393e0c121c765 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+et onmiddellijk terugkomt;
+- eerst actuele PR #23-state controleren;
+- alleen bij aantoonbare trigger-failure escaleren.
+
+## 7. ONAFHANKELIJKE CHATGPT-BLINDSWEEP — ALLE ACHT FREEZES KLAAR
+Aparte branch:
+`agent/chatgpt-top11-parallel-sweep`
+
+Taak:
+`runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/TASK.md`
+
+Status op 2026-08-19:
+`ALL_EIGHT_PRE_COMPARE_FREEZES_COMPLETE_STOP`
+
+Alle acht onafhankelijke PRE-COMPARE freezes zijn klaar, zonder interne CCI/person-atlas vergelijking:
+- Yogananda: 127 locaties — freeze `69a387d162b4fe7b89b63bbd1b11f0d56e62443d` — saturation NEE
+- Mahavatar Babaji: 35 — `f565ff163e35597d2c4ed802676a4671f9da3b70` — saturation NEE
+- Lahiri Mahasaya: 60 — `71bb5b6406fec1e7b59511e7957d247c3bdabc50` — saturation JA (web; resterend archief/field)
+- Sri Yukteswar: 38 — `7ebad72652cf14d750c00aaa77fc25f53f2be2cd` — saturation NEE
+- Neem Karoli Baba: 113 — `180bf023a0a06f7ebb0d9df762e5fe0530f59954` — saturation NEE
+- Ram Dass: 57 — `799949b551564a9993d4afe15403c36e55213af2` — saturation NEE
+- Ramana Maharshi: 103 — `1eb3e422c25bba5ef8ec9c72a43332e62ca227c4` — saturation NEE
+- Ramakrishna: 175 — `f813a8ae17ca61a98ac0beb0dac214ad2169e9a8` — saturation JA
+
+HARD:
+- branch-STATUS zegt nog steeds: `comparison_with_internal_allowed: NEE` binnen die run;
+- de blind-run zelf moet STOP blijven;
+- INDIA7 mag nu buiten die run een APARTE reconciliatietaak ontwerpen, maar de frozen branch zelf niet verder laten vergelijken/mergen.
+
+## 8. PARALLEL-SUBAGENT REGEL
+Voor grote sweeps, indien executor dit ondersteunt:
+- onafhankelijke corpus/source/geografie/host/foto/adversarial streams parallel;
+- geen cross-seeding tijdens discovery;
+- synthese/deduplicatie pas na afronding;
+- saturation pas na synthese;
+- als subagents falen door sessielimiet: durable checkpoints per worker/persoon verplicht, daarna hervatten zonder dubbel werk.
+
+## 9. ARUNACHALA / TIRUVANNAMALAI — LOCKED_BY_MARK A-ANKER
+Mark voelt sterk voor Arunachala/Tiruvannamalai en wil deze plek graag in de reis. Behandel als A-anker, maar route/nachten pas later optimaliseren.
+
+Terminologie:
+- Arunachala = heilige berg;
+- Tiruvannamalai = stad;
+- Sri Ramanasramam = Ramana-ashram aan de voet.
+
+Yogananda-Ramana:
+- bezoek Sri Ramanasramam: 29 november 1935;
+- archival-film bron lokaliseert de GEFILMDE scene op een bench direct ten noorden van de Old Hall;
+- NIET overclaimen dat de volledige conversatie exact op die bench plaatsvond;
+- exact filmshot versus exacte locatie van gehele conversatie apart houden.
+
+Deze exacte-site bevinding was user-driven en post-pre-external-freeze; niet retroactief onderdeel maken van de interne pre-freeze baseline.
+
+## 10. CLUSTERLOGICA ROND ARUNACHALA
+Niet automatisch Puducherry kiezen.
+
+Regel:
+1. Arunachala/Tiruvannamalai = anker.
+2. Na nationale atlas/reconciliatie bepalen welk redelijk nabij gebied de hoogste concentratie AOAY + full-deep Top-X fysieke locaties heeft.
+3. Dat hoogste missiedichtheidsgebied wordt tweede-clusterkandidaat.
+4. Puducherry/Sri Aurobindo is gewenst en telt positief, maar alleen als totale opbrengst de verplaatsing rechtvaardigt.
+5. Geen kunstmatige mega-cluster; afzonderlijke stadsclusters + corridor.
+
+Mark wil Sri Aurobindo graag bezoeken maar accepteert dat keuzes nodig zijn.
+
+## 11. REISCONTEXT
+- 18 dec 2026 t/m 21 jan 2027, circa 34 nachten.
+- Terugvlucht gepland vanaf Delhi.
+- Arunachala moet dus later in totale zuid->noord-route passen.
+- Reisdoel: AOAY + eigen Kriya-lijn + full-deep personen + zelfstandige pelgrimage-zwaargewichten.
+- Niet backpacking; genoeg tijd voor meditatie/stilte.
+
+## 12. REGIOVOLGORDE / HOLD
+- Eerst nationale persoonslagen + externe freezes + reconciliatie.
+- Daarna clusterheatmap.
+- Daarna regionale sweeps.
+- Eerste regioprioriteit: Tiruvannamalai/Arunachala.
+- Tweede: Kolkata/Serampore.
+- Geen regionale sweep starten voordat reconciliatie/heatmap-fase dit vrijgeeft.
+
+## 13. YOGANANDA EXTERNAL UNION / PR #24
+- PR #24 bevat externe multi-AI Yogananda-masteratlas; dit was benchmark-control-input.
+- Niet blind als volledig geverifieerde canon behand
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=297 path=governance/HANDOFF_INDIA6_TO_INDIA7_2026-08-19.md blob_sha=3312cdfa85dd26e6b2be1cb3f9b393e0c121c765 original_offset=8192 original_length=2228 payload_bytes=2228 chunk_index=2 chunk_count=3 classification=text
+elen.
+- CCI 086-reconciliatie is de benchmarkuitkomst.
+- Niet zomaar mergen als benchmark-/provenancegrenzen daardoor vervagen.
+
+## 14. AOAY LAAG BLIJFT OPEN
+- eerste full-book ronde: 1.359 occurrence-records;
+- 123 genormaliseerde plaatsen;
+- 30 AOAY-found-but-missing-from-repo;
+- Kashmir-signaal;
+- `AOAY_LOCATION_SWEEP_SATURATED: NEE`.
+Later vervolgen met detectorverdieping + occurrence-verificatie; niet vergeten na persoons/reconciliatiefase.
+
+## 15. WHAT'S NEXT VOOR INDIA7
+1. Boot exact volgens root README: volledige tekstuele repo actieve werkbranch lezen.
+2. Lees `governance/INDIA_SESSION_START.md` en alle daarin genoemde latest handoffs/delta's.
+3. Lees dit bestand daarna opnieuw als laatste chatdelta.
+4. Controleer nieuwste PR #23-comment/CCI_RESULT en recente commits; task niets dubbel.
+5. Lees de 3 interne 087-freezes volledig.
+6. Lees de 8 externe frozen outputs op `agent/chatgpt-top11-parallel-sweep` pas NADAT de blind-freezes bevestigd compleet zijn (dat is nu het geval).
+7. Maak een aparte, duurzame reconciliatietaak: eerst Babaji + Lahiri + Sri Yukteswar omdat daarvoor zowel interne 087-freezes als externe freezes klaarstaan; directe bronverificatie van external-only/identity-conflict claims verplicht.
+8. Daarna bouw/laat bouwen de interne METHOD_V2 lagen voor Neem Karoli Baba + Ram Dass, Ramana Maharshi, Ramakrishna en reconcilieer tegen hun reeds frozen externe blind outputs.
+9. Houd Anandamayi bestaande brede dataset als input; niet opnieuw vanaf nul.
+10. Als landelijke full-deep personen gereconcilieerd zijn: clusterheatmap -> Arunachala-regiosweep -> Kolkata/Serampore -> Mark A/B/C -> route.
+11. AOAY saturation daarna/parallel waar methodisch veilig terug oppakken vóór definitieve route.
+
+## 16. VERBODEN FOUTEN
+- Niet aannemen dat CCI handmatig gestart moet worden.
+- Geen duplicate CCI_TASK zonder actuele PR #23 check.
+- Frozen externe branch niet achteraf besmetten/overschrijven met interne kandidaten.
+- Vivekananda/Hariharananda geen exhaustieve sweep geven.
+- Geen clusterkeuze vóór landelijke reconciliatie/heatmap.
+- Geen exacte Yogananda-Ramana conversatieplek overclaimen.
+- Geen A/B/C namens Mark voorspellen.
+- Geen PDF zonder expliciete opdracht.
+
+END HANDOFF
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=298 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/SRI_YUKTESWAR_RECONCILIATION.md blob_sha=3362bad00ad4b3553dc7fb2e0d1164e63c6542b2 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+# SRI_YUKTESWAR_RECONCILIATION
+
+```
+task_id: TOP11-CORE-KRIYA-RECONCILIATION-001
+cci_task: CCI_TASK 088
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-19
+interne_input: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/SRI_YUKTESWAR_V2_PRE_EXTERNAL_FREEZE.md
+  (freeze commit ea60ba5975b0169736cd95a14f5daeef7d4c0868, 7 site-niveau records)
+externe_input: agent/chatgpt-top11-parallel-sweep:
+  runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/SRI_YUKTESWAR_PRE_COMPARE_FREEZE.md
+  (freeze commit 7ebad72652cf14d750c00aaa77fc25f53f2be2cd, 38 records: SY-001 t/m SY-038)
+INDIA_ROOD_PENDING: JA — geen duurzame IndiaROOD-freeze voor Sri Yukteswar beschikbaar op dit
+  checkpointmoment. RECONCILIATION_GATE: PROVISIONEEL, EXTERNAL_MODEL_DIVERSITY_GATE: NEE.
+```
+
+## Uitgangspunt
+
+Mijn interne freeze was zelf al site-niveau (7 records, niet occurrence-voor-occurrence) met een
+expliciet benoemde beperking (`DISCOVERY-GATE: NEE`). De externe set (38) is veel fijnmaziger. Deze
+reconciliatie behandelt de externe granulariteit als een verdieping van mijn 7 site-records, niet
+als 38 losstaande nieuwe personen-claims — en verifieert daarbij de meest consequente externe
+toevoegingen rechtstreeks bij AOAY zelf (mijn enige toegankelijke primaire bron voor deze persoon).
+
+## Werkpakket A+B — matching
+
+| intern # | externe #'s | uitkomst | toelichting |
+|---|---|---|---|
+| 1 (Serampore Rai Ghat Lane, geboorte+hermitage) | SY-001 t/m SY-005, SY-008 | `SAME_SITE_DIFFERENT_GRANULARITY` | Extern splitst mijn ene kernrecord in vijf sublocaties (hal/binnenhof, zitkamer/balkon, eetpatio/keuken, slaapkamer, ochtendwandelroute). Alle vijf AOAY-hfst. 12/42-gebaseerd (S1) — consistent met mijn eigen bron, extern preciezer op kamerniveau. Geen conflict. |
+| 1 | SY-006 (Rai Ghat badingsghat) + SY-007 (banyanboom) | `SAME_SITE_SAME_EVENT` | Beide al apart bevestigd in mijn eigen Babaji-kruisverwijzing (record 4/6) en in `WERKPAKKET_D_DEEPENING_CCI_086.md`. Geen dubbeltelling. |
+| 1 | SY-009 (Serampore station) | `SAME_SITE_SAME_EVENT` | Matcht mijn interne record 6 rechtstreeks. |
+| (nieuw, ontbrak intern) | SY-010 (naamloze christelijke kerk bij Serampore Courthouse) | `EXTERNAL_ONLY_VERIFIED_MISS` | **Bronmatig gecontroleerd**: AOAY hfst. 20, regels 51/78 bevestigen "the Christian church near Serampore Courthouse" letterlijk, met Sri Yukteswar die er tweemaal loopt en Yogananda ontmoet. Ontbrak in mijn site-lijst — toegevoegd als correctie. Kerknaam zelf niet gegeven (extern noemt St. Olav's Church slechts als ongeverifieerde kandidaat). |
+| (nieuw, ontbrak intern) | SY-011 (Serampore Christian Missionary College) | `EXTERNAL_ONLY_UNVERIFIED` | Steunt op S12 (Wikipedia, via Satyananda-biografie), geen AOAY-locator gevonden door extern zelf. Niet door mij geverifieerd (geen toegang tot Satyananda's volledige biografie) — `BRON_GEBLOKKEERD`. |
+| 3 (Benares, Lahiri Mahasaya's huis) | SY-018 | `SAME_SITE_SAME_EVENT` | AOAY hfst. 12/36, identiek aan mijn record. |
+| (nieuw, ontbrak intern) | SY-016 (smalle lane, Bengali quarter, eerste ontmoeting) + SY-017 (Kadambini Devi's woning, Rana Mahal) | `EXTERNAL_ONLY_VERIFIED_MISS` — **belangrijke correctie** | **Bronmatig gecontroleerd**: AOAY hfst. 10 (regel 303) noemt expliciet de "Rana Mahal section of the city"; hfst. 12 (regel 981) zegt letterlijk: "Sri Yukteswar's mother lived in the Rana Mahal district of Benares." Dit is Sri Yukteswars EIGEN moeders huis — een aparte, tot nu toe in mijn freeze ontbrekende locatie, los van Lahiri Mahasaya's huis (record 3/SY-018). Ik had de hele Benares-eerste-ontmoeting-episode ten onrechte niet als eigen atlaspunt vastgelegd. Toegevoegd als correctie. |
+| 4 (Allahabad Kumbh Mela-oever, 1894) | SY-019 + SY-020 | `SAME_SITE_SAME_EVENT` | Matcht, kruisverwijzing naar Babaji-reconciliatie. |
+| (nieuw, ontbrak intern) | SY-021 (Mahabodhi Temple/Bodh Gaya, monastieke geloften 1906) | `EXTERNAL_ONLY_UNVERIFIED` | **Grote, mogelijk belangrijke claim** — Sri Yukteswar zou in 1906 bij de Mahabodhi Temple monastieke geloften hebben afgelegd onder Swami Krishna Dayal Giri. Nie
+<<< END CHUNK >>>
+

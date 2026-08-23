@@ -1,0 +1,1018 @@
+>>> CHUNK stream_row=1138 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/PROVISIONAL_ROUTE_CALC_BASES_2026-08-23.md blob_sha=c53a4a169dcec3ea98517a2eecdc5b537ebe9956 original_offset=4096 original_length=301 payload_bytes=301 chunk_index=1 chunk_count=2 classification=text
+
+- local A-site groupings;
+- realistic buffer/rest time;
+- Taj sunrise constraint;
+- trip calendar/festival/closure constraints;
+- no Haridwar/Rishikesh insertion until heavy-core capacity is visible;
+- Prayagraj treated separately as a reconciliation/corridor decision rather than silently inserted.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1139 path=runs/active/BODHGAYA-DISCOVERY-001/GOUD/BODHGAYA_GOUD_REPORT.md blob_sha=c5c42d65400a04fc2f5654c201b4eb03c952bc4e original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# GOUD — Bodh Gaya, eindrapport voor Mark
+
+run_id: BODHGAYA-DISCOVERY-001
+geschreven_op: 2026-08-03
+geschreven_door: CCI
+
+Dit rapport dekt uitsluitend de vier genummerde kandidaten (046-049). Het is geen PDF (op
+uitdrukkelijk verzoek niet gebouwd) en bevat geen A/B/C-keuzes namens Mark — uitsluitend een
+adviesrichting per kandidaat, ter voorbereiding op zijn eigen beslissing. Geen nummers gewijzigd,
+geen nieuwe kandidaten toegevoegd.
+
+---
+
+## Clusterindeling
+
+### Kerncluster (samen te combineren, korte afstand lopend)
+
+- **046 Mahabodhi Temple Complex**
+- **047 Sujata Stupa, Bakraur** (circa 1,2 km hemelsbreed van 046, bronnen noemen circa 20
+  minuten lopen)
+
+### Aanvullende cluster (eigen rit nodig, blijft CORE_PASS-waardig)
+
+- **048 Dungeshwari Cave Temples / Mahakala Caves** (circa 12-14 km van Bodh Gaya, bronafhankelijk;
+  geen zelf berekende afstand mogelijk zonder bevestigd coördinaat — zie GEO-status)
+
+### Losse optionele plek (dichtbij, makkelijk te combineren, maar niet kernwaardig)
+
+- **049 Great Buddha Statue** (circa 1,1-1,5 km van 046, gebaseerd op een NIET-bevestigd
+  referentiecoördinaat — zie GEO-status)
+
+---
+
+## 046 — Mahabodhi Temple Complex
+
+**Wat het precies is**: het complex rond de plek waar Boeddha de verlichting bereikte — de
+Vajrasana (diamanttroon, bewaard door keizer Ashoka), de directe nakomeling van de Bodhi-boom, en
+binnen dezelfde ommuurde grens de zeven traditionele "week"-plekken van de periode direct na de
+verlichting (Animeshlochan Chaitya, Ratnachakrama-juwelenwandelpad, Ratnaghar Chaitya, Ajapala
+Nigrodh-boom, Muchalinda-vijver, Rajyatana-boom).
+
+**Waarom deze plek bijzonder is**: dit is een van de vier belangrijkste boeddhistische
+pelgrimsplaatsen ter wereld (samen met Boeddha's geboorteplaats, eerste prediking en overlijden)
+— UNESCO-werelderfgoed, en de plek zelf, niet een afbeelding of herdenkteken ervan.
+
+**Wat Mark er concreet ervaart**: staan bij de Bodhi-boom en de Vajrasana, het tempelgebouw
+bezoeken, en desgewenst de zeven weekplekken binnen dezelfde ommuurde grens bekijken — één
+doorlopend bezoek, dagelijks vrij toegankelijk.
+
+**Waarom wel/niet NOT_TO_BE_MISSED**: **CORE_PASS**, na actieve weerlegging in de vergelijkende
+snoeironde standgehouden. Onvoorwaardelijk toegankelijk, geen enkele andere plek dekt de
+verlichting zelf af. Extra, zwaarwegend gegeven: Swami Sri Yukteswar Giri (Marks eigen
+paramaguru-lijn, positie 4 in `PRIORITY_GROUPS.md`) werd hier op Guru Purnima, juli 1906,
+geïnitieerd in de sannyas-orde — bevestigd via lineage-/institutionele bronnen, exacte locatie
+binnen Bodh Gaya nog niet vastgesteld (open onzekerheid).
+
+**Reistijd/afstand**: ankerplek van de kerncluster (0 km).
+
+**Bezoekbaarheid**: dagelijks vrij toegankelijk binnen normale tempeltijden, geen inschrijving of
+speciale toegang nodig.
+
+**GEO-status**: **CONFIRMED** — rechtstreekse Google Maps/Earth-entiteitsbevestiging,
+24.6959222°N, 84.9914193°E.
+
+**Adviesrichting (geen besluit)**: de combinatie van intrinsiek allerhoogste krachtveld, een
+bestaand Mark-precedent (`PRIORITY_GROUPS.md`: "Bodh Gaya werd een A-cluster puur door de kracht
+van de plek zelf") en de nu bevestigde directe Kriya-lijnverbinding maakt dit een zeer sterke
+kandidaat voor A.
+
+---
+
+## 047 — Sujata Stupa, Bakraur
+
+**Wat het precies is**: een archeologisch stoepacomplex (oorspronkelijke bouw 2e eeuw v.Chr.,
+latere uitbreidingsfase 8e-10e eeuw CE) op de plek waar Sujata, een dorpsvrouw uit Bakraur,
+Boeddha een kom rijstpudding aanbood.
+
+**Waarom deze plek bijzonder is**: deze gebeurtenis beëindigde Boeddha's zesjarige extreme ascese
+en leidde rechtstreeks tot zijn ontdekking van de Middenweg — een kernleerstuk van het
+boeddhisme, geen zijdelings detail.
+
+**Wat Mark er concreet ervaart**: een tastbaar, gedateerd monument op de exacte plek van deze
+gebeurtenis, circa 20 minuten lopen van het hoofdcomplex, eenvoudig te combineren op dezelfde dag.
+
+**Waarom wel/niet NOT_TO_BE_MISSED**: **CORE_PASS**, na actieve weerlegging standgehouden.
+Complementair aan zowel Mahabodhi (de verlichting zelf) als Dunges
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1140 path=runs/active/BODHGAYA-DISCOVERY-001/GOUD/BODHGAYA_GOUD_REPORT.md blob_sha=c5c42d65400a04fc2f5654c201b4eb03c952bc4e original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+hwari (de ascese die
+voorafging) — geen overlap.
+
+**Reistijd/afstand**: circa 1,2 km hemelsbreed van 046 (berekend uit de bevestigde coördinaten
+van beide kandidaten), bronnen noemen circa 20 minuten lopen (inclusief oversteek van de
+Phalgu-rivier).
+
+**Bezoekbaarheid**: archeologische site, altijd te bezoeken, geen speciale toegang nodig.
+
+**GEO-status**: **CONFIRMED** — rechtstreekse Google Maps/Earth-entiteitsbevestiging (inclusief
+Google Plus Code M2X3+58W), 24.6979887°N, 85.0033228°E. Loste een eerder gemelde drievoudige
+coördinaatconflictzaak op.
+
+**Adviesrichting (geen besluit)**: sterk kandidaat voor A; bij twijfel over reisschema eventueel
+B, gezien het iets kleinschaliger karakter dan het hoofdcomplex.
+
+---
+
+## 048 — Dungeshwari Cave Temples (Mahakala Caves)
+
+**Wat het precies is**: rotsgehouwen grottempels (5e-6e eeuw CE) op de plek waar Boeddha zes jaar
+extreme ascese beoefende vóór hij naar Bodh Gaya afdaalde voor de uiteindelijke verlichting, met
+een gouden beeld van de uitgemergelde Boeddha in ascese.
+
+**Waarom deze plek bijzonder is**: het spiegelbeeld-verhaal van Sujata's aanbieding — de ascese
+die eraan voorafging. Genoemd door de 7e-eeuwse Chinese pelgrim Xuanzang in zijn reisverslag.
+
+**Wat Mark er concreet ervaart**: een fysiek aangrijpend, tastbaar beeld van de Middenweg-les, in
+een rustiger, minder toeristische omgeving dan het hoofdcomplex.
+
+**Waarom wel/niet NOT_TO_BE_MISSED**: **CORE_PASS**, na actieve weerlegging standgehouden, ondanks
+de grotere reisinspanning — geen andere plek toont dit specifieke moment.
+
+**Reistijd/afstand**: circa 12-14 km van Bodh Gaya (bronafhankelijk: tourism.bihar.gov.in noemt
+12 km, andere bronnen tot 13,9 km) — dit is een brongebaseerde schatting, GEEN zelf berekende
+afstand, omdat er geen bevestigd coördinaat beschikbaar is voor 048 (zie GEO-status). Vereist een
+aparte rit (taxi/auto-riksja), geen speciale toegang.
+
+**Bezoekbaarheid**: vrij toegankelijk, geen inschrijving nodig, wel een aparte reisinspanning.
+
+**GEO-status**: **GOOGLE_MAPS_MARKER_NOT_CONFIRMED**. Vijf wezenlijk verschillende zoekpogingen
+over twee ZILVER-rondes leverden geen rechtstreekse Google Maps/Earth-entiteit op. Identiteit
+blijft eenduidig bevestigd via twee onafhankelijke overheidsbronnen (deelstaat + nationaal) en de
+dorpsnaam Larpur. Geen coördinaat geraden of overgenomen.
+
+**Adviesrichting (geen besluit)**: sterk kandidaat voor A voor wie de extra reisinspanning wil
+leveren; bij een strak reisschema eventueel B.
+
+---
+
+## 049 — Great Buddha Statue
+
+**Wat het precies is**: een circa 20 m hoog zittend Boeddhabeeld (24 m totale constructie
+inclusief lotus en voetstuk — Wikipedia is intern inconsistent tussen 18,5 m en 20 m voor het
+beeld zelf, hier genuanceerd vermeld), gebouwd door Daijokyo Buddhist Temple (Japanse
+leken-boeddhistische organisatie, gesticht door Tatsuko Sugiyama, tempelgebouw geopend 13
+februari 1983).
+
+**Waarom deze plek bijzonder is**: het eerste en grootste Boeddhabeeld ooit gebouwd in modern
+India, geconsacreerd door de 14e Dalai Lama op 18 november 1989 als symbool van de wereldwijde
+herleving van het boeddhisme.
+
+**Wat Mark er concreet ervaart**: een indrukwekkend, vrij toegankelijk landmark in open lucht,
+circa 1,1-1,5 km van het hoofdcomplex.
+
+**Waarom wel/niet NOT_TO_BE_MISSED**: **OPTIONAL_PASS**, niet CORE_PASS. Sterk landmark met een
+concreet, uniek feit (eerste/grootste + Dalai Lama-consecratie), maar geen onderdeel van Boeddha's
+eigen biografische verhaal zoals de drie CORE_PASS-locaties — het missen ervan slaat geen gat in
+het begrip van het verlichtingsverhaal zelf.
+
+**Reistijd/afstand**: circa 1,1-1,5 km van 046 — LET OP: deze afstand is berekend op basis van een
+NIET-bevestigd referentiecoördinaat (Wikipedia-infobox), niet op een geverifieerde marker. Vrij
+toegankelijk, geen speciale toegang nodig, eenvoudig te combineren met de kerncluster.
+
+**Bezoekbaarheid**: vrij toegankelijk, altijd zichtbaar, geen inschrijving nodig.
+
+**GEO-status**: **GOOGLE_MAPS_MARKER_NOT_CONFIRMED**. Drie zoekpogingen leverden geen
+rechtstreekse Google
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1141 path=runs/active/BODHGAYA-DISCOVERY-001/GOUD/BODHGAYA_GOUD_REPORT.md blob_sha=c5c42d65400a04fc2f5654c201b4eb03c952bc4e original_offset=8192 original_length=3071 payload_bytes=3071 chunk_index=2 chunk_count=3 classification=text
+ Maps/Earth-entiteit op. Het Wikipedia-infobox-coördinaat (24.690472°N,
+84.981806°E) blijft uitsluitend vergelijkingsmateriaal — conform protocol niet overgenomen als
+bevestigde marker (een "officieel websitecoördinaat" mag nooit als vervanging voor een
+geverifieerde marker dienen).
+
+**Adviesrichting (geen besluit)**: mogelijk B, mogelijk A als het landmark en de
+Dalai-Lama-consecratie Mark specifiek aanspreken; C niet uitgesloten gezien het optionele
+karakter.
+
+---
+
+## WATCHLIST-items (los vastgelegd, hier niet uitgewerkt)
+
+Negen locaties bleven WATCHLIST na de vergelijkende snoeironde en de identiteitscontrole:
+Archaeological Museum of Bodh Gaya, Vishnupad Temple (Gaya), Tergar Monastery, Root Institute
+(FPMT), Thai Monastery, Royal Bhutanese Monastery, Tibetan Monastery (generiek), Vietnamese
+Temple, Japanese Temple/Indosan Nippon. Volledige details, redenen en bronnen staan in
+`../WATCHLIST.jsonl` — bewust niet in dit hoofdrapport uitgewerkt, conform opdracht. Geen van
+deze negen heeft een kandidaatstatus of nummer.
+
+## Open onzekerheden (samengevat, volledige details in eerdere rapporten)
+
+- Exacte locatie van Sri Yukteswars sannyas-initiatie (1906) binnen Bodh Gaya — niet vastgesteld,
+  mogelijk verbonden aan de historische Bodh Gaya Math/Giri-Mahant-lijn (gevoelig punt, feitelijk
+  gemeld, geen politieke duiding).
+- Muchalinda-vijver — mogelijk twee gelijknamige plekken (binnen complex vs. circa 1 km zuid,
+  "Mocharim") — geen aanleiding tot aparte kandidaat.
+- UNESCO-brondocument voor 046 blijft rechtstreeks ontoegankelijk (HTTP 403); status zelf
+  onafhankelijk bevestigd via meerdere andere bronnen.
+- Xuanzang-primaire vertaling gelokaliseerd en publiek toegankelijk bevonden; specifieke
+  Bodh-Gaya-passage zelf nog niet geëxtraheerd.
+- 048 en 049 hebben geen bevestigde Google Maps-marker, ondanks meerdere gerichte zoekpogingen.
+- Insider-/kloosterbron blijft structureel afwezig voor de hele regio.
+
+## Formele afsluiting Discovery, BRONS en ZILVER
+
+- **Discovery**: afgesloten op `NO_NEW_HIGH_VALUE_LEADS = JA` (INDIA2-besluit, na de
+  vergelijkende snoeironde). Zeven detectoren toegepast, 6 oorspronkelijke PASS-vondsten
+  teruggebracht tot 3 CORE_PASS + 1 OPTIONAL_PASS na kritische toetsing.
+- **BRONS**: afgerond voor alle vier kandidaten (`BRONS/BRONS-B01.jsonl`) — identiteit bevestigd,
+  geen coördinaat geraden.
+- **ZILVER**: afgerond voor alle vier kandidaten (`ZILVER/ZILVER-Z01.jsonl`,
+  `ZILVER/ZILVER_Z02_GEO_ATTEMPT.md`, `ZILVER/IDENTITY_CHECK_DAIJOKYO_VS_INDOSAN_NIPPON.md`) — 2
+  van de 4 markers rechtstreeks bevestigd via Google Maps/Earth-entiteitsdata, 2 blijven bewust
+  onbevestigd, één identiteitsconflict (Daijokyo vs. Indosan Nippon) opgelost.
+- **GOUD**: dit rapport + `BODHGAYA_046_049.kml`. Geen PDF (op uitdrukkelijk verzoek). Geen A/B/C
+  ingevuld namens Mark. Run gaat na dit rapport naar `AWAITING_MARK_DECISIONS`.
+
+---
+Geschreven door: CCI, op verzoek van INDIA2/CHATGPT (PR #23, bericht 005). Geen nummers
+gewijzigd, geen nieuwe kandidaten, geen A/B/C-keuzes namens Mark.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1142 path=india5/scripts/complete_task.py blob_sha=c5fda8b42493b0648ae3a2caddad364b8a3743df original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+#!/usr/bin/env python3
+"""Rondt een INDIA5-taak af: active/ -> done/ of failed/ (india5/TASK_PROTOCOL.md).
+
+Weigert af te ronden als COMPLETED wanneer:
+1. RESULT.md ontbreekt (voorkomt 'commit zonder RESULT');
+2. RESULT.md niet exact de completion_marker uit TASK.yaml bevat (voorkomt dat een
+   afgekapte/onvolledige RESULT.md stil als voltooid geldt);
+3. niet elk pad in expected_outputs (TASK.yaml) bestaat.
+
+git_commit_at_complete kan NIET zelfreferentieel in STATUS.yaml worden geschreven (de commit
+die dit bestand bevat, bestaat nog niet op schrijfmoment) -- blijft null. De daadwerkelijke
+commit-SHA hoort in het `commit`-veld van de CCI_RESULT PR-comment, ná de push.
+
+Gebruik:
+    python3 india5/scripts/complete_task.py <TASK_ID> [--fail "reden"]
+"""
+import argparse
+import subprocess
+import sys
+from datetime import datetime, timezone
+from pathlib import Path
+
+import yaml
+
+REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+TASKS_ROOT = REPO_ROOT / "india5" / "tasks"
+CHECK_FORBIDDEN_SCRIPT = REPO_ROOT / "india5" / "scripts" / "check_forbidden_writes.py"
+
+
+def load_yaml(path: Path) -> dict:
+    return yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("task_id")
+    parser.add_argument("--fail", metavar="REDEN", default=None,
+                         help="Rond de taak af als FAILED met deze reden, in plaats van COMPLETED.")
+    args = parser.parse_args()
+
+    active_dir = TASKS_ROOT / "active" / args.task_id
+    if not active_dir.exists():
+        print(f"AFRONDEN MISLUKT -- {args.task_id} niet gevonden in india5/tasks/active/")
+        sys.exit(1)
+
+    now = datetime.now(timezone.utc).isoformat()
+    status_path = active_dir / "STATUS.yaml"
+    status = load_yaml(status_path) if status_path.exists() else {"task_id": args.task_id, "history": []}
+    history = status.setdefault("history", [])
+
+    if args.fail:
+        status["state"] = "FAILED"
+        status["completed_at"] = now
+        status["failure_reason"] = args.fail
+        history.append({"at": now, "event": "FAILED", "detail": args.fail})
+        status_path.write_text(yaml.safe_dump(status, sort_keys=False, allow_unicode=True), encoding="utf-8")
+
+        target_dir = TASKS_ROOT / "failed" / args.task_id
+        active_dir.rename(target_dir)
+        print(f"AFGEROND ALS FAILED -- {args.task_id} verplaatst naar india5/tasks/failed/. "
+              f"Reden: {args.fail}")
+        sys.exit(0)
+
+    task_yaml_path = active_dir / "TASK.yaml"
+    task = load_yaml(task_yaml_path)
+    completion_marker = task.get("completion_marker")
+    expected_outputs = task.get("expected_outputs") or []
+
+    # expected_outputs beschrijft de UITEINDELIJKE (done/) locatie, maar op het moment van
+    # controleren staat de taakdirectory nog in active/ (de verplaatsing gebeurt pas na een
+    # geslaagde controle). Voor paden die binnen deze taak-directory vallen, controleren we
+    # daarom op de huidige (active/) locatie; overige paden (buiten de taak-directory, bv.
+    # echte regio-outputs elders in de repo) worden gewoon als absoluut repo-pad gecontroleerd.
+    done_prefix = f"india5/tasks/done/{args.task_id}/"
+    active_prefix = f"india5/tasks/active/{args.task_id}/"
+
+    def resolve_expected(out_path: str) -> Path:
+        if out_path.startswith(done_prefix):
+            return REPO_ROOT / active_prefix / out_path[len(done_prefix):]
+        return REPO_ROOT / out_path
+
+    errors = []
+    result_path = active_dir / "RESULT.md"
+    if not result_path.exists():
+        errors.append("RESULT.md ontbreekt -- taak mag niet als COMPLETED gelden zonder RESULT")
+    else:
+        result_text = result_path.read_text(encoding="utf-8")
+        if completion_marker and completion_marker not in result_text:
+            errors.append(
+                f"RESULT.md bevat niet de exacte completion_marker {completion_marker!r} -- "
+                f"mogelijk afgekapt, taak mag niet als COMPLETED gelden"
+            )
+
+    for out_path in expected_outputs:
+        full = resolve_expected(out_path)
+        if not
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1143 path=india5/scripts/complete_task.py blob_sha=c5fda8b42493b0648ae3a2caddad364b8a3743df original_offset=4096 original_length=1500 payload_bytes=1500 chunk_index=1 chunk_count=2 classification=text
+ full.exists():
+            errors.append(f"expected_output ontbreekt: {out_path} (gecontroleerd op {full})")
+
+    forbidden_check = subprocess.run(
+        [sys.executable, str(CHECK_FORBIDDEN_SCRIPT), args.task_id],
+        capture_output=True, text=True,
+    )
+    if forbidden_check.returncode != 0:
+        errors.append(
+            "forbidden_writes-controle mislukt (check_forbidden_writes.py):\n"
+            + forbidden_check.stdout.strip()
+        )
+
+    if errors:
+        print(f"AFRONDEN MISLUKT -- {len(errors)} probleem/problemen, taak blijft ACTIVE:\n")
+        for e in errors:
+            print(f"  - {e}")
+        sys.exit(1)
+
+    status["state"] = "COMPLETED"
+    status["completed_at"] = now
+    status["completion_marker_found"] = True
+    status["git_commit_at_complete"] = None  # zelfreferentieel onmogelijk, zie module-docstring
+    history.append({"at": now, "event": "COMPLETED", "detail": "active -> done, door CCI"})
+    status_path.write_text(yaml.safe_dump(status, sort_keys=False, allow_unicode=True), encoding="utf-8")
+
+    target_dir = TASKS_ROOT / "done" / args.task_id
+    active_dir.rename(target_dir)
+
+    print(f"AFGEROND -- {args.task_id} verplaatst naar india5/tasks/done/{args.task_id}/. "
+          f"NIET vergeten: commit + push, en meld de daadwerkelijke commit-SHA in de "
+          f"CCI_RESULT PR-comment (git_commit_at_complete kan hier niet zelfreferentieel "
+          f"worden ingevuld).")
+    sys.exit(0)
+
+
+if __name__ == "__main__":
+    main()
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1144 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/SLEEP_BASE_ZONE_RESOLUTION_2026-08-23.md blob_sha=c650ea9f776b1ddf254e8acc81a2e7aba994c6f2 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# SLEEP-BASE ZONE RESOLUTION — REMAINING A CLUSTERS
+
+Date: 2026-08-23
+Status: RESEARCH EXECUTED
+Purpose: remove geographic sleep-base gaps immediately. This does NOT lock a specific hotel without Mark.
+
+## 1. VRINDAVAN / BRAJ / MATHURA — A, route-sensitive
+
+### Existing A geometry used
+- Vrindavan Railway Station — A.
+- Madan Mohan Temple — A.
+- Katyayani Peeth / Keshabananda historic site — Mark intent A / strong continuity.
+- Neem Karoli Baba Vrindavan Ashram — A.
+- Other parent/micro findings remain subordinate to current decision files.
+
+### Current geography check (2026-08-23)
+- Madan Mohan Temple is roughly ~1 km from Vrindavan Railway Station in current travel references.
+- Katyayani Peeth is roughly ~1–3 km scale from Vrindavan station depending source/entrance.
+- Neem Karoli Baba Ashram is on Baba Neeb Karori Marg / Atalla Chungi Road, Gaushala Nagar / Parikrama Marg side of Vrindavan.
+
+### Resolved anchor zone
+**VRINDAVAN PROPER — Goda Vihar / old-Vrindavan / Atalla-Chungi side, not Mathura.**
+
+Reason:
+- keeps station, Madan Mohan and Katyayani Peeth in short local-auto/walk scale;
+- keeps NKB Ashram inside the same town-side routing rather than turning it into a Mathura commute;
+- preserves the actual Vrindavan atmosphere rather than sleeping outside the A-site terrain;
+- supports early/late temple windows better than a Mathura base.
+
+### Status after this pass
+- geographic base gap: **RESOLVED**.
+- specific property: **NOT LOCKED_BY_MARK**.
+- property choice should now be a bounded accommodation-quality choice inside this zone; no new citywide location research is needed.
+
+Sources checked 2026-08-23:
+- current location references for Madan Mohan / station;
+- Katyayani Peeth current address/distance references;
+- Neem Karoli Baba Ashram current address at Atalla Chungi / Baba Neeb Karori Marg.
+
+## 2. BODH GAYA / GAYA — A
+
+### Existing travel logic
+Bodh Gaya is the primary pilgrimage base; Gaya items are excursions/transfer components, not reason to sleep in Gaya city when the Mahabodhi core is the journey focus.
+
+### Current geography check (2026-08-23)
+- Mahabodhi Temple/Bodhi Tree and the immediate enlightenment micro-sites form one compact UNESCO core.
+- Current lodging inventory is dense within walking distance on/around the Mahabodhi / Thai Temple / Do Muhan Road side.
+- Multiple current properties are listed roughly 0.1–0.8 km from Mahabodhi, confirming that a genuine walkable base is practical.
+
+### Resolved anchor zone
+**BODH GAYA TEMPLE CORE — within roughly 0.8 km walking distance of Mahabodhi, preferably Mahabodhi / Thai Temple / Do Muhan Road side.**
+
+Reason:
+- repeat dawn/evening access to the principal A-site becomes walkable;
+- no dependency on tuk-tuk/taxi for the central pilgrimage experience;
+- Gaya/Vishnupad or airport excursions can be handled by vehicle from the pilgrimage base;
+- this aligns sleep location with the actual reason for being there.
+
+### Status after this pass
+- geographic base gap: **RESOLVED**.
+- specific property: **NOT LOCKED_BY_MARK**.
+- no need for future citywide base research; only property-quality/price/availability comparison inside the fixed temple-core zone.
+
+Sources checked 2026-08-23:
+- UNESCO Mahabodhi site layout;
+- current Booking/Hotels inventory around Mahabodhi;
+- current area guidance placing Mahabodhi as the correct base for pilgrimage-focused stays.
+
+## 3. TIRUVANNAMALAI / ARUNACHALA — A, fixed
+
+### Existing A geometry used
+- Sri Ramanasramam — A.
+- Virupaksha Cave — A.
+- Skandashram — A.
+- Arunachaleswarar Temple — A.
+- Gurumurtam — A.
+- Pavalakunru — A.
+- Giripradakshina / Girivalam — A experience.
+
+### Current geography check (2026-08-23)
+- Sri Ramanasramam lies about 3 km south of Arunachaleswarar Temple on Chengam Road.
+- Virupaksha Cave/Skandashram are directly accessible from the Ramanasramam side by the hill path; this is one of the two standard approaches.
+- Current local guidance identifies **Ramana Nagar**, directly around/opposite the ashram, as a dense lodging zone.
+- Girivalam logistics naturally pass 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1145 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/SLEEP_BASE_ZONE_RESOLUTION_2026-08-23.md blob_sha=c650ea9f776b1ddf254e8acc81a2e7aba994c6f2 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+the Ramanasramam sector.
+
+### Resolved anchor zone
+**RAMANA NAGAR / CHENGAM ROAD — immediately around or opposite Sri Ramanasramam.**
+
+Reason:
+- the heaviest personal A anchor is at the doorstep;
+- best repeated access to Ramanasramam for morning/evening sitting;
+- direct practical start for Virupaksha Cave + Skandashram climb;
+- Arunachaleswarar Temple remains only ~3 km urban-auto distance rather than requiring a second base;
+- Girivalam can start/finish through this sector;
+- avoids wasting the south stay on Bengaluru/Mysore positioning.
+
+### Status after this pass
+- geographic base gap: **RESOLVED**.
+- specific property: **NOT LOCKED_BY_MARK**.
+- future accommodation choice is bounded to Ramana Nagar / immediate Ramanasramam zone.
+
+Sources checked 2026-08-23:
+- current Ramana/Arunachala visitor guidance;
+- current local route descriptions for Ramanasramam–Skandashram–Virupaksha;
+- recent July/August 2026 traveler report confirming abundant lodging in Ramana Nagar opposite the ashram.
+
+## 4. AGRA — A, Taj-only
+
+### Hard Mark route requirement
+Taj Mahal at sunrise / earliest practical opening. Agra must remain deliberately minimal.
+
+### Current geography check (2026-08-23)
+- Current 2026 lodging/area guidance consistently identifies Taj Ganj / Taj East Gate as the strongest sunrise-positioning zone.
+- East Gate-side stays can be within walking distance, removing dependence on a pre-dawn auto/taxi.
+- Taj remains closed Fridays; final itinerary must never position the single critical Taj morning on Friday.
+
+### Resolved anchor zone
+**TAJ GANJ — EAST GATE / SHILPGRAM WALKABLE ZONE.**
+
+Hard property filter when booking:
+- genuinely walkable to East Gate or its pedestrian/electric-shuttle approach;
+- no pre-dawn taxi dependency;
+- verify hot water/heating/quiet for December–January;
+- one positioning night only unless the whole-route calendar forces otherwise.
+
+### Status after this pass
+- geographic positioning gap: **RESOLVED**.
+- exact property: **NOT LOCKED_BY_MARK**.
+- exact calendar date cannot be locked until route order is fixed, but no further geographic research is required.
+
+Sources checked 2026-08-23:
+- current 2026 Agra stay-area guides;
+- current Taj proximity listings;
+- current East Gate sunrise-positioning guidance.
+
+## HOTEL EVELYN — CURRENT-STAY + HISTORIC MICRO-MAPPING CHECK EXECUTED NOW
+
+### Historical points that ARE supportable
+- Hotel Evelyn is a historic Nainital devotee base; around twenty Western devotees lived there in 1971 as a mini-ashram while visiting Kainchi.
+- A documented September 1971 scene places Ram Dass and Parvati Markus leaning over a balcony at Hotel Evelyn.
+- The large 'Nainital High' group photograph was taken at/around the hotel's front patio/porch area.
+- Other devotee testimony confirms rooms and terraces were actively used by the group.
+
+### What is NOT supportable from current public evidence
+- no reliable public source found that identifies a specific current room number as 'Ram Dass's exact room';
+- no reliable evidence found that the current top-floor room visible in modern reviews is proven to be Ram Dass's room;
+- therefore final guide must NOT invent a room number or claim exact room continuity.
+
+### Current overnight practicality
+- Hotel is still traceable as an operating accommodation.
+- Recent 2024–2025 reviews are highly mixed and include serious complaints about maintenance, cleanliness, hot water and amenities; heater may be charged separately.
+- Other recent guests still value the people, food, location and emotional/historic character.
+- Modern top-floor/terrace/balcony rooms exist, but historic identity is not proven.
+
+### Operational disposition
+Hotel Evelyn remains A for historical meaning and remains the current Nainital anchor in canon, but the final booking should be treated as **heritage-first / comfort-risk**. Before money is paid, direct contact should ask specifically about:
+1. working hot water/geyser;
+2. room heater and cost;
+3. clean/dry room condition in winter;
+4. which balcony/front-patio areas are accessible;
+5. whether staff/fa
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1146 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/SLEEP_BASE_ZONE_RESOLUTION_2026-08-23.md blob_sha=c650ea9f776b1ddf254e8acc81a2e7aba994c6f2 original_offset=8192 original_length=583 payload_bytes=583 chunk_index=2 chunk_count=3 classification=text
+mily can identify the 1970–71 devotee rooms or photo porch from family knowledge.
+
+This direct-property question is the only route to improve exact room identity now; public-web research has reached an honest evidence limit.
+
+## EXECUTION RESULT
+
+The previously named 'four sleep-base gaps' are no longer geographic research gaps:
+- Vrindavan: anchor zone fixed.
+- Bodh Gaya: anchor zone fixed.
+- Tiruvannamalai: anchor zone fixed.
+- Agra: sunrise positioning zone fixed.
+
+What remains is a Mark/property booking choice inside already bounded zones, not unfinished regie research.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1147 path=runs/active/BODHGAYA-DISCOVERY-001/GOUD/EXCLUSION_REPORT.md blob_sha=c682bd9940741e89d49e194d909592fba6b25013 original_offset=0 original_length=2774 payload_bytes=2774 chunk_index=0 chunk_count=1 classification=text
+# EXCLUSION_REPORT — Bodh Gaya, heropende voorselectie
+
+run_id: BODHGAYA-DISCOVERY-001
+geschreven_op: 2026-08-05
+geschreven_door: CCI
+
+Uitsluitend locaties die een harde, concrete uitsluitingsgrond hebben — geen enkele hierin op
+basis van verwachte A/B/C-kans. Van alle eerder onderzochte Bodh Gaya-locaties zijn er
+uiteindelijk maar twee met een geldige harde uitsluitingsgrond; alle negen WATCHLIST-locaties
+bleken bij herbeoordeling MARK_WAARDIG (zie `MARK_SELECTION_REPORT.md`).
+
+## 1. Niranjana/Falgu-rivier als aparte "badplek"-kandidaat
+
+**Uitsluitingsgrond:** niet fysiek bezoekbaar als specifieke, aanwijsbare plek.
+
+Het verhaal (Boeddha baadde in de rivier vóór hij Sujata's aanbieding aanvaardde) is reëel en
+betekenisvol, maar er bestaat geen specifieke, van de andere ghats te onderscheiden fysieke plek
+die deze gebeurtenis markeert — bronnen noemen uitsluitend "één van de elf ghats op de westoever",
+zonder een aanwijsbaar punt. Dit voldoet niet aan de bezoekbaarheidspoort (AI_RULES.md regel 10:
+een aanwijsbare fysieke plek, geen diffuus gebied). Het verhaal blijft wel contextueel onderdeel
+van de beschrijving van 047 Sujata Stupa.
+
+Dit is GEEN "waarschijnlijk niet essentieel"-oordeel — het is een harde afwijzing op grond van het
+ontbreken van een specifieke, bezoekbare locatie, niet op grond van verwachte A/B/C-kans.
+
+## 2. Barabar- en Nagarjuni-grotten
+
+**Uitsluitingsgrond:** buiten de scope van de regio (afstand), niet een inhoudelijk oordeel over
+NOT_TO_BE_MISSED-waarde.
+
+Objectief een uitzonderlijke locatie (oudste rotsgehouwen grotten van India, Ashoka-tijdperk,
+Ajivika-ascetentraditie) — dit is expliciet GEEN inhoudelijke afwijzing. De reden is zuiver
+geografisch: een eigen berekening op basis van gepubliceerde coördinaten (Mahabodhi Temple
+24.6960°N/84.9914°E; Barabar Caves 25.005°N/85.063°E) geeft een hemelsbrede afstand van circa 35
+km — buiten zowel de 20 km-kernstraal als de 20-30 km-signaleringsbuffer uit
+`INDIA5_REGION_START_PROTOCOL.md` stap 2. Deze regel is niet door de huidige heropende
+voorselectie-opdracht overschreven — de scope-grens van de regio blijft een aparte, geldige
+uitsluitingsgrond. Gerapporteerd als `OUT_OF_SCOPE_HIGH_VALUE_LEAD`, geen kandidaat, geen
+MARK_WAARDIG/EXCLUDE_BEFORE_MARK-oordeel binnen deze regio-sweep.
+
+## Geen andere uitsluitingen
+
+Alle overige eerder onderzochte locaties (Archaeological Museum, Vishnupad Temple, Tergar
+Monastery, Root Institute, Wat Thai Buddhagaya, Royal Bhutan Monastery, Namgyal Monastery/
+Tibetaans klooster, Vietnamese Temple, Japanese Temple/Indosan Nippon) zijn MARK_WAARDIG bevonden
+— zie `MARK_SELECTION_REPORT.md` voor de volledige onderbouwing per locatie.
+
+---
+Geschreven door: CCI, op verzoek van INDIA2 (PR #23, bericht 009).
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1148 path=runs/active/TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001/RECONCILIATION_RESULT.md blob_sha=c758c77b3b94643729336b8df8246045fcaf3bbd original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# RECONCILIATION_RESULT — TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001
+
+```
+task_id: TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001
+cci_task: CCI_TASK 094
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-19
+checkpoint_commits: e089bc0 (Ramana Maharshi), 0779bf2 (Ramakrishna)
+```
+
+## 1. Samenvatting
+
+Volledige drieweg-reconciliatie (interne CCI 093-freeze / externe ChatGPT-parallel-sweep /
+IndiaGEEL, de vierde onafhankelijke detector) uitgevoerd voor Ramana Maharshi (103 externe + 51
+IndiaGEEL-records) en Ramakrishna (175 externe + 55 IndiaGEEL-records). Alle vier bronbestanden
+(2× extern, 2× IndiaGEEL) vóór opening blob-SHA-geverifieerd tegen de GitHub API — exacte match,
+geen manipulatie, geen drift sinds eerder gezien bestandsversies. Volledige documenten:
+`RAMANA_MAHARSHI_MULTIDETECTOR_RECONCILIATION.md`, `RAMAKRISHNA_MULTIDETECTOR_RECONCILIATION.md`,
+`RECONCILIATION_MATRIX.jsonl` (80 regels: 34 Ramana + 46 Ramakrishna). DELTA-secties (append-only)
+toegevoegd aan beide oorspronkelijke 093-freezes.
+
+## 2. Top-bevindingen over beide personen
+
+### IndiaGEEL als vierde, genuine onafhankelijke detector — bevestigd
+Voor beide personen gaat `EXTERNAL_MODEL_DIVERSITY_GATE` naar **JA**. IndiaGEEL vond bij Ramana twee
+volledig nieuwe, Tier-1-bevestigde locaties met een eigen primaire-bronroute (Ramana's eigen *Day by
+Day*-relaas), en bij Ramakrishna een eigen benoemde naamgranulariteit (Fouzdar Kunj) die noch intern
+noch extern had. Bij Ramakrishna leverde de drieweg-vergelijking bovendien iets minstens zo
+waardevols op: een **eigen, verifieerbare datumfout bij IndiaGEEL** (Mati Seal-reservoir-episode,
+1885 i.p.v. 1883), pas zichtbaar geworden door drieweg-vergelijking plus directe brontoetsing — het
+scherpste bewijs tot nu toe dat directe verificatie, niet detectorconsensus, de doorslag moet geven.
+
+### Nieuwe, Tier-1 bronmatig bevestigde vondsten
+- **Ramana Maharshi**: Azhagar Koil (jeugdtempel, 12 mijl van Madurai) en de banyanboom/
+  horzelsteek-route naar Seven Springs (*Day by Day with Bhagavan*, 2 mei 1946) — beide woordelijk
+  bevestigd, inclusief een subtiele zelfkritische kanttekening in IndiaGEEL's eigen record die
+  precies overeenkwam met de brontekst.
+- **Ramakrishna**: Fouzdar Kunj, Retia Bazar (specifiek benoemd Vrindavan-pelgrimsverblijf van
+  Mathur Babu) — bevestigd via RKM Sevashrama Vrindavan-bronnen, inclusief het detail van de
+  bovenkamer met halfronde veranda.
+
+### Eén conflict opgelost via directe bronverificatie
+Ramakrishna: de Mati Seal-tuinreservoir-episode (vissen-onderricht over vormloze meditatie) is
+door IndiaGEEL gedateerd op 1885, door extern op 18 juni 1883. Rechtstreekse fetch van *The Gospel
+of Sri Ramakrishna* bevestigt **18 juni 1883** ondubbelzinnig. IndiaGEEL heeft deze episode
+kennelijk verward met Ramakrishna's latere, laatste Panihati-bezoek (april 1885, tegen doktersadvies
+in), dat wél apart in zowel de interne 093-freeze als extern correct als afzonderlijke gebeurtenis
+staat.
+
+### Onopgelost conflict, drievoudig erkend
+Ramana Maharshi: het Gurumurtam-verhuisjaar (1897 vs. 1898) blijft open — alle drie detectoren
+erkennen de discrepantie, geen enkele bron gaf een sluitende datering bij directe controle.
+
+### Grootste granulariteitswinst
+- Ramana: extern-ChatGPT levert 30-40 film-/foto-gedocumenteerde micro-sublocaties in Sri
+  Ramanasramam plus een 10-stops giripradakshina-microcluster (uniek filmarchief, P5) — door geen
+  andere detector benaderd.
+- Ramakrishna: extern-ChatGPT ontsluit via *The Gospel of Sri Ramakrishna* een breed
+  Kolkata-devoteehuizennetwerk (~80 records: Balaram Bose, Vidyasagar, Manimohan Mallick,
+  Jayagopal Sen, theaters, Zoölogische Tuin, fotostudio) dat in de interne 093-freeze volledig
+  ontbrak en door 093 zelf al als open lead was genoteerd.
+
+### Nieuwe, plausibele maar niet Tier-1-geverifieerde toevoeging
+Ramakrishna: Kusum Sarovar (heilige tank, Govardhan-gebied) — alleen bij IndiaGEEL, binnen een
+elders al drieweg-bevestigd pelgrimagegebied, niet afzonderlijk tegen de bron geverifieerd dit
+taakbudget.
+
+### 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1149 path=runs/active/TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001/RECONCILIATION_RESULT.md blob_sha=c758c77b3b94643729336b8df8246045fcaf3bbd original_offset=4096 original_length=3348 payload_bytes=3348 chunk_index=1 chunk_count=2 classification=text
+Negatieve claims drieweg (of stilzwijgend) bevestigd
+Ramakrishna: Gaya en Puri/Jagannath (beide expliciet geweigerd door Ramakrishna zelf, uit angst
+lichaamsbewustzijn te verliezen — expliciet in extern's negatieve-bevindingentabel, stilzwijgend
+consistent bij intern en IndiaGEEL) en het Baranagar-klooster (postuum gesticht). Geen van de vier
+detectoren claimt persoonlijke aanwezigheid op deze plekken tijdens Ramakrishna's leven.
+
+### Geen hallucinaties gevonden
+Bij de rechtstreeks gecontroleerde steekproef (5 directe bronverificaties over beide personen) is
+geen enkele verzonnen locatie aangetroffen — wel de ene datumfout hierboven, die een bestaande,
+correct geïdentificeerde plaats betreft.
+
+## 3. Recorddelta per persoon
+
+| persoon | intern (093) | extern-ChatGPT | IndiaGEEL | drieweg-matches (kern) | detector-only (extern/IndiaGEEL) | conflicten |
+|---|---:|---:|---:|---:|---:|---:|
+| Ramana Maharshi | 23 | 103 | 51 | ~20 | extern ~40 (film-sublocaties+giripradakshina) / IndiaGEEL 2 (Tier-1) | 1 (Gurumurtam-jaar, onopgelost) |
+| Ramakrishna | 19 + 2 neg. controles | 175 | 55 | 14 kern (van 19) | extern ~80 (Kolkata-netwerk) / IndiaGEEL 1 Tier-1 + 1 plausibel | 1 (Mati Seal-datum, opgelost) |
+
+## 4. Gates — beide personen
+
+| gate | Ramana Maharshi | Ramakrishna |
+|---|---|---|
+| CORPUS_COVERAGE_GATE | DEELS → sterk verbeterd | DEELS → sterk verbeterd |
+| HOSTGRAPH_GATE | DEELS → verbeterd | DEELS → sterk verbeterd |
+| DISCOVERY_GATE | DEELS → sterk verbeterd | DEELS → sterk verbeterd |
+| RECONCILIATION_GATE | PROVISIONEEL → **JA** | PROVISIONEEL → **JA** |
+| EXTERNAL_MODEL_DIVERSITY_GATE | **JA** | **JA** |
+
+Beide `SATURATED: NEE` — eerlijk, ongewijzigd. Ramana: Villupuram-hotel, Sastri-huis,
+float-opslagkamer, oleandertuin-grenzen en de volledige *Day by Day*/*Pictorial
+Biography*-doorzoeking blijven open bij de externe detectoren zelf. Ramakrishna: extern claimt zelf
+uitdrukkelijk alleen *discovery*-saturatie, niet fysieke-identiteitssaturatie; Navadwip-microlocaties,
+tientallen ongeadresseerde Kolkata-huizen, de Jayagopal Sen-locatienuance en Kusum Sarovar blijven
+open.
+
+## 5. Bevestiging blindheidsgrenzen
+
+- Externe branch `agent/chatgpt-top11-parallel-sweep`: alleen gelezen, **niet gewijzigd/gemerged**.
+- IndiaGEEL-branch `agent/indiageel-ramana-ramakrishna-sweep`: alleen gelezen, **niet
+  gewijzigd/gemerged**.
+- Geen nieuwe externe of IndiaGEEL-sweep gestart.
+- Geen A/B/C namens Mark, geen permanente locatie-IDs, geen PDF, geen route/cluster/heatmap-werk.
+- PR #24 niet aangeraakt.
+
+## 6. next_allowed_step
+
+CCI stopt na deze resultaatenvelop op PR #23 en wacht op INDIA-QA. INDIA8 heeft tijdens deze taak
+zelf al **CCI_TASK 095** geprequeued
+(`runs/active/TOP11-NKB-RAMDASS-MULTIDETECTOR-RECONCILIATION-001/TASK.md`, state
+`QUEUED_AFTER_094`): IndiaGEEL als derde detector toevoegen aan de bestaande CCI_TASK 091-
+reconciliatie voor Neem Karoli Baba en Ram Dass, met IndiaGEEL-freeze-SHA's al vastgelegd. Die taak
+is expliciet geblokkeerd tot dit `CCI_RESULT — CCI_TASK 094` op PR #23 staat — met deze envelop is
+die voorwaarde vervuld en kan INDIA CCI_TASK 095 relayen wanneer gewenst. Een eventuele landelijke
+clusterheatmap blijft daarnaast een optie, maar is niet voorgequeued en vereist een expliciete
+INDIA-beslissing.
+
+---
+Geschreven door: CCI. CCI_TASK 094.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1150 path=handoffs/INDIA8_TO_INDIA9_FINAL_BOOT_2026-08-23.md blob_sha=c8b640664b8d62e7e6dfe851be4b518c9df20a44 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# INDIA8 -> INDIA9 FINAL BOOT HANDOFF — 2026-08-23
+
+Status: CURRENT / SUPERSEDES older INDIA8->INDIA9 immediate-action sections where inconsistent.
+
+## FIRST ACTION — NO EXCEPTIONS
+1. Open root `README.md`.
+2. Open `governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md`.
+3. Open `governance/ABC_SEMANTIC_LABEL_RULE_2026-08-23.md`.
+4. Read the entire textual repository on the active regie branch and relevant legacy/worker branches before presenting anything to Mark.
+5. Reconcile current Mark canon before applying new findings.
+6. For every item, run `AL BESLIST?` before presenting it.
+7. If you can safely execute something now, execute it in the same turn and commit it. Never leave executable work as prose-only 'next step'.
+
+## HARD PRESENTATION RULE
+Every A/B/C location must ALWAYS be shown as:
+`NAME (plain-language: what it is / why Mark is going there) — A/B/C`.
+Never assume Indian place names are meaningful or memorable to Mark.
+
+## WHY THIS IS HARD
+INDIA8 made a serious regie error on 2026-08-23 by over-weighting recent runs and under-using older still-valid Mark canon. That caused already-decided items to be presented again and existing sleep bases to be underused. Known examples: Jageshwar was already A; Binsar already C; Joshi Guest House / Hotel Evelyn / Turiya Niwas already known Kumaon anchors; Sahi River View already LOCKED_BY_MARK for Varanasi. Do not repeat this class of error.
+
+## CURRENT TRIP FRAME — EXACT
+- Booked outbound: **Air India 18 Dec 2026 20:35 AMS -> DEL, arrival 19 Dec 10:15**.
+- Booked return: **Air India 21 Jan 2027 12:20 DEL -> AMS, arrival 18:35**.
+- 18 Dec night is on the international aircraft.
+- India calendar envelope = **33 nights: 19 Dec through 20 Jan**, and some of those may intentionally be overnight-train nights rather than hotels.
+- Breathing room at major clusters is preferred over maximizing site count.
+
+## CURRENT WORKING ROUTE — V2 IS AUTHORITATIVE
+Read before changing route/nights:
+`runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/WORKING_ROUTE_V2_TRAIN_FIRST_NEWYEAR_RISHIKESH_2026-08-23.md`
+
+V1 is historical only and is superseded where inconsistent.
+
+### Current V2 exact 33-night calendar
+- 19 Dec — overnight train Delhi -> Kathgodam
+- 20–22 Dec — Haidakhan Ashram, 3 nights
+- 23–25 Dec — Joshi Guest House / Kukuchina, 3 nights
+- 26–28 Dec — Hotel Evelyn / Nainital, 3 nights
+- 29–31 Dec — Rishikesh, 3 nights
+- 1 Jan — Agra, 1 night
+- 2–3 Jan — Vrindavan, 2 hotel nights
+- 4 Jan — overnight train Mathura -> Prayagraj
+- 5–10 Jan — Varanasi, 6 nights
+- 11–13 Jan — Bodh Gaya/Gaya, 3 nights
+- 14–18 Jan — Tiruvannamalai/Arunachala, 5 nights
+- 19–20 Jan — Delhi, 2 final buffer nights
+
+### V2 route-efficiency gains
+- 19 Dec Ranikhet Express planning pattern: Old Delhi ~22:05 -> Kathgodam ~05:05, turning first northbound transfer into sleep.
+- 4 Jan Mathura->Prayagraj planning pattern: train 20404 ~19:55 -> ~04:50 with 1A currently offered, preserving all of 4 Jan for Braj.
+- 5 Jan Prayagraj->Varanasi evening fast train, current useful pattern 22416 ~21:15 -> ~23:05, eliminating a Prayagraj hotel night and giving Varanasi six nights/five full local days.
+- 11 Jan current useful Varanasi->Gaya pattern: 20888 Vande Bharat ~16:05 -> ~18:45; 11 Jan 2027 is Monday and current timetable pattern includes Monday.
+- Exact Dec/Jan timetables and availability MUST be revalidated before booking.
+
+## HARD TRANSPORT PREFERENCE — MARK
+Read:
+`runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/TRANSPORT_PREFERENCE_AND_EFFICIENCY_RULE_2026-08-23.md`
+
+Order for long distances:
+1. TRAIN preferred.
+2. FLIGHT when train destroys too much usable trip time after true door-to-door comparison.
+3. PRIVATE CAR for mountains, last mile and cases where rail/air geometry is inferior.
+4. BUS = EXCLUDED. Never route Mark by intercity/long-distance bus as normal fallback.
+
+Door-to-door and lost daylight are more important than published vehicle duration.
+
+Current mode architecture:
+- Delhi -> Kathgodam: overnight train.
+- Kumaon mountain legs: pr
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1151 path=handoffs/INDIA8_TO_INDIA9_FINAL_BOOT_2026-08-23.md blob_sha=c8b640664b8d62e7e6dfe851be4b518c9df20a44 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+ivate car.
+- Nainital -> Rishikesh: private car.
+- Rishikesh/Haridwar local: private car/taxi + walking.
+- Rishikesh -> Agra on 1 Jan: private car because useful trains require very early departure after New Year's Eve or arrive too late; preserve New-Year morning.
+- Agra -> Vrindavan: private car.
+- Mathura -> Prayagraj: overnight train.
+- Prayagraj -> Varanasi: fast evening train.
+- Varanasi -> Gaya: train/Vande Bharat.
+- Bodh Gaya/Gaya -> Patna airport: private car; Patna -> Chennai flight because rail to Tamil Nadu is too time-expensive.
+- Chennai -> Tiruvannamalai: private car.
+- Tiruvannamalai -> Chennai airport private car; Chennai -> Delhi flight.
+
+## NEW YEAR — HARD CURRENT ROUTE INTENT
+31 Dec 2026 should be **Rishikesh**, not Haridwar, Agra or transit.
+Preferred first-choice sleep/experience base to test: **Parmarth Niketan Ashram, Swarg Ashram**.
+Parmarth has announced a Special New Year Spiritual Retreat for **30 Dec 2026–1 Jan 2027**.
+Current shape:
+- 29 Dec: Nainital -> Rishikesh, settle.
+- 30 Dec: Kankhal **(Anandamayi Ma Mahasamadhi — A strong)** + Haridwar **(Har Ki Pauri Ganga Aarti — A-light)**.
+- 31 Dec: Rishikesh only; Beatles Ashram **(ashram where Beatles stayed in 1968 — A-light)** + Ganges/Parmarth New Year.
+- 1 Jan morning: preserve New-Year spiritual activity; then private car to Agra.
+
+## CURRENT CLUSTER / ROUTE CANON — LATEST
+- Haidakhan / Nainital-Kainchi / Babaji-Dunagiri north family remains heavy A.
+- Kasar Devi / Almora is NO LONGER a dedicated sleep module; it yielded to Rishikesh/Haridwar/Kankhal. Old site A's are retained historically but do not create nights.
+- Rishikesh / Haridwar / Kankhal is in the working route. Kankhal Anandamayi Mahasamadhi = strong A; Har Ki Pauri Ganga Aarti = LIGHT A; Beatles Ashram = LIGHT A; rafting = B. LIGHT A means visit if cluster is included but does not independently justify opening cluster.
+- Vrindavan / Braj / Mathura: A, route-sensitive.
+- Prayagraj / Allahabad: restored A-intent / route-efficiency-sensitive compact corridor module. Read `PRAYAGRAJ_MARK_DECISIONS_RECONCILED_2026-08-23.md`; V2 uses it as one full day with no hotel night.
+- Varanasi + Sarnath: A.
+- Bodh Gaya / Gaya: A.
+- Tiruvannamalai / Arunachala: A, fixed.
+- Agra: A, Taj-only; Taj sunrise/earliest opening HARD.
+- Mysore / Bengaluru: C cluster.
+- East/Kolkata: parked.
+
+## CURRENT SLEEP-BASE CANON
+### North
+- Haidakhan: stay in Haidakhan Ashram desired.
+- Joshi Guest House, Kukuchina — LOCKED.
+- Hotel Evelyn, Nainital — A / desired historic sleep target regardless of rustic comfort.
+- Rishikesh: Parmarth Niketan is first-choice provisional New-Year/route base; not yet Mark-booking-locked.
+
+### Varanasi
+- Sahi River View Guesthouse, Assi Ghat — LOCKED_BY_MARK; balcony room; Jitendre; greetings from Debby.
+
+### Vrindavan
+- anchor zone: old Vrindavan / Goda Vihar / Atalla-Chungi side; not Mathura. Specific property not locked.
+
+### Bodh Gaya
+- anchor zone: walkable Mahabodhi core. Specific property not locked.
+
+### Tiruvannamalai
+- first lodging concept: apply to stay in Sri Ramanasramam itself; fallback Ramana Nagar / Chengam Road around/opposite Ramanasramam.
+
+### Agra
+- Taj East Gate / Shilpgram walkable positioning zone. Taj closed Fridays; V2 uses Fri 1 Jan only as positioning and visits Taj at dawn Sat 2 Jan.
+
+## HOTEL EVELYN — DUAL INDEPENDENT CLOSURE NOW RECONCILED
+Read:
+`runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/HOTEL_EVELYN_DUAL_CLOSURE_RECONCILIATION_2026-08-23.md`
+
+Inputs:
+- independent worker `eab8a127...` + photo ledger `0a7da62...`;
+- CCI independent closure `69f36d4...`.
+
+Canonical result:
+- Hotel Evelyn property/site secure.
+- Ram Dass had a private room/door, but no defensible room number/floor/wing/current successor room.
+- Sleep target = Hotel Evelyn/property, R4 operationally.
+- Best stand zone = historic main terrace/front-patio/veranda complex, R3.
+- Academic catalogue explicitly places 1971 `Nainital High` Ram Dass group photo on Evelyn's **main terrace**.
+- Current older/`British era` building section is a useful on-site lead, no
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1152 path=handoffs/INDIA8_TO_INDIA9_FINAL_BOOT_2026-08-23.md blob_sha=c8b640664b8d62e7e6dfe851be4b518c9df20a44 original_offset=8192 original_length=3955 payload_bytes=3955 chunk_index=2 chunk_count=3 classification=text
+t proof of exact room.
+- The famous Ram Dass + K.K. Sah + Bhagavan Das rooftop photo is NOT Evelyn; it is the Sah family home's rooftop courtyard.
+- Final trip guide MUST carry on-site protocol: show 1971 photo, ask Sah family/long-serving staff for old main terrace/front patio/British-era section, then guest register/room ledger/old numbering and only then ask for Richard Alpert/Ram Dass room.
+
+## LP MICRO-GEMS SECOND OPINION — INTEGRATED
+Input worker commit: `5ad6fe83069091791be3c17852593de8fd4ca5d4`.
+Read integration:
+`runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/LONELY_PLANET_SECOND_OPINION_MICRO_INTEGRATION_2026-08-23.md`
+
+High-fit route texture preserved without changing A/B/C:
+- Haridwar: Mathura Walo Ki Pracheen Dukan **(old mithai shop with unusual sweet/malai samosa)**.
+- Prayagraj: Indian Coffee House **(1957 political/literary institution)** and Hari Ram & Sons **(old mini masala-samosa/namkeen shop)**, only if compact A-day has slack.
+- Varanasi: Ram Bhandar **(historic breakfast institution)**; winter malaiyo **(seasonal airy saffron-milk sweet)**; Gulabi Meenakari artisan workshop **(traditional pink-enamel metalcraft workshop)**.
+- Gaya: Sri Ram Tilkut Bhandar **(historic tilkut sweets shop / winter sesame specialty)**.
+- Almora bazaar/copper walk dormant because Almora route module removed.
+- Agra Red Taj/cemetery dormant because Mark's Agra rule remains Taj-only.
+- Vrindavan Sanjhi art out of season for Dec/Jan.
+
+## BODH GAYA RECONCILIATION — LATEST KNOWN USER GRADES
+- Mahabodhi Temple **(enlightenment temple complex)** — A.
+- Bodhi Tree **(tree at Buddha's enlightenment spot)** — A.
+- Sujata Stupa/Bakraur **(site linked to Sujata's meal before Buddha abandoned extreme asceticism)** — A.
+- Great Buddha Statue **(large modern seated Buddha)** — B.
+- Dungeshwari/Mahakala Caves **(caves of Buddha's extreme ascetic practice)** — C.
+- Barabar/Nagarjuni Caves **(Mauryan polished-rock cave architecture)** — C despite LP magnet signal.
+- Gurpa Hill **(remote Buddhist-associated hill/cave terrain)** — C.
+
+## PRECEDENCE FOR TRAVEL REGIE
+1. newest explicit Mark decision / LOCKED_BY_MARK / supersede;
+2. newest accommodation/base lock;
+3. newest cluster-level Mark decision;
+4. newest site-level Mark A/B/C;
+5. current central all-findings/reconciliation;
+6. current governance/handoff;
+7. older protected legacy locks/anchors;
+8. old candidate/overview files only as context.
+Never let an older candidate/overview silently downgrade or reopen a later Mark decision.
+
+## REQUIRED ROUTE WORK ORDER
+`SLEEP BASE -> EXISTING A -> DISTANCES/COMBINATIONS -> LONELY PLANET LAYER -> OPPORTUNISTIC B -> NIGHTS -> CALENDAR/FESTIVALS/CLOSURES -> TRANSPORT -> PROPERTY BOOKING -> DAY CARDS -> FINAL COMFORT SWEEP`
+
+FINAL COMFORT SWEEP is mandatory after route freeze: historic bakeries/patisseries, local signature sweets/products, best coffee, strong restaurants, characterful cafés and other high-quality microstops per sleep base.
+
+## CCI RELAY
+PR #23 is the fixed CCI relay/index channel. CCI reads newest `CCI_TASK` there and posts `CCI_RESULT` there. INDIA8 accidentally allowed Mark to paste a task manually once; do not rely on manual copy when ChatGPT can post a task directly.
+
+## NO-DEFERRAL CHECK BEFORE EVERY ANSWER
+If INDIA9 can safely execute research/reconciliation/matrix work without a Mark-only choice, DO IT BEFORE SENDING and commit it. Leave open only genuine Mark choices, live booking choices requiring date/price acceptance, or irreducible external blockers after all safe workarounds are exhausted.
+
+## CURRENT EXECUTION STATE
+V2 train-first route exists and is authoritative. Do not say 'we should build a route'. Work from V2. Current next phase is human review of pace/order, followed by day-level geographic grouping, exact sleep-property decisions where still provisional, exact-date transport revalidation when bookable, then final COMFORT SWEEP and trip day cards.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1153 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/STATUS.md blob_sha=c97e6d8ada28ba6e5a3e534cc3ceeb64c6095575 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=5 classification=text
+# STATUS — TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
+
+```
+task_id: TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
+state: CCI_TASK_090_NKB_RAMDASS_CORE_SOURCE_RECOVERY_ISSUED__WACHT_OP_CCI_RESULT
+method_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/METHOD_V1.md
+method_v2_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/METHOD_V2.md
+task_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/TASK.md
+status_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/STATUS.md
+pilot_result_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/PILOT_RESULT.md
+saturation_result_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/SATURATION_RESULT.md
+phase2_result_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/PHASE2_RESULT.md
+phase2_synthesis_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/PHASE2_SYNTHESIS.md
+yogananda_v2_freeze_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/YOGANANDA_V2_FREEZE.md
+babaji_v2_freeze_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/BABAJI_V2_PRE_EXTERNAL_FREEZE.md
+lahiri_mahasaya_v2_freeze_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/LAHIRI_MAHASAYA_V2_PRE_EXTERNAL_FREEZE.md
+sri_yukteswar_v2_freeze_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/SRI_YUKTESWAR_V2_PRE_EXTERNAL_FREEZE.md
+last_updated: 2026-08-19
+last_updated_by: INDIA7 (CCI_TASK 090 issued)
+```
+
+## Update — CCI_TASK 087/087R afgerond: drie pre-external freezes (CCI, 2026-08-19)
+
+```
+commits: 6b79f1c (Babaji), 642e464 (Lahiri Mahasaya), ea60ba5 (Sri Yukteswar)
+BABAJI_V2_PRE_EXTERNAL_SATURATED: NEE
+LAHIRI_MAHASAYA_V2_PRE_EXTERNAL_SATURATED: NEE
+SRI_YUKTESWAR_V2_PRE_EXTERNAL_SATURATED: NEE
+```
+
+Verse, blinde METHOD_V2 Fase 0-4-sweeps voor de drie kernpersonen van de Kriya-lijn, uitgevoerd
+direct door CCI nadat een eerste poging met drie parallelle subagents faalde op een sessielimiet
+zonder duurzame output (zie git-historie/PR #23 voor de recovery-context, CCI_TASK 087R).
+`PHASE2_RESULT.md` (oude METHOD_V1 ATL-MB/ATL-LM/ATL-SY-lijsten) NIET gebruikt als
+discovery-checklist tijdens de blinde pas; alleen achteraf ter vergelijking geraadpleegd, zoals
+gedocumenteerd in elk freeze-bestand zelf. Geen inzage in de aparte externe blinde
+ChatGPT-parallelsweep (`TOP11-PARALLEL-CHATGPT-SWEEP-001`).
+
+**Babaji**: 14 occurrence-clusters, A/B/C/D-evidentietier toegepast (ahistorisch/legendarisch
+karakter van de figuur zelf). Sterkste vondst: Yogananda's eigen, nooit eerder verteld
+ooggetuigenverslag van een persoonlijke Babaji-ontmoeting op 4 Gurpar Road, Calcutta (hfst. 37) —
+ontbrak in de oude lijst en is het sterkste bewijsstuk voor Babaji's fysieke bestaan in het hele
+corpus.
+
+**Lahiri Mahasaya**: 19 occurrence-clusters, volledige geboorte-tot-dood-biografische lijn (Ghurni
+1828, 1833-vloed, vijf overplaatsingsstandplaatsen, vaste woning Garudeswar Mohulla Benares,
+pensionering 1886, dood 1895). Nieuwe vondst: een materialisatie nabij Gorakhpur die Yogananda's
+vaders eigen bekering verklaart (hfst. 1).
+
+**Sri Yukteswar**: site-niveau sweep (284 occurrences over 32 hoofdstukken, te wijdverspreid voor
+volledige occurrence-normalisatie in de beschikbare tijd — expliciet benoemde beperking). Twee
+kernlocaties stevig bevestigd (Serampore/Rai Ghat Lane als geboorteplaats ÉN hermitage; zelf
+gebouwde Puri-zeehermitage als sterfplaats). Belangrijkste nieuwe vondst: de Kashmir-reis
+(Simla/Srinagar/Shalimar Bagh/Nishat Bagh/Gulmarg, vandaag al voor Yogananda geverifieerd in
+`TOP11-EXTERNAL-AI-BENCHMARK-001/WERKPAKKET_D_DEEPENING_CCI_086.md`) blijkt ook Sri Yukteswars eigen
+reis te zijn geweest — stond nog niet als Sri-Yukteswar-record vast.
+
+Alle drie `NEE` op saturation, met expliciet benoemde hiaten (o.a. niet-AOAY lineage-bronnen
+niet geraadpleegd, Sri Yukteswar geen volledige Fase 4-discovery). `NEE` bewust boven een schijnbare
+`JA`, conform staand projectbeleid.
+
+**blockers**: geen.
+
+**Update CCI_TASK 084**: `PERSON_SWEEP_SATURATED: JA` uit Fase 2 (alle 11 personen) is
+**provisioneel**, niet ingetrokken maar ook niet langer als eindwaarheid b
+<<< END CHUNK >>>
+

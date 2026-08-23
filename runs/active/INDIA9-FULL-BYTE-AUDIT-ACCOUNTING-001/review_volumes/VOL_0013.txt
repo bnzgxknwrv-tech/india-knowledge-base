@@ -1,0 +1,338 @@
+>>> CHUNK stream_row=181 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/reconciliation_layers/CORE_KRIYA_ENTITY_CANDIDATES_LABELED.jsonl blob_sha=1fe421b43834e56fd621e2998db7fd4b307de121 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=13 classification=text
+opagated_label": "Huis van Mrs. Lal, Delhi", "label_source": "freeze_heading_positional_verified"}
+{"key": "IR-45::PRIMARY", "src": "IR-45", "propagated_label": "Overige devotee-huizen in Delhi", "label_source": "freeze_heading_positional_verified"}
+{"key": "IR-46::PRIMARY", "src": "IR-46", "propagated_label": "Devotee-huizen in Bombay/Mumbai", "label_source": "freeze_heading_positional_verified"}
+{"key": "IR-47::PRIMARY", "src": "IR-47", "propagated_label": "Privéhuis met grote tuin en tent in Wape/Vapi", "label_source": "freeze_heading_positional_verified"}
+{"key": "IR-48::PRIMARY", "src": "IR-48", "propagated_label": "Manda Ashram / Bhole Baba Gau-Seva Ashram", "label_source": "freeze_heading_positional_verified"}
+{"key": "IR-49::PRIMARY", "src": "IR-49", "propagated_label": "Mandir Shri Baba Haidakhan Mahayog Vishwa Kranti Ashram, Bandikui", "label_source": "freeze_heading_positional_verified"}
+{"key": "IR-50::PRIMARY", "src": "IR-50", "propagated_label": "Niet-geïdentificeerde familieboerderij bij/in Haldwani", "label_source": "freeze_heading_positional_verified"}
+{"key": "LM-001::PRIMARY", "src": "LM-001", "propagated_label": "Lahiri-voorouderlijk landgoed / geboortehuis (verdwenen)", "label_source": "freeze_heading_direct"}
+{"key": "LM-002::PRIMARY", "src": "LM-002", "propagated_label": "Zandige oever van de Jalangi bij het familie-erf", "label_source": "freeze_heading_direct"}
+{"key": "LM-003::PRIMARY", "src": "LM-003", "propagated_label": "Oorspronkelijke Lahiri Shiva-tempel / huidige Jaleshwar Shiva-claim", "label_source": "freeze_heading_direct"}
+{"key": "LM-004::PRIMARY", "src": "LM-004", "propagated_label": "Tijdelijke gezinsverblijven in Benares vóór 1839", "label_source": "freeze_heading_direct"}
+{"key": "LM-005::PRIMARY", "src": "LM-005", "propagated_label": "Vaderlijk huis in Siman Chouhatta, Madanpura", "label_source": "freeze_heading_direct"}
+{"key": "LM-006::PRIMARY", "src": "LM-006", "propagated_label": "Jainarain/Joy Narayan Ghosal mission school", "label_source": "freeze_heading_direct"}
+{"key": "LM-007::PRIMARY", "src": "LM-007", "propagated_label": "Engelse school behorend bij Government Sanskrit College / Benares College", "label_source": "freeze_heading_direct"}
+{"key": "LM-008::PRIMARY", "src": "LM-008", "propagated_label": "Bangalitola Preparatory / English High School", "label_source": "freeze_heading_direct"}
+{"key": "LM-009::PRIMARY", "src": "LM-009", "propagated_label": "Military Engineering/PWD-kantoor Benares", "label_source": "freeze_heading_direct"}
+{"key": "LM-010::PRIMARY", "src": "LM-010", "propagated_label": "Military Engineering/PWD-post Ghazipur", "label_source": "freeze_heading_direct"}
+{"key": "LM-011::PRIMARY", "src": "LM-011", "propagated_label": "Military Engineering/PWD-post Mirzapur", "label_source": "freeze_heading_direct"}
+{"key": "LM-012::PRIMARY", "src": "LM-012", "propagated_label": "Military Engineering/PWD-post Buxar", "label_source": "freeze_heading_direct"}
+{"key": "LM-013::PRIMARY", "src": "LM-013", "propagated_label": "Military Engineering/PWD-post Gorakhpur", "label_source": "freeze_heading_direct"}
+{"key": "LM-014::PRIMARY", "src": "LM-014", "propagated_label": "Military Engineering/PWD-post Naini Tal", "label_source": "freeze_heading_direct"}
+{"key": "LM-015::PRIMARY", "src": "LM-015", "propagated_label": "Danapur Military Engineering-kantoor en verblijf", "label_source": "freeze_heading_direct"}
+{"key": "LM-016::PRIMARY", "src": "LM-016", "propagated_label": "Ranikhet PWD/legerpost en kamp", "label_source": "freeze_heading_direct"}
+{"key": "LM-017::PRIMARY", "src": "LM-017", "propagated_label": "Dronagiri/Dunagiri-grottenveld en initiatiegrot", "label_source": "freeze_heading_direct"}
+{"key": "LM-018::PRIMARY", "src": "LM-018", "propagated_label": "Rotsige oever van de Gogash/Gaugus-rivier", "label_source": "freeze_heading_direct"}
+{"key": "LM-019::PRIMARY", "src": "LM-019", "propagated_label": "Plaats van het gematerialiseerde 'gouden paleis'", "label_source": "freeze_heading_direct"}
+{"key": "LM-020::PRIMARY", "src": "LM-020", "propagated_label": "Tem
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=182 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/reconciliation_layers/CORE_KRIYA_ENTITY_CANDIDATES_LABELED.jsonl blob_sha=1fe421b43834e56fd621e2998db7fd4b307de121 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=13 classification=text
+pelpad / tempel nabij Dronagiri (Ashwatthama-overlevering)", "label_source": "freeze_heading_direct"}
+{"key": "LM-021::PRIMARY", "src": "LM-021", "propagated_label": "Huis van een Bengaalse gastfamilie in Moradabad", "label_source": "freeze_heading_direct"}
+{"key": "LM-022::PRIMARY", "src": "LM-022", "propagated_label": "Huurhuis na vertrek uit het vaderlijk huis", "label_source": "freeze_heading_direct"}
+{"key": "LM-023::PRIMARY", "src": "LM-023", "propagated_label": "Garudeshwar-huis / latere Lahiri-residentie", "label_source": "freeze_heading_direct"}
+{"key": "LM-024::PRIMARY", "src": "LM-024", "propagated_label": "Sri Kedarnath/Kedareshwar-tempel en Narada Ghat-omgeving", "label_source": "freeze_heading_direct"}
+{"key": "LM-025::PRIMARY", "src": "LM-025", "propagated_label": "Panchganga Ghat Ashram van Trailanga Swami", "label_source": "freeze_heading_direct"}
+{"key": "LM-026::PRIMARY", "src": "LM-026", "propagated_label": "Rana Mahal Ghat", "label_source": "freeze_heading_direct"}
+{"key": "LM-027::PRIMARY", "src": "LM-027", "propagated_label": "Huis en binnenplaats van Krishnaram in Rana Mahal", "label_source": "freeze_heading_direct"}
+{"key": "LM-028::PRIMARY", "src": "LM-028", "propagated_label": "Ramnagar-paleis van de Kashi Naresh", "label_source": "freeze_heading_direct"}
+{"key": "LM-029::PRIMARY", "src": "LM-029", "propagated_label": "Bishnupur, locatie van Dukari Lahiri's huwelijk", "label_source": "freeze_heading_direct"}
+{"key": "LM-030::PRIMARY", "src": "LM-030", "propagated_label": "Geërfd perceel / familiebezit bij Krishnanagar", "label_source": "freeze_heading_direct"}
+{"key": "LM-031::PRIMARY", "src": "LM-031", "propagated_label": "Monghyr/Munger als mogelijke reisstop", "label_source": "freeze_heading_direct"}
+{"key": "LM-032::PRIMARY", "src": "LM-032", "propagated_label": "Bhagalpur als mogelijke reisstop", "label_source": "freeze_heading_direct"}
+{"key": "LM-033::PRIMARY", "src": "LM-033", "propagated_label": "Kumbha Mela-terrein, Allahabad/Prayagraj", "label_source": "freeze_heading_direct"}
+{"key": "LM-034::PRIMARY", "src": "LM-034", "propagated_label": "Manikarnika Ghat", "label_source": "freeze_heading_direct"}
+{"key": "LM-035::PRIMARY", "src": "LM-035", "propagated_label": "Keshabananda's hermitage in Hardwar (verschijningsclaim vóór overlijden)", "label_source": "freeze_heading_direct"}
+{"key": "LM-036::PRIMARY", "src": "LM-036", "propagated_label": "Keshabananda's kamer in Benares (postmortale verschijningsclaim)", "label_source": "freeze_heading_direct"}
+{"key": "LM-037::PRIMARY", "src": "LM-037", "propagated_label": "Panchanon Bhattacharya's huis in Calcutta (postmortale verschijningsclaim)", "label_source": "freeze_heading_direct"}
+{"key": "LM-038::PRIMARY", "src": "LM-038", "propagated_label": "Onbekende verblijfplaats van Pranabananda (postmortale verschijningsclaim)", "label_source": "freeze_heading_direct"}
+{"key": "LM-039::PRIMARY", "src": "LM-039", "propagated_label": "Onbenoemd hof van een maharaja", "label_source": "freeze_heading_direct"}
+{"key": "LM-040::PRIMARY", "src": "LM-040", "propagated_label": "Hut van een arme toegewijde nabij het naamloze hof", "label_source": "freeze_heading_direct"}
+{"key": "SY-001::PRIMARY", "src": "SY-001", "propagated_label": "Priyadham / hoofdhermitage en familiehuis van de Karars", "label_source": "freeze_heading_direct"}
+{"key": "SY-002::PRIMARY", "src": "SY-002", "propagated_label": "Huis van de familie Goswami", "label_source": "freeze_heading_direct"}
+{"key": "SY-003::PRIMARY", "src": "SY-003", "propagated_label": "Onbekende lagere/middelbare school van Priyanath", "label_source": "freeze_heading_direct"}
+{"key": "SY-004::PRIMARY", "src": "SY-004", "propagated_label": "Srirampur Christian Missionary College / Serampore College", "label_source": "freeze_heading_direct"}
+{"key": "SY-005::PRIMARY", "src": "SY-005", "propagated_label": "Calcutta Medical College", "label_source": "freeze_heading_direct"}
+{"key": "SY-006::PRIMARY", "src": "SY-006", "propagated_label": "Onbekend accountantskantoor", "label_source": "freeze_heading_direct"}
+{"key":
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=183 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/reconciliation_layers/CORE_KRIYA_ENTITY_CANDIDATES_LABELED.jsonl blob_sha=1fe421b43834e56fd621e2998db7fd4b307de121 original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=13 classification=text
+ "SY-007::PRIMARY", "src": "SY-007", "propagated_label": "Huis van Lahiri Mahasaya", "label_source": "freeze_heading_direct"}
+{"key": "SY-008::PRIMARY", "src": "SY-008", "propagated_label": "Onbekende Ganges-badplaats vóór de Kriya-inwijding", "label_source": "freeze_heading_direct"}
+{"key": "SY-009::PRIMARY", "src": "SY-009", "propagated_label": "Tijdelijke woning / huis van zijn moeder in Rana Mahal", "label_source": "freeze_heading_direct"}
+{"key": "SY-010::PRIMARY", "src": "SY-010", "propagated_label": "Onbekende smalle straat in het Bengaalse kwartier van Benares", "label_source": "freeze_heading_direct"}
+{"key": "SY-011::PRIMARY", "src": "SY-011", "propagated_label": "Onbekende crematieplaats aan de Ganges voor zijn moeder", "label_source": "freeze_heading_direct"}
+{"key": "SY-012::PRIMARY", "src": "SY-012", "propagated_label": "Benares Sanskrit College", "label_source": "freeze_heading_direct"}
+{"key": "SY-013::PRIMARY", "src": "SY-013", "propagated_label": "Babaji-kamp bij de Prayag Kumbha, richting Jhusi", "label_source": "freeze_heading_direct"}
+{"key": "SY-014::PRIMARY", "src": "SY-014", "propagated_label": "Christelijke missionarissen van Chandannagar", "label_source": "freeze_heading_direct"}
+{"key": "SY-015::PRIMARY", "src": "SY-015", "propagated_label": "Rai Ghat en de banyanboom", "label_source": "freeze_heading_direct"}
+{"key": "SY-016::PRIMARY", "src": "SY-016", "propagated_label": "Hut van een Santal-guru in een bergjungle", "label_source": "freeze_heading_direct"}
+{"key": "SY-017::PRIMARY", "src": "SY-017", "propagated_label": "Boshermitage van Dabru Ballav", "label_source": "freeze_heading_direct"}
+{"key": "SY-018::PRIMARY", "src": "SY-018", "propagated_label": "Onbekende geleerdenlocatie in Puri", "label_source": "freeze_heading_direct"}
+{"key": "SY-019::PRIMARY", "src": "SY-019", "propagated_label": "Karar Ashram en samadhi-graf", "label_source": "freeze_heading_direct"}
+{"key": "SY-020::PRIMARY", "src": "SY-020", "propagated_label": "Mahant-/monasterieplek te Buddha-Gaya", "label_source": "freeze_heading_direct"}
+{"key": "SY-021::PRIMARY", "src": "SY-021", "propagated_label": "Huis van Narendranath Basu, Jeletola Street", "label_source": "freeze_heading_direct"}
+{"key": "SY-022::PRIMARY", "src": "SY-022", "propagated_label": "Pranabashram, gehuurd huis in Benares", "label_source": "freeze_heading_direct"}
+{"key": "SY-023::PRIMARY", "src": "SY-023", "propagated_label": "Tulsi Bose-huis / Sadhana Mandir", "label_source": "freeze_heading_direct"}
+{"key": "SY-024::PRIMARY", "src": "SY-024", "propagated_label": "Familiehuis van Yogananda, 4 Garpar Road", "label_source": "freeze_heading_direct"}
+{"key": "SY-025::PRIMARY", "src": "SY-025", "propagated_label": "Panthi boardinghouse", "label_source": "freeze_heading_direct"}
+{"key": "SY-026::PRIMARY", "src": "SY-026", "propagated_label": "Serampore railway station", "label_source": "freeze_heading_direct"}
+{"key": "SY-027::PRIMARY", "src": "SY-027", "propagated_label": "Onbekende zakenlocatie in Calcutta", "label_source": "freeze_heading_direct"}
+{"key": "SY-028::PRIMARY", "src": "SY-028", "propagated_label": "Albert Hall (nu Indian Coffee House)", "label_source": "freeze_heading_direct"}
+{"key": "SY-029::PRIMARY", "src": "SY-029", "propagated_label": "Dihika Brahmacharya Vidyalaya", "label_source": "freeze_heading_direct"}
+{"key": "SY-030::PRIMARY", "src": "SY-030", "propagated_label": "Open markt en straten van Simla", "label_source": "freeze_heading_direct"}
+{"key": "SY-031::PRIMARY", "src": "SY-031", "propagated_label": "Tweelaagse herberg in Srinagar", "label_source": "freeze_heading_direct"}
+{"key": "SY-032::PRIMARY", "src": "SY-032", "propagated_label": "Tempel/hermitage van Swami Shankara", "label_source": "freeze_heading_direct"}
+{"key": "SY-033::PRIMARY", "src": "SY-033", "propagated_label": "Gulmarg", "label_source": "freeze_heading_direct"}
+{"key": "SY-034::PRIMARY", "src": "SY-034", "propagated_label": "Khilanmarg-pad en bergweiden", "label_source": "freeze_heading_direct"}
+{"key": "SY-035::PRIMARY", "src": "SY-035", "propagated_label": "Sha
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=184 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/reconciliation_layers/CORE_KRIYA_ENTITY_CANDIDATES_LABELED.jsonl blob_sha=1fe421b43834e56fd621e2998db7fd4b307de121 original_offset=20480 original_length=4096 payload_bytes=4096 chunk_index=5 chunk_count=13 classification=text
+limar Bagh", "label_source": "freeze_heading_direct"}
+{"key": "SY-036::PRIMARY", "src": "SY-036", "propagated_label": "Nishat Bagh en paleisgedeelte", "label_source": "freeze_heading_direct"}
+{"key": "SY-037::PRIMARY", "src": "SY-037", "propagated_label": "Dal Lake, shikara’s/houseboats en kanalen", "label_source": "freeze_heading_direct"}
+{"key": "SY-038::PRIMARY", "src": "SY-038", "propagated_label": "Festivalterrein van de Ghatal Yogoda Satsanga Sabha", "label_source": "freeze_heading_direct"}
+{"key": "SY-039::PRIMARY", "src": "SY-039", "propagated_label": "Khukurdaha/Kukurdaha festivalplek", "label_source": "freeze_heading_direct"}
+{"key": "SY-040::PRIMARY", "src": "SY-040", "propagated_label": "Onbekend huis van een rijke discipel/maharaja", "label_source": "freeze_heading_direct"}
+{"key": "SY-041::PRIMARY", "src": "SY-041", "propagated_label": "Sri Yukteswar-kamp bij Ganga Sagar Mela", "label_source": "freeze_heading_direct"}
+{"key": "SY-042::PRIMARY", "src": "SY-042", "propagated_label": "Regent Hotel, Bombay — postmortale verschijning", "label_source": "freeze_heading_direct"}
+{"key": "ext-B12::PRIMARY", "src": "ext-B12", "propagated_label": "Barrackpore/Barackpur — Shankari Mai Jiew room", "label_source": "delta_matrix_claim_label"}
+{"key": "ext-B16::PRIMARY", "src": "ext-B16", "propagated_label": "Ranikhet route — voice only", "label_source": "delta_matrix_claim_label"}
+{"key": "ext-B17::PRIMARY", "src": "ext-B17", "propagated_label": "Kathgodam railway waiting-room", "label_source": "delta_matrix_claim_label"}
+{"key": "ext-B18::PRIMARY", "src": "ext-B18", "propagated_label": "Government Rest House, Dwarahat", "label_source": "delta_matrix_claim_label"}
+{"key": "ext-B32::PRIMARY", "src": "ext-B32", "propagated_label": "Satyalok, Chousatti Ghat, Varanasi", "label_source": "delta_matrix_claim_label"}
+{"key": "ext-B19::PRIMARY", "src": "ext-B19", "propagated_label": "Neelkant/Neelkanth Hill zone", "label_source": "delta_matrix_claim_label"}
+{"key": "ext-B20::PRIMARY", "src": "ext-B20", "propagated_label": "Neelkant Hill — Mauni Baba cave zone", "label_source": "delta_matrix_claim_label"}
+{"key": "ext-B21::PRIMARY", "src": "ext-B21", "propagated_label": "Panar / Kakbhusundi Tal zone", "label_source": "delta_matrix_claim_label"}
+{"key": "ext-B22::PRIMARY", "src": "ext-B22", "propagated_label": "Kedarnath — secret path", "label_source": "delta_matrix_claim_label"}
+{"key": "ext-B23::PRIMARY", "src": "ext-B23", "propagated_label": "Jaisalmer", "label_source": "delta_matrix_claim_label"}
+{"key": "ext-B11-subclaim::PRIMARY", "src": "ext-B11-subclaim", "propagated_label": "Lahiri house, Varanasi — Pranabananda subclaim", "label_source": "delta_matrix_claim_label"}
+{"key": "intern-18-Gorakhpur-Abinash::PRIMARY", "src": "intern-18-Gorakhpur-Abinash", "propagated_label": "Gorakhpur — Abinash Babu materialization scene", "label_source": "delta_matrix_claim_label"}
+{"key": "DELTA-LM-PP-ONLY-AGGREGATE::PRIMARY", "src": "DELTA-LM-PP-ONLY-AGGREGATE", "propagated_label": "Additional PP-only sublocations including Panagarh and Burdwan-station", "label_source": "delta_matrix_claim_label"}
+{"key": "DELTA-SY-SERAMPORE-MICRO-AGGREGATE::PRIMARY", "src": "DELTA-SY-SERAMPORE-MICRO-AGGREGATE", "propagated_label": "Serampore hermitage micro-sites: hall, courtyard, sitting room, eating patio, bedroom(s)", "label_source": "delta_matrix_claim_label"}
+{"key": "DUNAGIRI-1861::CAVEFIELD", "src": ["IR-2", "LM-017"], "loc": "Drongiri/Dunagiri cave-field/open grove described in AOAY", "kind": "historic landscape zone", "r": 3, "a": "LA", "eq": "historic narrative localizes mountain/cave-field but does not identify one current cave", "no": ["IR-3::PRIMARY", "IR-30::PRIMARY", "IR-32::PRIMARY"], "web": ["https://yssofindia.org/location/dwarahat"], "propagated_label": "Drongiri/Dunagiri Mountain — open plek met grotten en Lahiri’s grot — Drongiri/Dunagiri cave-field/open grove described in AOAY", "label_source": "freeze_heading_positional_verified"}
+{"key": "DUNAGIRI-1861::UNNAMED-INITIATION-CAVE", "src": ["IR-2", "LM-017"], "loc":
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=185 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/reconciliation_layers/CORE_KRIYA_ENTITY_CANDIDATES_LABELED.jsonl blob_sha=1fe421b43834e56fd621e2998db7fd4b307de121 original_offset=24576 original_length=4096 payload_bytes=4096 chunk_index=6 chunk_count=13 classification=text
+ "Small initiation cave inside Drongiri/Dunagiri cave-field", "kind": "historic micro-site", "r": 5, "a": "AX", "eq": "exact cave in early text not recoverable from currently consulted evidence", "no": ["IR-3::PRIMARY"], "web": ["https://yssofindia.org/location/dwarahat"], "propagated_label": "Drongiri/Dunagiri Mountain — open plek met grotten en Lahiri’s grot — Small initiation cave inside Drongiri/Dunagiri cave-field", "label_source": "freeze_heading_positional_verified"}
+{"key": "DUNAGIRI-YSS::PANDUKHOLI-CAVE", "src": ["IR-3", "LM-017", "NEG-LM-05"], "loc": "Mahavatar Babaji's Cave, Pandukholi beyond Kukuchina", "kind": "current claimant site", "r": 1, "a": "LA", "eq": "exact current cave; equation with unnamed 1861 cave is YSS lineage identification, not independently proved", "no": ["DUNAGIRI-1861::UNNAMED-INITIATION-CAVE", "IR-30::PRIMARY"], "web": ["https://yssofindia.org/location/dwarahat"], "propagated_label": "Huidige YSS-‘Mahavatar Babaji’s Cave’, Pandukholi voorbij Kukuchina — Mahavatar Babaji's Cave, Pandukholi beyond Kukuchina", "label_source": "freeze_heading_positional_verified"}
+{"key": "DUNAGIRI-GAGAS::RIVER-SYSTEM", "src": ["IR-4", "LM-018"], "loc": "Gagas/Gogash river system below Dunagiri", "kind": "historic landscape zone", "r": 3, "a": "LA", "eq": "river system is identifiable; historical rocky-bank metres are not", "web": ["https://yssofindia.org/location/dwarahat", "https://hansavedas.org/path-of-yoga/"], "propagated_label": "Rotsige oever van de Gogash/Gagas-rivier — Gagas/Gogash river system below Dunagiri", "label_source": "freeze_heading_positional_verified"}
+{"key": "DUNAGIRI-GOLDEN-PALACE::EPHEMERAL", "src": ["IR-5", "LM-019"], "loc": "Claimed 1861 golden-palace terrain", "kind": "ephemeral/mythic micro-site", "r": 5, "a": "AX", "eq": "narrative says palace dematerialized; no physical terrain marker supplied", "no": ["IR-3::PRIMARY", "IR-30::PRIMARY"], "propagated_label": "Tijdelijk gematerialiseerd ‘gouden paleis’ en tuinen — Claimed 1861 golden-palace terrain", "label_source": "freeze_heading_positional_verified"}
+{"key": "PRAYAG-1894::HISTORIC-MELA-ZONE", "src": ["IR-8", "SY-013"], "loc": "1894 Kumbha mela zone on Ganges/Jhusi side", "kind": "historic temporary landscape", "r": 3, "a": "LA", "eq": "scene localizable to mela/Ganges/Jhusi-side context, but floodplain changed and exact camp sector absent", "propagated_label": "Kumbha Mela 1894 — boom nabij een brug aan de Ganges — 1894 Kumbha mela zone on Ganges/Jhusi side", "label_source": "freeze_heading_positional_verified"}
+{"key": "PRAYAG-1894::BRIDGE", "src": ["IR-8", "SY-013"], "loc": "Bridge crossed immediately before 1894 Babaji-tree encounter", "kind": "historic micro-site", "r": 5, "a": "AX", "eq": "no consulted map/source discriminates which 1894 bridge", "propagated_label": "Kumbha Mela 1894 — boom nabij een brug aan de Ganges — Bridge crossed immediately before 1894 Babaji-tree encounter", "label_source": "freeze_heading_positional_verified"}
+{"key": "PRAYAG-1894::TREE-AOAY", "src": ["IR-8", "SY-013"], "loc": "Tree under which Babaji received Sri Yukteswar in 1894", "kind": "historic micro-site", "r": 5, "a": "AX", "eq": "tree is explicit in testimony but exact historical tree identity not independently closed", "propagated_label": "Kumbha Mela 1894 — boom nabij een brug aan de Ganges — Tree under which Babaji received Sri Yukteswar in 1894", "label_source": "freeze_heading_positional_verified"}
+{"key": "PRAYAG-1894::YOGI-SATYAM-BANYAN", "src": ["IR-8", "SY-013"], "loc": "Blessed Mahavatar Babaji Banyan Tree, Kriyayoga Ashram & Research Institute, Jhusi", "kind": "current claimant tree", "r": 1, "a": "PL", "eq": "current ashram explicitly claims this tree is the 1894 tree; treated as claimant identification, not archival closure", "no": ["PRAYAG-1894::TREE-AOAY"], "web": ["https://www.kriyayoga-yogisatyam.org/mother-centre"], "propagated_label": "Kumbha Mela 1894 — boom nabij een brug aan de Ganges — Blessed Mahavatar Babaji Banyan Tree, Kriyayoga Ashram & Research Institute, Jhusi", "labe
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=186 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/reconciliation_layers/CORE_KRIYA_ENTITY_CANDIDATES_LABELED.jsonl blob_sha=1fe421b43834e56fd621e2998db7fd4b307de121 original_offset=28672 original_length=4096 payload_bytes=4096 chunk_index=7 chunk_count=13 classification=text
+l_source": "freeze_heading_positional_verified"}
+{"key": "DASHASHWAMEDH::GHAT", "src": "IR-9", "loc": "Dashashwamedh Ghat, Varanasi", "kind": "current historic ghat", "r": 1, "a": "PO", "eq": "named ghat exact; ordinary ghat identity does not identify hidden cave", "propagated_label": "Dashashwamedh Ghat en Mataji’s ondergrondse grot — Dashashwamedh Ghat, Varanasi", "label_source": "freeze_heading_positional_verified"}
+{"key": "DASHASHWAMEDH::MATAJI-CAVE", "src": "IR-9", "loc": "Hidden underground cave beneath stone slab at/near Dashashwamedh Ghat", "kind": "historic hidden micro-site", "r": 5, "a": "AX", "eq": "stone slab/cave not publicly identified; do not invent from modern cave claims", "propagated_label": "Dashashwamedh Ghat en Mataji’s ondergrondse grot — Hidden underground cave beneath stone slab at/near Dashashwamedh Ghat", "label_source": "freeze_heading_positional_verified"}
+{"key": "RAI-GHAT::BANYAN", "src": ["IR-10", "SY-015"], "loc": "Large banyan at Rai Ghat Lane, Serampore", "kind": "current claimant tree", "r": 1, "a": "LA", "eq": "YSS explicitly identifies present large banyan as witness site; tree age/continuity not independently dendrologically proved", "web": ["https://yssofindia.org/location/dakshineswar"], "propagated_label": "Rai Ghat — banyan aan de Hooghly/Ganges — Large banyan at Rai Ghat Lane, Serampore", "label_source": "freeze_heading_positional_verified"}
+{"key": "LAHIRI-HOUSE::BUILDING", "src": ["IR-11", "LM-023", "SY-007", "ext-B11-subclaim"], "loc": "Lahiri Mahasaya original home, Madanpura/Garudeshwar, Varanasi (modern claim D31/58)", "kind": "historic/current house", "r": 1, "a": "PL", "eq": "family/lineage continuity plus modern address; kept distinct from Satyalok", "no": ["ext-B32::PRIMARY", "NEG-LM-01"], "web": ["https://yappe.in/uttar-pradesh/varanasi/lahiri-mahasaya-original-home-kriya/415665"], "propagated_label": "Lahiri Mahasaya’s kleine salon en kamerdrempel — Lahiri Mahasaya original home, Madanpura/Garudeshwar, Varanasi (modern claim D31/58)", "label_source": "freeze_heading_positional_verified"}
+{"key": "LAHIRI-HOUSE::FRONT-PARLOR", "src": ["IR-11", "LM-023", "SY-007"], "loc": "Small front parlor on first floor of Lahiri house", "kind": "historic interior micro-site", "r": 3, "a": "PP", "eq": "AOAY describes parlor; present-room continuity is lineage/family-held but no independent floor-plan chain closed", "web": ["https://www.ananda.org/autobiography/"], "propagated_label": "Lahiri Mahasaya’s kleine salon en kamerdrempel — Small front parlor on first floor of Lahiri house", "label_source": "freeze_heading_positional_verified"}
+{"key": "LAHIRI-HOUSE::THRESHOLD", "src": "IR-11", "loc": "Threshold of Lahiri's room where Babaji was shown to Sri Yukteswar", "kind": "historic interior micro-site", "r": 3, "a": "PP", "eq": "house anchor exact; specific door/threshold current identity not independently verified", "propagated_label": "Lahiri Mahasaya’s kleine salon en kamerdrempel — Threshold of Lahiri's room where Babaji was shown to Sri Yukteswar", "label_source": "freeze_heading_positional_verified"}
+{"key": "GARPAR-4::HOUSE", "src": ["IR-12", "SY-024"], "loc": "4 Garpar Road, Kolkata", "kind": "historic/current family house", "r": 1, "a": "PP", "eq": "YSS identifies and holds commemorations in same family home", "web": ["https://yssofindia.org/blog/newsletter-and-appeal-2011", "https://yssofindia.org/location/dakshineswar"], "propagated_label": "4 Garpar Road — vestibule en kamer van Yogananda — 4 Garpar Road, Kolkata", "label_source": "freeze_heading_positional_verified"}
+{"key": "GARPAR-4::BABAJI-ROOM", "src": "IR-12", "loc": "Room/vestibule of 4 Garpar Road associated with Babaji meeting", "kind": "historic interior micro-site", "r": 3, "a": "PP", "eq": "same house exact; public sources checked do not independently establish current door/vestibule geometry", "propagated_label": "4 Garpar Road — vestibule en kamer van Yogananda — Room/vestibule of 4 Garpar Road associated with Babaji meeting", "label_source": "freeze_heading_positional_verifie
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=187 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/reconciliation_layers/CORE_KRIYA_ENTITY_CANDIDATES_LABELED.jsonl blob_sha=1fe421b43834e56fd621e2998db7fd4b307de121 original_offset=32768 original_length=4096 payload_bytes=4096 chunk_index=8 chunk_count=13 classification=text
+d"}
+{"key": "GARPAR-4::ROOF-1930", "src": "SY-024", "loc": "Roof of 4 Garpar Road where two Sri Yukteswar photos were taken in 1930", "kind": "historic/current micro-site", "r": 1, "a": "PP", "eq": "direct witness localizes roof; same family house continues", "propagated_label": "Familiehuis van Yogananda, 4 Garpar Road — Roof of 4 Garpar Road where two Sri Yukteswar photos were taken in 1930", "label_source": "freeze_heading_direct"}
+{"key": "KARAR::COMPLEX", "src": ["IR-16", "SY-019"], "loc": "Karar Ashram / Yogada Ashram, Mouza Balisahi, Swargadwar, Puri", "kind": "historic/current ashram property", "r": 1, "a": "PP", "eq": "current property continuity supported by Odisha High Court record", "web": ["https://indiankanoon.org/doc/109151220/"], "propagated_label": "Karar Ashram — Karar Ashram / Yogada Ashram, Mouza Balisahi, Swargadwar, Puri", "label_source": "freeze_heading_positional_verified"}
+{"key": "KARAR::SAMADHI", "src": "SY-019", "loc": "Sri Yukteswar samadhi/burial subsite within Karar Ashram", "kind": "historic/current memorial subsite", "r": 1, "a": "PP", "eq": "burial at ashram in 1936; later samadhi structure marks subsite", "propagated_label": "Karar Ashram en samadhi-graf — Sri Yukteswar samadhi/burial subsite within Karar Ashram", "label_source": "freeze_heading_direct"}
+{"key": "KARAR::HARIHARANANDA-ROOMS", "src": "IR-16", "loc": "Closed meditation room + small Kali-puja room, Karar Ashram", "kind": "historic interior sub-entities", "r": 3, "a": "PP", "eq": "delta preserves two room-level Babaji-visit claims; current exact room continuity/access not independently closed", "propagated_label": "Karar Ashram — Closed meditation room + small Kali-puja room, Karar Ashram", "label_source": "freeze_heading_positional_verified"}
+{"key": "PARANGIPETTAI::MANDIR", "src": "IR-19", "loc": "Babaji Nagaraj Mandir, Parangipettai", "kind": "current commemorative shrine", "r": 1, "a": "PL", "eq": "current shrine exact; source dates vary 1974/1975; claimed birth-equivalence remains tradition-specific", "web": ["https://www.babajiskriyayoga.net/rwd/english/pilgrimages.htm"], "propagated_label": "Babaji Nagaraj Mandir — in 1974 aangewezen geboorteperceel — Babaji Nagaraj Mandir, Parangipettai", "label_source": "freeze_heading_positional_verified"}
+{"key": "PARANGIPETTAI::CLAIMED-BIRTH-SUBSTRATE", "src": ["IR-17", "IR-19"], "loc": "Underlying parcel claimed as Nagaraj birthplace", "kind": "claimant historic substrate", "r": 3, "a": "PL", "eq": "later shrine fixes claimant parcel, but no independent evidence proves a 203 CE birth on that parcel", "propagated_label": "Parangipettai/Porto Novo — geclaimd geboortedorp — Underlying parcel claimed as Nagaraj birthplace", "label_source": "freeze_heading_positional_verified"}
+{"key": "SATOPANTH::LAKE-ZONE", "src": ["IR-26", "IR-27"], "loc": "Satopanth Tal and approach from Badrinath/Mana", "kind": "current high-altitude landscape", "r": 3, "a": "LA", "eq": "current route documented by Uttarakhand Tourism; seasonal/technical trek; this does not identify claimed cave", "web": ["https://www.uttarakhandtourism.gov.in/treks-details/Satopanth%20Lake%20Trek"], "propagated_label": "Grot bij Santopanth Tal — Satopanth Tal and approach from Badrinath/Mana", "label_source": "freeze_heading_positional_verified"}
+{"key": "SATOPANTH::UNNAMED-CAVE", "src": "IR-26", "loc": "Claimed cave beside Satopanth Tal", "kind": "historic micro-site", "r": 5, "a": "AX", "eq": "no unique present cave recovered", "propagated_label": "Grot bij Santopanth Tal — Claimed cave beside Satopanth Tal", "label_source": "freeze_heading_positional_verified"}
+{"key": "KESHAV-PRAYAG::CONFLUENCE", "src": "IR-29", "loc": "Keshav Prayag / Alaknanda-Saraswati confluence near Mana", "kind": "current landscape anchor", "r": 3, "a": "LA", "eq": "anchor zone is visitable; hidden Gauri Shankara Pitha is not physically disclosed", "propagated_label": "Gauri Shankara Pitha nabij Keshav Prayag — Keshav Prayag / Alaknanda-Saraswati confluence near Mana", "label_source": "freeze_heading_positional_verified"}
+{"key":
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=188 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/reconciliation_layers/CORE_KRIYA_ENTITY_CANDIDATES_LABELED.jsonl blob_sha=1fe421b43834e56fd621e2998db7fd4b307de121 original_offset=36864 original_length=4096 payload_bytes=4096 chunk_index=9 chunk_count=13 classification=text
+ "GAURI-SHANKARA-PITHA::HIDDEN", "src": "IR-29", "loc": "Gauri Shankara Pitha hidden enclave", "kind": "claimant hidden site", "r": 5, "a": "AX", "eq": "source itself presents it as concealed; no public building/parcel boundary", "propagated_label": "Gauri Shankara Pitha nabij Keshav Prayag — Gauri Shankara Pitha hidden enclave", "label_source": "freeze_heading_positional_verified"}
+{"key": "DUNAGIRI-HARAPRIYA::TEMPLE", "src": "IR-30", "loc": "Dunagiri/Harapriya Devi Temple, Malla Surana/Dwarahat", "kind": "current temple anchor", "r": 1, "a": "PL", "eq": "current temple exact; Hansavedas says initiation occurred 'near' it, not necessarily inside", "no": ["IR-3::PRIMARY"], "web": ["https://dunagiritemple.com/about-the-temple/"], "propagated_label": "Dunagiri Harapriya Devi-tempel — omgeving — Dunagiri/Harapriya Devi Temple, Malla Surana/Dwarahat", "label_source": "freeze_heading_positional_verified"}
+{"key": "HAIDAKHAN::VISHWA-MAHADHAM", "src": ["IR-32", "IR-34", "IR-35"], "loc": "Haidakhan Vishwa Mahadham, Dist. Nainital", "kind": "current ashram complex", "r": 1, "a": "PP", "eq": "Haidakhandi Samaj provides current address/contact and 1970-84 history; Mahavatar identity remains disputed", "web": ["https://haidakhandisamaj.in/ashrams/", "https://haidakhandisamaj.in/contact/"], "propagated_label": "Historische grot van Haidakhan — Haidakhan Vishwa Mahadham, Dist. Nainital", "label_source": "freeze_heading_positional_verified"}
+{"key": "HAIDAKHAN::HISTORIC-CAVE", "src": "IR-32", "loc": "Historic holy cave at foot of Mount Adi Kailash, Haidakhan", "kind": "current lineage cave", "r": 1, "a": "PP", "eq": "Samaj explicitly identifies cave as 1970 manifestation point; distinct from Dunagiri/Pandukholi", "no": ["IR-3::PRIMARY"], "web": ["https://haidakhandisamaj.in/ashrams/"], "propagated_label": "Historische grot van Haidakhan — Historic holy cave at foot of Mount Adi Kailash, Haidakhan", "label_source": "freeze_heading_positional_verified"}
+{"key": "HAIDAKHAN::DHUNI", "src": "IR-35", "loc": "Maha Shakti Dhuni inside Haidakhan Vishwa Mahadham", "kind": "current ritual subsite", "r": 1, "a": "PP", "eq": "kept separate from full complex because source assigns distinct construction/inauguration event", "propagated_label": "Maha Shakti Dhuni, Haidakhan — Maha Shakti Dhuni inside Haidakhan Vishwa Mahadham", "label_source": "freeze_heading_positional_verified"}
+{"key": "GHURNI::LOST-ESTATE", "src": ["LM-001", "LM-002", "LM-030"], "loc": "Ghurni/Jalangi historic Lahiri estate zone", "kind": "historic landscape zone", "r": 3, "a": "LA", "eq": "river-course change prevents parcel-level closure; inheritance parcel LM-030 not automatically same as birth estate", "propagated_label": "Lahiri-voorouderlijk landgoed / geboortehuis (verdwenen) — Ghurni/Jalangi historic Lahiri estate zone", "label_source": "freeze_heading_direct"}
+{"key": "GHURNI::Jaleshwar-SUCCESSOR", "src": "LM-003", "loc": "Current Jaleshwar/Ghurni Shiva successor shrine holding claimed rescued lingam", "kind": "successor cult object/site", "r": 3, "a": "PL", "eq": "continuity of lingam is claimed; same physical temple/site not proven, so not R2", "propagated_label": "Oorspronkelijke Lahiri Shiva-tempel / huidige Jaleshwar Shiva-claim — Current Jaleshwar/Ghurni Shiva successor shrine holding claimed rescued lingam", "label_source": "freeze_heading_direct"}
+{"key": "VARANASI-PANCHGANGA::GHAT", "src": "LM-025", "loc": "Panchganga Ghat", "kind": "current historic ghat", "r": 1, "a": "PO", "eq": "named ghat survives; meeting specifically attributed to Trailanga Swami ashram", "propagated_label": "Panchganga Ghat Ashram van Trailanga Swami — Panchganga Ghat", "label_source": "freeze_heading_direct"}
+{"key": "VARANASI-PANCHGANGA::TAILANG-MATH", "src": "LM-025", "loc": "Tailang Swami Math at Panchganga Ghat", "kind": "current math", "r": 1, "a": "PL", "eq": "UP heritage/government page confirms Tailang Swami Math at ghat and 19th-century residence", "web": ["https://pawanpath.up.gov.in/ghats/"], "propagated_label": "Panchganga Ghat Ashram van Trailanga Swami —
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=189 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/reconciliation_layers/CORE_KRIYA_ENTITY_CANDIDATES_LABELED.jsonl blob_sha=1fe421b43834e56fd621e2998db7fd4b307de121 original_offset=40960 original_length=4096 payload_bytes=4096 chunk_index=10 chunk_count=13 classification=text
+ Tailang Swami Math at Panchganga Ghat", "label_source": "freeze_heading_direct"}
+{"key": "RANA-MAHAL::GHAT", "src": "LM-026", "loc": "Rana Mahal Ghat", "kind": "current historic ghat", "r": 1, "a": "LA", "eq": "named ghat exact; falling-brick exact roof/return-path not recoverable", "propagated_label": "Rana Mahal Ghat — Rana Mahal Ghat", "label_source": "freeze_heading_direct"}
+{"key": "RANA-MAHAL::KRISHNARAM-HOUSE", "src": "LM-027", "loc": "Krishnaram private house/courtyard, Rana Mahal", "kind": "historic private micro-site", "r": 4, "a": "AX", "eq": "district/host known but no address", "propagated_label": "Huis en binnenplaats van Krishnaram in Rana Mahal — Krishnaram private house/courtyard, Rana Mahal", "label_source": "freeze_heading_direct"}
+{"key": "RAMNAGAR::FORT-PALACE", "src": "LM-028", "loc": "Ramnagar Fort/Palace of Kashi Naresh", "kind": "historic/current palace", "r": 1, "a": "PL", "eq": "current fort is royal Kashi Naresh residence; exact tutoring/lodging room not named", "web": ["https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/ramnagar-fort"], "propagated_label": "Ramnagar-paleis van de Kashi Naresh — Ramnagar Fort/Palace of Kashi Naresh", "label_source": "freeze_heading_direct"}
+{"key": "RAMNAGAR::TUTORING-ROOM", "src": "LM-028", "loc": "Unknown tutoring/lodging room inside Ramnagar palace", "kind": "historic interior micro-site", "r": 3, "a": "PL", "eq": "palace exact; room/vleugel not recoverable from consulted sources", "propagated_label": "Ramnagar-paleis van de Kashi Naresh — Unknown tutoring/lodging room inside Ramnagar palace", "label_source": "freeze_heading_direct"}
+{"key": "HARIDWAR-KESHAV::CURRENT-ASHRAM", "src": ["LM-035", "NEG-LM-03"], "loc": "Current Keshav Ashram, Haridwar", "kind": "current lineage institution / possible successor candidate", "r": 3, "a": "PP", "eq": "current ashram established by Keshavanand after Himalayas, but no same-site chain to AOAY pre-death hermitage", "web": ["https://www.katyayanipeeth.org.in/about1"], "propagated_label": "Keshabananda's hermitage in Hardwar (verschijningsclaim vóór overlijden) — Current Keshav Ashram, Haridwar", "label_source": "freeze_heading_direct"}
+{"key": "HARIDWAR-KESHAV::AOAY-HERMITAGE", "src": "LM-035", "loc": "Keshabananda's Haridwar hermitage in AOAY", "kind": "historic private/religious site", "r": 4, "a": "AX", "eq": "city/host known; current Keshav Ashram cannot yet be promoted to same site", "propagated_label": "Keshabananda's hermitage in Hardwar (verschijningsclaim vóór overlijden) — Keshabananda's Haridwar hermitage in AOAY", "label_source": "freeze_heading_direct"}
+{"key": "SERAMPORE-PRIYADHAM::HISTORIC-TERRAIN", "src": ["SY-001", "DELTA-SY-SERAMPORE-MICRO-AGGREGATE"], "loc": "Historic Priyadham/hermitage terrain, Rai Ghat/Buro Bibi Lane", "kind": "historic property", "r": 2, "a": "SV", "eq": "current Smriti Mandir stands on old ashram site; room geometry only partly recoverable", "web": ["https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar"], "propagated_label": "Priyadham / hoofdhermitage en familiehuis van de Karars — Historic Priyadham/hermitage terrain, Rai Ghat/Buro Bibi Lane", "label_source": "freeze_heading_direct"}
+{"key": "SERAMPORE-PRIYADHAM::SMRITI-MANDIR", "src": "SY-001", "loc": "Sri Sri Swami Sri Yukteswar Giri Smriti Mandir, 3A Buro Bibi Lane", "kind": "current successor memorial", "r": 1, "a": "PL", "eq": "later memorial on old ashram site; not falsely treated as building entered by Sri Yukteswar", "web": ["https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar"], "propagated_label": "Priyadham / hoofdhermitage en familiehuis van de Karars — Sri Sri Swami Sri Yukteswar Giri Smriti Mandir, 3A Buro Bibi Lane", "label_source": "freeze_heading_direct"}
+{"key": "SERAMPORE-PRIYADHAM::COURTYARD", "src": ["SY-001", "DELTA-SY-SERAMPORE-MICRO-AGGREGATE"], "loc": "Historic Priyadham courtyard", "kind": "historic interior/space sub-entity", "r": 3, "a": "SV", "eq": "component explicitly preserved by source/reconciliation; exact current footprint/room corresponde
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=190 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/reconciliation_layers/CORE_KRIYA_ENTITY_CANDIDATES_LABELED.jsonl blob_sha=1fe421b43834e56fd621e2998db7fd4b307de121 original_offset=45056 original_length=4096 payload_bytes=4096 chunk_index=11 chunk_count=13 classification=text
+nce not independently mapped", "web": ["https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar"], "propagated_label": "Priyadham / hoofdhermitage en familiehuis van de Karars — Historic Priyadham courtyard", "label_source": "freeze_heading_direct"}
+{"key": "SERAMPORE-PRIYADHAM::HALL", "src": ["SY-001", "DELTA-SY-SERAMPORE-MICRO-AGGREGATE"], "loc": "Historic Priyadham hall", "kind": "historic interior/space sub-entity", "r": 3, "a": "SV", "eq": "component explicitly preserved by source/reconciliation; exact current footprint/room correspondence not independently mapped", "web": ["https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar"], "propagated_label": "Priyadham / hoofdhermitage en familiehuis van de Karars — Historic Priyadham hall", "label_source": "freeze_heading_direct"}
+{"key": "SERAMPORE-PRIYADHAM::SITTING-ROOM", "src": ["SY-001", "DELTA-SY-SERAMPORE-MICRO-AGGREGATE"], "loc": "Historic Priyadham sitting room", "kind": "historic interior/space sub-entity", "r": 3, "a": "SV", "eq": "component explicitly preserved by source/reconciliation; exact current footprint/room correspondence not independently mapped", "web": ["https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar"], "propagated_label": "Priyadham / hoofdhermitage en familiehuis van de Karars — Historic Priyadham sitting room", "label_source": "freeze_heading_direct"}
+{"key": "SERAMPORE-PRIYADHAM::EATING-PATIO", "src": ["SY-001", "DELTA-SY-SERAMPORE-MICRO-AGGREGATE"], "loc": "Historic Priyadham eating patio", "kind": "historic interior/space sub-entity", "r": 3, "a": "SV", "eq": "component explicitly preserved by source/reconciliation; exact current footprint/room correspondence not independently mapped", "web": ["https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar"], "propagated_label": "Priyadham / hoofdhermitage en familiehuis van de Karars — Historic Priyadham eating patio", "label_source": "freeze_heading_direct"}
+{"key": "SERAMPORE-PRIYADHAM::BEDROOM", "src": ["SY-001", "DELTA-SY-SERAMPORE-MICRO-AGGREGATE"], "loc": "Historic Priyadham bedroom", "kind": "historic interior/space sub-entity", "r": 3, "a": "SV", "eq": "component explicitly preserved by source/reconciliation; exact current footprint/room correspondence not independently mapped", "web": ["https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar"], "propagated_label": "Priyadham / hoofdhermitage en familiehuis van de Karars — Historic Priyadham bedroom", "label_source": "freeze_heading_direct"}
+{"key": "BODH-GAYA::KRISHNADAYAL-MATH", "src": "SY-020", "loc": "Unknown math/residence of Mahant Krishnadayal Giri, Bodh Gaya", "kind": "historic religious site", "r": 4, "a": "AX", "eq": "Bodh Gaya known; exact monastery not named; specifically do not substitute Mahabodhi Temple", "propagated_label": "Mahant-/monasterieplek te Buddha-Gaya — Unknown math/residence of Mahant Krishnadayal Giri, Bodh Gaya", "label_source": "freeze_heading_direct"}
+{"key": "TULSI-BOSE::HISTORIC-HOUSE", "src": "SY-023", "loc": "Tulsi Bose family home, historic Pitambar Bhattacharjee Lane, adjacent to 4 Garpar Road", "kind": "historic private house", "r": 3, "a": "PP", "eq": "YSS confirms Garpar centre behind Tulsi Bose house; current centre address history must not be projected onto every old room", "web": ["https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar"], "propagated_label": "Tulsi Bose-huis / Sadhana Mandir — Tulsi Bose family home, historic Pitambar Bhattacharjee Lane, adjacent to 4 Garpar Road", "label_source": "freeze_heading_direct"}
+{"key": "TULSI-BOSE::YSS-GARPAR-CENTRE", "src": "SY-023", "loc": "Yogoda Satsanga Dhyana Kendra—Garpar, current successor/adjacent lineage centre", "kind": "current adjacent/successor institution", "r": 2, "a": "PL", "eq": "lineage centre on/adjacent to Bose grounds; not proof of exact historical room", "web": ["https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar"], "propagated_label": "Tulsi Bose-huis / Sadhana Mandir — Yogoda Satsanga Dhyana Kendra—Garpar, current successor/adjacent
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=191 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/reconciliation_layers/CORE_KRIYA_ENTITY_CANDIDATES_LABELED.jsonl blob_sha=1fe421b43834e56fd621e2998db7fd4b307de121 original_offset=49152 original_length=3359 payload_bytes=3359 chunk_index=12 chunk_count=13 classification=text
+ lineage centre", "label_source": "freeze_heading_direct"}
+{"key": "PANTHI::HISTORIC-PLOT", "src": "SY-025", "loc": "Plot of former Panthi boardinghouse near Rai Ghat Lane", "kind": "historic plot / demolished building site", "r": 2, "a": "SV", "eq": "YSS says old structure was demolished by local council; plot remains localized", "web": ["https://yssofindia.org/location/dakshineswar"], "propagated_label": "Panthi boardinghouse — Plot of former Panthi boardinghouse near Rai Ghat Lane", "label_source": "freeze_heading_direct"}
+{"key": "PANTHI::ROOM", "src": "SY-025", "loc": "Specific historical Panthi room visited by Sri Yukteswar", "kind": "demolished interior micro-site", "r": 2, "a": "SV", "eq": "room no longer exists; plot localization is the strongest successor-level anchor", "propagated_label": "Panthi boardinghouse — Specific historical Panthi room visited by Sri Yukteswar", "label_source": "freeze_heading_direct"}
+{"key": "DIHIKA::HISTORIC-SCHOOL-SITE", "src": "SY-029", "loc": "Historic Dihika Brahmacharya Vidyalaya terrain", "kind": "historic school site", "r": 2, "a": "SV", "eq": "current YSS retreat/site gives physical successor, but Sri Yukteswar visit itself remains uncertain", "propagated_label": "Dihika Brahmacharya Vidyalaya — Historic Dihika Brahmacharya Vidyalaya terrain", "label_source": "freeze_heading_direct"}
+{"key": "DIHIKA::CURRENT-YSS-RETREAT", "src": "SY-029", "loc": "Current YSS Dihika retreat", "kind": "current successor institution", "r": 1, "a": "PL", "eq": "current site does not upgrade uncertain personal-visit claim", "propagated_label": "Dihika Brahmacharya Vidyalaya — Current YSS Dihika retreat", "label_source": "freeze_heading_direct"}
+{"key": "ALBERT-HALL::INDIAN-COFFEE-HOUSE", "src": "SY-028", "loc": "Albert Hall, now Indian Coffee House, 15 Bankim Chatterjee Street, Kolkata", "kind": "historic/current building", "r": 1, "a": "PL", "eq": "Kolkata Municipal Corporation heritage list explicitly states identity continuity", "web": ["https://www.kmcgov.in/KMCPortal/downloads/Graded_List_04_08_2022.pdf"], "propagated_label": "Albert Hall (nu Indian Coffee House) — Albert Hall, now Indian Coffee House, 15 Bankim Chatterjee Street, Kolkata", "label_source": "freeze_heading_direct"}
+{"key": "REGENT-1936::HISTORIC-HOTEL", "src": "SY-042", "loc": "Regent Hotel, Bombay, 19 June 1936 — historical hotel/third-storey room", "kind": "historic hotel/room", "r": 5, "a": "AX", "eq": "AOAY names hotel but no address/room number; current same-name hotel has not been proven continuous", "propagated_label": "Regent Hotel, Bombay — postmortale verschijning — Regent Hotel, Bombay, 19 June 1936 — historical hotel/third-storey room", "label_source": "freeze_heading_direct"}
+{"key": "REGENT-CURRENT::8-BEST-ROAD", "src": "SY-042", "loc": "Current Regent Hotel, 8 BEST Road, Colaba, Mumbai 400039", "kind": "current same-name candidate", "r": 1, "a": "PL", "eq": "current hotel exists, but historical equivalence to AOAY's 1936 Regent Hotel is NOT established; never merge without archival address evidence", "no": ["REGENT-1936::HISTORIC-HOTEL"], "web": ["https://www.regenthotelcolaba.in/contact-us.html"], "propagated_label": "Regent Hotel, Bombay — postmortale verschijning — Current Regent Hotel, 8 BEST Road, Colaba, Mumbai 400039", "label_source": "freeze_heading_direct"}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=192 path=india5/tasks/done/INDIA5-VNS-DISCOVERY-COVERAGE-003/STATUS.yaml blob_sha=2002a830af13189e3e2e1700b98883673bcf324a original_offset=0 original_length=905 payload_bytes=905 chunk_index=0 chunk_count=1 classification=text
+task_id: INDIA5-VNS-DISCOVERY-COVERAGE-003
+state: COMPLETED
+claimed_at: '2026-08-03T20:11:44.694753+00:00'
+claimed_by: CCI
+started_at: '2026-08-03T20:11:44.694753+00:00'
+completed_at: '2026-08-03T20:19:41.619132+00:00'
+git_commit_at_claim: null
+git_commit_at_complete: null
+completion_marker_found: true
+failure_reason: null
+pre_existing_dirty_paths: []
+hold:
+  active: false
+  reason: null
+  set_at: null
+  set_by: null
+result_comment_posted: false
+history:
+- at: '2026-08-02T21:45:00Z'
+  event: ISSUED
+  detail: Taak aangemaakt op expliciete instructie van Mark (namens INDIA2). NIET
+    geclaimd/uitgevoerd -- opdracht was expliciet om na de PRE-BRONS-vrijgave te stoppen
+    en alleen deze taak klaar te zetten.
+- at: '2026-08-03T20:11:44.694753+00:00'
+  event: CLAIMED
+  detail: queue -> active, door CCI
+- at: '2026-08-03T20:19:41.619132+00:00'
+  event: COMPLETED
+  detail: active -> done, door CCI
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=193 path=runs/active/TOP11-RAMANA-RAMAKRISHNA-V2-PRE-EXTERNAL-001/RAMANA_MAHARSHI_V2_PRE_EXTERNAL_FREEZE.md blob_sha=20730de214d7787b95c3257498279aec8748af57 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+# RAMANA_MAHARSHI_V2_PRE_EXTERNAL_FREEZE
+
+```
+task_id: TOP11-RAMANA-RAMAKRISHNA-V2-PRE-EXTERNAL-001
+cci_task: CCI_TASK 093
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-19
+methode: METHOD_V2 Fase 0-4, blinde corpus-first sweep vanaf nul.
+```
+
+## BLINDNESS_CONFIRMED
+
+- `agent/chatgpt-top11-parallel-sweep`: **NIET geopend**.
+- `agent/indiageel-ramana-ramakrishna-sweep`: **NIET geopend**.
+- IndiaGEEL Ramana/Ramakrishna-freezes: **NIET geraadpleegd**.
+- Oude METHOD_V1/PHASE2-kandidatenlijsten: **NIET gebruikt** als discoverychecklist.
+- Externe unions/reconciliaties voor Ramana Maharshi: **NIET geraadpleegd**.
+- Regionale/clusterbestanden: **NIET geraadpleegd**.
+
+## CORPORA_SEARCHED
+
+- **Primaire bron**: B.V. Narasimha Swami, *Self-Realisation: Life & Teachings of Sri Ramana
+  Maharshi* (vijfde editie, eerste biografie, geschreven na persoonlijke reizen naar Tiruchuzhi en
+  Madurai en interviews met Ramana zelf) — volledige tekst gedownload en corpusbreed doorzocht via
+  Internet Archive (`selfrealisationlifeteachingsoframanamaharshinarasimhaswamyb.v._202004_209_H`,
+  `_djvu.txt`-volledige tekst, 153K tekens, HTTP 200, geen inlog).
+- **Institutionele tijdlijn**: Sri Ramanasramam (officiële ashramwebsite, gururamana.org),
+  "Sri Ramana Maharshi Timeline" — datum-plaats-gebeurtenis-overzicht, gebruikt als secundaire
+  structurering en aanvullende plaatsnamen, niet als enige bron voor een claim.
+- Aanvullend gecontroleerd via WebSearch: Wikipedia (Ramana Maharshi, Sri Ramana Ashram),
+  algemene biografische overzichten (Ramana Maharshi Foundation, encyclopedia.com) — uitsluitend
+  gebruikt voor discovery/kruiscontrole, niet als primaire locatiebron.
+
+## SOURCE_ACCESS_BLOCKERS
+
+- Geen harde toegangsblokkades aangetroffen voor de primaire bron (volledig open op archive.org).
+- Enkele micro-details uit de institutionele tijdlijn (bv. exacte straatnaam "West Chittirai
+  Street" voor de Madurai-verblijfplaats vóór 1896, "Scott's Middle School"/"American Mission High
+  School" als schoolnamen) zijn **niet** teruggevonden in de primaire Narasimha Swami-tekst zelf —
+  gemarkeerd als secundair-only, niet dubbel bevestigd.
+- Latere/aanvullende biografieën (bv. Ganapati Muni's eigen geschriften, Gabriele Ebert se
+  volledige biografie) niet binnen dit taakbudget volledig doorzocht — genoteerd als open lead.
+
+## HOSTGRAPH_SEARCHED
+
+- Vader Sundaram Ayyar (overleden 1892, Madurai); moeder Alagammal (latere metgezel op de heuvel,
+  overleden 1922); oudere broer Nagaswami; jongere broer Nagasundaram (later Swami Niranjanananda);
+  zuster Alamelu.
+- Oom Nelliappa Iyer (Madurai, later bezoeker in de mangobongaard, mei 1898).
+- Vroege metgezellen/discipelen: Palaniswami (eerste blijvende metgezel/verzorger); Uddandi Nayanar;
+  Gambhiram Seshayya (vroege ondervrager, 1900); Sivaprakasam Pillai (vroege ondervrager, 1902);
+  Kavyakantha Ganapati Muni (gaf de naam "Bhagavan Sri Ramana Maharshi", 18 nov. 1907); Vasudeva
+  Sastri (getuige tweede "doodservaring", 1912).
+- Kilur Bhagavatar (gaf zoetigheden tijdens de treinreis, 30 aug. 1896).
+- F.H. Humphreys (eerste westerse bezoeker, nov. 1911).
+- Dieren als vaste ashrambewoners (Jack de hond, Nondi de hond, Kamala de hond, koe Lakshmi) —
+  genoteerd als context, niet als locatie-dragers.
+
+## DISCOVERY_SEARCH_FAMILIES
+
+Geboorte/jeugd; schoolperiode Dindigul/Madurai; de zelfrealisatie-episode in Madurai; de vlucht/
+treinreis naar Tiruvannamalai (elk tussenstation apart); de opeenvolgende verblijfplaatsen op en
+rond Arunachala (tempelhal → Patala Lingam → Gopura Subramanya-schrijn → mangobongaard →
+Arunagirinathar-tempeltje → Gurumurtam → Pavalakkunru → Virupaksha-grot/Mango Tree-grot →
+Pachaiamman Koil (pestepisode) → Skandashram → Sri Ramanasramam); familiebezoeken op de heuvel;
+de berouwing/heuvelomloop (giripradakshina, algemeen, niet als route vastgelegd conform de
+harde grens); overlijden en crematie/samadhi.
+
+## NORMALIZED_RECORDCOUNT
+
+**23 locatierecords.**
+
+## LOCATION_RECORDS
+
+| # | Plaats/staat | Type | Gebeurtenis/periode | PERSONALLY_PRESENT | PHYSICAL_IDEN
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=194 path=runs/active/TOP11-RAMANA-RAMAKRISHNA-V2-PRE-EXTERNAL-001/RAMANA_MAHARSHI_V2_PRE_EXTERNAL_FREEZE.md blob_sha=20730de214d7787b95c3257498279aec8748af57 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+TITY | Bron |
+|---|---|---|---|---|---|---|
+| 1 | Tiruchuzhi (Bhuminatheswara-tempelgebied), Virudhunagar-district, Tamil Nadu | geboortedorp | Geboren als Venkataraman, 29-30 dec. 1879; huis niet met adres geïdentificeerd | JA | ALLEEN_PLAATS | Narasimha Swami (geboortehoofdstuk); gururamana.org-tijdlijn |
+| 2 | Sri Sahayavalli-schrijn, Tiruchuzhi | tempel/schrijn | Op zesjarige leeftijd verdween hij na een lichte berisping en werd stil zittend achter het beeld gevonden (1886) | JA | DEELS | gururamana.org-tijdlijn; niet apart bevestigd in de doorzochte Narasimha-passages |
+| 3 | Dindigul, Tamil Nadu | school | Basisonderwijs na Tiruchuzhi, één jaar eerste klas | JA | ALLEEN_PLAATS | gururamana.org-tijdlijn |
+| 4 | Madurai, West Chittirai Street (huis van oom Subbier) | privéwoning | Woonde bij zijn oom na vaders dood (feb. 1892) tot aan zijn vertrek (1896) | JA | ALLEEN_PLAATS (straatnaam alleen secundair bevestigd) | gururamana.org-tijdlijn; Narasimha Swami bevestigt de oom-episode zonder straatnaam |
+| 5 | Madurai (plek van de zelfrealisatie-ervaring) | privévertrek/kamer, exacte locatie niet gespecificeerd | Spontane zelfrealisatie ("eerste doodservaring"), medio juli 1896 | JA | ONBEKEND | Narasimha Swami, hoofdstuk over de "Born Anew"-episode |
+| 6 | Madurai Junction (station) | station | Vertrek per trein naar Arunachala, 29 aug. 1896, met een afscheidsbriefje | JA | EXACT | Narasimha Swami; gururamana.org-tijdlijn |
+| 7 | Villupuram Junction → Mambalappattu Junction (tussenstations) | stations/tempelbezoek onderweg | Bezocht Sri Atulyanateswakar-tempel (Araiyaninallur) en Sri Viratteswar-tempel (Kilur) tijdens de treinreis, 30 aug. 1896 | JA | ALLEEN_PLAATS | gururamana.org-tijdlijn (niet apart teruggevonden in de doorzochte Narasimha-passages) |
+| 8 | Kilur Bhagavatar's huis | privéwoning | Kreeg zoetigheden mee tijdens de treinreis, die hij later bij de Ayyankulam-tank weggooide | JA | ONBEKEND | Narasimha Swami, letterlijk "the Kilur Bhagavatar's house" |
+| 9 | Tirukovilur (spoorstation) → Tiruvannamalai | station/route | Laatste reisetappe, 31 aug.-1 sept. 1896 | JA | ALLEEN_PLAATS | gururamana.org-tijdlijn |
+| 10 | Ayyankulam-tank, Tiruvannamalai | tank/badplaats | Wandelde er direct na aankomst heen en gooide het zoetigheidspakket weg; liet er zijn haar knippen | JA | EXACT | Narasimha Swami, letterlijk "the Ayyankulam Tank" |
+| 11 | Arunachaleswara-tempel — Duizendzuilenhal + Patala Lingam-kelder | tempelhal/ondergrondse kelder | Eerste verblijf onmiddellijk na aankomst, 1 sept. 1896; verplaatste zich naar de donkere Patala-Lingam-nis om aan aandacht/mierenbeten te ontsnappen | JA | EXACT | Narasimha Swami, letterlijk "Patala Lingam" |
+| 12 | Gopura Subramanya-schrijn, Arunachaleswara-tempel | tempelschrijn | Volgende verblijfplaats binnen het tempelcomplex, ca. 2 maanden | JA | DEELS | gururamana.org-tijdlijn |
+| 13 | Mangobongaard, Tiruvannamalai | boomgaard | Verblijfplaats vóór Gurumurtam; oom Nelliappa Iyer bezocht hem hier (mei 1898) | JA | ALLEEN_PLAATS | Narasimha Swami, letterlijk "the mango grove"; gururamana.org-tijdlijn |
+| 14 | Arunagirinathar-tempeltje (plaatselijke god, niet de dichter), Tiruvannamalai | klein tempeltje | Verhuisde hierheen vanuit de mangobongaard toen die niet langer geschikt was | JA | DEELS | Narasimha Swami, letterlijk "a small temple of Arunagirinathar" |
+| 15 | Gurumurtam, Tiruvannamalai | tempel/verblijfplaats | Verhuisde hierheen, februari 1897, ca. 1 mijl van de stad; bleef er geruime tijd, inclusief de Patala-Lingam/iluppai-boom-periode die later als geheel wordt aangehaald | JA | EXACT | Narasimha Swami, letterlijk "Gurumurtam"; gururamana.org-tijdlijn |
+| 16 | Pavalakkunru (heuvelflank), Tiruvannamalai | heuvelverblijfplaats | Verhuisde hierheen, sept. 1898; moeder Alagammal bezocht hem hier voor het eerst (dec. 1898) | JA | DEELS | gururamana.org-tijdlijn |
+| 17 | Virupaksha-grot, Arunachala-heuvel | grot | Hoofdverblijfplaats, feb. 1899-1916 ("17 jaar"); ontving hier Gambhiram Seshayya (1900, → *Self-Enquiry*), Sivaprakasam Pillai (1902, → *W
+<<< END CHUNK >>>
+

@@ -1,0 +1,845 @@
+>>> CHUNK stream_row=598 path=governance/MARK_HISTORIC_SITE_CONTINUITY_RULE_2026-08-20.md blob_sha=797070b273bd1da276fe9ea30e9ffcd2ee764f7d original_offset=0 original_length=3458 payload_bytes=3458 chunk_index=0 chunk_count=1 classification=text
+# MARK HISTORIC SITE CONTINUITY RULE
+
+Date: 2026-08-20
+Status: ACTIVE
+
+## Core rule
+For Mark's travel decisions, continuity of the HISTORIC PLACE is more important than survival of the exact historic structure.
+
+A location can be a strong A even when a house, room, temple building, hermitage structure, gate, platform or other built element has been rebuilt or altered, provided evidence establishes that the present visitable site is the same historic grounds / compound / hermitage / ashram / station site / garden / landscape where the relevant person-event occurred.
+
+Do NOT downgrade a site merely because the present building fabric is newer.
+
+## Distinguish these questions
+1. EVENT CERTAINTY — did the person/event occur?
+2. SITE CONTINUITY — are these the same physical grounds/place?
+3. STRUCTURE CONTINUITY — is the building/room/gate/etc. itself still historic?
+4. MICROPLACE CONTINUITY — can the exact room, tree, pond, steps, garden spot, platform, cave, gate, perron, etc. be identified?
+
+These are separate fields. Failure of #3 or #4 must not erase a strong #1 + #2.
+
+## Mark's travel meaning
+If Yogananda and another person lived, walked, talked, meditated, sat, ate, slept or otherwise spent time throughout a hermitage/ashram compound, visiting those same grounds can retain high experiential value even if one or more structures have since been rebuilt.
+
+Original fabric is a bonus, not a prerequisite.
+
+## ABC-PHASE RESEARCH BUDGET — IMPORTANT
+During the current cluster A/B/C selection phase, DO NOT launch expensive micro-location research merely to decide whether an already well-localized historic site deserves A/B/C.
+
+If event certainty + site continuity are sufficient for Mark to understand the significance of the visitable place, present the site and move on. Do not attempt exhaustive old-photo comparison, architectural matching, room reconstruction, exact tree/pond/gate identification or similar work at this stage unless the microplace itself is the only reason the candidate would be visitable.
+
+Known micro-site findings from completed sweeps remain preserved, but unresolved micro-sites must not generate a new research spiral now.
+
+## A-site end-stage requirement
+Only AFTER clusters and A-sites are substantially selected, the final travel-guide phase may attempt useful micro-resolution for the A-sites: surviving original rooms/structures, gardens, ponds, gates, steps, trees, caves, platforms, station/perron areas, photo positions, shrines or displays; what happened there; who was present; current access; and uncertainty.
+
+This later work is prioritized by practical travel value. It is not a requirement to prove every historical microplace. Never invent precision.
+
+## ON-SITE REALITY
+Some details may only become obvious on location: an old photograph, commemorative plaque, shrine, guide explanation, preserved room, changed building, or visible historic feature. That is acceptable. The planning system does not need to reconstruct every such detail in advance.
+
+## Presentation rule
+When presenting a candidate to Mark, explicitly state SITE CONTINUITY separately from BUILDING CONTINUITY where relevant. Keep the explanation practical. Avoid vague wording such as 'not the same building' when the historically important grounds are securely the same place, and avoid flooding the A/B/C decision with unresolved micro-site caveats that do not affect whether the site itself is worth visiting.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=599 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/FEED_INDIAZILVER_PARTIAL_GEEL_TURQUOISE_INTEGRATED.md blob_sha=79e929df5f4f03cbd280fe896501e36dc339582d original_offset=0 original_length=1835 payload_bytes=1835 chunk_index=0 chunk_count=1 classification=text
+# FEED — INDIA ZILVER PARTIAL PROXIMITY / ID BACKFILL
+
+Date: 2026-08-20
+Source branch: `agent/indiazilver-cluster-completeness-audit`
+Task: `INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001`
+State: PARTIAL_COMPLETE__GEEL_TURQUOISE_INTEGRATED__OTHER_FEEDS_ADDITIVE
+
+## OUTPUT COMMITS
+- PROTECTED_CANON_BASELINE.csv — `70b5fc0f7b86439506ec1b932897edc2f05988b3`
+- NEW_ID_REQUIRED_QUEUE.csv — `92a96bf3fcf2bdc58d758adaf689278484be9f88`
+- PROXIMITY_1KM_3KM_MATRIX.csv — `1c2187731a9c2a2195b7d887931022b7406e8def`
+- DUPLICATE_PARENT_CANDIDATES.md — `befb91bd2024e10d07b0f27ca1c5679494eb3ff8`
+- ABC_REVIEW_AFTER_CLOSURE_QUEUE.md — `cfb7e480971e4eb3fa3f335d59bdde287d70e366`
+- STATUS.md — `35dee24f388350ab4a2aa3dca5a41a128a305b42`
+
+## PRESERVATION
+- Existing IDs unchanged.
+- Existing A/B/C unchanged.
+- Locks unchanged.
+- No coordinates guessed.
+- Original 31-candidate queue retained and expanded.
+
+## ENTITY RULES APPLIED
+- Kainchi and NKB Vrindavan remain existing parents with separate microsites.
+- Sri Ramanasramam, Dakshineswar and Cossipore not duplicate-numbered from GEEL.
+- Virupaksha Cave and Mango Tree Cave remain separate.
+- Banke Bihari is one physical site with Ram Dass + Ramakrishna person links.
+- Historical huts/cremation sites and later successor/memorial structures remain temporally distinct.
+
+## PROXIMITY STATUS
+GEEL/TURQUOISE did not provide complete reliable coordinate pairs against protected canon; therefore no fabricated <=1 km/<=3 km numeric claims were added. UNKNOWN/dependency is correct until reliable coordinates arrive.
+
+## NEXT
+Keep ZILVER as one of at most two active workers. It may append WIT and later ROOD feeds, but do not spawn further colors. Once ROOD closes and ZILVER has appended final available feeds, central INDIA8/9 performs consolidation into ALL_FINDINGS_LOCATION_MASTER.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=600 path=india5/TASK_PROTOCOL.md blob_sha=7a06c4012c330e76e97d5b2464fc69adec30ca33 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+# INDIA5 TASK PROTOCOL
+
+Status: VERPLICHT vanaf 2026-08-02 (INDIA2-architectuurbesluit, PR #23, taken "INDIA5 VEILIGE
+TAAKARCHITECTUUR INVOEREN" en "INDIA5-ARCH-HARDEN-002"). Versie: `1.1.0` (dit is de waarde die
+nieuwe `TASK.yaml`-bestanden in `protocol_version` moeten zetten). Zie ook
+`india5/GOVERNANCE.md` voor de gemigreerde governance-besluiten (rolverdeling, escalatie,
+detectorbibliotheek-eigendom, enz.) die niet-technisch/procesmatig van aard zijn.
+
+## Doel
+
+Vervang de lange PR-commentrelay als plek waar taakinhoud en resultaten daadwerkelijk leven.
+PR-comments worden voortaan korte, wegwerpbare enveloppen; de taak zelf, de status, en het
+resultaat leven duurzaam in versiebeheerde bestanden onder `india5/tasks/`. Eén taak kan een
+volledige regioflow dragen (`PRE-BRONS → BRONS → ZILVER → GOUD → TRAVEL`) zonder dat Mark meer
+dan één korte startopdracht hoeft te geven.
+
+## Directorystructuur
+
+```
+india5/
+  TASK_PROTOCOL.md               <- dit bestand
+  GOVERNANCE.md                  <- gemigreerde governance-besluiten (rollen, escalatie, enz.)
+  schemas/
+    task.schema.json
+    status.schema.json
+    knowledge_gate.schema.json
+  templates/
+    KNOWLEDGE_GATE_REVIEW_TEMPLATE.md
+  scripts/
+    validate_task.py             <- schema/hash/expected_head/HOLD-validatie
+    claim_task.py                <- atomische claim, snapshot van reeds-vuile paden
+    complete_task.py             <- active -> done/failed, roept check_forbidden_writes.py aan
+    resolve_task_commits.py      <- niet-circulaire opzoeking van claim-/completion-commit
+    check_forbidden_writes.py    <- afdwinging van forbidden_writes sinds de claim-commit
+    validate_global_numbering.py <- repositorybrede nummeringscontrole (alleen-lezend)
+    validate_knowledge_gate.py   <- validatie van een KNOWLEDGE_GATE_REVIEW.json
+  tasks/
+    queue/<TASK_ID>/              <- nieuw uitgegeven, nog niet geclaimd
+      TASK.yaml                   <- machineleesbare envelop, IMMUTABLE na uitgifte
+      TASK.md                     <- volledige, mensleesbare taakinhoud
+      STATUS.yaml                 <- enige plek waar voortgang leeft (incl. hold, pre_existing_dirty_paths)
+    active/<TASK_ID>/              <- geclaimd, in uitvoering (max. 1 tegelijk)
+      ... zelfde bestanden, plus RESULT.md zodra geschreven, plus evt. aparte reviewbestanden
+      (bv. *_HOLD_INVENTORY.md, *_REVIEW.md) die WEL in de taak leven maar NIET automatisch
+      betekenen dat hun inhoud elders gecommit wordt
+    done/<TASK_ID>/                 <- afgerond, COMPLETED
+      ... + RESULT.md (verplicht)
+    failed/<TASK_ID>/               <- afgerond, FAILED
+      ... + STATUS.yaml met failure_reason
+```
+
+`STATUS.yaml` bevat minimaal: `state`, `claimed_at/by`, `started_at`, `completed_at`,
+`git_commit_at_claim`/`git_commit_at_complete` (altijd `null`, zie hieronder),
+`completion_marker_found`, `failure_reason`, `pre_existing_dirty_paths` (snapshot op
+claimmoment, zie "Forbidden-writes-afdwinging" hieronder), `hold` (object met
+`active`/`reason`/`set_at`/`set_by`, zie "HOLD/ABORT" hieronder), `result_comment_posted`
+(bool), `history` (append-only logboek). Volledig schema: `india5/schemas/status.schema.json`.
+
+Een taakdirectory verplaatst zich letterlijk tussen deze vier mappen (`queue → active → done`
+of `queue → active → failed`) — er is nooit een taak tegelijk in twee mappen.
+
+## PR-comment-enveloppen (het enige dat nog in PR-comments hoort)
+
+**Taakenvelop (INDIA2 → CCI):**
+```
+CCI_TASK_ENVELOPE
+task_id: <TASK_ID>
+task_file: india5/tasks/queue/<TASK_ID>/TASK.yaml
+task_file_sha256: <sha256 van TASK.md>
+expected_head: <commit-SHA van target_branch>
+```
+
+**Resultaatenvelop (CCI → INDIA2):**
+```
+CCI_RESULT
+task_id: <TASK_ID>
+status: COMPLETED | FAILED | BLOCKED
+commit: <commit-SHA na push>
+files_created: [...]
+validators: <welke validators gedraaid, met resultaat>
+test_result: <indien van toepassing>
+blockers: <indien van toepassing, anders "geen">
+result_file: india5/tasks/done/<TASK_ID>/RESULT.md
+result_file_sha256: <sha256 van RESULT.md>
+completion_marker: <de marker, 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=601 path=india5/TASK_PROTOCOL.md blob_sha=7a06c4012c330e76e97d5b2464fc69adec30ca33 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+ter bevestiging>
+```
+
+De uitgebreide inhoud staat altijd in `TASK.md`/`RESULT.md`, nooit (meer) losstaand in de
+PR-comment zelf. **Geen bestaande PR-comment geldt als canonieke bron van waarheid** — dat zijn
+uitsluitend `TASK.yaml`/`STATUS.yaml`/`RESULT.md` en de canonieke protocol-/registerbestanden.
+
+## Vereiste werking
+
+1. PR-comments zijn voortaan alleen korte enveloppen (zie hierboven).
+2. CCI voert nooit een taak uit zonder geslaagde validatie (`validate_task.py`) van schema,
+   `task_file_sha256`-hash, branch, `expected_head` (zie "expected_head-semantiek" hieronder)
+   en afwezigheid van een actieve `HOLD` (zie "HOLD/ABORT" hieronder).
+3. CCI claimt een taak atomisch door verplaatsing van `queue/` naar `active/`
+   (`claim_task.py`), direct gevolgd door een git-commit — die commit ís de atomische grens
+   (zie "Exactly-once claim" hieronder).
+4. Eén taak kan een volledige regioflow `PRE-BRONS → BRONS → ZILVER → GOUD → TRAVEL` bevatten
+   (`scope: REGION_FULL_FLOW`).
+5. Mark hoeft bij normale voortgang maar één korte startopdracht te geven (bv. "Voer de
+   nieuwste CCI_TASK op PR #23 uit" — CCI leest dan zelf de nieuwste taakenvelop-comment en
+   volgt het pad naar de echte taak).
+6. Resultaten worden volledig in `RESULT.md` + de outputbestanden zelf geschreven; de
+   PR-comment bevat alleen de korte resultaatenvelop.
+7. Geen bestaande PR-comment geldt als canonieke bron van waarheid (zie hierboven).
+8. **Conflicterende instructies volgen deze prioriteit, hoog naar laag** (herzien in
+   INDIA5-ARCH-HARDEN-002, canoniek ook in `india5/GOVERNANCE.md` sectie 6):
+   1. de canonieke `TASK.yaml`/`TASK.md` van de actieve, gevalideerde taak op de bedoelde
+      branch;
+   2. een expliciete `HOLD`/`ABORT`-status IN de taakbestanden zelf (`STATUS.yaml.hold.active`)
+      — zie "HOLD/ABORT" hieronder;
+   3. het Mark-besluitenregister (`RUN.yaml protected_mark_decisions`, `MARK_DECISIONS*.jsonl`,
+      `ACCOMMODATION_REGISTER.jsonl`, enz.);
+   4. PR-comments — uitsluitend als envelop/signaal, nooit als inhoudelijke bron van waarheid;
+   5. lokale hooks of losse chattekst — deze staan NOOIT boven een actieve canonieke taak.
+9. Geen taak mag stil worden uitgevoerd wanneer de inhoud afgekapt lijkt, de eindmarker
+   (`completion_marker`) ontbreekt, of de hash niet klopt — dit blokkeert hard
+   (`validate_task.py`/`complete_task.py` geven exit-code 1).
+10. Bestaande Varanasi-nummers 001–040, A/B/C-besluiten, het hotelbesluit en GEO-afwijzingen
+    zijn per definitie `forbidden_writes` voor elke architectuurtaak (`scope: ARCHITECTURE`).
+
+## Globale veiligheidsregels
+
+### git_commit_at_claim / git_commit_at_complete zijn ALTIJD null (niet-circulair, zie punt 1)
+
+`STATUS.yaml` kan de hash van de commit die het bestand ZELF bevat niet in zich dragen — die
+hash hangt af van de volledige boominhoud inclusief dat bestand, dus het schrijven van de hash
+zou de hash veranderen, enzovoort. Dit is fundamenteel circulair, geen bug om te "fixen" door
+harder te proberen. Deze twee velden blijven daarom in het gecommitte bestand altijd `null`.
+
+De niet-circulaire oplossing: `india5/scripts/resolve_task_commits.py <TASK_ID>` bepaalt deze
+commits ACHTERAF met een read-only git-log-query (`git log --all --diff-filter=A -- <pad>`,
+meest recente resultaat), ná het moment dat de commit al bestaat. Dit is de enige geautoriseerde
+manier om de daadwerkelijke claim-/completion-commit op te vragen — voor de `commit`-waarde in
+de resultaatenvelop, of om een aparte, latere `STATUS.yaml`-patch-commit te schrijven (nooit in
+dezelfde commit als de gebeurtenis zelf, dat zou opnieuw circulair zijn). Geverifieerd tegen de
+echte geschiedenis van `INDIA5-ARCH-TEST-001` en `INDIA5-ARCH-HARDEN-002` (zie `RESULT.md`).
+
+### expected_head-semantiek (herzien, zie punt 2)
+
+`expected_head` betekent: de commit waarop deze taak is GEBASEERD, niet de exacte HEAD op
+claimmoment. Exacte gelijkheid zou circulair zijn — het committen van `TASK.md`/`TASK.yaml`
+zelf, en de claim-commit erna, verzetten HEAD altijd voorbij `expected_head`, ook bij een
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=602 path=india5/TASK_PROTOCOL.md blob_sha=7a06c4012c330e76e97d5b2464fc69adec30ca33 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+
+volkomen geldige, verse taak. `validate_task.py` controleert daarom of `expected_head` een
+VOOROUDER is van (of gelijk aan) de huidige HEAD (`git merge-base --is-ancestor`), niet of ze
+identiek zijn. Alleen een echte divergentie (expected_head is GEEN voorouder meer, bv. door een
+force-push elders) telt als `STALE_EXPECTED_HEAD` en blokkeert hard. Getest met een synthetische
+divergente branch (zie `RESULT.md`) en met de eigen claim-commits (die legitiem ná
+`expected_head` liggen).
+
+### Exactly-once claim en exactly-once task_id
+
+- de atomische grens is niet de bestandsverplaatsing zelf (die kan een agent altijd lokaal
+  doen), maar de git-commit die de verplaatsing vastlegt. Zolang die commit niet bestaat, is de
+  claim ongeldig/herroepbaar;
+- `claim_task.py` weigert te claimen zolang er al een andere taak in `india5/tasks/active/`
+  staat (maximaal 1 actieve taak tegelijk, systeembreed) — meerdere taken in `queue/`
+  tegelijkertijd is wél toegestaan en normaal;
+- `task_id` is immutable en wordt nooit hergebruikt (zelfde principe als Immutable Location
+  Numbering): `claim_task.py` weigert een claim als hetzelfde `task_id` al bestaat in `done/` of
+  `failed/`, ook als iemand per ongeluk een kopie in `queue/` zou terugzetten;
+- een tweede, parallelle CCI-sessie tegen dezelfde lokale checkout kan in theorie ook lokaal
+  claimen vóór de eerste pusht — de daadwerkelijke bescherming zit in git zelf: alleen de EERST
+  gepushte claim-commit wint (fast-forward); de tweede sessie krijgt een non-fast-forward-fout
+  bij het pushen. Recovery: fetchen, controleren of de taak al in `active/`/`done/` op de
+  remote staat; zo ja, de eigen lokale claim intrekken (`git reset`/`git restore`, NOOIT force-
+  pushen) en de taak als "al geclaimd door een andere sessie" behandelen.
+
+### Crashherstel (vier toestanden, punt 4)
+
+Een nieuwe sessie leest UITSLUITEND `india5/tasks/`, nooit chatgeschiedenis, om te bepalen waar
+een vorige sessie is gebleven:
+
+1. **Na queue-commit, vóór claim**: taak staat in `queue/`, `STATUS.yaml.state == QUEUED`. Geen
+   bijzondere actie nodig — dit is gewoon de normale startsituatie, claim zoals gebruikelijk.
+2. **Na claim-commit, vóór uitvoering**: taak staat in `active/`, `state == ACTIVE`,
+   `RESULT.md` ontbreekt nog. De nieuwe sessie hervat de uitvoering volgens `TASK.md`, zonder
+   opnieuw te claimen (de taak is al van haar).
+3. **Na outputs, vóór completion**: taak staat nog in `active/`, maar `RESULT.md` +
+   `expected_outputs` bestaan al. De nieuwe sessie draait gewoon `complete_task.py <TASK_ID>` —
+   dat is precies het ontworpen hervattingspad, geen speciale code nodig.
+4. **Na completion-move, vóór resultaatcomment**: taak staat al in `done/`/`failed/`,
+   `state == COMPLETED`/`FAILED`, maar `STATUS.yaml.result_comment_posted == false`. De nieuwe
+   sessie moet uitsluitend nog de korte resultaatenvelop op de PR plaatsen (met de via
+   `resolve_task_commits.py` opgehaalde commit-SHA), en daarna `result_comment_posted` op
+   `true` zetten (via een kleine, aparte vervolgcommit — nooit zelfreferentieel in dezelfde
+   commit als de completion-move zelf).
+
+### HOLD/ABORT (nieuw, punt 5)
+
+`STATUS.yaml.hold` (`active`/`reason`/`set_at`/`set_by`) staat in de instructieprecedentie
+BOVEN het Mark-besluitenregister, PR-comments en chattekst, maar ONDER de canonieke
+`TASK.yaml`/`TASK.md` zelf. Zolang `hold.active == true` blokkeert `validate_task.py` harde
+uitvoering (de taak mag nog wel gelezen/gerapporteerd worden, niet inhoudelijk worden
+uitgevoerd). Dit formaliseert precies het patroon dat al informeel gebruikt is in deze sessie
+(een `CCI_HOLD`-PR-comment die uitvoering pauzeerde) — vanaf nu hoort een HOLD in het
+taakbestand zelf, niet uitsluitend in een PR-comment die kan wegraken tussen lange threads.
+
+### Forbidden-writes-afdwinging (nieuw, punt 12 "verboden write-path")
+
+`complete_task.py` roept vóór elke completion verplicht `check_forbidden_writes.py` aan. Dat
+script bepaalt de claim-commit (niet-circulair, via `resolve_task_commits.py`), en vergelijkt
+ALLE bestanden die sindsdien
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=603 path=india5/TASK_PROTOCOL.md blob_sha=7a06c4012c330e76e97d5b2464fc69adec30ca33 original_offset=12288 original_length=3894 payload_bytes=3894 chunk_index=3 chunk_count=4 classification=text
+ zijn gewijzigd — inclusief NIEUWE, ongetrackte bestanden
+(`git diff` alleen toont GEEN untracked bestanden, dus `git ls-files --others` wordt apart
+meegenomen; dit was een echte bug die tijdens deze hardeningsronde is gevonden en gefixt) —
+tegen de `forbidden_writes`-padpatronen. Bestanden die al vóór het claimen vuil/ongetrackt
+waren (bv. een ander, apart vastgehouden werk zoals een `CCI_HOLD`) worden via een
+claimtijd-snapshot (`STATUS.yaml.pre_existing_dirty_paths`, met map-prefixmatching) uitgesloten
+van deze taak — anders zou ELKE taak blokkeren zolang er ander werk ligt te wachten. **Bekende
+resterende beperking**: als een pad al vóór het claimen vuil was ÉN deze taak dat exacte pad
+verder wijzigt, wordt dat NIET apart gedetecteerd (path-niveau uitsluiting, geen content-diff
+tegen de claimtijd-snapshot) — voor een striktere garantie zou een inhoudelijke snapshot-diff
+nodig zijn, buiten scope van deze hardeningsronde.
+
+### Non-fast-forward
+
+Bij het pushen van een taak-commit geldt dezelfde regel als elders in deze sessie — nooit
+force-pushen. Bij een non-fast-forward-conflict: STOP, meld het als blocker in de
+resultaatenvelop, wacht op een nieuwe taak/instructie.
+
+### Cross-regio nummeringscontrole (nu gebouwd, punt 8)
+
+`india5/scripts/validate_global_numbering.py` (puur lezend) scant alle
+`runs/*/NUMBERING_REGISTRY.jsonl`-bestanden repositorybreed en garandeert dat geen display_id
+ooit in twee regio's aan verschillende fysieke locaties hangt, en dat een candidate_id nooit met
+een ander nummer in een andere registry voorkomt. Gerapporteerd bereik per regio (nu:
+VARANASI 001-040) laat een nieuwe regio vooraf een niet-overlappend bereik reserveren. Raakt
+geen bestaand registrybestand aan.
+
+### Governance-PR versus regio-PR's (nu vastgelegd, punt 7)
+
+Zie `india5/GOVERNANCE.md` sectie 9: governance/canonieke architectuur hoort in
+versiebeheerde bestanden, onafhankelijk van welke PR ze introduceert; elke toekomstige regio
+krijgt idealiter een eigen run en bij voorkeur een eigen PR; PR #23 blijft Varanasi + deze
+architectuurmigratie en wordt niet de permanente queue voor alle regio's.
+
+### Autonome regioflow (punt 6)
+
+Eén taak met `scope: REGION_FULL_FLOW` kan `PRE-BRONS → BRONS → ZILVER → GOUD/TRAVEL` volledig
+autonoom doorlopen. Interne fasen mogen eigen checkpoints/batches hebben (zoals de bestaande
+`BRONS-B01`..`B04`-batchstructuur), maar dat zijn GEEN aparte taken in `india5/tasks/` en Mark
+hoeft ze niet apart te starten — dat is precies het "Autonome regio-doorloop"-principe dat al in
+`india4/protocols/INDIA5-PROTOCOL.md` staat, nu ook op taakarchitectuurniveau bevestigd.
+
+## Levenscyclus van een taak
+
+1. INDIA2 (of Mark) schrijft `TASK.md` + `TASK.yaml`, plaatst ze in
+   `india5/tasks/queue/<TASK_ID>/`, commit, en post de korte taakenvelop op de PR.
+2. Mark stuurt CCI aan met een korte startopdracht.
+3. CCI leest de nieuwste taakenvelop-comment, haalt `task_id`/`task_file`/
+   `task_file_sha256`/`expected_head` op.
+4. CCI draait `validate_task.py <TASK_ID> --stage queue`. Bij fouten: stoppen, blocker melden.
+5. CCI draait `claim_task.py <TASK_ID>`, commit direct de verplaatsing naar `active/`.
+6. CCI voert de taakinhoud uit zoals in `TASK.md` beschreven, binnen `allowed_writes` en nooit
+   binnen `forbidden_writes`.
+7. CCI schrijft `RESULT.md` (met de exacte `completion_marker`) + alle `expected_outputs`.
+8. CCI draait `complete_task.py <TASK_ID>` (of `--fail "reden"` bij een blocker), commit de
+   verplaatsing naar `done/` of `failed/`, en pusht.
+9. CCI plaatst de korte resultaatenvelop op de PR, met de daadwerkelijke commit-SHA.
+
+## Taak-ID-conventie
+
+`INDIA5-<SCOPE>-<NNN>`, bv. `INDIA5-ARCH-TEST-001` (architectuurtest), `INDIA5-VNS-002`
+(volgende Varanasi-taak). `<SCOPE>` correspondeert idealiter met het `scope`-veld in
+`TASK.yaml`, maar is vrije tekst zolang het uniek en leesbaar blijft.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=604 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/STATUS.md blob_sha=7a2244b352c3a15e92c9c92ade20ba4fa9827278 original_offset=0 original_length=2211 payload_bytes=2211 chunk_index=0 chunk_count=1 classification=text
+# STATUS — AOAY-FULL-LOCATION-ATLAS-001
+
+```
+task_id: AOAY-FULL-LOCATION-ATLAS-001
+state: SUBSTANTIELE_EERSTE_OOGST__NIET_SATURATED__WACHT_OP_INDIA
+task_file: runs/active/AOAY-FULL-LOCATION-ATLAS-001/TASK.md
+result_file: runs/active/AOAY-FULL-LOCATION-ATLAS-001/RESULT.md
+raw_occurrences_file: runs/active/AOAY-FULL-LOCATION-ATLAS-001/RAW_OCCURRENCES.jsonl
+place_atlas_file: runs/active/AOAY-FULL-LOCATION-ATLAS-001/PLACE_ATLAS.jsonl
+coverage_matrix_file: runs/active/AOAY-FULL-LOCATION-ATLAS-001/COVERAGE_MATRIX.md
+last_updated: 2026-08-16
+last_updated_by: CCI (CCI_TASK 082, eerste sweep-ronde)
+```
+
+**blockers**: geen.
+
+**Mark-opdracht**: volledige *Autobiography of a Yogi* als omgekeerde detector: boek → ALLE locatievermeldingen. Geen regiobegrenzing, geen relevantiefilter tijdens extractie.
+
+**Samenvatting eerste ronde**: reproduceerbare 3-detector-pipeline gebouwd (structuuranalyse +
+machine-assisted token-pass + known-entity gazetteer-pass) over de volledige Project Gutenberg
+#7452-tekst (48 hoofdstukken, sha256 in `RESULT.md`). 1.359 occurrence-records, 123 genormaliseerde
+plaatsen, waarvan 30 `AOAY_FOUND_BUT_MISSING_FROM_REPO` (sterkste nieuwe signaal: een compleet
+nieuwe Kashmir-regiocluster, twee volledige hoofdstukken lang, tot nu toe afwezig uit elke
+bestaande sweep). 19 plaatsen bevestigen bestaande Top-11-atlaspunten rechtstreeks vanuit AOAY's
+eigen brontekst.
+
+**Eerlijk: `AOAY_LOCATION_SWEEP_SATURATED: NEE`.** Circa 6.691 kandidaat-tokentypes (vnl.
+persoonsnamen/aanspreektitels op basis van steekproef, niet individueel geverifieerd) blijven
+`UNRESOLVED_BUT_RECORDED`. Geen enkele occurrence heeft nog een ingevulde
+`event_verified_from_AOAY`/`physical_identity_verified`/`exact_sublocation_verified`-beoordeling.
+Zie `RESULT.md` voor de volledige, eerlijke stand en concrete vervolgstappen.
+
+**next_allowed_step**: STOP hier voor INDIA-QA/richting. Voorstel: (1) eigen Kashmir-
+discoverytaak starten, (2) gerichte detector-1-verdieping op de hoofdstukken met de meeste
+onopgeloste tokens, (3) occurrence-niveau verificatie voor de 30 nieuwe plaatsen eerst. Geen
+automatische voortzetting zonder INDIA-akkoord over prioriteit.
+
+Geen PDF. Geen route. Geen A/B/C namens Mark.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=605 path=india5/.gitignore blob_sha=7a60b85e148f80966a550e5ab6a762a907c69ca6 original_offset=0 original_length=19 payload_bytes=19 chunk_index=0 chunk_count=1 classification=text
+__pycache__/
+*.pyc
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=606 path=india5/tasks/done/INDIA5-ARCH-HARDEN-002/TASK.yaml blob_sha=7a93107e9901740f431a218afccd1053587ca6a5 original_offset=0 original_length=937 payload_bytes=937 chunk_index=0 chunk_count=1 classification=text
+task_id: INDIA5-ARCH-HARDEN-002
+protocol_version: "1.0.0"
+issued_by: INDIA2
+issued_at: "2026-08-02T20:30:00Z"
+target_branch: claude/werk-je-nu-of-niet-oa10y7
+expected_head: "568338d851ba314da375d06ec9775c175e56ecc4"
+task_file: TASK.md
+task_file_sha256: "411ef21cbb2e5b33e02966b78f04e7aa1fa546d02af52c493c1e023ea9b8a802"
+scope: ARCHITECTURE
+required_inputs:
+  - india5/TASK_PROTOCOL.md
+  - india5/tasks/done/INDIA5-ARCH-TEST-001/RESULT.md
+allowed_reads:
+  - india5/
+  - india4/
+  - runs/
+allowed_writes:
+  - india5/
+forbidden_writes:
+  - india4/registries/
+  - india4/roles/PRE-BRONS.md
+  - india4/scripts/
+  - india4/templates/PRE_BRONS_REGION_CONTENT_BRIEF_TEMPLATE.md
+  - india4/protocols/INDIA5-PROTOCOL.md
+  - india4/roles/BRONS.md
+  - india4/templates/BATCH_OUTPUT.md
+  - runs/
+expected_outputs:
+  - india5/tasks/done/INDIA5-ARCH-HARDEN-002/RESULT.md
+status: QUEUED
+completion_marker: "INDIA5-TASK-COMPLETE::INDIA5-ARCH-HARDEN-002"
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=607 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/STATUS.md blob_sha=7b5db9f610234cfb2891886a144083e8196539dc original_offset=0 original_length=2471 payload_bytes=2471 chunk_index=0 chunk_count=1 classification=text
+# STATUS — TOP11-CORE-KRIYA-RECONCILIATION-001
+
+```
+task_id: TOP11-CORE-KRIYA-RECONCILIATION-001
+cci_task: CCI_TASK 088
+state: RECONCILIATION_COMPLETE__INDIAROOD_DELTA_DONE__WACHT_OP_INDIA_QA
+issued_at: 2026-08-19
+issued_by: INDIA7
+completed_at: 2026-08-19
+completed_by: CCI
+target_branch: claude/werk-je-nu-of-niet-oa10y7
+task_file: runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/TASK.md
+status_file: runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/STATUS.md
+result_file: runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/RECONCILIATION_RESULT.md
+checkpoint_commits: 0bfeb45 (Babaji), 05cc7da (Lahiri Mahasaya), 59463c1 (Sri Yukteswar)
+indiarood_delta_commits: 3019884 (Babaji), 9338c4f (Lahiri Mahasaya), 2889174 (Sri Yukteswar) — CCI_TASK 092
+```
+
+## Scope
+
+Bidirectionele METHOD_V2-reconciliatie van de interne en externe freezes voor Mahavatar Babaji,
+Lahiri Mahasaya en Sri Yukteswar, inclusief directe bronverificatie en traditie-/identiteitscontrole.
+
+## Inputstatus
+
+- drie interne CCI_TASK 087/087R freezes: FROZEN, gereconcilieerd;
+- drie externe PRE-COMPARE freezes: FROZEN, gereconcilieerd, niet gewijzigd;
+- IndiaROOD derde blinde detector: **AFGEROND** — duurzame freezes op `agent/indiarood-core-kriya-sweep`
+  lossless gereconcilieerd via CCI_TASK 092 (commits 3019884/9338c4f/2889174); zie
+  `runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/RECONCILIATION_RESULT.md`;
+- externe branches/contexts: IMMUTABLE / NIET MERGEN / NIET BESMET;
+- blockers: PP-biografie (dokumen.pub) en Bidyananda-familiebiografie (pdfcoffee.com, HTTP 403)
+  blijven geblokkeerd; Satyananda's volledige Sri-Yukteswar-biografie is een JS-reader zonder
+  binnen budget vindbare statische tekst;
+- finale reconciliation/saturation gate: `RECONCILIATION_GATE` en `EXTERNAL_MODEL_DIVERSITY_GATE`
+  nu **JA** voor alle drie personen (was PROVISIONEEL/NEE); `SATURATED` blijft `NEE` voor alle
+  drie — zie de CCI_TASK 092 `RECONCILIATION_RESULT.md` voor de volledige gate-tabel.
+
+## Harde holds
+
+Geen cluster/regio, geen A/B/C, geen permanente IDs, geen PDF, geen route. Arunachala-hold blijft
+staan.
+
+## next_allowed_step
+
+IndiaROOD-deltareconciliatie is afgerond (CCI_TASK 092). Resterend: gerichte PP-/Bidyananda-
+verificatie zodra die bronnen weer bereikbaar zijn; Ramana Maharshi/Ramakrishna interne freezes
+starten indien INDIA dat opdraagt (externe freezes daarvoor bestaan al). Geen automatische
+vervolgtaak vanuit hier gestart. STOP, wacht op INDIA-QA.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=608 path=runs/active/TOP11-NKB-RAMDASS-EXTERNAL-RECONCILIATION-001/RAM_DASS_RECONCILIATION.md blob_sha=7bfb4464d05d3046478ee7f1acc672862820b68b original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# RAM_DASS_RECONCILIATION
+
+```
+task_id: TOP11-NKB-RAMDASS-EXTERNAL-RECONCILIATION-001
+cci_task: CCI_TASK 091
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-19
+internal_source: runs/active/TOP11-NKB-RAMDASS-V2-PRE-EXTERNAL-001/RAM_DASS_V2_PRE_EXTERNAL_FREEZE.md
+  (13 locatierecords + 1 naamsbevestiging, uit CCI_TASK 089 + 090-delta)
+external_source: agent/chatgpt-top11-parallel-sweep,
+  runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/RAM_DASS_PRE_COMPARE_FREEZE.md
+  (57 records; commit 799949b551564a9993d4afe15403c36e55213af2, blob-sha 6d2c5c978c7eddbb9d74f2352c8682e6b1cfe7b6
+  — integriteit bevestigd via directe GitHub-blobvergelijking vóór opening)
+```
+
+## 0. Directe bronverificatie — methode en resultaat
+
+De externe freeze citeert grotendeels dezelfde twee kernbronnen die CCI zelf in CCI_TASK 090
+herstelde (**BH** = *Be Here Now*, volledige tekst reeds gedownload; **MOL** = *Miracle of Love*,
+blijft `BRON_GEBLOKKEERD`), plus een reeks toegankelijke secundaire bronnen (RD, IM, SD, HE, PA,
+SAI, JV, RDE, AV, CG, ID).
+
+**Tier 1 — rechtstreeks in eigen BH-tekst nagelopen (nieuw bevestigd)**:
+- Externe record #19 ("Health Department"-kantoor): woordelijk teruggevonden op regel 1373 van
+  `be_here_now.txt` — exacte frase "the Health Department".
+- Externe record #11 (rivier-badplaats bij Kainchi): woordelijk teruggevonden op regel 1508:
+  "I would get up early, take my bath in the river or out..." — bevestigt exact.
+- Externe record #57 (Lama Govinda's huis): de "opdracht om Govinda te bezoeken" is al in
+  CCI_TASK 090 zelf rechtstreeks gevonden (regels 1350-1358); brontekst bevestigt de opdracht,
+  niet de daadwerkelijke aankomst — exact consistent met de externe eigen `ONZEKER`-status.
+
+**Tier 1 — rechtstreeks extern nagelopen (WebFetch, 2026-08-19)**:
+- **AV (Auroville)**: bevestigd — december 1992, citaat exact overeenkomend met de externe freeze.
+- **SD (Sara Davidson, saradavidson.com + beezone.com)**: **NIET bevestigd** — zie §2, fout
+  gevonden.
+- **SAI (ashramsofindia.com Sathya Sai Baba-devotees)**: alleen de kale vermelding "Richard Alpert
+  (Ram Dass) 1971 Whitefield" teruggevonden; de gedetailleerde narratief (privé-interview, medaille,
+  Howard Levin als ooggetuige) kon niet in dezelfde ophaalronde worden bevestigd — `PARTIAL`.
+- **CG (Columbia University Libraries)**: URL geeft **HTTP 404** — bron onbereikbaar zoals
+  geciteerd; niet bevestigd, niet weerlegd.
+
+**Niet verifieerbaar**: alle MOL-gebaseerde claims blijven `BRON_GEBLOKKEERD`, conform CCI_TASK 090.
+
+## 1. Matrix — interne records tegen externe records
+
+| intern # | interne locatie | externe match(es) | classificatie | toelichting |
+|---:|---|---|---|---|
+| 1 | Delhi (indirect, reisgenoten 1970) | — | blijft ONZEKER, geen externe weerlegging | Extern bevat wel een eigen, directer bevestigd Delhi-cluster (#17-24) voor Ram Dass zelf. |
+| 2 | Kainchi Dham | ext #7-14 | SAME_SITE_MORE_GRANULAR | Extern splitst in 8 sublocaties (office/tucket, oude kamer, rivier, vuurceremoniezone, koude hut, 2004-kamer). Record #11 (rivier) Tier-1 bevestigd. |
+| 3 | Hotel Evelyn, Nainital | ext #25-27 | SAME_SITE_MORE_GRANULAR | Extern voegt "cave"-kamer en balkon/patio toe (HE-bron, al eerder als betrouwbaar bevestigd in CCI_TASK 089). |
+| 4 | Kausani (gehuurd huis) | ext #32-33 | SAME_SITE_MORE_GRANULAR | Extern voegt Anasakti Ashram-identificatie toe (inferentieel, eigen caveat van extern). |
+| 5 | India 2004-reis (ONZEKER) | ext #14 (2004-kamer Kainchi) | SAME_SITE_DIFFERENT_GRANULARITY | Extern lokaliseert de 2004-reis wél specifiek in Kainchi; intern bleef algemeen. |
+| 6 (090) | Amarnath Cave | ext #1 | SAME_PHYSICAL_SITE | Consistent. |
+| 7 (090) | Benares/Varanasi | ext #2 | SAME_PHYSICAL_SITE | Consistent. |
+| 8 (090) | Sarnath | ext #5 | SAME_PHYSICAL_SITE | Consistent. |
+| 9 (090) | Delhi-sublocaties (Connaught Place, AmEx, restaurant, klooster) | ext #17-21 | SAME_EVENT — **CONFIRMED_TRUE (Tier 1, deels al in 090)** | Extern voegt "Health Department"-kantoor toe als apart record #19 — Tier-1 bevestigd in eigen BH-tekst (regel 1373
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=609 path=runs/active/TOP11-NKB-RAMDASS-EXTERNAL-RECONCILIATION-001/RAM_DASS_RECONCILIATION.md blob_sha=7bfb4464d05d3046478ee7f1acc672862820b68b original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+); intern had dit generiek als "visumkantoor" meegenomen. |
+| 10 (090) | Eerste-ontmoetingsveld | ext #8 | SAME_PHYSICAL_SITE | Consistent, beide zonder naamsanker. |
+| 11 (090) | Forestry camp | ext #15-16 | SAME_EVENT_MORE_GRANULAR | Extern splitst appelboomgaard-tussenstop (#15) en Forestry camp zelf (#16) als twee records; intern had ze samengevoegd binnen één beschrijving. |
+| 12 (090) | Onbenoemde estate bij Delhi | ext #6 | SAME_PHYSICAL_SITE | Consistent. |
+| 13 (090) | K.K. Sah familiehuis | ext #29 | SAME_PHYSICAL_SITE | Consistent; extern voegt toe "vanaf 1967; 1971" als periode. |
+| 14 (090, naamsbevestiging) | Kainchi-naam via "Being Ram Dass"-fotobijschrift | ext #7 (Kainchi Dham, EXACT) | SAME_SITE | Extern bevestigt de naam onafhankelijk via BH+MOL, consistent met de eigen 090-vondst. |
+
+## 2. Fout gevonden — extern-only claim NIET ondersteund door eigen bron
+
+**Externe record #34 (Jagannath Puri-strand, "SD, eerstehands: 'walking on the beach in Jaganath
+Puri'")**: rechtstreeks gecontroleerd op de twee door de externe freeze zelf geciteerde
+Sara-Davidson-bronnen:
+- `https://saradavidson.com/ram-dass-does-a-saint-get-angry/` — volledige platte tekst
+  gedownload en doorzocht: **geen enkele vermelding van "Puri" of "beach"** in het hele artikel.
+- `https://beezone.com/ramdass/ram_dass_history.html` — volledige platte tekst gedownload en
+  doorzocht: **eveneens geen enkele vermelding van "Puri" of "beach"**.
+
+Conclusie: dit is een **`FALSE_OR_UNSUPPORTED_EXTERNAL_CLAIM`** — het geciteerde citaat staat niet
+in de aangehaalde bron, conform het Yogananda-precedent uit TASK.md §4. Dit record wordt **niet**
+overgenomen in de interne freeze. (De onderliggende feitelijke bewering — dat Ram Dass ooit in
+Puri was — kan overigens wel kloppen; MOL, p. 51, wordt door de externe freeze zelf ook als bron
+voor "opdracht/reis naar Puri" genoemd, en dat blijft `BRON_GEBLOKKEERD` voor directe verificatie.
+Het probleem is specifiek de SD-strandwandeling-quote, niet de Puri-reis an sich.)
+
+## 3. Cross-person bevestigingen met de Neem Karoli Baba-reconciliatie
+
+Verscheidene Ram-Dass-externe records blijken dezelfde fysieke locaties te beschrijven als de
+Neem-Karoli-Baba-externe freeze, onafhankelijk door dezelfde externe sweep gevonden:
+
+- Ram-Dass-ext #36 (Dada/Didi Mukerjee huis, 4 Church Lane) ↔ NKB-ext #20-26 (4 Church Lane-
+  cluster) — zelfde adres, twee personen.
+- Ram-Dass-ext #40 (Allahabad-treinstation) ↔ NKB-ext #27 — zelfde station.
+- Ram-Dass-ext #48-51 (NKB-ashram/Hanuman-tempel Vrindavan, incl. crematieplek) ↔ NKB-ext #104-107
+  — zelfde ashramcomplex.
+- Ram-Dass-ext #30 (Hanuman Garh-tempel, Nainital) ↔ NKB-ext #31-34 (Hanumangarhi) — zelfde tempel.
+- Ram-Dass-ext #24 (huis van Mr. Soni, Inspector General of Forestry, Delhi) ↔ thematisch verwant
+  aan NKB-ext #52 (Bhowali forest rest house/Soni residence) — mogelijk dezelfde
+  Soni-familie/bosbeheernetwerk; niet als identiek record samengevoegd zonder sterker bewijs.
+
+Deze kruisbevestigingen verhogen het vertrouwen in beide externe freezes aanzienlijk: onafhankelijk
+gevonden overlap tussen twee apart bevroren persoonsdossiers is een sterk kwaliteitssignaal.
+
+## 4. Overige externe-only records (Tier 2/geen verificatie mogelijk)
+
+- **BH-gesourcte nieuwe leads** (Tier 2, corpus reeds in bezit maar niet elk record apart
+  herlezen): "Baneshwar" tempelstop (#3, onopgelost plaatsnaam/OCR-kwestie — extern classificeert
+  dit zelf al eerlijk als `ONBEKEND`), Konark Sun Temple (#4).
+- **MOL-gesourcte records** (blijven `BRON_GEBLOKKEERD`, niet gegokt): Kainchi-sublocaties #9-10,
+  #12-14; Ministry of Finance #22; "semi-hippie hotel" #23; Mr. Soni's huis #24; Hanuman Garh-
+  bezoek #30; Sombari Maharaj-ashram #31 (expliciet `UNRESOLVED_IDENTITY`, Padampuri vs Kakrighat —
+  extern classificeert dit zelf al eerlijk als open); Triveni Sangam #37; Allahabad-devoteehuis #38;
+  Allahabad High Court #39; Benares-hotel #41; Sri Aurobindo Ashram + sportterrein #42-43;
+  Mathura-logies/markt #46-47; Vrindavan-ashramsublocaties #49-51; Surat-gr
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=610 path=runs/active/TOP11-NKB-RAMDASS-EXTERNAL-RECONCILIATION-001/RAM_DASS_RECONCILIATION.md blob_sha=7bfb4464d05d3046478ee7f1acc672862820b68b original_offset=8192 original_length=3495 payload_bytes=3495 chunk_index=2 chunk_count=3 classification=text
+ot #52; Ayodhya
+  Sita-Ram-Baba-huis + winkel #53-54.
+- **Secundair bevestigd, niet volledig**: Brindavan/Whitefield #44-45 (`PARTIAL`, zie §0); Dhamma
+  Giri/Igatpuri #56 (IM-bron niet leesbaar opgehaald binnen deze taak, niet bevestigd noch
+  weerlegd); Naini Lake #28 (fotobijschrift-only, zwak volgens de externe freeze's eigen
+  toelichting — overgenomen als zwak).
+
+## 5. Correcties overgenomen in de interne freeze
+
+1. **Nieuw sublocatie-record**: "Health Department"-kantoor, Delhi — Tier-1 bevestigd, toegevoegd
+   als expliciete sublocatie naast de al bestaande generieke Delhi-visumkantoor-vermelding.
+2. **Nieuw sublocatie-record**: rivier-badplaats bij Kainchi — Tier-1 bevestigd (regel 1508).
+3. **Kausani**: Anasakti Ashram-identificatie toegevoegd als aanvullende, inferentiële (niet
+   volledig bewezen) naamskoppeling naast het bestaande "gehuurd huis"-record.
+4. **Forestry camp**: appelboomgaard-tussenstop toegevoegd als apart, direct voorafgaand
+   sub-record (extern splitst dit terecht van het Forestry camp zelf).
+5. **Puri-strand (extern #34)**: expliciet **niet** overgenomen — zie §2.
+
+## 6. Per-persoon rapportage
+
+- **Internal count vóór reconciliatie**: 13 locatierecords + 1 naamsbevestiging.
+- **External count**: 57.
+- **Matched/duplicate**: 14 interne records/naamsbevestigingen matchen op externe records
+  (sommige met meerdere sub-matches).
+- **External-only**: 43 externe records zonder interne tegenhanger — grotendeels MOL-gebaseerd
+  (blijft `BRON_GEBLOKKEERD`) of secundair-bronnig (deels Tier 1/2 bevestigd, zie §0/§4).
+- **Internal-only**: 0 (alle interne records vonden een externe tegenhanger of aanvulling).
+- **Verified true/false/partial/unresolved**: 3 volledig Tier-1 bevestigd (Health Department,
+  rivier-badplaats, Auroville); 1 expliciet vals/onondersteund (Puri-strand, §2); 1 `PARTIAL`
+  (Brindavan/Whitefield); 1 bron onbereikbaar (CG, HTTP 404); rest `BRON_GEBLOKKEERD` (MOL) of
+  niet apart binnen budget nagelopen.
+- **Nieuw bevestigde fysieke locaties**: Health Department-kantoor, rivier-badplaats Kainchi (beide
+  Tier 1); circa 40 overige externe-only sublocaties (grotendeels MOL-geblokkeerd, dus niet
+  bevestigd maar ook niet weerlegd).
+- **Gecorrigeerde claims**: Puri-strand verwijderd/niet overgenomen (§2); Kausani/Forestry camp
+  verrijkt (§5).
+- **Resterende bronblokkades**: *Miracle of Love* — ongewijzigd `BRON_GEBLOKKEERD`. "Being Ram
+  Dass" (2021) blijft `PARTIAL` (ongewijzigd sinds CCI_TASK 090). IM-interviewpagina kon deze ronde
+  niet schoon worden opgehaald (technische non-hit, geen bewuste blokkade). CG-catalogus-URL geeft
+  HTTP 404.
+- **Actuele vier METHOD_V2-gates**:
+  - CORPUS-COVERAGE-GATE: **DEELS** (ongewijzigd t.o.v. 090 — BH volledig, MOL blijft dicht).
+  - HOSTGRAPH-GATE: **DEELS** (Mr. Soni, K.K. Sah-netwerk, Sathya Sai Baba-kring, Sri Aurobindo
+    Ashram-gemeenschap toegevoegd als leads).
+  - DISCOVERY-GATE: **DEELS** (externe freeze dekt een brede waaier secundaire bronnen die intern
+    niet allemaal waren geraadpleegd — Auroville, Dhamma Giri, Sathya Sai Baba, Sri Aurobindo
+    Ashram).
+  - RECONCILIATIE-GATE: **DEELS** (deze taak).
+- **Eerlijke saturationstatus**: **`RAM_DASS_SATURATED: NEE`** — de externe freeze claimt dat zelf
+  ook niet; meerdere materiële leads (Baneshwar, Sombari-ashram-identiteit, meerdere Delhi/UP-
+  privéhuizen, 2004-opnamelocatie) blijven fysiek onopgelost.
+
+---
+Geschreven door: CCI. Checkpoint 2/2 van CCI_TASK 091.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=611 path=runs/active/INDIA8-CLUSTER-CASTING-001/ABC_READINESS_RULE.md blob_sha=7c9bbdbb81ebac4ad8c24921ef5ac744188f7518 original_offset=0 original_length=1875 payload_bytes=1875 chunk_index=0 chunk_count=1 classification=text
+# INDIA8 CLUSTER CASTING — A/B/C READINESS RULE
+
+Mark kan alleen A/B/C kiezen als de kandidaat eerst reis-operationeel voldoende exact is gemaakt.
+
+## HARD GATE — A/B/C_READY
+Een record mag pas aan Mark voor A/B/C worden voorgelegd als minimaal:
+1. HISTORISCHE GEBEURTENIS: duidelijk wat er gebeurde en welke persoon/personen daadwerkelijk aanwezig waren.
+2. FYSIEKE IDENTITEIT: gekoppeld aan een concrete huidige locatie (gebouw, tempel, ashram, ghat, kamer/terrein indien de gebeurtenis juist room-level is). Alleen stad/regio is niet genoeg.
+3. CONTINUITEIT: duidelijk of het oorspronkelijke gebouw/site nog bestaat, is vervangen door een memorial/continuity site, of verdwenen is.
+4. BEZOEKBAARHEID: bekend of Mark er daadwerkelijk heen kan: publiek toegankelijk / alleen terrein of buitenkant / privé maar bezoek mogelijk / niet bezoekbaar.
+5. LOCATOR: voldoende concrete naam/adres/landmark om de plek later zonder giswerk in route/kaart te zetten.
+
+Als één van deze materiële velden ontbreekt: status `ONOPGELOST_GEEN_ABC` en NIET aan Mark voor A/B/C vragen.
+
+## AOAY
+AOAY-scenes krijgen extra strengheid. Een AOAY-stad of gebeurtenislandschap is niet automatisch een A/B/C-locatie. De micro-sites uit de scène moeten afzonderlijk worden opgelost. Als een historische micro-site niet meer identificeerbaar is, blijft de scene als BOOK-IN-HAND contextrecord bewaard maar krijgt geen locatie-A/B/C.
+
+## CLUSTERBESLUIT
+Een cluster mag pas op DOOR/AF/TWIJFEL worden gezet nadat:
+- alle reeds gevonden travel-relevante records door deze exactheidsgate zijn gegaan;
+- exacte records A/B/C-ready zijn voorgelegd;
+- onopgeloste records zichtbaar apart zijn gehouden zodat Mark weet wat onzeker blijft.
+
+Deze regel supersedeert de eerdere INDIA8-castingformulering waarbij een inhoudelijk sterke maar nog niet exacte plek al aan Mark voor A/B/C kon worden voorgelegd.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=612 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/VRINDAVAN_MARK_ABC_LIVE.md blob_sha=7d762b1bf61b44736cf99fbaea09ea6bfca4a183 original_offset=0 original_length=2956 payload_bytes=2956 chunk_index=0 chunk_count=1 classification=text
+# VRINDAVAN / BRAJ — MARK A/B/C LIVE DECISIONS
+
+Date: 2026-08-20
+Status: IN_PROGRESS
+Rule: preserve source/master entities separately even where multiple entities are operationally bundled into one visit.
+
+## FIRST BLOCK
+1. Vrindavan Railway Station — A
+   - AOAY/Yogananda arrival/departure site.
+   - Historic station-site continuity is the important criterion; exact original platform fabric is not required.
+   - Former separate Kriya-initiation micro-site near station is operationally bundled into this A visit; exact microspot remains unresolved and must not be invented.
+2. Madan Mohan Temple — A
+3. Keshabananda / Katyayani Peeth — A
+   - Same historic ashram/hermitage grounds are sufficient for A; original building fabric is bonus, not prerequisite.
+4. Neem Karoli Baba Vrindavan Ashram parent complex — A
+   - Preserve all known rooms/courtyard/sanctum/gate/cremation/samadhi micro-entities in master.
+   - Final travel guide should explain meaningful micro-sites, but current ABC phase does not require exhaustive reconstruction.
+
+## SECOND BLOCK — USER'S NEW NUMBERING
+1. Samb Sadashiv Kunj / Babaji-tradition site — A
+2. Hathiwale Baba old hut grounds / later Gore Dauji site — A
+3. Ramakrishna Mission Sevashrama Hospital — A
+   - NKB left his body in this hospital on 10 Sep 1973.
+   - Mark asked whether there is a shrine there. Current research: the hospital campus has a Universal Temple/shrine of Sri Ramakrishna, but no reliable evidence found of a Neem Karoli Baba shrine inside the hospital campus.
+   - The dedicated NKB Mahasamadhi Mandir is at NKB Vrindavan Ashram, built on the cremation/remains site, not at the hospital.
+4. Seth Anandram Jaipuria Bhawan — A
+   - Ram Dass historical stay site.
+   - Mark explicitly asks: can he sleep/stay there now? Treat CURRENT_OVERNIGHT_BOOKABILITY_FOR_FOREIGN_TRAVELER as a follow-up practical research item; do not assume yes merely because it is/was a dharamshala/guesthouse.
+5. Banke Bihari Temple — A
+   - cross-person: Ram Dass + Ramakrishna.
+6. Fouzdar Kunj — A
+   - Ramakrishna stay building; known upper-room/veranda micro-details preserved for later A-site travel guide.
+
+## PRESENTATION / WORKFLOW RULES CONFIRMED BY MARK
+- Large visible heading for every numbered candidate in chat.
+- Give candidates in blocks of six.
+- If an old unresolved candidate rolls into next block, renumber it as #1 in that block; do not make Mark chase old numbering.
+- Never say 'I will now do X' and then stop before doing X.
+- Micro-sites use M1/M2/etc., never letters A/B/C that conflict with Mark's rating system.
+- During ABC selection, prioritize event certainty + same historic grounds + visitability; do not trigger expensive micro-archaeology unless necessary to identify the visitable site.
+- For A-sites, later final travel guide should surface useful known rooms, shrines, gardens, photo positions, etc., without requiring impossible proof of every microplace.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=613 path=runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/PRE_PDF_CONTENT.md blob_sha=7d7b577080f03c5d90cbc08401b68888d31ea4c8 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=10 classification=text
+# Bodh Gaya — persoonlijke keuzegids voor Mark
+
+*Status: DEFINITIEF LEESBAAR EINDPRODUCT — GEEN PDF meer gepland. Mark heeft op 2026-08-08
+rechtstreeks aangegeven geen nieuwe Bodh Gaya-PDF meer te willen ("Geen pdf meer!!!"), bevestigd
+door INDIA6 (bericht 066). Dit Markdown-bestand blijft de volledige, actuele inhoud — geen
+`PRE_PDF_CONTENT_APPROVED`/`PDF_GO`-stap meer nodig voor deze run. Drie kandidaten (051, 061, 074)
+hadden een `MARK_DECISION_CONFLICT` — **opgelost op 2026-08-08 (bericht 065): Mark bevestigt C
+voor alle drie, geen wijziging.** Zie hun kaart en de laatste pagina. (Bijgewerkt 2026-08-08 na
+INDIA6-tegencontrole bericht 058 — twee correcties: de Ramakrishna-claim bij 046 bleek onjuist en
+is verplaatst naar 051; de Ram Dass-link bij 074 is datumgecorrigeerd en nu onzeker gedeeld met
+061.)*
+
+---
+
+## Pagina 1 — Waarom Bodh Gaya, en waar het echt om gaat
+
+Bodh Gaya is de plek waar Boeddha verlichting bereikte — en, minstens zo belangrijk voor jouw
+eigen reis, de plek waar Sri Yukteswar (jouw eigen Kriya-lijn: Babaji → Lahiri Mahasaya → Sri
+Yukteswar → Yogananda) formeel in de Swami Orde werd ingewijd. Je reisdoel hier is in twee lagen:
+
+**Missiekritisch — AOAY-treffer (1):**
+- Sri Yukteswars formele inwijding in de Swami Orde, "door de Mahant van Buddh Gaya" — letterlijk
+  in *Autobiography of a Yogi* zelf (hoofdstuk 36, voetnoot). Zie kandidaat **046**.
+
+**Missiekritisch — Top-11-treffers (5 personen, 4 kandidaten; bijgewerkt na tegencontrole):**
+- Sri Yukteswar (zie boven) → **046**
+- Vivekananda bezocht Bodh Gaya tweemaal (eerste daad na sannyas én zijn laatste reis) → **046**
+- Anandamayi Ma woonde Arti bij in Vishnupad Temple en bezocht Bodh Gaya, 18 okt. 1956 → **051**
+  (conflict opgelost — bericht 065: C bevestigd)
+- Ramakrishna: geen eigen bezoek (hij weigerde bewust), maar zijn vader Kshudirams naamgevende
+  Gadadhar/Vishnu-visioen tijdens diens Gaya-pelgrimage (1835) → **051**
+  (zelfde kandidaat als Anandamayi Ma hierboven, conflict opgelost — bericht 065: C bevestigd)
+- Ram Dass studeerde Vipassana bij S.N. Goenka, januari 1971 — locatie onzeker tussen twee
+  cursusgebouwen → **061** óf **074** (niet definitief te onderscheiden)
+  (conflict op BEIDE opgelost — bericht 065: C bevestigd voor beide)
+
+Daarnaast een niet-promoveerbare lineage-context bij **046**: een Neem Karoli Baba-devotee
+(Krishna Das) ontving hier een Bodhi-boomzaad van een oude lama — géén directe, fysieke NKB-link
+(Maharajji zelf is nooit aantoonbaar in Bodh Gaya geweest), wel relevante satsang-context.
+
+Zes Top-11-namen (Yogananda, Babaji, Lahiri Mahasaya, Neem Karoli Baba zelf, Ramana Maharshi,
+Hariharananda) hebben GEEN aantoonbare eigen fysieke Bodh Gaya/Gaya-link — expliciet onderzocht,
+niet overgeslagen. Volledige audit + reconciliatie: `PRE_BRONS/AOAY_TOP11_AUDIT.md`.
+
+**Correctie t.o.v. de vorige versie van deze gids**: de eerdere claim "Ramakrishna bezocht Bodh
+Gaya en mediteerde voor het Boeddhabeeld" bij kandidaat 046 bleek bij dubbelcheck ONJUIST — de
+destijds aangehaalde bron zegt het tegendeel (hij weigerde bewust Gaya te bezoeken). Deze claim is
+ingetrokken; de correcte Ramakrishna-link (via zijn vader) staat nu bij 051.
+
+**Bonusmateriaal — overige zelfstandige zwaargewichten:** 050, 052, 058, 060, 062, 063, 068,
+070, 071, 072, 073, 077, 078 — elk hieronder met een eigen, eerlijke kaart. Landendekking of
+religie-vertegenwoordiging is nooit de reden dat ze hier staan (zie E.1-canon) — elk heeft een
+eigen, zelfstandige reden. (061 staat nu bij de missiekritische Top-11-treffers hierboven, niet
+meer hier — zie de toelichting daar.)
+
+**Drie eerder open beslissingen — inmiddels opgelost (bericht 065):** 046-049 zijn vastgelegd (A).
+Voor de overige 16 had je al eerder een A/B/C gekozen (bericht 053) — de audit + tegencontrole
+vond bij **051**, **061** en **074** een Top-11-link die je nog niet kende toen je koos. Mark heeft
+alle drie op C bevestigd, geen wijziging. Zie hun kaarten en de laatste pagina.
+
+---
+
+## Pagina 2 — Beslismatrix
+
+| Nr. | Naam | 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=614 path=runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/PRE_PDF_CONTENT.md blob_sha=7d7b577080f03c5d90cbc08401b68888d31ea4c8 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=10 classification=text
+Jouw link | GEO-cluster | Bezoektijd | Toegang | Kernreden | Besluit |
+|---|---|---|---|---|---|---|---|
+| 046 | Mahabodhi Temple Complex | AOAY + Top-11 (Yukteswar, Vivekananda) | Kerncluster | 60-90 min (schatting) | Vrij toegankelijk | De verlichting zelf | **A** |
+| 047 | Sujata Stupa, Bakraur | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Kerncluster (bij 046) | 20-30 min (schatting) | Vrij toegankelijk | Waar de Middenweg begon | **A** |
+| 048 | Dungeshwari Cave Temples | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Geen (eigen rit) | 45-60 min (schatting) | Vrij toegankelijk | De zes jaar ascese | **A** |
+| 049 | Great Buddha Statue | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Bij Mahabodhi | 20-30 min (schatting) | Vrij toegankelijk | Grootste Boeddhabeeld van India | **A** |
+| 050 | Archaeological Museum | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Bij Mahabodhi | 30-45 min (schatting) | Vrij (entreekaartje) | Originele Bodhi-boom-omheining | **B** |
+| 051 | Vishnupad Temple | Top-11 (Anandamayi Ma + Ramakrishna/vader Kshudiram) — C bevestigd | Gaya-stad | 30-45 min (schatting) | Beperkt (niet-hindoe: alleen omgeving) | Voetspoor van Vishnu | **C** |
+| 052 | Tergar Monastery | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Combineerbaarheid onbekend na GEO-controle | 30-60 min, veel langer tijdens Monlam (schatting) | Onzeker buiten festival | Karmapa-klooster | **B** |
+| 058 | Japanese Temple/Indosan Nippon | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Combineerbaarheid onbekend na GEO-controle | 20-30 min (schatting) | Vrij, gratis | Vredespagode-stichter Fujii | **C** |
+| 060 | Palyul Namdroling Monastery | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Bij Great Buddha Statue (049) | 20-30 min (schatting) | Vrij | Nyingma, genoemd door Dalai Lama | **C** |
+| 061 | Burmese Vihara | Top-11 (Ram Dass, onzeker met 074) — C bevestigd | Bij Mahabodhi | 20-30 min (schatting) | Vrij | Pioniersklooster, rieten Boeddhabeeld | **C** |
+| 062 | Mahabodhi Society of India | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Bij Mahabodhi | 15-20 min (schatting) | Vrij | Organisatie achter herstel van 046 | **C** |
+| 063 | Padmasambhava Grand Temple | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Combineerbaarheid onbekend na GEO-controle | 30-45 min, veel langer tijdens Monlam (schatting) | Onbevestigd buiten festival | Nieuw Nyingma-complex | **C** |
+| 068 | Shechen Monastery | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Bij Mahabodhi | 20-30 min (schatting) | Vrij verwacht | Dilgo Khyentse Rinpoche-lijn | **C** |
+| 070 | Mangala Gauri Temple | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Gaya-stad | 30-45 min (schatting) | Vrij (actieve tempel) | 1 van 18 Maha Shakti Peethas | **B** |
+| 071 | Pretshila Hill | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Gaya-stad | 45-60 min (schatting, incl. trap) | Vrij (geen verbod gevonden) | Pind-daan-heuvel, Yama-tempel | **C** |
+| 072 | Brahmayoni Hill/Gayasisa | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Combineerbaarheid onbekend na GEO-controle | 45-60 min (schatting, incl. klim) | Vrij | Waar Boeddha de Vuurpreek hield | **C** |
+| 073 | Jagannath Temple | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Bij Mahabodhi | 15-20 min (schatting) | Vrij (tempel-specifiek geverifieerd) | Krishna-tempel 25 voet van 046 | **B** |
+| 074 | Dhamma Bodhi/Samanvaya Ashram | Top-11 (Ram Dass, onzeker met 061) — C bevestigd | Bij Mahabodhi | N.v.t. zonder cursus (10 dagen) | Alleen volledige cursus | Eerste Vipassana-cursus van Bihar | **C** |
+| 077 | Bitho Sharif Dargah | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Combineerbaarheid onbekend na GEO-controle | 30-45 min (schatting) | Algemeen dargah-patroon (niet plek-specifiek bevestigd) | Regionaal Urs-festival | **C** |
+| 078 | Gurdwara Sri Guru Tegh Bahadur Ji | Geen AOAY/Top-11 — zelfstandig zwaargewicht | Gaya-stad | 20-30 min (schatting) | Vrij (actieve gurdwara) | Guru-bezoek-overlevering | **C** |
+
+Bezoektijden zijn transparante INDIA/CCI-planningsschattingen op basis van omvang/type be
+<<< END CHUNK >>>
+

@@ -1,0 +1,527 @@
+>>> CHUNK stream_row=55 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/REGIONAL/DATASET_VARANASI_40.jsonl blob_sha=0775171fce1c288f9ebdb76dfa11caa17dcddce5 original_offset=40960 original_length=4096 payload_bytes=4096 chunk_index=10 chunk_count=17 classification=text
+","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Lahartara Pond / Kabir Math, Lahartara","address":"Lahartara, Varanasi, Uttar Pradesh, India (nabij Kabir Math Lahartara)","physical_identity":"PARTIAL","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://en.wikipedia.org/wiki/Lahartara_Pond","supports":"Confirms the Lahartara pond/lake as the traditional Kabir birth-legend site and its partition between ASI and Satguru Kabir Prakat Dham"},{"url":"https://kashivacations.com/varanasi/kabir-math-kabirchaura-lehartara-varanasi-india-kabir-birth-place.php","supports":"Confirms the Lahartara site as distinct from Kabirchaura Math and its role in the Kabir birth tradition"},{"url":"https://wanderlog.com/place/details/10418098/kabir-temple-lahartara-varanasi","supports":"Google-derived listing for a Kabir Temple at Lahartara, corroborating the locality"}],"reason":"Bronidentiteit bevestigt de Lahartara-vijver/herdenkingszone als traditionele Kabir-geboorteplek, met een apart Kabir-tempel/Math-punt in dezelfde locatie. De brondata markeerde physical_identity al als PARTIAL (meerdere structuren in een zone); dat is bevestigd, geen precieze enkele gebouwmarker vastgesteld. Geen Google Maps-marker geconfirmeerd; geen schatting of terreinmiddelpunt overgenomen.","zilver_source_batch":"ZILVER-TESTSWEEP-022-040","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-026","display_id":"026","canonical_name":"Ramakrishna Mission Home of Service","recognition_hook":"Ramakrishna-Vivekananda sevashrama","cluster":"LUXA","place_type":"ASHRAM_HOSPITAL","visitability":"PRACTICAL_CHECK_REQUIRED","status":"PROVISIONAL","protected_mark_status":"C","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.309,"longitude":82.9974,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Ramakrishna Mission Home of Service","address":"Ramakrishna Mission Home of Service, Luxa Road, Ramapura Luxa, Varanasi, Uttar Pradesh 221010, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://en.wikipedia.org/wiki/Ramakrishna_Mission_Home_of_Service","supports":"Confirms institutional identity, founding and Luxa Road location"},{"url":"https://belurmath.org/ramakrishna-mission-home-of-service-varanasi/","supports":"Official Ramakrishna Math/Mission (Belur Math) page confirms the branch identity and address"},{"url":"https://varanasi.rkmm.org/","supports":"Institution's own site confirms Luxa, Varanasi address and contact details"}],"reason":"Institutionele identiteit sluitend bevestigd via de officiele Belur Math-bronvermelding en de instelling zelf op Luxa Road. Een Mappls (MapmyIndia)-vermelding bevatte een coordinaat-achtige URL-parameter, maar dit is geen Google Maps-bron en is daarom NIET gebruikt als eindcoordinaat (Google Maps is de enige geaccepteerde bron van waarheid). Geen publieke Google Maps-marker geconfirmeerd; oude vergelijkingscoordinaat niet hergebruikt.","zilver_source_batch":"ZILVER-TESTSWEEP-022-040","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-027","display_id":"027","canonical_name":"Baba Keenaram Sthal / Krim Kund","recognition_hook":"Aghor-peeth en samadhi-complex","cluster":"RAVINDRAPURI","place_type":"ASHRAM_SAMADHI","visitability":"PRACTICAL_CHECK_REQUIRED","status":"PROVISIONAL","protected_mark_status":"C","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.2928,"longitude":83.001,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Baba Keenaram Sthal / Kreem Kund","address":"Ravindrapuri Rd, Anandbagh, Bhelupur, Varanasi, Uttar Pradesh 221005, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://en.wikipedia.org/wiki/Baba_Keenaram_Sthal","supports":"Confirms identity as Aghor-sect headquarters/samadhi complex and gives an independent coordinate 25.29608,83.0026
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=56 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/REGIONAL/DATASET_VARANASI_40.jsonl blob_sha=0775171fce1c288f9ebdb76dfa11caa17dcddce5 original_offset=45056 original_length=4096 payload_bytes=4096 chunk_index=11 chunk_count=17 classification=text
+4 (encyclopedic, not a Google Maps marker) close to the old comparison point"},{"url":"https://yappe.in/uttar-pradesh/varanasi/baba-kinaram-krim-kund-varanasi/1283781","supports":"Corroborates name, Ravindrapuri Road address and Aghor-peeth identity"}],"reason":"Fysieke identiteit sluitend: Aghor-hoofdzetel op Ravindrapuri Road, Bhelupur. De encyclopedische coordinaat (25.29608,83.00264) ligt dicht bij (~0.4 km) het oude vergelijkingscoordinaat, wat de algemene locatie ondersteunt, maar telt niet als Google Maps-marker. Geen publieke Google Maps-marker geconfirmeerd; geen schatting overgenomen.","zilver_source_batch":"ZILVER-TESTSWEEP-022-040","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-028","display_id":"028","canonical_name":"Bhaskarananda Samadhi / Anand Bagh","recognition_hook":"samadhi-ashram van Bhaskarananda","cluster":"DURGAKUND","place_type":"SAMADHI_ASHRAM","visitability":"PRACTICAL_CHECK_REQUIRED","status":"PROVISIONAL","protected_mark_status":"A","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.2868,"longitude":82.9968,"geo_status":"APPROXIMATE_LOCAL_POINT","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Anand Bagh (samadhi-herdenking Swami Bhaskarananda Saraswati)","address":"Durgakund Road, Anandbagh, Bhelupur, near Vankatti Hanumanji Mandir, Durgakund, Varanasi, Uttar Pradesh 221005, India","physical_identity":"PARTIAL","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://en.wikipedia.org/wiki/Swami_Bhaskarananda_Saraswati","supports":"Confirms identity of the saint and that his samadhi shrine is at Durga Kund, Varanasi"},{"url":"https://kevinstandagephotography.wordpress.com/2021/12/08/anand-bagh-memorial-swami-bhaskarananda-saraswati-varanasi/","supports":"Detailed on-site account confirms the 1910 memorial location immediately east of Durga Kund"}],"reason":"Fysieke identiteit bevestigd als samadhi-herdenkingscomplex (Anand Bagh) direct bij Durga Kund; de brondata markeerde physical_identity al als PARTIAL, wat overeind blijft omdat het een herdenkingsterrein is zonder eenduidig hoofdgebouw. Geen publieke Google Maps-marker geconfirmeerd; geen schatting of terreinmiddelpunt overgenomen.","zilver_source_batch":"ZILVER-TESTSWEEP-022-040","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-029","display_id":"029","canonical_name":"Dhamek Stupa","recognition_hook":"boeddhistische stupa van de eerste leerrede-traditie","cluster":"SARNATH","place_type":"STUPA","visitability":"PRACTICAL_CHECK_REQUIRED","status":"CONFIRMED","protected_mark_status":"A","geo_status":"VERIFIED_OFFICIAL_MAP_LINK","final_latitude":25.380889,"final_longitude":83.024276,"old_comparison":{"latitude":25.3807,"longitude":83.0245,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Dhamek Stupa","address":"Dhamek Stupa, Sarnath, Varanasi, Uttar Pradesh 221007, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://en.wikipedia.org/wiki/Dhamek_Stupa","supports":"Confirms identity as the Buddhist first-sermon stupa and gives coordinate 25.3808,83.0245 (encyclopedic, not a Google Maps marker), near-identical to the old comparison point"},{"url":"https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/dhamek-stupa","supports":"Official government tourism source confirms identity and Sarnath location"},{"url":"https://kashi.gov.in/listing-details/sarnath-dhamek-stupa","supports":"Official Varanasi district listing confirms identity and location"},{"url":"https://www.google.com/earth/rpc/entity?lat=25.380889&lng=83.024276&fid=0x398e2ec2c11a7a87:0x4462d0cd478e7d64&q=Dhamekh","supports":"Officiele Google Earth entity-API-link (google.com/earth/rpc/entity) met ingesloten coordinaat 25.380889,83.024276 en feature-ID, opgehaald met zoekterm 'Dhamekh'; komt vrijwel exact overeen met het oude vergelijkingscoordinaat en de Wikipedia-coordinaat"}],"reason":"Fysieke identiteit ondubbelzinnig: hoofdstupa van Sarnath. De encyclopedische c
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=57 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/REGIONAL/DATASET_VARANASI_40.jsonl blob_sha=0775171fce1c288f9ebdb76dfa11caa17dcddce5 original_offset=49152 original_length=4096 payload_bytes=4096 chunk_index=12 chunk_count=17 classification=text
+oordinaat (25.3808,83.0245) komt vrijwel exact overeen met het oude vergelijkingscoordinaat (25.3807,83.0245), een sterke onafhankelijke bevestiging van de bestaande pin, maar dit is geen Google Maps-marker en telt daarom niet als eindbevestiging. Geen publieke Google Maps-marker geconfirmeerd; het bestaande punt is niet automatisch overgenomen. ZILVER-correctie: een officiele Google-kaartbron (Google Earth entity-API, geen Wikipedia/OSM-afgeleide) met expliciet coordinaat en feature-ID gevonden voor Dhamek Stupa. Status opgewaardeerd van GOOGLE_MAPS_MARKER_NOT_CONFIRMED naar VERIFIED_OFFICIAL_MAP_LINK; coordinaat overgenomen als eindpunt.","zilver_source_batch":"ZILVER-TESTSWEEP-022-040","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-030","display_id":"030","canonical_name":"Mulagandha Kuti Vihara","recognition_hook":"actieve boeddhistische vihara","cluster":"SARNATH","place_type":"VIHARA","visitability":"PRACTICAL_CHECK_REQUIRED","status":"PROVISIONAL","protected_mark_status":"A","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.3819,"longitude":83.0216,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Mulagandha Kuti Vihara","address":"Singhpuri, Sarnath, Varanasi, Uttar Pradesh 221007, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://en.wikipedia.org/wiki/Sarnath","supports":"Confirms Mulagandha Kuti Vihara as the Mahabodhi Society temple built 1931 in Sarnath"},{"url":"https://www.tourmyindia.com/states/uttarpradesh/mulagandha-kuti-vihar-sarnath.html","supports":"Confirms Singhpuri, Sarnath address and Mahabodhi Society management"}],"reason":"Fysieke identiteit bevestigd als actieve Mahabodhi Society-vihara in Singhpuri, Sarnath, ca. 1 km van Dhamek Stupa. Geen publieke Google Maps-marker met ingesloten coordinaat vastgesteld; oude vergelijkingscoordinaat niet hergebruikt.","zilver_source_batch":"ZILVER-TESTSWEEP-022-040","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-031","display_id":"031","canonical_name":"Chaukhandi Stupa","recognition_hook":"boeddhistische stupa","cluster":"SARNATH","place_type":"STUPA","visitability":"PRACTICAL_CHECK_REQUIRED","status":"CONFIRMED","protected_mark_status":"A","geo_status":"VERIFIED_OFFICIAL_MAP_LINK","final_latitude":25.37402,"final_longitude":83.023588,"old_comparison":{"latitude":25.3756,"longitude":83.022,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Chaukhandi Stupa","address":"92FF+JC4, Rishipattan Rd, Sarnath, Varanasi, Uttar Pradesh 221007, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://en.wikipedia.org/wiki/Chaukhandi_Stupa","supports":"Confirms identity as the Mughal-era octagonal tower stupa marking the Buddha/disciples meeting site, south of the main Sarnath complex"},{"url":"https://www.tourmyindia.com/states/uttarpradesh/chaukhandi-stupa-sarnath.html","supports":"Confirms Rishipattan Road address and site description"},{"url":"https://www.google.com/earth/rpc/entity?lat=25.37402&lng=83.02358799999999&fid=0x398e2eef53b0d223:0x7ec223b12dc9827a&q=Chaukhandi","supports":"Officiele Google Earth entity-API-link met ingesloten coordinaat 25.37402,83.023588 en feature-ID, opgehaald met zoekterm 'Chaukhandi'; ligt dicht bij (~200 m) het oude vergelijkingscoordinaat"}],"reason":"Fysieke identiteit bevestigd als apart, zuidelijker gelegen stupa-monument in Sarnath (los van Dhamek Stupa). Geen publieke Google Maps-marker met ingesloten coordinaat vastgesteld; oude vergelijkingscoordinaat niet hergebruikt. ZILVER-correctie: officiele Google-kaartbron (Google Earth entity-API) gevonden voor Chaukhandi Stupa. Status opgewaardeerd van GOOGLE_MAPS_MARKER_NOT_CONFIRMED naar VERIFIED_OFFICIAL_MAP_LINK; coordinaat overgenomen als eindpunt.","zilver_source_batch":"ZILVER-TESTSWEEP-022-040","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-032","display_id":"032","canonical_n
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=58 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/REGIONAL/DATASET_VARANASI_40.jsonl blob_sha=0775171fce1c288f9ebdb76dfa11caa17dcddce5 original_offset=53248 original_length=4096 payload_bytes=4096 chunk_index=13 chunk_count=17 classification=text
+ame":"Sarnath Archaeological Museum","recognition_hook":"museum met Ashoka- en boeddhistische objecten","cluster":"SARNATH","place_type":"MUSEUM","visitability":"PRACTICAL_CHECK_REQUIRED","status":"PROVISIONAL","protected_mark_status":"A","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.3817,"longitude":83.0205,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Sarnath Museum","address":"Archaeological Museum Sarnath, Sarnath Station Rd, Sarnath, Varanasi, Uttar Pradesh 221007, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://www.google.com/maps/place/Sarnath+Museum/data=!4m2!3m1!1s0x398e2ec2876ae30d:0xca00dec06b2e8c37","supports":"Publieke Google Maps-plaatspagina bevestigt het bestaan en de naam 'Sarnath Museum', maar de URL bevat geen zichtbaar/extraheerbaar marker-coordinaat (@lat,lng); de pagina zelf kon niet interactief geopend worden om de marker af te lezen"},{"url":"https://en.wikipedia.org/wiki/Sarnath_Museum","supports":"Confirms identity as oldest ASI site museum, established 1910, gives independent coordinate ~25.38389,83.02194 close to old comparison"}],"reason":"Fysieke identiteit sluitend bevestigd, inclusief een gevonden publieke Google Maps-plaatspagina voor 'Sarnath Museum'. Uit die pagina kon echter geen exact marker-coordinaat worden afgelezen (geen '@lat,lng' in de URL, en interactief openen van de Maps-pagina was niet mogelijk in deze sessie); daarom blijft de status GOOGLE_MAPS_MARKER_NOT_CONFIRMED in plaats van EXACT_GOOGLE_MAPS_MARKER. Geen schatting overgenomen.","zilver_source_batch":"ZILVER-TESTSWEEP-022-040","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-033","display_id":"033","canonical_name":"Deer Park / Isipatana sacred landscape","recognition_hook":"boeddhistisch heilig landschap","cluster":"SARNATH","place_type":"SACRED_LANDSCAPE","visitability":"PRACTICAL_CHECK_REQUIRED","status":"CONFIRMED","protected_mark_status":"A","geo_status":"VERIFIED_OFFICIAL_MAP_LINK","final_latitude":25.3825,"final_longitude":83.024445,"old_comparison":{"latitude":25.3813,"longitude":83.023,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Sarnath Deer Park (Isipatana)","address":"Deer Park, Sarnath, Varanasi, Uttar Pradesh 221007, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://en.wikipedia.org/wiki/Sarnath_Deer_Park","supports":"Confirms identity as the historic Isipatana deer park within the Sarnath sacred landscape, gives coordinate 25.3820367,83.0266202 close to old comparison"},{"url":"https://www.trawell.in/uttar-pradesh/sarnath/deer-park","supports":"Corroborates identity, function and Sarnath location"},{"url":"https://www.google.com/earth/rpc/entity?lat=25.3825&lng=83.02444500000001&fid=0x398e2ec325d7e09b:0x9c039a08bc3a2a76&q=deer","supports":"Officiele Google Earth entity-API-link met ingesloten coordinaat 25.3825,83.024445 en feature-ID, opgehaald met zoekterm 'deer' (Sarnath Deer Park); ligt dicht bij (~150 m) het oude vergelijkingscoordinaat"}],"reason":"Fysieke identiteit bevestigd als het historische Isipatana-hertenpark, onderdeel van het Sarnath-heiligdomlandschap. Geen publieke Google Maps-marker met ingesloten coordinaat vastgesteld; oude vergelijkingscoordinaat niet hergebruikt. ZILVER-correctie: officiele Google-kaartbron (Google Earth entity-API) gevonden voor Deer Park/Isipatana. Status opgewaardeerd van GOOGLE_MAPS_MARKER_NOT_CONFIRMED naar VERIFIED_OFFICIAL_MAP_LINK; coordinaat overgenomen als eindpunt.","zilver_source_batch":"ZILVER-TESTSWEEP-022-040","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-034","display_id":"034","canonical_name":"Saranganath Temple","recognition_hook":"lokale Shiva-tempel in Sarnath","cluster":"SARNATH","place_type":"TEMPLE","visitability":"PRACTICAL_CHECK_REQUIRED","status":"PROVISIONAL","protected_mark_status":"A","geo_status":"GOOGLE_MAPS_MARKER_NOT_C
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=59 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/REGIONAL/DATASET_VARANASI_40.jsonl blob_sha=0775171fce1c288f9ebdb76dfa11caa17dcddce5 original_offset=57344 original_length=4096 payload_bytes=4096 chunk_index=14 chunk_count=17 classification=text
+ONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.3833,"longitude":83.0225,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Saranganath Mahadev Mandir","address":"Baraipur, Sarnath, Varanasi, Uttar Pradesh 221007, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://yappe.in/uttar-pradesh/varanasi/saarngnaath-mhaadev-mndir-saranganath-mahadev-mandir/448087","supports":"Confirms temple identity and Baraipur, Sarnath address"},{"url":"https://wanderlog.com/place/details/12471177/sarangnath-shiv-temple-saranath","supports":"Google-derived listing corroborates name and Sarnath locality, and the two-lingam (Sarang Nath/Somnath) identity"}],"reason":"Fysieke identiteit bevestigd als lokale Shiva-tempel in Baraipur, Sarnath, met twee lingams (Sarang Nath en Somnath). Geen publieke Google Maps-marker met ingesloten coordinaat vastgesteld; oude vergelijkingscoordinaat niet hergebruikt.","zilver_source_batch":"ZILVER-TESTSWEEP-022-040","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-035","display_id":"035","canonical_name":"Tulsi Manas Temple","recognition_hook":"Rama-tempel en Tulsidas-herinnering","cluster":"SOUTH_VARANASI","place_type":"TEMPLE_MEMORIAL","visitability":"PRACTICAL_CHECK_REQUIRED","status":"PROVISIONAL","protected_mark_status":"A","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.2883,"longitude":83.0003,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Tulsi Manas Mandir","address":"Durga Kund, Bhelupur, Varanasi, Uttar Pradesh, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://en.wikipedia.org/wiki/Tulsi_Manas_Mandir","supports":"Confirms identity, Durga Kund location and Tulsidas association, gives coordinate 25.287206,83.000417 near-identical to the old comparison point"},{"url":"https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/tulsi-manas-mandir","supports":"Official government tourism source confirms identity and location"}],"reason":"Fysieke identiteit ondubbelzinnig bevestigd. De encyclopedische coordinaat (25.287206,83.000417) komt vrijwel exact overeen met het oude vergelijkingscoordinaat, een sterke onafhankelijke bevestiging, maar geen Google Maps-marker. Geen publieke Google Maps-marker geconfirmeerd; het bestaande punt is niet automatisch overgenomen.","zilver_source_batch":"ZILVER-TESTSWEEP-022-040","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-036","display_id":"036","canonical_name":"Tulsi Ghat","recognition_hook":"Tulsidas- en levende akhara/ghattraditie","cluster":"GHATS_SOUTH","place_type":"GHAT_LINEAGE","visitability":"PRACTICAL_CHECK_REQUIRED","status":"PROVISIONAL","protected_mark_status":"A","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.2906,"longitude":83.0068,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Tulsi Ghat","address":"B2/40, Assi Rd, Ghats of Varanasi, Shivala, Varanasi, Uttar Pradesh 221001, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://en.wikipedia.org/wiki/Tulsi_Ghat","supports":"Confirms identity, Tulsidas association (formerly Lolark Ghat) and Shivala/Assi Road location"},{"url":"https://mnmtravels.in/blog/detail/tulsi-ghat-varanasi","supports":"Corroborates address and historical significance"}],"reason":"Fysieke identiteit bevestigd als de ghat waar Tulsidas woonde, in de Shivala-wijk. Geen publieke Google Maps-marker met ingesloten coordinaat vastgesteld; oude vergelijkingscoordinaat niet hergebruikt.","zilver_source_batch":"ZILVER-TESTSWEEP-022-040","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-037","display_id":"037","canonical_name":"Lolark Kund","recognition_hook":"zon- en vruchtbaarheidskund","cluster":"BHADAINI_ASSI","pla
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=60 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/REGIONAL/DATASET_VARANASI_40.jsonl blob_sha=0775171fce1c288f9ebdb76dfa11caa17dcddce5 original_offset=61440 original_length=4096 payload_bytes=4096 chunk_index=15 chunk_count=17 classification=text
+ce_type":"KUND","visitability":"PRACTICAL_CHECK_REQUIRED","status":"PROVISIONAL","protected_mark_status":"A","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.2875,"longitude":83.0038,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Lolark Kund / Sri Lolarkeshwar Mahadev Temple","address":"Bhadaini, near Assi/Tulsi Ghat, Shivala, Varanasi, Uttar Pradesh 221005, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://kashi.gov.in/listing-details/lolark-kund-temple","supports":"Official Varanasi district listing confirms identity and Shivala/Bhadaini location"},{"url":"https://kevinstandagephotography.wordpress.com/2021/12/06/sri-lolarkeshwar-mahadev-temple-lolark-kund-varanasi-banaras-kashi/","supports":"Detailed on-site account confirms identity, sun-tank function and location near Tulsi Ghat"}],"reason":"Fysieke identiteit bevestigd als rechthoekige heilige waterput (kund) met Lolarkeshwar Mahadev-tempel, nabij Assi/Tulsi Ghat. Geen decimale coordinaten in de gevonden bronnen en geen publieke Google Maps-marker vastgesteld; oude vergelijkingscoordinaat niet hergebruikt.","zilver_source_batch":"ZILVER-TESTSWEEP-022-040","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-038","display_id":"038","canonical_name":"Ratneshwar Mahadev Temple","recognition_hook":"scheve Shiva-tempel aan de Ganga","cluster":"MANIKARNIKA","place_type":"TEMPLE","visitability":"PRACTICAL_CHECK_REQUIRED","status":"PROVISIONAL","protected_mark_status":"A","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.3113,"longitude":83.0145,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Ratneshwar Mahadev Mandir (het 'scheve/leunende' tempel)","address":"Manikarnika Ghat, Varanasi, Uttar Pradesh, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://en.wikipedia.org/wiki/Ratneshwar_Mahadev_temple","supports":"Confirms identity as the leaning Shiva temple at Manikarnika Ghat, its 9-degree tilt, and gives coordinate 25.3119,83.01603 close to the old comparison point"},{"url":"https://www.varanasiguru.com/ratneshwar-mahadev-temple/","supports":"Corroborates identity, location and leaning-temple description"}],"reason":"Fysieke identiteit ondubbelzinnig: het bekende scheve Shiva-tempeltje aan Manikarnika Ghat. De encyclopedische coordinaat (25.3119,83.01603) ligt dicht bij het oude vergelijkingscoordinaat, een goede onafhankelijke bevestiging, maar geen Google Maps-marker. Geen publieke Google Maps-marker geconfirmeerd; bestaand punt niet automatisch overgenomen.","zilver_source_batch":"ZILVER-TESTSWEEP-022-040","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-039","display_id":"039","canonical_name":"Shitala Mata Temple, Dashashwamedh","recognition_hook":"Shakti-tempel aan de aartighat","cluster":"GHATS_OLD_CITY","place_type":"TEMPLE","visitability":"PRACTICAL_CHECK_REQUIRED","status":"PROVISIONAL","protected_mark_status":"A","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.3064,"longitude":83.0105,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Shitala Mata Mandir, Shitala Ghat","address":"Shitala Ghat / near Dashashwamedh Ghat, Ghasi Tola / Bangali Tola, Varanasi, Uttar Pradesh 221001, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://kashi.gov.in/listing-details/shitala-mata-mandir","supports":"Official Varanasi district listing confirms identity and Shitala Ghat location adjoining Dashashwamedh Ghat"},{"url":"https://www.explorebanaras.in/place/shitala-mata-mandir/","supports":"Corroborates identity, address and Shakti-temple function"}],"reason":"Fysieke identiteit bevestigd als Shakti-tempel op Shitala Ghat, direc
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=61 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/REGIONAL/DATASET_VARANASI_40.jsonl blob_sha=0775171fce1c288f9ebdb76dfa11caa17dcddce5 original_offset=65536 original_length=1923 payload_bytes=1923 chunk_index=16 chunk_count=17 classification=text
+t ten zuiden van Dashashwamedh Ghat. Geen publieke Google Maps-marker met ingesloten coordinaat vastgesteld; oude vergelijkingscoordinaat niet hergebruikt.","zilver_source_batch":"ZILVER-TESTSWEEP-022-040","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-040","display_id":"040","canonical_name":"Bharat Mata Temple","recognition_hook":"tempel met reliëfkaart van India","cluster":"CANTONMENT","place_type":"CIVIC_TEMPLE","visitability":"PRACTICAL_CHECK_REQUIRED","status":"PROVISIONAL","protected_mark_status":"C","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.317,"longitude":82.989,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Bharat Mata Mandir","address":"Mahatma Gandhi Kashi Vidyapeeth campus, Varanasi, Uttar Pradesh, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://en.wikipedia.org/wiki/Bharat_Mata_Mandir","supports":"Confirms identity, 1936 construction by Babu Shiv Prasad Gupta, Gandhi inauguration, marble Akhand Bharat relief map, and gives coordinate 25.317222,82.989167 near-identical to the old comparison point"},{"url":"https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/bharat-mata-temple","supports":"Official government tourism source confirms identity and Kashi Vidyapeeth campus location"}],"reason":"Fysieke identiteit ondubbelzinnig bevestigd: het civiele 'tempel'-monument met reliëfkaart van India op de Kashi Vidyapeeth-campus. De encyclopedische coordinaat (25.317222,82.989167) komt vrijwel exact overeen met het oude vergelijkingscoordinaat, een sterke onafhankelijke bevestiging, maar geen Google Maps-marker. Geen publieke Google Maps-marker geconfirmeerd; bestaand punt niet automatisch overgenomen.","zilver_source_batch":"ZILVER-TESTSWEEP-022-040","checked_at":"2026-08-02"}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=62 path=runs/active/INDIA8-RETAINED-ROUTE-AB-GEO-QA-001/STATUS.md blob_sha=079df0b9b340f870c4d6fee5b8492be9cc0bbd43 original_offset=0 original_length=2388 payload_bytes=2388 chunk_index=0 chunk_count=1 classification=text
+# STATUS
+
+state: CCI_RESULT_CONSUMED__PARTIAL_ACCEPT__CANON_RECONCILED
+branch: agent/india8-cluster-casting
+updated_by: INDIA9
+updated_at: 2026-08-23
+
+Task: `runs/active/INDIA8-RETAINED-ROUTE-AB-GEO-QA-001/TASK.md`
+
+## WORKER RESULT CONSUMED
+
+Worker branch: `agent/cci-retained-route-ab-geo-qa`
+Worker commit: `3f2280ef45fb088efa00c634563902346f161dcb`
+Outputs read:
+- `RETAINED_ROUTE_AB_CANON_QA.md`
+- `RETAINED_ROUTE_AB_GEO_LEDGER.csv`
+- `OPERATIONAL_BLOCKERS.md`
+
+## CENTRAL DISPOSITION
+
+PARTIAL ACCEPTANCE.
+
+Accepted:
+- blocker collection;
+- explicit unresolved geo states;
+- silent-drop warnings as QA signals;
+- useful location-by-location closure evidence where source/status semantics are correct.
+
+Not accepted as exact map canon:
+- `EXACT_GOOGLE_MAPS_MARKER` rows backed only by Wikipedia/derived coordinates rather than an actually opened, identity-matched Google Maps or approved official place record;
+- the Madan Mohan / Banke Bihari coordinate collision as two exact closures;
+- Varanasi completeness claims based only on the V2 prose shortlist instead of protected immutable VNS decisions;
+- recommendation to ask Mark again about sacrificing Kasar/Almora A-sites, because Mark already made the route-yield decision.
+
+## CENTRAL RECONCILIATION
+
+Canonical correction written:
+- `governance/INDIA9_CANON_RECONCILIATION_2026-08-23.md`
+
+Sleep-base register reconciled:
+- `runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/SLEEP_BASE_REGISTER_2026-08-23.md`
+
+Protected facts include:
+- Kasar/Almora A/locks preserved but intentionally off current V2 route;
+- Rishikesh retained in V2 but no Parmarth/ashram sleep;
+- exactly two desired ashram stays: Haidakhan + Sri Ramanasramam;
+- Varanasi protected original 001–040 = 32A / 5B / 3C plus later explicit 041–045 decisions;
+- Sahi River View Guesthouse remains `LOCKED_BY_MARK`;
+- Bodh Gaya historical locks preserved while later 2026-08-23 trip-selection supersedes older route use where inconsistent.
+
+## GEO DISPOSITION
+
+No guessed coordinates are promoted. Any visit point that still lacks source-compliant exact map closure remains explicitly in one of the allowed unresolved states (`ADDRESS_CONFIRMED_MARKER_NOT_CLOSED`, `ZONE_ONLY`, `GEO_CONFLICT`, `NONPUBLIC_OR_NOT_FOR_VISIT`) until stronger evidence exists.
+
+The worker task is no longer `READY_FOR_CCI`; its result has been consumed and reconciled centrally.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=63 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/MARK_DECISIONS_VRINDAVAN_BRAJ.md blob_sha=07f8abf9dddae44a9a1b8b726139265717f9f5da original_offset=0 original_length=1391 payload_bytes=1391 chunk_index=0 chunk_count=1 classification=text
+# MARK DECISIONS — VRINDAVAN / BRAJ
+
+Date: 2026-08-20
+Status: IN_PROGRESS
+
+## Decision 1 — Vrindavan Railway Station
+Mark decision: **A**
+
+Reason / nuance:
+- AOAY scene: arrival/departure in the “two penniless boys” Vrindavan episode.
+- The Mathura–Vrindavan metre-gauge branch opened in 1889; the current/historic Vrindavan station is on that same branch location.
+- Modern records describe Vrindavan station as having one platform; no evidence found of multiple passenger platforms creating a platform-number ambiguity.
+- The station closed in 2023 and the track has since been dismantled; current visitor reviews indicate the platform/rails may no longer survive intact.
+- Therefore do NOT claim an extant numbered platform from Yogananda's time unless further archival evidence proves continuity of the exact platform structure.
+- Mark still chooses A because the historic arrival location itself is sufficiently meaningful. If archival material later proves the exact historic platform footprint or surviving platform fabric, flag this as a high-value on-site micro-location.
+
+Research status:
+- station_site_identity: STRONG
+- same_branch_location_since_1889: YES
+- single_platform_modern_state: YES
+- exact_1910s_platform_fabric_continuity: NOT_PROVEN
+- current_platform_survival_2026: DOUBTFUL / RECHECK BEFORE TRAVEL
+
+No other Vrindavan/Braj A/B/C decisions recorded yet.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=64 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/REGIONAL/BESLISOVERZICHT.md blob_sha=0891c757783e3cac7ee06718cdefc859f888d2ad original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# BESLISOVERZICHT VOOR MARK -- volledig regionaal Varanasi-pakket
+
+run_id: VARANASI-GEO-DELIVERY-REPAIR-001
+datum: 2026-08-02 (afgerond -- alle 40 kandidaten hebben een definitieve Mark-keuze)
+
+De inhoudelijke A/B/C-keuzeronde voor Varanasi is COMPLEET. Alle 40 kandidaten hebben een
+definitieve keuze: 32x A, 5x B, 3x C. Er staat geen enkele kandidaat meer als
+DOOR_MARK_TE_BEOORDELEN. Alle besluiten zijn 1-op-1 overgenomen uit Marks eigen berichten/commits
+-- er is op geen enkel moment een A/B/C-keuze gemaakt namens Mark.
+
+## Definitieve verdeling
+
+- **A (32)**: 001, 002, 003, 004, 005, 006, 007, 009, 010, 011, 014, 015, 016, 017, 018, 019, 020,
+  021, 022, 024, 028, 029, 030, 031, 032, 033, 034, 035, 036, 037, 038, 039
+- **B (5)**: 008, 012, 013, 023, 025
+- **C (3)**: 026, 027, 040
+
+## Sarnath (006, 029-034) -- tegenstrijdigheid gevonden EN opgelost
+
+Eerder signaleerde dit pakket een tegenstrijdigheid: de opdracht zei zowel herhaald/expliciet/
+gecommitteerd dat de zes Sarnath-deelsites (029-034) apart open moesten blijven na het 006=A-
+besluit, als (in één losse zin) dat ze allemaal A gemaakt mochten worden. Die tegenstrijdigheid is
+NIET stilzwijgend opgelost, maar expliciet aan Mark voorgelegd. Mark heeft daarna expliciet
+bevestigd: 029, 030, 031, 032, 033 en 034 worden allemaal A. Dit is verwerkt als een apart,
+zelfstandig bevestigd besluit -- niet als automatische afleiding uit 006=A.
+
+## Resterende technische punten (geen A/B/C-vragen meer)
+
+- **008 Yogoda Satsanga (B)**: geen enkel veilig coordinaat beschikbaar -- het enige bekende punt is
+  het door Mark expliciet afgewezen coordinaat. Wilt u dat een volgende sessie hier gericht opnieuw
+  naar een geldig coordinaat zoekt (interactieve Google Maps-toegang nodig), of blijft 008 voorlopig
+  zonder kaartpositie?
+- **023 Mrityunjay Mahadev (B)**: een onafhankelijke bron wijkt ca. 3 km af van het oude
+  vergelijkingspunt. Prioriteit voor handmatige verificatie zodra interactieve Google Maps-toegang
+  beschikbaar is.
+- **35 van de 40 kandidaten** hebben nog geen bevestigde Google Maps-marker (alleen 018, 019, 029,
+  031, 033 wel). Dit staat volledig los van de nu complete A/B/C-keuze -- een A/B/C-besluit
+  verandert nooit een coordinaat of geo-status. Dit vraagt op termijn een sessie met interactieve
+  Google Maps-toegang, buiten wat deze sessie kan uitvoeren.
+
+## Gekozen verblijf -- Sahi River View Guesthouse (LOCKED_BY_MARK)
+
+Mark heeft (commit `cf2daf27299cf4153921ed1fdc64a876b9b2661f`, `HOTEL_DECISION.md`) de Varanasi-basis
+vastgelegd: **Sahi River View Guesthouse**, Assi Ghat. Dit is GEEN openstaande vraag -- status
+`LOCKED_BY_MARK`, niet te vervangen zonder een expliciet nieuw besluit van Mark. Vastgelegd in het
+nieuwe `ACCOMMODATION_REGISTER.jsonl` (accommodatie-ID `VNS-HOTEL-001`, apart van de kandidaat-
+nummering 001-040) en verwerkt in de reisgids-PDF ("Gekozen verblijf"-hoofdstuk) en de KML (aparte
+folder "Gekozen verblijf (LOCKED_BY_MARK)"). Verplichte notities: balcony room aanvragen, groeten aan
+Jitendre van Debby. Geen geverifieerde Google Maps-marker gevonden -- alleen tekstueel adres
+opgenomen, geen coordinaat geraden (adres: B1/158 A2, Assi Ghat Rd, Varanasi, Uttar Pradesh 221005).
+Data is routeklaar (basis + logisch bereikbare A-clusters gelijst); er is nog GEEN volledige
+dagroute-/planningberekening uitgevoerd -- dat is een aparte, nog niet uitgevoerde stap.
+
+## Definitief vastgelegd
+
+- Alle 40 Mark-keuzes: zie hierboven, of de keuze-index in `USER/VARANASI_40_KEUZE_REISGIDS.pdf`.
+- Immutable Location Numbering-regel: elk permanent nummer in `NUMBERING_REGISTRY.jsonl` is
+  vastgelegd en wijzigt nooit.
+- Het expliciet afgewezen coordinaat van 008 [25.3045, 82.979369] is nergens gebruikt.
+- Accommodatiebesluit Varanasi: Sahi River View Guesthouse, `LOCKED_BY_MARK` (zie hierboven).
+- Centrale India-master-KML: niet aangepast.
+
+## Volgende stap
+
+De inhoudelijke keuzeronde is klaar. Openstaand zijn uitsluitend technische geo-verificatiepunten
+(hierboven) -- geen daarvan vereist een nieuwe A/B/C-beslissing. Deze PR (#23) staat klaar voor uw
+beoordeling en,
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=65 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/REGIONAL/BESLISOVERZICHT.md blob_sha=0891c757783e3cac7ee06718cdefc859f888d2ad original_offset=4096 original_length=35 payload_bytes=35 chunk_index=1 chunk_count=2 classification=text
+ zodra u akkoord bent, voor merge.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=66 path=india4/templates/GOUD_COMPLETION.md blob_sha=08da45fd8c4cfa595eec3b68bbf83764ae77cca0 original_offset=0 original_length=265 payload_bytes=265 chunk_index=0 chunk_count=1 classification=text
+# GOUD COMPLETION
+
+run_id:
+role: GOUD
+completioncommit:
+status: KLAAR | NIET_KLAAR
+
+## Eindproducten
+
+## Bestandscontroles
+
+## Zekere locaties
+
+## Onzekere locaties
+
+## Beschermde Mark-keuzes
+
+## Door Mark te beoordelen
+
+## Niet uitgevoerd of verboden
+
+## Readback
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=67 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/VRINDAVAN_MARK_DECISIONS_DELTA_2026-08-20_C.md blob_sha=08ee1ad82d769a1c2106504e34cec96c785b224f original_offset=0 original_length=1625 payload_bytes=1625 chunk_index=0 chunk_count=1 classification=text
+# VRINDAVAN / BRAJ — MARK DECISIONS DELTA C
+
+Date: 2026-08-20
+
+## Decisions from current block
+- Nidhivan — A.
+- Historic Ganga Mata kutiya footprint — B, with automatic upgrade to A if practical walking/proximity relation to Nidhivan makes it a near-zero-cost combined visit.
+- Anandamayi Ma Ashram Vrindavan — A CONDITIONAL: retain A only if Anandamayi Ma herself is historically confirmed active/present at this site; do not count a later eponymous institution alone.
+- Vardhaman/Burdwan Kunj — B.
+- Mathura Railway Station / NKB final-journey stop — C.
+- NKB Mahasamadhi / cremation site inside Vrindavan Ashram — A as micro-site within existing NKB Vrindavan Ashram A.
+
+## Hospital visit rule
+Ramakrishna Mission Sevashrama Hospital itself is NOT required as an NKB visit stop merely because Maharajji died there. Current research finds a Sri Ramakrishna temple on campus but no reliable NKB/Maharajji shrine or memorial. Therefore prefer the NKB Vrindavan Ashram Mahasamadhi/cremation site as the meaningful memorial visit unless later evidence establishes a genuine NKB memorial at the hospital.
+
+## Ramakrishna density rule
+Ramakrishna-linked Vrindavan sites may individually receive A now. Later, before route finalization, compress to approximately three highest-value Ramakrishna devotional/historic stops where there is strong site certainty and present-day devotional meaning (shrine, worship, preserved room/site, clear commemoration, etc.), unless logistics make additional A sites effectively free to combine. Do not delete the other records; downgrade only at Mark's later route-editing stage.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=68 path=governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md blob_sha=095f6b8df83b1595fd23b369bd248e44de446319 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# INDIA REGIE — CRITICAL BOOT + NO-DEFERRAL RULE
+
+Date: 2026-08-23
+Status: HARD / MANDATORY / FIRST-SESSION GATE
+Owner: INDIA-regie
+
+## INCIDENT DAT DEZE REGEL VEROORZAAKTE
+
+Op 2026-08-23 bleek dat INDIA8 bij reisregie te veel steunde op recente runs/branches en te weinig op oudere maar nog geldige canon zoals cluster-anchors, LOCKED_A/B/C, accommodation locks en eerdere Mark-besluiten. Daardoor werden bestaande A/C-keuzes opnieuw als kandidaat gepresenteerd en werden reeds gekozen slaapbases onvoldoende gebruikt.
+
+Voorbeelden van het type fout dat NOOIT meer mag gebeuren:
+- Jageshwar opnieuw presenteren terwijl het al A was.
+- Binsar opnieuw presenteren terwijl het al C was.
+- Kumaon behandelen alsof slaapbasis nog open was terwijl Joshi Guest House / Hotel Evelyn / Turiya Niwas al als belangrijke bases/anchors bestonden.
+- Varanasi-hotelonderzoek openen terwijl Sahi River View Guesthouse al `LOCKED_BY_MARK` was.
+
+Dit is een ernstige regiefout omdat Mark dan dezelfde beslissingen opnieuw moet nemen en routeberekeningen op een verkeerde uitgangssituatie kunnen worden gebouwd.
+
+## HARD BOOT GATE — VOOR IEDERE INDIA9+ REGIESESSIE
+
+VÓÓR enig inhoudelijk advies, nieuwe kandidaat, routevoorstel, hotelvoorstel, A/B/C-vraag of 'volgende stap':
+
+1. Lees `README.md` volledig.
+2. Lees DIT bestand volledig.
+3. Lees daarna `handoffs/INDIA8_TO_INDIA9_FINAL_BOOT_2026-08-23.md` volledig. Dit is de actuele compacte opvolgershandoff en supersedet oudere INDIA8→INDIA9 immediate-action secties waar die afwijken.
+4. Haal de volledige recursive tree van de actuele regiebranch op.
+5. Lees de gehele tekstuele repository inhoudelijk, inclusief legacy/oude architectuurlagen die beschermd Mark-besluit/evidence kunnen bevatten.
+6. Inventariseer relevante branches, vooral actieve workerbranches en expliciet genoemde legacy-branches.
+7. Bouw intern één actuele CANON RECONCILIATION vóór presentatie:
+   - nieuwste expliciete Mark-besluiten;
+   - accommodation/hotel locks;
+   - cluster-level decisions;
+   - site A/B/C locks;
+   - parent/microcluster regels;
+   - actuele all-findings/location master;
+   - huidige handoff/governance;
+   - legacy locks/anchors die nog niet superseded zijn.
+8. Pas daarna pas nieuwe research/route-informatie toe.
+
+## PRECEDENCE — BIJ CONFLICT
+
+Gebruik voor reisregie deze volgorde, tenzij een nog specifiekere actuele taakstatus expliciet anders voorschrijft:
+
+1. Nieuwste expliciete Mark-beslissing / `LOCKED_BY_MARK` / expliciete supersede.
+2. Nieuwste expliciete accommodation/hotel/base lock.
+3. Nieuwste cluster-level Mark decision.
+4. Nieuwste site-level A/B/C Mark decision.
+5. Actuele centrale all-findings/location master + reconciliatie.
+6. Actuele governance/handoff/state.
+7. Oudere beschermde LOCKED_A/B/C, CLUSTER_ANCHORS, hotelbesluiten en legacy-canon.
+8. Oude overzichten/kandidatenlijsten alleen als context; zij mogen latere besluiten NOOIT terugdraaien.
+
+Een oud overzicht met een B/C-status mag dus nooit een latere A overschrijven. Een legacy-lock mag ook niet worden genegeerd alleen omdat hij uit een oudere architectuur komt.
+
+## VERPLICHTE 'AL BESLIST?'-CHECK VOOR ELK ITEM
+
+Voor ELKE locatie, cluster, hotel, slaapbasis of routekeuze die aan Mark wordt genoemd:
+
+- Is dit al A/B/C?
+- Is dit al `LOCKED_BY_MARK`?
+- Is er een later besluit dan het bestand waar ik nu uit lees?
+- Is dit onderdeel/microsite van een al beoordeeld parent-complex?
+- Is dit al afgewezen/reserve?
+- Is er al een gekozen hotel/base in dit cluster?
+- Is er een route-/tijdregel die de presentatie verandert?
+
+Als één antwoord JA is, presenteer het niet als nieuwe keuze. Gebruik het als bestaande canon en vermeld alleen relevante nieuwe delta.
+
+## SLAAPBASIS-EERST REGEL
+
+Wanneer route/nachten/dagplanning wordt besproken:
+
+`SLAAPBASIS -> bestaande A's -> afstanden/combinaties -> Lonely Planet laag -> gratis/meeliftende B's -> benodigde nachten -> transportdetail`
+
+Nooit vanaf een willekeurig stadscentrum rekenen als een bestaande slaapbasis/anchor bekend is.
+
+## NO-DEFERRAL RULE — HARD
+
+**Iets wat INDIA-regie NU veilig en zelfstandi
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=69 path=governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md blob_sha=095f6b8df83b1595fd23b369bd248e44de446319 original_offset=4096 original_length=1854 payload_bytes=1854 chunk_index=1 chunk_count=2 classification=text
+g kan uitvoeren, mag NIET worden bewaard als 'volgende stap', 'later uitzoeken', 'moet nog', 'zou nog kunnen' of handoff-notitie. DOE HET IN DEZELFDE BEURT.**
+
+Een regiebeurt mag niet eindigen met een uitvoerbare open actie die de regie-agent zelf had kunnen doen.
+
+Voor verzending van ieder antwoord moet INDIA intern controleren:
+- Heb ik ergens geschreven: moet nog / later / volgende stap / nog onderzoeken / nog bepalen?
+- Kan ik dat zonder Mark-besluit nu zelf uitvoeren?
+- Zo ja: antwoord nog NIET verzenden; eerst uitvoeren en duurzaam in GitHub vastleggen.
+
+Alleen werkelijk niet-uitvoerbare zaken mogen open blijven, bijvoorbeeld:
+- een expliciete A/B/C-keuze die alleen Mark mag maken;
+- live beschikbaarheid/boeking die pas op een concrete datum door Mark besloten kan worden;
+- externe blocker zonder veilige workaround.
+
+Ook dan moet INDIA eerst alles doen wat wél kan: research, shortlist, verificatie, matrix, delta, beslisinformatie en exacte blocker.
+
+## HANDOFF FAILSAFE
+
+Bij iedere nieuwe belangrijke Mark-beslissing, foutcorrectie, routecanon, accommodatiekeuze, clusterbesluit of methodiekwijziging:
+
+1. schrijf het direct duurzaam naar GitHub;
+2. update de relevante centrale handoff/state of maak een expliciete actuele canon-delta;
+3. laat de opvolger niet afhankelijk zijn van chatgeheugen;
+4. controleer of bestaande oudere bestanden hierdoor semantisch verouderd raken en noteer precedence/supersede.
+
+## INDIA9+ STARTVERIFICATIE
+
+Een nieuwe INDIA-regisseur mag pas inhoudelijk handelen nadat hij zelf kan samenvatten:
+- huidige reisdata;
+- huidige cluster A/B/C;
+- bekende slaapbases/hotellocks;
+- belangrijkste site A/B/C locks per actief cluster;
+- actuele open beslissingen die werkelijk alleen Mark kan nemen;
+- welke eerdere overzichten inmiddels superseded zijn.
+
+Als dat niet scherp is: verder lezen, niet adviseren.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=70 path=runs/active/BODHGAYA-DISCOVERY-001/MARK_DECISIONS_2026-08-08.jsonl blob_sha=09a19f2e4856b73c83bcc00ee9d9321aef899fa2 original_offset=0 original_length=3337 payload_bytes=3337 chunk_index=0 chunk_count=1 classification=text
+{"decision_type": "AB_C_KEUZERONDE", "region": "BODHGAYA", "run_id": "BODHGAYA-DISCOVERY-001", "rule": "Mark-besluit, doorgegeven via INDIA6 (PR #23, bericht 053) na ontvangst van de V1-keuze-reisgids-PDF: definitieve A/B/C voor alle 16 open kandidaten (050-078, exclusief eerder vastgelegde 046-049 en exclusief EXCLUDED_HARD_REASON/SUBLOCATION-nummers).", "decided_by": "Mark", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-050", "display_id": "050", "name": "Archaeological Museum of Bodh Gaya (ASI)", "mark_status": "B", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-051", "display_id": "051", "name": "Vishnupad Temple, Gaya", "mark_status": "C", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-052", "display_id": "052", "name": "Tergar Monastery", "mark_status": "B", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-058", "display_id": "058", "name": "Japanese Temple / Indosan Nippon (Nipponzan-Myohoji)", "mark_status": "C", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-060", "display_id": "060", "name": "Palyul Namdroling Monastery (Ngagyur Palyul Thubten Shedrub Choekhor Dargyeling)", "mark_status": "C", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-061", "display_id": "061", "name": "Burmese Vihara", "mark_status": "C", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-062", "display_id": "062", "name": "Mahabodhi Society of India (Bodh Gaya-centrum)", "mark_status": "C", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-063", "display_id": "063", "name": "Padmasambhava Grand Temple and Nyingma Center", "mark_status": "C", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-068", "display_id": "068", "name": "Shechen Monastery (Shechen Tennyi Dargyeling)", "mark_status": "C", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-070", "display_id": "070", "name": "Mangala Gauri Temple (Shakti Peeth)", "mark_status": "B", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-071", "display_id": "071", "name": "Pretshila Hill", "mark_status": "C", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-072", "display_id": "072", "name": "Brahmayoni Hill / Gayasisa Stupa (Vuurpreek-locatie)", "mark_status": "C", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-073", "display_id": "073", "name": "Jagannath Temple (naast Mahabodhi)", "mark_status": "B", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-074", "display_id": "074", "name": "International Meditation Centre / Dhamma Bodhi (Vipassana, S.N. Goenka-lijn)", "mark_status": "C", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-077", "display_id": "077", "name": "Bitho Sharif Dargah", "mark_status": "C", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+{"candidate_id": "BGY-CAND-078", "display_id": "078", "name": "Gurdwara Sri Guru Tegh Bahadur Ji, Gaya", "mark_status": "C", "decided_at": "2026-08-08", "status": "LOCKED_BY_MARK"}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=71 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/METHOD_V2.md blob_sha=09d0d4878df8eb9fabf61555523fda9fc28829f7 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# METHOD_V2 — Top-11 person-centric megasweep (opvolger van METHOD_V1)
+
+```
+method_status: FORMALIZED_FROM_BENCHMARK_RESULT
+formalized_by: CCI
+formalized_at: 2026-08-16
+basis: CCI_TASK 084 / BENCHMARK_RESULT.md (Anandamayi Ma driewegbenchmark) +
+  RECONCILIATION_CCI_084.md
+supersedes: METHOD_V1.md (blijft bewaard als historisch precedent; NIET stil verwijderd)
+```
+
+## Waarom V1 werd vervangen
+
+METHOD_V1 (goedgekeurd na de Anandamayi Ma/Neem Karoli Baba-pilot, CCI_TASK 080) begon met
+zoekmachine-discovery ("naam + ashram/gastheer/..."), met chronologie/hostketens als aanvullende
+laag. Voor een veelreizende, decennialang gedocumenteerde persoon als Anandamayi Ma bleek dat de
+verkeerde volgorde: CCI's eigen "verzadigde" sweep (~23 punten) miste tientallen expliciet in de
+officiële bronchronologie genoemde fysieke plekken — bevestigd zowel door een externe 156-locatie-
+AI-union als, onafhankelijk daarvan, door een source-first-corpuspass en door CCI's eigen
+rechtstreekse verificatie in `RECONCILIATION_CCI_084.md` (8-9 harde CCI-misses, 13
+source-first-only vondsten, allemaal met exacte datum in de officiële chronologie bevestigd).
+
+**Kernles**: bij een goed gedocumenteerde persoon zit de hoogste recall in het corpus zelf
+(officiële chronologie, biografie, dagboeken), niet in een zoekmachine-discoveryronde. Zoekmachines
+vinden vooral wat al vaak online herhaald is; een systematische corpus-extractie vindt ook de
+eenmalige, minder bekende vermeldingen (privéhuizen, dharmashala's, forten, sanatoria, scholen).
+
+## Harde volgorde — negen fasen, verplicht in deze volgorde
+
+### Fase 0 — corpus inventory
+Stel per persoon expliciet vast welke bronnen tot het corpus horen: officiële chronologie/
+levensgeschiedenis, autobiografie/biografie, dagboeken/memoires van naaste discipelen, lineage-
+publicaties (Sangha/Math/Mission-eigen uitgaven), reisverslagen, fotobijschriften, brieven,
+relevante archiefindexen. Leg per bronfamilie vast: beschikbaar/doorzoekbaar, of
+`UNAVAILABLE`/`BRON_GEBLOKKEERD` (bijv. gescande PDF zonder OCR — precedent:
+`YOGANANDA-ANANDAMAYI-PHOTO-LOCATION-001`, Gurupriya Devi's dagboek).
+
+### Fase 1 — lossless corpus extraction
+Elke plaatsvermelding wordt EERST als occurrence vastgelegd, vóór enig relevantiefilter. Huizen,
+kamers, hostnamen, paleizen, sanatoria, stations, scholen, forten, rivierkampen, dharmashala's en
+transit worden niet genegeerd. Machine-assisted waar het corpus dat toelaat (vgl. de 3-detector-
+aanpak uit `AOAY-FULL-LOCATION-ATLAS-001`), aangevuld met handmatige jaar-/hoofdstukpas.
+
+### Fase 2 — event/place normalization
+Per occurrence apart vastleggen: persoon aanwezig (J/D/O/N)? gebeurtenis bewezen? fysieke
+identiteit exact/deels/alleen plaatsniveau? exact subadres? host/gastheer? huidige instelling
+versus historische site (institutioneel eerbetoon ≠ persoonlijk bezoek)?
+
+### Fase 3 — host/network graph
+Iedere genoemde gastheer, discipel, vorst, arts, geleerde, ashramhoofd, patroon of organisator
+apart terugzoeken naar diens eigen huis/landgoed/instelling en de bezoekcontext. Dit is de as die
+bij METHOD_V1 achteraf werd toegevoegd; in V2 is hij vanaf fase 3 verplicht, vóór brede
+websearch-discovery.
+
+### Fase 4 — discovery search
+Pas NU brede websearch, alternatieve spellingen en regionale zoektermen voor plekken die het
+corpus zelf niet expliciet indexeert. Discovery ondersteunt en vult aan; hij vervangt de
+corpus-extractie niet en gaat er nooit aan vooraf.
+
+### Fase 5 — onafhankelijke tweede-pass (CCI/INDIA)
+Een tweede partij (CCI of INDIA, afhankelijk van wie fase 0-4 deed) voert een eigen pass uit via
+een andere query-/bronroute, zonder de eerste lijst als discoverychecklist te gebruiken.
+
+### Fase 6 — externe multi-AI adversarial union
+Blanco prompt naar onafhankelijke externe AI's, zonder bestaande kandidatenlijst vooraf (conform
+`governance/EXTERNAL_AI_PROMPT_RULES.md`). Detector-only kandidaten worden genoteerd, niet als feit
+behandeld.
+
+### Fase 7 — directe verificatie + reconciliatie
+Alle detector-only claims en conflictpunten rechtstreeks tegen de bron
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=72 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/METHOD_V2.md blob_sha=09d0d4878df8eb9fabf61555523fda9fc28829f7 original_offset=4096 original_length=3410 payload_bytes=3410 chunk_index=1 chunk_count=2 classification=text
+ controleren, niet op
+meerderheid stemmen. **Expliciete les uit CCI_TASK 084**: controleer ook of een externe claim
+werkelijk een plaatsvermelding is en niet per ongeluk een stuk methodologie-/metatekst dat door de
+union-samenvoeging als locatie is geregistreerd (precedent: de "Mandi"-claim gesourcet aan "AI2's
+eigen methodesectie" bleek vermoedelijk een compilatieartefact, geen echte claim). Een claim die bij
+verificatie op de verkeerde fysieke plek blijkt te slaan (precedent: de Krishnamurti-ontmoeting,
+foutief aan een Rajghat-schoolcampus toegeschreven terwijl de bron ondubbelzinnig Kitty Shiva Rao's
+tuin aanwijst) wordt expliciet `FALSE_OR_UNSUPPORTED_EXTERNAL_CLAIM`, niet stilzwijgend genegeerd of
+omgekeerd stilzwijgend overgenomen.
+
+### Fase 8 — saturation
+Pas na fase 0-7 mag `PERSON_SWEEP_SATURATED` worden geclaimd.
+
+## Nieuwe saturationregel — vier verplichte gates
+
+`PERSON_SWEEP_SATURATED: JA` betekent NOOIT meer alleen "zes zoekcategorieën zijn geprobeerd". Alle
+vier onderstaande gates moeten aantoonbaar zijn doorlopen en gedocumenteerd:
+
+1. **CORPUS-COVERAGE-GATE**: expliciete lijst van benoemde bronfamilies (fase 0), elk aantoonbaar
+   doorlopen of expliciet `UNAVAILABLE`/`BRON_GEBLOKKEERD` met reden. Geen bronfamilie mag stil
+   ontbreken.
+2. **HOSTGRAPH-GATE**: aantoonbare fase-3-uitvoering — een lijst van teruggezochte gastheren/
+   netwerkpersonen, niet alleen een intentieverklaring dat de host-as "is toegepast".
+3. **DISCOVERY-GATE**: fase 4 uitgevoerd NA, niet vóór, fase 1-3, met vermelding van gebruikte
+   zoektermen/spellingsvarianten.
+4. **RECONCILIATIE-GATE**: fase 7 uitgevoerd — elke externe/detector-only claim heeft een
+   expliciete uitkomst (`EXTERNAL_ONLY_VERIFIED_MISS` / `EXTERNAL_ONLY_UNVERIFIED` /
+   `SAME_SITE_DIFFERENT_NAME` / `OUT_OF_SCOPE_OR_TRANSIT` / `FALSE_OR_UNSUPPORTED_EXTERNAL_CLAIM`),
+   geen ongeverifieerde claim mag stilzwijgend worden opgenomen of genegeerd.
+
+Daarnaast verplicht: een expliciete lijst van onopgeloste bronfamilies/tijdvakken (bijv. "dagboek X
+niet volledig doorzocht") — saturation ondanks bekende hiaten mag, maar alleen met die hiaten
+zichtbaar vermeld, niet verzwegen.
+
+## Verhouding tot externe multi-AI — nog niet definitief besloten
+
+Volgens `BENCHMARK_RESULT.md` is de zuivere beslisproef: pas METHOD_V2 prospectief toe op een
+nieuwe persoon (Yogananda) vóórdat een externe AI-union daarvoor bestaat. Voegt een latere externe
+blanco-sweep dan nog betekenisvolle, geverifieerde plekken toe die METHOD_V2 miste? Zo ja, blijft
+externe multi-AI een verplichte detector voor alle Top-11. Zo nee, kan externe AI terugschalen naar
+steekproef-/adversarial-audit. Dit besluit wordt niet in dit document vooruitgelopen.
+
+## Wat ongewijzigd blijft uit METHOD_V1
+
+- Eén persoon volledig afwerken en freezen vóór de volgende.
+- Bestaande regiokandidaten NIET als discovery-checklist tijdens Fase 1-4.
+- Repo-cross-check pas ná freeze (Fase C/vergelijking, zoals in alle eerdere taken).
+- Geen A/B/C namens Mark. Geen PDF. Geen route/hotelplanning. Geen permanente locatie-ID enkel op
+  basis van discovery — eerst identity/reconciliatie.
+- Bij blocker op één persoon: blocker vastleggen, doorgaan naar de volgende als niet systeemwijd.
+
+---
+Dit bestand is canoniek voor alle toekomstige person-centric megasweeps. METHOD_V1.md blijft
+bewaard als historisch precedent en wordt niet stil verwijderd.
+
+<<< END CHUNK >>>
+

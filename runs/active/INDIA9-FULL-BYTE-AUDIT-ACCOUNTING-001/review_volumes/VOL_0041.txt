@@ -1,0 +1,867 @@
+>>> CHUNK stream_row=615 path=runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/PRE_PDF_CONTENT.md blob_sha=7d7b577080f03c5d90cbc08401b68888d31ea4c8 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=10 classification=text
+zoek,
+GEEN officiële bron — nergens een geverifieerde bezoekduur gevonden.
+
+---
+
+## Pagina 3 — Geografische clusters
+
+Geen betrouwbare coördinaten voor een echte kaart bij de meeste kandidaten (alleen 046/047 hebben
+bevestigde GPS-marker) — daarom een tekstuele clusterlijst i.p.v. een gegiste kaart:
+
+- **Kerncluster** (bevestigde coördinaten): 046 Mahabodhi ↔ 047 Sujata Stupa (~1,2 km/20 min lopen).
+- **Bij Mahabodhi** (elk apart "vlakbij 046" bevestigd, niet onderling paarsgewijs gemeten): 046,
+  049, 050, 061, 062, 068, 073, 074.
+- **Gaya-stad** (eigen stad, 12-15 km van de kerncluster, 4-weg symmetrisch cluster): 051, 070,
+  071, 078.
+- **Great Buddha Statue-zone**: 049 ↔ 060.
+- **Geen cluster / eigen rit**: 048 (12-14 km, aparte rit).
+- **Combineerbaarheid onbekend na GEO-controle** (geen betrouwbare data): 052, 058, 063, 072, 077.
+
+---
+
+## Kandidaatkaarten
+
+### 046 — Mahabodhi Temple Complex
+
+1. **JOUW LINK**: AOAY + Top-11. Sri Yukteswars formele Swami-Orde-inwijding "door de Mahant van
+   Buddh Gaya" staat letterlijk in AOAY (hoofdstuk 36, voetnoot) — gebeurtenis bevestigd, exacte
+   plek binnen Bodh Gaya niet. Aanvullend: Vivekananda bezocht Bodh Gaya tweemaal — zijn eerste
+   daad na het aannemen van sannyas én zijn laatste reis. Ook een relevante, niet-promoveerbare
+   lineage-context: een Neem Karoli Baba-devotee (Krishna Das) ontving hier een Bodhi-boomzaad van
+   een oude lama — geen directe fysieke NKB-link, wel satsang-context. (Correctie 2026-08-08: de
+   eerdere claim dat ook Ramakrishna hier zelf de Bodhi-boom/het Boeddhabeeld bezocht, bleek bij
+   brondubbelcheck onjuist en is ingetrokken — de correcte Ramakrishna-link staat nu bij 051.)
+2. **OBJECTIEVE SPIRITUELE/PELGRIMS-ZWAARTE**: WERELD-/PAN-INDIA HEAVYWEIGHT. Een van de vier
+   belangrijkste boeddhistische pelgrimsplaatsen ter wereld, UNESCO-werelderfgoed, de exacte plek
+   van de verlichting zelf.
+3. **MAGNETISME TER PLEKKE**: voortdurend, dagelijks veel pelgrims/monniken uit de hele
+   boeddhistische wereld, actieve devotie, geen festival-afhankelijkheid.
+4. **WAAROM DIT VOOR MARK KAN TELLEN**: dit is zowel het hart van het boeddhistische
+   verlichtingsverhaal als een directe, AOAY-bevestigde plek in je eigen guru-lijn.
+5. **WAT ER CONCREET TE ERVAREN IS**: de Bodhi-boom, de Vajrasana, het tempelgebouw, en desgewenst
+   de zeven traditionele weekplekken binnen dezelfde ommuurde grens (zie Deel 3 van het volledige
+   rapport).
+6. **PRAKTISCH/GEO**: ankerplek van de kerncluster; zie pagina 3.
+7. **BEZOEKTIJD**: 60-90 minuten (INDIA/CCI-inschatting op basis van omvang van het complex).
+8. **REISPERIODE-RELEVANTIE**: dagelijks vrij toegankelijk, geen evenement-afhankelijkheid — JA,
+   altijd binnen je reisperiode (18-12-2026 t/m 21-01-2027).
+9. **AFWEGING**: geen — dit is de ankerplek van de hele regio.
+10. **ECHTE ONZEKERHEID**: BRON-TWIJFEL — exacte fysieke plek van Sri Yukteswars inwijding binnen
+    Bodh Gaya (Bodh Gaya Math-gebouw vs. de toenmalige Mahant-gecontroleerde Mahabodhi-tempel zelf
+    vs. elders) blijft onbekend; de datum "juli 1906/Guru Purnima" komt niet uit AOAY zelf.
+
+**MARK: A** (vastgelegd, MARK_DECISIONS_2026-08-05.jsonl)
+
+---
+
+### 047 — Sujata Stupa, Bakraur
+
+1. **JOUW LINK**: GEEN AOAY/TOP-11-LINK — zelfstandig historisch/biografisch zwaargewicht.
+2. **OBJECTIEVE SPIRITUELE/PELGRIMS-ZWAARTE**: NATIONAAL/ZEER ZWAAR — onvervangbaar biografisch
+   moment (het einde van Boeddha's zesjarige ascese), gedateerd archeologisch stoepacomplex.
+3. **MAGNETISME TER PLEKKE**: rustiger en minder toeristisch dan het hoofdcomplex, geen grote
+   pelgrimsstroom, wel een tastbaar historisch monument.
+4. **WAAROM DIT VOOR MARK KAN TELLEN**: complementair aan 046 (verlichting) en 048 (ascese) —
+   samen het complete verhaal, geen overlap.
+5. **WAT ER CONCREET TE ERVAREN IS**: een tastbaar, gedateerd monument op de exacte plek van
+   Sujata's aanbieding.
+6. **PRAKTISCH/GEO**: kerncluster met 046, ~1,2 km/20 min lopen, incl. rivieroversteek.
+7. **BEZOEKTIJD**: 20-30 minuten (INDIA/CCI-inschatting).
+8. **REISPE
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=616 path=runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/PRE_PDF_CONTENT.md blob_sha=7d7b577080f03c5d90cbc08401b68888d31ea4c8 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=10 classification=text
+RIODE-RELEVANTIE**: altijd toegankelijk, geen evenement-afhankelijkheid — JA.
+9. **AFWEGING**: geen duidelijke reden om over te slaan.
+10. **ECHTE ONZEKERHEID**: geen resterende.
+
+**MARK: A** (vastgelegd)
+
+---
+
+### 048 — Dungeshwari Cave Temples (Mahakala Caves)
+
+1. **JOUW LINK**: GEEN AOAY/TOP-11-LINK — zelfstandig biografisch zwaargewicht.
+2. **OBJECTIEVE SPIRITUELE/PELGRIMS-ZWAARTE**: NATIONAAL/ZEER ZWAAR — enige plek die Boeddha's zes
+   jaar extreme ascese toont, genoemd door de 7e-eeuwse pelgrim Xuanzang.
+3. **MAGNETISME TER PLEKKE**: rustige rotsgrotten, ver van de drukte, geen grote pelgrimsstroom
+   maar een aangrijpend beeld van de uitgemergelde Boeddha.
+4. **WAAROM DIT VOOR MARK KAN TELLEN**: het spiegelbeeld-verhaal van 047 — de ascese die
+   voorafging aan de Middenweg.
+5. **WAT ER CONCREET TE ERVAREN IS**: rotsgehouwen grottempels met het gouden uitgemergelde-
+   Boeddhabeeld.
+6. **PRAKTISCH/GEO**: geen cluster — 12-14 km, vereist een eigen, aparte rit.
+7. **BEZOEKTIJD**: 45-60 minuten plus reistijd (INDIA/CCI-inschatting).
+8. **REISPERIODE-RELEVANTIE**: altijd toegankelijk — JA.
+9. **AFWEGING**: grootste reisinspanning van de kerngroep, geen inhoudelijke reden om over te
+   slaan.
+10. **ECHTE ONZEKERHEID**: GEO-TWIJFEL — geen bevestigde Google Maps-marker (identiteit zelf wel
+    dubbel institutioneel bevestigd).
+
+**MARK: A** (vastgelegd)
+
+---
+
+### 049 — Great Buddha Statue
+
+1. **JOUW LINK**: GEEN AOAY/TOP-11-LINK — zelfstandig zwaargewicht.
+2. **OBJECTIEVE SPIRITUELE/PELGRIMS-ZWAARTE**: NATIONAAL/ZEER ZWAAR — eerste en grootste
+   Boeddhabeeld ooit gebouwd in modern India, geconsacreerd door de 14e Dalai Lama (1989).
+3. **MAGNETISME TER PLEKKE**: vrij toegankelijk landmark in open lucht, geen levende
+   kloosterpraktijk ter plekke.
+4. **WAAROM DIT VOOR MARK KAN TELLEN**: indrukwekkend modern symbool van de wereldwijde herleving
+   van het boeddhisme, geen deel van Boeddha's eigen biografische verhaal.
+5. **WAT ER CONCREET TE ERVAREN IS**: een circa 20 m hoog zittend Boeddhabeeld.
+6. **PRAKTISCH/GEO**: Bij-Mahabodhi-cluster, ~1,1-1,5 km van 046.
+7. **BEZOEKTIJD**: 20-30 minuten (INDIA/CCI-inschatting).
+8. **REISPERIODE-RELEVANTIE**: altijd toegankelijk — JA.
+9. **AFWEGING**: het missen ervan slaat geen gat in het verlichtingsverhaal zelf.
+10. **ECHTE ONZEKERHEID**: BRON-TWIJFEL — hoogte intern inconsistent tussen bronnen (18,5 m vs.
+    20 m); GEO-TWIJFEL — geen bevestigde marker.
+
+**MARK: A** (vastgelegd)
+
+---
+
+### 050 — Archaeological Museum of Bodh Gaya (ASI)
+
+1. **JOUW LINK**: GEEN AOAY/TOP-11-LINK — zelfstandig zwaargewicht.
+2. **OBJECTIEVE SPIRITUELE/PELGRIMS-ZWAARTE**: GEEN ECHTE PELGRIMSMAGNEET — vooral historisch/
+   archeologisch. De ORIGINELE stenen balustrade-fragmenten van de Bodhi-boom-omheining zelf
+   (Sunga-periode) maken het uniek, maar het is een museum, geen actieve devotieplek.
+3. **MAGNETISME TER PLEKKE**: museaal, geen levende praktijk.
+4. **WAAROM DIT VOOR MARK KAN TELLEN**: wie de archeologische/historische diepte van 046 zelf wil
+   begrijpen.
+5. **WAT ER CONCREET TE ERVAREN IS**: gereconstrueerde balustrade, reliëfs, Pala-sculpturen,
+   munten.
+6. **PRAKTISCH/GEO**: Bij-Mahabodhi-cluster, grenst direct aan 046.
+7. **BEZOEKTIJD**: 30-45 minuten (INDIA/CCI-inschatting).
+8. **REISPERIODE-RELEVANTIE**: reguliere museumtijden — JA.
+9. **AFWEGING**: geen levende praktijk, geen directe biografische link met de verlichting zelf.
+10. **ECHTE ONZEKERHEID**: geen gemeld.
+
+**MARK: B** (vastgelegd, MARK_DECISIONS_2026-08-08.jsonl)
+
+---
+
+### 051 — Vishnupad Temple, Gaya
+
+**MARK_DECISION_CONFLICT — OPGELOST (bericht 065): Mark bevestigt C, geen wijziging.** TWEE
+Top-11-links pas ontdekt ná jouw C-keuze — Anandamayi Ma
+(bericht 054) én, na tegencontrole (bericht 058), ook een Ramakrishna-link (via zijn vader). Niet
+zelfstandig door CCI gewijzigd. Zie laatste pagina.
+
+1. **JOUW LINK**: TOP 11, TWEE personen. (a) Anandamayi Ma woonde op 18 oktober 1956 de Arti bij
+   in DEZE tempel en bezocht dezelfde dag ook Bodh Gaya (bron: anandamayi.org, officiële
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=617 path=runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/PRE_PDF_CONTENT.md blob_sha=7d7b577080f03c5d90cbc08401b68888d31ea4c8 original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=10 classification=text
+   levensgeschiedenis) — geen aparte sublocatie binnen Bodh Gaya genoemd, alleen het Vishnupad-deel
+   is aan een concreet gebouw gekoppeld. (b) Ramakrishna zelf kwam hier nooit — hij weigerde in
+   1868 bewust Gaya te bezoeken, uit vrees zijn lichaamsbewustzijn te verliezen (rechtstreeks
+   geverifieerd, sriramakrishna.in). Wél: zijn vader Kshudiram kreeg hier in 1835 tijdens een
+   Gaya-pelgrimage een visioen van Gadadhar (Vishnu, de god van precies deze tempel) die beloofde
+   als zijn zoon geboren te worden — vandaar Ramakrishna's geboortenaam "Gadadhar" (bron:
+   ramakrishnavivekananda.info, "The Great Master"). Geen apart nummer nodig: dit visioen betreft
+   dezelfde Vishnu-verering/tempel als deze kandidaat, geen aparte fysieke plek.
+2. **OBJECTIEVE SPIRITUELE/PELGRIMS-ZWAARTE**: NATIONAAL/ZEER ZWAAR — een van de belangrijkste
+   plekken in heel India voor Pind Daan; singulier relict (40 cm Vishnu-voetspoor in basalt); nu
+   extra onderbouwd door een geboortenaamgevend visioen uit de Ramakrishna-lineage.
+3. **MAGNETISME TER PLEKKE**: continue actieve devotie, drukst tijdens Pitru Paksha (september).
+4. **WAAROM DIT VOOR MARK KAN TELLEN**: twee onafhankelijke Top-11-verbindingen aan precies deze
+   tempel (Anandamayi Ma's bezoek, en het visioen achter Ramakrishna's eigen naam), plus nationale
+   religieuze betekenis — al is directe ervaring van het relict zelf beperkt (zie punt 9).
+5. **WAT ER CONCREET TE ERVAREN IS**: als niet-hindoe vermoedelijk GEEN toegang tot het
+   tempelinterieur/het voetspoor zelf — wel de omliggende straatjes en de sfeer van een actieve
+   bedevaartsplek.
+6. **PRAKTISCH/GEO**: Gaya-stad-cluster met 070, 071, 078 (4-weg symmetrisch).
+7. **BEZOEKTIJD**: 30-45 minuten (INDIA/CCI-inschatting, gebied eromheen).
+8. **REISPERIODE-RELEVANTIE**: permanent toegankelijk (het gebied) — JA.
+9. **AFWEGING**: toegangsbeperking voor niet-hindoes betekent dat een bezoek vermoedelijk
+   uitsluitend de sfeer/omgeving oplevert, niet het relict zelf.
+10. **ECHTE ONZEKERHEID**: TOEGANG-TWIJFEL — de niet-hindoe-beperking steunt op consistente
+    reisbronnen, geen officiële bevestiging. Daarnaast BRON-TWIJFEL (klein): Anandamayi Ma's
+    "bezoek aan Bodh Gaya" dezelfde dag is niet aan een specifieke sublocatie gekoppeld (los van
+    haar bevestigde Vishnupad-Arti hier).
+
+**MARK: C** (bevestigd, MARK_DECISIONS_2026-08-08_DELTA.jsonl) — **conflict opgelost, zie boven**
+
+---
+
+### 052 — Tergar Monastery
+
+1. **JOUW LINK**: GEEN AOAY/TOP-11-LINK — zelfstandig zwaargewicht.
+2. **OBJECTIEVE SPIRITUELE/PELGRIMS-ZWAARTE**: NATIONAAL/ZEER ZWAAR tijdens het Kagyu Monlam
+   (grote jaarlijkse samenkomst onder de 17e Karmapa); REGIONAAL ZWAAR/studiecentrum daarbuiten.
+3. **MAGNETISME TER PLEKKE**: vooral druk tijdens het Monlam-festival, daarbuiten een regulier,
+   rustig studieklooster.
+4. **WAAROM DIT VOOR MARK KAN TELLEN**: enige klooster met periodieke Karmapa-aanwezigheid — sterk
+   afhankelijk van timing.
+5. **WAT ER CONCREET TE ERVAREN IS**: buiten het festival monniken in studie/meditatie; tijdens
+   het Monlam een grote internationale samenkomst.
+6. **PRAKTISCH/GEO**: combineerbaarheid onbekend na GEO-controle — geen afstandsgegevens
+   gevonden.
+7. **BEZOEKTIJD**: 30-60 minuten buiten het festival, veel langer tijdens het Monlam (INDIA/CCI-
+   inschatting).
+8. **REISPERIODE-RELEVANTIE**: ONBEKEND NA ONDERZOEK — de 40e editie was 23 dec. 2025-3 jan. 2026;
+   de 41e editie-datum is nog niet gepubliceerd. Als het jaarlijkse december/januari-patroon zich
+   herhaalt, zou de 41e editie binnen jouw reisperiode (18-12-2026 t/m 21-01-2027) kunnen vallen —
+   dit is een aannemelijke inschatting op basis van het patroon, GEEN bevestiging.
+9. **AFWEGING**: buiten het festival een regulier, minder uitzonderlijk studieklooster.
+10. **ECHTE ONZEKERHEID**: DATUM-TWIJFEL — 41e editie nog niet gepubliceerd; TOEGANG-TWIJFEL —
+    bezoekbaarheid buiten het festival onbevestigd.
+
+**MARK: B** (vastgelegd)
+
+---
+
+### 058 — Japanese Temple / Indosan Nippon (Nipponzan-Myohoji)
+
+1. **JOUW LINK**: GEEN AOA
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=618 path=runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/PRE_PDF_CONTENT.md blob_sha=7d7b577080f03c5d90cbc08401b68888d31ea4c8 original_offset=20480 original_length=4094 payload_bytes=4094 chunk_index=5 chunk_count=10 classification=text
+Y/TOP-11-LINK — zelfstandig zwaargewicht (persoonsgebonden, niet
+   Top-11).
+2. **OBJECTIEVE SPIRITUELE/PELGRIMS-ZWAARTE**: LOKAAL/BEPERKT als pelgrimsmagneet, maar met een
+   internationaal significante stichter: Nichidatsu Fujii, grondlegger van de wereldwijde
+   vredespagode-beweging.
+3. **MAGNETISME TER PLEKKE**: regulier klooster, geen grote pelgrimsstroom.
+4. **WAAROM DIT VOOR MARK KAN TELLEN**: niet vanwege bedevaartszwaarte, maar vanwege een concrete,
+   internationaal bekende stichtersfiguur en geweldloosheidsfilosofie.
+5. **WAT ER CONCREET TE ERVAREN IS**: een Japans klooster in Nichiren-traditie.
+6. **PRAKTISCH/GEO**: combineerbaarheid onbekend na GEO-controle — geen afstandsgegevens
+   gevonden.
+7. **BEZOEKTIJD**: 20-30 minuten (INDIA/CCI-inschatting).
+8. **REISPERIODE-RELEVANTIE**: vrij toegankelijk, geen evenement-afhankelijkheid — JA.
+9. **AFWEGING**: geen directe biografische link met Boeddha's verlichting.
+10. **ECHTE ONZEKERHEID**: RELEVANTIE-TWIJFEL — of een stichtersfiguur zonder mass-pelgrimage-
+    zwaarte voldoende is voor Mark, is aan hem.
+
+**MARK: C** (vastgelegd)
+
+---
+
+### 060 — Palyul Namdroling Monastery
+
+1. **JOUW LINK**: GEEN AOAY/TOP-11-LINK — zelfstandig zwaargewicht.
+2. **OBJECTIEVE SPIRITUELE/PELGRIMS-ZWAARTE**: REGIONAAL ZWAAR — naam/lijn officieel toegekend
+   door zowel Drubwang Pema Norbu Rinpoche als de Dalai Lama.
+3. **MAGNETISME TER PLEKKE**: rustig, minder toeristisch, expliciet geschikt voor meditatie.
+4. **WAAROM DIT VOOR MARK KAN TELLEN**: andere Nyingma-lijn dan 052/068, met erkende hoge
+   autoriteiten aan de basis.
+5. **WAT ER CONCREET TE ERVAREN IS**: een groot, rustig kloostercomplex, deels nog in aanbouw.
+6. **PRAKTISCH/GEO**: bij 049 Great Buddha Statue.
+7. **BEZOEKTIJD**: 20-30 minuten (INDIA/CCI-inschatting).
+8. **REISPERIODE-RELEVANTIE**: vrij toegankelijk — JA.
+9. **AFWEGING**: geen directe biografische link met Boeddha's verlichting.
+10. **ECHTE ONZEKERHEID**: BRON-TWIJFEL — geen officiële/academische bron gevonden.
+
+**MARK: C** (vastgelegd)
+
+---
+
+### 061 — Burmese Vihara
+
+**MARK_DECISION_CONFLICT — OPGELOST (bericht 065): Mark bevestigt C, geen wijziging.**
+Historie (ontdekt 2026-08-08 tijdens INDIA6-tegencontrole bericht 058):
+Ram Dass-link (Top-11 #5) pas ontdekt ná jouw C-keuze, en zelfs nu nog onzeker of dit gebouw of
+074 de juiste plek is. Niet zelfstandig door CCI gewijzigd. Zie laatste pagina.
+
+1. **JOUW LINK**: TOP 11, LOCATIE ONZEKER — Ram Dass studeerde in januari 1971 Vipassana onder
+   S.N. Goenka in Bodh Gaya. Twee cursussen liepen vlak na elkaar: Samanvaya Ashram (24-12-1970
+   t/m 3-1-1971, nu candidate 074) en Burmese Vihara (4 t/m 14-1-1971, DEZE kandidaat). Joseph
+   Goldstein, die met Ram Dass in dezelfde groep van zes Amerikanen zat, woonde in die periode zelf
+   in de Burmese Vihara (bron: buddhistinquiry.org) — een reëel, maar niet doorslaggevend signaal.
+   Met de beschikbare bronnen (manda.dhamma.org/Vipassana Research Institute, insightmyanmar.org)
+   is NIET definitief vast te stellen welk gebouw het was.
+2. **OBJECTIEVE SPIRITUELE/PELGRIMS-ZWAARTE**: REGIONAAL ZWAAR — een van de vroegste
+   internationale kloosters van Bodh Gaya (1936), eerste door Birmese autoriteiten aangestelde
+   abt; mogelijk aangevuld met de Ram Dass/Goenka-Vipassana-connectie (zie punt 1).
+3. **MAGNETISME TER PLEKKE**: doorlopende, dagelijkse liefdadigheidspraktijk (gratis vegetarische
+   lunch).
+4. **WAAROM DIT VOOR MARK KAN TELLEN**: pioniersstatus binnen de internationale kloosterzone plus
+   een levende gemeenschapspraktijk — én, als de locatie-onzekerheid in het voordeel van deze plek
+   uitvalt, een directe Ram Dass-connectie.
+5. **WAT ER CONCREET TE ERVAREN IS**: een Boeddhabeeld gemaakt van riet (ongebruikelijk), een
+   bibliotheek, de dagelijkse lunch.
+6. **PRAKTISCH/GEO**: Bij-Mahabodhi-cluster.
+7. **BEZOEKTIJD**: 20-30 minuten (INDIA/CCI-inschatting).
+8. **REISPERIODE-RELEVANTIE**: vrij toegankelijk, dagelijkse lunch om 12.30u — JA.
+9. **AFWEGING**: de Ram Dass-link is niet zeker (zie 074 voor dezelfde onzekerheid) 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=619 path=runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/PRE_PDF_CONTENT.md blob_sha=7d7b577080f03c5d90cbc08401b68888d31ea4c8 original_offset=24574 original_length=4096 payload_bytes=4096 chunk_index=6 chunk_count=10 classification=text
+— geen
+   gegarandeerde biografische link, alleen een reële mogelijkheid.
+10. **ECHTE ONZEKERHEID**: BRON-TWIJFEL — welk van de twee cursusgebouwen (061 of 074) Ram Dass'
+    daadwerkelijke locatie was, is met de beschikbare bronnen niet op te lossen.
+
+**MARK: C** (bevestigd, MARK_DECISIONS_2026-08-08_DELTA.jsonl) — **conflict opgelost, zie boven**
+
+---
+
+### 062 — Mahabodhi Society of India (Bodh Gaya-centrum)
+
+1. **JOUW LINK**: GEEN AOAY/TOP-11-LINK — zelfstandig historisch-institutioneel zwaargewicht.
+2. **OBJECTIEVE SPIRITUELE/PELGRIMS-ZWAARTE**: NATIONAAL/ZEER ZWAAR als historisch feit (niet als
+   levende pelgrimsmagneet): de organisatie (Anagarika Dharmapala, 1891) achter het herstel van
+   boeddhistische eredienst bij 046 zelf, leidend tot de Bodh Gaya Temple Act (1949).
+3. **MAGNETISME TER PLEKKE**: actieve organisatie, geen grote pelgrimsstroom op zichzelf.
+4. **WAAROM DIT VOOR MARK KAN TELLEN**: wie het herstelverhaal van 046 zelf wil begrijpen — een
+   causale, niet decoratieve connectie.
+5. **WAT ER CONCREET TE ERVAREN IS**: het oudste kloostergebouw van de hele plek.
+6. **PRAKTISCH/GEO**: Bij-Mahabodhi-cluster, direct ten westen van 046.
+7. **BEZOEKTIJD**: 15-20 minuten (INDIA/CCI-inschatting).
+8. **REISPERIODE-RELEVANTIE**: vrij toegankelijk — JA.
+9. **AFWEGING**: geen levende praktijk met monniken in dagelijkse studie in de gebruikelijke zin.
+10. **ECHTE ONZEKERHEID**: BRON-TWIJFEL — "oudste bestaande kloostergebouw"-claim niet met een
+    sterke, aparte onderbouwing herbevestigd (zie L.3-claimdiscipline).
+
+**MARK: C** (vastgelegd)
+
+---
+
+### 063 — Padmasambhava Grand Temple and Nyingma Center
+
+1. **JOUW LINK**: GEEN AOAY/TOP-11-LINK — zelfstandig zwaargewicht.
+2. **OBJECTIEVE SPIRITUELE/PELGRIMS-ZWAARTE**: NATIONAAL/ZEER ZWAAR tijdens de Nyingma Monlam
+   Chenmo (Karmapa-aanwezigheid, consecratie geleid door Shechen Rabjam Rinpoche); ONBEKEND
+   daarbuiten.
+3. **MAGNETISME TER PLEKKE**: tijdens het festivalseizoen (januari) vol met monniken/nonnen/
+   ngakpa's; buiten die periode onbevestigd.
+4. **WAAROM DIT VOOR MARK KAN TELLEN**: nieuwste grote toevoeging aan het internationale
+   kloosterlandschap, sterk event-gebonden.
+5. **WAT ER CONCREET TE ERVAREN IS**: een grootschalig, nieuw tempelcomplex.
+6. **PRAKTISCH/GEO**: combineerbaarheid onbekend na GEO-controle.
+7. **BEZOEKTIJD**: 30-45 minuten buiten het festival, veel langer tijdens het Monlam (INDIA/CCI-
+   inschatting) — toegang buiten het festival zelf al onbevestigd (zie punt 10).
+8. **REISPERIODE-RELEVANTIE**: ONBEKEND NA ONDERZOEK — de 37e Nyingma Monlam Chenmo was 19-28
+   januari 2026; de 38e editie-datum is nog niet gepubliceerd. Bij eenzelfde jaarlijks patroon zou
+   die (net) binnen jouw reisperiode (t/m 21-01-2027) kunnen vallen — aannemelijke inschatting,
+   geen bevestiging.
+9. **AFWEGING**: zeer nieuw, weinig onafhankelijke reisverslagen.
+10. **ECHTE ONZEKERHEID**: TOEGANG-TWIJFEL — geen bron vermeldt reguliere openingstijden buiten het
+    festival; DATUM-TWIJFEL — 38e editie nog niet gepubliceerd.
+
+**MARK: C** (vastgelegd)
+
+---
+
+### 068 — Shechen Monastery (Shechen Tennyi Dargyeling)
+
+1. **JOUW LINK**: GEEN AOAY/TOP-11-LINK — zelfstandig zwaargewicht.
+2. **OBJECTIEVE SPIRITUELE/PELGRIMS-ZWAARTE**: NATIONAAL/ZEER ZWAAR via de lijn — wereldwijd een
+   van de bekendste Nyingma-kloosterlijnen, geassocieerd met Dilgo Khyentse Rinpoche (een van de
+   belangrijkste Tibetaans-boeddhistische leraren van de 20e eeuw). Dit is een dochterklooster,
+   niet de hoofdzetel.
+3. **MAGNETISME TER PLEKKE**: gevestigd (1996), actief, geen bijzondere festivaldrukte gemeld.
+4. **WAAROM DIT VOOR MARK KAN TELLEN**: internationale reputatie via een belangrijke leraar,
+   losstaand van de andere Tibetaanse kandidaten.
+5. **WAT ER CONCREET TE ERVAREN IS**: een gevestigd, actief klooster dicht bij het hoofdcomplex.
+6. **PRAKTISCH/GEO**: Bij-Mahabodhi-cluster.
+7. **BEZOEKTIJD**: 20-30 minuten (INDIA/CCI-inschatting).
+8. **REISPERIODE-RELEVANTIE**: vrij toegankelijk verwacht — JA (niet expliciet bevestigd).
+9. **AFWEGING**: geen
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=620 path=runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/PRE_PDF_CONTENT.md blob_sha=7d7b577080f03c5d90cbc08401b68888d31ea4c8 original_offset=28670 original_length=4096 payload_bytes=4096 chunk_index=7 chunk_count=10 classification=text
+ directe biografische link met Boeddha's verlichting.
+10. **ECHTE ONZEKERHEID**: BRON-TWIJFEL — één hoofdbron met detail.
+
+**MARK: C** (vastgelegd)
+
+---
+
+### 070 — Mangala Gauri Temple (Shakti Peeth)
+
+1. **JOUW LINK**: GEEN AOAY/TOP-11-LINK — zelfstandig zwaargewicht.
+2. **OBJECTIEVE SPIRITUELE/PELGRIMS-ZWAARTE**: NATIONAAL/ZEER ZWAAR — een van slechts 18 Maha
+   Shakti Peethas van heel India (canonieke, zeer beperkte groep), vermeld in vier Purana's.
+3. **MAGNETISME TER PLEKKE**: actieve, publieke tempel; geen betrouwbare pelgrimsstroom-cijfers
+   gevonden.
+4. **WAAROM DIT VOOR MARK KAN TELLEN**: een nationaal zwaar Divine-Mother-heiligdom — voor wie
+   geïnteresseerd is in de bredere hindoe-krachtplaatsen van India, niet vanwege een persoonlijke
+   link.
+5. **WAT ER CONCREET TE ERVAREN IS**: een actieve heuveltempel, bereikbaar via circa 200 treden,
+   uitzicht over Gaya.
+6. **PRAKTISCH/GEO**: Gaya-stad-cluster met 051, 071, 078.
+7. **BEZOEKTIJD**: 30-45 minuten incl. trap (INDIA/CCI-inschatting).
+8. **REISPERIODE-RELEVANTIE**: vrij toegankelijk — JA.
+9. **AFWEGING**: geen directe koppeling aan je eigen Kriya-/Top-11-focus.
+10. **ECHTE ONZEKERHEID**: TOEGANG-TWIJFEL — geen expliciete niet-hindoe-toegangsregel gevonden,
+    maar ook niet apart bevestigd als vrij.
+
+**MARK: B** (vastgelegd)
+
+---
+
+### 071 — Pretshila Hill
+
+1. **JOUW LINK**: GEEN AOAY/TOP-11-LINK — zelfstandig zwaargewicht.
+2. **OBJECTIEVE SPIRITUELE/PELGRIMS-ZWAARTE**: REGIONAAL ZWAAR — kernplek van het bredere Gaya
+   pind-daan-complex, eigen relict (Yama-tempel, 1787) en Ramayana-verhaal (Rama/Sita).
+3. **MAGNETISME TER PLEKKE**: actief bedevaartsdoel voor pind-daan-rituelen.
+4. **WAAROM DIT VOOR MARK KAN TELLEN**: onderdeel van hetzelfde grotere Gaya-verhaal als 051/070,
+   met een eigen, apart relict.
+5. **WAT ER CONCREET TE ERVAREN IS**: heuveltop via trap, uitzicht, de Yama-tempel, de Brahma
+   Kund.
+6. **PRAKTISCH/GEO**: Gaya-stad-cluster met 051, 070, 078.
+7. **BEZOEKTIJD**: 45-60 minuten incl. trap (INDIA/CCI-inschatting).
+8. **REISPERIODE-RELEVANTIE**: vrij toegankelijk — JA.
+9. **AFWEGING**: geen directe koppeling aan je eigen Kriya-/Top-11-focus.
+10. **ECHTE ONZEKERHEID**: TOEGANG-TWIJFEL — afwezigheid van een gemeld verbod is geen garantie.
+
+**MARK: C** (vastgelegd)
+
+---
+
+### 072 — Brahmayoni Hill / Gayasisa Stupa (Vuurpreek-locatie)
+
+1. **JOUW LINK**: GEEN AOAY/TOP-11-LINK — zelfstandig biografisch/historisch zwaargewicht.
+2. **OBJECTIEVE SPIRITUELE/PELGRIMS-ZWAARTE**: NATIONAAL/ZEER ZWAAR als historisch-biografisch
+   feit — drievoudig onderbouwd (Pali-canon, Malalasekera's academisch naslagwerk, archeologie)
+   als de plek van Boeddha's Vuurpreek, ná de verlichting.
+3. **MAGNETISME TER PLEKKE**: publiek toegankelijke heuvel/uitzichtpunt, geen grote levende
+   pelgrimsstroom specifiek voor de Vuurpreek-context gemeld.
+4. **WAAROM DIT VOOR MARK KAN TELLEN**: vult een echte hiaat — het enige punt in de collectie dat
+   Boeddha's onderwijzende periode ná de verlichting toont.
+5. **WAT ER CONCREET TE ERVAREN IS**: een heuvel met de Gayasisa Stupa als markering, uitzicht
+   over de regio.
+6. **PRAKTISCH/GEO**: combineerbaarheid onbekend na GEO-controle — geen bevestigd coördinaat.
+7. **BEZOEKTIJD**: 45-60 minuten incl. klim (INDIA/CCI-inschatting).
+8. **REISPERIODE-RELEVANTIE**: vrij toegankelijk — JA.
+9. **AFWEGING**: geen bevestigd coördinaat maakt inplannen nu nog lastig.
+10. **ECHTE ONZEKERHEID**: GEO-TWIJFEL — geen coördinaat; BRON-TWIJFEL — geen officiële bron
+    vermeldt de Vuurpreek-context expliciet (wel de heuvel als bezienswaardigheid).
+
+**MARK: C** (vastgelegd)
+
+---
+
+### 073 — Jagannath Temple (naast Mahabodhi)
+
+1. **JOUW LINK**: GEEN AOAY/TOP-11-LINK — zelfstandig zwaargewicht (Krishna valt sinds bericht 046
+   onder laag 3, niet onder Top-11).
+2. **OBJECTIEVE SPIRITUELE/PELGRIMS-ZWAARTE**: LOKAAL/BEPERKT als zelfstandige bedevaartsplek —
+   het gewicht leunt zwaar op de fysieke nabijheid tot 046 (25 voet), niet op eigen, onafhankelijke
+   nationale Krishna-faam zoals de Puri Ja
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=621 path=runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/PRE_PDF_CONTENT.md blob_sha=7d7b577080f03c5d90cbc08401b68888d31ea4c8 original_offset=32766 original_length=4096 payload_bytes=4096 chunk_index=8 chunk_count=10 classification=text
+gannath-tempel.
+3. **MAGNETISME TER PLEKKE**: actieve, doorlopende praktijk — dagelijkse Mahaprasad-uitdeling,
+   jaarlijkse rathyatra.
+4. **WAAROM DIT VOOR MARK KAN TELLEN**: een eigen interreligieus coëxistentieverhaal, letterlijk op
+   de drempel van 046 — geen extra reisinspanning.
+5. **WAT ER CONCREET TE ERVAREN IS**: dagelijkse Mahaprasad-uitdeling (12.00-14.00u).
+6. **PRAKTISCH/GEO**: Bij-Mahabodhi-cluster, direct naast 046.
+7. **BEZOEKTIJD**: 15-20 minuten (INDIA/CCI-inschatting).
+8. **REISPERIODE-RELEVANTIE**: jaarlijkse rathyatra is juni/juli — buiten je reisperiode; overige
+   praktijk (Mahaprasad) is dagelijks — JA. Beste bezoekperiode volgens de bron:
+   september-april, dus binnen je reisperiode.
+9. **AFWEGING**: geen directe biografische link met Boeddha's verlichting; gewicht vooral via
+   nabijheid, niet zelfstandige faam.
+10. **ECHTE ONZEKERHEID**: TOEGANG-TWIJFEL — het ontbreken van een vermelde beperking op de
+    tempel-specifieke tourismpagina is geen absolute garantie.
+
+**MARK: B** (vastgelegd)
+
+---
+
+### 074 — International Meditation Centre / Dhamma Bodhi (Vipassana, S.N. Goenka-lijn)
+
+**MARK_DECISION_CONFLICT — OPGELOST (bericht 065): Mark bevestigt C, geen wijziging.**
+Historie (GECORRIGEERD 2026-08-08 na INDIA6-tegencontrole bericht 058): Ram
+Dass-link (Top-11 #5) pas ontdekt ná jouw C-keuze — en datum + exacte locatie zijn nu bijgesteld,
+zie punt 1. Niet zelfstandig door CCI gewijzigd. Zie laatste pagina.
+
+1. **JOUW LINK**: TOP 11, LOCATIE ONZEKER — Ram Dass studeerde in **januari 1971** (niet "winter
+   1969-70", dat was een datumfout in de eerste versie van dit onderzoek) Vipassana onder S.N.
+   Goenka. Twee cursussen liepen vlak na elkaar: Samanvaya Ashram (24-12-1970 t/m 3-1-1971, DEZE
+   kandidaat — de eerste 10-daagse cursus van heel Bihar) en Burmese Vihara (4 t/m 14-1-1971, nu
+   ook candidate 061). Met de beschikbare bronnen is NIET definitief vast te stellen welk gebouw
+   Ram Dass' specifieke cursus was — zie candidate 061 voor de parallelle onzekerheid.
+2. **OBJECTIEVE SPIRITUELE/PELGRIMS-ZWAARTE**: GEEN ECHTE PELGRIMSMAGNEET in de klassieke zin —
+   vooral een modern (1994) studiecentrum, met een reële historische primeur (eerste
+   Vipassana-cursus van Bihar) binnen een wereldwijd nog levende traditie.
+3. **MAGNETISME TER PLEKKE**: actief cursuscentrum, geen open devotieplek — geen niet-deelnemer
+   ervaart hier iets.
+4. **WAAROM DIT VOOR MARK KAN TELLEN**: mogelijk een directe Top-11-link (Ram Dass) aan exact deze
+   plek (zie de locatie-onzekerheid in punt 1), maar toegang is sowieso uitsluitend via een
+   volledige 10-daagse (of langere) cursus.
+5. **WAT ER CONCREET TE ERVAREN IS**: voor een niet-cursist: NIETS bevestigd — geen dagbezoek,
+   terreinbezichtiging of los verblijf vermeld door de officiële bron.
+6. **PRAKTISCH/GEO**: Bij-Mahabodhi-cluster (ontstaan bij het Samanvaya Ashram, vlak bij 046).
+7. **BEZOEKTIJD**: niet van toepassing zonder cursus; de cursus zelf is minimaal 10 dagen.
+8. **REISPERIODE-RELEVANTIE**: cursusdata niet apart tegen je reisperiode gecontroleerd — ONBEKEND
+   NA ONDERZOEK; capaciteit vast (120 mannen, 80 vrouwen), vooraf-inschrijving vereist.
+9. **AFWEGING**: zeer afhankelijk van of je tijd/interesse hebt voor een volledige cursus — een
+   kort bezoek is hier, anders dan bij 053, geen optie.
+10. **ECHTE ONZEKERHEID**: TOEGANG-TWIJFEL — een niet-deelnemer heeft vermoedelijk geen toegang.
+    Plus BRON-TWIJFEL: welk van de twee cursusgebouwen (061 of 074) Ram Dass' daadwerkelijke
+    locatie was, is met de beschikbare bronnen niet op te lossen.
+
+**MARK: C** (bevestigd, MARK_DECISIONS_2026-08-08_DELTA.jsonl) — **conflict opgelost, zie boven**
+
+---
+
+### 077 — Bitho Sharif Dargah
+
+1. **JOUW LINK**: GEEN AOAY/TOP-11-LINK — zelfstandig zwaargewicht.
+2. **OBJECTIEVE SPIRITUELE/PELGRIMS-ZWAARTE**: REGIONAAL ZWAAR — jaarlijkse driedaagse
+   Urs-viering, naar verluidt bijgewoond door de zittende minister-president van Bihar (een
+   concrete regionale-zwaarte-aanwijzing, niet hard bevestigd).
+3. **MAGNETISME TER
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=622 path=runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/PRE_PDF_CONTENT.md blob_sha=7d7b577080f03c5d90cbc08401b68888d31ea4c8 original_offset=36862 original_length=3880 payload_bytes=3880 chunk_index=9 chunk_count=10 classification=text
+ PLEKKE**: vooral druk tijdens de Urs (10-12 Shaban), daarbuiten regulier.
+4. **WAAROM DIT VOOR MARK KAN TELLEN**: enige soefi-/islamitische zwaargewicht binnen
+   signaleringsbereik, met een naamgenoemde 15e-eeuwse stichter.
+5. **WAT ER CONCREET TE ERVAREN IS**: een actief heiligdom, moskee en schoolterrein.
+6. **PRAKTISCH/GEO**: combineerbaarheid onbekend na GEO-controle; buiten de kernstraal (20-25 km).
+7. **BEZOEKTIJD**: 30-45 minuten (INDIA/CCI-inschatting).
+8. **REISPERIODE-RELEVANTIE**: ONBEKEND NA ONDERZOEK — Urs-datum volgt de islamitische kalender
+   (10-12 Shaban), niet apart berekend voor 2026/2027.
+9. **AFWEGING**: buiten de kernstraal, extra reisinspanning; alleen relevant bij specifieke
+   interesse in interreligieuze/soefi-geschiedenis.
+10. **ECHTE ONZEKERHEID**: BRON-TWIJFEL — geen officiële overheidsbron; TOEGANG-TWIJFEL — alleen
+    het algemene dargah-patroon, niet plek-specifiek bevestigd; GEO-TWIJFEL — afstand is een
+    berekende schatting.
+
+**MARK: C** (vastgelegd)
+
+---
+
+### 078 — Gurdwara Sri Guru Tegh Bahadur Ji, Gaya
+
+1. **JOUW LINK**: GEEN AOAY/TOP-11-LINK — zelfstandig zwaargewicht.
+2. **OBJECTIEVE SPIRITUELE/PELGRIMS-ZWAARTE**: REGIONAAL ZWAAR — overgeleverd bezoek van twee
+   Sikh-Guru's (Guru Nanak Dev, Guru Tegh Bahadur) met een specifieke, inhoudelijke leerstelling
+   precies op deze plek.
+3. **MAGNETISME TER PLEKKE**: actieve, publiek toegankelijke gurdwara.
+4. **WAAROM DIT VOOR MARK KAN TELLEN**: een obscure traditie binnen deze straal met een echt,
+   specifiek verhaal — geen loutere vertegenwoordiging.
+5. **WAT ER CONCREET TE ERVAREN IS**: drie exemplaren van de Siri Guru Granth Sahib naast elkaar.
+6. **PRAKTISCH/GEO**: Gaya-stad-cluster met 051, 070, 071.
+7. **BEZOEKTIJD**: 20-30 minuten (INDIA/CCI-inschatting).
+8. **REISPERIODE-RELEVANTIE**: vrij toegankelijk — JA.
+9. **AFWEGING**: geen directe koppeling aan je eigen Kriya-/Top-11-focus.
+10. **ECHTE ONZEKERHEID**: BRON-TWIJFEL — het historische Guru-bezoek steunt uitsluitend op
+    Sikh-eigen historiografie (SikhiWiki), geen academische/primaire bron.
+
+**MARK: C** (vastgelegd)
+
+---
+
+## Laatste pagina — A/B/C-overzicht
+
+Alle 20 kandidaten hebben een vastgelegd besluit (bericht 053, `MARK_DECISIONS_2026-08-08.jsonl`):
+
+**A**: 046, 047, 048, 049
+**B**: 050, 052, 070, 073
+**C**: 051, 058, 060, 061, 062, 063, 068, 071, 072, 074, 077, 078
+
+**Drie MARK_DECISION_CONFLICTs — allemaal OPGELOST (bericht 065, 2026-08-08)** (AOAY/Top-11-audit,
+bericht 054; gereconcilieerd na INDIA6-tegencontrole bericht 058; Mark bevestigt C op alle drie via
+de compacte DELTA-review, `MARK_DECISIONS_2026-08-08_DELTA.jsonl` — niet zelfstandig door CCI
+gewijzigd):
+- **051 Vishnupad Temple** (C bevestigd) — TWEE links: Anandamayi Ma (Top-11) bezocht deze tempel,
+  18-10-1956; plus Ramakrishna (Top-11) via het naamgevende Gadadhar/Vishnu-visioen van zijn vader
+  Kshudiram (1835). (De eerdere claim dat Ramakrishna zelf Bodh Gaya bezocht, bij kandidaat 046,
+  bleek onjuist en is ingetrokken — de correcte link staat hier.)
+- **061 Burmese Vihara** (C bevestigd) — Ram Dass (Top-11) studeerde mogelijk hier Vipassana onder
+  S.N. Goenka, januari 1971 — gedeelde onzekerheid met 074, niet definitief op te lossen.
+- **074 Dhamma Bodhi/Samanvaya Ashram** (C bevestigd) — Ram Dass (Top-11) studeerde mogelijk hier
+  Vipassana, januari 1971 (datum gecorrigeerd t.o.v. eerdere versie "1969-70") — gedeelde
+  onzekerheid met 061.
+
+Alle drie blijven C, expliciet door Mark bevestigd — geen automatische wijziging, geen verdere
+open beslissing meer op deze drie.
+
+---
+Geschreven door: CCI, op verzoek van INDIA6 (PR #23, berichten 053-066). Definitief leesbaar
+eindproduct — GEEN PDF meer gepland (Mark, 2026-08-08: "Geen pdf meer!!!", bevestigd bericht 066).
+Geen route/nachten/hotel/ashram/pacing. `PDF_STATUS: VERBODEN` gerespecteerd.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=623 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/TESTSWEEP-022-040/USER/VARANASI_TESTSWEEP_022-040.kml blob_sha=7dfe80d4afd44a55e439a27f38dc84ca7fe1ecf6 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=5 classification=text
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>VARANASI INDIA5-testsweep VNS-CAND-022 t/m 040</name>
+<description>19 testkandidaten, INDIA5-PROTOCOL testsweep 2026-08-02. Groene markers = VERIFIED_OFFICIAL_MAP_LINK (bevestigd via officiele Google-kaartbron). Gele markers = ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED); positie is uitsluitend het oude vergelijkingscoordinaat, GEEN gevalideerd eindpunt.</description>
+<Style id="confirmed"><IconStyle><color>ff00c853</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-stars.png</href></Icon></IconStyle></Style>
+<Style id="unconfirmed"><IconStyle><color>ff00d7ff</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href></Icon></IconStyle></Style>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-022 -- Bindu Madhav Temple</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (WORKING_GOOGLE_MAPS_PIN), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Sri Bindu Madhava Perumal Temple / Bindu Madhav Mandir, Panchganga Ghat
+Adres: Sri Bindu Madhava Perumal Temple, Panch Ganga Ghat, Ratan Phatak, Ghasi Tola, Varanasi, Uttar Pradesh 221001, India
+Fysieke identiteit: CONFIRMED
+Reden: De kandidaat is geidentificeerd als de Bindu Madhav-tempel (Vishnu) direct aan Panchganga Ghat, bevestigd door een officiele overheids-listing en de eigen tempelinstitutie. Geen publieke Google Maps-plaatslink met ingesloten marker-coordinaat kon worden vastgesteld; het oude vergelijkingscoordinaat is niet hergebruikt als eindpunt.</description>
+<Point><coordinates>83.0125,25.3187,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-023 -- Mrityunjay Mahadev Temple</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (WORKING_GOOGLE_MAPS_PIN), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Mrityunjay Mahadev Mandir
+Adres: Maha Mritunjay Rd, Bagh, Daranagar, Kotwali, Varanasi, Uttar Pradesh 221001, India (alt: K52/39 Daranagar Visheshwarganj)
+Fysieke identiteit: CONFIRMED
+Reden: Fysieke identiteit bevestigd via meerdere onafhankelijke bronnen op Daranagar/Bagh, Kotwali. LET OP voor ZILVER/GOUD: de Wikipedia-coordinaat (25.317645,82.973914) ligt ca. 3 km van het oude vergelijkingscoordinaat (25.3291,83.0056) -- dit is geen Google Maps-marker en dus geen eindpunt, maar het verschil is groot genoeg om apart te vermelden in het correctierapport. Geen publieke Google Maps-marker vastgesteld; geen schatting overgenomen.</description>
+<Point><coordinates>83.0056,25.3291,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-024 -- Kabir Chaura Math</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (WORKING_GOOGLE_MAPS_PIN), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Kabir Math, Kabirchaura
+Adres: C23/5, Kotwali, Dav College Road, Piplani Katra, Varanasi, Uttar Pradesh 221001, India
+Fysieke identiteit: CONFIRMED
+Reden: Kabir Chaura Math is geidentificeerd als een apart, gevestigd math-complex in de wijk Kabir Chaura (te onderscheiden van het Lahartara-herdenkingspunt, VNS-CAND-025). Geen publieke Google Maps-marker met ingesloten coordinaat vastgesteld; het oude vergelijkingscoordinaat is niet hergebruikt.</description>
+<Point><coordinates>82.9992,25.3233,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-025 -- Lahartara Kabir birthplace memorial</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (APPROXIMATE_LOCAL_POINT), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Lahartara Pond 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=624 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/TESTSWEEP-022-040/USER/VARANASI_TESTSWEEP_022-040.kml blob_sha=7dfe80d4afd44a55e439a27f38dc84ca7fe1ecf6 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=5 classification=text
+/ Kabir Math, Lahartara
+Adres: Lahartara, Varanasi, Uttar Pradesh, India (nabij Kabir Math Lahartara)
+Fysieke identiteit: PARTIAL
+Reden: Bronidentiteit bevestigt de Lahartara-vijver/herdenkingszone als traditionele Kabir-geboorteplek, met een apart Kabir-tempel/Math-punt in dezelfde locatie. De brondata markeerde physical_identity al als PARTIAL (meerdere structuren in een zone); dat is bevestigd, geen precieze enkele gebouwmarker vastgesteld. Geen Google Maps-marker geconfirmeerd; geen schatting of terreinmiddelpunt overgenomen.</description>
+<Point><coordinates>82.966,25.304,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-026 -- Ramakrishna Mission Home of Service</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (WORKING_GOOGLE_MAPS_PIN), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Ramakrishna Mission Home of Service
+Adres: Ramakrishna Mission Home of Service, Luxa Road, Ramapura Luxa, Varanasi, Uttar Pradesh 221010, India
+Fysieke identiteit: CONFIRMED
+Reden: Institutionele identiteit sluitend bevestigd via de officiele Belur Math-bronvermelding en de instelling zelf op Luxa Road. Een Mappls (MapmyIndia)-vermelding bevatte een coordinaat-achtige URL-parameter, maar dit is geen Google Maps-bron en is daarom NIET gebruikt als eindcoordinaat (Google Maps is de enige geaccepteerde bron van waarheid). Geen publieke Google Maps-marker geconfirmeerd; oude vergelijkingscoordinaat niet hergebruikt.</description>
+<Point><coordinates>82.9974,25.309,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-027 -- Baba Keenaram Sthal / Krim Kund</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (WORKING_GOOGLE_MAPS_PIN), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Baba Keenaram Sthal / Kreem Kund
+Adres: Ravindrapuri Rd, Anandbagh, Bhelupur, Varanasi, Uttar Pradesh 221005, India
+Fysieke identiteit: CONFIRMED
+Reden: Fysieke identiteit sluitend: Aghor-hoofdzetel op Ravindrapuri Road, Bhelupur. De encyclopedische coordinaat (25.29608,83.00264) ligt dicht bij (~0.4 km) het oude vergelijkingscoordinaat, wat de algemene locatie ondersteunt, maar telt niet als Google Maps-marker. Geen publieke Google Maps-marker geconfirmeerd; geen schatting overgenomen.</description>
+<Point><coordinates>83.001,25.2928,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-028 -- Bhaskarananda Samadhi / Anand Bagh</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (APPROXIMATE_LOCAL_POINT), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Anand Bagh (samadhi-herdenking Swami Bhaskarananda Saraswati)
+Adres: Durgakund Road, Anandbagh, Bhelupur, near Vankatti Hanumanji Mandir, Durgakund, Varanasi, Uttar Pradesh 221005, India
+Fysieke identiteit: PARTIAL
+Reden: Fysieke identiteit bevestigd als samadhi-herdenkingscomplex (Anand Bagh) direct bij Durga Kund; de brondata markeerde physical_identity al als PARTIAL, wat overeind blijft omdat het een herdenkingsterrein is zonder eenduidig hoofdgebouw. Geen publieke Google Maps-marker geconfirmeerd; geen schatting of terreinmiddelpunt overgenomen.</description>
+<Point><coordinates>82.9968,25.2868,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>VNS-CAND-029 -- Dhamek Stupa</name>
+<styleUrl>#confirmed</styleUrl>
+<description>STATUS: BEVESTIGD (VERIFIED_OFFICIAL_MAP_LINK)
+Cluster: Dhamek Stupa
+Adres: Dhamek Stupa, Sarnath, Varanasi, Uttar Pradesh 221007, India
+Fysieke identiteit: CONFIRMED
+Reden: Fysieke identiteit ondubbelzinnig: hoofdstupa van Sarnath. De encyclopedische coordinaat (25.3808,83.0245) komt vrijwel exact overeen met het oude vergelijkingscoordinaat (25.3807,83.0245), een sterke onafhankelijk
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=625 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/TESTSWEEP-022-040/USER/VARANASI_TESTSWEEP_022-040.kml blob_sha=7dfe80d4afd44a55e439a27f38dc84ca7fe1ecf6 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=5 classification=text
+e bevestiging van de bestaande pin, maar dit is geen Google Maps-marker en telt daarom niet als eindbevestiging. Geen publieke Google Maps-marker geconfirmeerd; het bestaande punt is niet automatisch overgenomen. ZILVER-correctie: een officiele Google-kaartbron (Google Earth entity-API, geen Wikipedia/OSM-afgeleide) met expliciet coordinaat en feature-ID gevonden voor Dhamek Stupa. S</description>
+<Point><coordinates>83.024276,25.380889,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-030 -- Mulagandha Kuti Vihara</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (WORKING_GOOGLE_MAPS_PIN), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Mulagandha Kuti Vihara
+Adres: Singhpuri, Sarnath, Varanasi, Uttar Pradesh 221007, India
+Fysieke identiteit: CONFIRMED
+Reden: Fysieke identiteit bevestigd als actieve Mahabodhi Society-vihara in Singhpuri, Sarnath, ca. 1 km van Dhamek Stupa. Geen publieke Google Maps-marker met ingesloten coordinaat vastgesteld; oude vergelijkingscoordinaat niet hergebruikt.</description>
+<Point><coordinates>83.0216,25.3819,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>VNS-CAND-031 -- Chaukhandi Stupa</name>
+<styleUrl>#confirmed</styleUrl>
+<description>STATUS: BEVESTIGD (VERIFIED_OFFICIAL_MAP_LINK)
+Cluster: Chaukhandi Stupa
+Adres: 92FF+JC4, Rishipattan Rd, Sarnath, Varanasi, Uttar Pradesh 221007, India
+Fysieke identiteit: CONFIRMED
+Reden: Fysieke identiteit bevestigd als apart, zuidelijker gelegen stupa-monument in Sarnath (los van Dhamek Stupa). Geen publieke Google Maps-marker met ingesloten coordinaat vastgesteld; oude vergelijkingscoordinaat niet hergebruikt. ZILVER-correctie: officiele Google-kaartbron (Google Earth entity-API) gevonden voor Chaukhandi Stupa. Status opgewaardeerd van GOOGLE_MAPS_MARKER_NOT_CONFIRMED naar VERIFIED_OFFICIAL_MAP_LINK; coordinaat overgenomen als eindpunt.</description>
+<Point><coordinates>83.023588,25.37402,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-032 -- Sarnath Archaeological Museum</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (WORKING_GOOGLE_MAPS_PIN), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Sarnath Museum
+Adres: Archaeological Museum Sarnath, Sarnath Station Rd, Sarnath, Varanasi, Uttar Pradesh 221007, India
+Fysieke identiteit: CONFIRMED
+Reden: Fysieke identiteit sluitend bevestigd, inclusief een gevonden publieke Google Maps-plaatspagina voor 'Sarnath Museum'. Uit die pagina kon echter geen exact marker-coordinaat worden afgelezen (geen '@lat,lng' in de URL, en interactief openen van de Maps-pagina was niet mogelijk in deze sessie); daarom blijft de status GOOGLE_MAPS_MARKER_NOT_CONFIRMED in plaats van EXACT_GOOGLE_MAPS_MARKER. Geen schatting overgenomen.</description>
+<Point><coordinates>83.0205,25.3817,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>VNS-CAND-033 -- Deer Park / Isipatana sacred landscape</name>
+<styleUrl>#confirmed</styleUrl>
+<description>STATUS: BEVESTIGD (VERIFIED_OFFICIAL_MAP_LINK)
+Cluster: Sarnath Deer Park (Isipatana)
+Adres: Deer Park, Sarnath, Varanasi, Uttar Pradesh 221007, India
+Fysieke identiteit: CONFIRMED
+Reden: Fysieke identiteit bevestigd als het historische Isipatana-hertenpark, onderdeel van het Sarnath-heiligdomlandschap. Geen publieke Google Maps-marker met ingesloten coordinaat vastgesteld; oude vergelijkingscoordinaat niet hergebruikt. ZILVER-correctie: officiele Google-kaartbron (Google Earth entity-API) gevonden voor Deer Park/Isipatana. Status opgewaardeerd van GOOGLE_MAPS_MARKER_NOT_CONFIRMED naar VERIFIED_OFFICIAL_MAP_LINK; coordinaat overgenomen als eindpunt.</description>
+<Point><coordinates>83.024445,25.3825,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-034 -- Saranganath Temple</name>
+<styleUrl>#unconfirmed</sty
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=626 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/TESTSWEEP-022-040/USER/VARANASI_TESTSWEEP_022-040.kml blob_sha=7dfe80d4afd44a55e439a27f38dc84ca7fe1ecf6 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=5 classification=text
+leUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (WORKING_GOOGLE_MAPS_PIN), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Saranganath Mahadev Mandir
+Adres: Baraipur, Sarnath, Varanasi, Uttar Pradesh 221007, India
+Fysieke identiteit: CONFIRMED
+Reden: Fysieke identiteit bevestigd als lokale Shiva-tempel in Baraipur, Sarnath, met twee lingams (Sarang Nath en Somnath). Geen publieke Google Maps-marker met ingesloten coordinaat vastgesteld; oude vergelijkingscoordinaat niet hergebruikt.</description>
+<Point><coordinates>83.0225,25.3833,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-035 -- Tulsi Manas Temple</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (WORKING_GOOGLE_MAPS_PIN), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Tulsi Manas Mandir
+Adres: Durga Kund, Bhelupur, Varanasi, Uttar Pradesh, India
+Fysieke identiteit: CONFIRMED
+Reden: Fysieke identiteit ondubbelzinnig bevestigd. De encyclopedische coordinaat (25.287206,83.000417) komt vrijwel exact overeen met het oude vergelijkingscoordinaat, een sterke onafhankelijke bevestiging, maar geen Google Maps-marker. Geen publieke Google Maps-marker geconfirmeerd; het bestaande punt is niet automatisch overgenomen.</description>
+<Point><coordinates>83.0003,25.2883,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-036 -- Tulsi Ghat</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (WORKING_GOOGLE_MAPS_PIN), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Tulsi Ghat
+Adres: B2/40, Assi Rd, Ghats of Varanasi, Shivala, Varanasi, Uttar Pradesh 221001, India
+Fysieke identiteit: CONFIRMED
+Reden: Fysieke identiteit bevestigd als de ghat waar Tulsidas woonde, in de Shivala-wijk. Geen publieke Google Maps-marker met ingesloten coordinaat vastgesteld; oude vergelijkingscoordinaat niet hergebruikt.</description>
+<Point><coordinates>83.0068,25.2906,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-037 -- Lolark Kund</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (WORKING_GOOGLE_MAPS_PIN), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Lolark Kund / Sri Lolarkeshwar Mahadev Temple
+Adres: Bhadaini, near Assi/Tulsi Ghat, Shivala, Varanasi, Uttar Pradesh 221005, India
+Fysieke identiteit: CONFIRMED
+Reden: Fysieke identiteit bevestigd als rechthoekige heilige waterput (kund) met Lolarkeshwar Mahadev-tempel, nabij Assi/Tulsi Ghat. Geen decimale coordinaten in de gevonden bronnen en geen publieke Google Maps-marker vastgesteld; oude vergelijkingscoordinaat niet hergebruikt.</description>
+<Point><coordinates>83.0038,25.2875,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-038 -- Ratneshwar Mahadev Temple</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (WORKING_GOOGLE_MAPS_PIN), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Ratneshwar Mahadev Mandir (het 'scheve/leunende' tempel)
+Adres: Manikarnika Ghat, Varanasi, Uttar Pradesh, India
+Fysieke identiteit: CONFIRMED
+Reden: Fysieke identiteit ondubbelzinnig: het bekende scheve Shiva-tempeltje aan Manikarnika Ghat. De encyclopedische coordinaat (25.3119,83.01603) ligt dicht bij het oude vergelijkingscoordinaat, een goede onafhankelijke bevestiging, maar geen Google Maps-marker. Geen publieke Google Maps-marker geconfirmeerd; bestaand punt niet automatisch overgenomen.</description>
+<Point><coordinates>83.0145,25.3113,0</coordinates></Point>
+</
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=627 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/TESTSWEEP-022-040/USER/VARANASI_TESTSWEEP_022-040.kml blob_sha=7dfe80d4afd44a55e439a27f38dc84ca7fe1ecf6 original_offset=16384 original_length=1847 payload_bytes=1847 chunk_index=4 chunk_count=5 classification=text
+Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-039 -- Shitala Mata Temple, Dashashwamedh</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (WORKING_GOOGLE_MAPS_PIN), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Shitala Mata Mandir, Shitala Ghat
+Adres: Shitala Ghat / near Dashashwamedh Ghat, Ghasi Tola / Bangali Tola, Varanasi, Uttar Pradesh 221001, India
+Fysieke identiteit: CONFIRMED
+Reden: Fysieke identiteit bevestigd als Shakti-tempel op Shitala Ghat, direct ten zuiden van Dashashwamedh Ghat. Geen publieke Google Maps-marker met ingesloten coordinaat vastgesteld; oude vergelijkingscoordinaat niet hergebruikt.</description>
+<Point><coordinates>83.0105,25.3064,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-040 -- Bharat Mata Temple</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (WORKING_GOOGLE_MAPS_PIN), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Bharat Mata Mandir
+Adres: Mahatma Gandhi Kashi Vidyapeeth campus, Varanasi, Uttar Pradesh, India
+Fysieke identiteit: CONFIRMED
+Reden: Fysieke identiteit ondubbelzinnig bevestigd: het civiele 'tempel'-monument met reliëfkaart van India op de Kashi Vidyapeeth-campus. De encyclopedische coordinaat (25.317222,82.989167) komt vrijwel exact overeen met het oude vergelijkingscoordinaat, een sterke onafhankelijke bevestiging, maar geen Google Maps-marker. Geen publieke Google Maps-marker geconfirmeerd; bestaand punt niet automatisch overgenomen.</description>
+<Point><coordinates>82.989,25.317,0</coordinates></Point>
+</Placemark>
+</Document>
+</kml>
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=628 path=handoffs/INDIA6_TO_INDIA7_2026-08-18.md blob_sha=7e86d8ed384c6cb7804a9ffe09d24c93302fceec original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# INDIA6 -> INDIA7 HANDOFF — 2026-08-18 23:59 CEST
+
+Status: DURABLE HANDOFF / READ BEFORE ACTING
+Repository: `bnzgxknwrv-tech/india-knowledge-base`
+Primary workbranch: `claude/werk-je-nu-of-niet-oa10y7`
+PR relay: #23 (draft; niet mergen zonder expliciete Mark-vrijgave)
+
+## 0. ROLE / PRECEDENCE
+INDIA7 is directe functionele opvolger van INDIA6/INDIA2-regierol. INDIA3/4/5 waren experimentele architecturen en zijn geen inhoudelijke rolvoorgangers.
+
+Lees conform root README en `governance/INDIA_SESSION_START.md` de volledige tekstuele repository op de actuele werkbranch vóór inhoudelijk handelen; inventariseer daarna relevante branches/PR's. Bij stateverschil geldt: actuele taak-STATUS > INDIA_SESSION_START > ACTIVE_STATE > legacy/oud > oude chat. Dit handoffbestand is een extra recente delta en vervangt geen taak-STATUS.
+
+## 1. HOOFDSTRATEGIE — NU LOCKED
+De juiste projectvolgorde is:
+`LANDELIJKE PERSONEN-SWEEPS -> CLUSTERHEATMAP -> REGIONALE CLUSTERSWEEPS -> MARK A/B/C -> ROUTE`.
+
+Dus niet per gekozen stad eerst lokaal exhaustief zoeken. Eerst landelijke persoonslagen afmaken, daarna alle resultaten op één kaart leggen en de sterkste geografische concentraties bepalen. Pas daarna regio's zwaar dubbel sweepen en route/nachten optimaliseren.
+
+METHOD_V2 blijft:
+`CORPUS INVENTORY -> LOSSLESS CORPUS OCCURRENCE EXTRACTION -> EVENT/PLACE NORMALIZATION -> HOST/NETWORK GRAPH -> WEB DISCOVERY -> INDIA INDEPENDENT PASS -> EXTERNAL MULTI-AI ADVERSARIAL UNION -> DIRECT VERIFICATION/RECONCILIATION -> SATURATION`.
+
+Na Yogananda benchmark is de externe detectorlaag verplicht voor iedere persoon die full-deep wordt behandeld: `EXTERNAL_MULTI_AI_MANDATORY_FOR_REMAINING_TOP11: JA`.
+
+Waarom: Yogananda externe union had 114 masterrecords; 8/8 rechtstreeks getoetste externe extra's waren echt. Tegelijk vond CCI zelf de Regent Hotel, Bombay (Sri Yukteswar-resurrection-visioen, AOAY hfst.43), die alle vijf externe AI's misten. Geen enkele laag mag worden geschrapt.
+
+## 2. PERSONEN — LOCKED SWEEPDIEPTE
+Bron: `decisions/TOP11_SWEEP_DEPTH_BY_PERSON_2026-08-18.md`.
+
+FULL METHOD_V2 person-centric deep sweep:
+1. Paramahansa Yogananda — intern + externe benchmark al ver gevorderd.
+2. Mahavatar Babaji — full sweep loopt in CCI_TASK 087.
+3. Lahiri Mahasaya — full sweep.
+4. Sri Yukteswar — full sweep.
+5. Neem Karoli Baba — full sweep.
+6. Ram Dass — full sweep; gekoppeld aan NKB waar relevant maar fysieke locaties afzonderlijk.
+7. Ramana Maharshi — full sweep.
+8. Ramakrishna — full sweep. Mark beschouwt hem als een van de groten en vindt hem nu ondervertegenwoordigd; wens is bij voorkeur minstens één wezenlijke plek te bezoeken als dit logisch past, geen geforceerde omweg.
+
+GEEN exhaustieve landelijke deep sweep:
+- Vivekananda — alleen grootste/wezenlijkste major sites later gericht verifiëren. Hij was discipel van Ramakrishna, niet Ramana Maharshi.
+- Hariharananda — alleen grootste/wezenlijkste major sites later gericht verifiëren.
+
+Anandamayi Ma: niet opnieuw vanaf nul; al uitzonderlijk breed behandeld via source-first + 156-locatie externe union + reconciliatie.
+
+Jezus/Krishna/Boeddha vallen niet onder dezelfde moderne person-centric deep-sweepmethodiek; hun traditionele/pelgrimage-laag is apart afgedekt. Babaji blijft wel in de full sweep wegens missiekritische lineage-relevantie.
+
+## 3. CCI HUIDIGE TAAK / AUTOMATISCHE WAKE
+CCI_TASK 087 op PR #23 = interne pre-external full sweeps van Mahavatar Babaji + Lahiri Mahasaya + Sri Yukteswar, parallel waar mogelijk, zonder externe contaminatie vóór freeze.
+
+CCI_TASK 087R staat reeds op PR #23 als context-limit recovery. Doel: hervat 087 uit duurzame GitHub-checkpoints, herstart geen afgerond onderzoek, commit per afgerond werkpakket/persona, stop na de drie freezes.
+
+BELANGRIJK: Mark heeft een werkelijk Claude Code wake-event getoond:
+`<wake reason="external-event">` met `source="github" kind="issue_comment.created"` voor de 087R-comment.
+Daarmee is praktisch bewezen dat een nieuwe PR-comment op #23 CCI automatisch wekt. Mark hoeft CCI dus niet handmatig te starten nadat INDI
+<<< END CHUNK >>>
+

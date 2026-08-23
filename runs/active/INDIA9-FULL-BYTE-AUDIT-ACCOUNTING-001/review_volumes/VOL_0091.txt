@@ -1,0 +1,284 @@
+>>> CHUNK stream_row=1344 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/RAW_OCCURRENCES.jsonl blob_sha=fd1e188e479e2bb4235c8119222078afb16eb4a1 original_offset=172032 original_length=4095 payload_bytes=4095 chunk_index=42 chunk_count=77 classification=text
+of the", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00748", "chapter": 36, "raw_place_name": "Serampore", "context_anchor": "“I soon left Benares, and set to work in Serampore on the scriptural", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00749", "chapter": 36, "raw_place_name": "Himalayas", "context_anchor": "Himalayas, and with Babaji in the cosmos.’", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00750", "chapter": 36, "raw_place_name": "Allahabad", "context_anchor": "deathless guru. Our first meeting was in Allahabad at a KUMBHA", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00751", "chapter": 36, "raw_place_name": "Allahabad", "context_anchor": "1894 at Allahabad. It was my first experience of a KUMBHA; I felt", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00752", "chapter": 36, "raw_place_name": "Allahabad", "context_anchor": "“I left Allahabad the following day and entrained for Benares.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00753", "chapter": 36, "raw_place_name": "Calcutta", "context_anchor": "guru was the saintly Panchanon Bhattacharya, founder of the Calcutta", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00754", "chapter": 36, "raw_place_name": "Calcutta", "context_anchor": "I visited Panchanon at his Calcutta home, and listened with delight", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00755", "chapter": 36, "raw_place_name": "Calcutta", "context_anchor": "“Here in Calcutta,” Panchanon said, “at ten o’clock of the morning", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00756", "chapter": 36, "raw_place_name": "Hardwar", "context_anchor": "Hardwar.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00757", "chapter": 36, "raw_place_name": "Hardwar", "context_anchor": "“When I returned to my isolated Hardwar hermitage,” Keshabananda", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00758", "chapter": 36, "raw_place_name": "Benares", "context_anchor": "“I left Allahabad the following day and entrained for Benares.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00759", "chapter": 36, "raw_place_name": "Benares", "context_anchor": "“I soon left Benares, and set to work in Serampore on the scriptural", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00760", "chapter": 36, "raw_place_name": "Benares", "context_anchor": "“A few months later I visited Lahiri Mahasaya in Benares. As I", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00761", "chapter": 36, "raw_place_name": "Benares", "context_anchor": "“That was one of my last visits to Benares to see my guru,” Sri", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00762", "chapter": 36, "raw_place_name": "Benares", "context_anchor": "Benares.  No longer need I seek him out in his little parlor; I", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00763", "chapter": 36, "raw_place_name": "Benares", "context_anchor": "“‘Come at once to Benares.’ With these words Lahiri Mahasaya", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00764", "chapter": 36, "raw_place_name": "Benares", "context_anchor": "“I entrained immediately for Benares. At my guru’s home I found", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00765", "chapter": 36, "raw_place_name": "Benares", "context_anchor": "o
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1345 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/RAW_OCCURRENCES.jsonl blob_sha=fd1e188e479e2bb4235c8119222078afb16eb4a1 original_offset=176127 original_length=4096 payload_bytes=4096 chunk_index=43 chunk_count=77 classification=text
+’clock in the morning, while I was still in Benares, my room was", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00766", "chapter": 36, "raw_place_name": "Benares", "context_anchor": "from him, requesting me to come at once to Benares. I was delayed,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00767", "chapter": 36, "raw_place_name": "Benares", "context_anchor": "“‘Why hurry to Benares?’ Lahiri Mahasaya said, smiling. ‘You shall", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00768", "chapter": 36, "raw_place_name": "Benares", "context_anchor": "disciples in the little parlor of his Benares home.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00769", "chapter": 36, "raw_place_name": "America", "context_anchor": "congregated here, living in distant Europe and America, professing", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00770", "chapter": 36, "raw_place_name": "America", "context_anchor": "to me. I perceive potential saints in America and Europe, waiting", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00771", "chapter": 36, "raw_place_name": "Ranchi", "context_anchor": "me at the time he visited my Ranchi school, “I received a letter", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00772", "chapter": 36, "raw_place_name": "Ganges", "context_anchor": "on the bank of the Ganges, I noticed an acquaintance standing", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00773", "chapter": 36, "raw_place_name": "Ganges", "context_anchor": "continued, “I went to the Rai Ghat here to bathe in the Ganges.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00774", "chapter": 36, "raw_place_name": "Ganges", "context_anchor": "The only sound in the silence was that of my Ganges-drenched cloth,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00775", "chapter": 36, "raw_place_name": "Ganges", "context_anchor": "holy Ganges,” Keshabananda continued. “The following day, at ten", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00776", "chapter": 36, "raw_place_name": "Europe", "context_anchor": "congregated here, living in distant Europe and America, professing", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00777", "chapter": 36, "raw_place_name": "Europe", "context_anchor": "to me. I perceive potential saints in America and Europe, waiting", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00778", "chapter": 36, "raw_place_name": "Bihar", "context_anchor": "at Deogarh in Bihar, a temple containing a stone statue of Lahiri", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00779", "chapter": 36, "raw_place_name": "Indus", "context_anchor": "of the river Indus as INDOOS, or HINDUS. The word HINDU, properly", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00780", "chapter": 36, "raw_place_name": "India", "context_anchor": "The religious fairs held in India since time immemorial are known", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00781", "chapter": 36, "raw_place_name": "India", "context_anchor": "meetings with India’s masters. But, although high in intellectual", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00782", "chapter": 36, "raw_place_name": "India", "context_anchor": "and spirituality combined,’ he continued. ‘India has much to learn", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurren
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1346 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/RAW_OCCURRENCES.jsonl blob_sha=fd1e188e479e2bb4235c8119222078afb16eb4a1 original_offset=180223 original_length=4096 payload_bytes=4096 chunk_index=44 chunk_count=77 classification=text
+ce_id": "AOAY-OCC-00783", "chapter": 36, "raw_place_name": "India", "context_anchor": "from the West in material development; in return, India can teach", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00784", "chapter": 36, "raw_place_name": "India", "context_anchor": "INHABITANTS of the soil of India (and also through the confusing", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00785", "chapter": 36, "raw_place_name": "India", "context_anchor": "The ancient name for India is ARYAVARTA, literally, “abode of the", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00786", "chapter": 36, "raw_place_name": "Gaya", "context_anchor": "Order by the MAHANT (monastery head) of Buddh Gaya.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00787", "chapter": 37, "raw_place_name": "Self-Realization Fellowship", "context_anchor": "Self-Realization Fellowship.—see mtwash.jpg]", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00788", "chapter": 37, "raw_place_name": "Mount Washington Estates", "context_anchor": "established an American headquarters on the Mount Washington Estates", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00789", "chapter": 37, "raw_place_name": "Mount Washington Estates", "context_anchor": "beneath the Mount Washington Estates, I yearn to behold it all with", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00790", "chapter": 37, "raw_place_name": "Mount Washington Estates", "context_anchor": "[Illustration: Main building at the Mount Washington Estates in", "source_type": "caption", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00791", "chapter": 37, "raw_place_name": "Mount Washington", "context_anchor": "established an American headquarters on the Mount Washington Estates", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00792", "chapter": 37, "raw_place_name": "Mount Washington", "context_anchor": "beneath the Mount Washington Estates, I yearn to behold it all with", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00793", "chapter": 37, "raw_place_name": "Mount Washington", "context_anchor": "[Illustration: Main building at the Mount Washington Estates in", "source_type": "caption", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00794", "chapter": 37, "raw_place_name": "Mount Washington", "context_anchor": "in for upkeep of the Mount Washington and other Self-Realization", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00795", "chapter": 37, "raw_place_name": "United States", "context_anchor": "The eve of my departure for the United States found me in Sri", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00796", "chapter": 37, "raw_place_name": "Gurpar Road", "context_anchor": "there came a knock outside the vestibule adjoining the Gurpar Road", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00797", "chapter": 37, "raw_place_name": "Los Angeles", "context_anchor": "in Los Angeles. The building is the one I had seen years before in", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00798", "chapter": 37, "raw_place_name": "Los Angeles", "context_anchor": "Los Angeles, established in 1925 as American headquarters for the", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00799", "chapter": 37, "raw_place_name": "Washington", "context_anchor": "established an American headquarters on the Mount Washington Estates", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00800", "chapter": 37, "raw_
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1347 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/RAW_OCCURRENCES.jsonl blob_sha=fd1e188e479e2bb4235c8119222078afb16eb4a1 original_offset=184319 original_length=4096 payload_bytes=4096 chunk_index=45 chunk_count=77 classification=text
+place_name": "Washington", "context_anchor": "beneath the Mount Washington Estates, I yearn to behold it all with", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00801", "chapter": 37, "raw_place_name": "Washington", "context_anchor": "[Illustration: Main building at the Mount Washington Estates in", "source_type": "caption", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00802", "chapter": 37, "raw_place_name": "Washington", "context_anchor": "Washington, D.C.—see dc.jpg]", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00803", "chapter": 37, "raw_place_name": "Washington", "context_anchor": "in for upkeep of the Mount Washington and other Self-Realization", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00804", "chapter": 37, "raw_place_name": "Washington", "context_anchor": "Church of All Religions in Washington, D.C., was one of the students", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00805", "chapter": 37, "raw_place_name": "Serampore", "context_anchor": "My head in a whirl, I sought out Sri Yukteswar in Serampore.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00806", "chapter": 37, "raw_place_name": "New York", "context_anchor": "of New York. {FN37-5}", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00807", "chapter": 37, "raw_place_name": "New York", "context_anchor": "Paebar Co., New York, 1945).", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00808", "chapter": 37, "raw_place_name": "Calcutta", "context_anchor": "for Calcutta a few hours after my vision. The following day I", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00809", "chapter": 37, "raw_place_name": "Kashmir", "context_anchor": "my vision at Kashmir. I hastened to send Sri Yukteswar pictures of", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00810", "chapter": 37, "raw_place_name": "America", "context_anchor": "“America! Surely these people are Americans!” This was my thought", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00811", "chapter": 37, "raw_place_name": "America", "context_anchor": "is calling me to America!”", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00812", "chapter": 37, "raw_place_name": "America", "context_anchor": "“To America?” The boy echoed my words in a tone that implied I had", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00813", "chapter": 37, "raw_place_name": "America", "context_anchor": "“Yes! I am going forth to discover America, like Columbus. He", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00814", "chapter": 37, "raw_place_name": "America", "context_anchor": "International Congress of Religious Liberals in America. It was", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00815", "chapter": 37, "raw_place_name": "America", "context_anchor": "in America. Shall I go?”", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00816", "chapter": 37, "raw_place_name": "America", "context_anchor": "aback. To him America seemed incredibly remote; he feared he might", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00817", "chapter": 37, "raw_place_name": "America", "context_anchor": "land for the unknown shores of America, I experienced not a little", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00818", "chapter": 37, "raw_place_name": "America", "context_anchor": "America, but even more strongly 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1348 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/RAW_OCCURRENCES.jsonl blob_sha=fd1e188e479e2bb4235c8119222078afb16eb4a1 original_offset=188415 original_length=4096 payload_bytes=4096 chunk_index=46 chunk_count=77 classification=text
+was it resolved to hear the solace", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00819", "chapter": 37, "raw_place_name": "America", "context_anchor": "me to tell you: Follow the behests of your guru and go to America.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00820", "chapter": 37, "raw_place_name": "America", "context_anchor": "to America, into a wilderness without a single friend, but there", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00821", "chapter": 37, "raw_place_name": "America", "context_anchor": "passenger boat sailing for America after the close of World War", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00822", "chapter": 37, "raw_place_name": "America", "context_anchor": "various groups in America.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00823", "chapter": 37, "raw_place_name": "America", "context_anchor": "speech in America. (Left to Right) Rev. Clay MacCauley, Rev. T.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00824", "chapter": 37, "raw_place_name": "America", "context_anchor": "America.  It was well received; I sighed in relief. The magnanimous", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00825", "chapter": 37, "raw_place_name": "America", "context_anchor": "Due to Father’s generous check, I was able to remain in America", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00826", "chapter": 37, "raw_place_name": "America", "context_anchor": "in America.  This class of a thousand yoga students was held in", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00827", "chapter": 37, "raw_place_name": "America", "context_anchor": "I have found the great heart of America expressed in the wondrous", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00828", "chapter": 37, "raw_place_name": "America", "context_anchor": "at the Ranchi school at the time I left there for America. (He was", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00829", "chapter": 37, "raw_place_name": "Ranchi", "context_anchor": "the storeroom of the Ranchi school. A private spot was difficult", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00830", "chapter": 37, "raw_place_name": "Ranchi", "context_anchor": "and the sunny acres of Ranchi. A definite epoch in my life had now", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00831", "chapter": 37, "raw_place_name": "Ranchi", "context_anchor": "“Swami Yogananda, delegate from the Brahmacharya Ashram of Ranchi,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00832", "chapter": 37, "raw_place_name": "Ranchi", "context_anchor": "at the Ranchi school at the time I left there for America. (He was", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00833", "chapter": 37, "raw_place_name": "Ranchi", "context_anchor": "honored guests at the Ranchi school.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00834", "chapter": 37, "raw_place_name": "Boston", "context_anchor": "to convene that year in Boston, under the auspices of the American", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00835", "chapter": 37, "raw_place_name": "Boston", "context_anchor": "was the Indian delegate to the Boston congress.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00836", "chapter": 37, "raw_place_name": "Boston", "context_anchor": "at the Boston congress.",
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1349 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/RAW_OCCURRENCES.jsonl blob_sha=fd1e188e479e2bb4235c8119222078afb16eb4a1 original_offset=192511 original_length=4096 payload_bytes=4096 chunk_index=47 chunk_count=77 classification=text
+ "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00837", "chapter": 37, "raw_place_name": "Boston", "context_anchor": "Congress of Religious Liberals at Boston, where I gave my maiden", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00838", "chapter": 37, "raw_place_name": "Boston", "context_anchor": "THE CITY OF SPARTA docked near Boston in late September. On the", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00839", "chapter": 37, "raw_place_name": "Boston", "context_anchor": "circumstances in Boston. I gave public lectures, taught classes,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00840", "chapter": 37, "raw_place_name": "Boston", "context_anchor": "{FN37-4} NEW PILGRIMAGES OF THE SPIRIT (Boston: Beacon Press, 1921).", "source_type": "footnote", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00841", "chapter": 37, "raw_place_name": "India", "context_anchor": "thought he had found India; surely there is a karmic link between", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00842", "chapter": 37, "raw_place_name": "India", "context_anchor": "received an invitation to serve as the delegate from India to an", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00843", "chapter": 37, "raw_place_name": "India", "context_anchor": "of India, pervaded with the centuried aura of saints. “An Oriental", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00844", "chapter": 37, "raw_place_name": "India", "context_anchor": "draw a true picture of the great Yogi-Christ of modern India; it", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00845", "chapter": 37, "raw_place_name": "India", "context_anchor": "I left India in August, 1920, on THE CITY OF SPARTA, the first", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00846", "chapter": 37, "raw_place_name": "India", "context_anchor": "India, brought the greetings of his Association to the Congress.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00847", "chapter": 37, "raw_place_name": "India", "context_anchor": "India.  But daily I saw a widening understanding between West and", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00848", "chapter": 37, "raw_place_name": "India", "context_anchor": "{FN37-5} Dr. and Mrs. Robinson visited India in 1939, and were", "source_type": "footnote", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00849", "chapter": 37, "raw_place_name": "Agra", "context_anchor": "Agra.  Without very much guile, I added, “Father, perhaps God will", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00850", "chapter": 38, "raw_place_name": "Mount Washington", "context_anchor": "cacti leaves to plant in my garden at Mount Washington.”", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00851", "chapter": 38, "raw_place_name": "Santa Rosa", "context_anchor": "beside him in his Santa Rosa garden. We halted near a bed of edible", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00852", "chapter": 38, "raw_place_name": "Santa Rosa", "context_anchor": "his Santa Rosa garden.—see burbank.jpg]", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00853", "chapter": 38, "raw_place_name": "Santa Rosa", "context_anchor": "of Santa Rosa, Peachblow, and Burbank roses.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00854", "chapter": 38, "raw_place_name": "Santa Rosa", "context_anchor": "Santa Rosa for one more gli
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1350 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/RAW_OCCURRENCES.jsonl blob_sha=fd1e188e479e2bb4235c8119222078afb16eb4a1 original_offset=196607 original_length=4096 payload_bytes=4096 chunk_index=48 chunk_count=77 classification=text
+mpse of him!” Locking myself away from", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00855", "chapter": 38, "raw_place_name": "Santa Rosa", "context_anchor": "Though the form of Burbank lies in Santa Rosa under a Lebanon cedar", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00856", "chapter": 38, "raw_place_name": "Washington", "context_anchor": "cacti leaves to plant in my garden at Mount Washington.”", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00857", "chapter": 38, "raw_place_name": "New York", "context_anchor": "I was in New York when, in 1926, my dear friend passed away. In", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00858", "chapter": 38, "raw_place_name": "New York", "context_anchor": "{FN38-2} New York: Century Co., 1922.", "source_type": "footnote", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00859", "chapter": 38, "raw_place_name": "Calcutta", "context_anchor": "in triumph to Calcutta.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00860", "chapter": 38, "raw_place_name": "America", "context_anchor": "Lincoln. The Hindu, who was in America during the Civil War years,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00861", "chapter": 38, "raw_place_name": "Ranchi", "context_anchor": "“Luther, you would delight in my Ranchi school, with its outdoor", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00862", "chapter": 38, "raw_place_name": "India", "context_anchor": "to return to India until he had obtained a portrait of the Great", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00863", "chapter": 39, "raw_place_name": "Mount Washington", "context_anchor": "at Mount Washington! In March, 1935 I had the Self-Realization", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00864", "chapter": 39, "raw_place_name": "Konnersreuth", "context_anchor": "Therese Neumann of Konnersreuth.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00865", "chapter": 39, "raw_place_name": "Konnersreuth", "context_anchor": "a Protestant German newspaper, went to Konnersreuth to “expose the", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00866", "chapter": 39, "raw_place_name": "Konnersreuth", "context_anchor": "village of Konnersreuth. The Bavarian peasants exhibited lively", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00867", "chapter": 39, "raw_place_name": "Konnersreuth", "context_anchor": "“Yes, please come to Konnersreuth next Friday,” she said graciously.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00868", "chapter": 39, "raw_place_name": "Konnersreuth", "context_anchor": "inspired my 1935 pilgrimage to Konnersreuth, Bavaria—see neumann.jpg]", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00869", "chapter": 39, "raw_place_name": "Konnersreuth", "context_anchor": "in Konnersreuth, Bavaria.—see nbrothers.jpg]", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00870", "chapter": 39, "raw_place_name": "Konnersreuth", "context_anchor": "We arrived Friday morning about nine-thirty in Konnersreuth. I", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00871", "chapter": 39, "raw_place_name": "Konnersreuth", "context_anchor": "present in Konnersreuth, according to 1945 American news dispatches", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00872", "chapter": 39, "raw_place_name": "Los Angeles", "conte
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1351 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/RAW_OCCURRENCES.jsonl blob_sha=fd1e188e479e2bb4235c8119222078afb16eb4a1 original_offset=200703 original_length=4096 payload_bytes=4096 chunk_index=49 chunk_count=77 classification=text
+xt_anchor": "At a farewell banquet given to me in Los Angeles by loving friends,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00873", "chapter": 39, "raw_place_name": "California", "context_anchor": "Fellowship chartered under the laws of the State of California as", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00874", "chapter": 39, "raw_place_name": "Washington", "context_anchor": "in meditation at my Mt. Washington headquarters. Traversing ten", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00875", "chapter": 39, "raw_place_name": "Washington", "context_anchor": "at Mount Washington! In March, 1935 I had the Self-Realization", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00876", "chapter": 39, "raw_place_name": "Palestine", "context_anchor": "Palestine.  Wandering day after day over the Holy Land, I was more", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00877", "chapter": 39, "raw_place_name": "Palestine", "context_anchor": "is all-pervasive in Palestine; I walked reverently by his side at", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00878", "chapter": 39, "raw_place_name": "Eichstatt", "context_anchor": "Eichstatt, eighty miles from here.”", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00879", "chapter": 39, "raw_place_name": "Eichstatt", "context_anchor": "of Eichstatt, narrowly lined with cobblestoned streets. Dr. Wurz", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00880", "chapter": 39, "raw_place_name": "Eichstatt", "context_anchor": "out in Eichstatt.”", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00881", "chapter": 39, "raw_place_name": "New York", "context_anchor": "I sailed from New York on June 9, 1935 {FN39-1} in the EUROPA. Two", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00882", "chapter": 39, "raw_place_name": "Bavaria", "context_anchor": "for I wanted to make a special pilgrimage to Bavaria. This would", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00883", "chapter": 39, "raw_place_name": "Bavaria", "context_anchor": "curiosity; evidently Hindus had been rare in Bavaria.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00884", "chapter": 39, "raw_place_name": "Bavaria", "context_anchor": "inspired my 1935 pilgrimage to Konnersreuth, Bavaria—see neumann.jpg]", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00885", "chapter": 39, "raw_place_name": "Bavaria", "context_anchor": "in Konnersreuth, Bavaria.—see nbrothers.jpg]", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00886", "chapter": 39, "raw_place_name": "Germany", "context_anchor": "sight-seeing trips throughout Germany,” he told me. “It is a striking", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00887", "chapter": 39, "raw_place_name": "Germany", "context_anchor": "through Germany, Holland, France, and the Swiss Alps. In Italy we", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00888", "chapter": 39, "raw_place_name": "Germany", "context_anchor": "from Germany.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00889", "chapter": 39, "raw_place_name": "America", "context_anchor": "years in spreading my guru’s teachings in America. Now he recalls", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00890", "chapter": 39, "raw_place_name": "America", "context_anchor": "I often call
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1352 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/RAW_OCCURRENCES.jsonl blob_sha=fd1e188e479e2bb4235c8119222078afb16eb4a1 original_offset=204799 original_length=4096 payload_bytes=4096 chunk_index=50 chunk_count=77 classification=text
+ed him “saint,” remembering Babaji’s prophecy that America", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00891", "chapter": 39, "raw_place_name": "America", "context_anchor": "America.”", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00892", "chapter": 39, "raw_place_name": "America", "context_anchor": "interest in our Ford automobile (brought with us from America) and", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00893", "chapter": 39, "raw_place_name": "London", "context_anchor": "huge and ancient city of London. The following day I was invited to", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00894", "chapter": 39, "raw_place_name": "London", "context_anchor": "to the London audience by Sir Francis Younghusband. Our party", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00895", "chapter": 39, "raw_place_name": "Europe", "context_anchor": "arrangements to sail, via Europe, for India. Busy weeks of preparations", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00896", "chapter": 39, "raw_place_name": "France", "context_anchor": "through Germany, Holland, France, and the Swiss Alps. In Italy we", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00897", "chapter": 39, "raw_place_name": "India", "context_anchor": "arrangements to sail, via Europe, for India. Busy weeks of preparations", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00898", "chapter": 39, "raw_place_name": "India", "context_anchor": "I will receive the man of God from India.”", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00899", "chapter": 39, "raw_place_name": "India", "context_anchor": "boat down the narrow Red Sea, over the vasty Arabian Sea; lo, India!", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00900", "chapter": 39, "raw_place_name": "Italy", "context_anchor": "through Germany, Holland, France, and the Swiss Alps. In Italy we", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00901", "chapter": 39, "raw_place_name": "Egypt", "context_anchor": "On to Egypt, with its modern Cairo and ancient pyramids. Then a", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00902", "chapter": 39, "raw_place_name": "Egypt", "context_anchor": "[Illustration: Mr. Wright, myself, Miss Bletch—in Egypt—see", "source_type": "caption", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00903", "chapter": 40, "raw_place_name": "Self-Realization Fellowship", "context_anchor": "a fortnightly mailing of Self-Realization Fellowship teachings to", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00904", "chapter": 40, "raw_place_name": "Howrah Station", "context_anchor": "Our arrival at Howrah Station found such an immense crowd assembled", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00905", "chapter": 40, "raw_place_name": "Dakshineswar", "context_anchor": "A stately Yogoda Math was dedicated in 1939 at Dakshineswar,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00906", "chapter": 40, "raw_place_name": "Dakshineswar", "context_anchor": "Fellowship at Dakshineswar on the Ganges. Founded in 1938 as a yoga", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00907", "chapter": 40, "raw_place_name": "Yogoda Math", "context_anchor": "A stately Yogoda Math was dedicated in 1939 at Dakshineswar,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00908", "chapter": 40,
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1353 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/RAW_OCCURRENCES.jsonl blob_sha=fd1e188e479e2bb4235c8119222078afb16eb4a1 original_offset=208895 original_length=4096 payload_bytes=4096 chunk_index=51 chunk_count=77 classification=text
+ "raw_place_name": "Yogoda Math", "context_anchor": "spiritual realization. The activities of the Yogoda Math include", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00909", "chapter": 40, "raw_place_name": "Yogoda Math", "context_anchor": "[Illustration: Yogoda Math, beautiful hermitage of Self-Realization", "source_type": "caption", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00910", "chapter": 40, "raw_place_name": "Serampore", "context_anchor": "[Illustration: My brother Bishnu; Motilal Mukherji of Serampore, a", "source_type": "caption", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00911", "chapter": 40, "raw_place_name": "Serampore", "context_anchor": "from Calcutta to Serampore,” Mr. Wright recorded in his travel diary.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00912", "chapter": 40, "raw_place_name": "Serampore", "context_anchor": "As soon as I could tear myself away from Serampore and Calcutta,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00913", "chapter": 40, "raw_place_name": "Serampore", "context_anchor": "Serampore, everywhere he went, my secretary, who has a vivid gift", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00914", "chapter": 40, "raw_place_name": "Palestine", "context_anchor": "From America, Europe, and Palestine I had brought many presents", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00915", "chapter": 40, "raw_place_name": "Taj Mahal", "context_anchor": "Taj Mahal Hotel, there was a stream of reporters and photographers.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00916", "chapter": 40, "raw_place_name": "Calcutta", "context_anchor": "train toward Calcutta. {FN40-1}", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00917", "chapter": 40, "raw_place_name": "Calcutta", "context_anchor": "posture, Calcutta, 1936—see father2.jpg]", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00918", "chapter": 40, "raw_place_name": "Calcutta", "context_anchor": "from Calcutta to Serampore,” Mr. Wright recorded in his travel diary.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00919", "chapter": 40, "raw_place_name": "Calcutta", "context_anchor": "[Illustration: Sri Yukteswar and myself in Calcutta, 1935. He is", "source_type": "caption", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00920", "chapter": 40, "raw_place_name": "Calcutta", "context_anchor": "bade adieu with a PRONAM, {FN40-3} and departed for Calcutta with", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00921", "chapter": 40, "raw_place_name": "Calcutta", "context_anchor": "As soon as I could tear myself away from Serampore and Calcutta,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00922", "chapter": 40, "raw_place_name": "Calcutta", "context_anchor": "came interviews in Calcutta with prominent leaders and educators,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00923", "chapter": 40, "raw_place_name": "Calcutta", "context_anchor": "directly on the Ganges. Only a few miles north of Calcutta, the", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00924", "chapter": 40, "raw_place_name": "Calcutta", "context_anchor": "a simple DHOTI, he lived for awhile among them. At Ranchi, Calcutta,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00925", "chapter": 40, "raw_place_name": "Germany", "context_anchor": "For my own use, I had bought in Germany a combination umbrella-cane.", "source_type": "main_text", "physical
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1354 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/RAW_OCCURRENCES.jsonl blob_sha=fd1e188e479e2bb4235c8119222078afb16eb4a1 original_offset=212991 original_length=4096 payload_bytes=4096 chunk_index=52 chunk_count=77 classification=text
+_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00926", "chapter": 40, "raw_place_name": "America", "context_anchor": "From America, Europe, and Palestine I had brought many presents", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00927", "chapter": 40, "raw_place_name": "America", "context_anchor": "I had not spent years in America without learning some of its", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00928", "chapter": 40, "raw_place_name": "Ranchi", "context_anchor": "myself; Tulsi Narayan Bose; Swami Satyananda of Ranchi—see", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00929", "chapter": 40, "raw_place_name": "Ranchi", "context_anchor": "I set out, with Mr. Wright, for Ranchi. What a welcome there, a", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00930", "chapter": 40, "raw_place_name": "Ranchi", "context_anchor": "Yet, alas! the Ranchi institution was in dire financial difficulties.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00931", "chapter": 40, "raw_place_name": "Ranchi", "context_anchor": "week I remained in Ranchi, wrestling with critical problems. Then", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00932", "chapter": 40, "raw_place_name": "Ranchi", "context_anchor": "appeal to my father, and lo! the shaky foundations of Ranchi began", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00933", "chapter": 40, "raw_place_name": "Ranchi", "context_anchor": "seeing the Ranchi school legally incorporated. My lifelong dream", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00934", "chapter": 40, "raw_place_name": "Ranchi", "context_anchor": "In the decade since 1935, Ranchi has enlarged its scope far beyond", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00935", "chapter": 40, "raw_place_name": "Ranchi", "context_anchor": "football practice. Ranchi students often win the cup at competitive", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00936", "chapter": 40, "raw_place_name": "Ranchi", "context_anchor": "Health Exhibitions at the Ranchi VIDYALAYA have been attended by", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00937", "chapter": 40, "raw_place_name": "Ranchi", "context_anchor": "The unique feature at Ranchi is the initiation into KRIYA YOGA.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00938", "chapter": 40, "raw_place_name": "Ranchi", "context_anchor": "has achieved astonishing results: it is no novelty at Ranchi to", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00939", "chapter": 40, "raw_place_name": "Ranchi", "context_anchor": "the spiritual eye. Often the picture of these Ranchi students has", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00940", "chapter": 40, "raw_place_name": "Ranchi", "context_anchor": "Ranchi lies 2000 feet above sea level; the climate is mild and", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00941", "chapter": 40, "raw_place_name": "Ranchi", "context_anchor": "A guest house is hospitably open for Western visitors. The Ranchi", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00942", "chapter": 40, "raw_place_name": "Ranchi", "context_anchor": "[Illustration: A group of Ranchi students and teachers pose with", "source_type": "caption", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00943", "chapter": 40, "raw_place_name": "Ranchi", "context_anchor": "he gave his Kasimbazar Palace and twenty
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1355 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/RAW_OCCURRENCES.jsonl blob_sha=fd1e188e479e2bb4235c8119222078afb16eb4a1 original_offset=217087 original_length=4096 payload_bytes=4096 chunk_index=53 chunk_count=77 classification=text
+-five acres in Ranchi as", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00944", "chapter": 40, "raw_place_name": "Ranchi", "context_anchor": "already ministered to 150,000 of India’s poor. The Ranchi students", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00945", "chapter": 40, "raw_place_name": "Ranchi", "context_anchor": "Branch high schools, with the residential and yoga features of Ranchi,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00946", "chapter": 40, "raw_place_name": "Ranchi", "context_anchor": "Mr. Wright formed many fast friendships with Ranchi boys; clad in", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00947", "chapter": 40, "raw_place_name": "Ranchi", "context_anchor": "a simple DHOTI, he lived for awhile among them. At Ranchi, Calcutta,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00948", "chapter": 40, "raw_place_name": "Boston", "context_anchor": "Yoganandaji as he had first arrived in Boston, standing with the", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00949", "chapter": 40, "raw_place_name": "Howrah", "context_anchor": "Our arrival at Howrah Station found such an immense crowd assembled", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00950", "chapter": 40, "raw_place_name": "Ganges", "context_anchor": "directly on the Ganges. Only a few miles north of Calcutta, the", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00951", "chapter": 40, "raw_place_name": "Ganges", "context_anchor": "Fellowship at Dakshineswar on the Ganges. Founded in 1938 as a yoga", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00952", "chapter": 40, "raw_place_name": "Madras", "context_anchor": "the tests put to the modern professional “memory men” of Madras.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00953", "chapter": 40, "raw_place_name": "Europe", "context_anchor": "From America, Europe, and Palestine I had brought many presents", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00954", "chapter": 40, "raw_place_name": "Wardha", "context_anchor": "the continent, to see Mahatma Gandhi at Wardha. Those days are", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00955", "chapter": 40, "raw_place_name": "Bombay", "context_anchor": "RAJPUTANA docked on August 22, 1935 in the huge harbor of Bombay.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00956", "chapter": 40, "raw_place_name": "Bombay", "context_anchor": "Bombay was a city new to me; I found it energetically modern, with", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00957", "chapter": 40, "raw_place_name": "Bihar", "context_anchor": "Sat-Sanga Vidyapith (School) for Boys, at Lakshmanpur in Bihar;", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00958", "chapter": 40, "raw_place_name": "India", "context_anchor": "Gratefully I was inhaling the blessed air of India. Our boat", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00959", "chapter": 40, "raw_place_name": "India", "context_anchor": "In India I decided to give the cane to Master.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00960", "chapter": 40, "raw_place_name": "India", "context_anchor": "Within a few months after my arrival in India, I had the joy of", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00961", "chapter": 40, "raw_place_name": "India", "c
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1356 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/RAW_OCCURRENCES.jsonl blob_sha=fd1e188e479e2bb4235c8119222078afb16eb4a1 original_offset=221183 original_length=4096 payload_bytes=4096 chunk_index=54 chunk_count=77 classification=text
+ontext_anchor": "one of the finest orchards in India-five hundred fruit trees-mango,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00962", "chapter": 40, "raw_place_name": "India", "context_anchor": "already ministered to 150,000 of India’s poor. The Ranchi students", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00963", "chapter": 40, "raw_place_name": "India", "context_anchor": "students in various parts of India.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00964", "chapter": 40, "raw_place_name": "India", "context_anchor": "“Dick, what is your impression of India?”", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00965", "chapter": 40, "raw_place_name": "India", "context_anchor": "forehead in salutation. A PRONAM in India takes the place of the", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00966", "chapter": 41, "raw_place_name": "Calcutta University", "context_anchor": "session of the Indian Philosophical Congress at Calcutta University.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00967", "chapter": 41, "raw_place_name": "South India", "context_anchor": "reins of India’s government to his son. Traveling to South India,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00968", "chapter": 41, "raw_place_name": "South India", "context_anchor": "of the many great saints of South India. One of these masters,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00969", "chapter": 41, "raw_place_name": "Hyderabad", "context_anchor": "Mysore is the largest native state in India, Hyderabad, a picturesque", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00970", "chapter": 41, "raw_place_name": "Hyderabad", "context_anchor": "hills of limestone or granite. Hyderabad history is a long, colorful", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00971", "chapter": 41, "raw_place_name": "Hyderabad", "context_anchor": "in all India is found at Hyderabad in the ancient rock-sculptured", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00972", "chapter": 41, "raw_place_name": "Hyderabad", "context_anchor": "Hyderabad City is graced by the Osmania University and by the", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00973", "chapter": 41, "raw_place_name": "Bangalore", "context_anchor": "and three mass meetings in Bangalore, at the National High School,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00974", "chapter": 41, "raw_place_name": "Bangalore", "context_anchor": "Bangalore and Mysore, are clean, attractive, with many parks and", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00975", "chapter": 41, "raw_place_name": "Godavari", "context_anchor": "plateau cut by the mighty Godavari River. Broad fertile plains,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00976", "chapter": 41, "raw_place_name": "New York", "context_anchor": "S.  V. Venatesvara (New York: Longmans, Green & Co., $5.00).", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00977", "chapter": 41, "raw_place_name": "Calcutta", "context_anchor": "session of the Indian Philosophical Congress at Calcutta University.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00978", "chapter": 41, "raw_place_name": "Calcutta", "context_anchor": "Wright and myself, remained happily with my relatives in Calcutta.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+
+<<< END CHUNK >>>
+

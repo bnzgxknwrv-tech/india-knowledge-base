@@ -1,0 +1,843 @@
+>>> CHUNK stream_row=1093 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/CLUSTER_LEVEL_DECISIONS_2026-08-22.md blob_sha=ba75a6174301eb3a92a53f97ae8deffad1da1cf3 original_offset=0 original_length=1681 payload_bytes=1681 chunk_index=0 chunk_count=1 classification=text
+# MARK CLUSTER-LEVEL DECISIONS — 2026-08-22
+
+## Current cluster decisions
+1. Kumaon / Nainital / Kainchi / Babaji — A.
+2. Vrindavan / Braj / Mathura — A, but route-sensitive: keep an eye on detour/travel cost; it is not as immovable/heavy as Varanasi.
+3. Varanasi + Sarnath — A.
+4. Bodh Gaya / Gaya — A.
+5. Tiruvannamalai / Arunachala — A, fixed by both content and personal pull.
+6. Mysore / Bengaluru — C as a cluster. Individual A sites remain historically A in the location ledger (Chamundeshwari Temple; KRS Dam + Brindavan Gardens), but do NOT create a separate cluster/route just for them. Only revive if effectively on the way / near another retained cluster.
+7. Haridwar / Kankhal / Rishikesh corridor — B / reserve. Rishikesh itself appeals to Mark for beauty/atmosphere; Kankhal Anandamayi Ma Mahasamadhi remains a strong site-level A. Keep cluster available if routing makes it reasonably practical or a new major nearby magnet emerges; do not force it now.
+8. Agra — A but deliberately minimal: Taj Mahal only. HARD TRAVEL REQUIREMENT: Taj Mahal visit at SUNRISE / earliest practical opening window; the travel plan and prior-night positioning must be built around this. Do not inflate Agra with extra sites merely to fill time.
+
+## Interpretation rule
+Cluster ABC and site ABC are separate. A site can remain A while its containing cluster is B/C because the travel cost of opening a separate region is too high. Conversely, a B site may be visited as a zero/low-cost add-on inside an A cluster.
+
+## Route-space priority
+Mark explicitly prefers breathing room at the major clusters over adding thin clusters. Do not optimize for maximum site count.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1094 path=runs/active/YOGANANDA-ANANDAMAYI-PHOTO-LOCATION-001/RESULT.md blob_sha=bb15dabdf940b93d0a48d50d95594cd942db8279 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# RESULT — YOGANANDA-ANANDAMAYI-PHOTO-LOCATION-001
+
+```
+task_id: YOGANANDA-ANANDAMAYI-PHOTO-LOCATION-001
+trigger: CCI_TASK 083
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-16
+conclusie: TWEE_APARTE_SITES — zie hieronder, geen enkelvoudig antwoord mogelijk
+```
+
+## Belangrijkste bevinding vooraf: de werkhypothese uit TASK.md is gedeeltelijk onjuist
+
+TASK.md stelde als werkhypothese dat de tuinfoto ("the garden", C. Richard Wright fotografeert)
+bij dezelfde Bhowanipur/Calcutta-ontmoeting hoort. **Dit is bij directe lezing van de volledige
+primaire brontekst (AOAY hoofdstuk 45, rechtstreeks geopend — geen snippet) aantoonbaar onjuist.**
+AOAY beschrijft EXPLICIET twee, mogelijk drie, gescheiden ontmoetingen, en de fotosessie hoort
+bronmatig bij Ranchi, niet bij Calcutta. Dit is precies de reden waarom deze taak bestaat
+(werkhypothese niet als feit aannemen) — de controle heeft dus een reëel, meetbaar resultaat
+opgeleverd.
+
+## Bron
+
+Primair: *Autobiography of a Yogi*, hoofdstuk 45 ("The Bengali 'Joy-Permeated' Mother"), volledig
+gelezen uit de Project Gutenberg #7452-brontekst (dezelfde gedownloade, sha256-vastgelegde editie
+als gebruikt in `AOAY-FULL-LOCATION-ATLAS-001`). Aanvullend: officiële Anandamayi Ma Sangha-bronnen
+(`anandamayi.org` — life-history-chronologie 1933-1942 en foto-archief), rechtstreeks geopend.
+
+## Drie gescheiden gebeurtenissen, expliciet onderscheiden uit AOAY hoofdstuk 45
+
+### Gebeurtenis 1 — Bhowanipur, Calcutta (eerste ontmoeting)
+> "I heard that the Blissful Mother was staying at the home of a disciple in the Bhowanipur
+> section of Calcutta. Mr. Wright and I set out immediately from my father's Calcutta home. As
+> the Ford neared the Bhowanipur house, my companion and I observed an unusual street scene.
+> Ananda Moyi Ma was standing in an open-topped automobile, blessing a throng of about one hundred
+> disciples. She was evidently on the point of departure."
+
+- De ontmoeting vond grotendeels **op straat / in en bij haar auto** plaats — zij was al naar
+  buiten gekomen en op het punt van vertrek, niet in een tuin of interieur.
+- **Bholanath (haar man) wordt hier expliciet fysiek aangewezen**: "The chela pointed to a
+  broad-shouldered, fine-featured man with long hair and hoary beard. He was standing quietly in
+  the midst of the gathering" — vlak na de beschrijving "One of her chief disciples is her
+  husband... he took the vow of silence." Zijn naam zelf staat niet met zoveel woorden in AOAY,
+  maar de figuurbeschrijving (zwijgende discipel-echtgenoot) is ondubbelzinnig Bholanath.
+- **Geen enkele fotografie wordt in deze passage genoemd.** AOAY vermeldt hier geen camera, geen
+  Wright-fotohandeling, geen tuin.
+- Exact huisadres/gastheer-identiteit: **NIET gevonden**, in geen van de geraadpleegde bronnen
+  (AOAY zelf, officiële Anandamayi-chronologie, secundaire bronnen). De officiële
+  Sangha-levenschronologie geeft alleen: `1935, December, Calcutta — Paramahansa Yogananda meets
+  Ma`, zonder adres.
+
+### Gebeurtenis 2 — Ranchi Vidyalaya (schoolbezoek, later)
+> "A short time later the Ranchi VIDYALAYA was in gala array for the saint's promised visit...
+> 'Please, Ananda Moyi Ma,' I said, 'come with me to the garden. Mr. Wright will take some
+> pictures.' ... Her glorious eyes retained the unchanging divine luster as she posed for many
+> photographs."
+
+- Dit is de **enige plek in AOAY waar fotografie expliciet en meervoudig wordt bevestigd**
+  ("posed for many photographs").
+- De tuin ligt op het terrein van de Ranchi Vidyalaya (nu: Yogoda Satsanga Sakha Math, Old
+  Hazaribag Road, Ranchi, Jharkhand) — hetzelfde, reeds exact geadresseerde en nog altijd
+  bestaande/publiek toegankelijke terrein dat in de Top-11-persoonsweep is bevestigd
+  (`ATL-PY-005`).
+- **Bholanath wordt in deze passage niet genoemd of beschreven** — alleen "her disciples"
+  algemeen. Dit bewijst niet dat hij afwezig was, maar er is geen positief bewijs dat hij hier wél
+  aanwezig was.
+
+### Gebeurtenis 3 — Serampore station (afscheid, maanden later)
+> "On one other occasion after her Ranchi visit I ha
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1095 path=runs/active/YOGANANDA-ANANDAMAYI-PHOTO-LOCATION-001/RESULT.md blob_sha=bb15dabdf940b93d0a48d50d95594cd942db8279 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+d opportunity to see Ananda Moyi Ma. She stood
+> among her disciples some months later on the Serampore station platform, waiting for the
+> train."
+
+- Kort, geen fotografie genoemd, geen tuin. Alleen ter volledigheid vastgelegd.
+
+## De bekende "Calcutta"-foto met Bholanath — welke gebeurtenis?
+
+De officiële Anandamayi Ma Sangha-fotoarchiefpagina (`anandamayi.org/photos/pages/118.html`)
+onderschrijft een foto expliciet als: **"Anandamayi Ma and Bholanath with Paramhansa Yogananda in
+Calcutta."** Dit is een lineage-officiële bron (voorkeursniveau 2 in TASK.md's bronhiërarchie), niet
+alleen een Pinterest/blog-snippet.
+
+Op het eerste gezicht lijkt dit te conflicteren met AOAY (waar de enige bevestigde fotosessie
+Ranchi is). Bij zorgvuldige lezing is er echter een **coherente verklaring, geen tegenspraak**:
+AOAY bevestigt specifiek dat **Bholanath fysiek aanwezig en aangewezen was tijdens de Calcutta/
+Bhowanipur-scène**, terwijl zijn aanwezigheid in de Ranchi-scène nergens wordt vermeld. Een foto
+mét Bholanath erop is dus bronmatig aannemelijker te herleiden tot de Calcutta-ontmoeting dan tot
+Ranchi — ook al noemt AOAY zelf geen camera tijdens die Calcutta-scène. Dit is een **aannemelijke,
+niet een bewezen** toewijzing: AOAY's stilte over fotografie in Calcutta is geen bewijs dat er
+geen foto is gemaakt, alleen dat Yogananda het niet vermeldde in zijn proza.
+
+**Conclusie**: er zijn zeer waarschijnlijk TWEE aparte fotomomenten geweest, niet één — een
+informele foto (mogelijk deze met Bholanath) bij de Calcutta/Bhowanipur-straatontmoeting, en een
+formele, meervoudige, expliciet-bevestigde poseersessie in de Ranchi-tuin.
+
+## Verificatiestatus per vereist onderscheid (TASK.md-punt 9)
+
+| aspect | Calcutta/Bhowanipur | Ranchi-tuin |
+|---|---|---|
+| `PHOTO_EVENT_VERIFIED` | JA (ontmoeting), fotografie zelf NIET bevestigd in AOAY | JA, expliciet ("many photographs") |
+| `PHOTO_IDENTITY_VERIFIED` (de Bholanath-foto) | AANNEMELIJK, niet bewezen | ONWAARSCHIJNLIJK voor déze specifieke foto (Bholanath niet vermeld) |
+| `HISTORIC_SITE_VERIFIED` | JA op wijkniveau (Bhowanipur, Calcutta) | JA, exact (Ranchi Vidyalaya-terrein) |
+| `EXACT_ADDRESS_VERIFIED` | **NEE** — gastheer/huisadres niet gevonden | JA — Old Hazaribag Road, Ranchi (reeds bekend, `ATL-PY-005`) |
+| `CURRENT_SITE_MATCH_VERIFIED` | NEE (geen adres om te matchen) | JA — YSS-campus bestaat nog, actief |
+| `VISIT_ACCESS_VERIFIED` | N.v.t. (geen site om te bezoeken) | JA — publiek toegankelijk YSS-ashram |
+
+## Eindconclusie
+
+**Geen enkelvoudig antwoord**, conform de eis om geen snippet-only/werkhypothese-eindclaim te
+geven:
+
+- **Ranchi Yogoda Satsanga Sakha Math (Old Hazaribag Road, Ranchi, Jharkhand) = `VISITABLE_EXACT_SITE`**
+  voor de bronmatig zekerste, meervoudig bevestigde fotosessie van Yogananda met Anandamayi Ma
+  samen in een tuin. Dit terrein bestaat nog, is publiek toegankelijk, en het exacte adres is al
+  vastgelegd in de Top-11-persoonsweep. Dit is op dit moment het sterkste, daadwerkelijk
+  bezoekbare doel voor Mark.
+- **Bhowanipur, Calcutta (Kolkata) = `HISTORIC_SITE_NOT_IDENTIFIED` op adresniveau**, maar wel op
+  wijkniveau geverifieerd. Dit is waarschijnlijk de plek van de bekende Bholanath-foto, maar het
+  exacte huis/gastheer is met de tot nu toe geraadpleegde bronnen niet te achterhalen. Bhowanipur
+  is een dichtbevolkte, sterk herontwikkelde Calcutta-wijk; zonder een exact adres is er geen
+  concreet, huidig bezoekpunt aan te wijzen.
+
+## Onzekerheden en wat verder onderzoek zou vereisen
+
+- Gurupriya Devi's ("Didi") dagboek *Mother As Revealed To Me* (Bhaiji/Gurupriya, officiële
+  Engelse editie beschikbaar als PDF bij anandamayi.org) is de meest gedetailleerde tijdgenoot-
+  bron over Anandamayi Ma's dagelijkse gangen in deze periode en zou mogelijk het exacte
+  Bhowanipur-adres/gastheer bevatten. **Poging ondernomen**: de PDF is opgehaald, maar bleek een
+  gescande/beeld-PDF zonder doorzoekbare tekstlaag — automatische tekstextractie leverde niets op.
+  `BRON_GEBLOKKEERD` (technisch: OCR nodig, niet uitgevoerd in deze ronde), niet `
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1096 path=runs/active/YOGANANDA-ANANDAMAYI-PHOTO-LOCATION-001/RESULT.md blob_sha=bb15dabdf940b93d0a48d50d95594cd942db8279 original_offset=8192 original_length=920 payload_bytes=920 chunk_index=2 chunk_count=3 classification=text
+NIET_GEVONDEN`.
+  Dit blijft een concrete, uitvoerbare vervolgstap (handmatige OCR of bladzijde-voor-bladzijde
+  visuele inspectie), geen doodlopende weg.
+- De fysieke foto zelf (anandamayi.org/photos/118.jpg) kon niet visueel worden geïnspecteerd
+  (directe afbeeldingsfetch gaf 404; alleen de HTML-pagina met bijschrift was bereikbaar) — een
+  visuele check op tuin- versus straatdecor zou de Calcutta/Ranchi-toewijzing verder kunnen
+  bevestigen of juist weerleggen.
+- Geen enkele bron noemt een exacte tuinbeschrijving voor Ranchi buiten "the garden" — een
+  specifiek deel van het huidige Ranchi-terrein (bijv. welke hoek/gebouw) is niet vastgesteld.
+
+## Wat dit NIET is
+
+Geen A/B/C namens Mark. Geen permanente locatie-ID (Ranchi heeft al `ATL-PY-005` als tijdelijke
+Top-11-ID, niet gewijzigd). Geen PDF. Geen route.
+
+---
+Geschreven door: CCI. Primaire bron rechtstreeks geopend, geen snippet-only eindclaim.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1097 path=india4/protocols/INDIA5_REGION_START_PROTOCOL.md blob_sha=bbdae28e9b9e837519e924bed961c679d31d288b original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+# INDIA5_REGION_START_PROTOCOL — hoe elke nieuwe regio begint
+
+Status: CANONIEK vanaf 2026-08-03 (INDIA2-besluit, PR #23). Dit is het definitieve startprotocol
+waarmee IEDERE volgende regiosweep identiek begint. Dit document beschrijft uitsluitend de
+VOLGORDE en de VERANTWOORDELIJKHEDEN per stap — het bevat geen regio-specifieke voorbeelden, geen
+nieuwe detectoren en geen nieuwe locaties. Voor de volledige inhoudelijke detaillering van elke
+stap gelden de reeds bestaande canonieke bronnen, hieronder per stap aangehaald:
+`india4/protocols/INDIA5-PROTOCOL.md`, `india4/roles/PRE-BRONS.md`, `india4/roles/BRONS.md`,
+`india4/roles/ZILVER.md`, `india4/roles/GOUD.md`, `india4/protocols/NOT_TO_BE_MISSED_FRAMEWORK.md`.
+Dit document vervangt die bronnen niet — het legt uitsluitend de vaste volgorde en de
+beslissingsbevoegdheid per stap vast, op één plek.
+
+## Leidend principe (staat boven alle negen stappen, INDIA2-besluit 2026-08-03)
+
+Elke stap hieronder is ondergeschikt aan één hoofdvraag, die boven elke detector en boven
+categorievolledigheid staat:
+
+> "Van welke locaties zou Mark later waarschijnlijk zeggen: 'Als ik had geweten dat deze hier
+> lag, had ik hem absoluut niet willen missen.'"
+
+NIET "welke locaties bestaan hier?" en NIET "welke religieuze tradities ontbreken?". Voluit
+uitgewerkt in `india4/protocols/NOT_TO_BE_MISSED_FRAMEWORK.md`, sectie "De hoofdvraag" — kernpunten:
+detectoren zijn hulpmiddelen, nooit het doel; categorievolledigheid is nooit op zichzelf een
+reden om een kandidaat op te nemen; een complete traditie mag volledig ontbreken zonder
+aantoonbare meerwaarde voor Mark; een sweep mag eindigen met NUL nieuwe kandidaten — dat is een
+volledig geldig resultaat; een nieuwe kandidaat moet zichzelf verdienen; de vaste volgorde is
+BESTAAT → BETEKENIS → ERVAARBAAR → NOT_TO_BE_MISSED → pas daarna kandidaat.
+
+## De negen stappen (vast, nooit overslaan of omdraaien)
+
+```
+1. PRE-BRONS
+2. Discovery
+3. NOT_TO_BE_MISSED-poort
+4. Kandidaatstatus
+5. Permanente nummering
+6. BRONS
+7. ZILVER
+8. GOUD
+9. TRAVEL
+```
+
+Elke stap heeft precies één van drie beslissingsmodi: CCI autonoom, INDIA2 (architectuur/
+canonieke wijziging), of Mark (persoonlijke/inhoudelijke keuze). Een stap mag nooit doorschuiven
+naar de volgende zonder dat zijn eigen stopcriterium is gehaald.
+
+---
+
+## 1. PRE-BRONS
+
+**Doel**: bewijzen dat de inhoudelijke werkelijkheid van het gebied voldoende is afgedekt vóórdat
+er één kandidaatnaam wordt overgedragen. Geen vooraf vastgesteld aantal kandidaten — het aantal is
+een uitkomst van deze en de volgende stap, nooit een invoer.
+
+**Invoer**: expliciete gebiedsdefinitie (grens, straal of functionele corridor); Marks bekende
+interesses, A-criteria en ankers zoals die al vastliggen in de canonieke bronnen (nooit verzonnen
+of aangenomen); de ACTIVE detectoren uit `india4/registries/DETECTOR_LIBRARY.jsonl`, gefilterd op
+plausibele toepasbaarheid; eerdere PRE-BRONS-brieven en rungeschiedenis van vergelijkbare gebieden
+indien aanwezig.
+
+**Uitvoer**: vier bestanden onder `runs/active/<run_id>/PRE_BRONS/` —
+`REGION_CONTENT_BRIEF.md` + `.json`, `PRE_BRONS_DETECTORS.jsonl`, `SOURCE_FAMILY_PLAN.jsonl` — plus
+een verplicht, expliciet beantwoorde vraag: "welke dramatisch te missen A-locatie zou dit plan nog
+kunnen missen?".
+
+**Stopcriteria**: de brief is intern consistent — alle verplichte velden ingevuld, geen
+tegenstrijdige detectoren, elke geplande bronfamilie heeft minstens één detector. Pas dan mag stap
+2 beginnen.
+
+**Wanneer Mark beslist**: alleen bij een structureel gat in de bronnen dat een beleidskeuze
+vereist, of wanneer een detector zijn persoonlijke interesseprofiel of A-definitie inhoudelijk zou
+veranderen. Niet bij de normale opbouw van de brief zelf.
+
+**Wanneer INDIA2 beslist**: promotie, aanscherping, samenvoeging of afwijzing van een PROVISIONAL
+detector gebeurt altijd NA de run, nooit tijdens; elke canonieke wijziging aan de
+detectorbibliotheek zelf (fuseren, ACTIVE maken, hernoemen, RETIRED zetten, parent-child-structuur)
+is uitsluitend aan INDIA2.
+
+**Wanneer CCI autonoom mag do
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1098 path=india4/protocols/INDIA5_REGION_START_PROTOCOL.md blob_sha=bbdae28e9b9e837519e924bed961c679d31d288b original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+orgaan**: het opbouwen van de volledige brief, het toepassen van
+ACTIVE detectoren, het tijdelijk introduceren van nieuwe PROVISIONAL detectoren binnen deze run
+(nooit canoniek ACTIVE), en het plannen van de te doorzoeken bronfamilies — zonder tussentijdse
+goedkeuring.
+
+---
+
+## 2. Discovery
+
+**Doel**: gevonden plekken opsporen via de in stap 1 toegepaste detectoren, tot detector- en
+bronverzadiging. Het aantal gevonden plekken is een uitkomst van het onderzoek, nooit een vooraf
+ingesteld getal, minimum of maximum.
+
+**Invoer**: de PRE-BRONS-brief, `PRE_BRONS_DETECTORS.jsonl` en `SOURCE_FAMILY_PLAN.jsonl` uit stap
+1.
+
+**Uitvoer**: een lijst gevonden plekken (nog GEEN kandidaatstatus), elk met een eerste
+WHY_THIS_ONE/WHY_NOT_THE_OTHERS-aanzet; per-detector en sweepniveau saturatiestatus
+(`DISCOVERY_SATURATED` / `NOT_YET_SATURATED`); negatieve zoekresultaten en eventuele
+OUT_OF_SCOPE_HIGH_VALUE_LEADS expliciet gedocumenteerd, niet stilzwijgend genegeerd.
+
+**Stopcriteria**: de verzadigingsdrempel uit `india4/protocols/INDIA5-PROTOCOL.md` — per detector
+minimaal twee wezenlijk verschillende zoekbenaderingen én minimaal twee relevante bronfamilies,
+gevolgd door drie opeenvolgende materieel verschillende richtingen zonder nieuwe high-value lead.
+Op sweepniveau: alle detectoren hebben een afsluitstatus, alle bronfamilies zijn uitgevoerd of
+expliciet ONBESCHIKBAAR, en geen open lead kan redelijkerwijs een dramatisch te missen A-locatie
+zijn.
+
+**Onderzoeksstraal, geen harde afkapgrens** (INDIA2-besluit 2026-08-03): de in stap 1 vastgestelde
+straal (bijvoorbeeld 20 km) is een onderzoeksgebied, geen harde grens. Het volledige gebied
+binnen die straal moet aantoonbaar onderzocht zijn. Het gebied tot 50% daarbuiten (bijvoorbeeld
+20-30 km) mag uitsluitend signalerend worden bekeken, en uitsluitend op uitzonderlijke "zou zonde
+zijn geweest"-locaties die de hoofdvraag zelf zouden doorstaan. Nog verder daarbuiten wordt alleen
+op Marks expliciete verzoek onderzocht. Een vondst buiten de kernstraal krijgt nooit automatisch
+kandidaatstatus — hij doorloopt dezelfde stappen 3-5 als elke andere vondst, en wordt bij twijfel
+gerapporteerd als `OUT_OF_SCOPE_HIGH_VALUE_LEAD` in plaats van stilzwijgend genegeerd of
+stilzwijgend opgenomen.
+
+**Wanneer Mark beslist**: nooit tijdens Discovery zelf — dit is zuiver onderzoekswerk zonder
+inhoudelijke keuzemomenten voor Mark.
+
+**Wanneer INDIA2 beslist**: bij een structurele blocker (bijvoorbeeld een hele bronfamilie
+onbeschikbaar) of wanneer een gevonden patroon plausibel een nieuwe canonieke detector
+rechtvaardigt — de canonisering zelf gebeurt pas na de run (zie stap 1).
+
+**Wanneer CCI autonoom mag doorgaan**: de volledige zoekcyclus per detector, zonder tussentijdse
+rapportage per gevonden plek, tot de sweepniveau-stopcriteria zijn gehaald.
+
+---
+
+## 3. NOT_TO_BE_MISSED-poort
+
+**Doel**: elke gevonden plek uit stap 2 toetsen VOORDAT ze kandidaatstatus of een permanent nummer
+krijgt. Voorkomt dat categorievolledigheid, bekendheid of routegemak op zichzelf tot
+kandidaatstatus leidt — zie `india4/protocols/NOT_TO_BE_MISSED_FRAMEWORK.md` voor de volledige,
+canonieke toets.
+
+**Invoer**: elke gevonden plek uit stap 2, getoetst tegen Marks vastgelegde selectiecanon
+(de vaste bronnen die zijn interesses, prioriteiten en beoordelingsmethode beschrijven).
+
+**Uitvoer**: per plek exact één uitkomst — PASS, WATCHLIST of FAIL — met onderbouwing volgens de
+definitieve kandidaatpoort (spijt-vraag, sterkte-toets, krachtveld-toets, levend-of-monumentaal-
+signaal, bezoekbaarheidspoort). Aan het einde van de run: één compacte WATCHLIST voor INDIA2/Mark.
+
+**Stopcriteria**: elke gevonden plek uit stap 2 heeft een uitkomst; geen enkele plek blijft
+onbeoordeeld of wordt stilzwijgend overgeslagen.
+
+**Wanneer Mark beslist**: niet tijdens de toets zelf (geen tussentijdse vraag per plek) — hij ziet
+na afloop uitsluitend de compacte WATCHLIST en beslist zelf of, en wanneer, een WATCHLIST-plek
+verder onderzocht moet worden.
+
+**Wanneer INDIA2 beslist**: canonieke aanpassingen aan het framework/de poort zelf (de zes
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1099 path=india4/protocols/INDIA5_REGION_START_PROTOCOL.md blob_sha=bbdae28e9b9e837519e924bed961c679d31d288b original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+
+sterktegronden, de definitieve kandidaatpoort-criteria) — niet de individuele PASS/WATCHLIST/FAIL-
+uitkomst per plek.
+
+**Wanneer CCI autonoom mag doorgaan**: het toepassen van de toets en het bepalen van PASS/
+WATCHLIST/FAIL per plek, met brononderbouwing, zonder tussentijdse vraag per locatie.
+
+---
+
+## 4. Kandidaatstatus
+
+**Doel**: een PASS-plek wordt formeel kandidaat — vanaf hier bestaat de plek als record in de
+regionale kandidatendataset.
+
+**Invoer**: uitsluitend de PASS-uitkomsten uit stap 3. WATCHLIST en FAIL krijgen geen record.
+
+**Uitvoer**: een kandidaatrecord met status `PROVISIONAL`, `protected_mark_status:
+DOOR_MARK_TE_BEOORDELEN`, en de verplichte velden `WHY_THIS_ONE`, `WHY_NOT_THE_OTHERS`,
+`MEANING_EVIDENCE`, `LIVING_OR_MONUMENTAL`, `MARK_RELEVANCE_LINK` (zie
+`india4/templates/BATCH_OUTPUT.md`).
+
+**Stopcriteria**: elke PASS-plek heeft een volledig, verplicht-veld-compleet record.
+
+**Wanneer Mark beslist**: niet op dit punt zelf — A/B/C volgt pas na stap 8 (GOUD). Dit is wel het
+moment waarop een plek voor het eerst zichtbaar wordt als iets waarover hij later zal beslissen.
+
+**Wanneer INDIA2 beslist**: niet van toepassing, tenzij een structurele twijfel bestaat over de
+poort-uitkomst zelf uit stap 3 (dan terug naar stap 3, niet hier oplossen).
+
+**Wanneer CCI autonoom mag doorgaan**: het aanmaken van het kandidaatrecord zelf, zodra een PASS
+vaststaat.
+
+---
+
+## 5. Permanente nummering
+
+**Doel**: elke kandidaat krijgt een vast, permanent nummer dat nooit wijzigt en nooit wordt
+hergebruikt (Immutable Location Numbering, zie `india4/protocols/INDIA5-PROTOCOL.md`).
+
+**Invoer**: het nieuwe kandidaatrecord uit stap 4 + de bestaande `NUMBERING_REGISTRY.jsonl` van de
+regio.
+
+**Uitvoer**: een nieuwe, append-only regel in `NUMBERING_REGISTRY.jsonl` met `candidate_id`,
+`display_id`, `canonical_name`, `region`, `assigned_at`. Vanaf hier beginnen kandidaatnaam, KML- en
+PDF-vermeldingen met dit nummer.
+
+**Stopcriteria**: de nummeringsvalidator slaagt — geen dubbel of gewijzigd nummer, geen naam zonder
+nummer-prefix.
+
+**Wanneer Mark beslist**: nooit — nummering is een mechanische, niet-inhoudelijke stap.
+
+**Wanneer INDIA2 beslist**: alleen bij het vooraf reserveren van een nieuwe regionale
+nummerreeks; nooit bij een individuele toekenning.
+
+**Wanneer CCI autonoom mag doorgaan**: de volledige toekenning, mits de validator slaagt.
+
+Kernregel, herbevestigd na de 041-045-episode: nummering vindt uitsluitend plaats NÁ een PASS
+door stap 3. Er wordt nooit meer eerst genummerd en pas achteraf getoetst.
+
+---
+
+## 6. BRONS
+
+**Doel**: GEO-verificatie — elke kandidaat krijgt een gecontroleerd Google Maps-coördinaat, of een
+expliciete `GOOGLE_MAPS_MARKER_NOT_CONFIRMED`-status met reden.
+
+**Invoer**: de genummerde kandidatenlijst uit stap 5, verwerkt in vaste batches van 15-25
+kandidaten.
+
+**Uitvoer**: één JSONL-batchbestand per batch, met per kandidaat een status
+(`CONFIRMED`/`NEEDS_REVIEW`/`GEEN_BRON`/`AMBIGUE_PIN`). Nooit een geschat, afgeleid of
+"dichtstbijzijnde" coördinaat als vervanging.
+
+**Stopcriteria**: elke kandidaat in de batch heeft een status; de batch is volledig, met readback,
+en gecommit.
+
+**Wanneer Mark beslist**: nooit tijdens BRONS — geen A/B/C-wijziging, geen beschermd besluit
+aangeraakt.
+
+**Wanneer INDIA2 beslist**: niet binnen een enkele batch; wel bij een structurele GEO-blocker die
+de hele regio raakt.
+
+**Wanneer CCI autonoom mag doorgaan**: alle batches ná elkaar, in dezelfde sessie/keten, zonder
+tussentijdse Mark-opdracht (de autonome regio-doorloop uit
+`india4/protocols/INDIA5-PROTOCOL.md`).
+
+---
+
+## 7. ZILVER
+
+**Doel**: onafhankelijke controle van elk BRONS-record — juiste marker, juiste fysieke plek,
+eerlijk gemarkeerde onzekerheid.
+
+**Invoer**: de BRONS-batchbestanden uit stap 6.
+
+**Uitvoer**: een gevalideerd/gecorrigeerd JSONL-batchbestand per batch; her-zoekt uitsluitend
+wanneer een kandidaat's status ongelijk is aan `CONFIRMED`.
+
+**Stopcriteria**: elke kandidaat in de batch is gecontroleerd, correcties zijn traceerbaar
+vastgelegd, en de batch is gecommit. Geen A/B/C toegekend, gee
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1100 path=india4/protocols/INDIA5_REGION_START_PROTOCOL.md blob_sha=bbdae28e9b9e837519e924bed961c679d31d288b original_offset=12288 original_length=3703 payload_bytes=3703 chunk_index=3 chunk_count=4 classification=text
+n beschermd Mark-besluit gewijzigd.
+
+**Wanneer Mark beslist**: nooit tijdens ZILVER.
+
+**Wanneer INDIA2 beslist**: niet binnen een enkele batch.
+
+**Wanneer CCI autonoom mag doorgaan**: start automatisch zodra een BRONS-batch is afgerond, zonder
+tussenkomst, batch na batch tot de hele regio gevalideerd is.
+
+---
+
+## 8. GOUD
+
+**Doel**: één regionaal eindpakket bouwen voor Mark — reisgids-PDF, KML, GEO-audit/
+correctierapport en beslisoverzicht.
+
+**Invoer**: alle afgeronde BRONS- en ZILVER-batches van de volledige regio; start pas nadat de
+VOLLEDIGE regio is gevalideerd, niet na elke kleine batch.
+
+**Uitvoer**: één regionale KML, één reisgids-PDF (format:
+`india4/templates/GOUD_PDF_TEMPLATE.md`), één GEO-audit, één correctierapport, één
+COMPLETION-record. De PDF wordt na deze eerste build niet automatisch herbouwd bij latere kleine
+wijzigingen — alleen op Marks expliciete verzoek.
+
+**Stopcriteria**: alle kandidaten van de regio exact eenmaal aanwezig; elk KML-punt komt overeen
+met het definitieve auditrecord; de nummerings- en brondatavalidators slagen.
+
+**Wanneer Mark beslist**: dit is het moment waarop Mark de PDF, KML en het beslisoverzicht
+ontvangt en zijn A/B/C-keuzeronde start — de eerste keer dat hij weer actief betrokken wordt na de
+oorspronkelijke startopdracht voor de regio.
+
+**Wanneer INDIA2 beslist**: niet tijdens de GOUD-build zelf.
+
+**Wanneer CCI autonoom mag doorgaan**: de volledige integratie, zonder tussentijdse Mark-actie, tot
+aan de eindoplevering.
+
+---
+
+## 9. TRAVEL
+
+**Doel**: van Marks definitieve A/B-keuzes een concrete bezoekstructuur maken —
+CLUSTER_ANCHOR → locaties → afstand tot dichtstbijzijnde A's → dagindelingen (het bestaande
+routefilosofie-model).
+
+**Invoer**: Marks definitieve A/B/C-besluiten uit stap 8; het vastgelegde accommodatiebesluit
+(`ACCOMMODATION_REGISTER.jsonl`); de geografische clusterindeling uit GOUD.
+
+**Uitvoer**: een routeklaar-overzicht (logisch bereikbare A-kandidaten per cluster, gemeten vanaf
+de accommodatiebasis); op expliciet verzoek daarna een volledige dagroute-/planningberekening.
+
+**Stopcriteria**: elke A-kandidaat is in een cluster of dagindeling geplaatst, of expliciet als
+"nog niet ingedeeld" gemarkeerd — nooit stilzwijgend weggelaten.
+
+**Wanneer Mark beslist**: hij start deze stap altijd zelf, expliciet — dit is nooit een automatisch
+vervolg op GOUD. Hij beslist ook over de uiteindelijke volgorde/indeling van dagen.
+
+**Wanneer INDIA2 beslist**: niet van toepassing.
+
+**Wanneer CCI autonoom mag doorgaan**: het opstellen van het routeklaar-overzicht zelf zodra
+gevraagd; niet de volledige dagroutebouw zonder Marks expliciete verzoek (bestaande regel, zie
+"Accommodatiebesluiten" in `india4/protocols/INDIA5-PROTOCOL.md`).
+
+---
+
+## Samenvattend principe
+
+Drie beslissingsmodi, nooit vermengd:
+- **CCI autonoom**: het overgrote deel van elke stap — onderzoek, toetsing, verificatie, bouw —
+  zonder tussentijdse goedkeuring, zolang de stopcriteria van die stap worden gerespecteerd.
+- **INDIA2**: canonieke architectuurbeslissingen — detectorbibliotheek, framework-aanpassingen,
+  nummerreeks-reserveringen, structurele blockers over een hele regio.
+- **Mark**: persoonlijke, inhoudelijke keuzes — A/B/C, accommodatie, dagindeling, en elke
+  wijziging aan zijn eigen selectiecanon (PROJECT.md/PRIORITY_GROUPS.md/METHODOLOGY.md).
+
+Een stap mag nooit worden overgeslagen, omgedraaid of vervroegd afgesloten om tijd of tokens te
+besparen — elk stopcriterium hierboven is hard.
+
+---
+Geschreven door: CCI, op verzoek van INDIA2 (PR #23).
+Datum: 2026-08-03.
+Status: CANONIEK. Geen nieuwe detectoren, geen nieuwe locaties, geen regio-specifieke inhoud in
+dit document zelf.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1101 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/MARK_DECISION_SLICE_VRINDAVAN_BRAJ_V1.md blob_sha=bddef974eb18332bf6c20b2868b2b98fbe74fe1d original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# MARK DECISION SLICE — VRINDAVAN / BRAJ — V1
+
+State: MARK_READY_FOR_REVIEW
+Source: full 700-row ALL_FINDINGS_LOCATION_MASTER after CCI completeness closure
+Purpose: human-readable A/B/C review; no choices pre-filled by INDIA8.
+
+## Hoe lezen
+Elke regel hieronder is een echte bronclaim of fysieke micro-site die in/om Vrindavan-Braj voor de reis relevant kan zijn. Parent-complexen en kamers/terrassen/ghats zijn bewust niet stil samengevoegd. R4/R5 blijven zichtbaar maar krijgen nog geen verplicht A/B/C als de fysieke plek niet redelijk bezoekbaar is.
+
+## AOAY / PARAMAHANSA YOGANANDA — HOOGSTE PRIORITEIT
+
+1. Vrindavan railway station — AOAY ch11. Yogananda en Jitendra arriveren hier tijdens de 'two penniless boys'-proef. Historisch station/successor is fysiek aanwijsbaar. R2. MARK: __
+2. Madan Mohan Temple — AOAY ch11. Expliciet door Yogananda bezocht tijdens de Krishna-tempelronde. Exact bestaand tempelcomplex. R1. MARK: __
+3. Kriya-initiatiespot nabij Vrindavan station — AOAY ch11. Yogananda initieert Pratap op een afgezonderde plek bij het station. Gebeurtenis is sterk; exact punt is niet terug te vinden. R5. Geen fysieke keuze afdwingen; bewaren als AOAY-scène.
+4. Keshabananda hermitage / Katyayani Peeth-zone — AOAY ch42. Yogananda verblijft hier en spreekt met Swami Keshabananda; historische naam is sterk, exacte continuïteit van het huidige gebouw nog niet bewezen. R4. MARK pas als huidige bezoekplek voldoende verdedigbaar is.
+
+## MAHAVATAR BABAJI / KRIYA-LIJN
+
+5. Samb Sadashiv Kunj, Vrindavan — Babaji-claim uit IndiaROOD freeze. Huidige fysieke site, beperkte publieke uren. R1. Claimant-traditie blijft expliciet; niet als historisch bewezen Babaji-feit presenteren. MARK: __
+
+## NEEM KAROLI BABA + RAM DASS
+
+6. Neem Karoli Baba Vrindavan Ashram — parent-complex aan Parikrama Marg; sterke NKB + Ram Dass-link. Bestaande beschermde canon-link, geen nieuw parent-ID nodig. R1. MARK bestaand besluit blijft staan; review alleen indien gewenst.
+7. Maharajji office — afzonderlijke kamer/office binnen NKB Vrindavan Ashram, expliciete Ram Dass occurrence. R2. MARK: __
+8. Temple courtyard / fire-platform context — Ram Dass funeral/bhandara-detail; afzonderlijke micro-site binnen ashram. R2. MARK: __
+9. Hanuman murti sanctum — bronclaim behouden, fysieke sanctum binnen ashram maar closure nog R4 door bronaccess-beperking. MARK alleen na voldoende closure.
+10. Main gate — afzonderlijke Ram Dass micro-site; bronclaim behouden maar R4. MARK alleen indien inhoudelijk belangrijk genoeg.
+11. Hathiwale Baba hut historic footprint / huidige Gore Dauji-site — historische NKB-hut is weg; opvolger/footprint aan Parikrama Marg wel gelokaliseerd. R2. MARK: __
+12. Ramakrishna Mission Hospital, Vrindavan — onderdeel van NKB's laatste medische keten; ziekenhuisidentiteit bevestigd, exacte kamer onbekend. R1. MARK: __
+13. Mathura railway station — één belangrijke NKB-laatste-reisbron plaatst hem hier; andere chronologie laat dit uit. Fysieke plek exact, gebeurtenis conflicterend. R3. MARK: __
+14. Station steps near outdoor latrine — micro-scène uit één laatste-reisversie; exacte treden niet meer gelokaliseerd. R4. Geen harde fysieke keuze nu.
+15. Seth Anandram Jaipuria Bhawan — Ram Dass verbleef hier; huidige Vrindavan-vestiging bestaat nog en ligt bij Banke Bihari. R1. Potentiële heritage-stay/visit candidate. MARK: __
+16. Banke Bihari Temple — exact dezelfde fysieke tempel met Ram Dass én Ramakrishna-links. Sterke cross-person overlap. R1. MARK: __
+17. Yamuna excursion landscape — Ram Dass was aan de Yamuna, exacte ghat/landing onbekend. R4. Bewaren; geen geforceerde keuze.
+
+## RAMAKRISHNA
+
+18. Fouzdar Kunj — historisch lodging house in Retia Bazar, door officiële Ramakrishna Mission-bron gelokaliseerd. R1. MARK: __
+19. Upper room used by Ramakrishna — expliciet geïdentificeerde kamer binnen Fouzdar Kunj. R2. Sterke micro-site. MARK: __
+20. Semicircular veranda, Fouzdar Kunj — expliciet beschreven fysieke veranda. R2. MARK: __
+21. Nidhivan grove — afzonderlijke heilige plek die Ramakrishn
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1102 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/MARK_DECISION_SLICE_VRINDAVAN_BRAJ_V1.md blob_sha=bddef974eb18332bf6c20b2868b2b98fbe74fe1d original_offset=4096 original_length=2088 payload_bytes=2088 chunk_index=1 chunk_count=2 classification=text
+a bezocht; exact bestaand gebied. R1. MARK: __
+22. Historic Ganga Mata kutiya footprint — officiële RKM-lokalisatie van de historische hut nabij Nidhivan/Radha Raman; hut zelf vervangen. R2. MARK: __
+23. Kanpurwali Dharam Shala / Batala Ashrama successor property — huidige opvolger op het historische hut-terrein; Ramakrishna bezocht niet het latere gebouw. R2 successor. MARK: __
+
+## ANANDAMAYI MA — TRAVEL-CORE, NIET EXHAUSTIEF
+
+24. Burdwan/Vardhaman Kunj — Anandamayi Ma verbleef hier in 1936; huidige lineage-reference bestaat, privétoegang mogelijk. R2. Alleen relevant als dit één van de paar sterke Ma-sites wordt. MARK: __
+25. Anandamayi Ashram Vrindavan — huidige exacte instelling, publiek toegankelijk; overnachting/contact mogelijk. R1. Alleen beoordelen als Anandamayi in Vrindavan één van de geselecteerde kernplekken moet worden. MARK: __
+
+## BELANGRIJKE OVERLAP / BESLISIMPACT
+- Banke Bihari Temple: Ram Dass + Ramakrishna op exact dezelfde fysieke site.
+- NKB Vrindavan Ashram: NKB + Ram Dass; meerdere betekenisvolle micro-sites binnen één parent-complex.
+- Fouzdar Kunj: gebouw + kamer + veranda zijn inhoudelijk verschillende bezoekpunten binnen één property.
+- Nidhivan/Ganga Mata: bestaand grove + historische hut-footprint + successor-property moeten niet als één ding worden gezien.
+- AOAY Madan Mohan Temple is voor Mark P0 omdat het een expliciete boekscène is.
+- Keshabananda is inhoudelijk zwaar voor AOAY maar nog niet exact genoeg voor een definitieve fysieke A/B/C-beslissing.
+
+## ONOPGELOST MAAR NIET VERDWENEN
+- AOAY Kriya-initiatiespot nabij station.
+- exacte historische Keshabananda-bouwcontinuïteit.
+- NKB Mathura station-steps microplek.
+- Ram Dass exacte Yamuna landing/ghat.
+- enkele ashram-sanctum/gate details met R4-bronstatus.
+
+## GEBRUIK
+Mark kan nu voor de fysiek voldoende gesloten regels hierboven A/B/C geven. R4/R5-regels blijven zichtbaar en worden niet stil weggegooid. Na Mark-review worden nieuwe fysieke entities append-only naar permanent-ID staging gestuurd en wordt de Vrindavan/Braj clusterduur berekend.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1103 path=runs/active/KUMAON-V2-RESWEEP-001/MISS_ROOT_CAUSE_RESCUE.md blob_sha=bde95d1fb16ebf9fb7523d0cb461a2c7bbafc48c original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# MISS ROOT-CAUSE + RESCUE — KUMAON-V2-RESWEEP-001
+
+```
+task_id: KUMAON-V2-RESWEEP-001
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-15
+trigger: CCI_TASK 078 (INDIA, PR #23) — QA-bevinding uit RECONCILIATION.md
+```
+
+## SAMENVATTING
+
+Twee legacy-`LOCKED_A`-locaties (Turiya Niwas #36, Bodh Ashram #37) werden door zowel CCI Sweep A
+als INDIA Sweep B gemist. Root cause voor beide geïdentificeerd en bevestigd via herverificatie.
+Gerichte rescue-audit op alle 16 Kumaon-`LOCKED_A`-locaties uitgevoerd: **2 aanvullende, lagere-
+ernst misses gevonden** (Babaji Smriti Bhavan, Crank's Ridge) — geen andere hoge-ernst misses.
+Beide bevestigde misses opnieuw geverifieerd, geen identiteitsconflict met het bestaande
+Mark-A-besluit. Permanente nummers 080/081 toegekend. Protocol minimaal gepatcht
+(`governance/SWEEP_PROTOCOL.md`, poort E.1, twee gerichte toevoegingen).
+
+## RESCUE-AUDIT — ALLE 16 KUMAON-LOCKED_A-LOCATIES
+
+| # | Legacy-locatie | Sweep A (CCI) | Sweep B (INDIA) | Ernst |
+|---|---|---|---|---|
+| 15 | Babaji Cave | ✅ KUM-SWEEP-A-001 | ✅ KB2-001 | — (nu 079) |
+| 16 | Babaji Smriti Bhavan | ❌ | ❌ | LAAG — sub-schrijn binnen de wél gevonden grotcluster (079); geen los zoekgat |
+| 17 | Dunagiri Tempel | ❌ | ✅ KB2-044 | — |
+| 18 | YSS Dwarahat Ashram | ❌ | ✅ KB2-004 | — |
+| 19 | Kainchi Dham | ✅ KUM-SWEEP-A-002 | ✅ KB2-008 | — |
+| 20 | Kasar Devi | ✅ KUM-SWEEP-A-003 | ✅ KB2-033 | — |
+| 21 | Crank's Ridge | ❌ | ❌ | LAAG — dit is de heuvelrug/het gebied waarin Kasar Devi (wél gevonden) ligt, geen los puntobject |
+| 22 | Kakrighat | ❌ | ✅ KB2-022 | — |
+| 23 | Jageshwar | ✅ KUM-SWEEP-A-007 | ✅ KB2-043 | — |
+| 24 | Hanuman Garhi | ❌ | ✅ KB2-010 | — |
+| 29 | Ramakrishna Kutir | gedetecteerd, bewust OUT_OF_SCOPE gehouden | ✅ KB2-025 | — (bewuste keuze Sweep A, geen miss) |
+| 30 | Chitai Golu Devta | ❌ | ✅ KB2-045 | — |
+| 36 | **Turiya Niwas** | ❌ | ❌ | **HOOG — zie root cause** |
+| 37 | **Bodh Ashram** | ❌ | ❌ | **HOOG — zie root cause, dubbele Top-11-link** |
+| 46 | Haidakhan Vishwa Mahadham | ✅ KUM-SWEEP-A-005 | ✅ KB2-041 | — |
+| 27 | Bhumiyadhar | ❌ | ✅ KB2-009 (als "Bhumiadhar") | — |
+
+**Antwoord op de kernvraag ("precies deze twee, of meer?")**: er zijn in totaal 4 nominale misses
+(16, 21, 36, 37), maar slechts 2 daarvan (36, 37) zijn echte, hoge-ernst blinde vlekken — losse,
+zelfstandige fysieke locaties met eigen Top-11-/historische betekenis die door geen van beide
+sweeps ontdekt werden. De andere 2 (16, 21) zijn geen zelfstandige zoekgaten: ze zijn sub-
+onderdelen van een cluster (de Babaji-grot resp. Kasar Devi) dat wél gevonden werd, alleen niet
+apart benoemd. Geen actie nodig voor 16/21 buiten het al bestaande cluster-nummer; wel voor 36/37.
+
+## ROOT_CAUSE_BODH_ASHRAM
+
+**Classificatie: onvoldoende bezoek-/host-/landgoedketen (primair), bron-indexeringsprobleem
+(secundair voor Sweep B).**
+
+Herverificatie (WebSearch, 2026-08-15) bevestigt de legacy-claim volledig: Bodh Ashram was
+oorspronkelijk het landgoed van W.Y. Evans-Wentz (Tibetaans-boeddhistisch geleerde), later
+bewoond door Lama Anagarika Govinda en zijn vrouw Li Gotami, op Crank's Ridge nabij de Kasar
+Devi-tempel. **Zowel Anandamayi Ma als Neem Karoli Baba bezochten Lama Govinda hier** — een
+directe, dubbele Top-11-fysieke-link, exact zoals legacy meldde.
+
+**Waarom Sweep A (CCI) het miste**: mijn zoekstrategie voor Anandamayi Ma en Neem Karoli Baba
+zocht naar hun EIGEN ashrams/instellingen (Patal Devi, Dhaulchina, Kainchi Dham) — niet naar
+plekken waar zij als GAST bij een derde (niet-Top-11) persoon verbleven. Lama Govinda en
+Evans-Wentz kwamen in geen van mijn zoektermen voor omdat mijn detectorlogica uitsluitend
+vanuit de Top-11-namen zelf zocht, niet vanuit regionaal bekende landgoederen/gastheren.
+
+**Waarom Sweep B (INDIA) het miste**: ondanks een aanzienlijk dichter Anandamayi Ma-cluster (7
+locaties, waaronder Mirtola — een vergelijkbare "bezoek bij een ander"-locatie die wél gevonden
+werd) miste ook Sweep B Bodh Ashram specifiek. Waarschijnlijke oorzaak
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1104 path=runs/active/KUMAON-V2-RESWEEP-001/MISS_ROOT_CAUSE_RESCUE.md blob_sha=bde95d1fb16ebf9fb7523d0cb461a2c7bbafc48c original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+: sterke afhankelijkheid
+van anandamayi.org als hoofdbron, dat een kort, niet per se compleet bezoekoverzicht geeft;
+Lama Govinda/Evans-Wentz-materiaal leeft vooral in Tibet-boeddhisme-/Beat-generation-historische
+bronnen (bijv. Crank's Ridge-geschiedenisartikelen), een andere bronfamilie dan Sweep B primair
+raadpleegde voor deze naam. Dit is dus een MENGVORM: bron-indexeringsprobleem gecombineerd met
+dezelfde onderliggende te-nauwe-persoonsdetector-oorzaak als bij Sweep A.
+
+**Identiteit vs. gebeurtenisbewijs, apart**: `gebeurtenis_geverifieerd` (Anandamayi Ma + Neem
+Karoli Baba bezochten Lama Govinda op dit landgoed): JA, dubbel bronmatig bevestigd (Wikipedia
+Crank's Ridge-artikel + onafhankelijke Kasar Devi-geschiedenisbron). `exacte_fysieke_locatie_
+geverifieerd`: JA voor de algemene ligging (Crank's Ridge, bij Kasar Devi-tempel, huidig een
+boeddhistisch centrum aangesloten bij de Drikung Kagyu-orde); geen exact GPS-punt geverifieerd.
+
+## ROOT_CAUSE_TURIYA
+
+**Classificatie: protocolgat + te veel focus op huidige/officiële ashrams/tempels.**
+
+Turiya Niwas heeft GEEN Top-11-link (Alfred "Sunyata" Sorensen is geen Top-11-figuur) — zijn
+A-status komt uitsluitend uit zelfstandige, laag-3-achtige historische/culturele zwaarte
+(kluizenaarswoning, kern van de Crank's Ridge-spirituele-zoekersgeschiedenis) plus zijn rol als
+cluster-anchor. Omdat geen van beide sweeps' laag-3-zoekstrategie verder ging dan formele
+tempels/complexen (Jageshwar, Patal Bhuvaneshwar, Haidakhan), viel een informeel, niet-
+institutioneel woonhuis buiten beide zoekvensters — niet toevallig, maar een structureel gat in
+hoe laag-3 werd geïnterpreteerd.
+
+Legacy-identiteit (reeds grondig gedocumenteerd, `CLUSTER_ANCHORS.md`, onderzoek 9 juli 2026, host-
+bevestigd via Facebook/WhatsApp) blijft ongewijzigd en wordt hier niet opnieuw bevraagd — geen
+nieuw tegenbewijs gevonden, geen identiteitsconflict.
+
+## PROTOCOL_PATCH: JA
+
+Twee gerichte, minimale toevoegingen aan `governance/SWEEP_PROTOCOL.md` poort E.1 (geen
+overarchitectuur, geen nieuwe poort):
+
+1. **Laag 2 (Top-11)**: expliciete eis om ook host-/gastheer-/landgoedketens mee te zoeken —
+   niet alleen de eigen instellingen van een Top-11-naam, ook waar die persoon als gast verbleef.
+2. **Laag 3**: expliciete bevestiging dat informele, niet-institutionele historische
+   verblijfplaatsen (woonhuis/kluizenaarsverblijf van een regionaal bekende niet-Top-11-figuur)
+   evengoed MARK_WAARDIG kunnen zijn — "geen tempel/complex" is geen reden om over te slaan.
+
+Beide toevoegingen citeren dit incident als precedent, conform de bestaande stijl van het
+protocol (zie eerdere berichtverwijzingen bij poort E/N).
+
+## RESCUE — PERMANENTE TOEKENNING
+
+Beide locaties opnieuw geverifieerd, geen Mark-conflict (bestaand Mark-A-besluit blijft
+onaangetast, alleen bevestigd), dus zelfde bar gehaald als de Babaji-grot (079):
+
+- **080 — Turiya Niwas** (Crank's Ridge, Kasar Devi, Almora-district). A, LOCKED_BY_MARK
+  (legacy-precedent, `LOCKED_A.md` #36). Laag 3 (historische kluizenaarswoning, geen Top-11-link).
+  Bron: legacy `CLUSTER_ANCHORS.md` (host-geverifieerd 9 juli 2026); geen nieuw tegenbewijs.
+- **081 — Bodh Ashram** (voormalig landgoed Evans-Wentz/Lama Govinda, Crank's Ridge, Almora-
+  district). A, LOCKED_BY_MARK (legacy-precedent, `LOCKED_A.md` #37). Top-11 (Anandamayi Ma,
+  Neem Karoli Baba) — dubbele link, herverifieerd 2026-08-15 (Wikipedia Crank's Ridge + Kasar
+  Devi-geschiedenisbronnen). Coördinaten nog open, zelfde status als 079/080.
+
+## NIET GEDAAN (conform opdracht)
+
+Geen PDF. Geen nieuwe Mark-vragen. Geen heropening van bestaande C-besluiten (Mirtola, Binsar,
+Patal Bhuvaneshwar, Dhaulchina blijven C — geen nieuw bewijs dat die besluiten zelf ter discussie
+stelt).
+
+## EINDANTWOORD (kort formaat)
+
+```
+ROOT_CAUSE_BODH_ASHRAM: onvoldoende host-/landgoedketen-zoeklogica (Sweep A) + bron-indexering
+  te smal (Sweep B) -- beide zochten vanuit Top-11-namen naar EIGEN instellingen, niet naar
+  landgoederen waar zij als gast verbleven
+ROOT_CAUSE_TURIYA: protocolgat -- laag-3-discovery beperkte zic
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1105 path=runs/active/KUMAON-V2-RESWEEP-001/MISS_ROOT_CAUSE_RESCUE.md blob_sha=bde95d1fb16ebf9fb7523d0cb461a2c7bbafc48c original_offset=8192 original_length=833 payload_bytes=833 chunk_index=2 chunk_count=3 classification=text
+h tot formele tempels/complexen,
+  geen Top-11-link dus niet via die route gevonden
+LEGACY_A_RESCUE: 14/16 gevonden (2 laag-ernst sub-locatiemisses (16,21) + 2 hoog-ernst misses
+  (36,37) nu gerescued -> effectief 2/2 hoge-ernst misses hersteld)
+PROTOCOL_PATCH: ja -- governance/SWEEP_PROTOCOL.md poort E.1, twee gerichte toevoegingen
+  (host-/landgoedketen bij Top-11-zoeken; informele historische verblijfplaatsen bij laag 3)
+NEXT_ACTION: coordinaten voor 079/080/081 verifieren; resterende Sweep-B-tijdelijke kandidaten
+  (Vivekananda-circuit e.a.) krijgen identity-check tegen legacy voor eigen permanente nummers
+```
+
+---
+Geschreven door: CCI. Twee permanente nummers toegekend (080, 081), beide A/LOCKED_BY_MARK op
+basis van bestaand legacy-Mark-besluit, geen nieuwe Mark-vraag. Geen PDF. `PDF_STATUS: VERBODEN`
+gerespecteerd.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1106 path=governance/INDIA8_REGIE_READINESS_AUDIT_2026-08-23.md blob_sha=bf71d0b8a8d3aaf09affe9280caee3af23eeda68 original_offset=0 original_length=3906 payload_bytes=3906 chunk_index=0 chunk_count=1 classification=text
+# INDIA8 REGIE READINESS AUDIT — 2026-08-23
+
+Status: REGIE_READY_WITH_BOUNDED_EXTERNAL_CHECKS
+Owner: INDIA8
+
+## CONCLUSIE
+INDIA8 heeft de repository opnieuw repositorybreed gereconcilieerd voor reisregie na de canon-miss van 2026-08-23. De regie mag inhoudelijk doorgaan, mits onderstaande precedence/bootregels worden gevolgd.
+
+Er is GEEN bekende verborgen autonome regietaak meer die alleen als prose-'later' is blijven liggen.
+
+## WAT NU SCHERP / GESLOTEN IS
+1. Reisdata: 18-12-2026 t/m 21-01-2027 = 34 dagen; retour Delhi.
+2. Actuele clusterstatus:
+   - Kumaon A
+   - Vrindavan/Braj/Mathura A route-sensitive
+   - Varanasi/Sarnath A
+   - Bodh Gaya/Gaya A
+   - Tiruvannamalai/Arunachala A fixed
+   - Agra A Taj-only, sunrise hard
+   - Haridwar/Kankhal/Rishikesh B/reserve
+   - Mysore/Bengaluru C
+   - Oost/Kolkata parked
+3. Bekende slaapbases/anchor-zones:
+   - Joshi Guest House locked
+   - Hotel Evelyn anchor + A
+   - Turiya Niwas provisional sleep lock + A
+   - Sahi River View Guesthouse LOCKED_BY_MARK
+   - Vrindavan proper anchor zone resolved
+   - Bodh Gaya Mahabodhi-core zone resolved
+   - Tiruvannamalai Ramana Nagar/Ramanasramam zone resolved
+   - Agra East Gate/Taj Ganj positioning zone resolved
+4. Kumaon three-base execution matrix built; old A/C canon protected.
+5. CCI Lonely Planet high-threshold gapcheck integrated: 3 additive misses only.
+6. Critical boot/no-deferral governance installed and root README made mandatory gate.
+7. Final INDIA8->INDIA9 boot handoff exists and supersedes conflicting older immediate-action sections.
+8. Hotel Evelyn comfort preference corrected: heritage authenticity > comfort; poor maintenance/heating cost does not demote it.
+
+## EXTERNE CHECKS DIE BEWUST LOPEN / KLAARSTAAN
+These are not hidden regie omissions; they are independent evidence-expansion tasks.
+
+### A. Hotel Evelyn targeted closure
+Task:
+`runs/active/INDIA8-HOTEL-EVELYN-RAMDASS-ROOM-CLOSURE-001/TASK.md`
+Goal: exact room/floor/wing/balcony/patio closure through independent source/photo investigation. Do not invent room number.
+Use a color worker, not CCI, to conserve CCI tokens.
+
+### B. Lonely Planet second opinion — two workers
+Task:
+`runs/active/INDIA8-LONELYPLANET-SECOND-OPINION-001/TASK.md`
+Worker A: micro-gems/human traveler signal.
+Worker B: nature/landscape/archaeology outliers.
+Maximum 10 additive findings each; 0 valid. Existing 80 + CCI-3 may not be duplicated.
+
+## CCI ROLE FROM HERE
+Do NOT ask CCI for another full Lonely Planet sweep now. Existing CCI high-threshold gapcheck found only 3 evident misses, proving diminishing returns.
+
+Use CCI next only when one of these occurs:
+1. second-opinion workers return materially conflicting/additive findings that need independent adjudication;
+2. route/accounting integration needs a global crosscheck;
+3. a high-impact historical identity/access conflict remains after color research.
+
+CCI is QA/reconciliation, not bulk discovery.
+
+## WAT NOG OPEN MAG BLIJVEN
+Only these categories may remain open without violating NO-DEFERRAL:
+- explicit Mark A/B/C or hotel/property choice;
+- live availability/price/booking when exact date is not fixed;
+- calendar facts requiring authoritative 2027 schedules not yet published/resolved;
+- independent worker tasks above that INDIA8 cannot execute as a separate model itself.
+
+## HARD PRESENTATION RULE
+Before presenting ANY candidate/location/hotel/cluster:
+`LATEST MARK DECISION -> LOCKED_BY_MARK/ACCOMMODATION -> CLUSTER DECISION -> SITE A/B/C -> CURRENT MASTER -> GOVERNANCE -> LEGACY PROTECTED CANON -> NEW DELTA`.
+
+If already decided, do not ask again. Present only new delta.
+
+## CURRENT IMMEDIATE REGIE DIRECTION
+Regie may continue now. It does not need to wait for the bounded workers.
+Use existing sleep bases and cluster canon to continue cluster-by-cluster travel construction and Lonely-Planet selection. Integrate worker returns additively when they arrive.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1107 path=runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/BODHGAYA_046_058_KEUZE_REISGIDS.pdf blob_sha=c03b26d7510ea3a358f010087a8b8472a3ec6b40 original_offset=0 original_length=4096 payload_bytes=5464 chunk_index=0 chunk_count=9 classification=binary
+JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUiAvRjMgNiAwIFIgL0Y0IDcgMCBSCj4+CmVuZG9iagoyIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GMSAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjMgMCBvYmoKPDwKL0Jhc2VGb250IC9IZWx2ZXRpY2EtQm9sZCAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjIgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iago0IDAgb2JqCjw8Ci9Db250ZW50cyAyNCAwIFIgL01lZGlhQm94IFsgMCAwIDU5NS4yNzU2IDg0MS44ODk4IF0gL1BhcmVudCAyMyAwIFIgL1Jlc291cmNlcyA8PAovRm9udCAxIDAgUiAvUHJvY1NldCBbIC9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXQo+PiAvUm90YXRlIDAgL1RyYW5zIDw8Cgo+PiAKICAvVHlwZSAvUGFnZQo+PgplbmRvYmoKNSAwIG9iago8PAovQ29udGVudHMgMjUgMCBSIC9NZWRpYUJveCBbIDAgMCA1OTUuMjc1NiA4NDEuODg5OCBdIC9QYXJlbnQgMjMgMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjYgMCBvYmoKPDwKL0Jhc2VGb250IC9IZWx2ZXRpY2EtQm9sZE9ibGlxdWUgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YzIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNyAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYS1PYmxpcXVlIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GNCAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjggMCBvYmoKPDwKL0NvbnRlbnRzIDI2IDAgUiAvTWVkaWFCb3ggWyAwIDAgNTk1LjI3NTYgODQxLjg4OTggXSAvUGFyZW50IDIzIDAgUiAvUmVzb3VyY2VzIDw8Ci9Gb250IDEgMCBSIC9Qcm9jU2V0IFsgL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdCj4+IC9Sb3RhdGUgMCAvVHJhbnMgPDwKCj4+IAogIC9UeXBlIC9QYWdlCj4+CmVuZG9iago5IDAgb2JqCjw8Ci9Db250ZW50cyAyNyAwIFIgL01lZGlhQm94IFsgMCAwIDU5NS4yNzU2IDg0MS44ODk4IF0gL1BhcmVudCAyMyAwIFIgL1Jlc291cmNlcyA8PAovRm9udCAxIDAgUiAvUHJvY1NldCBbIC9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXQo+PiAvUm90YXRlIDAgL1RyYW5zIDw8Cgo+PiAKICAvVHlwZSAvUGFnZQo+PgplbmRvYmoKMTAgMCBvYmoKPDwKL0NvbnRlbnRzIDI4IDAgUiAvTWVkaWFCb3ggWyAwIDAgNTk1LjI3NTYgODQxLjg4OTggXSAvUGFyZW50IDIzIDAgUiAvUmVzb3VyY2VzIDw8Ci9Gb250IDEgMCBSIC9Qcm9jU2V0IFsgL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdCj4+IC9Sb3RhdGUgMCAvVHJhbnMgPDwKCj4+IAogIC9UeXBlIC9QYWdlCj4+CmVuZG9iagoxMSAwIG9iago8PAovQ29udGVudHMgMjkgMCBSIC9NZWRpYUJveCBbIDAgMCA1OTUuMjc1NiA4NDEuODg5OCBdIC9QYXJlbnQgMjMgMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjEyIDAgb2JqCjw8Ci9Db250ZW50cyAzMCAwIFIgL01lZGlhQm94IFsgMCAwIDU5NS4yNzU2IDg0MS44ODk4IF0gL1BhcmVudCAyMyAwIFIgL1Jlc291cmNlcyA8PAovRm9udCAxIDAgUiAvUHJvY1NldCBbIC9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXQo+PiAvUm90YXRlIDAgL1RyYW5zIDw8Cgo+PiAKICAvVHlwZSAvUGFnZQo+PgplbmRvYmoKMTMgMCBvYmoKPDwKL0NvbnRlbnRzIDMxIDAgUiAvTWVkaWFCb3ggWyAwIDAgNTk1LjI3NTYgODQxLjg4OTggXSAvUGFyZW50IDIzIDAgUiAvUmVzb3VyY2VzIDw8Ci9Gb250IDEgMCBSIC9Qcm9jU2V0IFsgL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdCj4+IC9Sb3RhdGUgMCAvVHJhbnMgPDwKCj4+IAogIC9UeXBlIC9QYWdlCj4+CmVuZG9iagoxNCAwIG9iago8PAovQ29udGVudHMgMzIgMCBSIC9NZWRpYUJveCBbIDAgMCA1OTUuMjc1NiA4NDEuODg5OCBdIC9QYXJlbnQgMjMgMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjE1IDAgb2JqCjw8Ci9Db250ZW50cyAzMyAwIFIgL01lZGlhQm94IFsgMCAwIDU5NS4yNzU2IDg0MS44ODk4IF0gL1BhcmVudCAyMyAwIFIgL1Jlc291cmNlcyA8PAovRm9udCAxIDAgUiAvUHJvY1NldCBbIC9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXQo+PiAvUm90YXRlIDAgL1RyYW5zIDw8Cgo+PiAKICAvVHlwZSAvUGFnZQo+PgplbmRvYmoKMTYgMCBvYmoKPDwKL0NvbnRlbnRzIDM0IDAgUiAvTWVkaWFCb3ggWyAwIDAgNTk1LjI3NTYgODQxLjg4OTggXSAvUGFyZW50IDIzIDAgUiAvUmVzb3VyY2VzIDw8Ci9Gb250IDEgMCBSIC9Qcm9jU2V0IFsgL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdCj4+IC9Sb3RhdGUgMCAvVHJhbnMgPDwKCj4+IAogIC9UeXBlIC9QYWdlCj4+CmVuZG9iagoxNyAwIG9iago8PAovQ29udGVudHMgMzUgMCBSIC9NZWRpYUJveCBbIDAgMCA1OTUuMjc1NiA4NDEuODg5OCBdIC9QYXJlbnQgMjMgMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjE4IDAgb2JqCjw8Ci9Db250ZW50cyAzNiAwIFIgL01lZGlhQm94IFsgMCAwIDU5NS4yNzU2IDg0MS44ODk4IF0gL1BhcmVudCAyMyAwIFIgL1Jlc291cmNlcyA8PAovRm9udCAxIDAgUiAvUHJvY1NldCBbIC9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXQo+PiAvUm90YXRlIDAgL1RyYW5zIDw8Cgo+PiAKICAvVHlwZSAvUGFnZQo+PgplbmRvYmoKMTkgMCBvYmoKPDwKL0NvbnRlbnRzIDM3IDAgUiAvTWVkaWFCb3ggWyAwIDAgNTk1LjI3NTYgODQxLjg4OTggXSAvUGFyZW50IDIzIDAgUiAvUmVzb3VyY2VzIDw8Ci9Gb250IDEgMCBSIC9Qcm9jU2V0IFsgL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdCj4+IC9Sb3RhdGUgMCAvVHJhbnMgPDwKCj4+IAogIC9UeXBlIC9QYWdlCj4+CmVuZG9iagoyMCAwIG9iago8PAovQ29udGVudHMgMzggMCBSIC9NZWRpYUJveCBbIDAgMCA1OTUuMjc1NiA4NDEuODg5OCBdIC9QYXJlbnQgMjMgMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjIxIDAgb2JqCjw8Ci9QYWdlTW9kZSAvVXNlTm9uZSAvUGFnZXMgMjMgMCBSIC9UeXBlIC9DYXRhbG9nCj4+CmVuZG9iagoyMiAwIG9iago8PAovQXV0aG9yIChDQ0kgLyBJTkRJQTUtUFJPVE9DT0wpIC9DcmVhdGlvbkRhdGUgKEQ6MjAyNjA4MDcxMTEyNDArMDAnMDAnKSAvQ3JlYXRvciAoXCh1bnNwZWNpZmllZFwpKSAvS2V5d29yZHMgKCkgL01vZERhdGUgKEQ6MjAyNjA4MDcxMTEyNDArMDAnMDAnKSAvUHJvZHVjZXIgKFJlcG9ydExhYiBQREYgTGlicmFyeSAtIFwob3BlbnNvdXJjZVwpKSAKICAvU3ViamVjdCAoXCh1bnNwZWNpZmllZFwpKSAvVGl0bGUgKEJvZGggR2F5YSAtLSBLZXV6ZS1yZWlzZ2lkcyAwNDYtMDU4KSAvVHJhcHBlZCAvRmFsc2UKPj4KZW5kb2JqCjIzIDAgb2JqCjw8Ci9Db3VudCAxNSAvS2lkcyBbIDQgMCBSIDUgMCBSIDggMCBSIDkgMCBSIA==
+<<< END CHUNK >>>
+

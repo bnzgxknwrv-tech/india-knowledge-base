@@ -1,0 +1,452 @@
+>>> CHUNK stream_row=1077 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/DISCOVERY_CANDIDATES.jsonl blob_sha=b2fab65190958eef531efcf4dafc4400d61ae0f4 original_offset=36864 original_length=4096 payload_bytes=4096 chunk_index=9 chunk_count=17 classification=text
+ntral Tibetan Administration), buddhistdoor.net, kagyuoffice.org (Karmapa consacreerde de tempel).", "living_or_monumental": "LEVEND -- nieuw, actief centrum, jaarlijks festivalgastheer.", "mark_relevance_link": "Geen directe Kriya-link; MARK_WAARDIG op nieuwheid/actualiteit en Karmapa-consecratie.", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "identity_check": "OPGELOST 2026-08-06 (INDIA6 bericht 026): BEVESTIGD DIFFERENT_LOCATIONS t.o.v. 068 (Shechen Monastery / Shechen Tennyi Dargyeling). Bron (tibet.net) meldt expliciet dat Shechen Rabjam Rinpoche zowel 'de uitbreiding van Shechen Karuna Bodh Gaya' bezocht ALS apart het Padmasambhava-tempelcomplex inspecteerde -- twee aparte bezoeken aan twee aparte plekken, ook al is Shechen Rabjam Rinpoche organisatorisch nauw betrokken bij beide (voorzitter Nyingma Monlam Chenmo International Foundation).", "identity_check_source_ref": "tibet.net/secretary-dhondul-dorjee-attends-the-inauguration-of-the-padmasambhava-grand-temple-in-bodh-gaya, tibet.net/inauguration-of-the-padmasambhava-grand-temple-and-nyingma-center-held-in-bodh-gaya", "reason_ref": "zie PRE_BRONS/SATURATION_REPORT_002.md en SATURATION_REPORT_003_ADDENDUM.md voor volledige onderbouwing; volledige GOUD-keuzerapporttekst nu opgenomen in GOUD/MARK_SELECTION_REPORT.md", "checked_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-064", "display_id": "064", "canonical_name": "Chinese Temple", "cluster": "INTERNATIONAL_MONASTERY", "place_type": "CHINESE_MONASTERY", "status": "EXCLUDED", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "mark_waardig_status": "EXCLUDED_HARD_REASON", "discovered_by_detector": "DET-BGY-P003 INTERNATIONAL_MONASTERY_LIVING_TRADITION_DETECTOR", "why_this_one": "Gebouwd 1945 door Chinese boeddhistische monniken i.s.m. de toenmalige Chinese (Republikeinse) overheid, gerenoveerd 1997, pagode-stijl, direct tegenover de hoofdingang van het Mahabodhi-complex.", "why_not_the_others": "Een van de oudste internationale kloosters ter plekke (1945, van vóór Indiase onafhankelijkheid) en de enige Chinese vertegenwoordiging in de straal.", "meaning_evidence": "trawell.in/bihar/bodhgaya/chinese-temple, prayagsamagam.com, tripadvisor.in.", "living_or_monumental": "LEVEND -- Mahayana-praktijk, chanten, sutra-studie.", "mark_relevance_link": "Geen directe Kriya-link; MARK_WAARDIG op historische ouderdom en ligging tegenover 046.", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "reason_ref": "zie PRE_BRONS/SATURATION_REPORT_002.md voor volledige onderbouwing; volledige GOUD-keuzerapporttekst nu opgenomen in GOUD/MARK_SELECTION_REPORT.md", "checked_at": "2026-08-06", "exclusion_correction": "UITGESLOTEN 2026-08-08, retroactieve E.1-canontoets (INDIA6 bericht 042, religie-onafhankelijke bedevaartszoeking). Onderscheiding was 'enige Chinese vertegenwoordiging' plus ouderdom/ligging -- geen relict, pelgrimsstroom of aan de plek verbonden vereerd persoon. Voldoet aan de harde generiek-check uit governance/SWEEP_PROTOCOL.md poort E.1/FK-011 -- niet behouden vanwege land-/traditievertegenwoordiging. Nummer 064 blijft permanent gereserveerd en wordt nooit hergebruikt.", "exclusion_hard_reason": "CATEGORIE_DEKKING_ZONDER_ZELFSTANDIGE_BEDEVAARTSZWAARTE"}
+{"candidate_id": "BGY-CAND-065", "display_id": "065", "canonical_name": "Bangladesh Buddhist Monastery", "cluster": "INTERNATIONAL_MONASTERY", "place_type": "BANGLADESH_MONASTERY", "status": "EXCLUDED", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "mark_waardig_status": "EXCLUDED_HARD_REASON", "discovered_by_detector": "DET-BGY-P003 INTERNATIONAL_MONASTERY_LIVING_TRADITION_DETECTOR", "why_this_one": "Groot klooster van de boeddhistische gemeenschap van Bangladesh (een overwegend islamitisch land) -- twee verbonden delen (klooster + tempel), toegangspoorten met reliefs uit Boeddha's leven, een groot wit centraal Boeddhabeeld temidden van tientallen andere beelden.", "why_not_the_others": "Enige Bangladese vertegenwoordiging in de straal; het feit dat een overw
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1078 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/DISCOVERY_CANDIDATES.jsonl blob_sha=b2fab65190958eef531efcf4dafc4400d61ae0f4 original_offset=40960 original_length=4096 payload_bytes=4096 chunk_index=10 chunk_count=17 classification=text
+egend islamitisch land hier een groot klooster onderhoudt is zelf een onderscheidend gegeven.", "meaning_evidence": "dhammawiki.com/index.php/Bangladesh_Buddhist_Temple, tripadvisor.com, facebook.com/BBMBIn.", "living_or_monumental": "LEVEND -- actief klooster, geen entreekosten gemeld.", "mark_relevance_link": "Geen directe Kriya-link; MARK_WAARDIG op schaal en het minderheidsverhaal.", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "reason_ref": "zie PRE_BRONS/SATURATION_REPORT_002.md voor volledige onderbouwing; volledige GOUD-keuzerapporttekst nu opgenomen in GOUD/MARK_SELECTION_REPORT.md", "checked_at": "2026-08-06", "exclusion_correction": "UITGESLOTEN 2026-08-08, retroactieve E.1-canontoets (INDIA6 bericht 042, religie-onafhankelijke bedevaartszoeking). Onderscheiding was 'enige Bangladese vertegenwoordiging' en een minderheidsverhaal -- geen zelfstandige bedevaarts-/heilige zwaarte. Voldoet aan de harde generiek-check uit governance/SWEEP_PROTOCOL.md poort E.1/FK-011 -- niet behouden vanwege land-/traditievertegenwoordiging. Nummer 065 blijft permanent gereserveerd en wordt nooit hergebruikt.", "exclusion_hard_reason": "CATEGORIE_DEKKING_ZONDER_ZELFSTANDIGE_BEDEVAARTSZWAARTE"}
+{"candidate_id": "BGY-CAND-066", "display_id": "066", "canonical_name": "Cambodian Monastery", "cluster": "INTERNATIONAL_MONASTERY", "place_type": "CAMBODIAN_MONASTERY", "status": "EXCLUDED", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "mark_waardig_status": "EXCLUDED_HARD_REASON", "discovered_by_detector": "DET-BGY-P003 INTERNATIONAL_MONASTERY_LIVING_TRADITION_DETECTOR", "why_this_one": "Rijk gekleurd, ornamenteel kloostergebouw met een enorm Boeddhabeeld en gedetailleerd bewerkte muren. Documentatie is dunner dan bij de andere internationale kloosters -- vooral visueel onderscheidend, minder verhaal/geschiedenis gevonden.", "why_not_the_others": "Enige Cambodjaanse vertegenwoordiging in de straal; visuele stijl wijkt duidelijk af van de andere kloosters.", "meaning_evidence": "Alleen reisbronnen (geen officiele/academische bron gevonden) -- kuchbhi.com, algemene reisblogs. Zwakker onderbouwd dan de meeste andere 05x-kandidaten.", "living_or_monumental": "LEVEND -- klooster.", "mark_relevance_link": "Geen directe Kriya-link; MARK_WAARDIG op visuele eigenheid, met het voorbehoud dat de bronbasis dun is.", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "reason_ref": "zie PRE_BRONS/SATURATION_REPORT_002.md voor volledige onderbouwing; volledige GOUD-keuzerapporttekst nu opgenomen in GOUD/MARK_SELECTION_REPORT.md", "checked_at": "2026-08-06", "exclusion_correction": "UITGESLOTEN 2026-08-08, retroactieve E.1-canontoets (INDIA6 bericht 042, religie-onafhankelijke bedevaartszoeking). Onderscheiding was 'enige Cambodjaanse vertegenwoordiging' plus visuele stijl; het rapport noemt dit zelf al de zwakst onderbouwde kandidaat. Voldoet aan de harde generiek-check uit governance/SWEEP_PROTOCOL.md poort E.1/FK-011 -- niet behouden vanwege land-/traditievertegenwoordiging. Nummer 066 blijft permanent gereserveerd en wordt nooit hergebruikt.", "exclusion_hard_reason": "CATEGORIE_DEKKING_ZONDER_ZELFSTANDIGE_BEDEVAARTSZWAARTE"}
+{"candidate_id": "BGY-CAND-067", "display_id": "067", "canonical_name": "Korean Temple (Bunhwang-sa)", "cluster": "INTERNATIONAL_MONASTERY", "place_type": "KOREAN_MONASTERY", "status": "EXCLUDED", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "mark_waardig_status": "EXCLUDED_HARD_REASON", "discovered_by_detector": "DET-BGY-P003 INTERNATIONAL_MONASTERY_LIVING_TRADITION_DETECTOR", "why_this_one": "Nieuwe Koreaanse tempel, vernoemd naar een echte historische tempel uit 634 CE in Gyeongju (Bunhwang-sa) -- geen verzonnen naam maar een bewuste lijnverwijzing. Biedt onderdak, chantsessies en begeleiding in het Koreaans.", "why_not_the_others": "Enige Koreaanse vertegenwoordiging in de straal, met een aantoonbare historische naamgevingslijn (niet slechts 'nog een land').", "meaning_evidence": "buddhistdoor.net/news/new-korean
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1079 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/DISCOVERY_CANDIDATES.jsonl blob_sha=b2fab65190958eef531efcf4dafc4400d61ae0f4 original_offset=45056 original_length=4096 payload_bytes=4096 chunk_index=11 chunk_count=17 classification=text
+-buddhist-temple-to-open-in-bodh-gaya-india.", "living_or_monumental": "LEVEND -- nieuw klooster, gastenverblijf.", "mark_relevance_link": "Geen directe Kriya-link; MARK_WAARDIG op de historische naamgevingslijn.", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "reason_ref": "zie PRE_BRONS/SATURATION_REPORT_002.md voor volledige onderbouwing; volledige GOUD-keuzerapporttekst nu opgenomen in GOUD/MARK_SELECTION_REPORT.md", "checked_at": "2026-08-06", "exclusion_correction": "UITGESLOTEN 2026-08-08, retroactieve E.1-canontoets (INDIA6 bericht 042, religie-onafhankelijke bedevaartszoeking). Onderscheiding was 'enige Koreaanse vertegenwoordiging' plus een naamgevingsverwijzing, op een enkele zwakke bron -- geen zelfstandige bedevaarts-/heilige zwaarte. Voldoet aan de harde generiek-check uit governance/SWEEP_PROTOCOL.md poort E.1/FK-011 -- niet behouden vanwege land-/traditievertegenwoordiging. Nummer 067 blijft permanent gereserveerd en wordt nooit hergebruikt.", "exclusion_hard_reason": "CATEGORIE_DEKKING_ZONDER_ZELFSTANDIGE_BEDEVAARTSZWAARTE"}
+{"candidate_id": "BGY-CAND-068", "display_id": "068", "canonical_name": "Shechen Monastery (Shechen Tennyi Dargyeling)", "cluster": "INTERNATIONAL_MONASTERY", "place_type": "NYINGMA_MONASTERY", "status": "PROVISIONAL", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "mark_waardig_status": "MARK_WAARDIG", "discovered_by_detector": "DET-BGY-P003 INTERNATIONAL_MONASTERY_LIVING_TRADITION_DETECTOR", "why_this_one": "Nyingma-klooster (officiele naam Shechen Tennyi Dargyeling), gebouwd 1996, ingewijd door de Dalai Lama, dicht bij de Mahabodhi-tempel. Shechen is wereldwijd een van de bekendste Nyingma-kloosterlijnen (geassocieerd met Dilgo Khyentse Rinpoche).", "why_not_the_others": "Derde, aantoonbaar aparte Nyingma-vestiging naast Palyul Namdroling (060) en het Padmasambhava Grand Temple/Nyingma Center (063).", "meaning_evidence": "kuchbhi.com/travel/buddhist-temples-in-bodh-gaya-bihar.html, tripadvisor.in (Shechen Tennyi Dargyeling), localguidesconnect.com.", "living_or_monumental": "LEVEND -- klooster, gebouwd 1996.", "mark_relevance_link": "Geen directe Kriya-link; MARK_WAARDIG op de internationale reputatie van de Shechen-lijn.", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "identity_check": "OPGELOST 2026-08-06 (INDIA6 bericht 026): BEVESTIGD DIFFERENT_LOCATIONS t.o.v. 063 (Padmasambhava Grand Temple and Nyingma Center) -- zie identity_check bij 063 voor de volledige onderbouwing.", "identity_check_source_ref": "tibet.net/secretary-dhondul-dorjee-attends-the-inauguration-of-the-padmasambhava-grand-temple-in-bodh-gaya", "reason_ref": "zie PRE_BRONS/SATURATION_REPORT_002.md en SATURATION_REPORT_003_ADDENDUM.md voor volledige onderbouwing; volledige GOUD-keuzerapporttekst nu opgenomen in GOUD/MARK_SELECTION_REPORT.md", "checked_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-069", "display_id": "069", "canonical_name": "Mongolian Temple", "cluster": "INTERNATIONAL_MONASTERY", "place_type": "MONGOLIAN_MONASTERY", "status": "EXCLUDED", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "mark_waardig_status": "EXCLUDED_HARD_REASON", "discovered_by_detector": "DET-BGY-P003 INTERNATIONAL_MONASTERY_LIVING_TRADITION_DETECTOR", "why_this_one": "Eenvoudig ogende tempel die niettemin de Mongoolse boeddhistische traditie vertegenwoordigt -- een eigen, historisch onderscheiden vermenging van Tibetaans Vajrayana-boeddhisme met Mongoolse cultuur. Fysieke documentatie is dun (vooral 'eenvoudig, sereen' gemeld).", "why_not_the_others": "Enige Mongoolse vertegenwoordiging in de straal; de onderscheiding zit vooral in de nationale/traditionele eigenheid, minder in het gebouw zelf -- zwakker onderbouwd dan de meeste andere kloosters, vervolgonderzoek nodig bij BRONS.", "meaning_evidence": "kuchbhi.com/travel/buddhist-temples-in-bodh-gaya-bihar.html -- geen officiele of academische bron gevonden.", "living_or_monumental": "LEVEND -- klooster.", "mark_relevance_link": "Geen directe Kriya-link; MARK_W
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1080 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/DISCOVERY_CANDIDATES.jsonl blob_sha=b2fab65190958eef531efcf4dafc4400d61ae0f4 original_offset=49152 original_length=4096 payload_bytes=4096 chunk_index=12 chunk_count=17 classification=text
+AARDIG op de anders onvertegenwoordigde Mongoolse traditie, met het voorbehoud van dunne bronbasis.", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "reason_ref": "zie GOUD/MARK_SELECTION_REPORT.md voor volledige onderbouwing van deze uitsluiting", "checked_at": "2026-08-06", "exclusion_correction": "UITGESLOTEN 2026-08-06, na strikte hertoetsing op verzoek van INDIA6 (bericht 030). Herbeoordeeld tegen de vraag: is er een zelfstandig verhaal, uniek object, levende bijzondere ervaring of gebeurtenis boven 'een Mongoolse vertegenwoordiging'? Enige bron (kuchbhi.com) meldt uitsluitend 'een eenvoudig ogende tempel... Buddhist serenity' -- geen naam, stichtingsjaar, object, of bevestigde praktijk gevonden. Voldoet aan de harde uitsluitingsgrond 'geen zelfstandige betekenis of ervaring'. Niet behouden vanwege landendekking. Nummer 069 blijft permanent gereserveerd en wordt nooit hergebruikt.", "exclusion_hard_reason": "GEEN_ZELFSTANDIGE_BETEKENIS_OF_ERVARING"}
+{"candidate_id": "BGY-CAND-070", "display_id": "070", "canonical_name": "Mangala Gauri Temple (Shakti Peeth)", "cluster": "NON_BUDDHIST_TRADITION", "place_type": "HINDU_SHAKTI_PEETH", "status": "PROVISIONAL", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "mark_waardig_status": "MARK_WAARDIG", "discovered_by_detector": "DET-BGY-P006 NON_BUDDHIST_IN_RADIUS_DETECTOR", "why_this_one": "Een van de 18 Maha Shakti Peethas van heel India (plek waar volgens de legende Sati's borst viel), vermeld in de Padma Purana, Vayu Purana, Agni Purana en Devi Bhagwat Purana. Op een heuvel met circa 200 treden, circa 4 km van Gaya Junction.", "why_not_the_others": "Nationaal-religieus van een hogere orde dan een generieke tempel -- een van de 18 erkende Shakti Peethas van heel India, vergelijkbaar in gewicht met Vishnupad (051) maar een aparte traditie/relict (Shakti i.p.v. Vishnu-voetspoor).", "meaning_evidence": "tourism.bihar.gov.in/en/destinations/gaya/mangala-gauri, templepurohit.com, tirthayatra.org.", "living_or_monumental": "LEVEND -- actieve tempel.", "mark_relevance_link": "Geen directe Kriya-link; MARK_WAARDIG op de Shakti-Peeth-status (nationale religieuze zwaarte).", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "reason_ref": "zie PRE_BRONS/SATURATION_REPORT_002.md voor volledige onderbouwing; volledige GOUD-keuzerapporttekst nu opgenomen in GOUD/MARK_SELECTION_REPORT.md", "checked_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-071", "display_id": "071", "canonical_name": "Pretshila Hill", "cluster": "NON_BUDDHIST_TRADITION", "place_type": "HINDU_ANCESTRAL_RITUAL_SITE", "status": "PROVISIONAL", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "mark_waardig_status": "MARK_WAARDIG", "discovered_by_detector": "DET-BGY-P006 NON_BUDDHIST_IN_RADIUS_DETECTOR", "why_this_one": "'Heuvel van de Geesten' -- centrum van hindoe voorouderverlossingsrituelen (pind daan), met een Yama-tempel gebouwd in 1787 door Ahilya Bai en de Brahma Kund eronder. Volgens overlevering bezocht Rama deze heuvel met Sita om Pind Daan te doen voor koning Dasharatha.", "why_not_the_others": "Andere specifieke plek en ander relict/verhaal dan Vishnupad (051) en Mangala Gauri (070) -- geen duplicaat, wel onderdeel van hetzelfde bredere Gaya pind-daan-complex.", "meaning_evidence": "tourism.bihar.gov.in/en/destinations/gaya/pretshila, bihardarshann.wordpress.com, prayagpandits.com.", "living_or_monumental": "LEVEND -- actieve rituele plek.", "mark_relevance_link": "Geen directe Kriya-link; MARK_WAARDIG op het Rama/Sita-verhaal en de singuliere Yama-tempel.", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "access_check": "GECONTROLEERD 2026-08-06 (INDIA6 bericht 026): in tegenstelling tot 051 (Vishnupad) is GEEN expliciete niet-hindoe-toegangsbeperking gevonden voor Pretshila, ondanks gerichte zoekopdracht. Algemene reisbronnen beschrijven het als een gewone bezoekersplek (heuveltop, trap, uitzicht, tempel) met standaard kledingadvies, niet met een toegangs
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1081 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/DISCOVERY_CANDIDATES.jsonl blob_sha=b2fab65190958eef531efcf4dafc4400d61ae0f4 original_offset=53248 original_length=4096 payload_bytes=4096 chunk_index=13 chunk_count=17 classification=text
+verbod. Afwezigheid van bewijs is geen bevestiging van vrije toegang, maar wijkt duidelijk af van het patroon bij 051 (waar meerdere onafhankelijke bronnen een verbod melden). Mark kan naar verwachting de heuvel, de Yama-tempel (1787) en de Brahma Kund bezoeken/bekijken.", "reason_ref": "zie PRE_BRONS/SATURATION_REPORT_002.md en SATURATION_REPORT_003_ADDENDUM.md voor volledige onderbouwing; volledige GOUD-keuzerapporttekst nu opgenomen in GOUD/MARK_SELECTION_REPORT.md", "checked_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-072", "display_id": "072", "canonical_name": "Brahmayoni Hill / Gayasisa Stupa (Vuurpreek-locatie)", "cluster": "BUDDHA_TEACHING_SITE", "place_type": "POST_ENLIGHTENMENT_SERMON_SITE", "status": "PROVISIONAL", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "mark_waardig_status": "MARK_WAARDIG", "discovered_by_detector": "DET-BGY-P008 POST_ENLIGHTENMENT_TEACHING_SITE_DETECTOR (nieuw, zie PRE_BRONS_DETECTORS.jsonl)", "why_this_one": "Heuvel (voorheen Gayasisa genoemd) waar Boeddha de beroemde Vuurpreek (Adittapariyaya Sutta) hield aan circa 1000 voormalige vuur-vererende asceten, die allen verlicht raakten tijdens het luisteren -- een van Boeddha's bekendste toespraken, gemarkeerd door de Gayasisa Stupa.", "why_not_the_others": "Een biografisch/leerstellig moment uit Boeddha's leven NA de verlichting, in tegenstelling tot de bestaande kandidaten die uitsluitend de periode rond en vóór de verlichting dekken (046-049) -- vult een echte hiaat in de bestaande detectorset (zie nieuwe detector P008).", "meaning_evidence": "alamy.com (Gayasisa Stupa-foto's met bijschrift), jatland.com, religion.fandom.com/wiki/Gaya,_India, gaya.nic.in/places-of-interest.", "living_or_monumental": "MONUMENTAAL -- gemarkeerd met een stoepa, historische pelgrimsplek.", "mark_relevance_link": "Geen directe Kriya-link; MARK_WAARDIG op de biografische zwaarte (vergelijkbaar in soort met 047/048) van dit leermoment.", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "reason_ref": "zie PRE_BRONS/SATURATION_REPORT_002.md voor volledige onderbouwing; volledige GOUD-keuzerapporttekst nu opgenomen in GOUD/MARK_SELECTION_REPORT.md", "checked_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-073", "display_id": "073", "canonical_name": "Jagannath Temple (naast Mahabodhi)", "cluster": "NON_BUDDHIST_TRADITION", "place_type": "HINDU_TEMPLE_ADJACENT_TO_MAHABODHI", "status": "PROVISIONAL", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "mark_waardig_status": "MARK_WAARDIG", "discovered_by_detector": "DET-BGY-P006 NON_BUDDHIST_IN_RADIUS_DETECTOR", "why_this_one": "Hindoetempel op circa 25 voet (7,5 m) afstand ten noorden van de Mahabodhi-tempel zelf, met Krishna/Balarama/Subhadra-idolen en een Ram-Janaki-tempel; dagelijkse Mahaprasad-uitdeling tussen 12.00-14.00u.", "why_not_the_others": "Uniek door de fysieke nabijheid tot en het naast-elkaar-bestaan met de heiligste boeddhistische plek ter wereld -- een eigen interreligieus coexistentieverhaal, geen duplicaat van 046.", "meaning_evidence": "tourism.bihar.gov.in/en/destinations/gaya/jagannath-temple, quora.com (vraag over de coexistentie), tripadvisor.com.", "living_or_monumental": "LEVEND -- actieve tempel, dagelijkse Mahaprasad.", "mark_relevance_link": "Geen directe Kriya-link; MARK_WAARDIG op de opvallende nabijheid tot 046 en het coexistentieverhaal.", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "reason_ref": "zie PRE_BRONS/SATURATION_REPORT_002.md voor volledige onderbouwing; volledige GOUD-keuzerapporttekst nu opgenomen in GOUD/MARK_SELECTION_REPORT.md", "checked_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-074", "display_id": "074", "canonical_name": "International Meditation Centre / Dhamma Bodhi (Vipassana, S.N. Goenka-lijn)", "cluster": "MEDITATION_RETREAT_CENTER", "place_type": "VIPASSANA_CENTER", "status": "PROVISIONAL", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "mark_waardig_status": "MARK_WAARDIG", "discovered_by_detector": "DET-BGY-P003 INTERNATIONAL_MONASTER
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1082 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/DISCOVERY_CANDIDATES.jsonl blob_sha=b2fab65190958eef531efcf4dafc4400d61ae0f4 original_offset=57344 original_length=4096 payload_bytes=4096 chunk_index=14 chunk_count=17 classification=text
+Y_LIVING_TRADITION_DETECTOR", "why_this_one": "Vipassana-meditatiecentrum in de traditie van S.N. Goenka -- de eerste 10-daagse Vipassana-cursus van heel Bihar werd hier in 1970 gehouden (in het naburige Samanvaya Ashram, vlak bij de Mahabodhi-tempel). Het formele centrum 'Dhamma Bodhi' werd gesticht in 1994 (10 acres grond), met een Dhamma-hal voor 100 studenten en een pagode met 70 cellen; sinds 2008 ook langere cursussen.", "why_not_the_others": "Andere traditie/lijn dan Root Institute (053, FPMT/Tibetaans-boeddhistisch) -- Theravada-afgeleide, seculiere Vipassana-techniek volgens Goenka, met een eigen historische primeur (eerste Vipassana-cursus van Bihar).", "meaning_evidence": "dhammawiki.com/index.php/Bodh_Gaya_International_Meditation_Centre, bodhi.vridhamma.org/about-us.shtml, vridhamma.org.", "living_or_monumental": "LEVEND -- sterk programma-/cursusafhankelijk (10-daagse en langere cursussen), formaat vergelijkbaar met 053.", "mark_relevance_link": "Geen directe Kriya-link; MARK_WAARDIG op de historische primeur en de eigen (Vipassana) traditie.", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "reason_ref": "zie PRE_BRONS/SATURATION_REPORT_002.md voor volledige onderbouwing; volledige GOUD-keuzerapporttekst nu opgenomen in GOUD/MARK_SELECTION_REPORT.md", "checked_at": "2026-08-06", "aoay_top11_audit": "Top-11-link gevonden, LOCATIE ONZEKER (2026-08-08, bericht 054; GECORRIGEERD 2026-08-08 na INDIA6-tegencontrole bericht 058): Ram Dass studeerde in januari 1971 (datumcorrectie t.o.v. eerste versie van dit onderzoek, die onjuist 'winter 1969-70' zei) Vipassana onder S.N. Goenka. Twee cursussen liepen vlak na elkaar in deze periode -- Samanvaya Ashram (24-12-1970 t/m 3-1-1971, deze kandidaat) en Burmese Vihara (4 t/m 14-1-1971, nu ook candidate 061). Met de beschikbare bronnen NIET definitief vast te stellen welk gebouw Ram Dass' specifieke cursus was (zie candidate 061 voor de parallelle onzekerheid). MARK_DECISION_CONFLICT: deze link was niet bekend toen Mark C koos voor 074 -- expliciet gemeld, NIET zelfstandig door CCI gewijzigd; niet langer een zekere, exclusieve 074-toewijzing.", "mark_decision_conflict": false, "mark_decision_conflict_resolved_at": "2026-08-08", "mark_decision_conflict_resolution": "C behouden (bericht 065, MARK_DECISIONS_2026-08-08_DELTA.jsonl)"}
+{"candidate_id": "BGY-CAND-075", "display_id": "075", "canonical_name": "Jain Temple, Gaya (Bhagawan Mahavira)", "cluster": "NON_BUDDHIST_TRADITION", "place_type": "JAIN_TEMPLE", "status": "EXCLUDED", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "mark_waardig_status": "EXCLUDED_HARD_REASON", "discovered_by_detector": "DET-BGY-P006 NON_BUDDHIST_IN_RADIUS_DETECTOR", "why_this_one": "Een van twee Jaintempels in Gaya-stad, gewijd aan Bhagawan Vardhamana Mahavira, met een dharamshala voor pelgrims. Documentatie is opvallend dun -- geen specifiek onderscheidend verhaal, object of gebeurtenis gevonden buiten 'een Jaintempel op deze plek'.", "why_not_the_others": "Enige Jain-vertegenwoordiging in de straal -- een volledig andere, levende traditie, ook al is de onderbouwing zwak.", "meaning_evidence": "jainheritagecentres.com/jainism-in-india/bihar/gaya, algemene reisbronnen -- geen officiele/academische bron met specifieke geschiedenis gevonden.", "living_or_monumental": "LEVEND -- actieve tempel, dharamshala.", "mark_relevance_link": "Geen directe Kriya-link; MARK_WAARDIG op de aanwezigheid van een geheel andere traditie, met een expliciet voorbehoud: dit is de zwakst onderbouwde kandidaat van de hele sweep -- geen hard uitsluitingsgrond van toepassing, maar de informatiebasis is minimaal.", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "reason_ref": "zie SATURATION_REPORT_003_ADDENDUM.md voor volledige onderbouwing van deze uitsluiting", "checked_at": "2026-08-06", "exclusion_correction": "UITGESLOTEN 2026-08-06, na hertoetsing op expliciet verzoek van INDIA6 (bericht 026: 'niet kunstmatig behouden omdat hij al genummerd is'). Herbeoordeeld t
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1083 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/DISCOVERY_CANDIDATES.jsonl blob_sha=b2fab65190958eef531efcf4dafc4400d61ae0f4 original_offset=61440 original_length=4096 payload_bytes=4096 chunk_index=15 chunk_count=17 classification=text
+egen de vraag: is er een zelfstandig verhaal, uniek object, levende bijzondere ervaring of gebeurtenis boven 'een Jaintempel'? Twee onderzoeksrondes (initiele sweep + deze hertoetsing) vonden niets buiten: gewijd aan Bhagawan Mahavira, een van twee Jaintempels in Gaya-stad, een dharamshala voor pelgrims. Geen specifiek historisch moment, geen uniek object/relict, geen bijzondere levende praktijk gevonden die deze plek onderscheidt van een generieke Jaintempel. Dit voldoet aan de harde uitsluitingsgrond 'geen zelfstandige betekenis of ervaring' uit NOT_TO_BE_MISSED_FRAMEWORK.md. Nummer 075 blijft permanent gereserveerd en wordt NOOIT hergebruikt (immutable-regel) -- alleen de status verandert van MARK_WAARDIG naar EXCLUDED.", "exclusion_hard_reason": "GEEN_ZELFSTANDIGE_BETEKENIS_OF_ERVARING"}
+{"candidate_id": "BGY-CAND-076", "display_id": "076", "canonical_name": "Akshayavat (de onvergankelijke banyanboom)", "cluster": "NON_BUDDHIST_TRADITION", "place_type": "HINDU_SACRED_TREE_RELIC", "status": "PROVISIONAL", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "mark_waardig_status": "MARK_WAARDIG", "discovered_by_detector": "DET-BGY-P006 NON_BUDDHIST_IN_RADIUS_DETECTOR", "why_this_one": "Een eeuwenoude, als onvergankelijk vereerde banyanboom bij de Falgu-rivier, vlak bij Vishnupad Temple (051), met naam genoemd in de Purana's, de Ramayana EN Jain-teksten. Kernverhaal: toen Sita een Pind Daan voor koning Dasharatha uitvoerde en door de Falgu, een brahmaan, een koe en de Tulsi-plant niet werd bevestigd, was de Akshayavat de enige getuige die de waarheid sprak -- vandaar 'akshaya' (onvergankelijk).", "why_not_the_others": "Fysiek en verhaaltechnisch uniek object (niet inwisselbaar). LET OP, gecorrigeerd 2026-08-06: dit is GEEN aparte, losstaande locatie van Vishnupad (051) -- de boom groeit binnen de tempelbinnenplaats van Vishnupad zelf (meerdere pind-daan-bronnen bevestigen dit). Wel apart van Mangala Gauri (070, Shakti Peeth) en Pretshila (071, Yama-tempel).", "meaning_evidence": "gayaji.net/Akshayvat.php, pinddaangayaji.net/Akshayvat.php, prayagpandits.com/vital-role-of-akshayavat-in-gaya-shradh. LET OP bronvoorbehoud: prayagsamagam.com/temple/akshayvat-temple is mogelijk over de ANDERE, bekendere Akshayavat in Prayagraj/Allahabad (Patalpuri-tempel) -- niet als bron voor de Gaya-boom gebruikt in deze correctie. Er bestaan twee gelijknamige, verschillende Akshayavat-bomen in India (Gaya en Prayagraj); alleen de Gaya-locatie is hier bedoeld.", "living_or_monumental": "LEVEND -- actieve rituele plek rond een fysiek, nog bestaand object, binnen de Vishnupad-tempelbinnenplaats.", "mark_relevance_link": "Geen directe Kriya-link; MARK_WAARDIG op de singuliere status en het specifieke Sita/Rama-verhaal.", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "access_check": "GECONTROLEERD EN GECORRIGEERD 2026-08-06 (INDIA6 bericht 026): de Akshayavat groeit BINNEN de tempelbinnenplaats van Vishnupad (051), niet op een aparte, vrij toegankelijke plek. Dit betekent dat de niet-hindoe-toegangsbeperking die bij 051 is vastgesteld hoogstwaarschijnlijk OOK hier geldt -- een niet-hindoe bezoeker kan de boom naar verwachting NIET van dichtbij zien, net zomin als het Vishnupad-relict zelf. Dit is een redelijke afleiding op basis van de bevestigde ligging, GEEN apart bevestigde regel voor de boom specifiek.", "reason_ref": "zie PRE_BRONS/SATURATION_REPORT_002.md en SATURATION_REPORT_003_ADDENDUM.md voor volledige onderbouwing; volledige GOUD-keuzerapporttekst nu opgenomen in GOUD/MARK_SELECTION_REPORT.md", "checked_at": "2026-08-06", "categorization_note": "OPEN CATEGORISATIEVRAAG (INDIA6-beslispunt, niet zelf opgelost): omdat de Akshayavat fysiek binnen de tempelbinnenplaats van 051 groeit, is dit mogelijk eerder een sublocatie van hetzelfde bezoek dan een zelfstandige bestemming -- vergelijkbaar met de weekplekken binnen 046. Nummer 076 blijft permanent gereserveerd (immutable), maar INDIA6/Mark beslist later of dit in het keuzerapport als eigen kandidaat of als sub-vermelding bij 051 wordt g
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1084 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/DISCOVERY_CANDIDATES.jsonl blob_sha=b2fab65190958eef531efcf4dafc4400d61ae0f4 original_offset=65536 original_length=3724 payload_bytes=3724 chunk_index=16 chunk_count=17 classification=text
+epresenteerd."}
+{"candidate_id": "BGY-CAND-077", "display_id": "077", "canonical_name": "Bitho Sharif Dargah", "cluster": "SIGNAL_ZONE_OTHER_TRADITION", "place_type": "SUFI_SHRINE", "status": "PROVISIONAL", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "mark_waardig_status": "MARK_WAARDIG", "discovered_by_detector": "DET-BGY-P006 NON_BUDDHIST_IN_RADIUS_DETECTOR (signaleringszone, niet volledige straal)", "why_this_one": "Soefi-heiligdom gesticht 1443 CE door Hazrat Makhdoom Syed Shah Durwesh Ashraf, bekend om genezingsverhalen en als symbool van hindoe-moslim-eenheid; jaarlijkse Urs-viering met Qawwali's.", "why_not_the_others": "Vertegenwoordigt een traditie (soefi-islam) die anders volledig afwezig is in de regio -- expliciet gevraagde lens ('spirituele extremen buiten Marks bekende voorkeuren'). SCOPE-LET OP: circa 20-25 km van Bodh Gaya (10 km van Gaya-stad op de Gaya-Patna-weg) -- dit valt in de 20-30 km-signaleringszone, NIET in de volledig onderzochte 0-20 km-kernstraal. Gesignaleerd conform protocol, niet als kernkandidaat behandeld.", "meaning_evidence": "newageislam.com (Syed Amjad Hussain), waliofallah.blogspot.com -- geen officiele overheidsbron gevonden, afstand zelf geschat uit route-omschrijvingen, niet uit bevestigde coordinaten.", "living_or_monumental": "LEVEND -- actief heiligdom, jaarlijkse Urs.", "mark_relevance_link": "Geen directe Kriya-link; MARK_WAARDIG op basis van de afwezige soefi-vertegenwoordiging en het Hindoe-moslim-eenheidsverhaal, met de signaleringszone-status expliciet vermeld.", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "reason_ref": "zie PRE_BRONS/SATURATION_REPORT_002.md voor volledige onderbouwing; volledige GOUD-keuzerapporttekst nu opgenomen in GOUD/MARK_SELECTION_REPORT.md", "checked_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-078", "display_id": "078", "canonical_name": "Gurdwara Sri Guru Tegh Bahadur Ji, Gaya", "cluster": "NON_BUDDHIST_TRADITION", "place_type": "SIKH_GURDWARA", "status": "PROVISIONAL", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "mark_waardig_status": "MARK_WAARDIG", "discovered_by_detector": "DET-BGY-P006 NON_BUDDHIST_IN_RADIUS_DETECTOR (gerichte Sikhisme-check, INDIA6 bericht 026)", "why_this_one": "Gurdwara nabij Vishnupad Temple (051), aan de Falgu-rivier, waar zowel Guru Nanak Dev als (later) Guru Tegh Bahadur de plek bezochten en de gangbare pind-daan-praktijk (offerandes voor voorouders door nakomelingen/brahmanen) direct bekritiseerden -- zij onderwezen dat iemands eigen goede daden tijdens het leven bepalend zijn, niet rituelen na de dood. Een directe, inhoudelijke tegenstem op de plek waar die praktijk het meest geconcentreerd voorkomt.", "why_not_the_others": "Enige Sikh-vertegenwoordiging in de straal, met een concreet, tweevoudig Guru-bezoek (Nanak en Tegh Bahadur) en een specifieke, inhoudelijke leerstelling op deze exacte plek -- geen generiek gebedshuis.", "meaning_evidence": "sikhiwiki.org (Guru Nanak's travels in Bihar; Guru Tegh Bahadur In Bihar & Jharkhand), worldgurudwaras.com. Beheerd door Udasi-priesters; drie exemplaren van de Siri Guru Granth Sahib (Gurmukhi en Devnagri) in een rechthoekig paviljoen.", "living_or_monumental": "LEVEND -- actieve gurdwara.", "mark_relevance_link": "Geen directe Kriya-link; MARK_WAARDIG op het historische dubbele Guru-bezoek en de inhoudelijke tegenstem tegen de pind-daan-praktijk.", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "reason_ref": "zie SATURATION_REPORT_003_ADDENDUM.md voor volledige onderbouwing; volledige GOUD-keuzerapporttekst nu opgenomen in GOUD/MARK_SELECTION_REPORT.md", "checked_at": "2026-08-06"}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1085 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/TESTSWEEP-022-040/COMPLETION.md blob_sha=b39bb3d3f73f0821136a2bd1d2a31da2d66a0b69 original_offset=0 original_length=3609 payload_bytes=3609 chunk_index=0 chunk_count=1 classification=text
+run_id: VARANASI-GEO-DELIVERY-REPAIR-001
+role: GOUD
+scope: INDIA5-PROTOCOL eerste testsweep, VNS-CAND-022 t/m VNS-CAND-040 (19 kandidaten)
+status: KLAAR
+
+## Eindproducten
+
+- `GOUD/TESTSWEEP-022-040/USER/VARANASI_TESTSWEEP_022-040.kml` -- 19 placemarks, 3 bevestigd (groen),
+  16 onbevestigd (geel, oud vergelijkingspunt zichtbaar gemarkeerd als niet-definitief).
+- `GOUD/TESTSWEEP-022-040/USER/VARANASI_TESTSWEEP_022-040_KEUZE.pdf` -- 6 pagina's, alle 19 kandidaten,
+  beschermde besluiten en openstaande vragen voor Mark.
+- `GOUD/TESTSWEEP-022-040/GEO_AUDIT.md` -- volledige geo-audit per kandidaat + dedup-check.
+- `GOUD/TESTSWEEP-022-040/CORRECTIERAPPORT.md` -- scope-afwijking, ZILVER-correcties, onzekerheden.
+- `GOUD/TESTSWEEP-022-040/COMPLETION.md` -- dit bestand.
+
+## Bestandscontroles
+
+- KML geparsed met `xml.etree.ElementTree`: geldig XML, 19/19 Placemarks, coordinatenvolgorde
+  (lon,lat) correct, alle 19 candidate_id's exact eenmaal aanwezig.
+- PDF teruggelezen met `pypdf`: 6 pagina's, alle 19 candidate_id's aangetroffen in de geextraheerde
+  tekst, inhoud leesbaar en overeenkomstig de brondata.
+- `python3 scripts/validate_brons.py`: OK, 40/40 BRONS-records gecontroleerd (alle 40 Varanasi-
+  kandidaten, inclusief de 19 nieuwe), geen fouten.
+- `python3 scripts/next_candidate.py`: bevestigt 0 resterende kandidaten in het volledige
+  candidates.jsonl-bereik (40/40 BRONS-verwerkt).
+
+## Zekere locaties (3)
+
+VNS-CAND-029 Dhamek Stupa, VNS-CAND-031 Chaukhandi Stupa, VNS-CAND-033 Deer Park/Isipatana --
+VERIFIED_OFFICIAL_MAP_LINK via een officiele Google Earth entity-API-link met ingesloten coordinaat
+en feature-ID.
+
+## Onzekere locaties (16)
+
+VNS-CAND-022, 023, 024, 025, 026, 027, 028, 030, 032, 034, 035, 036, 037, 038, 039, 040 --
+GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Fysieke identiteit in alle gevallen bevestigd via minstens twee
+onafhankelijke bronnen; geen interactieve Google Maps-marker beschikbaar in deze sessie. Zie
+CORRECTIERAPPORT.md voor bijzondere aandachtspunten (met name VNS-CAND-023).
+
+## Beschermde Mark-keuzes
+
+VNS-CAND-001, 002, 003, 007 (keuze A) en VNS-CAND-008 (keuze B, met expliciet afgewezen coordinaat
+[25.3045, 82.979369]) zijn niet aangeraakt en niet gewijzigd. Deze testsweep heeft geen A/B/C-keuze
+toegekend aan VNS-CAND-022 t/m 040 -- dat blijft aan Mark.
+
+## Door Mark te beoordelen
+
+- A/B/C-keuze voor alle 19 testsweep-kandidaten (geen enkele heeft nu een Mark-besluit).
+- VNS-CAND-023: 3 km-afwijking tussen een onafhankelijke coordinaat en het oude vergelijkingspunt.
+- Mogelijke relatie tussen VNS-CAND-006 ("Sarnath sacred complex", buiten scope) en de zes nieuwe
+  Sarnath-deelsites (029-034).
+- De 16 GOOGLE_MAPS_MARKER_NOT_CONFIRMED-kandidaten: baat bij een toekomstige sessie met interactieve
+  Google Maps-toegang om alsnog een exacte marker vast te stellen.
+
+## Niet uitgevoerd of verboden
+
+- Geen centrale India-master-KML bijgewerkt (verboden, RUN.yaml `forbidden_outputs`).
+- Geen ZILVER-Z01 (VNS-CAND-001 t/m 020) uitgevoerd -- buiten deze testsweep-scope.
+- Geen volledig regionaal GOUD-eindpakket voor alle 40 kandidaten gemaakt -- buiten deze
+  testsweep-scope (alleen de 19 nieuwe testkandidaten zijn geintegreerd).
+- Geen bestaand geldig kandidaatrecord (VNS-CAND-001 t/m 021) gewijzigd.
+- Geen schatting, terreinmiddelpunt, oud KML-punt of website-coordinaat gebruikt als vervangend
+  eindpunt voor een onbevestigde kandidaat.
+
+## Readback
+
+KML: geparsed en gecontroleerd (zie hierboven). PDF: geopend en teruggelezen met pypdf (zie
+hierboven). Beide bestandscontroles zijn uitgevoerd NA creatie, zoals PRACTICAL_DELIVERY.md vereist.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1086 path=runs/active/INDIA8-KUMAON-MARK-ABC-2026-08-20/ROUND2_DECISIONS.md blob_sha=b3f1c8676a59fa9b5c439fe01b26f05b3d36ce16 original_offset=0 original_length=1245 payload_bytes=1245 chunk_index=0 chunk_count=1 classification=text
+# KUMAON ROUND 2 — MARK DECISIONS
+Date: 2026-08-20
+
+## Decisions
+1. Turiya Niwas — A (existing locked A preserved)
+2. Bodh Ashram — A (existing locked A preserved)
+3. Dhaulchina Anandamayi Ma Ashram — C
+4. K.K. Sah family home — C / no normal visit because private house
+5. Ramsay Hospital — C / no normal visit absent meaningful NKB shrine/remembrance visit function
+6. Dunagiri / Babaji Cave landscape — A
+
+## Anandamayi Ma scope
+- Kankhal samadhi — A and one of the core Anandamayi Ma visit sites.
+- Mark wants only about 1–2 additional Anandamayi Ma sites beyond Kankhal, chosen for strongest meaning/presence and preferably inside already-selected clusters.
+- Dhaulchina currently C.
+- Patal Devi currently C/reserve.
+- Future selection should prioritize real active presence, samadhi/shrine, preserved room or powerful living devotion, not completeness for its own sake.
+
+## Presentation rule reaffirmed
+- One physical complex/grounds = one A/B/C decision.
+- Rooms, shrines, courtyards, caves, bridges, trees etc remain bundled as end-report visit details under that parent.
+- Do not ask Mark to grade each micro-site separately.
+- Do not add assistant recommendation text unless Mark explicitly asks for recommendation.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1087 path=governance/FINAL_COMFORT_SWEEP_RULE_2026-08-23.md blob_sha=b41bf4a4dd843d8dc5e687cb5aa5630ad818d018 original_offset=0 original_length=2068 payload_bytes=2068 chunk_index=0 chunk_count=1 classification=text
+# FINAL COMFORT SWEEP — HARD TRAVEL PHASE
+
+Date: 2026-08-23
+Status: MANDATORY AFTER ROUTE / NIGHTS ARE STABLE
+
+## PURPOSE
+After clusters, sleep bases, route order and approximate nights are fixed, run a separate COMFORT SWEEP per retained sleep base / day corridor.
+
+This phase is intentionally deferred until geography is stable. It must NOT be forgotten.
+
+## REQUIRED SEARCH CATEGORIES
+Per sleep base / day area, research at minimum:
+- historic / cult pastry shops and bakeries;
+- local signature sweets and regional specialties;
+- strongest banketbakker / patisserie-type stops;
+- best coffee / serious coffee addresses;
+- best restaurants by local relevance and traveler consensus;
+- breakfast options where relevant;
+- one or two exceptionally characterful cafes/tea houses;
+- high-quality small food stops that are worth a short detour;
+- practical comfort stops useful on long transfer days.
+
+## USER-PREFERENCE WEIGHTING
+Mark is especially sensitive to:
+- old/historic pastry shops and bakeries;
+- local sweet specialties;
+- characterful pastry/cafe stops;
+- genuinely good coffee;
+- restaurants that are strong enough to justify being deliberately chosen rather than random convenience.
+
+A tiny exceptional pastry shop may matter more than a generic major attraction.
+
+## QUALITY RULE
+Do not produce generic “top restaurants” lists. Use forum/community consensus, long-running local reputation, specialist food writing and current traveler signal. Prefer a small shortlist with reasons.
+
+## OUTPUT REQUIREMENT
+For each retained sleep base / corridor, create a compact comfort card with:
+- name
+- type
+- exact area
+- why special
+- what specifically to order / try
+- distance/time from sleep base or route
+- opening risk / reservation need if relevant
+- confidence / source notes
+
+## ORDER OF OPERATIONS
+HEAVY A CLUSTERS -> ROUTE/NIGHTS -> CALENDAR/CLOSURES -> HOTELS/BASES -> DAY STRUCTURE -> FINAL COMFORT SWEEP -> FINAL DAY CARDS.
+
+A route is not considered final-travel-guide-ready until this comfort sweep has been completed for every retained base.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1088 path=runs/active/TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001/STATUS.md blob_sha=b76b19de8e1c6c361432d614b81513567b2b2213 original_offset=0 original_length=991 payload_bytes=991 chunk_index=0 chunk_count=1 classification=text
+# STATUS — TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001
+
+STATUS: BEIDE_RECONCILIATIES_AFGEROND__WACHT_OP_INDIA_QA
+CCI_TASK: 094
+PERSONS: Ramana Maharshi; Ramakrishna
+MODE: POST-FREEZE MULTIDETECTOR RECONCILIATION
+WORKBRANCH: claude/werk-je-nu-of-niet-oa10y7
+INPUT_LAYERS: CCI internal 093 + ChatGPT external blind + IndiaGEEL blind
+CHECKPOINT_COMMITS:
+  - 1/2 Ramana Maharshi: e089bc0
+  - 2/2 Ramakrishna: (dit checkpoint, zie volgende commit)
+OUTPUTS:
+  - RAMANA_MAHARSHI_MULTIDETECTOR_RECONCILIATION.md
+  - RAMAKRISHNA_MULTIDETECTOR_RECONCILIATION.md
+  - RECONCILIATION_MATRIX.jsonl (34 Ramana-rijen + 46 Ramakrishna-rijen = 80 rijen)
+  - DELTA-secties toegevoegd aan beide 093-freezes (append-only)
+NEXT_ALLOWED_STEP: CCI post CCI_RESULT 094 op PR #23 en stopt voor INDIA-QA. CCI_TASK 095
+  (NKB+Ram Dass IndiaGEEL-reconciliatie) staat al geprequeued (state QUEUED_AFTER_094) en is nu
+  ontgrendeld. Landelijke clusterheatmap blijft een niet-voorgequeued optie voor INDIA.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1089 path=runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/WERKPAKKET_D_DEEPENING_CCI_086.md blob_sha=ba1e823629cea5004d3c1856ada958f6c9956a69 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# WERKPAKKET D — verdiepende parallelle verificatie (CCI_TASK 086 vervolg)
+
+```
+task_id: TOP11-EXTERNAL-AI-BENCHMARK-001
+trigger: Mark — "voer de nieuwste CCI_TASK 086 volledig uit, gebruik parallelle subagents/workers
+  zoals in de taak beschreven"
+uitgevoerd_door: CCI, 6 parallelle subagent-workers (Werkpakket D-batches)
+uitgevoerd_op: 2026-08-18
+basis: runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/YOGANANDA_EXTERNAL_RECONCILIATION_CCI_086.md
+  (eerste, sequentiële CCI_086-pas: 8/8 rechtstreeks geverifieerde external-only claims, allemaal
+  VERIFIED_TRUE) + scratchpad/aoay/EXTERNAL_YOGANANDA_ATLAS.md (114-record externe union)
+```
+
+## Wat dit werkpakket toevoegt
+
+De eerste CCI_086-pas verifieerde 8 van de ~114 externe records rechtstreeks en concludeerde
+`EXTERNAL_MULTI_AI_MANDATORY_FOR_REMAINING_TOP11: JA`. Werkpakket D was de nog niet uitgevoerde
+parallellisatie: zes onafhankelijke subagents, elk verantwoordelijk voor een eigen regionale batch
+van de externe atlas, plus één aparte adversarial/kwaliteitscontrole-worker. Samen dekken ze
+vrijwel de volledige 114-record atlas rechtstreeks tegen de lokale AOAY-brontekst (48 hoofdstukken).
+
+| batch | regio | records gecontroleerd | bestand |
+|---|---|---|---|
+| 1 | Kolkata/Serampore/Bengal-kern | 1-39 (excl. reeds bevestigde #4/#12/#21, buiten scope #36-37) | `batch1_kolkata_serampore.md` |
+| 2 | Ranchi/Puri/Bihar/UP | 21 records (#36-60-bereik) | `batch2_ranchi_puri_up.md` |
+| 3 | Wardha/Mumbai/West-India | #61-70 | `batch3_wardha_mumbai.md` |
+| 4 | Mysore/Bangalore/Tamil Nadu/Zuid-India | #71-93 | `batch4_mysore_south.md` |
+| 5 | Kashmir-reis/Noordwest + buiten-India | #94-105, #114 | `batch5_kashmir_transit.md` |
+| 6 | Adversarial bron-/identiteitscontrole (dwars door alle secties) | steekproef + zelftegenspraken | `batch6_adversarial.md` |
+
+Alle zes bestanden staan lokaal in de scratchpad (niet in de repo — werkbestanden, geen definitieve
+projectdata). Deze synthese neemt de betekenisvolle bevindingen over.
+
+## Totaaltelling over de zes batches (excl. de 8 al in CCI_086 zelf geverifieerde records)
+
+| verdict | aantal (indicatief, som van batches) |
+|---|---|
+| VERIFIED_TRUE | ~45 |
+| VERIFIED_FALSE | ~10 |
+| PARTIALLY_TRUE | ~11 |
+| VERIFIED_TRUE_SECONDARY_ONLY (bevestigd via Wright-brief/YSS-chronologie, niet AOAY zelf) | 1 |
+| UNRESOLVED / OUT_OF_SCOPE_FOR_LOCAL_CORPUS | ~9 |
+
+Geen van de zes batches heeft een nieuwe, door alle vijf externe AI's gemiste fysieke plek
+gevonden zoals het Regent Hotel-precedent uit de eerste CCI_086-pas. Het beeld van deze
+verdiepingsronde is overwegend **precisiecorrectie**: op- en afwaarderingen van bewijskracht per
+record, geen nieuwe missed-site-vondsten van het type dat CCI_086's kernconclusie zou veranderen.
+
+## Belangrijkste materiële correcties op de externe atlas
+
+1. **#27 Sri Yukteswars hermitage, Serampore — "Rai Ghat Lane" staat letterlijk in AOAY**, uit Sri
+   Yukteswars eigen mond (hfst. 10) én Yogananda's eigen beschrijving (hfst. 11/12). De externe
+   atlas verlaagt de fysieke-identiteitsscore naar DEELS vanwege een conflict tussen drie *moderne*
+   adressen (3 Rai Ghat Lane / 57 Netaji Subhas Avenue / 3A Buro Bibi) — maar dat conflict zit in de
+   hedendaagse adressering, niet in wat de primaire bron zelf zegt. AOAY zelf is hier sterker en
+   eenduidiger dan de externe voorzichtigheid suggereert.
+2. **#11 Yogoda Math, Dakshineswar — legacy-only, geen persoonlijke aanwezigheid mogelijk.** AOAY
+   hfst. 40 dateert de wijding zelf tweemaal onafhankelijk (1938 in het bijschrift, 1939 in de
+   lopende tekst) — beide ná Yogananda's laatste vertrek uit India (aug. 1936). De externe atlas'
+   "WAARSCHIJNLIJK/BETWIST, DEELS" is te positief voor persoonlijke aanwezigheid; aanbevolen
+   downgrade naar expliciet legacy-only, met een aparte, ongeverifieerde subclaim over mogelijke
+   grondverwerving tijdens het 1935-36-verblijf.
+3. **#42 Jagannath-tempel, Puri — hallucinatie-citaat.** De externe atlas citeert AOAY hfst. 12/42
+   als "BEWEZEN/EXACT" (Gemini), maar het woord "Jagannath" (en varianten) komt **nul kee
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1090 path=runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/WERKPAKKET_D_DEEPENING_CCI_086.md blob_sha=ba1e823629cea5004d3c1856ada958f6c9956a69 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+r** voor in
+   alle 48 hoofdstukken. Hoofdstukken 12/42 gaan wel over Puri/Karar Ashram (= correct record #40),
+   maar noemen de Jagannath-tempel zelf niet. Aanbevolen downgrade naar GEEN BEWIJS.
+4. **#16 Gandha Baba's huis, Burdwan — hard VERIFIED_FALSE**, geen giswerk nodig: AOAY hfst. 5 maakt
+   met "Alakananda told me" ondubbelzinnig duidelijk dat dit Alakananda's verteld verhaal is, niet
+   Yogananda's eigen ervaring.
+5. **#31 Oom Sarada Prasad Ghosh — externe atlas juist te terughoudend.** AOAY hfst. 20 en 23
+   bevestigen tweemaal expliciet een persoonlijk bezoek van Yogananda aan "the home of my Uncle
+   Sarada" in Serampore. De externe atlas noteert dit ten onrechte als "niet bevestigd in AY"; dit is
+   een zeldzaam voorbeeld van onderschatting in plaats van overschatting.
+6. **#38 Giri Bala's huis, Biur — sterker fysiek beschreven dan aangenomen.** AOAY (via een letterlijk
+   geciteerd Wright-dagboekfragment, hfst. 46) beschrijft het huis architectonisch ("a large,
+   two-storied building of brick and plaster... dominating the surrounding adobe huts"), niet
+   slechts de dorpsnaam Biur.
+7. **#68 "Royal Hotel" — uitsluitend Wright-eigen-logiesbron, niet AOAY, niet Yogananda-aanwezigheid.**
+   Bevestigd via volledige 48-hoofdstukken-grep: de naam komt nul keer in AOAY voor.
+8. **Regent Hotel-detail bijgesteld**: bij nadere grep blijkt de naam "Regent Hotel" in hoofdstuk 43
+   **éénmaal** letterlijk genoemd (niet tweemaal zoals eerder gemeld), gevolgd door twee generieke
+   vervolgverwijzingen ("the Bombay hotel"). De kernvondst (een hotelnaam die geen van de vijf
+   externe AI's vond) blijft onveranderd overeind; alleen het herhalingsaantal is nu preciezer.
+9. **Golden Temple/Amritsar (#96), Trivandrum/Kanyakumari (#92-93), Hyderabad/Ellora/Ajanta/
+   Kanchipuram (#88-91) — alle bevestigd `GEEN BEWIJS`** via volledige corpus-grep (nul treffers of
+   uitsluitend beschrijvende/historische zinnen zonder eerste-persoonstaal), in lijn met wat de
+   externe atlas zelf al vermoedde.
+10. **Shalimar Bagh en Nishat Bagh (Kashmir) — wél degelijk met naam genoemd in AOAY zelf**
+    ("at Shalimar and Nishat Bagh"), tegen de aanname in de batch-opdracht in dat dit mogelijk
+    externe toevoegingen waren. Dal Lake eveneens expliciet met naam bevestigd.
+11. **#23 Tagore-studeerkamer — interne conflatiefout in de externe atlas.** Het studeerkamer-detail
+    hoort bij de latere Santiniketan-ontmoeting (= correct record #35), niet bij de eerste
+    kennismaking in Calcutta. Vergelijkbaar met de reeds door de atlas zelf gesignaleerde
+    "meerdere functies op één adres samengevoegd"-fout bij record #4.
+12. **#61 Wardha-station en #63-64 Maganvadi-gastenhuis/Gandhi's schrijfkamer — sterker bevestigd**
+    dan de opdracht veronderstelde, met drie aparte scènes in Gandhi's schrijfkamer, inclusief de
+    allereerste ontmoeting.
+13. **#66 Bombay-aankomsthaven — PARTIALLY_TRUE**: RAJPUTANA, 22 aug. 1935, "huge harbor of Bombay"
+    bevestigd; geen specifieke pier/kade genoemd.
+14. **#70 Bombay-lezingzalen — VERIFIED_TRUE_SECONDARY_ONLY**: AOAY hfst. 43 bevestigt zelf geplande
+    lezingen ("I was scheduled for several public addresses in Bombay"), maar geen zaalnaam; de
+    exacte data 8-10 juni 1936 zijn alleen via een Wright-brief bekend, niet uit AOAY zelf.
+15. **#72 vs #84 Town Hall-verwarring opgelost**: AOAY hfst. 41 gebruikt "the Town Hall" zonder
+    "Chetty" voor Mysore, en "the Chetty Town Hall" specifiek voor Bangalore. De externe koppeling
+    van "Sir Puttanna Chetty Town Hall" aan Mysore is niet door de brontekst gedekt.
+16. **#75/#77 (Third Princess's paleis, "Art of Contacting God"-lezing) en #85 Gokhale Hall Madras —
+    geen enkele AOAY-basis** (nul treffers over alle 48 hoofdstukken); uitsluitend secundaire
+    Wright-/krantenbronnen. #85's "BEWEZEN"-label rust op één niet-verifieerbare krantenbron van één
+    AI en verdient downgrade tot krantenbron zelf gecontroleerd is.
+17. **#103 Lahore — PARTIALLY_TRUE**: jeugdverblijf en vliegerverhaal bevestigd, geen adres, geen
+    "amuletverha
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1091 path=runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/WERKPAKKET_D_DEEPENING_CCI_086.md blob_sha=ba1e823629cea5004d3c1856ada958f6c9956a69 original_offset=8192 original_length=3382 payload_bytes=3382 chunk_index=2 chunk_count=3 classification=text
+al" gevonden. **#104 Chittagong — OUT_OF_SCOPE_FOR_LOCAL_CORPUS**: nul AOAY-treffers,
+    steunt uitsluitend op de Mejda-memoire (niet gecheckt). **#114 afgezegde eerste Kashmir-reis**
+    bevestigd geannuleerd — reden was Yogananda's eigen acute cholera-aanval in Serampore (hfst. 20),
+    niet een regionale epidemie zoals verondersteld — correct GEEN locatiebezoek.
+18. **Nieuwe tempelnaam in Vrindavan**: AOAY noemt de **Madanamohana-tempel** met naam; de externe
+    atlas classificeert deze tempel ten onrechte als "onbekend".
+19. **Taj Mahal-bezoek is dubbel**: jeugdbezoek hfst. 11 (~1910, met Jitendra) én een apart, opnieuw
+    gefotografeerd bezoek in **hfst. 42** (1936, niet hfst. 41 zoals de atlas citeert), direct na de
+    Kumbh Mela, op weg naar Keshabananda.
+20. **Meerdere claims blijken volledig ongefundeerd in AOAY** (nul treffers over alle 48
+    hoofdstukken): #42 Jagannath-tempel (zie boven), #49 Vishvanath-tempel, #43 vaderswoning Benares
+    (AOAY spreekt dit zelfs zelf tegen — het gezin woonde toen in Bareilly), #60 Meerut.
+
+## Adversarial-batch — systeembrede observatie
+
+Batch 6's steekproef op zeven "unieke" AI-5-citaten bevestigde zes van de zeven als accuraat en
+vond één volledige hallucinatie (#42). De atlas' eigen "hoeveel AI's noemen dit"-teller correleert
+**niet betrouwbaar** met bewijskracht in beide richtingen: single-AI-records bleken soms sterker
+(#7, #39, #52) en soms volledig ongefundeerd (#42) dan hun labelniveau suggereerde. Geen actieve
+naam/plaats-collisiefout aangetroffen in de externe atlas zelf (in tegenstelling tot CCI's eigen
+eerdere "Dwarka Prasad"- en "Belur"-fouten), maar twee hoogrisico-termen ("Kashi", "Dwarkanath")
+bevestigd als terugkerende valkuilen voor toekomstige extracties.
+
+## Gevolg voor het CCI_086-verdict
+
+Geen van deze bevindingen wijzigt de kernconclusie van `YOGANANDA_EXTERNAL_RECONCILIATION_CCI_086.md`:
+`EXTERNAL_MULTI_AI_MANDATORY_FOR_REMAINING_TOP11: JA` blijft staan (voor personen die een volledige
+METHOD_V2 deep sweep krijgen — zie ook Marks scopebesluit `decisions/TOP11_SWEEP_DEPTH_BY_PERSON_
+2026-08-18.md` voor Vivekananda/Hariharananda). Deze verdiepingsronde bevestigt bovendien het
+CCI_086-inzicht dat noch interne, noch externe detectie alleen voldoende is: de externe atlas bevat
+zowel echte precisiewinst (#27, #31, #38, Shalimar/Nishat Bagh) als aantoonbare fouten/hallucinaties
+(#11, #42, #23) — rechtstreekse bronverificatie blijft in beide richtingen noodzakelijk, niet alleen
+om externe missers te vangen maar ook om externe overconfidence te corrigeren.
+
+## Onopgeloste punten (expliciet, niet verzwegen)
+
+- #8 (Roma's huis, Girish Vidyaratna Lane): geciteerd hoofdstuk 22 bevat de scène niet; nadere
+  brontraceercontrole nodig.
+- #17 (Tulsi Bose), #24 (Kshattriya Conference), #26 (vroege lezingzalen), #28 (Rai Ghat-banyanboom),
+  #85 (Gokhale Hall): steunen niet op AOAY, vereisen niet-AOAY bronnenonderzoek (krantenarchieven,
+  Wright-brieven) buiten de scope van deze taak.
+- #104 Chittagong: alleen via de Mejda-memoire (Sananda Lal Ghosh) te verifiëren, niet geprobeerd.
+
+Geen A/B/C namens Mark. Geen PDF. Geen route/hotel. Geen permanente locatie-ID.
+
+---
+Geschreven door: CCI, op basis van 6 parallelle subagent-workers (Werkpakket D). Vervolg op
+CCI_TASK 086. STOP hierna conform de bestaande CCI_086-stopvoorwaarde — wacht op INDIA-QA.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1092 path=governance/LONELY_PLANET_LAYER_RULE_2026-08-22.md blob_sha=ba1e9ac8f5097b5b649d201ebe4bb2ad9f3108d2 original_offset=0 original_length=3108 payload_bytes=3108 chunk_index=0 chunk_count=1 classification=text
+# LONELY PLANET LAYER — MARK TRIP RULE
+Date: 2026-08-22
+Status: ACTIVE
+
+## Purpose
+Maintain a third independent discovery layer alongside:
+1. PERSON layer — Top-X people, biographies, AOAY/person events.
+2. SPIRITUAL / BUILDING / ANCHOR layer — major temples, samadhis, shrines, sacred complexes, historic religious anchors.
+3. LONELY PLANET layer — major non-spiritual or not-necessarily-spiritual travel magnets that would still justify attention during an India trip.
+
+## Definition
+A Lonely Planet candidate is NOT merely 'nice nearby'. It should be nationally, internationally, or strongly regionally exceptional: a place or experience that many travelers deliberately seek out because it is unusually beautiful, rare, historic, iconic, extreme, atmospheric, culinary, architectural or natural.
+
+Examples include:
+- outstanding natural landscapes, waterfalls, caves, lakes, rivers, canyons, viewpoints, wildlife or geological features;
+- nationally iconic monuments, museums, historic districts, palaces, forts, engineering works;
+- records/superlatives: oldest, highest, largest, clearest, deepest, rarest, etc., when genuinely meaningful;
+- exceptional food/café/bakery/confectionery institutions with real regional or national reputation/history;
+- highly distinctive local experiences, markets, trains, walks, crafts or heritage sites;
+- world-class photographic or scenic locations.
+
+## Threshold
+Do NOT flood the trip with generic attractions.
+- 'best waterfall in a random town' is insufficient.
+- Candidate should normally be one of the strongest attractions in the wider region, India-significant, internationally notable, or exceptionally aligned with Mark's interests.
+- Prefer fewer high-signal findings over many ordinary sightseeing suggestions.
+
+## Mark preferences relevant to this layer
+- Strong preference for nature and visually exceptional places.
+- Water, waterfalls, caves, mountains, exceptionally clear/blue water and unusual landscapes are high-interest.
+- Characterful historic cafés, bakeries, confectioners and food institutions can qualify when genuinely special.
+- The layer has no requirement to be spiritual.
+
+## Route interaction
+Do NOT search all India exhaustively before route skeleton exists.
+First apply the layer to:
+- locked/likely A clusters;
+- B/reserve clusters only enough to determine whether a major non-spiritual magnet materially changes their cluster weight;
+- direct transfer corridors between likely A clusters.
+
+A major Lonely Planet magnet may:
+- strengthen a marginal cluster from B to A;
+- justify a stopover en route;
+- add a half-day/day to an already selected cluster;
+- rarely reopen an otherwise dropped region if the attraction is genuinely exceptional.
+
+## Presentation
+For each candidate tell Mark:
+- WHAT it is;
+- WHY it is exceptional beyond local level;
+- whether people deliberately travel for it;
+- practical proximity to the spiritual/person cluster or transfer route;
+- whether it costs minutes, half a day, a day, or a major detour;
+- no automatic A/B/C recommendation unless requested or needed for cluster-level triage.
+
+<<< END CHUNK >>>
+

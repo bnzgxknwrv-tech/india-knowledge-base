@@ -36,6 +36,17 @@ Outputs:
   reproduces `FULL_BYTE_READ_STREAM.jsonl` byte-for-byte (verified: identical length, identical
   SHA-256) and the 366/366 blob-reconstruction check was independently re-run from the
   concatenated pages with the same zero-mismatch result.
+- `review_volumes/VOL_0001.txt` ... `VOL_0093.txt` (task 003) — human-readable review volumes, each
+  ≤60,000 bytes, rendering every stream chunk's exact content visibly (text chunks as literal
+  UTF-8 text, binary/PDF chunks as their exact base64 string) behind an ASCII metadata header
+  (path(s)/blob_sha/offset/length/chunk index/classification) and an unambiguous boundary line.
+  No stream row is ever split across two volumes.
+- `REVIEW_VOLUMES_INDEX.jsonl` (task 003) — 93 rows: volume_number, file, first/last_stream_row,
+  represented_original_bytes, text_original_bytes, binary_original_bytes, volume_file_bytes,
+  blob_sha. Verified: the 93 volumes cover stream rows 1-1383 exactly once and in order, the sum
+  of represented_original_bytes is exactly 4,883,398, and re-parsing the 366 source blobs directly
+  from the VISIBLE volume payloads (not from the JSONL) reproduces all 366 original git blob SHAs
+  and sizes exactly — 366/366, 0 mismatches.
 - `STATUS.md` — this file.
 
 Headline finding: `PROTECTED_CANON_BASELINE.csv` does not exist in frozen central at all — it

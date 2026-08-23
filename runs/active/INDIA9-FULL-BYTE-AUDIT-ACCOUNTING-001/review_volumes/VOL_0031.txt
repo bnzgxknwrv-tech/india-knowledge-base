@@ -1,0 +1,326 @@
+>>> CHUNK stream_row=449 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/PLACE_ATLAS.jsonl blob_sha=4f760da1eaa8a1fe60fe810f4b81fb1dfdef4753 original_offset=40960 original_length=4096 payload_bytes=4096 chunk_index=10 chunk_count=16 classification=text
+ence_ids": ["AOAY-OCC-00414"], "notes": "NIEUW, Kashmir-hoofdstuk"}
+{"atlas_id": "AOAY-ATL-062", "canonical_name": "Alaska", "aliases": [], "place_type": "STATE", "state_or_country_subdiv": null, "country": "United States", "in_india": "NEE", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 2, "chapters": [21], "occurrence_ids": ["AOAY-OCC-00436", "AOAY-OCC-00437"], "notes": ""}
+{"atlas_id": "AOAY-ATL-063", "canonical_name": "Simla", "aliases": [], "place_type": "CITY", "state_or_country_subdiv": "Himachal Pradesh", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 4, "chapters": [21], "occurrence_ids": ["AOAY-OCC-00438", "AOAY-OCC-00439", "AOAY-OCC-00440", "AOAY-OCC-00441"], "notes": "NIEUW, komt overeen met Yogananda's jeugdverblijf (Wikipedia-bron in Top-11-sweep noemde dit al indirect)"}
+{"atlas_id": "AOAY-ATL-064", "canonical_name": "Delhi", "aliases": [], "place_type": "CITY", "state_or_country_subdiv": null, "country": "India", "in_india": "JA", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 1, "chapters": [22], "occurrence_ids": ["AOAY-OCC-00459"], "notes": ""}
+{"atlas_id": "AOAY-ATL-065", "canonical_name": "Burma", "aliases": [], "place_type": "COUNTRY", "state_or_country_subdiv": null, "country": null, "in_india": "NEE", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 1, "chapters": [25], "occurrence_ids": ["AOAY-OCC-00494"], "notes": ""}
+{"atlas_id": "AOAY-ATL-066", "canonical_name": "China", "aliases": [], "place_type": "COUNTRY", "state_or_country_subdiv": null, "country": null, "in_india": "NEE", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 3, "chapters": [25, 26, 48], "occurrence_ids": ["AOAY-OCC-00495", "AOAY-OCC-00502", "AOAY-OCC-01356"], "notes": ""}
+{"atlas_id": "AOAY-ATL-067", "canonical_name": "Japan", "aliases": [], "place_type": "COUNTRY", "state_or_country_subdiv": null, "country": null, "in_india": "NEE", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 4, "chapters": [25, 35], "occurrence_ids": ["AOAY-OCC-00496", "AOAY-OCC-00497", "AOAY-OCC-00736", "AOAY-OCC-00737"], "notes": ""}
+{"atlas_id": "AOAY-ATL-068", "canonical_name": "Badrinarayan", "aliases": ["Badrinath"], "place_type": "PILGRIMAGE_SITE", "state_or_country_subdiv": "Uttarakhand", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_MYTHIC_OR_NONPHYSICAL", "occurrence_count": 3, "chapters": [27, 33, 42], "occurrence_ids": ["AOAY-OCC-00513", "AOAY-OCC-00683", "AOAY-OCC-01044"], "notes": "legendarische Babaji-verblijfplaats, reeds bevestigd als vaag (ATL-MB-005)"}
+{"atlas_id": "AOAY-ATL-069", "canonical_name": "Dihika", "aliases": [], "place_type": "VILLAGE", "state_or_country_subdiv": "West Bengal", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_EXACT_SITE", "occurrence_count": 1, "chapters": [27], "occurrence_ids": ["AOAY-OCC-00545"], "notes": "reeds bevestigd (ATL-PY-004)"}
+{"atlas_id": "AOAY-ATL-070", "canonical_name": "Bihar", "aliases": [], "place_type": "STATE", "state_or_country_subdiv": null, "country": "India", "in_india": "JA", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 5, "chapters": [27, 36, 40, 42], "occurrence_ids": ["AOAY-OCC-00548", "AOAY-OCC-00549", "AOAY-OCC-00778", "AOAY-OCC-00957", "AOAY-OCC-01108"], "notes": ""}
+{"atlas_id": "AOAY-ATL-071", "canonical_name": "Yogoda Math", "aliases": [], "place_type": "INSTITUTION", "state_or_country_subdiv": "West Bengal", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_EXACT_SITE", "occurrence_count": 4, "chapters": [28, 40], "occurrence_ids": ["AOAY-OCC-00556", "AOAY-OCC-00907", "AOAY-OCC-00908", "AOAY-OCC-00909"], "notes": "NIEUW: apart Yogoda-centrum, mogelijk Calcutta-vestiging, nader te identificeren"}
+{"atlas_id": "AOAY-ATL-072", "canonical_name": "Kashi", "aliases": ["Benares", "Varanasi"], "place_type": "CITY", "state_or_country_subdiv": "Uttar Pradesh", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_EVENT_PLACE", "occurrence_count": 34, "chapters": [28, 31, 32, 35], "occurrence_ids": ["AOAY-OCC-00569", "AOAY-OCC-00570", "AOAY-OCC-00571", "AOAY-OCC-00572", 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=450 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/PLACE_ATLAS.jsonl blob_sha=4f760da1eaa8a1fe60fe810f4b81fb1dfdef4753 original_offset=45056 original_length=4096 payload_bytes=4096 chunk_index=11 chunk_count=16 classification=text
+"AOAY-OCC-00573", "AOAY-OCC-00574", "AOAY-OCC-00575", "AOAY-OCC-00576", "AOAY-OCC-00577", "AOAY-OCC-00578", "AOAY-OCC-00579", "AOAY-OCC-00580", "AOAY-OCC-00581", "AOAY-OCC-00582", "AOAY-OCC-00583", "AOAY-OCC-00584", "AOAY-OCC-00585", "AOAY-OCC-00586", "AOAY-OCC-00587", "AOAY-OCC-00588", "AOAY-OCC-00589", "AOAY-OCC-00590", "AOAY-OCC-00591", "AOAY-OCC-00592", "AOAY-OCC-00593", "AOAY-OCC-00594", "AOAY-OCC-00595", "AOAY-OCC-00596", "AOAY-OCC-00648", "AOAY-OCC-00649", "AOAY-OCC-00650", "AOAY-OCC-00680", "AOAY-OCC-00681", "AOAY-OCC-00745"], "notes": "zelfde stad als Benares, andere naam in tekst (hfst. 28 titel 'Kashi, Reborn and Rediscovered')"}
+{"atlas_id": "AOAY-ATL-073", "canonical_name": "Santiniketan", "aliases": [], "place_type": "INSTITUTION", "state_or_country_subdiv": "West Bengal", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_EXACT_SITE", "occurrence_count": 7, "chapters": [29], "occurrence_ids": ["AOAY-OCC-00597", "AOAY-OCC-00598", "AOAY-OCC-00599", "AOAY-OCC-00600", "AOAY-OCC-00601", "AOAY-OCC-00602", "AOAY-OCC-00603"], "notes": "NIEUW: Tagore's school, hfst. 29 'Rabindranath Tagore and I Compare Schools'"}
+{"atlas_id": "AOAY-ATL-074", "canonical_name": "Badrinath", "aliases": ["Badrinarayan"], "place_type": "PILGRIMAGE_SITE", "state_or_country_subdiv": "Uttarakhand", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 1, "chapters": [31], "occurrence_ids": ["AOAY-OCC-00627"], "notes": ""}
+{"atlas_id": "AOAY-ATL-075", "canonical_name": "Kedarnath", "aliases": [], "place_type": "PILGRIMAGE_SITE", "state_or_country_subdiv": "Uttarakhand", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 1, "chapters": [31], "occurrence_ids": ["AOAY-OCC-00628"], "notes": "NIEUW"}
+{"atlas_id": "AOAY-ATL-076", "canonical_name": "Amarnath", "aliases": [], "place_type": "PILGRIMAGE_SITE", "state_or_country_subdiv": "Jammu and Kashmir", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 1, "chapters": [31], "occurrence_ids": ["AOAY-OCC-00629"], "notes": "NIEUW"}
+{"atlas_id": "AOAY-ATL-077", "canonical_name": "Krishnagar", "aliases": [], "place_type": "CITY", "state_or_country_subdiv": "West Bengal", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 2, "chapters": [32, 35], "occurrence_ids": ["AOAY-OCC-00651", "AOAY-OCC-00717"], "notes": "reeds bekend (bij Ghurni, Lahiri Mahasaya's geboorteregio)"}
+{"atlas_id": "AOAY-ATL-078", "canonical_name": "Ranikhet", "aliases": [], "place_type": "TOWN", "state_or_country_subdiv": "Uttarakhand", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_EVENT_PLACE", "occurrence_count": 10, "chapters": [32, 33, 34, 35], "occurrence_ids": ["AOAY-OCC-00655", "AOAY-OCC-00688", "AOAY-OCC-00699", "AOAY-OCC-00700", "AOAY-OCC-00701", "AOAY-OCC-00702", "AOAY-OCC-00703", "AOAY-OCC-00704", "AOAY-OCC-00720", "AOAY-OCC-00721"], "notes": "reeds bevestigd (ATL-MB-002/ATL-LM-005)"}
+{"atlas_id": "AOAY-ATL-079", "canonical_name": "Danapur", "aliases": [], "place_type": "TOWN", "state_or_country_subdiv": "Bihar", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_EVENT_PLACE", "occurrence_count": 5, "chapters": [32, 34], "occurrence_ids": ["AOAY-OCC-00660", "AOAY-OCC-00707", "AOAY-OCC-00708", "AOAY-OCC-00709", "AOAY-OCC-00710"], "notes": "reeds bevestigd (ATL-LM-004)"}
+{"atlas_id": "AOAY-ATL-080", "canonical_name": "Ghurni", "aliases": [], "place_type": "VILLAGE", "state_or_country_subdiv": "West Bengal", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_EVENT_PLACE", "occurrence_count": 2, "chapters": [32], "occurrence_ids": ["AOAY-OCC-00668", "AOAY-OCC-00669"], "notes": "reeds bevestigd (ATL-LM-001)"}
+{"atlas_id": "AOAY-ATL-081", "canonical_name": "Nadia", "aliases": [], "place_type": "DISTRICT", "state_or_country_subdiv": "West Bengal", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 4, "chapters": [32, 34], "occurrence_ids": ["AOAY-OCC-00670", "AOAY-OCC-00671", "AOAY-OCC-00672", "AOAY-O
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=451 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/PLACE_ATLAS.jsonl blob_sha=4f760da1eaa8a1fe60fe810f4b81fb1dfdef4753 original_offset=49152 original_length=4096 payload_bytes=4096 chunk_index=12 chunk_count=16 classification=text
+CC-00712"], "notes": "district van Lahiri Mahasaya's/Hariharananda's geboorteplekken, reeds bekend"}
+{"atlas_id": "AOAY-ATL-082", "canonical_name": "Nanda Devi", "aliases": [], "place_type": "MOUNTAIN", "state_or_country_subdiv": "Uttarakhand", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 1, "chapters": [34], "occurrence_ids": ["AOAY-OCC-00695"], "notes": "NIEUW"}
+{"atlas_id": "AOAY-ATL-083", "canonical_name": "Allahabad", "aliases": [], "place_type": "CITY", "state_or_country_subdiv": "Uttar Pradesh", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_EVENT_PLACE", "occurrence_count": 11, "chapters": [34, 36, 42], "occurrence_ids": ["AOAY-OCC-00698", "AOAY-OCC-00750", "AOAY-OCC-00751", "AOAY-OCC-00752", "AOAY-OCC-01068", "AOAY-OCC-01069", "AOAY-OCC-01070", "AOAY-OCC-01071", "AOAY-OCC-01072", "AOAY-OCC-01073", "AOAY-OCC-01074"], "notes": "Kumbh Mela-context, reeds bevestigd (ATL-MB-003/ATL-PY-010)"}
+{"atlas_id": "AOAY-ATL-084", "canonical_name": "Almora", "aliases": [], "place_type": "TOWN", "state_or_country_subdiv": "Uttarakhand", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 1, "chapters": [34], "occurrence_ids": ["AOAY-OCC-00711"], "notes": "al gevonden als REGION_MISS in Vivekananda-sweep (ATL-VK-009), nu ook AOAY-bronbevestigd"}
+{"atlas_id": "AOAY-ATL-085", "canonical_name": "Bishnupur", "aliases": [], "place_type": "TOWN", "state_or_country_subdiv": "West Bengal", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 1, "chapters": [35], "occurrence_ids": ["AOAY-OCC-00718"], "notes": "NIEUW"}
+{"atlas_id": "AOAY-ATL-086", "canonical_name": "England", "aliases": [], "place_type": "COUNTRY", "state_or_country_subdiv": null, "country": null, "in_india": "NEE", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 7, "chapters": [35, 47, 48], "occurrence_ids": ["AOAY-OCC-00732", "AOAY-OCC-01264", "AOAY-OCC-01265", "AOAY-OCC-01266", "AOAY-OCC-01267", "AOAY-OCC-01339", "AOAY-OCC-01340"], "notes": ""}
+{"atlas_id": "AOAY-ATL-087", "canonical_name": "Indus", "aliases": [], "place_type": "RIVER", "state_or_country_subdiv": null, "country": "India/Pakistan", "in_india": "ONZEKER", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 2, "chapters": [35, 36], "occurrence_ids": ["AOAY-OCC-00738", "AOAY-OCC-00779"], "notes": ""}
+{"atlas_id": "AOAY-ATL-088", "canonical_name": "Kidderpore", "aliases": [], "place_type": "NEIGHBORHOOD", "state_or_country_subdiv": "West Bengal", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 3, "chapters": [36, 42], "occurrence_ids": ["AOAY-OCC-00746", "AOAY-OCC-01047", "AOAY-OCC-01048"], "notes": "NIEUW, Calcutta-havenwijk"}
+{"atlas_id": "AOAY-ATL-089", "canonical_name": "Gaya", "aliases": [], "place_type": "CITY", "state_or_country_subdiv": "Bihar", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 1, "chapters": [36], "occurrence_ids": ["AOAY-OCC-00786"], "notes": "reeds regionaal gedekt (Bodh Gaya-corridor)"}
+{"atlas_id": "AOAY-ATL-090", "canonical_name": "Mount Washington Estates", "aliases": ["Mount Washington"], "place_type": "INSTITUTION", "state_or_country_subdiv": null, "country": "United States", "in_india": "NEE", "tier": "TIER_AOAY_EXACT_SITE", "occurrence_count": 3, "chapters": [37], "occurrence_ids": ["AOAY-OCC-00788", "AOAY-OCC-00789", "AOAY-OCC-00790"], "notes": ""}
+{"atlas_id": "AOAY-ATL-091", "canonical_name": "United States", "aliases": [], "place_type": "COUNTRY", "state_or_country_subdiv": null, "country": null, "in_india": "NEE", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 11, "chapters": [37, 48], "occurrence_ids": ["AOAY-OCC-00795", "AOAY-OCC-01293", "AOAY-OCC-01294", "AOAY-OCC-01295", "AOAY-OCC-01296", "AOAY-OCC-01297", "AOAY-OCC-01298", "AOAY-OCC-01299", "AOAY-OCC-01300", "AOAY-OCC-01301", "AOAY-OCC-01302"], "notes": ""}
+{"atlas_id": "AOAY-ATL-092", "canonical_name": "Boston", "aliases": [], "place_type": "CITY", "state_or_country_subdiv": null
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=452 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/PLACE_ATLAS.jsonl blob_sha=4f760da1eaa8a1fe60fe810f4b81fb1dfdef4753 original_offset=53248 original_length=4096 payload_bytes=4096 chunk_index=13 chunk_count=16 classification=text
+, "country": "United States", "in_india": "NEE", "tier": "TIER_AOAY_EVENT_PLACE", "occurrence_count": 13, "chapters": [37, 40, 48], "occurrence_ids": ["AOAY-OCC-00834", "AOAY-OCC-00835", "AOAY-OCC-00836", "AOAY-OCC-00837", "AOAY-OCC-00838", "AOAY-OCC-00839", "AOAY-OCC-00840", "AOAY-OCC-00948", "AOAY-OCC-01349", "AOAY-OCC-01350", "AOAY-OCC-01351", "AOAY-OCC-01352", "AOAY-OCC-01353"], "notes": ""}
+{"atlas_id": "AOAY-ATL-093", "canonical_name": "Santa Rosa", "aliases": [], "place_type": "CITY", "state_or_country_subdiv": null, "country": "United States", "in_india": "NEE", "tier": "TIER_AOAY_EXACT_SITE", "occurrence_count": 5, "chapters": [38], "occurrence_ids": ["AOAY-OCC-00851", "AOAY-OCC-00852", "AOAY-OCC-00853", "AOAY-OCC-00854", "AOAY-OCC-00855"], "notes": "Luther Burbank"}
+{"atlas_id": "AOAY-ATL-094", "canonical_name": "Konnersreuth", "aliases": [], "place_type": "VILLAGE", "state_or_country_subdiv": null, "country": "Germany", "in_india": "NEE", "tier": "TIER_AOAY_EXACT_SITE", "occurrence_count": 8, "chapters": [39], "occurrence_ids": ["AOAY-OCC-00864", "AOAY-OCC-00865", "AOAY-OCC-00866", "AOAY-OCC-00867", "AOAY-OCC-00868", "AOAY-OCC-00869", "AOAY-OCC-00870", "AOAY-OCC-00871"], "notes": "Therese Neumann, buiten India"}
+{"atlas_id": "AOAY-ATL-095", "canonical_name": "Palestine", "aliases": [], "place_type": "COUNTRY", "state_or_country_subdiv": null, "country": null, "in_india": "NEE", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 4, "chapters": [39, 40, 47], "occurrence_ids": ["AOAY-OCC-00876", "AOAY-OCC-00877", "AOAY-OCC-00914", "AOAY-OCC-01260"], "notes": ""}
+{"atlas_id": "AOAY-ATL-096", "canonical_name": "Eichstatt", "aliases": [], "place_type": "TOWN", "state_or_country_subdiv": null, "country": "Germany", "in_india": "NEE", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 3, "chapters": [39], "occurrence_ids": ["AOAY-OCC-00878", "AOAY-OCC-00879", "AOAY-OCC-00880"], "notes": ""}
+{"atlas_id": "AOAY-ATL-097", "canonical_name": "Bavaria", "aliases": [], "place_type": "STATE", "state_or_country_subdiv": null, "country": "Germany", "in_india": "NEE", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 4, "chapters": [39], "occurrence_ids": ["AOAY-OCC-00882", "AOAY-OCC-00883", "AOAY-OCC-00884", "AOAY-OCC-00885"], "notes": ""}
+{"atlas_id": "AOAY-ATL-098", "canonical_name": "Germany", "aliases": [], "place_type": "COUNTRY", "state_or_country_subdiv": null, "country": null, "in_india": "NEE", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 4, "chapters": [39, 40], "occurrence_ids": ["AOAY-OCC-00886", "AOAY-OCC-00887", "AOAY-OCC-00888", "AOAY-OCC-00925"], "notes": ""}
+{"atlas_id": "AOAY-ATL-099", "canonical_name": "Italy", "aliases": [], "place_type": "COUNTRY", "state_or_country_subdiv": null, "country": null, "in_india": "NEE", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 2, "chapters": [39, 47], "occurrence_ids": ["AOAY-OCC-00900", "AOAY-OCC-01286"], "notes": ""}
+{"atlas_id": "AOAY-ATL-100", "canonical_name": "Wardha", "aliases": [], "place_type": "CITY", "state_or_country_subdiv": "Maharashtra", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_EXACT_SITE", "occurrence_count": 12, "chapters": [40, 44], "occurrence_ids": ["AOAY-OCC-00954", "AOAY-OCC-01174", "AOAY-OCC-01175", "AOAY-OCC-01176", "AOAY-OCC-01177", "AOAY-OCC-01178", "AOAY-OCC-01179", "AOAY-OCC-01180", "AOAY-OCC-01181", "AOAY-OCC-01182", "AOAY-OCC-01183", "AOAY-OCC-01184"], "notes": "Gandhi/Maganvadi, reeds bevestigd (ATL-PY-006)"}
+{"atlas_id": "AOAY-ATL-101", "canonical_name": "South India", "aliases": [], "place_type": "REGION", "state_or_country_subdiv": null, "country": "India", "in_india": "JA", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 2, "chapters": [41], "occurrence_ids": ["AOAY-OCC-00967", "AOAY-OCC-00968"], "notes": ""}
+{"atlas_id": "AOAY-ATL-102", "canonical_name": "Hyderabad", "aliases": [], "place_type": "CITY", "state_or_country_subdiv": "Telangana", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_EVENT_PLACE", "occurrence_count": 4, "chapters": [41], "occurrence_ids": ["AOAY-OCC-00969", 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=453 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/PLACE_ATLAS.jsonl blob_sha=4f760da1eaa8a1fe60fe810f4b81fb1dfdef4753 original_offset=57344 original_length=4096 payload_bytes=4096 chunk_index=14 chunk_count=16 classification=text
+"AOAY-OCC-00970", "AOAY-OCC-00971", "AOAY-OCC-00972"], "notes": "NIEUW t.o.v. bestaande repo (Vivekananda-sweep noemde dit al als lager geprioriteerd transitpunt)"}
+{"atlas_id": "AOAY-ATL-103", "canonical_name": "Bangalore", "aliases": [], "place_type": "CITY", "state_or_country_subdiv": "Karnataka", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_TRANSIT", "occurrence_count": 2, "chapters": [41], "occurrence_ids": ["AOAY-OCC-00973", "AOAY-OCC-00974"], "notes": "reeds bekend via Yogananda 1935-tour"}
+{"atlas_id": "AOAY-ATL-104", "canonical_name": "Godavari", "aliases": [], "place_type": "RIVER", "state_or_country_subdiv": null, "country": "India", "in_india": "JA", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 1, "chapters": [41], "occurrence_ids": ["AOAY-OCC-00975"], "notes": ""}
+{"atlas_id": "AOAY-ATL-105", "canonical_name": "Mysore", "aliases": [], "place_type": "CITY", "state_or_country_subdiv": "Karnataka", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_EVENT_PLACE", "occurrence_count": 23, "chapters": [41, 47], "occurrence_ids": ["AOAY-OCC-00993", "AOAY-OCC-00994", "AOAY-OCC-00995", "AOAY-OCC-00996", "AOAY-OCC-00997", "AOAY-OCC-00998", "AOAY-OCC-00999", "AOAY-OCC-01000", "AOAY-OCC-01001", "AOAY-OCC-01002", "AOAY-OCC-01003", "AOAY-OCC-01004", "AOAY-OCC-01005", "AOAY-OCC-01006", "AOAY-OCC-01007", "AOAY-OCC-01008", "AOAY-OCC-01009", "AOAY-OCC-01010", "AOAY-OCC-01011", "AOAY-OCC-01012", "AOAY-OCC-01013", "AOAY-OCC-01278", "AOAY-OCC-01279"], "notes": "reeds gevonden als ATL-PY-008 (C.V. Raman-ontmoeting)"}
+{"atlas_id": "AOAY-ATL-106", "canonical_name": "Belur", "aliases": [], "place_type": "TEMPLE", "state_or_country_subdiv": "Karnataka", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 1, "chapters": [41], "occurrence_ids": ["AOAY-OCC-01015"], "notes": "CORRECTIE (gevonden bij CCI_TASK 084/Yogananda-freeze): dit is het 11e-eeuwse Chennakesava-tempelcomplex in Belur, Karnataka (Hoysala-architectuur, koning Vishnuvardhana) -- een historisch-architecturale zijsprong in de Mysore-context, GEEN persoonlijk bezoek en NIET Belur Math (West-Bengal, bij Vivekananda-sweep ATL-VK-002). Oorspronkelijke identificatie in dit bestand was fout; hierbij gecorrigeerd, niet stil verwijderd."}
+{"atlas_id": "AOAY-ATL-107", "canonical_name": "Kolar", "aliases": [], "place_type": "TOWN", "state_or_country_subdiv": "Karnataka", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 1, "chapters": [41], "occurrence_ids": ["AOAY-OCC-01016"], "notes": "NIEUW"}
+{"atlas_id": "AOAY-ATL-108", "canonical_name": "Patna", "aliases": [], "place_type": "CITY", "state_or_country_subdiv": "Bihar", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 1, "chapters": [41], "occurrence_ids": ["AOAY-OCC-01041"], "notes": ""}
+{"atlas_id": "AOAY-ATL-109", "canonical_name": "Kumbha Mela", "aliases": [], "place_type": "EVENT_SITE", "state_or_country_subdiv": "Uttar Pradesh", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_EVENT_PLACE", "occurrence_count": 2, "chapters": [42], "occurrence_ids": ["AOAY-OCC-01045", "AOAY-OCC-01046"], "notes": "= Allahabad Kumbh Mela"}
+{"atlas_id": "AOAY-ATL-110", "canonical_name": "Rajputana", "aliases": [], "place_type": "HISTORIC_REGION", "state_or_country_subdiv": null, "country": "India", "in_india": "JA", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 1, "chapters": [42], "occurrence_ids": ["AOAY-OCC-01063"], "notes": "reeds bekend via Vivekananda-sweep"}
+{"atlas_id": "AOAY-ATL-111", "canonical_name": "Nasik", "aliases": [], "place_type": "CITY", "state_or_country_subdiv": "Maharashtra", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 1, "chapters": [42], "occurrence_ids": ["AOAY-OCC-01107"], "notes": "NIEUW"}
+{"atlas_id": "AOAY-ATL-112", "canonical_name": "Jumna", "aliases": ["Yamuna"], "place_type": "RIVER", "state_or_country_subdiv": null, "country": "India", "in_india": "JA", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_co
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=454 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/PLACE_ATLAS.jsonl blob_sha=4f760da1eaa8a1fe60fe810f4b81fb1dfdef4753 original_offset=61440 original_length=3854 payload_bytes=3854 chunk_index=15 chunk_count=16 classification=text
+unt": 3, "chapters": [42], "occurrence_ids": ["AOAY-OCC-01109", "AOAY-OCC-01110", "AOAY-OCC-01111"], "notes": ""}
+{"atlas_id": "AOAY-ATL-113", "canonical_name": "Ahmedabad", "aliases": [], "place_type": "CITY", "state_or_country_subdiv": "Gujarat", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 1, "chapters": [44], "occurrence_ids": ["AOAY-OCC-01160"], "notes": "NIEUW"}
+{"atlas_id": "AOAY-ATL-114", "canonical_name": "Poona", "aliases": [], "place_type": "CITY", "state_or_country_subdiv": "Maharashtra", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 1, "chapters": [44], "occurrence_ids": ["AOAY-OCC-01185"], "notes": "NIEUW"}
+{"atlas_id": "AOAY-ATL-115", "canonical_name": "Dehra Dun", "aliases": [], "place_type": "CITY", "state_or_country_subdiv": "Uttarakhand", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 1, "chapters": [45], "occurrence_ids": ["AOAY-OCC-01212"], "notes": "NIEUW"}
+{"atlas_id": "AOAY-ATL-116", "canonical_name": "Dacca", "aliases": [], "place_type": "CITY", "state_or_country_subdiv": null, "country": "Bangladesh (destijds Brits-Indië)", "in_india": "ONZEKER", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 1, "chapters": [45], "occurrence_ids": ["AOAY-OCC-01224"], "notes": "nu buiten India"}
+{"atlas_id": "AOAY-ATL-117", "canonical_name": "Purulia", "aliases": [], "place_type": "DISTRICT", "state_or_country_subdiv": "West Bengal", "country": "India", "in_india": "JA", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 3, "chapters": [46], "occurrence_ids": ["AOAY-OCC-01231", "AOAY-OCC-01232", "AOAY-OCC-01233"], "notes": "NIEUW"}
+{"atlas_id": "AOAY-ATL-118", "canonical_name": "Detroit", "aliases": [], "place_type": "CITY", "state_or_country_subdiv": null, "country": "United States", "in_india": "NEE", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 1, "chapters": [46], "occurrence_ids": ["AOAY-OCC-01237"], "notes": ""}
+{"atlas_id": "AOAY-ATL-119", "canonical_name": "San Francisco", "aliases": [], "place_type": "CITY", "state_or_country_subdiv": null, "country": "United States", "in_india": "NEE", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 1, "chapters": [48], "occurrence_ids": ["AOAY-OCC-01303"], "notes": ""}
+{"atlas_id": "AOAY-ATL-120", "canonical_name": "Mississippi", "aliases": [], "place_type": "RIVER/STATE", "state_or_country_subdiv": null, "country": "United States", "in_india": "NEE", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 1, "chapters": [48], "occurrence_ids": ["AOAY-OCC-01308"], "notes": ""}
+{"atlas_id": "AOAY-ATL-121", "canonical_name": "Hollywood", "aliases": [], "place_type": "NEIGHBORHOOD", "state_or_country_subdiv": null, "country": "United States", "in_india": "NEE", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 2, "chapters": [48], "occurrence_ids": ["AOAY-OCC-01320", "AOAY-OCC-01321"], "notes": ""}
+{"atlas_id": "AOAY-ATL-122", "canonical_name": "Encinitas", "aliases": [], "place_type": "CITY", "state_or_country_subdiv": null, "country": "United States", "in_india": "NEE", "tier": "TIER_AOAY_EXACT_SITE", "occurrence_count": 10, "chapters": [48], "occurrence_ids": ["AOAY-OCC-01322", "AOAY-OCC-01323", "AOAY-OCC-01324", "AOAY-OCC-01325", "AOAY-OCC-01326", "AOAY-OCC-01327", "AOAY-OCC-01328", "AOAY-OCC-01329", "AOAY-OCC-01330", "AOAY-OCC-01331"], "notes": "SRF-hermitage, hoofdstuk 48 volledig hieraan gewijd"}
+{"atlas_id": "AOAY-ATL-123", "canonical_name": "San Diego", "aliases": [], "place_type": "CITY", "state_or_country_subdiv": null, "country": "United States", "in_india": "NEE", "tier": "TIER_AOAY_MENTION_ONLY", "occurrence_count": 5, "chapters": [48], "occurrence_ids": ["AOAY-OCC-01332", "AOAY-OCC-01333", "AOAY-OCC-01334", "AOAY-OCC-01335", "AOAY-OCC-01336"], "notes": ""}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=455 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/CCI_MASTER_QA_TASK.md blob_sha=51ce5fd3813281cb03478962e34027d573d974dd original_offset=0 original_length=2740 payload_bytes=2740 chunk_index=0 chunk_count=1 classification=text
+# CCI MASTER QA TASK — ALL FINDINGS LOCATION MASTER
+
+## ROLE
+CCI is an independent QA/reconciliation partner, NOT a new color/workstream. INDIA8/9 remains central integrator and Mark remains final A/B/C editor.
+
+## REPOSITORY
+`bnzgxknwrv-tech/india-knowledge-base`
+
+## PRIMARY CENTRAL BRANCH
+Read central integration state from `agent/india8-cluster-casting`.
+Do not merge or modify protected A/B/C/IDs/locks.
+
+## REQUIRED FIRST READ
+1. `governance/INDIA_REGIE_DOORGANGSPROTOCOL_2026-08-20.md`
+2. `governance/LOCATION_RESOLUTION_BEFORE_ABC_2026-08-19.md`
+3. `runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/MASTER_SCHEMA.md`
+4. `runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/MASTER_INGEST_STATE.md`
+5. `runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/FINAL_FEED_MANIFEST.md`
+
+## OBJECTIVE
+Independently QA the central-master construction. The goal is NOT new broad discovery. The goal is to catch integration mistakes before Mark sees A/B/C-ready cluster lists.
+
+Audit specifically:
+- source-record accounting closes with zero silent drops;
+- no physical micro-site was collapsed into a parent complex;
+- no historic structure was silently equated with a modern successor;
+- same-site overlap is physical, not city-name-only;
+- Babaji claimant traditions remain separated;
+- R4/R5 records remain visible and excluded from A/B/C until sufficiently resolved;
+- existing permanent IDs 001-081 and all old A/B/C/locks remain unchanged;
+- newly resolved R1-R3 entities that need a new permanent ID are staged exactly once;
+- aliases/duplicates preserve all source links;
+- AOAY/Yogananda P0 scenes remain visible even when micro-location is approximate;
+- heritage stays and preserved rooms are not lost in generic site rows;
+- ZILVER proximity claims are only used when both coordinates passed its reliability gate;
+- East findings remain preserved even though East is currently route-deprioritized.
+
+## INPUT FEEDS TO EXPECT
+- BLAUW AOAY/Yogananda complete feed
+- TURQUOISE entity/same-site/parent-child/successor reconciliation
+- GEEL four-person closure
+- WIT Anandamayi/heritage closure
+- ROOD Core-Kriya closure
+- ZILVER final proximity/new-ID staging
+
+## OUTPUT
+Write a durable QA report under a new CCI task path on your normal CCI/Claude working branch, or post result to the existing CCI reporting channel/PR #23 if that is current CCI governance.
+The report must include:
+1. `MASTER_QA_VERDICT`: PASS / PASS_WITH_FIXES / FAIL
+2. exact accounting or integration defects with source refs
+3. any duplicate/silent-drop/parent-child/successor errors
+4. any A/B/C-readiness errors
+5. required fixes ordered P0/P1/P2
+6. `NEXT_ALLOWED_STEP`
+
+Do not start a new person sweep. Do not make route choices. Do not assign A/B/C.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=456 path=runs/active/KUMAON-V2-RESWEEP-001/STATUS.md blob_sha=52a4adffc85e9f6eaabc77c8903b930369fd0a8a original_offset=0 original_length=3169 payload_bytes=3169 chunk_index=0 chunk_count=1 classification=text
+# STATUS — KUMAON-V2-RESWEEP-001
+
+```
+task_id: KUMAON-V2-RESWEEP-001
+state: RECONCILED_PARTIAL — 079/080/081 PERMANENT_A_LOCKED, overige kandidaten tijdelijk
+task_file: runs/active/KUMAON-V2-RESWEEP-001/TASK.md
+status_file: runs/active/KUMAON-V2-RESWEEP-001/STATUS.md
+result_file: runs/active/KUMAON-V2-RESWEEP-001/RESULT.md
+sweep_b_file: runs/active/KUMAON-V2-RESWEEP-001/INDIA_SWEEP_B.md (branch india/kumaon-v2-sweep-b-001)
+reconciliation_file: runs/active/KUMAON-V2-RESWEEP-001/RECONCILIATION.md
+miss_rescue_file: runs/active/KUMAON-V2-RESWEEP-001/MISS_ROOT_CAUSE_RESCUE.md
+last_updated: 2026-08-15
+last_updated_by: CCI (miss root-cause + rescue na CCI_TASK 078)
+```
+
+**blockers**: geen.
+
+**Reconciliatie-samenvatting**: Sweep A (CCI, 8 temp-ID's) vs Sweep B (INDIA, 45 temp-ID's,
+bevroren op branch `india/kumaon-v2-sweep-b-001`) vs legacy `KUMAON-COMPLETE-001` (branch
+`controller/kumaon-complete-001-ready-for-zilver-20260719`, 46 genummerde locaties + LOCKED
+A/B/C) vergeleken. Babaji-grot (`KUM-SWEEP-A-001`/`KB2-001`/legacy `#15`) drievoudig fysiek
+bevestigd + dubbel Mark-bevestigd — permanent nummer **079**, `A`, `LOCKED_BY_MARK`.
+
+**Miss root-cause + rescue (2026-08-15, CCI_TASK 078)**: gerichte rescue-audit op alle 16
+Kumaon-`LOCKED_A`-locaties uitgevoerd. 2 hoge-ernst misses bevestigd en verklaard: **Turiya
+Niwas** (protocolgat — laag-3-zoeken beperkte zich tot formele tempels/complexen, geen
+Top-11-link dus niet via die route gevonden) en **Bodh Ashram** (onvoldoende host-/landgoedketen-
+zoeklogica — beide sweeps zochten vanuit Anandamayi Ma/Neem Karoli Baba naar hun EIGEN
+instellingen, niet naar het landgoed van gastheer Lama Govinda waar zij op bezoek waren; dubbele
+Top-11-link herverifieerd en bevestigd). Beide opnieuw geverifieerd, geen Mark-conflict, nu
+permanente nummers **080** (Turiya Niwas) en **081** (Bodh Ashram), beide `A`, `LOCKED_BY_MARK`.
+2 aanvullende, lagere-ernst nominale misses gevonden (Babaji Smriti Bhavan, Crank's Ridge) — beide
+sub-onderdelen van een reeds gevonden cluster (079 resp. Kasar Devi), geen apart zoekgat, geen
+actie nodig. `governance/SWEEP_PROTOCOL.md` poort E.1 minimaal gepatcht (host-/landgoedketen bij
+Top-11-zoeken; informele historische verblijfplaatsen expliciet toegestaan bij laag 3).
+
+Sterke overlap tussen Sweep A/B en legacy voor Kainchi Dham, Kasar Devi, Jageshwar, Haidakhan,
+Ramakrishna Kutir, Chitai Golu Devta. Substantieel nieuw materiaal uit Sweep B: een uitgebreid
+Vivekananda-circuit (15 punten) dat legacy niet zo gedetailleerd had. Eén bronconflict (Bhumiadhar
+vs Bhumiya Dhara-identiteit) gedeeltelijk opgelost via legacy DECISION-0002, blijft deels open.
+Geen `MARK_BESLUIT_CONFLICT`. Volledige tabellen: `RECONCILIATION.md` +
+`MISS_ROOT_CAUSE_RESCUE.md`.
+
+**next_allowed_step**: coördinaten voor 079/080/081 verifiëren; Bhumiadhar/Bhumiya Dhara-identiteit
+verder uitzoeken; per resterend Vivekananda-circuitpunt uit Sweep B een identity-check tegen
+legacy vóór verdere permanente toekenning. Geen PDF, geen route, geen A/B/C voor andere locaties
+dan 079/080/081.
+
+---
+Dit bestand is de kortste, altijd-actuele bron van waarheid voor deze taak (poort O.1).
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=457 path=runs/active/TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl blob_sha=52a5b7cbde76879b1f1a5f97c4544df2338bfe2e original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=6 classification=text
+{"person": "Ramana Maharshi", "internal_id": "intern-1", "external_id": "R001", "indiageel_id": "RM-001", "outcome": "MATCH_EXISTING", "place": "Geboortehuis Tiruchuzhi", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-2", "external_id": "R002-R004", "indiageel_id": "RM-002/RM-003", "outcome": "MATCH_EXISTING", "place": "Sri Sahayavalli-schrijn", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-3", "external_id": "R006-R007", "indiageel_id": "RM-004", "outcome": "MATCH_EXISTING", "place": "Dindigul-school", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-4/5", "external_id": "R008-R009", "indiageel_id": "RM-005", "outcome": "MATCH_EXISTING", "place": "Oom Subba Iyer's huis + realisatiekamer", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "093-unresolved", "external_id": "R010-R011", "indiageel_id": "RM-006/RM-007", "outcome": "MATCH_EXISTING", "place": "Scott's/American Mission School", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": null, "external_id": "R012-R013", "indiageel_id": "RM-008", "outcome": "EXTERNAL_AND_INDIAGEEL_MATCH", "place": "Meenakshi-tempel", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-6", "external_id": "R014", "indiageel_id": "RM-010", "outcome": "MATCH_EXISTING", "place": "Madurai Junction", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-7/8/9", "external_id": "R015-R025", "indiageel_id": "RM-011-RM-020", "outcome": "MATCH_EXISTING", "place": "Treinreis Madurai-Tiruvannamalai", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-10", "external_id": "R027", "indiageel_id": "RM-022", "outcome": "MATCH_EXISTING", "place": "Ayyankulam-tank", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-11", "external_id": "R028-R029", "indiageel_id": "RM-023-RM-024", "outcome": "MATCH_EXISTING", "place": "Duizendzuilenhal+Patala Lingam", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-12", "external_id": "R030", "indiageel_id": "RM-025", "outcome": "MATCH_EXISTING", "place": "Gopura Subramanya-schrijn", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-13/14", "external_id": "R031-R035", "indiageel_id": "RM-026-RM-028", "outcome": "MATCH_EXISTING", "place": "Tuin/bananenbos/opslag/Illupai/Mangai Pillayar", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-15", "external_id": "R037", "indiageel_id": "RM-029", "outcome": "MATCH_EXISTING", "place": "Gurumurtam", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-13", "external_id": "R038", "indiageel_id": "RM-030", "outcome": "MATCH_EXISTING", "place": "Mangobongaard Gurumurtam", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-14", "external_id": "R039", "indiageel_id": "RM-031", "outcome": "MATCH_EXISTING", "place": "Arunagirinathar-tempel", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": null, "external_id": "R040-R041", "indiageel_id": "RM-032-RM-033", "o
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=458 path=runs/active/TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl blob_sha=52a5b7cbde76879b1f1a5f97c4544df2338bfe2e original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=6 classification=text
+utcome": "EXTERNAL_AND_INDIAGEEL_MATCH", "place": "Tempeltoren+oleandertuin", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-16", "external_id": "R042-R043", "indiageel_id": "RM-034", "outcome": "MATCH_EXISTING", "place": "Pavalakkunru", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": null, "external_id": "R044", "indiageel_id": "RM-035", "outcome": "EXTERNAL_AND_INDIAGEEL_MATCH", "place": "Satguru Swami Cave", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": null, "external_id": "R045", "indiageel_id": "RM-036", "outcome": "EXTERNAL_AND_INDIAGEEL_MATCH", "place": "Guhai Namasivaya Cave", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-17", "external_id": "R046", "indiageel_id": "RM-037", "outcome": "MATCH_EXISTING", "place": "Virupaksha-grot", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-18", "external_id": "R047-R048", "indiageel_id": "RM-038", "outcome": "MATCH_EXISTING", "place": "Mango Tree-grot", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-19", "external_id": "R049-R050", "indiageel_id": "RM-039", "outcome": "MATCH_EXISTING", "place": "Pachaiamman Koil", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-20", "external_id": "R051", "indiageel_id": "RM-040", "outcome": "MATCH_EXISTING", "place": "Tortoise Rock", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-21", "external_id": "R052-R053", "indiageel_id": "RM-042", "outcome": "MATCH_EXISTING", "place": "Skandashram", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": null, "external_id": "R056", "indiageel_id": "RM-050", "outcome": "EXTERNAL_AND_INDIAGEEL_MATCH", "place": "Arunachala-top/Deepam", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": null, "external_id": "R067", "indiageel_id": "RM-049", "outcome": "EXTERNAL_AND_INDIAGEEL_MATCH", "place": "Ramana's Bridge", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-22", "external_id": "R069-R103 (30+ sublocaties)", "indiageel_id": "RM-043-RM-048 (6 records)", "outcome": "MATCH_EXISTING", "place": "Sri Ramanasramam-complex", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": null, "external_id": "R036", "indiageel_id": null, "outcome": "EXTERNAL_ONLY_CLAIM", "place": "Grootvaders huis bij tempelwagen", "note": "Onderbouwd met Ramana's eigen Narasimhaswami-notities citaat; niet apart geverifieerd, PLAUSIBLE.", "verdict": "PLAUSIBLE"}
+{"person": "Ramana Maharshi", "internal_id": null, "external_id": "R054", "indiageel_id": null, "outcome": "EXTERNAL_ONLY_CLAIM", "place": "Kandaswami-hut/rotsbron", "note": "Specifieke bronvermelding P14, niet apart geverifieerd.", "verdict": "PLAUSIBLE"}
+{"person": "Ramana Maharshi", "internal_id": null, "external_id": "R055", "indiageel_id": "RM-041", "outcome": "MATCH_EXISTING", "place": "Seven Springs", "note": "IndiaGEEL citeert Ramana's eigen Day-by-Day-relaas rechtstreeks, sterker brontype dan extern's secundaire herinnering."}
+{"person": "Ramana Maharshi", "internal_id": null, "external_id": null, "indiageel_id": "RM-009", "outcome": "INDIAGEEL_ONLY_CLAIM", "place": "Azhagar Koil", "note": "CONFIRMED Tier-1 woordelijk via gururamana.org.", "verdict"
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=459 path=runs/active/TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl blob_sha=52a5b7cbde76879b1f1a5f97c4544df2338bfe2e original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=6 classification=text
+: "CONFIRMED"}
+{"person": "Ramana Maharshi", "internal_id": null, "external_id": null, "indiageel_id": "RM-051", "outcome": "INDIAGEEL_ONLY_CLAIM", "place": "Banyanboom/horzelsteek-route", "note": "CONFIRMED Tier-1 woordelijk via Day by Day with Bhagavan 1946.05.02.", "verdict": "CONFIRMED"}
+{"person": "Ramana Maharshi", "internal_id": "intern-15", "external_id": "R037", "indiageel_id": "RM-029", "outcome": "CONFLICT", "place": "Gurumurtam-datum 1897 vs 1898", "note": "Drievoudig herkend conflict tussen afgeleide tijdlijnen; niet opgelost."}
+{"person": "Ramana Maharshi", "internal_id": null, "external_id": "R057-R068 (10 microstops)", "indiageel_id": null, "outcome": "EXTERNAL_ONLY_CLAIM", "place": "Giripradakshina-microcluster (Unnamulai-tank, Sona Tirtham, Gautama Ashram, Venamma's mangoboom, Adi Annamalai-zijpad)", "note": "Niet apart geverifieerd, uniek aan extern-ChatGPT-detector."}
+{"person": "Ramakrishna", "internal_id": "record-1", "external_id": "RK-001", "indiageel_id": "RK-001", "outcome": "MATCH_EXISTING", "place": "Geboortehuis Kamarpukur", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramakrishna", "internal_id": "record-2", "external_id": "RK-006/RK-008", "indiageel_id": "RK-006/RK-008", "outcome": "MATCH_EXISTING", "place": "Haidar-tank/Bhuti-beek/mangoboomgaard", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramakrishna", "internal_id": "record-3", "external_id": "RK-004", "indiageel_id": "None", "outcome": "MATCH_EXISTING", "place": "Raghuvir/Sitala-familietempel", "note": "Intern/extern match; IndiaGEEL heeft dit niet los."}
+{"person": "Ramakrishna", "internal_id": "record-4", "external_id": "RK-012", "indiageel_id": "None", "outcome": "MATCH_EXISTING", "place": "Lakshmijala-akker (vaders visioen)", "note": "Extern voegt eigen ALLEEN_PLAATS-voorzichtigheid toe, consistent met intern ONZEKER."}
+{"person": "Ramakrishna", "internal_id": "record-5", "external_id": "RK-005", "indiageel_id": "RK-005", "outcome": "MATCH_EXISTING", "place": "School van de Laha's", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramakrishna", "internal_id": "record-6", "external_id": "RK-016/RK-017", "indiageel_id": "RK-007", "outcome": "MATCH_EXISTING", "place": "Huis van Sitanath Pyne", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramakrishna", "internal_id": "record-7", "external_id": "None", "indiageel_id": "None", "outcome": "INTERNAL_ONLY_NEGATIVE_CONTROL", "place": "Dere (vaders herkomstdorp, NEE)", "note": "Geen tegenspraak; niet apart genoemd door externe detectoren."}
+{"person": "Ramakrishna", "internal_id": "record-8", "external_id": "None", "indiageel_id": "RK-013", "outcome": "MATCH_EXISTING", "place": "Jayrambati (huwelijksdorp)", "note": "Extern-match niet apart bevestigd binnen taakbudget."}
+{"person": "Ramakrishna", "internal_id": "record-9", "external_id": "None", "indiageel_id": "RK-014", "outcome": "MATCH_EXISTING", "place": "Sihar/Sihore", "note": "IndiaGEEL specificeert koeherders-voederingsepisode; PLAUSIBLE, niet Tier-1."}
+{"person": "Ramakrishna", "internal_id": null, "external_id": "RK-011", "indiageel_id": "RK-011", "outcome": "EXTERNAL_AND_INDIAGEEL_MATCH", "place": "Puri-weg pelgrimsschuilplaats bij Kamarpukur", "note": "Negatieve-controle-anker (geen Puri-bezoek)."}
+{"person": "Ramakrishna", "internal_id": "record-10", "external_id": "RK-027", "indiageel_id": "RK-015", "outcome": "MATCH_EXISTING", "place": "Ramkumar's Sanskrit-Tol, Calcutta", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramakrishna", "internal_id": "record-11", "external_id": "RK-030-RK-035", "indiageel_id": "RK-016-RK-018", "outcome": "MATCH_EXISTING", "place": "Dakshineswar Kali-tempel/sanctum-cluster", "note": "EXTERNAL_MORE_GRANULAR: 6 sublocaties bij extern vs. 1 intern record."}
+{"person": "Ramakrishna", "internal_id": "record-12", "external_id": "RK-036-RK-040", "indiag
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=460 path=runs/active/TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl blob_sha=52a5b7cbde76879b1f1a5f97c4544df2338bfe2e original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=6 classification=text
+eel_id": "RK-019/RK-020/RK-023", "outcome": "MATCH_EXISTING", "place": "Panchavati (incl. amalaki/bilva/jhautala)", "note": "EXTERNAL_MORE_GRANULAR; IndiaGEEL voegt Christus-visioenpad toe."}
+{"person": "Ramakrishna", "internal_id": null, "external_id": "RK-041/RK-042", "indiageel_id": "RK-021", "outcome": "EXTERNAL_AND_INDIAGEEL_MATCH", "place": "Ganges-oever/ghat onder Panchavati", "note": "Niet apart bij intern."}
+{"person": "Ramakrishna", "internal_id": null, "external_id": "RK-047", "indiageel_id": "RK-022", "outcome": "EXTERNAL_AND_INDIAGEEL_MATCH", "place": "Jadu Mallick's tuinhuis, Dakshineswar", "note": "Niet apart bij intern."}
+{"person": "Ramakrishna", "internal_id": null, "external_id": "RK-044", "indiageel_id": "None", "outcome": "EXTERNAL_ONLY_CLAIM", "place": "Nahabat (muziektoren)", "note": "PLAUSIBLE, niet apart Tier-1-geverifieerd."}
+{"person": "Ramakrishna", "internal_id": null, "external_id": "RK-048", "indiageel_id": "None", "outcome": "EXTERNAL_ONLY_CLAIM", "place": "Sambhu Charan Mallick's tuinhuis/dispensarium", "note": "PLAUSIBLE, niet apart Tier-1-geverifieerd."}
+{"person": "Ramakrishna", "internal_id": "record-13", "external_id": "RK-135", "indiageel_id": "RK-024", "outcome": "MATCH_EXISTING", "place": "Vaidyanath/Deoghar", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramakrishna", "internal_id": "record-13b", "external_id": "RK-025/RK-136", "indiageel_id": "RK-025", "outcome": "MATCH_EXISTING", "place": "Arm dorp bij Deoghar", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramakrishna", "internal_id": "record-14", "external_id": "RK-026-RK-029/RK-138-RK-141", "indiageel_id": "RK-026-RK-029", "outcome": "MATCH_EXISTING", "place": "Kedarghat/Vishwanath-cluster, Kasi", "note": "EXTERNAL_MORE_GRANULAR = INDIAGEEL_MORE_GRANULAR t.o.v. intern; beide identiek in 4 sublocaties."}
+{"person": "Ramakrishna", "internal_id": "record-17", "external_id": "RK-031/RK-144", "indiageel_id": "RK-031", "outcome": "MATCH_EXISTING", "place": "Trailanga Swami bij Manikarnika", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramakrishna", "internal_id": null, "external_id": "RK-032/RK-161", "indiageel_id": "RK-032", "outcome": "EXTERNAL_AND_INDIAGEEL_MATCH", "place": "Maheshchandra Sarkar's huis, Madanpura", "note": "Lost impliciet 093-detail (vina-speler Mahesh) op met adres."}
+{"person": "Ramakrishna", "internal_id": null, "external_id": "RK-033/RK-159", "indiageel_id": "RK-033", "outcome": "EXTERNAL_AND_INDIAGEEL_MATCH", "place": "Gouden Annapurna-schrijn", "note": "Niet apart bij intern."}
+{"person": "Ramakrishna", "internal_id": "record-15", "external_id": "RK-034/RK-147", "indiageel_id": "RK-034", "outcome": "MATCH_EXISTING", "place": "Prayag/Triveni Sangam", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramakrishna", "internal_id": "record-16", "external_id": "RK-149", "indiageel_id": "RK-035", "outcome": "INDIAGEEL_MORE_GRANULAR", "place": "Fouzdar Kunj, Retia Bazar (Vrindavan-verblijf)", "note": "INDIAGEEL_ONLY_CLAIM — CONFIRMED Tier-1, zie §2 reconciliatiedoc. Intern/extern blijven generiek."}
+{"person": "Ramakrishna", "internal_id": "record-16b", "external_id": "RK-036/RK-150", "indiageel_id": "RK-036", "outcome": "MATCH_EXISTING", "place": "Banke Bihari/Vankavihari-tempel", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramakrishna", "internal_id": "record-16c", "external_id": "RK-038/RK-153-RK-154", "indiageel_id": "RK-038", "outcome": "MATCH_EXISTING", "place": "Nidhuvan-bosje + Gangamata's hut", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramakrishna", "internal_id": null, "external_id": "RK-039-RK-043/RK-155-RK-157", "indiageel_id": "RK-039-RK-041/RK-043", "outcome": "EXTERNAL_AND_INDIAGEEL_MATCH", "place": "Govardhan/Radha Kund/Shyam Kund/Dhruva Ghat", "note": "Niet apart bij intern (alleen al
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=461 path=runs/active/TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl blob_sha=52a5b7cbde76879b1f1a5f97c4544df2338bfe2e original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=6 classification=text
+gemeen Vrindavan)."}
+{"person": "Ramakrishna", "internal_id": null, "external_id": "None", "indiageel_id": "RK-042", "outcome": "INDIAGEEL_ONLY_CLAIM", "place": "Kusum Sarovar", "note": "PLAUSIBLE, niet Tier-1-geverifieerd; geen treffer bij extern of intern."}
+{"person": "Ramakrishna", "internal_id": "record-17b", "external_id": "RK-030/RK-143", "indiageel_id": "RK-030", "outcome": "MATCH_EXISTING", "place": "Manikarnika Ghat, terugkeer naar Kasi", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramakrishna", "internal_id": "record-19", "external_id": "RK-166/RK-167", "indiageel_id": "RK-044/RK-045", "outcome": "MATCH_EXISTING", "place": "Kalna (Bhagavan Das Babaji)", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramakrishna", "internal_id": "record-18", "external_id": "RK-170/RK-171", "indiageel_id": "None", "outcome": "MATCH_EXISTING", "place": "Navadwip", "note": "Geen detector granulariseert verder dan plaatsniveau; extern bevestigt zelf dezelfde terughoudendheid."}
+{"person": "Ramakrishna", "internal_id": "record-20", "external_id": "RK-165", "indiageel_id": "None", "outcome": "MATCH_EXISTING", "place": "Kalutola Harisabha", "note": "IndiaGEEL heeft dit niet apart teruggevonden."}
+{"person": "Ramakrishna", "internal_id": "record-21", "external_id": "RK-069", "indiageel_id": "RK-046/RK-048", "outcome": "MATCH_EXISTING", "place": "Panihati-festival (algemeen, 1858/59-1885)", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramakrishna", "internal_id": null, "external_id": "RK-059", "indiageel_id": "RK-049", "outcome": "CONFLICT", "place": "Mati Seal's tuinreservoir (vissen-onderricht)", "note": "Datumconflict 18 jun 1883 (extern, Tier-1 bevestigd tegen Gospel-brontekst) vs. 1885 (IndiaGEEL, FOUT). Plaats zelf EXTERNAL_AND_INDIAGEEL_MATCH t.o.v. intern."}
+{"person": "Ramakrishna", "internal_id": null, "external_id": "RK-070/RK-071", "indiageel_id": "RK-047/RK-048", "outcome": "EXTERNAL_AND_INDIAGEEL_MATCH", "place": "Mani Sen's huis/Radhakanta-tempel, Raghava Pandit's huis", "note": "Niet apart bij intern."}
+{"person": "Ramakrishna", "internal_id": null, "external_id": "RK-081", "indiageel_id": "RK-050", "outcome": "EXTERNAL_AND_INDIAGEEL_MATCH", "place": "Balaram Bose's huis/Balaram Mandir", "note": "093_ONLY_MISS opgelost; niet apart bij intern 093."}
+{"person": "Ramakrishna", "internal_id": null, "external_id": "RK-050-RK-090 cluster", "indiageel_id": "RK-051", "outcome": "EXTERNAL_AND_INDIAGEEL_MATCH", "place": "Vidyasagar's huis, Badurbagan", "note": "Niet apart bij intern."}
+{"person": "Ramakrishna", "internal_id": null, "external_id": "RK-097 cluster", "indiageel_id": "RK-052", "outcome": "EXTERNAL_AND_INDIAGEEL_MATCH", "place": "Manimohan Mallick's huis, Pathuriaghata", "note": "Niet apart bij intern."}
+{"person": "Ramakrishna", "internal_id": null, "external_id": "RK-061", "indiageel_id": "RK-053", "outcome": "GRANULARITY", "place": "Jayagopal Sen's huis", "note": "Mogelijke locatie-nuance: extern Belgharia (1875, eerste Keshab-ontmoeting) vs. IndiaGEEL Mathaghasa (28 nov 1883). Niet Tier-1-geverifieerd; UNRESOLVED_LEAD voor volgende pas."}
+{"person": "Ramakrishna", "internal_id": null, "external_id": "RK-050-RK-134 breed netwerk", "indiageel_id": "None", "outcome": "EXTERNAL_ONLY_CLAIM", "place": "Kolkata-devoteehuizennetwerk (Vidyasagar/Keshab/theater/Zoo/circus/fotostudio, ~80 records)", "note": "PLAUSIBLE, hoge dichtheid, niet stuk voor stuk apart Tier-1-geverifieerd dit taakbudget; exclusief extern's Gospel-brongranulariteit."}
+{"person": "Ramakrishna", "internal_id": "record-22", "external_id": "RK-126/RK-127", "indiageel_id": "RK-054", "outcome": "MATCH_EXISTING", "place": "Shyampukur-huis (No. 55 Shyampukur Street)", "note": "Extern/IndiaGEEL voegen exact huisnummer toe dat intern niet had."}
+{"person": "Ramakrishna", "internal_id": "record-23", "external_id": "RK-128-RK-130", "indiageel_id": "RK-055", "outcome": "MATCH_EXISTING", "place": "Kasipur-tuinh
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=462 path=runs/active/TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl blob_sha=52a5b7cbde76879b1f1a5f97c4544df2338bfe2e original_offset=20480 original_length=951 payload_bytes=951 chunk_index=5 chunk_count=6 classification=text
+uis + crematieghat", "note": "EXTERNAL_MORE_GRANULAR: extern splitst Kalpataru-zegeningsplek apart."}
+{"person": "Ramakrishna", "internal_id": "record-24", "external_id": "Negative findings tabel", "indiageel_id": "None", "outcome": "MATCH_EXISTING_NEGATIVE", "place": "Baranagar-klooster (postuum, NEE)", "note": "Drieweg bevestigd: geen van de drie claimt persoonlijke aanwezigheid."}
+{"person": "Ramakrishna", "internal_id": null, "external_id": "Negative findings tabel", "indiageel_id": "None", "outcome": "NEGATIVE_CONFIRMED", "place": "Gaya (geen bezoek)", "note": "Extern expliciet Tier-1 (Great Master-citaat); intern/IndiaGEEL stilzwijgend consistent."}
+{"person": "Ramakrishna", "internal_id": null, "external_id": "Negative findings tabel", "indiageel_id": "None", "outcome": "NEGATIVE_CONFIRMED", "place": "Puri/Jagannath (geen bezoek)", "note": "Extern expliciet Tier-1 (Great Master-citaat); intern/IndiaGEEL stilzwijgend consistent."}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=463 path=india4/protocols/ROLE_HANDOFF.md blob_sha=5372c5bce2ac4d11eaa4c32ee7563a8565225ce5 original_offset=0 original_length=798 payload_bytes=798 chunk_index=0 chunk_count=1 classification=text
+# ROLE HANDOFF
+
+Iedere handoff is volledig en zelfstandig leesbaar en bevat:
+- run-ID, rol, uitvoeringsdatum en completioncommit;
+- gelezen oorspronkelijke opdracht en voorganger;
+- gemaakte bestanden;
+- dekking per kandidaat;
+- bronnenregister of verwijzing daarnaar;
+- bevindingen, correcties, afwijzingen en onzekerheden;
+- beschermde Mark-besluiten;
+- kwaliteitscontroles en readback-resultaat;
+- exacte open punten;
+- exact één complete startvraag voor de volgende rol.
+
+De volgende startvraag bevat minimaal: activeer GitHub onmiddellijk; test read en write; open de genoemde run; lees de volledige voorgangeroutput; voer de volledige rol uit; schrijf en commit; stop na de eigen rol.
+
+Mark hoeft geen rapport, hash, padinhoud of metadata over te nemen. De opvolger haalt alles uit GitHub.
+
+<<< END CHUNK >>>
+

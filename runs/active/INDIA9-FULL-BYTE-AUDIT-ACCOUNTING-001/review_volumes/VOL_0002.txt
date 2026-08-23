@@ -1,0 +1,673 @@
+>>> CHUNK stream_row=12 path=runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/V1_BODHGAYA_KEUZE_REISGIDS.pdf blob_sha=0115940fce536485130594ce11d3231f2342bd40 original_offset=40960 original_length=4096 payload_bytes=5464 chunk_index=10 chunk_count=12 classification=binary
+QVFMSTVwcWNMSlxUW0ZxbjgpTFdcSElTRSRjayEzRVxlKzsjSi8xOiQ1YFVfcUZQSGVgSCNrbD9rUyg1IUBvcmIlRUxmPEVsZkZLTl5GVTw9YFpJbERzYD9ZLEFHK1w9OHNsMkFKZjBla0htP3BHWTdLV1RTUm9pL3A6TVhSMi5SZEotPVMyLCosRlNDMWBEaVtNY2ZCVVtHPm11QUFpKCZARCQyLE9RajZRM0dncS9BLCtkSy0rLlY8TWg8PUIqMCdrOyxZTS5QISVzalFTSUZiaDs2U1dBYGcnLi4zZjIycWh1cF0+aUsqKG0mYE9DND1bbkYsR15RVmJCXCxZPUJpQmQxPFh0NUVRMi1maiplRyZpOXUrNFRuaTdTNWFfJlUjSTo5JnE8I3NiXEksbFtiO28oTTE6TTNSRjZzZiFAYVkwTGE4alYqNG1NUm1wRy8qRjRTUkI2aUtCYnJoRyRRX01wZToqcF8pL2R0Jm5aTC0lIT0nMjciYCMlOiFEMWchVzZrWFB1Qmw4SidOZ19QSW4lXVZQU09nUEhVb2ZsQm5nR1M/TFsnZGU5VEJpU0cnVmRCLU87XSZdZUNIST1XNidqMjtAUzBCbzJsaCRxU0Y6dTIhKUxFPlg3ckdvV2wyXWlJcU5Kay8vN1Y9Kz1TTG06Z1c7N1dUYkYvZkpcWC5HVlNHVUdqPDlSS2BfaDduKkYmKllldT9ZbDJaL15CYnMpJ0RnSnBHNEROcDdPOzY4PUhMcHFBOExWTVklKV9lL0AnUkNyVS9pOUZMbDFdcjN1dVlycj87dDlzRn4+ZW5kc3RyZWFtCmVuZG9iago0NCAwIG9iago8PAovRmlsdGVyIFsgL0FTQ0lJODVEZWNvZGUgL0ZsYXRlRGVjb2RlIF0gL0xlbmd0aCAyMzMxCj4+CnN0cmVhbQpHYiEjXENOJXRJJyloNioxI003MSwvXTBXPDpcdWxOYEVRJlJibCZxJTUpJDI9R1w4Qy9UVSkuLkI9J0tPMiM9bkhLQVMpOFI3dVwmPFlEKDQrJCw2UkJtaTFKQTdmVElwTmJZOiRMbVErYl5NJihEUVRBNSMjRDVBOiFnZThbb2QkTjtWV28pTV4tZk47UldXKjkwJ1dtLlgiQTU3WWVyaVwyRm1qOU1HZk88ZUFDJz4tLVY6R1xlXE0oJ1ZVTEdEOjRhVFNOWEJMSExFYVhhc0hRLjY3Jz0jTnU7R29rS04wPTcoUC9wKkNbQVdMU3MpLSpvay1FQihqaT9wSXFWV21nZmpfc3FrVitDTEJFTVM1OShsakAzTEpeJUhRYjFSPixFO0RaInFIU01kZHBncUk3cT5mR2wnOWstWmg4X2g+LS4pakdjUGdJSjszaysiIjBFLUdSPD9yR1lUTkVTaGpmRlxtKTlEXDs/YmZRUm1dRUxXZlJrdXFGSVxCK0dHKCFqczdESjVsOU45ZDNRZk1HU0ZXWmZCSWpcL2BGV1BXKUMoT0U1WDZlPXJgNj0yQl1xTiVibCJrU2FSTXMwRj8sOyVgVy9RT29MQlZxc2g/PDxDYEdBQjw4WDMrPl9bKl09MF9GOkdgWHJGaCtOVEY/QU40N1tvSysnITg9JjY3WjBHY21APE9aZSVDOk9eQTUnOEdqUTgwc3BcXWEmYkM0Uz8lKF0vVFBjPjcnPEtWJ3NZOXUwSSg2UCg/amdqWEhPJ2E6S3IsSy5gSjtwRm9nQyEiclVOUSIjL0xFKTw1aXVFMztHakhlcE1JS0UmaGM+b2Bjb1dLUWxjSF41PSw0bm1ZczZsOiprN2gsUmshNEArVHJnSy9LR0hfZmBXXk47RVJNNGNhYmZcVzgobk83QGRZamNqQyosN1VpKyFaOFpWPHA0LDBvJiZdJCo1R2piXEVfNjctRChPOS1NZCM4UTBCciQwKykkMlFjMDlVZWYzSUxnXjpkI19cIiJ0TEhIQF9rUC5RJTM9JmhROk5PbzlrLzBiQVhhQltLMVU3akxpMiRcRFNIS2kvIiFcWUo9Wko4NjFaImNSOzxMVkJqcU9rJkolI0cmcG5OSVxEPzxbZV0wYGw5Ok51YVUtb3FWc1NLJmU9Q08yMjk6SlM7NCZIKVw8TmlYUjRPTidpKmUhKG0kMjEkIVBlJTswS1JicjFqQEVRUEY3ZVciL2BnOU82I0tkb0JPJ10xQFVYWmtbQSgyTWRiJztYM15rJk0vTFgiUEo5Ki9vS0VpO1lpa1FUKlhgQWdKVF8iZCFrKj1VaDVfYyspXlk2XidSTGUuN1JjYEtwVDc4JVQ8cl9wZihsP29UJk8jXFpyMUIvNDYwaltEMEkhIVBcVTdyc2RAODB0NC9WWVdZP1A+VnRba0x1XkhIUlAuR1FRRDxAX0ctWEVLVUY5c1JUJCU8PmApKTBDPCxvJFdXRy1EZVMsa0ZrWjArUFI1Lj0nUGktSXBdaUtqZFkzc1xDRV9dc2ZqJ0MoUE5rYENRZ29tO2NEbCNAYjVeI2BqYiE3MTRNPFEuPXI6akxeNyRMWnE7JWo8dThFaW4lJVcxZzlBS2otOTpPNU8qZipeQThrVzMsJzpaPmwsZnN1XVooXV9PZWg4LW9JbSc1OnVfV1pyZiVINDplQmlNWERObl1WKyEvKEQoTjAxJyJQXVhuTklHI29nPlducjw/PCFHaDczTD4yX0VucitZalcsbkorMmpScG5sM2ZZJldZPmNBWzUnPitAT1ZlT2dDK28zdFcrU2Y6W01PYGdhVWw5RDlPcm5GR2FaUDEjSGBRSy5fLjVMSTUtdWZrXj08ZE04TlFda1dlTDYsOE5Ja0UuMSZQUVtYYGM8YV80ZDBIZzhuOkU7Kmc+OSUiaT1eZ1dQZ2FaQlEoIiRsI1tITE1KdW9tLytPST5iZixHUlttZVJkdWxXLTowNG5cQ2ZBY1dNWzpxXElEXixuPm86TnVeLiMvOWwjbypyRzYqZlojdWZdUkIpYjk8KzIiS0diNzxjcSNOSSQ7cyo/YGBFcEIvVmFZTTVyKG5NJytQJmBlays1alhWVSp0O2skTFsua1ZlOj88SUlLYFxoMStEY25FWDhJcUYyP1RKcDolUic1LVw/Q2RDYlQxQCdWaUo6JVJzSypsWCkxWV07MCU9PTJtOllWREIyWjBvcy5sYnA6PlohIUxdMVdLX2RBJ2FsKSZGRU8iV1xIZiVrbj83PWRiODIxNyxLbCVQJT1yVlg2PGhkMjNcQVFnM3FJYmtjMEM9dSNxZy8qK2JvZVFwQCkjaU9Rcz5hYWJacDszRHAiQVFKLiReJ3FUbGctbDkyJT5fVydzTCVrYlp0bTQ3cWFxaypAOS02I0ksaUdOV0IvPTshZTZTIy1CV0JlSHMkL3MxUSoqMSUoR0JEJC85XGBlJFpHUVpwYDI7OGA+PzVNaVVALEphZlFGJjohKElGUlxIclJoKUVtKmZTITIiTmdnLCstXjNFV3UiIztsPjpjRU42OVhrNGFzbFpdImowMDQyQFBwWi9GOEl1YCwlY3R1aFYxUWsrVnBNcVxPSVFEYigzIyhRVmkqYmMwailQKjohNzttMyIxa2dhWVdvXlQqSSQ0OFFANHBMUzNHW2c5ak8qZjNSUSUqPyZPWiEha1ArQ1VrSyduNWRXLVgmIVFtVyZlOitEPUEiaDVFRj4kWGBRRyZuIldiMV0+JklAdGpYZDtjUSlmIjxsJzpcRT49NUssL1k5RlNvMExfVloiP2NRcVE+IykjNjtccFpTcTxhZFF0KDU4TSR1RyxTQCUvIS8tIWdHXl1VTjtsMjVjcVAxNShsOzo8RTclNXJHIlg8U1UnNmkxOThIVSFOXk43aiMwIz41clFCNTFLRks7dDkvZis+SFUoRTVkaCZKQj1wJkpjVVlrNGN1LFZdUkxIPV4/c0ZsPTZDLmRxQW4wXlM+JydsQS9VPEAxM11aNThmXXFPTHItbmInIj9DXyYySz5idF02UUUrMzlOUmFsUig6PTY1bU5BNEY1azVTTHJyKyxoM3IodU9RZ3J1fj5lbmRzdHJlYW0KZW5kb2JqCjQ1IDAgb2JqCjw8Ci9GaWx0ZXIgWyAvQVNDSUk4NURlY29kZSAvRmxhdGVEZWNvZGUgXSAvTGVuZ3RoIDE2NTUKPj4Kc3RyZWFtCkdhdG06Z01aJTAmOk1sK2JbWFBoTUlmQW5DYGVPL1A3Pm1QWz5ETVIoJytLailHPyM3ZFxVV2gyPlppKzZlZEhVaCklVS1FP0pVVjtEW0wrM0FXQzRuVlk1LGcoOWc5bDBNLDxFS0EqcU1VTnVNbk40PCUrOHAwbkRjY1haOzFJKDdgQUdacS1sX2hMZlNBNTtFOCkqdDMkRWAxMWBmJVApRTZYIU9hUCpATTdnVHVqJUQ6MC82b25lOjZBQmVJOD9KVz5GTk45allaKzM/OExDWUdJLik8akhQbGFQVl4hTUZnOi1pXiF1Q0RCdTIxJmI6MHBPZEJDKXFGX0MsIVwiNmxgWGojcFxgcU09aE5mSiUiPEhcXm0+VXFJU1FuMGxIV0VhZXBbalRSQC0kJnFmWUhSJldGU0c/Y2RfUlYzQFojSidTLiQkZlxxPWxZKi5FSChaMyk1Q1wvVDluJUpiS1NiMVZNQVVrODYobzlPbE41KVQ+USdUSEZMcUJvSmBDZyRpcUAnWUNiQCc4bihvSDdeXj0nWDUpX0NhdSgxOS4mVj9CVjxtJygiRTlgZ0RbSWM7Z2s3S3U3Ji8tST5jPypvW2o5KiJIaWdnNGxnZGY4Y2I4U2lrVU9uKVdDQEkmWTlTcXMiMVpxaCpqNmp0RmRUQiEpYShKZyVIVllnQF5eRj87JlgkLXM+KmgmWywrUCEzKFA4S0BEcUBjTVpnaE85dGokNG9QX2IqMXNXUkNqaXNLYlQ+U2kwPmdEJjMvYzw/LS9bUT9LLjpYY1cvNDpWbVg1dFskMzxPMm0nIj5WSTd1RGxWZlItcjwiZUxGZGs8ako5V2JhKW02VDJrOD5TWDpmKUZGZ1gmOmFWKycyV2w/ITpIN0c8dUxPXm4/PGBUMTE/akxJOkkzUU9ZVk9kdWAzVG5cPU1ZK1k0UFcjYVY5YihgY208OkpEKy4zJV9CLjgoLVZgdWgjXFRfTkJpZDZqYSdXQzInOT5YXThCVUBKT2dBTiZuZ1clJ0guPkp1I0trcGFHcGJNRVtCXHVFLmhWaTM6bjdbODkkQ1Z0KThVKy8jLTo5KWRBIVhnL1hWZT8jJjctaycnRWE5aVY7X1VdPDxYPjloP1dzVVM2JCdIYG90QTxuVE09J0VaN0UlL0VZLDJJYmR1cDosLW45aC0nKEk0XWY8b3IuLVlxQSQxNUhWImNkWyw4LEM8Rig2OzNMbD1PMFdUXmBBO19PcU4iQXFmSCNpYDhsSVhwW2QkT29uT1c8LGk6ITtjJWZDRUNoYnViNg==
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=13 path=runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/V1_BODHGAYA_KEUZE_REISGIDS.pdf blob_sha=0115940fce536485130594ce11d3231f2342bd40 original_offset=45056 original_length=2718 payload_bytes=3624 chunk_index=11 chunk_count=12 classification=binary
+c1YuSlsjJzBHbVdGUkJgWVJjRnIoUiYrLkkubT9vcy4sQixWaEExLipTXj5ZQjNVUGVAaihlQzhDXklMJiFKZDY5VEVRS10sKCFIZVdpMkE5cG9BTiNWInI/JCR0XWs9R3NJRj4lJ1NjUnUxSyxaaEovK283b1pzTWpiWzVBcU0iOF9YPStXN2kvI0pjTF9pYnIjNjU2a3VXcVI5OV9KYkRhZnEjUi90ZFYvLSJPYTApWW8zPSdLRF9cNWIpKyM4cVBjOyhxXEpvSnQ1cFQrc19LXCdiZi45VnUnOEVrJHBjV3I3PC5ucV9Yak1KK0xhX0xQbFk5MnNGMmFpZjhCWVlHbSFLalg5R2xqLz8hRFhAMWZTUVRKWSRwc15EbGBVRy5NPnQ1cUM2cGtxbUA+YWpAZ2xLc1ZfNV5aRWUxMjEsQmpiNHUlUVAyU1Q0OzNvNWxUVD5hOHBiO1ZMOUJiaSojM2M/LDgrYy5hVlU4PU5EKmpiS1xYYl48VGBAaUJUdHUqdXFXUnFCWj5YU3FlMTxfRShXSylhRGVpVGc8ZS0vNTFDWEgrNldfcDNATEspQUk6dEBAN1hzIVNRTFMvYExnPnFDN2E5KEdLclpZV1BAakUyNCUicVhOPDhEa09XTTtKMSlSZTNaOiNnXkBSMzU5W2dSayY+JSxaTzdqKWpESXNsSE1fT2NNMTUiJUBNJC46XWU0U2NwRSlAW2J1ciJnSGdCSFZDXilNKlVLMmEmJmI2U2loam5Gc282LypNNTpMMiRqQT0hOmltRjFeYipWTzZJJWBdQ2lfM0xzT1VmKG5rL0xQbFdcLFEvWSo1WztlbGcvaUNkbmAwO3VxcSdHPG4mQ108a0Vrc2VFVl0lbl9aOWFMXWRRV0ZrbHNDNnE/TGRwW0htfj5lbmRzdHJlYW0KZW5kb2JqCjQ2IDAgb2JqCjw8Ci9GaWx0ZXIgWyAvQVNDSUk4NURlY29kZSAvRmxhdGVEZWNvZGUgXSAvTGVuZ3RoIDc3MQo+PgpzdHJlYW0KR2FyVzdfLEIjQSY7S1khTVMxbGhMZ2wuaDIiVkpLYXRTT3RLJWdxcE4rK0FyJm03aDxnJFtxY105OCJEVSVYRWs+SDw3Z3JEdWA7VGZcN1tVJypJJUBKaS0+Rjk7N09VZjAxKnIjMW1zaTdCKiJObSZoJFJuW0tEUzdYM0NCQSY3O2Q7ZmtkU0sqX1hnNUJSKVFSIk9OI18hMiZfZz84ISZgYW5QaFpyUTtGVDRpcTQuV1hQZjRRSyRLJUslUE4pVEdEOTFqamdNY2deOicoW0khQ203VitZWkRiR0xeImMoSCYzSDlKL2RwYlVENmhAPFpXPDo+XGYhXlRuRTBZJlEhLlZTWTNlSW9PKWwiZTFHb0toST0wcjg4REtZYDhDXjUyWCRBbjgySm49LEYlLFhwKnAvMm9uPHAxL2E8dC5tcjNJNjhvRE1INnJURXUzY1JqIUtIWlFfQ0JWNV4vXzMra0UxNS1lRzdqXlgiblY5W0dRRlFPKG82T0EzLVBmamNcO0FUQmlQOlJYdDAiRGcsdSdwZlBvWkE4MVs9Oy40OkNwPHNTbEQ9YUNYbXBVRVllTi5kSk06XV4/Y1VrYl9Pa2JDTDUlNCxTPidpS2UvWUpQXEVkYU1eJlV1PlEjZG9vc1deQFE8KXFQaiRPOFYvKVpAJ1I2LEdzV1RES1ldZSNOUTJVV2FSJFoiK0Q9dHVZSFdWRCVZMFxlbi42KWRVOT1YZ1JuUVxQLmI6UHNSM0dhTTskS1tnO19ick4mZmVMMzFZSCZpVkdFZ2w+dVBTKzs5NW11JUs+KkhMREBCSTBKaUpBQyhvNy9QM0IsUClcakpWUzxeM1xKaXQ9XzRDZkJXLzRtL11xWU9HNT9KYltrKHVOUiteLSg3KllFdDFGbExzUShoPUI9Zj8tWiVTSCcrLFtXc3NeKWZGOyYzbms9ZUtsJk5wWGdZLXUnQHBaOFgwMTQ6W2osT3FsWDY7ZU8mdHRgUHBxL1NnOEwtPGBfSSEyUzBfYmE8Q0tqWH4+ZW5kc3RyZWFtCmVuZG9iagp4cmVmCjAgNDcKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDYxIDAwMDAwIG4gCjAwMDAwMDAxMjIgMDAwMDAgbiAKMDAwMDAwMDIyOSAwMDAwMCBuIAowMDAwMDAwMzQxIDAwMDAwIG4gCjAwMDAwMDA1NDYgMDAwMDAgbiAKMDAwMDAwMDc1MSAwMDAwMCBuIAowMDAwMDAwODcwIDAwMDAwIG4gCjAwMDAwMDA5ODUgMDAwMDAgbiAKMDAwMDAwMTE5MCAwMDAwMCBuIAowMDAwMDAxMzk1IDAwMDAwIG4gCjAwMDAwMDE2MDEgMDAwMDAgbiAKMDAwMDAwMTgwNyAwMDAwMCBuIAowMDAwMDAyMDEzIDAwMDAwIG4gCjAwMDAwMDIyMTkgMDAwMDAgbiAKMDAwMDAwMjQyNSAwMDAwMCBuIAowMDAwMDAyNjMxIDAwMDAwIG4gCjAwMDAwMDI4MzcgMDAwMDAgbiAKMDAwMDAwMzA0MyAwMDAwMCBuIAowMDAwMDAzMjQ5IDAwMDAwIG4gCjAwMDAwMDM0NTUgMDAwMDAgbiAKMDAwMDAwMzY2MSAwMDAwMCBuIAowMDAwMDAzODY3IDAwMDAwIG4gCjAwMDAwMDQwNzMgMDAwMDAgbiAKMDAwMDAwNDI3OSAwMDAwMCBuIAowMDAwMDA0NDg1IDAwMDAwIG4gCjAwMDAwMDQ1NTUgMDAwMDAgbiAKMDAwMDAwNDg3MSAwMDAwMCBuIAowMDAwMDA1MDU4IDAwMDAwIG4gCjAwMDAwMDY0OTkgMDAwMDAgbiAKMDAwMDAxMDE0NSAwMDAwMCBuIAowMDAwMDEyNjA0IDAwMDAwIG4gCjAwMDAwMTQ3NzUgMDAwMDAgbiAKMDAwMDAxNjk2NyAwMDAwMCBuIAowMDAwMDE5MTk5IDAwMDAwIG4gCjAwMDAwMjE3MTUgMDAwMDAgbiAKMDAwMDAyMzkxNyAwMDAwMCBuIAowMDAwMDI1OTc4IDAwMDAwIG4gCjAwMDAwMjgwNzEgMDAwMDAgbiAKMDAwMDAzMDI0MyAwMDAwMCBuIAowMDAwMDMyMzM2IDAwMDAwIG4gCjAwMDAwMzQ0MjIgMDAwMDAgbiAKMDAwMDAzNjk4OCAwMDAwMCBuIAowMDAwMDM5Mzk5IDAwMDAwIG4gCjAwMDAwNDE1ODYgMDAwMDAgbiAKMDAwMDA0NDAwOSAwMDAwMCBuIAowMDAwMDQ1NzU2IDAwMDAwIG4gCnRyYWlsZXIKPDwKL0lEIApbPGZkNWQ5MzJlY2ZlZWQ5ZDU3OWFjZTUxMzEzOWNlNjEzPjxmZDVkOTMyZWNmZWVkOWQ1NzlhY2U1MTMxMzljZTYxMz5dCiUgUmVwb3J0TGFiIGdlbmVyYXRlZCBQREYgZG9jdW1lbnQgLS0gZGlnZXN0IChvcGVuc291cmNlKQoKL0luZm8gMjYgMCBSCi9Sb290IDI1IDAgUgovU2l6ZSA0Nwo+PgpzdGFydHhyZWYKNDY2MTgKJSVFT0YK
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=14 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/DISCOVERY_REPORT.md blob_sha=01c928dac540f7c718b2f0ad8e7cae0aa4971ef3 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=6 classification=text
+# DISCOVERY_REPORT — Bodh Gaya
+
+run_id: BODHGAYA-DISCOVERY-001
+geschreven_op: 2026-08-03
+geschreven_door: CCI
+
+Stap 2 (Discovery) van `india4/protocols/INDIA5_REGION_START_PROTOCOL.md`, uitgevoerd op basis
+van de goedgekeurde `REGION_CONTENT_BRIEF`, `DISCOVERY_LOG`, `SOURCE_FAMILY_PLAN` en
+`PRE_BRONS_DETECTORS`. Dit rapport bevat UITSLUITEND PASS/WATCHLIST/FAIL-uitkomsten na de
+NOT_TO_BE_MISSED-poort — GEEN kandidaatstatus, GEEN permanent nummer, GEEN A/B/C, GEEN
+GEO-verificatie, GEEN KML/PDF/reisplanning. Kandidaatstatus en nummering (stap 4/5) volgen pas
+na expliciete INDIA2-goedkeuring van dit rapport.
+
+Belangrijke correcte interpretatie, zoals opgedragen: het ontbreken van een traditie of
+categorie is nooit voldoende om iets PASS te geven. Waar een niet-boeddhistische vondst (zoals
+Vishnupad Temple) hieronder PASS krijgt, is dat uitdrukkelijk NIET omdat "er ook een hindoe-plek
+moest zijn" — het is omdat die specifieke plek zelfstandig de definitieve kandidaatpoort (A-E)
+doorstaat, zoals bij elke andere vondst.
+
+---
+
+## 1. Gebruikte bronfamilies
+
+| Bronfamilie | Gebruikt voor | Voorbeelden geraadpleegd |
+|---|---|---|
+| officiële overheids-/institutionele bron | Mahabodhi-complex, Dungeshwari, archeologisch museum, Vishnupad | indianculture.gov.in, incredibleindia.gov.in, tourism.bihar.gov.in, asibodhgayamuseum.com (ASI) |
+| encyclopedie | kruiscontrole op alle vondsten | en.wikipedia.org (Mahabodhi Temple, Vajrasana, Great Buddha (Bodh Gaya), Bakraur, Sujata Stupa, Barabar Caves) |
+| academisch/institutioneel archeologieprogramma | archeologische laag, opgravingsgeschiedenis | Harvard Shelby White/Leon Levy Program-pagina over de opgravingen bij Bodhgaya |
+| primaire historische reisverslagen | Dungeshwari-datering, oudheid van het gebied | verwijzingen naar Xuanzang/Hiuen Tsangs 7e-eeuwse reisverslag (via secundaire, wel-gedocumenteerde samenvattingen; de vertaalde primaire tekst zelf is nog niet rechtstreeks geraadpleegd — zie open onzekerheden) |
+| lineage-/institutionele Kriya-Yoga-bron | Sri Yukteswar-verbinding | ananda.org, anandaindia.org, yoganandasite.wordpress.com (Daya Mataji-pelgrimsverslag), Wikipedia (Swami Sri Yukteswar Giri) |
+| reis-kruiscontrole | ondersteunend, nooit als enige kernonderbouwing | meerdere onafhankelijke reissites per claim, uitsluitend naast een sterkere bron |
+
+Nog NIET gebruikt: insider-/kloosterbron (structureel hiaat, zoals vooraf al erkend in de
+DISCOVERY_LOG). Reisblogs zijn uitsluitend ondersteunend gebruikt, nooit als enige onderbouwing
+van een kernclaim (conform opdrachtpunt 7) — elke PASS-uitkomst hieronder steunt op minstens één
+officiële, institutionele, academische of primaire-lineagebron.
+
+## 2. Negatieve zoekresultaten
+
+- **Specifieke, met naam gemarkeerde "Buddha-badplek" aan de Niranjana/Falgu-rivier**: NIET
+  gevonden. De rivier en het bad-verhaal zelf zijn goed gedocumenteerd, maar een specifieke,
+  zelfstandig te onderscheiden fysieke plek (los van "één van de elf ghats op de westoever")
+  bestaat niet aantoonbaar. Niet apart als kandidaat behandeld — het verhaal blijft wel
+  contextueel onderdeel van de Sujata Stupa-beschrijving.
+- **AOAY (Autobiography of a Yogi) als primaire tekst zelf**: geen directe, in de zoekresultaten
+  bevestigde passage die specifiek Bodh Gaya beschrijft. De wél gevonden Sri Yukteswar-Bodh-Gaya-
+  connectie (zie hieronder) komt uit lineage-/institutionele bronnen (Ananda, YSS-SRF-achtige
+  bronnen), niet uit een bevestigde AOAY-boekpassage zelf — dit onderscheid wordt hieronder
+  expliciet aangehouden, niet vervaagd.
+
+## 3. Detectorstatus en verzadiging
+
+Eerlijk gerapporteerd: dit is de EERSTE Discovery-ronde. Elke detector heeft de minimale drempel
+(minimaal twee zoekbenaderingen) gehaald, maar GEEN enkele detector heeft de volledige
+sweepcriterium-uitputting (drie opeenvolgende non-productieve richtingen) doorlopen. Dit is dus
+NOT_YET_SATURATED op het strikte protocolniveau, ondanks sterke, goed onderbouwde
+eerste-ronde-resultaten — geen valse verzadigingsclaim.
+
+| Detector | Zoekrondes uitgevoerd | Bronfamilie
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=15 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/DISCOVERY_REPORT.md blob_sha=01c928dac540f7c718b2f0ad8e7cae0aa4971ef3 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=6 classification=text
+s geraakt | Status deze ronde |
+|---|---|---|---|
+| DET-BGY-P001 Kerncomplex-decompositie | 2 (algemene structuur + "zeven weken"-decompositie) | officiële bron, encyclopedie, (UNESCO-document geprobeerd, toegang geblokkeerd — zie open onzekerheden) | Minimumdrempel gehaald, NOT_YET_SATURATED |
+| DET-BGY-P002 Pre-verlichtingsnarratief | 3 (Sujata, Dungeshwari, Niranjana-ghat-specifiek) | officiële bron, encyclopedie, primaire reisverslag (secundair) | Minimumdrempel gehaald, NOT_YET_SATURATED |
+| DET-BGY-P003 Internationale kloosters | 2 (algemeen overzicht + Groot-Boeddhabeeld specifiek) | encyclopedie, reis-kruiscontrole | Minimumdrempel gehaald, NOT_YET_SATURATED — individuele kloosters op dit moment slechts oppervlakkig getoetst |
+| DET-BGY-P004 Kriya-lijncontrole | 2 | lineage-/institutionele bron, encyclopedie | Minimumdrempel gehaald, sterke positieve vondst, NOT_YET_SATURATED (exacte locatie binnen Bodh Gaya nog niet vastgesteld) |
+| DET-BGY-P005 Archeologische laag | 2 | officiële ASI-bron, academisch programma, encyclopedie | Minimumdrempel gehaald, NOT_YET_SATURATED |
+| DET-BGY-P006 Niet-boeddhistische traditie in straal | 3 (Vishnupad, Barabar-afstand #1, Barabar-afstand #2) | officiële bron, encyclopedie | Minimumdrempel gehaald, NOT_YET_SATURATED, met een erkende brondiscrepantie (zie open onzekerheden) |
+| DET-BGY-P007 Bronkwaliteitsfilter | doorlopend toegepast | n.v.t. (filter, geen zoekdetector) | Actief toegepast op elke vondst hierboven |
+
+**Sweepniveau: `NOT_YET_SATURATED`.** Alle detectoren hebben minimaal de instapdrempel gehaald en
+leverden bruikbare, onderbouwde resultaten op, maar geen enkele is tot volledige uitputting
+doorgezet. Een vervolgronde kan zinvol zijn, met name voor de individuele internationale
+kloosters (DET-BGY-P003) en de insider-/kloosterbron (nog volledig ontbrekend).
+
+## 4. PASS-locaties met onderbouwing
+
+Zes vondsten doorstaan de definitieve kandidaatpoort (A-E: spijt-vraag PASS, fysiek bezoekbaar,
+kernclaim betrouwbaar onderbouwd, minstens één concrete niet-generieke beslissende reden, reden
+niet uitsluitend categorievolledigheid/beroemdheid/routegemak).
+
+### PASS 1 — Mahabodhi Temple Complex (koepelkandidaat)
+
+- **Beslissende reden**: de plek van Boeddha's verlichting zelf — de Vajrasana (diamanttroon,
+  bewaard door keizer Ashoka) en de directe nakomeling van de Bodhi-boom. Krachtveld-gewicht van
+  de hoogste orde, onafhankelijk van elke traditie-index.
+- **Wat je concreet ervaart**: het tempelgebouw (50 m hoog), de Bodhi-boom, de Vajrasana, en
+  binnen dezelfde ommuurde complexgrens de zeven traditionele "week"-plekken van de periode
+  direct na de verlichting (Animeshlochan Chaitya/2e week, Ratnachakrama-juwelenwandelpad/3e
+  week, Ratnaghar Chaitya/4e week, Ajapala Nigrodh-boom/5e week, Muchalinda-vijver/6e week,
+  Rajyatana-boom/7e week) — beschreven als INHOUD van dit ene koepelbezoek, NIET als aparte
+  kandidaten (zie decompositiebesluit hieronder).
+- **Bronsterkte**: sterk — UNESCO-werelderfgoedstatus (bevestigd via zoekresultaten, het
+  onderliggende nominatiedocument zelf was niet rechtstreeks te openen), indianculture.gov.in
+  (officiële Indiase cultuurbron), meerdere onafhankelijke encyclopedische bevestigingen van de
+  zeven-wekenstructuur.
+- **Beslissing over decompositie (expliciet, zoals opgedragen)**: NIET opgesplitst in zeven
+  aparte kandidaten. Alle zeven plekken liggen binnen dezelfde ommuurde complexgrens en worden in
+  één doorlopend bezoek gezien — apart nummeren zou kunstmatige overfragmentatie zijn (precies
+  het risico waarvoor `DET-BGY-P001` is gebouwd). Wél apart benoemd als koepelinhoud, zodat geen
+  van de zeven onderdelen "verdwijnt" in een vage generieke beschrijving.
+- **Waarom categorievolledigheid niet als argument is gebruikt**: de reden is de plek zelf
+  (verlichtingslocatie, UNESCO-erfgoed, fysiek bewaarde Ashoka-relicten), niet "Bodh Gaya moet
+  wel een boeddhistisch hoofdkandidaat hebben".
+- **Extra, zwaarwegende bevinding (Kriya-lijnverbinding, DET-BGY-P004)**: Swami Sri Yukteswar
+  Giri — Marks eigen param
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=16 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/DISCOVERY_REPORT.md blob_sha=01c928dac540f7c718b2f0ad8e7cae0aa4971ef3 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=6 classification=text
+aguru-lijn, positie 4 in `PRIORITY_GROUPS.md` — werd op Guru Purnima,
+  juli 1906, in Bodh Gaya formeel geïnitieerd in de swami-orde (sannyas) door Swami Krishna Dayal
+  Giri van Bodh Gaya. Onafhankelijk bevestigd via twee lineage-/institutionele bronnen (Ananda-
+  bronnen, Wikipedia). Dit is GEEN aanname of gok — expliciet bronbevestigd, en een direct,
+  concreet, niet-generiek argument los van het algemene "Boeddha staat op positie 7"-gegeven.
+  Exacte locatie van de initiatie binnen Bodh Gaya (welk specifiek klooster/math) nog niet
+  vastgesteld — open onzekerheid, zie sectie 6.
+- **CCI-advies A/B/C-kans**: zeer waarschijnlijk A — combinatie van intrinsiek allerhoogste
+  krachtveld, bestaand Mark-precedent (PRIORITY_GROUPS.md), én een nu bevestigde directe
+  Kriya-lijnverbinding is een zeldzame stapeling van redenen.
+
+### PASS 2 — Sujata Stupa, Bakraur
+
+- **Beslissende reden**: de plaats waar Sujata, een dorpsvrouw uit Bakraur, Boeddha een kom
+  rijstpudding (kheer) aanbood — de gebeurtenis die zijn zesjarige extreme ascese beëindigde en
+  rechtstreeks tot zijn verlichting leidde. Eenmalige, plaatsgebonden, onvervangbare gebeurtenis.
+- **Wat je concreet ervaart**: een archeologisch stoepacomplex, oorspronkelijk uit de 2e eeuw
+  v.Chr., meerdere keren uitgebreid — een tastbaar, gedateerd fysiek object, geen vage
+  herdenkplek.
+- **Bronsterkte**: sterk — tourism.bihar.gov.in (officiële deelstaatbron), Wikipedia (eigen
+  lemma), circa 2 km van Bodh Gaya (ruim binnen de kernstraal).
+- **Waarom categorievolledigheid niet als argument is gebruikt**: de reden is de specifieke,
+  eenmalige gebeurtenis, niet "er moest een pre-verlichtingsplek bij".
+- **CCI-advies A/B/C-kans**: waarschijnlijk A, mogelijk B — sterk onvervangbaar verhaal, iets
+  kleinschaliger dan het hoofdcomplex.
+
+### PASS 3 — Dungeshwari Cave Temples (Mahakala-grotten)
+
+- **Beslissende reden**: de plek waar Boeddha zes jaar extreme ascese beoefende vóór hij naar
+  Bodh Gaya afdaalde voor de uiteindelijke verlichting — het spiegelbeeld-verhaal van Sujata's
+  aanbieding, en een van de sterkste "onvervangbaar"-claims in de hele regio.
+  Genoemd door de 7e-eeuwse Chinese pelgrim Xuanzang (Hiuen Tsang) in zijn reisverslag.
+- **Wat je concreet ervaart**: rotsgehouwen grottempels (5e-6e eeuw CE), een gouden beeld van de
+  uitgemergelde Boeddha in ascese, en een tweede grot met een groter Boeddhabeeld.
+- **Bronsterkte**: sterk — tourism.bihar.gov.in ÉN incredibleindia.gov.in (twee onafhankelijke
+  overheidsbronnen), plus de Xuanzang-verwijzing (primaire historische bron, via secundaire
+  samenvatting). Bevestigde afstand: circa 12-14 km van Bodh Gaya (bronnen variëren tussen 12 en
+  13,9 km) — ruim binnen de kernstraal.
+- **Waarom categorievolledigheid niet als argument is gebruikt**: de reden is de specifieke
+  ascese-gebeurtenis en de tastbare relictbeelden, niet "er moest een grottenplek bij".
+- **CCI-advies A/B/C-kans**: waarschijnlijk A — precies het type "verder weg, minder bekend, maar
+  onvervangbaar" locatie waar de hoofdvraag voor is ontworpen.
+
+### PASS 4 — Great Buddha Statue (Daijokyo, 1989)
+
+- **Beslissende reden**: het eerste en grootste Boeddhabeeld ooit gebouwd in modern India (25 m
+  hoog), geconsacreerd door de 14e Dalai Lama op 18 november 1989, gebouwd als symbool van de
+  wereldwijde herleving van het boeddhisme ter gelegenheid van 2500 jaar boeddhisme. Een
+  werkelijk iconisch, uniek landmark, geen "nog een tempel".
+- **Wat je concreet ervaart**: een 25 meter hoog zittend Boeddhabeeld in meditatiehouding, van
+  zandsteen en rood graniet, in de open lucht.
+- **Bronsterkte**: sterk — eigen Wikipedia-lemma, meerdere onafhankelijke bevestigingen van
+  bouwjaar, hoogte, en de Dalai Lama-consecratie.
+- **Waarom categorievolledigheid niet als argument is gebruikt**: dit is uitdrukkelijk NIET
+  toegevoegd omdat "elke internationale bijdrage geregistreerd moet worden" — de reden is de
+  singuliere status (grootste/eerste in India) en de specifieke consecratiegebeurtenis.
+- **CCI-advies A/B/C-kans**: waarschijnlij
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=17 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/DISCOVERY_REPORT.md blob_sha=01c928dac540f7c718b2f0ad8e7cae0aa4971ef3 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=6 classification=text
+k A of B — sterk landmark, iets meer "bekijken" dan
+  "levende praktijk" (zie signaal hieronder), wat de uiteindelijke afweging kan beïnvloeden.
+- **Levend-of-monumentaal-signaal**: overwegend monumentaal/landmark, met doorlopende
+  pelgrimsverering eromheen.
+
+### PASS 5 — Archaeological Museum of Bodh Gaya (ASI)
+
+- **Beslissende reden**: bewaart de originele stenen balustrade-fragmenten die ooit de Bodhi-boom
+  zelf omsloten (Sunga-periode, ca. 2e eeuw v.Chr.) — directe, fysieke herkomst uit de kernplek
+  van de verlichting zelf, niet een generiek geschiedenismuseum.
+- **Wat je concreet ervaart**: gereconstrueerde stenen balustrade, reliëfs, Pala-periode
+  sculpturen, munten uit de Mughal-, Maurya- en Gupta-periode.
+- **Bronsterkte**: sterk — officiële ASI-bron (asibodhgayamuseum.com), opgericht 1956,
+  onafhankelijk bevestigd via meerdere bronnen.
+- **Waarom categorievolledigheid niet als argument is gebruikt**: de reden is de directe fysieke
+  herkomst van de objecten uit de Bodhi-boom-omheining zelf, niet "er moest een museum bij".
+- **CCI-advies A/B/C-kans**: waarschijnlijk B — waardevol en inhoudelijk sterk onderbouwd, maar
+  een museumbezoek weegt voor de meeste pelgrims lichter dan de levende/narratieve hoofdplekken.
+
+### PASS 6 — Vishnupad Temple, Gaya
+
+- **Beslissende reden**: bewaart een 40 cm lange voetafdruk in zwart basaltgesteente, vereerd als
+  het letterlijke voetspoor van Vishnu — een singulier, fysiek uniek relict, geen generieke
+  Vishnu-tempel. Een van de belangrijkste plekken in heel India voor Pind Daan
+  (voorouder-verlossingsrituelen); volgens overlevering bevrijdt een Pind Daan hier voorouders
+  tot veertien generaties terug.
+- **Wat je concreet ervaart**: een actieve, drukbezochte tempel aan de Falgu-rivier, met het
+  vereerde voetspoor als centraal object.
+- **Bronsterkte**: sterk — tourism.bihar.gov.in (officiële deelstaatbron), meerdere
+  onafhankelijke encyclopedische/historische bevestigingen, historische diepte tot mogelijk de
+  5e eeuw CE (Samudragupta-periode, onderbouwd met de Basarh Seal-vondst), huidige bouwvorm 1787
+  onder koningin Ahilyabai. Circa 12-15 km van Bodh Gaya — binnen de kernstraal.
+- **Waarom categorievolledigheid niet als argument is gebruikt (expliciet, want dit is de
+  gevoeligste beslissing in dit rapport)**: dit is NIET toegevoegd omdat "Bodh Gaya ook een
+  hindoe-vertegenwoordiger nodig heeft" — Bodh Gaya heeft geen enkele verplichting tot
+  traditie-volledigheid, en had zonder bezwaar volledig boeddhistisch kunnen blijven. De reden is
+  uitsluitend de zelfstandige, singuliere kracht van déze plek: een fysiek uniek relict, een van
+  de belangrijkste rituele centra van heel India voor een specifieke, diepgewortelde praktijk, en
+  een aantoonbare oude historische laag.
+- **CCI-advies A/B/C-kans**: onzeker, mogelijk B — sterk onderbouwd voor het object/de traditie
+  zelf, maar minder direct gekoppeld aan Marks eigen selectiecanon (geen Vishnu-gerelateerde figuur in
+  `PRIORITY_GROUPS.md`) dan de boeddhistische vondsten hierboven.
+
+## 5. Compacte WATCHLIST
+
+Vijf vondsten met reële waarde, maar op dit moment onvoldoende zelfstandig onderbouwd voor PASS
+— nog GEEN kandidaatstatus, GEEN nummer.
+
+- **Thai Monastery** — fraai, door de Thaise regering gebouwd ter gelegenheid van 2500 jaar
+  boeddhisme, "meest schilderachtige" volgens meerdere bronnen — maar geen enkele bron levert een
+  specifiek, niet-generiek onderscheidend verhaal boven "mooi nationaal paviljoen".
+- **Royal Bhutanese Monastery** — opvallende dzong-architectuur, maar zelfde beperking: geen
+  specifiek onderscheidend verhaal boven architecturale schoonheid.
+- **Tibetan Monastery** — reuzengebedmolen, Maitreya-Boeddhabeeld, direct tegenover het
+  hoofdcomplex — dichtstbij een eigen verhaal, maar nog onvoldoende zelfstandig onderbouwd deze
+  ronde.
+- **Vietnamese Temple** — gebouwd 2002, representatief voor Vietnamese architectuur — geen
+  specifiek onderscheidend verhaal gevonden.
+- **Japanese Temple (Indosan Nippon Temple)** — te onderscheiden van het Groot-Bo
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=18 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/DISCOVERY_REPORT.md blob_sha=01c928dac540f7c718b2f0ad8e7cae0aa4971ef3 original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=6 classification=text
+eddhabeeld
+  (aparte structuur, wel dichtbij) — geen specifiek onderscheidend verhaal boven "Japanse tempel
+  hier".
+
+Advies: een vervolgronde met gerichte zoekacties per klooster (in plaats van één overzichtszoek)
+kan alsnog een PASS opleveren voor één of meer van deze vijf — dit is nadrukkelijk NOT_YET_
+SATURATED voor `DET-BGY-P003`, niet een definitief FAIL.
+
+## 6. FAIL-/afwijzingslog
+
+- **Zeven-weken-onderdelen als aparte kandidaten** (Animeshlochan Chaitya, Ratnachakrama,
+  Ratnaghar Chaitya, Ajapala Nigrodh-boom, Muchalinda-vijver, Rajyatana-boom): bewust NIET als
+  losse kandidaten behandeld. Elk heeft een eigen verhaal, maar alle liggen binnen dezelfde
+  ommuurde complexgrens en worden in hetzelfde bezoek gezien — apart nummeren zou kunstmatige
+  overfragmentatie zijn. Opgenomen als beschrijvende inhoud van PASS 1.
+- **Niranjana/Falgu-rivier als aparte "badplek"-kandidaat**: FAIL als zelfstandige kandidaat —
+  geen specifieke, aanwijsbare plek gevonden los van "één van de elf ghats". Verhaal blijft
+  contextueel onderdeel van Sujata Stupa.
+
+## 7. Out-of-scope high-value lead
+
+- **Barabar- en Nagarjuni-grotten** (oudste rotsgehouwen grotten van India, Ashoka-tijdperk,
+  Ajivika-ascetentraditie): objectief uitzonderlijk, maar de afstand tot Bodh Gaya is onzeker en
+  ligt op of voorbij de rand van zelfs de signalerende 20-30 km-buffer (bronnen variëren van
+  circa 25 km "ten noorden van Gaya" tot 42 km "van Bodhgaya" — Gaya zelf ligt al ca. 13-15 km
+  van Bodh Gaya, dus de exacte afstand vanaf Bodh Gaya hangt af van routing/meetmethode). Niet
+  verder getoetst binnen deze Discovery-ronde — gerapporteerd als `OUT_OF_SCOPE_HIGH_VALUE_LEAD`,
+  geen kandidaat, geen PASS/WATCHLIST/FAIL-oordeel geveld. Bij een expliciet verzoek van
+  Mark/INDIA2 kan dit alsnog getoetst worden.
+
+## 8. Open onzekerheden
+
+1. **Exacte locatie van Sri Yukteswars sannyas-initiatie (1906) binnen Bodh Gaya** — bevestigd
+   ALS gebeurtenis en jaar, niet als specifiek adres/klooster. Kan relevant zijn voor een
+   toekomstige, scherpere decompositie van PASS 1.
+2. **AOAY-boekpassage versus lineagebron**: de Sri Yukteswar-Bodh-Gaya-connectie is bevestigd via
+   lineage-/institutionele bronnen (Ananda e.a.), NIET via een rechtstreeks geverifieerde passage
+   in "Autobiography of a Yogi" zelf. Dit onderscheid moet bewaard blijven, niet vervaagd tot "AOAY
+   noemt Bodh Gaya".
+3. **Bakraur Stupa versus Sujata Stupa**: één academische bron noemt een "Bakraur Stupa" (8e-10e
+   eeuw CE, ca. 1 km ten noordoosten van het hoofdcomplex) naast de "Sujata Stupa" (2e eeuw v.Chr.,
+   ca. 2 km, in Bakraur-dorp zelf) — mogelijk hetzelfde object met een andere naam/datering per
+   bron, mogelijk twee verschillende objecten. Niet stilzwijgend gelijkgesteld — open vraag voor
+   een vervolgronde.
+4. **UNESCO-nominatiedocument** (whc.unesco.org/en/documents/130031) kon niet rechtstreeks
+   geopend worden (toegang geweigerd) — de UNESCO-status zelf is wel onafhankelijk bevestigd via
+   meerdere andere bronnen, maar het brondocument zelf is nog niet direct geraadpleegd.
+5. **Barabar-afstand-discrepantie** — zie sectie 7.
+6. **Xuanzang-reisverslag**: tot nu toe uitsluitend via secundaire samenvattingen geraadpleegd,
+   niet via een vertaalde primaire editie zelf — bronsterkte-upgrade mogelijk in een
+   vervolgronde.
+7. **Insider-/kloosterbron**: nog volledig afwezig, zoals vooraf al erkend.
+
+## 9. Dramatic miss check
+
+De twee vooraf geïdentificeerde risico's uit de PRE-BRONS-brief zijn beide direct geadresseerd:
+de complex-decompositie is expliciet uitgewerkt (koepel, niet zeven losse kandidaten — zie
+sectie 4, PASS 1), en de Dungeshwari-grotten zijn gevonden en bevestigd als sterke PASS (sectie
+4, PASS 3), precies zoals voorzien als het grootste risico om over het hoofd te zien.
+
+Resterend risico, nieuw geïdentificeerd tijdens deze ronde: de individuele internationale
+kloosters (`DET-BGY-P003`) zijn slechts oppervlakkig getoetst — een vervolgronde met per-klooster
+verdieping kan nog een sterke, op dit moment gemiste PASS opleveren (ana
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=19 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/DISCOVERY_REPORT.md blob_sha=01c928dac540f7c718b2f0ad8e7cae0aa4971ef3 original_offset=20480 original_length=857 payload_bytes=857 chunk_index=5 chunk_count=6 classification=text
+loog aan hoe 041/045 in
+Varanasi pas bij verdieping van WATCHLIST naar PASS gingen). Dit wordt hier expliciet gemeld,
+niet stilzwijgend als "klaar" behandeld.
+
+## 10. Saturatiestatus
+
+**Sweepniveau: `NOT_YET_SATURATED`.** Alle zeven detectoren hebben de minimale instapdrempel
+gehaald met sterke, goed onderbouwde eerste-ronde-resultaten (6 PASS, 5 WATCHLIST, 2 expliciete
+afwijzingen, 1 out-of-scope-lead), maar geen enkele detector heeft de volledige
+sweep-uitputtingscriteria doorlopen. Met name `DET-BGY-P003` (internationale kloosters) en de
+insider-/kloosterbron verdienen een vervolgronde vóórdat het sweepniveau redelijkerwijs
+`DISCOVERY_SATURATED` genoemd kan worden.
+
+---
+Geschreven door: CCI, op verzoek van INDIA2 (PR #23). Geen kandidaatstatus, geen nummers, geen
+BRONS-GEO, geen KML, geen PDF, geen reisplanning, geen A/B/C in dit document.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=20 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/MARK_DECISIONS_2026-08-02.jsonl blob_sha=04c4fa0e95b428a8a6d29204fd7463748c037e59 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+{"decision_type":"NUMBERING_CANON","scope":"ALL_INDIA_LOCATIONS","rule":"Every candidate and location always starts with its permanent numeric ID. Once assigned, the number never changes, is never reused, and remains permanently linked to that physical location. Numbering may continue through 999 or use reserved leading digits per cluster, but existing numbers are immutable.","decided_by":"Mark","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-004","display_id":"004","name":"Shri Tailanga Swami Math","mark_status":"A","cluster":"MANIKARNIKA_LALITA_PANCHGANGA_SCINDIA","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-005","display_id":"005","name":"Shree Shree Ma Anandamayi Ashram, Bhadaini","mark_status":"A","cluster":"BHADAINI_ASSI","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-006","display_id":"006","name":"Sarnath sacred complex","mark_status":"A","cluster":"SARNATH","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-007","display_id":"007","name":"Shri Kashi Vishwanath Temple","mark_status":"A","cluster":"VISHWANATH_OLD_CITY","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-008","display_id":"008","name":"Yogoda Satsanga Dhyana Mandali, Varanasi","mark_status":"B","cluster":"MAHMOORGANJ","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-009","display_id":"009","name":"Dashashwamedh Ghat","mark_status":"A","cluster":"DASHASHWAMEDH_OLD_GHATS","visit_note":"Evening Ganga Aarti around sunset; preferably viewed from a boat.","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-010","display_id":"010","name":"Assi Ghat","mark_status":"A","cluster":"BHADAINI_ASSI","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-011","display_id":"011","name":"Panchganga Ghat","mark_status":"A","cluster":"MANIKARNIKA_LALITA_PANCHGANGA_SCINDIA","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-013","display_id":"013","name":"Kaal Bhairav Temple","mark_status":"B","cluster":"NORTH_OLD_CITY","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-014","display_id":"014","name":"Maa Annapurna Temple","mark_status":"A","cluster":"VISHWANATH_OLD_CITY","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-015","display_id":"015","name":"Sankat Mochan Hanuman Temple","mark_status":"A","cluster":"DURGAKUND_SOUTH_VARANASI","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-016","display_id":"016","name":"Durga Temple and Durga Kund","mark_status":"A","cluster":"DURGAKUND_SOUTH_VARANASI","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-017","display_id":"017","name":"Vishalakshi Gauri Temple","mark_status":"A","cluster":"VISHWANATH_OLD_CITY","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-018","display_id":"018","name":"Sankatha Devi Temple","mark_status":"A","cluster":"MANIKARNIKA_LALITA_PANCHGANGA_SCINDIA","decision_reason":"Useful stop directly on the same walking route; included as A because it is immediate route-side bycatch.","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-020","display_id":"020","name":"Lalita Ghat","mark_status":"A","cluster":"MANIKARNIKA_LALITA_PANCHGANGA_SCINDIA","decision_reason":"Immediate route-side bycatch on the same core ghat walk.","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-021","display_id":"021","name":"Nepali Temple / Kathwala Temple","mark_status":"A","cluster":"MANIKARNIKA_LALITA_PANCHGANGA_SCINDIA","decision_reason":"Immediate route-side bycatch on the same core ghat walk.","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-022","display_id":"022","name":"Bindu Madhav Temple","mark_status":"A","cluster":"MANIKARNIKA_LALITA_PANCHGANGA_SCINDIA","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-023","display_id":"023","name":"Mrityunjay Mahadev Temple","mark_status":"B","cluster":"NORTH_VARANASI","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-024","display_id":"024","name":"Kabir Chaura Math","mark_status":"A","cluster":"KABIR","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-025","display_id":"025","name":"Lahartara Kabir birthplace memorial","mark_status":"B","cluster":"KABIR","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-026","display_id"
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=21 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/MARK_DECISIONS_2026-08-02.jsonl blob_sha=04c4fa0e95b428a8a6d29204fd7463748c037e59 original_offset=4096 original_length=2667 payload_bytes=2667 chunk_index=1 chunk_count=2 classification=text
+:"026","name":"Ramakrishna Mission Home of Service","mark_status":"C","cluster":"RAMAKRISHNA_AGHOR","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-027","display_id":"027","name":"Baba Keenaram Sthal / Krim Kund","mark_status":"C","cluster":"RAMAKRISHNA_AGHOR","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-028","display_id":"028","name":"Bhaskarananda Samadhi / Anand Bagh","mark_status":"A","cluster":"DURGAKUND_SOUTH_VARANASI","decision_reason":"Immediately adjacent to Durga Temple and Durga Kund, so included in the same A cluster.","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-035","display_id":"035","name":"Tulsi Manas Temple","mark_status":"A","cluster":"DURGAKUND_SOUTH_VARANASI","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-036","display_id":"036","name":"Tulsi Ghat","mark_status":"A","cluster":"BHADAINI_ASSI","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-037","display_id":"037","name":"Lolark Kund","mark_status":"A","cluster":"BHADAINI_ASSI","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-038","display_id":"038","name":"Ratneshwar Mahadev Temple","mark_status":"A","cluster":"MANIKARNIKA_LALITA_PANCHGANGA_SCINDIA","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-039","display_id":"039","name":"Shitala Mata Temple, Dashashwamedh","mark_status":"A","cluster":"DASHASHWAMEDH_OLD_GHATS","decided_at":"2026-08-02"}
+{"decision_type":"CLUSTER_DECISION","cluster":"VISHWANATH_OLD_CITY","members":["007","014","017"],"all_status":"A","decided_at":"2026-08-02"}
+{"decision_type":"CLUSTER_DECISION","cluster":"PANCHGANGA_CORE","members":["004","011","022"],"all_status":"A","decided_at":"2026-08-02"}
+{"decision_type":"CLUSTER_DECISION","cluster":"MANIKARNIKA_LALITA_PANCHGANGA_SCINDIA","core":["003","011","038"],"route_bycatch":["018","020","021","022","004"],"all_status":"A","decided_at":"2026-08-02"}
+{"decision_type":"CLUSTER_DECISION","cluster":"DASHASHWAMEDH_OLD_GHATS","members":["009","039","003"],"all_status":"A","visit_note":"Plan 009 Dashashwamedh Ghat for evening Aarti around sunset, preferably by boat.","decided_at":"2026-08-02"}
+{"decision_type":"CLUSTER_DECISION","cluster":"BHADAINI_ASSI","members":["005","010","036","037"],"all_status":"A","decided_at":"2026-08-02"}
+{"decision_type":"CLUSTER_DECISION","cluster":"DURGAKUND_SOUTH_VARANASI","members":["015","016","028","035"],"all_status":"A","decided_at":"2026-08-02"}
+{"decision_type":"CLUSTER_DECISION","cluster":"SARNATH","members":["006"],"all_status":"A","note":"Only the umbrella candidate 006 is decided A in this decision. Specific sub-sites 029-034 remain unchanged until Mark decides them separately.","decided_at":"2026-08-02"}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=22 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/SATURATION_REPORT_002.md blob_sha=04c7afcfc618daf8274b1eaa625ade83f48f677e original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# SATURATION_REPORT_002 — Bodh Gaya, definitieve saturation sweep
+
+run_id: BODHGAYA-DISCOVERY-001
+geschreven_op: 2026-08-06
+geschreven_door: CCI
+opdracht: INDIA6, bericht 024 ("BODH GAYA — DEFINITIEVE SATURATION SWEEP")
+
+Doel: Bodh Gaya pas aan Mark voorleggen wanneer de sweep werkelijk compleet is. Alle verplichte
+lenzen en genoemde leads zijn onderzocht totdat geen plausibele MARK_WAARDIGE plek meer openstaat.
+Geen PDF, geen KML, geen A/B/C, geen route/pacing/accommodatie in dit document. `PDF_STATUS:
+VERBODEN` gerespecteerd.
+
+---
+
+## 1. Genoemde leads — allemaal opgelost
+
+| Lead | Uitkomst | Nummer |
+|---|---|---|
+| Metta Buddharam Temple | MARK_WAARDIG — zilver/spiegel-Thaise meditatietempel, ander verhaal dan 054 | **059** |
+| Mangala Gauri Temple | MARK_WAARDIG — een van de 18 Maha Shakti Peethas van heel India | **070** |
+| Palyul/Namdroling Bodh Gaya | MARK_WAARDIG — groot Nyingma-klooster bij 049 | **060** |
+| Burmese Vihara | MARK_WAARDIG — gesticht 1936, pionierstatus, rieten Boeddhabeeld | **061** |
+| Mahabodhi Society of India | MARK_WAARDIG — oudste kloostergebouw, herstel-narratief (Dharmapala 1891) | **062** |
+| Nyingma Monlam Chenmo — fysieke plek | MARK_WAARDIG — nieuw Padmasambhava Grand Temple/Nyingma Center (2026) | **063** |
+| International Meditation Centre | MARK_WAARDIG — Dhamma Bodhi/Goenka-Vipassana, historische primeur (1970) | **074** |
+| Pretshila Hill | MARK_WAARDIG — Yama-tempel 1787, Rama/Sita-verhaal | **071** |
+| Brahmayoni/Gayasisa Hill (Vuurpreek) | MARK_WAARDIG — biografisch leermoment na de verlichting | **072** |
+| Jagannath Temple bij Mahabodhi | MARK_WAARDIG — 25 voet van 046, interreligieus coexistentieverhaal | **073** |
+
+Geen van de tien viel af op een harde uitsluitingsgrond.
+
+## 2. Overige gevonden MARK_WAARDIGE locaties (buiten de genoemde lijst)
+
+Bredere sweep langs de verplichte lenzen leverde negen aanvullende, individueel onderscheiden
+locaties op:
+
+- **064** Chinese Temple — 1945, oudste internationale kloosters, tegenover 046
+- **065** Bangladesh Buddhist Monastery — groot klooster van een overwegend islamitisch land
+- **066** Cambodian Monastery — visueel onderscheidend, bronbasis dunner dan gemiddeld
+- **067** Korean Temple (Bunhwang-sa) — vernoemd naar historische tempel Gyeongju 634 CE
+- **068** Shechen Monastery — internationaal bekende Nyingma-lijn, Dalai Lama-inwijding
+- **069** Mongolian Temple — enige Mongoolse vertegenwoordiging, bronbasis dun
+- **075** Jain Temple, Gaya (Bhagawan Mahavira) — zwakst onderbouwde kandidaat van de sweep
+- **076** Akshayavat — onvergankelijke banyanboom, Purana's/Ramayana/Jain-teksten, Sita-verhaal
+- **077** Bitho Sharif Dargah — soefi-heiligdom, SIGNALERINGSZONE (circa 20-25 km, niet volledige
+  kernstraal), representeert een anders volledig afwezige traditie (islam/soefisme)
+
+## 3. Nieuwe detector
+
+**DET-BGY-P008 POST_ENLIGHTENMENT_TEACHING_SITE_DETECTOR** toegevoegd aan
+`PRE_BRONS_DETECTORS.jsonl` (parent: DET-BGY-P002). Reden: geen bestaande detector dekte een
+specifiek, met naam genoemd leermoment van Boeddha NA de verlichting in de bredere regio — dit
+leidde ertoe dat de Vuurpreek-locatie (072) in eerdere rondes werd gemist. Retroactief toegepast,
+leverde direct één nieuwe kandidaat op.
+
+## 4. Internationale-kloosters-lens — nu vrijwel compleet
+
+Cross-check tegen een officiële/tourism-gebaseerde landenlijst (Tibet, Mongolië, Nepal, Japan,
+Korea, Cambodja, Laos, Myanmar, Vietnam, Sikkim, Sri Lanka, Taiwan, Thailand, Bhutan, China)
+bevestigt dat vrijwel elke genoemde nationaliteit nu een genummerde kandidaat heeft:
+
+Thailand (054, 059), Bhutan (055), Tibet — drie aparte tradities/instellingen (052 Karma-Kagyü,
+056 generiek/Karma Temple-alias, 060+063+068 Nyingma — zie open vraag hieronder), Vietnam (057),
+Japan (049, 058), China (064), Bangladesh (065), Cambodja (066), Korea (067), Mongolië (069).
+
+**Niet opgelost, expliciet niet geraden**: een specifiek Sikkimees en een specifiek Nepalees
+klooster worden in meerdere bronnen genoemd als bestaand in de kloosterzone, 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=23 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/SATURATION_REPORT_002.md blob_sha=04c7afcfc618daf8274b1eaa625ade83f48f677e original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+maar geen bron geeft
+een specifieke naam of vindbare locatie. Dit is na gerichte zoekpogingen `EXPLICIET
+ONBESCHIKBAAR` — geen kandidaat aangemaakt, geen naam verzonnen. Blijft een open lead voor een
+toekomstige, specifiekere zoekopdracht (bijvoorbeeld ter plekke of via een lokale bron).
+
+Laos: geen aparte tempel gevonden ondanks gerichte zoekopdracht — `EXPLICIET ONBESCHIKBAAR`,
+geen kandidaat.
+
+Taiwan: geen aparte tempel gevonden — `EXPLICIET ONBESCHIKBAAR`, geen kandidaat.
+
+## 5. Open identiteitsvragen (voor BRONS, niet nu opgelost)
+
+1. **063 (Padmasambhava Grand Temple/Nyingma Center) vs. 068 (Shechen Monastery)**: beide zijn
+   Nyingma-instellingen dicht bij Mahabodhi met een Dalai Lama/Karmapa-consecratie-verhaal. Bronnen
+   bevestigen dat 060 (Palyul) een aparte, derde locatie is, maar bevestigen NIET expliciet dat 063
+   en 068 verschillende gebouwen zijn. Beide apart genummerd (conform "geen coördinaten/identiteit
+   raden" — bij twijfel apart vermelden, niet stilzwijgend samenvoegen), met een expliciete
+   BRONS-taak om dit op te lossen.
+2. **071 (Pretshila) en 076 (Akshayavat) — mogelijke niet-hindoe-toegangsbeperking**: 051
+   (Vishnupad) bleek bij eerder onderzoek beperkt toegankelijk voor niet-hindoes. Pretshila en
+   Akshayavat zijn onderdeel van hetzelfde bredere Gaya-pind-daan-complex — een vergelijkbare
+   beperking is aannemelijk maar NIET aangenomen of bevestigd. Expliciete BRONS-taak.
+3. **075 (Jain Temple, Gaya)**: zwakste bronbasis van de hele sweep — geen specifiek
+   onderscheidend verhaal, object of gebeurtenis gevonden buiten "een Jaintempel op deze plek".
+   Niet uitgesloten (geen harde uitsluitingsgrond van toepassing — het is geen duplicaat, heeft een
+   eigen, andere traditie, is fysiek bezoekbaar), maar met het laagste vertrouwensniveau van de
+   sweep vermeld.
+4. **066 (Cambodian) en 069 (Mongolian)**: uitsluitend reisbronnen, geen officiële/academische bron
+   gevonden — bronkwaliteit onder het niveau van de meeste andere kandidaten, expliciet vermeld.
+
+## 6. Kriya-lijn (DET-BGY-P004) — herbevestigd afgerond
+
+Gerichte herzoekopdracht naar AOAY/Yogananda/Gaya-verbindingen buiten de reeds bevestigde Sri
+Yukteswar-episode (046) leverde niets nieuws op. Geen nieuwe kandidaat, geen wijziging op de
+bestaande, al vermelde open onzekerheid (exacte initiatielocatie binnen Bodh Gaya).
+
+## 7. Radius — bevestigd, één signaleringsgeval
+
+0-20 km: volledig onderzocht, alle 046-076 liggen hierbinnen (Gaya-stad zelf op circa 12-15 km).
+20-30 km: uitsluitend signalerend — Bitho Sharif Dargah (077, circa 20-25 km) is het enige geval
+deze ronde, expliciet als signaleringszone-kandidaat gemarkeerd, niet als kernstraal-kandidaat.
+Boven 30 km: geen nieuwe kandidaat (Barabar/Nagarjuni blijft `OUT_OF_SCOPE_HIGH_VALUE_LEAD`,
+ongewijzigd).
+
+## 8. Per-detector eindstatus
+
+| Detector | Status na deze ronde |
+|---|---|
+| DET-BGY-P001 (kerncomplex) | AFGEROND (ongewijzigd) |
+| DET-BGY-P002 (pre-verlichting) | AFGEROND (ongewijzigd) |
+| DET-BGY-P003 (internationale kloosters) | **SATURATED** — vrijwel volledige landendekking bereikt (zie sectie 4), resterende Sikkim/Nepal-namen expliciet onbeschikbaar, geen actieve productiviteit meer verwacht zonder een geheel nieuwe bronfamilie (lokale insider) |
+| DET-BGY-P004 (Kriya-lijn) | AFGEROND — herbevestigd, niets nieuws |
+| DET-BGY-P005 (archeologie) | AFGEROND (ongewijzigd) |
+| DET-BGY-P006 (niet-boeddhistisch in straal) | **SATURATED** — vier nieuwe, individueel onderscheiden Hindoe/Jain/soefi-vondsten (070, 071, 075, 076, 077), geen nieuwe richting meer zichtbaar |
+| DET-BGY-P007 (bronkwaliteitsfilter) | Doorlopend toegepast; bronkwaliteitsverschillen expliciet vermeld per kandidaat (zie sectie 5.3-5.4) |
+| DET-BGY-P008 (post-verlichting leermomenten, NIEUW) | AFGEROND voor deze ronde — één kandidaat (072) gevonden, geen verdere leads gesignaleerd |
+
+## 9. Ontbrekende-categoriecheck
+
+Expliciet nagegaan of nog een hele traditie/categorie volledig ontbreekt: christendom (geen
+specifieke kerk in Gaya gevonden met eigen verhaal — bisdo
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=24 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/SATURATION_REPORT_002.md blob_sha=04c7afcfc618daf8274b1eaa625ade83f48f677e original_offset=8192 original_length=1900 payload_bytes=1900 chunk_index=2 chunk_count=3 classification=text
+m Patna dekt de regio, geen
+individuele, bezoekbare kerk met een onderscheidend verhaal gevonden; `EXPLICIET ONBESCHIKBAAR`,
+geen kandidaat), sikhisme (niet gericht gezocht deze ronde — geen aanwijzing uit de andere
+bronnen dat dit relevant is; niet uitgesloten, wel ongecontroleerd), overige internationale
+kloosters (Sikkim/Nepal/Laos/Taiwan — zie sectie 4). Geen van deze checks leverde een nieuwe
+genummerde kandidaat op.
+
+## 10. SATURATED = JA
+
+Verantwoording tegen het gevraagde stopcriterium:
+- Alle verplichte lenzen zijn uitgevoerd (Boeddha-biografie, Kriya-lijn, levende kloosters/
+  tempels/ashrams, internationale tradities, Gaya-stad en omgeving, hindoeïsme/jaïnisme/soefisme,
+  grotten/heuvels/archeologie/fysieke relieken, spirituele extremen, eerder onvoldoende
+  onderzochte leads).
+- Alle tien met naam genoemde leads zijn opgelost en genummerd (sectie 1).
+- Negen aanvullende MARK_WAARDIGE locaties zijn gevonden en genummerd via de bredere lenzen
+  (sectie 2).
+- Geen detector staat nog op NOT_YET_SATURATED (sectie 8) — DET-BGY-P003 en P006, de eerder
+  actief productieve detectoren, zijn nu SATURATED.
+- De ontbrekende-categoriecheck (sectie 9) leverde niets nieuws op.
+- Resterende open punten (Sikkim/Nepal-naamgeving, twee identiteitsvragen, twee dun-onderbouwde
+  kandidaten) zijn expliciet vastgelegde onzekerheden, geen onbeoordeelde plausibele
+  MARK_WAARDIGE locaties — ze blokkeren SATURATED niet, ze zijn BRONS-stof.
+
+Geen enkele nieuwe locatie is uitgesloten op basis van verwachte A/B/C-uitkomst. Twee harde
+uitsluitingen bleven ongewijzigd van eerdere rondes (Niranjana-badplek, Barabar/Nagarjuni buiten
+scope) — geen nieuwe harde uitsluitingen deze ronde.
+
+---
+Geschreven door: CCI, op verzoek van INDIA6 (PR #23, bericht 024). Geen A/B/C ingevuld namens
+Mark. Geen PDF, geen KML, geen reisplanning/accommodatie. `PDF_STATUS: VERBODEN` gerespecteerd.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=25 path=runs/active/BODHGAYA-DISCOVERY-001/GOUD/MARK_SELECTION_REPORT.md blob_sha=05bf904cfced8d3a9b0d457e6e35736ff6903a9c original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=18 classification=text
+# MARK_SELECTION_REPORT — Bodh Gaya, heropende voorselectie
+
+run_id: BODHGAYA-DISCOVERY-001
+geschreven_op: 2026-08-05
+geschreven_door: CCI
+
+Op verzoek INDIA2 (bericht 009): de voorselectiefase is heropend. Kernregel: CCI/INDIA2 mogen
+niemand vooraf wegselecteren op basis van verwachte A/B/C-kans of "waarschijnlijk niet
+essentieel" — uitsluitend locaties die feitelijk dubbel, zonder eigen onderscheidende betekenis
+of ervaring, niet fysiek bezoekbaar (als specifieke plek), uitsluitend commercieel/generiek, of
+redelijkerwijs zelfs geen C zijn, mogen vóór Mark worden uitgesloten. Dit rapport gebruikt
+uitsluitend bestaande onderzoeksgegevens, aangevuld met gericht extra onderzoek waar nodig om elke
+locatie eerlijk te kunnen beoordelen. Geen A/B/C ingevuld namens Mark. Geen PDF, geen KML-update,
+geen reisplanning, geen nieuwe regio.
+
+**Belangrijk over 046-049**: deze vier blijven ongewijzigd — al door Mark beoordeeld (alle vier
+A, zie `MARK_DECISIONS_2026-08-05.jsonl`). Ze worden hieronder uitsluitend ter referentie kort
+herhaald, niet opnieuw beoordeeld.
+
+**Bijgewerkt 2026-08-06 (INDIA6, berichten 024/026/028/030) — definitieve saturation sweep +
+inhoudelijke kwaliteitscontrole**: dit rapport dekt nu alle actieve Bodh Gaya-kandidaten,
+046-078. Volledige onderbouwing: `PRE_BRONS/SATURATION_REPORT_002.md`,
+`SATURATION_REPORT_003_ADDENDUM.md`. Dit rapport is bovendien gecontroleerd op voorspelde A/B/C-
+taal (verwijderd, uitsluitend feiten + reden om over te slaan resteren) en op interne
+bronkwaliteit-tegenstrijdigheden (gecorrigeerd).
+
+**Bijgewerkt 2026-08-08 (INDIA6, canoncorrectie E.1 + bericht 042, retroactieve canontoets) —
+religie-onafhankelijke bedevaartszoeking**: alle open kandidaten (050-068, 070-074, 077-078) zijn
+opnieuw getoetst tegen `governance/SWEEP_PROTOCOL.md` poort E.1 (AOAY-override → Top-X-toets →
+religie-onafhankelijke hoge drempel voor overige bedevaarts-/heilige plekken, nooit "vertegen-
+woordiging" op zichzelf). Geen van de open kandidaten heeft een AOAY- of Top-X-link. Tien
+kandidaten wier enige resterende onderscheiding neerkwam op land-/traditievertegenwoordiging of
+pure architectuur zijn alsnog `EXCLUDED_HARD_REASON`: **053, 054, 055, 056, 057, 059, 064, 065,
+066, 067**. Negen kandidaten met een reëel maar betwistbaar zwaartesignaal (event, naamgenoemde
+belangrijke persoon, historische primeur) zijn NIET uitgesloten maar expliciet als
+**twijfelgeval** gemarkeerd voor INDIA6/Mark: **058, 060, 061, 063, 068, 073, 074, 077, 078**.
+Permanent gereserveerd, samen met de eerder al uitgesloten 069/075 en de sublocatie 076: **053,
+054, 055, 056, 057, 059, 064, 065, 066, 067, 069, 075** (12 nummers), plus 076 (sublocatie bij
+051).
+
+Samen met 046-049 (vast A) en de zeven duidelijk zelfstandig zware kandidaten (050, 051, 052, 062,
+070, 071, 072) en de negen twijfelgevallen (058, 060, 061, 063, 068, 073, 074, 077, 078): **actief
+aantal keuzeplekken in dit rapport: 20** (4 vast A + 16 door Mark te beoordelen, waarvan 9 met een
+expliciete twijfelgeval-kanttekening).
+
+---
+
+## Deel 1 — Bestaande kandidaten 046-049 (referentie, reeds door Mark beoordeeld: alle A)
+
+| Nr. | Naam | Mark-besluit |
+|---|---|---|
+| 046 | Mahabodhi Temple Complex | A |
+| 047 | Sujata Stupa, Bakraur | A |
+| 048 | Dungeshwari Cave Temples (Mahakala Caves) | A |
+| 049 | Great Buddha Statue | A |
+
+Op verzoek van INDIA2 (bericht 011) hieronder volledig leesbaar opgenomen, niet alleen via
+verwijzing. Bron: `BODHGAYA_GOUD_REPORT.md` (2026-08-03), ongewijzigd overgenomen.
+
+### Clusterindeling
+
+**Kerncluster (samen te combineren, korte afstand lopend):** 046 Mahabodhi Temple Complex; 047
+Sujata Stupa, Bakraur (circa 1,2 km hemelsbreed van 046, bronnen noemen circa 20 minuten lopen).
+
+**Aanvullende cluster (eigen rit nodig, blijft CORE_PASS-waardig):** 048 Dungeshwari Cave Temples
+/ Mahakala Caves (circa 12-14 km van Bodh Gaya, bronafhankelijk; geen zelf berekende afstand
+mogelijk zonder bevestigd coördinaat — zie GEO-status).
+
+**Losse optionele plek (dichtbij, makkelijk te combineren, maar niet kernwaardig):** 049 Great
+Buddha St
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=26 path=runs/active/BODHGAYA-DISCOVERY-001/GOUD/MARK_SELECTION_REPORT.md blob_sha=05bf904cfced8d3a9b0d457e6e35736ff6903a9c original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=18 classification=text
+atue (circa 1,1-1,5 km van 046, gebaseerd op een NIET-bevestigd referentiecoördinaat —
+zie GEO-status).
+
+### 046 — Mahabodhi Temple Complex
+
+**Wat het precies is**: het complex rond de plek waar Boeddha de verlichting bereikte — de
+Vajrasana (diamanttroon, bewaard door keizer Ashoka), de directe nakomeling van de Bodhi-boom, en
+binnen dezelfde ommuurde grens de zeven traditionele "week"-plekken van de periode direct na de
+verlichting (Animeshlochan Chaitya, Ratnachakrama-juwelenwandelpad, Ratnaghar Chaitya, Ajapala
+Nigrodh-boom, Muchalinda-vijver, Rajyatana-boom — zie Deel 3 voor de volledige uitwerking).
+
+**Waarom deze plek bijzonder is**: dit is een van de vier belangrijkste boeddhistische
+pelgrimsplaatsen ter wereld (samen met Boeddha's geboorteplaats, eerste prediking en overlijden)
+— UNESCO-werelderfgoed, en de plek zelf, niet een afbeelding of herdenkteken ervan.
+
+**Wat Mark er concreet ervaart**: staan bij de Bodhi-boom en de Vajrasana, het tempelgebouw
+bezoeken, en desgewenst de zeven weekplekken binnen dezelfde ommuurde grens bekijken — één
+doorlopend bezoek, dagelijks vrij toegankelijk.
+
+**Waarom wel/niet NOT_TO_BE_MISSED**: **CORE_PASS**, na actieve weerlegging in de vergelijkende
+snoeironde standgehouden. Onvoorwaardelijk toegankelijk, geen enkele andere plek dekt de
+verlichting zelf af.
+
+**AOAY/Top-11-volledigheidsaudit (bijgewerkt 2026-08-08, INDIA6 bericht 054; GERECONCILIEERD
+2026-08-08 na INDIA6-tegencontrole bericht 058 — zie `PRE_BRONS/AOAY_TOP11_AUDIT.md` voor de
+volledige onderbouwing)**: Sri Yukteswar (Top-11 #4) werd formeel in de Swami Orde ingewijd "door
+de Mahant van Buddh Gaya" — dit staat letterlijk in AOAY zelf (hoofdstuk 36, voetnoot).
+`gebeurtenis_geverifieerd: JA` (AOAY-primaire bron). `exacte_locatie_geverifieerd: NEE` — AOAY
+noemt geen specifiek gebouw; de historische "Mahant" was hoofd van de Bodh Gaya Math, een aparte
+Hindoe-kloosterinstelling die tot 1949 (Bodh Gaya Temple Act) de Mahabodhi-tempel beheerde en
+vandaag nog als gedeeld complex naast de tempel bestaat — niet bewezen dat de ceremonie in het
+huidige 046-tempelgebouw zelf plaatsvond. De datum "juli 1906, Guru Purnima" staat NERGENS in AOAY
+zelf — dit blijft een secundaire-bronclaim (lineage-/institutionele bronnen), hier expliciet zo
+onderscheiden. Eén aanvullende, niet-conflicterende Top-11-vondst (verrijking, 046 blijft A):
+Vivekananda (Top-11 #11) bezocht Bodh Gaya tweemaal — zijn eerste daad na het aannemen van sannyas
+én zijn allerlaatste reis (bron: Sister Nivedita). PLUS een niet-promoveerbare lineage-context:
+een Neem Karoli Baba-devotee (Krishna Das) ontving hier van een oude lama een Bodhi-boomzaad, dat
+Maharajji later ongevraagd ter sprake bracht (ramdass.org) — dit is GEEN directe, fysieke
+Neem-Karoli-Baba-link (Top-11 #6 zelf is nooit aantoonbaar in Bodh Gaya geweest), alleen relevante
+satsang-context, expliciet niet gepromoveerd tot een eigen bevinding. **CORRECTIE (2026-08-08, na
+INDIA6-tegencontrole)**: de eerdere claim dat Ramakrishna (Top-11 #8) zelf Bodh Gaya bezocht en
+voor het Boeddhabeeld mediteerde was ONJUIST — rechtstreekse controle van de destijds aangehaalde
+bron toonde het tegendeel (Ramakrishna weigerde bewust Gaya te bezoeken). Deze claim is
+INGETROKKEN; de correcte, wél geverifieerde Ramakrishna-link staat nu bij candidate 051 (zie
+aldaar), niet hier.
+
+**Reistijd/afstand**: ankerplek van de kerncluster (0 km).
+
+**GEO-combinatiesymmetrie (bijgewerkt 2026-08-08, INDIA6 bericht 051)**: 047 Sujata Stupa (circa
+1,2 km/20 min lopen). Op loopafstand van het hoofdcomplex, elk onafhankelijk als "direct
+naast"/"dicht bij"/"tegenover" 046 beschreven, dus onderling ook praktisch combinabel: 049 Great
+Buddha Statue, 050 Archaeological Museum, 061 Burmese Vihara, 062 Mahabodhi Society, 068 Shechen
+Monastery, 073 Jagannath Temple, 074 Dhamma Bodhi/Samanvaya Ashram. Deze zeven zijn niet individueel
+paarsgewijs opgemeten, maar elk afzonderlijk als vlakbij 046 bevestigd — de clusterrelatie is via
+dat gemeenschappelijke ankerpunt afgeleid, niet elk apart geverifieerd.
+
+**Bezoek
+<<< END CHUNK >>>
+

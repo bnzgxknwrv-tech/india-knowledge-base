@@ -1,0 +1,645 @@
+>>> CHUNK stream_row=464 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/LAHIRI_MAHASAYA_RECONCILIATION.md blob_sha=544fbc61c5c46050f33f413c36409fdf2d69dcc9 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=5 classification=text
+# LAHIRI_MAHASAYA_RECONCILIATION
+
+```
+task_id: TOP11-CORE-KRIYA-RECONCILIATION-001
+cci_task: CCI_TASK 088
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-19
+interne_input: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/LAHIRI_MAHASAYA_V2_PRE_EXTERNAL_FREEZE.md
+  (freeze commit 642e464ac96ca011f75df93c0f3ce71653948d6f, 19 records)
+externe_input: agent/chatgpt-top11-parallel-sweep:
+  runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/LAHIRI_MAHASAYA_PRE_COMPARE_FREEZE.md
+  (freeze commit 71bb5b6406fec1e7b59511e7957d247c3bdabc50, 60 records)
+INDIA_ROOD_PENDING: JA — geen duurzame IndiaROOD-freeze voor Lahiri Mahasaya beschikbaar op dit
+  checkpointmoment. RECONCILIATION_GATE: PROVISIONEEL, EXTERNAL_MODEL_DIVERSITY_GATE: NEE.
+```
+
+## Belangrijkste bevinding vooraf: nieuwe primaire bron
+
+De externe freeze gebruikt een bron die ik niet had: **PP — Ashoke Kumar Chatterjee, *Purana Purusha
+Yogiraj Sri Shama Churn Lahiree: A Complete Biography*** (familie-/lineagebiografie, 26 dagboeken/
+brieven van nakomelingen). Dit is potentieel de rijkste beschikbare bron over Lahiri Mahasaya's
+leven en verklaart waarom de externe set (60) mijn interne set (19) ver overtreft in aantal.
+
+**Directe bronverificatie ondernomen, resultaat: BRON_GEBLOKKEERD.** Ik heb geprobeerd de PP-URL
+(dokumen.pub) rechtstreeks op te vragen voor de vier meest consequente claims (exacte
+overlijdenstijd, huisadres D/31/58, Ramnagar-paleis/Pravunarayan Singh-tutorschap, en het
+1861-vs-1868-Ranikhet-conflict). De site meldt "under maintenance" — geen tekst beschikbaar. Ter
+gedeeltelijke compensatie is het overlijden **onafhankelijk gecontroleerd bij een tweede bron**
+(yssofindia.org/about/lahiri-mahasaya: "Lahiri Mahasaya entered mahasamadhi in Banaras, September
+26, 1895") — dit bevestigt de datum (niet de kloktijd 17:25, niet het adres, niet de Ramnagar-claim).
+
+**Consequentie voor deze reconciliatie**: alle PP-only claims (het overgrote deel van de externe
+36 records zonder AOAY-locator) worden hieronder `EXTERNAL_ONLY_UNVERIFIED` met `BRON_GEBLOKKEERD`
+i.p.v. `EXTERNAL_ONLY_VERIFIED_MISS`. Dit is geen afwijzing van de claims — PP oogt als een serieuze
+familiebiografie met specifieke regelankers — maar conform TASK.md §6 ("BRON_GEBLOKKEERD of
+UNRESOLVED is beter dan schijnzekerheid") mag ik ze niet als geverifieerd overnemen zonder de bron
+zelf gelezen te hebben.
+
+## Werkpakket A+B — matching tegen de 24 AOAY-gedekte externe records
+
+Van de 60 externe records citeren er 24 (mede) AOY (mijn enige bron); de overige 36 steunen
+uitsluitend op PP of secundaire veldbronnen.
+
+| intern # | extern # | uitkomst | toelichting |
+|---|---|---|---|
+| 1 (Ghurni, geboorte 1828) | 1 (Ghurni ancestraal huis) | `SAME_SITE_SAME_EVENT` | Beide AOY 3872-3877; extern voegt PP-regelankers toe (BRON_GEBLOKKEERD voor die laag). |
+| 2 (ancestraal huis, 1833-vloed) | 2 (familie-Shivatempel Ghurni) + 4 (herbouwde Ghurni Shiva Site) | `SAME_SITE_DIFFERENT_GRANULARITY` | Extern splitst mijn ene record correct in drie entiteiten: verwoeste tempel (2), herbouwd heiligdom (4, expliciet `PERSONALLY_PRESENT: NEE` — Lahiri was toen al in Kashi) en het zandbank-kindermeditatiepunt (3). Ik had dit onder één rij "1833-vloed" samengevat; extern is preciezer. Overgenomen als correctie. |
+| 3 (Benares, algemene vestiging na 1833) | 6 (huis broer Chandrakanta, Simon Chauhatta, Madanpura) | `SAME_SITE_DIFFERENT_GRANULARITY` | Extern noemt de wijk/host (broer Chandrakanta) die ik niet had; PP-locator, `BRON_GEBLOKKEERD` voor die specificatie. AOY zelf (3875-3877) bevestigt alleen de verhuizing naar Kashi, geen broer-huis. |
+| 4 (school Joy Narayan Ghosal) | 9 (Joynarayan English School) | `SAME_SITE_SAME_EVENT` | Beide AOY 3876-3877; extern voegt PP-locatiebeschrijving toe (Sadanand Market, tussen Ramapura/Rewari-talabs) — `BRON_GEBLOKKEERD`, niet AOY-eigen. |
+| 5 (Gazipur) | 38 | `SAME_SITE_SAME_EVENT` | Beide AOY 3882 + PP 253-255. |
+| 6 (Mirzapur) | 39 | `SAME_SITE_SAME_EVENT` | Idem, met een door PP gemeld chronologieconflict (zie hieronder). |
+| 7 (Danapur) | 43 | `SAME_SITE_SAME_EVENT`
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=465 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/LAHIRI_MAHASAYA_RECONCILIATION.md blob_sha=544fbc61c5c46050f33f413c36409fdf2d69dcc9 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=5 classification=text
+ — **chronologieconflict expliciet onopgelost** | Extern meldt zelf: AOY plaatst de Ranikhet-transfer in **1861** vanuit/naar Danapur; PP plaatst de transferorder op **23-11-1868**. Dit is een reëel, onopgelost conflict tussen AOAY en de nieuwe PP-bron — ik kan dit niet oplossen zonder PP zelf te kunnen lezen (`BRON_GEBLOKKEERD`). Classificatie: `IDENTITY_CONFLICT_UNRESOLVED` voor de exacte datering, terwijl de plaats zelf (Danapur) `SAME_SITE_SAME_EVENT` blijft. |
+| 8 (Naini Tal) | 44 | `SAME_SITE_SAME_EVENT` | AOY 3882; extern merkt op dat PP deze post NIET noemt — mogelijk verwarring met Ranikhet-regio. Blijft staan zoals AOY het geeft. |
+| 9 (Drongiri-grot/Ranikhet, 1861-ontmoeting) | 48 (Drongiri-berghelling) + 49 (initiatiegrot) + 50 (Gogash-oever) + 51 (paleis) | `SAME_SITE_DIFFERENT_GRANULARITY` | Extern splitst dit (net als bij Babaji) in vier sublocaties. Zelfde als de Babaji-reconciliatie hierboven — kruisverwijzing, niet dubbel geteld. |
+| 10 (Garudeswar Mohulla, Benares, eigen woning) | 13 (D/31/58 Madanpura) + 14 (parlour/bedstee) + 15 (huis-shrine) | `SAME_SITE_DIFFERENT_GRANULARITY` — **exact adres niet zelf geverifieerd** | Kernlocatie identiek (mijn "Garudeswar Mohulla" = extern "Garureswar/Gurudham, D/31/58 Madanpura"). Extern splitst in drie sublagen (huis/parlour-sterfkamer/huis-schrijn) met PP-locators. Het exacte huisnummer D/31/58 en de kloktijd van overlijden (17:25) zijn `BRON_GEBLOKKEERD` — niet door mij bevestigd, wel plausibel en niet tegenstrijdig met AOY. De sterfdatum zelf (26-09-1895) is onafhankelijk bevestigd via YSS. |
+| 11 (Moradabad, materialisatie aan Babaji-oproep) | 53 (huis Bengaalse vriend, Moradabad) | `SAME_SITE_SAME_EVENT` | AOY 4088-4107 + PP 323-324. PP dateert dit "jan. 1869", AOY impliceert kort na 1861 — zelfde onderliggende chronologieconflict als bij record 7/43. |
+| 12 (Allahabad Kumbh Mela) | — | `INTERNAL_ONLY_UNVERIFIED` | Extern vermeldt expliciet in de negatieve-bevindingen-sectie: "Geen voldoende bewijs gevonden voor persoonlijke aanwezigheid in Allahabad/Prayagraj [...]". **Dit is een DIRECT CONFLICT** met mijn eigen record 12, dat steunt op AOAY hfst. 33/34 zelf (Lahiri vertelt zelf over het wassen van de voeten van een asceet op een Kumbha Mela). Ik heb deze AOAY-passage zelf gelezen en het staat er ondubbelzinnig. Classificatie: `FALSE_OR_UNSUPPORTED_EXTERNAL_CLAIM` voor de externe negatieve bevinding — de externe freeze heeft hier een AOAY-passage gemist die ik wel vond. **Dit is de belangrijkste single vondst in deze Lahiri-reconciliatie**: mijn eigen atlas is op dit punt aantoonbaar sterker dan de externe 60-record-set. |
+| 13 (Retirement 1886, Benares parlor) | 21 (Ramnagar-paleis, na pensionering) | `SAME_SITE_DIFFERENT_NAME` (deels) + `EXTERNAL_ONLY_UNVERIFIED` | Extern voegt een volledig NIEUWE, grote locatie toe: dagelijkse boottocht naar en verblijf in het Ramnagar-paleis als tutor van Pravunarayan Singh, na pensionering, PP 348-349. Dit is niet in AOAY en niet in mijn interne freeze. Zeer plausibel gezien Lahiri's bekende rol als privéleraar (AOAY noemt elders al een andere maharadja-tutorschap), maar **niet door mij geverifieerd** (`BRON_GEBLOKKEERD`, PP ontoegankelijk). Genoteerd als belangrijke open lead, niet overgenomen als bevestigd feit. |
+| 14 (Bengalitola-wijk, schoolstichting) | 16 (Bangalitola High School) | `SAME_SITE_SAME_EVENT` | AOY 3880-3882 + PP 272-275. |
+| 15 (Krishnagar/Bishnupur, regionale KRIYA-invloed) | 55 + 56 (twee aparte Bishnupur-huwelijksreizen, 1886 en 1891) | `SAME_SITE_DIFFERENT_GRANULARITY` — **belangrijke precisering** | Ik had dit als vage regionale claim ("reisde meermaals naar Bengal, bezocht schoonfamilies") zonder data. Extern (PP) geeft TWEE aparte, gedateerde reizen: mei 1886 (dochter Harimohini's huwelijk, Kadakuli) en mei 1891 (jongste zoons schoonfamilie + Kailasbabu-initiatie), plus de Panagarh-route en de Tirol-Kali-tempel-medicijnreis (dec. 1892). Belangrijke verdieping, maar wederom `BRON_GEBLOKKEERD` voor de PP-details zelf — de onderliggende AOAY-basisclaim (hfst. 35, "travel
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=466 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/LAHIRI_MAHASAYA_RECONCILIATION.md blob_sha=544fbc61c5c46050f33f413c36409fdf2d69dcc9 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=5 classification=text
+ed to Bengal... visiting the homes of the fathers-in-law") blijft wel mijn eigen, AOAY-bevestigde uitgangspunt. |
+| 16 (sterfplaats Benares, 1895) | 14 (parlour/bedstee) + 32 (Manikarnika Ghat crematie) | `SAME_SITE_DIFFERENT_GRANULARITY` | Extern voegt de crematieplaats (Manikarnika Ghat) toe — logisch, plausibel, maar niet in AOAY en niet door mij geverifieerd (`EXTERNAL_ONLY_UNVERIFIED`, wel zeer waarschijnlijk gezien Manikarnika de standaard crematieghat van Benares is). |
+| 17 (Calcutta, Arya Mission Institution — discipel-instelling) | negatieve bevinding | `SAME_SITE_SAME_EVENT` (bevestiging) | Extern bevestigt onafhankelijk hetzelfde: "geen bron gevonden die Lahiri's bezoek aantoont" — matcht mijn eigen `NEE`-classificatie voor Lahiri zelf op deze plek. Geen conflict. |
+| 18 (Gorakhpur-materialisatie aan Abinash Babu) | — | `INTERNAL_ONLY_VERIFIED_MISS` | Geen externe tegenhanger. Door mij zelf rechtstreeks in AOAY hfst. 1 geverifieerd (Lahiri Mahasaya materialiseert zich op een veld nabij Gorakhpur en spreekt Bhagabati Charan Ghosh/Abinash Babu aan — dit leidt tot Yogananda's vaders bekering). Extern noemt dit nergens, ook niet in de negatieve-bevindingensectie — waarschijnlijk simpelweg gemist omdat het in hoofdstuk 1 staat, ver van de "biografische" hoofdstukken 32-36 waar extern kennelijk primair zocht. Blijft een geldige, eigen vondst. |
+| 19 (Benares, pensionering-tot-dood) | 13/14 (zie boven) | `SAME_SITE_SAME_EVENT` | Samengevoegd met record 10/13-15 hierboven — geen apart nieuw record. |
+
+## Werkpakket B (vervolg) — externe records zonder interne tegenhanger, AOY-gedekt
+
+- **Record 37** (Barrackpore-kamer, Shankari Mai + Babaji): dit is dezelfde scène als de Babaji-
+  reconciliatie record BJ-INT-08/B12 — al gereconcilieerd daar, geen dubbele Lahiri-specifieke rij
+  nodig. `SAME_SITE_SAME_EVENT`.
+
+## Werkpakket B (vervolg) — 36 externe records uitsluitend op PP/secundaire bronnen (geen AOY-locator)
+
+Records 5, 7, 8, 10-12, 17-20, 22-31, 33-36, 40-42, 45-47, 52, 54, 57-60: allemaal
+`EXTERNAL_ONLY_UNVERIFIED` met `BRON_GEBLOKKEERD` (PP-bron ontoegankelijk op moment van deze taak).
+Dit betreft o.a. de leerlocaties voor de Nepalese prins en Harashankar Prasad Singhs zoon, meerdere
+naamloze discipelhuizen, Ranamahal Ghat + Krishnarams verandah, Panagarh-station en -cart-route,
+Burdwan-station, de Tirol-Kali-tempel-reis, en de PWD-posten Buxar en Katwa (die AOAY zelf niet
+noemt). Geen van deze is tegengesproken door AOAY — ze liggen simpelweg buiten mijn corpus. Volledige
+lijst met PP-regelankers staat in de externe freeze zelf; niet hier herhaald om dubbele,
+ongeverifieerde citatie te vermijden.
+
+**Twee waardevolle negatieve bevindingen die mijn eigen terughoudendheid bevestigen** (geen conflict,
+extern bevestigt wat ik nooit beweerde): Satyalok/D22/3 Chausattighat (`NEE`, latere memorialtempel)
+en de "royale Kashi death-palace" (`NEE`, Lahiri weigerde er expliciet heen te gaan volgens PP).
+
+## Werkpakket C — directe bronverificatie, resultaat
+
+| claim | resultaat |
+|---|---|
+| Sterfdatum 26-09-1895 | **ONAFHANKELIJK BEVESTIGD** via yssofindia.org, apart van AOAY en van PP. |
+| Sterftijd 17:25, huisadres D/31/58, Ramnagar-paleis/Pravunarayan Singh-tutorschap | **BRON_GEBLOKKEERD** — PP-bron (dokumen.pub) meldt "under maintenance", niet leesbaar op moment van deze taak. Niet overgenomen als bevestigd, niet verworpen als onwaar. |
+| 1861 (AOAY) vs. 1868 (PP) Ranikhet-transferjaar | **ECHT, ONOPGELOST BRONCONFLICT** — beide bronnen zijn intern consistent met zichzelf maar spreken elkaar tegen. Niet geharmoniseerd, expliciet als `IDENTITY_CONFLICT_UNRESOLVED` gelaten. |
+| Allahabad Kumbh Mela-aanwezigheid (Lahiri wast voeten van asceet) | **AOAY-EIGEN TEKST BEVESTIGT DIT WÉL** (hfst. 33) — de externe freeze's negatieve bevinding hierover is dus zelf onjuist/onvolledig. Belangrijkste correctie-in-de-andere-richting van deze reconciliatie. |
+| Gorakhpur-materialisatie aan Abinash Babu | **AOAY-EIGEN TEKST BEVESTIGT DIT** (hfst. 1) — bevestigt mijn eigen eerdere directe lezing, blijf
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=467 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/LAHIRI_MAHASAYA_RECONCILIATION.md blob_sha=544fbc61c5c46050f33f413c36409fdf2d69dcc9 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=5 classification=text
+t internal-only t.o.v. de externe set. |
+
+## Werkpakket D — METHOD_V2-gates, herbeoordeeld
+
+| gate | oordeel | onderbouwing |
+|---|---|---|
+| `CORPUS_COVERAGE_GATE` | **DEELS** | AOAY volledig (ongewijzigd); PP (de belangrijkste ontbrekende bronfamilie uit mijn oorspronkelijke freeze) is nu geïdentificeerd maar niet zelf gelezen — `BRON_GEBLOKKEERD`, niet stilzwijgend overgeslagen. |
+| `HOSTGRAPH_GATE` | **JA voor AOAY; DEELS voor PP-hosts** | AOAY-hostrelaties ongewijzigd bevestigd. PP introduceert tientallen nieuwe hostnamen (Krishnaram, Panchanan Bhattacharya's reisrol, Devnarayan Sanyal, etc.) die ik niet zelf kan natrekken zolang PP ontoegankelijk is. |
+| `DISCOVERY_GATE` | **DEELS** | Externe freeze opende een grote, plausibele nieuwe bronfamilie (PP) die mijn eigen Fase 4 niet vond; dat is precies waarvoor de externe detectorlaag bedoeld is. |
+| `RECONCILIATION_GATE` | **PROVISIONEEL** | Alle 24 AOY-gedekte externe records + mijn 19 interne records hebben een expliciete uitkomst; één belangrijke interne correctie in mijn voordeel (Allahabad Kumbh Mela), twee grote nieuwe PP-only bevindingen (Ramnagar-paleis, Bishnupur-reisdetails) blijven `BRON_GEBLOKKEERD`/`UNVERIFIED`. PROVISIONEEL i.p.v. JA vanwege zowel PP-ontoegankelijkheid als de ontbrekende IndiaROOD-derde-detector. |
+| `EXTERNAL_MODEL_DIVERSITY_GATE` | **NEE** | Zelfde reden als bij Babaji — één ChatGPT-sessie, geen multi-provider-bewijs. IndiaROOD nog niet beschikbaar. |
+
+**`LAHIRI_MAHASAYA_SWEEP_SATURATED: NEE`** — blijft NEE, met twee concrete nieuwe hiaten (PP-bron
+ontoegankelijk; IndiaROOD-delta openstaand) bovenop de al bekende hiaten uit de 087-freeze.
+
+## Correcties toegepast op de interne pre-external freeze
+
+1. Record 2 (1833-vloed) opgesplitst in drie entiteiten conform extern: verwoeste tempel, zandbank-
+   meditatieplek, en de herbouwde Ghurni Shiva Site (expliciet `PERSONALLY_PRESENT: NEE` voor Lahiri
+   zelf — hij was toen al in Kashi). Dit was in mijn oorspronkelijke freeze niet zo scherp
+   onderscheiden.
+2. Record 15 (regionale Bengal-reizen) verdiend een aantekening dat twee concrete, gedateerde reizen
+   (1886, 1891) bestaan volgens PP — nog niet zelf bevestigd, wel als gerichte toekomstige lead
+   vastgelegd i.p.v. vaag te blijven.
+
+Geen enkele interne AOAY-eigen claim bleek bij verificatie fout. Het belangrijkste resultaat van deze
+reconciliatie is in de ANDERE richting: de externe freeze's negatieve bevinding over Allahabad is
+zelf onjuist gebleken bij directe AOAY-herlezing.
+
+## next_allowed_step (voor deze persoon)
+
+1. Verplichte lossless IndiaROOD-deltareconciliatie zodra beschikbaar.
+2. Indien de PP-bron (dokumen.pub) later weer bereikbaar wordt: gerichte verificatieronde op de
+   hoogste-impact-claims (Ramnagar-paleis/Pravunarayan Singh, sterftijd 17:25, huisadres D/31/58,
+   1861-vs-1868-Ranikhet-conflict) — geen nieuwe brede discoverysweep, uitsluitend directe
+   bronverificatie van reeds genoteerde claims.
+3. Geen cluster/regio, A/B/C, permanente ID's, PDF of route.
+
+---
+Geschreven door: CCI, checkpoint 2 van CCI_TASK 088.
+
+## DELTA — CCI_TASK 092 (2026-08-19, IndiaROOD-derde-detectorreconciliatie)
+
+Volledige drieweg-reconciliatie tegen de nu duurzame IndiaROOD-freeze (40 records + 6 negatieve
+associaties, commit `fc8418b`): zie
+`runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/LAHIRI_MAHASAYA_INDIAROOD_DELTA.md`.
+
+**Belangrijkste uitkomst**: IndiaROOD gebruikt een ANDERE, eveneens nieuwe secundaire bron (Swami
+Bidyananda Giri's familiebiografie) dan de nog steeds geblokkeerde PP (*Purana Purusha*) — twee
+onafhankelijke familiebiografie-lijnen die elkaar grotendeels bevestigen. Vier volledig nieuwe
+locaties/gebeurtenissen zijn Tier-1 bronmatig bevestigd, waaronder drie die een echte lossless-gap
+in mijn eigen oorspronkelijke interne freeze dichten (de postmortale Keshabananda/Panchanon/
+Pranabananda-verschijningen uit AOAY hfst. 36 zelf, woordelijk teruggevonden). Het 1861-vs-1868-
+Ranikhet-dateringsconflict is nu getrianguleerd via een derde, wél toegankelijke bron
+(rykym.org) maar blij
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=468 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/LAHIRI_MAHASAYA_RECONCILIATION.md blob_sha=544fbc61c5c46050f33f413c36409fdf2d69dcc9 original_offset=16384 original_length=585 payload_bytes=585 chunk_index=4 chunk_count=5 classification=text
+ft onopgelost. Eén nieuw sub-conflict: welk familielid trouwde bij de
+Bishnupur-reis van 1886 (PP: dochter Harimohini; IndiaROOD: zoon Dukari) — niet gekozen, expliciet
+open gelaten. De Ramnagar-paleis/Kashi-Naresh-tutorschapclaim (voorheen `BRON_GEBLOKKEERD` in 088)
+krijgt nu `PLAUSIBLE`-status door tweevoudige onafhankelijke secundaire convergentie.
+
+`RECONCILIATION_GATE`: PROVISIONEEL → JA. `EXTERNAL_MODEL_DIVERSITY_GATE`: NEE → JA.
+`LAHIRI_MAHASAYA_SATURATED: NEE` blijft de eerlijke uitkomst.
+
+Checkpoint: Lahiri-Mahasaya-IndiaROOD-delta, CCI_TASK 092, checkpoint 2/3.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=469 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/INPUT/old_geo_comparison.jsonl blob_sha=5514d0eb6a3c1d63b287113bbe8b81a299cfad38 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=5 classification=text
+{"candidate_id":"VNS-CAND-001","canonical_name":"Lahiri Mahasaya Samadhi / Satyalok","latitude":25.3028,"longitude":83.0074,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-008","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-002","canonical_name":"Lahiri Mahasaya original home","latitude":25.3018,"longitude":83.0068,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-009","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-003","canonical_name":"Manikarnika Ghat","latitude":25.3109,"longitude":83.0142,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-005","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-004","canonical_name":"Shri Tailanga Swami Math","latitude":25.3188,"longitude":83.013,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-010","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-005","canonical_name":"Shree Shree Ma Anandamayi Ashram, Bhadaini","latitude":25.2897,"longitude":83.0068,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-004","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-006","canonical_name":"Sarnath sacred complex","latitude":25.3811,"longitude":83.0214,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-002","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-007","canonical_name":"Shri Kashi Vishwanath Temple","latitude":25.3109,"longitude":83.0107,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-001","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-008","canonical_name":"Yogoda Satsanga Dhyana Mandali, Varanasi","latitude":25.3045,"longitude":82.979369,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-003","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-009","canonical_name":"Dashashwamedh Ghat","latitude":25.3062,"longitude":83.0104,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-005","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-010","canonical_name":"Assi Ghat","latitude":25.2887,"longitude":83.0061,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accu
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=470 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/INPUT/old_geo_comparison.jsonl blob_sha=5514d0eb6a3c1d63b287113bbe8b81a299cfad38 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=5 classification=text
+racy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-005","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-011","canonical_name":"Panchganga Ghat","latitude":25.3185,"longitude":83.0128,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-005","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-012","canonical_name":"Harishchandra Ghat","latitude":25.2994,"longitude":83.009,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-005","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-013","canonical_name":"Kaal Bhairav Temple","latitude":25.3223,"longitude":83.009,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-005","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-014","canonical_name":"Maa Annapurna Temple","latitude":25.3107,"longitude":83.0103,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-005","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-015","canonical_name":"Sankat Mochan Hanuman Temple","latitude":25.282,"longitude":82.9992,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-005","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-016","canonical_name":"Durga Temple and Durga Kund","latitude":25.288,"longitude":82.9998,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-005","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-017","canonical_name":"Vishalakshi Gauri Temple","latitude":25.3102,"longitude":83.0119,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-005","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-018","canonical_name":"Sankatha Devi Temple","latitude":25.3156,"longitude":83.014,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-005","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-019","canonical_name":"Kedareshwar Temple and Kedar Ghat","latitude":25.2967,"longitude":83.0088,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-005","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_questio
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=471 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/INPUT/old_geo_comparison.jsonl blob_sha=5514d0eb6a3c1d63b287113bbe8b81a299cfad38 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=5 classification=text
+n":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-020","canonical_name":"Lalita Ghat","latitude":25.3114,"longitude":83.0131,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-013","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-021","canonical_name":"Nepali Temple / Kathwala Temple","latitude":25.312,"longitude":83.0132,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-005","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-022","canonical_name":"Bindu Madhav Temple","latitude":25.3187,"longitude":83.0125,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-005","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-023","canonical_name":"Mrityunjay Mahadev Temple","latitude":25.3291,"longitude":83.0056,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-005","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-024","canonical_name":"Kabir Chaura Math","latitude":25.3233,"longitude":82.9992,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-007","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-025","canonical_name":"Lahartara Kabir birthplace memorial","latitude":25.304,"longitude":82.966,"geo_status":"APPROXIMATE_LOCAL_POINT","accuracy_class":"100_500_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-007","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-026","canonical_name":"Ramakrishna Mission Home of Service","latitude":25.309,"longitude":82.9974,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-006","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-027","canonical_name":"Baba Keenaram Sthal / Krim Kund","latitude":25.2928,"longitude":83.001,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-015","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-028","canonical_name":"Bhaskarananda Samadhi / Anand Bagh","latitude":25.2868,"longitude":82.9968,"geo_status":"APPROXIMATE_LOCAL_POINT","accuracy_class":"100_500_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-015","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-029","canonical_name":"Dhamek Stupa","latitude":25.3807,"
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=472 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/INPUT/old_geo_comparison.jsonl blob_sha=5514d0eb6a3c1d63b287113bbe8b81a299cfad38 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=5 classification=text
+longitude":83.0245,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-002","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-030","canonical_name":"Mulagandha Kuti Vihara","latitude":25.3819,"longitude":83.0216,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-002","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-031","canonical_name":"Chaukhandi Stupa","latitude":25.3756,"longitude":83.022,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-002","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-032","canonical_name":"Sarnath Archaeological Museum","latitude":25.3817,"longitude":83.0205,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-002","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-033","canonical_name":"Deer Park / Isipatana sacred landscape","latitude":25.3813,"longitude":83.023,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-002","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-034","canonical_name":"Saranganath Temple","latitude":25.3833,"longitude":83.0225,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-005","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-035","canonical_name":"Tulsi Manas Temple","latitude":25.2883,"longitude":83.0003,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-005","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-036","canonical_name":"Tulsi Ghat","latitude":25.2906,"longitude":83.0068,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-005","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-037","canonical_name":"Lolark Kund","latitude":25.2875,"longitude":83.0038,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-005","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-038","canonical_name":"Ratneshwar Mahadev Temple","latitude":25.3113,"longitude":83.0145,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-005","exactness_note":"Recognizable local working point; exact visitor e
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=473 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/INPUT/old_geo_comparison.jsonl blob_sha=5514d0eb6a3c1d63b287113bbe8b81a299cfad38 original_offset=16384 original_length=1016 payload_bytes=1016 chunk_index=4 chunk_count=5 classification=text
+ntrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-039","canonical_name":"Shitala Mata Temple, Dashashwamedh","latitude":25.3064,"longitude":83.0105,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-005","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+{"candidate_id":"VNS-CAND-040","canonical_name":"Bharat Mata Temple","latitude":25.317,"longitude":82.989,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_reference":"VS-005","exactness_note":"Recognizable local working point; exact visitor entrance not required at BRONS.","open_geo_question":"Direct entrance and access check remains open.","checked_at":"2026-07-20"}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=474 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/SATURATION_REPORT.md blob_sha=55200c743a2953ae55bf8e67513a2a0e1d028fa5 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# SATURATION_REPORT — Bodh Gaya (ronde 2)
+
+run_id: BODHGAYA-DISCOVERY-001
+geschreven_op: 2026-08-03
+geschreven_door: CCI
+
+Gerichte vervolgronde op de open punten uit `DISCOVERY_REPORT.md`. Doel: aantonen of nog een
+werkelijk NOT_TO_BE_MISSED-locatie ontbreekt, niet méér locaties verzamelen. Nog GEEN
+kandidaatstatus, GEEN nummers, GEEN A/B/C, GEEN BRONS-GEO, GEEN KML/PDF/reisplanning.
+
+---
+
+## 1. Mahabodhi-complex — koepel herbevestigd
+
+De koepelbeslissing uit ronde 1 blijft staan: de zeven "week"-plekken (Bodhi-boom/Vajrasana,
+Animeshlochan Chaitya, Ratnachakrama, Ratnaghar Chaitya, Ajapala Nigrodh, Muchalinda-vijver,
+Rajyatana-boom) liggen binnen dezelfde ommuurde complexgrens en worden in één doorlopend bezoek
+gezien. Geen van de zeven toont bij nader onderzoek een zelfstandige reden om als apart, permanent
+genummerde kandidaat te worden losgemaakt — geen kunstmatige overfragmentatie.
+
+**Nieuwe nuance, expliciet gemeld (geen aanleiding tot splitsing)**: bronnen spreken elkaar tegen
+over de exacte ligging van Muchalinda-vijver — sommige noemen hem "binnen het complex, rechts van
+de hoofdtempel", andere noemen een apart punt "circa 1 km ten zuiden" (onder de oude naam
+"Mocharim"). Mogelijk gaat het om twee verschillende, gelijknamige plekken (een toeristische
+vijver binnen het complex versus een archeologisch oudere plek verderop). Niet stilzwijgend
+gelijkgesteld — blijft open onzekerheid (zie sectie 5), geen reden om nu een apart record te
+maken.
+
+## 2. Sri Yukteswar — exacte locatie, versterkte context, nog niet bevestigd
+
+Verdiept, met een belangrijke nieuwe historische context — NIET geraden, expliciet als
+onzekerheid bewaard zoals opgedragen:
+
+- Onafhankelijk herbevestigd: Sri Yukteswar werd op Guru Purnima, juli 1906, geïnitieerd in de
+  sannyas-orde door Swami Krishna Dayal Giri, "hoofd van een ashram in Bodh Gaya".
+- Nieuw gevonden, relevante context: de Mahabodhi-tempel zelf werd van circa 1590 tot 1953 bestuurd
+  door een opeenvolging van Hindoe-Shivaïtische Mahanten van de Giri-orde (de "Bodh Gaya Math"),
+  totdat het beheer bij de Bodh Gaya Temple Act (1949, effectief 1953) formeel overging naar een
+  gedeeld comité. Krishna Dayal Giri behoorde zeer waarschijnlijk tot dezelfde Giri-Mahant-lijn die
+  destijds de tempel bestuurde — maar GEEN bron bevestigt expliciet dat hij zelf de toenmalige
+  Mahant was, of dat de initiatie in de Bodh Gaya Math zelf plaatsvond in plaats van een andere
+  ashram van dezelfde orde.
+- **Besluit conform opdracht**: GEEN locatie gegokt. Dit blijft een open onzekerheid, nu wel met
+  een aanzienlijk sterkere historische context dan in ronde 1. Gevoelig punt, feitelijk en
+  respectvol gemeld: dit raakt de historische Hindoe-Boeddhistische bestuursgeschiedenis van de
+  tempel — geen politieke duiding, alleen het feitelijke gegeven dat de Giri-orde de tempel lange
+  tijd bestuurde.
+
+## 3. Internationale kloosters — twee nieuwe, sterk onderbouwde PASS
+
+In plaats van een landenlijst is gericht gezocht naar kloosters met een specifiek, zelfstandig
+verhaal. Dit leverde twee duidelijke PASS-kandidaten op, los van categorievolledigheid:
+
+### Nieuw PASS — Tergar Monastery
+
+- **Beslissende reden**: gesticht door Yongey Mingyur Rinpoche (internationaal bekende hedendaagse
+  Tibetaans-boeddhistische leraar), huisvest ruim 300 monniken, en is het jaarlijkse gastheer van
+  het Kagyü Monlam-gebedsfestival onder leiding van de 17e Karmapa — een van de hoogste
+  gezagsdragers binnen de Karma Kagyü-traditie. Een actief internationaal studie-instituut, geen
+  architectonisch monument.
+- **Bronsterkte**: institutionele eigen bron (tergarsangha.org), Wikipedia (Tergar Meditation
+  Community).
+- **Waarom categorievolledigheid niet de reden is**: niet "nog een Tibetaans klooster", maar de
+  specifieke, geverifieerde combinatie van stichter, ~300 monniken, en de jaarlijkse aanwezigheid
+  van de 17e Karmapa.
+- **Open onzekerheid**: publieke bezoekerstoegang/programma niet expliciet bevestigd op de eigen
+  website — vermoedelijk overwegend monastiek instituut, niet primair to
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=475 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/SATURATION_REPORT.md blob_sha=55200c743a2953ae55bf8e67513a2a0e1d028fa5 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+eristisch.
+
+### Nieuw PASS — Root Institute (FPMT)
+
+- **Beslissende reden**: gesticht in 1984 door Lama Thubten Yeshe en Lama Zopa Rinpoche
+  (oprichters van FPMT, een wereldwijd netwerk van 170+ centra in 30+ landen), op 15 minuten lopen
+  van de Mahabodhi-tempel. Biedt van oktober t/m maart een doorlopend programma van residentiële
+  meditatiecursussen (circa 10 dagen) — een plek waar een bezoeker daadwerkelijk actief kan
+  deelnemen, niet alleen bekijken.
+- **Bronsterkte**: institutionele eigen bron (rootinstitute.ngo), FPMT-organisatiebron (fpmt.org).
+- **Waarom categorievolledigheid niet de reden is**: de reden is de concrete, toegankelijke
+  levende-praktijkervaring (meditatiecursussen), niet "er moest een retraitecentrum bij".
+
+### Overige vijf kloosters (Thai, Bhutaans, Tibetaans-generiek, Vietnamees, Japans) — blijven WATCHLIST
+
+Geen van deze vijf toonde bij dit gerichte onderzoek een specifiek onderscheidend verhaal boven
+"fraai nationaal paviljoen" — ongewijzigd ten opzichte van ronde 1.
+
+## 4. Insider-/kloosterbronnen
+
+Gedeeltelijk verbeterd, eerlijk gerapporteerd: voor de twee nieuwe PASS-kandidaten zijn de
+eigen officiële websites van de instellingen zelf geraadpleegd (tergarsangha.org, rootinstitute.ngo,
+fpmt.org) — dit is dichter bij een institutionele/monastieke bron dan een generiek reisblog, en
+is als zodanig gebruikt. Een werkelijk lokale, persoonlijke insider-bron (bijvoorbeeld een
+interview met een lokale monnik, pandit of gids) is nog steeds NIET beschikbaar — dit blijft een
+structureel hiaat, expliciet erkend, niet verzwegen.
+
+## 5. Bronnenhiaten — status per punt
+
+- **UNESCO rechtstreeks**: nog steeds niet direct te openen (whc.unesco.org blokkeert toegang,
+  HTTP 403, twee keer geprobeerd met verschillende URL's). De UNESCO-status zelf blijft
+  onafhankelijk bevestigd via meerdere andere, wel-toegankelijke bronnen. Niet verder opgelost
+  deze ronde.
+- **Xuanzang primaire/academische bron**: GEDEELTELIJK opgelost. Een publiek toegankelijke,
+  volledige Engelse vertaling (Samuel Beal, 1884, "Si-Yu-Ki: Buddhist Records of the Western
+  World") is bevestigd en gelokaliseerd (Internet Archive, Wisdomlib). De specifieke Bodh-Gaya-
+  passage zelf is nog niet geëxtraheerd uit de tekst — bronsterkte-upgrade dus deels bereikt
+  (bestaan en toegankelijkheid bevestigd), volledige inhoudelijke verificatie nog niet.
+- **Sujata Stupa/Bakraur-naamgeving**: VOLLEDIG OPGELOST. "Bakraur Stupa" en "Sujata Stupa" zijn
+  dezelfde fysieke plek — Bakraur is de dorpsnaam, geen aparte locatie. Bevestigd via een
+  academisch tijdschriftartikel (International Journal of Humanities and Social Science Research)
+  en meerdere onafhankelijke bronnen: oorspronkelijke bouw 2e eeuw v.Chr. (bevestigd via Dark Grey
+  Polished Ware en een gestempelde munt), latere uitbreidingsfase 8e-10e eeuw CE (ASI-opgravingen
+  1973-74 en 2001-2006) — geen tegenstrijdigheid, twee bouwfasen van hetzelfde object.
+- **Barabar/Nagarjuni-afstand**: VOLLEDIG OPGELOST met een eigen berekening. Met de gepubliceerde
+  coördinaten van Mahabodhi Temple (24.6960°N, 84.9914°E, meerdere bronnen) en Barabar Caves
+  (25.005°N, 85.063°E, Wikipedia) is de hemelsbrede afstand berekend op circa 35 km. Dit ligt
+  BUITEN de signalerende 20-30 km-buffer. Eerdere bronvermeldingen (24-25 km "ten noorden van
+  Gaya", 42 km "van Bodhgaya" via de weg) zijn hiermee te verklaren: Gaya ligt tussen Bodh Gaya en
+  Barabar in, en wegafstand is altijd langer dan de hemelsbrede afstand. Blijft
+  `OUT_OF_SCOPE_HIGH_VALUE_LEAD`, nu met een preciezere onderbouwing.
+
+## 6. Radius — bevestigd
+
+Geen wijziging: 0-20 km volledig onderzocht (alle PASS/WATCHLIST-vondsten liggen binnen circa
+15 km van het centrum); 20-30 km uitsluitend signalerend bekeken (Barabar/Nagarjuni, nu met
+precieze afstandsberekening buiten deze buffer bevestigd); boven 30 km geen kandidaat.
+
+---
+
+## Bijgewerkte PASS-lijst (8, was 6)
+
+1. Mahabodhi Temple Complex (koepel) — bevestigd, ongewijzigd
+2. Sujata Stupa, Bakraur — bevestigd, bronsterkte verder versterkt (academische opgraving
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=476 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/SATURATION_REPORT.md blob_sha=55200c743a2953ae55bf8e67513a2a0e1d028fa5 original_offset=8192 original_length=4095 payload_bytes=4095 chunk_index=2 chunk_count=3 classification=text
+sdatering)
+3. Dungeshwari Cave Temples (Mahakala-grotten) — bevestigd, ongewijzigd
+4. Great Buddha Statue (Daijokyo, 1989) — bevestigd, ongewijzigd
+5. Archaeological Museum of Bodh Gaya (ASI) — bevestigd, ongewijzigd
+6. Vishnupad Temple, Gaya — bevestigd, ongewijzigd
+7. **NIEUW** Tergar Monastery — gesticht door Mingyur Rinpoche, jaarlijks Kagyü Monlam met de
+   17e Karmapa, ~300 monniken
+8. **NIEUW** Root Institute (FPMT) — gesticht 1984 door Lama Yeshe/Lama Zopa Rinpoche, actief
+   toegankelijk meditatieprogramma
+
+Geen van de bestaande 6 is teruggezet naar WATCHLIST of afgewezen — nieuw bewijs bevestigde ze
+allemaal, wijzigde niets ten nadele.
+
+## Bijgewerkte WATCHLIST (5, ongewijzigd)
+
+Thai Monastery, Royal Bhutanese Monastery, Tibetan Monastery (generiek), Vietnamese Temple,
+Japanese Temple (Indosan Nippon) — geen specifiek onderscheidend verhaal gevonden deze ronde.
+
+## FAIL-/afwijzingslog (ongewijzigd, herbevestigd)
+
+- Zeven-weken-onderdelen als losse kandidaten — herbevestigd afgewezen (koepel).
+- Niranjana/Falgu-badplek als aparte kandidaat — herbevestigd afgewezen (geen specifieke plek).
+
+## Open onzekerheden (bijgewerkt)
+
+1. Sri Yukteswars exacte initiatielocatie binnen Bodh Gaya — versterkte context (mogelijke
+   Giri-Mahant-lijnverbinding), nog NIET bevestigd. Blijft open.
+2. Muchalinda-vijver — mogelijk twee gelijknamige plekken (binnen complex vs. ~1 km zuid,
+   "Mocharim") — nieuw ontdekte discrepantie, blijft open.
+3. UNESCO-brondocument — nog steeds niet rechtstreeks te openen.
+4. Xuanzang — primaire vertaling gelokaliseerd en toegankelijk bevestigd, specifieke Bodh-Gaya-
+   passage nog niet geëxtraheerd.
+5. Insider-/kloosterbron — gedeeltelijk verbeterd (instellings-eigen websites), echte lokale
+   persoonlijke bron nog steeds afwezig.
+6. ~~Bakraur Stupa vs. Sujata Stupa~~ — OPGELOST deze ronde (zelfde plek).
+7. ~~Barabar-afstand~~ — OPGELOST deze ronde (eigen berekening, ~35 km, buiten scope).
+
+## Bronfamiliedekking (bijgewerkt)
+
+Nieuw geraadpleegd deze ronde: institutionele eigen kloosterbronnen (tergarsangha.org,
+rootinstitute.ngo, fpmt.org), academisch tijdschriftartikel (Bakraur-opgravingsdatering),
+primaire-tekst-locatiebevestiging (Beal 1884-vertaling, Internet Archive/Wisdomlib). Nog steeds
+ontbrekend: insider-/kloosterbron (persoonlijk), UNESCO-brondocument rechtstreeks.
+
+## Per-detector afsluitstatus
+
+| Detector | Status na ronde 2 |
+|---|---|
+| DET-BGY-P001 (kerncomplex) | Redelijk AFGEROND — koepelbeslissing tweemaal bevestigd, één nieuwe nuance (Muchalinda) zonder nieuwe kandidaat |
+| DET-BGY-P002 (pre-verlichting) | AFGEROND — bronsterkte verder versterkt, geen nieuwe richting nodig |
+| DET-BGY-P003 (internationale kloosters) | **NOT_YET_SATURATED — nog actief productief** (2 nieuwe PASS deze ronde, tientallen kloosters nog niet individueel onderzocht) |
+| DET-BGY-P004 (Kriya-lijn) | Redelijk AFGEROND voor deze ronde — extra context gevonden, exacte locatie blijft open, geen verdere zoekrichting voorhanden zonder gokken |
+| DET-BGY-P005 (archeologie) | AFGEROND — geen nieuwe activiteit nodig deze ronde |
+| DET-BGY-P006 (niet-boeddhistisch in straal) | AFGEROND — afstandsvraag opgelost, geen nieuwe kandidaat dit keer |
+| DET-BGY-P007 (bronkwaliteitsfilter) | Doorlopend toegepast, bronkwaliteit deze ronde verbeterd |
+
+## Eindstatus
+
+**`NOT_YET_SATURATED`, met exact resterende reden**: `DET-BGY-P003` (internationale kloosters)
+leverde in deze ronde, met gerichter zoeken, meteen twee sterke nieuwe PASS-kandidaten op — een
+duidelijk signaal dat dit detector-gebied nog niet uitgeput is. Bodh Gaya heeft tientallen
+internationale kloosters/centra (Chinees, Sri Lankaans, Koreaans, Nepalees, Myanmarees, en meer)
+die nog niet individueel zijn onderzocht. Alle overige detectoren zijn voor deze scope redelijk
+afgerond. Een sweepniveau `DISCOVERY_SATURATED` is nog niet gerechtvaardigd.
+
+---
+Geschreven door: CCI, op verzoek van INDIA2 (PR #23). Geen kandidaatstatus, geen nummers, geen
+A/B/C, geen BRONS-GEO, geen KML/PDF/reisplanning in dit document.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=477 path=india4/prompts/BRONS-AUTOBATCH.md blob_sha=566043e37c68c45e03d91424ddcdab1c7406c032 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# BRONS-AUTOBATCH — ononderbroken batchcontract (vervangt per-batch-stop)
+
+Dit contract vervangt het "stop na elke batch/kandidaat"-gedrag uit `india4/roles/BRONS.md` voor de
+resterende VARANASI-GEO-DELIVERY-REPAIR-001-kandidaten. De inhoudelijke onderzoeksregels blijven
+ONGEWIJZIGD: `india4/protocols/GEO.md`, `india4/protocols/RESEARCH_QUALITY.md` en
+`india4/protocols/MARK_DECISIONS.md` gelden onverkort, kandidaat voor kandidaat. Alleen het
+stop-en-vraag-een-nieuwe-chatprompt-gedrag wordt vervangen.
+
+## Bron van waarheid
+
+Vertrouw GEEN los statusbestand (RUN.yaml/STATUS.yaml/*-PROGRESS.yaml) blindelings — dat was de
+hoofdoorzaak van het vastlopen (zie `ROOT_CAUSE.md`). Bepaal de volgende kandidaat altijd live met:
+
+```
+python3 runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/scripts/next_candidate.py --range 22 40
+```
+
+## Uitvoeringslus (geen stop tussen kandidaten)
+
+Voor elke kandidaat in het resterende bereik, in volgorde:
+
+1. Lees de kandidaatnaam uit `INPUT/candidates.jsonl`.
+2. Onderzoek volgens `GEO.md` + `RESEARCH_QUALITY.md` (Google Maps-marker, identiteitscheck,
+   minimaal de bronregistratie-eisen).
+3. Schrijf één JSONL-record, exact hetzelfde schema als de bestaande 21 records (candidate_id,
+   canonical_name, protected_mark_status, research_status, geo_status, final_latitude,
+   final_longitude, old_comparison, identity_check, evidence[], reason, checked_at).
+4. Append dat ene record aan het juiste batchbestand (BRONS-B03.jsonl voor 021-030,
+   BRONS-B04.jsonl voor 031-040 — maak BRONS-B04.jsonl aan als het nog niet bestaat).
+5. Commit **direct na dit ene record** (klein, atomisch): `git commit -m "BRONS <candidate_id>"`.
+6. Ga **zonder te stoppen** door naar de volgende kandidaat. Geen tussentijdse startvraag, geen
+   "wil je doorgaan"-moment.
+
+Herhaal dit tot het volledige bereik (VNS-CAND-022 t/m VNS-CAND-040) klaar is, OF tot een echte
+blokkade optreedt (zie hieronder).
+
+## Wanneer WEL stoppen (échte blokkades, ongewijzigd uit GITHUB_REQUIRED.md)
+
+- ontbrekende GitHub-read of -write;
+- ontbrekende of corrupte `candidates.jsonl`;
+- direct conflict met een expliciet Mark-besluit (bijv. het afgewezen VNS-CAND-008-coördinaat
+  opnieuw voorgesteld krijgen).
+
+Onzekerheid over ÉÉN kandidaat (geen bevestigde marker) is GEEN blokkade — noteer
+`GOOGLE_MAPS_MARKER_NOT_CONFIRMED` met reden, en ga door naar de volgende kandidaat. Dit was al zo
+in het oude protocol en verandert niet.
+
+## Na het volledige bereik (of bij een echte blokkade)
+
+1. Draai de validator:
+   ```
+   python3 runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/scripts/validate_brons.py
+   ```
+   Bij fouten: corrigeer het specifieke record, commit opnieuw, valideer opnieuw. Meld dit NIET als
+   voltooid zolang de validator fouten geeft.
+2. Werk `RUN.yaml` en `STATUS.yaml` bij naar de werkelijke eindstand (niet blind overschrijven —
+   laat ze overeenkomen met wat de data daadwerkelijk toont).
+3. Lever precies ÉÉN eindmelding aan Mark, in dit formaat:
+   ```
+   BRONS-AUTOBATCH VOLTOOID
+   Verwerkt: VNS-CAND-022 t/m VNS-CAND-0XX (N kandidaten)
+   Validatie: OK / N fouten (specificeren)
+   Laatste commit: <hash>
+   Openstaand: <lege regel of exacte blokkade>
+   ```
+
+Geen rapport per kandidaat, geen tussentijdse startvragen, geen samenvatting per commit — alleen
+deze ene eindmelding.
+
+## Hervatten na onderbreking (rate limit, netwerkfout, sessie-crash)
+
+Dit contract is zelf-hervattend. Als de uitvoering om welke reden dan ook stopt (netwerkfout,
+sessielimiet, crash): start gewoon dit exacte contract opnieuw. Stap 0 (`next_candidate.py`)
+berekent automatisch waar verder gegaan moet worden, uitsluitend op basis van wat daadwerkelijk al
+gecommit staat — nooit op basis van een los statusbestand. Geen enkele kandidaat wordt dubbel
+gedaan (elke commit is per kandidaat, dus een halve batch opnieuw doen kan niet gebeuren) en geen
+enkele kandidaat wordt overgeslagen.
+
+## Rollback van één specifieke kandidaat
+
+Omdat elke kandidaat zijn eigen atomische commit heeft, raakt een foute kandidaat nooit de andere.
+Om alleen kandidaat X terug te draaien:
+``
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=478 path=india4/prompts/BRONS-AUTOBATCH.md blob_sha=566043e37c68c45e03d91424ddcdab1c7406c032 original_offset=4096 original_length=512 payload_bytes=512 chunk_index=1 chunk_count=2 classification=text
+`
+git log --oneline --grep="BRONS <candidate_id>"
+git revert <die-ene-commit-hash>
+```
+Daarna opnieuw onderzoeken en opnieuw committen. De rest van de batch blijft onaangeroerd.
+
+## Startinstructie voor Mark
+
+Plak dit in een Claude Code-sessie met Bash-toegang en git-schrijftoegang tot
+`bnzgxknwrv-tech/india-knowledge-base`:
+
+> Voer `india4/prompts/BRONS-AUTOBATCH.md` uit voor VARANASI-GEO-DELIVERY-REPAIR-001,
+> bereik VNS-CAND-022 t/m VNS-CAND-040. Geen tussentijdse stops, één eindmelding aan het einde.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=479 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/TASK.md blob_sha=56879cec7c940c659073b9ab063e8be72483c7dc original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# TASK — TOP11-CORE-KRIYA-RECONCILIATION-001
+
+```
+task_id: TOP11-CORE-KRIYA-RECONCILIATION-001
+cci_task: CCI_TASK 088
+issued_by: INDIA7
+issued_at: 2026-08-19
+target_branch: claude/werk-je-nu-of-niet-oa10y7
+state_on_issue: READY_FOR_CCI
+pdf_status: VERBODEN
+```
+
+## 1. Doel
+
+Voer de eerste volledige, bidirectionele METHOD_V2-reconciliatie uit voor:
+
+1. Mahavatar Babaji
+2. Lahiri Mahasaya
+3. Sri Yukteswar
+
+De interne CCI_TASK 087/087R pre-external freezes en de onafhankelijk bevroren externe
+ChatGPT-sweeps zijn nu beide beschikbaar. Vergelijk ze pas in deze taak. Controleer claims
+rechtstreeks bij de bron; AI-consensus of herhaling is nooit bewijs.
+
+Dit is GEEN nieuwe blanco discoveryrun en GEEN regionale/cluster-sweep.
+
+## 2. Bevroren input — exact gebruiken
+
+### Interne pre-external freezes op de CCI-werkbranch
+
+- Babaji:
+  - bestand: `runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/BABAJI_V2_PRE_EXTERNAL_FREEZE.md`
+  - freeze commit: `6b79f1c8ad25572cb058c047673aef9d5c4284ce`
+- Lahiri Mahasaya:
+  - bestand: `runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/LAHIRI_MAHASAYA_V2_PRE_EXTERNAL_FREEZE.md`
+  - freeze commit: `642e464ac96ca011f75df93c0f3ce71653948d6f`
+- Sri Yukteswar:
+  - bestand: `runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/SRI_YUKTESWAR_V2_PRE_EXTERNAL_FREEZE.md`
+  - freeze commit: `ea60ba5975b0169736cd95a14f5daeef7d4c0868`
+
+### Onafhankelijke externe PRE-COMPARE freezes
+
+Branch: `agent/chatgpt-top11-parallel-sweep`
+
+- Babaji:
+  - bestand: `runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/BABAJI_PRE_COMPARE_FREEZE.md`
+  - freeze commit: `f565ff163e35597d2c4ed802676a4671f9da3b70`
+  - 35 genormaliseerde locaties
+- Lahiri Mahasaya:
+  - bestand: `runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/LAHIRI_MAHASAYA_PRE_COMPARE_FREEZE.md`
+  - freeze commit: `71bb5b6406fec1e7b59511e7957d247c3bdabc50`
+  - 60 genormaliseerde locaties
+- Sri Yukteswar:
+  - bestand: `runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/SRI_YUKTESWAR_PRE_COMPARE_FREEZE.md`
+  - freeze commit: `7ebad72652cf14d750c00aaa77fc25f53f2be2cd`
+  - 38 genormaliseerde locaties
+
+HARD: wijzig, merge of herschrijf de externe branch niet. Deze task schrijft uitsluitend naar de
+CCI-werkbranch.
+
+### Concurrent aangekondigde derde detector — IndiaROOD
+
+PR #23-comment `5339299346` kondigt een tweede, volledig onafhankelijke blinde ChatGPT-context
+("IndiaROOD") aan voor dezelfde drie personen. Op het uitgiftemoment is nog geen duurzaam
+freeze-bestand, branchpad of commit-SHA voor IndiaROOD beschikbaar.
+
+Verplichte omgang:
+
+1. Controleer vóór de lossless inventarisatie van iedere persoon uitsluitend PR #23 op een duurzame
+   IndiaROOD-resultaatenvelop met exact bestandspad en freeze-commit.
+2. Lees geen in-progress IndiaROOD-werk en onthul geen interne of bestaande externe kandidaten aan
+   IndiaROOD; de blinde detector mag niet worden besmet.
+3. Is een duurzame IndiaROOD-freeze voor die persoon beschikbaar vóór de persoonscheckpoint, neem
+   dan ELK record daarvan lossless als derde detectorlaag op, met eigen provenance en commit-SHA.
+4. Is die freeze nog niet beschikbaar, voer de hieronder opgedragen tweedetector-reconciliatie wel
+   uit, maar label haar `INDIA_ROOD_PENDING: JA`,
+   `RECONCILIATION_GATE: PROVISIONEEL` en
+   `EXTERNAL_MODEL_DIVERSITY_GATE: NEE/ONBEPAALD`. Leg als verplichte
+   `next_allowed_step` een latere lossless IndiaROOD-deltareconciliatie vast.
+5. Komt IndiaROOD pas ná een persoonscheckpoint binnen, herschrijf die checkpoint niet stilzwijgend;
+   vermeld de nieuwe freeze in de finale synthese als ongebruikte, verplichte delta-input.
+6. Een tweede onafhankelijke ChatGPT-context vergroot detectoronafhankelijkheid, maar geldt zonder
+   aanvullende modelfamilies niet automatisch als multi-provider/multi-model-union.
+
+## 3. Verplichte canon vóór uitvoering
+
+Lees volledig:
+
+1. dit `TASK.md` en bijbehorende `STATUS.md`;
+2. `runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/METHOD_V2.md`;
+3. alle zes vaste hierboven genoemde freeze-bestanden vanaf hun bevroren refs, plus iedere volgens
+   de IndiaROOD-regel toegelaten duurzame freez
+<<< END CHUNK >>>
+

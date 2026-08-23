@@ -1,0 +1,821 @@
+>>> CHUNK stream_row=1271 path=india4/roles/BRONS.md blob_sha=ec7353f6f2fad0aebf98c3a58c4bb9ab6bc9add1 original_offset=0 original_length=2281 payload_bytes=2281 chunk_index=0 chunk_count=1 classification=text
+# BRONS — BATCHCONTRACT
+
+Missie: onderzoek uitsluitend het kandidaatbereik van de genoemde BRONS-batch, maximaal tien kandidaten.
+
+**Vereiste vóór start (vanaf 2026-08-02, INDIA2-architectuurbesluit)**: BRONS mag pas starten
+nadat PRE-BRONS een intern consistente `REGION_CONTENT_BRIEF.json` heeft opgeleverd (gevalideerd
+met `india4/scripts/validate_pre_brons_brief.py`). Zie `india4/roles/PRE-BRONS.md`. De
+kandidatenlijst voor deze batch komt uit die brief/het detectiewerk, niet uit een vooraf
+aangeleverde naamlijst met een vast aantal.
+
+Lees uitsluitend: `india4/START.md`, dit contract, `india4/protocols/GITHUB_REQUIRED.md`, `india4/protocols/GEO.md`, `india4/protocols/MARK_DECISIONS.md`, de runopdracht, de PRE-BRONS-brief van deze regio en het eigen batchbestand of voortgangsbestand.
+
+Per kandidaat, IN DEZE VOLGORDE (eerst betekenis, dan pas geometrie):
+1. Leg vast: `WHY_THIS_ONE` (waarom deze specifieke plek, niet als generieke categorie), `WHY_NOT_THE_OTHERS` (waarom niet de vergelijkbare/nabijgelegen alternatieven), `MEANING_EVIDENCE` (brongewogen onderbouwing van de betekenis, geen generieke toeristische bron), `LIVING_OR_MONUMENTAL` (is de traditie/praktijk hier nog levend, of uitsluitend monumentaal/historisch), `MARK_RELEVANCE_LINK` (koppeling aan Marks bekende interesses/A-criteria uit de PRE-BRONS-brief).
+2. Pas daarna de GEO-kernregel toe: zoek de volledige kandidaatnaam als openbare Google Maps-zoekopdracht; kies alleen een marker die inhoudelijk dezelfde fysieke plek is; controleer naam en waar nodig wijk, ghat, adres of plaatssoort; neem exact het markercoördinaat over; gebruik geen schatting, terreinmiddelpunt, oude KML-waarde, officieel websitecoördinaat als vervanging of nabijgelegen marker; wanneer geen passende openbare Google Maps-marker kan worden vastgesteld: `GOOGLE_MAPS_MARKER_NOT_CONFIRMED`, reden vastleggen en doorgaan.
+
+Bestaande coördinaten zijn uitsluitend vergelijkingsmateriaal. BRONS wijzigt geen A/B/C-keuze.
+
+Output: één JSONL-batchbestand met volledige records. Bij onvolledige uitvoering daarnaast `PROGRESS.yaml` met afgeronde candidate_id’s en `next_candidate`. Bij volledige uitvoering: readback, commit, batchstatus COMPLETED en exact één complete startvraag voor de volgende batch. Stop daarna.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1272 path=runs/active/INDIA8-HARIDWAR-KANKHAL-RISHIKESH-CASTING-001/HARIDWAR_KANKHAL_RISHIKESH_CLUSTER_CASTING.md blob_sha=ecd16716bf21ad318ca8634c77474d747627795f original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+# HARIDWAR / KANKHAL / RISHIKESH — CLUSTER CASTING VOOR MARK
+
+status: FIRST_CASTING_COMPLETE__MARK_REVIEW_READY
+mode: bestaande AOAY/person-data assembleren + beperkte actuele visitability-check; GEEN brede nieuwe India-discovery
+
+## 1. Nederlandse kapstok
+Dit is de Ganges-/Himalayavoet-cluster ten westen van Kumaon. Rishikesh = ashram/yoga-stad aan de Ganges; Haridwar = grote heilige Gangesstad; Kankhal ligt direct ten zuiden van Haridwar en is voor deze reis vooral belangrijk door Anandamayi Ma. Dit is geen gratis zijstap vanuit Kumaon, maar wel dezelfde Noord-India-familie.
+
+Mark-herinnering: Rishikesh viel eerder af omdat de oude locatiegerichte laag te weinig A-gewicht opleverde. De nieuwe persoonsgerichte laag levert aantoonbaar nieuwe concrete informatie; daarom cluster additief heropenen, oude keuzes niet wijzigen.
+
+## 2. AOAY EERST
+### AOAY-ATL-026 — Hardwar / Haridwar — hoofdstukken 4, 36, 42
+**Waarom voor Mark belangrijk:** Haridwar is niet alleen genoemd; hoofdstuk 4 bevat Yogananda's eigen vlucht richting Himalaya en zijn daadwerkelijke aankomst in Hardwar. Het is dus een echte AOAY-gebeurtenisplaats. De huidige AOAY-atlas heeft 12 Hardwar-occurrences.
+
+- h4: Yogananda en zijn reisgenoot bereiken Hardwar; de ontsnappings-/Himalaya-scène speelt hier daadwerkelijk.
+- h36: Hardwar komt terug in lineagevertelling rond Keshabananda / Sri Yukteswar.
+- h42: Hardwar komt terug bij Yogananda's Indiareis/lineagecontext, inclusief een kleine ashram buiten Hardwar in de vertelde context.
+- YOGANANDA_PERSOONLIJK_AANWEZIG: JA voor hoofdstuk-4 Hardwar-scène.
+- EXACTE FYSIEKE SUBSITE h4: nog niet uit de atlas afgeleid; stad/station/routecontext is bewezen, maar geen specifieke deur of kamer claimen zonder extra bronpass.
+- AOAY_SCENE: JA.
+- MARK_A/B/C: OPEN — nieuwe castingbeslissing, tenzij pre-person baseline later een bestaand ID toont.
+
+### AOAY-ATL-025 — Rishikesh — hoofdstukken 4, 27
+**Belangrijk onderscheid:** de atlas bevat 5 occurrences, maar niet iedere Rishikesh-vermelding bewijst Yogananda-footfall.
+
+- h4: Rishikesh is het gewenste noordelijke doel / heilige bestemming in de vlucht-naar-Himalaya-scène. Niet stil upgraden naar een bezoek als de tekst alleen route/intentie beschrijft.
+- h27: een lineagevertelling noemt een `hermitage near Rishikesh` waar training plaatsvond en een grote feeding vanuit Rishikesh werd voorgesteld. Dit is potentieel fysiek interessant, maar de exacte hermitage-identiteit moet eerst worden opgelost voordat Mark een concrete site kan beoordelen.
+- YOGANANDA_PERSOONLIJK_AANWEZIG op concrete Rishikesh-site: ONBEWEZEN in deze casting.
+- AOAY_SCENE: JA als book-in-hand context; fysieke kandidaat pas na identity-resolution.
+
+## 3. PERSON-SWEEP VONDSTEN — CONCRETE BEZOEKPLEKKEN
+
+### HKR-NEW-01 — Shree Shree Ma Anandamayi Ashram + Samadhi Mandir, Kankhal
+- PERSONEN: Anandamayi Ma; Ram Dass.
+- WAT GEBEURDE HIER: Kankhal werd een kernplaats van Anandamayi Ma; haar Samadhi Mandir ligt hier. Ram Dass en Danny Goleman bezochten haar in 1971–72 en zagen Ma op de tempeltrappen/in de courtyard volgens zijn autobiografische freeze.
+- SAME_SITE / MULTI_PERSON: JA — Anandamayi Ma + Ram Dass op dezelfde ashram/temple-site.
+- PHYSICAL_IDENTITY: DEELS/STERK op complexniveau; Ram Dass-record noemt Kankhal ashram/temple courtyard.
+- BESTAAT NU: JA, officieel door Anandamayi Sangha bevestigd.
+- BEZOEKBAAR: JA; officiële Sangha geeft actuele ashramcontacten en Samadhi Mandir.
+- MEDITEREN / STUDEREN: JA, internationale centre-informatie is expliciet op retreat/zelfstudie/meditatie gericht.
+- OVERNACHTEN: JA, International Centre naast Ashram/Samadhi biedt kamers aan devotees; huidige officiële bookingscontacten bestaan.
+- HERITAGE_STAY: ZEER STERK, maar International Centre zelf is later gebouwd; dus 'slapen naast Ma's Samadhi/ashram', niet doen alsof dit Ma's historische slaapkamer is.
+- MARK_A/B/C: OPEN.
+
+### HKR-NEW-02 — Matri Smriti Museum / bewaarde Anandamayi Ma-kamer, Kankhal
+- PERSOON: Anandamayi Ma.
+- WAT GEBEURDE HIER: officiële Sangha beschrijft bungalow waar Ma ongeveer t
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1273 path=runs/active/INDIA8-HARIDWAR-KANKHAL-RISHIKESH-CASTING-001/HARIDWAR_KANKHAL_RISHIKESH_CLUSTER_CASTING.md blob_sha=ecd16716bf21ad318ca8634c77474d747627795f original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+wee maanden verbleef vóór haar Mahasamadhi; haar slaapkamer en keuken worden als zodanig bewaard, met relieken en haar klok.
+- PHYSICAL_IDENTITY: EXACT volgens officiële huidige Sangha.
+- BESTAAT NU: JA.
+- BEZOEKBAAR: officieel museum/research centre; actuele specifieke openingsuren nog te verifiëren vóór reis.
+- GEVOELSWAARDE: HOOG — dit is precies een room-level persoonslocatie, niet alleen 'zelfde stad'.
+- MARK_A/B/C: OPEN.
+
+### HKR-NEW-03 — Parmarth Niketan, Rishikesh
+- PERSOON: Anandamayi Ma.
+- WAT GEBEURDE HIER: officiële Anandamayi-chronologie: Ma bezocht Parmarth Niketan in juni 1956; grand reception. Een detailpagina zegt dat ze tijdens deze Rishikesh-periode in Parmarth verbleef en vandaar per boot de Ganges overstak naar Sivananda Ashram.
+- PHYSICAL_IDENTITY: EXACT complexniveau.
+- BESTAAT NU: JA, officiële Parmarth-site actief.
+- BEZOEKBAAR: JA, open to all volgens officiële site.
+- MEDITEREN/AARTI: JA; yoga/meditatie en dagelijkse Ganga Aarti worden aangeboden.
+- OVERNACHTEN: JA; officiële reserveringssite bestaat.
+- HERITAGE_STAY: MIDDEL-HOOG — verblijf in hetzelfde ashramcomplex waar Ma verbleef, maar historische kamer niet vastgesteld.
+- MARK_A/B/C: OPEN.
+
+### HKR-NEW-04 — Sivananda Ashram / Divine Life Society HQ, Rishikesh
+- PERSONEN: Anandamayi Ma + Swami Sivananda (geen Top-X, maar eventpartner).
+- WAT GEBEURDE HIER: Ma stak in 1956 per boot de Ganges over vanaf Parmarth en bezocht Swami Sivananda in zijn ashram; officiële Anandamayi-bron beschrijft ontvangst, rondleiding, kirtan en maaltijd.
+- PHYSICAL_IDENTITY: EXACT complexniveau.
+- BESTAAT NU: JA; Divine Life Society HQ/Sivananda Ashram actief.
+- BEZOEKBAAR: JA als ashram; verblijf vereist vooraf schriftelijke toestemming volgens officiële DLS-info.
+- MEDITEREN: spiritueel ashramgebruik, actueel programma vóór reis checken.
+- MARK_A/B/C: OPEN.
+
+### HKR-NEW-05 — Sapt Rishi Ashram, Haridwar
+- PERSOON: Anandamayi Ma.
+- WAT GEBEURDE HIER: 1956 Sanyam Saptah; 1959 bezocht Ma hier opnieuw een programma. De officiële chronologie vermeldt ook ontmoeting met Jawaharlal Nehru in deze context.
+- PHYSICAL_IDENTITY: EXACT complexniveau.
+- BESTAAT NU: JA; huidige ashramsite en Incredible India bevestigen site.
+- BEZOEKBAAR: JA.
+- MEDITEREN: JA, huidige site profileert stilte/spiritueel retreat.
+- OVERNACHTEN: huidige site meldt kutias/cottages; vóór booking authenticiteit/voorwaarden opnieuw checken.
+- MARK_A/B/C: OPEN.
+
+### HKR-NEW-06 — Kali Kamli / Ramnagar, Rishikesh
+- PERSOON: Anandamayi Ma; Daya Mata (Yogananda-lineage, niet Yogananda zelf).
+- WAT GEBEURDE HIER: 1959 Sanyam Saptah in Ramnagar, Rishikesh, georganiseerd door Kali Kamli Trust; honderden sadhus. Daya Mata, Yogananda's disciple en SRF-president, ontmoette Ma hier.
+- PERSON_OVERLAP: Anandamayi Ma + Yogananda-lineage via Daya Mata; NIET als Yogananda-footfall labelen.
+- PHYSICAL_IDENTITY: DEELS — trust/Ramnagar context sterk, exact eventgebouw nog tegen historische programmeerbron te fixen.
+- BESTAAT NU: Kali Kamli-organisatie is actueel actief in Rishikesh/Swargashram en noemt Ramnagar-faciliteit.
+- BEZOEKBAAR/overnachting: trust heeft actuele dharamshala/stay-infrastructuur; exact historische eventsite eerst identity-matchen.
+- MARK_A/B/C: OPEN na identity-resolution.
+
+### HKR-NEW-07 — Ganesh Dutt Goswami / Haridwar ashram-context
+- PERSOON: Anandamayi Ma.
+- WAT GEBEURDE HIER: source-first corpus meldt dat Ma in 1960 in Ganesh Dutt Goswami's Ashram in Haridwar verbleef.
+- PHYSICAL_IDENTITY: nog niet voldoende exact voor permanent reis-ID; mogelijk host/site-relatie met Sapt Rishi-institutionele wereld, maar niet stil samenvoegen.
+- BESTAAT/BEZOEKBAAR: gericht identity-onderzoek nodig.
+- MARK_A/B/C: NOG NIET — eerst exacte fysieke identity.
+
+### HKR-NEW-08 — Shanti Niketan, residence of Nitai Basu Mallick, Kankhal
+- PERSOON: Anandamayi Ma.
+- WAT GEBEURDE HIER: Ma verbleef hier in 1961; source-first pass zegt dat het later aan de ashram werd gedoneerd.
+- TYPE: historisch privéhuis/hosthouse — precies de categorie die oude region-sweeps makkelijk missen.
+- P
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1274 path=runs/active/INDIA8-HARIDWAR-KANKHAL-RISHIKESH-CASTING-001/HARIDWAR_KANKHAL_RISHIKESH_CLUSTER_CASTING.md blob_sha=ecd16716bf21ad318ca8634c77474d747627795f original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+HYSICAL_IDENTITY: DEELS; huidige parcel/building continuity nog oplossen.
+- MARK_A/B/C: NOG NIET — eerst huidige fysieke identity en toegankelijkheid.
+
+### HKR-NEW-09 — Jaipuria House, Ramghat, Haridwar
+- PERSOON: Anandamayi Ma.
+- WAT GEBEURDE HIER: Bhagawat/stay in 1970; Muktananda Giri stierf daar in Ma's aanwezigheid volgens source-first chronologie.
+- PHYSICAL_IDENTITY: DEELS; huidige building identity/access nog oplossen.
+- MARK_A/B/C: NOG NIET — eerst identity.
+
+### HKR-NEW-10 — Nirvani Akhara, Kankhal
+- PERSOON: Anandamayi Ma.
+- WAT GEBEURDE HIER: feeding/event in 1970 volgens source-first pass.
+- PHYSICAL_IDENTITY: complex/institutioneel waarschijnlijk identificeerbaar, maar historische event-sublocatie niet uitgewerkt.
+- BESTAAT NU: organisatie/institutionele continuïteit actueel zichtbaar.
+- MARK_A/B/C: OPEN zodra exacte huidige bezoekerscontext is vastgesteld.
+
+## 4. NEEM KAROLI BABA — BELANGRIJKE NEGATIEVE/ONZEKERE VONDST
+De IndiaGEEL NKB-sweep heeft Rishikesh expliciet onderzocht. Hij vond een 1970-land-acquisition claim, maar maakte bewust GEEN personal-presence record omdat de gebruikte passage niet bewijst dat Neem Karoli Baba zelf op dat specifieke perceel stond. Dit is methodologisch belangrijk: geen NKB-site toevoegen puur omdat een ashram/land later aan hem gekoppeld is.
+
+## 5. RAM DASS — EXACTE CLUSTERLINK
+Ram Dass heeft een direct fysiek persoonsrecord voor Anandamayi Ma Ashram/temple in Kankhal (1971–72): hij en Danny Goleman bezochten Ma; memoir plaatst haar op temple steps/courtyard. Dit is een echte concrete cross-person same-site kandidaat en verhoogt Kankhal duidelijk ten opzichte van de oude region-first indruk.
+
+## 6. WAT DE PERSON-SEARCH HIER VERANDERT
+Voorheen kon `Rishikesh` als algemene yoga-/ashramstad te weinig unieke A-plekken opleveren. De reverse person-laag maakt de cluster specifieker:
+- Kankhal wordt een sterke Anandamayi Ma + Ram Dass microcluster met Samadhi, ashram en room-level museum.
+- Rishikesh krijgt minimaal twee exact identificeerbare Anandamayi-sites (Parmarth + Sivananda) en een Kali Kamli/Daya Mata-lineage event.
+- Haridwar krijgt AOAY-footfall plus Anandamayi-programma/stay-sites.
+Dus niet meer beoordelen als één vaag 'Rishikesh'-cluster; beoordelen als drie gekoppelde microclusters.
+
+## 7. LOGISTIEK / TIJDSBAND — ALLEEN CASTING
+- Kankhal ligt direct bij Haridwar.
+- Officiële Anandamayi International Centre-info noemt Rishikesh circa 40 minuten van Kankhal.
+- Dit kan dus praktisch als 1 verblijfbasis + dagbezoeken of 2 bases worden ontworpen.
+- Verbinding met Kumaon is niet 'om de hoek'; behandel als aparte noordelijke subcluster en optimaliseer pas nadat Mark locaties A/B/C heeft gegeven.
+- Voor casting: minimaal circa 1 volle dag alleen voor de sterkste Kankhal/Haridwar-selectie; prettig 2+ dagen als Rishikesh-sites/meditatietijd A worden. Nog GEEN definitieve nachten.
+
+## 8. MARK — EERSTE KEUZERONDE
+Geef alleen A/B/C aan de kandidaten die al fysiek genoeg zijn:
+1. Anandamayi Ma Ashram + Samadhi Mandir, Kankhal — A/B/C
+2. Matri Smriti Museum + bewaarde Ma-kamer, Kankhal — A/B/C
+3. Parmarth Niketan, Rishikesh — A/B/C
+4. Sivananda Ashram, Rishikesh — A/B/C
+5. Sapt Rishi Ashram, Haridwar — A/B/C
+6. AOAY Haridwar h4 book-in-hand scene (exacte micro-site nog uit te werken) — A/B/C als cluster-scène
+
+Nog NIET laten kiezen totdat identity klaar is:
+7. Kali Kamli/Ramnagar historical event site
+8. Ganesh Dutt Goswami Ashram identity
+9. Shanti Niketan Kankhal identity
+10. Jaipuria House Ramghat identity
+11. Nirvani Akhara exact event/access
+12. AOAY h27 hermitage near Rishikesh identity
+
+Daarna: als Mark genoeg A-gewicht ziet -> `CLUSTER_DOOR` en alleen dan de open identities/proximity volledig sluiten. Als vrijwel alles B/C is -> cluster kan opnieuw AF zonder dure regionale megasweep.
+
+## 9. BRONNEN / PROVENANCE
+Repo: AOAY-FULL-LOCATION-ATLAS-001 PLACE_ATLAS + RAW_OCCURRENCES; Anandamayi source-first corpuspass; Ram Dass IndiaGEEL freeze; NKB IndiaGEEL freeze. Actuele verificatie uitsluitend gericht op bestaan/bezoekbaarheid via officiël
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1275 path=runs/active/INDIA8-HARIDWAR-KANKHAL-RISHIKESH-CASTING-001/HARIDWAR_KANKHAL_RISHIKESH_CLUSTER_CASTING.md blob_sha=ecd16716bf21ad318ca8634c77474d747627795f original_offset=12288 original_length=224 payload_bytes=224 chunk_index=3 chunk_count=4 classification=text
+e Anandamayi Sangha, Parmarth Niketan, Divine Life Society, Sapt Rishi Ashram/Incredible India en Kali Kamli-organisatie.
+
+Geen oude A/B/C gewijzigd. Geen permanente ID toegekend in deze casting. Geen PDF. Geen routebesluit.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1276 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/PHOTO_LOCATION_CLOSURE.md blob_sha=ee0cf2e933051bfd323513a4f4f2959a9702ee33 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# PHOTO_LOCATION_CLOSURE — Anandamayi Ma × Paramahansa Yogananda (addendum, 2026-08-20)
+
+```
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-20
+onderliggend_werk: YOGANANDA-ANANDAMAYI-PHOTO-LOCATION-001 (CCI_TASK 083, 2026-08-16) --
+                    already executed earlier in this engagement, located and reconciled
+                    into the master in this pass, not redone.
+```
+
+## Method note
+
+This bounded subtask was already completed once, before this addendum arrived, under
+CCI_TASK 083 (`runs/active/YOGANANDA-ANANDAMAYI-PHOTO-LOCATION-001/RESULT.md` on
+`agent/india8-cluster-casting`). That result was built by directly reading the full primary text
+of *Autobiography of a Yogi* chapter 45 (Project Gutenberg #7452, the same sha256-locked edition
+used in `AOAY-FULL-LOCATION-ATLAS-001`) plus the official Anandamayi Ma Sangha photo archive and
+life-history chronology, opened directly rather than from a snippet. This pass located that
+existing result, verified it directly resolves the addendum's questions, and reconciled its two
+physically-resolvable outputs into the row-level master (see `GLOBAL_ACCOUNTING.md`). No new
+research was re-run; nothing in the existing result required correction.
+
+## Required distinction (addendum point 3): confirmed, three separate events, not two
+
+AOAY ch45 explicitly narrates **three** separate Yogananda–Anandamayi Ma encounters during the
+1935-36 India visit, not one and not (as the earlier task's own working hypothesis wrongly
+assumed) a single garden/Calcutta conflation:
+
+1. **Bhowanipur, Calcutta — first meeting.** She was already outside, standing in an open-topped
+   car blessing ~100 disciples, on the point of departure. Bholanath is explicitly, physically
+   described here ("a broad-shouldered, fine-featured man... standing quietly in the midst of the
+   gathering"). **No photography is mentioned in this passage.**
+2. **Ranchi Vidyalaya — school visit, later.** Yogananda explicitly invites her to the garden "Mr.
+   Wright will take some pictures"; AOAY confirms she "posed for many photographs." **This is the
+   only passage in AOAY where photography with Yogananda is explicitly and multiply confirmed.**
+   Bholanath is not mentioned here.
+3. **Serampore station — farewell sighting, months later.** Brief platform encounter while she
+   waited for a train. No photography mentioned.
+
+## Findings against the addendum's known leads
+
+- **YSS caption** "Ananda Moyi Ma, Bholanath and Yogananda in Calcutta" and the **Anandamayi
+  Sangha archive caption** "Ma Anandamayi with Bholanath and Paramahamsa Yogananda" most plausibly
+  belong to **event 1 (Bhowanipur)**, since Bholanath is textually placed there and not at Ranchi
+  -- but this is a **plausible, not proven** attribution: AOAY's silence about a camera at
+  Bhowanipur is not proof no photo was taken there, and the archive image itself could not be
+  visually inspected (see blockers).
+- The **motion-picture-film claim** from the official Anandamayi Sangha text could not be
+  independently corroborated or localized to a specific one of the three events with the sources
+  consulted; treated as an open, separately-flagged claim, not silently dropped.
+
+## Physical resolution per event
+
+| Event | R-class | Current physical identity | Access | Master row |
+|---|---|---|---|---|
+| Bhowanipur first meeting | **R5** | Neighbourhood only; exact house/host not recoverable from consulted sources | ACCESS_UNKNOWN_AFTER_EXHAUSTION | new row, `physical_entity_key = BLAUW-AYC-SRC-017` |
+| Ranchi Vidyalaya garden (photo session) | **R1** | Yogoda Satsanga Sakha Math, Old Hazaribag Road, Ranchi, Jharkhand — same still-active, publicly accessible campus already resolved as `AYC-SRC-027` (Top-11 `ATL-PY-005`) | PUBLIC_OPEN (YSS ashram rules apply) | already in base master, `BLAUW-AYC-SRC-027` |
+| Serampore station | **R1** | Serampore railway station, still existing, public | PUBLIC_OPEN | new row, `physical_entity_key = BLAUW-AYC-SRC-018` |
+
+## Irreducible blockers (concrete, not "further research needed" hand-waving)
+
+1. **Gurupriya Devi's d
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1277 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/PHOTO_LOCATION_CLOSURE.md blob_sha=ee0cf2e933051bfd323513a4f4f2959a9702ee33 original_offset=4096 original_length=1399 payload_bytes=1399 chunk_index=1 chunk_count=2 classification=text
+iary** (*Mother As Revealed To Me*, the single most likely primary source
+   for the exact Bhowanipur house/host) was retrieved as a PDF but is a scanned image with no
+   text layer — automatic extraction returned nothing. Status: `BRON_GEBLOKKEERD` (technical, OCR
+   or manual page-by-page inspection required), explicitly **not** `NIET_GEVONDEN`.
+2. **The archive photo image itself** (`anandamayi.org/photos/118.jpg`) 404s; only the HTML
+   caption page was reachable. A visual check of garden-vs-street decor in the actual image would
+   help confirm or refute the Bhowanipur attribution and was not possible this pass.
+
+## Required report fields
+
+```
+PHOTO_EVENTS_FOUND: 3
+PHOTO_EVENTS_PHYSICALLY_RESOLVED: 2 fully (Ranchi R1, Serampore R1) + 1 at neighbourhood-only
+  precision (Bhowanipur R5, irreducible with current sources)
+UNRESOLVED_BLOCKERS: Gurupriya Devi diary is an unOCR'd scanned PDF; archive photo image 404s
+ANANDAMAYI_RESEARCH_TRAVEL_SCOPE_READY: JA
+```
+
+`JA` because: all three known joint-event locations are identified and resolved as far as the
+existing, consulted source corpus allows; the one residual gap (exact Bhowanipur house) has a
+named, concrete, executable next step (OCR the diary) rather than an open-ended sweep; and no
+further Anandamayi individual-house research is required under Mark's corrected scope unless a
+new documented joint-photo event surfaces.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1278 path=india5/tasks/done/INDIA5-ARCH-TEST-001/TASK.md blob_sha=ee35369be46da2e365cc4a0f3b07ccc7eeee425d original_offset=0 original_length=1414 payload_bytes=1414 chunk_index=0 chunk_count=1 classification=text
+# TASK.md — INDIA5-ARCH-TEST-001
+
+## Doel
+
+Onschuldige voorbeeldtaak om de volledige levenscyclus van de nieuwe INDIA5-taakarchitectuur
+te bewijzen: claim → uitvoering → validatie → completion, inclusief hervatbaarheid. Levert
+uitsluitend een testbestand en een validatierapport op — geen India-onderzoek, geen
+Varanasi-data, geen protocolwijziging.
+
+## Opdracht
+
+1. Claim deze taak met `india5/scripts/claim_task.py INDIA5-ARCH-TEST-001`.
+2. Schrijf `india5/tasks/active/INDIA5-ARCH-TEST-001/TEST_OUTPUT.md` met:
+   - een korte bevestiging dat de claim gelukt is;
+   - het resultaat van `validate_task.py INDIA5-ARCH-TEST-001 --stage active`.
+3. Schrijf `RESULT.md` met de exacte completion_marker (zie `TASK.yaml`).
+4. Rond af met `india5/scripts/complete_task.py INDIA5-ARCH-TEST-001`.
+5. Commit + push, en bevestig in de resultaatenvelop dat validatie, claim en completion alle
+   drie zonder handmatige ingreep zijn gelukt.
+
+## Verwacht bewijs van hervatbaarheid
+
+Beschrijf in `RESULT.md` expliciet: als deze sessie had afgebroken tussen claim en completion,
+had een nieuwe sessie de taak teruggevonden in `india5/tasks/active/INDIA5-ARCH-TEST-001/` met
+`STATUS.yaml`-state `ACTIVE`, zonder enige aanname uit chatgeschiedenis nodig te hebben.
+
+## Niet doen
+
+- Geen bestanden buiten `india5/tasks/*/INDIA5-ARCH-TEST-001/` aanraken.
+- Geen Varanasi-data, geen protocol- of registerbestanden wijzigen.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1279 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/BABAJI_V2_PRE_EXTERNAL_FREEZE.md blob_sha=ef7be8d4876eedff7f3c9cb2a958d868c4fef77e original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+# BABAJI_V2_PRE_EXTERNAL_FREEZE
+
+```
+task_id: TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
+trigger: CCI_TASK 087 / 087R (recovery na sessielimiet)
+uitgevoerd_door: CCI (direct, niet via subagent — eerdere parallelle subagent-poging faalde op
+  sessielimiet zonder duurzame output; deze freeze is een verse, volledige METHOD_V2 Fase 0-4-pas)
+uitgevoerd_op: 2026-08-18/19
+methode: METHOD_V2.md Fase 0-4. Fase 5-7 (onafhankelijke tweede pas, externe multi-AI-union,
+  reconciliatie) volgen NIET in deze taak — dit is een pre-external freeze, analoog aan
+  YOGANANDA_V2_PRE_EXTERNAL_FINAL_FREEZE.md.
+```
+
+## Eerlijkheidsverklaring
+
+Corpus-eerst, niet zoekmachine-eerst. `PHASE2_RESULT.md` (de oude METHOD_V1 ATL-MB-001 t/m 005)
+is tijdens de blinde pas NIET geraadpleegd als discovery-checklist. Vergelijking daarmee volgt
+hieronder apart, als eindnotitie, niet als sturing vooraf. Deze taak loopt bewust parallel aan en
+onafhankelijk van de aparte externe blinde ChatGPT-parallelsweep (`TOP11-PARALLEL-CHATGPT-SWEEP-001`,
+zie `handoffs/INDIA6_TO_INDIA7_LIVE_DELTA_2026-08-18_2359.md`) — er is geen inzage geweest in die
+externe resultaten voor of tijdens deze freeze.
+
+## Babaji-specifieke epistemische classificatie
+
+Babaji is, in tegenstelling tot Yogananda/Sri Yukteswar/Lahiri Mahasaya, door zijn eigen traditie
+bewust ahistorisch/legendarisch vormgegeven — geen geboorte-/sterftedatum, geen burgerlijke
+administratie, geen onafhankelijk buiten de lineage documenteerbaar bestaan. Elke claim krijgt
+daarom een expliciete tier:
+
+**CANONIEKE OVERRIDE — MARK_DECISION 2026-08-19:** deze tiers meten uitsluitend de nabijheid en
+kwaliteit van de **claimprovenance binnen een traditie**. Zij bewijzen niet dat Babaji historisch
+bestond of lichamelijk op de genoemde plek aanwezig was. Zelfs tier A betekent:
+`TRADITION_CLAIM_DOCUMENTED: JA`, nooit `HISTORICALLY_VERIFIED_BABAJI_PRESENCE: JA`.
+Bij Babaji kan wel worden geverifieerd dat (a) een bron de claim werkelijk bevat, (b) de fysieke
+site bestaat of identificeerbaar is en (c) een historisch beter documenteerbare getuige/volgeling
+daar aanwezig was. Babaji's eigen aanwezigheid blijft `CLAIMED_BY_<TRADITION>` en
+`HISTORICALLY_VERIFIED_BABAJI_PRESENCE: NIET_VASTSTELBAAR`. Zie
+`decisions/BABAJI_MYTHIC_FIGURE_EVIDENCE_RULE_2026-08-19.md`.
+
+- **A) DIRECTE/PRIMAIRE LINEAGE-CLAIM** — eerstehands of bijna-eerstehands verslag binnen de directe
+  Kriya-lijn (Yogananda's eigen ooggetuigenverslag, of Lahiri Mahasaya's/Sri Yukteswars eigen
+  getuigenis zoals rechtstreeks aan Yogananda doorverteld).
+- **B) VROEGE SEMI-PRIMAIRE TRADITIE** — lineage-interne overlevering, één of meer schakels van een
+  directe getuige verwijderd, maar binnen de gevestigde Kriya-transmissielijn.
+- **C) LATER TRADITIONEEL/INSTITUTIONEEL** — latere institutionele associatie, herdenkingssite,
+  ashram/schrijn gebouwd ter ere van een traditie, zonder directe-getuige-keten.
+- **D) SYMBOLISCH/GEEN FYSIEK BEWIJS** — puur symbolische/devotionele associatie, geen claim van een
+  daadwerkelijk documenteerbare fysieke ontmoeting op die plek.
+
+## WERKPAKKET A — corpus-coverage
+
+| bronfamilie | status | toelichting |
+|---|---|---|
+| *Autobiography of a Yogi* (Gutenberg #7452, alle 48 hoofdstukken) | **VOLLEDIG DOORZOCHT** | `grep -i "babaji"` over alle 48 hoofdstukken uitgevoerd (132 occurrences, 14 hoofdstukken); alle occurrence-clusters met omringende context gelezen (hfst. 13, 26, 27, 31, 32, 33, 34, 35, 36, 37, 39, 42, 43, 48). |
+| YSS/SRF-lineage-publicaties buiten AOAY (o.a. Daya Mata's *Only Love*, "A Blessing from Mahavatar Babaji") | **BRON_GEBLOKKEERD/NIET GERAADPLEEGD** | Genoemd door externe bronnen als aanvullend lineage-materiaal over Babaji; niet lokaal beschikbaar, niet doorzocht in deze ronde. Expliciet benoemd hiaat, niet verzwegen. |
+| YSS-ashram-index (yssofindia.org) | **DOORZOCHT (gericht, Fase 4)** | Bevestigt een modern YSS-ashram/pelgrimssite bij Dwarahat (zie hieronder), als institutionele/moderne laag boven de AOAY-tekst. |
+| Algemene webbronnen over "Mahavatar Babaji Cave" | **DOORZOCHT (gericht, Fase 4)** 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1280 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/BABAJI_V2_PRE_EXTERNAL_FREEZE.md blob_sha=ef7be8d4876eedff7f3c9cb2a958d868c4fef77e original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+| Eén gerichte WebSearch, ter identificatie van de moderne naam/locatie van de in AOAY beschreven grotten — niet als vervanging van de primaire brontekst, alleen als institutionele identificatielaag. |
+
+## WERKPAKKET B — lossless atlas (Fase 1-2), alle occurrence-clusters
+
+| # | plaats/site | AOAY-hoofdstuk(en) | gebeurtenis | tier | BABAJI_AANWEZIGHEIDSCLAIM__BRONSTATUS | toelichting |
+|---|---|---|---|---|---|---|
+| 1 | Drongiri Mountain-grot, bij Ranikhet (Himalaya, Almora-district) | 33, 34 (+ 32 zijdelings) | Babaji's eerste ontmoeting met Lahiri Mahasaya (1861); tempel-/paleismaterialisatie en Kriya-initiatie | **A** | CLAIM_DOCUMENTED (voor Lahiri Mahasaya's aanwezigheid; Babaji's "aanwezigheid" is per definitie van de traditie doorlopend hier) | Lahiri Mahasaya's eigen verslag, via Kebalananda én Sri Yukteswar (beiden rechtstreeks van Lahiri Mahasaya gehoord) aan Yogananda doorgegeven. Illustratie in AOAY zelf toont een foto van de grot, bezocht door Lahiri Mahasaya's kleinzoon. |
+| 2 | Algemeen "de noordelijke Himalaya-toppen nabij Badrinarayan" | 33 | Babaji's blijvende, algemene verblijfsregio | **A** (voor het bestaan van de claim zelf, maar regio-niveau, geen exacte site) | ONBEPAALD/REGIONAAL | Geen specifieke site; AOAY zelf noemt dit uitdrukkelijk vaag ("moves with his group from place to place"). |
+| 3 | Moradabad — huis van een Bengaalse familie | 34 | Babaji materialiseert zich op Lahiri Mahasaya's aanroep, ten overstaan van zes vrienden | **A** | CLAIM_DOCUMENTED | Lahiri Mahasaya's eigen verslag; exact huisadres niet gegeven, alleen de plaatsnaam Moradabad. |
+| 4 | Allahabad, Kumbh Mela-oever (1894) | 36, 42 (retrospectief gelokaliseerd) | Sri Yukteswars eigen eerste ontmoeting met Babaji | **A** | CLAIM_DOCUMENTED | Sri Yukteswars eigen, rechtstreeks aan Yogananda verteld verslag. Exacte oeverplek in 1936 fysiek aangewezen door Yogananda aan C.R. Wright (hfst. 42) — "the site on the river bank which Yoganandaji pointed out to me as the meeting place of Babaji and Sri Yukteswarji". |
+| 5 | Allahabad, Kumbh Mela (ander jaar/gelegenheid) | 34 | Lahiri Mahasaya's eigen ontmoeting met Babaji (wast voeten van een asceet) | **A** | CLAIM_DOCUMENTED | Lahiri Mahasaya's eigen verslag. Geen jaartal expliciet gegeven voor déze specifieke episode (apart van de 1861-eerste-ontmoeting). |
+| 6 | Serampore — banyanboom bij de rivieroever (nabij Sri Yukteswars hermitage) | 36 | Babaji verschijnt aan Sri Yukteswar na voltooiing van diens geschriften | **A** | CLAIM_DOCUMENTED | Sri Yukteswars eigen verslag. |
+| 7 | Benares — woning/parlour van Lahiri Mahasaya | 36 | Babaji verschijnt bij de deur, zichtbaar gemaakt voor Sri Yukteswar door Lahiri Mahasaya's aanraking | **A** | CLAIM_DOCUMENTED | Sri Yukteswars eigen verslag, gebeurtenis in Lahiri Mahasaya's eigen huis in Benares. |
+| 8 | Barackpur (nabij Calcutta) — kamer | 31 | Babaji betreedt stilletjes de kamer waar Lahiri Mahasaya en Shankari Mai Jiew zitten | **B** | CLAIM_DOCUMENTED (voor deze getuige) | Verteld door Shankari Mai Jiew (Trailanga Swami's enige bekende levende discipel), niet rechtstreeks aan Yogananda maar als overlevering in AOAY opgenomen ("She has related that..."). |
+| 9 | **Calcutta, 4 Gurpar Road — Yogananda's eigen ouderlijk huis, vestibule** | **37** | **Yogananda rapporteert dat Babaji persoonlijk aan hem verschijnt, kort vóór diens vertrek naar Amerika (1920)** | **A — sterkste claim in het hele corpus** | **CLAIM_DOCUMENTED** | Yogananda's eigen, expliciet nooit eerder aan iemand verteld ooggetuigenverslag ("Until now, I have never recounted to anyone this story of my meeting with Babaji"). Dit is de enige claim in AOAY waarbij de auteur zelf, in eigen persoon, met Babaji spreekt — sterker claimant-provenanceniveau dan alle andere records, die allemaal via Lahiri Mahasaya of Sri Yukteswar aan Yogananda zijn doorverteld. |
+| 10 | Badrinarayan-omgeving, grot (exacte locatie niet gespecificeerd, "near Badrinarayan") | 42 | Babaji verschijnt aan Keshabananda in een grot (ca. 1935), met een boodschap voor Yogananda |
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1281 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/BABAJI_V2_PRE_EXTERNAL_FREEZE.md blob_sha=ef7be8d4876eedff7f3c9cb2a958d868c4fef77e original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+ **A** (voor Keshabananda's eigen getuigenis, rechtstreeks aan Yogananda verteld) | CLAIM_DOCUMENTED (voor Keshabananda) | Expliciet GEEN Yogananda-Babaji-ontmoeting — Sri Yukteswar had al aangegeven dat Babaji niet op de Kumbh Mela 1936 zou verschijnen, en dit wordt in de tekst zelf bevestigd. |
+| 11 | Ranbajpur/Tarakeswar — Ram Gopal Muzumdars grot | 33 | Visioen van Babaji + Mataji + Lahiri Mahasaya, verteld aan Yogananda tijdens diens eigen bezoek aan Ram Gopal | **A** (Ram Gopals eigen verslag, rechtstreeks aan Yogananda) | CLAIM_DOCUMENTED (voor Ram Gopal, Lahiri Mahasaya en Mataji als getuigen) | Zelfde hoofdstuk als de reeds bevestigde Yogananda-eigen-bezoeklocatie (#34 in de eerdere Yogananda-atlas). |
+| 12 | "Mataji's grot" (ongespecificeerde locatie, niet ver van Ram Gopals grot) | 33 | Babaji's vermeende zuster Mataji ontvangt Babaji en Lahiri Mahasaya in haar eigen grot | **B/C** | ONBEPAALD | Geen plaatsnaam of regio gegeven buiten "niet ver van Ram Gopal"; te vaag voor een eigen atlas-entry met fysieke identiteit. |
+| 13 | Badrinarayan (algemeen) | 27 | Pranabananda zou na reïncarnatie "naar Badrinarayan zijn gegaan en zich bij de groep heiligen rond Babaji hebben gevoegd" | **D** | SYMBOLISCH | Reïncarnatieclaim, geen fysieke ontmoeting die te dateren/lokaliseren is; puur devotioneel/traditioneel. |
+| 14 | **Modern/institutioneel: "Mahavatar Babaji Cave", Kukuchina, Dunagiri-berg, bij Dwarahat (ca. 25 km van Dwarahat)** | *(niet in AOAY zelf — Fase 4-vondst)* | Moderne pelgrims-/institutionele identificatie van record #1 (Drongiri-grot) als exacte hedendaagse locatie, incl. eigen YSS-ashram ter plaatse | **C** | N.V.T. (institutionele laag, geen aparte fysieke-aanwezigheidsclaim) | AOAY zelf noemt geen dorpsnaam "Kukuchina" of bergnaam "Dunagiri" — dit is een latere, buiten de primaire tekst liggende identificatie die record #1 concretiseert tot een bezoekbare hedendaagse site. Niet verward met een eigen, aparte gebeurtenis. |
+
+## WERKPAKKET C — host/netwerkgraaf (Fase 3)
+
+| gastheer/getuige | relatie tot Babaji-occurrence | locatie |
+|---|---|---|
+| Lahiri Mahasaya | centrale getuige/discipel voor records #1, #3, #5, #7-9 (indirect) | Ranikhet, Moradabad, Allahabad, Benares |
+| Sri Yukteswar | centrale getuige voor records #4, #6, #7 | Allahabad, Serampore, Benares |
+| Swami Kebalananda (Yogananda's Sanskrit-leraar) | tussenpersoon die record #1/#3 aan Yogananda doorvertelde, zelf ook tijd met Babaji doorgebracht "in de Himalaya" (geen exacte site) | Himalaya (onbepaald) |
+| Shankari Mai Jiew (Trailanga Swami's discipel) | getuige voor record #8 | Barackpur |
+| Keshabananda | getuige voor record #10 | Badrinarayan-omgeving |
+| Ram Gopal Muzumdar ("de slapeloze heilige") | getuige voor record #11 | Ranbajpur/Tarakeswar |
+| Ananda Mohan Lahiri (kleinzoon van Lahiri Mahasaya) | bezoeker van de Drongiri-grot (fotobijschrift, geen eigen verhaal) | Drongiri Mountain |
+
+Geen van deze gastheren/getuigen leidt naar een nieuwe, in de tabel hierboven nog niet genoteerde
+fysieke site — de host-as bevestigt vooral de reeds gevonden locaties.
+
+## WERKPAKKET D — vier saturation-gates
+
+| gate | status | onderbouwing |
+|---|---|---|
+| **CORPUS-COVERAGE-GATE** | **DEELS** | AOAY volledig doorzocht (132/132 occurrences, alle 14 hoofdstukken met context gelezen). Aanvullende lineage-publicaties (Daya Mata e.a.) buiten AOAY zijn `BRON_GEBLOKKEERD/NIET GERAADPLEEGD` — concreet benoemd, niet verzwegen. |
+| **HOSTGRAPH-GATE** | **JA voor de gevonden getuigen** | Alle in AOAY genoemde getuigen/gastheren voor Babaji-occurrences zijn geïdentificeerd en teruggekoppeld aan hun eigen bekende locatie; geen aanwijzing voor gemiste hostrelaties binnen het doorzochte corpus. |
+| **DISCOVERY-GATE** | **DEELS** | Eén gerichte WebSearch uitgevoerd (moderne identificatie van de Drongiri-grot als "Mahavatar Babaji Cave, Kukuchina, Dunagiri"); geen bredere discovery-ronde naar bijv. Zuid-Indiase Babaji-tradities of andere lineage-vertakkingen (buiten AOAY-scope, mogelijk bestaand maar niet onderzocht). |
+| **RECONCILIATIE-G
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1282 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/BABAJI_V2_PRE_EXTERNAL_FREEZE.md blob_sha=ef7be8d4876eedff7f3c9cb2a958d868c4fef77e original_offset=12288 original_length=2427 payload_bytes=2427 chunk_index=3 chunk_count=4 classification=text
+ATE** | **N.V.T. in deze taak** | Fase 7 vereist externe/detector-only claims om te reconciliëren; die bestaan nog niet voor deze blinde pre-external freeze (conform CCI_TASK 087's expliciete instructie: geen externe input vóór deze freeze, inclusief de aparte externe ChatGPT-parallelsweep). |
+
+**`BABAJI_V2_PRE_EXTERNAL_SATURATED: NEE`**
+
+Onderbouwing: twee bronfamilies (aanvullende YSS/SRF-lineage-publicaties, bredere niet-AOAY
+Babaji-tradities) blijven onderzocht noch uitgesloten — een eerlijk benoemd hiaat. Daarnaast blijven
+drie occurrences (#2, #12, #13) op regio-/symbolisch niveau zonder exacte fysieke identiteit, wat
+inherent is aan Babaji's ahistorische status maar niettemin een expliciete beperking is, geen
+verzwegen gok.
+
+## Vergelijking met de oude METHOD_V1-lijst (PHASE2_RESULT.md, ATL-MB-001 t/m 005) — pas nú geraadpleegd
+
+Niet als discovery-checklist gebruikt tijdens de blinde pas hierboven; alleen nu ter vergelijking.
+De oude lijst bevatte 5 punten voor Babaji (Fase 2, METHOD_V1). Deze verse METHOD_V2-pas identificeert
+14 afzonderlijke occurrence-clusters — een aanzienlijke verdieping, met name de nieuwe/explicietere
+vondsten van record #4 (Allahabad-oeverplek exact aangewezen aan Wright), #6 (Serampore-banyanboom),
+#7 (Benares-parlour), #8 (Barackpur) en vooral **#9 (Yogananda's eigen persoonlijke ontmoeting op
+4 Gurpar Road)** — dit laatste record ontbrak in de oude lijst en is binnen AOAY de sterkste rechtstreeks door de
+auteur vertelde Babaji-claim. Het is geen onafhankelijk historisch bewijs voor Babaji's bestaan of
+fysieke aanwezigheid.
+
+## Onopgeloste punten — expliciete lijst
+
+1. Aanvullende YSS/SRF-lineage-publicaties (Daya Mata's *Only Love* e.a.) niet geraadpleegd.
+2. Bredere Babaji-tradities buiten de Kriya-lijn (bijv. andere sadhu-overleveringen) niet onderzocht
+   — buiten scope van deze AOAY-gecentreerde taak.
+3. Records #2, #12, #13 blijven op regio-/symbolisch niveau, geen exacte fysieke site vast te stellen
+   binnen AOAY zelf.
+4. Kebalananda's eigen tijd "in de Himalaya" met Babaji (hfst. 33) heeft geen exacte locatie.
+
+Geen A/B/C namens Mark. Geen permanente locatie-ID. Geen PDF. Geen route.
+
+---
+Geschreven door: CCI. Geen externe Babaji-resultaten geraadpleegd, gesimuleerd of vergeleken —
+conform CCI_TASK 087's stopvoorwaarde en de parallelle externe-blindheidsvereiste uit
+`handoffs/INDIA6_TO_INDIA7_LIVE_DELTA_2026-08-18_2359.md`.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1283 path=india5/scripts/validate_knowledge_gate.py blob_sha=f133eebd3eeff9d7f2a53b3dc5b6253dfd345dd4 original_offset=0 original_length=3117 payload_bytes=3117 chunk_index=0 chunk_count=1 classification=text
+#!/usr/bin/env python3
+"""Valideert een KNOWLEDGE_GATE_REVIEW.json tegen india5/schemas/knowledge_gate.schema.json.
+
+Gebruik:
+    python3 india5/scripts/validate_knowledge_gate.py <pad naar KNOWLEDGE_GATE_REVIEW.json>
+"""
+import json
+import sys
+from pathlib import Path
+
+REQUIRED_TOP = ["gate_id", "reviewed_at", "reviewed_by", "items", "overall_verdict"]
+REQUIRED_ITEM = ["topic", "verdict", "evidence_path", "notes"]
+VALID_ITEM_VERDICTS = {"PASS", "FAIL", "PARTIAL", "NOT_APPLICABLE"}
+VALID_OVERALL = {"READY", "NOT_READY", "READY_WITH_CONDITIONS"}
+
+MIN_TOPICS = {
+    "Mark's A/B/C-filosofie", "Immutable numbering", "Bestaande kandidatenlijst",
+    "Accommodatie-/hotelbesluiten", "Discovery versus GEO-verificatie",
+    "Detectorbibliotheek-governance", "Kandidaat-inflatie / differentiatietoets",
+    "Koepelkandidaat versus deelsite", "Betekenis vóór GEO",
+    "Geen stilzwijgende keuze / escalatieregels", "Saturation/coverage-bewijs",
+    "Taakarchitectuur zelf",
+}
+
+
+def main():
+    if len(sys.argv) != 2:
+        print("Gebruik: python3 validate_knowledge_gate.py <pad naar KNOWLEDGE_GATE_REVIEW.json>")
+        sys.exit(2)
+
+    path = Path(sys.argv[1])
+    if not path.exists():
+        print(f"Bestand niet gevonden: {path}")
+        sys.exit(1)
+
+    review = json.loads(path.read_text(encoding="utf-8"))
+    errors = []
+
+    missing_top = [f for f in REQUIRED_TOP if f not in review]
+    if missing_top:
+        errors.append(f"ontbrekende verplichte velden: {missing_top}")
+
+    for item in review.get("items", []):
+        missing = [f for f in REQUIRED_ITEM if f not in item]
+        if missing:
+            errors.append(f"item {item.get('topic', '<onbekend>')!r} mist velden: {missing}")
+        if item.get("verdict") not in VALID_ITEM_VERDICTS:
+            errors.append(f"item {item.get('topic')!r}: ongeldig verdict {item.get('verdict')!r}")
+
+    covered_topics = {item.get("topic") for item in review.get("items", [])}
+    # losse (niet-strikte) dekkingscontrole: elk minimumonderwerp moet als substring in minstens
+    # één item-topic voorkomen, zodat lichte tekstvariaties niet onnodig blokkeren
+    missing_topics = [
+        t for t in MIN_TOPICS
+        if not any(t.split(" / ")[0].split(" versus")[0][:15].lower() in (ct or "").lower()
+                   for ct in covered_topics)
+    ]
+    if missing_topics:
+        errors.append(f"vaste onderwerpenlijst niet volledig gedekt, ontbreekt (indicatief): {missing_topics}")
+
+    if review.get("overall_verdict") not in VALID_OVERALL:
+        errors.append(f"ongeldig overall_verdict: {review.get('overall_verdict')!r}")
+
+    if review.get("overall_verdict") == "READY_WITH_CONDITIONS" and not review.get("conditions"):
+        errors.append("overall_verdict is READY_WITH_CONDITIONS maar conditions is leeg")
+
+    if errors:
+        print(f"VALIDATIE MISLUKT -- {len(errors)} probleem/problemen:\n")
+        for e in errors:
+            print(f"  - {e}")
+        sys.exit(1)
+
+    print(f"VALIDATIE OK -- {len(review.get('items', []))} onderwerpen gecontroleerd, geen fouten.")
+    sys.exit(0)
+
+
+if __name__ == "__main__":
+    main()
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1284 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/COMPARATIVE_PRUNING_REPORT.md blob_sha=f39d57f1a864438ae7b7159dc8770534d297422c original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+# COMPARATIVE_PRUNING_REPORT — Bodh Gaya (vergelijkende snoeironde)
+
+run_id: BODHGAYA-DISCOVERY-001
+geschreven_op: 2026-08-03
+geschreven_door: CCI
+
+Geen nieuwe Discovery. Geen extra kloosters onderzocht. Geen kandidaatstatus, geen nummers, geen
+A/B/C, geen GEO/KML/PDF/reisplanning. Dit rapport toetst uitsluitend, streng en onderling
+vergelijkend, de acht bestaande PASS-locaties uit `SATURATION_REPORT.md` tegen de vraag: zou Mark
+er echte spijt van hebben deze specifiek te missen — of is de plek vervangbaar, evenement-
+afhankelijk, of slechts aanvullende context bij een andere, al behouden locatie?
+
+Uitkomst vooraf samengevat: van de acht PASS-locaties houden drie stand als **CORE_PASS** na
+actieve weerlegging, één als **OPTIONAL_PASS**, en vier zijn teruggezet naar **WATCHLIST** — niet
+omdat ze waardeloos zijn, maar omdat ze bij kritische toetsing evenement-, programma- of
+contextafhankelijk bleken, of onvoldoende zelfstandig Mark-specifiek onderbouwd waren.
+
+---
+
+## CORE_PASS (3)
+
+### Mahabodhi Temple Complex
+
+- **Wat Mark er concreet ervaart**: de fysieke plek van de verlichting zelf — Bodhi-boom,
+  Vajrasana, tempel, de zeven "week"-plekken binnen de complexgrens.
+- **Waarom niet afgedekt door een andere PASS-locatie**: dit IS de ankerplek van de hele regio;
+  geen enkele andere vondst dekt de verlichting zelf.
+- **Tijdstip-/programma-/toegangsafhankelijk?**: nee — dagelijks vrij toegankelijk binnen normale
+  tempeltijden, geen inschrijving of speciale toegang nodig.
+- **Waarde voor een gewone reiziger**: volledig — geen enkele voorwaarde.
+- **Zelfstandig NOT_TO_BE_MISSED of alleen bij specifieke belangstelling**: zelfstandig,
+  onvoorwaardelijk. Dit is de reden om naar Bodh Gaya te reizen, ongeacht traditie-affiniteit.
+- **Wat haar vervangbaar zou maken**: niets gevonden.
+- **Poging tot weerlegging**: geen zwakte gevonden bij actief zoeken naar een tegenargument.
+- **Bronsterkte**: sterk (UNESCO-status onafhankelijk bevestigd, meerdere overheidsbronnen,
+  encyclopedie).
+- **Definitief advies**: **CORE_PASS**, ondubbelzinnig.
+
+### Sujata Stupa, Bakraur
+
+- **Wat Mark er concreet ervaart**: een tastbaar, gedateerd stoepamonument (oorspronkelijk 2e
+  eeuw v.Chr., meerdere uitbreidingsfasen) op de plek waar Sujata Boeddha een kom rijstpudding
+  aanbood — de gebeurtenis die zijn zesjarige extreme ascese beëindigde en rechtstreeks tot de
+  ontdekking van de Middenweg leidde.
+- **Waarom niet afgedekt door een andere PASS-locatie**: andere, specifieke, plaatsgebonden
+  gebeurtenis dan zowel Mahabodhi (de verlichting zelf) als Dungeshwari (de ascese die
+  vóórafging) — complementair, geen overlap.
+- **Tijdstip-/programma-/toegangsafhankelijk?**: nee — archeologische site, altijd te bezoeken.
+- **Waarde voor een gewone reiziger**: volledig — geen speciale toegang nodig, circa 2 km van het
+  hoofdcomplex, eenvoudig te combineren.
+- **Zelfstandig NOT_TO_BE_MISSED of alleen bij specifieke belangstelling**: zelfstandig — de
+  Middenweg is een kernleerstuk van het boeddhisme, geen obscuur detail; dit is een van de weinige
+  plekken wereldwijd met een tastbaar, gedateerd fysiek spoor van de directe aanloop naar de
+  verlichting.
+- **Wat haar vervangbaar zou maken**: bij eerste, kritische overweging leek dit een "aardig
+  extraatje" te kunnen zijn dat je ook alleen verteld zou kunnen krijgen — maar het verhaal
+  loskoppelen van de fysieke, gedateerde plek zou precies het soort "bekijken versus er zelf
+  staan"-verschil verliezen waar Marks eigen kernidee (PROJECT.md) om draait. Geen ander bestaand
+  punt dekt deze specifieke gebeurtenis af.
+- **Poging tot weerlegging**: standgehouden.
+- **Bronsterkte**: sterk (officiële deelstaatbron + academische opgravingsdatering).
+- **Definitief advies**: **CORE_PASS**, na actieve weerlegging standgehouden.
+
+### Dungeshwari Cave Temples (Mahakala-grotten)
+
+- **Wat Mark er concreet ervaart**: rotsgehouwen grottempels (5e-6e eeuw CE) op de plek waar
+  Boeddha zes jaar extreme ascese beoefende, met een gouden beeld van de uitgemergelde Boeddha in
+  ascese.
+- **Waarom nie
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1285 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/COMPARATIVE_PRUNING_REPORT.md blob_sha=f39d57f1a864438ae7b7159dc8770534d297422c original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+t afgedekt door een andere PASS-locatie**: het spiegelbeeld-verhaal van Sujata (de
+  ascese die aan haar aanbieding voorafging) — een andere, verder gelegen plek met een eigen,
+  visueel aangrijpend tastbaar object.
+- **Tijdstip-/programma-/toegangsafhankelijk?**: nee — vereist wel een aparte rit (12-14 km,
+  taxi/auto-riksja), maar geen inschrijving of speciale toegang.
+- **Waarde voor een gewone reiziger**: volledig, mits bereidheid tot een aparte rit.
+- **Zelfstandig NOT_TO_BE_MISSED of alleen bij specifieke belangstelling**: zelfstandig — het
+  beeld van de uitgemergelde Boeddha is een van de meest directe, fysiek aangrijpende illustraties
+  van de Middenweg-les uit het hele verhaal; dit lees je niet zomaar op dezelfde manier ervaren
+  als er zelf staan.
+- **Wat haar vervangbaar zou maken**: de afstand (verder weg, minder bekend) is een reëel
+  praktisch obstakel, maar geen inhoudelijk vervangingsargument — geen andere plek toont dit
+  specifieke moment.
+- **Poging tot weerlegging**: standgehouden, ondanks de grotere reisinspanning.
+- **Bronsterkte**: sterk (twee onafhankelijke overheidsbronnen + Xuanzang-verwijzing).
+- **Definitief advies**: **CORE_PASS**, na actieve weerlegging standgehouden.
+
+## OPTIONAL_PASS (1)
+
+### Great Buddha Statue (Daijokyo, 1989)
+
+- **Wat Mark er concreet ervaart**: een 25 meter hoog zittend Boeddhabeeld in open lucht, het
+  eerste en grootste ooit gebouwd in modern India.
+- **Waarom niet afgedekt door een andere PASS-locatie**: fysiek een apart landmark, maar
+  inhoudelijk-narratief geen onderdeel van Boeddha's eigen biografische verhaal (in tegenstelling
+  tot de drie CORE_PASS-locaties).
+- **Tijdstip-/programma-/toegangsafhankelijk?**: nee — vrij toegankelijk, altijd zichtbaar.
+- **Waarde voor een gewone reiziger**: volledig, geen voorwaarden.
+- **Zelfstandig NOT_TO_BE_MISSED, gecontroleerd op "méér dan een indrukwekkend modern beeld"**:
+  gedeeltelijk. Concreet, uniek feit gevonden: geconsacreerd door de 14e Dalai Lama in 1989 als
+  symbool van de wereldwijde herleving van het boeddhisme — geen ander beeld in India heeft die
+  specifieke combinatie. Dat is meer dan "gewoon een groot beeld". Maar het is een 20e-eeuwse
+  toevoeging, geen fysiek spoor van Boeddha's eigen leven — het missen ervan slaat geen gat in het
+  begrip van het verlichtingsverhaal zelf, zoals het missen van een van de drie CORE_PASS-locaties
+  wel zou doen.
+- **Wat haar vervangbaar zou maken**: het hoofdcomplex zelf ligt al zo dichtbij (het is letterlijk
+  de plek van de verlichting) dat een aanvullend modern monument minder essentieel is —
+  vervangbaar in de zin van "gemist zonder een gat in het kernverhaal", niet vervangbaar in de zin
+  van "bestaat elders ook".
+- **Bronsterkte**: sterk (eigen Wikipedia-lemma, meerdere onafhankelijke bevestigingen).
+- **Definitief advies**: **OPTIONAL_PASS** (afgewaardeerd van eerdere volledige PASS) — sterk
+  genoeg om aan Mark voor te leggen, niet automatisch een kernbestemming.
+
+## WATCHLIST (teruggezet vanuit PASS, 4)
+
+### Archaeological Museum of Bodh Gaya (ASI)
+
+- **Wat Mark er concreet ervaart**: originele stenen balustrade-fragmenten van de Bodhi-boom-
+  omheining zelf, sculpturen, munten.
+- **Kritische controle ("zelfstandig essentieel, niet slechts context")**: NIET doorstaan. De
+  objecten komen letterlijk van de Mahabodhi-site zelf — het museum is functioneel een uitbreiding
+  van de hoofdplek, geen zelfstandige bestemming. Een gewone reiziger zonder specifieke
+  archeologische interesse zou het missen ervan waarschijnlijk niet als een echt gemis ervaren.
+- **Tijdstip-/toegangsafhankelijk?**: standaard museumtijden, geen speciale toegang, maar wel een
+  aparte handeling (entree, openingstijden) bovenop het tempelbezoek.
+- **Wat haar vervangbaar maakt**: het Mahabodhi Temple Complex zelf dekt het kernverhaal al af;
+  het museum voegt archeologische diepte toe, geen nieuwe kernervaring.
+- **Bronsterkte**: sterk (officiële ASI-bron), maar sterke bronsterkte compenseert hier geen zwak
+  zelfstandigheidsargument.
+- **Definitief advies**: **WATCHLIST
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1286 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/COMPARATIVE_PRUNING_REPORT.md blob_sha=f39d57f1a864438ae7b7159dc8770534d297422c original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+** (afgewaardeerd van PASS) — interessant voor wie
+  specifiek in de archeologie/kunstgeschiedenis van de site geïnteresseerd is, niet zelfstandig
+  NOT_TO_BE_MISSED.
+
+### Vishnupad Temple, Gaya
+
+- **Wat Mark er concreet ervaart**: een actieve tempel met een vereerd, fysiek uniek voetspoor van
+  Vishnu in zwart basaltgesteente.
+- **Kritische controle ("zelfstandige relevantie voor Mark, niet 'belangrijk voor hindoes'")**:
+  NIET doorstaan bij eerlijke herbeoordeling. De vorige ronde steunde in essentie op "singulier
+  relict + nationale religieuze betekenis" — dat is bij nadere reflectie toch een vorm van
+  "belangrijk voor de hindoetraditie in het algemeen", precies het argument dat nu expliciet
+  onvoldoende wordt geacht. Er is geen aantoonbare, specifieke band met Marks eigen selectiecanon
+  (geen Vishnu-figuur in `PRIORITY_GROUPS.md`, geen precedent zoals bij Bodh Gaya zelf, geen
+  concrete persoonlijke-aanbeveling- of levende-praktijkverbinding zoals bij Laat Bhairav in
+  Varanasi).
+- **Wat haar vervangbaar maakt**: niets vervangt het object zelf (het blijft uniek), maar zonder
+  Mark-specifieke relevantie is de zelfstandige NOT_TO_BE_MISSED-status niet hard te maken.
+- **Bronsterkte**: sterk (officiële deelstaatbron, historische diepte) — dit was nooit het
+  probleem; het probleem is de relevantiegrond, niet de bronkwaliteit.
+- **Definitief advies**: **WATCHLIST** (afgewaardeerd van PASS) — eerlijke zelfcorrectie ten
+  opzichte van de vorige ronde.
+
+### Tergar Monastery
+
+- **Wat Mark er concreet ervaart**: onduidelijk buiten het jaarlijkse Kagyü Monlam-festival.
+- **Kritische controle ("normale bezoekbaarheid buiten festival/bijzondere toegang")**: NIET
+  doorstaan. De eigen institutionele bron specificeert geen duidelijke publieke bezoekerstoegang
+  of -programma; het lijkt primair een monastiek studie-instituut. De sterkste reden om deze plek
+  te noemen — de jaarlijkse aanwezigheid van de 17e Karmapa tijdens het Kagyü Monlam — is
+  uitdrukkelijk een TIJDGEBONDEN EVENEMENT, geen permanente fysieke ervaring. Dit is exact het
+  "evenement-versus-plek"-risico dat al in de oorspronkelijke `DISCOVERY_LOG.md` als potentiële
+  valkuil was benoemd.
+- **Wat haar vervangbaar maakt**: zonder het festival is er geen bevestigde, aparte reden voor een
+  gewone bezoeker boven de andere Tibetaanse kloosters in de stad.
+- **Bronsterkte**: sterk voor de institutionele feiten, maar dat verandert niets aan het
+  evenement-afhankelijkheidsprobleem.
+- **Definitief advies**: **WATCHLIST** (afgewaardeerd van PASS) — legitiem voor wie deze leraar/
+  traditie specifiek volgt of toevallig tijdens het Monlam aanwezig is, niet zelfstandig
+  NOT_TO_BE_MISSED voor een willekeurige bezoeker.
+
+### Root Institute (FPMT)
+
+- **Wat Mark er concreet ervaart**: zonder inschrijving voor een cursus, waarschijnlijk weinig —
+  het is een besloten retraitecentrum, geen vrij toegankelijke tempel.
+- **Kritische controle ("bezoekbare bestemming versus waarde alleen bij cursusdeelname")**: NIET
+  doorstaan. De kernwaarde die eerder werd aangehaald (actieve deelname aan een meditatiecursus)
+  is precies het soort programma-afhankelijke ervaring waar deze vraag voor waarschuwt: een
+  residentiële cursus van circa 10 dagen, uitsluitend van oktober t/m maart (seizoensgebonden).
+  Zonder die specifieke, meerdaagse investering heeft een bezoek waarschijnlijk weinig te bieden.
+- **Wat haar vervangbaar maakt**: n.v.t. voor wie wél een retraite zoekt — maar voor een gewone
+  reiziger zonder die specifieke wens is er geen bevestigde losstaande ervaring.
+- **Bronsterkte**: sterk (institutionele bron, FPMT-organisatiebron) — opnieuw geen
+  bronkwaliteitsprobleem, wel een zelfstandigheidsprobleem.
+- **Definitief advies**: **WATCHLIST** (afgewaardeerd van PASS) — waardevol voor wie specifiek
+  een meerdaagse retraite zoekt, niet zelfstandig NOT_TO_BE_MISSED voor een gewone bezoeker.
+
+## Overige, reeds langer bestaande WATCHLIST (5, ongewijzigd)
+
+Thai Monastery, Royal Bhutanese Monastery, Tibetan Monastery (generiek), Vietnamese Temple,
+Japanese 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1287 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/COMPARATIVE_PRUNING_REPORT.md blob_sha=f39d57f1a864438ae7b7159dc8770534d297422c original_offset=12288 original_length=2292 payload_bytes=2292 chunk_index=3 chunk_count=4 classification=text
+Temple (Indosan Nippon) — blijven WATCHLIST, geen wijziging deze ronde.
+
+## FAIL
+
+Geen van de acht PASS-locaties viel volledig door naar FAIL — elke afgewaardeerde locatie behoudt
+reële, benoembare waarde (WATCHLIST), alleen niet op het niveau van "Mark zou er echte spijt van
+hebben".
+
+---
+
+## Saturatiebesluit
+
+**`NO_NEW_HIGH_VALUE_LEADS: JA`**, met expliciete redenering (geen nieuwe zoekactie deze ronde,
+zoals opgedragen — dit is een inference uit het patroon van deze vergelijkingsronde, geen
+garantie):
+
+Zeven individuele kloosters/instituten zijn inmiddels via twee wezenlijk verschillende
+zoekrichtingen getoetst (een algemeen overzicht, een gerichte "uitzonderlijk kenmerk"-zoekactie).
+Geen enkele hield stand op CORE_PASS- of zelfs OPTIONAL_PASS-niveau na kritische toetsing. Het
+terugkerende disqualificatiepatroon — evenement-afhankelijkheid (Tergar), programma-/
+inschrijvingsafhankelijkheid (Root Institute), of "aanvullende context bij een al behouden
+kernplek" (Archaeological Museum) — is een structureel kenmerk van dít type locatie (moderne
+kloosters/instituten zonder directe biografische band met Boeddha's eigen leven), niet een
+toevalstreffer bij deze specifieke twee. Het is daarom redelijk te verwachten dat verder,
+ongericht kloosteronderzoek dezelfde soort uitkomst zou opleveren, niet een locatie die sterker is
+dan de huidige CORE_PASS/OPTIONAL_PASS-selectie.
+
+Dit is een beargumenteerde inschatting, geen absolute garantie — als Mark/INDIA2 een specifieke
+reden heeft om een bepaald ander klooster of instituut alsnog te laten toetsen, blijft dat
+mogelijk.
+
+## Bijgewerkte eindstand
+
+- **CORE_PASS (3)**: Mahabodhi Temple Complex, Sujata Stupa, Dungeshwari Cave Temples.
+- **OPTIONAL_PASS (1)**: Great Buddha Statue.
+- **WATCHLIST (9)**: Archaeological Museum of Bodh Gaya, Vishnupad Temple, Tergar Monastery, Root
+  Institute, Thai Monastery, Royal Bhutanese Monastery, Tibetan Monastery (generiek), Vietnamese
+  Temple, Japanese Temple.
+- **FAIL (0)**.
+
+Nog steeds geen kandidaatstatus, geen nummers, geen A/B/C toegekend aan wat dan ook hierboven.
+
+---
+Geschreven door: CCI, op verzoek van INDIA2 (PR #23). Geen nieuwe Discovery, geen nieuwe
+kloosters onderzocht, geen kandidaatstatus, geen nummers, geen A/B/C, geen GEO/KML/PDF/
+reisplanning.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1288 path=india4/protocols/PRACTICAL_DELIVERY.md blob_sha=f3e8782e656be196aa3b7143836dd6cefcdda713 original_offset=0 original_length=717 payload_bytes=717 chunk_index=0 chunk_count=1 classification=text
+# PRACTICAL DELIVERY
+
+- GOUD maakt alle eindproducten die in `RUN.yaml` verplicht zijn werkelijk aan.
+- Bestandsnaam, formaat, inhoud en bruikbaarheid worden na creatie gecontroleerd.
+- KML: parseerbaar, exact vereiste kandidaatdekking, namen en coördinaten in juiste volgorde, onzekerheid zichtbaar in beschrijving.
+- PDF: leesbaar, praktisch voor Mark, bevat keuze-informatie, onzekerheden, beschermde keuzes en nog te beoordelen kandidaten.
+- Audit en correctierapport: volledige herkomst, wijzigingen, afgewezen punten en resterende vragen.
+- Een centrale master-KML wordt alleen aangepast wanneer de run dat uitdrukkelijk toestaat.
+- Een ontbrekend of onbruikbaar verplicht eindproduct verhindert status KLAAR.
+
+<<< END CHUNK >>>
+

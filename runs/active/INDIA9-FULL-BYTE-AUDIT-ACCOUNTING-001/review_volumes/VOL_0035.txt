@@ -1,0 +1,663 @@
+>>> CHUNK stream_row=516 path=runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/LAHIRI_MAHASAYA_INDIAROOD_DELTA.md blob_sha=65516c8949f4037d795389fda07dc45427a4df35 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# LAHIRI_MAHASAYA_INDIAROOD_DELTA
+
+```
+task_id: TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001
+cci_task: CCI_TASK 092
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-19
+indiarood_input: agent/indiarood-core-kriya-sweep, commit fc8418b8785cdd22edd389f0a461586ce239ff17,
+  runs/active/TOP11-INDIAROOD-BLIND-SWEEP-001/LAHIRI_MAHASAYA_INDIAROOD_FREEZE.md (40 records + 6
+  negatieve associaties) — blob-sha 01778b6f43198db8080c1460402b12a478842314, geverifieerd vóór
+  opening (exacte match).
+cci_088_input: runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/LAHIRI_MAHASAYA_RECONCILIATION.md
+  (19 interne + 60 externe ChatGPT-records)
+```
+
+## 0. Belangrijkste structurele bevinding: een tweede, andere kernbron
+
+CCI_TASK 088's externe ChatGPT-freeze steunde voor het overgrote deel op **PP** (Ashoke Kumar
+Chatterjee, *Purana Purusha*), die `BRON_GEBLOKKEERD` bleef (dokumen.pub "under maintenance").
+IndiaROOD gebruikt een **andere, eveneens niet eerder in dit project geraadpleegde bron**: Swami
+Bidyananda Giri's *Biografia de Sri Lahiri Mahasaya* (Portugese webtranscriptie van een
+familiebiografie door kleinzonen Anandamohan en Abhoycharan Lahiri), plus RYKYM's *Life in
+Illustrations*-blogpost. Dit zijn dus **twee onafhankelijke secundaire familiebiografie-tradities**
+die elkaar op meerdere punten kruisen — een sterke test voor consistentie.
+
+**Toegankelijkheid gecontroleerd**: Bidyananda-bron (pdfcoffee.com) geeft `HTTP 403` — technische
+toegangscontrole, **bewust niet omzeild**, blijft `BRON_GEBLOKKEERD` voor directe herlezing.
+RYKYM's blogpost (`rykym.org/blog/lahiri-mahasaya-life-illustrations`) is wél volledig open (HTTP
+200) en is deze taak **volledig gedownload en gebruikt voor Tier-1-verificatie**.
+
+## 1. Directe bronverificatie — resultaten
+
+| claim | route | resultaat |
+|---|---|---|
+| Buxar- en Gorakhpur-werkposten (LM-012, LM-013) + november-1868-Ranikhet-transfer | rechtstreeks gefetcht: rykym.org blogpost | **VOLLEDIG BEVESTIGD, woordelijk**: "Initially stationed in Ghazipur..., transferred to several places, including Mirzapur, Buxar, and Gorakhpur. In November 1868, he received a transfer order to Ranikhet." Dit **triangule­ert** het 1861-vs-1868-conflict dat zowel 088 (via PP) als IndiaROOD (LM-016) al signaleerden: nu bevestigd via een DERDE, onafhankelijk toegankelijke bron — AOAY blijft bij 1861 (Yogananda's eigen narratief), maar twee onafhankelijke familiebiografie-lijnen (PP én Bidyananda/RYKYM) wijzen op 1868. Nog steeds niet definitief opgelost (AOAY is de enige eerste-persoonsbron), maar het gewicht verschuift. |
+| Trailanga Swami-ontmoeting bij Panchganga Ghat Ashram (LM-025) | idem | **VOLLEDIG BEVESTIGD, woordelijk**: "When Yogiraj arrived at the Panchganga Ghat Ashram, Tailang Swami... rose excitedly and embraced him." **Dit is een volledig nieuwe locatie die noch mijn interne 088-freeze, noch de externe PP-freeze had.** |
+| Rana Mahal Ghat, vallende-baksteen-episode met Krishnaram (LM-026) | idem | **VOLLEDIG BEVESTIGD, woordelijk**: "Yogiraj often took morning baths at Rana Mahal Ghat with his devotee, Krishnaram... a brick fell from a roof and struck Yogiraj's foot." **Eveneens volledig nieuw voor beide eerdere detectoren.** |
+| Postmortale verschijningsclaims (LM-035 t/m LM-038: Keshabananda's hermitage Hardwar, Keshabananda's kamer Benares, Panchanon Bhattacharya's huis Calcutta, Pranabananda's onbekende stad) | rechtstreeks gefetcht en volledig gelezen: `en.wikisource.org/wiki/Autobiography_of_a_Yogi/Chapter_36` | **VOLLEDIG BEVESTIGD, woordelijk**, inclusief het detail dat Pranabananda's eigen stad niet genoemd wordt in AOAY zelf (IndiaROOD's eigen nauwkeurige toelichting: "Ranchi is slechts de latere plek waar Pranabananda dit vertelde... **niet** de gebeurtenislocatie" — dit klopt exact met de brontekst: "at the time he visited my Ranchi school"). **Dit zijn AOAY-EIGEN passages die in mijn oorspronkelijke interne 087/088-freeze volledig ontbraken** — een echte lossless-fout in mijn eigen pas, nu via IndiaROOD gecorrigeerd. Analoog aan de Kebalananda-camp-correctie bij Babaji. |
+|
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=517 path=runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/LAHIRI_MAHASAYA_INDIAROOD_DELTA.md blob_sha=65516c8949f4037d795389fda07dc45427a4df35 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+ Ramnagar-paleis/Kashi Naresh-tutorschap (LM-028) | vergelijking met 088's PP-record 21 (Pravunarayan Singh) | **DRIEWEG-CONVERGENTIE**: IndiaROOD noemt onafhankelijk dezelfde koning (Kashi Naresh Ishwari Narayan Singh) en een naamsvariant van dezelfde prins (Prabhu Narayan Singh ≈ Pravunarayan Singh). Twee onafhankelijke secundaire bronnen (PP en Bidyananda) bevestigen elkaar op een claim die CCI zelf niet kon verifiëren (PP `BRON_GEBLOKKEERD`). Status verandert van `BRON_GEBLOKKEERD/niet overgenomen` naar `PLAUSIBLE` (tweevoudig secundair bevestigd, nog geen eerste-persoonsbron). |
+| Huisadres D/31/58, Madanpura (LM-023) | vergelijking met 088's PP-record 13 | **CONVERGENTIE VIA DERDE, ONAFHANKELIJKE ROUTE**: IndiaROOD citeert hetzelfde adres via een moderne webbron (yappe.in), niet via PP. Twee onafhankelijke moderne routes wijzen op hetzelfde adres — verhoogt vertrouwen zonder PP zelf gelezen te hebben. |
+
+## 2. Nieuw sub-conflict gevonden
+
+**Bishnupur, mei 1886 — wiens huwelijk?** 088's externe PP-record zegt dat de reis van mei 1886
+was voor "dochter Harimohini's huwelijk" (Kadakuli). IndiaROOD's LM-029 zegt dat de Bishnupur-reis
+van 1886 was voor "het huwelijk van zijn jongste zoon Dukari". Beide bronnen (PP resp. Bidyananda)
+zijn het eens over plaats en jaar, maar noemen een ANDER familielid als bruid/bruidegom. Geen van
+beide bronnen is deze taak zelf leesbaar (PP `BRON_GEBLOKKEERD`; Bidyananda HTTP 403) — dit blijft
+een **onopgelost sub-conflict tussen twee secundaire familiebiografieën**, niet gekozen, expliciet
+vastgelegd.
+
+## 3. Cross-validatie van een bestaande 088-correctie
+
+**Allahabad Kumbh Mela-aanwezigheid**: CCI_TASK 088 corrigeerde zelf al de externe ChatGPT-freeze's
+negatieve bevinding hierover (die freeze zei "geen bewijs", terwijl AOAY hfst. 33 het expliciet
+beschrijft). IndiaROOD's LM-033 (Kumbha Mela-terrein, Allahabad/Prayagraj, `JA`) bevestigt
+**onafhankelijk** dat Lahiri hier wél was. Drieweg-consensus (intern-088 correctie + IndiaROOD)
+tegen de eerste externe freeze se gemiste negatieve bevinding.
+
+## 4. IndiaROOD's eigen correcte negatieve controle
+
+IndiaROOD's `NEG-LM-06` wijst expliciet af dat Dashashwamedh Ghat een Lahiri-eigen-aanwezigheidsplek
+is voor de Babaji-belofte-episode: "het verhaal... wordt door Yogananda verteld als ervaring van Ram
+Gopal; de tekst bewijst geen fysieke aanwezigheid van Lahiri." Dit is exact consistent met de
+Babaji-reconciliatie (waar Dashashwamedh Ghat wél een Babaji/Ram-Gopal-locatie is, maar niet
+automatisch een Lahiri-eigen-bezoeklocatie). Geen correctie nodig, methodologisch bevestigd.
+
+## 5. Wat IndiaROOD miste (088-only)
+
+- **Gorakhpur-materialisatie aan Abinash Babu** (interne 088-record 18, AOAY hfst. 1): IndiaROOD's
+  eigen Gorakhpur-record (LM-013) betreft alleen de PWD-werkpost, niet deze specifieke
+  materialisatiescène. Blijft `088_ONLY` — een AOAY-hfst.-1-passage die ver van de door IndiaROOD
+  gebruikte hfst. 32-36-focus ligt, net zoals bij de eerste externe freeze in 088.
+- De 24 overige AOAY-gedekte externe-088-records die IndiaROOD niet expliciet als aparte rijen
+  heeft (samengevat in plaats van uitgesplitst, zie §6) — geen feitelijke tegenspraak, alleen
+  andere granulariteit.
+
+## 6. Matrix — samenvatting (volledige rijen in INDIAROOD_DELTA_MATRIX.jsonl)
+
+| categorie | aantal | voorbeelden |
+|---|---:|---|
+| Drieweg/tweeweg `MATCH_EXISTING` | 14 | Ghurni-geboorte, Danapur, Naini Tal, Drongiri-grot-cluster, Kumbh Mela, Manikarnika-crematie |
+| `INDIAROOD_MORE_GRANULAR` | 3 | Buxar/Gorakhpur apart (i.p.v. samengevoegd), Ghurni-tempel-sub­splitsing |
+| `INDIAROOD_ONLY_CLAIM` — **Tier-1 bevestigd** | 4 | Panchganga Ghat/Trailanga Swami; Rana Mahal Ghat-baksteen; 4 postmortale verschijningen (AOAY-gap-fill) |
+| `INDIAROOD_ONLY_CLAIM` — convergent met 088-extern, versterkt | 2 | Ramnagar-paleis/Kashi Naresh; D/31/58-adres |
+| `CONFLICT` — onopgelost | 2 | 1861-vs-1868-Ranikhet (getrianguleerd, nog niet opgelost); Bishnupur-1886-huwelijk (Dukari vs. Harimohini) |
+| `088_ONLY_MISS` | 2 | Gorakhpur-materialisatie Abinash
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=518 path=runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/LAHIRI_MAHASAYA_INDIAROOD_DELTA.md blob_sha=65516c8949f4037d795389fda07dc45427a4df35 original_offset=8192 original_length=2256 payload_bytes=2256 chunk_index=2 chunk_count=3 classification=text
+ Babu; diverse PP-only-sublocaties (Panagarh, Burdwan-station e.a.) |
+| Negatieve controles, bevestigd consistent | 2 | Dashashwamedh Ghat (niet-Lahiri); Satyalok/Arya Mission (geen Lahiri-bezoek) |
+
+## 7. Eindbeoordeling
+
+- **Bestaande 088-records/claims**: 19 intern + 60 extern = 79 (met overlap).
+- **IndiaROOD-records**: 40 positief + 6 negatief = 46.
+- **Matches**: 14 direct/granulair.
+- **IndiaROOD-only**: 6 (4 Tier-1 bevestigd, 2 convergent-versterkt).
+- **088-only**: minimaal 2 kernrecords plus tientallen PP-only-sublocaties die IndiaROOD's andere
+  bronroute niet dekt.
+- **More-granular**: 3, richting IndiaROOD.
+- **Conflicten**: 2, beide expliciet onopgelost gelaten (getrianguleerd Ranikhet-jaar; Bishnupur-
+  huwelijk).
+- **Rechtstreeks bevestigde correcties**: 4 nieuwe Tier-1-bevestigde locaties/gebeurtenissen
+  (waarvan 4 een echte AOAY-lossless-gap in de oorspronkelijke interne freeze dichten).
+- **Afgewezen claims/hallucinaties**: geen gevonden bij IndiaROOD deze taak.
+- **Resterende bronblokkades**: PP (dokumen.pub) en Bidyananda (pdfcoffee.com, HTTP 403) blijven
+  beide ontoegankelijk — twee onafhankelijke, elkaar deels bevestigende bronnen, geen van beide
+  zelf gelezen.
+- **Actuele METHOD_V2-gates**:
+  - `CORPUS_COVERAGE_GATE`: **DEELS** (ongewijzigd qua PP/Bidyananda-toegang, maar RYKYM voegt een
+    derde, wél toegankelijke bronlaag toe die vier nieuwe AOAY-eigen/familielijn-locaties Tier-1
+    bevestigde).
+  - `HOSTGRAPH_GATE`: **DEELS** (Krishnaram, Trailanga Swami's kring, Keshabananda/Panchanon/
+    Pranabananda-netwerk nu Tier-1 bevestigd).
+  - `DISCOVERY_GATE`: **DEELS → verbeterd** (een derde onafhankelijke bronfamilie geopend).
+  - `RECONCILIATION_GATE`: **PROVISIONEEL → JA** voor de drieweg-vergelijking zelf.
+    `EXTERNAL_MODEL_DIVERSITY_GATE`: **NEE → JA** (zelfde onderbouwing als bij Babaji).
+- **Saturationstatus**: **`LAHIRI_MAHASAYA_SATURATED: NEE`** blijft eerlijk. Twee kernbronnen (PP,
+  Bidyananda) blijven beide ontoegankelijk, twee conflicten blijven onopgelost, en tientallen
+  PP-only-sublocaties (Panagarh, Burdwan-station, Nepalese-prins-onderwijs e.a.) zijn nog door geen
+  enkele detector bronmatig bevestigd.
+
+---
+Geschreven door: CCI. Checkpoint 2/3 van CCI_TASK 092.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=519 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/LAHIRI_MAHASAYA_V2_PRE_EXTERNAL_FREEZE.md blob_sha=65889848ca836dc6eb8076c1a84ab23c18acccf4 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# LAHIRI_MAHASAYA_V2_PRE_EXTERNAL_FREEZE
+
+```
+task_id: TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
+trigger: CCI_TASK 087 / 087R (recovery na sessielimiet)
+uitgevoerd_door: CCI (direct, niet via subagent — eerdere parallelle subagent-poging faalde op
+  sessielimiet zonder duurzame output)
+uitgevoerd_op: 2026-08-19
+methode: METHOD_V2.md Fase 0-4. Fase 5-7 volgen NIET in deze taak — pre-external freeze.
+```
+
+## Eerlijkheidsverklaring
+
+Corpus-eerst. `PHASE2_RESULT.md` (oude METHOD_V1 ATL-LM-001 t/m 005) NIET geraadpleegd tijdens de
+blinde pas; vergelijking volgt hieronder apart, achteraf. Onafhankelijk van en zonder inzage in de
+aparte externe blinde ChatGPT-parallelsweep (`TOP11-PARALLEL-CHATGPT-SWEEP-001`).
+
+## Kritieke onderscheiding (herhaaldelijk foutbron in dit project)
+
+Voor elke occurrence is expliciet vastgelegd of het gaat om (a) Lahiri Mahasaya's EIGEN fysieke
+leven/aanwezigheid, (b) een bezoek van Yogananda of anderen aan een plek die met zijn NALATENSCHAP/
+herinnering is verbonden (institutioneel, postuum), of (c) een materialisatie/visioen van Lahiri
+Mahasaya na zijn dood 1895 (aparte, niet-lineaire aanwezigheidsvorm — apart gemarkeerd, niet
+gelijkgesteld aan gewone fysieke aanwezigheid bij leven).
+
+## WERKPAKKET A — corpus-coverage
+
+| bronfamilie | status | toelichting |
+|---|---|---|
+| *Autobiography of a Yogi* (Gutenberg #7452, alle 48 hoofdstukken) | **VOLLEDIG DOORZOCHT** | `grep -i "lahiri"` over alle 48 hoofdstukken (240 occurrences, 23 hoofdstukken); alle clusters met context gelezen, kernhoofdstukken 32 (eigen biografie, vertaald uit Swami Satyananda's Bengaalse biografie SRI SRI SHYAMA CHARAN LAHIRI MAHASAYA, 1941) en 35 (Christlike Life) volledig gelezen. |
+| Swami Satyananda's Bengaalse biografie (1941) | **DEELS, ALLEEN VIA AOAY-VERTALING** | AOAY zelf citeert/vertaalt fragmenten (hfst. 32); het volledige Bengaalse origineel is niet lokaal beschikbaar — `BRON_GEBLOKKEERD`, expliciet benoemd. |
+| Moderne lineage-/pelgrimsbronnen (yssofindia.org, Bengali Tola-huis Varanasi) | **DOORZOCHT (gericht, Fase 4)** | Gebruikt alleen als institutionele identificatielaag boven de AOAY-claims, niet als vervangende bron. |
+
+## WERKPAKKET B — lossless atlas (Fase 1-2)
+
+| # | plaats | AOAY-hfst. | gebeurtenis | LAHIRI_FYSIEK_AANWEZIG | fysieke identiteit | toelichting |
+|---|---|---|---|---|---|---|
+| 1 | Ghurni, Nadia-district, nabij Krishnagar, Bengal | 32 | Geboorteplaats, 30 sept. 1828 | JA (geboorte) | EXACT (dorpsniveau) | Uit de vertaalde Satyananda-biografie. Familielandgoed hier tot 1833. |
+| 2 | Ancestral home, Nadia | 32 | Vroege kindertijd; verwoest door verlegde Jalangi-rivier (winter 1833) | JA | DEELS (geen adres, huis bestaat niet meer) | Shiva-beeld gered, later herplaatst in wat nu bekendstaat als de "Ghurni Shiva Site" (AOAY-eigen term). |
+| 3 | Benares — algemene vestiging na 1833 | 32 | Familie verhuist na de vloed; vader bouwt een Shiva-tempel | JA | DEELS | Geen exact adres voor deze eerste Benares-periode. |
+| 4 | Benares — school van Joy Narayan Ghosal | 32 | Onderwijs (Hindi, Urdu, Sanskriet, Bengaals, Frans, Engels) | JA | DEELS | Schoolnaam bekend, geen adres. |
+| 5 | Gazipur | 32 | Overplaatsing, Military Engineering Department | JA | ALLEEN PLAATSNIVEAU | Eén woord, geen verdere context. |
+| 6 | Mirzapur | 32 | Overplaatsing | JA | ALLEEN PLAATSNIVEAU | Idem. |
+| 7 | Danapur | 32, 34 | Overplaatsing (basis vóór en na Ranikhet); FN34-9 "a town near Benares" | JA | ALLEEN PLAATSNIVEAU | Reeds bevestigd in de eerdere Yogananda-atlas als Lahiri-eigen punt (niet Yogananda-aanwezigheid). |
+| 8 | Naini Tal | 32 | Overplaatsing | JA | ALLEEN PLAATSNIVEAU | Apart van Yogananda's eigen mislukte jeugdvlucht naar Naini Tal (ander incident, al elders vastgelegd). |
+| 9 | Drongiri Mountain-grot, bij Ranikhet | 32, 33, 34 | Eerste ontmoeting met Babaji, Kriya-initiatie (1861) | JA | EXACT | **Zie ook `BABAJI_V2_PRE_EXTERNAL_FREEZE.md` record #1** — kernmoment van de hele Kriya-lijn. Moderne identificatie: "Mahavatar Babaji Cave", Kukuchina, Dunagiri-berg (Fase 4-vondst, institution
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=520 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/LAHIRI_MAHASAYA_V2_PRE_EXTERNAL_FREEZE.md blob_sha=65889848ca836dc6eb8076c1a84ab23c18acccf4 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+ele laag). |
+| 10 | Garudeswar Mohulla, Benares | 4, 32 | Eigen woning na vaders dood; "small front parlor on the first floor" waar hij dagelijks ontving | JA | EXACT (straatniveau) | Reeds bevestigd in de Yogananda-atlas (#48) als bezochte locatie; hier bevestigd als Lahiri Mahasaya's EIGEN woonadres, niet slechts bezoeklocatie. Kebalananda's eigen 10-jarige "nightly pilgrimage" hierheen. |
+| 11 | Moradabad — huis van een Bengaalse familie | 34 | Materialisatie op eigen aanroep door Lahiri Mahasaya zelf | JA (materialisatie, geen reguliere reis) | ALLEEN PLAATSNIVEAU | Zie ook Babaji-freeze record #3. |
+| 12 | Allahabad, Kumbh Mela | 34 | Eigen ontmoeting met Babaji (voeten-wassen-scène) | JA | ALLEEN EVENEMENT-NIVEAU | Zie Babaji-freeze record #5; geen jaartal voor déze specifieke episode. |
+| 13 | Veld nabij Gorakhpur (geïmpliceerd) | 1 | Materialisatie/visioen aan Abinash Babu, dat leidde tot Yogananda's vaders bekering | JA (materialisatie) | ONBEPAALD | Abinash werkte in het Gorakhpur-kantoor van de Bengal-Nagpur Railway; exacte locatie van het veld niet met naam genoemd, alleen "the compound" waar het verhaal verteld werd (niet de gebeurtenis zelf). Nieuw t.o.v. de oude Fase-2-lijst. |
+| 14 | Bengal (algemeen) — huizen van de schoonvaders van zijn twee zonen | 35 | "He himself traveled to Bengal on several occasions, visiting at the homes of the fathers-in-law of his two sons" | JA | ONBEPAALD (geen plaatsnaam) | Expliciete eigen reizen, geen adres of plaatsnaam. |
+| 15 | Krishnagar- en Bishnupur-districten, Bengal | 35 | KRIYA-groepen gesticht door zijn invloed ("Bengal became honeycombed with small KRIYA groups") | ONZEKER — regionale invloed, geen expliciete eigen-aanwezigheidsclaim per plaats | REGIONAAL | Tekst zegt niet expliciet dat hij zelf in elk van deze plaatsen kwam, alleen dat zijn invloed daar KRIYA-groepen deed ontstaan. |
+| 16 | Benares — pensionering (1886) tot overlijden (1895) | 35 | Bleef vrijwel altijd in zijn parlor; ontving een gestage stroom discipelen | JA | EXACT (zelfde adres als #10) | 35 jaar overheidsdienst, gepensioneerd 1886, 25 jaar na de Ranikhet-initiatie van 1861. |
+| 17 | Bengalitola-wijk, Benares | 35 | Actieve rol in oprichting/groei van een grote middelbare school aldaar | JA | DEELS (wijkniveau) | Moderne bronnen (Fase 4) identificeren dit als "Bengali Tola", nu een bewaard pelgrimshuis. |
+| 18 | Calcutta — Arya Mission Institution | 35 | Gesticht door zijn discipel Panchanon Bhattacharya, met Lahiri Mahasaya's toestemming | NEE (voor Lahiri Mahasaya zelf) | N.V.T. | Discipel-eigen instelling, geen bevestigd eigen bezoek van Lahiri Mahasaya aan Calcutta hiervoor in de tekst. |
+| 19 | Benares — sterfplaats | 36 | Overlijden, zomer 1895, na een negeren van medisch advies over een steenpuist | JA | EXACT (zelfde adres, #10/#16) | Sri Yukteswars eigen verslag (hfst. 36) plaatst dit in hetzelfde huis. |
+
+### Postume/niet-lineaire "aanwezigheid" — apart gehouden, niet als gewone fysieke aanwezigheid geteld
+
+- Keshabananda's getuigenis (hfst. 42): "both before and after his passing, Lahiri Mahasaya has
+  appeared bodily before me... For him no Himalayan height is inaccessible" — geen locatie genoemd,
+  puur algemeen. **Classificatie: symbolisch/onbepaald, GEEN aparte atlas-entry.**
+- Rama's opwekking uit de dood (hfst. 32) en talrijke andere wonderen vonden plaats bij Lahiri
+  Mahasaya's eigen woning of bij de zieke zelf — reeds waar relevant hierboven meegenomen (#10/#16
+  voor de genezingsscènes die zich in zijn parlor afspeelden).
+
+### Yogananda's eigen (kinder)bezoek aan Lahiri Mahasaya's woning — apart, dit is GEEN Lahiri-claim
+
+Hoofdstuk 2 vermeldt dat de jonge Yogananda ("could barely see Lahiri Mahasaya as he sat in deep
+meditation") als kleuter meegenomen werd naar "the home of my guru in Benares" — Yogananda werd
+geboren januari 1893, Lahiri Mahasaya overleed september 1895, dus dit was vóór zijn tweede
+verjaardag. Dit is een YOGANANDA-presence-record (al impliciet bekend uit de Yogananda-atlas), niet
+een nieuw Lahiri Mahasaya-locatiepunt — 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=521 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/LAHIRI_MAHASAYA_V2_PRE_EXTERNAL_FREEZE.md blob_sha=65889848ca836dc6eb8076c1a84ab23c18acccf4 original_offset=8192 original_length=3983 payload_bytes=3983 chunk_index=2 chunk_count=3 classification=text
+hetzelfde adres als #10/#16.
+
+## WERKPAKKET C — host/netwerkgraaf (Fase 3)
+
+| persoon | relatie | locatie |
+|---|---|---|
+| Swami Kebalananda (Yogananda's Sanskriet-leraar) | discipel, 10 jaar "nightly pilgrimage" naar Lahiri Mahasaya's huis | Garudeswar Mohulla, Benares |
+| Sri Yukteswar | discipel, meerdere eigen bezoeken (weight-gain-wonder, Rama-opwekking-verhaal) | Benares |
+| Bhagabati Charan Ghosh (Yogananda's vader) | discipel na de Gorakhpur-materialisatie | Benares (initiatie), Gorakhpur (bekeringsvisioen) |
+| Kali Kumar Roy | mede-discipel, bron voor het fotoverhaal | Benares |
+| Ganga Dhar Babu | discipel/fotograaf (mislukte foto-poging) | Benares |
+| Panchanon Bhattacharya | discipel, oprichter Arya Mission Institution | Calcutta |
+| Swami Satyananda | discipel, biograaf, latere Acharya te Ranchi | Benares (bronmateriaal), Ranchi (eigen latere functie) |
+| Ananda Mohan Lahiri | kleinzoon, auteur van een Kriya-boekje, bezoeker van de Drongiri-grot | Drongiri Mountain |
+| Ram Gopal Muzumdar | discipel, getuige van een Babaji-Mataji-visioen | Ranbajpur/Tarakeswar |
+| Kashi Moni | echtgenote (getrouwd 1846) | Benares (huishouden) |
+| Tincouri en Ducouri | zonen | Benares |
+
+Geen van deze host-relaties leidt naar een nieuwe, nog niet genoteerde site.
+
+## WERKPAKKET D — vier saturation-gates
+
+| gate | status | onderbouwing |
+|---|---|---|
+| **CORPUS-COVERAGE-GATE** | **DEELS** | AOAY volledig doorzocht (240/240 occurrences). Satyananda's volledige Bengaalse biografie (alleen fragmentarisch via AOAY-vertaling beschikbaar) blijft `BRON_GEBLOKKEERD`. |
+| **HOSTGRAPH-GATE** | **JA voor de gevonden relaties** | Alle genoemde discipelen/familieleden teruggezocht naar hun eigen bekende locatie; geen aanwijzing voor gemiste hostrelaties binnen het doorzochte corpus. |
+| **DISCOVERY-GATE** | **DEELS** | Eén gerichte WebSearch (moderne identificatie Bengali Tola-huis, samadhi-schrijnen Varanasi/Haridwar); geen brede discovery voor elke individuele overplaatsingsstandplaats (Gazipur/Mirzapur exacte adressen niet onderzocht). |
+| **RECONCILIATIE-GATE** | **N.V.T. in deze taak** | Geen externe/detector-only claims geraadpleegd, conform CCI_TASK 087's stopvoorwaarde. |
+
+**`LAHIRI_MAHASAYA_V2_PRE_EXTERNAL_SATURATED: NEE`**
+
+Onderbouwing: meerdere postings (#5, #6, #8) blijven op plaatsnaam-niveau zonder adres; de
+Krishnagar/Bishnupur-regionale claim (#15) is niet hard als persoonlijke-aanwezigheid bevestigd;
+het volledige Bengaalse bronmateriaal is niet geraadpleegd. Eerlijk benoemde hiaten, geen verzwegen
+gok — `NEE` conform de taakinstructie.
+
+## Vergelijking met de oude METHOD_V1-lijst (PHASE2_RESULT.md, ATL-LM-001 t/m 005) — nu pas geraadpleegd
+
+Niet gebruikt als discovery-checklist tijdens de blinde pas. De oude lijst bevatte 5 punten. Deze
+verse pas identificeert 19 afzonderlijke occurrence-clusters plus 2 apart gehouden postume/
+Yogananda-eigen categorieën — een aanzienlijke verdieping, met name de volledige geboorte-tot-dood-
+biografische lijn (Ghurni-geboorte, 1833-vloed, vijf overplaatsingsplaatsen, pensionering, sterfplek)
+en de nieuwe Gorakhpur-materialisatie (#13) die de bekering van Yogananda's eigen vader verklaart.
+
+## Onopgeloste punten — expliciete lijst
+
+1. Exacte adressen voor Gazipur-, Mirzapur- en Naini Tal-standplaatsen niet onderzocht.
+2. Volledige Bengaalse Satyananda-biografie niet geraadpleegd — alleen AOAY's eigen vertaalde
+   fragmenten.
+3. Krishnagar/Bishnupur (#15): regionale invloed versus persoonlijke aanwezigheid per plaats niet
+   hard onderscheiden.
+4. Namen/locaties van de "fathers-in-law" van zijn twee zonen (#14) niet geïdentificeerd.
+5. Exacte locatie van de Gorakhpur-materialisatie (#13) niet vastgesteld, alleen regionaal
+   geïmpliceerd.
+
+Geen A/B/C namens Mark. Geen permanente locatie-ID. Geen PDF. Geen route.
+
+---
+Geschreven door: CCI. Geen externe Lahiri Mahasaya-resultaten geraadpleegd, gesimuleerd of
+vergeleken — conform CCI_TASK 087's stopvoorwaarde.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=522 path=runs/active/KUMAON-V2-RESWEEP-001/RESULT.md blob_sha=6591600b2432b39ae1c84a3507ace76aad4909a6 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=5 classification=text
+# RESULT — KUMAON-V2-RESWEEP-001 — Sweep A (CCI)
+
+```
+task_id: KUMAON-V2-RESWEEP-001
+sweep: A (CCI, blind, geen legacy als discovery-basis)
+uitgevoerd_op: 2026-08-14
+uitgevoerd_door: CCI
+```
+
+## SWEEP_A_STATUS
+
+KLAAR. Volledig nieuwe discovery uitgevoerd zonder `KUMAON-COMPLETE-001`/
+`VRINDAVAN-KUMAON-CORRIDOR-001` als zoekbasis te raadplegen (zie BLINDHEID_VERKLAARD). AOAY
+volledig doorzocht op primaire brontekst; alle 11 Top-11-namen individueel onderzocht; laag-3
+gericht op zelfstandige zwaargewichten binnen de regionale samenhang. 8 tijdelijke
+Sweep-A-kandidaten gevonden, geen permanente ID's toegekend.
+
+## MARK_PREFERENCE (2026-08-14, rechtstreeks in chat, buiten protocolvolgorde om)
+
+Mark reageerde rechtstreeks op de melding van KUM-SWEEP-A-001, letterlijk: “Ik weet het. Die grot
+is bijna reden 1 voor me om naar India te gaan. A dus.” Dit is een echte, ondubbelzinnige
+voorkeursuitspraak, maar NOG GEEN formele A/B/C-lock — conform TASK.md krijgt Sweep A geen A/B/C
+en geen permanent nummer vóór Sweep B + reconciliatie. Vastgelegd hier zodat de voorkeur het
+reconciliatieproces overleeft en bij toekenning van het permanente nummer direct als `A` wordt
+verwerkt, zie ook het `mark_preference`-veld bij KUM-SWEEP-A-001 in TIJDELIJKE_NIEUWE_FYSIEKE_KANDIDATEN.
+
+## SCOPE_DEFINITION
+
+Geografische as bepaald op basis van TASK.md-omgeving en bevestigd via onderzoek: Nainital-district
+(Nainital, Bhowali, Kainchi, Haldwani, Kathgodam — laatste twee bevestigd als spoorweg-/
+transitgateways naar de Kumaon-heuvels, geen zelfstandige AOAY/Top-11/laag-3-kandidaat daar zelf
+gevonden) en Almora-district (Almora-stad, Ranikhet, Dwarahat, Dunagiri/Kukuchina, Kasar Devi,
+Jageshwar). Pithoragarh-district (Patal Bhuvaneshwar) ligt geografisch verder oostelijk, buiten de
+in TASK.md letterlijk genoemde plaatsnamen, maar wordt binnen bredere Kumaon-regionale samenhang
+meegenomen als grensgeval — expliciet zo gemarkeerd, niet stilzwijgend als kernzone behandeld (zie
+KUM-SWEEP-A-006).
+
+## AOAY_RESULTAAT
+
+**Hoofdvondst, rechtstreeks uit de brontekst geciteerd** (Project Gutenberg eBook #7452, lokaal
+gedownload en volledig doorzocht op alle varianten van Kumaon-plaatsnamen — Kumaon, Kainchi,
+Ranikhet, Dwarahat, Nainital/Naini Tal, Haldwani, Kathgodam, Bhowali, Almora, Dunagiri/Drongiri,
+Pandukholi, Kukuchina, Haidakhan, Nanda Devi, Garhwal, Mukteshwar, Binsar): het hoofdstuk over
+Lahiri Mahasaya's eerste ontmoeting met Babaji beschrijft in uitgebreid detail een grot op de
+“Drongiri Mountain” nabij Ranikhet, waar Babaji hem in 1861 in Kriya Yoga initieerde. Letterlijk
+uit de tekst: “One of the caves occupied by Babaji in the Drongiri Mountains near Ranikhet in the
+Himalayas” (illustratiebijschrift) en Lahiri Mahasaya's eigen verslag: “I continued my vigorous
+upward climb on Drongiri Mountain… I finally reached a small clearing whose sides were dotted
+with caves.” Voetnoot FN34-2 plaatst dit expliciet “in the Almora district of United Provinces…
+aan de voet van Nanda Devi.” Dit is de moderne, door meerdere onafhankelijke bronnen bevestigde
+Mahavatar Babaji-grot bij Kukuchina, nabij Dunagiri/Dwarahat (spellingvariant “Drongiri” =
+“Dunagiri”). Zie KUM-SWEEP-A-001.
+
+Secundaire, zwakkere AOAY-vermelding: jonge Yogananda “fled that afternoon toward Naini Tal in the
+Himalayan foothills” tijdens een mislukte weglooppoging vanuit Bareilly — zijn broer haalde hem in
+voordat hij Naini Tal daadwerkelijk bereikte (“I was forced to return sadly to Bareilly”). GEEN
+fysieke locatie-kandidaat: hij is er nooit aangekomen. Vastgelegd voor volledigheid, niet
+gepromoveerd.
+
+Geen andere treffers voor de overige gezochte termen (Kainchi, Dwarahat, Haldwani, Kathgodam,
+Bhowali, Dunagiri/Pandukholi/Kukuchina/Haidakhan als letterlijke tekst, Garhwal, Mukteshwar,
+Binsar) — expliciet nul, niet onderzocht gelaten.
+
+`gebeurtenis_geverifieerd`: JA (rechtstreekse primaire brontekst, niet snippet/samenvatting).
+`exacte_fysieke_locatie_geverifieerd`: JA voor de regio/berg (Drongiri/Dunagiri-Mountains nabij
+Ranikhet, Almora-di
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=523 path=runs/active/KUMAON-V2-RESWEEP-001/RESULT.md blob_sha=6591600b2432b39ae1c84a3507ace76aad4909a6 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=5 classification=text
+strict); de precieze grotidentiteit is bevestigd via onafhankelijke moderne
+bronnen (zie KUM-SWEEP-A-001), niet uit AOAY zelf.
+
+## TOP11_RESULTAAT_PER_NAAM
+
+| # | Persoon | Methode | Bevinding | Bron(nen) |
+|---|---|---|---|---|
+| 1 | Paramahansa Yogananda | AOAY-sweep + gerichte zoekopdracht naar persoonlijk Kumaon-bezoek | GEEN_AANTOONBARE_PERSOONLIJK_BEZOEK — AOAY beschrijft de Babaji-grot uitgebreid (via Lahiri Mahasaya's verslag), maar geen bron bevestigt dat Yogananda de grot zelf persoonlijk bezocht; zijn eigen jeugd-wegloop­poging richting Naini Tal strandde voordat hij aankwam. AOAY-link (KUM-SWEEP-A-001) blijft staan als boek-locatie, los van persoonlijk bezoek | AOAY-sweep (rechtstreeks); WebSearch (geen bevestiging persoonlijk bezoek) |
+| 2 | Mahavatar Babaji | AOAY-sweep (hoofdvondst) + corroboratie via onafhankelijke moderne bronnen | LINK_GEVONDEN — grot op Drongiri/Dunagiri Mountain nabij Ranikhet/Dwarahat, zijn eigen woonplek/ontmoetingsplek met Lahiri Mahasaya (1861) | AOAY (rechtstreeks); euttaranchal.com, yssofindia.org, atlastravel.in (corroborerend) |
+| 3 | Lahiri Mahasaya | AOAY-sweep (hoofdvondst) | LINK_GEVONDEN — Kriya Yoga-initiatie door Babaji in dezelfde grot, 1861, uitgebreid eigen ooggetuigenverslag in AOAY | AOAY (rechtstreeks) |
+| 4 | Sri Yukteswar | Gerichte zoekopdracht naar Himalaya-/Kumaon-reizen buiten Serampore/Puri | GEEN_AANTOONBARE_LINK — biografische bronnen plaatsen zijn hele leven in Serampore en Puri (twee ashrams, “Priyadham” en “Karar Ashram”); geen enkele bron noemt een Himalaya-/Kumaon-reis | WebSearch (meerdere biografische bronnen, geen Kumaon-vermelding) |
+| 5 | Ram Dass | Gerichte zoekopdracht naar zijn 1967-transformatie | LINK_GEVONDEN — Kainchi Dham-ashram (Neem Karoli Baba) is de plek van zijn bepalende ontmoeting met zijn goeroe in 1967, aanleiding voor “Be Here Now” | ramdass.org, nkbashram.org (corroborerend) |
+| 6 | Neem Karoli Baba | Gerichte zoekopdracht naar zijn hoofdverblijfplaats | LINK_GEVONDEN — Kainchi Dham (Bhowali-vallei, Nainital-district) is zijn door hemzelf gestichte hoofdashram (eerste tempel ingewijd juni 1964) | euttaranchal.com, nkbashram.org, myholidayhappiness.com (corroborerend) |
+| 7 | Anandamayi Ma | Gerichte zoekopdracht naar ashrams/bezoeken in de regio | LINK_GEVONDEN — twee eigen ashrams in Almora-district (Patal Devi en Dhaul-Chhina, beide officieel vermeld door haar eigen organisatie); één zwakkere, enkelvoudige bron noemt ook een bezoek aan Kasar Devi — apart vastgelegd met lagere zekerheid | anandamayi.org, shreeshreeanandamayeesangha.org (sterk, officieel); één secundaire tourism-bron voor Kasar Devi (zwak, niet gecorroboreerd) |
+| 8 | Ramakrishna | Gerichte zoekopdracht + hergebruik van eerder vastgesteld biografisch patroon (reisde nagenoeg nooit buiten Bengalen, overleden 1886) | GEEN_AANTOONBARE_LINK — geen enkele bron bevestigt een persoonlijk Kumaon-bezoek. “Ramakrishna Kutir, Almora” bestaat wel, maar is een latere Ramakrishna Mission-vestiging (instelling/eerbetoon), geen locatie waar Ramakrishna zelf ooit was — zie OUT_OF_SCOPE-sectie, analoog aan het Belur Math Gaya Ji-precedent uit de corridor-taak | WebSearch (geen persoonlijk bezoek gevonden; wel het institutionele Ramakrishna Kutir) |
+| 9 | Ramana Maharshi | Hergebruik van eerder onafhankelijk vastgesteld, hoogzeker biografisch feit (verliet Arunachala 54 jaar lang nooit) | GEEN_AANTOONBARE_LINK (hoge zekerheid, niet regio-afhankelijk opnieuw onderzocht omdat de onderliggende reden — fysieke afwezigheid van Arunachala — al onafhankelijk vaststaat) | eerdere AOAY_TOP11_AUDIT.md (hergebruikt) |
+| 10 | Hariharananda (Giri) | Gerichte zoekopdracht naar Kriya-lineage-bezoeken aan de Babaji-grot | LINK_GEVONDEN — bezocht Ranikhet in de jaren '60 en mediteerde in dezelfde grot waar Babaji Lahiri Mahasaya initieerde; hoorde er zelf Babaji's stem | kriya.org, Wikipedia (Hariharananda Giri), rajahamsakriya.com (corroborerend) |
+| 11 | Vivekananda | Gerichte zoekopdracht naar Almora/Nainital-bezoeken | LINK_GEVONDEN — drie ged
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=524 path=runs/active/KUMAON-V2-RESWEEP-001/RESULT.md blob_sha=6591600b2432b39ae1c84a3507ace76aad4909a6 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=5 classification=text
+ocumenteerde bezoeken: augustus 1890 (rondtrekkende monnik, 6 dagen in Nainital, meditatie in een grot bij Kasar Devi), mei 1897 (Almora, verblijf), juli 1897 (lezing English Club Almora), mei 1898 (Nainital) | almora.rkmm.org (officieel, Ramakrishna Mission), sannidhi.net (Vivekananda Cave Kasar Devi) |
+
+**Samenvatting**: 6 van 11 LINK_GEVONDEN (Babaji, Lahiri Mahasaya, Ram Dass, Neem Karoli Baba,
+Anandamayi Ma, Hariharananda, Vivekananda — telt op tot 7, zie correctie: Yogananda zelf is een
+aparte, zwakkere AOAY-boek-link zonder persoonlijk bezoek). 4 GEEN_AANTOONBARE_LINK (Yogananda
+persoonlijk bezoek, Sri Yukteswar, Ramakrishna, Ramana Maharshi) — alle vier expliciet vastgelegd
+met reden, niet stilzwijgend weggelaten.
+
+## LAAG3_HEAVYWEIGHTS
+
+- **Haidakhan Baba-ashram** (Haidakhan-dorp, Nainital-district) — onafhankelijke 20e-eeuwse
+  spirituele figuur (1970-1984 publiek optredend), negen tempels, eigen organisatie
+  (Haidakhandi Samaj). Door veel devotees geassocieerd met Mahavatar Babaji, maar dit is
+  devotionele identificatie/geloof, GEEN geverifieerd feit — expliciet zo vastgelegd, niet als
+  Top-11-Babaji-link behandeld. Zelfstandig zwaar genoeg voor laag 3 los van die associatie.
+- **Patal Bhuvaneshwar cave-tempel** (Pithoragarh-district) — Puranisch vermeld (Skanda Purana),
+  Adi Shankaracharya-bedevaart 1191 n.Chr., devotees beschouwen bezoek als gelijkwaardig aan een
+  Char Dham-bedevaart. Geografisch grensgeval t.o.v. de kernzone (zie SCOPE_DEFINITION).
+- **Jageshwar-tempelcomplex** (circa 35 km van Almora) — 125+ oude Shiva-tempels, circa 2500 jaar
+  oud (bouwperiode 9e-13e eeuw, Katyuri/Chand-dynastieën), één van de grootste tempelcomplexen van
+  de Himalaya. Duidelijk binnen kernzone.
+- **Pandukholi** (Dunagiri-berg, nabij Dwarahat) — Mahabharata-verbonden bedevaartsplek
+  (Pandava's-schuilplaats-legende), fysiek op dezelfde berg als KUM-SWEEP-A-001. Zelfstandige
+  laag-3-zwaarte via de Pandava-mythologie, los van de Babaji-connectie; geografisch
+  gecombineerd met 001 vermeld (mogelijke `combine_with` bij reconciliatie).
+
+## TIJDELIJKE_NIEUWE_FYSIEKE_KANDIDATEN
+
+```
+KUM-SWEEP-A-001 — Mahavatar Babaji-grot (Kukuchina, Dunagiri-berg, nabij Dwarahat/Ranikhet, Almora-district)
+  laag: AOAY + Top-11 (Babaji, Lahiri Mahasaya, Hariharananda)
+  bron_type: PRIMAIR (AOAY-brontekst) + OFFICIEEL (yssofindia.org) + REVIEW_PATTERN
+  bron: Project Gutenberg eBook #7452 (rechtstreeks doorzocht); yssofindia.org/location/dwarahat; euttaranchal.com; atlastravel.in
+  as_of: 2026-08-14
+  freshness: STABLE (historische/geografische identiteit)
+  mark_preference: A (Mark rechtstreeks, 2026-08-14, buiten protocolvolgorde om) — “Ik weet het.
+    Die grot is bijna reden 1 voor me om naar India te gaan. A dus.” Geen formele lock (temp-ID,
+    wacht op permanent nummer na reconciliatie), maar bij toekenning direct als A te verwerken.
+
+KUM-SWEEP-A-002 — Kainchi Dham (Neem Karoli Baba-ashram, Bhowali-vallei, Nainital-district)
+  laag: Top-11 (Neem Karoli Baba, Ram Dass)
+  bron_type: OFFICIEEL + REVIEW_PATTERN
+  bron: euttaranchal.com; nkbashram.org; ramdass.org
+  as_of: 2026-08-14
+  freshness: STABLE (geografische identiteit); CHECK_ON_USE (praktische toegang/tijden)
+
+KUM-SWEEP-A-003 — Kasar Devi / Vivekananda-grot (Almora)
+  laag: Top-11 (Vivekananda, hoge zekerheid); Anandamayi Ma (zwakke, enkelvoudige bron)
+  bron_type: OFFICIEEL (almora.rkmm.org) + REVIEW_PATTERN
+  bron: almora.rkmm.org; sannidhi.net; Wikipedia (Kasar Devi)
+  as_of: 2026-08-14
+  freshness: STABLE
+
+KUM-SWEEP-A-004 — Anandamayi Ma-ashrams Almora (Patal Devi + Dhaul-Chhina, twee sublocaties)
+  laag: Top-11 (Anandamayi Ma)
+  bron_type: OFFICIEEL (eigen organisatie)
+  bron: anandamayi.org; shreeshreeanandamayeesangha.org
+  as_of: 2026-08-14
+  freshness: STABLE
+
+KUM-SWEEP-A-005 — Haidakhan Baba-ashram (Haidakhan-dorp, Nainital-district)
+  laag: laag 3 (onafhankelijk zwaargewicht)
+  bron_type: REVIEW_PATTERN + eigen organisatie (Haidakhandi Samaj)
+  bron: Wikipedia (Haidakhan Babaji); rishikeshdaytour.com; uttarakhandi.com
+  as_of: 2026
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=525 path=runs/active/KUMAON-V2-RESWEEP-001/RESULT.md blob_sha=6591600b2432b39ae1c84a3507ace76aad4909a6 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=5 classification=text
+-08-14
+  freshness: STABLE
+
+KUM-SWEEP-A-006 — Patal Bhuvaneshwar cave-tempel (Pithoragarh-district) — GEOGRAFISCH GRENSGEVAL
+  laag: laag 3 (onafhankelijk zwaargewicht)
+  bron_type: OFFICIEEL (pithoragarh.nic.in, kumaon.gov.in) + PURANISCH
+  bron: pithoragarh.nic.in; Wikipedia (Patal Bhuvaneshwar); kumaon.gov.in
+  as_of: 2026-08-14
+  freshness: STABLE
+
+KUM-SWEEP-A-007 — Jageshwar-tempelcomplex (nabij Almora)
+  laag: laag 3 (onafhankelijk zwaargewicht)
+  bron_type: OFFICIEEL (incredibleindia.gov.in) + archeologisch
+  bron: incredibleindia.gov.in; srimandir.com; garhwalstories.com
+  as_of: 2026-08-14
+  freshness: STABLE
+
+KUM-SWEEP-A-008 — Pandukholi (Dunagiri-berg, nabij Dwarahat) — mogelijk combine_with KUM-SWEEP-A-001
+  laag: laag 3 (Mahabharata-verbonden bedevaartsplek)
+  bron_type: REVIEW_PATTERN + mythologisch
+  bron: babajicave.com; rishikeshdaytour.com; devbhoomidarshan17.com
+  as_of: 2026-08-14
+  freshness: STABLE
+```
+
+Alle acht zijn TIJDELIJKE sweep-ID's conform TASK.md — geen permanente locatienummers toegekend;
+dat gebeurt pas na reconciliatie met Sweep B en identity-check.
+
+## AFGEWEZEN_DUPLICATEN/SUBLOCATIES
+
+Geen dubbele tijdelijke ID's binnen deze sweep. KUM-SWEEP-A-004 bevat twee sublocaties (Patal Devi,
+Dhaul-Chhina) bewust onder één tijdelijke ID gehouden tot identity-check bepaalt of ze apart moeten
+worden vastgelegd. KUM-SWEEP-A-008 (Pandukholi) is fysiek op dezelfde berg als KUM-SWEEP-A-001 maar
+heeft een eigen, onafhankelijke (niet-Babaji-gerelateerde) pelgrimsidentiteit (Pandava-mythologie)
+en wordt daarom NIET als sublocatie van 001 behandeld, wel met een mogelijke geo-relatie
+gemarkeerd.
+
+## NEGATIEVE_RESULTATEN
+
+Zie TOP11_RESULTAAT_PER_NAAM voor de 4 expliciete negatieve Top-11-bevindingen. Aanvullend:
+Haldwani en Kathgodam zijn bevestigd als spoorweg-/transitgateways naar de Kumaon-heuvels zonder
+eigen zelfstandige AOAY/Top-11/laag-3-kandidaat op die exacte plaats zelf. Mukteshwar, Binsar en
+Garhwal leverden geen AOAY-treffer en geen apart onderzochte laag-3-kandidaat op binnen de
+beschikbare onderzoekstijd — NIET uitgesloten, wel NIET_UITPUTTEND_ONDERZOCHT, expliciet zo
+vastgelegd voor Sweep B/reconciliatie i.p.v. stilzwijgend als “nul” gepresenteerd.
+
+## OUT_OF_SCOPE_NEGATIEVE_DETECTORBEVINDINGEN
+
+- **Ramakrishna Kutir, Almora** — officiële Ramakrishna Mission-vestiging in Almora, ontstaan uit
+  Vivekananda's bezoeken aan de regio (zie Top-11 #11). GEEN locatie waar Ramakrishna zelf
+  (Top-11 #8) ooit fysiek aanwezig was — een instelling vernoemd naar hem, analoog aan het Belur
+  Math Gaya Ji-precedent uit `GAYA-AIRPORT-BODHGAYA-CORRIDOR-001`. Niet gepromoveerd als
+  Ramakrishna-kandidaat; wel relevant als onderdeel van de Vivekananda-context bij
+  KUM-SWEEP-A-003.
+
+## BRONVERIFICATIE_STATUS (poort G.1)
+
+AOAY: volledige lokale full-textsweep van de daadwerkelijke brontekst (Project Gutenberg #7452,
+20.104 regels, lokaal gedownload en doorzocht met exacte grep-matching, niet snippet/samenvatting).
+Hoofdvondst rechtstreeks geciteerd uit de brontekst zelf, inclusief voetnootnummer en
+illustratiebijschrift.
+
+Top-11 en laag-3: voor elke LINK_GEVONDEN-claim is minimaal één corroborerende bron rechtstreeks
+geraadpleegd via WebSearch; waar een officieel/organisatie-eigen domein beschikbaar was (yssofindia.org,
+nkbashram.org, ramdass.org, anandamayi.org, almora.rkmm.org, incredibleindia.gov.in,
+pithoragarh.nic.in) is die als sterkste bron geprioriteerd boven algemene tourism-blogs. Één claim
+(Anandamayi Ma bij Kasar Devi) steunt op één enkelvoudige, niet-officiele bron en is expliciet als
+zwakker gemarkeerd, niet gelijkgesteld aan de sterker onderbouwde bevindingen.
+
+## BLINDHEID_VERKLAARD
+
+CCI heeft tijdens deze sweep NIET geraadpleegd: `KUMAON-COMPLETE-001`, `VRINDAVAN-KUMAON-CORRIDOR-001`,
+of enige oude Kumaon-kandidatenlijst, GOUD-rapport, decision report of volledigheidsclaim uit die
+runs. Geen van de bestandsnamen/paden uit die oude runs is geopend of doorzocht tijdens discovery.
+De scope-as (SCOPE_DEFINITION hierboven) is uitsluitend afgeleid uit TASK.md's eigen
+geo
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=526 path=runs/active/KUMAON-V2-RESWEEP-001/RESULT.md blob_sha=6591600b2432b39ae1c84a3507ace76aad4909a6 original_offset=16384 original_length=1276 payload_bytes=1276 chunk_index=4 chunk_count=5 classification=text
+grafische omschrijving + onafhankelijk geografisch onderzoek, niet uit oude kandidaatlocaties.
+Oude Mark-besluiten zijn niet geraadpleegd tijdens discovery (er was ook geen aanleiding: geen van
+de 8 tijdelijke kandidaten hoefde tegen een bestaand besluit te worden getoetst tijdens Sweep A).
+
+## SATURATION_STATUS_SWEEP_A
+
+GEEN finale regionale compleetheidsclaim (conform TASK.md — volgt pas na Sweep B + reconciliatie,
+poort R). Voor Sweep A zelf: AOAY exhaustief doorzocht op primaire brontekst; alle 11 Top-11-namen
+individueel onderzocht met expliciete resultaten (positief en negatief); laag-3 gecontroleerd tegen
+meerdere onafhankelijke, deels officiele bronnen. Drie randgebieden (Mukteshwar, Binsar, Garhwal-
+breedte) zijn expliciet als niet-uitputtend onderzocht gemarkeerd i.p.v. als bewezen leeg
+gepresenteerd. Sweep A beschouwt zichzelf als KLAAR voor deze scope, wachtend op onafhankelijke
+Sweep B.
+
+## BLOCKERS
+
+Geen. Klaar voor Sweep B door INDIA (blind, zonder dit RESULT.md als zoekbasis — zie TASK.md).
+
+---
+Geschreven door: CCI. Geen A/B/C, geen PDF, geen permanente locatienummers toegekend — uitsluitend
+tijdelijke sweep-ID's, conform TASK.md. Marks A-voorkeur voor KUM-SWEEP-A-001 vastgelegd, niet
+formeel gelockt (zie MARK_PREFERENCE hierboven).
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=527 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/VARANASI_FINAL_STATUS.md blob_sha=6700745a820f8d4aa410a2fa3ba18403944395ba original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# VARANASI_FINAL_STATUS — afsluiting sweep, MAINTENANCE_STATUS
+
+Besluit: INDIA2, PR #23, 2026-08-03. Varanasi Discovery wordt hiermee afgesloten. De regio gaat
+naar MAINTENANCE_STATUS: geen nieuwe locaties meer, tenzij Mark daar expliciet om vraagt of
+concreet nieuw bewijs een echte NOT_TO_BE_MISSED-locatie aantoont.
+
+## Definitieve scope
+
+Varanasi stad + straal van circa 20 km rond het centrum (Dashashwamedh Ghat, ~25.31°N 83.01°E),
+plus een signalerende blik tot circa 30-34 km (één gevonden Jain-kalyanaksite, Chandraprabhu/
+Chandrawati, op ~34 km, expliciet buiten scope gehouden). Onderzoek uitgevoerd in twee fasen:
+de oorspronkelijke GEO-doorloop (001-040, Mark-beoordeeld) en een latere discovery-/coverage-
+audit (041-045, PROVISIONAL).
+
+## Totaal aantal permanente kandidaten
+
+**45** permanent genummerde kandidaten in `NUMBERING_REGISTRY.jsonl` (VNS-CAND-001 t/m 045).
+Geen 046 of hoger — een eerder overwogen 046e kandidaat (Laat Bhairav) is nooit gecommit; die
+taak is ingetrokken vóór afronding (zie git-historie PR #23, HOLD 2026-08-03).
+
+## Aantal A/B/C
+
+Van de 40 oorspronkelijke, door Mark beoordeelde kandidaten (001-040):
+- **A: 32**
+- **B: 5**
+- **C: 3**
+
+De 5 discovery-kandidaten (041-045) hebben GEEN A/B/C — status blijft `PROVISIONAL` /
+`DOOR_MARK_TE_BEOORDELEN`, ongewijzigd, in afwachting van Marks eigen initiatief.
+
+## Aantal WATCHLIST
+
+Van de 5 discovery-kandidaten (041-045), na toetsing tegen het NOT_TO_BE_MISSED-framework
+(`india5/reports/VARANASI_NOT_TO_BE_MISSED_041_045_REASSESSMENT.md` en de daaropvolgende
+verdiepingscontrole `india5/reports/VARANASI_041_045_DEEPENING_CHECK.md`):
+- **PASS (na verdieping): 2** — 041 Parshvanath Digambar Jain Temple, 045 Adi Keshava Ghat.
+- **WATCHLIST: 2** — 042 Suparshvanath Jain Tirth, 044 Ramnagar Fort.
+- **FAIL: 1** — 043 Shreyansanath Jain Tirth (Sarnath).
+
+Dit zijn CCI-adviezen, geen A/B/C-besluiten. Conform het besluit van vandaag blijven alle vijf
+records in `DISCOVERY_CANDIDATES.jsonl` ongewijzigd staan; er is geen automatische promotie naar
+een Mark-keuzeronde.
+
+## Open onzekerheden
+
+- VNS-CAND-008: geen veilig/bevestigd coördinaat; het eerder afgewezen coördinaat
+  [25.3045, 82.979369] is nergens als kaartgeometrie gebruikt.
+- VNS-CAND-023: circa 3 km afwijking tussen twee bronnen, niet opgelost.
+- 35 van de 40 GEO-bevestigde kandidaten (001-040) hebben nog geen bevestigde Google Maps-marker
+  (`PROVISIONAL`, niet `CONFIRMED`).
+- Het vastgelegde hotel (Sahi River View Guesthouse, `VNS-HOTEL-001`, `LOCKED_BY_MARK`) heeft
+  geen geverifieerde Google Maps-marker — tekstueel adres, geen kaartpunt.
+- 041-045: geen van de vijf heeft een bevestigde Google Maps-marker (`GOOGLE_MAPS_MARKER_NOT_CONFIRMED`
+  voor alle vijf) — GEO-verificatie (BRONS) is voor deze vijf nooit uitgevoerd, expliciet buiten
+  scope van de discovery-audit.
+- 043 (FAIL-advies) blijft desondanks geregistreerd met permanent nummer — geen kandidaat wordt
+  ooit stil verwijderd, alleen zijn NOT_TO_BE_MISSED-advies is negatief.
+- Drie PRE-BRONS-detectoren uit de saturatie-episode (samadhi/mahasamadhi, levende ashram,
+  sacrale geografie/yatra) zijn nooit canoniek vastgelegd of doorzocht — die episode is
+  ingetrokken vóór afronding; er bestaat geen betrouwbare uitspraak over deze richtingen voor
+  Varanasi.
+- Geen lokale insider-/priesterbron is ooit geraadpleegd voor Varanasi — uitsluitend webbronnen,
+  in alle onderzoeksrondes.
+
+## Lessen voor de volgende regio
+
+1. **Categorievolledigheid is geen geldig toevoegingscriterium.** De discovery-audits van
+   041-045 zochten aanvankelijk naar "welke tradities ontbreken" — dat leverde kandidaten op die
+   pas bij een tweede, striktere toets (NOT_TO_BE_MISSED) houdbaar bleken (of niet, zoals 043).
+   Volgende regio's beginnen direct met de hoofdvraag, niet met een categorie-inventarisatie.
+2. **Bronsterkte verandert een oordeel wezenlijk.** 041 en 045 gingen van WATCHLIST naar PASS
+   zodra gerichte verificatie een primaire tekst (Vividha Tirtha Kalpa) en een historische
+   inscriptie (Gahadavala-inscriptie) opleverde in p
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=528 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/VARANASI_FINAL_STATUS.md blob_sha=6700745a820f8d4aa410a2fa3ba18403944395ba original_offset=4096 original_length=1953 payload_bytes=1953 chunk_index=1 chunk_count=2 classification=text
+laats van uitsluitend reisblogs. Eerste-ronde
+   bronnen zijn vaak onvoldoende; een gerichte verdiepingsronde op de sterkste kandidaten is de
+   moeite waard vóórdat een definitief advies wordt gegeven.
+3. **Nummering en kandidaatstatus moeten nooit vóór de inhoudelijke poort komen.** Dit was
+   expliciet de fout bij 041-045 (eerst genummerd, pas achteraf getoetst) — nu structureel
+   gecorrigeerd in `INDIA5_REGION_START_PROTOCOL.md`, stap 3 vóór stap 5.
+4. **PR-comments zijn geen opslagmedium.** Lange inhoudelijke rapporten in PR-comments raken
+   afgekapt bij het uitlezen. Volledige rapporten horen in bestanden; de PR-comment is
+   uitsluitend een envelop (taak-id/commit/bestand/blob-SHA/status).
+5. **Een taak kan en mag worden ingetrokken vóór uitvoering** (zoals SATURATION-004) zonder dat
+   dit een fout is — het HOLD-mechanisme in `india5/TASK_PROTOCOL.md` bestaat precies hiervoor,
+   en werkte hier zoals bedoeld: geen inhoudelijk spoor van de ingetrokken taak bleef achter op
+   de branch.
+6. **Een sweep mag op nul nieuwe kandidaten uitkomen** — dat is vanaf nu expliciet een geldig
+   resultaat, niet een falen van de detectoren.
+
+## Bevestiging: startprotocol voor volgende regio's
+
+Elke volgende regiosweep start voortaan volgens de vaste negen stappen in
+`india4/protocols/INDIA5_REGION_START_PROTOCOL.md` (PRE-BRONS → Discovery →
+NOT_TO_BE_MISSED-poort → Kandidaatstatus → Permanente nummering → BRONS → ZILVER → GOUD →
+TRAVEL), met de hoofdvraag uit `india4/protocols/NOT_TO_BE_MISSED_FRAMEWORK.md` boven elke
+detector en boven categorievolledigheid. Dit is geen keuze meer per regio — het is de canonieke
+startvolgorde voor alle toekomstige sweeps.
+
+---
+Geschreven door: CCI, op verzoek van INDIA2 (PR #23, afsluitopdracht).
+Datum: 2026-08-03.
+Status: Varanasi -> MAINTENANCE_STATUS. Geen PDF, geen KML, geen datasetwijziging, geen nieuwe
+detectoren, geen nieuwe kandidaten door dit document.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=529 path=runs/active/BODHGAYA-DISCOVERY-001/BRONS/BRONS-B01.jsonl blob_sha=672639adcb44d62ccf6867838c0337a08fea0433 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+{"candidate_id":"BGY-CAND-046","canonical_name":"Mahabodhi Temple Complex","display_id":"046","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":24.696,"longitude":84.9914,"geo_status":"REFERENCE_COORDINATE_FROM_MULTIPLE_INDEPENDENT_LISTINGS","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Mahabodhi Temple Complex, Bodh Gaya","address":"Bodh Gaya, Gaya district, Bihar 824231, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://indianculture.gov.in/node/2537416","supports":"Officiele Indiase cultuurbron, complexbeschrijving"},{"url":"https://en.wikipedia.org/wiki/Mahabodhi_Temple","supports":"Identiteit, UNESCO-status, zeven-wekenstructuur"},{"url":"https://en.wikipedia.org/wiki/Vajrasana,_Bodh_Gaya","supports":"Vajrasana als onderdeel van hetzelfde complex"}],"reason":"Identiteit en fysieke locatie eenduidig bevestigd via meerdere onafhankelijke, consistente bronnen (geen enkele contradictie over de identiteit of algemene ligging). Een referentiecoordinaat (24.696N, 84.9914E) komt consistent terug over meerdere aggregatoren, maar is niet zelf rechtstreeks via een geopende Google Maps-marker geverifieerd -- conform de harde regel 'nooit coordinaten raden of een schatting als vervanging gebruiken' blijft geo_status daarom GOOGLE_MAPS_MARKER_NOT_CONFIRMED, referentiecoordinaat uitsluitend ter vergelijking.","checked_at":"2026-08-03"}
+{"candidate_id":"BGY-CAND-047","canonical_name":"Sujata Stupa, Bakraur","display_id":"047","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":null,"longitude":null,"geo_status":"MULTIPLE_CONFLICTING_REFERENCE_COORDINATES","use":"COMPARISON_ONLY","note":"Drie licht verschillende coordinatensets gevonden (24.6976/85.0045; 24.69791/85.00332; 24.696118/85.007991 via een Google Earth-entiteitslink) -- variatie van enkele tientallen tot ruim honderd meter, geen eenduidig te kiezen marker zonder rechtstreekse Maps-verificatie."},"identity_check":{"matched_place":"Sujata Stupa / Sujata Garh, Bakraur (Senanigrama)","address":"Bakraur Village Road, Sujata, Bakraur, Gaya district, Bihar 805131, India","physical_identity":"CONFIRMED","marker_identity":"AMBIGUOUS -- meerdere niet-identieke coordinatensets"},"evidence":[{"url":"https://tourism.bihar.gov.in/en/destinations/gaya/sujata-stupa","supports":"Officiele deelstaatbron, naam en locatie"},{"url":"https://en.wikipedia.org/wiki/Sujata_Stupa","supports":"Identiteit, geschiedenis"},{"url":"https://en.wikipedia.org/wiki/Bakraur","supports":"Bakraur = dorpsnaam, bevestigt Bakraur Stupa = Sujata Stupa, geen apart object"}],"reason":"Identiteit ondubbelzinnig bevestigd (officiele bron + encyclopedie + academische opgravingsdatering). GEEN eenduidige marker vastgesteld -- drie onderling niet-identieke coordinatensets gevonden zonder rechtstreekse Maps-verificatie om er een te bevestigen. Conform de harde regel geen van deze overgenomen als final coordinate; AMBIGUE_PIN-achtige situatie, vastgelegd als open punt voor een toekomstige ZILVER/BRONS-verdiepingsronde met directe Maps-toegang.","checked_at":"2026-08-03"}
+{"candidate_id":"BGY-CAND-048","canonical_name":"Dungeshwari Cave Temples (Mahakala Caves)","display_id":"048","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":null,"longitude":null,"geo_status":"NO_COORDINATE_FOUND","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Dungeshwari Cave Temples / Mahakala Caves","address":"Larpur village, near Bodh Gaya, Gaya district, Bihar, India (circa 12-14 km ten noorden van Bodh Gaya, bronnen varieren tussen 12 en 13,9 km)","physical_identity":"CONFIRMED","ma
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=530 path=runs/active/BODHGAYA-DISCOVERY-001/BRONS/BRONS-B01.jsonl blob_sha=672639adcb44d62ccf6867838c0337a08fea0433 original_offset=4096 original_length=2166 payload_bytes=2166 chunk_index=1 chunk_count=2 classification=text
+rker_identity":"NOT_EXTRACTED"},"evidence":[{"url":"https://tourism.bihar.gov.in/en/destinations/gaya/dungeshwari-mandir","supports":"Officiele deelstaatbron"},{"url":"https://prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/gaya/dungeshwari-temple.html","supports":"Officiele nationale toerismebron"},{"url":"https://en.wikipedia.org (Dungeshwari, via zoekresultaten)","supports":"Kruiscontrole identiteit en Larpur-dorpsnaam"}],"reason":"Identiteit bevestigd via twee onafhankelijke overheidsbronnen (deelstaat + nationaal) plus dorpsnaam (Larpur). Geen coordinaat gevonden dat aan een specifiek geopende Google Maps-marker te koppelen is -- geen schatting overgenomen, geo_status blijft GOOGLE_MAPS_MARKER_NOT_CONFIRMED.","checked_at":"2026-08-03"}
+{"candidate_id":"BGY-CAND-049","canonical_name":"Great Buddha Statue","display_id":"049","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":24.690472,"longitude":84.981806,"geo_status":"REFERENCE_COORDINATE_FROM_WIKIPEDIA_INFOBOX","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Great Buddha Statue, Daijokyo Buddhist Temple","address":"Daijokyo Buddhist Temple, Great Buddha Statue Road, Post Box No. 20, P.O. Bodhgaya 824231, Gaya, Bihar, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://en.wikipedia.org/wiki/Great_Buddha_(Bodh_Gaya)","supports":"Identiteit, volledig adres, infobox-coordinaat, geschiedenis"}],"reason":"Identiteit en volledig postadres eenduidig bevestigd via een enkele, interne consistente encyclopedische bron (geen tegenstrijdige adressen/coordinaten gevonden, in tegenstelling tot BGY-CAND-047). Het Wikipedia-infobox-coordinaat is desondanks niet zelf rechtstreeks via een geopende Google Maps-marker geverifieerd door CCI -- conform de harde regel blijft geo_status daarom GOOGLE_MAPS_MARKER_NOT_CONFIRMED, met dit coordinaat uitsluitend als referentie voor een toekomstige directe Maps-verificatie.","checked_at":"2026-08-03"}
+
+<<< END CHUNK >>>
+

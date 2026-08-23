@@ -1,0 +1,727 @@
+>>> CHUNK stream_row=227 path=research/YOGANANDA_RAMANA_ARUNACHALA_POST_FREEZE_NOTE_2026-08-18.md blob_sha=2a578e49b537e56ee350f62627829036b4d522f8 original_offset=0 original_length=2332 payload_bytes=2332 chunk_index=0 chunk_count=1 classification=text
+# YOGANANDA — RAMANA MAHARSHI — ARUNACHALA POST-FREEZE NOTE
+
+Date: 2026-08-18
+Status: POST_FREEZE_USER_DRIVEN_FINDING
+Benchmark contamination rule: DO NOT retroactively add this to the earlier Yogananda pre-external freeze. Use only in post-freeze reconciliation / travel layer.
+
+## Why this matters
+Mark explicitly stated that knowing the exact physical place of Yogananda's meeting with Ramana Maharshi is highly important for him and materially increases his desire to visit Arunachala/Tiruvannamalai.
+
+## Strongly verified facts
+1. Paramahansa Yogananda visited Sri Ramana Maharshi at Sri Ramanasramam, Tiruvannamalai, on 29 November 1935.
+2. `Talks with Sri Ramana Maharshi`, Talk 106, records Yogananda arriving with four others at 8:45 a.m. and that the group had lunch in the Ashram.
+3. Sri Ramanasramam's archival-film research booklet identifies surviving footage from this visit.
+4. That booklet physically locates the filmed scene: Maharshi is seated on a bench placed immediately north of the Old Hall, facing south; Yogananda and Paul Brunton are present nearby.
+
+## Critical precision
+The north-of-Old-Hall bench is an exact physical location for the SURVIVING FILMED SCENE. Current evidence does not yet prove that the entire verbal meeting/conversation took place only at that bench. Keep these as two different claims:
+- `FILMED_SCENE_EXACT_SITE = bench north of Old Hall` — strong.
+- `FULL_CONVERSATION_EXACT_SITE = unresolved within Sri Ramanasramam` — do not overstate without an additional direct source.
+
+## Direct/public sources
+- Sri Ramanasramam archive, Archival Films booklet: `https://archive.arunachala.org/docs/archival-films-booklet`
+- Sri Ramanasramam archive, Talks 106-108, 29 Nov 1935: `https://archive.arunachala.org/docs/talks-wsrm/106-108`
+- AOAY primary/public 1946 text for Yogananda's South India pilgrimage context: Project Gutenberg / other public first-edition reproductions.
+
+## Travel relevance
+This evidence strengthens Arunachala/Tiruvannamalai as a high-value cross-link:
+- Ramana Maharshi primary life-place cluster.
+- Yogananda personally present.
+- Surviving historical film gives a physically precise sublocation at Sri Ramanasramam.
+
+Do not yet assign route nights or cluster extent here. Those follow after national person sweeps -> cluster heatmap -> regional sweep.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=228 path=runs/active/INDIA8-CLUSTER-CASTING-001/PRAYAGRAJ_ALLAHABAD_CLUSTER_CASTING.md blob_sha=2a75a51f417ce38f47cc3bd6d79d87b849519bd6 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# PRAYAGRAJ / ALLAHABAD — CLUSTER CASTING
+
+status: READY_FOR_MARK_ABC
+purpose: cluster-level go/no-go before expensive regional deep sweep
+principle: AOAY first; then person-sweep physical sites; no Mark choices inferred
+
+## HUMAN LEGEND
+Prayagraj/Allahabad = the sacred confluence city where Ganga and Yamuna meet at the Triveni Sangam, and one of the Kumbh Mela cities. For this project it is unusually dense in cross-person history despite having fewer room-level sites than Vrindavan.
+
+## WHY THIS CLUSTER MAY MATTER TO MARK
+- AOAY places Yogananda personally at the 1936 Allahabad Kumbh Mela in chapter 42.
+- AOAY chapters 34/36 preserve the 1894 Kumbh encounter involving Sri Yukteswar and Babaji; this makes Prayagraj a core Kriya-lineage scene, not just general pilgrimage.
+- Sri Ramakrishna personally stayed three nights in Prayag in 1868 and bathed at the Triveni Sangam.
+- Neem Karoli Baba repeatedly used 4 Church Lane as a major winter base; his small room there is a concrete room-level site.
+- Ram Dass stayed about five days at the same 4 Church Lane with a 24-person group in 1971.
+- Ram Dass/NKB also have a strong lead at the reclining Hanuman temple by the Sangam.
+- Anandamayi Ma repeatedly attended Allahabad/Kumbh; her official chronology contains direct Sangam/Kumbh occurrences.
+
+## MARK ABC QUEUE — CONCRETE / TRAVEL-RELEVANT
+
+### 1 — Triveni Sangam
+PERSONS: Sri Ramakrishna; Anandamayi Ma; broader Kumbh/Kriya lineage context
+EVENTS: Sri Ramakrishna stayed three nights in Prayag in 1868 and bathed at the sacred confluence. Anandamayi Ma's Sangha corpus records her visiting Allahabad and taking a dip at the confluence; later Kumbh participation is also documented.
+PHYSICAL_IDENTITY: EXACT landscape/confluence.
+CURRENT_VISITABILITY: YES; official district tourism describes boat access to the confluence.
+NONPERSON_WEIGHT: independently major sacred site.
+
+### 2 — AOAY: Yogananda at the 1936 Allahabad Kumbh Mela
+PERSON: Paramahansa Yogananda
+AOAY: YES, chapter 42
+EVENT: Yogananda explicitly sets out for Allahabad with a small group for the Kumbh Mela; chapter/captions preserve the 1936 visit.
+PHYSICAL_IDENTITY: EVENT/FAIRGROUND zone, not one permanent building.
+CURRENT_VISITABILITY: Sangam/Mela landscape yes; exact 1936 camp footprint unresolved.
+MARK_NOTE: high-priority book-in-hand scene even if exact tent/camp spot cannot be recovered.
+
+### 3 — AOAY/Kriya scene: Sri Yukteswar–Babaji 1894 Kumbh encounter
+PERSONS: Sri Yukteswar; Mahavatar Babaji
+AOAY: YES, chapters 34 and 36
+EVENT: AOAY recounts Sri Yukteswar's first meeting with Babaji at the Allahabad Kumbh in 1894; Lahiri Mahasaya later references the scene.
+PHYSICAL_IDENTITY: Kumbh/Mela zone, exact tent/subspot unresolved.
+CURRENT_VISITABILITY: broader Sangam/Kumbh landscape yes; exact 1894 micro-site unknown.
+IMPORTANCE: very high lineage significance despite weak micro-localisation.
+
+### 4 — 4 Church Lane ('red house')
+PERSONS: Neem Karoli Baba; Ram Dass
+EVENT: major NKB winter residence/camp from late 1950s through early 1970s; Ram Dass stayed there around five days with a 24-person group in 1971.
+PHYSICAL_IDENTITY: EXACT historical address in person sweeps.
+CURRENT_VISITABILITY: current private-property continuity/access not yet reliably verified.
+OVERLAP: EXACT same house NKB + Ram Dass.
+
+### 5 — Baba's small room inside 4 Church Lane
+PERSON: Neem Karoli Baba; Ram Dass context via shared stay
+EVENT: recurring winter residence, meals and private conversations; person sweep identifies 'Babaji's room' as an exact internal sublocation.
+PHYSICAL_IDENTITY: EXACT historically; current room/layout continuity not audited.
+CURRENT_VISITABILITY: UNKNOWN/private until direct closure.
+ROOM_LEVEL: YES — potentially one of the strongest person micro-sites in this cluster if accessible.
+
+### 6 — reclining Hanuman temple near Sangam — Bade/Lete Hanuman Ji candidate
+PERSONS: Ram Dass; Neem Karoli Baba context
+EVENT: Ram Dass memoir describes the bus stopping in 1971 after sighting Maharaj-ji near an unusual underground/reclining Hanuman temple. Description 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=229 path=runs/active/INDIA8-CLUSTER-CASTING-001/PRAYAGRAJ_ALLAHABAD_CLUSTER_CASTING.md blob_sha=2a75a51f417ce38f47cc3bd6d79d87b849519bd6 original_offset=4096 original_length=3870 payload_bytes=3870 chunk_index=1 chunk_count=2 classification=text
+strongly corresponds to today's Lete/Bade Hanuman Ji near Sangam but memoir does not name it.
+PHYSICAL_IDENTITY: DEELS due identity inference; current temple itself exact and active.
+CURRENT_VISITABILITY: YES for current temple; official Prayagraj district lists it as a visitor religious site.
+CAUTION: do not silently upgrade memoir identity from DEELS to EXACT without independent bridge evidence.
+
+### 7 — Prabhudatt Brahmachari's ashram across Ganges from Mela area
+PERSON: Neem Karoli Baba
+EVENT: January 1960 Ardha Mela; NKB crossed the Ganges, reached the ashram, entered and met sadhus.
+PHYSICAL_IDENTITY: DEELS; institution/property exact name/address not yet resolved.
+CURRENT_VISITABILITY: UNKNOWN until identity closure.
+
+### 8 — flood-side Hanuman temple / Ganges bank
+PERSON: Neem Karoli Baba
+EVENT: major flood episode; NKB arrived by jeep, went to the river and sipped the floodwater.
+PHYSICAL_IDENTITY: DEELS; likely a famous riverside Hanuman temple but person freeze refuses to assert exact modern identity.
+CURRENT_VISITABILITY: broader riverbank/temple corridor yes; exact occurrence-site unresolved.
+
+### 9 — old Mukerjee household, pre-Church Lane
+PERSON: Neem Karoli Baba
+EVENT: repeated visits during the first phase of Dada Mukerjee relationship before the Church Lane house.
+PHYSICAL_IDENTITY: city known, exact house address unresolved.
+CURRENT_VISITABILITY: UNKNOWN.
+
+### 10 — Prayag railway station
+PERSON: Neem Karoli Baba
+EVENT: documented departures/transit; devotee ticket incident in corpus.
+PHYSICAL_IDENTITY: EXACT station.
+CURRENT_VISITABILITY: YES as functioning station; spiritual weight likely lower unless Mark values transit micro-scenes.
+
+### 11 — Anandamayi Ma: Allahabad/Kumbh/Sangam occurrences
+PERSON: Anandamayi Ma
+EVENT: official Sangha chronology records repeated Allahabad visits. In 1947 she went by boat to Prabhudatt Brahmachari and on return bathed at the confluence; 1954 Kumbh and later 1982 Kumbh participation/camp/processions are documented.
+PHYSICAL_IDENTITY: event/landscape plus as-yet unresolved camp/host sub-sites.
+CURRENT_VISITABILITY: Sangam/Mela area yes; exact historic camps not closed.
+
+## IMPORTANT OVERLAP / NARRATIVE VALUE
+- 4 Church Lane is a rare exact physical overlap between NKB and Ram Dass.
+- Sangam/Kumbh is a cross-era convergence point: Ramakrishna, Yogananda, Sri Yukteswar/Babaji lineage, Anandamayi Ma and broader NKB/Ram Dass activity all touch the same sacred city/river-event landscape, although not always the exact same permanent structure.
+- This cluster is therefore stronger in 'same sacred landscape across generations' than in preserved rooms/buildings.
+
+## IMPORTANT UNRESOLVED LEADS
+- Current legal/physical status and visitor access for 4 Church Lane and especially Baba's small room.
+- Exact bridge between Ram Dass's reclining-Hanuman description and current Lete/Bade Hanuman Ji temple.
+- Exact Prabhudatt Brahmachari ashram institutional property.
+- Exact NKB flood-side Hanuman temple.
+- Exact Yogananda 1936 and Sri Yukteswar/Babaji 1894 Kumbh camp footprints are probably not recoverable; do not invent them.
+
+## CLUSTER CASTING SUMMARY
+PERSON-LAYERS: Yogananda/AOAY, Sri Yukteswar, Mahavatar Babaji, Neem Karoli Baba, Ram Dass, Sri Ramakrishna, Anandamayi Ma.
+STRONGEST EXACT OVERLAP: 4 Church Lane (NKB + Ram Dass).
+AOAY_WEIGHT: HIGH because Yogananda personally attends 1936 Kumbh and AOAY preserves the 1894 Sri Yukteswar/Babaji scene.
+ROOM_LEVEL_WEIGHT: potentially HIGH if 4 Church Lane/Baba room proves visitable; otherwise moderate.
+NONPERSON_WEIGHT: VERY HIGH due Triveni Sangam/Kumbh itself.
+LOGISTIC ROLE: geographically on the Ganges-axis between the northern world and Varanasi/Bodh-Gaya direction; exact transport optimization deferred until Mark cluster decision.
+MARK DECISION: pending A/B/C on records, then CLUSTER DOOR/AF/TWIJFEL.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=230 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/WORKING_ROUTE_V1_AFTER_RISHIKESH_SWAP_2026-08-23.md blob_sha=2c1ab75adeb4a643615a0462a045bafc6d4de3be original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=5 classification=text
+# WORKING ROUTE V1 — AFTER KASAR/ALMORA -> RISHIKESH SWAP
+
+Date: 2026-08-23
+Status: FIRST REAL HUMAN-REVIEW ROUTE / NOT BOOKING LOCK
+Hard frame: 33 India accommodation nights, arrival DEL 19 Dec 10:15, departure DEL 21 Jan 12:20.
+
+## HARD PRESENTATION RULE
+Every A/B/C visit location is written as `NAME (plain-language what it is / why it matters) — grade`.
+No bare Indian place names as decision labels.
+
+## ROUTE SUMMARY — 33 NIGHTS EXACTLY
+- 19 Dec: Delhi — 1 night
+- 20–22 Dec: Haidakhan — 3 nights
+- 23–25 Dec: Kukuchina / Dunagiri — 3 nights
+- 26–28 Dec: Nainital / Kainchi — 3 nights
+- 29–31 Dec: Rishikesh / Haridwar / Kankhal — 3 nights
+- 1 Jan: Agra — 1 night
+- 2–4 Jan: Vrindavan / Braj — 3 nights
+- 5 Jan: Prayagraj — 1 night
+- 6–10 Jan: Varanasi / Sarnath — 5 nights
+- 11–13 Jan: Bodh Gaya / Gaya — 3 nights
+- 14–18 Jan: Tiruvannamalai / Arunachala — 5 nights
+- 19–20 Jan: Delhi — 2 nights
+TOTAL = 33 India nights.
+
+This version deliberately returns to Delhi on 19 Jan, leaving two final nights before the 21 Jan 12:20 international flight.
+
+---
+
+# 19 DEC — DELHI — 1 NIGHT / FUNCTIONAL START
+Arrival Air India 10:15 DEL. Recover, keep Delhi short.
+
+Visit if same-day energy/access works:
+- **Nirmal Dham / Shri Mataji Nirmala Devi Mahasamadhi (the Delhi resting-place/shrine of Shri Mataji; Mark's single explicitly selected Delhi spiritual stop) — A.**
+
+No Old Delhi expansion. Sleep in practical airport/southwest-Delhi position for early road departure.
+
+---
+
+# 20–22 DEC — HAIDAKHAN — 3 NIGHTS
+Sleep base: **Haidakhan Ashram itself — Mark wants to stay here.**
+
+Core:
+- **Haidakhan Vishwa Mahadham / Haidakhan Babaji Ashram (active riverside Himalayan ashram of Haidakhan Baba where Mark wants to stay and experience the place itself) — A.**
+
+Interpretation: Haidakhan Baba and Mahavatar Babaji are NOT treated as proven identical persons; Haidakhan remains A because the place/person independently attracts Mark.
+Additional Haidakhan-lineage sites remain C unless exceptional value appears; they do not consume this module.
+
+20 Dec is largely Delhi -> Haidakhan travel; 21–22 Dec are the experiential days.
+
+---
+
+# 23–25 DEC — KUKUCHINA / DUNAGIRI — 3 NIGHTS
+Sleep base: **Joshi Guest House, Kukuchina — LOCKED / wanted by Mark.**
+
+Visit units:
+- **Mahavatar Babaji Cave / Dunagiri cave site (Kriya Yoga pilgrimage cave traditionally linked to Babaji initiating Lahiri Mahasaya in 1861; major Yogananda-line destination) — A.**
+- **Babaji Smriti Bhavan (Babaji memorial/pilgrim stop on the Dwarahat–Dunagiri Kriya route) — A.**
+- **Dunagiri Temple (mountain Devi temple in the same sacred landscape as the Babaji cave route) — A.**
+- **YSS Dwarahat Ashram (Yogoda Satsanga Society ashram of Yogananda’s Kriya lineage near the Babaji-cave route) — A.**
+- **Dwarahat historic temple groups (clusters of old Kumaoni stone temples; Lonely-Planet heritage add-on rather than a core person magnet) — C by Mark's later LP decision.**
+
+Working shape:
+23 Dec transfer/settle; 24 Dec cave day; 25 Dec Dwarahat/YSS/Dunagiri-associated day with breathing room.
+
+---
+
+# 26–28 DEC — NAINITAL / KAINCHI — 3 NIGHTS
+Sleep base: **Hotel Evelyn, Nainital — wanted by Mark; historic authenticity matters more than comfort.**
+
+Visit units:
+- **Hotel Evelyn (historic Nainital hotel used by Ram Dass/devotee circle; Mark wants to sleep in the best-provable Ram Dass room/wing if it can be identified) — A.**
+- **Kainchi Dham (Neem Karoli Baba's major ashram; central Maharajji/Ram Dass pilgrimage site) — A.**
+- **Bhumiadhar / Bhumiyadhar temple terrain (place where Ram Dass first met Neem Karoli Baba in 1967) — A.**
+- **Hanuman Garhi / Hanumangarh (Neem Karoli Baba-associated Hanuman temple and Maharajji kuti area above Nainital) — A.**
+- **Naina Peak / Cheena Peak (mountain walk to the high viewpoint above Nainital with lake/Himalaya panorama) — A-ON-THE-GROUND: Mark wants it treated as A but may decide locally based on conditions.**
+- **Sakley's Restaurant & Pastry Shop (historic 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=231 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/WORKING_ROUTE_V1_AFTER_RISHIKESH_SWAP_2026-08-23.md blob_sha=2c1ab75adeb4a643615a0462a045bafc6d4de3be original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=5 classification=text
+1944 Nainital pastry/restaurant institution; exactly the kind of small travel gem Mark wants) — A micro-stop.**
+- **Jim Corbett National Park (India's pioneering national park/tiger-elephant safari landscape; large separate wildlife detour) — C.**
+
+Kasar Devi/Almora/Jageshwar are NOT given dedicated nights in this V1. Old A records remain in historical canon but no longer drive the working route.
+
+---
+
+# 29–31 DEC — RISHIKESH / HARIDWAR / KANKHAL — 3 NIGHTS
+Provisional calculation/sleep base: **Parmarth Niketan Ashram, Swarg Ashram, Rishikesh** — official individual-room reservations exist; Ganges-bank location; not Mark-locked yet.
+
+Cluster-experience reason: Rishikesh itself — turquoise Ganges, forested Himalayan foothills, walkable ashram/river atmosphere — is part of why Mark prefers this module over Kasar/Almora.
+
+Visit units:
+- **Kankhal Anandamayi Ma Mahasamadhi (active Anandamayi Ma ashram containing her physical resting place and continuing worship; one of Mark's limited core Ma destinations) — A strong site.**
+- **Har Ki Pauri (famous Haridwar Ganges ghat with the large evening fire/aarti ritual) — A-LIGHT: visit because the cluster is included; does not independently justify the cluster.**
+- **Beatles Ashram / former Maharishi Mahesh Yogi ashram (forest ashram where the Beatles stayed in 1968 and wrote many songs) — A-LIGHT: visit because already in Rishikesh.**
+- **Shivpuri–Rishikesh rafting (white-water rafting on the Ganges upstream of Rishikesh) — B.**
+
+Working shape:
+29 Dec Nainital -> Rishikesh transfer; 30 Dec Rishikesh/Beatles Ashram/riverside; 31 Dec Kankhal + Haridwar with Har Ki Pauri evening aarti, or reverse depending access/traffic.
+
+---
+
+# 1 JAN — AGRA — 1 POSITIONING NIGHT
+Drive Rishikesh -> Agra. This is intentionally Friday, when Taj Mahal is closed; no lost Taj visit because the purpose is to position for the next dawn.
+
+Visit:
+- **Taj Mahal (Mughal mausoleum and national icon; Mark's ONLY reason for opening Agra, with sunrise/earliest-opening visit as HARD requirement) — A.**
+
+Do NOT inflate Agra with other sightseeing.
+Sleep in Taj East Gate / Shilpgram walkable zone.
+
+---
+
+# 2–4 JAN — VRINDAVAN / BRAJ — 3 NIGHTS
+2 Jan: Taj Mahal at first practical opening, then roughly 1–2 hours transfer to Vrindavan.
+Sleep base zone: old Vrindavan / Goda Vihar / Atalla-Chungi side; specific property not Mark-locked.
+
+Known selected visit units:
+- **Vrindavan Railway Station (historic station of Yogananda's AOAY 'penniless boys' arrival; nearby Kriya-initiation scene with Pratap is folded underneath as a micro-site) — A.**
+- **Madan Mohan Temple (specific old Krishna temple visited in Yogananda's AOAY Vrindavan episode) — A.**
+- **Katyayani Peeth / Keshabananda Ashram (historic ashram founded by Lahiri-disciple Keshabananda; Yogananda visited him here and historic photographed steps are identified) — A.**
+- **Neem Karoli Baba Vrindavan Ashram and Mahasamadhi complex (Maharajji ashram, rooms/courtyard layers and his venerated final resting-place; also important Ram Dass context) — A.**
+- **Yamuna River / chosen Vrindavan ghat experience (Krishna's sacred river and a story-layer Mark personally wants to experience) — A.**
+- **Banke Bihari Temple (major Krishna temple with both Ram Dass and Ramakrishna-relevant layers) — A.**
+- **Fouzdar Kunj (historic Vrindavan house/room/veranda complex where Ramakrishna stayed during his Braj pilgrimage) — A.**
+- **Nidhivan (sacred grove central to Krishna/Radha tradition and connected to Ramakrishna's Vrindavan experience) — A.**
+- **Anandamayi Ma Vrindavan Ashram (active ashram where Anandamayi Ma was personally present/active; one of Mark's limited core Ma sites) — A.**
+- **Ganga Mata historic hut-site (historic Braj/Ramakrishna-related hut location; only worth adding if geographically very close to Nidhivan) — B, operationally A only if essentially zero-cost beside Nidhivan.**
+- **Krishna Janmabhoomi, Mathura (heavily secured and extremely crowded complex revered as Krishna's traditional birthplace) — B / n
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=232 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/WORKING_ROUTE_V1_AFTER_RISHIKESH_SWAP_2026-08-23.md blob_sha=2c1ab75adeb4a643615a0462a045bafc6d4de3be original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=5 classification=text
+o priority because massality does not fit Mark's preferred experience.**
+- **Mathura Railway Station NKB last-journey context (working station connected to conflicting/limited last-journey evidence; not a contemplative visit site) — C.**
+
+Unresolved/extra LP items such as ISKCON Krishna-Balaram Mandir remain ungraded and therefore are NOT silently inserted into the schedule.
+
+---
+
+# 5 JAN — PRAYAGRAJ / ALLAHABAD — 1 NIGHT / COMPACT CORRIDOR MODULE
+Travel from Vrindavan/Mathura direction is a long transfer; one overnight keeps the three A-sites visitable without turning Prayagraj into a multi-night cluster.
+
+Visit units:
+- **Triveni Sangam (confluence of Ganges, Yamuna and traditional Saraswati; central Kumbh/Sangam river experience) — A.**
+- **Akshayavat (sacred 'immortal' banyan tree inside the Allahabad Fort/Patalpuri area) — A.**
+- **Bade/Lete Hanuman Ji (famous reclining Hanuman shrine near the Sangam) — A.**
+- **Bharadwaj Ashram (traditional sage Bharadwaj ashram/temple site) — B.**
+- **Anandamayi Ma standalone Prayagraj site (Ma-related location without enough independent weight versus her stronger selected sites) — C.**
+- **4 Church Lane (historic private house linked to NKB/Ram Dass material but not a clear public shrine/visitor site) — C.**
+
+Operational aim: arrive 5 Jan, use late afternoon/evening if practical; finish core A's 6 Jan morning/early afternoon and continue to Varanasi.
+
+---
+
+# 6–10 JAN — VARANASI / SARNATH — 5 NIGHTS
+Sleep base: **Sahi River View Guesthouse, Assi Ghat — LOCKED_BY_MARK; balcony room; Jitendre, greetings from Debby.**
+
+Core selected visit units include:
+- **Lahiri Mahasaya house (actual Varanasi home of the Kriya Yoga master; final guide must identify meaningful rooms/micro-sites and what happened there) — A.**
+- **Lahiri Mahasaya samadhi/memorial layer (Kriya-master memorial/samadhi destination preserved in the Varanasi canon) — A.**
+- **Rana Mahal Ghat / historic ashram layer (Varanasi ghat/building linked to Yogananda–Sri Yukteswar history) — A.**
+- **Dashashwamedh Ghat (major Ganges ghat carrying the Babaji–Mataji–Lahiri Kriya story layer) — A.**
+- **Panchganga / Trailanga Swami site (ghat/monastic complex associated with Trailanga Swami and Ramakrishna's encounter tradition) — A.**
+- **Manikarnika Ghat (major cremation ghat; one of Varanasi's defining sacred-death sites with person-layer relevance) — A.**
+- **Anandamayi Ma Bhadaini Ashram (major active Varanasi ashram with Ma's repeated presence and continuing veneration) — A.**
+- **Kabir Chaura (Kabir monastery/life-tradition area in Varanasi) — A.**
+- **Assi Ghat (southern Ganges ghat beside the locked hotel; sunrise/Subah-e-Banaras and sacred-city experience) — A.**
+- **Sarnath (archaeological/pilgrimage complex where Buddha gave the First Sermon) — A.**
+- **Shreyansanath Jain Tirth at Sarnath (Jain pilgrimage site that is A because it rides almost free on the Sarnath day) — A.**
+- **Adi Keshava Ghat (sacred Varuna–Ganges confluence marking the northern edge of traditional Kashi geography) — A.**
+- **Kedar Ghat / Kedareshwar Temple (Shiva ghat/temple) — B.**
+- **Sankatha Devi Temple / Ghat (goddess temple and Ganges ghat) — B.**
+- **Parshvanath Jain birthplace-tradition temple, Bhelupur (Jain tirth; low priority) — B.**
+- **Suparshvanath Jain Tirth, Bhadaini (Jain pilgrimage site; low priority) — B.**
+- **Ramnagar Fort (historic riverside fort/palace museum across the Ganges) — B.**
+
+B-items only ride when they fit geography; they do not displace the A-core. Bharat Kala Bhavan from CCI is ungraded, so not silently inserted.
+
+---
+
+# 11–13 JAN — BODH GAYA / GAYA — 3 NIGHTS
+Sleep base zone: walkable Mahabodhi core; provisional calculation base Maya Heritage / equivalent, not Mark-locked.
+
+Reconciled Mark decisions relevant to this route:
+- **Mahabodhi Temple (Buddhist temple complex marking the place of Buddha's enlightenment) — A.**
+- **Bodhi Tree (sacred tree at the enlightenment spot within the Mahabodhi complex) — A.**
+- **Sujata Stupa / Bakraur (s
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=233 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/WORKING_ROUTE_V1_AFTER_RISHIKESH_SWAP_2026-08-23.md blob_sha=2c1ab75adeb4a643615a0462a045bafc6d4de3be original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=5 classification=text
+tupa/village site linked to Sujata, whose milk-rice meal preceded Buddha abandoning extreme asceticism and moving toward enlightenment) — A.**
+- **Great Buddha Statue (large modern seated Buddha monument in Bodh Gaya) — B.**
+- **Dungeshwari / Mahakala Cave Temples (cave complex associated with Buddha's years of extreme ascetic practice before choosing the Middle Way) — C.**
+- **Barabar / Nagarjuni Caves (Mauryan polished-rock cave complexes, among India's earliest surviving rock-cut architecture; objectively a Lonely-Planet magnet but Mark's latest preserved grade remains C) — C.**
+- **Gurpa Hill (remote hill/cave pilgrimage terrain with Buddhist associations; substantial excursion) — C.**
+
+Other old Bodh/Gaya C-candidates remain in the protected evidence master but do not consume this three-night route module.
+
+---
+
+# 14–18 JAN — TIRUVANNAMALAI / ARUNACHALA — 5 NIGHTS
+First lodging concept: request stay in **Sri Ramanasramam itself**; fallback calculation zone Ramana Nagar / Chengam Road directly around/opposite the ashram.
+
+Visit units:
+- **Sri Ramanasramam (Ramana Maharshi's main ashram; contains Old Hall, Ramana Samadhi, Mother's Shrine, Nirvana Room and the setting of Yogananda's visit to Ramana) — A.**
+- **Virupaksha Cave (mountain cave where Ramana Maharshi lived for many years) — A.**
+- **Skandashram (mountain hermitage where Ramana later lived with followers and his mother) — A.**
+- **Arunachaleswarar Temple (vast Shiva temple at the foot of Arunachala, central to Ramana's arrival/story and the town's sacred geography) — A.**
+- **Gurumurtam (early shrine/hermitage where the young Ramana lived in deep absorption after arriving in Tiruvannamalai) — A.**
+- **Pavalakunru (small hill shrine where Ramana lived and where his family found him) — A.**
+- **Girivalam / Giripradakshina (full circumambulation walk around Arunachala mountain; standalone must-do experience) — A.**
+
+Calendar warning: this module overlaps the Tamil Pongal period around 14–17 Jan 2027. That may add cultural value but also domestic travel demand, altered hours and crowd pressure. The January 2027 full moon/Pournami is around 22 Jan, after Mark leaves India, so this V1 does NOT place Girivalam on the enormous Pournami crowd day.
+
+14 Jan is expected to be a major transfer day from Bodh Gaya via Patna/air to Chennai and road to Tiruvannamalai; therefore 15–18 Jan provide roughly four full local days.
+
+---
+
+# 19–20 JAN — DELHI — 2 FINAL BUFFER NIGHTS
+19 Jan: Tiruvannamalai -> Chennai airport -> Delhi domestic flight.
+20 Jan: full safety/buffer day; no heavy new cluster.
+21 Jan: Air India DEL -> AMS 12:20.
+
+This deliberately protects the international flight from a same-day domestic connection.
+
+---
+
+# FIRST ROUTE CAPACITY VERDICT
+This V1 fits the exact 33 India nights WITHOUT Kasar Devi/Almora as a sleep module and WITH Rishikesh/Haridwar/Kankhal.
+
+The pressure points are now visible:
+- Rishikesh: 2 full experience days after arrival transfer.
+- Vrindavan: Taj morning + arrival afternoon, then ~2 full days; high A density, so this is compact.
+- Prayagraj: 1 corridor night; intentionally compact.
+- Varanasi: ~4 full local days after Prayagraj transfer; heavy but workable only with geographic grouping.
+- Bodh Gaya: ~2 full days plus arrival/transfer edges; current A-set is compact enough for three nights.
+- Tiruvannamalai: ~4 full days; enough to create one Ramanasramam day, one cave/hill day, one town/early-Ramana day, and one Girivalam day, but little weather/slack.
+
+No extra cluster can be added without taking time from one of these modules or using overnight transport intelligently.
+
+## TRANSPORT HYPOTHESES ALREADY CHECKED
+- Delhi -> Haidakhan: Haidakhan Samaj gives roughly 337 km / 8–9 hours by road from Delhi.
+- Nainital -> Rishikesh: current route planners put direct driving at roughly 237 km / 4h10–4h15 under ideal road conditions; mountain/traffic buffer required.
+- Rishikesh -> Agra: roughly 365 km / 5h50 drive under ideal conditions.
+- Agra -> Vrindavan: roughly 66 km; around 1 hour ideal, often 1.5
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=234 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/WORKING_ROUTE_V1_AFTER_RISHIKESH_SWAP_2026-08-23.md blob_sha=2c1ab75adeb4a643615a0462a045bafc6d4de3be original_offset=16384 original_length=815 payload_bytes=815 chunk_index=4 chunk_count=5 classification=text
+–2 hours with local traffic.
+- Vrindavan -> Prayagraj: long leg, roughly 7+ hours by road / about 9 hours by train depending service.
+- Bodh Gaya -> Patna Airport: roughly 111 km / 1h40–1h45 ideal road time; larger real-world buffer required.
+- Patna -> Chennai currently has nonstop IndiGo service about four times weekly; exact Jan 2027 operating day must be matched before booking.
+- Chennai Airport -> Tiruvannamalai: roughly 153–172 km / about 2h30 ideal by car.
+
+## NEXT HUMAN REVIEW QUESTIONS EMBEDDED IN V1
+No new cluster question is required. Mark can now inspect the route as a human and say where the pace feels wrong.
+
+The route should next be optimized by day-level geographic grouping inside each retained cluster, while preserving this semantic label rule and the mandatory final COMFORT SWEEP.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=235 path=research/deep-research/MAHAVATAR-BABAJI-CAVE-A.md blob_sha=2cb51b40fb66d902d94d733a8d6bac283d321fef original_offset=0 original_length=2582 payload_bytes=2582 chunk_index=0 chunk_count=1 classification=text
+# MAHAVATAR BABAJI CAVE — MARK A-BESLUIT
+
+```
+status: MARK_PREFERENCE_LOCKED_FOR_RECONCILIATION
+region_task: KUMAON-V2-RESWEEP-001
+date: 2026-08-14
+source: Mark rechtstreeks in ChatGPT/INDIA-chat
+```
+
+## Mark-besluit
+
+Mark heeft ondubbelzinnig uitgesproken dat de Mahavatar Babaji-grot A is:
+
+> “Die grot is bijna reden 1 voor me om naar India te gaan. A dus.”
+
+Dit moet bij reconciliatie worden behandeld als een beschermd Mark-besluit voor de fysieke identiteit die overeenkomt met de Mahavatar Babaji-grot / Babaji Cave in de Kukuchina–Dunagiri/Pandukholi-zone bij Dwarahat/Ranikhet.
+
+## Voorlopige identiteit
+
+- Werknaam: Mahavatar Babaji’s Cave / Babaji Cave.
+- Regio: Kumaon, omgeving Dwarahat / Kukuchina / Dunagiri / Pandukholi / Ranikhet.
+- Sweep-A-ID: `KUM-SWEEP-A-001` volgens actuele `STATUS.md`.
+- Mogelijke legacy mapping: oude Kumaon-context suggereert een bestaande formal-A locatie, vermoedelijk `LOCATION_ID 400`, maar CCI moet dit bij reconciliatie zelf tegen de registry/oude bestanden verifiëren vóór permanente mapping.
+
+## Waarom dit mission-critical is
+
+Deze plek is voor Mark niet zomaar een bonusplek maar bijna hoofdreden voor India. De plek raakt direct aan:
+
+1. Mahavatar Babaji — Top-11 #2.
+2. Lahiri Mahasaya — Top-11 #3.
+3. De Kriya Yoga-lijn waar AOAY om draait.
+4. De AOAY-episode waarin Babaji Lahiri Mahasaya initieert.
+
+Daarom: niet opnieuw aan Mark vragen of deze plek A is zodra de fysieke identiteit is gereconcilieerd. Alleen bij een echte identiteitsconflict-vraag terug naar Mark.
+
+## Identiteitsdiscipline
+
+Niet verwarren met:
+
+- Babaji Smriti Bhavan;
+- YSS Dwarahat Ashram;
+- Dunagiri Temple;
+- Haidakhan / Haidakhandi Baba-locaties;
+- Adi Kailash / Om Parvat / Tibet Kailash;
+- generieke Babaji-vereringsplekken zonder dezelfde fysieke claim.
+
+Deze kunnen afzonderlijke kandidaat-/contextlocaties zijn, maar mogen niet stilzwijgend de Babaji-grot vervangen.
+
+## Praktische discipline
+
+De Babaji-grot is vermoedelijk een aparte excursie met klim en weers-/daglichtgevoeligheid, geen eenvoudige korte stop. Praktische haalbaarheid moet later apart worden vastgesteld, maar tast de A-status niet aan.
+
+## Reconciliatie-opdracht
+
+Bij `KUMAON-V2-RESWEEP-001` moet CCI:
+
+1. CCI Sweep A, INDIA Sweep B en legacy Kumaon-data vergelijken.
+2. De fysieke identiteit van de Babaji-grot vastzetten.
+3. Het juiste permanente nummer bepalen of bevestigen.
+4. Mark’s A direct overnemen op de gereconcilieerde fysieke locatie.
+5. Duplicaten/sublocaties apart markeren.
+6. Geen PDF maken.
+7. Geen andere A/B/C voorspellen namens Mark.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=236 path=india5/GOVERNANCE.md blob_sha=2dc1a9087029a25206ddfbfafdadc527d9bf6c69 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# INDIA5 GOVERNANCE
+
+Status: canoniek vanaf 2026-08-02 (migratie van eerdere PR #23-commentbesluiten, INDIA5-ARCH-HARDEN-002).
+Dit bestand is de duurzame vastlegging van besluiten die eerder uitsluitend als PR-comment op
+PR #23 bestonden. Waar een besluit al in een ander canoniek bestand stond, wordt hier
+uitsluitend samengevat + doorverwezen, niet gedupliceerd.
+
+## 1. Rolverdeling Mark / INDIA2 / CCI
+
+Bron: PR #23, "INDIA5 — definitieve samenwerking en relay-test" (comment 5159416542).
+
+**ChatGPT — India-regisseur/architect**
+- ontwerpt en bewaakt INDIA5-protocollen;
+- analyseert CCI-resultaten en fouten;
+- bepaalt de volgende uitvoerstap;
+- schrijft de concrete CCI-opdracht;
+- controleert kwaliteit en consistentie;
+- bouwt geen PDF tenzij Mark dat expliciet vraagt.
+
+**CCI — India-uitvoerende engine**
+- leest GitHub, registers en bestaande besluiten vóór nieuw onderzoek;
+- voert begrensd BRONS/ZILVER/GOUD/TRAVEL-werk uit;
+- bronvermelding verplicht, geen giswerk, geen geraden coördinaten;
+- schrijft datasets, KML, registers, Markdown en commits;
+- bouwt PDF uitsluitend op expliciet verzoek van Mark;
+- rapporteert resultaat, blockers en tegenstrijdigheden in vaste velden (of, vanaf de
+  taakarchitectuur: in `RESULT.md`).
+
+**CC — Home Assistant-architectuur/tooling**
+- blijft apart bestaan voor Home Assistant;
+- heeft geen standaardrol in India-sweeps;
+- wordt alleen betrokken wanneer Mark expliciet een India-toolingprobleem aan CC wil voorleggen;
+- CCI mag CC niet zelfstandig inschakelen of tokens laten gebruiken.
+
+**Mark**
+- geeft doelen;
+- beslist A/B/C, hotel en andere persoonlijke keuzes;
+- beoordeelt gebruikersproducten;
+- is eindbeslisser bij inhoudelijke tegenstrijdigheden.
+
+### Escalatie
+
+- inhoudelijke keuze, A/B/C, hotel, persoonlijke voorkeur of tegenstrijdige canon → direct naar Mark;
+- architectuur/protocol/tooling → als blocker rapporteren; ChatGPT (INDIA2) bepaalt daarna de oplossing;
+- nooit stilzwijgend oplossen;
+- kandidaatgebonden onzekerheid blokkeert de rest niet.
+
+## 2. PDF alleen op expliciet verzoek
+
+Volledig canoniek vastgelegd in `india4/protocols/INDIA5-PROTOCOL.md`, sectie "PDF is eenmalig
+— NIET automatisch herbouwen". Kern: de reisgids-PDF is een eenmalig leesdocument, geen
+doorlopend kanaal. Data-updates blijven beperkt tot dataset/RUN.yaml/register/KML/MD, tenzij
+Mark expliciet om een nieuwe PDF-build vraagt.
+
+## 3. Detectorbibliotheek-governance
+
+Bron: PR #23, "INDIA2 → CCI — BESLUITEN OP 7 OPEN VRAGEN" (comment 5159503692), punten 1, 2 en 7.
+
+**Wie mag wat:**
+- CCI mag tijdens PRE-BRONS zelfstandig een nieuwe detector PROVISIONAL gebruiken om een sweep
+  niet te blokkeren, vastgelegd in het per-run `PRE_BRONS_DETECTORS.jsonl`. Nooit automatisch
+  canoniek ACTIVE.
+- Na de run legt CCI PROVISIONAL detectoren voor aan INDIA2/ChatGPT voor promotie, aanscherping,
+  samenvoeging of afwijzing.
+- Uitsluitend INDIA2/ChatGPT (architect) mag canoniek: detectoren fuseren, ACTIVE maken,
+  hernoemen, RETIRED zetten, parent-child-structuur wijzigen. CCI mag overlap en
+  parent-child-relaties signaleren, niet zelf fuseren.
+- Mark beslist alleen wanneer een detector zijn persoonlijke interesseprofiel of A-definitie
+  inhoudelijk verandert.
+
+**Canoniek pad en schema** (nog niet gevuld met echte detectoren — de eerste inhoudelijke
+PRE-BRONS-inzet staat nog gepauzeerd, zie sectie 7 hieronder):
+`india4/registries/DETECTOR_LIBRARY.jsonl` (definities) + `india4/registries/DETECTOR_RUN_HISTORY.jsonl`
+(append-only scoregeschiedenis, niet genest in de bibliotheek zelf). Regiotype-taxonomie
+(`applicability_facets`): multi-label, organisch groeiend in de eerste 3-4 regio's, daarna door
+INDIA2 geconsolideerd — geen starre enkelvoudige lijst nu.
+
+## 4. PRE-BRONS-output en verzadigingsregels
+
+Bron: PR #23, comment 5159503692, punten 4 en 6.
+
+**PRE-BRONS-output** (vier bestanden per run onder `runs/active/<run_id>/PRE_BRONS/`):
+`REGION_CONTENT_BRIEF.md` + `.json`, `PRE_BRONS_DETECTORS.jsonl`, `SOURCE_FAMILY_PLAN.jsonl`.
+Verplichte inhoud: gebiedsgrens/straal/corridor, Marks bekende interesses/a
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=237 path=india5/GOVERNANCE.md blob_sha=2dc1a9087029a25206ddfbfafdadc527d9bf6c69 original_offset=4096 original_length=4006 payload_bytes=4006 chunk_index=1 chunk_count=2 classification=text
+nkers, relevante
+tradities/lineages/personen/heilige landschappen/historische lagen, toepasselijke ACTIVE
+detectoren, nieuwe PROVISIONAL detectoren, geplande bronfamilies, bekende risico's/blinde
+vlekken, kandidaatcategorieën die afgedekt moeten worden, vooraf gedefinieerde
+verzadigings-/stopcontrole, en een expliciet antwoord op "welke dramatisch te missen A-locatie
+zou dit plan nog kunnen missen?". BRONS start pas na interne consistentie (gevalideerd, zie
+`india5/templates/PRE_BRONS_REGION_CONTENT_BRIEF_TEMPLATE.md`), zonder tussentijdse
+Mark-goedkeuring bij normale voortgang.
+
+**Verzadigingsdrempel** (hybride harde/inhoudelijke regel, geen los magisch getal): per
+detector minimaal twee wezenlijk verschillende zoekbenaderingen, minimaal twee relevante
+bronfamilies indien beschikbaar, alle high-value leads opgelost als kandidaat/duplicaat/
+afgewezen/open onzekerheid, en daarna drie opeenvolgende materieel verschillende richtingen
+zonder nieuwe high-value kandidaat of detector. Sweepniveau: alle detectoren hebben een
+afsluitstatus, alle bronfamilies uitgevoerd of expliciet ONBESCHIKBAAR, geen open lead kan
+redelijkerwijs een dramatisch te missen A-locatie zijn, cross-detector pass levert niets
+nieuws op. Machine-status: `DISCOVERY_SATURATED` / `NOT_YET_SATURATED`; `REASONABLY_COMPLETE`
+mag als mensleesbare samenvatting bestaan, nooit als primaire machine-status.
+
+## 5. Immutable numbering
+
+Volledig canoniek vastgelegd in `india4/protocols/INDIA5-PROTOCOL.md`, sectie "Immutable
+Location Numbering" (Mark-besluit 2026-08-02, commit 58be47b), gehandhaafd door
+`runs/active/<run_id>/scripts/validate_numbering.py` (per regio) en vanaf de tweede regio
+aangevuld met `india5/scripts/validate_global_numbering.py` (repositorybreed, zie sectie 8
+hieronder).
+
+## 6. Instructieprecedentie (nieuw, INDIA5-ARCH-HARDEN-002)
+
+Bij conflicterende instructies geldt, hoog naar laag:
+
+1. de canonieke `TASK.yaml`/`TASK.md` van de actieve, gevalideerde taak op de bedoelde branch;
+2. een expliciete `HOLD`/`ABORT`-status in de taakbestanden zelf (`STATUS.yaml.hold.active`);
+3. het Mark-besluitenregister (`RUN.yaml protected_mark_decisions`, `MARK_DECISIONS*.jsonl`,
+   `ACCOMMODATION_REGISTER.jsonl`, enz.);
+4. PR-comments — uitsluitend als envelop/signaal (`CCI_TASK_ENVELOPE`/`CCI_RESULT_ENVELOPE`),
+   nooit als inhoudelijke bron van waarheid;
+5. chattekst en lokale hooks (bv. de stop-hook-git-check.sh-melding) — deze mogen NOOIT een
+   actieve canonieke taak overschrijven of overrulen.
+
+Zie ook `india5/TASK_PROTOCOL.md`, sectie "Vereiste werking", punt 8.
+
+## 7. Task-file relay in plaats van lange comments
+
+Volledig uitgewerkt in `india5/TASK_PROTOCOL.md`. PR-comments zijn voortaan alleen korte
+enveloppen (`CCI_TASK_ENVELOPE`/`CCI_RESULT(_ENVELOPE)`); de taakinhoud, voortgang en
+resultaten leven duurzaam in `india5/tasks/{queue,active,done,failed}/<TASK_ID>/`.
+
+## 8. Cross-regio nummeringscontrole (nieuw, INDIA5-ARCH-HARDEN-002)
+
+`india5/scripts/validate_global_numbering.py` (puur lezend) scant alle
+`runs/*/NUMBERING_REGISTRY.jsonl`-bestanden repositorybreed en garandeert dat geen display_id
+ooit in twee regio's aan verschillende fysieke locaties hangt. Op dit moment bestaat er één
+regio (Varanasi, 001-040); dit script is de architectuur die vanaf regio 2 daadwerkelijk
+in werking treedt. Een nieuwe regio moet vooraf een niet-overlappend nummerbereik reserveren
+(zie scriptoutput voor het huidige bereik per regio).
+
+## 9. Governance versus regio-uitvoering (nieuw, INDIA5-ARCH-HARDEN-002)
+
+Aanbeveling: governance/canonieke architectuur (`india5/`, `india4/protocols/`) hoort in
+versiebeheerde bestanden, onafhankelijk van welke PR ze introduceert. Elke toekomstige regio
+krijgt idealiter een eigen run (`runs/active/<REGIO>-...`) en bij voorkeur een eigen PR. PR #23
+blijft Varanasi + deze architectuurmigratie, en wordt NIET de permanente queue voor alle
+toekomstige regio's — nieuwe regio-taken horen in `india5/tasks/`, ongeacht welke PR ze
+uiteindelijk landt.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=238 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/REGIONAL/TRAVEL/PRAKTISCHE_TIPS.md blob_sha=2e16e06e9d5b5020892528f145ec8786ed420e22 original_offset=0 original_length=3058 payload_bytes=3058 chunk_index=0 chunk_count=1 classification=text
+# Varanasi -- praktische reistips
+
+run_id: VARANASI-GEO-DELIVERY-REPAIR-001
+status: TRAVEL-module, algemene praktische kennis, geen kandidaat-GEO-onderzoek.
+Seizoen relevant voor deze planning: augustus = moesson (warm, vochtig, kans op regen).
+
+## Weer en kleding
+
+- Augustus is moesson: heet (30-35°C), vochtig, kans op regenbuien. Lichte, sneldrogende kleding,
+  regenponcho/paraplu, waterdichte schoenen of slippers voor de ghats (worden nat en glad).
+- Bedek schouders en knieën bij tempelbezoek (Kashi Vishwanath, Annapurna, Sankat Mochan, etc.).
+  Sommige tempels (met name Kashi Vishwanath) hebben strikte kledingcontrole en soms beperkte
+  toegang voor niet-hindoes -- ter plekke navragen.
+
+## Ghats en rivier
+
+- De ghat-trappen zijn bij regen en 's ochtends vaak glad -- voorzichtig lopen, vooral bij
+  Manikarnika en Dashashwamedh waar het drukker is.
+- **Manikarnika Ghat en Harishchandra Ghat zijn actieve crematieplekken.** Niet fotograferen,
+  respectvol en stil gedrag, niet aandringen als lokale mensen aangeven dat iets niet gepast is.
+  Gidsen die geld vragen voor "toegang" tot de crematie zijn vaak niet officieel -- niet
+  verplicht om te betalen.
+- Bootjes: prijs vooraf onderhandelen (per uur, niet per persoon tenzij gedeeld), gangbare
+  ochtend-/avondtochten duren 45-60 minuten.
+
+## Vervoer
+
+- Binnen de oude stad (Vishwanath-gebied, ghats van Assi tot Panchganga): te voet, de gulliyan
+  (nauwe steegjes) zijn vaak niet met auto/rickshaw bereikbaar.
+- Voor grotere afstanden (Sarnath, Cantonment, Kabir Chaura/Lahartara): taxi of auto-rickshaw,
+  vooraf prijs afspreken.
+- Cycle-rickshaw is een rustiger alternatief voor korte afstanden buiten de oudste steegjes.
+
+## Geld en connectiviteit
+
+- Contant geld (INR) blijft nuttig bij ghats, kleine eettentjes en rickshaws, ook al accepteren
+  meer plekken tegenwoordig UPI/kaart. Kleingeld is handig voor kleine uitgaven en fooien.
+- Lokale simkaart of internationale roaming aanbevolen voor navigatie en contact met het hotel.
+
+## Gezondheid
+
+- Kraanwater niet drinken; verzegelde flessen of gefilterd water gebruiken.
+- Muggenspray aanbevolen, met name rond zonsopgang/zonsondergang bij de rivier (moesson = meer
+  muggen).
+- Straateten is populair maar kies drukke, verse kramen; wees voorzichtig in de eerste dagen.
+
+## Respect en gedrag
+
+- Varanasi is een van de heiligste plekken van het hindoeïsme voor miljoenen pelgrims -- gedraag
+  je rustig en respectvol bij ghats, tempels en tijdens rituelen (aarti, crematies).
+- Vraag toestemming voor het fotograferen van mensen, priesters en rituelen.
+- Bij bezoek aan een tempel zoals Kashi Vishwanath: verwacht rijen, beveiligingscontrole (geen
+  leren spullen/elektronica toegestaan bij sommige tempels) -- vooraf navragen bij het hotel.
+
+## Hotelbasis
+
+- Sahi River View Guesthouse, Assi Ghat: vraag om een **balcony room**, en doe **Jitendre**
+  (personeel) de groeten van **Debby** (zie `ACCOMMODATION_REGISTER.jsonl`). Ligging is ideaal als
+  vertrekpunt voor Dagblok A (wandelbaar) en voor de ochtend-aarti bij Assi Ghat.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=239 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/reconciliation_layers/EXTERNAL_114_RECONCILIATION_ROWS.jsonl blob_sha=2e4288036623478e60a0f11ee9f6cec45cebaf13 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=37 classification=text
+{"master_row_id": "EY-0001", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-1", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Geboortehuis / familiesite", "normalized_claim_name": "Geboortehuis / familiesite", "event_scene_summary": "Geboren 5 jan. 1893; eerste kinderjaren, ca. 1893–1901", "AOAY_chapter_scene_if_any": "AY hfst. 1; YSS/SRF geboorteplaatsbericht (alle vijf)", "personally_present": "**BEWEZEN** voor Gorakhpur en familiehuis", "R_class": null, "access_status": null, "physical_entity_key": "BLAUW-AYC-SRC-001", "parent_entity_key": null, "current_address_or_locator": "Gorakhpur, Uttar Pradesh", "evidence_status": "host=Ouders Bhagabati Charan en Gyana/Prajnananda Ghosh; physical_identity=**DEELS**; outside_india=False", "disposition": "EXPLICIT_DUPLICATE", "notes": "external-union #1 'Geboortehuis / familiesite' already closed via BLAUW row AYC-SRC-001; not a second physical entity", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #1", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0002", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-2", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Familielandgoed Ichapur", "normalized_claim_name": "Familielandgoed Ichapur", "event_scene_summary": "Herstel van cholera als kind, ca. 1901–1902", "AOAY_chapter_scene_if_any": "AY hfst. 1 (AI-5)", "personally_present": "**BEWEZEN** volgens AY-claim", "R_class": null, "access_status": null, "physical_entity_key": "AOAY-AOAY-ATL-009", "parent_entity_key": null, "current_address_or_locator": "Ichapur, West-Bengalen", "evidence_status": "host=Familie Ghosh; physical_identity=**ALLEEN PLAATS**; outside_india=False", "disposition": "EXPLICIT_DUPLICATE", "notes": "external-union #2 'Familielandgoed Ichapur' already represented via PLACE_ATLAS reconciliation row AT-0009; not a second physical entity", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #2", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0003", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-3", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Familiewoning Bareilly", "normalized_claim_name": "Familiewoning Bareilly", "event_scene_summary": "Woonde bij vader rond moeders dood, ca. 1904–1906; Grok noemt ook bezoek in 1936", "AOAY_chapter_scene_if_any": "AY hfst. 2; Wright/YSS-chronologie (Grok, DeepSeek, Copilot, AI-5)", "personally_present": "**BEWEZEN** voor verblijf in Bareilly; 1936-bezoek **WAARSCHIJNLIJK**", "R_class": null, "access_status": null, "physical_entity_key": "BLAUW-AYC-SRC-002", "parent_entity_key": null, "current_address_or_locator": "Bareilly, Uttar Pradesh", "evidence_status": "host=Vader; mogelijk jeugdvriend in 1936; physical_identity=**ALLEEN PLAATS**; outside_india=False", "disposition": "EXPLICIT_DUPLICATE", "notes": "external-union #3 'Familiewoning Bareilly' already closed via BLAUW row AYC-SRC-002; not a second physical entity", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #3", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0004", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yoganand
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=240 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/reconciliation_layers/EXTERNAL_114_RECONCILIATION_ROWS.jsonl blob_sha=2e4288036623478e60a0f11ee9f6cec45cebaf13 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=37 classification=text
+a-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-4", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "50 Amherst Street", "normalized_claim_name": "50 Amherst Street", "event_scene_summary": "Moeder verbleef en stierf hier; later bezoeken aan Master Mahasaya, ca. 1904 en ca. 1910–1915", "AOAY_chapter_scene_if_any": "AY hfst. 2 en 9 (Grok, Gemini, AI-5)", "personally_present": "**BEWEZEN**", "R_class": null, "access_status": null, "physical_entity_key": "BLAUW-AYC-SRC-016", "parent_entity_key": null, "current_address_or_locator": "Kolkata, West-Bengalen", "evidence_status": "host=Familie; Mahendra Nath Gupta (“Master Mahasaya”); physical_identity=**EXACT**; outside_india=False", "disposition": "EXPLICIT_DUPLICATE", "notes": "external-union #4 '50 Amherst Street' already closed via BLAUW row AYC-SRC-016; not a second physical entity", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #4", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0005", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-5", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "4 Garpar/Gurpar Road — familiehuis", "normalized_claim_name": "4 Garpar/Gurpar Road — familiehuis", "event_scene_summary": "Wonen, jeugdsadhana, familiebezoeken en terugkeer 1935–36, ca. 1906–1920", "AOAY_chapter_scene_if_any": "AY meerdere hoofdstukken; familieherinneringen; YSS/SRF (alle vijf)", "personally_present": "**BEWEZEN**", "R_class": null, "access_status": null, "physical_entity_key": "BLAUW-AYC-SRC-003", "parent_entity_key": null, "current_address_or_locator": "Kolkata, West-Bengalen", "evidence_status": "host=Vader, broers en familie Ghosh; physical_identity=**EXACT**; outside_india=False", "disposition": "EXPLICIT_DUPLICATE", "notes": "external-union #5 '4 Garpar/Gurpar Road — familiehuis' already closed via BLAUW row AYC-SRC-003; not a second physical entity", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #5", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0006", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-6", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Zolder-/meditatiekamer in 4 Garpar Road", "normalized_claim_name": "Zolder-/meditatiekamer in 4 Garpar Road", "event_scene_summary": "Nachtmeditaties, visioenen; Babaji-verschijning vóór vertrek naar VS", "AOAY_chapter_scene_if_any": "AY; familieoverlevering (Grok, DeepSeek, Copilot)", "personally_present": "**BEWEZEN** voor verblijf/meditatie; bovennatuurlijke gebeurtenis is brongetuigenis", "R_class": null, "access_status": null, "physical_entity_key": "BLAUW-AYC-SRC-003", "parent_entity_key": null, "current_address_or_locator": "Kolkata, West-Bengalen", "evidence_status": "host=Familie Ghosh; physical_identity=**EXACT**; outside_india=False", "disposition": "EXPLICIT_DUPLICATE", "notes": "external-union #6 'Zolder-/meditatiekamer in 4 Garpar Road' already closed via BLAUW row AYC-SRC-003; not a second physical entity", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #6", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0007", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled un
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=241 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/reconciliation_layers/EXTERNAL_114_RECONCILIATION_ROWS.jsonl blob_sha=2e4288036623478e60a0f11ee9f6cec45cebaf13 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=37 classification=text
+der CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-7", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Kalighat-tempel", "normalized_claim_name": "Kalighat-tempel", "event_scene_summary": "Bezoek en gesprek met sadhu over Kali, jeugd vóór 1910", "AOAY_chapter_scene_if_any": "AY hfst. 5 (AI-5)", "personally_present": "**BEWEZEN** volgens expliciete AY-passage", "R_class": null, "access_status": null, "physical_entity_key": "BLAUW-AYC-SRC-017", "parent_entity_key": null, "current_address_or_locator": "Kolkata, West-Bengalen", "evidence_status": "host=—; physical_identity=**EXACT**; outside_india=False", "disposition": "EXPLICIT_DUPLICATE", "notes": "external-union #7 'Kalighat-tempel' already closed via BLAUW row AYC-SRC-017; not a second physical entity", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #7", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0008", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-8", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Woning van zus Roma, Girish Vidyaratna Lane", "normalized_claim_name": "Woning van zus Roma, Girish Vidyaratna Lane", "event_scene_summary": "Bezoek; vertrek met zwager Satish naar Dakshineswar, jeugd/1910s", "AOAY_chapter_scene_if_any": "AY hfst. 22 (Copilot, AI-5)", "personally_present": "**BEWEZEN**", "R_class": null, "access_status": null, "physical_entity_key": "BLAUW-AYC-SRC-017", "parent_entity_key": null, "current_address_or_locator": "Kolkata, West-Bengalen", "evidence_status": "host=Roma en Satish Chandra Bose; physical_identity=**DEELS**; outside_india=False", "disposition": "EXPLICIT_DUPLICATE", "notes": "external-union #8 'Woning van zus Roma, Girish Vidyaratna Lane' already closed via BLAUW row AYC-SRC-017; not a second physical entity", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #8", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0009", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-9", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Dakshineswar Kali Temple — hoofdtempel/zuilenhal", "normalized_claim_name": "Dakshineswar Kali Temple — hoofdtempel/zuilenhal", "event_scene_summary": "Herhaalde devotionele bezoeken; “Heart of a Stone Image”-ervaring, jeugd/1910s", "AOAY_chapter_scene_if_any": "AY hfst. 22; Wright voor later bezoek (alle vijf)", "personally_present": "**BEWEZEN**", "R_class": null, "access_status": null, "physical_entity_key": "BLAUW-AYC-SRC-015", "parent_entity_key": null, "current_address_or_locator": "Dakshineswar, West-Bengalen", "evidence_status": "host=—; physical_identity=**EXACT**; outside_india=False", "disposition": "EXPLICIT_DUPLICATE", "notes": "external-union #9 'Dakshineswar Kali Temple — hoofdtempel/zuilenhal' already closed via BLAUW row AYC-SRC-015; not a second physical entity", "source_citation": "PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md (blob 089b652e) #9", "source_commit_sha": "089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d"}
+{"master_row_id": "EY-0010", "source_family": "AOAY_EXTERNAL_114_RECONCILIATION", "source_branch": "PR #24 agent/add-yogananda-location-atlas (frozen, read-only, blob-verified; reconciled under CCI_TASK 086)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001 / CCI_TASK_086", "source_record_id": "EXTY-10", "person_or_layer": "Paramahansa Yogananda / AOAY (external 5-AI union)", "raw_place_name": "Sri Ra
+<<< END CHUNK >>>
+

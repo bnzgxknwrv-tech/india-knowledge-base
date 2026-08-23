@@ -1,0 +1,720 @@
+>>> CHUNK stream_row=1007 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/NUMBERING_REGISTRY.jsonl blob_sha=9f6faccb754f62de4847d88947a35448fdb611fe original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+{"registry_type":"IMMUTABLE_LOCATION_NUMBERING","scope":"ALL_INDIA_LOCATIONS","rule":"Elke kandidaat/fysieke locatie start altijd met haar vaste, permanente driecijferige nummer. Eenmaal toegekend wijzigt het nooit, wordt het nooit hergebruikt en blijft het permanent aan dezelfde fysieke locatie gekoppeld. Nieuwe locaties krijgen een nieuw vrij nummer. Nummering loopt voorlopig door tot 999; een toekomstige nummerreeks per regio/cluster mag alleen vooraf gereserveerd worden en nooit bestaande nummers wijzigen.","decided_by":"Mark","decided_at":"2026-08-02","source_commit":"58be47b9d7bdb9e60187e11de13f687f0f8c09e4"}
+{"candidate_id":"VNS-CAND-001","display_id":"001","canonical_name":"Lahiri Mahasaya Samadhi / Satyalok","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-002","display_id":"002","canonical_name":"Lahiri Mahasaya original home","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-003","display_id":"003","canonical_name":"Manikarnika Ghat","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-004","display_id":"004","canonical_name":"Shri Tailanga Swami Math","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-005","display_id":"005","canonical_name":"Shree Shree Ma Anandamayi Ashram, Bhadaini","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-006","display_id":"006","canonical_name":"Sarnath sacred complex","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-007","display_id":"007","canonical_name":"Shri Kashi Vishwanath Temple","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-008","display_id":"008","canonical_name":"Yogoda Satsanga Dhyana Mandali, Varanasi","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-009","display_id":"009","canonical_name":"Dashashwamedh Ghat","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-010","display_id":"010","canonical_name":"Assi Ghat","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-011","display_id":"011","canonical_name":"Panchganga Ghat","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-012","display_id":"012","canonical_name":"Harishchandra Ghat","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-013","display_id":"013","canonical_name":"Kaal Bhairav Temple","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-014","display_id":"014","canonical_name":"Maa Annapurna Temple","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-015","display_id":"015","canonical_name":"Sankat Mochan Hanuman Temple","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-016","display_id":"016","canonical_name":"Durga Temple and Durga Kund","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-017","display_id":"017","canonical_name":"Vishalakshi Gauri Temple","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-018","display_id":"018","canonical_name":"Sankatha Devi Temple","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-019","display_id":"019","canonical_name":"Kedareshwar Temple and Kedar Ghat","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-020","display_id":"020","canonical_name":"Lalita Ghat","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-021","display_id":"021","canonical_name":"Nepali Temple / Kathwala Temple","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-022","display_id":"022","canonical_name":"Bindu Madhav Temple","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-023","display_id":"023","canonical_name":"Mrityunjay Mahadev Temple","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-024","display_id":"024","canonical_name":"Kabir Chaura Math","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-025","display_id":"025","canonical_name":"Laha
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1008 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/NUMBERING_REGISTRY.jsonl blob_sha=9f6faccb754f62de4847d88947a35448fdb611fe original_offset=4096 original_length=2982 payload_bytes=2982 chunk_index=1 chunk_count=2 classification=text
+rtara Kabir birthplace memorial","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-026","display_id":"026","canonical_name":"Ramakrishna Mission Home of Service","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-027","display_id":"027","canonical_name":"Baba Keenaram Sthal / Krim Kund","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-028","display_id":"028","canonical_name":"Bhaskarananda Samadhi / Anand Bagh","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-029","display_id":"029","canonical_name":"Dhamek Stupa","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-030","display_id":"030","canonical_name":"Mulagandha Kuti Vihara","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-031","display_id":"031","canonical_name":"Chaukhandi Stupa","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-032","display_id":"032","canonical_name":"Sarnath Archaeological Museum","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-033","display_id":"033","canonical_name":"Deer Park / Isipatana sacred landscape","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-034","display_id":"034","canonical_name":"Saranganath Temple","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-035","display_id":"035","canonical_name":"Tulsi Manas Temple","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-036","display_id":"036","canonical_name":"Tulsi Ghat","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-037","display_id":"037","canonical_name":"Lolark Kund","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-038","display_id":"038","canonical_name":"Ratneshwar Mahadev Temple","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-039","display_id":"039","canonical_name":"Shitala Mata Temple, Dashashwamedh","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-040","display_id":"040","canonical_name":"Bharat Mata Temple","region":"VARANASI","assigned_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-041","display_id":"041","canonical_name":"Parshvanath Digambar Jain Temple, Bhelupur","region":"VARANASI","assigned_at":"2026-08-03"}
+{"candidate_id":"VNS-CAND-042","display_id":"042","canonical_name":"Suparshvanath Jain Tirth (Jain Ghat), Bhadaini","region":"VARANASI","assigned_at":"2026-08-03"}
+{"candidate_id":"VNS-CAND-043","display_id":"043","canonical_name":"Shreyansanath Jain Tirth, Sarnath (Simhapuri)","region":"VARANASI","assigned_at":"2026-08-03"}
+{"candidate_id":"VNS-CAND-044","display_id":"044","canonical_name":"Ramnagar Fort (zetel van de Kashi Naresh)","region":"VARANASI","assigned_at":"2026-08-03"}
+{"candidate_id":"VNS-CAND-045","display_id":"045","canonical_name":"Adi Keshava Ghat","region":"VARANASI","assigned_at":"2026-08-03"}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1009 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/ROOT_CAUSE.md blob_sha=9f9fa8d0ee519ccb21e3f6eb7f63fbfff09c8528 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# ROOT_CAUSE — waarom VARANASI-GEO-DELIVERY-REPAIR-001 vastliep
+
+Live geverifieerd tegen de repo (`git log`, `jq` over alle BRONS-bestanden, de india4-protocolbestanden)
+op 2026-07-28. Geen aannames — alles hieronder is met een concreet bewijs onderbouwd.
+
+## Werkelijke stand (afwijkend van wat de trackingbestanden beweren)
+
+| Bestand | Beweert | Werkelijkheid (uit de data zelf) |
+|---|---|---|
+| `RUN.yaml` | `active_batch: BRONS-B01`, `status: READY_FOR_BRONS_B01` | BRONS-B01 (001-010) en BRONS-B02 (011-020) zijn **volledig af**; BRONS-B03 is bezig tot en met 021 |
+| `STATUS.yaml` | `status: READY_FOR_BRONS`, `current_role: BRONS` | idem — 20 volledige + 1 gedeeltelijke kandidaat al verwerkt |
+| `BRONS/BRONS-B01-PROGRESS.yaml` | `completed_count: 4`, `next_candidate: VNS-CAND-005` | BRONS-B01.jsonl bevat daadwerkelijk **alle 10** records (001-010), commits bevestigen dit tot en met `32a8175 BRONS complete VNS-CAND-010` |
+
+Conclusie: de drie statusbestanden zijn op géén moment consequent bijgewerkt na de eerste paar
+kandidaten. Alleen de ruwe `BRONS-B0X.jsonl`-bestanden zelf zijn betrouwbaar. Dit is met git-bewijs
+vastgesteld (`git show 3192ef4 --stat`, `jq -r '.candidate_id' BRONS/*.jsonl`).
+
+**Werkelijke voortgang nu**: VNS-CAND-001 t/m VNS-CAND-021 verwerkt (bevestigd via commit `3192ef4
+BRONS VNS-CAND-021`, HEAD van de repo). Eerstvolgende: **VNS-CAND-022**. Dit klopt exact met wat
+GREEN aangaf — op dit punt geen fout in die aanname.
+
+## Hoofdoorzaak 1 — het protocol zelf is ontworpen op één-batch-per-chat-stop
+
+`india4/roles/BRONS.md`, laatste zin, woordelijk:
+
+> "Bij volledige uitvoering: readback, commit, batchstatus COMPLETED en exact één complete
+> startvraag voor de volgende batch. **Stop daarna.**"
+
+En `india4/protocols/ROLE_HANDOFF.md`:
+
+> "... exact één complete startvraag voor de volgende rol." / "stop na de eigen rol."
+
+Dit is geen bug die per ongeluk is ontstaan — het is een **letterlijke, geschreven regel** die elke
+rol dwingt te stoppen en een nieuwe chatprompt te eisen. Het "heen-en-weer-plakken" is dus het
+protocol dat precies doet wat er staat, niet een storing erin.
+
+## Hoofdoorzaak 2 — in de praktijk is de granulariteit nog kleiner dan per batch
+
+De git-historie toont commits per **kandidaat**, niet per batch van 10:
+
+```
+3192ef4 BRONS VNS-CAND-021
+d859492 BRONS VNS-CAND-020
+8a9825c BRONS VNS-CAND-019
+...
+af6ad52 BRONS checkpoint VNS-CAND-005
+5a24b32 BRONS progress VNS-CAND-004
+187edd7 BRONS checkpoint VNS-CAND-004
+```
+
+Zelfs binnen één batch werd blijkbaar per kandidaat (soms zelfs met een los "checkpoint"/"progress"-
+commit erbovenop) teruggekoppeld naar de chat, vermoedelijk door beperkingen van de ChatGPT-
+connector per beurt (tool-call/context-limiet per bericht). Het resultaat: geen 4 handoffs voor 40
+kandidaten, maar tientallen — precies de "absurde één-kandidaat-per-chat-loop" die GREEN benoemt.
+
+## Hoofdoorzaak 3 — geen enkele bron van waarheid voor "wat is de volgende kandidaat"
+
+Er bestaat geen mechanisme dat automatisch berekent welke kandidaat nog moet. Dat moet nu handmatig
+worden afgeleid door `candidates.jsonl` te vergelijken met de inhoud van de BRONS-bestanden — precies
+het soort boekhouding dat, gecombineerd met de stale statusbestanden hierboven, tot verwarring en
+vastlopen leidt.
+
+## Wat NIET de oorzaak is
+
+- De 21 al verwerkte records zijn intern consistent en volgen het GEO/RESEARCH_QUALITY-schema
+  correct (steekproef geverifieerd). Geen datacorruptie.
+- Geen ontbrekende GitHub-read/write — de repo is normaal leesbaar en beschrijfbaar (`git remote -v`
+  bevestigt push-URL, geen connector-blokkade zichtbaar in de data zelf).
+- Bijvangst, niet de hoofdoorzaak van het vastlopen maar wel relevant voor GOUD later: van de 21
+  verwerkte kandidaten kregen er slechts 2 `EXACT_GOOGLE_MAPS_MARKER`, de overige 19 eindigden op
+  `GOOGLE_MAPS_MARKER_NOT_CONFIRMED`. Dat is een onderzoeksresultaat, geen uitvoeringsfout — maar het
+  betekent dat de GOUD-fase straks met veel `NOT_CONFIRMED`-punten moet werken.
+
+## Fix — zie `runs/active/VARANASI-GEO-DELI
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1010 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/ROOT_CAUSE.md blob_sha=9f9fa8d0ee519ccb21e3f6eb7f63fbfff09c8528 original_offset=4096 original_length=444 payload_bytes=444 chunk_index=1 chunk_count=2 classification=text
+VERY-REPAIR-001/scripts/` en
+`india4/prompts/BRONS-AUTOBATCH.md`
+
+Kern van de fix: geen enkel apart statusbestand meer vertrouwen. De enige bron van waarheid wordt de
+data zelf (`candidates.jsonl` versus wat al in `BRONS-B0X.jsonl` staat), live herberekend door een
+klein script bij elke start. En één uitvoerder (Claude Code) die per kandidaat commit maar NIET stopt
+na elke kandidaat — pas bij einde van het bereik of een echte blokkade.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1011 path=governance/ANANDAMAYI_YOGANANDA_PHOTO_OVERRIDE_2026-08-20.md blob_sha=a0c7e5467030ff723640076f1e327d22f193ebb7 original_offset=0 original_length=1739 payload_bytes=1739 chunk_index=0 chunk_count=1 classification=text
+# ANANDAMAYI MA × PARAMAHANSA YOGANANDA PHOTO-LOCATION OVERRIDE
+
+Date: 2026-08-20
+Status: HARD_MARK_TRAVEL_RULE
+
+## RULE
+Any physically resolvable location in India where Anandamayi Ma and Paramahansa Yogananda are documented together in a photograph is a mandatory travel-override candidate.
+
+If such a photo-location lies inside a cluster that Mark ultimately includes in the trip, that location MUST be surfaced explicitly to Mark and treated as `MUST_VISIT_WITHIN_INCLUDED_CLUSTER` unless physical access is impossible or the historical location itself cannot be resolved beyond an unusable broad region.
+
+This rule overrides the general limited Anandamayi research scope.
+
+## SCOPE DISTINCTION
+- Anandamayi Ma generally: travel-core only; do not exhaustively resolve every house/host property merely for completeness.
+- Anandamayi Ma × Yogananda documented joint-photo locations: ALWAYS resolve as far as reasonably possible.
+- AOAY/Yogananda: remains exhaustive; small scenes/micro-sites remain potentially travel-defining.
+
+## REQUIRED DATA FOR EACH JOINT-PHOTO LOCATION
+- photo evidence/provenance
+- approximate date/event
+- historical place name
+- current physical identity
+- R1-R5
+- current access status
+- whether the exact photographed spot/room/grounds can be visited
+- cluster membership
+- relation to AOAY scene if any
+
+## ANTI-DROP
+A joint-photo location may not be omitted because Anandamayi's general person-scope is non-exhaustive. It must remain in the all-findings master and cluster decision slice.
+
+## ROUTE SEMANTICS
+This does NOT itself force an otherwise excluded macro-region into the itinerary. It means: if the relevant cluster is included, the photo-location is mandatory to surface and presumptively visit.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1012 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/REGION_CONTENT_BRIEF.json blob_sha=a0f0d8d345eb2a2aae99ed0536693ad7479f95cc original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+{
+  "region": "BODHGAYA",
+  "run_id": "BODHGAYA-DISCOVERY-001",
+  "area_definition": "Bodh Gaya (Mahabodhi Tempelcomplex, centrumpunt) + straal van circa 20 km, met een uitsluitend signalerende blik tot circa 30 km voor uitzonderlijke 'zou zonde zijn geweest'-locaties (conform INDIA5_REGION_START_PROTOCOL.md, stap 2). Exacte kernstraal-coordinaten en preciese afstanden tot randlocaties (bv. Dungeshwari-grotten, Gaya-stad) worden tijdens Discovery met een kaartbron geverifieerd -- in deze PRE-BRONS-fase nog niet vastgesteld, uitsluitend globaal benoemd. Grotere, bekende locaties duidelijk buiten elke redelijke straal (Nalanda, Rajgir, Barabar-grotten) worden voorlopig als buiten scope beschouwd, te bevestigen tijdens Discovery.",
+  "mark_known_interests": "Boeddha staat op positie 7 van Marks vaste 13-persoonsindex (PRIORITY_GROUPS.md, commit 709fafe). Diezelfde bron vermeldt expliciet een bestaand precedent: 'Bodh Gaya werd een A-cluster puur door de kracht van de plek zelf' -- een reeds vastgelegde, hoge persoonlijke waardering van Mark voor Bodh Gaya als geheel, van vóór de huidige granulaire kandidaat-tracking. Dit is GEEN vrijbrief om elke afzonderlijke locatie in Bodh Gaya automatisch A te maken -- elke gedecomponeerde kandidaat doorloopt nog steeds zelfstandig de NOT_TO_BE_MISSED-poort (zie PRE_BRONS.md-regel dat de index geen automatische waardering toekent). Sarnath (Boeddha's eerste prediking) is al volledig verwerkt in de Varanasi-regio (006, 029-034, allen A) -- Bodh Gaya vertegenwoordigt het andere, apart te onderscheiden narratieve moment: de verlichting zelf.",
+  "mark_known_anchors": "Boeddha (PRIORITY_GROUPS.md positie 7); het bestaande Bodh-Gaya-A-clusterprecedent (PRIORITY_GROUPS.md); Mark's eigen Kriya Yoga/Yogananda-lijn (geen bevestigde directe Bodh-Gaya-verbinding gevonden of aangenomen -- expliciet te onderzoeken via DET-BGY-P004, niet vooraf te veronderstellen).",
+  "relevant_traditions": [
+    "Boeddhisme (Theravada/Mahayana/Vajrayana, internationaal vertegenwoordigd) -- de dominante traditie van het gebied, met de verlichtingsplek van Boeddha als centraal punt",
+    "Hindoeisme (Gaya-stadsgebied, Vishnupad-tempel, Falgu-rivier) -- binnen de straal aanwezig, nog niet onderzocht, geen aanname over aanwezigheid of afwezigheid van NOT_TO_BE_MISSED-waarde",
+    "Kriya Yoga/Yogananda-lijn -- geen bevestigde connectie, expliciet te onderzoeken, niet aan te nemen"
+  ],
+  "active_detectors_applied": [],
+  "provisional_detectors_introduced": [
+    {"detector_id": "DET-BGY-P001", "name": "PRIMARY_ENLIGHTENMENT_SITE_DECOMPOSITION_DETECTOR"},
+    {"detector_id": "DET-BGY-P002", "name": "PRE_ENLIGHTENMENT_NARRATIVE_SITE_DETECTOR"},
+    {"detector_id": "DET-BGY-P003", "name": "INTERNATIONAL_MONASTERY_LIVING_TRADITION_DETECTOR"},
+    {"detector_id": "DET-BGY-P004", "name": "KRIYA_LINEAGE_TEXT_DETECTOR"},
+    {"detector_id": "DET-BGY-P005", "name": "ARCHAEOLOGICAL_ASI_DETECTOR"},
+    {"detector_id": "DET-BGY-P006", "name": "NON_BUDDHIST_IN_RADIUS_DETECTOR"},
+    {"detector_id": "DET-BGY-P007", "name": "INSIDER_LOCAL_PRACTICE_SOURCE_DETECTOR"}
+  ],
+  "planned_source_families": [
+    {"name": "unesco_bron", "detector_id": ["DET-BGY-P001"], "example": "whc.unesco.org"},
+    {"name": "academische_bron", "detector_id": ["DET-BGY-P001", "DET-BGY-P002", "DET-BGY-P005"], "example": "researchgate.net, link.springer.com"},
+    {"name": "religieuze_naslagbron", "detector_id": ["DET-BGY-P001", "DET-BGY-P002"], "example": "Pali-canon-vertalingen, Ashokavadana"},
+    {"name": "primaire_historische_reisverslagen", "detector_id": ["DET-BGY-P001", "DET-BGY-P005"], "example": "Xuanzang/Hiuen Tsang 7e-eeuwse reisverslagen"},
+    {"name": "officiele_overheids_toerismebron", "detector_id": ["DET-BGY-P005", "DET-BGY-P006"], "example": "incredibleindia.gov.in, Bihar-staatstoerismebron"},
+    {"name": "encyclopedie", "detector_id": ["DET-BGY-P001", "DET-BGY-P002", "DET-BGY-P003", "DET-BGY-P005", "DET-BGY-P006"], "example": "Wikipedia"},
+    {"name": "reis_kruiscontrole", "detector_id": ["DET-BGY-P002", "DET-BGY-P003", "DET-BGY-P006"]
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1013 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/REGION_CONTENT_BRIEF.json blob_sha=a0f0d8d345eb2a2aae99ed0536693ad7479f95cc original_offset=4096 original_length=2991 payload_bytes=2991 chunk_index=1 chunk_count=2 classification=text
+, "example": "meerdere onafhankelijke reissites per claim"},
+    {"name": "primaire_tekst_AOAY", "detector_id": ["DET-BGY-P004"], "example": "Autobiography of a Yogi, primaire tekst"},
+    {"name": "insider_lokale_praktijkbron", "detector_id": ["DET-BGY-P003", "DET-BGY-P007"], "example": "NOG NIET BESCHIKBAAR"}
+  ],
+  "known_risks_blind_spots": "Nog geen kaartbron-geverifieerde exacte straal/afstanden (volgt tijdens Discovery). Geen insider-/kloosterbron beschikbaar (zelfde structurele hiaat als Varanasi). Risico op verkeerde decompositie van het dichte Mahabodhi-complex (te grof of te fijn). Geen bevestigde Kriya-lijnverbinding met Bodh Gaya -- moet apart geverifieerd worden, niet aangenomen op basis van het algemene A-clusterprecedent. Sterke commerciele/toeristische druk rond de hoofdtempel kan 'beroemd-maar-oppervlakkig'-risico verhogen bij individuele kloosters/winkelgebieden.",
+  "expected_candidate_categories": "Geen vooraf verplichte categorieen (conform de hoofdvraag-regel: categorievolledigheid is nooit een reden om te zoeken of toe te voegen). Wel actief te onderzoeken richtingen, uitsluitend als zoekhulpmiddel: onderdelen van het Mahabodhi-complex zelf; pre-verlichtingsnarratiefplekken (Sujata-dorp, Dungeshwari-grotten, Niranjana/Falgu-oever); individuele internationale kloosters met een uitzonderlijk kenmerk; archeologische/ASI-laag; eventuele niet-boeddhistische krachtplekken binnen de straal (Gaya/Vishnupad-gebied); eventuele Kriya-lijnverbinding.",
+  "saturation_and_stop_criteria": "Zoals vastgelegd in india4/protocols/INDIA5-PROTOCOL.md en herbevestigd in INDIA5_REGION_START_PROTOCOL.md, stap 2: per detector minimaal twee wezenlijk verschillende zoekbenaderingen en minimaal twee relevante bronfamilies, gevolgd door drie opeenvolgende materieel verschillende richtingen zonder nieuwe high-value lead. Sweepniveau DISCOVERY_SATURATED pas wanneer alle zeven detectoren een afsluitstatus hebben, alle geplande bronfamilies zijn uitgevoerd of expliciet ONBESCHIKBAAR, en geen open lead redelijkerwijs een dramatisch te missen locatie kan zijn.",
+  "dramatic_miss_check": "Twee concrete risico's. Eerste: het Mahabodhi-tempelcomplex verkeerd decomponeren -- als één koepelnaam behandelen zou losse, verhaaltechnisch onderscheiden onderdelen (Vajrasana, de Bodhi-boom-nakomeling, Animeshlochan Chaitya, Muchalinda-vijver) laten samensmelten tot een vage generieke vermelding; te fijn opknippen zou omgekeerd kunstmatige kandidaten opleveren die individueel de NOT_TO_BE_MISSED-poort niet zouden doorstaan. DET-BGY-P001 bestaat specifiek om dit te voorkomen. Tweede: de Dungeshwari-grotten (Mahakala-grotten, plek van Boeddha's extreme ascese vóór de verlichting) liggen verder van het hoofdcomplex en zijn minder bekend dan de hoofdtempel -- een reeel risico om over het hoofd te zien ondanks een sterke, onvervangbare eenmalige-gebeurtenis-claim; DET-BGY-P002 is hier specifiek op gericht.",
+  "written_at": "2026-08-03",
+  "written_by": "CCI"
+}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1014 path=india5/tasks/done/INDIA5-ARCH-TEST-001/TASK.yaml blob_sha=a1e5047a383cac944ac6ba671eb80db9cde11b9c original_offset=0 original_length=875 payload_bytes=875 chunk_index=0 chunk_count=1 classification=text
+task_id: INDIA5-ARCH-TEST-001
+protocol_version: "1.0.0"
+issued_by: CCI
+issued_at: "2026-08-02T19:00:00Z"
+target_branch: claude/werk-je-nu-of-niet-oa10y7
+expected_head: "30c9a51ce2c42a1cda5dfdc7543e45602a65ffd9"
+task_file: TASK.md
+task_file_sha256: "9142dfd95cdb84724b82a837d7147d62ffbdcee5b9066a89f8684394f4c70ddf"
+scope: ARCHITECTURE
+required_inputs:
+  - india5/TASK_PROTOCOL.md
+allowed_reads:
+  - india5/
+allowed_writes:
+  - india5/tasks/active/INDIA5-ARCH-TEST-001/
+  - india5/tasks/done/INDIA5-ARCH-TEST-001/
+  - india5/tasks/failed/INDIA5-ARCH-TEST-001/
+forbidden_writes:
+  - runs/
+  - india4/
+  - india5/schemas/
+  - india5/scripts/
+  - india5/TASK_PROTOCOL.md
+expected_outputs:
+  - india5/tasks/done/INDIA5-ARCH-TEST-001/TEST_OUTPUT.md
+  - india5/tasks/done/INDIA5-ARCH-TEST-001/RESULT.md
+status: QUEUED
+completion_marker: "INDIA5-TASK-COMPLETE::INDIA5-ARCH-TEST-001"
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1015 path=india4/prompts/ZILVER-Z01.md blob_sha=a3407ddb04e437aaefff481990a0db5ef8ceb70b original_offset=0 original_length=806 payload_bytes=806 chunk_index=0 chunk_count=1 classification=text
+# ZILVER-Z01 STARTOPDRACHT
+
+Activeer GitHub, test read/write, open `india4/START.md`, `india4/roles/ZILVER.md` en run `VARANASI-GEO-DELIVERY-REPAIR-001`. Voer uitsluitend `ZILVER-Z01` uit voor `VNS-CAND-001` t/m `VNS-CAND-020`. Lees alleen `BRONS-B01.jsonl` en `BRONS-B02.jsonl` plus de runopdracht en kernprotocollen. Controleer per record dat werkelijk de juiste Google Maps-marker is gebruikt, dezelfde fysieke plek is gekozen, geen nabijgelegen organisatie/wijk/gebouw is genomen, coördinaten exact uit de marker komen en onzekerheid eerlijk is gemarkeerd. Corrigeer traceerbaar zonder A/B/C te wijzigen. Schrijf `ZILVER/ZILVER-Z01.jsonl`, readback, commit en lever de volledige ZILVER-Z02-startvraag. Bij onvolledigheid schrijf `ZILVER-Z01-PROGRESS.yaml` met `next_candidate` en claim niet voltooid.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1016 path=runs/active/BODHGAYA-DISCOVERY-001/MARK_DECISIONS_2026-08-05.jsonl blob_sha=a3a69ab9df0fa3e700dae2c7bd7241dddb6b9433 original_offset=0 original_length=768 payload_bytes=768 chunk_index=0 chunk_count=1 classification=text
+{"decision_type":"AB_C_KEUZERONDE","region":"BODHGAYA","run_id":"BODHGAYA-DISCOVERY-001","rule":"Mark-besluit, direct in chat gegeven na ontvangst van de keuze-reisgids-PDF (046-049): 'Alles A'.","decided_by":"Mark","decided_at":"2026-08-05"}
+{"candidate_id":"BGY-CAND-046","display_id":"046","name":"Mahabodhi Temple Complex","mark_status":"A","decided_at":"2026-08-05"}
+{"candidate_id":"BGY-CAND-047","display_id":"047","name":"Sujata Stupa, Bakraur","mark_status":"A","decided_at":"2026-08-05"}
+{"candidate_id":"BGY-CAND-048","display_id":"048","name":"Dungeshwari Cave Temples (Mahakala Caves)","mark_status":"A","decided_at":"2026-08-05"}
+{"candidate_id":"BGY-CAND-049","display_id":"049","name":"Great Buddha Statue","mark_status":"A","decided_at":"2026-08-05"}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1017 path=runs/active/BODHGAYA-DISCOVERY-001/ZILVER/ZILVER-Z01.jsonl blob_sha=a401856e5e1ec910ebef9b984689deb3650600fd original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+{"candidate_id":"BGY-CAND-046","canonical_name":"Mahabodhi Temple Complex","status":"PROVISIONAL","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_RESOLVED","geo_status":"CONFIRMED","final_latitude":24.6959222,"final_longitude":84.9914193,"old_comparison":{"latitude":24.696,"longitude":84.9914,"geo_status":"REFERENCE_COORDINATE_FROM_MULTIPLE_INDEPENDENT_LISTINGS","use":"SUPERSEDED_BY_CONFIRMED_MARKER"},"identity_check":{"matched_place":"Mahabodhi Temple Complex, Bodh Gaya","address":"Bodh Gaya, Bihar 824231, India","physical_identity":"CONFIRMED","marker_identity":"CONFIRMED"},"zilver_check":{"physical_identity_check":"CONFIRMED","name_address_type_match":"OK -- Google-entiteitsnaam 'Mahabodhi Temple' komt exact overeen met de kandidaatnaam en beschrijving","public_google_maps_or_official_source_used":true,"exact_coordinates_verified":true,"verification_method":"Rechtstreeks opgevraagde Google Earth/Maps-entiteit (google.com/earth/rpc/entity, fid 0x39f32c5b4bd80877:0xf8dd2e286fa80c97) -- gestructureerde API-respons met naam, locatie en coordinaat, geen tekstsamenvatting van een derde partij","nearby_substitute_check":"OK -- geen verwarring met een nabijgelegen locatie vastgesteld","candidate_status":"PROVISIONAL","protected_mark_decision_respected":true,"explicit_rejection_check":null},"rejected_finding":null,"evidence":[{"url":"https://www.google.com/earth/rpc/entity?fid=0x39f32c5b4bd80877:0xf8dd2e286fa80c97","supports":"Rechtstreekse Google Maps/Earth-entiteitsbevestiging van naam en coordinaat"},{"url":"https://indianculture.gov.in/node/2537416","supports":"Officiele Indiase cultuurbron, complexbeschrijving"},{"url":"https://en.wikipedia.org/wiki/Mahabodhi_Temple","supports":"Identiteit, UNESCO-status, zeven-wekenstructuur"}],"reason":"Zowel identiteit als exact coordinaat rechtstreeks bevestigd via een gestructureerde Google Maps/Earth-entiteitsrespons (geen aggregator-schatting). geo_status verhoogd van GOOGLE_MAPS_MARKER_NOT_CONFIRMED naar CONFIRMED.","checked_at":"2026-08-03"}
+{"candidate_id":"BGY-CAND-047","canonical_name":"Sujata Stupa, Bakraur","status":"PROVISIONAL","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_RESOLVED","geo_status":"CONFIRMED","final_latitude":24.6979887,"final_longitude":85.0033228,"old_comparison":{"latitude":null,"longitude":null,"geo_status":"PREVIOUSLY_THREE_CONFLICTING_REFERENCE_COORDINATES","use":"SUPERSEDED_BY_CONFIRMED_MARKER","note":"De drie eerder gevonden sets (24.6976/85.0045; 24.69791/85.00332; 24.696118/85.007991) zijn vervangen door de rechtstreeks bevestigde Google-entiteitscoordinaat; de tweede set (24.69791/85.00332) bleek er het dichtst bij te liggen."},"identity_check":{"matched_place":"The Sujata Stupa","address":"Bakraur, Sujata, Bihar 824231, India","physical_identity":"CONFIRMED","marker_identity":"CONFIRMED"},"zilver_check":{"physical_identity_check":"CONFIRMED","name_address_type_match":"OK -- Google-entiteitsnaam 'The Sujata Stupa' komt exact overeen met de kandidaatnaam, entiteitstype 'Buddhist temple'","public_google_maps_or_official_source_used":true,"exact_coordinates_verified":true,"verification_method":"Rechtstreeks opgevraagde Google Earth/Maps-entiteit (google.com/earth/rpc/entity, fid 0x39f32c3bfcc98c89:0xe049790129b66a76), inclusief Google Plus Code M2X3+58W ter extra bevestiging","nearby_substitute_check":"OK -- entiteit expliciet 'The Sujata Stupa' genoemd, niet een generieke dorpslocatie","candidate_status":"PROVISIONAL","protected_mark_decision_respected":true,"explicit_rejection_check":null},"rejected_finding":null,"evidence":[{"url":"https://www.google.com/earth/rpc/entity?fid=0x39f32c3bfcc98c89:0xe049790129b66a76","supports":"Rechtstreekse Google Maps/Earth-entiteitsbevestiging van naam, Plus Code en coordinaat"},{"url":"https://tourism.bihar.gov.in/en/destinations/gaya/sujata-stupa","supports":"Officiele deelstaatbron"},{"url":"https://en.wikipedia.org/wiki/Sujata_Stupa","supports":"Identiteit, geschiedenis"}],"reason":"De eerder gemelde conflictzaak (drie afwijkende referentiecoordin
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1018 path=runs/active/BODHGAYA-DISCOVERY-001/ZILVER/ZILVER-Z01.jsonl blob_sha=a401856e5e1ec910ebef9b984689deb3650600fd original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+aten) is opgelost: een rechtstreekse Google Maps/Earth-entiteitsopvraag, specifiek naam-gematcht op 'The Sujata Stupa' (niet slechts het dorp Bakraur), retourneert een eigen, gestructureerd coordinaat inclusief Plus Code -- dit weegt zwaarder dan de eerder gevonden aggregator-schattingen. geo_status verhoogd van GOOGLE_MAPS_MARKER_NOT_CONFIRMED (AMBIGUE) naar CONFIRMED.","checked_at":"2026-08-03"}
+{"candidate_id":"BGY-CAND-048","canonical_name":"Dungeshwari Cave Temples (Mahakala Caves)","status":"PROVISIONAL","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":null,"longitude":null,"geo_status":"NO_COORDINATE_FOUND","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Dungeshwari Cave Temples / Mahakala Caves","address":"Larpur village, near Bodh Gaya, Gaya district, Bihar, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXTRACTED"},"zilver_check":{"physical_identity_check":"CONFIRMED","name_address_type_match":"OK -- consistent met identity_check en beschikbare bronnen","public_google_maps_or_official_source_used":false,"exact_coordinates_verified":false,"verification_method":"Twee aanvullende, wezenlijk verschillende zoekpogingen deze ronde (directe Google-entiteitszoekactie, gerichte coordinaat-zoekactie via aggregatorsites) leverden GEEN bruikbaar resultaat op -- geen Google Maps/Earth-entiteitslink gevonden voor deze specifieke locatie","nearby_substitute_check":"OK -- geen verwarring met een nabijgelegen locatie vastgesteld, identiteit blijft eenduidig","candidate_status":"PROVISIONAL","protected_mark_decision_respected":true,"explicit_rejection_check":null},"rejected_finding":null,"evidence":[{"url":"https://tourism.bihar.gov.in/en/destinations/gaya/dungeshwari-mandir","supports":"Officiele deelstaatbron"},{"url":"https://prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/gaya/dungeshwari-temple.html","supports":"Officiele nationale toerismebron"}],"reason":"Identiteit blijft eenduidig bevestigd via twee onafhankelijke overheidsbronnen. Geen coordinaat/marker gevonden ondanks gerichte zoekpogingen deze ronde -- geo_status blijft bewust ongewijzigd op GOOGLE_MAPS_MARKER_NOT_CONFIRMED, geen schatting overgenomen.","checked_at":"2026-08-03"}
+{"candidate_id":"BGY-CAND-049","canonical_name":"Great Buddha Statue","status":"PROVISIONAL","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":24.690472,"longitude":84.981806,"geo_status":"REFERENCE_COORDINATE_FROM_WIKIPEDIA_INFOBOX","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Great Buddha Statue, Daijokyo Buddhist Temple","address":"Daijokyo Buddhist Temple, Great Buddha Statue Road, Post Box No. 20, P.O. Bodhgaya 824231, Gaya, Bihar, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"zilver_check":{"physical_identity_check":"CONFIRMED","name_address_type_match":"OK, MET INHOUDELIJKE CORRECTIE -- zie inhoudelijke_correctie hieronder","public_google_maps_or_official_source_used":false,"exact_coordinates_verified":false,"verification_method":"Geen Google Maps/Earth-entiteitslink gevonden voor deze specifieke locatie ondanks gerichte zoekpoging deze ronde -- alleen het Wikipedia-infobox-coordinaat beschikbaar, niet zelf een rechtstreekse Maps-bevestiging","nearby_substitute_check":"OK -- eigen adres/postbus expliciet vermeld, geen verwarring met het hoofdcomplex","candidate_status":"PROVISIONAL","protected_mark_decision_respected":true,"explicit_rejection_check":null,"optional_pass_status_recheck":"BEVESTIGD -- kernfeiten (eerste/grootste in India gebouwde Boeddhabeeld op het moment van bouw, consecratie door de 14e Dalai Lama in 1989) blijven overeind ongeacht de exacte hoogte-discrepantie; geen reden gevonden om de tier te wijzigen"},"inhoudelijke_correctie":"De Wikipedia-
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1019 path=runs/active/BODHGAYA-DISCOVERY-001/ZILVER/ZILVER-Z01.jsonl blob_sha=a401856e5e1ec910ebef9b984689deb3650600fd original_offset=8192 original_length=1053 payload_bytes=1053 chunk_index=2 chunk_count=3 classification=text
+pagina zelf bevat een interne tegenstrijdigheid over de hoogte: infobox noemt 18,5 m (61 ft), hoofdtekst noemt 20 m (64 ft) voor het Boeddhabeeld zelf plus een totale bouwhoogte van 24 m (80 ft) inclusief lotus en voetstuk. Het eerder in het kandidaatrecord gebruikte cijfer '25 meter' was een afronding/overname uit een andere bron en wordt hierbij gecorrigeerd: gebruik voortaan 'circa 20 m (Boeddhabeeld) / circa 24 m totale constructie inclusief voetstuk', met vermelding van de Wikipedia-interne inconsistentie.","rejected_finding":null,"evidence":[{"url":"https://en.wikipedia.org/wiki/Great_Buddha_(Bodh_Gaya)","supports":"Identiteit, adres, infobox-coordinaat, geschiedenis, hoogte (met interne inconsistentie)"}],"reason":"Identiteit en adres eenduidig bevestigd. Geen Google Maps/Earth-entiteit gevonden -- geo_status blijft GOOGLE_MAPS_MARKER_NOT_CONFIRMED, referentiecoordinaat blijft vergelijkingsmateriaal. Hoogte-cijfer gecorrigeerd na brondiscrepantie-controle. OPTIONAL_PASS-status na hercontrole bevestigd.","checked_at":"2026-08-03"}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1020 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/TASK.md blob_sha=a447cb753e78add4233a762ff26f8418236c217f original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# TASK — TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
+
+```
+task_id: TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
+issued_by: INDIA
+issued_at: 2026-08-15
+mode: INVERSE_PERSON_CENTRIC_MEGASWEEP
+scope: heel India, geen regiobegrenzing
+```
+
+## Waarom deze taak bestaat
+
+De regionale Kumaon-dubbele sweep miste twee legacy-A-locaties, waaronder Bodh Ashram, ondanks directe banden met Top-11-personen. Regionale zoekrichting alleen is dus onvoldoende als detector.
+
+Deze taak draait de zoekrichting om:
+
+**niet:** regio → welke Top-11-links zitten hier?
+
+**maar:** persoon → op welke verifieerbare fysieke plekken in India is deze persoon ooit aantoonbaar geweest / verbleven / actief geweest / direct historisch verbonden?
+
+Doel: een landelijke, persoon-gecentreerde fysieke atlas die latere regioweergaven kan voeden en regionale misses zichtbaar maakt.
+
+## Top-11 — exact en volledig, één voor één
+
+1. Paramahansa Yogananda
+2. Mahavatar Babaji
+3. Lahiri Mahasaya
+4. Sri Yukteswar
+5. Ram Dass
+6. Neem Karoli Baba
+7. Anandamayi Ma
+8. Ramakrishna
+9. Ramana Maharshi
+10. Hariharananda
+11. Vivekananda
+
+## Harde hoofdregel
+
+Voor ELKE persoon afzonderlijk heel India doorzoeken zonder regionale scope. Niet stoppen na bekende hoofdplaatsen.
+
+Zoek systematisch naar elk verifieerbaar fysiek touchpoint dat bronmatig aan de persoon gekoppeld is, waaronder minimaal:
+
+- geboorteplek;
+- woonhuis / verblijf / kamer / landgoed / hut / grot;
+- ashram / math / klooster / tempel / kerk / moskee / gurdwara / heilige plek;
+- samadhi / crematie / graf / reliekplek;
+- initiatie / ontmoeting / meditatie / retraite / sadhana;
+- onderwijs / lezing / satsang / ceremonie / darshan;
+- bezoek aan iemand anders zijn ashram/huis/landgoed;
+- gedocumenteerde reis- of verblijfslocatie;
+- ziekenhuis / hotel / station / bestuursgebouw / school / club / zaal ALLEEN wanneer daar een betekenisvolle, gedocumenteerde gebeurtenis plaatsvond; gewone transit niet als reis-kandidaat, wel desgewenst als laag-prioriteits-touchpoint;
+- huidige instelling alleen wanneer fysieke historische/persoonlijke link duidelijk wordt onderscheiden van latere institutionele eerbetoon.
+
+## Granulariteit
+
+Doel is maximale recall zonder kunstmatig duizenden irrelevante punten te maken.
+
+Gebruik drie niveaus:
+
+### TIER 1 — concrete choice-relevant physical site
+Exact of redelijk identificeerbaar gebouw/terrein/grot/tempel/ashram/huis/samadhi/etc. met directe historische/persoonlijke link.
+
+### TIER 2 — direct event place, exact subadres nog onbekend
+Bijvoorbeeld stad/dorp/berg/landgoedzone waar een directe gebeurtenis bewezen is maar exacte fysieke sublocatie nog niet.
+
+### TIER 3 — documented transit/context only
+Alleen bewaren als bewijs dat de persoon er werkelijk was, maar NIET automatisch kandidaat voor Marks reis.
+
+TIER 3 mag nooit TIER 1 verdringen of de kandidatenlijst vervuilen.
+
+## Brondiscipline
+
+- Open daadwerkelijke brontekst voor iedere choice-relevante hoofdclaim; geen snippet-only bevestiging.
+- Primaire bron of officiële organisatie waar beschikbaar.
+- Betrouwbare secundaire bron alleen waar primaire bron redelijkerwijs ontbreekt.
+- Per plek expliciet scheiden:
+  - `person_event_verified`
+  - `physical_identity_verified`
+  - `exact_sublocation_verified`
+- Traditieclaim / devotionele identificatie expliciet als zodanig labelen.
+- Geen claim van persoonlijk bezoek afleiden uit alleen een latere instelling die iemands naam draagt.
+
+## Blindheid / vergelijking
+
+### Fase A — landelijke discovery per persoon
+Tijdens discovery NIET de bestaande regionale kandidaatsets gebruiken als checklist of zoekbasis. Ze mogen de zoektermen niet sturen.
+
+### Fase B — freeze
+Bevries per persoon de landelijke touchpointlijst met bronverwijzingen en negatieve/onjuiste claims.
+
+### Fase C — vergelijk met huidige repo
+Pas daarna vergelijken met alle bestaande India-locaties, legacy-runs en Mark-besluiten.
+
+Maak dan minimaal:
+
+- `FOUND_AND_ALREADY_KNOWN`
+- `FOUND_BUT_MISSING_FROM_REPO`
+- `REPO_ONLY_NOT_REFOUND`
+- `DUPLICATE_OR_SAME_PHYSICAL_SITE`
+- `PERSON_LINK_UPGRADE` — bestaande plek blijkt aan
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1021 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/TASK.md blob_sha=a447cb753e78add4233a762ff26f8418236c217f original_offset=4096 original_length=3137 payload_bytes=3137 chunk_index=1 chunk_count=2 classification=text
+ meer Top-11-personen gekoppeld;
+- `REGION_MISS` — plek lag in een reeds gesweepte regio maar werd daar niet gevonden;
+- `NEW_REGION_SIGNAL` — cluster van belangrijke touchpoints in een nog niet onderzochte regio.
+
+## Belangrijk: bestaande Mark-besluiten
+
+- Nooit stil wijzigen.
+- Bestaande A/B/C blijft beschermd.
+- Nieuwe persoon-link kan een bestaande plek inhoudelijk zwaarder maken maar niet automatisch Marks keuze wijzigen.
+- Echte nieuwe cruciale informatie bij een oude C/B => `MARK_DECISION_CONFLICT`, niet zelf herclassificeren.
+
+## Outputvorm
+
+Maak één landelijke machine-leesbare tabel/JSONL plus per persoon een compact menselijk rapport.
+
+Per fysieke plek minimaal:
+
+- tijdelijke atlas-ID;
+- persoon;
+- naam fysieke plek;
+- plaats/district/staat;
+- tier 1/2/3;
+- type gebeurtenis/link;
+- datum/periode indien bekend;
+- bron(nen);
+- bewijssterkte;
+- exacte locatie-status;
+- huidige bezoekersrelevantie indien duidelijk;
+- eventuele match met bestaande repo-ID;
+- opmerkingen/claimgrenzen.
+
+## Saturatie-eis
+
+Per persoon pas `PERSON_SWEEP_SATURATED` wanneer:
+
+1. minimaal officiële/lineage-bronnen, primaire teksten/biografieën en gerichte plaats-/event-searches zijn doorlopen;
+2. bekende levensfasen en grote reizen zijn afgedekt;
+3. alternatieve spellingen/namen zijn geprobeerd;
+4. relevante secundaire verwijzingen naar huizen/ashrams/hosts/landgoederen zijn teruggevolgd naar de fysieke plek;
+5. er expliciet is gezocht naar locaties waar de persoon op bezoek was bij ANDEREN — precies de categorie waarin Bodh Ashram kan vallen;
+6. negatieve/onzekere claims zijn vastgelegd.
+
+## Uitvoeringsvolgorde
+
+Werk één persoon tegelijk volledig af en freeze die persoon vóór de volgende.
+
+Aanbevolen volgorde op missierisico:
+1. Mahavatar Babaji
+2. Lahiri Mahasaya
+3. Paramahansa Yogananda
+4. Neem Karoli Baba
+5. Ram Dass
+6. Anandamayi Ma
+7. Sri Yukteswar
+8. Hariharananda
+9. Vivekananda
+10. Ramakrishna
+11. Ramana Maharshi
+
+De vaste Top-11-rangorde zelf verandert hierdoor NIET; dit is alleen onderzoeksvolgorde.
+
+## Wat deze taak NIET doet
+
+- geen routeplanning;
+- geen hotelkeuze;
+- geen PDF;
+- geen A/B/C voorspellen namens Mark;
+- geen regiokandidaten schrappen;
+- regionale sweeps niet afschaffen.
+
+## Nieuwe architectuur na deze taak
+
+De persoon-atlas wordt een **orthogonale detectorlaag** naast regionale sweeps:
+
+1. REGIONAAL: regio → alles wat daar belangrijk is.
+2. PERSOON-CENTRISCH: persoon → alle bewezen fysieke India-touchpoints.
+3. AOAY: boek → alle bewezen fysieke AOAY-locaties.
+
+Een keuze-ready regio is pas echt sterk wanneer regionale sweep + persoon-atlas + AOAY-laag tegen elkaar zijn gekruist.
+
+## Eerste deliverable
+
+Voer eerst een PILOT uit op:
+- Anandamayi Ma
+- Neem Karoli Baba
+
+Reden: Bodh Ashram is precies een mogelijke dubbel-link die de regionale sweeps misten. De pilot moet aantonen of de omgekeerde zoekrichting Bodh Ashram/Turiya-achtige plekken structureel terugvindt.
+
+Na pilot: rapporteer aantallen, gevonden misses, search-patterns die werkten/niet werkten en schatting van totale atlasgrootte voor alle 11. Stop daarna voor INDIA-QA vóór de overige 9 personen.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1022 path=governance/CCI_GITHUB_WAKE_RELAY.md blob_sha=a5c4d7ec5255451cacebacef598fd6a5cf2fd3ac original_offset=0 original_length=1435 payload_bytes=1435 chunk_index=0 chunk_count=1 classification=text
+# CCI GITHUB WAKE RELAY — PROVEN BEHAVIOR
+
+Status: CANONICAL OBSERVED BEHAVIOR
+Observed: 2026-08-18
+
+## Proven trigger
+A new top-level PR comment on the relay PR (#23) generates a Claude Code external wake event of the form:
+
+`<wake reason="external-event">`
+with
+`source="github" kind="issue_comment.created"`.
+
+This was directly observed for `CCI_TASK 087R`.
+
+## Operational rule
+- INDIA posts the next `CCI_TASK` once as a top-level PR #23 comment.
+- That comment itself is the wake trigger; Mark does NOT need to manually start Claude Code after INDIA has posted the task.
+- Do not post duplicate recovery/tasks merely because no result is visible yet; duplicate wake events can create duplicate work.
+- CCI reads GitHub durable state/checkpoints and returns `CCI_RESULT` to PR #23.
+- If a Claude Code session hits max-context, create one recovery `CCI_TASK` that explicitly resumes from committed state and forbids restarting completed work.
+
+## Precision / non-assumption
+The observed evidence proves `issue_comment.created` on the relay PR as a wake trigger. It does NOT by itself prove that every arbitrary repository file commit triggers Claude Code. Therefore use PR #23 task comments as the explicit execution relay.
+
+## Human-touch rule
+Mark is not the message bus for routine CCI work. INDIA writes the CCI task to GitHub; CCI is automatically woken by the PR comment; INDIA later reads the returned result from GitHub.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1023 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/VRINDAVAN_BRAJ_PARENT_DECISION_MAP.md blob_sha=a5c762b69ac580e4024c99df6f7481c3065a1745 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# VRINDAVAN / BRAJ — PARENT DECISION MAP
+
+Date: 2026-08-20
+Status: ACTIVE_MARK_REVIEW
+Rule: one physical visit-unit = one Mark A/B/C decision; micro-sites preserved below as M-codes.
+
+## Confirmed A visit-units
+
+### V1 — Vrindavan Railway Station — A
+Persons/layers: Paramahansa Yogananda / AOAY.
+Micro-sites:
+- M1: unresolved nearby secluded spot where Yogananda initiated Pratap into Kriya; bundled with station visit, not separate stop.
+Notes: historic station location is the experiential anchor; exact old platform fabric is not required for A.
+
+### V2 — Madan Mohan Temple — A
+Persons/layers: Paramahansa Yogananda / AOAY.
+Micro-sites: none separately scored at present.
+
+### V3 — Keshabananda / Katyayani Peeth historic ashram-hermitage grounds — A
+Persons/layers: Paramahansa Yogananda; Keshabananda; Lahiri Mahasaya lineage.
+Micro-sites: any known/photo-linked steps, rooms or grounds remain future A-site guide details, not separate decisions.
+
+### V4 — Samb Sadashiv Kunj — A
+Persons/layers: Mahavatar Babaji claimant/tradition layer.
+Caution: physical place exact; Babaji historical claim is lineage/tradition evidence and not equivalent in certainty to AOAY documentary presence.
+
+### V5 — Neem Karoli Baba Vrindavan Ashram — A
+Persons/layers: Neem Karoli Baba; Ram Dass.
+Micro-sites:
+- M1: Mahasamadhi / cremation site and present mandir.
+- M2: Maharajji office/room occurrence.
+- M3: temple courtyard / funeral-bhandara-fire-platform context.
+- M4: Hanuman murti sanctum claim retained with weaker source closure.
+- M5: main gate claim retained with weaker source closure.
+Rule: all are one ashram visit, not five A/B/C decisions.
+
+### V6 — Hathiwale Baba historic hut footprint / current Gore Dauji site — A
+Persons/layers: Neem Karoli Baba.
+Historic hut gone; historic grounds/current successor site retained as one visit-unit.
+
+### V7 — Seth Anandram Jaipuria Bhawan — A
+Persons/layers: Ram Dass.
+Travel override: investigate current overnight bookability for Mark/foreign traveler. If practical, this may become heritage-stay rather than visit-only stop.
+
+### V8 — Banke Bihari Temple — A
+Persons/layers: Ram Dass + Sri Ramakrishna.
+Same physical temple; one decision despite two independent person links.
+
+### V9 — Fouzdar Kunj — A
+Persons/layers: Sri Ramakrishna.
+Micro-sites:
+- M1: upper room used by Ramakrishna.
+- M2: semicircular veranda.
+One building visit; room/veranda do not get separate A/B/C.
+
+### V10 — Nidhivan grove — A
+Persons/layers: Sri Ramakrishna; broader Krishna/Braj sacred landscape.
+Micro-sites within immediate Nidhivan/Ganga Mata context are kept separate below only if physically outside this visit-unit.
+
+### V11 — Anandamayi Ma Vrindavan Ashram — A
+Persons/layers: Anandamayi Ma.
+Condition resolved: Anandamayi Ma herself was repeatedly active/present at this Vrindavan ashram in official Sangha chronology. Therefore A is final, not merely a later memorial institution.
+
+### V12 — Yamuna river / Vrindavan sacred river visit — A
+Persons/layers: Ram Dass plus independent Krishna/Braj significance for Mark.
+Exact Ram Dass ghat/landing unresolved; this does not reduce the river visit-unit from A.
+
+## Conditional / B visit-units
+
+### V13 — Ganga Mata historic kutiya footprint / successor property — B -> A IF practically very close to Nidhivan route
+Persons/layers: Sri Ramakrishna + Ganga Mata.
+Known locator: left side of Nidhivan toward Radha Raman Mandir.
+Historic hut replaced; successor property is not falsely treated as original hut.
+Decision rule: proximity/logistical bundling determines upgrade, not a new content debate.
+
+### V14 — Vardhaman/Burdwan Kunj — B
+Persons/layers: Anandamayi Ma.
+Historic stay/property continuity; permission/access may be less simple. Remains B unless later route/access makes it virtually free to include.
+
+### V15 — Mani Sen house/parlour — B
+Persons/layers: Sri Ramakrishna.
+IMPORTANT LOCATION CORRECTION: this master record is in Panihati, West Bengal, not Vrindavan/Braj. It must NOT remain in the Vrindavan decision slice. Keep B in its c
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1024 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/VRINDAVAN_BRAJ_PARENT_DECISION_MAP.md blob_sha=a5c762b69ac580e4024c99df6f7481c3065a1745 original_offset=4096 original_length=1862 payload_bytes=1862 chunk_index=1 chunk_count=2 classification=text
+orrect East/Kolkata-Panihati cluster only.
+
+### V16 — Sri Radhakanta family temple — A provisional, but LOCATION CORRECTION REQUIRED
+Persons/layers: Sri Ramakrishna.
+IMPORTANT: master record places this temple at Mani Sen property, Panihati, West Bengal, not Vrindavan/Braj. Therefore remove from Vrindavan travel count and carry its A-provisional decision to Panihati/East only if that region is reopened.
+
+## C / excluded visit-units
+
+### V17 — Mathura railway station / NKB final-journey claim — C
+Persons/layers: Neem Karoli Baba.
+Reason: conflicting final-journey source chain and no compelling shrine/visit experience currently established.
+Micro-site: station steps near outdoor latrine remains unresolved and does not create separate decision.
+
+### V18 — Ramakrishna Mission Hospital, Vrindavan — DO NOT VISIT as standalone current plan
+Persons/layers: Neem Karoli Baba final hours.
+Historical identity: confirmed.
+Visit-value filter: no reliable NKB shrine/commemorative visitor point established at hospital; current hospital has Ramakrishna institutional religious presence but that is not an NKB memorial.
+Mark preference: if no NKB shrine, Mahasamadhi/cremation site at NKB Ashram is sufficient. Therefore hospital occurrence stays in historical master but is not a standalone A stop.
+
+## Already absorbed / not separate decisions
+- Pratap Kriya-initiation spot -> V1 M1.
+- NKB Mahasamadhi / cremation site -> V5 M1.
+- Maharajji office/room -> V5 M2.
+- NKB courtyard -> V5 M3.
+- NKB Hanuman sanctum/gate -> V5 M4/M5.
+- Fouzdar upper room/veranda -> V9 M1/M2.
+- Duplicate hospital naming -> V18 historical occurrence only.
+
+## Decision-surface rule for all next clusters
+Build parent visit-units before showing Mark choices. Never expose database micro-entities as separate A/B/C choices unless they are physically separate destinations.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1025 path=india4/prompts/BRONS-B04.md blob_sha=a66d0a2ccfd04ba151f4f7a755ca824cc675e97e original_offset=0 original_length=650 payload_bytes=650 chunk_index=0 chunk_count=1 classification=text
+# BRONS-B04 STARTOPDRACHT
+
+Activeer GitHub, test read/write, open `india4/START.md`, `india4/roles/BRONS.md` en run `VARANASI-GEO-DELIVERY-REPAIR-001`. Voer uitsluitend `BRONS-B04` uit voor `VNS-CAND-031` t/m `VNS-CAND-040`. Lees alleen de runopdracht, kandidaatbron, beschermde Mark-besluiten, oude GEO-vergelijkingsbron en eigen voortgang. Pas exact de Google Maps-markerregel toe. Schrijf `BRONS/BRONS-B04.jsonl`, readback, commit en lever de volledige ZILVER-Z01-startvraag. Bij onvolledigheid schrijf `BRONS-B04-PROGRESS.yaml` met `next_candidate`, claim niet voltooid en geef een hervattingsvraag. Gebruik geen controller of SHA-administratie.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1026 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/FEED_INDIATURQUOISE_ENTITY_OVERLAP_COMPLETE.md blob_sha=a6f68990552b6f4ebe12aa85c97d154fca969c4e original_offset=0 original_length=1824 payload_bytes=1824 chunk_index=0 chunk_count=1 classification=text
+# FEED — INDIATURQUOISE ENTITY / OVERLAP RECONCILIATION
+
+Date: 2026-08-20
+Source branch: `agent/indiaturquoise-allperson-overlap`
+Task: `INDIATURQUOISE-ENTITY-OVERLAP-RECONCILIATION-001`
+State: COMPLETE
+
+## SOURCE OUTPUT COMMITS
+- ENTITY_MERGE_MAP.jsonl — `f5e156f3e23850cc5f52f71bf26ff3a2346b6900`
+- SAME_SITE_OVERLAP_MATRIX.md — `4cd8396f6acf19b70564a34a833bed5ab020624a`
+- PARENT_CHILD_SITE_MAP.md — `fedf7432d8458f4efa47b41bc93007e77229f2c2`
+- SUCCESSOR_SITE_MAP.md — `9759e86dadf8f1fc28047549bdcc304420ecd514`
+- AMBIGUOUS_MERGES_QUEUE.md — `473d90a6cda65a182b58180daf9290c8432d134a`
+- STATUS COMPLETE — `0aef428540474bcee26122f3913c26ced6aad10f`
+
+## IMPORTANT ENTITY RULES NOW DURABLE
+- Kainchi Dham, NKB Vrindavan, 4 Church Lane and Karar Ashram are parent complexes. Rooms, verandas, cremation spots, memorials and other physically distinct micro-sites must NOT be silently deduplicated into the parent.
+- Lahiri residence Varanasi, Sri Ramanasramam, Dakshineswar and Ranchi/YSS are true physical cross-person overlaps.
+- Kumbh remains event-zone/landscape, not an invented exact building.
+- Historic->modern successor relationships remain explicit: Ghurni original Lahiri site -> later shrine; Akbarpur birth/family site -> 2001 temple; historic Ranchi Vidyalaya -> current YSS campus; historic Dunagiri initiation-landscape claim -> modern institutional Babaji Cave identification.
+- Ambiguous merges remain unmerged until separately resolved.
+
+## CENTRAL ACTION
+Use ENTITY_MERGE_MAP as the dedup/crosswalk layer for ALL_FINDINGS_LOCATION_MASTER. Preserve parent-child micro-sites separately. Use SUCCESSOR_SITE_MAP for R2 classification rather than claiming fabric continuity. Feed SAME_SITE_OVERLAP + parent-child/successor data to ZILVER for proximity/new-ID staging. Do not wait for other colors.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1027 path=runs/active/TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001/RAMAKRISHNA_MULTIDETECTOR_RECONCILIATION.md blob_sha=a7c4c411cefeb4ebcf2f2d21d2658c5655ad9d1d original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=6 classification=text
+# RAMAKRISHNA_MULTIDETECTOR_RECONCILIATION
+
+```
+task_id: TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001
+cci_task: CCI_TASK 094
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-19
+intern_093: checkpoint 12e99c1, 19 lossless records (+ Dere en Baranagar-klooster als expliciete
+  negatieve controles, dus 24 tabelregels totaal)
+extern_chatgpt: agent/chatgpt-top11-parallel-sweep, commit f813a8ae17ca61a98ac0beb0dac214ad2169e9a8,
+  RAMAKRISHNA_PRE_COMPARE_FREEZE.md, 175 records (RK-001–RK-175) — blob-sha
+  162d9c3198aef047eb6d5ec9a1842645ad91823f (geverifieerd vóór opening).
+indiageel: agent/indiageel-ramana-ramakrishna-sweep, commit 693ddc00660e88030d52564362f3eb2a8af3d9cd,
+  RAMAKRISHNA_INDIAGEEL_FREEZE.md, 55 records (RK-001–RK-055) — blob-sha
+  e79dede85ee5034c0284d42a168115d50636158e (geverifieerd vóór opening).
+```
+
+## 0. Integriteitscheck
+
+Alle drie bronnen geverifieerd vóór opening via commit-SHA (`list_commits`) en blob-hash-vergelijking
+tegen de GitHub-bestandslisting. Geen discrepanties. Beide externe bestanden zijn identiek aan wat
+tijdens TASK.md is opgegeven; geen drift.
+
+## 1. Structurele karakterisering van de drie detectoren
+
+- **Intern (093)**: 19 lossless records + 2 expliciete negatieve controles (Dere: voor-geboorte
+  familiedorp; Baranagar-klooster: postuum gesticht). Site-niveau, één primaire bron (Saradananda's
+  *Great Master*, volledige tekst, gericht op plaatsnamen doorzocht, niet regel-voor-regel).
+- **Extern-ChatGPT**: 175 records — verreweg de meest granulaire set. Gebruikt zowel *Great Master*
+  als *The Gospel of Sri Ramakrishna* (M., alle 52 hoofdstukken) plus officiële RKM/Belur
+  Math-pelgrimsdossiers als "miss-detector". Heeft een eigen sectie F ("adversarial re-pass") en een
+  expliciete "Negative findings, exclusions and conflict controls"-tabel met 13 apart geverifieerde
+  negatieve claims (Gaya, Puri/Jagannath, Rammohan Roy's tuinhuis alleen-vanuit-de-koets gezien,
+  Botanical Garden alleen gepasseerd, etc.) — een methodologische discipline die noch intern noch
+  IndiaGEEL zo expliciet heeft.
+- **IndiaGEEL**: 55 records — sterk overlappend met beide andere, iets minder granulair dan extern
+  op de Kolkata-devoteehuizen, maar met **eigen aanvullende bronnen** (o.a. rechtstreeks
+  `kamarpukur.rkmm.org`- en `rkmsvrind.org`-institutionele pagina's naast *Great Master*/*Gospel*) en
+  **twee betekenisvolle eigen vondsten**: het specifiek benoemde pelgrimsverblijf "Fouzdar Kunj,
+  Retia Bazar" in Vrindavan (waar zowel intern als extern alleen generiek "een huis bij Nidhuvan"
+  hebben), en Kusum Sarovar als apart vastgelegde heilige tank bij Govardhan (afwezig bij zowel
+  intern als extern).
+
+## 2. Directe bronverificatie uitgevoerd deze taak
+
+| claim | route | resultaat |
+|---|---|---|
+| IndiaGEEL RK-035 (Fouzdar Kunj, Retia Bazar, Vrindavan — specifiek benoemd pelgrimsverblijf van Mathur Babu, bovenkamer met halfronde veranda) | WebSearch → RKM Sevashrama Vrindavan-pagina's | **VOLLEDIG BEVESTIGD**: Ramakrishna verbleef eind feb. 1868 op uitnodiging van Mathur Babu in "Fouzdar Kunj" te Retia Bazar; de bovenkamer met halfronde veranda is ongewijzigd; Ishandas ji Maharaj toonde hem Vrindavan rond. Dit is een **echte, verifieerbare naamsgranulariteit** die noch intern (093, "een huis bij Nidhuvan") noch extern (RK-149, "Mathur's rented house near Nidhuvan", zelf op `ALLEEN_PLAATS`) heeft. `INDIAGEEL_ONLY_CLAIM — CONFIRMED Tier-1`. |
+| IndiaGEEL RK-049 (reservoir in Mati Seal's tempeltuin, visserij-onderricht over vormloze meditatie, gedateerd "return from Panihati, **1885**") vs. extern RK-059 (zelfde episode, gedateerd "**18 Jun 1883**") | rechtstreeks gefetcht: *The Gospel of Sri Ramakrishna*, hoofdstuk "The Festival at Panihati", ramakrishnavivekananda.info | **CONFLICT, opgelost ten gunste van extern**: de brontekst dateert deze specifieke episode expliciet op **maandag 18 juni 1883** ("They were going to pass the temple garden of Mati Seal..."). Ramakrishna bezocht Panihati echter meerdere keren (eerste vermelding 1859 volgens mijn eigen 093-freeze; een late
+<<< END CHUNK >>>
+

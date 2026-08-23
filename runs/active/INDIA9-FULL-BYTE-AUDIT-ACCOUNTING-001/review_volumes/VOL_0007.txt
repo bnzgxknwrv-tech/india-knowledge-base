@@ -1,0 +1,579 @@
+>>> CHUNK stream_row=92 path=runs/active/TOP11-NKB-RAMDASS-CORE-SOURCE-RECOVERY-001/STATUS.md blob_sha=1042856a7c509fa42e94463dd6ce5ed4547b7ca3 original_offset=0 original_length=2449 payload_bytes=2449 chunk_index=0 chunk_count=1 classification=text
+# STATUS — TOP11-NKB-RAMDASS-CORE-SOURCE-RECOVERY-001
+
+```
+task_id: TOP11-NKB-RAMDASS-CORE-SOURCE-RECOVERY-001
+cci_task: CCI_TASK 090
+state: AFGEROND__WACHT_OP_INDIA_QA
+issued_at: 2026-08-19
+issued_by: INDIA7
+completed_at: 2026-08-19
+completed_by: CCI
+target_branch: claude/werk-je-nu-of-niet-oa10y7
+task_file: runs/active/TOP11-NKB-RAMDASS-CORE-SOURCE-RECOVERY-001/TASK.md
+status_file: runs/active/TOP11-NKB-RAMDASS-CORE-SOURCE-RECOVERY-001/STATUS.md
+result_file: runs/active/TOP11-NKB-RAMDASS-CORE-SOURCE-RECOVERY-001/SOURCE_RECOVERY_RESULT.md
+checkpoint_commits: 76020b9 (NKB source-recovery), 0f7a099 (Ram Dass source-recovery)
+```
+
+## Aanleiding
+
+CCI_TASK 089 leverde verse blinde freezes op, maar de belangrijkste corpusbronnen waren niet
+doorzoekbaar: *Miracle of Love*, *By His Grace*, *Be Here Now* en de bedoelde
+*Sacred Wanderer*/Ram-Dass-kernbiografie. Daardoor bleef `CORPUS_COVERAGE_GATE: NEE` voor beide
+personen en telde Ram Dass slechts vijf records.
+
+## Scope
+
+Gerichte legale bronherstelpoging plus lossless extractie uit ieder toegankelijk deel. Geen brede
+discovery en geen externe vergelijking.
+
+## Blindheid
+
+Externe NKB/Ram-Dass-freezes en IndiaROOD blijven gesloten.
+
+## Resultaat
+
+- *Miracle of Love* en *By His Grace*: beide `BRON_GEBLOKKEERD` na hernieuwde legale routepogingen.
+- *Be Here Now*: `FULL` hersteld (volledig open archive.org "Community Texts"-item) en corpusbreed
+  doorzocht — 8 nieuwe locatie-occurrences (2 gedeeld met Neem Karoli Baba, 8 voor Ram Dass zelf).
+- Titelcorrectie: "Sacred Wanderer" (Ravi Dass) was een verwisseling; correcte bron is
+  "Being Ram Dass" (2021) — één fragment (Tricycle) hersteld, `PARTIAL`.
+- Neem Karoli Baba: 19 → 21 records; `NEEM_KAROLI_BABA_V2_PRE_EXTERNAL_SATURATED: NEE` (ongewijzigd).
+- Ram Dass: 5 → 13 records + 1 naamsbevestiging; CORPUS-COVERAGE-GATE NEE → DEELS;
+  `RAM_DASS_V2_PRE_EXTERNAL_SATURATED: NEE` (ongewijzigd — eerlijke uitkomst, corpus nog niet
+  uitputtend).
+
+## next_allowed_step
+
+CCI heeft `TASK.md` uitgevoerd, per persoon gecheckpoint (76020b9, 0f7a099), en stopt na de
+resultaatenvelop op PR #23. INDIA beslist tussen (a) nog één gerichte corpuspass — met name
+"Being Ram Dass" (2021) volledig bereiken en/of maharajji.love doorzoeken — of (b) externe lossless
+reconciliatie starten met de bestaande `agent/chatgpt-top11-parallel-sweep`-freezes, analoog aan
+CCI_TASK 088. Ramana Maharshi/Ramakrishna blijven niet gestart.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=93 path=runs/active/TOP11-RAMANA-RAMAKRISHNA-V2-PRE-EXTERNAL-001/TASK.md blob_sha=10ff4ad2c75f0e6b4ab57e0061c27abeeabb0b99 original_offset=0 original_length=2683 payload_bytes=2683 chunk_index=0 chunk_count=1 classification=text
+# TASK — TOP11-RAMANA-RAMAKRISHNA-V2-PRE-EXTERNAL-001
+
+```
+task_id: TOP11-RAMANA-RAMAKRISHNA-V2-PRE-EXTERNAL-001
+cci_task: CCI_TASK 093
+issued_by: INDIA8
+issued_at: 2026-08-19
+state: READY_FOR_CCI
+mode: METHOD_V2 PRE-EXTERNAL BLIND
+```
+
+## Doel
+Maak vanaf nul twee landelijke corpus-first METHOD_V2 PRE-EXTERNAL freezes, in deze vaste volgorde:
+
+1. Ramana Maharshi
+2. Ramakrishna
+
+Heel India; geen regionale beperking.
+
+## HARD BLINDNESS
+Totdat de freeze van de betreffende persoon duurzaam gecommit is, mag CCI GEEN inhoud lezen uit:
+- `agent/chatgpt-top11-parallel-sweep`;
+- `agent/indiageel-ramana-ramakrishna-sweep`;
+- de India GEEL Ramana/Ramakrishna-freezes;
+- oude METHOD_V1/PHASE2 kandidatenlijsten als discoverychecklist;
+- externe unions/reconciliaties voor deze personen;
+- regionale/clusterbestanden die locatie-antwoorden kunnen zaaien.
+
+Blindheid per persoon apart bevestigen in de freeze.
+
+## METHOD_V2 VERPLICHT
+Per persoon:
+1. corpus inventory;
+2. lossless corpus occurrence extraction;
+3. event/place normalization;
+4. host/network graph;
+5. brede web discovery na corpuspass;
+6. spelling-/historische-naamvarianten en relevante meertalige routes;
+7. directe bronverificatie waar praktisch mogelijk;
+8. expliciete blockers + saturation attempts.
+
+Zoek ook micro-sites: huizen, kamers, scholen, stations, hotels, ziekenhuizen, ghats, tempels, caves, tuinen, routes, hosthuizen, retreats en andere fysieke sublocaties.
+
+Geen plaats afleiden uit context of een genoemde andere persoon. PERSONALLY_PRESENT expliciet scheiden van context-only.
+
+## Output
+Schrijf per persoon een eigen bestand onder deze taakmap:
+- `RAMANA_MAHARSHI_V2_PRE_EXTERNAL_FREEZE.md`
+- `RAMAKRISHNA_V2_PRE_EXTERNAL_FREEZE.md`
+
+Minimaal opnemen:
+- CORPORA_SEARCHED
+- SOURCE_ACCESS_BLOCKERS
+- HOSTGRAPH_SEARCHED
+- DISCOVERY_SEARCH_FAMILIES
+- NORMALIZED_RECORDCOUNT
+- LOCATION_RECORDS
+- CONFLICTS
+- UNRESOLVED_LEADS
+- gate-statussen
+- PERSON_SWEEP_SATURATED: JA/NEE
+- BLINDNESS_CONFIRMED
+
+## Duurzaam checkpointen
+Commit Ramana onmiddellijk zodra die freeze klaar is. Ga pas daarna naar Ramakrishna. Commit Ramakrishna afzonderlijk. Laat lang werk nooit ongecommit liggen.
+
+## Na beide freezes
+Stop. Open GEEN externe ChatGPT-freeze en GEEN India GEEL-freeze. Geen vergelijking/reconciliatie in deze taak.
+
+Plaats `CCI_RESULT — CCI_TASK 093` op PR #23 met:
+- beide commit-SHA's;
+- recordcounts;
+- blockers/gates;
+- saturationstatus;
+- bevestiging blindheid;
+- next_allowed_step = INDIA-QA en daarna aparte multi-detector-reconciliatie.
+
+## HARD HOLDS
+Geen Core-Kriya-heronderzoek; geen NKB/Ram Dass; geen cluster/regio/heatmap; geen A/B/C; geen permanente IDs; geen PDF; geen route; geen merge.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=94 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/PHASE2_SYNTHESIS.md blob_sha=119d0a6145c48501de0705d9a568fce9bffc6e0a original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# PHASE2_SYNTHESIS — landelijke Top-11-atlas + totaalsynthese
+
+```
+task_id: TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
+trigger: CCI_TASK 081 (AUTHORIZED_BY_INDIA, METHOD_V1.md), einddeliverable
+uitgevoerd_door: CCI
+afgerond_op: 2026-08-16
+detail_files: PHASE2_RESULT.md (9 personen), PILOT_RESULT.md + SATURATION_RESULT.md (2 pilotpersonen)
+```
+
+Dit bestand consolideert alle 11 Top-11-personen (2 pilotpersonen uit CCI_TASK 080 + 9 personen uit
+CCI_TASK 081/Fase 2) tot één landelijke atlas + synthese, conform de eindeliverable-eis in
+`PHASE2_TASK_081.md`. Geen bestaande Mark A/B/C gewijzigd. Geen PDF, geen route.
+
+## Aantallen (circa, gebaseerd op vastgelegde atlaspunten per persoon)
+
+| persoon | atlaspunten | tier 1 | tier 2 | tier 3 | saturated |
+|---|---|---|---|---|---|
+| Anandamayi Ma (pilot 080) | ~23 | — | — | — | JA |
+| Neem Karoli Baba (pilot 080) | ~14 | — | — | — | JA |
+| Mahavatar Babaji | 5 | 1 | 2 | 2 | JA (gecalibreerd) |
+| Lahiri Mahasaya | 5 | 2 | 3 | 0 | JA |
+| Paramahansa Yogananda | 10 | 6 | 3 | 1 | JA |
+| Ram Dass | 3 | 2 | 0 | 1 | JA (gecalibreerd) |
+| Sri Yukteswar Giri | 4 | 3 | 1 | 0 | JA |
+| Hariharananda | 4 | 2 | 1 | 1 | JA |
+| Vivekananda | 9 | 6 | 2 | 1 (gebundeld) | JA |
+| Ramakrishna | 7 | 4 | 2 | 1 | JA |
+| Ramana Maharshi | 6 | 5 | 1 | 0 | JA (gecalibreerd) |
+| **totaal (11 personen)** | **~90** | — | — | — | **11/11 JA** |
+
+Dit ligt ruim binnen de pilot-schatting van 130-220 punten voor alle 11 (`PILOT_RESULT.md`) —
+lager omdat de definitieve passes bewust methodisch selectief waren (TIER 3/vage claims niet
+kunstmatig opgehoogd) en omdat één brede parivrajaka-periode (Vivekananda) bewust gebundeld is.
+
+## Nieuwe missiekritische fysieke plekken (sterkste TIER 1, nog niet in repo)
+
+1. **Karar Ashram + Hariharananda Gurukulam (Balighai), Puri, Odisha** — twee onafhankelijke
+   Top-11-locaties (Sri Yukteswar's mahasamadhi + Hariharananda's hoofdashram/samadhi) op één
+   nieuwe staat. Sterkste nieuwe regiocluster van heel Fase 2.
+2. **Arunachala-cluster (Arunachaleswarar-tempel, Virupaksha-grot, Skandashram, Sri Ramanasramam),
+   Tiruvannamalai, Tamil Nadu** — Ramana Maharshi's volledige 54-jarige verblijfplaats, plus
+   onafhankelijk bevestigd door Yogananda's bezoek (1935) en losstaand door Vivekananda's
+   Kanyakumari/Rameswaram in dezelfde staat. Drie onafhankelijke Top-11-personen, één staat.
+3. **Belur Math + Dakshineswar Kali-tempel + Cossipore Garden House, West-Bengal (Kolkata-regio)**
+   — kern van zowel Ramakrishna als Vivekananda, nog niet in repo.
+4. **Wardha/Maganvadi, Maharashtra** — Yogananda-Gandhi-ontmoeting/Kriya-initiatie 1935, enige
+   Top-11-touchpoint in Maharashtra tot nu toe.
+5. **Yogoda Satsanga Sakha Math, Ranchi (Old Hazaribag Road), Jharkhand** — exact, officieel
+   toegankelijk, eigen bewaarde kamer van Yogananda.
+
+## Nieuwe zware regioclusters/signalen (`NEW_REGION_SIGNAL`)
+
+- **Puri/Odisha** — nu 2 onafhankelijke Top-11-locaties (Sri Yukteswar + Hariharananda), eerder
+  volledig afwezig uit de repo.
+- **Tamil Nadu/Arunachala-Kanyakumari-Rameswaram-as** — 3 onafhankelijke Top-11-personen, eerder
+  volledig afwezig uit de repo. Sterkste nieuwe regio van heel Fase 2.
+- **West-Bengal (Kolkata/Belur/Dakshineswar/Cossipore/Serampore/Kamarpukur)** — dicht cluster van
+  Ramakrishna + Vivekananda + Sri Yukteswar + Lahiri Mahasaya (geboorte) + Yogananda (jeugd),
+  eerder volledig afwezig uit de repo ondanks dat dit de kernregio van de hele Kriya-Yoga/
+  Ramakrishna-lijn is.
+- **Maharashtra (Wardha)** — één sterk punt, nog te dun voor een cluster, wel vermeldenswaardig.
+
+## Regionale misses (`REGION_MISS` — plek lag al in gesweepte regio, niet eerder gevonden)
+
+- **Almora (Vivekananda, "Lectures from Colombo to Almora", 1897)** — ligt binnen het al
+  gesweepte Kumaon-gebied maar is niet via de eerdere Kumaon-sweeps gevonden. Vastgelegd als
+  aandachtspunt voor een toekomstige Kumaon-vervolgronde; niet zelf opgelost binnen deze taak (buiten
+  scope van Fase 2 om nieuwe Kumaon-kandidaten toe te voegen).
+- **Mayavati Advaita 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=95 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/PHASE2_SYNTHESIS.md blob_sha=119d0a6145c48501de0705d9a568fce9bffc6e0a original_offset=4096 original_length=3809 payload_bytes=3809 chunk_index=1 chunk_count=2 classification=text
+Ashrama (Vivekananda)** — géén miss: bleek al aanwezig als tijdelijke
+  Kumaon-kandidaat `KB2-038`, nu bevestigd met een directe stichter-link.
+
+## Repo-person-link upgrades (`PERSON_LINK_UPGRADE`)
+
+| bestaande plek | nieuwe bevestigde link | bron-persoon |
+|---|---|---|
+| Kainchi Dham (Kumaon, al bekend) | + Ram Dass | Ram Dass-sweep |
+| NKB Vrindavan-ashram/samadhi (legacy DECISION-0008) | + Ram Dass | Ram Dass-sweep |
+| `VNS-CAND-002` (Lahiri Mahasaya's huis, Varanasi) | + Sri Yukteswar (herhaalde leerling-bezoeken) | Sri Yukteswar-sweep |
+| `KB2-038` (Mayavati Advaita Ashrama, tijdelijke Kumaon-kandidaat) | + Vivekananda (stichter, 1899) | Vivekananda-sweep |
+| Sri Ramanasramam (nieuw) | Yogananda (bezoek 1935) + Ramana Maharshi (eigen verblijf) | Yogananda- + Ramana Maharshi-sweep |
+
+## Duplicaten/samengevallen events correct gededuplic eerd
+
+- Kumbh Mela Allahabad 1894 (Babaji ontmoet Sri Yukteswar): één event, apart genoemd in zowel de
+  Babaji- als de Sri Yukteswar-sweep, NIET dubbel geteld.
+- Kumbh Mela Allahabad 1936 (Yogananda): apart, ander jaar, zelfde locatietype — apart gehouden.
+- Karar Ashram, Puri: zelfde fysieke plek voor zowel Sri Yukteswar als Hariharananda — apart
+  vastgelegd als twee onafhankelijke persoon-links op één plek, niet als twee plekken.
+
+## Echte blockers/conflicten
+
+- **Geen `MARK_DECISION_CONFLICT`** — geen enkele nieuwe vondst raakt een bestaand Mark A/B/C-besluit.
+- **Eén technische blocker**: `ramdass.org` gaf HTTP 403 op WebFetch tijdens de Ram Dass-sweep;
+  overbrugd via kruiscontrole met Britannica + officiële NKB-ashrambron. Geen inhoudelijke impact op
+  de saturatiebeoordeling, wel vastgelegd als `BRON_GEBLOKKEERD`.
+- **Eén expliciet afgewezen traditieclaim**: Haidakhan Babaji als fysieke manifestatie van
+  Mahavatar Babaji — bewust NIET overgenomen (betwiste claim, SRF/YSS ontkent identificatie).
+- **Eén bewust onbevestigd punt**: Hariharananda's persoonlijke aanwezigheid in Bhagalpur (alleen
+  guru's ashram bevestigd, niet zijn eigen verblijf) — niet als hard punt toegevoegd.
+
+## Methode-observaties voor INDIA
+
+- De host-/gastheer-as (verplicht sinds METHOD_V1) leverde bij vier van de negen personen
+  (Yogananda, Vivekananda, Ramakrishna, deels Hariharananda) een concreet, benoembaar gastheerfiguur
+  op (Maharaja van Kashimbazar, Raja Ajit Singh van Khetri, Rani Rasmani, Bhupendranath Sanyal) —
+  de methode werkt dus ook buiten de twee pilotpersonen.
+- Bij drie personen (Mahavatar Babaji, Lahiri Mahasaya na 1861, Ramana Maharshi na 1896) is
+  "op bezoek bij anderen" structureel `N.V.T.`/`NIET_GEVONDEN` gebleken — dit is elke keer expliciet
+  gemotiveerd vastgelegd (de persoon was zelf het vaste middelpunt), niet stilzwijgend overgeslagen.
+  Dit is een belangrijk methodologisch precedent: `PERSON_SWEEP_SATURATED: JA` mag met een
+  gemotiveerde N.V.T. op punt 4/5, mits expliciet uitgelegd waarom.
+- Vier onafhankelijke cross-persoon-bevestigingen op dezelfde fysieke plek (Kainchi, Karar Ashram,
+  Mayavati, Ramanasramam) bevestigen dat de landelijke persoon-atlas ook dient als interne
+  consistentiecontrole tussen personen, niet alleen als losse ontdekkingslaag.
+
+## Voorstel aan INDIA
+
+Geen automatische vervolgstap. Voorstel:
+1. Permanente nummering/reconciliatie voor de sterkste nieuwe clusters (Puri/Odisha,
+   Arunachala/Tamil Nadu, West-Bengal-kernregio) via een eigen reconciliatietaak, analoog aan
+   `KUMAON-V2-RESWEEP-001`.
+2. Kumaon-vervolgronde specifiek voor de Almora/`REGION_MISS`-vraag.
+3. `AOAY-FULL-LOCATION-ATLAS-001` (CCI_TASK 082) als volgende taak — al gestart in parallel op
+   verzoek van INDIA.
+
+Geen A/B/C namens Mark. Geen PDF. Geen route.
+
+---
+Dit bestand is de einddeliverable van Fase 2 (CCI_TASK 081). Detailtabellen per persoon:
+`PHASE2_RESULT.md`.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=96 path=india4/prompts/BRONS-B02.md blob_sha=1229ead7072e71b69570b181d2e7f934fb0b99e4 original_offset=0 original_length=649 payload_bytes=649 chunk_index=0 chunk_count=1 classification=text
+# BRONS-B02 STARTOPDRACHT
+
+Activeer GitHub, test read/write, open `india4/START.md`, `india4/roles/BRONS.md` en run `VARANASI-GEO-DELIVERY-REPAIR-001`. Voer uitsluitend `BRONS-B02` uit voor `VNS-CAND-011` t/m `VNS-CAND-020`. Lees alleen de runopdracht, kandidaatbron, beschermde Mark-besluiten, oude GEO-vergelijkingsbron en eigen voortgang. Pas exact de Google Maps-markerregel toe. Schrijf `BRONS/BRONS-B02.jsonl`, readback, commit en lever de volledige BRONS-B03-startvraag. Bij onvolledigheid schrijf `BRONS-B02-PROGRESS.yaml` met `next_candidate`, claim niet voltooid en geef een hervattingsvraag. Gebruik geen controller of SHA-administratie.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=97 path=india5/tasks/done/INDIA5-VNS-DISCOVERY-COVERAGE-003/RESULT.md blob_sha=12fe39d5e37e5445cb53c02d3316f14d59e0366d original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# RESULT.md — INDIA5-VNS-DISCOVERY-COVERAGE-003
+
+## Samenvatting
+
+Eerste inhoudelijke uitvoering van de PRE-BRONS/detectorarchitectuur. Vier PROVISIONAL
+detectoren geïntroduceerd en toegepast op Varanasi (straal ~20km). Resultaat: **5 nieuwe
+PROVISIONAL kandidaten** (permanente nummers 041-045, nieuw en vrij, geen bestaand nummer
+gewijzigd), plus meerdere gedocumenteerde negatieve/buiten-scope bevindingen. Geen enkele
+bestaande kandidaat, nummer, A/B/C-keuze, hotelbesluit, dataset of KML gewijzigd (bevestigd via
+`check_forbidden_writes.py`: `CONTROLE OK`).
+
+## PRE-BRONS-bevindingen
+
+Volledige brief: `runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/PRE_BRONS/REGION_CONTENT_BRIEF.md`
++ `.json` (gevalideerd met `india4/scripts/validate_pre_brons_brief.py`: `VALIDATIE OK`).
+
+Geïntroduceerde detectoren (allemaal PROVISIONAL, bibliotheek was leeg -- geen ACTIVE detector
+bestond vóór deze run): `DET-P001 LINEAGE_TEXT_DETECTOR`, `DET-P002 JAIN_HERITAGE_DETECTOR`,
+`DET-P003 ASI_ROYAL_HERITAGE_DETECTOR`, `DET-P004 GHAT_COMPLETENESS_DETECTOR`. Volledige
+definities: `PRE_BRONS/PRE_BRONS_DETECTORS.jsonl`. Deze zijn NIET canoniek ACTIVE gemaakt --
+dat is aan INDIA2, na deze run (conform `india5/GOVERNANCE.md` sectie 3).
+
+## Nieuwe PROVISIONAL kandidaten (5)
+
+Volledige records met betekenis- en GEO-velden:
+`runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/PRE_BRONS/DISCOVERY_CANDIDATES.jsonl`. Nieuwe
+permanente nummers toegevoegd aan `NUMBERING_REGISTRY.jsonl` (append-only, 40 -> 45, geen
+bestaand nummer gewijzigd/hergebruikt).
+
+| Nr. | Naam | Detector | Kern |
+|---|---|---|---|
+| 041 | Parshvanath Digambar Jain Temple, Bhelupur | JAIN_HERITAGE | Kalyanaka-plek 23e Tirthankara |
+| 042 | Suparshvanath Jain Tirth (Jain Ghat), Bhadaini | JAIN_HERITAGE | Kalyanaka-plek 7e Tirthankara, in dezelfde buurt als de hotelbasis |
+| 043 | Shreyansanath Jain Tirth, Sarnath (Simhapuri) | JAIN_HERITAGE | Kalyanaka-plek 11e Tirthankara, co-gelegen met bestaand Sarnath-cluster maar ANDERE traditie |
+| 044 | Ramnagar Fort (zetel van de Kashi Naresh) | ASI_ROYAL_HERITAGE | Enige koninklijke/wereldlijke locatie, vult een volledig ontbrekende historische laag |
+| 045 | Adi Keshava Ghat | GHAT_COMPLETENESS | Noordelijke tegenhanger van Assi Ghat (010), oudste Vishnu-site, expliciet niet-toeristisch |
+
+**Belangrijkste bevinding**: vóór deze audit was 0 van de 40 kandidaten Jain, ondanks dat
+Varanasi de kalyanaka-plaats is van vier Jain-Tirthankara's -- een volledige religieuze
+traditie op de exacte onderzochte plek was afwezig. Dit is precies het type "dramatisch te
+missen A-locatie" waar de discovery-audit voor is opgezet.
+
+Alle 5 zijn expliciet `protected_mark_status: DOOR_MARK_TE_BEOORDELEN` -- CCI heeft GEEN A/B/C
+toegekend. `geo_status: GOOGLE_MAPS_MARKER_NOT_CONFIRMED` voor alle 5 (identiteit met meerdere
+onafhankelijke bronnen bevestigd, geen Google Maps-marker geverifieerd -- dat is BRONS' taak,
+niet deze PRE-BRONS-audit).
+
+## Negatieve / buiten-scope bevindingen (bewaard met reden, RESEARCH_QUALITY.md-principe)
+
+- **Mahavatar Babaji Cave** (gerelateerd aan de Kriya Yoga-lijn, LINEAGE_TEXT_DETECTOR):
+  bevindt zich daadwerkelijk in Dwarahat, Almora-district, Uttarakhand -- NIET in Varanasi.
+  Verworpen als Varanasi-kandidaat (buiten regio). Eerste zoekresultaat (een blogtitel) suggereerde
+  ten onrechte een Varanasi-locatie; nader onderzoek weerlegde dit -- goed voorbeeld van
+  vindbewijs vs. inhoudelijk bewijs (RESEARCH_QUALITY.md).
+- **Chandraprabhu Jain Tirth, Chandrawati/Chandrapuri** (JAIN_HERITAGE_DETECTOR): kalyanaka-
+  plek van de 8e Tirthankara, coördinaten 25°27'56.1"N 83°07'46.7"E, ligt op ~34 km van
+  Varanasi -- BUITEN de gedefinieerde 20km-straal van deze audit. NIET toegevoegd als
+  kandidaat (niet om gebrek aan waarde, maar om scope). Aanbeveling: heroverwegen als de straal
+  ooit wordt uitgebreid.
+- **Overige, niet-specifieke ghats** (Raj Ghat en andere, GHAT_COMPLETENESS_DETECTOR): geen
+  vergelijkbaar specifiek onderscheidend verhaal gevonden (WHY_NOT_THE_OTHERS niet doorstaan) --
+  niet toegevoegd.
+
+## Toets van de bestaande 40
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=98 path=india5/tasks/done/INDIA5-VNS-DISCOVERY-COVERAGE-003/RESULT.md blob_sha=12fe39d5e37e5445cb53c02d3316f14d59e0366d original_offset=4096 original_length=3965 payload_bytes=3965 chunk_index=1 chunk_count=2 classification=text
+ (puur signalerend, GEEN wijziging)
+
+Een volledige, opnieuw-onderzochte betekenis-audit van alle 40 bestaande kandidaten (living/
+monumentaal, beroemd-maar-leeg) is in deze ronde NIET uitputtend uitgevoerd -- dat zou een
+even grote onderzoeksinspanning vergen als de discovery zelf en viel buiten de praktische
+scope van deze ene taak. Wel een gerichte constatering op basis van reeds bekende gegevens:
+- **VNS-CAND-040 Bharat Mata Temple** (huidige keuze C): een moderne (1936) tempel met een
+  reliëfkaart van India als hoofdattractie -- eerder een monument/curiositeit dan een plek met
+  doorlopende devotionele praktijk in de klassieke zin. Puur signalerend, geen wijziging aan de
+  C-status.
+- **VNS-CAND-032 Sarnath Archaeological Museum**: per `place_type` al als museum
+  gecategoriseerd -- "monumentaal" is hier verwacht en geen nieuw signaal.
+Geen enkele bestaande status is gewijzigd op basis van deze constateringen.
+
+## Saturatiestatus
+
+Per detector: minimaal 2 zoekbenaderingen uitgevoerd, meerdere bronfamilies per claim
+gekruist. **Geen van de vier detectoren heeft een formele afsluitstatus van 3 opeenvolgende
+non-productieve richtingen bereikt** -- deze ronde was één gerichte onderzoekssessie, geen
+meervoudige-sessie-verzadiging.
+
+- `DET-P001 LINEAGE_TEXT_DETECTOR`: `NOT_YET_SATURATED` (1 hoofdrichting onderzocht, 1 verworpen
+  lead buiten regio; geen aanvullende in-regio lineage-uitbreiding gevonden binnen deze ronde).
+- `DET-P002 JAIN_HERITAGE_DETECTOR`: `NOT_YET_SATURATED` maar wel high-value (3 nieuwe
+  kandidaten uit 1 hoofdrichting + kruiscontrole; een vierde kalyanaka-site buiten scope).
+- `DET-P003 ASI_ROYAL_HERITAGE_DETECTOR`: `NOT_YET_SATURATED` (1 kandidaat gevonden, verdere
+  ASI-monumentenlijst voor Varanasi niet volledig doorzocht wegens ontbrekende directe
+  ASI-database-toegang in deze sessie).
+- `DET-P004 GHAT_COMPLETENESS_DETECTOR`: `NOT_YET_SATURATED` (slechts een deel van de 84 ghats
+  systematisch beoordeeld op onderscheidend verhaal).
+
+**Sweepniveau: `NOT_YET_SATURATED`.** Deze audit heeft aantoonbaar waarde geleverd (een hele
+ontbrekende traditie gevonden) maar is nog geen bewijs van volledige regionale dekking.
+
+## Dramatic miss check (herhaald, zie ook REGION_CONTENT_BRIEF.md)
+
+Twee expliciet erkende, niet stilzwijgend opgeloste gaten:
+1. **Islamitisch/soefi-erfgoed van Varanasi is niet onderzocht.** Varanasi heeft een
+   aanzienlijke moslimgemeenschap en historische soefi-tradities. CCI heeft dit gebied bewust
+   NIET zelfstandig ingevuld met een specifieke kandidaat -- sommige locaties in dit thema
+   liggen gevoelig, en het toevoegen van een specifieke kandidaat zonder Marks/INDIA2's
+   expliciete richting leek onverstandig. Dit wordt hier expliciet aan Mark/INDIA2 voorgelegd
+   in plaats van zelf een keuze te maken.
+2. **Geen lokale insider-/priesterbron geraadpleegd** -- alleen webbronnen. Volgens het eerdere
+   filosofie-overleg is dit juist de belangrijkste bron voor werkelijk verborgen parels.
+
+## Wat NIET is gedaan (bewust, conform de opdracht)
+
+- Geen enkele bestaande kandidaat, nummer, A/B/C-keuze, hotelbesluit, dataset of KML gewijzigd.
+- Geen A/B/C toegekend aan de nieuwe kandidaten -- uitsluitend PROVISIONAL.
+- Geen detector canoniek ACTIVE gemaakt.
+- Geen PDF gebouwd, geen reisgids aangepast.
+- Geen GEO-marker-verificatie (Google Maps) uitgevoerd voor de nieuwe kandidaten -- dat is
+  BRONS' taak in een vervolgronde, niet deze PRE-BRONS-discovery-audit.
+
+## Aanbeveling voor een vervolgronde (niet uitgevoerd)
+
+1. BRONS-GEO-verificatie voor VNS-CAND-041 t/m 045 (Google Maps-markers zoeken).
+2. Mark/INDIA2-besluit over het Islamitisch/soefi-erfgoed-hiaat: wel of niet onderzoeken, en zo
+   ja hoe.
+3. Verdere verzadiging van de vier PROVISIONAL detectoren (met name ASI_ROYAL_HERITAGE en
+   GHAT_COMPLETENESS, nog niet uitputtend).
+4. Promotie/afwijzing van de vier PROVISIONAL detectoren door INDIA2.
+
+INDIA5-TASK-COMPLETE::INDIA5-VNS-DISCOVERY-COVERAGE-003
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=99 path=india4/templates/ZILVER_HANDOFF.md blob_sha=13079c5591f3e835469f3abf6a09e856d4be413e original_offset=0 original_length=662 payload_bytes=662 chunk_index=0 chunk_count=1 classification=text
+# ZILVER HANDOFF
+
+run_id:
+role: ZILVER
+completioncommit:
+
+## Dekking
+
+## Bestanden
+
+## Gecontroleerde BRONS-claims
+
+## Correcties en aanvullingen
+
+## Onzekere kandidaten
+
+## Beschermde Mark-besluiten
+
+## Readback
+
+## GOUD-startvraag
+
+GitHub GOUD: Activeer GitHub onmiddellijk en test read en write voor `bnzgxknwrv-tech/india-knowledge-base`. Open run `<run_id>` onder `runs/active/`, lees de oorspronkelijke `RUN.yaml` en de volledige BRONS- en ZILVER-output, voer de volledige INDIA 4 GOUD-rol uit, maak werkelijk alle verplichte praktische eindproducten, schrijf en commit alles, voer volledige readback en bestandscontrole uit, sluit de run en stop na GOUD.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=100 path=runs/active/TOP11-NKB-RAMDASS-MULTIDETECTOR-RECONCILIATION-001/STATUS.md blob_sha=132832e2b0de36a23b32f093c677b4d496813008 original_offset=0 original_length=387 payload_bytes=387 chunk_index=0 chunk_count=1 classification=text
+# STATUS — TOP11-NKB-RAMDASS-MULTIDETECTOR-RECONCILIATION-001
+
+state: QUEUED_AFTER_094
+owner: CCI
+blocked_by: CCI_TASK 094 completion/result
+inputs_ready: NKB IndiaGEEL 4cd99f5e45266dd3de0ed487e8147fd93ca525d9; Ram Dass IndiaGEEL e1f2e4b8bb56296e20bc0d3f6a3d2fbe9b7589cb; CCI091 existing reconciliation
+next_allowed_step: after CCI_RESULT 094, INDIA8 may relay CCI_TASK 095 on PR #23.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=101 path=runs/active/TOP11-NKB-RAMDASS-MULTIDETECTOR-RECONCILIATION-001/TASK.md blob_sha=13adf2d4fac8d8a7bbafa8508861d668f4286db7 original_offset=0 original_length=1366 payload_bytes=1366 chunk_index=0 chunk_count=1 classification=text
+# CCI_TASK 095 — NKB + RAM DASS MULTIDETECTOR RECONCILIATION
+
+STATUS: QUEUED_AFTER_094
+OWNER: CCI
+WORKBRANCH: claude/werk-je-nu-of-niet-oa10y7
+
+## Voorwaarde
+NIET starten zolang CCI_TASK 094 nog niet volledig is afgerond en `CCI_RESULT — CCI_TASK 094` nog niet op PR #23 staat.
+
+## Doel
+Na 094: voeg India-GEEL als derde onafhankelijke detector toe aan de bestaande CCI_TASK 091-reconciliatie voor Neem Karoli Baba en Ram Dass.
+
+Gebruik:
+- bestaande interne METHOD_V2 + ChatGPT externe reconciliatie uit CCI_TASK 091;
+- India-GEEL NKB freeze SHA `4cd99f5e45266dd3de0ed487e8147fd93ca525d9`;
+- India-GEEL Ram Dass freeze SHA `e1f2e4b8bb56296e20bc0d3f6a3d2fbe9b7589cb`.
+
+Integriteitscheck beide GEEL-freezes vóór inhoudelijke vergelijking. Voer volledige bidirectionele lossless delta/reconciliatie uit, met directe bronverificatie voor betekenisvolle nieuwe delta's/conflicten. Houd exacte fysieke overlap en alleen-stad overlap apart. Update per persoon CORPUS/HOSTGRAPH/DISCOVERY/RECONCILIATION/EXTERNAL_MODEL_DIVERSITY gates en benoem travel-relevante unresolved gaps afzonderlijk van academische micro-gaps.
+
+Geen Ramana/Ramakrishna, geen nieuwe persoonsweep, geen regio-/clusteronderzoek, geen A/B/C, route, nachten, IDs, PDF, merge of PR.
+
+Checkpoint NKB, daarna Ram Dass. Plaats na afronding `CCI_RESULT — CCI_TASK 095` op PR #23 en stop voor INDIA-QA.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=102 path=runs/active/BODHGAYA-DISCOVERY-001/ZILVER/ZILVER_Z02_GEO_ATTEMPT.md blob_sha=14927ef41a499b2590628aa450ce0d8729de3690 original_offset=0 original_length=4044 payload_bytes=4044 chunk_index=0 chunk_count=1 classification=text
+# ZILVER Z02 — laatste gerichte GEO-poging voor 048 en 049
+
+run_id: BODHGAYA-DISCOVERY-001
+geschreven_op: 2026-08-03
+geschreven_door: CCI
+
+Op verzoek INDIA2/CHATGPT (bericht 003): een laatste, gerichte poging om een rechtstreekse
+officiële Google Maps/Earth-entiteitsmarker te vinden voor de twee kandidaten waarvoor dat in
+ronde Z01 niet lukte. Geen identiteit, betekenis, nummering, PASS-tier of A/B/C gewijzigd. Geen
+GOUD, KML, PDF of reisplanning.
+
+## 048 — Dungeshwari Cave Temples (Mahakala Caves)
+
+**Uitkomst: `GOOGLE_MAPS_MARKER_NOT_CONFIRMED` (ongewijzigd).**
+
+Geprobeerde zoekroutes (drie, wezenlijk verschillend):
+1. Directe combinatie van de kandidaatnaam + "Mahakala Caves" met de zoekterm
+   `google.com/earth/rpc/entity` — geen entiteitslink in de resultaten.
+2. Dezelfde combinatie met expliciete technische termen ("fid", "coordinates", "place") — geen
+   resultaat, zoekmachine bevestigt zelf geen technische Maps-data te hebben gevonden.
+3. Alternatieve officiële naam "Dungeshwari Mandir" (zoals gebruikt door tourism.bihar.gov.in)
+   gecombineerd met dezelfde technische termen — geen resultaat.
+
+Aanvullend geprobeerd: een direct Wikipedia-infobox-coördinaat (zoals wel bij 049 gevonden) —
+geen dedicated Wikipedia-artikel onder de naam "Dungeshwari Cave Temples" gevonden (HTTP 404).
+
+**Geen marker geforceerd.** Identiteit blijft eenduidig bevestigd via twee onafhankelijke
+overheidsbronnen (tourism.bihar.gov.in, incredibleindia.gov.in) en de dorpsnaam Larpur. De reeds
+in ronde Z01 vastgelegde `GOOGLE_MAPS_MARKER_NOT_CONFIRMED`-status blijft ongewijzigd staan.
+
+## 049 — Great Buddha Statue
+
+**Uitkomst: `GOOGLE_MAPS_MARKER_NOT_CONFIRMED` (ongewijzigd).**
+
+Geprobeerde zoekroutes (drie, wezenlijk verschillend):
+1. Kandidaatnaam + "Bodhgaya" + technische Maps-termen ("fid", "lat lng") — geen entiteitslink.
+2. Herhaling met expliciete coördinaatvraag — leverde uitsluitend het reeds bekende Wikipedia-
+   infobox-coördinaat op (24.690472°N, 84.981806°E), geen rechtstreekse Google-entiteit.
+3. Zoekopdracht op de eigenlijke eigenaarsnaam "Daijokyo Buddhist Temple" + technische termen —
+   geen entiteitslink; wel een aanvullende, niet-GEO-gerelateerde bevinding (zie hieronder).
+
+**Geen marker geforceerd.** Het Wikipedia-infobox-coördinaat blijft uitsluitend
+vergelijkingsmateriaal, zoals al vastgelegd in `ZILVER-Z01.jsonl`.
+
+**Aanvullende, niet-GEO-gerelateerde observatie (identiteit NIET gewijzigd, uitsluitend
+gemeld)**: één bron (holidify.com-achtige samenvatting) noemt "Daijokyo Buddhist Temple, ook
+bekend als de Indosan Nippon Japanese Temple" — dat zou de eigenaar van het Groot-Boeddhabeeld
+(049) gelijkstellen aan de apart op de WATCHLIST staande "Japanese Temple (Indosan Nippon
+Temple)" (BGY-WATCH-009). Andere bronnen (bijvoorbeeld de eerdere internationale-kloosters-
+zoekronde) behandelen deze als twee aparte instellingen. Dit is NIET opgelost of gewijzigd in dit
+rapport — uitsluitend vastgelegd als open identiteitsvraag voor een toekomstige ronde, conform de
+opdracht om geen identiteit te wijzigen binnen deze GEO-only taak.
+
+## Afgewezen markers
+
+Geen enkele marker is voor 048 of 049 als kandidaat-marker aangetroffen — er was dus niets om
+tussen te kiezen of af te wijzen. Dit onderscheidt deze twee van 047 in ronde Z01, waar wél
+meerdere markers/coördinaten bestonden en een keuze gemaakt moest worden.
+
+## Samenvatting
+
+| # | Kandidaat | Zoekroutes geprobeerd | Resultaat |
+|---|---|---|---|
+| 048 | Dungeshwari Cave Temples | 3 (naam+entiteit, naam+technisch, alternatieve naam+technisch) + Wikipedia-infobox-poging | Geen marker, status ongewijzigd |
+| 049 | Great Buddha Statue | 3 (naam+entiteit, naam+coördinaat, eigenaarsnaam+entiteit) | Geen marker, status ongewijzigd; identiteitsvraag Daijokyo/Indosan Nippon gesignaleerd, niet opgelost |
+
+Geen identiteit, betekenis, nummering, PASS-tier of A/B/C gewijzigd. Geen GOUD, KML, PDF of
+reisplanning uitgevoerd.
+
+---
+Geschreven door: CCI, op verzoek van INDIA2/CHATGPT (PR #23, bericht 003).
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=103 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/REGIONAL/USER/VARANASI_40_KEUZE.pdf blob_sha=14c60d9f8b8abb7271bff25907c168cf506de66e original_offset=0 original_length=4096 payload_bytes=5464 chunk_index=0 chunk_count=8 classification=binary
+JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUiAvRjMgNCAwIFIgL0Y0IDUgMCBSCj4+CmVuZG9iagoyIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GMSAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjMgMCBvYmoKPDwKL0Jhc2VGb250IC9IZWx2ZXRpY2EtQm9sZCAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjIgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iago0IDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGRPYmxpcXVlIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GMyAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjUgMCBvYmoKPDwKL0Jhc2VGb250IC9IZWx2ZXRpY2EtT2JsaXF1ZSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjQgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iago2IDAgb2JqCjw8Ci9Db250ZW50cyAyMCAwIFIgL01lZGlhQm94IFsgMCAwIDU5NS4yNzU2IDg0MS44ODk4IF0gL1BhcmVudCAxOSAwIFIgL1Jlc291cmNlcyA8PAovRm9udCAxIDAgUiAvUHJvY1NldCBbIC9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXQo+PiAvUm90YXRlIDAgL1RyYW5zIDw8Cgo+PiAKICAvVHlwZSAvUGFnZQo+PgplbmRvYmoKNyAwIG9iago8PAovQ29udGVudHMgMjEgMCBSIC9NZWRpYUJveCBbIDAgMCA1OTUuMjc1NiA4NDEuODg5OCBdIC9QYXJlbnQgMTkgMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjggMCBvYmoKPDwKL0NvbnRlbnRzIDIyIDAgUiAvTWVkaWFCb3ggWyAwIDAgNTk1LjI3NTYgODQxLjg4OTggXSAvUGFyZW50IDE5IDAgUiAvUmVzb3VyY2VzIDw8Ci9Gb250IDEgMCBSIC9Qcm9jU2V0IFsgL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdCj4+IC9Sb3RhdGUgMCAvVHJhbnMgPDwKCj4+IAogIC9UeXBlIC9QYWdlCj4+CmVuZG9iago5IDAgb2JqCjw8Ci9Db250ZW50cyAyMyAwIFIgL01lZGlhQm94IFsgMCAwIDU5NS4yNzU2IDg0MS44ODk4IF0gL1BhcmVudCAxOSAwIFIgL1Jlc291cmNlcyA8PAovRm9udCAxIDAgUiAvUHJvY1NldCBbIC9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXQo+PiAvUm90YXRlIDAgL1RyYW5zIDw8Cgo+PiAKICAvVHlwZSAvUGFnZQo+PgplbmRvYmoKMTAgMCBvYmoKPDwKL0NvbnRlbnRzIDI0IDAgUiAvTWVkaWFCb3ggWyAwIDAgNTk1LjI3NTYgODQxLjg4OTggXSAvUGFyZW50IDE5IDAgUiAvUmVzb3VyY2VzIDw8Ci9Gb250IDEgMCBSIC9Qcm9jU2V0IFsgL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdCj4+IC9Sb3RhdGUgMCAvVHJhbnMgPDwKCj4+IAogIC9UeXBlIC9QYWdlCj4+CmVuZG9iagoxMSAwIG9iago8PAovQ29udGVudHMgMjUgMCBSIC9NZWRpYUJveCBbIDAgMCA1OTUuMjc1NiA4NDEuODg5OCBdIC9QYXJlbnQgMTkgMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjEyIDAgb2JqCjw8Ci9Db250ZW50cyAyNiAwIFIgL01lZGlhQm94IFsgMCAwIDU5NS4yNzU2IDg0MS44ODk4IF0gL1BhcmVudCAxOSAwIFIgL1Jlc291cmNlcyA8PAovRm9udCAxIDAgUiAvUHJvY1NldCBbIC9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXQo+PiAvUm90YXRlIDAgL1RyYW5zIDw8Cgo+PiAKICAvVHlwZSAvUGFnZQo+PgplbmRvYmoKMTMgMCBvYmoKPDwKL0NvbnRlbnRzIDI3IDAgUiAvTWVkaWFCb3ggWyAwIDAgNTk1LjI3NTYgODQxLjg4OTggXSAvUGFyZW50IDE5IDAgUiAvUmVzb3VyY2VzIDw8Ci9Gb250IDEgMCBSIC9Qcm9jU2V0IFsgL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdCj4+IC9Sb3RhdGUgMCAvVHJhbnMgPDwKCj4+IAogIC9UeXBlIC9QYWdlCj4+CmVuZG9iagoxNCAwIG9iago8PAovQ29udGVudHMgMjggMCBSIC9NZWRpYUJveCBbIDAgMCA1OTUuMjc1NiA4NDEuODg5OCBdIC9QYXJlbnQgMTkgMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjE1IDAgb2JqCjw8Ci9Db250ZW50cyAyOSAwIFIgL01lZGlhQm94IFsgMCAwIDU5NS4yNzU2IDg0MS44ODk4IF0gL1BhcmVudCAxOSAwIFIgL1Jlc291cmNlcyA8PAovRm9udCAxIDAgUiAvUHJvY1NldCBbIC9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXQo+PiAvUm90YXRlIDAgL1RyYW5zIDw8Cgo+PiAKICAvVHlwZSAvUGFnZQo+PgplbmRvYmoKMTYgMCBvYmoKPDwKL0NvbnRlbnRzIDMwIDAgUiAvTWVkaWFCb3ggWyAwIDAgNTk1LjI3NTYgODQxLjg4OTggXSAvUGFyZW50IDE5IDAgUiAvUmVzb3VyY2VzIDw8Ci9Gb250IDEgMCBSIC9Qcm9jU2V0IFsgL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdCj4+IC9Sb3RhdGUgMCAvVHJhbnMgPDwKCj4+IAogIC9UeXBlIC9QYWdlCj4+CmVuZG9iagoxNyAwIG9iago8PAovUGFnZU1vZGUgL1VzZU5vbmUgL1BhZ2VzIDE5IDAgUiAvVHlwZSAvQ2F0YWxvZwo+PgplbmRvYmoKMTggMCBvYmoKPDwKL0F1dGhvciAoSU5ESUE1LVBST1RPQ09MIHJlZ2lvbmFhbCBHT1VELXBha2tldCkgL0NyZWF0aW9uRGF0ZSAoRDoyMDI2MDgwMjExMTI1NiswMCcwMCcpIC9DcmVhdG9yIChcKHVuc3BlY2lmaWVkXCkpIC9LZXl3b3JkcyAoKSAvTW9kRGF0ZSAoRDoyMDI2MDgwMjExMTI1NiswMCcwMCcpIC9Qcm9kdWNlciAoUmVwb3J0TGFiIFBERiBMaWJyYXJ5IC0gXChvcGVuc291cmNlXCkpIAogIC9TdWJqZWN0IChcKHVuc3BlY2lmaWVkXCkpIC9UaXRsZSAoVmFyYW5hc2kgdm9sbGVkaWcgcmVnaW9uYWFsIGtldXplLW92ZXJ6aWNodCBcKDQwIGthbmRpZGF0ZW5cKSkgL1RyYXBwZWQgL0ZhbHNlCj4+CmVuZG9iagoxOSAwIG9iago8PAovQ291bnQgMTEgL0tpZHMgWyA2IDAgUiA3IDAgUiA4IDAgUiA5IDAgUiAxMCAwIFIgMTEgMCBSIDEyIDAgUiAxMyAwIFIgMTQgMCBSIDE1IDAgUiAKICAxNiAwIFIgXSAvVHlwZSAvUGFnZXMKPj4KZW5kb2JqCjIwIDAgb2JqCjw8Ci9GaWx0ZXIgWyAvQVNDSUk4NURlY29kZSAvRmxhdGVEZWNvZGUgXSAvTGVuZ3RoIDI0NDEKPj4Kc3RyZWFtCkdiIi8oPkJBZkQmcTlTWWtYVSItJCciQDQ6TElyZVo1PVMuM2dDQ1pZLUJmIVpkc2gkX1RtJlxhLztFZGAuRzhhM04nMF5gIS5KQTFPWVxacTdeYTlKOmJQM3EiLGJcVGFTT0UiR2RFUSF0XGJoXzQ/LDpUKUVoJVdnTydSMissdFBZXU5mJW4uc1g3WVlrbi1fJjVpZk5EUy4uMmFXP04mNmhcKTw/WS1vQTtfa0lNJWEsOTNrJHJCMSFNW0smai5JS2FGIyRvYW9cMFFQX1NcSzJJRGw6NEwrTi9wSnM6KjQxXUdCbVVwTT0iMm4vTGBBQiYxTyM2UkA6Tkk6KWNnKUddbCheL1tXOTBhJzVOMiZTRz50WCljQWleUEUuVmM/RkttaVNpSkZZKXBnYFxzZGY7R24tR0pPPiJsJ1VNS0JaYnVROkIublxvSy5YPkEqcW4xajxnQWoxMXM2IkpFISlvMSsnLDVoZTZGImZSO244cj4yTGxKQEpCUmNLPGxLR1E+Nj9CIzJFRj5LUSJaY2gkdHBAakFxQUYmMGkkKVhFMilHaWViWFlRXV4mJGY1SE0oNSEoQ0g+TlojRy9iaGpcNlJwW2dscmlwJmImUyxVbFFbI2VDKFsma0xiIkBcZHE/JGdEW2NdZGUxVW1tV281YjQ8Mkw0NTdramA4WjtZMz1DOGZUYDNudEwuZDlPbSVMLnRpUmRUJnBLZFYxXktZa1glVzNlIlNjZC09N1UwVGIvcS51NildVl4kZTAqbj1HS1klRkRIUFdWWCxOaEwiWyg4VksrJ3RiPUdRN0pFMUxXSSoyQDNcSl41NEYrMG03NA==
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=104 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/REGIONAL/USER/VARANASI_40_KEUZE.pdf blob_sha=14c60d9f8b8abb7271bff25907c168cf506de66e original_offset=4096 original_length=4096 payload_bytes=5464 chunk_index=1 chunk_count=8 classification=binary
+UWYidUZxTyRsdT47PFgjM0k+O0FwZj1KUkdnJUhlZ242I0RpLV5ARjRvWk1baWRmIypXbE1nO0skUV1YPEwuLj9BQiFSbG1LOkVHJSdGPUAtbChLclhzPU5zMjRNa1pYcD1RWkdIUSFHRlJUVUNkQCQ8NF5yNiwsYFZCX0c2KmJDbUhWLF5yQThrRVlmOSwpZSttKlY0YltBZDpwK0BqKSFLL0E7S2JlL0xaOWdNPihuSyFoOlY3LWNSRU1kSFZsP14lWl1icXBlbmk1Ll1sMVpJU0g8LW9aO0thbktpYkNQMj1dbEMwY1dMIjolQT9gUlhKdWk8XkdVVDhaTFU1Rl0zMmRnZDRqaWlBRmlkVDVzMlhEIy5SJl5OUWQ6QmdYLGQzNy5qM2AsWyMxYTZlKytTa1RIUnBZIW5hZFNAM2RaRHMxQmxmISpcQyVjOTI0cHI4aFZvSFI6PHQiMzpPM1hVIWhDKDNpOj1aUSIpOlVeSktENCdHTHNmKSs2LlBbRyhyIj1ON01Jaj8lYjgtQCFNb3NDajkhSG1hW1w9OmtQNzYtUTMoITZgOnJGTmZuVCZUKy5aaG9vNl89M2pdSlFPVFVDVGtNVWpGJTZXZlI/TVMxZyFPN2M9VkJvaDFONF5iOFYhSVVtUCZBX05QcGYlYzs0OFFATnFIYEptalpDJUhlTl5hI1lJXmhYQjdKYDxqYU1pYzhFbkk+SWM0I3NfUylzbGxAJFRjZHFuPjQsZ2FzWEpWUFVcaXE/YFkydFd0cmU7TDlbN0FdUEUmOlZCKUw4KUFdS2lEV2BlZUdpUFJbcl5HTXBodTxuV1tPTFklVTs+OmZ1KSNxQzwlPV1aXCg6MFI2J3RyRlY0VzxLZ1VuKUlbPzVbKj5pWUx0NC00KDk5KjhVJUsuZ1slYT0hXGo4VTRNLiwtI1R1KCNPLlc4TkRJOF0tSG81OV1pLWFUPDQjYFdbVSEjPlwjaWIxNGg5Y1U1TERBR1tXaTY6WWUxXF47Sz0xci5ES2x1QSo7RzllIltvXy00Pk0lNTIrdGleQHAyN18yQEwiJyNvcF0nTj4oJE1HJztNWzpMJTtXJydsKlEiaUNGVmMmTlVcJTxPV0spN2pKQEBbS3ElJU5NJj8zT2Y3ajleY3VYRSVrbWZeSC40Z3VXYWxWO1BcJU5ebmBUdXNEbVFYMEFiPzxQPyEoS29TdXQiJEttPyNgL2R1RzZkI2BtTEtYQks1az9ba0lrOzdtXlBrbHE4QDZbOU9DaWoqRWtFMkEiTkNrWi5EQFRYYm1yUEtAM0ZsSjFYTi1mVilyYCtTYC5HWi1KKURrMFJMPCFYbmk0XjJybjFxKDAyR10jOjRvTFxmLS9gPykkO09Lby8kY20hYy8kOEZPNnRGXFNnJG1iS2UwKHBtMiJeaVI/MV4xOzdnQlBKSV8vUzxAQklKZWgrXDQsIT5QKWVidEc1KS48c1Q/LFVCREFcXyslPDZNVUhRVm42Zz1CdGpjSGcmODwmWyZZS2syamYzXFoqV2shJWlJTjA1Rmw3R0csblVsYFdYYl9NOWk+VkkpQjFddS5XaTRObUYwSlcjVDNUUVBXbSElYVZtP0o1Kzp1RGg9R1VXLUJjZ1o+IzYjaFpnZ2dHVUstWz5nMXBIaC06VSdUOCZDZjRvIyVoSE5qQ3IhIjRZcTRyMFtJZDhkTSR1MFNqLClLQ2EyZ0ZeNENfdC9cYGktJUEsW0dEKjdcKkQxaSk8Lj05c3NVNzNxPVxmLCpDQ2hoL3JlQWhiIVo+MW5vQ1xAZD9Ta2oiPnVPUWE4YVtrbXMpXz9XYilkNTBxO0wxQWknamlkNjtXYm4hTy5KJWU9KkBzKkFAU18hVzMoLC9iKjdFPmxCMlBEQkRmT0guTnUla3REU0pma2w+JGcxKmIrPVlqVDEpY0tOL1lBP01ITlBpbWU3Jj1qXl0uMVxpVVpYRDVjNEtTRUsscyVAJy5yKzU7Q1U+WmpIJCJlaEpKaVg0UCNQUGh0Li4uc3IoVU1KZG5cPiMhR05XPygyWj4iV0lAUGVEQilfaStmPldSOyhxVjE8SCo5N08qXFBNbmBrdTlpcFBSXzxBNEFrS0lTJV9QSnJFQCpYRiRTJlJMclVvQiY5SFpEPyFOSW9wLy5YIjpdXnJiZ0YjMDBKVWtqMCtDWSFMJS5gI2EzZ0A4XytzIXU1W2pMXF1NKTtiVD5vKDxpR2kybFFedEpWP2goRUtxIT1IaHIvbWw5IiVGZGpyZV1bMy8ucXEkTGUkNl1gSlFsVyQvPURdalxbPzlzIi9uP1FZaiMkcj1jSj5bYC1zLTdFQzRsVV00OltyYTUyOC0iZVYlYj4tM1BPOy9CVDouJyMpbExDKVRzLUFJYkVoTlw8MztYQHJKTzJwfj5lbmRzdHJlYW0KZW5kb2JqCjIxIDAgb2JqCjw8Ci9GaWx0ZXIgWyAvQVNDSUk4NURlY29kZSAvRmxhdGVEZWNvZGUgXSAvTGVuZ3RoIDI0NTEKPj4Kc3RyZWFtCkdiIi8pPyQjI0YmcTBNWGtiZVFdNVxUY25HVW8mQkQ4SzIvSkgwWz4uQjZWVClQZilTNlVucjxxQjxVOjRkJEAjbE9XQFRtV0VFTG0vazRiPjJAWipxamBkQjVmWzVwXjxUZFtWXD8kLzlSbXM2PVRHXWAkUlMjTTpRR0U6LDVGcFFlL0Y9NEQqbCxxMXUjQWg0OmQzKSIwdC9VKy9NRjhCUE5xTSxJYDUyKElsMlZCTUZrcVRdMTlcYFYhJ09CdThPWDlXaGdwNlUiXyJucVtsRWNrWVFtNCdOO2wmcGNDcSQmKSw+UEE5cTRLMzVvOFByLDNpWU1zZEwsX3EzXkJzbVUrWT1YPG4lamdtTiouVkgvPnBpWTk3TlNLLXA/SUxdJSRKNVRgZy1wbGs1ZzJROUEjQ3I0RlVGZEt1bTg6LWVLJ18+S1tRYSp0ZWM6OV8mQCJQIXEoLExjJktmbyZHQzFIUnUwRUspJTYkZGoyIl5NQDc6Ly90dGFrOm45OidldCpiUFNOQ28vLEA2anBSb2lnYjxdXV4qYW5UVnQ0MjNpQjo0QWZWXkZbbTpuXVVwQUczOE1FQ1YmQj40O0NAdVgoOnROVUwySSwqQlwyNStYVG5lOlZEO0FdYj9wNTtvM0lwJ2NqQzIkKTRLcCpyOWJrSTRzUCEuX2VoMWA8bWp1ZmFXcShQTFFwOlRHPGdzQzk9PUNvKXEqQHBgWTd0XHJLYzNqcFhTOjNQcyJxZE1Pc0AuVCY0dVdcRTBRT1BsUG4wOGVxcFcqSjxgTEtHXEBgYWArJE9lNyhwY1xrMkNvQD4qdCpxMEZCWVo8TU1kK1MsVV5RKlZEbEFsMzZvUChfMVAvZWNgTyRcLlRVPDFdUEEvZEEnXyZxTGlBVUFNI0Qxa3BXSUBKQSkhOUl0ZFovdVAuWz8qbyVpZ1M+UlQyKmteSVwhSTtGaCsqcVpmc1xfIkAhZzVCJ1E2XClYMDhJbiYhLnFRW1NlOkJrZl02b0c0PC5YRjFqXE1ONGlBIV47TXIoOUFUU2koKCNSaS1TSlZoYlQ8bFE6VlQ3Z2taNmZZRFIqYUFgNCpwcm5DZztEImlMOGZFPEJMNjdGaCUxUnJMZiprUHFAX1ROYWAoIUFpVT1QaElAI2RGTHBQJk1YRjxTY1JlU0M5STU1OSs5QU9TMEhDclNQJmRmOic4XFg3RlxjOVQmTjhcO0cnWnE4KEJyYkhLcS80P1VRP2lsXSlyP05XW0VJTDRAM0pEIlloPiU/MCJEMlhMMSF1YG5NbUJoY0ZYUykhaENoU2hxRT0nPF81WlwvKidwR0hDY1FddGROMUU0KFxLYzhiIVd1PFZXbVRPYEQ9MChbXDdjXyRTPl8uOStsKEYoUjMnLGQ2IUBKO2RXcyVTLzg6bWtNcyUsTkttJEUjYClQUlAuXk1aLStDcUJJS1JFZSZiOktjUFNkcDdVIWE1RzU2ImshJVY6SypBWFRtZk5uSCVfcEciRSROOUo9R0omYHNvWD51PDk1Wz9XZWspTWExKVMlJSMyKmZAbUxCcnRcMyoyP3JxIj5nTC1lb14+JEhDSGhRUEkrVSojLEMkX2ZeNT5JX3BSREo0NzNVVERAYyU1X3JxTDVTUjIzWV9CIlssQWI7WlpdJzllUT0oZDBiY2VadTtxdHBGaThQOjlpOlgvTTpycilnKUlzOFtnSlRMSEhwJDZBQF4sZyxrZDxXQFVtUV1vOCtaKyNpL3BtN2JUamFFTlRvOVRII3JaK3VIbSg0XSVIV3RtcU1jW00naWQkcyptWitaMC1ZcDFCU0taLmZpOG07QkhIcHQ6LD0mOCg1VV5WV2VdU1BnPzguOmNkOydPXiRpSzBOcisuNkxRSmgwMG9YImxPLForRk83YzYlLFMwLFxvWWwsPmg4PyJAK1kublJGVEBDYGZOKyMxKyFMT0k/SlU1czJOcDtpYnEuckk0azVjSVRvcmxRTWJXQ01dVzhFXzlKTGk7J3JRRUM3PDxddWNQL1Q+Rz4kXTteQlEuIXAhYGI/Y0Z0MWAuYnBwUU5EODszbTpYR2chNjFLJD48RTZPNE5WQ2ZSQTdqVWl1WGU8ODYhTlBTOU0paW9kJnU9azosRHVGNWdhXkolX041N2QpM2RqPEZtZyVPPj1baUFAMktgRFhTZFVaa2o7S1N0NUU6OlFzUDpwSy1HcnQtYGhEI0ZmQFomKmgpW21cMXEtO15WQlxccFdDMkMmUEc+UE4jZ0ZiKE11ZjpWY3NycmsscUVWdGY9P14jVi5obi8maFwpNGw+YTVjUzwnIUsjbl9rRCZlblg8MjxFVC9ocmohdGRdZDY3KF47JiJlMj1FJyo5PUk9TD5ZdXBLVWEpLj8uUW5XdUU4L0RqWkg8ZjoyJkBndGJUNEkmWClhRC1gbjklbWVgKSREX1hERjFcXUQjKzpYa1JMV0w3T1FuV0ptJ0xNczRKJVlMJSU1YiJPSyJlUVxRT0pVbTlQcXFMJ3NhT2VyL3JzOEU9L2MtIT9ZQ1hSaC9Xb0tjIVxiOy9cYSRucS5MPFNRLVFDIzYuLz9sXElnWzZkIjhiQGtybDJYdGlTTGgkbEZXOFNZSys1b3JiX1hfJWM1cUlTJlg8SVxUX1IpYG4jbWxIQ1YqL2I6LDx1ckJkdE1pc1cqYSItJU1zWy4tQ0UpNSVWTS9KRmlJcSZLMzZaLTtHWmxkIjhWbW1QKUxucjxqa0xsZWhoVE0hNWNPKU0tOmFBXz1qI2kpIkU8ays/NXFXSUVwaVE4cEs6KWpXXG4kQDomOlkiRkI1JTxlQyRWTVIoUGVkWXRJMEJuW0ZML2dHLmJIJyVrLGRdIig8L0k2RV8yRCthMD5SJixlZGkrU1dPUGJWWCJCcWkxU0wmJ1VMMCJqXlRhbFJZPw==
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=105 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/REGIONAL/USER/VARANASI_40_KEUZE.pdf blob_sha=14c60d9f8b8abb7271bff25907c168cf506de66e original_offset=8192 original_length=4096 payload_bytes=5464 chunk_index=2 chunk_count=8 classification=binary
+Rzw6XytXLGU0UmljPVFERWU1dE1SOjxuMVtqaydLPi8rNmAxSD9vMlZqOXRLX1MzdWVgIic1Y2pFYkItOSU8T1ZgS15xUU4xbFBKMUg9WDs/Mj81JF0rRjs1OVdMWz5mP1w6OSpFUGsrSzY2Li4wIWNbUzFkYk1lVmJWXztiTDlVTlxsQy4mKjtUc2EzSSFhdXVrYlJuRDo+ZyxQTCNwSVJhLE9AQGo4O1ErTlgnND1xKSRKPyoyNEJoZipZXDNZXWk6LSgjTWFzWGU+O3UvJixTUm1IUEQ0Pyo1QGA8P1U3WytbX0RPTydBMExrMEM1a2cwPUxjZDgsaVJFJ0hldH4+ZW5kc3RyZWFtCmVuZG9iagoyMiAwIG9iago8PAovRmlsdGVyIFsgL0FTQ0lJODVEZWNvZGUgL0ZsYXRlRGVjb2RlIF0gL0xlbmd0aCAyNDE3Cj4+CnN0cmVhbQpHYiIvKD8kIyNGJnEwTVhrYmw/b0paUjZIcGNkSnJEMVk+NTMnYi1hLkI2VlQpVDNJSTZVaC5HcVZoR0lnRVN1KSJQXiQwXTVeYUIjSV5GKjpOb1YvM0cwVD0tQFYwRkYjWD1fbUQ4Pj0iR2Q1cCZKMyElVFwiaiNuKTJMb1o1VnVcTEA4MkwpZ3BOdD5oYURqNS5rXTZZbCVBRzYiXCZlTVFzTnRYX2NxW2deKERaImFYKixdXT1bMkxbZEp1Uj1iRnNGZWE8UitfViVtTWpubl1yOHQqLnFxKytvSyYvKk9JVGtGT3JdT1xZJjlPIllERWJzXFgnN2FxPjNCSVwzJGZzbXE4RlQlL0JtXEpfL0okJC0+SmthKG9qXjVbZHBBQCVyYjc8Ul0hIj8pI2k1TVQyUWwwRy0tVWAzOXMqQmwlP2thUFVcWnNgRj85SywhRiUxLnRpPFZdZUtVQTtDNF5HNkhaMTNRcEpyW1BgI2g4QkVDT003VS9Zaj1HIkBPIlgvR0ZVO0laXDlecl5tIXVzTSRDNFtsVjh1WS0wQlphXi4ncjVPPFJPVGUjX1VqT2lpJldmUGxyMHEyJi49S0EjOHI7MUA2MTBALVcxWTxCZVAtNTBvMSssVUM1MWwvP3Q0TE9BLmFHJU8mT2sjLWohTTxWKnVLbElyJmAxLUQsVDY3MT0rNGAmSDNKOydeU0pkKHVTUVBmMnVlLz1qQ1JuRkFtIVs1YWlRNyRLdGNldEQ2LDpwZVpWKS8+b19oJzRMczYpXEpOMFMlNSU9LGYuOVczSy9sRkldY2RdIjZANDonbVVQSkcrIytrcCQ9byQuOEJlTEJSdGJWIWdISj8wQWtrPXFGN15TdSVVIXApMWJQYFpBJ0ZENzE/JlEoTTBKJlhwc1lYTSltP0hPJ0k/ZzdSS1lEUmgsQUxvJHNkWmgnXSc8LkVyKzExJlFKVSYhWllXJEBePWhgby8wSD0/N01ST2diSGtpY3VYUSJCN2guYT0kKUtmO0lYJWpXKFUhW2BdYzJOaDhXbnFYRlMkZWEvaTJWXFdTUjYwJ1JvWy5GRjRQNy1ndXIib2NNLWhYV3RuIkZHSEluOjY7S05URjk4QSRjQ0RlTUI9X0ZQVENyV0pcbGRaOEAlMG50TGx1T0BnWnVMaG1NVWRySXE5dTUnaGFRczNSa0tEayM2MGBscl8tZEU8PCRCPmRDVnRMY3Q1MFM0VElZVmUqSlw+X1ckQWlrTThsKj8ncSNMY2YwXGQ+NGU4PHFeY3FcVls4cGgsSD04KCw6WUtLJj4lQS5fJkE1QUJEPWElMiFYV0tiN08ialgiKXVVY11NPSpia2hGMFlycz4iZU0yR0FiVj9eQCgqTTYrVWsrMScjMGkkcSEmcjknTFRaK2VBIkdiM0RMbTxALmM0LW9ta1xbMFswXiFQLU1gcElxM3E4SjwqUCFBVDJYRzlqJiExXk8uVWo3aUk8dUpeP1dAVkJISF46J0VCbD9uSzYxYjVIUzwxW1YpY2ZyXkEpX29tJ1dpXjhhPW5aZ2kmKTMqOjtOS108LEY1InE5TitNcTI1MFtXVCZzKz06Uy4zPUswY0VYUjpwRjYlJCtFMSYzQ1s1VUBATjldV2BWYUBZTStlRGtRLWp0VUhEZjBnIigwZGpKLmo/TUtDLVFsO0MqVkIjLldVNlEkPG8qL1QtK2ZBQWM+bVdvQyc/ciZzbjA/KnBEPztuV1FXN1BjOW9UJHNTYXJTTWokbENsNVQrI1x0OjEyOiI+LztIPlZBJFdJM2gyI0ZyLSJnaEJLIW5JVElFI1Q+aGBWaCJBQT9eZG8iJ09mS0JuJU0lJzBwajQrVGA2I1xgc19wdV1CY01BQjVXOWFSXExtOFk0aklpRCRAQm1USio+a1ZVYFRzYTszUHVeJVpeXDNLVyhPPFEzK0QtJXBXMG1caloyM11eb0EoYUFbZT46VCRuP1E5dGZeSCk8OSRgN0dca3MoZXRZXSwoc1Y2RlksO2lnMmU9b3EwYEJ1OS0zRkdoUVVDLCZTTSQkVmZxYjtnT0VRWSlwWmsqYmNkTEJtSDFkMTgqQDlsWG5CPm9FOXE+ZVgxcXE2LiklczRQIl5mIlhCLS00azZSUjovWj1PSVY7JStIWXUxT2prYSNKcyJbIih1R28oTyouXChqWSpBVSZsUCc3NiYsbmNyJCZiTlpsQCJXQ09gQFxjL2grcCdrPTtoKjpXK2Y9ajRvXzFbU1dza2xdVlI6MDBlVUNgYWw9QW0uKl9PMkNLcGZBQSo0ZVMoaGo1UmZeUk80YUhEMmVmKDhnckJjPj9dVTpjcUI4blM8YzhaIUtVVnReKm1hKF9lRTZUTj5dJmNDJGk/SXE0Y24tPGoxNlhBRlNOYm91N04+JDo1IitDV3MyOk5QLiQ5ay5VSXEyajw1PEAyXW9UYSZIVW08YiE+Ym4iOF8sVVJdM2EwREVObi5OSy10TidGKEguZGhmXWQhL2I0Xld1X05kJDlAb2ZZTyhZWkBCV2BCOSZGJXJ1RzBobiYjJVJQJyExSTE/Q09OVihlPjZEJHJccyNiUCdsPz5HQ2hiOVpHP1RjOFJVY0poJkEoJktpQ0E9Tk82JHQ1aXJML3FxRjtqNitdPWg9VF1YUmFQM2xIV0Q+VlNMU0hSITJhKE1ILixnMykxKUgzcXMuRUpXWlFxK3VIKFUtZG0+L1IrW149Im1sJyEsKHNrJUtnUzQ9PzIpcEFoLGRXOW4vMkw3JF1oISNvPnVAY1ZMMF08RF1pb2JPTERwKF08ampWT09zXWpWTF8nPGVAWmhoWyluJEw3OmlgJm84Um5xcWliUkNNXy5qQGJgWmtzXVA0MWc1bS5UXEY9clUrZ1IvI1NWXFBAOkhlMGUoWmtqW3JbVDlQQWcpckAwO2BpXVBhRCUpLXJzb19AQ0VcR1doMEZqJ1MnSlZHZ2dzamIkIyJJaidBSEIoXWo+LG8tMT8kJ10sXFlHYDp1VVs2N0JNRlBXZysmWFxRQSYzKFJqWCRFUFlxTVhcaHRpLFQuSWtJdVVzbD85M0cjdFNrb09yWDxQUyJXclJXPUZYLlhUWTslSGsnaSJbLiZfN1AqPGc1ZiszbVxWP1FHcFNwbFdyO2w1RlczPyFdWGtmOElqcVliQ2cpKWBzKl1eUj5BZC4lSWkjQiRjNmZSSyVjSDpGQSlDRk1+PmVuZHN0cmVhbQplbmRvYmoKMjMgMCBvYmoKPDwKL0ZpbHRlciBbIC9BU0NJSTg1RGVjb2RlIC9GbGF0ZURlY29kZSBdIC9MZW5ndGggMTk2Mgo+PgpzdHJlYW0KR2IiL2dEYz5AXidaVCYtLkYoVCIiIU8tdSlzQkBfV2EkOk8mRko2akI6K3NjWVMmajlQQSc/XW4oQGhRQltOUiYlZGcyaTZISlRKQj0kYmA1O3JePXIkQyQ5MyFJdC9VJVhUS1osIipUaVlXMSNWcFAhWTU0PVNZOTokTChsZSIrPypdNzQjTSNIaE9SR0NvPSpLMzdAVEdWOXUhVVYpKCVfJGY8a3VTQ2FTXHFJYT9XWDpJYmBtcShfX0lAK0BXNC85JCFjai0ncV9kIm4uQXU1bUhvSVMkaVdAb2IoJzJ1OGUvNjtZRTM2amJCJG5pTC1vM0xWbFFVMjFgJ2RqaDhuLTc3UW9BVG1Jajtla05zTFlFU2ciZltlb0gwVmczVHJWbzleIl0xOGQkXy0tQkJPLClSYFgjSzZhclA6ZS9vPEkrNUNFOVJPJ0wrR3JRLmpuJUkiLVRyaEQ7I1VlSG8kZG5kZlxxZywhIjpeR1hZXmlSTUImWyswRyIndCJMc0NVYzpMXGxWcEQ2Mm00by4kJixmO2tnKEpKbm8tUjtxVUotT1wwIXNuayFROkd1ZCdBSklwPHNXO0BGMV1gLEROOSYnYFUsKEBRSWd1MCpTXD9BO2BuclYlayoqR2U7bUVKLjkjKV5JLzBIMDRxWT5cYEZxRCI2Y0U2L2ZYLy9BdTE4LnFmWD5kOGgiQSRATG5SXFUiJSkkb3Embko3TidMcXRFcExrZklNZjAmIiovayxdTDM+PFkycTpDRXVAKChrIjEpYEhxIT9dImJfJEE3M1kiKD1kT2xSb2NgLDM7JC9XJzdZOF9tKSFpXFFuPSovOVNMPCMiVS09KnFwcC1nOGpwUy1eWEVfX0AnbWpLJSszai8xXVVvWGJxPW5XKydsQXFuUFRRWCRKP01jPHM3WmtXN1U8XD5vR1IrQylmP3JmNFolTW5aMVU2XlpTWzVfQC5VNGQ7KFNWP2M4amheQDRgYCtidUthRTRLQUZebUI8Z3I1KXBwZmZbLTxwYTtwcylGbidiWCpaQz9WOC4rRTRGcV1uZXJYWTEhTkAiVEYpYSc6Pk1KaHViJDBBSGJFKzcnQm84Iy5YOjNqcVRkSCdLNSFmaW1JLExCTyxHRydDN2RARSJrX2M0SXJgW1hBYE5KaU0oTzJBLSshNzFsUzpmL0okcy03YVt0JihsRzRHJXVkLU0tVWlaNFVsT0NwS1FuMT5AXE0rLE1ZISVvbDI0cVw+dGVlPTtpSF1WP2RXS14hTGdGcGctUC8rJjE8ams9VjlrbmYqaUw5NEM8L1g2TyRcUy5VSWguOEZkU3VhKTJSJy1OYFlHY0UmInBSKzpJKz1JakFiWGZdIicwR19QKVFqTGIiXnVuWSdDOTRIPTVPXTQ8YVxZKXBtQE5RYWQkSCsyKmZHLkA5TU9zZCFPMT1PPjZuV2dbXkhPWUd0TWxUPCk3PjJCJGdySDlTY0hALlhDa1tCSFo+bUFvJyQ2TyRgUDhnLmRhPWUqWnRPS0M4IV9pMVRLO3MmUmNhTmVyTEgmZjhRRGJYLT45Sj5QPUtGWm8wKFtlVyUwU09VPFJRLTImTyh0TEB1bU9EI09XQGNPUVVLZXBcIm0lLiQ1XCNpYFQudWkrV2wrdWI9ZQ==
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=106 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/REGIONAL/USER/VARANASI_40_KEUZE.pdf blob_sha=14c60d9f8b8abb7271bff25907c168cf506de66e original_offset=12288 original_length=4096 payload_bytes=5464 chunk_index=3 chunk_count=8 classification=binary
+QWY/XSIjRmIsKCFAOj1gOHReUURmMC8hJWNLXidrW3RGLjc5MVA9Y0k9IVI4N0lgSj9dJDVtVVw1WTlEV0lUR3AzRnJgWD0oM19SV1RQSyNWL0xGMnImMVpXYzIjRlxDMjQtLWRPNXJKV0lFOSQoXEVQM2FXaE8hN2kkbSxCWVc2LVI1aEdqW09hZ1hJaDtcUlE7KkNgVWk9bEJQQV9vPVRtZWNYXS9VL0lAblctTSpWPVxJQVU9U0VZQDxoJFBGazQxVmIpVTMjMEklSzEpciZiN1VEXnUkRixZcHRmITIqOSVsO1pHLkc5V3UrSi07LkYrXEs6Tl9sNHNRMlxxKz9VIm9fbDlpRWtjX0NMaDtlYjFaUDUoLi9qbCVvO1c6JGV1cXFBQUgmUW5kV0hgO2dXUT5bZi9VTGdcQitTWk9qVD9vQmQqNVtJdWVKJzpkP05VZ01ybjBwQ2k5Y05WUFU/VzsoTz9cZEg8U2MwZiFbUU0tVG0nX2BDY0wtdGE1InNMXzlpP2c7b2UzcGlcL2c+NylyXjwwNj9kYiZIWkw3KmtfREJSWmhrNnFRYllWLmojc25ncCg1VUxwJytsUGUicC4nbVdwLnUiYWxvW2AlLGNsSWBFNiU9VVdiSiloc2xeLS5ITydJIS9fY1FWOFtiYjJUczI5dUFmJWgqTHFLYTZpWGsyVkEtWjBbbUBpJDBsalxWJi4ibTlbTU03LT9LUCpJZ05FOz5DWlkmJkAlZVNac1NaK1dqUUonXEIkPFQ1UUJeR1NQYmE+PUY4Ky9mUlU6SkV0TzlBSEFUL04iXlZHbVwtLUBHRCkmbTYlVjBKdV9QcmZXWjxyQ1ZKcDItJUdTK1ZcJGVPQVJHVVhnKFonTm9rOWpaI1olQyFPJUZbMkg4VGs7aVBlUmV0V1YhZnVsTV5ITWtuUz4pa0RCLnMwbXBjLUZQLUZOZUkxXE1Jfj5lbmRzdHJlYW0KZW5kb2JqCjI0IDAgb2JqCjw8Ci9GaWx0ZXIgWyAvQVNDSUk4NURlY29kZSAvRmxhdGVEZWNvZGUgXSAvTGVuZ3RoIDI1NjkKPj4Kc3RyZWFtCkdiIi8pQ05KMmgnYEZWMUVCZzxeXV9ocC9OP2k+X1BYJCF0Ryc+OGhOM0VKYShuOTY2W2VvQ2I4MmRvXiteK0MiOVckOjlLPFsjT3BaYyhVRioqKyUlSyUrL2RwIUtWOXJTJyc2JiVzcDM+bSJiVkZkRGtQRVJYSTdjKVMkQzxeQUZaKUg/X0NRQE4vR1JoMnUtPiE1O2BKTmx1VWZLKTVgUVw0cGplPEUvQytZbVVsMUBUJFU/VnA6LGlwYzpTclNTdS02SypEU1BhJUgpPkElK11xYFxeUmYmSTkva3BcZz0yVFEqTD9mUEVoW0lOVG8/UTlnZytdJChRIlFEWHAmIWszJitzIzhrU1EyUEFQIV1fX1NzRCVscGY1SmBddT5WNilINEM/J0VadGBxM11PXXNoOGQubSFXbVlyR29jYlFHUmhASlg7NVZFJnJwUDloUmdWRUZMXTpGVFhoIWFdSDM/WDdNOVQ9ZF5kSiJzMXVVITwuVCwhNlZEaGYxWkhNZzEzZGQjcmQ9VWBzJls3Qydqc1xVN2JBOi5LK0BaMz8uOEE4QGRAJ3NIdFpqYElxKi4/I1trO1pTOUZOSGxzWTdaZmdEQFtpJiUvNydLLT81MUFtI1ssPS9eYUExTSYqOF5LbiQkVVQ2RzFXcyQsVyRHXVAmOFoxbThyVzB0UFRSZ1tTQ2kibnVmVGVMOW5wMVNmNEcoLmY1KllFSFZTOzJTRm0nME4sMW50QSUzbUAlJVBXYWN1O2UickxBKU5OUSlOYGtMWiZaaU11SjZMbilZcmolRUdZI0g2WW0nTiYoV0lfLF1yK1goWEY9Sl1uYS9RMlAqQFtdS0Y8WkpnTTJ1aCo2L3FgMnJNI2lVNUg5Yi8oMUwwVEIhMVYySERAbGF0JzdWbDxqXydoOjE0dFc4JSc6YlpxTjQuQmladS07SUxuSVk1alEhRiRqQzYnbEMsJF8iIlZQVltMKTxpTiU/XV0/byIkMl04K0RUZ0lKX19tcGxAbzFFPiRzTidCJGhuJ2BtdEtfNDMjcVVIZj1haTBFQlA1c29aIlQnVFtVWigtWi1SOyVQUl84a3VIbm1OL3VCLG1WIld1OjhbM2xfPSwoYjxWUEpZOS82QzdWNTlMUzgsa185Xy1SanVQb29KWiFrJ1ZrVk5eSD9YR2FFQ0RTSjhYZCZJLmtoKnQmSGxEXzovamspT15jRD8xMlkrQ0tUcWk3dSdzMG4zbDB1SWJnOk5xMlo3UWxQaVE0IVVSOTheSGQ2cWlxPzlLUDhONHUvUC0xMygmYVRaMG1oOSU9VT5HQEU6Pj9pcTIpSDZPajIuOD5BRWYubGxCWjZbbVUpQGBILjRcUzk7NydBOWYxSj8oNC06UW5wYz1UMyMuaXNUL0gtUi4xVCguOlNeN3JsZEI4JW87X10xZEtKQlI+WmAjQFBlZC9MQXRfZzM2ayJkPG02Vzg3WUJQc2YpI1IpVnVHKzFRYCNIX1EtJ1lWbWliTEhpVy1UXkg3Z0BYP24jcjtDcmtoLloqJ0Q6bl1RZmY1IzVoMWYuWFI9YnM9UUxiWk1fX1YpbyZHXmBGYyZhYnBHVmlBTk1RQStoWz9DMDgwRFNVR0FWREJzLV8vL3NZbGszdS5uOFVXMkEnRUIuK3VvL19AcFQoSG5YLC9mbC5IdEhRKS5TPWVOOFNvTjtgWnIsSWBNcG1HSEZRUThXPFQ5IzxaZjZzMFUqU1lzJTA9UmJFQGh1NHREMl4rQjo/MUNET3BQaC5sWS1xUzUzYDkiK15PKGIrUT02OEcwSDh0ZS4mSHEpQDJEW0N0VFJAZ1EyWzsuSyJEQF4kMVApXXVwZHRIaFhfaHEuK2ZEVjwsQz07UixqV1I4MiFeOVw0KmcuZzUpOi48IXNZcVp1TUlqcjdpTCluYyEpXWFxQ0JxKyMyTiUwb2JVWkM2MUcyaHNaLnJIWk5QK2UvZTJjWTtfUDhebHMiTCFIJTRmQDtOZEluYU1zVEQmTyteIT85QDZZR3NmOGxuOTluQTJuJ1NxNz1yZEo6VDNyMTFtdTNFP1FMbz08XShVJEt1NFwiKSZbbzVcT3EmazFGTDwwX101PSFwV0ljV0JbQDpALSdcM3NoR2tdcTNCQzxtPS4yN1wsLk0ycXFJOCViSSplKTtvTjIyIVBgXWNhWVhpYD0rZERpOXElSTlyVSZBM08oTGVrJlpxPEdcUm1eNDZWUClPaWM1TjNVYTtdR2JrVlwsbSUvdDwwWDc5P2MjKCZjMyZJOCVURz5xUjg3VzJGJT9DYSNuJSI2N11OKDdWKTNlYjhfMC1ha2pkX3FbKllmUWNeLEpMcVtPIzMsU0oiMFszKl9FYkI1WU5ULilNS2RlOGFXYSs/bWNVPmlsJTpzMUE3M0QzQ1UhdFtQW1FOLjtvL29eVidKUlJNQXFeaSdeWmVgVi5eclpeS19lbGJkcVp1TSk2WClAWiduS2RPUyU7VTw2c3AjU0BoKjxgJm5VVkJHbWdBLFhRbkFyTDA7cHApPllRYj1oTkctXlQlRj9XWzRIcShmKy5jcnRQcT1rKzBCJ0heb089UyluXGpFISZhJ1ZCO11YbWFvTyQrZCYjbUZSVzlRWCwyV3BGVlBnUTFzJ0I0IThkSDc3bVtEXiNBSSZgQnAlOUYxUEQ7Jj0/JmJOSz5hRGJkTlZnZCohZXNCLDBWcztwLCl1XGJFLDJ0PD5xQm8vMEZzVWBTW0IxLGZtWTM2REE3UTRtSj8rPkc4NW5UbydxXDtDRyphO0ZNJDFpJyo7X2g1MTdWIkZDVF9odDBiKlFgdFRVOUleQmVaQllPQyc9NHRnWjwmT11vdUR0XylaVS1hTDQ5aWxAOkNFRTNjPkU0J0I9ZVhfZV9sdXFhZXJFNmpAaFU5V19jIVYqYC02SU1LKUBZXDdWKU1eO1JMVUhLI05KNiUjQ19xUGBXSFk5LEhOVF5mP2hiMUQtP1g3PF9ATCVAPzMxKTxrbU1HcClvRjldMmJXcCdjSi5TIWpVUFNeXG9laGpoTilGLUtFKlZpZitFLXVQUU9OWz0yQ2phS0VUM2RiUHFLLm5sYzBsYD1bLSNZJ08pOzUnTUJXPDw5LyJVKkpYaElwRVlRK2RLUExON0kjMjYjKGlGJm5oITdkQ2Jqb2ZSSFJfOEhLKSRLPSldb0lNQTsnMjdwNUIiLm1wSWcwRUJAO0RlaS1YSVo6TFFvaHRJRkMtL2Q1WkpSaGtHNkM8Xk03WTNAbjNUM0lBVnMlL0BgaFNBcmUkKkBeZXRNcVU8SmExKV9rY2NmMW1BP2NIK2ZaMzxZO0xVJWtwWV9sJUBoaCNDKmY0PVorVCVnKGY1Jio9K0c6L1JjUCdOWGg3Q1Q9RWBlTkJSRkE2Sj4vTSppWmohXlRZbjdLfj5lbmRzdHJlYW0KZW5kb2JqCjI1IDAgb2JqCjw8Ci9GaWx0ZXIgWyAvQVNDSUk4NURlY29kZSAvRmxhdGVEZWNvZGUgXSAvTGVuZ3RoIDI2NjIKPj4Kc3RyZWFtCkdiIi8pPkI6XUMnN0ozMWtYVzhoX2QnYklIYnFaYVBWS0QwR2NTOU9FbGo3SzE0dD4qImlwSDNoaVMrdCtYJT8rQ29vWC1nQkdlbEMzPDFJcWpcOCxhTWI5WT9gLVBrWlM+Sjs+JUg7Q14qaCldPlQzQDg0YiEiXU5PQSQ4PWJidElOXk5KY2UjOzpPYGhEKVQ+ZycvIWFLVEwoWCM5TUNCX0RXZ1hhRCZBVzZvakg4Ui0hSWZkcyNKOnBaQWoua1lOVjBmR2VMKGUvVmRVO1xSaFdiOWxSYig/T2AzNWwyNiQtQC1VVSQ+al1kI0AjYE5pTkJLbE9hazoiZlkkSilhOzxIImtuV2pUdUlDdSspKFMtTVdkazYqZlM3YVVINzJIWFZcaTRGbjZEOEFnJzUyM3BRS1hxVV8jKDxyXG4nZzZWPENjVztZLzIhMnRdXm85cW0vPUFgLko4T2FLOSVTLWhBc0VMYzQ8UGZSJk5qKSUrV2M2V2FWIUprTm1aWCE7VSlBVlNqZUJsXWtQdCtIK3IpVXFoc2pQKSU5IUpfNkRbRkEmSF5QVkwuLD5vTlQjTk0ySixjKGooKWtnVC9vcClEQGwvcD84cUwodUxucXFKWCFAWDdqTEVUJV0zNW02I09gJXQ0SFYqV0JlLUJcXS0rImFucE5oMl43IUI1TG1aWyFWMz49MXRVbyMybmwvPDpjUElZQURBXDEsaylzZzcoSlpHWlEtOTs4K1RcRjpCY0pLTT5fZFZWTDdkMURWTUxJVFNJR0IuMVs3az0zMkVML1p1Z0RZWG0qWCRKXlZNO1VWXDhUJQ==
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=107 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/REGIONAL/USER/VARANASI_40_KEUZE.pdf blob_sha=14c60d9f8b8abb7271bff25907c168cf506de66e original_offset=16384 original_length=4096 payload_bytes=5464 chunk_index=4 chunk_count=8 classification=binary
+MUEoL1lTQjopSi05LzFLbzpSKTQzXUAxZVxTKDFqbCFfWyRlYSInLiYwSVwubCY0SCxaUmojUGYkQVhaWWZdI1tlQ1NZPWBmYFo1biMsVS9pKjNRYVkpKEwyam1hIS9gJVQoLFQiP2ROUCc9Vm1aX2UhYGVkP0xTNWNCMlZXXThCQDJrOD4iKD8nKFFwKFdgdC9EN2BkcyU6LihGO0BBIWZ1OjVuV01kK15PJC0pQEo1Sy8/VnAtYCguTWYsXz48NDc/QTVdZV0oP1IrYlpuLG5xKCxyYlgvc0ppYkE+NS0hZ1liLytpN0ZLUVYtaUwzaW9aZlEtMlgmdERVMT4yMl4yciFbTm4zXEFgVzpVbTk7N05FWCNDT2QsRWlUJ2Y2c1FIQCYwTjVCbkA7PnFxLDhpQS81VVtKYFZpblVMJ2dNUkgxNDMnPkYpNSRvU0xQTz90PDwlWCpIL0YncHQvYytHNSU3ITNdOi5dLmJXbDtDa3FHPz9FTVc7TDAmISoiL19zP2E9by9rWE5LRS83QlRrNyQ2dVQ7KFVfTlRPRS1fTGFkSmBFIy5wTUZvc0FuZzUmIUIuaSIrPS1rPV4+YiUibmVMaVduWmR1bDsuSDBcIz8xYkArVTJdV2YkO01rMyFqXlctVF5ybT9aOyQydTI2aV9HMUBUMjguZmJEdTlrUSVRJydsUi4/ck1ZSyhYIlhiJ00sPmJBTEsoQl5RM1phZF1wMmFZRWYpWDgkVWkmIiZJV24sVlVFY2tEZWInV3A0UyFYWTAuUTw3I1ZbQCleV0IpcWpZVVwyc0JeSm4icjVMaEpMYEU8UWtaR0YpbDwkSkppR1lUTUs+KEM6alorIjEiUTk3cEtTNy5ZIXAnYGhCVkVOIVlZVjVuI1Y5aD5TIWs8Jj05WWtWblZeP0lPNmI0JEA3IWxZISZSWGFFPjhBbEpLa2NlM1VsQiwoLFBdJSZUXGlkbGhYOj9TV2JaPUNoM0xbc0kmLWNDdSxlZFYjZE0mRWQyKFZQLDAxVidXJ0xtMClxKSVDa1UvalVIcEdmcHQmV00/LHRXVyItLjBNK1daQWReMj5pYERpRmxcM1dnZU5cUThDJVhRaVRAR3M2KUotTTRVXHI5P05ZPT9oX3AjSU1FIU5qTC4lZ0MpbTJHXSVPWispMVJdbEEtTixNLy9QXVE/UUw/PUEkaEE0bWAhQ2k0QyJtP1U0NzAsQSRfJkhZOm5NTmotYl5BdURrUVAqdFJeSyRJY24pPnUuRDNdaz9zaUNgSjIybSVFP3UvNSN1bVE4OjJocipMTVYsV2Q/OjpyPEoqPklcPFwoYURjKElRMSppUmJKc0lESGFWYnBLPDg9Jm9ONjUwTytTXEFScFNHaFJSTT0jUDM1TWhQI1FGYTolUCh1UUNGbWZpYFBZI05cNm9KNS1qO1pWPFZwJ2RNRkY4a09DSjttV0I+bzo/Il00YUlNOS1JZzxEYVtLLHBKWjw9JksrPi1NYyFPcGQ6anJbSlEmO15ybUEnME1uXj1LXURaIyw0SU4+YzwsITEnOl00XmsiQkIkMjlIVyZsLSxIQUFULmEsYi8mP0dmb19IUF88USM3Ql4kXzZ1R1pWPTV1O25vPmlUNik0U21vRkoyLj5OKCU8aCRra2EuTUJkZlZFNWRGaVBWLCwybDgzXi5vV29mRU8tOjB1cFZXP2lwbzVfUC5aNDQ1MWsnWHFkaSxYalhtPkJfM14lSVZvRCwub2dGSD0sSilwN19tOEwpWDM+Myw2N2dxSUJZUWJyMjhuRnIvNmNuY1o5Si8wJCFdYSsrVixASnQqQz9lRW5pKE1IVzdOKj5AJlQhLj9GQCw7b2tKLi9yby1ta0w7MVluWD5qVHBVaj4wJ0hcTVcnRmhLUSVAQEQ9WE8sRj5hTGArZDIpPEIuUiQwJTwvazUzQWVoNmI8NiNFJE8lbS9Uc0xfLGQmJjw+QGhMJEJyXjhMWEonRVZLbzNSYjBWS1Y3UHV0SyJrWjg6OWdpRVdUVmhwbyQmZCkwJSguXzJKTC5acCJxbG07VmNPKmk6aDwwLltUXUBZNHN1UlFycDQ+Pm0xbmJyTTpRKC4/MzF1c1xOR0szRDkiL1U7L2k9ZTVyUTVbOykoWnNlajY3O2VuMFtgOWo3WDErJU1OWFAlMGIuPGMjJVhRJj1vbCtWZTxsLV1yKVNda0ApIyhuTmpCIU9ZcSNqRiwuW01GODptMFw6M2VvYXIoV147JkIpZyFdTTNiWW0wZkhtb1NNMFQyaiU1QnRLNS5YYzxZbVIwSitGLV06JypIZUFBLkh1MFojVk5Wak4oPidHLEo9NCZnMS9XcGVNTjMpP1M+TSU9blFCKEhHOiM2QTZFNmRYKytDcS9NZ2NjSmhVLz8xZHUsPmRPIlRwUjZDPjwoP2xPRDpaXzUhIXI9aWRlQEZzR11uMC5uP3UlZTZLN0cxJjdqM01iKUBEOScuRmJpKGRIZDREMDMoUTBYZ0BIWnBBQTReclRMLlQ/JS9KMjtSVzNHLCZOXllYPy1DRiFSLWxWcEZFLXEzY0lPYUFNZTxPUFkvb1BxWCxUZCs4JGdzO1QsdF1GYjhlRT5TVnAsbTFmMVxHLjxcKT43WmM0JlRII0ZMJkIzRjg6YCFKNWlVTkJpajRpNypRQC8pcjpILG8xJmxLXEVLOVg7U1lGWCM+dVo8ZlRmO3VWW0Y6SEp+PmVuZHN0cmVhbQplbmRvYmoKMjYgMCBvYmoKPDwKL0ZpbHRlciBbIC9BU0NJSTg1RGVjb2RlIC9GbGF0ZURlY29kZSBdIC9MZW5ndGggMjQzMgo+PgpzdHJlYW0KR2IiL2g/JCJeaCdTYylULyddSS8oa0VxWCtNIz9ERT5XMikwbTdvW04rXCtjQm9QPFQ1IlAoIXJxPSg8JmpmP0xNcG8mMFJEXUNBQk5gI11jZSJwdFNYVD8kZWEjPT8zaDkxL11oWi4pZGZudGZYW1VcXm9xdDxwKlUxTzY5QGxrPEFYXyxXJUYpYj5uTkMscFdscVlvS0dqRSY7VmUzYUovUVVQN1FGaUNHJyUjPmYsTDoyUnRhQikzWHFMdGlmcUVAMCVkam4kMypuQWpnLXRGSi1TcSZRcXQmV1xsTyVOSTInWEw6TGlPQzwsZ2pVMGhpYSdxQGhFMWlhTCpsVl5VVzRqMzw+anMiZitJKTo3WV5tRXUhWjJWS2BVLWBzNExHL3JISk4xaCE7KHQ/clJGLi04WzJlWT1GJSopRyVGMykiX04sSnNRS0NQbSFTL2s4Z2NIInU6QEs1YyRHQkpuM2FbTF0iMl0+S1xoTWslbyNGIUAxZmNFYzFbYXM3YTI6V2ZGb18wbS4/RiJmWT9oM1E/XlMqR3M9MVtnc3JPXk5CaE9YPXByUXVFXWZyIT48RzpmJEZbVFFVQTsjV0Q/OzgnIy0iQXFVWTlwUjY5IkI8IiFtXEgsb1FeKGJqRVZSQlpcZGZhbEQvQ1prR2pPcD0uNyx0VVpRWTJJYVEoLFIvcSU3Wk8kQjM3MCpHYi9vNkdbWGJgZGMnYm8rQ2NsU09vS1EnJE1eW3MvP2IsIzc+S2BAI2JdSkVEXTQ2QSpWcyUiVCpKQmdKPSZRUnFnPEMlPGdkcFRfXWFNdTJOXWI+XWEuTzQtNmZxMyRMV3EpWF9eLjhUYjxLW2pDR0F1NzgmLkhRNFYnRlZgZSpsPTRWS2ZkKypXSGByUylKUixxKDxVJj80TzcsdUUxMDoqKUZxTz5fWChCT1YxRFlqayMtbCw1NTJCT2M5Ly06SFFSUXRCbERHc0kpWWRmWSR0XyhfW0k7QTplKzFWKChNTjwsUzpaSCYvQC4qZ3U6OFgxY3BvU0RYMWxmbGxLUDZsZEUsKDJEKG4/UEsmVVZYYzNwWG0lYDhmTjVcWFoxJihMNEwkOVBRWCgkKC46PypgOkUndTBSJWZRLUxjL0JSIi0mNkU2WEliZC03Tz42S0JkTW1oPClkNTtvZjUvZ2JWSm9mOnEnQSRDVVYpalJ0W2gjW0FJZnEzbi9ZVFU3UzhGPUUyKSEiMilAal9HbVdkSileRy8+KUstKWtSP3RnYnVmKlghSyVcW1JWOmVHLT1ZOXVdPkJrKEJOK0spaTpUQlNMXjQ6OTg5Y15Yaih0PCFFVUdcNS9haj9rMnJeOHUnXmU0MS45RkdKK20mUSNiaV0mLWN1IylzQTgsbFI7KDc/OWMnJFNxRTosZStTXWchVDs8MjM5LSFNXGdAWlxiRmkhVSxJNiNaP3RPWSYrWVoqNG9vYXNNai5NUmB1cGlBZlVvLmhdWisvZT1fLUxZPylvJFg4LDMvP0cvP1tyJ1E4IitAOlVyci1CNUJSU0dfYGxNRmhhLElSOUw1Lz5ZTyNQUihTMlQ2YzRUb1BZJ05USzRvM0N1T0Ffb1M6KElDVz9VUTBQSUwxIXIkOC5UVk9NNUMpT2VhMSM/Mi0pJCpeKWZkXC49VCw4W1ohWjdLb0BXUU9zJiE1IictTE1VMihnUiJoOClEWCxPKDlNRF4vSFlfU0ttOVRYWFkoTHRyWTBPZTAqOiZlUzlMdC02bTMiP0JlPXJqckxsOUMmZGgiQFpVNHBmblRdaEJdMlZeUV4pPVpHOj4nKXIscGxrL0cvMXNDRF0xbDMmQVRjQ2hpSkVjWDIwK25bMkw+TEZMImokVGFRMk84OGsxO3RQUFpDOi1kcVNPVlpXYVIzJlAqZG1FJ2ciMS4mNFgwV2ZfNldRRWo2NilUXzlkXmcuNCZDKCo+Z0lbNSVyPyc1OzsqMiNPPj9IWFgmP3JeYVRwPmxNbDJVSyE2PDB1XU43X0QzPSRxOyU/SkxQMVo8MytxUyJuaDVsP0M7P1NkKU5WSk1FKSJMNSIpJ25nIl8zOjosZUFGKj5IRmckWzwoOEsmT2lxXl5Uczk9SEhGV15ocDAqOENUdGMjNXRPPk5dN11xPCdfITpfOmRaVHFDMzAjYVczcic7TGxzREkqUGYtJVNjNCg9RTZNPFlvKGVXJVVxRHFRO3Irc2I/QG1vLk1dVUgwaUApM3IsSzgjKlldZiEnU1FWPWNdXS9kZVUrXCFRTFYmZUhtZUYzZF5xL0ZQP0NKZFlEOElRJ1MiOW4pLXQjWikwJ2JoSDlnSG8/LFJxW01bXGFsQy1DMSxpcWVPUjRBbzM8OkQrQGNhJFdSWSFxYTdicE9PKy9ESEY4cyVOL0dEYkhDOisqIWluZz8pK0ZiT0omRysjJ19AXmdXMklLV1ohV09ubSoiMGw+Oz8sI1wpQDVLV3RYbjVuZCdlOk5ING5GMWk1SnAhPGtdaUZRJig+IUgtTjI2OFJ0aCR1bmVQTVhqN0E4amZYQFdcKU4yWE1ROUIuUypfWlBZOW5xLS1cPXFvOyt0Y2xLV0peOCI8KChJXF9wJCVfKS9sP0ZBYg==
+<<< END CHUNK >>>
+

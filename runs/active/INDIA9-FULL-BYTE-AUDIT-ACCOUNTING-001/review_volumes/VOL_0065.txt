@@ -1,0 +1,780 @@
+>>> CHUNK stream_row=940 path=runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/SRI_YUKTESWAR_INDIAROOD_DELTA.md blob_sha=92f9dc9b2aa18ff9e2b87296aa542b5e511a5687 original_offset=4096 original_length=4095 payload_bytes=4095 chunk_index=1 chunk_count=3 classification=text
+
+IndiaROOD, laat-opgetekende mondelinge overlevering). Geen van deze is deze taak individueel
+Tier-1 herverifieerd (tijdsbudget); IndiaROOD's eigen bronvermeldingen zijn specifiek genoeg
+(hoofdstuk/sectienamen) en de trackrecord uit de Babaji/Lahiri-delta's rechtvaardigt Tier-2-
+aanvaarding.
+
+## 4. Methodologische consistentie bevestigd
+
+IndiaROOD's 14 negatieve bevindingen (N-01 t/m N-14) volgen dezelfde discipline als 088's eigen
+aanpak: instellingsverbondenheid/bestuurslidmaatschap wordt niet gelijkgesteld aan fysiek bezoek
+(Belur Math, Govardhan Math, Jamalpur/Kanpur-Sabhas, Rishikesh-plan, Susanga-paleis). Bijzonder
+waardevol: **N-14** signaleert zelfstandig een chronologisch onmogelijke institutionele claim (een
+schoolwebsite beweert dat Sri Yukteswar in 1962 een eerste steen legde — 26 jaar na zijn dood) en
+markeert die expliciet als fout. Dit is exact de adversarial-discipline die het project van elke
+detector verwacht. Geen correctie nodig.
+
+## 5. Wat IndiaROOD niet heeft (t.o.v. 088)
+
+IndiaROOD's freeze is volledig AOAY/Satyananda/Ghosh/Goldberg-gebaseerd en bevat geen aparte
+sublocatie-uitsplitsing van de Serampore-hermitage tot het niveau dat 088's externe ChatGPT-freeze
+had (hal/binnenhof/zitkamer/eetpatio/slaapkamer als losse rijen) — IndiaROOD houdt dit samen als
+één record (SY-001), consistent met CCI's eigen oorspronkelijke site-niveau-aanpak. Geen
+tegenspraak, alleen andere granulariteit (`EXTERNAL_MORE_GRANULAR` t.o.v. IndiaROOD op dit punt).
+
+## 6. Matrix — samenvatting (volledige rijen in INDIAROOD_DELTA_MATRIX.jsonl)
+
+| categorie | aantal | voorbeelden |
+|---|---:|---|
+| `MATCH_EXISTING` (direct of granulair) | ~18 | Serampore-hermitage, Rai Ghat, Lahiri's huis, Kumbh Mela, Kashmir-route (8 subrecords), Karar Ashram, Panthi-materialisatie, Regent Hotel-verschijning |
+| `INDIAROOD_ONLY_CLAIM` — **Tier-1 bevestigd** | 2 | maharaja-huisweigering; 4 Garpar Road-foto's 1930 |
+| `INDIAROOD_ONLY_CLAIM` — convergent met 088-extern, versterkt | 2 | Bodh Gaya-geloften; Calcutta Medical College |
+| `INDIAROOD_ONLY_CLAIM` — Tier-2, nieuw | 9 | Goswami-huis, Santal-guru, Dabru Ballav, Chandrakanta Shiromani, Jeletola/Narendranath Basu, Pranabashram, Tulsi Bose-huis, Ghatal/Khukurdaha, Ganga Sagar-kamp |
+| `EXTERNAL_MORE_GRANULAR` | 1 | Serampore-hermitage-sublocaties (5 kamers bij extern-088, 1 record bij IndiaROOD) |
+| Negatieve controles, consistent | 14 | N-01 t/m N-14, incl. de zelfstandig gevonden 1962-chronologiefout |
+
+## 7. Eindbeoordeling
+
+- **Bestaande 088-records/claims**: 7 intern + 38 extern = 45 (met overlap).
+- **IndiaROOD-records**: 42 positief + 14 negatief = 56.
+- **Matches**: ~18.
+- **IndiaROOD-only**: 13 (2 Tier-1, 2 convergent-versterkt, 9 Tier-2 nieuw).
+- **088-only**: de fijnmazige kamer-sublocaties van de Serampore-hermitage (granulariteitsverschil,
+  geen feitelijk conflict).
+- **Conflicten**: geen harde nieuwe conflicten gevonden; twee bestaande 088-leads versterkt van
+  `BRON_GEBLOKKEERD` naar `PLAUSIBLE`.
+- **Rechtstreeks bevestigde correcties**: 2 volledig Tier-1 (maharaja-huis, Garpar-foto's) + 1
+  drievoudige datumcross-validatie (9/10/21 maart 1936) + 2 convergentie-upgrades.
+- **Afgewezen claims/hallucinaties**: geen gevonden bij IndiaROOD deze taak.
+- **Resterende bronblokkades**: Satyananda's volledige biografie blijft feitelijk ontoegankelijk
+  (JS-reader, geen statische tekst binnen dit taakbudget gevonden) ondanks HTTP 200 op de
+  landingspagina; Goldberg's *The Life of Yogananda*-PDF is toegankelijk gebleken (HTTP 200) maar
+  niet binnen dit taakbudget doorzocht — open lead voor een volgende taak.
+- **Actuele METHOD_V2-gates**:
+  - `CORPUS_COVERAGE_GATE`: **DEELS** (ongewijzigd qua Satyananda-volledige-tekst, maar twee
+    belangrijke claims daaruit nu tweevoudig secundair geconvergeerd).
+  - `HOSTGRAPH_GATE`: **DEELS** (Goswami-familie, Dabru Ballav, Chandrakanta Shiromani, Tulsi Bose,
+    Narendranath Basu nu als leads toegevoegd).
+  - `DISCOVERY_GATE`: **DEELS → verbeterd** (9 volledig nieuwe Tier-2-locaties).
+  - `RECONCILIATION_GATE`: **PROVISIONEEL 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=941 path=runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/SRI_YUKTESWAR_INDIAROOD_DELTA.md blob_sha=92f9dc9b2aa18ff9e2b87296aa542b5e511a5687 original_offset=8191 original_length=436 payload_bytes=436 chunk_index=2 chunk_count=3 classification=text
+→ JA** voor de drieweg-vergelijking zelf.
+    `EXTERNAL_MODEL_DIVERSITY_GATE`: **NEE → JA** (zelfde onderbouwing als bij de andere twee
+    personen).
+- **Saturationstatus**: **`SRI_YUKTESWAR_SATURATED: NEE`** blijft eerlijk. Satyananda's volledige
+  biografie en Goldberg's boek blijven grotendeels ongelezen bronnen met bekende, specifieke,
+  nog te verifiëren claims.
+
+---
+Geschreven door: CCI. Checkpoint 3/3 van CCI_TASK 092.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=942 path=runs/active/KUMAON-V2-RESWEEP-001/TASK.md blob_sha=936e5aade5d04599ea04b0fc4ae247a70f3357fb original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# TASK — KUMAON-V2-RESWEEP-001
+
+```
+task_id: KUMAON-V2-RESWEEP-001
+issued_by: INDIA
+issued_at: 2026-08-14
+protocol: governance/SWEEP_PROTOCOL.md (huidige canon)
+region_context: zware Kumaon/Babaji/Dwarahat/Kainchi-kernregio
+```
+
+## Doel
+Voer een volledig nieuwe V2-kwaliteitsmeting uit voor de zware Kumaon-kernregio, zonder de oude `KUMAON-COMPLETE-001` kandidaatset als discovery-basis te gebruiken. Oud onderzoek wordt pas NA twee onafhankelijke nieuwe sweeps als benchmark geopend en vergeleken.
+
+## Scope
+Onderzoek de brede spirituele Kumaon-kern die voor Marks reisdoel logisch samenhangt, met minimaal aandacht voor de geografische as/omgeving van Haldwani/Kathgodam/Bhowali/Nainital/Kainchi, Ranikhet/Dwarahat/Kukuchina/Pandukholi en relevante Babaji-/Neem-Karoli-/Kriya-/ashram-/heilige locaties binnen een praktisch regionale context. Haidakhan-gerelateerde fysieke locaties mogen als detectorbevinding verschijnen indien geografisch en inhoudelijk passend.
+
+Scope is een regio, geen vooraf gegeven kandidatenlijst. Definieer de feitelijke zoekgrens vóór inhoudelijke discovery op basis van geografie en praktische regionale samenhang; niet op basis van oude kandidaten.
+
+## Blindheidsregel — hard
+### Voor CCI Sweep A
+- Lees NIET als discovery-basis: oude Kumaon kandidatenlijsten, oude GOUD/decision reports, oude kandidaatbeschrijvingen of oude volledigheidsclaims uit `KUMAON-COMPLETE-001` / `VRINDAVAN-KUMAON-CORRIDOR-001`.
+- Oude Mark-besluiten mogen alleen als beschermingslaag worden geraadpleegd wanneer nodig om een eenmaal onafhankelijk gevonden fysieke identiteit niet stilzwijgend te overschrijven; zij mogen zoektermen/discovery niet sturen.
+- Gebruik tijdelijke sweep-ID's, geen nieuwe permanente locatie-ID's tijdens Sweep A.
+
+### Voor INDIA Sweep B
+- INDIA voert later een eigen, onafhankelijke sweep uit zonder CCI `RESULT.md` en zonder oude Kumaon-kandidaatset als zoekbasis.
+- Pas nadat Sweep B expliciet is afgerond, mogen Sweep A en legacy-data worden geopend voor vergelijking.
+
+## Onderzoeksprioriteit
+1. AOAY — systematische sweep op elke verifieerbare fysieke plaats/gebeurtenislink in de regio. Kleine AOAY-plekken tellen ook.
+2. Top-11 — elk van de 11 namen afzonderlijk volledig onderzoeken op geboorte/verblijf/ashram/samadhi/inwijding/ontmoeting/meditatie/onderricht/lineage/relic/travel/event/fysieke institutionele link.
+3. Laag 3 — uitsluitend zelfstandige spirituele/pelgrimszwaargewichten, religie-onafhankelijk, geen quota.
+4. Praktische identiteit — fysieke locatie, bereikbaarheid en regionale ligging voldoende duidelijk om later een reisbesluit te kunnen nemen; tijdgevoelige praktische details nog niet onnodig uitwerken als ze geen kandidaatstatus beïnvloeden.
+
+## Brondiscipline
+- Keuze-relevante hoofdclaims alleen na openen/ophalen van daadwerkelijke brontekst.
+- Primaire/official bronnen waar beschikbaar; historische claims mogen betrouwbare secundaire bronnen gebruiken wanneer primaire bronnen redelijkerwijs ontbreken.
+- Scheid gebeurtenisbewijs, fysieke identiteit en exacte sublocatie.
+- Geen snippet-only of AI-samenvatting als bevestiging.
+- Negatieve resultaten compact maar expliciet vastleggen.
+
+## Oude data — pas NA dubbele nieuwe sweep
+Na CCI Sweep A + onafhankelijke INDIA Sweep B volgt reconciliatie tegen alle relevante legacy Kumaon-data.
+
+Verplichte vergelijking:
+- `NIEUW_INTERSECT_OUD` — opnieuw onafhankelijk gevonden legacy-locaties;
+- `NIEUW_MIN_OUD` — nieuwe vondsten die legacy miste;
+- `OUD_MIN_NIEUW` — legacy-locaties die beide nieuwe sweeps misten;
+- `BRON_CONFLICTEN` — inhoud/evidence die afwijkt;
+- `MARK_BESLUIT_CONFLICTEN` — alleen wanneer nieuw cruciaal bewijs een beschermd Mark-besluit werkelijk relevant maakt.
+
+`OUD_MIN_NIEUW` wordt niet automatisch verwijderd: fysiek en inhoudelijk opnieuw verifiëren en verklaren waarom de nieuwe discovery hem miste of waarom legacy onjuist/zwak was.
+
+## Bescherming bestaande beslissingen
+- Geen bestaande Mark A/B/C stil wijzigen.
+- Geen oude locatie-ID hergebruiken voor een andere fysieke plek.
+- Nieuwe cruciale evidence bij een
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=943 path=runs/active/KUMAON-V2-RESWEEP-001/TASK.md blob_sha=936e5aade5d04599ea04b0fc4ae247a70f3357fb original_offset=4096 original_length=704 payload_bytes=704 chunk_index=1 chunk_count=2 classification=text
+ oude keuze => `MARK_DECISION_CONFLICT`, niet automatisch herclassificeren.
+- Permanente nieuwe IDs pas NA reconciliatie en identity-check.
+
+## Sweep A verplichte output in RESULT.md
+- SWEEP_A_STATUS
+- SCOPE_DEFINITION
+- AOAY_RESULTAAT
+- TOP11_RESULTAAT_PER_NAAM
+- LAAG3_HEAVYWEIGHTS
+- TIJDELIJKE_NIEUWE_FYSIEKE_KANDIDATEN
+- AFGEWEZEN_DUPLICATEN/SUBLOCATIES
+- NEGATIEVE_RESULTATEN
+- BRONVERIFICATIE_STATUS
+- BLINDHEID_VERKLAARD
+- SATURATION_STATUS_SWEEP_A
+- BLOCKERS
+
+Geen legacy-vergelijking in Sweep A. Geen PRE_PDF_CONTENT. Geen PDF. Geen A/B/C-voorspellingen.
+
+## Stop
+Na complete Sweep A: update `STATUS.md` naar `SWEEP_A_KLAAR_WACHT_OP_INDIA_SWEEP_B` en stop. INDIA voert daarna blind Sweep B uit.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=944 path=india4/protocols/INDIA5-PROTOCOL.md blob_sha=9415c5c2892478263d86caa04b4dcd96a8a93c89 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=6 classification=text
+# INDIA5-PROTOCOL (definitief, akkoord CC + ChatGPT, 2026-08-02)
+
+Status: CONFIRMED — voorgesteld door CC (Home Assistant-sessie), akkoord door ChatGPT met één
+verwerkt tegenpunt (autonome regio-doorloop, zie hieronder). Dit is het geldende protocol voor
+elke sweep vanaf nu. Lees dit document eerst volledig voordat je verder werkt aan een sweep.
+
+## Doel
+
+Niet één regio (Varanasi) handmatig oplossen, maar een architectuur waarmee uiteindelijk
+duizenden locaties verwerkt kunnen worden met zo min mogelijk handmatige tussenkomst van Mark.
+
+## Waarom het oude INDIA4-protocol faalde
+
+`india4/roles/BRONS.md` schreef letterlijk "Stop daarna" voor na elke kandidaat — dat forceerde
+één chatronde per kandidaat, wat bij honderden/duizenden kandidaten onhoudbaar is. Root-cause
+volledig gedocumenteerd in `runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/ROOT_CAUSE.md`.
+
+## Autonome regio-doorloop (ChatGPT's tegenpunt, verwerkt — dit is de kern van het protocol)
+
+Mark start een regiosweep met ÉÉN opdracht. Daarna mag hij GEEN batchplanner of doorgeefluik
+worden. De uitvoerende sessie doorloopt zelfstandig, zonder tussentijdse Mark-actie:
+
+```
+Mark start één regiosweep
+        ↓
+BRONS verwerkt automatisch alle batches van 15-25 (achter elkaar, zelfde sessie/keten)
+        ↓
+ZILVER valideert automatisch alle batches
+        ↓
+GOUD maakt één regionaal eindpakket
+        ↓
+Mark ontvangt PDF + KML + beslisoverzicht
+```
+
+Ontwerpdoel is dus NIET "precies 3 commits" — voor een regio met meerdere batches zijn meer dan
+drie interne commits normaal en logisch. Het echte doel:
+- **één gebruikershandeling bij de start**;
+- **nul tussentijdse handelingen bij normale voortgang** — geen paden, statussen of
+  onderzoeksinhoud die Mark moet overnemen of doorgeven tussen BRONS/ZILVER/GOUD;
+- **één complete eindoplevering**;
+- **alleen terug naar Mark bij een echte inhoudelijke beslissing of een niet-herstelbare
+  blocker** (bijv. een structureel gat in de bronnen dat een beleidskeuze vereist).
+
+## Rolverdeling
+
+- **CONTROLLER**: bepaalt scope, kiest eindproducten, en orkestreert vervolgens de VOLLEDIGE
+  regio-doorloop zelf (roept intern BRONS → ZILVER → GOUD aan, batch na batch) — verdwijnt niet
+  na één batch, blijft de keten besturen tot de regio af is of een echte blocker optreedt. Leest
+  bij elke (her)start uitsluitend `runs.jsonl` (append-only journaal) om te bepalen waar verder
+  te gaan.
+- **BRONS**: verwerkt batches van 15-25 kandidaten, ná elkaar, zonder op een nieuwe
+  Mark-opdracht te wachten (niet "alle kandidaten in RAM" — dat bestaat niet voor een chat-agent,
+  elke kandidaat kost context ongeacht wanneer je commit, vandaar de kleine vaste batchgrootte).
+  Puur onderzoek → JSON. Eén lokaal checkpoint elke ~5 kandidaten (géén git-commit, puur
+  crashbescherming). Eén git-commit per afgeronde batch.
+- **ZILVER**: start automatisch zodra BRONS een batch heeft afgerond, leest alleen de JSON van
+  die batch, valideert bronnen/Google Maps/consistentie. Her-zoekt UITSLUITEND als een
+  kandidaat's status ≠ `CONFIRMED` (harde regel, geen open "tenzij nodig"-oordeel). Eén commit
+  per batch.
+- **GOUD**: start automatisch zodra de VOLLEDIGE regio door ZILVER is gevalideerd (niet na elke
+  kleine batch), bouwt het regionale eindpakket (PDF/KML/kaart/print/A-B-C-overzicht). Eén
+  afsluitende commit.
+
+## Kernregels (vervangen het oorspronkelijke INDIA5-voorstel op deze punten)
+
+1. **Batchgrootte klein en vast** (15-25 kandidaten per BRONS-run), nooit "alles ineens."
+2. **Volgende kandidaat = diff van doellijst tegen output**, via de bestaande
+   `runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/scripts/next_candidate.py`-logica. NOOIT
+   "laatste ID + 1" — dat breekt bij een overgeslagen of opnieuw-gedane kandidaat.
+3. **Elke kandidaat krijgt een status-veld vanaf record 1**: `CONFIRMED` / `NEEDS_REVIEW` /
+   `GEEN_BRON` / `AMBIGUE_PIN`. Geen eenduidige Google Maps-pin (0 of >1 kandidaten zonder
+   onderscheidend signaal) = altijd `AMBIGUE_PIN`, nooit gokken/substitueren (zie
+   `runs/active/VARANASI-GE
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=945 path=india4/protocols/INDIA5-PROTOCOL.md blob_sha=9415c5c2892478263d86caa04b4dcd96a8a93c89 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=6 classification=text
+O-DELIVERY-REPAIR-001/scripts/validate_brons.py` voor het bestaande
+   verbod op nep-coördinaten).
+4. **`runs.jsonl`** = de enige overblijvende "state": één regel per afgeronde batch (regio,
+   batch-ID, kandidaat-range, commit-SHA, timestamp), uitsluitend door CONTROLLER geschreven.
+   Geen los `progress.yaml`.
+5. **GitHub bevat alleen input/output**, geen state/locks/controller-logica — die logica leeft in
+   de uitvoerende agent-sessie zelf, niet in de repo.
+6. **Google Maps = bron van waarheid** voor coördinaten (niet website → coördinaten → Maps).
+7. **Losse dedup-stap** bij ZILVER of GOUD vóór het eindpakket (naam-gelijkenis + geo-nabijheid),
+   belangrijk bij religieuze locaties met meerdere filialen/naamvarianten.
+
+## Definitieve testdoelstelling
+
+Eén startopdracht voor twintig Varanasi-kandidaten, waarna BRONS → ZILVER → GOUD zonder
+tussenkomst van Mark doorloopt en eindigt met: één PDF, één KML, één gevalideerde dataset en één
+korte eindmelding aan Mark. Geen tussentijdse handelingen van Mark tijdens de doorloop.
+
+## Immutable Location Numbering (Mark-besluit 2026-08-02, commit 58be47b)
+
+Elke kandidaat/fysieke locatie in ALLE India-regio's (niet alleen Varanasi) heeft een vast,
+permanent nummer:
+- het nummer staat altijd vóór de naam, bijvoorbeeld `007 Shri Kashi Vishwanath Temple`;
+- eenmaal toegekend wijzigt het nummer NOOIT, wordt het NOOIT hergebruikt voor een andere locatie,
+  en blijft het permanent aan diezelfde fysieke locatie gekoppeld;
+- nieuwe locaties krijgen uitsluitend een nieuw vrij nummer, nooit een bestaand nummer;
+- nummering loopt voorlopig door tot 999; een toekomstige nummerreeks per regio/cluster mag
+  uitsluitend vooraf worden gereserveerd en mag bestaande nummers nooit veranderen.
+
+Bron van waarheid: `runs/active/<run_id>/NUMBERING_REGISTRY.jsonl` (append-only, per regio). Elke
+BRONS/ZILVER/GOUD-stap die een candidate_id aanmaakt, registreert het nummer hier vóór het elders
+gebruikt wordt. `scripts/validate_numbering.py` (per run, naar analogie van `validate_brons.py`)
+blokkeert wanneer:
+- een bestaand nummer bij een andere locatie terechtkomt;
+- een locatie een ander nummer krijgt dan voorheen;
+- een nummer dubbel wordt gebruikt;
+- een gegenereerde KML- of PDF-naam niet met het nummer begint.
+
+Draai deze validator verplicht als onderdeel van elke GOUD-validatieronde, naast `validate_brons.py`.
+
+## GOUD-PDF-format (verplicht vanaf 2026-08-02)
+
+De GOUD-keuze-PDF is een REISGIDS voor Mark, geen GEO-validatierapport. Volledig
+gespecificeerd in `india4/templates/GOUD_PDF_TEMPLATE.md` — verplichte leesstof voor elke
+GOUD-rol. Kern:
+- Per kandidaat eerst: waarom bezoeken, spirituele/historische betekenis, wat je ziet/ervaart, hoe
+  bijzonder het is, verwachte bezoektijd, goed te combineren met (op werkelijke geografische
+  nabijheid), praktische tips, reden om eventueel over te slaan, en een voorlopige keuzehulp
+  (advies, geen formele A/B/C-wijziging). GEO-status/coördinaat/Mark-keuze komen pas daarna, in een
+  klein technisch blok.
+- Kandidaten worden gegroepeerd per geografisch bezoekcluster (wijk/ghat-route), niet op
+  candidate_id-volgorde. Een keuze-index vooraan bevat candidate_id, naam, cluster, Mark-keuze,
+  keuzehulp in één zin en het paginanummer.
+- Ontbrekende keuze-informatie wordt expliciet als "NOG NIET ONDERZOCHT" vermeld — nooit ingevuld
+  met een aanname.
+- **Gevolg voor BRONS**: BRONS verzamelt vanaf de eerste kandidaat van elke nieuwe sweep ook de
+  reisgidsvelden (korte omschrijving, betekenis, wat te zien, uniekheid, bezoektijd, praktische
+  info indien bronnen dat toelaten) — niet alleen GEO-verificatievelden. Zie
+  `india4/templates/GOUD_PDF_TEMPLATE.md` voor de exacte veldenlijst. Dit voorkomt dat GOUD
+  achteraf reisgidsinhoud moet reconstrueren, zoals bij de Varanasi-regio nodig was.
+- De oude GEO-rapport-stijl PDF blijft geldig als GOUD ook een technische bijlage oplevert
+  (GEO_AUDIT.md/CORRECTIERAPPORT.md/BESLISOVERZICHT.md), maar is niet langer het hoofddocument dat
+  aan Mark wordt overhandigd.
+
+### PDF is eenmalig — NIET
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=946 path=india4/protocols/INDIA5-PROTOCOL.md blob_sha=9415c5c2892478263d86caa04b4dcd96a8a93c89 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=6 classification=text
+ automatisch herbouwen (Mark-besluit 2026-08-02)
+
+De reisgids-PDF is een eenmalig leesdocument voor Mark, geen doorlopend bijgewerkt kanaal. Mark
+leest 'm één keer en gooit 'm daarna weg — het is geen opslagformaat. Daarom:
+
+- Elke wijziging in dataset/RUN.yaml/register (nieuwe Mark-keuze, hotelbesluit, nummering, enz.)
+  wordt bijgewerkt in de brondata (JSONL/RUN.yaml/register) en in de KML. De PDF wordt
+  **NIET automatisch herbouwd** bij elke ronde — dat kost onnodig tokens voor een document dat na
+  lezen toch wordt weggegooid.
+- Een nieuwe PDF-build gebeurt alleen als Mark dat expliciet vraagt (bv. "bouw de PDF opnieuw",
+  "ik wil een nieuwe leesversie").
+  Data-updates zonder die expliciete vraag blijven beperkt tot dataset/RUN.yaml/register/KML/MD.
+- De brondata (dataset/RUN.yaml/register) is te allen tijde de bron van waarheid, ook als de PDF
+  achterloopt of niet meer bestaat.
+
+**HARDE HERBEVESTIGING (Mark-besluit 2026-08-05, na een schending van deze regel)**: CCI heeft
+deze regel zelf overtreden door na een kleine tekstcorrectie (één foutieve zin) zonder te vragen
+een volledige nieuwe PDF te bouwen en te versturen. Vanaf nu geldt zonder uitzondering: CCI mag
+NOOIT uit eigen beweging een PDF bouwen of herbouwen, ook niet voor een correctie, ook niet als
+de fout klein lijkt. Altijd eerst expliciet vragen ("wil je dat ik de PDF opnieuw bouw met deze
+correctie, of volstaat de correctie in de brondata?") en pas bouwen na Marks eigen "ja". Een
+tekstfout in een reeds geleverde PDF wordt gemeld en in de brondata gecorrigeerd; de PDF zelf
+wordt pas herbouwd na expliciete toestemming.
+
+**TWEEDE HERBEVESTIGING — expliciete PDF-poort (INDIA6-besluit, bericht 022, 2026-08-06, na een
+tweede schending)**: ondanks de regel hierboven werd een PDF opnieuw gebouwd op basis van een
+opdracht die zelf niet het expliciete woord "PDF_GO: JA" bevatte (alleen "herbouw daarna: [pdf]"
+in een correctietaak) — dat bleek onvoldoende expliciet en kostte onnodige tokens. Vanaf nu geldt
+een vaste, ondubbelzinnige poort, voor alle regio's:
+
+1. **Discovery/onderzoek** — alleen onderzoek + brondata, geen PDF.
+2. **Correctie** — alleen inhoud/data corrigeren, geen PDF.
+3. **Eindcontrole door de huidige INDIA-regisseur** (rolgebaseerd, niet aan een sessienaam
+   gebonden — zie `governance/ACTIVE_STATE.md`, veld `CURRENT_REGISSEUR_ROLE`) — controleert de
+   volledige keuze-inhoud (alle kandidaten, hoofdclaims, absolute claims, toegankelijkheid,
+   seizoenen, gebeurtenissen, onzekerheden).
+4. Bij fouten: CCI corrigeert uitsluitend inhoud/data, daarna opnieuw controle door de huidige
+   INDIA-regisseur.
+5. Een PDF-build mag UITSLUITEND plaatsvinden in een aparte opdracht die letterlijk het veld
+   `PDF_GO: JA` bevat. Zonder dat exacte veld is een PDF-build VERBODEN — ook als de opdracht wel
+   naar een PDF-bestandsnaam verwijst, ook als een sweep of correctieronde "klaar" is. "Sweep
+   klaar" betekent dus NIET automatisch "PDF bouwen".
+
+Elke nieuwe CCI-opdracht bevat vanaf nu expliciet een van de twee velden `PDF_STATUS: VERBODEN`
+of `PDF_GO: JA`. Ontbreekt dat veld, dan geldt VERBODEN als impliciete default — CCI mag het
+ontbreken van dit veld nooit als toestemming lezen.
+
+### Bestandsnaamgeving — versienummer vooraan (Mark-besluit 2026-08-06)
+
+Elk versieerbaar eindbestand (PDF, en waar van toepassing andere per-sweep herbouwbare
+eindproducten) krijgt een versienummer VOORAAN in de bestandsnaam, niet aan het einde:
+
+- Correct: `V1_BODHGAYA_046_058_KEUZE_REISGIDS.pdf`, daarna bij een volgende, expliciet
+  toegestane herbouw: `V2_BODHGAYA_046_058_KEUZE_REISGIDS.pdf`, enzovoort.
+- Fout: `BODHGAYA_046_058_KEUZE_REISGIDS_V1.pdf` (versienummer aan het einde).
+- Het versienummer loopt altijd op, per sweep/deliverable, nooit hergebruikt of teruggezet.
+- Oudere versies blijven staan als historisch record (niet overschrijven, niet verwijderen)
+  tenzij Mark expliciet om opruiming vraagt.
+
+## Accommodatiebesluiten (Mark-besluit 2026-08-02, commit cf2daf2)
+
+Hotels, guesthouses, bases en andere verblijfskeuzes zijn GEEN kandidaten (geen 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=947 path=india4/protocols/INDIA5-PROTOCOL.md blob_sha=9415c5c2892478263d86caa04b4dcd96a8a93c89 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=6 classification=text
+A/B/C-locatie-ID uit
+de Immutable Location Numbering) en moeten toch altijd expliciet en duurzaam worden gelogd — nooit
+alleen in de chat. Bron/aanleiding: `runs/active/<RUN_ID>/GOUD/REGIONAL/HOTEL_DECISION.md` (Varanasi:
+`ACCOMMODATION_REGISTER.jsonl`, accommodatie-ID `VNS-HOTEL-001`).
+
+Elke regio krijgt een eigen `ACCOMMODATION_REGISTER.jsonl` naast het kandidaat-dataset. Elk record
+heeft minimaal: `accommodation_id` (aparte reeks, bv. `<REGIOCODE>-HOTEL-NNN`), region, run_id,
+accommodation_name, city/area, status (`SUGGESTED` | `SHORTLISTED` | `LOCKED_BY_MARK` |
+`REJECTED_BY_MARK`), source_type, source_person_or_source_id, letterlijke gebruikerswoorden of
+compacte besluitmotivatie, kamerwens, genoemde contactpersoon, boekingsnotities, datum, en
+supersedes/superseded_by.
+
+Harde regels, geldig voor elke toekomstige sweep:
+
+1. Vóór nieuw hotelonderzoek altijd eerst bestaande accommodatiebesluiten lezen (register + eerdere
+   HOTEL_DECISION-bestanden in de run).
+2. `LOCKED_BY_MARK` is canoniek en mag nooit stilzwijgend worden vervangen of opnieuw vergeleken —
+   alleen een nieuw, expliciet besluit van Mark mag dat wijzigen.
+3. Persoonlijke aanbevelingen van bekenden (naam van de bron, kamerwens, genoemde contactpersoon,
+   letterlijke kernnotitie) worden woordelijk bewaard, niet samengevat of weggelaten.
+4. GOUD neemt het gekozen verblijf standaard op in de reisgids-PDF (eigen hoofdstuk "Gekozen
+   verblijf", direct na de keuze-index), de KML (aparte folder, GEEN A/B/C-ID) en de route-
+   /planninginput (lijst logisch bereikbare A-kandidaten = "routeklaar"; een volledige
+   dagroute-/planningberekening is een aparte, pas op expliciet verzoek uit te voeren stap).
+5. Als er geen accommodatiebesluit bestaat, meldt GOUD dat expliciet ("NOG NIET ONDERZOCHT") — nooit
+   aannemen dat er nog niets gekozen is zonder eerst het register en de commit-historie te
+   controleren.
+6. Een chatvermelding of instructie die een concrete accommodatiekeuze of een sterke persoonlijke
+   aanbeveling bevat, wordt zo snel mogelijk duurzaam naar het register/GitHub overgebracht in
+   plaats van alleen in het gesprek te blijven staan.
+7. Voor de kaartgeometrie van een accommodatie gelden dezelfde regels als voor kandidaten: alleen een
+   `<Point>` toevoegen bij een geverifieerde Google Maps-marker; zonder voldoende markerbewijs wordt
+   de accommodatie tekstueel opgenomen (adres, geen geraden coördinaat).
+
+## PRE-BRONS en de detectorbibliotheek (INDIA2-architectuurbesluit, 2026-08-02, PR #23)
+
+Fundamentele correctie op het oorspronkelijke BRONS-ontwerp: een sweep is geen locatie-
+afwerklijst, maar een inhoudelijk detectieproces. BRONS was nooit bedoeld om een vooraf gegeven
+lijst kandidaten af te werken — BRONS moet bewijzen dat de inhoudelijke werkelijkheid van een
+gebied voldoende is afgedekt. Het aantal kandidaten is een UITKOMST van het onderzoek, nooit een
+vooraf ingestelde invoer (geen minimum, geen maximum, niet kunstmatig aanvullen, niet vroeg
+stoppen omdat er "genoeg" lijkt te zijn).
+
+### Nieuwe volgorde
+
+```
+PRE-BRONS → detectoren → kandidaten → betekenis → onderscheid → Mark-relevantie
+    → cluster/koepeltoets → GEO (BRONS) → ZILVER → GOUD → Mark-keuze
+```
+
+BRONS start dus niet meer met een gegeven naamlijst, maar met een intern consistente
+regio-inhoudsbrief van PRE-BRONS (zie `india4/roles/PRE-BRONS.md`).
+
+### PRE-BRONS
+
+Vaste stap vóór elke BRONS-batch: bepaalt gebied, straal of functionele corridor, Marks bekende
+interesses/A-criteria/ankers, relevante tradities/lineages/personen/heilige landschappen/
+historische lagen, en welke detectoren van toepassing zijn. Levert vier bestanden onder
+`runs/active/<run_id>/PRE_BRONS/`: `REGION_CONTENT_BRIEF.md` + `.json`,
+`PRE_BRONS_DETECTORS.jsonl`, `SOURCE_FAMILY_PLAN.jsonl`. Structuur en verplichte velden:
+`india4/templates/PRE_BRONS_REGION_CONTENT_BRIEF_TEMPLATE.md`. Validatie vóór BRONS mag starten:
+`india4/scripts/validate_pre_brons_brief.py`. Bevat verplicht een expliciet antwoord op: "welke
+dramatisch te missen A-locatie zou dit plan nog kunnen missen?" 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=948 path=india4/protocols/INDIA5-PROTOCOL.md blob_sha=9415c5c2892478263d86caa04b4dcd96a8a93c89 original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=6 classification=text
+— nooit leeg of "geen" zonder
+toelichting.
+
+### Detectorbibliotheek
+
+Een detector is een herbruikbare zoekrichting (traditie, lineage, bronfamilie, landschapstype,
+enz.), cumulatief opgebouwd over regio's heen — bv. AOAY ontdekt tijdens Varanasi, mogelijk
+Advaita-ashrams tijdens Kumaon, vroege boeddhistische kloosters tijdens Bodh Gaya. Elke sweep
+levert daarom niet alleen kandidaten, maar ook een antwoord op: "hebben we een nieuwe detector
+ontdekt?"
+
+Canonieke bestanden:
+- `india4/registries/DETECTOR_LIBRARY.jsonl` — één record per detector: `detector_id`
+  (immutable), `name`, `definition`, `purpose`, `trigger_conditions`, `exclusion_conditions`,
+  `required_source_families`, `applicability_facets`, `discovered_in_run`, `status`
+  (PROVISIONAL/ACTIVE/RETIRED), `parent_detector_id`, `aliases`, `created_at`, `approved_by`.
+- `india4/registries/DETECTOR_RUN_HISTORY.jsonl` — append-only scoregeschiedenis per
+  (detector_id, run_id): toegepaste zoekrichtingen, nieuwe kandidaten, high-value leads (die de
+  WHY_THIS_ONE/WHY_NOT_THE_OTHERS-toets overleefden), false positives, evaluatie. NIET genest in
+  de bibliotheek zelf.
+
+Validatie: `india4/scripts/validate_detector_library.py`.
+
+**Wie mag wat:**
+- CCI mag tijdens PRE-BRONS zelfstandig een nieuwe detector PROVISIONAL gebruiken om de sweep
+  niet te blokkeren, vastgelegd in het per-run `PRE_BRONS_DETECTORS.jsonl`. Nooit automatisch
+  canoniek ACTIVE.
+- Na de run legt CCI PROVISIONAL detectoren voor aan INDIA2/ChatGPT voor promotie, aanscherping,
+  samenvoeging of afwijzing.
+- Uitsluitend INDIA2/ChatGPT (architect) mag canoniek: detectoren fuseren, ACTIVE maken,
+  hernoemen, RETIRED zetten, parent-child-structuur wijzigen. CCI mag overlap en
+  parent-child-relaties signaleren, niet zelf fuseren.
+- Mark beslist alleen wanneer een detector zijn persoonlijke interesseprofiel of A-definitie
+  inhoudelijk verandert.
+
+**Scoring**: gemeten per gebiedstype/thema (zie `applicability_facets`), niet als één platte
+globale ranglijst — een detector die sterk scoort in het ene soort gebied hoeft dat niet te zijn
+in een fundamenteel ander soort gebied. Waardemaat is niet "aantal gevonden kandidaten" maar
+"aantal kandidaten dat de differentiatietoets (WHY_THIS_ONE/WHY_NOT_THE_OTHERS) overleeft".
+
+### Regiotype-taxonomie (applicability_facets)
+
+Nog geen starre enkelvoudige lijst — te vroeg en te grof. Voorlopig multi-label, organisch
+groeiend in de eerste 3-4 regio's, daarna door INDIA2 geconsolideerd tot een gecontroleerde
+taxonomie:
+- `settlement`: pelgrimsstad / kloosterstad / metropool / dorp / landschap
+- `tradition`: hindoe / boeddhistisch / jain / sikh / islamitisch / christelijk / gemengd
+- `sacred_form`: tempelnetwerk / ghatlandschap / samadhi-cluster / kloosterlandschap /
+  yatra-corridor
+- `temporal_layer`: oud / middeleeuws / koloniaal / modern
+- `practice_state`: levend / gemengd / monumentaal
+- `visitor_context`: lineage-specifiek / algemeen spiritueel / historisch / architectonisch
+
+Geen vrije tekst zonder facetnaam.
+
+### Verplichte kandidaatvelden vóór GEO-verificatie
+
+Elke kandidaat krijgt, vóór GEO-verificatie: `why_this_one`, `why_not_the_others`,
+`meaning_evidence`, `living_or_monumental`, `mark_relevance_link`. Zie
+`india4/templates/BATCH_OUTPUT.md`. Dit voorkomt kandidaat-inflatie (honderden generieke
+tempels) en de "beroemd-maar-leeg"-valkuil (plekken die historisch beroemd zijn maar
+tegenwoordig nauwelijks nog levende betekenis hebben).
+
+### Verzadigingsdrempel
+
+Hybride harde/inhoudelijke regel — geen enkel magisch getal beslist alleen.
+
+Per detector:
+- minimaal twee wezenlijk verschillende zoekbenaderingen;
+- minimaal twee relevante bronfamilies indien beschikbaar;
+- alle gevonden high-value leads zijn opgelost als kandidaat, duplicaat, afgewezen of open
+  onzekerheid;
+- daarna leveren drie opeenvolgende materieel verschillende query-/bronrichtingen geen nieuwe
+  high-value kandidaat of nieuwe detector meer op (alleen nog duplicaten, lage-waarde generieke
+  locaties of reeds bekende context).
+
+Op sweepniveau:
+- alle detectoren hebben een afsluits
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=949 path=india4/protocols/INDIA5-PROTOCOL.md blob_sha=9415c5c2892478263d86caa04b4dcd96a8a93c89 original_offset=20480 original_length=1747 payload_bytes=1747 chunk_index=5 chunk_count=6 classification=text
+tatus;
+- alle bronfamilies zijn uitgevoerd of expliciet ONBESCHIKBAAR;
+- geen open lead kan redelijkerwijs een dramatisch te missen A-locatie zijn;
+- een cross-detector pass levert geen nieuwe high-value lead meer op.
+
+Machine-status: `DISCOVERY_SATURATED` / `NOT_YET_SATURATED`. `REASONABLY_COMPLETE` is toegestaan
+als mensleesbare samenvatting, nooit als primaire machine-status.
+
+### Retroactiviteit
+
+Deze correctie geldt ook voor de reeds afgeronde Varanasi-regio, maar begrensd: een
+`VARANASI_DISCOVERY_COVERAGE_AUDIT` (niet een volledige herstart van de 40 GEO-records). Doel:
+controleren of de bestaande 40-kandidatenlijst detector- en brondekking mist, actief zoeken naar
+niet-ontdekte high-value kandidaten, en de bestaande 40 toetsen op `why_this_one`/
+`why_not_the_others`/levend-vs-monumentaal/beroemd-maar-leeg. Geen A/B/C-wijziging zonder Mark,
+niets stil verwijderen — uitsluitend missing leads, zwakke kandidaten, detectorgaten en
+dekkingsstatus als output. Deze audit wordt apart en expliciet door Mark opgestart, niet
+automatisch als onderdeel van een tooling-update.
+
+## Scope-afspraak (belangrijk, expliciet door Mark vastgesteld op 2026-08-02)
+
+CC (de Home Assistant-sessie) heeft hier een ARCHITECTUUR/TOOLING-rol — kritiek leveren, scripts
+zoals `next_candidate.py`/`validate_brons.py` bouwen/onderhouden — GEEN uitvoerende rol in de
+daadwerkelijke kandidaat-sweeps zelf. Een aparte, aan deze repo toegewijde Claude Code-sessie
+voert de sweeps zelf uit, om te voorkomen dat sweep-werk Mark's tokens in de HA-sessie verbruikt.
+
+## Volgende stap
+
+Protocol is akkoord. Eerste testsweep (20 Varanasi-kandidaten, volledig autonome doorloop)
+uitvoeren volgens bovenstaande regels, resultaat vastleggen onder `runs/active/`.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=950 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/KASAR_DEVI_ALMORA_MODULE_REEVALUATION_2026-08-23.md blob_sha=944d1ac6979e845cbfc98caf6978e3503b7f9a32 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# KASAR DEVI / ALMORA MODULE — CLUSTER-WEIGHT REEVALUATION
+
+Date: 2026-08-23
+Status: REOPENED FOR CLUSTER-WEIGHT DECISION BY MARK
+
+Purpose: reassess whether the Kasar Devi / Almora sleep module still deserves ~3 nights in the 34-day trip after the later Top-X person sweeps and route-capacity work. This does NOT silently delete or downgrade old site-level A decisions. It separates site value from the question whether the whole module should remain a dedicated sleep block.
+
+## CURRENT MODULE CONTENT
+Existing old-A/site-level choices in this module include:
+- Kasar Devi
+- Crank's Ridge
+- Turiya Niwas
+- Bodh Ashram
+- Ramakrishna Kutir, Almora
+- Chitai Golu Devta Temple
+- Jageshwar
+- Kakrighat as transfer A between Nainital and Almora
+
+## LATER-EVIDENCE WEIGHTING
+
+### Strongest Top-X-specific value
+- Vivekananda has real Almora-area significance. Kasar Devi is officially associated with his 1890s visit/meditation.
+- Kakrighat is more event-specific: Belur Math records his 1890 meditation and major microcosm/macrocosm realization there. Kakrighat does not require an Almora sleep base; it can remain a transfer stop.
+
+### Secondary / overlap value
+- Turiya Niwas is primarily Alfred 'Sunyata' Sorensen / Crank's Ridge history. It is an unusual and attractive heritage stay, but Sunyata is not one of the Top-X core people.
+- Bodh Ashram has meaningful NKB + Anandamayi Ma / Lama Govinda / Evans-Wentz overlap, but NKB is represented much more heavily at Kainchi/Bhumiadhar/Vrindavan; Anandamayi Ma scope explicitly does not require every historic site.
+- Ramakrishna Kutir is a Ramakrishna Mission retreat founded in 1916 by monastic disciples; it is not a physical Sri Ramakrishna residence/touchpoint. Its name must not inflate Ramakrishna-person weight.
+- Chitai Golu is a standalone regional spiritual/cultural attraction, not a Top-X person anchor.
+
+### Independent non-person magnet
+- Jageshwar remains the strongest independent reason to keep the wider Almora/Jageshwar side: >100 early-medieval temple structures in deodar forest; already Mark-A and also independently surfaced as a Lonely-Planet-level cluster magnet.
+
+## ROUTE-CAPACITY IMPLICATION
+The prior matrix allocated ~3 nights minimum to Turiya/Almora because it treated all old A sites cumulatively. After later Top-X reconciliation, that automatic 3-night assumption should no longer be treated as protected.
+
+The module should be tested in three scenarios:
+
+A. KEEP FULL ALMORA/KASAR MODULE (~3 nights)
+- preserves Turiya heritage stay + Kasar/Crank's Ridge + Bodh Ashram + Almora sites + Jageshwar day.
+- strongest for slow seeker/counterculture/Vivekananda atmosphere.
+- costs material capacity that might otherwise allow Rishikesh/Haridwar or breathing room elsewhere.
+
+B. COMPRESS MODULE (~1–2 nights)
+- retain only highest-value elements, especially Jageshwar and possibly Kasar Devi/Turiya if Mark still personally values the ridge/stay.
+- Kakrighat remains transfer stop regardless.
+- lower-priority Almora items become opportunistic rather than night-drivers.
+
+C. DROP DEDICATED ALMORA/KASAR SLEEP MODULE
+- preserves old site-level A history in canon but excludes them from this trip except Kakrighat if on transfer.
+- frees roughly 2–3 nights versus the earlier comfortable shape.
+- Jageshwar would also need either explicit sacrifice or a separate logistical solution; Kukuchina→Jageshwar is too long for a casual out-and-back (~109 km / ~3h44 one way in current route estimates), so Jageshwar cannot be assumed 'free' from Joshi Guest House.
+
+## INDIA8 REGIE RECOMMENDATION
+Do NOT keep Kasar Devi/Almora automatically just because old files contain many A labels.
+
+Relative to the current trip, this is the WEAKEST of the four northern sleep modules:
+1. Haidakhan — strong experiential A, desired ashram stay.
+2. Kukuchina/Dunagiri — primary Babaji-cave trip reason.
+3. Nainital/Kainchi — heavy NKB/Ram Dass/person overlap + Hotel Evelyn.
+4. Kasar Devi/Almora — attractive and historically layered, but much of its density is secondary/non-Top-X; Jageshwar is the main independent heavywe
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=951 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/KASAR_DEVI_ALMORA_MODULE_REEVALUATION_2026-08-23.md blob_sha=944d1ac6979e845cbfc98caf6978e3503b7f9a32 original_offset=4096 original_length=251 payload_bytes=251 chunk_index=1 chunk_count=2 classification=text
+ight.
+
+Recommended decision surface for Mark: compare a COMPRESSED Kasar/Jageshwar version against using the saved 1–2+ days for Rishikesh/Haridwar or additional breathing room at heavier clusters. Do not decide from the old three-night assumption.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=952 path=india4/protocols/RESEARCH_QUALITY.md blob_sha=94b146ab146b04df041cf4c5b7ba329f84fdaa11 original_offset=0 original_length=778 payload_bytes=778 chunk_index=0 chunk_count=1 classification=text
+# RESEARCH QUALITY
+
+- Iedere bron krijgt een stabiel source-ID met titel, eigenaar, URL of repositorypad, brontype, raadpleegdatum, bruikbaar domein en beperkingen.
+- Claims verwijzen naar source-ID's. Een bron ondersteunt alleen wat hij daadwerkelijk aantoont.
+- Zoekresultaatsnippets zijn vindbewijs, niet automatisch inhoudelijk bewijs.
+- Scheid fysieke identiteit, historische of spirituele betekenis, institutionele relatie en actuele bezoekbaarheid.
+- Benoem bewijsniveau en resterende onzekerheid. Gebruik geen definitieve taal zonder beschreven controlehandeling.
+- Bewaar negatieve bevindingen en afgewezen bronnen met reden.
+- Controleer alle kandidaten; één probleem blokkeert de rest niet.
+- Workers maken geen Mark-besluiten en vullen ontbrekende keuzes niet in.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=953 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/PRE_BRONS/DISCOVERY_CANDIDATES.jsonl blob_sha=95530f3fb0760c3ba9e0f181a6ce53dd49ffec00 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+{"candidate_id":"VNS-CAND-041","display_id":"041","canonical_name":"Parshvanath Digambar Jain Temple, Bhelupur","cluster":"JAIN_HERITAGE","place_type":"JAIN_TIRTHA_KALYANAKA","status":"PROVISIONAL","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","discovered_by_detector":"DET-P002 JAIN_HERITAGE_DETECTOR","why_this_one":"Kalyanaka-plek (geboorte, verzaking, alwetendheid, eerste preek) van Parshvanath, de 23e Jain-Tirthankara, geboren in Varanasi. Eén van slechts vier zulke plekken in heel India voor deze specifieke Tirthankara.","why_not_the_others":"Niet 'een Jain-tempel', maar de specifieke, historisch/religieus unieke geboorte-/verlichtingsplek van een met naam genoemde Tirthankara -- niet inwisselbaar met een andere Jain-tempel.","meaning_evidence":"kashi.gov.in officiele listing ('Parshvanath Digambar Jain Temple, Bhelupur'); Wikipedia 'Parshvanath Jain temples, Varanasi'; jainsite.com '41.Varanashi Parshwanath'; meerdere onafhankelijke Jain-religieuze bronnen (jaintreasures.org.uk, holyvoyages.com) bevestigen dezelfde vier-Tirthankara-toewijzing.","living_or_monumental":"LEVEND -- actieve pelgrimsplek, twee tempels (Digambar + Shwetambar) naast elkaar, dagelijkse verering.","mark_relevance_link":"Vult een volledig ontbrekende religieuze traditie (0 van 40 bestaande kandidaten was Jain) -- exact het soort gat dat de discovery-audit moest opsporen.","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"identity_check":{"address_area":"Bhelupur, Varanasi","confirmed_via":["kashi.gov.in","meerdere onafhankelijke bronnen"]},"evidence":["kashi.gov.in/listing-details/parshvanath-digambar-jain-temple-bhelupur","en.wikipedia.org/wiki/Parshvanath_Jain_temples,_Varanasi","jainsite.com/jainism_post/41-varanashi-parshwanath"],"reason":"Nieuwe PROVISIONAL kandidaat via JAIN_HERITAGE_DETECTOR, INDIA5-VNS-DISCOVERY-COVERAGE-003.","checked_at":"2026-08-03"}
+{"candidate_id":"VNS-CAND-042","display_id":"042","canonical_name":"Suparshvanath Jain Tirth (Jain Ghat), Bhadaini","cluster":"JAIN_HERITAGE","place_type":"JAIN_TIRTHA_KALYANAKA","status":"PROVISIONAL","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","discovered_by_detector":"DET-P002 JAIN_HERITAGE_DETECTOR","why_this_one":"Kalyanaka-plek van Suparshvanath, de 7e Jain-Tirthankara, aan Jain Ghat (ook wel Bhadaini Ghat genoemd) direct aan de Ganga.","why_not_the_others":"Specifieke, met naam genoemde Tirthankara-plek, niet generiek -- en geografisch praktisch relevant: ligt in dezelfde Bhadaini/Assi-buurt als de hotelbasis (VNS-HOTEL-001) en de bestaande A-clusters 005/010/036/037.","meaning_evidence":"kashi.gov.in 'Bhadaini Jain Temple'; Wikipedia 'Suparshvanatha'; mycaste.in 'Bhadaini Jain Tirth'; holyvoyages.com '4 Jain Tirthankaras born in Varanasi'.","living_or_monumental":"LEVEND -- actief pelgrimsoord aan een eigen ghat.","mark_relevance_link":"Zelfde ontbrekende-traditie-argument als 041; bovendien direct bereikbaar vanaf de LOCKED_BY_MARK-hotelbasis (Assi Ghat-omgeving), dus routetechnisch zeer relevant.","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"identity_check":{"address_area":"Bhadaini Ghat / Jain Ghat, Varanasi","confirmed_via":["kashi.gov.in","meerdere onafhankelijke bronnen"]},"evidence":["kashi.gov.in/listing-details/bhadaini-jain-temple","en.wikipedia.org/wiki/Suparshvanatha","mycaste.in/temple/1604/bhadaini-jain-tirth"],"reason":"Nieuwe PROVISIONAL kandidaat via JAIN_HERITAGE_DETECTOR, INDIA5-VNS-DISCOVERY-COVERAGE-003.","checked_at":"2026-08-03"}
+{"candidate_id":"VNS-CAND-043","display_id":"043","canonical_name":"Shreyansanath Jain Tirth, Sarnath (Simhapuri)","cluster":"JAIN_HERITAGE","place_type":"JAIN_TIRTHA_KALYANAKA","status":"PROVISIONAL","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","discovered_by_detector":"DET-P002 JAIN_HERITAGE_DETECTOR","why_this_one":"Kalyanaka-plek van Shreyansanath, de 11e Jain-Tirthankara, gelegen in Sarnath (traditioneel Simhapuri genoemd in Jain-bronnen).","why_not_the_others":"Specifieke Tirthankara-plek; NIET hetzelfde als de bestaa
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=954 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/PRE_BRONS/DISCOVERY_CANDIDATES.jsonl blob_sha=95530f3fb0760c3ba9e0f181a6ce53dd49ffec00 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+nde boeddhistische Sarnath-kandidaten (006, 029-034) -- fysiek in hetzelfde gebied maar een volledig andere religieuze traditie en een apart, zelfstandig verhaal.","meaning_evidence":"Reisbron bevestigt 'Sarnath Jain Tirth temple... one of the main shrines of Shreyansanatha'; holyvoyages.com bevestigt de vier-Tirthankara-toewijzing incl. Shreyansnath/Simhapuri.","living_or_monumental":"LEVEND -- actieve tempel in Sarnath.","mark_relevance_link":"Zelfde ontbrekende-traditie-argument; ligt bovendien in het al druk bezochte Sarnath-gebied (Dagblok D in de travel-module), dus praktisch eenvoudig te combineren zonder extra reisdag.","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"identity_check":{"address_area":"Sarnath, Varanasi","confirmed_via":["meerdere onafhankelijke bronnen"]},"evidence":["blog.holyvoyages.com/why-to-visit-a-place/list-jain-tirthankaras-born-varanasi-india","tripvaranasi.com/jain-tirth-pilgrimage-varanasi"],"reason":"Nieuwe PROVISIONAL kandidaat via JAIN_HERITAGE_DETECTOR, INDIA5-VNS-DISCOVERY-COVERAGE-003. Let op: fysiek co-gelegen met bestaand Sarnath-cluster, GEEN samenvoeging met 006/029-034 -- apart, zelfstandig kandidaat conform het koepel-vs-deelsite-precedent.","checked_at":"2026-08-03"}
+{"candidate_id":"VNS-CAND-044","display_id":"044","canonical_name":"Ramnagar Fort (zetel van de Kashi Naresh)","cluster":"ROYAL_HERITAGE","place_type":"FORT_PALACE_MUSEUM","status":"PROVISIONAL","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","discovered_by_detector":"DET-P003 ASI_ROYAL_HERITAGE_DETECTOR","why_this_one":"De historische zetel van de Kashi Naresh (koning van Benares), gebouwd 1750 in Mughal-stijl, bevat de Veda Vyasa-tempel en het Saraswati Bhawan-museum, tegenover Tulsi Ghat aan de oostoever van de Ganga.","why_not_the_others":"Uniek: er is geen ander koninklijk fort/paleis in Varanasi -- dit is de enige locatie die de wereldlijke/koninklijke geschiedenislaag van de stad vertegenwoordigt, volledig afwezig in de religieus-gedomineerde bestaande 40.","meaning_evidence":"indianetzone.com, thetraveltalk.net (Ramnagar Fort-detailbeschrijvingen); ASI-ontwikkelingsplannen noemen Ramnagar Palace expliciet.","living_or_monumental":"GEMENGD -- nog steeds (deels) bewoond door de koninklijke familie, museum en tempel actief bezocht, dus zowel levend als monumentaal.","mark_relevance_link":"Vult de wereldlijke/historische laag die in de huidige religieus-spirituele 40 volledig ontbreekt.","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"identity_check":{"address_area":"Ramnagar, oostoever Ganga, tegenover Tulsi Ghat, Varanasi","confirmed_via":["meerdere onafhankelijke bronnen"]},"evidence":["indianetzone.com/ramnagar_fort","thetraveltalk.net/monuments_detail/83"],"reason":"Nieuwe PROVISIONAL kandidaat via ASI_ROYAL_HERITAGE_DETECTOR, INDIA5-VNS-DISCOVERY-COVERAGE-003. ASI-beschermingsstatus zelf niet met zekerheid bevestigd (zie RESULT.md) -- toegevoegd op inhoudelijke merites (uniek koninklijk erfgoed), niet uitsluitend op ASI-status.","checked_at":"2026-08-03"}
+{"candidate_id":"VNS-CAND-045","display_id":"045","canonical_name":"Adi Keshava Ghat","cluster":"GHAT_COMPLETENESS","place_type":"GHAT_HISTORIC_VISHNU_SITE","status":"PROVISIONAL","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","discovered_by_detector":"DET-P004 GHAT_COMPLETENESS_DETECTOR","why_this_one":"Markeert het noordelijke uiteinde van de heilige ghat-reeks, waar de Varuna-rivier de Ganga ontmoet -- een van de oudste Vishnu-plekken van Varanasi, met oude inscripties, favoriete pelgrimsplek van vroege heersers.","why_not_the_others":"Expliciet omschreven in bronnen als 'unlike all other ghats, offers a peaceful & untouched environment' -- niet-toeristisch, historisch aantoonbaar onderscheidend van de reeds vertegenwoordigde centrale ghats (Dashashwamedh/Manikarnika/Assi).","meaning_evidence":"Meerdere reisbronnen (chikucab.com, kashibanaras.com, kashiyatra.in e.a.) noemen Adi Keshava Ghat specifiek als oudste/grens-markerend, in tegenstelling tot gene
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=955 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/PRE_BRONS/DISCOVERY_CANDIDATES.jsonl blob_sha=95530f3fb0760c3ba9e0f181a6ce53dd49ffec00 original_offset=8192 original_length=1152 payload_bytes=1152 chunk_index=2 chunk_count=3 classification=text
+rieke ghat-vermeldingen.","living_or_monumental":"LEVEND, maar bewust rustig/onontgonnen (expliciet in bronnen genoemd) -- past bij het 'verborgen parel'-patroon uit het eerdere filosofie-overleg.","mark_relevance_link":"Vormt het noordelijke tegenhanger-bookend van Assi Ghat (al A, candidate 010, het zuidelijke uiteinde) -- Varanasi/Kashi's naam zelf komt van de Varuna+Assi-rivieren die de heilige zone begrenzen; dit is letterlijk de andere grensmarkering.","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"identity_check":{"address_area":"Noordelijk uiteinde van de ghats, samenvloeiing Varuna/Ganga, Varanasi","confirmed_via":["meerdere onafhankelijke reisbronnen"]},"evidence":["chikucab.com/blogs/ghats-of-varanasi","kashibanaras.com/blogs/84-ghats-of-varanasi","kashiyatra.in/84-ghats-of-varanasi"],"reason":"Nieuwe PROVISIONAL kandidaat via GHAT_COMPLETENESS_DETECTOR, INDIA5-VNS-DISCOVERY-COVERAGE-003. Overige onderzochte ghats (Raj Ghat e.a.) hadden geen vergelijkbaar specifiek onderscheidend verhaal en zijn NIET toegevoegd (zie RESULT.md negatieve bevindingen).","checked_at":"2026-08-03"}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=956 path=india5/tasks/done/INDIA5-ARCH-HARDEN-002/RESULT.md blob_sha=96310e3c1da7bb3e54b34e9781f5e8b86c576985 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# RESULT.md — INDIA5-ARCH-HARDEN-002
+
+## Samenvatting
+
+Alle 12 verplichte onderzoekspunten zijn doorlopen. Tijdens het dogfooden van de eigen
+taakarchitectuur zijn **vier echte bugs** gevonden en gefixt (niet alleen documentatie):
+1. `complete_task.py` controleerde `expected_outputs` op het verkeerde pad (al gevonden en
+   gefixt tijdens INDIA5-ARCH-TEST-001, hier opnieuw bevestigd).
+2. `expected_head`-exactgelijkheid was zelf-tegensprekend: het aanmaken/claimen van een taak
+   verzet HEAD altijd voorbij de eigen `expected_head` — gefixt met een voorouder-check.
+3. Handgeschreven YAML met een ongequote `#` (`"PR #23 CCI_TASK_ENVELOPE..."`) werd door de
+   YAML-parser als commentaar geïnterpreteerd en stilzwijgend afgekapt bij de eerste
+   her-serialisatie — data-integriteitsbug, gecorrigeerd + als les vastgelegd.
+4. `check_forbidden_writes.py` gebruikte aanvankelijk alleen `git diff`, dat toont GEEN nieuwe
+   (untracked) bestanden — een echte verboden write op een nieuw bestand zou dus ongemerkt
+   voorbij zijn gegaan. Gefixt door `git ls-files --others` mee te nemen, en vervolgens een
+   tweede laag gefixt: de reeds-vuile-paden-uitsluiting (nodig omdat andere, vastgehouden
+   taken zoals de PRE-BRONS-bestanden anders altijd als "overtreding" werden gezien) moest
+   map-prefixmatching gebruiken, niet exacte string-vergelijking.
+
+## Bevindingen per punt
+
+**1. git_commit_at_claim/git_commit_at_complete blijven null.** Gedocumenteerd als
+fundamenteel niet-circulair oplosbaar (het bestand kan de hash van zijn eigen committende
+commit niet bevatten). Niet-circulaire oplossing gebouwd: `resolve_task_commits.py`, een
+read-only `git log --diff-filter=A`-opzoeking. Geverifieerd tegen de echte geschiedenis:
+`INDIA5-ARCH-TEST-001` → claim_commit `0eb79f4`, complete_commit `568338d` (beide kloppen
+tegen `git log`); `INDIA5-ARCH-HARDEN-002` → claim_commit `29c0a63` (klopt).
+
+**2. expected_head-circulariteit.** Herzien van exacte gelijkheid naar een voorouder-check
+(`git merge-base --is-ancestor`). Getest: (a) de eigen claim-commit (HEAD ligt legitiem ná
+expected_head) → OK; (b) een synthetische divergente commit (aparte, nooit-gepushte branch,
+achteraf verwijderd, geen sporen) → correct als `STALE_EXPECTED_HEAD` geblokkeerd.
+
+**3. Exactly-once-semantiek.** Eén actieve taak systeembreed: getest (poging tot claim tijdens
+actieve taak → geweigerd). Dezelfde taak niet tweemaal claimbaar: getest (taak niet meer in
+queue/ na claim → natuurlijke weigering "niet gevonden"). Voltooide taak niet opnieuw
+uitvoerbaar: NIEUW gebouwd (`claim_task.py` weigert nu expliciet als `task_id` al in `done/`/
+`failed/` bestaat) en getest (kopie van `INDIA5-ARCH-TEST-001` teruggezet in `queue/`,
+claimpoging correct geweigerd, kopie verwijderd). Parallelle sessie: geen code-mechanisme
+nodig — git zelf serialiseert via fast-forward-only pushes; recoveryprocedure gedocumenteerd
+(fetchen, lokale claim intrekken bij conflict, nooit force-pushen).
+
+**4. Crashherstel, vier toestanden.** Alle vier gedocumenteerd in `TASK_PROTOCOL.md`. Toestand
+1-3 vereisten geen nieuwe code (het ontwerp was al hervatbaar). Toestand 4 (na completion-move,
+vóór resultaatcomment) miste een marker om te weten of de comment al geplaatst was — nieuw
+veld `STATUS.yaml.result_comment_posted` toegevoegd aan het schema.
+
+**5. Instructieprecedentie + HOLD/ABORT.** Vijfledige precedentielijst herzien en canoniek
+vastgelegd in zowel `TASK_PROTOCOL.md` als `GOVERNANCE.md` sectie 6. HOLD-mechanisme NIEUW
+gebouwd: `STATUS.yaml.hold`-object + afdwinging in `validate_task.py` (`check_hold()`). Getest
+met een tijdelijke kopie van `STATUS.yaml` (hold.active=true → validatie faalt met duidelijke
+reden; hersteld naar origineel → validatie slaagt weer).
+
+**6. Autonome regioflow.** Gedocumenteerd in `TASK_PROTOCOL.md`: `scope: REGION_FULL_FLOW` kan
+`PRE-BRONS → BRONS → ZILVER → GOUD/TRAVEL` dragen; interne batches/checkpoints blijven bestaan
+maar zijn geen aparte `india5/tasks/`-taken. Cross-verwijzing naar het bestaande "Autonome
+regio-doorloop"-principe in `india4/p
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=957 path=india5/tasks/done/INDIA5-ARCH-HARDEN-002/RESULT.md blob_sha=96310e3c1da7bb3e54b34e9781f5e8b86c576985 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+rotocols/INDIA5-PROTOCOL.md` (geen duplicatie).
+
+**7. Governance versus regio-uitvoering.** Vastgelegd in `GOVERNANCE.md` sectie 9: governance
+in versiebeheerde bestanden, toekomstige regio's krijgen eigen run + bij voorkeur eigen PR, PR
+#23 wordt niet de permanente queue. Geen nieuwe PR aangemaakt in deze taak (niet gevraagd, wel
+expliciet "PR #23 niet mergen" gerespecteerd).
+
+**8. Globale nummeringsvalidator.** Nieuw gebouwd: `validate_global_numbering.py`, puur lezend.
+Getest tegen de echte, bestaande `NUMBERING_REGISTRY.jsonl` (Varanasi, 40 nummers) —
+`VALIDATIE OK`, geen wijziging aan het bestand. Rapporteert het huidige bereik (001-040) zodat
+een toekomstige regio vooraf een niet-overlappend bereik kan reserveren.
+
+**9. Machineleesbare kennistoets-rubriek.** Nieuw gebouwd: `india5/schemas/knowledge_gate.schema.json`
++ `india5/templates/KNOWLEDGE_GATE_REVIEW_TEMPLATE.md` + `validate_knowledge_gate.py`. Getest
+met een minimale, geldige voorbeeldreview (12 onderwerpen, alle PASS) → `VALIDATIE OK`.
+
+**10. Governancemigratie.** `india5/GOVERNANCE.md` aangemaakt met alle 7 gevraagde
+onderwerpen: rolverdeling Mark/INDIA2/CCI (1), PDF-op-verzoek (2, cross-ref naar bestaand
+canoniek bestand), detectorbibliotheek-governance (3), PRE-BRONS-output/verzadigingsregels (4),
+immutable numbering (5, cross-ref), instructieprecedentie (6, nieuw), task-file-relay (7,
+cross-ref). Waar een besluit al canoniek elders stond, is uitsluitend samengevat + doorverwezen
+om duplicatie te vermijden.
+
+**11. Vastgehouden PRE-BRONS-bestanden.** Volledig geïnventariseerd + regel-voor-regel
+vergeleken met de canonieke INDIA2-besluiten in `PRE_BRONS_HOLD_INVENTORY.md` (aparte,
+reviewbare bijlage bij deze taak, blijft in de taakdirectory, wordt NIET elders gecommit).
+Conclusie: geen inhoudelijke afwijking gevonden. De bestanden zelf blijven ONGECOMMIT, zoals
+voorgeschreven — deze hardeningstaak committeert uitsluitend taakarchitectuurbestanden onder
+`india5/`.
+
+**12. Negatieve tests.** Zie testmatrix hieronder — alle uitgevoerd met wegwerpbare
+kopieën/branches, geen enkel spoor achtergelaten in de definitieve staat.
+
+## Testmatrix
+
+| # | Test | Resultaat |
+|---|---|---|
+| 1 | Stale expected_head (divergente commit) | PASS -- correct geblokkeerd |
+| 2 | expected_head = eigen claim-commit (legitieme opvolger) | PASS -- correct toegestaan |
+| 3 | Dubbele claim (tweede claimpoging op reeds actieve taak) | PASS -- correct geweigerd |
+| 4 | Ontbrekende completion marker in RESULT.md | PASS -- correct geweigerd |
+| 5 | Gewijzigd TASK.md ná hashvastlegging (tamper) | PASS -- correct gedetecteerd |
+| 6 | Verboden write-path (nieuw bestand op forbidden-pad) | PASS -- correct geweigerd (na fix van de untracked-bug) |
+| 7 | Completed task opnieuw claimen | PASS -- correct geweigerd (na nieuwe check toe te voegen) |
+| 8 | Twee queued taken terwijl één active is | PASS -- queue toegestaan, claim correct geweigerd |
+| 9 | Afgekapt/ontbrekend taakbestand (TASK.md verwijderd) | PASS -- correct gedetecteerd |
+| 10 | HOLD actief blokkeert validatie | PASS -- correct geblokkeerd, correct hersteld na unhold |
+| 11 | expected_outputs-pad vóór/ná completion-move | PASS (bug gevonden+gefixt in INDIA5-ARCH-TEST-001, hier herbevestigd) |
+| 12 | resolve_task_commits.py tegen echte geschiedenis | PASS -- klopt voor beide bestaande taken |
+| 13 | validate_global_numbering.py tegen echte Varanasi-data | PASS -- 40/40, geen wijziging aan het bestand |
+| 14 | validate_knowledge_gate.py met geldige voorbeeldreview | PASS |
+| 15 | forbidden_writes-check negeert reeds-vuile paden correct (pre_existing_dirty_paths) | PASS (na map-prefixmatch-fix) |
+
+## Gewijzigde/nieuwe bestanden
+
+**Nieuw:**
+- `india5/GOVERNANCE.md`
+- `india5/.gitignore`
+- `india5/schemas/knowledge_gate.schema.json`
+- `india5/templates/KNOWLEDGE_GATE_REVIEW_TEMPLATE.md`
+- `india5/scripts/resolve_task_commits.py`
+- `india5/scripts/check_forbidden_writes.py`
+- `india5/scripts/validate_global_numbering.py`
+- `india5/scripts/validate_knowledge_gate.py`
+- `india5/tasks/queue/INDIA5-ARCH-HARDEN-002/TASK.md` + `
+<<< END CHUNK >>>
+

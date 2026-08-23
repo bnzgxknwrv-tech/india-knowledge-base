@@ -1,0 +1,456 @@
+>>> CHUNK stream_row=299 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/SRI_YUKTESWAR_RECONCILIATION.md blob_sha=3362bad00ad4b3553dc7fb2e0d1164e63c6542b2 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+t in AOAY (geen S1-locator door extern zelf gegeven, alleen S6/S7 lineage-/reisnotitiebronnen). Ik kan dit niet bevestigen of ontkennen binnen deze taak — `BRON_GEBLOKKEERD`, belangrijke open lead, NIET stilzwijgend overgenomen als feit. |
+| 2 (Puri zeehermitage, zelf gebouwd + sterfplaats) | SY-023 t/m SY-028 | `SAME_SITE_DIFFERENT_GRANULARITY` | Extern splitst in zes sublocaties (zandduin/stichting, hoofdhermitage, cobra-episode-plek, strand, mahasamadhi-kamer, graf/Samadhi Mandir). Alle AOAY-hfst. 15/42/43-gebaseerd, consistent met mijn eigen bron. Sterfdatum/-plaats bevestigd (9-10 maart 1936, niet 21 maart zoals ik eerder had — zie correctie hieronder). |
+| (nieuw, ontbrak intern) | SY-022 (eerste Puri-aankomst via zee, mislukte ontmoeting met astronoom Samanta Chandrasekhar) | `EXTERNAL_ONLY_UNVERIFIED` | Bron S5 (Karar Ashram-lineagepagina), geen AOAY-locator. Niet door mij geverifieerd. |
+| — | **datumcorrectie op mijn eigen record 2** | `SAME_SITE_DIFFERENT_GRANULARITY` (intern zelf gecorrigeerd, geen echt conflict) | **Herlezen ch. 42, regels 518-524**: "March 21" in mijn oorspronkelijke freeze is WEL degelijk over Sri Yukteswar zelf ("Srimat Swami Sri Yukteswar Giri Maharaj, aged 81") — maar de zin beschrijft expliciet zijn **death BHANDARA (herdenkingsceremonie)**, niet de mahasamadhi/het overlijden zelf. De voorafgaande regel noemt dit een "vernal equinox memorial service" — 21 maart is de lentenachtevening, de datum van de herdenkingsceremonie, niet van de dood. Extern geeft voor de mahasamadhi zelf **9 maart 1936, 19:00** en begrafenis **10 maart**. **Mijn eigen fout**: ik had de bhandara-ceremoniedatum abusievelijk als sterfdatum genoteerd. Geen echt bronconflict — beide data kunnen correct zijn voor verschillende gebeurtenissen; ik corrigeer alleen mijn eigen eerdere gelijkstelling. |
+| 5 (Kashmir-route) | SY-029 t/m SY-036 | `SAME_SITE_SAME_EVENT` | Volledige match met de vandaag al zelf geverifieerde Werkpakket-D-batch5-route (Simla, Srinagar-inn, Shankaracharya-tempel, Gulmarg, Khilanmarg, Shalimar Bagh, Nishat Bagh, Dal Lake). Extern classificeert de naamloze Srinagar-inn (SY-030) als `ONBEKEND` fysieke identiteit — consistent met mijn eigen eerdere bevinding dat AOAY geen innaam geeft. |
+| 6 (Serampore-station) | SY-009 | `SAME_SITE_SAME_EVENT` | Zie boven. |
+| 7 (Calcutta, algemeen/onbepaald) | SY-013 (Calcutta Medical College) + SY-014 (Albert Hall) + SY-015 (onbekende bestemming na dringende oproep) | `EXTERNAL_ONLY_VERIFIED_MISS` (SY-014) / `EXTERNAL_ONLY_UNVERIFIED` (SY-013, SY-015) | **SY-014 bronmatig herkenbaar**: AOAY hfst. 42 ("Last Days with My Guru") beschrijft Sri Yukteswars aanwezigheid op het podium tijdens Yogananda's Calcutta-lezing eind 1935 — dit is een concrete, AOAY-eigen locatie die ik zelf niet als apart Calcutta-record had vastgelegd ondanks dat ik hfst. 42 wel had gelezen voor andere doeleinden. Genoteerd als correctie. SY-013 (medische studie) en SY-015 (dringende oproep) steunen op resp. Satyananda-secundair (S6/S12) en AOAY hfst. 19 — dat laatste kan ik navragen maar heb ik nu niet apart herlezen; blijft `UNVERIFIED` bij dit checkpoint, geen aanname. |
+| (nieuw, ontbrak intern) | SY-012 (Panthi boardinghouse, materialisatie aan Yogananda, ca. 1915) | `EXTERNAL_ONLY_VERIFIED_MISS` (met kwalificatie) | AOAY hfst. 19 beschrijft dit (reeds bekend uit de Yogananda-atlas als Panthi-pension, batch1 vandaag VERIFIED_TRUE voor Yogananda's eigen kamer). Voor Sri Yukteswar zelf is dit een **materialisatie tijdens leven** (1915, hij stierf pas 1936) — geen postume verschijning, maar ook geen gewone reisbeweging. Conform TASK.md §8 apart gehouden: `PRESENCE_TYPE: VISION_OR_MATERIALIZATION`, niet als gewone fysieke aanwezigheid genormaliseerd. |
+| — | SY-037 (Regent Hotel Bombay, postume verschijning) | `SYMBOLIC_VISIONARY_OR_POSTHUMOUS_ONLY` | Matcht mijn eigen bestaande behandeling exact (al apart gehouden in zowel mijn 087-freeze als `WERKPAKKET_D_DEEPENING_CCI_086.md`). Geen conflict, bevestiging. |
+| — | SY-038 (Bherir Bazar hutment) | `EXTERNAL_ONLY_UNVER
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=300 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/SRI_YUKTESWAR_RECONCILIATION.md blob_sha=3362bad00ad4b3553dc7fb2e0d1164e63c6542b2 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+IFIED` | Extern classificeert zelf al zwak (`S14`, "afgeleide documentweergave, zwak bewijs", `PERSONALLY_PRESENT: ONZEKER`). Niet door mij nagetrokken, blijft ongeverifieerd aan beide kanten. |
+
+## Werkpakket C — resultaat directe bronverificatie (samenvatting)
+
+| claim | resultaat |
+|---|---|
+| Christelijke kerk bij Serampore Courthouse (SY-010) | **BEVESTIGD** — AOAY hfst. 20, regels 51/78. |
+| Kadambini Devi's woning, Rana Mahal (SY-016/017) | **BEVESTIGD** — AOAY hfst. 10 regel 303, hfst. 12 regel 981 ("Sri Yukteswar's mother lived in the Rana Mahal district of Benares"). Eigen interne gap gecorrigeerd. |
+| Sterfdatum Sri Yukteswar | **EIGEN FOUT GECORRIGEERD**: 9 maart 1936 (niet 21 maart, dat was een andere persoon/passage in hfst. 42). |
+| Albert Hall-podium, Calcutta-lezing 1935 (SY-014) | **BEVESTIGD** — AOAY hfst. 42, eigen eerdere lezing bevestigt de scène; ontbrak als apart atlaspunt. |
+| Mahabodhi Temple-geloften 1906 (SY-021) | **NIET GEVERIFIEERD** — geen AOAY-locator, niet lokaal na te trekken binnen deze taak. |
+| Calcutta Medical College (SY-013) | **NIET GEVERIFIEERD** — secundaire bron (Satyananda via Wikipedia), niet zelf gecontroleerd. |
+
+## Werkpakket D — METHOD_V2-gates, herbeoordeeld
+
+| gate | oordeel | onderbouwing |
+|---|---|---|
+| `CORPUS_COVERAGE_GATE` | **DEELS** | AOAY nu grotendeels ook op sublocatieniveau gedekt dankzij de externe verdieping en drie directe correcties (kerk, moederhuis, Albert Hall). Satyananda's volledige biografie en *The Holy Science* blijven `BRON_GEBLOKKEERD`. |
+| `HOSTGRAPH_GATE` | **DEELS** | Kadambini Devi (moeder) toegevoegd als nieuwe hostrelatie; overige kernrelaties ongewijzigd. |
+| `DISCOVERY_GATE` | **DEELS** | Externe freeze vond Bodh Gaya-monastieke-geloften (1906) en de Calcutta Medical College-episode — beide grote, plausibele aanvullingen buiten wat mijn eigen (bewust beperkte) pas vond. |
+| `RECONCILIATION_GATE` | **PROVISIONEEL** | Alle 7 interne + 38 externe records hebben een expliciete uitkomst; drie concrete interne gaps gecorrigeerd (kerk, moederhuis, Albert Hall) plus één datumfout (sterfdatum) rechtgezet. PROVISIONEEL i.p.v. JA: IndiaROOD ontbreekt nog bij dit checkpoint. |
+| `EXTERNAL_MODEL_DIVERSITY_GATE` | **NEE** | Zelfde reden als bij de andere twee personen. |
+
+**`SRI_YUKTESWAR_SWEEP_SATURATED: NEE`** — blijft NEE, nu met een steviger fundament (38 sublocaties
+verwerkt, vier eigen correcties toegepast) maar nog altijd zonder Satyananda-volledige-biografie,
+*The Holy Science*, en zonder IndiaROOD-derde-detector.
+
+## Correcties toegepast op de interne pre-external freeze
+
+1. Nieuwe rij: christelijke kerk bij Serampore Courthouse (AOAY hfst. 20) — ontbrak.
+2. Nieuwe rij: Kadambini Devi's woning, Rana Mahal-district, Benares (AOAY hfst. 10/12) — Sri
+   Yukteswars eigen moeders huis, ontbrak als apart record van Lahiri Mahasaya's huis.
+3. Nieuwe rij: Albert Hall-podium, Calcutta-lezing eind 1935 (AOAY hfst. 42) — ontbrak als apart
+   Calcutta-record.
+4. **Datumcorrectie**: Sri Yukteswars mahasamadhi was **9 maart 1936** (19:00), begrafenis 10 maart.
+   Mijn oorspronkelijke freeze noemde "21 maart" als sterfdatum, gebaseerd op AOAY hfst. 42 — maar
+   die passage beschrijft zijn **death BHANDARA (herdenkingsceremonie, gekoppeld aan de
+   lentenachtevening)**, niet de mahasamadhi zelf. Geen bronconflict, wel een eigen
+   interpretatiefout die hier gecorrigeerd is.
+
+## next_allowed_step (voor deze persoon)
+
+1. Verplichte lossless IndiaROOD-deltareconciliatie zodra beschikbaar.
+2. Indien later toegankelijk: Satyananda's volledige biografie en *The Holy Science* voor de
+   Bodh Gaya-geloften (1906) en Calcutta Medical College-episode direct verifiëren.
+3. Geen cluster/regio, A/B/C, permanente ID's, PDF of route.
+
+---
+Geschreven door: CCI, checkpoint 3 (laatste persoon) van CCI_TASK 088.
+
+## DELTA — CCI_TASK 092 (2026-08-19, IndiaROOD-derde-detectorreconciliatie)
+
+Volledige drieweg-reconciliatie tegen de nu duurzame IndiaROOD-freeze (42 records + 14 negatieve
+bevindingen, commit `6f71180`): zie
+`runs/active/TOP11-CORE
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=301 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/SRI_YUKTESWAR_RECONCILIATION.md blob_sha=3362bad00ad4b3553dc7fb2e0d1164e63c6542b2 original_offset=12288 original_length=1307 payload_bytes=1307 chunk_index=3 chunk_count=4 classification=text
+-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/SRI_YUKTESWAR_INDIAROOD_DELTA.md`.
+
+**Belangrijkste uitkomst**: IndiaROOD gebruikt dezelfde Satyananda-directe-discipel-biografie die
+088 als `BRON_GEBLOKKEERD` had; de twee grootste 088-leads die daarop steunden (Bodh Gaya-
+monastieke geloften; Calcutta Medical College) worden nu onafhankelijk door IndiaROOD bevestigd —
+status omhoog van `BRON_GEBLOKKEERD` naar `PLAUSIBLE`. Twee volledig nieuwe claims (het
+maharaja-huis-weigeringsverhaal; de 1930-foto's op het dak van 4 Garpar Road) zijn Tier-1
+woordelijk bevestigd via een rechtstreeks toegankelijke eyewitness-bron (Hare Krishna Ghosh,
+anandaindia.org). De 9-maart-1936-mahasamadhi/10-maart-begrafenis/21-maart-bhandara-datumreeks
+(088's eigen eerdere zelfcorrectie) wordt drievoudig cross-gevalideerd. Negen volledig nieuwe
+Tier-2-locaties toegevoegd (Goswami-huis, Santal-guru, Dabru Ballav, Chandrakanta Shiromani,
+Jeletola/Narendranath Basu, Pranabashram, Tulsi Bose-huis, Ghatal/Khukurdaha,
+Ganga-Sagar-Mela-kamp). Geen conflicten of hallucinaties gevonden.
+
+`RECONCILIATION_GATE`: PROVISIONEEL → JA. `EXTERNAL_MODEL_DIVERSITY_GATE`: NEE → JA.
+`SRI_YUKTESWAR_SATURATED: NEE` blijft de eerlijke uitkomst.
+
+Checkpoint: Sri-Yukteswar-IndiaROOD-delta, CCI_TASK 092, checkpoint 3/3 (laatste persoon).
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=302 path=runs/active/GAYA-AIRPORT-BODHGAYA-CORRIDOR-001/STATUS.md blob_sha=33c0a2a9a36b15bb12824cae8c22a9e5a0691e35 original_offset=0 original_length=1614 payload_bytes=1614 chunk_index=0 chunk_count=1 classification=text
+# STATUS — GAYA-AIRPORT-BODHGAYA-CORRIDOR-001
+
+```
+task_id: GAYA-AIRPORT-BODHGAYA-CORRIDOR-001
+state: DOUBLE_SWEEP_COMPLETED_RECONCILED
+task_file: runs/active/GAYA-AIRPORT-BODHGAYA-CORRIDOR-001/TASK.md
+status_file: runs/active/GAYA-AIRPORT-BODHGAYA-CORRIDOR-001/STATUS.md
+result_file: runs/active/GAYA-AIRPORT-BODHGAYA-CORRIDOR-001/RESULT.md
+last_updated: 2026-08-14
+last_updated_by: CCI (reconciliatie na onafhankelijke INDIA Sweep B)
+reconciliatie_commit: 916b20edd80ea4a5367cd7d17863941712354227
+```
+
+**blockers**: geen.
+
+**Samenvatting**: Sweep A (CCI) en Sweep B (INDIA, onafhankelijk) beide 0/0 nieuwe fysieke
+corridor-kandidaten. Sweep B leverde 4 reconciliatiepunten (corridorgeometrie 10,6 km via
+NH22+Domuhan-Bodhgaya Road, Top11-methodecorrectie, nieuwe out-of-scope detectie Belur Math Gaya
+Ji sub-centre, Babaji/Shyamananda Giri-nuance) — alle 4 door CCI zelfstandig broncontroleerd
+(poort G.1) en verwerkt in RESULT.md. Kandidaatuitkomst ongewijzigd (079 blijft ongebruikt);
+alleen tekst/geo-precisie verbeterd. Eén punt (specifieke "AAI = 10 km"-toeschrijving) kon CCI
+niet zelfstandig bevestigen en is voorzichtiger geformuleerd dan aangeleverd — zie RESULT.md
+CORRIDORRELEVANTIE.
+
+**next_allowed_step**: Geen verder onderzoek voor deze taak — dubbele sweep + reconciliatie
+voltooid (poort R). Geen PRE_PDF_CONTENT, geen PDF, geen A/B/C — nooit in scope (TASK.md).
+Onderzoeksdata staat klaar voor latere route-/reisplanning. Volgend werk is een nieuwe taak/regio
+of een expliciet Mark-verzoek.
+
+---
+Dit bestand is de kortste, altijd-actuele bron van waarheid voor deze taak (poort O.1).
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=303 path=governance/LOCATION_RESOLUTION_BEFORE_ABC_2026-08-19.md blob_sha=33d6ba6df307a94907c3f09a2f23e35063f59ffa original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# LOCATION RESOLUTION BEFORE A/B/C — 2026-08-19
+
+## MARK-BESLUIT — LOSSLESS EERST
+Geen historische locatie uit een persoons-, AOAY-, overlap- of clustersweep mag uit Marks zicht verdwijnen enkel omdat de exacte moderne fysieke identiteit nog onzeker is.
+
+Dit is een harde LOSSLESS-regel:
+1. bouw EERST een complete masterlijst van ALLE gevonden historische locatieclaims uit ALLE relevante lagen;
+2. geef elk record een stabiele tijdelijke audit-ID zodat later aantoonbaar is dat niets verdwenen is;
+3. dedupliceer alleen expliciet en behoud aliases/source-records;
+4. pas DAN resolution-research toe per record;
+5. een onzeker record blijft zichtbaar in dezelfde masterlijst en krijgt R1–R5 + access-status + next-search-route;
+6. pas nadat de masterlijst compleet en gereconcilieerd is, ontstaat een A/B/C-keuzelijst.
+
+## VERBODEN DOODLOOP
+NOOIT eerst alleen de locaties tonen die al bezoekbaar/exact zijn. Dat maakt onopgeloste records onzichtbaar en Mark kan dan niet controleren wat verdwenen is.
+
+Dus NIET:
+`gevonden -> onzeker -> weglaten -> later misschien terugzoeken`
+
+Maar WEL:
+`gevonden -> MASTERLIST -> unresolved gemarkeerd -> gericht onderzoeken -> best haalbare resolution -> ALLES zichtbaar -> Mark A/B/C`
+
+Elke cluster-output moet daarom drie aantallen tonen:
+- `MASTER_RECORDCOUNT` = alle unieke historische locatieclaims vóór resolution-filter;
+- `RESOLVED_OR_APPROX_COUNT` = R1/R2/R3;
+- `UNRESOLVED_COUNT` = R4/R5.
+Deze aantallen moeten optellen. Geen record mag tussen fasen spoorloos verdwijnen.
+
+## GEEN BINAIRE EXACT/NIET-EXACT LOGICA
+Niet elke traditie kan dezelfde precisie hebben. De vereiste precisie is afhankelijk van claimtype en historische bewijsbaarheid.
+
+### R1 — EXACT_CURRENT_SITE
+Historische gebeurtenis is gekoppeld aan een concrete huidige site/gebouw/ruimte of ondubbelzinnig terrein. Voorbeeld: bestaand tempelcomplex, herkenbare ashram, bewaarde kamer.
+
+### R2 — EXACT_HISTORIC_SITE_SUCCESSOR
+Oorspronkelijke structuur is verdwenen/veranderd, maar de historische fysieke plek is betrouwbaar gekoppeld aan een huidige opvolger/memorial/terrein. Voorbeeld: oorspronkelijke hut verdwenen, huidige tempel staat aantoonbaar op dezelfde plek.
+
+### R3 — STRONG_LOCALIZED_APPROXIMATION
+Exacte meters/ruimte zijn niet herstelbaar, maar de gebeurtenis is betrouwbaar te begrenzen tot een kleine bezoekbare zone, ghat, grotcomplex, ashramterrein, stationsdeel, rivierconfluence of vergelijkbaar. Dit mag A/B/C-ready zijn ALS fijnere precisie historisch redelijkerwijs onmogelijk is en de onzekerheid expliciet wordt gemeld.
+
+### R4 — BROAD_PLACE_ONLY
+Alleen stad/dorp/regio bekend of meerdere plausibele huidige sites zonder voldoende discriminatie. Niet A/B/C-ready totdat gerichte resolution-research aantoonbaar is uitgeput.
+
+### R5 — UNRESOLVED_CLAIM
+Historische aanwezigheid zelf, fysieke identiteit of moderne continuïteit blijft substantieel onzeker. Niet A/B/C-ready, maar NOOIT verwijderen; blijft op unresolved queue met next-search-route.
+
+## ZWAARTE-AFHANKELIJKE REGEL
+Hoe belangrijker de claim voor Marks reis, hoe zwaarder de verplichting tot resolution-research vóór A/B/C.
+Prioriteit:
+1. AOAY scene met Yogananda persoonlijk aanwezig;
+2. Babaji/Kriya hoofdclaims en unieke meditatie-/initiatie-/samadhi-/mahasamadhi-sites;
+3. exact same-site overlap van meerdere Top-X-personen;
+4. heritage stay / kamer / huis / ashram waar Mark werkelijk kan verblijven of zitten;
+5. overige persoonslocaties;
+6. transit/context.
+
+Voor mythische of oude claims (bv. Babaji) mag R3 het best haalbare eindniveau zijn. Voor een 20e-eeuws hotel, ashram, huis of ziekenhuis is R3 niet zomaar voldoende: daar moet actief naar gebouw/adres/continuïteit/toegang worden gezocht voordat wordt geaccepteerd dat meer precisie onmogelijk is.
+
+## BEZOEKBAARHEID
+Iedere locatie in de masterlijst krijgt expliciet een huidige access-status zodra bekend:
+- PUBLIC_OPEN
+- PUBLIC_LIMITED_HOURS
+- PRIVATE_PERMISSION_POSSIBLE
+- EXTERIOR_ONLY
+- LANDSCAPE_ACCESS
+- SUCCESSOR_SITE_VISITABLE
+- ACCESS_UNKNOWN
+- ACCESS_UNKNOWN_AFTER_EXHAUSTION
+
+Onbekende bezoekbaarh
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=304 path=governance/LOCATION_RESOLUTION_BEFORE_ABC_2026-08-19.md blob_sha=33d6ba6df307a94907c3f09a2f23e35063f59ffa original_offset=4096 original_length=1749 payload_bytes=1749 chunk_index=1 chunk_count=2 classification=text
+eid is GEEN reden om een locatie weg te laten; het is een onderzoeksstatus.
+`ACCESS_UNKNOWN_AFTER_EXHAUSTION` mag bij R3 wanneer een zinvol fysiek bezoek desondanks mogelijk is en duidelijk wordt uitgelegd waarom meer precisie/toegang niet herstelbaar is.
+
+## CLUSTERWERK
+Voor ieder cluster:
+1. verzamel ALLE records uit AOAY + alle persoonsfreezes + reconciliaties + bestaande clusterregisters + overlap/heritage-lagen;
+2. maak één LOSSLESS MASTER LOCATION LIST;
+3. markeer duplicates/aliases zonder bronrecords te verliezen;
+4. geef ieder record R1–R5 en access-status;
+5. maak vervolgens een UNRESOLVED LOCATION QUEUE uit alle R4/R5 en ACCESS_UNKNOWN-zware records;
+6. voer gerichte identity/continuity/access-research uit;
+7. publiceer daarna de VOLLEDIGE lijst aan Mark, inclusief nog onoplosbare records met uitleg;
+8. alleen records met voldoende fysiek anker krijgen A/B/C; R4/R5 blijven zichtbaar als 'nog niet kiesbaar', niet verborgen.
+
+Geen oude locatie overslaan omdat hij onzeker is. Geen AI mag moeilijke micro-sites stil filteren om de lijst netter te maken.
+
+## REPO-BREDE TOEPASSING
+Deze regel geldt niet alleen voor Vrindavan/Braj en Prayagraj/Allahabad, maar voor de GEHELE INDIA-reislaag over alle plaatsen en personen. Bestaande eerdere 'complete' clusters moeten bij heropening worden gecontroleerd op records die ooit door onzekerheid/bezoekbaarheid buiten de beslislijst zijn gebleven.
+
+## REISDOEL
+Mark reist op gevoel en wil onder andere ter plaatse AOAY lezen, mediteren, in historische kamers/ashrams verblijven en kleine betekenisvolle plekken bezoeken. Daarom is historische betekenis belangrijker dan toeristische beroemdheid en moet lossless inventarisatie + fysieke resolution vóór route-optimalisatie komen.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=305 path=india4/templates/RUN.yaml blob_sha=345d48b29b6f73e0acfa3e802ff0593fce4347ad original_offset=0 original_length=380 payload_bytes=380 chunk_index=0 chunk_count=1 classification=text
+schema_version: 1
+run_id: EXAMPLE-RUN-001
+status: READY_FOR_BRONS
+created_at: YYYY-MM-DD
+objective: []
+source_runs: []
+research_scope: []
+protected_mark_decisions: {}
+explicit_rejections: []
+required_role_outputs:
+  BRONS: []
+  ZILVER: []
+  GOUD: []
+forbidden_outputs: []
+candidate_uncertainty_policy: ISOLATE_AND_CONTINUE
+role_sequence: [BRONS, ZILVER, GOUD]
+current_role: BRONS
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=306 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/BABAJI_RECONCILIATION.md blob_sha=365fb838ec2532fc0e277256bda965ed277543a7 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=5 classification=text
+# BABAJI_RECONCILIATION
+
+```
+task_id: TOP11-CORE-KRIYA-RECONCILIATION-001
+cci_task: CCI_TASK 088
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-19
+interne_input: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/BABAJI_V2_PRE_EXTERNAL_FREEZE.md
+  (freeze commit 6b79f1c8ad25572cb058c047673aef9d5c4284ce, 14 records)
+externe_input: agent/chatgpt-top11-parallel-sweep:
+  runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/BABAJI_PRE_COMPARE_FREEZE.md
+  (freeze commit f565ff163e35597d2c4ed802676a4671f9da3b70, 35 records: B01-B35)
+INDIA_ROOD_PENDING: JA — bij checkpointmoment (2026-08-19 08:12 UTC) staat op PR #23 nog geen
+  duurzame IndiaROOD-freeze-envelop met bestandspad + commit-SHA voor Babaji. Conform CCI_TASK 088's
+  addendum (PR-comment over IndiaROOD, TASK.md-commit 5517e46) wordt de tweedetector-reconciliatie
+  hieronder wel volledig uitgevoerd, maar RECONCILIATION_GATE is PROVISIONEEL en
+  EXTERNAL_MODEL_DIVERSITY_GATE blijft NEE tot een IndiaROOD-freeze lossless is verwerkt.
+```
+
+## Methode
+
+Bidirectionele match: elke interne rij (1-14) EN elke externe rij (B01-B35) krijgt exact één
+reconciliatie-uitkomst uit de vaste taxonomie van `TASK.md` §5. Directe bronverificatie is
+uitgevoerd voor elke external-only claim, elke internal-only claim en elk conflict — de externe
+branch is niet gewijzigd, alleen gelezen.
+
+## Canonieke epistemische regel — geen historische Babaji-verificatie
+
+De onderstaande reconciliatie verifieert **claims en hun provenance**, niet Babaji's historische
+bestaan of lichamelijke aanwezigheid. Labels als `BODILY_FIRSTHAND`, tier A of
+`CLAIM_DOCUMENTED` betekenen alleen dat een bepaalde bron/traditie de ontmoeting als lichamelijk
+rapporteert. Canoniek blijft voor ieder Babaji-record:
+`HISTORICALLY_VERIFIED_BABAJI_PRESENCE: NIET_VASTSTELBAAR`.
+De fysieke site en de aanwezigheid van een beter documenteerbare volgeling/getuige kunnen
+afzonderlijk wel worden geverifieerd. Zie
+`decisions/BABAJI_MYTHIC_FIGURE_EVIDENCE_RULE_2026-08-19.md`.
+
+## Claimant-tradities in de externe set
+
+De externe freeze dekt vier duidelijk gescheiden tradities. Mijn interne freeze dekte uitsluitend
+de eerste, omdat die de enige is die in AOAY zelf voorkomt:
+
+1. `YOGANANDA_LAHIRI_SRI_YUKTESWAR_SRF_YSS` — AOAY + YSS/SRF-lineage (extern B01-B18, plus B32).
+2. `KRIYA_BABAJI_NAGARAJ_YOGI_RAMAIAH` — Zuid-Indiase Nagaraj/Ramaiah-Siddha-traditie (extern
+   B19-B23 vallen deels ook onder een aparte Nath-lijn via Sri M/Maheshwarnath; B24-B31 zijn de
+   kern-Nagaraj/Ramaiah-tak).
+3. `HAIDAKHAN_BABAJI` — de historische leraar die 1970-1984 in Haidakhan leefde (extern B33-B35).
+4. Sri M/Maheshwarnath's "Sri Guru Babaji" (Nath-sampradaya) is in de externe freeze zelf al apart
+   gehouden van de Nagaraj-tak (B19-B22); hier gelabeld `OTHER_OR_UNKNOWN` omdat de externe freeze
+   dit niet aan een van de drie bovenstaande vaste categorieën koppelt en de identiteitsclaim zelf
+   uitdrukkelijk lineage-eigen/betwist is.
+
+**Hard uitgangspunt, conform TASK.md §7**: een site uit tradities 2-4 is GEEN locatie van "Yogananda's
+Mahavatar Babaji" zonder expliciete, bronmatig verifieerbare identiteitsbrug. Zo'n brug is in geen
+van deze 22 records (B19-B35, min B32) gevonden — de externe freeze zelf signaleert dit ook al
+("expliciet betwist door andere Kriya-lineages", B33/B35-toelichting). Deze 22 records blijven dus
+apart geregistreerd, niet gereconcilieerd tegen mijn AOAY-interne 14, en tellen niet mee voor
+`PERSON_SWEEP_SATURATED` van "de" Babaji-figuur die in AOAY optreedt.
+
+## Werkpakket A+B — volledige matrix (samenvatting; machineleesbare rijen in RECONCILIATION_MATRIX.jsonl)
+
+### Tak 1 — YOGANANDA_LAHIRI_SRI_YUKTESWAR_SRF_YSS (interne 1-14 vs. externe B01-B13, B32)
+
+| intern # | extern # | uitkomst | toelichting |
+|---|---|---|---|
+| 1 (Drongiri-grot, Ranikhet, 1861-ontmoeting+initiatie) | B01 (grot/richel) | `SAME_SITE_DIFFERENT_GRANULARITY` | Extern splitst mijn ene record in drie sublocaties (B01 grot, B02 Gogash-rivieroever, B03 tijdelijk paleis). Inhoudelijk identieke gebeurtenis/bron (AOAY hfst. 34), extern preciezer op sublocat
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=307 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/BABAJI_RECONCILIATION.md blob_sha=365fb838ec2532fc0e277256bda965ed277543a7 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=5 classification=text
+ieniveau. |
+| 1 | B02 (Gogash-rivieroever) | `DISTINCT_SUBLOCATION` | Terecht aparte sublocatie binnen dezelfde gebeurtenis (reinigingsritueel na de initiatie) — AOAY hfst. 34 bevestigt de rivieroeverscène apart van de grot zelf. Ik nam dit direct verifieerbaar detail niet als eigen rij op; toegevoegd als correctie (zie §Correcties). |
+| 1 | B03 (tijdelijk paleis) | `DISTINCT_SUBLOCATION` | Idem — het gematerialiseerde paleis is in AOAY zelf een aparte, tijdelijke ruimtelijke laag boven de grot ("the same caves... which yesterday had boasted no adjacency to palace"). Verdient een eigen sub-rij, niet subsumptie onder record 1. |
+| (nieuw, ontbrak intern) | B04 (naamloos Himalayakamp: brandend hout + afgrondsprong) | `EXTERNAL_ONLY_VERIFIED_MISS` | **Geverifieerd bij bron**: AOAY hfst. 33 bevat beide Kebalananda-anekdotes woordelijk ("The master suddenly seized a burning log..."; "the arrival of a stranger... jump then... he opened his eyes"). Ik las dit tijdens de freeze maar registreerde het niet als eigen atlasrij — een echte lossless-fout in mijn eigen pas, nu gecorrigeerd. Locatie blijft terecht ONBEKEND/ALLEEN_PLAATS: AOAY noemt geen berg-/plaatsnaam. |
+| 2 (algemeen "Badrinarayan"-regio) | B05 (Keshabananda-grot, Badrinath-regio) | `SAME_SITE_DIFFERENT_GRANULARITY` (deels) | Mijn record 2 was de algemene ch. 33-uitspraak dat Babaji "near Badrinarayan" verblijft; record 10 (hieronder) is al specifiek de Keshabananda-grot. Extern B05 komt overeen met mijn record 10, niet met het algemene record 2. Record 2 blijft `INTERNAL_ONLY_UNVERIFIED` als apart, vager regio-gegeven — extern normaliseert de regio-uitspraak niet los als eigen locatie. |
+| 3 (Moradabad-huis) | B07 (privéhuis Bengaalse familie, Moradabad) | `SAME_SITE_SAME_EVENT` | Identieke gebeurtenis en bron (AOAY hfst. 34). Extern bevestigt: geen straat/huisnaam bekend — matcht mijn eigen ALLEEN_PLAATS-inschatting. |
+| 4 (Allahabad Kumbh Mela-oever, Sri Yukteswar 1894) | B09 (Kumbh Mela 1894, brug+boom) | `SAME_SITE_SAME_EVENT` | Beide bronnen citeren AOAY hfst. 36. Extern voegt toe dat de ontmoeting begon bij een brug vóór de boom — een detail dat in de door mij gelezen passage ("under a tree...") ook staat maar dat ik niet apart als "brug eerst" markeerde. Geen conflict, aanvullende precisie. |
+| 5 (Allahabad Kumbh Mela, Lahiri wast voeten van asceet) | B08 (Kumbh Mela, onbepaalde subplek) | `SAME_SITE_SAME_EVENT` | Beide: AOAY hfst. 33, zelfde passage. Extern bevestigt terecht dat dit een ANDERE gelegenheid is dan B09/mijn record 4 (geen jaartal, niet samengevoegd met 1894) — consistent met mijn eigen notitie. |
+| 6 (Serampore-banyanboom) | B10 (Rai Ghat-banyan) | `SAME_SITE_SAME_EVENT` — **fysieke identiteit opgewaardeerd** | Extern classificeert dit als `EXACT` (i.p.v. mijn `DEELS`) op basis van S3 (YSS wijst dezelfde, nog bestaande banyan bij Rai Ghat aan). **Bronmatig gecontroleerd**: AOAY hfst. 36 noemt zelf geen straatnaam bij deze scène, dus de `EXACT`-claim steunt op de externe secundaire YSS-identificatie, niet op AOAY zelf. Ik houd `DEELS` aan voor de AOAY-tekst zelf, maar neem de moderne YSS-identificatie over als aanvullende, apart gelabelde institutionele laag (vergelijkbaar met mijn eigen record 14-aanpak). |
+| 7 (Benares — Lahiri's parlour/drempel) | B11 (Lahiri's huis: parlour+drempel) | `SAME_SITE_SAME_EVENT` | Identiek, AOAY hfst. 36. Extern voegt een aparte, niet-AOAY lineage-overlevering toe (Pranabananda's ontmoeting met Babaji zou ook hier hebben plaatsgevonden) — dat sub-element is `EXTERNAL_ONLY_UNVERIFIED` (geen AOAY-bevestiging gevonden; AOAY's Pranabananda-hoofdstuk 27 bevat geen Babaji-scène in Lahiri's huis). |
+| 8 (Barackpur-kamer) | B12 (privékamer Barrackpore) | `SAME_SITE_SAME_EVENT` | Identiek, AOAY hfst. 31, Shankari Mai Jiew. Geen conflict. |
+| 9 (4 Gurpar Road, Yogananda's eigen ontmoeting) | B13 (4 Garpar Road, kamer+vestibule) | `SAME_SITE_SAME_EVENT` — **datumclaim niet bevestigd** | Kernfeit identiek en AOAY-bevestigd (hfst. 37). **Bronmatig gecontroleerd**: de externe freeze citeert een ex
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=308 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/BABAJI_RECONCILIATION.md blob_sha=365fb838ec2532fc0e277256bda965ed277543a7 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=5 classification=text
+acte datum "25 juli 1920" met locator "P1, hfdst. 37" — een volledige doorzoeking van hoofdstuk 37 op "1920"/"July"/datumvermeldingen levert alleen "I left India in August, 1920" op, GEEN datum voor de Babaji-scène zelf. De 25-juli-1920-datum staat dus niet in AOAY zelf, ondanks de citatie; het is vermoedelijk een veelgebruikte secundaire SRF/YSS-datering die abusievelijk aan hfst. 37 is toegeschreven. Classificatie: kerngebeurtenis `SAME_SITE_SAME_EVENT`, maar de datum-subclaim is `FALSE_OR_UNSUPPORTED_EXTERNAL_CLAIM` **als AOAY-eigen bewering** (kan alsnog extern correct zijn, alleen niet uit deze bron). |
+| 10 (Badrinarayan-grot, Keshabananda) | B05 (naamloze grot bij Badrinarayan, Keshabananda) | `SAME_SITE_SAME_EVENT` | Identiek, AOAY hfst. 42. Extern preciseert "vorig jaar" (t.o.v. 1936-verteltijd) — consistent met mijn eigen "ca. 1935". |
+| 11 (was: Ranbajpur/Tarakeswar, Ram Gopal's grot) | B06 (Dashashwamedh Ghat, Varanasi, ondergrondse grot) | `SAME_SITE_DIFFERENT_NAME` — **interne locatiefout gecorrigeerd** | **Bronmatig herlezen (ch. 33, regel ~225-260)**: Lahiri Mahasaya stuurt Ram Gopal (die op bezoek was in Benares, niet in zijn eigen grot) naar "de Dasasamedh bathing GHAT" in Varanasi; daar verschijnen Mataji vanuit een ondergrondse grot onder een stenen plaat, dan Lahiri Mahasaya, dan Babaji. Mijn interne record 11 plaatste deze visioenscène ten onrechte bij "Ram Gopal's eigen grot, Ranbajpur/Tarakeswar" — dat is de plek van een ANDER, apart AOAY-hoofdstuk-13-bezoek van Yogananda aan Ram Gopal, niet van dit visioen. **Correctie**: de Babaji/Mataji/Lahiri-verschijning hoort bij Dashashwamedh Ghat, Varanasi (extern B06 had gelijk); Ram Gopal/Ranbajpur/Tarakeswar blijft een geldig, apart Yogananda-eigen-bezoekpunt (reeds vastgelegd in de Yogananda-atlas), maar niet als locatie van déze Babaji-scène. |
+| 12 (was: "Mataji's grot", onbepaald) | B06 | `SAME_SITE_DIFFERENT_NAME` — samengevoegd met de correctie hierboven | Met de correctie op record 11 vervalt de noodzaak voor een apart "Mataji's grot, onbepaald"-record: het IS de Dashashwamedh Ghat-ondergrondse grot uit B06. Record 12 wordt ingetrokken als apart record en opgenomen in het gecorrigeerde record 11/B06. |
+| 13 (Badrinarayan, Pranabananda reïncarnatieclaim) | — | `INTERNAL_ONLY_UNVERIFIED` | Geen externe tegenhanger; blijft `SYMBOLIC_VISIONARY_OR_POSTHUMOUS_ONLY`/Tier D zoals origineel geclassificeerd. |
+| 14 (modern: Mahavatar Babaji Cave, Kukuchina/Dunagiri) | B01 se secundaire bron S1 | `SAME_SITE_DIFFERENT_GRANULARITY` | Beide onafhankelijk (ik via WebSearch, extern via S1/yssofindia.org) op dezelfde moderne YSS-identificatie van de Drongiri-grot uitgekomen. Bevestigt elkaar, telt niet als twee onafhankelijke vondsten van dezelfde institutionele laag. |
+| — | B32 (Satyalok/huis Shibendu Lahiri, Varanasi, jaren '80) | `EXTERNAL_ONLY_UNVERIFIED` | Buiten AOAY (dat eindigt narratief in de jaren '30-'40); geen lokaal primair bronmateriaal om te verifiëren. Blijft in de Yogananda/Lahiri-lijn omdat Shibendu Lahiri een directe Lahiri-Mahasaya-nazaat is, maar de gebeurtenis zelf (jaren '80) ligt ver buiten AOAY's tijdvak. `UNRESOLVED`, geen bronverificatie mogelijk binnen deze taak se toegankelijke corpus. |
+
+### Tak 2-4 — niet-AOAY-tradities (extern B14-B31, B33-B35)
+
+Deze 21 records (Hariharananda: B14-B18; Nagaraj/Ramaiah/Sri M: B19-B31; Haidakhan: B33-B35) hebben
+GEEN interne tegenhanger, omdat mijn pre-external freeze bewust AOAY-gecentreerd was (conform
+CCI_TASK 087's scope). Classificatie voor elk: `WRONG_PERSON_OR_TRADITION` — niet omdat de externe
+freeze fout is (hij documenteert deze tradities zelf al zorgvuldig en apart, inclusief expliciete
+identiteitswaarschuwingen), maar omdat deze claims buiten de scope vallen van "Babaji zoals AOAY
+hem beschrijft" totdat een bronmatige identiteitsbrug wordt aangetoond. Geen enkele van deze 21
+records is dus een miss op mijn interne freeze — ze zijn een correct aparte laag.
+
+Twee vermeldenswaardige interne kruisverwijzingen:
+- B14/B15 (Hariharananda, Karar Ashram Puri, 1949) ligge
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=309 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/BABAJI_RECONCILIATION.md blob_sha=365fb838ec2532fc0e277256bda965ed277543a7 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=5 classification=text
+n op DEZELFDE ashram-site als de reeds
+  bevestigde Sri Yukteswar-hermitage in Puri (zie `SRI_YUKTESWAR_V2_PRE_EXTERNAL_FREEZE.md` record
+  2) — een fysieke-plek-overlap tussen twee personen, geen Babaji-traditieoverlap. Vermeld ter
+  info, niet gereconcilieerd als Babaji-record.
+- B27 (Nagaraj-traditie, Badrinath, 18 maanden in een naamloze grot) en B05/mijn record 10
+  (Keshabananda-grot, ook Badrinath-regio) liggen geografisch dicht bij elkaar maar zijn expliciet
+  ANDERE tradities/grotten zonder gedeelde bron — terecht apart gehouden, zoals de externe freeze
+  zelf ook al aangeeft.
+
+## Werkpakket C — resultaat directe bronverificatie (samenvatting)
+
+| claim | resultaat |
+|---|---|
+| B01-B03 sublocatie-opsplitsing (grot/rivier/paleis) | **BEVESTIGD** — AOAY hfst. 34 ondersteunt alle drie als aparte ruimtelijke momenten. |
+| B04 (Kebalananda-Himalayakamp, brandend hout + afgrondsprong) | **BEVESTIGD als gemiste interne rij** — AOAY hfst. 33, letterlijk aanwezig. |
+| B06 vs. mijn interne record 11/12 (Dashashwamedh Ghat vs. Ram Gopal's grot) | **INTERNE FOUT BEVESTIGD EN GECORRIGEERD** — zie boven, ch. 33 herlezen. |
+| B09 datum/locatiedetail (brug vóór boom) | **BEVESTIGD, geen conflict**, alleen precisie. |
+| B13 datum "25 juli 1920" | **NIET BEVESTIGD IN AOAY HFST. 37** — volledige tekstdoorzoeking op datumtermen levert de claim niet op; alleen "I left India in August, 1920" staat er. Kernscène zelf blijft wel `SAME_SITE_SAME_EVENT`. |
+| B10 `EXACT`-upgrade (Rai Ghat-banyan) | **AOAY zelf ondersteunt dit niet met een straatnaam** — de `EXACT`-classificatie steunt op de externe S3-secundaire bron (YSS), niet op AOAY. Overgenomen als apart gelabelde institutionele laag, niet als AOAY-eigen precisie. |
+| B11 Pranabananda-in-Lahiri's-huis sub-claim | **NIET BEVESTIGD** — AOAY hfst. 27 (Pranabananda's hoofdstuk) bevat geen Babaji-scène in Lahiri Mahasaya's huis. `EXTERNAL_ONLY_UNVERIFIED`. |
+
+## Werkpakket D — METHOD_V2-gates, herbeoordeeld
+
+| gate | oordeel | onderbouwing |
+|---|---|---|
+| `CORPUS_COVERAGE_GATE` | **DEELS** | AOAY volledig (ongewijzigd); YSS/SRF-secundaire bronnen nu wél gedeeltelijk gedekt via de externe freeze's S1-S9, maar niet zelf primair geraadpleegd door CCI. Print-only Hariharananda/Nagaraj/Ramaiah/Govindan-bronnen blijven buiten AOAY-scope, terecht. |
+| `HOSTGRAPH_GATE` | **JA** | Alle AOAY-hostrelaties bevestigd; geen nieuwe gemiste hostrelatie binnen de AOAY-scope gevonden door de externe vergelijking. |
+| `DISCOVERY_GATE` | **DEELS** | Externe freeze voegt vier grote alternatieve tradities toe die mijn discovery niet had geopend (bewust, buiten AOAY-scope) — deze blijven apart gedocumenteerd, niet geïntegreerd zonder identiteitsbrug. |
+| `RECONCILIATION_GATE` | **PROVISIONEEL** | Alle 14 interne + 14 relevante externe (B01-B13, B32) records hebben een expliciete uitkomst tussen CCI-intern en de bestaande externe branch; twee interne fouten gecorrigeerd (Ram Gopal/Mataji-locatie, ontbrekende Kebalananda-camprij); één externe datumclaim ongefundeerd bevonden. PROVISIONEEL, niet JA, omdat IndiaROOD (derde detector) bij dit checkpoint nog geen duurzame freeze had — zie `INDIA_ROOD_PENDING: JA` hierboven. Verplichte lossless deltareconciliatie zodra IndiaROOD's Babaji-freeze duurzaam beschikbaar is. |
+| `EXTERNAL_MODEL_DIVERSITY_GATE` | **NEE** | De externe freeze is één ChatGPT-sessie met interne parallelle streams — geen aantoonbare multi-provider/multi-model-union (in tegenstelling tot de Yogananda-benchmark met vijf verschillende AI's). Conform TASK.md §10 wordt dit expliciet NEE gelaten, niet als voldaan aangenomen. IndiaROOD (een tweede, onafhankelijke ChatGPT-sessie, momenteel door Mark opgestart) zou dit kunnen verbeteren zodra die freeze beschikbaar is, maar telt zelf ook niet als "ander model." |
+
+**`BABAJI_SWEEP_SATURATED: NEE`** — blijft NEE. Corpus-coverage en discovery zijn DEELS, en
+`EXTERNAL_MODEL_DIVERSITY_GATE` is expliciet NEE. Geen valse JA.
+
+## Correcties toegepast op de interne pre-external freeze (vastgelegd, niet stilzwijgend)
+
+1. Reco
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=310 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/BABAJI_RECONCILIATION.md blob_sha=365fb838ec2532fc0e277256bda965ed277543a7 original_offset=16384 original_length=2929 payload_bytes=2929 chunk_index=4 chunk_count=5 classification=text
+rd 1 uitgebreid met twee expliciete sublocaties (Gogash-rivieroever, tijdelijk paleis) —
+   voorheen impliciet in de narratieve toelichting, nu formeel eigen matrixrijen.
+2. Nieuwe rij toegevoegd: Kebalananda's naamloze Himalayakamp (brandend-hout-test +
+   afgrondsprong-test), AOAY hfst. 33 — ontbrak in de oorspronkelijke 14.
+3. **Locatiefout gecorrigeerd**: de Babaji/Mataji/Lahiri-verschijning (voorheen records 11+12,
+   "Ram Gopal's grot"/"Mataji's grot, onbepaald") is herlokaliseerd naar Dashashwamedh Ghat,
+   Varanasi, conform de letterlijke AOAY-tekst (hfst. 33). Ram Gopal Muzumdars eigen grot bij
+   Ranbajpur/Tarakeswar blijft een geldig, apart Yogananda-bezoekpunt, maar was nooit de locatie van
+   déze specifieke visioenscène.
+
+Deze drie correcties zijn NIET stilzwijgend verwerkt in het oorspronkelijke `BABAJI_V2_PRE_EXTERNAL_
+FREEZE.md`-bestand (dat blijft ongewijzigd staan als bevroren record van de blinde pas) — ze staan
+hier, in dit reconciliatiebestand, als expliciete, dateerbare correctie.
+
+## next_allowed_step (voor deze persoon)
+
+Verplichte lossless IndiaROOD-deltareconciliatie zodra een duurzame IndiaROOD-Babaji-freeze met
+bestandspad + commit-SHA op PR #23 verschijnt — deze checkpoint wordt dan niet herschreven, de
+delta wordt als aanvulling toegevoegd. Tot die tijd verder geen actie binnen deze taak. Geen
+cluster/regio, A/B/C, permanente ID's, PDF of route.
+
+---
+Geschreven door: CCI, checkpoint 1 van CCI_TASK 088.
+
+## DELTA — CCI_TASK 092 (2026-08-19, IndiaROOD-derde-detectorreconciliatie)
+
+Volledige drieweg-reconciliatie tegen de nu duurzame IndiaROOD-freeze (50 records, commit
+`f9e7e25`): zie `runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/BABAJI_INDIAROOD_DELTA.md`.
+
+**Belangrijkste uitkomst**: `INDIA_ROOD_PENDING: JA` hierboven is nu opgelost.
+`EXTERNAL_MODEL_DIVERSITY_GATE` gaat van **NEE naar JA** — IndiaROOD is een tweede, aantoonbaar
+onafhankelijke ChatGPT-sessie die een geheel nieuwe claimanttraditie vond (Hansavedas/Tryambaknath)
+die noch CCI, noch de eerste externe sessie had ontdekt. `RECONCILIATION_GATE` gaat van
+**PROVISIONEEL naar JA** voor de drieweg-vergelijking zelf.
+
+Twee bestaande 088-correcties (Dashashwamedh Ghat i.p.v. Ram Gopal's grot; "25 juli 1920" als
+niet-AOAY-eigen datum) zijn onafhankelijk drievoudig cross-gevalideerd doordat IndiaROOD zelf tot
+dezelfde bevindingen kwam. Eén volledig nieuwe traditie (Hansavedas/Tryambaknath, records 29-31)
+is Tier-1 bronmatig bevestigd. IndiaROOD breidt de Haidakhan-tak uit van 3 naar 19 records, maar
+mist de volledige Sri M/Nath-traditie (extern B19-B23) en vijf kleinere Yogananda-lijn-records
+(Barrackpore, Hariharananda-stem-Ranikhet, twee Daya-Mata-visioenen, Satyalok/Shibendu Lahiri).
+
+`BABAJI_SATURATED: NEE` blijft de eerlijke uitkomst — zie de volledige gate-heroverweging in de
+delta-file.
+
+Checkpoint: Babaji-IndiaROOD-delta, CCI_TASK 092, checkpoint 1/3.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=311 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/TESTSWEEP-022-040/USER/VARANASI_TESTSWEEP_022-040_KEUZE.pdf blob_sha=36afc747811f87043a5600524d518e95c53070de original_offset=0 original_length=4096 payload_bytes=5464 chunk_index=0 chunk_count=4 classification=binary
+JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUiAvRjMgNCAwIFIgL0Y0IDUgMCBSCj4+CmVuZG9iagoyIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GMSAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjMgMCBvYmoKPDwKL0Jhc2VGb250IC9IZWx2ZXRpY2EtQm9sZCAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjIgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iago0IDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGRPYmxpcXVlIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GMyAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjUgMCBvYmoKPDwKL0Jhc2VGb250IC9IZWx2ZXRpY2EtT2JsaXF1ZSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjQgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iago2IDAgb2JqCjw8Ci9Db250ZW50cyAxNSAwIFIgL01lZGlhQm94IFsgMCAwIDU5NS4yNzU2IDg0MS44ODk4IF0gL1BhcmVudCAxNCAwIFIgL1Jlc291cmNlcyA8PAovRm9udCAxIDAgUiAvUHJvY1NldCBbIC9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXQo+PiAvUm90YXRlIDAgL1RyYW5zIDw8Cgo+PiAKICAvVHlwZSAvUGFnZQo+PgplbmRvYmoKNyAwIG9iago8PAovQ29udGVudHMgMTYgMCBSIC9NZWRpYUJveCBbIDAgMCA1OTUuMjc1NiA4NDEuODg5OCBdIC9QYXJlbnQgMTQgMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjggMCBvYmoKPDwKL0NvbnRlbnRzIDE3IDAgUiAvTWVkaWFCb3ggWyAwIDAgNTk1LjI3NTYgODQxLjg4OTggXSAvUGFyZW50IDE0IDAgUiAvUmVzb3VyY2VzIDw8Ci9Gb250IDEgMCBSIC9Qcm9jU2V0IFsgL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdCj4+IC9Sb3RhdGUgMCAvVHJhbnMgPDwKCj4+IAogIC9UeXBlIC9QYWdlCj4+CmVuZG9iago5IDAgb2JqCjw8Ci9Db250ZW50cyAxOCAwIFIgL01lZGlhQm94IFsgMCAwIDU5NS4yNzU2IDg0MS44ODk4IF0gL1BhcmVudCAxNCAwIFIgL1Jlc291cmNlcyA8PAovRm9udCAxIDAgUiAvUHJvY1NldCBbIC9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXQo+PiAvUm90YXRlIDAgL1RyYW5zIDw8Cgo+PiAKICAvVHlwZSAvUGFnZQo+PgplbmRvYmoKMTAgMCBvYmoKPDwKL0NvbnRlbnRzIDE5IDAgUiAvTWVkaWFCb3ggWyAwIDAgNTk1LjI3NTYgODQxLjg4OTggXSAvUGFyZW50IDE0IDAgUiAvUmVzb3VyY2VzIDw8Ci9Gb250IDEgMCBSIC9Qcm9jU2V0IFsgL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdCj4+IC9Sb3RhdGUgMCAvVHJhbnMgPDwKCj4+IAogIC9UeXBlIC9QYWdlCj4+CmVuZG9iagoxMSAwIG9iago8PAovQ29udGVudHMgMjAgMCBSIC9NZWRpYUJveCBbIDAgMCA1OTUuMjc1NiA4NDEuODg5OCBdIC9QYXJlbnQgMTQgMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjEyIDAgb2JqCjw8Ci9QYWdlTW9kZSAvVXNlTm9uZSAvUGFnZXMgMTQgMCBSIC9UeXBlIC9DYXRhbG9nCj4+CmVuZG9iagoxMyAwIG9iago8PAovQXV0aG9yIChJTkRJQTUtUFJPVE9DT0wgdGVzdHN3ZWVwKSAvQ3JlYXRpb25EYXRlIChEOjIwMjYwODAyMTA0NjI3KzAwJzAwJykgL0NyZWF0b3IgKFwodW5zcGVjaWZpZWRcKSkgL0tleXdvcmRzICgpIC9Nb2REYXRlIChEOjIwMjYwODAyMTA0NjI3KzAwJzAwJykgL1Byb2R1Y2VyIChSZXBvcnRMYWIgUERGIExpYnJhcnkgLSBcKG9wZW5zb3VyY2VcKSkgCiAgL1N1YmplY3QgKFwodW5zcGVjaWZpZWRcKSkgL1RpdGxlIChWYXJhbmFzaSBJTkRJQTUtdGVzdHN3ZWVwIGtldXplLW92ZXJ6aWNodCBcKFZOUy1DQU5ELTAyMi0wNDBcKSkgL1RyYXBwZWQgL0ZhbHNlCj4+CmVuZG9iagoxNCAwIG9iago8PAovQ291bnQgNiAvS2lkcyBbIDYgMCBSIDcgMCBSIDggMCBSIDkgMCBSIDEwIDAgUiAxMSAwIFIgXSAvVHlwZSAvUGFnZXMKPj4KZW5kb2JqCjE1IDAgb2JqCjw8Ci9GaWx0ZXIgWyAvQVNDSUk4NURlY29kZSAvRmxhdGVEZWNvZGUgXSAvTGVuZ3RoIDI0ODUKPj4Kc3RyZWFtCkdiIi8nPyQjIWIoNEZONFw7dC8uJTAiMkBUMUVwIkNvN0MmMFVcQjM8MkM7MUo6YiREPjlxW3NyVUc0W0svIkFQbC8laWFXTXJIW1lWIytyVVQ6RzpZJiR1RF5TXnVwPVYuLWJXVk9wZWUiWkA3Uj8kN1FwbF43IWFmZClTXHU0OkA+KmVQWWVGa0gycEgwLExkK20nb2clNUNfYmdJbm8wNDwtTmRvUWAqOTo5ajtVWkZMSilzdVtBQyxbXFIkLU5LMClEbnRoJUQkRkVubSg+J1MxaTMlYzt1WzNPWnI9JTc4Lj1hUGZBYkByV2I8KE48JW9ScjljcS9OYSVhJmpsKiszaGdRWl9ELE5tRV8sZGRVMmNuVWpNc2FUS2REQSJWRiRcT2M6NWEiKkFyI00iTSsjOS06TXJyZTp1QicjW2pwJDoiIj0pNTBGaWA1Pi4uJms3IShtV2g2OzdWXWNLJCxfNkQ7cC9kRj0kcGUpaD83YnBBX0JYTE1YJUJLM2tpZW4oTT0sU2w/PipkY1JxM11tOiptNisia3AyODcyUUpWQExaQEA0bkZAUzVbJ2dZJ2dWSXJra0UrakdEUmdiUFo8V0tfTzsrT1RlVWYwMzZyI05qLkhXYi1CLE4nTFAsTSVuSD1AMUxHZlszckVhZ1BlLUwkLHNhdT1zIVNGaSlQW2g8YChUMk03TFBWK28kWGhpNiw4bEh1cC44VFttSiY2Jz4uWiVUJTguOkdKUVZrYVpPPV1LbDhmKjxZI04/VjRFIixiWSMzJTcsVm1LaF87XVw+KUZhOSRzJHBKc1VvNmxvT0M9ZGlGZmM2ND0laGE+azk/RFpmYGFVLCdRNzhIKDBDVCJfJGYmVUhQYm88QSgvbj47ZHUzLlxbdTRaMyJySDtjJjleUj1ANXAuXGRJIW8hMmVpPlJrOVUwVmNSPTMsOU9bWVI2Mj8/dHAhXCIkbz5WYzZPO101I1cuRzw5RS5iO0guNCU1WTBBU2RkLnEjPzNXcjYpNCZFa2Ejaj9pIk84bEBMRS1xbjVeSV1sKjErcyVETUprVUlSI0poLXRTKi8lU0wqZD49Nmw+KSJNaDBzMUZiRHFwX29YMVthNVJeJDtXKkhGOk1QM1VUNWN1czRhVlpiUyMxJlReP19QLGxUZWMsMT5IRUZbM2pLdFxwTkxfN0NxKmouMkcjbVEoLU1TWUAoUjVvYyhuJV5MSzZwO21DJVteLDlqNE5POVhMTm5ocFZRcSMwW19sTEpnSEpcYi1GQ1RlSl48Ty9yRWFKaUxecXNoPW8+VWkpV2NqXCNZOiNXRzdxOUhVZD5vSicsTyY0SldzbmJOclo0aURUOEhGczVDbiZDVC1UPDw+STVNV25RPSEmVzRTRyJGYkAqTj91NmorU2VtSSYqKGldUHAiaCN1ZjYqP1hDYUBAMC5LcFYpYDxUM3U0cnJOOy9CYkxRNTUscF81JDtmTTctLmdpXS80SktkIVxYUVRDdWptIT5uUzA8TG9LMDEtPCNBcEE4KC88b01YX0NSaiMxJVNBbT5IRTwybmQ+VTY5UW5PYVtJZzcrQmZhNSU5RyRHI2U5XDhtTDRXc2YwWm86a08lOXBfKTI0V1hVSCNPRiVOc0dXVDZJUiJkcWo1LlRrTy5PUHMyJVB0R111ImJoZCRZbzRxPkhVSmFQPG88IzUhL09VKkUyIiY2UkRPXCE6OSsiMURgIkcqIl5PUFg0ZmRzU11YQGMjXGNWQzVSWi9CcVluMCNadUknR1oxN2ZWW1EvUEUvPlpbK3A7X3BGcU1LYTBqI0ReJD41QS5SJShuZ1dYWys6OkFuRzBQXURMUmIzU0okJ1R0VWhQPicsMGpAMWplI00nM2NHXCIrMSlmXCFbL2Q8RUNLZFZKOS11SVtaWGg0VzVAXnVvK2Q0O2k3XyEoJVxwQitaRkleQFA6N0ZrYDotVjtWIldDcidpcVghb1hia0srOic5UTBIVkltZDo+N1BVOmQ5RVIibEUxaysuSVVrWWZyLXI3LShNa1QuQCYqZmNvRVooKXMyOmo9OjBhOmBHbjtpQHJiIUhvRFEnYzMpanE3TGNNRFc6VjRbMz5HVEpnVkhxV1tELzxBUyx1IV1eUj83OCVJP11VO0QkcjhJVCtjSGZoOUtOSCcxZS1SRWRZJ2IkOF9eOUohNjtVO1NNMyVEbyYlJkAiMnJvayQpVTpoOzhGVypzUloyXjRrP1g0cFFQTloiSFtAT2c4NypfczFZPURsPGFZM0NnXA==
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=312 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/TESTSWEEP-022-040/USER/VARANASI_TESTSWEEP_022-040_KEUZE.pdf blob_sha=36afc747811f87043a5600524d518e95c53070de original_offset=4096 original_length=4096 payload_bytes=5464 chunk_index=1 chunk_count=4 classification=binary
+XChYX2trNyJOYjdQKW44UjFfMTw+VlgyZGlEOmU1T1huWW5UWTs+WT5iVXBpV0UsOytBVzMmPGtXSUgjLCMlTWg6K0pHMy50azo3alY9NVpdUipDcm05M0I8JiVXNVVqbVpSJFc9MjIxWmxbT21xZ0dtY1c3NGViPDZfU0Vrb0QoO2g2ckBpS0BCV0BlQTldPkc6KUQmPFYiNUYsJ1lvKl8jJCIrW2Q6YnA3VF5cO2QibiJSKlMxUnRtSmJjcTZFUW5lZDosRFpXKHVNbDNpYzFUZSw+TUJGbyU/RkIyJjVvJnFIcGMobCtrXlkxNXI9PG5cXyluXjc2JUFfPzcuWT1tNldbR3ByLyRMOE5sPUI9VUg8blFqL1d0aGc+TW1mR1xLUUxBXChCPj86NENKYVZRSF0iQ2AwbCsnbyM3PDpiYjhYMlMqUF9ha1Y9IihFKV5eT0k+XCFUaTo4MyNTLE07QV1lY0poNUUhJ1NFWzU3Xl1QaFNzX0o9TFk+UEJfRWUkXz84IiY0Wmw8NzZGO0FDR3EiaGpZVVxvP3FubTtBJGQ3JXEjbUsnOGErYkBPY18iQXI7YVBsZk8wLGU7TGRZYXRvUWYxT2xLI0E4LygjQUwtU2MtdT1gXS1ZLipWSUgyTHIjYVJsMEhdaHU1QEtrKjFFZ15QMS9JPlxCZm9cJUwkTj9JQ2xDLXVMVylsTDI0I0A7P245LEc1U2I9LyE7MyRQMS1bJS11XHNUYSYjJ3NkIkZyW149MlpJNz9BRD5IWCxeNi5yKlMyV1o9LjktdGcycGNWOXQpPDI0ZSt0cGRRJEFmOjE7OWY8P20oOy9KMiomUkpoUCVxMSRTSkgjMU91XjJBL28jPWsiWyJFPFJwVSxKVFRkXmphJ11ATmVeIyFhZT87PlpoLDtoWG9gUnI/cERENjpbZylPIj44OyZmaUsha3EnRlBwJGZEQSNBLihRZVN1VUk3cyIuKFgsQztxN3NoQiwmNy9OMSNzQFZtXktWdHB1UjAocldBPlE1bSV+PmVuZHN0cmVhbQplbmRvYmoKMTYgMCBvYmoKPDwKL0ZpbHRlciBbIC9BU0NJSTg1RGVjb2RlIC9GbGF0ZURlY29kZSBdIC9MZW5ndGggMjM4NQo+PgpzdHJlYW0KR2IiL2g+dVRLTSZyLGxILyxCbWUvMGk5Qi8xNEwxKWliO1laYzdkJmc3akhDOTRNXD81KCoiXSxbP2tzXkAuIzYvLyppJlM3UyVgW0snZjFqLWY+J21lPCtqKTVRPDU6cDRiKUZMJVI3O2hHTEIoK1YvQVkhbjZ0Tj5NJ19HXDl1LXFoKSVocDIjb3MiMjQkUVtYbW8rRzFZKiMrWy8kZlRESiQnVmJtdFdOWyJ0W1grdWM9KipjaVdCY2lCaDgiKz5oOF5oQHEhZ190IkFUWjRgK3NtMEtfJ1dcRlZoZGk3LlRncGRNYFksPzljRWJNciZlUGBBTWpxKGMlNEUjQEAjPE0qPy5dcFJxRDwoS0AyZkVTOE0sakIuM0BgUVJDaFpuXlYpaDJObFheYyI6VjtuYTQ8Y1Zeb0YoY2M+WTNiTHRuS2o2Wj5ZMTs9WywyRXA6WUgkZ29JT1VKbEkyYj9uQ2AvTmUiLW4uOjRvJGxpclw2Rm1EY1NlNF5lJzEwMEdsSFhQSl46ZVYnSFpHOkdCPFBOYl5SJSE+OS5iLm1hL0Q3RmwlaWBLNDJNYnA8W1w8RGM2QzhxVjpfaVhCKWhjJ2ZQXmhqXSEzPkhSWzokX1NnJFRVK3BCdC1mPTEsZC8uK3QwSDVHak1xWGs/XVopSzkqVnFxPigmRi5NTyhVYjYtRiJxY1MtZ2hFPysnR0QvLlpuOUVIQ3AtTiMjYm9VRGoxKUNGOGhGJy4sVF43RiJAJENDXGw4SVFGJlItSEZULVsmNzhacWgvVSJec2dCYm4xXC1gPWpIUl5xX2FRWXFBZGFsRXRza0lNdC0yVihuWDpYbDFoUjNrb1ZCX1QkLyF0XEJDNTopdF1VO15SJSRxYig7QldOX1pcXVpRIyNzI0JQcCk1PiNDR1Z0VUwpQjVzKlhtISxgI0NcVzNALVlYNF5lcW9dP2JIa0lLM0RzVC4kSkpQOStjaFg7TWVLK0drcnNxYVlxVnBtJlZbc2gxI3VtY0JnLGxKJCQzZmVxNzZZS2FVJ3QyazhXMEtlI0khKVVDQGBwQURoL08yaGZLO0hRSz1ESSRHK0cpS0FydDlUUzpvLC03RzI8REsiYEBIT2xiW1BJazViWV0tVWQ9VTs6PDZMTSlRRF1HKyhGYy5IbG4iOkErb1NvMnInOUo5NnJzM1JGXDYpcVV0Y1w9THU+XmA6cUJcVDxecm1sQVFlR3IzPWllVVNdVSMsOGBHTFxiVmtraTI9ZTtJYCUtcyI+PFx1bENCRy03L0MtJkFQY1E6ckMhJmphJC4lWSpSWidYSz0uRFpAbV5CMSNENCl0UUFOMj9aJlIyOilTNC43Yk1DYVEkPyYxJSE0T0EiIz5XUiZJZSNkUzddKko7LnE4UEJMLzMsSSo9UkA2cW1vL2o5SkUtcjlbNnJGJiRfciFhTz49LT9WU0hlMT9AKkdPQT1BPDNdamY/aEpQNyduRFpxcnEyRjRSJWNANjBXUDhMPGcoRCEkTCYxN2huXVNYPW1vWzRMOicySmhjOGpJZE9yLktob1xOUz1jI2Bzb1UxZnJ0PmIjckRoJ11Ea3BPUi9vRTE+MiNnWlYrZGJMLCpbdExtbkxaTTgjdGldSytJWypQci5TMTcscG84OlxfOCEyYWM0STZRMnMwKlxCRidQcTdiQ1omIV9fcXRLZjJGKWdZUk9lbjopXDs+IkxiOig4S2dcTDlMaW9rZiJsXTMhX25qJWs4Xm5QJkpZVzwxQjxLRTpILSY+JW9wM1NoKScmcmU1Xj5zN2VKO3RZQVo1MHEqREs/al4rWE86TWtuaiIrRSpRSHJyQS5eVSMkRTNbZiRoKClGdWtRQDgjKixRakw8KkZIbSpgKiQhQE8uTyRvLEBkYVEnXCtEVF8sQklOWlRNX25ubFVFc3BITV0rPipBSDFrOFEjajM2JChFODMrZkcpQTNSI11QNWtyQClyRzpnaFojZl0/QzNhZFtbY2dGaCkhODBYYWAhRl4wUmlaMlhmbl8mIUJtIlAlPFwxNmQlZ3UvK3QyXW06W09COSwvVTRHLyhVc1pKaEM6ZHA9RVZTb0NgMFpaVzFAO1UpU05SbVJOXzVwYTtYUDFCOU5fNFEmKlUzMixuIUcoa01fVjlYS1goJSRBNSI/Ym1RVVJeSSE4S3M4R0E6JWpPUGlrW2ZGZmRuJEBjJ1dxdWRxJipdOXNfVC4zTlxmISRHSTBQPCZTIUNxLFBAK2VedCFwVzplXz9TTnUiQSMzKCItaTstRnBIN01uODRsN1ooN21LWig2JVJSIW4jJlohXlAsNSROWyI8TFErLkpzW2MhWSQmRSc7K25bL1w7NDc3LVA1SEshOkpJMHIzJnVYTj8qZUJEPklXWXA0JjJCXT1MRDFCaVpePmVpNCJYUEB0WCMwP0NiclcnSyNKQSkmWD4/VV5GO0dDRGUsZjl1RkJMS1l1NlYjSk1vSktXbHAudCFCPG5QckMsWnIrYEpsOmFjTSZHTz1xZnRdK2staURbKmBQRCVMbGBZcyJZOS44Ql0oPmw2MEhCQylCSkdgXDNzbmc7WFxnXGIpcUpvLEBJSjIlYS83T29fMWRHTW9xV28pVENvPDRjYlgkIyVHMFk5akUqLXVoOUpiay1RZlZhT3FQN1FhbFUoR103V0BvZCxhRE4xRyFiRVZJXjZkaTNAdUVeLTVENDlSWzVGOjFHIjkvX1c9M0Q7K3BNRzReTzpVPFtxTU5uK20vQ3RVSkVjTTFTSj5rN0FqYDNKZ2hQPlxfXEw2K0c0V004VVVtPF4oN0MrV0U+R0Y7MHIxNnFeX25UPksrWnFcTnFCMmYzOCRaZGlzTCUlTW5EciY0WDZfQiE6VCxqY1c7T3VFWys0IXNnUEUtT0xoJCtpS2xwdDlFVCNmQSU+W1NaXzBIb0ZnJiJpUlYpSFRvcjpgVltLNz1oNylAdFtAaD9RN0ImITluc00wKGZXI1gyWlVaLF9AWFZaTSwyJHMtdWIrRGptL2tQKXJkWzInKUAwaGtTVCwyL0xVaDhRVTxrMlREIzQ4als6NVQtaSs7UlheLiRPTlloLUFsZmNlPkBCWlNAS2hbZypeWTsuS1E7YVlaMTtwZTxoLjklNmVaKCg/RkRVIUEobVpyLDgkYnJyclVrPF0qU34+ZW5kc3RyZWFtCmVuZG9iagoxNyAwIG9iago8PAovRmlsdGVyIFsgL0FTQ0lJODVEZWNvZGUgL0ZsYXRlRGVjb2RlIF0gL0xlbmd0aCAxODU0Cj4+CnN0cmVhbQpHYiIvaD5BcjRkJ1pdLCYuRikvPS9mL2teIVNXa2RfKmtYNVo5WTI4Lk1BMyZLMEAzK1h0T21kOlZVT1lAbl03PzxfOFhbV15MKzRhNjM8cmNRazg6cGBsXHRqcT9UbSRCOlZjMTRlWzBBQDhTV0Y5Jz5RbSpoQW1ZTEsiYE0ndEU5Vkc/RC4/J2soQnIjLjVRJFg5bzdEby1UJlo3SVVFIyRaND09S0lfYTJtZjosRm0rdT8/a09nZlhsQyhTUDZoKiVBdExMXS9dTCpiPG4pY2ZkSEdtYWJcZkpOJzc6WTMyb2AyX0JLRWFEJT1BJ0ROUjduP1FYQFEjLD48VD5iKzE5VHBcSUAnMlg5dTM9OGdFMD5XPFxwTFtYLFBsMi4wbkVIcXVsTU0zdFtyJENyYlxlLVhhPVtEJmRvc0dzJXErcHFBJ3Q6JVVFVVI1LDg+WDhTQVAkZSJTJC9HT0hUUGsuLGNvQmxNVk8tPjxVUFUqZy9WZTxYXCJCUVsyUmdHMCIlWmszPkM8dDBvJWpZZCNdPS1bJXMiOWRSZEJmY2tmXjVvVGtNMV5cMjhGXysnS2VDUjVkQjEpYUk7R0srMUleWztHYSVUV2hkZkY1KiZZclZRJ2JoOVguTFVaMWg9Q2s+O1FbYDdaY10xQy5pNGUyaigpS0VJZm8hQCdEMkouSjJhRmFdZFpXP2JCSU9kaVg/Ulo8Tl9xWGZSS0MndFFjJV4maUU9bihSaSJgUm4ialJZVEpXdWM8JyIoJFU1JiEnJ11VVXQyNHA9IzdWIylrJzpHKSQ5ZV1aczg0JFg6I245JDk0JnJmLj4nYCRCTyQ6SzolSDA0QCg1ai5UNyRhV1woJkZOQGwuPlltaSZtLm4pdHEhNlMxUFJjKmtkcl1ONXNmbDYiLiFybk1iY2lqayFrRmFFMU9vWmwlVEZFKUROayFkcFY9Q1JhLy1CVW5lVENoaDBIJT1IYmIjMCpsWG9NYUhnNCw2M2cxdA==
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=313 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/TESTSWEEP-022-040/USER/VARANASI_TESTSWEEP_022-040_KEUZE.pdf blob_sha=36afc747811f87043a5600524d518e95c53070de original_offset=8192 original_length=4096 payload_bytes=5464 chunk_index=2 chunk_count=4 classification=binary
+YXEwclhBQFJcckFncC1oPjdjUE1iam1NaFIzVT49PiYpTWlpN0pxSCZRXiFgLGojJXJCNFpSK2tZNi84RjB1LyEybEo1NTpHXUBIKmI5MWdiIXVQUjUsZ2ZbWElZWjt1XyE7UiFQR1lcYihdTWc1YnAjPDI+NmdAb0djZ2FAbm05PDhkN0BFRHQ4RG1ST1hAcEUzc2xBQSVjSU5DO3M4blhXMSVzTWFMZXBvaGtkNmo7amBBJU1IT1xVOGhVcFxwWzYiIWoybSlsJERfRWU9ci83IiVlZVhCXy9RJz0wXiRlYTlOV0peMTc0SzIsaUduLlZvcGpISzpgNCk0WEJAKElwJyQ3LFBCV11pb0RKSjduXENpNEJoWEJwOWUxLUUmalJAW0QuNlNNUF5HJ3NgKHRIXC5OMmg0JDNLMSE3TzJiaXVfbWcmNyQqRmkoNkZuPkMpIiVoVicnITglcUhlY2NgJlFqbWVtWidPRVclPEFTN15cMTMwazM5cm8rLywnUiQxVm5vb1M2QT5rb0YoYyVjdURuciFrM1FjdWRHLEReYD8kI29UcUFyK2lxZStoNyVdInNYO1g8LTNtazZAMi8hNEVTPGQ8QEhtK10zaDA+JzhqcFYkbEJxZl9BR05QOGlxWTNQUy9rIVtZMUpwJV5Bail0QkQ2SVZYUEdDPnNNZUFZLjFgMDAzb148PyluW1lccWJFWzVAU2BDU0NBO1xQcHNMImxzXV0mJG1nXEdvM3U6Ll86SDZRZjJOckJGOFxhQSkvWEI1UV8wTUwmXkI4TDAkZGJbUS5jU01Da2czMTNXL0QmZ3E7aFNnSitZSWNSVWYoMXFNXyMlOSk2LCVZclNdWFZSOjhKTmhaW19KRyFMW2lVOGk2TytZNjlbRTY4MExMJjxfLzZxJl81S1gwLSotJGRIVkFJaSZdci1uQnVWZ2RCaVxxLjVUL18pcmtvMWdRTltUIjRCWjdbXytGcjx0NkZbNzpFNU1fR1A1KE43LFZuYU1scW5VSShMX1NDPiE8PVhUaTlrS2VjNFlabSM+WVNqLDA/V3ItM3VFMTJhTEIkODhXXHRaKm4icm5EYFArTztLc1lYOyQ9WUcjW1kkWywhbEQuT2s7VDtJMz43cmE9TTotZGooJVxtImNka3A1LDtPPiIkUWE2V01ZXW9SZ3UnazosVWI7M1lHIUUlOEZhViJYZDJQcjg1RjorcVZlITpWRTE2Uz9mcyk9LzooJ11nUTE+OltCJURTNGE9RV9ePUVROF1oZWp0PkJbUVBnJkspU0dES0FvZjRXcCpeJEhGK2k2RWBHN1ZeTj9XJDhVXTNYJFdkXlU0JCRjdCs7PWRdcG9rXiliK2Y5Jm5cNDxKZTQ3Y1BQSCZhTTdQKUJpMjZAKmByLyxYPU1TY1o+Uis/YkZcOTw5PEpQNDRhJTdzZVwnZEl1ZUxSZCtrYzAzXmZOSGl+PmVuZHN0cmVhbQplbmRvYmoKMTggMCBvYmoKPDwKL0ZpbHRlciBbIC9BU0NJSTg1RGVjb2RlIC9GbGF0ZURlY29kZSBdIC9MZW5ndGggMTcxMAo+PgpzdHJlYW0KR2IiL2c+QkFMWiY6aVswLywjKnFpRjtVWHFcMENaRklHSGZJLkVNaU41MT1RQCpAJmNVJF0kSi5xPU9VQmp1QltTJm8zTk5CcGI6cCFeMkwxamtERUkzJkohNFFyPUsrP0ZiVjVnNkE7aERwUC1VWClIKz5cUC1fYTY/ZTQzNEBSYUQ0QkhJcjQvbEdrKlpFREtiLDlbWSMuYTs5LFtNSSxtOjxQIid1RDwhUidVSzk0T1UxIlxmZig5TiU5a2E1R2QpcEo4PW1DJVIzOFUwMWNta1c+M01hXmZePUVBSUszaixJcFwsSjRxVGM6P29gZCpHNFNNVD0hbmJOV2NRQEklVG0/KChCYSJib21cXTtDPmZdIi00PSY+YHQsZUQuJzBvKyYuKWJcKlo6I2JSc04nIjVrTCwuWmUkOXFicT1lZVhkKWJyQW9daTQmZz4wSjZlUjxcMEZzbjo9JUg3KjEkTSRuYW9dVSloQTgtJls5XShzbk48QVktP2hQLDxpUllSTj1OK1AyUTxgJ2xyTyUnRWgwKVxpQzRuYjkvJD4ibF9DJyEhVjlhJ0NaN0dlTT02OzUoczNPcCRtU2RrXjctKGI6bWY7R2VMWVUuIiJoSCc0c2UoUi5Ob2Q3aVFvUCIjQFM4OSwuLU1QVT8zcHRaITFBQDdcUzFLaU51PC9ZQCZjNTNjak1xOj4kZF1KNytCciU+cTZtSSxtZmAwYSZDYjpTcUw6cE5cLkteRjFmJSdRJG9CcC1PbHREK1dTSVRtaVBdPz5NVEdgIjxxTTchWkNjYlsnKydXcV8kaFozMUFcMGlRaDpJO3NSdFJmLjtpdDpkYWBvTU4pSTdbWGNcPiZbWmNWOnBJIlkpa25acDc2ZElfJDVuU1syWGBpJjonKFNiRzZUVkNcVz46cm1kaDpBPCM3LUspTVFGVypFLFBRZCdZU0UtTyhLcCQxKzI3aHVeQCZSJSlkSy89QnEiUmJxJVlbM2hIck8maUtYImBpaG4/bjdFTSdvKkMjPTo5JUdbbCF0JCxqaU88NSxaNyVCS2siOm1DYyQxMyxRJy8kNjByNyhXWWAuRUhUQDxhQzJYJTksbm07PkxrRllcZSZtMGteIztwaDluP25fbWc/UyFSJlxiYixUP1VMMU49M1JUKksuTmBBQUguXWxUQGUqYmlkLUxGVm5Hb01IWSJBYyMuSFdgP2BiJUVFLSwhLFh1Nz9yLC5NbEFtYWFBRGhaYD9sO1xFU2A3SkspRDFjI0tYQDRKMk5xPjYqQFNzNDpRJmA/ViVmcVF1PltVc1duaytIT2RncisjXnVnS2BqXzplZW4/dS8zTCxZZT9dYT1wJkdaSjJtQkosSmNXdFpSUD07M0hPYChWLyRHMDtgXjE7VlA1IXEjW2ttOlJULSM6Tz5TMCs3I205W1hCdUQ3OkRJVkpBQ1RVXyEqaFdPOlwxX1xjLFxsUklvNCxlI1kyKENhOzIqcz1hajNtZmVUYjUzUkteIkhCSFZZcVkrW3RYSXBSVmhcI0o+aVplN0Y7L0s1LjVxKzZqW2U0W2JHSExgOU9HL2suWFg+bWtPUkdwIU44PXJOZzJxXF9oV0VhPyMyYWs9TD9IKFRsOWlSVkZMN1pFQF0mUFZpckRYQzQ3VmIoZUVEa2BJYi9MQHEzUWdZODlnTEViO3E3STFbNGVuRCgnNlJVMmxTcnA9KC1wbl1jIiw4QWVPbnI8XWx0aSQhV2k/Nj5pcWcxI2pUWmZvODhIR0skXTxXWTxvalVfPm5ycygxT2NnKlJqRkRMMldxPzZTbnVTUU9gczA0WEIvdG5KNkE8SEpZMl1HUl8lSz5XQEouJDJtRWckNDxANVFtNjpjWj8sYVcvUS9dTnElaiQsXltkZyplRCVLU1Q1KTxvMW8zM1RuRjV1dXUnbXI7R29pO18mRm0vQD4jZCQmOTFwUW9nJl9hSmduQmcyaXEwLj4pZT1WME5hanBAY1piMGQ1V0lYc0Y7RFhLaVIvLThUJCduWi1SJDguZDFEJz4rJVM2KEwqWStpbkliNm4yOEM2XzpHdD1kSlVONyVCVjBVLiooOiJnM20qQHRAOCZHa142XG5HVFAvTT0yIXJSSE06bE1Ucj80TXNcWnBdP15MLDk6OzNYb1FcTEJlWV1hTkhVRjF0c1FXITo+Ok1US043dUI2NDJrVVQxPS1IQ0hobD87U2dkIVQxLydvISUjZzw8Rl1Qb0wqXXAzXjNBb2opVkZ1V19aLShvSDBoO2pPWH4+ZW5kc3RyZWFtCmVuZG9iagoxOSAwIG9iago8PAovRmlsdGVyIFsgL0FTQ0lJODVEZWNvZGUgL0ZsYXRlRGVjb2RlIF0gL0xlbmd0aCAxMTEwCj4+CnN0cmVhbQpHYXUwQT8jdWA0JjpNbS5rZE5GWSI7cWQjbHIuMDo4bzwnX19wK0JGZWQqaiRKQUhyVUQiP28kNXNzOkBaPHBWQFRYOTc7VClMXzQxXXJAXzxyYCJGXnQ9OnJQUTxTVmdCJFgrSUlPRFVwITE6QVonMiJJY2plSEU5R2ZhZDUnLmM2SWU5JEo9VkhdcnE+ZS9CKG91Rz1kbG4xX1gsPGpGVmBQRV9aYmNdUjA5WkchOkRxMCtiYGtwKjBAJURHWUhwMktGXlkmSiNgSz51M0tPW1ciXj0pc1RnVF50OkM9VWtHY1pScTBccDQ/ZnEpTFVgPWlgZkxvVy0yLCJIIWs2NCRHISdhLCJPX0xyXjtoJSlXZStLPnRGcmRkaStUdS47XEJPPllAcVY1NT5LYUdWZG1nQ2AvSCZPYlpXJ0pFOE1eNUA/cUg5Kmg2Pzk0V0ZKN3AzX0JlbV49VyY+JTBGb2xNcEciWkIvUEBOQDg1dCNtaywhbSFyZ1gqS3IqUiVsQzpgNT5SZjlhSEFbSj4vMVA6XE5pVXFbQUlRb05tUlQ9P0EyMXIqcGYiIyM/QzdkKnAnQCNfW1RQNio/R1lWdSFcYDJPRVd0WURqS1QxRkIrMyxBbkQ5QVgiQ2hNc25sMEQkN1Uhb0wiY2dzQXFXM11gZmgpa0FeXTopSG9BN2okSG0rVTo+MDVrYW1CRCdxYEQmLGNfbzRiYiY/RU5ALUQlZnJLJHVkUykiZnUhRjkoY2AvKzNfSGAkSihiXy1rLiJbNFJlIihLNmFbYl5BdWE2L04yaDBkKnRTJ2RDW0BaPDVXKlM+TiIuL11EKjMzVEBIJk5XUipjVFhPUlhfWE1NLlZTXWAuclU2ZkNTVl5ibEpUI2dibCtPJSc0UEY4T1RGJilMKk0mOUolT2F0YkchIS45ZkdpWDM+J25PXVtJOUNbTk5eYlVHK2hJMDg7RVRgKFMtTi5hPys/JktpMy9APjczczlCU2MwanJzL3FrPT9vLjQ4YmZFIURPMFMyMkpTQHJjNC0tZDlFRSpkKFFkZyojYWA9cWwraEAtdWMuSmtqTTBuVkI+IV1wUUo5ZD4zY0VATkEwXVA9TFs4JVRRTDJOKytFITUlOHMvRWlxPGM1QzY0OipIKnBgZGZyLFxkWzZFPWJbQHE7SjlwKzEqa2dBUDE3VUczNmBUWzpOUlNSLkZTNUg8X1xxJyg7SW9cUFpBUkduIVs9I1o7WmkjVW9YQTVLV1U5TGhgKWkrXlRBUUhvNFgpSFhuW0sjNCQ+ZFpda3NEYFZmbyskTi8lXDFNITlhUHVhXWcrS0pcUylcSTxiXjpSM2VPTnU8PVROOlBmYCs8My5ARkdTU2tYJWxWKmk4KUA0bkE8REJvWyhMUy5QV21tUjNYSUNAbVhLK0tRMzRVIjY+bFExLltfLjs4b0JVOTVuNFI4TGtPQSQlX0ZmZzZeTA==
+<<< END CHUNK >>>
+

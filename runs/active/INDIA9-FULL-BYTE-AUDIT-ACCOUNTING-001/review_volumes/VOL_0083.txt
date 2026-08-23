@@ -1,0 +1,855 @@
+>>> CHUNK stream_row=1218 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/reconciliation_layers/CORE_KRIYA_SOURCE_RECORDS_LABELED.jsonl blob_sha=d4e85440fd636bbe60c2588d536d2f8a03e71401 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=8 classification=text
+agated_label": "Militair ziekenhuis Allahabad", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-40", "s": "X1", "r": 1, "a": "PL", "propagated_label": "Samb Sadashiv Kunj, Vrindavan", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-41", "s": "X1", "r": 4, "a": "AX", "propagated_label": "Gwalior — niet-geïdentificeerde verblijf-/darshanplek", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-42", "s": "X1", "r": 4, "a": "AX", "propagated_label": "Jaipur — privévertrek/ontmoetingsplek", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-43", "s": "X1", "r": 5, "a": "LA", "propagated_label": "Kudsia/Qudsia Ghat aan de Yamuna", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-44", "s": "X1", "r": 4, "a": "AX", "propagated_label": "Huis van Mrs. Lal, Delhi", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-45", "s": "X1", "r": 4, "a": "AX", "propagated_label": "Overige devotee-huizen in Delhi", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-46", "s": "X1", "r": 4, "a": "AX", "propagated_label": "Devotee-huizen in Bombay/Mumbai", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-47", "s": "X1", "r": 4, "a": "AX", "propagated_label": "Privéhuis met grote tuin en tent in Wape/Vapi", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-48", "s": "X1", "r": 1, "a": "PP", "propagated_label": "Manda Ashram / Bhole Baba Gau-Seva Ashram", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-49", "s": "X1", "r": 1, "a": "PL", "propagated_label": "Mandir Shri Baba Haidakhan Mahayog Vishwa Kranti Ashram, Bandikui", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-50", "s": "X1", "r": 4, "a": "AX", "propagated_label": "Niet-geïdentificeerde familieboerderij bij/in Haldwani", "label_source": "freeze_heading_positional_verified"}
+{"id": "LM-001", "s": "X2", "r": 3, "a": "LA", "propagated_label": "Lahiri-voorouderlijk landgoed / geboortehuis (verdwenen)", "label_source": "freeze_heading_direct"}
+{"id": "LM-002", "s": "X2", "r": 3, "a": "LA", "propagated_label": "Zandige oever van de Jalangi bij het familie-erf", "label_source": "freeze_heading_direct"}
+{"id": "LM-003", "s": "X2", "r": 3, "a": "PL", "propagated_label": "Oorspronkelijke Lahiri Shiva-tempel / huidige Jaleshwar Shiva-claim", "label_source": "freeze_heading_direct"}
+{"id": "LM-004", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Tijdelijke gezinsverblijven in Benares vóór 1839", "label_source": "freeze_heading_direct"}
+{"id": "LM-005", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Vaderlijk huis in Siman Chouhatta, Madanpura", "label_source": "freeze_heading_direct"}
+{"id": "LM-006", "s": "X2", "r": 3, "a": "PL", "propagated_label": "Jainarain/Joy Narayan Ghosal mission school", "label_source": "freeze_heading_direct"}
+{"id": "LM-007", "s": "X2", "r": 3, "a": "PL", "propagated_label": "Engelse school behorend bij Government Sanskrit College / Benares College", "label_source": "freeze_heading_direct"}
+{"id": "LM-008", "s": "X2", "r": 3, "a": "PL", "propagated_label": "Bangalitola Preparatory / English High School", "label_source": "freeze_heading_direct"}
+{"id": "LM-009", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Military Engineering/PWD-kantoor Benares", "label_source": "freeze_heading_direct"}
+{"id": "LM-010", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Military Engineering/PWD-post Ghazipur", "label_source": "freeze_heading_direct"}
+{"id": "LM-011", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Military Engineering/PWD-post Mirzapur", "label_source": "freeze_heading_direct"}
+{"id": "LM-012", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Military Engineering/PWD-post Buxar", "label_source": "freeze_heading_direct"}
+{"id": "LM-013", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Military Engineering/PWD-post Gorakhpur", "label_source": "freeze_heading_direct"}
+{"id": "LM-014", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Military Engineering/PWD-post Naini Tal"
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1219 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/reconciliation_layers/CORE_KRIYA_SOURCE_RECORDS_LABELED.jsonl blob_sha=d4e85440fd636bbe60c2588d536d2f8a03e71401 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=8 classification=text
+, "label_source": "freeze_heading_direct"}
+{"id": "LM-015", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Danapur Military Engineering-kantoor en verblijf", "label_source": "freeze_heading_direct"}
+{"id": "LM-016", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Ranikhet PWD/legerpost en kamp", "label_source": "freeze_heading_direct"}
+{"id": "LM-017", "s": "X2", "r": 3, "a": "LA", "propagated_label": "Dronagiri/Dunagiri-grottenveld en initiatiegrot", "label_source": "freeze_heading_direct"}
+{"id": "LM-018", "s": "X2", "r": 3, "a": "LA", "propagated_label": "Rotsige oever van de Gogash/Gaugus-rivier", "label_source": "freeze_heading_direct"}
+{"id": "LM-019", "s": "X2", "r": 5, "a": "AX", "propagated_label": "Plaats van het gematerialiseerde 'gouden paleis'", "label_source": "freeze_heading_direct"}
+{"id": "LM-020", "s": "X2", "r": 5, "a": "AX", "propagated_label": "Tempelpad / tempel nabij Dronagiri (Ashwatthama-overlevering)", "label_source": "freeze_heading_direct"}
+{"id": "LM-021", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Huis van een Bengaalse gastfamilie in Moradabad", "label_source": "freeze_heading_direct"}
+{"id": "LM-022", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Huurhuis na vertrek uit het vaderlijk huis", "label_source": "freeze_heading_direct"}
+{"id": "LM-023", "s": "X2", "r": 1, "a": "PL", "propagated_label": "Garudeshwar-huis / latere Lahiri-residentie", "label_source": "freeze_heading_direct"}
+{"id": "LM-024", "s": "X2", "r": 3, "a": "PL", "propagated_label": "Sri Kedarnath/Kedareshwar-tempel en Narada Ghat-omgeving", "label_source": "freeze_heading_direct"}
+{"id": "LM-025", "s": "X2", "r": 1, "a": "PL", "propagated_label": "Panchganga Ghat Ashram van Trailanga Swami", "label_source": "freeze_heading_direct"}
+{"id": "LM-026", "s": "X2", "r": 1, "a": "LA", "propagated_label": "Rana Mahal Ghat", "label_source": "freeze_heading_direct"}
+{"id": "LM-027", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Huis en binnenplaats van Krishnaram in Rana Mahal", "label_source": "freeze_heading_direct"}
+{"id": "LM-028", "s": "X2", "r": 1, "a": "PL", "propagated_label": "Ramnagar-paleis van de Kashi Naresh", "label_source": "freeze_heading_direct"}
+{"id": "LM-029", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Bishnupur, locatie van Dukari Lahiri's huwelijk", "label_source": "freeze_heading_direct"}
+{"id": "LM-030", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Geërfd perceel / familiebezit bij Krishnanagar", "label_source": "freeze_heading_direct"}
+{"id": "LM-031", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Monghyr/Munger als mogelijke reisstop", "label_source": "freeze_heading_direct"}
+{"id": "LM-032", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Bhagalpur als mogelijke reisstop", "label_source": "freeze_heading_direct"}
+{"id": "LM-033", "s": "X2", "r": 3, "a": "LA", "propagated_label": "Kumbha Mela-terrein, Allahabad/Prayagraj", "label_source": "freeze_heading_direct"}
+{"id": "LM-034", "s": "X2", "r": 1, "a": "PO", "propagated_label": "Manikarnika Ghat", "label_source": "freeze_heading_direct"}
+{"id": "LM-035", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Keshabananda's hermitage in Hardwar (verschijningsclaim vóór overlijden)", "label_source": "freeze_heading_direct"}
+{"id": "LM-036", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Keshabananda's kamer in Benares (postmortale verschijningsclaim)", "label_source": "freeze_heading_direct"}
+{"id": "LM-037", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Panchanon Bhattacharya's huis in Calcutta (postmortale verschijningsclaim)", "label_source": "freeze_heading_direct"}
+{"id": "LM-038", "s": "X2", "r": 5, "a": "AX", "propagated_label": "Onbekende verblijfplaats van Pranabananda (postmortale verschijningsclaim)", "label_source": "freeze_heading_direct"}
+{"id": "LM-039", "s": "X2", "r": 5, "a": "AX", "propagated_label": "Onbenoemd hof van een maharaja", "label_source": "freeze_heading_direct"}
+{"id": "LM-040", "s": "X2", "r": 5, "a": "AX", "propagated_label": "Hut van een arme toegewijde nabij het naamloze
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1220 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/reconciliation_layers/CORE_KRIYA_SOURCE_RECORDS_LABELED.jsonl blob_sha=d4e85440fd636bbe60c2588d536d2f8a03e71401 original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=8 classification=text
+ hof", "label_source": "freeze_heading_direct"}
+{"id": "SY-001", "s": "X3", "r": 2, "a": "SV", "propagated_label": "Priyadham / hoofdhermitage en familiehuis van de Karars", "label_source": "freeze_heading_direct"}
+{"id": "SY-002", "s": "X3", "r": 4, "a": "AX", "propagated_label": "Huis van de familie Goswami", "label_source": "freeze_heading_direct"}
+{"id": "SY-003", "s": "X3", "r": 4, "a": "AX", "propagated_label": "Onbekende lagere/middelbare school van Priyanath", "label_source": "freeze_heading_direct"}
+{"id": "SY-004", "s": "X3", "r": 1, "a": "PL", "propagated_label": "Srirampur Christian Missionary College / Serampore College", "label_source": "freeze_heading_direct"}
+{"id": "SY-005", "s": "X3", "r": 3, "a": "PL", "propagated_label": "Calcutta Medical College", "label_source": "freeze_heading_direct"}
+{"id": "SY-006", "s": "X3", "r": 5, "a": "AX", "propagated_label": "Onbekend accountantskantoor", "label_source": "freeze_heading_direct"}
+{"id": "SY-007", "s": "X3", "r": 1, "a": "PL", "propagated_label": "Huis van Lahiri Mahasaya", "label_source": "freeze_heading_direct"}
+{"id": "SY-008", "s": "X3", "r": 4, "a": "LA", "propagated_label": "Onbekende Ganges-badplaats vóór de Kriya-inwijding", "label_source": "freeze_heading_direct"}
+{"id": "SY-009", "s": "X3", "r": 4, "a": "AX", "propagated_label": "Tijdelijke woning / huis van zijn moeder in Rana Mahal", "label_source": "freeze_heading_direct"}
+{"id": "SY-010", "s": "X3", "r": 3, "a": "PO", "propagated_label": "Onbekende smalle straat in het Bengaalse kwartier van Benares", "label_source": "freeze_heading_direct"}
+{"id": "SY-011", "s": "X3", "r": 5, "a": "AX", "propagated_label": "Onbekende crematieplaats aan de Ganges voor zijn moeder", "label_source": "freeze_heading_direct"}
+{"id": "SY-012", "s": "X3", "r": 3, "a": "PL", "propagated_label": "Benares Sanskrit College", "label_source": "freeze_heading_direct"}
+{"id": "SY-013", "s": "X3", "r": 3, "a": "LA", "propagated_label": "Babaji-kamp bij de Prayag Kumbha, richting Jhusi", "label_source": "freeze_heading_direct"}
+{"id": "SY-014", "s": "X3", "r": 4, "a": "AX", "propagated_label": "Christelijke missionarissen van Chandannagar", "label_source": "freeze_heading_direct"}
+{"id": "SY-015", "s": "X3", "r": 1, "a": "LA", "propagated_label": "Rai Ghat en de banyanboom", "label_source": "freeze_heading_direct"}
+{"id": "SY-016", "s": "X3", "r": 5, "a": "AX", "propagated_label": "Hut van een Santal-guru in een bergjungle", "label_source": "freeze_heading_direct"}
+{"id": "SY-017", "s": "X3", "r": 5, "a": "AX", "propagated_label": "Boshermitage van Dabru Ballav", "label_source": "freeze_heading_direct"}
+{"id": "SY-018", "s": "X3", "r": 4, "a": "AX", "propagated_label": "Onbekende geleerdenlocatie in Puri", "label_source": "freeze_heading_direct"}
+{"id": "SY-019", "s": "X3", "r": 1, "a": "PP", "propagated_label": "Karar Ashram en samadhi-graf", "label_source": "freeze_heading_direct"}
+{"id": "SY-020", "s": "X3", "r": 4, "a": "AX", "propagated_label": "Mahant-/monasterieplek te Buddha-Gaya", "label_source": "freeze_heading_direct"}
+{"id": "SY-021", "s": "X3", "r": 5, "a": "AX", "propagated_label": "Huis van Narendranath Basu, Jeletola Street", "label_source": "freeze_heading_direct"}
+{"id": "SY-022", "s": "X3", "r": 5, "a": "AX", "propagated_label": "Pranabashram, gehuurd huis in Benares", "label_source": "freeze_heading_direct"}
+{"id": "SY-023", "s": "X3", "r": 3, "a": "PP", "propagated_label": "Tulsi Bose-huis / Sadhana Mandir", "label_source": "freeze_heading_direct"}
+{"id": "SY-024", "s": "X3", "r": 1, "a": "PP", "propagated_label": "Familiehuis van Yogananda, 4 Garpar Road", "label_source": "freeze_heading_direct"}
+{"id": "SY-025", "s": "X3", "r": 2, "a": "SV", "propagated_label": "Panthi boardinghouse", "label_source": "freeze_heading_direct"}
+{"id": "SY-026", "s": "X3", "r": 1, "a": "PL", "propagated_label": "Serampore railway station", "label_source": "freeze_heading_direct"}
+{"id": "SY-027", "s": "X3", "r": 4, "a": "AX", "propagated_label": "Onbekende zakenlocatie in Calcutta", "label_source": "freeze_heading_direct"
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1221 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/reconciliation_layers/CORE_KRIYA_SOURCE_RECORDS_LABELED.jsonl blob_sha=d4e85440fd636bbe60c2588d536d2f8a03e71401 original_offset=20480 original_length=4096 payload_bytes=4096 chunk_index=5 chunk_count=8 classification=text
+}
+{"id": "SY-028", "s": "X3", "r": 1, "a": "PL", "propagated_label": "Albert Hall (nu Indian Coffee House)", "label_source": "freeze_heading_direct"}
+{"id": "SY-029", "s": "X3", "r": 5, "a": "SV", "propagated_label": "Dihika Brahmacharya Vidyalaya", "label_source": "freeze_heading_direct"}
+{"id": "SY-030", "s": "X3", "r": 4, "a": "PO", "propagated_label": "Open markt en straten van Simla", "label_source": "freeze_heading_direct"}
+{"id": "SY-031", "s": "X3", "r": 5, "a": "AX", "propagated_label": "Tweelaagse herberg in Srinagar", "label_source": "freeze_heading_direct"}
+{"id": "SY-032", "s": "X3", "r": 1, "a": "PL", "propagated_label": "Tempel/hermitage van Swami Shankara", "label_source": "freeze_heading_direct"}
+{"id": "SY-033", "s": "X3", "r": 4, "a": "PO", "propagated_label": "Gulmarg", "label_source": "freeze_heading_direct"}
+{"id": "SY-034", "s": "X3", "r": 3, "a": "LA", "propagated_label": "Khilanmarg-pad en bergweiden", "label_source": "freeze_heading_direct"}
+{"id": "SY-035", "s": "X3", "r": 1, "a": "PL", "propagated_label": "Shalimar Bagh", "label_source": "freeze_heading_direct"}
+{"id": "SY-036", "s": "X3", "r": 1, "a": "PL", "propagated_label": "Nishat Bagh en paleisgedeelte", "label_source": "freeze_heading_direct"}
+{"id": "SY-037", "s": "X3", "r": 3, "a": "LA", "propagated_label": "Dal Lake, shikara’s/houseboats en kanalen", "label_source": "freeze_heading_direct"}
+{"id": "SY-038", "s": "X3", "r": 4, "a": "AX", "propagated_label": "Festivalterrein van de Ghatal Yogoda Satsanga Sabha", "label_source": "freeze_heading_direct"}
+{"id": "SY-039", "s": "X3", "r": 4, "a": "AX", "propagated_label": "Khukurdaha/Kukurdaha festivalplek", "label_source": "freeze_heading_direct"}
+{"id": "SY-040", "s": "X3", "r": 5, "a": "AX", "propagated_label": "Onbekend huis van een rijke discipel/maharaja", "label_source": "freeze_heading_direct"}
+{"id": "SY-041", "s": "X3", "r": 5, "a": "LA", "propagated_label": "Sri Yukteswar-kamp bij Ganga Sagar Mela", "label_source": "freeze_heading_direct"}
+{"id": "SY-042", "s": "X3", "r": 5, "a": "AX", "propagated_label": "Regent Hotel, Bombay — postmortale verschijning", "label_source": "freeze_heading_direct"}
+{"id": "NEG-BABAJI-01", "s": "X1", "k": "negative_control", "t": 1, "q": "Allahabad Kumbha, 23 Jan 1936", "propagated_label": "Allahabad Kumbha, 23 januari 1936", "label_source": "freeze_heading_positional_verified"}
+{"id": "NEG-BABAJI-02", "s": "X1", "k": "negative_control", "t": 1, "q": "YSS Dwarahat Ashram", "propagated_label": "YSS Dwarahat Ashram", "label_source": "freeze_heading_positional_verified"}
+{"id": "NEG-BABAJI-03", "s": "X1", "k": "negative_control", "t": 1, "q": "Government Rest House, Dwarahat", "propagated_label": "Government Rest House, Dwarahat", "label_source": "freeze_heading_positional_verified"}
+{"id": "NEG-BABAJI-04", "s": "X1", "k": "negative_control", "t": 1, "q": "Ranchi school/ashram, 1920", "propagated_label": "Ranchi Ashram/School, 1920", "label_source": "freeze_heading_positional_verified"}
+{"id": "NEG-BABAJI-05", "s": "X1", "k": "negative_control", "t": 1, "q": "Ranikhet route, Hariharananda", "propagated_label": "Ranikhet-bezoek van Hariharananda", "label_source": "freeze_heading_positional_verified"}
+{"id": "NEG-BABAJI-06", "s": "X1", "k": "negative_control", "t": 1, "q": "Nadia sand, Lahiri youth", "propagated_label": "Nadia-zand uit Lahiri’s jeugd", "label_source": "freeze_heading_positional_verified"}
+{"id": "NEG-BABAJI-07", "s": "X1", "k": "negative_control", "t": 1, "q": "Places of Shankara or Kabir", "propagated_label": "Plaatsen van Shankara of Kabir", "label_source": "freeze_heading_positional_verified"}
+{"id": "NEG-BABAJI-08", "s": "X1", "k": "negative_control", "t": 1, "q": "Palani, Tamil Nadu", "propagated_label": "Palani, Tamil Nadu", "label_source": "freeze_heading_positional_verified"}
+{"id": "NEG-BABAJI-09", "s": "X1", "k": "negative_control", "t": 1, "q": "Kataragama/Katirgama", "propagated_label": "Kataragama/Katirgama", "label_source": "freeze_heading_positional_verified"}
+{"id": "NEG-BABAJI-10", "s": "X1", "k": "negative_control
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1222 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/reconciliation_layers/CORE_KRIYA_SOURCE_RECORDS_LABELED.jsonl blob_sha=d4e85440fd636bbe60c2588d536d2f8a03e71401 original_offset=24576 original_length=4096 payload_bytes=4096 chunk_index=6 chunk_count=8 classification=text
+", "t": 1, "q": "Modern Babaji ashrams/centres without visit claim", "propagated_label": "Moderne Babaji-ashrams, meditatiecentra en beelden elders in India", "label_source": "freeze_heading_positional_verified"}
+{"id": "NEG-BABAJI-11", "s": "X1", "k": "negative_control", "t": 1, "q": "Dunagiri/Pandukholi, Badrinath, Satopanth, Haidakhan caves", "propagated_label": "Dunagiri/Pandukholi, Badrinath-grot, Santopanth-grot en Haidakhan-grot", "label_source": "freeze_heading_positional_verified"}
+{"id": "NEG-BABAJI-12", "s": "X1", "k": "negative_control", "t": 1, "q": "Haidakhan Baba = Mahavatar Babaji", "propagated_label": "Haidakhan Baba = Mahavatar Babaji", "label_source": "freeze_heading_positional_verified"}
+{"id": "ext-B12", "s": "X4", "k": "external_only_claim", "r": 4, "a": "AX", "q": "Barrackpore/Barackpur — Shankari Mai Jiew room", "m": ["ext-B12"], "propagated_label": "Barrackpore/Barackpur — Shankari Mai Jiew room", "label_source": "delta_matrix_claim_label"}
+{"id": "ext-B16", "s": "X4", "k": "external_only_claim", "r": 5, "a": "LA", "q": "Ranikhet route — voice only", "m": ["ext-B16"], "propagated_label": "Ranikhet route — voice only", "label_source": "delta_matrix_claim_label"}
+{"id": "ext-B17", "s": "X4", "k": "external_only_claim", "r": 3, "a": "PL", "q": "Kathgodam railway waiting-room", "m": ["ext-B17"], "propagated_label": "Kathgodam railway waiting-room", "label_source": "delta_matrix_claim_label"}
+{"id": "ext-B18", "s": "X4", "k": "external_only_claim", "r": 1, "a": "EO", "q": "Government Rest House, Dwarahat", "m": ["ext-B18"], "propagated_label": "Government Rest House, Dwarahat", "label_source": "delta_matrix_claim_label"}
+{"id": "ext-B32", "s": "X4", "k": "external_only_claim", "r": 3, "a": "PP", "q": "Satyalok, Chousatti Ghat, Varanasi", "m": ["ext-B32"], "propagated_label": "Satyalok, Chousatti Ghat, Varanasi", "label_source": "delta_matrix_claim_label"}
+{"id": "ext-B19", "s": "X4", "k": "external_only_claim", "r": 3, "a": "LA", "q": "Neelkant/Neelkanth Hill zone", "m": ["ext-B19"], "propagated_label": "Neelkant/Neelkanth Hill zone", "label_source": "delta_matrix_claim_label"}
+{"id": "ext-B20", "s": "X4", "k": "external_only_claim", "r": 3, "a": "LA", "q": "Neelkant Hill — Mauni Baba cave zone", "m": ["ext-B20"], "propagated_label": "Neelkant Hill — Mauni Baba cave zone", "label_source": "delta_matrix_claim_label"}
+{"id": "ext-B21", "s": "X4", "k": "external_only_claim", "r": 3, "a": "LA", "q": "Panar / Kakbhusundi Tal zone", "m": ["ext-B21"], "propagated_label": "Panar / Kakbhusundi Tal zone", "label_source": "delta_matrix_claim_label"}
+{"id": "ext-B22", "s": "X4", "k": "external_only_claim", "r": 5, "a": "AX", "q": "Kedarnath — secret path", "m": ["ext-B22"], "propagated_label": "Kedarnath — secret path", "label_source": "delta_matrix_claim_label"}
+{"id": "ext-B23", "s": "X4", "k": "external_only_claim", "r": 4, "a": "AX", "q": "Jaisalmer", "m": ["ext-B23"], "propagated_label": "Jaisalmer", "label_source": "delta_matrix_claim_label"}
+{"id": "ext-B11-subclaim", "s": "X4", "k": "external_only_claim", "r": 1, "a": "PL", "q": "Lahiri house, Varanasi — Pranabananda subclaim", "m": ["ext-B11-subclaim"], "propagated_label": "Lahiri house, Varanasi — Pranabananda subclaim", "label_source": "delta_matrix_claim_label"}
+{"id": "NEG-LM-01", "s": "X2", "k": "negative_control", "propagated_label": "Satyalok, Chousatti Ghat", "label_source": "freeze_heading_direct"}
+{"id": "NEG-LM-02", "s": "X2", "k": "negative_control", "propagated_label": "Moderne `Lahiri Mahasaya Samadhi` / as-schrijn", "label_source": "freeze_heading_direct"}
+{"id": "NEG-LM-03", "s": "X2", "k": "negative_control", "propagated_label": "Keshav Ashram / Lahiri-as-schrijn in Haridwar", "label_source": "freeze_heading_direct"}
+{"id": "NEG-LM-04", "s": "X2", "k": "negative_control", "propagated_label": "Huis van de cholerapatiënt Rama in Benares", "label_source": "freeze_heading_direct"}
+{"id": "NEG-LM-05", "s": "X2", "k": "negative_control", "propagated_label": "`Babaji's Cave` als exact huidig grotadres", "label_source": "fre
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1223 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/reconciliation_layers/CORE_KRIYA_SOURCE_RECORDS_LABELED.jsonl blob_sha=d4e85440fd636bbe60c2588d536d2f8a03e71401 original_offset=28672 original_length=3319 payload_bytes=3319 chunk_index=7 chunk_count=8 classification=text
+eze_heading_direct"}
+{"id": "NEG-LM-06", "s": "X2", "k": "negative_control", "propagated_label": "Dashashwamedh Ghat als Babaji-beloftelocatie", "label_source": "freeze_heading_direct"}
+{"id": "intern-18-Gorakhpur-Abinash", "s": "X4", "k": "external_only_claim", "r": 4, "a": "AX", "q": "Gorakhpur — Abinash Babu materialization scene", "m": ["intern-18-Gorakhpur-Abinash"], "propagated_label": "Gorakhpur — Abinash Babu materialization scene", "label_source": "delta_matrix_claim_label"}
+{"id": "DELTA-LM-PP-ONLY-AGGREGATE", "s": "X4", "k": "aggregate_reference_only", "r": 5, "a": "AX", "t": 1, "q": "Additional PP-only sublocations including Panagarh and Burdwan-station", "propagated_label": "Additional PP-only sublocations including Panagarh and Burdwan-station", "label_source": "delta_matrix_claim_label"}
+{"id": "N-01", "s": "X3", "k": "negative_control", "propagated_label": "Jagannath Temple, Puri", "label_source": "freeze_heading_direct"}
+{"id": "N-02", "s": "X3", "k": "negative_control", "propagated_label": "Govardhan Peeth / Govardhan Math, Puri", "label_source": "freeze_heading_direct"}
+{"id": "N-03", "s": "X3", "k": "negative_control", "propagated_label": "Belur Math", "label_source": "freeze_heading_direct"}
+{"id": "N-04", "s": "X3", "k": "negative_control", "propagated_label": "Satsanga Sabhas in Jamalpur en Kanpur", "label_source": "freeze_heading_direct"}
+{"id": "N-05", "s": "X3", "k": "negative_control", "propagated_label": "Khidirpur/Kidderpore Satsanga-huizen", "label_source": "freeze_heading_direct"}
+{"id": "N-06", "s": "X3", "k": "negative_control", "propagated_label": "Serampore Sanskrit school", "label_source": "freeze_heading_direct"}
+{"id": "N-07", "s": "X3", "k": "negative_control", "propagated_label": "Bhaktashram in Chatra en Gurudham bij Motilals huis", "label_source": "freeze_heading_direct"}
+{"id": "N-08", "s": "X3", "k": "negative_control", "propagated_label": "Dihika opvolgsite, Kashimbazar-paleis en Ranchi-school", "label_source": "freeze_heading_direct"}
+{"id": "N-09", "s": "X3", "k": "negative_control", "propagated_label": "Rishikesh “siddha ashram”", "label_source": "freeze_heading_direct"}
+{"id": "N-10", "s": "X3", "k": "negative_control", "propagated_label": "Susanga-paleis/landgoed", "label_source": "freeze_heading_direct"}
+{"id": "N-11", "s": "X3", "k": "negative_control", "propagated_label": "Howrah en Bhandarhati", "label_source": "freeze_heading_direct"}
+{"id": "N-12", "s": "X3", "k": "negative_control", "propagated_label": "Rawalpindi en routeherbergen", "label_source": "freeze_heading_direct"}
+{"id": "N-13", "s": "X3", "k": "negative_control", "propagated_label": "“Mahakumar” als aparte plaats", "label_source": "freeze_heading_direct"}
+{"id": "N-14", "s": "X3", "k": "negative_control", "propagated_label": "Moyna Sri Sri Yukteswar Kanya Vidyapith (claim 1962)", "label_source": "freeze_heading_direct"}
+{"id": "DELTA-SY-SERAMPORE-MICRO-AGGREGATE", "s": "X4", "k": "aggregate_reference_only", "r": 3, "a": "SV", "t": 1, "q": "Serampore hermitage micro-sites: hall, courtyard, sitting room, eating patio, bedroom(s)", "m": ["intern-1", "ext-SY001-005", "ext-SY008"], "propagated_label": "Serampore hermitage micro-sites: hall, courtyard, sitting room, eating patio, bedroom(s)", "label_source": "delta_matrix_claim_label"}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1224 path=governance/scripts/preflight_validator.py blob_sha=d527e0ed90f5824b1352de8aec99a25c74fad511 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+#!/usr/bin/env python3
+"""Preflight-validator voor governance/SWEEP_PROTOCOL.md (Deel 4).
+
+Controleert UITSLUITEND machine-checkbare, structurele voorwaarden voor een gegeven
+run-directory (bv. runs/active/BODHGAYA-DISCOVERY-001) vóór een fase-overgang. Dit script
+beoordeelt GEEN inhoud (bronsterkte, of een saturatieclaim klopt, of een generiek-check correct
+is uitgevoerd) -- dat blijft mensen-/CCI-/INDIA-oordeel. Elke check rapporteert een van drie
+uitkomsten: OK, FAIL, of NIET_CONTROLEERBAAR (het verwachte bestand/veld ontbreekt in dit
+run-format -- geen garantie, geen aanname).
+
+Gebruik:
+    python3 governance/scripts/preflight_validator.py --run-dir runs/active/<RUN_ID> \
+        --phase discovery
+    python3 governance/scripts/preflight_validator.py --run-dir runs/active/<RUN_ID> \
+        --phase pdf
+
+phase=discovery -> checks vóór keuzerapportfase (Coverage Matrix, Lead Register, identity-
+    /access-blockers, nummering, saturation-evidence, INDIA_ACCEPTED_SATURATION: JA,
+    GEO-combinatiesymmetrie via het optionele 'combine_with'-veld).
+phase=pdf        -> checks vóór een PDF-build (verboden placeholders in GOUD/USER/,
+    PRE_PDF_CONTENT_APPROVED: JA, PDF_GO: JA).
+
+Exit code 0 als alle controleerbare checks OK zijn (NIET_CONTROLEERBAAR blokkeert niet, maar
+wordt wel zichtbaar gerapporteerd); exit code 1 bij minstens één FAIL.
+"""
+import argparse
+import json
+import subprocess
+import sys
+from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+
+
+def load_jsonl(path: Path):
+    rows = []
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                rows.append(json.loads(line))
+            except json.JSONDecodeError:
+                rows.append({"_PARSE_ERROR_": line})
+    return rows
+
+
+def grep_literal(run_dir: Path, token: str):
+    """Zoekt een letterlijke tokenstring in alle .md/.jsonl/.yaml-bestanden onder run_dir."""
+    hits = []
+    for path in list(run_dir.rglob("*.md")) + list(run_dir.rglob("*.jsonl")) + \
+            list(run_dir.rglob("*.yaml")) + list(run_dir.rglob("*.yml")):
+        try:
+            text = path.read_text(encoding="utf-8")
+        except (UnicodeDecodeError, OSError):
+            continue
+        if token in text:
+            hits.append(path)
+    return hits
+
+
+_TOKEN_LINE_STRIP_CHARS = " \t*`->#•"
+
+
+def grep_standalone_token(run_dir: Path, token: str):
+    """Zoekt TOKEN als een op-zichzelf-staande statusregel (niet als losse substring).
+
+    Een regel telt alleen mee als de regel, na het strippen van markdown-opmaak
+    (backticks/asterisks/lijst-markers/whitespace) aan begin en eind, EXACT gelijk is aan
+    `token`. Dit voorkomt de valse-positiefklasse waarbij een zin die het token alleen NOEMT
+    ("Wacht op `PRE_PDF_CONTENT_APPROVED: JA` ...") ten onrechte als een echte toekenning
+    wordt gelezen -- de reden dat deze functie is toegevoegd (2026-08-08, gevonden tijdens de
+    Bodh Gaya-reconciliatieronde: PRE_PDF_CONTENT.md noemt beide tokens al in de openingsregel
+    als iets waarop nog gewacht wordt, wat de oude substring-check ten onrechte als OK las).
+    """
+    hits = []
+    for path in list(run_dir.rglob("*.md")) + list(run_dir.rglob("*.jsonl")) + \
+            list(run_dir.rglob("*.yaml")) + list(run_dir.rglob("*.yml")):
+        try:
+            text = path.read_text(encoding="utf-8")
+        except (UnicodeDecodeError, OSError):
+            continue
+        for line in text.splitlines():
+            if line.strip(_TOKEN_LINE_STRIP_CHARS).strip() == token:
+                hits.append(path)
+                break
+    return hits
+
+
+def check_coverage_matrix(run_dir: Path, results: list):
+    path = run_dir / "PRE_BRONS" / "COVERAGE_MATRIX.jsonl"
+    if not path.exists():
+        results.append(("Coverage Matrix", "NIET_CONTROLEERBAAR",
+                         f"{path} niet gevonden -- dit run-format gebruikt (nog) geen Coverage Matrix."))
+        return
+    rows = load_jsonl(path)
+    open_rows = [r for r in rows if
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1225 path=governance/scripts/preflight_validator.py blob_sha=d527e0ed90f5824b1352de8aec99a25c74fad511 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+ r.get("status") in ("NOT_STARTED", "ACTIVE")]
+    if open_rows:
+        results.append(("Coverage Matrix", "FAIL",
+                         f"{len(open_rows)} lens/detector(en) nog NOT_STARTED/ACTIVE: "
+                         + ", ".join(r.get("lens_of_detector_id", "?") for r in open_rows)))
+    else:
+        results.append(("Coverage Matrix", "OK", f"{len(rows)} regel(s), alle SATURATED/EXPLICIET_ONBESCHIKBAAR."))
+
+
+def check_lead_register(run_dir: Path, results: list):
+    path = run_dir / "PRE_BRONS" / "LEAD_REGISTER.jsonl"
+    if not path.exists():
+        results.append(("Lead Register", "NIET_CONTROLEERBAAR",
+                         f"{path} niet gevonden -- dit run-format gebruikt (nog) geen Lead Register."))
+        return
+    valid_outcomes = {"MARK_WAARDIG", "HARD_EXCLUDED", "DUPLICATE", "SUBLOCATION",
+                       "OUT_OF_SCOPE_HIGH_VALUE", "EXPLICIET_ONBESCHIKBAAR"}
+    rows = load_jsonl(path)
+    bad = [r for r in rows if r.get("outcome") not in valid_outcomes]
+    if bad:
+        results.append(("Lead Register", "FAIL",
+                         f"{len(bad)} lead(s) zonder geldige eindstatus: "
+                         + ", ".join(str(r.get("lead", "?")) for r in bad)))
+    else:
+        results.append(("Lead Register", "OK", f"{len(rows)} lead(s), allemaal een geldige eindstatus."))
+
+
+def check_blockers(run_dir: Path, results: list):
+    identity_hits = grep_literal(run_dir, "UNRESOLVED_BLOCKER")
+    if identity_hits:
+        results.append(("Identity/duplicate-blocker", "FAIL",
+                         "UNRESOLVED_BLOCKER gevonden in: " + ", ".join(str(p) for p in identity_hits)))
+    else:
+        results.append(("Identity/duplicate-blocker", "OK", "Geen UNRESOLVED_BLOCKER-tekst gevonden."))
+
+    access_hits = grep_literal(run_dir, "ACCESS_BLOCKER")
+    if access_hits:
+        results.append(("Toegankelijkheidsblocker", "FAIL",
+                         "ACCESS_BLOCKER gevonden in: " + ", ".join(str(p) for p in access_hits)))
+    else:
+        results.append(("Toegankelijkheidsblocker", "OK", "Geen ACCESS_BLOCKER-tekst gevonden."))
+
+
+def check_numbering(run_dir: Path, results: list):
+    global_validator = REPO_ROOT / "india5" / "scripts" / "validate_global_numbering.py"
+    if not global_validator.exists():
+        results.append(("Nummering (globaal)", "NIET_CONTROLEERBAAR", f"{global_validator} niet gevonden."))
+        return
+    proc = subprocess.run([sys.executable, str(global_validator)], capture_output=True, text=True)
+    if proc.returncode == 0:
+        results.append(("Nummering (globaal)", "OK", "validate_global_numbering.py: geen problemen."))
+    else:
+        results.append(("Nummering (globaal)", "FAIL", proc.stdout.strip().splitlines()[-1] if proc.stdout else proc.stderr.strip()))
+
+
+def check_active_candidates_not_excluded(run_dir: Path, results: list):
+    candidates_files = list(run_dir.glob("PRE_BRONS/DISCOVERY_CANDIDATES.jsonl"))
+    if not candidates_files:
+        results.append(("Actieve kandidaten vs. excluded/sublocation/duplicate", "NIET_CONTROLEERBAAR",
+                         "DISCOVERY_CANDIDATES.jsonl niet gevonden."))
+        return
+    excluded_like = {"EXCLUDED_HARD_REASON", "SUBLOCATION", "DUPLICATE"}
+    rows = load_jsonl(candidates_files[0])
+    conflicts = [
+        r for r in rows
+        if r.get("mark_waardig_status") in excluded_like and r.get("active_in_report") is True
+    ]
+    if conflicts:
+        results.append(("Actieve kandidaten vs. excluded/sublocation/duplicate", "FAIL",
+                         f"{len(conflicts)} kandidaat/kandidaten expliciet als active_in_report:true "
+                         "gemarkeerd EN tegelijk EXCLUDED_HARD_REASON/SUBLOCATION/DUPLICATE."))
+    else:
+        results.append(("Actieve kandidaten vs. excluded/sublocation/duplicate", "OK",
+                         "Geen kandidaat is tegelijk 'active_in_report' en EXCLUDED_HARD_REASON/"
+                         "SUBLOCATION/DUPLICATE. (Vereist wel het optionele veld 'active_in_report' "
+                         "per record -- ontbreekt dat veld overal, dan is dit een 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1226 path=governance/scripts/preflight_validator.py blob_sha=d527e0ed90f5824b1352de8aec99a25c74fad511 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+zwakke check.)"))
+
+
+def check_saturation_evidence(run_dir: Path, results: list):
+    reports = list(run_dir.glob("**/SATURATION_REPORT*.md"))
+    if not reports:
+        results.append(("Saturation-evidence-bestand", "NIET_CONTROLEERBAAR", "Geen SATURATION_REPORT*.md gevonden."))
+        return
+    results.append(("Saturation-evidence-bestand", "OK",
+                     f"{len(reports)} rapport(en) gevonden: " + ", ".join(p.name for p in reports)))
+
+
+def check_token(run_dir: Path, token: str, label: str, results: list):
+    hits = grep_standalone_token(run_dir, token)
+    if hits:
+        results.append((label, "OK", f"'{token}' gevonden als op-zichzelf-staande regel in: "
+                         + ", ".join(str(p) for p in hits)))
+    else:
+        results.append((label, "FAIL", f"'{token}' NIET gevonden als op-zichzelf-staande regel in "
+                         f"run-directory {run_dir} (losse vermeldingen binnen een zin tellen niet mee)."))
+
+
+FORBIDDEN_PLACEHOLDERS = ("NOG NIET ONDERZOCHT", "TODO", "TBD")
+
+
+def check_forbidden_placeholders(run_dir: Path, results: list):
+    """Poort N: verboden placeholders in de gebruikers-PDF-inhoud (GOUD/USER/).
+
+    Machine-afgedwongen sinds 2026-08-08 (INDIA6 bericht 065) -- voorheen alleen handmatige
+    discipline. Scant uitsluitend GOUD/USER/ (de daadwerkelijke PDF-inhoud), niet de hele
+    run-directory -- onderzoeksbestanden elders mogen deze woorden best bevatten (bv. om uit te
+    leggen wat er niet meer in mag staan).
+    """
+    user_dir = run_dir / "GOUD" / "USER"
+    if not user_dir.exists():
+        results.append(("Verboden placeholders (poort N)", "NIET_CONTROLEERBAAR",
+                         f"{user_dir} niet gevonden -- nog geen GOUD/USER-inhoud voor deze run."))
+        return
+    hits = []
+    for path in sorted(user_dir.rglob("*.md")):
+        try:
+            text = path.read_text(encoding="utf-8")
+        except (UnicodeDecodeError, OSError):
+            continue
+        for placeholder in FORBIDDEN_PLACEHOLDERS:
+            if placeholder in text:
+                hits.append(f"{path.name}: '{placeholder}'")
+    if hits:
+        results.append(("Verboden placeholders (poort N)", "FAIL",
+                         f"{len(hits)} treffer(s): " + "; ".join(hits)))
+    else:
+        results.append(("Verboden placeholders (poort N)", "OK",
+                         f"Geen verboden placeholders gevonden in {user_dir}."))
+
+
+def check_geo_symmetry(run_dir: Path, results: list):
+    """Poort L.1: machineleesbare GEO-combinatiesymmetrie via het optionele veld `combine_with`.
+
+    Voor elk display_id X dat kandidaat Y in `combine_with` noemt, moet Y's eigen record X
+    terugnoemen. Geen enkel record met dit veld -> NIET_CONTROLEERBAAR (oudere runs, zoals Bodh
+    Gaya, gebruiken nog vrije tekst; nieuwe runs vullen dit veld voortaan direct in, zie poort L.1).
+    """
+    candidates_files = list(run_dir.glob("PRE_BRONS/DISCOVERY_CANDIDATES.jsonl"))
+    if not candidates_files:
+        results.append(("GEO-combinatiesymmetrie (poort L.1)", "NIET_CONTROLEERBAAR",
+                         "DISCOVERY_CANDIDATES.jsonl niet gevonden."))
+        return
+    rows = load_jsonl(candidates_files[0])
+    with_field = [r for r in rows if isinstance(r.get("combine_with"), list)]
+    if not with_field:
+        results.append(("GEO-combinatiesymmetrie (poort L.1)", "NIET_CONTROLEERBAAR",
+                         "Geen enkel record heeft het machineleesbare veld 'combine_with' -- "
+                         "deze run gebruikt (nog) alleen vrije-tekstvelden voor combineerbaarheid."))
+        return
+    by_id = {r.get("display_id"): r for r in rows if r.get("display_id")}
+    asymmetric = []
+    for r in with_field:
+        src = r.get("display_id")
+        for target in r.get("combine_with", []):
+            other = by_id.get(target)
+            if other is None:
+                asymmetric.append(f"{src} noemt onbekend display_id {target}")
+                continue
+            if src not in (other.get("combine_with") or []):
+                asymmetric.append(f"{src} -> {target} niet symmet
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1227 path=governance/scripts/preflight_validator.py blob_sha=d527e0ed90f5824b1352de8aec99a25c74fad511 original_offset=12288 original_length=2597 payload_bytes=2597 chunk_index=3 chunk_count=4 classification=text
+risch (({target} noemt {src} niet terug)")
+    if asymmetric:
+        results.append(("GEO-combinatiesymmetrie (poort L.1)", "FAIL",
+                         f"{len(asymmetric)} asymmetrische relatie(s): " + "; ".join(asymmetric)))
+    else:
+        results.append(("GEO-combinatiesymmetrie (poort L.1)", "OK",
+                         f"{len(with_field)} record(s) met 'combine_with', allemaal symmetrisch."))
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("--run-dir", required=True, help="Pad naar de run-directory, bv. runs/active/BODHGAYA-DISCOVERY-001")
+    parser.add_argument("--phase", choices=["discovery", "pdf"], default="discovery",
+                         help="discovery = checks vóór keuzerapportfase; pdf = checks vóór PDF-build")
+    args = parser.parse_args()
+
+    run_dir = Path(args.run_dir)
+    if not run_dir.is_absolute():
+        run_dir = REPO_ROOT / run_dir
+    if not run_dir.exists():
+        print(f"FOUT: run-directory {run_dir} bestaat niet.")
+        sys.exit(2)
+
+    results = []
+
+    if args.phase == "discovery":
+        check_coverage_matrix(run_dir, results)
+        check_lead_register(run_dir, results)
+        check_blockers(run_dir, results)
+        check_numbering(run_dir, results)
+        check_active_candidates_not_excluded(run_dir, results)
+        check_saturation_evidence(run_dir, results)
+        check_token(run_dir, "INDIA_ACCEPTED_SATURATION: JA", "INDIA_ACCEPTED_SATURATION", results)
+        check_geo_symmetry(run_dir, results)
+    else:
+        check_forbidden_placeholders(run_dir, results)
+        check_token(run_dir, "PRE_PDF_CONTENT_APPROVED: JA", "PRE_PDF_CONTENT_APPROVED", results)
+        check_token(run_dir, "PDF_GO: JA", "PDF_GO", results)
+
+    print(f"Preflight ({args.phase}) voor {run_dir}\n")
+    fail_count = 0
+    for label, status, detail in results:
+        print(f"[{status:20s}] {label}: {detail}")
+        if status == "FAIL":
+            fail_count += 1
+
+    print()
+    if fail_count:
+        print(f"PREFLIGHT MISLUKT -- {fail_count} FAIL. Fase-overgang NIET toegestaan.")
+        print("Let op: NIET_CONTROLEERBAAR is geen garantie -- dat betekent alleen dat dit script "
+              "het niet kan checken, niet dat het in orde is.")
+        sys.exit(1)
+
+    print("Alle machine-checkbare voorwaarden zijn OK. NIET_CONTROLEERBAAR-punten (indien aanwezig) "
+          "vereisen nog altijd menselijk/INDIA-oordeel voordat de fase echt open mag.")
+    sys.exit(0)
+
+
+if __name__ == "__main__":
+    main()
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1228 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/REGIONAL/TRAVEL/DAGROUTES.md blob_sha=d6c16b8367dbc88594153b5f3d6b73999c1a2c46 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# Varanasi -- dagroutes (2, 3 en 4 dagen)
+
+run_id: VARANASI-GEO-DELIVERY-REPAIR-001
+status: TRAVEL-module, op basis van de definitieve dataset, Marks A/B/C-keuzes en het
+LOCKED_BY_MARK-hotelbesluit. Geen nieuw kandidaatonderzoek, geen A/B/C-wijziging.
+basis: Sahi River View Guesthouse, Assi Ghat (zie `ACCOMMODATION_REGISTER.jsonl`, VNS-HOTEL-001).
+
+Alle routes vertrekken en eindigen bij de hotelbasis nabij Assi Ghat. Kernbestemmingen zijn
+uitsluitend Mark-keuze A (32 kandidaten). B en C staan apart als optionele uitbreiding (zie
+onderaan) -- dit is GEEN herbeoordeling van hun A/B/C-status, alleen een prioriteitsvolgorde voor
+de planning.
+
+Coordinaten/geo-status van elke kandidaat: zie `DATASET_VARANASI_40.jsonl`. Deze module voegt geen
+nieuwe coordinaten toe en wijzigt er geen.
+
+---
+
+## Dagblok A -- Bhadaini / Assi (wandelbaar vanaf de hotelbasis)
+
+Cluster "Bhadaini / Assi / Durgakund" -- alles binnen loopafstand van Sahi River View Guesthouse.
+
+1. 010 Assi Ghat (start, evt. Subah-e-Banaras ochtendaarti, zie AARTI_EN_BOOT.md)
+2. 037 Lolark Kund
+3. 005 Shree Shree Ma Anandamayi Ashram, Bhadaini
+4. 036 Tulsi Ghat
+5. 035 Tulsi Manas Temple
+6. 015 Sankat Mochan Hanuman Temple
+7. 016 Durga Temple and Durga Kund
+8. 028 Bhaskarananda Samadhi / Anand Bagh
+
+Vervoer: te voet (Assi Ghat t/m Tulsi Ghat), daarna korte taxi/e-rickshaw naar Tulsi Manas Temple/
+Sankat Mochan/Durga Kund-cluster (ca. 1-2 km, niet aaneengesloten wandelbaar).
+Avond: taxi naar Dashashwamedh Ghat voor de Ganga Aarti (zie AARTI_EN_BOOT.md).
+
+## Dagblok B -- Oude stad / ghats noordwaarts (boot + wandeling)
+
+Cluster "Dashashwamedh / oude ghats" + "Vishwanath / oude stad" + "Manikarnika / Lalita /
+Panchganga / Scindia".
+
+Ochtend: zonsopgang-bootrit vanaf de ghats bij Assi noordwaarts tot Dashashwamedh/Manikarnika (zie
+AARTI_EN_BOOT.md).
+
+1. 009 Dashashwamedh Ghat
+2. 039 Shitala Mata Temple, Dashashwamedh
+3. 007 Shri Kashi Vishwanath Temple
+4. 014 Maa Annapurna Temple
+5. 017 Vishalakshi Gauri Temple
+6. 003 Manikarnika Ghat
+7. 038 Ratneshwar Mahadev Temple
+8. 018 Sankatha Devi Temple
+9. 020 Lalita Ghat
+10. 021 Nepali Temple / Kathwala Temple
+11. 011 Panchganga Ghat
+12. 022 Bindu Madhav Temple
+13. 004 Shri Tailanga Swami Math
+
+Vervoer: te voet, de ghats en de oude stad liggen aaneengesloten (nauwe steegjes/gulliyan).
+Let op Manikarnika Ghat: actieve crematieplek -- niet fotograferen, respectvol gedrag, zie
+PRAKTISCHE_TIPS.md.
+
+## Dagblok C -- Kriya/Bengali Tola, Kabir, noordelijke oude stad (taxi-based, verspreid)
+
+Cluster "Kriya / Bangali Tola" + "Kabir" + "Noordelijke oude stad", plus optioneel de zuidelijke
+ghats (B-keuzes, zie onderaan).
+
+1. 001 Lahiri Mahasaya Samadhi / Satyalok
+2. 002 Lahiri Mahasaya original home
+3. 013 Kaal Bhairav Temple
+4. 024 Kabir Chaura Math
+5. 025 Lahartara Kabir birthplace memorial
+
+Vervoer: taxi/auto-rickshaw tussen de stops, deze liggen verspreid over de stad (niet
+aaneengesloten wandelbaar).
+
+## Dagblok D -- Sarnath (aparte dagtrip, ca. 10 km van het centrum)
+
+Cluster "Sarnath" -- volledig als aparte dagtrip, niet te combineren met de ghats op dezelfde
+ochtend (reistijd).
+
+1. 006 Sarnath sacred complex (koepelkandidaat/overzicht)
+2. 029 Dhamek Stupa
+3. 030 Mulagandha Kuti Vihara
+4. 031 Chaukhandi Stupa
+5. 032 Sarnath Archaeological Museum
+6. 033 Deer Park / Isipatana sacred landscape
+7. 034 Saranganath Temple
+
+Vervoer: taxi heen en terug vanaf de hotelbasis (ca. 30-45 min enkele reis, afhankelijk van
+verkeer). Hele of halve dag, afhankelijk van museumbezoek.
+
+---
+
+## Route van 2 dagen
+
+- **Dag 1**: Dagblok A (Bhadaini/Assi, wandelbaar vanaf hotel) -- Ganga Aarti bij Dashashwamedh
+  in de avond.
+- **Dag 2**: Dagblok B (oude stad/ghats noordwaarts, incl. ochtend-bootrit).
+- Niet bezocht bij 2 dagen: Sarnath, Kabir/Bengali Tola, noordelijke oude stad. Als "indien tijd
+  over" te vervangen door een kortere versie van Dagblok C in de middag van dag 2.
+
+## Route van 3 dagen
+
+- **Dag 1**: Dagblok A.
+- **Dag 2**: Dagblok B (incl. ochtend-bootrit, avond-aarti).
+- **Dag 3**: Dagblok D (Sarnath, hele dag).
+- Niet bezocht: Kabir/Bengali Tola/n
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1229 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/REGIONAL/TRAVEL/DAGROUTES.md blob_sha=d6c16b8367dbc88594153b5f3d6b73999c1a2c46 original_offset=4096 original_length=1401 payload_bytes=1401 chunk_index=1 chunk_count=2 classification=text
+oordelijke oude stad (Dagblok C) -- optioneel in te korten
+  ochtend/middag op dag 1 of 2 als er ruimte is.
+
+## Route van 4 dagen
+
+- **Dag 1**: Dagblok A.
+- **Dag 2**: Dagblok B (incl. ochtend-bootrit, avond-aarti).
+- **Dag 3**: Dagblok C (Kriya/Bengali Tola, Kabir, noordelijke oude stad) + optioneel de
+  zuidelijke B-ghats (012 Harishchandra Ghat, 019 Kedareshwar Temple and Kedar Ghat -- 019 is
+  inmiddels A, dus kernbestemming; 012 is B, optioneel).
+- **Dag 4**: Dagblok D (Sarnath, hele dag).
+- Ruimte over: de resterende B/C-kandidaten (zie hieronder) als losse toevoeging op elke dag met
+  tijd over, dicht bij de geplande route van die dag.
+
+---
+
+## Optionele uitbreiding -- B en C (geen kernbestemmingen, geen A/B/C-wijziging)
+
+- **B (5)**: 008 Yogoda Satsanga (Mahmoorganj, geen veilig coordinaat), 012 Harishchandra Ghat
+  (zuidelijke ghats, crematieplek), 013 Kaal Bhairav Temple (al in Dagblok C), 023 Mrityunjay
+  Mahadev Temple (noordelijke oude stad, 3km-brondiscrepantie), 025 Lahartara Kabir-geboorteplek
+  (al in Dagblok C).
+- **C (3)**: 026 Ramakrishna Mission Home of Service (Luxa), 027 Baba Keenaram Sthal / Krim Kund
+  (Ravindrapuri), 040 Bharat Mata Temple (Cantonment, verder van de ghats).
+
+Deze kunnen worden toegevoegd aan een dag met tijd over, op basis van geografische nabijheid met
+die dag se route -- geen van deze toevoegingen verandert de kernplanning hierboven.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1230 path=runs/active/TOP11-NKB-RAMDASS-INDIAGEEL-MULTIDETECTOR-RECONCILIATION-001/TASK.md blob_sha=d73becf66ea64475f968507830279f98105e3fe8 original_offset=0 original_length=2089 payload_bytes=2089 chunk_index=0 chunk_count=1 classification=text
+# CCI_TASK 095 — NKB + RAM DASS INDIA-GEEL MULTIDETECTOR RECONCILIATION
+
+STATUS: READY_FOR_CCI
+OWNER: CCI
+WORKBRANCH: claude/werk-je-nu-of-niet-oa10y7
+
+## Doel
+Voer een lossless derde-detector-reconciliatie uit voor Neem Karoli Baba en Ram Dass, voortbouwend op CCI_TASK 091.
+
+Per persoon vergelijk je drie lagen:
+1. interne CCI/METHOD_V2 + CCI_TASK 091-reconciliatiebasis;
+2. bevroren externe ChatGPT-parallel-sweep;
+3. bevroren India-GEEL PRE-COMPARE freeze.
+
+India-GEEL inputs:
+- NKB: `runs/active/TOP11-INDIAGEEL-NKB-BLIND-SWEEP-001/NEEM_KAROLI_BABA_INDIAGEEL_FREEZE.md`, commit `4cd99f5e45266dd3de0ed487e8147fd93ca525d9` op `agent/indiageel-ramana-ramakrishna-sweep`.
+- Ram Dass: `runs/active/TOP11-INDIAGEEL-RAMDASS-BLIND-SWEEP-001/RAM_DASS_INDIAGEEL_FREEZE.md`, commit `e1f2e4b8bb56296e20bc0d3f6a3d2fbe9b7589cb` op dezelfde branch.
+
+## Verplicht
+- Integriteitscheck van beide India-GEEL commits/blobs vóór inhoudelijk openen.
+- Bidirectionele mapping: GEEL↔091 basis, plus detectie van GEEL-only, basis-only, granulaire matches en conflicten.
+- Directe bronverificatie voor travel-relevante nieuwe locaties, same-site claims en echte conflicten waar praktisch mogelijk.
+- Preserveer het bestaande NKB laatste-reis/doodsvolgordeconflict expliciet als het niet hard oplosbaar is.
+- Geen unsupported claims overnemen.
+- Werk per persoon met checkpoint-commit: eerst NKB, daarna Ram Dass, daarna finale status/resultaat.
+- Maak expliciet welke gates na deze derde detector voldoende zijn voor TRAVEL-READINESS, ook wanneer `PERSON_SWEEP_SATURATED: NEE` blijft.
+- Onderscheid academische onvolledigheid van travel-relevante blockers.
+
+## Outputs
+Onder deze taakmap minimaal:
+- `NEEM_KAROLI_BABA_INDIAGEEL_RECONCILIATION.md`
+- `RAM_DASS_INDIAGEEL_RECONCILIATION.md`
+- `TRAVEL_READINESS_GATE.md`
+- `RECONCILIATION_RESULT.md`
+- bijgewerkte `STATUS.md`
+
+## Grenzen
+Geen regio-sweep, heatmap, A/B/C, route/nachten/hotels, IDs, PDF of merge. Geen nieuwe taak starten na resultaat.
+
+## next_allowed_step
+Na afronding: plaats `CCI_RESULT — CCI_TASK 095` op PR #23 en stop voor INDIA-QA.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1231 path=runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/RECONCILIATION_RESULT.md blob_sha=d97150fe2747606bd96885834741bfe217e0c0da original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# RECONCILIATION_RESULT — TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001
+
+```
+task_id: TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001
+cci_task: CCI_TASK 092
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-19
+checkpoint_commits: 3019884 (Babaji), 9338c4f (Lahiri Mahasaya), 2889174 (Sri Yukteswar)
+```
+
+## 1. Samenvatting
+
+Volledige drieweg-reconciliatie (interne CCI-freeze / externe ChatGPT-parallel-sweep uit CCI_TASK
+088 / IndiaROOD) uitgevoerd voor Babaji (50 IndiaROOD-records), Lahiri Mahasaya (40 + 6 negatief)
+en Sri Yukteswar (42 + 14 negatief). Alle drie IndiaROOD-freezes zijn vóór opening
+blob-SHA-geverifieerd tegen de GitHub API — exacte match, geen manipulatie. Volledige documenten:
+`BABAJI_INDIAROOD_DELTA.md`, `LAHIRI_MAHASAYA_INDIAROOD_DELTA.md`, `SRI_YUKTESWAR_INDIAROOD_DELTA.md`,
+`INDIAROOD_DELTA_MATRIX.jsonl` (120 regels).
+
+## 2. Top-bevindingen over alle drie personen
+
+### IndiaROOD als genuine derde detector — gate-doorbraak
+Voor alle drie personen gaat `EXTERNAL_MODEL_DIVERSITY_GATE` van **NEE naar JA** en
+`RECONCILIATION_GATE` van **PROVISIONEEL naar JA**. IndiaROOD vond bij Babaji een volledig nieuwe,
+niet eerder gedocumenteerde claimanttraditie (Hansavedas/Tryambaknath) — het duidelijkste bewijs
+van echte onafhankelijke detectordiversiteit dat dit project tot nu toe heeft opgeleverd.
+
+### Cross-validatie van bestaande 088-correcties
+- Babaji: de Dashashwamedh-Ghat-locatiecorrectie en de "25-juli-1920-is-geen-AOAY-datum"-correctie
+  uit CCI_TASK 088 zijn beide onafhankelijk door IndiaROOD bevestigd.
+- Sri Yukteswar: de 9-maart-1936-mahasamadhi/21-maart-bhandara-datumscheiding (088's eigen
+  zelfcorrectie) is drievoudig cross-gevalideerd.
+- Lahiri Mahasaya: de Allahabad-Kumbh-Mela-aanwezigheid (088's correctie op een foutieve externe
+  negatieve bevinding) is drievoudig bevestigd.
+
+### Nieuwe, Tier-1 bronmatig bevestigde vondsten
+- **Babaji**: een volledig nieuwe claimanttraditie (Hansavedas/Tryambaknath, 3 records), woordelijk
+  bevestigd op hansavedas.org.
+- **Lahiri Mahasaya**: vier locaties/gebeurtenissen woordelijk bevestigd, waarvan drie
+  (postmortale Keshabananda/Panchanon/Pranabananda-verschijningen) een echte lossless-gap in de
+  oorspronkelijke interne freeze dichten — AOAY hfst. 36 zelf, nooit eerder als atlasrij vastgelegd.
+- **Sri Yukteswar**: twee locaties woordelijk bevestigd (maharaja-huis-weigering; 4 Garpar
+  Road-foto's 1930) via een rechtstreeks toegankelijke eyewitness-bron.
+
+### Eerder geblokkeerde 088-leads nu geconvergeerd
+- Lahiri Mahasaya: Ramnagar-paleis/Kashi-Naresh-tutorschap en het D/31/58-adres, beide via
+  onafhankelijke tweede routes bevestigd (`BRON_GEBLOKKEERD` → `PLAUSIBLE`).
+- Sri Yukteswar: Bodh Gaya-monastieke geloften en Calcutta Medical College, beide via dezelfde
+  Satyananda-biografie die IndiaROOD wél kon citeren (`BRON_GEBLOKKEERD` → `PLAUSIBLE`).
+
+### Nieuwe, nog onopgeloste conflicten
+- Babaji: geen nieuwe harde conflicten; wel twee methodologische opnameverschillen zonder
+  feitelijke tegenspraak.
+- Lahiri Mahasaya: **twee** nieuwe/getrianguleerde conflicten — het 1861-vs-1868-Ranikhet-
+  transferjaar (nu via een derde bron versterkt, nog niet opgelost) en een nieuw sub-conflict over
+  wiens huwelijk de Bishnupur-reis van 1886 veroorzaakte (zoon Dukari volgens IndiaROOD, dochter
+  Harimohini volgens 088's externe PP-bron).
+- Sri Yukteswar: geen nieuwe conflicten gevonden.
+
+### Grootste granulariteitswinst
+IndiaROOD breidt de Babaji-Haidakhan-tak uit van 3 naar 19 records — de grootste enkelvoudige
+detectorwinst in deze taak. Omgekeerd mist IndiaROOD bij Babaji de volledige Sri-M/Nath-
+claimanttraditie (5 externe records) en bij Sri Yukteswar de fijnmazige kamer-sublocatie-
+uitsplitsing van de Serampore-hermitage die de externe ChatGPT-freeze wel had.
+
+### Geen hallucinaties gevonden bij IndiaROOD
+In tegenstelling tot CCI_TASK 091 (waar een externe Ram-Dass-claim als `FALSE_OR_UNSUPPORTED`
+werd afgewezen), zijn bij IndiaROOD's Core-Kriya-freezes deze taak **geen** onondersteunde of
+gehallucineerde claims aangetroffen bij de rechtst
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1232 path=runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/RECONCILIATION_RESULT.md blob_sha=d97150fe2747606bd96885834741bfe217e0c0da original_offset=4096 original_length=2804 payload_bytes=2804 chunk_index=1 chunk_count=2 classification=text
+reeks gecontroleerde steekproef (circa 15 directe
+bronverificaties over de drie personen, stuk voor stuk bevestigd).
+
+## 3. Recorddelta per persoon
+
+| persoon | 088 intern | 088 extern | IndiaROOD | matches | IndiaROOD-only | 088-only | conflicten |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Babaji | 14 | 35 | 50 | 26 | 23 | 11 | 0 hard |
+| Lahiri Mahasaya | 19 | 60 | 40+6neg | 14 | 6 | 2+ | 2 |
+| Sri Yukteswar | 7 | 38 | 42+14neg | ~18 | 13 | granulariteit | 0 |
+
+## 4. Gates — alle drie personen
+
+| gate | Babaji | Lahiri Mahasaya | Sri Yukteswar |
+|---|---|---|---|
+| CORPUS_COVERAGE_GATE | DEELS | DEELS | DEELS |
+| HOSTGRAPH_GATE | JA (Tak I) / DEELS (overig) | DEELS | DEELS |
+| DISCOVERY_GATE | DEELS, sterk verbeterd | DEELS, verbeterd | DEELS, verbeterd |
+| RECONCILIATION_GATE | PROVISIONEEL → **JA** | PROVISIONEEL → **JA** | PROVISIONEEL → **JA** |
+| EXTERNAL_MODEL_DIVERSITY_GATE | NEE → **JA** | NEE → **JA** | NEE → **JA** |
+
+Alle drie `SATURATED: NEE` — eerlijk, ongewijzigd. Print-only bronnen (Purana Purusha, Bidyananda,
+Satyananda's volledige biografie, diverse Haidakhan-tourregisters) blijven grotendeels
+ontoegankelijk.
+
+## 5. Canonieke Babaji-regel — bevestigd nageleefd
+
+`decisions/BABAJI_MYTHIC_FIGURE_EVIDENCE_RULE_2026-08-19.md` is toegepast en niet geschonden.
+IndiaROOD's eigen freeze past de drie-assen-scheiding (`TRADITION_CLAIM_DOCUMENTED` /
+`PHYSICAL_SITE_IDENTITY` / historische aanwezigheid `NIET_VASTSTELBAAR`) al structureel toe; deze
+delta bevestigt dat zonder wijziging.
+
+## 6. Bevestiging blindheidsgrenzen
+
+- Externe branch `agent/chatgpt-top11-parallel-sweep`: alleen gelezen, **niet gewijzigd/gemerged**.
+- IndiaROOD-branch `agent/indiarood-core-kriya-sweep`: alleen gelezen, **niet gewijzigd/gemerged**.
+- Geen nieuwe IndiaROOD- of ChatGPT-sweep gestart.
+- Ramana Maharshi/Ramakrishna: **niet gestart**.
+- Geen cluster/regio/heatmap, A/B/C, permanente IDs, PDF of route-werk verricht.
+- PR #24 niet aangeraakt.
+
+## 7. next_allowed_step
+
+CCI stopt na deze resultaatenvelop op PR #23 en wacht op INDIA-QA. Aanbevolen vervolgopties voor
+INDIA:
+1. Ramana Maharshi/Ramakrishna starten — de externe ChatGPT-freeze meldde deze twee al gereed op
+   `agent/chatgpt-top11-parallel-sweep` (RAMANA_MAHARSHI_PRE_COMPARE_FREEZE.md,
+   RAMAKRISHNA_PRE_COMPARE_FREEZE.md zijn al aanwezig op die branch); interne pre-external freezes
+   voor deze twee personen ontbreken nog.
+2. Het Lahiri-Mahasaya-Ranikhet-1861-vs-1868-conflict en het Bishnupur-1886-huwelijksconflict
+   gericht laten uitzoeken, indien relevant geacht.
+3. Satyananda's volledige Sri-Yukteswar-biografie (yoganiketan.net) via een andere technische route
+   proberen te bereiken (JS-reader-shell verhinderde deze taak directe tekstextractie).
+
+---
+Geschreven door: CCI. CCI_TASK 092.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1233 path=india5/templates/KNOWLEDGE_GATE_REVIEW_TEMPLATE.md blob_sha=d9d569101065a2f70e46fb5241ff005db3de69c7 original_offset=0 original_length=1783 payload_bytes=1783 chunk_index=0 chunk_count=1 classification=text
+# KNOWLEDGE_GATE_REVIEW — sjabloon
+
+Status: VERPLICHT vanaf 2026-08-02 (INDIA5-ARCH-HARDEN-002). Bij elke toekomstige
+kennis/capability-gate (vergelijkbaar met de eerdere prose-kennistoets op PR #23) levert de
+review zowel dit mensleesbare bestand als een machineleesbare `KNOWLEDGE_GATE_REVIEW.json`
+(schema: `india5/schemas/knowledge_gate.schema.json`) op.
+
+## Vaste onderwerpenlijst (minimaal, uit de eerdere kennistoets INDIA5-PR23-KNOWLEDGE-GATE-002)
+
+Elk onderwerp krijgt een verdict (`PASS`/`FAIL`/`PARTIAL`/`NOT_APPLICABLE`), een
+`evidence_path` (repo-pad + evt. commit-SHA, of letterlijk `NOT_PROVEN_IN_GITHUB`), en een
+korte toelichting:
+
+1. Mark's A/B/C-filosofie
+2. Immutable numbering
+3. Bestaande kandidatenlijst van de betrokken regio('s)
+4. Accommodatie-/hotelbesluiten (LOCKED_BY_MARK enz.)
+5. Discovery versus GEO-verificatie
+6. Detectorbibliotheek-governance
+7. Kandidaat-inflatie / differentiatietoets (WHY_THIS_ONE / WHY_NOT_THE_OTHERS)
+8. Koepelkandidaat versus deelsite
+9. Betekenis vóór GEO
+10. Geen stilzwijgende keuze / escalatieregels
+11. Saturation/coverage-bewijs
+12. Taakarchitectuur zelf (india5/TASK_PROTOCOL.md-naleving)
+
+## Eindoordeel
+
+`overall_verdict`: `READY` / `NOT_READY` / `READY_WITH_CONDITIONS`. Bij
+`READY_WITH_CONDITIONS`: expliciete, niet-lege lijst van voorwaarden.
+
+## Waarom dit sjabloon bestaat
+
+De eerdere kennistoets (comment 5159570769 op PR #23) was één lange prose-comment. Bruikbaar
+voor een eerste, uitgebreide beoordeling, maar niet herhaalbaar of machinaal vergelijkbaar over
+opeenvolgende gates heen. Dit sjabloon + schema maakt elke toekomstige gate-beoordeling
+diffbaar: item-voor-item vergelijkbaar met de vorige gate, in plaats van opnieuw een hele
+prose-tekst te moeten doorlezen om te zien wat er is veranderd.
+
+<<< END CHUNK >>>
+

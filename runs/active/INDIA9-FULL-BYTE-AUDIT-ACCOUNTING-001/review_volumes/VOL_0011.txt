@@ -1,0 +1,644 @@
+>>> CHUNK stream_row=148 path=runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/BODHGAYA_046_049_KEUZE_REISGIDS.pdf blob_sha=17b8b9d314af80e33e83f923612de0bc55b58268 original_offset=8192 original_length=4096 payload_bytes=5464 chunk_index=2 chunk_count=4 classification=binary
+WGwkUWA3J1ghQmJJMElVSVYtJG02PV5ROERMOmBJamk0cUdtPShEJC1GRXFcVWM1VlYyQXROJCk5LVIzMWQmXDtgYCtFUmRXTD5CP1JpImFIT0lWRD9ITlVzXUw/KjA4QzZbR0RbZCxCQW8nUFJNcDtiU0tqVz8/Qjw+J01YKFtLc1pxMD83WEFEQWVpbmc+dGw9TE5fWiRKW0VHSD9mXlVHc0c/blsjJkBaamwqam8kVWgsViQxMXU8Zkw1QUBiSSI9KDltXFhdbHNBa29ZMV4tPiJYT1lmI1IyXmsxZHUnUyFnMllTXykrYVhMRWhqQ1s7QDlJNmJaaT1FNGIrXUBUWWFSVU86Mmk+b2FRKWtnPGJfIVNbQlRiYjldJHJRU3FlYjopYWViPURELyVgXSJlR0VQKFNoRFhyXCY8PGw0NF5EX0Q8a3RPMjgyKSo8UytPWDAocypJRERcUCEkNnNrVlFycChYQ1trT29yLDQ4KjlzKCg5a0xGQWZWPGBJPmonTWIqL2BcLixHV2siY1BjaVg0bWsiNmAuR2EmLDklVFkzXzZbc2YraVY/WD5OMEspXDM4SlolJ05XRS1sPzV0VmJHPFArZ0ZmWzhaRzQqTE5FSlc3SS5vITooUCYlZDRCVFBEX3BAS01ZOy1wOTJ1bFZALCc+XEpXVmojM1U9JStJWz8jXD5LOlwoSU45PFxWa0lfYGloM1FnaTQyRTQpXW9PKEphTDtMb2snRHA3IUQ6KWtmQHRIKDl0aW5BJkBDZ3I/O1xENCtAP1BZN2lofj5lbmRzdHJlYW0KZW5kb2JqCjE5IDAgb2JqCjw8Ci9GaWx0ZXIgWyAvQVNDSUk4NURlY29kZSAvRmxhdGVEZWNvZGUgXSAvTGVuZ3RoIDEyOTYKPj4Kc3RyZWFtCkdhdG06PyNTSVUnUmZfWlw4UCJFPkxmJmwzQTNiVUdaaFljZmh1PXRKLGZVJWg4bHJLMTg/NzElSm8rLy1vbkhaMk48OEclVyUhNWo/NVgiZ2Q7OCtpdEhPbD1cVV9XZCMyNjUkOjdxTzpfN3QuL15BKEUpI1FIJFtaUWQjUm5VXzY1ZnFbUUsnP2cnSCRKXCJPJWhARSRHZ1ctK1NBVzllR1lpTXBUV3I4WGEyaGE7UWBZcllwRiMyPT0uJ0oocDBwUFNuWkxBUHVvZUMzR0Mmcyd0aSZgPnUiOXBYYEhDWD9FNzw8KU4/RzhTJG91aVo9SzQyVz48Pm5TQ0s+R2YhUDQ/TmpRWlYqLEVxa1clUjEoMkhDZE1BMU9NZFJuQDlDLm9rIVRINmtzSnBLWk8hJitkV1FURDNlbktlVj1tXzJGTDZOV1NkZy4jPSVCND9yQVZDJi51ZE9lXV8+JmlqLjg0WTdbJ21yLCViW2NORDJgP1U9N1taJyVhayc5WGE4Yi1cL2lvRCZEcSRtNzRkVVtxclQ1I1cwWypmLSxdc0pPWElvYCk/VU1YaFtOT0BJSWk2U2NGWEQnSUApJFMwX1taUHIpUSp0TnNIX29ELzdgIWpNbEJxITlVS3M6L1hVVWcuXF5vakk5c1lUQTVtSyFPXjkpVmNhWERIW0RNO2htLmBdYkhmbXVJYDgoYWBmUm1NV2AhPm4yJTBSWD0zUDB0O1BRTi5zdWRqXTt1WVRibWkmOU8+RmI5MUJzVy5ec2Y7MlpUU1doSlFCXiFzV1s7PnIhTk9GckVQXF0xdWtlQU47PkJyQT9EQTJQSSVXKEIsTlRvL1xOPTs2ZDAlOmtYSDAqYFUqJzNtXHErInFxPDU0YU9uKm4mJ0wyPiJbNDYtNUMtcEtmWihlSCcpWU1tYVM5Pk1EYyghVClhTWZoMUowVUZwJFslRmteUTJQLFlNVzRhO15gamtRNU0lOWdUaVZrPjsoJXJUJ2grI2dfKWdULDgub1poP2Y+PGJWSW80VzM9NDcvQmAxQl5iXEAkRFxgNVwoVldKJUxIJW9JbGNcSjUyXzdjJDFDbSpyQFlWazs8UFo5XCc1SzZnaUAsO0AnOUVmKjIhM0clPVciW3NAaT9zUWQhT0wlISRVcjsuPGwrPW9XIzM6O2o/RV1db1QpZnBWXl0/RjdkSVMuSCU+am9OS1xkJXFPQEVTbzRiNnBScFtkOmZPRmdtcCRBTiU/bGNxK0BdJDRnVikiI2xEK2YlUUMmKy5HJk4kcGNPM1pyUFZJOS5ydW9tLVF0KFVMPXA9OTpPJSNwQmgrS2g7TTZNIWczcEJlWFo4MU9lRShFU1NCVytzP09VRDFKQ0FtTFx1JUozTjwhMEAnaiZSbzw2SlI8aVIuOWxYK1pxa2wzaFdQPnEjaiZWMzo8cG5YKSM5YjY6STdKV11wXDJZMS5Ia0hdZmgvZWlTOTRYTjFpP3FIOzIxQydcWmdINUYuL1p1MU9BYGJoPEUhTnFOI19WXkRKaC9pJiFPW11qTTA4X1ZuR1NHaD5tKSlkbV4jXz0haylqNSoxZ0hZO1MwMSlyMF48NHUnRU9tZWohKyFHVCVOXzQzWHExTUtyL2hYP2JeOmFDQkg4MzErYyNJcWc1RyxcWC5WQ01ybT5pcjpGUUpPZSctLGZkQUU5WDU1QzEmJG5SViFfOFdgUkVVciEnU0ElWiV+PmVuZHN0cmVhbQplbmRvYmoKMjAgMCBvYmoKPDwKL0ZpbHRlciBbIC9BU0NJSTg1RGVjb2RlIC9GbGF0ZURlY29kZSBdIC9MZW5ndGggMjIxNQo+PgpzdHJlYW0KR2F0bTtnTk1TciZxMExVZTBDUT1BRElnRl1cLCokMVdhbDRDdVJJc0BdY145MjosVT5NJ1FKYExPQiFQZVdNVlhecWhDVFlxOmc0WS0sc05oJ0pbVUkha2dAWm08NkllKCZZK3EjVTAvakA9KVVySnUnVF5cSGorWTtQQFVOUkskQ1c+a2A7VD5pPjI2MHFgbzUuUTFJSXJAMEByWG9FZmBhSFtHPi5vcD5HQThyZDhTWi1ANm5adSpZNFVlPHFEN0VPaT0xOlZrTGNZP3BMJG9ZbDZdQmxQOGYxKGZGPnNxXG0/YVVyby1FMkZ0LSFLbmlhX01mVzZTRkZHQSVJWlpEWF9cOC04OkJnLVcrW1o+ZllmVyNENUYpQXVtP0UhT2xiazVZUy9rVlBkaC8mWnVYVk1ATEtpZk4+VjUwNVYlW0U/amU4OllEXVZMNmE4TmpTMjkzcj1dXXBPXE5hZWpzbEVrLEBFSD4hJERWJSUuKipuTjJGJEA0OFQvKWYzITMzIz8kPjFaKVplciw1TWpIUV85VyVWJUNmRz9FZzg9TjpJZywpM1NgWy9rQWApX1s2aGMxLjRvUjxuaVpDI011WTM7Ry9hUCppV2A6Z2xFV0ptLV4qKG9ndF00WyheVHBpQVwuc1lbT1BqV1FAOSJKLzxmcCUrKGpdXTchLXQvVmNQams7dGs9NjRWXihTNTxsXDBlQzNvLypJPmdRVD1INShMIjJ0MkhlKjp1dVlDJkEvXnEsPT45SzQ/QkspQ0tPTyxyXmcyXkRsNHVWMjYhR01gVDZnXTQoVXJscEMvamZyX2UyWzJCQmZAUT91JTlca0BYaD4zP1goQHNkOTkmLEhvcmBZRmdDNksjW1RxTjEzZ191QWhhJmBJQiUmXW0hYjNPJUUkQ3QlLjkoJl8+TW8qUFZVRWcvNzcxVzkyOGYnIk9vdWdNXCxKVFVUY2BUPENJTk06ZHB0ZklvXztMKW9nPCU+LzlKSC0ra0RdO0dnLWhbNSM7KVhzOnUkRE1iTiVuYnFPbVBwSGNHWVxuTUBjKi8uJHRSTU5LRzg4WXNoOlI2OU1aXiYxW0AqUksxWi1Ba3VQRE9ZTW9yXnRzITYzcztIS11HZjRbR2tpZ00lSCtjMyVWb05POnBUcWFjNiJmZTdTXlAhc2UxMzJPSVpSWDk7JkJkLiEvV2ldPCVqKi86UU9ddWVWNixcOTAoVihqcXBDc2UkXDlGdXEuN1QzSi8qJkF0TkhObU1MKFo0YzsqSkYlSCo1cC5QTDcuTjlyNjZrTEtXPHBiXSpray1bVUhjLzFPJWJrNicjKDlpcW8nTEhkQCFDKVRVKlEtNF42KEMnOjNIIXMrdTMhPTgwW0o+WWo6Pzk4X1ZXSEtHYCRYbT1TKnFoMmg4PGhATU10W2EvRT5WL0YqYS0uKlc1VXVuM21UaW1jaC5BLzBGajwsJDtuQjleaEZKOSs4WV4tbT1GR1VER1ptS1IoI20/VkpFQihDZyhiVUA4PzUhSFBXWGBtJGwwWSJxISs5KU4iVVJDXXBNMGdCNjRLYilJckVuLFo6OzEhX19ST3NCKyhWJDVSamQvJ2orQypiWV4qMlVcZkJZRm0tbGElWjtmdXNSN0VdJGt0cCtyXFRRNkhSIU9sSSMlYnQsWTpcNDZCMWlyVUhmMDxeYE8zXk5Lbzs/KGtya1tAakRVTmFkTzUqX1Bjaz9XbSlePiU+UUUrNT1JV142NXE/dHRHQWYnTzguNk1FJ2o5bl1YYSw9XHRHZkNNbFVSKkgkZ0UsXjQ/ImQ1clpBWCpITzVQPSRQLG9Bc2FcOXJxRlA0JDdpOy5ZNSVNQSE3JC4yVVokTTY2W0pCSV9CY1I7YichTDpWbjVXV0BwdVhjdWZAQ1UoZWRCa0tPTl9rZ14oaCovUj0zUSdZOWJgKCxzNW4vS1ZeXUpVXlBlISVNQF9bdU9WMylFVFhmUUBKYT84VyNbJDsjTjZTYDwwZVxFKS5dKERXJmNvW3BLJVU6TDpfJFJfX2stdXVbMmYxJEZFbDkpaDU9OjUvRnVXbEItJlAlKUByM1BtbkEqRzwxKUVrcWxlNG9IJCJDXEdqYCJsZmFpcklgK1IuMT0kKVpGJ1lwdTdOUjBURXJMbmdXPmBAbzYqU1dXTi9pRkBSX0Yyc1RKVlwyTlEnTkNVJ3E4KnR0PTVdJEcwMitBRE9zcWQzLylWQk5rbEkrTCJaVi5dbzo4MTBnLmNKV0hGXTduVlFDTkdLVXE+IltKa1lcNDVkV0kpb01eVCg4SVJuZk5fUjwoVVIqc21eJ25wWSlqRWIwYzNYK0RDJmdJXUgjRXVcMU0lK141N1RnUi88YGViLVA8dF8wLjoxOzpZR09lRiZSTkRzOTtRLVYxUi8rXC0hLXBaay9LUVleMGg3VyFITGBEa2wvLzhKU0QidF5URV89Y2NKR1F1OidkPU1jKls3cS85QSpGNC1AJFUlVTY/PVVqXW9bYF9JUSxfNVIkYnByIiZbJSdHXkJTO1dOUnVbQCZlS2lXV2xJZ2lZLyVWVVUjXmhoVDgzVTFDLFEzSkFLMC1ZKzM1Q0NVKnRmY21RNSkpJ0pYcGh1dG1yIzEmXm5DcWIxQDtaIzdXNSUiJ0FJSy9pVEEpRWdsN1BBKSFnK2AvKWNWTS8jTzBdRCVOYlNhNQ==
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=149 path=runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/BODHGAYA_046_049_KEUZE_REISGIDS.pdf blob_sha=17b8b9d314af80e33e83f923612de0bc55b58268 original_offset=12288 original_length=848 payload_bytes=1132 chunk_index=3 chunk_count=4 classification=binary
+M2xeWyk7b0wyNUEmLWBYJjk2dF44WGUjdE0wZENbVD1WI1ozVUsobi1AOkdyazwrMCUkS1JVclQ/bjNVVy1NOkFZcmFmLi9IRlAmXUEmb1VTVXFUbTFdKVxBOGhsUy4yWkZROyEjIlNxbylAcE9wXHQnJWxYLWlGa0dSMlpETF5xN29cRiowSVYtOUtoUFxDRXFxbnNTcjJOKSJuQCZvTVQ1R2FSV2YtSyc/REpEUTQmZ1IvXkZeXjpyImgmV2RvY34+ZW5kc3RyZWFtCmVuZG9iagp4cmVmCjAgMjEKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDYxIDAwMDAwIG4gCjAwMDAwMDAxMjIgMDAwMDAgbiAKMDAwMDAwMDIyOSAwMDAwMCBuIAowMDAwMDAwMzQxIDAwMDAwIG4gCjAwMDAwMDA1NDYgMDAwMDAgbiAKMDAwMDAwMDc1MSAwMDAwMCBuIAowMDAwMDAwODcwIDAwMDAwIG4gCjAwMDAwMDA5ODUgMDAwMDAgbiAKMDAwMDAwMTE5MCAwMDAwMCBuIAowMDAwMDAxMzk1IDAwMDAwIG4gCjAwMDAwMDE2MDEgMDAwMDAgbiAKMDAwMDAwMTgwNyAwMDAwMCBuIAowMDAwMDAxODc3IDAwMDAwIG4gCjAwMDAwMDIxODggMDAwMDAgbiAKMDAwMDAwMjI4MCAwMDAwMCBuIAowMDAwMDAyOTY2IDAwMDAwIG4gCjAwMDAwMDQyNjQgMDAwMDAgbiAKMDAwMDAwNjcwMiAwMDAwMCBuIAowMDAwMDA4ODA1IDAwMDAwIG4gCjAwMDAwMTAxOTMgMDAwMDAgbiAKdHJhaWxlcgo8PAovSUQgCls8NjNmNTBhMWY0ZGUxMGNhYThlMmUxMDM3ODU2MmYzMDE+PDYzZjUwYTFmNGRlMTBjYWE4ZTJlMTAzNzg1NjJmMzAxPl0KJSBSZXBvcnRMYWIgZ2VuZXJhdGVkIFBERiBkb2N1bWVudCAtLSBkaWdlc3QgKG9wZW5zb3VyY2UpCgovSW5mbyAxMyAwIFIKL1Jvb3QgMTIgMCBSCi9TaXplIDIxCj4+CnN0YXJ0eHJlZgoxMjUwMAolJUVPRgo=
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=150 path=runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/TASK.md blob_sha=17df1b72e46db070726d905fb1528ad3a8cecd3e original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# TASK — TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001
+
+```
+task_id: TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001
+cci_task: CCI_TASK 092
+issued_by: INDIA8
+issued_at: 2026-08-19
+target_branch: claude/werk-je-nu-of-niet-oa10y7
+state_on_issue: READY_FOR_CCI
+pdf_status: VERBODEN
+```
+
+## 1. Doel
+
+Sluit de nog open derde-detector-gate van CCI_TASK 088 door de drie reeds duurzaam gefreezede onafhankelijke IndiaROOD Core-Kriya-sweeps lossless te reconciliëren met de bestaande CCI_TASK 088-resultaten voor:
+
+1. Mahavatar Babaji
+2. Lahiri Mahasaya
+3. Sri Yukteswar
+
+Dit is GEEN nieuwe discovery-sweep. De drie IndiaROOD-freezes bestaan al en mogen niet opnieuw worden uitgevoerd.
+
+## 2. Verplichte input — exacte freezes
+
+Branch: `agent/indiarood-core-kriya-sweep`
+
+- Babaji
+  - commit: `f9e7e25bec3716687f5fd2562c119baf31ea22ef`
+  - file: `runs/active/TOP11-INDIAROOD-BLIND-SWEEP-001/BABAJI_INDIAROOD_FREEZE.md`
+- Lahiri Mahasaya
+  - commit: `fc8418b8785cdd22edd389f0a461586ce239ff17`
+  - file: `runs/active/TOP11-INDIAROOD-BLIND-SWEEP-001/LAHIRI_MAHASAYA_INDIAROOD_FREEZE.md`
+- Sri Yukteswar
+  - commit: `6f71180a1a4cf6666088ae450a6cedb13052552e`
+  - file: `runs/active/TOP11-INDIAROOD-BLIND-SWEEP-001/SRI_YUKTESWAR_INDIAROOD_FREEZE.md`
+
+Controleer vóór inhoudelijke vergelijking dat deze exacte commit/file-combinaties bestaan en leg de blob-SHA/integriteitscheck vast.
+
+Gebruik daarnaast volledig de bestaande CCI_TASK 088-output:
+
+- `runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/BABAJI_RECONCILIATION.md`
+- `runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/LAHIRI_MAHASAYA_RECONCILIATION.md`
+- `runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/SRI_YUKTESWAR_RECONCILIATION.md`
+- `runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl`
+- `runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/RECONCILIATION_RESULT.md`
+
+De interne pre-external freezes en externe ChatGPT-freezes die in 088 zijn gebruikt blijven onderdeel van de provenance; niet opnieuw vanaf nul onderzoeken.
+
+## 3. Canonieke Babaji-regel — HARD
+
+Lees vóór Babaji-reconciliatie:
+`decisions/BABAJI_MYTHIC_FIGURE_EVIDENCE_RULE_2026-08-19.md`.
+
+Voor ieder Babaji-record blijven de assen strikt gescheiden:
+- `TRADITION_CLAIM_DOCUMENTED`
+- `PHYSICAL_SITE_IDENTITY`
+- `HISTORICALLY_VERIFIED_BABAJI_PRESENCE: NIET_VASTSTELBAAR`
+
+Een IndiaROOD- of lineage-claim mag nooit worden opgewaardeerd tot historisch bewezen fysieke aanwezigheid van Babaji. Verschillende Babaji-identiteitstradities niet stil samenvoegen.
+
+## 4. Reconciliatiemethode
+
+Werk per persoon, met checkpointcommit na elke persoon.
+
+Voor ieder IndiaROOD-record bepaal minimaal:
+- `MATCH_EXISTING`
+- `INDIAROOD_MORE_GRANULAR`
+- `INDIAROOD_ONLY_CLAIM`
+- `CONFLICT`
+- `DUPLICATE_DIFFERENT_LABEL`
+- `NEGATIVE/CONTEXT_ONLY`
+- `UNRESOLVED`
+
+En omgekeerd: controleer welke bestaande 088-records/claims door IndiaROOD NIET zijn gevonden. Het doel is bidirectioneel detectorgedrag vastleggen, niet alleen IndiaROOD importeren.
+
+Voor iedere betekenisvolle IndiaROOD-only, 088-only of conflictclaim:
+1. verifieer rechtstreeks tegen de aangehaalde primaire/semi-primaire/lineage-bron waar praktisch mogelijk;
+2. label bronstatus (`VERIFIED_TRUE`, `VERIFIED_FALSE`, `PARTIALLY_TRUE`, `UNRESOLVED`, `BRON_GEBLOKKEERD`);
+3. corrigeer bestaande 088-output alleen met expliciete delta/provenance — geen stille overschrijving;
+4. registreer hallucinaties, naamcollisies, overmerges en locatie-identiteitsfouten expliciet.
+
+## 5. Verplichte output
+
+Maak:
+- `runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/BABAJI_INDIAROOD_DELTA.md`
+- `runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/LAHIRI_MAHASAYA_INDIAROOD_DELTA.md`
+- `runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/SRI_YUKTESWAR_INDIAROOD_DELTA.md`
+- `runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/INDIAROOD_DELTA_MATRIX.jsonl`
+- `runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/RECONCILIATION_RESULT.md`
+- `runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/STATUS.md`
+
+Werk daarnaast de relev
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=151 path=runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/TASK.md blob_sha=17df1b72e46db070726d905fb1528ad3a8cecd3e original_offset=4096 original_length=2056 payload_bytes=2056 chunk_index=1 chunk_count=2 classification=text
+ante status/governance duurzaam bij, minimaal:
+- `runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/STATUS.md`
+- `runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/STATUS.md`
+- `governance/INDIA_SESSION_START.md`
+
+## 6. Verplichte eindbeoordeling per persoon
+
+Rapporteer:
+- aantal bestaande 088-records/claims;
+- aantal IndiaROOD-records;
+- matches;
+- IndiaROOD-only;
+- 088-only;
+- more-granular;
+- conflicten;
+- rechtstreeks bevestigde correcties;
+- afgewezen claims/hallucinaties;
+- resterende bronblokkades;
+- actuele METHOD_V2-gates;
+- of `RECONCILIATION_GATE` nu van `PROVISIONEEL` naar `JA/DEELS/NEE` kan;
+- eerlijke saturationstatus.
+
+`SATURATED: JA` alleen wanneer alle vereiste gates aantoonbaar dicht zijn. Geen cosmetische JA.
+
+## 7. Checkpoints
+
+1. Babaji volledig afmaken + commit.
+2. Lahiri Mahasaya volledig afmaken + commit.
+3. Sri Yukteswar volledig afmaken + commit.
+4. Finale matrix/status/governance commit indien nodig.
+
+Bij contextverlies hervat vanaf het laatste duurzame checkpoint.
+
+## 8. NKB/Ram Dass
+
+CCI_TASK 091 is door INDIA8 inhoudelijk geaccepteerd als voldoende om door te gaan. Het open NKB-conflict over de exacte laatste-reisvolgorde/Mathura-tussenstop blijft geregistreerd maar blokkeert deze taak niet. Niet opnieuw onderzoeken binnen 092.
+
+## 9. Harde grenzen
+
+- Geen nieuwe IndiaROOD-sweep.
+- Geen nieuwe externe ChatGPT-sweep.
+- Geen Ramana Maharshi/Ramakrishna in deze taak.
+- Geen AOAY-brede vervolgsweep.
+- Geen cluster/regio/heatmap.
+- Geen A/B/C namens Mark.
+- Geen permanente IDs.
+- Geen PDF.
+- Geen route/nachten/vervoer.
+- Geen merge van externe branches of PR #24.
+
+## 10. Stopvoorwaarde
+
+Stop zodra alle drie IndiaROOD-freezes volledig bidirectioneel tegen CCI_TASK 088 zijn gereconcilieerd, betekenisvolle verschillen bronmatig zijn beoordeeld en de gates per persoon opnieuw zijn vastgesteld.
+
+Plaats daarna één PR #23-envelop met kop:
+`CCI_RESULT — CCI_TASK 092`
+
+Vermeld checkpointcommits, recorddelta's, correcties/hallucinaties, gate-uitkomst, resterende blockers en exact `next_allowed_step`.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=152 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/ALL_FINDINGS_LOCATION_MASTER_V0.md blob_sha=18f7c3a2f3047d16ab03c7e203a08c751378222a original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# ALL_FINDINGS LOCATION MASTER V0 — CONCRETE INGEST
+
+Date: 2026-08-20
+State: BUILDING__SOURCE_FAMILIES_INGEST_STARTED
+Coordinator: INDIA8
+
+This is not a shortlist and not Mark A/B/C. It is the concrete lossless master build.
+
+## FEED STATE
+- BLAUW AOAY/Yogananda: COMPLETE; 58 source records -> 58 candidate mappings; 0 silent drops.
+- TURQUOISE relation layer: COMPLETE; merge / same-site / parent-child / successor / ambiguous relations govern entity linking.
+- GEEL four-person: COMPLETE; composite findings physically split into micro-sites.
+- WIT Anandamayi/heritage: COMPLETE; canonical R1-R5 + access assigned.
+- ROOD Core Kriya: COMPLETE; 178 source records (146 claims + 32 negatives), 204 physical candidates, 58 splits; R1 31/R2 2/R3 34/R4 54/R5 25.
+- ZILVER: COMPLETE_CURRENT_GLOBAL_FEEDS__READY_FOR_CENTRAL_MASTER; permanent canon 001-081 protected; final new-ID/proximity/review staging available.
+
+## INGESTED CONCRETE FAMILY A — AOAY / YOGANANDA
+Authoritative source: BLAUW `AOAY_YOGANANDA_ENTITY_CANDIDATES.jsonl` + source records.
+Accounting target: 58/58.
+
+The following 58 task-local physical candidate handles are admitted to master ingest without filtering:
+AYC-ENT-001 Gorakhpur childhood family compound [R4]
+AYC-ENT-002 Bareilly family bungalow/piazza/sheoli-tree micro-site [R5]
+AYC-ENT-003 4 Garpar Road / linked YSS Garpar Road centre [R2]
+AYC-ENT-004 Barddhaman Junction [R2]
+AYC-ENT-005 Pt. Deen Dayal Upadhyaya Junction / Mughalsarai [R2]
+AYC-ENT-006 Bareilly Junction [R2]
+AYC-ENT-007 Haridwar Junction [R2]
+AYC-ENT-008 Hardwar station police/station bungalow [R5]
+AYC-ENT-009 Rishikesh intended destination [NEGATIVE_NOT_VISITED; R5]
+AYC-ENT-010 Pranabananda residence, Benares [R5]
+AYC-ENT-011 scriptural authority home/courtyard, Benares [R5]
+AYC-ENT-012 Sri Yukteswar temporary house, Rana Mahal zone [R3]
+AYC-ENT-013 Nagendra Math / Bhaduri Mahasaya house successor [R2]
+AYC-ENT-014 Acharya Bhavan / Sir J.C. Bose Trust [R1]
+AYC-ENT-015 Dakshineswar Kali Temple [R1]
+AYC-ENT-016 50 Amherst Street heritage site [R3]
+AYC-ENT-017 Bhowanipore Anandamayi Ma encounter point [R5]
+AYC-ENT-018 Sri Yukteswar Smriti Mandir / Rai Ghat Lane site [R2]
+AYC-ENT-019 Anandaloka / uncle Sarada Prasad Ghosh home [R2]
+AYC-ENT-020 Serampore railway station [R1]
+AYC-ENT-021 Vrindavan railway station [R2]
+AYC-ENT-022 Madan Mohan Temple, Vrindavan [R1]
+AYC-ENT-023 Kriya-initiation secluded spot near Vrindavan station [R5]
+AYC-ENT-024 Katayani Peith Ashram historic building claim [R4]
+AYC-ENT-025 Ananta bungalow, Agra [R5]
+AYC-ENT-026 Taj Mahal, Agra [R1]
+AYC-ENT-027 YSS Ranchi Ashram/school site [R1]
+AYC-ENT-028 YSS Dihika retreat/heritage continuity [R2]
+AYC-ENT-029 Karar Ashram, Puri [R1]
+AYC-ENT-030 Santiniketan Tagore meeting/study-room claim [R3]
+AYC-ENT-031 Wardha Junction [R1]
+AYC-ENT-032 Maganvadi guesthouse claim [R3]
+AYC-ENT-033 Gandhi writing-room claim, Maganvadi [R3]
+AYC-ENT-034 Mumbai Harbour arrival landscape [R5]
+AYC-ENT-035 Taj Mahal Palace, Mumbai [R1]
+AYC-ENT-036 1936 Regent Hotel Bombay / current same-name candidate [R4; DO_NOT_COLLAPSE]
+AYC-ENT-037 C. V. Rangacharlu Memorial Hall / Mysore Town Hall [R1]
+AYC-ENT-038 Maharaja's College, Mysuru [R1]
+AYC-ENT-039 Mysore Medical College historic campus [R2]
+AYC-ENT-040 National High School, Bengaluru [R3]
+AYC-ENT-041 Intermediate College, Bangalore [R5]
+AYC-ENT-042 Sir Puttanna Chetty Town Hall, Bengaluru [R2]
+AYC-ENT-043 Sri Chamundeshwari Temple, Chamundi Hill [R1]
+AYC-ENT-044 Krishna Raja Sagara Dam [R1]
+AYC-ENT-045 Brindavan Gardens [R1]
+AYC-ENT-046 Yuvaraja summer palace, Mysore [R5]
+AYC-ENT-047 Srinagar double-storey inn [R5]
+AYC-ENT-048 Shankaracharya Temple, Srinagar [R1]
+AYC-ENT-049 Gulmarg [R1]
+AYC-ENT-050 Khilanmarg excursion landscape [R3]
+AYC-ENT-051 Shalimar Bagh, Srinagar [R1]
+AYC-ENT-052 Nishat Bagh, Srinagar [R1]
+AYC-ENT-053 Dal Lake channels/floating gardens [R3]
+AYC-ENT-054 Shimla personal stop [R4]
+AYC-ENT-055 Lambadar Dey host location, Purulia [R5]
+AYC-ENT-056 Giri Bala two-storey house, Biur [R4]
+AYC-ENT-057 1936 Allahabad Kumbh Mela grounds [R4]
+AYC-E
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=153 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/ALL_FINDINGS_LOCATION_MASTER_V0.md blob_sha=18f7c3a2f3047d16ab03c7e203a08c751378222a original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+NT-058 Satish Chandra Bose residence, Delhi [R5]
+
+AOAY family ingest accounting: 58 candidate handles present / expected 58. No filter applied.
+
+## INGESTED CONCRETE FAMILY B — CORE KRIYA STRUCTURE
+ROOD master admission is source-key first. All 146 primary claim anchors remain traceable and all 58 extra physical splits are admitted separately; negatives remain accounting rows, not travel entities.
+
+High-risk split entities already admitted as distinct master objects include:
+- DUNAGIRI-1861::CAVEFIELD [R3 landscape]
+- DUNAGIRI-1861::UNNAMED-INITIATION-CAVE [R5]
+- DUNAGIRI-YSS::PANDUKHOLI-CAVE [R1 current claimant; NOT automatically same as 1861 cave]
+- DUNAGIRI-GAGAS::RIVER-SYSTEM [R3]
+- DUNAGIRI-GOLDEN-PALACE::EPHEMERAL [R5]
+- PRAYAG-1894::HISTORIC-MELA-ZONE [R3]
+- PRAYAG-1894::BRIDGE [R5]
+- PRAYAG-1894::TREE-AOAY [R5]
+- PRAYAG-1894::YOGI-SATYAM-BANYAN [R1 current claimant; NOT silently same historic tree]
+- DASHASHWAMEDH::GHAT [R1]
+- DASHASHWAMEDH::MATAJI-CAVE [R5 hidden micro-site]
+- RAI-GHAT::BANYAN [current claimant micro-site]
+
+ROOD accounting guard: 178 source records retained; 204 physical candidates retained; 32 negatives retained as accounting dispositions; Babaji claimant traditions remain separate.
+
+## INGESTED CONCRETE FAMILY C — GEEL FOUR-PERSON MICRO-SITES
+GEEL entities are admitted individually. Explicit anti-collapse examples already in master:
+- NKB Neeb Karori cave vs Hanuman temple vs station/platform.
+- Hanumangarh temple vs Baba hut/kuti.
+- Bhumiadhar temple/ashram vs Baba room vs Ram Dass first-meeting terrace/field.
+- Kainchi original rock/platform, Maharajji room, Hanuman temple/courtyard, bridge, Ram Dass 1967 room, river bathing point, fire-ceremony zone, cold hut/village, 2004 room and Maharajji back room remain separate.
+- Hotel Evelyn parent hotel [R1], top-floor cave room [R4], patio/balcony [R3] remain separate.
+- K.K. Sah Nainital home [R4] retained.
+- 4 Church Lane parent [R1], Maharajji room [R2], hall [R3], veranda [R3], kitchen [R3], front/bathroom area [R4] remain separate.
+- NKB final-journey Agra houses/clinic/station and Mathura/Vrindavan medical/transit micro-sites remain separate.
+- Ramana Virupaksha Cave and Mango Tree Cave remain separate; Ramanasramam microsites remain children, not duplicates.
+- Ramakrishna Fouzdar Kunj building/room/veranda, Ganga Mata hut vs later dharamshala, Mani Sen house vs Radhakanta temple, Cossipore house/room/cremation-ghat remain separate.
+
+## INGESTED CONCRETE FAMILY D — WIT ANANDAMAYI / HERITAGE
+Representative admitted rows, with all source IDs retained in authoritative WIT file:
+- Bhadaini Anandamayi Ashram, Varanasi [R1, PUBLIC_OPEN, overnight room-booking signal]
+- Pandey Dharamshala, Varanasi [R5]
+- Kunja Mohan Babu house, Varanasi [R4]
+- Burdwan/Vardhaman Kunj, Vrindavan [R2, permission possible]
+- Anandamayi Ashram Vrindavan [R1]
+- Bhola Giri/Giriji Ashram, Kankhal [R5]
+- Kankhal Anandamayi Ashram [R1, current stay by booking]
+- Matri Smriti Museum bungalow [R1, preserved historic bedroom/kitchen; museum, NOT overnight]
+- Anandamayee International Centre, Kankhal [R1 current accommodation, NOT historic sleep room]
+- Baghat House, Haridwar [R5]
+- Shanti Niketan / Nitai Basu Mallick residence, Kankhal [R3]
+- Jaipuria House Ramghat, Haridwar [R4]
+- Kishenpur, Kalyanvan, Raipur and Sadhan Ashram in Dehradun [R1 current institutions]
+- Patal Devi Ashram, Almora [R1]
+- Dhaulchina Ashram [R1, limited/restricted stay context]
+- Anandamayi Ashram Swargadwar, Puri [R1]
+- Karar Ashram Anandamayi claim remains R5 even though site itself is exact for other persons.
+- Ratu Palace [R1 historic palace identity; access uncertain]
+- Raj Bhavan Chennai and Bhubaneswar [R1 institution; restricted]
+- M.S. Subbulakshmi/T. Sadasivam residence + purpose-built lawn hut [R5]
+
+No route deprioritization deletes East/South WIT rows.
+
+## ZILVER PROTECTIVE OVERLAY
+Final status is `COMPLETE_CURRENT_GLOBAL_FEEDS__READY_FOR_CENTRAL_MASTER`.
+- Existing permanent IDs 001-081 immutable.
+- No existing A/B/C/lock changed.
+- No definitive new permanent ID issued yet.
+- 16 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=154 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/ALL_FINDINGS_LOCATION_MASTER_V0.md blob_sha=18f7c3a2f3047d16ab03c7e203a08c751378222a original_offset=8192 original_length=835 payload_bytes=835 chunk_index=2 chunk_count=3 classification=text
+trustworthy numeric pair calculations; 7 tight pairs: 4 <=1km + 3 additional <=3km.
+- Rana Mahal Ghat -> 019 Kedareshwar/Kedar Ghat = 0.895 km.
+- Rana Mahal Ghat -> 018 Sankatha Devi = 1.285 km.
+- 012 B, 013 B, 026 C, 027 C, 040 C remain only POTENTIAL_REVIEW_FOR_UPGRADE_AFTER_COORD_CONFIRMATION.
+
+## NEXT BUILD ACTION ALREADY ACTIVE
+1. Expand every GEEL/WIT/ROOD authoritative candidate row into source->entity master accounting, not merely the representative rows above.
+2. Apply TURQUOISE relation map mechanically: duplicate != parent-child != successor != ambiguous.
+3. Attach canon 001-081 and ZILVER NEW_ID_REQUIRED staging.
+4. Close accounting equation before any Mark A/B/C request.
+5. CCI independently QA-checks silent drops and false collapses in parallel.
+
+No cluster is declared Mark-ready merely because this V0 exists.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=155 path=runs/active/TOP11-INDIAGEEL-BLIND-SWEEP-001/STATUS.md blob_sha=19a8f6b01a90108b5d453d2dad335d98d9efb850 original_offset=0 original_length=901 payload_bytes=901 chunk_index=0 chunk_count=1 classification=text
+# STATUS — TOP11-INDIAGEEL-BLIND-SWEEP-001
+
+```
+task_id: TOP11-INDIAGEEL-BLIND-SWEEP-001
+state: READY_FOR_INDIAGEEL
+owner: INDIA GEEL
+issued_by: INDIA8
+issued_at: 2026-08-19
+target_branch_for_output: agent/indiageel-ramana-ramakrishna-sweep
+```
+
+## Volgorde
+1. Ramana Maharshi — READY
+2. Ramakrishna — QUEUED, pas starten nadat Ramana duurzaam is gecommit
+
+## Blindheidsregel
+Lees vóór PRE-COMPARE-freeze uitsluitend `TASK.md`, dit `STATUS.md` en zelfgevonden openbare externe bronnen. PR #23, bestaande persoonsatlassen, CCI-resultaten en andere detectorbranches zijn verboden tot na beide freezes en worden ook daarna niet zonder nieuwe INDIA8-opdracht geopend.
+
+## next_allowed_step
+INDIA GEEL leest `TASK.md`, maakt indien nodig eigen branch `agent/indiageel-ramana-ramakrishna-sweep`, en start direct Ramana Maharshi. Commit onmiddellijk na Ramana en werk STATUS bij; daarna Ramakrishna.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=156 path=runs/active/KUMAON-V2-RESWEEP-001/RECONCILIATION.md blob_sha=1a49d19ade96dad09ab67832ab626459ecb16816 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# RECONCILIATION — KUMAON-V2-RESWEEP-001 (poort R)
+
+```
+task_id: KUMAON-V2-RESWEEP-001
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-14
+inputs:
+  - eigen Sweep A: runs/active/KUMAON-V2-RESWEEP-001/RESULT.md (8 temp-ID's, KUM-SWEEP-A-001..008)
+  - INDIA Sweep B: runs/active/KUMAON-V2-RESWEEP-001/INDIA_SWEEP_B.md op branch
+    india/kumaon-v2-sweep-b-001, freeze-commit 41bd4a7caebe83e44b9ee2470ecf1212d5111d9e
+    (45 temp-ID's, KB2-001..045)
+  - legacy: branch controller/kumaon-complete-001-ready-for-zilver-20260719
+    (KUMAON_CANDIDATES.md, CLUSTER_LOCATIONS.md #1-46, LOCKED_A/B/C.md,
+    places/PLACE-0001-babaji-cave-dunagiri.md, decisions/DECISION-0001,
+    DECISION-0002, DECISION-0013)
+  - deep-research audit: research/deep-research/MAHAVATAR-BABAJI-CAVE-A.md +
+    KUMAON-DEEP-RESEARCH-STATE.md (behandeld als extra gatendetector, geen
+    zelfstandige bron -- elke claim daaruit hieronder apart geverifieerd)
+```
+
+## LEESVOLGORDE ZOALS UITGEVOERD
+
+Eigen Sweep A geopend -> frozen Sweep B geopend en vergeleken met Sweep A -> pas daarna legacy
+KUMAON-COMPLETE-001 geopend als benchmark, conform de voorgeschreven volgorde in bericht 077 en
+`KUMAON-DEEP-RESEARCH-STATE.md`.
+
+## KERNRESULTAAT — MAHAVATAR BABAJI-GROT, DEFINITIEF GERECONCILIEERD
+
+**Drie onafhankelijke processen identificeren dezelfde fysieke plek:**
+
+| Bron | ID | Omschrijving |
+|---|---|---|
+| CCI Sweep A | `KUM-SWEEP-A-001` | Grot op Dunagiri-berg, Kukuchina, nabij Dwarahat/Ranikhet |
+| INDIA Sweep B | `KB2-001` | Mahavatar Babaji's Cave, Pandukholi/Kukuchina, ~25 km van Dwarahat |
+| Legacy (2026-06/07) | `#15` / `PLACE-0001` | Grot op Dunagiri-berg boven Kukuchina, ~25 km van Dwarahat |
+
+Alle drie citeren dezelfde kernbron (AOAY hoofdstuk 34, Lahiri Mahasaya's initiatie door Babaji in
+1861) en dezelfde moderne identificatie via de Yogoda Satsanga Society (Babaji Smriti Bhavan op de
+inwijdingsplek). Dit is geen toevallige overeenkomst maar drievoudige onafhankelijke bevestiging.
+
+**Mark-besluit, dubbel bevestigd:**
+- **Legacy** (`LOCKED_A.md #15`, vóór vandaag): al A, zonder enige aanleiding vanuit dit gesprek.
+- **Vandaag**, rechtstreeks in chat, buiten protocol-volgorde: “Ik weet het. Die grot is bijna
+  reden 1 voor me om naar India te gaan. A dus.”
+
+Twee onafhankelijke Mark-beslissingen, dezelfde uitkomst. Geen `MARK_BESLUIT_CONFLICT` —
+maximale consistentie.
+
+**Permanent nummer**: `079` (volgend op Bodh Gaya's laatste nummer 078 in de huidige,
+geldende globale nummering van dit project). Legacy's eigen nummering (`CLUSTER_LOCATIONS.md`
+#1-46, sequentieel binnen die eerdere projectopzet) en de nooit-toegepaste
+`LOCATION_ID`-clusterblokken uit `DECISION-0013` (300-399/400-499 voor latere clusters) zijn twee
+ANDERE, onderling incompatibele schema's uit een eerdere architectuur van dit project en worden
+niet hergebruikt — 079 volgt de huidige, doorlopende globale nummering.
+
+**Correctie op een aanname uit `research/deep-research/MAHAVATAR-BABAJI-CAVE-A.md`**: het
+vermoeden “LOCATION_ID 400” was een redelijke, met reden onderbouwde gok (Kumaon zou na Braj
+(200-299) logisch in het 300-399- of 400-499-blok vallen volgens `DECISION-0013`), maar dat
+schema is voor Kumaon in de legacy-run NOOIT daadwerkelijk toegepast — `PLACE-0001` heeft geen
+`LOCATION_ID`-veld ingevuld gekregen (de run stopte vóór de GOUD/geo-fase). Niet overgenomen als
+feit.
+
+**Coördinaten**: nog open. Legacy `PLACE-0001` had `coordinates: ""` (nooit ingevuld, run bereikte
+de GOUD-fase niet). Noch Sweep A noch Sweep B leverde exacte WGS84-coördinaten. Dit is de
+concrete `NEXT_ALLOWED_STEP` voor deze locatie, niet een blocker voor de A-status zelf.
+
+**Identiteitsdiscipline bevestigd, geen wijziging nodig**: alle drie processen houden onafhankelijk
+van elkaar de Babaji-grot gescheiden van Babaji Smriti Bhavan (de schrijn, niet de grot zelf),
+Dunagiri Tempel (aparte Shakti/Durga-tempel), en Haidakhan Vishwa Mahadham (aparte, levende
+traditie, waarvan de Babaji-identificatie expliciet als traditieclaim behandeld wordt, niet als
+feit). Geen actie nodig, drievoudige consistentie.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=157 path=runs/active/KUMAON-V2-RESWEEP-001/RECONCILIATION.md blob_sha=1a49d19ade96dad09ab67832ab626459ecb16816 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+
+## NIEUW_INTERSECT_OUD (Sweep A/B vinden opnieuw wat legacy al had)
+
+| Cluster/plek | Sweep A/B temp-ID('s) | Legacy | Opmerking |
+|---|---|---|---|
+| Babaji-grot | KUM-SWEEP-A-001 / KB2-001 | #15, LOCKED A | zie hierboven, nu 079 |
+| Kainchi Dham | KUM-SWEEP-A-002 / KB2-008 | #19, LOCKED A | drievoudig bevestigd |
+| Kasar Devi-grot/tempel | KUM-SWEEP-A-003 / KB2-033 | #20, LOCKED A | drievoudig bevestigd |
+| Hanuman Garhi, Nainital | KB2-010 | #24, LOCKED A | Sweep B + legacy, niet in Sweep A |
+| Jageshwar-tempelcomplex | KUM-SWEEP-A-007 / KB2-043 | #23, LOCKED A | drievoudig bevestigd |
+| Chitai Golu Devta Temple | KB2-045 | #30, LOCKED A | Sweep B + legacy |
+| Ramakrishna Kutir, Almora | KB2-025 (out-of-scope in Sweep A) | #29, LOCKED A | alle drie: institutioneel, geen persoonlijke Ramakrishna-locatie |
+| Haidakhan Vishwa Mahadham | KUM-SWEEP-A-005 / KB2-041 | #46, LOCKED A (DECISION-0001) | drievoudig bevestigd; Babaji-identificatie in alle drie behandeld als traditieclaim, niet feit |
+| Bhumiyadhar (Ram Dass/NKB eerste ontmoeting) | KB2-009 (als "Bhumiadhar") | #27, LOCKED A (DECISION-0002) | zie BRON_CONFLICTEN hieronder — legacy lost Sweep B's identiteitsvraag op |
+| Anandamayi Ashram, Patal Devi (Almora) | KUM-SWEEP-A-004 / KB2-017 | genoemd in CLUSTER_LOCATIONS-context (Almora-cluster), geen los nummer in LOCKED_A gezien | grotendeels bevestigd, exacte legacy-A-status voor dit specifieke sub-adres nog na te lopen |
+| Lala Badri Sah's House | KB2-032 | #35, CLUSTER_LOCATIONS ("verbleef hier 1890 en 1897") | Sweep B + legacy; legacy-A-status voor #35 niet expliciet in LOCKED_A gezien, wel in neutrale inventaris |
+
+## NIEUW_MIN_OUD (Sweep A/B vinden dingen die legacy niet had)
+
+Vooral een groot, gedetailleerd Vivekananda-circuit uit Sweep B, gebaseerd op de officiële
+Ramakrishna Kutir "three-visits"-pagina, die legacy destijds niet zo diep uitgewerkt had:
+Kathgodam Railway Station (KB2-020), Kakrighat Jnana Vriksha (KB2-022, legacy had wel Kakrighat
+zelf als #22 maar niet deze specifieke boom-/realisatieplek uitgesplitst), Vivekananda Shila/
+Karbala (KB2-023), Lodhia-ontvangstzone/Vivekananda Dwar (KB2-024), Thompson House (KB2-026),
+English Club (KB2-027), Oakley House/Nivedita Cottage (KB2-028), Government Inter College
+(KB2-029), Amba Dutt's Garden (KB2-030), Raghunath Temple (KB2-031), Dewaldhar Estate (KB2-034),
+Syahi Devi (KB2-035), Mornaula Dak Bungalow (KB2-036), Binsar Dak Bungalow (KB2-037), Mayavati
+Advaita Ashrama (KB2-038). Ook nieuw: Yogoda Satsanga-meditatiecentra in Nainital/Kathgodam
+(KB2-006/007, institutioneel YSS, geen persoonlijk Yogananda-bezoek), en Anandamayi Ma's Naina
+Devi Temple/Nanda Devi Temple/Mirtola-ontmoeting (KB2-014/016/019).
+
+Dit is substantieel nieuw materiaal, met name voor Vivekananda. Nog GEEN identity-check tegen
+legacy CLUSTER_LOCATIONS-nummers uitgevoerd voor elk afzonderlijk punt — expliciet als openstaand
+vermeld, niet stilzwijgend als "nieuw" gepromoveerd zonder verdere check.
+
+## OUD_MIN_NIEUW (legacy had dingen die beide nieuwe sweeps misten)
+
+- **Turiya Niwas** (#36, LOCKED A) — huis van Alfred "Sunyata" Sorensen op Crank's Ridge, nu
+  homestay; tevens CLUSTER_ANCHOR. Niet gevonden in Sweep A of Sweep B — moet fysiek/inhoudelijk
+  opnieuw geverifieerd worden conform TASK.md (niet automatisch verwijderen).
+- **Bodh Ashram** (#37, LOCKED A) — voormalig landgoed Evans-Wentz/Lama Govinda, bezocht door
+  Anandamayi Ma en Neem Karoli Baba, Beats bezochten Govinda hier. Niet gevonden in Sweep A of B
+  — zelfde behandeling.
+- **Ghorakhal Temple** (LOCKED_B, Golu Devta) — niet gevonden in Sweep A/B; status B (niet
+  bezoeken tenzij tijd het toelaat), dus lagere prioriteit voor heropening maar wel vastgelegd.
+- **Mirtola/Krishnaprem Ashram** (#31), **Binsar Wildlife Sanctuary** (#32), **Patal Bhuvaneshwar**
+  (#33), **Dhaulchina Ashram** (#38) — alle vier legacy `LOCKED_C` (bewust afgewezen door Mark).
+  Sweep A vond zelfstandig Patal Bhuvaneshwar (KUM-SWEEP-A-006) en Dhaulchina (binnen
+  KUM-SWEEP-A-004) opnieuw als kandidaat zonder de bestaande C-status te
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=158 path=runs/active/KUMAON-V2-RESWEEP-001/RECONCILIATION.md blob_sha=1a49d19ade96dad09ab67832ab626459ecb16816 original_offset=8192 original_length=3267 payload_bytes=3267 chunk_index=2 chunk_count=3 classification=text
+ kennen (blindheidsregel
+  correct toegepast) — dit is GEEN fout van Sweep A, maar betekent wel: deze twee mogen NIET
+  stilzwijgend als open kandidaat blijven staan. Mark heeft ze al eerder bewust afgewezen. Status
+  C blijft van kracht, niet opnieuw aan Mark voorleggen tenzij nieuw doorslaggevend bewijs
+  opduikt dat het eerdere C-besluit zelf ter discussie stelt — dat is hier niet het geval.
+
+## BRON_CONFLICTEN
+
+- **Bhumiadhar (NKB) vs Bhumiya Dhara (Anandamayi Ma)** — Sweep B (`INDIA_SWEEP_B.md`) markeerde dit
+  expliciet als onopgeloste identiteitsvraag tussen twee mogelijk verschillende plekken met
+  gelijkende namen. Legacy lost dit gedeeltelijk op: `#27 Bhumiyadhar` is in `DECISION-0002`
+  specifiek vastgelegd als de plek van Ram Dass' EERSTE ontmoeting met Maharaj-ji in 1967, apart
+  van Kainchi Dham zelf (#19). Dit bevestigt dat er minstens één specifieke, aparte
+  "Bhumiyadhar"-locatie is voor de NKB/Ram Dass-context. Of dit dezelfde plek is als de
+  "Bhumiya Dhara" die Sweep B aan Anandamayi Ma koppelt (vier mijl van Naina Temple) is
+  NIET bevestigd of ontkracht door legacy-data — blijft een echt openstaand identiteitspunt,
+  nu wel scherper geformuleerd dan voorheen.
+- **Haidakhan Baba = Mahavatar Babaji?** — geen conflict: Sweep A, Sweep B en legacy zijn het er
+  alle drie mee eens dat dit een traditie-eigen claim is, geen bevestigd feit. Consistente
+  drievoudige voorzichtigheid.
+
+## MARK_BESLUIT_CONFLICTEN
+
+Geen. Het enige punt waar een vers Mark-besluit een legacy-A-besluit raakt (de Babaji-grot) is
+volledig consistent: A toen, A nu, zelfde reden. Geen van de overige legacy A/B/C-besluiten wordt
+door Sweep A- of Sweep B-bevindingen in twijfel getrokken.
+
+## GEEN ACTIE / STATUS ONVERANDERD
+
+Alle overige legacy `LOCKED_A`/`LOCKED_B`/`LOCKED_C`-besluiten (Bodh Gaya-, Varanasi-, Agra- en
+Vrindavan-vermeldingen in dezelfde bestanden) vallen buiten deze Kumaon-taak en zijn niet geraakt.
+
+## PERMANENTE TOEKENNING DEZE RONDE
+
+Alleen de Babaji-grot krijgt nu een permanent nummer (079) — dit is de enige kandidaat met de
+combinatie van drievoudige fysieke-identiteitsbevestiging + expliciet, herhaald Mark-besluit die
+een veilige toekenning rechtvaardigt zonder verder identity-onderzoek. De overige 7
+Sweep-A-tijdelijke ID's en 44 resterende Sweep-B-tijdelijke ID's blijven tijdelijk; zie
+NIEUW_INTERSECT_OUD/NIEUW_MIN_OUD/OUD_MIN_NIEUW hierboven voor de stand per cluster.
+
+## NEXT_ALLOWED_STEP
+
+1. WGS84-coördinaten voor locatie 079 (Babaji-grot) verifiëren — nog nooit gedaan, ook niet in
+   legacy.
+2. Bhumiadhar/Bhumiya Dhara-identiteit verder uitzoeken (NKB vs Anandamayi Ma, mogelijk twee
+   verschillende plekken met gelijkende naam).
+3. Turiya Niwas en Bodh Ashram (legacy #36/#37) fysiek/inhoudelijk heropenen en bevestigen of
+   afwijzen — gemist door beide nieuwe sweeps.
+4. Voor de overige Sweep-B-Vivekananda-circuitpunten (NIEUW_MIN_OUD): per punt een identity-check
+   tegen bestaande legacy-nummers, vóór verdere permanente toekenning.
+5. Geen PDF, geen route, geen A/B/C-voorspelling voor andere locaties dan de Babaji-grot.
+
+---
+Geschreven door: CCI. Eén permanent nummer toegekend (079, Babaji-grot, A, LOCKED_BY_MARK). Geen
+PDF, geen route. `PDF_STATUS: VERBODEN` gerespecteerd.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=159 path=governance/EXTERNAL_AI_PROMPT_RULES.md blob_sha=1a5fb1529427ebe6848af9a527913b5783fb13a2 original_offset=0 original_length=1345 payload_bytes=1345 chunk_index=0 chunk_count=1 classification=text
+# EXTERNAL_AI_PROMPT_RULES — canoniek
+
+Datum: 2026-08-16
+
+## Mark-regel: externe-AI-vragen altijd kopieerbaar blok
+
+Wanneer INDIA/ChatGPT Mark tekst geeft die hij in een andere AI, andere chat, Claude Code, DeepSeek, Gemini, Claude, of een andere externe onderzoekssessie moet plakken:
+
+1. Geef de volledige te kopiëren opdracht altijd in **één los fenced code block** (monospace), zodat de ChatGPT-interface een kopieerknop toont.
+2. Zet geen noodzakelijke opdrachttekst buiten dat blok.
+3. Als er meerdere aparte opdrachten nodig zijn, geef iedere opdracht in een eigen los code block.
+4. Vermijd samengestelde proza-instructies waarbij Mark handmatig delen moet selecteren.
+5. De tekst in het blok moet zelfstandig begrijpelijk zijn en niet afhankelijk zijn van omliggende uitleg.
+6. Dit geldt ook voor éénregelige startvragen en relay-opdrachten.
+
+Doel: minimale handmatige handelingen op iPhone en nul twijfel over welk deel gekopieerd moet worden.
+
+## Onderzoeksbenchmark-regel
+
+Voor externe onafhankelijke recall-tests geldt bovendien:
+- geef de andere AI geen CCI-kandidatenlijst of bekende misses vóór discovery;
+- laat de externe AI eerst zelf een lijst freezen;
+- vergelijk pas daarna met CCI/INDIA/legacy;
+- alle claims die alleen extern worden gevonden moeten bronmatig worden geverifieerd vóór ze als echte miss tellen.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=160 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/INPUT/candidates.jsonl blob_sha=1b015549c66a08e3821365e94a5295e2e4ac9321 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=5 classification=text
+{"candidate_id":"VNS-CAND-001","canonical_name":"Lahiri Mahasaya Samadhi / Satyalok","recognition_hook":"Lahiri Mahasaya-samadhi en meditatietempel","cluster":"KRIYA_BENGALI_TOLA","place_type":"SAMADHI_MEDITATION","formal_status_preserved":"A","physical_identity":"ESTABLISHED","latitude":25.3028,"longitude":83.0074,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-008","VS-014"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-002","canonical_name":"Lahiri Mahasaya original home","recognition_hook":"woonhuis van Lahiri Mahasaya","cluster":"KRIYA_BENGALI_TOLA","place_type":"HISTORIC_HOME","formal_status_preserved":"A","physical_identity":"ESTABLISHED","latitude":25.3018,"longitude":83.0068,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-009","VS-014"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-003","canonical_name":"Manikarnika Ghat","recognition_hook":"crematieghat en Shiva-pelgrimsplek","cluster":"GHATS_OLD_CITY","place_type":"CREMATION_GHAT","formal_status_preserved":"A","physical_identity":"ESTABLISHED","latitude":25.3109,"longitude":83.0142,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-005","VS-013"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-004","canonical_name":"Shri Tailanga Swami Math","recognition_hook":"samadhi-math van Trailanga Swami","cluster":"PANCHGANGA","place_type":"SAMADHI_MATH","formal_status_preserved":"A","physical_identity":"ESTABLISHED","latitude":25.3188,"longitude":83.013,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-010","VS-015"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-005","canonical_name":"Shree Shree Ma Anandamayi Ashram, Bhadaini","recognition_hook":"ashram van Anandamayi Ma","cluster":"BHADAINI_ASSI","place_type":"ASHRAM","formal_status_preserved":"A","physical_identity":"ESTABLISHED","latitude":25.2897,"longitude":83.0068,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-004","VS-015"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-006","canonical_name":"Sarnath sacred complex","recognition_hook":"boeddhistisch heilig complex","cluster":"SARNATH","place_type":"SACRED_COMPLEX","formal_status_preserved":"A","physical_identity":"ESTABLISHED","latitude":25.3811,"longitude":83.0214,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-002","VS-011"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-007","canonical_name":"Shri Kashi Vishwanath Temple","recognition_hook":"Shiva-jyotirlingatempel","cluster":"VISHWANATH_OLD_CITY","place_type":"TEMPLE","formal_status_preserved":"A","physical_identity":"ESTABLISHED","latitude":25.3109,"longitude":83.0107,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-001","VS-005"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-008","canonical_name":"Yogoda Satsanga Dhyana Mandali, Varanasi","recognition_hook":"Kriya-meditatiecentrum","cluster":"MAHMOORGANJ","place_type":"MEDITATION_CENTRE","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.3045,"longitude":82.979369,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-003"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-009","canonical_name":"Dashashwamedh Ghat","recognition_hook":"grote Ganga-aartighat","cluster":"GHATS_OLD_CITY","place_type":"RITUAL_GHAT","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.3062,"longitude":83.0104,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-005","VS-013"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-010","canonical_name":"Assi Ghat","recognition_hook":"ochtend- en avondghat","cluster":"BHADAINI_ASSI","place_type":"RITUAL_GHAT","formal_status_preserved":n
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=161 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/INPUT/candidates.jsonl blob_sha=1b015549c66a08e3821365e94a5295e2e4ac9321 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=5 classification=text
+ull,"physical_identity":"ESTABLISHED","latitude":25.2887,"longitude":83.0061,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-005","VS-013"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-011","canonical_name":"Panchganga Ghat","recognition_hook":"historische vijf-rivierenghat","cluster":"PANCHGANGA","place_type":"RITUAL_GHAT","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.3185,"longitude":83.0128,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-005","VS-010"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-012","canonical_name":"Harishchandra Ghat","recognition_hook":"crematieghat","cluster":"GHATS_SOUTH","place_type":"CREMATION_GHAT","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.2994,"longitude":83.009,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-005","VS-015"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-013","canonical_name":"Kaal Bhairav Temple","recognition_hook":"tempel van de bewaker van Kashi","cluster":"NORTH_OLD_CITY","place_type":"TEMPLE","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.3223,"longitude":83.009,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-005"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-014","canonical_name":"Maa Annapurna Temple","recognition_hook":"tempel van de godin van voedsel","cluster":"VISHWANATH_OLD_CITY","place_type":"TEMPLE","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.3107,"longitude":83.0103,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-005","VS-013"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-015","canonical_name":"Sankat Mochan Hanuman Temple","recognition_hook":"Hanuman-tempel","cluster":"SOUTH_VARANASI","place_type":"TEMPLE","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.282,"longitude":82.9992,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-005","VS-020"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-016","canonical_name":"Durga Temple and Durga Kund","recognition_hook":"Shakti-tempel en heilige vijver","cluster":"SOUTH_VARANASI","place_type":"TEMPLE_KUND","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.288,"longitude":82.9998,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-005","VS-020"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-017","canonical_name":"Vishalakshi Gauri Temple","recognition_hook":"Shakti-tempel","cluster":"VISHWANATH_OLD_CITY","place_type":"TEMPLE","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.3102,"longitude":83.0119,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-005","VS-015"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-018","canonical_name":"Sankatha Devi Temple","recognition_hook":"tempel van de godin van bescherming","cluster":"SCINDIA_GHAT","place_type":"TEMPLE","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.3156,"longitude":83.014,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-005"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-019","canonical_name":"Kedareshwar Temple and Kedar Ghat","recognition_hook":"Shiva-tempel en ghat","cluster":"GHATS_SOUTH","place_type":"TEMPLE_GHAT","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.2967,"longitude":83.0088,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-005","VS-015"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-020","canonical_name":"Lalita Ghat","recognition_hook":"Ganga
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=162 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/INPUT/candidates.jsonl blob_sha=1b015549c66a08e3821365e94a5295e2e4ac9321 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=5 classification=text
+-aartighat en toegang tot Vishwanath Dham","cluster":"VISHWANATH_OLD_CITY","place_type":"RITUAL_GHAT","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.3114,"longitude":83.0131,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-013"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-021","canonical_name":"Nepali Temple / Kathwala Temple","recognition_hook":"Shiva-tempel in Nepalese stijl","cluster":"LALITA_GHAT","place_type":"TEMPLE","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.312,"longitude":83.0132,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-005","VS-015"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-022","canonical_name":"Bindu Madhav Temple","recognition_hook":"Vishnu-tempel bij Panchganga","cluster":"PANCHGANGA","place_type":"TEMPLE","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.3187,"longitude":83.0125,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-005","VS-015"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-023","canonical_name":"Mrityunjay Mahadev Temple","recognition_hook":"Shiva-tempel voor bescherming en genezing","cluster":"NORTH_VARANASI","place_type":"TEMPLE","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.3291,"longitude":83.0056,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-005","VS-015"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-024","canonical_name":"Kabir Chaura Math","recognition_hook":"Kabir-math en herinneringsplek","cluster":"KABIR_CHAURA","place_type":"MATH_MEMORIAL","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.3233,"longitude":82.9992,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-007"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-025","canonical_name":"Lahartara Kabir birthplace memorial","recognition_hook":"Kabir-geboortetraditie en vijverzone","cluster":"LAHARTARA","place_type":"MEMORIAL_SACRED_WATER","formal_status_preserved":null,"physical_identity":"PARTIAL","latitude":25.304,"longitude":82.966,"geo_status":"APPROXIMATE_LOCAL_POINT","source_ids":["VS-007","VS-015"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-026","canonical_name":"Ramakrishna Mission Home of Service","recognition_hook":"Ramakrishna-Vivekananda sevashrama","cluster":"LUXA","place_type":"ASHRAM_HOSPITAL","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.309,"longitude":82.9974,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-006"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-027","canonical_name":"Baba Keenaram Sthal / Krim Kund","recognition_hook":"Aghor-peeth en samadhi-complex","cluster":"RAVINDRAPURI","place_type":"ASHRAM_SAMADHI","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.2928,"longitude":83.001,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-015","VS-021"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-028","canonical_name":"Bhaskarananda Samadhi / Anand Bagh","recognition_hook":"samadhi-ashram van Bhaskarananda","cluster":"DURGAKUND","place_type":"SAMADHI_ASHRAM","formal_status_preserved":null,"physical_identity":"PARTIAL","latitude":25.2868,"longitude":82.9968,"geo_status":"APPROXIMATE_LOCAL_POINT","source_ids":["VS-015","VS-022"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-029","canonical_name":"Dhamek Stupa","recognition_hook":"boeddhistische stupa van de eerste leerrede-traditie","cluster":"SARNATH","place_type":"STUPA","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.3807,"longitude":83.0245,"geo
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=163 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/INPUT/candidates.jsonl blob_sha=1b015549c66a08e3821365e94a5295e2e4ac9321 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=5 classification=text
+_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-002","VS-011"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-030","canonical_name":"Mulagandha Kuti Vihara","recognition_hook":"actieve boeddhistische vihara","cluster":"SARNATH","place_type":"VIHARA","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.3819,"longitude":83.0216,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-002","VS-011"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-031","canonical_name":"Chaukhandi Stupa","recognition_hook":"boeddhistische stupa","cluster":"SARNATH","place_type":"STUPA","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.3756,"longitude":83.022,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-002","VS-011"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-032","canonical_name":"Sarnath Archaeological Museum","recognition_hook":"museum met Ashoka- en boeddhistische objecten","cluster":"SARNATH","place_type":"MUSEUM","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.3817,"longitude":83.0205,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-002","VS-011"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-033","canonical_name":"Deer Park / Isipatana sacred landscape","recognition_hook":"boeddhistisch heilig landschap","cluster":"SARNATH","place_type":"SACRED_LANDSCAPE","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.3813,"longitude":83.023,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-002","VS-011"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-034","canonical_name":"Saranganath Temple","recognition_hook":"lokale Shiva-tempel in Sarnath","cluster":"SARNATH","place_type":"TEMPLE","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.3833,"longitude":83.0225,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-005","VS-015"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-035","canonical_name":"Tulsi Manas Temple","recognition_hook":"Rama-tempel en Tulsidas-herinnering","cluster":"SOUTH_VARANASI","place_type":"TEMPLE_MEMORIAL","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.2883,"longitude":83.0003,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-005","VS-020"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-036","canonical_name":"Tulsi Ghat","recognition_hook":"Tulsidas- en levende akhara/ghattraditie","cluster":"GHATS_SOUTH","place_type":"GHAT_LINEAGE","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.2906,"longitude":83.0068,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-005","VS-015"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-037","canonical_name":"Lolark Kund","recognition_hook":"zon- en vruchtbaarheidskund","cluster":"BHADAINI_ASSI","place_type":"KUND","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.2875,"longitude":83.0038,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-005","VS-015"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-038","canonical_name":"Ratneshwar Mahadev Temple","recognition_hook":"scheve Shiva-tempel aan de Ganga","cluster":"MANIKARNIKA","place_type":"TEMPLE","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.3113,"longitude":83.0145,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-005","VS-015"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-039","canonical_name":"Shitala Mata Temple, Dashashwamedh","recognition_hook":"Shakti-tempel aan de aartigh
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=164 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/INPUT/candidates.jsonl blob_sha=1b015549c66a08e3821365e94a5295e2e4ac9321 original_offset=16384 original_length=746 payload_bytes=746 chunk_index=4 chunk_count=5 classification=text
+at","cluster":"GHATS_OLD_CITY","place_type":"TEMPLE","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.3064,"longitude":83.0105,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-005","VS-015"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-040","canonical_name":"Bharat Mata Temple","recognition_hook":"tempel met reliëfkaart van India","cluster":"CANTONMENT","place_type":"CIVIC_TEMPLE","formal_status_preserved":null,"physical_identity":"ESTABLISHED","latitude":25.317,"longitude":82.989,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["VS-005","VS-015"],"visitability":"PRACTICAL_CHECK_REQUIRED","status_decision_by_worker":null}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=165 path=india4/protocols/MARK_DECISIONS.md blob_sha=1c64ca4c0884a1e0c5d7dfcfa384719047b05c16 original_offset=0 original_length=582 payload_bytes=582 chunk_index=0 chunk_count=1 classification=text
+# MARK DECISIONS
+
+- Alleen een expliciete uitspraak van Mark of een bestaande geldige Mark-registratie creëert een A/B/C-keuze.
+- Workers mogen voorstellen doen, maar labelen die als voorstel en nooit als besluit.
+- Geen keuze betekent `DOOR_MARK_TE_BEOORDELEN`.
+- Actieve Mark-keuzes en expliciete afwijzingen worden vóór GEO-werk en vóór GOUD-integratie geladen.
+- Een later besluit kan een eerder besluit vervangen; historische informatie blijft bewaard.
+- Een direct conflict met een expliciet Mark-besluit is een rolblokker. Onzeker onderzoek zonder conflict is dat niet.
+
+<<< END CHUNK >>>
+

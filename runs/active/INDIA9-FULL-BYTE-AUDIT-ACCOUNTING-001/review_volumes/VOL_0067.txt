@@ -1,0 +1,863 @@
+>>> CHUNK stream_row=974 path=governance/ACTIVE_STATE.md blob_sha=97948fa3e0193c6f0c3dd2a2c5cd60b367b461ad original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=5 classification=text
+8); 076 (Akshayavat) = SUBLOCATION van 051; corridor-taak
+      leverde geen nieuwe nummers op
+    blockers: geen — enige "blocker" is permanent/gewenst: GEEN PDF meer bouwen
+    next_allowed_step: GEEN inhoudelijke PDF-stap meer voor Bodh Gaya.
+
+  KUMAON (V2-RESWEEP):
+    fase: RECONCILED_PARTIAL (2026-08-15, na miss-root-cause-rescue) — zie ACTIVE_TASKS voor
+      taakpointer.
+    permanent: 079 = Mahavatar Babaji's Cave (Kukuchina/Dunagiri, Dwarahat); 080 = Turiya Niwas
+      (Crank's Ridge, kluizenaarswoning Sunyata Sorensen); 081 = Bodh Ashram (voormalig landgoed
+      Evans-Wentz/Lama Govinda, bezocht door Anandamayi Ma + Neem Karoli Baba) — alle drie A,
+      LOCKED_BY_MARK. 080/081 toegekend na gerichte rescue-audit (CCI_TASK 078, 2026-08-15) nadat
+      bleek dat beide nieuwe sweeps ze gemist hadden; root cause + fix in runs/active/
+      KUMAON-V2-RESWEEP-001/MISS_ROOT_CAUSE_RESCUE.md. Coordinaten voor alle drie nog niet
+      geverifieerd.
+    protocolwijziging (2026-08-15): governance/SWEEP_PROTOCOL.md poort E.1 minimaal gepatcht na
+      dit incident — (1) Top-11-zoeken moet ook host-/gastheer-/landgoedketens meenemen, niet
+      alleen de eigen instellingen van een Top-11-naam; (2) laag 3 bevestigt expliciet dat
+      informele, niet-institutionele historische verblijfplaatsen (geen tempel/complex) evengoed
+      MARK_WAARDIG kunnen zijn.
+    legacy: KUMAON-COMPLETE-001 (branch controller/kumaon-complete-001-ready-for-zilver-20260719)
+      had al 28 eigen LOCKED_A-locaties voor deze regio (Kainchi Dham, Kasar Devi, Jageshwar,
+      Haidakhan, Hanuman Garhi, Chitai Golu Devta, Ramakrishna Kutir, Bhumiyadhar e.a.) plus 4
+      LOCKED_C (bewust afgewezen: Mirtola, Binsar, Patal Bhuvaneshwar, Dhaulchina) en 2 LOCKED_B
+      (Ghorakhal, en Vrindavan-item buiten scope). Gebruikt als benchmark bij reconciliatie, niet
+      als discovery-basis tijdens Sweep A/B (blindheidsregel correct toegepast). Rescue-audit op
+      alle 16 Kumaon-LOCKED_A's: 12 door minstens één sweep gevonden, 2 lage-ernst sub-
+      locatiemisses zonder actie nodig (Babaji Smriti Bhavan, Crank's Ridge — beide onderdeel van
+      een wél gevonden cluster), 2 hoge-ernst misses nu gerescued (080, 081).
+    blockers: geen.
+    next_allowed_step: coordinaten voor 079/080/081 verifiëren; Bhumiadhar/Bhumiya Dhara-
+      identiteit verder uitzoeken; per resterend Sweep-B-Vivekananda-circuitpunt identity-check
+      tegen legacy vóór verdere permanente toekenning. Zie runs/active/KUMAON-V2-RESWEEP-001/
+      RECONCILIATION.md + MISS_ROOT_CAUSE_RESCUE.md voor volledige details.
+```
+
+## Governance-canon (versie-onafhankelijk, deze map)
+
+- `governance/SWEEP_PROTOCOL.md` — ACTIEF/CANONIEK sweep-protocol (poorten A-Q), aanvulling op
+  de bestaande negen-stappenflow.
+- `governance/SWEEP_ERROR_CLASSES.md` — ACTIEF foutklassenregister (FK-001 t/m FK-011).
+- `governance/scripts/preflight_validator.py` — machine-checkbare structurele preflight vóór
+  keuzerapportfase en vóór PDF (zie SWEEP_PROTOCOL.md Deel 4 voor de exacte grenzen).
+- `governance/ACTIVE_STATE.md` — dit bestand.
+- `governance/INDIA_SESSION_START.md` — duurzame bootstrap-samenvatting voor een nieuwe
+  INDIA-regisseursessie.
+
+### Reisdoel-prioriteit: AOAY + Top-X = missiekritisch, rest = bonus (canoncorrectie 2026-08-08, bericht 044)
+
+Marks eigenlijke reisdoel is (1) AOAY (*Autobiography of a Yogi*) en (2) de **definitieve Top-11**
+— NIET een gelijkwaardige derde categorie naast "overige bedevaartsplekken". Elke regio-sweep is
+verplicht tot een 100%-sweep van deze twee lagen (elke AOAY-plek, elke Top-11-persoon een eigen
+detector — zie `governance/SWEEP_PROTOCOL.md` poort A/E.1) VÓÓRDAT algemene bedevaarts-
+"bonusmateriaal"-kandidaten mogen meetellen als bewijs voor een sweep-brede `SATURATED=JA`-claim
+(harde volgordedwang, poort C/J).
+
+**Definitieve Top-11**: Paramahansa Yogananda, Mahavatar Babaji, Lahiri Mahasaya, Sri Yukteswar,
+Ram Dass, Neem Karoli Baba, Anandamayi Ma, Ramakrishna, Ramana Maharshi, Hariharananda,
+Vivekananda. Apart: Shri Mataji Nirmala Dev
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=975 path=governance/ACTIVE_STATE.md blob_sha=97948fa3e0193c6f0c3dd2a2c5cd60b367b461ad original_offset=16384 original_length=1645 payload_bytes=1645 chunk_index=4 chunk_count=5 classification=text
+i (Delhi Mahasamadhi-locatie). Boeddha en Krishna staan
+NIET in de Top-11.
+
+### Discriminatieregel MARK_WAARDIG (canoncorrectie 2026-08-08)
+
+(1) AOAY-link = absolute override; (2) zonder AOAY-link: Top-11 persoonlijke zwaarte, breed
+zoeken, lage drempel; (3) alles daarbuiten: religie-onafhankelijke bedevaarts-/pelgrimszwaarte met
+HOGE drempel. Zie `governance/SWEEP_ERROR_CLASSES.md` FK-011 voor het Bodh Gaya-precedent.
+
+## Nog geldige, ongewijzigde canon buiten `governance/`
+
+- `india4/protocols/INDIA5-PROTOCOL.md` — hoofdprotocol (PDF-poort, bestandsnaamgeving,
+  Verzadigingsdrempel).
+- `india4/protocols/INDIA5_REGION_START_PROTOCOL.md` — negen-stappenflow per regio.
+- `india4/protocols/NOT_TO_BE_MISSED_FRAMEWORK.md` — MARK_WAARDIG-hoofdvraag + acht regels.
+
+## Rollen (rolgebaseerd, niet sessienaam-gebonden)
+
+- **Mark**: bepaalt doel/scope, maakt alle definitieve A/B/C-keuzes, geeft `PDF_GO: JA` en
+  content-acceptatie.
+- **Huidige INDIA-regisseur**: regisseert, bewaakt canon, controleert saturatie-evidence en
+  content. Niet canoniek/onmisbaar — een toekomstige INDIA7/INDIA8/... erft deze rol volledig via
+  dit bestand plus de actieve protocolcanon, nooit via chatgeschiedenis.
+- **CCI (ClaudeCodeIndia)**: uitvoerende engine — onderzoek, datasets, rapporten, commits. Bouwt
+  uitsluitend een PDF na `PRE_PDF_CONTENT_APPROVED: JA` én een apart, letterlijk `PDF_GO: JA`.
+
+---
+Geschreven door: CCI, bijgewerkt na reconciliatie van KUMAON-V2-RESWEEP-001 (2026-08-14, poort R).
+Geen PDF, geen A/B/C voor andere locaties dan 079, geen route. `PDF_STATUS: VERBODEN` gerespecteerd
+tijdens het schrijven van dit document.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=976 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/VRINDAVAN_MARK_DECISIONS_V2.md blob_sha=97c53e79b8a7815b43e2c1e170de4c1311b1f833 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# VRINDAVAN / BRAJ — MARK DECISIONS V2
+
+Date: 2026-08-20
+Owner of A/B/C choices: Mark
+
+## PRESENTATION / ROUTING RULES
+- Main visit entities receive Mark A/B/C.
+- Micro-sites inside an A/B/C parent NEVER use A/B/C-style subletters. Use neutral labels `M1`, `M2`, `M3` etc.
+- If a micro-site is inseparable from a parent visit, it can be folded into that parent operationally while remaining a separate physical entity in the master.
+- FINAL TRAVEL GUIDE REQUIREMENT FOR EVERY A PARENT: list every known meaningful micro-site/room/courtyard/garden/ghat/platform etc.; what happened there; who was there; exactness R1-R5; current access; how to find it within the parent complex. Unknown exact rooms must remain explicitly unknown, never invented.
+
+## MARK DECISIONS
+
+### 1 — Vrindavan Railway Station — A
+Person/layer: Paramahansa Yogananda / AOAY.
+Decision: A.
+Operational fold-in:
+- `M1`: AOAY Kriya initiation scene with Pratap near Vrindavan station. Exact micro-point unresolved (R5). Mark originally viewed this as B in isolation, but wants it folded into station visit; station parent remains A.
+Travel-guide requirement: explain historical arrival scene, station continuity, one-platform/end-station context if still supportable at final pre-trip check, and M1 uncertainty.
+
+### 2 — Madan Mohan Temple — A
+Person/layer: Paramahansa Yogananda / AOAY.
+Decision: A.
+Reason: exact AOAY temple; Mark explicitly wants to visit.
+
+### 3 — former standalone Kriya-initiation spot — FOLDED INTO 1/M1
+No separate Mark A/B/C operational stop. Physical/source row remains distinct in master.
+
+### 4 — Keshabananda / Katyayani Peeth, Vrindavan — MARK INTENT: A, subject to corrected continuity note
+Mark statement: if the actual Keshabananda hermitage/ashram is still there, this is a strong A.
+New evidence checked 2026-08-20:
+- Katyayani Peeth Trust states Swami Keshavananda came to Vrindavan, acquired the land and built the present temple and an ashram in 1923, where he lived until 1942.
+- AOAY ch42 describes Yogananda being received by Keshabananda at his `Katayani Peith Ashram`, an imposing brick building with black pillars, and being taken into a sitting room with a Lahiri Mahasaya picture.
+- Ananda India identifies steps at Katyayani Peeth as the spot where Yogananda was photographed with Keshabananda; their site displays/describes the historic photo.
+Implication: this is substantially stronger continuity than the earlier R4-style caution suggested. Do NOT yet invent which room survives unchanged; but the present Katyayani Peeth/ashram is a strong historic-site continuity candidate and should be treated as Mark A unless a later dedicated fabric check disproves it.
+Final-guide requirement: identify photographed steps and, if evidence permits, historic sitting room / building fabric; distinguish proven spot from tradition.
+
+### 5 — Samb Sadashiv Kunj — OPEN, REQUIRES CLEARER EXPLANATION BEFORE MARK CHOICE
+Do not assign yet. Mark found prior description too opaque. Explain in ordinary language: what kind of place it is, whose institution/tradition, what exact Babaji event/claim connects to it, whether claimant is Mahavatar Babaji vs Haidakhan Babaji or another Babaji tradition, why it matters, and current access. Do not let the Indian proper noun carry the explanation.
+
+### 6 — Neem Karoli Baba Vrindavan Ashram — A
+People: Neem Karoli Baba + Ram Dass.
+Decision: A.
+Microsites use neutral codes, NOT A/B/C letters:
+- M1 Maharajji office/room
+- M2 temple courtyard / funeral-bhandara-fire-platform context
+- M3 Hanuman murti sanctum (claim strength/access to be retained)
+- M4 main gate occurrence
+- plus every later-discovered room/physical child entity from the master.
+Final travel guide MUST say per microsite exactly what happened, who was present, what survives, and how to locate/access it. Parent A means include meaningful microsites during the visit; it does not collapse them in the evidence master.
+
+## HARD FINAL-TRAVEL-GUIDE RULE
+For every Mark-A site in every cluster, do a pre-trip A-SITE MICROGUIDE closure before travel. Requir
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=977 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/VRINDAVAN_MARK_DECISIONS_V2.md blob_sha=97c53e79b8a7815b43e2c1e170de4c1311b1f833 original_offset=4096 original_length=558 payload_bytes=558 chunk_index=1 chunk_count=2 classification=text
+ed fields:
+1. parent site name + exact map/address;
+2. every meaningful room/spot/micro-site from all person/AOAY sweeps;
+3. person(s) and event(s) per micro-site;
+4. historic/current continuity;
+5. current access/permission/hours;
+6. inside-complex wayfinding where knowable;
+7. exact uncertainty where not knowable;
+8. AOAY chapter/scene where applicable;
+9. what Mark specifically wanted to experience there (read, meditate, stand at historical point, stay overnight, etc.).
+No A-site is considered final-route-guide-ready without this microguide closure.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=978 path=india4/protocols/NOT_TO_BE_MISSED_FRAMEWORK.md blob_sha=97d4cc03a4d20b81a252fbd5eca94421975a3375 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=5 classification=text
+# NOT_TO_BE_MISSED — selectiecanon (vóór kandidaatstatus en nummering)
+
+Status: CANONIEK vanaf 2026-08-03 (INDIA2-besluit, PR #23). Verplichte stap in de INDIA5-keten
+VOORDAT een gevonden plek kandidaatstatus en een permanent nummer krijgt — zie
+`india4/roles/PRE-BRONS.md` voor de bijgewerkte volgorde. Dit document bevat GEEN nieuwe
+kandidaten, GEEN nieuwe detectoren, GEEN wijziging aan bestaande nummering of A/B/C. Varanasi
+041-045 is de eerste toepassing (testronde, apart gerapporteerd in
+`india5/reports/`), niet gewijzigd door dit document zelf.
+
+Aanleiding: de discovery-audits (INDIA5-VNS-DISCOVERY-COVERAGE-003 en de ingetrokken
+SATURATION-004) zochten impliciet naar "welke tradities/categorieën ontbreken nog", niet naar
+"wat zou Mark achteraf dramatisch jammer vinden om gemist te hebben". Dat is een andere
+doelstelling en kan tot een ander soort kandidaat leiden — mogelijk objectief bijzonder, maar
+niet aantoonbaar bij Marks reis passend. Dit document herstelt het onderscheid.
+
+## De hoofdvraag (staat boven alle detectoren, INDIA2-besluit 2026-08-03)
+
+Elke sweep, elke detector en elke kandidaatbeoordeling is ondergeschikt aan precies één vraag:
+
+> "Van welke locaties zou Mark later waarschijnlijk zeggen: 'Als ik had geweten dat deze hier
+> lag, had ik hem absoluut niet willen missen.'"
+
+NIET: "welke locaties bestaan hier?" NIET: "welke religieuze tradities ontbreken?" Daaruit volgen
+acht regels, die boven alle detectoren en boven categorievolledigheid staan:
+
+1. Detectoren zijn hulpmiddelen. Niet het doel.
+2. Categorievolledigheid is nooit een reden om een kandidaat op te nemen.
+3. Een complete religieuze traditie mag volledig ontbreken wanneer die voor Mark geen aantoonbare
+   meerwaarde heeft.
+4. Een sweep mag eindigen met NUL nieuwe kandidaten. Dat is een volledig geldig resultaat.
+5. Een nieuwe kandidaat moet zichzelf verdienen.
+6. Vaste volgorde: BESTAAT → BETEKENIS → ERVAARBAAR → NOT_TO_BE_MISSED → pas daarna kandidaat.
+7. De onderzoeksstraal (bijvoorbeeld 20 km) is een onderzoeksgebied, geen harde afkapgrens:
+   0-20 km moet aantoonbaar onderzocht zijn; 20-30 km mag uitsluitend signalerend worden bekeken
+   op uitzonderlijke "zou zonde zijn geweest"-locaties; verder alleen op expliciet verzoek. Zie
+   `india4/protocols/INDIA5_REGION_START_PROTOCOL.md`, stap 2 (Discovery), voor de verwerking van
+   deze regel in de stapvolgorde.
+8. Dit is een algemeen ontwerpprincipe, canoniek vastgelegd in zowel dit document als
+   `india4/protocols/INDIA5_REGION_START_PROTOCOL.md` — niet Varanasi-specifiek.
+
+---
+
+## 1. Hoe vertaal je Marks interesses naar objectieve zoekcriteria?
+
+Marks interesses staan niet vrij in de lucht — ze zijn al vastgelegd, in drie afzonderlijke,
+elkaar niet vervangende bronnen (herontdekt via git-archeologie, commit `709fafe`, vóór de
+INDIA4-overgang):
+
+- **PROJECT.md, "het kernidee"**: "Het kennisobject is de fysieke, bezoekbare plek, niet de
+  meester. De vraag is nooit 'hoe belangrijk is meester X?', maar: 'als Mark daar fysiek staat,
+  welke plek heeft de meeste spirituele dichtheid?'" — dit is de kernvertaling: interesse wordt
+  geen trefwoordenlijst van tradities, maar een dichtheidsvraag per fysieke plek.
+- **PROJECT.md, het krachtveld-model**: drie aparte, nooit te vermengen assen:
+  1. Krachtveld-gewicht (spiritueel, intrinsiek aan de plek/persoon-lijn).
+  2. Persoonlijke aantrekking (Marks eigen lijn — Babaji/Lahiri Mahasaya/Sri Yukteswar/
+     Yogananda — trekt een fractie harder, als bonus, nooit als aftrek bij anderen).
+  3. Route-prioriteit (zuiver logistiek, apart).
+- **PRIORITY_GROUPS.md**: Marks vaste 13-persoonsindex, met drie eigen gebruiksregels — regel 1
+  ("de kracht van de PLEK weegt het zwaarst"), regel 2 (positie is alleen een weegfactor bij
+  gelijke plek-kracht) en regel 3 (de index sluit niets uit; een krachtige plek van een
+  niet-geïndexeerde traditie moet tóch gemeld worden — precedent: Bodh Gaya).
+
+Objectief zoekcriterium (samengevat uit deze drie bronnen, niet nieuw verzonnen): een plek is
+zoekwaardig wanneer ze **aantoonbare spi
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=979 path=india4/protocols/NOT_TO_BE_MISSED_FRAMEWORK.md blob_sha=97d4cc03a4d20b81a252fbd5eca94421975a3375 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=5 classification=text
+rituele dichtheid heeft op de plek zelf** — een
+gedocumenteerde gebeurtenis, een fysiek spoor (samadhi, geboortegrond, verblijfplek, wonderplek)
+of een levende praktijkgemeenschap — ONGEACHT of de onderliggende traditie al in de bestaande
+lijst voorkomt. Traditie/categorie is een hulpmiddel om te zoeken (personen zijn detectoren om
+plekken te vinden, AI_RULES.md regel 2), nooit het doel of de maatstaf van volledigheid zelf.
+
+## 2. Welke ervaringen zoekt Mark werkelijk?
+
+Af te leiden uit de vaste bronnen, niet uit aanname:
+
+- **Fysieke nabijheid tot een geloofwaardig spoor van een meester of gebeurtenis** — AOAY_MASTERS
+  (Autobiography of a Yogi) en de Lahiri Mahasaya-lijn zijn hier het duidelijkste precedent:
+  Mark wil ergens staan waar iets *aantoonbaar gebeurd is*, niet een generiek gedenkteken.
+- **Levende praktijk boven monumentaliteit** — impliciet in het krachtveld-model ("spirituele
+  dichtheid", niet "toeristische bekendheid") en expliciet zichtbaar in het bestaande
+  Varanasi-pakket: Kabir Math (024, levend) kreeg evenveel aandacht als de herdenkingsplek
+  Lahartara (025); beide zijn opgenomen, maar het onderscheid levend/monumentaal is relevant
+  voor de ervaring die Mark er zal hebben.
+- **Persoonlijke, niet-institutionele aanbevelingen wegen zwaar** — precedent: het Varanasi-
+  hotelbesluit (Sahi River View Guesthouse) kwam via een persoonlijke aanbeveling van Debby, niet
+  via een institutionele bron, en is `LOCKED_BY_MARK`. Dit signaleert dat Mark waarde hecht aan
+  ervaringen die door een vertrouwd persoon zijn aangeraakt, niet alleen aan wat objectief
+  gedocumenteerd staat.
+- **Een samenhangende bezoekstructuur, geen losse lijst** — METHODOLOGY.md: "Het doel is niet
+  alleen locaties verzamelen, maar een mogelijke bezoekstructuur bouwen" (CLUSTER_ANCHOR →
+  locaties → afstand tot dichtstbijzijnde A's → dagindelingen). Een plek die geen redelijke plek
+  in een dagroute kan krijgen, levert een andere soort ervaring op dan een plek die naadloos in
+  een bestaand cluster past.
+- **Niet expliciet vastgelegd, dus NIET aan te nemen**: religieuze volledigheid als doel op
+  zich. Nergens in PROJECT.md, PRIORITY_GROUPS.md of METHODOLOGY.md staat dat Mark een compleet
+  overzicht van elke aanwezige traditie in een stad wil. Dat was de denkfout in taak 003/004.
+
+## 3. Welke soorten locaties leveren waarschijnlijk de meeste spijt op als ze ontbreken?
+
+Afgeleid, niet vrij bedacht, uit dezelfde bronnen plus het feitelijke patroon van de reeds
+bestaande 40 Varanasi-kandidaten (uitsluitend ter illustratie, niet gewijzigd):
+
+1. **Directe fysieke sporen van Tier 1 (eigen Kriya-lijn + AOAY-meesters)** binnen de straal,
+   ook als ze klein/onopvallend zijn — PROJECT.md Focus-tier 1 plus de AOAY-grootte-regel-
+   uitzondering (AOAY_MASTERS.md: kleine/onbekende plekken tellen mee als de meester er fysiek
+   was). Dit is de categorie met het hoogste spijt-risico: een gemiste kleine plek in de eigen
+   lijn weegt zwaarder dan een gemiste grote tempel van een verder-weg-liggende traditie.
+2. **Plekken met een eenmalige, niet-herhaalbare gebeurtenis** (samadhi, mahasamadhi,
+   geboorteplek, een specifiek gedocumenteerd bezoek/ontmoeting) — deze zijn per definitie
+   onvervangbaar; een gemiste tempel is vervangbaar door een andere tempel, een gemiste
+   samadhi-plek niet.
+3. **Levende praktijkgemeenschappen die Mark zelf zou kunnen meemaken** (een actieve ashram,
+   een dagelijkse ceremonie) — het ervaringsverschil tussen "erbij zijn" en "een monument
+   bekijken" is groot, en dit type plek wordt door generieke reisbronnen het makkelijkst gemist
+   omdat het niet in standaard bezienswaardighedenlijsten staat.
+4. **Plekken die al door een vertrouwd persoon zijn aangeraakt** (zoals het hotel via Debby) —
+   niet systematisch vindbaar via detectoren, wel systematisch te bevragen (zie punt 6).
+5. **NIET in deze categorie, tenzij ze ook aan 1-4 voldoen**: een categorisch/traditioneel gat
+   op zich (bijvoorbeeld "geen Jain-vertegenwoordiging" of "geen islamitisch erfgoed"). Zo'n gat
+   is een signaal om te on
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=980 path=india4/protocols/NOT_TO_BE_MISSED_FRAMEWORK.md blob_sha=97d4cc03a4d20b81a252fbd5eca94421975a3375 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=5 classification=text
+derzoeken (PRIORITY_GROUPS.md regel 3: een krachtige plek van een
+   niet-geïndexeerde traditie moet gemeld worden), maar de reden om toe te voegen moet liggen in
+   de aantoonbare kracht/dichtheid van de specifieke gevonden plek zelf — nooit in het enkele
+   feit dat de categorie eerder leeg was. Dit is exact het verschil tussen de oude en de nieuwe
+   opdracht.
+
+## 4. Welke detectoren zijn hiervoor nodig?
+
+Niet als nieuwe PROVISIONAL detectoren aangemaakt (buiten scope van deze ontwerpstudie), maar
+als aanbeveling voor een volgende, wel-geautoriseerde ronde:
+
+- Een detector die specifiek zoekt naar **primaire-brontekst-verwijzingen** (AOAY, hagiografieën,
+  lijn-specifieke geschriften) naar een concrete, kleine, fysieke plek binnen de straal — dit is
+  in essentie de reeds bestaande DET-P001/DET-P005-richting (LINEAGE_TEXT / AOAY), maar dan
+  expliciet gewogen op "onvervangbaarheid van de gebeurtenis", niet op "aanvulling van een
+  ontbrekende categorie".
+- Een detector gericht op **samadhi/mahasamadhi/eenmalige-gebeurtenisplekken**, opnieuw gewogen
+  op onvervangbaarheid, niet op categorie-aanwezigheid.
+- Een detector gericht op **levende-praktijkgemeenschap-signalen** (dagelijkse ceremonie, actieve
+  bewoning, gedocumenteerd bezoekersritme) — bepalend is niet óf de traditie voorkomt, maar of
+  Mark er iets zou kunnen *meemaken*.
+- Een niet-geautomatiseerde, verplichte vraag aan Mark/INDIA2 zelf: **"is hier een persoonlijke
+  aanbeveling van iemand die Mark vertrouwt?"** — geen detector in de klassieke zin (dit is geen
+  web-doorzoekbaar signaal), maar een vast controlepunt in het proces, analoog aan hoe het
+  hotelbesluit tot stand kwam.
+
+## 5. Welke detectoren zijn NIET nuttig, omdat ze alleen meer locaties opleveren zonder extra waarde?
+
+- Elke detector die uitsluitend gericht is op **"is traditie/categorie X al vertegenwoordigd?"**
+  zonder een aparte onvervangbaarheids- of dichtheidstoets — dit was exact het patroon in
+  DET-P002 (Jain), DET-P003 (koninklijk), DET-P004 (ghat-volledigheid) en DET-P009 (islamitisch/
+  soefi) uit taak 003/004: ze zoeken naar een gat, niet naar spijt. Dat maakt ze niet waardeloos
+  (ze kunnen wél iets vinden dat óók aan de NOT_TO_BE_MISSED-toets voldoet), maar ze mogen nooit
+  op zichzelf een reden zijn om toe te voegen.
+- Een generieke **"ghat-volledigheid"**-detector die louter kijkt of alle ~84 ghats een keer
+  genoemd zijn — een ghat zonder specifiek onderscheidend verhaal levert per definitie geen
+  onvervangbare ervaring op.
+- Een generieke **"ASI-monumentenlijst afvinken"**-detector — een monument zonder aantoonbare
+  persoonlijke/spirituele relevantie voor Mark is toeristische volledigheid, geen spijtpreventie.
+- Elke detector die reisblogs als enige of primaire bron gebruikt voor een kernclaim — dit is
+  al een bestaande kwaliteitsgrens (RESEARCH_QUALITY.md/eerdere taakopdracht), maar verdient
+  hier herhaling omdat categorie-jagende detectoren extra vatbaar zijn voor deze verleiding
+  (elke reisblog noemt tenslotte "iets" van bijna elke categorie).
+
+## 6. Het NOT_TO_BE_MISSED-framework (canoniek, vóórdat iets kandidaat wordt)
+
+Verplichte toets, toe te passen VOORDAT een gevonden plek de status PROVISIONAL/kandidaat
+krijgt en VOORDAT een permanent nummer wordt toegekend (dus vóór DISCOVERY_CANDIDATES.jsonl,
+vóór NUMBERING_REGISTRY.jsonl). Bijgewerkt per INDIA2-besluit van 2026-08-03 (PR #23):
+
+```
+NOT_TO_BE_MISSED_CHECK (per gevonden plek, vóór kandidaatstatus en nummering)
+
+1. SPIJT_VRAAG (verplicht, eerst beantwoorden -- door CCI, met bronverwijzing)
+   "Zou Mark achteraf, staand op deze reis, dramatisch jammer vinden dat hij dit gemist heeft?"
+   Beantwoord vanuit de drie vaste bronnen (PROJECT.md, PRIORITY_GROUPS.md, METHODOLOGY.md),
+   niet vanuit een generieke inschatting van 'bijzonderheid'.
+   Drie mogelijke uitkomsten:
+   -> PASS       -- aannemelijk NOT_TO_BE_MISSED voor Mark, onderbouwd
+   -> WATCHLIST  -- mogelijk waardevol, maar onvoldoende bewezen (dit is de ONZEKER-uitkomst;
+                    wordt NIET stil verwijderd, blokkeer
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=981 path=india4/protocols/NOT_TO_BE_MISSED_FRAMEWORK.md blob_sha=97d4cc03a4d20b81a252fbd5eca94421975a3375 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=5 classification=text
+t de sweep NIET, gaat als compacte
+                    lijst na afloop naar INDIA2/Mark -- geen tussentijdse vraag per locatie)
+   -> FAIL       -- geen overtuigende reden voor kandidaatstatus
+   Alleen PASS gaat door naar stap 2. WATCHLIST en FAIL krijgen geen kandidaatnummer.
+
+2. STERKTE-TOETS (GEEN harde onvervangbaarheidspoort meer -- INDIA2-correctie 2026-08-03)
+   Onvervangbaarheid (eenmalige, plaatsgebonden gebeurtenis/spoor) is EEN geldige grond, maar
+   niet de enige. Een plek kan ook PASS krijgen zonder letterlijk uniek te zijn, wanneer ze
+   uitzonderlijk sterk scoort op ten minste EEN van deze zes gronden:
+   a. aantoonbaar krachtveld op precies die plek;
+   b. directe relatie met Marks Tier-1/AOAY-interesses;
+   c. uitzonderlijke levende ervaring;
+   d. werkelijk iconische of bepalende ervaring van het gebied;
+   e. sterke persoonlijke aanbeveling;
+   f. uitzonderlijke combinatie met een reeds gekozen route/cluster, MITS de inhoudelijke
+      waarde ook zelfstandig (los van die combinatie) overeind blijft.
+   NOOIT zelfstandig voldoende: categorievolledigheid, logistiek gemak, bekendheid, of "het
+   ontbreekt nog aan de lijst".
+
+3. KRACHTVELD-TOETS (drie assen, apart houden -- PROJECT.md)
+   a. Krachtveld-gewicht: is de spirituele dichtheid op de plek zelf aantoonbaar (bron met
+      minstens één primaire/institutionele/academische verwijzing, AI_RULES.md regel 9)?
+   b. Persoonlijke aantrekking: valt de plek in Tier 1 (eigen lijn + AOAY) of Tier 2/3
+      (PROJECT.md focus-tiers) -- dit is een bonus, geen vereiste; PRIORITY_GROUPS.md regel 3
+      blijft leidend (index sluit niets uit).
+   c. Route-prioriteit: NIET gebruikt om toe te voegen/uitsluiten op dit punt -- puur
+      logistiek, hoort bij ZILVER/GOUD, niet bij de kandidaatpoort (uitzondering: grond 2f
+      hierboven, en ook dan blijft de inhoudelijke waarde doorslaggevend, niet het gemak zelf).
+
+4. LEVEND-OF-MONUMENTAAL-SIGNAAL (informatief, geen harde poort)
+   Registreer of de ervaring "erbij zijn" (levende praktijk) of "bekijken" (monumentaal) is --
+   beide kunnen NOT_TO_BE_MISSED zijn, maar het signaal helpt Mark bij de uiteindelijke A/B/C-
+   afweging (METHODOLOGY.md-analysemethode, punt "wat is het").
+
+5. BEZOEKBAARHEIDSPOORT (harde poort, ongewijzigd -- AI_RULES.md regel 10)
+   Geen aanwijsbare fysieke, bezoekbare plek = geen kandidaat, ongeacht uitkomst van 1-4.
+
+DEFINITIEVE KANDIDAATPOORT -- kandidaatstatus + permanent nummer uitsluitend wanneer ALLE
+gelden:
+   A. de SPIJT_VRAAG (stap 1) = PASS;
+   B. de plek fysiek bezoekbaar is (stap 5);
+   C. de kernclaim voldoende betrouwbaar is onderbouwd (bron met minstens één primaire/
+      institutionele/academische verwijzing);
+   D. er minimaal één concrete, niet-generieke beslissende reden bestaat (stap 2, gronden a-f);
+   E. de reden niet uitsluitend categorievolledigheid, beroemdheid of routegemak is.
+WATCHLIST en FAIL krijgen GEEN kandidaatnummer -- WATCHLIST gaat als compacte lijst naar
+INDIA2/Mark, FAIL wordt gerapporteerd als negatieve bevinding (geen actie).
+```
+
+Kernverschil met de oude discovery-detectoren: een detector mag nog steeds gebruikt worden om
+een gebied te doorzoeken (dat blijft nuttig als *vindmiddel*, AI_RULES.md regel 2 -- personen/
+categorieën zijn detectoren om plekken te vinden), maar de beslissing om iets kandidaat te maken
+verschuift van "vult dit een gat?" naar "zou het missen hiervan spijt opleveren, gegeven Marks
+eigen, al vastgelegde selectiecanon?". Categorie-volledigheid wordt daarmee een zoekhulpmiddel,
+nooit meer een toevoegingscriterium op zichzelf.
+
+## Besluiten van INDIA2 op de drie openstaande ontwerpvragen (2026-08-03, PR #23)
+
+1. **Wie beantwoordt de SPIJT_VRAAG?** CCI doet de eerste inhoudelijke beoordeling met
+   brononderbouwing, met drie uitkomsten (PASS/WATCHLIST/FAIL). Een ONZEKER-resultaat wordt
+   niet stil verwijderd en blokkeert de sweep niet -- het gaat naar WATCHLIST. Alleen een
+   compacte WATCHLIST wordt na afloop aan INDIA2/Mark voorgelegd. Geen tussentijdse vragen per
+   locatie.
+2. **Terugwerkende kracht.** Het framework wordt 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=982 path=india4/protocols/NOT_TO_BE_MISSED_FRAMEWORK.md blob_sha=97d4cc03a4d20b81a252fbd5eca94421975a3375 original_offset=16384 original_length=1035 payload_bytes=1035 chunk_index=4 chunk_count=5 classification=text
+nu uitsluitend als test toegepast op de nieuw
+   ontdekte 041-045 (zie `india5/reports/`). De bestaande 001-040 worden NIET heropend -- die
+   zijn al door Mark beoordeeld en blijven ongewijzigd. Alleen wanneer later concreet nieuw
+   bewijs verschijnt dat een bestaand besluit wezenlijk raakt, mag dat signalerend worden
+   gemeld -- nooit zelfstandig gewijzigd. Voor alle toekomstige ontdekkingen geldt het framework
+   vóór kandidaatstatus en vóór toekenning van een permanent nummer.
+3. **Onvervangbaarheid.** Onvervangbaarheid is GEEN absolute harde poort meer (zie stap 2
+   hierboven, "STERKTE-TOETS") -- vervangen door zes mogelijke gronden waarvan er minstens één
+   uitzonderlijk sterk moet scoren.
+
+---
+Geschreven door: CCI, op verzoek van INDIA2 (PR #23, ontwerpstudie + canoniek besluit).
+Datum: 2026-08-03.
+Status: CANONIEK, verplichte stap in INDIA5 vóór kandidaatstatus en nummering (zie
+`india4/roles/PRE-BRONS.md`). Geen bestaande kandidaat/detector/nummering/A-B-C aangeraakt of
+gewijzigd door dit document.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=983 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/VRINDAVAN_MARK_DECISIONS_DELTA_2026-08-20_D.md blob_sha=9821f0e0ecdf32b4950e7dc43ab586e4f160eaf4 original_offset=0 original_length=1642 payload_bytes=1642 chunk_index=0 chunk_count=1 classification=text
+# VRINDAVAN / BRAJ — MARK DECISIONS DELTA D
+
+Date: 2026-08-20
+
+## Confirmed decisions
+- Ramakrishna-linked Radhakanta/temple candidate presented in prior block: A for now, with later route-stage compression to approximately three strongest Ramakrishna devotional/historic Vrindavan stops if needed.
+- Mani Sen house candidate: B.
+- Fouzdar Kunj upper room: A as micro-site within existing Fouzdar Kunj A.
+- Fouzdar Kunj veranda: A as micro-site within existing Fouzdar Kunj A.
+- Ramakrishna Mission Sevashrama Hospital as NKB death-site: DO_NOT_REQUIRE_VISIT / effectively C for routing unless a genuine NKB shrine/memorial on campus is later proven. Current public campus information shows Sri Ramakrishna temple but no reliable NKB memorial.
+- NKB Vrindavan Ashram office/room: A as micro-site within existing NKB Vrindavan Ashram A.
+
+## Anandamayi conditional A resolved
+Anandamayi Ma Vrindavan Ashram is FINAL A. Condition satisfied: official Shree Shree Anandamayee Sangha chronology documents Ma herself repeatedly present and active at Vrindavan Ashram, including installations/functions in 1955/1956, Durga Puja and Sanyam Saptah in 1964, Sanyam Saptah in Ma's presence in 1973, and further Vrindavan Ashram presence in 1982. This is not merely a later eponymous institution.
+
+## Hospital memorial conclusion
+Current public Ramakrishna Mission Sevashrama campus documentation identifies the Universal Temple of Sri Ramakrishna and other campus religious facilities but does not establish an NKB/Maharajji shrine or memorial. NKB's meaningful memorial visit remains the Mahasamadhi/cremation site at NKB Vrindavan Ashram, already A.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=984 path=runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/INDIA_SOURCE_FIRST_SWEEP_ANANDAMAYI.md blob_sha=986826074cf75a6e01df191e23af24044f75faa8 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# INDIA SOURCE-FIRST SWEEP — ANANDAMAYI MA
+
+```
+task_id: TOP11-EXTERNAL-AI-BENCHMARK-001
+performed_by: INDIA / ChatGPT
+performed_on: 2026-08-16
+mode: SOURCE_FIRST_INDEPENDENT_METHOD_PASS
+blindness: NIET_BLIND — INDIA had CCI-resultaten al gezien en ontving daarna ook Marks externe union tijdens deze werksessie. Daarom wordt nergens een blind-pass geclaimd.
+```
+
+## Doel
+Niet CCI of de externe union als zoekchecklist gebruiken, maar vanaf de primaire/lineage-corpus opnieuw reconstrueren welke fysieke plekken expliciet in Anandamayi Ma's eigen officiële chronologie/biografische corpus voorkomen. Daarna pas vergelijken met CCI en de externe union.
+
+## Corpus dat voor deze pass systematisch is gebruikt
+Primaire/lineage-site `anandamayi.org`:
+- Life History 1896–1922
+- Life History 1923–1932
+- Life History 1933–1942
+- Life History 1943–1952
+- Life History 1953–1962
+- Life History 1963–1972
+- Life History 1973–1982
+- `Anandamayee — The Universal Mother` (Shree Shree Anandamayee Sangha, 1995), gericht op route-/host-/sublocatie-details
+- enkele lineage-pagina's over ontmoetingen (o.a. J. Krishnamurti, Gandhi, The Mother)
+
+Deze pass is NOG GEEN volledige extractie van alle Gurupriya Devi-dagboeken / alle Ananda Varta-nummers. Hij is wel voldoende om de recall-claim van CCI en de externe union hard te testen.
+
+## Hoofdbevinding 1 — CCI's 23-punts Anandamayi-atlas is aantoonbaar niet verzadigd
+CCI's pilot+saturation had circa 23 Anandamayi-atlaspunten. De officiële chronologie alleen noemt vele tientallen afzonderlijke fysieke sites/events die daar niet als afzonderlijk touchpoint in staan: privéhuizen, dharmashala's, gastashrams, paleizen, tempels, scholen, sanatoria, forten, campussen en reis-/verblijfplaatsen.
+
+Daarom is `PERSON_SWEEP_SATURATED: JA` voor Anandamayi Ma als recall-claim ingetrokken/provisioneel totdat corpus-extractie + benchmark gereconcilieerd zijn.
+
+## Hoofdbevinding 2 — ook Marks externe 156-locatie-union is nog niet volledig
+De door Mark aangeleverde union is zeer veel rijker dan CCI, maar de source-first pass vond daarnaast opnieuw een grote groep expliciet bronmatig genoemde fysieke plekken die niet als afzonderlijk record in de aangeleverde 156-lijst zichtbaar zijn.
+
+### Sterke source-first aanvullingen die NIET als afzonderlijke plek in de aangeleverde union zichtbaar zijn
+Onderstaande lijst is discovery-output; iedere identity-match met een union-record moet in BENCHMARK_RESULT nog formeel worden gecontroleerd vóór een definitieve `EXTERNAL_MISS`-telling.
+
+#### 1930s / vroege Himalaya / Bengal
+- Doonga, Dehradun — bezoek op verzoek van Choudhury Sher Singh (1935).
+- Yogendra Nagar / Tarananda Swami's Ashram — Ma verbleef daar (1935).
+- Faizabad — expliciete reisstop (1935).
+- Raj Rajeswari Temple, Chittagong — kirtan/bezoek (1937).
+- Shankar Mutt, Chittagong — bezoek (1937).
+- Sita Kund — bezoek (1937).
+- Buddha Temple, Ramkut — bezoek (1937).
+- Vishnu Temple, Ramkut — bezoek (1937).
+
+#### 1940s
+- Mirtola — ontmoeting met Yasoda Ma (1943).
+- Krishna Kunj, Allahabad — Durga Puja (1944).
+- Ashram of Sri Gopal Thakur, Allahabad — bezoek (1944).
+- Assi Ghat, Varanasi — havanfunctie (1944).
+- Ekdalia Road Ashram, Ballygunge/Calcutta — eerste Calcutta-ashram, geopend 1944; Ma aanwezig in 1946.
+- Sarnath — bezoek vanuit Varanasi (1945).
+- Dr. J. Sen's house, Delhi — verjaardag 1948.
+- Boda, Jalpaiguri — Durga Puja 1947.
+- Barechina — bezoek 1948.
+- Jageswar — bezoek 1948.
+- Ambala — Punjab-tour.
+
+#### 1950s–1962
+- Hoshiarpur — meerdere bezoeken; o.a. Haribaba-netwerk.
+- Jallandhar — Punjab-tour.
+- Doraha — verjaardagstour 1951.
+- Gurdaspur — reis richting Mandi 1951.
+- Mandi royal reception / palace context — Raja of Mandi personally drove Ma in procession.
+- Kullu palace garden — royal tent erected for Ma's stay.
+- Manav Seva Sangh Ashram, Vrindavan — opening attended 1953.
+- Haribaba's Ashram, Vrindavan — Holi-context 1953.
+- K.C. Munshaw lawn/residence, Ahmedabad — Bhagawat/Sanyam events.
+- New Delhi Kali Bari — Sanyam S
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=985 path=runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/INDIA_SOURCE_FIRST_SWEEP_ANANDAMAYI.md blob_sha=986826074cf75a6e01df191e23af24044f75faa8 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+aptah 1955.
+- Dr. S. Radhakrishnan's residence, Delhi — visit 1955.
+- Parmarth Niketan, Rishikesh — visit 1956.
+- Sivananda Ashram, Rishikesh — visit/meeting Swami Sivananda 1956 and later.
+- Saptarishi Ashram, Haridwar — Sanyam/programmes 1956/1959.
+- Kuchaman Fort — royal visit 1957, again explicitly visited 1980.
+- Defence Minister Jagjivan Ram's residence, Delhi — visit 1957.
+- Ramnagar / Kali Kamli Trust, Rishikesh — Sanyam Saptah 1959.
+- Ganesh Dutt Goswami's Ashram, Haridwar — Ma resided there 1960.
+- Shanti Niketan, residence of Nitai Basu Mallick, Kankhal — Ma stayed there 1961; later donated to ashram.
+- Scindia Public School, Gwalior — visit 1961.
+- N.N. Mukherjee residence, Allahabad — birthday programme 1961.
+- Suktal, Muzaffarnagar — Sanyam/Bhagawat 1961.
+- Pilani — Sanyam Saptah 1962.
+
+#### 1963–1972
+- Lakshmi Narain Mandir, Modinagar — inauguration 1963.
+- residence of Ma's younger brother Jadu Nath Bhattacharya, Varanasi — Durga Puja 1963.
+- Gwalior Raj Palace in Bombay — Bhagawat Saptah 1963.
+- Niramoy T.B. Sanatorium, Giridanga/Dubajpur — visit + Shiva temple opening; revisit in 1968.
+- Hazaribagh — Sanyam Saptah 1965.
+- M.L. Khaitan compound / later Khaitan residence, Dehradun — birthday/puja/stays repeatedly documented.
+- Subhash Ground, Delhi — religious conference 1968.
+- Bandh/Anupshahr — visit 1969.
+- J.K. Temple campus, Kanpur — new block for Ma inaugurated 1969.
+- Miraj — visit 1970.
+- Nipani — visit 1970.
+- Jaipuria House, Ramghat, Haridwar — Bhagawat/stay 1970; Muktananda Giri died there in Ma's presence.
+- Nirvani Akhara, Kankhal — feeding/event 1970.
+- Kaladi — Shankaracharya birthplace visited 1972.
+- M.S. Subbulakshmi / T. Sadasivan residence, Madras — Ma was their guest in 1972; special wooden hut built on lawn for her.
+
+#### 1973–1982
+- Ganga Vihar Dharamshala, Bithoor — Ma stayed 1973.
+- Naini Jaipuria House, Bithoor/Kanpur area — stayed 1973.
+- Jodhpur Park, South Calcutta — Bhagawat programme 1974.
+- Sri Vissanji residence, Bombay — birthday programme 1974.
+- Ram Tirtha Ashram, Rajpur, Dehradun — Sanyam 1974; birthday 1977.
+- Kamakhya Mandir, Gauhati — visit 1975.
+- Dibrugarh — programmes/stay 1975.
+- Ganga Lahari, Birla Guest House, Raiwala — one-week residence 1976.
+- Sitaram Das Omkarnathji's Ashram, Calcutta — visit 1976.
+- Hawa Mahal, Gondal — Sanyam 1976.
+- Madan Mohanji Temple, Karauli — visit 1976.
+- Hathwa House, Patna — Bhagawat programme 1976.
+- Ratu Palace, Ranchi — royal residence 1976.
+- Chitrakut — Ramayana programme 1977.
+- Narendra Brahmachari's Ashram, Deoghar/Baidyanathdham — week-plus visit 1977.
+- Paramartha Ashram, Bareilly — Bhagawat programme 1977.
+- Narendra Nagar, old Tehri capital — Navaratra stay 1977.
+- Badrikashram on the Narmada — Sanyam 1977 (NIET verwarren met Himalayan Badrinath).
+- Panchmarhi — stay at hut built in anticipation of Ma's visit, 1977.
+- Sant Ram Mandir complex, Nadiad — Sanyam 1978.
+- Morvi Palace — royal stay/programme 1978–79 and later return.
+- residence of Dr. Channa Reddy, Secunderabad — stay 1979/1981.
+- Raj Bhawan campus, Madras — residence 1979.
+- Raj Bhavan campus, Bhubaneswar — residence 1979.
+- Gondal Palace — Kali Puja/Annakut 1979.
+- Bihar Ghat on Ganga — special rites/stay 1979.
+- residence of Nanu Bhai Sastri, Ahmedabad — Saraswati Puja 1980.
+- Nathdwara/Udaipur temple — visit 1980.
+- Belur Math — direct visit 8 March 1981.
+- Hathwa Palace / old Hathwa State palace — visit after Patna programme 1981.
+- Bhasa, Calcutta — ashram-like residence built for Ma by Bibhuti Chakravorty; stayed 1982.
+- new Ganga-bank bungalow built by S.N. Ghosh and wife, Calcutta — Ma entered/stayed 1982.
+- Sri Khaitan residence, Dehradun — documented final-period stay July 1982.
+
+### Extra route-sublocations from the Sangha biography not obvious in external union
+- Simhachalam.
+- Vijayawada.
+- Guntur.
+- Sir C.P. Ramaswamy Aiyer's house, Madras.
+- Mahabalipuram.
+- Bhet-Dwarka.
+- Itarsi.
+- Mainpuri.
+- Moradabad.
+- Unnao.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=986 path=runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/INDIA_SOURCE_FIRST_SWEEP_ANANDAMAYI.md blob_sha=986826074cf75a6e01df191e23af24044f75faa8 original_offset=8192 original_length=2019 payload_bytes=2019 chunk_index=2 chunk_count=3 classification=text
+- Lake Road, Calcutta.
+- Rajgir Venuban.
+- Katrasgarh colliery owned by devotee Morarjibhai Thaker.
+- Sagar.
+- riverside Dharamshala on the river Vyas.
+- Barman Ghat.
+- Ramghat on the Narmada.
+- Nitibagh house of G.S. Pathak, Delhi (a floor reserved for Ma).
+
+## Hoofdbevinding 3 — externe AI's ZIJN nuttig, maar niet als primaire completeness-engine
+Marks union bewijst dat meerdere onafhankelijke AI's gezamenlijk veel meer recall hebben dan CCI alleen. Tegelijk bewijst deze source-first pass dat zelfs de 156-locatie-union nog vele expliciet in de officiële corpus genoemde plekken mist.
+
+Daarom is de juiste architectuur niet:
+`CCI OF andere AI`.
+
+Maar:
+1. **CORPUS-EXTRACTIE** — officiële chronologie/biografie/dagboeken systematisch uitputten, occurrence voor occurrence.
+2. **CCI/INDIA independent-method sweeps** — fouten, hostketens, identity en bronverificatie.
+3. **EXTERNAL MULTI-AI UNION** — adversarial recall-detector voor wat corpusparser/CCI/INDIA toch missen.
+4. **RECONCILIATIE** — union van alle detectoren, direct bronmatig verifiëren, dan pas `SATURATED`.
+
+## Voorlopig kwaliteitsbesluit Anandamayi Ma
+- CCI-only saturation: **AFGEWEZEN als completeness-bewijs**.
+- Externe 156-union: **zeer waardevol maar aantoonbaar niet compleet**.
+- INDIA source-first pass: **vindt opnieuw veel ontbrekende plekken, maar is zelf nog niet volledig dagboek-/Ananda-Varta-saturated**.
+- Echte eindnorm moet corpus + CCI + INDIA + externe union kruisen.
+
+## Directe volgende stap
+1. Marks volledige externe union duurzaam opslaan.
+2. `BENCHMARK_RESULT.md`: CCI vs externe union vs deze source-first corpuspass.
+3. Verifieer eerst alle `detector-only` TIER-1/host/gastheer-punten rechtstreeks.
+4. Bouw daarna een verbeterde `PERSON_METHOD_V2`: verplichte chronologie-extractie vóór zoekmachine-discovery.
+5. Pas V2 vervolgens op alle 11 toe; externe AI blijft ten minste als auditlaag totdat bewezen is dat CCI+INDIA+corpus dezelfde geverifieerde union-recall reproduceren.
+
+Geen A/B/C. Geen PDF.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=987 path=india5/reports/VARANASI_041_045_DEEPENING_CHECK.md blob_sha=99d86b1bf85893c2bf7111232e859df8fcf84b81 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# Smalle verdiepingscontrole — VNS-CAND-041 en VNS-CAND-045
+
+Opdracht: INDIA2, PR #23. Uitsluitend een verdiepende controle op de twee eerder als
+WATCHLIST beoordeelde kandidaten 041 (Parshvanath Digambar Jain Temple, Bhelupur) en 045
+(Adi Keshava Ghat). Geen nieuwe locaties, geen nieuwe categorieën, geen nieuwe detectoren.
+Geen wijziging aan 001-045, A/B/C, KML, PDF, hotel of dataset. Deze controle gebruikte gerichte
+webverificatie UITSLUITEND om de bronsterkte van deze twee, al genummerde kandidaten te
+toetsen (vraag 3 van de opdracht) — niet om nieuwe locaties te vinden.
+
+Methode: elke claim hieronder is gecontroleerd tegen minstens twee onafhankelijke bronnen,
+waar mogelijk met een institutionele/overheidsbron of een primaire/klassieke tekst, niet
+uitsluitend reisblogs. Waar een claim NIET onafhankelijk bevestigd kon worden, is dat expliciet
+vermeld in plaats van overgenomen.
+
+---
+
+## VNS-CAND-041 — Parshvanath Digambar Jain Temple, Bhelupur
+
+### 1. Wat ervaart Mark daar concreet?
+Staand in een actief tweeledig tempelcomplex (Digambar + Shwetambar naast elkaar) op de
+specifieke, tekstueel gedocumenteerde plek van conceptie, geboorte en verzaking (drie
+kalyanaka's) van Parshvanath, de 23e Jain-Tirthankara. Zichtbaar aanwezig: een zwart stenen
+beeld van 75 cm, gedateerd op de 9e-11e eeuw CE, plus een wit Shvetambara-beeld van 60 cm.
+Dagelijkse verering, dharamshala- en bhojanshala-voorzieningen (gastenverblijf/maaltijden) ter
+plekke — een levende, actief bezochte pelgrimsplek, geen stil monument.
+
+### 2. Wat maakt precies deze fysieke plek onvervangbaar?
+Bhelupur wordt specifiek (niet generiek "een Jain-plek") aangewezen als de locatie van DRIE
+kalyanaka's van één met naam genoemde Tirthankara — conceptie, geboorte én verzaking op
+dezelfde plek. Varanasi is de geboorteplaats van slechts vier Tirthankara's in de gehele
+Jain-traditie (Parshvanatha, Suparshvanatha, Chandraprabha, Shreyansanath); Bhelupur is
+specifiek de plek van Parshvanatha. Het aanwezige 9e-11e-eeuwse beeld is zelf een tastbaar,
+gedateerd historisch object op de plek — niet zomaar vervangbaar door een andere Jain-tempel.
+
+### 3. Betrouwbare primaire, institutionele of academische onderbouwing?
+JA, geverifieerd via gerichte controle (niet alleen overgenomen uit eerdere reisbronnen):
+- **kashi.gov.in** — officiële gemeentelijke listing (institutioneel, overheidsbron), onafhankelijk bevestigd bereikbaar.
+- **Vividha Tirtha Kalpa** (oorspronkelijk Kalpa-pradeepa) van Jinaprabha Suri, 14e eeuw CE —
+  een echt bestaand, op Wikipedia en Internet Archive gedocumenteerd klassiek Jain-tekstwerk
+  (een verzameling van ca. 60 kalpa's over grote Jain-tirtha's), waarvan onafhankelijk bevestigd
+  is dat het Kashi/Varanasi als Jain-pelgrimsplek beschrijft. Dit is een primaire, eeuwenoude
+  brontekst, geen reisblog.
+- Encyclopedie (Wikipedia, encyclopediaofjainism.com) bevestigt de drievoudige kalyanaka-claim
+  en de beelddatering onafhankelijk.
+- Wat NIET apart bevestigd kon worden: een directe, letterlijke passage uit de Vividha Tirtha
+  Kalpa die specifiek Bhelupur noemt (de bevestiging is dat het werk Kashi in het algemeen als
+  Jain-tirtha beschrijft, niet een geciteerde regel over Bhelupur zelf) — dit wordt hier expliciet
+  vermeld in plaats van overdreven voorgesteld.
+
+### 4. Is de plek werkelijk levend en bezoekbaar?
+JA — actief tempelcomplex, dagelijkse verering, gastenfaciliteiten (dharamshala/bhojanshala)
+ter plekke, fysiek adres in Bhelupur, Varanasi. Geen twijfel over bezoekbaarheid.
+
+### 5. Zou het missen hiervan voor Mark aannemelijk echte spijt opleveren?
+Dit blijft de moeilijkste vraag: Jaïnisme staat niet in Marks vaste 13-persoonsindex
+(PRIORITY_GROUPS.md) en er is geen enkel eerder spoor van persoonlijke interesse van Mark in
+deze traditie. PRIORITY_GROUPS.md regel 3 staat toe dat een niet-geïndexeerde traditie toch
+NOT_TO_BE_MISSED wordt, maar uitsluitend "puur door de kracht van de plek zelf" — het
+uitdrukkelijke precedent is Bodh Gaya, óók een niet in de hoofdindex staande traditie die op
+eigen kracht A werd. Met de 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=988 path=india5/reports/VARANASI_041_045_DEEPENING_CHECK.md blob_sha=99d86b1bf85893c2bf7111232e859df8fcf84b81 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+nu bevestigde combinatie van (a) een specifiek, drievoudig
+kalyanaka-verhaal, (b) een primaire 14e-eeuwse brontekst, (c) een tastbaar 9e-11e-eeuws
+cultusobject ter plekke en (d) een officiële overheidslisting, is de inhoudelijke
+"kracht van de plek" naar het oordeel van CCI vergelijkbaar zwaar onderbouwd als het
+Bodh Gaya-precedent. Dit is CCI's advies, geen vaststaand feit over Marks beleving.
+
+### 6. Is de locatie zelfstandig waardevol (niet alleen omdat Jain-erfgoed nog ontbrak)?
+JA — de argumentatie hierboven steunt volledig op de specifieke tekstuele/archeologische
+pedigree van déze plek (drievoudige kalyanaka, 14e-eeuwse primaire tekst, gedateerd beeld), niet
+op "Jaïnisme stond nog op nul". Dat argument is bewust niet gebruikt als beslissende grond.
+
+**EINDADVIES VNS-CAND-041: PASS** — aan Mark voorleggen voor A/B/C. Onderbouwing is nu sterk
+genoeg (primaire tekst + institutionele bron + gedateerd object); de resterende onzekerheid zit
+uitsluitend in Marks persoonlijke resonantie met een traditie buiten zijn vaste index, wat
+precies de reden is om het aan hém voor te leggen in plaats van zelfstandig te beslissen.
+
+---
+
+## VNS-CAND-045 — Adi Keshava Ghat
+
+### 1. Wat ervaart Mark daar concreet?
+Een bewust rustige, niet-toeristische ghat op een plateau bij de samenvloeiing van de Varuna-
+en Ganga-rivier, met een tempel in houten Kathmandu-stijl-architectuur en rood-stenen pilaren in
+de rangamandap (voorportaal). Ter plekke: de Sangameshwar Lingam, en het verhaal dat dit de
+eerste plek is waar Vishnu voet aan wal zette in Kashi.
+
+### 2. Wat maakt precies deze fysieke plek onvervangbaar?
+Dit is het ENIGE grote Vishnu-heiligdom aan de Varanasi-ghats — een uitzondering in een verder
+overwegend Shiva-gedomineerd ghat-landschap. Het is bovendien de specifieke, met naam genoemde
+locatie in een historische inscriptie (zie punt 3) en markeert letterlijk de samenvloeiing die
+aan de naam "Varanasi" (Varuna + Assi) ten grondslag ligt — samen met Assi Ghat (al A, kandidaat
+010) aan het zuidelijke uiteinde vormt dit het letterlijke noordelijke bookend van de heilige
+zone.
+
+### 3. Betrouwbare primaire, institutionele of academische onderbouwing?
+JA, geverifieerd via gerichte controle, met één belangrijke kanttekening:
+- **incredibleindia.gov.in** — officiële Indiase overheids-toerismebron, onafhankelijk
+  bevestigd bereikbaar en met een eigen pagina over deze tempel.
+- **Gahadavala-inscriptie (ca. 1100 CE)**, die de plek noemt als "Vedesvara Ghat" — onafhankelijk
+  bevestigd via een tweede, aparte bron (los van de eerste vondst), die specifiek vermeldt dat
+  de Gahadavala-koningen hier regelmatig rituele bezoeken aflegden. Dit is een historisch/
+  epigrafisch gegeven, geen reisbloguitvinding.
+- Historisch feit onafhankelijk bevestigd: verwoesting door Qutub-Uddin-Aibak in 1194 CE,
+  latere restauratie door Scindia Divan Madho van Gwalior, en gebruik als Brits militair
+  buitenpost na de opstand van 1857 — concrete, dateerbare gebeurtenissen, niet vaag.
+- KANTTEKENING (eerlijk vermeld, niet verzwegen): CCI heeft GEEN directe toegang tot de
+  originele inscriptietekst zelf of tot een archeologisch ASI-rapport specifiek over Adi Keshava
+  Ghat zelf — de ASI-opgraving die wél bevestigd is (1940, bij de uitbreiding van het
+  Kashi-spoorwegstation) betreft het aangrenzende Raj Ghat-gebied (de oude Gahadavala-hoofdstad),
+  niet een aparte, op naam genoemde opgraving van Adi Keshava Ghat zelf. De inscriptie- en
+  koninklijke-bezoek-claims steunen op secundaire historische samenvattingen, niet op een
+  primaire epigrafische publicatie die CCI zelf kon inzien.
+- De claim "4000 jaar oud" (uit één reisbron) is NIET onafhankelijk bevestigd en wordt hier
+  bewust NIET overgenomen als feit — de wél bevestigde datering is de 12e-eeuwse inscriptie.
+
+### 4. Is de plek werkelijk levend en bezoekbaar?
+JA — actieve tempel met vermelde aarti-tijden, fysiek bezoekbaar, bewust rustiger/minder
+toeristisch dan de centrale ghats maar niet verlaten of ontoegankelijk.
+
+### 5. Zou het missen hiervan voor Mark aannemelijk echte sp
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=989 path=india5/reports/VARANASI_041_045_DEEPENING_CHECK.md blob_sha=99d86b1bf85893c2bf7111232e859df8fcf84b81 original_offset=8192 original_length=2394 payload_bytes=2394 chunk_index=2 chunk_count=3 classification=text
+ijt opleveren?
+Sterke case: dit is niet een willekeurige ghat maar (a) het enige noemenswaardige Vishnu-
+heiligdom in een verder Shiva-gedomineerd landschap, (b) de mythologische plek van Vishnu's
+eerste aankomst in Kashi, (c) een historisch (12e-eeuws) geattesteerde locatie, en (d) het
+letterlijke etymologische noordelijke tegenwicht van Assi Ghat (al A). Dit combineert een
+authentieke, niet-toeristische ervaring met een concrete, singuliere reden — geen generiek
+"nog een ghat".
+
+### 6. Is de locatie zelfstandig waardevol (niet alleen omdat de noordelijke ghatgrens nog ontbrak)?
+JA — de kernargumentatie is de singuliere Vishnu-status en de historische/etymologische
+specificiteit, niet "de ghat-lijst was nog niet compleet". Dat laatste argument is bewust niet
+gebruikt als beslissende grond.
+
+**EINDADVIES VNS-CAND-045: PASS** — aan Mark voorleggen voor A/B/C. De inhoudelijke logica is
+sterk en nu voldoende onderbouwd (overheidsbron + historische inscriptie via twee onafhankelijke
+bronnen), met een expliciet vermelde grens aan de zekerheid (geen directe inzage in de
+primaire inscriptietekst of een opgraving specifiek van deze ghat).
+
+---
+
+## Samenvatting
+
+| Kandidaat | Eindadvies | Belangrijkste nieuwe bevinding t.o.v. vorige ronde |
+|---|---|---|
+| 041 Parshvanath Digambar Jain Temple | **PASS** | Vividha Tirtha Kalpa (14e-eeuwse primaire Jain-tekst) + gedateerd 9e-11e-eeuws cultusbeeld onafhankelijk bevestigd |
+| 045 Adi Keshava Ghat | **PASS** | incredibleindia.gov.in + Gahadavala-inscriptie (ca. 1100 CE) onafhankelijk bevestigd via twee bronnen; enige Vishnu-heiligdom aan de ghats |
+
+Beide adviezen zijn CCI's inhoudelijke inschatting op basis van nu geverifieerde bronnen — geen
+vaststaand feit over Marks persoonlijke beleving, en geen A/B/C-besluit. Dat blijft uitsluitend
+aan Mark. Geen wijziging aangebracht aan de bestaande velden, status, nummer of A/B/C van
+VNS-CAND-041 of VNS-CAND-045 in `DISCOVERY_CANDIDATES.jsonl` — dit rapport is een apart,
+signalerend advies.
+
+---
+Geschreven door: CCI, op verzoek van INDIA2 (PR #23, verdiepingsopdracht na de WATCHLIST-
+uitkomst van commit d7fa783).
+Datum: 2026-08-03.
+Status: verdiepingsrapport, geen wijziging aan bestaande kandidaten/nummering/A-B-C/KML/PDF/
+hotel/dataset. Geen nieuwe locaties of categorieën gezocht — uitsluitend bronverificatie op de
+twee reeds genummerde kandidaten 041 en 045.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=990 path=decisions/ARUNACHALA_TIRUVANNAMALAI_A_ANCHOR_2026-08-18.md blob_sha=9a32f13c271b5a83b77a879997bf31ac213158cf original_offset=0 original_length=1614 payload_bytes=1614 chunk_index=0 chunk_count=1 classification=text
+# BESLUIT — ARUNACHALA / TIRUVANNAMALAI ALS A-ANKER
+
+Datum: 2026-08-18
+Beslist door: Mark
+Status: LOCKED_BY_MARK
+
+## Besluit
+Arunachala / Tiruvannamalai wordt behandeld als een A-anker voor de latere route- en clusteranalyse.
+
+Mark wil hier zeer graag heen en heeft een sterke persoonlijke affiniteit met de plek. Dit betekent: de plek mag niet stil verdwijnen in een algemene cluster-ranking.
+
+## Geen route-lock
+Dit besluit legt nog GEEN aantal nachten, vervoer, vlucht, hotel of exacte route vast. De uiteindelijke reis moet nog passen binnen de totale periode en de terugvlucht vanaf Delhi.
+
+## Clusterregel
+Na Arunachala wordt NIET automatisch Puducherry/Sri Aurobindo gekozen. Eerst worden landelijke AOAY- en deep-person-sweeps afgerond en op een clusterheatmap gelegd. Daarna wordt het sterkste redelijk nabije vervolgcluster gekozen op basis van totale missiedichtheid versus verplaatsingskosten.
+
+Puducherry/Sri Aurobindo is een positieve kandidaat omdat Mark Sri Aurobindo graag wil bezoeken, maar alleen als de totale AOAY/Top-X/spirituele opbrengst die verplaatsing rechtvaardigt.
+
+## Geografie
+- Arunachala = heilige berg.
+- Tiruvannamalai = stad in Tamil Nadu.
+- Sri Ramanasramam = Ramana Maharshi-ashram aan de voet van Arunachala.
+
+Behandel Tiruvannamalai lokaal als compact eigen cluster; aangrenzende steden/corridors zijn aparte clusters en worden pas later gekoppeld.
+
+## Volgorde
+`LANDELIJKE PERSONEN-SWEEPS -> CLUSTERHEATMAP -> REGIONALE CLUSTERSWEEPS -> MARK A/B/C -> ROUTE`.
+
+Arunachala blijft A-anker, maar de regionale sweep wacht tot de landelijke persoonslaag voldoende is afgerond.
+
+<<< END CHUNK >>>
+

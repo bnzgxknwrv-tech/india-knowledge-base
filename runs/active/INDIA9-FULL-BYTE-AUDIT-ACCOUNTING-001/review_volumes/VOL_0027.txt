@@ -1,0 +1,434 @@
+>>> CHUNK stream_row=386 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/ANANDAMAYI_FULL_CORPUS_REFERENCE.jsonl blob_sha=3de9e6af7cc2751aafac950847a107663512548f original_offset=208896 original_length=4096 payload_bytes=4096 chunk_index=51 chunk_count=54 classification=text
+anch": "runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001 (main working branch, CCI_TASK 084)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001", "source_record_id": "CCI084-19", "person_or_layer": "Anandamayi Ma", "raw_place_name": "Scindia Public School, Gwalior", "normalized_claim_name": "Scindia Public School, Gwalior", "event_scene_summary": null, "AOAY_chapter_scene_if_any": null, "personally_present": "JA", "R_class": "R2", "access_status": null, "physical_entity_key": "ANA-SF-039", "parent_entity_key": null, "current_address_or_locator": null, "evidence_status": "BEVESTIGD", "disposition": "PHYSICAL_ENTITY_LINKED", "notes": "verification overlay on SF-039 ('Scindia Public School, Gwalior'); CCI084 status=BEVESTIGD; same physical_entity_key, not counted as a second entity", "source_citation": "runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/RECONCILIATION_CCI_084.md", "source_commit_sha": null}
+{"master_row_id": "AR-0229", "source_family": "CCI084_ANANDAMAYI_RECONCILIATION", "source_branch": "runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001 (main working branch, CCI_TASK 084)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001", "source_record_id": "CCI084-21", "person_or_layer": "Anandamayi Ma", "raw_place_name": "Belur Math", "normalized_claim_name": "Belur Math", "event_scene_summary": null, "AOAY_chapter_scene_if_any": null, "personally_present": "JA", "R_class": "R2", "access_status": null, "physical_entity_key": "ANA-SF-086", "parent_entity_key": null, "current_address_or_locator": null, "evidence_status": "BEVESTIGD_VISIT", "disposition": "PHYSICAL_ENTITY_LINKED", "notes": "verification overlay on SF-086 ('Belur Math'); CCI084 status=BEVESTIGD_VISIT; same physical_entity_key, not counted as a second entity", "source_citation": "runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/RECONCILIATION_CCI_084.md", "source_commit_sha": null}
+{"master_row_id": "AR-0230", "source_family": "CCI084_ANANDAMAYI_RECONCILIATION", "source_branch": "runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001 (main working branch, CCI_TASK 084)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001", "source_record_id": "CCI084-22", "person_or_layer": "Anandamayi Ma", "raw_place_name": "Sant Ram Mandir, Nadiad", "normalized_claim_name": "Sant Ram Mandir, Nadiad", "event_scene_summary": null, "AOAY_chapter_scene_if_any": null, "personally_present": "JA", "R_class": "R2", "access_status": null, "physical_entity_key": "ANA-CCI084-22", "parent_entity_key": null, "current_address_or_locator": null, "evidence_status": "BEVESTIGD", "disposition": "PHYSICAL_ENTITY_LINKED", "notes": "CCI084 status=BEVESTIGD; no name match found among source-first claims or WIT's 39 -- standalone verification row", "source_citation": "runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/RECONCILIATION_CCI_084.md", "source_commit_sha": null}
+{"master_row_id": "AR-0231", "source_family": "CCI084_ANANDAMAYI_RECONCILIATION", "source_branch": "runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001 (main working branch, CCI_TASK 084)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001", "source_record_id": "CCI084-23", "person_or_layer": "Anandamayi Ma", "raw_place_name": "Badrikashram on Narmada", "normalized_claim_name": "Badrikashram on Narmada", "event_scene_summary": null, "AOAY_chapter_scene_if_any": null, "personally_present": "JA", "R_class": "R2", "access_status": null, "physical_entity_key": "ANA-CCI084-23", "parent_entity_key": null, "current_address_or_locator": null, "evidence_status": "BEVESTIGD_DISTINCT_FROM_HIMALAYAN_BADRINATH", "disposition": "PHYSICAL_ENTITY_LINKED", "notes": "CCI084 status=BEVESTIGD_DISTINCT_FROM_HIMALAYAN_BADRINATH; no name match found among source-first claims or WIT's 39 -- standalone verification row", "source_citation": "runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/RECONCILIATION_CCI_084.md", "source_commit_sha": null}
+{"master_row_id": "AR-0232", "source_family": "CCI084_ANANDAMAYI_RECONCILIATION", "source_branch": "runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001 (main working branch, CCI_TASK 084)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001", "source_record_id": "CCI084-24", "person
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=387 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/ANANDAMAYI_FULL_CORPUS_REFERENCE.jsonl blob_sha=3de9e6af7cc2751aafac950847a107663512548f original_offset=212992 original_length=4096 payload_bytes=4096 chunk_index=52 chunk_count=54 classification=text
+_or_layer": "Anandamayi Ma", "raw_place_name": "Rajghat Besant School Krishnamurti event", "normalized_claim_name": "Rajghat Besant School Krishnamurti event", "event_scene_summary": null, "AOAY_chapter_scene_if_any": null, "personally_present": "NEE", "R_class": null, "access_status": null, "physical_entity_key": "ANA-CCI084-24", "parent_entity_key": null, "current_address_or_locator": null, "evidence_status": "WEERLEGD_WRONG_SITE_CORRECT_SITE_KITTY_SHIVA_RAO_GARDEN", "disposition": "NEGATIVE/NONPRESENCE", "notes": "CCI084 status=WEERLEGD_WRONG_SITE_CORRECT_SITE_KITTY_SHIVA_RAO_GARDEN; no name match found among source-first claims or WIT's 39 -- standalone verification row", "source_citation": "runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/RECONCILIATION_CCI_084.md", "source_commit_sha": null}
+{"master_row_id": "AR-0233", "source_family": "CCI084_ANANDAMAYI_RECONCILIATION", "source_branch": "runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001 (main working branch, CCI_TASK 084)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001", "source_record_id": "CCI084-25", "person_or_layer": "Anandamayi Ma", "raw_place_name": "Vashishta Guha", "normalized_claim_name": "Vashishta Guha", "event_scene_summary": null, "AOAY_chapter_scene_if_any": null, "personally_present": "JA", "R_class": "R4", "access_status": null, "physical_entity_key": "ANA-CCI084-25", "parent_entity_key": null, "current_address_or_locator": null, "evidence_status": "EXTERNAL_ONLY_UNVERIFIED", "disposition": "STILL_UNRESOLVED", "notes": "CCI084 status=EXTERNAL_ONLY_UNVERIFIED; no name match found among source-first claims or WIT's 39 -- standalone verification row", "source_citation": "runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/RECONCILIATION_CCI_084.md", "source_commit_sha": null}
+{"master_row_id": "AR-0234", "source_family": "CCI084_ANANDAMAYI_RECONCILIATION", "source_branch": "runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001 (main working branch, CCI_TASK 084)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001", "source_record_id": "CCI084-26", "person_or_layer": "Anandamayi Ma", "raw_place_name": "Badrinath ashram/tempel", "normalized_claim_name": "Badrinath ashram/tempel", "event_scene_summary": null, "AOAY_chapter_scene_if_any": null, "personally_present": "JA", "R_class": "R4", "access_status": null, "physical_entity_key": "ANA-CCI084-26", "parent_entity_key": null, "current_address_or_locator": null, "evidence_status": "EXTERNAL_ONLY_UNVERIFIED", "disposition": "STILL_UNRESOLVED", "notes": "CCI084 status=EXTERNAL_ONLY_UNVERIFIED; no name match found among source-first claims or WIT's 39 -- standalone verification row", "source_citation": "runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/RECONCILIATION_CCI_084.md", "source_commit_sha": null}
+{"master_row_id": "AR-0235", "source_family": "CCI084_ANANDAMAYI_RECONCILIATION", "source_branch": "runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001 (main working branch, CCI_TASK 084)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001", "source_record_id": "CCI084-27", "person_or_layer": "Anandamayi Ma", "raw_place_name": "Dehradun/Varanasi Junction/Howrah station claims", "normalized_claim_name": "Dehradun/Varanasi Junction/Howrah station claims", "event_scene_summary": null, "AOAY_chapter_scene_if_any": null, "personally_present": "JA", "R_class": "R4", "access_status": null, "physical_entity_key": "ANA-CCI084-27", "parent_entity_key": null, "current_address_or_locator": null, "evidence_status": "EXTERNAL_ONLY_UNVERIFIED", "disposition": "STILL_UNRESOLVED", "notes": "CCI084 status=EXTERNAL_ONLY_UNVERIFIED; no name match found among source-first claims or WIT's 39 -- standalone verification row", "source_citation": "runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/RECONCILIATION_CCI_084.md", "source_commit_sha": null}
+{"master_row_id": "AR-0236", "source_family": "CCI084_ANANDAMAYI_RECONCILIATION", "source_branch": "runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001 (main working branch, CCI_TASK 084)", "source_task": "TOP11-EXTERNAL-AI-BENCHMARK-001", "source_record_id": "CCI084-28", "person_or_layer": "Anandamayi Ma", "raw_place_name": "Mandi royal gue
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=388 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/ANANDAMAYI_FULL_CORPUS_REFERENCE.jsonl blob_sha=3de9e6af7cc2751aafac950847a107663512548f original_offset=217088 original_length=662 payload_bytes=662 chunk_index=53 chunk_count=54 classification=text
+st location L156", "normalized_claim_name": "Mandi royal guest location L156", "event_scene_summary": null, "AOAY_chapter_scene_if_any": null, "personally_present": "JA", "R_class": "R5", "access_status": null, "physical_entity_key": "ANA-CCI084-28", "parent_entity_key": null, "current_address_or_locator": null, "evidence_status": "LIKELY_COMPILATION_ARTIFACT", "disposition": "STILL_UNRESOLVED", "notes": "CCI084 status=LIKELY_COMPILATION_ARTIFACT; no name match found among source-first claims or WIT's 39 -- standalone verification row", "source_citation": "runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/RECONCILIATION_CCI_084.md", "source_commit_sha": null}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=389 path=runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/INDIAROOD_DELTA_MATRIX.jsonl blob_sha=3ed676bc82aac1e58b3cdb6beb05c48571e64024 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=7 classification=text
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-1", "matched_id": "intern-2", "outcome": "MATCH_EXISTING", "place": "Badrinarayan-regio, algemeen", "note": "Drieweg-consistent (intern/extern/IndiaROOD)."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-2", "matched_id": "intern-1/ext-B01", "outcome": "MATCH_EXISTING", "place": "Drongiri/Dunagiri-grot", "note": "Drieweg-consistent (intern/extern/IndiaROOD)."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-3", "matched_id": "intern-14/ext-B01-S1", "outcome": "MATCH_EXISTING", "place": "YSS Pandukholi-grot", "note": "Drieweg-consistent (intern/extern/IndiaROOD)."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-4", "matched_id": "intern-1sub/ext-B02", "outcome": "MATCH_EXISTING", "place": "Gogash-rivieroever", "note": "Drieweg-consistent (intern/extern/IndiaROOD)."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-5", "matched_id": "intern-1sub/ext-B03", "outcome": "MATCH_EXISTING", "place": "Gouden paleis", "note": "Drieweg-consistent (intern/extern/IndiaROOD)."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-6", "matched_id": "intern-3/ext-B07", "outcome": "MATCH_EXISTING", "place": "Moradabad-huis", "note": "Drieweg-consistent (intern/extern/IndiaROOD)."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-7", "matched_id": "intern-5/ext-B08", "outcome": "MATCH_EXISTING", "place": "Kumbh Mela Allahabad, voeten wassen", "note": "Drieweg-consistent (intern/extern/IndiaROOD)."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-8", "matched_id": "intern-4/ext-B09", "outcome": "MATCH_EXISTING", "place": "Kumbh Mela 1894, brug+boom", "note": "Drieweg-consistent (intern/extern/IndiaROOD)."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-9", "matched_id": "intern-11(gecorrigeerd)/ext-B06", "outcome": "MATCH_EXISTING", "place": "Dashashwamedh Ghat", "note": "Drieweg-consistent (intern/extern/IndiaROOD)."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-10", "matched_id": "intern-6/ext-B10", "outcome": "MATCH_EXISTING", "place": "Rai Ghat-banyan", "note": "Drieweg-consistent (intern/extern/IndiaROOD)."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-11", "matched_id": "intern-7/ext-B11", "outcome": "MATCH_EXISTING", "place": "Lahiri's salon/drempel", "note": "Drieweg-consistent (intern/extern/IndiaROOD)."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-12", "matched_id": "intern-9/ext-B13", "outcome": "MATCH_EXISTING", "place": "4 Garpar Road", "note": "Drieweg-consistent (intern/extern/IndiaROOD)."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-13", "matched_id": "intern-10/ext-B05", "outcome": "MATCH_EXISTING", "place": "Keshabananda-grot", "note": "Drieweg-consistent (intern/extern/IndiaROOD)."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-32", "matched_id": "ext-B33", "outcome": "MATCH_EXISTING", "place": "Grot Haidakhan", "note": "Drieweg-consistent (intern/extern/IndiaROOD)."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-33", "matched_id": "ext-B34", "outcome": "MATCH_EXISTING", "place": "Tempeltje Kumaon Mount Kailash", "note": "Drieweg-consistent (intern/extern/IndiaROOD)."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-9", "matched_id": "intern-11/ext-B06", "outcome": "MATCH_EXISTING", "place": "Dashashwamedh Ghat", "note": "CONFIRMED: drievoudige cross-validatie van 088-locatiecorrectie.", "verdict": "CONFIRMED"}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-12", "matched_id": "intern-9/ext-B13", "outcome": "MATCH_EXISTING", "place": "4 Garpar Road", "note": "CONFIRMED: drievoudige cross-validatie dat '25 juli 1920' een latere SRF-datering is, niet AOAY hfst 37 zelf.", "verdict": "CONFIRMED"}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-14", "matched_id": "ext-B04", "outcome": "INDIAROOD_MORE_GRANULAR", "place": "Himalayakamp, brandend hout", "note": "IndiaROOD splitst B04 in twee gebeurtenissen."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-15", "matched_id": "ext-B04", "outcome": "INDIAROOD_MORE_GRANULAR", "place": "Rotsrichel/afgrondsprong", "note": "Zie IR-14."}
+{"person": "Mahavatar Babaji", "
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=390 path=runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/INDIAROOD_DELTA_MATRIX.jsonl blob_sha=3ed676bc82aac1e58b3cdb6beb05c48571e64024 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=7 classification=text
+indiarood_id": "IR-16", "matched_id": "ext-B14+B15", "outcome": "EXTERNAL_MORE_GRANULAR", "place": "Karar Ashram, Puri", "note": "Extern splitst in twee kamers; IndiaROOD houdt 1 record aan."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-18", "matched_id": "ext-B24", "outcome": "INDIAROOD_MORE_GRANULAR", "place": "Shiva/Muruga-tempel Parangipettai", "note": "Eigen rij t.o.v. extern sub-detail."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-19", "matched_id": "ext-negative-findings", "outcome": "INDIAROOD_ONLY_CLAIM", "place": "1974-schrijn Parangipettai", "note": "Methodologisch verschil: extern liet bewust weg, IndiaROOD nam op met zelfde ONZEKER/NEE-kwalificatie."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-20", "matched_id": "ext-B25", "outcome": "INDIAROOD_ONLY_VERIFIED", "place": "Calcutta/Dacca-ontvoering", "note": "IndiaROOD vindt zelf de Calcutta-vs-Dacca-brontegenspraak; extern miste dit.", "verdict": "CONFIRMED"}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-21", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Benares/Kashi, Sanskritstudie", "note": "Nieuw, niet apart geverifieerd dit taakbudget."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-24", "matched_id": "ext-unresolved-lead", "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Ramaiah's huis, 2 Arulananda Mudali St.", "note": "Adres CONFIRMED, specifieke 26-juli-1952-verschijning NIET teruggevonden in bron; IndiaROOD had dit zelf al gehedged.", "verdict": "PLAUSIBLE"}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-29", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Gauri Shankara Pitha (Hansavedas/Tryambaknath)", "note": "CONFIRMED Tier-1: nieuwe traditie, woordelijk bevestigd op hansavedas.org.", "verdict": "CONFIRMED"}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-30", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Dunagiri Harapriya Devi-tempel (Hansavedas)", "note": "CONFIRMED Tier-1, derde onafhankelijke fijnlocatie voor het 1861-verhaal.", "verdict": "CONFIRMED"}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-31", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Shivalik Mountains (Hansavedas)", "note": "CONFIRMED Tier-1, vaag/ALLEEN_PLAATS.", "verdict": "CONFIRMED"}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-34", "matched_id": "ext-B35", "outcome": "INDIAROOD_MORE_GRANULAR", "place": "Haidakhan Vishwa Mahadham", "note": "Zie Tak V-uitbreiding."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-35", "matched_id": "ext-B35", "outcome": "INDIAROOD_MORE_GRANULAR", "place": "Maha Shakti Dhuni", "note": "Zie Tak V-uitbreiding."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-36", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Anandpuri Ashram, Chilianaula", "note": "Haidakhan-tak, Tier-2 (bronnen toegankelijk bevonden, niet woordelijk herverifieerd dit taakbudget)."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-37", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Kathgharia Ashram", "note": "Haidakhan-tak, Tier-2 (bronnen toegankelijk bevonden, niet woordelijk herverifieerd dit taakbudget)."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-38", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Rechtbank Haldwani", "note": "Haidakhan-tak, Tier-2 (bronnen toegankelijk bevonden, niet woordelijk herverifieerd dit taakbudget)."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-39", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Militair ziekenhuis Allahabad", "note": "Haidakhan-tak, Tier-2 (bronnen toegankelijk bevonden, niet woordelijk herverifieerd dit taakbudget)."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-40", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Samb Sadashiv Kunj, Vrindavan", "note": "Haidakhan-tak, Tier-2 (bronnen toegankelijk bevonden, niet woordelijk herverifieerd dit taakbudget)."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-41", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Gwalior", "not
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=391 path=runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/INDIAROOD_DELTA_MATRIX.jsonl blob_sha=3ed676bc82aac1e58b3cdb6beb05c48571e64024 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=7 classification=text
+e": "Haidakhan-tak, Tier-2 (bronnen toegankelijk bevonden, niet woordelijk herverifieerd dit taakbudget)."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-42", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Jaipur", "note": "Haidakhan-tak, Tier-2 (bronnen toegankelijk bevonden, niet woordelijk herverifieerd dit taakbudget)."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-43", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Kudsia Ghat, Delhi", "note": "Haidakhan-tak, Tier-2 (bronnen toegankelijk bevonden, niet woordelijk herverifieerd dit taakbudget)."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-44", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Huis Mrs. Lal, Delhi", "note": "Haidakhan-tak, Tier-2 (bronnen toegankelijk bevonden, niet woordelijk herverifieerd dit taakbudget)."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-45", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Overige Delhi-devoteehuizen", "note": "Haidakhan-tak, Tier-2 (bronnen toegankelijk bevonden, niet woordelijk herverifieerd dit taakbudget)."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-46", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Bombay-devoteehuizen", "note": "Haidakhan-tak, Tier-2 (bronnen toegankelijk bevonden, niet woordelijk herverifieerd dit taakbudget)."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-47", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Privéhuis Vapi", "note": "Haidakhan-tak, Tier-2 (bronnen toegankelijk bevonden, niet woordelijk herverifieerd dit taakbudget)."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-48", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Manda Ashram", "note": "Haidakhan-tak, Tier-2 (bronnen toegankelijk bevonden, niet woordelijk herverifieerd dit taakbudget)."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-49", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Bandikui", "note": "Haidakhan-tak, Tier-2 (bronnen toegankelijk bevonden, niet woordelijk herverifieerd dit taakbudget)."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-50", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Familieboerderij Haldwani", "note": "Haidakhan-tak, Tier-2 (bronnen toegankelijk bevonden, niet woordelijk herverifieerd dit taakbudget)."}
+{"person": "Mahavatar Babaji", "indiarood_id": null, "matched_id": "ext-B12", "outcome": "088_ONLY_MISS", "place": "Barrackpore, Shankari Mai Jiew", "note": "IndiaROOD heeft hiervoor geen record."}
+{"person": "Mahavatar Babaji", "indiarood_id": null, "matched_id": "ext-B16", "outcome": "088_ONLY_MISS", "place": "Hariharananda, alleen stem Ranikhet", "note": "IndiaROOD heeft hiervoor geen record."}
+{"person": "Mahavatar Babaji", "indiarood_id": null, "matched_id": "ext-B17", "outcome": "088_ONLY_MISS", "place": "Daya Mata, Kathgodam-wachtkamer", "note": "IndiaROOD heeft hiervoor geen record."}
+{"person": "Mahavatar Babaji", "indiarood_id": null, "matched_id": "ext-B18", "outcome": "088_ONLY_MISS", "place": "Daya Mata, government rest house", "note": "IndiaROOD heeft hiervoor geen record."}
+{"person": "Mahavatar Babaji", "indiarood_id": null, "matched_id": "ext-B32", "outcome": "088_ONLY_MISS", "place": "Satyalok/Shibendu Lahiri", "note": "IndiaROOD heeft hiervoor geen record."}
+{"person": "Mahavatar Babaji", "indiarood_id": null, "matched_id": "ext-B19", "outcome": "088_ONLY_MISS", "place": "Neelkant Hill (Sri M)", "note": "Hele Sri M/Nath-traditie ontbreekt bij IndiaROOD."}
+{"person": "Mahavatar Babaji", "indiarood_id": null, "matched_id": "ext-B20", "outcome": "088_ONLY_MISS", "place": "Neelkant Hill, Mauni Baba's grot (Sri M)", "note": "Hele Sri M/Nath-traditie ontbreekt bij IndiaROOD."}
+{"person": "Mahavatar Babaji", "indiarood_id": null, "matched_id": "ext-B21", "outcome": "088_ONLY_MISS", "place": "Panar, Kakbhusundi Tal (Sri M)", "note": "Hele Sri M/Nath-traditie ontbreekt bij IndiaROOD."}
+{"person": "Mahavatar Babaji", "indiarood_id": null, "matched_id": "ext-B22", "outcome": "
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=392 path=runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/INDIAROOD_DELTA_MATRIX.jsonl blob_sha=3ed676bc82aac1e58b3cdb6beb05c48571e64024 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=7 classification=text
+088_ONLY_MISS", "place": "Kedarnath, geheim pad (Sri M)", "note": "Hele Sri M/Nath-traditie ontbreekt bij IndiaROOD."}
+{"person": "Mahavatar Babaji", "indiarood_id": null, "matched_id": "ext-B23", "outcome": "088_ONLY_MISS", "place": "Jaisalmer (Sri M)", "note": "Hele Sri M/Nath-traditie ontbreekt bij IndiaROOD."}
+{"person": "Mahavatar Babaji", "indiarood_id": "IR-11", "matched_id": "ext-B11-subclaim", "outcome": "UNRESOLVED", "place": "Pranabananda in Lahiri's huis", "note": "IndiaROOD noemt dit sub-element niet; blijft onopgelost zoals in 088."}
+{"person": "Lahiri Mahasaya", "indiarood_id": "LM-001", "matched_id": "intern-1/ext-1", "outcome": "MATCH_EXISTING", "place": "Ghurni geboorte 1828", "note": "Match tegen intern/extern-088."}
+{"person": "Lahiri Mahasaya", "indiarood_id": "LM-005", "matched_id": "intern-3/ext-6", "outcome": "MATCH_EXISTING", "place": "Vaderlijk huis Madanpura", "note": "Match tegen intern/extern-088."}
+{"person": "Lahiri Mahasaya", "indiarood_id": "LM-006", "matched_id": "intern-4/ext-9", "outcome": "MATCH_EXISTING", "place": "Joy Narayan Ghosal school", "note": "Match tegen intern/extern-088."}
+{"person": "Lahiri Mahasaya", "indiarood_id": "LM-009", "matched_id": "intern-3/ext-38", "outcome": "MATCH_EXISTING", "place": "Benares PWD-kantoor", "note": "Match tegen intern/extern-088."}
+{"person": "Lahiri Mahasaya", "indiarood_id": "LM-010", "matched_id": "intern-5/ext-38", "outcome": "MATCH_EXISTING", "place": "Ghazipur PWD-post", "note": "Match tegen intern/extern-088."}
+{"person": "Lahiri Mahasaya", "indiarood_id": "LM-011", "matched_id": "intern-6/ext-39", "outcome": "MATCH_EXISTING", "place": "Mirzapur PWD-post", "note": "Match tegen intern/extern-088."}
+{"person": "Lahiri Mahasaya", "indiarood_id": "LM-014", "matched_id": "intern-8/ext-44", "outcome": "MATCH_EXISTING", "place": "Naini Tal PWD-post", "note": "Match tegen intern/extern-088."}
+{"person": "Lahiri Mahasaya", "indiarood_id": "LM-015", "matched_id": "intern-7/ext-43", "outcome": "MATCH_EXISTING", "place": "Danapur PWD-kantoor", "note": "Match tegen intern/extern-088."}
+{"person": "Lahiri Mahasaya", "indiarood_id": "LM-017", "matched_id": "intern-9/ext-48-51", "outcome": "MATCH_EXISTING", "place": "Drongiri-grot/initiatie", "note": "Match tegen intern/extern-088."}
+{"person": "Lahiri Mahasaya", "indiarood_id": "LM-018", "matched_id": "intern-9sub/ext-50", "outcome": "MATCH_EXISTING", "place": "Gogash-rivieroever", "note": "Match tegen intern/extern-088."}
+{"person": "Lahiri Mahasaya", "indiarood_id": "LM-019", "matched_id": "intern-9sub/ext-51", "outcome": "MATCH_EXISTING", "place": "Gouden paleis", "note": "Match tegen intern/extern-088."}
+{"person": "Lahiri Mahasaya", "indiarood_id": "LM-023", "matched_id": "intern-10/ext-13-15", "outcome": "MATCH_EXISTING", "place": "Garudeshwar-huis", "note": "Match tegen intern/extern-088."}
+{"person": "Lahiri Mahasaya", "indiarood_id": "LM-021", "matched_id": "intern-11/ext-53", "outcome": "MATCH_EXISTING", "place": "Moradabad-huis, Babaji-oproep", "note": "Match tegen intern/extern-088."}
+{"person": "Lahiri Mahasaya", "indiarood_id": "LM-034", "matched_id": "intern-16/ext-32", "outcome": "MATCH_EXISTING", "place": "Manikarnika Ghat-crematie", "note": "Match tegen intern/extern-088."}
+{"person": "Lahiri Mahasaya", "indiarood_id": "LM-012", "matched_id": "ext-PP-Buxar", "outcome": "INDIAROOD_MORE_GRANULAR", "place": "Buxar PWD-post", "note": "CONFIRMED Tier-1 via rykym.org blogpost.", "verdict": "CONFIRMED"}
+{"person": "Lahiri Mahasaya", "indiarood_id": "LM-013", "matched_id": "ext-PP-Gorakhpur", "outcome": "INDIAROOD_MORE_GRANULAR", "place": "Gorakhpur PWD-post", "note": "CONFIRMED Tier-1 via rykym.org blogpost.", "verdict": "CONFIRMED"}
+{"person": "Lahiri Mahasaya", "indiarood_id": "LM-016", "matched_id": "ext-PP-Danapur-transfer", "outcome": "CONFLICT", "place": "Ranikhet-transferjaar 1861 vs 1868", "note": "Getrianguleerd via derde bron (RYKYM), nog niet definitief opgelost.", "verdict": "PLAUSIBLE"}
+{"person": "Lahiri Mahasaya", "indiarood_id": "LM-025", "matched_id": null, "outcome": "INDI
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=393 path=runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/INDIAROOD_DELTA_MATRIX.jsonl blob_sha=3ed676bc82aac1e58b3cdb6beb05c48571e64024 original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=7 classification=text
+AROOD_ONLY_CLAIM", "place": "Panchganga Ghat Ashram, Trailanga Swami-ontmoeting", "note": "CONFIRMED Tier-1 woordelijk via rykym.org, volledig nieuw voor beide eerdere detectoren.", "verdict": "CONFIRMED"}
+{"person": "Lahiri Mahasaya", "indiarood_id": "LM-026", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Rana Mahal Ghat, baksteen-episode", "note": "CONFIRMED Tier-1 woordelijk via rykym.org, volledig nieuw.", "verdict": "CONFIRMED"}
+{"person": "Lahiri Mahasaya", "indiarood_id": "LM-027", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Huis/binnenplaats Krishnaram, Rana Mahal", "note": "Zelfde bron-cluster als LM-026, niet apart Tier-1 herverifieerd."}
+{"person": "Lahiri Mahasaya", "indiarood_id": "LM-035", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Keshabananda's hermitage Hardwar (verschijning vóór overlijden)", "note": "CONFIRMED Tier-1 woordelijk in AOAY hfst 36 — dicht een lossless-gap in de oorspronkelijke interne freeze.", "verdict": "CONFIRMED"}
+{"person": "Lahiri Mahasaya", "indiarood_id": "LM-036", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Keshabananda's kamer Benares (postmortale verschijning)", "note": "CONFIRMED Tier-1 woordelijk in AOAY hfst 36.", "verdict": "CONFIRMED"}
+{"person": "Lahiri Mahasaya", "indiarood_id": "LM-037", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Panchanon Bhattacharya's huis Calcutta (postmortale verschijning)", "note": "CONFIRMED Tier-1 woordelijk in AOAY hfst 36.", "verdict": "CONFIRMED"}
+{"person": "Lahiri Mahasaya", "indiarood_id": "LM-038", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Pranabananda's onbekende stad (postmortale verschijning)", "note": "CONFIRMED Tier-1 woordelijk in AOAY hfst 36, incl. correcte Ranchi-disclaimer.", "verdict": "CONFIRMED"}
+{"person": "Lahiri Mahasaya", "indiarood_id": "LM-028", "matched_id": "ext-PP-21-Ramnagar", "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Ramnagar-paleis, Kashi Naresh-tutorschap", "note": "Drieweg-convergentie (PP + Bidyananda) op zelfde koning/prins; status BRON_GEBLOKKEERD -> PLAUSIBLE.", "verdict": "PLAUSIBLE"}
+{"person": "Lahiri Mahasaya", "indiarood_id": "LM-023", "matched_id": "ext-PP-13-D3158", "outcome": "INDIAROOD_ONLY_CLAIM", "place": "D/31/58 Madanpura adres", "note": "Convergentie via onafhankelijke moderne bron (yappe.in) i.p.v. PP.", "verdict": "PLAUSIBLE"}
+{"person": "Lahiri Mahasaya", "indiarood_id": "LM-029", "matched_id": "ext-PP-55-Bishnupur1886", "outcome": "CONFLICT", "place": "Bishnupur 1886, wiens huwelijk", "note": "IndiaROOD: zoon Dukari; extern-PP: dochter Harimohini. Onopgelost, geen van beide bronnen leesbaar."}
+{"person": "Lahiri Mahasaya", "indiarood_id": "LM-033", "matched_id": "intern-12-Allahabad-Kumbh", "outcome": "MATCH_EXISTING", "place": "Allahabad Kumbh Mela-aanwezigheid", "note": "Drieweg-consensus, bevestigt 088's eigen correctie op de externe negatieve bevinding.", "verdict": "CONFIRMED"}
+{"person": "Lahiri Mahasaya", "indiarood_id": null, "matched_id": "intern-18-Gorakhpur-Abinash", "outcome": "088_ONLY_MISS", "place": "Gorakhpur-materialisatie aan Abinash Babu (AOAY hfst 1)", "note": "IndiaROOD's Gorakhpur-record betreft alleen de PWD-post, niet deze scène."}
+{"person": "Lahiri Mahasaya", "indiarood_id": "NEG-LM-06", "matched_id": null, "outcome": "NEGATIVE_CONFIRMED", "place": "Dashashwamedh Ghat (niet-Lahiri)", "note": "IndiaROOD's eigen negatieve controle consistent met Babaji-reconciliatie: gebeurtenis is Ram Gopal/Babaji, niet Lahiri zelf."}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-001", "matched_id": "intern-1/ext-SY001-005,008", "outcome": "EXTERNAL_MORE_GRANULAR", "place": "Serampore-hermitage Priyadham", "note": "Match tegen intern/extern-088."}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-007", "matched_id": "intern-3/ext-SY018", "outcome": "MATCH_EXISTING", "place": "Lahiri Mahasaya's huis", "note": "Match tegen intern/extern-088."}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-013", "matched_id": "intern-4/ext-SY019-020", "outcome": "MATC
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=394 path=runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/INDIAROOD_DELTA_MATRIX.jsonl blob_sha=3ed676bc82aac1e58b3cdb6beb05c48571e64024 original_offset=20480 original_length=4096 payload_bytes=4096 chunk_index=5 chunk_count=7 classification=text
+H_EXISTING", "place": "Babaji-kamp Prayag Kumbha", "note": "Match tegen intern/extern-088."}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-015", "matched_id": "intern-1/ext-SY006-007", "outcome": "MATCH_EXISTING", "place": "Rai Ghat/banyanboom", "note": "Match tegen intern/extern-088."}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-019", "matched_id": "intern-2/ext-SY023-028", "outcome": "MATCH_EXISTING", "place": "Karar Ashram + samadhi", "note": "Match tegen intern/extern-088."}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-025", "matched_id": "ext-SY012", "outcome": "MATCH_EXISTING", "place": "Panthi boardinghouse", "note": "Match tegen intern/extern-088."}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-026", "matched_id": "intern-6/ext-SY009", "outcome": "MATCH_EXISTING", "place": "Serampore railway station", "note": "Match tegen intern/extern-088."}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-028", "matched_id": "ext-SY014", "outcome": "MATCH_EXISTING", "place": "Albert Hall", "note": "Match tegen intern/extern-088."}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-030", "matched_id": "intern-5/ext-SY029", "outcome": "MATCH_EXISTING", "place": "Simla markt/straten", "note": "Match tegen intern/extern-088."}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-031", "matched_id": "intern-5/ext-SY030", "outcome": "MATCH_EXISTING", "place": "Srinagar herberg", "note": "Match tegen intern/extern-088."}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-032", "matched_id": "intern-5/ext-SY031", "outcome": "MATCH_EXISTING", "place": "Shankaracharya-tempel", "note": "Match tegen intern/extern-088."}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-033", "matched_id": "intern-5/ext-SY032", "outcome": "MATCH_EXISTING", "place": "Gulmarg", "note": "Match tegen intern/extern-088."}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-034", "matched_id": "intern-5/ext-SY033", "outcome": "MATCH_EXISTING", "place": "Khilanmarg", "note": "Match tegen intern/extern-088."}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-035", "matched_id": "intern-5/ext-SY034", "outcome": "MATCH_EXISTING", "place": "Shalimar Bagh", "note": "Match tegen intern/extern-088."}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-036", "matched_id": "intern-5/ext-SY035", "outcome": "MATCH_EXISTING", "place": "Nishat Bagh", "note": "Match tegen intern/extern-088."}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-037", "matched_id": "intern-5/ext-SY036", "outcome": "MATCH_EXISTING", "place": "Dal Lake", "note": "Match tegen intern/extern-088."}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-042", "matched_id": "ext-SY037", "outcome": "MATCH_EXISTING", "place": "Regent Hotel Bombay, postume verschijning", "note": "Match tegen intern/extern-088."}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-009", "matched_id": "ext-SY016-017", "outcome": "MATCH_EXISTING", "place": "Rana Mahal, moeders woning", "note": "Match tegen intern/extern-088."}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-019", "matched_id": "088-eigen-correctie", "outcome": "MATCH_EXISTING", "place": "Mahasamadhi 9 maart / begrafenis 10 maart / bhandara 21 maart", "note": "CONFIRMED: drievoudige cross-validatie van 088's eigen datumzelfcorrectie.", "verdict": "CONFIRMED"}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-040", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Huis van rijke discipel/maharaja, weigering tot ontvangst", "note": "CONFIRMED Tier-1 woordelijk via anandaindia.org (Hare Krishna Ghosh).", "verdict": "CONFIRMED"}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-024", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "4 Garpar Road, foto's 1930", "note": "CONFIRMED Tier-1 woordelijk via anandaindia.org.", "verdict": "CONFIRMED"}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-020", "matched_id": "ext-SY021-BodhGaya", "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Bodh Gaya, monastieke geloften Krishnadayal Giri", "note": "Convergentie: zelfde Satyananda-bron als 088's geblokkeerde lead. BRON_GEBLOKKEERD -> PLAUSIBLE.", "verdict": "PLAUSIBLE"}
+{"person":
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=395 path=runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/INDIAROOD_DELTA_MATRIX.jsonl blob_sha=3ed676bc82aac1e58b3cdb6beb05c48571e64024 original_offset=24576 original_length=3114 payload_bytes=3114 chunk_index=6 chunk_count=7 classification=text
+ "Sri Yukteswar", "indiarood_id": "SY-005", "matched_id": "ext-SY013-CalcuttaMedCollege", "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Calcutta Medical College", "note": "Convergentie, zelfde upgrade als Bodh Gaya.", "verdict": "PLAUSIBLE"}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-002", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Goswami-familiehuis Serampore", "note": "Tier-2, nieuw voor beide eerdere detectoren, niet apart Tier-1 herverifieerd dit taakbudget."}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-016", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Santal-guru-hut, bergjungle", "note": "Tier-2, nieuw voor beide eerdere detectoren, niet apart Tier-1 herverifieerd dit taakbudget."}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-017", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Dabru Ballav's boshermitage, eastern Bengal", "note": "Tier-2, nieuw voor beide eerdere detectoren, niet apart Tier-1 herverifieerd dit taakbudget."}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-018", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Puri, astroloog Chandrakanta Shiromani", "note": "Tier-2, nieuw voor beide eerdere detectoren, niet apart Tier-1 herverifieerd dit taakbudget."}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-021", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Narendranath Basu's huis, Jeletola Street", "note": "Tier-2, nieuw voor beide eerdere detectoren, niet apart Tier-1 herverifieerd dit taakbudget."}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-022", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Pranabashram, Benares", "note": "Tier-2, nieuw voor beide eerdere detectoren, niet apart Tier-1 herverifieerd dit taakbudget."}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-023", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Tulsi Bose-huis/Sadhana Mandir", "note": "Tier-2, nieuw voor beide eerdere detectoren, niet apart Tier-1 herverifieerd dit taakbudget."}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-038", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Ghatal-festivalterrein", "note": "Tier-2, nieuw voor beide eerdere detectoren, niet apart Tier-1 herverifieerd dit taakbudget."}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-039", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Khukurdaha-festivalplek", "note": "Tier-2, nieuw voor beide eerdere detectoren, niet apart Tier-1 herverifieerd dit taakbudget."}
+{"person": "Sri Yukteswar", "indiarood_id": "SY-041", "matched_id": null, "outcome": "INDIAROOD_ONLY_CLAIM", "place": "Kamp bij Ganga Sagar Mela", "note": "Tier-2, nieuw voor beide eerdere detectoren, niet apart Tier-1 herverifieerd dit taakbudget."}
+{"person": "Sri Yukteswar", "indiarood_id": null, "matched_id": "N-14-1962-claim", "outcome": "NEGATIVE_CONFIRMED", "place": "Moyna school, chronologisch onmogelijke 1962-claim", "note": "IndiaROOD's eigen adversarial vondst: schoolwebsite beweert steenlegging 26 jaar na zijn dood; correct als fout gemarkeerd."}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=396 path=runs/active/BODHGAYA-DISCOVERY-001/ZILVER/ZILVER_REPORT.md blob_sha=400c8e3def2c31eeba623c9cd07d02fb74cebbf1 original_offset=0 original_length=3715 payload_bytes=3715 chunk_index=0 chunk_count=1 classification=text
+# ZILVER_REPORT — Bodh Gaya (046-049)
+
+run_id: BODHGAYA-DISCOVERY-001
+geschreven_op: 2026-08-03
+geschreven_door: CCI
+
+ZILVER-controle voor uitsluitend de vier genummerde kandidaten (046-049). Geen nummers gewijzigd,
+geen A/B/C, geen KML/PDF/reisplanning.
+
+## Methode voor GEO-verificatie
+
+Naast de reguliere brontoetsing is gezocht naar rechtstreekse Google Maps/Earth-entiteitsdata
+(via `google.com/earth/rpc/entity`-links die soms rechtstreeks in zoekresultaten verschijnen,
+inclusief Google Feature ID en, waar aanwezig, Google Plus Code) — een gestructureerde, door
+Google zelf teruggegeven respons, niet een tekstsamenvatting van een derde partij. Dit is een
+sterker bewijsniveau dan de eerdere "referentiecoördinaten van meerdere aggregatoren" en is voor
+twee van de vier kandidaten gevonden.
+
+## Per kandidaat
+
+### 046 — Mahabodhi Temple Complex
+
+`geo_status`: **CONFIRMED** (was `GOOGLE_MAPS_MARKER_NOT_CONFIRMED`). Rechtstreekse Google Earth-
+entiteit, naam-gematcht op "Mahabodhi Temple", coördinaat 24.6959222°N, 84.9914193°E. Identiteit,
+betekenis en bezoekbaarheid ongewijzigd bevestigd.
+
+### 047 — Sujata Stupa, Bakraur
+
+`geo_status`: **CONFIRMED** (was `GOOGLE_MAPS_MARKER_NOT_CONFIRMED`, expliciete conflictzaak).
+Rechtstreekse Google Earth-entiteit, naam-gematcht op "The Sujata Stupa" (niet slechts het dorp
+Bakraur), coördinaat 24.6979887°N, 85.0033228°E, met een Google Plus Code (M2X3+58W) als extra
+bevestiging. **047_CONFLICTUITKOMST: OPGELOST** — de eerder gevonden tweede coördinatenset
+(24.69791/85.00332) bleek er het dichtst bij te liggen; de andere twee sets zijn vervangen.
+
+### 048 — Dungeshwari Cave Temples (Mahakala Caves)
+
+`geo_status`: **ONGEWIJZIGD**, blijft `GOOGLE_MAPS_MARKER_NOT_CONFIRMED`. Twee aanvullende,
+wezenlijk verschillende zoekpogingen deze ronde (directe Google-entiteitszoekactie, gerichte
+coördinaat-zoekactie) leverden geen resultaat op. Identiteit blijft eenduidig bevestigd via twee
+overheidsbronnen. Geen schatting overgenomen.
+
+### 049 — Great Buddha Statue
+
+`geo_status`: **ONGEWIJZIGD**, blijft `GOOGLE_MAPS_MARKER_NOT_CONFIRMED`. Geen Google-entiteit
+gevonden; het Wikipedia-infobox-coördinaat blijft uitsluitend referentiemateriaal.
+
+**Inhoudelijke correctie gevonden**: de hoogte van het beeld bleek inconsistent tussen bronnen
+(18,5 m infobox / 20 m hoofdtekst voor het beeld zelf / 24 m totale constructie inclusief
+voetstuk en lotus — eerder in het kandidaatrecord onnauwkeurig samengevat als "25 meter"). Dit is
+gecorrigeerd in `DISCOVERY_CANDIDATES.jsonl` met vermelding van de brondiscrepantie.
+
+**Hercontrole OPTIONAL_PASS-status (specifiek gevraagd)**: bevestigd. De kernfeiten die de
+OPTIONAL_PASS-classificatie dragen — eerste/grootste in India gebouwde Boeddhabeeld op het moment
+van bouw, consecratie door de 14e Dalai Lama in 1989 — staan los van de exacte hoogtediscussie en
+blijven overeind. Geen aanleiding gevonden om de tier te wijzigen (niet naar CORE_PASS, niet naar
+WATCHLIST).
+
+## Samenvatting
+
+| # | Kandidaat | geo_status voor | geo_status na | Wijziging |
+|---|---|---|---|---|
+| 046 | Mahabodhi Temple Complex | NOT_CONFIRMED | **CONFIRMED** | rechtstreekse Google-entiteit |
+| 047 | Sujata Stupa | NOT_CONFIRMED (conflict) | **CONFIRMED** | conflict opgelost, rechtstreekse Google-entiteit |
+| 048 | Dungeshwari Cave Temples | NOT_CONFIRMED | NOT_CONFIRMED | geen wijziging, geen schatting |
+| 049 | Great Buddha Statue | NOT_CONFIRMED | NOT_CONFIRMED | geen wijziging; hoogtecijfer gecorrigeerd, OPTIONAL_PASS herbevestigd |
+
+Geen nummer gewijzigd. Geen A/B/C toegekend. Geen KML, PDF of reisplanning uitgevoerd.
+
+---
+Geschreven door: CCI, op verzoek van INDIA2/CHATGPT (PR #23, bericht 002).
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=397 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/MASTER_INGEST_STATE.md blob_sha=412d4ab1280bc56b84a0f9140541bfaac8ed7333 original_offset=0 original_length=2453 payload_bytes=2453 chunk_index=0 chunk_count=1 classification=text
+# MASTER INGEST STATE — 2026-08-20
+
+state: ROW_LEVEL_MASTER_BUILT__FULL_KNOWN_UNIVERSE_COMPLETENESS_CLOSURE_ACTIVE
+coordinator: INDIA8
+worker_limit: INDIA8 + CCI only
+
+## CCI P0 MASTER BUILD — COMPLETE FOR PROMOTED ROW UNIVERSE
+CCI commit `d1fa886c7733fef9b189d17bae4da6c241091ba4` created the real row-level master on `agent/india8-cluster-casting`.
+
+Accounting currently closes for 459 rows:
+`459 = 259 physical-entity-linked + 0 explicit duplicate + 33 negative/nonpresence + 167 still unresolved`
+
+Family rows:
+- BLAUW AOAY/Yogananda closure: 58
+- ROOD Core Kriya primary: 178
+- ROOD physical splits: 58
+- GEEL four-person: 126
+- WIT promoted Anandamayi/heritage: 39
+
+Entity index: 459 task-level physical keys. This is NOT yet the final unique GPS-place count.
+Canon 001-081, existing A/B/C and locks remain unchanged. ZILVER proximity remains authoritative; no coordinates guessed.
+
+## WHY MASTER IS NOT YET MARK-READY
+CCI documented concrete completeness exceptions. The 459-row accounting closes only for the promoted closure rows, not yet the full known source universe.
+
+P0 gaps now being closed:
+1. Anandamayi: 39 promoted rows must expand/reconcile against full known 156 external-union + 108 source-first + 28 CCI084 layers.
+2. AOAY/Yogananda: 58 closure rows must reconcile against full 123-place atlas, 1,359 raw occurrences as backlinks/accounting, 114 external-union records and CCI082/085/086 dispositions.
+3. Core Kriya: 146 primary anchors are preserved but require propagated readable location labels from authoritative freezes/deltas.
+4. TURQUOISE: TQ-ENT-014/015/018/019 relation joins need closure or explicit irreducible unresolved status.
+
+## ACTIVE STREAMS NOW
+1. CCI: `CENTRAL MASTER P0 COMPLETENESS CLOSURE`, dispatched on PR #23 comment `5354697915`.
+2. INDIA8: regie/QA; no color workers.
+
+## HARD GATE BEFORE MARK A/B/C
+Do NOT publish a new cluster A/B/C list until the full-known-source-universe accounting closes or remaining exceptions are explicitly proven irreducible and visible in the relevant cluster slice.
+
+## NEXT AFTER CCI COMPLETENESS CLOSURE
+If accounting passes: produce full decision-ready slices, first Vrindavan / Braj and Prayagraj / Allahabad, then Kumaon delta, Varanasi delta, Bodh Gaya delta, Tiruvannamalai / Arunachala full concrete layer.
+
+No silent filtering. Parent-child/successor separate. Babaji claimant traditions separate. East/South findings retained despite route deprioritization.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=398 path=handoffs/INDIA8_TO_INDIA9_DISPATCH_2026-08-20.md blob_sha=419fb5074fa838e8234eb155495d9fc6b1f043df original_offset=0 original_length=2892 payload_bytes=2892 chunk_index=0 chunk_count=1 classification=text
+# INDIA8 -> INDIA9 ACTIVE DISPATCH — 2026-08-20
+
+## LEES DIT EERST
+Dit is de actuele uitvoeringslaag bovenop `handoffs/INDIA8_TO_INDIA9_LIVE_2026-08-19.md`.
+
+## HOOFDREGEL
+Niet terug naar cluster-casting of Mark A/B/C voordat de all-findings location closure lossless genoeg is. De volgende fase is AL IN GANG GEZET als zes parallelle werkpakketten.
+
+## CENTRALE DISPATCH
+`runs/active/INDIA8-ALL-FINDINGS-DISPATCH-001/DISPATCH.md`
+
+## ZES ACTIEVE TAKEN
+1. BLAUW — `agent/indiablauw-trip-ops-prep`
+   `runs/active/INDIABLAUW-AOAY-YOGANANDA-LOCATION-CLOSURE-001/TASK.md`
+   P0: AOAY/Yogananda exact-location + access closure.
+
+2. ROOD — `agent/indiarood-core-kriya-sweep`
+   `runs/active/INDIAROOD-CORE-KRIYA-LOCATION-CLOSURE-001/TASK.md`
+   Babaji/Lahiri/Sri Yukteswar physical resolution.
+
+3. GEEL — `agent/indiageel-ramana-ramakrishna-sweep`
+   `runs/active/INDIAGEEL-FOURPERSON-LOCATION-CLOSURE-001/TASK.md`
+   NKB/Ram Dass/Ramana/Ramakrishna compound rows -> physical entities.
+
+4. WIT — `agent/indiawit-master-travel-readiness`
+   `runs/active/INDIAWIT-ANANDAMAYI-HERITAGE-LOCATION-CLOSURE-001/TASK.md`
+   Anandamayi lossless union + heritage stays/rooms/hotels.
+
+5. ZILVER — `agent/indiazilver-cluster-completeness-audit`
+   `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/TASK.md`
+   protected canon + coordinates + <=1/3 km + NEW_ID_REQUIRED prep.
+
+6. TURQUOISE — `agent/indiaturquoise-allperson-overlap`
+   `runs/active/INDIATURQUOISE-ENTITY-OVERLAP-RECONCILIATION-001/TASK.md`
+   cross-person entity merge/alias/parent-child/successor map.
+
+Alle zes hebben `STATUS.md = READY` op hun eigen branch.
+
+## WAT INDIA9 DOET
+- Regisseert; wacht niet passief.
+- Zodra een agent COMPLETE meldt: lees outputs, registreer SHA's en integreer de bruikbare rows in de centrale all-findings master.
+- Als één agent vastloopt, laat andere pakketten doorlopen en maak desnoods een gerichte repair-task; geen globale stop.
+- Centrale accounting moet uiteindelijk sluiten: ieder source record -> physical entity / duplicate / negative/nonpresence / unresolved.
+- Pas na centrale entity reconciliation nieuwe permanente IDs toekennen via gecontroleerd traject; ZILVER mag ze alleen voorbereiden.
+- Daarna R4/R5-restanten sluiten, vervolgens Mark A/B/C per cluster.
+
+## PRIORITEIT
+P0 AOAY/Yogananda personal scenes.
+P1 zekere reisclusters Kumaon, Varanasi, Bodh Gaya, Tiruvannamalai / Arunachala.
+P2 Vrindavan/Braj + Prayagraj/Allahabad voor clusterbesluit.
+P3 overige data, inclusief Oost, volledig bewaren maar niet routepromoveren.
+
+## GEEN STILSTAND
+Als Mark zegt 'doorgaan', bepaalt INDIA9 zelf de eerstvolgende onvoltooide integratie-/repair-/resolutionstap en voert die direct uit. Geen antwoord eindigen met alleen 'dit staat in de handoff' of 'volgende stap is...'. Een volgende stap moet, voor zover technisch mogelijk, in dezelfde beurt worden gestart of uitgevoerd.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=399 path=runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/BABAJI_INDIAROOD_DELTA.md blob_sha=4257252565bc3c722413c127dad59bc558c23882 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+# BABAJI_INDIAROOD_DELTA
+
+```
+task_id: TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001
+cci_task: CCI_TASK 092
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-19
+indiarood_input: agent/indiarood-core-kriya-sweep, commit f9e7e25bec3716687f5fd2562c119baf31ea22ef,
+  runs/active/TOP11-INDIAROOD-BLIND-SWEEP-001/BABAJI_INDIAROOD_FREEZE.md (50 records)
+  — blob-sha 463e7822dcbb5af4d404fa4016ffa4b415914abd, geverifieerd vóór opening (exacte match).
+cci_088_input: runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/BABAJI_RECONCILIATION.md
+  (14 interne + 35 externe ChatGPT-records, reeds gecorrigeerd in CCI_TASK 088)
+```
+
+## 0. Canonieke Babaji-regel — bevestigd toegepast
+
+`decisions/BABAJI_MYTHIC_FIGURE_EVIDENCE_RULE_2026-08-19.md` gelezen vóór aanvang. IndiaROOD's
+eigen freeze past deze regel al structureel toe (zie zijn "Leeswijzer en bewijslat"-sectie): geen
+enkel record daar beweert `HISTORICALLY_VERIFIED_BABAJI_PRESENCE: JA`, alle vier claimant-tradities
+blijven strikt gescheiden, en Haidakhan Baba's traditie-eigen aanwezigheid wordt expliciet los
+gehouden van de Mahavatar-identiteitsclaim (`JA (Haidakhan Baba) / ONZEKER (Mahavatar-identiteit)`).
+Deze delta bevestigt dat en wijzigt niets aan die scheiding.
+
+## 1. Overzicht — vijf claimant-tradities, drie detectoren
+
+| tradities | intern (088) | extern ChatGPT (088) | IndiaROOD |
+|---|---:|---:|---:|
+| I. Yogananda/Lahiri/Sri Yukteswar (AOAY) | 14 (na 088-correcties effectief ~15 sub-rijen) | 15 (B01-B13, B16-B18 excl., B32) | 15 |
+| II. Hariharananda (Karar Ashram) | 0 (buiten AOAY-scope) | 3 (B14-B16) | 1 |
+| III. Tamil Babaji-Nagaraj/Ramaiah | 0 | 8 (B24-B31) | 12 |
+| — Sri M/Maheshwarnath "Sri Guru Babaji" (Nath) | 0 | 5 (B19-B23) | **0 — volledig gemist** |
+| IV. Hansavedas/Tryambaknath | 0 | **0 — bestond niet in extern** | **3 — nieuwe traditie, Tier-1 bevestigd** |
+| V. Haidakhan Baba | 0 | 3 (B33-B35) | **19 — sterk granulaire uitbreiding** |
+| **Totaal** | 14 | 35 | **50** |
+
+## 2. Directe bronverificatie uitgevoerd deze taak
+
+| claim | route | resultaat |
+|---|---|---|
+| IndiaROOD-record 12 (4 Garpar Road-datum): "25 juli 1920 **volgens latere SRF-datering**" | tekstuele lezing van IndiaROOD's eigen formulering | **CONFIRMED — drievoudige cross-validatie.** IndiaROOD formuleert dit zelf al hedged, exact zoals CCI_TASK 088 vaststelde dat AOAY hfst. 37 deze datum niet zelf noemt. Sterke onafhankelijke bevestiging van de 088-hallucinatiecorrectie op de externe ChatGPT-freeze. |
+| IndiaROOD-record 9 (Dashashwamedh Ghat i.p.v. Ram Gopal's eigen grot) | vergelijking met 088's eigen bronmatige correctie | **CONFIRMED — drievoudige cross-validatie.** IndiaROOD kwam onafhankelijk tot exact dezelfde locatiecorrectie die CCI in 088 zelf bronmatig vaststelde (AOAY hfst. 33: Lahiri stuurt Ram Gopal naar de ghat, niet naar diens eigen grot). |
+| Hansavedas/Tryambaknath-traditie (records 29-31): "Tryambaknath... also popularly known as Mahavatar Babaji"; Gauri Shankara Pitha/Keshav Prayag/Alaknanda-Saraswati-samenvloeiing; Dunagiri Harapriya Devi-tempel-koppeling aan Lahiri's 1860s-initiatie | rechtstreeks gefetcht en volledig doorzocht: `https://hansavedas.org/path-of-yoga/` (2026-08-19) | **VOLLEDIG BEVESTIGD, woordelijk.** Citaat teruggevonden: "the great siddha Tryambakanātha (also spelled Tryambaknath), who is also popularly known as Mahavatar Babaji... based out of the GauriŚankara Pīṭha located near Keshav Prayag — the confluence of Alaknanda and Saraswati rivers..."; en: "the great n_a_th siddha Tryambaknath to Lahiri Mahashaya during the 1860s, near the Dunagiri Harapriya Devi Temple in the Kumaon mountain ranges." Dit is een **volledig nieuwe, eerder in dit project onbekende Babaji-claimanttraditie**, correct gescheiden gehouden door IndiaROOD van de andere vier. |
+| IndiaROOD-record 24 (Ramaiah's huis, 2 Arulananda Mudali Street, verschijning 26 juli 1952) | rechtstreeks gefetcht: `https://mail.babajiskriyayoga.net/english/articles/art25-yogi-ssa-ramaiah.htm` | **ADRES BEVESTIGD** ("at their seaside cottage, at number 2, Arulananda Mudali St
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=400 path=runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/BABAJI_INDIAROOD_DELTA.md blob_sha=4257252565bc3c722413c127dad59bc558c23882 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+reet... San Thome, Mylapore, Madras"), **specifieke datum/verschijningsclaim NIET teruggevonden** in deze bron — de tekst beschrijft Ramaiah's ziekbed daar en de oprichting van "Kriya Babaji Sangah" op 10 oktober 1952, maar geen aparte "26 juli"-verschijning. IndiaROOD had dit zelf al eerlijk gehedged ("geen rechtstreeks openbaar primaire passage gevonden die zowel de fysieke verschijning als dit adres samen bevestigt") — **geen hallucinatie, correct als zwak/inferentieel gelabeld door IndiaROOD zelf.** |
+
+## 3. Matrix — Tak I (Yogananda/Lahiri/Sri Yukteswar)
+
+| IndiaROOD # | interne/externe match | uitkomst | toelichting |
+|---:|---|---|---|
+| 1 (Badrinarayan-regio, algemeen) | intern record 2 | `MATCH_EXISTING` | Drie detectoren komen hier onafhankelijk tot hetzelfde "alleen regio"-oordeel. |
+| 2 (Drongiri/Dunagiri-grot) | intern 1 / ext B01 | `MATCH_EXISTING` | Drieweg-match. |
+| 3 (YSS Pandukholi-grot) | intern 14 / ext B01-S1 | `MATCH_EXISTING` | Drieweg-match. |
+| 4 (Gogash-rivieroever) | intern 1-sublocatie / ext B02 | `MATCH_EXISTING` | Drieweg-match. |
+| 5 (gouden paleis) | intern 1-sublocatie / ext B03 | `MATCH_EXISTING` | Drieweg-match. |
+| 6 (Moradabad-huis) | intern 3 / ext B07 | `MATCH_EXISTING` | Drieweg-match. |
+| 7 (Kumbh Mela Allahabad, voeten wassen) | intern 5 / ext B08 | `MATCH_EXISTING` | Drieweg-match. |
+| 8 (Kumbh Mela 1894, brug+boom) | intern 4 / ext B09 | `MATCH_EXISTING` | Drieweg-match. |
+| 9 (Dashashwamedh Ghat) | intern 11(gecorrigeerd) / ext B06 | `MATCH_EXISTING` — **CONFIRMED**, zie §2 | Drievoudige cross-validatie van de 088-correctie. |
+| 10 (Rai Ghat-banyan) | intern 6 / ext B10 | `MATCH_EXISTING` | Drieweg-match. |
+| 11 (Lahiri's salon/drempel) | intern 7 / ext B11 | `MATCH_EXISTING` | IndiaROOD noemt de Pranabananda-subclaim niet — blijft `UNRESOLVED` zoals in 088. |
+| 12 (4 Garpar Road) | intern 9 / ext B13 | `MATCH_EXISTING` — **CONFIRMED**, zie §2 | Drievoudige cross-validatie van de datumcorrectie. |
+| 13 (Keshabananda-grot) | intern 10 / ext B05 | `MATCH_EXISTING` | Drieweg-match. |
+| 14 (Himalayakamp, brandend hout) | intern (088-toevoeging) / ext B04 (eerste helft) | `INDIAROOD_MORE_GRANULAR` | IndiaROOD splitst B04 in twee losse gebeurtenissen; 088 had ze samengevoegd. |
+| 15 (rotsrichel/afgrondsprong) | intern (088-toevoeging) / ext B04 (tweede helft) | `INDIAROOD_MORE_GRANULAR` | Zie 14 — legitieme granulariteitswinst, beide incidenten staan apart in AOAY hfst. 33. |
+| — | ext B12 (Barrackpore, Shankari Mai Jiew) | `088_ONLY_MISS` | IndiaROOD heeft geen Barrackpore-record — gemist t.o.v. extern ChatGPT. |
+| — | ext B16 (Hariharananda, alleen stem Ranikhet) | `088_ONLY_MISS` | Zie Tak II. |
+| — | ext B17 (Daya Mata, Kathgodam-wachtkamer-visioen) | `088_ONLY_MISS` | IndiaROOD heeft geen Daya-Mata-pelgrimage-records. |
+| — | ext B18 (Daya Mata, government rest house) | `088_ONLY_MISS` | Idem. |
+| — | ext B32 (Satyalok/Shibendu Lahiri) | `088_ONLY_MISS` | IndiaROOD heeft geen jaren-'80-Shibendu-Lahiri-record; blijft `UNRESOLVED` zoals in 088. |
+
+## 4. Matrix — Tak II (Hariharananda)
+
+| IndiaROOD # 16 (Karar Ashram, twee bezoeken, 1949) | ext B14+B15 | `EXTERNAL_MORE_GRANULAR` | Extern splitst in twee kamers (gesloten meditatiekamer + kleine Kali-pujakamer); IndiaROOD houdt één record aan. Omgekeerde granulariteitsrichting dan Tak I — vermeldenswaardig, geen fout. |
+| — | ext B16 (alleen stem, Ranikhet-route) | `088_ONLY_MISS` | Zie boven. |
+
+## 5. Matrix — Tak III (Tamil Babaji-Nagaraj/Ramaiah) en de gemiste Sri M-tak
+
+| IndiaROOD # | match | uitkomst | toelichting |
+|---:|---|---|---|
+| 17 (Parangipettai geboorte) | ext B24 | `MATCH_EXISTING` | |
+| 18 (Shiva/Muruga-tempel, vader priester) | ext B24 (sub-detail) | `INDIAROOD_MORE_GRANULAR` | IndiaROOD geeft dit een eigen rij. |
+| 19 (1974-schrijn) | ext negatieve-bevindingen-sectie (bewust NIET als record opgenomen) | `INDIAROOD_ONLY_CLAIM` — methodologisch verschil, geen feitenconflict | Extern koos ervoor de 1974-schrijn als negatief te documenteren i.p.v. als record; IndiaROOD neemt h
+<<< END CHUNK >>>
+

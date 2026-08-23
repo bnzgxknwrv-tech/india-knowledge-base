@@ -1,0 +1,417 @@
+>>> CHUNK stream_row=1370 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/RAW_OCCURRENCES.jsonl blob_sha=fd1e188e479e2bb4235c8119222078afb16eb4a1 original_offset=278527 original_length=4096 payload_bytes=4096 chunk_index=68 chunk_count=77 classification=text
+or": "on the Serampore station platform, waiting for the train.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01212", "chapter": 45, "raw_place_name": "Dehra Dun", "context_anchor": "disciples have built me a hermitage in Dehra Dun.”", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01213", "chapter": 45, "raw_place_name": "Himalayas", "context_anchor": "“Father, I am going to the Himalayas,” she told me. “Generous", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01214", "chapter": 45, "raw_place_name": "Calcutta", "context_anchor": "the home of a disciple in the Bhowanipur section of Calcutta. Mr.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01215", "chapter": 45, "raw_place_name": "Calcutta", "context_anchor": "Wright and I set out immediately from my father’s Calcutta home. As", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01216", "chapter": 45, "raw_place_name": "Calcutta", "context_anchor": "“At present, in Calcutta or Ranchi; but soon I shall be returning", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01217", "chapter": 45, "raw_place_name": "America", "context_anchor": "to America.”", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01218", "chapter": 45, "raw_place_name": "America", "context_anchor": "“America?”", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01219", "chapter": 45, "raw_place_name": "Ranchi", "context_anchor": "“At present, in Calcutta or Ranchi; but soon I shall be returning", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01220", "chapter": 45, "raw_place_name": "Ranchi", "context_anchor": "“Please come at least to Ranchi, with your disciples,” I said on", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01221", "chapter": 45, "raw_place_name": "Ranchi", "context_anchor": "A short time later the Ranchi VIDYALAYA was in gala array for the", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01222", "chapter": 45, "raw_place_name": "Ranchi", "context_anchor": "On one other occasion after her Ranchi visit I had opportunity to", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01223", "chapter": 45, "raw_place_name": "Bengal", "context_anchor": "in EAST-WEST. The saint was born in 1893 at Dacca in central Bengal.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01224", "chapter": 45, "raw_place_name": "Dacca", "context_anchor": "in EAST-WEST. The saint was born in 1893 at Dacca in central Bengal.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01225", "chapter": 45, "raw_place_name": "India", "context_anchor": "“Sir, please do not leave India without a glimpse of Nirmala Devi.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01226", "chapter": 45, "raw_place_name": "India", "context_anchor": "I had found many men of God-realization in India, but never before", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01227", "chapter": 45, "raw_place_name": "India", "context_anchor": "“The Blissful Mother travels widely in India; in many parts she has", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01228", "chapter": 46, "raw_place_name": "Gurpar Road", "context_anchor": "He often came to the Gurpar Road home to tutor my brother Bishnu.”", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01229", "chapter": 46, "raw_place_name": "Serampore", "context
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1371 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/RAW_OCCURRENCES.jsonl blob_sha=fd1e188e479e2bb4235c8119222078afb16eb4a1 original_offset=282623 original_length=4096 payload_bytes=4096 chunk_index=69 chunk_count=77 classification=text
+_anchor": "during his last Winter Solstice Festival in Serampore.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01230", "chapter": 46, "raw_place_name": "Benares", "context_anchor": "She soon returned with a piece of Benares silk, extending it in", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01231", "chapter": 46, "raw_place_name": "Purulia", "context_anchor": "where, or if, she lives. But in a few hours we shall reach Purulia;", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01232", "chapter": 46, "raw_place_name": "Purulia", "context_anchor": "Lambadar Dey, a lawyer of Purulia.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01233", "chapter": 46, "raw_place_name": "Purulia", "context_anchor": "retiring, as befits a Hindu widow, but our little circle in Purulia", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01234", "chapter": 46, "raw_place_name": "America", "context_anchor": "twenty-five years,” I concluded. “Sometimes in America I wondered", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01235", "chapter": 46, "raw_place_name": "America", "context_anchor": "“The Ford comes from America,” I told the lawyer. “It would be a", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01236", "chapter": 46, "raw_place_name": "America", "context_anchor": "“Nothing like this in America, Swamiji, eh?” laughed Sailesh", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01237", "chapter": 46, "raw_place_name": "Detroit", "context_anchor": "As one voice our party pledged loyalty to the Pride of Detroit.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01238", "chapter": 46, "raw_place_name": "Burdwan", "context_anchor": "high that I approached the Maharaja of Burdwan {FN46-2} and asked", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01239", "chapter": 46, "raw_place_name": "Burdwan", "context_anchor": "been rigorously investigated by the Maharaja of Burdwan. She employs", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01240", "chapter": 46, "raw_place_name": "Burdwan", "context_anchor": "Our way now led east through sun-baked rice fields into the Burdwan", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01241", "chapter": 46, "raw_place_name": "Ichapur", "context_anchor": "was her close neighbor in Nawabganj near Ichapur. {FN46-1} I made", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01242", "chapter": 46, "raw_place_name": "Ranchi", "context_anchor": "The Ranchi school had just been left behind us; we had risen before", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01243", "chapter": 46, "raw_place_name": "Bengal", "context_anchor": "part of Bengal he would be discovering next.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01244", "chapter": 46, "raw_place_name": "Bengal", "context_anchor": "in the isolated Bengal village of Biur. Her non-eating state has", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01245", "chapter": 46, "raw_place_name": "Bengal", "context_anchor": "heart of Bengal!”", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01246", "chapter": 46, "raw_place_name": "Bengal", "context_anchor": "section of Bengal. On through roads lined with dense vegetation;", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01247", "chapter": 46, "raw_place_name": "Bengal", "context_anc
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1372 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/RAW_OCCURRENCES.jsonl blob_sha=fd1e188e479e2bb4235c8119222078afb16eb4a1 original_offset=286719 original_length=4096 payload_bytes=4096 chunk_index=70 chunk_count=77 classification=text
+hor": "{FN46-1} In northern Bengal.", "source_type": "footnote", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01248", "chapter": 46, "raw_place_name": "Ganges", "context_anchor": "for the Nawabganj GHAT on the Ganges. On the way I encountered the", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01249", "chapter": 46, "raw_place_name": "Ganges", "context_anchor": "the Ganges, as though for a sacred initiation. As I left the river", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01250", "chapter": 46, "raw_place_name": "India", "context_anchor": "interest for all of India, and even for our brothers and sisters", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01251", "chapter": 47, "raw_place_name": "Self-Realization Fellowship", "context_anchor": "after my departure, into a Self-Realization Fellowship center,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01252", "chapter": 47, "raw_place_name": "Mount Washington", "context_anchor": "to California. In late 1936, lo! Mount Washington.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01253", "chapter": 47, "raw_place_name": "Los Angeles", "context_anchor": "The year-end holidays are celebrated annually at the Los Angeles", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01254", "chapter": 47, "raw_place_name": "Los Angeles", "context_anchor": "here in Los Angeles, and knew then that my prayer had been granted.”", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01255", "chapter": 47, "raw_place_name": "Los Angeles", "context_anchor": "[Illustration: Mr. E. E. Dickinson of Los Angeles; he sought a", "source_type": "caption", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01256", "chapter": 47, "raw_place_name": "California", "context_anchor": "to California. In late 1936, lo! Mount Washington.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01257", "chapter": 47, "raw_place_name": "Washington", "context_anchor": "to California. In late 1936, lo! Mount Washington.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01258", "chapter": 47, "raw_place_name": "Washington", "context_anchor": "had been in charge at Mt. Washington. From the paper tissues she", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01259", "chapter": 47, "raw_place_name": "Washington", "context_anchor": "of Mt. Washington.  At this eleventh annual celebration, he was", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01260", "chapter": 47, "raw_place_name": "Palestine", "context_anchor": "Gift-time! Presents from the earth’s far corners-Palestine, Egypt,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01261", "chapter": 47, "raw_place_name": "New York", "context_anchor": "on the BREMEN. The majestic Statue of Liberty in New York harbor", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01262", "chapter": 47, "raw_place_name": "Calcutta", "context_anchor": "bought in a Calcutta bazaar. “Mr. Dickinson will like this,” I had", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01263", "chapter": 47, "raw_place_name": "Benares", "context_anchor": "lifted a SARI of golden Benares silk.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01264", "chapter": 47, "raw_place_name": "England", "context_anchor": "in England to fulfill a promise, given sixteen months earlier, to", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01265", "chapter": 47, 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1373 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/RAW_OCCURRENCES.jsonl blob_sha=fd1e188e479e2bb4235c8119222078afb16eb4a1 original_offset=290815 original_length=4096 payload_bytes=4096 chunk_index=71 chunk_count=77 classification=text
+"raw_place_name": "England", "context_anchor": "England, too, is receptive to the timeless yoga message. Reporters", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01266", "chapter": 47, "raw_place_name": "England", "context_anchor": "Unforgettable weeks in England; days of sight-seeing in London,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01267", "chapter": 47, "raw_place_name": "England", "context_anchor": "India, England, France, Italy. How laboriously had Mr. Wright", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01268", "chapter": 47, "raw_place_name": "Chicago", "context_anchor": "“Twelve years later, a youth of seventeen, I visited Chicago with", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01269", "chapter": 47, "raw_place_name": "Chicago", "context_anchor": "“I left Chicago in a few days,” Mr. Dickinson went on, “and never", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01270", "chapter": 47, "raw_place_name": "Kashmir", "context_anchor": "miles for this glad occasion: GUCCHI mushrooms from Kashmir, canned", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01271", "chapter": 47, "raw_place_name": "America", "context_anchor": "“I have given many yoga lessons in India and America; but I must", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01272", "chapter": 47, "raw_place_name": "America", "context_anchor": "Our little party sailed from Southampton for America in late October", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01273", "chapter": 47, "raw_place_name": "America", "context_anchor": "receive the treasures intended for loved ones in America! Plaques", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01274", "chapter": 47, "raw_place_name": "London", "context_anchor": "My London class members laughed appreciatively; no political turmoils", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01275", "chapter": 47, "raw_place_name": "London", "context_anchor": "lecture again in London.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01276", "chapter": 47, "raw_place_name": "London", "context_anchor": "relationship. The London yoga students loyally organized themselves,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01277", "chapter": 47, "raw_place_name": "London", "context_anchor": "Unforgettable weeks in England; days of sight-seeing in London,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01278", "chapter": 47, "raw_place_name": "Mysore", "context_anchor": "Mysore, Shiva “bull’s eye” stones from Central Provinces, old Indian", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01279", "chapter": 47, "raw_place_name": "Mysore", "context_anchor": "lacquer work, Mysore ivory carvings, Persian slippers with their", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01280", "chapter": 47, "raw_place_name": "France", "context_anchor": "India, England, France, Italy. How laboriously had Mr. Wright", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01281", "chapter": 47, "raw_place_name": "India", "context_anchor": "“I have given many yoga lessons in India and America; but I must", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01282", "chapter": 47, "raw_place_name": "India", "context_anchor": "India was now a hallowed memory. It is September, 1936; I am", "source_type": "main_text", "physical_geographic_intended
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1374 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/RAW_OCCURRENCES.jsonl blob_sha=fd1e188e479e2bb4235c8119222078afb16eb4a1 original_offset=294911 original_length=4096 payload_bytes=4096 chunk_index=72 chunk_count=77 classification=text
+": "JA"}
+{"occurrence_id": "AOAY-OCC-01283", "chapter": 47, "raw_place_name": "India", "context_anchor": "India, England, France, Italy. How laboriously had Mr. Wright", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01284", "chapter": 47, "raw_place_name": "India", "context_anchor": "“Thank you, sir; it brings the pageant of India before my eyes.”", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01285", "chapter": 47, "raw_place_name": "India", "context_anchor": "India. {FN47-1} After he had given a soul-stirring talk, I went", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01286", "chapter": 47, "raw_place_name": "Italy", "context_anchor": "India, England, France, Italy. How laboriously had Mr. Wright", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01287", "chapter": 47, "raw_place_name": "Egypt", "context_anchor": "Gift-time! Presents from the earth’s far corners-Palestine, Egypt,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01288", "chapter": 48, "raw_place_name": "Self-Realization Fellowship", "context_anchor": "This Self-Realization Fellowship ashram had been made possible through", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01289", "chapter": 48, "raw_place_name": "Self-Realization Fellowship", "context_anchor": "arrangement of KRIYA and other Self-Realization Fellowship teachings", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01290", "chapter": 48, "raw_place_name": "Self-Realization Fellowship", "context_anchor": "the Self-Realization Fellowship center in Boston. What joy to see", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01291", "chapter": 48, "raw_place_name": "Self-Realization Fellowship", "context_anchor": "London Self-Realization Fellowship center wrote me in 1941, “and", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01292", "chapter": 48, "raw_place_name": "Calcutta University", "context_anchor": "educated at the Ranchi school and Calcutta University. I had summoned", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01293", "chapter": 48, "raw_place_name": "United States", "context_anchor": "law means that no one owns a United States copyright in these works,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01294", "chapter": 48, "raw_place_name": "United States", "context_anchor": "do practically ANYTHING in the United States with eBooks not protected", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01295", "chapter": 48, "raw_place_name": "United States", "context_anchor": "United States and you are located in the United States, we do not", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01296", "chapter": 48, "raw_place_name": "United States", "context_anchor": "United States and you are located in the United States, we do not", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01297", "chapter": 48, "raw_place_name": "United States", "context_anchor": "in a constant state of change. If you are outside the United States,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01298", "chapter": 48, "raw_place_name": "United States", "context_anchor": "country other than the United States.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01299", "chapter": 48, "raw_place_name": "United States", "context_anchor": "This eBook is for the use of anyone anywhere in the United States and most", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1375 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/RAW_OCCURRENCES.jsonl blob_sha=fd1e188e479e2bb4235c8119222078afb16eb4a1 original_offset=299007 original_length=4096 payload_bytes=4096 chunk_index=73 chunk_count=77 classification=text
+"occurrence_id": "AOAY-OCC-01300", "chapter": 48, "raw_place_name": "United States", "context_anchor": "are not located in the United States, you will have to check the laws", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01301", "chapter": 48, "raw_place_name": "United States", "context_anchor": "the United States without paying any fees or charges. If you are", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01302", "chapter": 48, "raw_place_name": "United States", "context_anchor": "outside the United States. U.S. laws alone swamp our small staff.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01303", "chapter": 48, "raw_place_name": "San Francisco", "context_anchor": "[Illustration: Speakers at a 1945 Interracial Meeting in San Francisco", "source_type": "caption", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01304", "chapter": 48, "raw_place_name": "Los Angeles", "context_anchor": "Soon I was dividing every fortnight between Los Angeles and Encinitas.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01305", "chapter": 48, "raw_place_name": "Los Angeles", "context_anchor": "and peace come to me from Los Angeles, sailing into port as a", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01306", "chapter": 48, "raw_place_name": "Los Angeles", "context_anchor": "Hill and the distant Los Angeles Planetarium. The church, finished", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01307", "chapter": 48, "raw_place_name": "Los Angeles", "context_anchor": "south of Los Angeles, and 25 miles north of San Diego.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01308", "chapter": 48, "raw_place_name": "Mississippi", "context_anchor": "state of Mississippi and granted tax exempt status by the Internal", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01309", "chapter": 48, "raw_place_name": "California", "context_anchor": "[Illustration: Encinitas, California, overlooking the Pacific.", "source_type": "caption", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01310", "chapter": 48, "raw_place_name": "California", "context_anchor": "California in quest of a small site for a seaside ashram; whenever I", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01311", "chapter": 48, "raw_place_name": "California", "context_anchor": "interviews with thousands in California, and through a world-wide", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01312", "chapter": 48, "raw_place_name": "California", "context_anchor": "California.—see hollywood.jpg]", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01313", "chapter": 48, "raw_place_name": "California", "context_anchor": "California—see sandiego.jpg]", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01314", "chapter": 48, "raw_place_name": "California", "context_anchor": "in California and China.” My companion threw a little stone into", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01315", "chapter": 48, "raw_place_name": "Washington", "context_anchor": "place in 1938 at Washington, D.C. Set amidst landscaped grounds,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01316", "chapter": 48, "raw_place_name": "Washington", "context_anchor": "“Friendship Heights.” The Washington leader is Swami Premananda,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01317", "chapter": 48, "raw_place_name": "Washington", "context_anchor": "him in 1928 to assume leadership of
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1376 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/RAW_OCCURRENCES.jsonl blob_sha=fd1e188e479e2bb4235c8119222078afb16eb4a1 original_offset=303103 original_length=4096 payload_bytes=4096 chunk_index=74 chunk_count=77 classification=text
+ the Washington Self-Realization", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01318", "chapter": 48, "raw_place_name": "Washington", "context_anchor": "Premananda accompanied me from Washington for a brief visit to", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01319", "chapter": 48, "raw_place_name": "Washington", "context_anchor": "Washington, D.C., whose leader, Swami Premananda, is here pictured", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01320", "chapter": 48, "raw_place_name": "Hollywood", "context_anchor": "was built and dedicated in 1942 at Hollywood. The site faces Olive", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01321", "chapter": 48, "raw_place_name": "Hollywood", "context_anchor": "[Illustration: Self-Realization Church of All Religions, Hollywood,", "source_type": "caption", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01322", "chapter": 48, "raw_place_name": "Encinitas", "context_anchor": "Encinitas hermitage built; it is a ‘welcome-home’ gift!” Sister", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01323", "chapter": 48, "raw_place_name": "Encinitas", "context_anchor": "[Illustration: Encinitas, California, overlooking the Pacific.", "source_type": "caption", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01324", "chapter": 48, "raw_place_name": "Encinitas", "context_anchor": "to thwart me. Gazing now over the broad acres of Encinitas, {FN48-1}", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01325", "chapter": 48, "raw_place_name": "Encinitas", "context_anchor": "at Encinitas the first of many Sunrise Services. Like the magi of", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01326", "chapter": 48, "raw_place_name": "Encinitas", "context_anchor": "Soon I was dividing every fortnight between Los Angeles and Encinitas.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01327", "chapter": 48, "raw_place_name": "Encinitas", "context_anchor": "Encinitas with its ocean stretches and mountain views, and above", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01328", "chapter": 48, "raw_place_name": "Encinitas", "context_anchor": "New Year’s week of 1945 found me at work in my Encinitas study,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01329", "chapter": 48, "raw_place_name": "Encinitas", "context_anchor": "comes twice annually from Boston to Encinitas.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01330", "chapter": 48, "raw_place_name": "Encinitas", "context_anchor": "the first of the oceanic seventy million square miles. “Encinitas", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01331", "chapter": 48, "raw_place_name": "Encinitas", "context_anchor": "{FN48-1} A small town on Coast Highway 101, Encinitas is 100 miles", "source_type": "footnote", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01332", "chapter": 48, "raw_place_name": "San Diego", "context_anchor": "1943 at San Diego. A quiet hilltop temple, it stands in a sloping", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01333", "chapter": 48, "raw_place_name": "San Diego", "context_anchor": "valley of eucalypti, overlooking sparkling San Diego Bay.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01334", "chapter": 48, "raw_place_name": "San Diego", "context_anchor": "[Illustration: Self-Realization Church of All Religions, San Diego,", "source_type": "caption", "physical_geographic_intended": "JA"}
+{"occurrence_id": 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1377 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/RAW_OCCURRENCES.jsonl blob_sha=fd1e188e479e2bb4235c8119222078afb16eb4a1 original_offset=307199 original_length=4096 payload_bytes=4096 chunk_index=75 chunk_count=77 classification=text
+"AOAY-OCC-01335", "chapter": 48, "raw_place_name": "San Diego", "context_anchor": "My companion in the chapel, Dr. Lloyd Kennell, the San Diego center", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01336", "chapter": 48, "raw_place_name": "San Diego", "context_anchor": "south of Los Angeles, and 25 miles north of San Diego.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01337", "chapter": 48, "raw_place_name": "New York", "context_anchor": "the time, April 18, 1926; the place, Carnegie Hall in New York.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01338", "chapter": 48, "raw_place_name": "Calcutta", "context_anchor": "educated at the Ranchi school and Calcutta University. I had summoned", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01339", "chapter": 48, "raw_place_name": "England", "context_anchor": "Another letter reached me from war-torn England just before America", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01340", "chapter": 48, "raw_place_name": "England", "context_anchor": "America, my India, my Philippines, my England, my Africa,’ will", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01341", "chapter": 48, "raw_place_name": "America", "context_anchor": "During my earlier years in America I had combed the coast of", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01342", "chapter": 48, "raw_place_name": "America", "context_anchor": "America you stayed in this city in a single room, without bath. I", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01343", "chapter": 48, "raw_place_name": "America", "context_anchor": "Another letter reached me from war-torn England just before America", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01344", "chapter": 48, "raw_place_name": "America", "context_anchor": "“Have you been happy in America? What about the disillusionments,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01345", "chapter": 48, "raw_place_name": "America", "context_anchor": "lay in the heart of America. With slow emphasis I went on, “But my", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01346", "chapter": 48, "raw_place_name": "America", "context_anchor": "America, my India, my Philippines, my England, my Africa,’ will", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01347", "chapter": 48, "raw_place_name": "America", "context_anchor": "in America—discussed with me the need for world colonies founded", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01348", "chapter": 48, "raw_place_name": "Ranchi", "context_anchor": "educated at the Ranchi school and Calcutta University. I had summoned", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01349", "chapter": 48, "raw_place_name": "Boston", "context_anchor": "the Self-Realization Fellowship center in Boston. What joy to see", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01350", "chapter": 48, "raw_place_name": "Boston", "context_anchor": "The Boston leader, Dr. M. W. Lewis, lodged my companion and myself", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01351", "chapter": 48, "raw_place_name": "Boston", "context_anchor": "wanted you to know that Boston possesses some luxurious apartments!”", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01352", "chapter": 48, "raw_place_name": "Boston", "context_anchor": "Boston, smiled at me pleadingly from outside 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1378 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/RAW_OCCURRENCES.jsonl blob_sha=fd1e188e479e2bb4235c8119222078afb16eb4a1 original_offset=311295 original_length=1695 payload_bytes=1695 chunk_index=76 chunk_count=77 classification=text
+my window. Soon we", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01353", "chapter": 48, "raw_place_name": "Boston", "context_anchor": "comes twice annually from Boston to Encinitas.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01354", "chapter": 48, "raw_place_name": "London", "context_anchor": "London Self-Realization Fellowship center wrote me in 1941, “and", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01355", "chapter": 48, "raw_place_name": "Europe", "context_anchor": "reach me during my stay in India and Europe. Astonishment, delight!", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01356", "chapter": 48, "raw_place_name": "China", "context_anchor": "in California and China.” My companion threw a little stone into", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01357", "chapter": 48, "raw_place_name": "India", "context_anchor": "reach me during my stay in India and Europe. Astonishment, delight!", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01358", "chapter": 48, "raw_place_name": "India", "context_anchor": "for EAST-WEST, direction of activities in India and numerous small", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-01359", "chapter": 48, "raw_place_name": "India", "context_anchor": "America, my India, my Philippines, my England, my Africa,’ will", "source_type": "main_text", "physical_geographic_intended": "JA"}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1379 path=runs/active/BODHGAYA-DISCOVERY-001/NUMBERING_REGISTRY.jsonl blob_sha=fe03dcbb10cfd135b641c5ec03de6d226f90a29e original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+{"registry_type":"IMMUTABLE_LOCATION_NUMBERING","scope":"ALL_INDIA_LOCATIONS","rule":"Elke kandidaat/fysieke locatie start altijd met haar vaste, permanente driecijferige nummer. Eenmaal toegekend wijzigt het nooit, wordt het nooit hergebruikt en blijft het permanent aan dezelfde fysieke locatie gekoppeld. Nieuwe locaties krijgen een nieuw vrij nummer. Nummering loopt voorlopig door tot 999.","decided_by":"Mark","decided_at":"2026-08-02","source_commit":"58be47b9d7bdb9e60187e11de13f687f0f8c09e4","continues_global_sequence_from":"VARANASI 001-045 (zie runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/NUMBERING_REGISTRY.jsonl); volgend vrij nummer geverifieerd via india5/scripts/validate_global_numbering.py"}
+{"candidate_id":"BGY-CAND-046","display_id":"046","canonical_name":"Mahabodhi Temple Complex","region":"BODHGAYA","assigned_at":"2026-08-03"}
+{"candidate_id":"BGY-CAND-047","display_id":"047","canonical_name":"Sujata Stupa, Bakraur","region":"BODHGAYA","assigned_at":"2026-08-03"}
+{"candidate_id":"BGY-CAND-048","display_id":"048","canonical_name":"Dungeshwari Cave Temples (Mahakala Caves)","region":"BODHGAYA","assigned_at":"2026-08-03"}
+{"candidate_id":"BGY-CAND-049","display_id":"049","canonical_name":"Great Buddha Statue","region":"BODHGAYA","assigned_at":"2026-08-03"}
+{"candidate_id":"BGY-CAND-050","display_id":"050","canonical_name":"Archaeological Museum of Bodh Gaya (ASI)","region":"BODHGAYA","assigned_at":"2026-08-05"}
+{"candidate_id":"BGY-CAND-051","display_id":"051","canonical_name":"Vishnupad Temple, Gaya","region":"BODHGAYA","assigned_at":"2026-08-05"}
+{"candidate_id":"BGY-CAND-052","display_id":"052","canonical_name":"Tergar Monastery","region":"BODHGAYA","assigned_at":"2026-08-05"}
+{"candidate_id":"BGY-CAND-053","display_id":"053","canonical_name":"Root Institute (FPMT)","region":"BODHGAYA","assigned_at":"2026-08-05"}
+{"candidate_id":"BGY-CAND-054","display_id":"054","canonical_name":"Wat Thai Buddhagaya (Thai Monastery)","region":"BODHGAYA","assigned_at":"2026-08-05"}
+{"candidate_id":"BGY-CAND-055","display_id":"055","canonical_name":"Royal Bhutan Monastery","region":"BODHGAYA","assigned_at":"2026-08-05"}
+{"candidate_id":"BGY-CAND-056","display_id":"056","canonical_name":"Namgyal Monastery (Bodhgaya) / Tibetaans klooster tegenover Mahabodhi","region":"BODHGAYA","assigned_at":"2026-08-05"}
+{"candidate_id":"BGY-CAND-057","display_id":"057","canonical_name":"Vietnamese Temple","region":"BODHGAYA","assigned_at":"2026-08-05"}
+{"candidate_id":"BGY-CAND-058","display_id":"058","canonical_name":"Japanese Temple / Indosan Nippon (Nipponzan-Myohoji)","region":"BODHGAYA","assigned_at":"2026-08-05"}
+{"correction_type": "CANONICAL_NAME_CORRECTION", "candidate_id": "BGY-CAND-056", "display_id": "056", "previous_canonical_name": "Namgyal Monastery (Bodhgaya) / Tibetaans klooster tegenover Mahabodhi", "corrected_canonical_name": "Tibetan Temple (Tibetaans klooster tegenover Mahabodhi)", "reason": "Eerdere naam bevatte een onbevestigde identificatie (Namgyal Monastery) en een onbevestigde Dalai Lama-connectie, gebruikt als primaire claim voor een permanent genummerde kandidaat. Officiele bron (tourism.bihar.gov.in, pagina Tibetan Temple) noemt geen Namgyal Monastery, geen Karma Temple, geen Dalai Lama. Nummer 056 blijft ongewijzigd (immutable), alleen de naam is gecorrigeerd. Zie GOUD/MARK_SELECTION_REPORT.md en PRE_BRONS/DISCOVERY_CANDIDATES.jsonl.", "decided_by": "INDIA2 (bericht 011)", "corrected_by": "CCI", "corrected_at": "2026-08-05"}
+{"candidate_id": "BGY-CAND-059", "display_id": "059", "canonical_name": "Metta Buddharam Temple (Silver Temple)", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-060", "display_id": "060", "canonical_name": "Palyul Namdroling Monastery (Ngagyur Palyul Thubten Shedrub Choekhor Dargyeling)", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-061", "display_id": "061", "canonical_name": "Burmese Vihara", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-062", "display_id": "062", "canonical_name": "Mahabodhi S
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1380 path=runs/active/BODHGAYA-DISCOVERY-001/NUMBERING_REGISTRY.jsonl blob_sha=fe03dcbb10cfd135b641c5ec03de6d226f90a29e original_offset=4096 original_length=3252 payload_bytes=3252 chunk_index=1 chunk_count=2 classification=text
+ociety of India (Bodh Gaya-centrum)", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-063", "display_id": "063", "canonical_name": "Padmasambhava Grand Temple and Nyingma Center", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-064", "display_id": "064", "canonical_name": "Chinese Temple", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-065", "display_id": "065", "canonical_name": "Bangladesh Buddhist Monastery", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-066", "display_id": "066", "canonical_name": "Cambodian Monastery", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-067", "display_id": "067", "canonical_name": "Korean Temple (Bunhwang-sa)", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-068", "display_id": "068", "canonical_name": "Shechen Monastery", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-069", "display_id": "069", "canonical_name": "Mongolian Temple", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-070", "display_id": "070", "canonical_name": "Mangala Gauri Temple (Shakti Peeth)", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-071", "display_id": "071", "canonical_name": "Pretshila Hill", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-072", "display_id": "072", "canonical_name": "Brahmayoni Hill / Gayasisa Stupa (Vuurpreek-locatie)", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-073", "display_id": "073", "canonical_name": "Jagannath Temple (naast Mahabodhi)", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-074", "display_id": "074", "canonical_name": "International Meditation Centre / Dhamma Bodhi (Vipassana, S.N. Goenka-lijn)", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-075", "display_id": "075", "canonical_name": "Jain Temple, Gaya (Bhagawan Mahavira)", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-076", "display_id": "076", "canonical_name": "Akshayavat (de onvergankelijke banyanboom)", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-077", "display_id": "077", "canonical_name": "Bitho Sharif Dargah", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+{"correction_type": "CANONICAL_NAME_CORRECTION", "candidate_id": "BGY-CAND-068", "display_id": "068", "previous_canonical_name": "Shechen Monastery", "corrected_canonical_name": "Shechen Monastery (Shechen Tennyi Dargyeling)", "reason": "Officiele naam Shechen Tennyi Dargyeling toegevoegd na verdere identiteitscontrole (INDIA6 bericht 026), die ook bevestigde dat 068 en 063 (Padmasambhava Grand Temple and Nyingma Center) DIFFERENT_LOCATIONS zijn. Nummer 068 blijft ongewijzigd (immutable), alleen de naam is aangevuld.", "decided_by": "INDIA6 (bericht 026)", "corrected_by": "CCI", "corrected_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-078", "display_id": "078", "canonical_name": "Gurdwara Sri Guru Tegh Bahadur Ji, Gaya", "region": "BODHGAYA", "assigned_at": "2026-08-06"}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1381 path=runs/active/TIRUVANNAMALAI-ARUNACHALA-CLUSTER-001/STATUS.md blob_sha=fea9b0941469a52a65a806f41ab1fb7dd3645557 original_offset=0 original_length=1432 payload_bytes=1432 chunk_index=0 chunk_count=1 classification=text
+# STATUS — TIRUVANNAMALAI-ARUNACHALA-CLUSTER-001
+
+```
+task_id: TIRUVANNAMALAI-ARUNACHALA-CLUSTER-001
+state: A_CLUSTER_LOCKED_BY_MARK__HOLD_FOR_YOGANANDA_EXTERNAL_CONTROL
+last_updated: 2026-08-18
+last_updated_by: INDIA
+MARK_CLUSTER_PRIORITY: A
+LOCKED_BY_MARK: JA
+```
+
+Mark wil Tiruvannamalai / Arunachala heel graag bezoeken en heeft dit cluster expliciet als **A-cluster** vastgezet.
+
+Dit is een clusterbesluit, NIET automatisch een individuele A/B/C-keuze voor ieder locatiepunt.
+
+Route-fit, aantal nachten en eventuele vervanging van een andere stad worden pas later beslist tegen de volledige 34-nachtenroute en de vaste terugvlucht vanaf Delhi.
+
+## Researchstatus
+- Regionale METHOD_V2 dubbele sweep: **NOG NIET GESTART**.
+- Landelijke Top-11 signalen: Ramana Maharshi + Yogananda aanwezig.
+- Exacte Yogananda–Ramana ontmoeting/Old Hall moet regionaal worden geverifieerd en als keuze-relevant subpunt worden behandeld.
+
+## HARD HOLD
+Geen inhoudelijke Arunachala/Yogananda discovery door CCI vóór ontvangst/freeze van de externe blanco Yogananda-union. Anders wordt de prospectieve Yogananda-control besmet.
+
+**next_allowed_step:** eerst externe Yogananda-union ontvangen en reconciliëren tegen freeze `cd0ff2b1`; daarna regionale Tiruvannamalai/Arunachala METHOD_V2 dubbele sweep starten. Daarna pas route-fit/nachten beoordelen.
+
+Geen routebesluit. Geen PDF. Geen permanente locatie-ID's vóór regionale reconciliatie.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1382 path=runs/active/TOP11-NKB-RAMDASS-CORE-SOURCE-RECOVERY-001/TASK.md blob_sha=ffb830c37f8819bbdab4bec6b23b592b62b5cac0 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# TASK — TOP11-NKB-RAMDASS-CORE-SOURCE-RECOVERY-001
+
+```
+task_id: TOP11-NKB-RAMDASS-CORE-SOURCE-RECOVERY-001
+cci_task: CCI_TASK 090
+issued_by: INDIA7
+issued_at: 2026-08-19
+target_branch: claude/werk-je-nu-of-niet-oa10y7
+state_on_issue: READY_FOR_CCI
+pdf_status: VERBODEN
+```
+
+## 1. Doel
+
+Heropen uitsluitend de grootste corpusgaten uit CCI_TASK 089 voor Neem Karoli Baba en Ram Dass,
+vóór externe vergelijking.
+
+Doelbronnen:
+
+### Neem Karoli Baba
+1. Ram Dass, *Miracle of Love*
+2. Dada Mukerjee, *By His Grace*
+
+### Ram Dass
+3. Ram Dass, *Be Here Now*
+4. *Sacred Wanderer* en/of de in CCI_TASK 089 bedoelde kernbiografische bronfamilie rond Ram Dass'
+   Indiareizen; identificeer titel/auteur/uitgave exact en voorkom titelverwarring.
+
+Dit is een gerichte source-recovery- en corpus-extractietaak. Geen brede nieuwe persoonsweep en
+geen externe reconciliatie.
+
+## 2. Blindheidsgrens — HARD
+
+Open of gebruik NIET:
+
+- `agent/chatgpt-top11-parallel-sweep`;
+- de externe NKB- of Ram-Dass-freezes, counts, bronlijsten of commits;
+- IndiaROOD-resultaten;
+- oude METHOD_V1/PHASE2-atlassen als discoverychecklist.
+
+De bestaande interne CCI_TASK 089-freezes mogen wel worden gelezen: dit is hun gerichte
+corpuscompletion-pass. Externe vergelijking volgt pas na een nieuwe INDIA-opdracht.
+
+## 3. Bronherstelroutes
+
+Probeer per doelbron meerdere legale, onafhankelijke routes:
+
+- officiële auteur-/organisatie-/uitgeverspagina;
+- bibliotheek- of archiefcatalogus met toegestane digitale inzage;
+- Internet Archive/Open Library of andere rechtmatig toegankelijke uitleen-/previewroute;
+- Google Books of uitgeverspreview;
+- officiële hoofdstukextracten, interviews of auteurspagina's;
+- lokaal/repo-beschikbaar bronbestand indien aanwezig;
+- andere gezaghebbende bron die de relevante tekst rechtstreeks reproduceert.
+
+Niet doen:
+
+- paywalls, loginbeveiliging, robotsblokkades of technische toegangscontrole omzeilen;
+- een zoeksnippet of AI-samenvatting als bronpassage behandelen;
+- een externe kandidatenlijst gebruiken om in het boek naar bevestiging te zoeken;
+- lange auteursrechtelijk beschermde passages in de repo kopiëren.
+
+Per route vastleggen: URL/bron, toegangsdatum, bereikbaarheid, doorzoekbaarheid, welk deel zichtbaar
+was en waarom `FULL`, `PARTIAL`, `UNAVAILABLE` of `BRON_GEBLOKKEERD`.
+
+## 4. Lossless extractie uit iedere herstelde bron
+
+Voor ieder daadwerkelijk leesbaar deel:
+
+1. lees corpus-first, niet kandidaat-first;
+2. registreer iedere India-gerelateerde fysieke plaatsoccurrence;
+3. bewaar huizen, kamers, veranda's, tuinen, hotels, stations, wegen, ziekenhuizen, ashrams,
+   tempels, retraites en naamloze verblijfplaatsen;
+4. onderscheid strikt:
+   - NKB persoonlijk aanwezig;
+   - Ram Dass persoonlijk aanwezig;
+   - verhaal over de ander zonder aanwezigheid van de onderzochte persoon;
+   - latere instelling/herdenking;
+   - visionair/postuum/symbolisch;
+   - plaats alleen als context;
+5. leg bronlocator, aanwezigheidstype en fysieke-identiteitstatus vast;
+6. noteer negatieve bevindingen en persoonsverwisselingen.
+
+Gebruik bij *Miracle of Love* en *By His Grace* verhalen over NKB niet automatisch als Ram
+Dass-locaties. Gebruik bij *Be Here Now* een door Ram Dass verteld NKB-verhaal niet automatisch als
+NKB-locatie zonder duidelijke gebeurtenisprovenance.
+
+## 5. Verplichte output
+
+Schrijf:
+
+- `runs/active/TOP11-NKB-RAMDASS-CORE-SOURCE-RECOVERY-001/SOURCE_RECOVERY_RESULT.md`;
+- `runs/active/TOP11-NKB-RAMDASS-CORE-SOURCE-RECOVERY-001/STATUS.md`.
+
+Werk bronmatig bij, zonder oude rows stil te overschrijven:
+
+- `runs/active/TOP11-NKB-RAMDASS-V2-PRE-EXTERNAL-001/NEEM_KAROLI_BABA_V2_PRE_EXTERNAL_FREEZE.md`;
+- `runs/active/TOP11-NKB-RAMDASS-V2-PRE-EXTERNAL-001/RAM_DASS_V2_PRE_EXTERNAL_FREEZE.md`;
+- de betrokken taak-STATUS;
+- `runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/STATUS.md`;
+- `governance/INDIA_SESSION_START.md`.
+
+Per persoon verplicht rapporteren:
+
+- eerdere recordcount;
+- nieuwe rechtstreeks uit kernbron geëxtraheerde occurrences/records;
+- duplicates versus echte toevoegingen;
+- gecorrigeerde aanwezigheid-/identiteitsclaims;
+- act
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1383 path=runs/active/TOP11-NKB-RAMDASS-CORE-SOURCE-RECOVERY-001/TASK.md blob_sha=ffb830c37f8819bbdab4bec6b23b592b62b5cac0 original_offset=4096 original_length=1293 payload_bytes=1293 chunk_index=1 chunk_count=2 classification=text
+uele corpuscoverage-matrix;
+- resterende bronblokkades;
+- herziene pre-external gates;
+- eerlijke saturationstatus.
+
+## 6. Checkpoints
+
+1. Werk de twee NKB-bronnen af en commit NKB-source-recovery als checkpoint.
+2. Werk daarna de twee Ram-Dass-bronfamilies af en commit Ram-Dass-source-recovery als checkpoint.
+3. Commit finale status/governance afzonderlijk indien nodig.
+
+Bij contextverlies hervat vanaf het laatste checkpoint. Geen afgerond bronpakket opnieuw starten.
+
+## 7. Stopvoorwaarde
+
+Stop wanneer alle vier doelbronfamilies minimaal via meerdere legale routes zijn onderzocht en
+iedere toegankelijke passage lossless is verwerkt, óf wanneer per bron een concrete blocker is
+bewezen.
+
+Plaats één CCI_RESULT-envelop op PR #23 met:
+
+- checkpointcommits;
+- bronstatus per werk;
+- recorddelta per persoon;
+- gates en resterende blockers;
+- bevestiging dat externe freezes niet zijn geopend;
+- exact `next_allowed_step`.
+
+## 8. Harde grenzen
+
+- Geen externe freeze/reconciliatie.
+- Geen IndiaROOD lezen.
+- Geen Ramana/Ramakrishna starten.
+- Geen AOAY-brede sweep.
+- Geen cluster/regio of heatmap.
+- Geen A/B/C namens Mark.
+- Geen permanente IDs.
+- Geen PDF.
+- Geen route/nachten/vervoer.
+- Geen PR #24 of externe branch wijzigen/mergen.
+- STOP na resultaatenvelop; wacht op INDIA-QA.
+
+<<< END CHUNK >>>
+

@@ -1,0 +1,552 @@
+>>> CHUNK stream_row=1120 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/BRONS/BRONS-B04.jsonl blob_sha=c22b93abcf551e83bc465ace89215c00979d3159 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+e":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Lolark Kund / Sri Lolarkeshwar Mahadev Temple","address":"Bhadaini, near Assi/Tulsi Ghat, Shivala, Varanasi, Uttar Pradesh 221005, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://kashi.gov.in/listing-details/lolark-kund-temple","supports":"Official Varanasi district listing confirms identity and Shivala/Bhadaini location"},{"url":"https://kevinstandagephotography.wordpress.com/2021/12/06/sri-lolarkeshwar-mahadev-temple-lolark-kund-varanasi-banaras-kashi/","supports":"Detailed on-site account confirms identity, sun-tank function and location near Tulsi Ghat"}],"reason":"Fysieke identiteit bevestigd als rechthoekige heilige waterput (kund) met Lolarkeshwar Mahadev-tempel, nabij Assi/Tulsi Ghat. Geen decimale coordinaten in de gevonden bronnen en geen publieke Google Maps-marker vastgesteld; oude vergelijkingscoordinaat niet hergebruikt.","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-038","canonical_name":"Ratneshwar Mahadev Temple","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.3113,"longitude":83.0145,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Ratneshwar Mahadev Mandir (het 'scheve/leunende' tempel)","address":"Manikarnika Ghat, Varanasi, Uttar Pradesh, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://en.wikipedia.org/wiki/Ratneshwar_Mahadev_temple","supports":"Confirms identity as the leaning Shiva temple at Manikarnika Ghat, its 9-degree tilt, and gives coordinate 25.3119,83.01603 close to the old comparison point"},{"url":"https://www.varanasiguru.com/ratneshwar-mahadev-temple/","supports":"Corroborates identity, location and leaning-temple description"}],"reason":"Fysieke identiteit ondubbelzinnig: het bekende scheve Shiva-tempeltje aan Manikarnika Ghat. De encyclopedische coordinaat (25.3119,83.01603) ligt dicht bij het oude vergelijkingscoordinaat, een goede onafhankelijke bevestiging, maar geen Google Maps-marker. Geen publieke Google Maps-marker geconfirmeerd; bestaand punt niet automatisch overgenomen.","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-039","canonical_name":"Shitala Mata Temple, Dashashwamedh","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.3064,"longitude":83.0105,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Shitala Mata Mandir, Shitala Ghat","address":"Shitala Ghat / near Dashashwamedh Ghat, Ghasi Tola / Bangali Tola, Varanasi, Uttar Pradesh 221001, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://kashi.gov.in/listing-details/shitala-mata-mandir","supports":"Official Varanasi district listing confirms identity and Shitala Ghat location adjoining Dashashwamedh Ghat"},{"url":"https://www.explorebanaras.in/place/shitala-mata-mandir/","supports":"Corroborates identity, address and Shakti-temple function"}],"reason":"Fysieke identiteit bevestigd als Shakti-tempel op Shitala Ghat, direct ten zuiden van Dashashwamedh Ghat. Geen publieke Google Maps-marker met ingesloten coordinaat vastgesteld; oude vergelijkingscoordinaat niet hergebruikt.","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-040","canonical_name":"Bharat Mata Temple","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.317,"longitude":82.989,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Bharat Mata Mandir","address":"Mahatma Gandhi Kashi
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1121 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/BRONS/BRONS-B04.jsonl blob_sha=c22b93abcf551e83bc465ace89215c00979d3159 original_offset=12288 original_length=1056 payload_bytes=1056 chunk_index=3 chunk_count=4 classification=text
+ Vidyapeeth campus, Varanasi, Uttar Pradesh, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://en.wikipedia.org/wiki/Bharat_Mata_Mandir","supports":"Confirms identity, 1936 construction by Babu Shiv Prasad Gupta, Gandhi inauguration, marble Akhand Bharat relief map, and gives coordinate 25.317222,82.989167 near-identical to the old comparison point"},{"url":"https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/bharat-mata-temple","supports":"Official government tourism source confirms identity and Kashi Vidyapeeth campus location"}],"reason":"Fysieke identiteit ondubbelzinnig bevestigd: het civiele 'tempel'-monument met reliëfkaart van India op de Kashi Vidyapeeth-campus. De encyclopedische coordinaat (25.317222,82.989167) komt vrijwel exact overeen met het oude vergelijkingscoordinaat, een sterke onafhankelijke bevestiging, maar geen Google Maps-marker. Geen publieke Google Maps-marker geconfirmeerd; bestaand punt niet automatisch overgenomen.","checked_at":"2026-08-02"}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1122 path=india4/.write_test_20260724.tmp blob_sha=c2926a334d8ce0cd2e55b3aa8b1d5102fc88d9f5 original_offset=0 original_length=35 payload_bytes=35 chunk_index=0 chunk_count=1 classification=text
+INDIA4 GitHub write test 2026-07-24
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1123 path=india4/protocols/GITHUB_REQUIRED.md blob_sha=c2bac54a2b3789d308888149f9ae2727b9752b99 original_offset=0 original_length=965 payload_bytes=965 chunk_index=0 chunk_count=1 classification=text
+# GITHUB REQUIRED
+
+Vóór ieder inhoudelijk werk:
+1. voer een echte repository-read uit;
+2. voer een echte niet-destructieve write uit en verwijder of overschrijf die test in dezelfde opdracht;
+3. lees de test terug.
+
+Ontbreekt read of write, antwoord exact: `MARK: IK MIS GITHUB CONNECTOR!`
+
+Een volledige rol blokkeert alleen bij:
+- ontbrekende GitHub-read;
+- ontbrekende GitHub-write;
+- ontbrekende oorspronkelijke runopdracht;
+- ontbrekende verplichte voorgangeroutput;
+- aantoonbaar lege, afgekapt of corrupte voorgangeroutput;
+- geldige bestaande completioncommit voor dezelfde rol;
+- direct conflict met een expliciet Mark-besluit.
+
+Niet blokkerend: één onzekere kandidaat, één ontbrekende bron, één onbekende locatie, geen directe visuele Google Maps-interface, ontbrekende protocol-SHA of technisch niet-kritieke metadata-afwijking.
+
+Iedere rol schrijft, commit en leest zijn eigen bestanden terug. Geen hash-pinning of controllertransition vereist.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1124 path=runs/active/TOP11-NKB-RAMDASS-V2-PRE-EXTERNAL-001/TASK.md blob_sha=c3ee3d802afcb5e3753ea1aac4afb980fb11da81 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# TASK — TOP11-NKB-RAMDASS-V2-PRE-EXTERNAL-001
+
+```
+task_id: TOP11-NKB-RAMDASS-V2-PRE-EXTERNAL-001
+cci_task: CCI_TASK 089
+issued_by: INDIA7
+issued_at: 2026-08-19
+target_branch: claude/werk-je-nu-of-niet-oa10y7
+state_on_issue: READY_FOR_CCI
+pdf_status: VERBODEN
+```
+
+## 1. Doel
+
+Voer twee verse, landelijke, corpus-first METHOD_V2 pre-external freezes uit:
+
+1. Neem Karoli Baba
+2. Ram Dass
+
+Deze twee personen vormen een sterk gekoppeld netwerk, maar krijgen ieder een zelfstandige,
+lossless persoonsatlas. Een plek uit een Neem Karoli Baba-verhaal is niet automatisch een plek waar
+Ram Dass persoonlijk aanwezig was, en omgekeerd.
+
+Dit is Fase 0-4 plus de interne onafhankelijke controle vóór externe vergelijking. Dit is GEEN
+reconciliatietaak en GEEN regionale of clustersweep.
+
+## 2. Blindheidsgrens — HARD
+
+Voor beide persoonsfreezes zijn reeds onafhankelijke externe PRE-COMPARE-resultaten duurzaam
+bevroren op een andere branch. Houd de interne pas schoon.
+
+Vóórdat BEIDE interne persoonsfreezes afzonderlijk zijn geschreven en gecommit:
+
+- lees NIET de branch `agent/chatgpt-top11-parallel-sweep`;
+- lees NIET de externe Neem-Karoli-Baba- of Ram-Dass-freeze, STATUS, counts, bronlijst of commits;
+- lees NIET IndiaROOD-resultaten;
+- gebruik `PHASE2_RESULT.md`, `PHASE2_SYNTHESIS.md`, METHOD_V1-atlassen, bestaande
+  regiokandidaten en oude kandidatenlijsten NIET als discoverychecklist;
+- gebruik CCI_TASK 088 of andere reconciliaties niet om locaties voor deze twee personen te zaaien;
+- voer geen repo-crosscheck uit vóór de verse persoonsfreeze van de betrokken persoon is gecommit.
+
+Bekende oude repo-informatie mag niet worden "vergeten", maar mag de nieuwe discoveryvolgorde niet
+sturen. Documenteer eerlijk als voorkennis onvermijdelijk was.
+
+Na de tweede freezecommit: STOP. Open of reconcileer de externe freezes nog steeds NIET in deze
+taak. Dat wordt een aparte opdracht, zodat de pre-external grenzen controleerbaar blijven.
+
+## 3. Verplichte canon vóór uitvoering
+
+Lees volledig:
+
+1. dit `TASK.md` en bijbehorende `STATUS.md`;
+2. `runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/METHOD_V2.md`;
+3. `governance/SWEEP_ERROR_CLASSES.md`;
+4. de bron- en bewijsregels uit `governance/SWEEP_PROTOCOL.md`;
+5. `decisions/TOP11_SWEEP_DEPTH_BY_PERSON_2026-08-18.md`.
+
+De algemene repo-bootregel blijft gelden, met één tijdelijke uitzondering: externe freeze-inhoud en
+oude kandidaatlijsten voor deze twee personen vallen onder de blindheidshold hierboven en worden
+pas in een latere reconciliatietaak geopend.
+
+## 4. METHOD_V2-uitvoering per persoon
+
+Voer voor iedere persoon afzonderlijk en in de vaste volgorde uit:
+
+### Fase 0 — corpus inventory
+
+Inventariseer expliciet:
+
+- officiële/lineage chronologieën en trust-/ashramgeschiedenissen;
+- biografieën, autobiografieën en naaste-devotee-memoires;
+- brieven, dagboeken, interviews, fotobijschriften en reisverslagen;
+- familie-, host-, medische, spoor-, hotel-, tempel-, ashram- en archiefbronnen;
+- beschikbare talen/spellingsvarianten;
+- per bronfamilie: `FULL`, `PARTIAL`, `UNAVAILABLE` of `BRON_GEBLOKKEERD`, met reden.
+
+### Fase 1 — lossless corpus occurrence extraction
+
+Registreer iedere India-gerelateerde fysieke plaatsoccurrence vóór relevantiefiltering, inclusief:
+
+- privéhuizen, kamers, veranda's, keukens, tuinen en landgoederen;
+- ashrams, tempels, grotten, ghats, mela-terreinen en ziekenhuizen;
+- stations, wegen, voertuigstops, hotels en dharmashala's;
+- geboorte-, familie-, jeugd-, werk-, ziekte-, sterf- en crematieplaatsen;
+- host-/gastheerlocaties en tijdelijk verblijf;
+- alleen-plaatsniveau, naamloze en onzekere occurrences;
+- negatieve bevindingen en expliciet niet bezochte plekken.
+
+### Fase 2 — event/place normalization
+
+Per record minimaal:
+
+- tijdelijk record-ID;
+- naam + alternatieve spellingen;
+- plaats, district en staat;
+- gebeurtenis + datum/periode;
+- `PERSONALLY_PRESENT: JA / ONZEKER / NEE`;
+- aanwezigheidstype: fysiek/levend, herinnering over andere persoon, visionair/postuum,
+  latere instelling of symbolische associatie;
+- `PHYSICAL_IDENTITY: EXACT / D
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1125 path=runs/active/TOP11-NKB-RAMDASS-V2-PRE-EXTERNAL-001/TASK.md blob_sha=c3ee3d802afcb5e3753ea1aac4afb980fb11da81 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+EELS / ALLEEN_PLAATS / ONBEKEND`;
+- historische plek versus huidig gebouw/instituut;
+- host/gastheer/netwerk;
+- bron + exacte locator;
+- onzekerheid, conflict en negatieve claim.
+
+### Fase 3 — host/network graph
+
+Maak aantoonbare, benoemde hostgraphs. Zoek iedere relevante gastheer, familie, discipel,
+organisator, arts, patroon of instelling terug naar de concrete fysieke bezoekplek. Een algemene
+verklaring "host-as toegepast" volstaat niet.
+
+### Fase 4 — discovery na corpus
+
+Voer pas daarna brede discovery uit met alternatieve namen, transliteraties, oude districtnamen,
+Hindi-/Bengaalse spellingsvarianten waar relevant, hostnamen en locatiecategorieën. Leg gebruikte
+zoekroutes en negatieve zoekresultaten vast.
+
+### Interne onafhankelijke controle
+
+Voer na Fase 0-4 een tweede interne miss-detectionpass uit via een andere bron-/queryroute. Gebruik
+de eerste genormaliseerde lijst pas bij vergelijking na de onafhankelijke pass; laat deze controle
+niet ontaarden in het nalopen van een bestaande checklist.
+
+## 5. Persoonsspecifieke scheidingsregels
+
+### Neem Karoli Baba
+
+Scheid strikt:
+
+- eigen levenslange fysieke aanwezigheid;
+- verhalen over Lakshman Das/Neem Karoli Baba met onzekere datering of identiteit;
+- tempels/ashrams die hij persoonlijk bezocht, stichtte of inwijdde;
+- instellingen die pas later ter nagedachtenis zijn gebouwd;
+- devoteehuizen en kamers met aantoonbare aanwezigheid;
+- verhalen waarin alleen een devotee of verteller op de plek was;
+- postume/visionaire/symbolische claims.
+
+Een eigen ashramnaam is geen automatisch bewijs van persoonlijke aanwezigheid.
+
+### Ram Dass
+
+Scheid strikt:
+
+- Ram Dass' eigen Indiareizen en verblijfplaatsen;
+- locaties waar hij Neem Karoli Baba werkelijk ontmoette;
+- plaatsen die alleen in door hem vertelde Maharajji-verhalen voorkomen;
+- huizen/hotels/ashrams/stations/medische locaties waar Ram Dass zelf aanwezig was;
+- latere herdenkings-, retreat- of organisatieplekken zonder zijn fysieke aanwezigheid;
+- buitenlandse plekken: bewaren als context indien bronmatig nodig, maar niet als India-atlasrecord.
+
+### Gekoppeld netwerk
+
+Houd records fysiek en persoonsmatig gescheiden. Pas nadat beide afzonderlijke freezes gecommit
+zijn, mag in een korte interne notitie worden aangegeven welke locaties vermoedelijk dezelfde
+fysieke site delen. Geen externe vergelijking in deze taak.
+
+## 6. Verplichte output
+
+Schrijf onder:
+
+`runs/active/TOP11-NKB-RAMDASS-V2-PRE-EXTERNAL-001/`
+
+1. `NEEM_KAROLI_BABA_V2_PRE_EXTERNAL_FREEZE.md`
+2. `RAM_DASS_V2_PRE_EXTERNAL_FREEZE.md`
+3. `STATUS.md`
+
+Werk daarnaast bij:
+
+4. `runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/STATUS.md`
+5. `governance/INDIA_SESSION_START.md`
+
+Iedere freeze bevat minimaal:
+
+- corpuscoverage-matrix;
+- lossless occurrence-/locatie-inventaris;
+- genormaliseerde atlas;
+- benoemde hostgraph;
+- discoverylog;
+- negatieve en uitgesloten claims;
+- lijst van bronblokkades en onopgeloste tijdvakken;
+- pre-external gatebeoordeling;
+- `PERSON_V2_PRE_EXTERNAL_SATURATED: JA/NEE`, eerlijk gemotiveerd;
+- exacte volgende stap.
+
+Geen permanente locatie-ID's toekennen.
+
+## 7. Checkpoint- en contextverliesregel
+
+1. Werk Neem Karoli Baba volledig af.
+2. Schrijf freeze + status duurzaam weg.
+3. Commit Neem Karoli Baba als zelfstandig checkpoint.
+4. Werk daarna Ram Dass volledig af.
+5. Schrijf freeze + status duurzaam weg.
+6. Commit Ram Dass als zelfstandig checkpoint.
+7. Maak een korte finale statecommit indien governance/status nog apart moeten worden bijgewerkt.
+
+Wacht niet tot het einde met committen. Bij contextverlies hervat exact vanaf de laatste duurzame
+checkpoint; herstart geen afgeronde persoon. Subagents/workers zijn alleen toegestaan als hun
+afgeronde werkpakket onmiddellijk duurzaam wordt weggeschreven.
+
+## 8. Saturation en stopvoorwaarde
+
+Een pre-external `JA` mag alleen wanneer corpuscoverage, hostgraph en discovery aantoonbaar zijn
+afgerond. De projectbrede `PERSON_SWEEP_SATURATED: JA` mag in deze taak NIET worden geclaimd,
+omdat externe multi-detectorreconciliatie nog ontbreekt.
+
+Stop pas wanneer beide freeze-bestanden, beide p
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1126 path=runs/active/TOP11-NKB-RAMDASS-V2-PRE-EXTERNAL-001/TASK.md blob_sha=c3ee3d802afcb5e3753ea1aac4afb980fb11da81 original_offset=8192 original_length=890 payload_bytes=890 chunk_index=2 chunk_count=3 classification=text
+ersoonscheckpointcommits en de state-updates
+bestaan. Plaats daarna één korte CCI_RESULT-envelop op PR #23 met:
+
+- volledige commit-SHA per persoon;
+- bestandspad per freeze;
+- counts per persoon;
+- gate-uitkomsten;
+- bronblokkades en grootste open hiaten;
+- bevestiging dat externe freezes niet zijn geopend;
+- `next_allowed_step: externe lossless reconciliatie in aparte taak`.
+
+## 9. Harde grenzen
+
+- Geen externe freeze openen of vergelijken.
+- Geen IndiaROOD-resultaten lezen.
+- Geen clusterheatmap.
+- Geen regionale of clustersweep.
+- Geen Arunachala/Tiruvannamalai-werk.
+- Geen A/B/C namens Mark.
+- Geen permanente IDs of globale nummering.
+- Geen PDF.
+- Geen route, nachten, vervoer of binnenlandse vluchten.
+- Start Ramana Maharshi of Ramakrishna niet automatisch.
+- Wijzig/merge geen externe branch en raak PR #24 niet aan.
+- Stop na de CCI_RESULT-envelop en wacht op INDIA-QA.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1127 path=runs/active/TOP11-NKB-RAMDASS-EXTERNAL-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl blob_sha=c484990b5f31c0518a591401f7f7e2df695c93a7 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=9 classification=text
+{"person": "Neem Karoli Baba", "internal_id": "NKB-1", "external_id": "ext-1..3", "outcome": "SAME_SITE_DIFFERENT_GRANULARITY", "place": "Akbarpur", "note": "Extern splitst dorp/geboortehuis/2001-tempel; district Firozabad overgenomen i.p.v. intern Ambedkar Nagar."}
+{"person": "Neem Karoli Baba", "internal_id": "NKB-2", "external_id": null, "outcome": "INTERNAL_ONLY_UNVERIFIED", "place": "Badam Baas", "note": "Geen extern equivalent; niet bevestigd noch weersproken."}
+{"person": "Neem Karoli Baba", "internal_id": "NKB-3", "external_id": "ext-4..7", "outcome": "SAME_EVENT_MORE_GRANULAR", "place": "Vavania", "note": "Extern splitst ashram/vijver/murti/Zuid-Indiaroute."}
+{"person": "Neem Karoli Baba", "internal_id": "NKB-4", "external_id": "ext-8..12", "outcome": "SAME_EVENT_MORE_GRANULAR", "place": "Neem Karoli-dorp/station", "note": "Treinepisode Tier-1-consistent met P1."}
+{"person": "Neem Karoli Baba", "internal_id": "NKB-5", "external_id": "ext-41..49", "outcome": "SAME_EVENT_MORE_GRANULAR", "place": "Kainchi Dham", "note": "9 externe sublocaties toegevoegd."}
+{"person": "Neem Karoli Baba", "internal_id": "NKB-6", "external_id": "ext-38..40", "outcome": "SAME_EVENT_MORE_GRANULAR", "place": "Bhumiadhar Ashram", "note": "Eerste hut toegevoegd."}
+{"person": "Neem Karoli Baba", "internal_id": "NKB-7", "external_id": "ext-50..51", "outcome": "SAME_EVENT_MORE_GRANULAR", "place": "Kakrighat", "note": "P1 zelf bevat plaatsnaam niet; S8 primair, P1-koppeling los."}
+{"person": "Neem Karoli Baba", "internal_id": "NKB-8", "external_id": "ext-104..108", "outcome": "SAME_EVENT_MORE_GRANULAR", "place": "Vrindavan Ashram", "note": "Kamer/verandah/crematieplek toegevoegd; #108 blijft NEE (later memorial)."}
+{"person": "Neem Karoli Baba", "internal_id": "NKB-9", "external_id": "ext-89", "outcome": "SAME_EVENT", "place": "Panki Hanuman-tempel, Kanpur", "note": "CONFIRMED_TRUE Tier-1: bilocatie-episode woordelijk gelezen in P1, beide bronnen ONZEKER.", "verdict": "CONFIRMED"}
+{"person": "Neem Karoli Baba", "internal_id": "NKB-10", "external_id": "ext-89", "outcome": "DUPLICATE_OR_ALIAS", "place": "Kamer in Allahabad (bilocatieclaim)", "note": "Zelfde episode als NKB-9/ext-89, ander perspectief."}
+{"person": "Neem Karoli Baba", "internal_id": "NKB-11", "external_id": "ext-112", "outcome": "CONFLICT", "place": "Mathura Railway Station", "note": "Conflict met S15 over reisvolgorde (zie doc sectie 2.1)."}
+{"person": "Neem Karoli Baba", "internal_id": "NKB-12", "external_id": "ext-109..111", "outcome": "SAME_EVENT_MORE_GRANULAR", "place": "Agra", "note": "Familiehuis/kliniek/station toegevoegd; zelfde volgordeconflict."}
+{"person": "Neem Karoli Baba", "internal_id": "NKB-13", "external_id": "ext-113", "outcome": "CONFLICT", "place": "Sterfteziekenhuis", "note": "OPGELOST Tier-1: Ramakrishna Mission Hospital, Vrindavan, bevestigd via S15 direct fetch.", "verdict": "CONFIRMED"}
+{"person": "Neem Karoli Baba", "internal_id": "NKB-14", "external_id": "ext-107", "outcome": "SAME_PHYSICAL_SITE", "place": "Crematieplaats Vrindavan", "note": "Consistent."}
+{"person": "Neem Karoli Baba", "internal_id": "NKB-15", "external_id": "ext-76", "outcome": "SAME_SITE_DIFFERENT_GRANULARITY", "place": "Rishikesh Ashram/Veerbhadra", "note": "Beide ONZEKER; extern voegt post-1984-bouwdatum toe."}
+{"person": "Neem Karoli Baba", "internal_id": "NKB-16", "external_id": "ext-97", "outcome": "SAME_PHYSICAL_SITE", "place": "Lucknow Ashram/Sankat Mochan", "note": "Beide ONZEKER."}
+{"person": "Neem Karoli Baba", "internal_id": "NKB-17", "external_id": "ext-100..101", "outcome": "SAME_EVENT_MORE_GRANULAR", "place": "Shimla Ashram/Taradevi", "note": "Taradevi-hut (9-10 dagen) toegevoegd."}
+{"person": "Neem Karoli Baba", "internal_id": "NKB-18", "external_id": "ext-102..103", "outcome": "CONFLICT", "place": "Delhi Ashram/Jonapur", "note": "OPGELOST: extern geeft JA/EXACT (zomer 1973); S9 niet apart binnen budget nagelopen.", "verdict": "PLAUSIBLE"}
+{"person": "Neem Karoli Baba", "internal_id": "NKB-19", "external_id": "ext-31..34", "outcome": "CONFLICT", "place": "Hanuman Garh
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1128 path=runs/active/TOP11-NKB-RAMDASS-EXTERNAL-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl blob_sha=c484990b5f31c0518a591401f7f7e2df695c93a7 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=9 classification=text
+i/Hanumangarhi Nainital", "note": "OPGELOST: extern plaatst specifiek te Nainital, JA/EXACT; P1 bevat naam niet (S5 enige primaire bron).", "verdict": "PLAUSIBLE"}
+{"person": "Neem Karoli Baba", "internal_id": "NKB-20", "external_id": "RAMDASS-ext-16", "outcome": "SAME_PHYSICAL_SITE", "place": "Forestry camp", "note": "Cross-person bevestigd via Ram Dass-externe freeze."}
+{"person": "Neem Karoli Baba", "internal_id": "NKB-21", "external_id": "RAMDASS-ext-6", "outcome": "SAME_PHYSICAL_SITE", "place": "Onbenoemde estate bij Delhi", "note": "Cross-person bevestigd via Ram Dass-externe freeze."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-2", "outcome": "EXTERNAL_ONLY", "place": "Sharma family/birth house (Akbarpur)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-3", "outcome": "EXTERNAL_ONLY", "place": "Later Akbarpur temple site (2001, negative control) (Akbarpur)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-13", "outcome": "EXTERNAL_ONLY", "place": "Fatehgarh military barracks (Fatehgarh)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-14", "outcome": "EXTERNAL_ONLY", "place": "Jaidev Singh's barracks room (Fatehgarh)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-15", "outcome": "EXTERNAL_ONLY", "place": "Well beside Hanuman temple outside barracks (Fatehgarh)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-16", "outcome": "EXTERNAL_ONLY", "place": "Colonel McKenna's quarters (Fatehgarh)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-17", "outcome": "EXTERNAL_ONLY", "place": "Official-quarters road (Bijnor)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-18", "outcome": "EXTERNAL_ONLY", "place": "Ram Narayan Sinha's official residence (Bijnor)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-19", "outcome": "EXTERNAL_ONLY", "place": "Dwarkadhish Temple (onopgelost, Uttar Pradesh)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-20", "outcome": "EXTERNAL_ONLY", "place": "4 Church Lane / Red House (Prayagraj)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-21", "outcome": "EXTERNAL_ONLY", "place": "Maharajji's room, 4 Church Lane (Prayagraj)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-22", "outcome": "EXTERNAL_ONLY", "place": "Hall, 4 Church Lane (Prayagraj)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-23", "outcome": "EXTERNAL_ONLY", "place": "Outside veranda, 4 Church Lane (Prayagraj)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1129 path=runs/active/TOP11-NKB-RAMDASS-EXTERNAL-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl blob_sha=c484990b5f31c0518a591401f7f7e2df695c93a7 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=9 classification=text
+external_id": "ext-24", "outcome": "EXTERNAL_ONLY", "place": "Kitchen/meal room, 4 Church Lane (Prayagraj)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-25", "outcome": "EXTERNAL_ONLY", "place": "Bathrooms/front area, 4 Church Lane (Prayagraj)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-26", "outcome": "EXTERNAL_ONLY", "place": "Unnamed lane-side devotee house (Prayagraj)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-27", "outcome": "EXTERNAL_ONLY", "place": "Allahabad railway station (Prayagraj)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-28", "outcome": "EXTERNAL_ONLY", "place": "Ganges riverbank near Allahabad (Prayagraj)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-29", "outcome": "EXTERNAL_ONLY", "place": "Flooded Hanuman Temple by Allahabad Fort (Prayagraj)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-30", "outcome": "EXTERNAL_ONLY", "place": "Kumbh/Magh fair area (Prayagraj)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-35", "outcome": "EXTERNAL_ONLY", "place": "Nainital streets (Nainital)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-36", "outcome": "EXTERNAL_ONLY", "place": "Unnamed roadside culverts (Nainital district)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-37", "outcome": "EXTERNAL_ONLY", "place": "Nainital hospital (Nainital)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-52", "outcome": "EXTERNAL_ONLY", "place": "Bhowali forest rest house/Soni residence (Bhowali)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-53", "outcome": "EXTERNAL_ONLY", "place": "Bhowali market (Bhowali)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-54", "outcome": "EXTERNAL_ONLY", "place": "Bhimtal devotee's house (Bhimtal)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-55", "outcome": "EXTERNAL_ONLY", "place": "Schoolteacher's house near park/Shiva temple (Bhimtal)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-56", "outcome": "EXTERNAL_ONLY", "place": "Haldwani devotee gathering house (Haldwani)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-57", "outcome": "EXTERNAL_ONLY", "place": "Haldwani host house before station (Haldwani)", "note": "Tier-2 corpusaanwezigheid beve
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1130 path=runs/active/TOP11-NKB-RAMDASS-EXTERNAL-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl blob_sha=c484990b5f31c0518a591401f7f7e2df695c93a7 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=9 classification=text
+stigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-58", "outcome": "EXTERNAL_ONLY", "place": "Haldwani railway station (Haldwani)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-59", "outcome": "EXTERNAL_ONLY", "place": "Almora streets (Almora)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-60", "outcome": "EXTERNAL_ONLY", "place": "Almora devotee house/verandah (Almora)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-61", "outcome": "EXTERNAL_ONLY", "place": "Almora dharmasala (Almora)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-62", "outcome": "EXTERNAL_ONLY", "place": "Unidentified western-mountain forest photo spot (Uttarakhand)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-63", "outcome": "EXTERNAL_ONLY", "place": "Bareilly, Dr. Bhandari's house (Bareilly)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-64", "outcome": "EXTERNAL_ONLY", "place": "Hema Pande's house (Bareilly)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-65", "outcome": "EXTERNAL_ONLY", "place": "Bareilly railway station (Bareilly)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-66", "outcome": "EXTERNAL_ONLY", "place": "Kotdwara railway station (Kotdwara)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-67", "outcome": "EXTERNAL_ONLY", "place": "Pauri route/town (Pauri Garhwal)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-68", "outcome": "EXTERNAL_ONLY", "place": "Kedarnath pilgrimage area (Kedarnath)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-69", "outcome": "EXTERNAL_ONLY", "place": "Badrinath pilgrimage settlement/temple area (Badrinath)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-70", "outcome": "EXTERNAL_ONLY", "place": "Riverbank/forest meeting place at Badrinath (Badrinath)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-71", "outcome": "EXTERNAL_ONLY", "place": "Brahmakapal ritual site (Badrinath)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-72", "outcome": "EXTERNAL_ONLY", "place": "Gangotri pilgrimage area (Gangotri)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-73", "outcome": "EXTERNAL_ONLY", "place":
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1131 path=runs/active/TOP11-NKB-RAMDASS-EXTERNAL-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl blob_sha=c484990b5f31c0518a591401f7f7e2df695c93a7 original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=9 classification=text
+ "Gomukh (Uttarkashi district)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-74", "outcome": "EXTERNAL_ONLY", "place": "Haridwar (Haridwar)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-75", "outcome": "EXTERNAL_ONLY", "place": "Rishikesh pilgrimage city (Rishikesh)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-77", "outcome": "EXTERNAL_ONLY", "place": "Varanasi/Benares temple circuit (Varanasi)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-78", "outcome": "EXTERNAL_ONLY", "place": "Vindhyachal temple circuit (Mirzapur district)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-79", "outcome": "EXTERNAL_ONLY", "place": "Chitrakoot pilgrimage area (Chitrakoot)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-80", "outcome": "EXTERNAL_ONLY", "place": "Kamadgiri circumambulation path (Chitrakoot)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-81", "outcome": "EXTERNAL_ONLY", "place": "Chitrakoot cot/sitting place (Chitrakoot)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-82", "outcome": "EXTERNAL_ONLY", "place": "Chitrakoot approach road crash site (Chitrakoot)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-83", "outcome": "EXTERNAL_ONLY", "place": "Dwarka pilgrimage/temple area (Dwarka)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-84", "outcome": "EXTERNAL_ONLY", "place": "Unnamed Hanuman temple near Dwarka (Dwarka)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-85", "outcome": "EXTERNAL_ONLY", "place": "Rameswaram temple/pilgrimage area (Rameswaram)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-86", "outcome": "EXTERNAL_ONLY", "place": "Jagannath Temple premises (Puri)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-87", "outcome": "EXTERNAL_ONLY", "place": "Dakshineswar Shiva-temple row (Dakshineswar)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-88", "outcome": "EXTERNAL_ONLY", "place": "Unnamed Kolkata host house (Kolkata)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-90", "outcome": "EXTERNAL_ONLY", "place": "Kanpur devotee houses (Kanpur)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1132 path=runs/active/TOP11-NKB-RAMDASS-EXTERNAL-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl blob_sha=c484990b5f31c0518a591401f7f7e2df695c93a7 original_offset=20480 original_length=4096 payload_bytes=4096 chunk_index=5 chunk_count=9 classification=text
+", "internal_id": null, "external_id": "ext-91", "outcome": "EXTERNAL_ONLY", "place": "Shukla's photography shop (Lucknow)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-92", "outcome": "EXTERNAL_ONLY", "place": "Shukla family home (Lucknow)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-93", "outcome": "EXTERNAL_ONLY", "place": "Gomti/Gomati River bridge (Lucknow)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-94", "outcome": "EXTERNAL_ONLY", "place": "Suraj Narayan Mehrotra's house (Lucknow)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-95", "outcome": "EXTERNAL_ONLY", "place": "Nazarbag house (Lucknow)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-96", "outcome": "EXTERNAL_ONLY", "place": "Unnamed house in Mahanagar (Lucknow)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-98", "outcome": "EXTERNAL_ONLY", "place": "Barabanki devotee houses (Barabanki)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Neem Karoli Baba", "internal_id": null, "external_id": "ext-99", "outcome": "EXTERNAL_ONLY", "place": "Sitapur devotee houses (Sitapur)", "note": "Tier-2 corpusaanwezigheid bevestigd in P1 (near_and_dear.txt); niet woordelijk herverifieerd."}
+{"person": "Ram Dass", "internal_id": "RD-1", "external_id": null, "outcome": "INTERNAL_ONLY_UNVERIFIED", "place": "Delhi (indirect, reisgenoten 1970)", "note": "Geen externe weerlegging; blijft ONZEKER."}
+{"person": "Ram Dass", "internal_id": "RD-2", "external_id": "ext-7..14", "outcome": "SAME_EVENT_MORE_GRANULAR", "place": "Kainchi Dham", "note": "8 externe sublocaties; record 11 (rivier) Tier-1 bevestigd."}
+{"person": "Ram Dass", "internal_id": "RD-3", "external_id": "ext-25..27", "outcome": "SAME_EVENT_MORE_GRANULAR", "place": "Hotel Evelyn, Nainital", "note": "Cave-kamer en balkon/patio toegevoegd."}
+{"person": "Ram Dass", "internal_id": "RD-4", "external_id": "ext-32..33", "outcome": "SAME_EVENT_MORE_GRANULAR", "place": "Kausani gehuurd huis", "note": "Anasakti Ashram-koppeling toegevoegd (inferentieel)."}
+{"person": "Ram Dass", "internal_id": "RD-5", "external_id": "ext-14", "outcome": "SAME_SITE_DIFFERENT_GRANULARITY", "place": "2004-reis", "note": "Extern lokaliseert specifiek in Kainchi."}
+{"person": "Ram Dass", "internal_id": "RD-6", "external_id": "ext-1", "outcome": "SAME_PHYSICAL_SITE", "place": "Amarnath Cave", "note": "Consistent."}
+{"person": "Ram Dass", "internal_id": "RD-7", "external_id": "ext-2", "outcome": "SAME_PHYSICAL_SITE", "place": "Benares/Varanasi", "note": "Consistent."}
+{"person": "Ram Dass", "internal_id": "RD-8", "external_id": "ext-5", "outcome": "SAME_PHYSICAL_SITE", "place": "Sarnath", "note": "Consistent."}
+{"person": "Ram Dass", "internal_id": "RD-9", "external_id": "ext-17..21", "outcome": "SAME_EVENT", "place": "Delhi-sublocaties", "note": "Health Department-kantoor (ext-19) Tier-1 bevestigd regel 1373.", "verdict": "CONFIRMED"}
+{"person": "Ram Dass", "internal_id": "RD-10", "external_id": "ext-8", "outcome": "SAME_PHYSICAL_SITE", "place": "Eerste-ontmoetingsveld", "note": "Consistent, geen naamsanker."}
+{"person": "Ram Dass", "internal_id": "RD-11", "external_id": "ext-15..16", "outcome": "SAME_EVENT_MORE_GRANULAR", "place": "Forestry camp", "note": "Appelboomgaard-tussenstop apart record extern."
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1133 path=runs/active/TOP11-NKB-RAMDASS-EXTERNAL-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl blob_sha=c484990b5f31c0518a591401f7f7e2df695c93a7 original_offset=24576 original_length=4096 payload_bytes=4096 chunk_index=6 chunk_count=9 classification=text
+}
+{"person": "Ram Dass", "internal_id": "RD-12", "external_id": "ext-6", "outcome": "SAME_PHYSICAL_SITE", "place": "Onbenoemde estate bij Delhi", "note": "Consistent."}
+{"person": "Ram Dass", "internal_id": "RD-13", "external_id": "ext-29", "outcome": "SAME_PHYSICAL_SITE", "place": "K.K. Sah familiehuis", "note": "Extern voegt periode 1967;1971 toe."}
+{"person": "Ram Dass", "internal_id": "RD-14", "external_id": "ext-7", "outcome": "SAME_PHYSICAL_SITE", "place": "Kainchi-naamsbevestiging", "note": "Onafhankelijk bevestigd via BH+MOL door extern."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-3", "outcome": "EXTERNAL_ONLY", "place": "\"Baneshwar\" tempelstop (plaats onopgelost)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-4", "outcome": "EXTERNAL_ONLY", "place": "Konark Sun Temple (Konark, Odisha)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-9", "outcome": "EXTERNAL_ONLY_BLOCKED", "place": "Maharajji's office/tucket-zone (Kainchi)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-10", "outcome": "EXTERNAL_ONLY_BLOCKED", "place": "Oude bovenkamer Ram Dass 1967 (Kainchi)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-12", "outcome": "EXTERNAL_ONLY_BLOCKED", "place": "Negendaagse vuurceremonie-zone (Kainchi)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-13", "outcome": "EXTERNAL_ONLY_BLOCKED", "place": "Koude hut/klein dorp achter Kainchi (Kainchi-heuvels)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-14", "outcome": "EXTERNAL_ONLY", "place": "Ram Dass' kamer 2004-verblijf (Kainchi)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-22", "outcome": "EXTERNAL_ONLY_BLOCKED", "place": "Ministry of Finance-kantoren (Delhi)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-23", "outcome": "EXTERNAL_ONLY_BLOCKED", "place": "Onbenoemd vervallen semi-hippie hotel (Delhi)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-24", "outcome": "EXTERNAL_ONLY_BLOCKED", "place": "Huis van Mr. Soni/Inspector General Forestry (Delhi)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-26", "outcome": "EXTERNAL_ONLY_BLOCKED", "place": "Bovenste cave-kamer Hotel Evelyn (Nainital)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-27", "outcome": "EXTERNAL_ONLY", "place": "Balkon/voorpatio Hotel Evelyn (Nainital)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-28", "outcome": "EXTERNAL_ONLY_WEAK", "place": "Naini Lake (Nainital)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-30", "outcome": "EXTERNAL_ONLY_BLOCKED", "place": "Hanuman Garh-tempel (Nainital)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-31", "outcome": "UNRESOLVED_IDENTITY", "place": "Sombari Maharaj-ashram (Padampuri/Kakrighat) (Kumaon)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-35", "outcome": "EXTERNAL_ONLY", "place": "Burmese Buddhist Vihara (Goenka) (Bodh Gaya)", "note": "Zie RAM_DASS_RECONCI
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1134 path=runs/active/TOP11-NKB-RAMDASS-EXTERNAL-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl blob_sha=c484990b5f31c0518a591401f7f7e2df695c93a7 original_offset=28672 original_length=4096 payload_bytes=4096 chunk_index=7 chunk_count=9 classification=text
+LIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-36", "outcome": "EXTERNAL_ONLY_BLOCKED", "place": "Dada/Didi Mukerjee huis, 4 Church Lane (Allahabad/Prayagraj)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-37", "outcome": "EXTERNAL_ONLY_BLOCKED", "place": "Triveni Sangam (Allahabad/Prayagraj)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-38", "outcome": "EXTERNAL_ONLY_BLOCKED", "place": "Onbenoemd Allahabad-devoteehuis (Allahabad/Prayagraj)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-39", "outcome": "EXTERNAL_ONLY_BLOCKED", "place": "Allahabad High Court (Allahabad/Prayagraj)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-40", "outcome": "EXTERNAL_ONLY_BLOCKED", "place": "Allahabad-treinstation (Allahabad/Prayagraj)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-41", "outcome": "EXTERNAL_ONLY_BLOCKED", "place": "Onbenoemd goedkoop hotel Benares (Varanasi)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-42", "outcome": "EXTERNAL_ONLY_BLOCKED", "place": "Sri Aurobindo Ashram (Puducherry)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-43", "outcome": "EXTERNAL_ONLY_BLOCKED", "place": "Sri Aurobindo Ashram sportterrein (Puducherry)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-44", "outcome": "PARTIAL", "place": "Brindavan Ashram, Whitefield (Bengaluru)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-45", "outcome": "PARTIAL", "place": "Interviewkamer/darshan hall Brindavan (Bengaluru)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-46", "outcome": "EXTERNAL_ONLY_BLOCKED", "place": "Onbenoemde overnachting Mathura (Mathura)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-47", "outcome": "EXTERNAL_ONLY_BLOCKED", "place": "Mathura-markt (Mathura)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-49", "outcome": "EXTERNAL_ONLY_BLOCKED", "place": "Hanuman-murti sanctum Vrindavan (Vrindavan)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-50", "outcome": "EXTERNAL_ONLY_BLOCKED", "place": "Hoofdpoort Vrindavan-ashram (Vrindavan)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-51", "outcome": "EXTERNAL_ONLY_BLOCKED", "place": "Binnenhof/vuurplatform funeral bhandara (Vrindavan)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-52", "outcome": "EXTERNAL_ONLY_BLOCKED", "place": "Onbenoemde meditatiegrot (Surat)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-53", "outcome": "EXTERNAL_ONLY_BLOCKED", "place": "Huis van Sita Ram Baba (Ayodhya-regio)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-54", "outcome": "EXTERNAL_ONLY_BLOCKED", "place": "Onbenoemde mala-winkel (Ayodhya)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronst
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1135 path=runs/active/TOP11-NKB-RAMDASS-EXTERNAL-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl blob_sha=c484990b5f31c0518a591401f7f7e2df695c93a7 original_offset=32768 original_length=1167 payload_bytes=1167 chunk_index=8 chunk_count=9 classification=text
+atus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-56", "outcome": "EXTERNAL_ONLY", "place": "Dhamma Giri (Igatpuri)", "note": "Zie RAM_DASS_RECONCILIATION.md sectie 4 voor bronstatus."}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-34", "outcome": "FALSE_OR_UNSUPPORTED_EXTERNAL_CLAIM", "place": "Jagannath Puri-strand", "note": "Geciteerde SD-quote 'walking on the beach in Jaganath Puri' niet aangetroffen in beide geciteerde SD-bronnen (saradavidson.com + beezone.com), volledig doorzocht. NIET overgenomen.", "verdict": "CONFIRMED"}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-55", "outcome": "EXTERNAL_ONLY", "place": "Auroville", "note": "Tier-1 bevestigd: december 1992, citaat exact match via WebFetch AV.", "verdict": "CONFIRMED"}
+{"person": "Ram Dass", "internal_id": null, "external_id": "ext-57", "outcome": "EXTERNAL_ONLY", "place": "Lama Govinda's huis, Kasar Devi/Almora", "note": "Opdracht-om-te-bezoeken Tier-1 bevestigd (BH regel 1350-1358, al gevonden in CCI_TASK 090); aankomst niet bevestigd, consistent met externe ONZEKER. CG-bron (Columbia) geeft HTTP 404.", "verdict": "PLAUSIBLE"}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1136 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/TRIP_FIXED_FLIGHTS_AND_NIGHTS_2026-08-23.md blob_sha=c49be1d242d4df1900bc0b61baf1f2ff6732bfce original_offset=0 original_length=1383 payload_bytes=1383 chunk_index=0 chunk_count=1 classification=text
+# INDIA TRIP — FIXED FLIGHTS + ACTUAL NIGHT ENVELOPE
+
+Date recorded: 2026-08-23
+Source: prior explicit Mark booking information
+Status: HARD TRAVEL FRAME
+
+## BOOKED INTERNATIONAL FLIGHTS
+- Outbound: Air India, **18 Dec 2026 20:35 AMS -> DEL**, arrival **19 Dec 2026 10:15 DEL**.
+- Return: Air India, **21 Jan 2027 12:20 DEL -> AMS**, arrival **21 Jan 2027 18:35 AMS**.
+
+## CRITICAL COUNTING CORRECTION
+The travel window is 18 Dec 2026 through 21 Jan 2027, often referred to as 34 travel/calendar days, BUT the night of 18 Dec is spent on the outbound aircraft.
+
+Therefore the usable India accommodation envelope is:
+- first India hotel/ashram night: **19 Dec 2026**;
+- last India hotel night: **20 Jan 2027**;
+- total India accommodation nights: **33**.
+
+Do NOT build a route with a fictional Delhi night on 18 Dec.
+
+## ROUTE CONSEQUENCE
+Every night-allocation model must sum to 33 India nights unless an overnight train/flight intentionally substitutes for a hotel night. Day-count and night-count must be shown separately when ambiguity matters.
+
+## RETURN BUFFER
+Because the international return departs Delhi at 12:20 on 21 Jan, the working route should return to Delhi before the morning of departure; current safe planning preference is to be back in Delhi by 19 Jan, leaving nights 19 and 20 Jan as final Delhi/flight buffer unless Mark later chooses a different risk level.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1137 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/PROVISIONAL_ROUTE_CALC_BASES_2026-08-23.md blob_sha=c53a4a169dcec3ea98517a2eecdc5b537ebe9956 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# PROVISIONAL ROUTE CALCULATION BASES — 2026-08-23
+
+Status: REGIE REKENBASIS, NOT HOTEL LOCK.
+Purpose: enable real day-by-day routing calculations now. A REKENBASIS may be replaced later by Mark without invalidating the route architecture if it stays inside the same anchor zone.
+
+Rule: fine local travel times are calculated from the concrete property below. Intercluster transport may use station/airport transfer points separately.
+
+## KUMAON — already established multi-base
+1. Joshi Guest House, Kukuchina — LOCKED calculation/stay base.
+2. Hotel Evelyn, Nainital — CLUSTER_ANCHOR + historic site A; heritage value outranks comfort. Maintenance, primitive bedding or heating surcharge are NOT rejection reasons for Mark. Exact Ram Dass room/wing remains targeted independent research.
+3. Turiya Niwas, Crank's Ridge — PROVISIONAL SLEEP LOCK + site A.
+4. Haidakhan Vishwa Mahadham / ashram stay — separate experiential module; use as the local calculation origin if overnight stay is accepted/available.
+
+## VARANASI
+- Sahi River View Guesthouse, Assi Ghat — LOCKED_BY_MARK.
+- Balcony room preference; contact Jitendre; greetings from Debby.
+
+## VRINDAVAN / BRAJ
+### provisional calculation base
+- BRIJ SEWA SADAN PAYING GUEST HOUSE, opposite Brij Health Care & Research Centre, Atalla Chungi / Mathura Road.
+- Reason: lies directly in the already resolved Atalla-Chungi / old-Vrindavan anchor zone and provides a concrete calculation point without pretending it is Mark's final hotel choice.
+- This is REKENBASIS only, not a recommendation/lock.
+
+### high-interest alternative to evaluate before hotel lock
+- Sivananda Ashram, Chaitanya Vihar / Ramanreti: simple regulated ashram stay, advance application, daily satsang/meditation/seva structure. Strong spiritual-stay character but geographically farther east from the selected old-Vrindavan anchor.
+- Shri Krishna Balaram International Guest House / Raman Reti: official district-listed pilgrim accommodation; useful fallback if route fit beats old-town atmosphere.
+
+## BODH GAYA
+### provisional calculation base
+- Maya Heritage, Mahabodhi Temple core.
+- Current booking sources place it immediately beside the Mahabodhi complex / Thai Temple area, making it a strong concrete origin for dawn/evening temple access.
+- REKENBASIS only, not Mark-locked.
+
+### alternate experiential stay
+- Root Institute: semi-monastic Buddhist centre roughly 2 km outside the bustle; suitable for personal meditation retreats. Better experience, worse zero-distance Mahabodhi logistics.
+
+## TIRUVANNAMALAI / ARUNACHALA
+### first-choice provisional calculation/stay base
+- Sri Ramanasramam accommodation itself.
+- Official ashram accommodation accepts foreign devotees by advance online application, intended for meaningful contemplative stays rather than tourism; rooms are limited and acceptance is not guaranteed.
+- Because the ashram itself is one of Mark's heaviest A-sites, this is the most meaningful possible base and should be attempted before normal hotels.
+
+### fallback calculation base if ashram stay unavailable
+- Rainbow Guest House, about 1 km from Sri Ramanasramam, with Arunachala views and walkable access.
+
+## AGRA
+### provisional calculation base
+- Hotel Taj Resorts, Taj East Gate Road / Shilpgram.
+- Current traveler evidence consistently places it about 5–10 minutes walk from the Taj East Gate, ideal for the HARD sunrise/first-opening requirement.
+- REKENBASIS only, not hotel lock.
+
+### fallback
+- Hotel Taj Plaza / Taj Classic / similar East Gate walkable property; key invariant is walkability to East Gate, not comfort level.
+
+## WHY THIS IS ENOUGH TO START ROUTING
+The exact final property is not required to build the first real itinerary. What matters is a concrete calculation origin inside the correct anchor zone. If Mark later changes a property within the same zone, day-route timings change by minutes rather than invalidating the whole itinerary.
+
+## NEXT EXECUTION
+Use these calculation bases to build the first full 34-day itinerary proposal for the six heavy clusters, with:
+- actual transfer days;
+<<< END CHUNK >>>
+

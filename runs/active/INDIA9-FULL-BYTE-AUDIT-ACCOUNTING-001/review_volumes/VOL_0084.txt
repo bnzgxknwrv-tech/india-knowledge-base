@@ -1,0 +1,698 @@
+>>> CHUNK stream_row=1234 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl blob_sha=da6570cdfe64562f3c005afb31e45294554a39c5 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=5 classification=text
+{"person": "Babaji", "internal_id": "BJ-INT-01", "external_id": "B01", "claimant_tradition": "YOGANANDA_LAHIRI_SRI_YUKTESWAR_SRF_YSS", "outcome": "SAME_SITE_DIFFERENT_GRANULARITY", "place": "Drongiri Mountain-grot, bij Ranikhet", "note": "AOAY hfst 34; extern splitst in grot/rivier/paleis"}
+{"person": "Babaji", "internal_id": "BJ-INT-01a", "external_id": "B02", "claimant_tradition": "YOGANANDA_LAHIRI_SRI_YUKTESWAR_SRF_YSS", "outcome": "DISTINCT_SUBLOCATION", "place": "Gogash-rivieroever", "note": "correctie: nu eigen sub-rij i.p.v. impliciet in record 1"}
+{"person": "Babaji", "internal_id": "BJ-INT-01b", "external_id": "B03", "claimant_tradition": "YOGANANDA_LAHIRI_SRI_YUKTESWAR_SRF_YSS", "outcome": "DISTINCT_SUBLOCATION", "place": "Tijdelijk gematerialiseerd paleis", "note": "correctie: nu eigen sub-rij"}
+{"person": "Babaji", "internal_id": null, "external_id": "B04", "claimant_tradition": "YOGANANDA_LAHIRI_SRI_YUKTESWAR_SRF_YSS", "outcome": "EXTERNAL_ONLY_VERIFIED_MISS", "place": "Naamloos Himalayakamp (brandend hout + afgrondsprong)", "note": "AOAY hfst 33 bevestigd; ontbrak in interne 14, nu toegevoegd"}
+{"person": "Babaji", "internal_id": "BJ-INT-02", "external_id": null, "claimant_tradition": "YOGANANDA_LAHIRI_SRI_YUKTESWAR_SRF_YSS", "outcome": "INTERNAL_ONLY_UNVERIFIED", "place": "Algemeen Badrinarayan-regio", "note": "regio-niveau, geen externe tegenhanger apart"}
+{"person": "Babaji", "internal_id": "BJ-INT-03", "external_id": "B07", "claimant_tradition": "YOGANANDA_LAHIRI_SRI_YUKTESWAR_SRF_YSS", "outcome": "SAME_SITE_SAME_EVENT", "place": "Moradabad huis Bengaalse familie", "note": "AOAY hfst 34, geen conflict"}
+{"person": "Babaji", "internal_id": "BJ-INT-04", "external_id": "B09", "claimant_tradition": "YOGANANDA_LAHIRI_SRI_YUKTESWAR_SRF_YSS", "outcome": "SAME_SITE_SAME_EVENT", "place": "Allahabad Kumbh Mela 1894, Sri Yukteswar-ontmoeting", "note": "AOAY hfst 36, extern voegt brug-detail toe"}
+{"person": "Babaji", "internal_id": "BJ-INT-05", "external_id": "B08", "claimant_tradition": "YOGANANDA_LAHIRI_SRI_YUKTESWAR_SRF_YSS", "outcome": "SAME_SITE_SAME_EVENT", "place": "Allahabad Kumbh Mela, Lahiri wast voeten asceet", "note": "AOAY hfst 33"}
+{"person": "Babaji", "internal_id": "BJ-INT-06", "external_id": "B10", "claimant_tradition": "YOGANANDA_LAHIRI_SRI_YUKTESWAR_SRF_YSS", "outcome": "SAME_SITE_SAME_EVENT", "place": "Serampore Rai Ghat-banyan", "note": "extern claimt EXACT via secundaire YSS-bron S3, AOAY zelf geeft geen straatnaam"}
+{"person": "Babaji", "internal_id": "BJ-INT-07", "external_id": "B11", "claimant_tradition": "YOGANANDA_LAHIRI_SRI_YUKTESWAR_SRF_YSS", "outcome": "SAME_SITE_SAME_EVENT", "place": "Benares, Lahiri's parlour/drempel", "note": "AOAY hfst 36; Pranabananda-subclaim EXTERNAL_ONLY_UNVERIFIED"}
+{"person": "Babaji", "internal_id": "BJ-INT-08", "external_id": "B12", "claimant_tradition": "YOGANANDA_LAHIRI_SRI_YUKTESWAR_SRF_YSS", "outcome": "SAME_SITE_SAME_EVENT", "place": "Barackpur kamer", "note": "AOAY hfst 31, Shankari Mai Jiew"}
+{"person": "Babaji", "internal_id": "BJ-INT-09", "external_id": "B13", "claimant_tradition": "YOGANANDA_LAHIRI_SRI_YUKTESWAR_SRF_YSS", "outcome": "SAME_SITE_SAME_EVENT", "place": "4 Gurpar Road, Yogananda's eigen ontmoeting", "note": "kernfeit bevestigd; datum 25 juli 1920 NIET in AOAY hfst 37 gevonden - FALSE_OR_UNSUPPORTED_EXTERNAL_CLAIM voor de datum-subclaim"}
+{"person": "Babaji", "internal_id": "BJ-INT-10", "external_id": "B05", "claimant_tradition": "YOGANANDA_LAHIRI_SRI_YUKTESWAR_SRF_YSS", "outcome": "SAME_SITE_SAME_EVENT", "place": "Badrinarayan-grot, Keshabananda", "note": "AOAY hfst 42, ca. 1935"}
+{"person": "Babaji", "internal_id": "BJ-INT-11+12", "external_id": "B06", "claimant_tradition": "YOGANANDA_LAHIRI_SRI_YUKTESWAR_SRF_YSS", "outcome": "SAME_SITE_DIFFERENT_NAME", "place": "Dashashwamedh Ghat, Varanasi (ondergrondse grot)", "note": "INTERNE LOCATIEFOUT GECORRIGEERD: was ten onrechte Ram Gopal/Ranbajpur-Tarakeswar; AOAY hfst 33 herlezen bevestigt Dashashwamedh Ghat"}
+{"person": "Babaji", "internal_id": "BJ-INT-13", "external_id": null, "claimant
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1235 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl blob_sha=da6570cdfe64562f3c005afb31e45294554a39c5 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=5 classification=text
+_tradition": "YOGANANDA_LAHIRI_SRI_YUKTESWAR_SRF_YSS", "outcome": "SYMBOLIC_VISIONARY_OR_POSTHUMOUS_ONLY", "place": "Badrinarayan, Pranabananda-reincarnatieclaim", "note": "Tier D, geen externe tegenhanger"}
+{"person": "Babaji", "internal_id": "BJ-INT-14", "external_id": "B01-S1", "claimant_tradition": "YOGANANDA_LAHIRI_SRI_YUKTESWAR_SRF_YSS", "outcome": "SAME_SITE_DIFFERENT_GRANULARITY", "place": "Modern: Mahavatar Babaji Cave, Kukuchina/Dunagiri", "note": "beide onafhankelijk op dezelfde YSS-institutionele identificatie uitgekomen"}
+{"person": "Babaji", "internal_id": null, "external_id": "B32", "claimant_tradition": "YOGANANDA_LAHIRI_SRI_YUKTESWAR_SRF_YSS", "outcome": "EXTERNAL_ONLY_UNVERIFIED", "place": "Satyalok/huis Shibendu Lahiri, Varanasi, jaren 80", "note": "buiten AOAY-tijdvak, niet lokaal verifieerbaar"}
+{"person": "Babaji", "internal_id": null, "external_id": "B14", "claimant_tradition": "HARIHARANANDA", "outcome": "WRONG_PERSON_OR_TRADITION", "place": "Karar Ashram Puri, eerste kamer 1949", "note": "geen identiteitsbrug naar AOAY-Babaji aangetoond; site overlapt fysiek met Sri Yukteswars hermitage"}
+{"person": "Babaji", "internal_id": null, "external_id": "B15", "claimant_tradition": "HARIHARANANDA", "outcome": "WRONG_PERSON_OR_TRADITION", "place": "Karar Ashram Puri, Kali-pujakamer 1949", "note": "zelfde tak als B14"}
+{"person": "Babaji", "internal_id": null, "external_id": "B16", "claimant_tradition": "HARIHARANANDA", "outcome": "WRONG_PERSON_OR_TRADITION", "place": "Ranikhet/Dunagiri-route, stem-only ca 1960", "note": "geen identiteitsbrug"}
+{"person": "Babaji", "internal_id": null, "external_id": "B17", "claimant_tradition": "YOGANANDA_LAHIRI_SRI_YUKTESWAR_SRF_YSS", "outcome": "WRONG_PERSON_OR_TRADITION", "place": "Kathgodam station wachtkamer, Daya Mata 1963-64", "note": "buiten AOAY, niet lokaal geverifieerd, apart gehouden"}
+{"person": "Babaji", "internal_id": null, "external_id": "B18", "claimant_tradition": "YOGANANDA_LAHIRI_SRI_YUKTESWAR_SRF_YSS", "outcome": "WRONG_PERSON_OR_TRADITION", "place": "Onbenoemd rest house, Daya Mata", "note": "buiten AOAY, niet lokaal geverifieerd"}
+{"person": "Babaji", "internal_id": null, "external_id": "B19", "claimant_tradition": "OTHER_OR_UNKNOWN", "outcome": "WRONG_PERSON_OR_TRADITION", "place": "Neelkant Hill teakbos, Sri M", "note": "Nath-sampradaya Sri Guru Babaji, betwiste identiteit"}
+{"person": "Babaji", "internal_id": null, "external_id": "B20", "claimant_tradition": "OTHER_OR_UNKNOWN", "outcome": "WRONG_PERSON_OR_TRADITION", "place": "Neelkant Hill bij Mauni Baba's grot", "note": "zelfde tak als B19"}
+{"person": "Babaji", "internal_id": null, "external_id": "B21", "claimant_tradition": "OTHER_OR_UNKNOWN", "outcome": "WRONG_PERSON_OR_TRADITION", "place": "Panar grot bij Kakbhusundi Tal", "note": "zelfde tak"}
+{"person": "Babaji", "internal_id": null, "external_id": "B22", "claimant_tradition": "OTHER_OR_UNKNOWN", "outcome": "WRONG_PERSON_OR_TRADITION", "place": "Geheim pad achter Kedarnath Temple", "note": "zelfde tak, Adi Shankara-legende"}
+{"person": "Babaji", "internal_id": null, "external_id": "B23", "claimant_tradition": "OTHER_OR_UNKNOWN", "outcome": "WRONG_PERSON_OR_TRADITION", "place": "Jaisalmer, vorige-levensvisioen", "note": "zelfde tak, puur visionair"}
+{"person": "Babaji", "internal_id": null, "external_id": "B24", "claimant_tradition": "KRIYA_BABAJI_NAGARAJ_YOGI_RAMAIAH", "outcome": "WRONG_PERSON_OR_TRADITION", "place": "Parangipettai geboorte 203 nChr", "note": "expliciet identiteitsconflict met Yogananda-traditie (geen geboortegegevens)"}
+{"person": "Babaji", "internal_id": null, "external_id": "B25", "claimant_tradition": "KRIYA_BABAJI_NAGARAJ_YOGI_RAMAIAH", "outcome": "WRONG_PERSON_OR_TRADITION", "place": "Kolkata, ontvoering als kind", "note": "Nagaraj-traditie"}
+{"person": "Babaji", "internal_id": null, "external_id": "B26", "claimant_tradition": "KRIYA_BABAJI_NAGARAJ_YOGI_RAMAIAH", "outcome": "WRONG_PERSON_OR_TRADITION", "place": "Courtallam, 48 dagen tapas", "note": "Nagaraj-traditie"}
+{"person": "Babaji", "internal_id": null, "extern
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1236 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl blob_sha=da6570cdfe64562f3c005afb31e45294554a39c5 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=5 classification=text
+al_id": "B27", "claimant_tradition": "KRIYA_BABAJI_NAGARAJ_YOGI_RAMAIAH", "outcome": "WRONG_PERSON_OR_TRADITION", "place": "Badrinath, 18 maanden naamloze grot", "note": "andere grot/traditie dan B05/interne record 10"}
+{"person": "Babaji", "internal_id": null, "external_id": "B28", "claimant_tradition": "KRIYA_BABAJI_NAGARAJ_YOGI_RAMAIAH", "outcome": "WRONG_PERSON_OR_TRADITION", "place": "9 Surammal Lane Egmore, Neelakantan", "note": "exact adres, andere lineage"}
+{"person": "Babaji", "internal_id": null, "external_id": "B29", "claimant_tradition": "KRIYA_BABAJI_NAGARAJ_YOGI_RAMAIAH", "outcome": "WRONG_PERSON_OR_TRADITION", "place": "Santopanth Tal grot, Ramaiah 1954", "note": "Nagaraj-traditie"}
+{"person": "Babaji", "internal_id": null, "external_id": "B30", "claimant_tradition": "KRIYA_BABAJI_NAGARAJ_YOGI_RAMAIAH", "outcome": "WRONG_PERSON_OR_TRADITION", "place": "Alaknanda-bron, Govindan 1999", "note": "Nagaraj-traditie, vital plane verschijning"}
+{"person": "Babaji", "internal_id": null, "external_id": "B31", "claimant_tradition": "KRIYA_BABAJI_NAGARAJ_YOGI_RAMAIAH", "outcome": "WRONG_PERSON_OR_TRADITION", "place": "Kumaon Hills, Satyeswarananda jaren 70", "note": "Nagaraj-traditie"}
+{"person": "Babaji", "internal_id": null, "external_id": "B33", "claimant_tradition": "HAIDAKHAN_BABAJI", "outcome": "WRONG_PERSON_OR_TRADITION", "place": "Haidakhan grot tegenover dorp, juni 1970", "note": "identiteit expliciet betwist door externe freeze zelf"}
+{"person": "Babaji", "internal_id": null, "external_id": "B34", "claimant_tradition": "HAIDAKHAN_BABAJI", "outcome": "WRONG_PERSON_OR_TRADITION", "place": "Kumaon Mount Kailash tempeltje", "note": "Haidakhan-traditie"}
+{"person": "Babaji", "internal_id": null, "external_id": "B35", "claimant_tradition": "HAIDAKHAN_BABAJI", "outcome": "WRONG_PERSON_OR_TRADITION", "place": "Haidakhan Vishwa Mahadham + Gautama Ganga", "note": "historisch sterk traceerbaar voor de Haidakhan-leraar zelf, niet voor AOAY-Babaji"}
+{"person": "Lahiri Mahasaya", "internal_id": "LM-INT-01", "external_id": "EXT-01", "outcome": "SAME_SITE_SAME_EVENT", "place": "Ghurni, Nadia - geboorte 1828", "note": "AOY 3872-3877"}
+{"person": "Lahiri Mahasaya", "internal_id": "LM-INT-02", "external_id": "EXT-02+04", "outcome": "SAME_SITE_DIFFERENT_GRANULARITY", "place": "Ghurni familietempel / herbouwde Shiva Site", "note": "extern splitst correct; herbouwde shrine NEE voor Lahiri persoonlijk"}
+{"person": "Lahiri Mahasaya", "internal_id": "LM-INT-03", "external_id": "EXT-06", "outcome": "SAME_SITE_DIFFERENT_GRANULARITY", "place": "Benares, huis broer Chandrakanta, Simon Chauhatta", "note": "PP-detail, BRON_GEBLOKKEERD"}
+{"person": "Lahiri Mahasaya", "internal_id": "LM-INT-04", "external_id": "EXT-09", "outcome": "SAME_SITE_SAME_EVENT", "place": "Joynarayan English School", "note": "AOY 3876-3877"}
+{"person": "Lahiri Mahasaya", "internal_id": "LM-INT-05", "external_id": "EXT-38", "outcome": "SAME_SITE_SAME_EVENT", "place": "Gazipur PWD-post", "note": "AOY 3882"}
+{"person": "Lahiri Mahasaya", "internal_id": "LM-INT-06", "external_id": "EXT-39", "outcome": "SAME_SITE_SAME_EVENT", "place": "Mirzapur PWD-post", "note": "AOY 3882"}
+{"person": "Lahiri Mahasaya", "internal_id": "LM-INT-07", "external_id": "EXT-43", "outcome": "IDENTITY_CONFLICT_UNRESOLVED", "place": "Danapur PWD-post", "note": "plaats bevestigd; jaartal 1861 (AOY) vs 1868 (PP) onopgelost conflict"}
+{"person": "Lahiri Mahasaya", "internal_id": "LM-INT-08", "external_id": "EXT-44", "outcome": "SAME_SITE_SAME_EVENT", "place": "Naini Tal PWD-post", "note": "AOY 3882, PP noemt deze post niet"}
+{"person": "Lahiri Mahasaya", "internal_id": "LM-INT-09", "external_id": "EXT-48+49+50+51", "outcome": "SAME_SITE_DIFFERENT_GRANULARITY", "place": "Drongiri-grot Ranikhet 1861-ontmoeting Babaji", "note": "extern splitst in 4 sublocaties, kruisref Babaji-reconciliatie"}
+{"person": "Lahiri Mahasaya", "internal_id": "LM-INT-10", "external_id": "EXT-13+14+15", "outcome": "SAME_SITE_DIFFERENT_GRANULARITY", "place": "Eigen woning D/31/58 Madanpura Benares", "note": "exact huisnummer +
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1237 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl blob_sha=da6570cdfe64562f3c005afb31e45294554a39c5 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=5 classification=text
+ sterftijd 17:25 BRON_GEBLOKKEERD, sterfdatum wel onafhankelijk bevestigd"}
+{"person": "Lahiri Mahasaya", "internal_id": "LM-INT-11", "external_id": "EXT-53", "outcome": "SAME_SITE_SAME_EVENT", "place": "Moradabad materialisatie", "note": "AOY 4088-4107 + PP 323-324, chronologieconflict jan 1869 vs na-1861"}
+{"person": "Lahiri Mahasaya", "internal_id": "LM-INT-12", "external_id": null, "outcome": "FALSE_OR_UNSUPPORTED_EXTERNAL_CLAIM", "place": "Allahabad Kumbh Mela, Lahiri wast voeten asceet", "note": "extern claimt ten onrechte GEEN bewijs voor Allahabad; AOAY hfst 33 bevestigt dit wel degelijk zelf - belangrijkste correctie in interne richting"}
+{"person": "Lahiri Mahasaya", "internal_id": "LM-INT-13", "external_id": "EXT-21", "outcome": "EXTERNAL_ONLY_UNVERIFIED", "place": "Ramnagar-paleis, tutor Pravunarayan Singh", "note": "grote nieuwe PP-only claim, BRON_GEBLOKKEERD, niet in AOAY of interne freeze"}
+{"person": "Lahiri Mahasaya", "internal_id": "LM-INT-14", "external_id": "EXT-16", "outcome": "SAME_SITE_SAME_EVENT", "place": "Bangalitola High School", "note": "AOY 3880-3882"}
+{"person": "Lahiri Mahasaya", "internal_id": "LM-INT-15", "external_id": "EXT-55+56", "outcome": "SAME_SITE_DIFFERENT_GRANULARITY", "place": "Bishnupur-huwelijksreizen 1886 en 1891", "note": "AOY-basisclaim bevestigd, PP-details BRON_GEBLOKKEERD"}
+{"person": "Lahiri Mahasaya", "internal_id": "LM-INT-16", "external_id": "EXT-14+32", "outcome": "SAME_SITE_DIFFERENT_GRANULARITY", "place": "Sterfplaats + crematie Manikarnika Ghat", "note": "crematieplaats EXTERNAL_ONLY_UNVERIFIED, plausibel niet geverifieerd"}
+{"person": "Lahiri Mahasaya", "internal_id": "LM-INT-17", "external_id": null, "outcome": "SAME_SITE_SAME_EVENT", "place": "Arya Mission Institution Calcutta, NEE voor Lahiri zelf", "note": "extern bevestigt onafhankelijk dezelfde NEE-conclusie"}
+{"person": "Lahiri Mahasaya", "internal_id": "LM-INT-18", "external_id": null, "outcome": "INTERNAL_ONLY_VERIFIED_MISS", "place": "Gorakhpur-materialisatie aan Abinash Babu", "note": "AOAY hfst 1 zelf geverifieerd, geen externe tegenhanger"}
+{"person": "Lahiri Mahasaya", "internal_id": "LM-INT-19", "external_id": "EXT-13+14", "outcome": "SAME_SITE_SAME_EVENT", "place": "Pensionering tot dood, Benares", "note": "samengevoegd met LM-INT-10"}
+{"person": "Sri Yukteswar", "internal_id": "SY-INT-01", "external_id": "SY-001..005,008", "outcome": "SAME_SITE_DIFFERENT_GRANULARITY", "place": "Serampore Rai Ghat Lane hermitage", "note": "extern splitst in 5 kamersublocaties, AOAY hfst 12/42"}
+{"person": "Sri Yukteswar", "internal_id": "SY-INT-01", "external_id": "SY-006+SY-007", "outcome": "SAME_SITE_SAME_EVENT", "place": "Rai Ghat badingsghat + banyanboom", "note": "kruisref Babaji-reconciliatie"}
+{"person": "Sri Yukteswar", "internal_id": "SY-INT-06", "external_id": "SY-009", "outcome": "SAME_SITE_SAME_EVENT", "place": "Serampore station", "note": "match"}
+{"person": "Sri Yukteswar", "internal_id": null, "external_id": "SY-010", "outcome": "EXTERNAL_ONLY_VERIFIED_MISS", "place": "Christelijke kerk bij Serampore Courthouse", "note": "AOAY hfst 20 regel 51/78 bevestigd, ontbrak intern"}
+{"person": "Sri Yukteswar", "internal_id": null, "external_id": "SY-011", "outcome": "EXTERNAL_ONLY_UNVERIFIED", "place": "Serampore Christian Missionary College", "note": "Satyananda-secundair, BRON_GEBLOKKEERD"}
+{"person": "Sri Yukteswar", "internal_id": "SY-INT-03", "external_id": "SY-018", "outcome": "SAME_SITE_SAME_EVENT", "place": "Lahiri Mahasaya's huis, Benares", "note": "AOAY hfst 12/36"}
+{"person": "Sri Yukteswar", "internal_id": null, "external_id": "SY-016+SY-017", "outcome": "EXTERNAL_ONLY_VERIFIED_MISS", "place": "Kadambini Devi's woning, Rana Mahal, Benares", "note": "AOAY hfst 10 regel 303, hfst 12 regel 981 bevestigd - moeders huis, ontbrak intern"}
+{"person": "Sri Yukteswar", "internal_id": "SY-INT-04", "external_id": "SY-019+SY-020", "outcome": "SAME_SITE_SAME_EVENT", "place": "Allahabad Kumbh Mela 1894", "note": "kruisref Babaji-reconciliatie"}
+{"person": "Sri Yukteswar", "internal_id": null, "external_id": 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1238 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl blob_sha=da6570cdfe64562f3c005afb31e45294554a39c5 original_offset=16384 original_length=2505 payload_bytes=2505 chunk_index=4 chunk_count=5 classification=text
+"SY-021", "outcome": "EXTERNAL_ONLY_UNVERIFIED", "place": "Mahabodhi Temple Bodh Gaya, monastieke geloften 1906", "note": "geen AOAY-locator, BRON_GEBLOKKEERD"}
+{"person": "Sri Yukteswar", "internal_id": "SY-INT-02", "external_id": "SY-023..028", "outcome": "SAME_SITE_DIFFERENT_GRANULARITY", "place": "Puri zeehermitage (Karar Ashram)", "note": "extern splitst in 6 sublocaties, AOAY hfst 15/42/43"}
+{"person": "Sri Yukteswar", "internal_id": null, "external_id": "SY-022", "outcome": "EXTERNAL_ONLY_UNVERIFIED", "place": "Eerste Puri-aankomst via zee", "note": "S5-secundair, niet geverifieerd"}
+{"person": "Sri Yukteswar", "internal_id": "SY-INT-02", "external_id": null, "outcome": "SAME_SITE_SAME_EVENT", "place": "Sterfdatumcorrectie: mahasamadhi 9 maart 1936, niet 21 maart", "note": "21 maart is bhandara-herdenkingsceremonie (lentenachtevening), eigen interpretatiefout gecorrigeerd"}
+{"person": "Sri Yukteswar", "internal_id": "SY-INT-05", "external_id": "SY-029..036", "outcome": "SAME_SITE_SAME_EVENT", "place": "Kashmir-route (Simla t/m Dal Lake)", "note": "volledige match met Werkpakket D batch5"}
+{"person": "Sri Yukteswar", "internal_id": "SY-INT-07", "external_id": "SY-013", "outcome": "EXTERNAL_ONLY_UNVERIFIED", "place": "Calcutta Medical College", "note": "Satyananda-secundair, niet geverifieerd"}
+{"person": "Sri Yukteswar", "internal_id": "SY-INT-07", "external_id": "SY-014", "outcome": "EXTERNAL_ONLY_VERIFIED_MISS", "place": "Albert Hall-podium, Calcutta-lezing 1935", "note": "AOAY hfst 42 bevestigd, ontbrak als apart record"}
+{"person": "Sri Yukteswar", "internal_id": "SY-INT-07", "external_id": "SY-015", "outcome": "EXTERNAL_ONLY_UNVERIFIED", "place": "Onbekende Calcutta-bestemming na dringende oproep", "note": "AOAY hfst 19, niet apart herlezen dit checkpoint"}
+{"person": "Sri Yukteswar", "internal_id": null, "external_id": "SY-012", "outcome": "SYMBOLIC_VISIONARY_OR_POSTHUMOUS_ONLY", "place": "Panthi boardinghouse materialisatie ca 1915", "note": "VISION_OR_MATERIALIZATION tijdens leven, niet als gewone aanwezigheid genormaliseerd"}
+{"person": "Sri Yukteswar", "internal_id": null, "external_id": "SY-037", "outcome": "SYMBOLIC_VISIONARY_OR_POSTHUMOUS_ONLY", "place": "Regent Hotel Bombay, postume verschijning", "note": "matcht bestaande behandeling exact"}
+{"person": "Sri Yukteswar", "internal_id": null, "external_id": "SY-038", "outcome": "EXTERNAL_ONLY_UNVERIFIED", "place": "Bherir Bazar hutment", "note": "extern zelf al zwak bewijs, niet nagetrokken"}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1239 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/PHASE2_TASK_081.md blob_sha=da80ada45a25b3c34f0ba4a731e4afe832ae93c3 original_offset=0 original_length=1917 payload_bytes=1917 chunk_index=0 chunk_count=1 classification=text
+# CCI_TASK 081 — TOP11 person-centric megasweep, remaining 9
+
+Status: AUTHORIZED_BY_INDIA
+
+Voer nu Fase 2 van `TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001` uit volgens `METHOD_V1.md`.
+
+Werk de overige 9 personen één voor één volledig af, freeze per persoon vóór repo-cross-check, en ga daarna door naar de volgende zonder nieuwe toestemming tenzij er een systeemwijde blocker of echt Mark-besluitconflict ontstaat.
+
+Volgorde:
+1. Mahavatar Babaji
+2. Lahiri Mahasaya
+3. Paramahansa Yogananda
+4. Ram Dass
+5. Sri Yukteswar
+6. Hariharananda
+7. Vivekananda
+8. Ramakrishna
+9. Ramana Maharshi
+
+Harde eisen per persoon:
+- heel India, geen regiobegrenzing;
+- regio-kandidaatsets niet als discovery-checklist;
+- officiële/lineage + primaire/biografische bronnen;
+- levensfasen/reizen chronologisch;
+- alternatieve namen/spellingen;
+- hosts/gastheren/discipelen/secretarissen/patronen/auteurs van memoires als eigen zoekingangen;
+- expliciet zoeken naar verblijf/bezoek BIJ ANDEREN;
+- betekenisvolle huizen/landgoederen/ashrams van anderen, grotten, samadhi, geboorte, initiatie, meditatie, lezingen, satsang, ceremonie etc.;
+- person_event_verified / physical_identity_verified / exact_sublocation_verified apart;
+- freeze vóór vergelijking met repo;
+- daarna FOUND_AND_ALREADY_KNOWN / FOUND_BUT_MISSING_FROM_REPO / REPO_ONLY_NOT_REFOUND / DUPLICATE / PERSON_LINK_UPGRADE / REGION_MISS / NEW_REGION_SIGNAL;
+- `PERSON_SWEEP_SATURATED: JA` alleen na aantoonbaar voldoen aan alle 6 saturation-punten uit TASK.md.
+
+Einddeliverable na alle 9:
+- landelijke machine-leesbare atlas voor alle Top-11 samen (pilotpersonen inbegrepen);
+- compact eindrapport per persoon + totaalsynthese;
+- aantallen Tier 1/2/3;
+- nieuwe missiekritische fysieke plekken;
+- nieuwe zware regioclusters/signalen;
+- regionale misses;
+- repo-person-link upgrades;
+- echte blockers/conflicten;
+- geen A/B/C namens Mark;
+- geen PDF;
+- geen routeplanning.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1240 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/SOURCE_FAMILY_PLAN.jsonl blob_sha=dacddc7a3186d3331828872ececc23dd5cb755db original_offset=0 original_length=2413 payload_bytes=2413 chunk_index=0 chunk_count=1 classification=text
+{"source_family":"unesco_bron","example_domains":["whc.unesco.org"],"detector_id":["DET-BGY-P001"],"used_for":["Mahabodhi-tempelcomplex, UNESCO-werelderfgoedbeschrijving en -onderbouwing"],"status":"gepland"}
+{"source_family":"academische_bron","example_domains":["researchgate.net","link.springer.com","academische publicaties over boeddhistische archeologie/geschiedenis"],"detector_id":["DET-BGY-P001","DET-BGY-P002","DET-BGY-P005"],"used_for":["decompositie tempelcomplex","pre-verlichtingsplekken","archeologische laag"],"status":"gepland"}
+{"source_family":"religieuze_naslagbron","example_domains":["Pali-canon-vertalingen","Ashokavadana","boeddhistische kloosterbronnen"],"detector_id":["DET-BGY-P001","DET-BGY-P002"],"used_for":["canonieke verhalen rond verlichting en de periode ervoor"],"status":"gepland"}
+{"source_family":"primaire_historische_reisverslagen","example_domains":["Xuanzang/Hiuen Tsang 7e-eeuwse reisverslagen (vertaalde edities)"],"detector_id":["DET-BGY-P001","DET-BGY-P005"],"used_for":["vroegste gedetailleerde buitenstaanderbeschrijving van de site, mogelijk archeologisch-historisch anker"],"status":"gepland"}
+{"source_family":"officiele_overheids_toerismebron","example_domains":["incredibleindia.gov.in","Bihar-staatstoerismebron"],"detector_id":["DET-BGY-P005","DET-BGY-P006"],"used_for":["archeologische/beschermde structuren","Gaya/Vishnupad-tempelgebied"],"status":"gepland"}
+{"source_family":"encyclopedie","example_domains":["en.wikipedia.org"],"detector_id":["DET-BGY-P001","DET-BGY-P002","DET-BGY-P003","DET-BGY-P005","DET-BGY-P006"],"used_for":["algemene kruiscontrole alle detectoren"],"status":"gepland"}
+{"source_family":"reis_kruiscontrole","example_domains":["meerdere onafhankelijke reissites per claim"],"detector_id":["DET-BGY-P002","DET-BGY-P003","DET-BGY-P006"],"used_for":["aanvullende feitelijke kruiscontrole, nooit als enige bron voor een kernclaim"],"status":"gepland"}
+{"source_family":"primaire_tekst_AOAY","example_domains":["Autobiography of a Yogi (Paramahansa Yogananda), primaire tekst"],"detector_id":["DET-BGY-P004"],"used_for":["controle op een eventuele Bodh Gaya-verwijzing in de Kriya-lijnbronnen"],"status":"gepland"}
+{"source_family":"insider_lokale_praktijkbron","example_domains":[],"detector_id":["DET-BGY-P003","DET-BGY-P007"],"used_for":[],"status":"NOG NIET BESCHIKBAAR -- zelfde structurele hiaat als bij Varanasi, vooraf erkend"}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1241 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/HARIDWAR_KANKHAL_RISHIKESH_CLUSTER_DECISION.md blob_sha=dad90a7dc434d69c77f55a11a5c615dcf3426eb8 original_offset=0 original_length=1123 payload_bytes=1123 chunk_index=0 chunk_count=1 classification=text
+# Haridwar / Kankhal / Rishikesh corridor decision
+
+Date: 2026-08-22
+
+## Cluster status
+B — attractive but currently not strong enough to earn a dedicated route branch in a ~32-day trip.
+
+## Why
+- Mark is personally attracted to Rishikesh, but there are too many higher-priority clusters competing for time.
+- Kankhal contains a genuine A-level Anandamayi Ma magnet (her Mahasamadhi / active veneration), but that alone is not enough to force a dedicated regional detour.
+- Haridwar station is C / historical transit context, not a destination driver.
+- Kankhal/Daksheswar details remain available as nearby/combined additions if this corridor returns.
+
+## Reopen rule
+Only promote this corridor back toward A if a future sweep or consolidation reveals one or more exceptionally important additional sites in the same geographic corner, strong enough to materially change route value.
+
+## Important distinction
+This is a CLUSTER-level B. Individual sites such as Anandamayi Ma Kankhal may remain A in content/value; they are not deleted or downgraded. The cluster simply does not currently justify its own travel branch.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1242 path=india4/scripts/validate_pre_brons_brief.py blob_sha=dd156450867ca78f69ad899cee6ac4ceaebf1d6d original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+#!/usr/bin/env python3
+"""Valideert of een REGION_CONTENT_BRIEF.json intern consistent is (INDIA2-besluit 2026-08-02).
+
+BRONS mag pas starten nadat deze validator geen fouten meldt. Zie
+india4/templates/PRE_BRONS_REGION_CONTENT_BRIEF_TEMPLATE.md voor de volledige toelichting per
+veld.
+
+Blokkeert (exit-code 1) wanneer:
+1. een verplicht veld ontbreekt of leeg is;
+2. `dramatic_miss_check` leeg is of alleen "geen"/"none" bevat zonder toelichting;
+3. een bronfamilie in `planned_source_families` niet aan minstens één detector is gekoppeld.
+
+Gebruik:
+    python3 india4/scripts/validate_pre_brons_brief.py <pad naar REGION_CONTENT_BRIEF.json>
+"""
+import json
+import sys
+from pathlib import Path
+
+# Velden die altijd aanwezig EN niet-leeg moeten zijn.
+REQUIRED_NONEMPTY_FIELDS = [
+    "region", "run_id", "area_definition", "mark_known_interests", "mark_known_anchors",
+    "relevant_traditions", "known_risks_blind_spots", "expected_candidate_categories",
+    "saturation_and_stop_criteria", "dramatic_miss_check", "written_at", "written_by",
+]
+
+# Velden die aanwezig moeten zijn (als sleutel), maar bij vroege regio's (nog geen ACTIVE
+# detectoren in de bibliotheek) legitiem een lege lijst mogen zijn.
+REQUIRED_PRESENT_FIELDS = ["active_detectors_applied", "planned_source_families"]
+
+# provisional_detectors_introduced mag alleen leeg zijn als active_detectors_applied niet leeg is
+# (een sweep moet altijd op minstens één detector -- ACTIVE of PROVISIONAL -- kunnen steunen).
+PROVISIONAL_FIELD = "provisional_detectors_introduced"
+
+TRIVIAL_ANSWERS = {"geen", "none", "n/a", "-", ""}
+
+
+def main():
+    if len(sys.argv) != 2:
+        print("Gebruik: python3 validate_pre_brons_brief.py <pad naar REGION_CONTENT_BRIEF.json>")
+        sys.exit(2)
+
+    brief_path = Path(sys.argv[1])
+    if not brief_path.exists():
+        print(f"Bestand niet gevonden: {brief_path}")
+        sys.exit(1)
+
+    brief = json.loads(brief_path.read_text(encoding="utf-8"))
+    errors = []
+
+    for field in REQUIRED_NONEMPTY_FIELDS:
+        value = brief.get(field)
+        if value is None or value == "" or value == [] or value == {}:
+            errors.append(f"verplicht veld ontbreekt of is leeg: {field}")
+
+    for field in REQUIRED_PRESENT_FIELDS:
+        if field not in brief:
+            errors.append(f"verplicht veld ontbreekt (mag leeg zijn, maar moet aanwezig zijn): {field}")
+
+    if not brief.get("active_detectors_applied") and not brief.get(PROVISIONAL_FIELD):
+        errors.append(
+            "geen enkele detector (ACTIVE of PROVISIONAL) is toegepast -- een sweep moet op "
+            "minstens één detector steunen, ook bij een nog jonge bibliotheek"
+        )
+
+    dmc = str(brief.get("dramatic_miss_check", "")).strip().lower()
+    if dmc in TRIVIAL_ANSWERS:
+        errors.append(
+            "dramatic_miss_check is leeg of triviaal (bv. 'geen') zonder toelichting -- "
+            "vereist een concreet, beargumenteerd antwoord op de vraag welke dramatisch te "
+            "missen A-locatie dit plan nog zou kunnen missen"
+        )
+
+    detector_ids = set()
+    for d in brief.get("active_detectors_applied", []):
+        if isinstance(d, dict) and "detector_id" in d:
+            detector_ids.add(d["detector_id"])
+    for d in brief.get("provisional_detectors_introduced", []):
+        if isinstance(d, dict) and "detector_id" in d:
+            detector_ids.add(d["detector_id"])
+
+    for sf in brief.get("planned_source_families", []):
+        if isinstance(sf, dict):
+            linked = sf.get("detector_id") or sf.get("linked_detector_ids")
+            if not linked:
+                errors.append(f"bronfamilie zonder gekoppelde detector: {sf}")
+            elif isinstance(linked, list):
+                unknown = [d for d in linked if d not in detector_ids]
+                if unknown:
+                    errors.append(f"bronfamilie {sf} verwijst naar onbekende detector(en): {unknown}")
+            elif linked not in detector_ids:
+                errors.append(f"bronfamilie {sf} verwijst naar onbekende detector: {linked}")
+
+    if errors:
+        print(f"VALIDATIE 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1243 path=india4/scripts/validate_pre_brons_brief.py blob_sha=dd156450867ca78f69ad899cee6ac4ceaebf1d6d original_offset=4096 original_length=354 payload_bytes=354 chunk_index=1 chunk_count=2 classification=text
+MISLUKT -- brief NIET intern consistent, BRONS mag nog niet starten "
+              f"({len(errors)} probleem/problemen):\n")
+        for e in errors:
+            print(f"  - {e}")
+        sys.exit(1)
+
+    print("VALIDATIE OK -- REGION_CONTENT_BRIEF.json is intern consistent, BRONS mag starten.")
+    sys.exit(0)
+
+
+if __name__ == "__main__":
+    main()
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1244 path=runs/active/INDIA8-CLUSTER-CASTING-001/PRAYAGRAJ_ALLAHABAD_EXACTNESS_PASS.md blob_sha=dd8e79ab64237f061ae231decde463cd7c211c74 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# PRAYAGRAJ / ALLAHABAD — EXACTNESS PASS BEFORE MARK A/B/C
+
+Rule: only concrete current physical sites with visitability closure go to Mark for A/B/C. Historic mela scenes without recoverable micro-locator remain context-only.
+
+## A/B/C_READY
+
+### P-EX-01 — Triveni Sangam
+PERSONS: Sri Ramakrishna; Anandamayi Ma; Yogananda/AOAY as Kumbh landscape context.
+EVENT: Ramakrishna stayed three nights at Prayag in 1868 and bathed at the holy confluence; Anandamayi Ma also bathed/visited Sangam. AOAY's Allahabad Kumbh scenes are in this same pilgrimage landscape, but their exact historical tents are not recoverable.
+PHYSICAL_IDENTITY: EXACT natural confluence/pilgrimage landscape.
+CURRENT_LOCATOR: Triveni Sangam, Prayagraj, confluence of Ganga and Yamuna (traditional Saraswati confluence).
+CONTINUITY: natural pilgrimage landscape.
+VISITABILITY_2026: public, reached by riverbank/boat pilgrim access.
+ABC_READY: JA.
+NOTE: grading Sangam does NOT imply that the exact 1894/1936 Kumbh camp positions are known.
+
+### P-EX-02 — 4 Church Lane / Red House, Prayagraj
+PERSONS: Neem Karoli Baba; Ram Dass.
+EVENT: Dada/Kamala Mukerjee home built 1958; repeated NKB winter residence. Ram Dass and Western devotees stayed here; contemporary devotee records explicitly describe Ram Dass among the foreigners at the house in 1972.
+PHYSICAL_IDENTITY: EXACT street address and house identity.
+CURRENT_LOCATOR: 4 Church Lane, Prayagraj/Allahabad; local navigation lead places Church Lane beside Golden Jubilee Hostel/near Anand Bhavan.
+CONTINUITY: later visitor account documents reaching the same house, entering, and seeing the front room with Baba photos/takhat. Historical photos are explicitly captioned as taken at 4 Church Lane.
+VISITABILITY: PRIVATE HOUSE, not an always-open public attraction. A documented devotee visit shows access can occur when someone admits visitors, but access cannot be assumed on arrival.
+ABC_READY: JA, with access-risk flag.
+
+### P-EX-03 — Maharaj-ji room at 4 Church Lane
+PERSON: Neem Karoli Baba; Ram Dass context at same house.
+EVENT: recurring NKB room for residence, meals and conversations; ashes/urn also temporarily placed in this room after death according to devotee account.
+PHYSICAL_IDENTITY: HISTORICALLY EXACT within house; later visitor account describes a front room with Baba photos and takhat.
+CURRENT_LOCATOR: inside 4 Church Lane Red House.
+CONTINUITY: evidence suggests devotional room continuity, but no current official floorplan certifies it as unchanged room-level fabric.
+VISITABILITY: private, dependent on household permission.
+ABC_READY: JA only as `PRIVATE_ACCESS_REQUIRED`; no guarantee of entry.
+
+### P-EX-04 — Shri Lete Hue Hanuman Ji / Bade Hanuman Ji Temple near Sangam
+PERSONS: Ram Dass + Neem Karoli Baba episode, identity not explicit in memoir but descriptive match strong.
+EVENT: Ram Dass memoir records 1971 bus stop after sighting Maharaj-ji near unusual underground/reclining Hanuman temple near Sangam.
+PHYSICAL_IDENTITY: current temple is exact named reclining Hanuman shrine; correspondence to memoir remains `DEELS` rather than fully proven because memoir omits name.
+CURRENT_LOCATOR: Shri Lete Hue Hanumanji Temple near Sangam, Prayagraj.
+CONTINUITY: active temple.
+VISITABILITY_2026: official Prayagraj district tourist site confirms current public temple.
+ABC_READY: NEE under strict rule until memoir-to-temple identity is directly closed. Keep as strong lead, not ask Mark yet.
+
+### P-EX-05 — Prayag railway station
+PERSON: Neem Karoli Baba.
+EVENT: documented NKB departures/transit.
+PHYSICAL_IDENTITY: EXACT station identity in source.
+CURRENT_LOCATOR: Prayag railway station, Prayagraj.
+CONTINUITY: active railway station identity.
+VISITABILITY: public transport facility.
+ABC_READY: JA, though likely lower spiritual weight than house/Sangam.
+
+## ONOPGELOST_GEEN_ABC
+1. Yogananda's exact 1936 Kumbh camp/tent/site: AOAY proves Yogananda personally travelled to Allahabad Kumbh, but no exact recoverable tent/camp coordinate. Preserve as AOAY BOOK-IN-HAND Sangam/Kumbh context; no separate location A/B/C.
+2.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1245 path=runs/active/INDIA8-CLUSTER-CASTING-001/PRAYAGRAJ_ALLAHABAD_EXACTNESS_PASS.md blob_sha=dd8e79ab64237f061ae231decde463cd7c211c74 original_offset=4096 original_length=1040 payload_bytes=1040 chunk_index=1 chunk_count=2 classification=text
+ Sri Yukteswar-Babaji 1894 Kumbh meeting spot: AOAY proves Allahabad Kumbh context, exact physical tent/spot not recoverable. No separate A/B/C.
+3. Prabhudatt Brahmachari ashram across Ganges: historical event proven, current exact institutional property/address not closed. No A/B/C.
+4. NKB flood-side Hanuman temple/Ganges bank: event proven but exact present temple not securely identified. No A/B/C.
+5. Old Mukerjee house before 4 Church Lane: address not recovered. No A/B/C.
+6. Exact Kumbh/Magh Mela camp sites used by NKB in different years: event-level records but temporary camp geometry varies; no permanent-site A/B/C unless an exact surviving anchor is found.
+
+## CLUSTER INTERPRETATION
+Prayagraj's travel value is concentrated rather than dispersed: Triveni Sangam plus the exact private 4 Church Lane/Red House are the strongest closed physical anchors. AOAY adds major meaning to the Sangam/Kumbh landscape, but the historic Kumbh micro-sites themselves are not exact enough to pretend they are separate visitable locations.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1246 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/scripts/append_batch_record.py blob_sha=dd9321274a5e147839b0073d1e8e3f05db3f2446 original_offset=0 original_length=4054 payload_bytes=4054 chunk_index=0 chunk_count=1 classification=text
+#!/usr/bin/env python3
+"""Veilige, append-only writer voor BRONS/ZILVER-batchbestanden (JSONL).
+
+Root cause van de vorige tooling-fout: een script opende een bestaand batchbestand
+in tekstmodus "a" en schreef er json.dumps(...)-regels bovenop. Als het bestaande
+bestand niet op een newline eindigde, smolt de eerste toegevoegde regel samen met
+de laatste bestaande regel tot een ongeldige JSON-regel (BRONS-B03.jsonl:1 kreeg
+zo VNS-CAND-021 en VNS-CAND-022 samengeperst). Bovendien herserialiseerde de
+reparatie nadien per ongeluk ALLE regels (inclusief het ongewijzigde VNS-CAND-021),
+wat een cosmetische diff opleverde (spaties na ":"/"," die er eerst niet stonden).
+
+Deze module lost beide problemen structureel op:
+1. Bestaande regels worden NOOIT gelezen-en-herschreven. Alleen aanvullen.
+2. Vóór het aanvullen wordt uitsluitend gecontroleerd of het bestand al op een
+   newline eindigt; zo niet, wordt UITSLUITEND een newline toegevoegd (een
+   gerichte, minimale toevoeging), nooit de bestaande byte-inhoud gewijzigd.
+3. Elk record wordt in compacte vorm geschreven (separators zonder spaties,
+   dezelfde stijl als de bestaande BRONS/ZILVER-records), zodat nieuwe regels
+   geen cosmetische afwijking t.o.v. de bestaande conventie introduceren.
+
+Gebruik als module:
+    from append_batch_record import append_jsonl_record
+    append_jsonl_record(path, record_dict)
+
+Gebruik als CLI (record als JSON via stdin):
+    echo '{"candidate_id": "VNS-CAND-099", ...}' | python3 append_batch_record.py BRONS/BRONS-B05.jsonl
+"""
+import json
+import sys
+from pathlib import Path
+
+COMPACT_SEPARATORS = (",", ":")
+
+
+def _existing_candidate_ids(path: Path) -> set:
+    ids = set()
+    if not path.exists():
+        return ids
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                rec = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            cid = rec.get("candidate_id")
+            if cid:
+                ids.add(cid)
+    return ids
+
+
+def append_jsonl_record(path, record: dict, allow_duplicate: bool = False) -> None:
+    """Append één record aan een JSONL-batchbestand zonder bestaande regels aan te raken.
+
+    - Schrijft nooit het bestand opnieuw; opent uitsluitend in append-byte-modus.
+    - Voegt eerst een ontbrekende trailing newline toe als gerichte, losse toevoeging
+      (nooit gecombineerd met een herserialisatie van bestaande regels).
+    - Weigert een candidate_id die al in het bestand staat, tenzij allow_duplicate=True
+      (voorkomt per ongeluk twee records voor dezelfde kandidaat in hetzelfde bestand).
+    """
+    path = Path(path)
+    cid = record.get("candidate_id")
+    if not cid:
+        raise ValueError("record mist verplicht veld 'candidate_id'")
+
+    if not allow_duplicate:
+        existing = _existing_candidate_ids(path)
+        if cid in existing:
+            raise ValueError(
+                f"{cid} staat al in {path} -- geen duplicaat toegevoegd "
+                f"(gebruik allow_duplicate=True als dit bewust is)"
+            )
+
+    line = json.dumps(record, ensure_ascii=False, separators=COMPACT_SEPARATORS)
+
+    needs_leading_newline = False
+    if path.exists() and path.stat().st_size > 0:
+        with open(path, "rb") as f:
+            f.seek(-1, 2)
+            last_byte = f.read(1)
+        if last_byte != b"\n":
+            needs_leading_newline = True
+
+    with open(path, "a", encoding="utf-8", newline="\n") as f:
+        if needs_leading_newline:
+            f.write("\n")
+        f.write(line + "\n")
+
+
+def main():
+    if len(sys.argv) != 2:
+        print("Gebruik: python3 append_batch_record.py <pad-naar-batchbestand.jsonl>  (record als JSON via stdin)",
+              file=sys.stderr)
+        sys.exit(2)
+    path = sys.argv[1]
+    record = json.loads(sys.stdin.read())
+    append_jsonl_record(path, record)
+    print(f"OK -- {record.get('candidate_id')} toegevoegd aan {path}")
+
+
+if __name__ == "__main__":
+    main()
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1247 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/FEED_INDIAWIT_ANANDAMAYI_HERITAGE_COMPLETE.md blob_sha=de745f6bc88a6b7100ce82374e877bf5d06c172f original_offset=0 original_length=2386 payload_bytes=2386 chunk_index=0 chunk_count=1 classification=text
+# FEED — INDIA WIT ANANDAMAYI / HERITAGE LOCATION CLOSURE
+
+Date: 2026-08-20
+Source branch: `agent/indiawit-master-travel-readiness`
+Task: `INDIAWIT-ANANDAMAYI-HERITAGE-LOCATION-CLOSURE-001`
+Source state: COMPLETE_WITH_GOVERNANCE_SCHEMA_BLOCKER
+Central interpretation: CONTENT COMPLETE; SCHEMA ASSIGNMENT REMAINS REQUIRED.
+
+## OUTPUT COMMITS
+- ANANDAMAYI_SOURCE_RECORDS.jsonl — `cf5974bf69053e466e94a93433cd8282adbde7ba`
+- ANANDAMAYI_ENTITY_CANDIDATES.jsonl — `1fd1ec3213466e3c440ea5143e0c6d6f91c2d971`
+- ANANDAMAYI_R4_R5_CLOSURE.md — `e1d8f8422501fb9a579e7269dd8e81caf561587e`
+- HERITAGE_STAY_ENTITY_MATRIX.md — `61d96b016786d9208c964661cdaa92f72f1e9621`
+- CURRENT_ACCESS_BOOKABILITY.md — `c6933d04b1a93e50015bf5ecdec7b34d0cb7c187`
+- STATUS — `aae890510c44cad584fabc3ffb671a93d1d902ab`
+
+## HIGH-VALUE CLOSURES
+- Kankhal: official Sangha identifies bungalow where Anandamayi Ma spent about her final two months; bedroom + kitchen preserved in Matri Smriti Museum. Historic bedroom is visitable heritage, NOT accommodation. Adjacent International Centre currently offers accommodation.
+- Bhadaini, Varanasi: official organization currently publishes room-booking contact and separate local dharamshala contact. Existing Sahi River View Guesthouse lock remains unchanged; this creates a later Mark hotel/stay review candidate, not an automatic override.
+- External Anandamayi union L001-L156 retained losslessly; source-first additions and CCI084 remain separately traceable; East/South findings retained despite current route deprioritization.
+
+## GOVERNANCE BLOCKER RESOLUTION
+The governance file DOES exist on central branch `agent/india8-cluster-casting` at:
+`governance/LOCATION_RESOLUTION_BEFORE_ABC_2026-08-19.md`
+It defines R1-R5 and access statuses. WIT correctly did not invent definitions when the file was absent on its own branch.
+
+Central next action: propagate the canonical governance schema to WIT and require a schema-only classification pass over its already-closed entities. NO rediscovery/research rerun required unless classification exposes a true evidence gap.
+
+## DOWNSTREAM
+- Feed resolved physical entities and heritage candidates to ZILVER proximity/new-ID staging.
+- Feed Anandamayi entities into central all-findings master using TURQUOISE merge/parent-child/successor rules.
+- Preserve all unresolved R4/R5 candidates; no route-based deletion.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1248 path=runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/STATUS.md blob_sha=df745b6e6a7440ffa7903d0d9d94ee34871f9497 original_offset=0 original_length=2436 payload_bytes=2436 chunk_index=0 chunk_count=1 classification=text
+# STATUS — TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001
+
+```
+task_id: TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001
+cci_task: CCI_TASK 092
+state: READY_FOR_CCI
+issued_at: 2026-08-19
+issued_by: INDIA8
+target_branch: claude/werk-je-nu-of-niet-oa10y7
+task_file: runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/TASK.md
+status_file: runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/STATUS.md
+pdf_status: VERBODEN
+```
+
+## Doel
+
+Voeg de reeds bestaande onafhankelijke IndiaROOD-freezes voor Babaji, Lahiri Mahasaya en Sri Yukteswar als derde detectorlaag lossless toe aan de bestaande CCI_TASK 088-reconciliatie.
+
+## Inputs bevestigd door INDIA8
+
+- Babaji IndiaROOD: `f9e7e25bec3716687f5fd2562c119baf31ea22ef`
+- Lahiri Mahasaya IndiaROOD: `fc8418b8785cdd22edd389f0a461586ce239ff17`
+- Sri Yukteswar IndiaROOD: `6f71180a1a4cf6666088ae450a6cedb13052552e`
+
+Deze freezes zijn al uitgevoerd; niet dupliceren.
+
+## QA-besluit CCI_TASK 091
+
+CCI_TASK 091 is inhoudelijk voldoende voor voortgang. Het open NKB-conflict over de exacte laatste-reisvolgorde blijft geregistreerd maar blokkeert de landelijke persoonslaag niet en valt buiten 092.
+
+## Resultaat
+
+Alle drie IndiaROOD Core-Kriya-freezes volledig drieweg gereconcilieerd. Babaji: 50 IndiaROOD-
+records, nieuwe claimanttraditie (Hansavedas/Tryambaknath) Tier-1 bevestigd, Haidakhan-tak 3→19.
+Lahiri Mahasaya: 40+6 records, vier Tier-1-bevestigde nieuwe locaties (drie sluiten een AOAY-
+lossless-gap), twee onopgeloste conflicten (Ranikhet-jaar, Bishnupur-huwelijk). Sri Yukteswar:
+42+14 records, twee Tier-1-bevestigde nieuwe locaties, twee eerder geblokkeerde 088-leads
+geconvergeerd. `RECONCILIATION_GATE` en `EXTERNAL_MODEL_DIVERSITY_GATE` gaan voor alle drie naar
+JA. Checkpoint commits: `3019884` (Babaji), `9338c4f` (Lahiri Mahasaya), `2889174` (Sri Yukteswar).
+Resultaat: `runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/RECONCILIATION_RESULT.md`.
+
+state: **AFGEROND__WACHT_OP_INDIA_QA**
+
+## next_allowed_step
+
+CCI heeft `TASK.md` volledig uitgevoerd, met checkpointcommit per persoon, en stopt na
+`CCI_RESULT — CCI_TASK 092` op PR #23. INDIA beslist over: (a) Ramana Maharshi/Ramakrishna starten
+(externe freezes daarvoor bestaan al op `agent/chatgpt-top11-parallel-sweep`); (b) de twee
+Lahiri-Mahasaya-conflicten gericht laten uitzoeken; (c) een andere route naar Satyananda's volledige
+Sri-Yukteswar-biografie proberen.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1249 path=governance/INDIA7_BOOTSTRAP_DELTA_2026-08-18.md blob_sha=e3d222293323730f329b1910d1ad7c0aec744f62 original_offset=0 original_length=1836 payload_bytes=1836 chunk_index=0 chunk_count=1 classification=text
+# INDIA7 BOOTSTRAP DELTA — 2026-08-18 23:59 CEST
+
+Read this AFTER root README/full-repo boot and BEFORE choosing the next action.
+
+## Mandatory fresh reads
+- `handoffs/INDIA6_TO_INDIA7_2026-08-18.md`
+- `decisions/TOP11_SWEEP_DEPTH_BY_PERSON_2026-08-18.md`
+- `decisions/ARUNACHALA_TIRUVANNAMALAI_A_ANCHOR_2026-08-18.md`
+- `governance/CCI_GITHUB_WAKE_RELAY.md`
+- `research/YOGANANDA_RAMANA_ARUNACHALA_POST_FREEZE_NOTE_2026-08-18.md`
+- PR #23 latest comments
+- PR #24 metadata/head/status
+- branch `agent/chatgpt-top11-parallel-sweep` task + latest STATUS + freeze outputs
+
+## Snapshot next action
+At handoff, CCI_TASK 087R was already posted to PR #23 and had generated an observed GitHub `issue_comment.created` wake event, but no CCI_RESULT 087R was yet visible.
+
+Therefore INDIA7's first live-state action is:
+1. fetch latest PR #23 comments;
+2. if CCI_RESULT 087R exists, QA it immediately;
+3. fetch latest `TOP11-PARALLEL-CHATGPT-SWEEP-001/STATUS.md` on `agent/chatgpt-top11-parallel-sweep`;
+4. do NOT contaminate still-blind external freezes with internal results;
+5. do NOT start Arunachala regional sweep yet unless national-person/external freeze gating now permits it.
+
+## Core sequence
+`PERSONEN NATIONAAL -> EXTERNAL BLIND FREEZES -> RECONCILIATIE -> CLUSTERHEATMAP -> REGIONALE DUBBELE SWEEPS -> MARK A/B/C -> ROUTE`.
+
+## User-level protected context
+- Arunachala/Tiruvannamalai = A anchor, route/nights not yet locked.
+- Return flight planned from Delhi.
+- Full deep people: Yogananda, Babaji, Lahiri, Sri Yukteswar, Neem Karoli Baba, Ram Dass, Ramana Maharshi, Ramakrishna.
+- Vivekananda + Hariharananda = targeted major sites only.
+- Anandamayi = do not restart from zero; broad benchmark already exists.
+
+This delta is a pointer/snapshot. Current task STATUS and latest PR/branch state override snapshot data if newer.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1250 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/TASK.md blob_sha=e41127d2d29268d04019753b92427d33cac9fd0a original_offset=0 original_length=4005 payload_bytes=4005 chunk_index=0 chunk_count=1 classification=text
+# INDIA8 ALL-FINDINGS LOCATION CLOSURE — TASK
+
+## DOEL
+Maak eerst één lossless, repo-brede masterinventaris van ALLE locatieclaims uit ALLE bestaande onderzoeksfindings voordat Mark opnieuw A/B/C-keuzes krijgt. Geen enkel record mag verdwijnen wegens onzekerheid, onbekende bezoekbaarheid, ontbrekend adres, verdwenen gebouw of onvolledige moderne continuïteit.
+
+## BRONLAGEN DIE MOETEN WORDEN OPGENOMEN
+- AOAY full location atlas + occurrence corpus + Yogananda reconciliaties/benchmarklagen
+- Babaji, Lahiri Mahasaya, Sri Yukteswar person freezes en multidetector-reconciliaties
+- Ramana Maharshi, Ramakrishna person freezes en multidetector-reconciliaties
+- Neem Karoli Baba, Ram Dass person freezes en multidetector-reconciliaties
+- Anandamayi Ma source-first/corpus/reconciliationlagen
+- targeted Vivekananda en Hariharananda
+- bestaande locatie-/clustersweeps en alle oude permanente IDs/A/B/C
+- overlap/same-site/heritage-stay outputs
+- relevante non-person anchors
+- expliciete unresolved leads, conflicts en negative findings waar die een fysiek locatieonderzoek vereisen
+
+## FASE A — LOSSLESS MASTER FIRST
+Bouw `ALL_FINDINGS_LOCATION_MASTER` met per bronrecord minimaal: source-record-id, persoon/la(a)g, ruwe locatienaam, event/scène, AOAY-hoofdstuk indien relevant, aanwezigheidstype, huidige bekende fysieke identiteit, cluster/regio, bestaande permanente ID en bestaande A/B/C indien aanwezig.
+
+Geen deduplicatie zonder traceerbare source-links. Als meerdere records dezelfde site blijken te zijn: maak één fysieke entity maar behoud alle bronrecordlinks en gebeurtenissen.
+
+Verplichte accounting:
+TOTAL_SOURCE_LOCATION_RECORDS = PHYSICAL_ENTITIES_RESOLVED + RECORDS_MAPPED_AS_DUPLICATE + RECORDS_STILL_UNRESOLVED.
+Geen silent drop toegestaan.
+
+## FASE B — RESOLUTION CLASSIFICATION
+Classificeer iedere fysieke claim volgens governance/LOCATION_RESOLUTION_BEFORE_ABC_2026-08-19.md:
+R1 EXACT_CURRENT_SITE
+R2 EXACT_HISTORIC_SITE_SUCCESSOR
+R3 STRONG_LOCALIZED_APPROXIMATION
+R4 BROAD_PLACE_ONLY
+R5 UNRESOLVED_CLAIM
+
+## FASE C — ONZEKERE LOCATIES EERST ONDERZOEKEN
+Onderzoek ALLE R4/R5-records gericht verder voordat een cluster opnieuw aan Mark voor A/B/C wordt aangeboden. Prioriteit op zwaarte:
+1 AOAY Yogananda-personal scenes
+2 Babaji/Kriya hoofdclaims, initiatie/meditatie/samadhi/mahasamadhi
+3 same-site overlap meerdere Top-X-personen
+4 heritage stay / kamer / huis / ashram / hotel
+5 overige persoonslocaties
+6 transit/context
+
+Voor moderne/20e-eeuwse gebouwen actief zoeken naar exact adres/gebouw/continuïteit/toegang. Voor oude/mythische claims mag R3 eindniveau zijn als fijnere precisie aantoonbaar onhaalbaar is.
+
+## FASE D — BEZOEKBAARHEID
+Per R1/R2/R3-entiteit huidige access-status vastleggen: PUBLIC_OPEN, PUBLIC_LIMITED_HOURS, PRIVATE_PERMISSION_POSSIBLE, EXTERIOR_ONLY, LANDSCAPE_ACCESS, SUCCESSOR_SITE_VISITABLE of ACCESS_UNKNOWN_AFTER_EXHAUSTION.
+
+## FASE E — PAS DAN MARK-LIJSTEN
+Pas als de masteraccounting sluit en R4/R5 voor een cluster gericht zijn uitgeput, maak per cluster de volledige genummerde Mark-keuzelijst. Geen record overslaan omdat het moeilijk is. Onoplosbare maar betekenisvolle R3 blijft zichtbaar met onzekerheidsuitleg.
+
+## STRATEGIE
+Niet één AI alles serieel laten doen. Eerst centrale masterinventaris; daarna parallelle resolution-pakketten per geografische cluster of logische bronfamilie, met één centrale reconciliatie. Dit voorkomt dubbel onderzoek en houdt de canon lossless.
+
+## HUIDIGE REISFOCUS
+Oost geparkeerd voor huidige reis maar DATA BLIJFT in master. Actieve routefamilies: Delhi kort; Noord/Kumaon; Ganges-as; Tiruvannamalai / Arunachala. Haridwar/Kankhal/Rishikesh voorlopig af als zelfstandig cluster. Vrindavan/Braj en Prayagraj/Allahabad worden pas opnieuw aan Mark voorgelegd na deze resolution-regel.
+
+## HARD
+Geen A/B/C namens Mark. Geen bestaande IDs/keuzes verwijderen of hernummeren. Geen PDF zonder PDF_GO. Geen silent filtering. Geen routefinalisatie voordat relevante kandidatenlaag gesloten is.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1251 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/HARIDWAR_RISHIKESH_LIGHT_A_RULE_2026-08-23.md blob_sha=e533f1b47395d76296b4b968d59e36398ca590b2 original_offset=0 original_length=1000 payload_bytes=1000 chunk_index=0 chunk_count=1 classification=text
+# HARIDWAR / KANKHAL / RISHIKESH — LIGHT-A RULE
+
+Date: 2026-08-23
+Owner of A/B/C choices: Mark
+
+## MARK DECISIONS
+- Har Ki Pauri Ganga Aarti — A.
+- Shivpuri–Rishikesh rafting — B.
+- Beatles Ashram — A.
+
+## HARD INTERPRETATION
+The two A-decisions above are **LIGHT A / IN-CLUSTER A**:
+- If the Haridwar/Kankhal/Rishikesh cluster is included anyway, Mark wants to visit them.
+- They are NOT heavy enough to rescue or promote the entire cluster by themselves.
+- They must not be counted equivalently to major route-driving A-sites such as Varanasi core, Arunachala, Babaji Cave, etc.
+- Cluster-level status remains B / reserve pending whole-trip capacity.
+
+Kankhal Anandamayi Ma Mahasamadhi remains a strong site-level A but also does not automatically force the entire cluster into the route.
+
+## ROUTE RULE
+First calculate the night/day requirements of all retained heavy A-clusters. Only then test whether this B/reserve cluster can fit without damaging breathing room in the heavy A-core.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1252 path=india4/registries/DETECTOR_LIBRARY.jsonl blob_sha=e56129f0f84558f376e2151e441a24fb97e99420 original_offset=0 original_length=1455 payload_bytes=1455 chunk_index=0 chunk_count=1 classification=text
+{"registry_type":"DETECTOR_LIBRARY","scope":"ALL_INDIA_REGIONS","rule":"Een detector is een herbruikbare zoekrichting (traditie, lineage, bronfamilie, landschapstype, enz.) die een sweep helpt bewijzen dat het gebied inhoudelijk is afgedekt. Elke regel is een detector met status PROVISIONAL/ACTIVE/RETIRED. CCI mag tijdens een run zelfstandig een nieuwe detector PROVISIONAL gebruiken (vastgelegd in het per-run PRE_BRONS_DETECTORS.jsonl); alleen INDIA2/ChatGPT als architect mag canoniek promoveren naar ACTIVE, fuseren, hernoemen of RETIRED zetten. Mark beslist alleen wanneer een detector zijn persoonlijke interesseprofiel of A-definitie inhoudelijk verandert. Zie india4/protocols/INDIA5-PROTOCOL.md, sectie 'PRE-BRONS en de detectorbibliotheek'.","decided_by":"ChatGPT (architect), akkoord Mark","decided_at":"2026-08-02","source":"PR #23, INDIA2 → CCI — BESLUITEN OP 7 OPEN VRAGEN","record_schema":{"detector_id":"immutable, bv. DET-001","name":"string","definition":"string","purpose":"string","trigger_conditions":"string of lijst","exclusion_conditions":"string of lijst","required_source_families":"lijst","applicability_facets":"object met facetten: settlement, tradition, sacred_form, temporal_layer, practice_state, visitor_context","discovered_in_run":"run_id","status":"PROVISIONAL | ACTIVE | RETIRED","parent_detector_id":"detector_id of null","aliases":"lijst","created_at":"datum","approved_by":"naam of null zolang PROVISIONAL"}}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1253 path=india5/tasks/active/.gitkeep,india5/tasks/done/.gitkeep,india5/tasks/failed/.gitkeep blob_sha=e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 original_offset=0 original_length=0 payload_bytes=0 chunk_index=0 chunk_count=1 classification=text
+
+<<< END CHUNK >>>
+

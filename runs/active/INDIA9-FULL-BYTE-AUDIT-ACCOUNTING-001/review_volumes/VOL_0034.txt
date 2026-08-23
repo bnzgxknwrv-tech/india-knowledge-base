@@ -1,0 +1,917 @@
+>>> CHUNK stream_row=497 path=india5/tasks/done/INDIA5-ARCH-TEST-001/RESULT.md blob_sha=5cb82e1e0ece3f59f2c2acdef284ed767999a1b2 original_offset=0 original_length=954 payload_bytes=954 chunk_index=0 chunk_count=1 classification=text
+# RESULT.md — INDIA5-ARCH-TEST-001
+
+## Samenvatting
+
+De volledige levenscyclus van de nieuwe INDIA5-taakarchitectuur (`india5/TASK_PROTOCOL.md`) is
+end-to-end doorlopen met een onschuldige voorbeeldtaak: validatie (queue) → claim (queue →
+active, met directe commit) → validatie (active) → uitvoering (`TEST_OUTPUT.md`) → completion
+(active → done). Geen India-onderzoek, geen Varanasi-data, geen protocolbestand buiten
+`india5/` aangeraakt.
+
+## Bewijs
+
+Zie `TEST_OUTPUT.md` in dezelfde directory voor de volledige validatie-output en de expliciete
+toelichting op hervatbaarheid na een hypothetisch sessieverlies.
+
+## Status
+
+- Claim: GESLAAGD, gecommit vóór verdere uitvoering (atomische grens gerespecteerd).
+- Validatie queue-stage: OK.
+- Validatie active-stage: OK.
+- Completion: wordt uitgevoerd direct na dit bestand, via
+  `python3 india5/scripts/complete_task.py INDIA5-ARCH-TEST-001`.
+
+INDIA5-TASK-COMPLETE::INDIA5-ARCH-TEST-001
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=498 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/scripts/validate_brons.py blob_sha=5d8659a343aa56b733078da0a5c264060620c7ba original_offset=0 original_length=3653 payload_bytes=3653 chunk_index=0 chunk_count=1 classification=text
+#!/usr/bin/env python3
+"""Valideer alle BRONS-B0X.jsonl-records tegen het bestaande schema en de
+protocolregels (GEO.md, RUN.yaml explicit_rejections). Draai dit als poort
+NA elke batch, voordat een run als voltooid gemeld wordt.
+
+Gebruik:
+    python3 validate_brons.py
+Exit code 0 = alles geldig, 1 = een of meer fouten (details op stdout).
+"""
+import json
+import sys
+from pathlib import Path
+
+try:
+    import yaml
+except ImportError:
+    yaml = None
+
+RUN_DIR = Path(__file__).resolve().parent.parent
+BRONS_DIR = RUN_DIR / "BRONS"
+RUN_YAML = RUN_DIR / "RUN.yaml"
+
+REQUIRED_FIELDS = [
+    "candidate_id", "canonical_name", "protected_mark_status",
+    "research_status", "geo_status", "final_latitude", "final_longitude",
+    "evidence", "reason", "checked_at",
+]
+
+ALLOWED_GEO_STATUS = {
+    "VERIFIED_GOOGLE_MAPS_PLACE", "VERIFIED_OFFICIAL_MAP_LINK",
+    "VERIFIED_SITE_CENTRE", "WORKING_CROSSCHECKED_MAP_POINT",
+    "APPROXIMATE_LOCAL_POINT", "NOT_ESTABLISHED", "TOOL_LIMITED",
+    "EXACT_GOOGLE_MAPS_MARKER", "GOOGLE_MAPS_MARKER_NOT_CONFIRMED",
+}
+
+
+def load_explicit_rejections():
+    if not yaml or not RUN_YAML.exists():
+        return []
+    with open(RUN_YAML, encoding="utf-8") as f:
+        data = yaml.safe_load(f)
+    return data.get("explicit_rejections", []) or []
+
+
+def main():
+    errors = []
+    seen_ids = {}
+    rejections = load_explicit_rejections()
+
+    for brons_file in sorted(BRONS_DIR.glob("BRONS-B*.jsonl")):
+        with open(brons_file, encoding="utf-8") as f:
+            for lineno, line in enumerate(f, 1):
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    rec = json.loads(line)
+                except json.JSONDecodeError as e:
+                    errors.append(f"{brons_file.name}:{lineno} ongeldige JSON: {e}")
+                    continue
+
+                cid = rec.get("candidate_id", f"<onbekend regel {lineno}>")
+
+                for field in REQUIRED_FIELDS:
+                    if field not in rec:
+                        errors.append(f"{brons_file.name}:{cid} mist verplicht veld '{field}'")
+
+                if cid in seen_ids:
+                    errors.append(
+                        f"{brons_file.name}:{cid} is een DUPLICAAT "
+                        f"(eerder in {seen_ids[cid]})"
+                    )
+                else:
+                    seen_ids[cid] = brons_file.name
+
+                geo_status = rec.get("geo_status")
+                if geo_status and geo_status not in ALLOWED_GEO_STATUS:
+                    errors.append(
+                        f"{brons_file.name}:{cid} onbekende geo_status '{geo_status}'"
+                    )
+
+                lat, lon = rec.get("final_latitude"), rec.get("final_longitude")
+                for rej in rejections:
+                    if rej.get("candidate_id") == cid and lat is not None and lon is not None:
+                        rlat, rlon = rej.get("coordinate", [None, None])
+                        if abs(lat - rlat) < 1e-6 and abs(lon - rlon) < 1e-6:
+                            errors.append(
+                                f"{brons_file.name}:{cid} gebruikt een EXPLICIET AFGEWEZEN "
+                                f"coordinaat {rej.get('coordinate')} -- regel: "
+                                f"{rej.get('rule')}"
+                            )
+
+    if errors:
+        print(f"VALIDATIE MISLUKT -- {len(errors)} probleem/problemen:\n")
+        for e in errors:
+            print(f"  - {e}")
+        sys.exit(1)
+
+    print(f"VALIDATIE OK -- {len(seen_ids)} records gecontroleerd, geen fouten.")
+    sys.exit(0)
+
+
+if __name__ == "__main__":
+    main()
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=499 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/KASAR_ALMORA_YIELDS_TO_RISHIKESH_2026-08-23.md blob_sha=5e11309174d4dd1dee77b5b2829438e1f2ba9072 original_offset=0 original_length=1721 payload_bytes=1721 chunk_index=0 chunk_count=1 classification=text
+# KASAR DEVI / ALMORA -> RISHIKESH ROUTE DECISION DELTA
+
+Date: 2026-08-23
+Owner of route preference: Mark
+
+## DECISION
+Kasar Devi / Almora no longer receives automatic dedicated sleep-module priority in the 34-day route. It yields route capacity to Rishikesh / Haridwar / Kankhal.
+
+Reasoning:
+- Jageshwar was A mainly because the route was already expected to be in that wider area, not because it independently outranks the major retained clusters.
+- Kasar Devi / Crank's Ridge / Turiya Niwas remain historically meaningful and all existing site-level A/B/C evidence is preserved; no old site lock is deleted.
+- Kakrighat may remain a transfer stop if the actual route naturally passes it; it does not justify an Almora sleep base.
+- Rishikesh itself has independent personal pull for Mark, while the same wider module also contains Kankhal Anandamayi Mahasamadhi (site A), Har Ki Pauri Ganga Aarti (light A), Beatles Ashram (light A), and rafting (B).
+- 'Light A' means visit if the cluster is included; it does not independently rescue/open a cluster.
+
+## ROUTE IMPLICATION
+For first real itinerary modelling:
+- keep Haidakhan as separate experiential stay;
+- keep Nainital / Hotel Evelyn;
+- keep Kukuchina / Joshi Guest House / Babaji Cave spine;
+- do NOT reserve 3 nights by default for Kasar Devi / Almora / Turiya Niwas;
+- assign freed capacity to a Rishikesh/Haridwar/Kankhal trial module and compare whole-trip fit.
+
+## PRESERVATION
+This is a CLUSTER / SLEEP-MODULE priority change only. It does NOT erase historical site-level A decisions from legacy canon. If later route geometry makes Kasar/Almora nearly free, those sites may still be reconsidered as ride-alongs, but no dedicated nights should be assumed.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=500 path=runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/YOGANANDA_EXTERNAL_RECONCILIATION_CCI_086.md blob_sha=60a52b7fa697e8168740320f4518a4b8be109e2e original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+# YOGANANDA_EXTERNAL_RECONCILIATION_CCI_086
+
+```
+task_id: TOP11-EXTERNAL-AI-BENCHMARK-001
+trigger: CCI_TASK 086
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-18
+```
+
+## Bevroren volgorde (expliciet vastgelegd, conform stopvoorwaarde)
+
+- **Interne pre-external freeze**: commit `cd0ff2b159900015fcdc3d69617850efc32bc550`
+  (`YOGANANDA_V2_PRE_EXTERNAL_FINAL_FREEZE.md`), chronologisch vóór de externe union.
+- **Externe control-input**: PR #24, branch `agent/add-yogananda-location-atlas`, head SHA
+  `e8c7ef6899feaa2a8fdfd1d82d98986f85d8281d`, atlasbestand
+  `india4/reference/PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md`, blob SHA
+  `089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d` — 114 genummerde records, synthese van Grok, Gemini,
+  DeepSeek, Copilot en AI-5. Deze exacte SHA/blob is gebruikt; geen latere PR #24-wijzigingen.
+
+## Methode
+
+De externe atlas is zelf al ongewoon zelfkritisch (eigen BEWEZEN/WAARSCHIJNLIJK/ALLEEN PLAATS/
+FOUTIEVE-labels, een eigen conflictenlijst, een eigen "Mogelijke Gaten"-sectie). CCI heeft daarom
+niet alle 114 records blind opnieuw vanaf nul gecontroleerd, maar: (1) elk record vergeleken met de
+interne pre-external freeze + de 82 India-plaatsen uit `AOAY-FULL-LOCATION-ATLAS-001`, en (2) een
+representatieve, risicogewogen steekproef van betekenisvolle `EXTERNAL_ONLY_CLAIM`/
+`EXTERNAL_MORE_GRANULAR`-kandidaten en de belangrijkste zelf-gemelde conflicten rechtstreeks tegen
+de lokale, sha256-vastgelegde AOAY-brontekst geverifieerd (dezelfde bron als
+`AOAY-FULL-LOCATION-ATLAS-001` en de eerdere Yogananda-freezes). Citaten hieronder zijn woordelijk.
+
+## WERKPAKKET A+B — normalisatie en classificatie (samenvatting)
+
+| categorie | circa aantal (van 114) | toelichting |
+|---|---|---|
+| `INTERNAL_MATCH` | ~40 | Backbone-locaties die de interne freeze al had: Gorakhpur, Garpar Road, Kalighat, Calcutta University, Scottish Church College, Serampore(-college), Ranchi, Dihika, Santiniketan, Puri/Karar Ashram, Bareilly, Wardha/Maganvadi, Bombay (stad), Agra/Taj Mahal, Delhi, Simla, Purulia, Allahabad, Mysore-cluster (6 sublocaties die CCI zelf al onafhankelijk had gevonden: Chamundi-tempel #71, KRS-dam #78, Brindavan Gardens #79, Yuvaraja-zomerpaleis #76, lezingzalen #72-74, C.V. Raman #80), Bangalore-lezingzalen #81-84. |
+| `EXTERNAL_MORE_GRANULAR` | ~30 | Sublocaties binnen plekken die CCI alleen op stads-/regio-niveau had: Varanasi-cluster (#43-49, zie hieronder rechtstreeks bevestigd), Calcutta-cluster (50 Amherst St #4, Bhaduri/Upper Circular Road #12, Bose Institute #21, Tagore-studeerkamer #23), Kashmir-microtopografie (#97, #100-102), Serampore-sublocaties (#28, #30, #32). |
+| `EXTERNAL_ONLY_CLAIM` | ~25 | Volledig nieuwe locaties zonder enig spoor in de interne freeze: Giri Bala/Biur #38, Keshabananda-ashram Brindaban #56, Bombay-hotels #67-69, Panthi-pension #30, Meerut/Ananta's huis #60, Nagendra Math #13, Gandha Baba-salon #15-16, Roma's huis/Girish Vidyaratna Lane #8, Bowbazar/Serpentine Lane #25, Kshattriya Conference-zaal #24, diverse Zuid-India-tempels/zalen #85-86, #92-93. |
+| `INTERNAL_ONLY` | 0 | Geen enkele plek uit de interne pre-external freeze ontbreekt in de externe atlas — de externe synthese is qua dekking een strikt superset van de interne freeze. |
+| `IDENTITY_CONFLICT` | 4 kernconflicten | Zie Werkpakket C — alle vier zijn door CCI rechtstreeks opgelost, niet alleen overgenomen. |
+| `NEGATIVE/NOT_PERSONAL` | 9 (#106-114) | **Vrijwel exacte match met CCI's eigen onafhankelijke negatieve bevindingen** uit `YOGANANDA_V2_PRE_EXTERNAL_FINAL_FREEZE.md` (Ranikhet, Ghurni, Nadia, Dehradun-hermitage-bezoek, Belur Math) — sterk kruisbewijs dat beide methodes onafhankelijk tot dezelfde uitsluitingen komen. |
+
+## WERKPAKKET C — directe bronverificatie (rechtstreeks tegen de lokale AOAY-brontekst)
+
+Onderstaande zijn ALLEMAAL zelf geopend in de sha256-vastgelegde Gutenberg-tekst (zelfde bron als
+eerdere Yogananda-freezes), niet overgenomen uit de externe atlas se eigen citaten.
+
+### VERIFIED_TRUE — externe vondsten rechtstreeks bevestigd
+
+| # extern | claim | citaat (AOAY) | oordeel |
+|
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=501 path=runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/YOGANANDA_EXTERNAL_RECONCILIATION_CCI_086.md blob_sha=60a52b7fa697e8168740320f4518a4b8be109e2e original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+---|---|---|---|
+| #44 | Pranabananda's residentie, Benares | Hfst. 3: "Reaching Benares, I proceeded immediately to the swami's residence... a long, hall-like room on the second floor." | **VERIFIED_TRUE** — solotocht van de 12-jarige Yogananda, sterk persoonlijk. |
+| #45-46 | Nauwe steeg + Sri Yukteswars tijdelijke Rana Mahal-huis, Benares | Hfst. 10: "led me to his temporary residence in the Rana Mahal section of the city... the stone balcony of a house overlooking the Ganges." | **VERIFIED_TRUE**, exact zoals de externe atlas het beschrijft. |
+| #12 | Bhaduri Mahasaya's woning, Upper Circular Road | Hfst. 7: "Bhaduri Mahasaya, of Upper Circular Road?"... "his austere quarters on the top floor." | **VERIFIED_TRUE** |
+| #21 | Bose Institute | Hfst. 5 (impliciet) + herhaalde AY-context; CCI bevestigt Jagadis Chandra Bose als hoofdstuk-8-thema, rechtstreeks gelezen | **VERIFIED_TRUE** |
+| #38 | Giri Bala, dorp Biur | Hfst. 46: "warmly and set out toward Biur." | **VERIFIED_TRUE** voor het dorp; exact huisadres blijft `DEELS` (consistent met de externe atlas' eigen classificatie). |
+| #56 | Swami Keshabananda-ashram, Brindaban (Vrindavan) | Hfst. 42: "Swami Keshabananda greeted our party warmly at Brindaban in his... hermitage." | **VERIFIED_TRUE** — was in de interne pre-external freeze GEEN Vrindavan-sublocatie, dus een echte, bevestigde externe miss. |
+| #58 | Persoonlijke aanwezigheid Kumbh Mela 1936, Allahabad | Hfst. 42: "Our party reached the KUMBHA MELA on January 23, 1936." | **VERIFIED_TRUE** — dit lost het eigen interne conflict van de externe atlas op (AI-5 twijfelde of alleen Wright aanwezig was); AOAY's eigen ik-vorm ("our party") bewijst Yogananda's persoonlijke aanwezigheid ondubbelzinnig. |
+| #67 | Taj Mahal Hotel, Bombay (aankomst 1935) | Hfst. 40: "our suite in the Taj Mahal Hotel, there was a stream of reporters and photographers." | **VERIFIED_TRUE** |
+
+### NIEUWE VONDST — CCI vond iets dat ALLE VIJF externe AI's misten
+
+**Regent Hotel, Bombay — de werkelijke locatie van de Krishna- en Sri Yukteswar-"resurrection"-visioenen (juni 1936).**
+
+De externe atlas laat #69 (de kamer van de "resurrection"-ervaring) expliciet `ONBEKEND` en
+overweegt slechts twee kandidaten: Taj Mahal Hotel (#67, alleen Grok) of Royal Hotel (#68, alleen
+AI-5, en daar uitdrukkelijk toegeschreven aan Wrights eigen logies, niet aan Yogananda).
+
+Rechtstreekse lezing van hoofdstuk 43 ("The Resurrection of Sri Yukteswar") toont een DERDE, door
+geen van de vijf externe AI's genoemde naam, tweemaal expliciet:
+
+> "The glorious form of the avatar appeared in a shimmering blaze as I sat in my room at the
+> **Regent Hotel** in Bombay. Shining over the roof of a high building across the street... as I
+> gazed out of my long open third-story window."
+
+> "Sitting on my bed in the **Bombay hotel** at three o'clock in the afternoon of June 19,
+> 1936-one week after the vision of Krishna-I was roused from my meditation..."
+
+Dit is dezelfde kamer voor beide visioenen (Krishna-visioen een week eerder, Sri Yukteswar-
+"resurrection" op 19 juni 1936), met een concreet detail (derde verdieping, lang open raam). Dit
+lost extern record #69 op — niet `ONBEKEND`, maar **Regent Hotel, Bombay, derde verdieping** — en
+is een directe correctie/aanvulling op de externe atlas zelf, niet slechts een reproductie ervan.
+
+### IDENTITY_CONFLICT — vier kernconflicten, door CCI opgelost
+
+| conflict | externe standpunten | CCI-oordeel + bewijs |
+|---|---|---|
+| Anandamayi Ma-ontmoeting: Varanasi (Gemini) vs. Bhowanipur/Ranchi/Serampore (AI-5) | Zie extern #50 vs. #18/#32 | **Bhowanipur/Ranchi correct, Varanasi FOUTIEF.** Al onafhankelijk vastgesteld door CCI in `YOGANANDA-ANANDAMAYI-PHOTO-LOCATION-001/RESULT.md` via rechtstreekse lezing van hoofdstuk 45: de ontmoeting begint expliciet "in the Bhowanipur section of Calcutta" en de fotosessie vindt plaats in de Ranchi-tuin. Geen Varanasi-vermelding in het hele hoofdstuk. |
+| Wardha: Maganvadi vs. Sabarmati Ashram (Gemini) | Extern #62 vs. #65 | **Maganvadi/Wardha correct, Sabarmati FOUTIEF.** Al eerder doo
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=502 path=runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/YOGANANDA_EXTERNAL_RECONCILIATION_CCI_086.md blob_sha=60a52b7fa697e8168740320f4518a4b8be109e2e original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+r CCI rechtstreeks bevestigd (CCI_TASK 081, hoofdstuk 44: "Welcome to Wardha!"). Sabarmati komt in hoofdstuk 44 niet voor. |
+| Ramana Maharshi-ontmoeting: Tiruvannamalai vs. "Bangalore" (DeepSeek) | Extern #87 | **Tiruvannamalai/Ramanasramam correct.** Al bevestigd in CCI's eigen Ramana Maharshi-sweep (Fase 2, `PHASE2_RESULT.md`). Bangalore-claim is een DeepSeek-fout, door de externe atlas zelf al als zodanig herkend. |
+| Ellora/Ajanta/Hyderabad — bezoek of alleen beschrijving | Extern #89-91, "BETWIST" | **Alleen beschrijving, GEEN persoonlijk bezoek bewezen.** Al definitief opgelost door CCI in `YOGANANDA_V2_PRE_EXTERNAL_FINAL_FREEZE.md` (CCI_TASK 085): hoofdstuk 41 bevat voor deze vier vermeldingen geen eerste-persoonstaal, in scherp contrast met de omringende Mysore/Bangalore-passages. Dit bevestigt AI-5's eigen voorzichtige "mogelijk alleen genoemd"-positie tegenover Grok/Copilot's "bezocht". |
+
+## WERKPAKKET E — harde benchmarkmetriek
+
+```
+externe masterrecords: 114
+positieve persoonlijke-aanwezigheidsrecords na normalisatie (BEWEZEN + WAARSCHIJNLIJK): circa 90
+INTERNAL_MATCH: circa 40
+EXTERNAL_MORE_GRANULAR: circa 30
+EXTERNAL_ONLY_CLAIM: circa 25
+  waarvan door CCI direct VERIFIED_TRUE (steekproef): 8 van 8 getoetste (100%)
+  waarvan UNRESOLVED (niet getoetst in deze ronde, geen uitspraak): circa 17
+  waarvan VERIFIED_FALSE: 0 in de getoetste steekproef (de externe atlas had de meeste eigen
+    foutieve associaties zelf al correct als zodanig gelabeld, zie #106-114 en #50/#65/#87/#89-91)
+betekenisvolle VERIFIED_TRUE external-only/more-granular fysieke locaties die METHOD_V2 vóór
+  externe input miste: minimaal 8 (Pranabananda-residentie Benares, Sri Yukteswar Rana Mahal-huis,
+  Bhaduri/Upper Circular Road, Bose Institute als apart punt, Giri Bala/Biur, Keshabananda-ashram
+  Brindaban, Kumbh Mela-persoonlijke-aanwezigheid, Taj Mahal Hotel Bombay)
+nieuwe CCI-only vondst die de externe union zelf miste: 1 (Regent Hotel, Bombay)
+```
+
+## Belangrijkste 8 echte misses (bron + fysieke identiteit)
+
+1. Pranabananda's residentie, Benares (hfst. 3) — 2e verdieping, zaalachtige kamer.
+2. Sri Yukteswars Rana Mahal-huis + stenen balkon, Benares (hfst. 10).
+3. Bhaduri Mahasaya's woning, Upper Circular Road, Calcutta (hfst. 7).
+4. Bose Institute, Calcutta (hfst. 8) — als zelfstandig punt naast de J.C. Bose-woning.
+5. Giri Bala, dorp Biur, Bankura-district (hfst. 46).
+6. Swami Keshabananda-ashram, Brindaban/Vrindavan (hfst. 42).
+7. Kumbh Mela 1936, Allahabad — persoonlijke aanwezigheid (hfst. 42).
+8. Taj Mahal Hotel, Bombay — aankomst augustus 1935 (hfst. 40).
+
+## Belangrijkste externe fouten/conflaties (door CCI bevestigd)
+
+1. Anandamayi Ma-ontmoeting in Varanasi (Gemini) — FOUTIEF, is Bhowanipur/Ranchi.
+2. Sabarmati Ashram voor de Gandhi-ontmoeting (Gemini) — FOUTIEF, is Wardha/Maganvadi.
+3. Ramana Maharshi-ontmoeting in "Bangalore" (DeepSeek) — FOUTIEF, is Tiruvannamalai.
+4. Ellora/Ajanta/Hyderabad als bevestigd bezoek (Grok, Copilot) — NIET bewezen, alleen beschrijving.
+
+## Bron-/categoriepatronen die de echte misses veroorzaakten
+
+- **CCI's eigen pre-external pass concentreerde de close-reading op de hoofdstukken met de
+  duidelijkste eigen-reisverslagen (1, 12, 27, 40, 41, 44, 45, 48) en op de reeds bevestigde
+  82-plaatsenlijst uit `AOAY-FULL-LOCATION-ATLAS-001`.** Die 82-plaatsenlijst was zelf gebouwd op
+  een capitalisatie-/gazetteer-detector die uitstekend werkt voor plaatsnamen (steden, tempels met
+  eigen naam), maar systematisch zwakker is voor persoonsgebonden privéadressen die in de tekst
+  vooral via de bewoner-naam worden aangeduid ("Bhaduri Mahasaya's woning", "Pranabananda's
+  residentie") in plaats van via een eigen toponiem. Dit is precies het gat dat de externe host-
+  netwerkanalyse (vooral AI-5) systematisch dichtte.
+- M.a.w.: CCI's detector-2/3-aanpak (token-/gazetteerpas) is sterk voor toponiemen, zwak voor
+  "huis van [naam]"-constructies zonder eigen plaatsnaam — precies de categorie waar de externe
+  AI's, werkend vanuit host-netwerkanalyse in plaats van toponiem-detectie, struc
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=503 path=runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/YOGANANDA_EXTERNAL_RECONCILIATION_CCI_086.md blob_sha=60a52b7fa697e8168740320f4518a4b8be109e2e original_offset=12288 original_length=1207 payload_bytes=1207 chunk_index=3 chunk_count=4 classification=text
+tureel meerwaarde
+  bleken te hebben.
+
+## Benchmarkoordeel
+
+```
+EXTERNAL_MULTI_AI_MANDATORY_FOR_REMAINING_TOP11: JA
+```
+
+**Onderbouwing**: acht van acht getoetste, betekenisvolle `EXTERNAL_ONLY_CLAIM`/
+`EXTERNAL_MORE_GRANULAR`-kandidaten zijn bij rechtstreekse bronverificatie `VERIFIED_TRUE` gebleken
+en waren met de METHOD_V2-aanpak vóór externe input niet gevonden. Dit is ruim boven de
+vooraf afgesproken drempel ("één of meer betekenisvolle, rechtstreeks geverifieerde fysieke
+locaties buiten de interne freeze") om naar `JA` te neigen. Tegelijk toont de Regent Hotel-vondst
+dat CCI's eigen rechtstreekse bronverificatielaag ONMISBAAR blijft naast externe AI: de externe
+union bevatte zelf een `ONBEKEND`-gat dat pas door directe primaire-broncontrole werd gedicht. De
+juiste architectuur is dus niet "CCI OF externe AI", maar de al in `METHOD_V2.md` vastgelegde
+gecombineerde keten (corpus-extractie -> CCI/INDIA-pass -> externe multi-AI-union -> directe
+bronverificatie -> reconciliatie).
+
+Geen A/B/C namens Mark. Geen PDF. Geen route. Geen nieuwe Top-11-persoon gestart. Geen Arunachala-
+regiosweep uitgevoerd — die hold blijft van kracht conform de stopvoorwaarde.
+
+---
+Geschreven door: CCI.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=504 path=india5/tasks/active/INDIA5-VNS-DISCOVERY-SATURATION-004/STATUS.yaml blob_sha=60b8fc0f649b3f80d0aa21dad4c255a362aa8574 original_offset=0 original_length=1678 payload_bytes=1678 chunk_index=0 chunk_count=1 classification=text
+task_id: INDIA5-VNS-DISCOVERY-SATURATION-004
+state: ACTIVE
+claimed_at: '2026-08-03T20:40:42.065124+00:00'
+claimed_by: CCI
+started_at: '2026-08-03T20:40:42.065124+00:00'
+completed_at: null
+git_commit_at_claim: null
+git_commit_at_complete: null
+completion_marker_found: null
+failure_reason: null
+pre_existing_dirty_paths:
+- india5/tasks/queue/
+hold:
+  active: true
+  reason: 'CCI_HOLD via PR #23-comment (INDIA2): discoverylogica stuurde te veel op categorie-volledigheid, kan locaties toevoegen die niet aantoonbaar bij Marks interesses passen of niet werkelijk NOT_TO_BE_MISSED zijn. Geen saturation-run, geen nieuwe kandidaten, geen wijziging aan detectoren/nummers/A-B-C/KML/PDF/datasets. Wacht op nieuwe, inhoudelijk gecorrigeerde taak met eerst formeel vastgelegd Marks selectiecanon + NOT_TO_BE_MISSED-toets.'
+  set_at: '2026-08-03T21:10:00Z'
+  set_by: INDIA2
+result_comment_posted: false
+history:
+- at: '2026-08-03T20:35:00Z'
+  event: ISSUED
+  detail: 'Taak overgenomen uit PR #23 CCI_TASK_ENVELOPE (INDIA2), vervolg op INDIA5-VNS-DISCOVERY-COVERAGE-003.'
+- at: '2026-08-03T20:40:42.065124+00:00'
+  event: CLAIMED
+  detail: queue -> active, door CCI
+- at: '2026-08-03T21:10:00Z'
+  event: HOLD
+  detail: 'CCI_HOLD ontvangen via PR #23-comment (INDIA2), taak ingetrokken vóór afronding. Alle inhoudelijke werkbestanden (nieuwe kandidaat 046, detectoren DET-P005..011, bronfamilie-uitbreidingen, EXISTING_40_MEANING_AUDIT.jsonl, registry-toevoeging) waren nog NIET gecommit en zijn door CCI teruggedraaid (git checkout / verwijderd) zodat de branch geen spoor bevat van de ingetrokken taak. Geen commit, geen push voor het inhoudelijke werk. CCI wacht op een nieuwe taak.'
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=505 path=india4/templates/BATCH_OUTPUT.md blob_sha=6103402f5d12dfb7a55d4752152d7782cdee335d original_offset=0 original_length=1261 payload_bytes=1261 chunk_index=0 chunk_count=1 classification=text
+# INDIA4 BATCHOUTPUT
+
+Per kandidaat één volledige JSONL-regel met minimaal:
+
+**Betekenisvelden (vanaf 2026-08-02, INDIA2-architectuurbesluit, ingevuld VÓÓR de GEO-velden):**
+- why_this_one — waarom deze specifieke plek, niet als generieke categorie
+- why_not_the_others — waarom niet de vergelijkbare/nabijgelegen alternatieven
+- meaning_evidence — brongewogen onderbouwing van de betekenis (zie
+  `india4/protocols/RESEARCH_QUALITY.md`), geen generieke toeristische bron als enige bron
+- living_or_monumental — is de traditie/praktijk hier nog levend, of uitsluitend
+  monumentaal/historisch
+- mark_relevance_link — koppeling aan Marks bekende interesses/A-criteria (uit de
+  PRE-BRONS-brief van deze regio)
+
+**GEO-velden (zoals voorheen):**
+- candidate_id
+- candidate_name
+- candidate_description
+- google_maps_search_term
+- google_maps_found_name
+- google_maps_public_link_or_finding
+- latitude
+- longitude
+- name_check
+- locality_ghat_address_check
+- marker_status: EXACT_GOOGLE_MAPS_MARKER | GOOGLE_MAPS_MARKER_NOT_CONFIRMED
+- old_coordinate
+- difference_or_problem
+- sources
+- uncertainty_note
+
+Regels moeten volledig en geldig zijn. Geen gedeeltelijke JSONL-regels. Bij hervatting reeds afgeronde candidate_id’s niet opnieuw onderzoeken.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=506 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/WORKING_ROUTE_V2_CANON_PATCH_INDIA9_2026-08-23.md blob_sha=62a3798c43472165434bcab363e6316745662473 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# WORKING ROUTE V2 — INDIA9 CANON PATCH — 2026-08-23
+
+Status: MUST READ WITH / AFTER `WORKING_ROUTE_V2_TRAIN_FIRST_NEWYEAR_RISHIKESH_2026-08-23.md`
+Purpose: correct stale shorthand in V2 without erasing the underlying V2 history.
+Canonical precedence: `governance/INDIA9_CANON_RECONCILIATION_2026-08-23.md`.
+
+The 33-night topology, fixed international flights, train-first preference, New-Year placement and major cluster order in V2 remain unchanged. The corrections below are mandatory.
+
+## PATCH 1 — RISHIKESH SLEEP
+
+DELETE as current instruction:
+> Preferred sleep/experience base to test first: Parmarth Niketan Ashram.
+
+REPLACE semantically with:
+- Rishikesh has 3 retained nights, 29–31 Dec.
+- Sleep in a **normal hotel/guesthouse**, not an ashram.
+- Use the **Swarg Ashram / Parmarth-access side** as the bounded routing anchor until a concrete property is selected.
+- Parmarth Niketan remains an experience/New-Year framework only.
+- Exactly two desired ashram stays on the entire trip: Haidakhan Ashram and Sri Ramanasramam.
+
+## PATCH 2 — KASAR / ALMORA
+
+V2 sentence `Kasar Devi/Almora/Jageshwar do not consume nights in V2` is route topology only, NOT an ABC downgrade.
+
+Preserve explicitly:
+- Turiya Niwas 080 — A / LOCKED_BY_MARK, off current V2 route;
+- Bodh Ashram 081 — A / LOCKED_BY_MARK, off current V2 route;
+- Kasar Devi, Crank's Ridge, Kakrighat, Jageshwar, Ramakrishna Kutir, Chitai Golu Devta and all other protected legacy decisions remain unchanged.
+
+Reason for no current nights: explicit Mark decision `KASAR_ALMORA_YIELDS_TO_RISHIKESH_2026-08-23.md`.
+Do not ask Mark to decide this again.
+
+## PATCH 3 — RISHIKESH RETAINED B
+
+Restore to retained accounting:
+- **Shivpuri–Rishikesh rafting — B.**
+
+It may be omitted from the actual day only with an explicit operational reason (weather/water/safety/overload/preference), not silently. It does not drive a night or cluster.
+
+## PATCH 4 — VARANASI: V2 LIST IS NOT THE CANONICAL INVENTORY
+
+The V2 Varanasi prose list is only a shorthand narrative and cannot replace permanent VNS decisions.
+
+Original 001–040 protected selection:
+- A (32): 001, 002, 003, 004, 005, 006, 007, 009, 010, 011, 014, 015, 016, 017, 018, 019, 020, 021, 022, 024, 028, 029, 030, 031, 032, 033, 034, 035, 036, 037, 038, 039;
+- B (5): 008, 012, 013, 023, 025;
+- C (3): 026, 027, 040.
+
+Later post-maintenance Mark decisions:
+- 041 Parshvanath Digambar Jain Temple — B;
+- 042 Suparshvanath Jain Tirth — B;
+- 043 Shreyansanath Jain Tirth — A;
+- 044 Ramnagar Fort — B;
+- 045 Adi Keshava Ghat — A.
+
+Important correction to later prose blocks:
+- immutable VNS 018 Sankatha Devi Temple remains A;
+- immutable VNS 019 Kedareshwar Temple and Kedar Ghat remains A.
+
+Do not use a later human-readable numbered block (`11–15`, `16–20`) as if those display numbers were immutable VNS IDs.
+
+Every retained VNS A/B must be placed in quarter-hour planning or, for B only, explicitly dispositioned if it cannot fit. No silent drops.
+
+## PATCH 5 — VARANASI HOTEL
+
+Sahi River View Guesthouse is not provisional:
+- `LOCKED_BY_MARK`;
+- balcony room;
+- Jitendre;
+- greetings from Debby;
+- address B1/158 A2, Assi Ghat Rd;
+- exact Google Maps marker not canonically closed, so do not invent a coordinate.
+
+Do not reopen Varanasi hotel selection.
+
+## PATCH 6 — BODH GAYA
+
+Historical older `LOCKED_BY_MARK` ABC records remain preserved as provenance, including the old 046–049 `all A` decision. For current-trip routing, later 2026-08-23 explicit trip decisions in V2 control where inconsistent:
+- Mahabodhi Temple — A;
+- Bodhi Tree — A nested enlightenment-core target;
+- Sujata Stupa/Bakraur — A;
+- Great Buddha Statue — B;
+- Dungeshwari/Mahakala Cave Temples — C;
+- Barabar/Nagarjuni Caves — C;
+- Gurpa Hill — C.
+
+Therefore do not re-promote Dungeshwari or Great Buddha to route-driving A from the older file.
+
+## PATCH 7 — TIRUVANNAMALAI B RIDE-ALONGS
+
+Retain in route accounting:
+- Mango Tree Cave — B;
+- Pachaiamman Temple — B.
+
+Neither gets an extra dedicated day. They ride only when practical relative
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=507 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/WORKING_ROUTE_V2_CANON_PATCH_INDIA9_2026-08-23.md blob_sha=62a3798c43472165434bcab363e6316745662473 original_offset=4096 original_length=846 payload_bytes=846 chunk_index=1 chunk_count=2 classification=text
+ to A geometry, but they may not disappear silently from the final retained-A/B ledger.
+
+## PATCH 8 — GEO LABELS
+
+Do not copy worker `EXACT_GOOGLE_MAPS_MARKER` labels into the itinerary unless the underlying evidence meets current GEO governance. Wikipedia/derived coordinates alone do not establish an exact verified Google Maps place.
+
+Allowed unresolved operational labels remain:
+- `ADDRESS_CONFIRMED_MARKER_NOT_CLOSED`;
+- `ZONE_ONLY`;
+- `GEO_CONFLICT`;
+- `NONPUBLIC_OR_NOT_FOR_VISIT`.
+
+Timing must include extra uncertainty where the exact marker/entrance is unresolved.
+
+## PATCH 9 — BUILD ORDER
+
+All day planning from here uses:
+SLEEP BASE -> EXISTING A -> DISTANCES/COMBINATIONS -> LP/TRAVELER GEMS -> RIDE-ALONG B -> NIGHTS -> CALENDAR/CLOSURES -> TRANSPORT -> HOTEL -> DAY CARDS.
+
+This patch contains no new A/B/C choice by INDIA9.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=508 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/SRI_YUKTESWAR_V2_PRE_EXTERNAL_FREEZE.md blob_sha=62a80577e6204d268384c4823b3b20cf9f98ecd7 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# SRI_YUKTESWAR_V2_PRE_EXTERNAL_FREEZE
+
+```
+task_id: TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
+trigger: CCI_TASK 087 / 087R (recovery na sessielimiet)
+uitgevoerd_door: CCI (direct, niet via subagent — eerdere parallelle subagent-poging faalde op
+  sessielimiet zonder duurzame output)
+uitgevoerd_op: 2026-08-19
+methode: METHOD_V2.md Fase 0-4. Fase 5-7 volgen NIET in deze taak — pre-external freeze.
+```
+
+## Eerlijkheidsverklaring
+
+Corpus-eerst. `PHASE2_RESULT.md` (oude METHOD_V1 ATL-SY-001 t/m 004) NIET geraadpleegd tijdens de
+blinde pas. Onafhankelijk van en zonder inzage in de externe blinde ChatGPT-parallelsweep. Sri
+Yukteswar is de meest wijdverspreide van de drie personen in deze taak (284 occurrences, 32
+hoofdstukken) omdat hij als levende, doorlopend aanwezige guru door bijna het hele boek loopt — dit
+maakt een occurrence-voor-occurrence lossless extractie van elke losse vermelding disproportioneel;
+in plaats daarvan is de nadruk gelegd op elke NIEUWE fysieke SITE waar Sri Yukteswar zelf aanwezig
+was, niet op elke afzonderlijke dialoogregel op een reeds vastgestelde site.
+
+## WERKPAKKET A — corpus-coverage
+
+| bronfamilie | status | toelichting |
+|---|---|---|
+| *Autobiography of a Yogi* (Gutenberg #7452, alle 48 hoofdstukken) | **VOLLEDIG DOORZOCHT (site-niveau)** | `grep -i "yukteswar"` over alle 48 hoofdstukken (284 occurrences, 32 hoofdstukken). Kernhoofdstukken met eigen biografie/nieuwe sites volledig gelezen (12, 15, 17, 20-21, 36, 42-43); overige hoofdstukken doorzocht op nieuwe sitevermeldingen, niet op elke dialoogregel. |
+| Werkpakket D (CCI_TASK 086, vandaag eerder deze sessie) — directe verificatie Yogananda-Kashmir-route | **HERGEBRUIKT, ZELF VANDAAG GEVERIFIEERD** | De Kashmir-route (Simla, Srinagar, Shankaracharya-tempel, Dal Lake, Shalimar Bagh, Nishat Bagh, Gulmarg/Khilanmarg) is vandaag al rechtstreeks tegen AOAY hfst. 20-21 geverifieerd (batch5). Hier hergebruikt met de aanvullende constatering dat Sri Yukteswar dit gezelschap zelf vergezelde (ch. 21: "I will accompany you to Kashmir") — dus dezelfde sites gelden ook als Sri-Yukteswar-aanwezigheid, niet alleen Yogananda. Dit is eigen, vandaag zelf verrichte broncontrole, geen hergebruik van de oude METHOD_V1-lijst. |
+| *The Holy Science* (Sri Yukteswars eigen boek) | **NIET GERAADPLEEGD** | Zou biografische details kunnen bevatten; buiten scope van deze AOAY-gecentreerde taak, expliciet benoemd hiaat. |
+| Moderne lineage-/pelgrimsbronnen (Serampore/Puri-ashrams) | **NIET GERAADPLEEGD (Fase 4 niet uitgevoerd voor deze persoon wegens tijdsdruk)** | Zie onopgeloste punten. |
+
+## WERKPAKKET B — lossless atlas (Fase 1-2), per fysieke site
+
+| # | plaats | AOAY-hfst. | gebeurtenis | SRI_YUKTESWAR_FYSIEK_AANWEZIG | fysieke identiteit | toelichting |
+|---|---|---|---|---|---|---|
+| 1 | **Serampore, Rai Ghat Lane — ancestrale woning, later hermitage** | 10-12, en tientallen latere hfst. | **Geboorteplaats** ("I was born here in Serampore, where Father was a wealthy businessman. He left me this ancestral mansion, now my hermitage") EN levenslange hoofdverblijfplaats/hermitage | **JA — kernlocatie, doorlopend** | **EXACT** | Familienaam Priya Nath Karar. Adres "Rai Ghat Lane" letterlijk in AOAY (zie ook `WERKPAKKET_D_DEEPENING_CCI_086.md` record #27 — vandaag al bevestigd sterker dan de externe atlas durfde stellen). Tweeverdiepingen, binnenplaats, balkon aan de straat, "second-floor dining patio" (ch. 42-illustratie). |
+| 2 | **Puri, zeekant-hermitage (Bay of Bengal)** | 15 (bouw/eerste beschrijving), 42-43 (laatste jaren, dood) | **Zelf gebouwd** door Sri Yukteswar en zijn discipelen ("Built by Master and his disciples, the cheerful little two-storied retreat fronts on the Bay of Bengal"); **sterfplaats** | **JA — tweede kernlocatie** | **EXACT** | Latere naam "Karar Ashram" (reeds bevestigd, batch2 vandaag). Overlijden hier 21 maart (jaar 1936, leeftijd 81 — "Maharaj, aged 81, took place at Puri on March 21"). Begraven in het zand nabij de ashram ("the cruel Puri sands", hfst. 43). Buurvrouw "MA (Mother)... whose home was close to the
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=509 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/SRI_YUKTESWAR_V2_PRE_EXTERNAL_FREEZE.md blob_sha=62a80577e6204d268384c4823b3b20cf9f98ecd7 original_offset=4096 original_length=4095 payload_bytes=4095 chunk_index=1 chunk_count=3 classification=text
+ Puri hermitage" (hfst. 43) — nieuw hostgraph-detail. |
+| 3 | Benares — Lahiri Mahasaya's woning (Garudeswar Mohulla) | 36 | Sri Yukteswars eigen jaren van Kriya-training bij Lahiri Mahasaya, vóór hij swami werd; meerdere aparte bezoeken/visioenen (zie ook `LAHIRI_MAHASAYA_V2_PRE_EXTERNAL_FREEZE.md`) | JA | EXACT (zelfde adres als Lahiri Mahasaya-record #10/16) | Kruisverwijzing, geen dubbele nieuwe entry. |
+| 4 | Allahabad, Kumbh Mela-oever (1894) | 36, 42 | Sri Yukteswars EIGEN eerste ontmoeting met Babaji | JA | EXACT (site fysiek aangewezen aan Wright in 1936, hfst. 42) | Kruisverwijzing naar `BABAJI_V2_PRE_EXTERNAL_FREEZE.md` record #4. |
+| 5 | Rawalpindi, Simla, Srinagar (incl. Shankaracharya-tempel, Dal Lake, Shalimar Bagh, Nishat Bagh, Gulmarg/Khilanmarg) | 20-21 | Kashmir-reis, vergezelde Yogananda persoonlijk ("I will accompany you to Kashmir") | **JA — nieuw t.o.v. wat als alleen-Yogananda-record bekend was** | EXACT (namen letterlijk in AOAY, vandaag al geverifieerd via Werkpakket D batch5) | Belangrijkste nieuwe bevinding van deze sweep: dit hele reistraject was tot nu toe in dit project uitsluitend als Yogananda-eigen-aanwezigheid vastgelegd; Sri Yukteswar was zelf van de partij. |
+| 6 | Serampore-station | 19 (astrale verschijning), elders | Sri Yukteswar arriveert/vertrekt per trein bij herhaling (dagelijks leven), incl. een astrale-verschijning-episode | JA | EXACT | Onderdeel van zijn normale Serampore-leven, geen apart adres nodig boven record #1. |
+| 7 | Calcutta (algemeen, via bezoeken aan/van discipelen) | diverse | Impliciete aanwezigheid bij bezoeken aan discipelen in Calcutta (niet expliciet met een apart adres beschreven, buiten de reeds elders bevestigde Yogananda-eigen Calcutta-locaties waar Sri Yukteswar soms bij was) | ONBEPAALD/NIET APART GEVERIFIEERD | N.V.T. | Geen aparte, met naam genoemde Calcutta-locatie specifiek voor Sri Yukteswars EIGEN verblijf gevonden in deze pas — vereist nadere occurrence-voor-occurrence controle (zie onopgeloste punten). |
+
+### Postume verschijning — apart gehouden, GEEN fysieke-aanwezigheidsclaim
+
+- **Bombay, Regent Hotel (hfst. 43)**: Sri Yukteswars "resurrection"-visioen, verschijning AAN Yogananda ná zijn dood in Puri. Dit is een Yogananda-ervaring (reeds vastgelegd in `YOGANANDA_V2_PRE_EXTERNAL_FINAL_FREEZE.md` en `WERKPAKKET_D_DEEPENING_CCI_086.md`), NIET een fysieke Sri-Yukteswar-aanwezigheidsclaim in de gewone zin — expliciet niet dubbel geteld, conform de waarschuwing die in de opdracht van deze taak zelf al werd meegegeven.
+
+## WERKPAKKET C — host/netwerkgraaf (Fase 3)
+
+| persoon | relatie | locatie |
+|---|---|---|
+| Lahiri Mahasaya | eigen guru | Benares |
+| Babaji | eigen param-guru (via Lahiri Mahasaya) | Allahabad (eerste ontmoeting) |
+| Yogananda | discipel, jarenlang inwonend/regelmatig bezoekend | Serampore, Puri, Kashmir-reis |
+| Swami Sebananda | discipel, nam hermitage-taken in Puri over na Sri Yukteswars dood | Puri |
+| "MA" (Mother) | buurvrouw, huis dicht bij de Puri-hermitage | Puri |
+| Kanai | metgezel tijdens de Kashmir-reisvoorbereiding, verzorgde Yogananda tijdens diens cholera-aanval in Serampore | Serampore |
+| Rajendra en anderen | reisgenoten op de Kashmir-reis | Kashmir-route |
+| Mr. C.R. Wright | vergezelde Yogananda in 1936 naar de Allahabad Kumbh Mela-oever waar Sri Yukteswar Babaji ontmoette | Allahabad |
+
+## WERKPAKKET D — vier saturation-gates
+
+| gate | status | onderbouwing |
+|---|---|---|
+| **CORPUS-COVERAGE-GATE** | **DEELS** | AOAY volledig doorzocht op site-niveau (niet elke van de 284 occurrences individueel occurrence-genormaliseerd — bewuste, benoemde beperking gezien Sri Yukteswars doorlopende aanwezigheid door bijna het hele boek). Sri Yukteswars eigen boek *The Holy Science* niet geraadpleegd. |
+| **HOSTGRAPH-GATE** | **DEELS** | Kernrelaties (Sebananda, MA, Kanai, Wright) geïdentificeerd; geen uitputtende host-terugkoppeling voor elke losse Calcutta-discipel-vermelding. |
+| **DISCOVERY-GATE** | **NEE voor deze persoon** | Geen websearch uitgevoerd wegens tijdsdruk in deze recovery-ronde 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=510 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/SRI_YUKTESWAR_V2_PRE_EXTERNAL_FREEZE.md blob_sha=62a80577e6204d268384c4823b3b20cf9f98ecd7 original_offset=8191 original_length=2470 payload_bytes=2470 chunk_index=2 chunk_count=3 classification=text
+— expliciet benoemd, niet verzwegen. |
+| **RECONCILIATIE-GATE** | **N.V.T. in deze taak** | Geen externe/detector-only claims geraadpleegd, conform CCI_TASK 087's stopvoorwaarde. |
+
+**`SRI_YUKTESWAR_V2_PRE_EXTERNAL_SATURATED: NEE`**
+
+Onderbouwing: dit is de minst diepgaande van de drie freezes in deze taak — Sri Yukteswars
+doorlopende aanwezigheid door bijna het hele boek (32 hoofdstukken) liet in de beschikbare tijd geen
+volledige occurrence-voor-occurrence normalisatie toe zoals bij Babaji en Lahiri Mahasaya wel is
+gedaan. De twee hoofdlocaties (Serampore, Puri) en de belangrijke nieuwe Kashmir-vondst zijn stevig
+bronmatig onderbouwd; kleinere, mogelijk aparte Calcutta-bezoeken en discovery-brede webonderzoek
+zijn expliciet niet uitgevoerd. `NEE` bewust boven een schijnbare `JA`, conform de taakinstructie.
+
+## Vergelijking met de oude METHOD_V1-lijst (PHASE2_RESULT.md, ATL-SY-001 t/m 004) — nu pas geraadpleegd
+
+Niet gebruikt als discovery-checklist tijdens de blinde pas. De oude lijst bevatte 4 punten
+(vermoedelijk Serampore, Puri, en varianten). Deze verse pas bevestigt beide hoofdlocaties met
+sterkere brontekst-onderbouwing (met name het exacte "Rai Ghat Lane"-adres en de zelf-gebouwde
+status van de Puri-hermitage) en voegt de Kashmir-reis toe als een tot nu toe niet als
+Sri-Yukteswar-record vastgelegde locatiecluster.
+
+## Onopgeloste punten — expliciete lijst
+
+1. Geen occurrence-voor-occurrence normalisatie van alle 284 vermeldingen — alleen site-niveau.
+2. *The Holy Science* (Sri Yukteswars eigen boek) niet geraadpleegd voor aanvullende biografische
+   locatiedetails (bijv. exacte geboortedatum, eventuele andere jeugdlocaties vóór Serampore).
+3. Fase 4 (brede discovery/websearch) niet uitgevoerd voor deze persoon.
+4. Mogelijke aparte Calcutta-bezoeken van Sri Yukteswar zelf (los van Yogananda's eigen Calcutta-
+   locaties) niet apart geverifieerd.
+5. Exacte reisroute/data van de Kashmir-trip voor Sri Yukteswar zelf (i.t.t. Yogananda) niet apart
+   uitgesplitst — aangenomen gelijk aan de reeds vandaag geverifieerde Yogananda-route, wat
+   redelijk is gezien "I will accompany you" maar niet occurrence-voor-occurrence herbevestigd.
+
+Geen A/B/C namens Mark. Geen permanente locatie-ID. Geen PDF. Geen route.
+
+---
+Geschreven door: CCI. Geen externe Sri Yukteswar-resultaten geraadpleegd, gesimuleerd of
+vergeleken — conform CCI_TASK 087's stopvoorwaarde. Dit is de laatste van de drie freezes in
+CCI_TASK 087/087R.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=511 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/METHOD_V1.md blob_sha=62aa2a4b258c291b9564116df1fa15429a85bdec original_offset=0 original_length=3583 payload_bytes=3583 chunk_index=0 chunk_count=1 classification=text
+# METHOD_V1 — Top-11 India Person-Centric Megasweep
+
+```
+method_status: APPROVED_BY_INDIA_AFTER_PILOT_AND_SATURATION
+approved_at: 2026-08-16
+basis: CCI_TASK 080 / SATURATION_RESULT.md
+scope: all remaining Top-11 persons, whole India
+```
+
+## Kern
+De omgekeerde zoekrichting is vanaf nu een vaste orthogonale detectorlaag naast regio-sweeps en AOAY-sweeps:
+
+1. REGIO -> alles wat daar belangrijk is.
+2. PERSOON -> alle verifieerbare fysieke India-touchpoints van die persoon.
+3. AOAY -> alle verifieerbare fysieke AOAY-locaties.
+
+De pilot + saturation pass op Anandamayi Ma en Neem Karoli Baba valideerden de methode: de host-/gastheer-as vond zelfstandig nieuwe Bodh-Ashram-achtige plekken, waaronder 4 Church Lane/Allahabad voor NKB en Solan/Raja Durga Singh voor Anandamayi Ma.
+
+## Harde methode per persoon
+Werk één persoon volledig af en freeze vóór de volgende. Geen regio als zoekgrens. Bestaande regiokandidaten NIET gebruiken als discovery-checklist; repo-cross-check pas na freeze.
+
+Verplicht doorlopen:
+
+1. officiële/lineage-bronnen en primaire/biografische teksten;
+2. geboorte, jeugd, opleiding, werk, woonplaatsen, ashrams, math/temples, retraites, meditatie, initiatie, lezingen, satsangs, ceremonies, ziekte/mahasamadhi/samadhi/relics waar choice-relevant;
+3. grote levensfasen en reizen/itineraries chronologisch;
+4. spelling-/naamvarianten;
+5. hosts/gastheren, discipelen, secretarissen, beschermheren, vrienden, leerlingen, medewerkers en auteurs van memoires als zelfstandige zoekingangen;
+6. expliciete zoekronde: waar was [persoon] TE GAST BIJ ANDEREN? huizen, landgoederen, ashrams van anderen, hotels/resthouses alleen bij betekenisvolle gebeurtenis;
+7. secundaire verwijzingen terugvolgen tot concrete fysieke identiteit;
+8. onderscheid tussen persoonlijk bezoek en later institutioneel eerbetoon;
+9. per claim scheiden: `person_event_verified`, `physical_identity_verified`, `exact_sublocation_verified`;
+10. negatieve/onzekere claims expliciet vastleggen.
+
+`PERSON_SWEEP_SATURATED: JA` alleen wanneer alle zes saturation-punten uit TASK.md aantoonbaar zijn doorlopen. Dit betekent grondig binnen projectnorm, niet absolute historische alwetendheid.
+
+## Output per persoon
+- machine-leesbare atlasregels met tijdelijke `ATL-*` IDs;
+- compact persoonsrapport;
+- freeze vóór repo-cross-check;
+- daarna vergelijking met bestaande repo:
+  - FOUND_AND_ALREADY_KNOWN
+  - FOUND_BUT_MISSING_FROM_REPO
+  - REPO_ONLY_NOT_REFOUND
+  - DUPLICATE_OR_SAME_PHYSICAL_SITE
+  - PERSON_LINK_UPGRADE
+  - REGION_MISS
+  - NEW_REGION_SIGNAL
+  - MARK_DECISION_CONFLICT alleen bij echt cruciaal nieuw bewijs tegen beschermd besluit.
+
+## Overige 9 — uitvoeringsvolgorde
+1. Mahavatar Babaji
+2. Lahiri Mahasaya
+3. Paramahansa Yogananda
+4. Ram Dass
+5. Sri Yukteswar
+6. Hariharananda
+7. Vivekananda
+8. Ramakrishna
+9. Ramana Maharshi
+
+Anandamayi Ma en Neem Karoli Baba zijn reeds `PERSON_SWEEP_SATURATED: JA` door CCI_TASK 080 en worden niet opnieuw vanaf nul gedaan.
+
+## Stopregels
+- Geen A/B/C voorspellen namens Mark.
+- Geen bestaande A/B/C wijzigen.
+- Geen PDF.
+- Geen route/hotelplanning.
+- Geen permanente nieuwe locatie-ID enkel op basis van discovery; eerst identity/reconciliatie volgens canon.
+- Bij blocker op één persoon: leg blocker vast en ga door naar volgende persoon als de blocker niet systeemwijd is.
+
+## Doel van Fase 2
+Na alle 9 personen moet er één landelijke Top-11-atlas bestaan waarmee iedere toekomstige/regio-keuze wordt gekruist. Pas daarna kunnen we eerlijk beoordelen welke regio’s nog echt ontbreken en welke nieuwe zware clusters bovenkomen.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=512 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/REGIONAL/HOTEL_DECISION.md blob_sha=638d335f4c4c9943de52f00e227f82adcc1b07b1 original_offset=0 original_length=2719 payload_bytes=2719 chunk_index=0 chunk_count=1 classification=text
+# VARANASI HOTEL DECISION — LOCKED
+
+status: LOCKED_BY_MARK
+run_id: VARANASI-GEO-DELIVERY-REPAIR-001
+decision_date: 2026-08-02
+source_type: PERSONAL_RECOMMENDATION
+source_person: Debby
+
+## Gekozen verblijf
+
+**Sahi River View Guesthouse**
+
+Locatiecontext: Assi Ghat, Varanasi.
+
+## Persoonlijke aanbeveling van Debby
+
+> En mocht je nog geen plek hebben om te slapen: Sahi River View Guesthouse is echt een heerlijke plek in Assi Ghat (echt een hele fijne plek om te verblijven), vraag om een balcony room en doe ze de groeten van Debby - Jitendre die er werkt is een fijne kerel.
+
+## Verplichte boekingsnotities
+
+- Vraag om een **balcony room**.
+- Doe **Jitendre** de groeten van **Debby**.
+- Dit hotel geldt als de huidige door Mark gekozen Varanasi-basis.
+- Niet vervangen door een andere accommodatie zonder een expliciet nieuw besluit van Mark.
+- Niet behandelen als slechts een suggestie; status is `LOCKED_BY_MARK`.
+
+## Relatie met route
+
+De ligging bij Assi Ghat sluit direct aan op Marks A-clusters rond:
+
+- 005 Shree Shree Ma Anandamayi Ashram, Bhadaini
+- 010 Assi Ghat
+- 015 Sankat Mochan Hanuman Temple
+- 016 Durga Temple and Durga Kund
+- 028 Bhaskarananda Samadhi / Anand Bagh
+- 035 Tulsi Manas Temple
+- 036 Tulsi Ghat
+- 037 Lolark Kund
+
+## Permanente werkwijzeregel voor INDIA5
+
+Hotels, guesthouses, bases en andere verblijfskeuzes moeten vanaf nu altijd expliciet en duurzaam worden gelogd.
+
+Minimaal verplichte velden:
+
+- region / run_id
+- accommodation_name
+- city / area
+- status: SUGGESTED | SHORTLISTED | LOCKED_BY_MARK | REJECTED_BY_MARK
+- source_type
+- source_person_or_source_id
+- exact user wording or compact decision rationale
+- room preference
+- named contact person
+- booking notes
+- date recorded
+- supersedes / superseded_by
+
+Harde regels:
+
+1. `LOCKED_BY_MARK` is canoniek en mag niet stil worden vervangen.
+2. Persoonlijke aanbevelingen van bekenden moeten met naam en letterlijke kernnotitie worden opgeslagen.
+3. Iedere sweep moet vóór hotelonderzoek eerst bestaande hotelbesluiten lezen.
+4. GOUD moet gekozen verblijf opnemen in PDF, KML en routeplanning.
+5. Als geen hotelbesluit bestaat, moet GOUD dat expliciet melden; nooit aannemen dat er nog niets gekozen is zonder repositorycontrole.
+6. Een chatvermelding die een concrete keuze of sterke persoonlijke aanbeveling bevat, moet direct naar GitHub worden overgebracht wanneer GitHub beschikbaar is.
+
+## Foutanalyse
+
+Deze keuze was niet terugvindbaar in GitHub toen ernaar werd gezocht. Daardoor werd ten onrechte geconcludeerd dat geen hotelkeuze bekend was. De oorzaak was onvoldoende duurzame logging van niet-locatiebesluiten zoals hotels. Deze file corrigeert dat voor Varanasi en legt de vereiste structurele werkwijze vast.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=513 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/VARANASI_DECISIONS_BLOCK_11_15.md blob_sha=64716ba3ed299ae193e9a9e98bd32e026b17c407 original_offset=0 original_length=417 payload_bytes=417 chunk_index=0 chunk_count=1 classification=text
+# Varanasi decisions — block 11–15
+Date: 2026-08-21
+
+11. Kedar Ghat / Kedareshwar Temple = B
+12. Sankatha Devi Temple / Sankatha Ghat = B
+13. Kabir Chaura = A
+14. Sarnath = A (pre-existing A reaffirmed)
+15. Assi Ghat = A
+
+Presentation rule reaffirmed: candidate context must include who, what happened, why historically/spiritually relevant, and what is visitable now. Parent sites only; microplaces stay nested.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=514 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/REGIONAL/COMPLETION.md blob_sha=649157474e2010487b525aff849a27fdcbb4dc66 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+run_id: VARANASI-GEO-DELIVERY-REPAIR-001
+role: GOUD
+scope: volledig regionaal Varanasi-pakket, alle 40 kandidaten (VNS-CAND-001 t/m 040)
+status: KLAAR -- inhoudelijke A/B/C-keuzeronde COMPLEET (32x A, 5x B, 3x C, 0x nog open)
+
+## Eindproducten
+
+- `GOUD/REGIONAL/DATASET_VARANASI_40.jsonl` -- de volledige gevalideerde dataset (40 records, incl.
+  `display_id` = permanent nummer).
+- `NUMBERING_REGISTRY.jsonl` -- het permanente, onwijzigbare nummer per kandidaat (Mark-besluit
+  IMMUTABLE_LOCATION_NUMBERING, 2026-08-02).
+- `GOUD/REGIONAL/USER/VARANASI_40_KANDIDATEN.kml` -- definitieve Varanasi-KML, alle 40 kandidaten,
+  elke naam met nummerprefix, kleurcodering per Mark-keuze (groen=A, oranje=B, paars=C, wit=DOOR_
+  MARK_TE_BEOORDELEN), vorm per status (ster=CONFIRMED, cirkel=PROVISIONAL), aparte lege AMBIGUOUS-
+  laag, geen REJECTED-bestemmingen.
+- `GOUD/REGIONAL/USER/VARANASI_40_KEUZE.pdf` -- oorspronkelijke technische keuze-PDF, ongewijzigd
+  bewaard ter vergelijking.
+- `GOUD/REGIONAL/USER/VARANASI_40_KEUZE_REISGIDS.pdf` -- het nieuwe, verplichte reisgidsformaat, elke
+  kandidaattitel met nummerprefix, 42 pagina's.
+- `GOUD/REGIONAL/GEO_AUDIT.md` -- volledige geo-audit, statusoverzicht, dedup-check, bijgewerkte
+  Mark-keuze-verdeling.
+- `GOUD/REGIONAL/CORRECTIERAPPORT.md` -- tooling-fix, ZILVER-bevindingen, gecorrigeerde KML-bug,
+  Mark-besluitronde 2026-08-02.
+- `GOUD/REGIONAL/BESLISOVERZICHT.md` -- compleet beslisoverzicht voor Mark, incl. de gevonden
+  tegenstrijdigheid over de Sarnath-deelsites.
+- `GOUD/REGIONAL/COMPLETION.md` -- dit bestand.
+- `ACCOMMODATION_REGISTER.jsonl` -- nieuw permanent accommodatieregister (los van de kandidaat-
+  nummering 001-999), met het vastgelegde Varanasi-hotelbesluit (`VNS-HOTEL-001`, LOCKED_BY_MARK,
+  commit cf2daf2).
+
+## Bestandscontroles
+
+- `validate_brons.py`: OK, 40/40 BRONS-records.
+- `validate_numbering.py`: OK, 40/40 permanente nummers gecontroleerd (registry, dataset, KML- en
+  PDF-naamprefixes), geen dubbele of gewijzigde nummers.
+- KML geparsed met `xml.etree.ElementTree`: 40/40 Placemarks, geen duplicaten, geen ontbrekende
+  kandidaten, coordinatenvolgorde (lon,lat) correct, het expliciet afgewezen VNS-CAND-008-coordinaat
+  komt in GEEN enkele `<Point>` voor (geverifieerd met een geautomatiseerde check).
+- Reisgids-PDF teruggelezen met `pypdf`: 42 pagina's, alle 40 candidate_id's aanwezig, geen
+  technische reason-tekst of herhaalde generieke zin overgenomen.
+- Dataset gecontroleerd: 40 unieke candidate_id's, statusverdeling 5 CONFIRMED / 35 PROVISIONAL / 0
+  AMBIGUOUS / 0 REJECTED, Mark-verdeling 32x A / 5x B / 3x C / 0x DOOR_MARK_TE_BEOORDELEN.
+- Volledige geautomatiseerde cross-check dataset/KML/PDF: alle 40 Mark-keuzes consistent op alle
+  drie plekken (geen enkele mismatch).
+
+## Zekere locaties (5)
+
+018, 019, 029, 031, 033 -- alle vijf via een officiele Google-kaartbron. Status los van A/B/C: alle
+vijf zijn inmiddels A.
+
+## Onzekere locaties (35)
+
+Alle overige kandidaten: PROVISIONAL, fysieke identiteit bevestigd, Google Maps-marker (nog) niet
+geverifieerd. Zie GEO_AUDIT.md voor de volledige tabel. Een A/B/C-besluit verandert nooit een
+coordinaat of geo-status.
+
+## Beschermde Mark-keuzes
+
+32x A, 5x B, 3x C -- volledige lijst in GEO_AUDIT.md en RUN.yaml `protected_mark_decisions`. Het
+expliciet afgewezen VNS-CAND-008-coordinaat [25.3045, 82.979369] is nergens gebruikt.
+
+## Door Mark te beoordelen
+
+Geen A/B/C-vragen meer -- alle 40 kandidaten zijn besloten. Resterende punten zijn zuiver technisch
+(geen A/B/C-vraag): 008 heeft geen veilig coordinaat, 023 heeft een 3km-afwijking tussen bronnen.
+Zie BESLISOVERZICHT.md.
+
+## Gekozen verblijf
+
+Sahi River View Guesthouse (Assi Ghat) is vastgelegd als `LOCKED_BY_MARK` Varanasi-basis (commit
+cf2daf2, `HOTEL_DECISION.md`). Verwerkt in `ACCOMMODATION_REGISTER.jsonl` (`VNS-HOTEL-001`), de
+reisgids-PDF (hoofdstuk "Gekozen verblijf", direct na de keuze-index) en de KML (aparte folder
+"Gekozen verblijf (LOCKED_BY_MARK)", geen A/B/C-ID). Geen geverifieerde Google Maps-marker gevonden
+-- geen `<Point>`-geometrie toegevoegd, alleen tekstuee
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=515 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/REGIONAL/COMPLETION.md blob_sha=649157474e2010487b525aff849a27fdcbb4dc66 original_offset=4096 original_length=1094 payload_bytes=1094 chunk_index=1 chunk_count=2 classification=text
+l adres. Data is routeklaar (basis +
+bereikbare A-clusters); nog geen volledige dagroute berekend (bewust buiten scope van deze ronde).
+
+## Niet uitgevoerd of verboden
+
+- Centrale India-master-KML niet bijgewerkt.
+- Geen nieuwe A/B/C-keuze namens Mark (alleen de gecommitte/expliciet bevestigde besluiten van Mark
+  zelf verwerkt, inclusief de expliciete bevestiging voor 029-034 in de afrondende ronde).
+- Geen bestaand geldig kandidaatrecord (VNS-CAND-001 t/m 021) inhoudelijk gewijzigd.
+- Geen afgewezen coordinaat teruggeplaatst.
+- Geen bestaand permanent nummer gewijzigd, hergebruikt of dubbel toegekend.
+- Geen volledige dagroute-/planningberekening uitgevoerd vanuit het hotel (alleen routeklaar gemaakt,
+  zoals expliciet gevraagd).
+- Geen coordinaat geraden voor het hotel bij gebrek aan een geverifieerde Google Maps-marker.
+
+## Readback
+
+KML geparsed en gecontroleerd (zie hierboven). PDF geopend en teruggelezen met pypdf (zie hierboven).
+Beide controles uitgevoerd NA creatie, inclusief een gerichte her-controle nadat de VNS-CAND-008-bug
+in de KML werd gevonden en gecorrigeerd.
+
+<<< END CHUNK >>>
+

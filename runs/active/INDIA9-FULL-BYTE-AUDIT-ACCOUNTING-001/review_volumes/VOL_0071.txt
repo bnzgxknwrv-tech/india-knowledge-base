@@ -1,0 +1,997 @@
+>>> CHUNK stream_row=1046 path=india5/tasks/done/INDIA5-ARCH-HARDEN-002/PRE_BRONS_HOLD_INVENTORY.md blob_sha=acc587da227a4de92f4853d0a981055d6e08f71e original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# Inventaris + vergelijking: vastgehouden PRE-BRONS/protocolbestanden (punt 11)
+
+Status: deze bestanden blijven ONGECOMMIT. Dit document inventariseert en vergelijkt ze met de
+canonieke INDIA2-besluiten, maar committeert ze NIET als onderdeel van deze hardeningstaak.
+
+## Inventaris (`git diff --stat` + `git status --short` op 2026-08-02)
+
+Gewijzigd (bestaande bestanden):
+```
+india4/protocols/INDIA5-PROTOCOL.md | 124 ++++++++++++++++++++++++++++++++++++
+india4/roles/BRONS.md               |  18 +++---
+india4/templates/BATCH_OUTPUT.md    |  12 ++++
+3 files changed, 146 insertions(+), 8 deletions(-)
+```
+
+Nieuw (untracked):
+- `india4/roles/PRE-BRONS.md` (65 regels) — nieuw rolcontract voor de PRE-BRONS-stap.
+- `india4/templates/PRE_BRONS_REGION_CONTENT_BRIEF_TEMPLATE.md` (49 regels) — verplichte
+  structuur voor de regio-inhoudsbrief.
+- `india4/registries/DETECTOR_LIBRARY.jsonl` (1 regel, alleen header/schema, geen echte
+  detectoren) — detectorbibliotheek, leeg schema.
+- `india4/registries/DETECTOR_RUN_HISTORY.jsonl` (1 regel, alleen header/schema).
+- `india4/scripts/validate_detector_library.py` (89 regels).
+- `india4/scripts/validate_pre_brons_brief.py` (106 regels).
+
+Doel per bestand: BRONS.md/BATCH_OUTPUT.md/INDIA5-PROTOCOL.md-wijzigingen voegen de nieuwe
+volgorde (PRE-BRONS → detectoren → kandidaten → betekenis → onderscheid → Mark-relevantie →
+cluster/koepeltoets → GEO → ZILVER → GOUD) en de verplichte betekenisvelden
+(WHY_THIS_ONE/WHY_NOT_THE_OTHERS/MEANING_EVIDENCE/LIVING_OR_MONUMENTAL/MARK_RELEVANCE_LINK) toe
+aan BRONS's batchcontract. De nieuwe bestanden implementeren PRE-BRONS zelf, de
+detectorbibliotheek en bijbehorende validators.
+
+## Vergelijking met de canonieke INDIA2-besluiten (PR #23, comment 5159503692, "BESLUITEN OP 7 OPEN VRAGEN")
+
+| Punt uit het besluit | Vastgehouden implementatie | Oordeel |
+|---|---|---|
+| Canoniek pad `india4/registries/DETECTOR_LIBRARY.jsonl` | Exact dit pad gebruikt | **AKKOORD** |
+| Apart append-only `india4/registries/DETECTOR_RUN_HISTORY.jsonl`, niet genest | Exact zo gebouwd, apart bestand | **AKKOORD** |
+| Detector-recordvelden (`detector_id`, `name`, `definition`, `purpose`, `trigger_conditions`, `exclusion_conditions`, `required_source_families`, `applicability_facets`, `discovered_in_run`, `status`, `parent_detector_id`, `aliases`, `created_at`, `approved_by`) | Alle velden aanwezig in de headerregel/schema-verwachting van `DETECTOR_LIBRARY.jsonl` en gecontroleerd door `validate_detector_library.py` | **AKKOORD** |
+| CCI mag PROVISIONAL zelfstandig gebruiken, promotie alleen door INDIA2 | Nog niet in code afgedwongen in de india4-versie (geen script controleert PROVISIONAL->ACTIVE-promotieautoriteit); WEL nu in `india5/GOVERNANCE.md` sectie 3 canoniek vastgelegd | **DEELS** -- governance-tekst compleet, technische afdwinging in `india4/scripts/validate_detector_library.py` beperkt zich tot schema/status-geldigheid, niet tot "wie mag promoveren" (dat is sowieso geen bestandsniveau-controle, eerder een procesregel) |
+| Multi-label `applicability_facets`, geen starre lijst nu | `DETECTOR_LIBRARY.jsonl`-schema-commentaar vermeldt dit veld als object, geen aparte vaste-taxonomielijst afgedwongen | **AKKOORD** |
+| PRE-BRONS-output: `REGION_CONTENT_BRIEF.md`+`.json`, `PRE_BRONS_DETECTORS.jsonl`, `SOURCE_FAMILY_PLAN.jsonl`, verplichte inhoud incl. "welke dramatisch te missen A-locatie..." | `PRE_BRONS_REGION_CONTENT_BRIEF_TEMPLATE.md` bevat exact deze structuur en dat verplichte veld | **AKKOORD** |
+| BRONS start pas na interne consistentie, geen tussentijdse Mark-goedkeuring | `india4/scripts/validate_pre_brons_brief.py` implementeert precies deze consistentiecontrole | **AKKOORD** |
+| Verzadigingsdrempel (hybride, DISCOVERY_SATURATED/NOT_YET_SATURATED) | Beschreven in de vastgehouden `INDIA5-PROTOCOL.md`-sectie, nog geen apart script (was ook niet expliciet gevraagd als apart script in het besluit) | **AKKOORD**, geen afwijking |
+| Elke kandidaat: `why_this_one`/`why_not_the_others`/`meaning_evidence`/`living_or_monumental`/`mark_relevance_link` vóór G
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1047 path=india5/tasks/done/INDIA5-ARCH-HARDEN-002/PRE_BRONS_HOLD_INVENTORY.md blob_sha=acc587da227a4de92f4853d0a981055d6e08f71e original_offset=4096 original_length=1170 payload_bytes=1170 chunk_index=1 chunk_count=2 classification=text
+EO | Toegevoegd aan `BATCH_OUTPUT.md` en `BRONS.md`, in die volgorde | **AKKOORD** |
+| Retroactief: Varanasi krijgt een begrensde `VARANASI_DISCOVERY_COVERAGE_AUDIT` | Genoemd in de vastgehouden `INDIA5-PROTOCOL.md`-sectie "Retroactiviteit", NIET uitgevoerd (conform "verboden" in deze en de kennistoets-taak) | **AKKOORD**, correct niet uitgevoerd |
+
+## Conclusie
+
+Geen inhoudelijke afwijking gevonden tussen de vastgehouden PRE-BRONS/protocolbestanden en de
+canonieke INDIA2-besluiten van comment 5159503692. Het enige punt dat nog niet
+volledig 1-op-1 dekt is de PROVISIONAL->ACTIVE-promotieautoriteit als technische controle
+(dat is inherent een procesregel, niet iets wat een enkel bestand kan afdwingen) — dit is nu
+wel expliciet als governance-tekst vastgelegd in `india5/GOVERNANCE.md` sectie 3, wat WEL
+onderdeel is van deze hardeningstaak.
+
+**Aanbeveling**: de vastgehouden bestanden zijn inhoudelijk klaar en stemmen overeen met de
+canonieke besluiten. Commit ervan valt buiten de scope van deze architectuurtaak (expliciet
+verboden in zowel de kennistoets- als de hardeningsopdracht) en vereist een aparte, expliciete
+vrijgave/opdracht van Mark of INDIA2.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1048 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/HOTEL_EVELYN_DUAL_CLOSURE_RECONCILIATION_2026-08-23.md blob_sha=acc978b1b83b8bbbacf354bfdb36ab983574f7f0 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# HOTEL EVELYN / RAM DASS — DUAL-CLOSURE RECONCILIATION
+
+Date: 2026-08-23
+Status: CURRENT CANONICAL TRAVEL INTERPRETATION
+Purpose: reconcile the independent worker closure and CCI closure; preserve disagreements in exactness labels rather than choosing a false precision.
+
+## INPUT A — independent worker
+Branch: `agent/indiahotel-evelyn-ramdass-room-closure`
+Commits:
+- `eab8a1270a1a87a735405044613fe4af017b3a6a` — closure
+- `0a7da62a1ee415bd583b2e627f9bc46342815b0c` — photo ledger
+
+Key contribution: University of Kent catalogue explicitly localizes the 1971 `Nainital High` group photograph to the **main terrace of Hotel Evelyn**. Ram Dass is in that photograph. The worker also proves from Ram Dass/Parvati Markus narrative that a private Ram Dass room with a door existed, and documents veranda/front-patio/lake-facing-balcony scenes.
+
+## INPUT B — CCI independent closure
+Branch: `agent/cci-hotelevelyn-ramdass-closure`
+Commit: `69f36d4da5cdd2c0bebb3a2262e40989a99fd8fa`
+
+Key contribution: confirms site continuity from a pre-1947 Evelyn guesthouse into Sah-family ownership/current hotel, and current reporting of two building parts including an older `British era` section. CCI independently finds no supportable room number/floor/wing and treats balcony/front-patio/veranda at zone level only.
+
+## CANONICAL CLOSURE
+### Property/site
+**Hotel Evelyn (historic Nainital hotel where Ram Dass lived with the Western devotee group in 1971) — A.**
+Site identity/continuity is strong. The hotel itself is not in doubt.
+
+### Sleep
+Ram Dass had a private room/door at Evelyn, but there is **NO responsibly proven room number, floor, wing, current room category, or present-day successor room**.
+
+Operational travel exactness: **R4 — hotel/property only for sleep.**
+Do not advertise or book a supposed `Ram Dass room` without new provenance.
+
+CCI's even more conservative R5 for room/floor/wing is compatible with this: R5 describes the unresolved internal localization; R4 describes the secure property-level sleep target. No contradiction needs to be erased.
+
+### Best place to stand
+**Historic main terrace / front-patio / veranda complex — R3.**
+This is the strongest physical zone because:
+- the 1971 group photograph is academically catalogued as the **main terrace**;
+- Ram Dass/Parvati Markus independently describe communal readings on veranda/front patio;
+- a lake-facing balcony scene with Ram Dass is textually secure;
+- current Hotel Evelyn still has terrace/veranda/lake-facing open areas.
+
+Do NOT claim that a current slab, railing, window or balcony bay is demonstrably identical to 1971. Hotel expansion/remodeling is real.
+
+### Present-day target
+First ask for the **older / `British era` building section** and the **old main terrace/front patio/veranda facing the lake**. Treat the current principal lake-facing terrace/veranda as strongest successor candidate, not as R1/R2 exact fabric.
+
+## FALSE FRIEND CLOSED
+The well-known photograph showing **Ram Dass + K.K. Sah + Bhagavan Das on a rooftop/terrace is NOT Hotel Evelyn**. The academic photo catalogue identifies it as the **rooftop courtyard of the Sah family home in Nainital**. Do not use that photo to identify Evelyn architecture.
+
+## BHAGAVAN DAS NUANCE
+CCI found no source placing Bhagavan Das physically inside Hotel Evelyn. The Sah-home rooftop photograph must not be used as Evelyn evidence. Preserve any separate Bhagavan Das/Evelyn claim only if another source explicitly supports it.
+
+## ON-SITE FIELD PROTOCOL — IMPORTANT FOR FINAL TRIP GUIDE
+1. Bring/show the 1971 `Nainital High` group photograph.
+2. Ask Sah-family descendants or the longest-serving staff member: **Which present terrace corresponds to the old `main terrace`?**
+3. Ask separately where the old **front patio/veranda** was.
+4. Ask whether the older `British era` building section contains rooms that already existed in 1971.
+5. Only then ask for **Richard Alpert / Ram Dass's room**.
+6. Specifically ask whether any old guest register, room ledger, key board, receipt, old numbering plan, family photograph or floor pl
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1049 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/HOTEL_EVELYN_DUAL_CLOSURE_RECONCILIATION_2026-08-23.md blob_sha=acc978b1b83b8bbbacf354bfdb36ab983574f7f0 original_offset=4096 original_length=463 payload_bytes=463 chunk_index=1 chunk_count=2 classification=text
+an survives.
+7. Any unsupported room number supplied orally starts as oral tradition, NOT R1/R2 proof.
+
+## TRAVEL CONSEQUENCE
+Hotel Evelyn remains a high-priority sleep target even if the exact bedroom never closes. The experience goal is:
+- sleep on the proven historic property;
+- stand/sit on the best-provable main-terrace/front-patio/veranda zone;
+- use the on-site Sah-family/staff evidence to attempt a final room upgrade without inventing one beforehand.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1050 path=governance/GLOBAL_REGIE_CANON_AUDIT_2026-08-23.md blob_sha=ade223f09b0364bb64e7259d22640b6f04d20101 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# GLOBAL REGIE CANON AUDIT — 2026-08-23
+
+Status: ACTIVE REGIE GUARDRAIL
+Purpose: prevent INDIA8/INDIA9+ from re-presenting already-decided locations, missing sleep anchors, or using stale summaries over later Mark decisions.
+
+## ROOT CAUSE OF 2026-08-23 REGIE MISS
+The regie chat over-weighted recent runs/worker branches and under-read legacy-but-still-valid root canon such as `CLUSTER_ANCHORS.md`, `LOCKED_A.md`, `LOCKED_B.md`, `LOCKED_C.md` and later accommodation decision files. This caused already-known facts (e.g. Jageshwar A, Binsar C, Kumaon sleep anchors) to be presented as if new.
+
+The repository contains multiple generations of truth:
+1. legacy region/root locks and anchors;
+2. current global numbering/master/reconciliation runs;
+3. later explicit Mark decisions and cluster-level decisions.
+A global regisseur MUST reconcile these layers before presenting choices.
+
+## PRECEDENCE FOR TRAVEL REGIE
+For a claim of type A/B/C, cluster status, hotel/stay, or route preference, apply in this order:
+
+1. **Latest explicit Mark decision file** for the exact item/cluster.
+2. **Latest accommodation register / hotel decision** for sleep-base status.
+3. **Current central all-findings master + current physical-resolution/access outputs** for factual site identity, person links, micro-sites, access and continuity.
+4. **Current governance / live handoff** for project scope, method and route-family decisions.
+5. **Legacy LOCKED_A/B/C and CLUSTER_ANCHORS** as protected benchmark when no later explicit override exists.
+6. Candidate files, old summaries and historical cluster overviews are NON-authoritative when contradicted by any higher layer.
+
+Hard rule: `latest explicit Mark decision > older Mark decision`; but an old Mark decision remains protected if no explicit later override exists. Never infer an override from research alone.
+
+## DO-NOT-REPRESENT-AS-NEW CHECK
+Before presenting ANY site to Mark for A/B/C:
+1. search current Mark-decision runs;
+2. check legacy protected locks if region predates the current global master;
+3. check parent/microcluster map so a micro-site is not re-presented separately;
+4. check whether current cluster status makes the site only an opportunistic add-on;
+5. if an existing decision is found, present it as `ALREADY A/B/C` and only surface new decision-relevant information.
+
+## CURRENT TRAVEL DATES
+18 Dec 2026 through 21 Jan 2027 = 34 days. Flights booked. Final calendar/festival/closure layer must use these dates.
+
+## CURRENT CLUSTER-LEVEL DECISIONS
+- Kumaon / Nainital / Kainchi / Babaji: A.
+- Vrindavan / Braj / Mathura: A, route-sensitive.
+- Varanasi / Sarnath: A.
+- Bodh Gaya / Gaya: A.
+- Tiruvannamalai / Arunachala: A, fixed.
+- Mysore / Bengaluru: C as cluster; individual site A/B/C remains preserved.
+- Haridwar / Kankhal / Rishikesh: B/reserve; Rishikesh atmosphere appeals; Kankhal Anandamayi Mahasamadhi remains site A.
+- Agra: A but Taj Mahal only as route driver; sunrise/earliest practical visit is HARD requirement.
+- East / Kolkata route family: parked unless capacity/exceptional override.
+
+## CURRENT KNOWN SLEEP ANCHORS / STAY DECISIONS
+### Kumaon / Babaji / Dwarahat
+- **Joshi Guest House, Kukuchina — LOCKED** sleep base for Babaji Cave, Babaji Smriti Bhavan, Dunagiri Temple, YSS Dwarahat.
+
+### Kumaon / Nainital
+- **Hotel Evelyn, Nainital — CLUSTER_ANCHOR and site-level A.**
+- Final route MUST resolve actual overnight feasibility and Ram Dass historic cave-room/top-floor/patio mapping/access before travel.
+
+### Kumaon / Kasar Devi / Almora
+- **Turiya Niwas, Crank's Ridge — PROVISIONAL LOCK as sleep anchor; A as destination.**
+- Correct property: Crank's Ridge, Kasar Devi, managed by Harshit Karki / booking registration Mayank Karki; NOT unrelated Lovedeep/Mall Road listing.
+- Direct host confirmation already obtained: private whole house, hot water, room heating, electric blanket, sufficient blankets, year-round access, meal option via neighbour, cafes nearby, power/WiFi backup, taxi/train advice.
+- Only open: exact dates, length, final reservation/direct vs Airbnb.
+- Fallback #1 Kripal 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1051 path=governance/GLOBAL_REGIE_CANON_AUDIT_2026-08-23.md blob_sha=ade223f09b0364bb64e7259d22640b6f04d20101 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+House; fallback #2 Rudra Himalayan Retreat.
+- Lali's Organic Gift Shop & Stay = social hub, not sleep anchor.
+- Canon: Nainital and Kasar Devi are NOT one base (~50 km/~2 h); Kumaon needs at least two, likely three bases. Kakrighat is a transit stop, not separate base.
+
+### Varanasi
+- **Sahi River View Guesthouse, Assi Ghat — LOCKED_BY_MARK (VNS-HOTEL-001).**
+- Room preference: **balcony room**.
+- Named contact: **Jitendre; give regards from Debby**.
+- Do not replace without explicit Mark decision.
+- This supersedes older `provisional` language in legacy CLUSTER_ANCHORS.
+
+### Agra
+- Max one night / positioning night if needed for Taj Mahal at sunrise/first practical opening. Do not expand Agra merely to fill time.
+
+### Not yet locked in currently audited canon
+- Vrindavan/Braj: sleep anchor still requires current decision/verification.
+- Bodh Gaya: sleep anchor still requires current decision/verification.
+- Tiruvannamalai/Arunachala: sleep anchor still requires current decision/verification.
+- Prayagraj: no current locked sleep anchor identified in this audit.
+- Haridwar/Kankhal/Rishikesh: only investigate stay if B-cluster survives route fit.
+
+## CURRENT KUMAON DECISION GUARDRAIL
+Known current/legacy decisions that MUST NOT be re-asked as new unless a true decision conflict appears include:
+- Mahavatar Babaji Cave / Dunagiri landscape: A.
+- Turiya Niwas: A.
+- Bodh Ashram: A.
+- Kainchi Dham: A.
+- Bhumiadhar: A.
+- Hotel Evelyn: A.
+- Hanuman Garhi/Hanumangarh: A.
+- Jageshwar: A (legacy protected; do not re-ask).
+- Binsar: C (legacy protected; do not re-ask).
+- Dhaulchina Anandamayi: C.
+- K.K. Sah private family home: C / no normal visit.
+- Ramsay Hospital: C absent shrine/visitor function.
+- Patal Devi: C/reserve.
+- Haidakhan main site: A; additional Haidakhan-lineage sites default C unless exceptional.
+
+## CURRENT PROJECT-WIDE PRESENTATION RULES
+- One physical parent complex = one decision number. Micro-sites stay nested.
+- Final A-site/day guide must surface high-value microdetails BEFORE travel: rooms, caves, kuti, shrines, samadhi, cremation places, terraces, platforms, photo positions, etc.; who/what happened, access and confidence.
+- Functional buildings still in ordinary use (school, hospital, town hall, office, ordinary private home) generally B/C unless active shrine/pilgrimage function or effectively free route add-on.
+- Site ABC and cluster ABC are separate.
+- Preserve breathing room; do not maximize site count.
+
+## ANANDAMAYI MA TRAVEL SCOPE
+Approx. three truly important Anandamayi destinations total, not exhaustive house-by-house pilgrimage.
+- Kankhal Mahasamadhi: A.
+- Vrindavan Ashram: A.
+- Bhadaini Varanasi: selected A in later review; treat as core contender/third site and living major ashram.
+- Dhaulchina C; Patal Devi C/reserve.
+- Hard override: any physically resolvable documented joint Anandamayi Ma × Yogananda photo location inside an included cluster must be surfaced as MUST_VISIT_WITHIN_INCLUDED_CLUSTER.
+
+## CURRENT ROUTE-PLANNING ORDER — MARK UPDATE 2026-08-23
+The generic older pipeline placed stay selection after route/nights. For the current cluster-planning phase, Mark identified a necessary tactical refinement:
+
+For a retained cluster where a meaningful/historic stay base is already known, use:
+`KNOWN/CHOSEN SLEEP BASE -> A SITES -> DISTANCE/COMBINATION MATRIX -> LONELY PLANET ADDONS -> opportunistic B sites -> NIGHTS`.
+
+Reason: LP distances and site combinations are meaningless if calculated from an arbitrary city center when Mark already intends to sleep at a specific historical/spiritual base.
+
+This does NOT mean hotels determine spiritual A/B/C. It means known sleep anchors are used as routing origins before deciding local day structure and nights.
+
+## LONELY PLANET LAYER
+Independent of person layer and spiritual-anchor layer. Can include huge or tiny finds. Tiny is welcome when unusually special and low-cost (historic pastry shop, regional cult sweet, small rock-art shelter, short viewpoint walk). Do not use generic 'best in town' material.
+
+Kumaon current LP decisions from Mark (2026
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1052 path=governance/GLOBAL_REGIE_CANON_AUDIT_2026-08-23.md blob_sha=ade223f09b0364bb64e7259d22640b6f04d20101 original_offset=8192 original_length=2364 payload_bytes=2364 chunk_index=2 chunk_count=3 classification=text
+-08-23 chat; durable ingest pending/this file records them):
+- Corbett: C.
+- Jageshwar: A but ALREADY protected A before LP sweep.
+- Lakhudiyar: A only if naturally on route; otherwise C.
+- Binsar: C and ALREADY protected C.
+- Naina Peak: treat as A candidate/day-option; final decision can be made locally, no separate cluster-opening cost from Nainital base.
+- Dwarahat temple groups: C as LP destination; may return only as near-zero-cost Babaji-route add-on.
+- Sakley's historic Nainital pastry shop: A-style micro-extra / definitely surface when in Nainital.
+- Kheem Singh Mohan Singh Rautela / Bal Mithai Almora: A-style micro-extra / definitely surface when in Almora.
+
+## CALENDAR / FESTIVAL RISK LAYER
+Before final itinerary: check Indian national + relevant state holidays; major religious festivals/pilgrimage events; weekly and exceptional closures; crowd/security/road/flight/train impact. Do not assume a holiday stops flights. Each travel day later gets SEEK_EVENT / OK_NORMAL / CROWD_CAUTION / TRANSPORT_CAUTION / AVOID_IF_POSSIBLE / HARD_CLOSURE.
+
+## KNOWN STALE / DANGEROUS DOCUMENT TYPES
+- Old CLUSTERS_OVERVIEW or candidates files may contain superseded ratings.
+- Old CLUSTER_ANCHORS can contain a valid historical base but stale status (e.g. Varanasi provisional vs later LOCKED_BY_MARK).
+- Legacy numbering must not be reused as current global permanent IDs, but legacy Mark ratings remain protected benchmarks unless explicitly superseded.
+- Worker TASK/STATUS files are task-local and must not be mistaken for global travel truth.
+
+## REQUIRED REGIE CHECK BEFORE NEXT CHOICE BLOCK
+Before the regisseur presents another block of locations or Lonely-Planet findings:
+1. identify current sleep anchor for that cluster (or explicitly state none is locked);
+2. load current Mark decisions + protected legacy locks for that cluster;
+3. mark all already-decided items in the working set;
+4. only present true new decision surfaces;
+5. calculate proximity from the actual chosen/provisional sleep base where available;
+6. bundle micro-sites under parents;
+7. preserve final-guide details for A sites.
+
+## NEXT EXECUTION STEP
+Build a current `SLEEP_BASE_REGISTER + CLUSTER_PRECEDENCE_MAP` for all retained A/B clusters from existing repo evidence before continuing LP scoring or route-night calculations. Do not ask Mark to repeat known decisions.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1053 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/WORKING_ROUTE_V2_TRAIN_FIRST_NEWYEAR_RISHIKESH_2026-08-23.md blob_sha=ae99a5b2079a73e2e814f04f8ac0359ee7662453 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=5 classification=text
+# WORKING ROUTE V2 — TRAIN-FIRST + NEW YEAR RISHIKESH
+
+Date: 2026-08-23
+Status: CURRENT HUMAN-REVIEW ROUTE; supersedes V1 where inconsistent
+Hard frame: arrival DEL 19 Dec 2026 10:15; departure DEL 21 Jan 2027 12:20; 33 India calendar nights, including intentional overnight-train nights.
+
+## HARD TRANSPORT RULE
+Long-distance preference: TRAIN first, FLIGHT second when rail costs too much usable time, PRIVATE CAR third/for mountains and last-mile, BUS excluded.
+Compare door-to-door time and usable daylight, not vehicle time alone.
+
+## KEY V2 GAINS
+1. 19 Dec Delhi -> Kathgodam = overnight train instead of Delhi hotel + next-day long road transfer.
+2. 4 Jan Mathura -> Prayagraj = overnight train instead of losing a waking day.
+3. 5 Jan Prayagraj -> Varanasi = evening fast train; no Prayagraj hotel night needed.
+4. Result: Varanasi gains one full night/day while the trip still fits exactly 33 India nights.
+5. 31 Dec is deliberately Rishikesh / Parmarth Niketan New Year, not Haridwar, Agra or transit.
+
+## 33-NIGHT CALENDAR — EXACT
+- **19 Dec** — overnight train Delhi -> Kathgodam (night 1)
+- **20–22 Dec** — Haidakhan Ashram, 3 nights (nights 2–4)
+- **23–25 Dec** — Joshi Guest House / Kukuchina, 3 nights (5–7)
+- **26–28 Dec** — Hotel Evelyn / Nainital, 3 nights (8–10)
+- **29–31 Dec** — Rishikesh, 3 nights (11–13)
+- **1 Jan** — Agra, 1 night (14)
+- **2–3 Jan** — Vrindavan, 2 hotel nights (15–16)
+- **4 Jan** — overnight train Mathura -> Prayagraj (17)
+- **5–10 Jan** — Varanasi, 6 nights (18–23)
+- **11–13 Jan** — Bodh Gaya/Gaya, 3 nights (24–26)
+- **14–18 Jan** — Tiruvannamalai/Arunachala, 5 nights (27–31)
+- **19–20 Jan** — Delhi, 2 buffer nights (32–33)
+TOTAL = 33 nights.
+
+---
+
+# 19 DEC — ARRIVAL DELHI + NIGHT TRAIN NORTH
+Air India arrival DEL 10:15.
+
+Visit:
+- **Nirmal Dham / Shri Mataji Nirmala Devi Mahasamadhi (Delhi shrine/resting place of Shri Mataji; Mark's selected Delhi spiritual stop) — A.**
+
+Then private car to Old Delhi railway station with generous station buffer.
+
+Preferred rail planning pattern:
+- **15013 Ranikhet Express, Old Delhi (DLI) ~22:05 -> Kathgodam (KGM) ~05:05**, daily in the Aug-2026 timetable and currently offering 1A/2A/3A.
+- Final Dec-2026 timetable/seat availability MUST be revalidated before booking.
+
+Why train wins: the 7-hour rail leg becomes sleep; 20 Dec starts already at the Kumaon railhead instead of spending most of the first India day driving from Delhi.
+
+No Delhi hotel needed on 19 Dec.
+
+---
+
+# 20–22 DEC — HAIDAKHAN — 3 NIGHTS
+05:05-ish Kathgodam arrival -> pre-arranged PRIVATE CAR to Haidakhan Ashram. No bus.
+Sleep: **Haidakhan Ashram itself**.
+
+- **Haidakhan Vishwa Mahadham / Haidakhan Babaji Ashram (active riverside Himalayan ashram of Haidakhan Baba where Mark wants to stay and experience the place itself) — A.**
+
+20 Dec becomes an arrival/settling day rather than an all-day Delhi road transfer. 21–22 Dec remain full experiential days.
+
+---
+
+# 23–25 DEC — KUKUCHINA / BABAJI–DUNAGIRI — 3 NIGHTS
+Transfer Haidakhan -> Kukuchina by PRIVATE CAR.
+Sleep: **Joshi Guest House — locked/wanted by Mark**.
+
+- **Mahavatar Babaji Cave (Kriya Yoga pilgrimage cave traditionally linked to Babaji initiating Lahiri Mahasaya) — A.**
+- **Babaji Smriti Bhavan (Babaji memorial/pilgrim stop on the Kriya route) — A.**
+- **Dunagiri Temple (mountain Devi temple in the same sacred landscape as the Babaji cave) — A.**
+- **YSS Dwarahat Ashram (Yogananda/Yogoda Satsanga Kriya-line ashram near the Babaji route) — A.**
+- **Dwarahat historic temple groups (old Kumaoni stone-temple heritage clusters; LP add-on, not route driver) — C.**
+
+---
+
+# 26–28 DEC — NAINITAL / KAINCHI — 3 NIGHTS
+Transfer Kukuchina -> Nainital by PRIVATE CAR.
+Sleep: **Hotel Evelyn — A / wanted by Mark regardless of rustic comfort.**
+
+- **Hotel Evelyn (historic hotel where Ram Dass lived with the Western devotee group in 1971) — A.**
+  - Sleep exactness: property/hotel secure; exact room unresolved (R4 at property level).
+  - Best stand zone: **
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1054 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/WORKING_ROUTE_V2_TRAIN_FIRST_NEWYEAR_RISHIKESH_2026-08-23.md blob_sha=ae99a5b2079a73e2e814f04f8ac0359ee7662453 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=5 classification=text
+historic main terrace / front patio / veranda complex — R3**.
+  - On site: show the 1971 `Nainital High` group photo; ask Sah family/long-serving staff for old main terrace, front patio/veranda, British-era section, then old guest register/room ledger and only then Richard Alpert/Ram Dass room.
+- **Kainchi Dham (Neem Karoli Baba's major ashram and central Maharajji/Ram Dass pilgrimage site) — A.**
+- **Bhumiadhar/Bhumiyadhar temple terrain (where Ram Dass first met Neem Karoli Baba in 1967) — A.**
+- **Hanuman Garhi/Hanumangarh (Neem Karoli Baba-associated Hanuman temple and Maharajji kuti area above Nainital) — A.**
+- **Naina Peak/Cheena Peak (mountain walk with lake/Himalaya panorama) — A-on-the-ground; decide with weather/energy.**
+- **Sakley's Restaurant & Pastry Shop (historic 1944 Nainital pastry/restaurant institution) — A micro-stop.**
+- **Jim Corbett National Park (major tiger/elephant national-park excursion) — C.**
+
+Kasar Devi/Almora/Jageshwar do not consume nights in V2.
+
+---
+
+# 29–31 DEC — RISHIKESH / KANKHAL / HARIDWAR — 3 NIGHTS
+29 Dec Nainital -> Rishikesh by PRIVATE CAR. Rail is not forced here because reaching a railhead + timetable geometry loses more useful time than a direct door-to-door car in the mountain/foothill corridor. Bus excluded.
+
+Preferred sleep/experience base to test first: **Parmarth Niketan Ashram, Swarg Ashram, Rishikesh**.
+
+## 29 DEC
+Transfer, settle at Ganges, no heavy program.
+
+## 30 DEC — KANKHAL + HARIDWAR
+PRIVATE CAR/taxi round trip from Rishikesh.
+- **Kankhal Anandamayi Ma Mahasamadhi (active Ma ashram containing her physical resting place and continuing veneration) — A strong site.**
+- **Har Ki Pauri (famous Haridwar Ganges ghat with the evening fire/aarti ritual) — A-light.**
+- **Mathura Walo Ki Pracheen Dukan (old Moti Bazaar mithai shop with unusual sweet/malai samosa) — ungraded micro-gem; combine only because it rides directly on Har Ki Pauri/Moti Bazaar movement.**
+
+Doing Haridwar on 30 Dec keeps 31 Dec free from avoidable road movement during New-Year crowd controls.
+
+## 31 DEC — RISHIKESH NEW YEAR HIGHLIGHT
+Stay in Rishikesh all day/evening.
+- **Beatles Ashram / former Maharishi Mahesh Yogi ashram (forest ashram where the Beatles stayed in 1968 and wrote many songs) — A-light.**
+- Ganges / Rishikesh walking atmosphere.
+- **Parmarth Niketan Special New Year Spiritual Retreat** is already announced for 30 Dec 2026–1 Jan 2027; treat this as first-choice New-Year framework if booking/participation is accepted.
+
+Do NOT schedule Haridwar or an intercity transfer on New Year's Eve.
+
+---
+
+# 1 JAN — RISHIKESH -> AGRA — 1 NIGHT
+Morning: allow Parmarth New-Year/yagna/retreat activity and an unhurried start.
+Then PRIVATE CAR Rishikesh -> Agra.
+
+Why car wins despite train-first preference:
+- current Haridwar->Agra rail options that arrive usefully require roughly 06:54/07:45 departures, which conflict with the deliberate New-Year morning in Rishikesh;
+- the afternoon rail pattern reaches Tundla around midnight, creating a poor last-mile/arrival;
+- direct private car preserves the New-Year morning and still positions at Agra that evening.
+
+1 Jan 2027 is Friday; Taj Mahal is closed, so no sightseeing opportunity is lost.
+Sleep in Taj East Gate / Shilpgram walkable zone.
+
+---
+
+# 2 JAN — TAJ SUNRISE -> VRINDAVAN
+- **Taj Mahal (Mughal mausoleum/world icon; Mark's sole Agra reason, earliest-opening/sunrise HARD requirement) — A.**
+After visit, PRIVATE CAR Agra -> Vrindavan (~short intercity hop; rail adds station friction without useful gain).
+Sleep Vrindavan nights 2 and 3 Jan.
+
+# 2–4 JAN — VRINDAVAN / BRAJ
+Two hotel nights but roughly 2.5 usable days because 4 Jan ends with an overnight train.
+
+Selected A/B/C canon remains as in V1, including:
+- **Vrindavan Railway Station (Yogananda AOAY 'penniless boys' arrival; related initiation micro-site folded underneath) — A.**
+- **Madan Mohan Temple (old Krishna temple visited in Yogananda's AOAY episode) — A.**
+- **Katyayani Peeth/Keshabananda Ashram (Lahiri-disciple Keshabananda's ashram visite
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1055 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/WORKING_ROUTE_V2_TRAIN_FIRST_NEWYEAR_RISHIKESH_2026-08-23.md blob_sha=ae99a5b2079a73e2e814f04f8ac0359ee7662453 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=5 classification=text
+d by Yogananda; historic photo steps known) — A.**
+- **Neem Karoli Baba Vrindavan Ashram + Mahasamadhi (Maharajji ashram/rooms/courtyard and venerated resting place) — A.**
+- **Yamuna River/selected Vrindavan ghat experience (Krishna's sacred river and personally important Krishna story-layer) — A.**
+- **Banke Bihari Temple (major Krishna temple with Ram Dass and Ramakrishna layers) — A.**
+- **Fouzdar Kunj (historic house/room/veranda where Ramakrishna stayed in Braj) — A.**
+- **Nidhivan (sacred Krishna/Radha grove with Ramakrishna layer) — A.**
+- **Anandamayi Ma Vrindavan Ashram (active ashram where Ma herself was present/active) — A.**
+- **Ganga Mata historic hut-site (Ramakrishna/Braj hut location) — B, operationally only if almost free beside Nidhivan.**
+- **Krishna Janmabhoomi, Mathura (very crowded/heavily secured traditional Krishna-birthplace complex) — B.**
+- **Mathura Railway Station NKB last-journey context (working station, not contemplative site) — C.**
+
+## 4 JAN NIGHT — TRAIN TO PRAYAGRAJ
+PRIVATE CAR from Vrindavan to Mathura Junction with luggage/station buffer.
+Preferred current planning pattern:
+- **20404 LGH–PRYJ Superfast, Mathura Jn ~19:55 -> Prayagraj Jn ~04:50**, current timetable shows 1A/2A/3A and daily pattern.
+- Revalidate Jan-2027 timetable/running day/availability before booking.
+
+Why train wins: it converts an ~9-hour transfer into sleep and preserves all of 4 Jan as a Braj day.
+No Vrindavan hotel on 4 Jan.
+
+---
+
+# 5 JAN — PRAYAGRAJ FULL DAY -> VARANASI EVENING
+04:50-ish arrival. Arrange station pickup/private car, luggage storage/day-room if useful; NO bus.
+
+Core:
+- **Triveni Sangam (confluence of Ganges, Yamuna and traditional Saraswati; central Kumbh/Sangam river experience) — A.**
+- **Akshayavat (sacred 'immortal' banyan tree in the Allahabad Fort/Patalpuri area) — A.**
+- **Bade/Lete Hanuman Ji (famous reclining Hanuman shrine near Sangam) — A.**
+- **Bharadwaj Ashram (traditional sage Bharadwaj ashram/temple site) — B.**
+- **Anandamayi Ma standalone Prayagraj site (lower weight than her chosen core sites) — C.**
+- **4 Church Lane (historic private house linked to NKB/Ram Dass, not a clear public shrine) — C.**
+
+Optional only if A-core leaves slack:
+- **Indian Coffee House Prayagraj (1957 living political/literary coffee-house institution) — ungraded micro-gem.**
+- **Hari Ram & Sons (old Loknath namkeen shop known for dry mini masala samosa) — ungraded micro-gem.**
+
+Evening TRAIN Prayagraj -> Varanasi.
+Best current pattern for useful day:
+- **22416 Vande Bharat, PRYJ ~21:15 -> BSB ~23:05** in the current timetable.
+- Revalidate 5 Jan 2027 running day/time before booking.
+
+No Prayagraj hotel. Sleep Varanasi from 5 Jan onward.
+
+---
+
+# 5–10 JAN — VARANASI / SARNATH — 6 NIGHTS
+Sleep: **Sahi River View Guesthouse, Assi Ghat — LOCKED_BY_MARK; balcony room; Jitendre; greetings from Debby.**
+
+V2 gain: full local days 6–10 Jan = five complete days, rather than arriving mid-day on 6 Jan.
+
+A/B core remains semantic as in V1, including:
+- **Lahiri Mahasaya house (actual Varanasi home of the Kriya Yoga master; final guide must carry room/micro-site events) — A.**
+- **Lahiri Mahasaya samadhi/memorial layer (Kriya-master memorial/samadhi destination) — A.**
+- **Rana Mahal Ghat/historic ashram layer (Yogananda–Sri Yukteswar history) — A.**
+- **Dashashwamedh Ghat (major Ganges ghat with Babaji–Mataji–Lahiri story layer) — A.**
+- **Panchganga/Trailanga Swami site (ghat/monastic complex associated with Trailanga Swami and Ramakrishna) — A.**
+- **Manikarnika Ghat (major cremation ghat / sacred-death landscape) — A.**
+- **Anandamayi Ma Bhadaini Ashram (major active Ma ashram with her repeated presence) — A.**
+- **Kabir Chaura (Kabir monastery/life-tradition area) — A.**
+- **Assi Ghat (southern Ganges ghat beside locked hotel; dawn/riverside experience) — A.**
+- **Sarnath (site where Buddha gave the First Sermon; archaeological/pilgrimage complex) — A.**
+- **Shreyansanath Jain Tirth at Sarnath (Jain pilgrimage site riding on Sarnath d
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1056 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/WORKING_ROUTE_V2_TRAIN_FIRST_NEWYEAR_RISHIKESH_2026-08-23.md blob_sha=ae99a5b2079a73e2e814f04f8ac0359ee7662453 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=5 classification=text
+ay) — A.**
+- **Adi Keshava Ghat (Varuna–Ganges confluence/northern sacred-Kashi geography) — A.**
+- **Kedar Ghat/Kedareshwar Temple (Shiva ghat/temple) — B.**
+- **Sankatha Devi Temple/Ghat (goddess temple/ghat) — B.**
+- **Parshvanath Jain birthplace-tradition temple, Bhelupur — B.**
+- **Suparshvanath Jain Tirth, Bhadaini — B.**
+- **Ramnagar Fort (historic riverside fort/palace museum) — B.**
+
+High-fit ungraded micro-gems to place only after daily geography is optimized:
+- **Ram Bhandar (historic Banarasi breakfast institution).**
+- **Winter malaiyo (seasonal airy saffron-milk sweet; January is ideal season).**
+- **Gulabi Meenakari artisan workshop (real pink-enamel metalcraft workshop).**
+
+---
+
+# 11–13 JAN — BODH GAYA / GAYA — 3 NIGHTS
+11 Jan (Monday): use Varanasi morning/early afternoon, then TRAIN.
+Preferred high-yield current pattern:
+- **20888 Vande Bharat, Varanasi ~16:05 -> Gaya ~18:45**, currently runs Mon/Wed/Thu/Fri/Sat/Sun; 11 Jan 2027 is Monday.
+- Revalidate Jan timetable before booking.
+
+Sleep walkable Mahabodhi core.
+
+- **Mahabodhi Temple (temple complex marking Buddha's enlightenment) — A.**
+- **Bodhi Tree (sacred tree at the enlightenment spot) — A.**
+- **Sujata Stupa/Bakraur (site linked to Sujata's meal before Buddha abandoned extreme asceticism) — A.**
+- **Great Buddha Statue (large modern seated Buddha monument) — B.**
+- **Dungeshwari/Mahakala Cave Temples (caves of Buddha's extreme ascetic practice before the Middle Way) — C.**
+- **Barabar/Nagarjuni Caves (Mauryan polished-rock caves / early rock-cut architecture) — C.**
+- **Gurpa Hill (remote Buddhist-associated hill/cave pilgrimage terrain) — C.**
+
+Micro-gem:
+- **Sri Ram Tilkut Bhandar, Gaya (historic sweets shop associated with Gaya's winter sesame-sugar tilkut) — ungraded micro-gem.**
+
+---
+
+# 14 JAN — BODH GAYA -> TIRUVANNAMALAI — FLY
+TRAIN is first preference in principle, but this is the clear flight exception: rail to Tamil Nadu costs far too much trip time.
+
+Working door-to-door pattern:
+1. PRIVATE CAR Bodh Gaya/Gaya -> Patna Airport with large traffic/check-in buffer.
+2. Direct PAT -> MAA flight if the current IndiGo pattern holds. As of Aug 2026, PAT–MAA nonstop operates about four times weekly, ~2h25–2h40; Thursday is in the current published pattern. **14 Jan 2027 is Thursday**, making the direct pattern promising but not yet a booking lock.
+3. PRIVATE CAR Chennai Airport -> Tiruvannamalai.
+
+No bus.
+
+---
+
+# 14–18 JAN — TIRUVANNAMALAI / ARUNACHALA — 5 NIGHTS
+First stay concept: **Sri Ramanasramam itself if accepted**; fallback Ramana Nagar/Chengam Road.
+
+- **Sri Ramanasramam (Ramana Maharshi's main ashram; Old Hall, samadhi, Mother's Shrine, Nirvana Room, Yogananda meeting setting) — A.**
+- **Virupaksha Cave (mountain cave where Ramana lived for many years) — A.**
+- **Skandashram (mountain hermitage where Ramana later lived with followers/mother) — A.**
+- **Arunachaleswarar Temple (huge Shiva temple central to Ramana's arrival and town sacred geography) — A.**
+- **Gurumurtam (early shrine/hermitage where young Ramana lived in deep absorption) — A.**
+- **Pavalakunru (small hill shrine where Ramana lived and family found him) — A.**
+- **Girivalam/Giripradakshina (full circumambulation walk around Arunachala mountain) — A.**
+
+Pongal period remains a calendar flag around 14–17 Jan.
+
+---
+
+# 19 JAN — TIRUVANNAMALAI -> DELHI — FLY
+PRIVATE CAR to Chennai Airport, then nonstop MAA -> DEL flight. Current Aug-2026 schedules show many nonstop Air India and IndiGo frequencies daily, so flying is overwhelmingly better than multi-day rail for this final long northbound repositioning.
+
+Target arrival Delhi on 19 Jan with margin; do NOT use a 20 Jan late arrival as default.
+
+# 19–20 JAN — DELHI — 2 BUFFER NIGHTS
+20 Jan = full safety/buffer day.
+21 Jan 12:20 Air India DEL -> AMS.
+
+---
+
+# V2 TRANSPORT VERDICT
+Preferred modes by leg:
+- AMS -> DEL: booked flight.
+- DEL -> Kathgodam: **overnight train**.
+- Kathgodam -> Haidakhan: **private car**.
+- Haidakhan -> Kukuchina: **private ca
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1057 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/WORKING_ROUTE_V2_TRAIN_FIRST_NEWYEAR_RISHIKESH_2026-08-23.md blob_sha=ae99a5b2079a73e2e814f04f8ac0359ee7662453 original_offset=16384 original_length=1221 payload_bytes=1221 chunk_index=4 chunk_count=5 classification=text
+r**.
+- Kukuchina -> Nainital: **private car**.
+- Nainital -> Rishikesh: **private car**.
+- Rishikesh local / Kankhal / Haridwar: **private car/taxi + walking**.
+- Rishikesh -> Agra on New Year's Day: **private car** because the train times destroy the deliberately protected New-Year morning.
+- Agra -> Vrindavan: **private car**.
+- Mathura -> Prayagraj: **overnight train**.
+- Prayagraj -> Varanasi: **evening fast train**.
+- Varanasi -> Gaya: **Vande Bharat/train**.
+- Gaya/Bodh Gaya -> Patna Airport: **private car**.
+- Patna -> Chennai: **flight**.
+- Chennai -> Tiruvannamalai: **private car**.
+- Tiruvannamalai -> Chennai Airport: **private car**.
+- Chennai -> Delhi: **flight**.
+- Intercity/long-distance bus: **NONE**.
+
+## ROUTE CAPACITY CONSEQUENCE
+V2 has materially better yield than V1 without adding a cluster:
+- first northbound day is no longer lost to Delhi->Kumaon road travel;
+- 4 Jan remains a full Vrindavan/Braj visit day;
+- 5 Jan becomes a full Prayagraj visit day;
+- Varanasi gets six nights / five full local days;
+- New Year's Eve remains completely protected in Rishikesh.
+
+Final train/flight numbers and times are PLANNING patterns until revalidated for the exact Dec-2026/Jan-2027 booking dates.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1058 path=india4/roles/PRE-BRONS.md blob_sha=af0ca9ab3afd7e48f1c9ea26a13632bc2feef262 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# PRE-BRONS — DETECTORCONTRACT
+
+Status: verplicht vanaf 2026-08-02 (INDIA2-architectuurbesluit, PR #23), vóór elke nieuwe
+regio-sweep. Voor de volledige achtergrond: `india4/protocols/INDIA5-PROTOCOL.md`, sectie
+"PRE-BRONS en de detectorbibliotheek".
+
+Missie: bewijs dat de inhoudelijke werkelijkheid van het gebied voldoende is afgedekt, VÓÓR er
+één kandidaatnaam aan BRONS wordt doorgegeven. PRE-BRONS levert geen GEO-verificatie, geen A/B/C-
+keuze en geen definitieve kandidatenlijst — uitsluitend een intern consistente regio-inhoudsbrief
+die BRONS mag starten.
+
+## Volgorde in de grotere keten
+
+```
+PRE-BRONS → detectoren → gevonden plekken → NOT_TO_BE_MISSED_CHECK → kandidaten (PASS only)
+    → betekenis → onderscheid → Mark-relevantie → cluster/koepeltoets
+    → GEO (BRONS) → ZILVER → GOUD → Mark-keuze
+```
+
+**Verplicht vanaf 2026-08-03 (INDIA2-besluit, PR #23)**: elke door een detector gevonden plek
+doorloopt eerst de `NOT_TO_BE_MISSED_CHECK` uit
+`india4/protocols/NOT_TO_BE_MISSED_FRAMEWORK.md` VOORDAT ze kandidaatstatus en een permanent
+nummer krijgt. Alleen een PASS-uitkomst gaat door naar kandidaatstatus/nummering. WATCHLIST
+(onzeker, niet stil verwijderd) gaat als compacte lijst naar INDIA2/Mark na afloop van de run;
+FAIL wordt als negatieve bevinding gerapporteerd. Geen categorie-volledigheid, bekendheid of
+routegemak als zelfstandige toevoegingsreden — zie het framework voor de volledige toets.
+
+## Input
+
+- het gebied: grens, straal of functionele corridor, expliciet gedefinieerd;
+- Marks bekende interesses, A-criteria en eventuele bekende ankers;
+- `india4/registries/DETECTOR_LIBRARY.jsonl` — alle ACTIVE detectoren, gefilterd op een lichte
+  relevantietoets (welke detectoren zijn plausibel van toepassing op dit specifieke gebied,
+  gezien de bekende `applicability_facets`);
+- eerdere PRE-BRONS-brieven en run-geschiedenis van vergelijkbare gebieden, indien aanwezig.
+
+## Werkwijze
+
+1. Bouw een inhoudelijk beeld van het gebied: welke tradities, lineages, personen, heilige
+   landschappen en historische lagen zijn hier relevant? Gebruik gedegen bronnen (zie
+   `india4/protocols/RESEARCH_QUALITY.md` en het detector-overleg in PR #23) — geen generieke
+   "top 10"-lijstjes als primaire bron.
+2. Pas de ACTIVE detectoren toe die de relevantietoets doorstaan. Herken je tijdens dit werk een
+   detector die nog niet in de bibliotheek staat (zoals AOAY tijdens Varanasi), gebruik die dan
+   PROVISIONAL binnen deze run en leg 'm vast in `PRE_BRONS/PRE_BRONS_DETECTORS.jsonl` — nooit
+   automatisch canoniek ACTIVE maken. Promotie, aanscherping, samenvoeging of afwijzing van een
+   PROVISIONAL detector gebeurt na de run, uitsluitend door INDIA2/ChatGPT als architect.
+3. Plan de te doorzoeken bronfamilies per detector (`PRE_BRONS/SOURCE_FAMILY_PLAN.jsonl`).
+4. Stel expliciet de vraag: "welke dramatisch te missen A-locatie zou dit plan nog kunnen
+   missen?" en documenteer het antwoord.
+5. Schrijf de regio-inhoudsbrief, mensleesbaar én machineleesbaar (zie
+   `india4/templates/PRE_BRONS_REGION_CONTENT_BRIEF_TEMPLATE.md` voor de verplichte structuur).
+
+## Output
+
+Vier bestanden per run, onder `runs/active/<run_id>/PRE_BRONS/`:
+- `REGION_CONTENT_BRIEF.md` (mensleesbaar)
+- `REGION_CONTENT_BRIEF.json` (machineleesbaar, zelfde inhoud)
+- `PRE_BRONS_DETECTORS.jsonl` (ACTIVE detectoren toegepast + nieuwe PROVISIONAL detectoren)
+- `SOURCE_FAMILY_PLAN.jsonl` (geplande bronfamilies per detector)
+
+BRONS mag pas starten nadat deze brief intern consistent is (alle verplichte velden ingevuld,
+geen tegenstrijdige detectoren, elke geplande bronfamilie heeft minstens één detector). Er is
+geen tussentijdse Mark-goedkeuring nodig bij normale voortgang — alleen bij een echte
+inhoudelijke tegenstrijdigheid of een blocker.
+
+## Wat PRE-BRONS NIET doet
+
+- Geen GEO-verificatie (dat is BRONS).
+- Geen A/B/C-keuze (dat is en blijft uitsluitend Mark).
+- Geen definitieve kandidatenlijst — de kandidatenlijst ontstaat pas ALS UITKOMST van het
+  detectiewerk, nooit als vooraf vastgesteld aantal of vooraf aangeleverde na
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1059 path=india4/roles/PRE-BRONS.md blob_sha=af0ca9ab3afd7e48f1c9ea26a13632bc2feef262 original_offset=4096 original_length=143 payload_bytes=143 chunk_index=1 chunk_count=2 classification=text
+amlijst.
+- Geen canonieke wijziging aan de detectorbibliotheek zelf (fuseren/ACTIVE maken/RETIRED zetten
+  is uitsluitend aan INDIA2/ChatGPT).
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1060 path=research/deep-research/KUMAON-DEEP-RESEARCH-STATE.md blob_sha=af40ada7013c4185acad4c06fc3fe3b063a19acf original_offset=0 original_length=2655 payload_bytes=2655 chunk_index=0 chunk_count=1 classification=text
+# KUMAON — DEEP RESEARCH / SWEEP-B STATE
+
+```
+region_task: KUMAON-V2-RESWEEP-001
+updated: 2026-08-14
+state: CCI_SWEEP_A_KLAAR__INDIA_SWEEP_B_FROZEN__READY_FOR_RECONCILIATION
+```
+
+## Huidige status
+
+`runs/active/KUMAON-V2-RESWEEP-001/STATUS.md` meldt:
+
+- `state: SWEEP_A_KLAAR_WACHT_OP_INDIA_SWEEP_B`
+- CCI Sweep A is uitgevoerd.
+- CCI heeft Mark’s voorkeur voor `KUM-SWEEP-A-001` vastgelegd: Mahavatar Babaji-grot = A zodra de fysieke identiteit na reconciliatie vaststaat.
+
+INDIA heeft Sweep B al parallel en blind uitgevoerd vóór inzage in CCI `RESULT.md` of legacy Kumaon-kandidaten.
+
+## Frozen INDIA Sweep B
+
+- Branch: `india/kumaon-v2-sweep-b-001`
+- Bestand: `runs/active/KUMAON-V2-RESWEEP-001/INDIA_SWEEP_B.md`
+- Freeze-commit: `41bd4a7caebe83e44b9ee2470ecf1212d5111d9e`
+- Status: `SWEEP_B_FROZEN_BLIND`
+
+Deze Sweep B mag nu wél gebruikt worden voor reconciliatie, omdat CCI Sweep A inmiddels volgens `STATUS.md` klaar is.
+
+## Diepgaand-onderzoek-app
+
+De deep-research app is gestart als extra kwaliteitscontrole/audit voor Kumaon, niet als vervanging van CCI Sweep A of INDIA Sweep B.
+
+Behandeling:
+
+- Gebruik deep-research-output uitsluitend als extra bron-/gatendetector.
+- Laat deep-research geen Mark-besluiten overschrijven.
+- Laat deep-research geen CCI/INDIA-sweep vervangen.
+- Nieuwe claims uit deep-research moeten dezelfde bronverificatie doorlopen als andere keuze-relevante claims.
+
+## Mark-besluit Babaji-grot
+
+Zie apart bestand:
+
+`research/deep-research/MAHAVATAR-BABAJI-CAVE-A.md`
+
+Kern: Mahavatar Babaji-grot = A voor Mark zodra de fysieke identiteit is gereconcilieerd. Niet opnieuw aan Mark vragen tenzij er een echte fysieke identiteitsbotsing is.
+
+## Reconciliatie-volgorde nu
+
+1. CCI opent zijn eigen `RESULT.md` van Sweep A.
+2. CCI opent `INDIA_SWEEP_B.md` van branch `india/kumaon-v2-sweep-b-001` op commit `41bd4a7caebe83e44b9ee2470ecf1212d5111d9e`.
+3. CCI vergelijkt A vs B.
+4. Pas daarna opent CCI legacy `KUMAON-COMPLETE-001` / oude Kumaon-data als benchmark.
+5. CCI maakt de verplichte tabellen:
+   - `NIEUW_INTERSECT_OUD`
+   - `NIEUW_MIN_OUD`
+   - `OUD_MIN_NIEUW`
+   - `BRON_CONFLICTEN`
+   - `MARK_BESLUIT_CONFLICTEN`
+6. CCI verifieert de Babaji-grot-identiteit en koppelt Mark’s A aan de correcte permanente fysieke locatie.
+7. Geen PDF, geen routeplanning, geen andere A/B/C-voorspellingen.
+
+## Volgende output die verwacht wordt
+
+CCI levert een reconciliatie-resultaat met:
+
+- commit;
+- gereconcilieerde kandidaatset;
+- welke tijdelijke IDs bij elkaar horen;
+- legacy match/mismatch;
+- fysieke Babaji-grot mapping;
+- welke plekken keuze-ready zijn;
+- welke echte conflicten eventueel nog Mark nodig hebben.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1061 path=india5/scripts/validate_task.py blob_sha=af9b2199b3e924b38774436a448f9618b226dc96 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+#!/usr/bin/env python3
+"""Valideert een INDIA5-taak vóór claim/uitvoering (india5/TASK_PROTOCOL.md).
+
+CCI mag een taak NOOIT uitvoeren zonder dat dit script exit-code 0 geeft. Dit script
+controleert schema, hash-integriteit van task_file, en of expected_head nog klopt met de
+werkelijke HEAD van target_branch. Het detecteert ook (in --post-hoc modus) een inconsistente
+afgeronde taak: STATUS.yaml zegt COMPLETED maar RESULT.md ontbreekt.
+
+Gebruik:
+    python3 india5/scripts/validate_task.py <TASK_ID> [--stage queue|active|done|failed]
+    python3 india5/scripts/validate_task.py <TASK_ID> --post-hoc
+
+Exit code 0 = geldig, 1 = een of meer fouten (details op stdout). Bij fouten: taak NIET
+claimen of uitvoeren.
+"""
+import argparse
+import hashlib
+import json
+import subprocess
+import sys
+from pathlib import Path
+
+import yaml
+
+REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+TASKS_ROOT = REPO_ROOT / "india5" / "tasks"
+TASK_SCHEMA = REPO_ROOT / "india5" / "schemas" / "task.schema.json"
+STATUS_SCHEMA = REPO_ROOT / "india5" / "schemas" / "status.schema.json"
+
+REQUIRED_TASK_FIELDS = [
+    "task_id", "protocol_version", "issued_by", "issued_at", "target_branch",
+    "expected_head", "task_file", "task_file_sha256", "scope", "required_inputs",
+    "allowed_reads", "allowed_writes", "forbidden_writes", "expected_outputs",
+    "status", "completion_marker",
+]
+VALID_SCOPES = {"ARCHITECTURE", "PRE_BRONS", "BRONS", "ZILVER", "GOUD", "TRAVEL",
+                 "REGION_FULL_FLOW", "OTHER"}
+
+
+def sha256_of(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def current_head(branch: str) -> str:
+    try:
+        out = subprocess.run(
+            ["git", "-C", str(REPO_ROOT), "rev-parse", branch],
+            capture_output=True, text=True, check=True,
+        )
+        return out.stdout.strip()
+    except subprocess.CalledProcessError:
+        return ""
+
+
+def is_ancestor(candidate_sha: str, descendant_sha: str) -> bool | None:
+    """True als candidate_sha een voorouder is van (of gelijk aan) descendant_sha.
+    None als een van beide SHA's lokaal niet resolvebaar is (bv. nog niet gefetcht)."""
+    if candidate_sha == descendant_sha:
+        return True
+    try:
+        subprocess.run(
+            ["git", "-C", str(REPO_ROOT), "cat-file", "-e", candidate_sha],
+            capture_output=True, check=True,
+        )
+    except subprocess.CalledProcessError:
+        return None
+    result = subprocess.run(
+        ["git", "-C", str(REPO_ROOT), "merge-base", "--is-ancestor", candidate_sha, descendant_sha],
+        capture_output=True,
+    )
+    return result.returncode == 0
+
+
+def find_task_dir(task_id: str, stage: str | None):
+    stages = [stage] if stage else ["queue", "active", "done", "failed"]
+    for s in stages:
+        d = TASKS_ROOT / s / task_id
+        if d.exists():
+            return d, s
+    return None, None
+
+
+def validate_task_yaml(task_dir: Path, errors: list, warnings: list, skip_head_check: bool = False):
+    task_yaml_path = task_dir / "TASK.yaml"
+    if not task_yaml_path.exists():
+        errors.append(f"TASK.yaml ontbreekt in {task_dir}")
+        return None
+
+    task = yaml.safe_load(task_yaml_path.read_text(encoding="utf-8"))
+    if not isinstance(task, dict):
+        errors.append("TASK.yaml is geen geldig object")
+        return None
+
+    missing = [f for f in REQUIRED_TASK_FIELDS if f not in task]
+    if missing:
+        errors.append(f"TASK.yaml mist verplichte velden: {missing}")
+
+    if task.get("scope") not in VALID_SCOPES:
+        errors.append(f"ongeldige scope: {task.get('scope')!r}, verwacht een van {VALID_SCOPES}")
+
+    if task.get("status") != "QUEUED":
+        errors.append(
+            f"TASK.yaml.status moet altijd QUEUED zijn (immutable na uitgifte); "
+            f"actuele voortgang hoort in STATUS.yaml, niet hier. Gevonden: {task.get('status')!r}"
+        )
+
+    allowed = set(task.get("allowed_writes") or [])
+    forbidden = set(task.get("forbidden_writes") or [])
+    overlap = allowed & forbidden
+    if overlap:
+        errors.append(f"allowed_writes en forbidden_writ
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1062 path=india5/scripts/validate_task.py blob_sha=af9b2199b3e924b38774436a448f9618b226dc96 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+es overlappen: {overlap}")
+
+    task_file_rel = task.get("task_file")
+    if task_file_rel:
+        task_file_path = task_dir / task_file_rel
+        if not task_file_path.exists():
+            errors.append(f"task_file niet gevonden: {task_file_rel}")
+        else:
+            actual_hash = sha256_of(task_file_path)
+            expected_hash = task.get("task_file_sha256")
+            if actual_hash != expected_hash:
+                errors.append(
+                    f"task_file_sha256 KOMT NIET OVEREEN -- task_file mogelijk afgekapt of "
+                    f"gewijzigd na uitgifte. verwacht={expected_hash} werkelijk={actual_hash}"
+                )
+
+    if not skip_head_check:
+        target_branch = task.get("target_branch")
+        expected_head = task.get("expected_head")
+        if target_branch and expected_head:
+            actual_head = current_head(target_branch)
+            if not actual_head:
+                warnings.append(f"kon HEAD van {target_branch!r} niet bepalen (lokaal niet aanwezig?)")
+            else:
+                # expected_head betekent: de basiscommit waarop deze taak is gebouwd, NIET de
+                # exacte HEAD op claimmoment. Exacte gelijkheid zou circulair zijn -- het
+                # aanmaken/committen van TASK.md/TASK.yaml zelf (en de claim-commit erna)
+                # verzet HEAD altijd voorbij expected_head, zelfs bij een geldige, verse taak.
+                # Daarom: expected_head moet een voorouder zijn van (of gelijk aan) de huidige
+                # HEAD. Alleen een ECHTE divergentie (expected_head is GEEN voorouder meer, bv.
+                # door een non-fast-forward/force-push elders) telt als STALE_EXPECTED_HEAD.
+                ancestor = is_ancestor(expected_head, actual_head)
+                if ancestor is None:
+                    errors.append(
+                        f"expected_head {expected_head!r} is lokaal niet resolvebaar -- "
+                        f"mogelijk nog niet gefetcht. Taak NIET uitvoeren zonder eerst te "
+                        f"fetchen en opnieuw te valideren."
+                    )
+                elif ancestor is False:
+                    errors.append(
+                        f"STALE_EXPECTED_HEAD -- target_branch {target_branch!r} staat nu op "
+                        f"{actual_head}, en {expected_head} is GEEN voorouder meer daarvan "
+                        f"(divergente geschiedenis, bv. door een force-push elders). Taak NIET "
+                        f"uitvoeren zonder herbevestiging van de opdrachtgever."
+                    )
+                # ancestor is True: expected_head is een voorouder van (of gelijk aan) HEAD --
+                # dat is de normale, verwachte situatie (taak-eigen commits liggen er tussenin).
+
+    check_hold(task_dir, errors)
+
+    return task
+
+
+def check_hold(task_dir: Path, errors: list):
+    """Instructieprecedentie punt 2: een expliciete HOLD in STATUS.yaml blokkeert uitvoering
+    van de TASK.md-inhoud, ook als de taak verder geldig/geclaimd is. Staat boven Mark-
+    besluitenregister, PR-comments en chattekst -- maar de taak zelf mag wel gelezen/
+    gerapporteerd worden, alleen niet inhoudelijk uitgevoerd."""
+    status_path = task_dir / "STATUS.yaml"
+    if not status_path.exists():
+        return
+    status = yaml.safe_load(status_path.read_text(encoding="utf-8")) or {}
+    hold = status.get("hold") or {}
+    if hold.get("active"):
+        errors.append(
+            f"HOLD ACTIEF -- deze taak mag NIET inhoudelijk worden uitgevoerd. "
+            f"reden: {hold.get('reason')!r}, ingesteld door {hold.get('set_by')!r} op "
+            f"{hold.get('set_at')!r}. Wacht op een expliciete unhold (hold.active: false) "
+            f"vóórdat verder wordt gewerkt."
+        )
+
+
+def validate_post_hoc(task_dir: Path, stage: str, errors: list):
+    status_path = task_dir / "STATUS.yaml"
+    if not status_path.exists():
+        errors.append(f"STATUS.yaml ontbreekt in {task_dir}")
+        return
+    status = yaml.safe_load(status_path.read_text(encoding="utf-8")) or {}
+    state = status.get("state")
+
+    if state == "
+<<< END CHUNK >>>
+

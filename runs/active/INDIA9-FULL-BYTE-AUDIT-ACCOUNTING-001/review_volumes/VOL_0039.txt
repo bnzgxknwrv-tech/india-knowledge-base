@@ -1,0 +1,754 @@
+>>> CHUNK stream_row=580 path=runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/build_pdf.py blob_sha=764c0888188ad057104cd8c5d6c6a3fab10ffb47 original_offset=45056 original_length=4096 payload_bytes=4096 chunk_index=11 chunk_count=13 classification=text
+(c["betekenis"], styles["Body"]))
+    story.append(Paragraph("Wat ervaart Mark concreet?", styles["SubHead"]))
+    story.append(Paragraph(c["ervaart"], styles["Body"]))
+    story.append(Paragraph(c["onderscheidend"], styles["Bijzonder"]))
+    story.append(Paragraph("Goed te combineren met", styles["SubHead"]))
+    story.append(Paragraph(c["combineer"], styles["Body"]))
+    story.append(Paragraph("Praktische bezoekbaarheid", styles["SubHead"]))
+    story.append(Paragraph(c["tips"], styles["Body"]))
+    story.append(Paragraph("Reden om eventueel over te slaan", styles["SubHead"]))
+    story.append(Paragraph(c["overslaan"], styles["Body"]))
+    story.append(Paragraph("Belangrijke feitelijke onzekerheden", styles["SubHead"]))
+    story.append(Paragraph(c["onzekerheden"], styles["Onzeker"]))
+
+    story.append(Spacer(1, 0.12 * cm))
+    story.append(HRFlowable(width="100%", thickness=0.4, color=colors.HexColor("#cccccc")))
+    status_text = "A (vastgelegd, zie MARK_DECISIONS_2026-08-05.jsonl)" if c["mark_status"] == "A" else "DOOR_MARK_TE_BEOORDELEN"
+    story.append(Paragraph(
+        f"<b>Technisch:</b> candidate_id BGY-CAND-{c['nr']} | Mark-status: {status_text}",
+        styles["TechBlock"]))
+    story.append(Spacer(1, 0.45 * cm))
+
+
+def build_body(story):
+    current_cluster = None
+    for c in CANDIDATES:
+        if c["cluster"] != current_cluster:
+            current_cluster = c["cluster"]
+            story.append(Paragraph(CLUSTER_INTRO[current_cluster], styles["ClusterHead"]))
+        candidate_block(story, c)
+    story.append(PageBreak())
+    story.append(Paragraph("Slot", styles["SectionHead"]))
+    story.append(Paragraph(
+        "046-049 zijn een vastgelegd Mark-besluit (alle vier A) en worden niet opnieuw ter keuze "
+        "voorgelegd. De overige 16 kandidaten in dit document zijn permanent genummerd, volledig "
+        "onderzocht en wachten op Mark's A/B/C -- negen daarvan zijn expliciet als twijfelgeval "
+        "gemarkeerd (zie de rode kanttekening bij die kandidaten): een reeel maar betwistbaar "
+        "zwaartesignaal, bewust niet zelfstandig door CCI beslist. Andere, eerder onderzochte "
+        "locaties bleken bij nadere toetsing niet zelfstandig onderscheidend genoeg en zijn niet "
+        "in dit document opgenomen; hun nummers blijven permanent gereserveerd. Voor de volledige "
+        "technische onderbouwing: zie GOUD/MARK_SELECTION_REPORT.md in deze run. Geen route, geen "
+        "nachten, geen hotel/ashram en geen pacing zijn onderdeel van dit document.", styles["TechBlock"]))
+
+
+def build_cover(story):
+    story.append(Spacer(1, 4.5 * cm))
+    story.append(Paragraph("Bodh Gaya", styles["CoverTitle"]))
+    story.append(Paragraph("Keuze-reisgids", styles["CoverSub"]))
+    story.append(Paragraph("run_id: BODHGAYA-DISCOVERY-001 | protocol: governance/SWEEP_PROTOCOL.md", styles["CoverSub"]))
+    story.append(Spacer(1, 1 * cm))
+    story.append(Paragraph(
+        "Leeswijzer -- Dit is een reisgids, geen technisch validatierapport. Elke locatie "
+        "beschrijft wat het is, waarom de plek de moeite waard is, wat Mark er concreet ervaart, "
+        "hoe onderscheidend het is en hoe die te combineren is met andere plekken in de buurt. "
+        "De volledige technische onderbouwing staat NIET in dit document, maar in "
+        "GOUD/MARK_SELECTION_REPORT.md in dezelfde run. Elke locatie heeft hier wel een klein "
+        "technisch blok onderaan, uitsluitend ter referentie.", styles["Body"]))
+    story.append(Paragraph(
+        "Waar keuze-informatie ontbreekt staat expliciet \"NOG NIET ONDERZOCHT\" in plaats van een "
+        "verzonnen antwoord. Negen kandidaten zijn gemarkeerd als TWIJFELGEVAL: een reeel maar "
+        "betwistbaar zwaartesignaal (bijvoorbeeld een naamgenoemde belangrijke persoon, een "
+        "jaarlijks festival, of een historische primeur) dat niet zelfstandig door CCI is "
+        "afgewezen of goedgekeurd -- die keuze is uitdrukkelijk aan Mark.", styles["Body"]))
+    story.append(Paragraph(
+        "046-049 zijn een vastgelegd Mark-besluit (alle vier A, zie "
+        "MARK_D
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=581 path=runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/build_pdf.py blob_sha=764c0888188ad057104cd8c5d6c6a3fab10ffb47 original_offset=49152 original_length=3391 payload_bytes=3391 chunk_index=12 chunk_count=13 classification=text
+ECISIONS_2026-08-05.jsonl) en worden hier uitsluitend ter referentie getoond, niet "
+        "opnieuw ter keuze voorgelegd. De overige 16 kandidaten staan open voor Mark's A/B/C -- "
+        "dit document geeft geen voorspelde A/B/C-adviezen en bevat geen route, nachten, "
+        "hotel/ashram of pacing.", styles["Body"]))
+    story.append(PageBreak())
+
+
+def build_index(story, page_lookup):
+    story.append(Paragraph("Keuze-index", styles["SectionHead"]))
+    story.append(Paragraph(
+        f"Alle {len(CANDIDATES)} kandidaten in een oogopslag. Groen = bestaande Mark-keuze A, "
+        "grijs = door Mark te beoordelen, rood = twijfelgeval (door Mark te beoordelen, met een "
+        "reeel maar betwistbaar zwaartesignaal).", styles["Body"]))
+    head = lambda s: Paragraph(s, styles["CellHead"])
+    data = [[head("Nr."), head("Naam"), head("Cluster"), head("Status"), head("Keuzehulp in een zin"), head("Pag.")]]
+    for c in CANDIDATES:
+        if c["mark_status"] == "A":
+            status_style, status = styles["CellGreen"], "A"
+        elif c["twijfel"]:
+            status_style, status = styles["CellRed"], "twijfel"
+        else:
+            status_style, status = styles["CellOrange"], "open"
+        pag = str(page_lookup.get(c["nr"], "-"))
+        data.append([
+            Paragraph(c["nr"], styles["CellText"]),
+            Paragraph(c["naam"], styles["CellText"]),
+            Paragraph(c["cluster"], styles["CellText"]),
+            Paragraph(status, status_style),
+            Paragraph(KEUZEHULP[c["nr"]], styles["CellText"]),
+            Paragraph(pag, styles["CellText"]),
+        ])
+    t = Table(data, colWidths=[1.0 * cm, 4.3 * cm, 2.5 * cm, 2.0 * cm, 5.9 * cm, 1.1 * cm], repeatRows=1)
+    style_cmds = [
+        ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#7a3b12")),
+        ("GRID", (0, 0), (-1, -1), 0.5, colors.HexColor("#cccccc")),
+        ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
+        ("ROWBACKGROUNDS", (0, 1), (-1, -1), [colors.white, colors.HexColor("#f7f0e8")]),
+        ("TOPPADDING", (0, 0), (-1, -1), 3),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 3),
+    ]
+    t.setStyle(TableStyle(style_cmds))
+    story.append(t)
+    story.append(Spacer(1, 0.3 * cm))
+    story.append(Paragraph(
+        "Legenda: \"A\" = vastgelegd Mark-besluit (niet opnieuw ter keuze). \"open\" = "
+        "DOOR_MARK_TE_BEOORDELEN, permanent genummerd en volledig onderzocht. \"twijfel\" = "
+        "DOOR_MARK_TE_BEOORDELEN met een expliciete twijfelgeval-kanttekening.", styles["Body"]))
+    story.append(PageBreak())
+
+
+def make_doc(path, page_lookup):
+    story = []
+    build_cover(story)
+    build_index(story, page_lookup)
+    build_body(story)
+    doc = SimpleDocTemplate(
+        path, pagesize=A4,
+        leftMargin=2 * cm, rightMargin=2 * cm, topMargin=2 * cm, bottomMargin=2 * cm,
+        title="Bodh Gaya -- Keuze-reisgids", author="CCI / governance/SWEEP_PROTOCOL.md",
+    )
+    doc.build(story)
+
+
+if __name__ == "__main__":
+    import os
+    os.makedirs(os.path.dirname(TMP), exist_ok=True)
+
+    # Pass 1: placeholder index (zelfde rijaantal/opmaak) om echte paginanummers te bepalen.
+    page_map.clear()
+    make_doc(TMP, {})
+    pass1_map = dict(page_map)
+
+    # Pass 2: definitieve PDF met de juiste paginanummers in de index.
+    page_map.clear()
+    make_doc(OUT, pass1_map)
+
+    print("OK, written", OUT)
+    print("page map:", pass1_map)
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=582 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/GLOBAL_ACCOUNTING.md blob_sha=76c1570a9f61e5c409643b77e528395738ce7431 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# GLOBAL_ACCOUNTING — FULL-KNOWN-UNIVERSE COMPLETENESS CLOSURE
+
+```
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-20
+scope: Mark's asymmetric scope correction (2026-08-20) -- AOAY/Yogananda exhaustive,
+       Anandamayi Ma travel-core + lossless corpus reference (not exhaustive)
+```
+
+## Headline equation
+
+```
+TOTAL_MASTER_ROWS (700) = PHYSICAL_ENTITY_LINKED (268)
+                         + PHYSICAL_ENTITY_LINKED_TO_EXISTING_CANON (13)
+                         + EXPLICIT_DUPLICATE (128)
+                         + NEGATIVE/NONPRESENCE (80)
+                         + STILL_UNRESOLVED (211)
+268 + 13 + 128 + 80 + 211 = 700  -- closes exactly, no remainder.
+```
+
+`ALL_FINDINGS_ENTITY_INDEX.jsonl`: **575 unique physical_entity_key rows** (700 master rows
+minus rows that share a key because multiple detectors/layers back-link the same physical
+site -- BLAUW/atlas/external-114 overlap and the two new Anandamayi photo-closure rows both
+being deliberately not counted as new entities).
+
+## By source family (700 rows)
+
+| source_family | rows | what it is |
+|---|---|---|
+| ROOD_CORE_KRIYA | 178 | Babaji/Lahiri/Sri Yukteswar primary source records, **now label-propagated** |
+| GEEL_FOURPERSON | 126 | NKB/Ram Dass/Ramana/Ramakrishna base rows (unchanged from P0 build) |
+| AOAY_PLACE_ATLAS_RECONCILIATION | 123 | full 123-place internal AOAY atlas vs BLAUW |
+| AOAY_EXTERNAL_114_RECONCILIATION | 114 | full 114-record external 5-AI Yogananda union vs BLAUW+atlas |
+| BLAUW_AOAY_YOGANANDA | 58 | original BLAUW AOAY/Yogananda closure (P0 build, unchanged) |
+| ROOD_CORE_KRIYA_SPLIT | 58 | Core-Kriya sublocation splits, **now label-propagated** |
+| WIT_ANANDAMAYI_HERITAGE | 39 | WIT's promoted Anandamayi entities (P0 build, unchanged -- travel-core) |
+| WIT_ANANDAMAYI_PHOTO_LOCATION_CLOSURE | 2 | NEW: Bhowanipur + Serampore-station photo-event rows |
+| GEEL_NKB_RAMDASS_TURQUOISE_CLOSURE | 2 | NEW: TQ-ENT-018/019 (Jonapur ashram, unnamed Delhi estate) |
+
+## AOAY/Yogananda -- EXHAUSTIVE (per Mark's correction)
+
+Three independently-built AOAY corpora are now fully reconciled against each other with no
+physical entity counted twice:
+
+1. **BLAUW's 58 closure rows** (base P0 build) -- the anchor layer.
+2. **123-place internal PLACE_ATLAS** -- 37 EXPLICIT_DUPLICATE of BLAUW, 36 NEGATIVE/NONPRESENCE
+   (non-India mentions, kept visible not dropped), 14 new PHYSICAL_ENTITY_LINKED, 36 new
+   STILL_UNRESOLVED. = 123.
+3. **114-record external 5-AI union** (frozen PR #24 file, blob `089b652e...`, byte-verified
+   unchanged) -- 81 EXPLICIT_DUPLICATE of BLAUW, 10 EXPLICIT_DUPLICATE of the atlas reconciliation,
+   9 NEGATIVE/NONPRESENCE from the union's own explicit A8 "foutieve associatie" section (forced
+   negative regardless of incidental keyword overlap with a real site -- see bugfix note below),
+   2 more NEGATIVE/NONPRESENCE caught elsewhere (#65 Sabarmati, #96 Gouden Tempel -- both already-
+   flagged false associations), 6 new PHYSICAL_ENTITY_LINKED, 6 new STILL_UNRESOLVED. = 114.
+
+**Bugfix applied during this pass**: the external-114 reconciler initially let coincidental
+keyword overlap mark explicit "this did NOT happen" claims (Ranikhet, Ghurni, Taxila, Belur Math,
+the Dehradun-Anandamayi non-visit, the cancelled first Kashmir trip) as `EXPLICIT_DUPLICATE` of an
+unrelated real site. Fixed by forcing section-A8 rows to `NEGATIVE/NONPRESENCE` unconditionally
+before any keyword match runs. Caught and fixed before merge, not after.
+
+**AOAY total physical-place claims accounted**: 58 (BLAUW) + 123 (atlas) + 114 (external-114) =
+295 source claims, all with an explicit disposition, closing into far fewer unique physical
+entities once duplicates are collapsed (see entity index).
+
+## ROOD Core-Kriya -- label propagation (P0-C)
+
+All **146 primary anchors** (178 source records + 58 splits = 236 rows total) now carry a real,
+human-readable place name, recovered by joining each closure ID back to its authoritative freeze
+file:
+
+- **LM-\*** (Lahiri Mahasaya, 46 records) and **SY-\*** (Sri Yukteswar, 56 records incl. `N-*`
+  negatives) and their `NEG-LM-*` negative
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=583 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/GLOBAL_ACCOUNTING.md blob_sha=76c1570a9f61e5c409643b77e528395738ce7431 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+s: the freeze-file headings **already embed the ID**
+  (`### LM-004 — Tijdelijke gezinsverblijven in Benares vóór 1839`) -- direct, unambiguous join.
+- **IR-\*** (Babaji positives, 50 records) and **NEG-BABAJI-\*** (12 records): the freeze file
+  numbers headings but does not embed the `IR-`/`NEG-BABAJI-` ID in the heading text itself.
+  Verified empirically that document order matches ID order exactly (`IR-1` = heading "1.", `IR-25`
+  = heading "25. Puja-kamer van V.T. Neelakantan, 9 Surammal Lane, Egmore", etc. -- spot-checked
+  against the live file, not assumed) before using positional join.
+- **ext-B\*** (14 delta-matrix temporary records): already carried a `q` claim-label field in
+  `INDIAROOD_DELTA_MATRIX.jsonl`; used directly, no join needed.
+
+**R-class/access/disposition were never touched** -- only `raw_place_name`/`normalized_claim_name`
+were filled in and the placeholder "label not yet propagated" note replaced with the real
+provenance note. 0/236 unmatched.
+
+## Anandamayi Ma -- travel-core + lossless corpus reference (CORRECTED SCOPE)
+
+Mark's 2026-08-20 scope correction: do **not** exhaustively expand and individually
+travel-resolve all 292 known Anandamayi claims (156 external-union L-records + 108 source-first +
+28 CCI084 verification entries). Instead:
+
+- The **39 WIT-promoted entities** already in the P0-build master stay exactly as they were --
+  these already include several of the strongest, most travel-relevant sites (Bhadaini Ashram
+  Varanasi R1, Kankhal Ashram Haridwar R1, Vrindavan Ashram R1, Ranchi Ashram R1, Ratu Palace R1,
+  Ramanasramam cross-person R1, Karar Ashram cross-person R5).
+- **2 new rows** added directly from the bounded photo-location-closure subtask (below): the
+  Bhowanipur first-meeting site and the Serampore-station sighting, both cross-linked to their
+  already-resolved Yogananda-side BLAUW entities rather than counted as new physical entities.
+- The **full 236-row expansion** (133 new L-record rows + 83 new source-first rows + 20 new
+  CCI084 rows -- the remaining part of the 292-claim corpus not already represented by the 39
+  WIT entities, 56 of which were confirmed already-covered by name/keyword match against the 39)
+  is preserved losslessly, **each row already carrying its own computed disposition**
+  (115 PHYSICAL_ENTITY_LINKED, 120 STILL_UNRESOLVED, 1 NEGATIVE/NONPRESENCE), in
+  `ANANDAMAYI_FULL_CORPUS_REFERENCE.jsonl`. This file is committed alongside the master but its
+  236 rows are **not** promoted into `ALL_FINDINGS_LOCATION_MASTER.jsonl` -- per Mark's explicit
+  instruction not to spend heavy research effort resolving every minor Anandamayi house/address.
+  Nothing is silently dropped: every one of the 292 claims has a documented, auditable
+  disposition, just not all of them at "travel master row" status.
+- **Trigger to promote further**: if a future cluster decision brings Kolkata/East or a
+  Vrindavan/Braj-adjacent route into scope, or a cross-person overlap with another Top-11 person
+  surfaces inside this reference file, the relevant rows can be promoted from
+  `ANANDAMAYI_FULL_CORPUS_REFERENCE.jsonl` into the master without redoing any research.
+
+## TURQUOISE relation-join closure (P0-D)
+
+| relation | resolution |
+|---|---|
+| **TQ-ENT-014** Serampore railway station | RESOLVED -- linked to `BLAUW-AYC-SRC-018` (already R1/EXACT in the base master); also now backed by the new Anandamayi photo-closure row (event 3). Respects TURQUOISE's own guard `DO_NOT_MERGE_WITH_SERAMPORE_ASHRAM`. |
+| **TQ-ENT-015** Bhowanipur disciple-house encounter zone | RESOLVED at neighbourhood level -- linked to `BLAUW-AYC-SRC-017` (R5, unchanged). Exact house/host address remains irreducibly unresolved: primary candidate source (Gurupriya Devi's diary) is a scanned image-PDF with no text layer (`BRON_GEBLOKKEERD`, OCR needed -- not a dead end, a concrete next step); the Sangha photo-archive image itself 404s. R5 is correct, not a gap. |
+| **TQ-ENT-018** Delhi/Jonapur NKB Ashram | RESOLVED -- instantiated as a new master row from GEEL's own `RECONCILIATION_MATRIX.jsonl` row 18
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=584 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/GLOBAL_ACCOUNTING.md blob_sha=76c1570a9f61e5c409643b77e528395738ce7431 original_offset=8192 original_length=857 payload_bytes=857 chunk_index=2 chunk_count=3 classification=text
+ (was missing from the P0 build's row-level output despite existing in GEEL's reconciliation). R4/STILL_UNRESOLVED, matching GEEL's own PLAUSIBLE (not CONFIRMED) verdict. |
+| **TQ-ENT-019** Unnamed estate near Delhi | RESOLVED -- instantiated as a new master row from GEEL's `RECONCILIATION_MATRIX.jsonl` row 21. Kept as its own unnamed entity per TURQUOISE's explicit guard not to merge with Jonapur just because both are Delhi-region. |
+
+All 4 previously-unjoined TURQUOISE relations are now closed with real master rows or an
+explicit, source-cited irreducible reason -- none silently dropped.
+
+## Canon integrity
+
+No row in this build touches `PROTECTED_CANON_BASELINE.csv` or any existing 001-081/A-B-C/lock
+ID. `PHYSICAL_ENTITY_LINKED_TO_EXISTING_CANON` (13 rows, unchanged from the P0 build) remain
+read-only references to canon IDs, never rewrites.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=585 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/FEED_INDIAGEEL_FOURPERSON_COMPLETE.md blob_sha=76e24781683a19bbe7f66a4358bb51bb29610156 original_offset=0 original_length=2108 payload_bytes=2108 chunk_index=0 chunk_count=1 classification=text
+# FEED — INDIA GEEL FOUR-PERSON LOCATION CLOSURE
+
+Date: 2026-08-20
+Source branch: `agent/indiageel-ramana-ramakrishna-sweep`
+Task: `INDIAGEEL-FOURPERSON-LOCATION-CLOSURE-001`
+State: COMPLETE
+
+## OUTPUT COMMITS
+- FOURPERSON_SOURCE_RECORDS.jsonl — `9cbf630f55858afabf53839dd6d3c9269baee695`
+- FOURPERSON_ENTITY_CANDIDATES.jsonl — `30486eaf3478057246727a56fd5fb8a5b22a1189`
+- FOURPERSON_R4_R5_CLOSURE.md — `314094dc49a539fc71fc4117e2d27cd51a54c554`
+- FOURPERSON_ACCESS_MATRIX.md — `da7184ab727b3100a5c43dbd068e32fb45c696a7`
+- STATUS COMPLETE — `9c0b1a0d7ec5b8990287cb79c53f17db52f93f09`
+
+## PRESERVATION
+SILENT_DROPS=0; EXISTING_IDS_CHANGED=NEE; A_B_C_CHANGED=NEE.
+
+## IMPORTANT MICRO-SITE EXPANSION
+- Hotel Evelyn -> hotel / cave-room / patio kept separately.
+- Kainchi + Bhumiadhar -> rooms / river / bridge / field kept separately.
+- NKB final journey -> separate Agra houses, clinic, stations, Mathura station/microplace, Vrindavan hospital.
+- Ramana -> Virupaksha and Mango Tree Cave separate; Ramanasramam microsites separated.
+- Ramakrishna -> Fouzdar Kunj building/room/veranda; Ganga Mata hut vs later dharamshala; Mani Sen house vs Radhakanta temple; Cossipore house/room/cremation ghat.
+
+## STILL R4/R5 — NEVER DROP
+Exact Hotel Evelyn cave-room, K.K. Sah address, Ram Dass Varanasi hotel, Surat cave, some Delhi/Dharamsala sites, NKB Agra hosts/clinic, various historic Kolkata houses.
+
+## INPUT PROVENANCE NOTE
+Task named two reconciliation paths + governance file that were absent on GEEL branch. GEEL used same-branch reconciliation for NKB/Ram Dass and own freezes + available CCI detector layer for Ramana/Ramakrishna. This provenance limitation is recorded and does not justify redoing completed physical-resolution work unless later central cross-branch reconciliation finds a concrete omitted source record.
+
+## CENTRAL ACTION
+Ingest all GEEL entities into ALL_FINDINGS_LOCATION_MASTER. Apply TURQUOISE parent-child/successor rules. Feed newly resolved R1-R3 entities and child microsites to ZILVER proximity/new-ID staging immediately. Preserve R4/R5 in unresolved accounting.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=586 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/MARK_KUMAON_DECISIONS_PASS_2026-08-20.md blob_sha=76f3cca93682fe9656c6f6ac1f0f484a20d08f0e original_offset=0 original_length=1221 payload_bytes=1221 chunk_index=0 chunk_count=1 classification=text
+# MARK KUMAON DECISIONS — PASS 2026-08-20
+
+Status: ACTIVE
+
+## Decisions
+- Kainchi Dham — A
+- Bhumiadhar — A
+- Hotel Evelyn — A; overnight-stay question MUST be resolved before final itinerary; historic Ram Dass cave-room/top-floor room/patio details must appear in final A-site report.
+- Hanumangarh / Hanuman Garhi — A; temple + Maharajji kuti treated as ONE parent visit, microdetails retained beneath it.
+- Patal Devi Anandamayi Ashram — provisional C/reserve.
+- Kankhal Anandamayi Ma Samadhi complex — A. Reason: physical samadhi/final resting place + active veneration; qualifies as one of Mark's limited Anandamayi core sites.
+
+## Hard final-report rule reaffirmed
+For every A parent location, the final trip report must already expose all high-value known microdetails before travel: rooms, caves, kuti, shrines, samadhi, cremation spots, terraces, photo positions, ghats, platforms, etc.; what happened there; who was present; current access; and confidence. Mark must not discover major known details only after arriving.
+
+## Presentation rule reaffirmed
+One physical compound/terrain = one decision number. Microdetails remain attached below the parent and do not create separate A/B/C decisions.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=587 path=india5/ACTIVE_STATE.md blob_sha=770a728bb8ebbf15b9b9aa31408d17e31edd33fc original_offset=0 original_length=775 payload_bytes=775 chunk_index=0 chunk_count=1 classification=text
+# ACTIVE_STATE — VERPLAATST naar `governance/ACTIVE_STATE.md`
+
+> **Dit bestand is gedeprecieerd.** De centrale, versie-onafhankelijke overdrachtswaarheid staat
+> voortaan uitsluitend in `governance/ACTIVE_STATE.md`. Dit bestand blijft staan als historisch
+> spoor (het was actief tussen 2026-08-08 en de governance-canonverplaatsing dezelfde dag, PR #23
+> bericht 034), maar wordt niet meer bijgewerkt. Lees `governance/ACTIVE_STATE.md`.
+
+Reden voor verplaatsing: `india4/` en `india5/` zijn sessienaam-/versiegebonden mappen
+(regisseursessies INDIA4/INDIA5 zijn zelf vervangbaar, geen canonieke systeemversies). De centrale
+overdrachtswaarheid hoort in een versie-onafhankelijke locatie te staan — vandaar `governance/`.
+
+---
+Geschreven door: CCI (PR #23, bericht 034).
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=588 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/BRONS/BRONS-B02.jsonl blob_sha=778644c5c76e9cee6853dcf185d01b61c20bf3c9 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+{"candidate_id":"VNS-CAND-011","canonical_name":"Panchganga Ghat","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.3185,"longitude":83.0128,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Pancha Ganga Ghat","address":"Panchganga Ghat, Varanasi, Uttar Pradesh 221001, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://www.google.com/maps/search/Visit%20the%20Ghats%20of%20Varanasi%2C%20Varanasi%2C%20India","supports":"Public Google Maps listing identifies Pancha Ganga Ghat as the intended historic ritual ghat"}],"reason":"The intended Panchganga Ghat listing was identified, but an exact marker coordinate could not be extracted from a verifiable Google Maps place URL. The old comparison coordinate was not reused.","checked_at":"2026-07-27"}
+{"candidate_id":"VNS-CAND-012","canonical_name":"Harishchandra Ghat","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.2994,"longitude":83.009,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Harishchandra Ghat","address":"Harishchandra Ghat, Varanasi, Uttar Pradesh 221001, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://www.google.com/maps/search/Harishchandra%20Ghat%2C%20Varanasi%2C%20India","supports":"Public Google Maps search targets the intended cremation ghat"}],"reason":"The intended Harishchandra cremation ghat was identified, but an exact marker coordinate could not be extracted from a verifiable Google Maps place URL. The old comparison coordinate was not reused.","checked_at":"2026-07-27"}
+{"candidate_id":"VNS-CAND-013","canonical_name":"Kaal Bhairav Temple","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.3223,"longitude":83.009,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Shri Kaal Bhairav Temple, Varanasi","address":"K32/26, Golghar, Bhaironath, Ghasi Tola, Varanasi, Uttar Pradesh 221001, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://wanderlog.com/place/details/1718336/kaal-bhairav-temple","supports":"Google-derived listing confirms the Varanasi guardian temple, address, category and identity"}],"reason":"The intended Kaal Bhairav Temple in Varanasi was distinguished from same-name temples in Ujjain and confirmed by address and guardian-of-Kashi context, but an exact Google Maps marker coordinate could not be extracted and verified. The old comparison coordinate was not reused.","checked_at":"2026-07-27"}
+{"candidate_id":"VNS-CAND-014","canonical_name":"Maa Annapurna Temple","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.3107,"longitude":83.0103,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Maa Annapurna Temple, Kashi","address":"Bansphatak and Annapurna temple area beside the Kashi Vishwanath complex, Varanasi, Uttar Pradesh 221001, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://timesofindia.indiatimes.com/city/varanasi/rush-for-khazana-as-annapurna-devi-temple-opens-on-dhanteras/articleshow/124677849.cms","supports":"Confirms the active Annapurna Devi temple, its annual golden-idol darshan and Bansphatak/Kotwalpura access context"},{"url":"https://www.google.com/maps/s
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=589 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/BRONS/BRONS-B02.jsonl blob_sha=778644c5c76e9cee6853dcf185d01b61c20bf3c9 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+earch/Kashi%2BVishwanath%2BTemple%2BComplex%2C%2BVaranasi%2C%2BIndia","supports":"Public Google Maps context confirms the adjoining Kashi Vishwanath complex and Bansphatak area"}],"reason":"The intended Maa Annapurna Temple beside the Kashi Vishwanath complex was physically identified, but an exact standalone Google Maps marker coordinate could not be extracted and verified. The old comparison coordinate was not reused.","checked_at":"2026-07-27"}
+{"candidate_id":"VNS-CAND-015","canonical_name":"Sankat Mochan Hanuman Temple","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.282,"longitude":82.9992,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Shri Sankat Mochan Hanuman Temple, Varanasi","address":"Durgakund, Jawahar Nagar Colony, Bhelupur, Varanasi, Uttar Pradesh 221005, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://www.google.com/maps/search/Visit%20Sankat%20Mochan%20Hanuman%20Temple%2C%20Varanasi%2C%20India","supports":"Public Google Maps listing identifies the intended Varanasi Hanuman temple and distinguishes it from the Sarnath namesake"},{"url":"https://wanderlog.com/place/details/6018526/sankat-mochan-hanuman-temple-varanasi","supports":"Google-derived listing confirms temple identity, category and Durgakund/Bhelupur address"}],"reason":"The intended Sankat Mochan Hanuman Temple was clearly identified and distinguished from same-name locations, but an exact Google Maps marker coordinate could not be extracted and independently verified. The old comparison coordinate was not reused.","checked_at":"2026-07-27"}
+{"candidate_id":"VNS-CAND-016","canonical_name":"Durga Temple and Durga Kund","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.288,"longitude":82.9998,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Shree Durga Mata/Kushmanda Mandir and Durga Kund","address":"C14/160-36-A, Durgakund, Naipokhari, Varanasi, Uttar Pradesh 221005, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://www.google.com/maps/search/Visit%20Durga%20Temple%20%28Durga%20Kund%29%2C%20Varanasi%2C%20India","supports":"Public Google Maps results identify both the Durgakund temple and adjacent Durga Kund pond, while distinguishing Ramnagar's Durga Temple"},{"url":"https://wanderlog.com/place/details/1718337/durga-temple","supports":"Google-derived listing confirms the Durgakund temple identity and C14/160-36-A address"}],"reason":"The intended temple-and-kund complex was physically confirmed and distinguished from the Ramnagar namesake, but no single exact Google Maps marker coordinate representing the combined candidate could be extracted and verified. The old comparison coordinate was not reused.","checked_at":"2026-07-27"}
+{"candidate_id":"VNS-CAND-017","canonical_name":"Vishalakshi Gauri Temple","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.3102,"longitude":83.0119,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Vishalakshi Gauri Temple / Vishalakshi Shaktipeeth, Varanasi","address":"Mir Ghat and Kashi Vishwanath old-city area, Varanasi, Uttar Pradesh 221001, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://timesofindia.indiatimes.com/city/varanasi/rush-at-vindhyachal-kashi-temples-for-navratri-puja/articleshow/129687144.cms","supports":"Confirms Goddess Vishalakshi as an active Varanasi Shaktipeeth in the Kashi tem
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=590 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/BRONS/BRONS-B02.jsonl blob_sha=778644c5c76e9cee6853dcf185d01b61c20bf3c9 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+ple circuit"},{"url":"https://www.google.com/maps/search/Kashi%2BVishwanath%2BTemple%2BComplex%2C%2BVaranasi%2C%2BIndia","supports":"Public Google Maps context confirms the adjoining old-city temple area"}],"reason":"The intended Vishalakshi Gauri Shakti temple in the old city was identified, but searches did not expose a sufficiently specific and verifiable standalone Google Maps marker coordinate. The old comparison coordinate was not reused.","checked_at":"2026-07-27"}
+{"candidate_id":"VNS-CAND-018","canonical_name":"Sankatha Devi Temple","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_CONFIRMED","geo_status":"EXACT_GOOGLE_MAPS_MARKER","final_latitude":25.3126289,"final_longitude":83.0154469,"old_comparison":{"latitude":25.3156,"longitude":83.014,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Sankahtha Mata Mandir / Sankata Devi Mandir","address":"CK 7/159, Sankataji, near Sankata Ghat and north of Scindia Ghat, Chowk, Varanasi, Uttar Pradesh 221001, India","physical_identity":"CONFIRMED","marker_identity":"EXACT_GOOGLE_MAPS_PLACE_MATCH"},"evidence":[{"url":"https://www.google.com/maps/place/Sankahtha+Mata+Mandir/@25.3126429,83.0131855,17z/data=!3m1!4b1!4m5!3m4!1s0x398e2e1f5d1cf71d:0x31d7ec71ce56bd98!8m2!3d25.3126289!4d83.0154469","supports":"Exact public Google Maps place URL for Sankahtha Mata Mandir with embedded marker coordinates 25.3126289,83.0154469"},{"url":"https://varanasitemples.in/category/devi-temples/sankata-devi/","supports":"Confirms the CK 7/159 Sankataji address and provides the same Google Maps place URL"},{"url":"https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/sankatha-devi-temple","supports":"Government tourism source confirms temple identity, protective-goddess function, old-city Chowk setting and construction with Sankatha Ghat"},{"url":"https://visitvaranasi.in/visit-temples/sankata-devi-temple/","supports":"Confirms the temple at Sankata Ghat, Sankata Gali, Chowk, on the Ganga river"}],"reason":"The candidate is the Sankata Devi/Sankahtha Mata temple at Sankata Ghat in the Scindia Ghat old-city cluster. A public Google Maps place URL embedded by a dedicated Varanasi temple reference provides an exact marker at 25.3126289,83.0154469, and the address and landmark context agree with independent tourism sources. The old comparison coordinate was not reused.","checked_at":"2026-07-27"}
+{"candidate_id":"VNS-CAND-019","canonical_name":"Kedareshwar Temple and Kedar Ghat","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_CONFIRMED","geo_status":"EXACT_GOOGLE_MAPS_MARKER","final_latitude":25.2995855,"final_longitude":83.0060964,"old_comparison":{"latitude":25.2967,"longitude":83.0088,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Shree Gauri Kedareshwar Jyotirlinga Mahadev Temple and Kedar Ghat","address":"B-6/102, Kedar Ghat, Sonarpura, Varanasi, Uttar Pradesh 221001, India","physical_identity":"CONFIRMED","marker_identity":"EXACT_GOOGLE_MAPS_PLACE_MATCH"},"evidence":[{"url":"https://goo.gl/maps/d7EvSQGxveK5wSbo6","supports":"Public Google Maps short link identified for the Gauri Kedareshwar Jyotirlinga Mahadev Temple marker at 25.2995855,83.0060964"},{"url":"https://sannidhi.net/sannidhi/gauri-kedareshwar-jyotirlinga-mahadev-temple-kedar-ghat-varanasi-uttar-pradesh/","supports":"Provides the Google Maps link, marker coordinates, temple identity, Kedar Ghat setting and access from both the ghat and main road"},{"url":"https://varanasitemples.in/category/shiva-temples/page/15/","supports":"Confirms Kedareshwar temple at B-6/102, Kedar Ghat, reachable from Sonarpura or directly from Kedar Ghat"},{"url":"https://www.srisharadapeetham.org/branches/uttar-pradesh/varanasi/kedar-ghat","supports":"Official religious institution confirms Sri Kedareshwar Temple at Kedar Ghat on the Ganga and the nearby B-14/111 Sringeri Math landmark"},{"url":"https://varanasismartcity.gov.in/about/ghats","supports":"Official Varanasi Smart City ghat inve
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=591 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/BRONS/BRONS-B02.jsonl blob_sha=778644c5c76e9cee6853dcf185d01b61c20bf3c9 original_offset=12288 original_length=2611 payload_bytes=2611 chunk_index=3 chunk_count=4 classification=text
+ntory confirms Kedar Ghat as a distinct named ghat"}],"reason":"The combined candidate is the Gauri Kedareshwar Shiva temple at B-6/102 and its directly adjoining Kedar Ghat in Sonarpura/Bangali Tola. A public Google Maps short link tied specifically to this temple is accompanied by marker coordinates 25.2995855,83.0060964, while independent temple and official institutional sources confirm the same address, ghat and nearby landmarks. The old comparison coordinate was not reused.","checked_at":"2026-07-28"}
+{"candidate_id":"VNS-CAND-020","canonical_name":"Lalita Ghat","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.3114,"longitude":83.0131,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Lalita Ghat, Varanasi","address":"Banaras Ghat Road, Ghats of Varanasi, Bangali Tola/Lahori Tola, Varanasi, Uttar Pradesh 221001, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://wanderlog.com/place/details/6052553/lalita-ghat","supports":"Google-derived listing confirms the Lalita Ghat place identity, Banaras Ghat Road address, Nepali Mandir context, and location between Manikarnika and Dashashwamedh Ghats"},{"url":"https://varanasismartcity.gov.in/about/ghats","supports":"Official Varanasi Smart City inventory confirms Lalita Ghat as a distinct named ghat between Nepali Ghat and Jalasayi Ghat"},{"url":"https://timesofindia.indiatimes.com/city/varanasi/ganga-aarti-ritual-begins-at-lalita-ghat-on-navratri-day-1/articleshow/129687158.cms","supports":"Confirms the active Ganga Aarti at Lalita Ghat in Kashi Vishwanath Dham and its direct ritual relationship to the Vishwanath complex"},{"url":"https://en.wikiversity.org/wiki/The_Varanasi_Heritage_Dossier/Lalita_Ghat_and_Temples","supports":"Confirms the historic Lalita Ghat identity, associated Lalita Devi temple and Nepali Ghat integration"}],"reason":"The intended Lalita Ghat was conclusively identified as the historic ritual ghat adjoining the Nepali Mandir, near Manikarnika Ghat and connected to Kashi Vishwanath Dham. Public Google-derived listings and official/heritage sources agree on the physical place and nearby landmarks, but no exact public Google Maps place URL exposing a uniquely verifiable marker coordinate for Lalita Ghat itself could be extracted. Non-Google coordinates and the old comparison coordinate were not reused.","checked_at":"2026-07-28"}
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=592 path=runs/active/INDIA8-CLUSTER-CASTING-001/KUMAON_THREE_BASE_EXECUTION_MATRIX_2026-08-23.md blob_sha=780c3cd12df353ce91bc21a04400a3604a61ea2e original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# KUMAON — THREE-BASE EXECUTION MATRIX
+
+Date: 2026-08-23
+Status: EXECUTED / CANON-RECONCILED TRAVEL PREP
+Purpose: combine existing Mark A-canon, known sleep bases, and 2026-08-22 Lonely Planet layer WITHOUT reopening existing A/B/C.
+
+## HARD INTERPRETATION
+
+This is NOT a new A/B/C list.
+
+- Existing Mark decisions stay protected.
+- Jageshwar is already A. Do not present it to Mark as a new LP candidate.
+- Binsar is already C. The LP sweep calling it a `STRONG_ADDON` does NOT silently reopen it.
+- Hotel/base and site status are separate. Hotel Evelyn is both a sleep base/anchor and, by later Mark decision, an A historical site.
+- Turiya Niwas is both a destination A and a provisional sleep-base lock pending exact dates/reservation.
+
+## THREE CORE KUMAON SLEEP BASES
+
+### BASE 1 — Joshi Guest House, Kukuchina — LOCKED
+Function: Babaji / Dwarahat / Dunagiri spine.
+
+Existing A visit units assigned here:
+- Mahavatar Babaji's Cave / Dunagiri landscape — A / LOCKED_BY_MARK.
+- Babaji Smriti Bhavan — legacy A; retain as visit detail/stop on this spine.
+- Dunagiri Temple — legacy A.
+- YSS Dwarahat Ashram — legacy A.
+
+Lonely-Planet layer that fits this base without reopening ABC:
+- Dwarahat historic temple groups — `STRONG_ADDON`; near-zero route cost on the Dwarahat/Kukuchina spine. This is genuinely useful and can ride with an existing A-day.
+- Kumaon Regimental Centre Museum, Ranikhet — `MICRO_GEM`; only if transfer naturally crosses Ranikhet and opening/ID rules work. Do not create a dedicated detour day.
+
+Operational grouping:
+- DAY K1A: Babaji Cave + Dunagiri / associated Babaji terrain.
+- DAY K1B: Dwarahat A-sites + Dwarahat historic temple groups; Smriti Bhavan/YSS folded into same geographic day where practical.
+- Ranikhet museum only as transfer-day microstop, not night-driver.
+
+Night implication:
+- Minimum practical shape: 2 nights if arrivals/departures are clean and no rest buffer.
+- Better pilgrimage shape: 3 nights because Babaji Cave is a primary journey reason and Mark explicitly values breathing room.
+- This matrix does NOT convert that into a final night lock; it establishes that 3 nights is operationally justified, not padding.
+
+### BASE 2 — Hotel Evelyn, Nainital — CLUSTER_ANCHOR + later A
+Function: Nainital / Kainchi / Bhumiyadhar / Hanuman Garhi / Ram Dass history.
+
+Existing A visit units assigned here:
+- Hotel Evelyn itself — A by 2026-08-20 Mark decision; historical Ram Dass cave-room/top-floor room/patio details must be surfaced in final visit guide.
+- Kainchi Dham — A.
+- Bhumiyadhar / Bhumiadhar — A; first Ram Dass–Maharajji meeting terrain.
+- Hanumangarh / Hanuman Garhi — A parent visit; temple + Maharajji kuti bundled.
+
+Existing/transit A best handled on transfer toward Almora rather than as a separate Nainital day:
+- Kakrighat — A; geographically between Nainital and Almora, explicitly not its own sleep base.
+
+Lonely-Planet layer that fits this base:
+- Naina Peak / Cheena Peak trek — `STRONG_ADDON`; essentially zero road detour from Nainital. High scenery/time ratio. Best as morning half-day if winter trail/access is locally confirmed.
+- Sakley's Restaurant & Pastry Shop (1944) — `MICRO_GEM`; zero-detour Nainital quality stop.
+- Sattal seven-lake forest landscape — `STRONG_ADDON`; useful only if a nature half-day is desired; do not steal time from A pilgrimage core automatically.
+- Pangot–Kilbury birding forest — `STRONG_ADDON`; nature-positive optional half-day, not route-driver.
+- Butterfly Research Centre, Bhimtal — `MICRO_GEM`; pair only with Bhimtal/Sattal if that outing is taken.
+- Jim Corbett National Park — `CLUSTER_MAGNET` objectively, but it is NOT a free Nainital add-on: roughly 130–140 km round-trip from Nainital and often better with its own overnight. Preserve as a major optional route-module, do not silently insert into the three-base schedule.
+- Nandhaur Wildlife Sanctuary — `STRONG_ADDON` but similarly not a free core fit; preserve only for wildlife-positive route design.
+
+Operational grouping:
+- DAY K2A: Kainchi Dham + Bhumiyadhar, wit
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=593 path=runs/active/INDIA8-CLUSTER-CASTING-001/KUMAON_THREE_BASE_EXECUTION_MATRIX_2026-08-23.md blob_sha=780c3cd12df353ce91bc21a04400a3604a61ea2e original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+h Hotel Evelyn historical context before/after.
+- DAY K2B: Hanuman Garhi + Nainital core + Sakley's; Naina Peak can occupy the morning if chosen.
+- TRANSFER K2→K3: Kakrighat A naturally on the way to Almora/Kasar Devi.
+- Sattal/Bhimtal/Butterfly or Pangot/Kilbury are alternative nature half-days, not automatic extras.
+
+Night implication:
+- 2 nights is the minimum coherent core.
+- 3 nights becomes justified if Naina Peak OR a lake/forest half-day is included with breathing room.
+- Corbett should not be used to justify extra Nainital nights; it is a separate route-module if ever chosen.
+
+### BASE 3 — Turiya Niwas, Crank's Ridge / Kasar Devi — PROVISIONAL SLEEP LOCK + A DESTINATION
+Function: Kasar Devi / Crank's Ridge / Almora / Jageshwar side.
+
+Existing A visit units assigned here:
+- Turiya Niwas — A destination + provisional sleep lock.
+- Kasar Devi — A.
+- Crank's Ridge — A terrain.
+- Bodh Ashram — A.
+- Ramakrishna Kutir — A.
+- Chitai Golu Devta Temple — A.
+- Jageshwar — A. IMPORTANT: already A before the Lonely-Planet sweep.
+
+Contiguous/near-contiguous A microcluster:
+- Kasar Devi + Crank's Ridge + Turiya Niwas + Bodh Ashram are a single walkable/near-walkable high-value terrain. Do not fragment into four separate transfer calculations.
+
+Lonely-Planet layer that fits this base:
+- Jageshwar archaeological ensemble — LP `CLUSTER_MAGNET`, but already A. Use the LP finding only to strengthen the non-spiritual/archaeology context of the existing A; no new decision.
+- Lakhudiyar prehistoric painted rock shelter — `MICRO_GEM`; effectively free/near-free when driving Almora↔Jageshwar. Strong candidate for a ride-along stop on the Jageshwar A-day.
+- Katarmal Sun Temple — `STRONG_ADDON`; about 17 km from Almora, reasonable half-day/transfer add-on but not automatic.
+- Kheem Singh Mohan Singh Rautela + Bal Mithai — `MICRO_GEM`; central Almora, trivial time cost, suitable on an Almora day.
+- Binsar Wildlife Sanctuary + Zero Point — LP `STRONG_ADDON` but existing Mark C. Keep C; do NOT re-present or silently schedule.
+
+Operational grouping:
+- DAY K3A: Kasar Devi / Crank's Ridge / Turiya Niwas / Bodh Ashram terrain — low transport, high historical/spiritual density.
+- DAY K3B: Almora A-layer: Ramakrishna Kutir + Chitai Golu; add Bal Mithai microstop if naturally passing.
+- DAY K3C: Jageshwar A excursion + Lakhudiyar micro-gem on the same road.
+- Katarmal can be attached only if time/energy make sense; it does not displace A content.
+- Binsar remains C and excluded from automatic scheduling.
+
+Night implication:
+- 3 nights is the minimum comfortable shape if the Jageshwar day is retained together with the local Crank's Ridge terrain and Almora A-layer.
+- 4 nights is justified only if Katarmal / extra slow-day / weather buffer is intentionally wanted.
+- Turiya exact dates/reservation are the only remaining sleep-lock action; winter-comfort research is already complete.
+
+## SEPARATE KUMAON A MODULE — HAIDAKHAN
+
+Haidakhan Babaji Ashram / Haidakhan Vishwa Mahadham = A by Mark decision and should NOT be forced into the three-base matrix.
+
+Reason:
+- It is a distinct experiential destination near the beginning of the journey.
+- Mark wants experiential space because the visit may influence later choices.
+- Existing working hypothesis was about 3 nights; exact duration remains a Mark/route choice, not an unperformed research task.
+- Additional Haidakhan-lineage sites remain C unless exceptional value later changes that.
+
+## WHAT THE 2026-08-22 LP SWEEP ACTUALLY ADDS TO KUMAON
+
+High-value NEW travel-layer additions that fit existing bases cheaply:
+1. Dwarahat historic temple groups — Base 1, strong near-zero-cost heritage addition.
+2. Naina Peak trek — Base 2, strong zero-road-detour nature addition.
+3. Lakhudiyar rock shelter — Base 3 / Jageshwar A-day, micro-gem with almost no detour.
+4. Bal Mithai / Kheem Singh — Base 3 / Almora, micro-gem with trivial time cost.
+5. Sakley's 1944 — Base 2 / Nainital, micro-gem with zero route cost.
+
+Medium-cost optional additions:
+- Katarmal Sun Temple — Base 3.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=594 path=runs/active/INDIA8-CLUSTER-CASTING-001/KUMAON_THREE_BASE_EXECUTION_MATRIX_2026-08-23.md blob_sha=780c3cd12df353ce91bc21a04400a3604a61ea2e original_offset=8192 original_length=1581 payload_bytes=1581 chunk_index=2 chunk_count=3 classification=text
+- Sattal/Bhimtal/Butterfly — Base 2.
+- Pangot–Kilbury — Base 2.
+
+Major optional modules, NOT free add-ons:
+- Jim Corbett National Park.
+- Nandhaur Wildlife Sanctuary.
+
+Already decided and therefore NOT new:
+- Jageshwar = A.
+- Binsar = C.
+
+## PROVISIONAL NIGHT CAPACITY FROM THE RECONCILED BASES
+
+This is capacity analysis, not final route lock:
+
+- Joshi Guest House / Kukuchina: 2–3 nights; 3 is better aligned with pilgrimage breathing room.
+- Hotel Evelyn / Nainital: 2–3 nights; third night only if a nature half-day is intentionally included.
+- Turiya Niwas / Kasar Devi: 3 nights core; fourth only for deliberate extra heritage/nature/weather slack.
+- Haidakhan: separate ~3-night working hypothesis remains reasonable.
+
+Thus the full Kumaon family is not a tiny 3–4-night cluster. The existing A-density plus the three-base geography supports roughly 7–9 nights across Joshi/Evelyn/Turiya, plus Haidakhan separately if retained as planned. Final count must be solved against the 34-day whole-trip budget, not by compressing these bases into one.
+
+## NO-DEFERRAL CHECK
+
+Actions completed now:
+- existing A vs LP findings reconciled;
+- Jageshwar duplicate-choice error eliminated;
+- Binsar C protected;
+- LP additions assigned to actual sleep bases;
+- operational day groupings built;
+- provisional night-capacity derived;
+- Haidakhan kept separate rather than incorrectly hidden inside three-base geography.
+
+Only items requiring Mark's later content/route decision remain choices; no executable research task is intentionally left as 'do later' in this matrix.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=595 path=runs/active/INDIA8-HOTEL-EVELYN-RAMDASS-ROOM-CLOSURE-001/TASK.md blob_sha=78f44a615ab9a51944dfe709b7639b060d6b60bf original_offset=0 original_length=2507 payload_bytes=2507 chunk_index=0 chunk_count=1 classification=text
+# INDIA8-HOTEL-EVELYN-RAMDASS-ROOM-CLOSURE-001 — TASK
+
+status: READY_FOR_COLOR
+owner: independent color worker
+repository: bnzgxknwrv-tech/india-knowledge-base
+write branch: worker must use its own dedicated branch; return result to INDIA8
+
+## DOEL
+Gerichte fysieke/historische closure van Ram Dass in Hotel Evelyn, Nainital. Dit is GEEN algemene hotelsweep.
+
+Mark wil Hotel Evelyn juist vanwege de historische Ram Dass/NKB-laag bezoeken/slapen. Comfort, onderhoud, primitieve omstandigheden en extra verwarmingskosten zijn GEEN afwijscriteria; historische authenticiteit weegt hier zwaarder.
+
+## VRAAG
+Bepaal zo ver als verantwoord mogelijk:
+1. in welke kamer/kamertype/verdieping/vleugel van Hotel Evelyn Ram Dass verbleef;
+2. welke balkon/patio/tuin/trap/ingang op bekende foto's/teksten voorkomt;
+3. of historische foto's/film/stills het interieur of exterieur genoeg tonen om huidige gebouwonderdelen te matchen;
+4. of een exacte kamer vandaag nog bestaat of dat alleen verdieping/vleugel/zijde verantwoord is;
+5. of die kamer/zone boekbaar of bezoekbaar is;
+6. welke gebeurtenissen daar plaatsvonden, met bron en datum/context;
+7. relatie tot K.K. Sah, Bhagwan Das, Neem Karoli Baba en andere relevante personen indien fysiek aan het hotel gekoppeld.
+
+## METHODE
+Zoek breed en onafhankelijk:
+- Ram Dass eigen boeken/archief/interviews;
+- ramdass.org / Love Serve Remember Foundation;
+- Krishna Das / devotee interviews;
+- Neem Karoli Baba-bronnen;
+- oude Hotel Evelyn foto's, postcards, travel photos, review photos;
+- YouTube/video descriptions/transcripts waar bronmatig bruikbaar;
+- internet archives / cached historic hotel pages;
+- huidige hotel floor/room descriptions;
+- fotovergelijking mag, maar geen speculatieve pixel-match als feit.
+
+Gebruik R1-R5:
+R1 exact current room/spot;
+R2 exact historic spot/current successor;
+R3 strong localized room/floor/wing;
+R4 hotel only;
+R5 unresolved.
+
+## HARD RULES
+- Geen exact kamernummer verzinnen.
+- Geen gebouwcontinuiteit aannemen zonder bewijs.
+- Onzekerheid expliciet bewaren.
+- Comfort/reviews zijn NIET het onderwerp en mogen Hotel Evelyn niet diskwalificeren.
+- Geen A/B/C wijzigen.
+
+## OUTPUT
+Maak:
+- `HOTEL_EVELYN_RAMDASS_ROOM_CLOSURE.md`
+- `HOTEL_EVELYN_PHOTO_MATCH_LEDGER.md`
+
+Eindig met één operational block voor Marks uiteindelijke reisgids:
+`BEST_PROVABLE_PLACE_TO_SLEEP_OR_STAND` + exactheidsklasse + hoe ter plaatse te herkennen/vragen.
+
+Commit en rapporteer SHA's.
+STOP NIET BIJ EEN PLAN; VOER DE VOLLEDIGE GERichte CLOSURE UIT.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=596 path=runs/active/TOP11-INDIAGEEL-BLIND-SWEEP-001/TASK.md blob_sha=791fb7fb9e2be4593b249a067aa17562cf0ee7ca original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# TASK — TOP11-INDIAGEEL-BLIND-SWEEP-001
+
+```
+task_id: TOP11-INDIAGEEL-BLIND-SWEEP-001
+owner: INDIA GEEL
+issued_by: INDIA8
+issued_at: 2026-08-19
+mode: PRE-COMPARE BLIND
+state: READY_FOR_INDIAGEEL
+```
+
+## Doel
+Maak twee volledig onafhankelijke landelijke PRE-COMPARE freezes, vanaf nul, in deze vaste volgorde:
+
+1. Ramana Maharshi
+2. Ramakrishna
+
+Onderzoek heel India. Geen reisselectie of regionale beperking.
+
+## HARD BLINDNESS
+Voor beide personen geldt: vóórdat de eigen freeze duurzaam is gecommit, mag INDIA GEEL GEEN inhoud lezen uit bestanden/branches/PR-comments die reeds gevonden locaties of conclusies van andere detectoren kunnen lekken.
+
+PRE-COMPARE VERBODEN:
+- PR #23 en alle comments;
+- PR #24;
+- `agent/chatgpt-top11-parallel-sweep`;
+- `agent/indiarood-core-kriya-sweep`;
+- alle CCI-persoonsfreezes, reconciliaties en resultaatbestanden;
+- bestaande Top-11-atlassen, METHOD_V1/PHASE2-resultaten en kandidatenlijsten;
+- AOAY-atlassen voor zover die Ramana/Ramakrishna-locaties kunnen zaaien;
+- regionale/clusterbestanden die persoonslocaties kunnen lekken;
+- externe AI-unions of eerdere onderzoeksoutputs voor deze personen.
+
+PRE-COMPARE TOEGESTAAN:
+- uitsluitend dit `TASK.md`;
+- `STATUS.md` in dezelfde map;
+- openbare externe bronnen op internet die INDIA GEEL zelfstandig vindt.
+
+Geen andere repo-inhoud nodig of toegestaan om de sweep uit te voeren.
+
+## Methode — verplicht source-first/corpus-first
+Per persoon:
+
+1. Inventariseer primaire/semi-primaire corpusfamilies, biografieën, autobiografieën, dagboeken, brieven, herinneringen, officiële ashram/orde/lineage-bronnen en chronologieën.
+2. Extraheer eerst occurrence-level fysieke locaties uit die corpora.
+3. Bouw daarna host/netwerkgraaf: familie, discipelen, gastheren, huizen, landgoederen, scholen, tempels, ashrams, stations, hotels, ziekenhuizen, routes, retreats, bijeenkomsten en andere personen met wie de persoon fysiek samen was.
+4. Doe daarna brede webdiscovery, inclusief historische spellingen, alternatieve namen, meertalige bronnen en digitale bibliotheken waar legaal toegankelijk.
+5. Voer adversarial miss-detection rondes uit: zoek expliciet naar kleine/private/transit/room-level locaties die een beroemde-plaatsenlijst zou missen.
+6. Stop alleen na herhaalde discovery-rondes zonder betekenisvolle nieuwe localiseerbare India-locaties, of met expliciet benoemde bron/archive blockers.
+
+## Locatieregels
+Per record minimaal:
+- naam / omschrijving fysieke plek;
+- plaats + staat;
+- type;
+- gebeurtenis/periode;
+- `PERSONALLY_PRESENT: JA/NEE/ONZEKER`;
+- `PHYSICAL_IDENTITY: EXACT/DEELS/ALLEEN_PLAATS/ONBEKEND`;
+- bron + URL/bibliografische identificatie;
+- precieze vindplaats/passagelocator;
+- host/gastheer indien relevant;
+- twijfel/conflict/historische-continuïteitsnotitie.
+
+Niet registreren als persoonlijke locatie wanneer de tekst slechts context, een andere persoon, algemene geschiedenis of institutionele associatie noemt.
+
+## Freeze-output
+### Persoon 1 — Ramana Maharshi
+Schrijf na afronding onmiddellijk:
+`runs/active/TOP11-INDIAGEEL-BLIND-SWEEP-001/RAMANA_MAHARSHI_INDIAGEEL_FREEZE.md`
+
+Commit direct na deze persoon. Noteer volledige SHA in `STATUS.md`.
+
+### Persoon 2 — Ramakrishna
+Pas nadat Ramana duurzaam is gecommit, start Ramakrishna.
+Schrijf:
+`runs/active/TOP11-INDIAGEEL-BLIND-SWEEP-001/RAMAKRISHNA_INDIAGEEL_FREEZE.md`
+
+Commit direct na afronding. Noteer volledige SHA in `STATUS.md`.
+
+## Verplichte freeze-header per persoon
+- `PERSON`
+- `FREEZE_TIMESTAMP`
+- `BLINDNESS_CONFIRMED: JA`
+- `CORPORA_SEARCHED`
+- `SOURCE_ACCESS_BLOCKERS`
+- `HOSTGRAPH_SEARCHED`
+- `DISCOVERY_SEARCH_FAMILIES`
+- genormaliseerde recordcount
+- `CONFLICTS`
+- `UNRESOLVED_LEADS`
+- `SATURATION_ATTEMPTS`
+- `PERSON_SWEEP_SATURATED: JA/NEE` met motivatie
+
+Eerlijke `NEE` is beter dan schijnzekerheid.
+
+## HARD STOP / verboden vervolg
+Na beide freezes:
+- GEEN vergelijking met CCI/ChatGPT/IndiaROOD;
+- GEEN PR #23 lezen;
+- GEEN reconciliatie;
+- GEEN merge;
+- GEEN cluster/heatmap/regiosweep;
+- GEEN A/B/C;
+- GEEN permanente IDs;
+- GEEN PDF;
+- GEEN route.
+
+Werk uitsluitend op een eigen India-GE
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=597 path=runs/active/TOP11-INDIAGEEL-BLIND-SWEEP-001/TASK.md blob_sha=791fb7fb9e2be4593b249a067aa17562cf0ee7ca original_offset=4096 original_length=539 payload_bytes=539 chunk_index=1 chunk_count=2 classification=text
+EL branch. Als nog geen branch bestaat, maak een nieuwe branch vanaf de huidige werkbranch met naam `agent/indiageel-ramana-ramakrishna-sweep`. Schrijf de freeze-output alleen op die eigen branch, zodat de blindheid en provenance duurzaam gescheiden blijven.
+
+## Eindmelding
+Na beide commits rapporteer uitsluitend aan Mark:
+- beide personen klaar/niet klaar;
+- beide freeze-SHA's;
+- beide paden;
+- recordcounts;
+- saturationstatus;
+- eventuele blockers;
+- bevestiging dat verboden projectresultaten/PR #23 niet zijn gelezen.
+
+Daarna STOP.
+<<< END CHUNK >>>
+

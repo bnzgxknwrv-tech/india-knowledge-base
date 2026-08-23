@@ -1,0 +1,322 @@
+>>> CHUNK stream_row=871 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/REGION_CONTENT_BRIEF.md blob_sha=89a3cfdd16755ab027df14b85116e2cca9c55e62 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# PRE-BRONS Region Content Brief — Bodh Gaya
+
+run_id: BODHGAYA-DISCOVERY-001
+geschreven_op: 2026-08-03
+geschreven_door: CCI
+
+Deze regio start volledig blanco, volgens `india4/protocols/INDIA5_REGION_START_PROTOCOL.md`.
+Geen Varanasi-kandidaten, -aannames of -detectoren zijn overgenomen. Alle hieronder genoemde
+detectoren zijn nieuw voor deze regio geïntroduceerd (per-run PROVISIONAL, prefix `DET-BGY-`),
+ook wanneer een detector conceptueel lijkt op een eerder in Varanasi gebruikte richting.
+
+## Gebiedsgrens
+
+Bodh Gaya (Mahabodhi-tempelcomplex als centrumpunt) + straal van circa 20 km, met een
+uitsluitend signalerende blik tot circa 30 km voor uitzonderlijke "zou zonde zijn geweest"-
+locaties (conform stap 2 van het startprotocol). Exacte kernstraal-coördinaten en precieze
+afstanden tot randlocaties (bijvoorbeeld de Dungeshwari-grotten, Gaya-stad) worden tijdens
+Discovery met een kaartbron geverifieerd — in deze PRE-BRONS-fase nog niet vastgesteld, alleen
+globaal benoemd. Grotere, bekende locaties die duidelijk buiten elke redelijke straal liggen
+(Nalanda, Rajgir, de Barabar-grotten) worden voorlopig als buiten scope beschouwd, te bevestigen
+tijdens Discovery, niet nu al definitief uitgesloten.
+
+## Marks bekende interesses en ankers
+
+- Boeddha staat op positie 7 van Marks vaste 13-persoonsindex (`PRIORITY_GROUPS.md`, commit
+  `709fafe`).
+- Diezelfde bron vermeldt expliciet een bestaand precedent: "Bodh Gaya werd een A-cluster puur
+  door de kracht van de plek zelf" — een reeds vastgelegde, hoge persoonlijke waardering van Mark
+  voor Bodh Gaya als geheel, van vóór de huidige granulaire kandidaat-tracking.
+- Dit is GEEN vrijbrief om elke afzonderlijke locatie in Bodh Gaya automatisch A te maken: elke
+  gedecomponeerde kandidaat doorloopt nog steeds zelfstandig de NOT_TO_BE_MISSED-poort. De index/
+  het precedent is een weegfactor en een signaal om goed te kijken, geen automatische waardering
+  (PRIORITY_GROUPS.md-regel: de index kent zelf geen waarderingen toe).
+- Sarnath (Boeddha's eerste prediking) is al volledig verwerkt in de Varanasi-regio (006,
+  029-034, allen A) — Bodh Gaya vertegenwoordigt het andere, apart te onderscheiden narratieve
+  moment: de verlichting zelf. Geen overlap, geen samenvoeging tussen de twee regio's.
+- Mark's eigen Kriya Yoga/Yogananda-lijn: geen bevestigde directe Bodh-Gaya-verbinding gevonden
+  of aangenomen — expliciet te onderzoeken (zie DET-BGY-P004), niet vooraf te veronderstellen.
+
+## Relevante tradities, lineages, personen, heilige landschappen en historische lagen
+
+- **Boeddhisme** (Theravada/Mahayana/Vajrayana, internationaal vertegenwoordigd via de vele
+  nationale kloosters) — de dominante traditie van het gebied, met de verlichtingsplek van
+  Boeddha als centraal punt.
+- **Hindoeïsme** (Gaya-stadsgebied, Vishnupad-tempel, Falgu-rivier) — binnen de straal aanwezig,
+  nog niet onderzocht. Geen aanname vooraf over aan- of afwezigheid van NOT_TO_BE_MISSED-waarde;
+  wordt actief bekeken (DET-BGY-P006), niet overgeslagen en niet geforceerd.
+- **Kriya Yoga/Yogananda-lijn** — geen bevestigde connectie; expliciet te onderzoeken, niet aan
+  te nemen puur omdat het een boeddhistisch centrum is.
+
+## Toegepaste detectoren
+
+Bibliotheek is leeg (geen ACTIVE detectoren) — alle zeven hieronder zijn nieuw geïntroduceerd als
+PROVISIONAL voor deze regio (zie `PRE_BRONS_DETECTORS.jsonl`):
+
+- `DET-BGY-P001` PRIMARY_ENLIGHTENMENT_SITE_DECOMPOSITION_DETECTOR — decomponeert het
+  Mahabodhi-complex in zelfstandig te toetsen onderdelen (Vajrasana, Bodhi-boom-nakomeling,
+  Animeshlochan Chaitya, Chankramana, Muchalinda-vijver, e.a.), zonder over- of onder-fragmentatie.
+- `DET-BGY-P002` PRE_ENLIGHTENMENT_NARRATIVE_SITE_DETECTOR — Sujata's dorp, de Niranjana/Falgu-
+  rivieroever, de Dungeshwari-grotten: eenmalige, plaatsgebonden gebeurtenissen vóór de
+  verlichting.
+- `DET-BGY-P003` INTERNATIONAL_MONASTERY_LIVING_TRADITION_DETECTOR — toetst elk internationaal
+  klooster individueel op levende praktijk/uitzonderlijke ervaring, nooit als groep.
+- `DET-BGY-P004` KRIYA_LINEAGE_TEXT_D
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=872 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/REGION_CONTENT_BRIEF.md blob_sha=89a3cfdd16755ab027df14b85116e2cca9c55e62 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+ETECTOR — controleert AOAY/Kriya-lijnbronnen op een
+  eventuele, nog niet bevestigde Bodh-Gaya-verwijzing.
+- `DET-BGY-P005` ARCHAEOLOGICAL_ASI_DETECTOR — de archeologische/ASI-beschermde laag, los van de
+  levende religieuze functie.
+- `DET-BGY-P006` NON_BUDDHIST_IN_RADIUS_DETECTOR — bewuste blik op niet-boeddhistische tradities
+  binnen de straal (met name het Gaya/Vishnupad-gebied), zonder categorie te forceren.
+- `DET-BGY-P007` INSIDER_LOCAL_PRACTICE_SOURCE_DETECTOR — bron-kwaliteitsfilter, geen
+  ontdekkingsdetector: kernclaims over levende praktijk mogen niet uitsluitend op reisblogs
+  steunen.
+
+## Geplande bronfamilies
+
+Zie `SOURCE_FAMILY_PLAN.jsonl`. Gepland: UNESCO-bron (whc.unesco.org, voor het Mahabodhi-complex
+als werelderfgoed), academische bronnen, religieuze naslagbronnen (Pali-canon, Ashokavadana),
+primaire historische reisverslagen (Xuanzang/Hiuen Tsang, 7e eeuw), officiële overheids-
+toerismebronnen, encyclopedie, reis-kruiscontrole, primaire AOAY-tekst. Nog niet beschikbaar:
+lokale insider-/kloosterbron — zelfde structurele hiaat als bij Varanasi, hier vooraf al erkend
+in plaats van pas achteraf.
+
+## Bekende risico's/blinde vlekken
+
+- Nog geen kaartbron-geverifieerde exacte straal/afstanden — volgt tijdens Discovery, niet nu al
+  met zekerheid vastgesteld.
+- Geen insider-/kloosterbron beschikbaar (zelfde structurele hiaat als Varanasi).
+- Risico op verkeerde decompositie van het dichte Mahabodhi-complex — te grof (één vage
+  koepelvermelding) of te fijn (kunstmatige deelkandidaten zonder zelfstandige waarde).
+- Geen bevestigde Kriya-lijnverbinding met Bodh Gaya — moet apart geverifieerd worden, nooit
+  aangenomen puur op basis van het algemene A-clusterprecedent uit PRIORITY_GROUPS.md.
+- Sterke commerciële/toeristische druk rond de hoofdtempel kan het "beroemd-maar-oppervlakkig"-
+  risico verhogen bij individuele kloosters of winkelgebieden rond de tempel.
+
+## Verwachte kandidaatcategorieën / actief te onderzoeken richtingen
+
+Geen vooraf verplichte categorieën — conform de hoofdvraag-regel (`NOT_TO_BE_MISSED_FRAMEWORK.md`)
+is categorievolledigheid nooit een reden om te zoeken of toe te voegen. Wel actief te onderzoeken
+richtingen, uitsluitend als zoekhulpmiddel, geen doel op zich:
+- onderdelen van het Mahabodhi-complex zelf;
+- pre-verlichtingsnarratiefplekken (Sujata-dorp, Dungeshwari-grotten, Niranjana/Falgu-oever);
+- individuele internationale kloosters met een uitzonderlijk kenmerk;
+- de archeologische/ASI-laag;
+- eventuele niet-boeddhistische krachtplekken binnen de straal (Gaya/Vishnupad-gebied);
+- een eventuele Kriya-lijnverbinding.
+
+Een sweep die op nul, twee of twintig nieuwe kandidaten uitkomt is elk even geldig, zolang de
+dekking aantoonbaar compleet is.
+
+## Verzadigings- en stopcriteria
+
+Zoals vastgelegd in `india4/protocols/INDIA5-PROTOCOL.md` en herbevestigd in
+`INDIA5_REGION_START_PROTOCOL.md` stap 2: per detector minimaal twee wezenlijk verschillende
+zoekbenaderingen en minimaal twee relevante bronfamilies, gevolgd door drie opeenvolgende
+materieel verschillende richtingen zonder nieuwe high-value lead. Sweepniveau
+`DISCOVERY_SATURATED` pas wanneer alle zeven detectoren een afsluitstatus hebben, alle geplande
+bronfamilies zijn uitgevoerd of expliciet `ONBESCHIKBAAR`, en geen open lead redelijkerwijs een
+dramatisch te missen locatie kan zijn.
+
+## Dramatic miss check
+
+**Vraag: welke dramatisch te missen A-locatie zou dit plan nog kunnen missen?**
+
+Twee concrete risico's. Eerste: het Mahabodhi-tempelcomplex verkeerd decomponeren — als één
+koepelnaam behandelen zou losse, verhaaltechnisch onderscheiden onderdelen (Vajrasana, de
+Bodhi-boom-nakomeling, Animeshlochan Chaitya, Muchalinda-vijver) laten samensmelten tot een vage
+generieke vermelding; te fijn opknippen zou omgekeerd kunstmatige kandidaten opleveren die
+individueel de NOT_TO_BE_MISSED-poort niet zouden doorstaan. `DET-BGY-P001` bestaat specifiek om
+dit te voorkomen.
+
+Tweede: de Dungeshwari-grotten (Mahakala-grotten, plek van Boeddha's extreme ascese vóór de
+verlichting) liggen verder van het hoofdcomplex
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=873 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/REGION_CONTENT_BRIEF.md blob_sha=89a3cfdd16755ab027df14b85116e2cca9c55e62 original_offset=8192 original_length=295 payload_bytes=295 chunk_index=2 chunk_count=3 classification=text
+ en zijn minder bekend dan de hoofdtempel — een
+reëel risico om over het hoofd te zien ondanks een sterke, onvervangbare eenmalige-gebeurtenis-
+claim. `DET-BGY-P002` is hier specifiek op gericht.
+
+Beide punten worden expliciet, niet stilzwijgend, als aandachtspunt meegenomen naar Discovery.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=874 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/ALL_FINDINGS_ENTITY_INDEX.jsonl blob_sha=8b2d368e6e3b8827da459fd3612485acd71f29c3 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=52 classification=text
+{"physical_entity_key": "ALBERT-HALL::INDIAN-COFFEE-HOUSE", "label": "Albert Hall (nu Indian Coffee House) — Albert Hall, now Indian Coffee House, 15 Bankim Chatterjee Street, Kolkata", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R1"], "persons_layers": ["Core Kriya (Babaji/Lahiri/Sri Yukteswar) micro-site split"], "backlink_master_row_ids": ["MR-00292"], "backlink_source_record_ids": ["ALBERT-HALL::INDIAN-COFFEE-HOUSE"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-002", "label": "United Provinces", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00461"], "backlink_source_record_ids": ["AOAY-ATL-002"], "turquoise_relation": "TQ-ENT-002"}
+{"physical_entity_key": "AOAY-AOAY-ATL-003", "label": "Philadelphia", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00462"], "backlink_source_record_ids": ["AOAY-ATL-003"], "turquoise_relation": "TQ-ENT-003"}
+{"physical_entity_key": "AOAY-AOAY-ATL-004", "label": "Himalayas", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00463"], "backlink_source_record_ids": ["AOAY-ATL-004"], "turquoise_relation": "TQ-ENT-004"}
+{"physical_entity_key": "AOAY-AOAY-ATL-006", "label": "New York", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00465"], "backlink_source_record_ids": ["AOAY-ATL-006"], "turquoise_relation": "TQ-ENT-006"}
+{"physical_entity_key": "AOAY-AOAY-ATL-007", "label": "Calcutta", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R3"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00466"], "backlink_source_record_ids": ["AOAY-ATL-007"], "turquoise_relation": "TQ-ENT-007"}
+{"physical_entity_key": "AOAY-AOAY-ATL-009", "label": "Ichapur", "row_count": 2, "dispositions_seen": ["EXPLICIT_DUPLICATE", "STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (external 5-AI union)", "Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00468", "MR-00584"], "backlink_source_record_ids": ["AOAY-ATL-009", "EXTY-2"], "turquoise_relation": "TQ-ENT-009"}
+{"physical_entity_key": "AOAY-AOAY-ATL-010", "label": "Bengal", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00469"], "backlink_source_record_ids": ["AOAY-ATL-010"], "turquoise_relation": "TQ-ENT-010"}
+{"physical_entity_key": "AOAY-AOAY-ATL-011", "label": "Madras", "row_count": 3, "dispositions_seen": ["EXPLICIT_DUPLICATE", "PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R3"], "persons_layers": ["Paramahansa Yogananda / AOAY (external 5-AI union)", "Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00470", "MR-00667", "MR-00668"], "backlink_source_record_ids": ["AOAY-ATL-011", "EXTY-85", "EXTY-86"], "turquoise_relation": "TQ-ENT-011"}
+{"physical_entity_key": "AOAY-AOAY-ATL-012", "label": "Lahore", "row_count": 2, "dispositions_seen": ["EXPLICIT_DUPLICATE", "STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (external 5-AI union)", "Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00471", "MR-00685"], "backlink_source_record_ids": ["AOAY-ATL-012", "EXTY-103"], "turquoise_relation": "TQ-ENT-012"}
+{"physical_entity_key": "AOAY-AOAY-ATL-013", "label": "Nagpur", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda /
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=875 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/ALL_FINDINGS_ENTITY_INDEX.jsonl blob_sha=8b2d368e6e3b8827da459fd3612485acd71f29c3 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=52 classification=text
+ AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00472"], "backlink_source_record_ids": ["AOAY-ATL-013"], "turquoise_relation": "TQ-ENT-013"}
+{"physical_entity_key": "AOAY-AOAY-ATL-014", "label": "Punjab", "row_count": 3, "dispositions_seen": ["EXPLICIT_DUPLICATE", "STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (external 5-AI union)", "Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00473", "MR-00677", "MR-00678"], "backlink_source_record_ids": ["AOAY-ATL-014", "EXTY-95", "EXTY-96"], "turquoise_relation": "TQ-ENT-014"}
+{"physical_entity_key": "AOAY-AOAY-ATL-017", "label": "Egypt", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00476"], "backlink_source_record_ids": ["AOAY-ATL-017"], "turquoise_relation": "TQ-ENT-017"}
+{"physical_entity_key": "AOAY-AOAY-ATL-018", "label": "Naini Tal", "row_count": 2, "dispositions_seen": ["EXPLICIT_DUPLICATE", "STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (external 5-AI union)", "Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00477", "MR-00633"], "backlink_source_record_ids": ["AOAY-ATL-018", "EXTY-51"], "turquoise_relation": "TQ-ENT-018"}
+{"physical_entity_key": "AOAY-AOAY-ATL-020", "label": "Dwarka", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00479"], "backlink_source_record_ids": ["AOAY-ATL-020"], "turquoise_relation": "TQ-ENT-020"}
+{"physical_entity_key": "AOAY-AOAY-ATL-021", "label": "Naini", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00480"], "backlink_source_record_ids": ["AOAY-ATL-021"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-023", "label": "Rome", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00482"], "backlink_source_record_ids": ["AOAY-ATL-023"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-024", "label": "Howrah Station", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R3"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00483"], "backlink_source_record_ids": ["AOAY-ATL-024"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-028", "label": "Howrah", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R3"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00487"], "backlink_source_record_ids": ["AOAY-ATL-028"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-029", "label": "Kalighat Temple", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R1"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00488"], "backlink_source_record_ids": ["AOAY-ATL-029"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-031", "label": "Kalighat", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R1"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00490"], "backlink_source_record_ids": ["AOAY-ATL-031"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-032", "label": "Europe", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00491"], "backlink_source_record_ids": ["AOAY-ATL-032"], "turquoise_relation": null}
+{"physical_en
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=876 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/ALL_FINDINGS_ENTITY_INDEX.jsonl blob_sha=8b2d368e6e3b8827da459fd3612485acd71f29c3 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=52 classification=text
+tity_key": "AOAY-AOAY-ATL-033", "label": "Tibet", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00492"], "backlink_source_record_ids": ["AOAY-ATL-033"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-034", "label": "Abu", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00493"], "backlink_source_record_ids": ["AOAY-ATL-034"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-036", "label": "America", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00495"], "backlink_source_record_ids": ["AOAY-ATL-036"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-037", "label": "California", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00496"], "backlink_source_record_ids": ["AOAY-ATL-037"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-038", "label": "Washington", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00497"], "backlink_source_record_ids": ["AOAY-ATL-038"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-039", "label": "Chicago", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00498"], "backlink_source_record_ids": ["AOAY-ATL-039"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-040", "label": "Taxila", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00499"], "backlink_source_record_ids": ["AOAY-ATL-040"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-047", "label": "Agra", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R3"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00506"], "backlink_source_record_ids": ["AOAY-ATL-047"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-049", "label": "Los Angeles", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00508"], "backlink_source_record_ids": ["AOAY-ATL-049"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-050", "label": "Kashmir", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R3"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00509"], "backlink_source_record_ids": ["AOAY-ATL-050"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-052", "label": "Puri", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R1"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00511"], "backlink_source_record_ids": ["AOAY-ATL-052"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-053", "label": "Tarakeswar", "row_count": 2, "dispositions_seen": ["EXPLICIT_DUPLICATE", "PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R3"], "persons_layers": ["Paramahansa Yogananda / AOAY (external 5-AI union)", "Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00512", "MR-00616"], "backlink_source_record_ids": ["AOAY-ATL-053", "EXTY-34"], "turquoise_relation": null}
+{"
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=877 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/ALL_FINDINGS_ENTITY_INDEX.jsonl blob_sha=8b2d368e6e3b8827da459fd3612485acd71f29c3 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=52 classification=text
+physical_entity_key": "AOAY-AOAY-ATL-054", "label": "Ranbajpur", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00513"], "backlink_source_record_ids": ["AOAY-ATL-054"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-055", "label": "France", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00514"], "backlink_source_record_ids": ["AOAY-ATL-055"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-056", "label": "London", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00515"], "backlink_source_record_ids": ["AOAY-ATL-056"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-058", "label": "Self-Realization Fellowship", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00517"], "backlink_source_record_ids": ["AOAY-ATL-058"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-059", "label": "Mount Washington", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00518"], "backlink_source_record_ids": ["AOAY-ATL-059"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-062", "label": "Alaska", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00521"], "backlink_source_record_ids": ["AOAY-ATL-062"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-065", "label": "Burma", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00524"], "backlink_source_record_ids": ["AOAY-ATL-065"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-066", "label": "China", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00525"], "backlink_source_record_ids": ["AOAY-ATL-066"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-067", "label": "Japan", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00526"], "backlink_source_record_ids": ["AOAY-ATL-067"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-068", "label": "Badrinarayan", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R5"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00527"], "backlink_source_record_ids": ["AOAY-ATL-068"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-070", "label": "Bihar", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00529"], "backlink_source_record_ids": ["AOAY-ATL-070"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-074", "label": "Badrinath", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00533"], "backlink_source_record_ids": ["AOAY-ATL-074"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-075", "label": "Kedarnath", "row_count": 1, "dis
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=878 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/ALL_FINDINGS_ENTITY_INDEX.jsonl blob_sha=8b2d368e6e3b8827da459fd3612485acd71f29c3 original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=52 classification=text
+positions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00534"], "backlink_source_record_ids": ["AOAY-ATL-075"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-076", "label": "Amarnath", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00535"], "backlink_source_record_ids": ["AOAY-ATL-076"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-077", "label": "Krishnagar", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00536"], "backlink_source_record_ids": ["AOAY-ATL-077"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-078", "label": "Ranikhet", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R3"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00537"], "backlink_source_record_ids": ["AOAY-ATL-078"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-079", "label": "Danapur", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R3"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00538"], "backlink_source_record_ids": ["AOAY-ATL-079"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-080", "label": "Ghurni", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R3"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00539"], "backlink_source_record_ids": ["AOAY-ATL-080"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-081", "label": "Nadia", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00540"], "backlink_source_record_ids": ["AOAY-ATL-081"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-082", "label": "Nanda Devi", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00541"], "backlink_source_record_ids": ["AOAY-ATL-082"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-084", "label": "Almora", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00543"], "backlink_source_record_ids": ["AOAY-ATL-084"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-085", "label": "Bishnupur", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00544"], "backlink_source_record_ids": ["AOAY-ATL-085"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-086", "label": "England", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00545"], "backlink_source_record_ids": ["AOAY-ATL-086"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-087", "label": "Indus", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00546"], "backlink_source_record_ids": ["AOAY-ATL-087"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-088", "label": "Kidderpore", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Pa
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=879 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/ALL_FINDINGS_ENTITY_INDEX.jsonl blob_sha=8b2d368e6e3b8827da459fd3612485acd71f29c3 original_offset=20480 original_length=4096 payload_bytes=4096 chunk_index=5 chunk_count=52 classification=text
+ramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00547"], "backlink_source_record_ids": ["AOAY-ATL-088"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-089", "label": "Gaya", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00548"], "backlink_source_record_ids": ["AOAY-ATL-089"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-090", "label": "Mount Washington Estates", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00549"], "backlink_source_record_ids": ["AOAY-ATL-090"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-091", "label": "United States", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00550"], "backlink_source_record_ids": ["AOAY-ATL-091"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-092", "label": "Boston", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00551"], "backlink_source_record_ids": ["AOAY-ATL-092"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-093", "label": "Santa Rosa", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00552"], "backlink_source_record_ids": ["AOAY-ATL-093"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-094", "label": "Konnersreuth", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00553"], "backlink_source_record_ids": ["AOAY-ATL-094"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-095", "label": "Palestine", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00554"], "backlink_source_record_ids": ["AOAY-ATL-095"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-096", "label": "Eichstatt", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00555"], "backlink_source_record_ids": ["AOAY-ATL-096"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-097", "label": "Bavaria", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00556"], "backlink_source_record_ids": ["AOAY-ATL-097"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-098", "label": "Germany", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00557"], "backlink_source_record_ids": ["AOAY-ATL-098"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-099", "label": "Italy", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00558"], "backlink_source_record_ids": ["AOAY-ATL-099"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-102", "label": "Hyderabad", "row_count": 2, "dispositions_seen": ["EXPLICIT_DUPLICATE", "PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R3"], "persons_layers": ["Paramahansa Yogananda / AOAY (external 5-AI union)", "P
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=880 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/ALL_FINDINGS_ENTITY_INDEX.jsonl blob_sha=8b2d368e6e3b8827da459fd3612485acd71f29c3 original_offset=24576 original_length=4096 payload_bytes=4096 chunk_index=6 chunk_count=52 classification=text
+aramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00561", "MR-00671"], "backlink_source_record_ids": ["AOAY-ATL-102", "EXTY-89"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-104", "label": "Godavari", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00563"], "backlink_source_record_ids": ["AOAY-ATL-104"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-106", "label": "Belur", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00565"], "backlink_source_record_ids": ["AOAY-ATL-106"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-107", "label": "Kolar", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00566"], "backlink_source_record_ids": ["AOAY-ATL-107"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-108", "label": "Patna", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00567"], "backlink_source_record_ids": ["AOAY-ATL-108"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-111", "label": "Nasik", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00570"], "backlink_source_record_ids": ["AOAY-ATL-111"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-112", "label": "Jumna", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00571"], "backlink_source_record_ids": ["AOAY-ATL-112"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-113", "label": "Ahmedabad", "row_count": 2, "dispositions_seen": ["EXPLICIT_DUPLICATE", "STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (external 5-AI union)", "Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00572", "MR-00647"], "backlink_source_record_ids": ["AOAY-ATL-113", "EXTY-65"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-114", "label": "Poona", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00573"], "backlink_source_record_ids": ["AOAY-ATL-114"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-115", "label": "Dehra Dun", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00574"], "backlink_source_record_ids": ["AOAY-ATL-115"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-116", "label": "Dacca", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00575"], "backlink_source_record_ids": ["AOAY-ATL-116"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-118", "label": "Detroit", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00577"], "backlink_source_record_ids": ["AOAY-ATL-118"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-119", "label": "San Francisco", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layer
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=881 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/ALL_FINDINGS_ENTITY_INDEX.jsonl blob_sha=8b2d368e6e3b8827da459fd3612485acd71f29c3 original_offset=28672 original_length=4096 payload_bytes=4096 chunk_index=7 chunk_count=52 classification=text
+s": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00578"], "backlink_source_record_ids": ["AOAY-ATL-119"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-120", "label": "Mississippi", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00579"], "backlink_source_record_ids": ["AOAY-ATL-120"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-121", "label": "Hollywood", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00580"], "backlink_source_record_ids": ["AOAY-ATL-121"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-122", "label": "Encinitas", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00581"], "backlink_source_record_ids": ["AOAY-ATL-122"], "turquoise_relation": null}
+{"physical_entity_key": "AOAY-AOAY-ATL-123", "label": "San Diego", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": [], "persons_layers": ["Paramahansa Yogananda / AOAY (full atlas)"], "backlink_master_row_ids": ["MR-00582"], "backlink_source_record_ids": ["AOAY-ATL-123"], "turquoise_relation": null}
+{"physical_entity_key": "AYC-ENT-001", "label": "family compound, Gorakhpur", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00001"], "backlink_source_record_ids": ["AYC-SRC-001"], "turquoise_relation": "TQ-ENT-001"}
+{"physical_entity_key": "AYC-ENT-002", "label": "family bungalow, Bareilly", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R5"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00002"], "backlink_source_record_ids": ["AYC-SRC-002"], "turquoise_relation": "TQ-ENT-002"}
+{"physical_entity_key": "AYC-ENT-003", "label": "4 Gurpar Road", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R2"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00003"], "backlink_source_record_ids": ["AYC-SRC-003"], "turquoise_relation": "TQ-ENT-003"}
+{"physical_entity_key": "AYC-ENT-004", "label": "Burdwan railway station", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R2"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00004"], "backlink_source_record_ids": ["AYC-SRC-004"], "turquoise_relation": "TQ-ENT-004"}
+{"physical_entity_key": "AYC-ENT-005", "label": "Moghul Serai railway station", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R2"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00005"], "backlink_source_record_ids": ["AYC-SRC-005"], "turquoise_relation": "TQ-ENT-005"}
+{"physical_entity_key": "AYC-ENT-006", "label": "Bareilly railway station", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R2"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00006"], "backlink_source_record_ids": ["AYC-SRC-006"], "turquoise_relation": "TQ-ENT-006"}
+{"physical_entity_key": "AYC-ENT-007", "label": "Hardwar railway station", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R2"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00007"], "backlink_source_record_ids": ["AYC-SRC-007"], "turquoise_relation": "TQ-ENT-007"}
+{"physical_entity_key": "AYC-ENT-008", "label": "station bungalow/police detention near Hardwar station", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R5"], "persons_layers"
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=882 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/ALL_FINDINGS_ENTITY_INDEX.jsonl blob_sha=8b2d368e6e3b8827da459fd3612485acd71f29c3 original_offset=32768 original_length=4096 payload_bytes=4096 chunk_index=8 chunk_count=52 classification=text
+: ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00008"], "backlink_source_record_ids": ["AYC-SRC-008"], "turquoise_relation": "TQ-ENT-008"}
+{"physical_entity_key": "AYC-ENT-009", "label": "Rishikesh", "row_count": 1, "dispositions_seen": ["NEGATIVE/NONPRESENCE"], "R_classes_seen": ["R5"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00009"], "backlink_source_record_ids": ["AYC-SRC-009"], "turquoise_relation": "TQ-ENT-009"}
+{"physical_entity_key": "AYC-ENT-010", "label": "Pranabananda residence, Benares; long hall-like second-floor room", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R5"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00010"], "backlink_source_record_ids": ["AYC-SRC-010"], "turquoise_relation": "TQ-ENT-010"}
+{"physical_entity_key": "AYC-ENT-011", "label": "scriptural authority's home, Benares", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R5"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00011"], "backlink_source_record_ids": ["AYC-SRC-011"], "turquoise_relation": "TQ-ENT-011"}
+{"physical_entity_key": "AYC-ENT-012", "label": "temporary residence, Rana Mahal section; stone balcony overlooking Ganges", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R3"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00012"], "backlink_source_record_ids": ["AYC-SRC-012"], "turquoise_relation": "TQ-ENT-012"}
+{"physical_entity_key": "AYC-ENT-013", "label": "Bhaduri Mahasaya house, Upper Circular Road", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R2"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00013"], "backlink_source_record_ids": ["AYC-SRC-013"], "turquoise_relation": "TQ-ENT-013"}
+{"physical_entity_key": "AYC-ENT-014", "label": "Acharya Bhavan/Bose residence and laboratory", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R1"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00014"], "backlink_source_record_ids": ["AYC-SRC-014"], "turquoise_relation": "TQ-ENT-014"}
+{"physical_entity_key": "AYC-ENT-015", "label": "Dakshineswar Kali Temple", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R1"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00015"], "backlink_source_record_ids": ["AYC-SRC-015"], "turquoise_relation": "TQ-ENT-015"}
+{"physical_entity_key": "AYC-ENT-016", "label": "50 Amherst Street", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R3"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00016"], "backlink_source_record_ids": ["AYC-SRC-016"], "turquoise_relation": "TQ-ENT-016"}
+{"physical_entity_key": "AYC-ENT-017", "label": "Bhowanipur street/meeting area", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R5"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00017"], "backlink_source_record_ids": ["AYC-SRC-017"], "turquoise_relation": "TQ-ENT-017"}
+{"physical_entity_key": "AYC-ENT-018", "label": "Rai Ghat Lane hermitage, Serampore", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R2"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00018"], "backlink_source_record_ids": ["AYC-SRC-018"], "turquoise_relation": "TQ-ENT-018"}
+{"physical_entity_key": "AYC-ENT-019", "label": "home of uncle Sarada Prasad Ghosh, Serampore", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R2"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00019"], "backlink_source_record_ids": ["AYC-SRC-019"], "turquoise_relation": "TQ-ENT-019"}
+{"physical_entity_key": "AYC
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=883 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/ALL_FINDINGS_ENTITY_INDEX.jsonl blob_sha=8b2d368e6e3b8827da459fd3612485acd71f29c3 original_offset=36864 original_length=4096 payload_bytes=4096 chunk_index=9 chunk_count=52 classification=text
+-ENT-020", "label": "Serampore railway station", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R1"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00020"], "backlink_source_record_ids": ["AYC-SRC-020"], "turquoise_relation": "TQ-ENT-020"}
+{"physical_entity_key": "AYC-ENT-021", "label": "Brindaban railway station", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R2"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00021"], "backlink_source_record_ids": ["AYC-SRC-021"], "turquoise_relation": null}
+{"physical_entity_key": "AYC-ENT-022", "label": "Madanamohana Temple", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R1"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00022"], "backlink_source_record_ids": ["AYC-SRC-022"], "turquoise_relation": null}
+{"physical_entity_key": "AYC-ENT-023", "label": "secluded spot near Brindaban station", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R5"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00023"], "backlink_source_record_ids": ["AYC-SRC-023"], "turquoise_relation": null}
+{"physical_entity_key": "AYC-ENT-024", "label": "Katayani Peith Ashram, Brindaban", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00024"], "backlink_source_record_ids": ["AYC-SRC-024"], "turquoise_relation": null}
+{"physical_entity_key": "AYC-ENT-025", "label": "Ananta's bungalow, Agra", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R5"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00025"], "backlink_source_record_ids": ["AYC-SRC-025"], "turquoise_relation": null}
+{"physical_entity_key": "AYC-ENT-026", "label": "Taj Mahal", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R1"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00026"], "backlink_source_record_ids": ["AYC-SRC-026"], "turquoise_relation": null}
+{"physical_entity_key": "AYC-ENT-027", "label": "Ranchi Yogoda school/ashram", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R1"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00027"], "backlink_source_record_ids": ["AYC-SRC-027"], "turquoise_relation": null}
+{"physical_entity_key": "AYC-ENT-028", "label": "Dihika school/ashram", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R2"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00028"], "backlink_source_record_ids": ["AYC-SRC-028"], "turquoise_relation": null}
+{"physical_entity_key": "AYC-ENT-029", "label": "Karar Ashram, Puri", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R1"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00029"], "backlink_source_record_ids": ["AYC-SRC-029"], "turquoise_relation": null}
+{"physical_entity_key": "AYC-ENT-030", "label": "Santiniketan, Tagore study/meeting room", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R3"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00030"], "backlink_source_record_ids": ["AYC-SRC-030"], "turquoise_relation": null}
+{"physical_entity_key": "AYC-ENT-031", "label": "Wardha railway station", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R1"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00031"], "backlink_source_record_ids": ["AYC-SRC-031"], "turquoise_relation": null}
+{"physical_entity_key": "AYC-ENT-032", "label": "Maganvadi guesthouse", "row_count": 1, "dispositions_seen"
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=884 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/ALL_FINDINGS_ENTITY_INDEX.jsonl blob_sha=8b2d368e6e3b8827da459fd3612485acd71f29c3 original_offset=40960 original_length=4096 payload_bytes=4096 chunk_index=10 chunk_count=52 classification=text
+: ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R3"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00032"], "backlink_source_record_ids": ["AYC-SRC-032"], "turquoise_relation": null}
+{"physical_entity_key": "AYC-ENT-033", "label": "Gandhi's writing room, Maganvadi", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R3"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00033"], "backlink_source_record_ids": ["AYC-SRC-033"], "turquoise_relation": null}
+{"physical_entity_key": "AYC-ENT-034", "label": "Bombay harbour", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R5"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00034"], "backlink_source_record_ids": ["AYC-SRC-034"], "turquoise_relation": null}
+{"physical_entity_key": "AYC-ENT-035", "label": "Taj Mahal Hotel, Bombay", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R1"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00035"], "backlink_source_record_ids": ["AYC-SRC-035"], "turquoise_relation": null}
+{"physical_entity_key": "AYC-ENT-036", "label": "Regent Hotel, Bombay; third-story room with long open window", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R4"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00036"], "backlink_source_record_ids": ["AYC-SRC-036"], "turquoise_relation": null}
+{"physical_entity_key": "AYC-ENT-037", "label": "Town Hall, Mysore", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R1"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00037"], "backlink_source_record_ids": ["AYC-SRC-037"], "turquoise_relation": null}
+{"physical_entity_key": "AYC-ENT-038", "label": "Maharajah's College", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R1"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00038"], "backlink_source_record_ids": ["AYC-SRC-038"], "turquoise_relation": null}
+{"physical_entity_key": "AYC-ENT-039", "label": "University Medical School", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R2"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00039"], "backlink_source_record_ids": ["AYC-SRC-039"], "turquoise_relation": null}
+{"physical_entity_key": "AYC-ENT-040", "label": "National High School", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R3"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00040"], "backlink_source_record_ids": ["AYC-SRC-040"], "turquoise_relation": null}
+{"physical_entity_key": "AYC-ENT-041", "label": "Intermediate College", "row_count": 1, "dispositions_seen": ["STILL_UNRESOLVED"], "R_classes_seen": ["R5"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00041"], "backlink_source_record_ids": ["AYC-SRC-041"], "turquoise_relation": null}
+{"physical_entity_key": "AYC-ENT-042", "label": "Chetty Town Hall", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R2"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00042"], "backlink_source_record_ids": ["AYC-SRC-042"], "turquoise_relation": null}
+{"physical_entity_key": "AYC-ENT-043", "label": "Chamundi Temple", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R1"], "persons_layers": ["Paramahansa Yogananda / AOAY"], "backlink_master_row_ids": ["MR-00043"], "backlink_source_record_ids": ["AYC-SRC-043"], "turquoise_relation": null}
+{"physical_entity_key": "AYC-ENT-044", "label": "Krishnaraja Sagar Dam", "row_count": 1, "dispositions_seen": ["PHYSICAL_ENTITY_LINKED"], "R_classes_seen": ["R1"], "persons_layers": ["Paramahansa Yogananda / 
+<<< END CHUNK >>>
+

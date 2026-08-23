@@ -1,0 +1,809 @@
+>>> CHUNK stream_row=1289 path=india5/schemas/task.schema.json blob_sha=f4aed1b926c914df5a948f5a15ffa9e9290ce93f original_offset=0 original_length=3625 payload_bytes=3625 chunk_index=0 chunk_count=1 classification=text
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "india5/schemas/task.schema.json",
+  "title": "INDIA5 TASK.yaml",
+  "description": "Schema voor een taak in de bestandsgebaseerde INDIA5-taakarchitectuur (india5/TASK_PROTOCOL.md). Gevalideerd door india5/scripts/validate_task.py.",
+  "type": "object",
+  "required": [
+    "task_id",
+    "protocol_version",
+    "issued_by",
+    "issued_at",
+    "target_branch",
+    "expected_head",
+    "task_file",
+    "task_file_sha256",
+    "scope",
+    "required_inputs",
+    "allowed_reads",
+    "allowed_writes",
+    "forbidden_writes",
+    "expected_outputs",
+    "status",
+    "completion_marker"
+  ],
+  "properties": {
+    "task_id": {
+      "type": "string",
+      "pattern": "^INDIA5-[A-Z0-9]+-[0-9]{3,}$",
+      "description": "Immutable, uniek. Conventie: INDIA5-<SCOPE>-<NNN>, bv. INDIA5-ARCH-TEST-001, INDIA5-VNS-002."
+    },
+    "protocol_version": {
+      "type": "string",
+      "description": "Versie van india5/TASK_PROTOCOL.md waartegen deze taak is opgesteld."
+    },
+    "issued_by": {
+      "type": "string",
+      "description": "Wie de taak heeft uitgeschreven, bv. INDIA2 (ChatGPT, architect) of Mark."
+    },
+    "issued_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "target_branch": {
+      "type": "string",
+      "description": "De branch waarop deze taak moet worden uitgevoerd."
+    },
+    "expected_head": {
+      "type": "string",
+      "description": "Commit-SHA die target_branch moet hebben op het moment van claimen. Bij afwijking: STALE_EXPECTED_HEAD, taak niet uitvoeren."
+    },
+    "task_file": {
+      "type": "string",
+      "description": "Relatief pad naar het volledige taakdocument (TASK.md) binnen dezelfde taakdirectory."
+    },
+    "task_file_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$",
+      "description": "SHA-256 van task_file op het moment van uitgifte. Bij mismatch bij het lezen: taak NIET uitvoeren, mogelijk afgekapt of gemanipuleerd."
+    },
+    "scope": {
+      "type": "string",
+      "enum": ["ARCHITECTURE", "PRE_BRONS", "BRONS", "ZILVER", "GOUD", "TRAVEL", "REGION_FULL_FLOW", "OTHER"],
+      "description": "REGION_FULL_FLOW dekt een volledige PRE-BRONS->BRONS->ZILVER->GOUD->TRAVEL-doorloop in één taak."
+    },
+    "required_inputs": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Paden die moeten bestaan en gelezen mogen worden vóór uitvoering."
+    },
+    "allowed_reads": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "allowed_writes": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Padpatronen die deze taak mag aanmaken/wijzigen."
+    },
+    "forbidden_writes": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Padpatronen die deze taak nooit mag aanraken, ongeacht scope. Mag nooit overlappen met allowed_writes."
+    },
+    "expected_outputs": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Paden die na succesvolle uitvoering moeten bestaan; complete_task.py controleert dit."
+    },
+    "status": {
+      "type": "string",
+      "enum": ["QUEUED"],
+      "description": "In TASK.yaml zelf altijd QUEUED bij uitgifte -- de feitelijke voortgangsstatus leeft in STATUS.yaml, nooit in TASK.yaml (dat blijft immutable na uitgifte)."
+    },
+    "completion_marker": {
+      "type": "string",
+      "description": "Exacte string die RESULT.md moet bevatten om als volledig (niet afgekapt) te gelden, bv. 'INDIA5-TASK-COMPLETE::<task_id>'."
+    }
+  },
+  "additionalProperties": true
+}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1290 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/PILOT_RESULT.md blob_sha=f4ebdfb2798a037fbf1e46ebe8a29fdf4daf0170 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+# PILOT_RESULT — TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
+
+```
+task_id: TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
+fase: PILOT (Anandamayi Ma + Neem Karoli Baba), landelijk, geen regiobegrenzing
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-15
+blindheid: bestaande regio-kandidaatsets NIET gebruikt als discovery-basis/checklist tijdens
+  Fase A; vergelijking met repo pas in Fase C (hieronder)
+```
+
+## EHRLIJKHEID OVER DIEPTE (lees dit eerst)
+
+Dit is een pilot binnen één sessie, geen volledig verzadigde landelijke sweep. Voor beide personen
+zijn brede, meerdere-bronnen-zoekopdrachten gedaan (officiële ashram-organisaties, Wikipedia,
+gespecialiseerde devotee-sites) en is elke hoofdclaim rechtstreeks gecontroleerd, niet alleen uit
+een zoeksamenvatting overgenomen. Wat NIET is gedaan binnen deze pilot: voor elk van de ~20-25
+gevonden plekken per persoon een diepe, primaire-bron-verificatie van exacte gebeurtenis + exacte
+sub-locatie (dat zou een veelvoud van deze tijd kosten voor 2 personen, laat staan 11). Daarom:
+**`PERSON_SWEEP_SATURATED` wordt voor GEEN van beide personen geclaimd.** Zie SATURATIE-STATUS
+onderaan per persoon voor precies wat wel/niet is gedaan tegen de 6-punts-eis uit TASK.md.
+
+## METHODE DIE GEBRUIKT IS
+
+Per persoon: brede zoekopdrachten op naam + "ashram"/"birthplace"/"samadhi"/"temples list", gevolgd
+door gerichte fetches van de meest gezaghebbende overzichtspagina's (eigen organisatie-website
+waar beschikbaar). Geen regionale kandidatenlijst geraadpleegd tijdens deze fase.
+
+---
+
+# PERSOON 1 — ANANDAMAYI MA
+
+## Atlas (landelijk, tijdelijk, ATL-AM-*)
+
+| atlas_id | plek | plaats/staat | tier | link-type | bron | person_event_verified | physical_identity_verified | exact_sublocation_verified |
+|---|---|---|---|---|---|---|---|---|
+| ATL-AM-001 | Geboorteplek Kheora | Brahmanbaria, **Bangladesh** (niet India — buiten Marks reisscope, wel vermeld voor volledigheid) | 1 | geboorte | Banglapedia, Wikipedia | JA | JA | JA |
+| ATL-AM-002 | Mahasamadhi-schrijn (Matri Mandir), Kankhal | Haridwar, Uttarakhand | 1 | samadhi | anandamayi.org life-history, Wikipedia | JA | JA | JA |
+| ATL-AM-003 | Ashram Varanasi (Ramghat) | Varanasi, UP | 1 | ashram/verblijf | anandamayi.org, shreeshreeanandamayeesangha.org | JA | JA | ONBEKEND (exact adres niet apart geverifieerd) |
+| ATL-AM-004 | Ashram Vrindavan | Vrindavan, UP | 1 | ashram/verblijf | shreeshreeanandamayeesangha.org | JA | JA | ONBEKEND |
+| ATL-AM-005 | Ashram Kishenpur/Dehradun (1932, oudste) | Dehradun, Uttarakhand | 1 | ashram/verblijf, vroegste ashram | Wikipedia, iloveindia.com | JA | JA | ONBEKEND |
+| ATL-AM-006 | Patal Devi Ashram, Almora | Almora, Uttarakhand | 1 | ashram/verblijf | **AL IN REPO** — zie FASE C | — | — | — |
+| ATL-AM-007 | Dhaulchina Ashram, Almora | Almora, Uttarakhand | 1 | ashram/verblijf | **AL IN REPO** — zie FASE C | — | — | — |
+| ATL-AM-008 | Naimisharanya | UP | 2 | ashram/verblijf | shreeshreeanandamayeesangha.org | JA (org-vermelding) | ONBEKEND | ONBEKEND |
+| ATL-AM-009 | Agarpara, Kolkata | Kolkata, West Bengal | 2 | ashram/verblijf | shreeshreeanandamayeesangha.org | JA (org-vermelding) | ONBEKEND | ONBEKEND |
+| ATL-AM-010 | Kalkaji, New Delhi | Delhi | 2 | ashram/verblijf | shreeshreeanandamayeesangha.org | JA (org-vermelding) | ONBEKEND | ONBEKEND |
+| ATL-AM-011 | Vindhyachal | UP | 2 | ashram/verblijf | shreeshreeanandamayeesangha.org | JA (org-vermelding) | ONBEKEND | ONBEKEND |
+| ATL-AM-012 | Rajgir, Bihar | Bihar — **grenst aan Gaya/Bodh Gaya-corridorregio** | 2 | ashram/verblijf | shreeshreeanandamayeesangha.org | JA (org-vermelding) | ONBEKEND | ONBEKEND |
+| ATL-AM-013 | Ranchi + Jamshedpur, Bihar/Jharkhand | Jharkhand | 2 | ashram/verblijf | shreeshreeanandamayeesangha.org | JA (org-vermelding) | ONBEKEND | ONBEKEND |
+| ATL-AM-014 | Tarapeeth | West Bengal | 2 | ashram/verblijf | shreeshreeanandamayeesangha.org | JA (org-vermelding) | ONBEKEND | ONBEKEND |
+| ATL-AM-015 | Uttarkashi + Kedarnath-regio | Uttarakhand | 2 | ashram/verblijf | shreeshreeanandamayeesangha.org | JA (org-vermelding) | ONBE
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1291 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/PILOT_RESULT.md blob_sha=f4ebdfb2798a037fbf1e46ebe8a29fdf4daf0170 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+KEND | ONBEKEND |
+| ATL-AM-016 | Bhopal (Bairagarh) | Madhya Pradesh | 2 | ashram/verblijf | shreeshreeanandamayeesangha.org | JA (org-vermelding) | ONBEKEND | ONBEKEND |
+| ATL-AM-017 | Bhimpura, Baroda | Gujarat | 2 | ashram/verblijf | shreeshreeanandamayeesangha.org | JA (org-vermelding) | ONBEKEND | ONBEKEND |
+| ATL-AM-018 | Pune | Maharashtra | 2 | ashram/verblijf | shreeshreeanandamayeesangha.org | JA (org-vermelding) | ONBEKEND | ONBEKEND |
+| ATL-AM-019 | Puri, Orissa | Odisha | 2 | ashram/verblijf | shreeshreeanandamayeesangha.org | JA (org-vermelding) | ONBEKEND | ONBEKEND |
+| ATL-AM-020 | Bodh Ashram (Lama Govinda-landgoed) | Kasar Devi, Almora | 1 | bezoek bij gastheer | **AL IN REPO als 081** — zie FASE C | JA | JA | deels |
+
+**Niveau-toelichting ATL-AM-008 t/m 019**: dit zijn organisatie-eigen ashram-vermeldingen
+(adressenlijst van shreeshreeanandamayeesangha.org), dus `person_event_verified` in de zin van "hier
+was een eigen ashram genoemd naar/opgericht in haar traditie" is bevestigd, maar of Ma zelf daar
+persoonlijk verbleef versus dat het een postume/devotee-gestichte vestiging is, is per plek NIET
+apart uitgezocht in deze pilot — daarom TIER 2, niet TIER 1, en expliciet als open punt vastgelegd
+in plaats van stilzwijgend als TIER 1 gepromoveerd.
+
+## FASE C — vergelijking met repo (Anandamayi Ma)
+
+- **FOUND_AND_ALREADY_KNOWN**: Patal Devi Ashram (ATL-AM-006), Dhaulchina Ashram (ATL-AM-007) —
+  beide al kandidaat in `KUMAON-V2-RESWEEP-001` (Sweep A `KUM-SWEEP-A-004`, Sweep B `KB2-017`/
+  `KB2-018`). Bodh Ashram (ATL-AM-020) — al permanent nummer **081**, `A`, `LOCKED_BY_MARK`.
+  Vishnupad Temple, Bodh Gaya (nummer 051) heeft al een Anandamayi Ma Top-11-link (AOAY-audit).
+  Varanasi heeft al een bestaand "Anandamayi Ma Ashram"-kandidaat in de 001-045-set (exacte
+  VNS-CAND-ID niet in deze pilot opgezocht — cross-check nodig, zie NEXT_ACTION).
+- **FOUND_BUT_MISSING_FROM_REPO**: **Kankhal/Haridwar Mahasamadhi (ATL-AM-002)** — dit is
+  waarschijnlijk het enkele belangrijkste Anandamayi Ma-punt van heel India (haar
+  mahasamadhi-schrijn) en komt NERGENS voor in de huidige repo (niet Varanasi, niet Bodh Gaya, niet
+  Kumaon). Dit is exact het soort miss dat deze taak wilde blootleggen. Ook ontbrekend:
+  Dehradun/Kishenpur (oudste ashram, 1932), Vrindavan-ashram, en de 12 TIER-2-plekken
+  ATL-AM-008 t/m 019 (Naimisharanya, Kolkata, Delhi/Kalkaji, Vindhyachal, Rajgir, Ranchi/
+  Jamshedpur, Tarapeeth, Uttarkashi/Kedarnath, Bhopal, Baroda, Pune, Puri).
+- **REPO_ONLY_NOT_REFOUND**: geen — geen bestaande Anandamayi Ma-kandidaat in de repo die deze
+  landelijke sweep niet ook zelfstandig raakte (Varanasi-ashram uitgezonderd, nog te bevestigen).
+- **DUPLICATE_OR_SAME_PHYSICAL_SITE**: geen nieuwe duplicaten gevonden.
+- **PERSON_LINK_UPGRADE**: geen — geen bestaande niet-Anandamayi-plek bleek alsnog aan haar
+  gekoppeld.
+- **REGION_MISS**: Kankhal/Haridwar ligt buiten alle drie tot nu toe gesweepte regio's
+  (Varanasi/Bodh Gaya/Kumaon) — dus geen regionale sweep-fout, wel een blinde vlek in de totale
+  dekking tot nu toe.
+- **NEW_REGION_SIGNAL**: **Haridwar/Kankhal** is een sterk signaal voor een mogelijke toekomstige
+  regio (grote Ganges-bedevaartsstad, nu al minimaal 1 zwaar Top-11-punt). Ook **Rajgir (Bihar)**
+  is een signaal — dit ligt praktisch dicht bij de Gaya/Bodh Gaya-corridorregio en zou bij een
+  toekomstige Bodh Gaya-omgevingscontrole moeten worden meegenomen.
+
+## SATURATIE-STATUS (Anandamayi Ma)
+
+1. Officiële/lineage-bronnen geraadpleegd: JA (anandamayi.org, shreeshreeanandamayeesangha.org).
+2. Grote levensfasen/reizen afgedekt: DEELS — geboorte, samadhi en hoofdashrams wel; jaar-voor-jaar
+   reisgeschiedenis niet.
+3. Alternatieve spellingen/namen geprobeerd: DEELS (Anandamayi/Anandamayee), niet uitputtend.
+4. Host-/landgoedketens teruggevolgd: DEELS — Bodh Ashram (al bekend) bevestigd; geen systematische
+   nieuwe host-zoekronde gedaan buiten wat al bekend was.
+5. Expliciet gezocht naar "op bezoek bij anderen": NEE, niet systematisch binnen deze pilot.
+6. Negatieve/onzekere claims
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1292 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/PILOT_RESULT.md blob_sha=f4ebdfb2798a037fbf1e46ebe8a29fdf4daf0170 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+ vastgelegd: gedeeltelijk (zie TIER-2-toelichting hierboven).
+
+**`PERSON_SWEEP_SATURATED: NEE`** — sterke eerste laag, niet verzadigd.
+
+---
+
+# PERSOON 2 — NEEM KAROLI BABA
+
+## Atlas (landelijk, tijdelijk, ATL-NKB-*)
+
+| atlas_id | plek | plaats/staat | tier | link-type | bron | person_event_verified | physical_identity_verified | exact_sublocation_verified |
+|---|---|---|---|---|---|---|---|---|
+| ATL-NKB-001 | Geboorteplek Akbarpur (tempel ingewijd 2001) | Ambedkar Nagar-district, UP | 1 | geboorte | maharajji.love, hteve.wordpress | JA | JA | JA |
+| ATL-NKB-002 | Kainchi Dham | Nainital-district, Uttarakhand | 1 | hoofdashram | **AL IN REPO** — zie FASE C | — | — | — |
+| ATL-NKB-003 | Vrindavan Ashram + Mahasamadhi Mandir | Vrindavan, UP | 1 | samadhi (1973) + hoofdtempel | nkbashram.org | JA | JA | JA |
+| ATL-NKB-004 | Bhumiadhar Ashram | Kumaon, Uttarakhand | 1 | ontmoetingsplek | **AL IN REPO** — zie FASE C | — | — | — |
+| ATL-NKB-005 | Delhi Ashram (Mehrauli) — Annapoorna Mandir | Delhi | 1 | tempel, 2e-grootste Annapoorna Mandir van India | maharajji.love | JA (org) | JA | ONBEKEND |
+| ATL-NKB-006 | North Delhi Hanuman-tempel (ingewijd 4 dec 1965) | Delhi, bij de Yamuna | 1 | tempel, gedateerd | maharajji.love | JA | JA | JA (datum + rivierligging) |
+| ATL-NKB-007 | Panki Hanuman-tempel | Kanpur, UP | 1 | tempel | maharajji.love | JA (org) | JA | ONBEKEND |
+| ATL-NKB-008 | Lucknow Ashram | Lucknow, UP | 2 | ashram | maharajji.love | JA (org) | ONBEKEND | ONBEKEND |
+| ATL-NKB-009 | Rishikesh Ashram | Rishikesh, Uttarakhand | 2 | ashram | maharajji.love | JA (org) | ONBEKEND | ONBEKEND |
+| ATL-NKB-010 | Shimla Hanuman-tempel | Shimla, Himachal Pradesh | 2 | tempel | maharajji.love | JA (org) | ONBEKEND | ONBEKEND |
+| ATL-NKB-011 | Hanuman Garhi, Nainital | Nainital, Uttarakhand | 1 | tempel | **AL IN REPO** — zie FASE C | — | — | — |
+| ATL-NKB-012 | Kakrighat-tempel | Kumaon, Uttarakhand | 2 | tempel | **AL IN REPO** — zie FASE C | — | — | — |
+| ATL-NKB-013 | Nibkarori Ashram | India (exacte plaats niet direct bevestigd in deze pilot) | 3 | ashram, naamsvariant "Neeb Karori" | maharajji.love | ONBEKEND | ONBEKEND | ONBEKEND |
+
+**Buiten India** (vermeld, niet voor Marks India-reis): Taos Hanuman-tempel (New Mexico, VS),
+Ashram Brindavon (Ulm, Duitsland) — TIER 3, geen kandidaat.
+
+## FASE C — vergelijking met repo (Neem Karoli Baba)
+
+- **FOUND_AND_ALREADY_KNOWN**: Kainchi Dham, Bhumiadhar/Bhumiyadhar, Hanuman Garhi Nainital,
+  Kakrighat — alle vier al kandidaat/permanent nummer in `KUMAON-V2-RESWEEP-001` of legacy
+  `LOCKED_A`. Vrindavan-ashram+samadhi (ATL-NKB-003) is vermoedelijk DEZELFDE plek als legacy's
+  reeds `LOCKED_A` "Neem Karoli Baba Ashram en samadhi, Vrindavan" (DECISION-0008) — behandeld als
+  FOUND_AND_ALREADY_KNOWN, niet als nieuwe vondst, al is een expliciete identity-check (zelfde
+  adres) nog niet gedaan in deze pilot.
+- **FOUND_BUT_MISSING_FROM_REPO**: Akbarpur-geboorteplek (ATL-NKB-001), Delhi/Mehrauli
+  Annapoorna Mandir (005), North Delhi Hanuman-tempel (006, gedateerd 1965 — sterk TIER1), Panki
+  Hanuman-tempel Kanpur (007), Lucknow Ashram (008), Rishikesh Ashram (009), Shimla Hanuman-tempel
+  (010). Zeven nieuwe, landelijk verspreide punten die in geen enkele huidige regio-sweep zaten.
+- **REPO_ONLY_NOT_REFOUND**: geen.
+- **DUPLICATE_OR_SAME_PHYSICAL_SITE**: Vrindavan-ashram (zie hierboven) — waarschijnlijk duplicaat
+  van bestaand legacy-record, identity-check nodig, niet in deze pilot afgerond.
+- **PERSON_LINK_UPGRADE**: geen.
+- **REGION_MISS**: geen van de nieuwe vondsten ligt in een reeds gesweepte regio die het had moeten
+  vinden — dit zijn allemaal buiten-regio landelijke punten (Delhi, Kanpur, Lucknow, Shimla,
+  Rishikesh), dus eerder `NEW_REGION_SIGNAL` dan een sweep-fout.
+- **NEW_REGION_SIGNAL**: **Delhi** heeft nu minstens 2 NKB-punten (Mehrauli + North Delhi) — Delhi
+  is toch al een verplichte aankomstpoort voor Mark, dus dit is praktisch zeer relevant.
+
+## SATURATIE-STATUS (Neem Karoli Baba)
+
+Zelfde format als Anandamayi Ma:
+1.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1293 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/PILOT_RESULT.md blob_sha=f4ebdfb2798a037fbf1e46ebe8a29fdf4daf0170 original_offset=12288 original_length=4003 payload_bytes=4003 chunk_index=3 chunk_count=4 classification=text
+ Officiële bronnen: JA (nkbashram.org, maharajji.love).
+2. Levensfasen/reizen: DEELS — geboorte, samadhi, hoofdashrams wel; volledige reisgeschiedenis niet.
+3. Naamsvarianten: DEELS ("Neeb Karori"/"Nibkarori" opgemerkt, niet doorgetrokken naar aparte
+   zoekronde).
+4. Host-/landgoedketens: DEELS — Bhumiadhar/Kakrighat al bekend, geen nieuwe hostronde gedaan.
+5. "Op bezoek bij anderen" expliciet: NEE, niet systematisch.
+6. Negatieve/onzekere claims: gedeeltelijk vastgelegd (Nibkarori-status ONBEKEND, expliciet zo).
+
+**`PERSON_SWEEP_SATURATED: NEE`** — sterke eerste laag, niet verzadigd.
+
+---
+
+# ZOEKPATRONEN — WAT WERKTE / NIET WERKTE
+
+**Werkte goed**: de eigen-organisatie-adressenlijst (`shreeshreeanandamayeesangha.org/ashrams.html`,
+`maharajji.love/Ashrams-Temples/`) leverde in één keer een landelijke lijst op — veel efficiënter
+dan losse stad-voor-stad zoekopdrachten. Dit soort "officiële ashram-lijst"-pagina's bestaat voor
+minstens meerdere van de overige 9 Top-11-namen (bijv. yssofindia.org/list-of-centres voor
+Yogananda, al eerder gebruikt in de Kumaon-sweep) en zou als eerste zoekstap bij elke volgende
+persoon moeten gelden.
+
+**Werkte NIET goed genoeg**: puur regio-neutrale naamzoekopdrachten misten precies het soort
+diep-historische, niet-institutionele host-plek dat deze hele taak had moeten oplossen (bijv. is
+er voor Anandamayi Ma nog een "Bodh Ashram-achtige" verborgen gastheerplek die deze pilot NIET
+vond, omdat een organisatie-adressenlijst per definitie alleen EIGEN instellingen toont, geen
+plekken waar iemand als gast verbleef). Dit bevestigt: de organisatie-lijst-methode lost het
+institutionele-blinde-vlek-probleem op, maar NIET het host-/gastheerprobleem uit de Kumaon-
+root-cause. Een aparte, gerichte "wie ontving [persoon] als gast, waar" zoekronde blijft nodig en
+is in deze pilot NIET systematisch gedaan (zie saturatie-punt 5 hierboven, NEE bij beide personen).
+
+**Bevestiging van de hypothese**: de pilot vond wél degelijk nieuwe, missiekritische punten die
+regionale sweeps gemist hadden (met name Kankhal/Haridwar voor Anandamayi Ma) — dus de
+inverse persoon-centrische methode heeft aantoonbare meerwaarde. Maar de pilot toont ook dat
+alleen "landelijk zoeken" niet vanzelf het exacte Bodh-Ashram-type-probleem (host-ketens) oplost
+— dat blijft een aparte, verplichte stap nodig binnen zowel regionale als landelijke sweeps.
+
+# GESCHATTE ATLASGROOTTE VOOR ALLE 11
+
+Op basis van deze 2 personen (13-20 punten per persoon bij deze onderzoeksdiepte, ruim de helft
+TIER 2): een ruwe schatting van **12-20 punten per persoon**, dus **circa 130-220 punten totaal**
+voor alle 11, vóór ontdubbeling tegen bestaande regio-kandidaten en vóór identity-checks. Dit is
+een ruwe extrapolatie, geen bewezen getal — sommige personen (bijv. Ramana Maharshi, die 54 jaar
+Arunachala nooit verliet) zullen waarschijnlijk veel kleiner uitvallen; anderen (Vivekananda, wiens
+Kumaon-circuit alleen al 15+ punten had) mogelijk groter.
+
+# NEXT_ACTION (voor INDIA-QA, conform TASK.md "stop na pilot")
+
+1. INDIA beoordeelt of deze pilot-diepte/methode volstaat om door te zetten naar de overige 9
+   personen, of dat de host-/gastheer-zoekronde eerst als aparte, verplichte stap moet worden
+   toegevoegd aan de methode zelf.
+2. Kankhal/Haridwar-Mahasamadhi (Anandamayi Ma) verdient losstaande aandacht — mogelijk een eigen
+   toekomstige regio-signaal, sterk genoeg om apart te vermelden aan Mark op termijn (geen actie nu,
+   geen A/B/C).
+3. Varanasi-repo cross-check nodig: bevestigen of de bestaande "Anandamayi Ma Ashram"-kandidaat in
+   VNS-CAND-001-045 hetzelfde adres is als ATL-AM-003.
+4. Vrindavan NKB-ashram/samadhi identity-check: bevestigen of ATL-NKB-003 hetzelfde is als het
+   legacy `LOCKED_A`-record (DECISION-0008) of een aanvullend punt.
+5. Geen PDF, geen route, geen A/B/C namens Mark — conform TASK.md.
+
+---
+Geschreven door: CCI. Pilot, geen volledige verzadiging. Geen PDF, geen A/B/C. `PDF_STATUS:
+VERBODEN` gerespecteerd.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1294 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/scripts/next_candidate.py blob_sha=f6d0f5e8cc7854e953e5a063a0dd85887193b393 original_offset=0 original_length=2643 payload_bytes=2643 chunk_index=0 chunk_count=1 classification=text
+#!/usr/bin/env python3
+"""Bepaal live welke VNS-CAND-* nog verwerkt moeten worden.
+
+Bron van waarheid: de data zelf. Geen enkel apart status-/progress-bestand
+wordt vertrouwd (dat was de hoofdoorzaak van het vastlopen -- zie ROOT_CAUSE.md).
+
+Gebruik:
+    python3 next_candidate.py                 -> print status + volgende kandidaat
+    python3 next_candidate.py --range 22 40    -> beperk tot een candidate-ID-bereik
+    python3 next_candidate.py --json           -> machine-leesbare output
+"""
+import argparse
+import json
+import sys
+from pathlib import Path
+
+RUN_DIR = Path(__file__).resolve().parent.parent
+INPUT_CANDIDATES = RUN_DIR / "INPUT" / "candidates.jsonl"
+BRONS_DIR = RUN_DIR / "BRONS"
+
+
+def load_ids(path):
+    ids = []
+    if not path.exists():
+        return ids
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                rec = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            cid = rec.get("candidate_id")
+            if cid:
+                ids.append(cid)
+    return ids
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--range", nargs=2, type=int, metavar=("START", "END"),
+                         help="beperk tot VNS-CAND-<START> t/m VNS-CAND-<END>")
+    parser.add_argument("--json", action="store_true")
+    args = parser.parse_args()
+
+    all_ids = load_ids(INPUT_CANDIDATES)
+    if args.range:
+        start, end = args.range
+        all_ids = [c for c in all_ids
+                   if start <= int(c.split("-")[-1]) <= end]
+
+    done = set()
+    for brons_file in sorted(BRONS_DIR.glob("BRONS-B*.jsonl")):
+        done.update(load_ids(brons_file))
+
+    remaining = [c for c in all_ids if c not in done]
+
+    result = {
+        "total_in_scope": len(all_ids),
+        "done": sorted(done & set(all_ids)),
+        "done_count": len(done & set(all_ids)),
+        "remaining": remaining,
+        "remaining_count": len(remaining),
+        "next_candidate": remaining[0] if remaining else None,
+    }
+
+    if args.json:
+        print(json.dumps(result, indent=2))
+    else:
+        print(f"In scope: {result['total_in_scope']}")
+        print(f"Al verwerkt: {result['done_count']}")
+        print(f"Nog te doen: {result['remaining_count']}")
+        print(f"Volgende kandidaat: {result['next_candidate']}")
+        if result["remaining"]:
+            print("Resterend bereik: " + ", ".join(result["remaining"]))
+
+    sys.exit(0 if not args.range or remaining or not all_ids else 1)
+
+
+if __name__ == "__main__":
+    main()
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1295 path=india5/tasks/done/INDIA5-ARCH-HARDEN-002/TASK.md blob_sha=f753d1f05443b0cd5a1f1b12a54d91fcb002de9e original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# TASK.md — INDIA5-ARCH-HARDEN-002
+
+Bron: PR #23, CCI_TASK_ENVELOPE "INDIA5-ARCH-HARDEN-002" (INDIA2, architectuurtaak).
+Overgenomen woordelijk uit de PR-comment, hier vastgelegd als canoniek taakbestand.
+
+## Doel
+
+Hard de in INDIA5-ARCH-TEST-001 gebouwde taakarchitectuur af vóór enig inhoudelijk
+India-onderzoek. Controleer en herstel de concrete zwakke punten die uit de eerste
+end-to-end-test zichtbaar zijn geworden.
+
+## Verplicht onderzoeken en zo nodig repareren
+
+1. `STATUS.yaml` toont na afronding nog `git_commit_at_claim: null` en
+   `git_commit_at_complete: null`, terwijl er aantoonbaar claim- en completioncommits
+   bestaan. Maak deze velden betrouwbaar en controleerbaar, of documenteer technisch waarom ze
+   pas post-commit kunnen worden gevuld en ontwerp een niet-circulaire oplossing.
+2. Controleer dat `expected_head` niet onbruikbaar wordt doordat het aanmaken/claimen van de
+   taak zelf HEAD wijzigt. Definieer exact welk commitmoment wordt bedoeld en valideer dit
+   zonder race of zelfreferentie.
+3. Controleer exactly-once-semantiek: één actieve taak maximaal; dezelfde taak kan niet
+   tweemaal geclaimd worden; een tweede CCI-sessie kan geen parallelle claim doen; voltooide
+   taak kan niet opnieuw uitgevoerd worden.
+4. Controleer crashherstel op minimaal vier toestanden: na queue-commit vóór claim; na
+   claim-commit vóór uitvoering; na outputs vóór completion; na completion-move vóór
+   resultaatcomment.
+5. Voeg een expliciete instructieprecedentie toe voor conflicten: canonieke TASK.yaml/TASK.md
+   op de bedoelde branch; expliciete HOLD/ABORT-status in taakbestanden; Mark-besluitenregister;
+   PR-commenten alleen als envelop/signaal; chattekst en lokale hooks mogen nooit een actieve
+   canonieke taak overschrijven.
+6. Leg vast dat één regio-opdracht autonoom PRE-BRONS → BRONS → ZILVER → GOUD/TRAVEL kan
+   doorlopen. Interne fasen mogen checkpoints hebben, maar Mark start niet iedere fase of batch
+   opnieuw.
+7. Scheid governance en regio-uitvoering: governance/canonieke architectuur in versiebeheerde
+   bestanden; elke toekomstige regio krijgt een eigen run en bij voorkeur eigen PR; PR #23
+   blijft Varanasi + architectuurmigratie en wordt niet de eeuwige queue voor alle regio's.
+8. Voeg een globale nummeringsvalidator-architectuur toe die vanaf de volgende regio kan
+   garanderen dat fysieke locatie-ID's repositorybreed uniek en immutable zijn. Raak de huidige
+   001–040 niet aan.
+9. Maak een vaste machineleesbare beoordelingsrubriek voor CCI-kennis/capability gates, zodat
+   toekomstige vrijgave niet van één lange prose-comment afhangt.
+10. Migreer de reeds genomen governancebesluiten uit PR-comments naar canonieke bestanden,
+    minimaal: rolverdeling Mark / INDIA2 / CCI; PDF alleen op expliciet verzoek;
+    detectorbibliotheek-governance; PRE-BRONS-output en verzadigingsregels; immutable numbering;
+    instructieprecedentie; task-file relay in plaats van lange comments.
+11. Behandel de bestaande ongecommitte PRE-BRONS/protocolbestanden voorzichtig: inventariseer
+    ze; vergelijk ze met de canonieke besluiten; commit ze NIET stil als onderdeel van deze
+    hardening tenzij ze uitsluitend noodzakelijk zijn voor de taakarchitectuur; zet inhoudelijke
+    PRE-BRONS-wijzigingen apart in een reviewbaar voorstel/resultaatbestand.
+12. Voer negatieve tests uit en leg bewijs vast: stale expected_head; dubbele claim; ontbrekende
+    completion marker; gewijzigd TASK.md na hashvastlegging; verboden write-path; completed task
+    opnieuw claimen; twee queued taken terwijl één active is; afgekapt/ontbrekend taakbestand.
+
+## Verboden
+
+- Geen Varanasi-discoveryonderzoek.
+- Geen GEO-onderzoek.
+- Geen wijziging aan A/B/C, hotel, KML, PDF of kandidaten 001–040.
+- Geen merge van PR #23.
+- Geen lange CCI_RESULT-comment; uitgebreid resultaat staat in RESULT.md, comment is alleen
+  korte envelop.
+
+## Eindrapport
+
+`RESULT.md` bevat: bevindingen per punt; alle gewijzigde bestanden; testmatrix met PASS/FAIL;
+resterende risico's; expliciete uitspraak `ARCHITECTURE_READY_FOR_CONTENT_TASKS: YES/NO`;
+vo
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1296 path=india5/tasks/done/INDIA5-ARCH-HARDEN-002/TASK.md blob_sha=f753d1f05443b0cd5a1f1b12a54d91fcb002de9e original_offset=4096 original_length=65 payload_bytes=65 chunk_index=1 chunk_count=2 classification=text
+orstel voor de eerstvolgende inhoudelijke taak (niet uitvoeren).
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1297 path=runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/FINAL_FEED_MANIFEST.md blob_sha=f9e877bf75870c94e5686befebdf7457c684795e original_offset=0 original_length=3590 payload_bytes=3590 chunk_index=0 chunk_count=1 classification=text
+# FINAL FEED MANIFEST — CENTRAL MASTER
+
+Date: 2026-08-20
+State: READY_FOR_FULL_MASTER_INGEST
+
+## BLAUW — AOAY/YOGANANDA
+Branch: `agent/indiablauw-trip-ops-prep`
+Task: `INDIABLAUW-AOAY-YOGANANDA-LOCATION-CLOSURE-001`
+Source records: 58
+Entity mappings: 58
+Silent drops: 0
+Commits:
+- source `18d472cce9f145187a1ca6e3071fbf62eaf529fe`
+- entities `7e60302cf46cd2380e1fae03978a14706d23ae9f`
+- R4/R5 `7122f85dad8e3d0710e48df83ee72eae56b5d5d2`
+- access `90d14cb6bcbdd7e88c4c83ee3e7bfa0084ac67d6`
+- status `58854d1840147b8ae2f1eff42b310e417cb5d836`
+
+## TURQUOISE — ENTITY / OVERLAP RECONCILIATION
+Branch: `agent/indiaturquoise-allperson-overlap`
+- merge map `f5e156f3e23850cc5f52f71bf26ff3a2346b6900`
+- same-site `4cd8396f6acf19b70564a34a833bed5ab020624a`
+- parent-child `fedf7432d8458f4efa47b41bc93007e77229f2c2`
+- successor `9759e86dadf8f1fc28047549bdcc304420ecd514`
+- ambiguous `473d90a6cda65a182b58180daf9290c8432d134a`
+- status `0aef428540474bcee26122f3913c26ced6aad10f`
+
+## GEEL — FOUR PERSON
+Branch: `agent/indiageel-ramana-ramakrishna-sweep`
+- source `9cbf630f55858afabf53839dd6d3c9269baee695`
+- entities `30486eaf3478057246727a56fd5fb8a5b22a1189`
+- R4/R5 `314094dc49a539fc71fc4117e2d27cd51a54c554`
+- access `da7184ab727b3100a5c43dbd068e32fb45c696a7`
+- status `9c0b1a0d7ec5b8990287cb79c53f17db52f93f09`
+Silent drops: 0
+
+## WIT — ANANDAMAYI / HERITAGE
+Branch: `agent/indiawit-master-travel-readiness`
+Final schema-classified:
+- Anandamayi entities `379b637706023b6f1891ba53e89b16150c193fee`
+- heritage matrix `ef493aad36650de1dcc7caa24645bab185ee3ab5`
+- status COMPLETE `b5ec1abddfe23669c8ea273970760944d312a90a`
+Earlier source/closure/access commits remain provenance and must be preserved.
+
+## ROOD — CORE KRIYA
+Branch: `agent/indiarood-core-kriya-sweep`
+- source `e45dd559b7e442d47f2f94cfc548137d1f4ffd58` — 178 lossless records = 146 claims + 32 negatives
+- entities `96d1a58eb4e5a34f6048c757bf7ed7149a68233d` — 204 candidates incl. 58 micro/successor splits
+- R4/R5 `cd817119ffdb6ec1af0293e8842f9cb3d6bde893`
+- access `844bdc276aafb2553b9c97584f14596f3f85d672`
+- final status `5443eeceab292c714d3c4e5b328f55d300464259`
+R distribution claims: R1 31 / R2 2 / R3 34 / R4 54 / R5 25.
+No silent drops; claimant traditions separated.
+
+## ZILVER — FINAL GLOBAL STAGING
+Branch: `agent/indiazilver-cluster-completeness-audit`
+Final state: `COMPLETE_CURRENT_GLOBAL_FEEDS__READY_FOR_CENTRAL_MASTER`
+- protected canon `f491be93f9585e1a3eb9ac3e82362fc220d4c6f2`
+- new-ID queue `a0f199fb055e6093e3e57b3540a2e73a38463e37`
+- proximity `7ddcb764bb01a120f7d30c43f88f85d1554e4ba4`
+- duplicate-parent `c64c67076d5cd7b32c9c4bb4a8e6e13c4bd0e668`
+- ABC-after-closure queue `118cacae2ea9b48ef031f3b344dfc31709acb25d`
+- status current blob verified on 2026-08-20
+Numeric pair calculations 16; tight pairs 7 = 4 <=1km + 3 >1-<=3km; guessed coordinates 0.
+
+## CENTRAL INGEST RULES
+- All source claims must retain disposition/source links.
+- Existing permanent IDs 001-081 immutable.
+- Existing A/B/C and locks immutable until Mark explicitly reviews.
+- Parent/child microsites remain distinct.
+- Historic/current successor relation remains explicit.
+- R4/R5 remain visible and are not A/B/C-ready.
+- New R1-R3 physical entities requiring IDs are staged exactly once.
+- AOAY P0 and heritage-room/stay records get explicit visibility flags.
+- East data retained even while route-deprioritized.
+
+## NEXT
+Build consolidated ALL_FINDINGS_LOCATION_MASTER + accounting summary + unresolved queue + cluster-ready projection. In parallel CCI performs independent master QA using `CCI_MASTER_QA_TASK.md`.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1298 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/SATURATION_REPORT_003_ADDENDUM.md blob_sha=fa483a5f638f1259f3b200d72209eaaf0493210e original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# SATURATION_REPORT_003_ADDENDUM — Bodh Gaya, vijf openstaande punten opgelost
+
+run_id: BODHGAYA-DISCOVERY-001
+geschreven_op: 2026-08-06
+geschreven_door: CCI
+opdracht: INDIA6, bericht 026 ("SATURATED=JA nog niet geaccepteerd — los uitsluitend deze
+laatste punten op")
+
+Vervolg op `SATURATION_REPORT_002.md`. Geen bredere nieuwe sweep — uitsluitend de vijf
+opgegeven controlepunten. `PDF_STATUS: VERBODEN` gerespecteerd, geen PDF/KML/pacing/route.
+
+---
+
+## 1. Sikhisme — gericht onderzocht, één MARK_WAARDIGE plek gevonden
+
+**Gurdwara Sri Guru Tegh Bahadur Ji, Gaya** (nieuw genummerd: **078**) — nabij Vishnupad Temple
+(051), aan de Falgu-rivier. Zowel Guru Nanak Dev als later Guru Tegh Bahadur bezochten deze plek
+en bekritiseerden er direct de pind-daan-praktijk: zij onderwezen dat iemands eigen goede daden
+tijdens het leven bepalend zijn voor het lot van de ziel, niet de rituelen die nakomelingen na de
+dood laten uitvoeren. Beheerd door Udasi-priesters; drie exemplaren van de Siri Guru Granth Sahib
+(Gurmukhi en Devnagri) zijn er ondergebracht. Binnen de 0-20 km-kernstraal (Gaya-stad, zelfde
+zone als 051/070/075/076). Bron: sikhiwiki.org, worldgurudwaras.com — geen officiële overheidsbron
+gevonden, wel meerdere onafhankelijke Sikh-specifieke bronnen die elkaar bevestigen. Geen andere
+Sikh-locatie binnen de straal gevonden (de bekende Bihar-gurdwara's van Guru Nanak/Guru Gobind
+Singh liggen in Patna, ver buiten zelfs de signaleringszone).
+
+## 2. 063 versus 068 — DEFINITIEF OPGELOST: verschillende locaties, geen nummerprobleem
+
+Bevestigd via een officiële bron (tibet.net, Central Tibetan Administration): Kyabje Shechen
+Rabjam Rinpoche (voorzitter van de Nyingma Monlam Chenmo International Foundation) bracht een
+apart bezoek aan "de uitbreiding van Shechen Karuna Bodh Gaya" ÉN inspecteerde afzonderlijk het
+Padmasambhava-tempelcomplex vóór de consecratie — twee aparte bezoeken aan twee aparte fysieke
+plekken, ook al zijn beide organisatorisch nauw met elkaar en met dezelfde persoon verbonden.
+**Uitkomst: DIFFERENT_LOCATIONS, bevestigd.** Geen nummerintegriteitsprobleem — 063 en 068 blijven
+beide staan zoals genummerd. Kandidaatrecords bijgewerkt met dit bewijs; 068's canonieke naam
+aangevuld met de officiële naam "Shechen Tennyi Dargyeling" (gebouwd 1996). Correctierecord
+toegevoegd aan `NUMBERING_REGISTRY.jsonl` (naam-aanvulling, nummer ongewijzigd).
+
+## 3. 071 Pretshila en 076 Akshayavat — toegang geverifieerd
+
+- **071 Pretshila**: GEEN expliciete niet-hindoe-toegangsbeperking gevonden, ondanks gerichte
+  zoekopdracht — in duidelijk contrast met 051 (Vishnupad), waar meerdere onafhankelijke bronnen
+  wél een verbod melden. Algemene reisbronnen beschrijven een gewone bezoekerservaring (heuveltop
+  via trap, uitzicht, Yama-tempel uit 1787, Brahma Kund) met standaard kledingadvies, niet met een
+  toegangsverbod. Afwezigheid van een gemeld verbod is geen garantie van vrije toegang, maar wijkt
+  wezenlijk af van het 051-patroon. **Wat Mark naar verwachting kan bezoeken/zien**: de heuvel
+  zelf, de Yama-tempel, de Brahma Kund.
+- **076 Akshayavat**: BELANGRIJKE CORRECTIE — deze boom groeit BINNEN de tempelbinnenplaats van
+  Vishnupad Temple (051) zelf, niet op een aparte, vrij toegankelijke plek (bevestigd door
+  meerdere pind-daan-specifieke bronnen). Dit betekent dat de niet-hindoe-toegangsbeperking die
+  bij 051 is vastgesteld hoogstwaarschijnlijk OOK hier geldt — een niet-hindoe bezoeker kan de
+  boom naar verwachting NIET van dichtbij zien, net zomin als het Vishnupad-relict zelf. Dit is
+  een redelijke afleiding op basis van de bevestigde ligging, geen apart bevestigde regel voor de
+  boom. **Bronvoorbehoud**: één eerder gebruikte bron (prayagsamagam.com) bleek mogelijk over de
+  ANDERE, bekendere Akshayavat in Prayagraj/Allahabad te gaan (een gelijknamige, andere boom met
+  een vergelijkbare legende) — verwijderd als bron voor de Gaya-boom, niet gebruikt in de
+  onderbouwing.
+- **Nieuwe open categorisatievraag (niet zelf opgelost)**: omdat de Akshayavat fysiek binnen de
+  tempelbinnenplaats 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1299 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/SATURATION_REPORT_003_ADDENDUM.md blob_sha=fa483a5f638f1259f3b200d72209eaaf0493210e original_offset=4096 original_length=3256 payload_bytes=3256 chunk_index=1 chunk_count=2 classification=text
+van 051 ligt, is dit mogelijk eerder een sublocatie van hetzelfde bezoek dan
+  een zelfstandige bestemming — vergelijkbaar met de weekplekken binnen 046. Nummer 076 blijft
+  permanent gereserveerd (immutable), maar INDIA6/Mark beslist later of dit in het keuzerapport
+  als eigen kandidaat of als sub-vermelding bij 051 wordt gepresenteerd.
+
+## 4. 075 Jain Temple Gaya — EXCLUDED na hertoetsing
+
+Herbeoordeeld tegen de exacte vraag: is er een zelfstandig verhaal, uniek object, levende
+bijzondere ervaring of gebeurtenis boven "een Jaintempel"? Twee onderzoeksrondes (initiële sweep
++ deze hertoetsing) vonden niets buiten: gewijd aan Bhagawan Mahavira, een van twee Jaintempels in
+Gaya-stad, een dharamshala voor pelgrims. Geen specifiek historisch moment, geen uniek
+object/relict, geen bijzondere levende praktijk gevonden.
+
+**Uitkomst: voldoet aan de harde uitsluitingsgrond "geen zelfstandige betekenis of ervaring".**
+Status gewijzigd van MARK_WAARDIG naar `EXCLUDED_HARD_REASON` in `DISCOVERY_CANDIDATES.jsonl`.
+Nummer 075 blijft permanent gereserveerd en wordt nooit hergebruikt (immutable-regel, zelfde
+precedent als de al bestaande, niet-herbruikte Varanasi-nummers 041-045) — alleen de status
+verandert. Niet kunstmatig behouden omdat het al genummerd was, zoals opgedragen.
+
+## 5. Herbevestigingscontrole
+
+- **Onbezochte relevante categorie**: sikhisme was de enige nog niet gerichte gecontroleerde
+  categorie — nu gedaan (zie punt 1), leverde één MARK_WAARDIGE plek op. Christendom bleef
+  gecontroleerd in `SATURATION_REPORT_002.md` (geen specifieke kerk gevonden). Geen andere
+  onbezochte categorie geïdentificeerd.
+- **Onopgeloste identiteit/dubbeling**: 063 vs. 068 is nu definitief opgelost (punt 2). Geen
+  andere onopgeloste identiteitsvraag in de huidige kandidatenset.
+- **Open lead die Marks A/B/C wezenlijk kan veranderen**: geen gevonden. De toegangscorrecties bij
+  071/076 en de exclusie van 075 zijn feitelijke correcties, geen aanleiding voor verder onderzoek.
+  Sikkim/Nepal/Laos/Taiwan-kloosternamen blijven `EXPLICIET ONBESCHIKBAAR` (ongewijzigd t.o.v.
+  `SATURATION_REPORT_002.md`) — geen nieuwe zoekpoging deze ronde, conform opdracht ("geen bredere
+  nieuwe sweep tenzij één van deze checks een concrete nieuwe lead oplevert" — geen van de vijf
+  checks leverde zo'n lead op buiten de Sikh-gurdwara zelf).
+
+## Nummerstand na deze ronde
+
+BODHGAYA: 046-078 (was 046-077, +078 Gurdwara Sri Guru Tegh Bahadur Ji). 075 blijft binnen dit
+bereik staan maar is nu EXCLUDED, niet MARK_WAARDIG. Globale nummering gevalideerd, geen
+overlap met VARANASI (001-045).
+
+## SATURATED = JA (herbevestigd)
+
+Alle vijf opgegeven controlepunten zijn afgehandeld met een concrete uitkomst (niet ontweken):
+één nieuwe kandidaat (078), één definitieve identiteitsoplossing (063/068, geen wijziging nodig),
+twee toegangscorrecties (071/076), één eerlijke exclusie (075). De herbevestigingscontrole
+(punt 5) leverde geen nieuwe open categorie, dubbeling, of wezenlijke lead op. Geen bredere sweep
+uitgevoerd, conform opdracht.
+
+---
+Geschreven door: CCI, op verzoek van INDIA6 (PR #23, bericht 026). Geen A/B/C ingevuld namens
+Mark. Geen PDF, geen KML, geen route/pacing/accommodatie. `PDF_STATUS: VERBODEN` gerespecteerd.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1300 path=india5/tasks/done/INDIA5-ARCH-TEST-001/STATUS.yaml blob_sha=fba52c774580fec3c05c5bb70256295d4a517b69 original_offset=0 original_length=641 payload_bytes=641 chunk_index=0 chunk_count=1 classification=text
+task_id: INDIA5-ARCH-TEST-001
+state: COMPLETED
+claimed_at: '2026-08-02T19:56:47.770752+00:00'
+claimed_by: CCI
+started_at: '2026-08-02T19:56:47.770752+00:00'
+completed_at: '2026-08-02T19:58:22.995718+00:00'
+git_commit_at_claim: null
+git_commit_at_complete: null
+completion_marker_found: true
+failure_reason: null
+history:
+- at: '2026-08-02T19:00:00Z'
+  event: ISSUED
+  detail: Taak aangemaakt door CCI als voorbeeldtaak voor de nieuwe taakarchitectuur.
+- at: '2026-08-02T19:56:47.770752+00:00'
+  event: CLAIMED
+  detail: queue -> active, door CCI
+- at: '2026-08-02T19:58:22.995718+00:00'
+  event: COMPLETED
+  detail: active -> done, door CCI
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1301 path=india4/roles/GOUD.md blob_sha=fc8cf880d7df95af976a28477680c3712d825f75 original_offset=0 original_length=937 payload_bytes=937 chunk_index=0 chunk_count=1 classification=text
+# GOUD — INTEGRATIECONTRACT
+
+Missie: integreer uitsluitend nadat BRONS-B01 t/m B04 en ZILVER-Z01 t/m Z02 volledig bestaan.
+
+Lees: `india4/START.md`, dit contract, de runopdracht en de zes afgeronde batchoutputs. Doe geen volledig nieuw onderzoek voor alle 40 kandidaten; alleen gericht herstel bij een materieel conflict.
+
+GOUD:
+- verwerkt ZILVER-correcties;
+- controleert dat alle 40 candidate_id’s exact eenmaal aanwezig zijn;
+- maakt één Varanasi-only KML en één leesbare keuze-PDF;
+- maakt één GEO-audit en één correctierapport;
+- controleert dat ieder KML-punt overeenkomt met het definitieve auditrecord;
+- markeert niet-bevestigde markers duidelijk;
+- beschermt Mark-besluiten en het afgewezen punt voor VNS-CAND-008;
+- werkt de centrale India-master-KML niet bij;
+- opent/parset KML en PDF na creatie, schrijft COMPLETION en sluit de run.
+
+Ontbreekt één van de zes batchoutputs, dan geen GOUD-integratie uitvoeren.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1302 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/RAW_OCCURRENCES.jsonl blob_sha=fd1e188e479e2bb4235c8119222078afb16eb4a1 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=77 classification=text
+{"occurrence_id": "AOAY-OCC-00001", "chapter": 1, "raw_place_name": "Bengal-Nagpur Railway", "context_anchor": "Bengal-Nagpur Railway, one of India’s large companies. His work", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00002", "chapter": 1, "raw_place_name": "Bengal-Nagpur Railway", "context_anchor": "accountant arrived to examine the books of the Bengal-Nagpur Railway", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00003", "chapter": 1, "raw_place_name": "Bengal-Nagpur Railway", "context_anchor": "an employee in the Gorakhpur office of the Bengal-Nagpur Railway.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00004", "chapter": 1, "raw_place_name": "United Provinces", "context_anchor": "United Provinces of northeastern India. We were eight children: four", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00005", "chapter": 1, "raw_place_name": "Philadelphia", "context_anchor": "translation is Edwin Arnold’s THE SONG CELESTIAL (Philadelphia:", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00006", "chapter": 1, "raw_place_name": "Himalayas", "context_anchor": "“Ah, I long to go to the Himalayas and become like you!” The vision", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00007", "chapter": 1, "raw_place_name": "Gorakhpur", "context_anchor": "my first eight years at Gorakhpur. This was my birthplace in the", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00008", "chapter": 1, "raw_place_name": "Gorakhpur", "context_anchor": "an employee in the Gorakhpur office of the Bengal-Nagpur Railway.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00009", "chapter": 1, "raw_place_name": "Gorakhpur", "context_anchor": "father-to give me a week’s leave from my Gorakhpur duties in order", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00010", "chapter": 1, "raw_place_name": "Gorakhpur", "context_anchor": "same as those he had used two days before in the Gorakhpur field.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00011", "chapter": 1, "raw_place_name": "Gorakhpur", "context_anchor": "in the early morning under a NEEM tree in our Gorakhpur compound.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00012", "chapter": 1, "raw_place_name": "New York", "context_anchor": "(New York: E. P. Dutton).", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00013", "chapter": 1, "raw_place_name": "Calcutta", "context_anchor": "organizing the Calcutta Urban Bank, he refused to benefit himself", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00014", "chapter": 1, "raw_place_name": "Benares", "context_anchor": "great master, Lahiri Mahasaya of Benares. This contact strengthened", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00015", "chapter": 1, "raw_place_name": "Benares", "context_anchor": "to visit my guru in Benares. Your father ridiculed my plan.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00016", "chapter": 1, "raw_place_name": "Benares", "context_anchor": "start for Benares tomorrow. I must know this great Lahiri Mahasaya,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00017", "chapter": 1, "raw_place_name": "Benares", "context_anchor": "“The next evening your parents and I entrained for Benares. We", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00018", "chapter": 1, "raw_place_name": "Ichapur", "context_anchor": "intensificati
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1303 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/RAW_OCCURRENCES.jsonl blob_sha=fd1e188e479e2bb4235c8119222078afb16eb4a1 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=77 classification=text
+on to my love. While at our family estate in Ichapur,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00019", "chapter": 1, "raw_place_name": "Bengal", "context_anchor": "Bengal-Nagpur Railway, one of India’s large companies. His work", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00020", "chapter": 1, "raw_place_name": "Bengal", "context_anchor": "accountant arrived to examine the books of the Bengal-Nagpur Railway", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00021", "chapter": 1, "raw_place_name": "Bengal", "context_anchor": "an employee in the Gorakhpur office of the Bengal-Nagpur Railway.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00022", "chapter": 1, "raw_place_name": "Bengal", "context_anchor": "Bengal, I was stricken with Asiatic cholera. My life was despaired", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00023", "chapter": 1, "raw_place_name": "Madras", "context_anchor": "16 Semudoss St., Madras, India, $3.50).", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00024", "chapter": 1, "raw_place_name": "Lahore", "context_anchor": "Our family moved to Lahore in the Punjab. There I acquired a picture", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00025", "chapter": 1, "raw_place_name": "Nagpur", "context_anchor": "Bengal-Nagpur Railway, one of India’s large companies. His work", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00026", "chapter": 1, "raw_place_name": "Nagpur", "context_anchor": "accountant arrived to examine the books of the Bengal-Nagpur Railway", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00027", "chapter": 1, "raw_place_name": "Nagpur", "context_anchor": "an employee in the Gorakhpur office of the Bengal-Nagpur Railway.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00028", "chapter": 1, "raw_place_name": "Punjab", "context_anchor": "Our family moved to Lahore in the Punjab. There I acquired a picture", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00029", "chapter": 1, "raw_place_name": "India", "context_anchor": "masters who are India’s sole remaining wealth. Emerging in every", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00030", "chapter": 1, "raw_place_name": "India", "context_anchor": "United Provinces of northeastern India. We were eight children: four", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00031", "chapter": 1, "raw_place_name": "India", "context_anchor": "Bengal-Nagpur Railway, one of India’s large companies. His work", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00032", "chapter": 1, "raw_place_name": "India", "context_anchor": "Matches are played in India with kites whose strings are covered", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00033", "chapter": 1, "raw_place_name": "India", "context_anchor": "{FN1-6} These ancient epics are the hoard of India’s history,", "source_type": "footnote", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00034", "chapter": 1, "raw_place_name": "India", "context_anchor": "16 Semudoss St., Madras, India, $3.50).", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00035", "chapter": 1, "raw_place_name": "Ganga", "context_anchor": "A certain student and expert photographer, Ganga Dhar Babu, boasted", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00036", "chapter": 1, "raw_place_name": "Ganga", "context_ancho
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1304 path=runs/active/AOAY-FULL-LOCATION-ATLAS-001/RAW_OCCURRENCES.jsonl blob_sha=fd1e188e479e2bb4235c8119222078afb16eb4a1 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=77 classification=text
+r": "behind him, Ganga Dhar Babu arrived with his equipment. Taking every", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00037", "chapter": 1, "raw_place_name": "Ganga", "context_anchor": "With tears and shattered pride, Ganga Dhar Babu sought out his", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00038", "chapter": 1, "raw_place_name": "Egypt", "context_anchor": "Babylon and Egypt.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00039", "chapter": 2, "raw_place_name": "Naini Tal", "context_anchor": "I fled that afternoon toward Naini Tal in the Himalayan foothills.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00040", "chapter": 2, "raw_place_name": "Himalayas", "context_anchor": "powerfully drawn to the Himalayas.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00041", "chapter": 2, "raw_place_name": "Himalayas", "context_anchor": "“Let us run away to the Himalayas.” My suggestion one day to", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00042", "chapter": 2, "raw_place_name": "Himalayas", "context_anchor": "Himalayas, I came to a definite resolve. I must not further postpone", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00043", "chapter": 2, "raw_place_name": "Himalayas", "context_anchor": "iron resolve as you spoke of going to the Himalayas in quest of", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00044", "chapter": 2, "raw_place_name": "Himalayas", "context_anchor": "But the small boy, thwarted in his attempts to reach the Himalayas,", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00045", "chapter": 2, "raw_place_name": "Calcutta", "context_anchor": "Mother was in Calcutta, joyously supervising the wedding preparations.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00046", "chapter": 2, "raw_place_name": "Calcutta", "context_anchor": "daily arriving in Calcutta from distant homes. She lodged them", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00047", "chapter": 2, "raw_place_name": "Calcutta", "context_anchor": "available train, at four o’clock this morning. Rush to Calcutta if", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00048", "chapter": 2, "raw_place_name": "Calcutta", "context_anchor": "When we reached our Calcutta home, it was only to confront the", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00049", "chapter": 2, "raw_place_name": "Calcutta", "context_anchor": "Bareilly for Calcutta, to marry the girl Mother had chosen for him.", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00050", "chapter": 2, "raw_place_name": "Bareilly", "context_anchor": "Father and I alone remained at our home in Bareilly in northern", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00051", "chapter": 2, "raw_place_name": "Bareilly", "context_anchor": "It was in Bareilly on a midnight. As I slept beside Father on the", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00052", "chapter": 2, "raw_place_name": "Bareilly", "context_anchor": "Father and I returned to Bareilly soon after the crematory", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00053", "chapter": 2, "raw_place_name": "Bareilly", "context_anchor": "visited us in Bareilly. I listened eagerly to his tales about the", "source_type": "main_text", "physical_geographic_intended": "JA"}
+{"occurrence_id": "AOAY-OCC-00054", "chapter": 2, "raw_place_name": "Bareill
+<<< END CHUNK >>>
+

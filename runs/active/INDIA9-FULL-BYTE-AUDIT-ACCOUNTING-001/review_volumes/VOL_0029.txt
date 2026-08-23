@@ -1,0 +1,325 @@
+>>> CHUNK stream_row=418 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/ZILVER/ZILVER-Z01.jsonl blob_sha=48108a9347f8141517713988d70e67921f1e791c original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=11 classification=text
+"identity_check":{"matched_place":"Manikarnika Ghat","address":"near Lalita Ghat, Ghats of Varanasi, Lahori Tola, Varanasi, Uttar Pradesh 221001, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"zilver_check":{"physical_identity_check":"CONFIRMED","name_address_wijk_ghat_type_match":"OK -- consistent met identity_check en beschikbare bronnen","public_google_maps_or_official_source_used":false,"exact_coordinates_verified":false,"nearby_substitute_check":"OK -- geen verwarring met nabijgelegen locatie vastgesteld","candidate_status":"PROVISIONAL","protected_mark_decision_respected":true,"explicit_rejection_check":null},"rejected_finding":"Een Google Earth entity-API-link (google.com/earth/rpc/entity?lat=25.303617&lng=83.014099, opgehaald met generieke zoekterm 'Ghat') werd gevonden, maar VERWORPEN als onbetrouwbaar: dezelfde exacte coordinaat kwam ook naar voren voor Dashashwamedh Ghat (~500-800 m verderop), wat erop wijst dat de API bij een generieke zoekterm terugvalt op een generiek rivieroever-ankerpunt in plaats van een specifieke plaatsmarker. Niet gebruikt als eindcoordinaat.","evidence":[{"url":"https://www.google.com/maps/search/Visit%20the%20Ghats%20of%20Varanasi%2C%20Varanasi%2C%20India","supports":"Public Google Maps search result identifies Manikarnika Ghat as the cremation ghat near Lalita Ghat"},{"url":"https://www.top-rated.online/cities/Varanasi/place/p/1506788/Manikarnika%2BGhat","supports":"Google-linked listing, category and address"}],"reason":"The correct Google Maps place listing was identified, but the exact marker latitude/longitude was not exposed in a verifiable Maps URL. The old comparison coordinate was not reused. ZILVER: Een Google Earth entity-API-link (google.com/earth/rpc/entity?lat=25.303617&lng=83.014099, opgehaald met generieke zoekterm 'Ghat') werd gevonden, maar VERWORPEN als onbetrouwbaar: dezelfde exacte coordinaat kwam ook naar voren voor Dashashwamedh Ghat (~500-800 m verderop), wat erop wijst dat de API bij een generieke zoekterm terugvalt op een generiek rivieroever-ankerpunt in plaats van een specifieke plaatsmarker. Niet gebruikt als eindcoordinaat.","brons_source":"BRONS-B01.jsonl","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-004","canonical_name":"Shri Tailanga Swami Math","status":"PROVISIONAL","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.3188,"longitude":83.013,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Shri Tailanga Swami Math","address":"K.23/95, Panchganga Ghat, Chowk, Ghasi Tola, Varanasi, Uttar Pradesh 221001, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"zilver_check":{"physical_identity_check":"CONFIRMED","name_address_wijk_ghat_type_match":"OK -- consistent met identity_check en beschikbare bronnen","public_google_maps_or_official_source_used":false,"exact_coordinates_verified":false,"nearby_substitute_check":"OK -- geen verwarring met nabijgelegen locatie vastgesteld","candidate_status":"PROVISIONAL","protected_mark_decision_respected":true,"explicit_rejection_check":null},"rejected_finding":null,"evidence":[{"url":"https://wanderlog.com/place/details/6251683/shri-tailanga-swami-math","supports":"Google-derived listing, exact name, temple category, address, samadhi and Panchganga Ghat context"},{"url":"https://www.varanasiguru.com/trailanga-swami-the-walking-shiva-of-kashi/","supports":"Onafhankelijke bron bevestigt Tailanga Swami Math op Panchganga Ghat en de samadhi-functie"}],"reason":"The intended math and samadhi complex was identified, but an exact public Google Maps marker coordinate could not be extracted and verified. The old comparison coordinate was not reused.","brons_source":"BRONS-B01.jsonl","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-005","canonical_name":"Shree Shree Ma Anandamayi Ashram, Bhadaini","status":"PROVISIONAL","protected_mark_st
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=419 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/ZILVER/ZILVER-Z01.jsonl blob_sha=48108a9347f8141517713988d70e67921f1e791c original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=11 classification=text
+atus":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.2897,"longitude":83.0068,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Shree Shree Ma Anandamayi Ashram, Bhadaini","address":"Bhadaini, Varanasi, Uttar Pradesh 221001, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"zilver_check":{"physical_identity_check":"CONFIRMED","name_address_wijk_ghat_type_match":"OK -- consistent met identity_check en beschikbare bronnen","public_google_maps_or_official_source_used":false,"exact_coordinates_verified":false,"nearby_substitute_check":"OK -- geen verwarring met nabijgelegen locatie vastgesteld","candidate_status":"PROVISIONAL","protected_mark_decision_respected":true,"explicit_rejection_check":null},"rejected_finding":null,"evidence":[{"url":"https://www.anandamayi.org/ashram-contact-details/","supports":"Official ashram directory confirms the Varanasi Bhadaini ashram and current contact details"},{"url":"https://anandamayi.de/ashramadressen/","supports":"Independent Anandamayi organization directory confirms the same Bhadaini location"}],"reason":"The intended Bhadaini ashram was confirmed by official organizational directories, but an exact public Google Maps marker coordinate could not be extracted and verified. The old comparison coordinate was not reused.","brons_source":"BRONS-B01.jsonl","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-006","canonical_name":"Sarnath sacred complex","status":"PROVISIONAL","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.3811,"longitude":83.0214,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Sarnath sacred complex","address":"Sarnath, Varanasi, Uttar Pradesh, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"zilver_check":{"physical_identity_check":"CONFIRMED","name_address_wijk_ghat_type_match":"OK -- consistent met identity_check en beschikbare bronnen","public_google_maps_or_official_source_used":false,"exact_coordinates_verified":false,"nearby_substitute_check":"OK -- geen verwarring met nabijgelegen locatie vastgesteld","candidate_status":"PROVISIONAL","protected_mark_decision_respected":true,"explicit_rejection_check":null},"rejected_finding":null,"evidence":[{"url":"https://www.google.com/maps/search/Sarnath%20sacred%20complex%2C%20Varanasi%2C%20India","supports":"Public Google Maps search context for the Sarnath archaeological and sacred complex"},{"url":"https://whc.unesco.org/en/list/927/","supports":"UNESCO-vermelding bevestigt Sarnath als archeologisch/heilig complex; LET OP -- overlapt begripsmatig met de apart gecatalogiseerde deelsites VNS-CAND-029 t/m 034 uit de INDIA5-testsweep, zie dedup-observatie in het regionale correctierapport"}],"reason":"The intended Sarnath sacred complex was confirmed as the archaeological and Buddhist sacred zone, but no single exact Google Maps marker coordinate for the entire complex could be extracted and verified. The old comparison coordinate was not reused.","brons_source":"BRONS-B01.jsonl","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-007","canonical_name":"Shri Kashi Vishwanath Temple","status":"PROVISIONAL","protected_mark_status":"A","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.3109,"longitude":83.0107,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Shri Kashi Vishwanath Temple","address":"Lahori Tola, Varanasi, Uttar Pradesh 221001, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"zilver_check":{"physical_identity_check":"CONFIRMED","name_address_wij
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=420 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/ZILVER/ZILVER-Z01.jsonl blob_sha=48108a9347f8141517713988d70e67921f1e791c original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=11 classification=text
+k_ghat_type_match":"OK -- consistent met identity_check en beschikbare bronnen","public_google_maps_or_official_source_used":false,"exact_coordinates_verified":false,"nearby_substitute_check":"OK -- geen verwarring met nabijgelegen locatie vastgesteld","candidate_status":"PROVISIONAL","protected_mark_decision_respected":true,"explicit_rejection_check":null},"rejected_finding":null,"evidence":[{"url":"https://www.google.com/maps/search/Visit%20Kashi%20Vishwanath%20Temple%2C%20Varanasi%2C%20India","supports":"Public Google Maps result identifies the intended historic Shiva temple and distinguishes related gates and helpdesk listings"},{"url":"https://www.shrikashivishwanath.org/","supports":"Official temple identity and location context"}],"reason":"The intended temple listing was confirmed, but no exact verifiable marker coordinate for the Varanasi temple was extracted. The old comparison coordinate was not reused.","brons_source":"BRONS-B01.jsonl","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-008","canonical_name":"Yogoda Satsanga Dhyana Mandali, Varanasi","status":"PROVISIONAL","protected_mark_status":"B","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.3045,"longitude":82.979369,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"EXPLICITLY_REJECTED_COMPARISON_ONLY"},"identity_check":{"matched_place":"Yogoda Satsanga Dhyana Mandali – Varanasi","address":"C/o M/s B. Mehrotra & Co., B-38/9 Gha B-1, Raghunath Nagar, Mahmoorganj, Varanasi 221010, Uttar Pradesh, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"zilver_check":{"physical_identity_check":"CONFIRMED","name_address_wijk_ghat_type_match":"OK -- consistent met identity_check en beschikbare bronnen","public_google_maps_or_official_source_used":false,"exact_coordinates_verified":false,"nearby_substitute_check":"OK -- geen verwarring met nabijgelegen locatie vastgesteld","candidate_status":"PROVISIONAL","protected_mark_decision_respected":true,"explicit_rejection_check":"Gecontroleerd: final_latitude/longitude (None, None) is NIET het expliciet afgewezen coordinaat (25.3045, 82.979369) (RUN.yaml explicit_rejections, regel MUST_NOT_BE_REUSED_AS_FINAL_POINT). Oud vergelijkingscoordinaat blijft gemarkeerd EXPLICITLY_REJECTED_COMPARISON_ONLY en is niet hergebruikt."},"rejected_finding":null,"evidence":[{"url":"https://yssofindia.org/location/varanasi","supports":"Official YSS location page confirms centre name, address, contact information and provides an Open Google Maps action"},{"url":"https://yssofindia.org/location/varanasi","supports":"Officiele Yogoda Satsanga Society of India (YSS)-website bevestigt een Kriya Yoga-centrum in Varanasi"}],"reason":"The official YSS page confirms the intended centre but exposes only the explicitly rejected coordinate 25.3045,82.979369. That coordinate was not reused, and no different exact Google Maps marker coordinate could be verified.","brons_source":"BRONS-B01.jsonl","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-009","canonical_name":"Dashashwamedh Ghat","status":"PROVISIONAL","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.3062,"longitude":83.0104,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Dashashwamedh Ghat","address":"Dashashwamedh Ghat Road, Ghats of Varanasi, Godowlia, Varanasi, Uttar Pradesh 221001, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"zilver_check":{"physical_identity_check":"CONFIRMED","name_address_wijk_ghat_type_match":"OK -- consistent met identity_check en beschikbare bronnen","public_google_maps_or_official_source_used":false,"exact_coordinates_verified":false,"nearby_substitute_check":"OK -- geen verwarring met nabijgelegen locatie vastgesteld","candidate_status":"PROVISIONAL","protected_mark_
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=421 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/ZILVER/ZILVER-Z01.jsonl blob_sha=48108a9347f8141517713988d70e67921f1e791c original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=11 classification=text
+decision_respected":true,"explicit_rejection_check":null},"rejected_finding":"Zelfde bevinding als bij VNS-CAND-003 (Manikarnika Ghat): de Google Earth entity-API gaf voor Dashashwamedh Ghat exact dezelfde coordinaat (25.303617,83.014099) als voor het ~500-800 m verderop gelegen Manikarnika Ghat. Verworpen als onbetrouwbaar (generieke 'Ghat'-fallback), niet gebruikt als eindcoordinaat.","evidence":[{"url":"https://www.google.com/maps/search/Dashashwamedh%20Ghat%2C%20Varanasi%2C%20India","supports":"Public Google Maps search identifies the intended main ritual ghat and Ganga Aarti location"},{"url":"https://mapcarta.com/N11690112169","supports":"Independent map context confirms the same physical ghat and nearby landmarks, but is not used as a Google Maps marker source"}],"reason":"The intended Google Maps place was identified, but no exact marker coordinate could be extracted from an accessible Maps URL. Non-Google map coordinates and the old comparison coordinate were not adopted. ZILVER: Zelfde bevinding als bij VNS-CAND-003 (Manikarnika Ghat): de Google Earth entity-API gaf voor Dashashwamedh Ghat exact dezelfde coordinaat (25.303617,83.014099) als voor het ~500-800 m verderop gelegen Manikarnika Ghat. Verworpen als onbetrouwbaar (generieke 'Ghat'-fallback), niet gebruikt als eindcoordinaat.","brons_source":"BRONS-B01.jsonl","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-010","canonical_name":"Assi Ghat","status":"PROVISIONAL","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.2887,"longitude":83.0061,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Assi Ghat, Varanasi","address":"Assi Ghat, Varanasi, Uttar Pradesh 221005, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"zilver_check":{"physical_identity_check":"CONFIRMED","name_address_wijk_ghat_type_match":"OK -- consistent met identity_check en beschikbare bronnen","public_google_maps_or_official_source_used":false,"exact_coordinates_verified":false,"nearby_substitute_check":"OK -- geen verwarring met nabijgelegen locatie vastgesteld","candidate_status":"PROVISIONAL","protected_mark_decision_respected":true,"explicit_rejection_check":null},"rejected_finding":null,"evidence":[{"url":"https://www.google.com/maps/search/Visit%20the%20Ghats%20of%20Varanasi%2C%20Varanasi%2C%20India","supports":"Public Google Maps listing identifies Assi Ghat as the riverside religious and cultural events site"},{"url":"https://kashi.gov.in/listing-details/assi-ghat","supports":"Officiele Varanasi-districtslisting bevestigt Assi Ghat identiteit en locatie"}],"reason":"The intended Assi Ghat listing was confirmed, but an exact marker coordinate could not be extracted from a verifiable Google Maps place URL. The old comparison coordinate was not reused.","brons_source":"BRONS-B01.jsonl","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-011","canonical_name":"Panchganga Ghat","status":"PROVISIONAL","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.3185,"longitude":83.0128,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Pancha Ganga Ghat","address":"Panchganga Ghat, Varanasi, Uttar Pradesh 221001, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"zilver_check":{"physical_identity_check":"CONFIRMED","name_address_wijk_ghat_type_match":"OK -- consistent met identity_check en beschikbare bronnen","public_google_maps_or_official_source_used":false,"exact_coordinates_verified":false,"nearby_substitute_check":"OK -- geen verwarring met nabijgelegen locatie vastgesteld","candidate_status":"PROVISIONAL","protected_mark_decision_respected":true,"explicit_rejection_check":null},"rejected_finding":null,"e
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=422 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/ZILVER/ZILVER-Z01.jsonl blob_sha=48108a9347f8141517713988d70e67921f1e791c original_offset=20480 original_length=4096 payload_bytes=4096 chunk_index=5 chunk_count=11 classification=text
+vidence":[{"url":"https://www.google.com/maps/search/Visit%20the%20Ghats%20of%20Varanasi%2C%20Varanasi%2C%20India","supports":"Public Google Maps listing identifies Pancha Ganga Ghat as the intended historic ritual ghat"},{"url":"https://kashi.gov.in/listing-details/panchganga-ghat","supports":"Officiele Varanasi-districtslisting bevestigt Panchganga Ghat als samenvloeiing van vijf rivieren"}],"reason":"The intended Panchganga Ghat listing was identified, but an exact marker coordinate could not be extracted from a verifiable Google Maps place URL. The old comparison coordinate was not reused.","brons_source":"BRONS-B02.jsonl","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-012","canonical_name":"Harishchandra Ghat","status":"PROVISIONAL","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.2994,"longitude":83.009,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Harishchandra Ghat","address":"Harishchandra Ghat, Varanasi, Uttar Pradesh 221001, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"zilver_check":{"physical_identity_check":"CONFIRMED","name_address_wijk_ghat_type_match":"OK -- consistent met identity_check en beschikbare bronnen","public_google_maps_or_official_source_used":false,"exact_coordinates_verified":false,"nearby_substitute_check":"OK -- geen verwarring met nabijgelegen locatie vastgesteld","candidate_status":"PROVISIONAL","protected_mark_decision_respected":true,"explicit_rejection_check":null},"rejected_finding":null,"evidence":[{"url":"https://www.google.com/maps/search/Harishchandra%20Ghat%2C%20Varanasi%2C%20India","supports":"Public Google Maps search targets the intended cremation ghat"},{"url":"https://kashi.gov.in/listing-details/harishchand-ghat","supports":"Officiele Varanasi-districtslisting bevestigt Harishchandra Ghat identiteit"}],"reason":"The intended Harishchandra cremation ghat was identified, but an exact marker coordinate could not be extracted from a verifiable Google Maps place URL. The old comparison coordinate was not reused.","brons_source":"BRONS-B02.jsonl","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-013","canonical_name":"Kaal Bhairav Temple","status":"PROVISIONAL","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.3223,"longitude":83.009,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Shri Kaal Bhairav Temple, Varanasi","address":"K32/26, Golghar, Bhaironath, Ghasi Tola, Varanasi, Uttar Pradesh 221001, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"zilver_check":{"physical_identity_check":"CONFIRMED","name_address_wijk_ghat_type_match":"OK -- consistent met identity_check en beschikbare bronnen","public_google_maps_or_official_source_used":false,"exact_coordinates_verified":false,"nearby_substitute_check":"OK -- geen verwarring met nabijgelegen locatie vastgesteld","candidate_status":"PROVISIONAL","protected_mark_decision_respected":true,"explicit_rejection_check":null},"rejected_finding":null,"evidence":[{"url":"https://wanderlog.com/place/details/1718336/kaal-bhairav-temple","supports":"Google-derived listing confirms the Varanasi guardian temple, address, category and identity"},{"url":"https://kashi.gov.in/listing-details/shri-kaal-bhairav-temple","supports":"Officiele Varanasi-districtslisting bevestigt Kaal Bhairav Temple identiteit en Visheshwarganj-locatie"}],"reason":"The intended Kaal Bhairav Temple in Varanasi was distinguished from same-name temples in Ujjain and confirmed by address and guardian-of-Kashi context, but an exact Google Maps marker coordinate could not be extracted and verified. The old comparison coordinate was not reused.","brons_source":"BRONS-
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=423 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/ZILVER/ZILVER-Z01.jsonl blob_sha=48108a9347f8141517713988d70e67921f1e791c original_offset=24576 original_length=4096 payload_bytes=4096 chunk_index=6 chunk_count=11 classification=text
+B02.jsonl","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-014","canonical_name":"Maa Annapurna Temple","status":"PROVISIONAL","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.3107,"longitude":83.0103,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Maa Annapurna Temple, Kashi","address":"Bansphatak and Annapurna temple area beside the Kashi Vishwanath complex, Varanasi, Uttar Pradesh 221001, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"zilver_check":{"physical_identity_check":"CONFIRMED","name_address_wijk_ghat_type_match":"OK -- consistent met identity_check en beschikbare bronnen","public_google_maps_or_official_source_used":false,"exact_coordinates_verified":false,"nearby_substitute_check":"OK -- geen verwarring met nabijgelegen locatie vastgesteld (extra aandacht: ligt zeer dicht bij VNS-CAND-007/017, apart bevestigd als eigen tempel)","candidate_status":"PROVISIONAL","protected_mark_decision_respected":true,"explicit_rejection_check":null},"rejected_finding":null,"evidence":[{"url":"https://timesofindia.indiatimes.com/city/varanasi/rush-for-khazana-as-annapurna-devi-temple-opens-on-dhanteras/articleshow/124677849.cms","supports":"Confirms the active Annapurna Devi temple, its annual golden-idol darshan and Bansphatak/Kotwalpura access context"},{"url":"https://www.google.com/maps/search/Kashi%2BVishwanath%2BTemple%2BComplex%2C%2BVaranasi%2C%2BIndia","supports":"Public Google Maps context confirms the adjoining Kashi Vishwanath complex and Bansphatak area"},{"url":"https://kashi.gov.in/listing-details/annapurna-mandir","supports":"Officiele Varanasi-districtslisting bevestigt Annapurna Mandir, 15 m noordwest van Kashi Vishwanath Mandir"}],"reason":"The intended Maa Annapurna Temple beside the Kashi Vishwanath complex was physically identified, but an exact standalone Google Maps marker coordinate could not be extracted and verified. The old comparison coordinate was not reused.","brons_source":"BRONS-B02.jsonl","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-015","canonical_name":"Sankat Mochan Hanuman Temple","status":"PROVISIONAL","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.282,"longitude":82.9992,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Shri Sankat Mochan Hanuman Temple, Varanasi","address":"Durgakund, Jawahar Nagar Colony, Bhelupur, Varanasi, Uttar Pradesh 221005, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"zilver_check":{"physical_identity_check":"CONFIRMED","name_address_wijk_ghat_type_match":"OK -- consistent met identity_check en beschikbare bronnen","public_google_maps_or_official_source_used":false,"exact_coordinates_verified":false,"nearby_substitute_check":"OK -- geen verwarring met nabijgelegen locatie vastgesteld","candidate_status":"PROVISIONAL","protected_mark_decision_respected":true,"explicit_rejection_check":null},"rejected_finding":null,"evidence":[{"url":"https://www.google.com/maps/search/Visit%20Sankat%20Mochan%20Hanuman%20Temple%2C%20Varanasi%2C%20India","supports":"Public Google Maps listing identifies the intended Varanasi Hanuman temple and distinguishes it from the Sarnath namesake"},{"url":"https://wanderlog.com/place/details/6018526/sankat-mochan-hanuman-temple-varanasi","supports":"Google-derived listing confirms temple identity, category and Durgakund/Bhelupur address"},{"url":"https://sankatmochanmandirvaranasi.com/","supports":"Officiele tempelwebsite bevestigt Sankat Mochan Hanuman Temple identiteit en BHU-nabijheid"}],"reason":"The intended Sankat Mochan Hanuman Temple was clearly identified and distinguished from same-name locations, but an exact Google Ma
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=424 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/ZILVER/ZILVER-Z01.jsonl blob_sha=48108a9347f8141517713988d70e67921f1e791c original_offset=28672 original_length=4096 payload_bytes=4096 chunk_index=7 chunk_count=11 classification=text
+ps marker coordinate could not be extracted and independently verified. The old comparison coordinate was not reused.","brons_source":"BRONS-B02.jsonl","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-016","canonical_name":"Durga Temple and Durga Kund","status":"PROVISIONAL","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.288,"longitude":82.9998,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Shree Durga Mata/Kushmanda Mandir and Durga Kund","address":"C14/160-36-A, Durgakund, Naipokhari, Varanasi, Uttar Pradesh 221005, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"zilver_check":{"physical_identity_check":"CONFIRMED","name_address_wijk_ghat_type_match":"OK -- consistent met identity_check en beschikbare bronnen","public_google_maps_or_official_source_used":false,"exact_coordinates_verified":false,"nearby_substitute_check":"OK -- geen verwarring met nabijgelegen locatie vastgesteld","candidate_status":"PROVISIONAL","protected_mark_decision_respected":true,"explicit_rejection_check":null},"rejected_finding":null,"evidence":[{"url":"https://www.google.com/maps/search/Visit%20Durga%20Temple%20%28Durga%20Kund%29%2C%20Varanasi%2C%20India","supports":"Public Google Maps results identify both the Durgakund temple and adjacent Durga Kund pond, while distinguishing Ramnagar's Durga Temple"},{"url":"https://wanderlog.com/place/details/1718337/durga-temple","supports":"Google-derived listing confirms the Durgakund temple identity and C14/160-36-A address"},{"url":"https://kashi.gov.in/listing-details/shri-durga-temple","supports":"Officiele Varanasi-districtslisting bevestigt Durga Mandir/Durga Kund identiteit"}],"reason":"The intended temple-and-kund complex was physically confirmed and distinguished from the Ramnagar namesake, but no single exact Google Maps marker coordinate representing the combined candidate could be extracted and verified. The old comparison coordinate was not reused.","brons_source":"BRONS-B02.jsonl","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-017","canonical_name":"Vishalakshi Gauri Temple","status":"PROVISIONAL","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.3102,"longitude":83.0119,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Vishalakshi Gauri Temple / Vishalakshi Shaktipeeth, Varanasi","address":"Mir Ghat and Kashi Vishwanath old-city area, Varanasi, Uttar Pradesh 221001, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"zilver_check":{"physical_identity_check":"CONFIRMED","name_address_wijk_ghat_type_match":"OK -- consistent met identity_check en beschikbare bronnen","public_google_maps_or_official_source_used":false,"exact_coordinates_verified":false,"nearby_substitute_check":"OK -- geen verwarring met nabijgelegen locatie vastgesteld","candidate_status":"PROVISIONAL","protected_mark_decision_respected":true,"explicit_rejection_check":null},"rejected_finding":null,"evidence":[{"url":"https://timesofindia.indiatimes.com/city/varanasi/rush-at-vindhyachal-kashi-temples-for-navratri-puja/articleshow/129687144.cms","supports":"Confirms Goddess Vishalakshi as an active Varanasi Shaktipeeth in the Kashi temple circuit"},{"url":"https://www.google.com/maps/search/Kashi%2BVishwanath%2BTemple%2BComplex%2C%2BVaranasi%2C%2BIndia","supports":"Public Google Maps context confirms the adjoining old-city temple area"}],"reason":"The intended Vishalakshi Gauri Shakti temple in the old city was identified, but searches did not expose a sufficiently specific and verifiable standalone Google Maps marker coordinate. The old comparison coordinate was not reused.","brons_source":"BRONS-B02.jsonl","checked_at":"2
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=425 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/ZILVER/ZILVER-Z01.jsonl blob_sha=48108a9347f8141517713988d70e67921f1e791c original_offset=32768 original_length=4096 payload_bytes=4096 chunk_index=8 chunk_count=11 classification=text
+026-08-02"}
+{"candidate_id":"VNS-CAND-018","canonical_name":"Sankatha Devi Temple","status":"CONFIRMED","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_CONFIRMED","geo_status":"EXACT_GOOGLE_MAPS_MARKER","final_latitude":25.3126289,"final_longitude":83.0154469,"old_comparison":{"latitude":25.3156,"longitude":83.014,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Sankahtha Mata Mandir / Sankata Devi Mandir","address":"CK 7/159, Sankataji, near Sankata Ghat and north of Scindia Ghat, Chowk, Varanasi, Uttar Pradesh 221001, India","physical_identity":"CONFIRMED","marker_identity":"EXACT_GOOGLE_MAPS_PLACE_MATCH"},"zilver_check":{"physical_identity_check":"CONFIRMED","name_address_wijk_ghat_type_match":"OK -- consistent met identity_check en beschikbare bronnen","public_google_maps_or_official_source_used":true,"exact_coordinates_verified":true,"nearby_substitute_check":"OK -- geen verwarring met nabijgelegen locatie vastgesteld","candidate_status":"CONFIRMED","protected_mark_decision_respected":true,"explicit_rejection_check":null},"rejected_finding":null,"evidence":[{"url":"https://www.google.com/maps/place/Sankahtha+Mata+Mandir/@25.3126429,83.0131855,17z/data=!3m1!4b1!4m5!3m4!1s0x398e2e1f5d1cf71d:0x31d7ec71ce56bd98!8m2!3d25.3126289!4d83.0154469","supports":"Exact public Google Maps place URL for Sankahtha Mata Mandir with embedded marker coordinates 25.3126289,83.0154469"},{"url":"https://varanasitemples.in/category/devi-temples/sankata-devi/","supports":"Confirms the CK 7/159 Sankataji address and provides the same Google Maps place URL"},{"url":"https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/sankatha-devi-temple","supports":"Government tourism source confirms temple identity, protective-goddess function, old-city Chowk setting and construction with Sankatha Ghat"},{"url":"https://visitvaranasi.in/visit-temples/sankata-devi-temple/","supports":"Confirms the temple at Sankata Ghat, Sankata Gali, Chowk, on the Ganga river"}],"reason":"The candidate is the Sankata Devi/Sankahtha Mata temple at Sankata Ghat in the Scindia Ghat old-city cluster. A public Google Maps place URL embedded by a dedicated Varanasi temple reference provides an exact marker at 25.3126289,83.0154469, and the address and landmark context agree with independent tourism sources. The old comparison coordinate was not reused.","brons_source":"BRONS-B02.jsonl","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-019","canonical_name":"Kedareshwar Temple and Kedar Ghat","status":"CONFIRMED","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_CONFIRMED","geo_status":"EXACT_GOOGLE_MAPS_MARKER","final_latitude":25.2995855,"final_longitude":83.0060964,"old_comparison":{"latitude":25.2967,"longitude":83.0088,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Shree Gauri Kedareshwar Jyotirlinga Mahadev Temple and Kedar Ghat","address":"B-6/102, Kedar Ghat, Sonarpura, Varanasi, Uttar Pradesh 221001, India","physical_identity":"CONFIRMED","marker_identity":"EXACT_GOOGLE_MAPS_PLACE_MATCH"},"zilver_check":{"physical_identity_check":"CONFIRMED","name_address_wijk_ghat_type_match":"OK -- consistent met identity_check en beschikbare bronnen","public_google_maps_or_official_source_used":true,"exact_coordinates_verified":true,"nearby_substitute_check":"OK -- geen verwarring met nabijgelegen locatie vastgesteld","candidate_status":"CONFIRMED","protected_mark_decision_respected":true,"explicit_rejection_check":null},"rejected_finding":null,"evidence":[{"url":"https://goo.gl/maps/d7EvSQGxveK5wSbo6","supports":"Public Google Maps short link identified for the Gauri Kedareshwar Jyotirlinga Mahadev Temple marker at 25.2995855,83.0060964"},{"url":"https://sannidhi.net/sannidhi/gauri-kedareshwar-jyotirlinga-mahadev-temple-kedar-ghat-varanasi-uttar-pradesh/","supports":"Provides the Google Maps link, marker coordinates, temple identity, Kedar Ghat setting and access from both the ghat and main road"},{"url":"https://
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=426 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/ZILVER/ZILVER-Z01.jsonl blob_sha=48108a9347f8141517713988d70e67921f1e791c original_offset=36864 original_length=4096 payload_bytes=4096 chunk_index=9 chunk_count=11 classification=text
+varanasitemples.in/category/shiva-temples/page/15/","supports":"Confirms Kedareshwar temple at B-6/102, Kedar Ghat, reachable from Sonarpura or directly from Kedar Ghat"},{"url":"https://www.srisharadapeetham.org/branches/uttar-pradesh/varanasi/kedar-ghat","supports":"Official religious institution confirms Sri Kedareshwar Temple at Kedar Ghat on the Ganga and the nearby B-14/111 Sringeri Math landmark"},{"url":"https://varanasismartcity.gov.in/about/ghats","supports":"Official Varanasi Smart City ghat inventory confirms Kedar Ghat as a distinct named ghat"}],"reason":"The combined candidate is the Gauri Kedareshwar Shiva temple at B-6/102 and its directly adjoining Kedar Ghat in Sonarpura/Bangali Tola. A public Google Maps short link tied specifically to this temple is accompanied by marker coordinates 25.2995855,83.0060964, while independent temple and official institutional sources confirm the same address, ghat and nearby landmarks. The old comparison coordinate was not reused.","brons_source":"BRONS-B02.jsonl","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-020","canonical_name":"Lalita Ghat","status":"PROVISIONAL","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.3114,"longitude":83.0131,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Lalita Ghat, Varanasi","address":"Banaras Ghat Road, Ghats of Varanasi, Bangali Tola/Lahori Tola, Varanasi, Uttar Pradesh 221001, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"zilver_check":{"physical_identity_check":"CONFIRMED","name_address_wijk_ghat_type_match":"OK -- consistent met identity_check en beschikbare bronnen","public_google_maps_or_official_source_used":false,"exact_coordinates_verified":false,"nearby_substitute_check":"OK -- geen verwarring met nabijgelegen locatie vastgesteld","candidate_status":"PROVISIONAL","protected_mark_decision_respected":true,"explicit_rejection_check":null},"rejected_finding":null,"evidence":[{"url":"https://wanderlog.com/place/details/6052553/lalita-ghat","supports":"Google-derived listing confirms the Lalita Ghat place identity, Banaras Ghat Road address, Nepali Mandir context, and location between Manikarnika and Dashashwamedh Ghats"},{"url":"https://varanasismartcity.gov.in/about/ghats","supports":"Official Varanasi Smart City inventory confirms Lalita Ghat as a distinct named ghat between Nepali Ghat and Jalasayi Ghat"},{"url":"https://timesofindia.indiatimes.com/city/varanasi/ganga-aarti-ritual-begins-at-lalita-ghat-on-navratri-day-1/articleshow/129687158.cms","supports":"Confirms the active Ganga Aarti at Lalita Ghat in Kashi Vishwanath Dham and its direct ritual relationship to the Vishwanath complex"},{"url":"https://en.wikiversity.org/wiki/The_Varanasi_Heritage_Dossier/Lalita_Ghat_and_Temples","supports":"Confirms the historic Lalita Ghat identity, associated Lalita Devi temple and Nepali Ghat integration"},{"url":"https://kashi.gov.in/listing-details/lalita-ghat","supports":"Officiele Varanasi-districtslisting bevestigt Lalita Ghat identiteit"}],"reason":"The intended Lalita Ghat was conclusively identified as the historic ritual ghat adjoining the Nepali Mandir, near Manikarnika Ghat and connected to Kashi Vishwanath Dham. Public Google-derived listings and official/heritage sources agree on the physical place and nearby landmarks, but no exact public Google Maps place URL exposing a uniquely verifiable marker coordinate for Lalita Ghat itself could be extracted. Non-Google coordinates and the old comparison coordinate were not reused.","brons_source":"BRONS-B02.jsonl","checked_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-021","canonical_name":"Nepali Temple / Kathwala Temple","status":"PROVISIONAL","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":nul
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=427 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/ZILVER/ZILVER-Z01.jsonl blob_sha=48108a9347f8141517713988d70e67921f1e791c original_offset=40960 original_length=2667 payload_bytes=2667 chunk_index=10 chunk_count=11 classification=text
+l,"old_comparison":{"latitude":25.312,"longitude":83.0132,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Nepali Temple / Kathwala Temple / Shri Samrajeshwar Pashupatinath Mahadev","address":"near Lalita Ghat, Ghats of Varanasi, Lahori Tola, Varanasi, Uttar Pradesh 221001, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"zilver_check":{"physical_identity_check":"CONFIRMED","name_address_wijk_ghat_type_match":"OK -- consistent, Lalita Ghat/Lahori Tola","public_google_maps_or_official_source_used":false,"exact_coordinates_verified":false,"nearby_substitute_check":"OK -- geen verwarring met Lalita Ghat zelf (VNS-CAND-020) of Manikarnika Ghat vastgesteld, apart bevestigd als eigen tempel op het ghat","candidate_status":"PROVISIONAL","protected_mark_decision_respected":true,"explicit_rejection_check":null},"rejected_finding":null,"evidence":[{"url":"https://wanderlog.com/place/details/7405/nepali-temple","supports":"Google-derived listing confirms the Nepali Temple/Kathwala Temple identity, Shiva-temple type, Lalita Ghat location, Lahori Tola address and proximity to Manikarnika Ghat"},{"url":"https://www.google.com.np/travel/hotels/entity/ChkIwo6fzOn895U8Gg0vZy8xMWI4Y2c4Z2hmEAQ","supports":"Public Google travel place page confirms the Nepali Temple name, alternate Kathwala identity and near-Lalita-Ghat address"},{"url":"https://www.explorebanaras.in/place/kathwala-temple/","supports":"Confirms the wooden Nepalese pagoda-style Shiva temple on Lalita Ghat and the same Lahori Tola address"},{"url":"https://visitvaranasi.in/visit-temples/nepali-mandir-varanasi/","supports":"Confirms the Kathwala Nepali Mandir as a Shiva temple directly on Lalita Ghat beside the Ganga"},{"url":"https://kashi.gov.in/listing-details/nepali-mandir","supports":"Officiele Varanasi-districtslisting bevestigt Nepali Mandir/Kathwala Temple identiteit op Lalita Ghat"}],"reason":"The intended physical place is conclusively identified as the Nepali/Kathwala Shiva temple at Lalita Ghat, near Manikarnika Ghat and within the Kashi Vishwanath corridor area. Public Google-derived and independent sources agree on the name, address and landmark context, but no exact public Google Maps place URL exposing a uniquely verifiable marker coordinate was found. The old comparison coordinate was not reused. ZILVER (2026-08-02): dit record viel buiten zowel ZILVER-Z01 (001-020) als de INDIA5-testsweep (022-040) -- toegevoegd voor volledige regiodekking (alle 40) t.b.v. het regionale GOUD-pakket. BRONS-record zelf niet gewijzigd.","brons_source":"BRONS-B03.jsonl","checked_at":"2026-08-02"}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=428 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/PRE_BRONS/SOURCE_FAMILY_PLAN.jsonl blob_sha=486552a08fdf34098e59cf3b1211abab0ec4f39e original_offset=0 original_length=1277 payload_bytes=1277 chunk_index=0 chunk_count=1 classification=text
+{"source_family":"officiele_gemeentelijke_listing","example_domains":["kashi.gov.in"],"detector_id":["DET-P002"],"used_for":["Bhelupur Parshvanath-tempel"],"status":"gebruikt"}
+{"source_family":"encyclopedie","example_domains":["en.wikipedia.org"],"detector_id":["DET-P001","DET-P002","DET-P003","DET-P004"],"used_for":["Parshvanath Jain temples Varanasi","Suparshvanatha","Chandrawati Jain temple","Ramnagar Fort context"],"status":"gebruikt"}
+{"source_family":"religieuze_naslagbron","example_domains":["jainsite.com","jaintreasures.org.uk","jainsamaj.org","mycaste.in"],"detector_id":["DET-P001","DET-P002"],"used_for":["vier Tirthankara-kalyanaka's in Varanasi","Bhadaini Jain Tirth","Chandrapuri Jain Tirth","Mahavatar Babaji Cave (verworpen, buiten regio)"],"status":"gebruikt"}
+{"source_family":"reis_kruiscontrole","example_domains":["diverse onafhankelijke reissites"],"detector_id":["DET-P001","DET-P002","DET-P003","DET-P004"],"used_for":["Lahiri Mahasaya-lijn-bevestiging","Ramnagar Fort-details","84-ghats-overzicht incl. Adi Keshava Ghat"],"status":"gebruikt"}
+{"source_family":"lokale_insider_priesterbron","example_domains":[],"detector_id":[],"used_for":[],"status":"NIET_UITGEVOERD -- expliciet erkend hiaat, zie dramatic_miss_check in REGION_CONTENT_BRIEF"}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=429 path=runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/BENCHMARK_RESULT.md blob_sha=4898bb866e9e82d492fd71c944ab7ee7e942057b original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# BENCHMARK_RESULT — ANANDAMAYI MA — CCI vs INDIA vs EXTERNAL UNION
+
+```
+task_id: TOP11-EXTERNAL-AI-BENCHMARK-001
+person: Anandamayi Ma
+status: PRELIMINARY_THREE_WAY_RESULT__METHOD_DECISION_READY
+performed_by: INDIA
+performed_on: 2026-08-16
+```
+
+## Inputs
+1. CCI: `PILOT_RESULT.md` + `SATURATION_RESULT.md` — circa 23 Anandamayi-atlaspunten.
+2. External union: `EXTERNAL_UNION_INPUT.md` — 156 masterlocaties uit 4 onafhankelijke AI-uitkomsten.
+3. INDIA: `INDIA_SOURCE_FIRST_SWEEP_ANANDAMAYI.md` — source-first reconstructie uit de officiële/lineage Anandamayi-corpus.
+
+## Harde conclusie 1 — CCI `PERSON_SWEEP_SATURATED: JA` was onjuist als completeness-claim
+De CCI-set is niet alleen iets smaller; hij mist hele categorieën die de eigen taak verplicht stelde: hosthuizen, gastashrams, dharmashala's, paleizen, sanatoria, scholen, forten, specifieke tempels en chronologische tussenstops.
+
+Voorbeelden van CCI-misses die zowel door de externe union als rechtstreeks door officiële/lineage-bronnen worden ondersteund:
+- Pandey Dharamshala, Varanasi.
+- Burdwan Kunj, Vrindavan.
+- Bhowali T.B. Sanatorium.
+- Bhola Giri/Giriji Ashram, Kankhal.
+- Salogra Temple cave.
+- Chunar Fort.
+- Baghat House, Haridwar.
+- Juhu sea-beach Sanyam.
+- Gwalior Palace.
+- Sevagram.
+- Swadeshi House, Kanpur.
+- Baleswar Prasad residence, Allahabad.
+- Rashtrapati Bhavan.
+- Prime Minister's House.
+- Kitty Shiva Rao garden/house, Delhi.
+- Karar Ashram, Puri.
+- Sri Aurobindo Ashram, Pondicherry.
+- Sri Ramanasramam, Tiruvannamalai.
+
+Dit is voldoende om CCI's eerdere saturation-label als recall-gate ongeldig te verklaren.
+
+## Harde conclusie 2 — externe multi-AI union heeft echte meerwaarde
+De 156-union is veel rijker dan CCI en bevat reële long-tail plekken die niet vanzelf uit een ashramlijst komen. De host/gastheer-as is vooral bij AI2 sterk.
+
+Voorbeeld van een echte externe long-tail vondst die rechtstreeks via een lineage-bron is bevestigd:
+- **Kitty Shiva Rao's garden/home, Delhi** — de officiële Anandamayi-site beschrijft expliciet dat J. Krishnamurti bij Kitty verbleef en de ontmoeting met Ma in haar tuin plaatsvond.
+
+Dus externe AI's zijn niet alleen ruis: zij leveren echte detector-only kandidaten.
+
+## Harde conclusie 3 — externe union is zelf ook aantoonbaar niet compleet
+De INDIA source-first scan van de officiële `anandamayi.org` Life History 1896–1982 en Sangha-biografie vond daarna opnieuw vele expliciete fysieke sites/events die niet als afzonderlijk record in de 156-union voorkomen.
+
+Sterke voorbeelden:
+- Doonga, Dehradun.
+- Yogendra Nagar / Tarananda Swami Ashram.
+- Raj Rajeswari Temple, Chittagong.
+- Shankar Mutt, Chittagong.
+- Sita Kund.
+- Buddha Temple + Vishnu Temple at Ramkut.
+- Mirtola.
+- Krishna Kunj + Sri Gopal Thakur Ashram, Allahabad.
+- Assi Ghat, Varanasi.
+- Ekdalia Road Ashram, Calcutta.
+- Sarnath.
+- Dr. J. Sen's house, Delhi.
+- Barechina + Jageswar.
+- Kullu palace garden royal camp.
+- Manav Seva Sangh Ashram, Vrindavan.
+- Parmarth Niketan + Sivananda Ashram, Rishikesh.
+- Saptarishi Ashram, Haridwar.
+- Kuchaman Fort.
+- Shanti Niketan/Nitai Basu Mallick residence, Kankhal.
+- Scindia Public School, Gwalior.
+- N.N. Mukherjee residence, Allahabad.
+- Pilani.
+- Hazaribagh.
+- J.K. Temple campus, Kanpur.
+- Jaipuria House, Ramghat, Haridwar.
+- Ganga Vihar Dharamshala + Naini Jaipuria House, Bithoor.
+- Ganga Lahari Birla Guest House, Raiwala.
+- Hawa Mahal, Gondal.
+- Hathwa House, Patna.
+- Ratu Palace, Ranchi.
+- Narendra Brahmachari Ashram, Deoghar.
+- Sant Ram Mandir, Nadiad.
+- Belur Math.
+- Bhasa residence/ashram, Calcutta.
+- S.N. Ghosh Ganga-bank bungalow, Calcutta.
+- M.S. Subbulakshmi/T. Sadasivan house + specially built lawn hut in Madras.
+- Simhachalam, Vijayawada, Guntur, Mahabalipuram.
+- Sir C.P. Ramaswamy Aiyer's house in Madras.
+- Sagar, Barman Ghat, Ramghat and a river-Vyas dharmashala.
+
+Daarmee is ook 'external union = waarheid' uitgesloten.
+
+## Harde conclusie 4 — externe AI-claims moeten geverifieerd, niet gestemd
+De union bevat ook identity-/bewijsproblemen. Voorbeelden:
+- `Rajghat/Krishnamurti Foundation-campu
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=430 path=runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/BENCHMARK_RESULT.md blob_sha=4898bb866e9e82d492fd71c944ab7ee7e942057b original_offset=4096 original_length=3691 payload_bytes=3691 chunk_index=1 chunk_count=2 classification=text
+s` is waarschijnlijk NIET de plek van de Ma–Krishnamurti ontmoeting; de lineage-bron plaatst die expliciet in de tuin van Kitty Shiva Rao's huis in Delhi.
+- `Vashishta Guha` is in de officiële Life History wel verbonden via Swami Purushottam Tirtha die Ma uitnodigt, maar die ene bronpassage bewijst niet op zichzelf dat Ma de grot daadwerkelijk bezocht.
+- Badrinath-ashramclaim en postume instellingen vereisen apart bewijs van persoonlijke aanwezigheid.
+
+Dus detector-consensus is geen verificatie.
+
+## Root cause
+De eerste persoon-methode begon nog steeds te veel met zoekmachine-discovery (`naam + ashram/birthplace/...`) en gebruikte chronologie/hostketens als aanvullende laag. Voor een zeer reizende figuur als Anandamayi Ma is dat de verkeerde volgorde.
+
+## METHOD_V2 — vereiste architectuur
+
+### Fase 0 — corpus inventory
+Per persoon eerst een expliciete broncorpuslijst: officiële chronologie, autobiografie/biografie, dagboeken, memoirs, lineage-publicaties, reisverslagen, foto-captions, brieven en relevante archiefindexen.
+
+### Fase 1 — lossless corpus extraction
+Machine-assisted + handmatige chapter/year pass. Iedere plaatsvermelding als occurrence opslaan vóór relevantiefilter. Huizen, kamers, hostnamen, paleizen, sanatoria, stations, scholen, forten, rivierkampen, dharmashala's en transit worden niet genegeerd.
+
+### Fase 2 — event/place normalization
+Per occurrence apart:
+- persoon aanwezig?
+- gebeurtenis bewezen?
+- fysieke identiteit exact/deels/plaatsniveau?
+- exact subadres?
+- host/gastheer?
+- huidige instelling versus historische site?
+
+### Fase 3 — host/network graph
+Iedere genoemde gastheer, discipel, vorst, arts, geleerde, ashramhoofd en organisator terugzoeken naar huis/landgoed/instelling en bezoekcontext.
+
+### Fase 4 — discovery search
+Pas NU brede websearch/alternatieve spellings/regionale zoektermen voor plekken die de corpus niet expliciet indexeert.
+
+### Fase 5 — onafhankelijke INDIA-pass
+Andere query-/bronroute dan CCI; geen CCI-lijst als checklist tijdens discovery.
+
+### Fase 6 — externe multi-AI adversarial union
+Blanco prompt, geen bestaande kandidatenlijst. Detector-only kandidaten worden ingevoegd maar nog niet als feit.
+
+### Fase 7 — directe verification + reconciliation
+Alle detector-only of conflictpunten rechtstreeks naar bron. Duplicaten/sublocaties oplossen. Pas daarna saturation.
+
+### Nieuwe saturationregel
+`PERSON_SWEEP_SATURATED: JA` mag nooit meer alleen betekenen 'zes zoekcategorieën zijn geprobeerd'. Vereist:
+1. benoemde corpusfamilies aantoonbaar doorlopen of expliciet `UNAVAILABLE`;
+2. corpus-occurrence coverage-matrix;
+3. host graph pass;
+4. discovery pass;
+5. detector reconciliation;
+6. expliciete lijst van onopgeloste bronfamilies/tijdvakken.
+
+## Zijn andere AI's structureel nodig?
+Nog niet definitief beslist.
+
+**Wat Anandamayi wél bewijst:**
+- CCI alleen: onvoldoende.
+- externe AI's: waardevolle echte aanvullingen.
+- externe AI's alleen: eveneens onvoldoende.
+- source-first corpus-extractie: noodzakelijk.
+
+**Zuivere beslisproef:** gebruik METHOD_V2 prospectief op Yogananda. CCI + INDIA freezen eerst hun source-first union. Pas daarna laat Mark meerdere externe AI's blanco zoeken. Als externe AI daarna nog betekenisvolle geverifieerde plekken toevoegt, blijft multi-AI een verplichte detector voor alle 11. Als CCI+INDIA METHOD_V2 alles reproduceert, kan externe AI terug naar steekproef/adversarial audit.
+
+## Besluit
+`PERSON_METHOD_V1` is onvoldoende voor max-recall en moet voor toekomstige Top-11-completeness worden vervangen door `PERSON_METHOD_V2` zoals hierboven. De bestaande CCI-atlas blijft bruikbare input, maar niet de eindwaarheid.
+
+Geen A/B/C. Geen PDF.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=431 path=india4/roles/ZILVER.md blob_sha=496c382f4de55c795a52e37c132de9502f39b9d6 original_offset=0 original_length=964 payload_bytes=964 chunk_index=0 chunk_count=1 classification=text
+# ZILVER — BATCHCONTRACT
+
+Missie: controleer uitsluitend het kandidaatbereik van de genoemde ZILVER-batch, maximaal twintig kandidaten.
+
+Lees uitsluitend: `india4/START.md`, dit contract, de korte kernprotocollen, de runopdracht en de twee relevante BRONS-batchbestanden.
+
+Controleer per kandidaat:
+- is werkelijk een openbare Google Maps-marker gebruikt;
+- hoort die marker bij dezelfde fysieke plaats;
+- is niet een nabijgelegen organisatie, wijk of gebouw gekozen;
+- zijn latitude en longitude exact uit die marker afkomstig;
+- is onzekerheid eerlijk gemarkeerd.
+
+Corrigeer fouten met traceerbare reden. Ken geen A/B/C toe en wijzig geen beschermd Mark-besluit.
+
+Output: één volledig ZILVER-JSONL-batchbestand. Bij onvolledige uitvoering daarnaast `PROGRESS.yaml` met `next_candidate`; claim de batch niet als voltooid. Bij volledige uitvoering: readback, commit, batchstatus COMPLETED en exact één complete startvraag voor de volgende stap. Stop daarna.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=432 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-21/TIRUVANNAMALAI_ARUNACHALA_B_DECISIONS.md blob_sha=4a689307f1bf3061d565cd645893c5c433504fc7 original_offset=0 original_length=632 payload_bytes=632 chunk_index=0 chunk_count=1 classification=text
+# Tiruvannamalai / Arunachala decisions
+Date: 2026-08-21
+
+- Mango Tree Cave = B. Visit only if it fits naturally near/on an A-route; do not allocate an extra day or major detour solely for it.
+- Pachaiamman Temple = B. Same rule: include when logistically close to A-sites, but do not create an extra day or major detour.
+- Existing A decisions remain: Sri Ramanasramam, Virupaksha Cave, Skandashram, Arunachaleswarar Temple, Gurumurtam, Pavalakunru, Giripradakshina/Girivalam.
+- Final A-site reporting must preserve Yogananda's 29 Nov 1935 visit to Ramana Maharshi at Sri Ramanasramam as a required pre-visit reading/context item.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=433 path=handoffs/INDIA8_TO_INDIA9_LIVE_2026-08-19.md blob_sha=4ab1cbdc5541bb69e10a4a79176f989654851fe1 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# INDIA8 -> INDIA9 LIVE HANDOFF — 2026-08-20
+
+## MANDATORY FIRST READ FOR INDIA9+
+Lees vóór regie-uitvoering:
+`governance/INDIA_REGIE_DOORGANGSPROTOCOL_2026-08-20.md`
+Actuele governance bevat ook de limiet: maximaal twee actieve workerstreams, liefst één worker naast INDIA-regie.
+
+### 2026-08-23 GLOBAL CANON AUDIT — VERPLICHTE EXTRA FIRST READ
+Regie-miss ontdekt: recente runs werden te zwaar gewogen terwijl legacy-but-still-protected Mark-locks en sleep anchors onvoldoende werden meegenomen. Daardoor werden o.a. Jageshwar (reeds A), Binsar (reeds C) en bestaande Kumaon slaapbases opnieuw/te laat behandeld.
+
+Lees daarom vóór ELK volgend keuze-/routeblok ook:
+- `governance/GLOBAL_REGIE_CANON_AUDIT_2026-08-23.md`
+- `runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/SLEEP_BASE_REGISTER_2026-08-23.md`
+
+Nieuwe regieregel: vóór een locatie aan Mark wordt gepresenteerd, eerst latest Mark-decision -> accommodation lock -> central master -> governance/handoff -> legacy protected locks/anchors controleren. Oude candidates/overviews zijn nooit leidend bij conflict.
+
+Tactische routevolgorde voor reeds behouden clusters is nu:
+`KNOWN/CHOSEN SLEEP BASE -> A SITES -> DISTANCE/COMBINATION MATRIX -> LONELY PLANET ADDONS -> opportunistic B -> NIGHTS`.
+Dit wijzigt geen site-A/B/C; het voorkomt rekenen vanaf willekeurige stadscentra terwijl historische/spirituele slaapbases al bekend zijn.
+
+Actuele slaapbasisstatus:
+- Kukuchina/Dunagiri: **Joshi Guest House LOCKED**.
+- Nainital: **Hotel Evelyn CLUSTER_ANCHOR + site A**; historic Ram Dass room/patio access still final-trip prerequisite.
+- Kasar Devi/Almora: **Turiya Niwas PROVISIONAL LOCK + site A**; wintercomfort direct bevestigd; alleen exacte data/duur/reservering open; Kripal/Rudra fallbacks.
+- Varanasi: **Sahi River View Guesthouse LOCKED_BY_MARK**, balcony room, Jitendre, greetings from Debby. Dit OVERRULET oude provisional wording.
+- Vrindavan/Braj: sleep-base gap.
+- Bodh Gaya: sleep-base gap.
+- Tiruvannamalai/Arunachala: sleep-base gap.
+- Agra: exact hotel gap; max positioning night for HARD Taj sunrise/first-opening requirement.
+
+Reisperiode: **18-12-2026 t/m 21-01-2027 = 34 dagen**, vluchten geboekt.
+
+## KERNREIS / BESLUITEN
+Reisperiode 18-12-2026 t/m 21-01-2027; terugvlucht Delhi. Zeker: Delhi zeer kort; Kumaon; Varanasi; Bodh Gaya; Tiruvannamalai / Arunachala. Vrindavan/Braj en Prayagraj/Allahabad kandidaat tot global closure. Haridwar/Kankhal/Rishikesh als zelfstandig cluster afgevallen; individuele uitzonderlijke sites mogen terugkomen. Oost geparkeerd tenzij capaciteit/exceptionele override.
+AOAY/Yogananda blijft P0. Geen onzeker finding ooit stil filteren.
+
+LET OP: bovenstaande historische kernstatus is inmiddels deels ingehaald door latere expliciete Mark-clusterbesluiten. Actueel geldt conform `CLUSTER_LEVEL_DECISIONS_2026-08-22.md`:
+- Kumaon A;
+- Vrindavan/Braj/Mathura A maar route-sensitive;
+- Varanasi/Sarnath A;
+- Bodh Gaya/Gaya A;
+- Tiruvannamalai/Arunachala A fixed;
+- Mysore/Bengaluru cluster C;
+- Haridwar/Kankhal/Rishikesh cluster B/reserve;
+- Agra A maar Taj-only route driver, sunrise hard requirement;
+- Oost/Kolkata geparkeerd.
+Bij conflict wint deze latere status.
+
+Anandamayi Ma algemene scope: travel-core, NIET elk historisch huis/hostadres exhaustief oplossen. Een beperkt aantal zeer sterke, concrete en bezoekbare kernplekken is voldoende voor de reis, tenzij overlap/heritage/clusterwaarde een extra locatie relevant maakt.
+
+HARD OVERRIDE — Anandamayi Ma × Paramahansa Yogananda joint-photo locations:
+Elke fysiek oplosbare plek waar Anandamayi Ma en Paramahansa Yogananda samen op een gedocumenteerde foto staan moet altijd gericht worden opgelost en expliciet in de relevante clusterlijst verschijnen. Als het cluster in de reis komt, geldt de locatie als `MUST_VISIT_WITHIN_INCLUDED_CLUSTER` tenzij fysiek onmogelijk of historisch niet bruikbaar te lokaliseren. Deze regel overrulet de beperkte algemene Anandamayi-scope. Governance: `governance/ANANDAMAYI_YOGANANDA_PHOTO_OVERRIDE_2026-08-20.md`, commit `dd5c1aed639dc8057fd8c5b14a9dec1328064f6d`.
+
+## MET
+<<< END CHUNK >>>
+

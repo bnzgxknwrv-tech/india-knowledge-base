@@ -1,0 +1,363 @@
+>>> CHUNK stream_row=1063 path=india5/scripts/validate_task.py blob_sha=af9b2199b3e924b38774436a448f9618b226dc96 original_offset=8192 original_length=2071 payload_bytes=2071 chunk_index=2 chunk_count=3 classification=text
+COMPLETED":
+        result_path = task_dir / "RESULT.md"
+        if not result_path.exists():
+            errors.append(
+                "INCONSISTENT: STATUS.yaml zegt COMPLETED maar RESULT.md ontbreekt "
+                "(commit zonder RESULT)"
+            )
+        if stage != "done":
+            errors.append(f"STATUS.yaml zegt COMPLETED maar taak staat niet in tasks/done/ (staat in {stage}/)")
+
+    if stage == "done":
+        result_path = task_dir / "RESULT.md"
+        if result_path.exists() and state != "COMPLETED":
+            errors.append(
+                "INCONSISTENT: RESULT.md bestaat en taak staat in tasks/done/, maar "
+                f"STATUS.yaml zegt state={state!r} in plaats van COMPLETED (RESULT zonder "
+                "bijbehorende afgeronde status)"
+            )
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("task_id")
+    parser.add_argument("--stage", choices=["queue", "active", "done", "failed"], default=None)
+    parser.add_argument("--post-hoc", action="store_true",
+                         help="Controleer een reeds afgeronde/mislukte taak op interne consistentie "
+                              "in plaats van pre-claim-validatie.")
+    args = parser.parse_args()
+
+    task_dir, stage = find_task_dir(args.task_id, args.stage)
+    if task_dir is None:
+        print(f"VALIDATIE MISLUKT -- taak {args.task_id!r} niet gevonden in queue/active/done/failed")
+        sys.exit(1)
+
+    errors: list = []
+    warnings: list = []
+
+    task = validate_task_yaml(task_dir, errors, warnings, skip_head_check=args.post_hoc)
+
+    if args.post_hoc:
+        validate_post_hoc(task_dir, stage, errors)
+
+    for w in warnings:
+        print(f"  (waarschuwing) {w}")
+
+    if errors:
+        print(f"VALIDATIE MISLUKT -- {len(errors)} probleem/problemen voor {args.task_id} (stage={stage}):\n")
+        for e in errors:
+            print(f"  - {e}")
+        sys.exit(1)
+
+    print(f"VALIDATIE OK -- {args.task_id} (stage={stage}) is geldig, geen fouten.")
+    sys.exit(0)
+
+
+if __name__ == "__main__":
+    main()
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1064 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/TESTSWEEP-022-040/CORRECTIERAPPORT.md blob_sha=b022058932ba6139546e4ff0247afaa8bb70d93d original_offset=0 original_length=3917 payload_bytes=3917 chunk_index=0 chunk_count=1 classification=text
+# CORRECTIERAPPORT -- INDIA5-testsweep VNS-CAND-022 t/m 040
+
+run_id: VARANASI-GEO-DELIVERY-REPAIR-001
+rapportdatum: 2026-08-02
+
+## Scope-afwijking (vastgelegd voordat BRONS begon)
+
+De oorspronkelijke opdracht vroeg om precies 20 nieuwe testkandidaten. `candidates.jsonl` bevat in
+totaal 40 Varanasi-kandidaten; 21 (VNS-CAND-001 t/m 021) waren al volledig verwerkt vóór deze
+testsweep. Er resteerden dus nog maar 19, niet 20. Dit is aan Mark voorgelegd (real content decision);
+Mark heeft op 2026-08-02 expliciet gekozen om door te gaan met de 19 resterende kandidaten
+(VNS-CAND-022 t/m 040) in plaats van een 20e te verzinnen of VNS-CAND-021 te herdoen. Deze testsweep
+dekt daarom 19 kandidaten, niet 20. VNS-CAND-021 is ongewijzigd gelaten.
+
+## ZILVER-correcties (3x, alle opwaarderingen, geen fouten hersteld)
+
+| candidate_id | van | naar | reden |
+|---|---|---|---|
+| VNS-CAND-029 Dhamek Stupa | GOOGLE_MAPS_MARKER_NOT_CONFIRMED | VERIFIED_OFFICIAL_MAP_LINK (25.380889,83.024276) | ZILVER vond een officiele Google Earth entity-API-link (google.com/earth/rpc/entity) met ingesloten coordinaat en feature-ID die BRONS niet had gevonden |
+| VNS-CAND-031 Chaukhandi Stupa | GOOGLE_MAPS_MARKER_NOT_CONFIRMED | VERIFIED_OFFICIAL_MAP_LINK (25.37402,83.023588) | idem, Google Earth entity-API-link gevonden door ZILVER |
+| VNS-CAND-033 Deer Park / Isipatana | GOOGLE_MAPS_MARKER_NOT_CONFIRMED | VERIFIED_OFFICIAL_MAP_LINK (25.3825,83.024445) | idem, Google Earth entity-API-link gevonden door ZILVER |
+
+Geen van de 19 BRONS-records bevatte een feitelijke fout (verkeerde plek, verwarring met
+nabijgelegen organisatie, verkeerd overgenomen coordinaat); de 3 correcties zijn uitsluitend
+opwaarderingen op basis van extra bronnen die ZILVER vond in een tweede onderzoeksronde.
+
+## Openstaande onzekerheden (16 kandidaten, GOOGLE_MAPS_MARKER_NOT_CONFIRMED)
+
+VNS-CAND-022, 023, 024, 025, 026, 027, 028, 030, 032, 034, 035, 036, 037, 038, 039, 040.
+
+Voor al deze 16 geldt: fysieke identiteit bevestigd via minstens 2 onafhankelijke bronnen (overheids-
+listings, encyclopedische bronnen, gespecialiseerde Varanasi-tempelsites, institutionele bronnen),
+maar geen publieke Google Maps-marker kon interactief geopend en afgelezen worden binnen deze sessie
+(geen browsergebaseerde Google Maps-toegang beschikbaar, alleen websearch/fetch). Dit is een
+sessie-/tool-beperking, geen contentprobleem. Geen schatting, terreinmiddelpunt of ander verboden
+substituut is gebruikt.
+
+**Bijzondere aandachtspunten binnen deze 16:**
+
+- **VNS-CAND-023 (Mrityunjay Mahadev Temple):** een onafhankelijke (niet-Google) coordinaat uit
+  Wikipedia (25.317645,82.973914) wijkt ca. 3 km af van het oude vergelijkingscoordinaat
+  (25.3291,83.0056). Dit is GEEN eindcoordinaat (niet overgenomen), maar het verschil is groot genoeg
+  om apart te vermelden -- bij een toekomstige sessie met interactieve Google Maps-toegang verdient
+  deze kandidaat prioriteit voor handmatige verificatie.
+- **VNS-CAND-025 (Lahartara Kabir birthplace memorial)** en **VNS-CAND-028 (Bhaskarananda Samadhi /
+  Anand Bagh):** physical_identity blijft PARTIAL (overgenomen uit de brondata) omdat het
+  herdenkingszones zijn zonder één eenduidig hoofdgebouw.
+
+## Dedup-observatie
+
+Zie GEO_AUDIT.md: VNS-CAND-006 ("Sarnath sacred complex", buiten scope) overlapt begripsmatig met de
+zes nieuw gecatalogiseerde Sarnath-deelsites (029-034). Geen wijziging aangebracht; alleen gesignaleerd
+voor een toekomstig Mark-besluit.
+
+## Beschermde besluiten -- ongewijzigd
+
+- VNS-CAND-001, 002, 003, 007: Mark-keuze A (ongewijzigd, buiten deze testsweep).
+- VNS-CAND-008: Mark-keuze B; het expliciet afgewezen coordinaat [25.3045, 82.979369] is niet
+  opnieuw voorgesteld of gebruikt (buiten deze testsweep, niet aangeraakt).
+- Geen van de 19 testsweep-kandidaten heeft een bestaand Mark-besluit; alle 19 blijven
+  `DOOR_MARK_TE_BEOORDELEN`. Geen A/B/C toegekend door BRONS/ZILVER/GOUD.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1065 path=runs/active/BODHGAYA-DISCOVERY-001/GOUD/BODHGAYA_046_049.kml blob_sha=b1de167dcd29ea522a12378be6d3ba42189635ac original_offset=0 original_length=2809 payload_bytes=2809 chunk_index=0 chunk_count=1 classification=text
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Bodh Gaya -- 046-049 (CORE_PASS + OPTIONAL_PASS)</name>
+  <description>run_id: BODHGAYA-DISCOVERY-001. Uitsluitend de vier genummerde kandidaten. Geen A/B/C toegekend -- kleuren duiden uitsluitend GEO-bevestigingsstatus aan, geen Mark-keuze. 046 en 047 hebben een bevestigde Google Maps/Earth-marker. 048 en 049 hebben GEEN bevestigde marker en staan daarom zonder puntgeometrie, uitsluitend als tekstuele placemark met adres -- conform protocol nooit een geraden of overgenomen coordinaat.</description>
+
+  <Style id="confirmed">
+    <IconStyle>
+      <color>ff00ff00</color>
+      <scale>1.2</scale>
+    </IconStyle>
+  </Style>
+
+  <Folder>
+    <name>Kerncluster (bevestigde markers)</name>
+    <Placemark>
+      <name>046 Mahabodhi Temple Complex</name>
+      <description>CORE_PASS. GEO-status: CONFIRMED (rechtstreekse Google Maps/Earth-entiteit). Bodh Gaya, Bihar 824231, India.</description>
+      <styleUrl>#confirmed</styleUrl>
+      <Point>
+        <coordinates>84.9914193,24.6959222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>047 Sujata Stupa, Bakraur</name>
+      <description>CORE_PASS. GEO-status: CONFIRMED (rechtstreekse Google Maps/Earth-entiteit, Google Plus Code M2X3+58W). Bakraur, Sujata, Bihar 824231, India.</description>
+      <styleUrl>#confirmed</styleUrl>
+      <Point>
+        <coordinates>85.0033228,24.6979887,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+
+  <Folder>
+    <name>Aanvullende cluster (geen bevestigde marker)</name>
+    <Placemark>
+      <name>048 Dungeshwari Cave Temples (Mahakala Caves) -- GEEN BEVESTIGDE MARKER</name>
+      <description>CORE_PASS. GEO-status: GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Geen puntgeometrie -- vijf zoekpogingen over twee ZILVER-rondes leverden geen rechtstreekse Google Maps-marker op. Adres: Larpur village, near Bodh Gaya, Gaya district, Bihar, India (circa 12-14 km van Bodh Gaya, bronafhankelijk). Zie GOUD-rapport voor volledige toelichting.</description>
+    </Placemark>
+  </Folder>
+
+  <Folder>
+    <name>Losse optionele plek (geen bevestigde marker)</name>
+    <Placemark>
+      <name>049 Great Buddha Statue -- GEEN BEVESTIGDE MARKER</name>
+      <description>OPTIONAL_PASS. GEO-status: GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Geen puntgeometrie -- geen rechtstreekse Google Maps-marker gevonden ondanks drie zoekpogingen. Wikipedia-infobox-coordinaat (24.690472, 84.981806) bestaat wel, maar wordt conform protocol NIET als vervanging voor een geverifieerde marker gebruikt. Adres: Daijokyo Buddhist Temple, Great Buddha Statue Road, P.O. Bodhgaya 824231, Gaya, Bihar, India. Zie GOUD-rapport voor volledige toelichting.</description>
+    </Placemark>
+  </Folder>
+
+</Document>
+</kml>
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1066 path=README.md blob_sha=b236cdcc07be53fa7ca56987b8b248c2c45ed91d original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# INDIA — START HIER
+
+## STOP — VERPLICHTE EERSTE POORT VOOR INDIA9 EN LATER
+
+**Lees vóór ALLES eerst:**
+`governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md`
+
+Deze poort is toegevoegd na een ernstige INDIA8-regiefout op 2026-08-23: recente runs werden wel gelezen, maar oudere nog geldige Mark-canon (A/B/C, cluster-anchors, accommodation locks en legacy-besluiten) werd onvoldoende gereconcilieerd. Daardoor werden reeds beoordeelde plekken opnieuw als keuzes gepresenteerd en bestaande slaapbases onvoldoende gebruikt.
+
+Daarom geldt voortaan vóór ELK inhoudelijk advies:
+
+`GEHELE REPO LEZEN -> ACTUELE CANON RECONCILIËREN -> AL-BESLIST-CHECK PER ITEM -> PAS DAN PRESENTEREN`
+
+En tevens hard:
+
+**Iets wat INDIA NU veilig zelfstandig kan uitvoeren, wordt in DEZELFDE beurt uitgevoerd en duurzaam in GitHub vastgelegd. Nooit bewaren als "volgende stap" als het nu kan.**
+
+---
+
+Dit repository is de duurzame bron van waarheid voor het India-project. Een nieuwe ChatGPT/INDIA-regisseursessie (INDIA7, INDIA8, INDIA9, enz.) moet de oude chat NIET nodig hebben en mag Mark niet vragen de geschiedenis opnieuw uit te leggen.
+
+## Harde bootregel voor iedere nieuwe INDIA-regisseur
+
+**Lees de gehele GitHub-repository voordat je inhoudelijk handelt.** Niet alleen de handoff, niet alleen governance, niet alleen actieve taken.
+
+Praktisch betekent dit:
+
+1. Lees eerst `governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md` volledig.
+2. Haal de volledige recursieve tree van de actuele werkbranch op.
+3. Lees vervolgens **alle tekstuele bronbestanden op die werkbranch inhoudelijk**, inclusief governance, actieve runs, oudere runs, registries, decisions, protocollen, methodes, scripts, README/START/HANDOFF-bestanden, research-notities en legacy-projectbestanden. Oude bestanden kunnen fouten bevatten of gedeprecieerd zijn, maar moeten wel gelezen worden zodat een opvolger weet wat er bestond, wat vervangen is en welke Mark-besluiten mogelijk beschermd zijn.
+4. Niet-tekstuele/binaire artefacten (PDF's, afbeeldingen, ZIP's) hoeven niet byte-voor-byte gelezen te worden als hun relevante inhoud al in tekstbestanden is vastgelegd. Zodra een actuele taak, decision of audit naar zo'n artefact verwijst als inhoudelijke bron, moet het wel worden geopend/gecontroleerd.
+5. Inventariseer daarnaast alle relevante branches en open PR's. Lees in elk geval de actieve werkbranch volledig en inspecteer legacy/andere branches die in de repo of actieve taken worden genoemd. PR #23 moet volledig als relay/index worden gecontroleerd op de nieuwste envelopes; inhoudelijke waarheid blijft in de repo-bestanden.
+6. Lees daarna nogmaals de actuele canonieke statebestanden om prioriteit en conflictoplossing vast te zetten:
+   - `governance/ACTIVE_STATE.md`
+   - `governance/INDIA_SESSION_START.md`
+   - `governance/SWEEP_PROTOCOL.md`
+   - `governance/SWEEP_ERROR_CLASSES.md`
+   - alle `runs/active/*/STATUS.md` + bijbehorende `TASK.md` en genoemde outputbestanden.
+7. Scan repo-breed op minimaal:
+   - `LOCKED_BY_MARK`
+   - `LOCKED_A`
+   - `LOCKED_B`
+   - `LOCKED_C`
+   - `CLUSTER_ANCHOR`
+   - `accommodation`
+   - `hotel`
+   - `MARK_DECISION_CONFLICT`
+   - `LAST_GLOBAL_LOCATION_NUMBER`
+   - `PDF_STATUS`
+   - `next_allowed_step`
+   - `PERSON_SWEEP_SATURATED`
+   - `AOAY_LOCATION_SWEEP_SATURATED`
+   - `DOUBLE_SWEEP_COMPLETED`
+8. Controleer de nieuwste commits op de werkbranch en de nieuwste PR #23-enveloppen.
+9. Bouw vóór presentatie één actuele canonlaag. Voor reisregie geldt: nieuwste expliciete Mark-beslissing/lock > nieuwste accommodation/base lock > nieuwste clusterbesluit > nieuwste site-A/B/C > centrale all-findings/reconciliatie > actuele governance/handoff > oudere beschermde locks/anchors > oude kandidaat-/overzichtsbestanden.
+10. Doe voor ELK item dat aan Mark wordt genoemd eerst de `AL BESLIST?`-check uit de critical boot file. Een bestaand A/B/C/lock wordt nooit opnieuw als nieuwe keuze gepresenteerd.
+11. Handel daarna DIRECT de nieuwste uitvoerbare actie af. Mark is geen koerier tussen INDIA en CCI.
+12. Vóór ieder finaal antwoord: scan j
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1067 path=README.md blob_sha=b236cdcc07be53fa7ca56987b8b248c2c45ed91d original_offset=4096 original_length=3997 payload_bytes=3997 chunk_index=1 chunk_count=2 classification=text
+e eigen concept op woorden als `moet nog`, `later`, `volgende stap`, `nog onderzoeken`, `nog bepalen`. Als INDIA dit nu veilig zelf kan doen: NIET verzenden, eerst uitvoeren.
+
+### Waarom echt de hele repo lezen
+Dit project heeft meerdere architectuurfasen, oude branches, legacy-besluiten en later ontdekte misses. Alleen een samenvatting lezen kan precies de fouten herhalen die we proberen te voorkomen. De volledige repo is daarom de oriëntatielaag; de statebestanden bepalen daarna wat actueel/canoniek is.
+
+## State-bestanden en onderhoud
+
+- `governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md` = verplichte eerste foutpreventiepoort.
+- `governance/INDIA_SESSION_START.md` = compacte, actuele operationele overdracht.
+- `governance/ACTIVE_STATE.md` = langere centrale projectstaat/canon.
+- `runs/active/<TASK_ID>/STATUS.md` = kortste en meest actuele waarheid per taak.
+- `runs/active/<TASK_ID>/TASK.md` = taakcontract.
+- PR #23 = korte relay/index, geen vervanging voor repo-inhoud.
+
+**Verplichte onderhoudsregel voor iedere INDIA-regisseur:** update `governance/INDIA_SESSION_START.md` of een expliciete actuele canon-delta in dezelfde werksessie wanneer één van deze dingen verandert: nieuwe taak, taak afgerond/geblokkeerd, nieuwe CCI-opdracht, nieuwe permanente locatie-ID, Mark A/B/C-lock, accommodation/base lock, methode/protocolwijziging, regioprioriteit, foutcorrectie of `NEXT_ACTION`. Update daarnaast altijd het betrokken taak-`STATUS.md`. Laat een opvolger nooit afhankelijk zijn van chatgeheugen.
+
+## Projectdoel
+
+Marks India-reis draait primair om drie orthogonale detectorlagen:
+
+1. **AOAY** — iedere verifieerbare fysieke plek uit of direct verbonden met *Autobiography of a Yogi*, hoe klein ook.
+2. **Top-11 persoon-centraal** — per persoon heel India afzoeken naar aantoonbare fysieke touchpoints, inclusief host/gastheer/landgoed/huis-bezoeken.
+3. **Regionaal** — per zware regio een onafhankelijke dubbele sweep + reconciliatie; daarnaast alleen zelfstandige spirituele/pelgrimszwaargewichten als bonuslaag.
+
+Top-11, vaste volgorde:
+1. Paramahansa Yogananda
+2. Mahavatar Babaji
+3. Lahiri Mahasaya
+4. Sri Yukteswar
+5. Ram Dass
+6. Neem Karoli Baba
+7. Anandamayi Ma
+8. Ramakrishna
+9. Ramana Maharshi
+10. Hariharananda
+11. Vivekananda
+
+Geen A/B/C voorspellen namens Mark. Geen PDF zonder expliciet `PDF_GO: JA`.
+
+## Historische snapshot — 2026-08-16
+
+LET OP: onderstaande snapshot is historisch en kan door latere besluiten zijn superseded. Gebruik hem NIET als actuele reiscanon zonder de verplichte canonreconciliatie hierboven.
+
+Repository: `bnzgxknwrv-tech/india-knowledge-base`
+Werkbranch destijds: `claude/werk-je-nu-of-niet-oa10y7`
+PR: #23 draft; niet mergen zonder expliciete vrijgave van Mark.
+Laatste globale permanente locatienummer in die snapshot: **081**.
+
+### Kumaon
+`KUMAON-V2-RESWEEP-001` was gedeeltelijk gereconcilieerd.
+- 079 Mahavatar Babaji's Cave — A, `LOCKED_BY_MARK`.
+- 080 Turiya Niwas — A, `LOCKED_BY_MARK`.
+- 081 Bodh Ashram — A, `LOCKED_BY_MARK`.
+
+### Reeds inhoudelijk afgerond in die snapshot
+- Varanasi: 001–040 beoordeeld/beschermd; latere deltas bestaan.
+- Bodh Gaya: 046–078 verwerkt; keuzes beschermd; geen nieuwe Bodh Gaya-PDF.
+- Gaya Airport → Bodh Gaya corridor: dubbele sweep + reconciliatie, 0 nieuwe locaties.
+
+## Exacte startzin voor een nieuwe chat
+
+Gebruik bij voorkeur de actuele startvraag die INDIA8 op 2026-08-23 aan Mark heeft gegeven. Minimaal moet iedere startvraag eisen:
+
+> Neem de INDIA-regie over. Open eerst README.md en volg de verplichte `INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md`-poort. Lees daarna de gehele tekstuele repository en relevante branches/legacy-canon, reconcileer alle bestaande Mark A/B/C-, cluster-, accommodation- en base-locks vóór je iets presenteert, controleer per item of het al besloten is, en voer iedere actie die je nu veilig zelfstandig kunt doen meteen uit en commit die; laat niets als 'volgende stap' liggen wanneer het nu kan.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1068 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/DISCOVERY_CANDIDATES.jsonl blob_sha=b2fab65190958eef531efcf4dafc4400d61ae0f4 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=17 classification=text
+{"candidate_id": "BGY-CAND-046", "display_id": "046", "canonical_name": "Mahabodhi Temple Complex", "cluster": "PRIMARY_ENLIGHTENMENT_SITE", "place_type": "TEMPLE_COMPLEX_KOEPEL", "status": "PROVISIONAL", "protected_mark_status": "A", "not_to_be_missed_tier": "CORE_PASS", "discovered_by_detector": "DET-BGY-P001 PRIMARY_ENLIGHTENMENT_SITE_DECOMPOSITION_DETECTOR", "why_this_one": "De fysieke plek van Boeddha's verlichting zelf -- de Vajrasana (diamanttroon, bewaard door keizer Ashoka) en de directe nakomeling van de Bodhi-boom. Koepelkandidaat die ook de zeven traditionele 'week'-plekken direct na de verlichting omvat (Animeshlochan Chaitya, Ratnachakrama, Ratnaghar Chaitya, Ajapala Nigrodh, Muchalinda-vijver, Rajyatana-boom), allemaal binnen dezelfde ommuurde complexgrens.", "why_not_the_others": "Bewust NIET opgesplitst in zeven aparte kandidaten -- alle zeven weekplekken liggen binnen dezelfde ommuurde grens en worden in een doorlopend bezoek gezien; apart nummeren zou kunstmatige overfragmentatie zijn (zie DISCOVERY_REPORT.md en COMPARATIVE_PRUNING_REPORT.md).", "meaning_evidence": "UNESCO-werelderfgoedstatus (onafhankelijk bevestigd via meerdere bronnen; het nominatiedocument zelf blijft ontoegankelijk, HTTP 403), indianculture.gov.in (officiele Indiase cultuurbron), meerdere onafhankelijke encyclopedische bevestigingen van de zeven-wekenstructuur. Extra: Swami Sri Yukteswar Giri (Marks eigen paramaguru-lijn, positie 4 in PRIORITY_GROUPS.md) werd op Guru Purnima, juli 1906, in Bodh Gaya geinitieerd in de sannyas-orde -- onafhankelijk bevestigd via lineage-/institutionele bronnen (Ananda e.a.), exacte locatie binnen Bodh Gaya nog niet vastgesteld (open onzekerheid).", "living_or_monumental": "LEVEND -- actief pelgrimsoord, dagelijkse verering, geen droog monument.", "mark_relevance_link": "Bestaand Mark-precedent (PRIORITY_GROUPS.md: 'Bodh Gaya werd een A-cluster puur door de kracht van de plek zelf') plus de nu bevestigde directe Kriya-lijnverbinding via Sri Yukteswars sannyas-initiatie hier in 1906.", "not_to_be_missed_advice": "CORE_PASS na actieve weerlegging in de vergelijkende snoeironde -- geen zwakte gevonden.", "geo_status": "CONFIRMED", "final_latitude": 24.6959222, "final_longitude": 84.9914193, "reason_ref": "zie ZILVER/ZILVER-Z01.jsonl -- rechtstreekse Google Maps/Earth-entiteitsbevestiging", "checked_at": "2026-08-03", "mark_decision_ref": "MARK_DECISIONS_2026-08-05.jsonl", "aoay_top11_audit": "AOAY-primair (2026-08-08, bericht 054, gereconcilieerd 2026-08-08 bericht 058): AOAY ch.36 FN36-1 bevestigt Sri Yukteswars formele Swami-Orde-inwijding 'door de Mahant van Buddh Gaya' -- gebeurtenis_geverifieerd: JA, exacte_locatie_geverifieerd: NEE (Mahant-titel niet gekoppeld aan specifiek gebouw; datum 'juli 1906/Guru Purnima' is een secundaire-bronclaim, NIET in AOAY zelf). Aanvullend: Vivekananda bezocht Bodh Gaya tweemaal -- eerste daad na sannyas en zijn laatste reis (Sister Nivedita) -- verrijking, geen statuswijziging. PLUS niet-promoveerbare lineage-context: Neem Karoli Baba-devotee Krishna Das ontving hier van een oude lama een Bodhi-boomzaad, dat Maharajji later ongevraagd ter sprake bracht (ramdass.org) -- classificatie DIRECTE_TOP11_FYSIEKE_LINK: NEE, wel RELEVANTE_LINEAGE/SATSANG_CONTEXT: JA, niet promoveren tot fysieke NKB-link. CORRECTIE (2026-08-08, na INDIA6-tegencontrole bericht 058): de eerdere claim dat Ramakrishna zelf Bodh Gaya bezocht en voor het Boeddhabeeld mediteerde was ONJUIST (rechtstreekse brondubbelcheck toonde het tegendeel: Ramakrishna weigerde bewust Gaya te bezoeken) en is INGETROKKEN; de correcte, wel-geverifieerde Ramakrishna-link staat nu bij candidate 051, niet hier. 046 blijft A, geen conflict."}
+{"candidate_id": "BGY-CAND-047", "display_id": "047", "canonical_name": "Sujata Stupa, Bakraur", "cluster": "PRE_ENLIGHTENMENT_NARRATIVE", "place_type": "STUPA_HISTORIC_EVENT_SITE", "status": "PROVISIONAL", "protected_mark_status": "A", "not_to_be_missed_tier": "CORE_PASS", "discovered_by_detector": "DET-BGY-P002 PRE_ENLIGHTENMENT_NARRATIVE_SITE_DETECTOR", "why_this_one": "De plaat
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1069 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/DISCOVERY_CANDIDATES.jsonl blob_sha=b2fab65190958eef531efcf4dafc4400d61ae0f4 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=17 classification=text
+s waar Sujata, een dorpsvrouw uit Bakraur, Boeddha een kom rijstpudding (kheer) aanbood -- de gebeurtenis die zijn zesjarige extreme ascese beeindigde en rechtstreeks tot de ontdekking van de Middenweg leidde. Eenmalige, plaatsgebonden, onvervangbare gebeurtenis.", "why_not_the_others": "Andere, specifieke gebeurtenis dan zowel Mahabodhi (de verlichting zelf) als Dungeshwari (de ascese die voorafging) -- complementair, geen inhoudelijke overlap. 'Bakraur Stupa' en 'Sujata Stupa' zijn dezelfde fysieke plek (Bakraur is de dorpsnaam), niet twee verschillende objecten -- open naamgevingsvraag uit de eerste ronden is opgelost.", "meaning_evidence": "tourism.bihar.gov.in (officiele deelstaatbron), Wikipedia (eigen lemma), academisch tijdschriftartikel met opgravingsdatering (International Journal of Humanities and Social Science Research): oorspronkelijke bouw 2e eeuw v.Chr. (Dark Grey Polished Ware, gestempelde munt), latere uitbreidingsfase 8e-10e eeuw CE (ASI-opgravingen 1973-74 en 2001-2006).", "living_or_monumental": "MONUMENTAAL -- archeologisch stoepacomplex, geen doorlopende dagelijkse eredienst zoals Mahabodhi.", "mark_relevance_link": "Directe, tastbare fysieke aanleiding tot de verlichting die Mahabodhi vertegenwoordigt -- onderdeel van hetzelfde verhaal, andere plek.", "not_to_be_missed_advice": "CORE_PASS na actieve weerlegging -- de Middenweg-leer is een kernleerstuk, geen obscuur detail; het fysieke, gedateerde spoor is niet vervangbaar door het verhaal alleen te horen.", "geo_status": "CONFIRMED", "final_latitude": 24.6979887, "final_longitude": 85.0033228, "reason_ref": "zie ZILVER/ZILVER-Z01.jsonl -- eerdere drievoudige coordinaatconflict opgelost via rechtstreekse Google Maps/Earth-entiteitsbevestiging (naam-gematcht op \"The Sujata Stupa\")", "checked_at": "2026-08-03", "mark_decision_ref": "MARK_DECISIONS_2026-08-05.jsonl"}
+{"candidate_id": "BGY-CAND-048", "display_id": "048", "canonical_name": "Dungeshwari Cave Temples (Mahakala Caves)", "cluster": "PRE_ENLIGHTENMENT_NARRATIVE", "place_type": "CAVE_TEMPLE_HISTORIC_EVENT_SITE", "status": "PROVISIONAL", "protected_mark_status": "A", "not_to_be_missed_tier": "CORE_PASS", "discovered_by_detector": "DET-BGY-P002 PRE_ENLIGHTENMENT_NARRATIVE_SITE_DETECTOR", "why_this_one": "De plek waar Boeddha zes jaar extreme ascese beoefende voor hij naar Bodh Gaya afdaalde voor de uiteindelijke verlichting -- het spiegelbeeld-verhaal van Sujata's aanbieding. Rotsgehouwen grottempels (5e-6e eeuw CE) met een gouden beeld van de uitgemergelde Boeddha in ascese.", "why_not_the_others": "Andere, specifieke gebeurtenis en fysieke plek dan Sujata Stupa (het 'voor'-verhaal, niet het moment van de aanbieding zelf) en Mahabodhi (de verlichting zelf) -- complementair.", "meaning_evidence": "tourism.bihar.gov.in EN incredibleindia.gov.in (twee onafhankelijke overheidsbronnen), plus verwijzing naar de 7e-eeuwse Chinese pelgrim Xuanzang (Hiuen Tsang) in zijn reisverslag -- primaire historische bron; een publiek toegankelijke volledige vertaling (Samuel Beal, 1884, 'Si-Yu-Ki') is gelokaliseerd, specifieke passage nog niet geextraheerd (open onzekerheid).", "living_or_monumental": "LEVEND -- actieve grottempel met dagelijkse verering, plus tastbaar historisch relict (het uitgemergelde-Boeddhabeeld).", "mark_relevance_link": "Fysiek, aangrijpend spoor van de Middenweg-les die tot de verlichting bij Mahabodhi leidde -- directe biografische aanloop.", "not_to_be_missed_advice": "CORE_PASS na actieve weerlegging, ondanks de grotere reisinspanning (12-14 km, aparte rit) -- geen andere plek toont dit specifieke moment.", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "reason_ref": "zie ZILVER/ZILVER-Z01.jsonl -- geen Google Maps-marker gevonden ondanks aanvullende zoekpogingen, geo_status ongewijzigd", "checked_at": "2026-08-03", "mark_decision_ref": "MARK_DECISIONS_2026-08-05.jsonl"}
+{"candidate_id": "BGY-CAND-049", "display_id": "049", "canonical_name": "Great Buddha Statue", "cluster": "MODERN_LANDMARK", "place_type": "MONUMENTAL_STATUE", "st
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1070 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/DISCOVERY_CANDIDATES.jsonl blob_sha=b2fab65190958eef531efcf4dafc4400d61ae0f4 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=17 classification=text
+atus": "PROVISIONAL", "protected_mark_status": "A", "not_to_be_missed_tier": "OPTIONAL_PASS", "discovered_by_detector": "DET-BGY-P003 INTERNATIONAL_MONASTERY_LIVING_TRADITION_DETECTOR", "why_this_one": "circa 20 m hoog zittend Boeddhabeeld (24 m totale constructie inclusief lotus en voetstuk -- Wikipedia bevat een interne inconsistentie tussen infobox 18,5 m en hoofdtekst 20 m, hier gecorrigeerd/genuanceerd) (Daijokyo, 1989), het eerste en grootste Boeddhabeeld ooit gebouwd in modern India, geconsacreerd door de 14e Dalai Lama op 18 november 1989 als symbool van de wereldwijde herleving van het boeddhisme.", "why_not_the_others": "Fysiek een apart landmark, maar inhoudelijk-narratief GEEN onderdeel van Boeddha's eigen biografische verhaal (in tegenstelling tot de drie CORE_PASS-locaties) -- vandaar OPTIONAL_PASS, niet CORE_PASS. Vrij toegankelijk, geen speciale toegang nodig, dus wel sterker dan de generieke internationale kloosters.", "meaning_evidence": "Eigen Wikipedia-lemma, meerdere onafhankelijke bevestigingen van bouwjaar, hoogte en de Dalai Lama-consecratie. Hoogtecijfer gecontroleerd en genuanceerd tijdens ZILVER (zie ZILVER/ZILVER-Z01.jsonl): bronnen liepen uiteen van 18,5 tot 25 m; kernfeiten (eerste/grootste in India gebouwde Boeddhabeeld op het moment van bouw, Dalai Lama-consecratie 1989) blijven ongewijzigd.", "living_or_monumental": "MONUMENTAAL -- modern eerbetoon, geen historisch spoor van Boeddha's eigen leven.", "mark_relevance_link": "Symbool van de wereldwijde herleving van het boeddhisme, direct nabij het hoofdcomplex (1,5 km) -- eenvoudig te combineren, geen zelfstandige reisinspanning.", "not_to_be_missed_advice": "OPTIONAL_PASS -- sterk genoeg om aan Mark voor te leggen, niet automatisch een kernbestemming; het missen ervan slaat geen gat in het begrip van het verlichtingsverhaal zelf.", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "reason_ref": "zie ZILVER/ZILVER-Z01.jsonl -- geen Google Maps-marker gevonden, geo_status ongewijzigd; OPTIONAL_PASS-status herbevestigd", "checked_at": "2026-08-03", "mark_decision_ref": "MARK_DECISIONS_2026-08-05.jsonl"}
+{"candidate_id": "BGY-CAND-050", "display_id": "050", "canonical_name": "Archaeological Museum of Bodh Gaya (ASI)", "cluster": "ARCHAEOLOGICAL_LAYER", "place_type": "ASI_MUSEUM", "status": "PROVISIONAL", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "mark_waardig_status": "MARK_WAARDIG", "discovered_by_detector": "DET-BGY-P005 ARCHAEOLOGICAL_ASI_DETECTOR", "why_this_one": "Bewaart de originele stenen balustrade-fragmenten die ooit de Bodhi-boom zelf omsloten (Sunga-periode, ca. 2e eeuw v.Chr.) -- directe fysieke herkomst uit de kernplek van de verlichting, geen generiek geschiedenismuseum.", "why_not_the_others": "Enig museum in de straal met objecten direct afkomstig van de Bodhi-boom-omheining zelf.", "meaning_evidence": "asibodhgayamuseum.com (officiele ASI-bron), opgericht 1956.", "living_or_monumental": "MONUMENTAAL -- museum, geen levende eredienst.", "mark_relevance_link": "Objecten letterlijk afkomstig van 046 zelf.", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "reason_ref": "zie GOUD/MARK_SELECTION_REPORT.md voor volledige onderbouwing", "checked_at": "2026-08-05"}
+{"candidate_id": "BGY-CAND-051", "display_id": "051", "canonical_name": "Vishnupad Temple, Gaya", "cluster": "NON_BUDDHIST_TRADITION", "place_type": "HINDU_TEMPLE_RELIC", "status": "PROVISIONAL", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "mark_waardig_status": "MARK_WAARDIG", "discovered_by_detector": "DET-BGY-P006 NON_BUDDHIST_IN_RADIUS_DETECTOR", "why_this_one": "Singulier fysiek voetspoor-relict van Vishnu, een van de belangrijkste Pind-Daan-plekken van heel India. Correctie 2026-08-06 (INDIA6 bericht 021): meerdere onafhankelijke reisbronnen melden consistent dat niet-hindoes de tempel zelf niet mogen betreden -- geen officiele bron bevestigt dit expliciet, maar de corroboratie is consistent. Een niet-hindoe bezoeker ziet vermoedelijk de omgeving, niet
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1071 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/DISCOVERY_CANDIDATES.jsonl blob_sha=b2fab65190958eef531efcf4dafc4400d61ae0f4 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=17 classification=text
+ het relict zelf.", "why_not_the_others": "Geen andere plek in de straal heeft dit specifieke relict of deze rituele functie.", "meaning_evidence": "tourism.bihar.gov.in, historische diepte mogelijk tot 5e eeuw CE (Samudragupta-periode, Basarh Seal). Toegangsregel: meerdere reisbronnen (o.a. Tripadvisor-reviews), niet een officiele bron.", "living_or_monumental": "LEVEND -- actieve, drukbezochte tempel.", "mark_relevance_link": "Geen directe koppeling aan Marks Kriya-canon; MARK_WAARDIG op eigen merites (singulier relict, nationale betekenis), met de toegangsbeperking als relevant feit bij de afweging.", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "reason_ref": "zie GOUD/MARK_SELECTION_REPORT.md voor volledige onderbouwing", "checked_at": "2026-08-06", "aoay_top11_audit": "Top-11-link gevonden (2026-08-08, bericht 054; UITGEBREID 2026-08-08 na INDIA6-tegencontrole bericht 058): (1) Anandamayi Ma woonde op 18 oktober 1956 de Arti bij in de Vishnupad-tempel te Gaya en bezocht dezelfde dag ook Bodh Gaya (anandamayi.org, officiele levensgeschiedenis). (2) Ramakrishna: geen eigen bezoek (hij weigerde in 1868 bewust Gaya te bezoeken -- rechtstreeks geverifieerd via sriramakrishna.in, 'XI -- Pilgrimage'), maar zijn vader Kshudiram kreeg in 1835 tijdens een Gaya-pelgrimage een visioen van Gadadhar (Vishnu, de heersende godheid van Gaya) die beloofde als zijn zoon geboren te worden -- vandaar Ramakrishna's geboortenaam 'Gadadhar' (ramakrishnavivekananda.info, 'The Great Master'). MARK_DECISION_CONFLICT: deze links waren niet bekend toen Mark C koos voor 051 -- expliciet gemeld, NIET zelfstandig door CCI gewijzigd. Geen apart 'Gadadhar Vishnu Temple'-nummer nodig -- dit IS candidate 051, geen aparte fysieke plek.", "mark_decision_conflict": false, "mark_decision_conflict_resolved_at": "2026-08-08", "mark_decision_conflict_resolution": "C behouden (bericht 065, MARK_DECISIONS_2026-08-08_DELTA.jsonl)"}
+{"candidate_id": "BGY-CAND-052", "display_id": "052", "canonical_name": "Tergar Monastery", "cluster": "INTERNATIONAL_MONASTERY", "place_type": "KAGYU_MONASTERY_INSTITUTE", "status": "PROVISIONAL", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "mark_waardig_status": "MARK_WAARDIG", "discovered_by_detector": "DET-BGY-P003 INTERNATIONAL_MONASTERY_LIVING_TRADITION_DETECTOR", "why_this_one": "Gesticht door Mingyur Rinpoche, periodieke (doorgaans jaarlijkse) gastheer van het Kagyu Monlam-gebedsfestival met de 17e Karmapa, ruim 300 monniken. Correctie 2026-08-06 (INDIA6 bericht 021): exacte data volgen de Tibetaanse maankalender, geen vaste Gregoriaanse maand. Bevestigde meest recente editie: 40e Kagyu Monlam Chenmo, 23 december 2025 - 3 januari 2026. Datum volgende editie: ONBEKEND, nog niet gepubliceerd.", "why_not_the_others": "Enige klooster met directe, periodieke Karmapa-aanwezigheid.", "meaning_evidence": "tergarsangha.org, Wikipedia (Tergar Meditation Community). Monlam-datumcorrectie: kagyuoffice.org, threads.com/@kagyumonlam.", "living_or_monumental": "LEVEND -- actief studieklooster; sterkste ervaring is evenementafhankelijk (Monlam-festival).", "mark_relevance_link": "Geen directe Kriya-link; MARK_WAARDIG op eigen merites (stichter, Karmapa-connectie).", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "reason_ref": "zie GOUD/MARK_SELECTION_REPORT.md voor volledige onderbouwing", "checked_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-053", "display_id": "053", "canonical_name": "Root Institute (FPMT)", "cluster": "INTERNATIONAL_MONASTERY", "place_type": "MEDITATION_RETREAT_CENTER", "status": "EXCLUDED", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "mark_waardig_status": "EXCLUDED_HARD_REASON", "discovered_by_detector": "DET-BGY-P003 INTERNATIONAL_MONASTERY_LIVING_TRADITION_DETECTOR", "why_this_one": "Gesticht 1984 door Lama Yeshe en Lama Zopa Rinpoche (FPMT). Correctie 2026-08-06 (INDIA6 bericht 021, officiele bron rootinstitute.ngo): niet alleen toegankelijk via cursusinschrijving -- vrij dagbezoek aan de tuinen
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1072 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/DISCOVERY_CANDIDATES.jsonl blob_sha=b2fab65190958eef531efcf4dafc4400d61ae0f4 original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=17 classification=text
+ (gratis, doorgaans 9.00-17.00u), dagelijkse meditatiesessies open voor iedereen, en gewoon verblijf zonder cursus (tegen betaling accommodatie/maaltijden, met inachtneming van de kloosterprecepten) zijn ook mogelijk, naast de residentiele meditatiecursus (okt-mrt, ca. 10 dagen, wel vooraf-inschrijving).", "why_not_the_others": "Onder de onderzochte kandidaten de enige plek met zowel vrij dagbezoek/gewoon verblijf als een gestructureerd, meerdaags meditatieprogramma voor buitenstaanders.", "meaning_evidence": "rootinstitute.ngo/stay/faq, rootinstitute.ngo/being-here, fpmt.org.", "living_or_monumental": "LEVEND -- dagbezoek en gewoon verblijf permanent mogelijk; alleen de residentiele cursus is programma-/seizoensafhankelijk.", "mark_relevance_link": "Geen directe Kriya-link; MARK_WAARDIG op meerdere toegankelijkheidsniveaus (dagbezoek, gewoon verblijf, of cursus).", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "reason_ref": "zie GOUD/MARK_SELECTION_REPORT.md voor volledige onderbouwing", "checked_at": "2026-08-06", "exclusion_correction": "UITGESLOTEN 2026-08-08, retroactieve E.1-canontoets (INDIA6 bericht 042, religie-onafhankelijke bedevaartszoeking). Onderscheidend vermogen was uitsluitend toegangsflexibiliteit (dagbezoek/verblijf/cursus) en een stichterscitaat -- geen relict, geen grote pelgrimsstroom, geen aan de plek verbonden vereerd persoon. Voldoet aan de harde generiek-check uit governance/SWEEP_PROTOCOL.md poort E.1/FK-011 -- niet behouden vanwege land-/traditievertegenwoordiging. Nummer 053 blijft permanent gereserveerd en wordt nooit hergebruikt.", "exclusion_hard_reason": "CATEGORIE_DEKKING_ZONDER_ZELFSTANDIGE_BEDEVAARTSZWAARTE"}
+{"candidate_id": "BGY-CAND-054", "display_id": "054", "canonical_name": "Wat Thai Buddhagaya (Thai Monastery)", "cluster": "INTERNATIONAL_MONASTERY", "place_type": "THAI_MONASTERY", "status": "EXCLUDED", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "mark_waardig_status": "EXCLUDED_HARD_REASON", "discovered_by_detector": "DET-BGY-P003 INTERNATIONAL_MONASTERY_LIVING_TRADITION_DETECTOR", "why_this_one": "Gesticht 1957 op uitnodiging van Nehru (25e boeddhistische eeuw), de Thaise tempel binnen Bodh Gaya, dagelijkse meditatiesessies (reisbron-niveau) en jaarlijkse stille retraite (januari, reisbron-niveau). Correctie 2026-08-06 (INDIA6 bericht 021): claim 'enige Thaise tempel in India' is ONJUIST en verwijderd -- er bestaan minstens twee andere Thaise tempels in India (Wat Thai Temple Sant Nagar Delhi; Bhogal Buddha Vihar Delhi). 'Eerste buitenlandse klooster van Bodh Gaya' blijft bijgesteld naar 'eerste MODERNE buitenlandse klooster' (eerdere correctie, bericht 011).", "why_not_the_others": "De Thaise tempel binnen Bodh Gaya (niet: enige in heel India), historisch precedent als een van de eerste/eerste moderne buitenlandse klooster.", "meaning_evidence": "en.wikipedia.org/wiki/Wat_Thai_Buddhagaya, trawell.in. Correctie: mapsofindia.com en thedelhitours.com bevestigen Thaise tempels in Delhi.", "living_or_monumental": "LEVEND -- reguliere ochtend-/avondmeditatie (reisbron-niveau, niet institutioneel bevestigd).", "mark_relevance_link": "Geen directe Kriya-link; MARK_WAARDIG op eigen merites (architectuur, Nehru-uitnodiging, reguliere meditatiepraktijk), niet op de eerdere onjuiste uniciteitsclaim.", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "reason_ref": "zie GOUD/MARK_SELECTION_REPORT.md voor volledige onderbouwing", "checked_at": "2026-08-06", "exclusion_correction": "UITGESLOTEN 2026-08-08, retroactieve E.1-canontoets (INDIA6 bericht 042, religie-onafhankelijke bedevaartszoeking). Resterende onderscheiding was 'de Thaise tempel binnen Bodh Gaya' plus een historisch-diplomatiek feit (Nehru-uitnodiging, eerste moderne buitenlandse klooster) -- geen zelfstandige bedevaarts-/heilige zwaarte. Voldoet aan de harde generiek-check uit governance/SWEEP_PROTOCOL.md poort E.1/FK-011 -- niet behouden vanwege land-/traditievertegenwoordiging. Nummer 054 blijft permanent gereservee
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1073 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/DISCOVERY_CANDIDATES.jsonl blob_sha=b2fab65190958eef531efcf4dafc4400d61ae0f4 original_offset=20480 original_length=4096 payload_bytes=4096 chunk_index=5 chunk_count=17 classification=text
+rd en wordt nooit hergebruikt.", "exclusion_hard_reason": "CATEGORIE_DEKKING_ZONDER_ZELFSTANDIGE_BEDEVAARTSZWAARTE"}
+{"candidate_id": "BGY-CAND-055", "display_id": "055", "canonical_name": "Royal Bhutan Monastery", "cluster": "INTERNATIONAL_MONASTERY", "place_type": "BHUTANESE_DZONG_MONASTERY", "status": "EXCLUDED", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "mark_waardig_status": "EXCLUDED_HARD_REASON", "discovered_by_detector": "DET-BGY-P003 INTERNATIONAL_MONASTERY_LIVING_TRADITION_DETECTOR", "why_this_one": "Authentieke Bhutaanse dzong-architectuur, gebouwd jaren '90 met steun van Bhutans Vierde Koning -- enige dzong-architectuur buiten de Himalaya.", "why_not_the_others": "Architectuurstijl die verder nergens in de straal voorkomt.", "meaning_evidence": "tourism.bihar.gov.in, travelsetu.com.", "living_or_monumental": "LEVEND -- klein wisselend gezelschap Bhutaanse monniken.", "mark_relevance_link": "Geen directe Kriya-link; MARK_WAARDIG op eigen merites (unieke architectuur).", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "reason_ref": "zie GOUD/MARK_SELECTION_REPORT.md voor volledige onderbouwing", "checked_at": "2026-08-05", "exclusion_correction": "UITGESLOTEN 2026-08-08, retroactieve E.1-canontoets (INDIA6 bericht 042, religie-onafhankelijke bedevaartszoeking). Onderscheiding was uitsluitend architectuur (dzong-stijl) plus koninklijke financiering -- geen relict, pelgrimsstroom of aan de plek verbonden vereerd persoon. Voldoet aan de harde generiek-check uit governance/SWEEP_PROTOCOL.md poort E.1/FK-011 -- niet behouden vanwege land-/traditievertegenwoordiging. Nummer 055 blijft permanent gereserveerd en wordt nooit hergebruikt.", "exclusion_hard_reason": "CATEGORIE_DEKKING_ZONDER_ZELFSTANDIGE_BEDEVAARTSZWAARTE"}
+{"candidate_id": "BGY-CAND-056", "display_id": "056", "canonical_name": "Tibetan Temple (Tibetaans klooster tegenover Mahabodhi)", "cluster": "INTERNATIONAL_MONASTERY", "place_type": "TIBETAN_MONASTERY", "status": "EXCLUDED", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "mark_waardig_status": "EXCLUDED_HARD_REASON", "discovered_by_detector": "DET-BGY-P003 INTERNATIONAL_MONASTERY_LIVING_TRADITION_DETECTOR", "why_this_one": "Reuzengebedmolen (officieel bevestigd circa 10 m hoog, goud/rood, ruim 20 ton) en Maitreya-Boeddhabeeld, direct tegenover 046. Correctie 2026-08-05 (INDIA2 bericht 011): eerdere primaire identificatie als 'Namgyal Monastery' met Dalai Lama-connectie was onbevestigde speculatie en is verwijderd als hoofdclaim. Officiele bron (tourism.bihar.gov.in, pagina 'Tibetan Temple') noemt geen Namgyal Monastery, geen Karma Temple en geen Dalai Lama.", "why_not_the_others": "De schaal van de gebedsmolen (circa 10 m, 20+ ton) en de Maitreya-symboliek zijn concreet onderscheidend van de andere internationale kloosters, onafhankelijk van enige ongeverifieerde Dalai-Lama-claim.", "meaning_evidence": "tourism.bihar.gov.in/en/destinations/gaya/tibetan-temple (officiele bron, canonieke naam en gebedsmolen-detail). 'Namgyal Monastery (Gendhen Phelgyeling)' en 'Karma Temple' staan uitsluitend als NIET-bevestigde aliassen in secundaire reisbronnen -- expliciet niet als vaststaand feit gebruikt.", "living_or_monumental": "LEVEND -- monniken in studie/gebed.", "mark_relevance_link": "Geen directe Kriya-link; MARK_WAARDIG op eigen merites (ligging tegenover 046, schaal van de gebedsmolen, Maitreya-beeld) -- niet op basis van de eerder onterecht gebruikte Dalai-Lama-connectie.", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "reason_ref": "zie GOUD/MARK_SELECTION_REPORT.md voor volledige onderbouwing", "checked_at": "2026-08-05", "identity_correction_note": "canonical_name gewijzigd van 'Namgyal Monastery (Bodhgaya) / Tibetaans klooster tegenover Mahabodhi' naar 'Tibetan Temple (Tibetaans klooster tegenover Mahabodhi)' -- nummer 056 ongewijzigd, alleen naam/onderbouwing gecorrigeerd op verzoek INDIA2 (bericht 011).", "exclusion_correction": "UITGESLOTEN 2026-08-08, retroactieve E.1-canontoets
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1074 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/DISCOVERY_CANDIDATES.jsonl blob_sha=b2fab65190958eef531efcf4dafc4400d61ae0f4 original_offset=24576 original_length=4096 payload_bytes=4096 chunk_index=6 chunk_count=17 classification=text
+ (INDIA6 bericht 042, religie-onafhankelijke bedevaartszoeking). Onderscheiding was een indrukwekkend object (grote gebedsmolen) bij een institutioneel onbevestigde identiteit -- geen bevestigde bedevaarts-/heilige zwaarte. Voldoet aan de harde generiek-check uit governance/SWEEP_PROTOCOL.md poort E.1/FK-011 -- niet behouden vanwege land-/traditievertegenwoordiging. Nummer 056 blijft permanent gereserveerd en wordt nooit hergebruikt.", "exclusion_hard_reason": "CATEGORIE_DEKKING_ZONDER_ZELFSTANDIGE_BEDEVAARTSZWAARTE"}
+{"candidate_id": "BGY-CAND-057", "display_id": "057", "canonical_name": "Vietnamese Temple", "cluster": "INTERNATIONAL_MONASTERY", "place_type": "VIETNAMESE_TEMPLE", "status": "EXCLUDED", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "mark_waardig_status": "EXCLUDED_HARD_REASON", "discovered_by_detector": "DET-BGY-P003 INTERNATIONAL_MONASTERY_LIVING_TRADITION_DETECTOR", "why_this_one": "Door de Vietnamese regering gebouwd (2002), driedelig drakendak, Avalokiteshvara-beeld i.p.v. uitsluitend Boeddhabeeld.", "why_not_the_others": "Enige tempel in de straal met Vietnamese architectuur en Avalokiteshvara-focus.", "meaning_evidence": "trawell.in, tripadvisor.in.", "living_or_monumental": "LEVEND -- actief heiligdom.", "mark_relevance_link": "Geen directe Kriya-link; MARK_WAARDIG op eigen merites (architectonische/iconografische eigenheid).", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "reason_ref": "zie GOUD/MARK_SELECTION_REPORT.md voor volledige onderbouwing", "checked_at": "2026-08-05", "exclusion_correction": "UITGESLOTEN 2026-08-08, retroactieve E.1-canontoets (INDIA6 bericht 042, religie-onafhankelijke bedevaartszoeking). Eigen tekst noemt expliciet 'internationale diversiteit' als reden om te bezoeken -- architectuur/iconografie zonder zelfstandige bedevaarts-/heilige betekenis. Voldoet aan de harde generiek-check uit governance/SWEEP_PROTOCOL.md poort E.1/FK-011 -- niet behouden vanwege land-/traditievertegenwoordiging. Nummer 057 blijft permanent gereserveerd en wordt nooit hergebruikt.", "exclusion_hard_reason": "CATEGORIE_DEKKING_ZONDER_ZELFSTANDIGE_BEDEVAARTSZWAARTE"}
+{"candidate_id": "BGY-CAND-058", "display_id": "058", "canonical_name": "Japanese Temple / Indosan Nippon (Nipponzan-Myohoji)", "cluster": "INTERNATIONAL_MONASTERY", "place_type": "NICHIREN_MONASTERY", "status": "PROVISIONAL", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "mark_waardig_status": "MARK_WAARDIG", "discovered_by_detector": "DET-BGY-P003 INTERNATIONAL_MONASTERY_LIVING_TRADITION_DETECTOR", "why_this_one": "Gesticht 1972 door Nichidatsu Fujii, stichter van de wereldwijde vredespagode-beweging -- apart bevestigd van Daijokyo/049 (identiteitscontrole IDENTITY_CHECK_DAIJOKYO_VS_INDOSAN_NIPPON.md).", "why_not_the_others": "Enige klooster met directe koppeling aan de internationale vredespagode-beweging.", "meaning_evidence": "en.wikipedia.org/wiki/Nichidatsu_Fujii.", "living_or_monumental": "LEVEND -- actief klooster.", "mark_relevance_link": "Geen directe Kriya-link; MARK_WAARDIG op eigen merites (stichtersgeschiedenis, vredesbeweging).", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "reason_ref": "zie GOUD/MARK_SELECTION_REPORT.md voor volledige onderbouwing", "checked_at": "2026-08-05"}
+{"candidate_id": "BGY-CAND-059", "display_id": "059", "canonical_name": "Metta Buddharam Temple (Silver Temple)", "cluster": "INTERNATIONAL_MONASTERY", "place_type": "THAI_MEDITATION_TEMPLE", "status": "EXCLUDED", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "mark_waardig_status": "EXCLUDED_HARD_REASON", "discovered_by_detector": "DET-BGY-P003 INTERNATIONAL_MONASTERY_LIVING_TRADITION_DETECTOR", "why_this_one": "Thaise/Theravada-geinspireerde meditatietempel met een opvallend zilver-wit exterieur (roestvrijstaal + mozaiekspiegels) -- visueel het tegenovergestelde van de gouden Wat Thai Buddhagaya (054), gericht op 'Metta' (liefdevolle vriendelijkheid).", "why_not_the_others": "Een van twee Thaise tempels in Bodh Gaya, maa
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1075 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/DISCOVERY_CANDIDATES.jsonl blob_sha=b2fab65190958eef531efcf4dafc4400d61ae0f4 original_offset=28672 original_length=4096 payload_bytes=4096 chunk_index=7 chunk_count=17 classification=text
+r de enige met deze zilver/spiegel-architectuur -- geen duplicaat van 054.", "meaning_evidence": "tourism.bihar.gov.in/en/destinations/gaya/metta-buddharam-temple, tripadvisor.com, chalbanjare.com.", "living_or_monumental": "LEVEND -- gemeenschap van Thaise monniken, Dhamma-onderwijs.", "mark_relevance_link": "Geen directe Kriya-link; MARK_WAARDIG op architectuur/visuele eigenheid.", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "reason_ref": "zie PRE_BRONS/SATURATION_REPORT_002.md voor volledige onderbouwing; volledige GOUD-keuzerapporttekst nu opgenomen in GOUD/MARK_SELECTION_REPORT.md", "checked_at": "2026-08-06", "exclusion_correction": "UITGESLOTEN 2026-08-08, retroactieve E.1-canontoets (INDIA6 bericht 042, religie-onafhankelijke bedevaartszoeking). Onderscheiding was uitsluitend visuele esthetiek ('enige zilver/spiegel-tempel') -- geen geschiedenis, stichter, gebeurtenis of relict gevonden. Voldoet aan de harde generiek-check uit governance/SWEEP_PROTOCOL.md poort E.1/FK-011 -- niet behouden vanwege land-/traditievertegenwoordiging. Nummer 059 blijft permanent gereserveerd en wordt nooit hergebruikt.", "exclusion_hard_reason": "CATEGORIE_DEKKING_ZONDER_ZELFSTANDIGE_BEDEVAARTSZWAARTE"}
+{"candidate_id": "BGY-CAND-060", "display_id": "060", "canonical_name": "Palyul Namdroling Monastery (Ngagyur Palyul Thubten Shedrub Choekhor Dargyeling)", "cluster": "INTERNATIONAL_MONASTERY", "place_type": "NYINGMA_MONASTERY", "status": "PROVISIONAL", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "mark_waardig_status": "MARK_WAARDIG", "discovered_by_detector": "DET-BGY-P003 INTERNATIONAL_MONASTERY_LIVING_TRADITION_DETECTOR", "why_this_one": "Groot Nyingma-klooster (Palyul-lijn) bij de Groot-Boeddhabeeld (049), officiele naam gegeven door zowel Drubwang Pema Norbu Rinpoche als de Dalai Lama, minder toeristisch en expliciet geschikt om te mediteren.", "why_not_the_others": "Andere Tibetaans-boeddhistische traditie (Nyingma) dan de bestaande Karma-Kagyu (052 Tergar) en het generieke 'Tibetan Temple' (056) -- geen duplicaat.", "meaning_evidence": "namdroling.net, palyul.org, tripadvisor.com, wanderlog.com.", "living_or_monumental": "LEVEND -- actief klooster, nog in aanbouw.", "mark_relevance_link": "Geen directe Kriya-link; MARK_WAARDIG op traditie-eigenheid (Nyingma) en rust.", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "reason_ref": "zie PRE_BRONS/SATURATION_REPORT_002.md voor volledige onderbouwing; volledige GOUD-keuzerapporttekst nu opgenomen in GOUD/MARK_SELECTION_REPORT.md", "checked_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-061", "display_id": "061", "canonical_name": "Burmese Vihara", "cluster": "INTERNATIONAL_MONASTERY", "place_type": "MYANMAR_MONASTERY", "status": "PROVISIONAL", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "mark_waardig_status": "MARK_WAARDIG", "discovered_by_detector": "DET-BGY-P003 INTERNATIONAL_MONASTERY_LIVING_TRADITION_DETECTOR", "why_this_one": "Gesticht 1936, een van de vroegste internationale kloosters aan de oorspronkelijke weg Gaya-Bodhgaya, met een Boeddhabeeld gemaakt van riet (ongebruikelijk materiaal), meditatiezaal, bibliotheek en dagelijkse gratis vegetarische lunch.", "why_not_the_others": "Enige Myanmar/Birmese vertegenwoordiging in de straal; pionierstatus (een van de vroegste internationale kloosters) is een eigen, niet-herhaald gegeven.", "meaning_evidence": "burmesevihar-bodhgaya.com, holidify.com, fundforeducationabroad.org/journal/bodh-gaya-and-the-burmese-vihar.", "living_or_monumental": "LEVEND -- actief klooster, dagelijkse lunch, bibliotheek, gastenverblijf.", "mark_relevance_link": "Geen directe Kriya-link; MARK_WAARDIG op historische pionierstatus en het rieten Boeddhabeeld.", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "reason_ref": "zie PRE_BRONS/SATURATION_REPORT_002.md voor volledige onderbouwing; volledige GOUD-keuzerapporttekst nu opgenomen in GOUD/MARK_SELECTION_REPORT.md", "checked_at": "2026
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1076 path=runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/DISCOVERY_CANDIDATES.jsonl blob_sha=b2fab65190958eef531efcf4dafc4400d61ae0f4 original_offset=32768 original_length=4096 payload_bytes=4096 chunk_index=8 chunk_count=17 classification=text
+-08-06", "e1_canontoets_note": "TWIJFELGEVAL (retroactieve E.1-canontoets, 2026-08-08, INDIA6 bericht 042): niet uitgesloten ondanks representatie-achtige framing in why_not_the_others, omdat pioniersstatus + een door de Birmese boeddhistische autoriteiten aangestelde abt + een doorlopende liefdadigheidspraktijk reele, zij het bescheiden, zwaartesignalen zijn. Expliciet voorgelegd aan INDIA6/Mark, niet zelfstandig door CCI beslist.", "aoay_top11_audit": "Top-11-link gevonden, LOCATIE ONZEKER (2026-08-08, nieuw t.o.v. eerste AOAY/Top-11-audit, ontdekt tijdens INDIA6-tegencontrole bericht 058): Ram Dass studeerde in januari 1971 (niet 'winter 1969-70', dat was een datumfout in de eerste versie van dit onderzoek) Vipassana onder S.N. Goenka in Bodh Gaya. Twee cursussen liepen vlak na elkaar -- Samanvaya Ashram (24-12-1970 t/m 3-1-1971, nu candidate 074) en Burmese Vihara (4 t/m 14-1-1971, deze kandidaat). Joseph Goldstein, die met Ram Dass in dezelfde groep van zes Amerikanen zat, woonde in die periode zelf in de Burmese Vihara (buddhistinquiry.org). Met de beschikbare bronnen (manda.dhamma.org/Vipassana Research Institute, insightmyanmar.org) is NIET definitief vast te stellen welk gebouw Ram Dass' specifieke cursus was. MARK_DECISION_CONFLICT: deze link was niet bekend toen Mark C koos voor 061 -- expliciet gemeld, NIET zelfstandig door CCI gewijzigd.", "mark_decision_conflict": false, "mark_decision_conflict_resolved_at": "2026-08-08", "mark_decision_conflict_resolution": "C behouden (bericht 065, MARK_DECISIONS_2026-08-08_DELTA.jsonl)"}
+{"candidate_id": "BGY-CAND-062", "display_id": "062", "canonical_name": "Mahabodhi Society of India (Bodh Gaya-centrum)", "cluster": "HISTORICAL_INSTITUTION", "place_type": "BUDDHIST_REVIVAL_ORGANIZATION_SITE", "status": "PROVISIONAL", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "mark_waardig_status": "MARK_WAARDIG", "discovered_by_detector": "DET-BGY-P001 PRIMARY_ENLIGHTENMENT_SITE_DECOMPOSITION_DETECTOR (aangrenzend)", "why_this_one": "Gesticht 1891 door Anagarika Dharmapala (Sri Lanka) met als doel de Mahabodhi-tempel terug te winnen voor boeddhistische eredienst (destijds in handen van een Saivitische priester, het Boeddhabeeld tot hindoe-icoon gemaakt, boeddhisten geweerd van aanbidding). Het honderd jaar oude gebouw ten westen van de Mahabodhi-tempel is het oudste bestaande kloostergebouw van Bodh Gaya.", "why_not_the_others": "Dit is niet 'nog een nationaal paviljoen' maar de organisatie/plek die aan de basis lag van de herstelde boeddhistische controle over het hele hoofdcomplex -- een uniek historisch-institutioneel verhaal, geen duplicaat van 046.", "meaning_evidence": "britannica.com/topic/Maha-Bodhi-Society, en.wikipedia.org/wiki/Mahabodhi_Society, theosophy.wiki.", "living_or_monumental": "LEVEND EN MONUMENTAAL -- actieve organisatie in het oudste kloostergebouw van de plek.", "mark_relevance_link": "Geen directe Kriya-link; MARK_WAARDIG op het herstel-narratief en de oudste-gebouw-status.", "geo_status": "GOOGLE_MAPS_MARKER_NOT_CONFIRMED", "final_latitude": null, "final_longitude": null, "reason_ref": "zie PRE_BRONS/SATURATION_REPORT_002.md voor volledige onderbouwing; volledige GOUD-keuzerapporttekst nu opgenomen in GOUD/MARK_SELECTION_REPORT.md", "checked_at": "2026-08-06"}
+{"candidate_id": "BGY-CAND-063", "display_id": "063", "canonical_name": "Padmasambhava Grand Temple and Nyingma Center", "cluster": "INTERNATIONAL_MONASTERY", "place_type": "NYINGMA_MONASTERY", "status": "PROVISIONAL", "protected_mark_status": "DOOR_MARK_TE_BEOORDELEN", "mark_waardig_status": "MARK_WAARDIG", "discovered_by_detector": "DET-BGY-P003 INTERNATIONAL_MONASTERY_LIVING_TRADITION_DETECTOR", "why_this_one": "Nieuw ingewijd (23 januari 2026) tempelcomplex voor de Nyingma-traditie, geconsacreerd i.v.m. de 37e Nyingma Monlam Chenmo, huisvest monniken/nonnen/ngakpa's tijdens het gebedsfestival.", "why_not_the_others": "Expliciet bevestigd als APARTE locatie t.o.v. Palyul Namdroling (060) door bronnen die beide noemen als afzonderlijke Nyingma-vestigingen.", "meaning_evidence": "tibet.net (Ce
+<<< END CHUNK >>>
+
