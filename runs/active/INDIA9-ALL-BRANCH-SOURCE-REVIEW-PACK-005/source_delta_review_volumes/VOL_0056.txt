@@ -1,0 +1,368 @@
+>>> CHUNK stream_row=923 path=research/active/KUMAON-COMPLETE-001/BRONS/images.jsonl blob_sha=c6225db82212be0e5dd13425e62e96b741866056 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+{"image_id":"KI-001","candidate_id":"KUM-CAND-001","location_id":"308","url":"https://www.team-bhp.com/forum/travelogues/266567-summer-story-23-parts-kumaon-uttarakhand.html","source_id":"KS-043","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-002","candidate_id":"KUM-CAND-002","location_id":"309","url":"https://www.team-bhp.com/forum/travelogues/266567-summer-story-23-parts-kumaon-uttarakhand.html","source_id":"KS-043","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-003","candidate_id":"KUM-CAND-003","location_id":"310","url":"https://www.team-bhp.com/forum/travelogues/266567-summer-story-23-parts-kumaon-uttarakhand.html","source_id":"KS-043","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-004","candidate_id":"KUM-CAND-004","location_id":"400","url":"https://rishikeshdaytour.com/blog/caves-in-india/","source_id":"KS-045","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-005","candidate_id":"KUM-CAND-005","location_id":"401","url":"https://yssofindia.org/location/dwarahat","source_id":"KS-004","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-006","candidate_id":"KUM-CAND-006","location_id":"402","url":"https://yssofindia.org/location/dwarahat","source_id":"KS-004","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-007","candidate_id":"KUM-CAND-007","location_id":"403","url":"https://yssofindia.org/location/dwarahat","source_id":"KS-004","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-008","candidate_id":"KUM-CAND-008","location_id":"404","url":"https://www.dham-yatra.com/blog/2019/10/10/kainchi-dham-the-mystical-abode-of-baba-neem-karoli/","source_id":"KS-044","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-009","candidate_id":"KUM-CAND-009","location_id":"405","url":"https://almora.nic.in/tourist-place/kasar-devi/","source_id":"KS-032","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-010","candidate_id":"KUM-CAND-010","location_id":"406","url":"https://almora.nic.in/tourist-place/kasar-devi/","source_id":"KS-032","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-011","candidate_id":"KUM-CAND-011","location_id":"407","url":"https://almora.rkmm.org/places","source_id":"KS-020","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-012","candidate_id":"KUM-CAND-012","location_id":"408","url":"https://uttarakhandtourism.gov.in/explore/Jageshwar","source_id":"KS-033","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-013","candidate_id":"KUM-CAND-013","location_id":"409","url":"https://nainital.nic.in/how-to-reach-nainital-by-road/","source_id":"KS-029","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-014","candidate_id":"KUM-CAND-014","location_id":"410","url":"research/active/KUMAON-COMPLETE-001/known_locations_snapshot.yaml","source_id":"KS-002","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-015","candidate_id":"KUM-CAND-015","location_id":"411","url":"https://www.ramdass.org/remembering-kk-sah/","source_id":"KS-012","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-016","candidate_id":"KUM-CAND-016","location_id":"412","url":"research/active/KUMAON-COMPLETE-001/formal_status_snapshot.yaml","source_id":"KS-001","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-017","candidate_id":"KUM-CAND-017","location_id":"413","url":"https://almora.rkmm.org/","source_id":"KS-018","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-018","candidate_id":"KUM-CAND-018","location_id":"414","url":"https://uttarakhandtourism.gov.in/explore/Jageshwar","source_id":"KS-033","visual_function":"TOTAL_OR_AR
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=924 path=research/active/KUMAON-COMPLETE-001/BRONS/images.jsonl blob_sha=c6225db82212be0e5dd13425e62e96b741866056 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+RIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-019","candidate_id":"KUM-CAND-019","location_id":"415","url":"https://mirtolareflections.com/the-ashramm.html","source_id":"KS-035","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-020","candidate_id":"KUM-CAND-020","location_id":"416","url":"https://uttarakhandtourism.gov.in/explore/Jageshwar","source_id":"KS-033","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-021","candidate_id":"KUM-CAND-021","location_id":"417","url":"research/active/KUMAON-COMPLETE-001/formal_status_snapshot.yaml","source_id":"KS-001","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-022","candidate_id":"KUM-CAND-022","location_id":"418","url":"https://nainital.nic.in/tourist-place/naini-lake/","source_id":"KS-030","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-023","candidate_id":"KUM-CAND-023","location_id":"419","url":"https://almora.rkmm.org/places","source_id":"KS-020","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-024","candidate_id":"KUM-CAND-024","location_id":"420","url":"research/active/KUMAON-COMPLETE-001/formal_status_snapshot.yaml","source_id":"KS-001","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-025","candidate_id":"KUM-CAND-025","location_id":"421","url":"research/active/KUMAON-COMPLETE-001/formal_status_snapshot.yaml","source_id":"KS-001","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-026","candidate_id":"KUM-CAND-026","location_id":"422","url":"https://www.anandamayi.org/ashram-contact-details/","source_id":"KS-014","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-027","candidate_id":"KUM-CAND-027","location_id":"423","url":"https://www.haidakhandisamaj.in/ashrams/","source_id":"KS-009","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-028","candidate_id":"KUM-CAND-028","location_id":"424","url":"https://nainital.nic.in/tourist-place/ghorakhal/","source_id":"KS-027","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-029","candidate_id":"KUM-CAND-029","location_id":"425","url":"https://www.anandamayi.org/ashram-contact-details/","source_id":"KS-014","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-030","candidate_id":"KUM-CAND-030","location_id":"426","url":"https://www.uttarakhandtourism.gov.in/tourism-circuit-details/swami-vivekananda-trail","source_id":"KS-024","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-031","candidate_id":"KUM-CAND-031","location_id":"427","url":"https://www.team-bhp.com/forum/travelogues/266567-summer-story-23-parts-kumaon-uttarakhand.html","source_id":"KS-043","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-032","candidate_id":"KUM-CAND-032","location_id":"428","url":"https://www.team-bhp.com/forum/travelogues/266567-summer-story-23-parts-kumaon-uttarakhand.html","source_id":"KS-043","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-033","candidate_id":"KUM-CAND-033","location_id":"429","url":"https://www.team-bhp.com/forum/travelogues/266567-summer-story-23-parts-kumaon-uttarakhand.html","source_id":"KS-043","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-034","candidate_id":"KUM-CAND-034","location_id":"430","url":"https://www.team-bhp.com/forum/travelogues/266567-summer-story-23-parts-kumaon-uttarakhand.html","source_id":"KS-043","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-035","candidate_id":"KUM-CAND-035","location_id":"431","url":"https://www.team-bhp.com/forum/travelogues/266567-summer-story-23-parts-kumaon-uttarakhand.html","source_id":"KS-043","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=925 path=research/active/KUMAON-COMPLETE-001/BRONS/images.jsonl blob_sha=c6225db82212be0e5dd13425e62e96b741866056 original_offset=8192 original_length=2853 payload_bytes=2853 chunk_index=2 chunk_count=3 classification=text
+
+{"image_id":"KI-036","candidate_id":"KUM-CAND-036","location_id":"432","url":"https://advaitaashrama.org/advaita-ashrama-at-mayavati/","source_id":"KS-005","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-037","candidate_id":"KUM-CAND-037","location_id":"433","url":"https://belurmath.org/vivekananda-ashrama-shyamla-tal/","source_id":"KS-007","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-038","candidate_id":"KUM-CAND-038","location_id":"434","url":"https://www.haidakhandisamaj.in/ashrams/","source_id":"KS-009","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-039","candidate_id":"KUM-CAND-039","location_id":"435","url":"https://www.team-bhp.com/forum/travelogues/266567-summer-story-23-parts-kumaon-uttarakhand.html","source_id":"KS-043","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-040","candidate_id":"KUM-CAND-040","location_id":"436","url":"https://www.team-bhp.com/forum/travelogues/266567-summer-story-23-parts-kumaon-uttarakhand.html","source_id":"KS-043","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-041","candidate_id":"KUM-CAND-041","location_id":"437","url":"https://www.team-bhp.com/forum/travelogues/266567-summer-story-23-parts-kumaon-uttarakhand.html","source_id":"KS-043","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-042","candidate_id":"KUM-CAND-042","location_id":"438","url":"https://www.team-bhp.com/forum/travelogues/266567-summer-story-23-parts-kumaon-uttarakhand.html","source_id":"KS-043","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-043","candidate_id":"KUM-CAND-043","location_id":"439","url":"https://www.team-bhp.com/forum/travelogues/266567-summer-story-23-parts-kumaon-uttarakhand.html","source_id":"KS-043","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-044","candidate_id":"KUM-CAND-044","location_id":"440","url":"https://almora.rkmm.org/places_of_interest","source_id":"KS-021","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-045","candidate_id":"KUM-CAND-045","location_id":"441","url":"https://almora.rkmm.org/places","source_id":"KS-020","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-046","candidate_id":"KUM-CAND-046","location_id":"442","url":"https://almora.rkmm.org/places","source_id":"KS-020","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+{"image_id":"KI-047","candidate_id":"KUM-CAND-047","location_id":"443","url":"https://almora.rkmm.org/contact-us","source_id":"KS-019","visual_function":"TOTAL_OR_ARRIVAL","coverage":"SHORTAGE_9_FUNCTIONS"}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=926 path=research/active/KUMAON-COMPLETE-001/BRONS/location_assignments.jsonl blob_sha=9586107a44389562c12ea2b599f2835599643bb0 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+{"location_id":"427","candidate_id":"KUM-CAND-031","canonical_name":"Bhowali practical base area","cluster":"BASE_COMPARISON","assigned_by":"ChatGPT-BRONS","assignment_basis":"Specific physical Kumaon location/base/route object sufficiently identified within reserved range 427-499.","first_published_at":"2026-07-19","status":"PERMANENT_WITHIN_KUMAON_BLOCK","reuse_forbidden":true,"renumbering_forbidden":true}
+{"location_id":"428","candidate_id":"KUM-CAND-032","canonical_name":"Nainital practical base area","cluster":"BASE_COMPARISON","assigned_by":"ChatGPT-BRONS","assignment_basis":"Specific physical Kumaon location/base/route object sufficiently identified within reserved range 427-499.","first_published_at":"2026-07-19","status":"PERMANENT_WITHIN_KUMAON_BLOCK","reuse_forbidden":true,"renumbering_forbidden":true}
+{"location_id":"429","candidate_id":"KUM-CAND-033","canonical_name":"Kainchi practical base area","cluster":"BASE_COMPARISON","assigned_by":"ChatGPT-BRONS","assignment_basis":"Specific physical Kumaon location/base/route object sufficiently identified within reserved range 427-499.","first_published_at":"2026-07-19","status":"PERMANENT_WITHIN_KUMAON_BLOCK","reuse_forbidden":true,"renumbering_forbidden":true}
+{"location_id":"430","candidate_id":"KUM-CAND-034","canonical_name":"Kathgodam practical base area","cluster":"BASE_COMPARISON","assigned_by":"ChatGPT-BRONS","assignment_basis":"Specific physical Kumaon location/base/route object sufficiently identified within reserved range 427-499.","first_published_at":"2026-07-19","status":"PERMANENT_WITHIN_KUMAON_BLOCK","reuse_forbidden":true,"renumbering_forbidden":true}
+{"location_id":"431","candidate_id":"KUM-CAND-035","canonical_name":"Haldwani practical base area","cluster":"BASE_COMPARISON","assigned_by":"ChatGPT-BRONS","assignment_basis":"Specific physical Kumaon location/base/route object sufficiently identified within reserved range 427-499.","first_published_at":"2026-07-19","status":"PERMANENT_WITHIN_KUMAON_BLOCK","reuse_forbidden":true,"renumbering_forbidden":true}
+{"location_id":"432","candidate_id":"KUM-CAND-036","canonical_name":"Advaita Ashrama, Mayavati","cluster":"OUTER_KUMAON_MAYAVATI","assigned_by":"ChatGPT-BRONS","assignment_basis":"Specific physical Kumaon location/base/route object sufficiently identified within reserved range 427-499.","first_published_at":"2026-07-19","status":"PERMANENT_WITHIN_KUMAON_BLOCK","reuse_forbidden":true,"renumbering_forbidden":true}
+{"location_id":"433","candidate_id":"KUM-CAND-037","canonical_name":"Vivekananda Ashrama, Shyamla Tal","cluster":"OUTER_KUMAON_SHYAMLA_TAL","assigned_by":"ChatGPT-BRONS","assignment_basis":"Specific physical Kumaon location/base/route object sufficiently identified within reserved range 427-499.","first_published_at":"2026-07-19","status":"PERMANENT_WITHIN_KUMAON_BLOCK","reuse_forbidden":true,"renumbering_forbidden":true}
+{"location_id":"434","candidate_id":"KUM-CAND-038","canonical_name":"Anandapuri Ashram, Chiliyanaula","cluster":"RANIKHET_CHILIYANAULA","assigned_by":"ChatGPT-BRONS","assignment_basis":"Specific physical Kumaon location/base/route object sufficiently identified within reserved range 427-499.","first_published_at":"2026-07-19","status":"PERMANENT_WITHIN_KUMAON_BLOCK","reuse_forbidden":true,"renumbering_forbidden":true}
+{"location_id":"435","candidate_id":"KUM-CAND-039","canonical_name":"Kukuchina / Babaji Cave trail approach","cluster":"DWARAHAT_DUNAGIRI","assigned_by":"ChatGPT-BRONS","assignment_basis":"Specific physical Kumaon location/base/route object sufficiently identified within reserved range 427-499.","first_published_at":"2026-07-19","status":"PERMANENT_WITHIN_KUMAON_BLOCK","reuse_forbidden":true,"renumbering_forbidden":true}
+{"location_id":"436","candidate_id":"KUM-CAND-040","canonical_name":"Dwarahat practical base area","cluster":"BASE_COMPARISON","assigned_by":"ChatGPT-BRONS","assignment_basis":"Specific physical Kumaon location/base/route object sufficiently identified within reserved range 427-499.","first_published_at":"2026-07-19","status":"PERMANENT_WITH
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=927 path=research/active/KUMAON-COMPLETE-001/BRONS/location_assignments.jsonl blob_sha=9586107a44389562c12ea2b599f2835599643bb0 original_offset=4096 original_length=3060 payload_bytes=3060 chunk_index=1 chunk_count=2 classification=text
+IN_KUMAON_BLOCK","reuse_forbidden":true,"renumbering_forbidden":true}
+{"location_id":"437","candidate_id":"KUM-CAND-041","canonical_name":"Almora practical base area","cluster":"BASE_COMPARISON","assigned_by":"ChatGPT-BRONS","assignment_basis":"Specific physical Kumaon location/base/route object sufficiently identified within reserved range 427-499.","first_published_at":"2026-07-19","status":"PERMANENT_WITHIN_KUMAON_BLOCK","reuse_forbidden":true,"renumbering_forbidden":true}
+{"location_id":"438","candidate_id":"KUM-CAND-042","canonical_name":"Kasar Devi practical base area","cluster":"BASE_COMPARISON","assigned_by":"ChatGPT-BRONS","assignment_basis":"Specific physical Kumaon location/base/route object sufficiently identified within reserved range 427-499.","first_published_at":"2026-07-19","status":"PERMANENT_WITHIN_KUMAON_BLOCK","reuse_forbidden":true,"renumbering_forbidden":true}
+{"location_id":"439","candidate_id":"KUM-CAND-043","canonical_name":"Ranikhet / Chiliyanaula practical base area","cluster":"BASE_COMPARISON","assigned_by":"ChatGPT-BRONS","assignment_basis":"Specific physical Kumaon location/base/route object sufficiently identified within reserved range 427-499.","first_published_at":"2026-07-19","status":"PERMANENT_WITHIN_KUMAON_BLOCK","reuse_forbidden":true,"renumbering_forbidden":true}
+{"location_id":"440","candidate_id":"KUM-CAND-044","canonical_name":"Vivekananda Rest House / Vivekananda Shila, Karbala","cluster":"ALMORA_VIVEKANANDA","assigned_by":"ChatGPT-BRONS","assignment_basis":"Specific physical Kumaon location/base/route object sufficiently identified within reserved range 427-499.","first_published_at":"2026-07-19","status":"PERMANENT_WITHIN_KUMAON_BLOCK","reuse_forbidden":true,"renumbering_forbidden":true}
+{"location_id":"441","candidate_id":"KUM-CAND-045","canonical_name":"Thompson House / ITI, Almora","cluster":"ALMORA_VIVEKANANDA","assigned_by":"ChatGPT-BRONS","assignment_basis":"Specific physical Kumaon location/base/route object sufficiently identified within reserved range 427-499.","first_published_at":"2026-07-19","status":"PERMANENT_WITHIN_KUMAON_BLOCK","reuse_forbidden":true,"renumbering_forbidden":true}
+{"location_id":"442","candidate_id":"KUM-CAND-046","canonical_name":"Sri Raghunath Temple reception site, Almora","cluster":"ALMORA_VIVEKANANDA","assigned_by":"ChatGPT-BRONS","assignment_basis":"Specific physical Kumaon location/base/route object sufficiently identified within reserved range 427-499.","first_published_at":"2026-07-19","status":"PERMANENT_WITHIN_KUMAON_BLOCK","reuse_forbidden":true,"renumbering_forbidden":true}
+{"location_id":"443","candidate_id":"KUM-CAND-047","canonical_name":"Bright End Corner / Vivekananda Corner, Almora","cluster":"ALMORA_VIVEKANANDA","assigned_by":"ChatGPT-BRONS","assignment_basis":"Specific physical Kumaon location/base/route object sufficiently identified within reserved range 427-499.","first_published_at":"2026-07-19","status":"PERMANENT_WITHIN_KUMAON_BLOCK","reuse_forbidden":true,"renumbering_forbidden":true}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=928 path=research/active/KUMAON-COMPLETE-001/BRONS/manifest.yaml blob_sha=32872e83bc5b0444872c4df9fb2879bce4d494a4 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+schema_version: 3
+run_id: KUMAON-COMPLETE-001
+role: BRONS
+completion_status: PARTIAL
+source_commit: a10c848b7fe203a32563675293a6d2e0de484728
+context_profile: BRONS_MIN
+protocol_versions:
+  pipeline: 3.1.1
+  methodology: 3.0.0
+  execution_protocol: 2.3.1
+  controller_transition_protocol: 2.3.1
+  role_handoff_protocol: '1.1'
+counts:
+  candidates: 47
+  claims: 70
+  accepted_sources: 45
+  rejected_sources: 6
+  detector_checks: 9
+  negative_searches: 8
+  working_geo: 47
+  new_location_assignments: 17
+  practical_access: 47
+  base_comparison: 9
+  station_and_route_nodes: 4
+  proximity: 32
+  map_records: 47
+  images: 47
+  experience_reviews: 47
+  kml_placemarks: 47
+formal_status_coverage:
+  A: 16
+  B: 1
+  C: 4
+  changed: 0
+location_id_summary:
+  preserved:
+    - 308-310
+    - 400-426
+  new: 427-443
+  duplicates: false
+  cross_block: false
+kml:
+  path: KUMAON_BRONS_WORKING.kml
+  layers:
+    - A_FORMEEL
+    - B_FORMEEL
+    - C_FORMEEL
+    - NOG_DOOR_MARK_TE_BEOORDELEN
+    - CONTEXT_OF_AFGEVALLEN
+    - STATIONS_EN_ROUTEKNOOPPUNTEN
+    - MOGELIJKE_BASES_EN_OVERNACHTING
+  placemarks: 47
+files:
+  - {path: report/INDEX.md, lines: 13, git_blob_sha: bea7ff932d86c3d330c69b922a8ece164c509559}
+  - {path: report/01_candidate_map.md, lines: 36, git_blob_sha: 6b849c6c72b9506457fa2ef6101ddf583d19753f}
+  - {path: report/02_subclusters_and_detectors.md, lines: 43, git_blob_sha: ac9c4a6eacdd7c12cea2363731342bba33651195}
+  - {path: report/03_bases_stations_and_connections.md, lines: 38, git_blob_sha: 22e87c097e6a1439b3ec9302d1ace1324d1048e2}
+  - {path: report/04_geo_kml_and_completeness.md, lines: 34, git_blob_sha: ac56a12d0edf677b1c12d0edb0f4df63b4ea265d}
+  - {path: report/05_quality_gate_and_conclusion.md, lines: 35, git_blob_sha: b7da2faad29d15decc1d59747e8df26721410f85}
+  - {path: candidates.jsonl, lines: 48, git_blob_sha: af30c871b822591f80c88338b77e8f1f96345203}
+  - {path: claims.jsonl, lines: 71, git_blob_sha: 41d009c1b990d559a266027c8966fd3865043c81}
+  - {path: sources/registry.jsonl, lines: 46, git_blob_sha: cb30c283cd6ea98a823fd9c8f30e1c34a3499963}
+  - {path: sources/rejected.jsonl, lines: 7, git_blob_sha: 85aa9a147cf559a84409e7cd63cc181e92c26af6}
+  - {path: detector_checks.jsonl, lines: 10, git_blob_sha: 7710f9c7017f86ff64101eec671a3c64b5fa7e2c}
+  - {path: negative_searches.jsonl, lines: 9, git_blob_sha: af7f05e804eb9919b63722957f24885caa73333c}
+  - {path: working_geo.jsonl, lines: 48, git_blob_sha: ed0fdea3398cc01a261dd6e0ffb5c0d47a8cbf3b}
+  - {path: location_assignments.jsonl, lines: 18, git_blob_sha: 9586107a44389562c12ea2b599f2835599643bb0}
+  - {path: practical_access.jsonl, lines: 48, git_blob_sha: 5323a05b6b0d975ef05038b3aa4f16f78b7ab3c3}
+  - {path: base_comparison.jsonl, lines: 10, git_blob_sha: 0c67a93da47120bf7886ba6b961259312d715d5e}
+  - {path: station_and_route_nodes.jsonl, lines: 5, git_blob_sha: bb2305e542b3de435eb6af8e264c16785f2f6316}
+  - {path: proximity.jsonl, lines: 33, git_blob_sha: d68239b2e59d9283016e9b364adc8993dc769e98}
+  - {path: map_source.jsonl, lines: 48, git_blob_sha: 162568cc6608ee3108f5034f0735e56e53f56af3}
+  - {path: images.jsonl, lines: 48, git_blob_sha: c6225db82212be0e5dd13425e62e96b741866056}
+  - {path: experience_reviews.jsonl, lines: 48, git_blob_sha: cea3c36cd1c3703f796d2ff7e45230dc65d8753c}
+  - {path: KUMAON_BRONS_WORKING.kml, lines: 74, git_blob_sha: 2a0e1f77a4591940ff61b28585f802a172ce24f5}
+  - {path: formal_status_coverage.md, lines: 25, git_blob_sha: 5afdf430b8c216e588ebaa8feb4b549f22ab7812}
+  - {path: completeness_matrix.md, lines: 28, git_blob_sha: d07fcbaaae5fd7d01c4602ee19590eb4409e8606}
+  - {path: audit.md, lines: 52, git_blob_sha: 99b44c3b94d6d4abf9b5048b7dfd5199d77566d9}
+  - {path: handoff.yaml, lines: 85, git_blob_sha: 1dd7273abe149dbc0ed8d21aada9ae4ad3c75efb}
+  - {path: manifest.yaml, git_blob_sha: SELF_IN_COMPLETION_COMMIT}
+  - {path: COMPLETED, git_blob_sha: SAME_COMPLETION_COMMIT}
+validation:
+  github_read_confirmed: true
+  github_write_confirmed: true
+  required_context_files_fully_read: true
+  required_context_hashes_match: true
+  forbidden_files_used: false
+  required_outputs_pre
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=929 path=research/active/KUMAON-COMPLETE-001/BRONS/manifest.yaml blob_sha=32872e83bc5b0444872c4df9fb2879bce4d494a4 original_offset=4096 original_length=949 payload_bytes=949 chunk_index=1 chunk_count=2 classification=text
+sent: true
+  text_sentinels_checked: true
+  kml_xml_closing_checked: true
+  source_id_references_valid: true
+  source_ids_unique_across_registers: true
+  identifiers_unique: true
+  location_ids_unique_and_in_reserved_blocks: true
+  all_formal_statuses_covered: true
+  all_subclusters_and_detectors_treated: true
+  formal_or_advisory_abc_assigned: false
+  parels_activated: false
+  final_route_or_base_selected: false
+  worker_claim_closed_in_completion_commit: true
+open_blockers:
+  - Small private and historic sites need identity, access and GEO verification.
+  - Outer-Kumaon WORKING_GEO and long road connections need independent verification.
+  - Complete ten-function image and systematic recent-review coverage is absent for most candidates.
+  - Winter roads, trails, parking, taxis, travel times and December 2026 rail services remain time-sensitive.
+  - No final base, station or internal route has been selected by design.
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=930 path=research/active/KUMAON-COMPLETE-001/BRONS/map_source.jsonl blob_sha=162568cc6608ee3108f5034f0735e56e53f56af3 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+{"location_id":"308","name":"Lal Kuan Junction railway station","cluster":"FOOTHILLS","layer":"STATIONS_EN_ROUTEKNOOPPUNTEN","formal_status":null,"lat":29.0665,"lon":79.5195,"geo_status":"WORKING","accuracy":"WORKING_50_150_M"}
+{"location_id":"309","name":"Haldwani railway station","cluster":"FOOTHILLS","layer":"STATIONS_EN_ROUTEKNOOPPUNTEN","formal_status":null,"lat":29.2183,"lon":79.5127,"geo_status":"WORKING","accuracy":"WORKING_50_150_M"}
+{"location_id":"310","name":"Kathgodam railway station","cluster":"FOOTHILLS","layer":"STATIONS_EN_ROUTEKNOOPPUNTEN","formal_status":null,"lat":29.2693,"lon":79.546,"geo_status":"WORKING","accuracy":"WORKING_50_150_M"}
+{"location_id":"400","name":"Babaji Cave","cluster":"DWARAHAT_DUNAGIRI","layer":"A_FORMEEL","formal_status":"A","lat":29.8334,"lon":79.4654,"geo_status":"WORKING","accuracy":"WORKING_25_50_M"}
+{"location_id":"401","name":"Babaji Smriti Bhavan","cluster":"DWARAHAT_DUNAGIRI","layer":"A_FORMEEL","formal_status":"A","lat":29.832873,"lon":79.464364,"geo_status":"WORKING","accuracy":"WORKING_25_50_M"}
+{"location_id":"402","name":"Dunagiri Temple","cluster":"DWARAHAT_DUNAGIRI","layer":"A_FORMEEL","formal_status":"A","lat":29.79672,"lon":79.45123,"geo_status":"WORKING","accuracy":"WORKING_50_150_M"}
+{"location_id":"403","name":"YSS Dwarahat Ashram","cluster":"DWARAHAT_DUNAGIRI","layer":"A_FORMEEL","formal_status":"A","lat":29.784767,"lon":79.422761,"geo_status":"WORKING","accuracy":"WORKING_50_150_M"}
+{"location_id":"404","name":"Kainchi Dham","cluster":"KAINCHI_NAINITAL","layer":"A_FORMEEL","formal_status":"A","lat":29.42255,"lon":79.51245,"geo_status":"WORKING","accuracy":"WORKING_25_50_M"}
+{"location_id":"405","name":"Kasar Devi Temple","cluster":"ALMORA_KASAR","layer":"A_FORMEEL","formal_status":"A","lat":29.6416,"lon":79.66154,"geo_status":"WORKING","accuracy":"WORKING_50_150_M"}
+{"location_id":"406","name":"Crank's Ridge","cluster":"ALMORA_KASAR","layer":"A_FORMEEL","formal_status":"A","lat":29.648,"lon":79.663,"geo_status":"WORKING","accuracy":"WORKING_150_500_M"}
+{"location_id":"407","name":"Kakrighat / Karkateshwar Mahadev","cluster":"ALMORA_KAKRIGHAT","layer":"A_FORMEEL","formal_status":"A","lat":29.54371,"lon":79.53274,"geo_status":"WORKING","accuracy":"WORKING_50_150_M"}
+{"location_id":"408","name":"Jageshwar temple complex","cluster":"JAGESHWAR","layer":"A_FORMEEL","formal_status":"A","lat":29.6375,"lon":79.85428,"geo_status":"WORKING","accuracy":"WORKING_25_50_M"}
+{"location_id":"409","name":"Hanuman Garhi, Nainital","cluster":"KAINCHI_NAINITAL","layer":"A_FORMEEL","formal_status":"A","lat":29.381,"lon":79.455,"geo_status":"WORKING","accuracy":"WORKING_50_150_M"}
+{"location_id":"410","name":"Hotel Evelyn, Nainital","cluster":"KAINCHI_NAINITAL","layer":"NOG_DOOR_MARK_TE_BEOORDELEN","formal_status":null,"lat":29.3915,"lon":79.4575,"geo_status":"WORKING","accuracy":"WORKING_150_500_M"}
+{"location_id":"411","name":"K. K. Sah house, Nainital","cluster":"KAINCHI_NAINITAL","layer":"NOG_DOOR_MARK_TE_BEOORDELEN","formal_status":null,"lat":29.3925,"lon":79.4545,"geo_status":"WORKING","accuracy":"NOT_ESTABLISHED"}
+{"location_id":"412","name":"Bhumiyadhar temple grounds","cluster":"KAINCHI_NAINITAL","layer":"A_FORMEEL","formal_status":"A","lat":29.411,"lon":79.509,"geo_status":"WORKING","accuracy":"WORKING_150_500_M"}
+{"location_id":"413","name":"Ramakrishna Kutir, Almora","cluster":"ALMORA_KASAR","layer":"A_FORMEEL","formal_status":"A","lat":29.597,"lon":79.655,"geo_status":"WORKING","accuracy":"WORKING_50_150_M"}
+{"location_id":"414","name":"Chitai Golu Devta Temple","cluster":"ALMORA_KASAR","layer":"A_FORMEEL","formal_status":"A","lat":29.642,"lon":79.714,"geo_status":"WORKING","accuracy":"WORKING_50_150_M"}
+{"location_id":"415","name":"Mirtola / Uttar Vrindavan Ashram","cluster":"ALMORA_OUTER","layer":"C_FORMEEL","formal_status":"C","lat":29.663,"lon":79.787,"geo_status":"WORKING","accuracy":"WORKING_150_500_M"}
+{"location_id":"416","name":"Binsar Wildlife Sanctuary","cluster":"ALMORA_OUTER","layer":"C_FORMEEL","formal_status":"C","lat":29.6667,"lon":79.75,"geo_status":
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=931 path=research/active/KUMAON-COMPLETE-001/BRONS/map_source.jsonl blob_sha=162568cc6608ee3108f5034f0735e56e53f56af3 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+"WORKING","accuracy":"WORKING_150_500_M"}
+{"location_id":"417","name":"Patal Bhuvaneshwar","cluster":"OUTER_KUMAON","layer":"C_FORMEEL","formal_status":"C","lat":29.691,"lon":80.091,"geo_status":"WORKING","accuracy":"WORKING_150_500_M"}
+{"location_id":"418","name":"Naina Devi Temple, Nainital","cluster":"KAINCHI_NAINITAL","layer":"NOG_DOOR_MARK_TE_BEOORDELEN","formal_status":null,"lat":29.3972,"lon":79.4468,"geo_status":"WORKING","accuracy":"WORKING_50_150_M"}
+{"location_id":"419","name":"Lala Badri Shah House, Almora","cluster":"ALMORA_VIVEKANANDA","layer":"NOG_DOOR_MARK_TE_BEOORDELEN","formal_status":null,"lat":29.6,"lon":79.656,"geo_status":"WORKING","accuracy":"WORKING_150_500_M"}
+{"location_id":"420","name":"Turiya Niwas, Crank's Ridge","cluster":"ALMORA_KASAR","layer":"A_FORMEEL","formal_status":"A","lat":29.654,"lon":79.669,"geo_status":"WORKING","accuracy":"WORKING_150_500_M"}
+{"location_id":"421","name":"Bodh Ashram, Kasar Devi area","cluster":"ALMORA_KASAR","layer":"A_FORMEEL","formal_status":"A","lat":29.643,"lon":79.675,"geo_status":"WORKING","accuracy":"WORKING_150_500_M"}
+{"location_id":"422","name":"Anandamayi Ma Ashram, Dhaulchina","cluster":"ALMORA_OUTER","layer":"C_FORMEEL","formal_status":"C","lat":29.743,"lon":79.632,"geo_status":"WORKING","accuracy":"WORKING_150_500_M"}
+{"location_id":"423","name":"Haidakhan Vishwa Mahadham","cluster":"HAIDAKHAN","layer":"A_FORMEEL","formal_status":"A","lat":29.119,"lon":79.701,"geo_status":"WORKING","accuracy":"WORKING_150_500_M"}
+{"location_id":"424","name":"Ghorakhal Golu Devta Temple","cluster":"KAINCHI_NAINITAL","layer":"B_FORMEEL","formal_status":"B","lat":29.37953,"lon":79.54545,"geo_status":"WORKING","accuracy":"WORKING_50_150_M"}
+{"location_id":"425","name":"Anandamayi Ma Ashram / Patal Devi","cluster":"ALMORA_KASAR","layer":"NOG_DOOR_MARK_TE_BEOORDELEN","formal_status":null,"lat":29.61,"lon":79.661,"geo_status":"WORKING","accuracy":"WORKING_150_500_M"}
+{"location_id":"426","name":"Vivekananda meditation cave near Kasar Devi","cluster":"ALMORA_KASAR","layer":"NOG_DOOR_MARK_TE_BEOORDELEN","formal_status":null,"lat":29.6425,"lon":79.6625,"geo_status":"WORKING","accuracy":"NOT_ESTABLISHED"}
+{"location_id":"427","name":"Bhowali practical base area","cluster":"BASE_COMPARISON","layer":"MOGELIJKE_BASES_EN_OVERNACHTING","formal_status":null,"lat":29.389,"lon":79.52,"geo_status":"WORKING","accuracy":"WORKING_150_500_M"}
+{"location_id":"428","name":"Nainital practical base area","cluster":"BASE_COMPARISON","layer":"MOGELIJKE_BASES_EN_OVERNACHTING","formal_status":null,"lat":29.3919,"lon":79.4542,"geo_status":"WORKING","accuracy":"WORKING_150_500_M"}
+{"location_id":"429","name":"Kainchi practical base area","cluster":"BASE_COMPARISON","layer":"MOGELIJKE_BASES_EN_OVERNACHTING","formal_status":null,"lat":29.4235,"lon":79.512,"geo_status":"WORKING","accuracy":"WORKING_150_500_M"}
+{"location_id":"430","name":"Kathgodam practical base area","cluster":"BASE_COMPARISON","layer":"MOGELIJKE_BASES_EN_OVERNACHTING","formal_status":null,"lat":29.27,"lon":79.545,"geo_status":"WORKING","accuracy":"WORKING_150_500_M"}
+{"location_id":"431","name":"Haldwani practical base area","cluster":"BASE_COMPARISON","layer":"MOGELIJKE_BASES_EN_OVERNACHTING","formal_status":null,"lat":29.218,"lon":79.512,"geo_status":"WORKING","accuracy":"WORKING_150_500_M"}
+{"location_id":"432","name":"Advaita Ashrama, Mayavati","cluster":"OUTER_KUMAON_MAYAVATI","layer":"NOG_DOOR_MARK_TE_BEOORDELEN","formal_status":null,"lat":29.444,"lon":80.154,"geo_status":"WORKING","accuracy":"WORKING_500_1000_M"}
+{"location_id":"433","name":"Vivekananda Ashrama, Shyamla Tal","cluster":"OUTER_KUMAON_SHYAMLA_TAL","layer":"NOG_DOOR_MARK_TE_BEOORDELEN","formal_status":null,"lat":29.137,"lon":80.096,"geo_status":"WORKING","accuracy":"WORKING_500_1000_M"}
+{"location_id":"434","name":"Anandapuri Ashram, Chiliyanaula","cluster":"RANIKHET_CHILIYANAULA","layer":"NOG_DOOR_MARK_TE_BEOORDELEN","formal_status":null,"lat":29.66236,"lon":79.41309,"geo_status":"WORKING","accuracy":"WORKING_25_50_M"}
+{"location_id":"435","name":"Kukuchina / B
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=932 path=research/active/KUMAON-COMPLETE-001/BRONS/map_source.jsonl blob_sha=162568cc6608ee3108f5034f0735e56e53f56af3 original_offset=8192 original_length=2132 payload_bytes=2132 chunk_index=2 chunk_count=3 classification=text
+abaji Cave trail approach","cluster":"DWARAHAT_DUNAGIRI","layer":"STATIONS_EN_ROUTEKNOOPPUNTEN","formal_status":null,"lat":29.8315,"lon":79.463,"geo_status":"WORKING","accuracy":"WORKING_150_500_M"}
+{"location_id":"436","name":"Dwarahat practical base area","cluster":"BASE_COMPARISON","layer":"MOGELIJKE_BASES_EN_OVERNACHTING","formal_status":null,"lat":29.777,"lon":79.427,"geo_status":"WORKING","accuracy":"WORKING_500_1000_M"}
+{"location_id":"437","name":"Almora practical base area","cluster":"BASE_COMPARISON","layer":"MOGELIJKE_BASES_EN_OVERNACHTING","formal_status":null,"lat":29.5971,"lon":79.6591,"geo_status":"WORKING","accuracy":"WORKING_150_500_M"}
+{"location_id":"438","name":"Kasar Devi practical base area","cluster":"BASE_COMPARISON","layer":"MOGELIJKE_BASES_EN_OVERNACHTING","formal_status":null,"lat":29.648,"lon":79.666,"geo_status":"WORKING","accuracy":"WORKING_150_500_M"}
+{"location_id":"439","name":"Ranikhet / Chiliyanaula practical base area","cluster":"BASE_COMPARISON","layer":"MOGELIJKE_BASES_EN_OVERNACHTING","formal_status":null,"lat":29.65,"lon":79.42,"geo_status":"WORKING","accuracy":"WORKING_500_1000_M"}
+{"location_id":"440","name":"Vivekananda Rest House / Vivekananda Shila, Karbala","cluster":"ALMORA_VIVEKANANDA","layer":"NOG_DOOR_MARK_TE_BEOORDELEN","formal_status":null,"lat":29.599,"lon":79.65,"geo_status":"WORKING","accuracy":"WORKING_500_1000_M"}
+{"location_id":"441","name":"Thompson House / ITI, Almora","cluster":"ALMORA_VIVEKANANDA","layer":"NOG_DOOR_MARK_TE_BEOORDELEN","formal_status":null,"lat":29.596,"lon":79.651,"geo_status":"WORKING","accuracy":"WORKING_500_1000_M"}
+{"location_id":"442","name":"Sri Raghunath Temple reception site, Almora","cluster":"ALMORA_VIVEKANANDA","layer":"NOG_DOOR_MARK_TE_BEOORDELEN","formal_status":null,"lat":29.6005,"lon":79.657,"geo_status":"WORKING","accuracy":"WORKING_500_1000_M"}
+{"location_id":"443","name":"Bright End Corner / Vivekananda Corner, Almora","cluster":"ALMORA_VIVEKANANDA","layer":"CONTEXT_OF_AFGEVALLEN","formal_status":null,"lat":29.5975,"lon":79.6545,"geo_status":"WORKING","accuracy":"WORKING_500_1000_M"}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=933 path=research/active/KUMAON-COMPLETE-001/BRONS/negative_searches.jsonl blob_sha=af7f05e804eb9919b63722957f24885caa73333c original_offset=0 original_length=3460 payload_bytes=3460 chunk_index=0 chunk_count=1 classification=text
+{"negative_search_id":"NS-001","subcluster":"FOOTHILLS_BHOWALI_KAINCHI_NAINITAL","queries":["YSS Yogananda ashram Kumaon foothills","Lahiri Sri Yukteswar Keshavanand physical site","Anandamayi Ma ashram Nainital"],"result":"No additional qualifying physical site established beyond listed candidates.","reason":"Searches returned generic centres, biographies or unverified mentions without specific physical identity.","source_ids":["KS-025","KS-026","KS-027"],"checked_at":"2026-07-19"}
+{"negative_search_id":"NS-002","subcluster":"ALMORA_KASAR","queries":["exact Vivekananda cave Kasar Devi","Bodh Ashram operator access","Turiya Niwas public shrine status"],"result":"Exact cave point and Bodh Ashram management remain open; no guessed exact entrance used.","reason":"Physical context exists but exact object identity/access was insufficient for stronger status.","source_ids":["KS-020","KS-024","KS-041","KS-042"],"checked_at":"2026-07-19"}
+{"negative_search_id":"NS-003","subcluster":"DWARAHAT_DUNAGIRI","queries":["Sri Yukteswar site Dwarahat","Swami Keshavanand physical site Kumaon","additional Babaji caves official lineage"],"result":"No additional separately established physical site.","reason":"Lineage material did not support a distinct current physical object beyond the retained cluster.","source_ids":["KS-004"],"checked_at":"2026-07-19"}
+{"negative_search_id":"NS-004","subcluster":"HAIDAKHAN","queries":["Haidakhan Baba Mahavatar Babaji same person proof","additional Haidakhandi ashram Kumaon"],"result":"No factual identity equivalence accepted; Anandapuri retained as distinct official ashram.","reason":"Project decision requires identity nuance and rejects inflation from contested identification.","source_ids":["KS-009","KS-010"],"checked_at":"2026-07-19"}
+{"negative_search_id":"NS-005","subcluster":"OUTER_KUMAON","queries":["Vivekananda personally visited Shyamla Tal","AOAY sites Champawat Lohaghat","NKB Ram Dass sites eastern Kumaon"],"result":"Mayavati and Shyamla Tal retained; no additional direct physical site established.","reason":"Institutional lineage significance was separated from unproven personal visits.","source_ids":["KS-005","KS-007"],"checked_at":"2026-07-19"}
+{"negative_search_id":"NS-006","subcluster":"ALL_KUMAON","queries":["Krishna Gita teaching site Kumaon","Krishna Babaji Kriya physical site Kumaon","national canonical Krishna shrine Kumaon"],"result":"No qualifying new physical Krishna candidate.","reason":"Ordinary local temples and regional stories do not pass the required detector threshold.","source_ids":["KS-002"],"checked_at":"2026-07-19"}
+{"negative_search_id":"NS-007","subcluster":"ALL_KUMAON","queries":["van Allen belt Kasar Devi scientific proof","cosmic radiation temple evidence"],"result":"Pseudo-scientific claims were not accepted as physical or experiential evidence.","reason":"No suitable primary scientific basis was identified; the place remains meaningful through history, tradition and visitor experience instead.","source_ids":["KS-032","KS-036"],"checked_at":"2026-07-19"}
+{"negative_search_id":"NS-008","subcluster":"BASE_COMPARISON","queries":["best hotel Bhowali","best first base Kumaon","optimal internal Kumaon route"],"result":"No winning base, hotel or route selected.","reason":"The scope requires comparable facts only and reserves optimization for a later run.","source_ids":["KS-025","KS-028","KS-029","KS-031"],"checked_at":"2026-07-19"}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=934 path=research/active/KUMAON-COMPLETE-001/BRONS/practical_access.jsonl blob_sha=5323a05b6b0d975ef05038b3aa4f16f78b7ab3c3 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+{"candidate_id":"KUM-CAND-001","location_id":"308","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"LOWER_ALTITUDE_BUT_FOG_AND_TRANSFER_CHECK","walk":"NOT_PRIMARY"}
+{"candidate_id":"KUM-CAND-002","location_id":"309","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"LOWER_ALTITUDE_BUT_FOG_AND_TRANSFER_CHECK","walk":"NOT_PRIMARY"}
+{"candidate_id":"KUM-CAND-003","location_id":"310","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"LOWER_ALTITUDE_BUT_FOG_AND_TRANSFER_CHECK","walk":"NOT_PRIMARY"}
+{"candidate_id":"KUM-CAND-004","location_id":"400","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"SUBSTANTIAL_TRAIL"}
+{"candidate_id":"KUM-CAND-005","location_id":"401","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"STAIRS_OR_HILL_APPROACH_POSSIBLE"}
+{"candidate_id":"KUM-CAND-006","location_id":"402","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"STAIRS_OR_HILL_APPROACH_POSSIBLE"}
+{"candidate_id":"KUM-CAND-007","location_id":"403","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"STAIRS_OR_HILL_APPROACH_POSSIBLE"}
+{"candidate_id":"KUM-CAND-008","location_id":"404","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"STAIRS_OR_HILL_APPROACH_POSSIBLE"}
+{"candidate_id":"KUM-CAND-009","location_id":"405","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"STAIRS_OR_HILL_APPROACH_POSSIBLE"}
+{"candidate_id":"KUM-CAND-010","location_id":"406","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"NOT_PRIMARY"}
+{"candidate_id":"KUM-CAND-011","location_id":"407","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"STAIRS_OR_HILL_APPROACH_POSSIBLE"}
+{"candidate_id":"KUM-CAND-012","location_id":"408","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"STAIRS_OR_HILL_APPROACH_POSSIBLE"}
+{"candidate_id":"KUM-CAND-013","location_id":"409","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"STAIRS_OR_HILL_APPROACH_POSSIBLE"}
+{"candidate_id":"KUM-CAND-014","location_id":"410","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"NOT_PRIMARY"}
+{"candidate_id":"KUM-CAND-015","location_id":"411","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PERMISSION_REQUIRED","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"NOT_PRIMARY"}
+{"candidate_id":"KUM-CAND-016","location_id":"412","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"STAIRS_OR_HILL_APPROACH_POSSIBLE"}
+{"candidate_id":"KUM-CAND-017","location_id":"413","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"STAIRS_OR_HILL_APPROACH_POSSIBLE"}
+{"candidate_id":"KUM-CAND-018","location_id":"414","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"STAIRS_OR_HILL_APPROACH_POSSIBLE"}
+{"candidate_id":"KUM-CAND-019","location_id":"415","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"STAIRS_OR_HILL_APPROACH_POSSIBLE"}
+{"candidate_id":"KUM-CAND-020","location_id":"416","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"NOT_PRIMARY"}
+{"candidate_id":"KUM-CAND-021","location_id":"417","access":"PRACTICAL_CHECK_REQUIRED","vi
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=935 path=research/active/KUMAON-COMPLETE-001/BRONS/practical_access.jsonl blob_sha=5323a05b6b0d975ef05038b3aa4f16f78b7ab3c3 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+sitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"STAIRS_OR_HILL_APPROACH_POSSIBLE"}
+{"candidate_id":"KUM-CAND-022","location_id":"418","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"STAIRS_OR_HILL_APPROACH_POSSIBLE"}
+{"candidate_id":"KUM-CAND-023","location_id":"419","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"NOT_PRIMARY"}
+{"candidate_id":"KUM-CAND-024","location_id":"420","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"NOT_PRIMARY"}
+{"candidate_id":"KUM-CAND-025","location_id":"421","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"NOT_PRIMARY"}
+{"candidate_id":"KUM-CAND-026","location_id":"422","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"STAIRS_OR_HILL_APPROACH_POSSIBLE"}
+{"candidate_id":"KUM-CAND-027","location_id":"423","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"STAIRS_OR_HILL_APPROACH_POSSIBLE"}
+{"candidate_id":"KUM-CAND-028","location_id":"424","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"STAIRS_OR_HILL_APPROACH_POSSIBLE"}
+{"candidate_id":"KUM-CAND-029","location_id":"425","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"STAIRS_OR_HILL_APPROACH_POSSIBLE"}
+{"candidate_id":"KUM-CAND-030","location_id":"426","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"NOT_PRIMARY"}
+{"candidate_id":"KUM-CAND-031","location_id":"427","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"NOT_PRIMARY"}
+{"candidate_id":"KUM-CAND-032","location_id":"428","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"NOT_PRIMARY"}
+{"candidate_id":"KUM-CAND-033","location_id":"429","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"NOT_PRIMARY"}
+{"candidate_id":"KUM-CAND-034","location_id":"430","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"NOT_PRIMARY"}
+{"candidate_id":"KUM-CAND-035","location_id":"431","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"NOT_PRIMARY"}
+{"candidate_id":"KUM-CAND-036","location_id":"432","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"STAIRS_OR_HILL_APPROACH_POSSIBLE"}
+{"candidate_id":"KUM-CAND-037","location_id":"433","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"STAIRS_OR_HILL_APPROACH_POSSIBLE"}
+{"candidate_id":"KUM-CAND-038","location_id":"434","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"STAIRS_OR_HILL_APPROACH_POSSIBLE"}
+{"candidate_id":"KUM-CAND-039","location_id":"435","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"TRAIL_APPROACH_NODE"}
+{"candidate_id":"KUM-CAND-040","location_id":"436","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"NOT_PRIMARY"}
+{"candidate_id":"KUM-CAND-041","location_id":"437","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"NOT_PRIMARY"}
+{"candidate_id":"KUM-CAND-042","location_id":"438","access":"PRACTICAL_CHECK_REQUIR
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=936 path=research/active/KUMAON-COMPLETE-001/BRONS/practical_access.jsonl blob_sha=5323a05b6b0d975ef05038b3aa4f16f78b7ab3c3 original_offset=8192 original_length=1049 payload_bytes=1049 chunk_index=2 chunk_count=3 classification=text
+ED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"NOT_PRIMARY"}
+{"candidate_id":"KUM-CAND-043","location_id":"439","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"NOT_PRIMARY"}
+{"candidate_id":"KUM-CAND-044","location_id":"440","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"NOT_PRIMARY"}
+{"candidate_id":"KUM-CAND-045","location_id":"441","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"NOT_PRIMARY"}
+{"candidate_id":"KUM-CAND-046","location_id":"442","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"NOT_PRIMARY"}
+{"candidate_id":"KUM-CAND-047","location_id":"443","access":"PRACTICAL_CHECK_REQUIRED","visitor":"PLAUSIBLE_BUT_CONFIRM","winter":"CHECK_WEATHER_ROAD_AND_DAYLIGHT","walk":"NOT_PRIMARY"}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=937 path=research/active/KUMAON-COMPLETE-001/BRONS/proximity.jsonl blob_sha=d68239b2e59d9283016e9b364adc8993dc769e98 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+{"connection_id":"P-001","from_location_id":"310","to_location_id":"427","mode":"CAR","estimated_time_or_distance":"about 34 km / 60–90 min working class","source_or_method":"KS-025","checked_at":"2026-07-19","traffic_or_access_notes":"Hill traffic and winter conditions vary.","status":"WORKING_NOT_ROUTE_DECISION"}
+{"connection_id":"P-002","from_location_id":"309","to_location_id":"427","mode":"CAR","estimated_time_or_distance":"about 40 km / 70–100 min working class","source_or_method":"KS-025","checked_at":"2026-07-19","traffic_or_access_notes":"Urban exit and hill traffic vary.","status":"WORKING_NOT_ROUTE_DECISION"}
+{"connection_id":"P-003","from_location_id":"427","to_location_id":"404","mode":"CAR","estimated_time_or_distance":"9 km / roughly 20–30 min","source_or_method":"KS-026","checked_at":"2026-07-19","traffic_or_access_notes":"Kainchi congestion can dominate.","status":"WORKING_NOT_ROUTE_DECISION"}
+{"connection_id":"P-004","from_location_id":"427","to_location_id":"428","mode":"CAR","estimated_time_or_distance":"11 km / roughly 25–40 min","source_or_method":"KS-025","checked_at":"2026-07-19","traffic_or_access_notes":"Nainital parking and traffic matter.","status":"WORKING_NOT_ROUTE_DECISION"}
+{"connection_id":"P-005","from_location_id":"427","to_location_id":"424","mode":"CAR","estimated_time_or_distance":"3 km / roughly 10–15 min","source_or_method":"KS-027","checked_at":"2026-07-19","traffic_or_access_notes":"Short local hill connection.","status":"WORKING_NOT_ROUTE_DECISION"}
+{"connection_id":"P-006","from_location_id":"428","to_location_id":"409","mode":"CAR","estimated_time_or_distance":"short Nainital hill connection","source_or_method":"KS-029","checked_at":"2026-07-19","traffic_or_access_notes":"Town traffic and parking.","status":"WORKING_NOT_ROUTE_DECISION"}
+{"connection_id":"P-007","from_location_id":"428","to_location_id":"418","mode":"WALK_OR_LOCAL_TAXI","estimated_time_or_distance":"town-centre relation","source_or_method":"KS-030","checked_at":"2026-07-19","traffic_or_access_notes":"Crowd/commercial friction.","status":"WORKING_NOT_ROUTE_DECISION"}
+{"connection_id":"P-008","from_location_id":"404","to_location_id":"412","mode":"CAR","estimated_time_or_distance":"same Kainchi–Bhumiyadhar road zone; exact minutes open","source_or_method":"KS-026","checked_at":"2026-07-19","traffic_or_access_notes":"No exact event point claimed.","status":"WORKING_NOT_ROUTE_DECISION"}
+{"connection_id":"P-009","from_location_id":"437","to_location_id":"413","mode":"LOCAL_TAXI_OR_WALK","estimated_time_or_distance":"Almora town relation","source_or_method":"KS-018","checked_at":"2026-07-19","traffic_or_access_notes":"Steep streets.","status":"WORKING_NOT_ROUTE_DECISION"}
+{"connection_id":"P-010","from_location_id":"437","to_location_id":"425","mode":"LOCAL_TAXI","estimated_time_or_distance":"Almora/Patal Devi relation","source_or_method":"KS-014","checked_at":"2026-07-19","traffic_or_access_notes":"Current access confirmation needed.","status":"WORKING_NOT_ROUTE_DECISION"}
+{"connection_id":"P-011","from_location_id":"437","to_location_id":"419","mode":"LOCAL_TAXI_OR_WALK","estimated_time_or_distance":"Almora historic circuit","source_or_method":"KS-020","checked_at":"2026-07-19","traffic_or_access_notes":"Permission needed.","status":"WORKING_NOT_ROUTE_DECISION"}
+{"connection_id":"P-012","from_location_id":"437","to_location_id":"440","mode":"LOCAL_TAXI_OR_WALK","estimated_time_or_distance":"Almora Vivekananda circuit","source_or_method":"KS-020","checked_at":"2026-07-19","traffic_or_access_notes":"Working points only.","status":"WORKING_NOT_ROUTE_DECISION"}
+{"connection_id":"P-013","from_location_id":"437","to_location_id":"441","mode":"LOCAL_TAXI_OR_WALK","estimated_time_or_distance":"Almora Vivekananda circuit","source_or_method":"KS-020","checked_at":"2026-07-19","traffic_or_access_notes":"Public access uncertain.","status":"WORKING_NOT_ROUTE_DECISION"}
+{"connection_id":"P-014","from_location_id":"437","to_location_id":"442","mode":"LOCAL_TAXI_OR_WALK","estimated_time_or_distance":"Almora Vivekananda
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=938 path=research/active/KUMAON-COMPLETE-001/BRONS/proximity.jsonl blob_sha=d68239b2e59d9283016e9b364adc8993dc769e98 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+ circuit","source_or_method":"KS-020","checked_at":"2026-07-19","traffic_or_access_notes":"Urban event-site accuracy working.","status":"WORKING_NOT_ROUTE_DECISION"}
+{"connection_id":"P-015","from_location_id":"413","to_location_id":"443","mode":"WALK_OR_LOCAL_TAXI","estimated_time_or_distance":"near Ramakrishna Kutir route context","source_or_method":"KS-022","checked_at":"2026-07-19","traffic_or_access_notes":"Context marker, not destination.","status":"WORKING_NOT_ROUTE_DECISION"}
+{"connection_id":"P-016","from_location_id":"438","to_location_id":"405","mode":"WALK_OR_SHORT_TAXI","estimated_time_or_distance":"same Kasar ridge zone","source_or_method":"KS-032","checked_at":"2026-07-19","traffic_or_access_notes":"Road gradient varies.","status":"WORKING_NOT_ROUTE_DECISION"}
+{"connection_id":"P-017","from_location_id":"405","to_location_id":"406","mode":"WALK_OR_SHORT_TAXI","estimated_time_or_distance":"same ridge landscape","source_or_method":"KS-032","checked_at":"2026-07-19","traffic_or_access_notes":"Distributed ridge, not one gate.","status":"WORKING_NOT_ROUTE_DECISION"}
+{"connection_id":"P-018","from_location_id":"405","to_location_id":"426","mode":"WALK_OR_LOCAL_GUIDE","estimated_time_or_distance":"near Kasar Devi area; exact cave point open","source_or_method":"KS-024","checked_at":"2026-07-19","traffic_or_access_notes":"Identity and trail need confirmation.","status":"WORKING_NOT_ROUTE_DECISION"}
+{"connection_id":"P-019","from_location_id":"437","to_location_id":"408","mode":"CAR","estimated_time_or_distance":"Almora–Jageshwar regional road connection","source_or_method":"KS-033","checked_at":"2026-07-19","traffic_or_access_notes":"Winter and traffic-sensitive.","status":"WORKING_NOT_ROUTE_DECISION"}
+{"connection_id":"P-020","from_location_id":"437","to_location_id":"407","mode":"CAR","estimated_time_or_distance":"Almora–Kakrighat regional connection","source_or_method":"KS-020","checked_at":"2026-07-19","traffic_or_access_notes":"Roadside/riverside access.","status":"WORKING_NOT_ROUTE_DECISION"}
+{"connection_id":"P-021","from_location_id":"436","to_location_id":"403","mode":"LOCAL_TAXI","estimated_time_or_distance":"Dwarahat/YSS local relation","source_or_method":"KS-004","checked_at":"2026-07-19","traffic_or_access_notes":"Exact local transfer check.","status":"WORKING_NOT_ROUTE_DECISION"}
+{"connection_id":"P-022","from_location_id":"403","to_location_id":"402","mode":"CAR","estimated_time_or_distance":"Dwarahat to Dunagiri hill road","source_or_method":"KS-004","checked_at":"2026-07-19","traffic_or_access_notes":"Mountain road conditions.","status":"WORKING_NOT_ROUTE_DECISION"}
+{"connection_id":"P-023","from_location_id":"402","to_location_id":"435","mode":"CAR","estimated_time_or_distance":"Dunagiri/Kukuchina approach relation","source_or_method":"KS-004","checked_at":"2026-07-19","traffic_or_access_notes":"Road endpoint and trail separation.","status":"WORKING_NOT_ROUTE_DECISION"}
+{"connection_id":"P-024","from_location_id":"435","to_location_id":"400","mode":"WALK","estimated_time_or_distance":"about one-hour steep climb working class","source_or_method":"KS-004","checked_at":"2026-07-19","traffic_or_access_notes":"Weather/trail conditions critical.","status":"WORKING_NOT_ROUTE_DECISION"}
+{"connection_id":"P-025","from_location_id":"400","to_location_id":"401","mode":"WALK","estimated_time_or_distance":"nearby cave/memorial pair","source_or_method":"KS-004","checked_at":"2026-07-19","traffic_or_access_notes":"Local path confirmation.","status":"WORKING_NOT_ROUTE_DECISION"}
+{"connection_id":"P-026","from_location_id":"439","to_location_id":"434","mode":"LOCAL_TAXI","estimated_time_or_distance":"Chiliyanaula/Ranikhet local relation","source_or_method":"KS-009","checked_at":"2026-07-19","traffic_or_access_notes":"Distinct from main Haidakhan.","status":"WORKING_NOT_ROUTE_DECISION"}
+{"connection_id":"P-027","from_location_id":"431","to_location_id":"423","mode":"CAR_PLUS_LOCAL_ACCESS","estimated_time_or_distance":"Haldwani/Haidakhan regional connection","source_or_method":"KS-011","checked_at":"2026-07-19"
+<<< END CHUNK >>>
+

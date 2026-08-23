@@ -1,0 +1,597 @@
+>>> CHUNK stream_row=1455 path=research/active/KUMAON-COMPLETE-001/GOUD/station_and_route_nodes.jsonl,research/active/KUMAON-COMPLETE-001/ZILVER/station_and_route_nodes.jsonl blob_sha=169bd9376c4fce754cb8387987d5e629f7af7d00 original_offset=0 original_length=1785 payload_bytes=1785 chunk_index=0 chunk_count=1 classification=text
+{"location_id":"308","candidate_id":"KUM-CAND-001","canonical_name":"Lal Kuan Junction railway station","node_type":"STATION","working_geo":{"lat":29.0665,"lon":79.5195,"status":"WORKING"},"taxi_transfer_function":"Rail junction and transfer node; exact December services open.","route_position":"Foothill junction.","date_specific_check":"Service, road and local transfer must be checked near travel.","source_ids":["ZKS-028"],"checked_at":"2026-07-19"}
+{"location_id":"309","candidate_id":"KUM-CAND-002","canonical_name":"Haldwani railway station","node_type":"STATION","working_geo":{"lat":29.2183,"lon":79.5127,"status":"WORKING"},"taxi_transfer_function":"Strong urban transport and service gateway.","route_position":"Plains-city gateway.","date_specific_check":"Service, road and local transfer must be checked near travel.","source_ids":["ZKS-028"],"checked_at":"2026-07-19"}
+{"location_id":"310","candidate_id":"KUM-CAND-003","canonical_name":"Kathgodam railway station","node_type":"STATION","working_geo":{"lat":29.2693,"lon":79.546,"status":"WORKING"},"taxi_transfer_function":"Principal railhead for hill transfers.","route_position":"Rail terminus.","date_specific_check":"Service, road and local transfer must be checked near travel.","source_ids":["ZKS-028","ZKS-029"],"checked_at":"2026-07-19"}
+{"location_id":"435","candidate_id":"KUM-CAND-039","canonical_name":"Kukuchina / Babaji Cave trail approach","node_type":"ROUTE_NODE","working_geo":{"lat":29.8315,"lon":79.463,"status":"WORKING"},"taxi_transfer_function":"Road/trail approach distinguished from cave endpoint.","route_position":"Kukuchina approach node.","date_specific_check":"Trail, road and local transfer must be checked near travel.","source_ids":["ZKS-004"],"checked_at":"2026-07-19"}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1456 path=research/active/KUMAON-COMPLETE-001/GOUD/working_geo.jsonl,research/active/KUMAON-COMPLETE-001/ZILVER/working_geo.jsonl blob_sha=4a2765d86e77b1c660cdfa00a6e60bc07967c143 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+{"location_id":"308","candidate_id":"KUM-CAND-001","name":"Lal Kuan Junction railway station","lat":29.0665,"lon":79.5195,"geo_status":"WORKING","point_type":"STATION_POINT","accuracy":"50_150_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-028"]}
+{"location_id":"309","candidate_id":"KUM-CAND-002","name":"Haldwani railway station","lat":29.2183,"lon":79.5127,"geo_status":"WORKING","point_type":"STATION_POINT","accuracy":"50_150_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-028"]}
+{"location_id":"310","candidate_id":"KUM-CAND-003","name":"Kathgodam railway station","lat":29.2693,"lon":79.546,"geo_status":"WORKING","point_type":"STATION_POINT","accuracy":"50_150_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-028","ZKS-029"]}
+{"location_id":"400","candidate_id":"KUM-CAND-004","name":"Babaji Cave","lat":29.8334,"lon":79.4654,"geo_status":"WORKING","point_type":"EXACT_SITE","accuracy":"25_50_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-004","ZKS-006"]}
+{"location_id":"401","candidate_id":"KUM-CAND-005","name":"Babaji Smriti Bhavan","lat":29.832873,"lon":79.464364,"geo_status":"WORKING","point_type":"BUILDING_CENTRE","accuracy":"50_150_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-004","ZKS-006"]}
+{"location_id":"402","candidate_id":"KUM-CAND-006","name":"Dunagiri Temple","lat":29.79672,"lon":79.45123,"geo_status":"WORKING","point_type":"COMPLEX_CENTRE","accuracy":"25_50_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-004"]}
+{"location_id":"403","candidate_id":"KUM-CAND-007","name":"YSS Dwarahat Ashram","lat":29.784767,"lon":79.422761,"geo_status":"WORKING","point_type":"COMPLEX_CENTRE","accuracy":"50_150_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-004","ZKS-005"]}
+{"location_id":"404","candidate_id":"KUM-CAND-008","name":"Kainchi Dham","lat":29.42255,"lon":79.51245,"geo_status":"WORKING","point_type":"COMPLEX_CENTRE","accuracy":"25_50_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-007","ZKS-008"]}
+{"location_id":"405","candidate_id":"KUM-CAND-009","name":"Kasar Devi Temple","lat":29.64172,"lon":79.66183,"geo_status":"WORKING","point_type":"COMPLEX_CENTRE","accuracy":"25_50_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-009","ZKS-033"]}
+{"location_id":"406","candidate_id":"KUM-CAND-010","name":"Crank's Ridge","lat":29.648,"lon":79.663,"geo_status":"WORKING","point_type":"LANDSCAPE_REPRESENTATIVE_POINT","accuracy":"150_500_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-009"]}
+{"location_id":"407","candidate_id":"KUM-CAND-011","name":"Kakrighat / Karkateshwar Mahadev","lat":29.54371,"lon":79.53274,"geo_status":"WORKING","point_type":"SITE_CENTRE","accuracy":"150_500_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-008","ZKS-013"]}
+{"location_id":"408","candidate_id":"KUM-CAND-012","name":"Jageshwar temple complex","lat":29.6375,"lon":79.85428,"geo_status":"WORKING","point_type":"COMPLEX_CENTRE","accuracy":"25_50_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-010"]}
+{"location_id":"409","candidate_id":"KUM-CAND-013","name":"Hanuman Garhi, Nainital","lat":29.381,"lon":79.455,"geo_status":"WORKING","point_type":"COMPLEX_CENTRE","accuracy":"50_150_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-008"]}
+{"location_id":"410","candidate_id":"KUM-CAND-014","name":"Hotel Evelyn, Nainital","lat":29.3915,"lon":79.4575,"geo_status":"WORKING","point_type":"BUILDING_CENTRE","accuracy":"150_500_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKR-005"]}
+{"location_id":"411","candidate_id":"KUM-CAND-015","name":"K. K. Sah house, Nainital","lat":29.3925,"lon":79.4545,"geo_status":"WORKING","point_type":"ESTIMATED","accuracy":"NOT_ESTABLISHED","reason":"OPEN_MICROSITE","source_ids":["ZKS-012","ZKR-001"]}
+{"location_id":"412","candidate_id":"KUM-CAND-016","name":"Bhumiyadhar temple grounds","lat":29.411,"lon":79.509,"geo_status":"WORKING","point_type":"SITE_CENTRE","accuracy":"150_500_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-002","ZKS-008"]}
+{"location_id":"413","candidate_id":"KUM-CAND-017","name":"Ramakrishna Ku
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1457 path=research/active/KUMAON-COMPLETE-001/GOUD/working_geo.jsonl,research/active/KUMAON-COMPLETE-001/ZILVER/working_geo.jsonl blob_sha=4a2765d86e77b1c660cdfa00a6e60bc07967c143 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+tir, Almora","lat":29.597,"lon":79.655,"geo_status":"WORKING","point_type":"COMPLEX_CENTRE","accuracy":"150_500_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-013","ZKS-015"]}
+{"location_id":"414","candidate_id":"KUM-CAND-018","name":"Chitai Golu Devta Temple","lat":29.642,"lon":79.714,"geo_status":"WORKING","point_type":"COMPLEX_CENTRE","accuracy":"50_150_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-030"]}
+{"location_id":"415","candidate_id":"KUM-CAND-019","name":"Mirtola / Uttar Vrindavan Ashram","lat":29.663,"lon":79.787,"geo_status":"WORKING","point_type":"COMPLEX_CENTRE","accuracy":"150_500_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-001","ZKS-035"]}
+{"location_id":"416","candidate_id":"KUM-CAND-020","name":"Binsar Wildlife Sanctuary","lat":29.6667,"lon":79.75,"geo_status":"WORKING","point_type":"LANDSCAPE_REPRESENTATIVE_POINT","accuracy":"150_500_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-001","ZKS-034"]}
+{"location_id":"417","candidate_id":"KUM-CAND-021","name":"Patal Bhuvaneshwar","lat":29.691,"lon":80.091,"geo_status":"WORKING","point_type":"SITE_CENTRE","accuracy":"150_500_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-001","ZKS-037"]}
+{"location_id":"418","candidate_id":"KUM-CAND-022","name":"Naina Devi Temple, Nainital","lat":29.3972,"lon":79.4468,"geo_status":"WORKING","point_type":"COMPLEX_CENTRE","accuracy":"50_150_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-038"]}
+{"location_id":"419","candidate_id":"KUM-CAND-023","name":"Lala Badri Shah House, Almora","lat":29.6,"lon":79.656,"geo_status":"WORKING","point_type":"BUILDING_CENTRE","accuracy":"150_500_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-013","ZKS-014"]}
+{"location_id":"420","candidate_id":"KUM-CAND-024","name":"Turiya Niwas, Crank's Ridge","lat":29.654,"lon":79.669,"geo_status":"WORKING","point_type":"BUILDING_CENTRE","accuracy":"150_500_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-001","ZKS-026","ZKR-006"]}
+{"location_id":"421","candidate_id":"KUM-CAND-025","name":"Bodh Ashram, Kasar Devi area","lat":29.643,"lon":79.675,"geo_status":"WORKING","point_type":"ESTIMATED","accuracy":"NOT_ESTABLISHED","reason":"OPEN_MICROSITE","source_ids":["ZKS-001","ZKR-004"]}
+{"location_id":"422","candidate_id":"KUM-CAND-026","name":"Anandamayi Ma Ashram, Dhaulchina","lat":29.743,"lon":79.632,"geo_status":"WORKING","point_type":"COMPLEX_CENTRE","accuracy":"150_500_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-001","ZKS-016","ZKS-017"]}
+{"location_id":"423","candidate_id":"KUM-CAND-027","name":"Haidakhan Vishwa Mahadham","lat":29.119,"lon":79.701,"geo_status":"WORKING","point_type":"COMPLEX_CENTRE","accuracy":"150_500_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-001","ZKS-019","ZKS-020"]}
+{"location_id":"424","candidate_id":"KUM-CAND-028","name":"Ghorakhal Golu Devta Temple","lat":29.37953,"lon":79.54545,"geo_status":"WORKING","point_type":"COMPLEX_CENTRE","accuracy":"25_50_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-001","ZKS-011"]}
+{"location_id":"425","candidate_id":"KUM-CAND-029","name":"Anandamayi Ma Ashram / Patal Devi","lat":29.61,"lon":79.661,"geo_status":"WORKING","point_type":"COMPLEX_CENTRE","accuracy":"150_500_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-016","ZKS-018"]}
+{"location_id":"426","candidate_id":"KUM-CAND-030","name":"Vivekananda meditation cave near Kasar Devi","lat":29.6425,"lon":79.6625,"geo_status":"WORKING","point_type":"ESTIMATED","accuracy":"NOT_ESTABLISHED","reason":"OPEN_MICROSITE","source_ids":["ZKS-009","ZKR-003"]}
+{"location_id":"427","candidate_id":"KUM-CAND-031","name":"Bhowali practical base area","lat":29.389,"lon":79.52,"geo_status":"WORKING","point_type":"BASE_AREA_CENTRE","accuracy":"150_500_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-027"]}
+{"location_id":"428","candidate_id":"KUM-CAND-032","name":"Nainital practical base area","lat":29.3905,"lon":79.4609,"geo_status":"WORKING","point_type":"BASE_AREA_CENTRE","accuracy":"150_500_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-0
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1458 path=research/active/KUMAON-COMPLETE-001/GOUD/working_geo.jsonl,research/active/KUMAON-COMPLETE-001/ZILVER/working_geo.jsonl blob_sha=4a2765d86e77b1c660cdfa00a6e60bc07967c143 original_offset=8192 original_length=4027 payload_bytes=4027 chunk_index=2 chunk_count=3 classification=text
+28","ZKS-038"]}
+{"location_id":"429","candidate_id":"KUM-CAND-033","name":"Kainchi practical base area","lat":29.4235,"lon":79.512,"geo_status":"WORKING","point_type":"BASE_AREA_CENTRE","accuracy":"150_500_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-007"]}
+{"location_id":"430","candidate_id":"KUM-CAND-034","name":"Kathgodam practical base area","lat":29.27,"lon":79.545,"geo_status":"WORKING","point_type":"BASE_AREA_CENTRE","accuracy":"150_500_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-028"]}
+{"location_id":"431","candidate_id":"KUM-CAND-035","name":"Haldwani practical base area","lat":29.218,"lon":79.512,"geo_status":"WORKING","point_type":"BASE_AREA_CENTRE","accuracy":"150_500_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-028"]}
+{"location_id":"432","candidate_id":"KUM-CAND-036","name":"Advaita Ashrama, Mayavati","lat":29.37417,"lon":80.06333,"geo_status":"WORKING","point_type":"COMPLEX_CENTRE","accuracy":"150_500_M","reason":"MAYAVATI_CORRECTED","source_ids":["ZKS-021","ZKS-022","ZKS-023","ZKS-031"]}
+{"location_id":"433","candidate_id":"KUM-CAND-037","name":"Vivekananda Ashrama, Shyamla Tal","lat":29.1595,"lon":80.1218,"geo_status":"WORKING","point_type":"COMPLEX_CENTRE","accuracy":"500_1000_M","reason":"BROAD_SHYAMLA_TAL_POINT","source_ids":["ZKS-024","ZKS-025","ZKS-032"]}
+{"location_id":"434","candidate_id":"KUM-CAND-038","name":"Anandapuri Ashram, Chiliyanaula","lat":29.66236,"lon":79.41309,"geo_status":"WORKING","point_type":"COMPLEX_CENTRE","accuracy":"25_50_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-019","ZKS-020"]}
+{"location_id":"435","candidate_id":"KUM-CAND-039","name":"Kukuchina / Babaji Cave trail approach","lat":29.8315,"lon":79.463,"geo_status":"WORKING","point_type":"TRAILHEAD_OR_APPROACH","accuracy":"150_500_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-004"]}
+{"location_id":"436","candidate_id":"KUM-CAND-040","name":"Dwarahat practical base area","lat":29.777,"lon":79.427,"geo_status":"WORKING","point_type":"BASE_AREA_CENTRE","accuracy":"500_1000_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-004"]}
+{"location_id":"437","candidate_id":"KUM-CAND-041","name":"Almora practical base area","lat":29.5971,"lon":79.6591,"geo_status":"WORKING","point_type":"BASE_AREA_CENTRE","accuracy":"150_500_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-013","ZKS-030"]}
+{"location_id":"438","candidate_id":"KUM-CAND-042","name":"Kasar Devi practical base area","lat":29.65087,"lon":79.66492,"geo_status":"WORKING","point_type":"BASE_AREA_CENTRE","accuracy":"150_500_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-009"]}
+{"location_id":"439","candidate_id":"KUM-CAND-043","name":"Ranikhet / Chiliyanaula practical base area","lat":29.65,"lon":79.42,"geo_status":"WORKING","point_type":"BASE_AREA_CENTRE","accuracy":"500_1000_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-019"]}
+{"location_id":"440","candidate_id":"KUM-CAND-044","name":"Vivekananda Rest House / Vivekananda Shila, Karbala","lat":29.599,"lon":79.65,"geo_status":"WORKING","point_type":"SITE_CENTRE","accuracy":"500_1000_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-013","ZKS-014"]}
+{"location_id":"441","candidate_id":"KUM-CAND-045","name":"Thompson House / ITI, Almora","lat":29.596,"lon":79.651,"geo_status":"WORKING","point_type":"BUILDING_CENTRE","accuracy":"500_1000_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-013","ZKS-014"]}
+{"location_id":"442","candidate_id":"KUM-CAND-046","name":"Sri Raghunath Temple reception site, Almora","lat":29.6005,"lon":79.657,"geo_status":"WORKING","point_type":"COMPLEX_CENTRE","accuracy":"500_1000_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-013","ZKS-014"]}
+{"location_id":"443","candidate_id":"KUM-CAND-047","name":"Bright End Corner / Vivekananda Corner, Almora","lat":29.5975,"lon":79.6545,"geo_status":"WORKING","point_type":"SITE_CENTRE","accuracy":"500_1000_M","reason":"RETAINED_WORKING_POINT","source_ids":["ZKS-013","ZKS-030"]}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1459 path=research/active/KUMAON-COMPLETE-001/ZILVER/COMPLETED blob_sha=af4f4617216ea1c3472ade4fa3f0e23a3d4700cb original_offset=0 original_length=1756 payload_bytes=1756 chunk_index=0 chunk_count=1 classification=text
+PARTIAL
+run_id: KUMAON-COMPLETE-001
+role: ZILVER
+source_commit: 9afdbb21ab4cb202144c2a6346218d6e1a3639aa
+outputs:
+  - manifest.yaml
+  - report/INDEX.md
+  - report/01_verified_candidate_map.md
+  - report/02_access_experience_and_visuals.md
+  - report/03_geo_connections_and_map.md
+  - report/04_conclusion_and_gate.md
+  - candidates.jsonl
+  - claims.jsonl
+  - sources/registry.jsonl
+  - sources/rejected.jsonl
+  - detector_checks.jsonl
+  - negative_searches.jsonl
+  - working_geo.jsonl
+  - location_assignments.jsonl
+  - practical_access.jsonl
+  - base_comparison.jsonl
+  - station_and_route_nodes.jsonl
+  - proximity.jsonl
+  - map_source.jsonl
+  - images.jsonl
+  - experience_reviews.jsonl
+  - KUMAON_ZILVER_WORKING.kml
+  - formal_status_coverage.md
+  - completeness_matrix.md
+  - audit.md
+  - handoff.yaml
+highest_gaps:
+  - Exact identity, access and GEO remain open for K. K. Sah house, Bodh Ashram and the Vivekananda cave.
+  - Complete ten-function image and systematic recent-review coverage remains absent.
+  - Live December 2026 rail, winter-road, trail, taxi and travel-time conditions remain time-sensitive.
+validation: All required ZILVER artifacts were reopened from GitHub; sentinels, 47 candidates, 77 claims, 39 accepted sources, 8 rejected sources, 47 GEO records, 32 connections and 47 KML placemarks in seven layers are structurally coherent. Mayavati GEO was corrected. All formal statuses and LOCATION_IDs were preserved. No formal or advisory A/B/C, PARELS, hotel, base, station or route choice was made. The transient partial commits 25e410a1af2f5e832e5ba548701f95f88bacce01 and 91c1c1f7f9a7e7e8eb1403c10e33cbe4ade02085 were not accepted as completion and are repaired append-only in the final atomic completion commit.
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1460 path=research/active/KUMAON-COMPLETE-001/ZILVER/audit.md blob_sha=886ad74e8874bcd0dfcf3ff8235870c188ae85fb original_offset=0 original_length=2145 payload_bytes=2145 chunk_index=0 chunk_count=1 classification=text
+# ZILVER-audit — KUMAON-COMPLETE-001
+
+## Preflight en context
+
+- GitHub-read en GitHub-write zijn vóór inhoudelijk werk getest.
+- `NEXT_ACTION.yaml` wees exact naar run, ZILVER, `READY_FOR_ZILVER` en het gepinde contextmanifest.
+- State en eventlog waren synchroon op `EVT-0006`; geen ACTIVE predecessorclaim bestond.
+- Alle 35 required files, blob-SHA's, sentinels en inhoudelijk getriggerde optionals zijn volledig gevalideerd op source commit `9afdbb21ab4cb202144c2a6346218d6e1a3639aa`.
+- De ZILVER-workerclaim is vóór extern onderzoek atomisch ACTIVE gemaakt in commit `7a358b6d2625945f4967207580cfdbda79816128`.
+- Geen forbidden file is gebruikt.
+
+## Inhoudelijke controle
+
+- Alle 47 kandidaten zijn behouden.
+- Dragende Babaji/Kriya-, Neem Karoli Baba/Ram Dass-, Vivekananda/Ramakrishna-, Anandamayi- en Haidakhandi-claims zijn onafhankelijk gecontroleerd.
+- Mayavati-GEO is materieel gecorrigeerd.
+- De generieke toegangstabel is vervangen door plaats-specifieke officiële voorwaarden waar beschikbaar.
+- Negen bases en vier stations/knooppunten blijven vergelijkingsinputs zonder winnaar; 32 verbindingen blijven WORKING zonder routekeuze.
+- Beeld- en reviewtekorten zijn niet kunstmatig gevuld.
+
+## Referentiële en technische integriteit
+
+- 47 unieke candidate IDs en LOCATION_ID's;
+- 77 unieke claims;
+- 39 accepted en 8 rejected unieke source IDs;
+- iedere claim-sourceverwijzing resolveert exact eenmaal;
+- 9 detectorchecks, 8 negatieve zoekrecords, 47 GEO-, toegang-, kaart-, beeld- en reviewrecords;
+- 17 assignments, 9 bases, 4 knooppunten, 32 verbindingen;
+- 47 KML-placemarks in zeven lagen.
+
+## Scope en quality gate
+
+16 A, 1 B en 4 C zijn volledig aanwezig en ongewijzigd. Geen formele of adviserende A/B/C, basis, station, hotel, route, eerste of laatste locatie is gekozen. Geen PARELS, decision-ID, protocolwijziging of canonieke integratie is uitgevoerd.
+
+Technische fase-integriteit: PASS. Inhoudelijke resultaatstatus: PARTIAL.
+
+Hoogste gaten: drie open micro-sites; onvolledige tien-functionele beeld- en reviewdekking; live december 2026 trein-, winterweg-, trail-, taxi- en reistijdcontrole.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1461 path=research/active/KUMAON-COMPLETE-001/ZILVER/handoff.yaml blob_sha=730f652840bf49c8fe7407a4fc486196fe45a51a original_offset=0 original_length=3895 payload_bytes=3895 chunk_index=0 chunk_count=1 classification=text
+schema_version: 1
+run_id: KUMAON-COMPLETE-001
+completed_role: ZILVER
+result_status: PARTIAL
+output_manifest_path: research/active/KUMAON-COMPLETE-001/ZILVER/manifest.yaml
+next_role: GOUD
+next_expected_transition: CONTROLLER_TRANSITION_TO_GOUD
+layer_statuses:
+  physical_identity:
+    status: CORRECTED
+    risk: MEDIUM
+    reason: All records retained; Mayavati corrected; three micro-sites remain explicitly open.
+    reopen_instruction: VERIFY_DRAGGING_CLAIMS
+  institution:
+    status: CORRECTED
+    risk: MEDIUM
+    reason: Current institutions and stay rules strengthened; Bodh Ashram management remains open.
+    reopen_instruction: VERIFY_DRAGGING_CLAIMS
+  history_tradition_lineage:
+    status: ACCEPTED
+    risk: MEDIUM
+    reason: Load-bearing lineage claims independently verified; Turiya history remains reported only.
+    reopen_instruction: MOTIVATED_SAMPLE
+  devotional_practice_and_participation:
+    status: CORRECTED
+    risk: MEDIUM
+    reason: Place-specific participation and reservation restrictions replace generic rows.
+    reopen_instruction: VERIFY_OPEN_ENTRANCES
+  experience_reviews_and_images:
+    status: OPEN
+    risk: HIGH
+    reason: Complete ten-function images and systematic current reviews remain absent.
+    reopen_instruction: VERIFY_ALL
+  visitability_and_practicality:
+    status: CORRECTED
+    risk: HIGH
+    reason: Official rules captured; live winter, date-specific and private-site access remains open.
+    reopen_instruction: VERIFY_ALL
+  proximity_and_cluster_effect:
+    status: CORRECTED
+    risk: HIGH
+    reason: Thirty-two WORKING connections retained without route selection.
+    reopen_instruction: VERIFY_ALL
+  formal_status_coverage:
+    status: ACCEPTED
+    risk: LOW
+    reason: All 16 A, 1 B and 4 C remain present and unchanged.
+    reopen_instruction: MOTIVATED_SAMPLE
+  location_ids_and_kml:
+    status: CORRECTED
+    risk: MEDIUM
+    reason: Mayavati corrected; 47 records and seven layers retained.
+    reopen_instruction: VERIFY_ALL
+routing_rule: GOUD reopens OPEN, high-risk CORRECTED and dragende claims required for release.
+open_blockers:
+  - Exact micro-site identity/access/GEO remains open for K. K. Sah house, Bodh Ashram and Vivekananda cave.
+  - Complete ten-function image and systematic recent-review coverage remains absent.
+  - Live December 2026 train, winter-road, trail, taxi and travel-time conditions remain time-sensitive.
+required_predecessor_files:
+  - research/active/KUMAON-COMPLETE-001/ZILVER/manifest.yaml
+  - research/active/KUMAON-COMPLETE-001/ZILVER/report/INDEX.md
+  - research/active/KUMAON-COMPLETE-001/ZILVER/claims.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/sources/registry.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/sources/rejected.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/candidates.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/detector_checks.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/negative_searches.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/working_geo.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/location_assignments.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/practical_access.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/base_comparison.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/station_and_route_nodes.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/proximity.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/map_source.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/images.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/experience_reviews.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/KUMAON_ZILVER_WORKING.kml
+  - research/active/KUMAON-COMPLETE-001/ZILVER/formal_status_coverage.md
+  - research/active/KUMAON-COMPLETE-001/ZILVER/completeness_matrix.md
+  - research/active/KUMAON-COMPLETE-001/ZILVER/audit.md
+future_source_commit: null
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1462 path=research/active/KUMAON-COMPLETE-001/ZILVER/manifest.yaml blob_sha=3b68eb78f12b884434bca0d543c6d12375c6bb72 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+schema_version: 3
+run_id: KUMAON-COMPLETE-001
+role: ZILVER
+completion_status: PARTIAL
+source_commit: 9afdbb21ab4cb202144c2a6346218d6e1a3639aa
+context_profile: ZILVER_MIN
+protocol_versions:
+  pipeline: 3.1.1
+  methodology: 3.0.0
+  execution_protocol: 2.3.1
+  controller_transition_protocol: 2.3.1
+  role_handoff_protocol: '1.1'
+counts:
+  candidates: 47
+  claims: 77
+  accepted_sources: 39
+  rejected_sources: 8
+  detector_checks: 9
+  negative_searches: 8
+  working_geo: 47
+  location_assignments: 17
+  practical_access: 47
+  base_comparison: 9
+  station_and_route_nodes: 4
+  proximity: 32
+  map_records: 47
+  images: 47
+  experience_reviews: 47
+  kml_placemarks: 47
+formal_status_coverage: {A: 16, B: 1, C: 4, changed: 0}
+location_id_summary:
+  preserved: [308-310, 400-443]
+  brons_assignments_verified: 427-443
+  duplicates: false
+  cross_block: false
+kml:
+  path: KUMAON_ZILVER_WORKING.kml
+  layers: [A_FORMEEL, B_FORMEEL, C_FORMEEL, NOG_DOOR_MARK_TE_BEOORDELEN, CONTEXT_OF_AFGEVALLEN, STATIONS_EN_ROUTEKNOOPPUNTEN, MOGELIJKE_BASES_EN_OVERNACHTING]
+  placemarks: 47
+files:
+  - {path: report/INDEX.md, lines: 11, git_blob_sha: d16a0a3b01d23e1545597d43b069b845c770cb1e}
+  - {path: report/01_verified_candidate_map.md, lines: 22, git_blob_sha: ac51eb75c3a03bad0c8b0208a7f82d1f086beadd}
+  - {path: report/02_access_experience_and_visuals.md, lines: 27, git_blob_sha: 2e2e9cfcd13dd31ac2cfaf81cb3a0bc3421be694}
+  - {path: report/03_geo_connections_and_map.md, lines: 23, git_blob_sha: a3ce271d51d167b8aa9b769af23f3af2ae542ddb}
+  - {path: report/04_conclusion_and_gate.md, lines: 26, git_blob_sha: a91b82164ca7d0bd9c228e35aa98bfa752b13dd2}
+  - {path: candidates.jsonl, lines: 48, git_blob_sha: 28ec04c9cea0a0b5cc07757909a76b93b6ea402e}
+  - {path: claims.jsonl, lines: 78, git_blob_sha: 910f2807247c5547bcf1fc9fc063217a0adb8e2b}
+  - {path: sources/registry.jsonl, lines: 40, git_blob_sha: 1d94e01394ddf2d805d37b2f03a4620149c5dfc4}
+  - {path: sources/rejected.jsonl, lines: 9, git_blob_sha: baacf28eec16da41d17f3679f167ba8a54754a0a}
+  - {path: detector_checks.jsonl, lines: 10, git_blob_sha: ca7dc8d856e6db8963c7556a20a8a96b5b17417a}
+  - {path: negative_searches.jsonl, lines: 9, git_blob_sha: 515578066c15050f6481ae490c795733d78085f8}
+  - {path: working_geo.jsonl, lines: 48, git_blob_sha: 4a2765d86e77b1c660cdfa00a6e60bc07967c143}
+  - {path: location_assignments.jsonl, lines: 18, git_blob_sha: 5f015b21775e904ed9dcf9ed4fd958b275430227}
+  - {path: practical_access.jsonl, lines: 48, git_blob_sha: 1c99a22cae17d69173802369f988f7bd27c7f10b}
+  - {path: base_comparison.jsonl, lines: 10, git_blob_sha: 6bf244c28f02611ba033f338d62903537b843e2e}
+  - {path: station_and_route_nodes.jsonl, lines: 5, git_blob_sha: 169bd9376c4fce754cb8387987d5e629f7af7d00}
+  - {path: proximity.jsonl, lines: 33, git_blob_sha: f75dc0782077d0c455e6203ee5d77e88924fba7b}
+  - {path: map_source.jsonl, lines: 48, git_blob_sha: 548be6a5a902192b0325888ff342af933fdd205d}
+  - {path: images.jsonl, lines: 48, git_blob_sha: 780822e2341a51fc81531d8676d5e470c6959266}
+  - {path: experience_reviews.jsonl, lines: 48, git_blob_sha: d45ae50061e0dcb680a3af8fe2f8acda0761a4e0}
+  - {path: KUMAON_ZILVER_WORKING.kml, lines: 74, git_blob_sha: d1cb312ec9329853e2c290a2e447256cfbc1aa78}
+  - {path: formal_status_coverage.md, lines: 15, git_blob_sha: d11dfd0188e0f0d1739289635139fe2291d2fdcf}
+  - {path: completeness_matrix.md, lines: 21, git_blob_sha: 513e60109c0d1981c75b8f85a79f98c833327d95}
+  - {path: audit.md, lines: 39, git_blob_sha: 886ad74e8874bcd0dfcf3ff8235870c188ae85fb}
+  - {path: handoff.yaml, lines: 83, git_blob_sha: 730f652840bf49c8fe7407a4fc486196fe45a51a}
+  - {path: manifest.yaml, git_blob_sha: SELF_IN_COMPLETION_COMMIT}
+  - {path: COMPLETED, git_blob_sha: SAME_COMPLETION_COMMIT}
+validation:
+  github_read_confirmed: true
+  github_write_confirmed: true
+  required_context_files_fully_read: true
+  required_context_hashes_match: true
+  forbidden_files_used: false
+  required_outputs_present: true
+  all_outputs_reopened_from_github: true
+  text_sentinels_checked: true
+  kml_xml_closing_checked: true
+  source_id_references_vali
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1463 path=research/active/KUMAON-COMPLETE-001/ZILVER/manifest.yaml blob_sha=3b68eb78f12b884434bca0d543c6d12375c6bb72 original_offset=4096 original_length=964 payload_bytes=964 chunk_index=1 chunk_count=2 classification=text
+d: true
+  source_ids_unique_across_registers: true
+  identifiers_unique: true
+  location_ids_unique_and_in_reserved_blocks: true
+  all_formal_statuses_covered: true
+  formal_or_advisory_abc_assigned: false
+  parels_activated: false
+  final_route_or_base_selected: false
+  mayavati_geo_corrected: true
+  transient_partial_commits:
+    - 25e410a1af2f5e832e5ba548701f95f88bacce01
+    - 91c1c1f7f9a7e7e8eb1403c10e33cbe4ade02085
+  transient_partial_commits_repaired_by_events: [EVT-0008, EVT-0011]
+  claim_git_order_validated: true
+  non_monotonic_claim_timestamp_documented_by_event: EVT-0009
+  worker_claim_closed_in_completion_commit: true
+open_blockers:
+  - Exact identity, access and GEO remain open for K. K. Sah house, Bodh Ashram and the Vivekananda cave.
+  - Complete ten-function image and systematic recent-review coverage remains absent.
+  - Live December 2026 rail, winter-road, trail, taxi and travel-time conditions remain time-sensitive.
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1464 path=research/active/KUMAON-COMPLETE-001/ZILVER/report/01_verified_candidate_map.md blob_sha=ac51eb75c3a03bad0c8b0208a7f82d1f086beadd original_offset=0 original_length=1853 payload_bytes=1853 chunk_index=0 chunk_count=1 classification=text
+# 01 — Geverifieerde kandidatenkaart
+
+## Uitkomst
+
+ZILVER behoudt alle 47 BRONS-records en alle permanente LOCATION_ID's. De formele set blijft exact 16 A, 1 B en 4 C. Twaalf spirituele of historische objecten blijven `NOG_DOOR_MARK_TE_BEOORDELEN`; negen basisgebieden, vier stations/routeknooppunten en één contextrecord blijven afzonderlijke niet-formele lagen.
+
+## Dragende bevestigingen
+
+- Dwarahat/Dunagiri: YSS bevestigt Babaji Cave, Babaji Smriti Bhavan, Dunagiri en het Dwarahat-ashram als afzonderlijke fysieke objecten met een actuele pelgrimsfunctie.
+- Kainchi/Nainital: Kainchi Dham, Bhumiyadhar, Hanuman Garhi en Kakrighat blijven institutioneel herkenbare Neem Karoli Baba-locaties. K. K. Sah's huis is lineage-relevant, maar exact adres en openbare toegang blijven niet vastgesteld.
+- Almora/Vivekananda: Ramakrishna Kutir bevestigt het historische circuit met Kakrighat, Lala Badri Shah House, Karbala/Vivekananda Shila, Thompson House en Sri Raghunath Temple.
+- Anandamayi: Patal Devi is institutioneel bevestigd; Dhaulchina is een afgelegen hermitage met expliciete bezoekbeperkingen.
+- Haidakhan: Vishwa Mahadham en Anandapuri zijn twee afzonderlijke actieve Haidakhandi-ashrams. Haidakhan Baba wordt niet als Mahavatar Babaji geïdentificeerd.
+- Outer Kumaon: Mayavati heeft een directe historische Vivekananda-relatie. Shyamla Tal is een actuele Ramakrishna-instelling zonder claim van persoonlijk bezoek door Vivekananda.
+
+## Open fysieke objecten
+
+K. K. Sah house, Bodh Ashram en de exacte Vivekananda-grot blijven zichtbaar maar worden niet als betrouwbaar publiek bezoekpunt gepresenteerd. De formele A-status van Bodh Ashram wordt uitsluitend behouden als besluit van Mark; zij bewijst geen actuele institutionele identiteit of bezoekbaarheid.
+
+Geen formele of adviserende A/B/C is toegekend of gewijzigd.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1465 path=research/active/KUMAON-COMPLETE-001/ZILVER/report/02_access_experience_and_visuals.md blob_sha=2e2e9cfcd13dd31ac2cfaf81cb3a0bc3421be694 original_offset=0 original_length=2604 payload_bytes=2604 chunk_index=0 chunk_count=1 classification=text
+# 02 — Toegang, ervaring en visuele dekking
+
+## Plaatsspecifieke toegang
+
+De generieke BRONS-toegangstabel is vervangen door plaats-specifieke statusinformatie waar officiële bronnen dat toelaten.
+
+- YSS Dwarahat: huidige bezoekuren en publieke groepsmeditatie zijn bevestigd. Overnachting is geen algemene toeristische logiesfunctie en is beperkt tot daarvoor in aanmerking komende YSS/SRF-lesstudenten na aanvraag.
+- Babaji Cave: ongeveer een uur steile klim vanaf de Kukuchina-benadering; een ashram–grot–retour vraagt een groot dagdeel. Weer, daglicht en trailconditie blijven praktische controles.
+- Kainchi Dham: openbare pelgrimsplek; 15 juni is een uitzonderlijke piekdag. Dagactuele opening, fotografie en verkeersmaatregelen blijven te controleren.
+- Ramakrishna Kutir en het Almora-circuit: instelling en historische locaties zijn bevestigd; huis- en interieurtoegang blijft plaats- en toestemmingsgebonden.
+- Dhaulchina: directe voorafgaande afstemming vereist. Officiële Sangha-informatie beschrijft een strenge hermitagecontext en beperkingen voor Westerse bezoekers en vrouwen die alleen willen verblijven.
+- Haidakhandi-ashrams: verblijf alleen na reservering en directe bevestiging.
+- Mayavati: geen sightseeingverblijf. Vooraf bevestigde reservering, 2026-gastseizoenen, normaal twee tot drie nachten en leeftijd/gezondheidsvoorwaarden gelden.
+- Shyamla Tal: aanvraag vooraf; minimaal twee en maximaal zeven nachten volgens de actuele instelling.
+- K. K. Sah house, Bodh Ashram en de exacte Vivekananda-grot: actuele bezoekbaarheid niet betrouwbaar vastgesteld.
+
+Waar toegang niet betrouwbaar is vastgesteld geldt: `Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.` Voor Bodh Ashram en de exacte grot blijft zelfs de micro-identiteit open.
+
+## Ervarings- en reviewlaag
+
+Voor de meeste locaties bestaat geen systematische actuele reviewanalyse met betrouwbare aantallen, dagdeelverschillen en devotee-versus-toeristenscheiding. Mayavati heeft een beperkte recente aggregatie die terugkerende rust, strikte regels en afgelegen ligging ondersteunt. Turiya Niwas heeft een kleine actuele logiesbasis. Deze beperkte bronnen dragen geen historische kernclaims.
+
+## Visuele laag
+
+Per kandidaat is één representatieve identiteits- of totaalbeeldlead geregistreerd. Geen kandidaat haalt het vereiste tien-functionele-beeldenquotum. Het tekort blijft expliciet: toegang, heilig middelpunt, devotees, zitmogelijkheid, normale drukte, piekdrukte, omgeving/commercie, onderhoud en dagdeelsfeer zijn niet voor iedere plek afzonderlijk afgedekt.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1466 path=research/active/KUMAON-COMPLETE-001/ZILVER/report/03_geo_connections_and_map.md blob_sha=a3ce271d51d167b8aa9b769af23f3af2ae542ddb original_offset=0 original_length=1571 payload_bytes=1571 chunk_index=0 chunk_count=1 classification=text
+# 03 — GEO, verbindingen en kaart
+
+## LOCATION_ID en GEO
+
+Alle bestaande 308–310 en 400–426 blijven ongewijzigd. De door BRONS uitgegeven 427–443 blijven permanent, uniek en blokzuiver.
+
+De belangrijkste correctie betreft Advaita Ashrama Mayavati. Het BRONS-punt lag materieel te ver oostelijk; ZILVER gebruikt ongeveer `29.37417, 80.06333` als WORKING-complexpunt bij Mayavati/Lohaghat. Dit is geen geverifieerde bezoekersingang.
+
+Shyamla Tal blijft op ongeveer `29.1595, 80.1218` als breed WORKING-punt met 500–1000 meter onzekerheid. K. K. Sah house, Bodh Ashram en de exacte Vivekananda-grot blijven contextueel kaartbaar, maar zonder betrouwbare microtopografische precisie.
+
+## Verbindingen
+
+De 32 verbindingen vormen een meetbare onderlaag voor `KUMAON-ROUTE-OPTIMIZATION-001`. Ze onderscheiden de voetheuvelstations, het Almora/Vivekananda-circuit, Dwarahat/Dunagiri/Kukuchina, Haidakhan/Chiliyanaula en Mayavati/Shyamla Tal.
+
+Alle tijdsklassen blijven WORKING. Winterweer, verkeersdruk, wegschade, trailconditie en exacte vertrekpunten kunnen de werkelijke tijden materieel wijzigen. ZILVER kiest geen routevolgorde.
+
+## Zevenlaagse KML
+
+`KUMAON_ZILVER_WORKING.kml` bevat exact 47 placemarks in `A_FORMEEL` (16), `B_FORMEEL` (1), `C_FORMEEL` (4), `NOG_DOOR_MARK_TE_BEOORDELEN` (12), `CONTEXT_OF_AFGEVALLEN` (1), `STATIONS_EN_ROUTEKNOOPPUNTEN` (4) en `MOGELIJKE_BASES_EN_OVERNACHTING` (9).
+
+Iedere marker toont LOCATION_ID, laag, GEO-status, puntsoort en nauwkeurigheid. Een niet-formele kaartlaag is geen impliciete A/B/C-beoordeling.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1467 path=research/active/KUMAON-COMPLETE-001/ZILVER/report/04_conclusion_and_gate.md blob_sha=a91b82164ca7d0bd9c228e35aa98bfa752b13dd2 original_offset=0 original_length=1511 payload_bytes=1511 chunk_index=0 chunk_count=1 classification=text
+# 04 — Conclusie en quality gate
+
+## Resultaat
+
+`PARTIAL`
+
+De kandidaat-, status-, lineage-, institutionele, GEO-, basis-, station-, verbindingen- en KML-laag is voldoende coherent voor een finale GOUD-controle zonder nieuwe brede geografische sweep. De volledige set van 47 records blijft behouden.
+
+## Materiële ZILVER-correcties
+
+1. Mayavati is geografisch gecorrigeerd naar het Mayavati/Lohaghat-complexgebied.
+2. De generieke toegangstabel is vervangen door officiële, plaats-specifieke voorwaarden waar beschikbaar.
+3. Bodh Ashram, K. K. Sah house en de exacte Vivekananda-grot zijn niet kunstmatig als betrouwbaar openbaar bezoekpunt bevestigd.
+4. Mayavati, Shyamla Tal, Dhaulchina, YSS Dwarahat en de Haidakhandi-ashrams hebben expliciete reserverings- of toelatingsvoorwaarden.
+5. De beperkte review- en beeldbasis blijft zichtbaar als tekort en wordt niet als volledige ervaringsaudit gepresenteerd.
+
+## Open voor GOUD
+
+- verliescontrole van alle 47 records, 77 claims, bronregisters, zeven KML-lagen en formele statusdekking;
+- gemotiveerde steekproef van lage-risico-GEO en volledige controle van de drie open micro-sites;
+- finale beoordeling of de meetbare onderlaag voldoende is voor `KUMAON-ROUTE-OPTIMIZATION-001`;
+- actuele december 2026 trein-, winterweg-, trail-, taxi- en toegangsinformatie blijft een latere praktische hercontrole.
+
+Geen formele of adviserende A/B/C, hotel, basis, station, eerste bezoek, interne route, laatste locatie of uitreisrichting is gekozen.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1468 path=research/active/KUMAON-COMPLETE-001/ZILVER/report/INDEX.md blob_sha=d16a0a3b01d23e1545597d43b069b845c770cb1e original_offset=0 original_length=420 payload_bytes=420 chunk_index=0 chunk_count=1 classification=text
+# ZILVER report index — KUMAON-COMPLETE-001
+
+Leesvolgorde:
+1. `01_verified_candidate_map.md`
+2. `02_access_experience_and_visuals.md`
+3. `03_geo_connections_and_map.md`
+4. `04_conclusion_and_gate.md`
+
+Ondersteunende registers staan in de ZILVER-hoofdmap. Geen rapport kiest een definitieve basis, aankomststation, eerste bezoeklocatie, interne route, laatste Kumaon-locatie, hotel of uitreisrichting.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1469 path=research/active/KUMAON-COMPLETE-001/context/GOUD_CONTEXT.yaml blob_sha=3c6f6ba33f328097edd53fbefe705f7e6cea626b original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=5 classification=text
+schema_version: 3
+run_id: KUMAON-COMPLETE-001
+role: GOUD
+status: READY
+source_commit: 55fc0924b29ac3e006efc8b5c5f095a561b41b56
+context_profile: GOUD_MIN
+protocol_versions: {pipeline: 3.1.1, methodology: 3.0.0, execution_protocol: 2.3.1, controller_transition_protocol: 2.3.1, role_handoff_protocol: '1.1'}
+required_files:
+  - {path: 'pipeline/ENTRYPOINT.md', reason: 'single executable entrypoint', task: 'obey startup, claim, completion and MARK_FINAL_REPORT rules', expected_git_blob_sha: '2cb50f0e6307bded90da1bb7418e103791c96dd4'}
+  - {path: 'pipeline/roles/GOUD.md', reason: 'GOUD synthesis and direct-to-Mark contract', task: 'finalize the validated ZILVER dossier without new formal or advisory A/B/C', expected_git_blob_sha: '62e7f34f896bd5850be0b654d6a3543170753f67'}
+  - {path: 'knowledge/methodology/METHODOLOGY_V2.md', reason: 'physical-place and devotional methodology', task: 'apply separate confirmation domains, participation, experience and completeness rules', expected_git_blob_sha: 'cba69457b46f26f60a4775a848f9fc4bf01000ff'}
+  - {path: 'pipeline/protocols/EVIDENCE_PROTOCOL.md', reason: 'atomic claim and source integrity rules', task: 'validate every final claim and source reference', expected_git_blob_sha: '5d853e6dae868495782363d0864f641fa2747186'}
+  - {path: 'pipeline/QUALITY_GATE.md', reason: 'technical and substantive release gate', task: 'apply the final PASS, PARTIAL or BLOCKED gate', expected_git_blob_sha: '8c9d39ed09e8992d785baf15d727a920ccdbb0c0'}
+  - {path: 'pipeline/protocols/EXECUTION_PROTOCOL.md', reason: 'claim, artifact, canonical integration and completion lifecycle', task: 'claim GOUD, write complete outputs, apply only allowed deterministic integration and close the workerclaim', expected_git_blob_sha: 'f384e45c824ea4c10194dbf476b30b61312a0ed2'}
+  - {path: 'pipeline/protocols/LONG_RUNNING_EXECUTION_PROTOCOL.md', reason: 'controlled checkpoint rules', task: 'checkpoint before session exhaustion and never repeat validated blocks', expected_git_blob_sha: '0640c6af87df2ed94155fa5b04b377c2e729161a'}
+  - {path: 'pipeline/protocols/CONTEXT_PROTOCOL.md', reason: 'deterministic context boundary', task: 'read only this manifest and explicitly triggered optional files', expected_git_blob_sha: '872bce45f01e276d76dc65479c09e71dc72a15de'}
+  - {path: 'pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md', reason: 'transition integrity reference', task: 'verify the predecessor transition and closed controllerclaim in the final technical audit', expected_git_blob_sha: '0c52ebc9a2be47583e08619c6422efad582619b3'}
+  - {path: 'pipeline/protocols/SELF_ROUTING_PROTOCOL.md', reason: 'direct GOUD-to-Mark routing', task: 'route a valid PASS or PARTIAL directly to Mark', expected_git_blob_sha: 'b6b7f07bd7f6c946ba35776124f8fa6e6ced564c'}
+  - {path: 'pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md', reason: 'worker and direct-delivery boundaries', task: 'validate the ZILVER-to-GOUD handoff and GOUD direct delivery', expected_git_blob_sha: 'f4663ed3049f5d5586fcf6fc98d8c64a292b1998'}
+  - {path: 'pipeline/protocols/GEO_LOCATION_PROTOCOL.md', reason: 'permanent LOCATION_ID and GEO integrity', task: 'produce final geo_locations and geo_connections without guessed precision', expected_git_blob_sha: '149c0515010930ec9306a6d68f5beb2a7b3bbe91'}
+  - {path: 'pipeline/CONTEXT_PROFILES.yaml', reason: 'GOUD_MIN reopening policy', task: 'reopen all open, corrected high-risk and decision-bearing layers', expected_git_blob_sha: '4526bb1fe5e3605d63af45d81f8efb152bef1863'}
+  - {path: 'pipeline/templates/MARK_FINAL_REPORT_TEMPLATE.md', reason: 'mandatory direct-to-Mark report schema', task: 'write the complete final report and reproduce it in chat', expected_git_blob_sha: 'b8d929b4d04c6bfc82e9a3f6cfd4abd3697b2bcc'}
+  - {path: 'pipeline/templates/CANONICAL_INTEGRATION_PROPOSAL_TEMPLATE.md', reason: 'mandatory pre-write canonical proposal', task: 'propose and constrain deterministic non-decisional integration', expected_git_blob_sha: '3f48cf5f69f9aa2792881254c93ad803b16f3a5b'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/run.yaml', reason: 'immutabl
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1470 path=research/active/KUMAON-COMPLETE-001/context/GOUD_CONTEXT.yaml blob_sha=3c6f6ba33f328097edd53fbefe705f7e6cea626b original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=5 classification=text
+e run identity and pins', task: 'preserve CLUSTER_SWEEP scope, no-route boundary, KML requirement and canonical mode', expected_git_blob_sha: 'cc26ba82a8d4fafee228bb7aac5f56d7378880f9'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/scope.md', reason: 'complete Kumaon synthesis scope', task: 'answer the central question and deliver route-optimization readiness without choosing the route', expected_git_blob_sha: 'bd03682b3169d04a98ec5812e3e5b4925422867b'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/state.yaml', reason: 'transition-generated READY_FOR_GOUD control state', task: 'require READY_FOR_GOUD, no ACTIVE claim and closed ZILVER controllerclaim before claiming', expected_git_blob_sha: '2250718e37b9a22f332bbd95177b9834f2b47b73'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/events.jsonl', reason: 'transition-generated append-only run cursor', task: 'require EVT-0015 and synchronization with READY_FOR_GOUD', expected_git_blob_sha: '09d32d072ea0cb68753dd021a2c544314726ea9c'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/formal_status_snapshot.yaml', reason: 'immutable 16 A, 1 B and 4 C snapshot', task: 'preserve every formal status exactly', expected_git_blob_sha: '8681d0776d1acd4a5847637cfb3401a5af1ccfdd'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/decision_snapshot.yaml', reason: 'Mark authority and run directives', task: 'apply no-new-decision, KML, WORKING_GEO and no-route rules', expected_git_blob_sha: '057aee6221364a126a960a1ee4b177e418da9c94'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/location_id_plan.yaml', reason: 'permanent 400-499 allocation plan', task: 'verify all inherited and new assignments without reuse or renumbering', expected_git_blob_sha: '241377bb76f6c1a70100ad614ddc924fd9c27f53'}
+  - {path: 'knowledge/places/registry.jsonl', reason: 'canonical place registry and allowed integration target', task: 'prepare deterministic record integration without creating status decisions', expected_git_blob_sha: '3aa17754af90f45dd5a122a14b2fb98f1f87a485'}
+  - {path: 'decisions/INDEX.yaml', reason: 'canonical decision index and allowed integration target', task: 'link only existing decision IDs and create no new decision', expected_git_blob_sha: '2ce46e9b7328da8ab4a5301b81a707777d967466'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/manifest.yaml', reason: 'authoritative ZILVER inventory and hashes', task: 'validate all predecessor counts, files, repairs and completion assertions', expected_git_blob_sha: '3b68eb78f12b884434bca0d543c6d12375c6bb72'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/handoff.yaml', reason: 'risk-based ZILVER-to-GOUD handoff', task: 'reopen every OPEN and high-risk CORRECTED layer', expected_git_blob_sha: '730f652840bf49c8fe7407a4fc486196fe45a51a'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/COMPLETED', reason: 'ZILVER completion sentinel', task: 'verify PARTIAL status, complete output list and repaired atomic completion', expected_git_blob_sha: 'af4f4617216ea1c3472ade4fa3f0e23a3d4700cb'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/report/INDEX.md', reason: 'mandatory ZILVER report order', task: 'open all four report parts through explicit optional triggers', expected_git_blob_sha: 'd16a0a3b01d23e1545597d43b069b845c770cb1e'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/claims.jsonl', reason: 'seventy-seven atomic ZILVER claims', task: 'validate all final load-bearing, corrected and open claims', expected_git_blob_sha: '910f2807247c5547bcf1fc9fc063217a0adb8e2b'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/sources/registry.jsonl', reason: 'accepted ZILVER source register', task: 'validate all material accepted sources and suitable domains', expected_git_blob_sha: '1d94e01394ddf2d805d37b2f03a4620149c5dfc4'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/sources/rejected.jsonl', reason: 'rejected ZILVER source register', task: 'validate unique rejected-source resolution and exclusions', expected_git_blob_sha: 'baacf28eec16da41d17f3679f167ba8a54754a0a'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVE
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1471 path=research/active/KUMAON-COMPLETE-001/context/GOUD_CONTEXT.yaml blob_sha=3c6f6ba33f328097edd53fbefe705f7e6cea626b original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=5 classification=text
+R/candidates.jsonl', reason: 'complete forty-seven-candidate register', task: 'preserve every candidate, status layer, alias and physical identity', expected_git_blob_sha: '28ec04c9cea0a0b5cc07757909a76b93b6ea402e'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/working_geo.jsonl', reason: 'corrected forty-seven-record WORKING_GEO register', task: 'produce final GEO records and retain honest micro-site uncertainty', expected_git_blob_sha: '4a2765d86e77b1c660cdfa00a6e60bc07967c143'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/practical_access.jsonl', reason: 'place-specific access and participation layer', task: 'finalize practical checks without weakening confirmed spiritual meaning', expected_git_blob_sha: '1c99a22cae17d69173802369f988f7bd27c7f10b'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/KUMAON_ZILVER_WORKING.kml', reason: 'validated seven-layer predecessor KML', task: 'deliver the final run-local KUMAON_COMPLETE.kml after GEO and marker validation', expected_git_blob_sha: 'd1cb312ec9329853e2c290a2e447256cfbc1aa78'}
+optional_files:
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/report/01_verified_candidate_map.md', trigger: 'always after report/INDEX.md', reason: 'candidate and confirmation narrative', task: 'verify preservation and final candidate meaning', expected_git_blob_sha: 'ac51eb75c3a03bad0c8b0208a7f82d1f086beadd'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/report/02_access_experience_and_visuals.md', trigger: 'always; experience, images and access remain open or high-risk', reason: 'access and experience narrative', task: 'retain shortages and finalize concrete controls', expected_git_blob_sha: '2e2e9cfcd13dd31ac2cfaf81cb3a0bc3421be694'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/report/03_geo_connections_and_map.md', trigger: 'always; GEO and proximity are corrected high-risk layers', reason: 'GEO and connections narrative', task: 'validate route-optimization input without selecting a route', expected_git_blob_sha: 'a3ce271d51d167b8aa9b769af23f3af2ae542ddb'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/report/04_conclusion_and_gate.md', trigger: 'always; predecessor status is PARTIAL', reason: 'ZILVER conclusion and gate', task: 'test whether final GOUD status can be PASS or remains PARTIAL', expected_git_blob_sha: 'a91b82164ca7d0bd9c228e35aa98bfa752b13dd2'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/location_assignments.jsonl', trigger: 'always; permanent ID loss-control is required', reason: 'seventeen assignments 427-443', task: 'verify sequence, uniqueness and permanence', expected_git_blob_sha: '5f015b21775e904ed9dcf9ed4fd958b275430227'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/detector_checks.jsonl', trigger: 'always; cluster completeness must be finalized', reason: 'nine verified detector records', task: 'verify no required physical detector was lost', expected_git_blob_sha: 'ca7dc8d856e6db8963c7556a20a8a96b5b17417a'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/negative_searches.jsonl', trigger: 'always; negative conclusions remain bounded evidence', reason: 'eight negative-search records', task: 'retain absence wording without converting it to proof', expected_git_blob_sha: '515578066c15050f6481ae490c795733d78085f8'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/base_comparison.jsonl', trigger: 'always; factual base readiness is in scope', reason: 'nine base records without winner', task: 'validate comparable facts and preserve no-choice boundary', expected_git_blob_sha: '6bf244c28f02611ba033f338d62903537b843e2e'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/station_and_route_nodes.jsonl', trigger: 'always; station readiness is in scope', reason: 'four station and route-node records', task: 'verify identity and time-sensitive December checks', expected_git_blob_sha: '169bd9376c4fce754cb8387987d5e629f7af7d00'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/proximity.jsonl', trigger: 'always; proximity is high-risk CORRECTED', reason: 'thirty-two working connection
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1472 path=research/active/KUMAON-COMPLETE-001/context/GOUD_CONTEXT.yaml blob_sha=3c6f6ba33f328097edd53fbefe705f7e6cea626b original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=5 classification=text
+s', task: 'produce final geo_connections with honest time classes', expected_git_blob_sha: 'f75dc0782077d0c455e6203ee5d77e88924fba7b'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/map_source.jsonl', trigger: 'always; final KML and map integrity are mandatory', reason: 'central forty-seven-record map source', task: 'verify one-to-one layer and candidate coverage', expected_git_blob_sha: '548be6a5a902192b0325888ff342af933fdd205d'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/images.jsonl', trigger: 'always; image layer remains high-risk OPEN', reason: 'explicit image leads and shortages', task: 'preserve honest ten-function shortages in final report', expected_git_blob_sha: '780822e2341a51fc81531d8676d5e470c6959266'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/experience_reviews.jsonl', trigger: 'always; experience layer remains high-risk OPEN', reason: 'experience and review register', task: 'retain limited review themes and explicit shortages', expected_git_blob_sha: 'd45ae50061e0dcb680a3af8fe2f8acda0761a4e0'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/formal_status_coverage.md', trigger: 'always; immutable status loss-control', reason: 'formal status coverage', task: 'confirm 16 A, 1 B and 4 C remain unchanged', expected_git_blob_sha: 'd11dfd0188e0f0d1739289635139fe2291d2fdcf'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/completeness_matrix.md', trigger: 'always; final readiness decision required', reason: 'ZILVER completeness matrix', task: 'resolve or retain each PARTIAL layer', expected_git_blob_sha: '513e60109c0d1981c75b8f85a79f98c833327d95'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/ZILVER/audit.md', trigger: 'always; predecessor repairs and technical assertions require final validation', reason: 'ZILVER technical audit', task: 'validate repaired completion, counts and forbidden actions', expected_git_blob_sha: '886ad74e8874bcd0dfcf3ff8235870c188ae85fb'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/BRONS/manifest.yaml', trigger: 'always for loss-control because ZILVER corrected GEO and access layers', reason: 'authoritative BRONS inventory', task: 'verify no predecessor artifact class was lost', expected_git_blob_sha: '32872e83bc5b0444872c4df9fb2879bce4d494a4'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/BRONS/handoff.yaml', trigger: 'always for original-open-layer comparison', reason: 'BRONS risk handoff', task: 'confirm GOUD addresses or explicitly retains every original high-risk gap', expected_git_blob_sha: '1dd7273abe149dbc0ed8d21aada9ae4ad3c75efb'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/BRONS/candidates.jsonl', trigger: 'always for candidate loss-control after ZILVER corrections', reason: 'BRONS candidate baseline', task: 'verify all forty-seven records survive', expected_git_blob_sha: 'af30c871b822591f80c88338b77e8f1f96345203'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/BRONS/working_geo.jsonl', trigger: 'always for corrected GEO comparison', reason: 'BRONS GEO baseline', task: 'trace Mayavati and every other point correction', expected_git_blob_sha: 'ed0fdea3398cc01a261dd6e0ffb5c0d47a8cbf3b'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/BRONS/map_source.jsonl', trigger: 'always for map loss-control', reason: 'BRONS map baseline', task: 'verify layer and marker preservation', expected_git_blob_sha: '162568cc6608ee3108f5034f0735e56e53f56af3'}
+  - {path: 'research/active/KUMAON-COMPLETE-001/BRONS/KUMAON_BRONS_WORKING.kml', trigger: 'always for KML loss-control', reason: 'BRONS seven-layer KML baseline', task: 'verify the final KML preserves all valid markers and corrections', expected_git_blob_sha: '2a0e1f77a4591940ff61b28585f802a172ce24f5'}
+forbidden_files:
+  - 'research/completed/**'
+  - 'research/active/KUMAON-ROUTE-OPTIMIZATION-001/**'
+  - 'research/active/VRINDAVAN-KUMAON-CORRIDOR-001/** except compact predecessor files already incorporated in this run'
+  - 'pipeline/**/PARELS/**'
+  - 'every repository file not listed in required_files or activated by an explicit optional_files trigger'
+priority_order:
+  - research/active/
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1473 path=research/active/KUMAON-COMPLETE-001/context/GOUD_CONTEXT.yaml blob_sha=3c6f6ba33f328097edd53fbefe705f7e6cea626b original_offset=16384 original_length=1663 payload_bytes=1663 chunk_index=4 chunk_count=5 classification=text
+KUMAON-COMPLETE-001/run.yaml
+  - research/active/KUMAON-COMPLETE-001/state.yaml
+  - research/active/KUMAON-COMPLETE-001/events.jsonl
+  - research/active/KUMAON-COMPLETE-001/scope.md
+  - research/active/KUMAON-COMPLETE-001/ZILVER/manifest.yaml
+  - research/active/KUMAON-COMPLETE-001/ZILVER/handoff.yaml
+  - research/active/KUMAON-COMPLETE-001/ZILVER/COMPLETED
+  - research/active/KUMAON-COMPLETE-001/ZILVER/report/INDEX.md
+  - research/active/KUMAON-COMPLETE-001/ZILVER/claims.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/sources/registry.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/sources/rejected.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/candidates.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/working_geo.jsonl
+  - research/active/KUMAON-COMPLETE-001/ZILVER/KUMAON_ZILVER_WORKING.kml
+maximum_context_budget: {required_files: 35, optional_files_maximum_when_triggered: 22, lines_per_file: 1500}
+predecessor_manifest: research/active/KUMAON-COMPLETE-001/ZILVER/manifest.yaml
+output_path: research/active/KUMAON-COMPLETE-001/GOUD/
+completion_destination: VOOR_MARK
+post_completion:
+  mode: MARK_FINAL_REPORT
+  target_role: MARK
+  emit_next_role_handoff: false
+  report_template: pipeline/templates/MARK_FINAL_REPORT_TEMPLATE.md
+  canonical_integration:
+    mode: DETERMINISTIC_NON_DECISIONAL
+    proposal_template: pipeline/templates/CANONICAL_INTEGRATION_PROPOSAL_TEMPLATE.md
+    allowed_registry_path: knowledge/places/registry.jsonl
+    allowed_decisions_index_path: decisions/INDEX.yaml
+    forbid_new_or_changed_abc: true
+    forbid_new_decision_id: true
+    require_mark_decision_on_content_choice: true
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+

@@ -1,0 +1,540 @@
+>>> CHUNK stream_row=1659 path=research/active/VARANASI-COMPLETE-001/scope.md blob_sha=6a53e3288a9c765feb8c0481ebbb9aa7b3100af5 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# Scope — VARANASI-COMPLETE-001
+
+## Centrale opdracht
+Voer één volledige, brede Varanasi/Kashi-clustersweep uit en lever tegelijkertijd één complete, eenvoudig te onderhouden India-KML met alle formele A- en B-locaties die op het moment van de GOUD-release in de repository gelden.
+
+## Geografische begrenzing
+Onderzoek Varanasi/Kashi inclusief de stedelijke ghats, relevante historische woonhuizen, samadhi's, ashrams, tempels, lineageplaatsen en Sarnath wanneer die inhoudelijk tot het bezoekcluster behoort. Plaatsen buiten deze functionele Varanasi-corridor worden alleen als detector of vergelijking genoemd en niet als nieuwe clustersweep onderzocht.
+
+## Bestaande formele A-ankers in Varanasi
+- Lahiri Mahasaya Samadhi
+- Lahiri-huis
+- Manikarnika Ghat
+- Trailanga Swami-samadhi
+- Anandamayi Ma Ashram
+- Sarnath
+- Kashi Vishwanath
+
+Deze formele A-statussen worden niet heropend of herwaardeerd. Alleen Mark wijzigt formele status.
+
+## Verplichte detectoren
+- Lahiri Mahasaya en Kriya Yoga-lineages;
+- Sri Yukteswar, Yogananda en AOAY-claims met dubbele verificatie waar toepasselijk;
+- Trailanga Swami;
+- Anandamayi Ma;
+- Ramakrishna/Vivekananda-context;
+- Kabir en relevante fysiek aanwijsbare plaatsen;
+- Shiva-, Shakti-, crematie- en ghattradities;
+- Sarnath en boeddhistische fysieke plaatsen;
+- Babaji-claims uitsluitend met correcte claimclassificatie;
+- lokaal vereerde, fysiek bestaande plekken die door standaard toeristische lijsten worden gemist.
+
+## Verplichte inhoud per kandidaat
+Bevestig afzonderlijk:
+1. fysieke identiteit en ligging;
+2. historische, spirituele, lineage- of traditierelatie;
+3. waarom devotees gaan;
+4. wat bezoekers er werkelijk doen;
+5. of Mark respectvol kan deelnemen;
+6. actuele bezoekbaarheid;
+7. representatieve beelden en recente beleving;
+8. nabijheid tot A-ankers en bruikbare loopclusters;
+9. claimklasse, bronautoriteit en tegenstrijdigheden.
+
+Wanneer actuele bezoekbaarheid niet betrouwbaar is vastgesteld, schrijf exact:
+`Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.`
+
+## Parallelle masterkaartopdracht
+Inventariseer alle formele A's uit `LOCKED_A.md`, alle formele B's uit `LOCKED_B.md`, relevante geldige decisions en canonieke plaatsrecords. Herwaardeer niets.
+
+Iedere formele A/B krijgt een record in:
+`research/active/VARANASI-COMPLETE-001/shared/MASTER_A_B_GEO_REGISTRY.jsonl`
+
+Minimaal schema per record:
+- location_id;
+- canonical_name;
+- display_name_nl;
+- marker_name;
+- cluster;
+- formal_status;
+- latitude;
+- longitude;
+- geo_status;
+- geo_source_type;
+- geo_source_reference;
+- accuracy_class;
+- exactness_note;
+- last_checked_at;
+- source_run;
+- recognition_hook;
+- open_geo_question;
+- active.
+
+## Snelle GEO-regel
+Gebruik bij voorkeur de herkenbare Google Maps-pin van de bedoelde plek. Is die niet betrouwbaar beschikbaar, gebruik dan het centrum van het terrein, een bevestigd adrespunt of een representatief lokaal werkpunt. Circa 100 meter afwijking is aanvaardbaar. Bereken niet kunstmatig de exacte afwijking. Zet onzekerheid zichtbaar in het register en in de markerbeschrijving.
+
+Toegestane `geo_status`:
+- VERIFIED_EXACT;
+- VERIFIED_SITE_CENTRE;
+- WORKING_GOOGLE_MAPS_PIN;
+- WORKING_ADDRESS_POINT;
+- APPROXIMATE_LOCAL_POINT;
+- MISSING.
+
+`MISSING` is alleen toegestaan wanneer zelfs geen verantwoord plaatselijk werkpunt kan worden vastgesteld. Het ontbreken van deur- of ingangprecisie blokkeert geen marker.
+
+## KML-contract
+Lever in GOUD:
+`research/active/VARANASI-COMPLETE-001/GOUD/INDIA_ALL_FORMAL_A_B_WORKING.kml`
+
+De KML bevat exact twee hoofdlagen:
+- `A_FORMEEL` — groen;
+- `B_FORMEEL` — oranje.
+
+Geen C's, treinhaltes, bases, routes of categorie-logo's in deze release. Gebruik eenvoudige uniforme pins. Markernaam is direct leesbaar. Wanneer de naam voornamelijk Indiaas is, voeg tussen haakjes een korte Nederlandse functie toe, bijvoorbeeld `Kashi Vishwanath (Shiva-tempel)`.
+
+Iedere markerbeschrijving bevat minimaal LOCATION_ID indien beschikbaar, cluster, formele status, GEO-status, nauwkeurigheidsklasse, recognition hook, bronrun en open GEO-vraag.
+
+## Beheer
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1660 path=research/active/VARANASI-COMPLETE-001/scope.md blob_sha=6a53e3288a9c765feb8c0481ebbb9aa7b3100af5 original_offset=4096 original_length=1513 payload_bytes=1513 chunk_index=1 chunk_count=2 classification=text
+baarheid
+De JSONL-registry is de gegevensbron; de KML is een gegenereerd product. Latere correcties van naam, coördinaat, GEO-status of statusbesluit worden eerst in het register toegepast en daarna deterministisch naar KML geëxporteerd. Geen handmatige KML-only correcties.
+
+## Verplichte eindcontroles
+- aantal formele A in geldige statusbronnen = actieve A-records in registry = A-placemarks in KML;
+- aantal formele B in geldige statusbronnen = actieve B-records in registry = B-placemarks in KML;
+- geen dubbel LOCATION_ID;
+- geen dubbele fysieke plek onder verschillende aliassen zonder expliciete aliasrelatie;
+- iedere marker heeft coördinaten en GEO-status;
+- alle eerdere BRONS/ZILVER/GOUD-output blijft ongewijzigd;
+- nieuwe Varanasi-statusvoorstellen zijn adviserend totdat Mark beslist.
+
+## Verboden
+- oude BRONS-output overschrijven of verwijderen;
+- de geparkeerde Kumaon-routeoptimalisatierun wijzigen;
+- bestaande formele A/B/C-statussen veranderen;
+- C-locaties aan deze KML toevoegen;
+- busadvies, boekingen, hotelkeuze of volledige routeoptimalisatie uitvoeren;
+- precisieonderzoek zonder materiële kaartwaarde laten uitgroeien tot blocker.
+
+## Clustercompleetheid
+De run is inhoudelijk compleet wanneer de verplichte detectoren aantoonbaar zijn uitgevoerd, iedere opgenomen kandidaat de fysieke- en bezoekbaarheidspoort heeft doorlopen, gemiste zware kandidaten systematisch zijn gecontroleerd en alle formele A/B-locaties repositorybreed in registry en KML zijn gedekt.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1661 path=research/active/VARANASI-COMPLETE-001/shared/GEO_REGISTRY_SCHEMA.md blob_sha=964c716769997c64772795c90515e62391cdbc48 original_offset=0 original_length=1227 payload_bytes=1227 chunk_index=0 chunk_count=1 classification=text
+# MASTER A/B GEO registry schema
+
+The canonical editable source for the run is `MASTER_A_B_GEO_REGISTRY.jsonl`. One JSON object per physical location.
+
+Required keys:
+`location_id`, `canonical_name`, `display_name_nl`, `marker_name`, `cluster`, `formal_status`, `latitude`, `longitude`, `geo_status`, `geo_source_type`, `geo_source_reference`, `accuracy_class`, `exactness_note`, `last_checked_at`, `source_run`, `recognition_hook`, `open_geo_question`, `active`.
+
+Allowed formal status: `A_FORMEEL`, `B_FORMEEL`.
+Allowed geo status: `VERIFIED_EXACT`, `VERIFIED_SITE_CENTRE`, `WORKING_GOOGLE_MAPS_PIN`, `WORKING_ADDRESS_POINT`, `APPROXIMATE_LOCAL_POINT`, `MISSING`.
+Allowed accuracy class: `0_25_M`, `25_100_M`, `100_500_M`, `SITE_LEVEL`, `LOCALITY_LEVEL`, `UNKNOWN`.
+
+Editing rule: update the registry first, validate uniqueness and coverage, then regenerate the KML. Never edit only the KML.
+Status rule: only Mark may change a formal A/B/C status. Workers may record an advisory proposal separately.
+Naming rule: `marker_name` must be understandable without opening the description. For mainly Indian names add a short Dutch function in parentheses.
+Colour rule: A is green; B is orange. No category logos.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1662 path=research/active/VARANASI-COMPLETE-001/state.yaml blob_sha=1ef3f5dc7b617224d429367eb465fb7727d762aa original_offset=0 original_length=2744 payload_bytes=2744 chunk_index=0 chunk_count=1 classification=text
+schema_version: 3
+run_id: VARANASI-COMPLETE-001
+state: GOUD_PARTIAL
+active_role: null
+claim:
+  role: GOUD
+  claimed_by: ChatGPT-GOUD
+  claimed_at: 2026-07-21T17:20:00+02:00
+  source_commit: ddf5f7963feb67d3ea8436cdccbc1c1c68685c68
+  expected_state: READY_FOR_GOUD
+  output_path: research/active/VARANASI-COMPLETE-001/GOUD/
+  claim_status: CLOSED
+  claim_closed_at: 2026-07-21T17:36:00+02:00
+  completion_commit: THIS_ATOMIC_COMMIT
+  completion_result: PARTIAL
+controller_claim:
+  transition: ZILVER_COMPLETE_TO_READY_FOR_GOUD
+  claimed_by: ChatGPT-INLINE-CONTROLLER
+  claimed_at: 2026-07-21T09:11:30+02:00
+  source_commit: ddf5f7963feb67d3ea8436cdccbc1c1c68685c68
+  expected_state: ZILVER_COMPLETE
+  target_context_manifest: research/active/VARANASI-COMPLETE-001/context/GOUD_CONTEXT.yaml
+  activation_mode: INLINE_POST_PHASE_CONTROLLER
+  claim_status: CLOSED
+  claim_closed_at: 2026-07-21T09:16:00+02:00
+  transition_commit: THIS_ATOMIC_COMMIT
+  transition_commit_ref: THIS_ATOMIC_COMMIT
+last_event_id: EVT-0014
+last_validated_commit: THIS_ATOMIC_COMMIT
+initialization_status: COMPLETE
+blockers:
+  - Lahartara and Bhaskarananda/Anand Bagh exact micro-identity, GEO, management and access remain not established.
+  - Direct management and access confirmation remains open for Lahiri Samadhi/Satyalok, Lahiri house and Trailanga Math.
+  - Complete ten-function image sets and systematic recent review analyses remain absent.
+  - Opening, photography, foreign access, festival and crowd conditions remain time-sensitive.
+context_profile: GOUD_MIN
+active_context_manifest: research/active/VARANASI-COMPLETE-001/context/GOUD_CONTEXT.yaml
+completion_destination: VOOR_MARK
+post_completion_mode: MARK_FINAL_REPORT
+next_role_after_goud: MARK
+mark_final_report_ready: true
+formal_status_policy:
+  preserve_existing_abc: true
+  only_mark_changes_formal_abc: true
+map_policy:
+  master_ab_registry_required: true
+  master_ab_kml_required: true
+  formal_A: 28
+  formal_B: 2
+  placemarks: 30
+  a_color: GREEN
+  b_color: ORANGE
+  include_c: false
+canonical_integration:
+  mode: DETERMINISTIC_NON_DECISIONAL
+  status: APPLIED
+  proposal_commit: 9e3b17026d472e0235bd892bcb5aa802820fe879
+  integration_commit: 8f23111b8d9810e9673d7853619b21ce15f57a4c
+  registry_records_updated: [IND-PLACE-000001, IND-PLACE-000002]
+  decisions_index_write_applied: false
+  new_place_ids_created: 0
+  new_decision_ids_created: 0
+  forbid_new_or_changed_abc: true
+  forbid_new_decision_id: true
+location_id_policy:
+  new_ids_by_goud_forbidden: true
+  new_ids_created: 0
+  reason: Only SUBREGIE INDIA reserves new permanent place IDs under NUMBERING_POLICY.md.
+parked_run:
+  run_id: KUMAON-ROUTE-OPTIMIZATION-001
+  read_performed: false
+  mutation_performed: false
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1663 path=research/active/VARANASI-COMPLETE-001/transitions/BRONS_TO_ZILVER_VALIDATION.md blob_sha=723dd701b94b4b4711b796ae943f85ba7e7ae51f original_offset=0 original_length=2261 payload_bytes=2261 chunk_index=0 chunk_count=1 classification=text
+# BRONS naar ZILVER transitionvalidatie — VARANASI-COMPLETE-001
+
+TRANSITION_STATUS: PASS
+
+## Gevalideerde predecessor
+
+- Definitieve BRONS-resultaatcommit: `d4459c0f58c4a9ab88213e4f04a1e61d291a1124`.
+- BRONS-resultaatstatus: `PARTIAL`.
+- Workerclaim: `CLOSED` in de definitieve completioncommit.
+- State en events vóór transition: synchroon op `BRONS_COMPLETE` / `EVT-0004`.
+- Afzonderlijke controllerclaim: actief genomen onder `INLINE_POST_PHASE_CONTROLLER`.
+
+## Artifact- en referentiecontrole
+
+- `BRONS/manifest.yaml`, `BRONS/COMPLETED` en `BRONS/handoff.yaml` zijn volledig gelezen.
+- Alle verplichte BRONS-artifacts bestaan en de manifesthashes komen overeen.
+- Alle tekstbestanden eindigen zichtbaar met `END_OF_ARTIFACT`.
+- De KML opent en sluit geldig.
+- 40 kandidaten, 57 claims, 22 geaccepteerde bronnen en 6 afgewezen bronnen zijn aanwezig.
+- Iedere claim-sourceverwijzing resolveert exact eenmaal; source-ID's zijn uniek over beide bronregisters.
+- `shared/MASTER_A_B_GEO_REGISTRY.jsonl` bevat exact 28 formele A, 2 formele B en 30 actieve records.
+- De voorbereide KML bevat exact 28 A-, 2 B- en 30 totale placemarks in alleen `A_FORMEEL` en `B_FORMEEL`.
+- Dubbele niet-lege LOCATION_ID's, ontbrekende coördinaten, stille weglatingen en verboden kaartcategorieën: 0.
+- Formele statussen en bestaande LOCATION_ID's zijn niet gewijzigd.
+- `KUMAON-ROUTE-OPTIMIZATION-001` is niet gewijzigd.
+
+## Inhoudelijke status
+
+De `PARTIAL`-status blijft behouden. ZILVER heropent alle fysieke-identiteits-, lineage-, traditie-, bezoekbaarheids-, devotionele, beeld-, review-, GEO- en nabijheidslagen. De 40 beeld- en 40 reviewrecords zijn expliciete tekorten en bevatten geen ongefundeerde conclusies.
+
+## Continuous Learning-classificatie
+
+Er is geen transitiondefect of stille reparatie vastgesteld.
+
+- foutklasse: `NONE`
+- lokale reparatie: `NOT_REQUIRED`
+- systeemwijziging: `NO_SYSTEM_CHANGE`
+- reden: bestaande rol-, protocol-, context- en validatieregels waren voldoende en zijn gevolgd.
+
+## Transitionbesluit
+
+Het definitieve `ZILVER_CONTEXT.yaml` is gepind op `d4459c0f58c4a9ab88213e4f04a1e61d291a1124`. De run mag naar `READY_FOR_ZILVER` overgaan. De controllerclaim wordt in de transitioncommit gesloten.
+
+NEXT_ROLE_READY: YES
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1664 path=research/active/VARANASI-COMPLETE-001/transitions/NEXT_ROLE_HANDOFF_ZILVER.md blob_sha=69eb4e3319fadc74cd8e1ca55e21a3a9ca949282 original_offset=0 original_length=3114 payload_bytes=3114 chunk_index=0 chunk_count=1 classification=text
+RESULTAATSTATUS: PARTIAL
+RUN_ID: VARANASI-COMPLETE-001
+VOLTOOIDE_ROL: BRONS
+FASE_COMPLETION_COMMIT: d4459c0f58c4a9ab88213e4f04a1e61d291a1124
+WORKER_CLAIM_CLOSED: YES
+TRANSITION_COMMIT: THIS_ATOMIC_COMMIT
+CONTROLLER_CLAIM_CLOSED: YES
+NEXT_ROLE: ZILVER
+NEXT_ROLE_READY: YES
+NEXT_EXPECTED_STATE: READY_FOR_ZILVER
+NEXT_CONTEXT_MANIFEST: research/active/VARANASI-COMPLETE-001/context/ZILVER_CONTEXT.yaml
+HOOGSTE_BLOCKERS: kleine/private fysieke locaties en toegang; expliciet ontbrekende tien-functie-beeldsets en systematische actuele reviewanalyses; tijdgevoelige rituelen, opening, fotografie, buitenlandse toegang en drukte
+
+VOLGENDE_METAAL_STARTOPDRACHT_BEGIN
+GitHub ZILVER:
+
+Activeer in deze chat onmiddellijk de GitHub-connector en houd deze gedurende de volledige uitvoering beschikbaar. Dit onderzoek gebruikt GitHub als enige bron van waarheid en overdrachtskanaal. Test vóór ieder inhoudelijk werk zowel GitHub-read als GitHub-write voor repository bnzgxknwrv-tech/india-knowledge-base. Ontbreekt read of write, antwoord dan uitsluitend: MARK: IK MIS GITHUB CONNECTOR! Ga alleen verder wanneer beide aantoonbaar werken.
+
+Open pipeline/ENTRYPOINT.md in repository bnzgxknwrv-tech/india-knowledge-base.
+
+Controleer dat pipeline/NEXT_ACTION.yaml semantisch exact deze lower-case velden bevat:
+- run_id: VARANASI-COMPLETE-001
+- route: ZILVER
+- expected_state: READY_FOR_ZILVER
+- context_manifest: research/active/VARANASI-COMPLETE-001/context/ZILVER_CONTEXT.yaml
+
+Voer uitsluitend de aangewezen actie uit. Lees uitsluitend het gepinde contextmanifest en de daarin genoemde required files en alleen expliciet getriggerde optional files. Haal de volledige gevalideerde BRONS-output uit GitHub; gebruik deze geplakte overdracht niet als onderzoeksbron.
+
+Voer het volledige gepinde ZILVER-rolcontract, de methodologie, protocollen en quality gates uit. Valideer onafhankelijk alle 40 Varanasi/Sarnath-kandidaten, 57 claims, detectoren, negatieve zoekresultaten, bronnen, devotionele en praktische lagen, beelden, reviews, nabijheid en WORKING_GEO. Controleer tevens repositorybreed dat het gedeelde masterregister en de voorbereide KML exact 28 formele A, 2 formele B en 30 placemarks bevatten met alleen A_FORMEEL groen en B_FORMEEL oranje. Behoud alle formele statussen en geldige LOCATION_ID's exact. Ken geen formele of adviserende A/B/C toe, maak geen nieuw decision-ID en wijzig niets onder KUMAON-ROUTE-OPTIMIZATION-001.
+
+Stop bij ontbrekende GitHub-write, een ACTIVE bestaande claim, state/event-desynchronisatie, ontbrekend of afgekapt required bestand, hashafwijking, ongeldige bronreferenties of een andere gepinde stopvoorwaarde.
+
+Schrijf en commit de volledige ZILVER-fase. Sluit de ZILVER-workerclaim aantoonbaar in de completioncommit. Wanneer NEXT_ACTION de modus INLINE_POST_PHASE_CONTROLLER expliciet toestaat, beëindig daarna de workerrol en voer als afzonderlijke controllerrol uitsluitend de geldige transition naar GOUD uit. Sluit ook de controllerclaim in de transitioncommit en lever alleen bij geldige finale readback de GOUD-handoff.
+VOLGENDE_METAAL_STARTOPDRACHT_EINDE
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1665 path=research/active/VARANASI-COMPLETE-001/transitions/ZILVER_TO_GOUD_HANDOFF.md blob_sha=24d9a373ef24371a692805f37cdb44c8a9f35286 original_offset=0 original_length=3271 payload_bytes=3271 chunk_index=0 chunk_count=1 classification=text
+RESULTAATSTATUS: PARTIAL
+RUN_ID: VARANASI-COMPLETE-001
+VOLTOOIDE_ROL: ZILVER
+FASE_COMPLETION_COMMIT: ddf5f7963feb67d3ea8436cdccbc1c1c68685c68
+WORKER_CLAIM_CLOSED: YES
+TRANSITION_COMMIT: THIS_ATOMIC_COMMIT
+CONTROLLER_CLAIM_CLOSED: YES
+NEXT_ROLE: GOUD
+NEXT_ROLE_READY: YES
+NEXT_EXPECTED_STATE: READY_FOR_GOUD
+NEXT_CONTEXT_MANIFEST: research/active/VARANASI-COMPLETE-001/context/GOUD_CONTEXT.yaml
+HOOGSTE_BLOCKERS: Lahartara en Bhaskarananda/Anand Bagh blijven op micro-identiteit/GEO/beheer/toegang open; Lahiri Samadhi, Lahiri-huis en Trailanga Math vereisen directe toegangsbevestiging; volledige tien-functie beeld- en systematische reviewdekking ontbreekt; veel praktische condities zijn tijdgevoelig.
+
+VOLGENDE_METAAL_STARTOPDRACHT_BEGIN
+GitHub GOUD:
+
+Activeer in deze chat onmiddellijk de GitHub-connector en houd deze gedurende de volledige uitvoering beschikbaar. Dit onderzoek gebruikt GitHub als enige bron van waarheid en overdrachtskanaal. Test vóór ieder inhoudelijk werk zowel GitHub-read als GitHub-write voor repository bnzgxknwrv-tech/india-knowledge-base. Ontbreekt read of write, antwoord dan uitsluitend: MARK: IK MIS GITHUB CONNECTOR!
+
+Open pipeline/ENTRYPOINT.md in repository bnzgxknwrv-tech/india-knowledge-base.
+
+Controleer dat pipeline/NEXT_ACTION.yaml semantisch exact deze lower-case velden bevat:
+- run_id: VARANASI-COMPLETE-001
+- route: GOUD
+- expected_state: READY_FOR_GOUD
+- context_manifest: research/active/VARANASI-COMPLETE-001/context/GOUD_CONTEXT.yaml
+
+Voer uitsluitend de aangewezen actie uit. Lees uitsluitend het gepinde contextmanifest en de daarin genoemde required files en expliciet getriggerde optional files. Haal de volledige gevalideerde ZILVER-output uit GitHub; gebruik deze geplakte overdracht niet als onderzoeksbron.
+
+Voer het volledige gepinde GOUD-rolcontract, de methodologie, protocollen en quality gates uit. Stop bij ontbrekende GitHub-write, een ACTIVE bestaande claim, state/event-desynchronisatie, ontbrekend of afgekapt required bestand, hashafwijking, ongeldige bronreferenties of een andere gepinde stopvoorwaarde.
+
+Schrijf en commit de volledige GOUD-fase. Behoud alle 40 kandidaten, 28 formele A, 2 formele B en 30 masterkaartmarkers exact. A blijft uitsluitend groen en B uitsluitend oranje. Lever verplicht decision.md, decision_inputs.md, geo_locations.jsonl, geo_connections.jsonl, location_id_audit.md, de deterministisch gegenereerde INDIA_ALL_FORMAL_A_B_WORKING.kml, CANONICAL_INTEGRATION_PROPOSAL.md en MARK_FINAL_REPORT.md. Reserveer of wijs geen nieuwe permanente place-ID toe; alleen SUBREGIE INDIA mag dat volgens NUMBERING_POLICY.md. Lees of wijzig niets onder research/active/KUMAON-ROUTE-OPTIMIZATION-001/**.
+
+Voer uitsluitend de gepinde deterministische, niet-beslissende canonieke integratie uit. Wijzig geen formele of adviserende A/B/C-status, creëer geen nieuw decision-ID en neem geen route-, basis-, station-, hotel- of eerste-bezoekbesluit namens Mark. Sluit de GOUD-workerclaim aantoonbaar in de completioncommit. Valideer daarna alle finale artifacts, eventuele canonieke writes, state/events en het opnieuw geopende MARK_FINAL_REPORT. Lever bij geldige PASS of PARTIAL het volledige gecommitte rapport rechtstreeks aan Mark.
+VOLGENDE_METAAL_STARTOPDRACHT_EINDE
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1666 path=research/active/VARANASI-COMPLETE-001/transitions/ZILVER_TO_GOUD_VALIDATION.md blob_sha=290b6373d56a3383f9d8f63c5ad14ecaab738cf5 original_offset=0 original_length=3273 payload_bytes=3273 chunk_index=0 chunk_count=1 classification=text
+# ZILVER naar GOUD — transitionvalidatie
+
+## Resultaat
+
+`PASS`
+
+- run_id: `VARANASI-COMPLETE-001`
+- transition: `ZILVER_COMPLETE_TO_READY_FOR_GOUD`
+- definitieve ZILVER-resultaatcommit: `ddf5f7963feb67d3ea8436cdccbc1c1c68685c68`
+- ZILVER-resultaatstatus: `PARTIAL`
+- ZILVER-workerclaim: `CLOSED`
+- controllerclaim: gesloten in dezelfde transitioncommit
+- doelstate: `READY_FOR_GOUD`
+- doelcontext: `research/active/VARANASI-COMPLETE-001/context/GOUD_CONTEXT.yaml`
+
+## Predecessorvalidatie
+
+- `manifest.yaml`, `COMPLETED`, `handoff.yaml`, state en events tonen dezelfde ZILVER-uitkomst.
+- De ZILVER-completioncommit bevat manifest, COMPLETED, gesloten state en completionevent atomisch.
+- Alle 22 ZILVER-artifacts zijn opnieuw vanuit GitHub geopend; hashes, sentinels en KML-afsluiting zijn geldig.
+- 40 kandidaten, 57 claims, 25 accepted sources, 7 rejected sources, 8 detectoren, 6 negatieve zoekresultaten, 40 GEO-records, 40 access-records, 40 image-records, 40 review-records en 15 proximity-records zijn structureel coherent.
+- Iedere claim-sourceverwijzing resolveert exact één keer; accepted en rejected source-ID's zijn onderling uniek.
+- De inhoudelijke verdeling blijft 35 bevestigd, 3 beperkte werkobjecten en 2 partial.
+- Het masterregister en de KML bevatten exact 28 A, 2 B en 30 records/placemarks.
+- `A_FORMEEL` gebruikt uitsluitend groen `ff00aa00`; `B_FORMEEL` uitsluitend oranje `ff00a5ff`.
+- Geen formele of adviserende A/B/C-status, decision-ID, route, basis, hotel of station is gecreëerd of gewijzigd.
+- `research/active/KUMAON-ROUTE-OPTIMIZATION-001/**` is niet gelezen en niet gewijzigd.
+
+## Continuous Learning-classificatie
+
+Er is geen uitvoerings-, protocol-, template-, methodologie- of projectdatafout aangetroffen die een systeemwijziging vereist.
+
+- beslissing: `NO_SYSTEM_CHANGE`;
+- reden: de brede `PARTIAL`-lagen zijn inhoudelijke gegevensbeperkingen die volgens de bestaande methodologie en quality gate correct zichtbaar zijn gemaakt;
+- actuele run: geen reparatie nodig;
+- protocolbestanden: ongewijzigd.
+
+## GOUD-context
+
+Het GOUD-contextmanifest pint:
+
+- de volledige ZILVER-kern en alle OPEN/PARTIAL/high-risk CORRECTED lagen;
+- de formele statusbronnen, het 30-record masterregister en de gevalideerde KML;
+- de canonieke registry, decisions-index en nummeringsregel;
+- het GOUD-contract, quality gate, GEO-protocol en de verplichte Mark- en integratietemplates;
+- `MARK_FINAL_REPORT` en `DETERMINISTIC_NON_DECISIONAL` als enige post-completionmodus.
+
+De nummeringsregel staat GOUD niet toe nieuwe permanente place-ID's uit te geven. GOUD moet ontbrekende IDs zichtbaar laten en in `location_id_audit.md` rapporteren.
+
+## Open inhoudelijke punten voor GOUD
+
+1. Lahartara en Bhaskarananda/Anand Bagh blijven op micro-identiteit, GEO, beheer en toegang open.
+2. Lahiri Samadhi/Satyalok, Lahiri-huis en Trailanga Math vereisen directe beheer-/toegangsbevestiging.
+3. Geen kandidaat heeft een volledige tien-functiesbeeldset of systematische recente reviewanalyse.
+4. Opening, fotografie, buitenlandse toegang, festival- en crowdcondities blijven voor veel locaties tijdgevoelig.
+
+Deze punten zijn niet fataal voor de transition. GOUD moet ze oplossen of als concrete controle vóór vertrek/ter plaatse behouden.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1667 path=pipeline/NEXT_ACTION.yaml blob_sha=57061a9907c05648fa9c82597209c493a566fe79 original_offset=0 original_length=3047 payload_bytes=3047 chunk_index=0 chunk_count=1 classification=text
+schema_version: 3
+run_id: VARANASI-COMPLETE-001
+action_id: VARANASI-COMPLETE-001-ZILVER-001
+status: READY
+route: ZILVER
+expected_state: READY_FOR_ZILVER
+context_manifest: research/active/VARANASI-COMPLETE-001/context/ZILVER_CONTEXT.yaml
+entrypoint: pipeline/ENTRYPOINT.md
+operating_mode: CONTROLLED_MANUAL_INLINE_HANDOFF
+required_connector:
+  github_read: true
+  github_write: true
+mandatory_first_instruction: >-
+  Activeer in deze chat onmiddellijk de GitHub-connector en houd deze gedurende de volledige uitvoering beschikbaar.
+  Dit onderzoek gebruikt GitHub als enige bron van waarheid en overdrachtskanaal. Test vóór ieder inhoudelijk werk
+  zowel GitHub-read als GitHub-write voor repository bnzgxknwrv-tech/india-knowledge-base. Ontbreekt read of write,
+  antwoord dan uitsluitend: MARK: IK MIS GITHUB CONNECTOR! Ga alleen verder wanneer beide aantoonbaar werken.
+instruction: >-
+  Voer uitsluitend de ZILVER-fase van VARANASI-COMPLETE-001 uit volgens het gepinde ZILVER_MIN-contextmanifest.
+  Valideer de volledige BRONS-uitkomst onafhankelijk. Open de werkelijke bron achter iedere materiële claim en corrigeer
+  fysieke identiteit, claimtype, bevestigingsdomein, bronclassificatie, actuele bezoekbaarheid, devotionele praktijk,
+  deelname, beelden, reviews, nabijheid en WORKING_GEO waar nodig. Controleer alle 40 Varanasi/Sarnath-kandidaten,
+  alle detectoren en negatieve zoekresultaten. Verifieer repositorybreed dat het gedeelde masterregister en de voorbereide
+  KML exact 28 formele A, 2 formele B en 30 placemarks bevatten, met twee lagen A_FORMEEL groen en B_FORMEEL oranje,
+  zonder C, routes, treinhaltes, bases, hotels of categorie-logo's. Behoud alle bestaande formele statussen en geldige
+  LOCATION_ID's exact. Ken geen formele of adviserende A/B/C toe, maak geen nieuw decision-ID en wijzig niets onder
+  KUMAON-ROUTE-OPTIMIZATION-001. Behoud geldige BRONS-inhoud en maak iedere correctie, samenvoeging of verwijdering
+  traceerbaar. Schrijf en valideer alle ZILVER-output in GitHub, sluit de ZILVER-workerclaim in de completioncommit en
+  voer daarna uitsluitend de gepinde afzonderlijke inline controllertransition naar GOUD uit. Lever alleen bij geldige
+  finale readback een uitvoerbare GOUD-handoff.
+post_completion:
+  mode: INLINE_POST_PHASE_CONTROLLER
+  transition_protocol: pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md
+  role_handoff_protocol: pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md
+  target_role: GOUD
+  target_ready_state: READY_FOR_GOUD
+  emit_next_role_handoff: true
+  report_template: NOT_APPLICABLE
+  completion_destination: VOOR_VOLGEND_METAAL
+  canonical_integration:
+    mode: NOT_APPLICABLE
+    proposal_template: NOT_APPLICABLE
+    allowed_registry_path: NOT_APPLICABLE
+    allowed_decisions_index_path: NOT_APPLICABLE
+    forbid_new_or_changed_abc: true
+    forbid_new_decision_id: true
+    require_mark_decision_on_content_choice: true
+created_by: ChatGPT-INLINE-CONTROLLER
+created_at: 2026-07-20T23:50:00+02:00
+source_commit: d4459c0f58c4a9ab88213e4f04a1e61d291a1124
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1668 path=research/active/VARANASI-COMPLETE-001/events.jsonl blob_sha=4226b8636db5ef1964dbb9b734d75c5dabb6a8a9 original_offset=0 original_length=3924 payload_bytes=3924 chunk_index=0 chunk_count=1 classification=text
+{"event_id":"EVT-0001","run_id":"VARANASI-COMPLETE-001","event":"RUN_CREATED","at":"2026-07-20T20:58:18+02:00","actor":"INDIA2","commit":"ee4e3b62789de527611d7f1b43d3cbf944a07cc6"}
+{"event_id":"EVT-0002","run_id":"VARANASI-COMPLETE-001","event":"READY_FOR_BRONS","at":"2026-07-20T21:02:00+02:00","actor":"INDIA2","state":"READY_FOR_BRONS","context":"research/active/VARANASI-COMPLETE-001/context/BRONS_CONTEXT.yaml"}
+{"event_id":"EVT-0003","run_id":"VARANASI-COMPLETE-001","event_type":"CLAIMED","at":"2026-07-20T21:30:00+02:00","actor":"ChatGPT-BRONS","role":"BRONS","claimed_by":"ChatGPT-BRONS","source_commit":"5e351144fe19fe40b487588c43827dc937df3de6","expected_state":"READY_FOR_BRONS","output_path":"research/active/VARANASI-COMPLETE-001/BRONS/","claim_status":"ACTIVE","from_state":"READY_FOR_BRONS","to_state":"BRONS_CLAIMED","claim_commit":"8c9b26aaddf5cc7e05a1ced1a218b09a5cbebe58","notes":"Claimed after GitHub read/write preflight, complete required-context read, exact blob-SHA validation, sentinel checks and state/event synchronization."}
+{"event_id":"EVT-0004","run_id":"VARANASI-COMPLETE-001","event_type":"BRONS_COMPLETED","at":"2026-07-20T23:20:00+02:00","actor":"ChatGPT-BRONS","role":"BRONS","result_status":"PARTIAL","claim_status":"CLOSED","source_commit":"5e351144fe19fe40b487588c43827dc937df3de6","output_manifest":"research/active/VARANASI-COMPLETE-001/BRONS/manifest.yaml","completion_commit_ref":"d4459c0f58c4a9ab88213e4f04a1e61d291a1124","from_state":"BRONS_CLAIMED","to_state":"BRONS_COMPLETE","notes":"All mandatory BRONS artifacts completed and reopened. Forty Varanasi/Sarnath candidates, 57 claims, 28 formal A, 2 formal B and a 30-placemark prepared KML are structurally coherent. Image and review shortages remain explicit; no status, route, hotel, base or parked-run mutation occurred."}
+{"event_id":"EVT-0005","run_id":"VARANASI-COMPLETE-001","event_type":"TRANSITION_CLAIMED","at":"2026-07-20T23:35:00+02:00","actor":"ChatGPT-INLINE-CONTROLLER","transition":"BRONS_COMPLETE_TO_READY_FOR_ZILVER","source_commit":"d4459c0f58c4a9ab88213e4f04a1e61d291a1124","expected_state":"BRONS_COMPLETE","target_context_manifest":"research/active/VARANASI-COMPLETE-001/context/ZILVER_CONTEXT.yaml","activation_mode":"INLINE_POST_PHASE_CONTROLLER","claim_status":"ACTIVE","from_state":"BRONS_COMPLETE","to_state":"TRANSITION_TO_ZILVER_CLAIMED","notes":"Separate controller claim after BRONS worker termination, repeated GitHub preflight and controller protocol reread."}
+{"event_id":"EVT-0006","run_id":"VARANASI-COMPLETE-001","event_type":"CONTEXT_PREPARED","at":"2026-07-20T23:49:00+02:00","actor":"ChatGPT-INLINE-CONTROLLER","source_commit":"d4459c0f58c4a9ab88213e4f04a1e61d291a1124","context_manifest":"research/active/VARANASI-COMPLETE-001/context/ZILVER_CONTEXT.yaml","context_profile":"ZILVER_MIN","predecessor_manifest":"research/active/VARANASI-COMPLETE-001/BRONS/manifest.yaml","from_state":"TRANSITION_TO_ZILVER_CLAIMED","to_state":"TRANSITION_TO_ZILVER_CLAIMED","notes":"Definitive ZILVER context prepared from the validated BRONS completion with explicit hashes for all predecessor artifacts and final state/routing files."}
+{"event_id":"EVT-0007","run_id":"VARANASI-COMPLETE-001","event_type":"TRANSITIONED","at":"2026-07-20T23:50:00+02:00","actor":"ChatGPT-INLINE-CONTROLLER","transition":"BRONS_COMPLETE_TO_READY_FOR_ZILVER","source_commit":"d4459c0f58c4a9ab88213e4f04a1e61d291a1124","context_manifest":"research/active/VARANASI-COMPLETE-001/context/ZILVER_CONTEXT.yaml","next_action":"pipeline/NEXT_ACTION.yaml","claim_status":"CLOSED","transition_commit_ref":"THIS_ATOMIC_COMMIT","from_state":"TRANSITION_TO_ZILVER_CLAIMED","to_state":"READY_FOR_ZILVER","next_route":"ZILVER","notes":"BRONS predecessor validated as technically coherent with PARTIAL content status preserved. No repair or system change required; ZILVER must reopen all OPEN and load-bearing layers."}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1669 path=research/active/VARANASI-COMPLETE-001/state.yaml blob_sha=0d9170d04209effc1f373335cb09f49200c0f256 original_offset=0 original_length=2017 payload_bytes=2017 chunk_index=0 chunk_count=1 classification=text
+schema_version: 3
+run_id: VARANASI-COMPLETE-001
+state: READY_FOR_ZILVER
+active_role: ZILVER
+claim:
+  role: BRONS
+  claimed_by: ChatGPT-BRONS
+  claimed_at: 2026-07-20T21:30:00+02:00
+  source_commit: 5e351144fe19fe40b487588c43827dc937df3de6
+  expected_state: READY_FOR_BRONS
+  output_path: research/active/VARANASI-COMPLETE-001/BRONS/
+  claim_status: CLOSED
+  claim_closed_at: 2026-07-20T23:20:00+02:00
+  completion_commit: d4459c0f58c4a9ab88213e4f04a1e61d291a1124
+  completion_result: PARTIAL
+controller_claim:
+  transition: BRONS_COMPLETE_TO_READY_FOR_ZILVER
+  claimed_by: ChatGPT-INLINE-CONTROLLER
+  claimed_at: 2026-07-20T23:35:00+02:00
+  source_commit: d4459c0f58c4a9ab88213e4f04a1e61d291a1124
+  expected_state: BRONS_COMPLETE
+  target_context_manifest: research/active/VARANASI-COMPLETE-001/context/ZILVER_CONTEXT.yaml
+  activation_mode: INLINE_POST_PHASE_CONTROLLER
+  claim_status: CLOSED
+  claim_closed_at: 2026-07-20T23:50:00+02:00
+  transition_commit: THIS_ATOMIC_COMMIT
+last_event_id: EVT-0007
+last_validated_commit: d4459c0f58c4a9ab88213e4f04a1e61d291a1124
+initialization_status: COMPLETE
+blockers:
+  - Small/private physical identities, management and access require independent verification.
+  - Complete current image and review coverage remains absent and is explicitly registered.
+  - Current rituals, opening, photography, foreign access and crowd conditions remain time-sensitive.
+context_profile: ZILVER_MIN
+active_context_manifest: research/active/VARANASI-COMPLETE-001/context/ZILVER_CONTEXT.yaml
+output_path: research/active/VARANASI-COMPLETE-001/ZILVER/
+completion_destination: VOOR_VOLGEND_METAAL
+post_completion_mode: INLINE_POST_PHASE_CONTROLLER
+next_role_after_zilver: GOUD
+formal_status_policy:
+  preserve_existing_abc: true
+  only_mark_changes_formal_abc: true
+map_policy:
+  master_ab_registry_required: true
+  master_ab_kml_required: true
+  a_color: GREEN
+  b_color: ORANGE
+  include_c: false
+parked_run:
+  run_id: KUMAON-ROUTE-OPTIMIZATION-001
+  mutation_forbidden: true
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+

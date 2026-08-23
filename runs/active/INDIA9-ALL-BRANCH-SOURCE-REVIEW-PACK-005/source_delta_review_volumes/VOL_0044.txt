@@ -1,0 +1,1250 @@
+>>> CHUNK stream_row=699 path=pipeline/NEXT_ACTION.yaml blob_sha=61a5eaeee33c423fad8ff2084ff7cf485c07ab96 original_offset=0 original_length=3033 payload_bytes=3033 chunk_index=0 chunk_count=1 classification=text
+schema_version: 3
+run_id: KUMAON-COMPLETE-001
+action_id: KUMAON-COMPLETE-001-ZILVER-001
+status: READY
+route: ZILVER
+expected_state: READY_FOR_ZILVER
+context_manifest: research/active/KUMAON-COMPLETE-001/context/ZILVER_CONTEXT.yaml
+entrypoint: pipeline/ENTRYPOINT.md
+operating_mode: CONTROLLED_MANUAL_INLINE_HANDOFF
+required_connector:
+  github_read: true
+  github_write: true
+mandatory_first_instruction: >-
+  Activeer in deze chat onmiddellijk de GitHub-connector en houd deze gedurende de volledige uitvoering beschikbaar.
+  Dit onderzoek gebruikt GitHub als enige bron van waarheid en overdrachtskanaal. Test vóór ieder inhoudelijk werk
+  zowel GitHub-read als GitHub-write voor repository bnzgxknwrv-tech/india-knowledge-base. Ontbreekt read of write,
+  antwoord dan uitsluitend: MARK: IK MIS GITHUB CONNECTOR! Ga alleen verder wanneer beide aantoonbaar werken.
+instruction: >-
+  Voer uitsluitend de ZILVER-fase van KUMAON-COMPLETE-001 uit volgens het gepinde ZILVER_MIN-contextmanifest.
+  Valideer de volledige BRONS-uitkomst onafhankelijk. Open de werkelijke bron achter iedere materiële claim en corrigeer
+  claimtype, bevestigingsdomein, bronclassificatie, kandidaatidentiteit, praktische toegang, review- en beelddekking,
+  nabijheidsgegevens, WORKING_GEO, LOCATION_ID-toewijzingen en alle zeven KML-lagen waar nodig. Heropen alle OPEN en
+  hoog-risicolagen uit BRONS/handoff.yaml. Zoek binnen dezelfde Kumaon-scope gericht naar gemiste fysieke kandidaten,
+  maar start geen nieuwe megasweep en herhaal de geaccepteerde oude corridorbeoordeling niet. Behoud alle formele
+  16 A, 1 B en 4 C en alle bestaande LOCATION_IDs exact. Ken geen formele of adviserende A/B/C toe, maak geen nieuw
+  decision-ID, kies geen station, basis, hotel, eerste bezoeklocatie, interne route, laatste Kumaon-locatie of uitreisrichting
+  en maak geen PARELS. Verifieer of de BRONS-onderlaag voldoende kan worden gecorrigeerd voor latere routeoptimalisatie.
+  Schrijf en valideer alle ZILVER-output in GitHub, sluit de workerclaim in de completioncommit en voer daarna uitsluitend
+  de gepinde afzonderlijke inline controllertransition ZILVER naar GOUD uit. Lever alleen bij geldige finale readback een
+  uitvoerbare GOUD-handoff.
+post_completion:
+  mode: INLINE_POST_PHASE_CONTROLLER
+  transition_protocol: pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md
+  role_handoff_protocol: pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md
+  target_role: GOUD
+  target_ready_state: READY_FOR_GOUD
+  emit_next_role_handoff: true
+  report_template: NOT_APPLICABLE
+  completion_destination: VOOR_VOLGEND_METAAL
+  canonical_integration:
+    mode: NOT_APPLICABLE
+    proposal_template: NOT_APPLICABLE
+    allowed_registry_path: NOT_APPLICABLE
+    allowed_decisions_index_path: NOT_APPLICABLE
+    forbid_new_or_changed_abc: true
+    forbid_new_decision_id: true
+    require_mark_decision_on_content_choice: true
+created_by: ChatGPT-INLINE-CONTROLLER
+created_at: 2026-07-19T15:25:00+02:00
+source_commit: 9afdbb21ab4cb202144c2a6346218d6e1a3639aa
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=700 path=pipeline/OPERATING_MODE.yaml blob_sha=b5c3eee272d82ed79b077ea607aa34327803e041 original_offset=0 original_length=1182 payload_bytes=1182 chunk_index=0 chunk_count=1 classification=text
+schema_version: 1
+mode: CONTROLLED_MANUAL_FAST
+active_since: 2026-07-13
+owner: SUBREGIE_INDIA
+intended_scale:
+  maximum_total_sweeps: 20
+  parallel_active_runs: 1
+principles:
+  - Research progress has priority over architecture expansion.
+  - Use the existing BRONS-ZILVER-GOUD workflow with human-supervised sequential chats.
+  - Do not build n8n, leases, event sourcing, staging branches, schema suites or autonomous orchestration now.
+  - Apply only fixes that block the current run, prevent a repeated observed defect, or materially reduce Mark's next action.
+  - Defer theoretical scale, concurrency and five-year platform concerns until Mark explicitly reactivates architecture work.
+  - Keep one global NEXT_ACTION.yaml while only one run is active.
+  - SUBREGIE INDIA performs controller transitions; metals perform research only.
+current_priority:
+  run_id: VRINDAVAN-SUPPLEMENT-001
+  objective: Resolve the five targeted Vrindavan blockers without repeating the cluster sweep.
+architecture_freeze: true
+exceptions:
+  - security defect
+  - data loss risk observed in an active run
+  - current-run blocker
+  - repeated defect already encountered in practice
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=701 path=pipeline/PIPELINE_CONTRACT.md blob_sha=26324758624628c8ed642f97a60191fc6aed487d original_offset=0 original_length=3516 payload_bytes=3516 chunk_index=0 chunk_count=1 classification=text
+# PIPELINE_CONTRACT v2.0
+
+## 1. Eén run, drie volledige faseversies
+
+BRONS, ZILVER en GOUD maken geen concurrerende rapporten. Iedere fase bouwt een volledige eigen versie in dezelfde geïsoleerde runmap. De voorganger blijft ongewijzigd beschikbaar voor controle.
+
+## 2. GitHub is de enige IPC
+
+Een chat is een tijdelijke worker. Geen rapport, bronnenlijst, onzekerheid of beslissing mag alleen in de chat bestaan. De volgende rol haalt de volledige voorgangeroutput uit GitHub via een gepind contextmanifest.
+
+## 3. Modelonafhankelijke rollen
+
+Iedere AI met bewezen GitHub-lees- en schrijfrechten kan BRONS, ZILVER of GOUD uitvoeren. De activatie noemt exact één run-id en één rol. Het model ontleent zijn gedrag uitsluitend aan de gepinde repositorycontracten.
+
+## 4. Deterministische context
+
+Geen rol leest de volledige repository of kiest vrij interne bestanden. Iedere rol leest exact haar contextmanifest en stopt bij ontbrekende, gewijzigde of afgeknotte required files.
+
+## 5. Onderzoeksobject en methodologie
+
+Alleen een fysiek aanwijsbare huidige plaats kan kandidaat zijn. Methodology v2.0 behandelt fysieke identiteit, institutionele identiteit, historische identiteit, traditie, lineage, levende praktijk, bezoekbaarheid en getuigenissen als afzonderlijke lagen.
+
+Verschillende onderbouwingstypen worden nooit gecombineerd tot een score. Een mythische of bovennatuurlijke figuur wordt onderzocht via gedragen traditie en lineage, niet via een onmogelijke klassieke biografische bewijsproef.
+
+## 6. Projectoverlays
+
+Overlays zijn projectspecifieke relaties en staan buiten de generieke methodologie. Zij kennen geen waarde of prioriteit toe. AOAY gebruikt dubbele controle: tekstuele vermelding én afzonderlijke fysieke identificatie.
+
+## 7. Claims en bronnen
+
+Iedere materiële claim is atomair, heeft een claimtype, bewijsstatus en bestaande source_id. Lijn-eigen of institutionele bronnen worden gebruikt voor het type claim dat zij werkelijk kunnen dragen.
+
+## 8. Bezoekbaarheid
+
+Fysiek bestaan, levende spirituele functie en actuele toegang zijn afzonderlijke vragen. Wanneer actuele toegang niet betrouwbaar is vastgesteld, wordt exact geschreven:
+
+`Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.`
+
+## 9. Geen waardering
+
+Alleen Mark kent A/B/C toe. Rollen maken geen totaalscore, projectrelevantie, impliciete rangorde, route- of verblijfsadvies. Nieuwe kandidaten blijven ONGEMERKT.
+
+## 10. Claim-lock, pinning en stopvoorwaarden
+
+Geen fase start zonder geldige claim, overeenkomende source commit, expected state en outputpad. Stop bij write-tekort, bestaande claim, SHA-afwijking, contextgat, truncatie of state/event-desynchronisatie.
+
+## 11. Volledige maar opgesplitste output
+
+Een fase-output is logisch volledig en fysiek opgesplitst via `report/INDEX.md`. Geen primair bestand boven 1500 regels. Iedere tekstartifact eindigt met `END_OF_ARTIFACT`. `REPORT_ASSEMBLED.md` is alleen een optionele afgeleide menselijke view.
+
+## 12. Handoff en vrijgave
+
+Iedere fase schrijft manifest, claims, bronnen, audit, handoff en COMPLETED. GOUD geeft `PASS`, `PARTIAL` of `BLOCKED`. Alleen GOUD gaat naar de regisseur, via run-id, commit en manifestpad.
+
+## 13. Geen protocolmutatie tijdens uitvoering
+
+Een uitvoerende rol wijzigt niet tegelijk haar eigen regels. Verbeteringen door India2, Claude, ChatGPT of andere bevoegde schrijvers gebeuren als afzonderlijke commit of pull request en gelden alleen voor nieuwe of expliciet gemigreerde runs.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=702 path=pipeline/QUALITY_GATE.md blob_sha=8c9d39ed09e8992d785baf15d727a920ccdbb0c0 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# QUALITY_GATE v3.0 — fase- en vrijgavecontrole
+
+Iedere rol past deze controle toe. GOUD gebruikt haar als harde vrijgavepoort.
+
+## A. Technische integriteit
+
+- [ ] GitHub-read en GitHub-write zijn aantoonbaar bevestigd;
+- [ ] `NEXT_ACTION.yaml`, rol, run, expected state en contextmanifest stemmen overeen;
+- [ ] geen geldige andere claim bestaat;
+- [ ] state en eventlog zijn synchroon;
+- [ ] alle required contextbestanden zijn volledig gelezen en gepinde hashes kloppen;
+- [ ] geen forbidden file is gebruikt;
+- [ ] alle verplichte outputs bestaan en eindigen met `END_OF_ARTIFACT`;
+- [ ] manifest, handoff, COMPLETED, state en events stemmen overeen;
+- [ ] ieder claim-source-ID resolveert exact één keer in accepted of rejected registers;
+- [ ] alle identifiers zijn uniek;
+- [ ] geen inhoud bestaat uitsluitend in de chat;
+- [ ] de fase bleef binnen scope en voerde geen protocolwerk uit.
+
+## B. Kandidatenkaart
+
+Voor iedere kandidaat:
+
+- [ ] specifieke fysieke identiteit en aliassen;
+- [ ] huidige dragende instelling of expliciet beheeronzekerheid;
+- [ ] historische documentatie afzonderlijk;
+- [ ] institutionele bevestiging afzonderlijk;
+- [ ] lineagebevestiging afzonderlijk wanneer relevant;
+- [ ] traditiebevestiging afzonderlijk wanneer relevant;
+- [ ] geen lineage- of traditieclaim gedegradeerd wegens ontbreken van klassiek historisch bewijs;
+- [ ] Babaji-relaties onderzocht via lijnbronnen, guru-parampara, fysieke plek en levende praktijk;
+- [ ] AOAY-relaties beoordeeld volgens de projectbevestigingsregel en niet uitsluitend via juridische perceelszekerheid;
+- [ ] levende devotionele praktijk onderzocht;
+- [ ] actuele bezoekbaarheid afzonderlijk bevestigd of als praktische controle gemarkeerd;
+- [ ] concrete tegenspraak zichtbaar;
+- [ ] geen zwakke bron draagt een claim buiten zijn geschikte domein.
+
+## C. Devotionele en ervaringslaag
+
+Voor iedere kandidaat:
+
+- [ ] waarom devotees hierheen gaan;
+- [ ] wie of wat zij vereren of herinneren;
+- [ ] wat mensen er concreet doen;
+- [ ] welke deelname voor Mark mogelijk lijkt;
+- [ ] welkom voor buitenlanders/niet-hindoes/niet-ingewijden onderzocht;
+- [ ] kleding, etiquette, fotografie, stilte en donaties onderzocht of als praktische controle gemarkeerd;
+- [ ] sfeer beschreven op basis van meerdere geschikte ervaringsbronnen;
+- [ ] rust, drukte, commercie, netheid en onderhoud behandeld;
+- [ ] verschillen tussen gewone dag, ochtend/avond en piekmoment waar relevant;
+- [ ] reviewmateriaal niet misbruikt als historisch of bovennatuurlijk bewijs.
+
+## D. Visueel dossier
+
+Voor iedere kandidaat:
+
+- [ ] minimaal tien functioneel verschillende representatieve beelden, of expliciet beeldtekort;
+- [ ] totaalbeeld, toegang, heilig middelpunt, devotees, zitmogelijkheid, normale drukte, piekdrukte, omgeving/commercie, onderhoud/netheid en dagdeelsfeer behandeld waar beschikbaar;
+- [ ] duplicaten niet als afzonderlijke dekking geteld;
+- [ ] bron en actualiteit vastgelegd;
+- [ ] visueel oordeel berust op de volledige set en niet op één promotiefoto.
+
+## E. Cluster- en nabijheidslaag
+
+- [ ] geografische begrenzing is ruim genoeg om omliggende relevante plekken niet voortijdig uit te sluiten;
+- [ ] bekende A-ankers en open detectoren zijn behandeld;
+- [ ] subclusters worden later verplicht geïntegreerd;
+- [ ] relevante A-naar-B/C-reistijden en loopclusters zijn vastgelegd of voor een expliciete routefase gereserveerd;
+- [ ] intrinsieke betekenis en routewaarde blijven gescheiden;
+- [ ] C telt niet mee in basis- of hotelweging;
+- [ ] geen definitieve basiskeuze vóór voldoende clusterdekking.
+
+## F. Mensentaalproduct
+
+Per plek volgt de tekst:
+
+1. wat voor plaats dit is;
+2. waarom devotees erheen gaan;
+3. wat mensen er doen;
+4. of Mark kan meedoen en zich welkom kan voelen;
+5. sfeer en visueel oordeel;
+6. historische, institutionele, lineage- en traditiebevestiging;
+7. nabijheid en logische combinatie;
+8. praktische controles;
+9. adviserend besluit door INDIA2.
+
+Verder:
+
+- [ ] eenvoudige Nederlandse herkenningshaak bij iedere plaatsnaam;
+- [ ] geen claims-, state-, hash- of protocoljargon in
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=703 path=pipeline/QUALITY_GATE.md blob_sha=8c9d39ed09e8992d785baf15d727a920ccdbb0c0 original_offset=4096 original_length=1466 payload_bytes=1466 chunk_index=1 chunk_count=2 classification=text
+ Marks rapport;
+- [ ] technische onzekerheden domineren de spirituele betekenis niet;
+- [ ] rapport is compact en beslisgericht;
+- [ ] BRONS, ZILVER en GOUD kennen geen formele of adviserende A/B/C toe;
+- [ ] INDIA2 gebruikt `ADVIES A/B/C` uitsluitend als advies;
+- [ ] eindregel is ondubbelzinnig: `BEZOEKEN`, `MISSCHIEN` of `NIET BEZOEKEN`;
+- [ ] alleen Mark wijzigt formele A/B/C-statussen.
+
+## G. Vrijgavestatus
+
+- `PASS`: technische integriteit en alle voor deze scope verplichte inhoudslagen zijn voldoende behandeld;
+- `PARTIAL`: dossier is betrouwbaar bruikbaar maar concrete niet-fatale gaten blijven zichtbaar;
+- `BLOCKED`: technische integriteit, kerncontext of overdracht verhindert betrouwbare oplevering.
+
+Een praktisch toegangstekort maakt een spiritueel of traditioneel bevestigde plek niet automatisch inhoudelijk zwak. Maximaal vijf hoogste gaten worden concreet genoemd; Marks rapport vertaalt ze naar begrijpelijke controles.
+
+## H. Proportionaliteitscontrole
+
+Voor iedere voorgenomen pipelinewijziging:
+
+- [ ] lost zij een werkelijk waargenomen fout op of bespaart zij Mark aantoonbaar werk;
+- [ ] kan hetzelfde doel eenvoudiger binnen bestaande bestanden worden bereikt;
+- [ ] vertraagt zij geen actieve onderzoeksrun;
+- [ ] is de wijziging nodig voor maximaal circa twintig gecontroleerde sweeps, niet voor een hypothetisch autonoom platform;
+- [ ] wordt protocolgroei voorkomen wanneer een template- of rolcorrectie volstaat.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=704 path=pipeline/README.md blob_sha=0f2cd90a90dff1350698599de2a2416993ce92cc original_offset=0 original_length=3768 payload_bytes=3768 chunk_index=0 chunk_count=1 classification=text
+# BRONS–ZILVER–GOUD-pijplijn v2.1
+
+## Status
+
+**IMPLEMENTATIE GEREED VOOR INTEGRATIETEST.**
+
+De architectuur en transitionregels zijn aanwezig. De pipeline wordt pas `OPERATIONEEL BEWEZEN` genoemd nadat één volledige end-to-end proefrun BRONS → controller → ZILVER → controller → GOUD zonder protocolfout is afgerond.
+
+## Doel
+
+Eén onderzoeksrun wordt in drie opeenvolgende, volledig nieuwe AI-sessies opgebouwd. GitHub is het enige overdrachtskanaal.
+
+1. **BRONS** detecteert breed en bouwt de eerste volledige faseversie.
+2. **CONTROLLER** valideert BRONS en genereert het gepinde ZILVER-contextmanifest.
+3. **ZILVER** verifieert, spreekt tegen, vult aan en bouwt een volledige verbeterde faseversie.
+4. **CONTROLLER** valideert ZILVER en genereert het gepinde GOUD-contextmanifest.
+5. **GOUD** synthetiseert, valideert en levert het enige dossier voor de regisseur.
+
+De onderzoeksrollen en controller kunnen worden uitgevoerd door iedere AI die de repository volledig kan lezen én schrijven en het betreffende contract volgt. Modellen zonder GitHub-write kunnen deze rollen niet uitvoeren.
+
+## Start
+
+Iedere uitvoerende onderzoekssessie begint bij `pipeline/ENTRYPOINT.md` met alleen een run-id en rol. Controllertransitions beginnen bij `pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md`. Er wordt geen voorgangerrapport in de chat geplakt.
+
+Bij runcreatie bestaat alleen `BRONS_CONTEXT.yaml`. ZILVER en GOUD krijgen hun contextmanifest pas nadat de controller de vorige fase volledig heeft gevalideerd en op de definitieve resultaatcommit heeft gepind.
+
+## Architectuur
+
+- `knowledge/methodology/` — generieke onderzoeksmethodologie;
+- `knowledge/project/` — India-specifieke overlays en projectdata;
+- `pipeline/roles/` — modelonafhankelijke rolcontracten;
+- `pipeline/protocols/` — uitvoering, context, controllertransitions en bewijs;
+- `pipeline/templates/` — run- en artifacttemplates;
+- `research/active/<run-id>/` — geïsoleerde lopende run;
+- `research/completed/<run-id>/` — afgeronde, standaard niet-ingelezen run.
+
+## Verplichte principes
+
+- Nooit “lees de repository”; altijd “lees het gepinde contextmanifest”.
+- Iedere run is geïsoleerd.
+- Iedere fase schrijft naar haar eigen map.
+- De worker genereert nooit het contextmanifest van zijn opvolger.
+- Iedere transition wordt door een apart geactiveerde controller uitgevoerd.
+- Rapporten zijn logisch volledig maar fysiek opgesplitst.
+- Geen primair bestand boven 1500 regels.
+- Claims en bronnen zijn ook machineleesbaar vastgelegd.
+- Iedere tekstartifact eindigt met `END_OF_ARTIFACT`.
+- Geen `COMPLETED` zonder herlezing en validatie.
+- Geen protocolwijziging midden in een run.
+- Alleen Mark kent A/B/C toe.
+
+## Methodologie
+
+Methodology v2.0 onderzoekt blijvende spirituele bestemmingen via afzonderlijke lagen: fysieke identiteit, institutionele identiteit, historische identiteit, traditie, lineage, levende praktijk, bezoekbaarheid en getuigenissen.
+
+Verschillende soorten onderbouwing worden nooit samengevoegd tot één totaalscore. Mythische of bovennatuurlijke figuren worden onderzocht via gedragen traditie en lineage, niet via een onmogelijke klassieke biografische bewijsproef.
+
+Projectspecifieke interpretatie-overlays staan apart in `knowledge/project/OVERLAYS_INDIA.md`.
+
+## Doorontwikkeling
+
+India2, Claude, ChatGPT en andere bevoegde schrijvers mogen de pipeline na een run verbeteren via een expliciete commit of pull request. Iedere verbetering:
+- benoemt een waargenomen fout of kwaliteitswinst;
+- controleert gevolgen voor alle drie rollen en de controller;
+- verhoogt `pipeline/VERSION.md`;
+- respecteert AI_RULES en Marks exclusieve beslissingsrecht;
+- verandert nooit stil de gepinde regels van een actieve run.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=705 path=pipeline/START_PROMPTS.md blob_sha=f387a6214b37fbb26fd1fc3e3c438f78c912e276 original_offset=0 original_length=2590 payload_bytes=2590 chunk_index=0 chunk_count=1 classification=text
+# Minimale activaties
+
+Iedere rol draait in een volledig nieuwe chat met GitHub-lees- en schrijfrechten. Er wordt geen rapporttekst tussen chats geplakt.
+
+## BRONS
+
+```text
+Open pipeline/ENTRYPOINT.md in repository bnzgxknwrv-tech/india-knowledge-base. Voer rol BRONS uit voor run <run-id>. Lees uitsluitend het gepinde contextmanifest. Schrijf alle resultaten naar GitHub en stop bij ontbrekende write-toegang, SHA-afwijking, truncatie, geldige bestaande claim of state-desynchronisatie.
+```
+
+## CONTROLLER na BRONS
+
+```text
+Open pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md in repository bnzgxknwrv-tech/india-knowledge-base. Voer de controllertransition uit voor run <run-id> van BRONS_COMPLETE naar READY_FOR_ZILVER. Valideer BRONS volledig, genereer ZILVER_CONTEXT.yaml op de definitieve BRONS-resultaatcommit en schrijf uitsluitend de toegestane transitionbestanden.
+```
+
+## ZILVER
+
+```text
+Open pipeline/ENTRYPOINT.md in repository bnzgxknwrv-tech/india-knowledge-base. Voer rol ZILVER uit voor run <run-id>. Lees uitsluitend het door de controller gepinde contextmanifest en haal de volledige BRONS-output uit GitHub. Schrijf alle resultaten naar GitHub en stop bij ontbrekende write-toegang, SHA-afwijking, truncatie, geldige bestaande claim of state-desynchronisatie.
+```
+
+## CONTROLLER na ZILVER
+
+```text
+Open pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md in repository bnzgxknwrv-tech/india-knowledge-base. Voer de controllertransition uit voor run <run-id> van ZILVER_COMPLETE naar READY_FOR_GOUD. Valideer ZILVER volledig, genereer GOUD_CONTEXT.yaml op de definitieve ZILVER-resultaatcommit en schrijf uitsluitend de toegestane transitionbestanden.
+```
+
+## GOUD
+
+```text
+Open pipeline/ENTRYPOINT.md in repository bnzgxknwrv-tech/india-knowledge-base. Voer rol GOUD uit voor run <run-id>. Lees uitsluitend het door de controller gepinde contextmanifest en haal de volledige ZILVER-output uit GitHub. Schrijf het definitieve dossier en vrijgavebesluit naar GitHub en stop bij ontbrekende write-toegang, SHA-afwijking, truncatie, geldige bestaande claim of state-desynchronisatie.
+```
+
+## Regisseur
+
+De regisseur ontvangt alleen:
+- run-id;
+- GOUD-commit;
+- pad naar `GOUD/manifest.yaml` en `GOUD/report/INDEX.md`;
+- status `PASS`, `PARTIAL` of `BLOCKED`.
+
+BRONS en ZILVER blijven zichtbaar in hun eigen runmappen voor controle en latere verbetering van de werkwijze.
+
+Alle uitvoerende rollen en controllertransitions vereisen GitHub-lees- en schrijfrechten. Modellen zonder deze rechten kunnen geen BRONS-, ZILVER-, GOUD- of controllerworker zijn.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=706 path=pipeline/SUBREGIE_INDIA_PROPOSAL.md blob_sha=b183f91a13f6c28c1bbcd6641e21a77cc0db5347 original_offset=0 original_length=3628 payload_bytes=3628 chunk_index=0 chunk_count=1 classification=text
+# Voorstel aan INDIA2 — vaste inzet van SUBREGIE INDIA
+
+## Wie SUBREGIE INDIA is
+
+SUBREGIE INDIA is de vaste technische en methodologische uitvoeringsregie voor de BRONS–ZILVER–GOUD-pipeline.
+
+De rol bestaat om INDIA2 inhoudelijk schoon te houden. INDIA2 hoeft niet langer te werken met workerprompts, GitHub-claims, state-events, source commits, contextmanifesten, protocolreparaties of completionvalidatie.
+
+## Wat SUBREGIE INDIA voor INDIA2 doet
+
+SUBREGIE INDIA:
+
+- zet onderzoeksruns technisch op;
+- maakt en controleert de startopdrachten voor BRONS, ZILVER en GOUD;
+- begeleidt Mark door de drie afzonderlijke workerchats;
+- valideert iedere completion;
+- verzorgt controllertransitions;
+- repareert technische runfouten binnen de toegestane grenzen;
+- leert van iedere herhaalbare fout en verbetert rollen, protocollen, templates en validators voor volgende runs;
+- bewaakt dat actieve runs hun gepinde versie blijven volgen;
+- valideert het definitieve GOUD-dossier;
+- levert INDIA2 alleen de inhoudelijke einduitkomst, blockers en benodigde regisseursbesluiten.
+
+## Wat al is gebouwd en uitgevoerd
+
+SUBREGIE INDIA heeft:
+
+1. de chat-gecentreerde pipeline vervangen door een GitHub-native systeem;
+2. Methodology v2.0, projectoverlays en afzonderlijke BRONS-, ZILVER- en GOUD-contracten ingericht;
+3. controllertransitions toegevoegd zodat opvolgercontexten pas na predecessorvalidatie ontstaan;
+4. claim-locks, state/eventlog, source pinning, sentinels, manifests en completionmarkers ingericht;
+5. continuous learning toegevoegd zodat fouten structureel worden geregistreerd en verwerkt;
+6. de eerste end-to-end integratierun begeleid;
+7. BRONS gevalideerd en een dangling rejected-source-ID gerepareerd;
+8. een foutieve branch-headinterpretatie en state/event-desynchronisatie opgelost;
+9. ZILVER gevalideerd en de GOUD-context opgebouwd;
+10. GOUD ontvangen voor definitieve validatie.
+
+## Actuele run
+
+Run: `VRINDAVAN-INTEGRATION-001`
+
+GOUD meldde:
+
+- status `PARTIAL`;
+- completioncommit `5c0f37a31547f9e62bb1fc94965d1ccd4cf5bb80`;
+- geen archivering;
+- geen regisseurtransition.
+
+De repository toont een coherente GOUD_PARTIAL-state met afgeronde artifacts. De resterende blockers zijn inhoudelijk, niet technisch:
+
+- AOAY-dubbele verificatie;
+- actuele bezoekbaarheid;
+- officiële actuele bron voor beheer en praktijk van Neem Karoli Baba Ashram Vrindavan;
+- objectniveau operationeel beheer van verspreide Braj-objecten;
+- levende praktijk bij Kusum Sarovar.
+
+## Wat INDIA2 voortaan verplicht doorstuurt
+
+INDIA2 stuurt zonder eigen technische verwerking altijd door naar SUBREGIE INDIA:
+
+- iedere opdracht voor een nieuwe pipeline-run;
+- ieder BRONS-, ZILVER- of GOUD-completionbericht;
+- ieder BLOCKED-bericht;
+- iedere connector-, SHA-, hash-, truncatie-, claim-, state- of eventfout;
+- iedere transition- of archiveringsvraag;
+- iedere klacht of wijzigingswens over rollen, protocollen, prompts, templates, validators of workflowtempo;
+- ieder vermoeden van informatieverlies tussen fasen.
+
+## Wat INDIA2 wel zelf houdt
+
+INDIA2 houdt uitsluitend:
+
+- projectoverzicht;
+- inhoudelijke koers;
+- keuze welke regio of onderzoeksvraag volgt;
+- verwerking van het gevalideerde GOUD-dossier;
+- formulering van inhoudelijke vragen voor Mark;
+- bewaking van de samenhang tussen alle India-clusters.
+
+## Afspraak
+
+De pipeline is daarmee een onderliggende productiestraat. INDIA2 is opdrachtgever en inhoudelijke hoofdregisseur. SUBREGIE INDIA is de verplichte uitvoerings- en kwaliteitsregie. Mark ontvangt alleen noodzakelijke startopdrachten, korte statusmeldingen en inhoudelijke beslispunten.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=707 path=pipeline/VERSION.md blob_sha=e58203fad49842e5e4c8daa04ce45511b424e552 original_offset=0 original_length=3591 payload_bytes=3591 chunk_index=0 chunk_count=1 classification=text
+# Pipelineversie
+
+**Versie:** 3.0.0  
+**Status:** gereed voor gecontroleerde regressie en volgende plaats-sweeps  
+**Datum:** 2026-07-15
+
+## 3.0.0
+
+Aanleiding:
+
+- Vrindavan bewees dat de technische keten werkt, maar de inhoudelijke rapportage werd te juridisch, defensief en technisch;
+- lineage- en traditiebevestiging werden te vaak behandeld als onvoltooide historie;
+- devotionele reden, deelname, sfeer, beelden en nabijheid ontbraken structureel;
+- Mark wil compacte beslisdata voor meerdere volgende clusters, niet eerst een omvangrijk autonoom platform.
+
+Gewijzigd gedrag:
+
+- Methodology v3 introduceert gelijkwaardige historische, institutionele, lineage-, traditie-, ervarings- en praktische bevestigingsdomeinen;
+- Babaji- en AOAY-regels zijn aangepast aan Marks pelgrimsdoel;
+- BRONS, ZILVER en GOUD onderzoeken voortaan verplicht devotionele reden, concrete praktijk, deelname, sfeer, actuele reviews, tien beeldfuncties en nabijheid;
+- Quality Gate v3 controleert ook mensentaal, visueel dossier, clustercompleetheid en proportionaliteit;
+- herkenningshaken zijn verplicht bij herhaalde Indiase plaatsnamen;
+- INDIA2 gebruikt een compact beslisrapport met adviserend A/B/C; alleen Mark wijzigt formele status;
+- A betekent bezoeken, B misschien, C niet bezoeken en C weegt 0 in basisanalyse;
+- A-ankers, A-naar-rest-reistijden, loopclusters en totale extra tijd worden beslisrelevant;
+- iedere metaalopdracht begint met een expliciete GitHub-read/write-preflight;
+- SUBREGIE gebruikt een beperkte post-run verbeterloop en vermijdt protocolgroei zonder aantoonbaar rendement;
+- batchplan voorbereid voor BRAJ-COMPLETE, ARUNACHALA-TIRUVANNAMALAI en KUMAON-BABAJI-KRIYA-NKB.
+
+Belangrijkste nieuwe bestanden:
+
+- `pipeline/reviews/FIRST_GENERATION_SWEEP_AUDIT.md`;
+- `pipeline/plans/CLUSTER_BATCH_PLAN_001.md`;
+- `pipeline/templates/COMPACT_DECISION_REPORT_TEMPLATE.md`;
+- `pipeline/regression/VRINDAVAN_METHOD_V3_EXAMPLES.md`.
+
+Vervangen regels:
+
+- historische documentatie is niet langer de impliciete hoogste ladder voor lineage- en traditieclaims;
+- AOAY vereist niet langer uitsluitend gecontroleerde editie plus exacte perceelsidentificatie voor projectbevestiging;
+- praktische onzekerheid staat niet meer vóór spirituele betekenis in Marks rapport;
+- C is geen lage prioriteit maar niet bezoeken;
+- individuele plekbeoordeling wacht wanneer ononderzochte clustercontext routewaarde wezenlijk kan veranderen.
+
+Verwachte winst:
+
+- inhoudelijk rijkere eerste sweep;
+- minder supplementruns voor ontbrekende devotionele en praktische lagen;
+- betere modelonafhankelijke verificatie;
+- kortere rapporten voor Mark;
+- minder technische tussenberichten;
+- veilig hergebruik over meerdere geografische clusters zonder overengineering.
+
+## 2.4.1
+
+`CONTROLLED_MANUAL_FAST` ingevoerd: onderzoeksvoortgang boven hypothetische platformarchitectuur; één actieve schrijvende actie en geen n8n/lease/event-sourcingbouw in deze projectfase.
+
+## 2.4.0
+
+Zelfroutering, vaste volgende actie voor Mark, universele startopdracht en automatiseringsroadmap ingevoerd.
+
+## 2.3.0
+
+SUBREGIE INDIA en de schone interface met INDIA2 ingevoerd.
+
+## 2.2.1
+
+Source-commitsemantiek gecorrigeerd: onafhankelijke branch-headwijziging blokkeert niet wanneer gepinde blobs gelijk blijven.
+
+## 2.2.0
+
+Continuous learning en cross-register source-ID-validatie ingevoerd.
+
+## Wijzigingsregel
+
+Actieve en voltooide runs blijven op hun gepinde versies en artifacts. Nieuwe runs gebruiken versie 3.0.0 pas nadat INDIA2 de regressie-uitkomst heeft beoordeeld en een nieuwe run expliciet activeert.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=708 path=pipeline/directives/INDIA2-2026-07-14-DEVOTIONAL-METHODOLOGY-REVISION.md blob_sha=e59ed312d90951d1f50d3b3d409d3de4992c69c5 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# INDIA2 -> SUBREGIE INDIA — devotionele methodologiecorrectie
+
+## Status
+
+`READY_FOR_SUBREGIE_IMPLEMENTATION`
+
+## Gezaghebbend besluit
+
+Lees en implementeer volledig:
+
+`decisions/DECISION-0005-tradition-confirmation-devotional-reporting-and-advisory-ratings.md`
+
+## Aanleiding
+
+De Vrindavan-integratie- en aanvullingsrun hebben technisch en bronmatig goed gewerkt, maar de projectinterpretatie en mensentaalrapportage zijn te juridisch geworden. De pipeline behandelt lineage-, traditie- en AOAY-relaties nog te vaak als zwakke of onvoltooide versies van onafhankelijk historisch bewijs. Dat past niet bij Marks pelgrimsdoel.
+
+Voor Mark is gezaghebbende, intern consistente overlevering van belangrijke swami's, directe leerlingen, officiële ashrams, trusts en guru-parampara's zelfstandige bevestiging. Dit moet zichtbaar worden zonder historische documentatie en traditie op één hoop te gooien.
+
+## Opdracht
+
+Voer een structurele pipeline- en methodologie-update uit voor toekomstige runs. Wijzig geen reeds gepinde of voltooide onderzoeksoutput.
+
+Minimaal aanpassen:
+
+1. `knowledge/methodology/METHODOLOGY_V2.md`
+2. `pipeline/protocols/EVIDENCE_PROTOCOL.md`
+3. `pipeline/QUALITY_GATE.md`
+4. `pipeline/roles/BRONS.md`
+5. `pipeline/roles/ZILVER.md`
+6. `pipeline/roles/GOUD.md`
+7. `pipeline/roles/SUBREGIE_INDIA.md`
+8. relevante rapport- en runtemplates
+9. `pipeline/VERSION.md`
+10. eventuele projectoverlays die nog standaard naar een historisch bewijsmodel terugvallen
+
+## Vereiste inhoudelijke wijzigingen
+
+### A. Twee gelijkwaardige bevestigingsdomeinen
+
+Maak expliciet onderscheid tussen:
+
+- historische/documentaire bevestiging;
+- institutionele bevestiging;
+- lineagebevestiging;
+- traditiebevestiging;
+- ervaringsgerichte bezoekersmeldingen;
+- actuele praktische verificatie.
+
+Lineage- en traditiebevestiging zijn geen inferieure vormen van historische bevestiging. Zij beantwoorden een andere vraag.
+
+Voeg machineleesbare statussen toe of herstructureer het claimmodel zodat ten minste zichtbaar kan zijn:
+
+- `HISTORICALLY_DOCUMENTED`
+- `INSTITUTIONALLY_CONFIRMED`
+- `LINEAGE_CONFIRMED`
+- `TRADITION_CONFIRMED`
+- `EXPERIENTIALLY_REPORTED`
+- `PRACTICAL_CHECK_REQUIRED`
+
+De precieze namen mogen technisch worden verbeterd, maar de semantiek mag niet worden afgezwakt.
+
+### B. Babaji-regel
+
+Verwijder iedere impliciete vraag naar klassieke biografische bewijsbaarheid van Mahavatar Babaji.
+
+Een Babaji-plaats wordt onderzocht via:
+
+- getuigenis van belangrijke swami's en lijnhouders;
+- directe leerlingen en guru-parampara;
+- officiële lineagegeschiedenis;
+- onderlinge consistentie van de overlevering;
+- de fysieke plek en levende praktijk die daaruit zijn voortgekomen.
+
+Een geloofwaardige directe lijnbron telt voor Marks project als bevestiging.
+
+### C. AOAY-regel
+
+Herzie de huidige dubbele-verificatieregel.
+
+Een gecontroleerde editie en exacte historische perceelsidentificatie blijven nuttig voor documentair detail, maar zijn niet langer de enige poort naar projectbevestiging.
+
+Wanneer:
+
+1. AOAY een relevante persoon, ontmoeting of Vrindavan-relatie beschrijft; en
+2. de huidige officiële instelling of lineage de eigen fysieke plek met die relatie identificeert;
+
+is de plek voor Marks reisdoel `PROJECT_CONFIRMED`, tenzij concrete tegenspraak bestaat.
+
+Rapporteer wie de koppeling draagt en hoe sterk deze is. Gebruik niet automatisch `POSSIBLE` alleen omdat moderne juridische locatiezekerheid ontbreekt.
+
+### D. Devotionele onderzoekslaag
+
+Maak per kandidaat verplicht:
+
+- waarom devotees hierheen gaan;
+- wie of wat zij er vereren;
+- welke spirituele behoefte of welk ideaal centraal staat;
+- wat zij er concreet doen;
+- welke rituelen een respectvolle bezoeker zelf kan volgen;
+- of buitenlandse, niet-hindoeïstische of niet-ingewijde spirituele bezoekers welkom zijn;
+- hoe deelname werkt;
+- etiquette, kleding, fotografie, stilte en donaties;
+- hoe de sfeer terugkerend wordt beschreven.
+
+Sta voor sfeer en gastvrijheid zorgvuldig geselecteerde ervaringsbronnen toe, waaronder devotees, bezoekersverslagen, interviews en video's. Label deze als ervaringsmateri
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=709 path=pipeline/directives/INDIA2-2026-07-14-DEVOTIONAL-METHODOLOGY-REVISION.md blob_sha=e59ed312d90951d1f50d3b3d409d3de4992c69c5 original_offset=4096 original_length=2464 payload_bytes=2464 chunk_index=1 chunk_count=2 classification=text
+aal; sluit ze niet uit omdat zij geen historische kernbron zijn.
+
+### E. Marks rapporttemplate
+
+Verplicht deze volgorde per plek:
+
+1. Wat voor plaats is dit?
+2. Waarom devotees hierheen gaan.
+3. Wat mensen er doen.
+4. Kan Mark meedoen en zich welkom voelen?
+5. Sfeer.
+6. Historische, institutionele, lineage- en traditiebevestiging.
+7. Praktische controles vlak voor of tijdens het bezoek.
+8. Adviserend A/B/C met reden.
+
+Waarschuwingen en beheeronzekerheden mogen de spirituele betekenis niet domineren.
+
+### F. Adviserend A/B/C
+
+Behoud Marks exclusieve bevoegdheid om formele A/B/C-statussen toe te kennen.
+
+Sta INDIA2 echter toe om per kandidaat `ADVIES A`, `ADVIES B` of `ADVIES C` te geven met een concrete inhoudelijke reden. Dit advies wijzigt geen `LOCKED_A.md`, `LOCKED_B.md`, andere statusbestanden of projectrecords zonder Marks expliciete besluit.
+
+BRONS, ZILVER en GOUD verzamelen hiervoor wel de benodigde informatie, maar kennen zelf geen advies of status toe, tenzij INDIA2 dit voor een specifieke eindrapportage expliciet opdraagt.
+
+### G. Taal
+
+Verwijder systeemjargon uit Marks rapporten.
+
+Gebruik bijvoorbeeld:
+
+- `heilige vijver of ritueel waterbekken (kund)`;
+- `pelgrimsrondgang (parikrama)`;
+- `samadhi-heiligdom` of `vereerde laatste rustplaats`;
+- `spirituele lerarenlijn (lineage)`;
+- `levende devotionele praktijk`.
+
+## Regressiecontrole
+
+Gebruik de acht kandidaten uit de twee Vrindavan-runs als regressieset. Controleer dat een nieuw mensentaalrapport:
+
+- de devotionele reden per plek als eerste zichtbaar maakt;
+- beschrijft wat mensen er doen;
+- gastvrijheid en deelname onderzoekt;
+- Katyayani Peeth niet langer onnodig degradeert door advocaat-achtige AOAY-eisen;
+- lineageclaims van belangrijke swami's als projectbevestiging kan behandelen;
+- praktische onzekerheden wel behoudt maar niet laat overheersen;
+- adviserend A/B/C kan leveren zonder Marks formele statusrechten te schenden.
+
+## Uitvoer
+
+1. Schrijf de volledige methodologie- en pipelinewijziging naar GitHub.
+2. Verhoog de relevante versies.
+3. Leg uit welke oude regels zijn vervangen.
+4. Maak een nieuw voorbeeldrapport of templatefragment voor ten minste Katyayani Peeth, Neem Karoli Baba Ashram en Radha Kund.
+5. Werk `pipeline/NEXT_ACTION.yaml` na voltooiing bij naar de juiste volgende bestemming.
+6. Routeer het technisch en inhoudelijk samengevatte resultaat terug naar INDIA2.
+
+Ken tijdens deze implementatie geen formele A/B/C-status toe.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=710 path=pipeline/directives/INDIA2-2026-07-14-PHOTOS-STRICT-ABC-ADDENDUM.md blob_sha=7d3b89247398895fcbd152f7e620311c8c297c30 original_offset=0 original_length=1989 payload_bytes=1989 chunk_index=0 chunk_count=1 classification=text
+# INDIA2 -> SUBREGIE INDIA — addendum foto's en strikte A/B/C
+
+## Status
+
+`READY_FOR_SUBREGIE_IMPLEMENTATION`
+
+## Gezaghebbend besluit
+
+Lees en implementeer volledig:
+
+`decisions/DECISION-0007-photos-and-strict-abc-semantics.md`
+
+Dit addendum hoort bij:
+
+- `decisions/DECISION-0005-tradition-confirmation-devotional-reporting-and-advisory-ratings.md`
+- `decisions/DECISION-0006-place-experience-proximity-and-base-selection.md`
+- `pipeline/directives/INDIA2-2026-07-14-DEVOTIONAL-METHODOLOGY-REVISION.md`
+
+## Verplichte aanvullingen
+
+1. Verplicht per kandidaat minimaal tien representatieve foto's of een expliciet gedocumenteerd beeldtekort.
+2. Eis verschillende visuele functies: totaalbeeld, toegang, heilig middelpunt, devotees, rustplek, normale drukte, piekdrukte, omgeving/commercie, onderhoud/netheid en dagdeelsfeer.
+3. Gebruik foto's en bezoekersmateriaal voor uiterlijk, sfeer, drukte, netheid en praktische ervaring; niet voor bovennatuurlijke claims.
+4. Leg in Marks rapport per plek een beknopt maar concreet visueel oordeel vast op basis van de volledige set.
+5. Wijzig A/B/C-semantiek:
+   - A = bezoeken;
+   - B = misschien;
+   - C = niet bezoeken.
+6. Verwijder iedere basis- of hotelweging voor C. C krijgt gewicht 0.
+7. Houd intrinsiek advies en routeadvies apart, maar geef altijd één ondubbelzinnige eindbeslissing: BEZOEKEN, MISSCHIEN of NIET BEZOEKEN.
+8. Gebruik de acht Vrindavan-kandidaten als regressietest voor de nieuwe visuele en beslislaag.
+9. Lever na implementatie een nieuw compleet Vrindavan-voorbeeldrapport waarin devotie, deelname, sfeer, visueel oordeel, nabijheid en strikte bezoekbeslissing geïntegreerd zijn.
+
+## Uitvoer
+
+- wijzig methodologie, evidence-regels, relevante rollen, quality gate en rapporttemplates;
+- verhoog pipeline- en methodologieversies waar nodig;
+- wijzig geen voltooide run-artifacts;
+- routeer het gevalideerde resultaat naar INDIA2;
+- ken geen formele LOCKED-status toe zonder Marks expliciete besluit.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=711 path=pipeline/directives/INDIA2-2026-07-14-PLACE-EXPERIENCE-PROXIMITY-REVISION.md blob_sha=e65a31fcfe9265a1ab31f1df54ccfeefc7d50a45 original_offset=0 original_length=2445 payload_bytes=2445 chunk_index=0 chunk_count=1 classification=text
+# INDIA2 -> SUBREGIE INDIA — plaatsbeleving, reviewanalyse en nabijheidsmatrix
+
+## Status
+
+`QUEUED_AFTER_DECISION_0005_IMPLEMENTATION`
+
+## Gezaghebbend besluit
+
+Lees en implementeer na afronding van de actieve devotionele methodologiecorrectie:
+
+`decisions/DECISION-0006-place-experience-proximity-and-base-selection.md`
+
+## Doel
+
+Voeg een afzonderlijke ervarings- en ruimtelijke laag toe zonder de inhoudelijke spirituele beoordeling te vermengen met praktische nabijheid.
+
+## Minimaal aanpassen
+
+- methodologie en quality gate;
+- BRONS-, ZILVER- en GOUD-rollen waar belevingsonderzoek of broncontrole nodig is;
+- Marks rapporttemplate;
+- route-/clusterfase;
+- een schema voor reviewmomentopnamen;
+- een schema voor volledige onderlinge afstands- en reistijdmatrices;
+- een transparant model voor intrinsiek advies versus routeadvies;
+- versie- en changelogbestanden.
+
+## Review- en sfeeronderzoek
+
+Per kandidaat waar mogelijk verzamelen:
+
+- Google Maps-rating, reviewaantal en peildatum;
+- Tripadvisor-rating, reviewaantal en peildatum;
+- recente reviewthema's over schoonheid, sfeer, rust, chaos, netheid, commercie, devotie, gastvrijheid en toegankelijkheid;
+- actuele bezoekersfoto's;
+- verschillen tussen devotees en algemene toeristen;
+- verschillen naar dagdeel en festivalperiode.
+
+Gebruik reviewplatforms uitsluitend voor ervarings- en praktijkclaims, niet voor historische of spirituele gebeurtenisclaims.
+
+## Nabijheid
+
+Maak na kandidatenonderzoek een matrix met voor ieder locatiepaar:
+
+- wegafstand;
+- realistische reistijd;
+- looptijd wanneer relevant;
+- routebeperkingen;
+- peildatum en bron.
+
+Voeg na Marks selectie een basisgebiedanalyse toe. Kies eerst het beste gebied op gewogen bereikbaarheid van A/B/C-plekken en pas daarna concrete hotels.
+
+## Regressieset
+
+Gebruik de acht kandidaten uit de Vrindavan-runs. Lever minimaal:
+
+- plaatsbelevingsprofiel per kandidaat;
+- reviewmomentopname waar beschikbaar;
+- onderlinge reistijdmatrix;
+- intrinsiek advies en routeadvies;
+- vergelijking van mogelijke basisgebieden;
+- voorbeeld waarin een intrinsieke C door één minuut extra lopen `ROUTE A` wordt zonder de intrinsieke beoordeling te vervalsen.
+
+## Afhankelijkheid
+
+Wijzig `pipeline/NEXT_ACTION.yaml` nu niet. De actieve opdracht voor DECISION-0005 blijft leidend. Activeer deze directive pas nadat SUBREGIE INDIA de devotionele methodologiecorrectie heeft afgerond en naar INDIA2 heeft teruggerouteerd.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=712 path=pipeline/directives/INDIA2-2026-07-15-PARALLEL-CLUSTER-BATCH-AND-COMPACT-REPORTS.md blob_sha=275f5c72fea42a03b60d42c1babbbe3d47ef4e82 original_offset=0 original_length=2939 payload_bytes=2939 chunk_index=0 chunk_count=1 classification=text
+# INDIA2 -> SUBREGIE INDIA — parallelle clusterbatch en compacte beslisrapporten
+
+## Status
+
+`READY_FOR_SUBREGIE_IMPLEMENTATION`
+
+## Gezaghebbende beslissing
+
+Lees en implementeer volledig:
+
+`decisions/DECISION-0010-parallel-cluster-batch-and-compact-decision-reports.md`
+
+## Opdracht
+
+Neem deze uitbreiding mee in de reeds geplande methodologie- en pipeline-update. Overschrijf geen voltooide run-artifacts.
+
+### A. Controleer eerdere vraagkwaliteit
+
+Controleer de eerste generatie clusterprompts en antwoorden op:
+
+- te smalle geografische scope;
+- beslissingen voordat omliggende plaatsen waren onderzocht;
+- juridisch bewijsmodel bij lineage- en traditieclaims;
+- ontbreken van concrete devotionele praktijk;
+- ontbreken van buitenlandse-bezoekersdeelname;
+- onvoldoende actuele belevings- en reviewdata;
+- ontbreken van A-naar-B/C-reistijden en loopclusters;
+- te omvangrijke of te technische mensentaalrapportage.
+
+Vertaal terugkerende tekortkomingen naar structurele verbeteringen in rollen, templates en quality gate.
+
+### B. Maak een batchplan
+
+Bereid drie samenhangende clusters voor:
+
+1. `BRAJ-COMPLETE`
+2. `ARUNACHALA-TIRUVANNAMALAI`
+3. `KUMAON-BABAJI-KRIYA-NKB`
+
+Per cluster vastleggen:
+
+- centrale onderzoeksvraag;
+- geografische begrenzing;
+- bekende A-ankers;
+- verplichte zoekrichtingen en open detectoren;
+- lineage- en traditie-overlays;
+- benodigde route- en loopclusterdata;
+- afhankelijkheden met bestaand onderzoek;
+- verwachte BRONS/ZILVER/GOUD-artifacts;
+- veilige uitvoeringsvolgorde of parallelisatiestrategie.
+
+Maak geen inhoudelijk willekeurige megasweep. Splits een cluster alleen op wanneer de subclusters later weer verplicht in één geïntegreerde clusterbeoordeling worden samengevoegd.
+
+### C. Compact mensentaalproduct
+
+Maak een verplicht compact beslisrapporttemplate volgens DECISION-0010. Optimaliseer op A/B/C-beslissing, niet op eindgidsvormgeving.
+
+Beperk elk item tot beslisrelevante data. Gebruik eenvoudige Nederlandse herkenningshaken bij iedere plaatsnaam.
+
+### D. Communicatie en zelfrouting
+
+Behoud GitHub als volledige onderlinge overdracht tussen BRONS, ZILVER, GOUD, SUBREGIE INDIA en INDIA2.
+
+Mark ontvangt per betekenisvolle fase slechts:
+
+- cluster;
+- fase;
+- status;
+- completioncommit;
+- maximaal drie gaten;
+- exact één eventuele startzin voor de volgende schone chat.
+
+Mark hoeft geen volledige workeroutputs te kopiëren wanneer de volgende rol deze via een gepind GitHub-contextmanifest kan lezen.
+
+### E. Uitvoer
+
+1. Verwerk DECISION-0010 in de relevante methodologie, rollen, quality gate en templates.
+2. Schrijf een audit van de eerste vraaggeneratie en de aangebrachte verbeteringen.
+3. Schrijf een uitvoerbaar batchplan voor de drie clusters.
+4. Maak een compact rapporttemplate en minimaal één regressievoorbeeld.
+5. Routeer het resultaat terug naar INDIA2.
+6. Activeer onderzoeksruns pas volgens de bestaande controller- en claim-lockprotocollen.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=713 path=pipeline/learning/LESSONS.jsonl blob_sha=cc546dc4bd889653a49b5ef692419a1010e7ad37 original_offset=0 original_length=2715 payload_bytes=2715 chunk_index=0 chunk_count=1 classification=text
+{"lesson_id":"PL-0001","detected_at":"2026-07-13T21:20:00+02:00","run_id":"VRINDAVAN-INTEGRATION-001","phase":"BRONS","error_class":"VALIDATION_GAP","summary":"Claim C-007 referenced rejected source ID R-001, but rejected.jsonl had no source_id fields.","root_cause":"The transition gate required source references to exist but did not explicitly validate both accepted and rejected source registers for unique IDs.","run_repair":"Added R-001 through R-004 to rejected.jsonl and revalidated all BRONS claim source references.","system_change":"Add mandatory cross-register referential-integrity validation to the continuous-learning protocol and quality gate.","changed_files":["pipeline/protocols/CONTINUOUS_LEARNING_PROTOCOL.md","pipeline/QUALITY_GATE.md","pipeline/learning/LESSONS.jsonl"],"pipeline_version":"2.2.0","status":"PATCH_NOW"}
+{"lesson_id":"PL-0002","detected_at":"2026-07-13T21:56:00+02:00","run_id":"VRINDAVAN-INTEGRATION-001","phase":"ZILVER_PREFLIGHT","error_class":"PROTOCOL_GAP","summary":"ZILVER blocked solely because the main branch advanced beyond the pinned source_commit, even though pinned BRONS input blobs had not changed.","root_cause":"Execution Protocol v2.1 conflated branch-head advancement with material drift of required inputs.","run_repair":"Synchronized state/events and amended ZILVER_CONTEXT.yaml to allow independent branch-head advancement when every pinned required-file blob SHA still matches.","system_change":"Define source_commit as an immutable input snapshot reference and block only on required-file drift, truncation, missing files, desynchronization or a valid claim.","changed_files":["pipeline/protocols/EXECUTION_PROTOCOL.md","pipeline/learning/LESSONS.jsonl"],"pipeline_version":"2.2.1","status":"PATCH_NOW"}
+{"lesson_id":"PL-0003","detected_at":"2026-07-15T15:46:00+02:00","run_id":"BRAJ-COMPLETE-001","phase":"GOUD","error_class":"ROLE_INSTRUCTION_GAP","summary":"A long GOUD run exhausted the practical chat execution window after substantial artifacts had been written, forcing Mark to issue a manual resume instruction.","root_cause":"The runtime required completion or blocking but had no mandatory early checkpoint, same-claim resume record or standard RESUME action before session exhaustion.","run_repair":"GOUD resumed the existing claim without creating a second claim and completed successfully as GOUD_PARTIAL.","system_change":"Introduce LONG_RUNNING_EXECUTION_PROTOCOL v1.0 with blockwise commits, CHECKPOINT.yaml, same-claim resume and no repeated research.","changed_files":["pipeline/protocols/LONG_RUNNING_EXECUTION_PROTOCOL.md","pipeline/learning/LESSONS.jsonl"],"pipeline_version":"3.0.0-runtime-1","status":"PATCH_NOW"}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=714 path=pipeline/plans/CLUSTER_BATCH_PLAN_001.md blob_sha=2a74fe5bfcee7429d9f804d7cf96c6e3c26c7f6c original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# Clusterbatchplan 001 — volgende onderzoeksreeks
+
+## Uitgangspunt
+
+De drie clusters worden inhoudelijk parallel voorbereid maar niet gelijktijdig als schrijvende runs geactiveerd zolang de huidige pipeline één globale `NEXT_ACTION.yaml` en één gecontroleerde schrijflus gebruikt.
+
+Veilige werkwijze:
+
+1. alle drie scopes en detectorlijsten voorbereiden;
+2. per keer exact één BRONS-run activeren;
+3. completed BRONS-runs mogen wachten terwijl een andere BRONS-run start, maar `NEXT_ACTION.yaml` wijst steeds naar één actie;
+4. transitions en metalen per run blijven sequentieel;
+5. INDIA2 beoordeelt pas na voldoende clusterdekking;
+6. geen definitief A/B/C-advies voor omliggende plekken die routewaarde nog wezenlijk kan veranderen.
+
+## 1. BRAJ-COMPLETE
+
+### Centrale onderzoeksvraag
+
+Welke fysiek bestaande spirituele bestemmingen in het volledige Braj-gebied zijn voor Marks pelgrimage inhoudelijk, devotioneel en praktisch relevant wanneer Vrindavan, Mathura, Govardhan, Gokul, Barsana, Nandgaon en noodzakelijke tussenliggende gebieden als één geïntegreerd cluster worden beoordeeld?
+
+### Geografische begrenzing
+
+- Vrindavan;
+- Mathura;
+- Govardhan;
+- Gokul en Mahavan;
+- Barsana;
+- Nandgaon;
+- Radha Kund/Shyam Kund-zone;
+- relevante fysieke plaatsen langs Braj- en Govardhan-parikrama;
+- direct aangrenzende plaatsen die nodig zijn om lineages, tradities of routeclusters volledig te begrijpen.
+
+### Bekende A-ankers
+
+- Katyayani Peeth / Keshav Ashram (tempel en Kriya-lineage, Vrindavan);
+- Neem Karoli Baba Ashram en samadhi (Maharaj-ji, Vrindavan).
+
+Andere formele A's uitsluitend uit bestaande LOCKED-records of nieuwe expliciete beslissing van Mark.
+
+### Verplichte zoekrichtingen
+
+- Krishna- en Radha-devotie;
+- Chaitanya/Gaudiya-lineages;
+- Kriya- en AOAY-relaties;
+- Neem Karoli Baba;
+- samadhi-heiligdommen en levende ashrams;
+- kunds, ghats, tempels, geboorte- en gebeurtenisplaatsen;
+- kleine fysieke plekken die in grote toeristische lijsten ontbreken;
+- buitenlandse bezoekersdeelname;
+- actuele sfeer, beelden, drukte, commercie en netheid;
+- A-naar-rest-reistijden en loopclusters.
+
+### Verwachte artifacts
+
+- volledige kandidatenkaart;
+- claims en bronnen per bevestigingsdomein;
+- tienbeelden-dossier of beeldtekort per kandidaat;
+- review- en belevingsprofiel;
+- A-naar-rest-matrix;
+- loopclusters en dagclusters;
+- compact INDIA2-beslisrapport.
+
+### Uitvoeringsvolgorde
+
+Eerst uitvoeren. Het bestaande Vrindavan-onderzoek is predecessorcontext maar vervangt geen volledige Braj-scope.
+
+## 2. ARUNACHALA-TIRUVANNAMALAI
+
+### Centrale onderzoeksvraag
+
+Welke fysieke plekken rond Arunachala vormen samen het volledige devotionele, Ramana-gerelateerde en praktisch beleefbare pelgrimscluster voor Mark?
+
+### Geografische begrenzing
+
+- Arunachala-heuvel;
+- Tiruvannamalai-stad;
+- Sri Ramanasramam;
+- Virupaksha Cave, Skandashram en andere Ramana-verblijfplaatsen;
+- Arunachaleswarar-tempel;
+- volledige en gedeeltelijke giripradakshina;
+- samadhi's, ashrams, grotten, tempels en relevante plekken binnen realistische clusterafstand.
+
+### Bekende ankers
+
+Bestaande A-statussen uit projectrecords verplicht inlezen. Geen A aannemen uit algemene bekendheid.
+
+### Verplichte zoekrichtingen
+
+- Ramana Maharshi en directe leerlingen;
+- Shaiva-traditie van Arunachala;
+- levende meditatie- en ashrampraktijk;
+- berg-, grot- en parikrama-ervaring;
+- toegang, hitte, klimzwaarte, apen, drukte en dagdeel;
+- buitenlandse bezoekersdeelname;
+- visueel dossier per plek;
+- loopclusters en reistijd vanaf hoofdankers.
+
+### Verwachte artifacts
+
+Zelfde kernset als BRAJ-COMPLETE, met extra onderscheid tussen bergroute, grot, ashram, tempel en samadhi.
+
+### Uitvoeringsvolgorde
+
+Tweede run, tenzij INDIA2 een inhoudelijke afhankelijkheid met Kumaon aanwijst.
+
+## 3. KUMAON-BABAJI-KRIYA-NKB
+
+### Centrale onderzoeksvraag
+
+Welke fysiek bestaande en geografisch samenhangende plekken in Kumaon dragen de Mahavatar Babaji/Kriya-, Neem Karoli Baba- en Haidakhan-tradities, en welke subclusters zijn werkelijk combineerbaar?
+
+### Geografische begrenzing
+
+Niet één willekeurige meg
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=715 path=pipeline/plans/CLUSTER_BATCH_PLAN_001.md blob_sha=2a74fe5bfcee7429d9f804d7cf96c6e3c26c7f6c original_offset=4096 original_length=1598 payload_bytes=1598 chunk_index=1 chunk_count=2 classification=text
+asweep. Eerst detectorfase voor:
+
+- Dwarahat/Dunagiri/Kriya-Babaji-zone;
+- Kainchi/Nainital/Neem Karoli Baba-zone;
+- Haidakhan/Kathgodam/Haldwani-zone;
+- andere fysieke plekken alleen wanneer lineage en geografie aantoonbaar aansluiten.
+
+### Verplichte zoekrichtingen
+
+- officiële Kriya-lineages en directe lijnbronnen;
+- AOAY-gerelateerde fysieke identificaties;
+- Neem Karoli Baba-ashrams, samadhi's en levende praktijk;
+- Haidakhan Babaji-traditie;
+- grotten, tempels, ashrams en bergplaatsen;
+- actuele bereikbaarheid, hoogte, wegconditie en seizoensbeperkingen;
+- deelname voor buitenlandse bezoekers;
+- reistijden tussen subclusters;
+- voorkomen dat inhoudelijke verwantschap ten onrechte als praktisch één cluster wordt behandeld.
+
+### Verwachte artifacts
+
+- detector- en subclusterkaart;
+- per subcluster kandidatenkaart en bevestigingsdomeinen;
+- visuele en ervaringslaag;
+- realistische interclusterreistijden;
+- besluit of één of meerdere verblijfsbases nodig zijn;
+- compact INDIA2-beslisrapport.
+
+### Uitvoeringsvolgorde
+
+Derde run. Eerst subclustergrenzen vaststellen; daarna pas een definitieve geïntegreerde Kumaon-beoordeling.
+
+## Communicatie met Mark
+
+Per betekenisvolle fase uitsluitend:
+
+- cluster;
+- fase;
+- status;
+- completioncommit;
+- maximaal drie inhoudelijke gaten;
+- exact één startzin voor de volgende schone chat.
+
+## Geen onveilige parallelisatie
+
+Geen meerdere gelijktijdige schrijvende metaalworkers. Parallel betekent in deze projectfase: scopes, detectoren en context voorbereiden terwijl de uitvoering zelf per actie sequentieel blijft.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=716 path=pipeline/protocols/CONTEXT_PROTOCOL.md blob_sha=872bce45f01e276d76dc65479c09e71dc72a15de original_offset=0 original_length=2579 payload_bytes=2579 chunk_index=0 chunk_count=1 classification=text
+# Context Protocol v2.1
+
+## Regel
+
+Geen rol leest ooit "de repository". Iedere rol leest uitsluitend:
+1. `pipeline/ENTRYPOINT.md`;
+2. zijn gepinde rolcontract;
+3. de gepinde methodologie en protocollen;
+4. zijn fase-contextmanifest;
+5. exact de bestanden die daarin staan.
+
+## Contextmanifest
+
+Per uitvoerbare rol bestaat `research/active/<run-id>/context/<ROLE>_CONTEXT.yaml` met minimaal:
+- `run_id`;
+- `role`;
+- `source_commit`;
+- `protocol_versions`;
+- `required_files`;
+- `optional_files`;
+- `forbidden_files`;
+- `priority_order`;
+- `expected_hashes` waar beschikbaar;
+- `maximum_context_budget`;
+- `predecessor_manifest`;
+- `output_path`.
+
+## Levenscyclus
+
+Bij runcreatie wordt uitsluitend `BRONS_CONTEXT.yaml` definitief gegenereerd.
+
+`ZILVER_CONTEXT.yaml` bestaat pas nadat:
+- BRONS volledig is gecommit;
+- BRONS/manifest.yaml en COMPLETED zijn gevalideerd;
+- de controller de definitieve BRONS-resultaatcommit heeft vastgesteld;
+- alle vereiste BRONS-artifacts en beschikbare hashes zijn gepind.
+
+`GOUD_CONTEXT.yaml` wordt op dezelfde wijze pas na een geldige ZILVER-uitkomst gegenereerd.
+
+Een leeg, voorlopig, PENDING of vooraf gegokt contextmanifest is niet uitvoerbaar en mag niet als required file voor een rol worden gebruikt.
+
+## Selectie
+
+`required_files` bevat alleen wat noodzakelijk is voor de rol. Oude runs, niet-relevante clusters en volledige archieven zijn verboden tenzij expliciet genoemd.
+
+BRONS krijgt scope, controlelijst, projectoverlays, bestaande statussen en relevante records.
+
+ZILVER krijgt het volledige BRONS-outputmanifest en alle daarin verplichte rapport-, claim- en bronbestanden, gepind op de definitieve BRONS-resultaatcommit.
+
+GOUD krijgt het volledige ZILVER-outputmanifest en alleen BRONS-bestanden die expliciet nodig zijn voor verliescontrole, gepind op de definitieve ZILVER-resultaatcommit.
+
+De controller genereert deze manifesten volgens `pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md`.
+
+## Budget en splitsing
+
+- Geen primair bestand boven 1500 regels.
+- Grote kandidatenkaarten worden in genummerde delen gesplitst.
+- `report/INDEX.md` bepaalt de verplichte leesvolgorde.
+- Een rol stopt wanneer een required file niet volledig gelezen kan worden.
+- Optional files worden alleen geopend wanneer het manifest een concrete trigger noemt.
+
+## Determinisme
+
+Een AI mag geen extra repositoryzoektocht starten om "voor de zekerheid" meer interne bestanden te lezen. Extern webonderzoek binnen de rol blijft toegestaan. Ontbrekende interne context wordt een blokkade of expliciet context-gat; geen vrije gok.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=717 path=pipeline/protocols/CONTINUOUS_LEARNING_PROTOCOL.md blob_sha=38186f203d33623fc11476d712410284cb49b95b original_offset=0 original_length=2487 payload_bytes=2487 chunk_index=0 chunk_count=1 classification=text
+# Continuous Learning Protocol v2.2
+
+## Doel
+Iedere tijdens een run gevonden fout wordt beoordeeld als mogelijke systeemles. De controller repareert de actuele run minimaal en bepaalt daarnaast of rolcontract, protocol, template, quality gate, methodologie of projectdata voor toekomstige runs moet worden verbeterd.
+
+## Scheiding
+Een actieve run blijft onder zijn gepinde versies werken.
+
+- `RUN_REPAIR`: minimale traceerbare reparatie van de actuele run.
+- `SYSTEM_LEARNING`: afzonderlijke wijziging voor toekomstige runs.
+
+Een systeemverbetering verandert nooit stil een actieve run.
+
+## Foutklassen
+- `LOCAL_DATA_ERROR`
+- `ROLE_INSTRUCTION_GAP`
+- `PROTOCOL_GAP`
+- `TEMPLATE_GAP`
+- `VALIDATION_GAP`
+- `METHODOLOGY_GAP`
+- `PROJECT_DATA_GAP`
+
+## Verplichte leerbeslissing
+Per fout wordt vastgelegd:
+- fout-ID, run-ID en fase;
+- fout en risico;
+- foutklasse;
+- lokale reparatie;
+- structurele verbetering;
+- betrokken bestanden;
+- beslissing `PATCH_NOW`, `DEFER_WITH_REASON` of `NO_SYSTEM_CHANGE`.
+
+`NO_SYSTEM_CHANGE` mag alleen wanneer bestaande regels al ondubbelzinnig waren en de fout aantoonbaar eenmalig is.
+
+## Automatische verbetering
+Bij `PATCH_NOW` maakt de pipelinebeheerder zonder nieuwe opdracht een afzonderlijke systeemwijziging. Daarbij worden minimaal gecontroleerd:
+- BRONS, ZILVER en GOUD;
+- controllertransition;
+- templates;
+- quality gate;
+- versiegevolgen.
+
+## Communicatie aan Mark
+Bij iedere reparatie- of startopdracht vermeldt de assistent:
+- `ACTUELE REPARATIE:` wat de worker nu moet doen;
+- `SYSTEEMLES:` wat uit de fout is geleerd;
+- `STRUCTURELE VERBETERING:` wat blijvend in GitHub verandert;
+- `ACTIEVE RUN:` of die verbetering op de huidige gepinde run geldt.
+
+## Leerregister
+Alle systeemlessen worden append-only geregistreerd in:
+
+`pipeline/learning/LESSONS.jsonl`
+
+## Verplichte referentiële validatie
+Vóór iedere faseovergang controleert de controller:
+- iedere `source_id` in `claims.jsonl` bestaat in `sources/registry.jsonl` of als unieke ID in `sources/rejected.jsonl`;
+- source-ID’s zijn uniek over beide registers;
+- een afgewezen bron zonder ID mag nergens als claimreferentie voorkomen;
+- manifest- en handoffpaden bestaan;
+- ieder ontdekt defect is volgens dit protocol geclassificeerd.
+
+## Geen schijnleren
+Een chatmelding als “ik onthoud dit” is geen systeemverbetering. Een les geldt pas als verwerkt wanneer zij in het leerregister staat en, bij `PATCH_NOW`, de structurele wijziging op GitHub is vastgelegd.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+

@@ -1,0 +1,946 @@
+>>> CHUNK stream_row=976 path=research/active/KUMAON-COMPLETE-001/run.yaml blob_sha=cc26ba82a8d4fafee228bb7aac5f56d7378880f9 original_offset=4096 original_length=685 payload_bytes=685 chunk_index=1 chunk_count=2 classification=text
+_path: decisions/INDEX.yaml
+      forbid_new_or_changed_abc: true
+      forbid_new_decision_id: true
+      require_mark_decision_on_content_choice: true
+location_id_policy:
+  kumaon_block: 400-499
+  existing_assignments: 400-426
+  reserved_free_range_for_new_kumaon_locations: 427-499
+  renumbering_forbidden: true
+  reuse_forbidden: true
+working_geo_enabled: true
+run_local_complete_kml_required: true
+kml_final_path: research/active/KUMAON-COMPLETE-001/GOUD/KUMAON_COMPLETE.kml
+parallel_writers_allowed: false
+parels_layer_active: false
+successor_contexts_precreated: false
+formal_or_advisory_abc_by_metals_forbidden: true
+new_decision_id_forbidden_without_mark: true
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=977 path=research/active/KUMAON-COMPLETE-001/scope.md blob_sha=bd03682b3169d04a98ec5812e3e5b4925422867b original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+# Scope — KUMAON-COMPLETE-001
+
+## 1. Autoriteit en doel
+
+Deze nieuwe productierun is door Mark aangevraagd nadat het definitieve INDIA2-rapport van `VRINDAVAN-KUMAON-CORRIDOR-001` is ontvangen en geaccepteerd. De oude inhoudelijke corridorbeoordeling wordt niet opnieuw uitgevoerd. De gevalideerde predecessor dient uitsluitend als compacte continuïteitsbron voor bestaande formele statussen, permanente `LOCATION_ID`'s, `WORKING_GEO`-punten en aankomstknooppunten.
+
+Run-type: `CLUSTER_SWEEP`.
+
+Centrale onderzoeksvraag:
+
+> Welke fysiek aanwijsbare spirituele locaties, praktische aankomstpunten, mogelijke bases en onderlinge geografische verbanden moeten in Kumaon volledig zichtbaar en betrouwbaar onderzocht zijn voordat later afzonderlijk het beste aankomststation, de eerste basis, de eerste echte bezoeklocatie, de interne volgorde, de laatste Kumaon-locatie en de uitreisrichting worden gekozen?
+
+De output moet voldoende volledig zijn voor een afzonderlijke latere run `KUMAON-ROUTE-OPTIMIZATION-001` zonder een nieuwe geografische ontdekkingsronde.
+
+## 2. Geografische begrenzing
+
+Onderzoek heel Kumaon voor zover relevant voor Marks spirituele pelgrimsreis. Behandel minimaal volledig:
+
+- Lal Kuan;
+- Haldwani;
+- Kathgodam;
+- Bhowali;
+- Kainchi Dham;
+- Bhumiyadhar;
+- Ghorakhal;
+- Nainital;
+- Almora;
+- Kasar Devi;
+- Crank's Ridge;
+- Kakrighat;
+- Jageshwar;
+- Dwarahat;
+- Dunagiri;
+- Babaji Cave;
+- Babaji Smriti Bhavan;
+- YSS Dwarahat Ashram;
+- Haidakhan;
+- relevante buitengebieden van Kumaon.
+
+Buitengebieden worden systematisch onderzocht wanneer een verplichte detector naar een specifieke fysieke plek leidt of wanneer zij nodig zijn voor geografische compleetheid, toegang, aankomst of logische doorgaande verbinding. Gewone lokale tempels zonder directe detectorrelatie, uitzonderlijke spirituele betekenis of India-Essential-karakter worden niet opgeblazen tot kandidaten.
+
+## 3. Bestaande formele statussen
+
+Alle bestaande formele Kumaon-statussen uit `formal_status_snapshot.yaml` zijn onveranderlijk binnen deze run.
+
+- Formele A: volledig onderzoeken en behouden.
+- Formele B: volledig onderzoeken en behouden.
+- Formele C: volledig onderzoeken, behouden in registers, GEO-data en kaart, maar niet als routegewicht gebruiken.
+- Nog niet door Mark beoordeeld: duidelijk als `NOG_DOOR_MARK_TE_BEOORDELEN` behandelen; nooit stil als A, B of C presenteren.
+
+Alleen Mark mag formele A/B/C vaststellen of wijzigen. BRONS, ZILVER en GOUD kennen ook geen adviserende A/B/C toe.
+
+## 4. Bekende locaties en continuïteit
+
+Onderzoek:
+
+1. alle bestaande formele Kumaon-A/B/C-locaties;
+2. alle reeds bekende maar nog niet formeel door Mark beoordeelde fysieke locaties uit `known_locations_snapshot.yaml`;
+3. alle relevante fysieke locaties die via de verplichte detectoren worden gevonden;
+4. aankomststations, routeknooppunten en mogelijke bases die nodig zijn voor de latere routeoptimalisatie.
+
+Geen locatie wordt weggelaten omdat de exacte bezoekersingang onbekend is.
+
+Gebruik voor GEO exact deze fallbackvolgorde:
+
+`bezoekersingang -> officieel kaartpunt/adres -> gebouw- of complexcentrum -> terreincentrum -> representatief landschaps- of routepunt`.
+
+Een bruikbaar punt met ongeveer 50–500 meter onzekerheid is toegestaan wanneer puntsoort, bron, nauwkeurigheid en reden zichtbaar zijn. Een gelijknamig hotel, winkel, kantoor of verkeerde plaats is nooit een geldig vervangpunt.
+
+## 5. Verplichte detectoren
+
+Voer per geografisch subcluster aantoonbaar en afzonderlijk uit:
+
+- personen en bestaande TOP-/formeel-A-ankers;
+- lineage en guru-parampara;
+- traditie en levende devotionele praktijk;
+- AOAY / *Autobiography of a Yogi*;
+- Mahavatar Babaji;
+- Kriya Yoga;
+- Paramahansa Yogananda;
+- Lahiri Mahasaya;
+- Sri Yukteswar;
+- Swami Keshavanand;
+- Neem Karoli Baba / Maharaj-ji;
+- Ram Dass;
+- Anandamayi Ma;
+- Ramakrishna;
+- Vivekananda;
+- Krishna, met het onderscheid uit DECISION-0014;
+- India-Essential.
+
+Personen, boeken, lineages en tradities zijn alleen detectoren. Het onderzoeksobject moet een bestaande, aanwijsbare fysieke plek zijn.
+
+Leg ook negatieve zoekre
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=978 path=research/active/KUMAON-COMPLETE-001/scope.md blob_sha=bd03682b3169d04a98ec5812e3e5b4925422867b original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+sultaten vast. Per detector en subcluster moet zichtbaar zijn wat is gezocht, welke fysieke kandidaten zijn gevonden, welke kandidaten zijn afgevallen en waarom geen relevante fysieke plek is vastgesteld wanneer het resultaat negatief is.
+
+## 6. Inhoudelijke kandidaatlaag
+
+Onderzoek per fysieke locatie minimaal:
+
+- permanente `LOCATION_ID` wanneer reeds toegewezen of geldig nieuw toegewezen;
+- tijdelijke run-kandidaat-ID wanneer permanente toewijzing nog niet gerechtvaardigd is;
+- naam, aliassen en fysieke identiteit;
+- cluster en subcluster;
+- huidige instelling, beheerder, trust, orde of expliciete beheeronzekerheid;
+- historische documentatie;
+- institutionele bevestiging;
+- lineagebevestiging;
+- traditiebevestiging;
+- concrete tegenspraak;
+- waarom devotees naar de plek gaan;
+- wie of wat zij er vereren of herinneren;
+- wat bezoekers en devotees er werkelijk doen;
+- welke praktijk Mark respectvol kan volgen;
+- deelname, etiquette, kleding, fotografie, stilte, donaties en beperkingen;
+- buitenlanders, niet-hindoes en niet-ingewijden;
+- levende praktijk, puja, aarti, meditatie, satsang, seva, darshan of pelgrimage;
+- sfeer, rust, drukte, commercie, netheid en onderhoud;
+- actuele bezoekerservaring en verschillen per dagdeel of piekmoment;
+- actuele bezoekbaarheid;
+- entree- of toegangssituatie;
+- winterbeperkingen;
+- benodigde looptijd, trap, klim of trail;
+- parkeren en taxi-toegang;
+- geschiktheid voor buitenlandse bezoekers;
+- mogelijke overnachtingsfunctie;
+- afstand en realistische reistijd tot relevante formele A-ankers;
+- logische doorgaande verbinding naar het volgende subcluster;
+- GEO-status, puntsoort, nauwkeurigheid, bronnen en puntkeuzemotivering;
+- minimaal tien functioneel verschillende representatieve beelden of een expliciet beeldtekort.
+
+Wanneer actuele toegang niet betrouwbaar is vastgesteld, noteer exact:
+
+`Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.`
+
+## 7. Bhowali als expliciete basisvraag
+
+Bhowali moet volwaardig en afzonderlijk worden onderzocht als:
+
+- mogelijke eerste overnachtingsplaats na aankomst per trein;
+- verkeersknooppunt tussen Kathgodam, Kainchi, Nainital en Almora;
+- mogelijke rustige uitvalsbasis;
+- plaats met praktisch bruikbare accommodatie, eten, taxi's en vervolgverbindingen;
+- mogelijke betere keuze dan Nainital, Kainchi, Kathgodam of Haldwani.
+
+Kies nog geen definitief hotel. Hotels worden alleen onderzocht als bewijs voor de praktische functie en bandbreedte van een mogelijke basis of overnachtingsplaats.
+
+## 8. Vergelijking mogelijke eerste bases
+
+Maak een onderling vergelijkbare feitelijke dataset voor:
+
+- Bhowali;
+- Nainital;
+- Kainchi;
+- Kathgodam;
+- Haldwani.
+
+Neem Lal Kuan als aankomst-/knooppuntvergelijking op wanneer treinlogica of vervolgverbindingen dat relevant maken.
+
+Vergelijk minimaal:
+
+- afstand en realistische reistijd vanaf relevante treinstations;
+- aansluiting op Kainchi/Bhumiyadhar/Ghorakhal/Nainital/Almora;
+- verkeersdruk, kwetsbare knelpunten en wintergevoeligheid;
+- taxi-aanbod en praktische vervolgverbindingen;
+- beschikbaarheid van eten en bruikbare accommodatiecategorieën;
+- rust versus drukte;
+- hoogte en fysieke belasting direct na aankomst;
+- geschiktheid voor één eerste nacht of meerdere nachten;
+- nabijheid tot de eerste formele A-ankers;
+- hoeveelheid heen-en-weer rijden die de basis later vermoedelijk veroorzaakt.
+
+Lever feiten en vergelijkbare maten. Kies nog niet definitief welke basis wint.
+
+## 9. Aankomststations en routeknooppunten
+
+Onderzoek minimaal Lal Kuan, Haldwani en Kathgodam als mogelijke treinaankomstpunten en praktische poorten. De run kiest nog geen definitief station en voert geen volledige treinboekingstest uit.
+
+Leg wel vast:
+
+- fysieke stationidentiteit en `WORKING_GEO`;
+- bruikbaarheid voor taxi of transfer;
+- aansluiting op mogelijke eerste bases;
+- routepositie ten opzichte van de formele A-clusters;
+- actuele structurele spoorfunctie voor zover betrouwbaar vast te stellen;
+- welke datumgebonden treincontrole later nog nodig is.
+
+## 10. Nabijheid en verbindingen
+
+Maak geen definitieve
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=979 path=research/active/KUMAON-COMPLETE-001/scope.md blob_sha=bd03682b3169d04a98ec5812e3e5b4925422867b original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+ interne Kumaon-route. Bouw wel de feitelijke onderlaag voor latere optimalisatie:
+
+- realistische wegafstand en reistijd tussen relevante A-ankers en subclusters;
+- looptijden binnen loopbare clusters;
+- taxi- en parkeerbereik;
+- wegsegmenten met terugrijrisico;
+- natuurlijke doorgaande assen;
+- verbindingen vanaf aankomststations naar mogelijke bases;
+- verbindingen van mogelijke bases naar de eerste formele A-ankers;
+- verbindingen tussen Kainchi/Nainital, Almora/Kasar Devi/Jageshwar, Dwarahat/Dunagiri en Haidakhan;
+- mogelijke geografische uitgangen uit Kumaon zonder al een volgend groot India-cluster te kiezen.
+
+`proximity.jsonl` mag niet als volledig `DEFERRED_TO_ROUTE_PHASE` worden afgedaan. De definitieve optimalisatie wordt uitgesteld, maar de meetbare onderlaag is verplicht.
+
+## 11. Permanente LOCATION_ID's
+
+Behoud exact alle bestaande toewijzingen 400–426 en relevante predecessor-knooppunten 308–310.
+
+Voor nieuwe Kumaon-locaties is uitsluitend de gereserveerde vrije reeks 427–499 beschikbaar. Geen hernummering, hergebruik of toewijzing buiten het Kumaon-blok.
+
+Een permanente ID wordt alleen toegekend nadat een specifieke fysieke identiteit voldoende is vastgesteld. Iedere toewijzing wordt eerst in `location_assignments.jsonl` geregistreerd en blijft daarna permanent, ook wanneer de plek later context-only of afgevallen wordt.
+
+## 12. Volledige Kumaon-KML
+
+Lever één runlokale complete Kumaon-KML. De uiteindelijke gevalideerde versie staat op:
+
+`research/active/KUMAON-COMPLETE-001/GOUD/KUMAON_COMPLETE.kml`
+
+De KML bevat gescheiden lagen:
+
+- `A_FORMEEL`;
+- `B_FORMEEL`;
+- `C_FORMEEL`;
+- `NOG_DOOR_MARK_TE_BEOORDELEN`;
+- `CONTEXT_OF_AFGEVALLEN`;
+- `STATIONS_EN_ROUTEKNOOPPUNTEN`;
+- `MOGELIJKE_BASES_EN_OVERNACHTING`.
+
+Iedere onderzochte fysieke locatie met een bruikbaar `WORKING_GEO`-punt blijft zichtbaar. Een ontbrekende exacte ingang leidt nooit tot verwijdering.
+
+Iedere marker bevat minimaal:
+
+- permanente `LOCATION_ID` wanneer toegewezen;
+- naam;
+- cluster;
+- bestaande formele status of `NOG_DOOR_MARK_TE_BEOORDELEN`;
+- korte herkenningsomschrijving;
+- waarom de plek onderzocht is;
+- GEO-status;
+- geschatte nauwkeurigheid;
+- bronrun.
+
+BRONS maakt de volledige eerste KML en brondata. ZILVER valideert alle markers, lagen, statussemantiek, puntkeuzes en volledigheid. GOUD levert de gevalideerde KML als finale runartifact en maakt geen formele of adviserende statuskeuze.
+
+## 13. Verplichte fase-artifacts
+
+Naast de standaard v3.1.1-artifacts levert iedere fase, waar voor die fase van toepassing:
+
+- `candidates.jsonl`;
+- `detector_checks.jsonl`;
+- `negative_searches.jsonl`;
+- `working_geo.jsonl`;
+- `location_assignments.jsonl`;
+- `practical_access.jsonl`;
+- `base_comparison.jsonl`;
+- `station_and_route_nodes.jsonl`;
+- `proximity.jsonl`;
+- `map_source.jsonl`;
+- een fase-KML of een aantoonbaar gevalideerde voorgangerversie;
+- `formal_status_coverage.md`;
+- `completeness_matrix.md`.
+
+GOUD levert aanvullend:
+
+- `KUMAON_COMPLETE.kml`;
+- `MARK_FINAL_REPORT.md`;
+- `CANONICAL_INTEGRATION_PROPOSAL.md`;
+- een expliciete gereedheidsbeoordeling voor `KUMAON-ROUTE-OPTIMIZATION-001`.
+
+## 14. Harde verboden
+
+- Geen herbeoordeling van het geaccepteerde oude INDIA2-corridorrapport.
+- Geen definitieve interne Kumaon-route.
+- Geen definitieve keuze tussen Bhowali, Nainital, Kainchi, Kathgodam of Haldwani.
+- Geen definitieve eerste bezoeklocatie.
+- Geen definitieve laatste Kumaon-locatie of uitreisrichting.
+- Geen reisdag vastleggen.
+- Geen volledige treinboekingstest.
+- Geen definitief hotel kiezen.
+- Geen PARELS.
+- Geen route naar het volgende grote India-cluster.
+- Geen nieuwe formele of adviserende A/B/C door BRONS, ZILVER of GOUD.
+- Geen nieuwe decision-ID of beslistekst zonder Mark.
+- Geen protocol- of pipelinewijziging tijdens de run.
+- Geen locatie verwijderen wegens onzekere exacte ingang.
+- Geen gewone lokale tempelinflatie.
+
+## 15. Compleetheidspoort
+
+De run is alleen inhoudelijk compleet wanneer:
+
+1. alle bestaande formele Kumaon-A/B/C's zijn gedekt;
+2. alle genoemde geografische subclusters systematisch zijn onderzocht;
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=980 path=research/active/KUMAON-COMPLETE-001/scope.md blob_sha=bd03682b3169d04a98ec5812e3e5b4925422867b original_offset=12288 original_length=868 payload_bytes=868 chunk_index=3 chunk_count=4 classification=text
+
+3. alle verplichte detectoren per subcluster zijn uitgevoerd;
+4. negatieve zoekresultaten zijn vastgelegd;
+5. alle relevante kandidaten een fysieke identiteit en GEO-status hebben;
+6. iedere onderzochte kaartbare locatie in de Kumaon-KML staat;
+7. nog onbeoordeelde kandidaten duidelijk afwijken van formele A/B/C;
+8. Bhowali, Nainital, Kainchi, Kathgodam en Haldwani als mogelijke eerste basis onderling vergelijkbaar zijn;
+9. stations en routeknooppunten voldoende zijn onderzocht om later het beste aankomststation te bepalen;
+10. de nabijheids- en verbindingenlaag voldoende is om heen-en-weer rijden later te minimaliseren;
+11. de output voldoende is voor `KUMAON-ROUTE-OPTIMIZATION-001` zonder nieuwe geografische sweep;
+12. alle vereiste artifacts, sentinels, source-ID's, claims, statussen, LOCATION_ID's en KML-markers technisch valide zijn.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=981 path=research/active/KUMAON-COMPLETE-001/state.yaml blob_sha=813ff9dbd4f0f7160e8f7a3323e558c0200657c9 original_offset=0 original_length=2004 payload_bytes=2004 chunk_index=0 chunk_count=1 classification=text
+schema_version: 3
+run_id: KUMAON-COMPLETE-001
+state: READY_FOR_ZILVER
+active_role: ZILVER
+claim:
+  role: BRONS
+  claimed_by: ChatGPT-BRONS
+  claimed_at: 2026-07-19T11:15:09+02:00
+  source_commit: a10c848b7fe203a32563675293a6d2e0de484728
+  expected_state: READY_FOR_BRONS
+  output_path: research/active/KUMAON-COMPLETE-001/BRONS/
+  claim_status: CLOSED
+  closed_at: 2026-07-19T15:02:00+02:00
+  result_status: PARTIAL
+  completion_commit_ref: THIS_ATOMIC_COMMIT
+controller_claim:
+  transition: BRONS_COMPLETE_TO_READY_FOR_ZILVER
+  claimed_by: ChatGPT-INLINE-CONTROLLER
+  claimed_at: 2026-07-19T15:12:00+02:00
+  source_commit: 9afdbb21ab4cb202144c2a6346218d6e1a3639aa
+  expected_state: BRONS_COMPLETE
+  target_context_manifest: research/active/KUMAON-COMPLETE-001/context/ZILVER_CONTEXT.yaml
+  activation_mode: INLINE_POST_PHASE_CONTROLLER
+  claim_status: CLOSED
+  closed_at: 2026-07-19T15:25:00+02:00
+  transition_commit_ref: THIS_ATOMIC_COMMIT
+last_event_id: EVT-0006
+last_validated_commit: 9afdbb21ab4cb202144c2a6346218d6e1a3639aa
+blockers:
+  - Small private and historic sites need identity, access and GEO verification.
+  - Outer-Kumaon WORKING_GEO and long road connections need independent verification.
+  - Complete image and review coverage is absent for most candidates.
+  - Winter roads, trails, parking, taxis, travel times and December 2026 rail services remain time-sensitive.
+  - No final base, station or internal route was selected by design.
+context_profile: ZILVER_MIN
+active_context_manifest: research/active/KUMAON-COMPLETE-001/context/ZILVER_CONTEXT.yaml
+location_id_blocks:
+  corridor_nodes_preserved: 300-399
+  kumaon: 400-499
+  existing_kumaon_assignments: 400-426
+  new_kumaon_assignments: 427-443
+working_geo: true
+run_local_complete_kml_required: true
+parels_layer_active: false
+parallel_writers_allowed: false
+inline_handoff_active: true
+post_completion_mode: INLINE_POST_PHASE_CONTROLLER
+next_role_after_zilver: GOUD
+completion_destination: VOOR_VOLGEND_METAAL
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=982 path=research/active/KUMAON-COMPLETE-001/transitions/BRONS_TO_ZILVER_VALIDATION.md blob_sha=cb5fdc7d9b86f6ab3bb7ff519b89f07c521b8c79 original_offset=0 original_length=2177 payload_bytes=2177 chunk_index=0 chunk_count=1 classification=text
+# BRONS naar ZILVER transitionvalidatie — KUMAON-COMPLETE-001
+
+TRANSITION_STATUS: PASS
+
+## Gevalideerde predecessor
+
+- Definitieve BRONS-resultaatcommit: `9afdbb21ab4cb202144c2a6346218d6e1a3639aa`.
+- BRONS-resultaatstatus: `PARTIAL`.
+- Technische integriteit: `PASS`.
+- Workerclaim: `CLOSED`.
+- State en eventcursor vóór transition: synchroon op `BRONS_COMPLETE` / `EVT-0003`.
+- Afzonderlijke controllerclaim: actief genomen onder `INLINE_POST_PHASE_CONTROLLER`.
+
+## Artifactcontrole
+
+- `BRONS/manifest.yaml`, `BRONS/COMPLETED` en `BRONS/handoff.yaml` zijn volledig gelezen.
+- Alle in het manifest genoemde tekstbestanden hebben een zichtbare `END_OF_ARTIFACT`-sentinel.
+- De KML opent en sluit geldig en bevat 47 placemarks in zeven verplichte lagen.
+- De predecessor bevat 47 kandidaten, 70 claims, 45 geaccepteerde bronnen en 6 afgewezen bronnen.
+- Iedere claim-sourceverwijzing resolveert exact eenmaal; source-ID's zijn uniek over beide bronregisters.
+- Alle 16 formele A, 1 formele B en 4 formele C zijn aanwezig en ongewijzigd.
+- Alle bestaande LOCATION_ID's 308–310 en 400–426 zijn behouden; 427–443 zijn uniek binnen het Kumaon-blok.
+- Geen formele of adviserende A/B/C, PARELS, hotel-, basis-, station- of routekeuze is toegevoegd.
+
+## Inhoudelijke status
+
+De `PARTIAL`-status blijft behouden. ZILVER moet alle OPEN en dragende lagen heropenen, in het bijzonder kleine/private locaties, buitengebied-GEO, beelden, reviews, actuele toegang, winterwegen, trailcondities, taxi/parking, reistijden en december 2026-spoordiensten.
+
+## Continuous Learning-classificatie
+
+Er is geen transitiondefect of stille runreparatie vastgesteld. Bestaande protocollen waren voldoende en zijn correct gevolgd.
+
+- foutklasse: `NONE`
+- lokale reparatie: `NOT_REQUIRED`
+- systeemwijziging: `NO_SYSTEM_CHANGE`
+- reden: geen protocol-, template-, validation- of projectdatafout aangetroffen die de transition blokkeert.
+
+## Transitionbesluit
+
+Het definitieve `ZILVER_CONTEXT.yaml` is gepind op `9afdbb21ab4cb202144c2a6346218d6e1a3639aa`. De run mag naar `READY_FOR_ZILVER` overgaan. De controllerclaim wordt in de transitioncommit gesloten.
+
+NEXT_ROLE_READY: YES
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=983 path=research/active/KUMAON-COMPLETE-001/transitions/NEXT_ROLE_HANDOFF_ZILVER.md blob_sha=16da2719f1076a4a8ab981efebe7394fb26bb03e original_offset=0 original_length=2446 payload_bytes=2446 chunk_index=0 chunk_count=1 classification=text
+RESULTAATSTATUS: PARTIAL
+RUN_ID: KUMAON-COMPLETE-001
+VOLTOOIDE_ROL: BRONS
+FASE_COMPLETION_COMMIT: 9afdbb21ab4cb202144c2a6346218d6e1a3639aa
+WORKER_CLAIM_CLOSED: YES
+TRANSITION_COMMIT: THIS_ATOMIC_COMMIT
+CONTROLLER_CLAIM_CLOSED: YES
+NEXT_ROLE: ZILVER
+NEXT_ROLE_READY: YES
+NEXT_EXPECTED_STATE: READY_FOR_ZILVER
+NEXT_CONTEXT_MANIFEST: research/active/KUMAON-COMPLETE-001/context/ZILVER_CONTEXT.yaml
+HOOGSTE_BLOCKERS: kleine/private locaties en historische micro-sites; buitengebied-WORKING_GEO; onvolledige beeld- en reviewdekking; winterwegen/trails/taxi/parking/reistijden; december 2026-spoordiensten
+
+VOLGENDE_METAAL_STARTOPDRACHT_BEGIN
+GitHub ZILVER:
+
+Activeer in deze chat onmiddellijk de GitHub-connector en houd deze gedurende de volledige uitvoering beschikbaar. Dit onderzoek gebruikt GitHub als enige bron van waarheid en overdrachtskanaal. Test vóór ieder inhoudelijk werk zowel GitHub-read als GitHub-write voor repository bnzgxknwrv-tech/india-knowledge-base. Ontbreekt read of write, antwoord dan uitsluitend: MARK: IK MIS GITHUB CONNECTOR!
+
+Open pipeline/ENTRYPOINT.md in repository bnzgxknwrv-tech/india-knowledge-base.
+
+Controleer dat pipeline/NEXT_ACTION.yaml semantisch exact deze lower-case velden bevat:
+- run_id: KUMAON-COMPLETE-001
+- route: ZILVER
+- expected_state: READY_FOR_ZILVER
+- context_manifest: research/active/KUMAON-COMPLETE-001/context/ZILVER_CONTEXT.yaml
+
+Voer uitsluitend de aangewezen actie uit. Lees uitsluitend het gepinde contextmanifest en de daarin genoemde required files en expliciet getriggerde optional files. Haal de volledige gevalideerde BRONS-output uit GitHub; gebruik deze geplakte overdracht niet als onderzoeksbron.
+
+Voer het volledige gepinde ZILVER-rolcontract, de methodologie, protocollen en quality gates uit. Stop bij ontbrekende GitHub-write, een ACTIVE bestaande claim, state/event-desynchronisatie, ontbrekend of afgekapt required bestand, hashafwijking, ongeldige bronreferenties of een andere gepinde stopvoorwaarde.
+
+Schrijf en commit de volledige ZILVER-fase. Sluit de workerclaim aantoonbaar in de completioncommit. Wanneer NEXT_ACTION de modus INLINE_POST_PHASE_CONTROLLER expliciet toestaat, beëindig daarna de workerrol en voer als afzonderlijke controllerrol uitsluitend de geldige transition naar GOUD uit. Sluit ook de controllerclaim in de transitioncommit en lever alleen bij geldige finale readback de GOUD-handoff.
+VOLGENDE_METAAL_STARTOPDRACHT_EINDE
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=984 path=research/active/VRINDAVAN-INTEGRATION-001/BRONS/COMPLETED blob_sha=ad4aa8c92fcde8f89cfcd059621722fb3feb3455 original_offset=0 original_length=969 payload_bytes=969 chunk_index=0 chunk_count=1 classification=text
+PARTIAL
+run_id: VRINDAVAN-INTEGRATION-001
+role: BRONS
+source_commit: 16155f9b05b461d4ec9928d7cb1d2756beea9d00
+outputs:
+  - manifest.yaml
+  - report/INDEX.md
+  - report/01_scope_and_counts.md
+  - report/02_candidates_core.md
+  - report/03_outside_list_and_overlays.md
+  - report/04_uncertainties_and_duplicates.md
+  - report/05_ashrams_and_living_practice.md
+  - report/06_conclusion_and_gate.md
+  - claims.jsonl
+  - sources/registry.jsonl
+  - sources/rejected.jsonl
+  - audit.md
+  - handoff.yaml
+highest_blockers:
+  - Current visitability details incomplete for most candidates.
+  - Exact institutional management unresolved for several objects.
+  - Official current-management evidence for Neem Karoli Baba Ashram Vrindavan not retrieved.
+  - AOAY double verification incomplete.
+  - Kusum Sarovar living-practice evidence incomplete.
+validation: required artifacts created, sentinels checked, no forbidden paths used, no primary file over 1500 lines.
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=985 path=research/active/VRINDAVAN-INTEGRATION-001/BRONS/audit.md blob_sha=c1db318cc693dec7606acaa7e20909a129c1fd71 original_offset=0 original_length=1423 payload_bytes=1423 chunk_index=0 chunk_count=1 classification=text
+# BRONS audit — VRINDAVAN-INTEGRATION-001
+
+## Technical integrity
+- Activated role/run: PASS.
+- GitHub write: PASS.
+- Source commit read: PASS (`16155f9b05b461d4ec9928d7cb1d2756beea9d00`).
+- Claim-lock: PASS (`EVT-0002`).
+- Required files read: PASS; no forbidden file used.
+- Context budget: PASS.
+- Primary files under 1500 lines: PASS.
+- Sentinels: present in all BRONS text artifacts.
+
+## Content integrity
+- Required units treated: 6/6.
+- Outside-list search: PASS; KS-01 retained, additional Kriya/AOAY/baithak searches reported negatively.
+- Candidate boundaries: Radha/Shyam separated; hill/route separated.
+- Existing A/B statuses: preserved, not reassessed.
+- Atomic claims and source links: present.
+- Weak-source risk: NKB, kund and Govardhan evidence remains explicitly PARTIAL.
+- Visitability: exact uncertainty sentence used where current access was not reliably established.
+
+## Highest open blockers
+1. Current object-level access conditions are not reliably established for most places.
+2. Current institutional management of Shri Krishna Janmabhoomi is unresolved.
+3. Official current-management evidence for Neem Karoli Baba Ashram Vrindavan was not retrieved.
+4. AOAY double verification for Katyayani/Keshavanand is incomplete.
+5. Kusum Sarovar living-practice evidence is incomplete.
+
+Decision: PARTIAL, technically valid and suitable for ZILVER review after controllertransition.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=986 path=research/active/VRINDAVAN-INTEGRATION-001/BRONS/claims.jsonl blob_sha=39893e324244cf3efed119a13a11914c3cff04f6 original_offset=0 original_length=3867 payload_bytes=3867 chunk_index=0 chunk_count=1 classification=text
+{"claim_id":"C-001","candidate_id":"KP-01","claim_type":"PHYSICAL_IDENTITY","claim_text":"Katyayani Peeth is a current temple-ashram complex in Vrindavan represented by Katyayani Trust.","evidence_status":"VERIFIED_INSTITUTIONAL","source_ids":["S-001"],"notes":"Current institutional website."}
+{"claim_id":"C-002","candidate_id":"KP-01","claim_type":"LINEAGE","claim_text":"The institution identifies Swami Keshavanand as connected to Lahiri Mahasaya and as consecrator of the Vrindavan Katyayani temple in 1923.","evidence_status":"VERIFIED_INSTITUTIONAL","source_ids":["S-001"],"notes":"Own-lineage claim; not independent historical proof."}
+{"claim_id":"C-003","candidate_id":"KP-01","claim_type":"VISITABILITY","claim_text":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","evidence_status":"NOT_ESTABLISHED","source_ids":["S-001"],"notes":"No reliable current access rules retrieved."}
+{"claim_id":"C-004","candidate_id":"NKB-01","claim_type":"PHYSICAL_IDENTITY","claim_text":"A Neem Karoli Baba ashram complex exists in Vrindavan and includes his samadhi.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["S-002","S-003"],"notes":"Primary current-management source not retrieved."}
+{"claim_id":"C-005","candidate_id":"NKB-01","claim_type":"LINEAGE","claim_text":"The complex is a physical anchor of the Neem Karoli Baba devotional lineage.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["S-002","S-003"],"notes":"NKB_RAM_DASS overlay confirmed."}
+{"claim_id":"C-006","candidate_id":"KJ-01","claim_type":"PHYSICAL_IDENTITY","claim_text":"Shri Krishna Janmabhoomi is an active temple complex in Mathura.","evidence_status":"VERIFIED_PRIMARY","source_ids":["S-004","S-005"],"notes":"Government/current reporting supports active site."}
+{"claim_id":"C-007","candidate_id":"KJ-01","claim_type":"INSTITUTIONAL_IDENTITY","claim_text":"The exact present managing institution was not established and must not be conflated with similarly named litigation trusts.","evidence_status":"NOT_ESTABLISHED","source_ids":["S-004","R-001"],"notes":"Institutional ambiguity retained."}
+{"claim_id":"C-008","candidate_id":"RK-01","claim_type":"PHYSICAL_IDENTITY","claim_text":"Radha Kund is a distinct named sacred water body adjoining Shyam Kund near Govardhan.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["S-006"],"notes":"Separate candidate boundary retained."}
+{"claim_id":"C-009","candidate_id":"SK-01","claim_type":"PHYSICAL_IDENTITY","claim_text":"Shyam Kund is a distinct named sacred water body adjoining Radha Kund.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["S-006"],"notes":"Separate candidate boundary retained."}
+{"claim_id":"C-010","candidate_id":"GH-01","claim_type":"PHYSICAL_IDENTITY","claim_text":"Govardhan Hill is a physical landscape object distinct from the Govardhan Parikrama route.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["S-006","S-007"],"notes":"Landscape/route distinction."}
+{"claim_id":"C-011","candidate_id":"GP-01","claim_type":"LIVING_PRACTICE","claim_text":"Govardhan Parikrama is a physically traceable living circumambulation practice around Govardhan.","evidence_status":"VERIFIED_INSTITUTIONAL","source_ids":["S-004","S-007"],"notes":"Government Braj body recognizes parikrama as pilgrimage practice."}
+{"claim_id":"C-012","candidate_id":"KS-01","claim_type":"PHYSICAL_IDENTITY","claim_text":"Kusum Sarovar is a current named heritage object in Govardhan.","evidence_status":"VERIFIED_PRIMARY","source_ids":["S-004"],"notes":"Outside-list candidate."}
+{"claim_id":"C-013","candidate_id":"KS-01","claim_type":"LIVING_PRACTICE","claim_text":"Specific current living practice at Kusum Sarovar was not reliably established in this sweep.","evidence_status":"NOT_ESTABLISHED","source_ids":["S-004"],"notes":"Requires stronger object-level source."}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=987 path=research/active/VRINDAVAN-INTEGRATION-001/BRONS/handoff.yaml blob_sha=0f5da8b6d4b0f313e633bd23862b619f3e92be90 original_offset=0 original_length=962 payload_bytes=962 chunk_index=0 chunk_count=1 classification=text
+run_id: VRINDAVAN-INTEGRATION-001
+completed_role: BRONS
+result_status: PARTIAL
+output_manifest_path: research/active/VRINDAVAN-INTEGRATION-001/BRONS/manifest.yaml
+next_role: ZILVER
+next_expected_transition: TRANSITION_TO_ZILVER_CLAIMED
+open_blockers:
+  - Current visitability details incomplete for most candidates.
+  - Exact management identity unresolved for several objects.
+  - AOAY double verification incomplete.
+required_predecessor_files:
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/manifest.yaml
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/INDEX.md
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/claims.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/sources/registry.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/sources/rejected.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/audit.md
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/COMPLETED
+future_source_commit: null
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=988 path=research/active/VRINDAVAN-INTEGRATION-001/BRONS/manifest.yaml blob_sha=51af5849e96108c2fab4c6a091be8549f641c861 original_offset=0 original_length=1023 payload_bytes=1023 chunk_index=0 chunk_count=1 classification=text
+run_id: VRINDAVAN-INTEGRATION-001
+role: BRONS
+completion_status: PARTIAL
+source_commit: 16155f9b05b461d4ec9928d7cb1d2756beea9d00
+protocol_versions:
+  pipeline: 2.1.0
+  methodology: 2.0.0
+files:
+  - path: report/INDEX.md
+  - path: report/01_scope_and_counts.md
+  - path: report/02_candidates_core.md
+  - path: report/03_outside_list_and_overlays.md
+  - path: report/04_uncertainties_and_duplicates.md
+  - path: report/05_ashrams_and_living_practice.md
+  - path: report/06_conclusion_and_gate.md
+  - path: claims.jsonl
+  - path: sources/registry.jsonl
+  - path: sources/rejected.jsonl
+  - path: audit.md
+  - path: handoff.yaml
+  - path: COMPLETED
+line_counts_reliable: false
+content_hashes_reliable: false
+validation:
+  required_outputs_present: true
+  sentinels_checked: true
+  max_lines_under_1500: true
+  forbidden_files_used: false
+open_blockers:
+  - Current visitability details incomplete.
+  - Several institutional identities require stronger primary evidence.
+  - AOAY double verification incomplete.
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=989 path=research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/01_scope_and_counts.md blob_sha=5ffda3dc43da4ab04cd843aa44c4f9c17dd5d226 original_offset=0 original_length=915 payload_bytes=915 chunk_index=0 chunk_count=1 classification=text
+# 01 — Scope and counts
+
+Geografie: Vrindavan, Mathura en Govardhan; Agra uitgesloten.
+
+Behandelde verplichte onderzoekseenheden: 6/6.
+
+Afzonderlijke kandidaatobjecten in deze BRONS-fase: 8:
+- KP-01 Katyayani Peeth, Vrindavan.
+- NKB-01 Neem Karoli Baba Ashram en samadhi, Vrindavan.
+- KJ-01 Shri Krishna Janmabhoomi-complex, Mathura.
+- RK-01 Radha Kund.
+- SK-01 Shyam Kund.
+- GH-01 Govardhan Hill.
+- GP-01 Govardhan Parikrama-route.
+- KS-01 Kusum Sarovar, Govardhan, als open zoekrichting buiten de vaste lijst.
+
+Bestaande Mark-statussen zijn alleen behouden: Katyayani Peeth A; Neem Karoli Baba Ashram Vrindavan B. Er zijn geen nieuwe A/B/C-statussen toegekend.
+
+Onderzoeksstatus: PARTIAL. Fysieke identiteit en levende traditie zijn voor alle kerneenheden behandeld. Actuele bezoekbaarheid, precieze beheeridentiteit en onafhankelijke historische datering zijn niet overal voldoende bevestigd.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=990 path=research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/02_candidates_core.md blob_sha=08b7ddfc09ad5013054d499dd6fc168478b7040f original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# 02 — Core candidates
+
+## KP-01 — Katyayani Peeth, Vrindavan
+Place types: LINEAGE, LIVING_PRACTICE, EVENT (tradition-bound).
+Existing status: A; not reassessed.
+Physical/institutional identity: current temple-ashram complex represented by Katyayani Trust. The official lineage page identifies Swami Keshavanand as connected to Kamrup Math and as a disciple of Lahiri Mahasaya, and states that he consecrated the Katyayani temple at the Vrindavan Shakti Peeth in 1923.
+Tradition/lineage: Shakta identity plus institutionally asserted Kriya lineage through Lahiri Mahasaya. Any Babaji relation remains an own-lineage tradition claim, not independent history.
+Living practice: the official site exposes temple, seva/pooja, events and ashram sections.
+Visitability: Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.
+Overlays: KRIYA_BABAJI CONFIRMED as lineage relation; SHAKTA CONFIRMED; AOAY POSSIBLE pending direct edition-level double verification.
+
+## NKB-01 — Neem Karoli Baba Ashram and samadhi, Vrindavan
+Place types: LINEAGE, SAMADHI, LIVING_PRACTICE.
+Existing status: B; not reassessed.
+Physical identity: a Vrindavan ashram complex associated with Neem Karoli Baba; reputable secondary material states that his samadhi is in the complex.
+Institution/lineage: NKB/Ram Dass devotional lineage. A current official-management page was not reliably retrieved in this sweep.
+Historical identity: Neem Karoli Baba died in Vrindavan in 1973; the precise chain from death to present complex requires stronger primary documentation.
+Living practice: current devotional use is supported, but detailed recurring-practice documentation remains incomplete.
+Visitability: Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.
+Overlay: NKB_RAM_DASS CONFIRMED.
+
+## KJ-01 — Shri Krishna Janmabhoomi complex, Mathura
+Place types: EVENT, LIVING_PRACTICE.
+Physical identity: active temple complex in Mathura, distinguished from the adjacent Shahi Idgah and from campaigning/litigation trusts using similar names.
+Institutional identity: exact current managing trust identity requires dedicated primary-document verification; unrelated advocacy trusts must not be conflated with site management.
+Historical identity: the site has layered religious, architectural and legal histories; ancient-event tradition and modern documentary history remain separate.
+Tradition: living Krishna-birthplace tradition.
+Living practice: active darshan and festival practice is supported by current government and news reporting.
+Visitability: current public worship is supported, but exact July 2026 access conditions/security rules were not reliably established; therefore: Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.
+Overlay: KRISHNA CONFIRMED.
+
+## RK-01 — Radha Kund
+Place types: EVENT, LIVING_PRACTICE.
+Physical identity: distinct sacred water body in the Radha Kund settlement near Govardhan, physically adjacent and ritually paired with Shyam Kund.
+Candidate boundary: retain separately because it is a distinct named physical kund with its own ritual identity, while cross-linking the pair.
+Tradition: Krishna/Radha/Braj tradition.
+Institutional identity: no single controlling institution reliably established.
+Living practice: bathing, circumambulation and festival devotion are widely attested, but a sufficiently strong current official source was not retrieved.
+Visitability: Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.
+Overlay: KRISHNA CONFIRMED.
+
+## SK-01 — Shyam Kund
+Place types: EVENT, LIVING_PRACTICE.
+Physical identity: distinct named sacred water body adjoining Radha Kund.
+Candidate boundary: separate from Radha Kund because physical and ritual naming is distinct; never present the pair as one undifferentiated object.
+Tradition and living practice: paired Radha-Krishna sacred-kund tradition.
+Institutional identity: not established.
+Visitability: Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.
+Overlay: KRISHNA CONFIRMED.
+
+## GH-01 — Govardha
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=991 path=research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/02_candidates_core.md blob_sha=08b7ddfc09ad5013054d499dd6fc168478b7040f original_offset=4096 original_length=1482 payload_bytes=1482 chunk_index=1 chunk_count=2 classification=text
+n Hill
+Place types: EVENT, LIVING_PRACTICE.
+Physical identity: elongated physical hill/ridge landscape in the Govardhan area; not identical to the circumambulation route.
+Tradition: associated by Krishna traditions with lifting Govardhan.
+Historical identity: geological/physical existence is distinct from the sacred event claim, which is reported as tradition.
+Institutional identity: distributed across temples, local authorities and protected/development bodies; no single manager established.
+Living practice: continuing pilgrimage focus.
+Visitability: the physical landscape is publicly encountered, but exact access constraints for specific hill sections were not established. Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.
+Overlay: KRISHNA CONFIRMED.
+
+## GP-01 — Govardhan Parikrama route
+Place types: LIVING_PRACTICE, EVENT.
+Physical identity: ritual circumambulation route around Govardhan, not the hill itself.
+Candidate boundary: independent candidate because it is a physically traceable route and living ritual object.
+Tradition/living practice: active parikrama within Braj Krishna devotion; official UPBTVP material confirms broader Braj parikrama as a living pilgrimage category.
+Institutional identity: route governance is distributed; exact route authority and current closures not established.
+Visitability: Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.
+Overlay: KRISHNA CONFIRMED.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=992 path=research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/03_outside_list_and_overlays.md blob_sha=9ba39892a38cc858a36f8effdc2e1653d80b1a94 original_offset=0 original_length=2331 payload_bytes=2331 chunk_index=0 chunk_count=1 classification=text
+# 03 — Outside-list search and overlays
+
+## Open search direction
+
+Search direction: small or easily missed living-practice and lineage places in Govardhan/Vrindavan, including Vaishnav baithaks, samadhis, kunds and institutionally active ashrams.
+
+### KS-01 — Kusum Sarovar, Govardhan
+Place types: EVENT, LIVING_PRACTICE.
+Reason for inclusion: the Uttar Pradesh Braj Teerth Vikas Parishad explicitly identifies Kusum Sarovar as a current Braj/Govardhan heritage object. It is physically distinct from Govardhan Hill and the parikrama route.
+Tradition: associated with Radha-Krishna/Braj remembrance, but the precise tradition claim was not independently verified to the required depth in this sweep.
+Institutional identity: government heritage/development recognition confirmed; operational manager not established.
+Living practice: plausible and widely described, but not sufficiently verified by a strong specific source.
+Visitability: Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.
+Overlay: KRISHNA POSSIBLE pending stronger tradition-specific verification.
+Status: ONGEMERKT.
+
+## Negative and unresolved detector results
+
+- No sufficiently strong source was found in this bounded sweep to establish a specific AOAY place beyond Katyayani Peeth's possible Keshavanand/Yogananda relation. AOAY remains POSSIBLE there until direct edition-level text and present-place identity are paired.
+- No additional KRIYA_BABAJI physical candidate within Vrindavan, Mathura or Govardhan was established beyond Katyayani Peeth.
+- Vaishnav baithaks are an official Braj pilgrimage category, but no specific in-scope baithak was promoted to candidate without object-level verification.
+- Radha Raman Temple was not reopened as an independent candidate because the scope permits it only for alias/source control; its existing B-status was not reassessed.
+
+## Overlay summary
+
+- KRIYA_BABAJI: KP-01 CONFIRMED as lineage relation; no claim that Babaji's presence is independently historical.
+- AOAY: KP-01 POSSIBLE; double proof incomplete.
+- KRISHNA: KJ-01, RK-01, SK-01, GH-01 and GP-01 CONFIRMED; KS-01 POSSIBLE.
+- NKB_RAM_DASS: NKB-01 CONFIRMED.
+- SHAKTA: KP-01 CONFIRMED.
+- ANANDAMAYI, RAMAKRISHNA_VIVEKANANDA, BUDDHIST: NOT_APPLICABLE to the established candidate set in this bounded run.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=993 path=research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/04_uncertainties_and_duplicates.md blob_sha=4f8e7de688d7c570de8b796667f9f88fc25a8c45 original_offset=0 original_length=1146 payload_bytes=1146 chunk_index=0 chunk_count=1 classification=text
+# 04 — Uncertainties, aliases and boundaries
+
+1. Katyayani Peeth / Uma Shakti Peeth / Keshav Ashram naming requires careful alias handling. This report uses Katyayani Peeth for the current temple-ashram complex and does not assume every historical Keshavanand residence reference denotes the identical footprint.
+2. Neem Karoli Baba Ashram Vrindavan and Neem Karoli Baba's samadhi are treated as one complex with a nested samadhi object; a later phase may split them if distinct access or management evidence warrants it.
+3. Shri Krishna Janmabhoomi, Shri Krishna Janmasthan and similarly named litigation trusts are not automatically the same institution. Site, managing body and advocacy litigants must remain distinct.
+4. Radha Kund and Shyam Kund are adjacent and ritually paired, but retained as separate physical candidates.
+5. Govardhan Hill and Govardhan Parikrama are separate: landscape versus ritual route.
+6. Precise current access, opening times, restrictions and managers remain unverified for most candidates.
+7. Ancient sacred-event claims are tradition claims unless separately supported as historical claims.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=994 path=research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/05_ashrams_and_living_practice.md blob_sha=f59034a30b0731989acfbf8e4709bee62a790791 original_offset=0 original_length=1183 payload_bytes=1183 chunk_index=0 chunk_count=1 classification=text
+# 05 — Ashrams and living practice
+
+Katyayani Peeth has the strongest institutionally documented combination of current temple/ashram identity, seva/pooja structure and lineage material. The official source is suitable for institutional identity, own history and lineage claims, but not as independent proof of ancient or supernatural events.
+
+Neem Karoli Baba Ashram Vrindavan is a living lineage place and contains the samadhi associated with Maharaj-ji. Current detailed practice, management and visitor rules were not sufficiently documented by a primary institutional source in this sweep.
+
+Shri Krishna Janmabhoomi, Radha Kund, Shyam Kund, Govardhan Hill and Govardhan Parikrama all remain embedded in active Krishna/Braj pilgrimage practice. The evidence is stronger for broad continuity than for a single managing institution or exact current access conditions.
+
+Kusum Sarovar was retained as an outside-list physical candidate because a current government Braj body recognizes the object. Its precise living-practice and tradition layers remain incomplete.
+
+No unsupported overnight-stay, retreat, residency or accommodation claim is made for any ashram.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=995 path=research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/06_conclusion_and_gate.md blob_sha=e6034ebade51a6313f8b9d68eaf51ce66ab4dc48 original_offset=0 original_length=1061 payload_bytes=1061 chunk_index=0 chunk_count=1 classification=text
+# 06 — Conclusion and quality gate
+
+Result: PARTIAL.
+
+The bounded Vrindavan/Mathura/Govardhan integration scope is fully represented: all six required research units are visible, candidate boundaries were tested, an outside-list direction produced Kusum Sarovar, and negative AOAY/Kriya/baithak results remain visible.
+
+Strongest result: Katyayani Peeth is verified as a current temple-ashram with an institutionally documented Keshavanand–Lahiri Mahasaya lineage relation. The existing A-status was preserved without reassessment.
+
+Main open gaps:
+1. reliable current access conditions for most candidates;
+2. exact management identity for Shri Krishna Janmabhoomi and the kund/route objects;
+3. stronger primary documentation for Neem Karoli Baba Ashram Vrindavan's current operation;
+4. direct edition-level AOAY double verification for Keshavanand's Vrindavan place;
+5. deeper object-level evidence for Kusum Sarovar's living practice.
+
+No A/B/C status, route advice, accommodation, transport, price or spiritual total score was added.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=996 path=research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/INDEX.md blob_sha=6877b83bc616b9fed4a52d36e88037bd0868bdee original_offset=0 original_length=440 payload_bytes=440 chunk_index=0 chunk_count=1 classification=text
+# BRONS report index — VRINDAVAN-INTEGRATION-001
+
+Leesvolgorde:
+1. `01_scope_and_counts.md`
+2. `02_candidates_core.md`
+3. `03_outside_list_and_overlays.md`
+4. `04_uncertainties_and_duplicates.md`
+5. `05_ashrams_and_living_practice.md`
+6. `06_conclusion_and_gate.md`
+
+Ondersteunende registers: `../../BRONS/claims.jsonl`, `../../BRONS/sources/registry.jsonl`, `../../BRONS/sources/rejected.jsonl`, `../../BRONS/audit.md`.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=997 path=research/active/VRINDAVAN-INTEGRATION-001/BRONS/sources/registry.jsonl blob_sha=a82f4d6c0d916d47d33b2c4acf155b1cc135b1fb original_offset=0 original_length=2820 payload_bytes=2820 chunk_index=0 chunk_count=1 classification=text
+{"source_id":"S-001","url":"https://www.katyayanipeeth.org.in/guru-lineage","title":"Guru Lineage","publisher":"Katyayani Trust","source_type":"OFFICIAL_INSTITUTION","retrieved_at":"2026-07-13","supports_claims":["C-001","C-002","C-003"],"access_status":"OK","notes":"Institutional source for own lineage, temple history and current site structure."}
+{"source_id":"S-002","url":"https://en.wikipedia.org/wiki/Neem_Karoli_Baba","title":"Neem Karoli Baba","publisher":"Wikipedia","source_type":"REPUTABLE_SECONDARY","retrieved_at":"2026-07-13","supports_claims":["C-004","C-005"],"access_status":"DISCOVERY_ONLY","notes":"Used only as discovery/secondary lead; core claims remain PARTIAL."}
+{"source_id":"S-003","url":"https://timesofindia.indiatimes.com/life-style/travel/destinations/not-just-kainchi-dham-3-other-places-with-ashrams-associated-neem-karoli-baba/articleshow/125718829.cms","title":"Not just Kainchi Dham: other associated ashrams","publisher":"Times of India","source_type":"REPUTABLE_SECONDARY","retrieved_at":"2026-07-13","supports_claims":["C-004","C-005"],"access_status":"OK","notes":"Current secondary confirmation of Vrindavan ashram association."}
+{"source_id":"S-004","url":"https://www.upbtvp.in/","title":"Official Website of Braj Teerth Vikas Parishad","publisher":"Uttar Pradesh Braj Teerth Vikas Parishad","source_type":"GOVERNMENT","retrieved_at":"2026-07-13","supports_claims":["C-006","C-007","C-011","C-012","C-013"],"access_status":"OK","notes":"Government recognition of Shri Krishna Janmsthan, Kusum Sarovar and Braj pilgrimage categories."}
+{"source_id":"S-005","url":"https://navbharattimes.indiatimes.com/state/uttar-pradesh/mathura/mathura-shri-krishna-janmabhoomi-temple-darshan-timings-changed-new-schedule-implemented-for-winter-season/articleshow/125137716.cms","title":"Shri Krishna Janmabhoomi darshan timing report","publisher":"Navbharat Times","source_type":"REPUTABLE_SECONDARY","retrieved_at":"2026-07-13","supports_claims":["C-006"],"access_status":"OK","notes":"Confirms active public darshan in 2025; not sufficient for July 2026 timing."}
+{"source_id":"S-006","url":"https://www.britannica.com/place/Mathura","title":"Mathura","publisher":"Encyclopaedia Britannica","source_type":"REPUTABLE_SECONDARY","retrieved_at":"2026-07-13","supports_claims":["C-008","C-009","C-010"],"access_status":"PARTIAL","notes":"General geographical/historical support; object-level primary verification remains needed."}
+{"source_id":"S-007","url":"https://www.upbtvp.in/","title":"Braj pilgrimage and development categories","publisher":"Uttar Pradesh Braj Teerth Vikas Parishad","source_type":"GOVERNMENT","retrieved_at":"2026-07-13","supports_claims":["C-010","C-011"],"access_status":"OK","notes":"Official recognition of Braj parikrama as pilgrimage practice."}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=998 path=research/active/VRINDAVAN-INTEGRATION-001/BRONS/sources/rejected.jsonl blob_sha=9f1bf39e80936805e3dd28af74d8a5931f730463 original_offset=0 original_length=1227 payload_bytes=1227 chunk_index=0 chunk_count=1 classification=text
+{"source_id":"R-001","url":"https://en.wikipedia.org/wiki/Shri_Krishna_Janmabhoomi_Mukti_Nirman_Trust%2C_Mathura","reason":"Wikipedia page about an advocacy/litigation trust; not reliable for identifying the current temple-complex manager.","searched_for":"Shri Krishna Janmabhoomi institutional identity","replacement_source_id":"S-004"}
+{"source_id":"R-002","url":"https://www.shrikrishnajanmasthan.net/","reason":"Could not be reliably retrieved in this sweep; no claims assigned.","searched_for":"Official Shri Krishna Janmabhoomi management and visitor information","replacement_source_id":null}
+{"source_id":"R-003","url":"https://maharajji.com/ashrams/vrindavan/","reason":"Could not be reliably retrieved through the research interface; no primary institutional claim assigned.","searched_for":"Neem Karoli Baba Ashram Vrindavan current management and practice","replacement_source_id":"S-003"}
+{"source_id":"R-004","url":"generic travel blogs for Radha Kund, Shyam Kund and Govardhan","reason":"Commercial or weak secondary sources were not permitted to carry core physical, historical or visitability claims.","searched_for":"kund boundaries, route and current access","replacement_source_id":"S-004"}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=999 path=research/active/VRINDAVAN-INTEGRATION-001/GOUD/COMPLETED blob_sha=7fe0a648e05b3c20c66d62be5f844e8afbedeaee original_offset=0 original_length=989 payload_bytes=989 chunk_index=0 chunk_count=1 classification=text
+PARTIAL
+run_id: VRINDAVAN-INTEGRATION-001
+role: GOUD
+source_commit: 8bbfed3755b330ae48bf221097531a5fc62a17bd
+outputs:
+  - manifest.yaml
+  - report/INDEX.md
+  - report/01_final_candidates.md
+  - report/02_overlays_boundaries_visitability.md
+  - report/03_quality_gate_and_conclusion.md
+  - decision.md
+  - claims.jsonl
+  - sources/registry.jsonl
+  - sources/rejected.jsonl
+  - audit.md
+  - handoff.yaml
+highest_blockers:
+  - AOAY double verification incomplete.
+  - Exact current visitability and restrictions unresolved for all candidates.
+  - Current official NKB Vrindavan management and recurring-practice evidence incomplete.
+  - Object-level operational management unresolved for distributed objects.
+  - Kusum Sarovar object-level living practice incomplete.
+validation: required artifacts created and reopened; sentinels checked; source-ID references valid and unique; no forbidden paths used; no A/B/C status assigned; no archiving or regisseur transition executed.
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1000 path=research/active/VRINDAVAN-INTEGRATION-001/GOUD/audit.md blob_sha=3df1a21bb84b1a1d7dc5332490c3ed24fe650938 original_offset=0 original_length=3111 payload_bytes=3111 chunk_index=0 chunk_count=1 classification=text
+# GOUD audit — VRINDAVAN-INTEGRATION-001
+
+## Input integrity
+
+- GitHub read and write access confirmed.
+- Before claim, `state.yaml` was `READY_FOR_GOUD`, `claim` was null and both state and eventlog ended on `EVT-0016`.
+- All eleven blob SHAs pinned in `GOUD_CONTEXT.yaml` matched exactly.
+- Independent branch-head advancement was not treated as a blocker.
+- Every required file was fully read; no forbidden file was used.
+- ZILVER completion status was PARTIAL and manifest, handoff and COMPLETED agreed.
+
+## Research scope
+
+Targeted external research was limited to the five pinned blockers: AOAY double verification, current visitability, current official NKB Vrindavan management/practice, operational management of the distributed Govardhan objects, and Kusum Sarovar living practice. No unrestricted new sweep was performed.
+
+## Claim and source audit
+
+- Sixteen material claims are individually typed and classified.
+- Accepted source IDs `GS-001` through `GS-009` are unique.
+- Rejected source IDs `GR-001` through `GR-006` are unique.
+- Every claim source reference resolves to exactly one accepted or rejected register entry.
+- No rejected source is silently promoted to accepted evidence.
+- Source-type labels use the Evidence Protocol taxonomy.
+- Institution-owned and lineage-owned sources carry only identity, own history, lineage or practice claims appropriate to them.
+- Wikipedia and generic travel pages do not carry a final core claim.
+
+## Candidate and boundary audit
+
+- Candidate count: 8.
+- KP-01, NKB-01, KJ-01, RK-01, SK-01, GH-01, GP-01 and KS-01 are all represented.
+- Radha Kund and Shyam Kund remain separate.
+- Govardhan Hill and Govardhan Parikrama remain separate.
+- Kusum Sarovar remains separate from the route.
+- NKB samadhi remains nested in the ashram complex.
+- Katyayani/Keshav aliases remain source-dependent rather than forcibly unified.
+- Shri Krishna Janmasthan Seva Sansthan remains distinct from advocacy and litigation trusts.
+
+## Methodology layers
+
+Physical identity, institution, history/tradition, lineage, living practice, visitability and overlays were checked separately. No supernatural or tradition claim was converted into independent history. No tourist popularity claim substitutes for living practice. Exact current visitability remains locally marked as not established.
+
+## Loss control
+
+The optional BRONS trigger did not fire: ZILVER removed no candidate, merged no candidate and made no downgrade requiring predecessor comparison. All valid ZILVER candidates, boundaries and uncertainties were preserved.
+
+## Quality gate
+
+- Technical integrity: PASS.
+- Claim/source referential integrity: PASS.
+- Candidate counting, aliases and boundaries: PASS.
+- AOAY double verification: incomplete.
+- Current visitability: incomplete.
+- NKB official current management/practice: incomplete.
+- Distributed-object management: incomplete.
+- Kusum Sarovar object-level living practice: incomplete.
+- Final result: PARTIAL.
+- A/B/C status assigned or reassessed: no.
+- Archiving executed: no.
+- Regisseur processing or transition executed: no.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+

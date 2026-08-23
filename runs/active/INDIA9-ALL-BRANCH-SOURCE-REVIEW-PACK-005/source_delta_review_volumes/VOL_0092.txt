@@ -1,0 +1,677 @@
+>>> CHUNK stream_row=1619 path=research/active/VARANASI-COMPLETE-001/GOUD/report/01_final_candidate_and_identity_map.md blob_sha=050201167b54d3a19dd361e524927f26e37f85b6 original_offset=0 original_length=979 payload_bytes=979 chunk_index=0 chunk_count=1 classification=text
+# 01 — Definitieve kandidaten- en identiteitskaart
+
+Alle 40 Varanasi/Sarnath-kandidaten zijn behouden.
+
+- 35 fysieke identiteiten zijn bevestigd met passende institutionele, overheids- of historische bronnen;
+- Lahiri Mahasaya Samadhi/Satyalok, Lahiri-huis en Shri Tailanga Swami Math blijven bruikbare werkobjecten met beheer- en toegangslimiet;
+- Lahartara en Bhaskarananda/Anand Bagh blijven expliciet `PARTIAL` op exacte micro-identiteit en actuele locatie;
+- de zeven bestaande formele Varanasi-A-ankers blijven exact ongewijzigd;
+- de overige 33 kandidaten hebben geen nieuwe formele of adviserende status gekregen.
+
+De Kriya-, Trailanga-, Anandamayi-, Ramakrishna/Vivekananda-, Kabir-, Aghor-, Shiva/Shakti/ghat- en Sarnath-detectoren zijn volledig behandeld. Het exacte huidige fysieke punt van de eerste Yogananda–Sri Yukteswar-ontmoeting blijft `NOT_ESTABLISHED`.
+
+GOUD heeft geen kandidaat verwijderd, samengevoegd, opgewaardeerd of afgewaardeerd.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1620 path=research/active/VARANASI-COMPLETE-001/GOUD/report/02_practice_access_visuals_and_reviews.md blob_sha=089128674c40f1f1996593299dd82ca5d86046f5 original_offset=0 original_length=1220 payload_bytes=1220 chunk_index=0 chunk_count=1 classification=text
+# 02 — Praktijk, toegang, beelden en reviews
+
+De sterkste actuele levende-praktijklagen zijn Kashi Vishwanath, YSS Varanasi, Anandamayi Bhadaini, Ramakrishna Mission Home of Service, Kabir Chaura Math, Kring Kund en de afzonderlijke archeologische en levende functies van Sarnath.
+
+Voor het merendeel van de kleinere tempels en ghats blijven opening, fotografie, kleding, buitenlandse toegang, festivalroutes en drukte tijdgevoelig. Crematieghats vereisen afstand, geen indringende fotografie en respect voor families en rituelen.
+
+De beeldlaag blijft breed onvolledig:
+
+- geen kandidaat heeft een volledige tien-functionele beeldset;
+- slechts 13 kandidaten hebben minimaal één passende identiteitslead;
+- beelden dragen geen definitieve sfeer-, kwaliteits- of toegangsconclusie.
+
+De reviewlaag blijft eveneens onvolledig:
+
+- geen kandidaat heeft een systematische recente multi-platform reviewanalyse;
+- Trailanga Math heeft slechts een beperkte niet-systematische lead;
+- geen algemene sfeer-, rust-, netheids- of drukteclassificatie is uit deze reviewbasis afgeleid.
+
+Deze tekorten zijn niet fataal voor identiteit en spirituele betekenis maar houden de inhoudelijke vrijgavestatus op `PARTIAL`.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1621 path=research/active/VARANASI-COMPLETE-001/GOUD/report/03_geo_connections_master_kml_and_ids.md blob_sha=f5f94d2ab18e003f5dbd55faa513611a848609b8 original_offset=0 original_length=1199 payload_bytes=1199 chunk_index=0 chunk_count=1 classification=text
+# 03 — GEO, verbindingen, master-KML en IDs
+
+Alle 40 kandidaten hebben één definitief GOUD-GEO-record met WGS84-coördinaat, puntkeuze, verificatiestatus, bronverwijzing en Google Maps-link.
+
+- 35 records gebruiken een bevestigd of passend institutioneel werkpunt;
+- drie records blijven werkadressen zonder ingangprecisie;
+- Lahartara en Bhaskarananda/Anand Bagh blijven `ESTIMATED` en `NOT_ESTABLISHED` op micro-GEO;
+- geen nieuw permanent place-ID of LOCATION_ID is uitgegeven.
+
+De 15 verbindingen behouden uitsluitend rechte-lijnafstanden als cluster-sanitychecks. `estimated_time_min` blijft overal `null`; geen route, wegafstand of bezoekvolgorde is afgeleid.
+
+De repositorybrede masterkaart is bytegelijk aan de gevalideerde ZILVER-KML en bevat:
+
+- 28 A-markers in `A_FORMEEL`, uitsluitend stijl `A_GREEN`, kleur `ff00aa00`;
+- 2 B-markers in `B_FORMEEL`, uitsluitend stijl `B_ORANGE`, kleur `ff00a5ff`;
+- totaal 30 placemarks;
+- geen C, station, route, basis, hotel of categorie-icoon.
+
+Het masterregister bevat 17 bestaande niet-lege Kumaon-LOCATION_IDs zonder dubbeling. Alle overige records blijven zonder nieuwe nummering totdat SUBREGIE INDIA die formeel reserveert.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1622 path=research/active/VARANASI-COMPLETE-001/GOUD/report/04_quality_gate_canonical_integration_and_conclusion.md blob_sha=3e844f9839c1a263ea70eb129a1b648cd29d3601 original_offset=0 original_length=1491 payload_bytes=1491 chunk_index=0 chunk_count=1 classification=text
+# 04 — Quality gate, canonieke integratie en conclusie
+
+## Quality gate
+
+Technische integriteit: `PASS`.
+
+Inhoudelijke vrijgavestatus: `PARTIAL`.
+
+De fase behoudt 40 kandidaten, 57 claims, 25 accepted bronnen, 7 rejected bronnen, 8 detectorchecks, 6 negatieve searches, 40 GEO-records, 40 toegangsrecords, 40 beeldrecords, 40 reviewrecords en 15 verbindingen. Iedere claim-sourceverwijzing resolveert uniek.
+
+## Canonieke integratie
+
+Het voorstel is vóór de write gecommit. Commit `8f23111b8d9810e9673d7853619b21ce15f57a4c` heeft uitsluitend de bestaande records `IND-PLACE-000001` en `IND-PLACE-000002` aangevuld met gevalideerde coördinaten, nauwkeurigheid en provenance. Formele status, status-decision-ID, naam, aliases, overlays en recordstatus bleven ongewijzigd. `decisions/INDEX.yaml` is niet gewijzigd.
+
+## Scopecontrole
+
+- nieuwe of gewijzigde formele/adviserende A/B/C: 0;
+- nieuwe decision-ID: 0;
+- nieuwe permanente place-ID of LOCATION_ID: 0;
+- route-, basis-, station-, hotel- of eerste-bezoekkeuze: 0;
+- reads/writes onder `research/active/KUMAON-ROUTE-OPTIMIZATION-001/**`: 0.
+
+## Conclusie
+
+De Varanasi/Sarnath-onderzoeksbasis is compleet genoeg voor gebruik en latere planning. Een nieuwe brede sweep is niet nodig. Vóór vertrek blijft een gerichte praktische controle nodig voor toegang, fotografie, buitenlandse procedures, festivals en drukte. Permanente registratie van nog niet genummerde plaatsen blijft een afzonderlijke SUBREGIE-INDIA-taak.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1623 path=research/active/VARANASI-COMPLETE-001/GOUD/report/INDEX.md blob_sha=29450a52ac322437d4b1d04553cf27ae10c8a328 original_offset=0 original_length=352 payload_bytes=352 chunk_index=0 chunk_count=1 classification=text
+# GOUD report index — VARANASI-COMPLETE-001
+
+Leesvolgorde:
+
+1. `01_final_candidate_and_identity_map.md`
+2. `02_practice_access_visuals_and_reviews.md`
+3. `03_geo_connections_master_kml_and_ids.md`
+4. `04_quality_gate_canonical_integration_and_conclusion.md`
+
+De volledige directe oplevering voor Mark staat in `MARK_FINAL_REPORT.md`.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1624 path=research/active/VARANASI-COMPLETE-001/GOUD/sources/registry.jsonl,research/active/VARANASI-COMPLETE-001/ZILVER/sources/registry.jsonl blob_sha=fe68142dae76abf2027276538d5b3efca455d1a7 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+{"source_id":"ZVS-001","url":"https://www.shrikashivishwanath.org/","title":"Shri Kashi Vishwanath Official Web Portal","publisher":"Shri Kashi Vishwanath Temple Trust","source_type":"OFFICIAL_INSTITUTION","retrieved_at":"2026-07-21","supports":"Kashi Vishwanath identity, darshan and official services"}
+{"source_id":"ZVS-002","url":"https://www.shrikashivishwanath.org/contact/foreign_booking_process","title":"Foreign devotee darshan process","publisher":"Shri Kashi Vishwanath Temple Trust","source_type":"OFFICIAL_INSTITUTION","retrieved_at":"2026-07-21","supports":"foreign visitor helpdesk and passport process"}
+{"source_id":"ZVS-003","url":"https://varanasi.nic.in/temples-of-importance/","title":"Temples of Importance","publisher":"District Varanasi, Government of Uttar Pradesh","source_type":"GOVERNMENT","retrieved_at":"2026-07-21","supports":"major Varanasi temple and ghat identities"}
+{"source_id":"ZVS-004","url":"https://varanasi.nic.in/adventures/","title":"Sarnath excursion and monument grouping","publisher":"District Varanasi, Government of Uttar Pradesh","source_type":"GOVERNMENT","retrieved_at":"2026-07-21","supports":"Sarnath, Dhamek, Chaukhandi, museum and Mulagandha Kuti Vihara grouping"}
+{"source_id":"ZVS-005","url":"https://whc.unesco.org/en/tentativelists/1096","title":"Ancient Buddhist Site, Sarnath","publisher":"UNESCO / Archaeological Survey of India submission","source_type":"GOVERNMENT_PRIMARY","retrieved_at":"2026-07-21","supports":"Sarnath historical and physical monument domains"}
+{"source_id":"ZVS-006","url":"https://yssofindia.org/location/varanasi","title":"Yogoda Satsanga Dhyana Mandali – Varanasi","publisher":"Yogoda Satsanga Society of India","source_type":"OFFICIAL_LINEAGE","retrieved_at":"2026-07-21","supports":"current centre address, public group meditation, chanting and satsanga"}
+{"source_id":"ZVS-007","url":"https://yssofindia.org/about/lahiri-mahasaya","title":"Lahiri Mahasaya","publisher":"Yogoda Satsanga Society of India","source_type":"OFFICIAL_LINEAGE","retrieved_at":"2026-07-21","supports":"Lahiri lineage, Banaras home tradition and mahasamadhi in Banaras"}
+{"source_id":"ZVS-008","url":"https://www.anandamayi.org/ashram-contact-details/","title":"Ashram Contact Details – Varanasi","publisher":"Shree Shree Anandamayee Sangha","source_type":"OFFICIAL_INSTITUTION","retrieved_at":"2026-07-21","supports":"Bhadaini ashram current identity and contact"}
+{"source_id":"ZVS-009","url":"https://varanasi.rkmm.org/","title":"Ramakrishna Mission Home of Service, Varanasi","publisher":"Ramakrishna Math and Mission","source_type":"OFFICIAL_INSTITUTION","retrieved_at":"2026-07-21","supports":"active Luxa institution, service practice and address"}
+{"source_id":"ZVS-010","url":"https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/kabir-chaura-math","title":"Kabir Chaura Math","publisher":"Incredible India, Ministry of Tourism","source_type":"GOVERNMENT","retrieved_at":"2026-07-21","supports":"Kabir Chaura physical complex, practice context and published timings"}
+{"source_id":"ZVS-011","url":"https://aghorpeeth.org/about-kring-kund.html","title":"About Kring Kund","publisher":"Aghoracharya Baba Kinaram Aghor Sodh Evam Seva Sansthan","source_type":"OFFICIAL_LINEAGE","retrieved_at":"2026-07-21","supports":"Kring Kund headquarters, dhuni and living Aghor practice"}
+{"source_id":"ZVS-012","url":"https://varanasi.rkmm.org/visit-of-sri-ma-sarada-devi-to-varanasi","title":"Visit of Holy Mother in Varanasi","publisher":"Ramakrishna Mission Home of Service","source_type":"OFFICIAL_LINEAGE","retrieved_at":"2026-07-21","supports":"historical Bhaskarananda relation only; not current site management"}
+{"source_id":"ZVS-013","url":"https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/our-special-find-in-benaras","title":"Our special find in Benaras – the house of Lahiri Maharaj","publisher":"Incredible India, Ministry of Tourism","source_type":"GOVERNMENT_EXPERIENCE","retrieved_at":"2026-07-21","supports":"recognizable Lahiri house exterior and tradition; not public access"}
+{"source_id":
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1625 path=research/active/VARANASI-COMPLETE-001/GOUD/sources/registry.jsonl,research/active/VARANASI-COMPLETE-001/ZILVER/sources/registry.jsonl blob_sha=fe68142dae76abf2027276538d5b3efca455d1a7 original_offset=4096 original_length=3402 payload_bytes=3402 chunk_index=1 chunk_count=2 classification=text
+"ZVS-014","url":"https://yappe.in/uttar-pradesh/varanasi/lahiri-mahasaya-samadhi/141773","title":"Lahiri Mahasaya Samadhi address lead","publisher":"Yappe","source_type":"ROUTE_SOURCE","retrieved_at":"2026-07-21","supports":"working physical address only"}
+{"source_id":"ZVS-015","url":"https://yappe.in/uttar-pradesh/varanasi/lahiri-mahasaya-original-home-kriya/415665","title":"Lahiri Mahasaya original home address lead","publisher":"Yappe","source_type":"ROUTE_SOURCE","retrieved_at":"2026-07-21","supports":"working physical address only"}
+{"source_id":"ZVS-016","url":"https://yappe.in/uttar-pradesh/varanasi/shri-trilinga-swami-math/415850","title":"Shri Tailanga Swami Math address and visitor lead","publisher":"Yappe","source_type":"ROUTE_AND_REVIEW_SOURCE","retrieved_at":"2026-07-21","supports":"working address and limited visitor themes; not institutional management"}
+{"source_id":"ZVS-017","url":"https://www.varanasi-tourism.in/religious-places.html","title":"Varanasi religious places overview","publisher":"Varanasi Tourism portal","source_type":"SECONDARY","retrieved_at":"2026-07-21","supports":"secondary identity cross-checks only"}
+{"source_id":"ZVS-018","url":"https://shrikashivishwanath.org/frontend/home/poojadetail/eGpzQmoxVGdDQko2V0J0NkljQVNqUT09","title":"Sugam Darshan current official conditions","publisher":"Shri Kashi Vishwanath Temple Trust","source_type":"OFFICIAL_CURRENT_PRACTICAL","retrieved_at":"2026-07-21","supports":"current official booking conditions and time sensitivity"}
+{"source_id":"ZVS-019","url":"https://varanasi.nic.in/gallery/sarnath/","title":"Sarnath government photo gallery","publisher":"District Varanasi, Government of Uttar Pradesh","source_type":"GOVERNMENT_VISUAL","retrieved_at":"2026-07-21","supports":"representative Sarnath visual identity only"}
+{"source_id":"ZVS-020","url":"https://whc.unesco.org/en/list/1056/","title":"Mahabodhi Temple Complex at Bodh Gaya","publisher":"UNESCO World Heritage Centre","source_type":"INTERNATIONAL_PRIMARY","retrieved_at":"2026-07-21","supports":"Mahabodhi complex and Bodhi Tree identity/GEO cross-check"}
+{"source_id":"ZVS-021","url":"https://www.katyayanipeeth.org.in/contact","title":"Katyayani Peeth contact","publisher":"Katyayani Trust","source_type":"OFFICIAL_INSTITUTION","retrieved_at":"2026-07-21","supports":"Keshav Ashram Radha Bagh Vrindavan identity cross-check"}
+{"source_id":"ZVS-022","url":"LOCKED_A.md","title":"Formal A source","publisher":"India knowledge base","source_type":"PRIMARY_TEXT","retrieved_at":"2026-07-21","supports":"28 immutable formal A statuses"}
+{"source_id":"ZVS-023","url":"LOCKED_B.md","title":"Formal B source","publisher":"India knowledge base","source_type":"PRIMARY_TEXT","retrieved_at":"2026-07-21","supports":"2 immutable formal B statuses"}
+{"source_id":"ZVS-024","url":"research/active/VARANASI-COMPLETE-001/shared/MASTER_A_B_GEO_REGISTRY.jsonl","title":"Shared master A/B GEO registry","publisher":"India knowledge base","source_type":"PRIMARY_DATA","retrieved_at":"2026-07-21","supports":"30-record repositorywide formal map source"}
+{"source_id":"ZVS-025","url":"research/active/VARANASI-COMPLETE-001/BRONS/INDIA_ALL_FORMAL_A_B_WORKING_PREPARED.kml","title":"Prepared formal A/B KML","publisher":"India knowledge base","source_type":"PRIMARY_DATA","retrieved_at":"2026-07-21","supports":"28 green A and 2 orange B placemarks"}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1626 path=research/active/VARANASI-COMPLETE-001/GOUD/sources/rejected.jsonl,research/active/VARANASI-COMPLETE-001/ZILVER/sources/rejected.jsonl blob_sha=3db4f3b55c097cac8f080a17a6075e108889106d original_offset=0 original_length=1335 payload_bytes=1335 chunk_index=0 chunk_count=1 classification=text
+{"source_id":"ZVR-001","url":"generic Varanasi top lists","reason":"Not suitable for lineage, history, current access or formal-status claims.","supports_claims":[]}
+{"source_id":"ZVR-002","url":"generic Google Maps search query","reason":"A generic search URL does not uniquely establish forty physical objects or coordinates.","supports_claims":[]}
+{"source_id":"ZVR-003","url":"single miraculous-energy reviews","reason":"Visitor testimony cannot establish supernatural, historical or lineage facts.","supports_claims":[]}
+{"source_id":"ZVR-004","url":"unsourced exact Lahartara birthplace pins","reason":"Kabir birth tradition is retained, but exact microtopography was not independently established.","supports_claims":["VC-025","VC-057"]}
+{"source_id":"ZVR-005","url":"unsourced exact Yogananda–Sri Yukteswar meeting pins","reason":"No reliable current physical object was established.","supports_claims":["VC-057"]}
+{"source_id":"ZVR-006","url":"promotional spiritual tour packages","reason":"Commercial itineraries do not establish identity, significance or visitability.","supports_claims":[]}
+{"source_id":"ZVR-007","url":"unverified Bhaskarananda map pins","reason":"Historical relation exists, but current samadhi management and exact public site remain unresolved.","supports_claims":["VC-028","VC-056"]}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1627 path=research/active/VARANASI-COMPLETE-001/GOUD/working_geo.jsonl,research/active/VARANASI-COMPLETE-001/ZILVER/working_geo.jsonl blob_sha=2413a99159ef2cc17fd6d66a3aea701f7e70e7d3 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=5 classification=text
+{"candidate_id":"VNS-CAND-001","canonical_name":"Lahiri Mahasaya Samadhi / Satyalok","latitude":25.3028,"longitude":83.0074,"geo_status":"WORKING_ADDRESS_POINT","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-007","ZVS-014"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-002","canonical_name":"Lahiri Mahasaya original home","latitude":25.3018,"longitude":83.0068,"geo_status":"WORKING_ADDRESS_POINT","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-007","ZVS-013","ZVS-015"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-003","canonical_name":"Manikarnika Ghat","latitude":25.3109,"longitude":83.0142,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-003"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-004","canonical_name":"Shri Tailanga Swami Math","latitude":25.3188,"longitude":83.013,"geo_status":"WORKING_ADDRESS_POINT","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-016"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-005","canonical_name":"Shree Shree Ma Anandamayi Ashram, Bhadaini","latitude":25.2897,"longitude":83.0068,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-008"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-006","canonical_name":"Sarnath sacred complex","latitude":25.3811,"longitude":83.0214,"geo_status":"VERIFIED_SITE_CENTRE","accuracy_class":"SITE_LEVEL","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-004","ZVS-005"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":null,"checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-007","canonical_name":"Shri Kashi Vishwanath Temple","latitude":25.3109,"longitude":83.0107,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-001","ZVS-002","ZVS-018"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-008","canonical_name":"Yogoda Satsanga Dhyana Mandali, Varanasi","latitude":25.3045,"longitude":82.979369,"geo_status":"VERIFIED_SITE_CENTRE","accuracy_class":"SITE_LEVEL","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-006"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":null,"checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-009","canonical_name":"Dashashwamedh Ghat","latitude":25.3062,"longitude":83.0104,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-003"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","o
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1628 path=research/active/VARANASI-COMPLETE-001/GOUD/working_geo.jsonl,research/active/VARANASI-COMPLETE-001/ZILVER/working_geo.jsonl blob_sha=2413a99159ef2cc17fd6d66a3aea701f7e70e7d3 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=5 classification=text
+pen_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-010","canonical_name":"Assi Ghat","latitude":25.2887,"longitude":83.0061,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-003"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-011","canonical_name":"Panchganga Ghat","latitude":25.3185,"longitude":83.0128,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-003"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-012","canonical_name":"Harishchandra Ghat","latitude":25.2994,"longitude":83.009,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-003"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-013","canonical_name":"Kaal Bhairav Temple","latitude":25.3223,"longitude":83.009,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-003"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-014","canonical_name":"Maa Annapurna Temple","latitude":25.3107,"longitude":83.0103,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-003"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-015","canonical_name":"Sankat Mochan Hanuman Temple","latitude":25.282,"longitude":82.9992,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-003"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-016","canonical_name":"Durga Temple and Durga Kund","latitude":25.288,"longitude":82.9998,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-003"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-017","canonical_name":"Vishalakshi Gauri Temple","latitude":25.3102,"longitude":83.0119,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-003"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-018","canonical_name":"Sankatha Devi Temple","latitude":25.3156,"longitude":83.014,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-003"],"validation_status":"ACCEPTED_WORKING","exactness_note
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1629 path=research/active/VARANASI-COMPLETE-001/GOUD/working_geo.jsonl,research/active/VARANASI-COMPLETE-001/ZILVER/working_geo.jsonl blob_sha=2413a99159ef2cc17fd6d66a3aea701f7e70e7d3 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=5 classification=text
+":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-019","canonical_name":"Kedareshwar Temple and Kedar Ghat","latitude":25.2967,"longitude":83.0088,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-003"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-020","canonical_name":"Lalita Ghat","latitude":25.3114,"longitude":83.0131,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-003"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-021","canonical_name":"Nepali Temple / Kathwala Temple","latitude":25.312,"longitude":83.0132,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-003"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-022","canonical_name":"Bindu Madhav Temple","latitude":25.3187,"longitude":83.0125,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-003"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-023","canonical_name":"Mrityunjay Mahadev Temple","latitude":25.3291,"longitude":83.0056,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-003"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-024","canonical_name":"Kabir Chaura Math","latitude":25.3233,"longitude":82.9992,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-010"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-025","canonical_name":"Lahartara Kabir birthplace memorial","latitude":25.304,"longitude":82.966,"geo_status":"APPROXIMATE_LOCAL_POINT","accuracy_class":"100_500_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-010","ZVR-004"],"validation_status":"PARTIAL_NOT_ESTABLISHED","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-026","canonical_name":"Ramakrishna Mission Home of Service","latitude":25.309,"longitude":82.9974,"geo_status":"VERIFIED_SITE_CENTRE","accuracy_class":"SITE_LEVEL","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-009"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":null,"checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-027","canonical_name":"Baba Keenaram Sthal / Krim Kund","latitude":25.2928,"longitude":83.001,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1630 path=research/active/VARANASI-COMPLETE-001/GOUD/working_geo.jsonl,research/active/VARANASI-COMPLETE-001/ZILVER/working_geo.jsonl blob_sha=2413a99159ef2cc17fd6d66a3aea701f7e70e7d3 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=5 classification=text
+"SITE_CENTRE","geo_source_ids":["ZVS-011"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-028","canonical_name":"Bhaskarananda Samadhi / Anand Bagh","latitude":25.2868,"longitude":82.9968,"geo_status":"APPROXIMATE_LOCAL_POINT","accuracy_class":"100_500_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-012"],"validation_status":"PARTIAL_NOT_ESTABLISHED","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-029","canonical_name":"Dhamek Stupa","latitude":25.3807,"longitude":83.0245,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-004","ZVS-005"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-030","canonical_name":"Mulagandha Kuti Vihara","latitude":25.3819,"longitude":83.0216,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-004"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-031","canonical_name":"Chaukhandi Stupa","latitude":25.3756,"longitude":83.022,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-004","ZVS-005"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-032","canonical_name":"Sarnath Archaeological Museum","latitude":25.3817,"longitude":83.0205,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-004"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-033","canonical_name":"Deer Park / Isipatana sacred landscape","latitude":25.3813,"longitude":83.023,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-004","ZVS-005"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-034","canonical_name":"Saranganath Temple","latitude":25.3833,"longitude":83.0225,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-003"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-035","canonical_name":"Tulsi Manas Temple","latitude":25.2883,"longitude":83.0003,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-003"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-036","canonical_name"
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1631 path=research/active/VARANASI-COMPLETE-001/GOUD/working_geo.jsonl,research/active/VARANASI-COMPLETE-001/ZILVER/working_geo.jsonl blob_sha=2413a99159ef2cc17fd6d66a3aea701f7e70e7d3 original_offset=16384 original_length=2284 payload_bytes=2284 chunk_index=4 chunk_count=5 classification=text
+:"Tulsi Ghat","latitude":25.2906,"longitude":83.0068,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-003"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-037","canonical_name":"Lolark Kund","latitude":25.2875,"longitude":83.0038,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-003"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-038","canonical_name":"Ratneshwar Mahadev Temple","latitude":25.3113,"longitude":83.0145,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-003"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-039","canonical_name":"Shitala Mata Temple, Dashashwamedh","latitude":25.3064,"longitude":83.0105,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-003"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-040","canonical_name":"Bharat Mata Temple","latitude":25.317,"longitude":82.989,"geo_status":"WORKING_GOOGLE_MAPS_PIN","accuracy_class":"25_100_M","point_type":"SITE_CENTRE","geo_source_ids":["ZVS-003"],"validation_status":"ACCEPTED_WORKING","exactness_note":"Bruikbaar werkpunt voor clusterkaart; geen ingangsprecisie geclaimd.","open_geo_question":"Exacte bezoekersingang of microplek later controleren.","checked_at":"2026-07-21"}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1632 path=research/active/VARANASI-COMPLETE-001/ZILVER/COMPLETED blob_sha=3133a77f877eafde3c4ecdf35478f0add38defb3 original_offset=0 original_length=1906 payload_bytes=1906 chunk_index=0 chunk_count=1 classification=text
+PARTIAL
+run_id: VARANASI-COMPLETE-001
+role: ZILVER
+source_commit: d4459c0f58c4a9ab88213e4f04a1e61d291a1124
+outputs:
+  - manifest.yaml
+  - report/INDEX.md
+  - report/01_verified_candidate_map.md
+  - report/02_lineages_practice_and_access.md
+  - report/03_geo_visuals_reviews_and_proximity.md
+  - report/04_master_ab_registry_and_kml.md
+  - report/05_quality_gate_and_conclusion.md
+  - candidates.jsonl
+  - claims.jsonl
+  - sources/registry.jsonl
+  - sources/rejected.jsonl
+  - detector_checks.jsonl
+  - negative_searches.jsonl
+  - working_geo.jsonl
+  - practical_access.jsonl
+  - images.jsonl
+  - experience_reviews.jsonl
+  - proximity.jsonl
+  - formal_ab_coverage.md
+  - MASTER_A_B_GEO_REGISTRY_VERIFIED.jsonl
+  - INDIA_ALL_FORMAL_A_B_WORKING_ZILVER.kml
+  - audit.md
+  - handoff.yaml
+highest_gaps:
+  - Lahartara and Bhaskarananda/Anand Bagh exact micro-identity, GEO, management and access remain not established.
+  - Direct management and access confirmation remains open for Lahiri Samadhi/Satyalok, Lahiri house and Trailanga Math.
+  - Complete ten-function image sets and systematic recent review analyses remain absent for all candidates.
+  - Opening, photography, foreign access, festival and crowd conditions remain time-sensitive for many sites.
+validation: All required ZILVER artifacts were reopened from GitHub. Forty candidates, fifty-seven reassessed claims, twenty-five accepted sources, seven rejected sources, eight detectors, six negative searches, forty GEO records, forty practical-access records, forty image records, forty review records and fifteen proximity records are structurally coherent. The repositorywide formal map remains exactly twenty-eight A, two B and thirty placemarks with A only green and B only orange. No formal or advisory status, decision, route, base, hotel or station was created, and KUMAON-ROUTE-OPTIMIZATION-001 was neither read nor modified.
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1633 path=research/active/VARANASI-COMPLETE-001/ZILVER/audit.md blob_sha=375868f725c6afe69fd66615c9b15316cdd2ca1e original_offset=0 original_length=2543 payload_bytes=2543 chunk_index=0 chunk_count=1 classification=text
+# ZILVER-audit — VARANASI-COMPLETE-001
+
+## Preflight en claim
+
+- GitHub-read en GitHub-write vóór inhoudelijk werk getest.
+- Tijdelijke preflightfile aangemaakt, teruggelezen en verwijderd.
+- `NEXT_ACTION`, run, state, events en `ZILVER_CONTEXT` stemden exact overeen.
+- Alle 48 required files volledig gelezen; alle gepinde blob-SHA's en sentinels kwamen overeen.
+- Geen forbidden file gelezen of gewijzigd.
+- `KUMAON-ROUTE-OPTIMIZATION-001` niet gelezen of gewijzigd.
+- ZILVER-workerclaim atomisch `ACTIVE` vastgelegd in commit `5becc01f8821298218ab10877db5482e57cbf2dd`.
+
+## Inhoudelijke validatie
+
+- kandidaten: 40 unieke IDs;
+- bevestigde identiteiten: 35;
+- werkidentiteiten met beperkingen: 3;
+- partial identiteiten: 2;
+- claims: 57 unieke IDs;
+- geaccepteerde bronnen: 25 unieke IDs;
+- afgewezen bronnen: 7 unieke IDs;
+- ontbrekende claim-source-ID's: 0;
+- dubbele IDs over accepted/rejected: 0;
+- detectorchecks: 8;
+- negatieve zoekrecords: 6;
+- working-GEO-records: 40;
+- practical-access-records: 40;
+- image-records: 40;
+- experience-review-records: 40;
+- proximity-records: 15.
+
+## Formele A/B- en KML-controle
+
+- 28 formele A exact behouden;
+- 2 formele B exact behouden;
+- 30 placemarks;
+- A-folder en A-stijl uitsluitend groen (`ff00aa00`);
+- B-folder en B-stijl uitsluitend oranje (`ff00a5ff`);
+- C, stations, routes, bases, hotels en categorie-logo's: 0;
+- dubbele niet-lege LOCATION_ID's: 0;
+- ontbrekende coördinaten: 0;
+- formele of adviserende statuswijzigingen: 0.
+
+## Correcties
+
+- generieke Google Maps-zoeklink verwijderd als dragend bewijs;
+- Lahartara teruggebracht tot approximate traditiezone;
+- Bhaskarananda/Anand Bagh teruggebracht tot historisch bevestigde relatie met niet-vastgestelde actuele microplek;
+- Lahiri Samadhi/Satyalok, Lahiri-huis en Trailanga Math expliciet als werkidentiteiten met beheer-/toegangslimiet;
+- nabijheidsrelaties voorzien van rechte-lijnafstanden, zonder route- of tijdclaim;
+- beelden en reviews niet kunstmatig opgewaardeerd.
+
+## Scopeverboden
+
+- geen nieuwe formele of adviserende A/B/C;
+- geen nieuw decision-ID;
+- geen route-, hotel-, basis-, station- of eerste-bezoekkeuze;
+- geen PARELS;
+- geen wijziging aan de geparkeerde Kumaon-routerun;
+- geen GOUD-context gelezen of geschreven tijdens de workerfase.
+
+## Quality gate
+
+Technische integriteit: `PASS`.
+Inhoudelijke vrijgavestatus: `PARTIAL`.
+
+Reden: de dataset is bruikbaar en coherent, maar volledige beeld/reviewdekking, veel actuele praktische details en twee micro-identiteiten blijven open.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1634 path=research/active/VARANASI-COMPLETE-001/ZILVER/handoff.yaml blob_sha=72fa18476478f1a7689e2bc2b4fb73be5ca78991 original_offset=0 original_length=3170 payload_bytes=3170 chunk_index=0 chunk_count=1 classification=text
+schema_version: 3
+run_id: VARANASI-COMPLETE-001
+from_role: ZILVER
+to_role: GOUD
+result_status: PARTIAL
+source_commit: d4459c0f58c4a9ab88213e4f04a1e61d291a1124
+worker_claim_commit: 5becc01f8821298218ab10877db5482e57cbf2dd
+candidate_summary:
+  total: 40
+  confirmed: 35
+  working_supported: 3
+  partial: 2
+claim_summary:
+  total: 57
+  confirmed: 45
+  retained_with_limits: 5
+  corrected: 3
+  corrected_to_partial: 3
+  confirmed_negative: 1
+formal_ab:
+  A: 28
+  B: 2
+  placemarks: 30
+  changed: 0
+  a_color: GREEN
+  b_color: ORANGE
+layers:
+  candidate_identity:
+    status: CORRECTED
+    risk: HIGH
+    goud_action: Reopen Lahartara, Bhaskarananda, Lahiri Samadhi, Lahiri house and Trailanga Math; preserve all other candidates.
+  lineage_and_tradition:
+    status: VERIFIED
+    risk: MEDIUM
+    goud_action: Preserve separate lineage, institution, history and tradition domains.
+  living_practice:
+    status: PARTIAL
+    risk: HIGH
+    goud_action: Use current official practice only for Kashi Vishwanath, YSS, Anandamayi, RK Mission, Kabir Chaura and Kring Kund; do not generalize.
+  practical_access:
+    status: OPEN
+    risk: HIGH
+    goud_action: Convert time-sensitive details into control-before-departure or direct-contact actions.
+  working_geo:
+    status: CORRECTED
+    risk: HIGH
+    goud_action: Retain two approximate points and three working address points without entrance precision.
+  proximity:
+    status: CORRECTED
+    risk: MEDIUM
+    goud_action: Use straight-line values only as sanity checks; no route time or route choice.
+  images:
+    status: OPEN
+    risk: HIGH
+    goud_action: Preserve explicit ten-function shortages; visual leads establish identity only.
+  experience_reviews:
+    status: OPEN
+    risk: HIGH
+    goud_action: Preserve lack of systematic recent review coverage.
+  detector_completeness:
+    status: VERIFIED_WITH_LIMITS
+    risk: MEDIUM
+    goud_action: Do not inflate negative searches into proof; no new broad sweep.
+  master_ab_registry:
+    status: VERIFIED
+    risk: HIGH
+    goud_action: Preserve exact 28 A, 2 B, 30 placemarks and all valid LOCATION_IDs.
+  master_ab_kml:
+    status: VERIFIED
+    risk: HIGH
+    goud_action: Preserve exact two folders and green/orange style assignment.
+highest_open_gaps:
+  - Lahartara and Bhaskarananda/Anand Bagh exact micro-identity, GEO, management and access.
+  - Direct management/access confirmation for Lahiri Samadhi/Satyalok, Lahiri house and Trailanga Math.
+  - Complete ten-function image sets and systematic recent review analyses for all candidates.
+  - Time-sensitive opening, photography, foreign access, festival and crowd conditions.
+forbidden_for_goud:
+  - change formal or advisory A/B/C
+  - create a new decision-ID
+  - select route, base, hotel, station or first visit location
+  - mutate research/active/KUMAON-ROUTE-OPTIMIZATION-001/**
+required_reopen:
+  - candidates.jsonl
+  - claims.jsonl
+  - sources/registry.jsonl
+  - sources/rejected.jsonl
+  - practical_access.jsonl
+  - working_geo.jsonl
+  - images.jsonl
+  - experience_reviews.jsonl
+  - proximity.jsonl
+  - formal_ab_coverage.md
+  - INDIA_ALL_FORMAL_A_B_WORKING_ZILVER.kml
+  - audit.md
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1635 path=research/active/VARANASI-COMPLETE-001/ZILVER/manifest.yaml blob_sha=d83b23b1abdfb871cf614ddba6b368567a2a1723 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+schema_version: 3
+run_id: VARANASI-COMPLETE-001
+role: ZILVER
+completion_status: PARTIAL
+source_commit: d4459c0f58c4a9ab88213e4f04a1e61d291a1124
+context_profile: ZILVER_MIN
+protocol_versions:
+  pipeline: 3.1.1
+  methodology: 3.0.0
+  execution_protocol: 2.3.1
+  controller_transition_protocol: 2.3.1
+  role_handoff_protocol: '1.1'
+counts:
+  candidates: 40
+  confirmed_candidates: 35
+  working_supported_candidates: 3
+  partial_candidates: 2
+  claims: 57
+  confirmed_claims: 45
+  retained_with_limits_claims: 5
+  corrected_claims: 3
+  corrected_to_partial_claims: 3
+  confirmed_negative_claims: 1
+  accepted_sources: 25
+  rejected_sources: 7
+  detector_checks: 8
+  negative_searches: 6
+  working_geo: 40
+  practical_access: 40
+  images: 40
+  experience_reviews: 40
+  proximity: 15
+formal_ab:
+  A: 28
+  B: 2
+  changed: 0
+  registry_records: 30
+  kml_placemarks: 30
+  kml_folders: 2
+  A_style: A_GREEN
+  A_color: ff00aa00
+  B_style: B_ORANGE
+  B_color: ff00a5ff
+  C_records: 0
+  route_station_base_hotel_records: 0
+identifiers:
+  candidate_ids_unique: true
+  claim_ids_unique: true
+  source_ids_unique_across_registers: true
+  registry_record_ids_unique: true
+  duplicate_nonempty_location_ids: 0
+  missing_coordinates: 0
+files:
+  - {path: report/INDEX.md, lines: 13, git_blob_sha: 6e942474a08e1dd67533b141d31a6e65e6da808d}
+  - {path: report/01_verified_candidate_map.md, lines: 30, git_blob_sha: 21e6308bb049169d2501a84455ab9cc1b553dbe4}
+  - {path: report/02_lineages_practice_and_access.md, lines: 29, git_blob_sha: 3a925e32982277f8cf0035d6131aa49ed9877e5e}
+  - {path: report/03_geo_visuals_reviews_and_proximity.md, lines: 30, git_blob_sha: 16d8fda02aa110fc347edc81e60a4f3b20684c70}
+  - {path: report/04_master_ab_registry_and_kml.md, lines: 34, git_blob_sha: 9345de9fd252aa7b78f8f4646852c78a83dce822}
+  - {path: report/05_quality_gate_and_conclusion.md, lines: 41, git_blob_sha: d74926e96aecf4fc036d7663b59b3bfed6cd7432}
+  - {path: candidates.jsonl, lines: 41, git_blob_sha: 6e1f8688b4af305333986dd299ce8ba9c071b9d0}
+  - {path: claims.jsonl, lines: 58, git_blob_sha: 65047e76d6774023dd462cee5a0f7266edc0e84c}
+  - {path: sources/registry.jsonl, lines: 26, git_blob_sha: fe68142dae76abf2027276538d5b3efca455d1a7}
+  - {path: sources/rejected.jsonl, lines: 8, git_blob_sha: 3db4f3b55c097cac8f080a17a6075e108889106d}
+  - {path: detector_checks.jsonl, lines: 9, git_blob_sha: 2099a950295fe28b9a0184ff6920825a27a63ff9}
+  - {path: negative_searches.jsonl, lines: 7, git_blob_sha: 32a007f0fd7e9e195a8019f9da37623c98578934}
+  - {path: working_geo.jsonl, lines: 41, git_blob_sha: 2413a99159ef2cc17fd6d66a3aea701f7e70e7d3}
+  - {path: practical_access.jsonl, lines: 41, git_blob_sha: d6e3eaa9bd5e93d44e86d62e9d5d8d96b9232fc9}
+  - {path: images.jsonl, lines: 41, git_blob_sha: eaa607d69788a26dacc5e454a72ce167a8f8e8a2}
+  - {path: experience_reviews.jsonl, lines: 41, git_blob_sha: b467e9c44ff8aa612bddf512a83e74a1b1d1e3a5}
+  - {path: proximity.jsonl, lines: 16, git_blob_sha: 173e7f288e81fcf5f624a0eb0778eadf921e3db0}
+  - {path: formal_ab_coverage.md, lines: 34, git_blob_sha: 0b74949874397526f06341578077d6429e9072f4}
+  - {path: MASTER_A_B_GEO_REGISTRY_VERIFIED.jsonl, lines: 31, git_blob_sha: da7be7eb5257398b6d49681bb52abcebe1499688}
+  - {path: INDIA_ALL_FORMAL_A_B_WORKING_ZILVER.kml, lines: 283, git_blob_sha: 510ccbcbc8665b12ba2edff807638558f41a677d}
+  - {path: audit.md, lines: 69, git_blob_sha: 375868f725c6afe69fd66615c9b15316cdd2ca1e}
+  - {path: handoff.yaml, lines: 95, git_blob_sha: 72fa18476478f1a7689e2bc2b4fb73be5ca78991}
+  - {path: manifest.yaml, git_blob_sha: SELF_IN_COMPLETION_COMMIT}
+  - {path: COMPLETED, git_blob_sha: SAME_COMPLETION_COMMIT}
+validation:
+  github_read_confirmed: true
+  github_write_confirmed: true
+  required_context_files_fully_read: true
+  required_context_hashes_match: true
+  forbidden_files_used: false
+  parked_kumaon_route_run_read: false
+  parked_kumaon_route_run_mutated: false
+  required_outputs_present: true
+  all_outputs_reopened_from_github: true
+  text_sentinels_checked: true
+  kml_xml_closing_checked: true
+  kml_exact_28_a_2_b_30_total: true
+  kml_a_only
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1636 path=research/active/VARANASI-COMPLETE-001/ZILVER/manifest.yaml blob_sha=d83b23b1abdfb871cf614ddba6b368567a2a1723 original_offset=4096 original_length=1052 payload_bytes=1052 chunk_index=1 chunk_count=2 classification=text
+_green_b_only_orange: true
+  source_id_references_valid: true
+  source_ids_unique_across_registers: true
+  identifiers_unique: true
+  all_40_candidates_preserved: true
+  all_57_claims_reassessed: true
+  all_8_detectors_reassessed: true
+  all_6_negative_searches_reassessed: true
+  formal_or_advisory_abc_assigned: false
+  formal_abc_changed: false
+  new_decision_id_created: false
+  route_base_hotel_station_selected: false
+  parels_activated: false
+  image_shortages_explicit: true
+  review_shortages_explicit: true
+  worker_claim_closed_in_completion_commit: true
+open_blockers:
+  - Lahartara and Bhaskarananda/Anand Bagh exact micro-identity, GEO, management and access remain not established.
+  - Direct management and access confirmation remains open for Lahiri Samadhi/Satyalok, Lahiri house and Trailanga Math.
+  - Complete ten-function image sets and systematic recent review analyses remain absent for all candidates.
+  - Opening, photography, foreign access, festival and crowd conditions remain time-sensitive for many sites.
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1637 path=research/active/VARANASI-COMPLETE-001/ZILVER/report/01_verified_candidate_map.md blob_sha=21e6308bb049169d2501a84455ab9cc1b553dbe4 original_offset=0 original_length=2081 payload_bytes=2081 chunk_index=0 chunk_count=1 classification=text
+# 01 — Gevalideerde Varanasi/Sarnath-kandidatenkaart
+
+## Uitkomst
+
+Alle 40 BRONS-kandidaten zijn behouden en onafhankelijk beoordeeld. De uitkomst is:
+
+- 35 fysieke identiteiten bevestigd met institutionele, overheids- of passende historische bronnen;
+- 3 identiteiten als bruikbare werkobjecten behouden met beperkt secundair bewijs: Lahiri Mahasaya Samadhi/Satyalok, Lahiri-huis en Shri Tailanga Swami Math;
+- 2 kandidaten expliciet op `PARTIAL`: Lahartara en Bhaskarananda/Anand Bagh;
+- 7 bestaande formele A-statussen exact behouden;
+- 33 nieuwe kandidaten zonder formele of adviserende status.
+
+## Kriya-laag
+
+YSS Varanasi is een huidige, officieel bevestigde meditatielocatie met openbaar aangekondigde groepsmeditatie, chanting, inspirational reading, satsanga en herdenkingen (`ZVS-006`). De Lahiri-lineage en zijn Banaras-huis zijn officieel bevestigd (`ZVS-007`). Het fysieke woonhuis wordt daarnaast herkenbaar beschreven door Incredible India (`ZVS-013`). De exacte publieke toegang tot het huis en de huidige institutionele status van Satyalok blijven echter onbevestigd. Beide objecten blijven daarom fysiek kaartbaar maar praktisch `CHECK_DIRECTLY`.
+
+## Kleine identiteiten
+
+- Kabir Chaura Math is fysiek en inhoudelijk bevestigd door het nationale toerismeportaal (`ZVS-010`).
+- Lahartara blijft alleen een approximate Kabir-geboortetraditiezone; geen betrouwbare microplek.
+- Kring Kund is officieel bevestigd als hoofdzetel van de Kashi Aghor-traditie (`ZVS-011`).
+- Ramakrishna Mission Home of Service is een actieve Luxa-instelling met zorg- en sevapraktijk (`ZVS-009`).
+- Bhaskarananda is historisch bevestigd, maar het huidige samadhi-/Anand Bagh-object, beheer en toegang zijn niet vastgesteld (`ZVS-012`, `ZVR-007`).
+- Shri Tailanga Swami Math blijft een herkenbaar werkobject met adres- en bezoekerbewijs, maar zonder actuele institutionele beheerbron (`ZVS-016`).
+
+## Statusgrens
+
+ZILVER heeft geen A/B/C-status toegevoegd, verwijderd of gewijzigd. Alle 40 kandidaten blijven zichtbaar; onzekerheid is niet door verwijdering gemaskeerd.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1638 path=research/active/VARANASI-COMPLETE-001/ZILVER/report/02_lineages_practice_and_access.md blob_sha=3a925e32982277f8cf0035d6131aa49ed9877e5e original_offset=0 original_length=2278 payload_bytes=2278 chunk_index=0 chunk_count=1 classification=text
+# 02 — Lineages, levende praktijk en toegang
+
+## Bevestigde levende lagen
+
+- Kashi Vishwanath: officiële darshan-, pooja-, helpdesk- en buitenlandse-bezoekersprocedure bevestigd (`ZVS-001`, `ZVS-002`, `ZVS-018`). Beschikbaarheid en uitzonderingen blijven datumafhankelijk.
+- YSS Varanasi: openbaar toegankelijke groepsmeditaties en satsanga bevestigd; dagschema direct opvragen (`ZVS-006`).
+- Anandamayi Ma Ashram Bhadaini: officiële huidige contactvermelding bevestigd; programma en gasttoegang direct bevestigen (`ZVS-008`).
+- Ramakrishna Mission Home of Service: actieve dienst-, ziekenhuis- en reliefpraktijk bevestigd; dit is geen gewone toeristische tempelstop (`ZVS-009`).
+- Kabir Chaura Math: fysieke herinnerings- en levende traditieplek bevestigd; overheidsbron publiceert 05:00–20:00 maar controle vóór bezoek blijft nodig (`ZVS-010`).
+- Kring Kund: hoofdzetel, dhuni en sacred-ash-praktijk door de eigen lijn bevestigd (`ZVS-011`).
+- Sarnath: archeologische, historische en levende vihara-objecten als afzonderlijke functies bevestigd (`ZVS-004`, `ZVS-005`).
+
+## Respectvolle deelname
+
+- Crematieghats: geen indringende fotografie, geen blokkering van rituelen en afstand houden van rouwende families.
+- Tempels en ashrams: kleding, telefoon, fotografie, buitenlandse toegang en deelname vooraf of ter plaatse controleren.
+- YSS en ashrams: deelname alleen volgens gepubliceerd of rechtstreeks bevestigd programma.
+- Home of Service: respecteer de zorgfunctie; geen bezoek aan patiënten of werkruimten zonder toestemming.
+- Kring Kund en Kabir Chaura: rituele handelingen observeren of volgen uitsluitend met lokale toestemming.
+
+## Niet betrouwbaar vastgesteld
+
+Voor het merendeel van de kleinere tempels zijn actuele openingstijden, fotografie, festivalroutes en buitenlandse toegang niet institutioneel gepubliceerd. Daarom luidt de operationele status exact: `Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.`
+
+## Tijdgevoelige waarschuwing
+
+Kashi Vishwanath publiceert actuele boekingsvoorwaarden en kan diensten op speciale dagen beperken. Deze run gebruikt actuele informatie als controle, niet als garantie voor de reisdatum. GOUD moet dit vertalen naar een controle-vóór-vertrek, geen vaste tijdclaim.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1639 path=research/active/VARANASI-COMPLETE-001/ZILVER/report/03_geo_visuals_reviews_and_proximity.md blob_sha=16d8fda02aa110fc347edc81e60a4f3b20684c70 original_offset=0 original_length=1730 payload_bytes=1730 chunk_index=0 chunk_count=1 classification=text
+# 03 — GEO, beelden, reviews en nabijheid
+
+## WORKING_GEO
+
+Alle 40 kandidaten hebben één uniek werkpunt. ZILVER heeft geen schijnprecisie toegevoegd.
+
+- `VERIFIED_SITE_CENTRE`: Sarnath-complex, YSS Varanasi en Ramakrishna Mission Home of Service;
+- `WORKING_ADDRESS_POINT`: Lahiri Samadhi/Satyalok, Lahiri-huis en Trailanga Math;
+- `APPROXIMATE_LOCAL_POINT`: Lahartara en Bhaskarananda/Anand Bagh;
+- overige records blijven herkenbare `WORKING_GOOGLE_MAPS_PIN`-punten.
+
+Lahartara en Bhaskarananda blijven expliciet `PARTIAL_NOT_ESTABLISHED` op micro-GEO.
+
+## Nabijheid
+
+De 15 BRONS-clusterrelaties zijn behouden. ZILVER heeft vanuit de werkcoördinaten rechte-lijnafstanden berekend om onmogelijke koppelingen te detecteren. Geen wegafstand of reistijd is afgeleid. Elke relatie staat daarom als `VALIDATED_CLUSTER_RELATION_NOT_ROUTE_DECISION`; routeafstand en tijd blijven `NOT_VERIFIED`.
+
+## Beelden
+
+Voor 13 kandidaten is minimaal één institutionele of overheidsvisuele identiteitslead geregistreerd. Voor geen enkele kandidaat bestaat een volledige niet-dubbele tien-functiesbeeldset. De overige kandidaten houden een expliciet totaalbeeldtekort. Beelden dragen in deze fase geen sfeer-, toegangs- of kwaliteitsconclusie.
+
+## Reviews
+
+Geen van de 40 kandidaten heeft een systematische recente multi-platform reviewanalyse. Alleen Trailanga Math heeft een beperkte aggregatorlead met terugkerende thema's als samadhi, meditatie en rust; de datering is onvoldoende voor actuele generalisatie. Alle reviewrecords blijven daarom `INSUFFICIENT_FOR_GENERALIZATION`.
+
+## Gevolg
+
+GEO is voldoende voor kandidaat- en clustercontrole. Beeld- en reviewlagen blijven een niet-fatale maar brede reden voor `PARTIAL`.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1640 path=research/active/VARANASI-COMPLETE-001/ZILVER/report/04_master_ab_registry_and_kml.md blob_sha=9345de9fd252aa7b78f8f4646852c78a83dce822 original_offset=0 original_length=1294 payload_bytes=1294 chunk_index=0 chunk_count=1 classification=text
+# 04 — Repositorybreed master-A/B-register en KML
+
+## Telling
+
+Het gedeelde masterregister en de voorbereide KML zijn opnieuw volledig gelezen:
+
+- 28 formele A;
+- 2 formele B;
+- 30 placemarks totaal;
+- 0 C;
+- 0 stations, routes, bases of hotels;
+- 0 dubbele niet-lege LOCATION_ID's;
+- 0 ontbrekende coördinaten.
+
+## Kleur en lagen
+
+De KML bevat exact twee folders:
+
+- `A_FORMEEL` met stijl `A_GREEN`, kleur `ff00aa00` en groene pushpin;
+- `B_FORMEEL` met stijl `B_ORANGE`, kleur `ff00a5ff` en oranje pushpin.
+
+Geen A gebruikt de B-stijl en geen B gebruikt de A-stijl. Er zijn geen categorie-logo's of extra folders.
+
+## Onafhankelijke broncontrole
+
+De 7 Varanasi-A-ankers zijn in deze ZILVER-fase opnieuw inhoudelijk gecontroleerd. De Mahabodhi Tempel en Bodhiboom zijn aanvullend tegen UNESCO gecontroleerd (`ZVS-020`). Katyayani Peeth is tegen de eigen contactpagina gecontroleerd (`ZVS-021`). De bestaande Kumaon-GEO en LOCATION_ID's zijn uitsluitend heropend via de gepinde masterdata; de geparkeerde `KUMAON-ROUTE-OPTIMIZATION-001` is niet gelezen of gewijzigd.
+
+## Uitkomst
+
+Het gedeelde register en de voorbereide KML hoeven niet inhoudelijk te worden gewijzigd. Een bytegelijke ZILVER-kopie van beide wordt als gevalideerd faseartifact opgenomen.
+
+Resultaat: `PASS`.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+

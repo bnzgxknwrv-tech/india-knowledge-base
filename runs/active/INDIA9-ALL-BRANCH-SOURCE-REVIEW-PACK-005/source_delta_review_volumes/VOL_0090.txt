@@ -1,0 +1,343 @@
+>>> CHUNK stream_row=1585 path=research/active/VARANASI-COMPLETE-001/GOUD/candidates.jsonl,research/active/VARANASI-COMPLETE-001/ZILVER/candidates.jsonl blob_sha=6e1f8688b4af305333986dd299ce8ba9c071b9d0 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=5 classification=text
+","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-026","canonical_name":"Ramakrishna Mission Home of Service","recognition_hook":"Ramakrishna-Vivekananda sevashrama","cluster":"LUXA","place_type":"ASHRAM_HOSPITAL","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.309,"longitude":82.9974,"geo_status":"VERIFIED_SITE_CENTRE","source_ids":["ZVS-009"],"visitability_assessment":"Officieel adres en actieve instelling bevestigd; bezoek aan zorgfuncties is geen gewone tempelbezoekactiviteit.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-027","canonical_name":"Baba Keenaram Sthal / Krim Kund","recognition_hook":"Aghor-peeth en samadhi-complex","cluster":"RAVINDRAPURI","place_type":"ASHRAM_SAMADHI","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.2928,"longitude":83.001,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-011"],"visitability_assessment":"Officiële institutionele identiteit bevestigd; bezoekregels rechtstreeks controleren.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-028","canonical_name":"Bhaskarananda Samadhi / Anand Bagh","recognition_hook":"samadhi-ashram van Bhaskarananda","cluster":"DURGAKUND","place_type":"SAMADHI_ASHRAM","formal_status_preserved":null,"identity_status_zilver":"PARTIAL","latitude":25.2868,"longitude":82.9968,"geo_status":"APPROXIMATE_LOCAL_POINT","source_ids":["ZVS-012"],"visitability_assessment":"Historische relatie bevestigd; exacte huidige beheer-, samadhi- en toegangsidentiteit niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-029","canonical_name":"Dhamek Stupa","recognition_hook":"stupa van de eerste leerrede-traditie","cluster":"SARNATH","place_type":"STUPA","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.3807,"longitude":83.0245,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-004","ZVS-005"],"visitability_assessment":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-030","canonical_name":"Mulagandha Kuti Vihara","recognition_hook":"actieve boeddhistische vihara","cluster":"SARNATH","place_type":"VIHARA","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.3819,"longitude":83.0216,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-004"],"visitability_assessment":"Fysieke plek bevestigd; actuele rituele toegang niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-031","canonical_name":"Chaukhandi Stupa","recognition_hook":"boeddhistische stupa","cluster":"SARNATH","place_type":"STUPA","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.3756,"longitude":83.022,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-004","ZVS-005"],"visitability_assessment":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-032","canonical_name":"Sarnath Archaeological Museum","recognition_hook":"museum met Ashoka- en boeddhistische objecten","cluster":"SARNATH","place_type":"MUSEUM","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.3817,"longitude":83.0205,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-004"],"visitability_assessment":"Fysieke plek bevestigd; actuele opening en sluitingsdag niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-033","canonical_name":"Deer Park / Isipatana sacred landscape","recognition_hook":"boeddhistisch heilig landschap","cluster":"SARNATH","place_type":"SACRED_LANDSCAPE","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.3813,"longitude":83.023,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-004","ZVS-005"],"visitability_assessment":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-034","ca
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1586 path=research/active/VARANASI-COMPLETE-001/GOUD/candidates.jsonl,research/active/VARANASI-COMPLETE-001/ZILVER/candidates.jsonl blob_sha=6e1f8688b4af305333986dd299ce8ba9c071b9d0 original_offset=16384 original_length=3384 payload_bytes=3384 chunk_index=4 chunk_count=5 classification=text
+nonical_name":"Saranganath Temple","recognition_hook":"lokale Shiva-tempel in Sarnath","cluster":"SARNATH","place_type":"TEMPLE","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.3833,"longitude":83.0225,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-003"],"visitability_assessment":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-035","canonical_name":"Tulsi Manas Temple","recognition_hook":"Rama-tempel en Tulsidas-herinnering","cluster":"SOUTH_VARANASI","place_type":"TEMPLE_MEMORIAL","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.2883,"longitude":83.0003,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-003"],"visitability_assessment":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-036","canonical_name":"Tulsi Ghat","recognition_hook":"Tulsidas- en levende akhara/ghattraditie","cluster":"GHATS_SOUTH","place_type":"GHAT_LINEAGE","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.2906,"longitude":83.0068,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-003"],"visitability_assessment":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-037","canonical_name":"Lolark Kund","recognition_hook":"zon- en vruchtbaarheidskund","cluster":"BHADAINI_ASSI","place_type":"KUND","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.2875,"longitude":83.0038,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-003"],"visitability_assessment":"Fysieke plek bevestigd; festivaltoegang en actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-038","canonical_name":"Ratneshwar Mahadev Temple","recognition_hook":"scheve Shiva-tempel aan de Ganga","cluster":"MANIKARNIKA","place_type":"TEMPLE","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.3113,"longitude":83.0145,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-003"],"visitability_assessment":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-039","canonical_name":"Shitala Mata Temple, Dashashwamedh","recognition_hook":"Shakti-tempel aan de aartighat","cluster":"GHATS_OLD_CITY","place_type":"TEMPLE","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.3064,"longitude":83.0105,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-003"],"visitability_assessment":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-040","canonical_name":"Bharat Mata Temple","recognition_hook":"tempel met reliëfkaart van India","cluster":"CANTONMENT","place_type":"CIVIC_TEMPLE","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.317,"longitude":82.989,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-003"],"visitability_assessment":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1587 path=research/active/VARANASI-COMPLETE-001/GOUD/claims.jsonl,research/active/VARANASI-COMPLETE-001/ZILVER/claims.jsonl blob_sha=65047e76d6774023dd462cee5a0f7266edc0e84c original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+{"claim_id":"VC-001","candidate_id":"VNS-CAND-001","statement":"Physical identity retained: Lahiri Mahasaya Samadhi / Satyalok.","evidence_status":"SUPPORTED_SECONDARY_WORKING","source_ids":["ZVS-007","ZVS-014"],"validation":"RETAINED_WITH_LIMITS"}
+{"claim_id":"VC-002","candidate_id":"VNS-CAND-002","statement":"Physical identity retained: Lahiri Mahasaya original home.","evidence_status":"SUPPORTED_SECONDARY_WORKING","source_ids":["ZVS-007","ZVS-013","ZVS-015"],"validation":"RETAINED_WITH_LIMITS"}
+{"claim_id":"VC-003","candidate_id":"VNS-CAND-003","statement":"Physical identity retained: Manikarnika Ghat.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-003"],"validation":"CONFIRMED"}
+{"claim_id":"VC-004","candidate_id":"VNS-CAND-004","statement":"Physical identity retained: Shri Tailanga Swami Math.","evidence_status":"SUPPORTED_SECONDARY_WORKING","source_ids":["ZVS-016"],"validation":"RETAINED_WITH_LIMITS"}
+{"claim_id":"VC-005","candidate_id":"VNS-CAND-005","statement":"Physical identity retained: Shree Shree Ma Anandamayi Ashram, Bhadaini.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-008"],"validation":"CONFIRMED"}
+{"claim_id":"VC-006","candidate_id":"VNS-CAND-006","statement":"Physical identity retained: Sarnath sacred complex.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-004","ZVS-005"],"validation":"CONFIRMED"}
+{"claim_id":"VC-007","candidate_id":"VNS-CAND-007","statement":"Physical identity retained: Shri Kashi Vishwanath Temple.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-001","ZVS-002","ZVS-018"],"validation":"CONFIRMED"}
+{"claim_id":"VC-008","candidate_id":"VNS-CAND-008","statement":"Physical identity retained: Yogoda Satsanga Dhyana Mandali, Varanasi.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-006"],"validation":"CONFIRMED"}
+{"claim_id":"VC-009","candidate_id":"VNS-CAND-009","statement":"Physical identity retained: Dashashwamedh Ghat.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-003"],"validation":"CONFIRMED"}
+{"claim_id":"VC-010","candidate_id":"VNS-CAND-010","statement":"Physical identity retained: Assi Ghat.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-003"],"validation":"CONFIRMED"}
+{"claim_id":"VC-011","candidate_id":"VNS-CAND-011","statement":"Physical identity retained: Panchganga Ghat.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-003"],"validation":"CONFIRMED"}
+{"claim_id":"VC-012","candidate_id":"VNS-CAND-012","statement":"Physical identity retained: Harishchandra Ghat.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-003"],"validation":"CONFIRMED"}
+{"claim_id":"VC-013","candidate_id":"VNS-CAND-013","statement":"Physical identity retained: Kaal Bhairav Temple.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-003"],"validation":"CONFIRMED"}
+{"claim_id":"VC-014","candidate_id":"VNS-CAND-014","statement":"Physical identity retained: Maa Annapurna Temple.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-003"],"validation":"CONFIRMED"}
+{"claim_id":"VC-015","candidate_id":"VNS-CAND-015","statement":"Physical identity retained: Sankat Mochan Hanuman Temple.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-003"],"validation":"CONFIRMED"}
+{"claim_id":"VC-016","candidate_id":"VNS-CAND-016","statement":"Physical identity retained: Durga Temple and Durga Kund.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-003"],"validation":"CONFIRMED"}
+{"claim_id":"VC-017","candidate_id":"VNS-CAND-017","statement":"Physical identity retained: Vishalakshi Gauri Temple.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-003"],"validation":"CONFIRMED"}
+{"claim_id":"VC-018","candidate_id":"VNS-CAND-018","statement":"Physical identity retained: Sankatha Devi Temple.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-003"]
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1588 path=research/active/VARANASI-COMPLETE-001/GOUD/claims.jsonl,research/active/VARANASI-COMPLETE-001/ZILVER/claims.jsonl blob_sha=65047e76d6774023dd462cee5a0f7266edc0e84c original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+,"validation":"CONFIRMED"}
+{"claim_id":"VC-019","candidate_id":"VNS-CAND-019","statement":"Physical identity retained: Kedareshwar Temple and Kedar Ghat.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-003"],"validation":"CONFIRMED"}
+{"claim_id":"VC-020","candidate_id":"VNS-CAND-020","statement":"Physical identity retained: Lalita Ghat.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-003"],"validation":"CONFIRMED"}
+{"claim_id":"VC-021","candidate_id":"VNS-CAND-021","statement":"Physical identity retained: Nepali Temple / Kathwala Temple.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-003"],"validation":"CONFIRMED"}
+{"claim_id":"VC-022","candidate_id":"VNS-CAND-022","statement":"Physical identity retained: Bindu Madhav Temple.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-003"],"validation":"CONFIRMED"}
+{"claim_id":"VC-023","candidate_id":"VNS-CAND-023","statement":"Physical identity retained: Mrityunjay Mahadev Temple.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-003"],"validation":"CONFIRMED"}
+{"claim_id":"VC-024","candidate_id":"VNS-CAND-024","statement":"Physical identity retained: Kabir Chaura Math.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-010"],"validation":"CONFIRMED"}
+{"claim_id":"VC-025","candidate_id":"VNS-CAND-025","statement":"Physical identity retained: Lahartara Kabir birthplace memorial.","evidence_status":"PARTIAL_NOT_ESTABLISHED","source_ids":["ZVS-010","ZVR-004"],"validation":"CORRECTED_TO_PARTIAL"}
+{"claim_id":"VC-026","candidate_id":"VNS-CAND-026","statement":"Physical identity retained: Ramakrishna Mission Home of Service.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-009"],"validation":"CONFIRMED"}
+{"claim_id":"VC-027","candidate_id":"VNS-CAND-027","statement":"Physical identity retained: Baba Keenaram Sthal / Krim Kund.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-011"],"validation":"CONFIRMED"}
+{"claim_id":"VC-028","candidate_id":"VNS-CAND-028","statement":"Physical identity retained: Bhaskarananda Samadhi / Anand Bagh.","evidence_status":"PARTIAL_NOT_ESTABLISHED","source_ids":["ZVS-012"],"validation":"CORRECTED_TO_PARTIAL"}
+{"claim_id":"VC-029","candidate_id":"VNS-CAND-029","statement":"Physical identity retained: Dhamek Stupa.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-004","ZVS-005"],"validation":"CONFIRMED"}
+{"claim_id":"VC-030","candidate_id":"VNS-CAND-030","statement":"Physical identity retained: Mulagandha Kuti Vihara.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-004"],"validation":"CONFIRMED"}
+{"claim_id":"VC-031","candidate_id":"VNS-CAND-031","statement":"Physical identity retained: Chaukhandi Stupa.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-004","ZVS-005"],"validation":"CONFIRMED"}
+{"claim_id":"VC-032","candidate_id":"VNS-CAND-032","statement":"Physical identity retained: Sarnath Archaeological Museum.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-004"],"validation":"CONFIRMED"}
+{"claim_id":"VC-033","candidate_id":"VNS-CAND-033","statement":"Physical identity retained: Deer Park / Isipatana sacred landscape.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-004","ZVS-005"],"validation":"CONFIRMED"}
+{"claim_id":"VC-034","candidate_id":"VNS-CAND-034","statement":"Physical identity retained: Saranganath Temple.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-003"],"validation":"CONFIRMED"}
+{"claim_id":"VC-035","candidate_id":"VNS-CAND-035","statement":"Physical identity retained: Tulsi Manas Temple.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-003"],"validation":"CONFIRMED"}
+{"claim_id":"VC-036","candidate_id":"VNS-CAND-036","statement":"Physical identity retained: Tulsi Ghat.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-003"],"va
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1589 path=research/active/VARANASI-COMPLETE-001/GOUD/claims.jsonl,research/active/VARANASI-COMPLETE-001/ZILVER/claims.jsonl blob_sha=65047e76d6774023dd462cee5a0f7266edc0e84c original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+lidation":"CONFIRMED"}
+{"claim_id":"VC-037","candidate_id":"VNS-CAND-037","statement":"Physical identity retained: Lolark Kund.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-003"],"validation":"CONFIRMED"}
+{"claim_id":"VC-038","candidate_id":"VNS-CAND-038","statement":"Physical identity retained: Ratneshwar Mahadev Temple.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-003"],"validation":"CONFIRMED"}
+{"claim_id":"VC-039","candidate_id":"VNS-CAND-039","statement":"Physical identity retained: Shitala Mata Temple, Dashashwamedh.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-003"],"validation":"CONFIRMED"}
+{"claim_id":"VC-040","candidate_id":"VNS-CAND-040","statement":"Physical identity retained: Bharat Mata Temple.","evidence_status":"SUPPORTED_PRIMARY_OR_INSTITUTIONAL","source_ids":["ZVS-003"],"validation":"CONFIRMED"}
+{"claim_id":"VC-041","candidate_id":"VNS-CAND-001","statement":"Lahiri lineage confirmed; Satyalok site access limited.","evidence_status":"LINEAGE_CONFIRMED_WITH_SITE_LIMIT","source_ids":["ZVS-007"],"validation":"RETAINED_WITH_LIMITS"}
+{"claim_id":"VC-042","candidate_id":"VNS-CAND-002","statement":"Lahiri Banaras home confirmed; public access unestablished.","evidence_status":"LINEAGE_CONFIRMED_WITH_ACCESS_LIMIT","source_ids":["ZVS-007","ZVS-013","ZVS-015"],"validation":"CORRECTED"}
+{"claim_id":"VC-043","candidate_id":"VNS-CAND-003","statement":"Manikarnika is a living cremation ghat; strict respect required.","evidence_status":"TRADITION_AND_PRACTICE_CONFIRMED","source_ids":["ZVS-003"],"validation":"CONFIRMED"}
+{"claim_id":"VC-044","candidate_id":"VNS-CAND-004","statement":"Trailanga Math retained on secondary physical evidence; management open.","evidence_status":"SUPPORTED_SECONDARY_WORKING","source_ids":["ZVS-016"],"validation":"CORRECTED"}
+{"claim_id":"VC-045","candidate_id":"VNS-CAND-005","statement":"Anandamayi Bhadaini ashram currently institutionally listed.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZVS-008"],"validation":"CONFIRMED"}
+{"claim_id":"VC-046","candidate_id":"VNS-CAND-006","statement":"Sarnath contains distinct archaeological and living-practice objects.","evidence_status":"HISTORICALLY_DOCUMENTED","source_ids":["ZVS-004","ZVS-005"],"validation":"CONFIRMED"}
+{"claim_id":"VC-047","candidate_id":"VNS-CAND-007","statement":"Kashi Vishwanath current official darshan procedures confirmed.","evidence_status":"INSTITUTIONALLY_CONFIRMED_CURRENT","source_ids":["ZVS-001","ZVS-002","ZVS-018"],"validation":"CONFIRMED"}
+{"claim_id":"VC-048","candidate_id":"VNS-CAND-008","statement":"YSS Varanasi public group meditation and satsanga confirmed.","evidence_status":"INSTITUTIONALLY_CONFIRMED_CURRENT","source_ids":["ZVS-006"],"validation":"CONFIRMED"}
+{"claim_id":"VC-049","candidate_id":"VNS-CAND-013","statement":"Kaal Bhairav guardian-of-Kashi tradition confirmed.","evidence_status":"TRADITION_CONFIRMED","source_ids":["ZVS-003"],"validation":"CONFIRMED"}
+{"claim_id":"VC-050","candidate_id":"VNS-CAND-014","statement":"Annapurna temple confirmed; current food-service practice unestablished.","evidence_status":"TRADITION_CONFIRMED_WITH_PRACTICAL_LIMIT","source_ids":["ZVS-003"],"validation":"CORRECTED"}
+{"claim_id":"VC-051","candidate_id":"VNS-CAND-024","statement":"Kabir Chaura physical memorial and living tradition confirmed.","evidence_status":"TRADITION_AND_PHYSICAL_IDENTITY_CONFIRMED","source_ids":["ZVS-010"],"validation":"CONFIRMED"}
+{"claim_id":"VC-052","candidate_id":"VNS-CAND-026","statement":"Ramakrishna Home of Service current active institution confirmed.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZVS-009"],"validation":"CONFIRMED"}
+{"claim_id":"VC-053","candidate_id":"VNS-CAND-027","statement":"Kring Kund Aghor headquarters and living practice confirmed.","evidence_status":"LINEAGE_AND_INSTITUTION_CONFIRMED","source_ids":["ZVS-011"],"validation":"CONFIRMED"}
+{"claim_id":"VC-054","candidate_id":"VNS-CAND-029","statement":"Dhamek first-sermon tradition and physical marker c
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1590 path=research/active/VARANASI-COMPLETE-001/GOUD/claims.jsonl,research/active/VARANASI-COMPLETE-001/ZILVER/claims.jsonl blob_sha=65047e76d6774023dd462cee5a0f7266edc0e84c original_offset=12288 original_length=907 payload_bytes=907 chunk_index=3 chunk_count=4 classification=text
+onfirmed.","evidence_status":"TRADITION_AND_HISTORY_CONFIRMED","source_ids":["ZVS-004","ZVS-005"],"validation":"CONFIRMED"}
+{"claim_id":"VC-055","candidate_id":"VNS-CAND-030","statement":"Mulagandha Kuti living vihara layer confirmed; access time-sensitive.","evidence_status":"TRADITION_CONFIRMED_WITH_PRACTICAL_LIMIT","source_ids":["ZVS-004"],"validation":"RETAINED_WITH_LIMITS"}
+{"claim_id":"VC-056","candidate_id":"VNS-CAND-028","statement":"Bhaskarananda history confirmed; current site and access unestablished.","evidence_status":"HISTORICAL_RELATION_CONFIRMED_SITE_NOT_ESTABLISHED","source_ids":["ZVS-012","ZVR-007"],"validation":"CORRECTED_TO_PARTIAL"}
+{"claim_id":"VC-057","candidate_id":"ALL-VARANASI","statement":"Exact Yogananda–Sri Yukteswar first-meeting point not established.","evidence_status":"NOT_ESTABLISHED","source_ids":["ZVR-005"],"validation":"CONFIRMED_NEGATIVE"}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1591 path=research/active/VARANASI-COMPLETE-001/GOUD/decision.md blob_sha=c171332ecb131873be676f2cb6e7d2c9341da403 original_offset=0 original_length=2089 payload_bytes=2089 chunk_index=0 chunk_count=1 classification=text
+# GOUD-beslissing — VARANASI-COMPLETE-001
+
+## Resultaat
+
+`PARTIAL`
+
+De volledige Varanasi/Sarnath-kandidatenkaart is technisch coherent en betrouwbaar bruikbaar. Alle 40 kandidaten blijven behouden. De repositorybrede formele kaart blijft exact 28 A, 2 B en 30 markers. A gebruikt uitsluitend groen; B uitsluitend oranje.
+
+## Inhoudelijke conclusie
+
+De zeven bestaande formele Varanasi-A-ankers blijven ongewijzigd: Lahiri Mahasaya Samadhi/Satyalok, Lahiri-huis, Manikarnika Ghat, Trailanga Swami Math, Anandamayi Ma Ashram Bhadaini, Sarnath en Kashi Vishwanath.
+
+De aanvullende kandidaten vormen een complete onderzoeks- en clusterkaart maar krijgen geen formele of adviserende A/B/C-status. Er is geen route, station, basis, hotel of eerste bezoeklocatie gekozen.
+
+## Bevestigingsgrens
+
+- 35 kandidaten: fysieke identiteit bevestigd;
+- 3 kandidaten: bruikbaar werkobject met directe beheer-/toegangscontrole nodig;
+- 2 kandidaten: PARTIAL op exacte micro-identiteit en GEO — Lahartara en Bhaskarananda/Anand Bagh;
+- beelden en reviews: voor alle kandidaten onvoldoende voor systematische sfeer- of kwaliteitsgeneralisatie;
+- praktische toegang: grotendeels tijdgevoelig en vóór vertrek of ter plaatse te controleren.
+
+## GEO en permanente IDs
+
+Alle 40 kandidaten hebben één werkpunt. Geen nieuwe permanente `IND-PLACE-*`-ID of LOCATION_ID is gereserveerd of toegewezen. Dat blijft uitsluitend bevoegdheid van SUBREGIE INDIA. De 15 verbindingen zijn rechte-lijn-clustercontroles, geen route- of tijdsadvies.
+
+## Canonieke integratie
+
+Twee reeds bestaande canonieke Braj-records zijn mechanisch aangevuld met gevalideerde WORKING_GEO. Namen, formele status, decision-ID en inhoudelijke betekenis zijn niet gewijzigd. `decisions/INDEX.yaml` is niet gewijzigd.
+
+## Verboden beslissingen gecontroleerd
+
+- nieuwe of gewijzigde formele/adviserende A/B/C: 0;
+- nieuwe decision-ID: 0;
+- nieuwe permanente place-ID of LOCATION_ID: 0;
+- route-, basis-, station-, hotel- of eerste-bezoekbesluit: 0;
+- reads/writes onder `research/active/KUMAON-ROUTE-OPTIMIZATION-001/**`: 0.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1592 path=research/active/VARANASI-COMPLETE-001/GOUD/decision_inputs.md blob_sha=e56fe92cbeb2f13c21d7c0fce55c28591e042ae7 original_offset=0 original_length=3669 payload_bytes=3669 chunk_index=0 chunk_count=1 classification=text
+# Beslisinputs — VARANASI-COMPLETE-001
+
+## Formele ankers die niet worden heropend
+
+1. Lahiri Mahasaya Samadhi / Satyalok — formeel A; fysieke werkidentiteit behouden, toegang rechtstreeks bevestigen.
+2. Lahiri Mahasaya original home — formeel A; woonhuis herkenbaar, publieke toegang niet vastgesteld.
+3. Manikarnika Ghat — formeel A; levende crematieghat, respect en geen indringende fotografie.
+4. Shri Tailanga Swami Math — formeel A; werkadres bruikbaar, actueel beheer en toegang open.
+5. Shree Shree Ma Anandamayi Ashram, Bhadaini — formeel A; huidige institutionele contactvermelding bevestigd.
+6. Sarnath sacred complex — formeel A; archeologische en levende boeddhistische functies afzonderlijk behandelen.
+7. Shri Kashi Vishwanath Temple — formeel A; officiële toegang en buitenlandse procedure bestaan, voorwaarden blijven datumafhankelijk.
+
+## Actuele levende-praktijkankers
+
+- YSS Varanasi: groepsmeditatie, chanting, reading en satsanga officieel bevestigd; dagschema rechtstreeks controleren.
+- Anandamayi Bhadaini: actuele contactlijn bevestigd; programma en gasttoegang vooraf bevestigen.
+- Ramakrishna Mission Home of Service: actieve seva- en zorginstelling; geen gewone toeristische tempelstop.
+- Kabir Chaura Math: levende Kabir-traditie en fysieke herinneringsplek bevestigd.
+- Baba Keenaram Sthal / Krim Kund: actieve Aghor-lijn, dhuni en sacred-ash-praktijk bevestigd.
+- Sarnath: monumentale, historische en levende vihara-objecten blijven afzonderlijke fysieke plaatsen.
+
+## Open identiteits- en toegangspunten
+
+- Lahartara: alleen approximate Kabir-geboortetraditiezone; exacte microplek niet vastgesteld.
+- Bhaskarananda/Anand Bagh: historische relatie bevestigd; huidige samadhi, beheer en toegang niet vastgesteld.
+- Lahiri Samadhi/Satyalok, Lahiri-huis en Trailanga Math: werkidentiteit bruikbaar maar actueel beheer en openbare toegang rechtstreeks bevestigen.
+
+## Praktische controles
+
+- Kashi Vishwanath: actuele darshanvoorwaarden, buitenlandse procedure, speciale dagen en telefoon-/fotografieregels.
+- Crematieghats: rituele afstand, geen indringende fotografie, geen blokkering van families of processies.
+- Tempels en ashrams: kleding, fotografie, buitenlandse toegang en deelname ter plaatse of vooraf controleren.
+- Kabir Chaura, Krim Kund, YSS, Anandamayi en Home of Service: deelname uitsluitend volgens instelling of lokale toestemming.
+- Lolark Kund, Dashashwamedh en andere festivalgevoelige plaatsen: drukte en toegang kort voor bezoek controleren.
+
+## Clusterinputs zonder routekeuze
+
+De 15 gevalideerde relaties ondersteunen latere planning van:
+- Bengali Tola/Madanpura Kriya;
+- Manikarnika–Vishwanath–Annapurna–Lalita;
+- Panchganga;
+- Bhadaini–Assi–Lolark;
+- zuidelijk tempel- en ghatscluster;
+- Kabir Chaura–Lahartara;
+- Sarnath-monumenten en vihara.
+
+Alle afstanden zijn rechte-lijn-sanitychecks. Werkelijke looproutes, toegangspoorten en reistijden zijn niet vastgesteld.
+
+## Kaartbeslissing
+
+De repositorybrede masterkaart blijft exact:
+- A_FORMEEL: 28 groene markers;
+- B_FORMEEL: 2 oranje markers;
+- totaal: 30;
+- C, route, station, basis en hotel: 0.
+
+## Beeld- en reviewbasis
+
+Geen kandidaat heeft een volledige tien-functionele beeldset of systematische recente multi-platform reviewanalyse. Sfeer-, drukte-, netheids- en kwaliteitsconclusies mogen daarom niet als definitief worden gepresenteerd.
+
+## Eerstvolgende zinvolle handeling
+
+Geen nieuwe brede Varanasi-sweep is nodig. Voer vlak voor vertrek een gerichte praktische controle uit. Laat SUBREGIE INDIA later permanente place-ID’s reserveren wanneer de 40 kandidaten canoniek moeten worden geregistreerd.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1593 path=research/active/VARANASI-COMPLETE-001/GOUD/detector_checks.jsonl,research/active/VARANASI-COMPLETE-001/ZILVER/detector_checks.jsonl blob_sha=2099a950295fe28b9a0184ff6920825a27a63ff9 original_offset=0 original_length=2442 payload_bytes=2442 chunk_index=0 chunk_count=1 classification=text
+{"detector_id":"VD-001","detector":"LAHIRI_KRIYA_AOAY","found":["VNS-CAND-001","VNS-CAND-002","VNS-CAND-008"],"validation":"CONFIRMED_WITH_LIMITS","negative_result":"Exact current physical point for the first Yogananda–Sri Yukteswar meeting remains NOT_ESTABLISHED.","source_ids":["ZVS-006","ZVS-007","ZVS-013","ZVR-005"]}
+{"detector_id":"VD-002","detector":"TRAILANGA_SWAMI","found":["VNS-CAND-004","VNS-CAND-011"],"validation":"WORKING_SECONDARY","negative_result":"No second independently managed Trailanga samadhi site established.","source_ids":["ZVS-016"]}
+{"detector_id":"VD-003","detector":"ANANDAMAYI_MA","found":["VNS-CAND-005"],"validation":"CONFIRMED","negative_result":"No additional distinct current Anandamayi institution in scope established.","source_ids":["ZVS-008"]}
+{"detector_id":"VD-004","detector":"RAMAKRISHNA_VIVEKANANDA","found":["VNS-CAND-026","VNS-CAND-028"],"validation":"MIXED","negative_result":"Home of Service confirmed; Bhaskarananda micro-site remains partial.","source_ids":["ZVS-009","ZVS-012","ZVR-007"]}
+{"detector_id":"VD-005","detector":"KABIR","found":["VNS-CAND-024","VNS-CAND-025"],"validation":"MIXED","negative_result":"Kabir Chaura confirmed; Lahartara exact birthplace topography remains tradition-dependent.","source_ids":["ZVS-010","ZVR-004"]}
+{"detector_id":"VD-006","detector":"SHIVA_SHAKTI_GHAT_CREMATION","found":["VNS-CAND-003","VNS-CAND-007","VNS-CAND-009","VNS-CAND-010","VNS-CAND-011","VNS-CAND-012","VNS-CAND-013","VNS-CAND-014","VNS-CAND-016","VNS-CAND-017","VNS-CAND-018","VNS-CAND-019","VNS-CAND-020","VNS-CAND-021","VNS-CAND-022","VNS-CAND-023","VNS-CAND-037","VNS-CAND-038","VNS-CAND-039"],"validation":"CONFIRMED_AS_PHYSICAL_SET","negative_result":"No additional route-inflating ghat without distinct living or lineage function added.","source_ids":["ZVS-001","ZVS-003"]}
+{"detector_id":"VD-007","detector":"SARNATH_BUDDHIST","found":["VNS-CAND-006","VNS-CAND-029","VNS-CAND-030","VNS-CAND-031","VNS-CAND-032","VNS-CAND-033"],"validation":"CONFIRMED","negative_result":"Modern international temples not added without distinct project relevance.","source_ids":["ZVS-004","ZVS-005"]}
+{"detector_id":"VD-008","detector":"AGHOR_LOCAL_MISSED_PLACES","found":["VNS-CAND-027","VNS-CAND-034","VNS-CAND-035","VNS-CAND-036"],"validation":"CONFIRMED_WITH_SCOPE_LIMIT","negative_result":"Anecdotal non-physical saint stories excluded.","source_ids":["ZVS-003","ZVS-011"]}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1594 path=research/active/VARANASI-COMPLETE-001/GOUD/experience_reviews.jsonl,research/active/VARANASI-COMPLETE-001/ZILVER/experience_reviews.jsonl blob_sha=b467e9c44ff8aa612bddf512a83e74a1b1d1e3a5 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+{"candidate_id":"VNS-CAND-001","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-002","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-003","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-004","coverage_status":"LIMITED_NON_SYSTEMATIC_REVIEW_LEAD","platforms_checked":["ROUTE_REVIEW_AGGREGATOR"],"recent_review_count_verified":0,"positive_themes":["meditation","samadhi","quiet"],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-005","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-006","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-007","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-008","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-009","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-010","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-011","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-012","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-013","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-014","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-015","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-016","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_a
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1595 path=research/active/VARANASI-COMPLETE-001/GOUD/experience_reviews.jsonl,research/active/VARANASI-COMPLETE-001/ZILVER/experience_reviews.jsonl blob_sha=b467e9c44ff8aa612bddf512a83e74a1b1d1e3a5 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+t":"2026-07-21"}
+{"candidate_id":"VNS-CAND-017","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-018","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-019","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-020","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-021","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-022","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-023","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-024","coverage_status":"LIMITED_NON_SYSTEMATIC_REVIEW_LEAD","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-025","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-026","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-027","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-028","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-029","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-030","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-031","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-032","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1596 path=research/active/VARANASI-COMPLETE-001/GOUD/experience_reviews.jsonl,research/active/VARANASI-COMPLETE-001/ZILVER/experience_reviews.jsonl blob_sha=b467e9c44ff8aa612bddf512a83e74a1b1d1e3a5 original_offset=8192 original_length=2018 payload_bytes=2018 chunk_index=2 chunk_count=3 classification=text
+CAND-033","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-034","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-035","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-036","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-037","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-038","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-039","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+{"candidate_id":"VNS-CAND-040","coverage_status":"EXPLICIT_REVIEW_SHORTAGE","platforms_checked":[],"recent_review_count_verified":0,"positive_themes":[],"negative_themes":[],"evidence_status":"INSUFFICIENT_FOR_GENERALIZATION","checked_at":"2026-07-21"}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1597 path=research/active/VARANASI-COMPLETE-001/GOUD/formal_ab_coverage.md,research/active/VARANASI-COMPLETE-001/ZILVER/formal_ab_coverage.md blob_sha=0b74949874397526f06341578077d6429e9072f4 original_offset=0 original_length=1426 payload_bytes=1426 chunk_index=0 chunk_count=1 classification=text
+# Formele A/B-dekking — VARANASI-COMPLETE-001 ZILVER
+
+## Telling en kleurcontrole
+
+- formele A in `LOCKED_A.md`: 28;
+- actieve A-records in `shared/MASTER_A_B_GEO_REGISTRY.jsonl`: 28;
+- A-placemarks in voorbereide KML: 28;
+- formele B in `LOCKED_B.md`: 2;
+- actieve B-records in masterregister: 2;
+- B-placemarks in voorbereide KML: 2;
+- totaal placemarks: 30.
+
+## Stijlen
+
+- `A_FORMEEL` gebruikt uitsluitend `#A_GREEN`, KML-kleur `ff00aa00` en de groene Google-pushpin;
+- `B_FORMEEL` gebruikt uitsluitend `#B_ORANGE`, KML-kleur `ff00a5ff` en de oranje Google-pushpin;
+- geen C-folder, station, route, basis, hotel of categorie-icoon aanwezig.
+
+## Referentiële integriteit
+
+- unieke `registry_record_id`: 30;
+- dubbele niet-lege LOCATION_ID's: 0;
+- ontbrekende coördinaten: 0;
+- stille weglatingen: 0;
+- bestaande Kumaon-LOCATION_ID's ongewijzigd;
+- formele statuswijzigingen door ZILVER: 0.
+
+## GEO-controle
+
+De 30-puntenkaart is technisch en semantisch bruikbaar als repositorybrede formele A/B-werkkaart. De zeven Varanasi-A-punten zijn onafhankelijk heropend. Mahabodhi/Bodhiboom en Katyayani Peeth zijn aanvullend tegen institutionele/UNESCO-bronnen gecontroleerd. De resterende reeds gevalideerde Kumaon-, Braj- en Agra-punten zijn niet hernummerd of inhoudelijk herbeoordeeld. Werkpunten blijven zichtbaar als `WORKING_*` of `APPROXIMATE_*`; er is geen ingangsprecisie geclaimd.
+
+Resultaat: `PASS`.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1598 path=research/active/VARANASI-COMPLETE-001/GOUD/geo_connections.jsonl blob_sha=f18415fcddb07b988f74230e90d912c3dd665822 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+{"connection_id":"VP-001","from_location_id":null,"to_location_id":null,"from_candidate_id":"VNS-CAND-001","to_candidate_id":"VNS-CAND-002","mode":"WALK_OR_CYCLE_RICKSHAW","estimated_time_min":null,"distance_km":0.13,"source_or_method":"HAVERSINE_FROM_VALIDATED_WORKING_GEO","checked_at":"2026-07-21","traffic_or_access_notes":"Same Bengali Tola/Madanpura Kriya cluster; route and access not verified.","status":"VALIDATED_CLUSTER_RELATION_NOT_ROUTE_DECISION"}
+{"connection_id":"VP-002","from_location_id":null,"to_location_id":null,"from_candidate_id":"VNS-CAND-003","to_candidate_id":"VNS-CAND-007","mode":"WALK","estimated_time_min":null,"distance_km":0.35,"source_or_method":"HAVERSINE_FROM_VALIDATED_WORKING_GEO","checked_at":"2026-07-21","traffic_or_access_notes":"Old-city lanes, security and crowd conditions can materially change access.","status":"VALIDATED_CLUSTER_RELATION_NOT_ROUTE_DECISION"}
+{"connection_id":"VP-003","from_location_id":null,"to_location_id":null,"from_candidate_id":"VNS-CAND-004","to_candidate_id":"VNS-CAND-011","mode":"WALK","estimated_time_min":null,"distance_km":0.04,"source_or_method":"HAVERSINE_FROM_VALIDATED_WORKING_GEO","checked_at":"2026-07-21","traffic_or_access_notes":"Same Panchganga complex; exact entrances not verified.","status":"VALIDATED_CLUSTER_RELATION_NOT_ROUTE_DECISION"}
+{"connection_id":"VP-004","from_location_id":null,"to_location_id":null,"from_candidate_id":"VNS-CAND-005","to_candidate_id":"VNS-CAND-010","mode":"WALK_OR_RICKSHAW","estimated_time_min":null,"distance_km":0.13,"source_or_method":"HAVERSINE_FROM_VALIDATED_WORKING_GEO","checked_at":"2026-07-21","traffic_or_access_notes":"Bhadaini–Assi cluster; local access and programme timing remain open.","status":"VALIDATED_CLUSTER_RELATION_NOT_ROUTE_DECISION"}
+{"connection_id":"VP-005","from_location_id":null,"to_location_id":null,"from_candidate_id":"VNS-CAND-007","to_candidate_id":"VNS-CAND-014","mode":"WALK","estimated_time_min":null,"distance_km":0.05,"source_or_method":"HAVERSINE_FROM_VALIDATED_WORKING_GEO","checked_at":"2026-07-21","traffic_or_access_notes":"Adjacent temple cluster; security procedures and queues are time-sensitive.","status":"VALIDATED_CLUSTER_RELATION_NOT_ROUTE_DECISION"}
+{"connection_id":"VP-006","from_location_id":null,"to_location_id":null,"from_candidate_id":"VNS-CAND-007","to_candidate_id":"VNS-CAND-020","mode":"WALK","estimated_time_min":null,"distance_km":0.25,"source_or_method":"HAVERSINE_FROM_VALIDATED_WORKING_GEO","checked_at":"2026-07-21","traffic_or_access_notes":"Vishwanath Dham–Lalita Ghat relation; actual walking line not verified.","status":"VALIDATED_CLUSTER_RELATION_NOT_ROUTE_DECISION"}
+{"connection_id":"VP-007","from_location_id":null,"to_location_id":null,"from_candidate_id":"VNS-CAND-015","to_candidate_id":"VNS-CAND-016","mode":"RICKSHAW","estimated_time_min":null,"distance_km":0.67,"source_or_method":"HAVERSINE_FROM_VALIDATED_WORKING_GEO","checked_at":"2026-07-21","traffic_or_access_notes":"South Varanasi temple cluster; road and crowd conditions open.","status":"VALIDATED_CLUSTER_RELATION_NOT_ROUTE_DECISION"}
+{"connection_id":"VP-008","from_location_id":null,"to_location_id":null,"from_candidate_id":"VNS-CAND-016","to_candidate_id":"VNS-CAND-028","mode":"WALK_OR_RICKSHAW","estimated_time_min":null,"distance_km":0.33,"source_or_method":"HAVERSINE_FROM_VALIDATED_WORKING_GEO","checked_at":"2026-07-21","traffic_or_access_notes":"Bhaskarananda micro-site remains NOT_ESTABLISHED.","status":"VALIDATED_CLUSTER_RELATION_NOT_ROUTE_DECISION"}
+{"connection_id":"VP-009","from_location_id":null,"to_location_id":null,"from_candidate_id":"VNS-CAND-024","to_candidate_id":"VNS-CAND-025","mode":"ROAD","estimated_time_min":null,"distance_km":3.97,"source_or_method":"HAVERSINE_FROM_VALIDATED_WORKING_GEO","checked_at":"2026-07-21","traffic_or_access_notes":"Kabir Chaura and Lahartara are distinct tradition sites; no route choice made.","status":"VALIDATED_CLUSTER_RELATION_NOT_ROUTE_DECISION"}
+{"connection_id":"VP-010","from_location_id":null,"to_location_id":null,"from_candidate_id":"VNS-CAND-006","to
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1599 path=research/active/VARANASI-COMPLETE-001/GOUD/geo_connections.jsonl blob_sha=f18415fcddb07b988f74230e90d912c3dd665822 original_offset=4096 original_length=2510 payload_bytes=2510 chunk_index=1 chunk_count=2 classification=text
+_candidate_id":"VNS-CAND-029","mode":"WALK","estimated_time_min":null,"distance_km":0.31,"source_or_method":"HAVERSINE_FROM_VALIDATED_WORKING_GEO","checked_at":"2026-07-21","traffic_or_access_notes":"Sarnath complex relation; actual gate-to-monument route not verified.","status":"VALIDATED_CLUSTER_RELATION_NOT_ROUTE_DECISION"}
+{"connection_id":"VP-011","from_location_id":null,"to_location_id":null,"from_candidate_id":"VNS-CAND-029","to_candidate_id":"VNS-CAND-030","mode":"WALK","estimated_time_min":null,"distance_km":0.32,"source_or_method":"HAVERSINE_FROM_VALIDATED_WORKING_GEO","checked_at":"2026-07-21","traffic_or_access_notes":"Archaeological and living-vihara objects remain separate.","status":"VALIDATED_CLUSTER_RELATION_NOT_ROUTE_DECISION"}
+{"connection_id":"VP-012","from_location_id":null,"to_location_id":null,"from_candidate_id":"VNS-CAND-029","to_candidate_id":"VNS-CAND-031","mode":"ROAD_OR_WALK","estimated_time_min":null,"distance_km":0.62,"source_or_method":"HAVERSINE_FROM_VALIDATED_WORKING_GEO","checked_at":"2026-07-21","traffic_or_access_notes":"Separate monument group; entrance and route not verified.","status":"VALIDATED_CLUSTER_RELATION_NOT_ROUTE_DECISION"}
+{"connection_id":"VP-013","from_location_id":null,"to_location_id":null,"from_candidate_id":"VNS-CAND-009","to_candidate_id":"VNS-CAND-039","mode":"WALK","estimated_time_min":null,"distance_km":0.02,"source_or_method":"HAVERSINE_FROM_VALIDATED_WORKING_GEO","checked_at":"2026-07-21","traffic_or_access_notes":"Same Dashashwamedh ritual cluster; festival crowd conditions vary.","status":"VALIDATED_CLUSTER_RELATION_NOT_ROUTE_DECISION"}
+{"connection_id":"VP-014","from_location_id":null,"to_location_id":null,"from_candidate_id":"VNS-CAND-019","to_candidate_id":"VNS-CAND-036","mode":"WALK","estimated_time_min":null,"distance_km":0.71,"source_or_method":"HAVERSINE_FROM_VALIDATED_WORKING_GEO","checked_at":"2026-07-21","traffic_or_access_notes":"South-ghat lineage cluster; riverfront route not verified.","status":"VALIDATED_CLUSTER_RELATION_NOT_ROUTE_DECISION"}
+{"connection_id":"VP-015","from_location_id":null,"to_location_id":null,"from_candidate_id":"VNS-CAND-010","to_candidate_id":"VNS-CAND-037","mode":"WALK","estimated_time_min":null,"distance_km":0.27,"source_or_method":"HAVERSINE_FROM_VALIDATED_WORKING_GEO","checked_at":"2026-07-21","traffic_or_access_notes":"Assi–Lolark Kund relation; festival access is highly time-sensitive.","status":"VALIDATED_CLUSTER_RELATION_NOT_ROUTE_DECISION"}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1600 path=research/active/VARANASI-COMPLETE-001/GOUD/geo_locations.jsonl blob_sha=a82ab5b3c0a00a6191bf5e7ee8eee8b21ceb6bd6 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=5 classification=text
+{"location_id":null,"candidate_id":"VNS-CAND-001","place_id":null,"canonical_name":"Lahiri Mahasaya Samadhi / Satyalok","cluster":"KRIYA_BENGALI_TOLA","latitude_wgs84":25.3028,"longitude_wgs84":83.0074,"geo_point_type":"COMPLEX_CENTRE","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["ZVS-007","ZVS-014"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=25.3028,83.0074","point_choice_reason":"WORKING_ADDRESS_POINT_NO_ENTRANCE_PRECISION","checked_at":"2026-07-21"}
+{"location_id":null,"candidate_id":"VNS-CAND-002","place_id":null,"canonical_name":"Lahiri Mahasaya original home","cluster":"KRIYA_BENGALI_TOLA","latitude_wgs84":25.3018,"longitude_wgs84":83.0068,"geo_point_type":"COMPLEX_CENTRE","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["ZVS-007","ZVS-013","ZVS-015"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=25.3018,83.0068","point_choice_reason":"WORKING_ADDRESS_POINT_NO_ENTRANCE_PRECISION","checked_at":"2026-07-21"}
+{"location_id":null,"candidate_id":"VNS-CAND-003","place_id":null,"canonical_name":"Manikarnika Ghat","cluster":"GHATS_OLD_CITY","latitude_wgs84":25.3109,"longitude_wgs84":83.0142,"geo_point_type":"COMPLEX_CENTRE","geo_verification_status":"VERIFIED_ONE_AUTHORITATIVE_SOURCE","geo_sources":["ZVS-003"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=25.3109,83.0142","point_choice_reason":"RECOGNIZABLE_WORKING_PIN","checked_at":"2026-07-21"}
+{"location_id":null,"candidate_id":"VNS-CAND-004","place_id":null,"canonical_name":"Shri Tailanga Swami Math","cluster":"PANCHGANGA","latitude_wgs84":25.3188,"longitude_wgs84":83.013,"geo_point_type":"COMPLEX_CENTRE","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["ZVS-016"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=25.3188,83.013","point_choice_reason":"WORKING_ADDRESS_POINT_NO_ENTRANCE_PRECISION","checked_at":"2026-07-21"}
+{"location_id":null,"candidate_id":"VNS-CAND-005","place_id":null,"canonical_name":"Shree Shree Ma Anandamayi Ashram, Bhadaini","cluster":"BHADAINI_ASSI","latitude_wgs84":25.2897,"longitude_wgs84":83.0068,"geo_point_type":"COMPLEX_CENTRE","geo_verification_status":"VERIFIED_ONE_AUTHORITATIVE_SOURCE","geo_sources":["ZVS-008"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=25.2897,83.0068","point_choice_reason":"OFFICIAL_INSTITUTION_PLUS_WORKING_PIN","checked_at":"2026-07-21"}
+{"location_id":null,"candidate_id":"VNS-CAND-006","place_id":null,"canonical_name":"Sarnath sacred complex","cluster":"SARNATH","latitude_wgs84":25.3811,"longitude_wgs84":83.0214,"geo_point_type":"COMPLEX_CENTRE","geo_verification_status":"VERIFIED_TWO_SOURCES","geo_sources":["ZVS-004","ZVS-005"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=25.3811,83.0214","point_choice_reason":"VERIFIED_SITE_CENTRE","checked_at":"2026-07-21"}
+{"location_id":null,"candidate_id":"VNS-CAND-007","place_id":null,"canonical_name":"Shri Kashi Vishwanath Temple","cluster":"VISHWANATH_OLD_CITY","latitude_wgs84":25.3109,"longitude_wgs84":83.0107,"geo_point_type":"COMPLEX_CENTRE","geo_verification_status":"VERIFIED_ONE_AUTHORITATIVE_SOURCE","geo_sources":["ZVS-001","ZVS-002","ZVS-018"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=25.3109,83.0107","point_choice_reason":"OFFICIAL_INSTITUTION_PLUS_WORKING_PIN","checked_at":"2026-07-21"}
+{"location_id":null,"candidate_id":"VNS-CAND-008","place_id":null,"canonical_name":"Yogoda Satsanga Dhyana Mandali, Varanasi","cluster":"MAHMOORGANJ","latitude_wgs84":25.3045,"longitude_wgs84":82.979369,"geo_point_type":"COMPLEX_CENTRE","geo_verification_status":"VERIFIED_ONE_AUTHORITATIVE_SOURCE","geo_sources":["ZVS-006"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=25.3045,82.979369","point_choice_reason":"OFFICIAL_SITE_CENTRE","checked_at":"2026-07-21"}
+{"location_id":null,"candidate_id":"VNS-CAND-009","place_id":null,"canonical_name":"Dashashwamedh Ghat","cluster":"GHATS_OLD_CITY","latitude_wgs84":25.3062,"longitude_wgs84":83.0104,"geo_point_type":"COMPLEX_CENTRE","geo_veri
+<<< END CHUNK >>>
+

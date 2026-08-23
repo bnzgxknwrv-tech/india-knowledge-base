@@ -1,0 +1,1136 @@
+>>> CHUNK stream_row=718 path=pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md blob_sha=0c52ebc9a2be47583e08619c6422efad582619b3 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# Controller Transition Protocol v2.3.1
+
+## 1. Doel
+
+De controller maakt runs aan en verzorgt de overgang tussen voltooide fasen. BRONS, ZILVER en GOUD genereren nooit als worker het contextmanifest van hun opvolger.
+
+De controller is een expliciet geactiveerde GitHub-capabele AI-sessie, Mark, de India-regisseur of — uitsluitend bij een gepinde nieuwe run — dezelfde sessie nadat de workerrol formeel is beëindigd en `INLINE_POST_PHASE_CONTROLLER` is gestart.
+
+De controller doet geen inhoudelijk onderzoek en herschrijft geen rapporten. Voor iedere transition leest de controller ook `pipeline/protocols/CONTINUOUS_LEARNING_PROTOCOL.md`.
+
+## 2. Runcreatie en productiepoort
+
+Een nieuwe productierun met `operating_mode: CONTROLLED_MANUAL_INLINE_HANDOFF` mag alleen worden aangemaakt wanneer:
+
+1. `pipeline/tests/results/PIPELINE_HANDOFF_SMOKE_001_RESULT.md` bestaat;
+2. dat bestand volledig leesbaar is en eindigt met `END_OF_ARTIFACT`;
+3. het exact `PRODUCTION_READY: YES` bevat;
+4. de implementatie op `main` staat;
+5. de nieuwe run alle vereiste v3.1.1-pins vóór de eerste claim vastlegt.
+
+Uitsluitend de synthetische testfixture met `run_type: SYNTHETIC_TEST` en run-id `PIPELINE-HANDOFF-SMOKE-001` is vrijgesteld van punten 1–4. Deze uitzondering mag geen echte onderzoeksbestanden, registers of de actieve `pipeline/NEXT_ACTION.yaml` wijzigen.
+
+Bij geldige runcreatie schrijft de controller:
+- `run.yaml`;
+- `state.yaml` met `READY_FOR_BRONS`;
+- `events.jsonl` met `RUN_CREATED`;
+- `scope.md`;
+- uitsluitend een definitief uitvoerbaar `context/BRONS_CONTEXT.yaml`;
+- een geldige `pipeline/NEXT_ACTION.yaml` volgens het voor de run gepinde schema.
+
+`ZILVER_CONTEXT.yaml` en `GOUD_CONTEXT.yaml` bestaan nog niet. Een leeg, voorlopig of ongepind manifest is verboden.
+
+## 3. Transition na BRONS
+
+De controller mag alleen van `BRONS_COMPLETE` naar `READY_FOR_ZILVER` wanneer hij:
+1. `BRONS/manifest.yaml`, `BRONS/COMPLETED` en `BRONS/handoff.yaml` volledig leest;
+2. controleert dat alle verplichte artifacts bestaan;
+3. alle `END_OF_ARTIFACT`-sentinels controleert;
+4. controleert dat iedere claim naar bestaande, unieke source-ID's verwijst;
+5. controleert dat manifest- en handoffpaden bestaan;
+6. controleert dat state, events, manifest en COMPLETED dezelfde uitkomst tonen;
+7. controleert dat de BRONS-workerclaim `CLOSED` is en dezelfde completioncommit noemt;
+8. iedere fout classificeert volgens Continuous Learning;
+9. de definitieve BRONS-resultaatcommit vaststelt;
+10. `context/ZILVER_CONTEXT.yaml` genereert met die commit als `source_commit`;
+11. required BRONS-bestanden en beschikbare hashes expliciet pint;
+12. `state.yaml` op `READY_FOR_ZILVER` zet;
+13. `CONTEXT_PREPARED` en `TRANSITIONED` appendt;
+14. `pipeline/NEXT_ACTION.yaml` exact naar ZILVER bijwerkt;
+15. de controllerclaim sluit;
+16. de volledige transition commit en opnieuw leest.
+
+## 4. Transition na ZILVER
+
+Voor `ZILVER_COMPLETE -> READY_FOR_GOUD` geldt dezelfde procedure:
+- valideer de volledige ZILVER-uitkomst;
+- controleer dat de ZILVER-workerclaim `CLOSED` is;
+- voer cross-register referentiële-integriteitscontrole uit;
+- classificeer fouten;
+- bepaal de definitieve ZILVER-resultaatcommit;
+- genereer pas daarna `context/GOUD_CONTEXT.yaml`;
+- pin vereiste ZILVER-artifacts en alleen expliciet benodigde BRONS-artifacts;
+- update state, events en `pipeline/NEXT_ACTION.yaml`;
+- sluit de controllerclaim;
+- commit en voer volledige readback uit.
+
+## 5. Inline activering
+
+`INLINE_POST_PHASE_CONTROLLER` is alleen geldig wanneer:
+
+1. `run.yaml`, context en `NEXT_ACTION.yaml` het gepinde `ROLE_HANDOFF_PROTOCOL.md` en deze modus toestaan;
+2. de worker alle artifacts, completionstate en completionevent heeft geschreven en gecommit;
+3. de workerclaim aantoonbaar `CLOSED` is en dezelfde completioncommit noemt;
+4. de workerrol expliciet is beëindigd;
+5. na die beëindiging geen fase-output meer wordt gewijzigd;
+6. de sessie GitHub-read/write opnieuw test;
+7. de sessie dit protocol en Continuous Learning opnieuw leest;
+8. een afzonderlijke controllerclaim met `claim_status: ACTIVE` wordt 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=719 path=pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md blob_sha=0c52ebc9a2be47583e08619c6422efad582619b3 original_offset=4096 original_length=3918 payload_bytes=3918 chunk_index=1 chunk_count=2 classification=text
+geschreven;
+9. de workerclaim niet als controllerclaim wordt hergebruikt.
+
+Dezelfde sessie is dan een nieuwe beperkte controllerrol, niet een worker met verruimde rechten.
+
+## 6. Controllerclaim
+
+Voor iedere transition schrijft de controller vooraf een claim met:
+- `transition`;
+- `claimed_by`;
+- `claimed_at`;
+- `source_commit`;
+- `expected_state`;
+- `target_context_manifest`;
+- `activation_mode: SEPARATE_CONTROLLER|INLINE_POST_PHASE_CONTROLLER`;
+- `claim_status: ACTIVE`.
+
+Alleen een claim met `claim_status: ACTIVE` blokkeert de overgang. Een gesloten predecessor-workerclaim blokkeert niet. Een ontbrekende of onduidelijk gesloten predecessorclaim blokkeert wel.
+
+Claims verlopen niet automatisch. Override van een actieve claim vereist expliciete autorisatie en `CLAIM_OVERRIDDEN` met reden.
+
+Bij een geslaagde transition wordt de controllerclaim in dezelfde transitioncommit gesloten met:
+- `claim_status: CLOSED`;
+- `claim_closed_at`;
+- `transition_commit`.
+
+## 7. Toegestane controllerwrites
+
+De controller mag uitsluitend wijzigen:
+- het contextmanifest van de volgende fase;
+- `state.yaml`;
+- `events.jsonl`;
+- `pipeline/NEXT_ACTION.yaml`;
+- een transition-validatierapport onder `transitions/`;
+- een operationele next-role-handoff onder `transitions/` volgens het gepinde template.
+
+Een noodzakelijke fase-outputreparatie gebeurt als afzonderlijke `RUN_REPAIR`, nooit stil binnen de transition.
+
+## 8. Next-role-handoff
+
+Na een geslaagde inline transition schrijft de controller een handoff volgens `pipeline/templates/NEXT_ROLE_HANDOFF_TEMPLATE.md` en rapporteert alleen `NEXT_ROLE_READY: YES` wanneer:
+
+- de volgende READY-state aantoonbaar bestaat;
+- state en events synchroon zijn;
+- het opvolgercontextmanifest bestaat en de juiste commit en hashes pint;
+- `NEXT_ACTION.yaml` exact overeenkomt;
+- worker- en controllerclaims aantoonbaar `CLOSED` zijn;
+- geen andere actieve claim bestaat;
+- finale readback is geslaagd.
+
+Bij iedere afwijking geldt `NEXT_ROLE_READY: NO` en wordt geen uitvoerbare opvolgerprompt geleverd.
+
+## 9. Eventtypen
+
+Minimaal ondersteund:
+- `RUN_CREATED`;
+- `CLAIMED`;
+- `CLAIM_CLOSED`;
+- `TRANSITION_CLAIMED`;
+- `CONTEXT_PREPARED`;
+- `TRANSITIONED`;
+- `TRANSITION_BLOCKED`;
+- `DESYNC_DETECTED`;
+- `CLAIM_OVERRIDDEN`;
+- `RUN_REPAIRED` of fasespecifieke reparatievariant.
+
+## 10. Stopvoorwaarden
+
+Stop zonder overgang wanneer:
+- write-toegang ontbreekt;
+- de verwachte state niet klopt;
+- een actieve worker- of controllerclaim bestaat;
+- de predecessor-workerclaim niet aantoonbaar `CLOSED` is;
+- predecessor-output onvolledig of afgekapt is;
+- manifest, COMPLETED, state of events elkaar tegenspreken;
+- claim-sourceverwijzingen ongeldig of dubbel zijn;
+- manifest- of handoffpaden niet bestaan;
+- de resultaatcommit niet ondubbelzinnig kan worden vastgesteld;
+- required files of hashes niet betrouwbaar kunnen worden gepind;
+- inline control niet expliciet door de gepinde run is toegestaan;
+- een productierun de rooktestpoort niet aantoonbaar passeert.
+
+Schrijf dan `TRANSITION_BLOCKED`; maak het volgende contextmanifest niet uitvoerbaar, verander de run niet naar READY en lever geen volgende metaalopdracht.
+
+## 11. Activatie
+
+Afzonderlijke controller:
+
+`Open pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md en pipeline/protocols/CONTINUOUS_LEARNING_PROTOCOL.md. Voer de aangewezen controllertransition uit, valideer de predecessor volledig, genereer het gepinde opvolgercontextmanifest en schrijf uitsluitend toegestane transitionbestanden.`
+
+Inline controller:
+
+`De workerrol is volledig beëindigd en de workerclaim is CLOSED. Herhaal GitHub-preflight, lees de gepinde controller- en handoffprotocollen opnieuw, schrijf een afzonderlijke ACTIVE controllerclaim en voer uitsluitend de door NEXT_ACTION toegestane transition uit. Sluit de controllerclaim in de transitioncommit en lever alleen bij geldige finale readback de next-role-handoff.`
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=720 path=pipeline/protocols/EVIDENCE_PROTOCOL.md blob_sha=5d853e6dae868495782363d0864f641fa2747186 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# Evidence Protocol v3.0
+
+## 1. Atomische claims
+
+Iedere materiële bewering krijgt een `claim_id`, `candidate_id`, `claim_type`, `claim_text`, `evidence_status`, één of meer `source_ids`, `notes` en waar relevant `supersedes_claim_id`.
+
+Een bron wordt alleen gekoppeld aan de specifieke claim die zij daadwerkelijk draagt.
+
+## 2. Claimtypes
+
+Toegestane hoofdtypen:
+
+- `PHYSICAL_IDENTITY`
+- `INSTITUTIONAL_IDENTITY`
+- `HISTORICAL`
+- `TRADITION`
+- `LINEAGE`
+- `LIVING_PRACTICE`
+- `DEVOTIONAL_PURPOSE`
+- `PARTICIPATION`
+- `VISITABILITY`
+- `EXPERIENCE`
+- `VISUAL_CONDITION`
+- `PROXIMITY`
+- `TESTIMONY`
+- `OVERLAY_RELATION`
+
+## 3. Bevestigingsstatussen
+
+Gebruik uitsluitend:
+
+- `HISTORICALLY_DOCUMENTED`
+- `INSTITUTIONALLY_CONFIRMED`
+- `LINEAGE_CONFIRMED`
+- `TRADITION_CONFIRMED`
+- `EXPERIENTIALLY_REPORTED`
+- `PRACTICAL_CHECK_REQUIRED`
+- `SUPPORTED_SECONDARY`
+- `INFERRED`
+- `CONFLICTED`
+- `NOT_ESTABLISHED`
+
+De status geldt per claim, niet per kandidaat. Bevestigingsdomeinen staan naast elkaar en vormen geen rangorde.
+
+## 4. Projectbevestiging
+
+Een claim kan `project_confirmation: true` krijgen wanneer zij voor Marks pelgrimsdoel voldoende wordt gedragen door een relevante instelling, lineage of levende traditie, ook wanneer klassiek historisch bewijs ontbreekt.
+
+Vereist:
+
+- de drager van de bevestiging is expliciet genoemd;
+- de bron staat aantoonbaar dicht bij de betreffende instelling of lineage;
+- fysieke plek en spirituele relatie zijn niet kunstmatig samengevoegd;
+- concrete tegenspraak is onderzocht en zichtbaar gemaakt.
+
+## 5. Babaji en bovennatuurlijke traditieclaims
+
+Een Babaji-claim wordt niet beoordeeld op moderne biografische bewijsbaarheid. Zij wordt beoordeeld op nabijheid van de lijnbron, guru-parampara, interne consistentie, de fysieke plek die de traditie aanwijst en de daaruit voortgekomen levende praktijk.
+
+## 6. AOAY
+
+Wanneer AOAY een relevante persoon, ontmoeting of regionale relatie beschrijft en een huidige officiële instelling of lineage de eigen fysieke plek daarmee identificeert, kan de overlay `PROJECT_CONFIRMED` zijn tenzij concrete tegenspraak bestaat.
+
+Een gecontroleerde editie en exacte historische topografie blijven nuttige documentaire verdieping, maar zijn niet verplicht om de plek voor Marks reisdoel betekenisvol bevestigd te noemen.
+
+## 7. Brontypen
+
+Toegestane `source_type`:
+
+- `PRIMARY_TEXT`
+- `OFFICIAL_INSTITUTION`
+- `OFFICIAL_LINEAGE`
+- `GOVERNMENT`
+- `ACADEMIC`
+- `REPUTABLE_SECONDARY`
+- `DEVOTEE_TESTIMONY`
+- `VISITOR_REVIEW`
+- `INTERVIEW`
+- `VIDEO_DOCUMENTATION`
+- `PHOTO_DOCUMENTATION`
+- `ROUTE_SOURCE`
+
+Bronnen worden gebruikt voor het domein waarvoor zij geschikt zijn. Reviews, foto's en video's mogen uiterlijk, sfeer, drukte, gastvrijheid, netheid en praktische beleving dragen. Zij dragen geen oude historische of bovennatuurlijke kernclaim.
+
+## 8. Visueel dossier
+
+Per kandidaat wordt een image register bijgehouden met minimaal:
+
+- `image_id`
+- `candidate_id`
+- `url`
+- `source_type`
+- `captured_or_published_at` indien bekend
+- `retrieved_at`
+- `visual_function`
+- `observation_supported`
+- `duplicate_group` indien relevant
+- `reliability_notes`
+
+Doel is tien verschillende visuele functies. Een tekort wordt expliciet gerapporteerd; duplicaten vullen het quotum niet kunstmatig.
+
+## 9. Reviews en ervaringsmateriaal
+
+Leg bij reviewanalyse vast:
+
+- platform;
+- score en aantal reviews indien zichtbaar;
+- peildatum;
+- actualiteit;
+- terugkerende positieve thema's;
+- terugkerende negatieve thema's;
+- verschil tussen devotee- en algemene toeristenervaringen;
+- betrouwbaarheid van de basis.
+
+Eén review of één sterrengemiddelde is nooit voldoende voor een algemene sfeerclaim.
+
+## 10. Praktische onzekerheid
+
+Actuele toegang, deelname, fotografie, kleding, openingstoestand en tijdelijke beperkingen krijgen `PRACTICAL_CHECK_REQUIRED` wanneer zij niet betrouwbaar actueel zijn vastgesteld. Dit vermindert niet automatisch de spirituele of traditionele betekenis van de plek.
+
+## 11. Registers en referentiële integriteit
+
+Iedere `source_id` uit `claims.jsonl` moet exact één keer bestaan in accepted of rej
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=721 path=pipeline/protocols/EVIDENCE_PROTOCOL.md blob_sha=5d853e6dae868495782363d0864f641fa2747186 original_offset=4096 original_length=377 payload_bytes=377 chunk_index=1 chunk_count=2 classification=text
+ected registers. Source-ID's zijn uniek over beide registers. Afgewezen bronnen krijgen eveneens een unieke ID wanneer claims ernaar verwijzen.
+
+## 12. Geen totaalscore door de metalen
+
+BRONS, ZILVER en GOUD leveren de inhoudelijke gegevens voor advisering, maar kennen geen formele A/B/C-status toe. Alleen INDIA2 mag adviseren en alleen Mark beslist formeel.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=722 path=pipeline/protocols/EXECUTION_PROTOCOL.md blob_sha=f384e45c824ea4c10194dbf476b30b61312a0ed2 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# Execution Protocol v2.3.1
+
+## 1. Repository-only handoff
+
+Een chat is een tijdelijke worker. Alle blijvende invoer, voortgang en uitvoer staat in GitHub. BRONS, ZILVER en GOUD communiceren niet via geplakte onderzoeksrapporten. Een geplakte rolhandoff bevat alleen bediening en GitHub-pointers.
+
+## 2. Runstatus en protocolpins
+
+Iedere run bevat:
+- `run.yaml` — onveranderlijke run-identiteit, scope en protocolpins;
+- `state.yaml` — actuele afgeleide toestand;
+- `events.jsonl` — append-only gebeurtenissen;
+- een definitief contextmanifest voor de actieve of eerstvolgende uitvoerbare rol;
+- één geïsoleerde outputmap per fase.
+
+`run.yaml` verandert niet nadat BRONS is geclaimd. Een wijziging vereist een nieuwe run of expliciete migratie.
+
+Bij runcreatie bestaat alleen een definitief `BRONS_CONTEXT.yaml`. `ZILVER_CONTEXT.yaml` en `GOUD_CONTEXT.yaml` worden pas na predecessorvalidatie door een controllertransition gegenereerd.
+
+Nieuwe inline-handoffruns pinnen tevens:
+- `pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md`;
+- `pipeline/templates/NEXT_ROLE_HANDOFF_TEMPLATE.md`;
+- `pipeline/templates/MARK_FINAL_REPORT_TEMPLATE.md`;
+- `pipeline/templates/CANONICAL_INTEGRATION_PROPOSAL_TEMPLATE.md`;
+- `pipeline/templates/NEXT_ACTION_V3_TEMPLATE.yaml`.
+
+Ontbreken deze pins, dan geldt het oude proces.
+
+## 3. Toestanden
+
+Toegestane fasevolgorde:
+
+`READY_FOR_BRONS -> BRONS_CLAIMED -> BRONS_COMPLETE -> TRANSITION_TO_ZILVER_CLAIMED -> READY_FOR_ZILVER -> ZILVER_CLAIMED -> ZILVER_COMPLETE -> TRANSITION_TO_GOUD_CLAIMED -> READY_FOR_GOUD -> GOUD_CLAIMED -> GOUD_PASS|GOUD_PARTIAL|GOUD_BLOCKED -> ARCHIVED`
+
+Een overgang is alleen geldig wanneer:
+1. de verwachte vorige toestand klopt;
+2. een corresponderend event wordt toegevoegd;
+3. verplichte output voor de overgang bestaat en is gevalideerd;
+4. voor `READY_FOR_ZILVER` of `READY_FOR_GOUD` het definitieve contextmanifest door een controller is gegenereerd en gepind.
+
+## 4. Claim-lock en claimsluiting
+
+Voor inhoudelijk werk schrijft de worker een claim in `state.yaml` en een `CLAIMED`-event met:
+- `role`;
+- `claimed_by`;
+- `claimed_at`;
+- `source_commit`;
+- `expected_state`;
+- `output_path`;
+- `claim_status: ACTIVE`.
+
+Claims verlopen niet automatisch. Overname van een actieve claim vereist expliciete activatie door Mark of een controller en een `CLAIM_OVERRIDDEN`-event met reden.
+
+Bij geldige fasecompletion moet dezelfde workerclaim in dezelfde completioncommit aantoonbaar worden gesloten met:
+- `claim_status: CLOSED`;
+- `claim_closed_at`;
+- `completion_commit`;
+- `completion_result: PASS|PARTIAL|BLOCKED`.
+
+Het completionevent noemt dezelfde claimsluiting. Een claim met `claim_status: CLOSED` blokkeert geen opvolgende controllerclaim. Een ontbrekende, tegenstrijdige of nog `ACTIVE` workerclaim blokkeert iedere inline transition.
+
+Controllertransitions gebruiken altijd een afzonderlijke transitionclaim met `claim_status: ACTIVE`. Een workerclaim wordt nooit hergebruikt.
+
+## 5. Source-commit pinning
+
+`source_commit` identificeert de gepinde invoersnapshot. De actuele branch-head mag vooruitgaan wanneer alle required files op de gepinde commit beschikbaar blijven en de verwachte blob-SHA's overeenkomen.
+
+Een verschil tussen `source_commit` en branch-head is op zichzelf geen fout. Materiële inputdrift is wel een stopvoorwaarde: ontbrekend of afgekapt required bestand, afwijkende hash, state/event-desynchronisatie of ongeldig contextmanifest.
+
+Na claimen schrijft de worker alleen naar zijn eigen fase-output en de overeengekomen state/eventbestanden, behalve de expliciet gepinde GOUD-integratiescope uit sectie 9.3.
+
+## 6. Fase-output
+
+Iedere fase schrijft minimaal:
+- `manifest.yaml`;
+- `report/INDEX.md`;
+- opgesplitste rapportbestanden uit INDEX;
+- `claims.jsonl`;
+- `sources/registry.jsonl`;
+- `sources/rejected.jsonl`;
+- `audit.md`;
+- `handoff.yaml`;
+- `COMPLETED`.
+
+Geen primair fasebestand is groter dan 1500 regels. Splits eerder wanneer leesbaarheid of contextbudget daar baat bij heeft.
+
+`REPORT_ASSEMBLED.md` is optioneel en nooit de primaire opvolgerinvoer.
+
+GOUD schrijft bij een gepinde `MAR
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=723 path=pipeline/protocols/EXECUTION_PROTOCOL.md blob_sha=f384e45c824ea4c10194dbf476b30b61312a0ed2 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+K_FINAL_REPORT`-modus aanvullend:
+- `research/active/<RUN_ID>/GOUD/MARK_FINAL_REPORT.md`;
+- `research/active/<RUN_ID>/GOUD/CANONICAL_INTEGRATION_PROPOSAL.md`.
+
+## 7. Volledigheid en truncatie
+
+Ieder tekstbestand eindigt met `END_OF_ARTIFACT`.
+
+`manifest.yaml` noemt alle verplichte bestanden, regel- of byteaantallen, betrouwbare hashes, completionstatus, broncommit en protocolversies.
+
+`COMPLETED` wordt pas geschreven nadat alle vereiste bestanden opnieuw zijn geopend en sentinels zichtbaar zijn gecontroleerd.
+
+Bij GitHub Contents API-reads wordt het gerapporteerde `size`-veld vergeleken met de gedecodeerde contentlengte. Bij mismatch of lege content met `size > 0` wordt de Git Blob API gebruikt. Een mogelijk afgekapte read mag nooit als basis dienen voor volledige vervanging.
+
+## 8. Handoff
+
+`handoff.yaml` bevat geen rapporttekst. Het bevat:
+- run-id;
+- completed role;
+- result status;
+- output manifest path;
+- next role;
+- next expected transition;
+- open blockers;
+- required predecessor files.
+
+De worker claimt geen toekomstige `source_commit`. De controller stelt die vast na de definitieve fasecommit.
+
+De volgende rol leest uitsluitend het controllergegenereerde, gepinde contextmanifest.
+
+## 9. Post-completion-modi
+
+### 9.1 Oud proces
+
+Zonder geldige nieuwe pins stopt BRONS na `BRONS_COMPLETE` en ZILVER na `ZILVER_COMPLETE`. Een afzonderlijk geactiveerde controller verzorgt de transition.
+
+### 9.2 `INLINE_POST_PHASE_CONTROLLER`
+
+Wanneer `run.yaml` en `NEXT_ACTION.yaml` dit expliciet toestaan, mag dezelfde sessie na volledige workercompletion een afzonderlijke controllerrol starten volgens `ROLE_HANDOFF_PROTOCOL.md`.
+
+De workerrol moet eerst aantoonbaar eindigen. De workerclaim moet `CLOSED` zijn. Daarna zijn fase-outputwrites verboden. De sessie herhaalt GitHub-preflight, leest de controllerprotocollen opnieuw, schrijft een afzonderlijke controllerclaim en voert alleen controllerwrites uit.
+
+### 9.3 `MARK_FINAL_REPORT` met deterministische canonieke integratie
+
+GOUD schrijft eerst een volledig `CANONICAL_INTEGRATION_PROPOSAL.md`. Alleen wanneer `run.yaml` en `NEXT_ACTION.yaml` expliciet `canonical_integration.mode: DETERMINISTIC_NON_DECISIONAL` pinnen, mag GOUD vóór completion de exact voorgestelde canonieke writes uitvoeren naar:
+- `knowledge/places/registry.jsonl`;
+- `decisions/INDEX.yaml`.
+
+Deze uitzonderlijke GOUD-write-scope geldt uitsluitend voor mechanische integratie die één-op-één uit gevalideerde GOUD-artifacts volgt. Toegestaan zijn technische documentstatus, artifactpaden, bestaande LOCATION_ID-koppelingen, gecontroleerde aliases/GEO-statussen en koppelingen naar reeds bestaande decision-ID's.
+
+Absoluut verboden zijn:
+- nieuwe of gewijzigde formele A/B/C-status;
+- nieuwe of gewijzigde adviserende A/B/C-status;
+- een nieuw decision-ID;
+- nieuwe of herschreven beslistekst;
+- een koerskeuze namens Mark;
+- een canonieke wijziging bij twijfel of onvolledig bewijs.
+
+Wanneer een beslissing van Mark nodig is, past GOUD de betreffende canonieke wijziging niet toe, zet het voorstel op `mark_decision_required: YES`, benoemt de keuze exact in het Markrapport en archiveert de run niet als volledig geïntegreerd.
+
+Na toegestane canonieke writes valideert GOUD syntax, unieke LOCATION_ID's, bestaande decision-ID's, ongewijzigde A/B/C-velden en finale readback. Daarna schrijft GOUD completion, sluit de workerclaim en levert het volledige Markrapport.
+
+## 10. Controllertransitions
+
+Na `BRONS_COMPLETE` en `ZILVER_COMPLETE` blijft een controllertransition verplicht. Inline control verandert alleen wie de controllerrol direct daarna uitvoert; het verwijdert de rol- en write-scheiding niet.
+
+## 11. Fouten en herstel
+
+- Ontbrekend bestand of sentinel: geen COMPLETE-status of transition.
+- State/event mismatch: append `DESYNC_DETECTED`, stop en laat Mark/controller herstellen.
+- Partiële commit: herstel binnen dezelfde fase; schrijf pas daarna COMPLETED.
+- Actieve of onduidelijk gesloten claim: geen inline transition.
+- Onjuiste claim: alleen expliciete override.
+- Protocolwijziging tijdens run: negeren; gepinde versie bli
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=724 path=pipeline/protocols/EXECUTION_PROTOCOL.md blob_sha=f384e45c824ea4c10194dbf476b30b61312a0ed2 original_offset=8192 original_length=790 payload_bytes=790 chunk_index=2 chunk_count=3 classification=text
+jft leidend.
+- Ontbrekend opvolgercontextmanifest: volgende rol niet activeren.
+- Alleen branch-head advancement zonder required-file drift: niet blokkeren.
+- Inline transition faalt: behoud geldige fasecompletion maar schrijf geen volgende READY-state of startopdracht.
+- Canonieke integratie vereist een inhoudelijk besluit: wijzig de betreffende canonieke records niet; lever een exact beslispunt aan Mark.
+
+## 12. Archivering
+
+Na GOUD PASS/PARTIAL kan de run volgens het archiveringsprotocol worden verplaatst wanneer de deterministische canonieke integratie is voltooid of expliciet `NOT_APPLICABLE` is. Bij `mark_decision_required: YES` blijft de run zichtbaar als nog niet volledig geïntegreerd. Een geldig Markrapport vereist geen normale eindredactie door INDIA2.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=725 path=pipeline/protocols/GEO_LOCATION_PROTOCOL.md blob_sha=149c0515010930ec9306a6d68f5beb2a7b3bbe91 original_offset=0 original_length=1972 payload_bytes=1972 chunk_index=0 chunk_count=1 classification=text
+# GEO Location Protocol v1.0
+
+## Doel
+
+Zorgt dat rapporten, KML, Google My Maps en reisdocumenten naar dezelfde fysieke punten verwijzen.
+
+## Identifiers
+
+`IND-PLACE-*` is de interne database-ID. `LOCATION_ID` is de permanente reis- en kaart-ID. Beide blijven bestaan en worden nooit hergebruikt.
+
+## Clusterblokken
+
+- Delhi/aankomst: `100-199`.
+- Braj: `200-299`.
+- Volgende reisclusters krijgen opeenvolgende vrije blokken van 100 volgens de definitieve reisvolgorde.
+- Een clusterblok overlapt nooit met een ander blok.
+- Gaten zijn toegestaan.
+
+## GEO-record
+
+Iedere kandidaat krijgt in GOUD exact één record in `geo_locations.jsonl` met:
+
+- `location_id`;
+- `candidate_id` en waar beschikbaar `place_id`;
+- `canonical_name`;
+- `cluster`;
+- `latitude_wgs84`;
+- `longitude_wgs84`;
+- `geo_point_type`: `VISITOR_ENTRANCE`, `EXACT_SITE`, `COMPLEX_CENTRE` of `ESTIMATED`;
+- `geo_verification_status`: `VERIFIED_TWO_SOURCES`, `VERIFIED_ONE_AUTHORITATIVE_SOURCE`, `CONFLICTED` of `NOT_ESTABLISHED`;
+- `geo_sources`;
+- `google_maps_url`;
+- `point_choice_reason`;
+- `checked_at`;
+- `recheck_before` waar relevant.
+
+Geen coördinaat wordt afgeleid uit alleen een plaatsnaam of willekeurig complexmiddelpunt. Bij bezoekbare complexen heeft de logische bezoekersingang voorkeur.
+
+## Verbindingen
+
+`geo_connections.jsonl` bevat per gebruikte verbinding:
+
+- `from_location_id`;
+- `to_location_id`;
+- `mode`;
+- `estimated_time_min`;
+- `distance_km` indien betrouwbaar;
+- `source_or_method`;
+- `checked_at`;
+- `traffic_or_access_notes`;
+- `status`.
+
+Alle tijden worden berekend vanaf de geverifieerde punten. Een onbekende of volatiele waarde blijft open en wordt niet gegokt.
+
+## C-locaties
+
+C-locaties blijven in alle registers en GEO-datasets. Alleen routegebruik kan later worden uitgesloten.
+
+## Rollen
+
+GOUD verzamelt en valideert GEO-data maar maakt geen KML en kent geen A/B/C toe. INDIA2 maakt na technische vrijgave kaartlagen, KML en mensentaalproducten.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=726 path=pipeline/protocols/LONG_RUNNING_EXECUTION_PROTOCOL.md blob_sha=0640c6af87df2ed94155fa5b04b377c2e729161a original_offset=0 original_length=3160 payload_bytes=3160 chunk_index=0 chunk_count=1 classification=text
+# LONG_RUNNING_EXECUTION_PROTOCOL v1.0
+
+## Doel
+
+Voorkom dat een lange BRONS-, ZILVER- of GOUD-uitvoering onverwacht eindigt, Mark handmatig technisch herstel moet organiseren of reeds verricht onderzoek opnieuw wordt uitgevoerd.
+
+## Kernregel
+
+Een worker behandelt context- of uitvoeringsruimte als een eindige resource. Hij wacht niet tot afbreken onvermijdelijk is. Zodra redelijkerwijs niet meer zeker is dat alle resterende artifacts, heropening, validatie, manifest, COMPLETED, state en events binnen dezelfde sessie kunnen worden afgerond, schakelt hij vóór nieuw inhoudelijk werk over op een gecontroleerd checkpoint.
+
+## Werkblokken
+
+Iedere lange fase wordt uitgevoerd in afzonderlijk afsluitbare werkblokken, bijvoorbeeld:
+
+1. context en predecessorvalidatie;
+2. claim en kandidaten-/broninventaris;
+3. inhoudelijke onderzoeksblokken;
+4. registers en rapportdelen;
+5. technische heropening en validatie;
+6. completion, state en events.
+
+Na ieder groot werkblok worden alle geschreven bestanden op GitHub opgeslagen. Reeds gevalideerde blokken worden bij hervatting niet opnieuw onderzocht, behalve bij concrete drift, fout of expliciete loss-control-trigger.
+
+## Verplicht checkpoint
+
+Wanneer afronding in dezelfde sessie onzeker wordt, schrijft de worker vóór stoppen:
+
+`research/active/<run-id>/<ROLE>/CHECKPOINT.yaml`
+
+Minimale velden:
+
+- run_id;
+- role;
+- claim_identity;
+- checkpoint_commit;
+- completed_blocks;
+- validated_files;
+- incomplete_blocks;
+- exact_next_step;
+- files_that_must_be_reopened;
+- content_research_must_not_be_repeated;
+- created_at;
+- status: `RESUME_REQUIRED`.
+
+De worker:
+
+- behoudt de bestaande claim;
+- maakt geen tweede claim;
+- zet `pipeline/NEXT_ACTION.yaml` op `RESUME_<ROLE>` wanneer write-scope dit toestaat;
+- schrijft geen COMPLETED en geen fase-completionevent;
+- noemt geen fase `BLOCKED` wanneer alleen een gecontroleerde sessieoverdracht nodig is;
+- geeft Mark uitsluitend de standaardstartvraag voor een nieuwe chat.
+
+## Hervatting
+
+Een hervattende worker:
+
+1. test GitHub-read en GitHub-write;
+2. leest ENTRYPOINT, NEXT_ACTION, state, events en CHECKPOINT;
+3. bevestigt dat dezelfde claim nog actief is;
+4. controleert het checkpoint_commit en de genoemde bestanden;
+5. maakt geen nieuwe claim;
+6. hervat exact bij `exact_next_step`;
+7. herhaalt geen afgerond onderzoek zonder concrete fout of drift;
+8. verwijdert of archiveert CHECKPOINT pas na geldige fasecompletion.
+
+## Zelfroutering
+
+Bij `RESUME_REQUIRED` toont de chat uitsluitend:
+
+- status: gecontroleerd checkpoint opgeslagen;
+- geen werk verloren;
+- één standaardstartvraag voor dezelfde rol.
+
+Alle commit-, bestand- en claimdetails blijven in GitHub.
+
+## Beperkingen
+
+Een ChatGPT-chat kan niet zelf een nieuwe chat openen of zichzelf na beëindiging opnieuw activeren. Dit protocol elimineert dubbel onderzoek en technisch uitzoekwerk, maar Mark moet zonder externe orchestrator nog één nieuwe chat openen en de vaste startvraag plakken.
+
+## Proportionaliteit
+
+Dit protocol voegt geen nieuwe onderzoeksfase toe. Het is alleen een runtime-regel voor lange bestaande fasen en mag inhoudelijke voortgang niet vertragen.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=727 path=pipeline/protocols/REGIE_INTERFACE_PROTOCOL.md blob_sha=a033fbaa1b21e54c6995943d3afbc2952cf7b177 original_offset=0 original_length=3118 payload_bytes=3118 chunk_index=0 chunk_count=1 classification=text
+# REGIE_INTERFACE_PROTOCOL v1.0
+
+## 1. Doel
+
+Dit protocol houdt INDIA2 inhoudelijk schoon. Alle operationele BRONS/ZILVER/GOUD-zaken lopen via SUBREGIE INDIA. INDIA2 ontvangt pas na validatie een compact inhoudelijk eindpakket.
+
+## 2. Verplichte routering
+
+Wanneer INDIA2 een bericht ontvangt dat betrekking heeft op een lopende of nieuwe pipeline-run, stuurt INDIA2 het altijd door naar SUBREGIE INDIA wanneer het één van deze categorieën raakt:
+
+- runcreatie of scopevoorbereiding;
+- BRONS-, ZILVER- of GOUD-completion;
+- worker BLOCKED;
+- ontbrekende GitHub-connector of write-toegang;
+- state/event-desynchronisatie;
+- source-commit-, hash- of truncatiefout;
+- claim-lock of transitionclaim;
+- contextmanifest, repinning of controllertransition;
+- source-ID-, manifest-, sentinel- of handofffout;
+- protocol-, rol-, template-, validator- of workflowverbetering;
+- archivering of runherstel.
+
+INDIA2 analyseert of repareert deze zaken niet zelf.
+
+## 3. Minimale doorstuurvorm vanuit INDIA2
+
+INDIA2 stuurt naar SUBREGIE INDIA:
+
+```text
+SUBREGIE INDIA:
+Repository: bnzgxknwrv-tech/india-knowledge-base
+Run: <run-id|NIEUWE_RUN>
+Aanleiding: <letterlijk workerbericht of concrete opdracht van Mark>
+Gewenst resultaat: <valideren|repareren|transitioneren|run aanmaken|pipeline verbeteren|archiveren>
+```
+
+Ruwe completion- en blockerberichten worden volledig en ongewijzigd meegestuurd.
+
+## 4. Teruglevering aan INDIA2
+
+SUBREGIE INDIA stuurt alleen een regisseurspakket wanneer:
+
+1. GOUD technisch is gevalideerd;
+2. state en events synchroon zijn;
+3. GOUD manifest, COMPLETED, handoff, claims en bronnen geldig zijn;
+4. geen open technische claim of transition bestaat;
+5. inhoudelijke blockers gescheiden zijn van technische defecten.
+
+Het pakket bevat uitsluitend:
+
+```text
+INDIA2-REGISSEURSPAKKET
+run_id: <run-id>
+GOUD_status: <PASS|PARTIAL|BLOCKED>
+GOUD_completioncommit: <sha>
+manifest: <path>
+report_index: <path>
+technische_integriteit: <PASS|FAIL>
+inhoudelijke_kern: <korte samenvatting>
+hoogste_inhoudelijke_blockers:
+  - <maximaal vijf>
+vereiste_regisseursbesluiten:
+  - <alleen inhoudelijke/projectbesluiten; anders GEEN>
+aanbevolen_vervolg: <VERWERKEN|AANVULLENDE_RUN|BLOKKEREN>
+```
+
+INDIA2 hoeft BRONS, ZILVER, events, contextmanifesten of protocolhistorie niet te openen, tenzij SUBREGIE INDIA expliciet een inhoudelijk informatieverlies of methodologisch conflict meldt.
+
+## 5. Bevoegdheidsgrens
+
+SUBREGIE INDIA beslist zelfstandig over technische uitvoering en efficiëntie. INDIA2 beslist over projectkoers en inhoudelijke integratie. Mark beslist over A/B/C, persoonlijke prioriteit en reisbesluiten.
+
+## 6. Geen vervuiling
+
+Pipeline-details worden niet in INDIA2 uitgeschreven. Wanneer INDIA2 toch operationele details ontvangt, routeert hij die door en vervolgt hij zijn inhoudelijke projectchat zonder technische analyse.
+
+## 7. Connectorregel
+
+Iedere BRONS-, ZILVER-, GOUD-, CONTROLLER- of SUBREGIE INDIA-sessie controleert GitHub-read en GitHub-write vóór inhoudelijk werk.
+
+Ontbreekt één daarvan, dan is het volledige antwoord uitsluitend:
+
+`MARK: IK MIS GITHUB CONNECTOR!`
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=728 path=pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md blob_sha=f4663ed3049f5d5586fcf6fc98d8c64a292b1998 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# ROLE_HANDOFF_PROTOCOL v1.1
+
+## Doel
+
+Nieuwe runs gebruiken de keten:
+
+`INDIA2 -> BRONS -> inline controller -> ZILVER -> inline controller -> GOUD -> Mark`
+
+Mark kopieert alleen de geldige overdracht naar een verse ZILVER-chat en daarna naar een verse GOUD-chat.
+
+## Toepassing
+
+Dit protocol geldt alleen wanneer `run.yaml` dit bestand pint en `pipeline/NEXT_ACTION.yaml` een geldig `post_completion`-blok bevat. Oude, reeds gepinde of geclaimde runs blijven hun oude proces volgen.
+
+## Rolgrens
+
+BRONS en ZILVER maken nooit als worker het contextmanifest van hun opvolger. Bij `post_completion.mode: INLINE_POST_PHASE_CONTROLLER` mag dezelfde sessie pas na volledige fasecompletion een afzonderlijke controllerrol starten.
+
+Verplichte volgorde:
+
+1. Schrijf en valideer alle fase-artifacts.
+2. Commit de fase, schrijf completionstate en completionevent en sluit de workerclaim met `claim_status: CLOSED`.
+3. Controleer dat de gesloten workerclaim dezelfde completioncommit noemt.
+4. Beëindig de workerrol; verdere fasewrites zijn verboden.
+5. Lees de controllerprotocollen opnieuw en herhaal GitHub-preflight.
+6. Controleer dat inline control expliciet is toegestaan.
+7. Schrijf een nieuwe controllerclaim met `claim_status: ACTIVE`; hergebruik de workerclaim nooit.
+8. Valideer predecessor, sentinels, registers, state en events.
+9. Stel de definitieve predecessorcommit vast.
+10. Maak en pin het opvolgercontextmanifest.
+11. Synchroniseer state, events en `pipeline/NEXT_ACTION.yaml`.
+12. Sluit de controllerclaim in de transitioncommit.
+13. Commit de transition en voer volledige readback uit.
+14. Lever alleen bij volledige overeenstemming de volgende startopdracht.
+
+## Overdracht
+
+De geplakte overdracht bevat alleen bediening en GitHub-pointers. Zij is nooit inhoudelijk predecessorbewijs. De volgende rol herleest altijd de gepinde GitHub-context.
+
+`NEXT_ROLE_READY: YES` is alleen geldig wanneer state en events synchroon zijn, het contextmanifest en de hashes kloppen, NEXT_ACTION exact naar de opvolger wijst, worker- en controllerclaims `CLOSED` zijn, geen andere actieve claim bestaat en finale readback is geslaagd.
+
+Bij een afwijking geldt `NEXT_ROLE_READY: NO` en:
+
+`VOLGENDE_METAAL_STARTOPDRACHT: GEEN — EERST BLOCKER OPLOSSEN.`
+
+## GOUD
+
+Bij `post_completion.mode: MARK_FINAL_REPORT` schrijft GOUD verplicht:
+
+- `research/active/<RUN_ID>/GOUD/MARK_FINAL_REPORT.md`;
+- `research/active/<RUN_ID>/GOUD/CANONICAL_INTEGRATION_PROPOSAL.md`.
+
+Wanneer `canonical_integration.mode: DETERMINISTIC_NON_DECISIONAL` expliciet is gepind, voert GOUD uitsluitend de toegestane mechanische integratie uit volgens het gepinde voorsteltemplate. GOUD wijzigt geen formele of adviserende A/B/C-status en creëert geen nieuwe decision-ID of beslistekst.
+
+Na canonieke writes controleert GOUD syntax, unieke LOCATION_ID's, bestaande decision-ID's, ongewijzigde A/B/C-velden en finale readback. Daarna commit GOUD, sluit de workerclaim en toont het volledige Markrapport inhoudelijk gelijk in de chat.
+
+Wanneer een inhoudelijke beslissing van Mark nodig is, wordt de betreffende canonieke wijziging niet toegepast. Het eindrapport bevat dan exact:
+
+- `MARK_DECISION_REQUIRED: YES`;
+- de concrete keuze;
+- de gevolgen per optie;
+- de eerstvolgende korte handeling voor Mark.
+
+Een geldige PASS of PARTIAL vereist geen normale eindredactie door INDIA2. INDIA2 blijft alleen nodig voor echte cross-run koerskeuzes of besluiten die Mark niet rechtstreeks in het rapport kan nemen.
+
+## Harde verboden
+
+- Geen opvolgercontext door de workerrol.
+- Geen workerclaim hergebruiken als controllerclaim.
+- Geen fasewrites na de rolwissel.
+- Geen volgende prompt zonder geldige READY-state.
+- Geen stil inhoudelijk herstel tijdens de transition.
+- Geen protocolwijziging binnen een actieve run.
+- Geen nieuwe formele of adviserende A/B/C-status door een metaal.
+- Geen canonieke write buiten het vooraf geschreven integratievoorstel.
+- Geen canonieke write wanneer een beslissing van Mark nodig is.
+
+## Fallback
+
+Wanneer inline control niet expliciet is gepind of niet veilig slaagt, blijft de fasecompletion be
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=729 path=pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md blob_sha=f4663ed3049f5d5586fcf6fc98d8c64a292b1998 original_offset=4096 original_length=187 payload_bytes=187 chunk_index=1 chunk_count=2 classification=text
+houden maar wordt geen opvolgercontext of READY-state gemaakt. Routeer dan naar SUBREGIE INDIA voor technisch herstel of naar INDIA2 voor een echt inhoudelijk beslispunt.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=730 path=pipeline/protocols/SELF_ROUTING_PROTOCOL.md blob_sha=b6b7f07bd7f6c946ba35776124f8fa6e6ced564c original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# SELF_ROUTING_PROTOCOL v1.1.1
+
+## 1. Doel
+
+Dit protocol minimaliseert Marks handwerk tussen BRONS, ZILVER, GOUD, SUBREGIE INDIA en INDIA2. Iedere uitvoerder geeft exact één geldige volgende handeling.
+
+Voor nieuwe gepinde inline-handoffruns is de normale keten:
+
+`INDIA2 -> BRONS -> ZILVER -> GOUD -> Mark`
+
+## 2. Verplichte bestemmingen
+
+Iedere completion, blocker of connectorstop bevat exact één route:
+
+- `VOOR_SUBREGIE_INDIA` — technische validatie, reparatie, desynchronisatie, repinning of een geblokkeerde transition;
+- `VOOR_VOLGEND_METAAL` — alleen na een volledig geldige controllertransition naar de volgende READY-state;
+- `VOOR_INDIA2` — uitsluitend bij een echte cross-run koerskeuze, een nieuw inhoudelijk regisseursbesluit of bij oude gepinde runs die dit vereisen;
+- `VOOR_MARK` — geldig GOUD-eindrapport bij PASS of PARTIAL, inclusief eventueel exact één beslispunt;
+- `GEEN_VERVOLG` — bewust gestopte of volledig gearchiveerde run.
+
+BRONS en ZILVER routeerden onder oude protocollen standaard naar SUBREGIE INDIA. Onder een nieuwe, expliciet gepinde inline-handoffrun mogen zij na een geslaagde afzonderlijke controllerrol rechtstreeks `VOOR_VOLGEND_METAAL` leveren.
+
+GOUD routeert bij een geldige gepinde `MARK_FINAL_REPORT`-modus rechtstreeks `VOOR_MARK`.
+
+## 3. Verplicht slotblok
+
+Ieder normaal worker- of controllerbericht eindigt vóór de rolafsluiting met:
+
+```text
+ROUTERING: <VOOR_SUBREGIE_INDIA|VOOR_VOLGEND_METAAL|VOOR_INDIA2|VOOR_MARK|GEEN_VERVOLG>
+VOLGENDE ACTIE VOOR MARK: <één letterlijke handeling>
+DOORSTUURTEKST: <volledig zelfstandig blok dat Mark zonder wijziging kan kopiëren, of GEEN>
+```
+
+Bij BRONS of ZILVER met geldige inline transition is `DOORSTUURTEKST` het volledige blok uit `NEXT_ROLE_HANDOFF_TEMPLATE.md`.
+
+Bij GOUD naar Mark is `DOORSTUURTEKST: GEEN`, tenzij `MARK_DECISION_REQUIRED: YES`. In dat geval bevat het uitsluitend één zelfstandig beslisblok; het volledige Markrapport staat al in hetzelfde chatantwoord.
+
+## 4. Directe metaaloverdracht
+
+`VOOR_VOLGEND_METAAL` is alleen geldig wanneer:
+
+1. een geldige controllerrol de predecessor volledig heeft gevalideerd;
+2. de predecessor-workerclaim aantoonbaar `CLOSED` is;
+3. `state.yaml` op de volgende READY-state staat;
+4. state en events synchroon zijn;
+5. het opvolgercontextmanifest bestaat en de vereiste hashes bevat;
+6. `pipeline/NEXT_ACTION.yaml` exact naar de volgende rol wijst;
+7. de controllerclaim aantoonbaar `CLOSED` is;
+8. geen andere `ACTIVE` claim bestaat;
+9. finale readback is geslaagd;
+10. `NEXT_ROLE_READY: YES` is vastgesteld.
+
+Zonder deze bewijzen gaat het bericht verplicht naar `VOOR_SUBREGIE_INDIA` en wordt geen volgende metaalopdracht geleverd.
+
+## 5. GOUD rechtstreeks naar Mark
+
+`VOOR_MARK` is alleen geldig wanneer:
+
+1. GOUD-status `PASS` of `PARTIAL` is;
+2. alle verplichte GOUD-artifacts bestaan;
+3. `CANONICAL_INTEGRATION_PROPOSAL.md` volledig en gecommit is;
+4. uitsluitend toegestane deterministische canonieke writes zijn toegepast of integratie `NOT_APPLICABLE`/`PENDING_MARK_DECISION` is;
+5. `MARK_FINAL_REPORT.md` volledig en gecommit is;
+6. de GOUD-workerclaim aantoonbaar `CLOSED` is;
+7. state en events synchroon zijn;
+8. finale readback is geslaagd;
+9. de chatversie inhoudelijk overeenkomt met het gecommitte rapport.
+
+Een geldige normale GOUD-oplevering vereist geen terugkeer naar INDIA2 of SUBREGIE INDIA. Wanneer een nieuw formeel besluit nodig is, krijgt Mark exact het beslispunt; de niet-toegestane canonieke wijziging blijft onuitgevoerd.
+
+## 6. Universele startopdracht
+
+Wanneer de repository een geldige `NEXT_ACTION.yaml` bevat:
+
+```text
+GitHub INDIA PIPELINE: voer de exact in pipeline/NEXT_ACTION.yaml aangewezen actie uit volgens pipeline/ENTRYPOINT.md. Geef na afloop uitsluitend het verplichte zelfrouterende slotbericht en, bij GOUD, het volledige gepinde Markrapport.
+```
+
+De worker leest run-id, rol, expected state, contextmanifest, post-completionmodus en eventuele canonieke-integratiemodus zelf uit GitHub. Bij ontbrekende of tegenstrijdige gegevens stopt hij.
+
+## 7. Connectorstop
+
+Wanneer GitHub-
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=731 path=pipeline/protocols/SELF_ROUTING_PROTOCOL.md blob_sha=b6b7f07bd7f6c946ba35776124f8fa6e6ced564c original_offset=4096 original_length=1064 payload_bytes=1064 chunk_index=1 chunk_count=2 classification=text
+read of GitHub-write ontbreekt, is het volledige antwoord uitsluitend:
+
+`MARK: IK MIS GITHUB CONNECTOR!`
+
+## 8. Minimale Mark-lus
+
+Voor nieuwe inline-handoffruns:
+
+1. INDIA2 maakt de run en volledige BRONS-startopdracht;
+2. Mark start één verse BRONS-chat;
+3. Mark kopieert na geldige inline transition alleen het volledige ZILVER-overdrachtsblok naar een verse ZILVER-chat;
+4. Mark kopieert daarna alleen het GOUD-overdrachtsblok naar een verse GOUD-chat;
+5. GOUD levert het volledige eindrapport rechtstreeks aan Mark en integreert deterministische kennisbasiswijzigingen zonder normale INDIA2-eindredactie.
+
+Er is geen normale INDIA2- of SUBREGIE-stap tussen de metalen.
+
+## 9. Geen zelfinschakeling
+
+Een worker kan geen connector of andere chat automatisch starten. Hij mag nooit beweren dit te hebben gedaan. Mark opent de twee opvolgerchats en plakt de volledig voorbereide handoff.
+
+## 10. Compatibiliteit
+
+Oude of niet-inline-gepinde runs blijven hun oude routingcontract volgen. Zij worden niet stil naar deze minimale keten gemigreerd.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=732 path=pipeline/regression/VRINDAVAN_METHOD_V3_EXAMPLES.md blob_sha=e2f035da4491974764961a18b790d8a2739e042b original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# Vrindavan regressievoorbeelden — Methodology v3
+
+Deze voorbeelden testen rapportvorm en semantiek. Zij wijzigen geen voltooide run-artifacts en kennen geen nieuwe formele A/B/C-status toe.
+
+## 1. Katyayani Peeth (nr. 1, tempel en ashram, Shakti en Kriya-lineage)
+
+### Waarom devotees gaan
+
+Devotees bezoeken deze plek voor verering van Katyayani/Shakti en vanwege de spirituele lerarenlijn rond Swami Keshavanand. Voor Marks project is de plek ook relevant door de verbinding die *Autobiography of a Yogi* en de huidige instelling samen dragen.
+
+### Wat mensen doen
+
+Puja, seva, gebed en bezoek aan het tempel-ashramcomplex. De precieze actuele deelnamevormen moeten vlak voor bezoek worden gecontroleerd.
+
+### Deelname
+
+Een respectvolle buitenlandse spirituele bezoeker lijkt in beginsel te kunnen bezoeken en deelnemen aan openbare devotionele handelingen. Actuele opening, fotografie en eventuele rituele beperkingen blijven praktisch te controleren.
+
+### Onderbouwing
+
+- fysieke plek: institutioneel bevestigd als Keshav Ashram, Radha Bagh, Vrindavan;
+- lineage: door Katyayani Trust gedragen;
+- AOAY: projectbevestigd wanneer AOAY's Keshabananda-relatie wordt gecombineerd met de institutionele identificatie van de huidige plek;
+- exacte editie- en perceelsreconstructie: nuttig detail, geen verplichte projectpoort.
+
+### Regressie-uitkomst
+
+PASS wanneer het rapport niet automatisch `POSSIBLE` gebruikt enkel wegens ontbrekende moderne perceelszekerheid en wanneer de devotionele reden vóór de technische onzekerheden staat.
+
+## 2. Neem Karoli Baba Ashram (nr. 2, ashram en samadhi, Maharaj-ji)
+
+### Waarom devotees gaan
+
+Devotees komen om Maharaj-ji te eren, bij zijn samadhi-heiligdom te zitten, te bidden en de levende Neem Karoli Baba-traditie te ervaren.
+
+### Wat mensen doen
+
+Darshan, stil zitten, gebed, eerbetoon bij de samadhi en deelname aan openbare ashrampraktijk waar toegestaan.
+
+### Deelname
+
+Het rapport moet concreet onderzoeken of buitenlandse bezoekers welkom zijn, hoe openbare praktijk werkt en welke regels gelden. Wanneer actuele officiële informatie ontbreekt, staat dit als directe praktische controle en niet als bewijs dat de plek spiritueel zwak is.
+
+### Onderbouwing
+
+- fysieke ashram- en samadhi-associatie: bevestigd binnen lineage en secundaire documentatie;
+- levende betekenis: traditioneel en ervaringsgericht te onderzoeken;
+- actuele beheer-, programma- en bezoekersinformatie: praktisch te controleren wanneer geen betrouwbare officiële bron beschikbaar is.
+
+### Regressie-uitkomst
+
+PASS wanneer beheeronzekerheid de eerste alinea niet domineert en wanneer duidelijk wordt wat Mark daar spiritueel kan ervaren.
+
+## 3. Radha Kund (nr. 4, heilige vijver, Radha-devotie)
+
+### Waarom devotees gaan
+
+Devotees bezoeken Radha Kund als een van de meest vereerde heilige waterplaatsen binnen de Radha-Krishna-devotie. De plek is betekenisvol door levende traditie en rituele praktijk, niet alleen door geografische of toeristische beschrijving.
+
+### Wat mensen doen
+
+Darshan van het heilige water, gebed, parikrama in het omliggende gebied en waar passend en toegestaan ritueel watercontact of baden.
+
+### Deelname
+
+Het rapport moet uitleggen wat een respectvolle buitenlandse bezoeker kan doen, welke water- en kledingetiquette geldt en of lokaal begeleiding wenselijk is.
+
+### Beleving
+
+Het visuele dossier moet behalve het water ook toegang, ghats, devotees, normale drukte, omgeving, netheid en verschillen tussen gewone en piekmomenten tonen.
+
+### Nabijheid
+
+Iedere verwijzing naar Shyam Kund, Govardhan Hill of Kusum Sarovar gebruikt opnieuw nummer, eenvoudig type en spirituele kern. Werkelijke loop- en rijtijden worden pas na actuele routecontrole ingevuld.
+
+### Regressie-uitkomst
+
+PASS wanneer levende devotie, concrete praktijk, deelname, visuele ervaring en nabijheid zichtbaar zijn en wanneer `kund` voor Mark begrijpelijk wordt uitgelegd.
+
+## Algemene regressiechecks
+
+- devotionele reden staat vóór bewijsbeperking;
+- lineage- en traditiebevestiging zijn zelfstandige domeinen;
+- praktische onzekerheid wordt vertaald naar een control
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=733 path=pipeline/regression/VRINDAVAN_METHOD_V3_EXAMPLES.md blob_sha=e2f035da4491974764961a18b790d8a2739e042b original_offset=4096 original_length=315 payload_bytes=315 chunk_index=1 chunk_count=2 classification=text
+eactie;
+- minimaal tien beeldfuncties of expliciet beeldtekort;
+- herkenningshaak bij iedere relevante herhaling van een Indiase plaatsnaam;
+- geen formele A/B/C-wijziging door metalen of SUBREGIE;
+- INDIA2 kan een compact advies geven met één eindbesluit;
+- geen pipelinejargon in Marks rapport.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=734 path=pipeline/reviews/CLAUDE_REREVIEW_MINIMAL_BZG_HANDOFF_IMPLEMENTATION.md blob_sha=c739cff3cbbe76050691e1ceff8e81ea005c13c2 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# CLAUDE HERREVIEW — Minimale BRONS → ZILVER → GOUD inline-handoff-implementatie (PR #15)
+
+Reviewer: Claude (onafhankelijke herreview, geen worker-run, geen protocolwijziging, geen sweep).
+Repository: `bnzgxknwrv-tech/india-knowledge-base`.
+Gereviewde branch: `implementation/minimal-bzg-handoff`.
+Gereviewde HEAD-commit: `2bb47fb2305217114b9d33166b5ca9ae4745538d` (bevestigd exact gelijk aan de in de herreview-opdracht opgegeven actuele head).
+Vorige gereviewde head: `2425041435c3fe10df56380735b9f8878f52cae0` (mijn eigen eerdere review, `pipeline/reviews/CLAUDE_REVIEW_MINIMAL_BZG_HANDOFF_IMPLEMENTATION.md`, commit `7353d85`).
+Diff sindsdien: 14 nieuwe commits, 15 bestanden gewijzigd (+1301/-219 t.o.v. `origin/main`), waaronder 1 nieuw template (`CANONICAL_INTEGRATION_PROPOSAL_TEMPLATE.md`).
+
+Gelezen: de volledige diff tussen `2425041` en `2bb47fb` van alle 15 gewijzigde bestanden, het volledige nieuwe `CANONICAL_INTEGRATION_PROPOSAL_TEMPLATE.md`, en opnieuw `pipeline/tests/PIPELINE_HANDOFF_SMOKE_001.md` in geheel (v1.1, tests A–M). Niet gewijzigd, niet uitgevoerd: geen implementatie, geen merge, geen sweep, geen protocolwerk, geen rooktest.
+
+## EINDBESLUIT: ACCEPT
+
+## READY_FOR_SMOKE_TEST: YES
+
+Alle zeven eerder verplichte bevindingen (F1–F7) zijn correct, consistent en zonder nieuwe regressies verwerkt. Er is precies één nieuwe, kleine inconsistentie gevonden (zie hieronder) — te triviaal en te laag-risico om de keten naar de synthetische rooktest te blokkeren, maar wel genoemd zodat de uitvoerder van `PIPELINE-HANDOFF-SMOKE-001` het meteen kan meenemen.
+
+---
+
+## 1. Status F1–F7
+
+### F1 — Claim-levenscyclus (was HIGH): OPGELOST
+
+`EXECUTION_PROTOCOL.md` §4 definieert nu expliciet `claim_status: ACTIVE` bij het openen van een claim en verplicht `claim_status: CLOSED` (met `claim_closed_at`, `completion_commit`, `completion_result`) in dezelfde completioncommit. De blokkeerregel is herschreven naar "alleen een `ACTIVE` claim blokkeert; een `CLOSED` claim blokkeert geen opvolgende controllerclaim." Dit is consistent doorgevoerd in `CONTROLLER_TRANSITION_PROTOCOL.md` §5–6, `ROLE_HANDOFF_PROTOCOL.md` stap 2–3/7/12, `ENTRYPOINT.md`, en beide rolbestanden (`BRONS.md`/`ZILVER.md`, nieuwe sectie "Inline post-phase controller"). Het exacte self-blocking-scenario dat ik oorspronkelijk aanwees is hiermee ondubbelzinnig opgelost: er bestaat nu een expliciet onderscheid tussen "bestaat een claim" en "bestaat een `ACTIVE` claim."
+
+Test F.3/F.4 in de rooktest dekt dit nu direct: een `ACTIVE` of onduidelijk gesloten predecessor-workerclaim moet de inline controller laten zelfblokkeren, en een mismatch tussen claimsluiting en completioncommit moet de transition blokkeren.
+
+### F2 — GOUD-report vervangt INDIA2-rapportage maar niet diens registry-/decisions-integratie (was HIGH): OPGELOST
+
+Nieuw `CANONICAL_INTEGRATION_PROPOSAL_TEMPLATE.md` plus een expliciet afgebakende, uitsluitend-bij-pin geactiveerde GOUD-writescope (`canonical_integration.mode: DETERMINISTIC_NON_DECISIONAL`) op `knowledge/places/registry.jsonl` en `decisions/INDEX.yaml`. De verboden-lijst is streng en compleet: geen nieuwe/gewijzigde formele of adviserende A/B/C-status, geen nieuw decision-ID, geen nieuwe/herschreven beslistekst, geen koerskeuze namens Mark, geen wijziging die niet één-op-één uit gevalideerde GOUD-artifacts volgt. Bij twijfel of een echte inhoudelijke keuze: `mark_decision_required: YES`, de wijziging blijft onuitgevoerd, en het Markrapport (nieuwe sectie 11 "Canonieke integratie" + sectie 10 "Aanbevolen vervolgstap") toont het exacte beslispunt. `SELF_ROUTING_PROTOCOL.md` behoudt `VOOR_INDIA2` expliciet voor "een echte cross-run koerskeuze" — dat mandaat wordt dus niet overgenomen door GOUD, alleen de mechanische rapportage- en registry-bijwerktaak.
+
+### F3 — Ontbrekende chat/commit-pariteitstest (was MEDIUM): OPGELOST
+
+Nieuwe Test I in de rooktest: volledige tekstvergelijking tussen het gecommitte `MARK_FINAL_REPORT.md` en de chatweergave, met alleen het vaste `GOUD ZEGT:`/slotblok/`/GOUD`-omhulsel uitgezonderd. Elke in
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=735 path=pipeline/reviews/CLAUDE_REREVIEW_MINIMAL_BZG_HANDOFF_IMPLEMENTATION.md blob_sha=c739cff3cbbe76050691e1ceff8e81ea005c13c2 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+houdelijke toevoeging, weglating, inkorting of parafrase faalt de test expliciet.
+
+### F4 — Ontbrekende concurrent-claim-test (was MEDIUM): OPGELOST
+
+Nieuwe Test J (concurrerende sessies/claimrace: een tweede sessie die dezelfde transition probeert te claimen terwijl de eerste `ACTIVE` is, moet worden geweigerd; bij een gelijktijdige poging door twee metaalchats mag precies één slagen) en Test K (transitioncommit-drift: predecessorcommit-mismatch, state/NEXT_ACTION-wijziging zonder event, en claim-vs-transitioncommit-mismatch moeten allemaal blokkeren of `NEXT_ROLE_READY: NO` opleveren).
+
+### F5 — Terminologie-mismatch NEXT_ROLE_HANDOFF_TEMPLATE vs NEXT_ACTION_V3_TEMPLATE (was LOW/MEDIUM): OPGELOST
+
+`NEXT_ROLE_HANDOFF_TEMPLATE.md` gebruikt nu letterlijk de kleine-letter-sleutels (`run_id`, `route`, `expected_state`, `context_manifest`) en zegt expliciet "semantisch exact" in plaats van een impliciete hoofdletter-vergelijking.
+
+### F6 — Smoketest-gate niet mechanisch afgedwongen (was LOW): OPGELOST
+
+`CONTROLLER_TRANSITION_PROTOCOL.md` §2 ("Runcreatie en productiepoort") is nu de expliciete, mechanische gate: een nieuwe productierun mag alleen worden aangemaakt wanneer `PIPELINE_HANDOFF_SMOKE_001_RESULT.md` bestaat, leesbaar is, eindigt met `END_OF_ARTIFACT`, exact `PRODUCTION_READY: YES` bevat, en de implementatie op `main` staat — met een expliciete, smal afgebakende uitzondering voor de synthetische fixture zelf. `RUN_TEMPLATE_V3.md` verwijst nu naar exact dezelfde voorwaarde in plaats van de vage eerdere formulering. Nieuwe Test M in de rooktest test deze poort zelf (blokkeren zonder resultaatbestand, blokkeren bij `PRODUCTION_READY: NO`, alleen doorlaten bij een volledig `YES`-resultaat).
+
+### F7 — Ontbrekend gestructureerd vervolgadvies-veld (was LOW): OPGELOST
+
+Nieuwe sectie 10 "Aanbevolen vervolgstap" in `MARK_FINAL_REPORT_TEMPLATE.md` met exact vijf toegestane hoofdstatussen (`GEEN_VERVOLG_NODIG`, `AANVULLENDE_RUN`, `CONTROLE_VOOR_VERTREK`, `CONTROLE_TER_PLAATSE`, `MARK_DECISION_REQUIRED`), rechtstreeks analoog aan INDIA2's bestaande "Aanbevolen vervolg"-veld dat ik als referentie aanhaalde.
+
+---
+
+## 2. Eén nieuwe, kleine inconsistentie (herreviewvraag 7)
+
+**`run_type`-enum mist `SYNTHETIC_TEST`.** `RUN_TEMPLATE_V3.md`'s `run.yaml`-kern definieert `run_type: <CLUSTER_SWEEP|TARGETED_SUPPLEMENT>` — dit is de enige plek in de repo die het toegestane waardebereik van dit veld vastlegt. Maar `CONTROLLER_TRANSITION_PROTOCOL.md` §2 en `PIPELINE_HANDOFF_SMOKE_001.md` maken de productiepoort-uitzondering nu expliciet afhankelijk van `run_type: SYNTHETIC_TEST` — een waarde die in de enum zelf niet voorkomt.
+
+**Risico-inschatting:** laag. Dit systeem heeft geen automatisch afgedwongen YAML-schema-validator; de "enum" is een door AI-rollen gelezen documentatieconventie, geen compiler-check. Een worker die `CONTROLLER_TRANSITION_PROTOCOL.md` letterlijk volgt, zal gewoon `run_type: SYNTHETIC_TEST` schrijven voor de fixture zoals expliciet geïnstrueerd. Het risico is puur documentatie-inconsistentie, geen functionele blocker, en wordt vanzelf zichtbaar (en triviaal oplosbaar, één regel) zodra de rooktest-uitvoerder het echte fixture-`run.yaml` schrijft.
+
+**Aanbevolen correctie (niet blokkerend voor de rooktest):** voeg `SYNTHETIC_TEST` toe aan de `run_type`-enum in `RUN_TEMPLATE_V3.md`, bijvoorbeeld `run_type: <CLUSTER_SWEEP|TARGETED_SUPPLEMENT|SYNTHETIC_TEST>`. Kan tegelijk met of na de rooktest worden meegenomen.
+
+Verder zijn geen nieuwe inconsistenties, onmogelijke instructies, schemafouten of te brede writes aangetroffen. Versienummers zijn overal consistent opgehoogd (pipeline v3.1 → v3.1.1, EXECUTION/CONTROLLER_TRANSITION v2.3.0 → v2.3.1, ROLE_HANDOFF v1.0 → v1.1, SELF_ROUTING v1.1 → v1.1.1, MARK_FINAL_REPORT_TEMPLATE/NEXT_ROLE_HANDOFF_TEMPLATE v1.0 → v1.1).
+
+---
+
+## 3. Antwoorden op de zeven verplichte herreviewvragen
+
+1. **Is claimsluiting nu mechanisch en onderling consistent genoeg om self-blocking en dubbele claims te voorkomen?** Ja. `ACTIVE`/`CLOSED` is overal hetzelfde gedefinieerd, 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=736 path=pipeline/reviews/CLAUDE_REREVIEW_MINIMAL_BZG_HANDOFF_IMPLEMENTATION.md blob_sha=c739cff3cbbe76050691e1ceff8e81ea005c13c2 original_offset=8192 original_length=2648 payload_bytes=2648 chunk_index=2 chunk_count=3 classification=text
+de blokkeerregel is ondubbelzinnig ("alleen `ACTIVE` blokkeert"), en Tests F/J/K in de rooktest verifiëren dit expliciet inclusief de commit-koppeling.
+2. **Is de bijzondere GOUD-write-scope voor deterministische registry/index-integratie veilig genoeg afgebakend zonder A/B/C- of beslisbevoegdheid te lekken?** Ja. De verboden-lijst is expliciet en herhaald op drie plekken (protocol, rolbestand, template) met identieke bewoording, en Test L test de weigering van elk verboden schrijftype apart.
+3. **Kan GOUD hiermee de normale INDIA2-eindredactie vervangen terwijl echte cross-run/inhoudelijke besluiten zichtbaar bij Mark blijven?** Ja — dit was mijn kernbevinding (F2) en is nu structureel opgelost: GOUD's write-scope is uitdrukkelijk beperkt tot deterministische, niet-beslissende integratie; `VOOR_INDIA2` blijft gereserveerd voor echte cross-run koerskeuzes; een noodzakelijk Mark-besluit wordt nooit stilzwijgend toegepast maar altijd als expliciet beslispunt getoond.
+4. **Is de productiepoort uitvoerbaar zonder circulariteit dankzij de expliciete synthetische-testuitzondering?** Ja, op één triviale documentatie-inconsistentie na (zie sectie 2) die de uitvoerbaarheid niet blokkeert.
+5. **Dekken tests A–M de door mij genoemde failure modes voldoende?** Ja — alle vier destijds voorgestelde aanvullende tests (claim-residue/self-block, chat/commit-pariteit, concurrente claim, transitioncommit-drift) zijn nu aanwezig als Tests F(3-4)/I/J/K, plus Test L (canonieke integratie) en Test M (productiepoort) voor de twee structurele bevindingen F2/F6.
+6. **Zijn oude schema-v2-runs en de echte actieve NEXT_ACTION aantoonbaar onaangeraakt?** Ja, bevestigd: `git diff origin/main...HEAD -- pipeline/NEXT_ACTION.yaml research/active/ knowledge/places/registry.jsonl decisions/INDEX.yaml` is leeg.
+7. **Zijn nieuwe inconsistenties, onmogelijke instructies, schemafouten of te brede writes ontstaan?** Eén kleine, niet-blokkerende inconsistentie gevonden (`run_type`-enum mist `SYNTHETIC_TEST`, sectie 2). Geen onmogelijke instructies, geen te brede writes — de GOUD-writescope-uitbreiding is juist zorgvuldig en herhaaldelijk afgebakend.
+
+---
+
+## 4. Bevestiging actieve run / registers / NEXT_ACTION.yaml
+
+`git diff origin/main...HEAD -- pipeline/NEXT_ACTION.yaml research/active/ knowledge/places/registry.jsonl decisions/INDEX.yaml` levert een lege diff. De echte actieve run, het echte `pipeline/NEXT_ACTION.yaml`, en de echte canonieke registers (`knowledge/places/registry.jsonl`, `decisions/INDEX.yaml`) zijn door deze hele PR — inclusief deze laatste ronde wijzigingen — aantoonbaar niet aangeraakt.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+

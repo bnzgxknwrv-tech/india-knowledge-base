@@ -1,0 +1,575 @@
+>>> CHUNK stream_row=1027 path=research/active/VRINDAVAN-INTEGRATION-001/context/ZILVER_CONTEXT.yaml blob_sha=f67954d3d2f86c1d29532b1ddb74528fdc1aea55 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+run_id: VRINDAVAN-INTEGRATION-001
+role: ZILVER
+status: READY
+source_commit: ee0d0076157ff4264cb49c8a5eb9f5d6b02c3dab
+prepared_by: ChatGPT-pipeline-controller
+repair_note: Revalidated after EVT-0008 and EVT-0009. Independent branch-head changes do not invalidate this context when every pinned required-file blob SHA still matches.
+source_commit_semantics:
+  purpose: immutable predecessor and context snapshot reference
+  branch_head_may_advance: true
+  stop_only_if:
+    - a required file blob SHA differs from expected_git_blob_shas
+    - a required file is missing or truncated
+    - state and events are desynchronized
+    - a valid existing claim exists
+protocol_versions:
+  pipeline: 2.1.0
+  methodology: 2.0.0
+required_files:
+  - pipeline/ENTRYPOINT.md
+  - pipeline/roles/ZILVER.md
+  - knowledge/methodology/METHODOLOGY_V2.md
+  - knowledge/project/OVERLAYS_INDIA.md
+  - pipeline/protocols/EXECUTION_PROTOCOL.md
+  - pipeline/protocols/CONTEXT_PROTOCOL.md
+  - pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md
+  - pipeline/protocols/EVIDENCE_PROTOCOL.md
+  - pipeline/QUALITY_GATE.md
+  - research/active/VRINDAVAN-INTEGRATION-001/run.yaml
+  - research/active/VRINDAVAN-INTEGRATION-001/state.yaml
+  - research/active/VRINDAVAN-INTEGRATION-001/events.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/scope.md
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/manifest.yaml
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/INDEX.md
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/01_scope_and_counts.md
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/02_candidates_core.md
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/03_outside_list_and_overlays.md
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/04_uncertainties_and_duplicates.md
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/05_ashrams_and_living_practice.md
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/06_conclusion_and_gate.md
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/claims.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/sources/registry.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/sources/rejected.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/audit.md
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/handoff.yaml
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/COMPLETED
+optional_files: []
+forbidden_files:
+  - research/active/VRINDAVAN-INTEGRATION-001/GOUD/**
+  - research/completed/**
+  - research/active/*/BRONS/**
+  - research/active/*/ZILVER/**
+  - research/active/*/GOUD/**
+priority_order:
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/manifest.yaml
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/INDEX.md
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/claims.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/sources/registry.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/sources/rejected.jsonl
+  - research/active/VRINDAVAN-INTEGRATION-001/BRONS/audit.md
+expected_git_blob_shas:
+  research/active/VRINDAVAN-INTEGRATION-001/BRONS/manifest.yaml: 51af5849e96108c2fab4c6a091be8549f641c861
+  research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/INDEX.md: 6877b83bc616b9fed4a52d36e88037bd0868bdee
+  research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/01_scope_and_counts.md: 5ffda3dc43da4ab04cd843aa44c4f9c17dd5d226
+  research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/02_candidates_core.md: 08b7ddfc09ad5013054d499dd6fc168478b7040f
+  research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/03_outside_list_and_overlays.md: 9ba39892a38cc858a36f8effdc2e1653d80b1a94
+  research/active/VRINDAVAN-INTEGRATION-001/BRONS/report/04_uncertainties_and_duplicates.md: 4f8e7de688d7c570de8b796667f9f88fc25a8c45
+  research/active/VRINDAVAN-INTEGRATION-001/BRONS/claims.jsonl: 39893e324244cf3efed119a13a11914c3cff04f6
+  research/active/VRINDAVAN-INTEGRATION-001/BRONS/sources/registry.jsonl: a82f4d6c0d916d47d33b2c4acf155b1cc135b1fb
+  research/active/VRINDAVAN-INTEGRATION-001/BRONS/sources/rejected.jsonl: 9f1bf39e80936805e3dd28af74d8a5931f730463
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1028 path=research/active/VRINDAVAN-INTEGRATION-001/context/ZILVER_CONTEXT.yaml blob_sha=f67954d3d2f86c1d29532b1ddb74528fdc1aea55 original_offset=4096 original_length=800 payload_bytes=800 chunk_index=1 chunk_count=2 classification=text
+  research/active/VRINDAVAN-INTEGRATION-001/BRONS/handoff.yaml: 0f5da8b6d4b0f313e633bd23862b619f3e92be90
+  research/active/VRINDAVAN-INTEGRATION-001/BRONS/COMPLETED: ad4aa8c92fcde8f89cfcd059621722fb3feb3455
+maximum_context_budget:
+  files: 40
+  lines_per_file: 1500
+predecessor_manifest: research/active/VRINDAVAN-INTEGRATION-001/BRONS/manifest.yaml
+output_path: research/active/VRINDAVAN-INTEGRATION-001/ZILVER/
+known_predecessor_status: PARTIAL
+required_focus:
+  - Resolve or preserve visitability uncertainty per candidate.
+  - Strengthen exact institutional management identities.
+  - Complete AOAY double verification where possible.
+  - Recheck every claim-to-source reference across accepted and rejected registers.
+  - Preserve Mark-assigned A/B statuses without reassessment.
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1029 path=research/active/VRINDAVAN-INTEGRATION-001/events.jsonl blob_sha=7d97100c723cb82f5166f92c0f09ed44336d4304 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+{"event_id":"EVT-0001","run_id":"VRINDAVAN-INTEGRATION-001","event_type":"RUN_CREATED","at":"2026-07-13T15:00:00+02:00","actor":"India2-controller","from_state":null,"to_state":"READY_FOR_BRONS","commit":"7dfa9449131290b890a00fd78ac6b1cce425f5ea","notes":"Integratietest aangemaakt; alleen BRONS_CONTEXT.yaml wordt uitvoerbaar gemaakt."}
+{"event_id":"EVT-0002","run_id":"VRINDAVAN-INTEGRATION-001","event_type":"CLAIMED","at":"2026-07-13T20:35:00+02:00","actor":"ChatGPT-BRONS","role":"BRONS","claimed_by":"ChatGPT-BRONS","source_commit":"16155f9b05b461d4ec9928d7cb1d2756beea9d00","expected_state":"READY_FOR_BRONS","output_path":"research/active/VRINDAVAN-INTEGRATION-001/BRONS/","from_state":"READY_FOR_BRONS","to_state":"BRONS_CLAIMED","commit":"f2b1cb046c57f72dc4e52e17b79555561cd50789","notes":"BRONS phase claimed after write, source-commit, context, and state/event preflight validation."}
+{"event_id":"EVT-0003","run_id":"VRINDAVAN-INTEGRATION-001","event_type":"BRONS_COMPLETED","at":"2026-07-13T20:58:00+02:00","actor":"ChatGPT-BRONS","role":"BRONS","result_status":"PARTIAL","source_commit":"16155f9b05b461d4ec9928d7cb1d2756beea9d00","output_manifest":"research/active/VRINDAVAN-INTEGRATION-001/BRONS/manifest.yaml","from_state":"BRONS_CLAIMED","to_state":"BRONS_COMPLETE","commit":"7c8eb2c92cd3471d4b0ae754ef61623b593b7f4c","notes":"All BRONS outputs committed. Worker stopped without creating ZILVER context or controller transition."}
+{"event_id":"EVT-0004","run_id":"VRINDAVAN-INTEGRATION-001","event_type":"BRONS_REPAIRED","at":"2026-07-13T21:20:00+02:00","actor":"ChatGPT-pipeline-controller","role":"BRONS","result_status":"PARTIAL","from_state":"BRONS_COMPLETE","to_state":"BRONS_COMPLETE","repair_commit":"b98f62cd7ae90df1b5f783c6a92c6fe330fe1923","notes":"Added unique R-001 through R-004 identifiers to rejected source records; validated all claims source_ids against registry and rejected registers. No research conclusions changed."}
+{"event_id":"EVT-0005","run_id":"VRINDAVAN-INTEGRATION-001","event_type":"TRANSITION_CLAIMED","at":"2026-07-13T21:24:00+02:00","actor":"ChatGPT-pipeline-controller","transition":"BRONS_COMPLETE_TO_READY_FOR_ZILVER","source_commit":"ee0d0076157ff4264cb49c8a5eb9f5d6b02c3dab","expected_state":"BRONS_COMPLETE","target_context_manifest":"research/active/VRINDAVAN-INTEGRATION-001/context/ZILVER_CONTEXT.yaml","from_state":"BRONS_COMPLETE","to_state":"BRONS_COMPLETE","commit":"e2233be116a3d8afc709fde34a84cf82e54c1086","notes":"Controller transition claimed after BRONS repair and referential-integrity validation."}
+{"event_id":"EVT-0006","run_id":"VRINDAVAN-INTEGRATION-001","event_type":"CONTEXT_PREPARED","at":"2026-07-13T21:27:00+02:00","actor":"ChatGPT-pipeline-controller","transition":"BRONS_COMPLETE_TO_READY_FOR_ZILVER","source_commit":"ee0d0076157ff4264cb49c8a5eb9f5d6b02c3dab","context_manifest":"research/active/VRINDAVAN-INTEGRATION-001/context/ZILVER_CONTEXT.yaml","commit":"2d6c13d5f060e3d4cccc75e5f4c95524b0742f3a","notes":"Pinned complete BRONS output and known git blob SHAs for ZILVER."}
+{"event_id":"EVT-0007","run_id":"VRINDAVAN-INTEGRATION-001","event_type":"TRANSITIONED","at":"2026-07-13T21:28:00+02:00","actor":"ChatGPT-pipeline-controller","transition":"BRONS_COMPLETE_TO_READY_FOR_ZILVER","from_state":"BRONS_COMPLETE","to_state":"READY_FOR_ZILVER","source_commit":"ee0d0076157ff4264cb49c8a5eb9f5d6b02c3dab","context_manifest":"research/active/VRINDAVAN-INTEGRATION-001/context/ZILVER_CONTEXT.yaml","notes":"BRONS validated as PARTIAL and ZILVER context released."}
+{"event_id":"EVT-0008","run_id":"VRINDAVAN-INTEGRATION-001","event_type":"BLOCKED","at":"2026-07-13T20:47:49+02:00","actor":"ChatGPT-ZILVER","role":"ZILVER","source_commit":"ee0d0076157ff4264cb49c8a5eb9f5d6b02c3dab","expected_state":"READY_FOR_ZILVER","from_state":"READY_FOR_ZILVER","to_state":"READY_FOR_ZILVER","notes":"Stopped before claim and substantive work: repository branch head changed after the pinned source_commit. Latest observed head f40124df81fb7e2b3bc97920782e1b860e0d9e3c; source-commit pinning requires controller repair or a n
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1030 path=research/active/VRINDAVAN-INTEGRATION-001/events.jsonl blob_sha=7d97100c723cb82f5166f92c0f09ed44336d4304 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+ewly generated ZILVER context manifest."}
+{"event_id":"EVT-0009","run_id":"VRINDAVAN-INTEGRATION-001","event_type":"DESYNC_DETECTED","at":"2026-07-13T14:00:00+02:00","actor":"ChatGPT-ZILVER","role":"ZILVER","expected_state":"READY_FOR_ZILVER","observed_state_last_event_id":"EVT-0007","observed_eventlog_last_event_id":"EVT-0008","from_state":"READY_FOR_ZILVER","to_state":"READY_FOR_ZILVER","notes":"Restart stopped before claim or substantive work because state.yaml and events.jsonl disagree. Controller repair is required before ZILVER can be reactivated."}
+{"event_id":"EVT-0010","run_id":"VRINDAVAN-INTEGRATION-001","event_type":"DESYNC_REPAIRED","at":"2026-07-13T21:55:00+02:00","actor":"ChatGPT-pipeline-controller","role":"CONTROLLER","from_state":"READY_FOR_ZILVER","to_state":"READY_FOR_ZILVER","observed_state_last_event_id":"EVT-0007","repaired_to_event_id":"EVT-0009","notes":"State/event cursor repair authorized after ZILVER stopped before claim and wrote only BLOCKED and DESYNC_DETECTED events."}
+{"event_id":"EVT-0011","run_id":"VRINDAVAN-INTEGRATION-001","event_type":"CONTEXT_REPAIRED","at":"2026-07-13T21:56:00+02:00","actor":"ChatGPT-pipeline-controller","role":"CONTROLLER","from_state":"READY_FOR_ZILVER","to_state":"READY_FOR_ZILVER","context_manifest":"research/active/VRINDAVAN-INTEGRATION-001/context/ZILVER_CONTEXT.yaml","commit":"aef83095f0b9d8ba9403fc6fcae01f096039e1c0","notes":"Clarified source_commit semantics: independent branch-head advancement is permitted when every pinned required-file blob SHA remains unchanged. ZILVER may be reactivated."}
+{"event_id":"EVT-0012","run_id":"VRINDAVAN-INTEGRATION-001","event_type":"CLAIMED","at":"2026-07-13T22:10:00+02:00","actor":"ChatGPT-ZILVER","role":"ZILVER","claimed_by":"ChatGPT-ZILVER","source_commit":"ee0d0076157ff4264cb49c8a5eb9f5d6b02c3dab","expected_state":"READY_FOR_ZILVER","output_path":"research/active/VRINDAVAN-INTEGRATION-001/ZILVER/","from_state":"READY_FOR_ZILVER","to_state":"ZILVER_CLAIMED","notes":"Claimed after EVT-0011 synchronization and pinned required-file blob-SHA validation."}
+{"event_id":"EVT-0013","run_id":"VRINDAVAN-INTEGRATION-001","event_type":"ZILVER_COMPLETED","at":"2026-07-13T22:24:00+02:00","actor":"ChatGPT-ZILVER","role":"ZILVER","result_status":"PARTIAL","source_commit":"ee0d0076157ff4264cb49c8a5eb9f5d6b02c3dab","output_manifest":"research/active/VRINDAVAN-INTEGRATION-001/ZILVER/manifest.yaml","from_state":"ZILVER_CLAIMED","to_state":"ZILVER_COMPLETE","artifact_commit":"93118a17da603bfa1151d26bcd93c8d33e44ca20","state_commit":"0886a3d900fd94c89bd59c08d470f8d58ab2ab7a","notes":"ZILVER outputs validated and completed as PARTIAL. No GOUD context created and no controller transition executed."}
+{"event_id":"EVT-0014","run_id":"VRINDAVAN-INTEGRATION-001","event_type":"TRANSITION_CLAIMED","at":"2026-07-13T22:40:00+02:00","actor":"ChatGPT-pipeline-controller","transition":"ZILVER_COMPLETE_TO_READY_FOR_GOUD","source_commit":"8bbfed3755b330ae48bf221097531a5fc62a17bd","expected_state":"ZILVER_COMPLETE","target_context_manifest":"research/active/VRINDAVAN-INTEGRATION-001/context/GOUD_CONTEXT.yaml","from_state":"ZILVER_COMPLETE","to_state":"TRANSITION_TO_GOUD_CLAIMED","commit":"d259977e74e8e576ed8fc3fd16d0e230f1a6c86c","notes":"Controller transition claimed after validating ZILVER manifest, COMPLETED, handoff, sentinels and source-ID integrity."}
+{"event_id":"EVT-0015","run_id":"VRINDAVAN-INTEGRATION-001","event_type":"CONTEXT_PREPARED","at":"2026-07-13T22:43:00+02:00","actor":"ChatGPT-pipeline-controller","transition":"ZILVER_COMPLETE_TO_READY_FOR_GOUD","source_commit":"8bbfed3755b330ae48bf221097531a5fc62a17bd","context_manifest":"research/active/VRINDAVAN-INTEGRATION-001/context/GOUD_CONTEXT.yaml","commit":"cda28b380e3b0efd22cea9518738a24eac0f72f2","notes":"Pinned complete ZILVER output, required blob SHAs and targeted GOUD focus."}
+{"event_id":"EVT-0016","run_id":"VRINDAVAN-INTEGRATION-001","event_type":"TRANSITIONED","at":"2026-07-13T22:44:00+02:00","actor":"ChatGPT-pipeline-controller","transition":"ZILVER_COMPLETE_TO_READY_FOR_GOUD","from_s
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1031 path=research/active/VRINDAVAN-INTEGRATION-001/events.jsonl blob_sha=7d97100c723cb82f5166f92c0f09ed44336d4304 original_offset=8192 original_length=1951 payload_bytes=1951 chunk_index=2 chunk_count=3 classification=text
+tate":"TRANSITION_TO_GOUD_CLAIMED","to_state":"READY_FOR_GOUD","source_commit":"8bbfed3755b330ae48bf221097531a5fc62a17bd","context_manifest":"research/active/VRINDAVAN-INTEGRATION-001/context/GOUD_CONTEXT.yaml","notes":"ZILVER validated as PARTIAL and GOUD context released."}
+{"event_id":"EVT-0017","run_id":"VRINDAVAN-INTEGRATION-001","event_type":"CLAIMED","at":"2026-07-13T22:45:00+02:00","actor":"ChatGPT-GOUD","role":"GOUD","claimed_by":"ChatGPT-GOUD","source_commit":"8bbfed3755b330ae48bf221097531a5fc62a17bd","expected_state":"READY_FOR_GOUD","output_path":"research/active/VRINDAVAN-INTEGRATION-001/GOUD/","from_state":"READY_FOR_GOUD","to_state":"GOUD_CLAIMED","notes":"Claimed after state/event, context, write-access and all pinned required-file blob-SHA checks passed."}
+{"event_id":"EVT-0018","run_id":"VRINDAVAN-INTEGRATION-001","event_type":"GOUD_COMPLETED","at":"2026-07-13T22:55:00+02:00","actor":"ChatGPT-GOUD","role":"GOUD","result_status":"PARTIAL","source_commit":"8bbfed3755b330ae48bf221097531a5fc62a17bd","output_manifest":"research/active/VRINDAVAN-INTEGRATION-001/GOUD/manifest.yaml","from_state":"GOUD_CLAIMED","to_state":"GOUD_PARTIAL","artifact_commit":"6a0d6a066498051c3f46aedde45104ea3c8e95c1","state_commit":"77eb02e11b5822e1c8dec7f0beb1a7262f2fb54f","notes":"GOUD outputs validated and completed as PARTIAL. No archiving, regisseur processing or regisseur transition executed."}
+{"event_id":"EVT-0019","run_id":"VRINDAVAN-INTEGRATION-001","event_type":"REGISSEUR_PACKAGE_PREPARED","at":"2026-07-13T23:05:00+02:00","actor":"SUBREGIE INDIA","role":"SUBREGIE_INDIA","from_state":"GOUD_PARTIAL","to_state":"GOUD_PARTIAL","package":"research/active/VRINDAVAN-INTEGRATION-001/transitions/INDIA2_REGISSEUR_PACKAGE.md","package_commit":"f36aad096eb0659653827359c26a4f342bb773df","technical_integrity":"PASS","notes":"Validated GOUD PARTIAL and prepared clean INDIA2 regisseur package. No archiving performed."}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1032 path=research/active/VRINDAVAN-INTEGRATION-001/presentation/VRINDAVAN_DECISION_PRESENTATION_V4.md blob_sha=da6b6c2652b3710811c7cfa72e269fec289ed982 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# Vrindavan beslispresentatie v4
+
+Datum: 2026-07-14
+
+## Doel
+
+Volledig opnieuw opgebouwde mensentaalpresentatie op basis van het gevalideerde Vrindavan-dossier en Marks besluiten in DECISION-0005 tot en met DECISION-0009.
+
+De presentatie bevat:
+
+- devotionele betekenis vóór bewijsbeperkingen;
+- wat devotees werkelijk doen;
+- deelname en gastvrijheid voor een buitenlandse spirituele bezoeker;
+- sfeer, schoonheid, chaos, netheid en reviewsignalen;
+- minimaal tien beeldvakken per plek, met zichtbaar gemelde beeldtekorten waar plaats-specifieke foto’s ontbreken;
+- herkenningshaken bij iedere herhaling van een Indiase plaatsnaam;
+- intrinsieke waarde, routewaarde en ondubbelzinnig eindbesluit;
+- A-ankerpunten, loopclusters, dagclusters en A-naar-rest-reistijdlogica;
+- geen gegokte definitieve reistijden.
+
+## Betekenis A/B/C
+
+- A: bezoeken.
+- B: misschien bezoeken.
+- C: niet bezoeken.
+
+C heeft zelfstandig gewicht nul. Een intrinsieke C kan alleen praktisch worden meegenomen wanneer de routeanalyse haar expliciet tot ROUTE A of ROUTE B opwaardeert.
+
+## Huidige beslisstand
+
+1. Katyayani Peeth / Keshav Ashram (nr. 1, Shakti-tempel en Kriya-lineage via Keshavanand): definitief A; route A; BEZOEKEN.
+2. Neem Karoli Baba Ashram en samadhi (nr. 2, ashram en samadhi van Maharaj-ji): definitief A; route A; BEZOEKEN.
+3. Krishna Janmabhoomi / Janmasthan (nr. 3, Krishna’s geboorteheiligdom in Mathura): voorstel intrinsiek B; route B; MISSCHIEN. Buitenlandse toegang en gewone-dagbeleving rechtstreeks controleren. Binnen de huidige acht kandidaten is dit nog geen cluster; een afzonderlijke Mathura-miniclustersweep is nodig.
+4. Radha Kund (nr. 4, heilige vijver, Radha-devotie): voorstel intrinsiek B; route A binnen Govardhan-dagcluster; BEZOEKEN wanneer die clusterdag doorgaat.
+5. Shyam Kund (nr. 5, heilige vijver, Krishna-devotie): voorstel intrinsiek C; door directe ligging naast nr. 4 route A; BEZOEKEN samen met nr. 4.
+6. Govardhan Hill (nr. 6, heilige heuvel, Krishna): voorstel intrinsiek B; route A binnen Govardhan-dagcluster; BEZOEKEN wanneer die clusterdag doorgaat.
+7. Govardhan Parikrama (nr. 7, pelgrimsrondgang rond de heilige heuvel): voorstel intrinsiek B; route B; MISSCHIEN voor de volledige ronde, maar een kort betekenisvol traject blijft aanbevolen.
+8. Kusum Sarovar (nr. 8, monumentale heilige vijver, Radha-Krishna): voorstel intrinsiek B; route A door schoonheid en ligging binnen Govardhan-dagcluster; BEZOEKEN wanneer die clusterdag doorgaat.
+
+Alleen nr. 1 en nr. 2 hebben al een formele A-beslissing van Mark. Nr. 3 tot en met nr. 8 blijven voorstellen totdat Mark ze bevestigt.
+
+## Dagclusters
+
+### Vrindavan
+
+DAGCLUSTER A rond:
+
+- Katyayani Peeth / Keshav Ashram (nr. 1, Shakti-tempel en Kriya-lineage via Keshavanand);
+- Neem Karoli Baba Ashram en samadhi (nr. 2, ashram en samadhi van Maharaj-ji).
+
+De actuele looptijd en rijtijd tussen beide A-ankers moet nog via een live routebron worden vastgelegd.
+
+### Mathura
+
+Krishna Janmabhoomi / Janmasthan (nr. 3, Krishna’s geboorteheiligdom in Mathura) is binnen de huidige set een los item. Zoek vóór het definitieve besluit welke inhoudelijk relevante fysieke plekken binnen ongeveer 5–20 minuten lopen liggen. Dit kan de routewaarde van de gehele Mathura-rit veranderen.
+
+### Govardhan
+
+Voorstel DAGCLUSTER A met:
+
+- Radha Kund (nr. 4, heilige vijver, Radha-devotie);
+- Shyam Kund (nr. 5, heilige vijver, Krishna-devotie);
+- Govardhan Hill (nr. 6, heilige heuvel, Krishna);
+- Govardhan Parikrama (nr. 7, pelgrimsrondgang rond de heilige heuvel);
+- Kusum Sarovar (nr. 8, monumentale heilige vijver, Radha-Krishna).
+
+Radha Kund (nr. 4, heilige vijver, Radha-devotie) en Shyam Kund (nr. 5, heilige vijver, Krishna-devotie) liggen direct naast elkaar. Voor de overige verbindingen worden pas definitieve minuten genoemd nadat actuele loop- en rijroutes zijn gecontroleerd.
+
+## Nog verplicht uitzoeken
+
+Per plek:
+
+- actuele Google Maps-rating en aantal beoordelingen;
+- Tripadvisor-rating en aantal beoordelingen waar aanwezig;
+- peildatum en recente reviewthema’s;
+- minimaal tien recente, repres
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1033 path=research/active/VRINDAVAN-INTEGRATION-001/presentation/VRINDAVAN_DECISION_PRESENTATION_V4.md blob_sha=da6b6c2652b3710811c7cfa72e269fec289ed982 original_offset=4096 original_length=1178 payload_bytes=1178 chunk_index=1 chunk_count=2 classification=text
+entatieve plaats-specifieke foto’s;
+- toegang voor buitenlanders en niet-ingewijden;
+- mogelijkheid om mee te doen aan darshan, puja, meditatie, aarti, satsang of parikrama;
+- beste dagdeel, drukte, fotografie, kleding en praktische etiquette.
+
+Per A-anker en cluster:
+
+- realistische looptijd naar iedere B- en C-plek;
+- gewone rijtijd en drukte-ETA;
+- extra bezoektijd ter plaatse;
+- totale extra tijd vergeleken met alleen het A-anker;
+- praktische frictie;
+- een geografisch deelkaartje met vaste nummers.
+
+## Presentatiebestanden
+
+Gegenereerde gebruikersartefacten:
+
+- `Vrindavan_beslispresentatie_v4.html` — volledige visuele presentatie met 25 schermen en 80 klikbare beeldvakken;
+- `Vrindavan_beslispresentatie_v4.pptx` — draagbare PowerPoint-versie met 23 dia’s en klikbare fotobronkaarten;
+- `Vrindavan_beslispresentatie_v4.md` — volledige leesbare tekst- en bronnenversie.
+
+De HTML-versie is de primaire visuele uitvoering omdat externe bronbeelden daarin op volledige grootte kunnen worden geladen. De PowerPoint bevat de volledige beslisstructuur en klikbare beeldbronnen zonder te doen alsof niet-lokaal opgeslagen foto’s zijn ingebed.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1034 path=research/active/VRINDAVAN-INTEGRATION-001/run.yaml blob_sha=2cb2c46ceeab47e791d0cf419c16bee1daf62d13 original_offset=0 original_length=895 payload_bytes=895 chunk_index=0 chunk_count=1 classification=text
+run_id: VRINDAVAN-INTEGRATION-001
+project: india
+scope_file: research/active/VRINDAVAN-INTEGRATION-001/scope.md
+created_at: 2026-07-13T15:00:00+02:00
+created_by: India2-controller
+immutable_after_first_claim: true
+pins:
+  entrypoint: pipeline/ENTRYPOINT.md
+  methodology: knowledge/methodology/METHODOLOGY_V2.md
+  overlays: knowledge/project/OVERLAYS_INDIA.md
+  execution_protocol: pipeline/protocols/EXECUTION_PROTOCOL.md
+  context_protocol: pipeline/protocols/CONTEXT_PROTOCOL.md
+  controller_transition_protocol: pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md
+  evidence_protocol: pipeline/protocols/EVIDENCE_PROTOCOL.md
+  quality_gate: pipeline/QUALITY_GATE.md
+  roles:
+    BRONS: pipeline/roles/BRONS.md
+    ZILVER: pipeline/roles/ZILVER.md
+    GOUD: pipeline/roles/GOUD.md
+versions:
+  pipeline: 2.1.0
+  methodology: 2.0.0
+source_base_commit: 7dfa9449131290b890a00fd78ac6b1cce425f5ea
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1035 path=research/active/VRINDAVAN-INTEGRATION-001/scope.md blob_sha=057b9e1bd7e9a46a46689787d1318b8c711928eb original_offset=0 original_length=3201 payload_bytes=3201 chunk_index=0 chunk_count=1 classification=text
+# Scope — VRINDAVAN-INTEGRATION-001
+
+## Doel
+
+Dit is de eerste echte end-to-end integratietest van pipeline v2.1. De run is inhoudelijk echt maar bewust beperkt. Zij test BRONS, controllertransition, ZILVER, controllertransition en GOUD zonder meteen de volledige Vrindavan/Mathura/Govardhan/Agra-sweep uit te voeren.
+
+## Geografische scope
+
+Vrindavan, Mathura en Govardhan. Agra valt buiten deze beperkte integratietest.
+
+## Verplichte controlelijst
+
+Onderzoek minimaal deze zes onderzoekseenheden:
+
+1. Katyayani Peeth, Vrindavan.
+2. Neem Karoli Baba Ashram, Vrindavan.
+3. Shri Krishna Janmabhoomi-complex, Mathura.
+4. Radha Kund en Shyam Kund: onderzoek fysieke identiteit, onderlinge relatie en correcte kandidaatgrenzen.
+5. Govardhan Hill en Govardhan Parikrama: onderzoek fysiek object, rituele route en correcte kandidaatgrenzen.
+6. Minimaal één serieuze open zoekrichting buiten deze lijst naar een kleine of gemakkelijk gemiste fysiek bestaande lineage-, AOAY-, Kriya/Babaji-, Krishna- of levende-praktijkplaats binnen de geografische scope.
+
+## Verplichte methodologische belasting
+
+De run moet aantoonbaar testen:
+
+- fysieke identiteit;
+- institutionele identiteit;
+- historische identiteit;
+- traditie;
+- lineage;
+- levende praktijk en spirituele continuïteit;
+- actuele bezoekbaarheid;
+- persoonlijke getuigenissen, uitsluitend waar relevante controleerbare getuigenissen bestaan;
+- claimstatus per materiële claim;
+- bronregister en afgewezen bronnen;
+- aliassen, dubbelingen en kandidaatgrenzen;
+- AOAY- en KRIYA_BABAJI-overlays waar relevant;
+- KRISHNA- en NKB_RAM_DASS-overlays waar relevant;
+- open zoeken buiten de controlelijst;
+- zichtbare negatieve zoekresultaten en onzekerheden.
+
+## Bestaande projectstatussen
+
+- Katyayani Peeth heeft reeds A-status door besluit van Mark.
+- Neem Karoli Baba Ashram Vrindavan en Radha Raman Temple hebben reeds B-status.
+- De pipeline herbeoordeelt geen bestaande A/B/C-status en kent geen nieuwe status toe.
+- Radha Raman Temple is geen verplichte hoofdkandidaat in deze beperkte test, maar mag uitsluitend worden gebruikt wanneer dit nodig is voor scope-, alias- of broncontrole.
+
+## Onderzoeksgrenzen
+
+- Geen routeplanning, dagindeling, nachten, hotels, vervoer of prijzen.
+- Geen spirituele totaalscore of projectrangorde.
+- Geen uitsluiting uitsluitend wegens ontbreken van klassiek historisch bewijs bij levende traditie- of lineageclaims.
+- Babaji wordt via lineage, parampara, lijnbronnen, instelling en fysieke plaats onderzocht; niet via een onmogelijke klassieke biografische bewijsproef.
+- Een traditieclaim wordt niet als onafhankelijk historisch feit gepresenteerd.
+- Actuele bezoekbaarheid wordt afzonderlijk bevestigd. Bij onvoldoende bevestiging wordt exact geschreven: `Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.`
+
+## Volledigheidscriterium voor BRONS
+
+BRONS moet alle zes onderzoekseenheden zichtbaar behandelen, ook wanneer een uitkomst negatief, onzeker, samengevoegd of opgesplitst is. Daarnaast moet de open zoekrichting aantoonbaar zijn uitgevoerd. BRONS mag PARTIAL rapporteren wanneer serieuze gaten overblijven, maar mag geen ontbrekende behandeling verbergen.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1036 path=research/active/VRINDAVAN-INTEGRATION-001/state.yaml blob_sha=a4f681d75ede5eefb05c77fdabd858a395a8dcf0 original_offset=0 original_length=789 payload_bytes=789 chunk_index=0 chunk_count=1 classification=text
+run_id: VRINDAVAN-INTEGRATION-001
+state: GOUD_PARTIAL
+active_role: null
+claim: null
+last_event_id: EVT-0019
+last_validated_commit: f36aad096eb0659653827359c26a4f342bb773df
+blockers:
+  - AOAY double verification for the exact Keshavanand place remains incomplete.
+  - Exact current visitability and restrictions remain unresolved for all candidates.
+  - Current official management and recurring-practice evidence for Neem Karoli Baba Ashram Vrindavan remains insufficient.
+  - Object-level operational management remains unresolved for distributed kund, hill, route and sarovar objects.
+  - Kusum Sarovar object-level recurring living-practice evidence remains incomplete.
+regisseur_package: research/active/VRINDAVAN-INTEGRATION-001/transitions/INDIA2_REGISSEUR_PACKAGE.md
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1037 path=research/active/VRINDAVAN-INTEGRATION-001/transitions/INDIA2_REGISSEUR_PACKAGE.md blob_sha=dae8c867c06daa6cf77195703dd618779a0e34af original_offset=0 original_length=3386 payload_bytes=3386 chunk_index=0 chunk_count=1 classification=text
+# INDIA2-REGISSEURSPAKKET
+
+run_id: `VRINDAVAN-INTEGRATION-001`
+
+GOUD_status: `PARTIAL`
+
+GOUD_completioncommit: `5c0f37a31547f9e62bb1fc94965d1ccd4cf5bb80`
+
+manifest: `research/active/VRINDAVAN-INTEGRATION-001/GOUD/manifest.yaml`
+
+report_index: `research/active/VRINDAVAN-INTEGRATION-001/GOUD/report/INDEX.md`
+
+technische_integriteit: `PASS`
+
+## Inhoudelijke kern
+
+De volledige BRONS -> ZILVER -> GOUD-keten is technisch geslaagd. Het definitieve dossier behoudt acht fysiek onderscheiden kandidaten en bewaakt de grenzen tussen tempelcomplex, ashram/samadhi, kunds, heuvel, parikramaroute en sarovar. ZILVER en GOUD verbeterden vooral de institutionele identificatie van Shri Krishna Janmabhoomi/Janmasthan en behielden onzekerheden waar actuele primaire onderbouwing ontbreekt.
+
+De GOUD-status is PARTIAL, niet door technische fouten maar door resterende inhoudelijke bewijs- en bezoekbaarheidsgaten.
+
+## Hoogste inhoudelijke blockers
+
+1. AOAY-dubbele verificatie voor de exacte Keshavanand/Vrindavan-locatie is niet voltooid.
+2. Actuele bezoekbaarheid, beperkingen en openingstoestand zijn voor alle kandidaten onvoldoende betrouwbaar vastgesteld.
+3. Een actuele officiële beheer- en terugkerende-praktijkbron voor Neem Karoli Baba Ashram Vrindavan ontbreekt.
+4. Objectniveau operationeel beheer van Radha Kund, Shyam Kund, Govardhan Hill, Govardhan Parikrama en Kusum Sarovar is niet vastgesteld.
+5. Terugkerende levende praktijk bij Kusum Sarovar is op objectniveau niet vastgesteld.
+
+## Nieuwe of verbeterde bevindingen
+
+- Shri Krishna Janmasthan Seva Sansthan is als beheerder van de tempelterreinen ondersteund door actuele secundaire en rechtbankgerelateerde berichtgeving; gelijknamige actie- of litigatietrusts zijn uitgesloten.
+- Katyayani Peeth blijft institutioneel en als lineageplaats bevestigd; AOAY blijft slechts POSSIBLE wegens ontbrekende dubbele verificatie.
+- Neem Karoli Baba Ashram en de samadhi blijven als één complex behandeld zolang afzonderlijk beheer of toegang niet is aangetoond.
+- Radha Kund en Shyam Kund blijven afzonderlijke fysieke kandidaten.
+- Govardhan Hill en Govardhan Parikrama blijven afzonderlijke objecten: landschap versus levende rituele route.
+- Kusum Sarovar blijft ONGEMERKT en inhoudelijk onzeker op levende praktijk.
+
+## Vereiste regisseursbesluiten
+
+1. Bepaal of dit PARTIAL-dossier nu inhoudelijk in de India-kennisbasis wordt verwerkt met expliciete onzekerheden.
+2. Bepaal of de vijf blockers een aparte gerichte aanvullingsrun rechtvaardigen.
+3. Geen A/B/C-besluit wordt door de pipeline gevraagd of voorgesteld.
+
+## Aanbevolen vervolg
+
+`AANVULLENDE_RUN`
+
+Reden: het dossier is betrouwbaar bruikbaar, maar bezoekbaarheid is voor deze pelgrimsreis praktisch belangrijk en blijft voor alle kandidaten onvoldoende vastgesteld. Een kleine, strikt blockergerichte run is efficiënter dan de volledige sweep herhalen.
+
+## Pipeline-oordeel
+
+De eerste end-to-end integratietest is technisch geslaagd. De pipeline is operationeel bewezen. Gevonden technische fouten zijn gerepareerd en structureel vertaald naar pipelineversies 2.2.x en 2.3.0.
+
+## Regieafspraak
+
+INDIA2 houdt uitsluitend projectkoers en inhoudelijke integratie. Alle toekomstige pipeline-runs, workercompletions, BLOCKED-berichten, connectorproblemen, transitions, reparaties en protocolverbeteringen worden verplicht naar SUBREGIE INDIA doorgestuurd.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1038 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/COMPLETED blob_sha=8ce306cfa7be35345d6ea1bd9f5bea7a8d99aa78 original_offset=0 original_length=1701 payload_bytes=1701 chunk_index=0 chunk_count=1 classification=text
+PARTIAL
+run_id: VRINDAVAN-KUMAON-CORRIDOR-001
+role: BRONS
+source_commit: 8a734669910e51d9805c2179fa610b3a05f9f6bb
+corridor_result: DOORREIZEN_NAAR_KUMAON
+preferred_working_corridor: CR-001
+route_changing_heavy_a_passes: 0
+outputs:
+  - manifest.yaml
+  - report/INDEX.md
+  - report/01_corridors_and_transport.md
+  - report/02_stations_cities_and_route_zones.md
+  - report/03_heavy_a_gate_candidates.md
+  - report/04_detector_and_negative_search.md
+  - report/05_working_geo_and_map_readiness.md
+  - report/06_conclusion_and_gate.md
+  - claims.jsonl
+  - sources/registry.jsonl
+  - sources/rejected.jsonl
+  - route_corridors.jsonl
+  - transport_options.jsonl
+  - route_zones.jsonl
+  - heavy_a_gate.jsonl
+  - detector_checks.jsonl
+  - negative_searches.jsonl
+  - working_geo.jsonl
+  - location_assignments.jsonl
+  - location_id_requests.jsonl
+  - central_map_source.jsonl
+  - corridor_working.kml
+  - formal_status_coverage.md
+  - audit.md
+  - handoff.yaml
+highest_gaps:
+  - Official December 2026 train operation remains to be verified.
+  - Live winter road timing and conditions remain to be verified.
+  - WORKING_GEO identity and visitor entrances remain to be verified.
+  - Kankhal institutional primary verification remains open.
+  - Missing cluster block reservations prevent definitive complete-project KML release.
+validation: All required artifacts were reopened; END_OF_ARTIFACT sentinels and the KML XML closing were checked; claims, sources, identifiers and LOCATION_IDs are unique and valid; all formal statuses and route zones are covered; no formal or advisory A/B/C, PARELS work, hotel choice, successor context, controller transition or pipeline modification was performed.
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1039 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/audit.md blob_sha=066a7e5ad83c7acdfe53dbf96af20b11800d46e7 original_offset=0 original_length=3520 payload_bytes=3520 chunk_index=0 chunk_count=1 classification=text
+# BRONS audit — VRINDAVAN-KUMAON-CORRIDOR-001
+
+## Technical preflight
+
+- GitHub read and write were tested before content work; the temporary test file was created, fetched and removed.
+- `pipeline/ENTRYPOINT.md`, `pipeline/NEXT_ACTION.yaml`, run, role, expected state and contextmanifest matched.
+- State and eventlog were synchronized at EVT-0001 before claim; no active claim existed.
+- All 46 required files were fully read. Every pinned blob SHA and every required sentinel matched.
+- No forbidden file was opened or modified.
+- BRONS was claimed as `ChatGPT-BRONS`; run and predecessor inputs were not mutated.
+
+## Scope control
+
+- The road, rail and combined corridors explicitly required by scope were compared.
+- Delhi was used only as a comparison.
+- Every named station/city/route zone received a separate negative heavy-A check.
+- The direct-personal-line and India-Essential gates were applied without ordinary-temple inflation.
+- The five-part Krishna distinction was applied.
+- No PARELS, hotel selection, unrelated route stage, internal Kumaon day plan, formal/advisory A/B/C or pipeline design was performed.
+
+## Claim and source integrity
+
+- claim IDs `RC-001` through `RC-020` are unique;
+- accepted source IDs `RS-001` through `RS-025` are unique;
+- rejected source IDs `RR-001` through `RR-006` are unique;
+- every `source_id` in `claims.jsonl` resolves exactly once across accepted or rejected registers;
+- route and timetable claims carry `checked_at` and a recheck requirement in the transport registers;
+- map/router sources are used only for route or GEO working context;
+- no review, map pin or weak detector source carries an ancient or supernatural claim.
+
+## Corridor result
+
+- Preferred working route: direct car via Moradabad–Rampur–Rudrapur to Haldwani/Kathgodam.
+- Heavy-A corridor stops passed: 0.
+- Direct-line content gate outside corridor: Anandamayi Ma Samadhi in Kankhal, route gate failed because of the major detour.
+- Exception retained without A/B/C assignment: Dargah-e-Ala Hazrat in Bareilly.
+- Working decision: `DOORREIZEN NAAR KUMAON`.
+
+## LOCATION_ID and GEO integrity
+
+- Braj IDs 200–228 were preserved.
+- Corridor IDs 300–315 were assigned sequentially and only within the reserved block.
+- Kumaon seed IDs 400–426 were preserved.
+- Duplicate, reused or cross-block IDs: none.
+- All formal A/B/C records are present in `central_map_source.jsonl`.
+- Records outside assigned blocks use `BLOCK_RESERVATION_REQUIRED` rather than invented permanent IDs.
+- Forty assigned records have labelled WORKING points with point type, accuracy, source, motivation and date.
+- No WORKING point is represented as a verified visitor entrance.
+
+## KML integrity
+
+- `corridor_working.kml` contains only assigned records with usable WORKING coordinates.
+- Required folders exist: `A_FORMEEL`, `B_ADVIES`, `C_CONTEXT`, `CORRIDOR_EN_STATIONS`.
+- Formal status and GEO status are separately described.
+- Records without reserved LOCATION_ID or reliable coordinates remain in the central source and are excluded from the provisional KML.
+- The KML is a working corridor map, not a definitive complete project map.
+
+## Quality-gate result
+
+Technical integrity: PASS.
+Corridor decision usability: PASS at BRONS working level.
+Overall release: PARTIAL because date-specific official train verification, live winter road calculations, independent WORKING_GEO verification, primary Kankhal institutional verification and missing cluster block reservations remain open.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1040 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/central_map_source.jsonl blob_sha=01c6af5151426399b1fb68f8dc4f798497206dd3 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=6 classification=text
+{"map_record_id":"CMS-001","location_id":null,"location_id_status":"BLOCK_RESERVATION_REQUIRED","location_id_request":"LIR-001","canonical_name":"Mahabodhi Temple","cluster":"BODH_GAYA","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"boeddhistische hoofdtempel, verlichting van de Boeddha","latitude_wgs84":null,"longitude_wgs84":null,"geo_status":"NOT_ESTABLISHED","route_relevance":"Formal project A; outside corridor scope.","detour_class":"OUTSIDE_RUN_CORRIDOR","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-002","location_id":null,"location_id_status":"BLOCK_RESERVATION_REQUIRED","location_id_request":"LIR-001","canonical_name":"Bodhi Tree","cluster":"BODH_GAYA","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"heilige boom, verlichting van de Boeddha","latitude_wgs84":null,"longitude_wgs84":null,"geo_status":"NOT_ESTABLISHED","route_relevance":"Formal project A; outside corridor scope.","detour_class":"OUTSIDE_RUN_CORRIDOR","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-003","location_id":null,"location_id_status":"BLOCK_RESERVATION_REQUIRED","location_id_request":"LIR-002","canonical_name":"Lahiri Mahasaya Samadhi","cluster":"VARANASI","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"samadhi, Lahiri Mahasaya en Kriya","latitude_wgs84":null,"longitude_wgs84":null,"geo_status":"NOT_ESTABLISHED","route_relevance":"Formal project A; outside corridor scope.","detour_class":"OUTSIDE_RUN_CORRIDOR","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-004","location_id":null,"location_id_status":"BLOCK_RESERVATION_REQUIRED","location_id_request":"LIR-002","canonical_name":"Lahiri House","cluster":"VARANASI","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"huis, Lahiri Mahasaya en Kriya","latitude_wgs84":null,"longitude_wgs84":null,"geo_status":"NOT_ESTABLISHED","route_relevance":"Formal project A; outside corridor scope.","detour_class":"OUTSIDE_RUN_CORRIDOR","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-005","location_id":null,"location_id_status":"BLOCK_RESERVATION_REQUIRED","location_id_request":"LIR-002","canonical_name":"Manikarnika Ghat","cluster":"VARANASI","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"crematieghat, Kashi en bevrijding","latitude_wgs84":null,"longitude_wgs84":null,"geo_status":"NOT_ESTABLISHED","route_relevance":"Formal project A; outside corridor scope.","detour_class":"OUTSIDE_RUN_CORRIDOR","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-006","location_id":null,"location_id_status":"BLOCK_RESERVATION_REQUIRED","location_id_request":"LIR-002","canonical_name":"Trailanga Swami Samadhi","cluster":"VARANASI","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"samadhi, Trailanga Swami","latitude_wgs84":null,"longitude_wgs84":null,"geo_status":"NOT_ESTABLISHED","route_relevance":"Formal project A; outside corridor scope.","detour_class":"OUTSIDE_RUN_CORRIDOR","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-007","location_id":null,"location_id_status":"BLOCK_RESERVATION_REQUIRED","location_id_request":"LIR-002","canonical_name":"Anandamayi Ma Ashram","cluster":"VARANASI","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"ashram, Anandamayi Ma","latitude_wgs84":null,"longitude_wgs84":null,"geo_status":"NOT_ESTABLISHED","route_relevance":"Formal project A; outside corridor scope.","detour_class":"OUTSIDE_RUN_CORRIDOR","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-008","location_id":null,"location_id_status":"BLOCK_RESERVATION_REQUIRED","location_id_request":"LIR-002","canonical_name":"Sarnath","cluster":"VARANASI","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"boeddhistisch heiligdom, eerste leerrede","latitude_wgs84":null,"longitude_wgs84":null,"geo_status":"NOT_ESTABLISHED","route_relevance":"Formal project A; outside corridor scope.","detour_class":"OUTSIDE_RUN_CORRIDOR","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-009","location_id":null,"location_id_status":"BLOCK_RESERVATION_REQUIR
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1041 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/central_map_source.jsonl blob_sha=01c6af5151426399b1fb68f8dc4f798497206dd3 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=6 classification=text
+ED","location_id_request":"LIR-002","canonical_name":"Kashi Vishwanath","cluster":"VARANASI","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"Shiva-tempel, Kashi","latitude_wgs84":null,"longitude_wgs84":null,"geo_status":"NOT_ESTABLISHED","route_relevance":"Formal project A; outside corridor scope.","detour_class":"OUTSIDE_RUN_CORRIDOR","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-010","location_id":null,"location_id_status":"BLOCK_RESERVATION_REQUIRED","location_id_request":"LIR-003","canonical_name":"Taj Mahal at sunrise","cluster":"AGRA","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"monument, formele A-context","latitude_wgs84":null,"longitude_wgs84":null,"geo_status":"NOT_ESTABLISHED","route_relevance":"Formal project A; outside corridor research scope.","detour_class":"OUTSIDE_RUN_CORRIDOR","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-011","location_id":"200","location_id_status":"ASSIGNED","canonical_name":"Katyayani Peeth / Keshav Ashram","cluster":"BRAJ_VRINDAVAN","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"tempel-ashram, Shakti en Kriya-lineage","latitude_wgs84":27.5769,"longitude_wgs84":77.6905,"geo_status":"WORKING","route_relevance":"Formeel vertrekanker.","detour_class":"START_ANCHOR","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-012","location_id":"201","location_id_status":"ASSIGNED","canonical_name":"Neem Karoli Baba Ashram and Samadhi, Vrindavan","cluster":"BRAJ_VRINDAVAN","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"ashram en samadhi, Maharaj-ji","latitude_wgs84":27.5839,"longitude_wgs84":77.693,"geo_status":"WORKING","route_relevance":"Formeel vertrekanker.","detour_class":"START_ANCHOR","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-013","location_id":"400","location_id_status":"ASSIGNED","canonical_name":"Babaji Cave","cluster":"KUMAON_DWARAHAT","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"grot, Mahavatar Babaji en Kriya","latitude_wgs84":29.78,"longitude_wgs84":79.427,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-014","location_id":"401","location_id_status":"ASSIGNED","canonical_name":"Babaji Smriti Bhavan","cluster":"KUMAON_DWARAHAT","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"herinneringsgebouw, Babaji/Kriya","latitude_wgs84":29.779,"longitude_wgs84":79.426,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-015","location_id":"402","location_id_status":"ASSIGNED","canonical_name":"Dunagiri Temple","cluster":"KUMAON_DWARAHAT","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"tempel, Dunagiri en Babaji-context","latitude_wgs84":29.7776,"longitude_wgs84":79.4309,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-016","location_id":"403","location_id_status":"ASSIGNED","canonical_name":"YSS Dwarahat Ashram","cluster":"KUMAON_DWARAHAT","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"ashram, Yogananda/Kriya","latitude_wgs84":29.777,"longitude_wgs84":79.4265,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-017","location_id":"404","location_id_status":"ASSIGNED","canonical_name":"Kainchi Dham","cluster":"KUMAON_KAINCHI_NAINITAL","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"ashram-tempel, Neem Karoli Baba","latitude_wgs84":29.4237,"longitude_wgs84":79.5125,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-018","location_id":"405","location_id_status":"ASSIGNED","canonical_name":"Kasar Devi","cluster":"KUMA
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1042 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/central_map_source.jsonl blob_sha=01c6af5151426399b1fb68f8dc4f798497206dd3 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=6 classification=text
+ON_ALMORA","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"tempel/bergplek, meditatie en Vivekananda-context","latitude_wgs84":29.6527,"longitude_wgs84":79.6646,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-019","location_id":"406","location_id_status":"ASSIGNED","canonical_name":"Crank's Ridge","cluster":"KUMAON_ALMORA","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"bergrug, meditatiecultuur","latitude_wgs84":29.648,"longitude_wgs84":79.663,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-020","location_id":"407","location_id_status":"ASSIGNED","canonical_name":"Kakrighat / Karkateshwar Mahadev","cluster":"KUMAON_ALMORA","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"rivier- en tempelplek, Vivekananda","latitude_wgs84":29.548,"longitude_wgs84":79.538,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-021","location_id":"408","location_id_status":"ASSIGNED","canonical_name":"Jageshwar","cluster":"KUMAON_ALMORA","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"Shiva-tempelcomplex","latitude_wgs84":29.6379,"longitude_wgs84":79.8535,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-022","location_id":"409","location_id_status":"ASSIGNED","canonical_name":"Hanuman Garhi","cluster":"KUMAON_KAINCHI_NAINITAL","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"Hanuman-tempel, Nainital","latitude_wgs84":29.381,"longitude_wgs84":79.455,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-023","location_id":"412","location_id_status":"ASSIGNED","canonical_name":"Bhumiyadhar, first Ram Dass–Maharaj-ji meeting","cluster":"KUMAON_KAINCHI_NAINITAL","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"tempelterrein, eerste ontmoeting Ram Dass en Maharaj-ji","latitude_wgs84":29.411,"longitude_wgs84":79.509,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-024","location_id":"413","location_id_status":"ASSIGNED","canonical_name":"Ramakrishna Kutir","cluster":"KUMAON_ALMORA","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"ashram, Ramakrishna/Vivekananda","latitude_wgs84":29.597,"longitude_wgs84":79.655,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-025","location_id":"414","location_id_status":"ASSIGNED","canonical_name":"Chitai Golu Devta Temple","cluster":"KUMAON_ALMORA","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"tempel, Golu Devta","latitude_wgs84":29.642,"longitude_wgs84":79.714,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-026","location_id":"420","location_id_status":"ASSIGNED","canonical_name":"Turiya Niwas","cluster":"KUMAON_ALMORA","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"verblijfplaats, spirituele lineagecontext","latitude_wgs84":29.654,"longitude_wgs84":79.669,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-027","location_id":"421","location_id_status":"ASSIGNED","canonical_name":"Bodh Ashram","cluster":"KUMAON_ALMORA","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"ashram, spirituele praktijk","latitu
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1043 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/central_map_source.jsonl blob_sha=01c6af5151426399b1fb68f8dc4f798497206dd3 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=6 classification=text
+de_wgs84":29.643,"longitude_wgs84":79.675,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-028","location_id":"423","location_id_status":"ASSIGNED","canonical_name":"Haidakhan Vishwa Mahadham","cluster":"KUMAON_HAIDAKHAN","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"ashram, Haidakhan Baba","latitude_wgs84":29.119,"longitude_wgs84":79.701,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming; Haidakhan Baba niet als Mahavatar Babaji geïdentificeerd.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-029","location_id":"209","location_id_status":"ASSIGNED","canonical_name":"Radha Raman Temple","cluster":"BRAJ_VRINDAVAN","map_layer":"B_ADVIES","formal_or_research_status":"B","recognition_hook":"tempel, Gaudiya/Gopala Bhatta","latitude_wgs84":27.5788,"longitude_wgs84":77.6953,"geo_status":"WORKING","route_relevance":"Formele B behouden.","detour_class":"START_CLUSTER_CONTEXT","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-030","location_id":"424","location_id_status":"ASSIGNED","canonical_name":"Ghorakhal Temple","cluster":"KUMAON_KAINCHI_NAINITAL","map_layer":"B_ADVIES","formal_or_research_status":"B","recognition_hook":"tempel, Golu Devta","latitude_wgs84":29.385,"longitude_wgs84":79.558,"geo_status":"WORKING","route_relevance":"Formele B behouden.","detour_class":"DESTINATION_CLUSTER_CONTEXT","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-031","location_id":"415","location_id_status":"ASSIGNED","canonical_name":"Mirtola / Krishnaprem Ashram","cluster":"KUMAON_ALMORA","map_layer":"C_CONTEXT","formal_or_research_status":"C","recognition_hook":"ashram, Krishnaprem","latitude_wgs84":29.663,"longitude_wgs84":79.787,"geo_status":"WORKING","route_relevance":"Formele C bewaard, niet routebepalend.","detour_class":"DESTINATION_CONTEXT","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-032","location_id":"416","location_id_status":"ASSIGNED","canonical_name":"Binsar Wildlife Sanctuary","cluster":"KUMAON_ALMORA","map_layer":"C_CONTEXT","formal_or_research_status":"C","recognition_hook":"natuurgebied, context","latitude_wgs84":29.696,"longitude_wgs84":79.759,"geo_status":"WORKING","route_relevance":"Formele C bewaard, niet routebepalend.","detour_class":"DESTINATION_CONTEXT","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-033","location_id":"417","location_id_status":"ASSIGNED","canonical_name":"Patal Bhuvaneshwar","cluster":"KUMAON_OUTER","map_layer":"C_CONTEXT","formal_or_research_status":"C","recognition_hook":"grot-tempel, context","latitude_wgs84":29.691,"longitude_wgs84":80.091,"geo_status":"WORKING","route_relevance":"Formele C bewaard, niet routebepalend.","detour_class":"OUTER_KUMAON_CONTEXT","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-034","location_id":"422","location_id_status":"ASSIGNED","canonical_name":"Daulchina / Dhaulchina Ashram","cluster":"KUMAON_ALMORA","map_layer":"C_CONTEXT","formal_or_research_status":"C","recognition_hook":"ashram, context","latitude_wgs84":29.743,"longitude_wgs84":79.632,"geo_status":"WORKING","route_relevance":"Formele C bewaard, niet routebepalend.","detour_class":"DESTINATION_CONTEXT","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-035","location_id":"300","location_id_status":"ASSIGNED","canonical_name":"Mathura Junction railway station","cluster":"CORRIDOR_MATHURA","map_layer":"CORRIDOR_EN_STATIONS","formal_or_research_status":"CORRIDOR_EN_STATIONS","recognition_hook":"hoofdstation, vertrekpoort Vrindavan","latitude_wgs84":27.4924,"longitude_wgs84":77.6737,"geo_status":"WORKING","route_relevance":"Principal rail gateway.","detour_class":"START_NODE","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-036","location_id":"301","location_id_status":"ASSIGNED","canonical_name":"Mathura Cantt railway station","cluster":"CORRIDOR_MATHURA","map_layer":"CORRIDOR_EN_STATIONS","formal_or_research_status":"CORRIDOR_EN_STATIONS","recognition_hook":"station, Ramnagar-treinlead","latitude_wgs84":27.5006,"lon
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1044 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/BRONS/central_map_source.jsonl blob_sha=01c6af5151426399b1fb68f8dc4f798497206dd3 original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=6 classification=text
+gitude_wgs84":77.6907,"geo_status":"WORKING","route_relevance":"Limited train lead.","detour_class":"START_NODE","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-037","location_id":"302","location_id_status":"ASSIGNED","canonical_name":"New Delhi railway station","cluster":"DELHI_COMPARISON","map_layer":"CORRIDOR_EN_STATIONS","formal_or_research_status":"CORRIDOR_EN_STATIONS","recognition_hook":"station, Kathgodam Shatabdi","latitude_wgs84":28.6429,"longitude_wgs84":77.2199,"geo_status":"WORKING","route_relevance":"Delhi comparison only.","detour_class":"MAJOR_BACKTRACK","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-038","location_id":"303","location_id_status":"ASSIGNED","canonical_name":"YSS Noida Ashram","cluster":"DELHI_COMPARISON","map_layer":"CORRIDOR_EN_STATIONS","formal_or_research_status":"DIRECT_LINE_CONTEXT_ONLY","recognition_hook":"ashram, Yogananda/Kriya","latitude_wgs84":28.6246,"longitude_wgs84":77.3718,"geo_status":"WORKING","route_relevance":"Direct-line institution; routegate faalt.","detour_class":"MAJOR_BACKTRACK","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-039","location_id":"304","location_id_status":"ASSIGNED","canonical_name":"Gajraula Junction / road node","cluster":"DIRECT_ROAD_CORRIDOR","map_layer":"CORRIDOR_EN_STATIONS","formal_or_research_status":"CORRIDOR_EN_STATIONS","recognition_hook":"weg-/spoorknooppunt","latitude_wgs84":28.8447,"longitude_wgs84":78.2395,"geo_status":"WORKING","route_relevance":"Directe corridor.","detour_class":"DIRECT","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-040","location_id":"305","location_id_status":"ASSIGNED","canonical_name":"Moradabad Junction railway station","cluster":"DIRECT_ROAD_CORRIDOR","map_layer":"CORRIDOR_EN_STATIONS","formal_or_research_status":"CORRIDOR_EN_STATIONS","recognition_hook":"spoorwegknooppunt, Kumaon-overstap","latitude_wgs84":28.8386,"longitude_wgs84":78.7733,"geo_status":"WORKING","route_relevance":"Directe corridor en treintransfer.","detour_class":"DIRECT","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-041","location_id":"306","location_id_status":"ASSIGNED","canonical_name":"Rampur Junction railway station","cluster":"DIRECT_ROAD_CORRIDOR","map_layer":"CORRIDOR_EN_STATIONS","formal_or_research_status":"CORRIDOR_EN_STATIONS","recognition_hook":"spoorwegaftakking, Kumaon","latitude_wgs84":28.806,"longitude_wgs84":79.0245,"geo_status":"WORKING","route_relevance":"Directe corridor.","detour_class":"DIRECT","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-042","location_id":"307","location_id_status":"ASSIGNED","canonical_name":"Rudrapur City railway station","cluster":"DIRECT_ROAD_CORRIDOR","map_layer":"CORRIDOR_EN_STATIONS","formal_or_research_status":"CORRIDOR_EN_STATIONS","recognition_hook":"station, vlakteknooppunt","latitude_wgs84":28.9743,"longitude_wgs84":79.3996,"geo_status":"WORKING","route_relevance":"Directe corridor.","detour_class":"DIRECT","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-043","location_id":"308","location_id_status":"ASSIGNED","canonical_name":"Lal Kuan Junction railway station","cluster":"KUMAON_FOOTHILLS","map_layer":"CORRIDOR_EN_STATIONS","formal_or_research_status":"CORRIDOR_EN_STATIONS","recognition_hook":"station, Kumaon-vertakking","latitude_wgs84":29.0665,"longitude_wgs84":79.5195,"geo_status":"WORKING","route_relevance":"Kumaon-aankomst/overstap.","detour_class":"DIRECT","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-044","location_id":"309","location_id_status":"ASSIGNED","canonical_name":"Haldwani railway station","cluster":"KUMAON_FOOTHILLS","map_layer":"CORRIDOR_EN_STATIONS","formal_or_research_status":"CORRIDOR_EN_STATIONS","recognition_hook":"stad en station, poort naar Kumaon","latitude_wgs84":29.2183,"longitude_wgs84":79.5127,"geo_status":"WORKING","route_relevance":"Hoofdpoort naar Kumaon.","detour_class":"DIRECT","checked_at":"2026-07-16"}
+{"map_record_id":"CMS-045","location_id":"310","location_id_status":"ASSIGNED","canonical_name":"Kathgodam railway station","cluster":"KUMAON_FOOTHILLS","map_layer":"CORRIDOR_EN_STATIONS","formal_or_research_status":"CORRIDOR_EN_STATI
+<<< END CHUNK >>>
+

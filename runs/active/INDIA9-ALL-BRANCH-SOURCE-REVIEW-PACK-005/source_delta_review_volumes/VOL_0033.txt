@@ -1,0 +1,499 @@
+>>> CHUNK stream_row=498 path=runs/active/INDIAWIT-ANANDAMAYI-HERITAGE-LOCATION-CLOSURE-001/CURRENT_ACCESS_BOOKABILITY.md blob_sha=0ae7c9d37c04ac8e8b1576a876219dc3fe3ac382 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+ unknown | unknown | MEDIUM-HIGH historical / LOW current |
+| The Taj Mahal Palace, Mumbai | **JA**, Apollo Bunder | **JA** | **JA, official booking** | **ONZEKER** | VERY HIGH current — official Taj page; 243 rooms/42 suites; Yogananda historic source says only `suite` |
+| Sri Ramanasramam | **JA** | **JA** | **JA, limited devotee accommodation via mandatory online registration** | **NEE for Nirvana Room/caves** | VERY HIGH — official `gururamana.org` accommodation page |
+| Virupaksha Cave / Skandashramam | **JA** | **JA** | **NEE** | N/A | VERY HIGH — official Ramanasramam rules from prior WIT audit; no overnight in hill/caves |
+| Belur Math | **JA** | **JA** | **JA for pilgrimage guesthouse** | **NEE for Vivekananda historic room** | VERY HIGH — current Belur Math pages publish `guesthouse@belurmath.org` and restrict facility to pilgrimage devotees |
+| YSS Ranchi Ashram | **JA** | **JA, grounds open daily** | **TEMPORARILY CLOSED until early 2027** | historic room not bookable | VERY HIGH — current YSS Ranchi page, crawled Aug 2026 |
+| YSS Serampore Retreat | **JA** | **JA** | **JA for eligible retreatants** | not evidence for Anandaloka/Sri Yukteswar rooms | VERY HIGH — current YSS Serampore Retreat page and YSS accommodation system |
+| Hotel Evelyn, Nainital | hotel-level current continuity retained from 2026-08-19 WIT audit | **JA hotel** | **JA hotel generally** | **ONZEKER for Ram Dass 1971 top-floor cave room** | MEDIUM-HIGH current; no authoritative historical room map found |
+| Kainchi Dham historic Ram Dass/NKB rooms | **JA complex** | **JA subject to Trust rules** | **UNKNOWN via official Trust only** | **ONZEKER** | HIGH complex / LOW room booking; third-party booking sites rejected as authority |
+| Karar Ashram, Puri | **JA site** | current religious site | authoritative overnight policy still unresolved | unknown | HIGH site / LOW lodging; direct institution contact required |
+| 4 Church Lane, Prayagraj | durable historic house identity | permission/private context | no public lodging verified | unknown | MEDIUM current |
+| Fouzdar Kunj, Vrindavan | historic lodging identity verified | current fabric/access unresolved | unknown | unknown | HIGH historical / LOW current |
+
+## Critical room-level distinctions
+
+1. **Kankhal is now the strongest Anandamayi same-room heritage closure:** Ma's bedroom is institutionally preserved in the Matri Smriti Museum bungalow, but it is not accommodation.
+2. **Bhadaini is the strongest current Anandamayi same-ashram stay:** official room-booking contacts exist, but no source ties a current guest room to Ma's own historical sleeping room.
+3. **Taj Mahal Palace:** same historic hotel is bookable; Yogananda's exact 1935 suite remains unknown.
+4. **Hotel Evelyn:** same historic hotel candidate is operational; Ram Dass' top-floor room still lacks authoritative current room-number mapping.
+5. **Sri Ramanasramam:** same complex stay is possible in modern devotee rooms; Nirvana Room, Virupaksha Cave and Skandashramam are not accommodation.
+6. **Belur Math:** same complex pilgrimage stay is possible; Vivekananda's historical room is not bookable.
+7. **YSS Ranchi:** access yes, overnight closed until early 2027; the trip's January 2027 overlap requires exact reopening-date recheck before relying on it.
+
+## Source set — current verification
+
+- `https://www.anandamayi.org/ashram-contact-details/`
+- `https://www.anandamayi.org/sangha-schools-and-institutions/`
+- `https://www.anandamayi.org/international-center/`
+- `https://ssmaic.org/`
+- `https://www.anandamayi.org/calendar-visiting-sri-mas-ashrams/`
+- `https://www.tajhotels.com/en-in/hotels/taj-mahal-palace-mumbai`
+- `https://www.gururamana.org/Ashram/accommodation`
+- `https://belurmath.org/`
+- `https://yssofindia.org/location/ranchi`
+- `https://yssofindia.org/request-accommodation`
+- `https://yssofindia.org/location/serampore`
+
+## Fraud / identity rule
+
+A booking page, modern room number, same-name hotel, or nearby institution is not historical continuity by itself. No modern numeric room number is promoted to a histori
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=499 path=runs/active/INDIAWIT-ANANDAMAYI-HERITAGE-LOCATION-CLOSURE-001/CURRENT_ACCESS_BOOKABILITY.md blob_sha=0ae7c9d37c04ac8e8b1576a876219dc3fe3ac382 original_offset=8192 original_length=28 payload_bytes=28 chunk_index=2 chunk_count=3 classification=text
+c-person room in this task.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=500 path=runs/active/INDIAWIT-ANANDAMAYI-HERITAGE-LOCATION-CLOSURE-001/HERITAGE_STAY_ENTITY_MATRIX.md blob_sha=7551ba89066a5c161e2262c5e4c46589be9b0223 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# HERITAGE STAY ENTITY MATRIX — INDIA WIT
+
+status: SCHEMA_CLASSIFIED_COMPLETE
+verified_at: 2026-08-20
+schema: `CANONICAL_R1_R5_SCHEMA.md`
+
+All previously researched WIT heritage entities are retained. No discovery was rerun. No A/B/C, hotel lock, route, or booking decision was changed. `same-room` remains independent from site continuity; unresolved findings remain unresolved.
+
+| person | historic stay/entity | room/floor detail | R-class | access-status | current overnight | same historic room | unresolved / action |
+|---|---|---|---|---|---|---|---|
+| Ram Dass | Hotel Evelyn, Nainital | 1971 top-floor small `cave` room; balcony/patio | **R1** | PUBLIC_OPEN | hotel generally bookable | ONZEKER | exact 1971 room mapping absent; archive/floorplan required |
+| Ram Dass | Kainchi Dham old upstairs room | upstairs/rear room; no number | **R3** | PUBLIC_LIMITED_HOURS | official Trust only | ONZEKER | exact historic door/room correspondence unresolved |
+| Ram Dass | Kainchi 2004 assigned room | unspecified assigned room | **R3** | PUBLIC_LIMITED_HOURS | official Trust only | ONZEKER | keep distinct from 1967 room |
+| Ram Dass | Chinese Buddhist monastery, Sarnath | no room number | **R3** | ACCESS_UNKNOWN_AFTER_EXHAUSTION | unknown | unknown | institution/site localized; exact historic lodging fabric unresolved |
+| Ram Dass | Delhi semi-hippie hotel | no name/room | **R4** | ACCESS_UNKNOWN_AFTER_EXHAUSTION | unknown | unknown | hotel identity absent; no modern guessing |
+| Ram Dass | Kausani rented retreat house | house only | **R4** | ACCESS_UNKNOWN_AFTER_EXHAUSTION | private/unknown | unknown | only localized to Kausani context |
+| Neem Karoli Baba | 4 Church Lane / Red House, Prayagraj | Maharajji room; hall; veranda; kitchen/meal zones | **R1** | PRIVATE_PERMISSION_POSSIBLE | no public lodging verified | ONZEKER | interior continuity partial but exact current house/site durable |
+| Neem Karoli Baba | Kainchi Dham residence spaces | office/tucket/room references | **R1** | PUBLIC_LIMITED_HOURS | official Trust controls stays | historic room unproved | no room number invented |
+| Neem Karoli Baba | Bhumiadhar first hut | hut | **R2** | PUBLIC_OPEN | no historic-hut booking evidence | NEE/unknown | current ashram is reliable successor grounds; original hut survival unproved |
+| Paramahansa Yogananda | The Taj Mahal Palace, Mumbai | suite; no suite name/number | **R1** | PUBLIC_OPEN | JA | ONZEKER | exact 1935 suite unresolved |
+| Paramahansa Yogananda | Regent Hotel, Mumbai | unspecified room | **R5** | ACCESS_UNKNOWN_AFTER_EXHAUSTION | unknown | unknown | exact historical hotel/address/current continuity unresolved |
+| Paramahansa Yogananda | Santiniketan guest house | unnamed guest house + patio | **R4** | ACCESS_UNKNOWN_AFTER_EXHAUSTION | unknown | unknown | campus known; lodging building unidentified |
+| Paramahansa Yogananda | Anandaloka, Sarada Prasad Ghosh house, Serampore | exact preserved room `Anandaloka` | **R1** | PUBLIC_LIMITED_HOURS | NEE in shrine room | NEE | preserved room; separate retreat lodging only |
+| Paramahansa Yogananda | Sri Yukteswar Serampore hermitage | upstairs sitting/bedroom/courtyard layers | **R2** | PUBLIC_LIMITED_HOURS | separate YSS retreat | historic guru rooms unproved | successor/restored heritage site reliable; room-by-room continuity partial |
+| Paramahansa Yogananda | Katyayani Peeth/Keshav Ashram, Vrindavan | no room number | **R1** | PUBLIC_OPEN | contact required | unknown | one-night 1936 stay retained; exact room unknown |
+| Paramahansa Yogananda | Maganwadi, Wardha | guest bedroom; Gandhi writing room separate | **R3** | PUBLIC_OPEN | exact historic guest bedroom not offered | unknown | site survives; room mapping unresolved |
+| Paramahansa Yogananda | Ranchi YSS Ashram | historic campus rooms | **R1** | PUBLIC_LIMITED_HOURS | closed until early 2027 in last WIT check | no | reopening date remains date-sensitive |
+| Sri Yukteswar | Priyadham / Serampore hermitage | private bedroom/wooden bed; 2nd-floor sitting room/balcony; ground-floor hall | **R2** | PUBLIC_LIMITED_HOURS |
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=501 path=runs/active/INDIAWIT-ANANDAMAYI-HERITAGE-LOCATION-CLOSURE-001/HERITAGE_STAY_ENTITY_MATRIX.md blob_sha=7551ba89066a5c161e2262c5e4c46589be9b0223 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+ separate YSS retreat | unknown/no public proof | restored/successor site; historic internal fabric only partial |
+| Sri Yukteswar | Karar Ashram, Puri | sleeping room not safely closed | **R1** | PUBLIC_OPEN | authoritative overnight policy unresolved | unknown | exact site strong; room/overnight policy unresolved |
+| Lahiri Mahasaya | D 31/58 Varanasi residence | house-level; no safe numeric room | **R1** | PRIVATE_PERMISSION_POSSIBLE | not public hotel | no | exact current devotional/heritage house |
+| Lahiri Mahasaya | Ranikhet/Dronagiri temporary lodging leads | unresolved | **R5** | ACCESS_UNKNOWN_AFTER_EXHAUSTION | unknown | unknown | identity/chronology lodging conflict retained |
+| Mahavatar Babaji | Kukuchina/Dunagiri cave tradition | cave | **R1** | LANDSCAPE_ACCESS | no safe lawful overnight evidence | no | principal travel reason unchanged; special epistemic rule retained |
+| Ramana Maharshi | Virupaksha Cave | exact cave residence | **R1** | PUBLIC_LIMITED_HOURS | NEE | N/A | overnight prohibited |
+| Ramana Maharshi | Skandashramam | exact hermitage | **R1** | PUBLIC_LIMITED_HOURS | NEE | N/A | visit only |
+| Ramana Maharshi | Sri Ramanasramam | Nirvana Room preserved | **R1** | PUBLIC_OPEN | JA, devotee accommodation | NEE for Nirvana Room | locked A-anchor unchanged |
+| Ramakrishna | Dakshineswar room | exact preserved residence room | **R1** | PUBLIC_LIMITED_HOURS | not lodging | NEE | visit only |
+| Ramakrishna | Cossipore Garden House | final residence house/rooms | **R1** | PUBLIC_LIMITED_HOURS | no same-room lodging verified | no | current RKM heritage site |
+| Ramakrishna | Shyampukur Bati | illness-period rented residence | **R1** | PUBLIC_LIMITED_HOURS | no public same-room lodging | no | current heritage continuity recognized |
+| Ramakrishna | Fouzdar Kunj, Vrindavan | upper room with semicircular veranda | **R5** | ACCESS_UNKNOWN_AFTER_EXHAUSTION | unknown | unknown | historic lodging verified; present building continuity unresolved |
+| Ramakrishna | Kamarpukur | historic family home | **R1** | PUBLIC_OPEN | modern devotee guesthouse separately | historic room no | same-complex/town heritage stay only |
+| Vivekananda | Belur Math | preserved historic monastic room | **R1** | PUBLIC_OPEN | JA, pilgrimage guest house | NEE for historic room | current heritage + lodging both closed, separate functions |
+| Vivekananda | Khetri heritage layer | exact bedroom not closed | **R2** | PUBLIC_LIMITED_HOURS | limited permission-based guest rooms in project layer | same room unknown | current heritage centre is reliable successor; exact bedroom unresolved |
+| Anandamayi Ma | Bhadaini Ashram, Varanasi | no historic numeric room | **R1** | PUBLIC_OPEN | JA | ONZEKER | Sahi River View Guesthouse lock unchanged |
+| Anandamayi Ma | Matri Smriti Museum bungalow, Kankhal | Ma's bedroom and kitchen preserved | **R1** | PUBLIC_LIMITED_HOURS | NEE in preserved bedroom | NEE | exact historical room-level heritage closure |
+| Anandamayi Ma | Kankhal Ashram/Samadhi precinct | no historic sleeping-room number | **R1** | PUBLIC_OPEN | JA by current booking contacts/adjoining Centre | unknown/no | same historical room not claimed |
+| Anandamayi Ma | Burdwan/Vardhaman Kunj, Vrindavan | historic residence; no room number | **R2** | PRIVATE_PERMISSION_POSSIBLE | current lodging not publicly proven | unknown | current lineage successor/reference exists |
+| Anandamayi Ma | Vrindavan Ashram | no historic room number | **R1** | PUBLIC_OPEN | contact required | unknown | exact current institution |
+| Anandamayi Ma | Pandey Dharamshala, Varanasi | no room number | **R5** | ACCESS_UNKNOWN_AFTER_EXHAUSTION | unknown | unknown | historical residence confirmed; current building unresolved |
+| Anandamayi Ma | Bhola Giri/Giriji Ashram, Kankhal | no room number | **R5** | ACCESS_UNKNOWN_AFTER_EXHAUSTION | unknown | unknown | historic stay confirmed; present exact property match incomplete |
+| Anandamayi Ma | Baghat House, Haridwar | no room number | **R5** | ACCESS_UNKNOWN_AFTER_EXHAUSTION | unknown | unknown | repeated stay confirmed; cur
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=502 path=runs/active/INDIAWIT-ANANDAMAYI-HERITAGE-LOCATION-CLOSURE-001/HERITAGE_STAY_ENTITY_MATRIX.md blob_sha=7551ba89066a5c161e2262c5e4c46589be9b0223 original_offset=8192 original_length=3928 payload_bytes=3928 chunk_index=2 chunk_count=3 classification=text
+rent property unresolved |
+| Anandamayi Ma | Patal Devi Ashram, Almora | no historic room number | **R1** | PUBLIC_OPEN | contact required / accommodation signal | unknown | current listed ashram |
+| Anandamayi Ma | Dhaulchina Ashram | hermitage, no room number | **R1** | PUBLIC_LIMITED_HOURS | restricted/contact required | unknown | official stay restrictions retained |
+| Anandamayi Ma | Salogra Temple cave, Solan | cave residence | **R5** | ACCESS_UNKNOWN_AFTER_EXHAUSTION | unknown | unknown | historic claim exact by name; current cave match unclosed |
+| Anandamayi Ma | Ganga Lahari / Birla Guest House, Raiwala | guest house | **R5** | ACCESS_UNKNOWN_AFTER_EXHAUSTION | unknown | unknown | current building unresolved |
+| Anandamayi Ma | Swargadwar Ashram, Puri | ashram residence | **R1** | PUBLIC_OPEN | booking signal; authority chain requires confirmation | unknown | no modern room number promoted |
+| Anandamayi Ma | Ratu Palace, Ranchi | royal residence | **R1** | ACCESS_UNKNOWN_AFTER_EXHAUSTION | no verified public booking | unknown | exact palace identity; visitor policy unresolved |
+| Anandamayi Ma | Raj Bhavan Chennai | government residence | **R1** | PUBLIC_LIMITED_HOURS | public overnight no | no | institution continuous |
+| Anandamayi Ma | Raj Bhavan Bhubaneswar | government residence | **R1** | PUBLIC_LIMITED_HOURS | public overnight no | no | institution continuous |
+| Anandamayi Ma | M.S. Subbulakshmi/T. Sadasivam house, Chennai | purpose-built wooden hut on lawn | **R5** | ACCESS_UNKNOWN_AFTER_EXHAUSTION | private/no public lodging | unknown | address and hut survival unresolved |
+| Anandamayi Ma | Ganga Vihar Dharamshala, Bithoor | dharamshala | **R5** | ACCESS_UNKNOWN_AFTER_EXHAUSTION | unknown | unknown | current building unresolved |
+| Anandamayi Ma | Naini Jaipuria House | host residence | **R5** | ACCESS_UNKNOWN_AFTER_EXHAUSTION | private/unknown | unknown | current building unresolved |
+| Anandamayi Ma | Panchmarhi purpose-built hut | hut | **R5** | ACCESS_UNKNOWN_AFTER_EXHAUSTION | unknown | unknown | survival unresolved |
+| Anandamayi Ma | Morvi Palace | royal stay/programme | **R5** | ACCESS_UNKNOWN_AFTER_EXHAUSTION | unknown | unknown | palace-name building disambiguation unresolved |
+| Anandamayi Ma | Nitibagh G.S. Pathak house, Delhi | a floor reserved for Ma | **R5** | ACCESS_UNKNOWN_AFTER_EXHAUSTION | private/no public lodging | unknown | exact address/floor unresolved |
+| Hariharananda | Karar Ashram, Puri | sleeping room not closed | **R1** | PUBLIC_OPEN | public overnight policy unresolved | unknown | exact site; room-level gap retained |
+| Hariharananda | Balighai Gurukulam | no room-level historic claim | **R1** | PUBLIC_OPEN | overnight policy unresolved | unknown | current institution/site layer exact |
+
+## Classification notes
+
+- **R1** is used where the historical event/residence is tied to a concrete current site/building/room or unambiguous grounds, even when visitor policy or the precise historic sleeping room remains unknown.
+- **R2** is used where current successor/memorial/heritage grounds reliably preserve the historical spot but original fabric has changed or room-level continuity is incomplete.
+- **R3** is limited to tightly bounded complexes/local zones where finer historical precision is unavailable.
+- **R4** preserves broad-place-only claims where the city/locality is known but the actual property is not discriminated.
+- **R5** preserves unresolved historical identity or modern continuity; none were deleted.
+
+## Numeric-room and lock rules
+
+No historic numeric room number is confirmed for any high-impact historical person-room in this matrix. Current commercial/ashram room numbers are not historical room numbers and are not promoted.
+
+`Sahi River View Guesthouse` remains the Varanasi `LOCKED_BY_MARK` base. Bhadaini Ashram remains review-only. No other lock, A/B/C classification, or route choice is changed.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=503 path=runs/active/INDIAWIT-ANANDAMAYI-HERITAGE-LOCATION-CLOSURE-001/STATUS.md blob_sha=3e57dfa0f10abf7e89746e1d9c605c73f56bb960 original_offset=0 original_length=2153 payload_bytes=2153 chunk_index=0 chunk_count=1 classification=text
+task_id: INDIAWIT-ANANDAMAYI-HERITAGE-LOCATION-CLOSURE-001
+state: COMPLETE
+branch: agent/indiawit-master-travel-readiness
+completed_at: 2026-08-20
+
+schema_source:
+- CANONICAL_R1_R5_SCHEMA.md
+
+schema_closure_commits:
+- ANANDAMAYI_ENTITY_CANDIDATES.jsonl — 379b637706023b6f1891ba53e89b16150c193fee
+- HERITAGE_STAY_ENTITY_MATRIX.md — ef493aad36650de1dcc7caa24645bab185ee3ab5
+
+completion:
+- every already-researched Anandamayi WIT physical entity has canonical R1/R2/R3/R4/R5
+- every previously researched cross-person heritage-stay entity has canonical R1/R2/R3/R4/R5
+- every classified entity has one canonical access status
+- all source-record IDs in ANANDAMAYI_ENTITY_CANDIDATES.jsonl were preserved
+- all unresolved identity, continuity, access, room and bookability findings were retained
+- no new discovery was required: schema assignment exposed no new evidence-gap that could not be represented canonically as R4/R5
+- previous UNASSIGNED_GOVERNANCE_SCHEMA_MISSING state is fully removed from the active entity output
+
+constraints_respected:
+- no A/B/C change
+- no hotel lock change
+- no route choice
+- no booking
+- no historic room number invented
+- no unresolved row deleted
+
+notable classifications:
+- Bhadaini Ashram, Matri Smriti Museum bungalow, Kankhal Ashram, Patal Devi, Dhaulchina, Swargadwar, Ratu Palace and Ramanasramam: R1 at site level
+- Burdwan/Vardhaman Kunj: R2 successor/lineage continuity
+- Pandey Dharamshala, Bhola Giri/Giriji Ashram, Baghat House, Salogra cave, Ganga Lahari/Birla Guest House and other unresolved-current-identity heritage stays: R5 retained
+- broad host-property claims with only locality/property-context resolution remain R4
+- Hotel Evelyn and Taj Mahal Palace: R1 hotel-level continuity; exact historical rooms remain unresolved without invented room numbers
+- Bhumiadhar first hut: R2 via reliable successor ashram grounds; original hut survival remains unresolved
+
+blockers: none for schema closure
+next: downstream layers may consume canonical R1-R5 + access statuses without rerunning WIT discovery; R4/R5 remain explicit unresolved inputs for later targeted work only if governance calls for it.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=504 path=runs/active/INDIAWIT-ANANDAMAYI-HERITAGE-LOCATION-CLOSURE-001/TASK.md blob_sha=df63fe1819a8328400b6ad705de4c145a29a9c63 original_offset=0 original_length=1608 payload_bytes=1608 chunk_index=0 chunk_count=1 classification=text
+# INDIAWIT ANANDAMAYI + HERITAGE LOCATION CLOSURE
+
+## DOEL
+Maak Anandamayi Ma lossless fysiek resolveerbaar en sluit tegelijk alle heritage-stay/hotel/ashram-kamer claims die de reislogica kunnen veranderen.
+
+## LEES
+- runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/EXTERNAL_UNION_INPUT.md
+- runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/INDIA_SOURCE_FIRST_SWEEP_ANANDAMAYI.md
+- runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/RECONCILIATION_CCI_084.md
+- eerdere INDIA WIT heritage-stay outputs
+- governance/LOCATION_RESOLUTION_BEFORE_ABC_2026-08-19.md
+
+## UITVOEREN
+1. Maak lossless source-recordlijst van externe 156-union + source-first aanvullingen + CCI-reconciliatie; detector-duplicates traceerbaar houden.
+2. Ontleed hosthuizen, dharamshalas, paleizen, sanatoria, scholen, tuinen, kamers, ashrams en guesthouses naar fysieke entities.
+3. R1-R5 + huidige identiteit/access/bookability indien relevant.
+4. Onderzoek alle R4/R5 verder, vooral active-route gebieden en locaties met meerdere Top-X-personen.
+5. Heritage cross-person: Hotel Evelyn; Bhadaini Anandamayi ashram; Sri Ramanasramam stay; Taj Mahal Palace; Belur Math; Karar/Puri; iedere historische kamer/hotel/ashram-verblijfclaim uit WIT-output. Geen modern kamernummer verzinnen.
+6. Oost-data volledig verwerken, ondanks geparkeerde route.
+
+## OUTPUTS
+- ANANDAMAYI_SOURCE_RECORDS.jsonl
+- ANANDAMAYI_ENTITY_CANDIDATES.jsonl
+- ANANDAMAYI_R4_R5_CLOSURE.md
+- HERITAGE_STAY_ENTITY_MATRIX.md
+- CURRENT_ACCESS_BOOKABILITY.md
+- STATUS.md
+
+## HARD
+Geen A/B/C. Geen hotel override namens Mark. Geen IDs wijzigen. Geen silent drops. Commit alles op deze branch.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=505 path=runs/active/INDIAWIT-HERITAGE-STAY-CLOSURE-001/STATUS.md blob_sha=6524f63a78c80000468756d72199353170a30157 original_offset=0 original_length=245 payload_bytes=245 chunk_index=0 chunk_count=1 classification=text
+# STATUS — INDIAWIT-HERITAGE-STAY-CLOSURE-001
+
+state: READY
+branch: agent/indiawit-master-travel-readiness
+owner: INDIA WIT
+scope: targeted high-impact heritage-stay closure only
+next_allowed_step: execute TASK.md fully and commit all outputs
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=506 path=runs/active/INDIAWIT-HERITAGE-STAY-CLOSURE-001/TASK.md blob_sha=e53c90806c0db23bc8987fd71569091ab79bd0dc original_offset=0 original_length=2532 payload_bytes=2532 chunk_index=0 chunk_count=1 classification=text
+# INDIA WIT — HERITAGE STAY HIGH-IMPACT CLOSURE
+
+STATUS: READY
+OWNER: INDIA WIT
+MODE: TARGETED CURRENT + ARCHIVAL VERIFICATION
+
+## Doel
+Sluit alleen de heritage-stay vragen die een serieuze kans hebben Marks hotel-/overnightkeuze te veranderen. Geen nieuwe brede persoonslocatiesweep.
+
+## Prioriteit A — NU sluiten voor zover mogelijk
+1. NAINITAL — HOTEL EVELYN / RAM DASS
+   - bewijs historische stay opnieuw precies vastleggen;
+   - onderzoek of de historische top-floor small 'cave' room fysiek nog bestaat;
+   - oude/current room numbering, verdieping, foto's, renovaties/floorplan;
+   - onderscheid SAME_HOTEL / SAME_BUILDING / SAME_ROOM_POSSIBLE / SAME_ROOM_CONFIRMED;
+   - huidige officiële/directe boekbaarheid en contactroute;
+   - geen kamernummer raden.
+
+2. KAINCHI DHAM — RAM DASS / NKB
+   - uitsluitend officiële Trust + sterke historische bronnen;
+   - bestaat de upstairs room/building waar Ram Dass verbleef nog;
+   - is bezoek mogelijk;
+   - bestaat legitieme guest accommodation;
+   - kan iemand in het historische gebouw/ruimte slapen;
+   - third-party booking sites expliciet uitsluiten.
+
+3. VARANASI BHADAINI — ANANDAMAYI MA
+   - bepaal of huidige gastenkamers/dharamshala in hetzelfde historische gebouw/complex liggen dat Ma daadwerkelijk gebruikte;
+   - zo mogelijk identificeren welke delen historisch zijn;
+   - huidige officiële accommodatievoorwaarden/contact;
+   - bestaande Sahi River View Guesthouse lock NIET wijzigen.
+
+4. TIRUVANNAMALAI — SRI RAMANASRAMAM
+   - huidige officiële guest-stay voorwaarden, booking lead time, duurbeperkingen, buitenlandse gastvereisten;
+   - geen availability claim zonder concrete reisdata;
+   - duidelijk scheiden: same complex immersion versus same historic sleeping room (niet claimen).
+
+## Prioriteit B — alleen als efficiënt mee te sluiten
+- Belur Math guesthouse / Vivekananda
+- Serampore YSS retreat / Yogananda-Sri Yukteswar
+- Karar Ashram Puri / Sri Yukteswar-Hariharananda
+
+## Outputs
+1. HIGH_IMPACT_STAY_CLOSURES.md
+2. HOTEL_EVELYN_ROOM_TRACE.md
+3. KAINCHI_HISTORIC_ROOM_TRACE.md
+4. VARANASI_BHADAINI_STAY_TRACE.md
+5. RAMANASRAMAM_STAY_RULES.md
+6. MARK_HOTEL_REVIEW_QUEUE_V2.md
+7. STATUS.md
+
+## Regels
+- Actuele claims via officiële/directe bronnen waar beschikbaar.
+- Historische claims bronmatig onderbouwen.
+- Geen folklore promoveren tot feit.
+- Geen hotel/route/A-B-C keuze namens Mark.
+- Geen bestaande lock wijzigen.
+- Geen PDF/PR/merge.
+- Maak de Mark-queue klein: alleen beslissingen tonen die werkelijk material impact hebben.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=507 path=runs/active/INDIAWIT-HERITAGE-STAY-OVERRIDE-001/CURRENT_EXISTENCE_AND_BOOKABILITY.md blob_sha=7422780bbeab0befe4a43e663365521025673d33 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# CURRENT_EXISTENCE_AND_BOOKABILITY — INDIA WIT
+
+status: CURRENT-WORLD-VERIFIED
+verified_at: 2026-08-19
+scope: only already-detected heritage-stay claims; current verification does not expand person-location discovery
+
+## Verified current state
+
+| heritage candidate | physical existence today | overnight today | same historic room today | confidence | current source / note |
+|---|---|---|---|---|---|
+| **Hotel Evelyn, Nainital** | **JA** | **JA** | **ONZEKER** | HIGH for hotel; LOW-MEDIUM for room continuity | Current Google Hotels entity lists Hotel Evelyn, Mall Rd, Mallital, Nainital, with availability/contact. A current Evelyn Hotels web presence also exists. No authoritative archive/floorplan linking a modern room number to Ram Dass' 1971 top-floor room was found. |
+| **Taj Mahal Palace, Mumbai** | **JA** | **JA** | **ONZEKER** | VERY HIGH for hotel/bookability | Official Taj Hotels page lists current hotel at Apollo Bunder and current rooms/suites with booking. Yogananda's source says `suite`, but no suite number/name was recovered. |
+| **Sri Ramanasramam, Tiruvannamalai** | **JA** | **JA, restricted devotee accommodation** | **NEE for historic Nirvana Room/caves** | VERY HIGH | Official Sri Ramanasramam accommodation system accepts stay requests; rooms are modern guest rooms. Official visitor material says Nirvana Room is preserved and Virupaksha Cave/Skandashramam are historic sites; overnight on hill/in caves is prohibited. |
+| **Virupaksha Cave / Skandashramam** | **JA** | **NEE** | not applicable | VERY HIGH | Official Sri Ramanasramam rules explicitly prohibit overnight stays in hills/caves. |
+| **Anandaloka room, Serampore** | **JA** | **NEE in the historic shrine room** | **NEE** | HIGH | YSS says uncle Sarada Prasad Ghosh's property was acquired/restored and the room where Yogananda stayed is preserved as shrine `Anandaloka`. YSS Serampore operates a retreat where retreatants can stay, but that is not evidence that Anandaloka itself is lodging. |
+| **Sri Yukteswar Serampore hermitage / Smriti Mandir** | **JA at site/institution level** | **ONZEKER in historic building; JA at separate YSS Serampore retreat** | **ONZEKER/NEE** | HIGH site; MEDIUM room continuity | YSS current Serampore/associated-place pages confirm Smriti Mandir and heritage sites. Current YSS retreat provides stays; no public proof that Sri Yukteswar's bedroom is used for guests. |
+| **Ranchi YSS Ashram** | **JA** | **TEMPORARILY NEE** | historic room not bookable | VERY HIGH | Official YSS says guest accommodation is closed until early 2027 due planned civil works/road renovations. Because the trip extends to 21 Jan 2027, exact reopening date must be rechecked if Ranchi becomes a chosen overnight. |
+| **Kainchi Dham historical Ram Dass/NKB rooms** | **JA at complex level** | **ONZEKER via official Trust only** | **ONZEKER** | HIGH for complex; LOW for room-bookability | Official Shri Kainchi Hanuman Mandir Trust states it is the sole authority for all communications regarding bookings/stays. Numerous third-party room-booking sites were found and are not treated as proof. No official public statement was found tying Ram Dass' historical room to a reservable room. |
+| **4 Church Lane / Red House, Prayagraj** | **JA/DEELS** | **no public lodging verified** | **ONZEKER** | MEDIUM | Current devotional material continues to identify the Mukerjee house at 4 Church Lane. No public commercial/ashram lodging offer or owner-authorized room booking was verified. Treat as private-house heritage unless later permission is obtained. |
+| **Katyayani Peeth / Keshav Ashram, Vrindavan** | **JA** | **ONZEKER** | **ONZEKER** | HIGH site; LOW lodging | Current Katyayani Trust site lists Keshav Ashram, Radha Bagh, Vrindaban and current contacts. No explicit public guest-room booking policy was found in the audited pages. |
+| **Maganwadi, Wardha** | **JA** | **not verified at historic guest bedroom** | **ONZEKER** | HIGH site | Current Magan Sangrahalaya/MGIRI presence confirms Maganwadi continuity. Historic Yogananda guest bedroom was not identified. Separate 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=508 path=runs/active/INDIAWIT-HERITAGE-STAY-OVERRIDE-001/CURRENT_EXISTENCE_AND_BOOKABILITY.md blob_sha=7422780bbeab0befe4a43e663365521025673d33 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+Sevagram Ashram Yatri Niwas is currently bookable but is a different visitor facility/site. |
+| **Sevagram Yatri Niwas** | **JA** | **JA** | not a historical Yogananda room | VERY HIGH | Official Gandhi Sevagram Ashram site provides online Yatri Niwas booking. Useful only as Gandhi-heritage logistics, not as a claim that Yogananda slept in that modern visitor residence. |
+| **Belur Math** | **JA** | **JA for pilgrims/devotees** | **NEE for Vivekananda's preserved historic room** | VERY HIGH | Official Belur Math gives guesthouse contact and states accommodation is for devotees on pilgrimage. New Ma Sarada Bhavan/Yatri Nivas opened in May 2026. Same-room heritage claim is not allowed. |
+| **Kamarpukur Ramakrishna Math** | **JA** | **JA** | **NEE/ONZEKER for historic family room** | VERY HIGH | Official Kamarpukur RKM page offers limited guest house/dormitory accommodation to devotees by email. This is same heritage complex/town context, not a booking of Ramakrishna's childhood room. |
+| **Anandamayi Ma Varanasi Ashram, Bhadaini** | **JA** | **JA** | **ONZEKER** | VERY HIGH for present lodging | Official/current Shree Shree Anandamayee Sangha contact page explicitly lists `room bookings` and a separate local dharamshala contact for the Varanasi Ashram. No specific room associated with Ma was publicly identified. |
+| **Anandamayi Ma Kankhal / International Centre** | **JA** | **JA** | **ONZEKER / generally separate facility** | VERY HIGH | Anandamayi organization pages describe the International Centre adjoining Ma's Ashram/Samadhi as a retreat centre offering rooms with modern amenities and current booking contact. It is adjacent to, not proven identical with, a historic sleeping room of Ma. |
+| **Anandamayi Ma Vrindavan Ashram** | **JA** | **ONZEKER / contact required** | **ONZEKER** | HIGH site | Current Sangha lists the Vrindavan Ashram and contacts. Public pages do not provide sufficiently explicit room-allocation details for this audit. |
+| **Karar Ashram, Puri** (Sri Yukteswar/Hariharananda) | **JA** | **ONZEKER** | **ONZEKER** | HIGH site; LOW lodging | Existing project exact-overlap layer confirms site identity. No sufficiently authoritative public current guest-room booking policy was found in the targeted audit; direct institution contact is required before any stay claim. |
+| **Yogananda Regent Hotel, Mumbai** | **ONZEKER** | **ONZEKER** | **ONZEKER** | LOW | Historical hotel name is explicit, but exact address/building identity was unresolved in the person freeze. Modern businesses sharing the name are not accepted as continuity proof. |
+| **Yogananda Santiniketan guest house** | **ONZEKER** | **ONZEKER** | **ONZEKER** | LOW-MEDIUM | Historic institutional overnight is source-supported but the building was not named in the project freeze; no modern match was guessed. |
+| **Ramakrishna Fouzdar Kunj, Vrindavan** | **ONZEKER current fabric** | **ONZEKER** | **ONZEKER** | MEDIUM historical, LOW current | CCI 094 verified the historic lodging name and upper-room/veranda detail; current same-building survival/bookability was not safely established in this audit. |
+
+## Current-source set used
+
+- Official Shri Kainchi Hanuman Mandir Trust: `https://shreekainchimandirtrust.org/`
+- YSS accommodation: `https://yssofindia.org/request-accommodation`
+- YSS Ranchi: `https://yssofindia.org/location/ranchi`
+- YSS Serampore / associated heritage pages: `https://yssofindia.org/location/serampore`, `https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar`
+- Sri Ramanasramam accommodation/current heritage: `https://www.gururamana.org/Ashram/accommodation`, `https://www.gururamana.org/Ashram/visiting-us`, `https://stay.gururamana.org/`
+- Taj Hotels official Mumbai page: `https://www.tajhotels.com/en-in/hotels/taj-mahal-palace-mumbai`
+- Belur Math official: `https://belurmath.org/`
+- Kamarpukur RKM official guesthouse: `https://kamarpukur.rkmm.org/guest-house`
+- Gandhi Sevagram Ashram: `https://www.gandhiashramsevagram.org/`
+- Katyayani Trust: `https://www.katyayanipeeth.org.in/`
+- Anandamayi organization/Sangha: `https://ww
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=509 path=runs/active/INDIAWIT-HERITAGE-STAY-OVERRIDE-001/CURRENT_EXISTENCE_AND_BOOKABILITY.md blob_sha=7422780bbeab0befe4a43e663365521025673d33 original_offset=8192 original_length=766 payload_bytes=766 chunk_index=2 chunk_count=3 classification=text
+w.anandamayi.org/`, `https://www.shreeshreeanandamayeesangha.org/`
+- Hotel Evelyn current existence: current Google Hotels entity plus current Evelyn Hotels web presence; this is weaker than the institutional/official sources above and therefore room-level continuity remains unverified.
+
+## Fraud / false-continuity warning
+
+The Kainchi search produced multiple sites offering rooms while presenting themselves as Kainchi/Neem Karoli Baba accommodation. The official Trust explicitly states it is the sole authority for all bookings/stays. WIT therefore rejects every third-party page as proof of ashram-room availability unless the Trust itself confirms it.
+
+Likewise, a modern hotel with the same name as a historical hotel is never continuity evidence by itself.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=510 path=runs/active/INDIAWIT-HERITAGE-STAY-OVERRIDE-001/EXISTING_HOTEL_OVERRIDE_MATRIX.md blob_sha=db468d499488fe465794c3038d015dc7477a5a78 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# EXISTING_HOTEL_OVERRIDE_MATRIX — INDIA WIT
+
+status: COMPLETE_AUDIT_SNAPSHOT
+verified_at: 2026-08-19
+
+## Rule
+
+A heritage-stay candidate may trigger review, but **never changes a `LOCKED_BY_MARK` hotel automatically**. The only action this file can produce is `MARK_REVIEW_REQUIRED`.
+
+## Known locked hotel decisions
+
+### Varanasi — Sahi River View Guesthouse
+
+- status: **LOCKED_BY_MARK**
+- area: Assi Ghat / Varanasi
+- decision source: personal recommendation from Debby
+- mandatory notes already locked: request balcony room; greet Jitendre from Debby
+- lock remains **UNCHANGED**.
+
+### Override audit against heritage candidates
+
+| candidate | same destination/cluster relation | current overnight possible | heritage advantage | logistics/comfort unknowns | matrix result |
+|---|---|---|---|---|---|
+| **Shree Shree Ma Anandamayi Ashram, Bhadaini** | **DIRECT** — same Varanasi south/Assi-Bhadaini cluster; existing hotel decision itself names this as nearby A-location | **JA** — current Sangha explicitly publishes room-booking and local dharamshala contacts | potentially sleep at an actual ashram personally associated with Anandamayi Ma rather than only nearby | room standard, bathroom, access rules, foreign-guest handling, exact room/location within complex, late arrival and luggage logistics not yet compared | **MARK_REVIEW_REQUIRED — HIGH-IMPACT-REVIEW**. Do not alter Sahi lock. |
+| Yogananda Mahamandal-hermitage attic | Varanasi | identity unresolved | direct historic novice residence if ever identified | building itself unresolved | **NO OVERRIDE** now |
+| Lahiri Mahasaya D 31/58 residence | Varanasi | no public lodging verified | extremely high person relevance | private/devotional house; not a hotel | **NO OVERRIDE** |
+| other Varanasi private houses/rooms | Varanasi | mostly unknown/private | heritage visit value | no legal/public lodging basis | **NO OVERRIDE** |
+
+## Other clusters without a known LOCKED_BY_MARK hotel in the audited source envelope
+
+These do not override a lock, but should be inserted ahead of ordinary hotel selection if their cluster is chosen:
+
+| cluster | heritage stay | review level | reason |
+|---|---|---|---|
+| Nainital | **Hotel Evelyn** | **HIGH-IMPACT-REVIEW** | Same operating hotel where Ram Dass stayed in 1971; unusually strong possibility of sleeping in the actual historical hotel. Historic room itself still unverified. |
+| Tiruvannamalai | **Sri Ramanasramam guest accommodation** | **HIGH-IMPACT-REVIEW** | Arunachala/Tiruvannamalai is already LOCKED_BY_MARK as A-anchor. Modern guest rooms inside/around the ashram offer maximum same-complex immersion; sacred historical rooms/caves remain non-bookable. |
+| Mumbai | **Taj Mahal Palace** | **HIGH-IMPACT-REVIEW** | Same historic hotel where Yogananda occupied a suite in 1935; current hotel is fully operational and bookable. Exact suite unknown. |
+| Belur / Kolkata-Hooghly | **Belur Math guest house/Yatri Nivas** | **HIGH-IMPACT-REVIEW** | Same monastery complex strongly tied to Vivekananda, with official pilgrimage accommodation. Historic Vivekananda room is not itself lodging. |
+| Serampore | YSS Serampore retreat | REVIEW | Allows stay in the same heritage town/lineage environment near Anandaloka and Sri Yukteswar Smriti Mandir; not the historic rooms themselves. |
+| Kamarpukur | RKM Kamarpukur guest house | REVIEW | Official devotee guest lodging in the birthplace complex context of Ramakrishna; not his childhood room. |
+| Kankhal | Anandamayi International Centre | REVIEW | Bookable devotee retreat immediately adjoining Ma's Ashram/Samadhi; separate modern facility. |
+| Ranchi | YSS Ranchi guest accommodation | REVIEW / DATE-SENSITIVE | Strong Yogananda same-campus concept, but official accommodation is closed until early 2027; reopening must be verified against actual itinerary date. |
+| Puri | Karar Ashram | REVIEW_PENDING_BOOKABILITY | Same exact shared heritage site for Sri Yukteswar + Hariharananda; public overnight policy not yet verified. |
+| Vrindavan | Katyayani Peeth / Anandamayi Ashram / NKB-Ram Dass network | REVIEW | 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=511 path=runs/active/INDIAWIT-HERITAGE-STAY-OVERRIDE-001/EXISTING_HOTEL_OVERRIDE_MATRIX.md blob_sha=db468d499488fe465794c3038d015dc7477a5a78 original_offset=4096 original_length=1041 payload_bytes=1041 chunk_index=1 chunk_count=2 classification=text
+Multiple heritage-stay signals, but exact bookability and person-specific historical room continuity vary and need direct institution contact. |
+
+## Override hierarchy for later hotel selection
+
+When Mark has chosen a cluster and no hotel is locked, accommodation search should use this order:
+
+1. `SAME_HISTORIC_ROOM_BOOKABLE = JA` — strongest possible heritage override.
+2. `SAME_HISTORIC_HOTEL_OR_BUILDING_BOOKABLE = JA` — e.g. Hotel Evelyn/Taj if room cannot be proven.
+3. `SAME_ASHRAM_OR_MONASTERY_COMPLEX_GUEST_ROOM = JA` — e.g. Sri Ramanasramam, Belur Math.
+4. `ADJACENT_OFFICIAL_HERITAGE_GUESTHOUSE = JA` — e.g. Anandamayi International Centre, Kankhal.
+5. ordinary logistics hotel.
+
+This hierarchy is a **review order**, not an automatic decision rule. Comfort, access, winter/weather, transit and Mark's preferences can outweigh heritage value.
+
+## Existing lock protection
+
+No line in this audit supersedes `Sahi River View Guesthouse`. Its canonical state remains `LOCKED_BY_MARK` until Mark explicitly chooses otherwise.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=512 path=runs/active/INDIAWIT-HERITAGE-STAY-OVERRIDE-001/HERITAGE_STAY_CANDIDATES.md blob_sha=f0a47999982f767077da69a171a01bd95b09e9ce original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+# HERITAGE_STAY_CANDIDATES — INDIA WIT
+
+status: COMPLETE_AUDIT_SNAPSHOT
+verified_at: 2026-08-19
+scope: existing project-detected stay claims only; current-world verification may follow those claims, no broad new person-location sweep
+
+## Interpretation
+
+A `HERITAGE_STAY` candidate requires evidence that the person actually slept/lived/stayed at the place, not merely visited. Private residences, ashram rooms, hermitages, inns, hotels, huts and guest houses are retained even when they are not commercially bookable today. `BOOKABLE_SAME_ROOM` is never inferred from same-site continuity.
+
+## Consolidated candidate inventory
+
+| person | historic stay | city/region | type | stay evidence | period | room-level detail | current continuity | current overnight signal | impact |
+|---|---|---|---|---|---|---|---|---|---|
+| Ram Dass | **Hotel Evelyn** | Nainital, Uttarakhand | hotel | external freeze: lived there with western group; lectures/group life | 1971 | top-floor small `cave` room; balcony/patio also evidenced | **JA** — current Hotel Evelyn still operates on Mall Road | **JA, hotel generally bookable**; same historic room unverified | **HIGH-IMPACT-REVIEW** |
+| Ram Dass | old upstairs room, Kainchi Dham | Kainchi, Uttarakhand | ashram room | external freeze: lived there in 1967 and intentionally revisited old room in 1971 | 1967/1971 | upstairs / rear building; no number | complex exists; exact room correspondence **ONZEKER** | no trustworthy public proof that historic room can be booked | REVIEW |
+| Ram Dass | 2004 assigned room, Kainchi | Kainchi | ashram room | participant accounts place him in an assigned room | Oct 2004 | room unspecified | complex exists | same room **ONZEKER** | REVIEW |
+| Ram Dass | Chinese Buddhist monastery | Sarnath | monastery | *Be Here Now* layer: stayed several weeks | 1967 | no room number | likely institutional continuity, exact historic building only DEELS in freeze | current lodging not verified | NONE/ARCHIVE |
+| Ram Dass | unnamed semi-hippie hotel | Delhi | hotel | *Miracle of Love* layer: lived there and held daily satsang | c.1971–72 | none | identity unresolved | impossible to assess safely | NONE until identity solved |
+| Ram Dass | rented retreat house | Kausani | private rental house | external freeze: rented with three westerners | 1970–71 | none | identity unresolved | unknown | NONE until identity solved |
+| Neem Karoli Baba | **4 Church Lane / Red House** | Prayagraj | private residence / winter camp | Sudhir Mukerjee memoir: stayed 3–4 months in winters from 1959–60 onward | 1959–60 onward | Maharajji room, hall, veranda, meal/kitchen areas | current public devotional references still identify 4 Church Lane; ownership/access not established by audit | no public lodging offer verified | REVIEW as visit heritage, not hotel replacement |
+| Neem Karoli Baba | Kainchi Dham residence spaces | Kainchi | ashram | repeated stays within established ashram | 1960s–73 | multiple room/office/tucket references across project layers | complex **JA** | official Trust controls any stay permissions; historic room booking not established | REVIEW |
+| Neem Karoli Baba | Bhumiadhar first roadside hut | Bhumiadhar | hut/ashram precursor | lineage/external layer: stayed before temple construction | pre-temple period | hut only | current ashram exists; original hut survival not proved | historic hut not bookable on evidence | NONE |
+| Paramahansa Yogananda | **Taj Mahal Hotel / The Taj Mahal Palace** | Mumbai | hotel | autobiography: occupied a suite immediately after return to India | Aug 1935 | suite; number/name unknown | **JA, same historic hotel enterprise/site** | **JA**, current rooms/suites bookable; historic suite identity unknown | **HIGH-IMPACT-REVIEW** if Mumbai overnight enters route |
+| Paramahansa Yogananda | Regent Hotel | Mumbai | hotel | autobiography: stayed before sailing | Jun 1936 | room unspecified | exact hotel/address unresolved | ONZEKER | NONE until identity solved |
+| Paramahansa Yogananda | Santiniketan guest house | Santiniketan | institutional guest hou
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=513 path=runs/active/INDIAWIT-HERITAGE-STAY-OVERRIDE-001/HERITAGE_STAY_CANDIDATES.md blob_sha=f0a47999982f767077da69a171a01bd95b09e9ce original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+se | autobiography: stayed overnight, conversed on patio | 1930s | guest house + patio, building unnamed | identity unresolved | unknown | NONE until archive match |
+| Paramahansa Yogananda | **Anandaloka room, Sarada Prasad Ghosh house** | Serampore | private house / preserved shrine room | project freeze + YSS: stayed for a time in uncle's house | college years | exact room preserved/named `Anandaloka` | **JA** — YSS says property retained/restored and room is shrine | **NEE for same room**; Serampore YSS retreat lodging exists separately | REVIEW |
+| Paramahansa Yogananda | Sri Yukteswar hermitage | Serampore | ashram | lived/trained/repeatedly stayed with guru | c.1910 onward | upstairs sitting room/bedroom and courtyard layers | site now Smriti Mandir / restored heritage property | no evidence historic guru rooms are guest lodging; YSS retreat lodging exists separately | REVIEW |
+| Paramahansa Yogananda | Katayani/Katyayani Peeth Ashram | Vrindavan | ashram | external freeze: stayed one night in 1936 | 1936 | no exact room | **JA** — Katyayani Trust/Keshav Ashram current | current site contact verified; public room-booking offer not established | REVIEW/contact-only |
+| Paramahansa Yogananda | Maganwadi guest bedroom | Wardha | ashram/settlement guest lodging | autobiography: stayed as Gandhi's guest | 1935–36 | guest house/bedroom; Gandhi writing room separately recorded | Maganwadi institution/site **JA**, exact guest bedroom continuity unknown | no same-room lodging verified; Sevagram Yatri Niwas is bookable but is a different later visitor facility | NONE/heritage visit |
+| Paramahansa Yogananda | Ranchi school/ashram residence layer | Ranchi | school/ashram | founder/teacher residence and long stays in project layer | 1917 onward; 1935 return | preserved sacred room layers exist at campus | **JA** | YSS guest lodging normally exists but is officially closed until early 2027 due works | REVIEW / DATE-SENSITIVE |
+| Sri Yukteswar | **Priyadham / Serampore hermitage** | Serampore | private house → hermitage | lived, taught and stayed there for years | through 1936 | private bedroom + wooden bed; 2nd-floor sitting room; dining patio | YSS institutional site survives/restoration/Smriti Mandir; exact room-by-room fabric DEELS | no same historic room lodging verified; separate Serampore retreat lodging exists | REVIEW |
+| Sri Yukteswar | Karar Ashram | Puri | ashram | long residence and final-life base in reconciled/project layers | repeated/late life | room-level identity not safely closed in WIT source set | current Karar Ashram identity **JA** | public overnight booking not verified in this audit | REVIEW/contact-only |
+| Lahiri Mahasaya | D 31/58 Madanpura/Bangali Tola residence | Varanasi | private family house | principal lifelong Varanasi residence; reconciled exact site | adult life | house-level, internal room detail not safely promoted here | current heritage/devotional house identity exists in project layer | not a public hotel/guesthouse on verified evidence | NONE for hotel; visit heritage |
+| Lahiri Mahasaya | Ranikhet/Dronagiri temporary lodging leads | Kumaon | temporary/government/private lodging | person layers contain travel/residence context but exact lodging identity remains conflicted/insufficient | 1860s | unresolved | unresolved | unresolved | NONE until claim closure |
+| Mahavatar Babaji | Kukuchina/Dunagiri cave tradition | Kumaon | cave / sadhana site | project principal travel reason; tradition/source-presence governance | lineage event context | cave, not conventional room | site exists as travel anchor under special evidence rule | no safe evidence of lawful public overnight in the historic cave | NONE as hotel; anchor unchanged |
+| Ramana Maharshi | **Virupaksha Cave** | Tiruvannamalai | cave residence | lived there 1899–1916 | 1899–1916 | exact cave | **JA**, preserved by Sri Ramanasramam | **NEE** — official ashram says overnight on hill/in caves is prohibited | NONE as lodging; visit heritage |
+| Ramana Maharshi | **Skandashramam** | Tiruvannamalai | hermitage residence |
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=514 path=runs/active/INDIAWIT-HERITAGE-STAY-OVERRIDE-001/HERITAGE_STAY_CANDIDATES.md blob_sha=f0a47999982f767077da69a171a01bd95b09e9ce original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+ lived there 1916–1922 | 1916–22 | exact hermitage | **JA**, preserved | **NEE** for historic hermitage overnight | NONE as same-room stay |
+| Ramana Maharshi | Sri Ramanasramam living/Nirvana-room complex | Tiruvannamalai | ashram | principal final decades; Nirvana Room preserved | 1920s–1950 | Nirvana Room preserved as sacred room | **JA** | **JA for modern ashram guest rooms**, **NEE for Nirvana Room** | **HIGH-IMPACT-REVIEW** because Arunachala is LOCKED_BY_MARK A-anchor |
+| Ramakrishna | Dakshineswar temple room | Kolkata metro | temple residence room | long residence and teaching base | 1850s–1880s | preserved room | **JA** as shrine room | not lodging | NONE |
+| Ramakrishna | Cossipore Garden House | Kolkata metro | rented garden house residence | final illness residence | 1885–86 | house/rooms in project person layer | current RKM heritage site | no same historic room lodging verified | NONE/visit heritage |
+| Ramakrishna | Shyampukur Bati | Kolkata | rented house residence | illness-period residence before Cossipore | 1885 | house-level | heritage continuity recognized by Ramakrishna network | no public same-room lodging verified | NONE |
+| Ramakrishna | Fouzdar Kunj | Vrindavan | pilgrims' lodging / host house | CCI 094 directly verified named Mathur Babu pilgrimage lodging | pilgrimage period | upper room with semicircular veranda described | current physical continuity not sufficiently verified here | current overnight unknown | REVIEW only if identity/survival closes |
+| Ramakrishna | Kamarpukur family/birth home | Kamarpukur | family residence | childhood/home stays | early life + returns | historic home | Ramakrishna Math maintains birthplace complex | modern RKM guest house/dormitory is bookable for devotees, but not the historic home room | REVIEW if Kamarpukur enters route |
+| Vivekananda | **Belur Math monastic residence** | Belur/Howrah | monastery | lived/worked at the Math; core lineage residence in project layer | late 1890s–1902 | preserved room/monastic heritage, but not guest room | **JA** | **JA** — Belur Math guest house/Yatri Nivas available to pilgrims; historic room itself not bookable | **HIGH-IMPACT-REVIEW** if Kolkata/Hooghly cluster selected |
+| Vivekananda | Khetri royal/mission heritage stay layer | Khetri, Rajasthan | palace/host residence | project travel layer links Vivekananda strongly to Khetri host network | 1890s | exact historic bedroom not closed here | current RKM Vivekananda Smriti Mandir/centre exists | branch centre has limited guest rooms by prior permission; same historic room not established | REVIEW if Khetri enters route |
+| Anandamayi Ma | **Bhadaini/Varanasi Ashram** | Varanasi | ashram/residence | durable Anandamayi layer places Ma at her Varanasi ashram/verblijf | repeated | no historic room number securely recovered in current integration | **JA**, current Sangha ashram | **JA** — official Sangha contact explicitly lists `room bookings` and local dharamshala | **HIGH-IMPACT-REVIEW**; conflicts with existing Varanasi hotel lock only at review level |
+| Anandamayi Ma | Kankhal Ashram / Samadhi complex | Kankhal/Haridwar | ashram/residence | major life/end-of-life ashram layer | repeated | no specific historical sleeping room safely pinned | **JA** | adjoining International Centre explicitly offers bookable devotee accommodation; not same historic room | REVIEW |
+| Anandamayi Ma | Vrindavan Ashram | Vrindavan | ashram/residence | durable person layer | repeated | none safely pinned | **JA** | Sangha contacts current; some devotee accommodation signals exist, exact policy requires contact | REVIEW |
+| Anandamayi Ma | Patal Devi / Almora-area ashram layer | Almora/Kumaon | ashram/residence | durable internal person layer | repeated | none safely pinned | current institutional continuity not fully revalidated in this task | unknown | REVIEW only if Kumaon itinerary overlaps |
+| Hariharananda | **Karar Ashram** | Puri | ashram/residence | durable Hariharananda layer; exact shared site with Sri Yukteswar | long association | specific historical sleeping 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=515 path=runs/active/INDIAWIT-HERITAGE-STAY-OVERRIDE-001/HERITAGE_STAY_CANDIDATES.md blob_sha=f0a47999982f767077da69a171a01bd95b09e9ce original_offset=12288 original_length=1461 payload_bytes=1461 chunk_index=3 chunk_count=4 classification=text
+room not securely identified | **JA** at site level | public overnight booking not verified | REVIEW if Puri cluster selected |
+| Hariharananda | Balighai Gurukulam | Puri district | ashram/gurukulam | durable person layer | later life/network | no room-level historic claim promoted | current institution/site layer exists | overnight policy unverified | NONE/CONTACT-ONLY |
+
+## Explicit unresolved lodging leads retained
+
+These are not deleted merely because current verification is impossible: Yogananda's Srinagar two-storey inn, Regent Hotel identity, Santiniketan guest house, Agra family bungalow, Mahamandal hermitage attic and Gauri Ma hermitage; Ram Dass' Delhi Buddhist monastery, Delhi semi-hippie hotel, Kausani rental house and hill hut; Sri Yukteswar's unnamed Kashmir inns; NKB military/official/private rooms and roadside huts; Ramana's early temporary shelters/houses where exact modern continuity is unresolved; Ramakrishna's numerous private Kolkata devotee houses where CCI 094 says physical-identity saturation is still incomplete.
+
+## Governance
+
+- No existing `LOCKED_BY_MARK` hotel is changed here.
+- `Sahi River View Guesthouse` remains the locked Varanasi base until Mark explicitly decides otherwise.
+- Arunachala/Tiruvannamalai remains `LOCKED_BY_MARK` A-anchor; this audit only raises Sri Ramanasramam accommodation for review.
+- Kukuchina/Dunagiri remains the principal Babaji travel reason and is not re-valued as accommodation.
+
+<<< END CHUNK >>>
+

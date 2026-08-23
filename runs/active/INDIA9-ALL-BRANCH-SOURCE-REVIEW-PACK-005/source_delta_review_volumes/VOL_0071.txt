@@ -1,0 +1,1344 @@
+>>> CHUNK stream_row=1233 path=knowledge/methodology/METHODOLOGY_V2.md blob_sha=ac9929cfcb49467276e108a2632e8b0cec2d03c8 original_offset=4096 original_length=2316 payload_bytes=2316 chunk_index=1 chunk_count=2 classification=text
+ader, boek, traditie of lineage. Een overlay:
+- verandert de feiten niet;
+- kent geen score of waardering toe;
+- mag geen kandidaat uitsluiten;
+- wordt alleen toegepast wanneer de relatie onderbouwd of expliciet onzeker is.
+
+De concrete overlays staan buiten deze generieke methodologie in een projectbestand.
+
+## 6. Bewijsstatus per claim
+
+Iedere materiële claim krijgt één status:
+- `VERIFIED_PRIMARY`
+- `VERIFIED_INSTITUTIONAL`
+- `SUPPORTED_SECONDARY`
+- `INFERRED`
+- `CONFLICTED`
+- `NOT_ESTABLISHED`
+
+De status geldt per claim, niet per hele kandidaat. Een plek kan bijvoorbeeld fysiek en institutioneel sterk bevestigd zijn, historisch onzeker, lineage-sterk en als levende praktijk sterk.
+
+## 7. Bronregels
+
+Gebruik de sterkst beschikbare specifieke bron voor het betreffende claimtype:
+- primaire tekst of direct document;
+- officiële beheerder- of lineagebron;
+- overheid, universiteit, museum, archief of erfgoedinstantie;
+- degelijk secundair onderzoek.
+
+Zoekresultaten, AI-samenvattingen en Wikipedia zijn alleen zoekrichtingen. Blogs, commerciële reissites, sociale media en video zonder controleerbare documentatie dragen geen kernclaim.
+
+Een lijn-eigen bron mag lineage, traditie, eigen geschiedenis en praktijk dragen. Zij bewijst niet zelfstandig dat een bovennatuurlijke of oude gebeurtenis objectief heeft plaatsgevonden.
+
+## 8. Bezoekbaarheid
+
+Fysiek bestaan, levende functie en actuele bezoekbaarheid zijn drie verschillende vragen.
+
+Wanneer identiteit wel maar actuele toegang niet is bevestigd, schrijf exact:
+
+`Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.`
+
+Geen algemene aanname van toegang op basis van het bestaan van een tempel, ashram of kaartvermelding.
+
+## 9. Geen AI-waardering
+
+De onderzoeker rapporteert lagen, bronnen, onzekerheden en overlays afzonderlijk. Hij berekent geen totaalscore, projectrelevantie of impliciete rangorde.
+
+Alleen Mark kent A, B of C toe. Nieuwe kandidaten blijven `ONGEMERKT`.
+
+## 10. Volledigheid
+
+Een sweep is alleen compleet wanneer de opgegeven controlelijst, verplichte open zoekrichtingen, relevante overlays, negatieve resultaten, dubbelingen en actuele onzekerheden zichtbaar zijn behandeld. Onvolledigheid wordt expliciet verklaard; zij mag niet door overtuigende formulering worden verborgen.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1234 path=pipeline/ENTRYPOINT.md blob_sha=7ef214a8aa7d224c276711c4008caaa2c8a6fe53 original_offset=0 original_length=2297 payload_bytes=2297 chunk_index=0 chunk_count=1 classification=text
+# ENTRYPOINT — BRONS / ZILVER / GOUD
+
+Dit is het enige startpunt voor een nieuwe uitvoerende AI-sessie.
+
+## Activatie
+
+Een controller of Mark activeert exact één rol voor exact één run:
+
+`Open pipeline/ENTRYPOINT.md. Voer rol <BRONS|ZILVER|GOUD> uit voor run <run-id>. Lees uitsluitend het gepinde contextmanifest. Schrijf alle resultaten naar GitHub en stop bij ontbrekende write-toegang, SHA-afwijking, truncatie, geldige bestaande claim of state-desynchronisatie.`
+
+Geen rapporttekst wordt tussen chats geplakt. GitHub is het enige overdrachtskanaal.
+
+## Verplichte volgorde
+
+1. Controleer lees- en schrijfrechten voor de repository.
+2. Open `research/active/<run-id>/run.yaml`.
+3. Controleer dat de gevraagde rol overeenkomt met `state.yaml` en dat de verwachte fase gereed is.
+4. Lees het gepinde rolcontract uit `run.yaml`.
+5. Lees het gepinde protocol- en methodologiebestand uit `run.yaml`.
+6. Lees uitsluitend `research/active/<run-id>/context/<ROLE>_CONTEXT.yaml` en de daarin genoemde bestanden.
+7. Controleer `source_commit`, hashes, vereiste bestanden en contextbudget.
+8. Claim de fase volgens `pipeline/protocols/EXECUTION_PROTOCOL.md`.
+9. Voer de rol uit en schrijf uitsluitend naar het toegewezen fasepad.
+10. Valideer alle verplichte outputs, sentinels en verwijzingen.
+11. Schrijf `manifest.yaml`, `handoff.yaml`, `COMPLETED`, update `state.yaml` en append één event aan `events.jsonl`.
+12. Commit de volledige fase-uitkomst.
+
+## Stopvoorwaarden
+
+Stop zonder inhoudelijk werk wanneer:
+- GitHub-write ontbreekt;
+- run of rol niet bestaat;
+- `source_commit` niet overeenkomt;
+- een niet-verlopen geldige claim van een andere worker bestaat;
+- state en eventlog elkaar tegenspreken;
+- het contextmanifest ontbreekt of niet volledig gelezen kan worden;
+- een required file ontbreekt of een expected hash niet klopt;
+- output wordt afgekapt of een verplichte sectie niet kan worden voltooid.
+
+Schrijf bij een stop alleen een `BLOCKED`-event en, indien toegestaan, de blokkade in `state.yaml`. Maak geen gedeeltelijk fase-resultaat geldig.
+
+## Verbod
+
+Een uitvoerende rol wijzigt tijdens dezelfde run nooit zijn eigen rolcontract, methodologie, protocol, contextregels of schemas. Verbeteringen gebeuren na afloop in een afzonderlijke commit of pull request.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1235 path=pipeline/QUALITY_GATE.md blob_sha=d79085a54469ffb882f8d91245a4fb79c806d654 original_offset=0 original_length=3447 payload_bytes=3447 chunk_index=0 chunk_count=1 classification=text
+# QUALITY_GATE v2.0 — verplichte fase- en vrijgavecontrole
+
+Iedere rol past deze controle toe. GOUD gebruikt haar als harde vrijgavepoort.
+
+## A. Technische fase-integriteit
+
+- [ ] rol en run zijn expliciet geactiveerd;
+- [ ] GitHub-write is bevestigd;
+- [ ] claim-lock, source commit en expected state kloppen;
+- [ ] state en eventlog zijn synchroon;
+- [ ] alle required contextbestanden zijn volledig gelezen;
+- [ ] geen forbidden file is gebruikt;
+- [ ] alle verplichte outputbestanden bestaan;
+- [ ] ieder tekstbestand eindigt met `END_OF_ARTIFACT`;
+- [ ] geen primair bestand overschrijdt 1500 regels;
+- [ ] manifest, handoff en COMPLETED stemmen overeen;
+- [ ] geen materiaal bestaat uitsluitend in de chat;
+- [ ] artifacts zijn na schrijven opnieuw geopend en gecontroleerd.
+
+## B. Kandidaatniveau
+
+Voor iedere kandidaat:
+- [ ] fysieke identiteit is specifiek en brongebonden;
+- [ ] institutionele identiteit is onderzocht;
+- [ ] historische identiteit is afzonderlijk gerapporteerd;
+- [ ] traditie is als traditie gelabeld en de dragende gemeenschap is genoemd;
+- [ ] lineage is afzonderlijk onderzocht wanneer relevant;
+- [ ] levende praktijk en continuïteit zijn afzonderlijk onderzocht;
+- [ ] actuele bezoekbaarheid is afzonderlijk bevestigd of gebruikt exact de onzekerheidszin;
+- [ ] getuigenissen zijn als getuigenis gelabeld;
+- [ ] place types zijn objectief en niet waarderend;
+- [ ] overlays zijn relaties, geen prioriteit of totaalscore;
+- [ ] iedere materiële claim heeft een bewijsstatus en bestaande source_id;
+- [ ] bronlabels passen bij het claimtype;
+- [ ] geen zoekresultaat, AI-overzicht, Wikipedia of zwakke bron draagt een kernclaim;
+- [ ] lijn-eigen bronnen worden niet als onafhankelijk bewijs misbruikt;
+- [ ] ontbrekend historisch bewijs diskwalificeert niet automatisch een sterke lineage- of traditieplaats;
+- [ ] toeristische populariteit vervangt geen levende spirituele praktijk;
+- [ ] unieke fysieke of rituele inhoud rechtvaardigt zelfstandige opname;
+- [ ] bestaande A/B/C-status is niet herbeoordeeld;
+- [ ] nieuwe kandidaat blijft ONGEMERKT.
+
+## C. Rapportniveau
+
+- [ ] volledige scope en vaste controlelijst behandeld;
+- [ ] buiten de controlelijst aantoonbaar gezocht;
+- [ ] alle verplichte projectoverlays behandeld;
+- [ ] AOAY-relaties gebruiken dubbele bewijsvoering;
+- [ ] open regio-/corridoronderzoek uitgevoerd waar de scope dit vereist;
+- [ ] negatieve zoekresultaten zichtbaar;
+- [ ] dubbelingen en aliases opgelost of expliciet open;
+- [ ] ashrams en levende praktijk zonder onbewezen verblijfsclaims behandeld;
+- [ ] onzekerheden staan lokaal bij claims én systematisch in audit;
+- [ ] tellingen, kandidaatnummers en kruisverwijzingen kloppen;
+- [ ] geen A/B/C, totaalscore, projectrelevantie, route, nachten, hotels, vervoer of prijzen toegevoegd;
+- [ ] rapportindex en alle delen vormen samen een zelfstandig dossier;
+- [ ] rapport is volledig en niet afgekapt.
+
+## D. Vrijgavestatus
+
+- `PASS`: alle harde technische en inhoudelijke controles zijn JA.
+- `PARTIAL`: dossier is betrouwbaar bruikbaar, maar expliciete niet-fatale onderzoeksgaten blijven open.
+- `BLOCKED`: technische integriteit, kernbewijs of overdracht is onvoldoende.
+
+Een bron-, context-, bezoekbaarheids- of truncatietekort mag nooit worden verborgen door algemene formuleringen als “grotendeels compleet”. Maximaal vijf hoogste blokkers worden concreet benoemd in `decision.md` en `COMPLETED`.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1236 path=pipeline/README.md blob_sha=73a22070e61092e163c5b47f72c5f1b077c5e0c5 original_offset=0 original_length=2715 payload_bytes=2715 chunk_index=0 chunk_count=1 classification=text
+# BRONS–ZILVER–GOUD-pijplijn v2.0
+
+## Doel
+
+Eén onderzoeksrun wordt in drie opeenvolgende, volledig nieuwe AI-sessies opgebouwd. GitHub is het enige overdrachtskanaal.
+
+1. **BRONS** detecteert breed en bouwt de eerste volledige faseversie.
+2. **ZILVER** verifieert, spreekt tegen, vult aan en bouwt een volledige verbeterde faseversie.
+3. **GOUD** synthetiseert, valideert en levert het enige dossier voor de regisseur.
+
+De rollen kunnen worden uitgevoerd door iedere AI die de repository volledig kan lezen én schrijven en het rolcontract volgt.
+
+## Start
+
+Iedere uitvoerende sessie begint bij `pipeline/ENTRYPOINT.md` met alleen een run-id en rol. Er wordt geen voorgangerrapport in de chat geplakt.
+
+## Architectuur
+
+- `knowledge/methodology/` — generieke onderzoeksmethodologie;
+- `knowledge/project/` — India-specifieke overlays en projectdata;
+- `pipeline/roles/` — modelonafhankelijke rolcontracten;
+- `pipeline/protocols/` — uitvoering, context en bewijs;
+- `pipeline/templates/` — run- en artifacttemplates;
+- `research/active/<run-id>/` — geïsoleerde lopende run;
+- `research/completed/<run-id>/` — afgeronde, standaard niet-ingelezen run.
+
+## Verplichte principes
+
+- Nooit “lees de repository”; altijd “lees het gepinde contextmanifest”.
+- Iedere run is geïsoleerd.
+- Iedere fase schrijft naar haar eigen map.
+- Rapporten zijn logisch volledig maar fysiek opgesplitst.
+- Geen primair bestand boven 1500 regels.
+- Claims en bronnen zijn ook machineleesbaar vastgelegd.
+- Iedere tekstartifact eindigt met `END_OF_ARTIFACT`.
+- Geen `COMPLETED` zonder herlezing en validatie.
+- Geen protocolwijziging midden in een run.
+- Alleen Mark kent A/B/C toe.
+
+## Methodologie
+
+Methodology v2.0 onderzoekt blijvende spirituele bestemmingen via afzonderlijke lagen: fysieke identiteit, institutionele identiteit, historische identiteit, traditie, lineage, levende praktijk, bezoekbaarheid en getuigenissen.
+
+Verschillende soorten onderbouwing worden nooit samengevoegd tot één totaalscore. Mythische of bovennatuurlijke figuren worden onderzocht via gedragen traditie en lineage, niet via een onmogelijke klassieke biografische bewijsproef.
+
+Projectspecifieke interpretatie-overlays staan apart in `knowledge/project/OVERLAYS_INDIA.md`.
+
+## Doorontwikkeling
+
+India2, Claude, ChatGPT en andere bevoegde schrijvers mogen de pipeline na een run verbeteren via een expliciete commit of pull request. Iedere verbetering:
+- benoemt een waargenomen fout of kwaliteitswinst;
+- controleert gevolgen voor alle drie rollen;
+- verhoogt `pipeline/VERSION.md`;
+- respecteert AI_RULES en Marks exclusieve beslissingsrecht;
+- verandert nooit stil de gepinde regels van een actieve run.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1237 path=pipeline/START_PROMPTS.md blob_sha=74f329479badf3edda8340234799ea8b01f2b0e8 original_offset=0 original_length=1588 payload_bytes=1588 chunk_index=0 chunk_count=1 classification=text
+# Minimale activaties
+
+Iedere rol draait in een volledig nieuwe chat met GitHub-lees- en schrijfrechten. Er wordt geen rapporttekst tussen chats geplakt.
+
+## BRONS
+
+```text
+Open pipeline/ENTRYPOINT.md in repository bnzgxknwrv-tech/india-knowledge-base. Voer rol BRONS uit voor run <run-id>. Lees uitsluitend het gepinde contextmanifest. Schrijf alle resultaten naar GitHub en stop bij ontbrekende write-toegang, SHA-afwijking, truncatie, geldige bestaande claim of state-desynchronisatie.
+```
+
+## ZILVER
+
+```text
+Open pipeline/ENTRYPOINT.md in repository bnzgxknwrv-tech/india-knowledge-base. Voer rol ZILVER uit voor run <run-id>. Lees uitsluitend het gepinde contextmanifest en haal de volledige BRONS-output uit GitHub. Schrijf alle resultaten naar GitHub en stop bij ontbrekende write-toegang, SHA-afwijking, truncatie, geldige bestaande claim of state-desynchronisatie.
+```
+
+## GOUD
+
+```text
+Open pipeline/ENTRYPOINT.md in repository bnzgxknwrv-tech/india-knowledge-base. Voer rol GOUD uit voor run <run-id>. Lees uitsluitend het gepinde contextmanifest en haal de volledige ZILVER-output uit GitHub. Schrijf het definitieve dossier en vrijgavebesluit naar GitHub en stop bij ontbrekende write-toegang, SHA-afwijking, truncatie, geldige bestaande claim of state-desynchronisatie.
+```
+
+## Regisseur
+
+De regisseur ontvangt alleen:
+- run-id;
+- GOUD-commit;
+- pad naar `GOUD/manifest.yaml` en `GOUD/report/INDEX.md`;
+- status `PASS`, `PARTIAL` of `BLOCKED`.
+
+BRONS en ZILVER blijven zichtbaar in hun eigen runmappen voor controle en latere verbetering van de werkwijze.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1238 path=pipeline/VERSION.md blob_sha=d4f314678b814cec63e92c446f34c2621d4be123 original_offset=0 original_length=2036 payload_bytes=2036 chunk_index=0 chunk_count=1 classification=text
+# Pipelineversie
+
+**Versie:** 2.0.0  
+**Status:** gereed voor ingebruikname  
+**Datum:** 2026-07-12
+
+## 2.0.0
+
+Aanleiding:
+- de eerste versie vereiste handmatig kopiëren van volledige rapporten tussen chats;
+- één historisch bewijsmodel paste niet op levende tradities, lineages en getuigenissen;
+- er ontbraken runisolatie, contextpinning, claim-locks en truncatiebeveiliging.
+
+Gewijzigd gedrag:
+- GitHub is het enige overdrachtskanaal;
+- iedere rol schrijft een volledige eigen faseversie in een geïsoleerde runmap;
+- iedere fase leest uitsluitend een gepind contextmanifest;
+- Methodology v2.0 scheidt fysieke, institutionele, historische, traditie-, lineage-, levende-praktijk-, bezoekbaarheids- en getuigenislagen;
+- India-overlays zijn projectspecifieke data buiten de generieke methodologie;
+- claims en bronnen worden machineleesbaar vastgelegd;
+- claim-lock, state machine, eventlog, source-commit-pinning, sentinels en COMPLETED-markers toegevoegd;
+- GOUD geeft PASS, PARTIAL of BLOCKED;
+- geen handmatige rapportoverdracht meer.
+
+Betrokken hoofdbestanden:
+- `pipeline/ENTRYPOINT.md`
+- `pipeline/PIPELINE_CONTRACT.md`
+- `pipeline/QUALITY_GATE.md`
+- `pipeline/roles/*.md`
+- `pipeline/protocols/*.md`
+- `pipeline/templates/RUN_TEMPLATE.md`
+- `knowledge/methodology/METHODOLOGY_V2.md`
+- `knowledge/project/OVERLAYS_INDIA.md`
+- `research/README.md`
+
+Verwachte kwaliteitswinst:
+- minder afkapping en contextverlies;
+- reproduceerbare overdracht tussen modellen;
+- correcter onderzoek van mythische figuren en levende lineages;
+- sterkere brontraceerbaarheid;
+- geen verborgen output in chats;
+- behoud van BRONS- en ZILVER-ontwikkeling voor latere methodiekverbetering.
+
+## 1.0.0
+
+Eerste seriële BRONS–ZILVER–GOUD-conceptversie. Deze versie was chat-gecentreerd en is vervangen door 2.0.0.
+
+## Wijzigingsregel
+
+Iedere inhoudelijke protocolwijziging verhoogt de versie en vermeldt aanleiding, gewijzigd gedrag, betrokken bestanden en verwachte kwaliteitswinst. Actieve runs blijven op hun gepinde versies.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1239 path=pipeline/protocols/CONTEXT_PROTOCOL.md blob_sha=cbcd18e5ffd46736a46b710c7710b89245e51962 original_offset=0 original_length=1766 payload_bytes=1766 chunk_index=0 chunk_count=1 classification=text
+# Context Protocol v2.0
+
+## Regel
+
+Geen rol leest ooit "de repository". Iedere rol leest uitsluitend:
+1. `pipeline/ENTRYPOINT.md`;
+2. zijn gepinde rolcontract;
+3. de gepinde methodologie en protocollen;
+4. zijn fase-contextmanifest;
+5. exact de bestanden die daarin staan.
+
+## Contextmanifest
+
+Per rol bestaat `research/active/<run-id>/context/<ROLE>_CONTEXT.yaml` met minimaal:
+- `run_id`
+- `role`
+- `source_commit`
+- `protocol_versions`
+- `required_files`
+- `optional_files`
+- `forbidden_files`
+- `priority_order`
+- `expected_hashes` waar beschikbaar
+- `maximum_context_budget`
+- `predecessor_manifest`
+- `output_path`
+
+## Selectie
+
+`required_files` bevat alleen wat noodzakelijk is voor de rol. Oude runs, niet-relevante clusters en volledige archieven zijn verboden tenzij expliciet genoemd.
+
+BRONS krijgt scope, controlelijst, projectoverlays, bestaande statussen en relevante records.
+ZILVER krijgt daarnaast het volledige BRONS-outputmanifest en alle daarin verplichte rapport-, claim- en bronbestanden.
+GOUD krijgt het volledige ZILVER-outputmanifest en alleen BRONS-bestanden die expliciet nodig zijn voor verliescontrole.
+
+## Budget en splitsing
+
+- Geen primair bestand boven 1500 regels.
+- Grote kandidatenkaarten worden in genummerde delen gesplitst.
+- `report/INDEX.md` bepaalt de verplichte leesvolgorde.
+- Een rol stopt wanneer een required file niet volledig gelezen kan worden.
+- Optional files worden alleen geopend wanneer het manifest een concrete trigger noemt.
+
+## Determinisme
+
+Een AI mag geen extra repositoryzoektocht starten om "voor de zekerheid" meer interne bestanden te lezen. Extern webonderzoek binnen de rol blijft toegestaan. Ontbrekende interne context wordt een blokkade of expliciet context-gat; geen vrije gok.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1240 path=pipeline/protocols/EVIDENCE_PROTOCOL.md blob_sha=559e37dc47813de2befd0b4058576ca8ca7a9f0f original_offset=0 original_length=2301 payload_bytes=2301 chunk_index=0 chunk_count=1 classification=text
+# Evidence Protocol v2.0
+
+## 1. Claims zijn atomair
+
+Iedere materiële bewering krijgt een `claim_id`, claimtype, bewijsstatus en één of meer `source_id`-verwijzingen. Een bron wordt niet algemeen aan een kandidaat gehangen wanneer zij slechts één deelclaim draagt.
+
+## 2. Claimtypes
+
+Toegestane hoofdtypen:
+- `PHYSICAL_IDENTITY`
+- `INSTITUTIONAL_IDENTITY`
+- `HISTORICAL`
+- `TRADITION`
+- `LINEAGE`
+- `LIVING_PRACTICE`
+- `VISITABILITY`
+- `TESTIMONY`
+- `OVERLAY_RELATION`
+
+## 3. Bewijsstatus
+
+Gebruik uitsluitend:
+- `VERIFIED_PRIMARY`
+- `VERIFIED_INSTITUTIONAL`
+- `SUPPORTED_SECONDARY`
+- `INFERRED`
+- `CONFLICTED`
+- `NOT_ESTABLISHED`
+
+Geen totaalscore per kandidaat.
+
+## 4. claims.jsonl
+
+Minimale velden per regel:
+- `claim_id`
+- `candidate_id`
+- `claim_type`
+- `claim_text`
+- `evidence_status`
+- `source_ids`
+- `notes`
+- `supersedes_claim_id` indien van toepassing
+
+ZILVER en GOUD overschrijven het voorgangerbestand niet. Zij maken een volledig eigen claimregister voor hun fase, met behoud of expliciete vervanging van geldige claims.
+
+## 5. sources/registry.jsonl
+
+Minimale velden:
+- `source_id`
+- `url`
+- `title`
+- `publisher`
+- `source_type`
+- `retrieved_at`
+- `supports_claims`
+- `access_status`
+- `content_hash` indien betrouwbaar beschikbaar
+- `notes`
+
+Toegestane `source_type`:
+- `PRIMARY_TEXT`
+- `OFFICIAL_INSTITUTION`
+- `OFFICIAL_LINEAGE`
+- `GOVERNMENT`
+- `ACADEMIC`
+- `REPUTABLE_SECONDARY`
+
+## 6. rejected.jsonl
+
+Leg afgewezen bronnen vast met:
+- `url`
+- `reason`
+- `searched_for`
+- `replacement_source_id` indien gevonden
+
+Zo hoeven latere rollen dezelfde zwakke bron niet opnieuw te beoordelen.
+
+## 7. Onzekerheid blijft lokaal zichtbaar
+
+Onzekerheid staat zowel bij de relevante rapportclaim als in `claims.jsonl`. `audit.md` is niet de enige plaats waar waarschuwingen staan.
+
+## 8. Traditie en lineage
+
+Een officiële tempel-, ashram- of lineagebron kan haar eigen traditie, parampara, praktijk en institutionele identiteit dragen. Zij wordt niet gebruikt als onafhankelijke bevestiging van bovennatuurlijke gebeurtenissen of precieze oude topografie.
+
+## 9. Getuigenissen
+
+Getuigenissen mogen de aantrekkingskracht en levende betekenis illustreren wanneer bron, persoon en context duidelijk zijn. Zij blijven `TESTIMONY` en worden nooit automatisch `HISTORICAL`.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1241 path=pipeline/protocols/EXECUTION_PROTOCOL.md blob_sha=8ee64c297d6f4c19d9d3e9b48c4227c2e4abe7e8 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# Execution Protocol v2.0
+
+## 1. Repository-only handoff
+
+Een chat is een tijdelijke worker. Alle blijvende invoer, voortgang en uitvoer staat in GitHub. BRONS, ZILVER en GOUD communiceren niet via geplakte rapporten.
+
+## 2. Runstatus
+
+Iedere run bevat:
+- `run.yaml` — onveranderlijke run-identiteit, scope en protocolpins;
+- `state.yaml` — actuele afgeleide toestand;
+- `events.jsonl` — append-only gebeurtenissen;
+- één contextmanifest per rol;
+- één geïsoleerde outputmap per fase.
+
+`run.yaml` verandert niet nadat BRONS is geclaimd. Een noodzakelijke wijziging vereist een nieuwe run of expliciete migratie.
+
+## 3. Toestanden
+
+Toegestane fasevolgorde:
+
+`READY_FOR_BRONS -> BRONS_CLAIMED -> BRONS_COMPLETE -> READY_FOR_ZILVER -> ZILVER_CLAIMED -> ZILVER_COMPLETE -> READY_FOR_GOUD -> GOUD_CLAIMED -> GOUD_PASS|GOUD_PARTIAL|GOUD_BLOCKED -> ARCHIVED`
+
+Een overgang is alleen geldig wanneer:
+1. de verwachte vorige toestand klopt;
+2. een corresponderend event wordt toegevoegd;
+3. verplichte output voor de overgang bestaat en is gevalideerd.
+
+## 4. Claim-lock
+
+Voor inhoudelijk werk schrijft de worker een claim in `state.yaml` en een `CLAIMED`-event met:
+- `role`
+- `claimed_by`
+- `claimed_at`
+- `source_commit`
+- `expected_state`
+- `output_path`
+
+Claims zijn niet automatisch tijdgebonden. Omdat een AI-chat niet betrouwbaar op tijd kan worden hervat, mag een claim alleen worden overgenomen na expliciete activatie door Mark of een controller, vastgelegd als `CLAIM_OVERRIDDEN` met reden. Zo wordt stille dubbele schrijvers voorkomen zonder een schijnbaar betrouwbare leaseklok.
+
+## 5. Source-commit pinning
+
+De worker leest vanaf de commit die in het contextmanifest staat. Voor de eigen fase-uitvoer geldt die commit als `source_commit`. Verandert de branch vóór de claim of blijkt een expected hash afwijkend, dan stopt de worker.
+
+Na claimen schrijft de worker alleen naar zijn eigen fase-output en de overeengekomen state/eventbestanden. Andere protocol- of onderzoeksbestanden worden niet gewijzigd.
+
+## 6. Fase-output
+
+Iedere fase schrijft minimaal:
+- `manifest.yaml`
+- `report/INDEX.md`
+- opgesplitste rapportbestanden uit INDEX
+- `claims.jsonl`
+- `sources/registry.jsonl`
+- `sources/rejected.jsonl`
+- `audit.md`
+- `handoff.yaml`
+- `COMPLETED`
+
+Geen primair fasebestand mag groter zijn dan 1500 regels. Splits eerder wanneer leesbaarheid of contextbudget daar baat bij heeft.
+
+`REPORT_ASSEMBLED.md` is optioneel en afgeleid. Het is nooit de primaire invoer voor de volgende fase.
+
+## 7. Volledigheid en truncatie
+
+Ieder tekstbestand eindigt met `END_OF_ARTIFACT`.
+
+`manifest.yaml` noemt:
+- alle verplichte bestanden;
+- regel- of byteaantallen;
+- hashes wanneer de uitvoerder die betrouwbaar kan berekenen;
+- completion status;
+- broncommit;
+- rol- en protocolversies.
+
+`COMPLETED` wordt pas geschreven nadat alle vereiste bestanden opnieuw zijn geopend en de sentinels zichtbaar zijn gecontroleerd. Het bestand vermeldt `PASS`, `PARTIAL` of `BLOCKED` en de lijst met outputs.
+
+## 8. Handoff
+
+`handoff.yaml` bevat geen rapporttekst. Het bevat:
+- run-id;
+- completed role;
+- result status;
+- output manifest path;
+- next role;
+- next expected state;
+- source commit voor de volgende fase;
+- open blockers;
+- required predecessor files.
+
+De volgende rol leest uitsluitend zijn gepinde contextmanifest. Dat manifest verwijst expliciet naar de fase-output die nodig is.
+
+## 9. Fouten en herstel
+
+- Ontbrekend bestand of sentinel: fase blijft geclaimd of wordt `BLOCKED`; geen COMPLETE-status.
+- State/event mismatch: append `DESYNC_DETECTED`, stop en laat Mark/controller herstellen.
+- Partiële commit: maak een herstelcommit binnen dezelfde fase; schrijf pas daarna COMPLETED.
+- Onjuiste claim: alleen expliciete override door Mark/controller.
+- Protocolwijziging tijdens run: negeren; gepinde versie blijft leidend.
+
+## 10. Archivering
+
+Na GOUD PASS/PARTIAL en verwerking door de regisseur kan de volledige run van `research/active/` naar `research/completed/` worden verplaatst. Voltooide runs zijn standaard buiten context. Alleen een contextmanifest kan specifieke compl
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1242 path=pipeline/protocols/EXECUTION_PROTOCOL.md blob_sha=8ee64c297d6f4c19d9d3e9b48c4227c2e4abe7e8 original_offset=4096 original_length=45 payload_bytes=45 chunk_index=1 chunk_count=2 classification=text
+eted runs opnieuw toelaten.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1243 path=pipeline/roles/BRONS.md blob_sha=8dbd1856617f8f843614f638eed782207faa3c03 original_offset=0 original_length=2795 payload_bytes=2795 chunk_index=0 chunk_count=1 classification=text
+# BRONS — brede detectie en primaire inventarisatie
+
+## Missie
+
+BRONS maakt de eerste volledige, controleerbare faseversie van een onderzoeksrun. BRONS optimaliseert op brede detectie, rijke maar gescheiden onderzoekslagen en zichtbare onzekerheid. BRONS hoeft niet PASS te halen, maar mag niets verbergen.
+
+## Invoer
+
+BRONS leest uitsluitend het door `pipeline/ENTRYPOINT.md` aangewezen contextmanifest. De clusteropdracht, controlelijst, bestaande Mark-statussen, projectoverlays en relevante repositoryrecords staan daarin. Geen eerdere chat is nodig.
+
+## Verplichte uitvoering
+
+1. Claim de fase volgens `pipeline/protocols/EXECUTION_PROTOCOL.md`.
+2. Onderzoek de volledige opgegeven scope en controlelijst.
+3. Zoek aantoonbaar buiten de lijst in alle verplichte detector- en overlayrichtingen.
+4. Onderzoek per kandidaat afzonderlijk:
+   - fysieke identiteit;
+   - institutionele identiteit;
+   - historische identiteit;
+   - traditie;
+   - lineage;
+   - levende praktijk en continuïteit;
+   - actuele bezoekbaarheid;
+   - relevante getuigenissen.
+5. Ken een of meer objectieve place types toe.
+6. Leg overlayrelaties vast zonder ze als waardering te gebruiken.
+7. Maak atomische claims en een gestructureerd bronregister.
+8. Houd negatieve zoekresultaten, conflicten en ontbrekende verificatie zichtbaar.
+9. Los duidelijke aliassen op; voeg niet agressief samen wanneer fysieke of rituele uniciteit openstaat.
+10. Schrijf alle verplichte output naar de toegewezen `BRONS/`-map.
+11. Heropen en valideer alle artifacts voordat `COMPLETED` wordt geschreven.
+12. Schrijf een GitHub-handoff voor ZILVER; geef geen rapporttekst in de chat terug.
+
+## Rapportstructuur
+
+Het logische rapport is volledig maar fysiek opgesplitst. Minimaal:
+- `report/INDEX.md`
+- `report/01_scope_and_counts.md`
+- `report/02_candidates_*.md`
+- `report/03_outside_list_and_overlays.md`
+- `report/04_uncertainties_and_duplicates.md`
+- `report/05_ashrams_and_living_practice.md`
+- `report/06_conclusion_and_gate.md`
+
+Geen bestand boven 1500 regels.
+
+## Harde verboden
+
+- Geen A/B/C toekennen of herbeoordelen.
+- Geen kandidaat uitsluitend wegens ontbrekend klassiek historisch bewijs afwijzen wanneer lineage, traditie of levende praktijk de relevante onderzoekslagen zijn.
+- Geen spirituele of traditieclaim als historisch feit presenteren.
+- Geen toeristische populariteit als bewijs van spirituele betekenis gebruiken.
+- Geen zwakke bron een kernclaim laten dragen.
+- Geen output uitsluitend in de chat achterlaten.
+- Geen protocol, rol of methodologie tijdens dezelfde run wijzigen.
+
+## Succesmaat
+
+ZILVER ontvangt via GitHub een rijke, reproduceerbare eerste versie waarin mogelijke krachtplaatsen breed zijn gevonden, claimtypen correct zijn gescheiden en alle zwakke plekken zichtbaar blijven.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1244 path=pipeline/roles/GOUD.md blob_sha=095f6cf3ae3ce968c7503b03814fbfc56f69a9c7 original_offset=0 original_length=2886 payload_bytes=2886 chunk_index=0 chunk_count=1 classification=text
+# GOUD — synthese, acceptatie en vrijgave
+
+## Missie
+
+GOUD maakt van ZILVER het enige eindproduct voor de India-regisseur. GOUD optimaliseert op bewijsbare volledigheid, interne consistentie, correcte scheiding van onderzoekslagen en bruikbaarheid als zelfstandig projectdossier.
+
+## Invoer
+
+GOUD leest uitsluitend het gepinde GOUD-contextmanifest. Dat manifest bevat de volledige ZILVER-output en alleen die BRONS-bestanden die expliciet nodig zijn om informatieverlies te controleren. Geen geplakte rapporttekst en geen eerdere chats.
+
+## Verplichte uitvoering
+
+1. Claim de fase volgens het Execution Protocol.
+2. Controleer de technische volledigheid van de ZILVER-handoff.
+3. Voer alleen gericht aanvullend onderzoek uit voor resterende kernconflicten, blokkers of dragende claims.
+4. Controleer per kandidaat alle Methodology v2.0-lagen en de claimstatus per laag.
+5. Controleer institutionele identiteit verplicht.
+6. Controleer dat lineage-, traditie- en getuigenisclaims niet aan een verkeerd historisch bewijsmodel zijn onderworpen.
+7. Controleer dat fysieke identiteit, levende praktijk en actuele bezoekbaarheid niet zijn samengevoegd.
+8. Controleer relevante projectoverlays, waaronder de dubbele AOAY-identificatie waar AOAY van toepassing is.
+9. Controleer verlies van geldige unieke inhoud tussen BRONS en ZILVER.
+10. Los resterende dubbelingen, scopefouten, nummering, tellingen en kruisverwijzingen op.
+11. Bouw een volledige eigen GOUD-versie; geen patch of losse conclusie.
+12. Pas de harde vrijgavepoort toe en geef exact één status: `PASS`, `PARTIAL` of `BLOCKED`.
+13. Schrijf `decision.md` met uitsluitend het technische vrijgavebesluit en concrete blokkers; geen A/B/C-besluit.
+14. Valideer alle artifacts, schrijf `COMPLETED`, update state/events en commit.
+15. Handoff naar de regisseur gebeurt via GitHub: pad, commit en status; geen volledig rapport in de chat.
+
+## Vrijgavestatus
+
+- `PASS`: alle harde poorten zijn aantoonbaar gehaald.
+- `PARTIAL`: het dossier is bruikbaar, maar één of meer expliciete niet-fatale onderzoeksgaten blijven open.
+- `BLOCKED`: een technische, bronmatige of inhoudelijke fout verhindert betrouwbare oplevering.
+
+GOUD creëert nooit kunstmatige compleetheid. Overtuigende tekst compenseert geen ontbrekende claimbron, afgekapt bestand, contextgat of state-desynchronisatie.
+
+## Harde verboden
+
+- Geen A/B/C, totaalscore, impliciete rangorde of projectrelevantie.
+- Geen nieuwe onbeperkte sweep starten.
+- Geen conflict of getuigenis verbergen voor een schoner verhaal.
+- Geen procescommentaar in het definitieve onderzoeksrapport.
+- Geen output uitsluitend in de chat.
+- Geen protocolwijziging tijdens de run.
+
+## Succesmaat
+
+De regisseur ontvangt via één GitHub-commit een zelfdragend dossier waarvan rapport, claims, bronnen, onzekerheden, tellingen, overlays en vrijgavestatus onderling overeenkomen.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1245 path=pipeline/roles/ZILVER.md blob_sha=75574f6c6b9b1a578498854ea2ade81b2f8b7285 original_offset=0 original_length=2962 payload_bytes=2962 chunk_index=0 chunk_count=1 classification=text
+# ZILVER — verificatie, tegenspraak en inhoudelijke verbetering
+
+## Missie
+
+ZILVER maakt van BRONS een aantoonbaar betere volledige faseversie. ZILVER optimaliseert op claimjuistheid, bronsterkte, gemiste inhoud, correcte claimclassificatie en eerlijke verwijdering van wat de toelatingspoort niet haalt.
+
+## Invoer
+
+ZILVER leest uitsluitend het gepinde ZILVER-contextmanifest. Dat manifest verwijst naar de volledige BRONS-output: rapportindex, rapportdelen, claims, bronnen, audit, handoff en completion marker. Geen geplakte BRONS-tekst en geen oude chatcontext.
+
+## Verplichte uitvoering
+
+1. Claim de fase volgens het Execution Protocol.
+2. Controleer dat BRONS compleet genoeg is overgedragen en dat alle sentinels en manifestverwijzingen kloppen.
+3. Controleer iedere materiële claim opnieuw op de werkelijke bron.
+4. Corrigeer bronlabels die niet passen bij het claimtype.
+5. Zoek sterkere of specifiekere primaire, institutionele, lineage- of academische bronnen.
+6. Zoek gericht naar gemiste kandidaten, instellingen, lineages, overlays, AOAY-verwijzingen, kleine fysieke plekken en levende praktijk.
+7. Controleer fysieke identiteit, institutionele identiteit, historische identiteit, traditie, lineage, levende praktijk en bezoekbaarheid afzonderlijk.
+8. Behandel mythische en bovennatuurlijke figuren via traditie- en lineageonderzoek; leg geen onmogelijke biografische bewijsproef op.
+9. Verplaats of verwijder kandidaten die geen specifieke fysieke plaats hebben of uitsluitend op zwakke bronnen rusten.
+10. Behoud geldige unieke inhoud uit BRONS. Iedere verwijdering, samenvoeging of downgrade moet in eigen claims/audit traceerbaar zijn.
+11. Bouw een volledige nieuwe ZILVER-versie; maak geen patch op BRONS.
+12. Herbereken tellingen, kruisverwijzingen, dubbelingen en compleetheidsstatus.
+13. Schrijf alle verplichte output naar `ZILVER/`, valideer en maak de GitHub-handoff voor GOUD.
+
+## Specifieke aanvalsvragen
+
+- Draagt de bron exact deze claim, of alleen algemene achtergrond?
+- Is de officiële instelling achter de plek onderzocht?
+- Is een lijn-eigen claim ten onrechte als onafhankelijk historisch bewijs gebruikt?
+- Is gebrek aan historisch bewijs ten onrechte gebruikt om een levende lineage- of traditieplaats af te wijzen?
+- Is toeristische bezoekbaarheid verward met spirituele praktijk?
+- Zijn getuigenissen correct gelabeld?
+- Zijn meerdere fysieke objecten gemakshalve samengevoegd?
+- Is een dorp, stad of complex te breed opgenomen zonder specifiek bezoekobject?
+
+## Harde verboden
+
+- Geen losse reviewmemo als eindproduct.
+- Geen A/B/C of projectrelevantie toekennen.
+- Geen geldige onzekerheid gladstrijken.
+- Geen output uitsluitend in de chat.
+- Geen protocolwijziging tijdens de run.
+
+## Succesmaat
+
+Na ZILVER zijn belangrijke bronfouten, onjuiste epistemische eisen, gemiste instellingen en lineages, kunstmatige dubbelingen en verborgen onzekerheden gecorrigeerd of als concrete blokkade zichtbaar.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1246 path=pipeline/templates/RUN_TEMPLATE.md blob_sha=f758c4e68c7b360134635732e15ddb653559b724 original_offset=0 original_length=3479 payload_bytes=3479 chunk_index=0 chunk_count=1 classification=text
+# Run templates
+
+Kopieer deze structuren naar `research/active/<run-id>/`. Vervang alle `<...>`-waarden vóór activatie.
+
+## run.yaml
+
+```yaml
+run_id: <run-id>
+project: india
+scope_file: research/active/<run-id>/scope.md
+created_at: <ISO-8601>
+created_by: <controller>
+immutable_after_first_claim: true
+pins:
+  entrypoint: pipeline/ENTRYPOINT.md
+  methodology: knowledge/methodology/METHODOLOGY_V2.md
+  overlays: knowledge/project/OVERLAYS_INDIA.md
+  execution_protocol: pipeline/protocols/EXECUTION_PROTOCOL.md
+  context_protocol: pipeline/protocols/CONTEXT_PROTOCOL.md
+  evidence_protocol: pipeline/protocols/EVIDENCE_PROTOCOL.md
+  quality_gate: pipeline/QUALITY_GATE.md
+  roles:
+    BRONS: pipeline/roles/BRONS.md
+    ZILVER: pipeline/roles/ZILVER.md
+    GOUD: pipeline/roles/GOUD.md
+versions:
+  pipeline: 2.0.0
+  methodology: 2.0.0
+source_base_commit: <commit-sha>
+```
+
+## state.yaml
+
+```yaml
+run_id: <run-id>
+state: READY_FOR_BRONS
+active_role: null
+claim: null
+last_event_id: EVT-0001
+last_validated_commit: <commit-sha>
+blockers: []
+```
+
+## events.jsonl
+
+```json
+{"event_id":"EVT-0001","run_id":"<run-id>","event_type":"RUN_CREATED","at":"<ISO-8601>","actor":"<controller>","from_state":null,"to_state":"READY_FOR_BRONS","commit":"<commit-sha>","notes":""}
+```
+
+## context/<ROLE>_CONTEXT.yaml
+
+```yaml
+run_id: <run-id>
+role: <ROLE>
+source_commit: <commit-sha>
+protocol_versions:
+  pipeline: 2.0.0
+  methodology: 2.0.0
+required_files:
+  - pipeline/ENTRYPOINT.md
+  - pipeline/roles/<ROLE>.md
+  - knowledge/methodology/METHODOLOGY_V2.md
+  - knowledge/project/OVERLAYS_INDIA.md
+  - pipeline/protocols/EXECUTION_PROTOCOL.md
+  - pipeline/protocols/CONTEXT_PROTOCOL.md
+  - pipeline/protocols/EVIDENCE_PROTOCOL.md
+  - pipeline/QUALITY_GATE.md
+  - research/active/<run-id>/run.yaml
+  - research/active/<run-id>/state.yaml
+  - research/active/<run-id>/scope.md
+optional_files: []
+forbidden_files:
+  - research/completed/**
+priority_order: []
+expected_hashes: {}
+maximum_context_budget:
+  files: 40
+  lines_per_file: 1500
+predecessor_manifest: null
+output_path: research/active/<run-id>/<ROLE>/
+```
+
+Voor ZILVER en GOUD worden de predecessor-manifesten en alle verplichte voorgangerbestanden expliciet toegevoegd.
+
+## Fase manifest.yaml
+
+```yaml
+run_id: <run-id>
+role: <ROLE>
+source_commit: <commit-sha>
+result_status: <PASS|PARTIAL|BLOCKED>
+protocol_versions:
+  pipeline: 2.0.0
+  methodology: 2.0.0
+required_outputs:
+  - report/INDEX.md
+  - claims.jsonl
+  - sources/registry.jsonl
+  - sources/rejected.jsonl
+  - audit.md
+  - handoff.yaml
+  - COMPLETED
+artifacts: []
+validation:
+  all_required_exist: false
+  all_sentinels_present: false
+  references_valid: false
+  reread_complete: false
+```
+
+## report/INDEX.md
+
+```markdown
+# <ROLE> report index
+
+Lees in deze volgorde:
+1. 01_scope_and_counts.md
+2. 02_candidates_01.md
+3. 03_outside_list_and_overlays.md
+4. 04_uncertainties_and_duplicates.md
+5. 05_ashrams_and_living_practice.md
+6. 06_conclusion_and_gate.md
+
+END_OF_ARTIFACT
+```
+
+## handoff.yaml
+
+```yaml
+run_id: <run-id>
+completed_role: <ROLE>
+result_status: <PASS|PARTIAL|BLOCKED>
+output_manifest: research/active/<run-id>/<ROLE>/manifest.yaml
+next_role: <ZILVER|GOUD|REGISSEUR>
+next_expected_state: <state>
+source_commit: <phase-completion-commit>
+open_blockers: []
+required_predecessor_files: []
+```
+
+## COMPLETED
+
+```text
+RUN_ID=<run-id>
+ROLE=<ROLE>
+STATUS=<PASS|PARTIAL|BLOCKED>
+SOURCE_COMMIT=<sha>
+OUTPUT_MANIFEST=<path>
+VALIDATED=true
+END_OF_ARTIFACT
+```
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1247 path=knowledge/methodology/METHODOLOGY_V2.md blob_sha=ffc3d1f647f81bcf90439cc4f538a265d0b5c916 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# Methodology v2.0 — blijvende spirituele bestemmingen
+
+## 1. Centrale onderzoeksvraag
+
+Het systeem onderzoekt waarom een fysiek bestaande plaats binnen één of meer spirituele tradities een blijvende bestemming is geworden, welke typen onderbouwing daarvoor bestaan en welke huidige fysieke werkelijkheid daarmee verbonden is.
+
+Het systeem bewijst of ontkent geen spirituele werkelijkheid. Het onderzoekt fysieke plaatsen, institutionele identiteit, historische gegevens, gedragen tradities, lineages, levende praktijk en getuigenissen. Deze lagen blijven afzonderlijk zichtbaar en worden nooit samengevoegd tot één totaalscore.
+
+## 2. Harde grens: de plek is het onderzoeksobject
+
+Alleen een fysiek aanwijsbare huidige plaats kan kandidaat zijn: gebouw, terrein, grot, oever, ghat, kund, tempel, ashram, samadhi, monument, route of ander bezoekbaar object.
+
+Een persoon, boek, visioen, leer of traditie is geen PLACE maar kan een zoekrichting, relatie of interpretatie-overlay opleveren.
+
+## 3. Verplichte onderzoekslagen per kandidaat
+
+### 3.1 Fysieke identiteit
+- exacte naam, aliassen en ligging;
+- welk huidig object of terrein bedoeld wordt;
+- onderscheid tussen dorp, complex, afzonderlijk gebouw, route en traditieclaim;
+- huidige fysieke continuïteit voor zover vaststelbaar.
+
+### 3.2 Institutionele identiteit
+Verplicht onderzoeken:
+- huidige beheerder, trust, orde, tempelorganisatie of overheid;
+- oprichter en officiële geschiedenis;
+- officiële missie;
+- officiële lineage of parampara;
+- officiële publicaties en bronnen die de instelling zelf gezaghebbend noemt.
+
+Een instellingsbron is sterk voor eigen identiteit, beheer, praktijk en lijntraditie, maar bewijst niet automatisch een onafhankelijke historische gebeurtenis.
+
+### 3.3 Historische identiteit
+- onafhankelijk verifieerbare personen, gebeurtenissen, bouwfasen en documenten;
+- expliciet aangeven wat niet historisch is vastgesteld;
+- een historisch tekort diskwalificeert een traditie- of lineageplaats niet automatisch.
+
+### 3.4 Traditie
+- welke religieuze of spirituele traditie de plaats aanwijst;
+- wie de overlevering draagt;
+- sinds wanneer dit aantoonbaar wordt verteld;
+- welke teksten, instellingen of rituelen de relatie onderhouden.
+
+Traditie wordt als traditie gerapporteerd, nooit als historisch feit vermomd.
+
+### 3.5 Lineage
+- welke guru-parampara of spirituele lijn de plaats verbindt met personen of gebeurtenissen;
+- welke primaire lijnbronnen dit dragen;
+- of de lijn intern consistent is;
+- waar onafhankelijke bevestiging wel of niet bestaat.
+
+Mythische of bovennatuurlijke figuren worden niet aan een onmogelijke klassieke biografische bewijsproef onderworpen. Onderzoek in plaats daarvan welke levende lineage de relatie draagt en welke fysieke plaats daarbij hoort.
+
+### 3.6 Levende praktijk en continuïteit
+- is de plek vandaag actief;
+- dagelijkse of periodieke praktijk: meditatie, puja, satsang, retraite, darshan, parikrama of pelgrimage;
+- actieve gemeenschap, priesterschap of lineage;
+- aantoonbare duur of continuïteit;
+- jaarlijkse festivals en terugkerende pelgrimspraktijk;
+- actuele toegang afzonderlijk van spirituele betekenis.
+
+Populariteit als toeristische attractie is geen vervanging voor levende spirituele praktijk.
+
+### 3.7 Persoonlijke getuigenissen
+- wie een ervaring, verschijning, visioen of bijzonder gevoel beschrijft;
+- bron en context;
+- nooit presenteren als onafhankelijk historisch bewijs;
+- wel gebruiken om de levende betekenis en aantrekkingskracht van een plaats te begrijpen.
+
+## 4. Place types
+
+Een kandidaat krijgt één of meer objectieve typen:
+- `EVENT` — door een traditie of historie aan een gebeurtenis verbonden;
+- `LINEAGE` — fysiek anker van een guru-parampara of spirituele lijn;
+- `SAMADHI` — fysieke graf-, as-, mahasamadhi- of traditioneel als samadhi beheerde plaats;
+- `LIVING_PRACTICE` — actieve ashram-, tempel-, meditatie- of pelgrimspraktijk.
+
+Een algemeen herdenkingsmonument zonder graf, as, mahasamadhi of expliciete samadhi-identiteit krijgt geen `SAMADHI`-label. Een eventueel type `MEMORIAL` vereist een late
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1248 path=knowledge/methodology/METHODOLOGY_V2.md blob_sha=ffc3d1f647f81bcf90439cc4f538a265d0b5c916 original_offset=4096 original_length=2553 payload_bytes=2553 chunk_index=1 chunk_count=2 classification=text
+re expliciete methodologiewijziging.
+
+Meerdere typen zijn toegestaan. De typen zijn geen waardering.
+
+## 5. Interpretatie-overlays
+
+Het systeem ondersteunt projectspecifieke overlays. Een overlay verbindt een kandidaat met een referentiekader, boek, traditie of lineage. Een overlay:
+- verandert de feiten niet;
+- kent geen score of waardering toe;
+- mag geen kandidaat uitsluiten;
+- wordt alleen toegepast wanneer de relatie onderbouwd of expliciet onzeker is.
+
+De concrete overlays staan buiten deze generieke methodologie in een projectbestand.
+
+## 6. Bewijsstatus per claim
+
+Iedere materiële claim krijgt één status:
+- `VERIFIED_PRIMARY`
+- `VERIFIED_INSTITUTIONAL`
+- `SUPPORTED_SECONDARY`
+- `INFERRED`
+- `CONFLICTED`
+- `NOT_ESTABLISHED`
+
+De status geldt per claim, niet per hele kandidaat. Een plek kan bijvoorbeeld fysiek en institutioneel sterk bevestigd zijn, historisch onzeker, lineage-sterk en als levende praktijk sterk.
+
+## 7. Bronregels
+
+Gebruik de sterkst beschikbare specifieke bron voor het betreffende claimtype:
+- primaire tekst of direct document;
+- officiële beheerder- of lineagebron;
+- overheid, universiteit, museum, archief of erfgoedinstantie;
+- degelijk secundair onderzoek.
+
+Zoekresultaten, AI-samenvattingen en Wikipedia zijn alleen zoekrichtingen. Blogs, commerciële reissites, sociale media en video zonder controleerbare documentatie dragen geen kernclaim.
+
+Een lijn-eigen bron mag lineage, traditie, eigen geschiedenis en praktijk dragen. Zij bewijst niet zelfstandig dat een bovennatuurlijke of oude gebeurtenis objectief heeft plaatsgevonden.
+
+## 8. Bezoekbaarheid
+
+Fysiek bestaan, levende functie en actuele bezoekbaarheid zijn drie verschillende vragen.
+
+Wanneer identiteit wel maar actuele toegang niet is bevestigd, schrijf exact:
+
+`Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.`
+
+Geen algemene aanname van toegang op basis van het bestaan van een tempel, ashram of kaartvermelding.
+
+## 9. Geen AI-waardering
+
+De onderzoeker rapporteert lagen, bronnen, onzekerheden en overlays afzonderlijk. Hij berekent geen totaalscore, projectrelevantie of impliciete rangorde.
+
+Alleen Mark kent A, B of C toe. Nieuwe kandidaten blijven `ONGEMERKT`.
+
+## 10. Volledigheid
+
+Een sweep is alleen compleet wanneer de opgegeven controlelijst, verplichte open zoekrichtingen, relevante overlays, negatieve resultaten, dubbelingen en actuele onzekerheden zichtbaar zijn behandeld. Onvolledigheid wordt expliciet verklaard; zij mag niet door overtuigende formulering worden verborgen.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1249 path=pipeline/ENTRYPOINT.md blob_sha=3047640ed4ede936a6e124c466a25219e37cc2c3 original_offset=0 original_length=2648 payload_bytes=2648 chunk_index=0 chunk_count=1 classification=text
+# ENTRYPOINT — BRONS / ZILVER / GOUD
+
+Dit is het enige startpunt voor een nieuwe uitvoerende AI-sessie.
+
+## Activatie
+
+Een controller of Mark activeert exact één rol voor exact één run:
+
+`Open pipeline/ENTRYPOINT.md. Voer rol <BRONS|ZILVER|GOUD> uit voor run <run-id>. Lees uitsluitend het gepinde contextmanifest. Schrijf alle resultaten naar GitHub en stop bij ontbrekende write-toegang, SHA-afwijking, truncatie, geldige bestaande claim of state-desynchronisatie.`
+
+Geen rapporttekst wordt tussen chats geplakt. GitHub is het enige overdrachtskanaal.
+
+ZILVER en GOUD mogen alleen worden geactiveerd nadat een aparte controllertransition hun definitieve contextmanifest heeft gegenereerd en de state op de juiste READY-status heeft gezet.
+
+## Verplichte volgorde
+
+1. Controleer lees- en schrijfrechten voor de repository.
+2. Open `research/active/<run-id>/run.yaml`.
+3. Controleer dat de gevraagde rol overeenkomt met `state.yaml` en dat de verwachte fase gereed is.
+4. Lees het gepinde rolcontract uit `run.yaml`.
+5. Lees het gepinde protocol- en methodologiebestand uit `run.yaml`.
+6. Lees uitsluitend `research/active/<run-id>/context/<ROLE>_CONTEXT.yaml` en de daarin genoemde bestanden.
+7. Controleer `source_commit`, hashes, vereiste bestanden en contextbudget.
+8. Claim de fase volgens `pipeline/protocols/EXECUTION_PROTOCOL.md`.
+9. Voer de rol uit en schrijf uitsluitend naar het toegewezen fasepad.
+10. Valideer alle verplichte outputs, sentinels en verwijzingen.
+11. Schrijf `manifest.yaml`, `handoff.yaml`, `COMPLETED`, update `state.yaml` en append de vereiste events aan `events.jsonl`.
+12. Commit de volledige fase-uitkomst.
+13. Stop. De worker maakt nooit zelf het contextmanifest van zijn opvolger; dat gebeurt via `pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md`.
+
+## Stopvoorwaarden
+
+Stop zonder inhoudelijk werk wanneer:
+- GitHub-write ontbreekt;
+- run of rol niet bestaat;
+- `source_commit` niet overeenkomt;
+- een geldige bestaande claim van een andere worker of controller bestaat;
+- state en eventlog elkaar tegenspreken;
+- het contextmanifest ontbreekt of niet volledig gelezen kan worden;
+- een required file ontbreekt of een expected hash niet klopt;
+- output wordt afgekapt of een verplichte sectie niet kan worden voltooid.
+
+Schrijf bij een stop alleen een `BLOCKED`-event en, indien toegestaan, de blokkade in `state.yaml`. Maak geen gedeeltelijk fase-resultaat geldig.
+
+## Verbod
+
+Een uitvoerende rol wijzigt tijdens dezelfde run nooit zijn eigen rolcontract, methodologie, protocol, contextregels of schemas. Verbeteringen gebeuren na afloop in een afzonderlijke commit of pull request.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1250 path=pipeline/QUALITY_GATE.md blob_sha=f7edf4d8a71e7709920f406d351e74f51972f5f3 original_offset=0 original_length=3823 payload_bytes=3823 chunk_index=0 chunk_count=1 classification=text
+# QUALITY_GATE v2.2 — verplichte fase- en vrijgavecontrole
+
+Iedere rol past deze controle toe. GOUD gebruikt haar als harde vrijgavepoort.
+
+## A. Technische fase-integriteit
+
+- [ ] rol en run zijn expliciet geactiveerd;
+- [ ] GitHub-write is bevestigd;
+- [ ] claim-lock, source commit en expected state kloppen;
+- [ ] state en eventlog zijn synchroon;
+- [ ] alle required contextbestanden zijn volledig gelezen;
+- [ ] geen forbidden file is gebruikt;
+- [ ] alle verplichte outputbestanden bestaan;
+- [ ] ieder tekstbestand eindigt met `END_OF_ARTIFACT`;
+- [ ] geen primair bestand overschrijdt 1500 regels;
+- [ ] manifest, handoff en COMPLETED stemmen overeen;
+- [ ] geen materiaal bestaat uitsluitend in de chat;
+- [ ] artifacts zijn na schrijven opnieuw geopend en gecontroleerd;
+- [ ] iedere `source_id` uit claims bestaat in accepted of rejected source register;
+- [ ] source-ID’s zijn uniek over beide registers;
+- [ ] afgewezen bronnen zonder unieke ID worden nergens als claimreferentie gebruikt;
+- [ ] alle manifest- en handoffpaden bestaan;
+- [ ] iedere tijdens validatie gevonden fout is geclassificeerd volgens `CONTINUOUS_LEARNING_PROTOCOL.md`.
+
+## B. Kandidaatniveau
+
+Voor iedere kandidaat:
+- [ ] fysieke identiteit is specifiek en brongebonden;
+- [ ] institutionele identiteit is onderzocht;
+- [ ] historische identiteit is afzonderlijk gerapporteerd;
+- [ ] traditie is als traditie gelabeld en de dragende gemeenschap is genoemd;
+- [ ] lineage is afzonderlijk onderzocht wanneer relevant;
+- [ ] levende praktijk en continuïteit zijn afzonderlijk onderzocht;
+- [ ] actuele bezoekbaarheid is afzonderlijk bevestigd of gebruikt exact de onzekerheidszin;
+- [ ] getuigenissen zijn als getuigenis gelabeld;
+- [ ] place types zijn objectief en niet waarderend;
+- [ ] overlays zijn relaties, geen prioriteit of totaalscore;
+- [ ] iedere materiële claim heeft een bewijsstatus en bestaande source_id;
+- [ ] bronlabels passen bij het claimtype;
+- [ ] geen zoekresultaat, AI-overzicht, Wikipedia of zwakke bron draagt een kernclaim;
+- [ ] lijn-eigen bronnen worden niet als onafhankelijk bewijs misbruikt;
+- [ ] ontbrekend historisch bewijs diskwalificeert niet automatisch een sterke lineage- of traditieplaats;
+- [ ] toeristische populariteit vervangt geen levende spirituele praktijk;
+- [ ] unieke fysieke of rituele inhoud rechtvaardigt zelfstandige opname;
+- [ ] bestaande A/B/C-status is niet herbeoordeeld;
+- [ ] nieuwe kandidaat blijft ONGEMERKT.
+
+## C. Rapportniveau
+
+- [ ] volledige scope en vaste controlelijst behandeld;
+- [ ] buiten de controlelijst aantoonbaar gezocht;
+- [ ] alle verplichte projectoverlays behandeld;
+- [ ] AOAY-relaties gebruiken dubbele bewijsvoering;
+- [ ] open regio-/corridoronderzoek uitgevoerd waar de scope dit vereist;
+- [ ] negatieve zoekresultaten zichtbaar;
+- [ ] dubbelingen en aliases opgelost of expliciet open;
+- [ ] ashrams en levende praktijk zonder onbewezen verblijfsclaims behandeld;
+- [ ] onzekerheden staan lokaal bij claims én systematisch in audit;
+- [ ] tellingen, kandidaatnummers en kruisverwijzingen kloppen;
+- [ ] geen A/B/C, totaalscore, projectrelevantie, route, nachten, hotels, vervoer of prijzen toegevoegd;
+- [ ] rapportindex en alle delen vormen samen een zelfstandig dossier;
+- [ ] rapport is volledig en niet afgekapt.
+
+## D. Vrijgavestatus
+
+- `PASS`: alle harde technische en inhoudelijke controles zijn JA.
+- `PARTIAL`: dossier is betrouwbaar bruikbaar, maar expliciete niet-fatale onderzoeksgaten blijven open.
+- `BLOCKED`: technische integriteit, kernbewijs of overdracht is onvoldoende.
+
+Een bron-, context-, bezoekbaarheids- of truncatietekort mag nooit worden verborgen door algemene formuleringen als “grotendeels compleet”. Maximaal vijf hoogste blokkers worden concreet benoemd in `decision.md` en `COMPLETED`.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1251 path=pipeline/VERSION.md blob_sha=ba38a36a7e8723035cbf684c3cc2bb5fc1c8d232 original_offset=0 original_length=2011 payload_bytes=2011 chunk_index=0 chunk_count=1 classification=text
+# Pipelineversie
+
+**Versie:** 2.2.0  
+**Status:** implementatie gereed voor integratietest  
+**Datum:** 2026-07-13
+
+## 2.2.0
+
+Aanleiding:
+- de eerste BRONS-integratietest bevatte een claimreferentie naar `R-001`, terwijl afgewezen bronnen geen unieke source-ID hadden;
+- de bestaande gate benoemde referentiële integriteit, maar schreef geen volledige cross-registercontrole en geen structurele leeractie voor.
+
+Gewijzigd gedrag:
+- `CONTINUOUS_LEARNING_PROTOCOL.md` toegevoegd;
+- iedere fout wordt geclassificeerd en krijgt een expliciete leerbeslissing;
+- lokale runreparatie en structurele systeemverbetering zijn strikt gescheiden;
+- systeemlessen worden append-only vastgelegd in `pipeline/learning/LESSONS.jsonl`;
+- quality gate valideert alle claim-sourceverwijzingen over accepted en rejected registers;
+- de assistent vermeldt voortaan bij iedere fout wat lokaal wordt gerepareerd en wat blijvend aan rollen/protocollen wordt verbeterd;
+- actieve runs blijven onder hun gepinde versie werken.
+
+Verwachte kwaliteitswinst:
+- dezelfde fout wordt niet stil in volgende runs herhaald;
+- minder afhankelijkheid van chatgeheugen;
+- aantoonbare en versieerbare verbetering van BRONS, ZILVER, GOUD en controller;
+- structurele lessen blijven beschikbaar voor iedere toekomstige GitHub-capabele worker.
+
+## 2.1.0
+
+Controllertransitions, dynamische opvolgercontexten, claimterminologiecorrectie, strikte SAMADHI-definitie en integratieteststatus ingevoerd.
+
+## 2.0.0
+
+GitHub-native BRONS–ZILVER–GOUD-architectuur ingevoerd met geïsoleerde runs, contextmanifesten, Methodology v2.0, claim-locks, gestructureerde claims en bronnen, sentinels en completion markers.
+
+## 1.0.0
+
+Eerste seriële BRONS–ZILVER–GOUD-conceptversie. Deze versie was chat-gecentreerd en is vervangen.
+
+## Wijzigingsregel
+
+Iedere inhoudelijke protocolwijziging verhoogt de versie en vermeldt aanleiding, gewijzigd gedrag, betrokken bestanden en verwachte kwaliteitswinst. Actieve runs blijven op hun gepinde versies.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1252 path=pipeline/learning/LESSONS.jsonl blob_sha=a2b33e63aa2779c14018726a8f6ed3775355e749 original_offset=0 original_length=857 payload_bytes=857 chunk_index=0 chunk_count=1 classification=text
+{"lesson_id":"PL-0001","detected_at":"2026-07-13T21:20:00+02:00","run_id":"VRINDAVAN-INTEGRATION-001","phase":"BRONS","error_class":"VALIDATION_GAP","summary":"Claim C-007 referenced rejected source ID R-001, but rejected.jsonl had no source_id fields.","root_cause":"The transition gate required source references to exist but did not explicitly validate both accepted and rejected source registers for unique IDs.","run_repair":"Added R-001 through R-004 to rejected.jsonl and revalidated all BRONS claim source references.","system_change":"Add mandatory cross-register referential-integrity validation to the continuous-learning protocol and quality gate.","changed_files":["pipeline/protocols/CONTINUOUS_LEARNING_PROTOCOL.md","pipeline/QUALITY_GATE.md","pipeline/learning/LESSONS.jsonl"],"pipeline_version":"2.2.0","status":"PATCH_NOW"}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1253 path=pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md blob_sha=c49e17a1f775fcbc3f7cb6342d95c63df6d38e51 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# Controller Transition Protocol v2.2
+
+## 1. Doel
+
+De controller maakt runs aan en verzorgt de overgang tussen voltooide fasen. BRONS, ZILVER en GOUD genereren nooit zelf het contextmanifest van hun opvolger.
+
+De controller is een expliciet geactiveerde GitHub-capabele AI-sessie, Mark of de India-regisseur. De controller doet geen inhoudelijk onderzoek en herschrijft geen rapporten.
+
+Voor iedere transition leest de controller ook `pipeline/protocols/CONTINUOUS_LEARNING_PROTOCOL.md`. Iedere aangetroffen fout wordt zowel lokaal afgehandeld als structureel beoordeeld voor toekomstige runs.
+
+## 2. Runcreatie
+
+Bij het aanmaken van een run schrijft de controller:
+- `run.yaml`;
+- `state.yaml` met `READY_FOR_BRONS`;
+- `events.jsonl` met `RUN_CREATED`;
+- `scope.md`;
+- uitsluitend een definitief uitvoerbaar `context/BRONS_CONTEXT.yaml`.
+
+`ZILVER_CONTEXT.yaml` en `GOUD_CONTEXT.yaml` bestaan op dit moment niet. Een leeg, voorlopig of ongepind manifest is verboden.
+
+## 3. Transition na BRONS
+
+De controller mag alleen overgaan van `BRONS_COMPLETE` naar `READY_FOR_ZILVER` wanneer hij:
+1. `BRONS/manifest.yaml`, `BRONS/COMPLETED` en `BRONS/handoff.yaml` volledig leest;
+2. controleert dat alle verplichte BRONS-artifacts bestaan;
+3. alle `END_OF_ARTIFACT`-sentinels controleert;
+4. controleert dat iedere claim naar bestaande, unieke source-ID’s in accepted of rejected registers verwijst;
+5. controleert dat manifest- en handoffpaden bestaan;
+6. controleert dat `state.yaml`, `events.jsonl`, manifest en COMPLETED dezelfde fase-uitkomst tonen;
+7. iedere gevonden fout classificeert volgens het Continuous Learning Protocol;
+8. de definitieve BRONS-resultaatcommit vaststelt;
+9. `context/ZILVER_CONTEXT.yaml` genereert met die commit als `source_commit`;
+10. alle vereiste BRONS-bestanden en beschikbare hashes expliciet opneemt;
+11. `state.yaml` op `READY_FOR_ZILVER` zet;
+12. één `CONTEXT_PREPARED`-event en één `TRANSITIONED`-event appendt;
+13. de volledige overgang commit.
+
+## 4. Transition na ZILVER
+
+Dezelfde procedure geldt voor `ZILVER_COMPLETE -> READY_FOR_GOUD`:
+- valideer de volledige ZILVER-uitkomst;
+- voer cross-register referentiële-integriteitscontrole uit;
+- classificeer en verwerk gevonden fouten;
+- bepaal de definitieve ZILVER-resultaatcommit;
+- genereer pas daarna `context/GOUD_CONTEXT.yaml`;
+- pin alle vereiste ZILVER-artifacts en hashes;
+- neem alleen expliciet benodigde BRONS-artifacts op voor verliescontrole;
+- update state en eventlog;
+- commit de overgang.
+
+## 5. Controllerclaim
+
+Voor iedere transition schrijft de controller vooraf in `state.yaml` een tijdelijke controllerclaim met:
+- `transition`;
+- `claimed_by`;
+- `claimed_at`;
+- `source_commit`;
+- `expected_state`;
+- `target_context_manifest`.
+
+Een geldige bestaande worker- of controllerclaim blokkeert de overgang. Claims verlopen niet automatisch. Alleen Mark of een expliciet geactiveerde controller mag een claim overrulen via `CLAIM_OVERRIDDEN` met reden.
+
+## 6. Toegestane controllerwrites
+
+De controller mag uitsluitend wijzigen:
+- het contextmanifest van de volgende fase;
+- `state.yaml`;
+- `events.jsonl`;
+- optioneel een transition-validatierapport onder `transitions/`.
+
+Een noodzakelijke fase-outputreparatie wordt als afzonderlijke expliciet geactiveerde `RUN_REPAIR` uitgevoerd, niet stil binnen de controllertransition.
+
+De controller wijzigt geen onderzoeksconclusies, methodologie, projectwaarderingen of rolresultaten tijdens de transition.
+
+## 7. Eventtypen
+
+Minimaal ondersteund:
+- `RUN_CREATED`;
+- `TRANSITION_CLAIMED`;
+- `CONTEXT_PREPARED`;
+- `TRANSITIONED`;
+- `TRANSITION_BLOCKED`;
+- `DESYNC_DETECTED`;
+- `CLAIM_OVERRIDDEN`;
+- `RUN_REPAIRED` of fasespecifieke reparatievariant.
+
+## 8. Stopvoorwaarden
+
+Stop zonder overgang wanneer:
+- write-toegang ontbreekt;
+- de verwachte state niet klopt;
+- een geldige bestaande claim bestaat;
+- predecessor-output onvolledig of afgekapt is;
+- manifest, COMPLETED, state of events elkaar tegenspreken;
+- claim-sourceverwijzingen ongeldig of dubbel zijn;
+- manifest- of handoffpaden niet bestaan;
+- de predecessor-resultaatcommit niet o
+<<< END CHUNK >>>
+

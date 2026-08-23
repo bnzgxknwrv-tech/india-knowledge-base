@@ -1,0 +1,742 @@
+>>> CHUNK stream_row=1299 path=pipeline/roles/GOUD.md blob_sha=8194a94c5842c417c818e817a1ae5992f74fdeb8 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# GOUD — synthese, acceptatie en vrijgave
+
+## Missie
+
+GOUD maakt van ZILVER één technisch betrouwbaar en inhoudelijk compleet dossier voor SUBREGIE INDIA en INDIA2. GOUD optimaliseert op interne consistentie, juiste bevestigingsdomeinen, devotionele bruikbaarheid, representatieve belevingsinformatie, geverifieerde kaartdata en een compacte basis voor Marks uiteindelijke beslissing.
+
+## Verplichte start
+
+Voer eerst de GitHub-preflight uit `pipeline/ENTRYPOINT.md` uit. Ontbreekt read of write, antwoord uitsluitend:
+
+`MARK: IK MIS GITHUB CONNECTOR!`
+
+## Verplichte uitvoering
+
+1. Lees uitsluitend `NEXT_ACTION.yaml`, het gepinde GOUD-contextmanifest en required files.
+2. Claim de fase en controleer de volledige ZILVER-handoff.
+3. Voer alleen gericht aanvullend onderzoek uit voor resterende dragende conflicten of ontbrekende verplichte lagen.
+4. Controleer per kandidaat:
+   - fysieke en institutionele identiteit;
+   - historische, institutionele, lineage- en traditiebevestiging;
+   - Babaji- en AOAY-projectbevestiging volgens Methodology v3;
+   - waarom devotees erheen gaan;
+   - concrete praktijk en deelname;
+   - gastvrijheid en etiquette;
+   - sfeer, reviews en visueel dossier;
+   - actuele bezoekbaarheid en praktische controles;
+   - nabijheid tot relevante ankers;
+   - permanente LOCATION_ID en geverifieerde WGS84-kaartdata volgens `GEO_LOCATION_PROTOCOL.md`.
+5. Controleer dat lineage en traditie niet als onvoltooide historie worden behandeld.
+6. Controleer dat praktische onzekerheid spirituele betekenis niet onnodig overschaduwt.
+7. Controleer dat iedere visuele set representatief is en beeldtekorten zichtbaar zijn.
+8. Controleer clustergrens, gemiste omliggende kandidaten en verlies van geldige BRONS-inhoud wanneer getriggerd.
+9. Los resterende dubbelingen, tellingen, aliases en kruisverwijzingen op.
+10. Wijs binnen het gereserveerde clusterblok iedere kandidaat één unieke permanente LOCATION_ID toe. C-locaties blijven volledig opgenomen.
+11. Verifieer per kandidaat latitude/longitude, kaartpunttype, bronnen, Google Maps-link en puntkeuze. Gebruik waar mogelijk twee onafhankelijke bronnen; gok nooit een coördinaat.
+12. Baseer iedere gerapporteerde loop- of reistijd op de vastgelegde GEO-punten en registreer vertrek-ID, aankomst-ID, vervoerswijze, methode/bron en controledatum.
+13. Bouw een volledige GOUD-versie en pas `QUALITY_GATE v3.0` toe.
+14. Geef exact één status: `PASS`, `PARTIAL` of `BLOCKED`.
+15. Schrijf een technische `decision.md`; ken geen A/B/C-advies of formele status toe.
+16. Valideer artifacts, schrijf completion, state en events en stop.
+
+## Verplichte artifacts
+
+Naast de bestaande GOUD-artifacts zijn verplicht:
+
+- `geo_locations.jsonl` — één record per kandidaat;
+- `geo_connections.jsonl` — iedere gebruikte loop- of reistijdverbinding;
+- `location_id_audit.md` — uniekheid, blokbereik, gaten, conflicten en C-dekking;
+- `decision_inputs.md` — dezelfde LOCATION_ID's voor INDIA2.
+
+## Verplichte inhoud voor de regisseurslaag
+
+GOUD levert per kandidaat voldoende gestructureerde informatie voor INDIA2 om compact te rapporteren en zonder nieuw locatieonderzoek KML te maken:
+
+- LOCATION_ID;
+- herkenningshaak;
+- devotionele reden;
+- concrete praktijk;
+- deelname en welkom;
+- sfeer en visueel oordeel;
+- bevestigingsdomeinen;
+- praktische controles;
+- geverifieerd kaartpunt en puntstatus;
+- nabijheid en logische combinaties;
+- beslisrelevante sterke en zwakke punten.
+
+## Vrijgavestatus
+
+- `PASS`: alle voor de scope verplichte technische en inhoudelijke lagen zijn voldoende behandeld;
+- `PARTIAL`: dossier is betrouwbaar bruikbaar maar concrete niet-fatale gaten blijven zichtbaar;
+- `BLOCKED`: technische integriteit, kerncontext of overdracht verhindert betrouwbare oplevering.
+
+Een ontbrekende actuele openingstijd maakt een lineage- of traditiebevestigde plek niet automatisch inhoudelijk zwak. Een onbevestigd kaartpunt blijft `NOT_ESTABLISHED` en wordt nooit als exact gepresenteerd.
+
+## Harde verboden
+
+- Geen formeel of adviserend A/B/C.
+- Geen onbeperkte nieuwe sweep.
+- Geen technisch jargon in he
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1300 path=pipeline/roles/GOUD.md blob_sha=8194a94c5842c417c818e817a1ae5992f74fdeb8 original_offset=4096 original_length=519 payload_bytes=519 chunk_index=1 chunk_count=2 classification=text
+t inhoudelijke plaatsrapport.
+- Geen protocolwerk tijdens de run.
+- Geen KML of kaart genereren.
+- Geen locatie verwijderen omdat zij later C kan worden.
+- Geen rechtstreekse overdracht naar INDIA2 vóór SUBREGIE-validatie.
+
+## Chatuitvoer
+
+Normale berichten beginnen exact met `GOUD ZEGT:` en eindigen exact met `/GOUD`.
+
+Na completion vermeldt GOUD uitsluitend status, completioncommit, maximaal drie inhoudelijke gaten, archiveringsstatus, regisseurstransitionstatus en het zelfrouterende slotblok.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1301 path=research/active/BRAJ-COMPLETE-001/events.jsonl blob_sha=2f73bd4bdb72df53567f62608a39cc873c7e3f69 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+{"event_id":"EVT-0001","run_id":"BRAJ-COMPLETE-001","event_type":"RUN_CREATED","at":"2026-07-15T12:30:00+02:00","actor":"SUBREGIE_INDIA","from_state":null,"to_state":"READY_FOR_BRONS","source_base_commit":"ed9e0cb3b9b97c069c063900a05de9b3b53c1d47","context_profile":"BRONS_MIN","parels_layer_active":false,"notes":"Pipeline 3.0 complete Braj cluster sweep created after required architecture prerequisites; completed Vrindavan artifacts remain immutable."}
+{"event_id":"EVT-0002","run_id":"BRAJ-COMPLETE-001","event_type":"CLAIMED","at":"2026-07-15T12:50:00+02:00","actor":"ChatGPT-BRONS","role":"BRONS","claimed_by":"ChatGPT-BRONS","source_commit":"ed9e0cb3b9b97c069c063900a05de9b3b53c1d47","expected_state":"READY_FOR_BRONS","output_path":"research/active/BRAJ-COMPLETE-001/BRONS/","from_state":"READY_FOR_BRONS","to_state":"BRONS_CLAIMED","commit":"b5f68720dabf00723de3ca24663b1754309b4b75","notes":"BRONS claimed after GitHub read/write preflight, exact context/hash validation and state/event synchronization check."}
+{"event_id":"EVT-0003","run_id":"BRAJ-COMPLETE-001","event_type":"BRONS_COMPLETED","at":"2026-07-15T13:35:00+02:00","actor":"ChatGPT-BRONS","role":"BRONS","result_status":"PARTIAL","source_commit":"ed9e0cb3b9b97c069c063900a05de9b3b53c1d47","output_manifest":"research/active/BRAJ-COMPLETE-001/BRONS/manifest.yaml","completion_artifact_commit":"ed38d776664b2708f2c54c531580fd7e8daebfb4","state_commit":"97d2b2864fb6dcb2873d78aeaf9777f773ae238c","from_state":"BRONS_CLAIMED","to_state":"BRONS_COMPLETE","notes":"All BRONS artifacts completed and reopened. No ZILVER context, controller transition, PARELS work, route, hotel, A/B/C assignment or pipeline design was performed."}
+{"event_id":"EVT-0004","run_id":"BRAJ-COMPLETE-001","event_type":"TRANSITION_CLAIMED","at":"2026-07-15T13:54:00+02:00","actor":"SUBREGIE_INDIA","transition":"BRONS_COMPLETE_TO_READY_FOR_ZILVER","claimed_by":"SUBREGIE_INDIA","source_commit":"6d542aeada499e709055bf788ce315b29986adac","expected_state":"BRONS_COMPLETE","target_context_manifest":"research/active/BRAJ-COMPLETE-001/context/ZILVER_CONTEXT.yaml","from_state":"BRONS_COMPLETE","to_state":"BRONS_COMPLETE","notes":"No active worker or controller claim existed."}
+{"event_id":"EVT-0005","run_id":"BRAJ-COMPLETE-001","event_type":"CONTEXT_PREPARED","at":"2026-07-15T13:55:00+02:00","actor":"SUBREGIE_INDIA","role":"ZILVER","source_commit":"6d542aeada499e709055bf788ce315b29986adac","context_manifest":"research/active/BRAJ-COMPLETE-001/context/ZILVER_CONTEXT.yaml","context_profile":"ZILVER_MIN","notes":"Full BRONS output pinned with role-specific reasons, tasks and blob SHAs; all OPEN layers routed to independent verification."}
+{"event_id":"EVT-0006","run_id":"BRAJ-COMPLETE-001","event_type":"TRANSITIONED","at":"2026-07-15T13:56:00+02:00","actor":"SUBREGIE_INDIA","transition":"BRONS_COMPLETE_TO_READY_FOR_ZILVER","source_commit":"6d542aeada499e709055bf788ce315b29986adac","from_state":"BRONS_COMPLETE","to_state":"READY_FOR_ZILVER","context_manifest":"research/active/BRAJ-COMPLETE-001/context/ZILVER_CONTEXT.yaml","result_status":"PARTIAL","parels_layer_active":false,"notes":"Technical validation passed; five substantive BRONS gaps remain explicit ZILVER focus. No research content changed and no other cluster activated."}
+{"event_id":"EVT-0007","run_id":"BRAJ-COMPLETE-001","event_type":"CLAIMED","at":"2026-07-15T13:43:25+02:00","actor":"ChatGPT-ZILVER","role":"ZILVER","claimed_by":"ChatGPT-ZILVER","source_commit":"6d542aeada499e709055bf788ce315b29986adac","expected_state":"READY_FOR_ZILVER","output_path":"research/active/BRAJ-COMPLETE-001/ZILVER/","from_state":"READY_FOR_ZILVER","to_state":"ZILVER_CLAIMED","notes":"Claimed after GitHub read/write preflight, full ZILVER_MIN context/hash validation, and state/event synchronization check."}
+{"event_id":"EVT-0008","run_id":"BRAJ-COMPLETE-001","event_type":"ZILVER_COMPLETED","at":"2026-07-15T14:46:00+02:00","actor":"ChatGPT-ZILVER","role":"ZILVER","result_status":"PARTIAL","source_commit":"6d542aeada499e709055bf788ce315b29986adac","output_manifest":"research/active/B
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1302 path=research/active/BRAJ-COMPLETE-001/events.jsonl blob_sha=2f73bd4bdb72df53567f62608a39cc873c7e3f69 original_offset=4096 original_length=3592 payload_bytes=3592 chunk_index=1 chunk_count=2 classification=text
+RAJ-COMPLETE-001/ZILVER/manifest.yaml","completion_artifact_commit":"9adb9a9ae07f45eb6f7c5897fb5bed929017668e","state_commit":"5ab99dafbc6a9767a2aac8ccf2a755bed4368ea4","from_state":"ZILVER_CLAIMED","to_state":"ZILVER_COMPLETE","notes":"All 29 candidates and all OPEN layers independently verified or explicitly preserved. ZILVER outputs reopened; no GOUD context, controller transition, formal/advisory A/B/C, PARELS, hotel, final route or pipeline architecture work performed."}
+{"event_id":"EVT-0009","run_id":"BRAJ-COMPLETE-001","event_type":"TRANSITION_CLAIMED","at":"2026-07-15T15:05:00+02:00","actor":"SUBREGIE_INDIA","transition":"ZILVER_COMPLETE_TO_READY_FOR_GOUD","claimed_by":"SUBREGIE_INDIA","source_commit":"10e0e4128f1f3f7f0498b4e2612549a8f68ae090","expected_state":"ZILVER_COMPLETE","target_context_manifest":"research/active/BRAJ-COMPLETE-001/context/GOUD_CONTEXT.yaml","from_state":"ZILVER_COMPLETE","to_state":"ZILVER_COMPLETE","notes":"ZILVER artifacts, sentinels, identifiers, sources, handoff and state/events validated; no active claim existed."}
+{"event_id":"EVT-0010","run_id":"BRAJ-COMPLETE-001","event_type":"CONTEXT_PREPARED","at":"2026-07-15T15:06:00+02:00","actor":"SUBREGIE_INDIA","role":"GOUD","source_commit":"10e0e4128f1f3f7f0498b4e2612549a8f68ae090","context_manifest":"research/active/BRAJ-COMPLETE-001/context/GOUD_CONTEXT.yaml","context_profile":"GOUD_MIN","notes":"ZILVER output pinned and GOUD context extended with Mark's permanent LOCATION_ID and verified GEO-data requirements; Braj block 200-299 reserved."}
+{"event_id":"EVT-0011","run_id":"BRAJ-COMPLETE-001","event_type":"TRANSITIONED","at":"2026-07-15T15:07:00+02:00","actor":"SUBREGIE_INDIA","transition":"ZILVER_COMPLETE_TO_READY_FOR_GOUD","source_commit":"10e0e4128f1f3f7f0498b4e2612549a8f68ae090","from_state":"ZILVER_COMPLETE","to_state":"READY_FOR_GOUD","context_manifest":"research/active/BRAJ-COMPLETE-001/context/GOUD_CONTEXT.yaml","result_status":"PARTIAL","location_id_block":"200-299","parels_layer_active":false,"notes":"Technical validation passed. GOUD must preserve all 29 candidates, produce verified GEO datasets and may not create KML or assign A/B/C."}
+{"event_id":"EVT-0012","run_id":"BRAJ-COMPLETE-001","event_type":"CLAIMED","at":"2026-07-15T15:20:00+02:00","actor":"ChatGPT-GOUD","role":"GOUD","claimed_by":"ChatGPT-GOUD","source_commit":"10e0e4128f1f3f7f0498b4e2612549a8f68ae090","expected_state":"READY_FOR_GOUD","output_path":"research/active/BRAJ-COMPLETE-001/GOUD/","from_state":"READY_FOR_GOUD","to_state":"GOUD_CLAIMED","notes":"Claimed after GitHub read/write preflight, state/event synchronization, complete required context and exact validation of all eleven pinned ZILVER blob SHAs."}
+{"event_id":"EVT-0013","run_id":"BRAJ-COMPLETE-001","event_type":"GOUD_COMPLETED","at":"2026-07-15T15:45:00+02:00","actor":"ChatGPT-GOUD","role":"GOUD","result_status":"PARTIAL","source_commit":"10e0e4128f1f3f7f0498b4e2612549a8f68ae090","output_manifest":"research/active/BRAJ-COMPLETE-001/GOUD/manifest.yaml","completion_artifact_commit":"ac0a26fd65729690581a3356e4bf8a9c85dbefbb","state_commit":"5d659c887151c5b661e0670dc8ce3b29f85bcc1e","from_state":"GOUD_CLAIMED","to_state":"GOUD_PARTIAL","completion_destination":"VOOR_SUBREGIE_INDIA","notes":"Existing GOUD claim resumed without a new claim. All mandatory GOUD artifacts were reopened and validated; 29 candidates and LOCATION_IDs 200-228 retained; GEO gaps preserved without guessed coordinates; no KML, A/B/C, PARELS, archiving, regisseur processing, route, hotel or pipeline modification performed."}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1303 path=research/active/BRAJ-COMPLETE-001/state.yaml blob_sha=9f236d1fb6a82eff0c020923afe474b3b6611188 original_offset=0 original_length=897 payload_bytes=897 chunk_index=0 chunk_count=1 classification=text
+run_id: BRAJ-COMPLETE-001
+state: GOUD_PARTIAL
+active_role: null
+claim: null
+last_event_id: EVT-0013
+last_validated_commit: ac0a26fd65729690581a3356e4bf8a9c85dbefbb
+blockers:
+  - Verified WGS84 visitor entrances or exact sites remain absent for all 29 candidates; LOCATION_ID 221 is identity-conflicted.
+  - Complete ten-function image dossiers remain absent for all 29 candidates.
+  - Systematic recent review and current participation/visitability coverage remains incomplete.
+  - Object-level management remains unresolved for multiple distributed and small objects.
+  - Current traffic-aware A-anchor matrix remains unavailable without verified endpoints.
+context_profile: GOUD_MIN
+active_context_manifest: research/active/BRAJ-COMPLETE-001/context/GOUD_CONTEXT.yaml
+location_id_block: 200-299
+geo_protocol: pipeline/protocols/GEO_LOCATION_PROTOCOL.md
+parels_layer_active: false
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1304 path=governance/ACTIVE_STATE.md blob_sha=cea430a133d92d344b949a5a99c108d8ca5d5fcb original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=6 classification=text
+# ACTIVE_STATE — centrale, versie-onafhankelijke overdrachtswaarheid
+
+**Een nieuwe INDIA-regisseursessie moet eerst ACTIVE_STATE + actieve protocolcanon lezen. Oude
+chatgeschiedenis is niet vereist voor correcte voortzetting.**
+
+Datum: 2026-08-14
+Repository: `bnzgxknwrv-tech/india-knowledge-base`
+Werkbranch: `claude/werk-je-nu-of-niet-oa10y7`
+PR: `#23` (draft; niet mergen zonder expliciete vrijgave van Mark)
+
+Deze locatie (`governance/`) is de canonieke overdrachtswaarheid, niet gebonden aan een
+specifieke regisseursessie. `india5/INDIA3_HANDOFF.md` en `india5/ACTIVE_STATE.md` zijn
+gedateerd/gedeprecieerd en verwijzen hierheen (zie hun eigen kop). GitHub is waarheid voor
+overdraagbare projectkennis — niet chatgeheugen. **Sinds 2026-08-08 (poort O.1)**: PR #23 is
+index/relay met KORTE enveloppen (task_id/status/commit), niet meer het volledige transcript —
+de daadwerkelijke inhoud van elke lopende taak staat in `TASK.md`/`STATUS.md`/`RESULT.md` onder
+`runs/active/<TASK_ID>/`, waarvan de paden hieronder bij `ACTIVE_TASKS` staan. **Sinds 2026-08-14**:
+`governance/INDIA_SESSION_START.md` is de duurzame bootstrap voor een nieuwe INDIA-regisseursessie
+(bevestigd bestaand, ongewijzigd correct).
+
+```
+PROJECT: India-pelgrimsroute-onderzoek voor Mark (bnzgxknwrv-tech/india-knowledge-base, PR #23)
+WAAROM_MARK_REIST: een persoonlijke pelgrimsreis langs (1) verifieerbare fysieke plekken uit/
+  verbonden met *Autobiography of a Yogi* en (2) plekken verbonden aan zijn persoonlijke Top-11
+  (zie hieronder) — dat is het eigenlijke reisdoel, missiekritisch. Overige, objectief zware
+  bedevaartsplekken zijn bonusmateriaal, alleen bij hoge zelfstandige zwaarte (zie
+  "Reisdoel-prioriteit" hieronder).
+MARKS_REISPERIODE: 18 december 2026 t/m 21 januari 2027 (bron: INDIA6 bericht 055/057) — alle
+  keuze-relevante festival-/evenement-/toegangsinformatie in kandidaatteksten wordt hiertegen
+  gecontroleerd, niet tegen een oud/generiek festivaljaar (zie governance/SWEEP_PROTOCOL.md poort N)
+CURRENT_REGISSEUR_ROLE: INDIA (rolgebaseerd — huidige regisseursessie is vervangbaar, niet canoniek)
+CURRENT_SESSION_LABEL: INDIA6 (informatief, niet functioneel vereist)
+ACTIVE_PROTOCOL: governance/SWEEP_PROTOCOL.md (ACTIEF/CANONIEK) + india4/protocols/INDIA5-PROTOCOL.md
+  + india4/protocols/INDIA5_REGION_START_PROTOCOL.md + india4/protocols/NOT_TO_BE_MISSED_FRAMEWORK.md
+  + governance/INDIA_SESSION_START.md (bootstrap-samenvatting)
+LAST_GLOBAL_LOCATION_NUMBER: 078 (BODHGAYA; VARANASI eindigt op 045, geen overlap; corridor-taak
+  GAYA-AIRPORT-BODHGAYA-CORRIDOR-001 leverde 0 nieuwe nummers op; KUMAON-V2-RESWEEP-001 Sweep A
+  gebruikt uitsluitend tijdelijke sweep-ID's, nog geen permanente nummers toegekend)
+PDF_STATUS: VERBODEN (projectbreed default; per taak expliciet PDF_GO: JA vereist, zie
+  governance/SWEEP_PROTOCOL.md poort M/N)
+DOUBLE_SWEEP_PROTOCOL_CANONICAL: JA (bericht 059, 2026-08-08) — geen regionale sweep geldt als
+  inhoudelijk compleet zonder een echt onafhankelijke tweede sweep + reconciliatie (governance/
+  SWEEP_PROTOCOL.md poort R, foutklasse FK-012). Geldt voor toekomstige regio's; Bodh Gaya's al
+  lopende reconciliatie (bericht 058) wordt er niet retroactief door geblokkeerd.
+HUMAN_TOUCHPOINTS_MINIMIZED: JA (bericht 060, 2026-08-08, governance/SWEEP_PROTOCOL.md poort S) —
+  GitHub/PR #23 is de communicatie-/state-laag tussen INDIA en CCI, niet Mark. Mark geeft de
+  initiële sweepvraag, persoonlijke voorkeuren/canonbesluiten en de uiteindelijke A/B/C-keuzes, en
+  beslist alleen bij echte, bronnelijk onoplosbare ambiguïteit (bijv. een openstaande
+  `MARK_DECISION_CONFLICT`). CCI en INDIA lezen elkaars GitHub-uitvoer rechtstreeks en handelen
+  zelfstandig — geen fictieve automatisering geclaimd: INDIA kan niet autonoom draaien of door CCI
+  worden aangeroepen, maar zodra een kant een PR-comment/commit van de andere leest, volgt de
+  eerstvolgende eigen actie zonder dat Mark als koerier hoeft te fungeren.
+INGETROKKEN_CANONPOGING (2026-08-08, bericht 061): een "DELTA-ONLY herbeoordeling"-poort werd
+  kort gecanoniseerd en is di
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1305 path=governance/ACTIVE_STATE.md blob_sha=cea430a133d92d344b949a5a99c108d8ca5d5fcb original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=6 classification=text
+ezelfde dag door INDIA6 INGETROKKEN als permanente regel — bedoeld was
+  alleen een eenmalig praktisch hulpmiddel voor de huidige Bodh Gaya-correctieronde, niet een
+  algemene regel voor toekomstige sweeps (die moeten juist zulke late correcties voorkomen via
+  poort R's dubbele sweep + integrale pre-PDF-QA). `governance/SWEEP_PROTOCOL.md` bevat GEEN
+  poort T meer; het praktische bijproduct `DELTA_REVIEW_2026-08-08.md` voor Bodh Gaya blijft
+  gewoon bestaan als eenmalig documenten, niet als canonprecedent.
+ACTIVE_TASKS (bron van waarheid voor lopende taken — PR #23 is index/relay met KORTE enveloppen,
+  niet meer het volledige transcript; zie governance/SWEEP_PROTOCOL.md poort O.1, 2026-08-08):
+  - task_id: GAYA-AIRPORT-BODHGAYA-CORRIDOR-001
+    task_file: runs/active/GAYA-AIRPORT-BODHGAYA-CORRIDOR-001/TASK.md
+    status_file: runs/active/GAYA-AIRPORT-BODHGAYA-CORRIDOR-001/STATUS.md
+    result_file: runs/active/GAYA-AIRPORT-BODHGAYA-CORRIDOR-001/RESULT.md
+    state: DOUBLE_SWEEP_COMPLETED_RECONCILED (2026-08-14) — 0/0 nieuwe fysieke kandidaten,
+      afgerond, geen verder actief werk.
+  - task_id: KUMAON-V2-RESWEEP-001
+    task_file: runs/active/KUMAON-V2-RESWEEP-001/TASK.md
+    status_file: runs/active/KUMAON-V2-RESWEEP-001/STATUS.md
+    result_file: runs/active/KUMAON-V2-RESWEEP-001/RESULT.md
+    state: SWEEP_A_KLAAR_WACHT_OP_INDIA_SWEEP_B (2026-08-14) — 8 tijdelijke kandidaten
+      (KUM-SWEEP-A-001 t/m 008), sterke AOAY-hoofdvondst (Mahavatar Babaji-grot nabij Ranikhet/
+      Dwarahat). Wacht op onafhankelijke INDIA Sweep B, daarna reconciliatie tegen legacy
+      Kumaon-data (KUMAON-COMPLETE-001/VRINDAVAN-KUMAON-CORRIDOR-001).
+OPEN_SYSTEM_DECISIONS:
+  - Tweede, ongebruikte taakarchitectuur onder india5/tasks/ (TASK.yaml/STATUS.yaml) — BESLOTEN
+    (2026-08-08, RELAY-MIGRATION-001): expliciet overwogen voor het nieuwe TASK.md/STATUS.md-
+    /RESULT.md-patroon (poort O.1), maar te zwaar bevonden (sha256-hash-pinning, allow/forbid-
+    ACL's, completion-markers zonder duidelijke meerwaarde hier) — NIET gereactiveerd. Blijft
+    ongebruikt/gedeprecieerd; het lichtere `runs/active/<TASK_ID>/TASK.md`+`STATUS.md`-patroon is
+    nu de canonieke aanpak voor taakbestanden.
+  - Of Coverage Matrix/Lead Register-inhoud (niet alleen statusvolledigheid) verder machinaal
+    gevalideerd moet worden, naast de huidige governance/scripts/preflight_validator.py — inclusief
+    of poort R's nieuwe reconciliatiegate-tokens (DOUBLE_SWEEP_COMPLETED e.a.) een scriptcheck
+    moeten krijgen.
+  - Concreet minimum voor een geldige adversarial pass (poort I) voor de bonusmateriaal-laag (laag
+    3) nog niet formeel vastgelegd — voor de missiekritische laag is dit inmiddels wel hard gezet
+    via poort R (dubbele onafhankelijke sweep verplicht).
+LAST_RELEVANT_COMMIT: (zie onderaan dit bestand, wordt bijgewerkt per commit)
+
+REGIONS:
+
+  VARANASI:
+    fase: MAINTENANCE_STATUS (sweep afgesloten, PR #23, 2026-08-03)
+    saturation-status: SATURATED (afgesloten vóór introductie van dit tokenformaat)
+    INDIA_ACCEPTED_SATURATION: JA (impliciet — afsluitbesluit INDIA2, vóór dit tokenformaat bestond)
+    Mark-selection-status: 001-040 volledig beoordeeld (A: 32, B: 5, C: 3); 041-045 PROVISIONAL,
+      geen A/B/C, wacht op Marks eigen initiatief
+    protected A/B/C-besluiten: alle 40 (001-040), plus hotel VNS-HOTEL-001 = LOCKED_BY_MARK
+      (Sahi River View Guesthouse)
+    reserved/excluded nummers: geen excluded; 041-045 blijven PROVISIONAL/DOOR_MARK_TE_BEOORDELEN
+    blockers: geen actieve; open onzekerheden (VNS-CAND-008 coördinaat, VNS-CAND-023 ~3km
+      brondiscrepantie, ontbrekende Google Maps-markers) staan gedocumenteerd in
+      runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/VARANASI_FINAL_STATUS.md, geen van alle
+      blokkeert MAINTENANCE_STATUS
+    next_allowed_step: geen — alleen bij expliciet Mark-verzoek of concreet nieuw bewijs voor een
+      NOT_TO_BE_MISSED-locatie
+
+  BODHGAYA:
+    fase: KEUZEFASE INHOUDELIJK AFGEROND (2026-08-08, Mark rechtstreeks + INDIA6 bericht 066) —
+      MARK_SELECTIE_KLAAR + AOAY/Top
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1306 path=governance/ACTIVE_STATE.md blob_sha=cea430a133d92d344b949a5a99c108d8ca5d5fcb original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=6 classification=text
+-11-audit KLAAR + reconciliatie KLAAR + alle drie
+      MARK_DECISION_CONFLICTs opgelost (bericht 065). GEEN V2-PDF meer — zie
+      BODHGAYA_PDF_V2_CANCELLED_BY_MARK hieronder. Aanvullende corridor-taak
+      GAYA-AIRPORT-BODHGAYA-CORRIDOR-001 (zie ACTIVE_TASKS) is DOUBLE_SWEEP_COMPLETED_RECONCILED.
+    BODHGAYA_PDF_V2_CANCELLED_BY_MARK: JA (2026-08-08) — Mark rechtstreeks in chat: "Geen pdf
+      meer!!!"; onafhankelijk bevestigd door INDIA6 (PR #23, bericht 066): "MARK-BESLUIT: GEEN
+      NIEUWE BODH GAYA-PDF MEER." Bestaande A/B/C-keuzes (incl. 051=C, 061=C, 074=C) blijven
+      leidend en ONGEWIJZIGD. Dit annuleert uitsluitend de PDF-STAP, niet het onderzoek/de
+      besluiten zelf — alle onderzoeksdata, correcties en governance-learnings blijven intact
+      voor latere route-/reisplanning.
+    saturation-status: SATURATED=JA (SATURATION_REPORT_002.md + _003_ADDENDUM.md)
+    INDIA_ACCEPTED_SATURATION: JA (geaccepteerd, bericht 028)
+    CONTENT_QA_ACCEPTED: JA (bericht 048, gold voor V1); PDF_GO: JA (bericht 048, V1 gebouwd) —
+      een V2_-PDF wordt NIET meer gebouwd (zie BODHGAYA_PDF_V2_CANCELLED_BY_MARK); V1 blijft de
+      laatst geleverde, gedateerde PDF, niet vervangen
+    AOAY_TOP11_AUDIT: KLAAR (bericht 054, 2026-08-08; GERECONCILIEERD 2026-08-08 na een
+      onafhankelijke INDIA6-tegencontrole, bericht 058) — volledige AOAY-primaire-tekstsweep (1
+      treffer: Sri Yukteswars Swami-inwijding "door de Mahant van Buddh Gaya", AOAY ch.36) + alle
+      11 Top-11-namen individueel onderzocht, daarna elk gemeld discrepantiepunt opnieuw tegen
+      bronnen getoetst. 5 LINK_GEVONDEN (Sri Yukteswar -> 046; Vivekananda -> 046, verrijking;
+      Anandamayi Ma -> 051; Ramakrishna -> 051 via zijn vader Kshudirams naamgevende
+      Gadadhar/Vishnu-visioen, NIET via een eigen bezoek; Ram Dass -> onzeker tussen 061 en 074),
+      6 geen directe fysieke link (waaronder Neem Karoli Baba zelf, wel niet-promoveerbare
+      lineage-context bij 046 via devotee Krishna Das). CORRECTIE t.o.v. de eerste versie: de
+      claim "Ramakrishna bezocht Bodh Gaya" was ONJUIST (rechtstreekse brondubbelcheck toonde het
+      tegendeel) en is ingetrokken/verplaatst; de Ram Dass-datum is gecorrigeerd naar januari 1971
+      (was onjuist "winter 1969-70") en de kandidaat is niet langer zeker 074 alleen. Volledige
+      matrix: runs/active/BODHGAYA-DISCOVERY-001/PRE_BRONS/AOAY_TOP11_AUDIT.md
+    Mark-selection-status: MARK_SELECTIE_KLAAR: JA (bericht 053, 2026-08-08). A: 046, 047, 048,
+      049. B: 050, 052, 070, 073. C: 051, 058, 060, 061, 062, 063, 068, 071, 072, 074, 077, 078.
+      Alle 20 nummers LOCKED_BY_MARK — geen open kandidaten, geen open MARK_DECISION_CONFLICTs meer
+      (zie hieronder, opgelost bericht 065).
+    MARK_DECISION_CONFLICTs — ALLE DRIE OPGELOST (bericht 065, 2026-08-08, via de compacte
+      DELTA-review): **051** Vishnupad Temple — C bevestigd, ondanks TWEE nieuwe Top-11-links
+      (Anandamayi Ma, Top-11 #7; Ramakrishna, Top-11 #8, via zijn vaders visioen). **061** Burmese
+      Vihara — C bevestigd, ondanks mogelijke Ram Dass-link (Top-11 #5, LOCATIE ONZEKER, zie 074).
+      **074** Dhamma Bodhi/Samanvaya Ashram — C bevestigd, Ram Dass-link (datum gecorrigeerd naar
+      januari 1971), LOCATIE ONZEKER, gedeeld met 061. Vastgelegd in
+      runs/active/BODHGAYA-DISCOVERY-001/MARK_DECISIONS_2026-08-08_DELTA.jsonl; banners in
+      MARK_SELECTION_REPORT.md en PRE_PDF_CONTENT.md bijgewerkt naar "OPGELOST". Geen apart
+      "Gadadhar Vishnu Temple"-nummer nodig (dit IS 051, geen aparte fysieke plek) — expliciet
+      onderzocht en afgewezen.
+    protected A/B/C-besluiten: 046-049 = A (bron: MARK_DECISIONS_2026-08-05.jsonl); 050-078-groep
+      zie hierboven (bron: runs/active/BODHGAYA-DISCOVERY-001/MARK_DECISIONS_2026-08-08.jsonl +
+      MARK_DECISIONS_2026-08-08_DELTA.jsonl, LOCKED_BY_MARK, mag niet stilzwijgend heropend worden)
+    reserved/excluded nummers: 069, 075 = EXCLUDED_HARD_REASON (eerder); 053, 054, 055, 056, 057,
+      059, 064, 065, 066, 067 = EXCLUDED_HARD_REASON (2026-08-08, retroact
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1307 path=governance/ACTIVE_STATE.md blob_sha=cea430a133d92d344b949a5a99c108d8ca5d5fcb original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=6 classification=text
+ieve E.1-canontoets,
+      INDIA6 bericht 042 — enige resterende onderscheiding was land-/traditievertegenwoordiging
+      of pure architectuur, geen zelfstandige bedevaarts-/heilige zwaarte); 076 (Akshayavat) =
+      SUBLOCATION, samengevoegd bij 051 (Vishnupad Temple) — alle 13 uitgesloten/sublocatie-
+      nummers blijven permanent gereserveerd, nooit hergebruikt; corridor-taak (zie ACTIVE_TASKS)
+      leverde geen nieuwe nummers op, 079+ blijft ongebruikt
+    blockers: geen — run is inhoudelijk afgerond voor de keuzefase; enige "blocker" is
+      permanent/gewenst: GEEN PDF meer bouwen (zie BODHGAYA_PDF_V2_CANCELLED_BY_MARK)
+    PDF geleverd: runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/V1_BODHGAYA_KEUZE_REISGIDS.pdf
+      (19 pagina's, commit 5910439) — eerste én LAATSTE build voor deze run; GEEN V2 meer, PDF
+      toont de OUDE open/twijfelgeval-labels en wordt NIET meer vervangen (geannuleerd door Mark)
+    PRE_PDF_CONTENT geleverd: runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/PRE_PDF_CONTENT.md —
+      volledige, actuele kandidaatinhoud (20 kandidaatkaarten met alle 10 verplichte velden,
+      beslismatrix, clusteroverzicht), bijgewerkt na reconciliatie (bericht 058) EN na de drie
+      opgeloste MARK_DECISION_CONFLICTs (bericht 065). Dit is het DEFINITIEVE leesbare
+      eindproduct voor Bodh Gaya — geen PDF-render meer gepland, dus geen
+      `PRE_PDF_CONTENT_APPROVED`/`PDF_GO`-stap meer nodig voor deze run.
+    DELTA_REVIEW gebruikt en afgehandeld (2026-08-08, bericht 061 → besluit bericht 065 — eenmalig
+      praktisch hulpmiddel voor DEZE correctieronde, GEEN permanente canonregel, zie "Ingetrokken
+      canonpogingen" hieronder): runs/active/BODHGAYA-DISCOVERY-001/GOUD/USER/
+      DELTA_REVIEW_2026-08-08.md diende als compacte herbeoordeling voor Mark van de 3 kandidaten
+      met een open MARK_DECISION_CONFLICT (051, 061, 074) — Mark koos "oude keuze (C) behouden"
+      voor alle drie; document blijft staan als afgehandeld historisch artefact
+    next_allowed_step: GEEN inhoudelijke PDF-stap meer voor Bodh Gaya. Alle onderzoeksdata,
+      A/B/C-besluiten en governance-learnings blijven intact voor latere route-/reisplanning.
+
+  KUMAON (V2-RESWEEP):
+    fase: SWEEP_A_KLAAR_WACHT_OP_INDIA_SWEEP_B (2026-08-14) — zie ACTIVE_TASKS voor taakpointer.
+    legacy: KUMAON-COMPLETE-001 en VRINDAVAN-KUMAON-CORRIDOR-001 bevatten ouder onderzoek/
+      Mark-besluiten — NIET geraadpleegd tijdens Sweep A discovery (blindheidsregel TASK.md), pas
+      relevant bij reconciliatie NA Sweep B.
+    blockers: geen — wacht op INDIA Sweep B.
+    next_allowed_step: INDIA voert onafhankelijk Sweep B uit; daarna reconciliatie tegen Sweep A +
+      legacy-data.
+```
+
+## Governance-canon (versie-onafhankelijk, deze map)
+
+- `governance/SWEEP_PROTOCOL.md` — ACTIEF/CANONIEK sweep-protocol (poorten A-Q), aanvulling op
+  de bestaande negen-stappenflow.
+- `governance/SWEEP_ERROR_CLASSES.md` — ACTIEF foutklassenregister (FK-001 t/m FK-011).
+- `governance/scripts/preflight_validator.py` — machine-checkbare structurele preflight vóór
+  keuzerapportfase en vóór PDF (zie SWEEP_PROTOCOL.md Deel 4 voor de exacte grenzen).
+- `governance/ACTIVE_STATE.md` — dit bestand.
+- `governance/INDIA_SESSION_START.md` — duurzame bootstrap-samenvatting voor een nieuwe
+  INDIA-regisseursessie (bevestigd bestaand en correct, 2026-08-14).
+
+### Reisdoel-prioriteit: AOAY + Top-X = missiekritisch, rest = bonus (canoncorrectie 2026-08-08, bericht 044)
+
+Marks eigenlijke reisdoel is (1) AOAY (*Autobiography of a Yogi*) en (2) de **definitieve Top-11**
+— NIET een gelijkwaardige derde categorie naast "overige bedevaartsplekken". Elke regio-sweep is
+verplicht tot een 100%-sweep van deze twee lagen (elke AOAY-plek, elke Top-11-persoon een eigen
+detector — zie `governance/SWEEP_PROTOCOL.md` poort A/E.1) VÓÓRDAT algemene bedevaarts-
+"bonusmateriaal"-kandidaten mogen meetellen als bewijs voor een sweep-brede `SATURATED=JA`-claim
+(harde volgordedwang, poort C/J). Praktisch gevolg, letterlijk zoals door Mark bedoeld: een
+obscure schuur w
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1308 path=governance/ACTIVE_STATE.md blob_sha=cea430a133d92d344b949a5a99c108d8ca5d5fcb original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=6 classification=text
+aar Yogananda aantoonbaar mediteerde staat qua keuzeprioriteit BOVEN een enorm
+bedevaartsoord met miljoenen bezoekers — geen inconsistentie, maar het punt van de hele reis. Dit
+verandert NIETS aan de MARK_WAARDIG-gate zelf (nog steeds geen quotum, geen filtering op
+verwachte A/B/C) — het bepaalt uitsluitend zoekvolgorde/-diepte en saturatie-afhankelijkheid.
+
+**Definitieve Top-11 (canoncorrectie 2026-08-08, bericht 046 — vervangt elke eerdere, bredere
+Top-X-omschrijving)**: Paramahansa Yogananda, Mahavatar Babaji, Lahiri Mahasaya, Sri Yukteswar,
+Ram Dass, Neem Karoli Baba, Anandamayi Ma, Ramakrishna, Ramana Maharshi, Hariharananda,
+Vivekananda. Apart, met een eigen expliciet gewenste Mahasamadhi-locatie in Delhi: **Shri Mataji
+Nirmala Devi** (buiten de Top-11, wel missiekritisch voor die ene locatie). **Boeddha en Krishna
+staan NIET in de Top-11** — beiden zijn te groot/alomtegenwoordig, wat kandidaat-inflatie zou
+veroorzaken (elke gewone boeddhistische/Krishna-tempel zou anders automatisch missiekritisch
+worden). Boeddha-/Krishna-kandidaten worden voortaan uitsluitend onder laag 3 beoordeeld (hoge,
+zelfstandige-zwaarte-drempel) — Mahabodhi Temple/Bodh Gaya blijft daar vanzelfsprekend kandidaat
+omdat de plek zelf die drempel overduidelijk haalt.
+
+### Discriminatieregel MARK_WAARDIG (canoncorrectie 2026-08-08, verscherpt dezelfde dag, duurzaam te erven)
+
+Elke toekomstige INDIA-regisseur/CCI-uitvoering erft automatisch de beslisvolgorde uit
+`governance/SWEEP_PROTOCOL.md` poort E.1: (1) AOAY-link (*Autobiography of a Yogi*) = absolute
+override, altijd tonen, ook bij een objectief onbeduidende plek; (2) zonder AOAY-link: Top-X
+persoonlijke zwaarte, breed zoeken, lage drempel; (3) alles daarbuiten: **religie-onafhankelijke**
+bedevaarts-/pelgrimszwaarte met een HOGE drempel. De zoekvraag is NIET "welke belangrijke religies
+zijn hier aanwezig?" maar UITSLUITEND "welke fysieke plekken hebben hier uitzonderlijke
+religieuze/spirituele/pelgrimszwaarte?" — een grote wereldreligie geeft op zichzelf geen recht op
+opname; een obscure/kleine traditie met één plaats van enorme pelgrimszwaarte moet juist boven
+komen. Religiecategorieën (poort A) zijn hoogstens aanvullende zoektermen, nooit de begrenzing van
+de zoekruimte en nooit zelfstandig bewijs voor kandidaatstatus. Zie
+`governance/SWEEP_ERROR_CLASSES.md` FK-011 voor het Bodh Gaya-precedent (Mongolian Temple, 069).
+
+## Nog geldige, ongewijzigde canon buiten `governance/`
+
+- `india4/protocols/INDIA5-PROTOCOL.md` — hoofdprotocol (PDF-poort, bestandsnaamgeving,
+  Verzadigingsdrempel).
+- `india4/protocols/INDIA5_REGION_START_PROTOCOL.md` — negen-stappenflow per regio.
+- `india4/protocols/NOT_TO_BE_MISSED_FRAMEWORK.md` — MARK_WAARDIG-hoofdvraag + acht regels.
+
+## Rollen (rolgebaseerd, niet sessienaam-gebonden)
+
+- **Mark**: bepaalt doel/scope, maakt alle definitieve A/B/C-keuzes, geeft `PDF_GO: JA` en
+  content-acceptatie.
+- **Huidige INDIA-regisseur** (`CURRENT_REGISSEUR_ROLE`, vandaag ingevuld door de sessie met
+  label INDIA6): regisseert, bewaakt canon, controleert saturatie-evidence
+  (`INDIA_ACCEPTED_SATURATION: JA`) en content (`PRE_PDF_CONTENT_APPROVED: JA`, vervangt het oude
+  losse `CONTENT_QA_ACCEPTED: JA` voor PDF-doeleinden — zie governance/SWEEP_PROTOCOL.md poort M).
+  Niet canoniek/onmisbaar — een toekomstige INDIA7/INDIA8/... erft deze rol volledig via dit
+  bestand plus de actieve protocolcanon, nooit via chatgeschiedenis. **Actieplicht (bericht 057)**:
+  als INDIA constateert dat iets inhoudelijk noodzakelijk moet gebeuren, mag dat niet eindigen als
+  passieve TODO — INDIA voert het zelf uit met beschikbare tools of geeft in dezelfde beurt een
+  concrete CCI-opdracht. Alleen blokkeren bij werkelijk ontbrekende informatie/toestemming.
+- **CCI (ClaudeCodeIndia)**: uitvoerende engine — onderzoek, datasets, rapporten, commits. Bouwt
+  uitsluitend een PDF na `PRE_PDF_CONTENT_APPROVED: JA` én een apart, letterlijk `PDF_GO: JA`.
+
+---
+Geschreven door: CCI, bijgewerkt na Sweep A van KUMAON-V2-RESWEEP-001 (2026-08-14). Geen PDF, geen
+A/B/C, geen permanen
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1309 path=governance/ACTIVE_STATE.md blob_sha=cea430a133d92d344b949a5a99c108d8ca5d5fcb original_offset=20480 original_length=96 payload_bytes=96 chunk_index=5 chunk_count=6 classification=text
+te locatienummers. `PDF_STATUS: VERBODEN` gerespecteerd tijdens het schrijven
+van dit document.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1310 path=governance/INDIA_SESSION_START.md blob_sha=9dd39eaca1d26bb8436d936ea7e2bcb91c2455e7 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# INDIA_SESSION_START — duurzame bootstrap voor iedere nieuwe INDIA-regisseursessie
+
+Datum snapshot: 2026-08-14
+
+## Doel
+Dit bestand maakt de huidige ChatGPT/INDIA-regisseur vervangbaar. Een nieuwe sessie hoeft de oude chat niet te lezen en mag Mark niet vragen de geschiedenis opnieuw uit te leggen.
+
+## Eerste leesvolgorde
+1. `governance/ACTIVE_STATE.md`
+2. `governance/SWEEP_PROTOCOL.md`
+3. dit bestand opnieuw als korte operationele samenvatting
+4. het `STATUS.md` van de nieuwste actieve taak
+5. het bijbehorende `TASK.md`
+6. `RESULT.md` alleen wanneer de taakstatus/protocol dat toestaat; respecteer blindheid tussen onafhankelijke sweeps.
+
+GitHub is de duurzame bron van waarheid. Oude chatgeschiedenis is niet nodig voor voortzetting.
+
+## Projectdoel van Mark
+De reis draait primair om:
+1. iedere verifieerbare fysieke plek uit of direct verbonden met *Autobiography of a Yogi* (AOAY), hoe klein ook;
+2. iedere relevante fysieke plek verbonden met Marks Top-11;
+3. daarnaast alleen echte zelfstandige spirituele/pelgrimszwaargewichten als bonuslaag.
+
+Top-11, in vaste volgorde:
+1. Paramahansa Yogananda
+2. Mahavatar Babaji
+3. Lahiri Mahasaya
+4. Sri Yukteswar
+5. Ram Dass
+6. Neem Karoli Baba
+7. Anandamayi Ma
+8. Ramakrishna
+9. Ramana Maharshi
+10. Hariharananda
+11. Vivekananda
+
+Geen A/B/C voorspellen namens Mark. Bestaande Mark-besluiten zijn beschermd en worden nooit stilzwijgend heropend. Nieuwe cruciale informatie kan alleen een `MARK_DECISION_CONFLICT` veroorzaken.
+
+## Werkverdeling
+- INDIA = regisseur, onafhankelijke tweede sweep, QA, synthese, bepaalt volgende stap.
+- CCI = brononderzoek, extractie, bestanden, validators, reconciliatie en commits.
+- Mark = doelen, echte persoonlijke keuzes en uiteindelijke A/B/C.
+- PR #23 = korte relay/index; lange taakinhoud staat in `runs/active/<TASK_ID>/TASK.md`, status in `STATUS.md`, resultaat in `RESULT.md`.
+
+## Harde onderzoeksregels
+- V2 dubbele sweep: CCI Sweep A + onafhankelijke INDIA Sweep B + reconciliatie.
+- Sweep B gebruikt Sweep A niet als zoekbasis.
+- Open/retrieve daadwerkelijke brontekst voor keuze-relevante claims; geen snippet-only bevestigingen.
+- AOAY en elk van de 11 Top-11-namen worden systematisch afgedekt, inclusief negatieve resultaten.
+- Laag 3 is religie-onafhankelijk maar alleen voor echte zware pelgrims/spirituele locaties; geen quota.
+- Geen PDF tenzij Mark expliciet `PDF_GO` geeft.
+- Geen onnodige vragen aan Mark wanneer scope uit canon/repo kan worden bepaald.
+
+## Afgeronde zware regio's
+- VARANASI: inhoudelijke keuzefase afgerond; 001–040 beoordeeld en beschermd; 041–045 alleen op Marks initiatief.
+- BODH GAYA: inhoudelijke keuzefase afgerond; 046–078-set verwerkt; bestaande Mark-keuzes beschermd; geen nieuwe Bodh Gaya-PDF.
+- GAYA AIRPORT → BODH GAYA corridor: `DOUBLE_SWEEP_COMPLETED_RECONCILED`; 0 nieuwe fysieke kandidaten; 079 bleef ongebruikt.
+
+## Regioprioriteit vanaf deze snapshot
+Eerst de zware kernregio's, niet kleine toevallige vondsten.
+1. KUMAON / BABAJI / DWARAHAT / KAINCHI — nu eerst.
+2. TIRUVANNAMALAI / ARUNACHALA.
+3. KOLKATA / SERAMPORE.
+Rajgir/Nalanda staat voorlopig NIET in beeld als volgende actieve regio.
+
+## Actuele keuze: Kumaon opnieuw, maar blind en modern
+De oude repo bevat al veel `KUMAON-COMPLETE-001`-onderzoek en oudere locaties/Mark-statussen. Dat werk wordt NIET weggegooid, maar mag de nieuwe discovery niet sturen.
+
+Nieuwe aanpak voor `KUMAON-V2-RESWEEP-001`:
+1. CCI Sweep A volledig vers vanaf nul onder huidige AOAY + Top-11 + laag-3-regels, zonder oude Kumaon-kandidatenlijst als zoekbasis.
+2. INDIA Sweep B daarna eveneens onafhankelijk en blind voor zowel CCI Sweep A als de oude kandidaatset als discovery-basis.
+3. Pas na beide sweeps wordt het oude Kumaon-onderzoek geopend als benchmark.
+4. Reconciliatie vergelijkt `NIEUW∩OUD`, `NIEUW\OUD`, `OUD\NIEUW` en bronconflicten.
+5. Oude Mark-besluiten/IDs nooit automatisch wijzigen; legacy-only locaties worden opnieuw geverifieerd, niet stil verwijderd.
+6. Nieuwe fysieke vondsten krijgen pas na reconciliatie een permanente ID volgens de dan geldende registry; tijdens blinde 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1311 path=governance/INDIA_SESSION_START.md blob_sha=9dd39eaca1d26bb8436d936ea7e2bcb91c2455e7 original_offset=4096 original_length=825 payload_bytes=825 chunk_index=1 chunk_count=2 classification=text
+discovery alleen tijdelijke sweep-ID's gebruiken.
+
+Zo krijgen we een echte nieuwe kwaliteitsmeting zonder oud werk weg te gooien of discovery te bevooroordelen.
+
+## Actieve eerstvolgende taak
+`runs/active/KUMAON-V2-RESWEEP-001/TASK.md`
+
+## Startzin voor een nieuwe ChatGPT-sessie
+Gebruik als eerste bericht:
+
+`Neem de INDIA-regie over. Lees via GitHub eerst governance/INDIA_SESSION_START.md en volg de daar genoemde leesvolgorde. Oude chatgeschiedenis is niet nodig. Handel daarna direct de actuele NEXT_ACTION af zonder mij de geschiedenis opnieuw te laten uitleggen.`
+
+## Successorregel
+Een opvolgsessie die dit bestand + ACTIVE_STATE + actuele TASK/STATUS heeft gelezen, neemt dezelfde functionele rol over. Sessielabels (INDIA6/INDIA7/etc.) zijn alleen informatief en mogen nooit nodig zijn om de workflow te begrijpen.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1312 path=governance/SWEEP_PROTOCOL.md blob_sha=52efd7d7547d892ccc2a761cf83d80c53afb5736 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=16 classification=text
+# SWEEP_PROTOCOL_V1 — ACTIEF/CANONIEK
+
+Status: **ACTIEF/CANONIEK** sinds `SWEEP_PROTOCOL_V1: GEACCEPTEERD` (protocolreview door de
+huidige INDIA-regisseur, PR #23). Deze locatie (`governance/`) is de versie-onafhankelijke canon:
+niet gebonden aan een specifieke regisseursessie (INDIA4, INDIA5, INDIA6, ... zijn vervangbare
+regisseursessies, geen canonieke systeemversies — zie `governance/ACTIVE_STATE.md`).
+
+Dit document VERVANGT `INDIA5_REGION_START_PROTOCOL.md`, `NOT_TO_BE_MISSED_FRAMEWORK.md` en
+`INDIA5-PROTOCOL.md` niet — het voegt harde, controleerbare poorten toe op de plekken in de
+bestaande negen-stappenflow (`INDIA5_REGION_START_PROTOCOL.md`) waar Bodh Gaya aantoonbaar
+faalde. Waar mogelijk hergebruikt dit document bestaande, al goed ontworpen regels (met name de
+Verzadigingsdrempel-sectie in `INDIA5-PROTOCOL.md`, regels 319-339) in plaats van ze te
+herschrijven. Activatie/acceptatie van vervolgwijzigingen aan dit document gebeurt voortaan via
+het rolgebaseerde token `CURRENT_INDIA_REGISSEUR: ACCEPTEERT` (of, historisch, het eerdere
+`SWEEP_PROTOCOL_V1: GEACCEPTEERD`) — nooit via een sessienaam-specifieke formulering.
+
+Machine-checkbare preflight: zie `governance/scripts/preflight_validator.py` en de toelichting in
+Deel 4 hieronder.
+
+---
+
+## Deel 1 — Root-cause-analyse (Bodh Gaya)
+
+### Foutenlijst met blokkeermoment en ontbrekende controle
+
+| # | Fout | Waarom het protocol dit toeliet | Ideaal blokkeermoment | Ontbrekende controle |
+|---|---|---|---|---|
+| 1 | Vroege CORE_PASS/OPTIONAL_PASS/WATCHLIST-ronde filterde 9 locaties weg op verwachte A/B/C-kans | Geen expliciet verbod op "verwachte uitkomst" als (impliciete) uitsluitingsgrond; de vijf harde uitsluitingsgronden bestonden wel, maar niets checkte actief of een afwijzing er één van was | Bij elke afwijzing, vóór WATCHLIST-plaatsing | Een verplichte koppeling tussen elke afwijzing en één van de vijf harde gronden (zie Deel 2, E) |
+| 2 | `SATURATION_REPORT.md` registreerde zelf `DET-BGY-P003: NOT_YET_SATURATED`, maar de run ging toch door naar nummering/BRONS/GOUD | De Verzadigingsdrempel-regel (INDIA5-PROTOCOL.md 319-339) bestond al, maar niets dwong een check van die regel af vóórdat de volgende stap begon | Vóór stap 4 (Kandidaatstatus) van de negen-stappenflow | Een harde sweep-closure-gate die alle detectorstatussen leest en blokkeert bij een niet-`SATURATED` status (zie Deel 2, C/J) |
+| 3 | Hele categorieën (Sikhisme, Vuurpreek/post-verlichting, meerdere internationale kloosters, Gaya-stad-hindoeïsme) bleven onontdekt tot een expliciete, latere heropening | Geen vooraf vastgelegd, verplicht dekkingsplan per lens/categorie — detectoren ontstonden ad hoc tijdens discovery, niet uit een vaste checklist | Vóór Discovery start (PRE-BRONS) | Een verplichte, per-lens dekkingsmatrix met status NOT_STARTED/ACTIVE/SATURATED/EXPLICIET_ONBESCHIKBAAR (zie Deel 2, A/C) |
+| 4 | Generieke kandidaten (069 Mongolian Temple, bijna ook 075 Jain Temple) kregen een permanent nummer op basis van "nog een land/traditie" i.p.v. een eigen verhaal | De MARK_WAARDIG-toets bestond, maar werd op het moment van nummeren niet expliciet langs de vraag "is dit alleen categorie-/landendekking?" gelegd | Op het moment van nummeren (stap 5) | Een verplichte, expliciete generiek-check als laatste stap vóór nummering (zie Deel 2, E) |
+| 5 | Identiteitsvragen (063 vs. 068, Daijokyo vs. Indosan Nippon, Akshayavat vs. 051, Bakraur vs. Sujata) werden pas laat, na expliciete vraag, opgelost | Geen standaardregel die een identiteitscheck verplicht vóórdat twee gelijkende plekken allebei als losse, actieve kandidaten worden behandeld | Op het moment dat een nieuwe kandidaat qua naam/traditie/locatie op een bestaande lijkt | Een verplichte overlap-check bij nummering, met een blokkerende status bij onzekerheid (zie Deel 2, F) |
+| 6 | Keuze-relevante toegankelijkheid (niet-hindoe-toegang bij 051, cursus-only bij 074, sublocatiestatus van 076) werd pas laat, soms pas na een correctieronde, onderzocht | Toegankelijkheid was geen verplicht veld vóór opname in het keuzerappor
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1313 path=governance/SWEEP_PROTOCOL.md blob_sha=52efd7d7547d892ccc2a761cf83d80c53afb5736 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=16 classification=text
+t — het werd behandeld als "later, bij routeplanning" | Vóór een kandidaat in het keuzerapport komt (vóór stap 8 GOUD) | Een verplicht toegankelijkheidsveld per kandidaat, ingevuld vóór GOUD (zie Deel 2, H) |
+| 7 | Zware historische claims (Vuurpreek/Gayasisa-identificatie) steunden aanvankelijk op Alamy-fotobijschriften en een fandom-wiki | Bronkwaliteitsregels bestonden (DET-BGY-P007), maar zonder differentiatie naar het GEWICHT van de claim — een lichte en een zware claim hadden dezelfde drempel | Op het moment dat de claim wordt geschreven, niet pas bij controle | Een claimgewicht-afhankelijke bronregel (zie Deel 2, G) |
+| 8 | Voorspellende A/B/C-taal ("eerder B/C", "A alleen als...") sloop in "objectieve" kandidaatteksten | Geen expliciet stijl-/inhoudsverbod, alleen een algemene regel dat CCI geen A/B/C invult namens Mark — dat werd gelezen als "geen A/B/C aanvinken", niet als "geen A/B/C-taal gebruiken" | Bij het schrijven van elke kandidaattekst | Een expliciete, letterlijke verbodslijst + een geautomatiseerde grep-check vóór commit (zie Deel 2, L) |
+| 9 | PDF werd twee keer gebouwd zonder ondubbelzinnige toestemming (eerst een kleine correctie, later een taak die alleen naar een bestandsnaam verwees) | De regel "vraag eerst" bestond, maar had geen machine-checkbaar token — een verwijzing naar een PDF-bestandsnaam in een opdracht werd verkeerd gelezen als impliciete toestemming | Vóór elke PDF-build-actie | Een verplicht, letterlijk `PDF_GO: JA`-veld, met `PDF_STATUS: VERBODEN` als default (inmiddels al ingevoerd, zie INDIA5-PROTOCOL.md) |
+| 10 | INDIA6 moest zes tot acht keer handmatig gaten ontdekken (berichten 021, 024, 026, 028, 030) i.p.v. dat CCI's eigen `SATURATED=JA` betrouwbaar was | CCI's eigen saturatie-verklaring werd niet getoetst aan een controleerbare, itemized evidence-matrix — het was een vrije-tekst-conclusie | Direct na elke `SATURATED=JA`-claim, vóór acceptatie | Een verplichte evidence-matrix bij elke saturatieclaim + een aparte INDIA-acceptatiestap (zie Deel 2, J/K) |
+
+### Top 5 root causes (samengevat voor het rapportageveld)
+
+1. **Geen verplicht pre-sweep dekkingsplan** — categorieën/lenzen werden ad hoc ontdekt in plaats
+   van vooraf vastgelegd, waardoor hele tradities (Sikhisme, post-verlichtingsmomenten) pas laat
+   opdoken.
+2. **Geen harde koppeling tussen detectorstatus en sweep-afsluiting** — een zelf-gerapporteerde
+   `NOT_YET_SATURATED` blokkeerde de volgende stap niet automatisch.
+3. **Geen generiek-check op het moment van nummeren** — categorie-/landendekking sloop toch door
+   als reden voor een permanent nummer, ondanks een bestaande regel die dat verbiedt.
+4. **Geen claimgewicht-afhankelijke bronregel** — lichte en zware claims kregen dezelfde
+   bronkwaliteitsdrempel, waardoor een historisch kernfeit op een fotobijschrift kon rusten.
+5. **CCI's eigen saturatieclaim was niet extern controleerbaar** — een vrije-tekst-conclusie in
+   plaats van een itemized, door INDIA6 te auditen evidence-matrix, dwong INDIA6 tot herhaald
+   handmatig speurwerk.
+
+---
+
+## Deel 2 — Sweep-protocol (poorten A-S)
+
+Elke poort hieronder is een TOEVOEGING aan een bestaande stap uit
+`INDIA5_REGION_START_PROTOCOL.md`. Waar een poort een bestaand mechanisme al dekt, wordt dat
+expliciet vermeld in plaats van gedupliceerd.
+
+**Letteringsnoot (na INDIA6 bericht 032/tweede, gedetailleerdere versie van dezelfde
+systeemtaak):** INDIA6's eigen versie gebruikt een iets andere letter-indeling (o.a. losse
+Coverage-Plan/Lead-Register-samenvoeging onder A, Discovery Feedback Loop als eigen letter D,
+Content-QA en PDF-Gate als twee gescheiden letters M/N met elk een eigen token). Inhoudelijk zijn
+beide versies gelijk; deze versie behoudt haar eigen A-P-indeling (die al gecommit was) en dekt
+alle punten uit INDIA6's versie af — zie de mapping in de PR-reactie. Twee inhoudelijke deltas uit
+INDIA6's versie zijn hieronder wél verwerkt: een zesde Lead Register-uitkomst `SUBLOCATION` (D) en
+een apart `CONTENT_QA_ACCEPTED: JA`-token vóór `PDF_GO: JA` (M).
+
+### A. Pre-sweep dekkingsplan
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1314 path=governance/SWEEP_PROTOCOL.md blob_sha=52efd7d7547d892ccc2a761cf83d80c53afb5736 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=16 classification=text
+ (nieuw, vóór PRE-BRONS-detectoren worden geschreven)
+
+**Reisdoel-prioriteitscorrectie (INDIA6 bericht 044, 2026-08-08) — GEEN gelijkwaardige lijst.**
+De lenzen hieronder vallen in twee, uitdrukkelijk NIET gelijkwaardige lagen:
+
+- **Laag 1 — MISSIEKRITISCH (AOAY + Top-X)**: onderworpen aan een 100%-sweepverplichting, zie
+  hieronder. Dit is Marks eigenlijke reisdoel.
+- **Laag 2 — BONUSMATERIAAL (alle overige lenzen)**: pas relevant NADAT laag 1 aantoonbaar is
+  afgezocht. Mag de zoekinspanning voor laag 1 nooit verdringen. Zie ook poort C/J: laag-2-
+  kandidaten mogen een `SATURATED=JA`-claim pas mee ondersteunen als de laag-1-detectoren
+  zelf `SATURATED` of `EXPLICIET_ONBESCHIKBAAR` zijn.
+
+**Bestaande regel die hiermee botste (herkend bij deze correctie)**: de dekkingsmatrix hieronder
+behandelde voorheen alle elf lenzen als gelijkwaardige checkboxvakjes met dezelfde statusregel —
+zonder enige prioriteitsvolgorde tussen bijvoorbeeld de AOAY-lens en "spirituele extremen buiten
+Marks bekende voorkeuren". Hersteld door de laag 1/laag 2-scheiding hieronder en de bijbehorende
+volgordedwang in poort C/J.
+
+**Laag 1A — AOAY, 100% sweepverplichting.** Zoek systematisch naar ELKE verifieerbare fysieke
+plek uit, of rechtstreeks verbonden met, *Autobiography of a Yogi* — ook een klein huis, kamer,
+schuur, boom, straat, station, eenvoudige tempel, grot, ashram, verblijfplaats, ontmoetingsplek,
+initiatieplek, meditatieplek of gebeurtenislocatie. Objectieve beroemdheid of bezoekersaantal is
+hierbij IRRELEVANT — zie ook poort E.1.
+
+**Laag 1B — Top-X, 100% prioriteitssweep.** Voor iedere Top-X-persoon systematisch alle
+betekenisvolle fysieke verbindingen zoeken: geboorte, jeugd, verblijf, meditatie, initiatie,
+leraar/leerling-ontmoeting, ashram, samadhi, onderricht, lineage-gebeurtenis, relieken,
+belangrijke reis/gebeurtenis.
+
+**Definitieve Top-11 (canoncorrectie INDIA6 bericht 046, 2026-08-08 — vervangt elke eerdere,
+bredere Top-X-omschrijving)**:
+
+1. Paramahansa Yogananda
+2. Mahavatar Babaji
+3. Lahiri Mahasaya
+4. Sri Yukteswar
+5. Ram Dass
+6. Neem Karoli Baba
+7. Anandamayi Ma
+8. Ramakrishna
+9. Ramana Maharshi
+10. Hariharananda
+11. Vivekananda
+
+Apart van deze lijst, met een expliciet gewenste Mahasamadhi-locatie in Delhi: **Shri Mataji
+Nirmala Devi** — buiten de Top-11, maar wel met een eigen, met naam benoemde missiekritische
+locatiewens.
+
+**Boeddha en Krishna staan NIET in de Top-11** (bericht 046, expliciete correctie op een eerdere,
+te brede lezing): beiden zijn zo groot/alomtegenwoordig/religieus breed vertegenwoordigd dat een
+lage Top-X-drempel enorme kandidaat-inflatie zou veroorzaken (een gewone boeddhistische of
+Krishna-tempel zou anders automatisch een missiekritische link krijgen). Boeddha- en
+Krishna-gerelateerde kandidaten vallen daarom voortaan volledig onder **laag 3** (zie hieronder)
+— alleen behouden als de fysieke plek ZELF de hoge, zelfstandige-zwaarte-drempel haalt (zoals
+Mahabodhi Temple/Bodh Gaya dat overduidelijk doet), NOOIT alleen omdat Boeddha/Krishna er wordt
+vereerd.
+
+Voorbeeld van exact gewenste informatie voor een échte Top-11-verbinding: Sri Yukteswar trad in
+Bodh Gaya in de swami/sannyas-orde (zie 046). Zo'n verbinding moet door de sweep
+worden gevonden, ook wanneer de precieze fysieke sublocatie niet meer vaststelbaar is — scheid
+dan expliciet: gebeurtenis = verifieerbaar (JA/NEE), exacte fysieke plek = wel/niet verifieerbaar
+(los van elkaar vastgelegd, nooit stilzwijgend samengevoegd tot één "onbevestigd").
+
+| Lens | Laag | Verplicht overwogen? |
+|---|---|---|
+| AOAY/Kriya/Yogananda/Sri Yukteswar/Giri-lijn (100% sweepverplichting, zie Laag 1A) | 1 (missiekritisch) | ☐ |
+| Top-11 (Yogananda, Babaji, Lahiri Mahasaya, Sri Yukteswar, Ram Dass, Neem Karoli Baba, Anandamayi Ma, Ramakrishna, Ramana Maharshi, Hariharananda, Vivekananda) + Shri Mataji Nirmala Devi apart: elk een eigen detector (100% sweepverplichting, zie Laag 1B; Boeddha/Krishna vallen NIET hieronder, zie laag 2/E.1) | 1 (missiekritisch) | ☐ |
+| Boeddha-biografie: geboorte/verlichting/vóór-verlichting/NA-verli
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1315 path=governance/SWEEP_PROTOCOL.md blob_sha=52efd7d7547d892ccc2a761cf83d80c53afb5736 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=16 classification=text
+chting (leermomenten)/overlijden | 2 (bonus) | ☐ |
+| Levende praktijk: kloosters, tempels, ashrams, meditatiecentra, retraiteplekken | 2 (bonus) | ☐ |
+| Alle relevante internationale tradities/kloosters (niet vooraf beperkt tot een sublijst) | 2 (bonus) | ☐ |
+| Directe stad/regio-omgeving (niet alleen het hoofdcomplex) | 2 (bonus) | ☐ |
+| Religie-onafhankelijke bedevaarts-/heiligdomzoeking (zie E.1) — directe zoektermen: bedevaart, pelgrimsstromen, heiligdommen, beroemde relieken/beelden/graven/grotten/heilige plaatsen; hindoeïsme/jaïnisme/soefisme-islam/sikhisme/christendom e.a. zijn hier ALLEEN aanvullende zoektermen, nooit de begrenzing | 2 (bonus) | ☐ |
+| Historische/archeologische plekken en fysiek unieke heilige objecten | 2 (bonus) | ☐ |
+| Spirituele extremen buiten Marks bekende voorkeuren | 2 (bonus) | ☐ |
+| Officiële/institutionele bronnen geraadpleegd | 2 (bonus) | ☐ |
+| Lokale/insider-bronnen geraadpleegd indien beschikbaar | 2 (bonus) | ☐ |
+| Geografische zones (0-20 km kernstraal, 20-30 km signalering, >30 km alleen uitzonderlijk) | 2 (bonus) | ☐ |
+
+Regel: een lens mag pas als "gedekt" gelden met status `SATURATED` of
+`EXPLICIET_ONBESCHIKBAAR` — nooit stilzwijgend overgeslagen. Dit lijstje wordt het skelet van de
+Coverage Matrix (poort C). De religie-lens hierboven is expliciet GEEN vaste religielijst om af
+te vinken (zie E.1) — de zoekvraag is "welke fysieke plekken hebben hier uitzonderlijke
+religieuze/spirituele/pelgrimszwaarte?", niet "welke bekende religies zijn hier aanwezig?".
+
+**Voorbeeld van de bedoelde prioriteit (INDIA6 bericht 044)**: een obscure schuur waar Yogananda
+aantoonbaar mediteerde staat qua keuzeprioriteit BOVEN een enorm bedevaartsoord met miljoenen
+bezoekers — dat is geen inconsistentie, maar precies Marks persoonlijke reisdoel. Dit bepaalt
+NIET wat wordt getoond (poort B/E blijven quotumvrij en filteren niet op verwachte A/B/C) — het
+bepaalt uitsluitend de verplichte zoekvolgorde/-diepte en de saturatie-afhankelijkheid (poort
+C/J).
+
+### B. Discovery (bevestiging van bestaande regel, geen wijziging)
+
+Ongewijzigd t.o.v. `NOT_TO_BE_MISSED_FRAMEWORK.md`: geen kandidaatquotum, geen filtering op
+verwachte A/B/C, elke MARK_WAARDIGE fysieke plek wordt getoond. Toegevoegd: een detector die nog
+nieuwe leads oplevert kan per definitie nooit `SATURATED` zijn (zelfde regel als de bestaande
+Verzadigingsdrempel, hier expliciet herbevestigd omdat fout #2 dit negeerde).
+
+### C. Coverage Matrix (nieuw, machine-leesbaar bestand per run)
+
+Eén JSONL-bestand per run: `runs/active/<RUN_ID>/PRE_BRONS/COVERAGE_MATRIX.jsonl`. Eén regel per
+lens uit poort A, plus elke detector die eruit ontstaat:
+
+```json
+{"lens_of_detector_id": "...", "status": "NOT_STARTED|ACTIVE|SATURATED|EXPLICIET_ONBESCHIKBAAR", "reden": "...", "laatst_bijgewerkt": "YYYY-MM-DD", "laag": "1_MISSIEKRITISCH|2_BONUS"}
+```
+
+Harde regel: een sweep mag pas naar stap 4 (Kandidaatstatus) van de negen-stappenflow zolang GEEN
+regel `NOT_STARTED` of `ACTIVE` heeft. Dit is de directe fix voor fout #2 en #3.
+
+**Volgordedwang laag 1 vóór laag 2 (INDIA6 bericht 044, 2026-08-08)**: de AOAY-regel en ELKE
+Top-X-persoon-regel (`laag: "1_MISSIEKRITISCH"`) moeten `SATURATED` of `EXPLICIET_ONBESCHIKBAAR`
+zijn vóórdat laag-2-regels (algemene bedevaartsplekken/tradities) mogen meetellen als steun voor
+een `SATURATED=JA`-claim op sweepniveau (zie poort J). Een sweep mag laag-2-onderzoek best parallel
+verrichten, maar de saturatieclaim zelf blijft geblokkeerd zolang een laag-1-regel nog
+`NOT_STARTED`/`ACTIVE` is.
+
+### D. Lead Register (nieuw, machine-leesbaar bestand per run)
+
+Eén JSONL-bestand: `runs/active/<RUN_ID>/PRE_BRONS/LEAD_REGISTER.jsonl`. Elke concrete lead
+(genoemd door Mark, gevonden tijdens discovery, of door de adversarial pass in poort I) krijgt
+één regel met verplichte einduitkomst:
+
+```json
+{"lead": "...", "outcome": "MARK_WAARDIG|HARD_EXCLUDED|DUPLICATE|SUBLOCATION|OUT_OF_SCOPE_HIGH_VALUE|EXPLICIET_ONBESCHIKBAAR", "candidate_id_if_any": "...", "reden": "..."}
+```
+
+Toegevoegd (bijgewerkt na INDIA6 bericht 
+<<< END CHUNK >>>
+

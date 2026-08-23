@@ -1,0 +1,973 @@
+>>> CHUNK stream_row=309 path=runs/active/TOP11-INDIAGEEL-NKB-BLIND-SWEEP-001/NEEM_KAROLI_BABA_INDIAGEEL_FREEZE.md blob_sha=16e05ff9ed7ba924d61f8a08e5c9f405093fb2a6 original_offset=32768 original_length=3033 payload_bytes=3033 chunk_index=8 chunk_count=9 classification=text
+ prove physical Baba footfall on that parcel in the searched passage; no personal-presence record was created.
+- Test whether Baba personally visited the Delhi Jaunapur/Mandi temple land; current temples section proves land donation/instructions, but the 1971 opening occurred while he was in Vrindavan, so institutional association alone is insufficient.
+- Resolve exact Vindhyachal temples and Chitrakut “two other places” / workshop / nearby village from Dada's 1963 account.
+- Continue adversarial search for hospitals, station platforms, one-night dharamshalas, unnamed village houses and roadside tea shops in the nearly 400 *Divine Reality* stories.
+
+## SATURATION_ATTEMPTS
+
+1. Began with the 525-page *Divine Reality* corpus rather than a modern list of famous ashrams; searched biography/introduction, occurrence stories, named hosts and full temples/ashrams section.
+2. Cross-checked Dada Mukerjee's *By His Grace* for occurrence-level detail around Allahabad, Chitrakut, Vindhyachal, Kanpur, Bhumiadhar, Kainchi and final days.
+3. Ran separate hostgraph searches for Dada, K.K. Sah, Sah family, Hukum Chand, Dixit/Bhandari/Sharma and Ram Dass networks.
+4. Ran micro-site queries for room, hut, cave, bridge, rooftop, station, hospital, sanatorium, dharamshala, ghat and riverside.
+5. Ran South India adversarial pass, which surfaced exact Sindhi Dharmsala rooms and the Veerapuram barren land rather than merely “Chennai”.
+6. Ran early-life adversarial pass, separating Akbarpur home/Dak Bangalia, Gujarat unnamed Vaishnav ashram, Ramabai ashram, Babania lake and first Hanuman site, Neeb Karori cave/temple/station, Farrukhabad bath and Kilaghat.
+7. Explicitly filtered out post-1973 temples and in-life temple projects where personal physical presence at the site was not demonstrated.
+8. Final pass identified unresolved but strong transit/medical leads rather than forcing artificial completion.
+
+PERSON_SWEEP_SATURATED: NEE
+
+MOTIVATION: The sweep reached a strong corpus-first nationwide base of 46 normalized physical-location records and recovered several obscure/private/transit sites. It is not saturated because the principal corpus contains nearly 400 stories and not every occurrence has been exhaustively converted into a location index; the full *Miracle of Love* corpus was not available in an official searchable full-text edition; and several host houses, final-journey sites and pilgrimage micro-sites remain resolvable with further archive work. Claiming `JA` would overstate completion.
+
+## BLINDNESS / PROVENANCE DECLARATION
+
+BLINDNESS_PRESERVED: JA
+
+During this PRE-COMPARE sweep I read only the task's `TASK.md`, its `STATUS.md`, and independently discovered public external sources. I did not read PR #23/#24, CCI tasks/results/reconciliations, IndiaROOD, `agent/chatgpt-top11-parallel-sweep`, existing NKB project atlases/unions/candidate lists, AOAY/regional cluster result files, or other detector outputs. The prior Ramana/Ramakrishna freezes on this branch were not opened for content.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=310 path=runs/active/TOP11-INDIAGEEL-NKB-BLIND-SWEEP-001/STATUS.md blob_sha=16444231458dd7eb12e987368cdb7fc4679e247e original_offset=0 original_length=1388 payload_bytes=1388 chunk_index=0 chunk_count=1 classification=text
+# STATUS — TOP11-INDIAGEEL-NKB-BLIND-SWEEP-001
+
+```
+task_id: TOP11-INDIAGEEL-NKB-BLIND-SWEEP-001
+owner: INDIA GEEL
+state: COMPLETE_PRE_COMPARE_FROZEN
+issued_at: 2026-08-19
+branch: agent/indiageel-ramana-ramakrishna-sweep
+```
+
+## Freeze
+- person: Neem Karoli Baba
+- freeze_path: `runs/active/TOP11-INDIAGEEL-NKB-BLIND-SWEEP-001/NEEM_KAROLI_BABA_INDIAGEEL_FREEZE.md`
+- freeze_commit_sha: `4cd99f5e45266dd3de0ed487e8147fd93ca525d9`
+- normalized_recordcount: 46
+- PERSON_SWEEP_SATURATED: NEE
+- principal_blockers: nearly 400-story primary/semi-primary corpus not exhaustively converted occurrence-by-occurrence; full official searchable *Miracle of Love* corpus unavailable; several private host houses, final-journey transit/medical sites and pilgrimage micro-sites remain unresolved at exact physical-identity level.
+
+## Blindheidsstatus
+BLINDNESS_PRESERVED: JA
+
+Tijdens deze PRE-COMPARE sweep zijn uitsluitend `TASK.md`, deze `STATUS.md` en zelfstandig gevonden openbare externe bronnen gebruikt. PR #23/#24, CCI-resultaten/tasks/reconciliaties, IndiaROOD, andere detectorbranches, bestaande NKB-atlassen/METHOD/PHASE2-resultaten/unions/kandidatenlijsten en AOAY/regio/clusterresultaten zijn niet gelezen.
+
+## next_allowed_step
+STOP. Geen vergelijking, reconciliatie, PR-lezing, merge, heatmap/regioselectie, A/B/C, permanente IDs, PDF of route zonder nieuwe expliciete INDIA8-opdracht.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=311 path=runs/active/TOP11-INDIAGEEL-NKB-BLIND-SWEEP-001/TASK.md blob_sha=9fb9d2803d15b2ac7827f0e4c5e41436c5e5e9d6 original_offset=0 original_length=2728 payload_bytes=2728 chunk_index=0 chunk_count=1 classification=text
+# TASK — TOP11-INDIAGEEL-NKB-BLIND-SWEEP-001
+
+```
+task_id: TOP11-INDIAGEEL-NKB-BLIND-SWEEP-001
+owner: INDIA GEEL
+issued_by: INDIA8
+issued_at: 2026-08-19
+mode: PRE-COMPARE BLIND
+state: READY_FOR_INDIAGEEL
+branch: agent/indiageel-ramana-ramakrishna-sweep
+```
+
+## Doel
+Maak één volledig onafhankelijke landelijke PRE-COMPARE freeze voor Neem Karoli Baba, vanaf nul, heel India.
+
+## HARD BLINDNESS
+Voor deze taak mag INDIA GEEL vóór de eigen freeze duurzaam is gecommit GEEN inhoud lezen uit:
+- PR #23/#24;
+- CCI-resultaten, CCI_TASK 089/090/091 of reconciliaties;
+- agent/chatgpt-top11-parallel-sweep;
+- agent/indiarood-core-kriya-sweep;
+- bestaande NKB-atlassen, METHOD_V1/PHASE2-resultaten, unions of kandidatenlijsten;
+- AOAY/regio/clusterbestanden die NKB-locaties kunnen lekken;
+- bestaande Ramana/Ramakrishna-freezes anders dan voor branchcontinuïteit niet inhoudelijk nodig.
+
+Toegestaan:
+- uitsluitend dit TASK.md;
+- STATUS.md in dezelfde map;
+- openbare externe bronnen die INDIA GEEL zelf vindt.
+
+## Methode
+Corpus-first/source-first. Verplicht:
+1. primaire/semi-primaire devotee-bronnen en officiële trusts/ashrams;
+2. host-/gastheer-/familie-/discipelnetwerk;
+3. huizen, kamers, ziekenhuizen, stations, tempels, ashrams, caves, ghats, retreats, rail/road-transit en andere fysieke sublocaties;
+4. daarna brede webdiscovery en spelling/historische naamvarianten;
+5. directe broncontrole waar praktisch mogelijk;
+6. geen plaats afleiden uit context-only vermeldingen.
+
+Zoek expliciet ook via netwerken rond o.a. Dada Mukerjee, Ram Dass, K.K. Sah/Sah-familie, familie Sharma, lokale devotees, ashrambeheerders en andere zelfstandig ontdekte hosts — maar gebruik geen bestaande projectlijst als seed.
+
+## Output
+Schrijf duurzaam op dezelfde branch:
+`runs/active/TOP11-INDIAGEEL-NKB-BLIND-SWEEP-001/NEEM_KAROLI_BABA_INDIAGEEL_FREEZE.md`
+
+Freeze bevat minimaal:
+- PERSON / timestamp / BLINDNESS_CONFIRMED;
+- CORPORA_SEARCHED;
+- SOURCE_ACCESS_BLOCKERS;
+- HOSTGRAPH_SEARCHED;
+- DISCOVERY_SEARCH_FAMILIES;
+- genormaliseerde recordcount;
+- per record: plaats, staat/district, type, gebeurtenis/periode, PERSONALLY_PRESENT, PHYSICAL_IDENTITY, bron, URL/bibliografie, locator, onzekerheid;
+- conflicts;
+- unresolved leads;
+- saturation attempts;
+- `PERSON_SWEEP_SATURATED: JA/NEE`.
+
+Liever eerlijk NEE dan schijn-JA.
+
+## Duurzaamheid
+Commit de freeze zodra klaar. Noteer SHA. Update STATUS.md. Geen vergelijking/reconciliatie na freeze.
+
+## Harde grenzen
+Geen A/B/C, route, heatmap, regioselectie, permanente IDs, PDF, PR #23, merge of vergelijking met bestaande detectoren.
+
+## Stopvoorwaarde
+Na duurzame PRE-COMPARE freeze: STOP en rapporteer alleen pad, SHA, recordcount, saturation, blockers en `BLINDNESS_PRESERVED`.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=312 path=runs/active/TOP11-INDIAGEEL-RAMDASS-BLIND-SWEEP-001/RAM_DASS_INDIAGEEL_FREEZE.md blob_sha=049191faef71cdc9e97806315eb266209f017415 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=7 classification=text
+# RAM DASS — INDIA GEEL PRE-COMPARE FREEZE
+
+PERSON: Ram Dass / Richard Alpert
+FREEZE_TIMESTAMP: 2026-08-19T16:10:00+02:00
+BLINDNESS_CONFIRMED: JA
+MODE: STRICT PRE-COMPARE BLIND
+SCOPE: heel India
+
+## CORPORA_SEARCHED
+- Ram Dass / Love Serve Remember Foundation public archive (`ramdass.org`), including autobiographical excerpts, Here and Now episode pages, archival stories and official biography.
+- *Being Ram Dass* (Ram Dass with Rameshwar Das, 2021), text-accessible public web mirror used as a contiguous autobiographical locator source; claims cross-checked where possible against official Ram Dass archive pages.
+- Ram Dass / LSRF material on K.K. Sah and Kainchi.
+- Public semi-primary devotee material (Parvati Marcus / *Love Everyone* excerpts surfaced through public web pages) used only where it directly identifies Ram Dass's own physical presence.
+
+## SOURCE_ACCESS_BLOCKERS
+- No fully searchable official online edition of *Being Ram Dass*, *Be Here Now*, *Be Love Now* or *Miracle of Love* was freely available end-to-end during this run.
+- The accessible contiguous *Being Ram Dass* text was a third-party web mirror; bibliographic edition metadata is clear, but this is not the preferred archival host.
+- Ram Dass audio archive contains many talks whose full transcripts are not uniformly indexed; an exhaustive audio-by-audio occurrence extraction was not practical in this run.
+- Several 1967 dharmshalas, hotels, family houses, the unidentified overnight Hanuman-devotee house en route to Bhumiadhar, and the 1970–71 'small temple town' on the Muktananda yatra remain unnamed in accessible text.
+- Exact historical identities of the Srinagar New Ruby houseboat, Dalai Lama brother's guesthouse, Varanasi hotel, Surat meditation caves, and Bodh Gaya Tibetan monastery were not independently fixed to present-day coordinates/buildings.
+
+## HOSTGRAPH_SEARCHED
+David Padwa; Bhagavan Das/Michael Riggs; Harish Johari and family; K.K. Sah/Sah family; Hari Dass Baba; Neem Karoli Baba/Maharaj-ji; Dada/Sudhir Mukerjee and Didi; Anagarika Munindra; S.N. Goenka; Khunu Lama; Kalu Rinpoche; Swami Muktananda; Amma/Papa Trivedi; Sathya Sai Baba; Danny Goleman; Krishna Das; Rameshwar Das; Jody/Dwarka Bonner; Siddhi Ma; Jivanti Ma; Anandamayi Ma; Peter; David Padwa's Kashmir/Dharamsala network.
+
+## DISCOVERY_SEARCH_FAMILIES
+- `Ram Dass India 1967 itinerary`, `Richard Alpert India 1967`, `Ram Dass Bhagavan Das pilgrimage India`
+- `Ram Dass Kainchi Nainital K K Sah home Hotel Evelyn Hanuman Garh`
+- `Ram Dass Dharamsala Dalai Lama Amarnath Srinagar Bareilly Varanasi`
+- `Ram Dass Bodh Gaya Goenka Burmese Vihara Khunu Lama`
+- `Ram Dass Allahabad 4 Church Lane Kumar Gallery Delhi`
+- `Ram Dass Muktananda Ganeshpuri Whitefield Surat caves`
+- `Ram Dass Kausani Lakshmi Ashram Gandhi Ashram`
+- `Ram Dass Vrindavan Jaipuria Bhawan Bankey Bihari Anandamayi Kankhal`
+- `Ram Dass 1973 India ashes Kainchi Vrindavan`
+- `Ram Dass 2004 India Kainchi New Delhi wheelchair`
+- historical spelling variants: Benares/Varanasi, Allahabad/Prayagraj, Bombay/Mumbai, Kumoan/Kumaon, Kainchi/Kanchi, Vrindaban/Vrindavan.
+
+NORMALIZED_RECORDCOUNT: 55
+
+## LOCATION_RECORDS
+
+### RD-01 — Srinagar, Dal Lake — houseboat **New Ruby**
+- place/state: Srinagar, Jammu & Kashmir
+- type: named houseboat / lodging
+- event/period: 1967; rendezvous and multi-day stay with David Padwa and two American travelers.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- source: Ram Dass with Rameshwar Das, *Being Ram Dass* (2021), public text mirror.
+- locator: lines 1005–1007: rendezvous 'on a houseboat called the New Ruby, on Dal Lake'; stayed together there.
+- uncertainty: historical/current vessel identity not established.
+
+### RD-02 — Dal Lake shikara crossing
+- place/state: Srinagar, Jammu & Kashmir
+- type: water transit
+- event/period: 1967
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ALLEEN_PLAATS
+- source/locator: *Being Ram Dass*, lines 1005–1007; explicitly boarded a shikara to cross Dal Lake.
+- uncertainty: no exact landing points.
+
+### RD-03 — Amarnath Cave
+- place/state: Pahalgam
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=313 path=runs/active/TOP11-INDIAGEEL-RAMDASS-BLIND-SWEEP-001/RAM_DASS_INDIAGEEL_FREEZE.md blob_sha=049191faef71cdc9e97806315eb266209f017415 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=7 classification=text
+/Anantnag district, Jammu & Kashmir
+- type: sacred cave / pilgrimage site
+- event/period: 1967; two-day trek from base camp, reached cave.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- source/locator: *Being Ram Dass*, lines 1007–1011; explicit trek and arrival at the cave.
+
+### RD-04 — Amarnath pilgrimage base camp (unnamed)
+- place/state: Amarnath route, Jammu & Kashmir
+- type: pilgrimage/transit camp
+- event/period: 1967
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ONBEKEND
+- source/locator: *Being Ram Dass*, lines 1009–1010: 'two-day trek from base camp'.
+- uncertainty: text does not identify whether historic base was Pahalgam/Chandanwari or another stage.
+
+### RD-05 — Dharamsala / McLeod Ganj
+- place/state: Himachal Pradesh
+- type: town / stay zone
+- event/period: 1967; Dalai Lama visit and vehicle breakdown period.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ALLEEN_PLAATS
+- source/locator: *Being Ram Dass*, lines 1011–1018.
+
+### RD-06 — McLeod Ganj repair shop
+- place/state: McLeod Ganj, Himachal Pradesh
+- type: vehicle repair shop
+- event/period: 1967; Land Rover differential inspected.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ONBEKEND
+- source/locator: *Being Ram Dass*, lines 1013–1014.
+- uncertainty: shop name/location not supplied.
+
+### RD-07 — Dalai Lama headquarters, identified in memoir as **Swarg Ashram**
+- place/state: Dharamsala/McLeod Ganj, Himachal Pradesh
+- type: religious/administrative residence complex
+- event/period: 1967; went to gate, waited, later had audience with Dalai Lama.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- source/locator: *Being Ram Dass*, lines 1012–1016.
+- conflict/continuity note: memoir's historical naming should not be silently equated with a present-day building without archival confirmation.
+
+### RD-08 — Guesthouse run by Dalai Lama's brother
+- place/state: Dharamsala/McLeod Ganj, Himachal Pradesh
+- type: guesthouse
+- event/period: 1967; Ram Dass and David stayed there.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ONBEKEND
+- source/locator: *Being Ram Dass*, line 1016.
+
+### RD-09 — residence/charity visit of Dalai Lama's mother and sister
+- place/state: Dharamsala area, Himachal Pradesh
+- type: family/charitable institution
+- event/period: 1967; visited after audience.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ONBEKEND
+- source/locator: *Being Ram Dass*, line 1016.
+
+### RD-10 — Kurukshetra transit
+- place/state: Haryana
+- type: road transit
+- event/period: 1967; drove Dharamsala → New Delhi 'passing through Kurukshetra'.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ALLEEN_PLAATS
+- source/locator: *Being Ram Dass*, line 1018.
+
+### RD-11 — British Consulate, New Delhi
+- place/state: Delhi
+- type: diplomatic office
+- event/period: 1967; sought Land Rover replacement parts.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- source/locator: *Being Ram Dass*, lines 1018–1019.
+- uncertainty: 1967 consular building identity not normalized to current diplomatic premises.
+
+### RD-12 — Tibet House, New Delhi
+- place/state: Delhi
+- type: Tibetan cultural institution
+- event/period: 1967; visited while waiting for axle.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- source/locator: *Being Ram Dass*, line 1019.
+- uncertainty: historical five-story location/current continuity not independently audited.
+
+### RD-13 — Harish Johari family home, Bareilly
+- place/state: Bareilly, Uttar Pradesh
+- type: private family residence
+- event/period: 1967; visited with Harish after Delhi repairs; returned there later with Bhagavan Das and left Land Rover/baggage.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ONBEKEND
+- source/locator: *Being Ram Dass*, lines 1020 and 1034.
+
+### RD-14 — small hotel near Ganga / Manikarnika Ghat, Varanasi
+- place/state: Varanasi, Uttar Pradesh
+- type: hotel
+- event/period: 1967 stay.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ONBEKEND
+- source/locator: *Being Ram Dass*, lines 1021–1025.
+
+### RD-15 — Manikarnika/burning ghats zone
+- place/state: Varanasi, Uttar Pradesh
+- type: ghat / crema
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=314 path=runs/active/TOP11-INDIAGEEL-RAMDASS-BLIND-SWEEP-001/RAM_DASS_INDIAGEEL_FREEZE.md blob_sha=049191faef71cdc9e97806315eb266209f017415 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=7 classification=text
+tion grounds
+- event/period: 1967; sat by burning ghats watching cremations.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- source/locator: *Being Ram Dass*, lines 1021–1025.
+- uncertainty: memoir says hotel close to Manikarnika and 'burning ghats'; precise ghat for every observation not stated.
+
+### RD-16 — boat on the Ganga, Varanasi
+- place/state: Varanasi, Uttar Pradesh
+- type: river transit/experience
+- event/period: 1967; Ram Dass, David and Harish went out by boat.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ALLEEN_PLAATS
+- source/locator: *Being Ram Dass*, lines 1024–1025.
+
+### RD-17 — Bareilly departure point for barefoot pilgrimage
+- place/state: Bareilly, Uttar Pradesh
+- type: private home / journey start
+- event/period: 1967; left Harish's home barefoot with Bhagavan Das.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ONBEKEND
+- source/locator: *Being Ram Dass*, lines 1034–1036.
+
+### RD-18 — unnamed dharmshalas during Bhagavan Das pilgrimage
+- place/state: multiple, India (route unresolved)
+- type: pilgrim rest houses
+- event/period: 1967; repeated stays during roughly two months of travel.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ONBEKEND
+- source/locator: *Being Ram Dass*, lines 1034–1036.
+- uncertainty: no safe occurrence-level towns extracted from accessible text; retained losslessly as unresolved multi-occurrence class, not counted as multiple invented sites.
+
+### RD-19 — unnamed Hanuman-devotee family home en route Bareilly → Kumaon hills
+- place/state: Uttar Pradesh/Uttarakhand route, exact place unknown
+- type: private house
+- event/period: 1967; overnight floor stay immediately before first Maharaj-ji meeting.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ONBEKEND
+- source/locator: *Being Ram Dass*, lines 1037–1041.
+
+### RD-20 — Bhumiadhar temple / first Maharaj-ji meeting complex
+- place/state: Bhumiyadhar/Bhumiadhar, Uttarakhand
+- type: Hanuman temple / terrace / hillside field
+- event/period: 1967; first encounter with Neem Karoli Baba.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- source/locator: *Being Ram Dass*, lines 1048–1064 and 1081; memoir explicitly names temple of first meeting as Bhumiadhar.
+
+### RD-21 — K.K. Sah home, Nainital
+- place/state: Nainital, Uttarakhand
+- type: private home
+- event/period: 1967; sent there overnight after first meeting; subsequent family visits.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ONBEKEND
+- source/locator: *Being Ram Dass*, line 1081 and photo captions; official RamDass.org K.K. Sah pages confirm KK took Ram Dass into his home.
+
+### RD-22 — Kainchi Ashram / temple complex
+- place/state: Kainchi, Uttarakhand
+- type: ashram / Hanuman temple
+- event/period: 1967 training; 1970–71 repeated residence/darshan; 1973 post-mahasamadhi visit; 2004 return.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- source/locator: *Being Ram Dass* lines 1087 onward, 1588+, 1626–27, 2136–45; official RamDass.org Kainchi material.
+
+### RD-23 — Ram Dass's room at Kainchi
+- place/state: Kainchi, Uttarakhand
+- type: room / residential sublocation
+- event/period: 1967 yogic training.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- source/locator: *Being Ram Dass* photo caption 'My room at Kainchi', lines 1157–1163; line 1235 explicitly 'Back in my room at Kainchi'.
+- uncertainty: exact surviving room identity not mapped.
+
+### RD-24 — Hanuman Garh temple
+- place/state: Nainital, Uttarakhand
+- type: Hanuman temple
+- event/period: 1967 onward; visited murti during Nainital trips.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- source/locator: *Being Ram Dass*, lines 1167–1169 and 1232–1235.
+
+### RD-25 — Connaught Circus / Connaught Place
+- place/state: New Delhi
+- type: urban public space
+- event/period: 1967 visa-renewal trip; walked barefoot through Connaught Circus.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- source: RamDass.org, 'Nowhere to Go'.
+- locator: narrative explicitly says visa renewal in Delhi and walking barefoot through Connaught Circus.
+
+### RD-26 — American Express o
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=315 path=runs/active/TOP11-INDIAGEEL-RAMDASS-BLIND-SWEEP-001/RAM_DASS_INDIAGEEL_FREEZE.md blob_sha=049191faef71cdc9e97806315eb266209f017415 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=7 classification=text
+ffice, New Delhi (1967 visa trip)
+- place/state: Delhi
+- type: commercial/mail office
+- event/period: 1967; collected mail during visa trip.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ONBEKEND
+- source: RamDass.org, 'Nowhere to Go'.
+
+### RD-27 — unnamed pure vegetarian restaurant, New Delhi
+- place/state: Delhi
+- type: restaurant
+- event/period: 1967 visa trip; lunch and 'biscuits' anecdote.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ONBEKEND
+- source: RamDass.org, 'Nowhere to Go'.
+
+### RD-28 — unnamed alley outside vegetarian restaurant, New Delhi
+- place/state: Delhi
+- type: alley / micro-site
+- event/period: 1967; ate hidden biscuits there.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ONBEKEND
+- source: RamDass.org, 'Nowhere to Go'.
+
+### RD-29 — Bombay/Mumbai soccer stadium (Muktananda welcome rally)
+- place/state: Mumbai, Maharashtra
+- type: stadium / public event venue
+- event/period: October 1970; shared dais and gave warm-up speech.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ONBEKEND
+- source/locator: *Being Ram Dass*, lines 1372–1373.
+- uncertainty: stadium name not stated in accessible memoir text.
+
+### RD-30 — Muktananda Ashram, Ganeshpuri
+- place/state: Ganeshpuri, Maharashtra
+- type: ashram
+- event/period: 1970–71; residence before and after South India yatra.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- source/locator: *Being Ram Dass*, lines 1373–1383 and 1438–39.
+
+### RD-31 — Muktananda's basement 'cave', Ganeshpuri ashram
+- place/state: Ganeshpuri, Maharashtra
+- type: private meditation room / basement
+- event/period: 1970; 3–4 a.m. meditation experience.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- source/locator: *Being Ram Dass*, lines 1379–1381.
+
+### RD-32 — Papa Trivedi home
+- place/state: Maharashtra, exact town unresolved
+- type: private residence
+- event/period: 1970; invited to his home while at Muktananda scene.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ONBEKEND
+- source/locator: *Being Ram Dass*, line 1383 continuation.
+- uncertainty: accessible excerpt does not safely fix town/address.
+
+### RD-33 — Burmese Vihara
+- place/state: Bodh Gaya, Bihar
+- type: Buddhist monastery / lodging / retreat center
+- event/period: 1970–71; three or four Goenka Vipassana courses over ~1.5 months.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- source/locator: *Being Ram Dass*, lines 1390–1405; official RamDass.org Bodh Gaya/vipassana material.
+
+### RD-34 — Bodhi Tree / Mahabodhi Temple precinct
+- place/state: Bodh Gaya, Bihar
+- type: Buddhist pilgrimage site
+- event/period: 1970–71; went to bodhi tree for lama teachings.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- source/locator: *Being Ram Dass*, lines 1404–1405.
+
+### RD-35 — unidentified Tibetan monastery, Bodh Gaya
+- place/state: Bodh Gaya, Bihar
+- type: Tibetan monastery
+- event/period: 1970–71; visited to meet Khunu Lama; also met Kalu Rinpoche.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ONBEKEND
+- source/locator: *Being Ram Dass*, line 1405.
+
+### RD-36 — reclining Hanuman temple / roadside near Sangam
+- place/state: Allahabad/Prayagraj, Uttar Pradesh
+- type: Hanuman temple / roadside occurrence
+- event/period: 1971; bus stopped after sighting Maharaj-ji near unusual underground reclining-Hanuman temple.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- source/locator: *Being Ram Dass*, lines 1411–1414.
+- uncertainty: temple description strongly corresponds to Bade Hanuman Ji/Lete Hanuman Ji near Sangam, but exact identity kept DEELS absent an explicit name in memoir.
+
+### RD-37 — Dada Mukerjee house, **4 Church Lane**
+- place/state: Allahabad/Prayagraj, Uttar Pradesh
+- type: private residence / Maharaj-ji winter camp
+- event/period: 1971; approximately five-day stay with 24-person group.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- source/locator: *Being Ram Dass*, lines 1414–1418; explicit address.
+
+### RD-38 — American Express office, New Delhi (1971)
+- place/state: Delhi
+- type: commercial/mail office
+- event/period: 1971; stopped for mail a
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=316 path=runs/active/TOP11-INDIAGEEL-RAMDASS-BLIND-SWEEP-001/RAM_DASS_INDIAGEEL_FREEZE.md blob_sha=049191faef71cdc9e97806315eb266209f017415 original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=7 classification=text
+fter Allahabad.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ONBEKEND
+- source/locator: *Being Ram Dass*, lines 1418–1419.
+
+### RD-39 — Kumar Gallery, New Delhi
+- place/state: Delhi
+- type: art gallery / gathering venue
+- event/period: 1971; Ram Dass talk; assaulted by Hog Farm member.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- source/locator: *Being Ram Dass*, lines 1419–1421.
+- uncertainty: historical gallery address not resolved in this run.
+
+### RD-40 — unidentified South Indian temple-town room above temple
+- place/state: South India, exact place unknown
+- type: room above temple
+- event/period: Muktananda yatra, 1971; pre-dawn mantra initiation.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ONBEKEND
+- source/locator: *Being Ram Dass*, lines 1431–1433.
+
+### RD-41 — Sathya Sai Baba ashram, Whitefield
+- place/state: Whitefield, Bengaluru, Karnataka
+- type: ashram / darshan hall / private interview room
+- event/period: 1971; Ram Dass sent ahead to arrange Muktananda meeting; private room interview with Sai Baba; returned with group next day.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- source/locator: *Being Ram Dass*, lines 1433–1438.
+- uncertainty: memoir calls it 'ashram at Whitefield'; historical sub-buildings not separately mapped.
+
+### RD-42 — Surat meditation caves
+- place/state: Surat area, Gujarat
+- type: cave/cell meditation facility
+- event/period: 1971; solo meditation after yatra.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ONBEKEND
+- source/locator: *Being Ram Dass*, lines 1439–1440.
+- uncertainty: exact cave complex unresolved.
+
+### RD-43 — Neem Karoli Baba ashram, Vrindavan
+- place/state: Vrindavan, Uttar Pradesh
+- type: ashram / Hanuman temple
+- event/period: 1971–72 repeated stays/darshan; 1973 immediate post-mahasamadhi return.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- source/locator: *Being Ram Dass*, lines 1444–1454, 1595+, 1613–16, 1626.
+
+### RD-44 — Maharaj-ji office, Vrindavan ashram
+- place/state: Vrindavan, Uttar Pradesh
+- type: room / office sublocation
+- event/period: 1971; conversation after Surat/yatra.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- source/locator: *Being Ram Dass*, line 1447 explicitly 'sitting in Maharaj-ji's office'.
+
+### RD-45 — Vrindavan ashram temple courtyard
+- place/state: Vrindavan, Uttar Pradesh
+- type: courtyard
+- event/period: 1971; LSD/medicine exchange with Maharaj-ji around dusk.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- source/locator: *Being Ram Dass*, lines 1449–1454.
+
+### RD-46 — Kausani retreat house near Lakshmi Ashram
+- place/state: Kausani, Uttarakhand
+- type: rented/arranged retreat house
+- event/period: July 1971; initial five-person retreat, then influx of Westerners.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ONBEKEND
+- source/locator: *Being Ram Dass*, lines 1461–1464.
+- uncertainty: house address/structure not named; Lakshmi Ashram is landmark, not automatically the house itself.
+
+### RD-47 — Gandhi Ashram, Kausani
+- place/state: Kausani, Uttarakhand
+- type: ashram / retreat venue
+- event/period: July 1971; moved larger group there for month-long practice/teaching.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- source/locator: *Being Ram Dass*, lines 1464–1473.
+- historical note: likely Anasakti Ashram/Gandhi Ashram; retained DEELS pending archival naming confirmation.
+
+### RD-48 — Hotel Evelyn
+- place/state: Mall Road, Nainital, Uttarakhand
+- type: hotel / Western satsang base
+- event/period: 1971 'Nainital High'; reinstalled after Kausani; readings and group life.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- sources: *Being Ram Dass*, lines 1473, 1479–80, 1583–84; Parvati Marcus excerpt quoted by public Hotel Evelyn history.
+- locator: memoir explicitly calls Hotel Evelyn; semi-primary source gives Mall Road identity.
+
+### RD-49 — Haldwani mechanic/workshop
+- place/state: Haldwani, Uttarakhand
+- type: vehicle repair site
+- event/period: 1971; attempted VW repair.
+- PERSONALLY_PRESENT: ONZEKER
+- PHYSICAL_IDENTITY: ONBEKEND
+-
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=317 path=runs/active/TOP11-INDIAGEEL-RAMDASS-BLIND-SWEEP-001/RAM_DASS_INDIAGEEL_FREEZE.md blob_sha=049191faef71cdc9e97806315eb266209f017415 original_offset=20480 original_length=4096 payload_bytes=4096 chunk_index=5 chunk_count=7 classification=text
+ source/locator: *Being Ram Dass*, line 1474 states 'we tried to get it repaired in Haldwani'.
+- uncertainty: group-inclusive 'we' does not prove Ram Dass personally accompanied the vehicle to workshop; retained with ONZEKER.
+
+### RD-50 — Ghaziabad mechanic
+- place/state: Ghaziabad, Uttar Pradesh
+- type: vehicle repair workshop
+- event/period: 1971; VW ultimately fixed after Maharaj-ji's 'Take it to Delhi' instruction.
+- PERSONALLY_PRESENT: ONZEKER
+- PHYSICAL_IDENTITY: ONBEKEND
+- source/locator: *Being Ram Dass*, line 1475; RamDass.org 'Take It To Delhi'.
+- uncertainty: Krishna Das is explicitly passenger in official story; Ram Dass's physical presence at Ghaziabad repair site is not proven. Kept as lead-grade record with ONZEKER, not JA.
+
+### RD-51 — Jaipuria Bhawan
+- place/state: Vrindavan, Uttar Pradesh
+- type: dharmshala / pilgrim guesthouse
+- event/period: 1971–72; Maharaj-ji had Westerners stay there.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- source/locator: *Being Ram Dass*, lines 1595–1596.
+
+### RD-52 — Bankey Bihari Temple
+- place/state: Vrindavan, Uttar Pradesh
+- type: Krishna temple
+- event/period: 1971–72; excursion for ecstatic puja.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- source/locator: *Being Ram Dass*, line 1596.
+
+### RD-53 — Yamuna River, Vrindavan
+- place/state: Vrindavan, Uttar Pradesh
+- type: river / pilgrimage landscape
+- event/period: 1971–72 excursions.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ALLEEN_PLAATS
+- source/locator: *Being Ram Dass*, line 1596 and photo caption 'Along the Yamuna River in Vrindavan'.
+
+### RD-54 — Anandamayi Ma ashram, Vrindavan
+- place/state: Vrindavan, Uttar Pradesh
+- type: ashram
+- event/period: 1971–72; Maharaj-ji sent group to her; Ram Dass attended darshan/kirtan.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- source/locator: *Being Ram Dass*, lines 1599–1601.
+
+### RD-55 — Anandamayi Ma ashram/temple, Kankhal
+- place/state: Kankhal/Haridwar, Uttarakhand
+- type: ashram / temple courtyard
+- event/period: 1971–72; Ram Dass and Danny Goleman visited; saw Ma on temple steps and in courtyard.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- source/locator: *Being Ram Dass*, lines 1601–1604.
+
+## ADDITIONAL PROVEN OCCURRENCES NOT INCLUDED IN NORMALIZED COUNT
+These are retained as lossless leads/duplicates or sub-occurrences rather than inflated as separate normalized places:
+- repeated New Delhi ↔ Vrindavan train shuttles to Foreigner Registration Office in early 1972; FRO building exact identity unresolved (*Being Ram Dass*, lines 1615–1616).
+- 1973 Pan Am arrival in New Delhi, bus to Vrindavan ashram, onward to Kainchi; these duplicate normalized Delhi/Vrindavan/Kainchi places (*Being Ram Dass*, lines 1626–1631).
+- 2004 New Delhi arrival/departure and Kainchi stay in a newly provided ground-floor room; Kainchi duplicate but room-level continuity documented (*Being Ram Dass*, lines 2130–2145).
+- Kainchi Maharaj-ji back room entered with Siddhi Ma/Jivanti Ma in 2004; room-level sublocation documented but not separately normalized from Kainchi complex (*Being Ram Dass*, lines 2140–2142).
+
+## CONFLICTS
+1. **1967 first Maharaj-ji meeting location:** later retellings often broadly say Kainchi, while *Being Ram Dass* explicitly identifies the temple where the first meeting occurred as **Bhumiadhar**, followed by transfer to Kainchi for training. Freeze preserves the occurrence-level distinction rather than collapsing both into Kainchi.
+2. **1967/1968 return chronology:** some public short biographies compress the first India trip; the contiguous autobiography provides the more granular 1967 route and Kainchi training. No silent harmonization where abbreviated pages differ.
+3. **Gandhi Ashram naming:** memoir says 'Gandhi Ashram' at Kausani; present-day likely identity may be Anasakti Ashram, but freeze does not upgrade to EXACT without direct historical continuity evidence.
+4. **Reclining Hanuman temple, Allahabad:** descriptive match to the famous Lete/Bade Hanuman Ji near Sangam is strong, but memoi
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=318 path=runs/active/TOP11-INDIAGEEL-RAMDASS-BLIND-SWEEP-001/RAM_DASS_INDIAGEEL_FREEZE.md blob_sha=049191faef71cdc9e97806315eb266209f017415 original_offset=24576 original_length=3370 payload_bytes=3370 chunk_index=6 chunk_count=7 classification=text
+r does not give name; retained DEELS.
+
+## UNRESOLVED_LEADS
+- Taj Mahal (Agra) and Fatehpur Sikri: memoir states Ram Dass wanted to see them during a two-week solo tourist period, but accessible passage does not explicitly state he actually entered/visited either; therefore not promoted to presence records.
+- Exact solo-tourist hotels during the 1967 pre-Srinagar fortnight.
+- Full sequence of Bhagavan Das's 'several Buddhist temples' and approximately two months of barefoot pilgrimage after Bareilly.
+- Exact identity of the unnamed family home the night before Bhumiadhar.
+- Exact historical house/address of K.K. Sah in Nainital.
+- Exact Varanasi hotel near Manikarnika Ghat.
+- Exact Dalai Lama brother guesthouse and family-charity site in Dharamsala.
+- Exact 1970 Bombay soccer stadium.
+- Papa Trivedi home address.
+- Exact 'small temple town' and above-temple room on Muktananda's South India yatra.
+- Other stops on Muktananda's South India yatra besides Whitefield; accessible memoir does not enumerate all caravan towns.
+- Exact Surat cave/meditation-cell complex.
+- Exact Kausani retreat house near Lakshmi Ashram.
+- Exact historical New Delhi American Express office(s), Kumar Gallery historical address, British Consulate building and FRO office.
+- Vrindavan 'garden where Krishna and Radha danced': likely a named sacred garden (e.g. Seva Kunj/Nidhivan possibilities), but memoir wording alone insufficient for exact identification.
+- New Delhi village occurrence where Maharaj-ji passed Ram Dass without acknowledging him (memoir mentions 'once in New Delhi and another time in a village', village unnamed).
+
+## SATURATION_ATTEMPTS
+- Primary autobiographical chronology swept from initial 1967 overland journey through 1967 India, 1970–72 long India residence, September 1973 post-mahasamadhi return, and 2004 wheelchair return.
+- Repeated exact-term scans for Nainital, Kainchi, Hanuman Garh, Delhi, Varanasi/Benares, Amarnath, Dharamsala, Dal Lake, Allahabad, Vrindavan, Haridwar/Kankhal, Kausani, Bombay, Ganeshpuri, Surat, Bodh Gaya, Whitefield.
+- Hostgraph pass across Padwa, Bhagavan Das, Harish Johari, K.K. Sah, Dada/Didi Mukerjee, Muktananda/Trivedi network, Goenka/Munindra, Anandamayi Ma and the Western satsang.
+- Adversarial micro-site pass specifically for rooms, guesthouses, hotels, restaurants, offices, galleries, repair shops, dharmshalas, boats, caves and transit points.
+- Presence-vs-association audit: Taj Mahal/Fatehpur intent not upgraded; Ghaziabad mechanic downgraded to ONZEKER for Ram Dass; Haldwani repair similarly not assumed personal.
+
+PERSON_SWEEP_SATURATED: NEE
+
+Motivation: the autobiographical spine and major hostgraph are strong, but the roughly two-month Bhagavan Das pilgrimage route, complete Muktananda South India yatra, multiple unnamed private houses/hotels/dharmshalas, and non-uniformly-transcribed Ram Dass audio/book archive remain incompletely occurrence-mined. A `JA` would therefore overstate coverage.
+
+## BLINDNESS STATEMENT
+BLINDNESS_PRESERVED: JA. During this sweep I read only the task's `TASK.md`, its `STATUS.md`, and independently discovered public external sources. I did **not** read PR #23/#24, CCI results/reconciliations, IndiaROOD, `agent/chatgpt-top11-parallel-sweep`, prior Ram Dass atlases/unions/freezes, the NKB-GEEL freeze as a candidate seed, or other project detector results.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=319 path=runs/active/TOP11-INDIAGEEL-RAMDASS-BLIND-SWEEP-001/STATUS.md blob_sha=c010a0899061f7714bf5150a08221f76b7371785 original_offset=0 original_length=1352 payload_bytes=1352 chunk_index=0 chunk_count=1 classification=text
+# STATUS — TOP11-INDIAGEEL-RAMDASS-BLIND-SWEEP-001
+
+STATUS: COMPLETE_PRE_COMPARE_FROZEN
+PERSON: Ram Dass
+MODE: PRE-COMPARE BLIND
+BRANCH: agent/indiageel-ramana-ramakrishna-sweep
+FREEZE: COMPLETE
+FREEZE_PATH: runs/active/TOP11-INDIAGEEL-RAMDASS-BLIND-SWEEP-001/RAM_DASS_INDIAGEEL_FREEZE.md
+FREEZE_COMMIT_SHA: e1f2e4b8bb56296e20bc0d3f6a3d2fbe9b7589cb
+NORMALIZED_RECORDCOUNT: 55
+PERSON_SWEEP_SATURATED: NEE
+BLINDNESS_PRESERVED: JA
+
+PRINCIPAL_BLOCKERS: roughly two-month Bhagavan Das pilgrimage route not fully occurrence-resolved; complete Muktananda South India yatra not enumerated in accessible primary autobiography; several private houses, hotels, dharmshalas, historic offices, caves and transit micro-sites remain unnamed or lack exact physical continuity; full official searchable editions/transcripts of major Ram Dass books/audio archive were not available end-to-end.
+
+BLINDNESS_NOTE: During PRE-COMPARE only TASK.md, this STATUS.md and independently found public external sources were used. PR #23/#24, CCI, IndiaROOD, other detector branches/results, existing Ram Dass atlases/unions/freezes, and the prior NKB-GEEL freeze as a candidate source were not read.
+
+NEXT_ALLOWED_STEP: STOP. No comparison, reconciliation, PR reading, merge, region/cluster/heatmap, A/B/C, permanent IDs, PDF or route planning without a new explicit INDIA8 task.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=320 path=runs/active/TOP11-INDIAGEEL-RAMDASS-BLIND-SWEEP-001/TASK.md blob_sha=7a329fcd9b8ca5d6187dbfaac10d107e8f0dcd52 original_offset=0 original_length=1841 payload_bytes=1841 chunk_index=0 chunk_count=1 classification=text
+# INDIA GEEL — RAM DASS BLIND PRE-COMPARE SWEEP
+
+STATUS: READY_FOR_INDIAGEEL
+OWNER: INDIA GEEL
+MODE: STRICT PRE-COMPARE BLIND
+PERSON: Ram Dass / Richard Alpert
+SCOPE: heel India
+
+## Opdracht
+Voer vanaf nul een onafhankelijke source-first/corpus-first persoonslocatiesweep uit voor Ram Dass in India. Bouw eerst eigen corpus- en hostgraphdekking op, daarna discovery. Leg alle aantoonbare fysieke locaties, bewezen plaatsen zonder exact gebouw, relevante transitplaatsen en onopgeloste leads lossless vast.
+
+Gebruik waar legaal toegankelijk primaire/semi-primaire Ram Dass-bronnen, waaronder eigen boeken/lezingen/interviews/archiefmateriaal en relevante devotee/host/institutionele bronnen. Zoek expliciet naar huizen, ashrams, tempels, stations, hotels, ziekenhuizen/medische plekken, retreats, caves, ghats, pilgrimage micro-sites en hostnetwerken.
+
+## Harde blindheid
+PRE-COMPARE NIET lezen/gebruiken: PR #23/#24; CCI-resultaten of reconciliaties; agent/chatgpt-top11-parallel-sweep; IndiaROOD; bestaande Ram-Dass-atlassen/unions/freezes; NKB-resultaten die reeds Ram-Dass-locaties verraden; andere detectorresultaten. De zojuist afgeronde NKB-GEEL-freeze mag niet als kandidatenlijst voor Ram Dass worden gebruikt. Alleen deze TASK.md en STATUS.md zijn projectinput.
+
+## Freeze
+Schrijf na voltooiing naar:
+runs/active/TOP11-INDIAGEEL-RAMDASS-BLIND-SWEEP-001/RAM_DASS_INDIAGEEL_FREEZE.md
+
+Minimaal: BLINDNESS_CONFIRMED, CORPORA_SEARCHED, SOURCE_ACCESS_BLOCKERS, HOSTGRAPH_SEARCHED, DISCOVERY_SEARCH_FAMILIES, NORMALIZED_RECORDCOUNT, LOCATION_RECORDS met bron/locator/bewijs/onzekerheid, CONFLICTS, UNRESOLVED_LEADS, SATURATION_ATTEMPTS, PERSON_SWEEP_SATURATED: JA/NEE.
+
+Commit de freeze onmiddellijk zodra klaar en werk STATUS.md bij. Geen vergelijking/reconciliatie, regio/cluster/heatmap, A/B/C, IDs, PDF, routeplanning, PR of merge.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=321 path=runs/active/TOP11-INDIAGEEL-VIVEKANANDA-HARIHARANANDA-TARGETED-001/HARIHARANANDA_INDIAGEEL_TARGETED_FREEZE.md blob_sha=b2c06e76ee0ec697ccf02b2d66709dd7a72e5ed5 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# PARAMAHAMSA HARIHARANANDA — INDIA GEEL TARGETED PRE-COMPARE FREEZE
+
+PERSON: Paramahamsa Hariharananda / Rabindranath (Rabinarayan) Bhattacharya / Swami Hariharananda Giri
+FREEZE_TIMESTAMP: 2026-08-19T16:50:00+02:00
+MODE: STRICT PRE-COMPARE BLIND, TARGETED-ONLY
+SCOPE: heel India; uitsluitend grootste/belangrijkste fysieke locaties voor reisrelevantie
+BLINDNESS_PRESERVED: JA
+TARGETED_SCOPE_COMPLETE: JA
+TRAVEL_RELEVANT_MAJOR_SITES_CAPTURED: JA
+NORMALIZED_RECORDCOUNT: 7
+
+## CORPORA / SOURCE FAMILIES USED
+- Kriya Yoga International / Kriya.org official lineage biography of Paramahamsa Hariharananda.
+- Prajnana Mission official histories of Hariharananda Gurukulam, Balighai, and Prajnana Mission, Jagatpur.
+- Kriya Yoga International location pages for Balighai and Jagatpur.
+- Yogoda Satsanga Society / Self-Realization Fellowship official Serampore pilgrimage-site material for Sri Yukteswar’s historical hermitage identity.
+- Govardhan Peeth official current institutional page, used only for present physical identity/visitability of the Peetha named in the Hariharananda lineage biography.
+- Kriya Yoga International newsletter / Prajnana Mission page for Sri Guru Janmabhumi Mandir on the ancestral birth plot in Habibpur.
+
+## SOURCE ACCESS / TARGETED LIMITATIONS
+- This is intentionally not an exhaustive missionary itinerary. Hariharananda’s teaching journeys throughout India, individual initiation houses, small centres and transit occurrences were not reconstructed.
+- The rented seashore house in Puri where he lived before moving permanently to Karar Ashram is historically attested but exact identity is unresolved and therefore excluded from the major-site list.
+- Ranikhet is retained at place/region level because the official lineage biography proves his journey there but does not identify an exact cave, house or ashram where the reported Babaji-voice experience occurred.
+
+## LOCATION RECORDS
+
+### HH-IG-T01 — Sri Guru Janmabhumi Mandir / ancestral birth plot, Habibpur
+- PLACE: Habibpur, Nadia district, West Bengal
+- TYPE: ancestral birth-site; present memorial temple/small ashram
+- PRESENCE/RELATION: Hariharananda was born as Rabindranath Bhattacharya in Habibpur on 27 May 1907 and spent his childhood there.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT (ancestral plot / birthplace memorial)
+- SOURCE: Kriya Yoga International official Hariharananda biography; Prajnana Mission “Sri Guru Janmabhumi Mandir”; Kriya Yoga International newsletter on 2023 inauguration.
+- URL: https://www.kriya.org/guru/paramahamsa-hariharananda/en ; https://www.prajnanamission.org/?p=292
+- LOCATOR: biography identifies Habibpur as birthplace; Prajnana Mission states the Janmabhumi Mandir stands at his sacred birthplace where he spent much of childhood; Kriya Yoga International newsletter describes it as the ancestral plot where he was born and raised.
+- EVIDENCE_LEVEL: HOOG
+- CURRENT_VISITABILITY/IDENTITY: temple and small ashram inaugurated 23 Feb 2023; Prajnana Mission explicitly invites seekers to visit and meditate.
+- UNCERTAINTY: original family house fabric is not claimed to survive; exact ancestral plot identity is the preserved element.
+
+### HH-IG-T02 — Sri Yukteswar’s Serampore Ashram / present Smriti Mandir hermitage property
+- PLACE: Serampore, Hooghly district, West Bengal
+- TYPE: guru’s hermitage/ashram; initiation site
+- PRESENCE/RELATION: in 1932 Rabinarayan met Swami Sri Yukteswar at the Serampore ashram and was initiated into Kriya Yoga there.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT at historical property level
+- SOURCE: Kriya Yoga International official Hariharananda biography; YSS/SRF official Serampore pilgrimage-site history.
+- URL: https://www.kriya.org/guru/paramahamsa-hariharananda/en ; https://yogananda.org/blog/srf-yss-president-brother-chidananda-visits-india
+- LOCATOR: Hariharananda biography explicitly states 1932 meeting/initiation in the Serampore ashram; YSS identifies Sri Yukteswar’s main Serampore ashram property and its Swami Sri Yukteswar Smriti Mandir, noting acquisition of the
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=322 path=runs/active/TOP11-INDIAGEEL-VIVEKANANDA-HARIHARANANDA-TARGETED-001/HARIHARANANDA_INDIAGEEL_TARGETED_FREEZE.md blob_sha=b2c06e76ee0ec697ccf02b2d66709dd7a72e5ed5 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+ complete hermitage property.
+- EVIDENCE_LEVEL: HOOG
+- CURRENT_VISITABILITY/IDENTITY: memorial temple and historical hermitage property are under YSS stewardship/development as a pilgrimage site.
+- UNCERTAINTY: exact room in which Hariharananda received initiation is not stated.
+
+### HH-IG-T03 — Karar Ashram, Puri
+- PLACE: Puri, Odisha
+- TYPE: Kriya Yoga ashram; principal residence, sadhana and teaching base
+- PRESENCE/RELATION: Sri Yukteswar directed Rabinarayan to move to and take charge of Karar Ashram. After an interim rented seashore house he lived there as Brahmachari Rabinarayan, performed long ascetic practice, received higher Kriya instruction, attained major samadhi states, later became acharya and sadhu sabhapati, and taught seekers there for decades.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Kriya Yoga International official Hariharananda biography; Kriya Yoga International Sri Yukteswar lineage page; Kriya Yoga International teacher testimonies.
+- URL: https://www.kriya.org/guru/paramahamsa-hariharananda/en ; https://www.base.kriya.org/guru/swami-shriyukteshwar-giri/en
+- LOCATOR: official biography describes his move to Karar Ashram, residence there, 1949 experiences, 1950 acharya appointment and later presidency; Sri Yukteswar page identifies Karar Ashram as his Puri hermitage founded in 1903.
+- EVIDENCE_LEVEL: HOOG
+- CURRENT_VISITABILITY/IDENTITY: Karar Ashram remains an identifiable Kriya Yoga lineage site in Puri.
+- UNCERTAINTY: no room-by-room split is attempted under targeted scope.
+
+### HH-IG-T04 — Govardhana Peetha / Govardhan Math, Puri
+- PLACE: Shankaracharya Marg, Puri, Odisha
+- TYPE: Shankaracharya matha / monastic initiation institution
+- PRESENCE/RELATION: on 27 May 1959 Hariharananda received sannyasa initiation from Jagadguru Bharati Krishna, Shankaracharya of Gobardhana Peetha, Puri, and became Swami Hariharananda Giri.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS-to-EXACT institution level
+- SOURCE: Kriya Yoga International official Hariharananda biography; Govardhan Peeth official site for current physical institution.
+- URL: https://www.kriya.org/guru/paramahamsa-hariharananda/en ; https://www.govardhanpeeth.org/en/
+- LOCATOR: Hariharananda biography explicitly names the Shankaracharya of Gobardhana Peetha, Puri, as his sannyasa initiator on his 52nd birthday; Govardhan Peeth provides current institutional location on Shankaracharya Marg.
+- EVIDENCE_LEVEL: HOOG for event/institution; MIDDEL for exact room/subsite
+- CURRENT_VISITABILITY/IDENTITY: active historical Govardhan Math/Peetha in Puri.
+- UNCERTAINTY: biography proves initiation by the Peetha’s Shankaracharya in Puri but does not specify exact hall/room; do not overstate sub-building identity.
+
+### HH-IG-T05 — Ranikhet, Himalayan Babaji-search occurrence
+- PLACE: Ranikhet, Uttarakhand
+- TYPE: pilgrimage/spiritual-search region; exact physical subsite unresolved
+- PRESENCE/RELATION: official Hariharananda lineage biography states he traveled to Ranikhet to visit Babaji Maharaj and reported hearing Babaji’s voice instructing him to spread Kriya Yoga worldwide.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ALLEEN_PLAATS
+- SOURCE: Kriya Yoga International official Hariharananda biography.
+- URL: https://www.kriya.org/guru/paramahamsa-hariharananda/en
+- LOCATOR: paragraph after 1949 Karar Ashram account explicitly says he later traveled to the famous Ranikhet in the Himalayas.
+- EVIDENCE_LEVEL: HOOG for Ranikhet presence; LAAG for any particular cave/site
+- CURRENT_VISITABILITY/IDENTITY: Ranikhet is physically visitable, but no exact Hariharananda site is established in the allowed source set.
+- UNCERTAINTY: no Babaji cave or other specific Ranikhet location is assigned to Hariharananda without direct evidence.
+
+### HH-IG-T06 — Prajnana Mission Ashram, Jagatpur
+- PLACE: Nimpur, P.O. Jagatpur, Cuttack, Odisha
+- TYPE: mission ashram / administrative headquarters
+- PRESENCE/RELATION: Hariharananda instructed his disciple Triloki Dash (later Paramahamsa Prajnanananda) in 1986 to obtain land and build a
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=323 path=runs/active/TOP11-INDIAGEEL-VIVEKANANDA-HARIHARANANDA-TARGETED-001/HARIHARANANDA_INDIAGEEL_TARGETED_FREEZE.md blob_sha=b2c06e76ee0ec697ccf02b2d66709dd7a72e5ed5 original_offset=8192 original_length=3378 payload_bytes=3378 chunk_index=2 chunk_count=3 classification=text
+n ashram. In March 1996 Hariharananda personally visited the completed Jagatpur ashram for the first time, blessed hundreds of disciples there and directed its expansion.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Kriya Yoga International official Jagatpur location history.
+- URL: https://kriya.org/location-details/11/rs
+- LOCATOR: history states the ashram was inaugurated 17 May 1993 and that “in March 1996, Gurudev Baba Hariharanandaji came to the ashram for the first time,” then asked for expansion.
+- EVIDENCE_LEVEL: HOOG
+- CURRENT_VISITABILITY/IDENTITY: active Prajnana Mission administrative headquarters/ashram.
+- UNCERTAINTY: later expansion means the 1996 small-building footprint is part of a larger modern complex.
+
+### HH-IG-T07 — Hariharananda Gurukulam / Shri Guru Mandir, Balighai
+- PLACE: Puri–Konark Marine Drive, Balighai/Chhaithana, Puri district, Odisha
+- TYPE: ashram property personally acquired by Hariharananda; current international spiritual headquarters and samadhi temple
+- PRESENCE/RELATION: Hariharananda obtained the property in 1975 for a future ashram. He continued to direct its development vision. After his mahasamadhi in Miami in 2002, his body was returned to India and given bhu-samadhi at this Gurukulam; Shri Guru Mandir was later built over/for the sacred resting site.
+- PERSONALLY_PRESENT: JA (property association during life; posthumous bodily samadhi also exact)
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Kriya Yoga International official Hariharananda biography; Hariharananda Gurukulam official history/location page.
+- URL: https://www.kriya.org/guru/paramahamsa-hariharananda/en ; https://www.prajnanamission.org/pages/hariharananda-gurukulam ; https://www.kriya.org/location-details/10/en/
+- LOCATOR: biography states his body was laid to rest at Hariharananda Gurukulam in Balighai; Gurukulam history states he obtained the property in 1975 and identifies Shri Guru Mandir as his samadhi shrine.
+- EVIDENCE_LEVEL: HOOG
+- CURRENT_VISITABILITY/IDENTITY: active international Kriya Yoga headquarters/pilgrimage ashram with guest accommodation, museum, temples and Shri Guru Mandir.
+- UNCERTAINTY: current built complex expanded substantially after his lifetime; core property and samadhi identity are explicit.
+
+## TARGETED EXCLUSIONS / NON-CLAIMS
+- The unnamed rented house near the Puri seashore is historically supported but omitted because exact physical identity is unresolved and it is below targeted travel significance.
+- Hariharananda’s many initiation tours and centers across India were deliberately not expanded occurrence by occurrence.
+- No claim is made that every present Kriya Yoga International/Prajnana Mission centre was personally visited by Hariharananda.
+- No specific Ranikhet “Babaji cave” is attributed to Hariharananda from the available official biography.
+
+## TARGETED COMPLETION
+TARGETED_SCOPE_COMPLETE: JA
+TRAVEL_RELEVANT_MAJOR_SITES_CAPTURED: JA
+BLINDNESS_PRESERVED: JA
+
+Rationale: this targeted layer captures his exact birth plot, first Kriya initiation/guru hermitage, principal decades-long Puri ashram, sannyasa institution, major Himalayan Babaji-search region, personally visited Jagatpur mission headquarters, and Balighai property/samadhi headquarters. Further India occurrences exist but are intentionally outside this task’s compact major-site scope.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=324 path=runs/active/TOP11-INDIAGEEL-VIVEKANANDA-HARIHARANANDA-TARGETED-001/STATUS.md blob_sha=9c4c4958b99942e887094ec976290265052ae4ae original_offset=0 original_length=1535 payload_bytes=1535 chunk_index=0 chunk_count=1 classification=text
+# STATUS — TOP11-INDIAGEEL-VIVEKANANDA-HARIHARANANDA-TARGETED-001
+
+state: COMPLETE_PRE_COMPARE_FROZEN
+branch: agent/indiageel-ramana-ramakrishna-sweep
+mode: STRICT PRE-COMPARE BLIND, TARGETED-ONLY
+order: Vivekananda -> Hariharananda
+
+## Vivekananda
+vivekananda: FROZEN
+vivekananda_freeze_path: runs/active/TOP11-INDIAGEEL-VIVEKANANDA-HARIHARANANDA-TARGETED-001/VIVEKANANDA_INDIAGEEL_TARGETED_FREEZE.md
+vivekananda_freeze_commit_sha: 92784e8203eb70bdf46c3da9615a147b4473979a
+vivekananda_recordcount: 9
+vivekananda_targeted_scope_complete: JA
+vivekananda_travel_relevant_major_sites_captured: JA
+
+## Hariharananda
+hariharananda: FROZEN
+hariharananda_freeze_path: runs/active/TOP11-INDIAGEEL-VIVEKANANDA-HARIHARANANDA-TARGETED-001/HARIHARANANDA_INDIAGEEL_TARGETED_FREEZE.md
+hariharananda_freeze_commit_sha: 15cbec9ada2a110d8ceb7bddc8d8e16d81619061
+hariharananda_recordcount: 7
+hariharananda_targeted_scope_complete: JA
+hariharananda_travel_relevant_major_sites_captured: JA
+
+## Blindness
+BLINDNESS_PRESERVED: JA
+Only TASK.md, this STATUS.md and independently found public external sources were used for these targeted PRE-COMPARE sweeps. PR #23/#24, CCI results/reconciliations, existing Vivekananda/Hariharananda project atlases/unions, agent/chatgpt-top11-parallel-sweep, IndiaROOD, previous detector outputs and existing heatmaps/overlap matrices were not read.
+
+## next_allowed_step
+STOP. No comparison, reconciliation, overlap/heatmap update, A/B/C, route/nights, permanent IDs, PDF, PR or merge without a new explicit INDIA8 task.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=325 path=runs/active/TOP11-INDIAGEEL-VIVEKANANDA-HARIHARANANDA-TARGETED-001/TASK.md blob_sha=30d7db1dda93001402a39c797dd5b300af36cb86 original_offset=0 original_length=2432 payload_bytes=2432 chunk_index=0 chunk_count=1 classification=text
+# INDIA GEEL — TARGETED BLIND SWEEP: VIVEKANANDA + HARIHARANANDA
+
+STATUS: READY_FOR_INDIAGEEL
+OWNER: INDIA GEEL
+MODE: STRICT PRE-COMPARE BLIND, TARGETED-ONLY
+SCOPE: heel India, maar UITSLUITEND grootste/belangrijkste fysieke locaties voor reisrelevantie
+
+## Waarom deze taak
+Mark heeft beslist dat Vivekananda en Hariharananda GEEN exhaustieve landelijke deep sweep krijgen. Doel is daarom niet volledigheid, maar een onafhankelijke, bronkritische lijst van de belangrijkste fysiek bezoekbare/identificeerbare locaties die voldoende is om deze twee personen correct mee te nemen in de landelijke overlap/heatmap en uiteindelijke reisplanning.
+
+## Volgorde
+1. Swami Vivekananda
+2. Paramahamsa Hariharananda
+
+## Harde blindheid
+PRE-COMPARE NIET lezen/gebruiken: PR #23/#24; CCI-resultaten/reconciliaties; bestaande persoonsatlassen/unions; agent/chatgpt-top11-parallel-sweep; IndiaROOD; eerdere Vivekananda/Hariharananda projectresultaten; bestaande heatmaps/overlapmatrices. Alleen deze TASK.md en STATUS.md zijn projectinput.
+
+## Onderzoeksmethode
+Source-first. Gebruik primaire/semi-primaire bronnen en officiële lineage/ashram/mission-bronnen waar mogelijk. Daarna beperkte brede discovery om alleen hoofdlocaties te vangen.
+
+Per persoon zoek gericht naar:
+- geboorte/jeugdlocatie indien fysiek relevant;
+- belangrijkste ashram/monastery/mission-sites;
+- kernleraar/kernspirituele ontmoeting-locaties;
+- grote verblijf-/praktijkplaatsen;
+- belangrijke pelgrimsplaatsen;
+- samadhi/mahasamadhi/memorial indien relevant;
+- maximaal enkele extra locaties die evident hoog travel-significance hebben.
+
+Geen tientallen microtransitplaatsen, privéhuizen of occurrence-by-occurrence reconstructie najagen tenzij essentieel om een hoofdsite correct te identificeren.
+
+## Output
+Per persoon een aparte freeze:
+- VIVEKANANDA_INDIAGEEL_TARGETED_FREEZE.md
+- HARIHARANANDA_INDIAGEEL_TARGETED_FREEZE.md
+
+Minimaal per record: plaats, exacte fysieke site indien bekend, type, aanwezigheid/relatie, bron + locator, bewijsniveau, onzekerheid, huidige fysieke bezoekbaarheid/identiteit voor zover bronmatig vaststelbaar zonder routeadvies.
+
+Vermeld per persoon:
+TARGETED_SCOPE_COMPLETE: JA/NEE
+TRAVEL_RELEVANT_MAJOR_SITES_CAPTURED: JA/NEE/DEELS
+BLINDNESS_PRESERVED: JA/NEE
+
+Commit onmiddellijk na Vivekananda en opnieuw na Hariharananda. Update STATUS.md. Geen vergelijking/reconciliatie, geen A/B/C, geen route/nachten, geen PDF, geen PR/merge.
+
+<<< END CHUNK >>>
+

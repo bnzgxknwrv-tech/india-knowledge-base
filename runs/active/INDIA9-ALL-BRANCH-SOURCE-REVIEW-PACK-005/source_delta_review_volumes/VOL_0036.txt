@@ -1,0 +1,543 @@
+>>> CHUNK stream_row=553 path=runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/ABC_REVIEW_AFTER_CLOSURE_QUEUE.md blob_sha=e10868ae45f994c5547d41321e159679b0987c65 original_offset=8192 original_length=3143 payload_bytes=3143 chunk_index=2 chunk_count=3 classification=text
+urrent site may dedup to `079`);
+- Haidakhan Vishwa Mahadham / Haidakhan cave claimant tradition;
+- Parangipettai Nagaraj/Babaji claimant tradition;
+- present Yogi Satyam Jhusi banyan claimant identification versus the unresolved historical 1894 tree.
+
+A positive travel/ABC judgement for one claimant tradition never auto-upgrades another.
+
+## WIT final master context
+
+WIT is an integrator, not a discovery sweep. Its completed master heatmap supplies `MIN_CONFIRMED` overlap and exact-site/non-merge context only.
+
+Protected anchors are context, not re-decision:
+- Arunachala/Tiruvannamalai remains a `LOCKED_BY_MARK` A-anchor.
+- Kukuchina/Dunagiri remains the existing principal Babaji travel reason.
+
+WIT exact-site context may increase the information shown in later Mark review but cannot change existing A/B/C:
+- Lahiri house: Lahiri Mahasaya + Sri Yukteswar.
+- Kainchi Dham: NKB + Ram Dass.
+- NKB Vrindavan Ashram/Mahasamadhi: NKB + Ram Dass.
+- Karar Ashram: Sri Yukteswar + Hariharananda.
+- Sri Ramanasramam: Ramana + Yogananda.
+- Ranchi Vidyalaya/YSS campus: Yogananda + Anandamayi.
+- Dakshineswar: Ramakrishna + Vivekananda.
+- Hanuman Garh/Hanuman Garhi: NKB + Ram Dass.
+- 4 Church Lane: NKB + Ram Dass.
+- 1894 Kumbh remains an event-zone, not a fixed-site identity.
+
+WIT city/region overlaps must never generate a synthetic parent entity. Varanasi, Prayagraj, Kolkata metro, Vrindavan, Puri, Ranchi, Tiruvannamalai, Serampore, Kainchi, Almora and Nainital aggregation is travel context only.
+
+## R4/R5 dependency queue — preserve but DO NOT send to ABC yet
+
+GEEL findings remain entity-closure dependencies and are not silently dropped: Hotel Evelyn cave-room; K.K. Sah house address; Gethia sanatorium; 4 Church Lane front/bathrooms area; NKB Agra Jagmohan/S-house/clinic/station micro-sites; Mathura station steps conflict; Ram Dass Varanasi hotel; Dharamsala Swarg Ashram/guesthouse; Delhi Health/Finance/AmEx/restaurant/alley/hotel/Soni house; Surat cave; Ramana float-room/tower/bridge/banyan route; Ramakrishna Jayagopal/Lily/Surendra/Adhar/Nanda/Ramchandra/Ganu/Brahmani private-house findings.
+
+ROOD additionally preserves its full unresolved layer: **54 R4 + 25 R5 source records**, plus explicit split-level dependencies including the unnamed 1861 initiation cave, golden-palace terrain, Prayagraj historic bridge/tree, Dashashwamedh hidden cave, Satopanth unnamed cave, hidden Gauri Shankara Pitha, Krishnaram house, Haridwar AOAY hermitage, Bodh Gaya Krishnadayal math and 1936 Regent Hotel.
+
+No R4/R5 item receives guessed coordinates or an automatic A/B/C.
+
+## Other protected existing locations
+
+- Kainchi Dham: Ram Dass person-link enrichment; existing status/lock unchanged.
+- NKB Vrindavan Ashram/Mahasamadhi: Ram Dass person-link enrichment; existing lock/status unchanged.
+- `KB2-038` Mayavati: Vivekananda link enrichment; any later A/B/C handling waits for Kumaon global-ID/identity policy.
+- Bodh Gaya `051`, `061` and `074` were explicitly reconfirmed **C** after their Top-11/delta review; this pass does not reopen them without new qualifying entity/proximity evidence.
+
+No downgrade queue is created.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=554 path=runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/CENTRAL_INPUT_MANIFEST.md blob_sha=b0da438c993f3ea9c2d8adda61f760cf3a82f69a original_offset=0 original_length=3707 payload_bytes=3707 chunk_index=0 chunk_count=1 classification=text
+# CENTRAL INPUT MANIFEST — INDIAZILVER ENTITY/ID/PROXIMITY BACKFILL
+
+Status: AUTHORITATIVE INPUT ROUTING FROM INDIA8
+Date: 2026-08-20
+
+## PURPOSE
+ZILVER is not blocked by absence of one monolithic canon file. This task is explicitly staged. Use the exact sources below and do not invent coordinates or IDs.
+
+## ALLOWED / REQUIRED CURRENT-BRANCH INPUTS
+Read these on `agent/indiazilver-cluster-completeness-audit`:
+- `runs/active/INDIAZILVER-CLUSTER-COMPLETENESS-AUDIT-001/CLUSTER_RECALL_AUDIT.md`
+- `runs/active/INDIAZILVER-CLUSTER-COMPLETENESS-AUDIT-001/MISSED_NEARBY_RISK.md`
+- `runs/active/INDIAZILVER-CLUSTER-COMPLETENESS-AUDIT-001/REOPEN_AND_ID_QUEUE.md`
+- `runs/active/INDIAZILVER-CLUSTER-COMPLETENESS-AUDIT-001/ABC_REVIEW_QUEUE.md`
+- `runs/active/INDIAZILVER-CLUSTER-COMPLETENESS-AUDIT-001/COMPLETENESS_GATE.md`
+- `runs/active/INDIAZILVER-CLUSTER-COMPLETENESS-AUDIT-001/TOP_REOPEN_PRIORITIES.md`
+- current task outputs `PROTECTED_CANON_BASELINE.csv` and `NEW_ID_REQUIRED_QUEUE.csv` already created in this run.
+
+## EXPLICIT CROSS-BRANCH CENTRAL INPUTS — ALLOWED
+Read these exact files from branch `agent/india8-cluster-casting`:
+- `runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/SOURCE_LEDGER.md`
+  source commit lineage includes `285a70c82acefc7fdc3d73d621a72aefc4de6c3f`.
+- `runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/GLOBAL_UNRESOLVED_QUEUE_SEED.md`
+  source commit lineage includes `73d8f7f8705924f4c041645b0bd4091e3569effd`.
+- `runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/STATUS.md`
+- `governance/LOCATION_RESOLUTION_BEFORE_ABC_2026-08-19.md`
+
+These are routing/source-accounting inputs, not a finished unique-entity coordinate table.
+
+## STAGED EXECUTION — DO NOW
+### Stage Z1 — protected canon recovery
+Do not wait for the global all-findings entity master. Recover all existing permanent IDs / A-B-C / locks / available coordinates from every old cluster/register source already used by the earlier ZILVER audit. If a particular old cluster has no trustworthy coordinates, write `UNKNOWN`, never fabricate.
+
+### Stage Z2 — existing 31 new-candidate queue
+Use the earlier `REOPEN_AND_ID_QUEUE.md` as the initial NEW_ID_REQUIRED seed. For every one of the 31 candidates, obtain reliable current coordinates where physical identity is already sufficient. If identity is not yet closed, mark `DEPENDENCY_ENTITY_CLOSURE` rather than dropping it.
+
+### Stage Z3 — proximity now where possible
+Build `PROXIMITY_1KM_3KM_MATRIX.csv` for every pair where BOTH coordinates are trustworthy. Unknown coordinates must remain explicit. This matrix may be partial now and later append-only expanded when ROOD/GEEL/BLAUW/WIT/TURQUOISE entity feeds arrive.
+
+### Stage Z4 — duplicate/parent and ABC review seeds
+Create `DUPLICATE_PARENT_CANDIDATES.md` and `ABC_REVIEW_AFTER_CLOSURE_QUEUE.md` from evidence already available. Do not wait for all parallel agents. Mark unresolved dependencies explicitly.
+
+### Stage Z5 — status
+Finish this pass as `PARTIAL_COMPLETE__WAITING_FOR_PARALLEL_ENTITY_FEEDS` if and only if all currently available work above is exhausted. This is not a failure/blocker; it is the designed pipeline state. Later entity feeds are additive input.
+
+## LATER ADDITIVE FEEDS
+When these parallel tasks complete, ingest them without overwriting old work:
+- INDIABLAUW AOAY/Yogananda location closure
+- INDIAROOD Core-Kriya location closure
+- INDIAGEEL four-person location closure
+- INDIAWIT Anandamayi/heritage location closure
+- INDIATURQUOISE entity-overlap reconciliation
+
+## HARD
+No existing ID/A-B-C/lock changes. No guessed coordinates. No definitive new IDs. No silent drops. Partial proximity is useful and required; `UNKNOWN` is a valid result.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=555 path=runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/DUPLICATE_PARENT_CANDIDATES.md blob_sha=1d7e0cff0d99613f63cf3097b2c47b8c76068ba6 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# DUPLICATE_PARENT_CANDIDATES — INDIA ZILVER
+
+status: UPDATED_WITH_GEEL_TURQUOISE_WIT_ROOD_FINAL
+branch: agent/indiazilver-cluster-completeness-audit
+
+Hard rule: no existing ID/A-B-C/lock changes. Parent/child microsites are not duplicates. Historic→modern successor relations are not silent same-building merges.
+
+## Confirmed same-site / no duplicate parent ID
+
+- Sri Ramanasramam: `OLD31-13` = `LC-RM-RAMANASRAMAM`; one parent entity, Ramana + Yogananda links retained.
+- Dakshineswar temple-garden complex: `OLD31-21` = `LC-RK-DAK-PARENT`; one parent complex, child room/Panchavati/Bel tree/ghat remain separate.
+- Cossipore Garden House: `OLD31-22` = `LC-RK-COSSIPORE-HOUSE`; one parent house, final room child; cremation ghat remains physically distinct.
+- Banke Bihari Temple: `LC-RD-BANKEBIHARI` = `LC-RK-BANKEBIHARI`; one temple entity, two person links.
+- Kainchi Dham: existing parent remains one entity for Neem Karoli Baba + Ram Dass; no duplicate parent ID.
+- NKB Vrindavan Ashram/Mahasamadhi complex: existing locked parent remains one entity for Neem Karoli Baba + Ram Dass; no duplicate parent ID.
+- Lahiri residence `002` / prior key `VNS-CAND-002`: one exact house entity with Lahiri + Sri Yukteswar links; Babaji tradition link remains epistemically separate.
+- Hanuman Garh/Hanuman Garhi Nainital: alias same physical site at entity layer; original labels retained.
+- ROOD `LAHIRI-HOUSE::BUILDING` resolves to existing `002`; front parlor and threshold remain children.
+- ROOD `DASHASHWAMEDH::GHAT` resolves to existing `009`; hidden Mataji cave remains unresolved child/nearby micro-site.
+- ROOD `VARANASI-PANCHGANGA::GHAT` resolves to existing `011`; `VARANASI-PANCHGANGA::TAILANG-MATH` resolves to existing `004`.
+- ROOD `RANA-MAHAL::GHAT` resolves to `OLD31-28`; no second Rana Mahal parent candidate.
+- ROOD `RAMNAGAR::FORT-PALACE` resolves to existing permanent provisional `044`; tutoring room remains a child dependency.
+- ROOD `GARPAR-4::HOUSE` resolves to `OLD31-29`; Babaji room/vestibule and 1930 roof remain children.
+- ROOD `KARAR::COMPLEX` resolves to `OLD31-14`; samadhi and Hariharananda rooms remain sub-sites.
+
+## Parent → child relations that MUST remain separate
+
+### Kainchi
+Parent: existing Kainchi Dham.
+Children: original rock/platform; Maharajji room/kuti; Hanuman temple/courtyard; historic wooden bridge/replacement alignment; Ram Dass 1967 room; river bathing micro-site; 2004 room; Maharajji back room; R4 fire-ceremony zone; R5 cold-hut/village lead.
+
+### Bhumiadhar
+Parent: Bhumiadhar temple/ashram.
+Children: Baba room/kuti; Ram Dass first-meeting terrace/field zone. Parent may overlap existing Kumaon entity and therefore requires dedup before any new parent ID.
+
+### Hotel Evelyn
+Parent: `LC-RD-EVELYN-HOTEL`.
+Children: `LC-RD-EVELYN-CAVE` upper/top-floor cave room; `LC-RD-EVELYN-PATIO` balcony/front patio. Room/patio are not duplicate hotel records.
+
+### 4 Church Lane / Red House
+Parent: `LC-NKB-4CL-PARENT`.
+Children: Maharajji small room; hall; outside veranda; kitchen/meal room; bathrooms/front area. TURQUOISE explicitly requires child preservation.
+
+### NKB Vrindavan Ashram
+Parent: existing locked NKB Vrindavan complex.
+Children: Maharajji office; temple courtyard/fire-platform detail; Hanuman sanctum; main gate; historic room/veranda/cremation-place records from TURQUOISE. Later memorial is temporal successor, not lifetime-presence evidence.
+
+### Arunachaleswarar Temple
+Parent: `OLD31-25` / `LC-RM-ARUN-TEMPLE`.
+Children: inner sanctum; Thousand-Pillared Hall; Patala Lingam; float-storage room; unnamed tower; other GEEL temple micro-sites. Virupaksha Cave and Mango Tree Cave are NOT children of this temple; they are separate Arunachala sites.
+
+### Arunachala hill cluster
+Distinct entities: Virupaksha Cave; Mango Tree Cave; Skandashram; Satguru Swami Cave; Guhai Namasivaya Cave/Temple; Tortoise Rock/Cave; Seven Springs; summit/Deepam beacon; Ramana Bridge; unresolved banyan/hornet route. Regional clustering never authorizes merge.
+
+### Sri Ramanasramam
+Parent: `OLD31-13` / `LC-RM-RAMANASRAMAM`.
+Children: 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=556 path=runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/DUPLICATE_PARENT_CANDIDATES.md blob_sha=1d7e0cff0d99613f63cf3097b2c47b8c76068ba6 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+Mother's tomb/shrine; Old Hall; kitchen; Mathrubhuteswara inner shrine/Sri Chakra; New Hall; Nirvana Room. Cross-person Yogananda visit enriches parent only.
+
+### Fouzdar Kunj
+Parent: building `LC-RK-FOUZDAR`.
+Children: upper room; semicircular veranda.
+
+### Nidhivan / Ganga Mata
+`LC-RK-NIDHIVAN` is the grove. `LC-RK-GANGAMATA-HUT` is the historic hut footprint. `LC-RK-GANGAMATA-SUCCESSOR` is later Kanpurwali Dharam Shala/Batala Ashrama successor property. Never collapse later structure into Ramakrishna lifetime building.
+
+### Panihati Mani Sen property
+Mani Sen house/parlour and Sri Radhakanta family temple are separate parent/child entities.
+
+### Shyampukur
+Parent: Shyampukur Bati. Child: Master's large first-floor room.
+
+### Cossipore terminal cluster
+Garden House, upstairs final room, and cremation ghat remain distinct physical levels; ghat is not a child room of the house.
+
+### ROOD Lahiri house
+Parent: permanent `002` / `LAHIRI-HOUSE::BUILDING`.
+Children: front parlor; threshold event point. Neither child receives the parent ID automatically and neither is collapsed into `001` Satyalok/samadhi.
+
+### ROOD 4 Garpar Road
+Parent: `OLD31-29` / `GARPAR-4::HOUSE`.
+Children: Babaji-associated room/vestibule; roof used for Sri Yukteswar photographs. One building, multiple physical micro-sites.
+
+### ROOD Karar Ashram
+Parent: `OLD31-14` / `KARAR::COMPLEX`.
+Children: Sri Yukteswar samadhi; Hariharananda closed meditation room and Kali-puja room. WIT exact-site overlap for Sri Yukteswar + Hariharananda enriches the parent only.
+
+### ROOD Serampore Priyadham
+Historic parent terrain: `SERAMPORE-PRIYADHAM::HISTORIC-TERRAIN`.
+Children: historic courtyard, hall, sitting room, eating patio and bedroom. Current `SERAMPORE-PRIYADHAM::SMRITI-MANDIR` is a later successor memorial on the old site, not the unchanged building occupied by Sri Yukteswar.
+
+## Successor / temporal chains
+
+- Akbarpur NKB historic birth/family site → later 2001 temple: NO same-building merge.
+- Neeb Karori historic collapsed cave → current continuity/successor cave: preserve temporal relation.
+- Kainchi original wooden bridge → concrete replacement alignment: preserve historic/current distinction.
+- NKB Vrindavan cremation place → later memorial/samadhi structures: preserve temporal distinction.
+- Ghurni Lahiri lost estate/landscape → Jaleshwar/Ghurni successor shrine: claimed lingam continuity does not prove same site/building.
+- Ranchi historic Vidyalaya → current YSS campus: same-campus/institutional-successor relation, not unchanged-building claim.
+- Dihika historic Brahmacharya Vidyalaya terrain → current YSS retreat: successor relation; current site does not upgrade uncertain Sri Yukteswar personal-presence evidence.
+- Panthi boardinghouse room → demolished-building plot: preserve historical room as demolished interior micro-site and plot as successor-level anchor.
+- Historic 1936 Regent Hotel, Bombay → current Regent Hotel at 8 BEST Road: same-name only; NO successor merge without archival address evidence.
+- Current Keshav Ashram, Haridwar ↔ AOAY Keshabananda hermitage: possible successor context only; no same-site chain established.
+
+## Babaji claimant traditions — mandatory separation
+
+Never collapse these into one historical physical entity:
+
+- `DUNAGIRI-1861::UNNAMED-INITIATION-CAVE` — historic AOAY/Lahiri narrative micro-site, exact cave unresolved.
+- `DUNAGIRI-YSS::PANDUKHOLI-CAVE` — current YSS claimant identification; may dedup to permanent `079` as the current Pandukholi site but this does not independently prove identity with the unnamed 1861 cave.
+- `HAIDAKHAN::VISHWA-MAHADHAM` and `HAIDAKHAN::HISTORIC-CAVE` — Haidakhandi claimant tradition at a different physical site.
+- `PARANGIPETTAI::MANDIR` and its claimed birth substrate — Nagaraj/Babaji tradition-specific claimant site in Tamil Nadu.
+- `PRAYAG-1894::YOGI-SATYAM-BANYAN` — current claimant tree; must remain separate from `PRAYAG-1894::TREE-AOAY` until archival/historical identity closes.
+
+A shared name "Babaji" or lineage claim is not a merge key.
+
+## WIT ma
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=557 path=runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/DUPLICATE_PARENT_CANDIDATES.md blob_sha=1d7e0cff0d99613f63cf3097b2c47b8c76068ba6 original_offset=8192 original_length=2778 payload_bytes=2778 chunk_index=2 chunk_count=3 classification=text
+ster-layer non-merges
+
+WIT's completed master heatmap confirms exact overlaps but explicitly forbids city/region aggregation from becoming identity merges:
+
+- Varanasi city records for Ramakrishna/Anandamayi/Babaji are not Lahiri's house.
+- Prayagraj Kumbh event-zone, 4 Church Lane and station material remain distinct.
+- Vrindavan NKB Ashram and Ramakrishna Akrura Ghat remain distinct.
+- Kolkata metro is aggregation only: Dakshineswar, Cossipore, Bhowanipur, Agarpara and Vivekananda ancestral sites remain separate.
+- Serampore station encounter material is not automatically Sri Yukteswar's ashram/Priyadham.
+- Anandamayi Puri organization presence is not evidence of exact presence at Karar Ashram.
+- Ranchi Vidyalaya/current YSS campus is an institutional/same-campus continuity layer, not permission to merge every historic garden/event micro-site.
+- 1894 Kumbh is an `EVENT_ZONE`, not a fixed-site identity claim.
+
+## Ambiguous merges — keep unresolved
+
+- Sri Yukteswar Serampore ashram / Yogoda Math ↔ Yogananda return-to-guru site.
+- Historic Dunagiri initiation landscape ↔ modern Mahavatar Babaji Cave identification.
+- Dashashwamedh claimed underground cave exact point ↔ ghat parent zone.
+- Delhi unnamed estate ↔ any named Delhi NKB site.
+- Bhowanipur disciple-house exact building identity.
+- Surendra Nath Mitra Kankurgachi garden house ↔ Ramchandra Datta Yogodyan: explicitly separate until property evidence proves otherwise.
+- NKB final-day Agra `S.` house ↔ Jagmohan Sharma residence: do not merge.
+- Tulsi Bose historic house ↔ current YSS Garpar centre: adjacent/successor relationship requires identity closure; do not project one address onto all historic rooms.
+- Bodh Gaya Krishnadayal Giri math/residence ↔ permanent `046` Mahabodhi Temple: explicitly do not substitute.
+
+## Numeric proximity is not identity
+
+The current hard-coordinate pass confirms:
+- `OLD31-28` Rana Mahal Ghat ↔ `019` Kedareshwar Temple/Kedar Ghat: 0.895 km.
+- `OLD31-28` Rana Mahal Ghat ↔ `018` Sankatha Devi Temple: 1.285 km.
+
+Both pairs are `DISTINCT_NEARBY_ENTITIES`, not duplicate candidates. No merge or parent-child relation is inferred from distance alone.
+
+Five protected B/C records (`012`, `013`, `026`, `027`, `040`) have old working-pin screening positions within 3 km of Rana Mahal, but those endpoints are not marker-confirmed and therefore remain coordinate dependencies. This screening may justify later review after coordinate closure; it does not authorize a duplicate/merge or an A/B/C change.
+
+ROOD and WIT add no new hard numeric WGS84 pairs in this final pass. Their additions are identity, parent/child, successor and non-merge relations only.
+
+No ambiguous relation in this file authorizes a new permanent ID or an A/B/C change.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=558 path=runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/GEEL_ENTITY_FEED.md blob_sha=969bf29779195f915ed2612a126d9ccc66afea22 original_offset=0 original_length=1103 payload_bytes=1103 chunk_index=0 chunk_count=1 classification=text
+# GEEL ENTITY FEED — from INDIA8
+
+Source branch: `agent/indiageel-ramana-ramakrishna-sweep`
+Task: `INDIAGEEL-FOURPERSON-LOCATION-CLOSURE-001`
+State: COMPLETE
+
+Consume immediately in staged proximity/new-ID work.
+
+Commits:
+- source `9cbf630f55858afabf53839dd6d3c9269baee695`
+- entities `30486eaf3478057246727a56fd5fb8a5b22a1189`
+- R4/R5 `314094dc49a539fc71fc4117e2d27cd51a54c554`
+- access `da7184ab727b3100a5c43dbd068e32fb45c696a7`
+- status `9c0b1a0d7ec5b8990287cb79c53f17db52f93f09`
+
+Rules:
+- preserve micro-sites separately: Hotel Evelyn hotel/cave-room/patio; Kainchi/Bhumiadhar rooms/river/bridge/field; NKB final-journey sub-sites; Ramana caves/Ramanasramam microsites; Ramakrishna Fouzdar Kunj building/room/veranda, Ganga Mata hut/dharamshala, Mani Sen house/Radhakanta temple, Cossipore house/room/cremation ghat.
+- apply TURQUOISE parent-child/successor map; do not collapse children to parent.
+- for R1-R3 with reliable coordinates: calculate <=1km/<=3km and stage NEW_ID_REQUIRED where appropriate.
+- for R4/R5: retain dependency; no guessed coordinate.
+- no existing ID/A/B/C/lock changes.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=559 path=runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/NEW_ID_REQUIRED_QUEUE.csv blob_sha=8e0079403dfd278e867c6413eb6efa0934801d4c original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=7 classification=text
+candidate_status,entity_key,name,region,resolution,id_action,parent_or_relation,coordinate_status,notes
+SEED,OLD31-01,Matri Mandir / Anandamayi Ma Mahasamadhi,Kankhal,EXACT,NEW_ID_REQUIRED_PENDING_DEDUP,,UNKNOWN,"Preserved from earlier 31-candidate queue"
+SEED,OLD31-02,Anandamayi Ma Ashram,Vrindavan,PHYSICAL_CONFIRMED,NEW_ID_REQUIRED_PENDING_DEDUP,,UNKNOWN,"Proximity backfill required"
+SEED,OLD31-03,Kishenpur Anandamayi Ashram,Dehradun,PHYSICAL_CONFIRMED,NEW_ID_REQUIRED_PENDING_DEDUP,,UNKNOWN,"Exact sublocation still needs trusted pin"
+SEED,OLD31-04,NKB birthplace temple,Akbarpur,EXACT,NEW_ID_REQUIRED_PENDING_DEDUP,SUCCESSOR_TO_HISTORIC_BIRTH_SITE,UNKNOWN,"TURQUOISE: later 2001 temple is not same lifetime building"
+SEED,OLD31-05,Annapoorna Mandir / NKB Delhi Ashram,Delhi,PHYSICAL_CONFIRMED,NEW_ID_REQUIRED_PENDING_DEDUP,,UNKNOWN,"Do not merge with unnamed Delhi estate"
+SEED,OLD31-06,North Delhi Hanuman Temple,Delhi,PHYSICAL_CONFIRMED,NEW_ID_REQUIRED_PENDING_DEDUP,,UNKNOWN,"Distinct Delhi site"
+SEED,OLD31-07,Panki Hanuman Temple,Kanpur,PHYSICAL_CONFIRMED,NEW_ID_REQUIRED_PENDING_DEDUP,,REFERENCE_WGS84_26.468878_80.237874_NOT_HARD_GATE,"BhaktiBharat explicit site coordinate; retained as reference pending stronger source"
+SEED,OLD31-08,Yogananda birthplace/memorial,Gorakhpur,PHYSICAL_CONFIRMED,NEW_ID_REQUIRED_PENDING_DEDUP,,UNKNOWN,"Memorial/subsite check remains"
+SEED,OLD31-09,Dihika Ashram,Dihika WB,HISTORIC_SITE,DEPENDENCY_ENTITY_CLOSURE,,UNKNOWN,"Current building identity unresolved"
+SEED,OLD31-10,YSS Math / Ranchi campus,Ranchi,EXACT,NEW_ID_REQUIRED_PENDING_DEDUP,SAME_CAMPUS_SUCCESSOR_RELATION,REFERENCE_WGS84_23.354492_85.335216_NOT_HARD_GATE,"Official YSS identity/address confirmed; third-party geo reference retained but not used for hard proximity gate; garden remains child unresolved"
+SEED,OLD31-11,Maganvadi Ashram,Wardha,PHYSICAL_CONFIRMED,NEW_ID_REQUIRED_PENDING_DEDUP,,UNKNOWN,"Trusted marker still needed"
+SEED,OLD31-12,Yogoda Math / Sri Yukteswar Ashram,Serampore,EXACT,NEW_ID_REQUIRED_PENDING_DEDUP,AMBIGUOUS_HISTORIC_CONTINUITY,UNKNOWN,"TURQUOISE high-priority ambiguity; no forced merge"
+SEED,OLD31-13,Sri Ramanasramam,Tiruvannamalai,R1,NEW_ID_REQUIRED_PENDING_DEDUP,SAME_SITE_CROSS_PERSON,TRUSTED_WGS84_12.223611_79.056667_WIKIDATA,"Ramana + Yogananda; one parent entity only"
+SEED,OLD31-14,Karar Ashram,Puri,R1,NEW_ID_REQUIRED_PENDING_DEDUP,SAME_SITE_WITH_MICROSITES,UNKNOWN,"Sri Yukteswar + Hariharananda; room children separate"
+SEED,OLD31-15,Hariharananda Gurukulam / Shri Guru Mandir,Balighai,PHYSICAL_CONFIRMED,NEW_ID_REQUIRED_PENDING_DEDUP,,UNKNOWN,"Exact marker required before proximity"
+SEED,OLD31-16,Vivekananda ancestral house,Kolkata,EXACT,NEW_ID_REQUIRED_PENDING_DEDUP,,UNKNOWN,"105 Vivekananda Road"
+SEED,OLD31-17,Belur Math,Howrah,EXACT,NEW_ID_REQUIRED_PENDING_DEDUP,,TRUSTED_WGS84_22.632397_88.356517_WIKIDATA,"Major lineage site"
+SEED,OLD31-18,Khetri House,Khetri,PHYSICAL_CONFIRMED,DEPENDENCY_ENTITY_CLOSURE,,UNKNOWN,"Exact subsite check"
+SEED,OLD31-19,Vivekananda Rock Memorial / Shripada Parai,Kanyakumari,EXACT,NEW_ID_REQUIRED_PENDING_DEDUP,,TRUSTED_WGS84_8.078104_77.555366_WIKIDATA,"Exact memorial entity; no definitive ID issued"
+SEED,OLD31-20,Kamarpukur Ramakrishna birthplace/temple complex,Kamarpukur,R1,NEW_ID_REQUIRED_PENDING_DEDUP,PARENT_COMPLEX,UNKNOWN,"GEEL adds room/tree/school microsites; do not collapse"
+SEED,OLD31-21,Dakshineswar Kali Temple complex,Kolkata metro,R1,NEW_ID_REQUIRED_PENDING_DEDUP,SAME_PHYSICAL_COMPLEX,UNKNOWN,"Ramakrishna + Vivekananda; GEEL child sites separate"
+SEED,OLD31-22,Cossipore Garden House,Kolkata,R1,NEW_ID_REQUIRED_PENDING_DEDUP,PARENT_OF_FINAL_ROOM,UNKNOWN,"Cremation ghat is distinct physical child/terminal site"
+SEED,OLD31-23,Akrura Ghat,Vrindavan,PHYSICAL_CONFIRMED,NEW_ID_REQUIRED_PENDING_DEDUP,DISTINCT_FROM_NKB_ASHRAM,UNKNOWN,"No city-level merge"
+SEED,OLD31-24,Ramana birthplace / Sri Sundara Mandiram,Tiruchuzhi,R1,NEW_ID_REQUIRED_PENDING_DEDUP,,UNKNOWN,"GEEL resolves current memorial identity"
+SEED,OLD31-25,Arunachaleswarar Temple parent complex,Tiruvannamalai,R1,NEW_I
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=560 path=runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/NEW_ID_REQUIRED_QUEUE.csv blob_sha=8e0079403dfd278e867c6413eb6efa0934801d4c original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=7 classification=text
+D_REQUIRED_PENDING_DEDUP,PARENT_COMPLEX,UNKNOWN,"Inner sanctum/1000-pillared hall/Patala Lingam remain children"
+SEED,OLD31-26,Virupaksha Cave,Arunachala,R1,NEW_ID_REQUIRED_PENDING_DEDUP,DISTINCT_SITE_IN_CLUSTER,UNKNOWN,"Do not collapse with Mango Tree Cave"
+SEED,OLD31-27,Skandashram,Arunachala,R1,NEW_ID_REQUIRED_PENDING_DEDUP,DISTINCT_SITE_IN_CLUSTER,UNKNOWN,""
+SEED,OLD31-28,Rana Mahal Ghat,Varanasi,PHYSICAL_CONFIRMED,NEW_ID_REQUIRED_PENDING_DEDUP,,TRUSTED_WGS84_25.304700_83.009750_HERITAGE_DOSSIER,"Varanasi Heritage Dossier gives 25°18.282'N 83°00.585'E; converted to decimal; numeric proximity computed only against marker-confirmed canon endpoints"
+SEED,OLD31-29,4 Garpar Road,Kolkata,EXACT,NEW_ID_REQUIRED_PENDING_DEDUP,SAME_SITE_MULTI_PERSON,UNKNOWN,""
+SEED,OLD31-30,Tulsi Bose House / Sadhana Mandir,Kolkata,IDENTITY_PENDING,DEPENDENCY_ENTITY_CLOSURE,,UNKNOWN,""
+SEED,OLD31-31,Calcutta Medical College,Kolkata,INSTITUTION_EXACT,DEPENDENCY_EVENT_EVIDENCE,,UNKNOWN,"Person event requires confirmation"
+GEEL_ADD,LC-NKB-NEEB-TEMPLE,Hanuman temple above Neeb Karori cave,Neeb Karori,R1,NEW_ID_REQUIRED_PENDING_DEDUP,PARENT_COMPLEX_CHILD,UNKNOWN,"Separate from historic collapsed cave"
+GEEL_ADD,LC-NKB-NEEB-CAVE,historic underground meditation cave,Neeb Karori,R2,NEW_ID_REQUIRED_PENDING_DEDUP,SUCCESSOR_RELATION,UNKNOWN,"Current cave is continuity/successor site; no silent same-building merge"
+GEEL_ADD,LC-NKB-NEEB-STATION,Lachman Das Puri / Neeb Karori railway station platform,Neeb Karori,R2,NEW_ID_REQUIRED_PENDING_DEDUP,,UNKNOWN,"Historic station identity strong; naming chronology unresolved"
+GEEL_ADD,LC-NKB-HANUMANGARH-TEMPLE,Hanuman Garhi/Hanumangarh temple,Nainital,R1,NEW_ID_REQUIRED_PENDING_DEDUP,ALIAS_SAME_SITE,UNKNOWN,"TURQUOISE alias with Ram Dass Hanuman Garh"
+GEEL_ADD,LC-NKB-HANUMANGARH-HUT,Baba hut/kuti at Hanumangarh,Nainital,R3,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_HANUMANGARH,UNKNOWN,"Do not collapse to parent temple"
+GEEL_ADD,LC-NKB-BHUMIADHAR-TEMPLE,Bhumiadhar roadside Hanuman temple/ashram,Bhumiadhar,R1,SAME_SITE_OR_EXISTING_PARENT_REVIEW,PARENT_COMPLEX,UNKNOWN,"Existing Kumaon layer may already cover parent; dedup before any ID"
+GEEL_ADD,LC-NKB-BHUMIADHAR-ROOM,Baba room/kuti,Bhumiadhar,R3,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_BHUMIADHAR,UNKNOWN,""
+GEEL_ADD,LC-RD-BHUMIADHAR-MEET,first-meeting terrace/field zone,Bhumiadhar,R3,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_BHUMIADHAR,UNKNOWN,"Exact point not closed"
+GEEL_ADD,LC-NKB-KAINCHI-ROCK,original rock/platform site,Kainchi,R2,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_EXISTING_KAINCHI,UNKNOWN,"Parent already existing; child not duplicate"
+GEEL_ADD,LC-NKB-KAINCHI-ROOM,Maharajji residential kuti/room,Kainchi,R1,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_EXISTING_KAINCHI,UNKNOWN,""
+GEEL_ADD,LC-NKB-KAINCHI-HANUMAN,Hanuman temple/courtyard,Kainchi,R1,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_EXISTING_KAINCHI,UNKNOWN,""
+GEEL_ADD,LC-NKB-KAINCHI-BRIDGE,historic wooden bridge / replacement alignment,Kainchi,R3,NEW_ID_REQUIRED_PENDING_DEDUP,SUCCESSOR_CHILD_OF_KAINCHI,UNKNOWN,"Original removed; replacement not identical fabric"
+GEEL_ADD,LC-RD-KAINCHI-ROOM67,Ram Dass 1967 room,Kainchi,R3,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_EXISTING_KAINCHI,UNKNOWN,""
+GEEL_ADD,LC-RD-KAINCHI-RIVER,river bathing place,Kainchi,R3,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_EXISTING_KAINCHI,UNKNOWN,"Exact bank point unresolved"
+GEEL_DEP,LC-RD-KAINCHI-FIRE,nine-day fire-ceremony zone,Kainchi,R4,DEPENDENCY_ENTITY_CLOSURE,CHILD_OF_EXISTING_KAINCHI,UNKNOWN,"No coordinate guess"
+GEEL_DEP,LC-RD-KAINCHI-COLDHUT,cold hut/small village behind Kainchi,Kainchi hills,R5,DEPENDENCY_ENTITY_CLOSURE,,UNKNOWN,"Finding preserved"
+GEEL_ADD,LC-RD-EVELYN-HOTEL,Hotel Evelyn,Nainital,R1,NEW_ID_REQUIRED_PENDING_DEDUP,PARENT_OF_ROOM_PATIO,UNKNOWN,"Current same named hotel site confirmed by GEEL"
+GEEL_DEP,LC-RD-EVELYN-CAVE,upper/top-floor cave room,Hotel Evelyn,R4,DEPENDENCY_ENTITY_CLOSURE,CHILD_OF_LC-RD-EVELYN-HOTEL,UNKNOWN,""
+GEEL_ADD,LC-RD-EVELYN-PATIO,balcony/front patio,Hotel Evelyn,R3,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_LC-RD-EVE
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=561 path=runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/NEW_ID_REQUIRED_QUEUE.csv blob_sha=8e0079403dfd278e867c6413eb6efa0934801d4c original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=7 classification=text
+LYN-HOTEL,UNKNOWN,"Historic exact patio not proven"
+GEEL_ADD,LC-NKB-RAMSAY-HOSP,Ramsay Hospital clinic,Nainital,R2,NEW_ID_REQUIRED_PENDING_DEDUP,,UNKNOWN,"Exact ECG room not needed for parent identity"
+GEEL_ADD,LC-NKB-4CL-PARENT,4 Church Lane / Red House,Prayagraj,R1,NEW_ID_REQUIRED_PENDING_DEDUP,SAME_SITE_CROSS_PERSON_PARENT,UNKNOWN,"NKB + Ram Dass; child rooms remain separate"
+GEEL_ADD,LC-NKB-4CL-ROOM,Maharajji small room,Prayagraj,R2,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_4_CHURCH_LANE,UNKNOWN,""
+GEEL_ADD,LC-NKB-4CL-HALL,hall,Prayagraj,R3,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_4_CHURCH_LANE,UNKNOWN,""
+GEEL_ADD,LC-NKB-4CL-VERANDA,outside veranda,Prayagraj,R3,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_4_CHURCH_LANE,UNKNOWN,""
+GEEL_ADD,LC-NKB-4CL-KITCHEN,kitchen/meal room,Prayagraj,R3,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_4_CHURCH_LANE,UNKNOWN,""
+GEEL_DEP,LC-NKB-4CL-FRONT,bathrooms/front area,Prayagraj,R4,DEPENDENCY_ENTITY_CLOSURE,CHILD_OF_4_CHURCH_LANE,UNKNOWN,""
+GEEL_ADD,LC-NKB-RKMHOSP,Ramakrishna Mission Hospital,Vrindavan,R1,NEW_ID_REQUIRED_PENDING_DEDUP,DISTINCT_FROM_NKB_ASHRAM,UNKNOWN,"Final-journey hospital"
+GEEL_EXISTING,LC-NKB-VR-ASHRAM,NKB Vrindavan Ashram,Vrindavan,R1,NO_NEW_PARENT_ID__ENRICH_EXISTING,EXISTING_LOCKED_PARENT,UNKNOWN,"TURQUOISE confirms NKB + Ram Dass same complex"
+GEEL_ADD,LC-RD-VR-OFFICE,Maharajji office,NKB Vrindavan Ashram,R2,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_EXISTING_NKB_VRINDAVAN,UNKNOWN,""
+GEEL_ADD,LC-RD-VR-COURT,temple courtyard,NKB Vrindavan Ashram,R2,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_EXISTING_NKB_VRINDAVAN,UNKNOWN,""
+GEEL_DEP,LC-RD-VR-HANUMAN,Hanuman murti sanctum,NKB Vrindavan Ashram,R4,DEPENDENCY_ENTITY_CLOSURE,CHILD_OF_EXISTING_NKB_VRINDAVAN,UNKNOWN,"Blocked-source detail retained"
+GEEL_ADD,LC-RD-JAIPURIA,Seth Anandram Jaipuria Bhawan,Vrindavan,R1,NEW_ID_REQUIRED_PENDING_DEDUP,,UNKNOWN,"Current establishment confirmed by GEEL"
+GEEL_ADD,LC-RD-BANKEBIHARI,Banke Bihari Temple,Vrindavan,R1,NEW_ID_REQUIRED_PENDING_DEDUP,SAME_SITE_WITH_LC-RK-BANKEBIHARI,UNKNOWN,"One entity; Ram Dass + Ramakrishna links"
+GEEL_ADD,LC-RD-VARANASI-MANIKARNIKA,Manikarnika/burning-ghat zone,Varanasi,R2,NEW_ID_REQUIRED_PENDING_DEDUP,,UNKNOWN,"Exact sitting point not required for ghat entity"
+GEEL_DEP,LC-RD-VARANASI-HOTEL,small/cheap hotel near Manikarnika,Varanasi,R5,DEPENDENCY_ENTITY_CLOSURE,,UNKNOWN,"No defensible name/address"
+GEEL_ADD,LC-RM-ARUN-SANCTUM,Arunachaleswarar inner sanctum,Tiruvannamalai,R1,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_OLD31-25,UNKNOWN,""
+GEEL_ADD,LC-RM-ARUN-1000,Thousand-Pillared Hall,Tiruvannamalai,R1,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_OLD31-25,UNKNOWN,""
+GEEL_ADD,LC-RM-ARUN-PATALA,Patala Lingam underground shrine,Tiruvannamalai,R1,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_OLD31-25,UNKNOWN,""
+GEEL_ADD,LC-RM-MANGOTREE,Mango Tree Cave,Arunachala,R2,NEW_ID_REQUIRED_PENDING_DEDUP,DISTINCT_FROM_VIRUPAKSHA,UNKNOWN,"TURQUOISE explicitly forbids collapse"
+GEEL_ADD,LC-RM-SATGURU,Satguru Swami Cave / Alamarathu Guhai,Arunachala,R2,NEW_ID_REQUIRED_PENDING_DEDUP,DISTINCT_SITE_IN_CLUSTER,UNKNOWN,""
+GEEL_ADD,LC-RM-GUHAINAMA,Guhai Namasivaya Cave/Temple,Arunachala,R2,NEW_ID_REQUIRED_PENDING_DEDUP,DISTINCT_SITE_IN_CLUSTER,UNKNOWN,""
+GEEL_ADD,LC-RM-TORTOISE,Tortoise Rock/Tortoise Cave,Arunachala,R2,NEW_ID_REQUIRED_PENDING_DEDUP,DISTINCT_SITE_IN_CLUSTER,UNKNOWN,""
+GEEL_ADD,LC-RM-SEVENSPRINGS,Seven Springs / Ezhu Sunai,Arunachala,R2,NEW_ID_REQUIRED_PENDING_DEDUP,DISTINCT_SITE_IN_CLUSTER,UNKNOWN,""
+GEEL_ADD,LC-RM-RAMANASRAMAM,Sri Ramanasramam parent,Tiruvannamalai,R1,SAME_AS_OLD31-13__NO_DUPLICATE_ID,SAME_SITE_CROSS_PERSON,TRUSTED_WGS84_12.223611_79.056667_WIKIDATA,"Same parent as OLD31-13; no duplicate ID"
+GEEL_ADD,LC-RM-MOTHER,Mother tomb/shrine,Sri Ramanasramam,R1,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_RAMANASRAMAM,UNKNOWN,""
+GEEL_ADD,LC-RM-OLDHALL,Old Hall,Sri Ramanasramam,R1,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_RAMANASRAMAM,UNKNOWN,""
+GEEL_ADD,LC-RM-KITCHEN,historic ashram kitchen,Sri Ramanasramam,R2,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_RAMANASRAMAM,UNKNOWN,""
+GEEL_ADD,LC-RM-MATHRU,Mathru
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=562 path=runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/NEW_ID_REQUIRED_QUEUE.csv blob_sha=8e0079403dfd278e867c6413eb6efa0934801d4c original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=7 classification=text
+bhuteswara inner shrine,Sri Ramanasramam,R1,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_RAMANASRAMAM,UNKNOWN,""
+GEEL_ADD,LC-RM-NEWHALL,New Hall,Sri Ramanasramam,R1,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_RAMANASRAMAM,UNKNOWN,""
+GEEL_ADD,LC-RM-NIRVANA,Nirvana Room,Sri Ramanasramam,R1,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_RAMANASRAMAM,UNKNOWN,""
+GEEL_ADD,LC-RK-DAK-PARENT,Dakshineswar temple-garden complex,Kolkata metro,R1,SAME_AS_OLD31-21__NO_DUPLICATE_ID,PARENT_COMPLEX,UNKNOWN,""
+GEEL_ADD,LC-RK-DAK-ROOM,Sri Ramakrishna room,Dakshineswar,R1,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_DAKSHINESWAR,UNKNOWN,""
+GEEL_ADD,LC-RK-DAK-PANCHAVATI,Panchavati grove,Dakshineswar,R1,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_DAKSHINESWAR,UNKNOWN,""
+GEEL_ADD,LC-RK-DAK-BEL,Bilva/Bel tree sadhana site,Dakshineswar,R1,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_DAKSHINESWAR,UNKNOWN,""
+GEEL_ADD,LC-RK-FOUZDAR,Fouzdar Kunj building,Vrindavan,R1,NEW_ID_REQUIRED_PENDING_DEDUP,PARENT_OF_ROOM_VERANDA,UNKNOWN,""
+GEEL_ADD,LC-RK-FOUZDAR-ROOM,upper room used by Ramakrishna,Vrindavan,R2,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_FOUZDAR,UNKNOWN,""
+GEEL_ADD,LC-RK-FOUZDAR-VERANDA,semicircular veranda,Vrindavan,R2,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_FOUZDAR,UNKNOWN,""
+GEEL_ADD,LC-RK-NIDHIVAN,Nidhivan grove,Vrindavan,R1,NEW_ID_REQUIRED_PENDING_DEDUP,DISTINCT_FROM_GANGA_MATA_HUT,UNKNOWN,""
+GEEL_ADD,LC-RK-GANGAMATA-HUT,historic Ganga Mata kutiya footprint,Vrindavan,R2,NEW_ID_REQUIRED_PENDING_DEDUP,HISTORIC_PARENT_OF_SUCCESSOR,UNKNOWN,""
+GEEL_SUCCESSOR,LC-RK-GANGAMATA-SUCCESSOR,Kanpurwali Dharam Shala / Batala Ashrama successor,Vrindavan,R2,NEW_ID_REQUIRED_PENDING_DEDUP,SUCCESSOR_NOT_LIFETIME_BUILDING,UNKNOWN,""
+GEEL_ADD,LC-RK-BALARAM,Balaram Bose house / Balaram Mandir,Kolkata,R1,NEW_ID_REQUIRED_PENDING_DEDUP,PARENT_OF_SHRINE_ROOM,UNKNOWN,""
+GEEL_ADD,LC-RK-SHYAMPUKUR,Shyampukur Bati,Kolkata,R1,NEW_ID_REQUIRED_PENDING_DEDUP,PARENT_OF_FIRST_FLOOR_ROOM,UNKNOWN,""
+GEEL_ADD,LC-RK-SHYAMPUKUR-ROOM,Master first-floor room,Kolkata,R2,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_SHYAMPUKUR,UNKNOWN,""
+GEEL_ADD,LC-RK-COSSIPORE-HOUSE,Cossipore Garden House,Kolkata,R1,SAME_AS_OLD31-22__NO_DUPLICATE_ID,PARENT_OF_FINAL_ROOM,UNKNOWN,""
+GEEL_ADD,LC-RK-COSSIPORE-ROOM,Master upstairs final room,Kolkata,R1,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_COSSIPORE,UNKNOWN,""
+GEEL_ADD,LC-RK-COSSIPORE-GHAT,Cossipore cremation ghat,Kolkata,R3,NEW_ID_REQUIRED_PENDING_DEDUP,DISTINCT_FROM_COSSIPORE_HOUSE,UNKNOWN,""
+GEEL_FEED_REMAINDER,GEEL-R4-R5-REMAINDER,All remaining GEEL R4/R5 entities,multiple,R4_R5,DEPENDENCY_ENTITY_CLOSURE,LOSSLESS_SOURCE_FEED,UNKNOWN,"Retained by reference to GEEL source commit 30486eaf3478057246727a56fd5fb8a5b22a1189; no R4/R5 finding is dropped or assigned guessed coordinates"
+ROOD_BATCH,ROOD-PRIMARY-ANCHORS-146,Core Kriya primary physical anchors,multiple,MIXED_R1_R5,DEDUP_STAGE_FROM_SOURCE_RECORDS,LOSSLESS_146_PRIMARY_KEYS,UNKNOWN,"All 146 primary anchors retained by exact temporary key in CORE_KRIYA_ENTITY_CANDIDATES.jsonl source commit 96d1a58; no definitive IDs; source R4/R5 remain dependencies"
+ROOD_ADD,DUNAGIRI-1861::CAVEFIELD,Drongiri/Dunagiri historic cave-field/open grove,Dunagiri,R3,NEW_ID_REQUIRED_PENDING_DEDUP,HISTORIC_LANDSCAPE_DISTINCT_FROM_CURRENT_CLAIMANT_CAVES,UNKNOWN,"Do not merge with Pandukholi/YSS cave or Haidakhan claimant tradition"
+ROOD_DEP,DUNAGIRI-1861::UNNAMED-INITIATION-CAVE,Unnamed 1861 initiation cave,Dunagiri,R5,DEPENDENCY_ENTITY_CLOSURE,HISTORIC_MICROSITE,UNKNOWN,"Exact cave unrecovered; do not equate automatically with current YSS cave"
+ROOD_EXISTING,DUNAGIRI-YSS::PANDUKHOLI-CAVE,Mahavatar Babaji's Cave Pandukholi beyond Kukuchina,Dunagiri,R1,SAME_CURRENT_CLAIMANT_SITE_REVIEW_079,YSS_CLAIMANT_SITE_NOT_HISTORIC_EQUIVALENCE,UNKNOWN,"Dedup against permanent 079 as current site; historical 1861 cave identity remains tradition claim"
+ROOD_ADD,DUNAGIRI-GAGAS::RIVER-SYSTEM,Gagas/Gogash river system below Dunagiri,Dunagiri,R3,NEW_ID_REQUIRED_PENDING_DEDUP,HISTORIC_LANDSCAPE,UNKNOWN,"Historic bank metres unresolved"
+ROOD_DEP,DUNAGIRI-GOLDEN-PALACE::EPHEMERAL,Claimed 186
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=563 path=runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/NEW_ID_REQUIRED_QUEUE.csv blob_sha=8e0079403dfd278e867c6413eb6efa0934801d4c original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=7 classification=text
+1 golden-palace terrain,Dunagiri,R5,DEPENDENCY_ENTITY_CLOSURE,EPHEMERAL_MYTHIC_SITE,UNKNOWN,"No physical terrain marker"
+ROOD_ADD,PRAYAG-1894::HISTORIC-MELA-ZONE,1894 Kumbha mela Ganges/Jhusi-side zone,Prayagraj,R3,NEW_ID_REQUIRED_PENDING_DEDUP,HISTORIC_EVENT_LANDSCAPE,UNKNOWN,"Not same as 4 Church Lane or station"
+ROOD_DEP,PRAYAG-1894::BRIDGE,Unknown bridge before 1894 Babaji encounter,Prayagraj,R5,DEPENDENCY_ENTITY_CLOSURE,HISTORIC_MICROSITE,UNKNOWN,"Bridge identity unresolved"
+ROOD_DEP,PRAYAG-1894::TREE-AOAY,Historic tree in 1894 Babaji encounter,Prayagraj,R5,DEPENDENCY_ENTITY_CLOSURE,HISTORIC_TREE,UNKNOWN,"Do not merge with present claimant banyan"
+ROOD_ADD,PRAYAG-1894::YOGI-SATYAM-BANYAN,Blessed Mahavatar Babaji Banyan Tree at Kriyayoga Ashram Jhusi,Prayagraj,R1,NEW_ID_REQUIRED_PENDING_DEDUP,CURRENT_CLAIMANT_TREE,UNKNOWN,"Claimant identification only; not archival closure of 1894 tree"
+ROOD_EXISTING,DASHASHWAMEDH::GHAT,Dashashwamedh Ghat,Varanasi,R1,NO_NEW_PARENT_ID__ENRICH_EXISTING,SAME_AS_009,WORKING_PIN_IN_CANON,"Existing permanent 009; hidden cave stays separate"
+ROOD_DEP,DASHASHWAMEDH::MATAJI-CAVE,Hidden underground Mataji cave at/near Dashashwamedh,Varanasi,R5,DEPENDENCY_ENTITY_CLOSURE,CHILD_OR_NEARBY_HIDDEN_MICROSITE,UNKNOWN,"No modern cave substitute"
+ROOD_ADD,RAI-GHAT::BANYAN,Large banyan at Rai Ghat Lane,Serampore,R1,NEW_ID_REQUIRED_PENDING_DEDUP,CURRENT_CLAIMANT_TREE,UNKNOWN,"YSS witness-site identification; tree-age continuity not independently proven"
+ROOD_EXISTING,LAHIRI-HOUSE::BUILDING,Lahiri Mahasaya original home D31/58,Varanasi,R1,NO_NEW_PARENT_ID__ENRICH_EXISTING,SAME_AS_002,WORKING_PIN_IN_CANON,"Keep distinct from Satyalok/samadhi"
+ROOD_ADD,LAHIRI-HOUSE::FRONT-PARLOR,Small front parlor first floor Lahiri house,Varanasi,R3,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_002,UNKNOWN,"Interior continuity not independently closed"
+ROOD_ADD,LAHIRI-HOUSE::THRESHOLD,Threshold of Lahiri room linked to Babaji/Sri Yukteswar event,Varanasi,R3,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_002,UNKNOWN,"Specific door/threshold current identity unresolved"
+ROOD_EXISTING,GARPAR-4::HOUSE,4 Garpar Road family house,Kolkata,R1,SAME_AS_OLD31-29__NO_DUPLICATE_ID,SAME_SITE_MULTI_PERSON,UNKNOWN,"YSS identifies same family home"
+ROOD_ADD,GARPAR-4::BABAJI-ROOM,Room/vestibule at 4 Garpar Road,Kolkata,R3,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_OLD31-29,UNKNOWN,"Do not collapse into parent house"
+ROOD_ADD,GARPAR-4::ROOF-1930,Roof of 4 Garpar Road,Kolkata,R1,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_OLD31-29,UNKNOWN,"Photo-event roof; same house"
+ROOD_EXISTING,KARAR::COMPLEX,Karar Ashram / Yogada Ashram,Puri,R1,SAME_AS_OLD31-14__NO_DUPLICATE_ID,PARENT_COMPLEX,UNKNOWN,"Sri Yukteswar/Hariharananda site"
+ROOD_ADD,KARAR::SAMADHI,Sri Yukteswar samadhi within Karar Ashram,Puri,R1,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_OLD31-14,UNKNOWN,"Memorial subsite remains visible"
+ROOD_ADD,KARAR::HARIHARANANDA-ROOMS,Closed meditation room and Kali-puja room in Karar Ashram,Puri,R3,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_OLD31-14,UNKNOWN,"Two room-level claims retained; no collapse"
+ROOD_ADD,PARANGIPETTAI::MANDIR,Babaji Nagaraj Mandir,Parangipettai,R1,NEW_ID_REQUIRED_PENDING_DEDUP,CURRENT_COMMEMORATIVE_CLAIMANT_SHRINE,UNKNOWN,"Keep tradition-specific; do not merge with Dunagiri/Haidakhan"
+ROOD_ADD,PARANGIPETTAI::CLAIMED-BIRTH-SUBSTRATE,Parcel claimed as Nagaraj birthplace,Parangipettai,R3,NEW_ID_REQUIRED_PENDING_DEDUP,CLAIMANT_HISTORIC_SUBSTRATE,UNKNOWN,"Later shrine fixes claimant parcel; historical birth claim not independently proved"
+ROOD_ADD,SATOPANTH::LAKE-ZONE,Satopanth Tal and approach,Satopanth/Mana,R3,NEW_ID_REQUIRED_PENDING_DEDUP,HIGH_ALTITUDE_LANDSCAPE,UNKNOWN,"Does not identify claimed cave"
+ROOD_DEP,SATOPANTH::UNNAMED-CAVE,Claimed cave beside Satopanth Tal,Satopanth/Mana,R5,DEPENDENCY_ENTITY_CLOSURE,HISTORIC_MICROSITE,UNKNOWN,"No unique present cave recovered"
+ROOD_ADD,KESHAV-PRAYAG::CONFLUENCE,Keshav Prayag Alaknanda-Saraswati confluence,Mana,R3,NEW_ID_REQUIRED_PENDING_DEDUP,LANDSCAPE_ANCHOR,UNKNOWN,"Hidden Gauri Shankara Pitha remains separate"
+ROO
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=564 path=runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/NEW_ID_REQUIRED_QUEUE.csv blob_sha=8e0079403dfd278e867c6413eb6efa0934801d4c original_offset=20480 original_length=4096 payload_bytes=4096 chunk_index=5 chunk_count=7 classification=text
+D_DEP,GAURI-SHANKARA-PITHA::HIDDEN,Gauri Shankara Pitha hidden enclave,Mana,R5,DEPENDENCY_ENTITY_CLOSURE,HIDDEN_CLAIMANT_SITE,UNKNOWN,"No public parcel boundary"
+ROOD_EXISTING,DUNAGIRI-HARAPRIYA::TEMPLE,Dunagiri/Harapriya Devi Temple,Dwarahat/Dunagiri,R1,SAME_SITE_OR_EXISTING_PARENT_REVIEW,EXISTING_KUMAON_CONTEXT,UNKNOWN,"Near-initiation claim does not mean inside temple; distinct from 079 cave"
+ROOD_EXISTING,HAIDAKHAN::VISHWA-MAHADHAM,Haidakhan Vishwa Mahadham,Haidakhan,R1,SAME_SITE_OR_EXISTING_PARENT_REVIEW,HAIDAKHAN_CLAIMANT_TRADITION,UNKNOWN,"Mahavatar identity disputed; never merge with Dunagiri/YSS or Parangipettai traditions"
+ROOD_ADD,HAIDAKHAN::HISTORIC-CAVE,Haidakhan holy cave at foot of Mount Adi Kailash,Haidakhan,R1,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OR_DISTINCT_SITE_OF_HAIDAKHAN_COMPLEX,UNKNOWN,"Distinct physical cave; claimant tradition remains separate"
+ROOD_ADD,HAIDAKHAN::DHUNI,Maha Shakti Dhuni,Haidakhan,R1,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_HAIDAKHAN_COMPLEX,UNKNOWN,"Distinct ritual subsite"
+ROOD_ADD,GHURNI::LOST-ESTATE,Ghurni/Jalangi historic Lahiri estate zone,Ghurni/Nadia,R3,NEW_ID_REQUIRED_PENDING_DEDUP,HISTORIC_LANDSCAPE,UNKNOWN,"River-course change prevents parcel closure"
+ROOD_ADD,GHURNI::Jaleshwar-SUCCESSOR,Jaleshwar/Ghurni Shiva successor shrine,Ghurni/Nadia,R3,NEW_ID_REQUIRED_PENDING_DEDUP,SUCCESSOR_NOT_SAME_BUILDING,UNKNOWN,"Claimed lingam continuity; no same-site proof"
+ROOD_EXISTING,VARANASI-PANCHGANGA::GHAT,Panchganga Ghat,Varanasi,R1,NO_NEW_PARENT_ID__ENRICH_EXISTING,SAME_AS_011,WORKING_PIN_IN_CANON,"Existing permanent 011"
+ROOD_EXISTING,VARANASI-PANCHGANGA::TAILANG-MATH,Tailang Swami Math at Panchganga Ghat,Varanasi,R1,NO_NEW_PARENT_ID__ENRICH_EXISTING,SAME_AS_004,WORKING_PIN_IN_CANON,"Existing permanent 004"
+ROOD_EXISTING,RANA-MAHAL::GHAT,Rana Mahal Ghat,Varanasi,R1,SAME_AS_OLD31-28__NO_DUPLICATE_ID,SAME_PHYSICAL_SITE,TRUSTED_WGS84_IN_QUEUE,"ROOD confirms same named ghat; no new parent ID"
+ROOD_DEP,RANA-MAHAL::KRISHNARAM-HOUSE,Krishnaram private house/courtyard Rana Mahal,Varanasi,R4,DEPENDENCY_ENTITY_CLOSURE,HISTORIC_PRIVATE_MICROSITE,UNKNOWN,"Host/district known; no address"
+ROOD_EXISTING,RAMNAGAR::FORT-PALACE,Ramnagar Fort/Palace of Kashi Naresh,Varanasi,R1,NO_NEW_PARENT_ID__ENRICH_EXISTING,SAME_AS_044,UNKNOWN,"044 remains permanent provisional; no A/B/C change"
+ROOD_ADD,RAMNAGAR::TUTORING-ROOM,Unknown tutoring/lodging room inside Ramnagar palace,Varanasi,R3,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_044,UNKNOWN,"Room/vleugel unresolved"
+ROOD_ADD,HARIDWAR-KESHAV::CURRENT-ASHRAM,Current Keshav Ashram,Haridwar,R3,NEW_ID_REQUIRED_PENDING_DEDUP,POSSIBLE_SUCCESSOR_NOT_SAME_SITE,UNKNOWN,"No same-site chain to AOAY hermitage"
+ROOD_DEP,HARIDWAR-KESHAV::AOAY-HERMITAGE,Keshabananda Haridwar hermitage in AOAY,Haridwar,R4,DEPENDENCY_ENTITY_CLOSURE,HISTORIC_SITE,UNKNOWN,"Do not substitute current Keshav Ashram"
+ROOD_ADD,SERAMPORE-PRIYADHAM::HISTORIC-TERRAIN,Historic Priyadham/hermitage terrain,Serampore,R2,NEW_ID_REQUIRED_PENDING_DEDUP,HISTORIC_PARENT_OF_SUCCESSOR,UNKNOWN,"Current Smriti Mandir stands on old site; building continuity not claimed"
+ROOD_ADD,SERAMPORE-PRIYADHAM::SMRITI-MANDIR,Sri Yukteswar Smriti Mandir 3A Buro Bibi Lane,Serampore,R1,NEW_ID_REQUIRED_PENDING_DEDUP,SUCCESSOR_MEMORIAL,UNKNOWN,"Later memorial; not building entered by Sri Yukteswar"
+ROOD_ADD,SERAMPORE-PRIYADHAM::COURTYARD,Historic Priyadham courtyard,Serampore,R3,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_HISTORIC_TERRAIN,UNKNOWN,"Current footprint mapping incomplete"
+ROOD_ADD,SERAMPORE-PRIYADHAM::HALL,Historic Priyadham hall,Serampore,R3,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_HISTORIC_TERRAIN,UNKNOWN,"Current footprint mapping incomplete"
+ROOD_ADD,SERAMPORE-PRIYADHAM::SITTING-ROOM,Historic Priyadham sitting room,Serampore,R3,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_HISTORIC_TERRAIN,UNKNOWN,"Current footprint mapping incomplete"
+ROOD_ADD,SERAMPORE-PRIYADHAM::EATING-PATIO,Historic Priyadham eating patio,Serampore,R3,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_HISTORIC_TERRAIN,UNKNOWN,"Current footprint mapping incomplete"
+ROOD_ADD,S
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=565 path=runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/NEW_ID_REQUIRED_QUEUE.csv blob_sha=8e0079403dfd278e867c6413eb6efa0934801d4c original_offset=24576 original_length=2885 payload_bytes=2885 chunk_index=6 chunk_count=7 classification=text
+ERAMPORE-PRIYADHAM::BEDROOM,Historic Priyadham bedroom,Serampore,R3,NEW_ID_REQUIRED_PENDING_DEDUP,CHILD_OF_HISTORIC_TERRAIN,UNKNOWN,"Current footprint mapping incomplete"
+ROOD_DEP,BODH-GAYA::KRISHNADAYAL-MATH,Unknown math/residence of Mahant Krishnadayal Giri,Bodh Gaya,R4,DEPENDENCY_ENTITY_CLOSURE,DISTINCT_UNKNOWN_SITE,UNKNOWN,"Do not substitute permanent 046 Mahabodhi Temple"
+ROOD_ADD,TULSI-BOSE::HISTORIC-HOUSE,Tulsi Bose family home historic Pitambar Bhattacharjee Lane,Kolkata,R3,DEPENDENCY_ENTITY_CLOSURE,IDENTITY_REVIEW_OLD31-30,UNKNOWN,"Do not project current centre address onto historic rooms"
+ROOD_ADD,TULSI-BOSE::YSS-GARPAR-CENTRE,YSS Dhyana Kendra Garpar current adjacent/successor centre,Kolkata,R2,NEW_ID_REQUIRED_PENDING_DEDUP,ADJACENT_SUCCESSOR_NOT_HISTORIC_ROOM,UNKNOWN,"Separate from 4 Garpar Road house and Tulsi Bose historic house identity"
+ROOD_ADD,PANTHI::HISTORIC-PLOT,Plot of former Panthi boardinghouse near Rai Ghat Lane,Serampore,R2,NEW_ID_REQUIRED_PENDING_DEDUP,DEMOLISHED_BUILDING_SUCCESSOR_PLOT,UNKNOWN,"Plot localized; building gone"
+ROOD_ADD,PANTHI::ROOM,Specific historical Panthi room,Serampore,R2,NEW_ID_REQUIRED_PENDING_DEDUP,DEMOLISHED_INTERIOR_CHILD_OF_PLOT,UNKNOWN,"Room no longer exists; preserve as subsite"
+ROOD_EXISTING,DIHIKA::HISTORIC-SCHOOL-SITE,Historic Dihika Brahmacharya Vidyalaya terrain,Dihika,R2,SAME_SITE_OR_OLD31-09_REVIEW,HISTORIC_PARENT_OF_SUCCESSOR,UNKNOWN,"Current YSS retreat gives successor anchor; visit claim uncertainty retained"
+ROOD_ADD,DIHIKA::CURRENT-YSS-RETREAT,Current YSS Dihika retreat,Dihika,R1,NEW_ID_REQUIRED_PENDING_DEDUP,SUCCESSOR_INSTITUTION,UNKNOWN,"Does not upgrade uncertain Sri Yukteswar visit"
+ROOD_ADD,ALBERT-HALL::INDIAN-COFFEE-HOUSE,Albert Hall now Indian Coffee House 15 Bankim Chatterjee Street,Kolkata,R1,NEW_ID_REQUIRED_PENDING_DEDUP,HISTORIC_CURRENT_BUILDING,UNKNOWN,"Municipal heritage continuity; no coordinate supplied in ROOD feed"
+ROOD_DEP,REGENT-1936::HISTORIC-HOTEL,Regent Hotel Bombay 1936 historic hotel/third-storey room,Mumbai,R5,DEPENDENCY_ENTITY_CLOSURE,HISTORIC_HOTEL,UNKNOWN,"No address/room number; do not merge with current same-name hotel"
+ROOD_ADD,REGENT-CURRENT::8-BEST-ROAD,Current Regent Hotel 8 BEST Road Colaba,Mumbai,R1,NEW_ID_REQUIRED_PENDING_DEDUP,SAME_NAME_NOT_PROVEN_SUCCESSOR,UNKNOWN,"Historical equivalence explicitly NOT established"
+ROOD_R4_R5,ROOD-R4-R5-LOSSLESS,All ROOD R4/R5 source candidates,multiple,R4_R5,DEPENDENCY_ENTITY_CLOSURE,LOSSLESS_SOURCE_COMMIT_cd817119,UNKNOWN,"ROOD accounting preserves 54 R4 and 25 R5 source records; no coordinate guesses; source file remains authoritative"
+WIT_CONTEXT,WIT-EXACT-NONMERGE-LAYER,Master exact-site and non-merge travel layer,multiple,N/A,NO_NEW_ENTITY_FROM_WIT,ENRICH_EXISTING_STAGING,UNKNOWN,"WIT COMPLETE confirms exact-site/non-merge context only; no new person-location discovery and no definitive ID"
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=566 path=runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv blob_sha=a607241caa41637e2167d0f56781bf663f038932 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+record_type,entity_id,canonical_name,cluster,abc_status,protection_or_lock,id_status,latitude,longitude,coordinate_status,source,notes
+PERMANENT,001,Lahiri Mahasaya Samadhi / Satyalok,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.3028,83.0074,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,002,Lahiri Mahasaya original home,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.3018,83.0068,WORKING_PIN_25_100M,VARANASI old_geo_comparison,"TURQUOISE same physical house; enrich links only"
+PERMANENT,003,Manikarnika Ghat,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.3109,83.0142,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,004,Shri Tailanga Swami Math,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.3188,83.013,WORKING_PIN_25_100M,VARANASI old_geo_comparison,"Panchganga identity review; no automatic merge"
+PERMANENT,005,"Shree Shree Ma Anandamayi Ashram, Bhadaini",VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.2897,83.0068,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,006,Sarnath sacred complex,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.3811,83.0214,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,007,Shri Kashi Vishwanath Temple,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.3109,83.0107,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,008,"Yogoda Satsanga Dhyana Mandali, Varanasi",VARANASI,B,PROTECTED_MARK_DECISION,IMMUTABLE,,,UNKNOWN_REJECTED_COORDINATE,VARANASI_FINAL_STATUS,"Rejected old point must not be reused"
+PERMANENT,009,Dashashwamedh Ghat,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.3062,83.0104,WORKING_PIN_25_100M,VARANASI old_geo_comparison,"Hidden-cave child unresolved"
+PERMANENT,010,Assi Ghat,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.2887,83.0061,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,011,Panchganga Ghat,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.3185,83.0128,WORKING_PIN_25_100M,VARANASI old_geo_comparison,"Identity review against Trailanga meeting lead"
+PERMANENT,012,Harishchandra Ghat,VARANASI,B,PROTECTED_MARK_DECISION,IMMUTABLE,25.2994,83.009,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,013,Kaal Bhairav Temple,VARANASI,B,PROTECTED_MARK_DECISION,IMMUTABLE,25.3223,83.009,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,014,Maa Annapurna Temple,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.3107,83.0103,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,015,Sankat Mochan Hanuman Temple,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.282,82.9992,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,016,Durga Temple and Durga Kund,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.288,82.9998,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,017,Vishalakshi Gauri Temple,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.3102,83.0119,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,018,Sankatha Devi Temple,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.3156,83.014,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,019,Kedareshwar Temple and Kedar Ghat,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.2967,83.0088,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,020,Lalita Ghat,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.3114,83.0131,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,021,Nepali Temple / Kathwala Temple,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.312,83.0132,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,022,Bindu Madhav Temple,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.3187,83.0125,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,023,Mrityunjay Mahadev Temple,VARANASI,B,PROTECTED_MARK_DECISION,IMMUTABLE,,,UNKNOWN_SOURCE_CONFLICT_~3KM,VARANASI_FINAL_STATUS,"Old comparison point excluded from proximity"
+PERMANENT,024,Kabir Chaura Math,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.3233,82.9992,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,025,Lahartara Kabir birthplace memorial,VARANASI,B,PROTECTED_MARK_DECISION,IMMUTABLE,25.304,82.966,APPROXIMATE_NOT_USED_FOR_PROXIMITY,VARANASI old_
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=567 path=runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv blob_sha=a607241caa41637e2167d0f56781bf663f038932 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+geo_comparison,"100-500m class retained but not used for tight-band calculation"
+PERMANENT,026,Ramakrishna Mission Home of Service,VARANASI,C,PROTECTED_MARK_DECISION,IMMUTABLE,25.309,82.9974,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,027,Baba Keenaram Sthal / Krim Kund,VARANASI,C,PROTECTED_MARK_DECISION,IMMUTABLE,25.2928,83.001,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,028,Bhaskarananda Samadhi / Anand Bagh,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.2868,82.9968,APPROXIMATE_NOT_USED_FOR_PROXIMITY,VARANASI old_geo_comparison,"100-500m class retained but not used for tight-band calculation"
+PERMANENT,029,Dhamek Stupa,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.3807,83.0245,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,030,Mulagandha Kuti Vihara,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.3819,83.0216,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,031,Chaukhandi Stupa,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.3756,83.022,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,032,Sarnath Archaeological Museum,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.3817,83.0205,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,033,Deer Park / Isipatana sacred landscape,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.3813,83.023,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,034,Saranganath Temple,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.3833,83.0225,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,035,Tulsi Manas Temple,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.2883,83.0003,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,036,Tulsi Ghat,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.2906,83.0068,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,037,Lolark Kund,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.2875,83.0038,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,038,Ratneshwar Mahadev Temple,VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.3113,83.0145,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,039,"Shitala Mata Temple, Dashashwamedh",VARANASI,A,PROTECTED_MARK_DECISION,IMMUTABLE,25.3064,83.0105,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,040,Bharat Mata Temple,VARANASI,C,PROTECTED_MARK_DECISION,IMMUTABLE,25.317,82.989,WORKING_PIN_25_100M,VARANASI old_geo_comparison,
+PERMANENT,041,"Parshvanath Digambar Jain Temple, Bhelupur",VARANASI,PROVISIONAL_NO_ABC,PROVISIONAL_PRESERVED,IMMUTABLE,,,UNKNOWN_NOT_GEO_VERIFIED,VARANASI_FINAL_STATUS,
+PERMANENT,042,"Suparshvanath Jain Tirth (Jain Ghat), Bhadaini",VARANASI,PROVISIONAL_NO_ABC,PROVISIONAL_PRESERVED,IMMUTABLE,,,UNKNOWN_NOT_GEO_VERIFIED,VARANASI_FINAL_STATUS,
+PERMANENT,043,"Shreyansanath Jain Tirth, Sarnath (Simhapuri)",VARANASI,PROVISIONAL_NO_ABC,PROVISIONAL_PRESERVED,IMMUTABLE,,,UNKNOWN_NOT_GEO_VERIFIED,VARANASI_FINAL_STATUS,
+PERMANENT,044,Ramnagar Fort (zetel van de Kashi Naresh),VARANASI,PROVISIONAL_NO_ABC,PROVISIONAL_PRESERVED,IMMUTABLE,,,UNKNOWN_NOT_GEO_VERIFIED,VARANASI_FINAL_STATUS,"Tutoring lead needs identity review"
+PERMANENT,045,Adi Keshava Ghat,VARANASI,PROVISIONAL_NO_ABC,PROVISIONAL_PRESERVED,IMMUTABLE,,,UNKNOWN_NOT_GEO_VERIFIED,VARANASI_FINAL_STATUS,
+PERMANENT,046,Mahabodhi Temple Complex,BODHGAYA_GAYA,A,PROTECTED_MARK_DECISION,IMMUTABLE,24.6959222,84.9914193,CONFIRMED_EXACT_ENTITY,BODHGAYA ZILVER-Z01,
+PERMANENT,047,"Sujata Stupa, Bakraur",BODHGAYA_GAYA,A,PROTECTED_MARK_DECISION,IMMUTABLE,24.6979887,85.0033228,CONFIRMED_EXACT_ENTITY,BODHGAYA ZILVER-Z01,
+PERMANENT,048,Dungeshwari Cave Temples (Mahakala Caves),BODHGAYA_GAYA,A,PROTECTED_MARK_DECISION,IMMUTABLE,,,UNKNOWN_NO_CONFIRMED_MARKER,BODHGAYA ZILVER-Z01,
+PERMANENT,049,Great Buddha Statue,BODHGAYA_GAYA,A,PROTECTED_MARK_DECISION,IMMUTABLE,,,UNKNOWN_NO_CONFIRMED_MARKER,BODHGAYA ZILVER-Z01,
+PERMANENT,050,Archaeological Museum of Bodh Gaya (ASI),BODHGAYA_GAYA,B,LOCKED_BY_MARK,IMMUTABLE,,,UNKNOWN_OR_NOT_RELIABLY_VERIFIED_FOR_THIS_PASS,BODHGAYA MARK_DECISIONS,
+PERMANENT,051,"Vishnupad Temple, Gaya",BODHGAYA_GAYA,C,LOCKED_BY_MARK,IMMUTABLE,,,UN
+<<< END CHUNK >>>
+

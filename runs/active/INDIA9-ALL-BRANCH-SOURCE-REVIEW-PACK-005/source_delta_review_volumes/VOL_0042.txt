@@ -1,0 +1,1320 @@
+>>> CHUNK stream_row=659 path=decisions/DECISION-0005-tradition-confirmation-devotional-reporting-and-advisory-ratings.md blob_sha=584917b02f0003d8641522c91eda6e51a49dd041 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+---
+id: DECISION-0005
+subject: "Traditiebevestiging, devotionele rapportage en adviserend A/B/C"
+decided_by: "Mark"
+decided_at: "2026-07-14"
+outcome: "Gezaghebbende spirituele overlevering geldt als projectbevestiging; rapporten worden devotioneel en praktisch; AI mag adviserend A/B/C geven"
+applies_to: "India-project, alle toekomstige sweeps en regisseursrapporten"
+supersedes: null
+based_on_runs:
+  - "VRINDAVAN-INTEGRATION-001"
+  - "VRINDAVAN-SUPPLEMENT-001"
+---
+
+# DECISION 0005: traditiebevestiging en devotionele reisrapportage
+
+## 1. Aanleiding
+
+De BRONS-ZILVER-GOUD-pipeline heeft de broncontrole, afbakening en foutpreventie sterk verbeterd. De uiteindelijke rapportage werd echter te juridisch en te defensief. Spirituele plaatsen werden vooral beschreven via bewijsbeperkingen, beheeronzekerheden en waarschuwingen, terwijl Marks hoofdvraag is waarom devotees naar de plek gaan en wat hij daar zelf op respectvolle wijze kan ervaren of doen.
+
+Het India-project onderzoekt bovennatuurlijke gebeurtenissen, mondelinge overleveringen, guru-lineages en levende devotie. Klassiek onafhankelijk historisch bewijs kan daarom niet de enige of hoogste maatstaf zijn.
+
+## 2. Projectbevestiging binnen traditie en lineage
+
+Voor dit project geldt voortaan:
+
+1. Een consistente verklaring van een gezaghebbende levende lineage, erkende swami, directe leerling, officiële ashram, trust of tempelorganisatie is volwaardige bevestiging voor wat die traditie zelf draagt.
+2. Wanneer belangrijke swami's of lineagehouders verklaren dat Babaji, Krishna, een guru of een spirituele gebeurtenis met een plaats verbonden is, geldt die relatie voor Marks reisdoel als bevestigd binnen de traditie.
+3. Meerdere onafhankelijke of onderling consistente lijnbronnen versterken de bevestiging, maar een directe gezaghebbende lijnbron kan op zichzelf voldoende zijn.
+4. Het ontbreken van modern onafhankelijk historisch bewijs verlaagt een traditioneel of spiritueel bevestigde relatie niet automatisch tot slechts "mogelijk".
+5. Er blijft onderscheid tussen verschillende domeinen:
+   - `HISTORISCH_GEDOCUMENTEERD`: ondersteund door klassieke historische documentatie;
+   - `INSTITUTIONEEL_BEVESTIGD`: door de huidige dragende instelling bevestigd;
+   - `LINEAGE_BEVESTIGD`: door een gezaghebbende guru-parampara of lijnhouder bevestigd;
+   - `TRADITIE_BEVESTIGD`: consistent gedragen door de relevante levende traditie;
+   - `ERVARINGSGERICHT_GEMELD`: terugkerend beschreven door bezoekers of devotees;
+   - `PRAKTISCH_TE_CONTROLEREN`: actuele toegang, deelname of regels moeten nog rechtstreeks worden gecontroleerd.
+6. Deze domeinen staan naast elkaar. `LINEAGE_BEVESTIGD` is niet een zwakke versie van `HISTORISCH_GEDOCUMENTEERD`; het is een ander type bevestiging dat voor dit project zelfstandig betekenis heeft.
+
+## 3. Mahavatar Babaji en andere bovennatuurlijke figuren
+
+De onderzoeksvraag is nooit of Babaji volgens moderne biografische maatstaven bewezen heeft bestaan of fysiek op een plaats is geweest.
+
+Onderzocht wordt:
+
+- welke belangrijke swami, leerling of lineagehouder de ontmoeting of relatie beschrijft;
+- hoe dicht deze bron bij de betreffende lineage staat;
+- of andere lijnbronnen hetzelfde verhaal dragen;
+- welke fysieke ashram, grot, tempel of andere plaats uit die overlevering is voortgekomen;
+- welke levende devotie of praktijk daar vandaag bestaat.
+
+Wanneer deze keten geloofwaardig en intern consistent is, is zij voor Mark voldoende projectbevestiging.
+
+## 4. AOAY-regel
+
+Voor `Autobiography of a Yogi` geldt voortaan:
+
+- Wanneer AOAY een persoon, ontmoeting of plaats in een regio beschrijft en de huidige officiële instelling of lineage de eigen plek met die AOAY-relatie identificeert, geldt dat voor Marks reisdoel als `PROJECTBEVESTIGD`, tenzij een concrete bron de identificatie tegenspreekt.
+- Een exacte juridische reconstructie van iedere editie, elk huisnummer en iedere historische perceelsgrens is niet vereist om de plek als betekenisvolle AOAY-bestemming te behandelen.
+- Exacte editie- en locatiecontrole blijft nuttige achtergrondinformatie, maar mag de devot
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=660 path=decisions/DECISION-0005-tradition-confirmation-devotional-reporting-and-advisory-ratings.md blob_sha=584917b02f0003d8641522c91eda6e51a49dd041 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+ionele betekenis niet domineren of de plek standaard degraderen tot alleen `POSSIBLE`.
+- Het rapport moet helder zeggen wie de relatie draagt: AOAY, de instelling, een lineagehouder of meerdere bronnen.
+
+## 5. Verplichte devotionele laag in Marks rapport
+
+Iedere plaatsbeschrijving begint voortaan met de spirituele binnenkant van de plek:
+
+### Waarom devotees hierheen gaan
+
+Beschrijf:
+
+- wie of wat zij er vereren of herinneren;
+- welk spiritueel ideaal de plek vertegenwoordigt;
+- wat zij hopen te ontvangen, verdiepen of loslaten;
+- waarom juist deze fysieke plek voor hen betekenis heeft.
+
+### Wat mensen er doen
+
+Beschrijf concreet, voor zover vastgesteld:
+
+- darshan;
+- stil zitten of mediteren;
+- puja, aarti, mantra, kirtan of satsang;
+- eer betuigen bij een samadhi;
+- een heilige vijver of ritueel waterbekken bezoeken;
+- ritueel baden waar dat werkelijk gebruikelijk en toegestaan is;
+- een pelgrimsrondgang (parikrama) lopen;
+- bloemen, prasad, seva of andere offers aanbieden;
+- luisteren naar onderricht of deelnemen aan een gemeenschap.
+
+### Kan Mark als spirituele bezoeker meedoen?
+
+Onderzoek afzonderlijk:
+
+- zijn niet-ingewijden, buitenlanders en spirituele reizigers welkom;
+- kan een bezoeker rustig aansluiten bij darshan, puja, meditatie, aarti, satsang of parikrama;
+- welke activiteiten alleen voor ingewijden, residenten of hindoes zijn;
+- of iemand bezoekers uitlegt wat zij kunnen doen;
+- kleding, stilte, fotografie, donaties en rituele etiquette;
+- of de bezoeker zich opgenomen, gedoogd of vooral bekeken als toerist kan voelen.
+
+### Sfeer
+
+Beschrijf de waarschijnlijk ervaren sfeer zonder mystieke claims als eigen waarneming te presenteren. Onderzoek patronen in:
+
+- officiële foto's en programma's;
+- verslagen van devotees;
+- terugkerende bezoekerservaringen;
+- betrouwbare reisverslagen, interviews en video's;
+- drukte, stilte, intimiteit, commercie, chaos, discipline, warmte en toegankelijkheid.
+
+Getuigenissen en bezoekerservaringen mogen voor deze ervaringslaag worden gebruikt, mits als zodanig herkenbaar en niet als objectief historisch bewijs.
+
+## 6. Verplichte rapportvolgorde
+
+Marks mensentaalrapport gebruikt per plek voortaan deze volgorde:
+
+1. Wat voor plaats is dit?
+2. Waarom devotees hierheen gaan.
+3. Wat mensen er daadwerkelijk doen.
+4. Kan Mark als spirituele bezoeker meedoen en zich welkom voelen?
+5. Hoe de sfeer doorgaans wordt beschreven.
+6. Welke historische, institutionele, lineage- en traditiebevestiging bestaat.
+7. Wat nog kort voor of tijdens het bezoek moet worden gecontroleerd.
+8. Adviserend A/B/C met een concrete reden.
+
+Bewijsbeperkingen en beheeronzekerheden komen niet vóór de spirituele betekenis, tenzij een veiligheids- of toegangsprobleem dat noodzakelijk maakt.
+
+## 7. Adviserend A/B/C
+
+BRONS, ZILVER en GOUD kennen nog steeds geen formele A-, B- of C-status toe en wijzigen geen LOCKED-bestanden.
+
+INDIA2 mag Mark voortaan wel per kandidaat een expliciet advies geven:
+
+- `ADVIES A`: waarschijnlijk een kernbestemming voor Marks persoonlijke pelgrimage;
+- `ADVIES B`: inhoudelijk betekenisvol, maar secundair, overlappend of afhankelijk van tijd/toegang;
+- `ADVIES C`: interessant als aanvulling, maar niet essentieel binnen beperkte reistijd.
+
+Ieder advies bevat de reden, met nadruk op:
+
+- verbinding met AOAY, Babaji/Kriya of Marks andere hoofdlineages;
+- devotionele intensiteit en levende praktijk;
+- uniek karakter van de fysieke plek;
+- mogelijkheid om werkelijk deel te nemen in plaats van alleen te kijken;
+- overlap met andere kandidaten;
+- praktische haalbaarheid.
+
+Het advies is geen projectstatus. Alleen Mark beslist en laat een formele waardering vastleggen.
+
+## 8. Nederlandse termen
+
+Gebruik in Marks rapport natuurlijk Nederlands:
+
+- `kund`: bij eerste gebruik `heilige vijver of ritueel waterbekken (kund)`, daarna `kund`;
+- `parikrama`: `pelgrimsrondgang (parikrama)`;
+- `samadhi`: `samadhi-heiligdom` of `vereerde laatste rustplaats`, afhankelijk van de traditie;
+- `lineage`: bij eerste gebruik `spirituele lerarenlijn (lineage)`;
+- `living practice`: `levende devotionele praktijk`;
+- ve
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=661 path=decisions/DECISION-0005-tradition-confirmation-devotional-reporting-and-advisory-ratings.md blob_sha=584917b02f0003d8641522c91eda6e51a49dd041 original_offset=8192 original_length=453 payload_bytes=453 chunk_index=2 chunk_count=3 classification=text
+rmijd `waterlichaam`, `objectniveau operationeel beheer` en vergelijkbaar systeemjargon in de tekst voor Mark.
+
+## 9. Gevolg
+
+SUBREGIE INDIA verwerkt dit besluit structureel in de methodologie, evidence-regels, rollen, quality gate, rapporttemplates en regisseursinterface. De bestaande technische bronregistratie blijft behouden, maar de menselijke rapportage en projectinterpretatie worden aangepast aan Marks werkelijke pelgrimsdoel.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=662 path=decisions/DECISION-0006-place-experience-proximity-and-base-selection.md blob_sha=d7e49ff8806acb576e4bae39d4e4ac2122fba4f3 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+---
+id: DECISION-0006
+subject: "Plaatsbeleving, nabijheidswaarde en basiskeuze"
+decided_by: "Mark"
+decided_at: "2026-07-14"
+outcome: "Voeg belevingsprofiel, reviewanalyse, afstandsmatrix en routegecorrigeerd bezoekadvies toe"
+applies_to: "India-project, toekomstige sweeps, regisseursrapporten en routefase"
+depends_on:
+  - "DECISION-0005"
+---
+
+# DECISION 0006: plaatsbeleving, nabijheidswaarde en basiskeuze
+
+## 1. Aanleiding
+
+Een spiritueel belangrijke plaats kan voor Mark praktisch minder aantrekkelijk zijn wanneer zij visueel onaantrekkelijk, extreem chaotisch, vervuild, commercieel of moeilijk beleefbaar is. Omgekeerd kan een inhoudelijk secundaire plek toch een vanzelfsprekende stop worden wanneer zij mooi, sfeervol of vrijwel zonder extra reistijd naast een kernbestemming ligt.
+
+Een vaste A/B/C-indeling zonder ruimtelijke context is daarom onvoldoende voor de uiteindelijke reisselectie.
+
+## 2. Nieuwe laag: plaatsbeleving
+
+Per kandidaat wordt naast devotionele en historische betekenis een afzonderlijk belevingsprofiel onderzocht.
+
+Minimaal:
+
+- visuele schoonheid en landschappelijke of architectonische kwaliteit;
+- rust tegenover drukte en chaos;
+- devotionele sfeer tegenover toeristische of commerciële dominantie;
+- netheid, onderhoud en toestand van gebouwen, water en omgeving;
+- intimiteit tegenover massaliteit;
+- fotogeniek karakter;
+- mogelijkheid om rustig te zitten, mediteren of observeren;
+- terugkerende positieve en negatieve bezoekerservaringen;
+- verschillen tussen gewone dagen, vroege ochtend, avond en festivals.
+
+De rapportage doet geen beroep op één gemiddeld sterrencijfer. Zij gebruikt een combinatie van:
+
+- Google Maps-rating en aantal beoordelingen, als actuele momentopname;
+- Tripadvisor-rating en aantal beoordelingen waar aanwezig;
+- recente reviews, bij voorkeur van de laatste 12 tot 24 maanden;
+- terugkerende reviewthema's;
+- actuele bezoekersfoto's;
+- officiële foto's en programma's;
+- betrouwbare video's en reisverslagen;
+- meldingen van devotees afzonderlijk van gewone toeristen.
+
+Reviewplatforms zijn geschikt voor sfeer, drukte, schoonheid, netheid, gastvrijheid en praktische ervaring. Zij zijn geen bron voor oude historische of bovennatuurlijke claims.
+
+## 3. Reviewanalyse
+
+Per plek wordt waar voldoende materiaal beschikbaar is vastgelegd:
+
+- platform;
+- score;
+- aantal reviews;
+- peildatum;
+- aandeel en aard van recente reviews;
+- meest terugkerende positieve thema's;
+- meest terugkerende negatieve thema's;
+- opvallend verschil tussen devotees en algemene toeristen;
+- betrouwbaarheid van de reviewbasis.
+
+Een hoge score met weinig reviews weegt minder zwaar dan een stabiele score met veel recente reviews. Gemiddelde sterren worden nooit zonder inhoudelijke thematische analyse gebruikt.
+
+## 4. Visuele classificatie
+
+Marks rapport gebruikt geen absolute schoonheidswaarheid maar een praktische ervaringsinschatting:
+
+- `ZEER_MOOI` — bestemming heeft op zichzelf sterke visuele of landschappelijke aantrekkingskracht;
+- `MOOI` — aangename of karaktervolle omgeving;
+- `RAUW_MAAR_BETEKENISVOL` — visueel eenvoudig, verweerd, druk of rommelig, maar met duidelijke devotionele intensiteit;
+- `CHAOTISCH` — drukte, verkeer, commercie of vervuiling kan de ervaring overheersen;
+- `NIET_VASTGESTELD` — onvoldoende actueel beeldmateriaal of ervaringsmateriaal.
+
+De classificatie vermeldt altijd waarop zij is gebaseerd en kan verschillen per dagdeel of festivalperiode.
+
+## 5. Afstandsmatrix
+
+Na afronding van de kandidatenkaart wordt voor iedere cluster een volledige nabijheidsmatrix gemaakt.
+
+Per paar locaties:
+
+- hemelsbrede afstand ter controle;
+- realistische afstand over de weg;
+- geschatte reistijd per auto/taxi;
+- geschatte looptijd wanneer lopen realistisch is;
+- afhankelijkheid van verkeer, voetgangerszones, toegangswegen of parikrama;
+- peildatum en gebruikte routebron.
+
+Reistijd weegt zwaarder dan kilometers. In historische en pelgrimssteden kan een korte afstand veel tijd kosten.
+
+## 6. Intrinsieke waarde en routewaarde gescheiden
+
+Iedere plek krijgt twee afzonderlijke adviezen:
+
+### Intrins
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=663 path=decisions/DECISION-0006-place-experience-proximity-and-base-selection.md blob_sha=d7e49ff8806acb576e4bae39d4e4ac2122fba4f3 original_offset=4096 original_length=2794 payload_bytes=2794 chunk_index=1 chunk_count=2 classification=text
+iek advies
+
+De inhoudelijke waarde van de plek op zichzelf:
+
+- `INTRINSIEK A`
+- `INTRINSIEK B`
+- `INTRINSIEK C`
+
+### Routeadvies
+
+De praktische bezoekwaarde binnen de gekozen dagstructuur:
+
+- `ROUTE A` — vrijwel vanzelfsprekend meenemen door zeer kleine omweg of directe combinatie met een kernplek;
+- `ROUTE B` — zinvolle combinatie bij beperkte extra reistijd;
+- `ROUTE C` — alleen meenemen bij specifieke interesse of ruime tijd.
+
+Een plek kan dus `INTRINSIEK C` maar `ROUTE A` zijn wanneer zij bijvoorbeeld één minuut lopen van een A-bestemming ligt. De intrinsieke spirituele waarde verandert dan niet; de uiteindelijke bezoekaanbeveling wel.
+
+Alle formele A/B/C-projectstatussen blijven door Mark bepaald.
+
+## 7. Basis- en hotelgebied
+
+Het exacte hotel wordt niet als eerste gekozen. Eerst wordt een geschikt basisgebied bepaald.
+
+Werkwijze:
+
+1. Mark bevestigt of wijzigt de A/B/C-selectie.
+2. De kandidaten worden ruimtelijk geclusterd.
+3. Er worden twee tot vier mogelijke basisgebieden vastgesteld.
+4. Per basisgebied wordt de gewogen reistijd naar alle gekozen plekken berekend.
+5. A-plekken wegen zwaarder dan B-plekken; C-plekken tellen vooral mee wanneer zij dichtbij liggen.
+6. Daarna pas worden concrete hotels binnen het beste basisgebied onderzocht.
+7. Na hotelkeuze wordt een definitieve hotel-naar-plek-matrix gemaakt.
+
+Een hotel mag niet uitsluitend worden gekozen op luxe of prijs wanneer een andere basis de dagelijkse reistijd sterk vermindert.
+
+## 8. Gewogen basismodel
+
+Voor vergelijking van basisgebieden mag een transparant rekenmodel worden gebruikt, bijvoorbeeld:
+
+- formele of door Mark bevestigde A: gewicht 5;
+- B: gewicht 2;
+- C: gewicht 1;
+- niet-geselecteerde plek: gewicht 0.
+
+De gewogen totale reistijd is een hulpmiddel, geen automatische beslissing. Rust, veiligheid, sfeer, hotelkwaliteit en bereikbaarheid blijven afzonderlijke factoren.
+
+## 9. Rapportage voor Mark
+
+Per plek wordt toegevoegd:
+
+1. Hoe ziet de plek eruit?
+2. Is zij mooi, karaktervol, rauw, vervuild, rustig of chaotisch?
+3. Wat zeggen recente bezoekers daar consequent over?
+4. Hoeveel mensen lijken de plek te bezoeken en hoe sterk is de reviewbasis?
+5. Wat is de afstand tot de dichtstbijzijnde A- en B-plekken?
+6. Wat is het intrinsieke advies?
+7. Wat is het routeadvies?
+
+## 10. Gevolg
+
+SUBREGIE INDIA verwerkt deze laag na afronding van DECISION-0005 in de methodologie, onderzoeksrollen, quality gate, rapporttemplates en routefase. De eerste regressietest gebruikt de acht Vrindavan-kandidaten en levert:
+
+- een belevingsprofiel per plek;
+- reviewmomentopnamen waar beschikbaar;
+- een volledige onderlinge reistijdmatrix;
+- intrinsiek advies en routeadvies;
+- een eerste vergelijking van mogelijke basisgebieden, zonder al een definitief hotel te kiezen.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=664 path=decisions/DECISION-0007-photos-and-strict-abc-semantics.md blob_sha=669f0acddc28d2e7f4e8d4762c13cb1b71a986a9 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+---
+id: DECISION-0007
+subject: "Tien foto's per plek en strikte A/B/C-semantiek"
+decided_by: "Mark"
+decided_at: "2026-07-14"
+outcome: "Minimaal tien representatieve foto's per plek; A is bezoeken, B is misschien, C is niet bezoeken en telt niet mee in basisberekening"
+applies_to: "India-project, toekomstige sweeps, regisseursrapporten, plaatsbeleving en routefase"
+supersedes_in_part:
+  - "DECISION-0006 secties 6 en 8 voor de betekenis en weging van C"
+---
+
+# DECISION 0007: tien foto's per plek en strikte A/B/C-semantiek
+
+## 1. Visueel dossier
+
+Iedere kandidaat krijgt in Marks eindrapport een visueel dossier van minimaal tien representatieve beelden.
+
+De beelden moeten samen tonen hoe de plek werkelijk kan worden ervaren en mogen niet bestaan uit tien vrijwel identieke promotiefoto's.
+
+De set bevat waar beschikbaar:
+
+1. totaalbeeld of aankomstbeeld;
+2. hoofdingang of toegangssituatie;
+3. belangrijkste heiligdom, samadhi, kund, route of landschapselement;
+4. devotees tijdens normale praktijk;
+5. mogelijkheid om te zitten, mediteren, bidden of observeren;
+6. gewone drukte op een normale dag;
+7. drukte of versiering tijdens een festival of piekmoment;
+8. omgeving, straten, commercie en verkeerssituatie;
+9. onderhoud, netheid, waterkwaliteit of fysieke staat;
+10. vroeg ochtend-, avond- of ander sfeerbeeld.
+
+Gebruik bij voorkeur actuele bezoekersfoto's uit de laatste 24 maanden, aangevuld met officiële en historische beelden wanneer die een ander relevant aspect tonen. Vermeld bron, datum of geschatte ouderdom en welke observatie het beeld ondersteunt.
+
+Foto's zijn bewijs voor uiterlijk, sfeer, drukte, onderhoud en praktische beleving. Zij zijn geen bewijs voor bovennatuurlijke gebeurtenissen.
+
+Wanneer tien onafhankelijke bruikbare beelden niet beschikbaar zijn, wordt dit zichtbaar gemeld; er worden geen duplicaten gebruikt om het aantal kunstmatig te halen.
+
+## 2. Strikte betekenis van A, B en C
+
+Voor Marks uiteindelijke reisbesluit geldt:
+
+- `A` — bezoeken; kernbestemming of vanzelfsprekend meenemen;
+- `B` — misschien bezoeken; afhankelijk van tijd, sfeer, toegang, combinatie of persoonlijke aantrekking;
+- `C` — niet bezoeken; niet opnemen in de route en niet gebruiken als reserveoptie.
+
+Een adviserend C is dus geen lage prioriteit of optionele stop. Het is een negatief bezoekadvies.
+
+## 3. Intrinsiek en routeadvies
+
+Intrinsieke en ruimtelijke waarde blijven gescheiden, maar gebruiken dezelfde harde betekenis:
+
+- `INTRINSIEK A/B/C` zegt wat de plek op zichzelf waard is;
+- `ROUTE A/B/C` zegt of de plek binnen de concrete route moet worden meegenomen.
+
+Een intrinsieke C kan alleen praktisch worden opgewaardeerd wanneer de feitelijke eindaanbeveling daardoor minstens B wordt. De formulering `INTRINSIEK C, ROUTE A` blijft toegestaan als analytische uitleg, maar de uiteindelijke bezoekbeslissing moet ondubbelzinnig zijn: bezoeken, misschien, of niet bezoeken.
+
+Een plek die op één minuut lopen van een A ligt kan bijvoorbeeld:
+
+- `INTRINSIEK C` zijn;
+- `ROUTE A` krijgen wegens vrijwel nul extra tijd;
+- als uiteindelijke aanbeveling `BEZOEKEN` krijgen.
+
+Daarmee verandert niet de intrinsieke waarde, maar wel het praktische besluit.
+
+## 4. Gewogen basismodel
+
+Voor hotel- en basisgebiedberekeningen geldt voortaan:
+
+- door Mark bevestigde A: gewicht 5;
+- door Mark bevestigde B: gewicht 2;
+- C: gewicht 0;
+- niet-geselecteerd: gewicht 0.
+
+C-plekken beïnvloeden de keuze van basisgebied of hotel niet. Zij worden alleen in een route opgenomen wanneer Mark ze later expliciet herwaardeert of wanneer de routeanalyse tot een nieuw expliciet A- of B-advies leidt dat Mark accepteert.
+
+## 5. Rapportage
+
+Per plek vermeldt Marks rapport voortaan duidelijk:
+
+- visuele classificatie;
+- samenvatting van minimaal tien beelden;
+- terugkerende positieve en negatieve visuele signalen;
+- intrinsiek advies A/B/C;
+- routeadvies A/B/C;
+- één ondubbelzinnige eindregel: `BEZOEKEN`, `MISSCHIEN` of `NIET BEZOEKEN`.
+
+## 6. Gevolg
+
+SUBREGIE INDIA verwerkt dit besluit samen met DECISION-0005 en DECISION-0006 in de methodologie, onderzoeksrollen, quality ga
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=665 path=decisions/DECISION-0007-photos-and-strict-abc-semantics.md blob_sha=669f0acddc28d2e7f4e8d4762c13cb1b71a986a9 original_offset=4096 original_length=246 payload_bytes=246 chunk_index=1 chunk_count=2 classification=text
+te, rapporttemplates, reviewanalyse, afstandsmatrix en basiskeuze.
+
+De eerste regressietest gebruikt de acht Vrindavan-kandidaten en produceert voor iedere plek een tienbeelden-dossier of een expliciet gedocumenteerd beeldtekort.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=666 path=decisions/DECISION-0008-readable-place-references-and-vrindavan-a-statuses.md blob_sha=df8818a74c588d3471578c4864b0aaf7cb518764 original_offset=0 original_length=3192 payload_bytes=3192 chunk_index=0 chunk_count=1 classification=text
+---
+id: DECISION-0008
+subject: "Leesbare plaatsverwijzingen en definitieve A-keuzes voor Vrindavan 1 en 2"
+decided_by: "Mark"
+decided_at: "2026-07-14"
+outcome: "Katyayani Peeth en Neem Karoli Baba Ashram definitief A; iedere exotische plaatsnaam krijgt bij herhaling een korte herkenningshaak"
+applies_to: "India-project, alle rapporten, tabellen, matrices, routes en regisseurscommunicatie"
+---
+
+# DECISION 0008: leesbare plaatsverwijzingen en A-keuzes
+
+## 1. Definitieve keuzes
+
+Mark beslist:
+
+1. `Katyayani Peeth / Keshav Ashram, Vrindavan` = definitief `A`.
+2. `Neem Karoli Baba Ashram en samadhi, Vrindavan` = definitief `A`.
+
+A betekent: bezoeken; kernbestemming of vanzelfsprekend meenemen.
+
+## 2. Probleem
+
+Plaatsnamen als Radha Kund, Shyam Kund, Govardhan, Kusum Sarovar en Katyayani Peeth zijn voor Mark moeilijk uit elkaar te houden wanneer zij later in een tekst zonder uitleg terugkomen.
+
+Een eerdere uitleg ergens bovenaan is niet voldoende. Iedere latere verwijzing moet zelfstandig herkenbaar blijven.
+
+## 3. Verplichte herkenningshaak
+
+Iedere exotische of mogelijk verwarrende plaatsnaam krijgt bij iedere inhoudelijk relevante herhaling direct een korte herkenningshaak tussen haakjes.
+
+Minimaal opnemen:
+
+- plaatsnummer binnen het actuele rapport;
+- eenvoudige Nederlandse soortaanduiding;
+- belangrijkste spirituele persoon, traditie of betekenis.
+
+Voorbeelden:
+
+- `Govardhan (nr. 6, heilige heuvel, Krishna)`;
+- `Kusum Sarovar (nr. 8, heilige vijver, Radha-Krishna)`;
+- `Radha Kund (nr. 4, heilige vijver, Radha-devotie)`;
+- `Shyam Kund (nr. 5, heilige vijver, Krishna)`;
+- `Neem Karoli Baba Ashram (nr. 2, ashram en samadhi van Maharaj-ji)`;
+- `Katyayani Peeth (nr. 1, Shakti-tempel en Kriya-lineage via Keshavanand)`;
+- `Krishna Janmabhoomi (nr. 3, Krishna's geboorteheiligdom in Mathura)`;
+- `Govardhan Parikrama (nr. 7, pelgrimsrondgang rond de heilige heuvel)`.
+
+## 4. Toepassing
+
+De herkenningshaak is verplicht in:
+
+- doorlopende rapporttekst;
+- afstands- en reistijdmatrices;
+- routevoorstellen;
+- hotel- en basisgebiedvergelijkingen;
+- samenvattingen;
+- beslisregels;
+- verwijzingen naar nabijgelegen plaatsen;
+- tabellen waarin meerdere exotische namen naast elkaar staan.
+
+Alleen wanneer dezelfde naam meerdere keren binnen één zeer korte alinea voorkomt, mag na de eerste volledige herkenningshaak tijdelijk de verkorte naam worden gebruikt.
+
+## 5. Geen jargon
+
+Gebruik eenvoudige Nederlandse beschrijvingen. Vermijd dat Mark zelf moet onthouden of opzoeken wat `kund`, `sarovar`, `samadhi`, `peeth` of `parikrama` betekent.
+
+Bij eerste gebruik mag de oorspronkelijke term blijven staan, bijvoorbeeld:
+
+- `heilige vijver (kund)`;
+- `heilig waterbekken of meer (sarovar)`;
+- `samadhi-heiligdom, de vereerde laatste rustplaats`;
+- `heilige zetel of tempelplaats (peeth)`;
+- `pelgrimsrondgang (parikrama)`.
+
+## 6. Kwaliteitsregel
+
+Een rapport faalt de mensentaalcontrole wanneer Mark een eerdere paragraaf, tabel of nummerlijst moet terugzoeken om te begrijpen welke plaats wordt bedoeld.
+
+SUBREGIE INDIA verwerkt deze regel structureel in de mensentaalrapporttemplates, route- en afstandsmatrices, quality gate en INDIA2-regisseursinterface.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=667 path=decisions/DECISION-0009-anchor-clusters-travel-time-and-item-proximity.md blob_sha=4debd488dd6a5ac49d703f31b8f6fba3b016eff9 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+---
+id: DECISION-0009
+subject: "A-ankerpunten, loopclusters en reistijd per item"
+decided_by: "Mark"
+decided_at: "2026-07-14"
+outcome: "Bezoekbesluiten worden voortaan mede bepaald door extra reistijd vanaf A-plekken, loopclusters en dagclusters"
+applies_to: "India-project, kandidatenrapporten, routefase, afstandsmatrices, hotelkeuze en dagindelingen"
+depends_on:
+  - "DECISION-0006"
+  - "DECISION-0007"
+  - "DECISION-0008"
+  - "DECISION-0012"
+---
+
+# DECISION 0009: A-ankerpunten, loopclusters en reistijd per item
+
+## 1. Kernprincipe
+
+Marks reis wordt opgebouwd rond bevestigde A-plekken. Iedere A-plek is een ankerpunt voor een mogelijke dag of dagdeel.
+
+De praktische hoofdvraag is daarna niet alleen welke andere plekken inhoudelijk B of C zijn, maar:
+
+`Welke andere plaatsen liggen feitelijk dichtbij dit A-ankerpunt en hoeveel extra reistijd kosten zij?`
+
+Een intrinsiek zwakkere plek kan daardoor praktisch belangrijk worden wanneer zij zonder noemenswaardige extra reisbelasting kan worden meegenomen.
+
+## 2. A als ankerpunt
+
+Per A-plek wordt verplicht vastgesteld:
+
+- welke B- en C-plekken op loopafstand liggen;
+- welke B- en C-plekken binnen een korte riksja-, taxi- of autorit liggen;
+- hoeveel extra tijd een bezoek werkelijk toevoegt aan de dag;
+- of meerdere zwakkere plekken samen één logisch mini-cluster vormen;
+- of de combinatie dezelfde aankomstzone, parkeerplaats, ingang, pelgrimsroute of wijk gebruikt;
+- of verkeer, wachttijd, veiligheidscontrole of voetgangerszones de korte afstand alsnog tijdrovend maken.
+
+## 3. Reistijd boven afstand
+
+Reistijd is leidend; kilometers zijn alleen ondersteunend.
+
+Per verbinding wordt waar mogelijk gegeven:
+
+- lopen: ja/nee;
+- realistische looptijd;
+- realistische rijtijd op een gewone dag;
+- verwachte rijtijd bij drukte of festival;
+- extra bezoektijd ter plaatse;
+- totale extra tijd ten opzichte van alleen het A-anker;
+- praktische frictie: laag, middel of hoog.
+
+Een plek op 600 meter kan praktisch moeilijker zijn dan een plek op 3 kilometer wanneer oversteken, verkeer, toegangscontroles of omwegen veel tijd kosten.
+
+## 4. Loopcluster
+
+Een `LOOPCLUSTER` bestaat uit plaatsen die redelijkerwijs binnen één aaneengesloten wandeling kunnen worden gecombineerd.
+
+Richtwaarden:
+
+- `DIRECT_NAAST_ELKAAR`: 0-3 minuten lopen;
+- `ZEER_DICHTBIJ`: 4-10 minuten lopen;
+- `LOOPBAAR`: 11-20 minuten lopen;
+- `LANGE_WANDELING`: 21-35 minuten lopen, alleen wanneer route en klimaat geschikt zijn;
+- `NIET_REALISTISCH_TE_VOET`: meer dan 35 minuten of onveilige/oncomfortabele route.
+
+Deze grenzen zijn hulpmiddelen. Hitte, verkeer, apen, bagage, wegdek en drukte kunnen een kort traject ongeschikt maken.
+
+## 5. Minicluster-effect
+
+Meerdere intrinsieke C-plekken kunnen samen praktisch A of B worden wanneer:
+
+- zij onderling op loopafstand liggen;
+- zij naast of op weg naar een A-anker liggen;
+- de gezamenlijke extra reistijd zeer klein is;
+- zij samen een inhoudelijk begrijpelijk verhaal of gebied tonen;
+- de totale extra bezoektijd aanvaardbaar is.
+
+Voorbeeld:
+
+Vier losse C-plekken die ieder geen aparte rit waard zijn, kunnen samen `ROUTE A` worden wanneer zij binnen één compact loopcluster rond een A-plek liggen en gezamenlijk slechts 45-60 minuten extra kosten.
+
+Daarmee verandert hun intrinsieke waarde niet, maar wel het praktische bezoekbesluit.
+
+## 6. Verplichte nabijheidsinformatie per B- en C-item
+
+In iedere beschrijving van een B- of C-plek komt voortaan een vaste sectie:
+
+### Dicht bij welke A-plekken?
+
+Vermeld:
+
+1. dichtstbijzijnde A-plek met volledige herkenningshaak;
+2. reistijd te voet;
+3. reistijd per lokale taxi/riksja/auto;
+4. totale extra tijd wanneer gecombineerd;
+5. andere B- of C-plekken in hetzelfde mini-cluster;
+6. praktisch routeadvies.
+
+Voorbeeldvorm:
+
+`Dichtstbijzijnde A: Krishna Janmabhoomi (nr. 3, geboorteplaats-tempel, Krishna) — 8 minuten lopen. Samen met twee andere plekken in hetzelfde loopcluster voegt dit naar schatting 50 minuten toe. Daardoor stijgt het routeadvies van C naar A.`
+
+## 7. Verplichte nabijheidsinformatie per A-item
+
+Bij iedere A-plek komt een vaste sectie:
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=668 path=decisions/DECISION-0009-anchor-clusters-travel-time-and-item-proximity.md blob_sha=4debd488dd6a5ac49d703f31b8f6fba3b016eff9 original_offset=4096 original_length=3089 payload_bytes=3089 chunk_index=1 chunk_count=2 classification=text
+
+
+### Wat ligt hier vlakbij?
+
+Daarin worden alle relevante B- en C-plekken genoemd, geordend op extra tijd:
+
+- 0-5 minuten extra;
+- 6-15 minuten extra;
+- 16-30 minuten extra;
+- 31-60 minuten extra;
+- meer dan 60 minuten extra.
+
+Iedere naam krijgt opnieuw de verplichte herkenningshaak uit DECISION-0012.
+
+## 8. Volledige A-naar-rest-matrix
+
+Voor ieder cluster wordt ten minste een matrix gemaakt van:
+
+- iedere A-plek naar iedere B-plek;
+- iedere A-plek naar iedere C-plek;
+- alle onderlinge verbindingen binnen gevonden loopclusters;
+- iedere plek naar het gekozen of onderzochte basisgebied.
+
+Een volledige alle-tegen-alle matrix blijft wenselijk, maar de A-naar-rest-matrix heeft prioriteit omdat zij Marks dagbeslissingen direct ondersteunt.
+
+## 9. Deelkaartjes
+
+Per geografisch cluster wordt een eenvoudig deelkaartje of schematische kaart gemaakt met:
+
+- vaste nummers;
+- kleur of symbool voor A, B en C;
+- loopclusters;
+- A-ankerpunten;
+- belangrijkste reistijdverbindingen;
+- mogelijke logische dagvolgorde;
+- schaal of duidelijke indicatie wanneer afstanden schematisch zijn.
+
+De kaart moet in één oogopslag laten zien:
+
+- waar Mark toch al naartoe reist;
+- wat daar direct naast ligt;
+- welke plekken één gezamenlijk bezoekblok vormen;
+- welke plek een afzonderlijke rit vereist.
+
+## 10. Dagclusteradvies
+
+Naast het advies per plek komt een advies per cluster:
+
+- `DAGCLUSTER A`: logisch en efficiënt geheel dat in de reis hoort;
+- `DAGCLUSTER B`: zinvolle optie afhankelijk van tijd en energie;
+- `DAGCLUSTER C`: niet plannen.
+
+Een dagcluster kan A worden door één kern-A met meerdere dichtbij gelegen B- of C-plekken.
+
+## 11. Eindadvies per item
+
+Per plek worden voortaan vier regels gegeven:
+
+- `INTRINSIEK`: A, B of C;
+- `NABIJHEID`: direct naast / zeer dichtbij / loopbaar / korte rit / aparte rit;
+- `ROUTEADVIES`: A, B of C;
+- `EINDBESLUIT`: bezoeken / misschien / niet bezoeken.
+
+De reden noemt expliciet hoeveel extra reistijd de plek kost vanaf het relevante A-anker.
+
+## 12. Hotel- en basiskeuze
+
+Hotel- of basisanalyse gebruikt niet alleen afzonderlijke plaatsgewichten, maar ook clusterstructuur.
+
+Een basisgebied wordt gunstiger wanneer:
+
+- meerdere A-ankers dichtbij liggen;
+- rondom die A-ankers veel bruikbare B- en C-plekken zonder extra rit liggen;
+- een volledige dag te voet of met korte lokale ritten kan worden opgebouwd;
+- de totale dagelijkse verplaatsing beperkt blijft.
+
+C-plekken hebben zelfstandig gewicht nul, maar kunnen routewaarde krijgen wanneer zij onderdeel zijn van een efficiënt cluster dat Mark expliciet accepteert.
+
+## 13. Gevolg voor Vrindavan
+
+De acht huidige Vrindavan-kandidaten worden opnieuw gepresenteerd met:
+
+- A-ankerpunten;
+- A-naar-B/C-reistijd;
+- loopafstand ja/nee;
+- totale extra tijd per combinatie;
+- mini-clusters;
+- deelkaart per geografisch cluster;
+- dagclusteradvies;
+- per item een sectie `Dicht bij welke A-plekken?` of `Wat ligt hier vlakbij?`.
+
+Geen definitieve reistijd mag worden gegokt. Reistijden moeten met actuele routegegevens worden berekend en van een peildatum worden voorzien.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=669 path=decisions/DECISION-0010-parallel-cluster-batch-and-compact-decision-reports.md blob_sha=5f03ea2b0f2d26ee5bee9ebd5e27eaffbc6e2689 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+---
+id: DECISION-0010
+subject: "Parallelle clusterbatches, compacte beslisrapporten en korte voortgangsupdates"
+decided_by: "Mark"
+decided_at: "2026-07-15"
+outcome: "SUBREGIE INDIA bereidt meerdere geografische clusters parallel voor en levert compacte beslisdata in chatgeschikte vorm"
+applies_to: "India-project, toekomstige onderzoeksruns, SUBREGIE-planning en INDIA2-beslisrapporten"
+depends_on:
+  - "DECISION-0005"
+  - "DECISION-0006"
+  - "DECISION-0007"
+  - "DECISION-0008"
+  - "DECISION-0009"
+---
+
+# DECISION 0010: parallelle clusters en compacte beslisrapporten
+
+## 1. Doel
+
+Mark bevindt zich in de A/B/C-beslisfase. Het systeem moet daarom vooral complete, compacte beslisdata leveren en niet voortijdig een omvangrijke definitieve reisgids bouwen.
+
+Onderzoek wordt waar technisch veilig mogelijk in meerdere clusters parallel voorbereid en uitgevoerd. Dit vermindert wachttijd en herhaald kopieerwerk.
+
+## 2. Eerste parallelle batch
+
+SUBREGIE INDIA maakt na afronding van de lopende methodologie-update een batchplan voor ten minste:
+
+1. `BRAJ-COMPLETE`
+   - Mathura;
+   - Vrindavan;
+   - Govardhan;
+   - Gokul;
+   - Barsana;
+   - Nandgaon;
+   - andere direct relevante plaatsen die nodig zijn om het geografische en devotionele Braj-cluster volledig te beoordelen.
+
+2. `ARUNACHALA-TIRUVANNAMALAI`
+   - Arunachala, de heilige berg;
+   - Sri Ramanasramam;
+   - Ramana Maharshi-gerelateerde grotten en verblijfplaatsen;
+   - volledige of gedeeltelijke giripradakshina/parikrama;
+   - relevante tempels, samadhi's en nabijgelegen plaatsen die samen één logisch dag- of verblijfscluster vormen.
+
+3. `KUMAON-BABAJI-KRIYA-NKB`
+   - Mahavatar Babaji/Kriya-gerelateerde fysieke plekken;
+   - Neem Karoli Baba-gerelateerde fysieke plekken;
+   - Haidakhan-gerelateerde fysieke plekken;
+   - alleen geografisch en inhoudelijk samenhangende subclusters.
+
+SUBREGIE mag de batch technisch faseren wanneer gelijktijdige runs state- of claim-lockrisico geven. Het doel blijft: zo veel mogelijk voorbereidend werk parallel laten verlopen zonder protocolintegriteit te verliezen.
+
+## 3. Cluster compleet vóór definitieve beoordeling
+
+Een plaats wordt niet definitief A/B/C beoordeeld wanneer omliggende plaatsen de routewaarde wezenlijk kunnen veranderen en het relevante cluster nog niet voldoende is onderzocht.
+
+Voorbeeld: Krishna Janmabhoomi in Mathura kan pas goed worden beoordeeld wanneer duidelijk is welke andere relevante Mathura- en Braj-plaatsen op loopafstand of korte reistijd liggen.
+
+## 4. Compact beslisrapport
+
+INDIA2 levert tijdens de beslisfase per plaats alleen de gegevens die Mark nodig heeft voor A/B/C.
+
+Vaste compacte volgorde:
+
+1. `PLAATS` — naam met nummer, eenvoudig type en spirituele kern.
+2. `WAAROM DEVOTEES GAAN` — kort; gedragen overlevering en spirituele betekenis.
+3. `WAT MENSEN DOEN` — alleen concrete praktijk.
+4. `DEELNAME` — kan een buitenlandse of niet-ingewijde spirituele bezoeker respectvol meedoen; kort.
+5. `BELEVING` — mooi, rustig, rauw, druk, commercieel of chaotisch; alleen beslisrelevant.
+6. `ONDERBOUWING` — fysieke plek, instelling, lineage, traditie, AOAY, terugkerende ervaring; geen advocaatstaal.
+7. `DICHT BIJ A` of `WAT LIGT HIER VLAKBIJ` — reistijd, loopbaar ja/nee, extra tijd en mini-cluster.
+8. `INTRINSIEK`, `ROUTEADVIES`, `EINDBESLUIT`.
+
+Telegramstijl en opsommingen zijn toegestaan. Volledige zinnen zijn niet verplicht.
+
+## 5. Niet opnemen in de beslisfase
+
+Niet standaard toevoegen:
+
+- uitgebreide geschiedenis die de A/B/C-keuze niet beïnvloedt;
+- juridische bewijsdiscussies;
+- lange beheer- en protocoluitleg;
+- filmtips of fotografieadvies;
+- uitgebreide etiquette wanneer één korte regel volstaat;
+- bloemige spirituele taal;
+- eindvormgeving van de latere reisgids.
+
+## 6. Afbeeldingen
+
+De onderzoeksdossiers verzamelen waar mogelijk tien representatieve beelden per plek. Het chatrapport hoeft tijdens de beslisfase niet alle tien beelden te tonen.
+
+INDIA2 toont alleen een kleine bruikbare selectie wanneer beelden de keuze daadwerkelijk verduidelijken. Het volledige beelddossier blijft beschikbaar voor
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=670 path=decisions/DECISION-0010-parallel-cluster-batch-and-compact-decision-reports.md blob_sha=5f03ea2b0f2d26ee5bee9ebd5e27eaffbc6e2689 original_offset=4096 original_length=1517 payload_bytes=1517 chunk_index=1 chunk_count=2 classification=text
+ latere controle.
+
+## 7. Reistijd en clusterdata
+
+Per plaats is verplicht:
+
+- dichtstbijzijnde bevestigde A-anker(s);
+- realistische looptijd en `loopbaar: ja/nee`;
+- gewone lokale reistijd;
+- totale extra tijd wanneer gecombineerd;
+- andere plaatsen in hetzelfde mini-cluster;
+- route-effect op de uiteindelijke aanbeveling.
+
+De A-naar-rest-matrix heeft voorrang boven algemene kilometers.
+
+## 8. Communicatie
+
+BRONS, ZILVER, GOUD en SUBREGIE communiceren onderling via de bestaande GitHub-state-, completion-, context- en transition-artifacts. Mark hoeft geen volledige rapporten tussen rollen te kopiëren.
+
+Mark ontvangt na iedere betekenisvolle fase alleen een korte update met:
+
+- welk cluster en welke fase gereed is;
+- resultaatstatus;
+- completioncommit;
+- maximaal drie belangrijkste inhoudelijke gaten;
+- welke korte startzin hij eventueel in een nieuwe rolchat moet plaatsen.
+
+Geen grote completionteksten in de chat tenzij Mark daar expliciet om vraagt.
+
+## 9. Gevolg
+
+SUBREGIE INDIA:
+
+1. verwerkt deze beslissing in de lopende methodologie-update;
+2. controleert de kwaliteit van eerdere eerste-generatie vragen en antwoorden;
+3. verbetert scopes en prompts op basis van de Vrindavan-leerpunten;
+4. maakt één uitvoerbaar batchplan voor BRAJ-COMPLETE, ARUNACHALA-TIRUVANNAMALAI en KUMAON-BABAJI-KRIYA-NKB;
+5. creëert nog geen onveilige parallelle actieve states wanneer het protocol dit niet ondersteunt;
+6. routeert een compacte implementatie- en batchsamenvatting terug naar INDIA2.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=671 path=decisions/DECISION-0011-parels-layer-exception-only-local-discovery.md blob_sha=2ed9c494d92d0d8810bc87b4d20fea698a371666 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+---
+id: DECISION-0011
+subject: "PARELS-laag voor uitzonderlijke niet-spirituele vondsten"
+decided_by: "Mark"
+decided_at: "2026-07-15"
+outcome: "Na vaststelling van de pelgrimsroute krijgt ieder gekozen cluster een afzonderlijke PARELS-laag met alleen aantoonbaar bijzondere lokale vondsten"
+applies_to: "India-project, toekomstige verrijkingsfase na spirituele clusterselectie"
+activation: "DEFERRED_UNTIL_PILGRIMAGE_ROUTE_SELECTED"
+---
+
+# DECISION 0011: PARELS-laag
+
+## 1. Doel
+
+De PARELS-laag is een latere, afzonderlijke verrijkingsfase naast het spirituele A/B/C-dossier. Zij onderzoekt wat Mark in een gekozen reiscluster daarnaast werkelijk niet zou willen missen.
+
+De laag wordt pas uitgevoerd nadat de spirituele pelgrimsroute en de relevante verblijfsclusters voldoende vaststaan. Daardoor wordt geen omvangrijk onderzoek gedaan naar gebieden die Mark uiteindelijk niet bezoekt.
+
+## 2. Geen opvullijsten
+
+De hoofdregel luidt:
+
+`Zoek niet naar categorieën om ze te vullen. Zoek naar uitzonderingen die aantoonbaar vaak door mensen worden genoemd.`
+
+Een categorie blijft leeg wanneer geen opvallende vondst bestaat. Eén echte parel is beter dan tien middelmatige suggesties.
+
+De PARELS-laag put uit de menselijke databank, waaronder:
+
+- lokale en regionale bronnen;
+- terugkerende aanbevelingen van bewoners;
+- onafhankelijke reisgidsen;
+- gespecialiseerde reis- en foodblogs;
+- fotografen en natuurreizigers;
+- actuele bezoekersreviews;
+- reizigersfora;
+- officiële toeristische en erfgoedbronnen.
+
+Geen vondst wordt opgenomen op basis van één enthousiaste bron wanneer geen sterke directe bron of terugkerend patroon bestaat.
+
+## 3. PARELS-waardering
+
+Gebruik een afzonderlijke waardering die niet wordt verward met spiritueel A/B/C of met BRONS/ZILVER/GOUD:
+
+- `P-A` — uitzonderlijke parel; hiervoor mag Mark bewust tijd of een omweg plannen;
+- `P-B` — sterke aanvulling wanneer zij logisch in de route past;
+- `P-C` — volledig gedocumenteerde reservevondst voor extra tijd, vertraging of spontane wijziging.
+
+De P-waardering verandert nooit automatisch de spirituele status van een plek. Nabijheid kan wel het uiteindelijke dagclusteradvies veranderen.
+
+## 4. Zoeklijst
+
+Alleen opnemen wanneer de vondst aantoonbaar opvallend is, met één uitzondering: een redelijk mooie waterval is voor Mark al relevant genoeg.
+
+1. Uitzonderlijk mooie rivier, oever, beek of meer.
+2. Redelijk mooie tot uitzonderlijke waterval.
+3. Uitzonderlijk mooie natuurlijke zwem- of pootjebaadplek die in december/januari realistisch, toegestaan en veilig is.
+4. Uitzonderlijk uitzichtpunt; zonsopgang of zonsondergang alleen wanneer de plek er werkelijk om bekendstaat.
+5. Bijzonder natuurgebied of wandeling die terugkerend sterk wordt aanbevolen.
+6. Lokale specialiteit waarvoor mensen aantoonbaar speciaal komen of omrijden.
+7. Uitzonderlijke chai, koffie, lassi of andere lokale drank met regionale reputatie.
+8. Historisch, iconisch of uitzonderlijk goed restaurant, theehuis, koffiehuis of bakkerij.
+9. Verborgen parel die door meerdere ervaren reizigers of bewoners wordt genoemd.
+10. Bijzondere markt, straat of buurt die de lokale identiteit werkelijk laat zien.
+11. Uitzonderlijke fotolocatie waarvoor fotografen specifiek komen.
+12. Zeldzaamheid of curiositeit die uniek is voor de streek, zoals een boom, grot, brug, trein, traditie, ambacht, dier of fysieke rariteit.
+
+## 5. Water en zwemmen
+
+Per relevante watervondst wordt alleen praktisch gerapporteerd:
+
+- is zwemmen of pootjebaden in Marks reisperiode december/januari realistisch;
+- verwachte water- en luchttemperatuur;
+- toegestaan of verboden;
+- stroming, vervuiling en andere veiligheidsrisico's;
+- natuurlijke schoonheid;
+- reistijd vanaf gekozen A-ankers en verblijfsbasis.
+
+Een heilige kund, vervuilde rivier of gevaarlijke stroming wordt nooit als zwemtip gepresenteerd.
+
+## 6. Nabijheid en clustereffect
+
+Iedere PAREL krijgt hetzelfde vaste wereldwijde indexnummerstelsel als andere plaatsen en wordt ruimtelijk gekoppeld aan de spirituele route.
+
+Per PAREL wordt vermeld:
+
+- dichtstbijzijnde spirituele A-, B- en C-ple
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=672 path=decisions/DECISION-0011-parels-layer-exception-only-local-discovery.md blob_sha=2ed9c494d92d0d8810bc87b4d20fea698a371666 original_offset=4096 original_length=1221 payload_bytes=1221 chunk_index=1 chunk_count=2 classification=text
+k;
+- realistische loop- of reistijd;
+- extra tijd die de toevoeging aan een bestaande dag kost;
+- andere PARELS in hetzelfde mini-cluster.
+
+Een sterke PAREL kan de routewaarde van een nabijgelegen spirituele B- of C-plek verhogen. Zij verandert niet stilzwijgend de intrinsieke spirituele waardering; het gecombineerde dagcluster wordt opnieuw aan Mark voorgelegd.
+
+## 7. Gelijke documentatie
+
+P-A, P-B en P-C blijven voldoende gedocumenteerd om tijdens de reis onmiddellijk bruikbaar te zijn wanneer Mark onverwacht langer in een gebied verblijft. De waardering bepaalt planning, niet de betrouwbaarheid of vindbaarheid van het dossier.
+
+## 8. Uitvoering
+
+SUBREGIE INDIA ontwerpt pas na selectie van de pelgrimsroute een proportionele PARELS-workflow. Gebruik niet de rolbenamingen BRONS, ZILVER en GOUD voor de PARELS-selectie zelf.
+
+Voorkeursnamen voor die latere lichte verificatiestappen:
+
+- `P-SCOUT` — breed mensgericht zoeken;
+- `P-CHECK` — bestaan, actualiteit, kwaliteit en reistijd controleren;
+- `P-SELECT` — compacte P-A/P-B/P-C-selectie en clustereffect opleveren.
+
+Deze namen zijn voorlopig. Implementatie wordt uitgesteld totdat duidelijk is welke clusters werkelijk worden bezocht.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=673 path=decisions/DECISION-0012-place-name-recognition-hooks.md blob_sha=a6f11d922d43fd103ab50b1da583e13e766acd33 original_offset=0 original_length=3455 payload_bytes=3455 chunk_index=0 chunk_count=1 classification=text
+---
+id: DECISION-0012
+subject: "Herkenningshaken bij iedere exotische plaatsnaam"
+decided_by: "Mark"
+decided_at: "2026-07-14"
+outcome: "Iedere latere vermelding van een moeilijk te onthouden plaatsnaam krijgt opnieuw nummer, type en spirituele kern tussen haakjes"
+applies_to: "Alle India-rapporten, tabellen, matrices, routes, hotelvergelijkingen en chatuitvoer"
+clarifies:
+  - "DECISION-0008"
+migration_from:
+  id: "DECISION-0008"
+  path: "decisions/DECISION-0008-place-name-recognition-hooks.md"
+  reason: "Duplicate decision ID repaired; content unchanged except ID and references."
+---
+
+# DECISION 0012: herkenningshaken bij iedere plaatsnaam
+
+## 1. Aanleiding
+
+Mark kan de vele Indiase plaatsnamen niet betrouwbaar uit het hoofd blijven onderscheiden. Een uitleg bij de eerste vermelding is onvoldoende; enkele alinea's later is de betekenis opnieuw onduidelijk.
+
+## 2. Verplichte regel
+
+Bij iedere inhoudelijke herhaling van een moeilijk te onthouden plaatsnaam wordt direct een korte herkenningshaak toegevoegd.
+
+Vaste vorm:
+
+`<plaatsnaam> (nr. <nummer>, <soort plek>, <spirituele kern>)`
+
+Voorbeelden:
+
+- `Govardhan Hill (nr. 6, heilige heuvel, Krishna)`
+- `Kusum Sarovar (nr. 8, heilige vijver, Radha-Krishna)`
+- `Radha Kund (nr. 4, heilige vijver, Radha-devotie)`
+- `Shyam Kund (nr. 5, heilige vijver, Krishna-devotie)`
+- `Katyayani Peeth (nr. 1, tempel en ashram, Shakti en Kriya-lineage)`
+- `Neem Karoli Baba Ashram (nr. 2, ashram en samadhi, Maharaj-ji)`
+- `Krishna Janmabhoomi (nr. 3, geboorteplaats-tempel, Krishna)`
+- `Govardhan Parikrama (nr. 7, pelgrimsrondgang, Krishna/Giriraj)`
+
+## 3. Waar dit verplicht is
+
+De herkenningshaak wordt niet alleen bij de eerste vermelding gebruikt, maar opnieuw wanneer de naam later terugkomt in:
+
+- gewone tekst;
+- tabellen;
+- afstandsmatrices;
+- routebeschrijvingen;
+- hotel- en basisvergelijkingen;
+- samenvattingen;
+- aanbevelingen;
+- verwijzingen als `dicht bij`, `naast`, `in hetzelfde cluster als` of `te combineren met`;
+- chatberichten aan Mark.
+
+Een zin als:
+
+`Direct naast Shyam Kund en in hetzelfde cluster als Govardhan en Kusum Sarovar.`
+
+is voor Mark onvoldoende.
+
+Schrijf voortaan bijvoorbeeld:
+
+`Direct naast Shyam Kund (nr. 5, heilige vijver, Krishna-devotie) en in hetzelfde cluster als Govardhan Hill (nr. 6, heilige heuvel, Krishna) en Kusum Sarovar (nr. 8, heilige vijver, Radha-Krishna).`
+
+## 4. Uitzonderingen
+
+De haak mag alleen worden weggelaten wanneer:
+
+- dezelfde plaatsnaam meerdere keren binnen één zeer korte zin voorkomt en herhaling de zin onleesbaar maakt;
+- de naam in een vaste kolomkop staat en iedere rij direct de volledige herkenningsinformatie bevat;
+- Mark uitdrukkelijk om een ultrakorte lijst zonder toelichting vraagt.
+
+Bij twijfel wordt de herkenningshaak wel toegevoegd.
+
+## 5. Nummerconsistentie
+
+De wereldwijde plaatsindex uit `knowledge/places/NUMBERING_POLICY.md` is leidend. Lokale rapportnummers mogen daarnaast worden getoond, maar veranderen nooit de permanente plaats-ID.
+
+## 6. Taal
+
+Gebruik eenvoudig Nederlands. De haak moet in enkele woorden zeggen:
+
+1. welk nummer de plek heeft;
+2. wat voor plek het fysiek is;
+3. met wie, wat of welke traditie de plek vooral verbonden is.
+
+## 7. Gevolg
+
+SUBREGIE INDIA verwerkt deze regel in mensentaalrapporttemplates, route- en afstandsmatrices, plaatskaarten en INDIA2-uitvoer. De regel geldt ook voor reeds bekende plaatsen wanneer zij in een nieuw rapport opnieuw worden genoemd.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=674 path=decisions/DECISION-0013-location-ids-and-verified-geo-data.md blob_sha=30c27d37d9b2d40f3da59793672a57b6bcb753a0 original_offset=0 original_length=2785 payload_bytes=2785 chunk_index=0 chunk_count=1 classification=text
+---
+id: DECISION-0013
+subject: "Permanente LOCATION_ID's en geverifieerde GEO-data"
+decided_by: "Mark"
+decided_at: "2026-07-15"
+outcome: "Iedere locatie krijgt een permanente reisgerichte LOCATION_ID en GOUD levert geverifieerde WGS84-kaartdata en daarop gebaseerde verbindingen"
+applies_to: "Alle India-clusters, GOUD-datasets, KML/My Maps, rapporten, kaarten en reisdocumenten"
+---
+
+# DECISION 0013: LOCATION_ID en GEO-data
+
+## 1. Twee permanente sleutels
+
+`IND-PLACE-*` blijft de interne wereldwijd unieke database-ID. Daarnaast krijgt iedere opgenomen fysieke locatie één permanente reisgerichte `LOCATION_ID` voor rapporten, kaarten, KML en reisdocumenten.
+
+## 2. Clusterblokken
+
+Ieder reiscluster krijgt één niet-overlappend blok van 100 nummers. De blokken volgen de uiteindelijke reisvolgorde.
+
+- `100-199`: Delhi/aankomst;
+- `200-299`: Braj — Vrindavan, Mathura, Govardhan, Gokul/Mahavan, Barsana en Nandgaon;
+- volgende clusters krijgen achtereenvolgens `300-399`, `400-499` enzovoort;
+- binnen een blok zijn gaten toegestaan;
+- nummers worden nooit hergebruikt, gewijzigd of naar een ander cluster verplaatst;
+- later gevonden locaties krijgen een vrij nummer in het bestaande clusterblok.
+
+`LOCATION_ID` wordt als decimale tekenreeks opgeslagen met minimaal drie cijfers, bijvoorbeeld `200`, `207`, `1000`.
+
+## 3. Verplichte GEO-velden
+
+GOUD levert per kandidaat:
+
+- `LOCATION_ID`;
+- `LATITUDE_WGS84`;
+- `LONGITUDE_WGS84`;
+- `GEO_POINT_TYPE`: `VISITOR_ENTRANCE`, `EXACT_SITE`, `COMPLEX_CENTRE` of `ESTIMATED`;
+- `GEO_VERIFICATION_STATUS`;
+- `GEO_SOURCES`;
+- `GOOGLE_MAPS_URL`;
+- motivatie wanneer meerdere kaartpunten mogelijk zijn.
+
+Bij een bezoekbaar complex heeft de logische bezoekersingang voorkeur. GOUD controleert dat het punt niet naar een gelijknamige plaats, administratief centrum, willekeurig complexmiddelpunt, verkeerde ingang, hotel, winkel of kantoor verwijst.
+
+Waar mogelijk worden twee onafhankelijke bronnen gebruikt. Onvoldoende verificatie blijft zichtbaar; er wordt geen willekeurig punt ingevuld.
+
+## 4. Verbindingen
+
+Iedere vermelde verbinding bevat vertrek-LOCATION_ID, aankomst-LOCATION_ID, vervoerswijze, geschatte tijd, bron of berekeningsmethode en controledatum wanneer tijdsgevoelig. Reistijden en looptijden worden gebaseerd op de vastgelegde geverifieerde GEO-punten.
+
+## 5. C-locaties
+
+C-locaties blijven volledig in kandidatenregister, GEO-dataset, rapport en kaartdata staan. C betekent voor de huidige reis niet bezoeken, niet verwijderen of vergeten.
+
+## 6. Rollen
+
+GOUD maakt geen kaart en kent geen formele of adviserende A/B/C toe. GOUD levert een betrouwbare `geo_locations.jsonl` en `geo_connections.jsonl`. INDIA2 kan daarna zonder nieuw locatieonderzoek KML, kaartlagen en compacte beslisproducten maken.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=675 path=decisions/DECISION-0014-corridor-strict-a-working-geo-and-kml.md blob_sha=f551c60302252c42d249ce142d2dc58d5cc1c0fb original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+---
+id: DECISION-0014
+subject: "Vrindavan-Kumaon-corridor, zeer strenge A-poort, WORKING_GEO en centrale KML"
+decided_by: "Mark"
+decided_at: "2026-07-16"
+outcome: "Onderzoek de snelste corridor naar Kumaon; onderbreek alleen voor vervoer of een werkelijk zware A; gebruik bruikbare gelabelde werkpunten en lever centrale kaartdata/KML"
+applies_to: "VRINDAVAN-KUMAON-CORRIDOR-001 en de daaropvolgende kaart- en regisseursverwerking"
+clarifies:
+  - "DECISION-0003"
+  - "DECISION-0005"
+  - "DECISION-0009"
+  - "DECISION-0013"
+---
+
+# DECISION 0014: corridor, zware A, WORKING_GEO en KML
+
+## 1. Hoofdvraag
+
+De route van Marks formele A-locaties in Vrindavan naar zijn formele A-locaties in Kumaon wordt primair op snelheid, logica en betrouwbaarheid onderzocht. Een tussenstop of overnachting is alleen gerechtvaardigd wanneer vervoer dit praktisch noodzakelijk maakt of wanneer een werkelijk zware, routebepalende A wordt gevonden.
+
+Wanneer geen zware A wordt gevonden, luidt het eindadvies: `DOORREIZEN NAAR KUMAON`.
+
+## 2. Zeer strenge A-poort
+
+Een locatie mag alleen als mogelijke zware A naar INDIA2 worden doorgestuurd wanneer zij minimaal één poort haalt:
+
+1. `DIRECTE_PERSOONLIJKE_LIJN`: concrete fysieke relatie met Marks lijn, TOP_X of AOAY, zoals samadhi, ashram, feitelijke verblijfplaats, onderwijsplek, directe instelling, lineageplek of concrete belangrijke gebeurtenis.
+2. `INDIA_ESSENTIAL`: nationaal of wereldwijd kernheiligdom waarvoor mensen speciaal grote afstanden reizen en waarvan overslaan waarschijnlijk een werkelijke gemiste kans is.
+
+Gewone lokale tempels, algemene stadsinteresse en regionale religieuze plekken rechtvaardigen geen tussenstop of overnachting.
+
+## 3. Krishna-regel
+
+Maak verplicht onderscheid tussen:
+
+- Krishna als leraar van de Bhagavad Gita;
+- Krishna/Babaji binnen de Kriya-lineage;
+- een nationaal of wereldwijd canoniek Krishna-heiligdom;
+- algemene Krishna-tempels;
+- regionale Braj-lila-, kund-, sarovar- en verhaalplaatsen.
+
+Alleen de eerste twee categorieën of een uitzonderlijk sterke derde categorie kunnen zelfstandig een zware A zijn.
+
+## 4. A-gestuurde reislogica
+
+`EEN A MAAKT EEN CLUSTER. EEN CLUSTER MAAKT NOOIT AUTOMATISCH NIEUWE A'S.`
+
+Onderzoek standaard rond bestaande formele A's, langs de werkelijke corridor, rond grote stations en overstapsteden en globaal binnen circa 20 kilometer of ongeveer 30 minuten extra reistijd. Buiten deze zone wordt alleen een zelfstandig zeer zware A onderzocht. Nabijheid versterkt relevantie maar maakt nooit zelfstandig een A.
+
+## 5. WORKING_GEO voor deze run
+
+DECISION-0013 blijft gelden voor permanente LOCATION_ID's en uiteindelijke verificatie. Voor deze run is daarnaast `WORKING_GEO` toegestaan wanneer de bedoelde fysieke locatie redelijk betrouwbaar herkenbaar blijft.
+
+Toegestaan:
+
+- bestaand Google Maps- of OpenStreetMap-punt;
+- straatadres;
+- gebouw- of terreinmiddelpunt;
+- stationspunt;
+- representatief centrum van een route- of landschapsobject.
+
+Een geschatte afwijking van circa 50–500 meter is acceptabel wanneer naam, bron, puntsoort en nauwkeurigheid zichtbaar zijn. Een punt wordt gelabeld `WORKING` of `VERIFIED`; een gelijknamig hotel, winkel, kantoor of verkeerde plaats is nooit acceptabel.
+
+## 6. Centrale kaartlaag
+
+De keten levert een centrale praktische KML of het volledige, zonder nieuw inhoudelijk onderzoek omzetbare bronbestand met minimaal:
+
+- `A_FORMEEL` — groen;
+- `B_ADVIES` — oranje en niet formeel;
+- `C_CONTEXT` — rood;
+- `CORRIDOR_EN_STATIONS` — routes, stations, overstappunten en relevante steden.
+
+Iedere marker bevat LOCATION_ID, naam, cluster, formeel/adviserend karakter, herkenningshaak, GEO-status en routerelevantie. Formele A-locaties uit de volledige repository blijven in de kaartbron zichtbaar. Een ontbrekend blok of ID wordt technisch opgelost zonder een tijdelijk nummer als permanent te presenteren.
+
+## 7. Rollen
+
+BRONS inventariseert breed, onderzoekt routeopties en levert WORKING_GEO en kaartbron. ZILVER verwijdert opgeblazen lokale kandidaten en controleert route- en A-poortclaims. GOUD controleert inhoud, praktisch
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=676 path=decisions/DECISION-0014-corridor-strict-a-working-geo-and-kml.md blob_sha=f551c60302252c42d249ce142d2dc58d5cc1c0fb original_offset=4096 original_length=269 payload_bytes=269 chunk_index=1 chunk_count=2 classification=text
+e logica en geografie, maar blokkeert een bruikbare werkkaart niet uitsluitend omdat een exacte bezoekersingang nog niet is bevestigd.
+
+BRONS, ZILVER en GOUD kennen geen formele A/B/C toe. INDIA2 mag adviserend A/B/C geven. Alleen Mark beslist formeel.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=677 path=decisions/INDEX.yaml blob_sha=2ce46e9b7328da8ab4a5301b81a707777d967466 original_offset=0 original_length=2426 payload_bytes=2426 chunk_index=0 chunk_count=1 classification=text
+schema_version: 1
+validated_by: pipeline/validators/validate_decisions.py
+entries:
+  - id: DECISION-0001
+    path: decisions/DECISION-0001-haidakhan-A.md
+    date: 2026-07-11
+    status: ACTIVE
+    supersedes: []
+  - id: DECISION-0002
+    path: decisions/DECISION-0002-bhumiyadhar-A.md
+    date: 2026-07-11
+    status: ACTIVE
+    supersedes: []
+  - id: DECISION-0003
+    path: decisions/DECISION-0003-krishna-priority-index.md
+    date: 2026-07-12
+    status: ACTIVE
+    supersedes: []
+  - id: DECISION-0004
+    path: decisions/DECISION-0004-katyayani-peeth-a.md
+    date: 2026-07-12
+    status: ACTIVE
+    supersedes: []
+  - id: DECISION-0005
+    path: decisions/DECISION-0005-tradition-confirmation-devotional-reporting-and-advisory-ratings.md
+    date: 2026-07-14
+    status: ACTIVE
+    supersedes: []
+  - id: DECISION-0006
+    path: decisions/DECISION-0006-place-experience-proximity-and-base-selection.md
+    date: 2026-07-14
+    status: ACTIVE
+    supersedes: []
+  - id: DECISION-0007
+    path: decisions/DECISION-0007-photos-and-strict-abc-semantics.md
+    date: 2026-07-14
+    status: ACTIVE
+    supersedes:
+      - DECISION-0006:PARTIAL
+  - id: DECISION-0008
+    path: decisions/DECISION-0008-readable-place-references-and-vrindavan-a-statuses.md
+    date: 2026-07-14
+    status: ACTIVE
+    supersedes: []
+  - id: DECISION-0009
+    path: decisions/DECISION-0009-anchor-clusters-travel-time-and-item-proximity.md
+    date: 2026-07-14
+    status: ACTIVE
+    supersedes: []
+  - id: DECISION-0010
+    path: decisions/DECISION-0010-parallel-cluster-batch-and-compact-decision-reports.md
+    date: 2026-07-15
+    status: ACTIVE
+    supersedes: []
+  - id: DECISION-0011
+    path: decisions/DECISION-0011-parels-layer-exception-only-local-discovery.md
+    date: 2026-07-15
+    status: DEFERRED
+    supersedes: []
+  - id: DECISION-0012
+    path: decisions/DECISION-0012-place-name-recognition-hooks.md
+    date: 2026-07-14
+    status: ACTIVE
+    supersedes: []
+    clarifies:
+      - DECISION-0008
+  - id: DECISION-0013
+    path: decisions/DECISION-0013-location-ids-and-verified-geo-data.md
+    date: 2026-07-15
+    status: ACTIVE
+    supersedes: []
+  - id: DECISION-0014
+    path: decisions/DECISION-0014-corridor-strict-a-working-geo-and-kml.md
+    date: 2026-07-16
+    status: ACTIVE
+    supersedes: []
+    clarifies:
+      - DECISION-0003
+      - DECISION-0005
+      - DECISION-0009
+      - DECISION-0013
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+

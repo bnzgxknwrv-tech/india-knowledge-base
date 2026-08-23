@@ -1,0 +1,508 @@
+>>> CHUNK stream_row=146 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/SRI_YUKTESWAR_PRE_COMPARE_FREEZE.md blob_sha=62ea1f45a85957baa0e02cd06b9240eaeadcf40b original_offset=32768 original_length=4096 payload_bytes=4096 chunk_index=8 chunk_count=10 classification=text
+et Yogananda’s vader:** ontmoeting is genoemd maar locatie is niet gegeven; niet als extra ontdubbelbare locatie opgenomen.
+- **St. Olav’s Church:** alleen kandidaat voor SY-010, geen bewezen identificatie.
+- **Rawalpindi, caravanserai en route-inns:** Rawalpindi ligt in het huidige Pakistan en valt buiten India-scope; naamloze inns op de Rawalpindi–Srinagar-route konden niet landsgrensvast worden toegewezen. De India-sector van de route is hierdoor een onopgeloste miss-detection lead, geen telbaar object.
+- **Puri landingspunt via zee:** alleen op stadsniveau opgenomen (SY-022); geen fictieve pier of havennaam toegevoegd.
+
+## Corpus- en queryfamilies
+
+- **Naamvarianten:** “Sri Yukteswar”, “Swami Sriyukteswar Giri”, “Sri Yukteshwar”, “Priyanath/Priya Nath Karar”, “Karar Swami”.
+- **Levensfase:** birth, ancestral mansion, marriage/family, college, medical study, Lahiri initiation, sannyasa, ashram, mahasamadhi, burial.
+- **Recall-types:** private house, mother’s house, disciple house, room, balcony, courtyard, kitchen, hall, school, college, station, church, ghat, tree, temple, mela, garden, beach, inn, hotel, market, lane, train, sea route, photograph/archive.
+- **Plaatsfamilies:** Serampore/Srirampur, Calcutta/Kolkata, Benares/Varanasi, Allahabad/Prayagraj, Bodh Gaya/Buddhagaya, Puri, Shimla/Simla, Srinagar, Gulmarg, Khilanmarg, Bombay/Mumbai, Bherir Bazar.
+- **Adversarial:** “used to stay”, “visited”, “near courthouse”, “host”, “boardinghouse”, “hutment”, “did not go”, “planned visit”, “appeared”, “room”, “unknown inn”.
+
+## Openstaande verificatieprioriteiten
+
+1. Volledige, paginagebonden editie van Swami Satyananda Giri’s biografie en eventuele Bengali originelen.
+2. Historische kadasters/bouwplannen van Priyadham, Rai Ghat Lane/Buro Bibi Lane en kamerprovenance.
+3. Serampore kerkidentificatie via courthouse-kaarten en gemeentelijke directories.
+4. Serampore College- en Calcutta Medical College-inschrijvingsregisters.
+5. Exact adres van Kadambini Devi in Rana Mahal en van Lahiri Mahasaya’s familiehuis.
+6. 1894 Kumbha-kaart: brug, oever en boomsector.
+7. Bodh Gaya-monastery/ceremoniekamer van Swami Krishna Dayal Giri.
+8. Historische Puri-zeeroute, landing en oorspronkelijke hutvoetafdruk.
+9. Naam van de Srinagar-inn en de India-sector van de Kashmir-road inns.
+10. Regent Hotel-adres/gebouwgeschiedenis.
+11. Originele bron, foto-onderschrift en lokaal archief voor de Bherir Bazar-hut.
+12. Foto- en krantenarchieven voor Albert Hall, Karar Ashram-feesten en Serampore-festivals.
+
+## Bronregister
+
+- **S1 — Semi-primair:** Paramahansa Yogananda, *Autobiography of a Yogi*, publieke 1946-tekst, Project Gutenberg; vooral hoofdstukken 10, 12, 15, 19, 20, 21, 36, 42 en 43. https://www.gutenberg.org/files/7452/7452-h/7452-h.htm
+- **S2 — Institutioneel/semi-primair:** Yogoda Satsanga Society of India, “Swami Sri Yukteswar”. https://yssofindia.org/about/swami-sri-yukteswar
+- **S3 — Institutioneel:** YSS, “YSS/SRF President’s India Tour — 2023”, secties over Serampore hermitage/Smriti Mandir en banyan-tree site. https://yssofindia.org/blog/yss-srf-president-and-spiritual-head-sri-sri-swami-chidanandajis-india-tour-2023
+- **S4 — Institutioneel document:** YSS, West Bengal Janmotsav Bulletin, adres Sri Sri Swami Sri Yukteswar Giri Smriti Mandir, 3A Buro Bibi Lane. https://yssofindia.org/UserFilesTwo/file/West%20Bengal%20Janmotsav%20Bulletin.pdf
+- **S5 — Institutioneel/lijnage:** Karar Ashram, “Historical Background”, regels/secties over eerste Puri-reis, zandheuvel, hut, stichting en lease. https://www.kararashram.org/about.html
+- **S6 — Institutioneel/lijnage:** Karar Ashram, “Lineage of Gurus”, sectie Swami Sri Yukteswar Giri, regels 23–30. https://www.kararashram.org/gurus.html
+- **S7 — Semi-primair gereproduceerd reisdagboek:** Sri Daya Mata, “Pilgrimage to Lord Buddha’s Bodhi Tree and Temple at Bodh Gaya”, reproductie. https://yoganandasite.wordpress.com/2021/05/24/pilgrimage-to-lord-buddhas-bodhi-tree-and-temple-at
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=147 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/SRI_YUKTESWAR_PRE_COMPARE_FREEZE.md blob_sha=62ea1f45a85957baa0e02cd06b9240eaeadcf40b original_offset=36864 original_length=1616 payload_bytes=1616 chunk_index=9 chunk_count=10 classification=text
+-bodh-gaya-daya-mataji/
+- **S8 — Institutioneel:** YSS, nieuwsbrief Prayag/Kumbha-herdenking. https://yssofindia.org/newsletter/july15/index.html
+- **S9 — Overheids-/erfgoedcontext:** Incredible India, “Indian Coffee House”, historische Albert Hall-identiteit. https://www.incredibleindia.gov.in/en/west-bengal/kolkata/indian-coffee-house
+- **S10 — Museum-/erfgoedcontext:** National Museum of Denmark, “St. Olav’s Church”. https://en.natmus.dk/historical-knowledge/historical-knowledge-the-world/asia/india/the-history-of-serampore/st-olavs-church/
+- **S11 — Institutioneel:** Karar Ashram, contact/adres. https://www.kararashram.org/contact.html
+- **S12 — Secundair aggregaat met paginaverwijzingen:** “Swami Sri Yukteswar Giri”, Wikipedia; secties Early life/Spiritual life, met verwijzingen naar Satyananda. https://en.wikipedia.org/wiki/Swami_Sri_Yukteswar_Giri
+- **S13 — Institutionele context:** Serampore College, huidige instelling/campus. https://seramporecollege.ac.in/
+- **S14 — Afgeleide documentweergave, zwak bewijs:** *The Prophet and His Mission — Sri Yukteswar*, Scribd-weergave. https://www.scribd.com/document/764160472/The-Prohpet-and-His-Mission-Sri-Yukteswar
+- **S15 — Institutioneel adres, geen aanwezigheidsbewijs:** YSS Bherir Bazar Meditation Centre. https://yssofindia.org/location/bherir-bazar
+
+## Freezeverklaring
+
+Dit bestand bevriest de eigen externe ontdekking voor Sri Yukteswar vóór iedere vergelijking. Er is geen CCI-vergelijking, geen interne atlaslezing, geen A/B/C-classificatie, geen route- of clusterkeuze en geen reconciliatie uitgevoerd.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=148 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/STATUS.md blob_sha=46451a223062f941b5d82dd3ed7acd84cb10aabf original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# STATUS — TOP11-PARALLEL-CHATGPT-SWEEP-001
+
+state: ALL_EIGHT_PRE_COMPARE_FREEZES_COMPLETE_STOP
+branch: agent/chatgpt-top11-parallel-sweep
+comparison_with_internal_allowed: NEE
+
+## PERSONEN
+- Yogananda: FROZEN
+  - normalized_location_count: 127
+  - physical_identity: EXACT 48; DEELS 20; ALLEEN_PLAATS 15; ONBEKEND 44
+  - corpus_families: autobiography/travel narrative; YSS site histories; photo captions; host networks; itinerary nodes; private houses/lodging; institutions and room-level sublocations
+  - blocked_sources: family diaries/correspondence; complete Mejda/later appendices; cadastral/hotel/palace/rail registers; camp plans; photo negatives
+  - saturation: NEE — unnamed houses, hotels, camps, routes, rooms and photo sites remain archive-dependent
+  - freeze_sha: 69a387d162b4fe7b89b63bbd1b11f0d56e62443d
+- Mahavatar Babaji: FROZEN
+  - normalized_location_count: 35
+  - physical_identity: EXACT 5; DEELS 17; ALLEEN_PLAATS 11; ONBEKEND 2
+  - corpus_families: web-accessible core lineage source; four major claimant traditions; ashrams/caves; appearance traditions; adversarial claim separation
+  - blocked_sources: print-only and private archives; open-ended modern appearance claims; unresolved physical-identity conflicts
+  - saturation: NEE — broad claimant sweep completed, but nonpublic archives and open-ended claims prevent exhaustion
+  - freeze_sha: f565ff163e35597d2c4ed802676a4671f9da3b70
+- Lahiri Mahasaya: FROZEN
+  - normalized_location_count: 60
+  - physical_identity: EXACT 6; DEELS 20; ALLEEN_PLAATS 17; ONBEKEND 17
+  - corpus_families: full family/lineage biography; Autobiography of a Yogi full text; official lineage; multilingual spelling/host/route/school/temple/photo/adversarial sweeps
+  - blocked_sources: PWD and host-address archives; school/marriage records; cave identification; fieldwork
+  - saturation: JA — final independent web rounds yielded no new localizable India locations; remaining uncertainty requires archive/field research
+  - freeze_sha: 71bb5b6406fec1e7b59511e7957d247c3bdabc50
+- Sri Yukteswar: FROZEN
+  - normalized_location_count: 38
+  - physical_identity: EXACT 11; DEELS 23; ALLEEN_PLAATS 3; ONBEKEND 1
+  - corpus_families: published primary/semi-primary narrative; institutional histories; ashrams; private homes; pilgrimage nodes; room/sublocation evidence; adversarial checks
+  - blocked_sources: complete Satyananda biography; private-address/room records; Kashmir inn records; cadastral confirmation
+  - saturation: NEE — inaccessible biography and unresolved private/relative locations leave material leads
+  - freeze_sha: 7ebad72652cf14d750c00aaa77fc25f53f2be2cd
+- Neem Karoli Baba: FROZEN
+  - normalized_location_count: 113
+  - physical_identity: EXACT 35; DEELS 23; ALLEEN_PLAATS 19; ONBEKEND 36
+  - corpus_families: close-devotee memoir; Ram Dass/Western devotee stories; ashram/trust histories; private houses; rooms/verandas/kitchens/courtyards; rail/road nodes; pan-Indian pilgrimage; final medical journey; later-memorial checks
+  - blocked_sources: full searchable core book editions; Hindi press OCR; family address books; railway/military/police/cadastral/medical/hotel records; trust files; photo negatives
+  - saturation: NEE — thousands of journeys and unnamed private locations remain, and several core books were not fully searchable
+  - freeze_sha: 180bf023a0a06f7ebb0d9df762e5fe0530f59954
+- Ram Dass: FROZEN
+  - normalized_location_count: 57
+  - physical_identity: EXACT 13; DEELS 24; ALLEEN_PLAATS 2; ONBEKEND 18
+  - corpus_families: first-person memoir/interviews; Love Serve Remember materials; Indian ashram narratives; private houses/hotels; rail/road routes; medical and photo-location leads
+  - blocked_sources: South India Shiva-route and Baneshwar identity; Sombari ashram; private houses/hotels; 2004 medical location; Lama Govinda visit records
+  - saturation: NEE — several materially distinct route, lodging, host and medical locations remain unresolved
+  - freeze_sha: 799949b551564a9993d4afe15403c36e55213af2
+- Ramana Maharshi: FROZEN
+  - normalized_location_count: 103
+  - physica
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=149 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/STATUS.md blob_sha=46451a223062f941b5d82dd3ed7acd84cb10aabf original_offset=4096 original_length=1595 payload_bytes=1595 chunk_index=1 chunk_count=2 classification=text
+l_identity: EXACT 47; DEELS 37; ALLEEN_PLAATS 7; ONBEKEND 12
+  - corpus_families: main chronology; complete Madurai–Arunachala journey; residences; giripradakshina; ashram and photo sublocations; adversarial presence checks
+  - blocked_sources: incompletely searchable core books; nonpublic ashram registers and negatives; unnamed bhiksha, rock, tree and route points
+  - saturation: NEE — broad route/residence/sublocation coverage leaves material archive- and field-dependent recall leads
+  - freeze_sha: 1eb3e422c25bba5ef8ec9c72a43332e62ca227c4
+- Ramakrishna: FROZEN
+  - normalized_location_count: 175
+  - physical_identity: EXACT 55; DEELS 52; ALLEEN_PLAATS 30; ONBEKEND 38
+  - corpus_families: complete Great Master biography; all 52 Gospel chapters; official Ramakrishna Math/Mission pilgrimage corpus; host/private-house, temple, route, photo and adversarial miss-detection sweeps
+  - blocked_sources: historical parcel/address identity; private estate/house archives; nonpublic registers and image negatives
+  - saturation: JA — repeated full-corpus and adversarial discovery passes yielded chiefly already-normalized places or locations belonging to others; parcel identity remains separate
+  - freeze_sha: f813a8ae17ca61a98ac0beb0dac214ad2169e9a8
+
+## HARD
+Alle acht onafhankelijke externe PRE-COMPARE freezes zijn voltooid en afzonderlijk gecommit. Geen interne persoonsatlas, CCI-resultaat of oude kandidatenlijst is geopend of vergeleken.
+
+next_allowed_step: STOP — geen vergelijking, reconciliatie, A/B/C, route- of clusterkeuze, merge of verdere interne lezing in deze run.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=150 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/TASK.md blob_sha=d4648442c691df7d76019798e1ec18c74027fa1c original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# TOP11-PARALLEL-CHATGPT-SWEEP-001
+
+Doel: één onafhankelijke ChatGPT-onderzoekschat laat parallel landelijke fysieke-locatiesweeps uitvoeren voor de door Mark als deep-sweepwaardig aangemerkte personen/lijnen, als externe detectorlaag naast CCI.
+
+## PERSONEN
+1. Paramahansa Yogananda
+2. Mahavatar Babaji
+3. Lahiri Mahasaya
+4. Sri Yukteswar
+5. Neem Karoli Baba
+6. Ram Dass
+7. Ramana Maharshi
+8. Ramakrishna
+
+Vivekananda en Hariharananda zijn expliciet NIET in scope voor exhaustieve sweeps; zij krijgen later alleen major-site audits.
+
+## ONAFHANKELIJKHEID — HARD
+Dit is een externe/adversarial sweep. Tijdens discovery mag de onderzoeks-chat GEEN bestaande interne kandidatenlijsten, CCI-atlassen, eerdere persoonsresultaten, externe union-resultaten of regionale selectie-output uit deze repository lezen.
+
+Toegestaan vóór de freeze:
+- uitsluitend dit TASK-bestand;
+- openbare externe bronnen op internet;
+- eigen onafhankelijke bronanalyse.
+
+Niet toegestaan vóór de freeze:
+- root README / governance die naar interne resultaten leidt;
+- bestaande person-centric atlasbestanden;
+- Yogananda PR #24 atlas;
+- CCI 084–087 output;
+- METHOD_V1 kandidaten;
+- eerdere Anandamayi union;
+- cluster-/A/B/C-besluiten als bron voor kandidaten.
+
+Per persoon eerst de eigen ruwe atlas volledig afronden en als PRE-COMPARE FREEZE naar GitHub schrijven. Pas nadat ALLE acht persoonsfreezes zijn geschreven, mag een latere aparte reconciliatietaak de reporesultaten vergelijken.
+
+## PARALLEL WERKEN
+Gebruik waar beschikbaar onafhankelijke subagents/workers, minimaal één primaire worker per persoon. Werk de acht personen parallel, niet sequentieel. Subagents mogen tijdens discovery elkaars kandidaten niet gebruiken.
+
+Binnen iedere persoon mag verder parallel worden opgesplitst in:
+- primaire/lineage corpus;
+- biografie/memoires/brieven;
+- host/gastheer/netwerk;
+- reisroutes/chronologie;
+- privéhuizen, ashrams, tempels, zalen, hotels, stations, landgoederen;
+- foto/archief-identificatie;
+- adversarial miss-finder.
+
+## RECALL-DOEL
+Vind iedere verifieerbare fysieke locatie in India waar de persoon aantoonbaar persoonlijk aanwezig was of die als directe, concrete levens-/lineage-locatie relevant is. Bewaar kleine touchpoints; geen toeristische selectie.
+
+Per locatie minimaal:
+- fysieke locatienaam;
+- stad/dorp + staat;
+- type;
+- wat de persoon daar deed;
+- datum/periode;
+- PERSONALLY_PRESENT: JA / ONZEKER / NEE;
+- PHYSICAL_IDENTITY: EXACT / DEELS / ALLEEN_PLAATS / ONBEKEND;
+- host/gastheer/netwerkpersoon indien relevant;
+- primaire/semi-primaire bron + locator waar mogelijk;
+- secundaire steun;
+- historisch versus huidig gebouw indien bekend;
+- onzekerheden/conflicten;
+- unresolved lead indien fysieke identiteit nog te achterhalen lijkt.
+
+## HARD REGELS
+- Vermelding van een plaats in een boek is geen bewijs van persoonlijke aanwezigheid.
+- Biografische locatie van iemand anders is geen locatie van de onderzochte persoon.
+- Later instituut/ashram is geen bewijs dat de persoon daar zelf was.
+- Geen adressen of coördinaten raden.
+- Stad en concreet gebouw zijn verschillende granulariteitsniveaus.
+- Verschillende fysieke sublocaties op één terrein apart bewaren als de bron dat ondersteunt.
+- Twijfel behouden maar expliciet markeren.
+- Negatieve bevindingen bewaren wanneer bekende claims na controle niet blijken te kloppen.
+- Geen A/B/C, geen routeadvies, geen clusterkeuze.
+
+## OUTPUTBRANCH EN PADEN
+Schrijf uitsluitend naar de aparte branch:
+`agent/chatgpt-top11-parallel-sweep`
+
+Niet naar de actieve CCI-werkbranch, zodat CCI en ChatGPT echt parallel zonder write-conflicten kunnen werken.
+
+Onder:
+`runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/`
+
+Bestanden:
+- `YOGANANDA_PRE_COMPARE_FREEZE.md`
+- `BABAJI_PRE_COMPARE_FREEZE.md`
+- `LAHIRI_MAHASAYA_PRE_COMPARE_FREEZE.md`
+- `SRI_YUKTESWAR_PRE_COMPARE_FREEZE.md`
+- `NEEM_KAROLI_BABA_PRE_COMPARE_FREEZE.md`
+- `RAM_DASS_PRE_COMPARE_FREEZE.md`
+- `RAMANA_MAHARSHI_PRE_COMPARE_FREEZE.md`
+- `RAMAKRISHNA_PRE_COMPARE_FREEZE.md`
+- `STATUS.md`
+
+Commit per persoon zodra die persoonsfreeze klaar is. Wacht niet tot alle acht klaar
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=151 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/TASK.md blob_sha=d4648442c691df7d76019798e1ec18c74027fa1c original_offset=4096 original_length=597 payload_bytes=597 chunk_index=1 chunk_count=2 classification=text
+ zijn om duurzaam op te slaan.
+
+## STATUS
+STATUS.md bevat per persoon:
+- state;
+- aantal genormaliseerde masterlocaties;
+- aantal EXACT/DEELS/ALLEEN_PLAATS/ONBEKEND;
+- belangrijkste corpusfamilies onderzocht;
+- belangrijkste blocked/unavailable bronnen;
+- SATURATION: JA/NEE + waarom;
+- freeze commit SHA.
+
+## STOPVOORWAARDE
+Na alle acht onafhankelijke freezes:
+- schrijf eindstatus;
+- vergelijk NIET met CCI/interne atlas;
+- merge niets;
+- maak geen A/B/C;
+- stop en meld alleen welke freezes klaar zijn, counts en commit-SHA's.
+
+De reconciliatie met CCI gebeurt later door INDIA/een aparte taak.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=152 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/YOGANANDA_PRE_COMPARE_FREEZE.md blob_sha=c0140d19040036a1cfd24f22f8f8efae22e959c2 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=9 classification=text
+# Paramahansa Yogananda — pre-compare freeze
+
+**Run:** TOP11-PARALLEL-CHATGPT-SWEEP-001  
+**Freeze type:** independent external blind sweep; no pre-compare corpus or internal atlas consulted  
+**Scope:** personally evidenced locations in present-day India; foreign legs are excluded. Repeated visits are normalized to one physical location, while materially distinct sublocations inside a complex remain separate.  
+**Evidence rule:** `JA` requires a source that places Yogananda himself there; `ONZEKER` preserves a plausible lead without upgrading a place mention to presence; `NEE` is a negative control. `EXACT` means the physical site is identifiable, not that every historic structure survives.
+
+## Source key
+
+- **P1** — Paramahansa Yogananda, *Autobiography of a Yogi* (1946 text), Project Gutenberg, chapters 1–46 and image captions: https://www.gutenberg.org/files/7452/7452-h/7452-h.htm
+- **S1** — Yogoda Satsanga Society of India (YSS), Dakshineswar pilgrimage page, including Kolkata and Serampore associated places: https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar
+- **S2** — YSS, Ranchi location page (preserved room, Litchi Vedi, storeroom/Smriti Mandir): https://yssofindia.org/location/ranchi
+- **S3** — YSS, Dihika location page (school site, pond and meditation spot): https://yssofindia.org/location/dihika
+- **S4** — YSS, “Return to India”: https://yssofindia.org/paramahansa-yogananda/return-to-india
+- **S5** — YSS, Dakshineswar Math history/current complex: https://yssofindia.org/location/dakshineswar
+
+## Normalized location register
+
+| # | Location | City/state | Type | Personal act and period | PERSONALLY_PRESENT | PHYSICAL_IDENTITY | Host/network | Primary/semi-primary locator | Secondary | Historic/current; uncertainty/conflict; unresolved lead |
+|---:|---|---|---|---|---|---|---|---|---|---|
+| 1 | Ghosh family compound/birthplace | Gorakhpur, Uttar Pradesh | private family residence | Born here and lived here during early childhood, 1893–c.1901 | JA | DEELS | Bhagabati Charan and Gyan Prabha Ghosh family | P1 ch.1, opening childhood narrative | — | Historic residence/compound; exact building/address not established in the consulted open corpus. Verify cadastral identity and survival. |
+| 2 | Neem tree in Gorakhpur family compound | Gorakhpur, Uttar Pradesh | garden sublocation | Sat beneath the compound neem tree; childhood play/meditation context | JA | ONBEKEND | Ghosh family | P1 ch.1, Gorakhpur compound passage | — | Tree-level historic identity unresolved; do not equate with any later memorial tree without evidence. |
+| 3 | Family estate at Ichapur | Ichapur, West Bengal | family estate/private house | Stayed at the family estate; recovered from cholera after prayer before Lahiri Mahasaya's portrait, childhood | JA | ALLEEN_PLAATS | Ghosh family | P1 ch.1, Ichapur estate episode | — | Town/estate named, parcel and surviving house unknown. |
+| 4 | Ghosh family bungalow | Bareilly, Uttar Pradesh | private residence | Lived here after the family's move; remembered piazza, lawn and sheoli tree | JA | ONBEKEND | Ghosh family | P1 ch.2, Bareilly bungalow passage | — | No address or present building identity found. |
+| 5 | Lawn/sheoli tree at Bareilly bungalow | Bareilly, Uttar Pradesh | garden sublocation | Childhood domestic scene and bereavement memory | JA | ONBEKEND | Ghosh family | P1 ch.2 | — | Lost/unmapped sublocation within an unidentified bungalow. |
+| 6 | 50 Amherst Street | Kolkata, West Bengal | private residence | Reached the family home after his mother's death; later meditated/experienced a vision there with Master Mahasaya | JA | EXACT | Ghosh family; Master Mahasaya | P1 ch.2 and ch.9 | S1 | Address is explicit and YSS identifies the surviving associated house; verify current street numbering/name. |
+| 7 | 4 Garpar Road family house | Kolkata, West Bengal | private residence | Lived here as a youth; repeatedly departed/returned; received visitors and spiritual experiences | JA | EXACT | Ghosh family | P1 chs.4, 10, 37 | S1 | Historic house is maintain
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=153 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/YOGANANDA_PRE_COMPARE_FREEZE.md blob_sha=c0140d19040036a1cfd24f22f8f8efae22e959c2 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=9 classification=text
+ed by descendants according to YSS. |
+| 8 | Garpar Road attic meditation room | Kolkata, West Bengal | room/sublocation | Meditated and sought visions here as a youth | JA | DEELS | Ghosh family | P1 ch.4, “attic room” | S1 | Room is historically described; present room-to-text match needs on-site verification. |
+| 9 | Garpar Road first-floor room (Babaji encounter) | Kolkata, West Bengal | room/sublocation | Reported Babaji's appearance before 1920 departure | JA | DEELS | Ghosh family; Babaji | P1 ch.37, pre-departure encounter | S1 | Floor/room traditions should be checked against historic plans; same building as #7. |
+| 10 | Chadni Chowk bazaar | Kolkata, West Bengal | market | Went here while attempting a youthful flight to the Himalayas | JA | ALLEEN_PLAATS | Amar Mitra; Jatinda | P1 ch.4 | — | Large market district; exact shop/spot unknown. |
+| 11 | Burdwan railway station | Bardhaman, West Bengal | station/transit | Changed/travelled through station during attempted flight | JA | EXACT | Amar; Jatinda | P1 ch.4 | — | Station is identifiable; historic platform/building not fixed. |
+| 12 | Mughal Sarai railway station | Pt. Deen Dayal Upadhyaya Nagar, Uttar Pradesh | station/transit | Journeyed through en route to Hardwar; intercepted through telegram chain | JA | EXACT | Amar | P1 ch.4 | — | Modern station name differs; platform not given. |
+| 13 | Bareilly railway station | Bareilly, Uttar Pradesh | station/transit | Brief halt; met Dwarka Prasad during Himalayan flight | JA | EXACT | Dwarka Prasad; Amar | P1 ch.4 | — | Historic station footprint may differ. |
+| 14 | Hardwar railway station | Haridwar, Uttarakhand | station/transit | Arrived during youthful Himalayan flight and was detained/returned | JA | EXACT | Amar; elder brothers/officials | P1 ch.4 | — | Station-level only; platform/building unknown. |
+| 15 | Haridwar town route | Haridwar, Uttarakhand | travel stop | Entered the pilgrimage city during the attempted flight | JA | ALLEEN_PLAATS | Amar | P1 ch.4 | — | No secure temple, ghat or lodging attached; retain only city-level presence. |
+| 16 | Swami Pranabananda's residence | Varanasi, Uttar Pradesh | private house | Visited and conversed with the “saint with two bodies” | JA | ONBEKEND | Pranabananda; Kedar Nath Babu | P1 ch.3, second-floor sitting room | — | City and internal floor given, but street/address not found. |
+| 17 | Pranabananda residence second-floor hall | Varanasi, Uttar Pradesh | room/sublocation | Sat with Pranabananda and witnessed Kedar Nath's arrival | JA | ONBEKEND | Pranabananda | P1 ch.3 | — | Dependent on unresolved house identity (#16). |
+| 18 | Kalighat Kali Temple | Kolkata, West Bengal | temple | Visited in search of Gandha Baba | JA | EXACT | local devotees | P1 ch.5 | — | Personal presence is explicit; exact interior subsite not stated. |
+| 19 | Gandha Baba's house near Kalighat | Kolkata, West Bengal | private house | Visited, sat in audience and spoke with Gandha Baba | JA | ONBEKEND | Gandha Baba; crowd of disciples | P1 ch.5 | — | Only proximity to Kalighat is supplied. |
+| 20 | Tiger Swami's house | Bhowanipur, Kolkata, West Bengal | private house | Visited and interviewed Sohong/Tiger Swami | JA | ONBEKEND | Tiger Swami; servant | P1 ch.6 | — | Neighborhood named, address absent. |
+| 21 | Bhaduri Mahasaya/Nagendra Math house | Upper Circular Road, Kolkata, West Bengal | private house/monastic site | Repeatedly visited the levitating saint | JA | EXACT | Bhaduri Mahasaya | P1 ch.7 | S1 | YSS says house was converted to Nagendra Math; confirm exact current number/access. |
+| 22 | Bhaduri Mahasaya's top-floor room | Kolkata, West Bengal | room/sublocation | Attended discourses and witnessed yogic practice | JA | DEELS | Bhaduri Mahasaya; disciples | P1 ch.7 | S1 | Building match strong; exact historic room requires interior validation. |
+| 23 | J.C. Bose residence near Garpar Road | Kolkata, West Bengal | private house | Visited scientist Jagadis Chandra Bose | JA | ONBEKEND | J.C. Bose | P1 ch.8 | — | “Close to” Garpar Road only; 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=154 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/YOGANANDA_PRE_COMPARE_FREEZE.md blob_sha=c0140d19040036a1cfd24f22f8f8efae22e959c2 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=9 classification=text
+no independent address fix in consulted corpus. |
+| 24 | Bose Institute | Kolkata, West Bengal | scientific institute | Attended dedication and toured laboratories/demonstrations | JA | EXACT | J.C. Bose | P1 ch.8 | — | Institution is identifiable; rooms used in 1917 need archive plans. |
+| 25 | Master Mahasaya's school/fourth-floor room | 50 Amherst Street, Kolkata, West Bengal | school/private room | Visited almost daily and meditated with Master Mahasaya | JA | EXACT | Mahendranath Gupta | P1 ch.9 | S1 | Same address as #6 but functionally distinct upper room; exact historic room condition unknown. |
+| 26 | Dakshineswar Kali Temple complex | Dakshineswar, West Bengal | temple complex | Repeated visits; meditation, prayer and samadhi | JA | EXACT | temple staff; Ramakrishna devotional network | P1 ch.9 | S1 | Strong complex-level identification. |
+| 27 | Dakshineswar temple portico/colonnade | Dakshineswar, West Bengal | temple sublocation | Meditated before the Divine Mother during an intense visit | JA | EXACT | Master Mahasaya | P1 ch.9 | S1 | Architectural subsite identifiable; precise bay not fixed. |
+| 28 | Sri Ramakrishna's room, Dakshineswar | Dakshineswar, West Bengal | shrine room | Meditated in the preserved room | JA | EXACT | Dakshineswar temple/Ramakrishna network | P1 ch.9 context | S1 | Semi-primary pilgrimage tradition supplies the room; date should be cross-checked. |
+| 29 | Panchavati/banyan area, Dakshineswar | Dakshineswar, West Bengal | sacred grove | Meditated beneath/near the sacred trees | JA | EXACT | Dakshineswar temple | P1 ch.9, sacred grove | S1 | Current sacred grove is identifiable; individual historic tree continuity needs arboricultural record. |
+| 30 | Small temple near Howrah station | Kolkata/Howrah, West Bengal | temple | Entered and prayed after a Dakshineswar episode | JA | ONBEKEND | none stated | P1 ch.9 | — | Temple name absent; adversarially unresolved among multiple shrines near station. |
+| 31 | College Square/Goldighi garden bench | Kolkata, West Bengal | garden/public space | Sat with Master Mahasaya and discussed a vision | JA | DEELS | Master Mahasaya | P1 ch.9, Calcutta University garden/Goldighi | — | Water body/garden identifiable; exact bench is not. |
+| 32 | Calcutta University hall | Kolkata, West Bengal | university hall | Attended a lecture/academic occasion with Master Mahasaya | JA | DEELS | Master Mahasaya; university | P1 ch.9 | — | University is identifiable; hall name omitted. |
+| 33 | Kolkata bathing ghats | Kolkata, West Bengal | riverfront | Walked/meditated at night during youthful spiritual search | JA | ALLEEN_PLAATS | none | P1 ch.10 | — | Plural, unnamed ghats; do not collapse to a famous ghat. |
+| 34 | Kolkata cremation grounds adjoining ghats | Kolkata, West Bengal | cremation ground | Meditated/roamed at night | JA | ALLEEN_PLAATS | none | P1 ch.10 | — | No named cremation ground; candidate matching is unresolved. |
+| 35 | Hindu High School | Kolkata, West Bengal | school | Studied and sat examinations before leaving for Benares | JA | EXACT | school; family | P1 ch.10 | — | Institutional identity is clear; campus/building continuity needs school archive. |
+| 36 | Mahamandal hermitage | Varanasi, Uttar Pradesh | ashram | Entered as a resident novice and lived/worked there | JA | ONBEKEND | Swami Dayananda; fellow disciples | P1 ch.10 | — | Name and city are explicit, but no address/site continuity established. |
+| 37 | Attic/room at Mahamandal hermitage | Varanasi, Uttar Pradesh | room/sublocation | Meditated and stayed during his residence | JA | ONBEKEND | Swami Dayananda | P1 ch.10 | — | Depends on unresolved hermitage parcel. |
+| 38 | Bengali-section market | Varanasi, Uttar Pradesh | market | Went out from hermitage on an errand before meeting Sri Yukteswar | JA | ALLEEN_PLAATS | fellow hermitage resident | P1 ch.10 | — | Descriptive district only. |
+| 39 | Narrow lane of first meeting with Sri Yukteswar | Varanasi, Uttar Pradesh | street | First saw and embraced his guru, 1910 | JA | ONBEKEND | Sri Yukteswar | P1 ch.10 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=155 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/YOGANANDA_PRE_COMPARE_FREEZE.md blob_sha=c0140d19040036a1cfd24f22f8f8efae22e959c2 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=9 classification=text
+| — | “Inconspicuous lane” near Bengali market; exact lane unresolved. |
+| 40 | Ananta Ghosh's bungalow | Agra, Uttar Pradesh | private residence | Stayed with elder brother before/after Brindaban test | JA | ONBEKEND | Ananta Ghosh | P1 ch.11 | — | Address absent; Bengal-Nagpur Railway employment may yield an archival lead. |
+| 41 | Taj Mahal | Agra, Uttar Pradesh | monument | Visited during youth and again in 1936 | JA | EXACT | Jitendra; later Richard Wright | P1 chs.11, 42 | S4 | Presence on two trips; no exact terrace/room claimed. |
+| 42 | Gauri Ma's hermitage | Vrindavan, Uttar Pradesh | ashram/private compound | Received meal/hospitality after arriving penniless | JA | ONBEKEND | Gauri Ma; Pratap Chatterji | P1 ch.11 | — | Hermitage name/address not supplied. |
+| 43 | Dining patio at Gauri Ma's hermitage | Vrindavan, Uttar Pradesh | courtyard sublocation | Ate an elaborate meal with Jitendra | JA | ONBEKEND | Gauri Ma | P1 ch.11 | — | Dependent on unresolved #42. |
+| 44 | Madan Mohan Temple | Vrindavan, Uttar Pradesh | temple | Visited during the penniless Brindavan day | JA | EXACT | Jitendra; Pratap | P1 ch.11 | — | Temple is named and identifiable. |
+| 45 | Vrindavan railway station | Vrindavan, Uttar Pradesh | station | Arrived/departed during test; later met near it | JA | EXACT | Jitendra; Pratap | P1 ch.11 | — | Historic station/platform not fixed. |
+| 46 | Secluded place near Vrindavan station | Vrindavan, Uttar Pradesh | outdoor initiation spot | Initiated Pratap into Kriya Yoga | JA | ONBEKEND | Pratap Chatterji | P1 ch.11 | — | No distance/direction; likely unrecoverable without Pratap papers. |
+| 47 | Sri Yukteswar Ashram, Rai Ghat/Buro Bibi Lane | Serampore, West Bengal | ashram | Lived, trained and repeatedly visited from c.1910; 1935 reunion | JA | EXACT | Sri Yukteswar; disciples | P1 chs.10–26, 40, 42 | S1 | Old ashram site now marked by Smriti Mandir; lane-name variants retained. |
+| 48 | Courtyard, Serampore ashram | Serampore, West Bengal | ashram sublocation | Arrivals, group meetings and 1935 reception | JA | DEELS | Sri Yukteswar; disciples | P1 chs.12, 40 | S1 | Site exact, historic courtyard fabric/limits partly changed. |
+| 49 | Upstairs sitting room/bedroom, Serampore ashram | Serampore, West Bengal | room/sublocation | Instruction, meditation and private conversations | JA | DEELS | Sri Yukteswar | P1 chs.12–26, 40, 42 | S1 | Reconstructed/memorialized site; original room mapping needs plans/photos. |
+| 50 | Balcony, Serampore ashram | Serampore, West Bengal | building sublocation | Sat and conversed with Sri Yukteswar | JA | DEELS | Sri Yukteswar | P1 ch.40 | S1 | Historic balcony identity within changed fabric unresolved. |
+| 51 | Panthi student boarding house | Serampore, West Bengal | boarding house | Lived here during college years; occupied a Ganges-facing room | JA | DEELS | student network | P1 ch.18 | S1 | YSS reports remnants/plot; old structure later demolished in another current-language version. Parcel requires survey. |
+| 52 | Ganges-facing room, Panthi boarding house | Serampore, West Bengal | private room | Stayed/studied here | JA | ONBEKEND | boarding-house residents | P1 ch.18 | S1 | Building altered/demolished; room no longer recoverable from consulted evidence. |
+| 53 | Serampore College | Serampore, West Bengal | college | Attended classes, sat examinations, graduated; later addressed alumni | JA | EXACT | college faculty/students | P1 chs.10, 18, 42 | S1 | Campus exact; individual historic classroom/hall not identified. |
+| 54 | Uncle Sarada Prasad Ghosh's house/Anandaloka room | Serampore, West Bengal | private residence | Stayed for a time; room preserved as a shrine | JA | EXACT | Sarada Prasad Ghosh; Prabhas Chandra Ghosh | P1 college-years context | S1 | Semi-primary institutional page provides the house/room association. |
+| 55 | Christian church near Serampore courthouse | Serampore, West Bengal | church | Entered/visited during an episode involving his schoolmaster | JA | ONBEKEND | schoolmaster | P1 ch.20 | — | Denomination/name a
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=156 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/YOGANANDA_PRE_COMPARE_FREEZE.md blob_sha=c0140d19040036a1cfd24f22f8f8efae22e959c2 original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=9 classification=text
+bsent; multiple candidate risk. |
+| 56 | Schoolmaster's house | Serampore, West Bengal | private house | Visited a schoolmaster in a healing/prediction episode | JA | ONBEKEND | unnamed schoolmaster | P1 ch.20 | — | No address/name secure. |
+| 57 | Serampore courthouse | Serampore, West Bengal | civic building | Went there in the same local episode | JA | DEELS | schoolmaster; officials | P1 ch.20 | — | Institution/site identifiable; historic building phase not validated. |
+| 58 | Sarada Prasad Ghosh's office | Serampore, West Bengal | office | Visited his uncle's office | JA | ONBEKEND | Sarada Prasad Ghosh | P1 ch.20 | — | Employer/address absent. |
+| 59 | Simla streets and market | Shimla, Himachal Pradesh | town/market | Walked and shopped during Kashmir journey | JA | ALLEEN_PLAATS | Sri Yukteswar; Auddy; companions | P1 ch.21 | — | No hotel or exact shop supplied. |
+| 60 | Srinagar two-storey inn | Srinagar, Jammu and Kashmir | hotel/inn | Lodged during Kashmir journey | JA | ONBEKEND | Sri Yukteswar; travel party | P1 ch.21 | — | Unnamed inn; architectural description may support newspaper/directory research. |
+| 61 | Shankaracharya Temple | Srinagar, Jammu and Kashmir | temple/hill | Climbed/visited and meditated | JA | EXACT | Sri Yukteswar; travel party | P1 ch.21 | — | Exact monument; route/specific shrine area not fixed. |
+| 62 | Gulmarg | Baramulla district, Jammu and Kashmir | hill resort | Visited on excursion | JA | ALLEEN_PLAATS | Sri Yukteswar; travel party | P1 ch.21 | — | No lodge/meadow subsite secure. |
+| 63 | Khilanmarg | Baramulla district, Jammu and Kashmir | mountain meadow | Travelled/rode here | JA | ALLEEN_PLAATS | Sri Yukteswar; travel party | P1 ch.21 | — | Broad landscape location. |
+| 64 | Shalimar Bagh | Srinagar, Jammu and Kashmir | Mughal garden | Visited during Kashmir trip | JA | EXACT | Sri Yukteswar; travel party | P1 ch.21 | — | Garden exact; internal terrace not stated. |
+| 65 | Nishat Bagh | Srinagar, Jammu and Kashmir | Mughal garden | Visited during Kashmir trip | JA | EXACT | Sri Yukteswar; travel party | P1 ch.21 | — | Garden exact. |
+| 66 | Dal Lake | Srinagar, Jammu and Kashmir | lake/travel route | Travelled by shikara | JA | ALLEEN_PLAATS | Sri Yukteswar; travel party | P1 ch.21 | — | No ghat/houseboat identity. |
+| 67 | Karar Ashram | Puri, Odisha | ashram | Visited repeatedly; stayed, trained, and returned in 1936 after Sri Yukteswar's death | JA | EXACT | Sri Yukteswar; ashram disciples | P1 chs.15, 42 | — | Named historic ashram; parcel/building continuity should be verified locally. |
+| 68 | Sri Yukteswar's room, Karar Ashram | Puri, Odisha | room/sublocation | Met him there; saw/attended the body after mahasamadhi | JA | DEELS | Sri Yukteswar; disciples | P1 ch.42 | — | Room described but present room attribution needs institutional confirmation. |
+| 69 | Karar Ashram garden grave/samadhi site | Puri, Odisha | burial/memorial sublocation | Participated in/visited burial site in ashram garden, 1936 | JA | EXACT | ashram disciples | P1 ch.42 | — | Text places burial in garden; present marker/site continuity to verify. |
+| 70 | Puri railway station | Puri, Odisha | station | Arrived in March 1936 and was met with news of guru's passing | JA | EXACT | ashram disciple | P1 ch.42 | — | Platform not stated. |
+| 71 | Puri town streets | Puri, Odisha | street/procession route | Walked in religious procession with Sri Yukteswar | JA | ALLEEN_PLAATS | Sri Yukteswar; disciples | P1 ch.15 | — | Route unnamed. |
+| 72 | Puri seashore/beach | Puri, Odisha | beach | Walked/was photographed with Sri Yukteswar and disciples | JA | ALLEEN_PLAATS | Sri Yukteswar; disciples | P1 ch.15 and image caption | — | Historic photo area not geolocated along the long beachfront. |
+| 73 | Dihika school site | Dihika, West Bengal | school/ashram | Founded first boys' school and lived/worked here, 1917–18 | JA | EXACT | students; local supporters | P1 ch.27 | S3 | Current YSS site preserves part of original grounds. |
+| 74 | Dihika meditation spot/Smriti Sthal | D
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=157 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/YOGANANDA_PRE_COMPARE_FREEZE.md blob_sha=c0140d19040036a1cfd24f22f8f8efae22e959c2 original_offset=20480 original_length=4096 payload_bytes=4096 chunk_index=5 chunk_count=9 classification=text
+ihika, West Bengal | outdoor shrine | Meditated here with companions in early school days | JA | EXACT | Dihika school community | P1 ch.27 context | S3 | Current shrine marks the asserted exact spot; semi-primary retrospective identification. |
+| 75 | Dihika pond | Dihika, West Bengal | waterbody/school sublocation | Used/occupied school grounds around the pond | JA | DEELS | students | P1 ch.27, school setting | S3 | Pond continuity asserted by YSS; specific act at water edge not separately described. |
+| 76 | Ranchi school/Kasimbazar Palace grounds | Ranchi, Jharkhand | school/ashram | Moved school here in 1918; taught, administered and returned in 1935–36 | JA | EXACT | Maharaja of Kasimbazar; students; YSS | P1 chs.27, 40, 45, 46 | S2 | Strong institutional and physical continuity. |
+| 77 | Yogananda's room, old administration building | Ranchi, Jharkhand | room/sublocation | Lived here, 1918–20 | JA | EXACT | school/YSS | P1 ch.27 context | S2 | Preserved room identified by YSS. |
+| 78 | Litchi Vedi/tree | Ranchi, Jharkhand | outdoor classroom | Frequently conducted classes and satsangas beneath tree | JA | EXACT | schoolboys | P1 ch.27 context | S2 | Current tree/site explicitly identified by YSS. |
+| 79 | Ranchi storeroom site/Smriti Mandir | Ranchi, Jharkhand | room-site/memorial | Meditated behind boxes and received vision directing him to America, 1920 | JA | EXACT | school/YSS | P1 ch.37 | S2 | Original storeroom gone; 1995 memorial marks its spot—site exact, fabric replaced. |
+| 80 | Ranchi orchard/gardens | Ranchi, Jharkhand | garden/school grounds | Taught/worked and received visitors; 1935–36 gatherings/photos | JA | DEELS | students; YSS | P1 chs.27, 45 | S2 | Broad historic grounds; modern landscaping altered. |
+| 81 | Hill and pond near Ranchi school | Ranchi vicinity, Jharkhand | excursion landscape | Hiked/picnicked with students | JA | ONBEKEND | schoolboys | P1 ch.28 | — | No place name/direction; preserve as a lead, do not map to a popular hill. |
+| 82 | Santiniketan campus | Santiniketan, West Bengal | school/university | Visited Rabindranath Tagore and studied his educational work | JA | EXACT | Rabindranath Tagore | P1 ch.29 | — | Campus exact; meeting building not named. |
+| 83 | Santiniketan guest house/patio | Santiniketan, West Bengal | guest lodging | Stayed overnight and conversed on the patio | JA | ONBEKEND | Tagore's institution | P1 ch.29 | — | Guest house not named; historic building candidate requires Visva-Bharati records. |
+| 84 | Bombay harbour/dock | Mumbai, Maharashtra | port/transit | Arrived by ship in August 1935 and departed India in 1936; likely also embarkation in 1920 | JA | DEELS | Richard Wright; ship contacts | P1 chs.37, 40, 43 | S4 | Harbour certain; exact quay for each voyage unresolved; 1920 dock is inferential. |
+| 85 | Taj Mahal Hotel | Mumbai, Maharashtra | hotel | Occupied a suite after return to India, August 1935 | JA | EXACT | Richard Wright; Indian hosts | P1 ch.40 | S4 | Named hotel; suite number unknown. |
+| 86 | Howrah railway station | Howrah, West Bengal | station | Arrived to a large reception on return, 1935; other departures/arrivals | JA | EXACT | family; Sri Yukteswar; disciples | P1 ch.40 | S4 | Station exact; platform unspecified. |
+| 87 | Dakshineswar YSS Math/garden house | Dakshineswar, West Bengal | ashram | Worked in 1935 to establish the centre, but consulted sources do not prove he stood on the later 1939 property | ONZEKER | EXACT | YSS/SRF | P1 ch.40, says centre dedicated in 1939 after departure | S5 | Negative-control lead: vision/organizational agency is not physical presence. Requires deed, diary or correspondence placing him on parcel. |
+| 88 | Chamundi Temple | Mysuru, Karnataka | temple | Visited shrine with Richard Wright, November 1935 | JA | EXACT | Mysore state/Yuvaraja; Richard Wright | P1 ch.41 | — | Temple exact. |
+| 89 | Mysore Town Hall | Mysuru, Karnataka | hall | Addressed citizens/students | JA | EXACT | Mysore state hosts | P1 ch.41 | — | Hall named; event date/room archival check open. |
+| 90 | Ma
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=158 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/YOGANANDA_PRE_COMPARE_FREEZE.md blob_sha=c0140d19040036a1cfd24f22f8f8efae22e959c2 original_offset=24576 original_length=4096 payload_bytes=4096 chunk_index=6 chunk_count=9 classification=text
+haraja's College | Mysuru, Karnataka | college | Gave public/student address | JA | EXACT | college/state hosts | P1 ch.41 | — | Institution exact; specific hall unknown. |
+| 91 | University Medical School | Mysuru, Karnataka | medical school | Gave an address | JA | DEELS | university/state hosts | P1 ch.41 | — | Period institution name needs mapping to current campus/building. |
+| 92 | State guest lodging | Mysuru, Karnataka | palace/guest house | Spent part of November 1935 as guest of Mysore State | JA | ONBEKEND | Yuvaraja; Mysore state | P1 ch.41 | — | Host/status proven; lodging building omitted. Search palace household and protocol records. |
+| 93 | Yuvaraja's summer palace | Mysuru region, Karnataka | palace/estate | Visited for an elephant ride | JA | ONBEKEND | Yuvaraja; Richard Wright | P1 ch.41 | — | Text says “summer palace” without name; candidate assignment withheld. |
+| 94 | National High School | Bengaluru, Karnataka | school | Addressed a mass meeting, 1935 | JA | EXACT | school/state hosts | P1 ch.41 | — | Institution named; exact 1935 hall/campus phase to verify. |
+| 95 | Intermediate College | Bengaluru, Karnataka | college | Addressed a mass meeting, 1935 | JA | ONBEKEND | college/state hosts | P1 ch.41 | — | Generic historic name; exact modern institution unresolved. |
+| 96 | Chetty Town Hall | Bengaluru, Karnataka | hall | Addressed more than three thousand people, 1935 | JA | EXACT | civic/state hosts | P1 ch.41 | — | Named hall; normalize spelling against municipal archive. |
+| 97 | Madras/Chennai farewell venue | Chennai, Tamil Nadu | hall/urban stop | Took leave of Madras students on northbound journey, 1935 | JA | ALLEEN_PLAATS | students/devotees | P1 ch.41 | — | City presence explicit, venue absent. Do not promote chapter's descriptive mentions of Conjeeveram, Hyderabad, Ellora or Ajanta to visits. |
+| 98 | Small Sadasiva shrine on northbound route | location unresolved, South India | roadside shrine | Stopped/visited a shrine while travelling north from Madras | JA | ONBEKEND | Richard Wright | P1 ch.41 closing passage | — | Place and current identity unknown; route timetable research needed. |
+| 99 | Albert Hall | Kolkata, West Bengal | public hall | Gave a lecture after return to India | JA | EXACT | local public/devotees | P1 ch.42 | S4 | Named venue; verify which historic “Albert Hall” building and event date. |
+| 100 | Kumbh Mela grounds | Prayagraj, Uttar Pradesh | fair/pilgrimage ground | Camped/walked at Kumbh in January 1936 and visited temporary ascetics' camps | JA | ALLEEN_PLAATS | Richard Wright; sadhus | P1 ch.42 | — | Vast temporary landscape; sector/camp plan not recovered. |
+| 101 | Giri leader's temporary ashram/hut | Prayagraj, Uttar Pradesh | temporary camp | Visited and conversed during Kumbh | JA | ONBEKEND | unnamed Giri leader | P1 ch.42 | — | Temporary structure and sector unknown. |
+| 102 | Fruitarian guru's hermitage | Prayagraj, Uttar Pradesh | temporary camp | Visited at Kumbh | JA | ONBEKEND | unnamed fruitarian sadhu | P1 ch.42 | — | Identity and camp location unknown. |
+| 103 | Pragla Chakshu's ashram hall | Prayagraj, Uttar Pradesh | temporary hall/camp | Sat in hall and observed/visited the blind saint | JA | ONBEKEND | Pragla Chakshu; disciples | P1 ch.42 | — | Temporary fair structure, no recoverable parcel yet. |
+| 104 | Swami Krishnananda's Kumbh camp | Prayagraj, Uttar Pradesh | temporary camp | Visited the “lion-like” swami | JA | ONBEKEND | Krishnananda | P1 ch.42 | — | Camp sector not supplied. |
+| 105 | Kara Patri's mud-and-straw hut | Prayagraj, Uttar Pradesh | temporary hut | Visited and conversed with Kara Patri | JA | ONBEKEND | Kara Patri | P1 ch.42 | — | Ephemeral hut; exact site unknown. |
+| 106 | Riverbank point associated with Babaji/Sri Yukteswar | Prayagraj, Uttar Pradesh | riverbank | Passed the point and had it indicated to him during Kumbh | JA | ONBEKEND | Sri Yukteswar tradition; Richard Wright | P1 ch.42 | — | Yogananda's presence at a pointed-out riverbank is explicit; the earlier Baba
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=159 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/YOGANANDA_PRE_COMPARE_FREEZE.md blob_sha=c0140d19040036a1cfd24f22f8f8efae22e959c2 original_offset=28672 original_length=4096 payload_bytes=4096 chunk_index=7 chunk_count=9 classification=text
+ji event is a separate claim. Exact bank point unresolved. |
+| 107 | Katayani Peith Ashram | Vrindavan, Uttar Pradesh | ashram | Visited and stayed one night in 1936 | JA | EXACT | ashram community | P1 ch.42 | S4 | Named ashram; spelling/transliteration variants need authority file. |
+| 108 | Regent Hotel | Mumbai, Maharashtra | hotel | Stayed in a room before sailing, June 1936 | JA | ONBEKEND | Richard Wright | P1 ch.43 | — | Hotel name explicit; which Regent Hotel/address and surviving fabric unresolved. |
+| 109 | Wardha railway station | Wardha, Maharashtra | station | Arrived and was met for Gandhi visit, 1935–36 Indian tour | JA | EXACT | Mahadev Desai/ashram party | P1 ch.44 | — | Station exact; date/platform check open. |
+| 110 | Maganwadi ashram/settlement | Wardha, Maharashtra | ashram | Stayed as Gandhi's guest; meals, meetings and meditation | JA | DEELS | Mahatma Gandhi; Mahadev Desai; ashramites | P1 ch.44 | — | Historic settlement identifiable; individual buildings may have changed. |
+| 111 | Gandhi's writing room, Maganwadi | Wardha, Maharashtra | room/sublocation | Met and conversed with Gandhi in his writing room | JA | DEELS | Gandhi; Mahadev Desai | P1 ch.44 | — | Exact historic room needs site-plan confirmation. |
+| 112 | Maganwadi guest house/bedroom | Wardha, Maharashtra | guest lodging | Slept/stayed as a guest | JA | ONBEKEND | Gandhi ashram | P1 ch.44 | — | Building/room not named. |
+| 113 | Maganwadi porch | Wardha, Maharashtra | building sublocation | Participated in meals/conversation | JA | DEELS | Gandhi; ashramites | P1 ch.44 | — | Textual sublocation, but current fabric match unresolved. |
+| 114 | Maganwadi rooftop | Wardha, Maharashtra | building sublocation | Meditated on the roof | JA | ONBEKEND | Gandhi ashram | P1 ch.44 | — | Which building roof is not securely identified. |
+| 115 | Babasaheb Deshmukh's home | Wardha, Maharashtra | private residence | Attended supper | JA | ONBEKEND | Babasaheb Deshmukh | P1 ch.44 | — | Host named; house address absent. |
+| 116 | Girls' school near Wardha | Wardha vicinity, Maharashtra | school | Visited a small girls' school connected with ashram circle | JA | ONBEKEND | Gandhi network | P1 ch.44 | — | School name/site unresolved. |
+| 117 | Wardha Town Hall | Wardha, Maharashtra | public hall | Gave public yoga talk at Gandhi's suggestion | JA | EXACT | Gandhi network; townspeople | P1 ch.44 | — | Named civic venue; historic building continuity needs municipal check. |
+| 118 | Disciple's house | Bhowanipur, Kolkata, West Bengal | private residence | Met Anandamayi Ma at/near a disciple's house and joined her party | JA | ONBEKEND | disciple; Anandamayi Ma | P1 ch.45 | — | Disciple and address not named. |
+| 119 | Bhowanipur street/car meeting point | Bhowanipur, Kolkata, West Bengal | street | Spoke with Anandamayi Ma beside/in open-topped car | JA | ONBEKEND | Anandamayi Ma; devotees | P1 ch.45 | — | Historic photo/event locality too broad for exact mapping. |
+| 120 | Ranchi main school building | Ranchi, Jharkhand | school sublocation | Hosted Anandamayi Ma and appeared with her/students during 1936 visit | JA | EXACT | Anandamayi Ma; school community | P1 ch.45 and image caption | S2 | Building identity supported by current YSS campus imagery/history. |
+| 121 | Ranchi garden/photo location | Ranchi, Jharkhand | garden/photo site | Walked/was photographed with Anandamayi Ma | JA | DEELS | Anandamayi Ma; students | P1 ch.45 and image caption | S2 | Garden within exact campus; camera position not geolocated. |
+| 122 | Serampore railway station/platform | Serampore, West Bengal | station | Met Anandamayi Ma's party on platform during a later encounter | JA | EXACT | Anandamayi Ma; devotees | P1 ch.45 | — | Station exact; platform number absent. |
+| 123 | Lambadar Dey's house | Purulia, West Bengal | private residence | Stayed/visited lawyer Lambadar Dey while seeking Giri Bala | JA | ONBEKEND | Lambadar Dey | P1 ch.46 | — | Host named; address not stated. |
+| 124 | Purulia street shop | Purulia, West Bengal | shop | Sto
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=160 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/YOGANANDA_PRE_COMPARE_FREEZE.md blob_sha=c0140d19040036a1cfd24f22f8f8efae22e959c2 original_offset=32768 original_length=3346 payload_bytes=3346 chunk_index=8 chunk_count=9 classification=text
+pped to ask directions during search for Giri Bala | JA | ONBEKEND | shopkeeper; Richard Wright | P1 ch.46 | — | Shop/name/street absent. |
+| 125 | Mango grove on Purulia–Biur route | Purulia district, West Bengal | route stop/grove | Paused/asked directions during motor journey | JA | ONBEKEND | villagers; Richard Wright | P1 ch.46 | — | No coordinates; road alignment may have changed. |
+| 126 | Giri Bala family home | Biur, West Bengal | private residence | Visited and interviewed Giri Bala, 5 May 1936 | JA | ALLEEN_PLAATS | Giri Bala; her family | P1 ch.46 | — | Village and family house clear, but present parcel/building not verified. |
+| 127 | Veranda of Giri Bala home | Biur, West Bengal | house sublocation | Conducted/recorded conversation on veranda | JA | ONBEKEND | Giri Bala; family; Richard Wright | P1 ch.46 | — | Depends on unresolved present identity of #126. |
+
+## Rejected upgrades / adversarial checks
+
+- Hyderabad, Ellora, Ajanta, Conjeeveram/Kanchipuram, Belur, Osmania University and Mecca Masjid appear in the descriptive South India chapter, but the consulted text does **not** independently place Yogananda at them. They are therefore not presence rows.
+- Jagannath Temple is prominent in contextual descriptions of Puri, but this sweep did not find a clean first-person visit statement; it is not upgraded.
+- The later Dakshineswar YSS Math is retained only as `ONZEKER`: founding intent and a 1939 dedication after his departure do not prove presence on that exact garden-house parcel.
+- Foreign locations (Lahore, Rawalpindi and all Europe/America legs) were excluded from the normalized India count, though they were used to understand travel chronology.
+
+## Freeze metrics
+
+- **Normalized locations:** 127
+- **PERSONALLY_PRESENT:** JA 126; ONZEKER 1; NEE 0
+- **PHYSICAL_IDENTITY:** EXACT 48; DEELS 20; ALLEEN_PLAATS 15; ONBEKEND 44
+- **Corpus families covered:** first-person autobiography/travel narrative; YSS institutional pilgrimage histories; preserved-site pages; internal photo captions in the autobiography; named host/family/disciples; rail/road/ship itinerary nodes; temporary fair camps; private houses and lodging; schools, halls, temples, gardens and room-level sublocations.
+- **Blocked or unavailable source classes:** non-digitized family correspondence and diaries; complete *Mejda* and later-edition-only appendices; railway timetables/platform records; municipal address directories and cadastral plans; palace protocol/guest registers; hotel registers; Maganwadi and Kumbh camp plans; local-language newspapers behind poor OCR or unavailable scans; private-house access; photo negatives/captions sufficient for camera-position geolocation.
+- **SATURATION: NEE.** The primary narrative was swept chapter-by-chapter and obvious institutional site pages were checked, but a recall-first run remains open because many private houses, hotels, temporary camps, unnamed route stops, historic room identities and photograph locations require archives or on-site corroboration. No claim of corpus exhaustion is made.
+
+## Freeze declaration
+
+This file is the Yogananda discovery freeze. It was produced before any comparison with CCI, an existing internal atlas, prior candidate list, PR #24, METHOD_V1 results, Anandamayi-union material, route/cluster selection or A/B/C reconciliation.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=161 path=governance/INDIA9_FULL_REPO_BYTE_AUDIT_2026-08-23.md blob_sha=8b5a6b233dba7f4893f61243f43fb52bbdf92ce7 original_offset=0 original_length=2925 payload_bytes=2925 chunk_index=0 chunk_count=1 classification=text
+# INDIA9 FULL REPOSITORY BYTE AUDIT — 2026-08-23
+
+Status: IN_PROGRESS
+Owner: INDIA9
+Audit branch: `agent/india9-full-byte-audit`
+Frozen source branch: `agent/india8-cluster-casting`
+Frozen source commit: `1e9fd2453e6b4cbc1488f6d275351772f3eba928`
+Frozen source tree: `e5832b6cfdbd485e7a7b20a1850f3b8f381b2ecb`
+Recursive tree completeness: `truncated:false`
+
+## PURPOSE
+Mark requires an explicit 100% read before INDIA9 resumes substantive trip planning. This audit therefore does not certify semantic readiness until every byte in scope has been accounted for.
+
+## STRICT SCOPE
+1. Every blob in the frozen central working tree, including legacy directories, scripts, schemas, temporary files, KML/XML and binary/PDF artifacts.
+2. Blob identity is by Git SHA. If multiple paths reference the same blob SHA, one complete read verifies the exact bytes for every such path.
+3. Zero-byte blobs count as verified when their SHA/size is present in the complete frozen tree.
+4. Text/source-format blobs must be fetched completely from the frozen commit. Large text may be read in contiguous chunks, but coverage must span the full file.
+5. Binary blobs must be retrieved completely or otherwise byte-verified from the exact blob object; filenames/metadata alone do not count.
+6. After central-tree closure, active and boot/handoff-mentioned worker/legacy branches are compared against the frozen central snapshot. Every divergent blob that can carry provenance, decisions, locks, supersedes or worker output is read as an additional branch-delta scope.
+7. Search snippets, tree listings, summaries and prior-memory familiarity do not count as full-byte reads unless the exact blob was fully fetched.
+
+## CERTIFICATION RULE
+`100%` may be declared only when:
+- central snapshot audited bytes = central snapshot total bytes;
+- every unique central blob is verified;
+- all required branch deltas are reconciled and their divergent blobs verified;
+- no fetch is truncated or silently skipped;
+- decision/lock/supersede precedence has been rechecked after the byte pass.
+
+## CURRENT CERTIFIED STATE
+- Frozen snapshot established: YES
+- Complete recursive tree established: YES
+- Central unique-blob full-byte pass: IN_PROGRESS
+- Binary/PDF full-byte pass: IN_PROGRESS
+- Worker/legacy branch-delta pass: NOT YET CERTIFIED
+- Semantic whole-structure certification: NOT YET CERTIFIED
+- Overall certification: **NOT 100%**
+
+## ALREADY FULLY READ AGAINST CURRENT SNAPSHOT DURING THIS AUDIT
+- `governance/CCI_COLOR_TASK_ROUTING_2026-08-20.md` — blob `d126530fe51943f5846e39d9a7c3da3af4b69c6f`, 2067 bytes.
+- `governance/INDIA_REGIE_DOORGANGSPROTOCOL_2026-08-20.md` — blob `d052c6fd64525f876499b4c05201c1983fca2c4e`, 6383 bytes.
+
+## NOTE
+The audit branch may receive checkpoint commits. Those checkpoint files are audit metadata and are not added to the frozen-source denominator. The denominator remains the immutable source commit above.
+
+<<< END CHUNK >>>
+

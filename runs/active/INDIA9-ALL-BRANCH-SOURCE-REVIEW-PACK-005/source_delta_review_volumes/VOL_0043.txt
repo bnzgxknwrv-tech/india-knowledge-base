@@ -1,0 +1,1317 @@
+>>> CHUNK stream_row=678 path=knowledge/methodology/METHODOLOGY_V2.md blob_sha=cba69457b46f26f60a4775a848f9fc4bf01000ff original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# Methodology v3.0 — spirituele bestemmingen voor Marks pelgrimsreis
+
+## 1. Centrale onderzoeksvraag
+
+Het systeem onderzoekt waarom een fysiek bestaande plaats binnen een levende spirituele traditie een blijvende bestemming is geworden, wat devotees er zoeken en doen, hoe Mark de plek waarschijnlijk kan beleven en welke praktische controles nog nodig zijn.
+
+Het systeem bewijst of ontkent geen spirituele werkelijkheid. Het houdt verschillende bevestigingsdomeinen naast elkaar zichtbaar en behandelt lineage- of traditiebevestiging niet als een inferieure vorm van historische bevestiging.
+
+## 2. De plek is het onderzoeksobject
+
+Alleen een fysiek aanwijsbare huidige plaats kan kandidaat zijn: gebouw, terrein, grot, oever, ghat, heilige vijver of ritueel waterbekken (kund), tempel, ashram, samadhi-heiligdom, monument, pelgrimsrondgang (parikrama), route of landschappelijk heilig object.
+
+Personen, boeken, lineages, tradities, visioenen en getuigenissen zijn detectoren en interpretatielagen die naar zulke plekken leiden.
+
+## 3. Gelijkwaardige bevestigingsdomeinen
+
+Iedere materiële relatie wordt in het passende domein beoordeeld:
+
+- `HISTORICALLY_DOCUMENTED` — klassieke documentaire of historische onderbouwing;
+- `INSTITUTIONALLY_CONFIRMED` — bevestigd door de huidige dragende instelling;
+- `LINEAGE_CONFIRMED` — bevestigd door een gezaghebbende spirituele lerarenlijn;
+- `TRADITION_CONFIRMED` — consistent gedragen door de relevante levende traditie;
+- `EXPERIENTIALLY_REPORTED` — terugkerend beschreven door devotees of bezoekers;
+- `PRACTICAL_CHECK_REQUIRED` — actuele toegang, deelname of regels moeten nog rechtstreeks worden gecontroleerd;
+- `CONFLICTED` — betrouwbare bronnen spreken elkaar materieel tegen;
+- `NOT_ESTABLISHED` — het vereiste domein is na gerichte controle niet vastgesteld.
+
+Deze statussen gelden per claim. Eén plek kan tegelijk historisch onzeker, institutioneel bevestigd, lineage-bevestigd en praktisch nog te controleren zijn.
+
+## 4. Verplichte onderzoekslagen per kandidaat
+
+### 4.1 Fysieke en institutionele identiteit
+
+Onderzoek naam, aliassen, precieze ligging, huidig fysiek object, dragende trust/orde/tempelorganisatie/overheid, officiële geschiedenis, missie, lineage en praktijk.
+
+### 4.2 Historie, traditie en lineage
+
+Rapporteer afzonderlijk:
+
+- wat historisch gedocumenteerd is;
+- wat de huidige instelling zelf bevestigt;
+- welke lineage de relatie draagt;
+- welke levende traditie de relatie onderhoudt;
+- wie de dichtstbijzijnde gezaghebbende bron is;
+- of concrete tegenspraak bestaat.
+
+Een geloofwaardige directe lijnbron kan voor Marks reisdoel zelfstandig voldoende projectbevestiging geven.
+
+### 4.3 Babaji-regel
+
+Vraag nooit of Mahavatar Babaji volgens moderne biografische maatstaven bewezen heeft bestaan. Onderzoek welke belangrijke swami, directe leerling, guru-parampara of officiële lineage de plaatsrelatie draagt, hoe consistent de overlevering is, welke fysieke plek daaruit voortkwam en welke levende praktijk daar nu bestaat.
+
+### 4.4 AOAY-regel
+
+Wanneer *Autobiography of a Yogi* een relevante persoon, ontmoeting of regionale relatie beschrijft en een huidige officiële instelling of lineage de eigen fysieke plek met die relatie identificeert, is de plek voor Marks project `PROJECT_CONFIRMED`, tenzij concrete tegenspraak bestaat.
+
+Exacte editie-, huisnummer- of perceelsreconstructie blijft nuttig documentair detail, maar is niet de enige toegangspoort tot projectbevestiging.
+
+### 4.5 Devotionele binnenkant
+
+Onderzoek verplicht:
+
+- waarom devotees hierheen gaan;
+- wie of wat zij er vereren of herinneren;
+- welk spiritueel ideaal of welke behoefte centraal staat;
+- wat mensen er concreet doen;
+- welke rituelen Mark respectvol kan volgen;
+- hoe deelname werkt;
+- of buitenlanders, niet-hindoes en niet-ingewijden welkom zijn;
+- etiquette, kleding, fotografie, stilte, donaties en eventuele beperkingen;
+- hoe de sfeer terugkerend wordt beschreven.
+
+### 4.6 Levende praktijk
+
+Onderzoek dagelijkse of periodieke puja, aarti, mantra, kirtan, satsang, meditatie, darshan, seva, parikrama, pe
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=679 path=knowledge/methodology/METHODOLOGY_V2.md blob_sha=cba69457b46f26f60a4775a848f9fc4bf01000ff original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+lgrimage, festivals en actieve gemeenschap. Toeristische populariteit vervangt geen levende devotionele praktijk.
+
+### 4.7 Plaatsbeleving en reviews
+
+Onderzoek afzonderlijk:
+
+- visuele schoonheid en karakter;
+- rust, drukte, chaos en commercie;
+- netheid en onderhoud;
+- intimiteit of massaliteit;
+- mogelijkheid om rustig te zitten of mediteren;
+- verschillen tussen gewone dagen, ochtend, avond en festivals;
+- terugkerende positieve en negatieve bezoekersthema's.
+
+Gebruik recente reviews, actuele bezoekersfoto's, officiële beelden, devoteeverslagen, video's en reisverslagen voor sfeer en praktische ervaring. Gebruik deze niet als bewijs voor oude of bovennatuurlijke gebeurtenissen.
+
+### 4.8 Visueel dossier
+
+Per kandidaat worden minimaal tien verschillende representatieve beelden verzameld of wordt een expliciet beeldtekort gemeld. De set bestrijkt waar beschikbaar:
+
+1. totaal- of aankomstbeeld;
+2. ingang of toegang;
+3. heilig middelpunt;
+4. devotees tijdens normale praktijk;
+5. zit-, meditatie- of gebedsmogelijkheid;
+6. normale drukte;
+7. piek- of festivalsituatie;
+8. omgeving, verkeer en commercie;
+9. onderhoud, netheid of waterkwaliteit;
+10. ochtend-, avond- of ander sfeerbeeld.
+
+Duplicaten tellen niet mee. Bron en vermoedelijke actualiteit worden vastgelegd.
+
+### 4.9 Bezoekbaarheid
+
+Fysiek bestaan, levende functie en actuele toegang zijn verschillende vragen. Wanneer identiteit vaststaat maar actuele toegang niet, noteer technisch:
+
+`Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.`
+
+In Marks rapport wordt dit natuurlijk vertaald naar een concrete controle vlak voor of tijdens het bezoek.
+
+### 4.10 Nabijheid en routewaarde
+
+Na de kandidatenkaart wordt per cluster vastgelegd:
+
+- realistische reistijd en wegafstand tussen relevante plekken;
+- looptijd wanneer realistisch;
+- verkeers- en toegangsafhankelijkheden;
+- dichtstbijzijnde A-ankers;
+- logische loop- of dagclusters.
+
+Reistijd weegt zwaarder dan kilometers.
+
+## 5. Belevingsclassificatie
+
+Gebruik waar voldoende materiaal bestaat:
+
+- `ZEER_MOOI`;
+- `MOOI`;
+- `RAUW_MAAR_BETEKENISVOL`;
+- `CHAOTISCH`;
+- `NIET_VASTGESTELD`.
+
+Iedere classificatie noemt de bronbasis en eventuele verschillen per dagdeel of festivalperiode.
+
+## 6. Advisering en formele status
+
+BRONS, ZILVER en GOUD kennen geen formele A/B/C-status toe en wijzigen geen LOCKED-bestanden.
+
+INDIA2 mag adviseren:
+
+- `ADVIES A` — bezoeken;
+- `ADVIES B` — misschien bezoeken;
+- `ADVIES C` — niet bezoeken.
+
+Waar routecontext relevant is, blijven intrinsiek advies en routeadvies gescheiden, gevolgd door één ondubbelzinnige eindregel: `BEZOEKEN`, `MISSCHIEN` of `NIET BEZOEKEN`.
+
+Alleen Mark kent formele A/B/C toe. Voor basis- of hotelberekeningen geldt: A gewicht 5, B gewicht 2, C gewicht 0.
+
+## 7. Verplichte mensentaalvolgorde per plek
+
+1. Wat voor plaats is dit?
+2. Waarom devotees hierheen gaan.
+3. Wat mensen er doen.
+4. Kan Mark meedoen en zich welkom voelen?
+5. Sfeer en visueel oordeel.
+6. Historische, institutionele, lineage- en traditiebevestiging.
+7. Nabijheid tot belangrijke ankers en praktische combinaties.
+8. Wat vlak voor of tijdens het bezoek moet worden gecontroleerd.
+9. INDIA2-advies met concrete reden.
+
+Waarschuwingen en beheeronzekerheden domineren niet, tenzij veiligheid of feitelijke onbereikbaarheid dat vereist.
+
+## 8. Compact beslisproduct
+
+De volledige technische onderbouwing blijft in GitHub. Marks hoofdrapport bevat alleen beslisrelevante informatie, eenvoudige Nederlandse herkenningshaken bij plaatsnamen en maximaal de noodzakelijke onzekerheden. Het is een beslisrapport, geen encyclopedie en geen technische audit.
+
+## 9. Clustercompleetheid
+
+Een clusterbesluit mag pas definitief worden geadviseerd nadat omliggende relevante plekken, bekende A-ankers, open detectoren, lineage- en traditie-overlays, belevingsdata en relevante reistijden voldoende zijn onderzocht. Deelonderzoeken moeten later verplicht in één geïntegreerde clusterbeoordeling worden samengevoegd.
+
+## 10. Volledigheid en proportionaliteit
+
+Een sweep behandelt de vastgelegde scope volledig, maa
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=680 path=knowledge/methodology/METHODOLOGY_V2.md blob_sha=cba69457b46f26f60a4775a848f9fc4bf01000ff original_offset=8192 original_length=385 payload_bytes=385 chunk_index=2 chunk_count=3 classification=text
+r bouwt geen extra protocol wanneer bestaande regels volstaan. Technische perfectionering mag onderzoeksvoortgang niet verdringen. Voor het huidige project met een beperkt aantal gecontroleerde sweeps geldt `CONTROLLED_MANUAL_FAST`: één actieve run, minimale noodzakelijke transitions en alleen structurele wijzigingen met aantoonbare inhoudelijke of tijdsbesparing.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=681 path=knowledge/places/NUMBERING_POLICY.md blob_sha=99c7934a87fde4120404d8f97fb5d73ed0df5359 original_offset=0 original_length=2206 payload_bytes=2206 chunk_index=0 chunk_count=1 classification=text
+# Wereldwijd stabiele plaatsnummering
+
+## Doel
+
+Iedere fysieke plaats krijgt exact één permanente project-ID die in rapporten, kaarten, foto's, routes, decisions en toekomstige runs gelijk blijft.
+
+## Formaat
+
+`IND-PLACE-NNNNNN`
+
+Voorbeelden:
+
+- `IND-PLACE-000001`
+- `IND-PLACE-000127`
+
+## Regels
+
+1. Het nummer is wereldwijd uniek binnen het India-project.
+2. Een eenmaal uitgegeven ID wordt nooit hergebruikt, ook niet wanneer een kandidaat later C wordt, wordt samengevoegd of niet meer bezocht wordt.
+3. Lokale rapportnummers, oude `CLUSTER_LOCATIONS`-nummers en fasegebonden kandidaat-ID's blijven als aliases of legacy references bewaard, maar zijn niet de permanente sleutel.
+4. Splitsing van één fysieke kandidaat in twee werkelijk verschillende plaatsen levert een nieuwe ID op voor het afgesplitste object; provenance vermeldt de bron-ID.
+5. Samenvoeging verwijdert geen IDs. Eén record wordt canonical; de andere krijgt `record_status: MERGED` en `merged_into`.
+6. Alleen SUBREGIE INDIA reserveert nieuwe IDs bij runcreatie of gevalideerde post-run integratie.
+7. BRONS mag nieuwe plaatsen voorstellen met tijdelijke run-ID's. Permanente IDs worden pas geschreven nadat fysieke identiteit voldoende is vastgesteld.
+8. De volgende vrije ID staat in `knowledge/places/registry_meta.yaml`.
+9. A/B/C is geen onderdeel van de ID en kan de ID nooit veranderen.
+10. PARELS gebruiken later hetzelfde nummerstelsel, maar worden pas na activering van DECISION-0011 toegevoegd.
+
+## Minimale recordvelden
+
+De canonical registry gebruikt minimaal:
+
+- `place_id`;
+- `canonical_name`;
+- `aliases`;
+- `place_type`;
+- `coordinates` en `coordinate_accuracy`;
+- `clusters`;
+- `formal_status` en `status_decision_id`;
+- `document_status`;
+- `overlays`;
+- `last_content_verified_at`;
+- `last_practical_verified_at`;
+- `legacy_references`;
+- `record_status`.
+
+## Nummeruitgifte
+
+Nieuwe run:
+
+1. lees `registry_meta.yaml`;
+2. reserveer alleen het minimaal benodigde blok;
+3. schrijf de reservatie in de runscope;
+4. verhoog `next_place_number` pas bij daadwerkelijke canonical registratie;
+5. sla ongebruikte gereserveerde nummers niet opnieuw uit wanneer zij al in publieke artifacts voorkwamen.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=682 path=knowledge/places/location_blocks.yaml blob_sha=17ea08ec7e62eb08f2c03565d6c659a1df0957f5 original_offset=0 original_length=1226 payload_bytes=1226 chunk_index=0 chunk_count=1 classification=text
+schema_version: 1
+id_field: LOCATION_ID
+id_type: decimal_string_minimum_three_digits
+policy: pipeline/protocols/GEO_LOCATION_PROTOCOL.md
+blocks:
+  - cluster_id: DELHI_ARRIVAL
+    range_start: 100
+    range_end: 199
+    status: RESERVED
+    map_layer: Delhi / aankomst
+  - cluster_id: BRAJ
+    range_start: 200
+    range_end: 299
+    status: ACTIVE
+    assigned_range: 200-228
+    map_layer: Braj — Vrindavan, Mathura, Govardhan, Gokul/Mahavan, Barsana en Nandgaon
+  - cluster_id: VRINDAVAN_KUMAON_CORRIDOR
+    range_start: 300
+    range_end: 399
+    status: RESERVED_FOR_RUN
+    reserved_by_run: VRINDAVAN-KUMAON-CORRIDOR-001
+    map_layer: Corridor en stations — Vrindavan/Mathura naar Kumaon
+  - cluster_id: KUMAON
+    range_start: 400
+    range_end: 499
+    status: RESERVED_FOR_RUN
+    reserved_by_run: VRINDAVAN-KUMAON-CORRIDOR-001
+    map_layer: Kumaon — Babaji, Kriya, Neem Karoli Baba, Ram Dass en Haidakhan
+assignment_rules:
+  gaps_allowed: true
+  reuse_forbidden: true
+  renumbering_forbidden: true
+  later_discoveries_use_free_number_in_same_block: true
+  block_order_follows_final_travel_order: true
+  assignment_must_be_recorded_in_run_register: true
+next_unassigned_cluster_block_start: 500
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=683 path=knowledge/places/place.schema.json blob_sha=c3e6d099620de3fa97178d4cf8892df83939389a original_offset=0 original_length=2214 payload_bytes=2214 chunk_index=0 chunk_count=1 classification=text
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "knowledge/places/place.schema.json",
+  "title": "India project place record",
+  "type": "object",
+  "required": [
+    "place_id",
+    "canonical_name",
+    "aliases",
+    "place_type",
+    "coordinates",
+    "coordinate_accuracy",
+    "clusters",
+    "formal_status",
+    "status_decision_id",
+    "document_status",
+    "overlays",
+    "last_content_verified_at",
+    "last_practical_verified_at",
+    "legacy_references",
+    "record_status"
+  ],
+  "properties": {
+    "place_id": {"type": "string", "pattern": "^IND-PLACE-[0-9]{6}$"},
+    "canonical_name": {"type": "string", "minLength": 1},
+    "aliases": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "place_type": {"type": "array", "items": {"type": "string"}, "minItems": 1, "uniqueItems": true},
+    "coordinates": {
+      "oneOf": [
+        {"type": "null"},
+        {
+          "type": "object",
+          "required": ["lat", "lon"],
+          "properties": {
+            "lat": {"type": "number", "minimum": -90, "maximum": 90},
+            "lon": {"type": "number", "minimum": -180, "maximum": 180}
+          },
+          "additionalProperties": false
+        }
+      ]
+    },
+    "coordinate_accuracy": {"enum": ["EXACT", "ENTRANCE", "COMPLEX", "APPROXIMATE", "NOT_ESTABLISHED"]},
+    "clusters": {"type": "array", "items": {"type": "string"}, "minItems": 1, "uniqueItems": true},
+    "formal_status": {"enum": ["A", "B", "C", "U"]},
+    "status_decision_id": {"type": ["string", "null"], "pattern": "^DECISION-[0-9]{4}$"},
+    "document_status": {"enum": ["SEED", "BRONS", "ZILVER", "GOUD", "DECISION_READY", "COMPLETE"]},
+    "overlays": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "last_content_verified_at": {"type": ["string", "null"], "format": "date"},
+    "last_practical_verified_at": {"type": ["string", "null"], "format": "date"},
+    "legacy_references": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "record_status": {"enum": ["ACTIVE", "MERGED", "RETIRED"]},
+    "merged_into": {"type": ["string", "null"], "pattern": "^IND-PLACE-[0-9]{6}$"}
+  },
+  "additionalProperties": true
+}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=684 path=knowledge/places/registry.jsonl blob_sha=3aa17754af90f45dd5a122a14b2fb98f1f87a485 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+{"place_id":"IND-PLACE-000001","canonical_name":"Katyayani Peeth / Keshav Ashram","aliases":["Katyayani Peeth","Keshav Ashram","Katyayani Shakti Peeth Vrindavan"],"place_type":["TEMPLE","ASHRAM"],"coordinates":null,"coordinate_accuracy":"NOT_ESTABLISHED","clusters":["BRAJ","VRINDAVAN"],"formal_status":"A","status_decision_id":"DECISION-0008","document_status":"GOUD","overlays":["AOAY","KRIYA_LINEAGE","SHAKTI"],"last_content_verified_at":"2026-07-14","last_practical_verified_at":null,"legacy_references":["VRINDAVAN-INTEGRATION-001:KP-01","VRINDAVAN report nr. 1"],"record_status":"ACTIVE"}
+{"place_id":"IND-PLACE-000002","canonical_name":"Neem Karoli Baba Ashram and Samadhi, Vrindavan","aliases":["Neem Karoli Baba Ashram Vrindavan","Maharaj-ji Ashram Vrindavan"],"place_type":["ASHRAM","SAMADHI"],"coordinates":null,"coordinate_accuracy":"NOT_ESTABLISHED","clusters":["BRAJ","VRINDAVAN"],"formal_status":"A","status_decision_id":"DECISION-0008","document_status":"GOUD","overlays":["NEEM_KAROLI_BABA","RAM_DASS"],"last_content_verified_at":"2026-07-14","last_practical_verified_at":null,"legacy_references":["VRINDAVAN-INTEGRATION-001:NKB-01","VRINDAVAN report nr. 2"],"record_status":"ACTIVE"}
+{"place_id":"IND-PLACE-000003","canonical_name":"Shri Krishna Janmabhoomi / Janmasthan","aliases":["Krishna Janmabhoomi","Krishna Janmasthan"],"place_type":["TEMPLE_COMPLEX","BIRTHPLACE_TRADITION"],"coordinates":null,"coordinate_accuracy":"NOT_ESTABLISHED","clusters":["BRAJ","MATHURA"],"formal_status":"U","status_decision_id":null,"document_status":"GOUD","overlays":["KRISHNA"],"last_content_verified_at":"2026-07-14","last_practical_verified_at":null,"legacy_references":["VRINDAVAN-INTEGRATION-001:KJ-01","VRINDAVAN report nr. 3"],"record_status":"ACTIVE"}
+{"place_id":"IND-PLACE-000004","canonical_name":"Radha Kund","aliases":["Radhakund"],"place_type":["SACRED_WATER","KUND"],"coordinates":null,"coordinate_accuracy":"NOT_ESTABLISHED","clusters":["BRAJ","GOVARDHAN"],"formal_status":"U","status_decision_id":null,"document_status":"GOUD","overlays":["RADHA","KRISHNA","GOVARDHAN_PARIKRAMA"],"last_content_verified_at":"2026-07-14","last_practical_verified_at":null,"legacy_references":["VRINDAVAN-INTEGRATION-001:RK-01","VRINDAVAN report nr. 4"],"record_status":"ACTIVE"}
+{"place_id":"IND-PLACE-000005","canonical_name":"Shyam Kund","aliases":["Shyamkund","Krishna Kund"],"place_type":["SACRED_WATER","KUND"],"coordinates":null,"coordinate_accuracy":"NOT_ESTABLISHED","clusters":["BRAJ","GOVARDHAN"],"formal_status":"U","status_decision_id":null,"document_status":"GOUD","overlays":["KRISHNA","GOVARDHAN_PARIKRAMA"],"last_content_verified_at":"2026-07-14","last_practical_verified_at":null,"legacy_references":["VRINDAVAN-INTEGRATION-001:SK-01","VRINDAVAN report nr. 5"],"record_status":"ACTIVE"}
+{"place_id":"IND-PLACE-000006","canonical_name":"Govardhan Hill","aliases":["Giriraj Govardhan","Govardhan"],"place_type":["SACRED_LANDSCAPE","HILL"],"coordinates":null,"coordinate_accuracy":"NOT_ESTABLISHED","clusters":["BRAJ","GOVARDHAN"],"formal_status":"U","status_decision_id":null,"document_status":"GOUD","overlays":["KRISHNA","GOVARDHAN_PARIKRAMA"],"last_content_verified_at":"2026-07-14","last_practical_verified_at":null,"legacy_references":["VRINDAVAN-INTEGRATION-001:GH-01","VRINDAVAN report nr. 6"],"record_status":"ACTIVE"}
+{"place_id":"IND-PLACE-000007","canonical_name":"Govardhan Parikrama","aliases":["Govardhan Parikrama Marg","Giriraj Parikrama"],"place_type":["PILGRIMAGE_ROUTE","PARIKRAMA"],"coordinates":null,"coordinate_accuracy":"NOT_ESTABLISHED","clusters":["BRAJ","GOVARDHAN"],"formal_status":"U","status_decision_id":null,"document_status":"GOUD","overlays":["KRISHNA","LIVING_PRACTICE"],"last_content_verified_at":"2026-07-14","last_practical_verified_at":null,"legacy_references":["VRINDAVAN-INTEGRATION-001:GP-01","VRINDAVAN report nr. 7"],"record_status":"ACTIVE"}
+{"place_id":"IND-PLACE-000008","canonical_name":"Kusum Sarovar","aliases":[],"place_type":["SACRED_WATER","SAROVAR","HERITAGE_SITE"],"coordinates":null,"coordinate_accuracy":"NOT_ESTABLISHED",
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=685 path=knowledge/places/registry.jsonl blob_sha=3aa17754af90f45dd5a122a14b2fb98f1f87a485 original_offset=4096 original_length=337 payload_bytes=337 chunk_index=1 chunk_count=2 classification=text
+"clusters":["BRAJ","GOVARDHAN"],"formal_status":"U","status_decision_id":null,"document_status":"GOUD","overlays":["RADHA","KRISHNA","GOVARDHAN_PARIKRAMA"],"last_content_verified_at":"2026-07-14","last_practical_verified_at":null,"legacy_references":["VRINDAVAN-INTEGRATION-001:KS-01","VRINDAVAN report nr. 8"],"record_status":"ACTIVE"}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=686 path=knowledge/places/registry_meta.yaml blob_sha=0ad6d9ea018bf7c5799b8a8a737a3b2607c44624 original_offset=0 original_length=293 payload_bytes=293 chunk_index=0 chunk_count=1 classification=text
+schema_version: 1
+id_prefix: IND-PLACE-
+number_width: 6
+next_place_number: 9
+last_reserved_by: SUBREGIE_INDIA
+last_updated_at: 2026-07-15
+registry: knowledge/places/registry.jsonl
+schema: knowledge/places/place.schema.json
+numbering_policy: knowledge/places/NUMBERING_POLICY.md
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=687 path=knowledge/project/OVERLAYS_INDIA.md blob_sha=9d556204eb28a1abf1958917214f79affdb1681f original_offset=0 original_length=2777 payload_bytes=2777 chunk_index=0 chunk_count=1 classification=text
+# India-project — interpretatie-overlays
+
+Deze overlays zijn projectspecifieke data. Zij behoren niet tot de generieke Methodology v2.0 en geven geen waardering of rangorde.
+
+## AOAY
+
+Relatie met `Autobiography of a Yogi` of een officiële Yogananda-bron.
+
+Verplichte controle:
+1. de relevante persoon, gebeurtenis of plaats staat werkelijk in een controleerbare editie of officiële lijnbron;
+2. de huidige fysieke plaats is afzonderlijk geïdentificeerd.
+
+Ontbreekt stap 2, dan blijft de AOAY-relatie onzeker en wordt de historische locatie niet als bevestigd gepresenteerd.
+
+## KRIYA_BABAJI
+
+Relatie met een Kriya Yoga-lineage die zich via guru-parampara, lijnteksten of officiële institutionele geschiedenis op Mahavatar Babaji beroept.
+
+Onderzoek niet de onmogelijke vraag of Babaji klassiek-biografisch bewezen op de plek aanwezig was. Onderzoek:
+- welke lineage de relatie draagt;
+- welke guru’s en instellingen die relatie overleveren;
+- welke primaire lijnbronnen dit zeggen;
+- welk fysiek object of terrein bij die traditie hoort;
+- welke levende praktijk daaruit voortkomt.
+
+De Kriya/Babaji-lijn is de primaire interpretatielaag voor dit project. Andere tradities worden met dezelfde zorg onderzocht; een sterke fysieke krachtplaats wordt nooit uitsluitend wegens een andere lineage uitgesloten.
+
+## KRISHNA
+
+Relatie met levende Krishna-, Braj-, Vaishnava- of Gaudiya-tradities. De vraag is niet of een oude of bovennatuurlijke gebeurtenis historisch bewezen is, maar welke huidige fysieke plek door welke traditie wordt aangewezen, hoe die relatie wordt gedragen en welke levende praktijk bestaat.
+
+## NKB_RAM_DASS
+
+Relatie met Neem Karoli Baba, zijn ashrams, samadhi’s, lijnorganisaties, leerlingen en de Ram Dass-traditie. Deze overlay is zelfstandig en niet ondergeschikt aan Kriya, maar past binnen Marks bredere voorkeur voor levende guru-lineages en krachtplaatsen.
+
+## ANANDAMAYI
+
+Relatie met Anandamayi Ma, haar officiële Sangha, door haar gestichte of gebruikte ashrams, kamers, tempels en herinneringsplaatsen.
+
+## RAMAKRISHNA_VIVEKANANDA
+
+Relatie met Ramakrishna, Sarada Devi, Vivekananda en officieel gedragen Ramakrishna Mission-/Math-geschiedenis.
+
+## SHAKTA
+
+Relatie met Shakti-, Devi- en Shakti Peeth-tradities. Institutionele identiteit en levende praktijk worden afzonderlijk onderzocht van oude lichaamsdeel- of verschijningsclaims.
+
+## BUDDHIST
+
+Relatie met de Boeddha, historische boeddhistische gebeurtenissen, relieken, kloosters en levende boeddhistische praktijk.
+
+## Gebruik
+
+Per kandidaat wordt per relevante overlay vastgelegd:
+- `CONFIRMED`
+- `POSSIBLE`
+- `NOT_ESTABLISHED`
+- `NOT_APPLICABLE`
+
+Een overlay zegt alleen dat een relatie bestaat of mogelijk bestaat. Zij zegt niet dat de kandidaat belangrijker is.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=688 path=knowledge/washing_machine/WASMACHINE_01.md blob_sha=238225472465dca4585e4000d99a19c607e4bdb5 original_offset=0 original_length=4095 payload_bytes=4095 chunk_index=0 chunk_count=3 classification=text
+# WASMACHINE_01 — Lossless audit uit ChatGPT-chat
+
+Originele chatnaam: huidige ChatGPT-vraag rond Wasmachine HA / washok-statuslamp / was-advies / debugprotocol / logging.
+
+## Scope
+
+Dit bestand bewaart kennis uit deze chat over de Home Assistant wasmachine-flow. Buiten scope: vorstwaarschuwing buitenkranen, behalve als voorbeeld van foutieve vermenging.
+
+## Harde afbakening
+
+Wasmachine en vorstwaarschuwing mogen niet door elkaar lopen. In deze chat is expliciet gecorrigeerd dat vorstwaarschuwing buitenkranen niets met het wasmachineverhaal te maken heeft.
+
+## Werkflow-afspraken van gebruiker
+
+- Helpers, templates, input_* en timers worden via configuration.yaml gedaan.
+- Pad helpers/config: Settings → Add-ons → File Editor → Open Web UI → configuration.yaml.
+- De gebruiker plakt volledige configuration.yaml; ChatGPT past minimaal aan en geeft volledige file terug.
+- Automations worden via Automation Editor → YAML gedaan, tenzij expliciet automations.yaml wordt gebruikt.
+- DevTools Actions is alleen voor test/service-call, niet voor volledige automation.
+- DevTools Templates is alleen voor verificatie-output.
+- Bij lossless blokken altijd monospace/copyable.
+- Geen vage instructies: altijd exact waar plakken, exacte YAML/template, verwacht resultaat en wat terug te plakken.
+
+## Bevestigde entities
+
+Wasmachine:
+- sensor.huis_washok_wasmachine_vermogen
+- sensor.huis_washok_wasmachine_stroom
+- sensor.huis_washok_wasmachine_spanning
+
+Presence:
+- input_boolean.presence_mark
+
+Notify:
+- notify.mobile_app_iphone_mark
+
+Statuslamp:
+- light.huis_washok_statuslamp
+
+Regen / weer genoemd maar niet volledig bewezen:
+- binary_sensor.huis_washok_regensensor
+- sensor.huis_washok_regen_forecast
+
+Buitenlampen genoemd maar niet bewezen via entity-export:
+- light.washok_buiten_1
+- light.washok_buiten_2
+- light.washok_buiten_3
+- light.washok_buiten_4
+
+Knoppen:
+- Knop A = was uit machine.
+- Knop B = was hangt buiten en impliceert A.
+- Exacte entity_id/device_id/endpoint/cluster van Knop A/B zijn in deze chat NIET bewezen.
+
+## Helpers in configuration.yaml
+
+input_boolean:
+- input_boolean.wasmachine_pending — was ligt nog in machine / actie nodig.
+- input_boolean.wasmachine_has_run — cyclus gezien.
+- input_boolean.wasmachine_halfhour_sent — halfuur reminder verzonden.
+- input_boolean.wasmachine_18_sent — 18:00 reminder verzonden.
+- input_boolean.wasmachine_20_sent — 20:00 reminder verzonden.
+
+input_datetime:
+- input_datetime.wasmachine_done_at — klaar-tijd.
+- input_datetime.wasmachine_halfhour_due_at — halfuur reminder-tijd.
+- input_datetime.wasmachine_mark_last_arrived — Mark laatst aangekomen.
+- input_datetime.wasmachine_mark_last_notified — Mark laatst gemeld.
+
+Niet bewezen / later genoemd / open:
+- wash_task_active
+- waslijn_active
+- stop_lock
+- rain_confirmed
+- cooldown helpers
+- wasmachine-specifieke timers
+
+## Wasmachine-detectie
+
+Start:
+- sensor.huis_washok_wasmachine_vermogen > 10 W gedurende 2 minuten.
+- Zet has_run ON.
+- Zet pending OFF.
+- Reset halfhour_sent, 18_sent, 20_sent OFF.
+
+Klaar:
+- sensor.huis_washok_wasmachine_vermogen < 3 W gedurende 5 minuten.
+- Alleen geldig als has_run ON was.
+- Zet pending ON.
+- Zet done_at = now.
+- Berekent halfhour_due_at.
+- Zet has_run OFF.
+
+Definitie heeft gedraaid:
+- >10 W minimaal 2 minuten.
+
+Definitie klaar:
+- <3 W minimaal 5 minuten na een gezien run-event.
+
+## Notificaties / reminders
+
+Direct bij klaar:
+- Bericht: 🧺 Was is klaar.
+- Alleen als Mark thuis is of binnen 2 minuten na aankomst.
+- Dedupe moet OK zijn.
+
+Reminder “was ligt nog in de machine”:
+- Halverwege tussen done_at en 18:00, afgerond op :00/:30.
+- 18:00 reminder.
+- 20:00 reminder.
+- Bij thuiskomen van Mark.
+
+Dedupe:
+- Minimaal 55 minuten tussen meldingen voor Mark.
+- Helper: input_datetime.wasmachine_mark_last_notified.
+
+Presence:
+- mark_home_or_2min = presence_mark ON of now - mark_last_arrived <= 2 minuten.
+
+Halverwege-afronding:
+- minuten <15 → :00.
+- minuten <45 → :30.
+- minuten >=45 → volgende volle uur.
+
+Quiet-hours genoemd maar niet bewezen in huidige automation:
+- 22:30–10:00 ma
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=689 path=knowledge/washing_machine/WASMACHINE_01.md blob_sha=238225472465dca4585e4000d99a19c607e4bdb5 original_offset=4095 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+–za.
+- zondag vóór 11:59 geen push, behalve na knop A/B.
+
+## Cutoff / silent logic
+
+In v1.0.1 automation:
+- cutoff_ts = min(done_at + 13 uur, 20:45 op done-dag).
+- should_be_silent = now > cutoff_ts.
+- Na cutoff: pending OFF, halfhour_sent OFF, 18_sent OFF, 20_sent OFF, has_run OFF.
+
+Conflicten:
+- Later tekstueel is ook “10 uur cutoff” genoemd voor rood alarm.
+- Een vraag noemde “max 14u guard”.
+- Definitieve cutoff voor geïntegreerde lamp/outdoor-flow is daarom nog open.
+
+## Huidige automation uit chat
+
+Alias:
+- Wasmachine — was klaar reminders (Mark) v1.0.1
+
+Mode:
+- single
+
+Triggers:
+- vermogen >10W 2min.
+- vermogen <3W 5min.
+- presence_mark to on.
+- time_pattern elke minuut.
+- time 18:00.
+- time 20:00.
+
+Belangrijke variabelen:
+- now_ts
+- done_ts
+- done_date
+- t18_ts
+- t20_ts
+- cutoff_2045_ts
+- cutoff_ts
+- last_notified_ts
+- last_arrived_ts
+- dedupe_ok
+- mark_home_or_2min
+- pending_on
+- has_run_on
+- half_sent
+- sent18
+- sent20
+- before_20
+- within_13h
+- should_be_silent
+- due_ts
+
+Branches:
+- cutoff cleanup.
+- start detected.
+- Mark arrived.
+- done detected.
+- 18:00 reminder.
+- 20:00 reminder.
+- half-way reminder.
+
+Belangrijke bug/ontdekking:
+- Tijdens testen stond de automation disabled; daardoor kwamen geen meldingen. Na enable moest live gedrag opnieuw bekeken worden.
+
+## Statuslamp / lampadvies
+
+Statuslamp is leidend; telefoonmeldingen zijn toelichting.
+
+Knipperen = aandacht.
+
+Knop A:
+- was uit machine.
+- reset pending/reminders/has_run.
+- lamp uit/neutraal.
+
+Knop B:
+- was hangt buiten.
+- impliceert A.
+- reset pending automatisch.
+- start buiten-sessie / adviesmodus.
+
+Lamplogica volgens correctie:
+- Wasmachine draait → lamp UIT.
+- Was klaar / pending normaal → WIT knipper.
+- Kleur+WIT knipper alleen bij buiten-sessie.
+- Groen/wit knipper = veilig.
+- Oranje/wit knipper = twijfel.
+- Rood/wit knipper = schadegevaar of regen NU.
+- Regen NU bevestigd → altijd rood/wit override.
+- Cutoff → rood alarmknipper, stopt alleen via knop.
+
+Onbekend:
+- exacte effectnamen/statuslamp capabilities.
+- exacte buitenlamp capabilities.
+
+## Was buiten / weerlogica
+
+Gedeeltelijk besproken, niet volledig geïmplementeerd in deze chat.
+
+Besproken:
+- regen NU via binary_sensor.huis_washok_regensensor.
+- regen forecast / rain soon via sensor.huis_washok_regen_forecast, ≤90 min genoemd.
+- outdoor_advice met mogelijke waarden SAFE / MAYBE / DANGER.
+- Regen NU override naar rood/wit.
+
+Niet besproken / onbekend:
+- KNMI/Buienradar/webbronnen concreet.
+- puntensysteem of wegingen.
+- windkracht/droogtijd/wasgewicht-combinatie-effecten.
+- dry_ok en stop_in_min bron.
+
+## Loggingwens / event-log
+
+Doel: logging toevoegen zodat ha_get_history en event-log kinderziektes kunnen opsporen.
+
+Te loggen kritieke events:
+1. SESSION_DONE.
+2. pending ON.
+3. outdoor_advice wijziging.
+4. regen_confirmed wijziging.
+5. notification_sent.
+6. notification_blocked.
+7. button_pressed.
+8. too_late ON.
+9. lamp kleurwissel.
+10. session_closed.
+
+Lamp log events:
+- UIT → WIT KNIPPER.
+- WIT → GROEN/WIT.
+- WIT → ORANJE/WIT.
+- elke status → ROOD/WIT bij regen NU.
+- elke status → ROOD ALARM bij cutoff.
+- elke status → UIT bij knop/reset/nieuwe sessie.
+
+Notification types:
+- WAS_KLAAR.
+- WAS_LIGT_NOG_IN_MACHINE_HALF.
+- WAS_LIGT_NOG_IN_MACHINE_18.
+- WAS_LIGT_NOG_IN_MACHINE_20.
+- WAS_LIGT_NOG_IN_MACHINE_THUISKOMST.
+
+Blocked reasons:
+- dedupe.
+- quiet_hours.
+- too_late.
+- pending_off.
+- not_home.
+
+Button logs:
+- Knop A: pending_before/after, lamp_before/after.
+- Knop B: pending_before/after, outside_session_started, lamp_before/after, outdoor_advice.
+- B impliceert A moet in logging zichtbaar zijn.
+
+## Debug logger automation
+
+Er is een debug logger automation voorgesteld:
+- Alias: Wasmachine — debug logger (Mark) v1.0.0.
+- Trigger op relevante wasmachine helpers/datetimes/presence.
+- Action: persistent_notification.create met snapshot.
+
+Status:
+- Voorgesteld maar niet bevestigd geïnstalleerd.
+
+## DevTools Actions protocol — bewezen lessons
+
+Bewezen werkend in huidige HA UI:
+- DevTools → Actions accepteerde service-call-only YAML zoals:
+  ser
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=690 path=knowledge/washing_machine/WASMACHINE_01.md blob_sha=238225472465dca4585e4000d99a19c607e4bdb5 original_offset=8191 original_length=2299 payload_bytes=2299 chunk_index=2 chunk_count=3 classification=text
+vice: input_boolean.turn_on
+  target:
+    entity_id: input_boolean.wasmachine_pending
+
+Ook notify service-call-only werkte met groen vinkje.
+
+Niet mengen:
+- Geen automation YAML in Actions.
+- Geen Jinja/template in Actions.
+- Geen Actions YAML in Templates.
+- Geen meerdere YAML-documenten.
+
+Verificatie:
+- Groen vinkje is nuttig, maar state/template-output is leidend.
+
+Conflict:
+- Sommige protocolvarianten zeiden dat Actions top-level action: nodig had. User bewees later dat service-call-only werkte. Voor deze chat: service-call-only is de bewezen vorm voor DevTools Actions.
+
+## Debugprotocol / communicatieprotocol lessons
+
+Bij elke uitvoerbare stap moet ChatGPT leveren:
+- WAAR plakken.
+- Exacte YAML of template.
+- Verwacht succes-signaal.
+- Wat gebruiker terugplakt.
+
+Geen stap zonder code.
+Geen “plak result” zonder te geven waarmee result geproduceerd wordt.
+Niet opnieuw vragen naar bekende workflow.
+Lossless = monospace/copyable.
+
+## Laatste bekende state snapshot
+
+Na template-check:
+- now_local: 2026-01-07 00:33:08+01:00.
+- pending: false.
+- has_run: false.
+- half_sent: false.
+- sent18: false.
+- sent20: false.
+- done_at: 2026-01-05 16:26:34.
+- halfhour_due_at: 2026-01-05 17:00:00.
+- mark_last_arrived: 2026-01-06 00:03:30.
+- mark_last_notified: 2026-01-06 00:59:00.
+- dedupe_ok_now: true.
+- mark_home_or_2min: true.
+- should_be_silent: true.
+
+Interpretatie:
+- veilige stille toestand.
+- geen actieve pending.
+- cutoff bereikt.
+
+## Openstaande punten
+
+- Exacte Knop A entity_id/device_id/endpoint/cluster.
+- Exacte Knop B entity_id/device_id/endpoint/cluster.
+- Definitieve cutoff: 10h vs 13h/20:45 vs max 14h.
+- Bestaat sensor.huis_washok_regen_forecast en welk datatype/attribute?
+- Exacte statuslamp effects/capabilities.
+- Exacte buitenlamp capabilities.
+- Moeten extra helpers waslijn_active/wash_task_active/stop_lock/rain_confirmed worden aangemaakt?
+- Is debug logger automation geïnstalleerd?
+- Is intelligent message automation elders al uitgewerkt?
+
+## Audit rondes
+
+Auditrondes uitgevoerd in deze sessie: 5.
+
+Kennisblokken toegevoegd:
+1. Scope en afbakening.
+2. Entities.
+3. Helpers.
+4. Detectie.
+5. Reminders.
+6. Cutoff.
+7. Automation-structuur.
+8. Statuslamp.
+9. Was buiten / weerlogica.
+10. Logging.
+11. DevTools Actions protocol.
+12. Openstaande conflicten.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=691 path=persons/PERSON-0001-lahiri-mahasaya.md blob_sha=951219bb8171cb20770dde037f29089e7eb72a4e original_offset=0 original_length=1061 payload_bytes=1061 chunk_index=0 chunk_count=1 classification=text
+---
+id: PERSON-0001
+name: "Lahiri Mahasaya"
+role: detector
+lineage: "Kriya-lijn (Babaji - Lahiri - Yukteswar - Yogananda)"
+relation: "Param-guru in Marks eigen lijn"
+detects_places: ["PLACE-0001"]
+sources: ["SOURCE-0001"]
+audits: []
+created_by: "Claude"
+created_at: "2026-06-22"
+---
+
+# Lahiri Mahasaya
+
+## Wie is dit
+Shyama Charan Lahiri, die leefde van achttienhonderdachtentwintig tot achttienhonderdvijfennegentig, de huishouder-yogi die Kriya Yoga in de moderne tijd onder leken verspreidde. Hij staat met Babaji aan de top van Marks eigen lijn en is daardoor een sterke detector van fysieke krachtplekken.
+
+## Welke plekken wijst deze persoon aan
+- PLACE-0001 (Babaji's Cave, Dunagiri): de plek waar hij door Babaji opnieuw werd ingewijd in Kriya Yoga.
+
+## Plaats in de lijn
+Direct onder Babaji; guru van Sri Yukteswar, die op zijn beurt de guru van Yogananda was. Apex-niveau van het krachtveld.
+
+## Bronnen en open punten
+Zie SOURCE-0001. Verdere plekken (woonhuis Varanasi, crematieplaats, samadhi-schrijnen) worden als aparte PLACE-records toegevoegd.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=692 path=persons/PERSON-0002-mahavatar-babaji.md blob_sha=30d052b452d8ca98a6b5b33d123bf0126fa08b69 original_offset=0 original_length=1034 payload_bytes=1034 chunk_index=0 chunk_count=1 classification=text
+---
+id: PERSON-0002
+name: "Mahavatar Babaji"
+role: detector
+lineage: "Kriya-lijn (apex)"
+relation: "Apex van Marks eigen lijn"
+detects_places: ["PLACE-0001"]
+sources: ["SOURCE-0001"]
+audits: []
+created_by: "Claude"
+created_at: "2026-06-22"
+---
+
+# Mahavatar Babaji
+
+## Wie is dit
+De yogi die volgens de Kriya-traditie Kriya Yoga aan Lahiri Mahasaya doorgaf. In dit project geldt hij uitsluitend als detector van fysieke plekken waar een aanwijsbare gebeurtenis met hem verbonden is. Niet te verwarren met Haidakhan Babaji, een andere, latere figuur.
+
+## Welke plekken wijst deze persoon aan
+- PLACE-0001 (Babaji's Cave, Dunagiri): de plek waar hij aan Lahiri Mahasaya verscheen en hem inwijdde.
+
+## Plaats in de lijn
+Apex van het krachtveld, samen met Lahiri Mahasaya.
+
+## Bronnen en open punten
+Zie SOURCE-0001. Overige aanwijsbare Babaji-contactplekken (Triveni Sangam, Serampore, Dashashwamedh) worden als aparte PLACE-records toegevoegd; niet-bezoekbare of niet-identificeerbare ontmoetingen vallen buiten de bezoekbaarheidspoort.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=693 path=pipeline/AUTOMATION_ROADMAP.md blob_sha=35a40ec761be10c6698c520561e3308ead2b386e original_offset=0 original_length=3063 payload_bytes=3063 chunk_index=0 chunk_count=1 classification=text
+# Automation roadmap — minimale MARK-belasting
+
+## Doelbeeld
+
+Mark hoeft uiteindelijk alleen een onderzoeksopdracht te geven en na GOUD een inhoudelijk eindpakket te beoordelen. Technische transitions, validaties, repinning en routing verlopen automatisch.
+
+## Niveau 1 — direct toepasbaar
+
+- Iedere rol gebruikt het SELF_ROUTING_PROTOCOL.
+- Iedere rol noemt exact de bestemming en één volgende handeling voor Mark.
+- Iedere rol levert een volledig kopieerbaar `DOORSTUURTEKST`-blok.
+- Mark hoeft workerberichten niet meer te interpreteren.
+- Een universele startopdracht vervangt afzonderlijke lange BRONS-, ZILVER- en GOUD-prompts.
+
+Handwerk voor Mark: connector activeren, universele startopdracht plakken, één slotblok doorsturen.
+
+## Niveau 2 — repository-controller via GitHub Actions
+
+Een workflow reageert op wijzigingen in `research/active/*/state.yaml` en `*/COMPLETED`.
+
+De workflow:
+
+1. valideert JSONL/YAML, sentinels, required outputs, unieke IDs en source-referenties;
+2. vergelijkt state en eventlog;
+3. bepaalt de definitieve predecessorcommit;
+4. genereert het volgende gepinde contextmanifest;
+5. schrijft het transitionevent en de READY-state;
+6. actualiseert `pipeline/NEXT_ACTION.yaml`;
+7. stopt hard bij iedere fout en schrijft een machineleesbaar blockerbestand.
+
+Handwerk voor Mark: alleen connector activeren en in iedere nieuwe chat dezelfde universele startopdracht plakken. Tussen BRONS, ZILVER en GOUD is geen terugkeer naar SUBREGIE INDIA nodig wanneer de Action groen is.
+
+## Niveau 3 — één GitHub-dispatchpunt
+
+Gebruik één vast GitHub Issue of een repositorybestand als mailbox:
+
+- titel/bestand: `INDIA_PIPELINE_DISPATCH`;
+- bevat actieve run, volgende rol, status, contextpad en laatste validatie;
+- workers lezen dit als eerste na ENTRYPOINT;
+- GitHub Actions actualiseert het na iedere geldige transition.
+
+Mark hoeft geen run-id of rol meer te onthouden.
+
+## Niveau 4 — volledige externe orchestratie
+
+Een externe orchestrator, bijvoorbeeld n8n of een eigen controllerdienst, gebruikt:
+
+- een GitHub App/token voor repository-read/write;
+- model-API's voor afzonderlijke BRONS-, ZILVER- en GOUD-uitvoeringen;
+- webresearchtools per agent;
+- een deterministische state machine;
+- menselijke goedkeuring uitsluitend bij projectbesluiten of BLOCKED.
+
+Deze laag kan workers automatisch na elkaar starten. Dit kan niet betrouwbaar worden bereikt door de ChatGPT-connector zelf, omdat een chat de connector niet autonoom in een andere chat kan activeren.
+
+## Aanbevolen volgorde
+
+1. SELF_ROUTING_PROTOCOL invoeren.
+2. `NEXT_ACTION.yaml` en universele startopdracht invoeren.
+3. Een read-only validator als GitHub Action bouwen.
+4. Pas na meerdere groene runs automatische controllerwrites toestaan.
+5. Daarna eventueel n8n/API-orchestratie toevoegen.
+
+## Veiligheidsgrens
+
+Automatisering mag nooit:
+
+- A/B/C toekennen;
+- inhoudelijke onzekerheid gladstrijken;
+- een BLOCKED-run automatisch forceren;
+- actieve claims overschrijven;
+- gepinde input wijzigen;
+- INDIA2 belasten met technische logs.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=694 path=pipeline/CONTEXT_PROFILES.yaml blob_sha=4526bb1fe5e3605d63af45d81f8efb152bef1863 original_offset=0 original_length=2246 payload_bytes=2246 chunk_index=0 chunk_count=1 classification=text
+schema_version: 1
+policy: >-
+  Context is role-specific and proportional. Every required file must have a reason and task.
+  Full predecessor reports are included only for loss control, unresolved conflicts or necessary cluster continuity.
+profiles:
+  BRONS_MIN:
+    purpose: broad first detection without loading predecessor narrative unnecessarily
+    required_categories:
+      - scope
+      - known_anchors_and_formal_statuses
+      - detector_and_overlay_rules
+      - methodology
+      - evidence_protocol
+      - role_contract
+      - required_output_templates
+      - canonical_place_registry
+    predecessor_rule: >-
+      Include only compact predecessor summaries, canonical place records and explicitly relevant claims/sources.
+      Do not load full older reports unless the scope states a concrete loss-control reason.
+    default_limits:
+      files: 30
+      lines_per_file: 1500
+  ZILVER_MIN:
+    purpose: independent verification of BRONS outputs and risk-based correction
+    required_categories:
+      - scope
+      - brons_handoff
+      - brons_claims_and_sources
+      - open_or_corrected_layers
+      - verification_rules
+      - relevant_decisions
+      - canonical_place_registry
+    predecessor_rule: >-
+      Reopen ACCEPTED non-dragende layers only by motivated sample. Always verify dragende claims and OPEN layers.
+    default_limits:
+      files: 35
+      lines_per_file: 1500
+  GOUD_MIN:
+    purpose: final synthesis and decision readiness without repeating accepted sweeps
+    required_categories:
+      - scope
+      - zilver_handoff
+      - zilver_claims_and_sources
+      - open_conflicted_or_high_risk_layers
+      - quality_gate
+      - decision_inputs_template
+      - canonical_place_registry
+    predecessor_rule: >-
+      Full BRONS or older narrative is optional and only triggered by removal, merge, downgrade or suspected information loss.
+    default_limits:
+      files: 30
+      lines_per_file: 1500
+manifest_requirements:
+  each_file:
+    - path
+    - reason
+    - task
+    - expected_git_blob_sha
+  reject_when:
+    - file_has_no_role_specific_reason
+    - general_background_exceeds_run_context
+    - predecessor_narrative_is_loaded_without_trigger
+    - required_hash_is_missing
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=695 path=pipeline/DESIGN_REPORT_V2.md blob_sha=f764b0f06aeea6e8cb037e9a4c878440bc281856 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# Ontwerprapport BRONS–ZILVER–GOUD v2.0
+
+## 1. Opdracht
+
+Bouw een volledig GitHub-native, modelonafhankelijke onderzoekspijplijn waarin drie volledig nieuwe AI-sessies sequentieel één onderzoek verbeteren. Mark kopieert geen rapporten tussen chats. Iedere fase schrijft haar eigen volledige dossier naar GitHub; alleen GOUD gaat naar de India-regisseur.
+
+## 2. Onderzoek van de bestaande sweep en pipeline
+
+### Bruikbaar en behouden
+
+Uit de bestaande sweepmethodiek zijn behouden:
+- de fysieke-plaats-poort: personen, boeken en tradities zijn geen eindobject;
+- afzonderlijke controle van fysieke identiteit en actuele bezoekbaarheid;
+- bronhiërarchie en verbod op Wikipedia/zoekresultaten als eindbron;
+- AOAY-dubbele bewijsvoering;
+- expliciete negatieve resultaten en onzekerheidssectie;
+- controlelijst, open zoekrichtingen, dubbelingscontrole en ashramcontrole;
+- harde bescherming dat alleen Mark A/B/C toekent;
+- eerlijke compleetheidsstatus in plaats van schijnvolledigheid.
+
+### Onvoldoende en vervangen
+
+De eerste pipelineversie was chat-gecentreerd:
+- BRONS leverde één grote rapporttekst;
+- Mark moest die naar een nieuwe ZILVER-chat kopiëren;
+- ZILVER leverde opnieuw één grote tekst voor GOUD;
+- er was geen runisolatie, claim-lock, source-commit-pin, contextmanifest, artifactmanifest of truncatiebeveiliging;
+- `FEIT` versus `TRADITIECLAIM` was te grof voor Babaji, Krishna, Shakti Peeths, levende lineages en getuigenissen;
+- institutionele identiteit was niet verplicht;
+- rapporten waren conceptueel volledig maar konden opnieuw monsterbestanden worden.
+
+Deze onderdelen zijn vervangen door repository-only handoff, Methodology v2.0 en gestructureerde fase-artifacts.
+
+## 3. Definitieve architectuur
+
+### Stabiele kennis
+
+- `knowledge/methodology/METHODOLOGY_V2.md`
+- `knowledge/project/OVERLAYS_INDIA.md`
+
+Methodologie is generiek. AOAY, Kriya/Babaji, Krishna, Neem Karoli Baba/Ram Dass en andere India-lagen zijn projectdata.
+
+### Uitvoering
+
+- `pipeline/ENTRYPOINT.md`
+- `pipeline/PIPELINE_CONTRACT.md`
+- `pipeline/roles/BRONS.md`
+- `pipeline/roles/ZILVER.md`
+- `pipeline/roles/GOUD.md`
+- `pipeline/protocols/EXECUTION_PROTOCOL.md`
+- `pipeline/protocols/CONTEXT_PROTOCOL.md`
+- `pipeline/protocols/EVIDENCE_PROTOCOL.md`
+- `pipeline/QUALITY_GATE.md`
+- `pipeline/templates/RUN_TEMPLATE.md`
+
+### Onderzoeksdata
+
+- `research/active/<run-id>/`
+- `research/completed/<run-id>/`
+
+Iedere run bevat immutable run-identiteit, actuele state, append-only events, fasecontexten en afzonderlijke BRONS/ZILVER/GOUD-output.
+
+## 4. Methodology v2.0
+
+De centrale vraag is niet langer uitsluitend wat historisch bewezen is. De pipeline onderzoekt waarom een fysieke plaats binnen een of meer spirituele tradities een blijvende bestemming is geworden, welke typen onderbouwing bestaan en welke huidige fysieke werkelijkheid daarmee verbonden is.
+
+Per kandidaat blijven afzonderlijk zichtbaar:
+- fysieke identiteit;
+- institutionele identiteit;
+- historische identiteit;
+- traditie;
+- lineage;
+- levende praktijk en continuïteit;
+- actuele bezoekbaarheid;
+- getuigenissen.
+
+Claims krijgen per laag een bewijsstatus. Er bestaat geen totaalscore.
+
+Babaji wordt niet behandeld als klassiek biografisch bewijsprobleem. De pipeline onderzoekt welke lineage de relatie draagt, welke officiële bronnen dat zeggen en welke fysieke plek bij die levende traditie hoort. Hetzelfde principe voorkomt verkeerde vragen bij Krishna en andere mythische of bovennatuurlijke figuren.
+
+## 5. Vijf verbeteriteraties
+
+### Iteratie 1 — Van chat-pipeline naar GitHub-pipeline
+
+Probleem: handmatig kopiëren, verloren tussenproducten en geen gedeelde voortgang.
+
+Verbetering: GitHub is de enige inter-process communication. Elke rol schrijft een eigen faseversie en handoff. Mark activeert alleen run en rol.
+
+### Iteratie 2 — Van vrije repositorylezing naar deterministische context
+
+Probleem: verschillende modellen lezen verschillende bestanden, missen cruciale context of overschrijden het contextvenster.
+
+Verbetering: iedere fase leest uitsluitend een gepind contextmanifest met required, optiona
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=696 path=pipeline/DESIGN_REPORT_V2.md blob_sha=f764b0f06aeea6e8cb037e9a4c878440bc281856 original_offset=4096 original_length=3596 payload_bytes=3596 chunk_index=1 chunk_count=2 classification=text
+l en forbidden files, prioriteitsvolgorde, source commit en contextbudget.
+
+### Iteratie 3 — Van één bewijsmodel naar claimtypen
+
+Probleem: historische bewijsstandaarden verwijderden juist belangrijke lineage- en traditieplaatsen.
+
+Verbetering: atomische claimtypen en aparte bewijsstatussen. Institutionele identiteit werd verplicht. Traditie, lineage en getuigenis worden kritisch maar volgens het juiste epistemische model onderzocht.
+
+### Iteratie 4 — Van één groot rapport naar logisch volledige artifacts
+
+Probleem: monsterbestanden veroorzaken afkapping, vergeten secties en slechte overdracht.
+
+Verbetering: `report/INDEX.md` plus genummerde kleine rapportdelen, claims.jsonl, bronregister, audit, handoff en completion marker. Limiet: 1500 regels per primair bestand.
+
+### Iteratie 5 — Van overtuigende afronding naar aantoonbare vrijgave
+
+Probleem: een AI kan verklaren dat iets compleet is terwijl output afgekapt, bronloos of alleen in de chat staat.
+
+Verbetering: claim-lock, state machine, append-only events, source-commit-pinning, eind-sentinels, artifactmanifest, herlezing vóór COMPLETED en GOUD-status PASS/PARTIAL/BLOCKED.
+
+## 6. Waarom dit beter is
+
+### Inhoudelijk
+
+- Krachtplaatsen met levende traditie worden niet meer onterecht afgewezen wegens ontbrekend klassiek historisch bewijs.
+- Historische claims worden niet minder kritisch; zij zijn alleen niet langer het enige geldige claimtype.
+- Institutionele identiteit maakt ontdekkingen zoals Katyayani Peeth systematisch reproduceerbaar.
+- Neem Karoli Baba en andere belangrijke lineages krijgen een volwaardige projectoverlay zonder te worden geforceerd in Kriya.
+- Getuigenissen en het feit dat mensen een plek als bijzonder ervaren kunnen worden onderzocht zonder ze tot historische feiten te verheffen.
+
+### Technisch
+
+- Geen handmatig rapportkopiëren.
+- Geen afhankelijkheid van chatgeheugen.
+- Iedere fase en bron blijft zichtbaar.
+- Context blijft klein, ook wanneer de repository groeit.
+- Oude completed runs worden niet automatisch ingelezen.
+- Afkapping en halve writes worden expliciet gedetecteerd.
+- Een volgende rol weet exact welke versie en commit zij controleert.
+
+### Bestuurlijk
+
+- Alleen Mark beoordeelt A/B/C.
+- De regisseur krijgt alleen het GOUD-dossier.
+- India2, Claude, ChatGPT en andere bevoegde schrijvers kunnen later methodologie of rollen verbeteren zonder actieve runs stil te veranderen.
+
+## 7. Bewust niet gebouwd
+
+Voor ongeveer tien tot enkele tientallen runs zijn niet toegevoegd:
+- externe database;
+- middleware of contextresolver;
+- complexe eventsegmentatie;
+- automatische leases op basis van tijd;
+- dubbele history-kopieën;
+- bedrijfsbrede orchestration-infrastructuur.
+
+GitHub, contextmanifesten en kleine artifacts zijn voldoende. Claims verlopen niet automatisch, omdat AI-sessies geen betrouwbare leasehouder zijn; een override vereist expliciete actie van Mark of controller.
+
+## 8. Ingebruikname
+
+1. Maak een run vanaf `pipeline/templates/RUN_TEMPLATE.md`.
+2. Vul scope, controlelijst en contextmanifesten.
+3. Activeer BRONS met de korte tekst uit `pipeline/START_PROMPTS.md`.
+4. Na geldige BRONS-completion activeer ZILVER.
+5. Na geldige ZILVER-completion activeer GOUD.
+6. De regisseur leest alleen GOUD via manifest en rapportindex.
+
+## 9. Eindoordeel
+
+De pipeline is nu ontworpen als een klein maar robuust research operating system voor Marks werkelijke gebruik: ongeveer tien runs, meerdere AI-modellen, volledige GitHub-read/write en één einddossier per cluster. Zij vermijdt zowel promptchaos als onnodige bedrijfscomplexiteit.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=697 path=pipeline/ENTRYPOINT.md blob_sha=2cb50f0e6307bded90da1bb7418e103791c96dd4 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# ENTRYPOINT — BRONS / ZILVER / GOUD v3.1.1
+
+Dit is het enige startpunt voor een nieuwe uitvoerende AI-sessie.
+
+## Verplichte eerste instructie
+
+Iedere startvraag aan BRONS, ZILVER of GOUD begint met:
+
+`Activeer in deze chat onmiddellijk de GitHub-connector en houd deze gedurende de volledige uitvoering beschikbaar. Dit onderzoek gebruikt GitHub als enige bron van waarheid en overdrachtskanaal. Test vóór ieder inhoudelijk werk zowel GitHub-read als GitHub-write voor repository bnzgxknwrv-tech/india-knowledge-base. Ontbreekt read of write, antwoord dan uitsluitend: MARK: IK MIS GITHUB CONNECTOR! Ga alleen verder wanneer beide aantoonbaar werken.`
+
+Een worker beweert nooit dat hij een connector in een andere chat heeft geactiveerd. De gebruiker activeert de connector; de worker test de feitelijke toegang.
+
+## Universele activatie
+
+Na de verplichte eerste instructie volstaat:
+
+`Open pipeline/ENTRYPOINT.md en voer uitsluitend de actie uit die in pipeline/NEXT_ACTION.yaml staat.`
+
+`NEXT_ACTION.yaml` bepaalt exact één run, rol, expected state, contextmanifest en — uitsluitend voor nieuwe gepinde runs — één `post_completion`-actie. Een worker leidt geen andere rol of vervolgactie af.
+
+## Verplichte volgorde
+
+1. Test GitHub-read en GitHub-write.
+2. Open `pipeline/NEXT_ACTION.yaml`.
+3. Controleer route, run, expected state, contextmanifest en eventuele `post_completion`- en `canonical_integration`-velden.
+4. Open `research/active/<run-id>/run.yaml` en `state.yaml`.
+5. Controleer dat geen `ACTIVE` claim bestaat en state/eventcursor overeenkomen.
+6. Lees het gepinde rolcontract, methodologie, evidence-protocol en quality gate.
+7. Lees uitsluitend het contextmanifest en de daarin genoemde runbestanden.
+8. Controleer source commit, hashes, volledigheid en sentinels.
+9. Claim de fase met `claim_status: ACTIVE` volgens `EXECUTION_PROTOCOL.md`.
+10. Voer uitsluitend de inhoudelijke rol en scope uit.
+11. Schrijf alle verplichte outputs naar het toegewezen fasepad.
+12. Valideer artifacts, bronverwijzingen, scope en sentinels.
+13. Schrijf manifest, handoff en COMPLETED; sluit de workerclaim met `claim_status: CLOSED` in dezelfde completioncommit; synchroniseer state en events.
+14. Commit de volledige fase-uitkomst en voer finale readback uit.
+15. Controleer daarna uitsluitend de expliciet gepinde `post_completion`-modus:
+    - zonder geldige nieuwe pin: stop en gebruik het oude routingproces;
+    - `INLINE_POST_PHASE_CONTROLLER`: controleer dat de workerclaim `CLOSED` is, beëindig de workerrol formeel en voer daarna als afzonderlijke controllerrol het gepinde `ROLE_HANDOFF_PROTOCOL.md` en `CONTROLLER_TRANSITION_PROTOCOL.md` uit;
+    - `MARK_FINAL_REPORT`: maak als GOUD het volledige gepinde Markrapport en canonieke integratievoorstel, voer alleen expliciet gepinde deterministische integratie uit, valideer alles en lever het rapport rechtstreeks aan Mark.
+
+De worker maakt nooit als worker het contextmanifest van zijn opvolger. Alleen een afzonderlijke controllerrol doet dit.
+
+## Expliciete rolwissel
+
+Een sessie mag alleen naar `INLINE_POST_PHASE_CONTROLLER` wisselen wanneer `run.yaml` en `NEXT_ACTION.yaml` dit expliciet pinnen. De rolwissel vereist:
+
+- volledige workercompletion en fasecommit;
+- workerclaim `CLOSED` met dezelfde completioncommit;
+- geen verdere fase-outputwrites;
+- nieuwe GitHub-preflight;
+- opnieuw lezen van de controllerprotocollen;
+- een afzonderlijke `ACTIVE` controllerclaim;
+- uitsluitend controllerwrites;
+- sluiting van de controllerclaim in de transitioncommit;
+- finale readback vóór een volgende startopdracht.
+
+De workerclaim wordt nooit als controllerclaim hergebruikt.
+
+## GOUD en de canonieke kennisbasis
+
+GOUD vervangt de normale INDIA2-eindredactie door een volledig `MARK_FINAL_REPORT.md`. Om te voorkomen dat `knowledge/places/registry.jsonl` en `decisions/INDEX.yaml` achterlopen, schrijft GOUD tevens een gepind `CANONICAL_INTEGRATION_PROPOSAL.md`.
+
+GOUD mag alleen mechanische, niet-beslissende integratie toepassen wanneer `canonical_integration.mode: DETERMINISTIC_NON_DECISIONAL` expliciet is gepin
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=698 path=pipeline/ENTRYPOINT.md blob_sha=2cb50f0e6307bded90da1bb7418e103791c96dd4 original_offset=4096 original_length=1765 payload_bytes=1765 chunk_index=1 chunk_count=2 classification=text
+d. Nieuwe of gewijzigde formele/adviserende A/B/C-statussen, nieuwe decision-ID's en nieuwe beslisteksten zijn verboden. Wanneer Mark moet beslissen, blijft de betreffende canonieke wijziging onuitgevoerd en bevat het eindrapport exact één beslispunt.
+
+## Compatibiliteit
+
+Oude, reeds gepinde of geclaimde runs worden niet stil gemigreerd. Ontbreekt een geldige `post_completion`-pin of het gepinde `ROLE_HANDOFF_PROTOCOL.md`, dan stopt BRONS of ZILVER na completion en routeert volgens het oude protocol naar SUBREGIE INDIA of een afzonderlijke controller. GOUD routeert in dat geval volgens zijn oude gepinde contract.
+
+## Inhoudelijke prioriteit
+
+Iedere toekomstige plaats-sweep behandelt ook:
+
+- waarom devotees naar de plek gaan;
+- wat mensen er werkelijk doen;
+- of Mark respectvol kan deelnemen;
+- sfeer, actuele beleving en representatieve beelden;
+- institutionele, historische, lineage- en traditiebevestiging als afzonderlijke domeinen;
+- praktische controles en nabijheid tot relevante ankers.
+
+## Stopvoorwaarden
+
+Stop zonder inhoudelijk werk wanneer:
+
+- GitHub-read of GitHub-write ontbreekt;
+- `NEXT_ACTION.yaml`, run, rol of context ontbreekt of tegenstrijdig is;
+- een `ACTIVE` claim bestaat;
+- state en eventlog elkaar tegenspreken;
+- een required file ontbreekt, afgekapt is of een gepinde hash afwijkt;
+- de output niet volledig kan worden geschreven.
+
+Bij ontbrekende GitHub-toegang is het volledige antwoord uitsluitend:
+
+`MARK: IK MIS GITHUB CONNECTOR!`
+
+## Geen protocolwerk tijdens een onderzoeksfase
+
+Een uitvoerende rol wijzigt tijdens dezelfde run nooit zijn rolcontract, methodologie, protocol, contextregels of schemas. Nieuwe pipelineversies gelden alleen voor runs die deze vóór de eerste claim expliciet pinnen.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+

@@ -1,0 +1,873 @@
+>>> CHUNK stream_row=636 path=GENERIC_CLUSTER_SWEEP_STARTPROMPT.md blob_sha=8daf8b7ac41cdad567fd2b93435cfbdaa2ba6007 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+ haalbaarheid of route-impact die later exact moet worden gecontroleerd.
+
+Een groot verhaal zonder aanwijsbare fysieke plek haalt de bezoekbaarheidspoort niet.
+
+========================================
+BRONREGELS
+========================================
+
+Gebruik actuele online bronnen waar nodig.
+
+Geef prioriteit aan:
+
+1. officiële beheerders, ashrams, tempels, musea, overheden en archeologische instanties;
+2. primaire geschriften en institutionele archieven;
+3. betrouwbare historische of wetenschappelijke bronnen;
+4. pas daarna lokale reisbronnen, blogs en video’s voor praktische aanwijzingen.
+
+Neem commerciële reisbureauteksten niet zonder onafhankelijke controle over.
+
+Noem onzekerheden expliciet. Verzin geen coördinaten, toegang, openingstijden of gebeurtenissen.
+
+========================================
+ASHRAMS — ROUTEVORMENDE TOETS
+========================================
+
+Onderzoek relevante ashrams niet als goedkope hotels, maar als mogelijke spirituele verblijfservaring.
+
+Leg op BASISNIVEAU vast:
+
+- directe relatie met Marks lijn of prioriteitsfiguren;
+- historisch origineel of modern centrum;
+- dagbezoek, gastenverblijf of retreat;
+- vermoedelijk vrij verblijf versus verplicht programma;
+- of verblijf mogelijk de waarde van het cluster of het aantal nachten kan veranderen;
+- welke praktische vragen later nog rechtstreeks moeten worden geverifieerd.
+
+Ga nog niet kamers, prijzen of exacte boekingsvoorwaarden vergelijken, tenzij één hard feit nodig is om vast te stellen of verblijf überhaupt bestaat.
+
+========================================
+VOORKOM DUBBELING EN INFLATIE
+========================================
+
+Controleer voor elke vondst:
+
+- bestaat deze plek al in GitHub onder een andere naam of spelling?
+- is dit werkelijk een afzonderlijke fysieke plek, of slechts een onderdeel van een groter complex?
+- is de historische gebeurtenis aan deze exacte plek gekoppeld?
+- is het een originele locatie, een latere gedenkplek of alleen een moderne organisatie?
+- voegt de plek inhoud toe, of wordt de lijst kunstmatig opgeblazen?
+
+Gebruik volledige namen; geen onverklaarde afkortingen.
+
+========================================
+GEWENSTE UITVOER
+========================================
+
+Lever één compact maar volledig BASISRAPPORT met deze vaste onderdelen:
+
+A. CLUSTERDEFINITIE
+
+- Wat valt geografisch en inhoudelijk onder dit cluster?
+- Welke plaatsen horen niet bij dit cluster en waarom niet?
+
+B. BESTAANDE GITHUB-STATUS
+
+- Wat staat al in GitHub?
+- Welke waarderingen zijn door Mark al formeel vastgelegd?
+- Welke punten staan nog op U, ONGEMERKT of open?
+
+C. KANDIDATENKAART
+
+Maak per fysieke plek een afzonderlijk blok met:
+
+NAAM:
+ALIASES/SPELLINGEN:
+LAAG: kern / clusterzone / routecorridor
+WAT IS HET:
+WIE OF WELKE LIJN:
+WAAROM RELEVANT:
+FYSIEKE STATUS EN BEZOEKBAARHEID:
+FEIT / TRADITIECLAIM / PERSOONLIJKE ERVARING:
+GLOBALE LIGGING TEN OPZICHTE VAN HET CLUSTER:
+BRONKWALITEIT:
+ZEKERHEID: hoog / middel / laag
+NOG LATER TE VERIFIËREN:
+
+Ken geen A, B of C toe.
+
+D. ASHRAMS EN BIJZONDERE VERBLIJFERVARINGEN
+
+- Welke authentieke ashrams bestaan?
+- Welke kunnen mogelijk routevormend zijn?
+- Welke zijn alleen modern, organisatorisch of logistiek?
+- Welke vragen moeten in een latere verblijfsfase worden onderzocht?
+
+E. OMGEVING EN ROUTECORRIDOR
+
+- Welke sterke plekken liggen buiten de kern maar binnen circa twee uur?
+- Welke betekenisvolle tussenstops liggen logisch op de aan- of afreisroute?
+- Welke genoemde plekken zijn juist te ver en vormen een afzonderlijke module?
+
+F. COMPLEETHEIDSCONTROLE
+
+- Welke prioriteitsfiguren en lijnen zijn systematisch gecontroleerd?
+- Welke zoekrichtingen leverden niets concreets op?
+- Welke risico’s op gemiste obscure plekken blijven bestaan?
+
+G. BASISCONCLUSIE
+
+Beantwoord uitsluitend:
+
+- Is de kandidatenkaart compleet genoeg om Mark de locaties te laten beoordelen?
+- Welke maximaal vijf open onderzoeksvragen blokkeren die beoordeling nog?
+- Welke details zijn bewust uitgesteld tot na Marks beoordeling?
+
+H. GITHUB-DELTA-ADVIES
+
+Geef een lijst van:
+
+- nieuwe kandidaten die mogelijk neut
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=637 path=GENERIC_CLUSTER_SWEEP_STARTPROMPT.md blob_sha=8daf8b7ac41cdad567fd2b93435cfbdaa2ba6007 original_offset=8192 original_length=1386 payload_bytes=1386 chunk_index=2 chunk_count=3 classification=text
+raal in GitHub moeten worden opgenomen;
+- bestaande records die mogelijk verrijkt of gecorrigeerd moeten worden;
+- mogelijke alias-dubbelingen;
+- open onzekerheden die eventueel een AUDIT-record verdienen.
+
+Wijzig GitHub niet.
+
+========================================
+WAT JE NU NIET DOET
+========================================
+
+Doe nu niet:
+
+- Mark-waarderingen voorstellen of invullen;
+- definitieve aantallen nachten bepalen;
+- hotels vergelijken of boeken;
+- volledige dagindelingen maken;
+- exacte treinen, vluchten of chauffeurs kiezen;
+- een definitieve chronologische route vastleggen;
+- concurrerende hoofdmodules vergelijken;
+- andere clusters volledig openen;
+- elk klein detail uitzoeken voordat de kandidatenkaart is goedgekeurd.
+
+Eindig met:
+
+“BASIS-SWEEP COMPLEET”
+
+of, wanneer de kaart nog niet klaar is:
+
+“BASIS-SWEEP NOG NIET COMPLEET — BLOKKERS: ...”
+```
+
+## Gebruik voor de huidige eerstvolgende taak
+
+Vul de velden als volgt in:
+
+- `{{CLUSTER_NAAM}}` = Vrindavan / Mathura / Govardhan / Agra
+- `{{KERNPLAATSEN}}` = Vrindavan, Mathura, Govardhan en Agra
+- `{{VORIGE_CLUSTER_OF_ONBEKEND}}` = Delhi
+- `{{VOLGENDE_CLUSTER_OF_ONBEKEND}}` = Kumaon, waarschijnlijk via Haldwani/Kathgodam
+
+De uitkomst is eerst een kandidatenkaart. Mark beoordeelt daarna de locaties. Pas vervolgens worden dagstructuur, nachten, slaapbasis en verbinding naar Kumaon onderzocht.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=638 path=KOLKATA_SERAMPORE_CANDIDATES.md blob_sha=6b915c638119eb2fcb7560835fae2b5696d56b65 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# KOLKATA_SERAMPORE_CANDIDATES - Kandidaatkaart voor audit
+
+Status: ONGEMERKT-kandidaten, geen PLACE-records, geen waarderingen, geen besluiten. Doel: audit-klaar voor DeepSeek. Cluster: Kolkata plus Serampore (ongeveer 25 km), met Kamarpukur/Jayrambati als mogelijke excursie op afstand. Poort blijft gelijk: fysieke plek, lijn-connectie, bezoekbaarheid, meer dan sfeer.
+
+## Kandidaten
+
+1. Garpar Road 4, Kolkata - jeugdhuis van Yogananda; Babaji zegende hem hier voor zijn vertrek naar de Verenigde Staten; meditatiekamer op de bovenverdieping. Axis: kriya-lijn. Detectoren: Yogananda; Babaji. HARD fysiek; bezoek op afspraak via de YSS. Poort: pass, access restricted (afspraak).
+2. Priyadham, Serampore - hermitage en woonhuis van Sri Yukteswar, waar hij Yogananda trainde. Axis: kriya-lijn. Detectoren: Sri Yukteswar; Yogananda. HARD fysiek (YSS Dhyana Kendra). Poort: pass.
+3. Rai Ghat banyan, Serampore - Babaji verscheen aan Sri Yukteswar na voltooiing van The Holy Science. Axis: kriya-lijn (Babaji-gebeurtenis). Detectoren: Babaji; Sri Yukteswar. Fysiek (de banyan en ghat); de verschijning is devotee-overlevering. Poort: pass fysiek, bewijs zwak.
+4. Dakshineswar Kali-tempel - tempel en realisatieplek van Ramakrishna. Axis: grote-magneet (Ramakrishna). Detector: Ramakrishna. HARD, bezoekbaar, groot. Poort: pass.
+5. Belur Math - hoofdkwartier van de Ramakrishna Mission; samadhi-tempel van Vivekananda. Axis: grote-magneet (Ramakrishna, Vivekananda). Detectoren: Vivekananda; Ramakrishna. HARD, bezoekbaar. Poort: pass.
+6. Cossipore Garden House - waar Ramakrishna zijn laatste dagen doorbracht en overleed. Axis: grote-magneet. Detector: Ramakrishna. HARD, bezoekbaar. Poort: pass.
+7. Jorasanko Thakur Bari - familiehuis van Rabindranath Tagore (museum). Axis: AOAY-connectie. Detector: Tagore. HARD (museum); de connectie is eerder cultureel dan een krachtplek. Poort: pass fysiek, veld cultureel.
+8. Bose Institute, Kolkata - Acharya Jagadis Chandra Bose (AOAY-figuur). Axis: AOAY-connectie. Detector: Jagadis Chandra Bose. HARD (instituut bestaat); eerder wetenschappelijk-historisch dan krachtplek. Poort: pass fysiek, veld zwak.
+9. Arya Mission Institution, 80 Muktaram Babu Street, Kolkata - organisatie van Panchanan Bhattacharya (eerste Kriya-organisatie); Lahiri verscheen na zijn crematie aan Panchanan in Calcutta. Axis: kriya-lijn (chief disciple). Detectoren: Panchanan Bhattacharya; Lahiri Mahasaya. Fysiek (gebouw bestaat); huidige pelgrims-toegankelijkheid te verifieren. Poort: pass fysiek, toegang te verifieren.
+10. Master Mahasaya-huis en -school, Kolkata - Mahendranath Gupta (AOAY-hoofdstuk). Axis: bredere lijn / AOAY. Detector: Master Mahasaya. Fysiek maar zwak: exacte plek en toegang te verifieren. Poort: te verifieren.
+11. Bhaduri Mahasaya-ashram, Kolkata - leviterende heilige uit AOAY. Axis: bredere lijn / AOAY. Detector: Bhaduri Mahasaya. Fysiek maar zwak: exacte plek te verifieren. Poort: te verifieren.
+12. Kamarpukur en Jayrambati (ongeveer 100 km) - geboorteplek van Ramakrishna en van Sarada Devi. Axis: grote-magneet. Detectoren: Ramakrishna; Sarada Devi. HARD fysiek maar op afstand, dus excursie, mogelijk buiten de Kolkata-radius. Poort: pass fysiek, route-twijfel.
+
+## Markering
+- Harde fysieke plek: 1, 2, 4, 5, 6, 7, 8 (en 12 op afstand).
+- Fysieke plek maar zwak (bewijs, connectie of toegang): 3 (Babaji-verschijning is overlevering), 9 (toegang te verifieren), 10 en 11 (exacte plek te verifieren); 7 en 8 fysiek-hard maar connectie cultureel/wetenschappelijk.
+- Gebeurtenis zonder identificeerbare plek: Tiger Swami en Giri Bala (Bengalen, geen bevestigde plek).
+- Bewust uitgesloten: Kalighat (grote Kali-tempel, buiten Marks index en assen) - context, geen krachtplek-record.
+
+## Verwachte nieuwe records bij goedkeuring
+- PERSON-detectoren: Sri Yukteswar, Ramakrishna, Vivekananda, Tagore, Jagadis Chandra Bose, Panchanan Bhattacharya, Master Mahasaya, Bhaduri Mahasaya, Sarada Devi. (Yogananda, Babaji en Lahiri bestaan of zitten in de pool.)
+- SOURCE-records: AOAY bestaat al; aanvullend Ramakrishna-bronnen (The Gospel of Sri 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=639 path=KOLKATA_SERAMPORE_CANDIDATES.md blob_sha=6b915c638119eb2fcb7560835fae2b5696d56b65 original_offset=4096 original_length=450 payload_bytes=450 chunk_index=1 chunk_count=2 classification=text
+Ramakrishna), Vivekananda, een bron voor Priyadham en Rai Ghat, en een Panchanan/Arya Mission-bron.
+
+## Open vragen voor de audit
+- Het afspraakproces voor Garpar Road.
+- Hoe hard is de Babaji-verschijning bij de Rai Ghat banyan (overlevering)?
+- Is de Arya Mission Institution vandaag bezoekbaar als pelgrimsplek?
+- Kamarpukur en Jayrambati: binnen het Kolkata-cluster of een aparte excursie (ongeveer 100 km)?
+- Toegang tot Cossipore Garden House.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=640 path=KUMAON_CANDIDATES.md blob_sha=be64d80ba06967317f5dbec7c4b756b9ecb137aa original_offset=0 original_length=4002 payload_bytes=4002 chunk_index=0 chunk_count=1 classification=text
+# KUMAON_CANDIDATES - Kandidaatkaart (AFGEHANDELD / HISTORISCH)
+
+> STATUS: AFGEHANDELD - lees dit NIET als actuele status. Deze kandidatenkaart komt uit de audit-fase vóórdat Mark Kumaon beoordeelde. Mark heeft deze locaties inmiddels beoordeeld; de actuele waarderingen staan in LOCKED_A.md, LOCKED_B.md en LOCKED_C.md, en de neutrale inventaris in CLUSTER_LOCATIONS.md. Bij tegenspraak winnen die bestanden altijd.
+>
+> Actuele stand van de hier genoemde kandidaten (juli 2026):
+> - YSS Dwarahat, Dunagiri, Kasar Devi/Crank's Ridge, Kainchi Dham, Hanuman Garhi: nu A in LOCKED_A (#18, #17, #20/#21, #19, #24).
+> - Kakrighat: nu A in LOCKED_A (#22, alias Karkateshwar Mahadev).
+> - Jageshwar: NIET uitgesloten - juist A in LOCKED_A (#23). De uitsluiting hieronder is achterhaald.
+> - Hotel Evelyn: nu CLUSTER_ANCHOR (Nainital), zie CLUSTER_ANCHORS.md. K.K. Sah-huis: onderdeel van die basisfunctie.
+>
+> De oorspronkelijke kandidaattekst hieronder is bewaard als audit-geschiedenis, niet als actuele waarheid.
+
+---
+
+Status (historisch): ONGEMERKT-kandidaten, nog geen PLACE-records. Doel destijds: DeepSeek schiet hier gaten in (bron, plek, poort), daarna beslist Mark welke kandidaten records worden. Geen waarderingen.
+
+## Kandidaten
+
+1. YSS Dwarahat-ashram (Dwarahat) - ashramgebouw, dagbezoek open. Axis: kriya-lijn. Detector: Yogananda. HARD fysiek; betekenis = basis/org-aanwezigheid, geen meester-gebeurtenis. Poort: pass.
+2. Dunagiri-tempel / Durga (Dwarahat, ~10 km) - oude Shakti-tempel. Axis: zwakke veldlink. Detector: alleen nabijheid grot. HARD fysiek, maar veldlink zwak (geen Kriya-gebeurtenis). Poort: pass fysiek, twijfel veld.
+3. Kasar Devi-tempel + Crank's Ridge (Almora) - oude tempel + heuvelrug. Axis: grote-magneet + sfeer persoonlijke-brug. Detectoren: Vivekananda (mediteerde hier); Ram Dass-era westerse zoekers. HARD (tempel); brug-link is sfeer, geen specifieke gebeurtenis. Poort: pass.
+4. Kainchi Dham (Nainital, Kosi) - Neem Karoli-ashram + Hanuman-tempel. Axis: persoonlijke-brug. Detectoren: Neem Karoli Baba; Ram Dass. HARD - hier ontmoette Ram Dass Neem Karoli (oorsprong van Marks tattoo). Poort: pass; access seasonal (sluitingsperiodes, 15-juni-drukte).
+5. Hanuman Garhi (Nainital) - tempel. Axis: persoonlijke-brug. Detector: Neem Karoli Baba. HARD fysiek; gebeurtenis-gewicht matig (associatie/renovatie). Poort: pass.
+6. Hotel Evelyn (Nainital) - hotel, indien nog actief. Axis: persoonlijke-brug. Detector: Ram Dass (verbleef hier). Fysiek maar zwak: logies, geen krachtgebeurtenis; bestaan te verifieren. Poort: borderline.
+7. KK Sah huis/winkel (Nainital) - privewoning/winkel, indien toegankelijk. Axis: persoonlijke-brug. Detector: Neem Karoli/Ram Dass-kring. Fysiek maar zwak bewijs/toegang: prive, status te verifieren. Poort: borderline.
+8. Kakrighat (Kosi-rivier, bij Kainchi) - oeverplek + peepal-boom + kleine schrijn. Axis: grote-magneet. Detector: Vivekananda (realisatie 1890). Fysiek redelijk, bewijs matig - resten ter plaatse te verifieren. Poort: pass-ish, verifieren.
+
+## Markering
+- Harde fysieke plek: 1, 3, 4, 5 (en het bestaande anker PLACE-0001 Babaji-grot).
+- Fysieke plek maar zwak (bewijs/veldlink/toegang): 2, 6, 7, 8.
+- Gebeurtenis zonder identificeerbare plek: Ranikhet (Lahiri's standplaats 1861; gebeurtenis vond plaats op Dunagiri).
+
+## Waarschijnlijk door de poort vallend
+- Ranikhet: geen specifieke fysieke plek.
+- Hotel Evelyn en KK Sah: bestaan/toegang onbevestigd; pas record na verificatie.
+
+## Bewust uitgesloten (geen kandidaat)
+- Pandukholi/Pandavkholi: Mahabharata-plek, geen Kriya-lijn (eerdere fout, gecorrigeerd).
+- Jageshwar, Patal Bhuvaneshwar, Kausani: fysiek bestaand maar buiten de drie assen.
+
+## Verwachte nieuwe records bij goedkeuring
+- PERSON-detectoren: Yogananda, Neem Karoli Baba, Ram Dass, Vivekananda.
+- SOURCE-records: Neem Karoli/Ram Dass-bronnen (Miracle of Love, Be Here Now); Vivekananda (Complete Works/biografie); Kainchi-ashram-bron; Kasar Devi/Crank's Ridge-bron. AOAY en YSS bestaan al.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=641 path=LESSONS.md blob_sha=e4f81032706b6aeb87bb251e1ff21fba61494ceb original_offset=0 original_length=3813 payload_bytes=3813 chunk_index=0 chunk_count=1 classification=text
+# LESSONS - Fouten die nooit opnieuw gemaakt mogen worden
+
+Een regel per fout, met de correctie. Dit register groeit: elke gevangen denkfout komt erbij.
+
+1. Te vroeg rangschikken. Grootste projectfout; iedereen begon zelf waarderingen uit te delen. Correctie: verzamel eerst ONGEMERKT; alleen Mark waardeert, en pas later.
+2. AOAY als skelet. De Autobiography of a Yogi werd de organiserende structuur. Correctie: AOAY is een bron, niet het raamwerk; de fysieke plek is dat.
+3. Mede-discipelen onder Sri Yukteswar gezet. Krachtveld en prioriteit verward. Correctie: Yukteswars collega's zijn peers; alleen route en persoonlijke aantrekking verschillen.
+4. Event verward met plek. "Hier gebeurde iets groots" werd "hier moet je heen", ook zonder aanwijsbare plek (Prayagraj, Dashashwamedh). Correctie: toets event-gewicht en plek-gewicht apart.
+5. Pandukholi als Kriya-plek. Is een Mahabharata- en Pandava-plek. Correctie: buiten scope.
+6. Babaji en Haidakhan verward. Twee verschillende figuren; de Haidakhan-tempel ligt pal op de Kainchi-route. Correctie: Marks Babaji is alleen Dunagiri/Kukuchina.
+7. AI wekte de indruk autonoom in GitHub te kunnen samenwerken. Kostte dagen. Correctie: AI's kunnen dezelfde repository lezen zodra die publiek is; schrijven is momenteel alleen voor Claude bewezen. Directe AI-naar-AI-samenwerking bestaat niet; samenwerking verloopt via gedeelde repository-kennis, met Mark als brug voor wat geschreven wordt.
+8. Controlled vocabulary te laat ontdekt. Veldwaarden dreigden te driften. Correctie: vocabulaire staat vast in VOCABULARY.md; nieuwe waarden alleen via een DECISION.
+
+9. **Een controlelijst vooraf wordt een plafond, geen ondergrens.** In de eerste Vrindavan-sweep kregen drie AI's een controlelijst met 31 namen plus de instructie "zoek ook buiten deze lijst". Alle drie leverden vrijwel exact de lijst terug; nul nieuwe vondsten. Correctie: zet de controlelijst ACHTERAAN als afvinklijst, niet vooraan als hoofdopdracht, en maak het zoeken buiten de lijst een aparte, prominente sectie.
+
+10. **Een quotum dwingt hallucinatie af.** De eis "vind minimaal vijf plekken buiten de controlelijst" duwt een model naar zwakke blogs, opgeblazen mini-tempels en aliassen die als nieuwe vondst worden gepresenteerd. Correctie: vraag om actief zoeken en accepteer expliciet nul als eerlijk resultaat. Negatieve resultaten zijn geldig en moeten gemeld worden.
+
+11. **Zonder consequentie wordt een eis genegeerd.** "Geef een bronlink" en "vul de telling in" werden door alle drie de AI's overgeslagen omdat er geen sanctie op stond. Correctie: koppel een gevolg aan de eis (geen bron = geen kandidaat; een kandidaat met alleen een zwakke bron hoort in de "onzeker"-sectie, niet in de kandidatenkaart).
+
+12. **Bronondersteuning per FEIT, niet alleen per plek.** Modellen leverden een bron voor de tempel en verzonnen daarna openingstijden, afstanden en bouwjaren. Correctie: praktische en historische gegevens mogen alleen genoemd worden als de aangehaalde bron die informatie daadwerkelijk bevat. Anders: "niet gevonden in bron".
+
+13. **Onderzoek bij tempels en ashrams altijd de officiële guru-lineage, parampara, oprichter en geschiedenis afzonderlijk.** Katyayani Peeth stond al op B als Shakti Peeth, maar de officiële lineage-pagina liet pas zien dat de fysieke plek rechtstreeks verbonden is met Swami Keshavanand, een discipel van Lahiri Mahasaya, en volgens de eigen traditie ook met Babaji. Daardoor veranderde de betekenis van de plek fundamenteel en koos Mark A. Correctie: een algemene homepage of categorieomschrijving is onvoldoende; controleer altijd aparte pagina's over lineage, guru-parampara, oprichter en historische afstamming. Label onafhankelijk verifieerbare relaties als FEIT en lijn-eigen bovennatuurlijke of historische overdrachten als TRADITIECLAIM.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=642 path=LOCKED_A.md blob_sha=4f2a9a1adf2f8046652035a72b8b76bce884d012 original_offset=0 original_length=2766 payload_bytes=2766 chunk_index=0 chunk_count=1 classification=text
+# LOCKED_A - Door Mark definitief als A gekozen locaties
+
+A = bezoeken. Dit zijn de bestemmingen van de reis. Niet herwaarderen, niet opnieuw ranken, niet naar B of C verplaatsen. Alleen Mark wijzigt deze lijst. Verblijfsbases staan apart in CLUSTER_ANCHORS.md en zijn normaal geen A. B in LOCKED_B.md, C in LOCKED_C.md. Definities in METHODOLOGY.md.
+
+## Bodh Gaya
+1. Mahabodhi Tempel
+2. Bodhiboom
+
+## Varanasi
+4. Lahiri Mahasaya Samadhi
+5. Lahiri-huis
+6. Manikarnika Ghat
+8. Trailanga Swami-samadhi
+10. Anandamayi Ma Ashram
+11. Sarnath
+12. Kashi Vishwanath
+
+## Babaji / Dwarahat
+15. Babaji Cave
+16. Babaji Smriti Bhavan
+17. Dunagiri Tempel
+18. YSS Dwarahat Ashram
+
+## Kainchi / Almora
+19. Kainchi Dham
+20. Kasar Devi
+21. Crank's Ridge
+22. Kakrighat (= Karkateshwar Mahadev Temple, Shiva-tempel aan de Kosi; Vivekananda-meditatieplek augustus 1890)
+23. Jageshwar
+24. Hanuman Garhi
+29. Ramakrishna Kutir
+30. Chitai Golu Devta Temple
+36. Turiya Niwas - historische woonplek van Alfred "Sunyata" Sorensen; tevens LEADING CLUSTER_ANCHOR (slaapplaats en bestemming vallen hier samen vanwege eigen historische waarde)
+37. Bodh Ashram - voormalig landgoed van Evans-Wentz en daarna Lama Govinda; bezocht door Anandamayi Ma en Neem Karoli Baba; Beats bezochten Govinda hier
+
+Crank's Ridge-kern binnen dit cluster: 20 Kasar Devi + 21 Crank's Ridge + 36 Turiya Niwas + 37 Bodh Ashram vormen samen een aaneengesloten loopbaar A-cluster.
+
+## Vrindavan
+- Katyayani Peeth / Keshav Ashram - A per DECISION-0004 en DECISION-0008. Shakti Peeth én fysieke Kriya-lijnlocatie via oprichter Swami Keshavanand, discipel van Lahiri Mahasaya; Babaji-verbinding uitsluitend als traditieclaim van de eigen lijn.
+- Neem Karoli Baba Ashram en samadhi, Vrindavan - A per DECISION-0008. Ashram en vereerde laatste rustplaats van Maharaj-ji; huidige praktische bezoekersinformatie blijft afzonderlijk te controleren.
+
+## Agra
+28. Taj Mahal bij zonsopgang
+
+## Kumaon (Haidakhan)
+46. Haidakhan Babaji Ashram (Haidakhan Vishwa Mahadham) - A per DECISION-0001. Bestemming bezoeken; ashramovernachting gewenst, aantal nachten OPEN (werkhypothese 3 nachten, nog geen definitief besluit). Identificatie Haidakhan Baba met Mahavatar Babaji niet als feit vastgelegd.
+
+27. Bhumiyadhar (eerste ontmoeting Ram Dass - Maharaj-ji) - bevestigd A per DECISION-0002. Op/bij het tempelterrein vond in 1967 Ram Dass' eerste ontmoeting met Neem Karoli Baba plaats (primaire bronnen: Ram Dass' eigen boeken).
+
+Totaal bevestigde A: 28 locaties.
+
+De nummering volgt CLUSTER_LOCATIONS.md waar een bestaand nummer beschikbaar is. Bewust niet als A: 3 Dungeshwari, 7 Dashashwamedh, 9 Bhaskarananda, 13 Kabir Math, 14 eerste ontmoeting Yogananda-Yukteswar, 25 Hotel Evelyn (CLUSTER_ANCHOR), 26 KK Sah huis.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=643 path=LOCKED_B.md blob_sha=ee35ea06ee760563344640103680cb28ae67ea1d original_offset=0 original_length=379 payload_bytes=379 chunk_index=0 chunk_count=1 classification=text
+# LOCKED_B - Door Mark als B gekozen bestemmingen
+
+B-bestemmingen: plekken waar Mark heen wil als de tijd het toelaat. Geen verblijfsbases (zie CLUSTER_ANCHORS.md). Alleen Mark wijzigt deze lijst.
+
+## Kainchi / Almora
+- Ghorakhal Temple - Golu Devta-tempel (God of Justice)
+
+## Vrindavan
+- Radha Raman Tempel - historische Krishna-tempel
+
+Totaal: 2 bestemmingen.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=644 path=LOCKED_C.md blob_sha=1259ef443192cad88a1c311bfaf0016ce757aa15 original_offset=0 original_length=746 payload_bytes=746 chunk_index=0 chunk_count=1 classification=text
+# LOCKED_C - Door Mark als C beoordeelde locaties
+
+C = gezien en beoordeeld, maar bewust verworpen (niet bezoeken). C betekent NIET verwijderen: deze locaties blijven in de database (zie METHODOLOGY.md) zodat de volledige kennis behouden blijft. Bij twijfel zou een locatie B zijn; C is een bewuste afwijzing. Alleen Mark wijzigt deze lijst.
+
+## Kumaon (Almora-gebied en omgeving)
+31. Mirtola / Krishnaprem Ashram - Panvanola, ongeveer 25 km van Almora
+32. Binsar Wildlife Sanctuary - bosreservaat nabij Almora
+33. Patal Bhuvaneshwar - grottempel in het Gangolihat-gebied (ver)
+38. Daulchina (Dhaulchina) Ashram - Anandamayi Ma-hermitage, ongeveer 15-40 km van Almora; toegangsbeperkt (alleenstaande vrouwen niet toegestaan)
+
+Totaal: 4 locaties.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=645 path=METHODOLOGY.md blob_sha=5b51e725e1fbf86bb435eaee53c033f8efe34eda original_offset=0 original_length=1723 payload_bytes=1723 chunk_index=0 chunk_count=1 classification=text
+# METHODOLOGY - Hoe locaties worden beoordeeld en de reis wordt opgebouwd
+
+## Beoordelingssysteem (A/B/C/U)
+Het gezaghebbende waarderingssysteem staat in AI_RULES.md en geldt overal:
+- A = zeker bezoeken.
+- B = interessant; Mark beslist later of het meegaat (afhankelijk van hoe zwaar de reis wordt, tijd, energie).
+- C = gezien en beoordeeld, maar bewust verworpen. Niet "waarschijnlijk niet" - gewoon niet. (Bij twijfel wordt het B.)
+
+Daarnaast bestaat één werkstatus, GEEN waardering:
+- U = onbeoordeeld: wel genoemd, maar Mark heeft er nog geen klasse aan gegeven. Tussenstand vóór een waardering.
+
+C betekent verworpen, maar NIET verwijderen: C-locaties blijven altijd in de database (zie doel: volledige kennisdatabase behouden). Ze worden alleen niet bezocht. Alleen Mark kent waarderingen (A/B/C) toe of laat een locatie op status U staan.
+
+## Analysemethode bij locatie-sweeps
+Geen automatische A/B/C. Bij een sweep wordt per locatie eerst getoond:
+1. Wat is het?
+2. Wie (welke persoon of lijn)?
+3. Waarom belangrijk?
+4. Reistijd vanaf de CLUSTER_ANCHOR.
+5. Reistijd vanaf de dichtstbijzijnde A-locatie.
+6. Reistijd vanaf de op een na dichtstbijzijnde A-locatie.
+Daarna kiest Mark een waardering: A, B of C (of laat de locatie op status U = onbeoordeeld staan).
+
+## Routefilosofie - een bezoekstructuur, niet alleen een lijst
+Het doel is niet alleen locaties verzamelen, maar een mogelijke bezoekstructuur bouwen. Model:
+CLUSTER_ANCHOR -> locaties -> waardering (A/B/C, of status U indien nog onbeoordeeld) -> afstand vanaf anchor -> afstand vanaf dichtstbijzijnde A -> afstand vanaf tweede dichtstbijzijnde A -> logische combinaties -> dagindelingen.
+Reistijden worden altijd gemeten vanaf de CLUSTER_ANCHOR.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=646 path=OPERATING_MODEL.md blob_sha=331542418633c4227072e7954396c54cea180bae original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# OPERATING_MODEL - Hoe het onderzoek werkt
+
+Dit document beschrijft de samenwerking - niet het project (zie PROJECT.md), niet het datamodel (zie AI_RULES.md).
+
+## 0. Algemene inleesvolgorde
+
+Voor regie- en algemene projectchats:
+1. README.md
+2. AI_RULES.md
+3. PROJECT.md
+4. OPERATING_MODEL.md
+5. CHATGPT_ROLE.md
+6. PRIORITY_GROUPS.md
+7. LESSONS.md
+8. METHODOLOGY.md
+9. CHAT_DISTILLATION.md
+10. CHATGPT_HANDOFF.md
+11. CURRENT_FOCUS.md
+12. relevante cluster-, PLACE-, SOURCE-, AUDIT- en DECISION-records
+
+Een nieuwe regiechat levert eerst een STATE RECONSTRUCTION en laat Mark die bevestigen vóór nieuw onderzoek.
+
+BRONS-, ZILVER- en GOUD-workers vormen een aparte uitvoeringsroute. Zij starten uitsluitend bij `pipeline/ENTRYPOINT.md`, ontvangen alleen een run-id en rol, lezen het gepinde contextmanifest en schrijven alle resultaten naar GitHub. Zij voeren geen algemene state reconstruction met Mark uit.
+
+## 1. Doel
+
+Het doel is niet heiligen verzamelen. Het doel is fysiek bestaande spirituele bestemmingen identificeren die binnen levende tradities blijvende betekenis hebben gekregen. De plek is het onderzoeksobject; personen, boeken, lineages, tradities en getuigenissen zijn zoek- en interpretatielagen.
+
+De onderzoeker beschrijft verschillende onderbouwingstypen afzonderlijk en berekent geen spirituele totaalscore. Alleen Mark beoordeelt wat hij wil bezoeken.
+
+## 2. Rollen
+
+- Mark — eindbeslisser. Kent als enige A/B/C toe, beheert persoonlijke voorkeuren en neemt reisbesluiten.
+- INDIA2 / ChatGPT-regisseur — inhoudelijke hoofdregisseur. Bepaalt projectkoers, clusterscope en verwerkt uitsluitend gevalideerde GOUD-dossiers.
+- SUBREGIE INDIA — vaste pipeline- en kwaliteitsregie. Zet runs op, begeleidt Mark door BRONS/ZILVER/GOUD, valideert completions, verzorgt controllertransitions, repareert technische runfouten, leert structureel van defecten en levert INDIA2 één schoon regisseurspakket.
+- Bevoegde curatoren — onderhouden repositoryrecords via expliciete commits of pull requests.
+- BRONS — brede detectie en primaire inventarisatie.
+- ZILVER — verificatie, tegenspraak, bronverbetering en inhoudelijke correctie.
+- GOUD — synthese, acceptatie en vrijgave met PASS, PARTIAL of BLOCKED.
+- Andere AI-systemen — kunnen iedere pipeline-rol uitvoeren wanneer zij GitHub volledig kunnen lezen en schrijven en het gepinde contract volgen.
+
+Wat geen enkele AI mag: A/B/C toekennen, de prioriteitsindex stil wijzigen, een record stil veranderen, projectrelevantie als score invoeren of een capaciteit claimen die niet bewezen is.
+
+## 3. Werkstromen
+
+### 3.1 Reguliere repositorywerkstroom
+
+1. Hypothese of open vraag.
+2. Onderzoek en bronverzameling.
+3. Audit en tegenspraak.
+4. Mark neemt waar nodig een besluit.
+5. Een bevoegde schrijver legt het resultaat vast.
+
+### 3.2 BRONS–ZILVER–GOUD-pijplijn
+
+1. INDIA2 of Mark geeft de inhoudelijke scope door aan SUBREGIE INDIA.
+2. SUBREGIE INDIA maakt of controleert de geïsoleerde run met scope, status en alleen het uitvoerbare BRONS-contextmanifest.
+3. BRONS wordt in een nieuwe chat geactiveerd met alleen run-id en rol en schrijft een volledige faseversie naar `BRONS/`.
+4. SUBREGIE INDIA valideert BRONS en verzorgt de controllertransition.
+5. ZILVER wordt in een nieuwe chat geactiveerd, haalt BRONS uit GitHub en schrijft een volledige eigen versie naar `ZILVER/`.
+6. SUBREGIE INDIA valideert ZILVER en verzorgt de controllertransition.
+7. GOUD wordt in een nieuwe chat geactiveerd, haalt ZILVER uit GitHub en schrijft het definitieve dossier naar `GOUD/`.
+8. SUBREGIE INDIA valideert GOUD en maakt één compact regisseurspakket.
+9. Alleen dit gevalideerde pakket en het GOUD-dossier gaan naar INDIA2. Mark hoeft geen rapporten tussen chats te kopiëren.
+10. Na inhoudelijke verwerking en expliciete toestemming archiveert SUBREGIE INDIA de run onder `research/completed/`.
+
+INDIA2 routeert alle workercompletions, BLOCKED-berichten, connectorproblemen, state/events, transitions, runreparaties en pipelineverbeteringen verplicht naar SUBREGIE INDIA. INDIA2 analyseert deze operationele zaken niet zel
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=647 path=OPERATING_MODEL.md blob_sha=331542418633c4227072e7954396c54cea180bae original_offset=4096 original_length=1324 payload_bytes=1324 chunk_index=1 chunk_count=2 classification=text
+f. Zie `pipeline/protocols/REGIE_INTERFACE_PROTOCOL.md`.
+
+De gezaghebbende regels staan onder `pipeline/` en de generieke Methodology v2.0 onder `knowledge/methodology/`.
+
+## 4. Conflicten
+
+Onenigheid tussen AI's is normaal en gewenst. Een positie wint alleen door betere onderbouwing of door een besluit van Mark. Onopgeloste feitelijke conflicten blijven zichtbaar in claims, audit of een formeel AUDIT-record.
+
+## 5. Waarderingen
+
+Alleen Mark kent A, B of C toe. Nieuwe plekken starten ONGEMERKT. Geen pipeline-rol maakt een totaalscore, projectrelevantie of impliciete rangorde.
+
+## 6. Prioriteiten
+
+PRIORITY_GROUPS.md is leidend voor Marks persoonlijke-aantrekkingsas. Geen AI mag die volgorde wijzigen of als objectieve onderzoeksuitkomst presenteren.
+
+## 7. Repositoryschrijven en protocolverbetering
+
+GitHub is de gedeelde waarheid en het enige overdrachtskanaal tussen pipeline-workers. Iedere wijziging is zichtbaar via een commit of pull request.
+
+SUBREGIE INDIA onderhoudt de pipeline zelfstandig binnen de grenzen van `pipeline/roles/SUBREGIE_INDIA.md`. Methodologische of projectinhoudelijke wijzigingen worden aan INDIA2 voorgelegd. Actieve runs blijven op de in `run.yaml` gepinde methodologie, rollen en protocollen. Een worker wijzigt zijn eigen contract nooit tijdens dezelfde uitvoering.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=648 path=PRIORITY_GROUPS.md blob_sha=86bd0a217c7a886e81dc6ac593ae37499f853b1e original_offset=0 original_length=2484 payload_bytes=2484 chunk_index=0 chunk_count=1 classification=text
+# PRIORITY_GROUPS - Marks vaste persoonlijke prioriteitsindex
+
+Dit is geen universele spirituele ranking. Het is Marks vaste persoonlijke prioriteitsindex voor het beoordelen van de aantrekkingskracht van krachtplaatsen: de persoonlijke-aantrekkingsas van het krachtveld-model (zie PROJECT.md). Hij staat los van krachtveld-gewicht en van route-prioriteit.
+
+## De index (vast)
+1. Yogananda
+2. Babaji
+3. Lahiri Mahasaya
+4. Sri Yukteswar
+5. Ram Dass
+6. Neem Karoli Baba
+7. Boeddha
+8. Anandamayi Ma
+9. Ramakrishna
+10. Ramana Maharshi
+11. Hariharananda
+12. Vivekananda
+13. Krishna
+
+Krishna is toegevoegd als nummer 13 via DECISION-0003. De bestaande volgorde 1 tot en met 12 bleef ongewijzigd.
+
+## Buiten de hoofdindex
+Shri Mataji Nirmala Devi staat niet in deze hoofdindex. Haar Mahasamadhi-locatie in Delhi blijft wel een gewenste bezoekplek.
+
+## Regel voor AI's
+Deze volgorde is van Mark en ligt vast. Een AI mag hem niet herordenen, niet aanvullen, niet interpreteren en niet inkorten. Alleen Mark wijzigt de index, uitsluitend op zijn expliciete instructie, vastgelegd als een DECISION-record.
+
+## Hoe te gebruiken - DRIE REGELS, IN DEZE VOLGORDE
+
+### 1. De kracht van de PLEK weegt het zwaarst
+Niet de positie van de persoon. Een kleine, onbeduidende plek van een hoog geplaatste persoon weegt MINDER dan een grote, levende, betekenisvolle plek van een lager geplaatste persoon. Voorbeeld: een klein YSS-centrum (Yogananda, positie 1) weegt minder dan een grote Krishna-tempel (positie 13) waar heel India naartoe komt. De index detecteert plekken; hij bepaalt niet automatisch hun waarde.
+
+### 2. De positie is een weegfactor BIJ GELIJKE plek-kracht
+Een lagere positie betekent sterkere persoonlijke aantrekking, maar dat is geen automatische rangorde bij keuzes. Krishna staat op 13 omdat Mark er weinig concreet beeld bij had - NIET omdat Krishna minder waard is. Een prachtige Krishna-tempel is even sterk als welke andere krachtplek dan ook.
+
+### 3. De index is NIET uitputtend
+Wordt een krachtige, betekenisvolle plek gevonden van een heilige, traditie of religie die NIET in deze index staat, dan moet die tóch gemeld worden. Mark wil daar mogelijk ook heen. De index helpt plekken VINDEN; hij sluit niets uit. (Voorbeeld: Bodh Gaya werd een A-cluster puur door de kracht van de plek zelf.)
+
+### Overige
+De index vervangt de bezoekbaarheidspoort niet en bepaalt geen waardering. Mark kent waarderingen toe; AI's gebruiken de index alleen als weegfactor in hun onderbouwing.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=649 path=PROJECT.md blob_sha=3a03ceb622b6b4dbe80493763ac2a1b2239a50cc original_offset=0 original_length=1961 payload_bytes=1961 chunk_index=0 chunk_count=1 classification=text
+# PROJECT - Waarom dit project bestaat
+
+## Wat dit is
+De planning van een spirituele pelgrimsreis door India (definitieve reisperiode: 18 december 2026 t/m 21 januari 2027, vluchten geboekt) voor Mark, beoefenaar van Kriya Yoga in de Yogananda/Ananda-lijn.
+
+## Het kernidee - lees dit eerst
+Het kennisobject is de fysieke, bezoekbare plek, niet de meester. De vraag is nooit "hoe belangrijk is meester X?", maar: "als Mark daar fysiek staat, welke plek heeft de meeste spirituele dichtheid?" Personen zijn detectoren om plekken te vinden, geen doel op zich.
+
+## Marks veld
+Zijn eigen lijn is leidend: Babaji, Lahiri Mahasaya, Sri Yukteswar, Yogananda. Daaromheen liggen persoonlijke bruggen en grote heiligen. De precieze prioriteitsvolgorde van personen en groepen is bewust niet hier vastgelegd; die leeft en verandert, en staat apart in PRIORITY_GROUPS.md (door Mark beheerd).
+
+## Het krachtveld-model - drie aparte assen, nooit door elkaar halen
+1. Krachtveld-gewicht (spiritueel): alle hoogste directe discipelen van Lahiri zijn peers van Sri Yukteswar, een fractie onder de Babaji/Lahiri-apex, niet eronder.
+2. Persoonlijke aantrekking: Marks eigen lijn trekt een fractie harder; dat is een bonus op zijn lijn, geen aftrek bij de anderen, en herzienbaar zodra een verhaal hem raakt.
+3. Route-prioriteit (logistiek): apart, alleen bepaald door bereikbaarheid.
+
+## Focus-tiers (operationeel)
+Tier 1 = eigen Kriya-lijn plus de AOAY-meesters. Tier 2 = Ram Dass en Neem Karoli Baba. Tier 3 = de bredere Lahiri-lijn en de grote heiligen.
+
+## Wie doet wat
+Claude = curator/schrijver. DeepSeek = auditor/tegenkracht. ChatGPT = architect/regisseur. Mark = eindbeslisser. Alleen Mark kent waarderingen toe (A, B, C; U = onbeoordeeld).
+
+## Harde poorten
+Bezoekbaarheidspoort: geen fysieke plek = geen kandidaat. Nieuwe plekken starten ONGEMERKT. Een feit verwijst naar minstens een bron. Geen stille wijzigingen; een wijziging is altijd een nieuw besluit met reden.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=650 path=PURI_CANDIDATES.md blob_sha=5da4859a8354258cfe23212640afeebf9c406cb3 original_offset=0 original_length=2780 payload_bytes=2780 chunk_index=0 chunk_count=1 classification=text
+# PURI_CANDIDATES - Kandidaatkaart voor audit
+
+Status: ONGEMERKT-kandidaten, geen PLACE-records, geen waarderingen, geen besluiten. Doel: audit-klaar voor DeepSeek. Puri staat mogelijk in een tweede reis (de Bergen-versus-Puri-keuze ligt bij Mark, ter plekke). Poort blijft gelijk.
+
+## Kandidaten
+
+1. Karar Ashram, Puri - ashram en mahasamadhi van Sri Yukteswar; zijn lichaam is in lotushouding begraven. Axis: kriya-lijn. Detector: Sri Yukteswar. HARD, bezoekbaar. Poort: pass. Dit is het anker van Puri.
+2. Gurudham, Puri - ashram van Bhupendranath Sanyal (1923); bevat een deel van Lahiri's as. Axis: kriya-lijn (directe Lahiri-discipel). Detectoren: Bhupendranath Sanyal; Lahiri Mahasaya. HARD, bezoekbaar. Poort: pass. Exacte locatie en toegang te verifieren.
+3. Anandamayi Ma-ashram, Puri. Axis: grote-magneet. Detector: Anandamayi Ma. HARD, bezoekbaar. Poort: pass.
+4. Jagannath-tempel, Puri - grote Vaishnava-tempel. Axis: buiten de drie assen (algemene grote tempel). Detector: geen lijn-detector. HARD fysiek, maar niet-hindoes mogen de binnentempel niet betreden, en er is geen lijn-gebeurtenis. Poort: pass fysiek, access restricted, veld-twijfel.
+5. Balighai (ongeveer 8 km richting Konark) - samadhi van Hariharananda. Axis: kriya-lijn (Hariharananda staat in de index, maar zijn discipelschap van Yukteswar is betwist). Detector: Hariharananda. Fysiek (moderne samadhi), bezoekbaar; claim betwist. Poort: pass fysiek, claim betwist.
+6. Swargadwar (zee-crematieplaats en zeefront, Puri) - algemene crematie- en pelgrimsplek. Axis: sfeer / grote-magneet. Detector: geen specifieke. Fysiek maar zwak: sfeer, geen specifieke lijn-gebeurtenis. Poort: pass fysiek, veldlink zwak.
+
+## Markering
+- Harde fysieke plek: 1, 2, 3.
+- Fysieke plek maar zwak (toegang, connectie of betwist): 4 (toegang beperkt, buiten de assen), 5 (claim betwist), 6 (sfeer).
+- Gebeurtenis zonder identificeerbare plek: niet van toepassing op dit moment.
+- Bewust uitgesloten: Konark Sun Temple (ongeveer 35 km) - groot monument, buiten Marks assen en index; optioneel toerisme, geen krachtplek-record.
+
+## Verwachte nieuwe records bij goedkeuring
+- PERSON-detectoren: Bhupendranath Sanyal; Hariharananda. (Sri Yukteswar, Lahiri Mahasaya en Anandamayi Ma bestaan of zitten in de pool.)
+- SOURCE-records: AOAY en YSS bestaan al; aanvullend een bron voor Gurudham/Sanyal en, indien opgenomen, een bron voor Balighai/Hariharananda.
+
+## Open vragen voor de audit
+- Niet-hindoe-toegang tot de Jagannath-tempel (alleen van buitenaf, of vanaf het dak van de Raghunandan-bibliotheek?).
+- Exacte locatie en toegang van Gurudham Puri.
+- Balighai en Hariharananda opnemen ondanks de betwiste claim en de afhankelijkheid van de Puri-keuze?
+- Valt Puri in reis 1 of reis 2 (de Bergen-versus-Puri-beslissing).
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=651 path=README.md blob_sha=fa8285bdc3a36c99f1224ed02041f8fc0e58c272 original_offset=0 original_length=1410 payload_bytes=1410 chunk_index=0 chunk_count=1 classification=text
+# india-knowledge-base
+
+Gedeelde waarheid voor Marks India-pelgrimage (18 december 2026 t/m 21 januari 2027). Dit is de bron. Chatgeheugen is niet duurzaam en telt niet als waarheid; alleen wat hier staat is vastgelegd.
+
+## START HERE — algemene regie en projectwerk
+
+Verplichte inleesvolgorde voor de regisseur en algemene projectchats:
+1. README.md
+2. AI_RULES.md
+3. PROJECT.md
+4. OPERATING_MODEL.md
+5. CHATGPT_ROLE.md
+6. PRIORITY_GROUPS.md
+7. LESSONS.md
+8. METHODOLOGY.md
+9. CHAT_DISTILLATION.md
+10. CHATGPT_HANDOFF.md
+11. CURRENT_FOCUS.md
+12. relevante cluster-, PLACE-, SOURCE-, AUDIT- en DECISION-records
+
+Een nieuwe regiechat reconstrueert eerst de stand en laat Mark die bevestigen vóór nieuw onderzoek.
+
+## BRONS–ZILVER–GOUD-onderzoekspijplijn
+
+Afgebakende locatie-sweeps gebruiken een afzonderlijke GitHub-native uitvoeringsroute.
+
+Start uitsluitend bij:
+1. `pipeline/ENTRYPOINT.md`
+2. `pipeline/START_PROMPTS.md`
+
+BRONS, ZILVER en GOUD draaien elk in een volledig nieuwe chat met GitHub-lees- en schrijfrechten. Mark activeert alleen een run-id en rol. Rapporten worden niet tussen chats geplakt: iedere fase schrijft een volledige eigen versie in `research/active/<run-id>/` en de volgende fase haalt die via een gepind contextmanifest uit GitHub.
+
+Alleen het GOUD-dossier gaat naar de regisseur. BRONS en ZILVER blijven in GitHub zichtbaar als controleerbare tussenfasen.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=652 path=VARANASI_CANDIDATES.md blob_sha=06718b2699a0e61574fb61d6e32be17abe7ee548 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# VARANASI_CANDIDATES - Kandidaatkaart voor audit
+
+Status: ONGEMERKT-kandidaten, nog geen PLACE-records, geen waarderingen, geen besluiten. Doel: audit-klaar voor DeepSeek (bron, plek, poort, vergeten Lahiri- en AOAY-connecties). Varanasi is een dichte hotspot: veel krachtlagen stapelen hier.
+
+## Kandidaten
+
+1. Lahiri-huis, Bengali Tola (D 31/58 Madanpura Road, bij Purana Durga Bari) - woonhuis van Lahiri Mahasaya. Axis: kriya-lijn. Detectoren: Lahiri Mahasaya; Pranabananda (Babaji verscheen hier in Lahiri's aanwezigheid); Kashi Moni Lahiri. HARD fysiek; binnen alleen op Guru Purnima, dus in december/januari alleen de gevel. Poort: pass, access seasonal.
+2. Lahiri-samadhi / Satyalok - deel van Lahiri's as, aparte plek in dezelfde buurt. Axis: kriya-lijn. Detector: Lahiri Mahasaya. HARD fysiek. Poort: pass. Renovatie-/toegangsstatus te verifieren.
+3. Manikarnika Ghat - crematieplaats van Lahiri Mahasaya; grote crematieghat. Axis: kriya-lijn plus grote-magneet (algemene plek). Detector: Lahiri Mahasaya. HARD fysiek, publiek; geen markering van Lahiri's exacte crematiepunt. Poort: pass.
+4. Dashashwamedh Ghat - Babaji en Mataji verschenen hier aan Ram Gopal Muzumdar; tevens Ganga-aarti. Axis: kriya-lijn (Babaji-gebeurtenis). Detectoren: Babaji; Ram Gopal Muzumdar. HARD fysiek, publiek; zeer druk en gecommercialiseerd, geen markering van de gebeurtenis; bewijs van de verschijning is devotee-overlevering. Poort: pass fysiek, bewijs zwak.
+5. Trailanga Swami-samadhi - Kotwali bij Panchganga Ghat, ongeveer 1,7 km oostelijk van Kashi Vishwanath. Axis: bredere Lahiri-lijn / grote-magneet (AOAY-vriend van Lahiri). Detector: Trailanga Swami. HARD fysiek, bezoekbaar. Poort: pass.
+6. Bhaskarananda-samadhi - Durga Kunda, bij de Durga Mandir. Axis: kriya-lijn (door Lahiri ingewijd, traditie). Detector: Bhaskarananda. HARD fysiek, bezoekbaar; de Lahiri-inwijding is traditie, niet hard. Poort: pass fysiek, veldlink zwak.
+7. Anandamayi Ma-ashram - rivieroever Varanasi. Axis: grote-magneet. Detector: Anandamayi Ma. HARD fysiek, bezoekbaar. Poort: pass.
+8. Sarnath - Boeddha's eerste leerrede, Dhamek Stupa, ongeveer 10 km (satelliet). Axis: grote-magneet (Boeddha). Detector: Boeddha. HARD fysiek, bezoekbaar, wereldhistorisch. Poort: pass, dagtrip.
+9. Eerste ontmoeting Yogananda en Sri Yukteswar - een steeg in de Bengali-wijk (AOAY). Axis: kriya-lijn. Detectoren: Sri Yukteswar; Yogananda. Gebeurtenis hard gedocumenteerd, exacte plek niet identificeerbaar. Poort: geen identificeerbare plek.
+10. Kashi Vishwanath-tempel - Jyotirlinga, de centrale Shiva-tempel van Varanasi. Axis: buiten de drie assen (algemene grote tempel). Detector: geen lijn-detector. HARD fysiek, maar geen lijn-gebeurtenis, zeer druk. Poort: pass fysiek, twijfel veld.
+11. Kabir Math / Kabir Chaura - verbonden aan Kabir. Axis: grote-magneet, maar Kabir staat niet in PRIORITY_GROUPS. Detector: Kabir. Fysiek bestaand; axis-fit zwak en buiten de index. Poort: pass fysiek, twijfel veld.
+
+## Markering
+- Harde fysieke plek: 1, 2, 3, 5, 7, 8 (en 4 fysiek, maar gebeurtenis-bewijs zwak).
+- Fysieke plek maar zwak (bewijs, veldlink of buiten index): 6 (Lahiri-link is traditie), 10 (buiten de assen), 11 (buiten de index), 4 (gebeurtenis is overlevering).
+- Gebeurtenis zonder identificeerbare plek: 9 (eerste ontmoeting Yogananda en Yukteswar); daarnaast Pranabananda's eigen Benares-woning uit AOAY hoofdstuk 3 (niet te lokaliseren).
+
+## Waarschijnlijk door de poort vallend
+- 9 (eerste ontmoeting): geen identificeerbare plek; de gebeurtenis blijft, de plek niet.
+- Pranabananda's eigen Benares-woning: niet te lokaliseren.
+
+## Bewust uitgesloten (geen aparte krachtplek-records)
+- Generieke ghats, Assi Ghat, Subah-e-Banaras (ochtend-aarti): sfeer en context, geen specifieke lijn-gebeurtenis.
+
+## Verwachte nieuwe records bij goedkeuring
+- PERSON-detectoren: Pranabananda, Ram Gopal Muzumdar, Trailanga Swami, Bhaskarananda, Anandamayi Ma, Boeddha, Kashi Moni Lahiri. (Lahiri Mahasaya en Babaji bestaan al; Sri Yukteswar en Yogananda komen uit de bredere pool.) Kabir alleen indien Mark hem binnen scope
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=653 path=VARANASI_CANDIDATES.md blob_sha=06718b2699a0e61574fb61d6e32be17abe7ee548 original_offset=4096 original_length=650 payload_bytes=650 chunk_index=1 chunk_count=2 classification=text
+ wil.
+- SOURCE-records: AOAY bestaat al; aanvullend een bron voor het Lahiri-huis en Satyalok, voor de Trailanga-samadhi, voor Bhaskarananda, voor de Anandamayi Ma-ashram, en voor Sarnath/Boeddha.
+
+## Open vragen voor de audit
+- Is de exacte plek van de eerste ontmoeting Yogananda en Yukteswar ergens te pinnen, of blijft het een steeg zonder markering?
+- Renovatie- en toegangsstatus van de Lahiri-samadhi bij Satyalok.
+- Is Bhaskarananda's Lahiri-inwijding sterk genoeg, of blijft die traditie?
+- Horen Kashi Vishwanath en Kabir binnen scope (buiten de drie assen, buiten de index)?
+- Sarnath als satelliet bevestigen (Boeddha staat in de index).
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=654 path=VOCABULARY.md blob_sha=e6e04224df0c69c64508a1274eaf07d6e44c52b0 original_offset=0 original_length=2665 payload_bytes=2665 chunk_index=0 chunk_count=1 classification=text
+# VOCABULARY - Gecontroleerde woordenlijsten
+
+Deze woordenlijsten gelden voor de aangegeven velden in alle records. Een veld met een gecontroleerde
+lijst mag uitsluitend waarden uit die lijst bevatten. Nieuwe waarden worden nooit zomaar toegevoegd:
+een kunstmatig intelligentiesysteem stelt een nieuwe waarde voor via een AUDIT-record, en alleen Mark
+voegt hem toe via een DECISION-record. Pas daarna mag de waarde in records gebruikt worden.
+
+## type  (PLACE - lijst toegestaan; een plek kan meerdere typen stapelen)
+- grot - een grot
+- samadhi - samadhi-, mahasamadhi- of as-plek van een meester
+- ashram - ashram of math, een levende spirituele gemeenschap
+- tempel - tempel
+- woonhuis - woonhuis of geboorteplaats van een meester
+- ghat - oever- of crematieghat
+- gebeurtenisplek - plek van een specifieke gebeurtenis (verschijning, inwijding) die niet in bovenstaande vormen valt
+
+## axis  (PLACE - lijst toegestaan; een plek kan meerdere lijnen raken)
+- kriya-lijn - Babaji, Lahiri Mahasaya, Sri Yukteswar, Yogananda, de AOAY-meesters en de bredere Lahiri-Kriya-lijn
+- persoonlijke-brug - Ram Dass, Neem Karoli Baba, Shri Mataji Nirmala Devi
+- grote-magneet - grote heiligen buiten de eigen lijn (Boeddha, Vivekananda, Ramakrishna, Anandamayi Ma)
+
+Let op: axis registreert uitsluitend tot welke lijn(en) een plek feitelijk behoort. Prioriteit of
+voorkeur wordt hier niet vastgelegd; dat doet alleen Mark via een DECISION-record.
+
+## visitable  (PLACE - enkele waarde) - de harde bezoekbaarheidspoort van regel 10
+- yes - er bestaat een fysieke plek die te bereiken is
+- no - geen aanwijsbare of bereikbare fysieke plek; in strijd met regel 10, moet een AUDIT-record openen
+- unknown - nog niet vastgesteld
+
+## access  (PLACE - lijst toegestaan) - de toegangsnuance die visitable niet kan dragen
+- open - vrij toegankelijk voor het publiek
+- restricted - toegang beperkt (alleen leden, vergunning, niet-hindoes geweerd); detail in de prozasectie Toegang
+- seasonal - toegang hangt af van tijd van het jaar of vaste data (bijvoorbeeld alleen op Guru Purnima, of winterkou); detail in de prozasectie Toegang
+- unknown - nog niet geverifieerd
+
+## reliability  (SOURCE - enkele waarde) - evidentieel gewicht
+- primair - primaire traditiebron (bijvoorbeeld Autobiography of a Yogi, eigen geschriften van een meester)
+- lijn-organisatie - officiele organisatie binnen de lijn; gezaghebbend over feiten en toegang, maar belanghebbend
+- secundair - onafhankelijke secundaire bron (wetenschap, journalistiek, naslagwerk)
+- devotioneel - devotionele of gemeenschapsbron (blogs, hagiografie); weinig onafhankelijke verificatie
+- onbevestigd - bewering zonder solide bron
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=655 path=decisions/DECISION-0001-haidakhan-A.md blob_sha=916c325a805814b229d0bb897083486b46f3f6fb original_offset=0 original_length=1601 payload_bytes=1601 chunk_index=0 chunk_count=1 classification=text
+---
+id: DECISION-0001
+subject: "Haidakhan Vishwa Mahadham als A"
+decided_by: "Mark"
+decided_at: "2026-07-10"
+outcome: "A"
+applies_to_place: "CLUSTER_LOCATIONS #46 Haidakhan Babaji Ashram (Haidakhan Vishwa Mahadham)"
+supersedes: null
+based_on_audits: []
+based_on_sources: []
+---
+
+# DECISION 0001: Haidakhan Vishwa Mahadham = A
+
+## Besluit
+Haidakhan Babaji Ashram (Haidakhan Vishwa Mahadham) wordt A: bestemming van de reis, te bezoeken. Van toepassing op CLUSTER_LOCATIONS #46. Opgenomen in LOCKED_A als #46.
+
+## Onderbouwing
+Sterke persoonlijke aantrekking van Mark, sterker dan vooraf gedacht: de levende ashram, de sfeer, karma yoga, de dagelijkse rituelen. Versterkt doordat er ook een Haidakhan Baba-centrum op ongeveer 20 km van Marks woonplaats in Nederland bestaat, waardoor de ervaring na India een vervolg kan krijgen. A rust op de persoonlijke krachtveld-as, NIET op een bewezen identiteit tussen Haidakhan Baba en Mahavatar Babaji. Die identificatie blijft omstreden en wordt niet als feit vastgelegd (zie LESSONS les 6).
+
+## Gevolg
+- Toegevoegd aan LOCKED_A.md (#46). Totaal bevestigde A: 25.
+- CLUSTER_LOCATIONS.md #46 blijft neutraal; de eerder vastgezette verblijfsduur ("twee dagen en twee nachten") is daar verwijderd.
+- Verblijfsduur OPEN: werkhypothese 3 nachten (2 volledige rustdagen gewenst), maar nog GEEN definitief besluit.
+- Ashramovernachting gewenst, niet vastgelegd.
+
+## Waarderingslegenda (door Mark beheerd)
+A = zeker bezoeken
+B = interessant, Mark beslist later
+C = gezien en bewust verworpen (niet bezoeken, wel bewaren)
+U = onbeoordeeld (werkstatus, geen waardering)
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=656 path=decisions/DECISION-0002-bhumiyadhar-A.md blob_sha=72cd328f1c46800657a4cb48cc47a1f9b991879c original_offset=0 original_length=2007 payload_bytes=2007 chunk_index=0 chunk_count=1 classification=text
+---
+id: DECISION-0002
+subject: "Bhumiyadhar (eerste ontmoeting Ram Dass - Maharaj-ji) als A"
+decided_by: "Mark"
+decided_at: "2026-07-11"
+outcome: "A"
+applies_to_place: "CLUSTER_LOCATIONS #27 Bhumiyadhar Temple"
+supersedes: null
+based_on_audits: []
+based_on_sources: ["Ram Dass - Be Love Now", "Ram Dass - Being Ram Dass", "Ram Dass - Miracle of Love"]
+---
+
+# DECISION 0002: Bhumiyadhar = A (eerste ontmoeting Ram Dass - Maharaj-ji)
+
+## Besluit
+Bhumiyadhar wordt A: zeker bezoeken. Verplaatst van HERCONTROLE naar bevestigde A. Van toepassing op CLUSTER_LOCATIONS #27.
+
+## Onderbouwing
+Verificatie via primaire bronnen (Ram Dass' eigen gepubliceerde herinneringen) bevestigt dat de eerste ontmoeting tussen Richard Alpert (Ram Dass) en Neem Karoli Baba (Maharaj-ji) in 1967 plaatsvond op/bij het tempelterrein van Bhumiyadhar. In "Be Love Now" beschrijft Ram Dass dat hij Maharaj-ji daarna "again at Bhumiadhar" zag en vervolgens naar Kainchi werd gestuurd voor zijn verblijf en sadhana. In "Being Ram Dass" wordt Kainchi expliciet als een latere, andere tempel beschreven. De chronologie is dus: eerste ontmoeting Bhumiyadhar -> kort verblijf bij K.K. Sah -> Maharaj-ji opnieuw in Bhumiyadhar -> daarna Kainchi. Kainchi was de latere verblijf- en oefenplaats, niet de eerste ontmoeting.
+
+Topografische nuance: de ontmoeting was op of direct bij het tempelterrein (Maharaj-ji zat buiten, onder een boom), niet noodzakelijk binnen het tempelgebouw.
+
+## Gevolg
+- LOCKED_A: Bhumiyadhar van HERCONTROLE naar bevestigde A. Totaal bevestigde A wordt bijgewerkt.
+- Naamgeving overal: "Bhumiyadhar (eerste ontmoeting Ram Dass - Maharaj-ji)" zodat de plek herkenbaar is zonder de Indiase naam te hoeven onthouden.
+- Formulering blijft zorgvuldig: "op/bij het tempelterrein van Bhumiyadhar", niet "in de tempel".
+
+## Waarderingslegenda (door Mark beheerd)
+A = zeker bezoeken
+B = interessant, Mark beslist later
+C = gezien en bewust verworpen (niet bezoeken, wel bewaren)
+U = onbeoordeeld (werkstatus, geen waardering)
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=657 path=decisions/DECISION-0003-krishna-priority-index.md blob_sha=7de53ea9a798fd37334bdaf65596c5e99eda4659 original_offset=0 original_length=1504 payload_bytes=1504 chunk_index=0 chunk_count=1 classification=text
+---
+id: DECISION-0003
+subject: "Krishna toevoegen als nummer 13 aan Marks persoonlijke prioriteitsindex"
+decided_by: "Mark"
+decided_at: "2026-07-12"
+outcome: "Krishna toegevoegd als nummer 13"
+applies_to: "PRIORITY_GROUPS.md"
+supersedes: null
+based_on_audits: []
+based_on_sources: []
+---
+
+# DECISION 0003: Krishna als nummer 13 in de persoonlijke prioriteitsindex
+
+## Besluit
+Mark voegt Krishna toe als nummer 13 aan zijn vaste persoonlijke prioriteitsindex in PRIORITY_GROUPS.md.
+
+De bestaande nummers 1 tot en met 12 blijven ongewijzigd. Krishna komt direct na Vivekananda.
+
+## Onderbouwing
+Krishna hoort voor Mark duidelijk bij het persoonlijke spirituele veld, ook al heeft Mark nog geen scherp innerlijk beeld bij hem. De verhalen over Krishna en de Yamuna roepen voldoende aantrekking op om belangrijke fysieke Krishna-plekken in het Vrindavan / Mathura / Govardhan-cluster serieus mee te wegen.
+
+Dit besluit betekent niet dat iedere Krishna-tempel automatisch belangrijk is en kent geen A/B/C-waardering toe aan locaties. Het voegt Krishna uitsluitend toe aan de persoonlijke-aantrekkingsas. Fysieke bezoekbaarheid, plekgewicht, bronkwaliteit en logistiek blijven afzonderlijke criteria.
+
+## Gevolg
+- PRIORITY_GROUPS.md krijgt Krishna als nummer 13.
+- De bestaande volgorde 1 tot en met 12 verandert niet.
+- Bij de Vrindavan / Mathura / Govardhan-sweep worden Krishna-plekken niet meer als buiten de persoonlijke hoofdindex behandeld.
+- Alleen Mark blijft bevoegd om deze index later te wijzigen.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=658 path=decisions/DECISION-0004-katyayani-peeth-a.md blob_sha=5f1490360e5af1c3e073c9cc2824d3f81aeb73c7 original_offset=0 original_length=1864 payload_bytes=1864 chunk_index=0 chunk_count=1 classification=text
+---
+id: DECISION-0004
+subject: "Katyayani Peeth van B naar A"
+decided_by: "Mark"
+decided_at: "2026-07-12"
+outcome: "Katyayani Peeth definitief A"
+applies_to_place: "Katyayani Peeth, Vrindavan"
+supersedes: null
+based_on_audits: []
+based_on_sources:
+  - "https://www.katyayanipeeth.org.in/guru-lineage"
+---
+
+# DECISION 0004: Katyayani Peeth definitief A
+
+## Besluit
+Mark kent Katyayani Peeth in Vrindavan definitief waardering A toe. De plek wordt verplaatst van LOCKED_B naar LOCKED_A.
+
+## Onderbouwing
+Katyayani Peeth stond al op B als Shakti Peeth. De officiële guru-lineage-pagina van de instelling maakt duidelijk dat de betekenis van de fysieke plek verder gaat dan die algemene categorie: de tempel en ashram zijn verbonden met oprichter Swami Keshavanand, die door de eigen instelling wordt gepresenteerd als discipel van Lahiri Mahasaya. Daarmee is Katyayani Peeth ook rechtstreeks relevant voor Marks hoogste Kriya-prioriteiten.
+
+De op de officiële lijnpagina beschreven verbinding met Mahavatar Babaji wordt als TRADITIECLAIM behandeld, niet als onafhankelijk historisch vastgesteld feit.
+
+Mark geeft aan dat dit precies het soort verborgen inhoud is dat een goede clustersweep had moeten blootleggen. De combinatie van Shakti Peeth, levende fysieke plek en directe Lahiri/Kriya-lineage maakt de plek voor hem een zekere bestemming.
+
+## Gevolg
+- Katyayani Peeth wordt toegevoegd aan LOCKED_A.md.
+- Katyayani Peeth wordt verwijderd uit LOCKED_B.md.
+- Het totaal in LOCKED_A stijgt van 26 naar 27.
+- Het totaal in LOCKED_B daalt van 4 naar 3.
+- LESSONS.md krijgt een generieke regel: bij tempels en ashrams moeten officiële lineage-, guru-parampara-, oprichters- en geschiedenispagina's altijd afzonderlijk worden onderzocht.
+- Toekomstige sweeps mogen een algemene homepage of algemene tempelcategorie niet als voldoende inhoudelijke analyse beschouwen.
+<<< END CHUNK >>>
+

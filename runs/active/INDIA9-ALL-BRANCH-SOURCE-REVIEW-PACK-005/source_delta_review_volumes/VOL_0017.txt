@@ -1,0 +1,744 @@
+>>> CHUNK stream_row=246 path=runs/active/INDIAGEEL-FOURPERSON-LOCATION-CLOSURE-001/FOURPERSON_R4_R5_CLOSURE.md blob_sha=a22499e253fd53ae135a431e99540fa168eb73b8 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=5 classification=text
+# FOURPERSON R4/R5 CLOSURE — INDIA GEEL
+
+Task: `INDIAGEEL-FOURPERSON-LOCATION-CLOSURE-001`  
+Branch: `agent/indiageel-ramana-ramakrishna-sweep`  
+Persons: Neem Karoli Baba, Ram Dass, Ramana Maharshi, Ramakrishna
+
+## 1. Input/provenance integrity
+
+No finding was deleted because its exact physical identity remained uncertain. No existing source ID, permanent location ID, A/B/C value or lock was changed.
+
+Three TASK-listed paths are stale/missing on this exact branch:
+
+1. `TOP11-NKB-RAMDASS-INDIAGEEL-MULTIDETECTOR-RECONCILIATION-001/...` does not exist. The actual same-branch reconciled dataset is `TOP11-NKB-RAMDASS-EXTERNAL-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl` plus its person reconciliation docs. That dataset was used and the mismatch is recorded.
+2. `TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001/...` does not exist on this branch. No substitute reconciliation was fabricated. For those two persons the independent India-GEEL freezes were combined only with the same-branch CCI `TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/PHASE2_RESULT.md` detector context.
+3. `governance/LOCATION_RESOLUTION_BEFORE_ABC_2026-08-19.md` does not exist on this branch. `governance/SWEEP_PROTOCOL.md` confirms the physical-site/subsite, source and current-access discipline, but does not expose the missing file's R1-R5 wording.
+
+Therefore this closure uses the following **task-local operational resolution labels only**. They are NOT a governance replacement and do not modify canon:
+
+- `R1`: exact physical entity/site identity and current physical site continuity are strong enough for direct entity-level use.
+- `R2`: exact named site/subsite is strong, but room-level/current-fabric/access detail is incomplete.
+- `R3`: named physical site or successor footprint is strong; historical-to-current continuity or exact sub-point remains partial.
+- `R4`: personal presence is strong and the physical class/locality/host is known, but exact building/room/parcel remains unresolved.
+- `R5`: occurrence/finding is retained but physical identity is still unresolved, conflicted, blocked, or only recoverable as an unnamed structure/micro-site.
+
+## 2. Closure results — Neem Karoli Baba
+
+### 2.1 Kainchi / Bhumiadhar / Nainital
+
+- Kainchi is no longer represented only as an ashram blob. Separate children are retained for original rock/platform, Maharajji residential kuti/room, Hanuman temple/courtyard and original wooden bridge/replacement alignment.
+- Bhumiadhar is split into temple/ashram, Baba's room/kuti, and Ram Dass's first-meeting terrace/field zone.
+- Hanumangarh is split into temple and Baba's historical hut.
+- Ramsay Hospital remains a separate medical entity; exact ECG room is not known.
+- Gethia sanatorium remains `R4`; targeted closure did not recover a defensible formal institution name.
+- K.K. Sah's house belongs to the Ram Dass side of the same Nainital hostgraph; it is not merged with Hotel Evelyn or any Soni residence.
+
+### 2.2 4 Church Lane / Allahabad-Prayagraj
+
+The Red House is split parent-child:
+
+- house at 4 Church Lane;
+- Maharajji small room;
+- hall;
+- outside veranda;
+- kitchen/meal room;
+- bathrooms/front area.
+
+Independent current web closure found modern lineage pages stating that the Red House remains in place and continues to receive visitors. This is still a private-house context: `current_access` is therefore `PRIVATE/CONDITIONAL`, not assumed unrestricted public access.
+
+The earlier Mukerjee household remains a separate `R5` private house. It predates 4 Church Lane and is not silently merged into it.
+
+The flood-side Hanuman-temple finding and Ram Dass's reclining-Hanuman-temple description converge strongly on the famous Sangam/Allahabad-Fort Hanuman site, but neither source wording used in the frozen records explicitly names it. Closure remains conservative at `R3`, not a silent R1 upgrade.
+
+### 2.3 Final journey — no silent harmonisation
+
+The final journey is now split into at least these physical candidates:
+
+- Agra Jagmohan Sharma residence (`R4`);
+- separate final-day `S.` host house (`R5`; NOT merged with 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=247 path=runs/active/INDIAGEEL-FOURPERSON-LOCATION-CLOSURE-001/FOURPERSON_R4_R5_CLOSURE.md blob_sha=a22499e253fd53ae135a431e99540fa168eb73b8 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=5 classification=text
+Jagmohan Sharma without proof);
+- Agra heart-specialist/Dr Mathur clinic (`R5`);
+- Agra railway departure station (`R4`; exact station/platform unresolved);
+- Mathura railway station (`R3`, source conflict retained);
+- station steps/outdoor-latrine micro-site (`R4`, tied to the Mathura version);
+- Ramakrishna Mission Hospital, Vrindavan (`R1` institution; exact emergency room unresolved);
+- Vrindavan ashram/terminal cluster and cremation site retained separately.
+
+New web closure strengthened, but did not erase, the sequence conflict. One Neem Karoli lineage page explicitly describes disembarkation at Mathura station before transfer to Vrindavan. Other lineage chronology pages describe Kainchi → Agra → Vrindavan without the Mathura stop. The hospital identity in Vrindavan remains stronger than the disputed travel sequence. `CONFLICT` is therefore the correct state for Mathura; no finding is deleted.
+
+### 2.4 Compound record repaired: Badrinath
+
+`NKB-IG-043` combined a Nara-range sage hut and a Badrivan cow shed while explicitly stating it was unknown whether they were the same subsite. Closure now treats them as two physical candidates under the Badrinath parent cluster. Neither is discarded; both remain `R4/R5` until a source connects or separates their exact footprints.
+
+### 2.5 Chennai compound repaired
+
+`NKB-IG-044` remains a Sindhi Dharmsala parent plus room/veranda micro-sites. Exact modern dharamshala/address and room continuity remain unresolved; no room is folded away merely because it is inside the dharamshala.
+
+## 3. Closure results — Ram Dass
+
+### 3.1 Hotel Evelyn
+
+The hotel parent is `R1`: current sources identify Hotel Evelyn on the historic Mall Road/Naini Lake site and describe the current hotel as the successor of the pre-1947 Evelyn guesthouse, with the Sah family operating it after Independence. Current hotel/review material also continues to associate the property with Ram Dass's 1970s stay.
+
+The detector's upper/top-floor “cave” room is retained separately at `R4`. No reliable public source recovered a room number or proved which current hotel room equals the historic cave room. The balcony/front patio is `R3`: the hotel still has terrace/balcony architecture, but exact historic micro-site continuity is not proven.
+
+Result: **hotel closed, room not closed**. The room is not deleted.
+
+### 3.2 K.K. Sah house
+
+Official Ram Dass archive pages confirm that K.K. Sah took Ram Dass into his home and that K.K. died at his home in Nainital in 2020. This strongly confirms the house as a real, modern-era private property. The targeted web pass did not recover a trustworthy street address. It remains `R4 PRIVATE`, separate from Hotel Evelyn.
+
+### 3.3 Kainchi room-level closure
+
+Separate candidates are preserved for:
+
+- Ram Dass 1967 room / old upper room (`R3`);
+- Kainchi river bathing place (`R3`; occurrence Tier-1 confirmed by reconciliation);
+- nine-day fire ceremony zone (`R4`, source-blocked detail retained);
+- cold hut/small village behind Kainchi (`R5`);
+- 2004 ground-floor room (`R3`);
+- Maharajji back room entered in 2004 (`R3`).
+
+Official Ram Dass material confirms the 1967-68 temple stay and that Hari Dass came to Ram Dass's room, but does not map that room to a current door/number. No artificial exact-room upgrade was made.
+
+### 3.4 Varanasi hotel
+
+Both the India-GEEL freeze and reconciliation preserve a cheap/small hotel near the Ganga/Manikarnika burning ghats. The targeted closure did not recover a defensible hotel name or address from accessible sources. It remains `R5` with personal presence `JA`. Manikarnika itself is a separate `R2` location.
+
+### 3.5 Dharamsala / McLeod Ganj
+
+The memoir's “Swarg Ashram” Dalai Lama headquarters remains `R4`: the historical name is preserved, but this closure did not safely equate it with a particular current building. The guesthouse run by the Dalai Lama's brother remains `R5`; the stay is proven but name/address remain unresolved. The family/charity visit remains a separate source record and is not collapsed into the guesthouse.
+
+### 3.6 Delhi mi
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=248 path=runs/active/INDIAGEEL-FOURPERSON-LOCATION-CLOSURE-001/FOURPERSON_R4_R5_CLOSURE.md blob_sha=a22499e253fd53ae135a431e99540fa168eb73b8 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=5 classification=text
+cro-network
+
+No compound “Delhi” point is allowed to absorb these findings:
+
+- British Consulate;
+- Tibet House;
+- Connaught Place/Circus;
+- American Express office 1967;
+- Health Department office;
+- vegetarian restaurant;
+- alley outside the restaurant;
+- American Express office 1971;
+- Kumar Gallery;
+- Ministry of Finance offices;
+- unnamed semi-hippie hotel;
+- Mr Soni/Inspector General Forestry residence;
+- later FRO building lead.
+
+The Health Department occurrence is source-confirmed but building/address remains `R4`. The restaurant and its alley remain separate linked `R5` entities. The two American Express occurrences are not silently assumed to be the same branch/building.
+
+### 3.7 Surat caves
+
+Ram Dass's meditation cave/cell occurrence in the Surat area remains `R5`. The targeted web pass did not identify a defensible cave complex. This is an unresolved physical site, not a removable weak finding.
+
+### 3.8 Vrindavan
+
+- NKB Vrindavan Ashram is a parent complex.
+- Maharajji office, temple courtyard, Hanuman sanctum, main gate and funeral fire-platform remain separate children.
+- Jaipuria Bhawan is closed to `R1`: its own current site confirms the Vrindavan establishment (established 1964) and ongoing accommodation operation near Banke Bihari Temple.
+- Banke Bihari Temple is `R1` and independently linked to both Ram Dass and Ramakrishna.
+- Yamuna presence remains `R4`: river presence is explicit; exact ghat/landing is not.
+
+## 4. Closure results — Ramana Maharshi
+
+### 4.1 Arunachaleswarar Temple micro-sites
+
+The temple parent remains distinct from these children:
+
+- inner sanctum;
+- Ayyankulam tank (external to temple core but same arrival cluster);
+- Thousand-Pillared Hall;
+- Patala Lingam underground shrine;
+- Gopura Subramanya shrine;
+- flower garden/banana grove;
+- large-float storage room;
+- Illupai tree / Mangai Pillayar shrine;
+- unnamed tower residence.
+
+The storage room and unnamed tower remain R4. They are not absorbed into “Arunachaleswarar Temple.”
+
+### 4.2 Arunachala hill / giripradakshina microcluster
+
+A CCI detector row that combined “Virupaksha Cave (+ Mango Tree Cave)” is explicitly split. Separate entities are retained for:
+
+- Satguru Swami/Alamarathu Guhai;
+- Guhai Namasivaya Cave/Temple;
+- Virupaksha Cave;
+- Mango Tree Cave;
+- Pachaiamman Koil;
+- Tortoise Rock/Cave;
+- Seven Springs/Ezhu Sunai;
+- Skandashram;
+- Sri Bhagavan's Bridge;
+- Arunachala summit/Deepam beacon;
+- hornet/banyan-boulder route.
+
+Current Sri Ramanasramam guidance confirms Virupaksha Cave and Skandashram are maintained visitor sites, with the hill access window given as 08:30–16:30. It also explicitly warns that climbing beyond those points is prohibited. Therefore summit/Deepam is historically R1 but **current_access = PROHIBITED/NOT FOR ORDINARY VISIT** under current ashram guidance. The banyan/hornet site remains R5 and is not mythologised into an exact puranic tree.
+
+### 4.3 Ramanasramam sub-sites
+
+The parent complex and these children are distinct:
+
+- Mother's tomb/shrine;
+- Old Hall;
+- historic kitchen;
+- Mathrubhuteswara inner shrine/Sri Chakra;
+- New Hall;
+- Nirvana Room.
+
+Current official visitor information explicitly lists the Nirvana Room and other ashram places to visit. General ashram hours are currently 05:30–11:00 and 14:00–20:30. Individual ritual/interior restrictions still apply; the existence of a public parent site does not imply unrestricted access to kitchens/private interiors.
+
+## 5. Closure results — Ramakrishna
+
+### 5.1 Dakshineswar micro-sites
+
+Do not collapse these into one temple record:
+
+- Bhavatarini Kali sanctum;
+- Sri Ramakrishna room;
+- Panchavati;
+- Bilva/Bel tree sadhana site;
+- bathing ghat/Ganges shoal zone;
+- Jadu Mallick garden-house parlour;
+- Panchavati Christ-vision path/area.
+
+The ghat has changing river geometry and remains R3 at micro-point level. Jadu Mallick's surviving fabric remains R3.
+
+### 5.2 Fouzdar Kunj
+
+The official Ramakrishna Mission Vrindavan history identifies Fouzdar Kunj and the upper room/veranda used by Ramakrishna. Closure therefore splits:
+
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=249 path=runs/active/INDIAGEEL-FOURPERSON-LOCATION-CLOSURE-001/FOURPERSON_R4_R5_CLOSURE.md blob_sha=a22499e253fd53ae135a431e99540fa168eb73b8 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=5 classification=text
+- Fouzdar Kunj building (`R1`);
+- upper room (`R2`);
+- semicircular veranda (`R2`).
+
+### 5.3 Ganga Mata / Nidhivan
+
+Official RKM Vrindavan material provides unusually strong footprint continuity: Ganga Mata's kutiya was on the left side of Nidhivan on the way to Radha Raman Mandir, and the same ground is now occupied by the Kanpurwali Dharam Shala of Batala Ashrama.
+
+Three separate entities are retained:
+
+- Nidhivan grove (`R1`);
+- historic kutiya footprint (`R2`);
+- current successor dharamshala/ashram property (`R2`, but `PERSONALLY_PRESENT=NEE` for Ramakrishna because the current building is later).
+
+This prevents the common error of treating a successor structure as the historical structure Ramakrishna entered.
+
+### 5.4 Panihati
+
+Separate entities:
+
+- festival riverbank/old pipal tree site;
+- Mani Sen house/parlour;
+- Sri Radhakanta family temple;
+- Raghava Pandit house/temple;
+- Mati Seal temple-garden reservoir.
+
+The Mani Sen house and its Radhakanta temple are explicitly split; neither is dropped.
+
+### 5.5 Kolkata host network
+
+The India-GEEL freeze already retains a large verified-but-not-normalized host layer. This closure promotes those as explicit unresolved physical candidates instead of leaving them invisible behind a note:
+
+- Lily Cottage/Kamal Kutir;
+- Surendra Nath Mitra city house;
+- Surendra Nath Mitra Kankurgachi garden house;
+- Ramchandra Datta Yogodyan/garden (kept distinct from Surendra's garden);
+- Star Theatre historical Beadon Street site;
+- Adhar Sen second-floor parlour;
+- Nanda Bose large hall;
+- Ram Chandra Datta ground-floor drawing room;
+- grieving Brahmani old brick house;
+- Ganu's mother's drawing room.
+
+These remain R4/R5 where current addresses/buildings are not established. They are not removed.
+
+Balaram Bose's house is a clear R1 current RKM site. Current Balaram Mandir material says Sri Ramakrishna visited/stayed there more than one hundred times and identifies the first-floor Jagannath shrine/Ratha-yatra setting. Public darshan/visiting is current.
+
+Shyampukur Bati is also closed to R1 at the house level: Belur Math currently identifies `55A Shyampukur Street` as the house where Ramakrishna stayed for 70 days in 1885. The historical large first-floor sick-room remains a separate R2 child pending an on-site/current-room identity check.
+
+### 5.6 Cossipore compound repaired
+
+`RK-055` explicitly said the garden house and cremation site are physically distinct but kept them in one normalized record. This closure splits:
+
+- Cossipore/Kasipur Garden House / Udyanbati;
+- Master's upstairs final room;
+- Cossipore burning/cremation ghat.
+
+No terminal-event micro-site is lost.
+
+## 6. Unresolved R4/R5 queue after this closure
+
+### Highest-value remaining R5
+
+Neem Karoli Baba:
+- old Mukerjee pre-Church-Lane house;
+- Agra `S.` house;
+- exact Agra heart-specialist clinic;
+- exact Mathura station steps/platform micro-point;
+- Nara sage hut vs Badrivan cowshed footprints;
+- Sindhi Dharmsala current exact identity/rooms;
+- unnamed Kanpur rooftop house and Choudhury property;
+- Gethia sanatorium formal identity.
+
+Ram Dass:
+- Hotel Evelyn cave-room exact room number/continuity;
+- K.K. Sah street address/property;
+- Varanasi hotel;
+- Dharamsala brother's guesthouse;
+- Delhi restaurant + alley, historical AmEx/Health/Finance offices, semi-hippie hotel, Soni residence;
+- Surat cave complex;
+- unnamed Bhagavan Das dharamshalas;
+- unnamed Hanuman-devotee house before Bhumiadhar;
+- South-India room above temple;
+- Papa Trivedi house and Bodh Gaya Tibetan monastery.
+
+Ramana Maharshi:
+- Dindigul school;
+- Villupuram hotel/restaurant;
+- Sastri house and Muthukrishna Bhagavatar house continuity;
+- temple float-storage room and unnamed tower;
+- Gurumurtam mango orchard / Alari garden historical boundaries;
+- Bhagavan's Bridge current continuity;
+- hornet/banyan route exact point.
+
+Ramakrishna:
+- Ramkumar Kolkata residence/work base;
+- old Puri-road rest shelter;
+- Sihore field/house;
+- second Kedar-Ghat rented house;
+- Maheshchandra Sarkar Madanpura house continuity;
+- Lily Cottage and multiple Kolkata private-ho
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=250 path=runs/active/INDIAGEEL-FOURPERSON-LOCATION-CLOSURE-001/FOURPERSON_R4_R5_CLOSURE.md blob_sha=a22499e253fd53ae135a431e99540fa168eb73b8 original_offset=16384 original_length=615 payload_bytes=615 chunk_index=4 chunk_count=5 classification=text
+st properties;
+- Surendra-garden vs Yogodyan exact boundaries;
+- Navadvip occurrence-level sites.
+
+## 7. Closure conclusion
+
+The four-person dataset is materially more physically resolved than the input and no composite finding was intentionally allowed to erase a true child micro-site. The task is complete as a closure pass, but **R4/R5 is not zero**. This is expected: historical private properties, unnamed rooms/hotels and conflicted journey micro-sites cannot be made exact without inventing evidence.
+
+`SILENT_DROPS: 0 by design`  
+`A_B_C_CHANGED: NEE`  
+`EXISTING_IDS_CHANGED: NEE`  
+`ROUTE_PLANNING: NEE`
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=251 path=runs/active/INDIAGEEL-FOURPERSON-LOCATION-CLOSURE-001/FOURPERSON_SOURCE_RECORDS.jsonl blob_sha=390d3c516a32c4bddc5d895709314c43ab2b1bd8 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+{"kind":"source_catalog","alias":"NKB-GEEL","person":"Neem Karoli Baba","path":"runs/active/TOP11-INDIAGEEL-NKB-BLIND-SWEEP-001/NEEM_KAROLI_BABA_INDIAGEEL_FREEZE.md","blob_sha":"16e05ff9ed7ba924d61f8a08e5c9f405093fb2a6","record_ids":"NKB-IG-001..NKB-IG-046","count":46,"rule":"Every source record is retained verbatim in this immutable upstream freeze; entity rows below cite exact source_record_id(s)."}
+{"kind":"source_catalog","alias":"RD-GEEL","person":"Ram Dass","path":"runs/active/TOP11-INDIAGEEL-RAMDASS-BLIND-SWEEP-001/RAM_DASS_INDIAGEEL_FREEZE.md","blob_sha":"049191faef71cdc9e97806315eb266209f017415","record_ids":"RD-01..RD-55","count":55,"rule":"Every source record is retained verbatim in this immutable upstream freeze; entity rows below cite exact source_record_id(s)."}
+{"kind":"source_catalog","alias":"RM-GEEL","person":"Ramana Maharshi","path":"runs/active/TOP11-INDIAGEEL-BLIND-SWEEP-001/RAMANA_MAHARSHI_INDIAGEEL_FREEZE.md","blob_sha":"86209637389b64b2c2280f00c50a0a4b0d905bbf","record_ids":"RM-001..RM-051","count":51,"rule":"Every source record is retained verbatim in this immutable upstream freeze; entity rows below cite exact source_record_id(s)."}
+{"kind":"source_catalog","alias":"RK-GEEL","person":"Ramakrishna","path":"runs/active/TOP11-INDIAGEEL-BLIND-SWEEP-001/RAMAKRISHNA_INDIAGEEL_FREEZE.md","blob_sha":"e79dede85ee5034c0284d42a168115d50636158e","record_ids":"RK-001..RK-055","count":55,"rule":"Every source record is retained verbatim in this immutable upstream freeze; entity rows below cite exact source_record_id(s)."}
+{"kind":"source_catalog","alias":"NKB-RD-RECON","person":"Neem Karoli Baba + Ram Dass","path":"runs/active/TOP11-NKB-RAMDASS-EXTERNAL-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl","blob_sha":"c484990b5f31c0518a591401f7f7e2df695c93a7","rule":"Actual same-branch reconciliation found under this path; TASK-listed TOP11-NKB-RAMDASS-INDIAGEEL-MULTIDETECTOR-RECONCILIATION-001 path is absent on this branch. Matrix rows and their internal_id/external_id provenance are retained here by reference, never silently discarded."}
+{"kind":"source_catalog","alias":"NKB-RECON-DOC","person":"Neem Karoli Baba","path":"runs/active/TOP11-NKB-RAMDASS-EXTERNAL-RECONCILIATION-001/NEEM_KAROLI_BABA_RECONCILIATION.md","rule":"Reconciliation narrative; preserves final-journey conflict, external-only records and verification tiers."}
+{"kind":"source_catalog","alias":"RD-RECON-DOC","person":"Ram Dass","path":"runs/active/TOP11-NKB-RAMDASS-EXTERNAL-RECONCILIATION-001/RAM_DASS_RECONCILIATION.md","rule":"Reconciliation narrative; preserves blocked/partial/false external claims and cross-person matches."}
+{"kind":"source_catalog","alias":"CCI-PHASE2","person":"Ramana Maharshi + Ramakrishna detector context","path":"runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/PHASE2_RESULT.md","rule":"Used only as same-branch detector layer because TASK-listed Ramana/Ramakrishna multidetector reconciliation directory is absent on this branch. No substitute reconciliation is invented."}
+{"kind":"input_gap","expected_path":"runs/active/TOP11-NKB-RAMDASS-INDIAGEEL-MULTIDETECTOR-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl","actual_same_branch_equivalent":"runs/active/TOP11-NKB-RAMDASS-EXTERNAL-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl","handling":"used actual same-branch reconciliation; mismatch recorded"}
+{"kind":"input_gap","expected_path":"runs/active/TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl","actual_same_branch_equivalent":null,"handling":"no reconciliation found on this branch; used RM/RK GEEL freezes plus CCI PHASE2 detector context; no source record fabricated"}
+{"kind":"input_gap","expected_path":"governance/LOCATION_RESOLUTION_BEFORE_ABC_2026-08-19.md","actual_same_branch_equivalent":null,"handling":"file absent on this branch; governance/SWEEP_PROTOCOL.md consulted only for canonical no-drop / physical-identity / access discipline; closure grades are explicitly task-local in closure report"}
+{"kind":"held_out_source_record","person":"Neem Karoli Baba","source":"NKB-GEEL","sour
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=252 path=runs/active/INDIAGEEL-FOURPERSON-LOCATION-CLOSURE-001/FOURPERSON_SOURCE_RECORDS.jsonl blob_sha=390d3c516a32c4bddc5d895709314c43ab2b1bd8 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+ce_record_id":"NKB-IG-043","split_required":["Nara-range sage hut","Badrivan cow shed"],"reason":"upstream normalized two potentially distinct structures together"}
+{"kind":"held_out_source_record","person":"Neem Karoli Baba","source":"NKB-GEEL","source_record_id":"NKB-IG-044","split_required":["Sindhi Dharmsala parent","specific room(s)","veranda"],"reason":"upstream record explicitly says rooms/veranda"}
+{"kind":"held_out_source_record","person":"Ram Dass","source":"RD-GEEL","source_record_id":"RD-20","split_required":["Bhumiadhar Hanuman temple/complex","terrace/first-meeting zone","hillside field/first-meeting zone"],"reason":"compound temple/terrace/field wording"}
+{"kind":"held_out_source_record","person":"Ram Dass","source":"RD-GEEL","source_record_id":"RD-41","split_required":["Brindavan/Whitefield ashram parent","darshan hall","private interview room"],"reason":"compound ashram/hall/interview-room record"}
+{"kind":"held_out_source_record","person":"Ramakrishna","source":"RK-GEEL","source_record_id":"RK-026","split_required":["Kalinath Bapuli/Paduka-Mandir house","second side-by-side rented house"],"reason":"source explicitly says two houses"}
+{"kind":"held_out_source_record","person":"Ramakrishna","source":"RK-GEEL","source_record_id":"RK-035","split_required":["Fouzdar Kunj building","upper room","semicircular veranda"],"reason":"room/veranda explicitly localised"}
+{"kind":"held_out_source_record","person":"Ramakrishna","source":"RK-GEEL","source_record_id":"RK-038","split_required":["Nidhivan grove","Ganga Mata kutiya historic footprint","current Kanpurwali Dharam Shala/Batala Ashrama footprint"],"reason":"historic hut and current successor property must not be collapsed"}
+{"kind":"held_out_source_record","person":"Ramakrishna","source":"RK-GEEL","source_record_id":"RK-047","split_required":["Mani Sen house/parlour","Radhakanta family temple"],"reason":"two distinct physical entities"}
+{"kind":"held_out_source_record","person":"Ramakrishna","source":"RK-GEEL","source_record_id":"RK-055","split_required":["Cossipore Garden House","Master's upstairs room","Cossipore burning/cremation ghat"],"reason":"upstream note explicitly says garden house and cremation site are physically distinct"}
+{"kind":"reconciliation_external_family","person":"Neem Karoli Baba","source":"NKB-RD-RECON","source_record_id":"ext-20..25","parent":"4 Church Lane / Red House, Prayagraj","children":["Maharajji room","hall","outside veranda","kitchen/meal room","bathrooms/front area"],"trace":"exact ext IDs retained in reconciliation matrix"}
+{"kind":"reconciliation_external_family","person":"Neem Karoli Baba","source":"NKB-RD-RECON","source_record_id":"ext-41..49","parent":"Kainchi Dham","children":["nine detector sublocations; exact detector labels preserved upstream","GEEL independently resolves original rock/platform, residential kuti/room, temple courtyard/Hanuman temple, wooden bridge"],"trace":"range retained because underlying external detector branch is not read in this task"}
+{"kind":"reconciliation_external_family","person":"Neem Karoli Baba","source":"NKB-RD-RECON","source_record_id":"ext-104..108","parent":"Vrindavan Ashram","children":["room","veranda","cremation place","later memorial negative control"],"trace":"exact ext IDs retained upstream; no missing child silently dropped"}
+{"kind":"reconciliation_external_family","person":"Ram Dass","source":"NKB-RD-RECON","source_record_id":"ext-7..14","parent":"Kainchi Dham","children":["office/tucket zone","old upper room 1967","river bath place","nine-day fire-ceremony zone","cold hut/small village behind Kainchi","2004 room"],"trace":"matrix/reconciliation labels retained"}
+{"kind":"reconciliation_external_family","person":"Ram Dass","source":"NKB-RD-RECON","source_record_id":"ext-25..27","parent":"Hotel Evelyn, Nainital","children":["hotel parent","upper/cave room","balcony/front patio"],"trace":"matrix/reconciliation labels retained"}
+{"kind":"reconciliation_external_family","person":"Ram Dass","source":"NKB-RD-RECON","source_record_id":"ext-17..24","parent":"Delhi 1967/1971 network
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=253 path=runs/active/INDIAGEEL-FOURPERSON-LOCATION-CLOSURE-001/FOURPERSON_SOURCE_RECORDS.jsonl blob_sha=390d3c516a32c4bddc5d895709314c43ab2b1bd8 original_offset=8192 original_length=901 payload_bytes=901 chunk_index=2 chunk_count=3 classification=text
+","children":["Connaught Place","American Express office","Health Department office","restaurant","alley","Ministry of Finance offices","semi-hippie hotel","Mr Soni/Inspector General Forestry house"],"trace":"Health Department independently Tier-1 confirmed in reconciliation; blocked status retained for MOL-only records"}
+{"kind":"reconciliation_external_family","person":"Ram Dass","source":"NKB-RD-RECON","source_record_id":"ext-48..51","parent":"NKB Vrindavan Ashram","children":["ashram parent","Hanuman-murti sanctum","main gate","inner courtyard/fire platform"],"trace":"exact source statuses retained; blocked does not mean deleted"}
+{"kind":"reconciliation_external_record","person":"Ram Dass","source_record_id":"ext-34","label":"Jagannath Puri beach","status":"FALSE_OR_UNSUPPORTED_EXTERNAL_CLAIM","handling":"preserved as negative-control source record; not promoted to presence entity"}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=254 path=runs/active/INDIAGEEL-FOURPERSON-LOCATION-CLOSURE-001/STATUS.md blob_sha=e0cb3e6175ec832a998c71b247710baf5a147727 original_offset=0 original_length=4020 payload_bytes=4020 chunk_index=0 chunk_count=1 classification=text
+# STATUS — INDIAGEEL-FOURPERSON-LOCATION-CLOSURE-001
+
+```
+task_id: INDIAGEEL-FOURPERSON-LOCATION-CLOSURE-001
+state: COMPLETE
+branch: agent/indiageel-ramana-ramakrishna-sweep
+owner: INDIA GEEL
+completed_at: 2026-08-20
+```
+
+## Outputs
+
+- `FOURPERSON_SOURCE_RECORDS.jsonl`
+  - commit_sha: `9cbf630f55858afabf53839dd6d3c9269baee695`
+  - role: immutable source/provenance index for all four GEEL freezes plus actual same-branch NKB/RD reconciliation; explicitly records stale/missing TASK inputs and compound source records that required splitting.
+
+- `FOURPERSON_ENTITY_CANDIDATES.jsonl`
+  - commit_sha: `30486eaf3478057246727a56fd5fb8a5b22a1189`
+  - role: task-local physical-entity candidates with parent-child relationships; composite findings split into distinct rooms, houses, caves, temple children, dharamshalas, ghats, bridge/river/field micro-sites etc. Task-local closure keys are NOT permanent location IDs.
+
+- `FOURPERSON_R4_R5_CLOSURE.md`
+  - commit_sha: `314094dc49a539fc71fc4117e2d27cd51a54c554`
+  - role: detailed closure findings, conflicts, non-merges, remaining R4/R5 queue and rationale.
+
+- `FOURPERSON_ACCESS_MATRIX.md`
+  - commit_sha: `da7184ab727b3100a5c43dbd068e32fb45c696a7`
+  - role: current physical identity/access status as of 2026-08-20, conservatively distinguishing PUBLIC / PRIVATE-CONDITIONAL / HISTORIC_ONLY / UNKNOWN / PROHIBITED.
+
+## Key closure outcomes
+
+- `SILENT_DROPS: 0 by design`.
+- Existing source IDs preserved; `EXISTING_IDS_CHANGED: NEE`.
+- `A_B_C_CHANGED: NEE`.
+- No route/nights/heatmap/reiselection performed.
+- Compound records explicitly split, including:
+  - NKB Badrinath sage hut vs Badrivan cow shed;
+  - NKB Sindhi Dharmsala parent vs room/veranda children;
+  - NKB/Ram Dass Kainchi/Bhumiadhar room/river/bridge/field micro-sites;
+  - Hotel Evelyn parent vs cave-room vs patio;
+  - NKB final Agra/Mathura/Vrindavan journey sites;
+  - Ramana Virupaksha vs Mango Tree Cave and Ramanasramam children;
+  - Ramakrishna Fouzdar Kunj building/upper room/veranda;
+  - Nidhivan vs Ganga Mata historic kutiya vs later successor dharamshala;
+  - Mani Sen house vs Radhakanta temple;
+  - Cossipore Garden House vs final room vs cremation ghat;
+  - verified Kolkata host-house/room findings promoted from held-out notes into explicit unresolved candidates rather than discarded.
+
+## Input/provenance blockers
+
+1. TASK-listed `runs/active/TOP11-NKB-RAMDASS-INDIAGEEL-MULTIDETECTOR-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl` is absent on this branch. Actual same-branch reconciliation found and used at `runs/active/TOP11-NKB-RAMDASS-EXTERNAL-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl` plus person reconciliation docs.
+2. TASK-listed `runs/active/TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl` is absent on this branch and no equivalent reconciliation directory was found. Ramana/Ramakrishna closure therefore uses their own GEEL freezes plus the same-branch CCI PHASE2 detector context; no missing reconciliation content was invented.
+3. TASK-listed `governance/LOCATION_RESOLUTION_BEFORE_ABC_2026-08-19.md` is absent on this branch. `governance/SWEEP_PROTOCOL.md` was used for physical-site/source/access discipline; R1-R5 labels in these closure outputs are explicitly task-local operational labels and do not overwrite governance/canon.
+
+## Remaining unresolved physical identities
+
+The closure pass is COMPLETE, but not all historical sites are exact. Highest-value remaining unresolved items are retained in `FOURPERSON_R4_R5_CLOSURE.md`, including Hotel Evelyn cave-room exact room, K.K. Sah street address, Ram Dass Varanasi hotel and Surat caves, Dharamsala guesthouse, Delhi restaurant/alley/offices, NKB Agra clinic/host houses and Mathura station micro-point, several Ramana early rooms/houses and bridge/banyan route, and multiple Ramakrishna Kolkata private host houses.
+
+## next_allowed_step
+
+STOP. Hand back to INDIA8 / next explicit task. No A/B/C, route, merge or silent canonicalization from this closure task.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=255 path=runs/active/INDIAGEEL-FOURPERSON-LOCATION-CLOSURE-001/TASK.md blob_sha=d605850c0ae299b1b3f32cc6bda77b4171ee06d7 original_offset=0 original_length=1662 payload_bytes=1662 chunk_index=0 chunk_count=1 classification=text
+# INDIAGEEL FOUR-PERSON LOCATION CLOSURE
+
+## DOEL
+Maak Neem Karoli Baba + Ram Dass + Ramana Maharshi + Ramakrishna lossless fysiek resolveerbaar uit alle detectoren en reconciliaties.
+
+## LEES
+- runs/active/TOP11-NKB-RAMDASS-INDIAGEEL-MULTIDETECTOR-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl
+- runs/active/TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl
+- bijbehorende reconciliatiedocs en eigen IndiaGEEL freezes
+- governance/LOCATION_RESOLUTION_BEFORE_ABC_2026-08-19.md
+
+## UITVOEREN
+1. Ieder samengestelde reconciliatierecord ontleden tot de afzonderlijke fysieke plekken die werkelijk in de onderliggende detectorrecords staan.
+2. Per bronrecord traceerbare source-link behouden.
+3. R1-R5 + current access.
+4. Onderzoek R4/R5 en unresolved leads verder.
+5. Prioriteiten: Hotel Evelyn/top-floor cave room; K.K. Sah-huis + Kainchi-kamers/rivier/hutten; NKB laatste reis; Allahabad-huizen/tempels; Ram Dass onbekend Varanasi-hotel/dharamshalas; Dharamsala/Swarg Ashram; Delhi kantoren/restaurant/steeg; Surat-grotten; Vrindavan Jaipuria/Banke Bihari/Yamuna; Ramana giripradakshina microcluster en Ramanasramam sub-sites; Ramakrishna Kolkata-hosthuizen (~80 extern records), Dakshineswar micro-sites, Fouzdar Kunj, Ganga Mata hut, Panihati/Calcutta host network.
+6. Geen micro-site weggooien omdat hij binnen een groter complex ligt: parent-child entity vastleggen.
+
+## OUTPUTS
+- FOURPERSON_SOURCE_RECORDS.jsonl
+- FOURPERSON_ENTITY_CANDIDATES.jsonl
+- FOURPERSON_R4_R5_CLOSURE.md
+- FOURPERSON_ACCESS_MATRIX.md
+- STATUS.md
+
+## HARD
+Geen A/B/C. Geen IDs wijzigen. Geen route. Geen silent drops. Commit alles op deze branch.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=256 path=runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/STATUS.md blob_sha=14bd09b4ab06fa10b51886e722d3cd7c84b029f3 original_offset=0 original_length=1315 payload_bytes=1315 chunk_index=0 chunk_count=1 classification=text
+# STATUS — TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001
+
+```
+task_id: TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001
+cci_task: CCI_TASK 092
+state: READY_FOR_CCI
+issued_at: 2026-08-19
+issued_by: INDIA8
+target_branch: claude/werk-je-nu-of-niet-oa10y7
+task_file: runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/TASK.md
+status_file: runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/STATUS.md
+pdf_status: VERBODEN
+```
+
+## Doel
+
+Voeg de reeds bestaande onafhankelijke IndiaROOD-freezes voor Babaji, Lahiri Mahasaya en Sri Yukteswar als derde detectorlaag lossless toe aan de bestaande CCI_TASK 088-reconciliatie.
+
+## Inputs bevestigd door INDIA8
+
+- Babaji IndiaROOD: `f9e7e25bec3716687f5fd2562c119baf31ea22ef`
+- Lahiri Mahasaya IndiaROOD: `fc8418b8785cdd22edd389f0a461586ce239ff17`
+- Sri Yukteswar IndiaROOD: `6f71180a1a4cf6666088ae450a6cedb13052552e`
+
+Deze freezes zijn al uitgevoerd; niet dupliceren.
+
+## QA-besluit CCI_TASK 091
+
+CCI_TASK 091 is inhoudelijk voldoende voor voortgang. Het open NKB-conflict over de exacte laatste-reisvolgorde blijft geregistreerd maar blokkeert de landelijke persoonslaag niet en valt buiten 092.
+
+## next_allowed_step
+
+CCI voert `TASK.md` volledig uit, met checkpointcommit per persoon, en stopt na `CCI_RESULT — CCI_TASK 092` op PR #23.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=257 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/BABAJI_RECONCILIATION.md blob_sha=81e216b9813c9f111249a9304773fc77eb745ead original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=5 classification=text
+# BABAJI_RECONCILIATION
+
+```
+task_id: TOP11-CORE-KRIYA-RECONCILIATION-001
+cci_task: CCI_TASK 088
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-19
+interne_input: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/BABAJI_V2_PRE_EXTERNAL_FREEZE.md
+  (freeze commit 6b79f1c8ad25572cb058c047673aef9d5c4284ce, 14 records)
+externe_input: agent/chatgpt-top11-parallel-sweep:
+  runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/BABAJI_PRE_COMPARE_FREEZE.md
+  (freeze commit f565ff163e35597d2c4ed802676a4671f9da3b70, 35 records: B01-B35)
+INDIA_ROOD_PENDING: JA — bij checkpointmoment (2026-08-19 08:12 UTC) staat op PR #23 nog geen
+  duurzame IndiaROOD-freeze-envelop met bestandspad + commit-SHA voor Babaji. Conform CCI_TASK 088's
+  addendum (PR-comment over IndiaROOD, TASK.md-commit 5517e46) wordt de tweedetector-reconciliatie
+  hieronder wel volledig uitgevoerd, maar RECONCILIATION_GATE is PROVISIONEEL en
+  EXTERNAL_MODEL_DIVERSITY_GATE blijft NEE tot een IndiaROOD-freeze lossless is verwerkt.
+```
+
+## Methode
+
+Bidirectionele match: elke interne rij (1-14) EN elke externe rij (B01-B35) krijgt exact één
+reconciliatie-uitkomst uit de vaste taxonomie van `TASK.md` §5. Directe bronverificatie is
+uitgevoerd voor elke external-only claim, elke internal-only claim en elk conflict — de externe
+branch is niet gewijzigd, alleen gelezen.
+
+## Canonieke epistemische regel — geen historische Babaji-verificatie
+
+De onderstaande reconciliatie verifieert **claims en hun provenance**, niet Babaji's historische
+bestaan of lichamelijke aanwezigheid. Labels als `BODILY_FIRSTHAND`, tier A of
+`CLAIM_DOCUMENTED` betekenen alleen dat een bepaalde bron/traditie de ontmoeting als lichamelijk
+rapporteert. Canoniek blijft voor ieder Babaji-record:
+`HISTORICALLY_VERIFIED_BABAJI_PRESENCE: NIET_VASTSTELBAAR`.
+De fysieke site en de aanwezigheid van een beter documenteerbare volgeling/getuige kunnen
+afzonderlijk wel worden geverifieerd. Zie
+`decisions/BABAJI_MYTHIC_FIGURE_EVIDENCE_RULE_2026-08-19.md`.
+
+## Claimant-tradities in de externe set
+
+De externe freeze dekt vier duidelijk gescheiden tradities. Mijn interne freeze dekte uitsluitend
+de eerste, omdat die de enige is die in AOAY zelf voorkomt:
+
+1. `YOGANANDA_LAHIRI_SRI_YUKTESWAR_SRF_YSS` — AOAY + YSS/SRF-lineage (extern B01-B18, plus B32).
+2. `KRIYA_BABAJI_NAGARAJ_YOGI_RAMAIAH` — Zuid-Indiase Nagaraj/Ramaiah-Siddha-traditie (extern
+   B19-B23 vallen deels ook onder een aparte Nath-lijn via Sri M/Maheshwarnath; B24-B31 zijn de
+   kern-Nagaraj/Ramaiah-tak).
+3. `HAIDAKHAN_BABAJI` — de historische leraar die 1970-1984 in Haidakhan leefde (extern B33-B35).
+4. Sri M/Maheshwarnath's "Sri Guru Babaji" (Nath-sampradaya) is in de externe freeze zelf al apart
+   gehouden van de Nagaraj-tak (B19-B22); hier gelabeld `OTHER_OR_UNKNOWN` omdat de externe freeze
+   dit niet aan een van de drie bovenstaande vaste categorieën koppelt en de identiteitsclaim zelf
+   uitdrukkelijk lineage-eigen/betwist is.
+
+**Hard uitgangspunt, conform TASK.md §7**: een site uit tradities 2-4 is GEEN locatie van "Yogananda's
+Mahavatar Babaji" zonder expliciete, bronmatig verifieerbare identiteitsbrug. Zo'n brug is in geen
+van deze 22 records (B19-B35, min B32) gevonden — de externe freeze zelf signaleert dit ook al
+("expliciet betwist door andere Kriya-lineages", B33/B35-toelichting). Deze 22 records blijven dus
+apart geregistreerd, niet gereconcilieerd tegen mijn AOAY-interne 14, en tellen niet mee voor
+`PERSON_SWEEP_SATURATED` van "de" Babaji-figuur die in AOAY optreedt.
+
+## Werkpakket A+B — volledige matrix (samenvatting; machineleesbare rijen in RECONCILIATION_MATRIX.jsonl)
+
+### Tak 1 — YOGANANDA_LAHIRI_SRI_YUKTESWAR_SRF_YSS (interne 1-14 vs. externe B01-B13, B32)
+
+| intern # | extern # | uitkomst | toelichting |
+|---|---|---|---|
+| 1 (Drongiri-grot, Ranikhet, 1861-ontmoeting+initiatie) | B01 (grot/richel) | `SAME_SITE_DIFFERENT_GRANULARITY` | Extern splitst mijn ene record in drie sublocaties (B01 grot, B02 Gogash-rivieroever, B03 tijdelijk paleis). Inhoudelijk identieke gebeurtenis/bron (AOAY hfst. 34), extern preciezer op sublocat
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=258 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/BABAJI_RECONCILIATION.md blob_sha=81e216b9813c9f111249a9304773fc77eb745ead original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=5 classification=text
+ieniveau. |
+| 1 | B02 (Gogash-rivieroever) | `DISTINCT_SUBLOCATION` | Terecht aparte sublocatie binnen dezelfde gebeurtenis (reinigingsritueel na de initiatie) — AOAY hfst. 34 bevestigt de rivieroeverscène apart van de grot zelf. Ik nam dit direct verifieerbaar detail niet als eigen rij op; toegevoegd als correctie (zie §Correcties). |
+| 1 | B03 (tijdelijk paleis) | `DISTINCT_SUBLOCATION` | Idem — het gematerialiseerde paleis is in AOAY zelf een aparte, tijdelijke ruimtelijke laag boven de grot ("the same caves... which yesterday had boasted no adjacency to palace"). Verdient een eigen sub-rij, niet subsumptie onder record 1. |
+| (nieuw, ontbrak intern) | B04 (naamloos Himalayakamp: brandend hout + afgrondsprong) | `EXTERNAL_ONLY_VERIFIED_MISS` | **Geverifieerd bij bron**: AOAY hfst. 33 bevat beide Kebalananda-anekdotes woordelijk ("The master suddenly seized a burning log..."; "the arrival of a stranger... jump then... he opened his eyes"). Ik las dit tijdens de freeze maar registreerde het niet als eigen atlasrij — een echte lossless-fout in mijn eigen pas, nu gecorrigeerd. Locatie blijft terecht ONBEKEND/ALLEEN_PLAATS: AOAY noemt geen berg-/plaatsnaam. |
+| 2 (algemeen "Badrinarayan"-regio) | B05 (Keshabananda-grot, Badrinath-regio) | `SAME_SITE_DIFFERENT_GRANULARITY` (deels) | Mijn record 2 was de algemene ch. 33-uitspraak dat Babaji "near Badrinarayan" verblijft; record 10 (hieronder) is al specifiek de Keshabananda-grot. Extern B05 komt overeen met mijn record 10, niet met het algemene record 2. Record 2 blijft `INTERNAL_ONLY_UNVERIFIED` als apart, vager regio-gegeven — extern normaliseert de regio-uitspraak niet los als eigen locatie. |
+| 3 (Moradabad-huis) | B07 (privéhuis Bengaalse familie, Moradabad) | `SAME_SITE_SAME_EVENT` | Identieke gebeurtenis en bron (AOAY hfst. 34). Extern bevestigt: geen straat/huisnaam bekend — matcht mijn eigen ALLEEN_PLAATS-inschatting. |
+| 4 (Allahabad Kumbh Mela-oever, Sri Yukteswar 1894) | B09 (Kumbh Mela 1894, brug+boom) | `SAME_SITE_SAME_EVENT` | Beide bronnen citeren AOAY hfst. 36. Extern voegt toe dat de ontmoeting begon bij een brug vóór de boom — een detail dat in de door mij gelezen passage ("under a tree...") ook staat maar dat ik niet apart als "brug eerst" markeerde. Geen conflict, aanvullende precisie. |
+| 5 (Allahabad Kumbh Mela, Lahiri wast voeten van asceet) | B08 (Kumbh Mela, onbepaalde subplek) | `SAME_SITE_SAME_EVENT` | Beide: AOAY hfst. 33, zelfde passage. Extern bevestigt terecht dat dit een ANDERE gelegenheid is dan B09/mijn record 4 (geen jaartal, niet samengevoegd met 1894) — consistent met mijn eigen notitie. |
+| 6 (Serampore-banyanboom) | B10 (Rai Ghat-banyan) | `SAME_SITE_SAME_EVENT` — **fysieke identiteit opgewaardeerd** | Extern classificeert dit als `EXACT` (i.p.v. mijn `DEELS`) op basis van S3 (YSS wijst dezelfde, nog bestaande banyan bij Rai Ghat aan). **Bronmatig gecontroleerd**: AOAY hfst. 36 noemt zelf geen straatnaam bij deze scène, dus de `EXACT`-claim steunt op de externe secundaire YSS-identificatie, niet op AOAY zelf. Ik houd `DEELS` aan voor de AOAY-tekst zelf, maar neem de moderne YSS-identificatie over als aanvullende, apart gelabelde institutionele laag (vergelijkbaar met mijn eigen record 14-aanpak). |
+| 7 (Benares — Lahiri's parlour/drempel) | B11 (Lahiri's huis: parlour+drempel) | `SAME_SITE_SAME_EVENT` | Identiek, AOAY hfst. 36. Extern voegt een aparte, niet-AOAY lineage-overlevering toe (Pranabananda's ontmoeting met Babaji zou ook hier hebben plaatsgevonden) — dat sub-element is `EXTERNAL_ONLY_UNVERIFIED` (geen AOAY-bevestiging gevonden; AOAY's Pranabananda-hoofdstuk 27 bevat geen Babaji-scène in Lahiri's huis). |
+| 8 (Barackpur-kamer) | B12 (privékamer Barrackpore) | `SAME_SITE_SAME_EVENT` | Identiek, AOAY hfst. 31, Shankari Mai Jiew. Geen conflict. |
+| 9 (4 Gurpar Road, Yogananda's eigen ontmoeting) | B13 (4 Garpar Road, kamer+vestibule) | `SAME_SITE_SAME_EVENT` — **datumclaim niet bevestigd** | Kernfeit identiek en AOAY-bevestigd (hfst. 37). **Bronmatig gecontroleerd**: de externe freeze citeert een ex
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=259 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/BABAJI_RECONCILIATION.md blob_sha=81e216b9813c9f111249a9304773fc77eb745ead original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=5 classification=text
+acte datum "25 juli 1920" met locator "P1, hfdst. 37" — een volledige doorzoeking van hoofdstuk 37 op "1920"/"July"/datumvermeldingen levert alleen "I left India in August, 1920" op, GEEN datum voor de Babaji-scène zelf. De 25-juli-1920-datum staat dus niet in AOAY zelf, ondanks de citatie; het is vermoedelijk een veelgebruikte secundaire SRF/YSS-datering die abusievelijk aan hfst. 37 is toegeschreven. Classificatie: kerngebeurtenis `SAME_SITE_SAME_EVENT`, maar de datum-subclaim is `FALSE_OR_UNSUPPORTED_EXTERNAL_CLAIM` **als AOAY-eigen bewering** (kan alsnog extern correct zijn, alleen niet uit deze bron). |
+| 10 (Badrinarayan-grot, Keshabananda) | B05 (naamloze grot bij Badrinarayan, Keshabananda) | `SAME_SITE_SAME_EVENT` | Identiek, AOAY hfst. 42. Extern preciseert "vorig jaar" (t.o.v. 1936-verteltijd) — consistent met mijn eigen "ca. 1935". |
+| 11 (was: Ranbajpur/Tarakeswar, Ram Gopal's grot) | B06 (Dashashwamedh Ghat, Varanasi, ondergrondse grot) | `SAME_SITE_DIFFERENT_NAME` — **interne locatiefout gecorrigeerd** | **Bronmatig herlezen (ch. 33, regel ~225-260)**: Lahiri Mahasaya stuurt Ram Gopal (die op bezoek was in Benares, niet in zijn eigen grot) naar "de Dasasamedh bathing GHAT" in Varanasi; daar verschijnen Mataji vanuit een ondergrondse grot onder een stenen plaat, dan Lahiri Mahasaya, dan Babaji. Mijn interne record 11 plaatste deze visioenscène ten onrechte bij "Ram Gopal's eigen grot, Ranbajpur/Tarakeswar" — dat is de plek van een ANDER, apart AOAY-hoofdstuk-13-bezoek van Yogananda aan Ram Gopal, niet van dit visioen. **Correctie**: de Babaji/Mataji/Lahiri-verschijning hoort bij Dashashwamedh Ghat, Varanasi (extern B06 had gelijk); Ram Gopal/Ranbajpur/Tarakeswar blijft een geldig, apart Yogananda-eigen-bezoekpunt (reeds vastgelegd in de Yogananda-atlas), maar niet als locatie van déze Babaji-scène. |
+| 12 (was: "Mataji's grot", onbepaald) | B06 | `SAME_SITE_DIFFERENT_NAME` — samengevoegd met de correctie hierboven | Met de correctie op record 11 vervalt de noodzaak voor een apart "Mataji's grot, onbepaald"-record: het IS de Dashashwamedh Ghat-ondergrondse grot uit B06. Record 12 wordt ingetrokken als apart record en opgenomen in het gecorrigeerde record 11/B06. |
+| 13 (Badrinarayan, Pranabananda reïncarnatieclaim) | — | `INTERNAL_ONLY_UNVERIFIED` | Geen externe tegenhanger; blijft `SYMBOLIC_VISIONARY_OR_POSTHUMOUS_ONLY`/Tier D zoals origineel geclassificeerd. |
+| 14 (modern: Mahavatar Babaji Cave, Kukuchina/Dunagiri) | B01 se secundaire bron S1 | `SAME_SITE_DIFFERENT_GRANULARITY` | Beide onafhankelijk (ik via WebSearch, extern via S1/yssofindia.org) op dezelfde moderne YSS-identificatie van de Drongiri-grot uitgekomen. Bevestigt elkaar, telt niet als twee onafhankelijke vondsten van dezelfde institutionele laag. |
+| — | B32 (Satyalok/huis Shibendu Lahiri, Varanasi, jaren '80) | `EXTERNAL_ONLY_UNVERIFIED` | Buiten AOAY (dat eindigt narratief in de jaren '30-'40); geen lokaal primair bronmateriaal om te verifiëren. Blijft in de Yogananda/Lahiri-lijn omdat Shibendu Lahiri een directe Lahiri-Mahasaya-nazaat is, maar de gebeurtenis zelf (jaren '80) ligt ver buiten AOAY's tijdvak. `UNRESOLVED`, geen bronverificatie mogelijk binnen deze taak se toegankelijke corpus. |
+
+### Tak 2-4 — niet-AOAY-tradities (extern B14-B31, B33-B35)
+
+Deze 21 records (Hariharananda: B14-B18; Nagaraj/Ramaiah/Sri M: B19-B31; Haidakhan: B33-B35) hebben
+GEEN interne tegenhanger, omdat mijn pre-external freeze bewust AOAY-gecentreerd was (conform
+CCI_TASK 087's scope). Classificatie voor elk: `WRONG_PERSON_OR_TRADITION` — niet omdat de externe
+freeze fout is (hij documenteert deze tradities zelf al zorgvuldig en apart, inclusief expliciete
+identiteitswaarschuwingen), maar omdat deze claims buiten de scope vallen van "Babaji zoals AOAY
+hem beschrijft" totdat een bronmatige identiteitsbrug wordt aangetoond. Geen enkele van deze 21
+records is dus een miss op mijn interne freeze — ze zijn een correct aparte laag.
+
+Twee vermeldenswaardige interne kruisverwijzingen:
+- B14/B15 (Hariharananda, Karar Ashram Puri, 1949) ligge
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=260 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/BABAJI_RECONCILIATION.md blob_sha=81e216b9813c9f111249a9304773fc77eb745ead original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=5 classification=text
+n op DEZELFDE ashram-site als de reeds
+  bevestigde Sri Yukteswar-hermitage in Puri (zie `SRI_YUKTESWAR_V2_PRE_EXTERNAL_FREEZE.md` record
+  2) — een fysieke-plek-overlap tussen twee personen, geen Babaji-traditieoverlap. Vermeld ter
+  info, niet gereconcilieerd als Babaji-record.
+- B27 (Nagaraj-traditie, Badrinath, 18 maanden in een naamloze grot) en B05/mijn record 10
+  (Keshabananda-grot, ook Badrinath-regio) liggen geografisch dicht bij elkaar maar zijn expliciet
+  ANDERE tradities/grotten zonder gedeelde bron — terecht apart gehouden, zoals de externe freeze
+  zelf ook al aangeeft.
+
+## Werkpakket C — resultaat directe bronverificatie (samenvatting)
+
+| claim | resultaat |
+|---|---|
+| B01-B03 sublocatie-opsplitsing (grot/rivier/paleis) | **BEVESTIGD** — AOAY hfst. 34 ondersteunt alle drie als aparte ruimtelijke momenten. |
+| B04 (Kebalananda-Himalayakamp, brandend hout + afgrondsprong) | **BEVESTIGD als gemiste interne rij** — AOAY hfst. 33, letterlijk aanwezig. |
+| B06 vs. mijn interne record 11/12 (Dashashwamedh Ghat vs. Ram Gopal's grot) | **INTERNE FOUT BEVESTIGD EN GECORRIGEERD** — zie boven, ch. 33 herlezen. |
+| B09 datum/locatiedetail (brug vóór boom) | **BEVESTIGD, geen conflict**, alleen precisie. |
+| B13 datum "25 juli 1920" | **NIET BEVESTIGD IN AOAY HFST. 37** — volledige tekstdoorzoeking op datumtermen levert de claim niet op; alleen "I left India in August, 1920" staat er. Kernscène zelf blijft wel `SAME_SITE_SAME_EVENT`. |
+| B10 `EXACT`-upgrade (Rai Ghat-banyan) | **AOAY zelf ondersteunt dit niet met een straatnaam** — de `EXACT`-classificatie steunt op de externe S3-secundaire bron (YSS), niet op AOAY. Overgenomen als apart gelabelde institutionele laag, niet als AOAY-eigen precisie. |
+| B11 Pranabananda-in-Lahiri's-huis sub-claim | **NIET BEVESTIGD** — AOAY hfst. 27 (Pranabananda's hoofdstuk) bevat geen Babaji-scène in Lahiri Mahasaya's huis. `EXTERNAL_ONLY_UNVERIFIED`. |
+
+## Werkpakket D — METHOD_V2-gates, herbeoordeeld
+
+| gate | oordeel | onderbouwing |
+|---|---|---|
+| `CORPUS_COVERAGE_GATE` | **DEELS** | AOAY volledig (ongewijzigd); YSS/SRF-secundaire bronnen nu wél gedeeltelijk gedekt via de externe freeze's S1-S9, maar niet zelf primair geraadpleegd door CCI. Print-only Hariharananda/Nagaraj/Ramaiah/Govindan-bronnen blijven buiten AOAY-scope, terecht. |
+| `HOSTGRAPH_GATE` | **JA** | Alle AOAY-hostrelaties bevestigd; geen nieuwe gemiste hostrelatie binnen de AOAY-scope gevonden door de externe vergelijking. |
+| `DISCOVERY_GATE` | **DEELS** | Externe freeze voegt vier grote alternatieve tradities toe die mijn discovery niet had geopend (bewust, buiten AOAY-scope) — deze blijven apart gedocumenteerd, niet geïntegreerd zonder identiteitsbrug. |
+| `RECONCILIATION_GATE` | **PROVISIONEEL** | Alle 14 interne + 14 relevante externe (B01-B13, B32) records hebben een expliciete uitkomst tussen CCI-intern en de bestaande externe branch; twee interne fouten gecorrigeerd (Ram Gopal/Mataji-locatie, ontbrekende Kebalananda-camprij); één externe datumclaim ongefundeerd bevonden. PROVISIONEEL, niet JA, omdat IndiaROOD (derde detector) bij dit checkpoint nog geen duurzame freeze had — zie `INDIA_ROOD_PENDING: JA` hierboven. Verplichte lossless deltareconciliatie zodra IndiaROOD's Babaji-freeze duurzaam beschikbaar is. |
+| `EXTERNAL_MODEL_DIVERSITY_GATE` | **NEE** | De externe freeze is één ChatGPT-sessie met interne parallelle streams — geen aantoonbare multi-provider/multi-model-union (in tegenstelling tot de Yogananda-benchmark met vijf verschillende AI's). Conform TASK.md §10 wordt dit expliciet NEE gelaten, niet als voldaan aangenomen. IndiaROOD (een tweede, onafhankelijke ChatGPT-sessie, momenteel door Mark opgestart) zou dit kunnen verbeteren zodra die freeze beschikbaar is, maar telt zelf ook niet als "ander model." |
+
+**`BABAJI_SWEEP_SATURATED: NEE`** — blijft NEE. Corpus-coverage en discovery zijn DEELS, en
+`EXTERNAL_MODEL_DIVERSITY_GATE` is expliciet NEE. Geen valse JA.
+
+## Correcties toegepast op de interne pre-external freeze (vastgelegd, niet stilzwijgend)
+
+1. Reco
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=261 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/BABAJI_RECONCILIATION.md blob_sha=81e216b9813c9f111249a9304773fc77eb745ead original_offset=16384 original_length=1467 payload_bytes=1467 chunk_index=4 chunk_count=5 classification=text
+rd 1 uitgebreid met twee expliciete sublocaties (Gogash-rivieroever, tijdelijk paleis) —
+   voorheen impliciet in de narratieve toelichting, nu formeel eigen matrixrijen.
+2. Nieuwe rij toegevoegd: Kebalananda's naamloze Himalayakamp (brandend-hout-test +
+   afgrondsprong-test), AOAY hfst. 33 — ontbrak in de oorspronkelijke 14.
+3. **Locatiefout gecorrigeerd**: de Babaji/Mataji/Lahiri-verschijning (voorheen records 11+12,
+   "Ram Gopal's grot"/"Mataji's grot, onbepaald") is herlokaliseerd naar Dashashwamedh Ghat,
+   Varanasi, conform de letterlijke AOAY-tekst (hfst. 33). Ram Gopal Muzumdars eigen grot bij
+   Ranbajpur/Tarakeswar blijft een geldig, apart Yogananda-bezoekpunt, maar was nooit de locatie van
+   déze specifieke visioenscène.
+
+Deze drie correcties zijn NIET stilzwijgend verwerkt in het oorspronkelijke `BABAJI_V2_PRE_EXTERNAL_
+FREEZE.md`-bestand (dat blijft ongewijzigd staan als bevroren record van de blinde pas) — ze staan
+hier, in dit reconciliatiebestand, als expliciete, dateerbare correctie.
+
+## next_allowed_step (voor deze persoon)
+
+Verplichte lossless IndiaROOD-deltareconciliatie zodra een duurzame IndiaROOD-Babaji-freeze met
+bestandspad + commit-SHA op PR #23 verschijnt — deze checkpoint wordt dan niet herschreven, de
+delta wordt als aanvulling toegevoegd. Tot die tijd verder geen actie binnen deze taak. Geen
+cluster/regio, A/B/C, permanente ID's, PDF of route.
+
+---
+Geschreven door: CCI, checkpoint 1 van CCI_TASK 088.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=262 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/LAHIRI_MAHASAYA_RECONCILIATION.md blob_sha=0122c82c3e990d0eaa46b97b74c9ef12fe9ba430 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+# LAHIRI_MAHASAYA_RECONCILIATION
+
+```
+task_id: TOP11-CORE-KRIYA-RECONCILIATION-001
+cci_task: CCI_TASK 088
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-19
+interne_input: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/LAHIRI_MAHASAYA_V2_PRE_EXTERNAL_FREEZE.md
+  (freeze commit 642e464ac96ca011f75df93c0f3ce71653948d6f, 19 records)
+externe_input: agent/chatgpt-top11-parallel-sweep:
+  runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/LAHIRI_MAHASAYA_PRE_COMPARE_FREEZE.md
+  (freeze commit 71bb5b6406fec1e7b59511e7957d247c3bdabc50, 60 records)
+INDIA_ROOD_PENDING: JA — geen duurzame IndiaROOD-freeze voor Lahiri Mahasaya beschikbaar op dit
+  checkpointmoment. RECONCILIATION_GATE: PROVISIONEEL, EXTERNAL_MODEL_DIVERSITY_GATE: NEE.
+```
+
+## Belangrijkste bevinding vooraf: nieuwe primaire bron
+
+De externe freeze gebruikt een bron die ik niet had: **PP — Ashoke Kumar Chatterjee, *Purana Purusha
+Yogiraj Sri Shama Churn Lahiree: A Complete Biography*** (familie-/lineagebiografie, 26 dagboeken/
+brieven van nakomelingen). Dit is potentieel de rijkste beschikbare bron over Lahiri Mahasaya's
+leven en verklaart waarom de externe set (60) mijn interne set (19) ver overtreft in aantal.
+
+**Directe bronverificatie ondernomen, resultaat: BRON_GEBLOKKEERD.** Ik heb geprobeerd de PP-URL
+(dokumen.pub) rechtstreeks op te vragen voor de vier meest consequente claims (exacte
+overlijdenstijd, huisadres D/31/58, Ramnagar-paleis/Pravunarayan Singh-tutorschap, en het
+1861-vs-1868-Ranikhet-conflict). De site meldt "under maintenance" — geen tekst beschikbaar. Ter
+gedeeltelijke compensatie is het overlijden **onafhankelijk gecontroleerd bij een tweede bron**
+(yssofindia.org/about/lahiri-mahasaya: "Lahiri Mahasaya entered mahasamadhi in Banaras, September
+26, 1895") — dit bevestigt de datum (niet de kloktijd 17:25, niet het adres, niet de Ramnagar-claim).
+
+**Consequentie voor deze reconciliatie**: alle PP-only claims (het overgrote deel van de externe
+36 records zonder AOAY-locator) worden hieronder `EXTERNAL_ONLY_UNVERIFIED` met `BRON_GEBLOKKEERD`
+i.p.v. `EXTERNAL_ONLY_VERIFIED_MISS`. Dit is geen afwijzing van de claims — PP oogt als een serieuze
+familiebiografie met specifieke regelankers — maar conform TASK.md §6 ("BRON_GEBLOKKEERD of
+UNRESOLVED is beter dan schijnzekerheid") mag ik ze niet als geverifieerd overnemen zonder de bron
+zelf gelezen te hebben.
+
+## Werkpakket A+B — matching tegen de 24 AOAY-gedekte externe records
+
+Van de 60 externe records citeren er 24 (mede) AOY (mijn enige bron); de overige 36 steunen
+uitsluitend op PP of secundaire veldbronnen.
+
+| intern # | extern # | uitkomst | toelichting |
+|---|---|---|---|
+| 1 (Ghurni, geboorte 1828) | 1 (Ghurni ancestraal huis) | `SAME_SITE_SAME_EVENT` | Beide AOY 3872-3877; extern voegt PP-regelankers toe (BRON_GEBLOKKEERD voor die laag). |
+| 2 (ancestraal huis, 1833-vloed) | 2 (familie-Shivatempel Ghurni) + 4 (herbouwde Ghurni Shiva Site) | `SAME_SITE_DIFFERENT_GRANULARITY` | Extern splitst mijn ene record correct in drie entiteiten: verwoeste tempel (2), herbouwd heiligdom (4, expliciet `PERSONALLY_PRESENT: NEE` — Lahiri was toen al in Kashi) en het zandbank-kindermeditatiepunt (3). Ik had dit onder één rij "1833-vloed" samengevat; extern is preciezer. Overgenomen als correctie. |
+| 3 (Benares, algemene vestiging na 1833) | 6 (huis broer Chandrakanta, Simon Chauhatta, Madanpura) | `SAME_SITE_DIFFERENT_GRANULARITY` | Extern noemt de wijk/host (broer Chandrakanta) die ik niet had; PP-locator, `BRON_GEBLOKKEERD` voor die specificatie. AOY zelf (3875-3877) bevestigt alleen de verhuizing naar Kashi, geen broer-huis. |
+| 4 (school Joy Narayan Ghosal) | 9 (Joynarayan English School) | `SAME_SITE_SAME_EVENT` | Beide AOY 3876-3877; extern voegt PP-locatiebeschrijving toe (Sadanand Market, tussen Ramapura/Rewari-talabs) — `BRON_GEBLOKKEERD`, niet AOY-eigen. |
+| 5 (Gazipur) | 38 | `SAME_SITE_SAME_EVENT` | Beide AOY 3882 + PP 253-255. |
+| 6 (Mirzapur) | 39 | `SAME_SITE_SAME_EVENT` | Idem, met een door PP gemeld chronologieconflict (zie hieronder). |
+| 7 (Danapur) | 43 | `SAME_SITE_SAME_EVENT`
+<<< END CHUNK >>>
+

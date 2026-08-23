@@ -1,0 +1,801 @@
+>>> CHUNK stream_row=586 path=governance/INDIA_SESSION_START.md blob_sha=d06d574fe3d17f5d2170aa787ab415030e0669ff original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=7 classification=text
+zijn.
+
+Arunachala/Tiruvannamalai is `LOCKED_BY_MARK` A-anker voor latere routeanalyse, maar route/nachten nog niet vast. Eerst nationale persoonslaag/heatmap. Terugvlucht is gepland vanaf Delhi.
+
+## HARD RULE — EERST DE GEHELE GITHUB LEZEN
+Een nieuwe INDIA-regisseur leest vóór inhoudelijk handelen de gehele tekstuele repository op de actuele werkbranch inhoudelijk. Eerst de volledige recursive tree, daarna alle tekstbestanden: governance, actieve en oude runs, legacy, registries, decisions, protocollen, scripts, research, handoffs, methodes en overige projectbestanden. Binaire artefacten alleen openen wanneer een actuele taak/decision/audit ze als bron nodig heeft. Relevante andere branches en open PR's inventariseren; genoemde legacy-branches lezen. Daarna actuele statebestanden opnieuw lezen om canon vast te zetten.
+
+Prioriteit bij stateverschil: `actuele taak-STATUS > INDIA_SESSION_START > ACTIVE_STATE > legacy/oud > oude chat`. Legacy blijft verplicht wanneer het beschermde Mark-besluiten/evidence/reconciliatie-input bevat.
+
+## BOOTVOLGORDE
+1. Lees root `README.md`.
+2. Haal volledige recursive tree op.
+3. Lees alle tekstuele bestanden op de werkbranch.
+4. Inventariseer relevante branches en PR #23; lees genoemde legacy-branches.
+5. Lees opnieuw `governance/ACTIVE_STATE.md`, `SWEEP_PROTOCOL.md`, `SWEEP_ERROR_CLASSES.md` en dit bestand.
+6. Lees alle `runs/active/*/STATUS.md`, bijbehorende `TASK.md` en genoemde outputbestanden.
+7. Scan repo-breed op `LOCKED_BY_MARK`, `MARK_DECISION_CONFLICT`, `LAST_GLOBAL_LOCATION_NUMBER`, `PDF_STATUS`, `next_allowed_step`, `PERSON_SWEEP_SATURATED`, `AOAY_LOCATION_SWEEP_SATURATED`, `DOUBLE_SWEEP_COMPLETED`.
+8. Controleer nieuwste commits + nieuwste PR #23-enveloppen.
+9. Handel direct de nieuwste `next_allowed_step` af. Mark is geen koerier.
+
+## ONDERHOUDSREGEL
+Update dit bestand in dezelfde werksessie bij iedere nieuwe taak/CCI_TASK, taakstatus/NEXT_ACTION, permanent locatie-ID, Mark A/B/C-lock/conflict, methode/protocolwijziging, regioprioriteit of belangrijke researchlaag-status. Update altijd ook de betrokken taak-STATUS. Chat mag nooit de enige actuele waarheid zijn.
+
+## MARK-UI-REGEL — EXTERNE AI PROMPTS
+Lees en volg `governance/EXTERNAL_AI_PROMPT_RULES.md`.
+Iedere tekst die Mark naar een andere AI/chat/Claude Code moet kopiëren staat volledig in één los fenced code block (monospace/kopieerknop). Geen noodzakelijke prompttekst erbuiten. Dit geldt ook voor éénregelige startvragen.
+
+## REPO / RELAY
+- Repo: `bnzgxknwrv-tech/india-knowledge-base`
+- Werkbranch: `claude/werk-je-nu-of-niet-oa10y7`
+- PR #23 draft; niet mergen zonder expliciete Mark-vrijgave.
+- PR #23 = korte relay/index; lange inhoud onder `runs/active/<TASK_ID>/`.
+- Bewezen relaygedrag: een nieuwe top-level PR-comment genereert `github issue_comment.created` wake voor CCI; zie `governance/CCI_GITHUB_WAKE_RELAY.md`.
+
+## PROJECTDOEL
+Drie orthogonale missiekritische detectorlagen:
+1. AOAY volledig: iedere locatievermelding / direct verbonden fysieke plek, hoe klein ook.
+2. Top-11 persoon-centraal: per persoon heel India, inclusief hosts/gastheren/huizen/landgoederen.
+3. Regionaal: zware regio's onafhankelijk dubbel sweepen + reconciliëren; laag-3 alleen echte zelfstandige zwaargewichten.
+
+Top-11 vaste volgorde: Paramahansa Yogananda; Mahavatar Babaji; Lahiri Mahasaya; Sri Yukteswar; Ram Dass; Neem Karoli Baba; Anandamayi Ma; Ramakrishna; Ramana Maharshi; Hariharananda; Vivekananda.
+
+Geen A/B/C voorspellen namens Mark. Bestaande Mark-besluiten beschermd. Nieuwe cruciale info bij oud besluit => `MARK_DECISION_CONFLICT`. Geen PDF zonder `PDF_GO: JA`.
+
+## PERMANENTE NUMMERING
+`LAST_GLOBAL_LOCATION_NUMBER = 081`.
+- 079 Mahavatar Babaji's Cave — A, `LOCKED_BY_MARK`.
+- 080 Turiya Niwas — A, `LOCKED_BY_MARK`.
+- 081 Bodh Ashram — A, `LOCKED_BY_MARK`.
+
+## ACTIEVE TAAK 1 — TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
+CCI heeft METHOD_V1 afgerond: circa 90 atlaspunten voor alle 11 en 11/11 `PERSON_SWEEP_SATURATED: JA`. Die saturation-labels zijn voor INDIA **NIET meer geldig als completeness-bewijs**. Anandamayi-benchmar
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=587 path=governance/INDIA_SESSION_START.md blob_sha=d06d574fe3d17f5d2170aa787ab415030e0669ff original_offset=20480 original_length=4096 payload_bytes=4096 chunk_index=5 chunk_count=7 classification=text
+k heeft aangetoond dat METHOD_V1 hele categorieën en tientallen fysieke touchpoints mist.
+
+Bestaande atlas blijft input; niet verwijderen. Geen permanente nummering/clusterkeuze op basis van METHOD_V1 alleen.
+
+## ACTIEVE TAAK 2 — TOP11-EXTERNAL-AI-BENCHMARK-001
+Actuele benchmarkconclusie: Yogananda prospective control is afgerond via CCI_TASK 086 en heeft `EXTERNAL_MULTI_AI_MANDATORY_FOR_REMAINING_TOP11: JA` opgeleverd.
+
+Bestanden:
+- `TASK.md`
+- `STATUS.md`
+- `EXTERNAL_UNION_INPUT.md` — Marks externe multi-AI union: 156 Anandamayi-masterlocaties.
+- `INDIA_SOURCE_FIRST_SWEEP_ANANDAMAYI.md`
+- `BENCHMARK_RESULT.md`
+- `YOGANANDA_EXTERNAL_RECONCILIATION_CCI_086.md`
+
+### Harde bevindingen
+1. CCI's Anandamayi-set (~23) is aantoonbaar zwaar incompleet.
+2. Externe multi-AI union (156) heeft echte waarde: onafhankelijke AI's vinden reële long-tail host-/reislocaties die CCI mist.
+3. Externe union is zelf óók aantoonbaar incompleet: source-first scan van officiële Life History 1896–1982 + Sangha-biografie vond opnieuw vele afzonderlijke sites die niet in de 156-union staan.
+4. Sommige externe claims zijn fout/overmerged en moeten rechtstreeks worden geverifieerd; consensus is geen bewijs.
+5. Yogananda control: 114 externe masterrecords; 8/8 rechtstreeks getoetste externe kandidaten `VERIFIED_TRUE`.
+6. CCI vond zelf Regent Hotel Bombay, gemist door alle vijf externe AI's. Dus volledige METHOD_V2-keten blijft nodig.
+
+### METHOD_V2
+`CORPUS INVENTORY -> LOSSLESS CORPUS OCCURRENCE EXTRACTION -> EVENT/PLACE NORMALIZATION -> HOST/NETWORK GRAPH -> WEB DISCOVERY -> INDIA INDEPENDENT METHOD PASS -> EXTERNAL MULTI-AI ADVERSARIAL UNION -> DIRECT VERIFICATION/RECONCILIATION -> SATURATION`.
+
+`PERSON_SWEEP_SATURATED` mag pas na aantoonbare corpuscoverage, hostgraph, discovery en detectorreconciliatie.
+
+### CCI_TASK 087 / 087R — AFGEROND (CCI, 2026-08-19)
+087 = nationale pre-external METHOD_V2 freezes voor Mahavatar Babaji + Lahiri Mahasaya + Sri Yukteswar.
+087R = context-limit recovery; eerste subagent-poging (3 parallelle workers) faalde op sessielimiet
+zonder duurzame output. CCI heeft daarna alle drie freezes direct (niet via subagent) uitgevoerd,
+met tussentijdse checkpoint-commits per persoon: Babaji (`6b79f1c`), Lahiri Mahasaya (`642e464`),
+Sri Yukteswar (`ea60ba5`). Bestanden:
+`runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/BABAJI_V2_PRE_EXTERNAL_FREEZE.md`,
+`.../LAHIRI_MAHASAYA_V2_PRE_EXTERNAL_FREEZE.md`, `.../SRI_YUKTESWAR_V2_PRE_EXTERNAL_FREEZE.md`.
+Alle drie `SATURATED: NEE` met expliciet benoemde hiaten (zie STATUS.md van die taak voor details).
+Geen PHASE2_RESULT.md-checklist gebruikt tijdens de blinde pas; geen inzage in de externe
+ChatGPT-parallelsweep. **NEXT_ACTION 087:** blanco externe multi-AI-sweeps voor deze drie personen,
+daarna directe verificatie/reconciliatie. Geen clustersweep/regiosweep (Arunachala-hold van kracht),
+geen A/B/C, geen PDF, geen route. Wacht op INDIA-QA-audit.
+
+## EXTERNE PARALLEL CHATGPT-RUN
+Branch: `agent/chatgpt-top11-parallel-sweep`.
+Task: `runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/TASK.md`.
+Doel: onafhankelijke blinde externe freezes voor acht full-deep personen. Geen interne repo-kandidaten lezen vóór alle acht freezes; eigen branch; commit per persoon; pas later reconciliëren.
+
+## ACTIEVE TAAK 3 — AOAY-FULL-LOCATION-ATLAS-001
+Actuele STATUS: `SUBSTANTIELE_EERSTE_OOGST__NIET_SATURATED__WACHT_OP_INDIA`.
+- eerste ronde: 1.359 occurrence-records; 123 genormaliseerde plaatsen; 30 `AOAY_FOUND_BUT_MISSING_FROM_REPO`; Kashmir nieuw signaal.
+- `AOAY_LOCATION_SWEEP_SATURATED: NEE`.
+- duizenden kandidaat-tokentypes unresolved; occurrence-level verification nog niet compleet.
+
+**NEXT_ACTION AOAY:** niet afsluiten. Vervolgronde tot echte saturation/blocker met detector-verdieping + occurrence-verificatie. Eerst huidige personenlaag respecteren.
+
+## ACTIEVE TAAK 4 — YOGANANDA-ANANDAMAYI-PHOTO-LOCATION-001
+Status: `RESULT_KLAAR__TWEE_SITES_ONDERSCHEIDEN__WACHT_OP_INDIA`.
+- Ranchi Vidyalaya-tuin = bronmatig zekerste fotosessie, exact bezoekbaar.
+- Bhowanipur/Calcutta = historische ontmo
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=588 path=governance/INDIA_SESSION_START.md blob_sha=d06d574fe3d17f5d2170aa787ab415030e0669ff original_offset=24576 original_length=1982 payload_bytes=1982 chunk_index=6 chunk_count=7 classification=text
+eting met Bholanath aanwezig, maar exact huis/adres nog niet bewezen.
+- open: Gurupriya Devi-dagboek/OCR + visuele fotoinspectie om Bholanath-foto exact toe te wijzen.
+
+## ACTIEVE/OPEN TAAK 5 — KUMAON-V2-RESWEEP-001
+079–081 beschermd. Overige kandidaten tijdelijk; identity/reconciliatie nog open. Nieuwe landelijke METHOD_V2/atlaslagen moeten vóór choice-ready eindstatus over Kumaon worden gekruist.
+
+## ARUNACHALA / TIRUVANNAMALAI
+`decisions/ARUNACHALA_TIRUVANNAMALAI_A_ANCHOR_2026-08-18.md` = LOCKED_BY_MARK A-anker, nog geen route/nachten.
+Yogananda-Ramana direct bewijs + film-sublocatie staat in `research/YOGANANDA_RAMANA_ARUNACHALA_POST_FREEZE_NOTE_2026-08-18.md`.
+Niet verwarren: film-scène exact op bank ten noorden van Old Hall; volledige conversatie exact daar nog niet bewezen.
+
+## AFGEROND
+- VARANASI: 001–040 beoordeeld/beschermd; 041–045 alleen op Marks initiatief.
+- BODH GAYA: 046–078 verwerkt; keuzes beschermd; geen nieuwe Bodh Gaya-PDF.
+- GAYA AIRPORT → BODH GAYA corridor: `DOUBLE_SWEEP_COMPLETED_RECONCILED`; 0 nieuwe locaties.
+
+## REGIOPRIORITEIT
+Na huidige landelijke atlas/QA-stroom:
+1. Tiruvannamalai / Arunachala.
+2. Kolkata / Serampore.
+Rajgir/Nalanda niet actief als volgende regio.
+
+## STARTZIN NIEUWE CHAT
+`Neem de INDIA-regie over als INDIA7. Gebruik GitHub onmiddellijk als primaire waarheid. Lees eerst de GEHELE tekstuele repository op branch claude/werk-je-nu-of-niet-oa10y7 volgens README.md. Lees daarna governance/INDIA7_BOOTSTRAP_DELTA_2026-08-18.md en handoffs/INDIA6_TO_INDIA7_2026-08-18.md opnieuw, inventariseer PR #23, PR #24 en branch agent/chatgpt-top11-parallel-sweep, en lees hun nieuwste states. Controleer als eerste of CCI_RESULT 087R inmiddels binnen is. Respecteer de blindheid van nog onafgeronde external freezes en start geen regionale/cluster-sweep voordat de nationale persoonslaag dit toestaat. Handel daarna direct de nieuwste next_allowed_step af zonder mij de geschiedenis opnieuw te laten uitleggen.`
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=589 path=runs/active/CCI-LONELYPLANET-GAPCHECK-001/GAP_CHECK_RESULT.md blob_sha=e4c98e1beda9a3dab8b73db6110f6301e208a7b1 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# CCI — INDIA LONELY PLANET GAP-CHECK — RESULT
+
+```
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-22
+input: agent/indialonelyplanet-north-discovery (LONELY_PLANET_NORTH_DISCOVERY.md + .csv, 26 findings)
+       agent/indialonelyplanet-ganges-south-discovery (LONELY_PLANET_GANGES_SOUTH_DISCOVERY.md + .csv, 54 findings)
+aard: kleine onafhankelijke gap-check, GEEN nieuwe discoverysweep, GEEN A/B/C, GEEN route, GEEN nieuwe
+      integratielaag. Geen bestand op de twee bronbranches aangeraakt.
+drempel: hoog — max. 15 missers gerapporteerd, 0 is een geldig resultaat.
+```
+
+## Uitkomst: 3 evidente missers
+
+Beide documenten zijn ongewoon grondig (80 findings totaal, consistente disposition-schaal,
+consequente bronvermelding, expliciete "bewust gescreend"-secties). Bij een strenge "hoe kon je
+DIT missen"-toets blijven drie kandidaten over — twee sterk, één gematigd — plus enkele serieus
+overwogen kandidaten die NIET de drempel haalden (zie §3, met bewijs waarom).
+
+| # | naam | cluster/corridor | waarom evident gemist | schaal/kwaliteit | omweg | bronbewijs |
+|---|---|---|---|---|---|---|
+| 1 | **Ganga Aarti, Har Ki Pauri** | Haridwar/Rishikesh (B) | De Varanasi-laag kreeg een eigen `VAR-008`-regel voor "kies één goede Aarti-positie"; Haridwar's eigen, minstens even iconische avondritueel ontbreekt volledig — geen enkele vermelding in het hele North-document, ook niet in de sectie die expliciet checkt of Haridwar "geen tweede grote magneet" heeft. Dit is geen persoonslocatie (geen Top-11-band), dus binnen scope. | Historisch ritueel sinds 1916 (gestart door Pandit Madan Mohan Malviya, georganiseerd door Shri Ganga Sabha); dagelijks grote massa's bezoekers aan beide oevers; door reisbronnen consequent als hét symbool van Haridwar aangeduid. | 0 km — kernpunt van Haridwar zelf, geen omweg. | <https://utsav.gov.in/view-darshan/haridwar-ganga-aarti> · <https://www.euttaranchal.com/tourism/ganga-aarti-haridwar.php> · <https://www.haridwarrishikeshtourism.com/ganga-aarti-haridwar.html> |
+| 2 | **ISKCON Krishna-Balaram Mandir** | Vrindavan/Braj | BRAJ-sectie is met 9 regels (BRAJ-001 t/m 009) ongewoon rijk, maar mist juist het gebouw met de grootste internationale bekendheid in Vrindavan zelf — géén Top-11-persoonsband (Prabhupada staat niet op Marks Top-11), dus geen reden voor uitsluiting binnen deze niet-persoonslaag. | Gebouwd 1975; dagelijks grote aantallen bezoekers/pelgrims uit binnen- en buitenland; compleet complex met samadhi-museum, gastenverblijf, archief — een van de bekendste enkele bouwwerken van Vrindavan voor een internationaal publiek. | ~0–2 km binnen Vrindavan, geen praktische omweg. | <https://www.tripadvisor.com/Attraction_Review-g951350-d2646191-Reviews-ISKCON_Vrindavan-Vrindavan_Mathura_District_Uttar_Pradesh.html> · <https://mathuravrindavantourism.co.in/krishna-balaram-mandir-iskcon-vrindavan> |
+| 3 | **Bharat Kala Bhavan (BHU-campus museum)** | Varanasi | Gematigde misser: de Varanasi-laag waardeert musea al expliciet (Man Mahal Observatory, VAR-005), maar dit BHU-campusmuseum — 100.000+ objecten, Gupta/Maurya-sculptuur, Mughal/Rajput/Pahari-miniaturen, Banarasi-textiel — ontbreekt volledig, terwijl het qua opzet exact past bij wat elders (Government Museum Mathura, BRAJ-005) al wél is opgenomen. | Sinds 1920; grootschalige, serieuze universitaire collectie; reisbronnen noemen het consequent een "hidden gem"; wisselende presentatiekwaliteit (sommige bezoekers vinden documentatie/uitstalling zwak) — vandaar `MICRO_GEM`-niveau, geen `CLUSTER_MAGNET`. | ~3–5 km binnen Varanasi (BHU-campus), lage extra reistijd. | <https://www.tripadvisor.com/ShowUserReviews-g297685-d478217-r347051531-Bharat_Kala_Bhavan-Varanasi_Varanasi_District_Uttar_Pradesh.html> · <https://wanderlog.com/place/details/148588/bharat-kala-bhavan-museum-bhu-varanasi> |
+
+## Antwoorden op de zes gestelde controlevragen
+
+1. **Mist Haridwar/Rishikesh nog één echt grote magneet?** **JA** — zie misser #1 (Har Ki Pauri
+   Ganga Aarti). Dit is onafhankelijk van de rafting-vraag die het document al goed beantwoordt.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=590 path=runs/active/CCI-LONELYPLANET-GAPCHECK-001/GAP_CHECK_RESULT.md blob_sha=e4c98e1beda9a3dab8b73db6110f6301e208a7b1 original_offset=4096 original_length=3657 payload_bytes=3657 chunk_index=1 chunk_count=2 classification=text
+2. **Mist Kumaon belangrijke natuur?** **NEE, niet op hoog niveau.** Corbett, Binsar, Sattal,
+   Pangot-Kilbury en Nandhaur dekken samen wildlife, bos en panorama al breed. Kausani (bekend
+   Himalaya-panorama, "Zwitserland van Kumaon") is overwogen maar niet gerapporteerd: het voegt
+   echte extra reisafstand toe als losstaand hillstation-doel en het document dekt panorama al via
+   Binsar Zero Point — onvoldoende "hoe kon je dit missen"-gewicht om de drempel te halen.
+3. **Mist Varanasi ondanks de rijke lijst nog een evidente ervaring?** **DEELS** — zie misser #3
+   (Bharat Kala Bhavan), gematigd niveau. Geen grote ervaringsmisser gevonden: de kern-ervaringslaag
+   (dawn-boot, Subah-e-Banaras, gali's, weefatelier, aarti, Sarnath) is al zeer compleet.
+4. **Staat Barabar/Nagarjuni terecht als zware Gaya-discovery aangemerkt?** **JA.** India's oudste
+   bewaarde rotsarchitectuur (Mauryaans/Ashokaans, met de beroemde Lomas Rishi-grot), sterk
+   graniet-/heuvellandschap, `CLUSTER_MAGNET` is gerechtvaardigd — geen bezwaar.
+5. **Ontbreekt op de Varanasi–Bodh Gaya-corridor een evidente natuur/erfgoedstop?** **NEE.** Sher
+   Shah Suri's Tomb (Sasaram), Tutla Bhawani-waterval en Rohtasgarh Fort (terecht `TOO_FAR`) dekken
+   deze corridor al; Chandra Prabha/Rajdari-Devdari is al overwogen en terecht als `TOO_FAR`
+   afgewezen (VAR-013). Geen aanvullende evidente stop gevonden.
+6. **Kan Mysore/Bengaluru terecht C blijven?** **JA.** De drie gevonden magneten (Mysore Palace,
+   Somanathapura, Shravanabelagola) zijn terecht alleen als C-challenger-signaal bewaard, niet als
+   statuswijziging. Geen normale Bengaluru-highlight haalt de drempel. Hampi is bewust niet
+   meegenomen als kandidaat: het ligt ver buiten Mysore/Bengaluru-geografie en zou de smalle
+   C-gap-check-scope van deze taak overschrijden, consistent met hoe het document zelf met
+   `TOO_FAR`-items omgaat.
+
+## Overwogen maar bewust NIET gerapporteerd (met reden)
+
+- **Magh Mela, Prayagraj** — overwogen als mogelijke kalendertreffer omdat de South-doc dat patroon
+  elders wel toepast (Ramnagar Ramlila, Nag Nathaiya, Lathmar Holi, Karthigai Deepam). Bronnen zijn
+  het onderling niet eens over de startdatum 2027: sommige bronnen noemen Makar Sankranti
+  (~15 januari 2027), andere expliciet Paush Purnima (**22 januari 2027**) als officiële start — dat
+  laatste valt net ná Marks reisvenster (t/m 21 januari 2027). Gegeven deze datumonzekerheid en de
+  hoge drempel is dit NIET als evidente misser opgenomen; wel het vermelden waard als iets dat
+  ChatGPT/Mark apart zou kunnen laten uitzoeken als de exacte 2027-Snan-kalender ooit nodig is.
+- **Neelkanth Mahadev Temple** (bos-berg-tempel bij Rishikesh) — serieus, populair, maar
+  functioneel vergelijkbaar met al opgenomen tempel-/natuurlagen elders in het document; haalt de
+  "hoe kon je dit missen"-drempel niet apart.
+- **Ramnagar Fort & Museum, Varanasi** (los van de al opgenomen Ramnagar Ramlila) — degelijk maar
+  tweede-tier vergeleken met wat al is opgenomen; niet gerapporteerd.
+
+## Kwaliteitsindruk van de twee brondocumenten zelf
+
+Geen kritiek op methode nodig. Beide documenten zijn consistent qua schaal, gebruiken dezelfde
+disposition-taal, onderbouwen bijna elke regel met minstens één primaire/officiële bron plus
+reizigerssignaal, en zijn expliciet transparant over wat bewust is uitgesloten. De 3 hierboven
+gerapporteerde missers zijn kleine aanvullingen op een sterk fundament, geen structurele
+tekortkoming.
+
+---
+Geschreven door: CCI. Geen bestand op de twee bronbranches aangepast, geen A/B/C, geen route, geen
+nieuwe integratielaag gebouwd — uitsluitend deze gap-check.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=591 path=runs/active/CCI-MASTER-QA-ALL-FINDINGS-001/MASTER_QA_REPORT.md blob_sha=6fbe6e00225c8ed926a7e2b0c4b58bd939b57573 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+# CCI MASTER QA REPORT — ALL_FINDINGS_LOCATION_MASTER
+
+```
+task_id: CCI-MASTER-QA-ALL-FINDINGS-001
+role: independent QA/reconciliation partner (not a new color/workstream)
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-20
+central_branch_audited: agent/india8-cluster-casting
+central_task: runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/CCI_MASTER_QA_TASK.md
+method: cross-branch read-only inspection + commit-SHA/blob verification, no merge, no A/B/C, no route
+```
+
+## MASTER_QA_VERDICT: **PASS_WITH_FIXES**
+
+The underlying discipline, entity modeling and per-family execution are rigorous and, everywhere
+sampled, verifiably correct — no silent drops, no fabricated coordinates, no claimant-tradition
+collapse, no micro-site absorption, no historic/successor conflation were found. However, the
+literal deliverable named in the QA task — "the central-master construction" — **does not yet exist
+as a single, queryable, row-level artifact**. What exists on `agent/india8-cluster-casting` is a
+schema, a source ledger, a prioritized unresolved-queue seed, and six per-color feed summaries that
+correctly cite real commits on six separate branches. The actual row-level
+`ALL_FINDINGS_LOCATION_MASTER` (per the columns defined in
+`ALL_FINDINGS_LOCATION_MASTER_SCHEMA.md`) has not been assembled yet — this is explicitly still the
+"NEXT" step per `FINAL_FEED_MANIFEST.md` itself, not a hidden gap I am the first to notice. This is
+the reason for `PASS_WITH_FIXES` rather than a clean `PASS`: the fixes are about *finishing
+consolidation*, not about *correcting mistakes found in what exists*.
+
+## 0. Method — what I actually verified, not just read
+
+I did not just read the central branch's own summary claims at face value. For a representative
+sample I:
+- Verified via `list_commits`/`get_commit` (direct GitHub API, not an unauthenticated proxy) that
+  cited commits are real, on the stated source branches, and touch the stated files with the stated
+  line counts — sampled across BLAUW, TURQUOISE, ROOD, WIT, and ZILVER (5 of 6 families; GEEL's
+  underlying commits were already independently verified by CCI in CCI_TASK 095 two turns ago in
+  this same session).
+- Fetched the ZILVER family's actual final CSV/markdown content directly from its home branch
+  (`agent/indiazilver-cluster-completeness-audit`) — not just the central branch's secondhand
+  summary — because the central directory's `FEED_INDIAZILVER_PARTIAL_...md` turned out to describe
+  an **earlier, superseded** ZILVER state (different commit SHAs than `FINAL_FEED_MANIFEST.md`
+  cites); the central branch itself does not contain the ZILVER task directory at all (it lives only
+  on ZILVER's own branch, read cross-branch per the governance's explicit allowance).
+- Independently reproduced the existing Varanasi A/B/C split (32×A / 5×B / 3×C for 001-040) by
+  counting ZILVER's `PROTECTED_CANON_BASELINE.csv` row-by-row and comparing the total against
+  `governance/ACTIVE_STATE.md`'s own stated split — **exact match**, a genuine independent check, not
+  a re-read of the same claim.
+- Cross-checked Bodh Gaya (046-078: `051=C`, `061=C`, `074=C` all "reconfirmed after delta") and
+  Kumaon (079/080/081: all `A`, `LOCKED_BY_MARK`, "Do not infer GPS") against my own prior knowledge
+  of `ACTIVE_STATE.md` — exact match on both.
+- Read the raw `PROXIMITY_1KM_3KM_MATRIX.csv` line-by-line rather than trusting only the summary's
+  "16 pairs / 7 tight / 0 guessed" claim — the raw file's own internal summary rows match the
+  external claim exactly, and no row in between fabricates a distance for an `UNKNOWN` coordinate
+  pair.
+
+## 1. Checklist verdict, item by item (Mark's explicit "controleer vooral" list)
+
+| item | verdict | evidence |
+|---|---|---|
+| nul silent drops | **PASS (per-family), OPEN (global)** | All 5 sampled families explicitly claim and substantiate `SILENT_DROPS=0` with traceable commit refs. No global accounting equation has been computed across all families combined yet — see P0-1. |
+| iedere source claim krijgt een disposition | **PASS (per-family), OPEN (global
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=592 path=runs/active/CCI-MASTER-QA-ALL-FINDINGS-001/MASTER_QA_REPORT.md blob_sha=6fbe6e00225c8ed926a7e2b0c4b58bd939b57573 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+)** | R1-R5/duplicate/negative dispositions consistently present everywhere sampled; global roll-up pending, same root cause as above. |
+| micro-sites niet geabsorbeerd in parent-complex | **PASS** | TURQUOISE's explicit rule ("rooms, verandas, cremation spots, memorials... must NOT be silently deduplicated into the parent") is consistently applied — Kainchi, 4 Church Lane, Sri Ramanasramam, Dakshineswar, Cossipore, Karar Ashram, Fouzdar Kunj, Shyampukur all correctly keep children (`KEEP_CHILD`) distinct from parents in ZILVER's own proximity/ID matrix. |
+| historical successor niet vals als hetzelfde gebouw behandeld | **PASS** | Regent Hotel 1936 vs. current same-name hotel is explicitly `SAME_NAME_NOT_PROVEN_SUCCESSOR`, kept **separate**, not merged. Same discipline applied to Ghurni original estate vs. Jaleshwar successor shrine, Serampore historic Priyadham terrain vs. current Smriti Mandir, Panthi's demolished plot vs. room, NKB Akbarpur birth site vs. the 2001 temple — all correctly `R2`/successor-flagged, not silently upgraded to `R1`. |
+| Babaji claimant traditions gescheiden | **PASS** | Explicitly enforced with a dedicated "Babaji claimant-tradition ABC guard" section: Dunagiri/YSS Pandukholi cave, Haidakhan Vishwa Mahadham, Parangipettai Nagaraj Mandir, and the unnamed 1861 initiation cave are all kept as four separate claimant families, each with "never merge" language, and the dedup of the *current* YSS cave against permanent ID `079` is explicitly scoped to "current claimant site," not historical proof. |
+| R4/R5 zichtbaar gehouden | **PASS (preservation), PARTIAL (visibility)** | Nothing is dropped — every unresolved item is preserved either individually (`GLOBAL_UNRESOLVED_QUEUE_SEED.md`) or by exact count + source-commit reference (e.g. ROOD's "54 R4 + 25 R5... source commit `cd817119` remains authoritative"). But the queue seed is explicitly labeled a prioritized **seed**, not the full expansion — Mark cannot yet see all ~79+ unresolved ROOD records, or the full GEEL R4/R5 set, in one place. See P1-1. |
+| bestaande IDs 001-081/A-B-C/locks onaangetast | **PASS, independently reproduced** | See §0 — exact match on Varanasi 32/5/3 split, Bodh Gaya 046-078 statuses, Kumaon 079-081. No file anywhere in my sample renumbers, reuses, or silently changes an existing ID or A/B/C. |
+| AOAY P0-scenes zichtbaar | **PASS** | BLAUW's feed explicitly closes several high-priority P0 AOAY scenes (Haridwar ch.4 split into station/detention-bungalow/not-reached-Rishikesh; Vrindavan ch.11 Madanamohana Temple; Regent Hotel Bombay third-floor scene). `GLOBAL_UNRESOLVED_QUEUE_SEED.md` Priority 1 keeps the rest explicitly visible, not hidden. |
+| heritage rooms/stays niet verloren | **PASS** | Hotel Evelyn (hotel/cave-room/patio kept as 3 distinct rows), Jaipuria Bhawan, K.K. Sah house, 4 Church Lane (parent + room + hall + veranda + kitchen), Fouzdar Kunj (building + room + veranda) are all explicitly tracked at room level. WIT's Kankhal finding is a good positive example of correct nuance: the historic bedroom is flagged `HERITAGE_VISITABLE`, explicitly **not** accommodation, while the adjacent International Centre is separately flagged as currently offering accommodation — the two are not conflated. |
+| proximity alleen waar ZILVER betrouwbare coordinate pairs heeft | **PASS, directly verified** | Read the raw `PROXIMITY_1KM_3KM_MATRIX.csv`, not just the summary: every `PARENT_CHILD`/`SUCCESSOR_SITE` relation with unknown coordinates correctly shows `coordinate_a/b_status: UNKNOWN` and `distance_km: UNKNOWN` — no fabricated number. Only rows where both endpoints carry a `TRUSTED_HERITAGE_COORD`/`CONFIRMED_MARKER`/`CONFIRMED_EXACT_ENTITY`/`WORKING_PIN_25_100M` status get an actual computed distance. Summary row states "0 guessed coordinates" and this is borne out by the raw data. |
+
+## 2. Additional integration defects found (beyond the checklist)
+
+1. **`FEED_INDIAZILVER_PARTIAL_GEEL_TURQUOISE_INTEGRATED.md` on the central branch is stale.** It
+   cites ZILVER commits (`70b5fc0f...`, `92a96bf3...`, `1c218773.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=593 path=runs/active/CCI-MASTER-QA-ALL-FINDINGS-001/MASTER_QA_REPORT.md blob_sha=6fbe6e00225c8ed926a7e2b0c4b58bd939b57573 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+..`, `befb91bd...`, `cfb7e480...`)
+   that are an **earlier** ZILVER state than what `FINAL_FEED_MANIFEST.md` cites
+   (`f491be93...`, `a0f199fb...`, `7ddcb764...`, `c64c6707...`, `118cacae...`). Both files coexist on
+   the central branch; a reader who trusts the "PARTIAL" file's proximity conclusion ("no fabricated
+   numeric claims were added") would miss that the final state does contain 16 real numeric pairs.
+   Not a data error — a documentation-ordering trap.
+2. **`MASTER_INGEST_STATE.md` is stale relative to `FINAL_FEED_MANIFEST.md`.** It still says
+   `ZILVER: CURRENT INPUTS EXHAUSTED — awaiting only additive WIT+ROOD ingest`, while
+   `FINAL_FEED_MANIFEST.md` (same branch, same directory) already shows all six families
+   `COMPLETE`/`READY_FOR_CENTRAL_MASTER`. Low severity, but a future session bootstrapping from
+   `MASTER_INGEST_STATE.md` alone would think ZILVER is still blocked.
+3. **No `FEED_INDIAZILVER_FINAL_COMPLETE.md`** exists in the central directory, unlike WIT which
+   correctly got a superseding `FEED_INDIAWIT_FINAL_COMPLETE.md` when its state changed. ZILVER's
+   final state is only referenced secondhand inside `FINAL_FEED_MANIFEST.md`; I had to go to
+   ZILVER's own branch directly to verify it. This is the same class of gap as #1/#2 — the central
+   branch's own paper trail lags its actual state.
+4. **Minor count discrepancy, not a defect**: ROOD's `CORE_KRIYA_SOURCE_RECORDS.jsonl` commit shows
+   179 line additions, while the accounting text says "178 source records." Almost certainly a
+   trailing-newline/header artifact, but worth a one-line confirmation before treating 178 as exact
+   in the eventual global accounting equation.
+5. **Anandamayi 108-vs-156 overlap status is honestly unresolved, not swept under the rug** —
+   `SOURCE_LEDGER.md` itself says the 108 source-first additions "are NOT to be treated as already
+   deduplicated against the external 156." This is correct caution, not a defect, but it means
+   Anandamayi-heavy clusters (Vrindavan, Kankhal) cannot close their accounting equation until this
+   specific dedup question is resolved — flagging it so it is not forgotten once the master build
+   starts.
+
+## 3. What I did NOT find (explicitly, since absence-of-evidence needs to be stated for a QA report)
+
+- No instance of a source claim disappearing without a disposition.
+- No instance of a physically distinct micro-site silently merged into its parent's row.
+- No instance of a historic structure being treated as identical to a modern successor without an
+  explicit R2/successor flag.
+- No instance of two different Babaji claimant traditions being pooled or cross-inheriting
+  evidence/tier.
+- No instance of an existing permanent ID (001-081), A/B/C, or lock being changed, renumbered, or
+  reused.
+- No instance of a fabricated or guessed coordinate feeding a proximity claim.
+- No new A/B/C decision made on Mark's behalf anywhere in the six families or the ZILVER staging
+  queue — every review candidate is explicitly `MARK_REVIEW_REQUIRED` with a reason attached, not a
+  pre-baked answer.
+
+## 4. Required fixes, ordered
+
+**P0 — must close before any cluster is presented for a new Mark A/B/C round (per the task's own
+`MARK-READY GATE`):**
+1. Actually assemble the row-level `ALL_FINDINGS_LOCATION_MASTER` (the schema's own column list) by
+   pulling the real content from all six branches into one file/table — not just the six summary
+   digests currently on the central branch. This is the literal object the QA task asked me to
+   audit, and it does not exist yet.
+2. Compute the one global accounting equation
+   (`TOTAL_SOURCE_ROWS = PHYSICAL_ENTITY_LINKED + DUPLICATE + NEGATIVE/NONPRESENCE + UNRESOLVED`)
+   across all families combined, not just per-family. Until this closes, "zero silent drops" is five
+   separate honest claims, not one verified whole.
+
+**P1 — should close soon, does not block currently staged parallel work:**
+3. Expand `GLOBAL_UNRESOLVED_QUEUE_SEED.md` from a prioritized seed into the actual full R4/R5
+   listing (or link every family's full closure 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=594 path=runs/active/CCI-MASTER-QA-ALL-FINDINGS-001/MASTER_QA_REPORT.md blob_sha=6fbe6e00225c8ed926a7e2b0c4b58bd939b57573 original_offset=12288 original_length=1805 payload_bytes=1805 chunk_index=3 chunk_count=4 classification=text
+doc directly from it) before Fase C ("onderzoek ALLE
+   R4/R5-records gericht") can be marked complete for any cluster.
+4. Refresh `MASTER_INGEST_STATE.md` to match `FINAL_FEED_MANIFEST.md`'s current state, and add a
+   `FEED_INDIAZILVER_FINAL_COMPLETE.md` to the central directory mirroring what WIT already has, so
+   the central branch's paper trail is self-consistent without needing a cross-branch fetch to
+   verify.
+5. Resolve or explicitly schedule resolution of the Anandamayi 108-vs-156 dedup question before the
+   Vrindavan/Braj or Kankhal cluster slices are declared accounting-closed.
+
+**P2 — low severity, track but do not block:**
+6. Confirm the ROOD 178-vs-179 count discrepancy is a formatting artifact, not a missing/extra row.
+
+## 5. NEXT_ALLOWED_STEP
+
+CCI does not build the master itself (out of scope for this QA role) and does not start a new
+person sweep, A/B/C decision, or route choice. INDIA8/INDIA9 should:
+1. Execute P0-1/P0-2 (assemble the actual master + close the global accounting equation) before
+   presenting Vrindavan/Braj or Prayagraj/Allahabad for a new Mark A/B/C round, per the task's own
+   `MARK-READY GATE`.
+2. Apply the P1 documentation fixes (§4) at the same time, since they are cheap and prevent a future
+   session from bootstrapping off a stale file.
+3. Once P0 closes, CCI is available for a second, short verification pass specifically on the
+   assembled master's accounting equation and on the first cluster slice (Vrindavan/Braj) before it
+   goes to Mark — a natural, low-cost second QA checkpoint given how much scattered cross-branch
+   verification this round required.
+
+CCI stops here and waits for INDIA8/INDIA9-QA. No merge, no A/B/C, no route, no PDF performed.
+
+---
+Geschreven door: CCI. Onafhankelijke QA-rol, geen nieuwe workstream.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=595 path=runs/active/CCI-MASTER-QA-ALL-FINDINGS-001/MASTER_QA_REPORT_ROUND2.md blob_sha=741d7ec18d95c86747d6d86fca4ba44129695da8 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# CCI MASTER QA REPORT — ROUND 2 (ALL_FINDINGS_LOCATION_MASTER_V0)
+
+```
+task_id: CCI-MASTER-QA-ALL-FINDINGS-001
+round: 2 (follow-up to MASTER_QA_REPORT.md)
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-20
+central_branch_audited: agent/india8-cluster-casting
+artifact_audited: ALL_FINDINGS_LOCATION_MASTER_V0.md (new since round 1)
+```
+
+## Aanleiding
+
+Dit is geen nieuwe/dubbele opdracht — het is dezelfde QA-taak (`CCI_MASTER_QA_TASK.md`) opnieuw
+gedraaid nadat de centrale branch aantoonbaar is veranderd: `ALL_FINDINGS_LOCATION_MASTER_V0.md`
+bestaat nu (round 1's P0-1-bevinding was letterlijk dat dit bestand nog niet bestond), en
+`MASTER_INGEST_STATE.md` is ververst. Dit is dus een echte tweede controleronde op nieuw werk, geen
+herhaling.
+
+## MASTER_QA_VERDICT: **PASS_WITH_FIXES** (ongewijzigd oordeelstype, reële voortgang bevestigd)
+
+INDIA8 heeft precies gereageerd op round 1's P0-1: er is nu een concreet, rij-niveau
+`ALL_FINDINGS_LOCATION_MASTER_V0.md`. Familie A (AOAY/Yogananda) is **volledig** uitgewerkt op
+rijniveau (58 individuele entries, geen samenvattende representatieve steekproef). Families
+B/C/D (Core Kriya, GEEL, WIT) staan er nog met **representatieve** voorbeeldrijen, expliciet zelf zo
+gelabeld ("Expand every GEEL/WIT/ROOD authoritative candidate row... not merely the representative
+rows above") — dit is eerlijk zelf-gerapporteerd, geen verborgen gat.
+
+## 1. Directe verificatie uitgevoerd deze ronde
+
+- **Familie A accounting geteld, niet aangenomen**: de 58 vermelde `AYC-ENT-001` t/m `AYC-ENT-058`
+  zijn stuk voor stuk doorlopend genummerd zonder gat of duplicaat — de claim "58/58, no filter
+  applied" klopt letterlijk bij handmatige telling.
+- **Kruiscontrole tegen round 1's eigen `GLOBAL_UNRESOLVED_QUEUE_SEED.md` Prioriteit 1**: alle
+  daarin genoemde AOAY-items zijn nu terug te vinden met een concrete dispositie — Keshabananda
+  Vrindavan-ashram → `AYC-ENT-024 Katayani Peith Ashram [R4]`; Haridwar hfst. 4 → `AYC-ENT-007/008`
+  + expliciete negatieve `AYC-ENT-009 Rishikesh [NEGATIVE_NOT_VISITED; R5]`; Kumbh 1936 →
+  `AYC-ENT-057`; Regent Hotel Bombay → `AYC-ENT-036 [R4; DO_NOT_COLLAPSE]`; Bhaduri/Nagendra Math →
+  `AYC-ENT-013`; Serampore Rai Ghat/Smriti Mandir → `AYC-ENT-018`. Geen van deze eerder-genoteerde
+  onopgeloste items is onderweg zoekgeraakt.
+- **Successor-discipline blijft correct**: `AYC-ENT-036` behoudt expliciet `DO_NOT_COLLAPSE` voor
+  Regent Hotel 1936 vs. het gelijknamige huidige hotel — consistent met wat round 1 al bij ROOD's
+  Regent-Hotel-record vaststelde.
+- **ZILVER-overlay in V0 komt exact overeen met de ruwe bestanden die ik in round 1 zelf al
+  rechtstreeks las** (16 paren, 7 tight, Rana Mahal ↔ 019 = 0.895 km, ↔ 018 = 1.285 km, 012/013/026/
+  027/040 als `POTENTIAL_REVIEW_FOR_UPGRADE_AFTER_COORD_CONFIRMATION`) — geen drift, geen nieuwe
+  cijfers die niet al elders bronmatig onderbouwd waren.
+
+## 2. Nieuwe, nog openstaande bevinding (scoping-nuance, geen fout)
+
+Familie A's "58/58"-accounting is **correct binnen BLAUW's eigen taakscope** (de eerder als R4/R5
+gemarkeerde onopgeloste AOAY-items), maar dit is NIET hetzelfde als "alle AOAY-locatieclaims in het
+project." De bredere AOAY-corpus (123-plaats-atlas, 114-record externe unie, 1.359 ruwe
+occurrence-records — alle drie genoemd in `SOURCE_LEDGER.md`, round 1) is groter dan 58 en wordt
+door dit V0-bestand nog niet expliciet 1-op-1 teruggekoppeld. Dit is vermoedelijk correct opgelost
+doordat de rest van de 123/114-records al eerder als bestaande permanente IDs of eerdere
+person-freezes zijn vastgelegd — maar dat verband wordt in V0 zelf niet expliciet gemaakt. Dit
+raakt exact round 1's P0-2 (de globale accounting-vergelijking over ALLE lagen samen) en is dus geen
+nieuw punt, maar een concretisering ervan: **de 58 mag niet per ongeluk gelezen worden als "AOAY is
+klaar."**
+
+## 3. Status van round 1's P0/P1-fixes
+
+| fix | status nu |
+|---|---|
+| P0-1 (master daadwerkelijk samenvoegen) | **IN UITVOERING, goede eerste installatie** — Familie A volledig af, B/C/D nog representatief |
+| P0-2 (globale acc
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=596 path=runs/active/CCI-MASTER-QA-ALL-FINDINGS-001/MASTER_QA_REPORT_ROUND2.md blob_sha=741d7ec18d95c86747d6d86fca4ba44129695da8 original_offset=4096 original_length=1911 payload_bytes=1911 chunk_index=1 chunk_count=2 classification=text
+ounting-vergelijking sluiten) | **nog open** — kan pas na volledige B/C/D-expansie, zie §2 |
+| P1-3 (volledige R4/R5-lijst i.p.v. seed) | nog open, wacht op dezelfde B/C/D-expansie |
+| P1-4 (verouderde documentatie verversen) | **deels gedaan**: `MASTER_INGEST_STATE.md` is ververst; `FEED_INDIAZILVER_PARTIAL_GEEL_TURQUOISE_INTEGRATED.md` staat nog ongewijzigd met de oude, ingehaalde ZILVER-cijfers op de centrale branch |
+| P1-5 (Anandamayi 108-vs-156-dedup) | nog open |
+| P2-6 (ROOD 178-vs-179-telling) | nog open, laag risico |
+
+## 4. Geen nieuwe fouten gevonden
+
+Geen silent drops, geen valse successor-gelijkstelling, geen geabsorbeerde micro-sites, geen
+vermengde Babaji-claimanttradities, geen canon/A-B-C-mutatie, geen ongeoorloofde proximity-claims in
+het nieuwe materiaal. De discipline die round 1 al vaststelde is in deze uitbreiding consistent
+voortgezet.
+
+## 5. NEXT_ALLOWED_STEP
+
+1. INDIA8 zet de al aangekondigde volgende stap voort: Families B (Core Kriya), C (GEEL) en D (WIT)
+   op dezelfde rij-per-rij manier uitbreiden als Familie A, in plaats van representatieve
+   voorbeelden.
+2. Bij die uitbreiding: expliciet terugkoppelen hoe de bredere AOAY-corpus (123/114/1.359) zich
+   verhoudt tot de 58 nu opgenomen records, zodat de eventuele globale accounting-vergelijking klopt
+   zonder dubbeltelling of gat.
+3. `FEED_INDIAZILVER_PARTIAL_GEEL_TURQUOISE_INTEGRATED.md` op de centrale branch vervangen of
+   expliciet als VEROUDERD markeren, zoals al bij WIT is gedaan met `FEED_INDIAWIT_FINAL_COMPLETE.md`.
+4. Zodra B/C/D dezelfde volledigheid als A hebben én de globale vergelijking sluit: CCI voert een
+   derde, korte verificatieronde uit vóór de eerste clusterslice (Vrindavan/Braj) naar Mark gaat.
+
+CCI stopt hier en wacht op INDIA8/INDIA9-QA. Geen A/B/C, geen route, geen merge, geen nieuwe
+persoonssweep uitgevoerd.
+
+---
+Geschreven door: CCI. Onafhankelijke QA-rol, ronde 2.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=597 path=runs/active/CCI-MASTER-QA-ALL-FINDINGS-001/P0_BUILD_POINTER.md blob_sha=f4371dcdabad4949f733788077b8bd2ca6ba6bb8 original_offset=0 original_length=1661 payload_bytes=1661 chunk_index=0 chunk_count=1 classification=text
+# P0 BUILD POINTER — real row-level master built on the central branch
+
+```
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-20
+```
+
+De P0-taak uit INDIA8's PR #23-dispatch ("CCI_TASK — CENTRAL MASTER P0 BUILD") is uitgevoerd. Omdat
+deze taak expliciet vroeg om de daadwerkelijke rij-niveau master te bouwen op "the appropriate CCI/
+central working branch," en `agent/india8-cluster-casting` de door INDIA8 aangewezen coördinatie-/
+bronbranch is waar `ALL_FINDINGS_LOCATION_MASTER_SCHEMA.md`/`_V0.md` al stonden, zijn de daadwerkelijke
+outputs **rechtstreeks op die branch** gecommit (niet op deze CCI-werkbranch) — commit `d1fa886`,
+"CCI P0 build: real row-level ALL_FINDINGS_LOCATION_MASTER (459 rows)".
+
+Nieuwe bestanden op `agent/india8-cluster-casting`,
+`runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/`:
+- `ALL_FINDINGS_LOCATION_MASTER.jsonl` — 459 rij-niveau records
+- `ALL_FINDINGS_ENTITY_INDEX.jsonl` — 459 unieke fysieke-entiteit-rijen + TURQUOISE-overlay
+- `GLOBAL_ACCOUNTING.md` — accounting-vergelijking sluit (459 = 259 + 0 + 33 + 167)
+- `MASTER_BUILD_EXCEPTIONS.md` — 7 concrete, benoemde restgaten (geen silent drops)
+- `STATUS.md` — CCI-sectie toegevoegd (append-only, INDIA8's eigen inhoud ongewijzigd)
+
+Volledig rapport en methodiek: zie de commit message + de vier bovenstaande bestanden zelf. Deze
+pointer bestaat alleen zodat de CCI-werkbranch een doorlopende audit trail houdt van welk werk waar
+staat, zonder de inhoud te dupliceren.
+
+next_allowed_step: zie `MASTER_BUILD_EXCEPTIONS.md` §1 (WIT/Anandamayi volledige expansie) als het
+grootste openstaande punt vóór een Mark-A/B/C-ronde. CCI_RESULT gepost op PR #23.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=598 path=runs/active/CCI-MASTER-QA-ALL-FINDINGS-001/STATUS.md blob_sha=873a465557bd9ec93a7d3c076225a754ae63ccd1 original_offset=0 original_length=2232 payload_bytes=2232 chunk_index=0 chunk_count=1 classification=text
+# STATUS — CCI-MASTER-QA-ALL-FINDINGS-001
+
+state: AFGEROND
+role: onafhankelijke QA-partner (geen nieuwe kleur/workstream)
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-20
+central_branch_audited: agent/india8-cluster-casting
+verdict: PASS_WITH_FIXES
+output: MASTER_QA_REPORT.md
+kern: geen data-integriteitsfouten gevonden bij steekproef (0 silent drops, 0 gefabriceerde
+  coordinaten, canon 001-081/A-B-C exact gereproduceerd, Babaji-tradities correct gescheiden,
+  micro-sites niet geabsorbeerd, successor-relaties niet vals gelijkgesteld). Kernbevinding: het
+  daadwerkelijke ALL_FINDINGS_LOCATION_MASTER-bestand (rij-niveau) bestaat nog niet — alleen schema
+  + ledger + queue + zes samenvattende feeds; de echte data staat nog gefedereerd over 6 branches.
+  P0: master daadwerkelijk samenvoegen + globale accounting-vergelijking sluiten, vóór enige nieuwe
+  Mark A/B/C-ronde.
+next_allowed_step: CCI stopt en wacht op INDIA8/INDIA9-QA. Beschikbaar voor een tweede, korte
+  verificatiepas zodra P0 gesloten is (op de samengevoegde master zelf en op de eerste clusterslice
+  Vrindavan/Braj).
+
+## Update — Ronde 2 (CCI, 2026-08-20)
+
+INDIA8 reageerde direct op P0-1: `ALL_FINDINGS_LOCATION_MASTER_V0.md` bestaat nu. Familie A (AOAY/
+Yogananda) volledig rij-per-rij uitgewerkt (58/58, handmatig geteld, geen gat/duplicaat) en
+gekruiscontroleerd tegen ronde 1's eigen unresolved-queue — alle eerder genoteerde items zijn terug
+te vinden met een concrete dispositie. Families B/C/D (Core Kriya/GEEL/WIT) staan nog met
+representatieve voorbeeldrijen, eerlijk zelf zo gelabeld. Geen nieuwe fouten gevonden. Verdict
+blijft `PASS_WITH_FIXES`. Nieuw punt: de "58/58"-accounting is correct binnen BLAUW's eigen
+taakscope maar dekt nog niet expliciet de bredere AOAY-corpus (123-atlas/114-unie/1.359-occurrence)
+— concretisering van P0-2, geen nieuwe fout. Volledig rapport: `MASTER_QA_REPORT_ROUND2.md`.
+
+next_allowed_step (actueel): INDIA8 breidt Families B/C/D uit tot dezelfde volledigheid als A;
+koppelt daarbij expliciet de bredere AOAY-corpus terug; vervangt/markeert de verouderde
+`FEED_INDIAZILVER_PARTIAL_...md`. CCI voert een derde verificatieronde uit zodra dat klaar is en de
+globale accounting-vergelijking kan sluiten.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=599 path=runs/active/CCI-REPO-AUDIT-001/REPO_AUDIT_REPORT.md blob_sha=b888aab84477a66c3017e34349eb4b2322101472 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+# CCI REPO AUDIT — inconsistenties, gemiste updates, GitHub-structuur
+
+```
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-20
+aanleiding: Mark, rechtstreeks — "neem de gehele India repo door en kijk of je inconsistenties
+  kunt vinden en fouten... het lijkt erop dat de huidige soms dingen mist die eerder wel
+  weergegeven zijn... hoe zit de github in elkaar? Is er verbetering nodig?"
+aard: PUUR ONDERZOEK — geen enkel bestand aangepast, geen fix uitgevoerd, geen A/B/C aangeraakt.
+  Dit rapport is bedoeld voor ChatGPT/INDIA8 om op te reageren en prioriteiten te stellen.
+```
+
+## TL;DR voor ChatGPT
+
+Er zijn geen datafouten in de zin van "verkeerde locatie" gevonden. Het probleem dat Mark voelt
+("het mist soms dingen die eerder wel te zien waren") is **reëel en heeft een concrete, aanwijsbare
+oorzaak**: dit project draait feitelijk **twee parallelle universums** die elkaar niet meer volledig
+zien:
+
+1. **Het "regio-GOUD"-universum** (Varanasi, Bodh Gaya, Kumaon) — PDF's, KML's, BESLISOVERZICHTen
+   onder `runs/active/<REGIO>/GOUD/USER/` op de PR #23-werkbranch. Dit is wat Mark tot nu toe
+   fysiek opent/leest voor zijn A/B/C.
+2. **Het "INDIA8-master"-universum** — de nieuwe `ALL_FINDINGS_LOCATION_MASTER.jsonl` (700 rijen,
+   575 fysieke entiteiten) en de zes kleur-agentbranches (BLAUW/ROOD/GEEL/WIT/TURQUOISE/ZILVER) +
+   `agent/india8-cluster-casting`. Dit is verreweg het grootste en meest volledige onderzoekswerk
+   van de laatste week, maar het staat **op branches die niet in enige open Pull Request zitten**
+   en die de regio-GOUD-branch niet heeft.
+
+Deze twee universums zijn nooit samengevoegd. Zie §1-§3 voor het bewijs, §4 voor concrete
+datainconsistenties, §5 voor een prioriteitenlijst.
+
+---
+
+## 1. Hoe de GitHub-repo nu in elkaar zit
+
+```
+main (c21a24b, bevroren sinds vroege Varanasi-fase — 3 top-dirs: india4/, pipeline/, runs/)
+ ├─ PR #23 (draft) — claude/werk-je-nu-of-niet-oa10y7 — 219 commits vóór main, 157 comments
+ │    bevat: alle regio-GOUD-werk (Varanasi compleet, Bodh Gaya compleet, Kumaon deels),
+ │    governance/, india4/, india5/ (grotendeels ongebruikt), CCI-eigen QA-runs
+ ├─ PR #24 (draft) — agent/add-yogananda-location-atlas — 2 commits, geen relatie tot PR #23-flow
+ │    bevat: één losstaand 114-record Yogananda-atlasdocument (nu al gereconcilieerd in de master)
+ │
+ └─ GEEN PR (dus onzichtbaar in de normale PR-lijst van de repo):
+      agent/india8-cluster-casting              281 commits vóór main  ← centrale coördinatie
+      agent/indiazilver-cluster-completeness-audit  253 commits vóór main  ← bevat PROTECTED_CANON_BASELINE.csv
+      agent/indiawit-master-travel-readiness     241 commits vóór main
+      agent/indiaturquoise-allperson-overlap     226 commits vóór main
+      agent/indiablauw-trip-ops-prep             229 commits vóór main
+      agent/indiageel-ramana-ramakrishna-sweep   222 commits vóór main
+      agent/chatgpt-top11-parallel-sweep         170 commits vóór main
+      agent/indiarood-core-kriya-sweep            12 commits vóór main
+```
+
+**Kernprobleem**: 8 van de 10 actieve branches — inclusief de branch met de canonieke 001-081
+ID/coördinaten/ABC-baseline (`PROTECTED_CANON_BASELINE.csv` op ZILVER) en de branch met het
+grootste, meest recente onderzoek (`agent/india8-cluster-casting`, 700-rijen master) — hangen
+"los in de lucht": geen PR, dus niet zichtbaar voor een reviewer die alleen naar "Pull requests"
+kijkt, geen geplande merge naar main, geen merge naar PR #23's eigen branch. Alles wat CCI het
+afgelopen etmaal heeft opgeleverd (P0-build, scope-correctie, foto-locatiesluiting, TURQUOISE-
+relaties, ROOD-labels) bestaat **uitsluitend** op `agent/india8-cluster-casting` — niet op main,
+niet op PR #23's branch.
+
+Dit is niet nieuw voor deze week: het is dezelfde structuur die eerder al één keer werk heeft
+gekost (zie §2) en die het risico op precies Marks klacht ("iets dat ik eerder zag is nu weg")
+structureel in stand houdt.
+
+## 2. Precedent: dit patroon heeft al eerder tot verlies geleid
+
+`governance/ACTIVE_STA
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=600 path=runs/active/CCI-REPO-AUDIT-001/REPO_AUDIT_REPORT.md blob_sha=b888aab84477a66c3017e34349eb4b2322101472 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+TE.md` documenteert zelf een eerdere episode van exact hetzelfde probleem:
+een oudere architectuur (`KUMAON-COMPLETE-001`, branch
+`controller/kumaon-complete-001-ready-for-zilver-20260719`) had al **28 eigen LOCKED_A-locaties**
+voor Kumaon plus 4 LOCKED_C en 2 LOCKED_B — nooit gemerged, eigen incompatibele nummering. Toen
+Kumaon later opnieuw werd gesweept, misten **beide** onafhankelijke nieuwe sweeps twee daarvan
+(079 Turiya Niwas, 081 Bodh Ashram) totdat een aparte "miss-root-cause-rescue"-taak (CCI_TASK 078)
+ze alsnog terugvond. Root cause destijds: dezelfde soort branch-eilandvorming als nu bij de
+kleur-agents. Er is nooit een structurele fix doorgevoerd om herhaling te voorkomen — alleen een
+incident-specifieke rescue.
+
+## 3. `governance/ACTIVE_STATE.md` — het bestand dat elke nieuwe sessie "eerst moet lezen" — is 6 dagen stale
+
+Het bestand zelf zegt (regel 3-4): *"Een nieuwe INDIA-regisseursessie moet eerst ACTIVE_STATE +
+actieve protocolcanon lezen. Oude chatgeschiedenis is niet vereist voor correcte voortzetting."*
+Het bestand is gedateerd **2026-08-14**. Sindsdien (2026-08-15 t/m 2026-08-20, dus het grootste
+deel van het Top-11-persoonsgerichte onderzoek) is er:
+
+- geen enkele vermelding van de zes kleur-agentbranches of `agent/india8-cluster-casting`;
+- geen vermelding van `ALL_FINDINGS_LOCATION_MASTER.jsonl`, de 700-rijen master, of de
+  QA/P0-bouwronde;
+- geen vermelding van de foto-locatiesluiting Anandamayi×Yogananda;
+- `ACTIVE_TASKS` bevat uitsluitend taken t/m 2026-08-15 (KUMAON-V2-RESWEEP-001,
+  TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001 "pilot klaar, wacht op QA") — de daadwerkelijke
+  vervolgstappen (het volledige 6-persoons-multidetector-programma dat daarna liep) staan er niet
+  in.
+
+**Dit is zeer waarschijnlijk de directe oorzaak van Marks ervaring.** Als een nieuwe INDIA-sessie
+— of Mark zelf — bootstrapt vanuit dit bestand (zoals het bestand zelf voorschrijft), ziet die
+sessie een wereld die zes dagen oud is en mist het complete tweede-helft-onderzoek. Het bestand
+is niet fout in wat er staat, het is alleen niet meer bijgewerkt sinds de INDIA8-architectuur
+begon.
+
+## 4. Concrete, verifieerbare inconsistenties (data-niveau)
+
+### 4.1 Bodh Gaya KML toont 4 locaties, de bijbehorende PDF toont 33
+
+`runs/active/BODHGAYA-DISCOVERY-001/GOUD/BODHGAYA_046_049.kml` bevat **4 Placemarks** (046-049).
+De uiteindelijke, door Mark geaccepteerde PDF (`V1_BODHGAYA_KEUZE_REISGIDS.pdf`, na
+`CONTENT_QA_ACCEPTED` + `PDF_GO`) dekt **046 t/m 078** (33 locaties, alle LOCKED_BY_MARK). Er is
+geen KML-bestand dat de uiteindelijke 33 bevat — alleen een tussentijdse versie met de eerste 4.
+Wie vandaag de Bodh Gaya-kaart opent, ziet dus 4 van de 33 vastgelegde locaties.
+Er bestaan bovendien **drie PDF-bestanden** naast elkaar in dezelfde map
+(`BODHGAYA_046_049_KEUZE_REISGIDS.pdf`, `BODHGAYA_046_058_KEUZE_REISGIDS.pdf`,
+`V1_BODHGAYA_KEUZE_REISGIDS.pdf`) zonder dat de twee oudere gearchiveerd/verwijderd zijn — een
+lezer die niet weet dat `V1_` de laatste is, kan makkelijk de verkeerde openen.
+
+### 4.2 Geen enkel echt "globaal" nummerregister — twee losse regionale bestanden
+
+`ACTIVE_STATE.md` spreekt van één doorlopende `LAST_GLOBAL_LOCATION_NUMBER` (081), maar er bestaat
+geen machine-leesbaar globaal registerbestand. Er zijn twee **regionale**
+`NUMBERING_REGISTRY.jsonl`-bestanden (Varanasi, Bodh Gaya) die onafhankelijk van elkaar bijhouden
+welke nummers per regio zijn uitgegeven; de enige plek waar de globale doorlopende telling ("Bodh
+Gaya eindigt op 078, Varanasi eindigt op 045, geen overlap") staat vastgelegd is **platte tekst**
+in `ACTIVE_STATE.md`. Niets controleert machinaal of een toekomstige regio per ongeluk een al
+gebruikt nummer hergebruikt buiten wat een mens/AI zelf naleest.
+
+### 4.3 De canon-baseline (001-081, ABC, coördinaten) staat op een branch los van PR #23
+
+`PROTECTED_CANON_BASELINE.csv` — het bestand met alle 81 permanente ID's, hun ABC-status en
+coördinaten — bestaat alleen op `agent/indiazilver-cluster-completeness-audit`. Het staat **niet**
+op PR #23's eigen branch (`claude/wer
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=601 path=runs/active/CCI-REPO-AUDIT-001/REPO_AUDIT_REPORT.md blob_sha=b888aab84477a66c3017e34349eb4b2322101472 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+k-je-nu-of-niet-oa10y7`) en niet op `main`. Als PR #23 vandaag
+gemerged zou worden, zou de canonieke ID-baseline niet meevloeien.
+
+### 4.4 `ALL_FINDINGS_LOCATION_MASTER.jsonl` (700 rijen): 27 "wees"-parent-clusters
+
+Automatische check op de nieuwste master: 27 waarden van `parent_entity_key` (bv. "Vrindavan NKB
+cluster", "Kainchi Ashram", "Delhi host network") verwijzen naar een cluster dat zelf nergens als
+eigen `physical_entity_key`-rij bestaat. Geen dataverlies (de child-rijen zelf zijn compleet en
+correct), maar een tool die op deze parent-sleutel zou groeperen/renderen zou een leeg of
+ontbrekend clusterknooppunt tegenkomen.
+
+### 4.5 `existing_permanent_id`-veld mengt twee ID-generaties
+
+Van de 13 rijen met een ingevulde `existing_permanent_id` gebruiken 6 het schone canon-formaat
+(`002`, `004`, `009`, `011`, `044`, `079`) en de overige een ouder, ander formaat
+(`OLD31-13`, `OLD31-14`, `OLD31-21`, `OLD31-22`, `OLD31-28`, `OLD31-29`, `NKB_VRINDAVAN_EXISTING`).
+Functioneel niet fout (beide zijn traceerbaar), maar het is een teken dat er ergens nog een
+derde, oudere ID-reeks ("OLD31-...") meespeelt die nergens in `ACTIVE_STATE.md` als bestaand
+systeem wordt genoemd.
+
+### 4.6 `india5/` — een volledig tweede taak-architectuur, expliciet gedeprecieerd, nog steeds fysiek aanwezig
+
+`india5/tasks/{active,queue,done,failed}/`, `india5/schemas/`, `india5/scripts/` vormen een eigen,
+zwaardere taaksysteem (sha256-hash-pinning, allow/forbid-ACL's) dat `ACTIVE_STATE.md` zelf
+"BESLOTEN ... NIET gereactiveerd. Blijft ongebruikt/gedeprecieerd" noemt — maar de bestanden staan
+er nog steeds, met een eigen `GOVERNANCE.md` en `TASK_PROTOCOL.md` die qua naam bijna identiek zijn
+aan de wél actieve `india4/protocols/INDIA5-PROTOCOL.md`. Een nieuwe sessie (mens of AI) die op
+naam zoekt naar "INDIA5-protocol" kan zonder oplettendheid in het verkeerde, dode systeem
+terechtkomen.
+
+## 5. Wat dit betekent voor de huidige ABC-ronde specifiek
+
+Voor zover nu vastgesteld raakt geen van bovenstaande punten de **inhoud** van Marks reeds gemaakte
+ABC-besluiten (Varanasi 001-040 + hotel, Bodh Gaya 046-078) — die staan onveranderd en consistent
+in `PROTECTED_CANON_BASELINE.csv`, de BESLISOVERZICHTen en de PDF's. Het risico zit in:
+
+- **wat Mark ná deze twee regio's te zien krijgt**: als een volgende regio (Kolkata/Oost, Ranchi,
+  Vrindavan/Braj) wordt klaargezet vanuit het INDIA8-mastersysteem zonder terugkoppeling naar de
+  regio-GOUD-structuur die Mark gewend is, kan dat aanvoelen als "ineens anders" of "iets mist" —
+  niet omdat data verloren is, maar omdat de twee universums nooit zijn samengevoegd tot één
+  weergave;
+- **de Bodh Gaya-kaart specifiek nu al** (§4.1) toont een verouderde, onvolledige selectie als
+  iemand vandaag de KML opent.
+
+## 6. Aanbevelingen (geen van alle uitgevoerd — ter beoordeling aan ChatGPT/Mark)
+
+Op volgorde van vermoedelijke impact, niet van moeite:
+
+1. **Eén consolidatiepad kiezen voor de INDIA8-kleur-architectuur.** Ofwel een PR openen voor
+   `agent/india8-cluster-casting` (en/of de losse kleurbranches mergen in die ene branch eerst),
+   ofwel expliciet besluiten dat PR #23 voortaan die branch als basis neemt. Zolang dit niet
+   gebeurt, blijft al het recente werk (700-rijen master, canon-baseline) buiten het zicht van een
+   gewone PR-review en buiten `main`.
+2. **`governance/ACTIVE_STATE.md` bijwerken tot vandaag**, of expliciet vervangen door een
+   verwijzing naar het nieuwere systeem, zodat een volgende sessie niet zes dagen werk mist bij het
+   bootstrappen. Dit is de goedkoopste fix met de grootste kans om Marks klacht structureel op te
+   lossen.
+3. **Bodh Gaya-KML herbouwen** vanaf de uiteindelijke 33 LOCKED_BY_MARK-locaties (046-078), en de
+   twee oudere PDF-versies uit `GOUD/USER/` verwijderen of duidelijk als "SUPERSEDED" markeren.
+4. **Eén machine-leesbaar globaal nummerregister** invoeren (of de twee regionale bestanden
+   samenvoegen/valideren tegen elkaar) in plaats van alleen een prozabeschrijving in
+   `ACTIVE_STATE.md`.
+5. **`india5/`-map verwijderen of duidelijk `DEPRECATED_DO_NOT_US
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=602 path=runs/active/CCI-REPO-AUDIT-001/REPO_AUDIT_REPORT.md blob_sha=b888aab84477a66c3017e34349eb4b2322101472 original_offset=12288 original_length=787 payload_bytes=787 chunk_index=3 chunk_count=4 classification=text
+E` markeren** in de bestandsnaam/
+   directorystructuur zelf, niet alleen in proza elders — voorkomt naam-verwarring met het actieve
+   `india4/protocols/INDIA5-PROTOCOL.md`.
+6. **De 27 wees-`parent_entity_key`-waarden in de master ofwel promoveren tot eigen entiteitsrij,
+   ofwel expliciet documenteren als "groeperingslabel, geen eigen fysieke plek"** — nu is het
+   onderscheid niet zichtbaar zonder deze audit.
+7. **`existing_permanent_id`-veld normaliseren** naar één ID-stijl, of het `OLD31-*`-systeem
+   expliciet benoemen als een bestaand derde ID-systeem in de governance-canon.
+
+---
+
+Geschreven door: CCI. Geen bestand buiten deze rapportdirectory aangepast. Geen A/B/C, geen route,
+geen PDF, geen fix uitgevoerd — uitsluitend onderzoek en rapportage, zoals gevraagd.
+
+<<< END CHUNK >>>
+

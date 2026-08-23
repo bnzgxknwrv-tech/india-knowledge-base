@@ -1,0 +1,486 @@
+>>> CHUNK stream_row=482 path=runs/active/INDIATURQUOISE-TRAVEL-PRIORITY-HEATMAP-001/MARK_DECISION_QUEUE_DRAFT.md blob_sha=e063461d6aed337fd9a2d872f1370609c2c8acb7 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# MARK_DECISION_QUEUE_DRAFT — INDIA TURQUOISE
+
+status: DRAFT_FOR_LATER_MARK_DECISIONS
+scope: bundle existing heatmap choices; no A/B/C values assigned
+purpose: minimize the number of later questions to Mark while preserving meaningful tradeoffs
+
+## What is already NOT a question
+
+- Tiruvannamalai / Arunachala remains `LOCKED_BY_MARK A-ANCHOR`.
+- Kukuchina / Dunagiri Babaji cave remains a principal reason for the trip.
+- Existing protected Mark decisions elsewhere remain unchanged.
+- No question below asks Mark to choose routes, nights, hotels or bookings.
+
+## Decision bundle Q1 — North-India high-overlap spine
+
+Compare as one bundle rather than asking city-by-city in isolation:
+- Varanasi / Kashi
+- Prayagraj / Allahabad
+- Vrindavan
+- Haridwar / Kankhal
+
+Information already available:
+- Varanasi and Prayagraj have the highest conservative city-level person counts.
+- Vrindavan has lower count but a strong exact NKB/Ram Dass complex plus separate person sites.
+- Haridwar/Kankhal is a major Anandamayi single-person anchor despite low overlap count.
+
+Later Mark question should be framed as: **which of these north-India spiritual-city nodes deserve substantial trip weight, and which may be omitted or treated as secondary?**
+
+Do not ask four separate yes/no questions unless Mark wants that granularity.
+
+`MARK_DECISION_REQUIRED: JA`
+
+## Decision bundle Q2 — Kumaon expansion around the principal Babaji reason
+
+Core already retained:
+- Kukuchina / Dunagiri principal Babaji reason.
+
+Optional wider family already in project data:
+- Kainchi Dham
+- Nainital / Hanuman Garh
+- Almora and Anandamayi/Vivekananda layers
+- Patal Devi / Dhaulchina / Kasar Devi-Bodh Ashram context
+- Mayavati and other existing Kumaon nodes
+
+Later Mark question should be: **how much of the wider Kumaon family should be retained around the Babaji anchor?**
+
+This avoids reopening the Babaji reason itself and avoids separate micro-decisions before the family-level choice is made.
+
+`MARK_DECISION_REQUIRED: JA`
+
+## Decision bundle Q3 — Kolkata / Hooghly lineage belt
+
+Bundle:
+- Kolkata metropolitan lineage sites
+- Dakshineswar
+- Cossipore
+- Vivekananda ancestral-house layer
+- Bhowanipur/Agarpara context
+- Serampore
+- wider West-Bengal lineage nodes only if still materially relevant after family-level decision
+
+Later Mark question: **does the Kolkata/Hooghly lineage belt earn a major place in the trip despite being a regional belt rather than one compact site?**
+
+Important: answer should be informed by later travel-ops compactness, because the heatmap’s very high density is regional, not proof that all sites are adjacent.
+
+`MARK_DECISION_REQUIRED: JA`
+
+## Decision bundle Q4 — Puri / Odisha Kriya family
+
+Bundle:
+- Karar Ashram — Sri Yukteswar + Hariharananda exact overlap
+- Balighai / Hariharananda Gurukulam
+- provisional Anandamayi Puri layer, clearly lower confidence
+
+Later Mark question: **is the Puri Kriya family important enough to include as a distinct trip cluster?**
+
+Do not let the provisional Anandamayi layer decide this question; the strongest basis is Karar + Hariharananda lineage density.
+
+`MARK_DECISION_REQUIRED: JA`
+
+## Decision bundle Q5 — Ranchi exact-campus value
+
+Known strength:
+- exact Yogananda + Anandamayi shared campus event at Ranchi Vidyalaya/YSS campus.
+
+Known weakness:
+- lower broader city/region person-density than the largest clusters.
+
+Later Mark question: **does this unusually clean and personally meaningful exact cross-person site justify inclusion despite lower surrounding cluster density?**
+
+`MARK_DECISION_REQUIRED: JA`
+
+## Decision bundle Q6 — Tamil Nadu beyond the locked Arunachala anchor
+
+Not a question:
+- Arunachala/Tiruvannamalai itself stays in.
+
+Optional existing Tamil Nadu nodes include:
+- Tiruchuzhi / Madurai Ramana life-history context
+- Vivekananda Kanyakumari / Rameswaram nodes
+
+Later Mark question: **should Tamil Nadu be limited to the locked Arunachala anchor or expanded using already known person-linked nodes?**
+
+This is one expansion question, not a reconsideration of Arunachala.
+
+`MARK_DECISION_REQUIRE
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=483 path=runs/active/INDIATURQUOISE-TRAVEL-PRIORITY-HEATMAP-001/MARK_DECISION_QUEUE_DRAFT.md blob_sha=e063461d6aed337fd9a2d872f1370609c2c8acb7 original_offset=4096 original_length=1989 payload_bytes=1989 chunk_index=1 chunk_count=2 classification=text
+D: JA`
+
+## Decision bundle Q7 — isolated strong single-person nodes
+
+Examples already visible in the durable atlas include Wardha/Maganvadi, Gorakhpur, Khetri and other strong but less-overlapped places.
+
+Do not ask Mark about each one now. First apply this gate:
+
+**Only elevate an isolated node into a separate Mark question if later travel/coverage analysis shows that it either:**
+1. carries mission-level personal importance comparable to a major cluster, or
+2. can be combined with an already retained family at low incremental travel cost, or
+3. resolves a major lineage/theme gap not represented elsewhere.
+
+Until one of those conditions is met: `MARK_DECISION_REQUIRED: NEE_YET`.
+
+## Minimum future question set
+
+If evidence/operations are sufficiently mature, the entire destination-level decision process can initially be reduced to six questions:
+
+1. North-India high-overlap spine: which nodes get major weight?
+2. Kumaon: how much expansion around the Babaji anchor?
+3. Kolkata/Hooghly: include as a major lineage belt or not?
+4. Puri/Odisha: include the Kriya family or not?
+5. Ranchi: include the exact Yogananda–Anandamayi campus or not?
+6. Tamil Nadu: Arunachala-only or expand with known Tamil Nadu nodes?
+
+Only after these family decisions should isolated single-person nodes be promoted to individual questions.
+
+## Required prerequisites before asking Mark the close-call questions
+
+- Incorporate completed NKB/Ram Dass multidetector reconciliation when durable.
+- Incorporate completed Ramana/Ramakrishna multidetector reconciliation when durable.
+- Treat Yogananda/Hariharananda/Vivekananda/Anandamayi coverage as provisional until stronger reconciliation exists or explicitly accept the current uncertainty.
+- Add travel-ops compactness/effort as a separate non-person-research layer before using regional density to imply convenience.
+
+These prerequisites do not block already locked anchors. They mainly prevent unnecessary or prematurely granular questions.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=484 path=runs/active/INDIATURQUOISE-TRAVEL-PRIORITY-HEATMAP-001/STATUS.md blob_sha=309c7e84c20aa0a545f9cbf614c981921151b415 original_offset=0 original_length=1149 payload_bytes=1149 chunk_index=0 chunk_count=1 classification=text
+# STATUS — INDIATURQUOISE-TRAVEL-PRIORITY-HEATMAP-001
+
+state: COMPLETE
+branch: agent/indiaturquoise-allperson-overlap
+owner: INDIA TURQUOISE
+mode: post_overlap_synthesis_no_new_person_research
+
+outputs:
+- TRAVEL_PRIORITY_HEATMAP.md
+- CLUSTER_FAMILIES.md
+- HIGH_IMPACT_GAPS.md
+- MARK_DECISION_QUEUE_DRAFT.md
+
+constraints_respected:
+- no new person-location research
+- no A/B/C decisions made for Mark
+- Arunachala/Tiruvannamalai remains LOCKED_BY_MARK A-anchor
+- Kukuchina/Dunagiri Babaji cave remains principal travel reason
+- no route, nights, hotels, bookings, PDF, merge or PR
+
+key_method:
+- conservative MIN_CONFIRMED_COUNT retained
+- exact-site quality separated from city/regional overlap
+- physical/logistics concentration inferred only from existing project grouping, not from new travel research
+- high-impact uncertainty separated from NON_BLOCKING micro-site gaps
+- later Mark questions bundled at cluster-family level to reduce unnecessary decision load
+
+next_allowed_step:
+- INDIA/Mark may use these outputs as decision-support input or wait for pending reconciliation/travel-ops layers; no autonomous A/B/C promotion from this task.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=485 path=runs/active/INDIATURQUOISE-TRAVEL-PRIORITY-HEATMAP-001/TASK.md blob_sha=34297f535d1d44ac39a7b93d4d88187c2b00309c original_offset=0 original_length=1431 payload_bytes=1431 chunk_index=0 chunk_count=1 classification=text
+# INDIA TURQUOISE — TRAVEL-PRIORITY HEATMAP
+
+STATUS: READY
+OWNER: INDIA TURQUOISE
+MODE: POST-OVERLAP SYNTHESIS, NO NEW PERSON RESEARCH
+
+## Doel
+Zet de bestaande all-person overlapresultaten om naar een objectieve travel-priority heatmap die later Marks A/B/C-keuzes ondersteunt, zonder zelf A/B/C te kiezen.
+
+Gebruik uitsluitend reeds bestaande projectdata op deze branch plus governance/locks die nodig zijn voor context. Geen nieuwe persoonslocaties onderzoeken.
+
+## Lever
+1. `TRAVEL_PRIORITY_HEATMAP.md`: per stad/regio minimaal person-count, exact-site-count, fysieke-dichtheid, evidence/conflict confidence, locked-anchor status, logistieke concentratiepotentie, en expliciet `MARK_DECISION_REQUIRED: JA/NEE` zonder keuze te maken.
+2. `CLUSTER_FAMILIES.md`: groepeer nabije steden/regio's tot kandidaat-reisclusters (bijv. corridors/gebieden), maar leg geen route/nachten vast.
+3. `HIGH_IMPACT_GAPS.md`: alleen gaten die de uiteindelijke reiskeuze materieel kunnen veranderen; obscure micro-sites apart als `NON_BLOCKING`.
+4. `MARK_DECISION_QUEUE_DRAFT.md`: minimaliseer het aantal latere vragen aan Mark door opties logisch te bundelen; geen A/B/C invullen.
+5. update `STATUS.md` naar COMPLETE.
+
+## Harde grenzen
+Arunachala/Tiruvannamalai blijft LOCKED_BY_MARK A-anker. Kukuchina/Dunagiri Babaji-grot blijft hoofdreden reis. Geen nieuwe persoonsresearch, geen route/nachten/hotels, geen boekingen, geen PDF, geen merge/PR.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=486 path=runs/active/INDIATURQUOISE-TRAVEL-PRIORITY-HEATMAP-001/TRAVEL_PRIORITY_HEATMAP.md blob_sha=c248f32f0152b112f85b0846928dde9ac2262081 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# TRAVEL_PRIORITY_HEATMAP — INDIA TURQUOISE
+
+status: PROVISIONAL_TRAVEL_PRIORITY_SYNTHESIS
+scope: existing durable project data only; no new person-location research
+purpose: objective decision-support layer; NOT a Mark A/B/C decision
+
+## Scoring rule
+
+This heatmap does not produce a destination choice. It exposes independent dimensions so Mark can later decide with minimal hidden assumptions.
+
+- `PERSON_COUNT`: conservative `MIN_CONFIRMED_COUNT` from `ALL_PERSON_CITY_OVERLAP.md`.
+- `EXACT_SITE_COUNT`: number of already identified strict shared physical sites/complexes in or directly assigned to the place/cluster. Event-zones count separately and are labelled.
+- `PHYSICAL_DENSITY`: qualitative concentration of multiple meaningful physical sites inside one city/compact project cluster: `VERY_HIGH / HIGH / MEDIUM / LOW / SINGLE_ANCHOR`.
+- `EVIDENCE_CONFIDENCE`: confidence in the currently used overlap layer, not saturation of the whole person corpus.
+- `CONFLICT_LOAD`: `LOW / MEDIUM / HIGH` based on unresolved identity/chronology/personal-presence warnings relevant to travel interpretation.
+- `LOCKED_ANCHOR_STATUS`: preserves Mark locks; a lock is not a heatmap score.
+- `LOGISTICS_CONCENTRATION_POTENTIAL`: only whether existing known sites are concentrated enough to plausibly combine within one travel base/area. No route, time, nights or hotel assumptions are made.
+- `MARK_DECISION_REQUIRED`: `NEE` only where Mark already locked the destination-level anchor or where the item is purely subordinate/contextual; otherwise `JA`.
+
+## Heatmap
+
+| city / region | person count | exact shared-site count | physical density | evidence confidence | conflict load | locked-anchor status | logistics concentration potential | MARK_DECISION_REQUIRED |
+|---|---:|---:|---|---|---|---|---|---|
+| **Varanasi / Kashi** | **5** incl. Babaji tradition-claim; hard-historical lower bound 4 | **1** strict shared house (Lahiri residence: Lahiri + Sri Yukteswar) | **VERY_HIGH** | **HIGH** for Core-Kriya exact links; MEDIUM for total city layer | **MEDIUM** | existing Mark-protected location decisions preserved; no new lock created | **VERY_HIGH** — multiple distinct project sites already exist inside one city layer | **JA** for overall travel inclusion/weight unless already covered by a separate Mark decision |
+| **Prayagraj / Allahabad** | **5** | **1** strict 4 Church Lane overlap + **1 event-zone** (1894 Kumbh) | **HIGH** | **MEDIUM-HIGH** | **MEDIUM** — Kumbh is event-zone, not fixed structure; Babaji epistemic rule | none | **HIGH** — several independent person-links in same city but physically heterogeneous | **JA** |
+| **Kolkata / Hooghly lineage belt** | **4** metropolitan minimum; broader belt **4+** | **1** strict Dakshineswar overlap in current table; Serampore possible overlap kept separate | **VERY_HIGH regional** | **MEDIUM** | **MEDIUM** — metro aggregation + pending Ramakrishna reconciliation + Bhowanipur address gap | none | **VERY_HIGH regionally**, but not one compact site | **JA** |
+| **Vrindavan** | **4** | **1** strict NKB/Ram Dass ashram-mahasamadhi complex | **HIGH** | **MEDIUM-HIGH** | **MEDIUM** — NKB/Ram Dass not saturated; separate Akrura Ghat and Anandamayi layer | none | **HIGH** — exact shared complex plus separate city sites | **JA** |
+| **Tiruvannamalai / Arunachala** | **2** | **1** strict Sri Ramanasramam overlap | **VERY_HIGH** due to Ramana multi-site lifetime cluster | **MEDIUM-HIGH** site confidence; reconciliation still pending | **LOW-MEDIUM** | **LOCKED_BY_MARK A-ANCHOR** | **VERY_HIGH** — several Ramana sites already form one dense local cluster | **NEE** for destination inclusion; later operational details remain separate |
+| **Kukuchina / Dunagiri / Dwarahat Babaji anchor** | core cross-person context Babaji + Lahiri initiation event; not treated as overlap-count winner | cave/event identity governed by Core-Kriya reconciliation; retained as mission-critical anchor | **SINGLE_ANCHOR + regional Kumaon context** | **HIGH for project-tradition/site provenance; special Babaji epistemic rule applies
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=487 path=runs/active/INDIATURQUOISE-TRAVEL-PRIORITY-HEATMAP-001/TRAVEL_PRIORITY_HEATMAP.md blob_sha=c248f32f0152b112f85b0846928dde9ac2262081 original_offset=4096 original_length=3864 payload_bytes=3864 chunk_index=1 chunk_count=2 classification=text
+** | **MEDIUM** | **PRINCIPAL_TRAVEL_REASON retained by task** | **MEDIUM-HIGH within wider Kumaon family** | **NEE** for whether it remains a principal reason; later trip-shape decisions still required |
+| **Puri** | **3** provisional | **1** strict Karar Ashram overlap | **HIGH** | **MEDIUM-HIGH** for Sri Yukteswar/Hariharananda; lower for Anandamayi contribution | **MEDIUM** | none | **HIGH** — Karar + Balighai + provisional additional layer in same city/area | **JA** |
+| **Ranchi** | **2** | **1** strict Ranchi Vidyalaya/YSS campus overlap | **MEDIUM** | **HIGH for the specific Yogananda–Anandamayi shared campus event** | **LOW** | none | **HIGH at single-campus level**, lower as broader city cluster | **JA** |
+| **Kainchi / Nainital microcluster** | **2** at Kainchi; **2** at Nainital | **2** known strict/near-strict overlaps across Kainchi Dham and Hanuman Garh | **HIGH microcluster** | **HIGH for NKB/Ram Dass site identity; corpus completeness still partial** | **MEDIUM** | existing Kumaon decisions/locks preserved; no new A/B/C | **HIGH** within wider Kumaon family | **JA** for its weight relative to other Kumaon sites, not for creating a new lock |
+| **Serampore** | **2** hard minimum | strict overlap **not promoted**; highly plausible Sri Yukteswar/Yogananda ashram convergence remains pending fuller Yogananda reconciliation | **MEDIUM-HIGH** | **MEDIUM** | **MEDIUM** | none | **HIGH** as part of Kolkata/Hooghly lineage belt; **MEDIUM** standalone | **JA** |
+| **Almora / wider Kumaon** | **2** at Almora plus several other persons elsewhere in wider Kumaon | no strict shared site in Almora table; multiple separate regional anchors | **VERY_HIGH regional** | **MEDIUM** | **MEDIUM** — regional aggregation must not imply site overlap | Babaji principal reason and existing Kumaon decisions retained | **VERY_HIGH regionally**, because many existing project sites fall within the same broad area | **JA** for cluster weighting beyond locked/principal anchors |
+| **Haridwar / Kankhal** | single-person major anchor in current conservative overlap | 0 shared-person exact sites | **SINGLE_ANCHOR** | **MEDIUM** — Anandamayi pilot not saturated, but Kankhal mahasamadhi itself is a major durable finding | **MEDIUM** | none | **LOW-MEDIUM** from current overlap data alone | **JA** |
+
+## Objective priority bands
+
+These are synthesis bands, not destination decisions.
+
+### BAND H1 — overlap + density both very strong
+- Varanasi / Kashi
+- Prayagraj / Allahabad
+- Kolkata / Hooghly lineage belt
+- Vrindavan
+
+Rationale: each combines a high conservative person count with multiple physically distinct project sites and/or at least one exact cross-person site. `MARK_DECISION_REQUIRED: JA` for all four.
+
+### BAND H2 — compact exact-site or mission-anchor strength
+- Tiruvannamalai / Arunachala — locked by Mark, so not reopened
+- Kukuchina / Dunagiri — principal travel reason, so not demoted by lower person count
+- Puri
+- Ranchi
+- Kainchi / Nainital microcluster
+
+Rationale: person count alone understates these places because exact-site quality, multi-site density or a pre-existing Mark/project anchor is strong.
+
+### BAND H3 — meaningful but materially dependent on unresolved coverage or broader cluster treatment
+- Serampore
+- Almora / wider Kumaon beyond locked/principal anchors
+- Haridwar / Kankhal
+
+## Anti-ranking guardrail
+
+Do **not** sort the final trip solely by `PERSON_COUNT`. That would incorrectly penalize Arunachala and the Babaji cave, both of which have explicit project/Mark importance independent of cross-person overlap. Likewise, do not let a large metropolitan aggregation such as Kolkata masquerade as a single compact site. The final human decision should compare at least: mission anchors, person overlap, exact-site quality, physical density, evidence confidence, and unresolved gaps.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=488 path=runs/active/INDIAWIT-ANANDAMAYI-HERITAGE-LOCATION-CLOSURE-001/ANANDAMAYI_ENTITY_CANDIDATES.jsonl blob_sha=a3e9c10a3fa7a0fe37acaabf9a2d38815562c021 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+{"entity":"Bhadaini Anandamayi Ashram","place":"Bhadaini, Varanasi 221001","kind":"ashram/residence","source_records":["EXT-L038"],"presence":"CONFIRMED","physical_identity":"EXACT_CURRENT_INSTITUTION","current_identity":"Shree Shree Ma Anandamayi Ashram, Bhadaini","current_access":"YES","current_overnight":"YES","same_historic_room":"UNKNOWN","resolution_class":"R1","access_status":"PUBLIC_OPEN","notes":"Official anandamayi.org lists current address and dedicated room-booking contact plus local dharamshala contact."}
+{"entity":"Pandey Dharamshala","place":"Varanasi","kind":"dharamshala","source_records":["EXT-L036","CCI084-01"],"presence":"CONFIRMED_1935_RESIDENCE","physical_identity":"UNRESOLVED_BUILDING","current_access":"UNKNOWN","current_overnight":"UNKNOWN","resolution_class":"R5","access_status":"ACCESS_UNKNOWN_AFTER_EXHAUSTION","notes":"Exact historic dharamshala name confirmed by CCI084; no safe present-day building match established."}
+{"entity":"Kunja Mohan Babu house","place":"Varanasi","kind":"private host house","source_records":["EXT-L035"],"presence":"CONFIRMED_SOURCE_LAYER","physical_identity":"PARTIAL","current_access":"UNKNOWN_PRIVATE","current_overnight":"NO_PUBLIC_EVIDENCE","resolution_class":"R4","access_status":"ACCESS_UNKNOWN_AFTER_EXHAUSTION","notes":"Historic host-house stay retained; exact property/address remains unresolved."}
+{"entity":"Burdwan/Vardhaman Kunj","place":"Vrindavan","kind":"historic lodging/host property","source_records":["EXT-L043","CCI084-02"],"presence":"CONFIRMED_RESIDENCE_1936","physical_identity":"CURRENT_LINEAGE_REFERENCE_EXISTS","current_access":"CONTACT_REQUIRED","current_overnight":"UNKNOWN","resolution_class":"R2","access_status":"PRIVATE_PERMISSION_POSSIBLE","notes":"Historic residence is linked to a current lineage successor/reference; exact original-room continuity not established."}
+{"entity":"Anandamayi Ashram Vrindavan","place":"Vrindavan, Mathura 281121","kind":"ashram/residence","source_records":["EXT-L044"],"presence":"CONFIRMED","physical_identity":"EXACT_CURRENT_INSTITUTION","current_access":"YES","current_overnight":"CONTACT_REQUIRED","same_historic_room":"UNKNOWN","resolution_class":"R1","access_status":"PUBLIC_OPEN"}
+{"entity":"Bhola Giri/Giriji Ashram","place":"Kankhal/Haridwar","kind":"guest ashram","source_records":["EXT-L070","CCI084-03"],"presence":"CONFIRMED_RESIDENCE_1934","physical_identity":"PARTIAL_CURRENT_MATCH_NOT_CLOSED","current_access":"UNKNOWN","current_overnight":"UNKNOWN","resolution_class":"R5","access_status":"ACCESS_UNKNOWN_AFTER_EXHAUSTION"}
+{"entity":"Kankhal Anandamayi Ashram","place":"Kankhal, Haridwar 249408","kind":"ashram/residence/samadhi","source_records":["EXT-L073"],"presence":"CONFIRMED","physical_identity":"EXACT_CURRENT_INSTITUTION","current_access":"YES","current_overnight":"YES_BY_BOOKING","same_historic_room":"NO_PUBLIC_BOOKING_PROOF","resolution_class":"R1","access_status":"PUBLIC_OPEN"}
+{"entity":"Matri Smriti Museum bungalow","place":"Kankhal","kind":"historic private bungalow -> museum","source_records":["SFI-MATRI-SMRITI-CLOSURE"],"presence":"CONFIRMED_FINAL_TWO_MONTH_STAY","physical_identity":"EXACT_CURRENT_MUSEUM","room_detail":"Ma's bedroom preserved; kitchen preserved; first-floor museum/research spaces","current_access":"YES_MUSEUM","current_overnight":"NO","same_historic_room":"NO","resolution_class":"R1","access_status":"PUBLIC_LIMITED_HOURS","notes":"Official Sangha institution record states Ma stayed in this bungalow about two months before Mahasamadhi and bedroom/kitchen are maintained as such."}
+{"entity":"Shree Shree Ma Anandamayee International Centre","place":"Daksh Mandir Road, Kankhal, Haridwar 249408","kind":"modern retreat guest accommodation adjoining historic ashram","source_records":["HERITAGE_WIT_PRIOR"],"presence":"NOT_HISTORIC_SLEEP_ROOM","physical_identity":"EXACT_CURRENT","current_access":"YES","current_overnight":"YES_BOOKABLE","same_historic_room":"NO","resolution_class":"R1","access_status":"PUBLIC_OPEN","notes":"Current accommodation entity; not itself a historical Ma sleep-room."}
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=489 path=runs/active/INDIAWIT-ANANDAMAYI-HERITAGE-LOCATION-CLOSURE-001/ANANDAMAYI_ENTITY_CANDIDATES.jsonl blob_sha=a3e9c10a3fa7a0fe37acaabf9a2d38815562c021 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+
+{"entity":"Baghat House","place":"Haridwar","kind":"private/host house","source_records":["EXT-L072","CCI084-07"],"presence":"CONFIRMED_REPEATED_RESIDENCE_1953_1961","physical_identity":"UNRESOLVED_CURRENT_BUILDING","current_access":"UNKNOWN","current_overnight":"UNKNOWN","resolution_class":"R5","access_status":"ACCESS_UNKNOWN_AFTER_EXHAUSTION"}
+{"entity":"Shanti Niketan / Nitai Basu Mallick residence","place":"Kankhal","kind":"private residence later donated","source_records":["SFI-Shanti Niketan"],"presence":"CONFIRMED_SOURCE_FIRST_STAY_1961","physical_identity":"PARTIAL","current_access":"UNKNOWN","current_overnight":"UNKNOWN","resolution_class":"R3","access_status":"ACCESS_UNKNOWN_AFTER_EXHAUSTION","notes":"Property is bounded to the Kankhal donated-residence context but exact current interior continuity remains unresolved."}
+{"entity":"Jaipuria House Ramghat","place":"Haridwar","kind":"host house","source_records":["SFI-Jaipuria House Ramghat"],"presence":"CONFIRMED_SOURCE_FIRST_STAY_1970","physical_identity":"PARTIAL","current_access":"UNKNOWN","current_overnight":"UNKNOWN","resolution_class":"R4","access_status":"ACCESS_UNKNOWN_AFTER_EXHAUSTION"}
+{"entity":"Kishenpur Ashram","place":"Rajpur, Dehradun 248009","kind":"ashram/core residence","source_records":["EXT-L074"],"presence":"CONFIRMED","physical_identity":"EXACT_CURRENT_INSTITUTION","current_access":"YES_CONTACT","current_overnight":"UNKNOWN_PUBLIC_POLICY","resolution_class":"R1","access_status":"PUBLIC_OPEN"}
+{"entity":"Kalyanvan Ashram","place":"176 Rajpur Road, Dehradun 248009","kind":"ashram/residence","source_records":["EXT-L076"],"presence":"CONFIRMED","physical_identity":"EXACT_CURRENT_ADDRESS","current_access":"YES_CONTACT","current_overnight":"UNKNOWN_PUBLIC_POLICY","resolution_class":"R1","access_status":"PUBLIC_OPEN"}
+{"entity":"Raipur Anandamayi Ashram","place":"Raipur Ordnance Factory, Dehradun 248010","kind":"ashram/retraite","source_records":["EXT-L075"],"presence":"CONFIRMED","physical_identity":"EXACT_CURRENT_ADDRESS","current_access":"YES_CONTACT","current_overnight":"UNKNOWN_PUBLIC_POLICY","resolution_class":"R1","access_status":"PUBLIC_OPEN"}
+{"entity":"Sadhan Ashram Jakhan","place":"47/A Jakhan, Rajpur, Dehradun","kind":"ashram/residence","source_records":["EXT-L077"],"presence":"CONFIRMED_SOURCE_LAYER","physical_identity":"EXACT_CURRENT_ADDRESS","current_access":"YES_CONTACT","current_overnight":"UNKNOWN_PUBLIC_POLICY","resolution_class":"R1","access_status":"PUBLIC_OPEN"}
+{"entity":"M.L. Khaitan residence/compound","place":"Dehradun","kind":"private host residence","source_records":["SFI-M.L. Khaitan compound / residence, Dehradun"],"presence":"CONFIRMED_SOURCE_FIRST_REPEATED_STAYS","physical_identity":"UNRESOLVED_PARCEL","current_access":"PRIVATE_UNKNOWN","current_overnight":"NO_PUBLIC_EVIDENCE","resolution_class":"R4","access_status":"ACCESS_UNKNOWN_AFTER_EXHAUSTION"}
+{"entity":"Sri Khaitan residence","place":"Dehradun","kind":"private host residence","source_records":["SFI-Sri Khaitan residence, Dehradun"],"presence":"CONFIRMED_FINAL_PERIOD_JULY_1982","physical_identity":"UNRESOLVED_PARCEL","current_access":"PRIVATE_UNKNOWN","current_overnight":"NO_PUBLIC_EVIDENCE","resolution_class":"R4","access_status":"ACCESS_UNKNOWN_AFTER_EXHAUSTION"}
+{"entity":"Patal Devi Ashram","place":"Patal Devi, Almora 263602","kind":"ashram/residence","source_records":["EXT-L086"],"presence":"CONFIRMED","physical_identity":"EXACT_CURRENT_INSTITUTION","current_access":"YES_CONTACT","current_overnight":"POSSIBLE_SIGNAL_BUT_CONTACT_REQUIRED","resolution_class":"R1","access_status":"PUBLIC_OPEN"}
+{"entity":"Dhaulchina Ashram","place":"Dhaul-China, Almora 263624","kind":"mountain hermitage/residence","source_records":["EXT-L087"],"presence":"CONFIRMED","physical_identity":"EXACT_CURRENT_INSTITUTION","current_access":"YES_CONTACT","current_overnight":"RESTRICTED_CONTACT_REQUIRED","resolution_class":"R1","access_status":"PUBLIC_LIMITED_HOURS","notes":"Official visiting guidance describes Dhaulchina as hermitage-like and imposes stay restrictions."}
+{"entity":"Sa
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=490 path=runs/active/INDIAWIT-ANANDAMAYI-HERITAGE-LOCATION-CLOSURE-001/ANANDAMAYI_ENTITY_CANDIDATES.jsonl blob_sha=a3e9c10a3fa7a0fe37acaabf9a2d38815562c021 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+logra Temple cave","place":"Solan, Himachal Pradesh","kind":"temple cave residence","source_records":["EXT-L088","EXT-L089","CCI084-04"],"presence":"CONFIRMED_STAY_1934","physical_identity":"HISTORIC_CAVE_NAME_CONFIRMED_CURRENT_EXACT_MATCH_NOT_CLOSED","current_access":"UNKNOWN","current_overnight":"UNKNOWN_NOT_ASSUMED","resolution_class":"R5","access_status":"ACCESS_UNKNOWN_AFTER_EXHAUSTION"}
+{"entity":"Raja Durga Singh palace/estate","place":"Solan","kind":"royal host property","source_records":["EXT-L090"],"presence":"SOURCE_LAYER_CONFIRMED","physical_identity":"PARTIAL","current_access":"UNKNOWN","current_overnight":"UNKNOWN","resolution_class":"R4","access_status":"ACCESS_UNKNOWN_AFTER_EXHAUSTION"}
+{"entity":"Anandamayi Ashram Solan / special house","place":"Solan","kind":"house/ashram residence","source_records":["EXT-L091"],"presence":"SOURCE_LAYER_CONFIRMED","physical_identity":"PARTIAL","current_access":"UNKNOWN","current_overnight":"UNKNOWN","resolution_class":"R4","access_status":"ACCESS_UNKNOWN_AFTER_EXHAUSTION"}
+{"entity":"Anandakashi/Tehri cottage","place":"Tehri region","kind":"royal guest cottage","source_records":["EXT-L103"],"presence":"CONFIRMED_SOURCE_LAYER","physical_identity":"PARTIAL","current_access":"UNKNOWN","current_overnight":"UNKNOWN","resolution_class":"R4","access_status":"ACCESS_UNKNOWN_AFTER_EXHAUSTION"}
+{"entity":"Ganga Lahari / Birla Guest House","place":"Raiwala, Uttarakhand","kind":"guest house","source_records":["SFI-Ganga Lahari, Birla Guest House, Raiwala"],"presence":"CONFIRMED_SOURCE_FIRST_ONE_WEEK_RESIDENCE_1976","physical_identity":"UNRESOLVED_CURRENT_BUILDING","current_access":"UNKNOWN","current_overnight":"UNKNOWN","resolution_class":"R5","access_status":"ACCESS_UNKNOWN_AFTER_EXHAUSTION"}
+{"entity":"Anandamayi Ashram Swargadwar","place":"Puri 752001","kind":"ashram/residence","source_records":["EXT-L026"],"presence":"CONFIRMED","physical_identity":"EXACT_CURRENT_INSTITUTION","current_access":"YES","current_overnight":"CURRENT_BOOKING_SIGNAL_EXISTS_BUT_AUTHORITY_CHAIN_NEEDS_CONFIRMATION","same_historic_room":"UNKNOWN","resolution_class":"R1","access_status":"PUBLIC_OPEN"}
+{"entity":"Karar Ashram","place":"Puri","kind":"guest ashram/cross-person heritage","source_records":["EXT-L028","CCI084-10"],"presence":"ANANDAMAYI_CLAIM_OPEN_IN_CCI084; SRI_YUKTESWAR_HARIHARANANDA_SITE_CONFIRMED","physical_identity":"EXACT_SITE_FOR_OTHER_PERSONS","current_access":"YES_SITE","current_overnight":"UNKNOWN_AUTHORITY","resolution_class":"R5","access_status":"PUBLIC_OPEN","notes":"Site is R1 for Sri Yukteswar/Hariharananda, but this Anandamayi entity remains R5 because her personal stay claim is unresolved; unresolved finding preserved."}
+{"entity":"Ranchi Anandamayi Ashram","place":"Main Road, Ranchi 834001","kind":"ashram/residence","source_records":["EXT-L031"],"presence":"CONFIRMED_SOURCE_LAYER","physical_identity":"EXACT_CURRENT_INSTITUTION","current_access":"YES_CONTACT","current_overnight":"UNKNOWN_PUBLIC_POLICY","resolution_class":"R1","access_status":"PUBLIC_OPEN"}
+{"entity":"Ratu Palace","place":"Ratu, Ranchi","kind":"royal palace guest stay","source_records":["SFI-Ratu Palace, Ranchi","CCI084-20"],"presence":"CONFIRMED_RESIDED_1976","physical_identity":"EXACT_HISTORIC_PALACE_NAME","current_access":"UNKNOWN_FORMAL_VISITOR_POLICY","current_overnight":"NO_VERIFIED_PUBLIC_BOOKING","resolution_class":"R1","access_status":"ACCESS_UNKNOWN_AFTER_EXHAUSTION"}
+{"entity":"Raj Bhavan Madras/Chennai","place":"Chennai","kind":"government residence","source_records":["SFI-Raj Bhawan campus, Madras"],"presence":"CONFIRMED_SOURCE_FIRST_RESIDENCE_1979","physical_identity":"EXACT_INSTITUTION","current_access":"RESTRICTED_GOVERNMENT","current_overnight":"NO_PUBLIC_LODGING","resolution_class":"R1","access_status":"PUBLIC_LIMITED_HOURS"}
+{"entity":"Raj Bhavan Bhubaneswar","place":"Bhubaneswar","kind":"government residence","source_records":["SFI-Raj Bhavan campus, Bhubaneswar"],"presence":"CONFIRMED_SOURCE_FIRST_RESIDENCE_1979","physical_identity":"EXACT_INSTITUTION","current_access":"RESTRICTED_GOVERNMENT",
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=491 path=runs/active/INDIAWIT-ANANDAMAYI-HERITAGE-LOCATION-CLOSURE-001/ANANDAMAYI_ENTITY_CANDIDATES.jsonl blob_sha=a3e9c10a3fa7a0fe37acaabf9a2d38815562c021 original_offset=12288 original_length=3250 payload_bytes=3250 chunk_index=3 chunk_count=4 classification=text
+"current_overnight":"NO_PUBLIC_LODGING","resolution_class":"R1","access_status":"PUBLIC_LIMITED_HOURS"}
+{"entity":"M.S. Subbulakshmi / T. Sadasivam residence and lawn hut","place":"Madras/Chennai","kind":"private host house + purpose-built wooden hut","source_records":["SFI-M.S. Subbulakshmi / T. Sadasivan residence, Madras"],"presence":"CONFIRMED_GUEST_1972","physical_identity":"UNRESOLVED_ADDRESS/HUT_SURVIVAL","room_detail":"special wooden hut built on lawn for Ma","current_access":"PRIVATE_UNKNOWN","current_overnight":"NO_PUBLIC_EVIDENCE","resolution_class":"R5","access_status":"ACCESS_UNKNOWN_AFTER_EXHAUSTION"}
+{"entity":"Ganga Vihar Dharamshala","place":"Bithoor","kind":"dharamshala","source_records":["SFI-Ganga Vihar Dharamshala, Bithoor"],"presence":"CONFIRMED_STAY_1973","physical_identity":"UNRESOLVED_CURRENT_BUILDING","current_access":"UNKNOWN","current_overnight":"UNKNOWN","resolution_class":"R5","access_status":"ACCESS_UNKNOWN_AFTER_EXHAUSTION"}
+{"entity":"Naini Jaipuria House","place":"Bithoor/Kanpur area","kind":"private host house","source_records":["SFI-Naini Jaipuria House"],"presence":"CONFIRMED_STAY_1973","physical_identity":"UNRESOLVED_CURRENT_BUILDING","current_access":"PRIVATE_UNKNOWN","current_overnight":"NO_PUBLIC_EVIDENCE","resolution_class":"R5","access_status":"ACCESS_UNKNOWN_AFTER_EXHAUSTION"}
+{"entity":"Hawa Mahal","place":"Gondal","kind":"royal/heritage host property","source_records":["SFI-Hawa Mahal, Gondal"],"presence":"CONFIRMED_PROGRAMME_1976","physical_identity":"PARTIAL","current_access":"UNKNOWN","current_overnight":"UNKNOWN","resolution_class":"R4","access_status":"ACCESS_UNKNOWN_AFTER_EXHAUSTION"}
+{"entity":"Morvi Palace","place":"Morbi/Morvi, Gujarat","kind":"royal palace stay/programme","source_records":["SFI-Morvi Palace"],"presence":"CONFIRMED_SOURCE_FIRST_1978_79_RETURN","physical_identity":"PARTIAL_PALACE_NAME_NEEDS_BUILDING_DISAMBIGUATION","current_access":"UNKNOWN","current_overnight":"UNKNOWN","resolution_class":"R5","access_status":"ACCESS_UNKNOWN_AFTER_EXHAUSTION"}
+{"entity":"Panchmarhi purpose-built hut","place":"Pachmarhi, Madhya Pradesh","kind":"purpose-built hut","source_records":["SFI-Panchmarhi hut"],"presence":"CONFIRMED_STAY_1977","physical_identity":"UNRESOLVED_HUT_SURVIVAL","current_access":"UNKNOWN","current_overnight":"UNKNOWN","resolution_class":"R5","access_status":"ACCESS_UNKNOWN_AFTER_EXHAUSTION"}
+{"entity":"Nitibagh house of G.S. Pathak","place":"Delhi","kind":"private host residence","source_records":["SFI-Nitibagh house of G.S. Pathak, Delhi"],"presence":"CONFIRMED_SOURCE_FIRST","physical_identity":"UNRESOLVED_ADDRESS","room_detail":"a floor was reserved for Ma","current_access":"PRIVATE_UNKNOWN","current_overnight":"NO_PUBLIC_EVIDENCE","resolution_class":"R5","access_status":"ACCESS_UNKNOWN_AFTER_EXHAUSTION"}
+{"entity":"Ramanasramam","place":"Tiruvannamalai","kind":"cross-person visit/heritage stay complex","source_records":["EXT-L152","HERITAGE_WIT_PRIOR"],"presence":"ANANDAMAYI_VISIT_SOURCE_LAYER; RAMANA_RESIDENCE_CONFIRMED","physical_identity":"EXACT_CURRENT_INSTITUTION","current_access":"YES","current_overnight":"YES_MODERN_DEVOTEE_ROOMS","same_historic_room":"NO","resolution_class":"R1","access_status":"PUBLIC_OPEN"}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=492 path=runs/active/INDIAWIT-ANANDAMAYI-HERITAGE-LOCATION-CLOSURE-001/ANANDAMAYI_R4_R5_CLOSURE.md blob_sha=c41804b9520e819da249793ac3cb7dfbaf3947ed original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# ANANDAMAYI R4/R5 CLOSURE — INDIA WIT
+
+status: COMPLETE_WITH_GOVERNANCE_SCHEMA_BLOCKER
+verified_at: 2026-08-20
+branch: `agent/indiawit-master-travel-readiness`
+
+## Governance blocker
+
+TASK.md requires R1–R5, and explicitly points to `governance/LOCATION_RESOLUTION_BEFORE_ABC_2026-08-19.md`. That file is not present on this branch at the stated path, and repository search on this branch did not return it. WIT therefore does **not** invent R1–R5 definitions. All entity records retain `rank: UNASSIGNED_GOVERNANCE_SCHEMA_MISSING`. This prevents silent semantic corruption while still completing physical identity/access/bookability work.
+
+## Lossless reconciliation state
+
+- All external-union records `L001`–`L156` are retained by exact source ID in `ANANDAMAYI_SOURCE_RECORDS.jsonl`.
+- INDIA source-first additions are retained as separate detector occurrences; identity overlap never deletes the source-first occurrence.
+- CCI_TASK 084 verification remains a third separate detector/reconciliation layer.
+- Known false/weak claims remain visible: Rajghat Besant School as the Krishnamurti meeting site is **WEERLEGD**; correct event site is Kitty Shiva Rao's Delhi garden. Vashishta Guha and Badrinath remain unverified. L104–L106 station claims remain unverified. L156 Mandi remains likely compilation artefact unless a real source passage is supplied.
+- Karar Ashram remains open specifically for Anandamayi Ma: exact Karar site is real and strong for Sri Yukteswar/Hariharananda, but CCI084 did not close Anandamayi's claimed 1942/43 stay. No three-person upgrade is made.
+
+## Highest-impact physical closures
+
+### Varanasi — Bhadaini
+`Shree Shree Ma Anandamayi Ashram, Bhadaini, Varanasi 221001` is a current exact institutional continuation. The official Anandamayi site currently publishes a specific room-booking contact and a separate local dharamshala contact. Therefore current overnighting at the Bhadaini ashram ecosystem is **JA**, but no historic bedroom of Ma has been identified or declared bookable.
+
+Current source: `https://www.anandamayi.org/ashram-contact-details/`.
+
+### Kankhal — preserved final bedroom
+The official Sangha institutions page identifies a bungalow built for Ma by S.N. Ghosh and Ranu Ghosh. Ma stayed there for about the final two months before Mahasamadhi. The building is now the `Matri Smriti Museum and Research Centre`; Ma's **bedroom** and **kitchen** are explicitly maintained as such. This closes a high-value room-level heritage entity.
+
+- physical building: **JA**
+- exact historic bedroom: **JA, institutionally preserved**
+- visitor access: **JA as museum/heritage room**
+- overnight in that bedroom: **NEE**
+- modern same-precinct overnight: **JA** at the adjoining Shree Shree Ma Anandamayee International Centre.
+
+Current sources:
+- `https://www.anandamayi.org/sangha-schools-and-institutions/`
+- `https://www.anandamayi.org/international-center/`
+- `https://ssmaic.org/`
+
+### Kankhal — present accommodation
+The official Anandamayi contact page publishes booking contacts for Kankhal. The International Centre describes itself as a retreat centre adjoining Ma's Ashram and Samadhi Mandir and currently offers rooms. It is a modern devotional stay, **not** Ma's historic bedroom.
+
+### Vrindavan
+The current Anandamayi organisation lists the Vrindavan Ashram and current contacts, and specifically links `Vardhaman Kunj`. CCI084 independently confirmed Ma resided at `Burdwan Kunj` in 1936. Name/continuity is therefore a strong follow-up entity, but current public material reviewed here does not establish that the historic room/building is bookable. Status: **current lineage location exists; same historic room ONZEKER**.
+
+### Dehradun institutional cluster
+The current official contact page resolves present addresses for several durable source-layer residences:
+- Kishenpur Ashram, P.O. Rajpur, Dehradun 248009;
+- Kalyanvan, 176 Rajpur Road, Rajpur, Dehradun 248009;
+- Raipur Ashram, P.O. Raipur Ordnance Factory, Dehradun 248010;
+- Sadhan Ashram, 47/A Jakhan, Rajpur, Dehradun.
+
+These are current physical institut
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=493 path=runs/active/INDIAWIT-ANANDAMAYI-HERITAGE-LOCATION-CLOSURE-001/ANANDAMAYI_R4_R5_CLOSURE.md blob_sha=c41804b9520e819da249793ac3cb7dfbaf3947ed original_offset=4096 original_length=3641 payload_bytes=3641 chunk_index=1 chunk_count=2 classification=text
+ions/contactable sites. Public overnight policy for the exact historical stay spaces was not established; no same-room claim is promoted.
+
+### Almora / Dhaulchina
+The official Anandamayi site lists both Patal Devi and Dhaulchina as current ashrams. Current visiting guidance describes Dhaulchina as hermitage-like and gives a restriction that women travelling alone are not allowed to stay there. This is a real overnight-policy signal, but no historical Ma room is identified.
+
+### Puri
+The current organisation still lists `Shree Shree Ma Anandamayi Ashram, Swargadwar, Puri`. A separate current room-booking site using the Anandamayi/Sangha identity advertises Puri rooms and numeric modern room numbers. Those numbers are **modern inventory only** and are not linked to Ma; none are copied as historic room numbers. Because the authority chain of that booking domain was not established as strongly as `anandamayi.org`, current Puri accommodation is recorded as **booking signal exists; direct official confirmation required**.
+
+### Ranchi
+The official Anandamayi contact page lists the current Main Road Ranchi ashram. CCI084 directly confirmed the separate source-first claim that Ma **resided at Ratu Palace** in December 1976 at the Maharaja's invitation. Ratu Palace is therefore a high-value historic stay entity, but this audit found no authoritative public hotel/guest booking offer for the palace. Do not equate a modern commercial Ratu/Ranchi property with it.
+
+### South/east data preserved despite route parking
+The following source-first stays remain fully retained and were not removed because current route emphasis is elsewhere: Raj Bhavan Madras, Raj Bhavan Bhubaneswar, M.S. Subbulakshmi/T. Sadasivam residence and purpose-built lawn hut, Ganga Vihar Dharamshala Bithoor, Naini Jaipuria House, Hawa Mahal Gondal, Morvi Palace, Dr. Channa Reddy residence Secunderabad, Panchmarhi purpose-built hut, Bhasa residence Calcutta, and other named eastern/southern host properties. Where public continuity could not be proven safely, status stays `UNRESOLVED_CURRENT_BUILDING` rather than being matched by name.
+
+## Unresolved high-value physical identities
+
+1. **Pandey Dharamshala, Varanasi** — historic stay confirmed, present building/address unresolved.
+2. **Baghat House, Haridwar** — repeated stay confirmed in 1953 and 1961, present property unresolved.
+3. **Bhola Giri/Giriji Ashram, Kankhal** — historic residence confirmed; exact current institution/property match not safely closed.
+4. **Salogra Temple cave, Solan** — exact historic cave-stay claim confirmed; a contemporary Solan cave result cannot be equated without lineage/parcel evidence.
+5. **Ganga Lahari / Birla Guest House, Raiwala** — one-week stay claim retained; current exact building not closed.
+6. **M.S. Subbulakshmi/T. Sadasivam lawn hut, Chennai** — special hut is room-level significant; current survival/address access not closed.
+7. **Nitibagh house of G.S. Pathak, Delhi** — source-first says a floor was reserved for Ma; exact address/floor not closed.
+8. **Morvi Palace** — source-first royal stay/programme retained, but `Morvi Palace` needs building-level disambiguation before current access/overnight can be stated.
+
+## No silent upgrades
+
+- A current ashram at the same town is not automatically the historic building.
+- A modern room number is never treated as Ma's room without archival/institutional proof.
+- A palace name in a secondary detector is not upgraded when CCI could only confirm city/royal host context.
+- Private houses remain private/unknown unless an owner/institution has made current access public.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=494 path=runs/active/INDIAWIT-ANANDAMAYI-HERITAGE-LOCATION-CLOSURE-001/ANANDAMAYI_SOURCE_RECORDS.jsonl blob_sha=da70c3363843155812c5b0eb4832818496a301f7 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+{"record_group":"EXTERNAL_UNION_156","person":"Anandamayi Ma","source_file":"runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/EXTERNAL_UNION_INPUT.md","source_ids":["L001","L002","L003","L004","L005","L006","L007","L008","L009","L010","L011","L012","L013","L014","L015","L016","L017","L018","L019","L020","L021","L022","L023","L024","L025","L026","L027","L028","L029","L030","L031","L032","L033","L034","L035","L036","L037","L038","L039","L040","L041","L042","L043","L044","L045","L046","L047","L048","L049","L050","L051","L052","L053","L054","L055","L056","L057","L058","L059","L060","L061","L062","L063","L064","L065","L066","L067","L068","L069","L070","L071","L072","L073","L074","L075","L076","L077","L078","L079","L080","L081","L082","L083","L084","L085","L086","L087","L088","L089","L090","L091","L092","L093","L094","L095","L096","L097","L098","L099","L100","L101","L102","L103","L104","L105","L106","L107","L108","L109","L110","L111","L112","L113","L114","L115","L116","L117","L118","L119","L120","L121","L122","L123","L124","L125","L126","L127","L128","L129","L130","L131","L132","L133","L134","L135","L136","L137","L138","L139","L140","L141","L142","L143","L144","L145","L146","L147","L148","L149","L150","L151","L152","L153","L154","L155","L156"],"count":156,"lossless_rule":"The complete raw record text, P/I/H codes, source abbreviations, detector membership, uncertainty and conflicts remain canonical in the referenced source file. No L-record is dropped, overwritten or silently deduplicated here.","dedupe_policy":"KEEP_DETECTOR_RECORDS_SEPARATE"}
+{"record_group":"INDIA_SOURCE_FIRST_ADDITIONS","person":"Anandamayi Ma","source_file":"runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/INDIA_SOURCE_FIRST_SWEEP_ANANDAMAYI.md","claims":["Doonga, Dehradun","Yogendra Nagar / Tarananda Swami's Ashram","Faizabad","Raj Rajeswari Temple, Chittagong","Shankar Mutt, Chittagong","Sita Kund","Buddha Temple, Ramkut","Vishnu Temple, Ramkut","Mirtola","Krishna Kunj, Allahabad","Ashram of Sri Gopal Thakur, Allahabad","Assi Ghat, Varanasi","Ekdalia Road Ashram, Ballygunge/Calcutta","Sarnath","Dr. J. Sen's house, Delhi","Boda, Jalpaiguri","Barechina","Jageswar","Ambala","Hoshiarpur","Jallandhar","Doraha","Gurdaspur","Mandi royal reception / palace context","Kullu palace garden","Manav Seva Sangh Ashram, Vrindavan","Haribaba's Ashram, Vrindavan","K.C. Munshaw lawn/residence, Ahmedabad","New Delhi Kali Bari","Dr. S. Radhakrishnan's residence, Delhi","Parmarth Niketan, Rishikesh","Sivananda Ashram, Rishikesh","Saptarishi Ashram, Haridwar","Kuchaman Fort","Defence Minister Jagjivan Ram's residence, Delhi","Ramnagar / Kali Kamli Trust, Rishikesh","Ganesh Dutt Goswami's Ashram, Haridwar","Shanti Niketan, residence of Nitai Basu Mallick, Kankhal","Scindia Public School, Gwalior","N.N. Mukherjee residence, Allahabad","Suktal, Muzaffarnagar","Pilani","Lakshmi Narain Mandir, Modinagar","Jadu Nath Bhattacharya residence, Varanasi","Gwalior Raj Palace in Bombay","Niramoy T.B. Sanatorium, Giridanga/Dubajpur","Hazaribagh","M.L. Khaitan compound / residence, Dehradun","Subhash Ground, Delhi","Bandh/Anupshahr","J.K. Temple campus, Kanpur","Miraj","Nipani","Jaipuria House, Ramghat, Haridwar","Nirvani Akhara, Kankhal","Kaladi","M.S. Subbulakshmi / T. Sadasivan residence, Madras","Ganga Vihar Dharamshala, Bithoor","Naini Jaipuria House, Bithoor/Kanpur area","Jodhpur Park, South Calcutta","Sri Vissanji residence, Bombay","Ram Tirtha Ashram, Rajpur, Dehradun","Kamakhya Mandir, Gauhati","Dibrugarh","Ganga Lahari, Birla Guest House, Raiwala","Sitaram Das Omkarnathji's Ashram, Calcutta","Hawa Mahal, Gondal","Madan Mohanji Temple, Karauli","Hathwa House, Patna","Ratu Palace, Ranchi","Chitrakut","Narendra Brahmachari's Ashram, Deoghar/Baidyanathdham","Paramartha Ashram, Bareilly","Narendra Nagar, old Tehri capital","Badrikashram on the Narmada","Panchmarhi hut","Sant Ram Mandir complex, Nadiad","Morvi Palace","Dr. Channa Reddy residence, Secunderabad","Raj Bhawan campus, Madras","Raj Bhavan campus, Bhubaneswar","Gondal Palace","Bihar Ghat on Ganga","Nanu Bhai Sastri residence, Ahmedabad"
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=495 path=runs/active/INDIAWIT-ANANDAMAYI-HERITAGE-LOCATION-CLOSURE-001/ANANDAMAYI_SOURCE_RECORDS.jsonl blob_sha=da70c3363843155812c5b0eb4832818496a301f7 original_offset=4096 original_length=2884 payload_bytes=2884 chunk_index=1 chunk_count=2 classification=text
+,"Nathdwara/Udaipur temple","Belur Math","Hathwa Palace","Bhasa residence, Calcutta","new Ganga-bank bungalow built by S.N. Ghosh and wife, Calcutta","Sri Khaitan residence, Dehradun","Simhachalam","Vijayawada","Guntur","Sir C.P. Ramaswamy Aiyer's house, Madras","Mahabalipuram","Bhet-Dwarka","Itarsi","Mainpuri","Moradabad","Unnao","Lake Road, Calcutta","Rajgir Venuban","Katrasgarh colliery","Sagar","riverside Dharamshala on river Vyas","Barman Ghat","Ramghat on the Narmada","Nitibagh house of G.S. Pathak, Delhi"],"lossless_rule":"Each named source-first claim remains a separate detector occurrence; identity matches to external L-records are represented only in the entity layer and never erase this source occurrence.","dedupe_policy":"KEEP_DETECTOR_RECORDS_SEPARATE"}
+{"record_group":"CCI_084_RECONCILIATION","person":"Anandamayi Ma","source_file":"runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/RECONCILIATION_CCI_084.md","verified":[{"claim":"Pandey Dharamshala, Varanasi","status":"BEVESTIGD"},{"claim":"Burdwan Kunj, Vrindavan","status":"BEVESTIGD"},{"claim":"Bhola Giri/Giriji Ashram, Kankhal","status":"BEVESTIGD"},{"claim":"Salogra Temple cave, Solan","status":"BEVESTIGD"},{"claim":"Sevagram via Gopuri, Wardha","status":"BEVESTIGD"},{"claim":"Chunar Fort","status":"BEVESTIGD"},{"claim":"Baghat House, Haridwar","status":"BEVESTIGD_HERHAALD_VERBLIJF"},{"claim":"Juhu sea-beach","status":"BEVESTIGD"},{"claim":"Gwalior / Jai Vilas Palace","status":"DEELS_PALACE_NAME_NOT_VERIFIED"},{"claim":"Karar Ashram, Puri","status":"OPEN_NOT_CONTROLLED_IN_CCI084"},{"claim":"Ekdalia Road Ashram, Calcutta","status":"BEVESTIGD"},{"claim":"Krishna Kunj, Allahabad","status":"BEVESTIGD"},{"claim":"Ashram of Sri Gopal Thakur, Allahabad","status":"BEVESTIGD"},{"claim":"Assi Ghat, Varanasi","status":"BEVESTIGD"},{"claim":"Parmarth Niketan, Rishikesh","status":"BEVESTIGD"},{"claim":"Sivananda Ashram, Rishikesh","status":"BEVESTIGD"},{"claim":"Saptarishi Ashram, Haridwar","status":"BEVESTIGD"},{"claim":"Kuchaman Fort","status":"BEVESTIGD"},{"claim":"Scindia Public School, Gwalior","status":"BEVESTIGD"},{"claim":"Ratu Palace, Ranchi","status":"BEVESTIGD_RESIDED"},{"claim":"Belur Math","status":"BEVESTIGD_VISIT"},{"claim":"Sant Ram Mandir, Nadiad","status":"BEVESTIGD"},{"claim":"Badrikashram on Narmada","status":"BEVESTIGD_DISTINCT_FROM_HIMALAYAN_BADRINATH"},{"claim":"Rajghat Besant School Krishnamurti event","status":"WEERLEGD_WRONG_SITE_CORRECT_SITE_KITTY_SHIVA_RAO_GARDEN"},{"claim":"Vashishta Guha","status":"EXTERNAL_ONLY_UNVERIFIED"},{"claim":"Badrinath ashram/tempel","status":"EXTERNAL_ONLY_UNVERIFIED"},{"claim":"Dehradun/Varanasi Junction/Howrah station claims","status":"EXTERNAL_ONLY_UNVERIFIED"},{"claim":"Mandi royal guest location L156","status":"LIKELY_COMPILATION_ARTIFACT"}],"dedupe_policy":"KEEP_RECONCILIATION_OCCURRENCES_SEPARATE","no_silent_drops":true}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=496 path=runs/active/INDIAWIT-ANANDAMAYI-HERITAGE-LOCATION-CLOSURE-001/CANONICAL_R1_R5_SCHEMA.md blob_sha=de12584b54089afee8324f39b59d339dc2da89bb original_offset=0 original_length=1868 payload_bytes=1868 chunk_index=0 chunk_count=1 classification=text
+# CANONICAL R1-R5 SCHEMA — supplied by INDIA8
+
+Source of truth: `agent/india8-cluster-casting:governance/LOCATION_RESOLUTION_BEFORE_ABC_2026-08-19.md`
+
+Apply to the ALREADY RESEARCHED WIT entity set. Do NOT rerun discovery merely because this schema was previously absent.
+
+- R1 EXACT_CURRENT_SITE — historical event linked to concrete current site/building/room or unambiguous grounds.
+- R2 EXACT_HISTORIC_SITE_SUCCESSOR — original structure gone/changed but historical physical spot reliably linked to current successor/memorial/grounds.
+- R3 STRONG_LOCALIZED_APPROXIMATION — exact meters/room unrecoverable but event reliably bounded to small visitable zone/ghat/cave complex/ashram grounds/station part/confluence; may be A/B/C-ready if finer precision is historically impossible and uncertainty is explicit.
+- R4 BROAD_PLACE_ONLY — only city/village/region known or multiple plausible sites without discrimination; not A/B/C-ready until targeted research exhausted.
+- R5 UNRESOLVED_CLAIM — historical presence, physical identity, or modern continuity remains substantially uncertain; never delete.
+
+Access statuses:
+PUBLIC_OPEN; PUBLIC_LIMITED_HOURS; PRIVATE_PERMISSION_POSSIBLE; EXTERIOR_ONLY; LANDSCAPE_ACCESS; SUCCESSOR_SITE_VISITABLE; ACCESS_UNKNOWN; ACCESS_UNKNOWN_AFTER_EXHAUSTION.
+
+Weight rule: AOAY personal scene > Babaji/Kriya main claims + unique meditation/initiation/samadhi sites > exact multi-person overlap > heritage stay/room/house/ashram > other person sites > transit/context. For 20th-century hotels/houses/rooms, actively seek building/address/continuity/access before accepting R3.
+
+Required follow-up: classify every already-closed WIT physical entity R1-R5 + access status; preserve source IDs and all unresolved rows; update STATUS to COMPLETE when schema assignment closes. No A/B/C, locks, route, or hotel override changes.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=497 path=runs/active/INDIAWIT-ANANDAMAYI-HERITAGE-LOCATION-CLOSURE-001/CURRENT_ACCESS_BOOKABILITY.md blob_sha=0ae7c9d37c04ac8e8b1576a876219dc3fe3ac382 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# CURRENT ACCESS + BOOKABILITY — INDIA WIT
+
+verified_at: 2026-08-20
+scope: current-world verification only for already-detected Anandamayi/heritage entities; no broad new person-location discovery
+
+| entity | exists/current identity | visit today | overnight today | same historic room | confidence/source |
+|---|---|---|---|---|---|
+| Anandamayi Bhadaini Ashram, Varanasi | **JA** | **JA** | **JA** | **ONZEKER** | VERY HIGH — official `anandamayi.org/ashram-contact-details/` lists Bhadaini address, dedicated room-booking contact and local dharamshala contact |
+| Anandamayi Kankhal Ashram/Samadhi | **JA** | **JA** | **JA by booking/contact; also adjoining International Centre** | unknown | VERY HIGH — official Anandamayi contact page and International Centre |
+| Matri Smriti Museum bungalow, Kankhal | **JA** | **JA as museum** | **NEE in historic bungalow bedroom** | **historic bedroom itself preserved, not lodging** | VERY HIGH — official Sangha institutions page states Ma stayed ~2 final months and bedroom/kitchen are maintained as such |
+| Shree Shree Ma Anandamayee International Centre, Kankhal | **JA** | **JA** | **JA, bookable current retreat rooms** | **NO** | VERY HIGH — official Anandamayi International Centre + `ssmaic.org` |
+| Anandamayi New Delhi/Kalkaji Ashram | **JA** | contact/ashram access | **booking contact published** | unknown | HIGH — official contact page publishes Bookings WA/SMS |
+| Anandamayi Patal Devi Ashram, Almora | **JA** | contactable | contact required | unknown | HIGH — official contact page |
+| Anandamayi Dhaulchina Ashram | **JA** | contactable | **restricted/contact required** | unknown | HIGH — official visiting guidance says hermitage-like and women alone are not allowed to stay |
+| Anandamayi Kishenpur, Dehradun | **JA** | contactable | public overnight policy not established | unknown | HIGH — official current address/contact |
+| Anandamayi Kalyanvan, Dehradun | **JA** | contactable | public overnight policy not established | unknown | HIGH — official current address/contact |
+| Anandamayi Raipur, Dehradun | **JA** | contactable | public overnight policy not established | unknown | HIGH — official current address/contact |
+| Anandamayi Sadhan Ashram/Jakhan, Dehradun | **JA** | contactable | public overnight policy not established | unknown | HIGH — official current address/contact |
+| Anandamayi Swargadwar Ashram, Puri | **JA** | contactable | **booking signal exists but direct authority confirmation required** | unknown | HIGH site / MEDIUM booking — official Anandamayi contact page confirms ashram; separate booking domain advertises current rooms but is not treated as proof of historic-room identity |
+| Anandamayi Ranchi Ashram | **JA** | contactable | public overnight policy not established | unknown | HIGH — official contact page |
+| Ratu Palace, Ranchi | historic palace name **CONFIRMED stay** | current visitor policy not established | no authoritative public lodging offer verified | unknown | MEDIUM current; CCI084 high for historical stay |
+| Anandamayi Vrindavan Ashram | **JA** | contactable | contact required | unknown | HIGH — official current listing |
+| Burdwan/Vardhaman Kunj, Vrindavan | lineage link exists | contact/archive needed | unknown | unknown | MEDIUM-HIGH historical; current exact stay policy unresolved |
+| Pandey Dharamshala, Varanasi | historic stay confirmed | current exact building unresolved | unknown | unknown | HIGH historic / LOW current |
+| Baghat House, Haridwar | repeated historic stay confirmed | current property unresolved | unknown | unknown | HIGH historic / LOW current |
+| Bhola Giri/Giriji Ashram, Kankhal | historic stay confirmed | exact current property match unresolved | unknown | unknown | HIGH historic / LOW current |
+| Salogra Temple cave, Solan | historic cave stay confirmed | exact current cave match unresolved | no overnight assumption | N/A | HIGH historical claim / LOW current identity |
+| Ganga Lahari / Birla Guest House, Raiwala | historic one-week stay source-first | current exact building unresolved |
+<<< END CHUNK >>>
+

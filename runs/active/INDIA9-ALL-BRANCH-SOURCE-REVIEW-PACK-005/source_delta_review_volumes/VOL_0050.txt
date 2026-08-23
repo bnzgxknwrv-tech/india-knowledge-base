@@ -1,0 +1,445 @@
+>>> CHUNK stream_row=812 path=research/active/BRAJ-COMPLETE-001/BRONS/report/05_barsana_nandgaon.md blob_sha=7c587bea4a1163e15103a72faa8d03f7725f6e6d original_offset=0 original_length=3438 payload_bytes=3438 chunk_index=0 chunk_count=1 classification=text
+# 05 — Barsana and Nandgaon
+
+## Barsana
+
+1. **Radha Rani Temple / Shriji Temple (nr. 23, heuveltempel, Radha)** — BRJ-TMP-023. Specifieke tempel op Bhanugarh-heuvel en belangrijkste levende Radha-darshanplek van Barsana. Devotees beklimmen de heuvel, doen darshan, aarti, prasad en bezoeken tijdens Radhashtami en Lathmar Holi. Buitenlanders kunnen algemene darshan waarschijnlijk bijwonen; trappen, drukte, festivalregels en fotografie moeten actueel worden gecontroleerd. Visueel sterk door heuvelpositie en roodsteenarchitectuur; volledig tienbeelden-dossier ontbreekt.
+
+2. **Maan Mandir / Maan Garh (nr. 24, ashram en lila-plaats, Radha-Krishna en rasika-bhakti)** — BRJ-TMP-024. Specifiek ashram-/tempelcomplex op een Barsana-heuvel verbonden met maan-lila en levende bhajan/seva. Institutionele identiteit en huidige programma's vragen verdere primaire broncontrole. Devotionele deelname lijkt mogelijk via darshan, kirtan en rustige aanwezigheid; gastvrijheid en residentiële grenzen open. Waarschijnlijk rustiger dan Shriji Temple; beelden/reviews tekort.
+
+3. **Kirti Mandir / Rangeeli Mahal (nr. 25, moderne tempel, Radha en haar moeder Kirti)** — BRJ-TMP-025. Fysieke moderne tempel van Jagadguru Kripalu Parishat, geopend in 2019, met Radha als kind op schoot van Kirti. Officiële institutionele drager is duidelijk. Devotees doen darshan en georganiseerde bhakti; buitenlandse bezoekers lijken welkom. Sfeer en architectuur zijn verzorgd en grootschalig; actuele programma's en fotografie moeten worden herbevestigd.
+
+4. **Prem Sarovar (nr. 26, heilig waterbekken, Radha-Krishna)** — BRJ-TMP-026. Specifieke sarovar-plek in de Barsana-regio met levende liefdes-/scheidingstraditie. Devotees bezoeken voor contemplatie en parikramacontext. Institutioneel beheer, waterkwaliteit, actuele toegang en afzonderlijke rituele praktijk blijven onvoldoende vastgesteld. Opgenomen als kleine fysiek duidelijke traditieplaats, niet als bewezen historische gebeurtenis.
+
+## Nandgaon
+
+5. **Nand Bhavan / Nand Baba Temple (nr. 27, heuveltempel, Krishna's familiehuis-traditie)** — BRJ-TMP-027. Specifieke tempel op Nandishvar-heuvel, traditioneel het huis van Nanda, Yashoda en Krishna. Devotees beklimmen de heuvel voor familiedarshan, bhajan en festivals. Algemene deelname lijkt mogelijk; trappen, drukte, actuele tijden en fotografie open. Visueel en devotioneel kernobject van Nandgaon; beeld/reviewdossier tekort.
+
+6. **Pavana Sarovar (nr. 28, heilig meer, Krishna/Nandgaon)** — BRJ-TMP-028. Specifiek waterobject aan de voet van Nandgaon met parikrama- en contemplatieve betekenis. Devotees bezoeken de oever en combineren het met Nand Bhavan. Waterkwaliteit, beheer, veilige deelname en terugkerende rituelen zijn nog niet voldoende vastgesteld.
+
+7. **Ter Kadamba (nr. 29, boomgaard/tempelplek, Rupa Goswami en Krishna-traditie)** — BRJ-TMP-029. Direct aangrenzende Nandgaon-plek, fysiek aangewezen als bhajan-/lila-plaats en verbonden met Rupa Goswami en het roepen/verzamelen van Krishna's koeien. Relevante Gaudiya detector. Devotees komen voor rustige bhajan en herinnering aan de traditie. Huidige institutionele drager, toegang en beeldbasis vragen verificatie; opname is gerechtvaardigd door de specifieke fysieke lineageplaats.
+
+Negatief/open: buiten Ter Kadamba werd geen andere kleine Nandgaon-lineageplek voldoende fysiek en institutioneel bevestigd om in deze BRONS-kaart op te nemen.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=813 path=research/active/BRAJ-COMPLETE-001/BRONS/report/06_detectors_and_outside_list.md blob_sha=b8a3c948a61775e393b3eb29daeaa5607e913d01 original_offset=0 original_length=1985 payload_bytes=1985 chunk_index=0 chunk_count=1 classification=text
+# 06 — Detectors and outside-list search
+
+Detectoruitkomsten:
+
+- Krishna/Radha-lila: breed positief in alle zes kerngebieden; fysieke kandidaten opgenomen waar een afzonderlijk object bestond.
+- Chaitanya/Gaudiya: Radha Raman Temple (nr. 10, oude tempel, Gaudiya), ISKCON Krishna-Balaram Mandir (nr. 11, tempel-ashram, Gaudiya), Nidhivan/Haridas-complex (nr. 12, heilig boscomplex, Radha-Krishna) en Ter Kadamba (nr. 29, bhajanplek, Rupa Goswami) opgenomen.
+- Radha Vallabh: Radha Vallabh Temple (nr. 13, tempel, Radha Vallabh-sampradaya) opgenomen.
+- Vallabha/Pushtimarg: Dwarkadhish Temple (nr. 15, tempel, Pushtimarg) en Gokulnath/Nand-Yashoda Bhavan (nr. 22, tempel, Gokul/Vallabha-context) opgenomen; laatste identiteit blijft OPEN.
+- Nimbarka/rasika-richtingen: Maan Mandir (nr. 24, ashram, Barsana-rasika-bhakti) als fysieke levende plek opgenomen; verdere lineageprecisie OPEN.
+- AOAY/Kriya: Katyayani Peeth (nr. 1, tempel-ashram, Keshavanand/Lahiri) blijft de enige voldoende specifieke fysieke kandidaat in scope. Geen tweede betrouwbare AOAY/Kriya-plek gevonden.
+- NKB/Ram Dass: Neem Karoli Baba Ashram (nr. 2, ashram en samadhi, Maharaj-ji) blijft de enige voldoende specifieke fysieke kandidaat in scope.
+- Samadhi's: NKB-samadhi blijft genest in het ashramcomplex; geen andere zelfstandig beheerde samadhi-kandidaat voldoende bevestigd.
+- Kleine buiten-toeristische-lijstplekken: Jatipura Mukharvind (nr. 18, Giriraj-heiligdom), Prem Sarovar (nr. 26, heilig waterbekken) en Ter Kadamba (nr. 29, bhajanplek) toegevoegd.
+- Ashrams en levende instellingen: Katyayani, NKB, ISKCON, Maan Mandir en Kirti Mandir zichtbaar behandeld.
+
+Niet opgenomen wegens onvoldoende fysieke/institutionele afbakening: generieke Braj-bosnamen zonder verifieerbare huidige plek, losse lila-verhalen zonder specifiek object, kleine samadhi-claims zonder dragende instelling en meerdere kaartvermeldingen met onduidelijke duplicatie.
+
+PARELS is niet onderzocht of geactiveerd.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=814 path=research/active/BRAJ-COMPLETE-001/BRONS/report/07_clusters_and_proximity.md blob_sha=55cb44d806fe48e4ded26196cd80604831c0ee61 original_offset=0 original_length=3199 payload_bytes=3199 chunk_index=0 chunk_count=1 classification=text
+# 07 — Cluster and proximity layer
+
+Geen definitieve route is gemaakt. Alleen ruimtelijke relaties en te verifiëren combinaties zijn vastgelegd.
+
+## Vrindavan west/centrum
+Katyayani Peeth (nr. 1, tempel-ashram, Shakti/Kriya) en Neem Karoli Baba Ashram (nr. 2, ashram-samadhi, Maharaj-ji) zijn de twee formele A-ankers. De precieze actuele reistijden naar Banke Bihari Temple (nr. 9, tempel, Radha-Krishna), Radha Raman Temple (nr. 10, oude tempel, Gaudiya), Nidhivan (nr. 12, heilig boscomplex, Radha-Krishna) en Radha Vallabh Temple (nr. 13, tempel, Radha Vallabh) moeten met routegegevens worden vastgesteld. De vier oude-stadskandidaten vormen waarschijnlijk één voetgangers-/riksjacluster, maar loopbaarheid, verkeersdrukte en toegang zijn nog niet gecontroleerd.
+
+## Vrindavan oost
+ISKCON Krishna-Balaram Mandir (nr. 11, tempel-ashram, Gaudiya/Prabhupada) vormt een zelfstandig georganiseerd bezoekpunt. De relatie tot beide A-ankers is geografisch relevant maar actuele rijtijd ontbreekt.
+
+## Mathura kern
+Krishna Janmabhoomi (nr. 3, geboorteplaats-tempel, Krishna), Dwarkadhish Temple (nr. 15, tempel, Pushtimarg) en Vishram Ghat (nr. 14, Yamuna-ghat, Krishna) vormen een logische stedelijke dagclusterhypothese. Security, voetgangersroutes en verkeer kunnen korte afstanden tijdrovend maken; geen tijd is gegokt.
+
+## Govardhan noord/oost
+Radha Kund (nr. 4, heilige vijver, Radha), Shyam Kund (nr. 5, heilige vijver, Krishna) en Kusum Sarovar (nr. 8, heilige vijver/monument, Radha-Krishna) vormen een duidelijk kund-sarovar-minicluster. Radha Kund en Shyam Kund liggen direct naast elkaar; exacte loopafstand naar Kusum Sarovar moet worden gemeten.
+
+## Govardhan stad/parikrama
+Govardhan Hill (nr. 6, heilige heuvel, Krishna), Govardhan Parikrama (nr. 7, pelgrimsrondgang, Giriraj), Mansi Ganga (nr. 16, heilig meer, Krishna), Daan Ghati Temple (nr. 17, tempel, dana-lila) en Jatipura Mukharvind (nr. 18, Giriraj-heiligdom) zijn functioneel verbonden. De parikrama-route verbindt objecten, maar zij mogen niet als één kandidaat worden samengevoegd.
+
+## Gokul/Mahavan
+Raman Reti (nr. 19, zandveld/ashram, Krishna), Chaurasi Khamba (nr. 20, tempelhuis, Krishna's jeugd), Brahmand Ghat (nr. 21, Yamuna-ghat, Krishna) en Gokulnath/Nand-Yashoda Bhavan (nr. 22, tempel, Gokul) vormen een dagclusterhypothese. Naam- en locatiegrenzen moeten eerst worden vastgezet voordat reistijden worden berekend.
+
+## Barsana
+Radha Rani Temple (nr. 23, heuveltempel, Radha), Maan Mandir (nr. 24, ashram, rasika-bhakti), Kirti Mandir (nr. 25, moderne tempel, Radha/Kirti) en Prem Sarovar (nr. 26, heilig waterbekken, Radha-Krishna) vormen één plaatscluster met hoogte- en verkeersfrictie. Exacte looptijden en lokale ritten ontbreken.
+
+## Nandgaon
+Nand Bhavan (nr. 27, heuveltempel, Krishna's familie), Pavana Sarovar (nr. 28, heilig meer, Krishna) en Ter Kadamba (nr. 29, bhajanplek, Rupa Goswami) vormen één Nandgaon-minicluster. Ter Kadamba ligt buiten de compacte dorpskern en vereist waarschijnlijk een aparte lokale rit; dit moet route-technisch worden bevestigd.
+
+Alle proximityregels staan ook in `proximity.jsonl` met `PRACTICAL_CHECK_REQUIRED` waar actuele tijden ontbreken.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=815 path=research/active/BRAJ-COMPLETE-001/BRONS/report/08_uncertainties_conflicts_duplicates.md blob_sha=490838cb2e4d61cef393807cd69caed33be44eb6 original_offset=0 original_length=2356 payload_bytes=2356 chunk_index=0 chunk_count=1 classification=text
+# 08 — Uncertainties, conflicts and duplicate control
+
+## Harde open lagen
+- Geen van de 29 kandidaten heeft een volledig actueel pakket met openingstoestand, beperkingen, fotografie, kleding, toegankelijkheid en tijdelijke sluitingen.
+- Het vereiste tienbeelden-dossier is voor geen kandidaat volledig samengesteld; dit is per kandidaat expliciet in `images.jsonl` vastgelegd.
+- Recente reviewanalyse met meerdere onafhankelijke bronnen is voor geen kandidaat volledig; `experience_reviews.jsonl` bevat de open status.
+- Actuele betrouwbare reistijden vanaf de twee formele A-ankers ontbreken; geen tijden zijn gegokt.
+- Institutioneel beheer blijft open voor meerdere kunds, sarovars, ghats, landschapsobjecten en kleine tempel-/lila-plaatsen.
+
+## Alias- en grensconflicten
+- Katyayani Peeth/Keshav Ashram blijft één canonical complex; geen nieuw record.
+- NKB-samadhi blijft genest in het Vrindavan-ashramcomplex.
+- Radha Kund en Shyam Kund blijven afzonderlijke adjoining kandidaten.
+- Govardhan Hill en Govardhan Parikrama blijven landschapsobject versus rituele route.
+- Nidhivan is opgenomen als één bos-/tempelcomplex; afzonderlijke interne altaren zijn niet als losse kandidaten uitgegeven.
+- Chaurasi Khamba/Nand Bhavan in Mahavan en Nand-Yashoda Bhavan/Gokulnath in Gokul mogen niet worden samengevoegd voordat locatie en institutionele identiteit zijn gecontroleerd.
+- Nand Bhavan in Nandgaon is een andere fysieke plek dan de Gokul/Mahavan-huistradities.
+- Mansi Ganga, Radha Kund, Shyam Kund, Kusum Sarovar, Pavana Sarovar en Prem Sarovar zijn afzonderlijke fysieke waterobjecten.
+
+## Bevestigingsdomeinen
+Traditieclaims over Krishna/Radha-lila zijn als `TRADITION_CONFIRMED` behandeld wanneer de levende Braj-traditie de specifieke plek draagt. Zij zijn niet als klassieke geschiedenis gepresenteerd. AOAY/Kriya voor Katyayani Peeth is volgens Methodology v3 projectbevestigd door instelling plus lineagecontext; exacte editie-/perceelsdetails blijven documentair open. Review- en beeldmateriaal draagt geen historische of bovennatuurlijke claim.
+
+## Afgewezen zoekrichtingen
+Generieke toeristische lijstjes, kaarturen, Wikipedia en onbeheerde devotional pages zijn niet gebruikt om kernclaims of actuele toegang te sluiten. Ze zijn alleen als detector gebruikt en waar relevant in `sources/rejected.jsonl` opgenomen.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=816 path=research/active/BRAJ-COMPLETE-001/BRONS/report/09_conclusion_and_gate.md blob_sha=8a8d7202ad1cc228365d8e06357626991b861efc original_offset=0 original_length=1702 payload_bytes=1702 chunk_index=0 chunk_count=1 classification=text
+# 09 — Conclusion and quality gate
+
+Resultaat: PARTIAL.
+
+De volledige geografische scope is behandeld als één Braj-cluster. Alle zes kerngebieden zijn aantoonbaar onderzocht. De acht canonical plaatsen zijn behouden zonder duplicatie of statuswijziging. Eenentwintig nieuwe fysieke kandidaten zijn met tijdelijke run-ID's voorgesteld. De detectoren omvatten Krishna/Radha-lila, Gaudiya/Chaitanya, Radha Raman, Radha Vallabh, Pushtimarg, rasika/Nimbarka-richtingen, AOAY/Kriya, NKB, levende ashrams, samadhi's, kunds, sarovars, ghats, heuvels en parikrama-objecten.
+
+Sterke lagen:
+- fysieke kandidatenkaart en clustergrenzen;
+- levende devotionele reden en concrete praktijk op BRONS-niveau;
+- scheiding van historische, institutionele, lineage- en traditiebevestiging;
+- behoud van de twee formele A-ankers;
+- herkenningshaken en tijdelijke ID's;
+- zichtbare detector- en negatieve resultaten.
+
+Niet voldoende voor PASS:
+1. tien functioneel verschillende beelden per kandidaat ontbreken;
+2. review- en ervaringsbasis is niet systematisch genoeg voor definitieve sfeerclassificatie;
+3. actuele bezoekbaarheid en deelname-etiquette zijn grotendeels `PRACTICAL_CHECK_REQUIRED`;
+4. institutionele dragers van meerdere kleine/distributed objecten zijn open;
+5. actuele reistijden en A-naar-rest-matrix ontbreken.
+
+Geen formele of adviserende A/B/C-status is toegekend. Geen PARELS-, ARUNACHALA- of KUMAON-werk is uitgevoerd. Geen route, hotel, nachtenplanning of pipelinewijziging is gemaakt.
+
+ZILVER moet alle dragende fysieke en traditieclaims verifiëren, alle OPEN/high-risk lagen heropenen en vooral de beeld-, review-, visitability-, institutionele- en proximitylagen versterken.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=817 path=research/active/BRAJ-COMPLETE-001/BRONS/report/INDEX.md blob_sha=190ff7d86acbc77643936be69e4e9241220ffae6 original_offset=0 original_length=594 payload_bytes=594 chunk_index=0 chunk_count=1 classification=text
+# BRONS report index — BRAJ-COMPLETE-001
+
+Leesvolgorde:
+1. `01_scope_and_counts.md`
+2. `02_vrindavan_mathura.md`
+3. `03_govardhan.md`
+4. `04_gokul_mahavan.md`
+5. `05_barsana_nandgaon.md`
+6. `06_detectors_and_outside_list.md`
+7. `07_clusters_and_proximity.md`
+8. `08_uncertainties_conflicts_duplicates.md`
+9. `09_conclusion_and_gate.md`
+
+Ondersteunende registers: `../claims.jsonl`, `../sources/registry.jsonl`, `../sources/rejected.jsonl`, `../images.jsonl`, `../experience_reviews.jsonl`, `../proximity.jsonl`, `../place_candidates.jsonl`, `../audit.md`, `../handoff.yaml`.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=818 path=research/active/BRAJ-COMPLETE-001/BRONS/sources/registry.jsonl blob_sha=f703370b0dad4d6243fe9b7ca197fb2840b557e1 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+{"source_id":"BS-001","url":"https://www.katyayanipeeth.org.in/guru-lineage","title":"Guru Lineage","publisher":"Katyayani Trust","source_type":"OFFICIAL_LINEAGE","retrieved_at":"2026-07-15","supports_claims":["BC-001"],"access_status":"OK","notes":"Institutional lineage and own-history source for Katyayani/Keshav Ashram."}
+{"source_id":"BS-002","url":"https://www.katyayanipeeth.org.in/contact","title":"Contact","publisher":"Katyayani Trust","source_type":"OFFICIAL_INSTITUTION","retrieved_at":"2026-07-15","supports_claims":["BC-001"],"access_status":"OK","notes":"Current physical institution/address."}
+{"source_id":"BS-003","url":"https://github.com/bnzgxknwrv-tech/india-knowledge-base/blob/main/research/active/VRINDAVAN-SUPPLEMENT-001/transitions/INDIA2_REGISSEUR_PACKAGE.md","title":"Vrindavan predecessor regisseur package","publisher":"India project repository","source_type":"PRIMARY_TEXT","retrieved_at":"2026-07-15","supports_claims":["BC-001","BC-002","BC-003","BC-004","BC-005","BC-006","BC-007","BC-008"],"access_status":"OK","notes":"Pinned predecessor continuity only; completed artifacts not modified."}
+{"source_id":"BS-004","url":"https://mathura.nic.in/tourist-place/shri-banke-bihari/","title":"Shri Banke Bihari","publisher":"District Mathura, Government of Uttar Pradesh","source_type":"GOVERNMENT","retrieved_at":"2026-07-15","supports_claims":["BC-009"],"access_status":"SEARCH_INDEX_CONFIRMED","notes":"Government physical identity and pilgrimage recognition."}
+{"source_id":"BS-005","url":"https://timesofindia.indiatimes.com/city/agra/banke-bihari-temples-new-panel-bans-vip-passes/articleshow/123856314.cms","title":"Banke Bihari temple management and darshan controls","publisher":"Times of India","source_type":"REPUTABLE_SECONDARY","retrieved_at":"2026-07-15","supports_claims":["BC-009","BC-030"],"access_status":"OK","notes":"Current crowd-control and schedule evidence; volatile practical data."}
+{"source_id":"BS-006","url":"http://www.radharamanmandir.com/","title":"Sri Radha Raman Temple","publisher":"Radha Raman Temple","source_type":"OFFICIAL_INSTITUTION","retrieved_at":"2026-07-15","supports_claims":["BC-010"],"access_status":"SEARCH_INDEX_CONFIRMED","notes":"Official temple identity and lineage."}
+{"source_id":"BS-007","url":"https://iskconvrindavan.com/","title":"ISKCON Vrindavan","publisher":"ISKCON Krishna-Balaram Mandir","source_type":"OFFICIAL_INSTITUTION","retrieved_at":"2026-07-15","supports_claims":["BC-011"],"access_status":"SEARCH_INDEX_CONFIRMED","notes":"Current institution and devotional-program detector."}
+{"source_id":"BS-008","url":"https://mathura.nic.in/tourist-place/shri-dwarkadhish-temple/","title":"Shri Dwarkadhish Temple","publisher":"District Mathura, Government of Uttar Pradesh","source_type":"GOVERNMENT","retrieved_at":"2026-07-15","supports_claims":["BC-015"],"access_status":"SEARCH_INDEX_CONFIRMED","notes":"Physical identity and Pushtimarg association."}
+{"source_id":"BS-009","url":"https://mathura.nic.in/tourist-place/brij-parikrama/","title":"Brij Parikrama","publisher":"District Mathura, Government of Uttar Pradesh","source_type":"GOVERNMENT","retrieved_at":"2026-07-15","supports_claims":["BC-004","BC-005","BC-006","BC-007","BC-008","BC-016","BC-017","BC-018","BC-030","BC-032"],"access_status":"SEARCH_INDEX_CONFIRMED","notes":"Government recognition of Braj pilgrimage circuit and Govardhan context."}
+{"source_id":"BS-010","url":"https://uptourism.gov.in/en/post/vishram-ghat","title":"Vishram Ghat","publisher":"Uttar Pradesh Tourism","source_type":"GOVERNMENT","retrieved_at":"2026-07-15","supports_claims":["BC-014"],"access_status":"SEARCH_INDEX_CONFIRMED","notes":"Official tourism recognition of the physical ghat and devotional use."}
+{"source_id":"BS-011","url":"https://uptourism.gov.in/en/destination/barsana","title":"Barsana","publisher":"Uttar Pradesh Tourism","source_type":"GOVERNMENT","retrieved_at":"2026-07-15","supports_claims":["BC-023","BC-024","BC-025","BC-026","BC-027","BC-028","BC-029","BC-030"],"access_status":"SEARCH_INDEX_CONFIRMED","notes":"Official regional id
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=819 path=research/active/BRAJ-COMPLETE-001/BRONS/sources/registry.jsonl blob_sha=f703370b0dad4d6243fe9b7ca197fb2840b557e1 original_offset=4096 original_length=2539 payload_bytes=2539 chunk_index=1 chunk_count=2 classification=text
+entity and major temple/pilgrimage context."}
+{"source_id":"BS-012","url":"https://radharanimandir.com/","title":"Shri Radha Rani Mandir Barsana","publisher":"Radha Rani Temple","source_type":"OFFICIAL_INSTITUTION","retrieved_at":"2026-07-15","supports_claims":["BC-023"],"access_status":"SEARCH_INDEX_CONFIRMED","notes":"Temple identity, worship and festival detector."}
+{"source_id":"BS-013","url":"https://www.jkp.org.in/kirti-mandir/","title":"Kirti Mandir","publisher":"Jagadguru Kripalu Parishat","source_type":"OFFICIAL_INSTITUTION","retrieved_at":"2026-07-15","supports_claims":["BC-025"],"access_status":"SEARCH_INDEX_CONFIRMED","notes":"Official institution and modern temple identity."}
+{"source_id":"BS-014","url":"https://www.upbtvp.in/","title":"Uttar Pradesh Braj Teerth Vikas Parishad","publisher":"Government of Uttar Pradesh","source_type":"GOVERNMENT","retrieved_at":"2026-07-15","supports_claims":["BC-003","BC-004","BC-005","BC-006","BC-007","BC-008","BC-016","BC-017","BC-018","BC-019","BC-020","BC-021","BC-022","BC-023","BC-024","BC-025","BC-026","BC-027","BC-028","BC-029","BC-030","BC-032"],"access_status":"OK","notes":"Regional statutory preservation/development context; not proof of exclusive daily management."}
+{"source_id":"BS-015","url":"https://www.britannica.com/place/Mathura","title":"Mathura","publisher":"Encyclopaedia Britannica","source_type":"REPUTABLE_SECONDARY","retrieved_at":"2026-07-15","supports_claims":["BC-003","BC-014","BC-015"],"access_status":"OK","notes":"General geographical and historical orientation only."}
+{"source_id":"BS-016","url":"https://timesofindia.indiatimes.com/life-style/travel/destinations/honest-review-why-do-so-many-people-go-completely-blank-and-get-transfixed-before-bihariji-in-vrindavan/articleshow/126325983.cms","title":"Vrindavan and Banke Bihari visitor testimony","publisher":"Times of India","source_type":"DEVOTEE_TESTIMONY","retrieved_at":"2026-07-15","supports_claims":["BC-009"],"access_status":"OK","notes":"Experience layer only; not historical proof."}
+{"source_id":"BS-017","url":"https://mathura.nic.in/","title":"District Mathura official portal","publisher":"District Mathura, Government of Uttar Pradesh","source_type":"GOVERNMENT","retrieved_at":"2026-07-15","supports_claims":["BC-019","BC-020","BC-021","BC-022","BC-027","BC-028","BC-029"],"access_status":"SEARCH_INDEX_CONFIRMED","notes":"Government regional detector for Gokul, Mahavan, Barsana and Nandgaon objects; object-level details require ZILVER verification."}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=820 path=research/active/BRAJ-COMPLETE-001/BRONS/sources/rejected.jsonl blob_sha=497534123e299a979328db8fd7811412e4c1cff3 original_offset=0 original_length=1860 payload_bytes=1860 chunk_index=0 chunk_count=1 classification=text
+{"source_id":"BR-001","url":"generic map hours, commercial travel pages and unsourced visitor listings","reason":"Not authoritative or stable enough for current opening state, restrictions, photography, clothing or temporary closures.","searched_for":"Current visitability and participation rules for all 29 Braj candidates","replacement_source_id":null}
+{"source_id":"BR-002","url":"search-result image thumbnails, duplicated promotional galleries and unverified social-media images","reason":"Did not provide ten independent, attributable and functionally distinct images per candidate.","searched_for":"Ten-function visual dossiers for all Braj candidates","replacement_source_id":null}
+{"source_id":"BR-003","url":"unverified map estimates and generic distance lists","reason":"Current traffic-aware walking and local driving times were not reliably retrieved; no times were guessed.","searched_for":"A-anchor-to-rest travel-time matrix and loop clusters","replacement_source_id":null}
+{"source_id":"BR-004","url":"Wikipedia pages for individual Braj temples and places","reason":"Used only as discovery and link-finding; not allowed to carry core claims.","searched_for":"Candidate discovery, aliases and official-link detection","replacement_source_id":"BS-004"}
+{"source_id":"BR-005","url":"generic devotional blogs and copied lila narratives","reason":"No clear institutional or lineage provenance; unsuitable for carrying physical identity or project-confirmation claims.","searched_for":"Small lila places, samadhi claims and lineage candidates","replacement_source_id":null}
+{"source_id":"BR-006","url":"single visitor reviews and isolated star averages","reason":"Insufficient for a general atmosphere, welcome or maintenance claim.","searched_for":"Candidate-level experience and review patterns","replacement_source_id":"BS-016"}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=821 path=research/active/BRAJ-COMPLETE-001/GOUD/COMPLETED blob_sha=ccf38e0f890ea505c5a35ebe0669fc29708152ba original_offset=0 original_length=1653 payload_bytes=1653 chunk_index=0 chunk_count=1 classification=text
+PARTIAL
+run_id: BRAJ-COMPLETE-001
+role: GOUD
+source_commit: 10e0e4128f1f3f7f0498b4e2612549a8f68ae090
+candidate_counts:
+  existing_canonical: 8
+  temporary_new: 21
+  total: 29
+location_id_assignment:
+  block: 200-299
+  assigned_start: 200
+  assigned_end: 228
+  assigned_count: 29
+outputs:
+  - manifest.yaml
+  - report/INDEX.md
+  - report/01_final_candidate_map.md
+  - report/02_open_layers_and_geo.md
+  - report/03_quality_gate_and_conclusion.md
+  - claims.jsonl
+  - sources/registry.jsonl
+  - sources/rejected.jsonl
+  - images.jsonl
+  - experience_reviews.jsonl
+  - proximity.jsonl
+  - place_candidates.jsonl
+  - geo_locations.jsonl
+  - geo_connections.jsonl
+  - location_id_audit.md
+  - decision_inputs.md
+  - audit.md
+  - decision.md
+  - handoff.yaml
+highest_gaps:
+  - Verified WGS84 visitor entrances or exact sites remain absent for all 29 candidates; LOCATION_ID 221 is identity-conflicted.
+  - Complete ten-function image dossiers remain absent for all 29 candidates.
+  - Systematic recent review and current participation/visitability coverage remains incomplete.
+  - Object-level management and current traffic-aware A-anchor connections remain incomplete.
+validation: Existing GOUD claim resumed without a new claim; all mandatory GOUD artifacts reopened; sentinels checked; all 29 candidates retained; LOCATION_IDs 200-228 unique and inside the Braj block; claim-source references valid and unique; GEO records complete without guessed coordinates; no KML, formal or advisory A/B/C, PARELS activation, archiving, regisseur processing, route, hotel or pipeline modification performed.
+completion_destination: VOOR_SUBREGIE_INDIA
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=822 path=research/active/BRAJ-COMPLETE-001/GOUD/audit.md blob_sha=968cd93629d36ecf1ac0e60ee5003d935a46d066 original_offset=0 original_length=2580 payload_bytes=2580 chunk_index=0 chunk_count=1 classification=text
+# GOUD audit — BRAJ-COMPLETE-001
+
+## Preflight and input integrity
+
+- GitHub read succeeded and authenticated repository permission was `admin` before content work.
+- `NEXT_ACTION.yaml` designated `BRAJ-COMPLETE-001-GOUD-001`, route GOUD, expected state `READY_FOR_GOUD` and the pinned GOUD context.
+- Before claim, state and eventlog both ended on `EVT-0011`; no valid claim existed.
+- All eleven expected ZILVER blob SHAs matched exactly.
+- Every required file was fully read and ended with `END_OF_ARTIFACT`.
+- No forbidden file was read or modified before GOUD output creation.
+
+## Scope integrity
+
+- All 29 candidates were preserved: eight existing canonical records and 21 temporary Braj candidates.
+- Existing formal statuses were not reassessed or changed.
+- Potential later C locations remain present in every candidate-level dataset.
+- No PARELS, ARUNACHALA, KUMAON, hotel, route, KML, A/B/C advice or pipeline architecture work was performed.
+
+## LOCATION_ID and GEO audit
+
+- Unique permanent IDs `200–228` were assigned inside the active Braj block `200–299`.
+- No duplicate, overlap, reuse or out-of-block value exists.
+- Every candidate has exactly one `geo_locations.jsonl` record.
+- The pinned context contains no independently verified WGS84 visitor entrance or exact site point. All coordinates therefore remain null and `NOT_ESTABLISHED`; LOCATION_ID 221 is `CONFLICTED` because physical identity remains unresolved.
+- Google Maps search URLs are locator leads only and are not treated as verified points.
+- Every connection has source/method, check date and status. No distance or time is guessed without verified endpoints.
+
+## Claim and source integrity
+
+- Claims `GC-001` through `GC-034` are unique.
+- Accepted IDs `ZS-001` through `ZS-020` plus `GS-021` are unique.
+- Rejected IDs `ZR-001` through `ZR-006` plus `GR-007` are unique.
+- Every source ID used by a claim exists exactly once in accepted or rejected registers.
+- Reviews and images carry only experience, visual and practical observations.
+- Tradition and lineage were not downgraded because classical historical evidence is absent.
+
+## Layer result
+
+- Candidate map and devotional confirmation: PASS with one preserved identity conflict.
+- Permanent LOCATION_ID assignment: PASS.
+- WGS84 verification: OPEN/HIGH for all 29 candidates.
+- Images: OPEN/HIGH; no complete ten-function dossier.
+- Reviews, participation and visitability: OPEN/HIGH.
+- Object-level management: OPEN/MEDIUM_HIGH.
+- Proximity and traffic-aware A-anchor matrix: OPEN/HIGH.
+
+Final result: PARTIAL.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=823 path=research/active/BRAJ-COMPLETE-001/GOUD/claims.jsonl blob_sha=5ac371bb16d3e3c51cb3ff179e07bd81a0c54383 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+{"claim_id":"GC-001","candidate_id":"IND-PLACE-000001","claim_type":"PHYSICAL_IDENTITY","claim_text":"Katyayani Peeth / Keshav Ashram remains a distinct retained Braj candidate and is assigned permanent LOCATION_ID 200.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["GS-021"],"notes":"Candidate identity preserved from validated ZILVER; practical gaps: current access, clothing and photography."}
+{"claim_id":"GC-002","candidate_id":"IND-PLACE-000002","claim_type":"PHYSICAL_IDENTITY","claim_text":"Neem Karoli Baba Ashram and Samadhi, Vrindavan remains a distinct retained Braj candidate and is assigned permanent LOCATION_ID 201.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["GS-021"],"notes":"Candidate identity preserved from validated ZILVER; practical gaps: operator, programme and visitor rules."}
+{"claim_id":"GC-003","candidate_id":"IND-PLACE-000003","claim_type":"PHYSICAL_IDENTITY","claim_text":"Shri Krishna Janmabhoomi / Janmasthan remains a distinct retained Braj candidate and is assigned permanent LOCATION_ID 202.","evidence_status":"TRADITION_CONFIRMED","source_ids":["GS-021"],"notes":"Candidate identity preserved from validated ZILVER; practical gaps: security, prohibited items and timings."}
+{"claim_id":"GC-004","candidate_id":"IND-PLACE-000004","claim_type":"PHYSICAL_IDENTITY","claim_text":"Radha Kund remains a distinct retained Braj candidate and is assigned permanent LOCATION_ID 203.","evidence_status":"TRADITION_CONFIRMED","source_ids":["GS-021"],"notes":"Candidate identity preserved from validated ZILVER; practical gaps: water, management, access and photography."}
+{"claim_id":"GC-005","candidate_id":"IND-PLACE-000005","claim_type":"PHYSICAL_IDENTITY","claim_text":"Shyam Kund remains a distinct retained Braj candidate and is assigned permanent LOCATION_ID 204.","evidence_status":"TRADITION_CONFIRMED","source_ids":["GS-021"],"notes":"Candidate identity preserved from validated ZILVER; practical gaps: water, management, access and photography."}
+{"claim_id":"GC-006","candidate_id":"IND-PLACE-000006","claim_type":"PHYSICAL_IDENTITY","claim_text":"Govardhan Hill remains a distinct retained Braj candidate and is assigned permanent LOCATION_ID 205.","evidence_status":"TRADITION_CONFIRMED","source_ids":["GS-021"],"notes":"Candidate identity preserved from validated ZILVER; practical gaps: section access and protection rules."}
+{"claim_id":"GC-007","candidate_id":"IND-PLACE-000007","claim_type":"PHYSICAL_IDENTITY","claim_text":"Govardhan Parikrama remains a distinct retained Braj candidate and is assigned permanent LOCATION_ID 206.","evidence_status":"TRADITION_CONFIRMED","source_ids":["GS-021"],"notes":"Candidate identity preserved from validated ZILVER; practical gaps: heat, traffic, barefoot custom and festival pressure."}
+{"claim_id":"GC-008","candidate_id":"IND-PLACE-000008","claim_type":"PHYSICAL_IDENTITY","claim_text":"Kusum Sarovar remains a distinct retained Braj candidate and is assigned permanent LOCATION_ID 207.","evidence_status":"TRADITION_CONFIRMED","source_ids":["GS-021"],"notes":"Candidate identity preserved from validated ZILVER; practical gaps: object practice, manager and water condition."}
+{"claim_id":"GC-009","candidate_id":"BRJ-TMP-009","claim_type":"PHYSICAL_IDENTITY","claim_text":"Banke Bihari Temple remains a distinct retained Braj candidate and is assigned permanent LOCATION_ID 208.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["GS-021"],"notes":"Candidate identity preserved from validated ZILVER; practical gaps: management, queues and timings."}
+{"claim_id":"GC-010","candidate_id":"BRJ-TMP-010","claim_type":"PHYSICAL_IDENTITY","claim_text":"Radha Raman Temple remains a distinct retained Braj candidate and is assigned permanent LOCATION_ID 209.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["GS-021"],"notes":"Candidate identity preserved from validated ZILVER; practical gaps: schedule and photography."}
+{"claim_id":"GC-011","candidate_id":"BRJ-TMP-011","claim_type":"PHYSICAL_IDENTITY","claim_text":"ISKCON Krishna-Balaram Mandir remain
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=824 path=research/active/BRAJ-COMPLETE-001/GOUD/claims.jsonl blob_sha=5ac371bb16d3e3c51cb3ff179e07bd81a0c54383 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+s a distinct retained Braj candidate and is assigned permanent LOCATION_ID 210.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["GS-021"],"notes":"Candidate identity preserved from validated ZILVER; practical gaps: current programme."}
+{"claim_id":"GC-012","candidate_id":"BRJ-TMP-012","claim_type":"PHYSICAL_IDENTITY","claim_text":"Nidhivan and Swami Haridas Complex remains a distinct retained Braj candidate and is assigned permanent LOCATION_ID 211.","evidence_status":"TRADITION_CONFIRMED","source_ids":["GS-021"],"notes":"Candidate identity preserved from validated ZILVER; practical gaps: night closure and photography."}
+{"claim_id":"GC-013","candidate_id":"BRJ-TMP-013","claim_type":"PHYSICAL_IDENTITY","claim_text":"Radha Vallabh Temple remains a distinct retained Braj candidate and is assigned permanent LOCATION_ID 212.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["GS-021"],"notes":"Candidate identity preserved from validated ZILVER; practical gaps: current practical rules."}
+{"claim_id":"GC-014","candidate_id":"BRJ-TMP-014","claim_type":"PHYSICAL_IDENTITY","claim_text":"Vishram Ghat remains a distinct retained Braj candidate and is assigned permanent LOCATION_ID 213.","evidence_status":"TRADITION_CONFIRMED","source_ids":["GS-021"],"notes":"Candidate identity preserved from validated ZILVER; practical gaps: water, boats, photography and access."}
+{"claim_id":"GC-015","candidate_id":"BRJ-TMP-015","claim_type":"PHYSICAL_IDENTITY","claim_text":"Dwarkadhish Temple, Mathura remains a distinct retained Braj candidate and is assigned permanent LOCATION_ID 214.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["GS-021"],"notes":"Candidate identity preserved from validated ZILVER; practical gaps: schedule and restrictions."}
+{"claim_id":"GC-016","candidate_id":"BRJ-TMP-016","claim_type":"PHYSICAL_IDENTITY","claim_text":"Mansi Ganga remains a distinct retained Braj candidate and is assigned permanent LOCATION_ID 215.","evidence_status":"TRADITION_CONFIRMED","source_ids":["GS-021"],"notes":"Candidate identity preserved from validated ZILVER; practical gaps: manager and water condition."}
+{"claim_id":"GC-017","candidate_id":"BRJ-TMP-017","claim_type":"PHYSICAL_IDENTITY","claim_text":"Daan Ghati Temple remains a distinct retained Braj candidate and is assigned permanent LOCATION_ID 216.","evidence_status":"TRADITION_CONFIRMED","source_ids":["GS-021"],"notes":"Candidate identity preserved from validated ZILVER; practical gaps: manager and crowd regime."}
+{"claim_id":"GC-018","candidate_id":"BRJ-TMP-018","claim_type":"PHYSICAL_IDENTITY","claim_text":"Jatipura Mukharvind remains a distinct retained Braj candidate and is assigned permanent LOCATION_ID 217.","evidence_status":"TRADITION_CONFIRMED","source_ids":["GS-021"],"notes":"Candidate identity preserved from validated ZILVER; practical gaps: institution and etiquette."}
+{"claim_id":"GC-019","candidate_id":"BRJ-TMP-019","claim_type":"PHYSICAL_IDENTITY","claim_text":"Raman Reti remains a distinct retained Braj candidate and is assigned permanent LOCATION_ID 218.","evidence_status":"TRADITION_CONFIRMED","source_ids":["GS-021"],"notes":"Candidate identity preserved from validated ZILVER; practical gaps: operator, programme and photography."}
+{"claim_id":"GC-020","candidate_id":"BRJ-TMP-020","claim_type":"PHYSICAL_IDENTITY","claim_text":"Chaurasi Khamba / Nand Bhavan, Mahavan remains a distinct retained Braj candidate and is assigned permanent LOCATION_ID 219.","evidence_status":"TRADITION_CONFIRMED","source_ids":["GS-021"],"notes":"Candidate identity preserved from validated ZILVER; practical gaps: historical age and institution."}
+{"claim_id":"GC-021","candidate_id":"BRJ-TMP-021","claim_type":"PHYSICAL_IDENTITY","claim_text":"Brahmand Ghat remains a distinct retained Braj candidate and is assigned permanent LOCATION_ID 220.","evidence_status":"TRADITION_CONFIRMED","source_ids":["GS-021"],"notes":"Candidate identity preserved from validated ZILVER; practical gaps: water, maintenance and access."}
+{"claim_id":"GC-022","candidate_id":"BRJ-TMP-022","
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=825 path=research/active/BRAJ-COMPLETE-001/GOUD/claims.jsonl blob_sha=5ac371bb16d3e3c51cb3ff179e07bd81a0c54383 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+claim_type":"PHYSICAL_IDENTITY","claim_text":"Gokulnath Temple / Nand-Yashoda Bhavan, Gokul remains a distinct retained Braj candidate and is assigned permanent LOCATION_ID 221.","evidence_status":"CONFLICTED","source_ids":["GS-021"],"notes":"Candidate identity preserved from validated ZILVER; practical gaps: aliases, boundary and institution."}
+{"claim_id":"GC-023","candidate_id":"BRJ-TMP-023","claim_type":"PHYSICAL_IDENTITY","claim_text":"Radha Rani Temple / Shriji Temple remains a distinct retained Braj candidate and is assigned permanent LOCATION_ID 222.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["GS-021"],"notes":"Candidate identity preserved from validated ZILVER; practical gaps: ordinary access, festivals and photography."}
+{"claim_id":"GC-024","candidate_id":"BRJ-TMP-024","claim_type":"PHYSICAL_IDENTITY","claim_text":"Maan Mandir / Maan Garh remains a distinct retained Braj candidate and is assigned permanent LOCATION_ID 223.","evidence_status":"TRADITION_CONFIRMED","source_ids":["GS-021"],"notes":"Candidate identity preserved from validated ZILVER; practical gaps: lineage institution and programme."}
+{"claim_id":"GC-025","candidate_id":"BRJ-TMP-025","claim_type":"PHYSICAL_IDENTITY","claim_text":"Kirti Mandir / Rangeeli Mahal remains a distinct retained Braj candidate and is assigned permanent LOCATION_ID 224.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["GS-021"],"notes":"Candidate identity preserved from validated ZILVER; practical gaps: programme and photography."}
+{"claim_id":"GC-026","candidate_id":"BRJ-TMP-026","claim_type":"PHYSICAL_IDENTITY","claim_text":"Prem Sarovar remains a distinct retained Braj candidate and is assigned permanent LOCATION_ID 225.","evidence_status":"TRADITION_CONFIRMED","source_ids":["GS-021"],"notes":"Candidate identity preserved from validated ZILVER; practical gaps: manager, water and recurring ritual."}
+{"claim_id":"GC-027","candidate_id":"BRJ-TMP-027","claim_type":"PHYSICAL_IDENTITY","claim_text":"Nand Bhavan / Nand Baba Temple, Nandgaon remains a distinct retained Braj candidate and is assigned permanent LOCATION_ID 226.","evidence_status":"TRADITION_CONFIRMED","source_ids":["GS-021"],"notes":"Candidate identity preserved from validated ZILVER; practical gaps: timings, photography and festival pressure."}
+{"claim_id":"GC-028","candidate_id":"BRJ-TMP-028","claim_type":"PHYSICAL_IDENTITY","claim_text":"Pavana Sarovar remains a distinct retained Braj candidate and is assigned permanent LOCATION_ID 227.","evidence_status":"TRADITION_CONFIRMED","source_ids":["GS-021"],"notes":"Candidate identity preserved from validated ZILVER; practical gaps: manager, water and ritual."}
+{"claim_id":"GC-029","candidate_id":"BRJ-TMP-029","claim_type":"PHYSICAL_IDENTITY","claim_text":"Ter Kadamba remains a distinct retained Braj candidate and is assigned permanent LOCATION_ID 228.","evidence_status":"TRADITION_CONFIRMED","source_ids":["GS-021"],"notes":"Candidate identity preserved from validated ZILVER; practical gaps: operator, access and programme."}
+{"claim_id":"GC-030","candidate_id":"ALL-29","claim_type":"VISUAL_CONDITION","claim_text":"No candidate has a complete ten-function image dossier.","evidence_status":"NOT_ESTABLISHED","source_ids":["ZR-004"],"notes":"Validated ZILVER shortfall preserved."}
+{"claim_id":"GC-031","candidate_id":"ALL-29","claim_type":"EXPERIENCE","claim_text":"Systematic recent multi-source review coverage remains incomplete.","evidence_status":"NOT_ESTABLISHED","source_ids":["ZR-003"],"notes":"Thematic signals only."}
+{"claim_id":"GC-032","candidate_id":"ALL-29","claim_type":"VISITABILITY","claim_text":"Complete current access, clothing, photography and closure regimes remain practical checks.","evidence_status":"PRACTICAL_CHECK_REQUIRED","source_ids":["ZR-001"],"notes":"Applied individually."}
+{"claim_id":"GC-033","candidate_id":"ALL-29","claim_type":"PROXIMITY","claim_text":"No current traffic-aware A-anchor matrix is established because verified GEO endpoints are absent.","evidence_status":"PRACTICAL_CHECK_REQUIRED","source_ids":["ZR
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=826 path=research/active/BRAJ-COMPLETE-001/GOUD/claims.jsonl blob_sha=5ac371bb16d3e3c51cb3ff179e07bd81a0c54383 original_offset=12288 original_length=342 payload_bytes=342 chunk_index=3 chunk_count=4 classification=text
+-005","GR-007"],"notes":"No time guessed."}
+{"claim_id":"GC-034","candidate_id":"ALL-29","claim_type":"PHYSICAL_IDENTITY","claim_text":"Permanent LOCATION_IDs 200 through 228 are uniquely assigned inside the Braj block.","evidence_status":"HISTORICALLY_DOCUMENTED","source_ids":["GS-021"],"notes":"Decision and block policy."}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=827 path=research/active/BRAJ-COMPLETE-001/GOUD/decision.md blob_sha=9a0c68ef4549133f62a1d487be5e4836267cfd17 original_offset=0 original_length=1380 payload_bytes=1380 chunk_index=0 chunk_count=1 classification=text
+# GOUD release decision — BRAJ-COMPLETE-001
+
+result_status: PARTIAL
+
+The complete 29-candidate Braj dossier is technically coherent and suitable for SUBREGIE INDIA validation. All candidates and existing formal statuses are preserved. Permanent LOCATION_IDs `200–228` are uniquely assigned within the reserved Braj block and appear consistently in the candidate, GEO, proximity, image, review and decision-input layers.
+
+The hard PASS gate is not met because the pinned context contains no independently verified WGS84 visitor entrance or exact site point for any candidate. All coordinates remain null and no KML, route time or distance is guessed.
+
+Highest gaps:
+1. Verified WGS84 visitor entrances or exact site points remain absent for all 29 candidates; LOCATION_ID 221 is additionally identity-conflicted.
+2. Complete ten-function visual dossiers remain absent for all 29 candidates.
+3. Systematic recent review, current participation and visitability coverage remains incomplete.
+4. Object-level management remains unresolved for multiple distributed and small objects.
+5. A current traffic-aware matrix from both preserved A anchors remains unavailable because verified GEO endpoints are absent.
+
+No formal or advisory A/B/C, PARELS activation, KML, hotel selection, final route, archiving, regisseur processing or pipeline modification was performed.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=828 path=research/active/BRAJ-COMPLETE-001/GOUD/decision_inputs.md blob_sha=2ad6103fe740b9c93b3257adc204d605a249b9f4 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# GOUD decision inputs — BRAJ-COMPLETE-001
+
+Each entry preserves the permanent LOCATION_ID for SUBREGIE INDIA and INDIA2. No advisory A/B/C is included.
+
+| ID | Place | Recognition hook | Devotional reason and practice | Participation / atmosphere | Confirmation | Practical and GEO control |
+|---|---|---|---|---|---|---|
+| 200 | Katyayani Peeth / Keshav Ashram | Devi and Keshavanand-Lahiri anchor | Darshan, pooja, seva | Participation plausible; intimate ashram-temple | Institution and lineage confirmed | Access, dress, photography and WGS84 entrance recheck |
+| 201 | Neem Karoli Baba Ashram and Samadhi | Maharaj-ji lineage and samadhi | Quiet darshan, prayer, sitting | Quiet devotional setting | Lineage confirmed | Operator, programme, visitor rules and WGS84 entrance unresolved |
+| 202 | Shri Krishna Janmabhoomi | Krishna birthplace complex | Darshan and worship | Intense, security-heavy urban visit | Tradition confirmed | Security, prohibited items, timings and entrance point recheck |
+| 203 | Radha Kund | Radha sacred kund | Waterside devotion and parikrama | Sacred with commerce and water concerns | Tradition confirmed | Bathing, water, management, photography and access point recheck |
+| 204 | Shyam Kund | Krishna sacred kund | Waterside devotion and parikrama | Sacred, crowded and water-sensitive | Tradition confirmed | Same practical and GEO controls as Radha Kund |
+| 205 | Govardhan Hill | Giriraj sacred landscape | Veneration and parikrama context | Sacred landscape with heat and traffic | Tradition confirmed | Section rules; no arbitrary centre point |
+| 206 | Govardhan Parikrama | Continuing Giriraj circuit | Walking pilgrimage | Immersive and strenuous | Living practice confirmed | Heat, traffic, barefoot custom; route cannot use one arbitrary point |
+| 207 | Kusum Sarovar | Monumental sacred-water heritage | Pilgrim passage and contemplation | Scenic and monumental | Physical identity institutionally confirmed | Manager, practice, water and visitor approach unresolved |
+| 208 | Banke Bihari Temple | Swami Haridas-linked darshan temple | Intense darshan | Absorbing devotion and extreme crowds | Institution confirmed | Queues, management, timings and active entrance volatile |
+| 209 | Radha Raman Temple | Gopala Bhatta lineage temple | Darshan and seva | Intimate ritual atmosphere | Lineage confirmed | Schedule, photography and entrance recheck |
+| 210 | ISKCON Krishna-Balaram Mandir | International Gaudiya temple | Kirtan, darshan, teaching | Organized and comparatively welcoming | Institution confirmed | Current programme and visitor gate recheck |
+| 211 | Nidhivan | Sacred grove and Haridas complex | Darshan and grove visit | Mystical with tourist pressure | Tradition confirmed | Strict night closure, photography and controlled entrance recheck |
+| 212 | Radha Vallabh Temple | Radha Vallabh lineage temple | Darshan and worship | Old-Vrindavan devotion | Institution confirmed | Practical rules and entrance recheck |
+| 213 | Vishram Ghat | Yamuna aarti ghat | Aarti, offerings, parikrama | Devotional, commercial, variable cleanliness | Living practice confirmed | Water, boats, photography and exact access point recheck |
+| 214 | Dwarkadhish Temple | Pushtimarg Krishna temple | Darshan and bhajan | Architectural, urban and busy | Institution confirmed | Schedule, restrictions and entrance recheck |
+| 215 | Mansi Ganga | Sacred-water parikrama object | Waterside devotion | Parikrama atmosphere | Tradition confirmed | Manager, water and ritual access point recheck |
+| 216 | Daan Ghati Temple | Giriraj darshan stop | Darshan and offerings | Active and commercial | Tradition confirmed | Manager, crowd regime and entrance recheck |
+| 217 | Jatipura Mukharvind | Giriraj offering shrine | Offerings and darshan | Direct ritual focus | Tradition confirmed | Institution, offering etiquette, photography and point recheck |
+| 218 | Raman Reti | Krishna childhood sand field | Sand participation and worship | Open and family-oriented | Tradition confirmed | Operator, programme, photography and entrance recheck |
+| 219 | C
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=829 path=research/active/BRAJ-COMPLETE-001/GOUD/decision_inputs.md blob_sha=2ad6103fe740b9c93b3257adc204d605a249b9f4 original_offset=4096 original_length=2140 payload_bytes=2140 chunk_index=1 chunk_count=2 classification=text
+haurasi Khamba / Nand Bhavan, Mahavan | Pillared childhood house-place | Darshan and remembrance | Heritage atmosphere | Tradition confirmed | Historical age, institution and entrance recheck |
+| 220 | Brahmand Ghat | Krishna childhood ghat | Ghat and shrine devotion | Quiet with maintenance uncertainty | Tradition confirmed | Water, maintenance and access point recheck |
+| 221 | Gokulnath / Nand-Yashoda Bhavan, Gokul | Conflicted Gokul house-place | Not safely synthesized | Not established | Physical identity conflicted | Resolve aliases, boundary and institution before GEO or route use |
+| 222 | Radha Rani / Shriji Temple | Barsana hilltop Radha temple | Hilltop darshan | Strong devotion, views, stairs and festival pressure | Institution confirmed | Ordinary access, festivals, photography and approach recheck |
+| 223 | Maan Mandir / Maan Garh | Barsana bhajan and lila-place | Bhajan and seva | Quiet hill atmosphere | Supported secondary | Lineage institution, programme and entrance recheck |
+| 224 | Kirti Mandir / Rangeeli Mahal | Radha-with-Kirti modern temple | Darshan and seva | Polished and organized | Institution confirmed | Programme, photography and visitor gate recheck |
+| 225 | Prem Sarovar | Barsana sacred-water object | Contemplation and local devotion | Quiet water setting | Supported secondary | Manager, water, ritual and access point unresolved |
+| 226 | Nand Bhavan / Nand Baba Temple | Nandgaon family-home temple | Hilltop darshan | Devotion, views, stairs and festivals | Tradition confirmed | Timings, photography and hill approach recheck |
+| 227 | Pavana Sarovar | Nandgaon sacred-water object | Contemplation and local devotion | Quiet water setting | Supported secondary | Manager, water, ritual and access point unresolved |
+| 228 | Ter Kadamba | Rupa Goswami bhajan/lila-place | Quiet bhajan remembrance | Quiet Gaudiya atmosphere | Tradition confirmed | Operator, programme, access and exact point recheck |
+
+All GEO fields remain `NOT_ESTABLISHED` until a visitor entrance or exact site point is independently verified. Cluster relations are retained without travel times.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=830 path=research/active/BRAJ-COMPLETE-001/GOUD/experience_reviews.jsonl blob_sha=bd1d5807f3971fb10b925c64b8bf35b0bcb0da15 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+{"review_id":"GER-001","location_id":"200","candidate_id":"IND-PLACE-000001","platform":"VALIDATED_ZILVER_SYNTHESIS","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["intimate temple-ashram"],"negative_themes":["current access, clothing and photography"],"basis_reliability":"PARTIAL","notes":"Systematic recent multi-platform sample remains incomplete."}
+{"review_id":"GER-002","location_id":"201","candidate_id":"IND-PLACE-000002","platform":"VALIDATED_ZILVER_SYNTHESIS","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["quiet devotional setting"],"negative_themes":["operator, programme and visitor rules"],"basis_reliability":"PARTIAL","notes":"Systematic recent multi-platform sample remains incomplete."}
+{"review_id":"GER-003","location_id":"202","candidate_id":"IND-PLACE-000003","platform":"VALIDATED_ZILVER_SYNTHESIS","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["intense worship"],"negative_themes":["security, prohibited items and timings"],"basis_reliability":"PARTIAL","notes":"Systematic recent multi-platform sample remains incomplete."}
+{"review_id":"GER-004","location_id":"203","candidate_id":"IND-PLACE-000004","platform":"VALIDATED_ZILVER_SYNTHESIS","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["sacred kund atmosphere"],"negative_themes":["water, management, access and photography"],"basis_reliability":"PARTIAL","notes":"Systematic recent multi-platform sample remains incomplete."}
+{"review_id":"GER-005","location_id":"204","candidate_id":"IND-PLACE-000005","platform":"VALIDATED_ZILVER_SYNTHESIS","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["sacred kund atmosphere"],"negative_themes":["water, management, access and photography"],"basis_reliability":"PARTIAL","notes":"Systematic recent multi-platform sample remains incomplete."}
+{"review_id":"GER-006","location_id":"205","candidate_id":"IND-PLACE-000006","platform":"VALIDATED_ZILVER_SYNTHESIS","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["sacred landscape"],"negative_themes":["section access and protection rules"],"basis_reliability":"PARTIAL","notes":"Systematic recent multi-platform sample remains incomplete."}
+{"review_id":"GER-007","location_id":"206","candidate_id":"IND-PLACE-000007","platform":"VALIDATED_ZILVER_SYNTHESIS","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["immersive pilgrimage"],"negative_themes":["heat, traffic, barefoot custom and festival pressure"],"basis_reliability":"PARTIAL","notes":"Systematic recent multi-platform sample remains incomplete."}
+{"review_id":"GER-008","location_id":"207","candidate_id":"IND-PLACE-000008","platform":"VALIDATED_ZILVER_SYNTHESIS","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["monumental and scenic"],"negative_themes":["object practice, manager and water condition"],"basis_reliability":"PARTIAL","notes":"Systematic recent multi-platform sample remains incomplete."}
+{"review_id":"GER-009","location_id":"208","candidate_id":"BRJ-TMP-009","platform":"VALIDATED_ZILVER_SYNTHESIS","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["intense devotion"],"negative_themes":["extreme crowding, management, queues and timings"],"basis_reliability":"PARTIAL","notes":"Current testimony and news are usable but not a systematic platform sample."}
+{"review_id":"GER-010","location_id":"209","candidate_id":"BRJ-TMP-010","platform":"VALIDATED_ZILVER_SYNTHESIS","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["intimate ritual atmosphere"],"negative_themes":["schedule and photography uncertainty"],"basis_reliability":"PARTIAL","notes":"Systematic recent multi-platform sample remains incomplete."}
+{"review_id":"GER-011","location_id":"210","candidate_id":"BRJ-TMP-011","platform":"VALIDATED_ZILVER_SYNTHESIS","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["organized international welcome and kirtan"],"negativ
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=831 path=research/active/BRAJ-COMPLETE-001/GOUD/experience_reviews.jsonl blob_sha=bd1d5807f3971fb10b925c64b8bf35b0bcb0da15 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+e_themes":["busy institutional setting and current programme uncertainty"],"basis_reliability":"PARTIAL","notes":"Official programme basis is stronger than the independent review sample."}
+{"review_id":"GER-012","location_id":"211","candidate_id":"BRJ-TMP-012","platform":"VALIDATED_ZILVER_SYNTHESIS","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["mystical grove atmosphere"],"negative_themes":["tourist pressure, night closure and photography"],"basis_reliability":"PARTIAL","notes":"Systematic recent multi-platform sample remains incomplete."}
+{"review_id":"GER-013","location_id":"212","candidate_id":"BRJ-TMP-013","platform":"VALIDATED_ZILVER_SYNTHESIS","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["old-Vrindavan devotion"],"negative_themes":["current practical rules"],"basis_reliability":"PARTIAL","notes":"Systematic recent multi-platform sample remains incomplete."}
+{"review_id":"GER-014","location_id":"213","candidate_id":"BRJ-TMP-014","platform":"VALIDATED_ZILVER_SYNTHESIS","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["Yamuna aarti atmosphere"],"negative_themes":["water, commerce, boats, photography and access"],"basis_reliability":"PARTIAL","notes":"Systematic recent multi-platform sample remains incomplete."}
+{"review_id":"GER-015","location_id":"214","candidate_id":"BRJ-TMP-015","platform":"VALIDATED_ZILVER_SYNTHESIS","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["architecture and bhajan"],"negative_themes":["urban crowding, schedule and restrictions"],"basis_reliability":"PARTIAL","notes":"Systematic recent multi-platform sample remains incomplete."}
+{"review_id":"GER-016","location_id":"215","candidate_id":"BRJ-TMP-016","platform":"VALIDATED_ZILVER_SYNTHESIS","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["parikrama atmosphere"],"negative_themes":["manager and water condition"],"basis_reliability":"PARTIAL","notes":"Systematic recent multi-platform sample remains incomplete."}
+{"review_id":"GER-017","location_id":"216","candidate_id":"BRJ-TMP-017","platform":"VALIDATED_ZILVER_SYNTHESIS","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["active Giriraj darshan"],"negative_themes":["commerce, manager and crowd regime"],"basis_reliability":"PARTIAL","notes":"Systematic recent multi-platform sample remains incomplete."}
+{"review_id":"GER-018","location_id":"217","candidate_id":"BRJ-TMP-018","platform":"VALIDATED_ZILVER_SYNTHESIS","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["direct offering practice"],"negative_themes":["institution and etiquette uncertainty"],"basis_reliability":"PARTIAL","notes":"Systematic recent multi-platform sample remains incomplete."}
+{"review_id":"GER-019","location_id":"218","candidate_id":"BRJ-TMP-019","platform":"VALIDATED_ZILVER_SYNTHESIS","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["open and family-oriented devotional space"],"negative_themes":["operator, programme and photography"],"basis_reliability":"PARTIAL","notes":"Systematic recent multi-platform sample remains incomplete."}
+{"review_id":"GER-020","location_id":"219","candidate_id":"BRJ-TMP-020","platform":"VALIDATED_ZILVER_SYNTHESIS","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["pillared heritage atmosphere"],"negative_themes":["historical age and institution"],"basis_reliability":"PARTIAL","notes":"Systematic recent multi-platform sample remains incomplete."}
+{"review_id":"GER-021","location_id":"220","candidate_id":"BRJ-TMP-021","platform":"VALIDATED_ZILVER_SYNTHESIS","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["quiet lila remembrance"],"negative_themes":["water, maintenance and access"],"basis_reliability":"PARTIAL","notes":"Systematic recent multi-platform sample remains incomplete."}
+{"review_id":"GER-022","location_id":"221","candidate_id":"BRJ-TMP-022","platform":"IDENTITY_BLOCKED","score":null,"review_count
+<<< END CHUNK >>>
+

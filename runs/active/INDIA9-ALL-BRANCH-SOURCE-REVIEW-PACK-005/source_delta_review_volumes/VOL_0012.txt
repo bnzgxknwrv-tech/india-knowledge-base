@@ -1,0 +1,679 @@
+>>> CHUNK stream_row=162 path=governance/INDIA_SESSION_START.md blob_sha=c00f799718ac962e5a471976b5658210bb952c78 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=6 classification=text
+# INDIA_SESSION_START — duurzame bootstrap voor iedere nieuwe INDIA-regisseursessie
+
+Snapshot: 2026-08-18 23:59 CEST
+
+## LATEST ACTION — CCI_TASK 093 AFGEROND (CCI, 2026-08-19)
+
+Resultaat:
+- `runs/active/TOP11-RAMANA-RAMAKRISHNA-V2-PRE-EXTERNAL-001/RAMANA_MAHARSHI_V2_PRE_EXTERNAL_FREEZE.md`
+  (23 records)
+- `runs/active/TOP11-RAMANA-RAMAKRISHNA-V2-PRE-EXTERNAL-001/RAMAKRISHNA_V2_PRE_EXTERNAL_FREEZE.md`
+  (19 records)
+- checkpoint commits: `6e3f939` (Ramana Maharshi), `12e99c1` (Ramakrishna)
+
+Verse blinde METHOD_V2 pre-external freezes vanaf nul, blind voor `agent/chatgpt-top11-parallel-
+sweep` én het nieuw ontdekte `agent/indiageel-ramana-ramakrishna-sweep` (IndiaGEEL — een vierde
+parallelle detector, kennelijk door Mark opgestart). Primaire bronnen: B.V. Narasimha Swami's
+*Self-Realisation* (Ramana Maharshi) en Swami Saradananda's *Sri Ramakrishna, the Great Master*
+(Ramakrishna) — beide volledig gedownload van archive.org en gericht op plaatsnamen doorzocht.
+Opmerkelijke bevinding: Ramana Maharshi verliet Tiruvannamalai, voor zover in deze pas gevonden,
+na zijn aankomst op 1 september 1896 nooit meer. Ramakrishna's freeze bevat de volledige grote
+pelgrimsreis plus een expliciete negatieve controle (Baranagar-klooster, postuum gesticht). Beide
+`SATURATED: NEE`.
+
+**NU_DOEN:** CCI stopt na de resultaatenvelop op PR #23 en wacht op INDIA-QA. Een aparte
+multi-detector-reconciliatietaak (extern ChatGPT + IndiaGEEL) voor deze twee personen volgt pas na
+een nieuwe INDIA-opdracht — niet automatisch gestart.
+
+## PREVIOUS ACTION — CCI_TASK 092 AFGEROND (CCI, 2026-08-19)
+
+Resultaat:
+- `runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/RECONCILIATION_RESULT.md`
+- `BABAJI_INDIAROOD_DELTA.md`, `LAHIRI_MAHASAYA_INDIAROOD_DELTA.md`,
+  `SRI_YUKTESWAR_INDIAROOD_DELTA.md`, `INDIAROOD_DELTA_MATRIX.jsonl` (120 regels)
+- DELTA-paragrafen toegevoegd aan alle drie CCI_TASK 088-reconciliatiebestanden
+- checkpoint commits: `3019884` (Babaji), `9338c4f` (Lahiri Mahasaya), `2889174` (Sri Yukteswar)
+
+Volledige drieweg-reconciliatie (intern/extern-088/IndiaROOD) voor Babaji (50 IndiaROOD-records),
+Lahiri Mahasaya (40+6) en Sri Yukteswar (42+14), alle drie vooraf blob-SHA-geverifieerd.
+Belangrijkste bevindingen: een volledig nieuwe Babaji-claimanttraditie (Hansavedas/Tryambaknath)
+Tier-1 woordelijk bevestigd op hansavedas.org — het duidelijkste bewijs van echte
+detectordiversiteit tot nu toe; Haidakhan-tak uitgebreid van 3 naar 19 records. Voor Lahiri
+Mahasaya vier Tier-1-bevestigde vondsten, waarvan drie (postmortale Keshabananda/Panchanon/
+Pranabananda-verschijningen) een echte lossless-gap in de oorspronkelijke interne freeze dichten
+(AOAY hfst. 36 zelf); twee onopgeloste conflicten (Ranikhet-transferjaar 1861/1868;
+Bishnupur-1886-huwelijk). Voor Sri Yukteswar twee Tier-1-bevestigde vondsten plus twee eerder
+`BRON_GEBLOKKEERD` 088-leads (Bodh Gaya-geloften, Calcutta Medical College) nu geconvergeerd naar
+`PLAUSIBLE`. Meerdere bestaande 088-correcties drievoudig cross-gevalideerd (Dashashwamedh Ghat,
+Garpar-datum, mahasamadhi-datumreeks, Allahabad Kumbh Mela). Geen hallucinaties bij IndiaROOD
+gevonden. `RECONCILIATION_GATE` en `EXTERNAL_MODEL_DIVERSITY_GATE` naar `JA` voor alle drie
+personen; `SATURATED` blijft `NEE`.
+
+**NU_DOEN:** CCI stopt na de resultaatenvelop op PR #23 en wacht op INDIA-QA. INDIA beslist tussen
+(a) Ramana Maharshi/Ramakrishna starten (externe freezes bestaan al op
+`agent/chatgpt-top11-parallel-sweep`); (b) de twee Lahiri-Mahasaya-conflicten gericht uitzoeken;
+(c) het NKB-doodsvolgordeconflict (CCI_TASK 091) gericht uitzoeken; (d) een andere route naar
+Satyananda's volledige Sri-Yukteswar-biografie proberen. Geen van deze is automatisch gestart.
+
+## PREVIOUS ACTION — CCI_TASK 091 AFGEROND (CCI, 2026-08-19)
+
+Resultaat:
+- `runs/active/TOP11-NKB-RAMDASS-EXTERNAL-RECONCILIATION-001/RECONCILIATION_RESULT.md`
+- `NEEM_KAROLI_BABA_RECONCILIATION.md`, `RAM_DASS_RECONCILIATION.md`, `RECONCILIATION_MATRIX.jsonl`
+  (141 regels)
+- DELTA-paragrafen toegevoegd aan beide V2-pre-external-freezes
+- checkpoint commi
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=163 path=governance/INDIA_SESSION_START.md blob_sha=c00f799718ac962e5a471976b5658210bb952c78 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=6 classification=text
+ts: `54d0b51` (Neem Karoli Baba), `20c281c` (Ram Dass)
+
+Volledige bidirectionele reconciliatie tegen `agent/chatgpt-top11-parallel-sweep` (NKB 113, Ram
+Dass 57 externe records), beide bronbestanden vooraf blob-SHA-geverifieerd. Belangrijkste
+bevindingen: NKB-sterfteziekenhuis rechtstreeks bevestigd als Ramakrishna Mission Hospital,
+Vrindavan (lost oud naamconflict op, maar opent een nieuw onopgelost conflict over de exacte
+reisvolgorde/Mathura-tussenstop); Delhi-Ashram/Hanumangarhi-onzekerheid opgeheven naar extern
+JA/EXACT. Voor Ram Dass: twee nieuwe sublocaties woordelijk bevestigd in de eigen *Be Here Now*-
+tekst ("Health Department"-kantoor, rivier-badplaats Kainchi); één externe claim (Jagannath-Puri-
+strandwandeling) expliciet afgewezen omdat de geciteerde Sara-Davidson-quote niet in de aangehaalde
+bronnen staat — `FALSE_OR_UNSUPPORTED_EXTERNAL_CLAIM`, Yogananda-precedent toegepast. Een nieuwe,
+volledig toegankelijke NKB-primaire bron ontdekt (*The Near and the Dear*, dokumen.pub — in
+tegenstelling tot het nog steeds geblokkeerde *By His Grace*). Meerdere cross-persoon-bevestigingen
+tussen de NKB- en Ram-Dass-externe freezes (4 Church Lane, Allahabad-station, Vrindavan-ashram,
+Hanuman Garh-tempel) versterken het vertrouwen in beide externe bronnen. Beide `SATURATED: NEE`
+blijven eerlijk ongewijzigd. IndiaROOD en Core-Kriya zijn NIET geopend, conform TASK.md §8.
+
+**NU_DOEN:** CCI stopt na de resultaatenvelop op PR #23 en wacht op INDIA-QA. INDIA beslist tussen
+(a) de inmiddels lossless IndiaROOD Core-Kriya-freezes (Babaji, Lahiri Mahasaya, Sri Yukteswar —
+nu duurzaam gecommit op `agent/indiarood-core-kriya-sweep`) alsnog aan CCI_TASK 088 toevoegen;
+(b) het NKB-doodsvolgordeconflict (Mathura-tussenstop, zie CCI_TASK 091) gericht laten uitzoeken;
+of (c) Ramana Maharshi/Ramakrishna starten. Geen van deze is automatisch gestart.
+
+## LATEST MARK_DECISION — BABAJI MYTHISCH/AHISTORISCH (2026-08-19)
+
+Canoniek besluit:
+`decisions/BABAJI_MYTHIC_FIGURE_EVIDENCE_RULE_2026-08-19.md`.
+
+Mahavatar Babaji wordt niet behandeld als historisch verifieerbare persoon met objectief bewijsbare
+verblijfplaatsen. Per locatie wordt alleen afzonderlijk vastgesteld: (1) welke traditie/bron de
+claim maakt, (2) of de fysieke site identificeerbaar is en (3) dat Babaji's eigen historische
+aanwezigheid `NIET_VASTSTELBAAR` blijft. A/B/C/D meet uitsluitend claimprovenance, niet
+historische waarschijnlijkheid. De aanwezigheid van beter documenteerbare volgelingen/getuigen kan
+apart wel worden geverifieerd.
+
+Heatmaps mogen traditionele betekenis en Marks persoonlijke pelgrimswaarde wegen, maar Babaji niet
+als geverifieerde historische aanwezigheid tellen. 079 Mahavatar Babaji's Cave blijft
+`A`/`LOCKED_BY_MARK` en hoofdreden van de reis; dat berust op betekenis/toewijding, niet op
+historische bewijsbaarheid. FK-013 + protocolpoort G.2 toegevoegd en bestaande Babaji-output
+gecorrigeerd.
+
+## LATEST ACTION — CCI_TASK 089 AFGEROND (CCI, 2026-08-19)
+
+Resultaat:
+- `runs/active/TOP11-NKB-RAMDASS-V2-PRE-EXTERNAL-001/NEEM_KAROLI_BABA_V2_PRE_EXTERNAL_FREEZE.md` (19 records)
+- `runs/active/TOP11-NKB-RAMDASS-V2-PRE-EXTERNAL-001/RAM_DASS_V2_PRE_EXTERNAL_FREEZE.md` (5 records)
+- checkpoint commits: `d85c32e` (Neem Karoli Baba), `f3a5e5d` (Ram Dass)
+
+Verse landelijke corpus-first METHOD_V2 pre-external freezes, blindheidsgrens gerespecteerd (geen
+externe freezes, IndiaROOD of oude METHOD_V1/PHASE2-lijsten geraadpleegd). **Kernbevinding: voor
+beide personen waren de belangrijkste primaire devotee-bronnen niet toegankelijk** — *Miracle of
+Love*/*By His Grace* (Neem Karoli Baba) en *Be Here Now*/*Sacred Wanderer* (Ram Dass, zelfs
+ramdass.org gaf een 403-toegangsfout). Beide freezes steunen daardoor grotendeels op secundaire/
+institutionele bronnen; `CORPUS_COVERAGE_GATE` is voor beide `NEE`. Ram Dass' freeze (5 records) is
+de dunste pre-external freeze tot nu toe in dit project.
+
+Neem Karoli Baba: geboorte Akbarpur, Neem Karoli-dorp (treinwonder/naamgeving), Kainchi Dham
+(hoofdashram), Bhumiadhar, Kakrighat, Vrindavan (ashram/dood/crematie, met een onopgelo
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=164 path=governance/INDIA_SESSION_START.md blob_sha=c00f799718ac962e5a471976b5658210bb952c78 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=6 classification=text
+st
+ziekenhuisnaamconflict), Panki-tempel Kanpur met een bilocatie-overlevering naar Allahabad. Ram
+Dass: Kainchi Dham (eerste ontmoeting met Maharajji 1967), Hotel Evelyn Nainital, Kausani, Delhi,
+een niet-gelokaliseerd laatste 2004-bezoek. Eén claim expliciet uitgesloten (1997-Vrindavan-
+vermelding bleek over een andere devotee te gaan, niet Ram Dass zelf).
+
+Beide `SATURATED: NEE`. Parallelle staat ongewijzigd: CCI_TASK 088 blijft provisioneel, wacht op
+IndiaROOD-delta's voor Babaji/Lahiri/Sri Yukteswar.
+
+**NEXT_ACTION:** STOP, wacht op INDIA-QA. Overweeg voor INDIA-QA: gezien de zwakke corpus-coverage
+kan een gerichte tweede poging om de vier geblokkeerde kernbronnen alsnog te bereiken (andere
+bronroute) nuttig zijn vóór externe reconciliatie voor deze twee personen wordt gestart. Geen
+cluster/regio, A/B/C, permanente IDs, PDF of route.
+
+## LATEST ACTION — CCI_TASK 088 AFGEROND (CCI, 2026-08-19)
+
+Resultaat:
+- `runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/BABAJI_RECONCILIATION.md`
+- `runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/LAHIRI_MAHASAYA_RECONCILIATION.md`
+- `runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/SRI_YUKTESWAR_RECONCILIATION.md`
+- `runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl`
+- `runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/RECONCILIATION_RESULT.md`
+- checkpoint commits: `0bfeb45` (Babaji), `05cc7da` (Lahiri Mahasaya), `59463c1` (Sri Yukteswar)
+
+Volledige bidirectionele METHOD_V2-reconciliatie van interne 087/087R-freezes (40 records) versus de
+bevroren externe ChatGPT-freezes (133 records) voor Mahavatar Babaji, Lahiri Mahasaya en Sri
+Yukteswar. Directe bronverificatie uitgevoerd op alle internal-only/external-only/conflictclaims
+waar mogelijk. Kernresultaten: twee correcties in interne richting (Lahiri's Allahabad-aanwezigheid
+ten onrechte extern ontkend; een Babaji-datumcitatie niet in AOAY teruggevonden), vier bevestigde
+interne gaps gecorrigeerd (Sri Yukteswars moeders woning Rana Mahal, een Serampore-kerk, Albert
+Hall-podium, een Babaji-Himalayakamp-anekdote), één interne locatiefout gecorrigeerd
+(Babaji/Mataji/Lahiri-visioen naar Dashashwamedh Ghat i.p.v. Ram Gopal's grot) en één datumfout
+(Sri Yukteswars mahasamadhi 9 maart, niet 21 maart). 21 Babaji-records uit drie andere
+claimant-tradities (Hariharananda, Nagaraj/Ramaiah, Haidakhan) terecht apart gehouden. Eén
+bronblokkade: Chatterjee's *Purana Purusha*-Lahiri-biografie (dokumen.pub) ontoegankelijk, alle
+daarop gebaseerde claims blijven `BRON_GEBLOKKEERD`. Externe branch niet gewijzigd/gemerged.
+IndiaROOD had bij geen van de drie checkpoints een duurzame freeze — de blindheid is niet besmet.
+
+**Geen `PERSON_SWEEP_SATURATED: JA` voor deze drie** — `EXTERNAL_MODEL_DIVERSITY_GATE` blijft NEE
+(de bestaande externe branch is één ChatGPT-sessie, geen multi-provider-union) en
+`RECONCILIATION_GATE` is PROVISIONEEL zolang de IndiaROOD-delta ontbreekt.
+
+**NEXT_ACTION:** STOP, wacht op INDIA-QA-audit van dit resultaat. Verplichte lossless
+IndiaROOD-deltareconciliatie voor alle drie personen zodra Mark's IndiaROOD-chat een duurzame
+freeze-envelop op PR #23 plaatst. Geen automatische vervolgtaak (interne NKB/Ram Dass/Ramana/
+Ramakrishna-freezes, ondanks dat voor hen externe freezes gereed zijn of komen) vanuit hier gestart.
+Geen cluster/regio (Arunachala-hold blijft van kracht), A/B/C, permanente IDs, PDF of route.
+
+## LATEST HANDOFF — INDIA7
+Lees na de volledige repo-boot expliciet:
+- `governance/INDIA7_BOOTSTRAP_DELTA_2026-08-18.md`
+- `handoffs/INDIA6_TO_INDIA7_2026-08-18.md`
+- `decisions/TOP11_SWEEP_DEPTH_BY_PERSON_2026-08-18.md`
+- `decisions/ARUNACHALA_TIRUVANNAMALAI_A_ANCHOR_2026-08-18.md`
+- `governance/CCI_GITHUB_WAKE_RELAY.md`
+- `research/YOGANANDA_RAMANA_ARUNACHALA_POST_FREEZE_NOTE_2026-08-18.md`
+
+Actuele strategische volgorde is nu LOCKED:
+`LANDELIJKE PERSONEN-SWEEPS -> EXTERNAL BLIND FREEZES -> RECONCILIATIE -> CLUSTERHEATMAP -> REGIONALE CLUSTERSWEEPS -> MARK A/B/C -> ROUTE`.
+
+Full-deep personen: Paramahansa Yogananda, Mahavatar Babaji, Lahiri Mahasaya, Sri Yukteswar, Neem Karoli Baba, Ra
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=165 path=governance/INDIA_SESSION_START.md blob_sha=c00f799718ac962e5a471976b5658210bb952c78 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=6 classification=text
+m Dass, Ramana Maharshi, Ramakrishna. Vivekananda + Hariharananda targeted major-sites only. Anandamayi niet opnieuw vanaf nul.
+
+CCI_TASK 087R staat al op PR #23 als recovery/resume van 087; op handoffmoment nog geen CCI_RESULT 087R zichtbaar. Een werkelijk `<wake reason="external-event">` met `source="github" kind="issue_comment.created"` is voor deze comment waargenomen: PR-comment is dus bewezen CCI-wake; Mark hoeft CCI niet handmatig te starten. Niet dupliceren.
+
+Parallel loopt een onafhankelijke externe ChatGPT-run op branch `agent/chatgpt-top11-parallel-sweep`; lees daar `runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/TASK.md` + actuele `STATUS.md`. Op snapshotmoment waren Yogananda (127) en Sri Yukteswar (38) gefreezed; Babaji/Lahiri/NKB/Ram Dass in progress; Ramana/Ramakrishna queued. Deze branchstatus kan inmiddels nieuwer zijn.
+
+Arunachala/Tiruvannamalai is `LOCKED_BY_MARK` A-anker voor latere routeanalyse, maar route/nachten nog niet vast. Eerst nationale persoonslaag/heatmap. Terugvlucht is gepland vanaf Delhi.
+
+## HARD RULE — EERST DE GEHELE GITHUB LEZEN
+Een nieuwe INDIA-regisseur leest vóór inhoudelijk handelen de gehele tekstuele repository op de actuele werkbranch inhoudelijk. Eerst de volledige recursive tree, daarna alle tekstbestanden: governance, actieve en oude runs, legacy, registries, decisions, protocollen, scripts, research, handoffs, methodes en overige projectbestanden. Binaire artefacten alleen openen wanneer een actuele taak/decision/audit ze als bron nodig heeft. Relevante andere branches en open PR's inventariseren; genoemde legacy-branches lezen. Daarna actuele statebestanden opnieuw lezen om canon vast te zetten.
+
+Prioriteit bij stateverschil: `actuele taak-STATUS > INDIA_SESSION_START > ACTIVE_STATE > legacy/oud > oude chat`. Legacy blijft verplicht wanneer het beschermde Mark-besluiten/evidence/reconciliatie-input bevat.
+
+## BOOTVOLGORDE
+1. Lees root `README.md`.
+2. Haal volledige recursive tree op.
+3. Lees alle tekstuele bestanden op de werkbranch.
+4. Inventariseer relevante branches en PR #23; lees genoemde legacy-branches.
+5. Lees opnieuw `governance/ACTIVE_STATE.md`, `SWEEP_PROTOCOL.md`, `SWEEP_ERROR_CLASSES.md` en dit bestand.
+6. Lees alle `runs/active/*/STATUS.md`, bijbehorende `TASK.md` en genoemde outputbestanden.
+7. Scan repo-breed op `LOCKED_BY_MARK`, `MARK_DECISION_CONFLICT`, `LAST_GLOBAL_LOCATION_NUMBER`, `PDF_STATUS`, `next_allowed_step`, `PERSON_SWEEP_SATURATED`, `AOAY_LOCATION_SWEEP_SATURATED`, `DOUBLE_SWEEP_COMPLETED`.
+8. Controleer nieuwste commits + nieuwste PR #23-enveloppen.
+9. Handel direct de nieuwste `next_allowed_step` af. Mark is geen koerier.
+
+## ONDERHOUDSREGEL
+Update dit bestand in dezelfde werksessie bij iedere nieuwe taak/CCI_TASK, taakstatus/NEXT_ACTION, permanent locatie-ID, Mark A/B/C-lock/conflict, methode/protocolwijziging, regioprioriteit of belangrijke researchlaag-status. Update altijd ook de betrokken taak-STATUS. Chat mag nooit de enige actuele waarheid zijn.
+
+## MARK-UI-REGEL — EXTERNE AI PROMPTS
+Lees en volg `governance/EXTERNAL_AI_PROMPT_RULES.md`.
+Iedere tekst die Mark naar een andere AI/chat/Claude Code moet kopiëren staat volledig in één los fenced code block (monospace/kopieerknop). Geen noodzakelijke prompttekst erbuiten. Dit geldt ook voor éénregelige startvragen.
+
+## REPO / RELAY
+- Repo: `bnzgxknwrv-tech/india-knowledge-base`
+- Werkbranch: `claude/werk-je-nu-of-niet-oa10y7`
+- PR #23 draft; niet mergen zonder expliciete Mark-vrijgave.
+- PR #23 = korte relay/index; lange inhoud onder `runs/active/<TASK_ID>/`.
+- Bewezen relaygedrag: een nieuwe top-level PR-comment genereert `github issue_comment.created` wake voor CCI; zie `governance/CCI_GITHUB_WAKE_RELAY.md`.
+
+## PROJECTDOEL
+Drie orthogonale missiekritische detectorlagen:
+1. AOAY volledig: iedere locatievermelding / direct verbonden fysieke plek, hoe klein ook.
+2. Top-11 persoon-centraal: per persoon heel India, inclusief hosts/gastheren/huizen/landgoederen.
+3. Regionaal: zware regio's onafhankelijk dubbel sweepen + reconciliëren; laag-3 alleen echte zelfstandige zwaargewichten.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=166 path=governance/INDIA_SESSION_START.md blob_sha=c00f799718ac962e5a471976b5658210bb952c78 original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=6 classification=text
+
+
+Top-11 vaste volgorde: Paramahansa Yogananda; Mahavatar Babaji; Lahiri Mahasaya; Sri Yukteswar; Ram Dass; Neem Karoli Baba; Anandamayi Ma; Ramakrishna; Ramana Maharshi; Hariharananda; Vivekananda.
+
+Geen A/B/C voorspellen namens Mark. Bestaande Mark-besluiten beschermd. Nieuwe cruciale info bij oud besluit => `MARK_DECISION_CONFLICT`. Geen PDF zonder `PDF_GO: JA`.
+
+## PERMANENTE NUMMERING
+`LAST_GLOBAL_LOCATION_NUMBER = 081`.
+- 079 Mahavatar Babaji's Cave — A, `LOCKED_BY_MARK`.
+- 080 Turiya Niwas — A, `LOCKED_BY_MARK`.
+- 081 Bodh Ashram — A, `LOCKED_BY_MARK`.
+
+## ACTIEVE TAAK 1 — TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
+CCI heeft METHOD_V1 afgerond: circa 90 atlaspunten voor alle 11 en 11/11 `PERSON_SWEEP_SATURATED: JA`. Die saturation-labels zijn voor INDIA **NIET meer geldig als completeness-bewijs**. Anandamayi-benchmark heeft aangetoond dat METHOD_V1 hele categorieën en tientallen fysieke touchpoints mist.
+
+Bestaande atlas blijft input; niet verwijderen. Geen permanente nummering/clusterkeuze op basis van METHOD_V1 alleen.
+
+## ACTIEVE TAAK 2 — TOP11-EXTERNAL-AI-BENCHMARK-001
+Actuele benchmarkconclusie: Yogananda prospective control is afgerond via CCI_TASK 086 en heeft `EXTERNAL_MULTI_AI_MANDATORY_FOR_REMAINING_TOP11: JA` opgeleverd.
+
+Bestanden:
+- `TASK.md`
+- `STATUS.md`
+- `EXTERNAL_UNION_INPUT.md` — Marks externe multi-AI union: 156 Anandamayi-masterlocaties.
+- `INDIA_SOURCE_FIRST_SWEEP_ANANDAMAYI.md`
+- `BENCHMARK_RESULT.md`
+- `YOGANANDA_EXTERNAL_RECONCILIATION_CCI_086.md`
+
+### Harde bevindingen
+1. CCI's Anandamayi-set (~23) is aantoonbaar zwaar incompleet.
+2. Externe multi-AI union (156) heeft echte waarde: onafhankelijke AI's vinden reële long-tail host-/reislocaties die CCI mist.
+3. Externe union is zelf óók aantoonbaar incompleet: source-first scan van officiële Life History 1896–1982 + Sangha-biografie vond opnieuw vele afzonderlijke sites die niet in de 156-union staan.
+4. Sommige externe claims zijn fout/overmerged en moeten rechtstreeks worden geverifieerd; consensus is geen bewijs.
+5. Yogananda control: 114 externe masterrecords; 8/8 rechtstreeks getoetste externe kandidaten `VERIFIED_TRUE`.
+6. CCI vond zelf Regent Hotel Bombay, gemist door alle vijf externe AI's. Dus volledige METHOD_V2-keten blijft nodig.
+
+### METHOD_V2
+`CORPUS INVENTORY -> LOSSLESS CORPUS OCCURRENCE EXTRACTION -> EVENT/PLACE NORMALIZATION -> HOST/NETWORK GRAPH -> WEB DISCOVERY -> INDIA INDEPENDENT METHOD PASS -> EXTERNAL MULTI-AI ADVERSARIAL UNION -> DIRECT VERIFICATION/RECONCILIATION -> SATURATION`.
+
+`PERSON_SWEEP_SATURATED` mag pas na aantoonbare corpuscoverage, hostgraph, discovery en detectorreconciliatie.
+
+### CCI_TASK 087 / 087R — AFGEROND (CCI, 2026-08-19)
+087 = nationale pre-external METHOD_V2 freezes voor Mahavatar Babaji + Lahiri Mahasaya + Sri Yukteswar.
+087R = context-limit recovery; eerste subagent-poging (3 parallelle workers) faalde op sessielimiet
+zonder duurzame output. CCI heeft daarna alle drie freezes direct (niet via subagent) uitgevoerd,
+met tussentijdse checkpoint-commits per persoon: Babaji (`6b79f1c`), Lahiri Mahasaya (`642e464`),
+Sri Yukteswar (`ea60ba5`). Bestanden:
+`runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/BABAJI_V2_PRE_EXTERNAL_FREEZE.md`,
+`.../LAHIRI_MAHASAYA_V2_PRE_EXTERNAL_FREEZE.md`, `.../SRI_YUKTESWAR_V2_PRE_EXTERNAL_FREEZE.md`.
+Alle drie `SATURATED: NEE` met expliciet benoemde hiaten (zie STATUS.md van die taak voor details).
+Geen PHASE2_RESULT.md-checklist gebruikt tijdens de blinde pas; geen inzage in de externe
+ChatGPT-parallelsweep. **NEXT_ACTION 087:** blanco externe multi-AI-sweeps voor deze drie personen,
+daarna directe verificatie/reconciliatie. Geen clustersweep/regiosweep (Arunachala-hold van kracht),
+geen A/B/C, geen PDF, geen route. Wacht op INDIA-QA-audit.
+
+## EXTERNE PARALLEL CHATGPT-RUN
+Branch: `agent/chatgpt-top11-parallel-sweep`.
+Task: `runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/TASK.md`.
+Doel: onafhankelijke blinde externe freezes voor acht full-deep personen. Geen interne repo-kandidaten lezen vóór alle acht freezes; eigen branch; commit per persoo
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=167 path=governance/INDIA_SESSION_START.md blob_sha=c00f799718ac962e5a471976b5658210bb952c78 original_offset=20480 original_length=2824 payload_bytes=2824 chunk_index=5 chunk_count=6 classification=text
+n; pas later reconciliëren.
+
+## ACTIEVE TAAK 3 — AOAY-FULL-LOCATION-ATLAS-001
+Actuele STATUS: `SUBSTANTIELE_EERSTE_OOGST__NIET_SATURATED__WACHT_OP_INDIA`.
+- eerste ronde: 1.359 occurrence-records; 123 genormaliseerde plaatsen; 30 `AOAY_FOUND_BUT_MISSING_FROM_REPO`; Kashmir nieuw signaal.
+- `AOAY_LOCATION_SWEEP_SATURATED: NEE`.
+- duizenden kandidaat-tokentypes unresolved; occurrence-level verification nog niet compleet.
+
+**NEXT_ACTION AOAY:** niet afsluiten. Vervolgronde tot echte saturation/blocker met detector-verdieping + occurrence-verificatie. Eerst huidige personenlaag respecteren.
+
+## ACTIEVE TAAK 4 — YOGANANDA-ANANDAMAYI-PHOTO-LOCATION-001
+Status: `RESULT_KLAAR__TWEE_SITES_ONDERSCHEIDEN__WACHT_OP_INDIA`.
+- Ranchi Vidyalaya-tuin = bronmatig zekerste fotosessie, exact bezoekbaar.
+- Bhowanipur/Calcutta = historische ontmoeting met Bholanath aanwezig, maar exact huis/adres nog niet bewezen.
+- open: Gurupriya Devi-dagboek/OCR + visuele fotoinspectie om Bholanath-foto exact toe te wijzen.
+
+## ACTIEVE/OPEN TAAK 5 — KUMAON-V2-RESWEEP-001
+079–081 beschermd. Overige kandidaten tijdelijk; identity/reconciliatie nog open. Nieuwe landelijke METHOD_V2/atlaslagen moeten vóór choice-ready eindstatus over Kumaon worden gekruist.
+
+## ARUNACHALA / TIRUVANNAMALAI
+`decisions/ARUNACHALA_TIRUVANNAMALAI_A_ANCHOR_2026-08-18.md` = LOCKED_BY_MARK A-anker, nog geen route/nachten.
+Yogananda-Ramana direct bewijs + film-sublocatie staat in `research/YOGANANDA_RAMANA_ARUNACHALA_POST_FREEZE_NOTE_2026-08-18.md`.
+Niet verwarren: film-scène exact op bank ten noorden van Old Hall; volledige conversatie exact daar nog niet bewezen.
+
+## AFGEROND
+- VARANASI: 001–040 beoordeeld/beschermd; 041–045 alleen op Marks initiatief.
+- BODH GAYA: 046–078 verwerkt; keuzes beschermd; geen nieuwe Bodh Gaya-PDF.
+- GAYA AIRPORT → BODH GAYA corridor: `DOUBLE_SWEEP_COMPLETED_RECONCILED`; 0 nieuwe locaties.
+
+## REGIOPRIORITEIT
+Na huidige landelijke atlas/QA-stroom:
+1. Tiruvannamalai / Arunachala.
+2. Kolkata / Serampore.
+Rajgir/Nalanda niet actief als volgende regio.
+
+## STARTZIN NIEUWE CHAT
+`Neem de INDIA-regie over als INDIA7. Gebruik GitHub onmiddellijk als primaire waarheid. Lees eerst de GEHELE tekstuele repository op branch claude/werk-je-nu-of-niet-oa10y7 volgens README.md. Lees daarna governance/INDIA7_BOOTSTRAP_DELTA_2026-08-18.md en handoffs/INDIA6_TO_INDIA7_2026-08-18.md opnieuw, inventariseer PR #23, PR #24 en branch agent/chatgpt-top11-parallel-sweep, en lees hun nieuwste states. Controleer als eerste of CCI_RESULT 087R inmiddels binnen is. Respecteer de blindheid van nog onafgeronde external freezes en start geen regionale/cluster-sweep voordat de nationale persoonslaag dit toestaat. Handel daarna direct de nieuwste next_allowed_step af zonder mij de geschiedenis opnieuw te laten uitleggen.`
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=168 path=runs/active/INDIABLAUW-ANANDAMAYI-YOGANANDA-PHOTO-LOCATIONS-001/PHOTO_EVENT_LEDGER.md blob_sha=8377b4910c43f8217cd4c0b0e4cd84061c7097e9 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# PHOTO EVENT LEDGER — Anandamayi Ma × Paramahansa Yogananda
+
+Research date: 2026-08-20
+Scope: joint still photographs and film footage during Yogananda's 1935–36 India return. Crops/reproductions are deduplicated to underlying photographic events.
+
+## Result
+The scoped evidence supports **two joint image events**, not a larger set of independent locations:
+
+1. **Bhowanipur, Calcutta — first meeting / automobile-street event** — joint imagery exists, including the widely reproduced Yogananda + Anandamayi portrait and a Yogananda + Anandamayi + Bholanath image. The official Anandamayi photo archive captions the latter "in Calcutta". AOAY fixes the encounter to the home of an unnamed disciple in the Bhowanipur section, with the actual first-contact scene in/at an open-topped automobile immediately outside/near that house. The Sangha chronology independently dates the Calcutta meeting to December 1935. **Exact host identity/property was not recovered from the scoped official/archival sources; disposition is explicit UNRESOLVED, not dropped.**
+
+2. **Ranchi Vidyalaya — school main building + garden photographic session** — AOAY states that Anandamayi Ma visited Yogananda's boys' school at Ranchi, entered the main building, sat beside Yogananda, and then at Yogananda's request went **to the garden**, where Richard Wright took **many photographs**. This is the strongest physically resolved joint-photo event. A later official Anandamayi/SRF reminiscence says a motion-picture film of Anandamayi Ma and Yogananda existed from his 1936 India visit; no scoped source proves that the surviving film sequence is a third location. The dedicated 1930s-film archive labels a segment "Mâ & Paramahansa Yogananda" but supplies no location metadata. Because AOAY explicitly documents Wright photographing them in the Ranchi garden, Ranchi is the strongest provenance for at least the documented still-photo session; **film micro-location remains UNRESOLVED unless frame-level provenance emerges.**
+
+## Event P01 — Bhowanipur first meeting
+- Published image(s): widely reproduced two-person Yogananda/Anandamayi image; separate three-person Yogananda/Anandamayi/Bholanath image.
+- Published presence: Paramahansa Yogananda, Anandamayi Ma; Bholanath in the three-person version.
+- Date: December 1935 (Sangha chronology).
+- Historical place: disciple's home, Bhowanipur section of Calcutta; street/open automobile at departure.
+- Exact physical point: **UNRESOLVED**. Neither AOAY nor scoped official Sangha material names the disciple/host or street number.
+- Resolution: **R4** — neighborhood and event secure; parcel/micro-site unresolved.
+- Current identity/access 2026: Bhowanipore is public urban fabric; unknown historical host parcel cannot responsibly be marked visitable.
+- Cluster relation: **CERTAIN_CLUSTER — Kolkata**, conditional on central cluster casting; governance makes it a `MUST_VISIT_WITHIN_INCLUDED_CLUSTER` candidate if the historical property is later resolved usefully.
+- Evidence chain: AOAY/Sangha chapter text -> disciple's Bhowanipur home + automobile scene; Sangha life chronology -> December 1935 Calcutta meeting; Sangha photo archive -> joint image captioned Calcutta.
+- Duplicate handling: web copies with erroneous 1910/1915 metadata are not treated as separate events; those dates conflict with the documented 1935 meeting.
+
+## Event P02 — Ranchi Vidyalaya garden
+- Published event: AOAY describes Anandamayi Ma at Ranchi school and explicitly says Richard Wright would take pictures in the garden; she posed for many photographs.
+- Published presence: Paramahansa Yogananda and Anandamayi Ma; school party/devotees present around the visit.
+- Date: after the December 1935 Calcutta meeting, during Yogananda's India return; best safe range late 1935 / early 1936.
+- Historical place: Ranchi Vidyalaya, main building followed by **garden** photo session.
+- Current identity: Yogoda Satsanga Vidyalaya / YSS Ranchi campus historical continuity; exact garden camera station not established.
+- Resolution: **R2 for campus/garden event; 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=169 path=runs/active/INDIABLAUW-ANANDAMAYI-YOGANANDA-PHOTO-LOCATIONS-001/PHOTO_EVENT_LEDGER.md blob_sha=8377b4910c43f8217cd4c0b0e4cd84061c7097e9 original_offset=4096 original_length=2292 payload_bytes=2292 chunk_index=1 chunk_count=2 classification=text
+R4 for exact camera position**.
+- Current access 2026: managed YSS institutional campus; do not assume unrestricted school/garden access. Contact YSS before travel for heritage/photo-location access.
+- Cluster relation: **CERTAIN_CLUSTER — Ranchi**, conditional on central cluster casting; `MUST_VISIT_WITHIN_INCLUDED_CLUSTER` candidate under governance.
+- Evidence chain: AOAY chapter 45 -> Ranchi school -> main building -> explicit garden -> Wright photographs; official Sangha reproduction independently preserves same narrative.
+
+## Event P03 — surviving 1930s motion-picture footage
+- Media: archive segment titled "1930's Film — Mâ & Paramahansa Yogananda"; 1959 Daya Mata account says a motion picture film of Ma and Guruji was taken during his 1936 India visit.
+- Presence: Anandamayi Ma + Paramahansa Yogananda.
+- Date: described retrospectively as 1936.
+- Physical place: **UNRESOLVED AT FRAME LEVEL**. Available metadata does not say Bhowanipur, Ranchi, or another site.
+- Resolution: **R5 for film-specific micro-location**.
+- Disposition: retain separately because moving footage is a distinct media event; do not invent a third physical site. Candidate linkage to Ranchi is plausible because AOAY documents an intentional photo session there, but not proven for the film.
+- Cluster relation: **CANDIDATE_CLUSTER — Kolkata/Ranchi pending frame provenance**.
+
+## Exhaustiveness / anti-drop
+Scoped searches found no defensible third joint physical photo location. Serampore station is a later in-person encounter described in AOAY but no scoped source establishes a joint photograph there, so it is **not promoted into the photo ledger**. Likewise 1959 Daya Mata visits concern Anandamayi Ma after Yogananda's death and are not joint-photo events.
+
+## Sources checked
+- Official Shree Shree Anandamayee Sangha: `anandamayi.org/paramahansa-yogananda-2/`, `anandamayi.org/ashram/saints.htm`, `anandamayi.org/life-history-1933-1942/`, photo pages 087/118, and Daya Mata reminiscence.
+- Public-domain image mirrors/Wikimedia used only to identify duplicate image files and metadata conflicts, not to override official chronology.
+- `anandamayi.one` 1930s film archive used for existence/title of surviving film segment.
+
+No A/B/C decision, permanent ID, route change, or PDF.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=170 path=runs/active/INDIABLAUW-ANANDAMAYI-YOGANANDA-PHOTO-LOCATIONS-001/PHOTO_LOCATION_CLOSURE.jsonl blob_sha=2d3c7a9a3408abf8d5e0ef2f83ee72716e92c9e2 original_offset=0 original_length=2703 payload_bytes=2703 chunk_index=0 chunk_count=1 classification=text
+{"event_id":"AYPY-P01","media":"still photographs; two-person and three-person/Bholanath reproductions","people":["Paramahansa Yogananda","Anandamayi Ma","Bholanath (three-person image)"],"date":"1935-12","city":"Calcutta/Kolkata","locality":"Bhowanipur/Bhowanipore","historical_place":"unnamed disciple's home and immediately adjacent street/open-topped automobile","exact_place":"UNRESOLVED","host":"UNRESOLVED — unnamed disciple in AOAY/scoped official sources","resolution":"R4","current_identity":"Bhowanipore neighborhood only; parcel not established","access_2026":"public neighborhood; historical property access unknowable until parcel resolved","cluster_relation":"CERTAIN_CLUSTER_KOLKATA","travel_semantics":"MUST_VISIT_WITHIN_INCLUDED_CLUSTER candidate if physical property becomes usefully resolved","evidence":"AOAY ch45 as reproduced by official Anandamayi Sangha; Sangha life chronology Dec 1935 Calcutta; Sangha photo page 118 captions Yogananda+Ma+Bholanath in Calcutta","disposition":"KEEP_UNRESOLVED_NO_SILENT_DROP"}
+{"event_id":"AYPY-P02","media":"many still photographs by Richard Wright","people":["Paramahansa Yogananda","Anandamayi Ma"],"date":"late 1935/early 1936","city":"Ranchi","locality":"Yogananda's boys' school / Ranchi Vidyalaya","historical_place":"main building then garden","exact_place":"garden on Ranchi Vidyalaya campus; exact camera station unresolved","resolution":"R2 campus/garden; R4 camera station","current_identity":"Yogoda Satsanga Vidyalaya/YSS Ranchi historical campus continuity","access_2026":"managed institutional campus; exact garden access requires YSS confirmation","cluster_relation":"CERTAIN_CLUSTER_RANCHI","travel_semantics":"MUST_VISIT_WITHIN_INCLUDED_CLUSTER candidate","evidence":"AOAY ch45 / official Sangha reproduction explicitly: Ranchi Vidyalaya, main building, then garden where Mr Wright takes pictures","disposition":"PHYSICALLY_RESOLVED_TO_CAMPUS_GARDEN"}
+{"event_id":"AYPY-P03","media":"motion-picture film / surviving 1930s segment","people":["Paramahansa Yogananda","Anandamayi Ma"],"date":"1936 per 1959 retrospective account","city":null,"locality":null,"historical_place":null,"exact_place":"UNRESOLVED at frame level","resolution":"R5","current_identity":null,"access_2026":"not applicable until filming location identified","cluster_relation":"CANDIDATE_CLUSTER_KOLKATA_OR_RANCHI","travel_semantics":"do not create third travel site without provenance","evidence":"official Anandamayi Daya Mata account says motion picture film of Ma and Guruji taken during his 1936 India visit; anandamayi.one archive lists 1930s Film — Mâ & Paramahansa Yogananda","disposition":"KEEP_MEDIA_EVENT_UNRESOLVED_NO_INVENTED_LOCATION"}
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=171 path=runs/active/INDIABLAUW-ANANDAMAYI-YOGANANDA-PHOTO-LOCATIONS-001/STATUS.md blob_sha=5827ba700adf89d79daaa0521ba49a3f870c3fc6 original_offset=0 original_length=2003 payload_bytes=2003 chunk_index=0 chunk_count=1 classification=text
+# STATUS — INDIABLAUW-ANANDAMAYI-YOGANANDA-PHOTO-LOCATIONS-001
+
+state: COMPLETE
+blocked: NO
+priority: P0_FOCUSED
+completed: 2026-08-20
+branch: agent/indiablauw-trip-ops-prep
+scope: joint Anandamayi Ma + Paramahansa Yogananda photos/film only
+
+outputs:
+  - PHOTO_EVENT_LEDGER.md
+  - PHOTO_LOCATION_CLOSURE.jsonl
+  - TRAVEL_OVERRIDE_SUMMARY.md
+
+accounting:
+  physical_photo_events: 2
+  film_provenance_events: 1
+  silent_drops: 0
+
+closures:
+  - Bhowanipur/Calcutta first meeting: December 1935; joint-photo event retained R4. Neighborhood and disciple-home/automobile scene secure; host identity and parcel unresolved after targeted scoped research.
+  - Ranchi Vidyalaya: explicit AOAY garden photo session by Richard Wright; R2 campus/garden, R4 exact camera station. Strongest MUST_VISIT_WITHIN_INCLUDED_CLUSTER candidate if Ranchi is included, subject to YSS access.
+  - 1930s motion-picture footage: existence documented; film-specific physical location unresolved R5. No invented third site.
+
+important_negative:
+  - Serampore station is a documented later Anandamayi-Yogananda encounter but no scoped source establishes a joint photograph there; therefore not falsely promoted as photo-location.
+  - Wikimedia/public mirrors showing 1910/1915 dates for joint images conflict with official December-1935 first-meeting chronology and are treated as bad metadata, not extra events.
+
+constraints:
+  abc_changed: false
+  permanent_ids_created: false
+  route_changed: false
+  nationwide_anandamayi_host_sweep_started: false
+
+blockers:
+  - Exact Bhowanipur disciple/host and civic parcel remain unresolved in scoped official/archival sources.
+  - Exact Ranchi garden camera station is not recoverable from textual evidence alone.
+  - Surviving film frames lack location metadata sufficient to distinguish Ranchi vs Calcutta or prove another site.
+
+stop_condition: MET — every joint photo/film event found in scoped sources has a physical location or explicit unresolved disposition; zero silent drops.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=172 path=runs/active/INDIABLAUW-ANANDAMAYI-YOGANANDA-PHOTO-LOCATIONS-001/TASK.md blob_sha=919edd95845922a0a72c93fe00d68f6f397af49f original_offset=0 original_length=2716 payload_bytes=2716 chunk_index=0 chunk_count=1 classification=text
+# TASK — INDIABLAUW-ANANDAMAYI-YOGANANDA-PHOTO-LOCATIONS-001
+
+## ROLE
+Focused web/source research worker. This is NOT a general Anandamayi Ma sweep.
+
+## GOAL
+Identify every known photograph/film frame showing Paramahansa Yogananda together with Anandamayi Ma during Yogananda's India return, especially images reproduced/captioned in or directly associated with *Autobiography of a Yogi* (AOAY). For every distinct photo/event, resolve the physical location as far as evidence permits and determine whether it lies in or near one of Mark's current/candidate travel clusters.
+
+## HARD USER PRIORITY
+A physically resolved place where Anandamayi Ma and Paramahansa Yogananda are photographed together is a `MUST_VISIT_WITHIN_INCLUDED_CLUSTER` candidate. Do not discard a photo because its location is uncertain; uncertainty triggers targeted research.
+
+## SCOPE
+1. AOAY text/captions/editions available online or in repo.
+2. Official YSS/SRF material.
+3. Official Shree Shree Anandamayee Sangha material.
+4. Archival/biographical sources only as needed to identify date/event/place.
+5. Search for duplicates/cropped versions so one event is not counted several times.
+
+## REQUIRED QUESTIONS PER PHOTO/EVENT
+- What exactly is the photo/caption?
+- Who is visibly/published as present?
+- Date or best date range.
+- City/locality.
+- Exact building/garden/school/ashram/house/grounds if recoverable.
+- Evidence chain for photo -> event -> physical place.
+- R1/R2/R3/R4/R5.
+- Current identity and access in 2026.
+- Current cluster relation: CERTAIN_CLUSTER / CANDIDATE_CLUSTER / EAST_PARKED / OUTSIDE_CURRENT_ROUTE.
+- If Kolkata/Bhowanipur: actively identify disciple/host and exact property if reasonably possible.
+- If Ranchi: distinguish YSS school/campus/Palace grounds and any identifiable micro-site.
+
+## ANANDAMAYI STOP RULE
+Do NOT branch into a nationwide Anandamayi host-house sweep. Once all joint Yogananda-photo/film events are accounted for and the strongest 2-5 Anandamayi travel-core places are already protected, Anandamayi travel research is considered sufficient unless a later chosen cluster reveals an exceptional overlap.
+
+## OUTPUTS
+- `PHOTO_EVENT_LEDGER.md`
+- `PHOTO_LOCATION_CLOSURE.jsonl`
+- `TRAVEL_OVERRIDE_SUMMARY.md`
+- `STATUS.md`
+
+## GOVERNANCE
+Read-only reference allowed from `agent/india8-cluster-casting`:
+- `governance/ANANDAMAYI_YOGANANDA_PHOTO_OVERRIDE_2026-08-20.md`
+- current central master files if needed.
+All writes only on this branch.
+No A/B/C decisions. No permanent IDs. No route changes. No PDF.
+
+## STOP CONDITION
+Complete only when every joint Anandamayi-Yogananda photo/film event found in the scoped sources has a disposition, including unresolved cases. Zero silent drops.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=173 path=runs/active/INDIABLAUW-ANANDAMAYI-YOGANANDA-PHOTO-LOCATIONS-001/TRAVEL_OVERRIDE_SUMMARY.md blob_sha=0b3199352aacafaedfdc613134101386eb4231de original_offset=0 original_length=2418 payload_bytes=2418 chunk_index=0 chunk_count=1 classification=text
+# TRAVEL OVERRIDE SUMMARY — Anandamayi Ma × Paramahansa Yogananda
+
+Governance applied: `ANANDAMAYI_YOGANANDA_PHOTO_OVERRIDE_2026-08-20.md` from `agent/india8-cluster-casting` read-only.
+
+## Mandatory-to-surface candidates if cluster is included
+
+### Ranchi — Ranchi Vidyalaya/YSS historical campus garden
+**Status: strongest override candidate.** AOAY explicitly locates the deliberate Richard Wright photo session in the **garden** of Yogananda's Ranchi boys' school, after Anandamayi Ma had entered the main building and sat beside Yogananda. This is physically resolved to campus/garden level (R2), though the exact camera position is not known (R4). If Ranchi is included, surface this as `MUST_VISIT_WITHIN_INCLUDED_CLUSTER`, subject to YSS permission/access.
+
+### Kolkata — Bhowanipur first-meeting site
+**Status: mandatory research-preserved candidate, but property unresolved.** The first meeting is securely Bhowanipur, December 1935, at/near an unnamed disciple's home and an open automobile in the street. Joint photographs from the Calcutta encounter circulate and the official Anandamayi archive captions the Yogananda–Anandamayi–Bholanath image as Calcutta. The host/property could not be responsibly identified. If Kolkata is included, this must remain surfaced, but it cannot yet be represented as an exact visitable address.
+
+## Film override
+A surviving/remembered motion picture of Anandamayi Ma with Yogananda is documented, but current scoped metadata does not resolve its filming site. Preserve as R5. Do not convert it into a third destination. If future frame-level archival evidence ties it to Ranchi or Bhowanipur, merge the media provenance with that physical event rather than duplicating the site.
+
+## Duplicate/error warning
+Public mirrors attach impossible dates such as 1910 or 1915 to joint photographs. These are metadata artefacts: official chronology places Yogananda's first meeting with Anandamayi Ma in Calcutta in December 1935. Do not generate separate events from those dates.
+
+## Stop-rule assessment
+The joint-photo/film scope is closed with zero silent drops: two physical encounter/photo-event locations are accounted for (Ranchi resolved; Bhowanipur unresolved to parcel) plus one film-specific provenance record retained unresolved. No nationwide Anandamayi host-house sweep is warranted by this task.
+
+No A/B/C, permanent ID, or route decision has been made.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=174 path=runs/active/INDIABLAUW-AOAY-YOGANANDA-LOCATION-CLOSURE-001/AOAY_YOGANANDA_ACCESS_MATRIX.md blob_sha=6f55906aff3bbf6af1bac0520a858470690394f0 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# AOAY / YOGANANDA — CURRENT ACCESS MATRIX
+
+Checked: 2026-08-20
+
+| Entity / claim | Resolution | Current access | Evidence / caution |
+|---|---:|---|---|
+| Gorakhpur childhood compound | R4 | private/managed, interior not guaranteed | birthplace/home claim needs parcel-level reproof |
+| Bareilly family bungalow/sheoli tree | R5 | unresolved | no safe parcel identity |
+| 4 Garpar Road / linked YSS Garpar centre | R2 | mixed/private + managed YSS access | YSS-linked Garpar centre has scheduled meditation; historic house entry variable |
+| Barddhaman Junction | R2 | active public rail station | successor of Burdwan station |
+| Pt. D.D. Upadhyaya Junction | R2 | active public rail station | successor of Moghul Serai station |
+| Bareilly Junction | R2 | active public rail station | historic station continuity |
+| Haridwar Junction | R2 | active public rail station | historic Hardwar station continuity |
+| Hardwar detention bungalow | R5 | unresolved/non-public unknown | building not identified |
+| Rishikesh intended destination | R5 | not applicable as personal site | Yogananda did not reach it in ch4 scene |
+| Pranabananda Benares residence | R5 | unresolved/private | second-floor hall scene retained |
+| Benares pundit home/courtyard | R5 | unresolved/private | no parcel identity |
+| Rana Mahal temporary Sri Yukteswar house | R3 | ghat/zone public; house unknown | exact balcony-house not fixed |
+| Nagendra Math / Bhaduri house | R2 | open to devotees per YSS | 2B Rammohan Roy Rd current pilgrimage listing |
+| Acharya Bhavan / J.C. Bose site | R1 | museum/institution hours restricted | current listing reports Wed/Fri 14:00-16:00; recheck |
+| Dakshineswar Kali Temple | R1 | OPEN | official site: 06:30-12:30, 15:30-19:30; security/dress rules |
+| 50 Amherst Street | R3 | heritage/private access uncertain | YSS identifies location; unrestricted entry not established |
+| Bhowanipore Anandamayi encounter point | R5 | public neighborhood only | exact street point unresolved |
+| Sri Yukteswar Smriti Mandir, Serampore | R2 | pilgrimage/managed | YSS says Smriti Mandir stands on old ashram site |
+| Anandaloka / uncle Sarada house | R2 | managed/private shrine | arrange via YSS; do not assume walk-in access |
+| Serampore station | R1 | active public rail station | extant |
+| Vrindavan station | R2 | transit access | current rail service pattern should be rechecked |
+| Madan Mohan Temple, Vrindavan | R1 | active temple | timings seasonal; recheck locally |
+| Pratap initiation spot near station | R5 | unresolved | micro-site not recoverable |
+| Katayani Peith Ashram historic claim | R4 | current successor uncertain | do not equate current Katyayani Peeth with 1936 building without proof |
+| Ananta bungalow, Agra | R5 | unresolved/private | no address |
+| Taj Mahal, Agra | R1 | public monument | ASI ticket/security/open-day rules apply |
+| YSS Ranchi Ashram | R1 | active managed ashram | official YSS institution |
+| Dihika YSS site | R2 | managed retreat | advance confirmation prudent |
+| Karar Ashram, Puri | R1 | active institution | access to verify directly |
+| Santiniketan Tagore meeting/study room | R3 | campus/heritage-regulated | exact room access not assumed |
+| Wardha Junction | R1 | active public rail station | extant |
+| Maganvadi guesthouse | R3 | institutional/heritage | exact guest room uncertain |
+| Gandhi writing room, Maganvadi | R3 | institutional/heritage | room-level access requires confirmation |
+| Mumbai Harbour arrival landscape | R5 | landscape/public viewpoints only | no pier fixed |
+| Taj Mahal Palace, Mumbai | R1 | active hotel | interior/lobby access subject to hotel security/policy |
+| 1936 Regent Hotel | R4 | historic identity unresolved | current Regent at 8 BEST Rd exists but continuity unproven |
+| Mysore Town Hall / Rangacharlu Hall | R1 | extant civic building | interior access event-dependent |
+| Maharaja's College, Mysuru | R1 | active campus | institutional visitor rules |
+| Mysore Medical College historic campus | R2 | active medical campus | not general tourist interior |
+| National High School, B
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=175 path=runs/active/INDIABLAUW-AOAY-YOGANANDA-LOCATION-CLOSURE-001/AOAY_YOGANANDA_ACCESS_MATRIX.md blob_sha=6f55906aff3bbf6af1bac0520a858470690394f0 original_offset=4096 original_length=2210 payload_bytes=2210 chunk_index=1 chunk_count=2 classification=text
+engaluru | R3 | active school | permission required; exact 1935 hall unresolved |
+| Intermediate College, Bangalore | R5 | unresolved | no safe successor identity |
+| Sir Puttanna Chetty Town Hall | R2 | extant civic hall | event/interior access variable |
+| Chamundeshwari Temple | R1 | active temple | temple/security rules apply |
+| KRS Dam | R1 | extant controlled infrastructure | security/visitor rules vary |
+| Brindavan Gardens | R1 | public garden | opening/security rules vary |
+| Yuvaraja summer palace | R5 | unresolved | no candidate promoted |
+| Srinagar double-storey inn | R5 | unresolved | no modern hotel conflation allowed |
+| Shankaracharya Temple, Srinagar | R1 | active/protected religious site | security and local restrictions apply |
+| Gulmarg | R1 | public mountain destination | seasonal/weather/security dependent |
+| Khilanmarg | R3 | alpine landscape | seasonal access; exact historic route not fixed |
+| Shalimar Bagh | R1 | public heritage garden | local opening/security rules |
+| Nishat Bagh | R1 | public heritage garden | local opening/security rules |
+| Dal Lake channels/floating gardens | R3 | lake/boat landscape | exact channels not fixed |
+| Shimla personal stop | R4 | city-level only | no micro-site closure |
+| Lambadar Dey host site, Purulia | R5 | unresolved/private | host parcel unknown |
+| Giri Bala house, Biur | R4 | unresolved village/private site | retain even if later found demolished |
+| 1936 Kumbh grounds, Allahabad | R4 | event landscape | no permanent camp parcel claimed |
+| Satish Chandra Bose residence, Delhi | R5 | unresolved/private | no address |
+
+## Strongest current-access primary sources
+
+- Dakshineswar Kali Temple official visitor page: https://www.dakshineswarkalitemple.org/ — checked 2026-08-20.
+- Yogoda Satsanga Society of India Dakshineswar/pilgrimage continuity page: https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar — checked 2026-08-20.
+- YSS official main/contact site for Ranchi institutional continuity: https://yssofindia.org/ — checked 2026-08-20.
+
+Access status is deliberately conservative: `extant` does not mean unrestricted interior entry, and `successor` does not mean the 1930s room survives.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=176 path=runs/active/INDIABLAUW-AOAY-YOGANANDA-LOCATION-CLOSURE-001/AOAY_YOGANANDA_ENTITY_CANDIDATES.jsonl blob_sha=43cc1a75db076442b9eec5e68a6bc55818274ce3 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+{"candidate_id":"AYC-ENT-001","source_record_ids":["AYC-SRC-001"],"entity":"Gorakhpur childhood family compound","mapping":"UNRESOLVED_ENTITY","resolution":"R4"}
+{"candidate_id":"AYC-ENT-002","source_record_ids":["AYC-SRC-002"],"entity":"Bareilly family bungalow/piazza/sheoli-tree micro-site","mapping":"UNRESOLVED_ENTITY","resolution":"R5"}
+{"candidate_id":"AYC-ENT-003","source_record_ids":["AYC-SRC-003"],"entity":"4 Garpar Road / linked YSS Garpar Road centre","mapping":"SUCCESSOR_CONTINUITY","resolution":"R2"}
+{"candidate_id":"AYC-ENT-004","source_record_ids":["AYC-SRC-004"],"entity":"Barddhaman Junction","mapping":"SUCCESSOR_CONTINUITY","resolution":"R2"}
+{"candidate_id":"AYC-ENT-005","source_record_ids":["AYC-SRC-005"],"entity":"Pt. Deen Dayal Upadhyaya Junction (Mughalsarai)","mapping":"SUCCESSOR_CONTINUITY","resolution":"R2"}
+{"candidate_id":"AYC-ENT-006","source_record_ids":["AYC-SRC-006"],"entity":"Bareilly Junction","mapping":"SUCCESSOR_CONTINUITY","resolution":"R2"}
+{"candidate_id":"AYC-ENT-007","source_record_ids":["AYC-SRC-007"],"entity":"Haridwar Junction","mapping":"SUCCESSOR_CONTINUITY","resolution":"R2"}
+{"candidate_id":"AYC-ENT-008","source_record_ids":["AYC-SRC-008"],"entity":"Hardwar station police/station bungalow","mapping":"UNRESOLVED_ENTITY","resolution":"R5"}
+{"candidate_id":"AYC-ENT-009","source_record_ids":["AYC-SRC-009"],"entity":"Rishikesh intended destination","mapping":"NEGATIVE_NOT_VISITED","resolution":"R5"}
+{"candidate_id":"AYC-ENT-010","source_record_ids":["AYC-SRC-010"],"entity":"Pranabananda residence, Benares","mapping":"UNRESOLVED_ENTITY","resolution":"R5"}
+{"candidate_id":"AYC-ENT-011","source_record_ids":["AYC-SRC-011"],"entity":"scriptural authority home/courtyard, Benares","mapping":"UNRESOLVED_ENTITY","resolution":"R5"}
+{"candidate_id":"AYC-ENT-012","source_record_ids":["AYC-SRC-012"],"entity":"Sri Yukteswar temporary house, Rana Mahal zone","mapping":"HISTORIC_ZONE","resolution":"R3"}
+{"candidate_id":"AYC-ENT-013","source_record_ids":["AYC-SRC-013"],"entity":"Nagendra Math / Bhaduri Mahasaya house successor","mapping":"SUCCESSOR_CONTINUITY","resolution":"R2"}
+{"candidate_id":"AYC-ENT-014","source_record_ids":["AYC-SRC-014"],"entity":"Acharya Bhavan / Sir J.C. Bose Trust","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-015","source_record_ids":["AYC-SRC-015"],"entity":"Dakshineswar Kali Temple","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-016","source_record_ids":["AYC-SRC-016"],"entity":"50 Amherst Street heritage site","mapping":"HISTORIC_ZONE","resolution":"R3"}
+{"candidate_id":"AYC-ENT-017","source_record_ids":["AYC-SRC-017"],"entity":"Bhowanipore Anandamayi Ma encounter point","mapping":"UNRESOLVED_ENTITY","resolution":"R5"}
+{"candidate_id":"AYC-ENT-018","source_record_ids":["AYC-SRC-018"],"entity":"Sri Yukteswar Smriti Mandir, 3A Buro Bibi Lane / Rai Ghat Lane site","mapping":"SUCCESSOR_CONTINUITY","resolution":"R2"}
+{"candidate_id":"AYC-ENT-019","source_record_ids":["AYC-SRC-019"],"entity":"Anandaloka / uncle Sarada Prasad Ghosh home","mapping":"SUCCESSOR_CONTINUITY","resolution":"R2"}
+{"candidate_id":"AYC-ENT-020","source_record_ids":["AYC-SRC-020"],"entity":"Serampore railway station","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-021","source_record_ids":["AYC-SRC-021"],"entity":"Vrindavan railway station","mapping":"SUCCESSOR_CONTINUITY","resolution":"R2"}
+{"candidate_id":"AYC-ENT-022","source_record_ids":["AYC-SRC-022"],"entity":"Madan Mohan Temple, Vrindavan","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-023","source_record_ids":["AYC-SRC-023"],"entity":"Kriya-initiation secluded spot near Vrindavan station","mapping":"UNRESOLVED_ENTITY","resolution":"R5"}
+{"candidate_id":"AYC-ENT-024","source_record_ids":["AYC-SRC-024"],"entity":"Katayani Peith Ashram historic building claim","mapping":"UNRESOLVED_ENTITY","resolution":"R4"}
+{"candidate_id":"AYC-ENT-025","source_record_ids":["AYC-SRC-025"],"entity":"Ananta bungalow, Agra","mapping":"UNRESOLVED_ENTITY","resolution":"R5"}
+{"candi
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=177 path=runs/active/INDIABLAUW-AOAY-YOGANANDA-LOCATION-CLOSURE-001/AOAY_YOGANANDA_ENTITY_CANDIDATES.jsonl blob_sha=43cc1a75db076442b9eec5e68a6bc55818274ce3 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+date_id":"AYC-ENT-026","source_record_ids":["AYC-SRC-026"],"entity":"Taj Mahal, Agra","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-027","source_record_ids":["AYC-SRC-027"],"entity":"YSS Ranchi Ashram/school site","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-028","source_record_ids":["AYC-SRC-028"],"entity":"YSS Dihika retreat/heritage continuity","mapping":"SUCCESSOR_CONTINUITY","resolution":"R2"}
+{"candidate_id":"AYC-ENT-029","source_record_ids":["AYC-SRC-029"],"entity":"Karar Ashram, Puri","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-030","source_record_ids":["AYC-SRC-030"],"entity":"Santiniketan Tagore meeting/study-room claim","mapping":"HISTORIC_ZONE","resolution":"R3"}
+{"candidate_id":"AYC-ENT-031","source_record_ids":["AYC-SRC-031"],"entity":"Wardha Junction","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-032","source_record_ids":["AYC-SRC-032"],"entity":"Maganvadi guesthouse claim","mapping":"HISTORIC_ZONE","resolution":"R3"}
+{"candidate_id":"AYC-ENT-033","source_record_ids":["AYC-SRC-033"],"entity":"Gandhi writing-room claim, Maganvadi","mapping":"HISTORIC_ZONE","resolution":"R3"}
+{"candidate_id":"AYC-ENT-034","source_record_ids":["AYC-SRC-034"],"entity":"Mumbai Harbour arrival landscape","mapping":"LANDSCAPE","resolution":"R5"}
+{"candidate_id":"AYC-ENT-035","source_record_ids":["AYC-SRC-035"],"entity":"The Taj Mahal Palace, Mumbai","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-036","source_record_ids":["AYC-SRC-036"],"entity":"1936 Regent Hotel, Bombay; current 8 BEST Road candidate","mapping":"UNRESOLVED_ENTITY","resolution":"R4"}
+{"candidate_id":"AYC-ENT-037","source_record_ids":["AYC-SRC-037"],"entity":"C. V. Rangacharlu Memorial Hall / Mysore Town Hall","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-038","source_record_ids":["AYC-SRC-038"],"entity":"Maharaja's College, Mysuru","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-039","source_record_ids":["AYC-SRC-039"],"entity":"Mysore Medical College historic campus","mapping":"SUCCESSOR_CONTINUITY","resolution":"R2"}
+{"candidate_id":"AYC-ENT-040","source_record_ids":["AYC-SRC-040"],"entity":"National High School, Bengaluru","mapping":"HISTORIC_ZONE","resolution":"R3"}
+{"candidate_id":"AYC-ENT-041","source_record_ids":["AYC-SRC-041"],"entity":"Intermediate College, Bangalore","mapping":"UNRESOLVED_ENTITY","resolution":"R5"}
+{"candidate_id":"AYC-ENT-042","source_record_ids":["AYC-SRC-042"],"entity":"Sir Puttanna Chetty Town Hall, Bengaluru","mapping":"SUCCESSOR_CONTINUITY","resolution":"R2"}
+{"candidate_id":"AYC-ENT-043","source_record_ids":["AYC-SRC-043"],"entity":"Sri Chamundeshwari Temple, Chamundi Hill","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-044","source_record_ids":["AYC-SRC-044"],"entity":"Krishna Raja Sagara Dam","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-045","source_record_ids":["AYC-SRC-045"],"entity":"Brindavan Gardens","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-046","source_record_ids":["AYC-SRC-046"],"entity":"Yuvaraja summer palace, Mysore","mapping":"UNRESOLVED_ENTITY","resolution":"R5"}
+{"candidate_id":"AYC-ENT-047","source_record_ids":["AYC-SRC-047"],"entity":"Srinagar double-storey inn","mapping":"UNRESOLVED_ENTITY","resolution":"R5"}
+{"candidate_id":"AYC-ENT-048","source_record_ids":["AYC-SRC-048"],"entity":"Shankaracharya Temple, Srinagar","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-049","source_record_ids":["AYC-SRC-049"],"entity":"Gulmarg","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-050","source_record_ids":["AYC-SRC-050"],"entity":"Khilanmarg excursion landscape","mapping":"HISTORIC_ZONE","resolution":"R3"}
+{"candidate_id":"AYC-ENT-051","source_record_ids":["AYC-SRC-051"],"entity":"Shalimar Bagh, Srinagar","mapping":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-052","source_record_ids":["AYC-SRC-052"],"entity":"Nishat Bagh, Srinagar","mappi
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=178 path=runs/active/INDIABLAUW-AOAY-YOGANANDA-LOCATION-CLOSURE-001/AOAY_YOGANANDA_ENTITY_CANDIDATES.jsonl blob_sha=43cc1a75db076442b9eec5e68a6bc55818274ce3 original_offset=8192 original_length=986 payload_bytes=986 chunk_index=2 chunk_count=3 classification=text
+ng":"EXACT_ENTITY","resolution":"R1"}
+{"candidate_id":"AYC-ENT-053","source_record_ids":["AYC-SRC-053"],"entity":"Dal Lake channels/floating gardens","mapping":"HISTORIC_ZONE","resolution":"R3"}
+{"candidate_id":"AYC-ENT-054","source_record_ids":["AYC-SRC-054"],"entity":"Shimla personal stop","mapping":"UNRESOLVED_ENTITY","resolution":"R4"}
+{"candidate_id":"AYC-ENT-055","source_record_ids":["AYC-SRC-055"],"entity":"Lambadar Dey host location, Purulia","mapping":"UNRESOLVED_ENTITY","resolution":"R5"}
+{"candidate_id":"AYC-ENT-056","source_record_ids":["AYC-SRC-056"],"entity":"Giri Bala two-storey house, Biur","mapping":"UNRESOLVED_ENTITY","resolution":"R4"}
+{"candidate_id":"AYC-ENT-057","source_record_ids":["AYC-SRC-057"],"entity":"1936 Allahabad Kumbh Mela grounds","mapping":"UNRESOLVED_ENTITY","resolution":"R4"}
+{"candidate_id":"AYC-ENT-058","source_record_ids":["AYC-SRC-058"],"entity":"Satish Chandra Bose residence, Delhi","mapping":"UNRESOLVED_ENTITY","resolution":"R5"}
+
+<<< END CHUNK >>>
+

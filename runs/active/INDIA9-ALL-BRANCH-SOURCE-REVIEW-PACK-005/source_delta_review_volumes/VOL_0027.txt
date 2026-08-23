@@ -1,0 +1,603 @@
+>>> CHUNK stream_row=402 path=runs/active/TOP11-RAMANA-RAMAKRISHNA-V2-PRE-EXTERNAL-001/RAMANA_MAHARSHI_V2_PRE_EXTERNAL_FREEZE.md blob_sha=a2d3d6542ce96fa0a8366ba7e5027e3224279639 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+ho am I?*) en Kavyakantha Ganapati Muni (18 nov. 1907, naamgeving "Bhagavan Sri Ramana Maharshi") | JA | EXACT | Narasimha Swami, herhaaldelijk "Virupaksha cave"; gururamana.org-tijdlijn |
+| 18 | Mango Tree-grot, bij Mulaipal Tirtham, Arunachala-heuvel | grot | Zomerverblijf naast de Virupaksha-grot, vanaf 1899 | JA | DEELS | gururamana.org-tijdlijn |
+| 19 | Pachaiamman Koil, Tiruvannamalai | tempel | Tijdelijk verblijf tijdens een pestepidemie, zes maanden 1905, en opnieuw met Ganapati Muni jan.-mrt. 1908 (vertaling van Shankara's werken in het Tamil); ook aangehaald in de latere apenepisode tijdens de heuvelomloop | JA | EXACT | Narasimha Swami, letterlijk "Pachaiamman Koil"; gururamana.org-tijdlijn |
+| 20 | Tortoise Rock, Arunachala-heuvel | rotsformatie | Tweede "doodservaring", getuigd door Vasudeva Sastri en anderen, 1912 | JA | DEELS | gururamana.org-tijdlijn (niet apart teruggevonden in de doorzochte Narasimha-passages) |
+| 21 | Skandashram, Arunachala-heuvel | ashram/grot-verblijfplaats | Hoofdverblijfplaats 1916-1922; moeder Alagammal vestigde zich hier vanaf 1917 tot haar mahasamadhi (19 mei 1922, 20:00 uur, hij hield zijn hand op haar hart); cobra-episode met zijn moeder | JA | EXACT | Narasimha Swami, letterlijk "Skandasram"; gururamana.org-tijdlijn |
+| 22 | Sri Ramanasramam (incl. Matrubhuteswara-tempel op moeders samadhi-plek en de latere Nirvana-kamer), aan de voet van Arunachala, Tiruvannamalai | ashram | Definitieve verblijfplaats vanaf december 1922 tot overlijden; roofoverval 26 juni 1924 (klap op linkerdij); tempelfundering 1 sept. 1939; Kumbhabhishekam 14-17 mrt. 1949; overlijden ("Brahma Nirvana") 14 april 1950, 20:47 uur | JA | EXACT | Narasimha Swami, letterlijk "the Asram"/roofoverval-hoofdstuk; gururamana.org-tijdlijn |
+| 23 | Heuvelomloop (giripradakshina) rond Arunachala, algemeen | route/pelgrimspad | Regelmatige, niet-gedateerde wandelingen rond de heuvel met devotees, o.a. de apenepisode nabij Pachaiamman Koil | JA | ALLEEN_PLAATS (bewust geen route/cluster vastgelegd, conform harde grens) | Narasimha Swami, "make the hill-circuit" |
+
+## CONFLICTS
+
+Geen harde tegenstrijdigheden gevonden tussen de primaire Narasimha Swami-tekst en de
+institutionele tijdlijn binnen deze pas. Wel een aantal punten waar de tijdlijn detail geeft dat in
+de doorzochte primaire passages niet apart is teruggevonden (zie tabel, "ALLEEN_PLAATS... secundair
+bevestigd") — dit is een dekkingsverschil, geen inhoudelijke tegenspraak.
+
+## UNRESOLVED_LEADS
+
+1. Exacte straatnaam/huis van de vaderlijke familie in Tiruchuzhi.
+2. Exacte huisidentiteit van oom Subbier's woning, Madurai (West Chittirai Street alleen secundair).
+3. Schoolnamen Scott's Middle School / American Mission High School — niet teruggevonden in de
+   doorzochte primaire tekst, alleen secundair.
+4. Sri Sahayavalli-schrijn (jeugdepisode) en Tortoise Rock (tweede doodservaring) — beide alleen
+   via de institutionele tijdlijn, niet apart bevestigd in de doorzochte primaire passages.
+5. Ganapati Muni's eigen geschriften en Gabriele Eberts volledige biografie — niet binnen dit
+   taakbudget geraadpleegd; mogelijk aanvullende micro-locaties (bv. exacte Kumbhakonam- of
+   andere reislocaties van bezoekende discipelen, niet van Ramana zelf).
+6. Precieze aard/omvang van eventuele latere korte reizen (indien die bestaan) buiten
+   Tiruvannamalai na 1896 — in deze pas geen enkele aanwijzing gevonden dat hij de stad ooit weer
+   verliet; dit is zelf een opmerkelijke, expliciet vastgelegde bevinding (zie hieronder), niet een
+   hiaat.
+
+## Opmerkelijke bevinding: vrijwel volledige geografische concentratie
+
+In tegenstelling tot vrijwel elke andere in dit project onderzochte persoon verliet Ramana Maharshi
+Tiruvannamalai, voor zover in deze corpuspas gevonden, **na 1 september 1896 nooit meer**. Alle 17
+locatierecords na aankomst liggen binnen een straal van enkele kilometers rond de Arunachala-heuvel.
+Dit is zelf een positieve bevinding (expliciet gecontroleerd, niet aangenomen), geen dekkingshiaat.
+
+## Gate-statussen
+
+| gate | status | onderbouwing |
+|---|---
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=403 path=runs/active/TOP11-RAMANA-RAMAKRISHNA-V2-PRE-EXTERNAL-001/RAMANA_MAHARSHI_V2_PRE_EXTERNAL_FREEZE.md blob_sha=a2d3d6542ce96fa0a8366ba7e5027e3224279639 original_offset=12288 original_length=1242 payload_bytes=1242 chunk_index=3 chunk_count=4 classification=text
+|---|
+| CORPUS_COVERAGE_GATE | **DEELS** | Eén sterke primaire bron volledig doorzocht; enkele latere/aanvullende biografieën niet geraadpleegd. |
+| HOSTGRAPH_GATE | **DEELS** | Kernfamilie en vroege discipelen goed gedekt; bredere latere discipelenkring niet uitputtend. |
+| DISCOVERY_GATE | **DEELS** | Meerdere zoekrondes (WebSearch + volledige primaire tekst), geen tweede onafhankelijke primaire biografie geraadpleegd. |
+| RECONCILIATION_GATE | **N.V.T. in deze taak** | Blinde pre-external freeze; geen externe/IndiaGEEL-vergelijking uitgevoerd. |
+
+## PERSON_SWEEP_SATURATED: NEE
+
+Onderbouwing: één sterke, volledig doorzochte primaire bron plus een betrouwbare institutionele
+tijdlijn leveren een compacte maar coherente set van 23 records op. Verzadiging is niet
+verantwoord omdat meerdere aanvullende primaire/secundaire biografieën (Ganapati Muni, Ebert,
+diverse discipelenmemoires) niet zijn geraadpleegd en enkele micro-details (schoolnamen, exacte
+huisadressen) alleen secundair, niet dubbel bevestigd zijn.
+
+Geen A/B/C namens Mark. Geen permanente locatie-ID. Geen PDF. Geen route/cluster/heatmap. Geen
+externe of IndiaGEEL-freeze geraadpleegd tijdens deze pas.
+
+---
+Geschreven door: CCI. Checkpoint 1/2 van CCI_TASK 093.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=404 path=runs/active/INDIAPAARS-DECISION-RUBRIC-PREP-001/STATUS.md blob_sha=2aa21feb5d17b7a011a746a8afe4e43f95a80b59 original_offset=0 original_length=272 payload_bytes=272 chunk_index=0 chunk_count=1 classification=text
+# STATUS — INDIAPAARS-DECISION-RUBRIC-PREP-001
+
+state: READY
+branch: agent/indiapaars-decision-rubric-prep
+owner: INDIA PAARS
+scope: decision-support prep only; no new person/location research
+next_allowed_step: INDIA PAARS voert TASK.md volledig uit en commit outputs.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=405 path=runs/active/INDIAPAARS-DECISION-RUBRIC-PREP-001/TASK.md blob_sha=1071561521cbae6aac73d5460ccd4683b1152955 original_offset=0 original_length=1523 payload_bytes=1523 chunk_index=0 chunk_count=1 classification=text
+# INDIA PAARS — MARK DECISION RUBRIC PREP
+
+STATUS: READY
+OWNER: INDIA PAARS
+MODE: NON-RESEARCH / DECISION-SUPPORT PREP
+
+## Doel
+Bereid de latere A/B/C-keuzes zo voor dat Mark straks zo weinig mogelijk losse beslissingen hoeft te nemen.
+
+## Opdracht
+Lees uitsluitend governance, decisions, travel-preference/profile bestanden, handoffs en bestaande LOCKED_BY_MARK-besluiten. Onderzoek GEEN nieuwe persoonslocaties en maak GEEN A/B/C-keuzes namens Mark.
+
+Lever:
+1. MARK_TRAVEL_PREFERENCE_PROFILE.md — expliciete, repo-ondersteunde voorkeuren/afkeuren/ankers/constraints; scheid HARD, SOFT en UNKNOWN.
+2. A_B_C_DECISION_RUBRIC.md — objectieve beoordelingsvelden waarmee toekomstige clusters in 1 compact overzicht aan Mark kunnen worden voorgelegd (spirituele relevantie, aantal Top-personen, exact gedeelde fysieke sites, bewijssterkte, uniciteit, reisfrictie, tijdkosten, winterrisico, ervaringswaarde, redundantie). Geen scores invullen voor echte bestemmingen.
+3. MINIMAL_MARK_DECISIONS.md — ontwerp een beslisinterface waarbij Mark per beslismoment maximaal enkele high-impact keuzes hoeft te maken; identificeer welke keuzes INDIA8 zelf technisch mag optimaliseren zonder Marks voorkeur te voorspellen.
+4. HARD_CONSTRAINTS_REGISTER.md — actuele harde project- en reisgrenzen lossless verzamelen; geen nieuwe aannames.
+
+Geen webonderzoek nodig tenzij TASK expliciet later wordt uitgebreid. Geen PDF, route/nachten, merge of PR.
+
+Commit alle outputs op agent/indiapaars-decision-rubric-prep en update STATUS.md.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=406 path=runs/active/INDIAROOD-CORE-KRIYA-LOCATION-CLOSURE-001/CORE_KRIYA_ACCESS_MATRIX.md blob_sha=f9f49fcb9aa6d889317424a37d05b44b8be5592d original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# CORE KRIYA ACCESS MATRIX
+
+Task: `INDIAROOD-CORE-KRIYA-LOCATION-CLOSURE-001`  
+Checked: 2026-08-20  
+Scope: all **146 claim-bearing source records** plus the physically split priority candidates in `CORE_KRIYA_ENTITY_CANDIDATES.jsonl`. Negative controls remain preserved in `CORE_KRIYA_SOURCE_RECORDS.jsonl` but are not assigned travel-access status merely for being negative controls.
+
+## Status vocabulary
+
+- `PUBLIC_OPEN` — public landscape/street/ghat type access without a specific institutional gate identified.
+- `PUBLIC_LIMITED_HOURS` — publicly visitable institution/site with hours or operational access constraints.
+- `PRIVATE_PERMISSION_POSSIBLE` — current site exists, but interior/ashram/family access should be treated as permission-dependent.
+- `EXTERIOR_ONLY` — current object can be physically approached/seen, but no reliable visitor-entry basis was found.
+- `LANDSCAPE_ACCESS` — physically visitable landscape/region, while exact historic metres may remain uncertain.
+- `SUCCESSOR_SITE_VISITABLE` — original building/object is gone or altered, but a current successor/site can be visited.
+- `ACCESS_UNKNOWN` — not enough current-access evidence yet.
+- `ACCESS_UNKNOWN_AFTER_EXHAUSTION` — targeted closure research was performed and no responsible current access/site continuity could be established.
+
+Access status describes present physical access only. It does not validate the truth of a historical, miraculous, apparition or identity claim.
+
+## Complete claim-record access distribution
+
+### LANDSCAPE_ACCESS — 30
+
+`IR-1`, `IR-2`, `IR-3`, `IR-4`, `IR-7`, `IR-8`, `IR-9`, `IR-10`, `IR-22`, `IR-26`, `IR-27`, `IR-29`, `IR-33`, `IR-43`, `LM-001`, `LM-002`, `LM-017`, `LM-018`, `LM-026`, `LM-033`, `SY-008`, `SY-013`, `SY-015`, `SY-034`, `SY-037`, `SY-041`, `ext-B16`, `ext-B19`, `ext-B20`, `ext-B21`.
+
+Notes: these include broad mountain/river/festival/ghat/park-style anchors where physically going to the zone is meaningful even when the historic micro-point cannot be proved.
+
+### ACCESS_UNKNOWN_AFTER_EXHAUSTION — 69
+
+`IR-5`, `IR-6`, `IR-13`, `IR-14`, `IR-15`, `IR-20`, `IR-21`, `IR-23`, `IR-24`, `IR-25`, `IR-28`, `IR-31`, `IR-38`, `IR-39`, `IR-41`, `IR-42`, `IR-44`, `IR-45`, `IR-46`, `IR-47`, `IR-50`, `LM-004`, `LM-005`, `LM-009`, `LM-010`, `LM-011`, `LM-012`, `LM-013`, `LM-014`, `LM-015`, `LM-016`, `LM-019`, `LM-020`, `LM-021`, `LM-022`, `LM-027`, `LM-029`, `LM-030`, `LM-031`, `LM-032`, `LM-035`, `LM-036`, `LM-037`, `LM-038`, `LM-039`, `LM-040`, `SY-002`, `SY-003`, `SY-006`, `SY-009`, `SY-011`, `SY-014`, `SY-016`, `SY-017`, `SY-018`, `SY-020`, `SY-021`, `SY-022`, `SY-027`, `SY-031`, `SY-038`, `SY-039`, `SY-040`, `SY-042`, `ext-B12`, `ext-B22`, `ext-B23`, `intern-18-Gorakhpur-Abinash`, `DELTA-LM-PP-ONLY-AGGREGATE`.
+
+This group is intentionally large: private host houses, vanished interiors, unnamed work posts, hidden/mythic places and nonlocalized postmortem scenes were not force-fitted to modern sites.
+
+### PUBLIC_LIMITED_HOURS — 25
+
+`IR-11`, `IR-18`, `IR-19`, `IR-30`, `IR-40`, `IR-49`, `LM-003`, `LM-006`, `LM-007`, `LM-008`, `LM-023`, `LM-024`, `LM-025`, `LM-028`, `SY-004`, `SY-005`, `SY-007`, `SY-012`, `SY-026`, `SY-028`, `SY-032`, `SY-035`, `SY-036`, `ext-B17`, `ext-B11-subclaim`.
+
+### PRIVATE_PERMISSION_POSSIBLE — 12
+
+`IR-12`, `IR-16`, `IR-32`, `IR-34`, `IR-35`, `IR-36`, `IR-37`, `IR-48`, `SY-019`, `SY-023`, `SY-024`, `ext-B32`.
+
+These are mostly family houses or functioning ashram/lineage properties where the physical identity is useful but entry to the relevant interior should not be assumed.
+
+### PUBLIC_OPEN — 5
+
+`IR-17`, `LM-034`, `SY-010`, `SY-030`, `SY-033`.
+
+### SUCCESSOR_SITE_VISITABLE — 4
+
+`SY-001`, `SY-025`, `SY-029`, `DELTA-SY-SERAMPORE-MICRO-AGGREGATE`.
+
+The successor status does not automatically upgrade the historical personal-presence certainty. In particular, `SY-029` remains R5 for Sri Yukteswar's claimed Dihika visit while the current Dihika successor/site is visitable.
+
+### EXTERIOR_ONLY — 1
+
+`ext-B18` — Government Rest House, Dwarahat. The physical government-rest-house obje
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=407 path=runs/active/INDIAROOD-CORE-KRIYA-LOCATION-CLOSURE-001/CORE_KRIYA_ACCESS_MATRIX.md blob_sha=f9f49fcb9aa6d889317424a37d05b44b8be5592d original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+ct is retained as a Daya Mata/Babaji-tradition context record; ordinary bodily Babaji presence is not inferred.
+
+## Priority physical split matrix
+
+| Candidate | R | Access | Present-state interpretation |
+|---|---:|---|---|
+| `DUNAGIRI-1861::CAVEFIELD` | R3 | LANDSCAPE_ACCESS | Dunagiri cave-field is visitable as a mountain zone; no single historical cave proved. |
+| `DUNAGIRI-1861::UNNAMED-INITIATION-CAVE` | R5 | ACCESS_UNKNOWN_AFTER_EXHAUSTION | exact early-text cave unclosed. |
+| `DUNAGIRI-YSS::PANDUKHOLI-CAVE` | R1 | LANDSCAPE_ACCESS | current YSS claimant cave reachable by mountain approach/footpath. |
+| `DUNAGIRI-GAGAS::RIVER-SYSTEM` | R3 | LANDSCAPE_ACCESS | river system visitable; historic bank metres unknown. |
+| `DUNAGIRI-GOLDEN-PALACE::EPHEMERAL` | R5 | ACCESS_UNKNOWN_AFTER_EXHAUSTION | no surviving physical object/site marker. |
+| `PRAYAG-1894::HISTORIC-MELA-ZONE` | R3 | LANDSCAPE_ACCESS | visitable floodplain/mela context. |
+| `PRAYAG-1894::BRIDGE` | R5 | ACCESS_UNKNOWN_AFTER_EXHAUSTION | which bridge unclosed. |
+| `PRAYAG-1894::TREE-AOAY` | R5 | ACCESS_UNKNOWN_AFTER_EXHAUSTION | original tree identity unclosed. |
+| `PRAYAG-1894::YOGI-SATYAM-BANYAN` | R1 | PUBLIC_LIMITED_HOURS | current ashram claimant tree; do not merge automatically with historic tree. |
+| `DASHASHWAMEDH::GHAT` | R1 | PUBLIC_OPEN | named ghat physically accessible. |
+| `DASHASHWAMEDH::MATAJI-CAVE` | R5 | ACCESS_UNKNOWN_AFTER_EXHAUSTION | hidden cave/stone slab not publicly identified. |
+| `RAI-GHAT::BANYAN` | R1 | LANDSCAPE_ACCESS | YSS current claimant banyan/site. |
+| `LAHIRI-HOUSE::BUILDING` | R1 | PUBLIC_LIMITED_HOURS | current lineage-recognized D31/58 house; actual visitor access may vary. |
+| `LAHIRI-HOUSE::FRONT-PARLOR` | R3 | PRIVATE_PERMISSION_POSSIBLE | same house anchor; room access/continuity permission-dependent. |
+| `LAHIRI-HOUSE::THRESHOLD` | R3 | PRIVATE_PERMISSION_POSSIBLE | historical micro-point not independently room-mapped. |
+| `GARPAR-4::HOUSE` | R1 | PRIVATE_PERMISSION_POSSIBLE | same Ghosh family house; commemorative access exists but not ordinary unrestricted entry. |
+| `GARPAR-4::BABAJI-ROOM` | R3 | PRIVATE_PERMISSION_POSSIBLE | interior micro-site. |
+| `GARPAR-4::ROOF-1930` | R1 | PRIVATE_PERMISSION_POSSIBLE | same-house roof claim; permission-dependent. |
+| `KARAR::COMPLEX` | R1 | PRIVATE_PERMISSION_POSSIBLE | functioning ashram property. |
+| `KARAR::SAMADHI` | R1 | PRIVATE_PERMISSION_POSSIBLE | samadhi inside functioning ashram. |
+| `KARAR::HARIHARANANDA-ROOMS` | R3 | PRIVATE_PERMISSION_POSSIBLE | interior rooms retained separately. |
+| `PARANGIPETTAI::MANDIR` | R1 | PUBLIC_LIMITED_HOURS | present claimant shrine. |
+| `PARANGIPETTAI::CLAIMED-BIRTH-SUBSTRATE` | R3 | PUBLIC_LIMITED_HOURS | claimant parcel fixed by later shrine, historical birth unproved. |
+| `SATOPANTH::LAKE-ZONE` | R3 | LANDSCAPE_ACCESS | high-altitude seasonal trek. |
+| `SATOPANTH::UNNAMED-CAVE` | R5 | ACCESS_UNKNOWN_AFTER_EXHAUSTION | exact cave not recovered. |
+| `KESHAV-PRAYAG::CONFLUENCE` | R3 | LANDSCAPE_ACCESS | landscape anchor only. |
+| `GAURI-SHANKARA-PITHA::HIDDEN` | R5 | ACCESS_UNKNOWN_AFTER_EXHAUSTION | tradition presents hidden site. |
+| `DUNAGIRI-HARAPRIYA::TEMPLE` | R1 | PUBLIC_LIMITED_HOURS | current temple exact; historical event is only “near” it. |
+| `HAIDAKHAN::VISHWA-MAHADHAM` | R1 | PRIVATE_PERMISSION_POSSIBLE | current Samaj complex/contactable. |
+| `HAIDAKHAN::HISTORIC-CAVE` | R1 | PRIVATE_PERMISSION_POSSIBLE | current lineage cave; distinct from Dunagiri. |
+| `HAIDAKHAN::DHUNI` | R1 | PRIVATE_PERMISSION_POSSIBLE | ritual subsite inside complex. |
+| `GHURNI::LOST-ESTATE` | R3 | LANDSCAPE_ACCESS | historic zone only after river-course change. |
+| `GHURNI::Jaleshwar-SUCCESSOR` | R3 | PUBLIC_LIMITED_HOURS | successor shrine/cult-object claim; same original temple footprint unproved. |
+| `VARANASI-PANCHGANGA::GHAT` | R1 | PUBLIC_OPEN | surviving named ghat. |
+| `VARANASI-PANCHGANGA::TAILANG-MATH` | R1 | PUBLIC_LIMITED_HOURS | present Tailang Swami Math at ghat. |
+| `RANA-MAHAL::GHAT` | R1 | LANDSCAPE_ACCESS | surviving
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=408 path=runs/active/INDIAROOD-CORE-KRIYA-LOCATION-CLOSURE-001/CORE_KRIYA_ACCESS_MATRIX.md blob_sha=f9f49fcb9aa6d889317424a37d05b44b8be5592d original_offset=8192 original_length=4037 payload_bytes=4037 chunk_index=2 chunk_count=3 classification=text
+ named ghat. |
+| `RANA-MAHAL::KRISHNARAM-HOUSE` | R4 | ACCESS_UNKNOWN_AFTER_EXHAUSTION | host known, address unknown. |
+| `RAMNAGAR::FORT-PALACE` | R1 | PUBLIC_LIMITED_HOURS | current royal fort/palace complex. |
+| `RAMNAGAR::TUTORING-ROOM` | R3 | PUBLIC_LIMITED_HOURS | palace exact, room unknown. |
+| `HARIDWAR-KESHAV::CURRENT-ASHRAM` | R3 | PRIVATE_PERMISSION_POSSIBLE | current institution; historical same-site continuity unproved. |
+| `HARIDWAR-KESHAV::AOAY-HERMITAGE` | R4 | ACCESS_UNKNOWN_AFTER_EXHAUSTION | historic hermitage still not physically closed. |
+| `SERAMPORE-PRIYADHAM::HISTORIC-TERRAIN` | R2 | SUCCESSOR_SITE_VISITABLE | old ashram terrain represented by current successor site. |
+| `SERAMPORE-PRIYADHAM::SMRITI-MANDIR` | R1 | PUBLIC_LIMITED_HOURS | later memorial on historic site. |
+| `SERAMPORE-PRIYADHAM::COURTYARD` | R3 | SUCCESSOR_SITE_VISITABLE | historic component preserved; exact current footprint not fully mapped. |
+| `SERAMPORE-PRIYADHAM::HALL` | R3 | SUCCESSOR_SITE_VISITABLE | same. |
+| `SERAMPORE-PRIYADHAM::SITTING-ROOM` | R3 | SUCCESSOR_SITE_VISITABLE | same. |
+| `SERAMPORE-PRIYADHAM::EATING-PATIO` | R3 | SUCCESSOR_SITE_VISITABLE | same. |
+| `SERAMPORE-PRIYADHAM::BEDROOM` | R3 | SUCCESSOR_SITE_VISITABLE | same. |
+| `BODH-GAYA::KRISHNADAYAL-MATH` | R4 | ACCESS_UNKNOWN_AFTER_EXHAUSTION | monastery not named; Mahabodhi is not substituted. |
+| `TULSI-BOSE::HISTORIC-HOUSE` | R3 | PRIVATE_PERMISSION_POSSIBLE | historic house/grounds cluster; room-level access not assumed. |
+| `TULSI-BOSE::YSS-GARPAR-CENTRE` | R2 | PUBLIC_LIMITED_HOURS | current adjacent/successor lineage institution. |
+| `PANTHI::HISTORIC-PLOT` | R2 | SUCCESSOR_SITE_VISITABLE | historic building demolished; plot localized by YSS. |
+| `PANTHI::ROOM` | R2 | SUCCESSOR_SITE_VISITABLE | room gone; site/plot is strongest physical successor. |
+| `DIHIKA::HISTORIC-SCHOOL-SITE` | R2 | SUCCESSOR_SITE_VISITABLE | current YSS site supplies physical successor only. |
+| `DIHIKA::CURRENT-YSS-RETREAT` | R1 | PUBLIC_LIMITED_HOURS | present visitor site; does not prove Sri Yukteswar visit. |
+| `ALBERT-HALL::INDIAN-COFFEE-HOUSE` | R1 | PUBLIC_LIMITED_HOURS | KMC heritage record supports building identity continuity. |
+| `REGENT-1936::HISTORIC-HOTEL` | R5 | ACCESS_UNKNOWN_AFTER_EXHAUSTION | 1936 address/building unclosed. |
+| `REGENT-CURRENT::8-BEST-ROAD` | R1 | PUBLIC_LIMITED_HOURS | current same-name hotel only; explicitly not merged with 1936 site. |
+
+## Current web evidence used for access/continuity
+
+- YSS Dwarahat / Babaji cave: https://yssofindia.org/location/dwarahat
+- Dunagiri temple: https://dunagiritemple.com/about-the-temple/
+- Hansavedas: https://hansavedas.org/path-of-yoga/
+- Jhusi claimant banyan: https://www.kriyayoga-yogisatyam.org/mother-centre
+- YSS Serampore/Rai Ghat/Panthi: https://yssofindia.org/location/dakshineswar
+- YSS current successor institutions: https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar
+- Ramnagar Fort: https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/ramnagar-fort
+- Tailang Swami Math/Panchganga: https://pawanpath.up.gov.in/ghats/
+- Keshav Ashram Haridwar: https://www.katyayanipeeth.org.in/about1
+- Karar Ashram property continuity: https://indiankanoon.org/doc/109151220/
+- Babaji Nagaraj pilgrimage site: https://www.babajiskriyayoga.net/rwd/english/pilgrimages.htm
+- Satopanth: https://www.uttarakhandtourism.gov.in/treks-details/Satopanth%20Lake%20Trek
+- Haidakhandi current ashrams/contacts: https://haidakhandisamaj.in/ashrams/ and https://haidakhandisamaj.in/contact/
+- Dihika: https://yssofindia.org/location/dihika
+- Serampore College: https://seramporecollege.ac.in/
+- Albert Hall / Indian Coffee House heritage identity: https://www.kmcgov.in/KMCPortal/downloads/Graded_List_04_08_2022.pdf
+- current Regent Hotel name-match: https://www.regenthotelcolaba.in/contact-us.html
+
+Where a site is current but historical equivalence is unproved, the matrix records the current object separately rather than silently upgrading the historic claim.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=409 path=runs/active/INDIAROOD-CORE-KRIYA-LOCATION-CLOSURE-001/CORE_KRIYA_ENTITY_CANDIDATES.jsonl blob_sha=07f70198eda0b683586039d01c72960698bcbbdf original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=7 classification=text
+{"_meta":{"schema":"CORE_KRIYA_ENTITY_CANDIDATES.v1","entity_candidates":204,"baseline_primary_anchors":146,"physical_splits":58,"rule":"Every claim-bearing source record has a PRIMARY candidate that inherits claim/resolution/access from CORE_KRIYA_SOURCE_RECORDS.jsonl. Additional rows split composite claims/current successor or same-name candidates. Candidate keys are temporary audit keys, never permanent location IDs.","fields":{"key":"temporary candidate key","src":"source audit IDs","loc":"physical anchor for split","kind":"split kind","r":"resolution numeric suffix","a":"access code","eq":"historical equivalence statement","no":"must not merge without evidence","web":"current identity source"},"access":{"PUBLIC_OPEN":"PO","PUBLIC_LIMITED_HOURS":"PL","PRIVATE_PERMISSION_POSSIBLE":"PP","EXTERIOR_ONLY":"EO","LANDSCAPE_ACCESS":"LA","SUCCESSOR_SITE_VISITABLE":"SV","ACCESS_UNKNOWN":"AU","ACCESS_UNKNOWN_AFTER_EXHAUSTION":"AX"}}}
+{"key":"IR-1::PRIMARY","src":"IR-1"}
+{"key":"IR-2::PRIMARY","src":"IR-2"}
+{"key":"IR-3::PRIMARY","src":"IR-3"}
+{"key":"IR-4::PRIMARY","src":"IR-4"}
+{"key":"IR-5::PRIMARY","src":"IR-5"}
+{"key":"IR-6::PRIMARY","src":"IR-6"}
+{"key":"IR-7::PRIMARY","src":"IR-7"}
+{"key":"IR-8::PRIMARY","src":"IR-8"}
+{"key":"IR-9::PRIMARY","src":"IR-9"}
+{"key":"IR-10::PRIMARY","src":"IR-10"}
+{"key":"IR-11::PRIMARY","src":"IR-11"}
+{"key":"IR-12::PRIMARY","src":"IR-12"}
+{"key":"IR-13::PRIMARY","src":"IR-13"}
+{"key":"IR-14::PRIMARY","src":"IR-14"}
+{"key":"IR-15::PRIMARY","src":"IR-15"}
+{"key":"IR-16::PRIMARY","src":"IR-16"}
+{"key":"IR-17::PRIMARY","src":"IR-17"}
+{"key":"IR-18::PRIMARY","src":"IR-18"}
+{"key":"IR-19::PRIMARY","src":"IR-19"}
+{"key":"IR-20::PRIMARY","src":"IR-20"}
+{"key":"IR-21::PRIMARY","src":"IR-21"}
+{"key":"IR-22::PRIMARY","src":"IR-22"}
+{"key":"IR-23::PRIMARY","src":"IR-23"}
+{"key":"IR-24::PRIMARY","src":"IR-24"}
+{"key":"IR-25::PRIMARY","src":"IR-25"}
+{"key":"IR-26::PRIMARY","src":"IR-26"}
+{"key":"IR-27::PRIMARY","src":"IR-27"}
+{"key":"IR-28::PRIMARY","src":"IR-28"}
+{"key":"IR-29::PRIMARY","src":"IR-29"}
+{"key":"IR-30::PRIMARY","src":"IR-30"}
+{"key":"IR-31::PRIMARY","src":"IR-31"}
+{"key":"IR-32::PRIMARY","src":"IR-32"}
+{"key":"IR-33::PRIMARY","src":"IR-33"}
+{"key":"IR-34::PRIMARY","src":"IR-34"}
+{"key":"IR-35::PRIMARY","src":"IR-35"}
+{"key":"IR-36::PRIMARY","src":"IR-36"}
+{"key":"IR-37::PRIMARY","src":"IR-37"}
+{"key":"IR-38::PRIMARY","src":"IR-38"}
+{"key":"IR-39::PRIMARY","src":"IR-39"}
+{"key":"IR-40::PRIMARY","src":"IR-40"}
+{"key":"IR-41::PRIMARY","src":"IR-41"}
+{"key":"IR-42::PRIMARY","src":"IR-42"}
+{"key":"IR-43::PRIMARY","src":"IR-43"}
+{"key":"IR-44::PRIMARY","src":"IR-44"}
+{"key":"IR-45::PRIMARY","src":"IR-45"}
+{"key":"IR-46::PRIMARY","src":"IR-46"}
+{"key":"IR-47::PRIMARY","src":"IR-47"}
+{"key":"IR-48::PRIMARY","src":"IR-48"}
+{"key":"IR-49::PRIMARY","src":"IR-49"}
+{"key":"IR-50::PRIMARY","src":"IR-50"}
+{"key":"LM-001::PRIMARY","src":"LM-001"}
+{"key":"LM-002::PRIMARY","src":"LM-002"}
+{"key":"LM-003::PRIMARY","src":"LM-003"}
+{"key":"LM-004::PRIMARY","src":"LM-004"}
+{"key":"LM-005::PRIMARY","src":"LM-005"}
+{"key":"LM-006::PRIMARY","src":"LM-006"}
+{"key":"LM-007::PRIMARY","src":"LM-007"}
+{"key":"LM-008::PRIMARY","src":"LM-008"}
+{"key":"LM-009::PRIMARY","src":"LM-009"}
+{"key":"LM-010::PRIMARY","src":"LM-010"}
+{"key":"LM-011::PRIMARY","src":"LM-011"}
+{"key":"LM-012::PRIMARY","src":"LM-012"}
+{"key":"LM-013::PRIMARY","src":"LM-013"}
+{"key":"LM-014::PRIMARY","src":"LM-014"}
+{"key":"LM-015::PRIMARY","src":"LM-015"}
+{"key":"LM-016::PRIMARY","src":"LM-016"}
+{"key":"LM-017::PRIMARY","src":"LM-017"}
+{"key":"LM-018::PRIMARY","src":"LM-018"}
+{"key":"LM-019::PRIMARY","src":"LM-019"}
+{"key":"LM-020::PRIMARY","src":"LM-020"}
+{"key":"LM-021::PRIMARY","src":"LM-021"}
+{"key":"LM-022::PRIMARY","src":"LM-022"}
+{"key":"LM-023::PRIMARY","src":"LM-023"}
+{"key":"LM-024::PRIMARY","src":"LM-024"}
+{"key":"LM-025::PRIMARY","src":"LM-025"}
+{"key":"LM-026::PRIMARY","src":"LM-026"}
+{"key":"LM-027::PRIMARY","src":"LM-027"}
+{"key":"LM-028::PRIMARY","src":"LM-028"}
+{"key":"LM-029::PRIMARY","src":"LM-029"}
+{"key":"LM-030::PRIMARY","src":"LM
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=410 path=runs/active/INDIAROOD-CORE-KRIYA-LOCATION-CLOSURE-001/CORE_KRIYA_ENTITY_CANDIDATES.jsonl blob_sha=07f70198eda0b683586039d01c72960698bcbbdf original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=7 classification=text
+-030"}
+{"key":"LM-031::PRIMARY","src":"LM-031"}
+{"key":"LM-032::PRIMARY","src":"LM-032"}
+{"key":"LM-033::PRIMARY","src":"LM-033"}
+{"key":"LM-034::PRIMARY","src":"LM-034"}
+{"key":"LM-035::PRIMARY","src":"LM-035"}
+{"key":"LM-036::PRIMARY","src":"LM-036"}
+{"key":"LM-037::PRIMARY","src":"LM-037"}
+{"key":"LM-038::PRIMARY","src":"LM-038"}
+{"key":"LM-039::PRIMARY","src":"LM-039"}
+{"key":"LM-040::PRIMARY","src":"LM-040"}
+{"key":"SY-001::PRIMARY","src":"SY-001"}
+{"key":"SY-002::PRIMARY","src":"SY-002"}
+{"key":"SY-003::PRIMARY","src":"SY-003"}
+{"key":"SY-004::PRIMARY","src":"SY-004"}
+{"key":"SY-005::PRIMARY","src":"SY-005"}
+{"key":"SY-006::PRIMARY","src":"SY-006"}
+{"key":"SY-007::PRIMARY","src":"SY-007"}
+{"key":"SY-008::PRIMARY","src":"SY-008"}
+{"key":"SY-009::PRIMARY","src":"SY-009"}
+{"key":"SY-010::PRIMARY","src":"SY-010"}
+{"key":"SY-011::PRIMARY","src":"SY-011"}
+{"key":"SY-012::PRIMARY","src":"SY-012"}
+{"key":"SY-013::PRIMARY","src":"SY-013"}
+{"key":"SY-014::PRIMARY","src":"SY-014"}
+{"key":"SY-015::PRIMARY","src":"SY-015"}
+{"key":"SY-016::PRIMARY","src":"SY-016"}
+{"key":"SY-017::PRIMARY","src":"SY-017"}
+{"key":"SY-018::PRIMARY","src":"SY-018"}
+{"key":"SY-019::PRIMARY","src":"SY-019"}
+{"key":"SY-020::PRIMARY","src":"SY-020"}
+{"key":"SY-021::PRIMARY","src":"SY-021"}
+{"key":"SY-022::PRIMARY","src":"SY-022"}
+{"key":"SY-023::PRIMARY","src":"SY-023"}
+{"key":"SY-024::PRIMARY","src":"SY-024"}
+{"key":"SY-025::PRIMARY","src":"SY-025"}
+{"key":"SY-026::PRIMARY","src":"SY-026"}
+{"key":"SY-027::PRIMARY","src":"SY-027"}
+{"key":"SY-028::PRIMARY","src":"SY-028"}
+{"key":"SY-029::PRIMARY","src":"SY-029"}
+{"key":"SY-030::PRIMARY","src":"SY-030"}
+{"key":"SY-031::PRIMARY","src":"SY-031"}
+{"key":"SY-032::PRIMARY","src":"SY-032"}
+{"key":"SY-033::PRIMARY","src":"SY-033"}
+{"key":"SY-034::PRIMARY","src":"SY-034"}
+{"key":"SY-035::PRIMARY","src":"SY-035"}
+{"key":"SY-036::PRIMARY","src":"SY-036"}
+{"key":"SY-037::PRIMARY","src":"SY-037"}
+{"key":"SY-038::PRIMARY","src":"SY-038"}
+{"key":"SY-039::PRIMARY","src":"SY-039"}
+{"key":"SY-040::PRIMARY","src":"SY-040"}
+{"key":"SY-041::PRIMARY","src":"SY-041"}
+{"key":"SY-042::PRIMARY","src":"SY-042"}
+{"key":"ext-B12::PRIMARY","src":"ext-B12"}
+{"key":"ext-B16::PRIMARY","src":"ext-B16"}
+{"key":"ext-B17::PRIMARY","src":"ext-B17"}
+{"key":"ext-B18::PRIMARY","src":"ext-B18"}
+{"key":"ext-B32::PRIMARY","src":"ext-B32"}
+{"key":"ext-B19::PRIMARY","src":"ext-B19"}
+{"key":"ext-B20::PRIMARY","src":"ext-B20"}
+{"key":"ext-B21::PRIMARY","src":"ext-B21"}
+{"key":"ext-B22::PRIMARY","src":"ext-B22"}
+{"key":"ext-B23::PRIMARY","src":"ext-B23"}
+{"key":"ext-B11-subclaim::PRIMARY","src":"ext-B11-subclaim"}
+{"key":"intern-18-Gorakhpur-Abinash::PRIMARY","src":"intern-18-Gorakhpur-Abinash"}
+{"key":"DELTA-LM-PP-ONLY-AGGREGATE::PRIMARY","src":"DELTA-LM-PP-ONLY-AGGREGATE"}
+{"key":"DELTA-SY-SERAMPORE-MICRO-AGGREGATE::PRIMARY","src":"DELTA-SY-SERAMPORE-MICRO-AGGREGATE"}
+{"key":"DUNAGIRI-1861::CAVEFIELD","src":["IR-2","LM-017"],"loc":"Drongiri/Dunagiri cave-field/open grove described in AOAY","kind":"historic landscape zone","r":3,"a":"LA","eq":"historic narrative localizes mountain/cave-field but does not identify one current cave","no":["IR-3::PRIMARY","IR-30::PRIMARY","IR-32::PRIMARY"],"web":["https://yssofindia.org/location/dwarahat"]}
+{"key":"DUNAGIRI-1861::UNNAMED-INITIATION-CAVE","src":["IR-2","LM-017"],"loc":"Small initiation cave inside Drongiri/Dunagiri cave-field","kind":"historic micro-site","r":5,"a":"AX","eq":"exact cave in early text not recoverable from currently consulted evidence","no":["IR-3::PRIMARY"],"web":["https://yssofindia.org/location/dwarahat"]}
+{"key":"DUNAGIRI-YSS::PANDUKHOLI-CAVE","src":["IR-3","LM-017","NEG-LM-05"],"loc":"Mahavatar Babaji's Cave, Pandukholi beyond Kukuchina","kind":"current claimant site","r":1,"a":"LA","eq":"exact current cave; equation with unnamed 1861 cave is YSS lineage identification, not independently proved","no":["DUNAGIRI-1861::UNNAMED-INITIATION-CAVE","IR-30::PRIMARY"],"web":["https://yssofindia.org/location/dwarahat"]}
+{"key":"DUNAGIRI-GAGAS::RIVER-SYSTEM","src":["IR-4","LM-018"],"loc":"Gagas/G
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=411 path=runs/active/INDIAROOD-CORE-KRIYA-LOCATION-CLOSURE-001/CORE_KRIYA_ENTITY_CANDIDATES.jsonl blob_sha=07f70198eda0b683586039d01c72960698bcbbdf original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=7 classification=text
+ogash river system below Dunagiri","kind":"historic landscape zone","r":3,"a":"LA","eq":"river system is identifiable; historical rocky-bank metres are not","web":["https://yssofindia.org/location/dwarahat","https://hansavedas.org/path-of-yoga/"]}
+{"key":"DUNAGIRI-GOLDEN-PALACE::EPHEMERAL","src":["IR-5","LM-019"],"loc":"Claimed 1861 golden-palace terrain","kind":"ephemeral/mythic micro-site","r":5,"a":"AX","eq":"narrative says palace dematerialized; no physical terrain marker supplied","no":["IR-3::PRIMARY","IR-30::PRIMARY"]}
+{"key":"PRAYAG-1894::HISTORIC-MELA-ZONE","src":["IR-8","SY-013"],"loc":"1894 Kumbha mela zone on Ganges/Jhusi side","kind":"historic temporary landscape","r":3,"a":"LA","eq":"scene localizable to mela/Ganges/Jhusi-side context, but floodplain changed and exact camp sector absent"}
+{"key":"PRAYAG-1894::BRIDGE","src":["IR-8","SY-013"],"loc":"Bridge crossed immediately before 1894 Babaji-tree encounter","kind":"historic micro-site","r":5,"a":"AX","eq":"no consulted map/source discriminates which 1894 bridge"}
+{"key":"PRAYAG-1894::TREE-AOAY","src":["IR-8","SY-013"],"loc":"Tree under which Babaji received Sri Yukteswar in 1894","kind":"historic micro-site","r":5,"a":"AX","eq":"tree is explicit in testimony but exact historical tree identity not independently closed"}
+{"key":"PRAYAG-1894::YOGI-SATYAM-BANYAN","src":["IR-8","SY-013"],"loc":"Blessed Mahavatar Babaji Banyan Tree, Kriyayoga Ashram & Research Institute, Jhusi","kind":"current claimant tree","r":1,"a":"PL","eq":"current ashram explicitly claims this tree is the 1894 tree; treated as claimant identification, not archival closure","no":["PRAYAG-1894::TREE-AOAY"],"web":["https://www.kriyayoga-yogisatyam.org/mother-centre"]}
+{"key":"DASHASHWAMEDH::GHAT","src":"IR-9","loc":"Dashashwamedh Ghat, Varanasi","kind":"current historic ghat","r":1,"a":"PO","eq":"named ghat exact; ordinary ghat identity does not identify hidden cave"}
+{"key":"DASHASHWAMEDH::MATAJI-CAVE","src":"IR-9","loc":"Hidden underground cave beneath stone slab at/near Dashashwamedh Ghat","kind":"historic hidden micro-site","r":5,"a":"AX","eq":"stone slab/cave not publicly identified; do not invent from modern cave claims"}
+{"key":"RAI-GHAT::BANYAN","src":["IR-10","SY-015"],"loc":"Large banyan at Rai Ghat Lane, Serampore","kind":"current claimant tree","r":1,"a":"LA","eq":"YSS explicitly identifies present large banyan as witness site; tree age/continuity not independently dendrologically proved","web":["https://yssofindia.org/location/dakshineswar"]}
+{"key":"LAHIRI-HOUSE::BUILDING","src":["IR-11","LM-023","SY-007","ext-B11-subclaim"],"loc":"Lahiri Mahasaya original home, Madanpura/Garudeshwar, Varanasi (modern claim D31/58)","kind":"historic/current house","r":1,"a":"PL","eq":"family/lineage continuity plus modern address; kept distinct from Satyalok","no":["ext-B32::PRIMARY","NEG-LM-01"],"web":["https://yappe.in/uttar-pradesh/varanasi/lahiri-mahasaya-original-home-kriya/415665"]}
+{"key":"LAHIRI-HOUSE::FRONT-PARLOR","src":["IR-11","LM-023","SY-007"],"loc":"Small front parlor on first floor of Lahiri house","kind":"historic interior micro-site","r":3,"a":"PP","eq":"AOAY describes parlor; present-room continuity is lineage/family-held but no independent floor-plan chain closed","web":["https://www.ananda.org/autobiography/"]}
+{"key":"LAHIRI-HOUSE::THRESHOLD","src":"IR-11","loc":"Threshold of Lahiri's room where Babaji was shown to Sri Yukteswar","kind":"historic interior micro-site","r":3,"a":"PP","eq":"house anchor exact; specific door/threshold current identity not independently verified"}
+{"key":"GARPAR-4::HOUSE","src":["IR-12","SY-024"],"loc":"4 Garpar Road, Kolkata","kind":"historic/current family house","r":1,"a":"PP","eq":"YSS identifies and holds commemorations in same family home","web":["https://yssofindia.org/blog/newsletter-and-appeal-2011","https://yssofindia.org/location/dakshineswar"]}
+{"key":"GARPAR-4::BABAJI-ROOM","src":"IR-12","loc":"Room/vestibule of 4 Garpar Road associated with Babaji meeting","kind":"historic interior micro-site","r":3,"a":"PP","eq":"same house exact;
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=412 path=runs/active/INDIAROOD-CORE-KRIYA-LOCATION-CLOSURE-001/CORE_KRIYA_ENTITY_CANDIDATES.jsonl blob_sha=07f70198eda0b683586039d01c72960698bcbbdf original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=7 classification=text
+ public sources checked do not independently establish current door/vestibule geometry"}
+{"key":"GARPAR-4::ROOF-1930","src":"SY-024","loc":"Roof of 4 Garpar Road where two Sri Yukteswar photos were taken in 1930","kind":"historic/current micro-site","r":1,"a":"PP","eq":"direct witness localizes roof; same family house continues"}
+{"key":"KARAR::COMPLEX","src":["IR-16","SY-019"],"loc":"Karar Ashram / Yogada Ashram, Mouza Balisahi, Swargadwar, Puri","kind":"historic/current ashram property","r":1,"a":"PP","eq":"current property continuity supported by Odisha High Court record","web":["https://indiankanoon.org/doc/109151220/"]}
+{"key":"KARAR::SAMADHI","src":"SY-019","loc":"Sri Yukteswar samadhi/burial subsite within Karar Ashram","kind":"historic/current memorial subsite","r":1,"a":"PP","eq":"burial at ashram in 1936; later samadhi structure marks subsite"}
+{"key":"KARAR::HARIHARANANDA-ROOMS","src":"IR-16","loc":"Closed meditation room + small Kali-puja room, Karar Ashram","kind":"historic interior sub-entities","r":3,"a":"PP","eq":"delta preserves two room-level Babaji-visit claims; current exact room continuity/access not independently closed"}
+{"key":"PARANGIPETTAI::MANDIR","src":"IR-19","loc":"Babaji Nagaraj Mandir, Parangipettai","kind":"current commemorative shrine","r":1,"a":"PL","eq":"current shrine exact; source dates vary 1974/1975; claimed birth-equivalence remains tradition-specific","web":["https://www.babajiskriyayoga.net/rwd/english/pilgrimages.htm"]}
+{"key":"PARANGIPETTAI::CLAIMED-BIRTH-SUBSTRATE","src":["IR-17","IR-19"],"loc":"Underlying parcel claimed as Nagaraj birthplace","kind":"claimant historic substrate","r":3,"a":"PL","eq":"later shrine fixes claimant parcel, but no independent evidence proves a 203 CE birth on that parcel"}
+{"key":"SATOPANTH::LAKE-ZONE","src":["IR-26","IR-27"],"loc":"Satopanth Tal and approach from Badrinath/Mana","kind":"current high-altitude landscape","r":3,"a":"LA","eq":"current route documented by Uttarakhand Tourism; seasonal/technical trek; this does not identify claimed cave","web":["https://www.uttarakhandtourism.gov.in/treks-details/Satopanth%20Lake%20Trek"]}
+{"key":"SATOPANTH::UNNAMED-CAVE","src":"IR-26","loc":"Claimed cave beside Satopanth Tal","kind":"historic micro-site","r":5,"a":"AX","eq":"no unique present cave recovered"}
+{"key":"KESHAV-PRAYAG::CONFLUENCE","src":"IR-29","loc":"Keshav Prayag / Alaknanda-Saraswati confluence near Mana","kind":"current landscape anchor","r":3,"a":"LA","eq":"anchor zone is visitable; hidden Gauri Shankara Pitha is not physically disclosed"}
+{"key":"GAURI-SHANKARA-PITHA::HIDDEN","src":"IR-29","loc":"Gauri Shankara Pitha hidden enclave","kind":"claimant hidden site","r":5,"a":"AX","eq":"source itself presents it as concealed; no public building/parcel boundary"}
+{"key":"DUNAGIRI-HARAPRIYA::TEMPLE","src":"IR-30","loc":"Dunagiri/Harapriya Devi Temple, Malla Surana/Dwarahat","kind":"current temple anchor","r":1,"a":"PL","eq":"current temple exact; Hansavedas says initiation occurred 'near' it, not necessarily inside","no":["IR-3::PRIMARY"],"web":["https://dunagiritemple.com/about-the-temple/"]}
+{"key":"HAIDAKHAN::VISHWA-MAHADHAM","src":["IR-32","IR-34","IR-35"],"loc":"Haidakhan Vishwa Mahadham, Dist. Nainital","kind":"current ashram complex","r":1,"a":"PP","eq":"Haidakhandi Samaj provides current address/contact and 1970-84 history; Mahavatar identity remains disputed","web":["https://haidakhandisamaj.in/ashrams/","https://haidakhandisamaj.in/contact/"]}
+{"key":"HAIDAKHAN::HISTORIC-CAVE","src":"IR-32","loc":"Historic holy cave at foot of Mount Adi Kailash, Haidakhan","kind":"current lineage cave","r":1,"a":"PP","eq":"Samaj explicitly identifies cave as 1970 manifestation point; distinct from Dunagiri/Pandukholi","no":["IR-3::PRIMARY"],"web":["https://haidakhandisamaj.in/ashrams/"]}
+{"key":"HAIDAKHAN::DHUNI","src":"IR-35","loc":"Maha Shakti Dhuni inside Haidakhan Vishwa Mahadham","kind":"current ritual subsite","r":1,"a":"PP","eq":"kept separate from full complex because source assigns distinct construction/inauguration event"}
+{"key":"GHUR
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=413 path=runs/active/INDIAROOD-CORE-KRIYA-LOCATION-CLOSURE-001/CORE_KRIYA_ENTITY_CANDIDATES.jsonl blob_sha=07f70198eda0b683586039d01c72960698bcbbdf original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=7 classification=text
+NI::LOST-ESTATE","src":["LM-001","LM-002","LM-030"],"loc":"Ghurni/Jalangi historic Lahiri estate zone","kind":"historic landscape zone","r":3,"a":"LA","eq":"river-course change prevents parcel-level closure; inheritance parcel LM-030 not automatically same as birth estate"}
+{"key":"GHURNI::Jaleshwar-SUCCESSOR","src":"LM-003","loc":"Current Jaleshwar/Ghurni Shiva successor shrine holding claimed rescued lingam","kind":"successor cult object/site","r":3,"a":"PL","eq":"continuity of lingam is claimed; same physical temple/site not proven, so not R2"}
+{"key":"VARANASI-PANCHGANGA::GHAT","src":"LM-025","loc":"Panchganga Ghat","kind":"current historic ghat","r":1,"a":"PO","eq":"named ghat survives; meeting specifically attributed to Trailanga Swami ashram"}
+{"key":"VARANASI-PANCHGANGA::TAILANG-MATH","src":"LM-025","loc":"Tailang Swami Math at Panchganga Ghat","kind":"current math","r":1,"a":"PL","eq":"UP heritage/government page confirms Tailang Swami Math at ghat and 19th-century residence","web":["https://pawanpath.up.gov.in/ghats/"]}
+{"key":"RANA-MAHAL::GHAT","src":"LM-026","loc":"Rana Mahal Ghat","kind":"current historic ghat","r":1,"a":"LA","eq":"named ghat exact; falling-brick exact roof/return-path not recoverable"}
+{"key":"RANA-MAHAL::KRISHNARAM-HOUSE","src":"LM-027","loc":"Krishnaram private house/courtyard, Rana Mahal","kind":"historic private micro-site","r":4,"a":"AX","eq":"district/host known but no address"}
+{"key":"RAMNAGAR::FORT-PALACE","src":"LM-028","loc":"Ramnagar Fort/Palace of Kashi Naresh","kind":"historic/current palace","r":1,"a":"PL","eq":"current fort is royal Kashi Naresh residence; exact tutoring/lodging room not named","web":["https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/ramnagar-fort"]}
+{"key":"RAMNAGAR::TUTORING-ROOM","src":"LM-028","loc":"Unknown tutoring/lodging room inside Ramnagar palace","kind":"historic interior micro-site","r":3,"a":"PL","eq":"palace exact; room/vleugel not recoverable from consulted sources"}
+{"key":"HARIDWAR-KESHAV::CURRENT-ASHRAM","src":["LM-035","NEG-LM-03"],"loc":"Current Keshav Ashram, Haridwar","kind":"current lineage institution / possible successor candidate","r":3,"a":"PP","eq":"current ashram established by Keshavanand after Himalayas, but no same-site chain to AOAY pre-death hermitage","web":["https://www.katyayanipeeth.org.in/about1"]}
+{"key":"HARIDWAR-KESHAV::AOAY-HERMITAGE","src":"LM-035","loc":"Keshabananda's Haridwar hermitage in AOAY","kind":"historic private/religious site","r":4,"a":"AX","eq":"city/host known; current Keshav Ashram cannot yet be promoted to same site"}
+{"key":"SERAMPORE-PRIYADHAM::HISTORIC-TERRAIN","src":["SY-001","DELTA-SY-SERAMPORE-MICRO-AGGREGATE"],"loc":"Historic Priyadham/hermitage terrain, Rai Ghat/Buro Bibi Lane","kind":"historic property","r":2,"a":"SV","eq":"current Smriti Mandir stands on old ashram site; room geometry only partly recoverable","web":["https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar"]}
+{"key":"SERAMPORE-PRIYADHAM::SMRITI-MANDIR","src":"SY-001","loc":"Sri Sri Swami Sri Yukteswar Giri Smriti Mandir, 3A Buro Bibi Lane","kind":"current successor memorial","r":1,"a":"PL","eq":"later memorial on old ashram site; not falsely treated as building entered by Sri Yukteswar","web":["https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar"]}
+{"key":"SERAMPORE-PRIYADHAM::COURTYARD","src":["SY-001","DELTA-SY-SERAMPORE-MICRO-AGGREGATE"],"loc":"Historic Priyadham courtyard","kind":"historic interior/space sub-entity","r":3,"a":"SV","eq":"component explicitly preserved by source/reconciliation; exact current footprint/room correspondence not independently mapped","web":["https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar"]}
+{"key":"SERAMPORE-PRIYADHAM::HALL","src":["SY-001","DELTA-SY-SERAMPORE-MICRO-AGGREGATE"],"loc":"Historic Priyadham hall","kind":"historic interior/space sub-entity","r":3,"a":"SV","eq":"component explicitly preserved by source/reconciliation; exact current footprint/room correspondence not independently mapped","web":["https://yssofindia.org/ashrams/yogod
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=414 path=runs/active/INDIAROOD-CORE-KRIYA-LOCATION-CLOSURE-001/CORE_KRIYA_ENTITY_CANDIDATES.jsonl blob_sha=07f70198eda0b683586039d01c72960698bcbbdf original_offset=20480 original_length=4096 payload_bytes=4096 chunk_index=5 chunk_count=7 classification=text
+a-satsanga-math-dakshineswar"]}
+{"key":"SERAMPORE-PRIYADHAM::SITTING-ROOM","src":["SY-001","DELTA-SY-SERAMPORE-MICRO-AGGREGATE"],"loc":"Historic Priyadham sitting room","kind":"historic interior/space sub-entity","r":3,"a":"SV","eq":"component explicitly preserved by source/reconciliation; exact current footprint/room correspondence not independently mapped","web":["https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar"]}
+{"key":"SERAMPORE-PRIYADHAM::EATING-PATIO","src":["SY-001","DELTA-SY-SERAMPORE-MICRO-AGGREGATE"],"loc":"Historic Priyadham eating patio","kind":"historic interior/space sub-entity","r":3,"a":"SV","eq":"component explicitly preserved by source/reconciliation; exact current footprint/room correspondence not independently mapped","web":["https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar"]}
+{"key":"SERAMPORE-PRIYADHAM::BEDROOM","src":["SY-001","DELTA-SY-SERAMPORE-MICRO-AGGREGATE"],"loc":"Historic Priyadham bedroom","kind":"historic interior/space sub-entity","r":3,"a":"SV","eq":"component explicitly preserved by source/reconciliation; exact current footprint/room correspondence not independently mapped","web":["https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar"]}
+{"key":"BODH-GAYA::KRISHNADAYAL-MATH","src":"SY-020","loc":"Unknown math/residence of Mahant Krishnadayal Giri, Bodh Gaya","kind":"historic religious site","r":4,"a":"AX","eq":"Bodh Gaya known; exact monastery not named; specifically do not substitute Mahabodhi Temple"}
+{"key":"TULSI-BOSE::HISTORIC-HOUSE","src":"SY-023","loc":"Tulsi Bose family home, historic Pitambar Bhattacharjee Lane, adjacent to 4 Garpar Road","kind":"historic private house","r":3,"a":"PP","eq":"YSS confirms Garpar centre behind Tulsi Bose house; current centre address history must not be projected onto every old room","web":["https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar"]}
+{"key":"TULSI-BOSE::YSS-GARPAR-CENTRE","src":"SY-023","loc":"Yogoda Satsanga Dhyana Kendra—Garpar, current successor/adjacent lineage centre","kind":"current adjacent/successor institution","r":2,"a":"PL","eq":"lineage centre on/adjacent to Bose grounds; not proof of exact historical room","web":["https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar"]}
+{"key":"PANTHI::HISTORIC-PLOT","src":"SY-025","loc":"Plot of former Panthi boardinghouse near Rai Ghat Lane","kind":"historic plot / demolished building site","r":2,"a":"SV","eq":"YSS says old structure was demolished by local council; plot remains localized","web":["https://yssofindia.org/location/dakshineswar"]}
+{"key":"PANTHI::ROOM","src":"SY-025","loc":"Specific historical Panthi room visited by Sri Yukteswar","kind":"demolished interior micro-site","r":2,"a":"SV","eq":"room no longer exists; plot localization is the strongest successor-level anchor"}
+{"key":"DIHIKA::HISTORIC-SCHOOL-SITE","src":"SY-029","loc":"Historic Dihika Brahmacharya Vidyalaya terrain","kind":"historic school site","r":2,"a":"SV","eq":"current YSS retreat/site gives physical successor, but Sri Yukteswar visit itself remains uncertain"}
+{"key":"DIHIKA::CURRENT-YSS-RETREAT","src":"SY-029","loc":"Current YSS Dihika retreat","kind":"current successor institution","r":1,"a":"PL","eq":"current site does not upgrade uncertain personal-visit claim"}
+{"key":"ALBERT-HALL::INDIAN-COFFEE-HOUSE","src":"SY-028","loc":"Albert Hall, now Indian Coffee House, 15 Bankim Chatterjee Street, Kolkata","kind":"historic/current building","r":1,"a":"PL","eq":"Kolkata Municipal Corporation heritage list explicitly states identity continuity","web":["https://www.kmcgov.in/KMCPortal/downloads/Graded_List_04_08_2022.pdf"]}
+{"key":"REGENT-1936::HISTORIC-HOTEL","src":"SY-042","loc":"Regent Hotel, Bombay, 19 June 1936 — historical hotel/third-storey room","kind":"historic hotel/room","r":5,"a":"AX","eq":"AOAY names hotel but no address/room number; current same-name hotel has not been proven continuous"}
+{"key":"REGENT-CURRENT::8-BEST-ROAD","src":"SY-042","loc":"Current Regent Hotel, 8 BEST Road, Colaba, Mumbai 400039","kind":"current same-n
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=415 path=runs/active/INDIAROOD-CORE-KRIYA-LOCATION-CLOSURE-001/CORE_KRIYA_ENTITY_CANDIDATES.jsonl blob_sha=07f70198eda0b683586039d01c72960698bcbbdf original_offset=24576 original_length=277 payload_bytes=277 chunk_index=6 chunk_count=7 classification=text
+ame candidate","r":1,"a":"PL","eq":"current hotel exists, but historical equivalence to AOAY's 1936 Regent Hotel is NOT established; never merge without archival address evidence","no":["REGENT-1936::HISTORIC-HOTEL"],"web":["https://www.regenthotelcolaba.in/contact-us.html"]}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=416 path=runs/active/INDIAROOD-CORE-KRIYA-LOCATION-CLOSURE-001/CORE_KRIYA_R4_R5_CLOSURE.md blob_sha=41fa2f3460d4ef2565f3896afdbe179489940e9a original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+# CORE KRIYA R4/R5 CLOSURE
+
+Task: `INDIAROOD-CORE-KRIYA-LOCATION-CLOSURE-001`  
+Write branch: `agent/indiarood-core-kriya-sweep`  
+Web/continuity check: 2026-08-20  
+Input mode: IndiaROOD freezes on the write branch plus the explicitly authorised read-only delta/governance inputs from `agent/india8-cluster-casting`.
+
+## Lossless result
+
+No source claim was removed. No pre-existing location ID or classification decision was changed. Claimant traditions, apparitions/materialisations, negative controls and contradictions remain separate.
+
+- source rows retained: **178**
+- claim-bearing rows in R1-R5 denominator: **146**
+- negative/adversarial controls retained outside denominator: **32**
+- R1: **31**
+- R2: **2**
+- R3: **34**
+- R4: **54**
+- R5: **25**
+- R1+R2+R3: **67**
+- R4+R5: **79**
+- physical entity candidates after required splitting: **204**
+
+R1 means that the present physical site/object is exact at the level claimed; it does not prove a supernatural or lineage event. R2 means a demonstrable current successor on the historic site. R3 is the strongest responsibly localized approximation. R4 is broad place only. R5 means that physical identity, presence or continuity remains substantively unresolved.
+
+## Priority closures
+
+### Dunagiri / Drongiri / Pandukholi / Gagas / golden palace
+
+The early Lahiri/Babaji narrative resolves to the **Dunagiri cave-field and Gagas/Gogash river system at R3**, not to one independently provable modern cave. YSS currently identifies a concrete cave on Pandukholi beyond Kukuchina and documents the path/approach. That present YSS cave is therefore R1 as a current claimant site; `current YSS cave = unnamed 1861 cave` remains a lineage identification rather than independently demonstrated history.
+
+Current source: https://yssofindia.org/location/dwarahat
+
+Hansavedas independently places its Tryambaknath/Lahiri version “near the Dunagiri Harapriya Devi Temple.” The current temple is a separate exact anchor; the historical event remains an R3 “near-temple” zone and is not merged with Pandukholi.
+
+Sources: https://hansavedas.org/path-of-yoga/ and https://dunagiritemple.com/about-the-temple/
+
+The Gagas/Gogash river can be localized as a landscape system, but not to the historic bank metres. The golden-palace record remains R5: the narrative itself makes the structure temporary/dematerialized and gives no durable terrain marker.
+
+### Prayag Kumbha 1894 — bridge and tree
+
+The 1894 Sri Yukteswar/Babaji event can be localized to the temporary Kumbha/Ganges/Jhusi-side context at R3. No consulted evidence uniquely identifies the historic bridge or original tree; both therefore remain separate R5 micro-sites.
+
+A current Kriyayoga Ashram in Jhusi explicitly claims its banyan is the 1894 Babaji tree. The present tree is stored separately as an R1 **current claimant identification**, but it is explicitly barred from automatic equivalence with the R5 historic tree.
+
+Source: https://www.kriyayoga-yogisatyam.org/mother-centre
+
+### Varanasi — Lahiri house, rooms and ghats
+
+The lineage-recognized Lahiri house in Madanpura/Garudeshwar is resolved to the current D31/58 house at R1 at building level. `LM-023`, `IR-11`, `SY-007` and the delta Pranabananda subclaim cross-reference that same physical house without changing their source IDs. The front parlor and room threshold remain separate R3 interior candidates because a modern room-by-room continuity chain was not independently closed.
+
+Current reference: https://yappe.in/uttar-pradesh/varanasi/lahiri-mahasaya-original-home-kriya/415665
+
+`Satyalok` remains separate and is not substituted for the 1864 residence. `NEG-LM-01` therefore remains active.
+
+Panchganga closes strongly: the Uttar Pradesh Pawan Path material identifies Tailang Swami Math at Panchganga Ghat and its nineteenth-century Tailang Swami association. `LM-025` is R1 at ghat/math level; no particular room is invented.
+
+Source: https://pawanpath.up.gov.in/ghats/
+
+Rana Mahal Ghat (`LM-026`) is R1 as a named surviving ghat. Krishnaram's private house/courtyard (`LM-027`) remains R4 because no
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=417 path=runs/active/INDIAROOD-CORE-KRIYA-LOCATION-CLOSURE-001/CORE_KRIYA_R4_R5_CLOSURE.md blob_sha=41fa2f3460d4ef2565f3896afdbe179489940e9a original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+ address was recovered. Ramnagar Fort/Palace (`LM-028`) is R1 as the Kashi Naresh palace complex; the tutoring/lodging room is only R3.
+
+Source: https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/ramnagar-fort
+
+Manikarnika Ghat (`LM-034`) remains R1 for the cremation event. Keshabananda's AOAY Haridwar hermitage (`LM-035`) remains R4: a current Keshav Ashram exists, but no same-site chain was found, so the modern institution is only a possible successor candidate.
+
+Current Keshav Ashram source: https://www.katyayanipeeth.org.in/about1
+
+### Military Engineering / PWD postings
+
+Benares, Ghazipur, Mirzapur, Buxar, Gorakhpur, Naini Tal, Danapur and Ranikhet are all retained. Targeted web research did not yield defensible nineteenth-century office/building identities. No current PWD office has been back-projected onto a historic post. `LM-009` through `LM-016` therefore remain predominantly R4. The 1861-versus-1868 Ranikhet transfer conflict remains explicit rather than chosen away.
+
+### Serampore
+
+YSS states that the current Sri Yukteswar Smriti Mandir stands on the site of the old ashram. `SY-001` is therefore R2 at historic-terrain/successor level, while the present Smriti Mandir is an R1 successor object. The historic courtyard, hall, sitting room, eating patio and bedroom(s) from the reconciliation are preserved as separate R3 candidates rather than collapsed.
+
+YSS also identifies the current Rai Ghat banyan with the Babaji/Sri Yukteswar encounter. It is R1 as a current claimant site; independent dendrological continuity was not fabricated. The Panthi boardinghouse building was demolished, but YSS still localizes the plot, so `SY-025` is R2 and remains visible.
+
+Sources: https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar and https://yssofindia.org/location/dakshineswar
+
+Serampore College remains an identifiable current institution founded in 1818 (`SY-004`, R1 at institution/site level): https://seramporecollege.ac.in/
+
+### Puri / Bodh Gaya
+
+Karar Ashram is R1 as a continuous current property/site. An Odisha High Court decision discusses the Mouza-Balisahi suit lands constituting Yogada/Karar Ashram, strengthening present property continuity. The ashram, samadhi and room-level Hariharananda claims are kept as separate physical candidates.
+
+Source: https://indiankanoon.org/doc/109151220/
+
+`SY-020` remains R4. Bodh Gaya is known, but the consulted Satyananda-derived material does not name the math/residence of Mahant Krishnadayal Giri. Mahabodhi Temple is specifically **not** substituted without evidence.
+
+### Tamil Babaji-Nagaraj / Hansavedas / Haidakhan traditions
+
+The current Babaji Nagaraj Mandir in Parangipettai is R1 as a present claimant shrine. The underlying claimed 203 CE birth parcel remains tradition-specific and is not independently historicized. The Shiva-to-Muruga temple claim remains separate because ancient building continuity and Nagaraj's personal presence are not demonstrated.
+
+Source: https://www.babajiskriyayoga.net/rwd/english/pilgrimages.htm
+
+Satopanth Tal and its approach are R3 landscape anchors; the unnamed claimed cave remains R5. Source: https://www.uttarakhandtourism.gov.in/treks-details/Satopanth%20Lake%20Trek
+
+Hansavedas' Gauri Shankara Pitha remains R5 because the tradition itself presents a hidden enclave. Its Keshav Prayag/Mana landscape is retained separately.
+
+For the Haidakhan tradition, current Samaj material resolves present sites such as Haidakhan Vishwa Mahadham, its cave/dhuni, Anandpuri, Manda, Vrindavan and Bandikui. Exact present sites can be R1 without resolving the disputed identity `Haidakhan Baba = Mahavatar Babaji`. Private houses, the Haldwani courthouse, the Allahabad military-hospital appearance and private Vapi/Haldwani properties remain unresolved where records or addresses were not recovered.
+
+Sources: https://haidakhandisamaj.in/ashrams/ , https://haidakhandisamaj.in/contact/ , https://haidakhandisamaj.in/temples/
+
+### Dihika / Kashmir / Regent Hotel Bombay
+
+The current YSS Dihika site is visitable and has an exact current successor candidate
+<<< END CHUNK >>>
+

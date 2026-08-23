@@ -1,0 +1,379 @@
+>>> CHUNK stream_row=794 path=research/active/BRAJ-COMPLETE-001/BRONS/claims.jsonl blob_sha=13c3ffe55cd3a4dd5a5cc9878e403c15213a7bd3 original_offset=8192 original_length=3885 payload_bytes=3885 chunk_index=2 chunk_count=3 classification=text
+lias boundaries remain open.","evidence_status":"CONFLICTED","source_ids":["BS-014","BS-017"],"notes":"Do not merge before location and institution verification."}
+{"claim_id":"BC-023","candidate_id":"BRJ-TMP-023","claim_type":"DEVOTIONAL_PURPOSE","claim_text":"Radha Rani/Shreeji Temple is a specific hilltop temple and the central living Radha darshan place of Barsana.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["BS-011","BS-012","BS-014"],"project_confirmation":true,"notes":"Festival crowd and access rules are volatile."}
+{"claim_id":"BC-024","candidate_id":"BRJ-TMP-024","claim_type":"LIVING_PRACTICE","claim_text":"Maan Mandir/Maan Garh is a specific Barsana ashram and lila-place supporting bhajan, seva and rasika devotional practice.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["BS-011","BS-014"],"notes":"Official lineage and current program source required."}
+{"claim_id":"BC-025","candidate_id":"BRJ-TMP-025","claim_type":"INSTITUTIONAL_IDENTITY","claim_text":"Kirti Mandir is a current temple managed by Jagadguru Kripalu Parishat and dedicated to Radha with her mother Kirti.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["BS-011","BS-013","BS-014"],"project_confirmation":true,"notes":"Modern institution; current visitor program requires recheck."}
+{"claim_id":"BC-026","candidate_id":"BRJ-TMP-026","claim_type":"TRADITION","claim_text":"Prem Sarovar is a specific sacred-water candidate in the Barsana cluster carried by Radha-Krishna devotional tradition.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["BS-011","BS-014"],"notes":"Management and distinct recurring practice open."}
+{"claim_id":"BC-027","candidate_id":"BRJ-TMP-027","claim_type":"TRADITION","claim_text":"Nand Bhavan/Nand Baba Temple is a specific hilltop Nandgaon temple associated by living tradition with Nanda, Yashoda and Krishna's family home.","evidence_status":"TRADITION_CONFIRMED","source_ids":["BS-011","BS-014","BS-017"],"project_confirmation":true,"notes":"Current practical rules require verification."}
+{"claim_id":"BC-028","candidate_id":"BRJ-TMP-028","claim_type":"PHYSICAL_IDENTITY","claim_text":"Pavana Sarovar is a specific sacred-water candidate at Nandgaon that forms a practical and devotional cluster with Nand Bhavan.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["BS-011","BS-014","BS-017"],"notes":"Management, water quality and ritual practice open."}
+{"claim_id":"BC-029","candidate_id":"BRJ-TMP-029","claim_type":"LINEAGE","claim_text":"Ter Kadamba is a specific Nandgaon-area bhajan/lila place connected in Gaudiya tradition with Rupa Goswami and Krishna's cowherding remembrance.","evidence_status":"TRADITION_CONFIRMED","source_ids":["BS-011","BS-014","BS-017"],"project_confirmation":true,"notes":"Current institutional drager requires verification."}
+{"claim_id":"BC-030","candidate_id":"ALL-29","claim_type":"VISITABILITY","claim_text":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","evidence_status":"PRACTICAL_CHECK_REQUIRED","source_ids":["BS-005","BS-009","BS-011","BS-014","BR-001"],"notes":"Applied individually where a complete authoritative current regime was unavailable."}
+{"claim_id":"BC-031","candidate_id":"ALL-29","claim_type":"VISUAL_CONDITION","claim_text":"A complete ten-function image dossier and multi-source review basis was not assembled for any candidate in BRONS.","evidence_status":"NOT_ESTABLISHED","source_ids":["BR-002"],"notes":"Explicit quality-gate shortfall; no duplicates used to fill quota."}
+{"claim_id":"BC-032","candidate_id":"ALL-29","claim_type":"PROXIMITY","claim_text":"Cluster relationships are identified, but current travel times and a complete A-to-rest matrix remain practical checks.","evidence_status":"PRACTICAL_CHECK_REQUIRED","source_ids":["BS-009","BS-014","BR-003"],"notes":"No travel time guessed."}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=795 path=research/active/BRAJ-COMPLETE-001/BRONS/experience_reviews.jsonl blob_sha=aa86822dfb93bcc753e1dcf1c56f29e21790ade5 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+{"review_id":"ER-001","candidate_id":"IND-PLACE-000001","platform":"MULTI_SOURCE_NOT_ASSEMBLED","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["intimate temple-ashram context"],"negative_themes":[],"basis_reliability":"OPEN","notes":"Insufficient independent recent review sample."}
+{"review_id":"ER-002","candidate_id":"IND-PLACE-000002","platform":"MULTI_SOURCE_NOT_ASSEMBLED","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["quiet samadhi devotion"],"negative_themes":[],"basis_reliability":"OPEN","notes":"Official current visitor and review basis missing."}
+{"review_id":"ER-003","candidate_id":"IND-PLACE-000003","platform":"MULTI_SOURCE_NOT_ASSEMBLED","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["intense worship"],"negative_themes":["security friction","crowds"],"basis_reliability":"OPEN","notes":"No systematic recent sample."}
+{"review_id":"ER-004","candidate_id":"IND-PLACE-000004","platform":"MULTI_SOURCE_NOT_ASSEMBLED","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["strong sacred atmosphere"],"negative_themes":["commerce","water and cleanliness concerns"],"basis_reliability":"OPEN","notes":"Requires multiple current sources."}
+{"review_id":"ER-005","candidate_id":"IND-PLACE-000005","platform":"MULTI_SOURCE_NOT_ASSEMBLED","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["sacred kund pair"],"negative_themes":["crowding","water condition"],"basis_reliability":"OPEN","notes":"Requires candidate-specific sampling."}
+{"review_id":"ER-006","candidate_id":"IND-PLACE-000006","platform":"MULTI_SOURCE_NOT_ASSEMBLED","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["landscape devotion"],"negative_themes":["heat","traffic","route wear"],"basis_reliability":"OPEN","notes":"No systematic current sample."}
+{"review_id":"ER-007","candidate_id":"IND-PLACE-000007","platform":"MULTI_SOURCE_NOT_ASSEMBLED","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["immersive pilgrimage"],"negative_themes":["physical strain","traffic","crowds"],"basis_reliability":"OPEN","notes":"Ordinary versus festival conditions not separated."}
+{"review_id":"ER-008","candidate_id":"IND-PLACE-000008","platform":"MULTI_SOURCE_NOT_ASSEMBLED","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["monumental beauty","sunset atmosphere"],"negative_themes":["maintenance uncertainty"],"basis_reliability":"OPEN","notes":"Visual basis not systematic."}
+{"review_id":"ER-009","candidate_id":"BRJ-TMP-009","platform":"REPUTABLE_TESTIMONY_PLUS_OPEN_SAMPLE","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["absorbing darshan","living devotion"],"negative_themes":["extreme crowding","access controls"],"basis_reliability":"MEDIUM","notes":"One reputable testimony and current management report; broader sample required."}
+{"review_id":"ER-010","candidate_id":"BRJ-TMP-010","platform":"MULTI_SOURCE_NOT_ASSEMBLED","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["intimate ritual atmosphere"],"negative_themes":[],"basis_reliability":"OPEN","notes":"Review sample missing."}
+{"review_id":"ER-011","candidate_id":"BRJ-TMP-011","platform":"MULTI_SOURCE_NOT_ASSEMBLED","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["organized international welcome","kirtan"],"negative_themes":["busy institutional setting"],"basis_reliability":"OPEN","notes":"Official program known; independent experience sample missing."}
+{"review_id":"ER-012","candidate_id":"BRJ-TMP-012","platform":"MULTI_SOURCE_NOT_ASSEMBLED","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["mystical grove atmosphere"],"negative_themes":["tourist pressure","night restrictions"],"basis_reliability":"OPEN","notes":"Needs current independent sample."}
+{"review_id":"ER-013","candidate_id":"BRJ-TMP-013","platform":"MULTI_SOURCE_NOT_ASSEMBLED","score":null,"review_count":null,"checked_at":"2026-07-15",
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=796 path=research/active/BRAJ-COMPLETE-001/BRONS/experience_reviews.jsonl blob_sha=aa86822dfb93bcc753e1dcf1c56f29e21790ade5 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+"positive_themes":["Radha-centered devotion"],"negative_themes":[],"basis_reliability":"OPEN","notes":"No systematic sample."}
+{"review_id":"ER-014","candidate_id":"BRJ-TMP-014","platform":"MULTI_SOURCE_NOT_ASSEMBLED","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["evening aarti","Yamuna atmosphere"],"negative_themes":["commerce","water quality","crowds"],"basis_reliability":"OPEN","notes":"No systematic current sample."}
+{"review_id":"ER-015","candidate_id":"BRJ-TMP-015","platform":"MULTI_SOURCE_NOT_ASSEMBLED","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["architecture","bhajan-kirtan"],"negative_themes":["urban crowding"],"basis_reliability":"OPEN","notes":"No systematic current sample."}
+{"review_id":"ER-016","candidate_id":"BRJ-TMP-016","platform":"MULTI_SOURCE_NOT_ASSEMBLED","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["parikrama atmosphere"],"negative_themes":["water and cleanliness uncertainty"],"basis_reliability":"OPEN","notes":"No systematic sample."}
+{"review_id":"ER-017","candidate_id":"BRJ-TMP-017","platform":"MULTI_SOURCE_NOT_ASSEMBLED","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["active Giriraj darshan"],"negative_themes":["crowds","commerce"],"basis_reliability":"OPEN","notes":"No systematic sample."}
+{"review_id":"ER-018","candidate_id":"BRJ-TMP-018","platform":"MULTI_SOURCE_NOT_ASSEMBLED","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["direct offering practice"],"negative_themes":["ritual pressure uncertainty"],"basis_reliability":"OPEN","notes":"No systematic sample."}
+{"review_id":"ER-019","candidate_id":"BRJ-TMP-019","platform":"MULTI_SOURCE_NOT_ASSEMBLED","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["open playful devotional space"],"negative_themes":[],"basis_reliability":"OPEN","notes":"No systematic current sample."}
+{"review_id":"ER-020","candidate_id":"BRJ-TMP-020","platform":"MULTI_SOURCE_NOT_ASSEMBLED","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["Krishna childhood atmosphere"],"negative_themes":["maintenance uncertainty"],"basis_reliability":"OPEN","notes":"No systematic sample."}
+{"review_id":"ER-021","candidate_id":"BRJ-TMP-021","platform":"MULTI_SOURCE_NOT_ASSEMBLED","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["quiet lila remembrance"],"negative_themes":["water and maintenance uncertainty"],"basis_reliability":"OPEN","notes":"No systematic sample."}
+{"review_id":"ER-022","candidate_id":"BRJ-TMP-022","platform":"MULTI_SOURCE_NOT_ASSEMBLED","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":[],"negative_themes":["identity ambiguity"],"basis_reliability":"OPEN","notes":"Resolve physical identity before experience synthesis."}
+{"review_id":"ER-023","candidate_id":"BRJ-TMP-023","platform":"MULTI_SOURCE_NOT_ASSEMBLED","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["hilltop views","intense Radha devotion"],"negative_themes":["stairs","festival crowds"],"basis_reliability":"OPEN","notes":"No systematic ordinary-day sample."}
+{"review_id":"ER-024","candidate_id":"BRJ-TMP-024","platform":"MULTI_SOURCE_NOT_ASSEMBLED","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["quiet bhajan setting"],"negative_themes":[],"basis_reliability":"OPEN","notes":"No systematic sample."}
+{"review_id":"ER-025","candidate_id":"BRJ-TMP-025","platform":"MULTI_SOURCE_NOT_ASSEMBLED","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["polished modern architecture","organized setting"],"negative_themes":["less historic atmosphere possible"],"basis_reliability":"OPEN","notes":"Independent sample missing."}
+{"review_id":"ER-026","candidate_id":"BRJ-TMP-026","platform":"MULTI_SOURCE_NOT_ASSEMBLED","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["contemplative water setting"],"negative_themes":["maintenance uncertainty"],"basis_reliabi
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=797 path=research/active/BRAJ-COMPLETE-001/BRONS/experience_reviews.jsonl blob_sha=aa86822dfb93bcc753e1dcf1c56f29e21790ade5 original_offset=8192 original_length=999 payload_bytes=999 chunk_index=2 chunk_count=3 classification=text
+lity":"OPEN","notes":"No systematic sample."}
+{"review_id":"ER-027","candidate_id":"BRJ-TMP-027","platform":"MULTI_SOURCE_NOT_ASSEMBLED","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["hilltop family devotion","views"],"negative_themes":["stairs","festival crowds"],"basis_reliability":"OPEN","notes":"No systematic ordinary-day sample."}
+{"review_id":"ER-028","candidate_id":"BRJ-TMP-028","platform":"MULTI_SOURCE_NOT_ASSEMBLED","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["quiet water setting"],"negative_themes":["water and maintenance uncertainty"],"basis_reliability":"OPEN","notes":"No systematic sample."}
+{"review_id":"ER-029","candidate_id":"BRJ-TMP-029","platform":"MULTI_SOURCE_NOT_ASSEMBLED","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["quiet Gaudiya bhajan atmosphere"],"negative_themes":["access uncertainty"],"basis_reliability":"OPEN","notes":"No systematic sample."}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=798 path=research/active/BRAJ-COMPLETE-001/BRONS/handoff.yaml blob_sha=88bef3bc432c862cbd7fb40403e5cc39ffd41f91 original_offset=0 original_length=2889 payload_bytes=2889 chunk_index=0 chunk_count=1 classification=text
+schema_version: 1
+run_id: BRAJ-COMPLETE-001
+completed_role: BRONS
+result_status: PARTIAL
+output_manifest_path: research/active/BRAJ-COMPLETE-001/BRONS/manifest.yaml
+next_role: ZILVER
+next_expected_transition: CONTROLLER_TRANSITION_TO_ZILVER
+layer_statuses:
+  physical_identity:
+    status: OPEN
+    risk: MEDIUM
+    reason: 29 physical candidates are mapped, but several new small-place identities and Gokul/Mahavan aliases require primary verification.
+    reopen_instruction: VERIFY_DRAGGING_CLAIMS
+  institution:
+    status: OPEN
+    risk: HIGH
+    reason: Current operators remain unresolved for multiple kunds, sarovars, ghats, landscape objects and small temples.
+    reopen_instruction: VERIFY_ALL
+  history_tradition_lineage:
+    status: OPEN
+    risk: MEDIUM
+    reason: Tradition and lineage coverage is broad, but several new candidates rely on government regional or secondary detector sources.
+    reopen_instruction: VERIFY_DRAGGING_CLAIMS
+  devotional_practice_and_participation:
+    status: OPEN
+    risk: MEDIUM
+    reason: Devotional purposes and practices are described, while welcome, etiquette and participation details remain incomplete.
+    reopen_instruction: VERIFY_ALL
+  experience_reviews_and_images:
+    status: OPEN
+    risk: HIGH
+    reason: No candidate has a complete ten-function image dossier or systematic multi-source review analysis.
+    reopen_instruction: VERIFY_ALL
+  visitability_and_practicality:
+    status: OPEN
+    risk: HIGH
+    reason: Complete authoritative current access, restrictions, photography, clothing and closure regimes are unavailable for most candidates.
+    reopen_instruction: VERIFY_ALL
+  proximity_and_cluster_effect:
+    status: OPEN
+    risk: HIGH
+    reason: Logical clusters are identified, but current travel times and the A-to-rest matrix are absent.
+    reopen_instruction: VERIFY_ALL
+open_blockers:
+  - Complete ten-function image dossier missing for all 29 candidates.
+  - Systematic recent review and atmosphere basis incomplete.
+  - Current visitability and participation rules incomplete.
+  - Institutional identity unresolved for multiple distributed or small objects.
+  - Current A-anchor travel-time matrix not established.
+required_predecessor_files:
+  - research/active/BRAJ-COMPLETE-001/BRONS/manifest.yaml
+  - research/active/BRAJ-COMPLETE-001/BRONS/report/INDEX.md
+  - research/active/BRAJ-COMPLETE-001/BRONS/claims.jsonl
+  - research/active/BRAJ-COMPLETE-001/BRONS/sources/registry.jsonl
+  - research/active/BRAJ-COMPLETE-001/BRONS/sources/rejected.jsonl
+  - research/active/BRAJ-COMPLETE-001/BRONS/images.jsonl
+  - research/active/BRAJ-COMPLETE-001/BRONS/experience_reviews.jsonl
+  - research/active/BRAJ-COMPLETE-001/BRONS/proximity.jsonl
+  - research/active/BRAJ-COMPLETE-001/BRONS/place_candidates.jsonl
+  - research/active/BRAJ-COMPLETE-001/BRONS/audit.md
+future_source_commit: null
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=799 path=research/active/BRAJ-COMPLETE-001/BRONS/images.jsonl blob_sha=830ce178b1222f1c338dc549963713b2f499c7d6 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+{"image_id":"BI-001","candidate_id":"IND-PLACE-000001","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"Ten-function image dossier not assembled.","reliability_notes":"Explicit shortfall; no duplicate or unattributed image counted."}
+{"image_id":"BI-002","candidate_id":"IND-PLACE-000002","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"Ten-function image dossier not assembled.","reliability_notes":"Explicit shortfall."}
+{"image_id":"BI-003","candidate_id":"IND-PLACE-000003","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"Ten-function image dossier not assembled.","reliability_notes":"Security-sensitive site; current attributable images require verification."}
+{"image_id":"BI-004","candidate_id":"IND-PLACE-000004","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"Ten-function image dossier not assembled.","reliability_notes":"Water condition and normal/festival comparison missing."}
+{"image_id":"BI-005","candidate_id":"IND-PLACE-000005","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"Ten-function image dossier not assembled.","reliability_notes":"Water condition and candidate-boundary imagery missing."}
+{"image_id":"BI-006","candidate_id":"IND-PLACE-000006","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"Ten-function image dossier not assembled.","reliability_notes":"Landscape, access and maintenance coverage missing."}
+{"image_id":"BI-007","candidate_id":"IND-PLACE-000007","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"Ten-function image dossier not assembled.","reliability_notes":"Route segments and crowd-condition coverage missing."}
+{"image_id":"BI-008","candidate_id":"IND-PLACE-000008","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"Ten-function image dossier not assembled.","reliability_notes":"Architecture and water/maintenance set missing."}
+{"image_id":"BI-009","candidate_id":"BRJ-TMP-009","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"Ten-function image dossier not assembled.","reliability_notes":"Normal versus peak crowd and gate system missing."}
+{"image_id":"BI-010","candidate_id":"BRJ-TMP-010","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"Ten-function image dossier not assembled.","reliability_notes":"Official and visitor image set missing."}
+{"image_id":"BI-011","candidate_id":"BRJ-TMP-011","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"Ten-function image dossier not assembled.","reliability_notes":"Program, crowd and participation images missing."}
+{"image_id":"BI-012","candidate_id":"BRJ-TMP-012","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"Ten-function image 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=800 path=research/active/BRAJ-COMPLETE-001/BRONS/images.jsonl blob_sha=830ce178b1222f1c338dc549963713b2f499c7d6 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+dossier not assembled.","reliability_notes":"Grove, gates, internal shrines and crowd images missing."}
+{"image_id":"BI-013","candidate_id":"BRJ-TMP-013","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"Ten-function image dossier not assembled.","reliability_notes":"Institutional visual source missing."}
+{"image_id":"BI-014","candidate_id":"BRJ-TMP-014","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"Ten-function image dossier not assembled.","reliability_notes":"Aarti, water quality, normal and evening crowd missing."}
+{"image_id":"BI-015","candidate_id":"BRJ-TMP-015","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"Ten-function image dossier not assembled.","reliability_notes":"Architecture and ritual set missing."}
+{"image_id":"BI-016","candidate_id":"BRJ-TMP-016","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"Ten-function image dossier not assembled.","reliability_notes":"Water, ghats and practice images missing."}
+{"image_id":"BI-017","candidate_id":"BRJ-TMP-017","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"Ten-function image dossier not assembled.","reliability_notes":"Entrance, sanctum approach and crowd images missing."}
+{"image_id":"BI-018","candidate_id":"BRJ-TMP-018","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"Ten-function image dossier not assembled.","reliability_notes":"Offerings and object-specific worship images missing."}
+{"image_id":"BI-019","candidate_id":"BRJ-TMP-019","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"Ten-function image dossier not assembled.","reliability_notes":"Sand participation and ashram context missing."}
+{"image_id":"BI-020","candidate_id":"BRJ-TMP-020","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"Ten-function image dossier not assembled.","reliability_notes":"Pillared structure, worship and access images missing."}
+{"image_id":"BI-021","candidate_id":"BRJ-TMP-021","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"Ten-function image dossier not assembled.","reliability_notes":"Ghat, shrine and water condition missing."}
+{"image_id":"BI-022","candidate_id":"BRJ-TMP-022","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"Ten-function image dossier not assembled.","reliability_notes":"Images needed to resolve Gokul/Mahavan alias boundary."}
+{"image_id":"BI-023","candidate_id":"BRJ-TMP-023","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"Ten-function image dossier not assembled.","reliability_notes":"Hill approach, ordinary and festival conditions missing."}
+{"image_id":"BI-024","candidate_id":"BRJ-TMP-024","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observa
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=801 path=research/active/BRAJ-COMPLETE-001/BRONS/images.jsonl blob_sha=830ce178b1222f1c338dc549963713b2f499c7d6 original_offset=8192 original_length=1882 payload_bytes=1882 chunk_index=2 chunk_count=3 classification=text
+tion_supported":"Ten-function image dossier not assembled.","reliability_notes":"Ashram, bhajan and participation images missing."}
+{"image_id":"BI-025","candidate_id":"BRJ-TMP-025","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"Ten-function image dossier not assembled.","reliability_notes":"Official architecture available but independent current set missing."}
+{"image_id":"BI-026","candidate_id":"BRJ-TMP-026","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"Ten-function image dossier not assembled.","reliability_notes":"Water, maintenance and practice images missing."}
+{"image_id":"BI-027","candidate_id":"BRJ-TMP-027","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"Ten-function image dossier not assembled.","reliability_notes":"Hill climb, temple interior and crowd conditions missing."}
+{"image_id":"BI-028","candidate_id":"BRJ-TMP-028","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"Ten-function image dossier not assembled.","reliability_notes":"Water and shore condition missing."}
+{"image_id":"BI-029","candidate_id":"BRJ-TMP-029","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"Ten-function image dossier not assembled.","reliability_notes":"Grove, shrine, access and bhajan images missing."}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=802 path=research/active/BRAJ-COMPLETE-001/BRONS/manifest.yaml blob_sha=b6725d4a221bdcba1f9410cc93de1c230b61bbad original_offset=0 original_length=1729 payload_bytes=1729 chunk_index=0 chunk_count=1 classification=text
+run_id: BRAJ-COMPLETE-001
+role: BRONS
+completion_status: PARTIAL
+source_commit: ed9e0cb3b9b97c069c063900a05de9b3b53c1d47
+context_profile: BRONS_MIN
+protocol_versions:
+  pipeline: 3.0.0
+  methodology: 3.0.0
+candidate_counts:
+  existing_canonical: 8
+  temporary_new: 21
+  total: 29
+files:
+  - path: report/INDEX.md
+  - path: report/01_scope_and_counts.md
+  - path: report/02_vrindavan_mathura.md
+  - path: report/03_govardhan.md
+  - path: report/04_gokul_mahavan.md
+  - path: report/05_barsana_nandgaon.md
+  - path: report/06_detectors_and_outside_list.md
+  - path: report/07_clusters_and_proximity.md
+  - path: report/08_uncertainties_conflicts_duplicates.md
+  - path: report/09_conclusion_and_gate.md
+  - path: claims.jsonl
+  - path: sources/registry.jsonl
+  - path: sources/rejected.jsonl
+  - path: images.jsonl
+  - path: experience_reviews.jsonl
+  - path: proximity.jsonl
+  - path: place_candidates.jsonl
+  - path: audit.md
+  - path: handoff.yaml
+  - path: COMPLETED
+line_counts_reliable: false
+content_hashes_reliable: false
+validation:
+  required_outputs_present: true
+  sentinels_checked: true
+  max_lines_under_1500: true
+  forbidden_files_used: false
+  source_id_references_valid: true
+  source_ids_unique_across_registers: true
+  identifiers_unique: true
+  formal_or_advisory_abc_assigned: false
+  parels_activated: false
+  pipeline_architecture_modified: false
+open_blockers:
+  - Ten-function image dossiers missing for all 29 candidates.
+  - Systematic recent review and experience analysis incomplete.
+  - Current visitability and participation rules incomplete.
+  - Institutional identity unresolved for multiple distributed and small objects.
+  - Current A-anchor travel-time matrix not established.
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=803 path=research/active/BRAJ-COMPLETE-001/BRONS/place_candidates.jsonl blob_sha=e6e5cdfc85ece879dfc51eaf203e0dfac565c544 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+{"candidate_id":"IND-PLACE-000001","canonical_name":"Katyayani Peeth / Keshav Ashram","aliases":["Katyayani Peeth","Keshav Ashram"],"place_type":["TEMPLE","ASHRAM"],"clusters":["BRAJ","VRINDAVAN"],"formal_status":"A","record_status":"EXISTING_CANONICAL","recognition_hook":"nr. 1, tempel en ashram, Shakti en Kriya-lineage"}
+{"candidate_id":"IND-PLACE-000002","canonical_name":"Neem Karoli Baba Ashram and Samadhi, Vrindavan","aliases":["Maharaj-ji Ashram Vrindavan"],"place_type":["ASHRAM","SAMADHI"],"clusters":["BRAJ","VRINDAVAN"],"formal_status":"A","record_status":"EXISTING_CANONICAL","recognition_hook":"nr. 2, ashram en samadhi, Maharaj-ji"}
+{"candidate_id":"IND-PLACE-000003","canonical_name":"Shri Krishna Janmabhoomi / Janmasthan","aliases":["Krishna Janmabhoomi"],"place_type":["TEMPLE_COMPLEX","BIRTHPLACE_TRADITION"],"clusters":["BRAJ","MATHURA"],"formal_status":"U","record_status":"EXISTING_CANONICAL","recognition_hook":"nr. 3, geboorteplaats-tempel, Krishna"}
+{"candidate_id":"IND-PLACE-000004","canonical_name":"Radha Kund","aliases":["Radhakund"],"place_type":["SACRED_WATER","KUND"],"clusters":["BRAJ","GOVARDHAN"],"formal_status":"U","record_status":"EXISTING_CANONICAL","recognition_hook":"nr. 4, heilige vijver, Radha-devotie"}
+{"candidate_id":"IND-PLACE-000005","canonical_name":"Shyam Kund","aliases":["Shyamkund"],"place_type":["SACRED_WATER","KUND"],"clusters":["BRAJ","GOVARDHAN"],"formal_status":"U","record_status":"EXISTING_CANONICAL","recognition_hook":"nr. 5, heilige vijver, Krishna-devotie"}
+{"candidate_id":"IND-PLACE-000006","canonical_name":"Govardhan Hill","aliases":["Giriraj Govardhan"],"place_type":["SACRED_LANDSCAPE","HILL"],"clusters":["BRAJ","GOVARDHAN"],"formal_status":"U","record_status":"EXISTING_CANONICAL","recognition_hook":"nr. 6, heilige heuvel, Krishna/Giriraj"}
+{"candidate_id":"IND-PLACE-000007","canonical_name":"Govardhan Parikrama","aliases":["Giriraj Parikrama"],"place_type":["PILGRIMAGE_ROUTE","PARIKRAMA"],"clusters":["BRAJ","GOVARDHAN"],"formal_status":"U","record_status":"EXISTING_CANONICAL","recognition_hook":"nr. 7, pelgrimsrondgang, Krishna/Giriraj"}
+{"candidate_id":"IND-PLACE-000008","canonical_name":"Kusum Sarovar","aliases":[],"place_type":["SACRED_WATER","SAROVAR","HERITAGE_SITE"],"clusters":["BRAJ","GOVARDHAN"],"formal_status":"U","record_status":"EXISTING_CANONICAL","recognition_hook":"nr. 8, heilige vijver en monument, Radha-Krishna"}
+{"candidate_id":"BRJ-TMP-009","canonical_name":"Banke Bihari Temple","aliases":["Shri Banke Bihari Mandir"],"place_type":["TEMPLE"],"clusters":["BRAJ","VRINDAVAN"],"formal_status":"U","record_status":"PROPOSED","recognition_hook":"nr. 9, tempel, Radha-Krishna en Swami Haridas"}
+{"candidate_id":"BRJ-TMP-010","canonical_name":"Radha Raman Temple","aliases":["Sri Radha Raman Mandir"],"place_type":["TEMPLE"],"clusters":["BRAJ","VRINDAVAN"],"formal_status":"U","record_status":"PROPOSED","recognition_hook":"nr. 10, oude tempel, Gaudiya/Gopala Bhatta"}
+{"candidate_id":"BRJ-TMP-011","canonical_name":"ISKCON Krishna-Balaram Mandir","aliases":["ISKCON Vrindavan"],"place_type":["TEMPLE","ASHRAM"],"clusters":["BRAJ","VRINDAVAN"],"formal_status":"U","record_status":"PROPOSED","recognition_hook":"nr. 11, tempel-ashram, Gaudiya/Prabhupada"}
+{"candidate_id":"BRJ-TMP-012","canonical_name":"Nidhivan and Swami Haridas Complex","aliases":["Nidhivan"],"place_type":["SACRED_GROVE","TEMPLE_COMPLEX"],"clusters":["BRAJ","VRINDAVAN"],"formal_status":"U","record_status":"PROPOSED","recognition_hook":"nr. 12, heilig boscomplex, Radha-Krishna"}
+{"candidate_id":"BRJ-TMP-013","canonical_name":"Radha Vallabh Temple","aliases":["Shri Radha Vallabh Mandir"],"place_type":["TEMPLE"],"clusters":["BRAJ","VRINDAVAN"],"formal_status":"U","record_status":"PROPOSED","recognition_hook":"nr. 13, tempel, Radha Vallabh-sampradaya"}
+{"candidate_id":"BRJ-TMP-014","canonical_name":"Vishram Ghat","aliases":["Vishramghat"],"place_type":["GHAT","SACRED_RIVERBANK"],"clusters":["BRAJ","MATHURA"],"formal_status":"U","record_status":"PROPOSED","recognition_hook":"nr. 14, Yamuna-ghat, Krishna en Mathura
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=804 path=research/active/BRAJ-COMPLETE-001/BRONS/place_candidates.jsonl blob_sha=e6e5cdfc85ece879dfc51eaf203e0dfac565c544 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+-parikrama"}
+{"candidate_id":"BRJ-TMP-015","canonical_name":"Dwarkadhish Temple, Mathura","aliases":["Shri Dwarkadhish Mandir"],"place_type":["TEMPLE"],"clusters":["BRAJ","MATHURA"],"formal_status":"U","record_status":"PROPOSED","recognition_hook":"nr. 15, tempel, Krishna/Pushtimarg"}
+{"candidate_id":"BRJ-TMP-016","canonical_name":"Mansi Ganga","aliases":["Manasi Ganga"],"place_type":["SACRED_WATER","SAROVAR"],"clusters":["BRAJ","GOVARDHAN"],"formal_status":"U","record_status":"PROPOSED","recognition_hook":"nr. 16, heilig meer, Krishna/Govardhan"}
+{"candidate_id":"BRJ-TMP-017","canonical_name":"Daan Ghati Temple","aliases":["Dan Ghati Mandir"],"place_type":["TEMPLE"],"clusters":["BRAJ","GOVARDHAN"],"formal_status":"U","record_status":"PROPOSED","recognition_hook":"nr. 17, tempel aan parikrama, Krishna's dana-lila"}
+{"candidate_id":"BRJ-TMP-018","canonical_name":"Jatipura Mukharvind","aliases":["Giriraj Mukharvind Jatipura"],"place_type":["TEMPLE","SACRED_STONE_SHRINE"],"clusters":["BRAJ","GOVARDHAN"],"formal_status":"U","record_status":"PROPOSED","recognition_hook":"nr. 18, Giriraj-heiligdom, Govardhan-verering"}
+{"candidate_id":"BRJ-TMP-019","canonical_name":"Raman Reti","aliases":["Ramanreti"],"place_type":["SACRED_SAND_FIELD","ASHRAM","TEMPLE"],"clusters":["BRAJ","GOKUL_MAHAVAN"],"formal_status":"U","record_status":"PROPOSED","recognition_hook":"nr. 19, zandveld en ashram, Krishna's kinder-lila"}
+{"candidate_id":"BRJ-TMP-020","canonical_name":"Chaurasi Khamba / Nand Bhavan, Mahavan","aliases":["84 Khamba","Nand Bhavan Mahavan"],"place_type":["TEMPLE_HOUSE","HERITAGE_SITE"],"clusters":["BRAJ","GOKUL_MAHAVAN"],"formal_status":"U","record_status":"PROPOSED","recognition_hook":"nr. 20, tempelhuis, Krishna's jeugd"}
+{"candidate_id":"BRJ-TMP-021","canonical_name":"Brahmand Ghat","aliases":["Brahmanda Ghat"],"place_type":["GHAT","SHRINE"],"clusters":["BRAJ","GOKUL_MAHAVAN"],"formal_status":"U","record_status":"PROPOSED","recognition_hook":"nr. 21, Yamuna-ghat, Krishna toont het universum"}
+{"candidate_id":"BRJ-TMP-022","canonical_name":"Gokulnath Temple / Nand-Yashoda Bhavan, Gokul","aliases":["Nand Yashoda Bhawan Gokul"],"place_type":["TEMPLE","TEMPLE_HOUSE"],"clusters":["BRAJ","GOKUL_MAHAVAN"],"formal_status":"U","record_status":"PROPOSED_CONFLICTED","recognition_hook":"nr. 22, tempelhuis, Krishna's vroege jeugd"}
+{"candidate_id":"BRJ-TMP-023","canonical_name":"Radha Rani Temple / Shriji Temple","aliases":["Ladli Lal Temple","Shreeji Temple"],"place_type":["TEMPLE","HILLTOP_SHRINE"],"clusters":["BRAJ","BARSANA"],"formal_status":"U","record_status":"PROPOSED","recognition_hook":"nr. 23, heuveltempel, Radha"}
+{"candidate_id":"BRJ-TMP-024","canonical_name":"Maan Mandir / Maan Garh","aliases":["Maan Mandir Barsana"],"place_type":["ASHRAM","TEMPLE","LILA_PLACE"],"clusters":["BRAJ","BARSANA"],"formal_status":"U","record_status":"PROPOSED","recognition_hook":"nr. 24, ashram en lila-plaats, Radha-Krishna"}
+{"candidate_id":"BRJ-TMP-025","canonical_name":"Kirti Mandir / Rangeeli Mahal","aliases":["Kirti Mandir Barsana"],"place_type":["TEMPLE"],"clusters":["BRAJ","BARSANA"],"formal_status":"U","record_status":"PROPOSED","recognition_hook":"nr. 25, moderne tempel, Radha en moeder Kirti"}
+{"candidate_id":"BRJ-TMP-026","canonical_name":"Prem Sarovar","aliases":[],"place_type":["SACRED_WATER","SAROVAR"],"clusters":["BRAJ","BARSANA"],"formal_status":"U","record_status":"PROPOSED","recognition_hook":"nr. 26, heilig waterbekken, Radha-Krishna"}
+{"candidate_id":"BRJ-TMP-027","canonical_name":"Nand Bhavan / Nand Baba Temple, Nandgaon","aliases":["Nand Baba Mandir"],"place_type":["TEMPLE","HILLTOP_SHRINE"],"clusters":["BRAJ","NANDGAON"],"formal_status":"U","record_status":"PROPOSED","recognition_hook":"nr. 27, heuveltempel, Krishna's familie"}
+{"candidate_id":"BRJ-TMP-028","canonical_name":"Pavana Sarovar","aliases":["Pawan Sarovar"],"place_type":["SACRED_WATER","SAROVAR"],"clusters":["BRAJ","NANDGAON"],"formal_status":"U","record_status":"PROPOSED","recognition_hook":"nr. 28, heilig meer, Krishna/Nandgaon"}
+{"candidate_id":"BRJ-TMP-029","cano
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=805 path=research/active/BRAJ-COMPLETE-001/BRONS/place_candidates.jsonl blob_sha=e6e5cdfc85ece879dfc51eaf203e0dfac565c544 original_offset=8192 original_length=267 payload_bytes=267 chunk_index=2 chunk_count=3 classification=text
+nical_name":"Ter Kadamba","aliases":["Tera Kadamba"],"place_type":["SACRED_GROVE","BHAJAN_PLACE","SHRINE"],"clusters":["BRAJ","NANDGAON"],"formal_status":"U","record_status":"PROPOSED","recognition_hook":"nr. 29, bhajanplek, Rupa Goswami en Krishna"}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=806 path=research/active/BRAJ-COMPLETE-001/BRONS/proximity.jsonl blob_sha=3c51b1dc9bdb650d6ee9669fb86abd97fc444586 original_offset=0 original_length=4083 payload_bytes=4083 chunk_index=0 chunk_count=1 classification=text
+{"proximity_id":"BP-001","from_candidate_id":"IND-PLACE-000001","to_candidate_id":"IND-PLACE-000002","cluster":"VRINDAVAN_A_ANCHORS","walking_time_min":null,"driving_time_min":null,"loopability":"PRACTICAL_CHECK_REQUIRED","extra_time":null,"friction":"NOT_ESTABLISHED","checked_at":"2026-07-15","recheck_before":"before route phase","notes":"Two formal A anchors; current traffic-aware relation required."}
+{"proximity_id":"BP-002","from_candidate_id":"BRJ-TMP-009","to_candidate_id":"BRJ-TMP-010,BRJ-TMP-012,BRJ-TMP-013","cluster":"VRINDAVAN_OLD_CITY","walking_time_min":null,"driving_time_min":null,"loopability":"LIKELY_WALK_CLUSTER_UNVERIFIED","extra_time":null,"friction":"HIGH_POSSIBLE","checked_at":"2026-07-15","recheck_before":"before route phase","notes":"Dense old-city cluster; crowding, lanes and controls may dominate distance."}
+{"proximity_id":"BP-003","from_candidate_id":"IND-PLACE-000003","to_candidate_id":"BRJ-TMP-014,BRJ-TMP-015","cluster":"MATHURA_CORE","walking_time_min":null,"driving_time_min":null,"loopability":"PRACTICAL_CHECK_REQUIRED","extra_time":null,"friction":"MEDIUM_HIGH","checked_at":"2026-07-15","recheck_before":"before route phase","notes":"Security and urban traffic may affect combination."}
+{"proximity_id":"BP-004","from_candidate_id":"IND-PLACE-000004","to_candidate_id":"IND-PLACE-000005","cluster":"RADHA_SHYAM_KUND","walking_time_min":0,"driving_time_min":null,"loopability":"DIRECT_NAAST_ELKAAR","extra_time":"LOW","friction":"LOW_TO_MEDIUM","checked_at":"2026-07-15","recheck_before":"before visit","notes":"Separate candidates with adjoining physical setting."}
+{"proximity_id":"BP-005","from_candidate_id":"IND-PLACE-000004,IND-PLACE-000005","to_candidate_id":"IND-PLACE-000008","cluster":"KUND_SAROVAR_CLUSTER","walking_time_min":null,"driving_time_min":null,"loopability":"PRACTICAL_CHECK_REQUIRED","extra_time":null,"friction":"NOT_ESTABLISHED","checked_at":"2026-07-15","recheck_before":"before route phase","notes":"Logical northern Govardhan cluster; exact distance/time required."}
+{"proximity_id":"BP-006","from_candidate_id":"IND-PLACE-000006,IND-PLACE-000007","to_candidate_id":"BRJ-TMP-016,BRJ-TMP-017,BRJ-TMP-018","cluster":"GOVARDHAN_PARIKRAMA","walking_time_min":null,"driving_time_min":null,"loopability":"ROUTE_CONNECTED","extra_time":null,"friction":"MEDIUM_HIGH","checked_at":"2026-07-15","recheck_before":"before route phase","notes":"Connected by pilgrimage circuit; object-level stops remain separate."}
+{"proximity_id":"BP-007","from_candidate_id":"BRJ-TMP-019","to_candidate_id":"BRJ-TMP-020,BRJ-TMP-021,BRJ-TMP-022","cluster":"GOKUL_MAHAVAN","walking_time_min":null,"driving_time_min":null,"loopability":"DAY_CLUSTER_HYPOTHESIS","extra_time":null,"friction":"NOT_ESTABLISHED","checked_at":"2026-07-15","recheck_before":"after identity verification","notes":"Resolve Gokul/Mahavan aliases before route calculation."}
+{"proximity_id":"BP-008","from_candidate_id":"BRJ-TMP-023","to_candidate_id":"BRJ-TMP-024,BRJ-TMP-025,BRJ-TMP-026","cluster":"BARSANA","walking_time_min":null,"driving_time_min":null,"loopability":"PLACE_CLUSTER_HYPOTHESIS","extra_time":null,"friction":"MEDIUM_HIGH","checked_at":"2026-07-15","recheck_before":"before route phase","notes":"Hill climbs, narrow roads and festival controls relevant."}
+{"proximity_id":"BP-009","from_candidate_id":"BRJ-TMP-027","to_candidate_id":"BRJ-TMP-028","cluster":"NANDGAON_CORE","walking_time_min":null,"driving_time_min":null,"loopability":"LIKELY_LOCAL_CLUSTER_UNVERIFIED","extra_time":null,"friction":"MEDIUM","checked_at":"2026-07-15","recheck_before":"before route phase","notes":"Hill and sarovar combination requires measured route."}
+{"proximity_id":"BP-010","from_candidate_id":"BRJ-TMP-027","to_candidate_id":"BRJ-TMP-029","cluster":"NANDGAON_TER_KADAMBA","walking_time_min":null,"driving_time_min":null,"loopability":"LIKELY_SHORT_LOCAL_RIDE_UNVERIFIED","extra_time":null,"friction":"NOT_ESTABLISHED","checked_at":"2026-07-15","recheck_before":"before route phase","notes":"Ter Kadamba likely outside compact village core."}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=807 path=research/active/BRAJ-COMPLETE-001/BRONS/report/01_scope_and_counts.md blob_sha=ec6496eff5b3c07454ac68cab2227e26b0015199 original_offset=0 original_length=1172 payload_bytes=1172 chunk_index=0 chunk_count=1 classification=text
+# 01 — Scope and counts
+
+Onderzocht als één spiritueel Braj-cluster: Vrindavan, Mathura, Govardhan/parikramaomgeving, Gokul/Mahavan, Barsana en Nandgaon plus Ter Kadamba als direct aangrenzende Nandgaon-plek.
+
+Resultaten:
+- bestaande canonical plaatsen behouden: 8;
+- nieuwe tijdelijke kandidaten: 21;
+- totaal behandelde fysieke kandidaten: 29;
+- formele A-statussen ongewijzigd: IND-PLACE-000001 en IND-PLACE-000002;
+- nieuwe formele of adviserende A/B/C: 0;
+- PARELS geactiveerd: nee;
+- volledige reisroute of hotelkeuze: niet uitgevoerd.
+
+Nieuwe tijdelijke kandidaten zijn alleen opgenomen wanneer een specifieke fysieke tempel, ghat, kund, sarovar, boscomplex, ashram, samadhi, heuvelplek of pelgrimsobject kon worden aangewezen. De canonical registry is niet gewijzigd.
+
+Alle verplichte detectoren zijn zichtbaar afgelopen. De Krishna/Radha-, Gaudiya-, Radha Raman-, Radha Vallabh-, Pushtimarg-, Nimbarka/rasika-, AOAY/Kriya- en NKB-richtingen leverden fysieke kandidaten of expliciete negatieve/open resultaten op. Beeld-, review-, actuele toegangs- en reistijdlagen zijn breed gestart maar onvoldoende compleet voor PASS.
+
+Resultaat: PARTIAL.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=808 path=research/active/BRAJ-COMPLETE-001/BRONS/report/02_vrindavan_mathura.md blob_sha=a968f534fcb48298222d5084c2d34131912c3d53 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# 02 — Vrindavan and Mathura
+
+## Vrindavan
+
+1. **Katyayani Peeth / Keshav Ashram (nr. 1, tempel en ashram, Shakti en Kriya-lineage)** — canonical IND-PLACE-000001, formeel A. Devotees komen voor Katyayani/Devi-darshan en de door de instelling gedragen Keshavanand-Lahiri-lineage. Pooja en seva zijn institutioneel zichtbaar. Buitenlandse deelname lijkt mogelijk bij algemene darshan en offers, maar kleding, fotografie en actuele toegang blijven praktisch te controleren. Sfeerbasis: intiemer en minder massaal dan de grootste Krishna-tempels; tienbeelden-dossier ontbreekt. AOAY/Kriya is projectbevestigd volgens Methodology v3 door de combinatie van de regionale AOAY-relatie en de officiële identificatie van Keshav Ashram, zonder te claimen dat exacte historische perceelsdetails vaststaan.
+
+2. **Neem Karoli Baba Ashram en samadhi (nr. 2, ashram en samadhi, Maharaj-ji)** — canonical IND-PLACE-000002, formeel A. Devotees eren Maharaj-ji bij zijn samadhi, bidden en zitten stil. De fysieke lineageplaats blijft bevestigd; actuele officiële beheer-, programma- en bezoekersinformatie blijft open. Respectvolle stille deelname lijkt passend, maar directe hercontrole is vereist. Tienbeelden- en reviewdossier ontbreken.
+
+3. **Banke Bihari Temple (nr. 9, tempel, Radha-Krishna en Swami Haridas)** — tijdelijke ID BRJ-TMP-009. Fysieke tempel en levende darshanpraktijk bevestigd via district/templebronnen en actuele berichtgeving. Devotees zoeken intensieve darshan van Bihariji; gordijnen openen en sluiten tijdens darshan en grote drukte is kenmerkend. Buitenlanders kunnen algemene darshan bijwonen, maar crowd control, fotografie en festivaltoegang vragen actuele controle. Ervaringsbasis wijst op zeer levendige, intieme maar chaotische devotie; geen volledig tienbeelden-dossier.
+
+4. **Radha Raman Temple (nr. 10, oude tempel, Gaudiya Vaishnava/Gopala Bhatta)** — BRJ-TMP-010. Officiële tempelidentiteit en de oorspronkelijke shaligram-murti ondersteunen de Gaudiya-lineage. Devotees bezoeken voor darshan, aarti en intieme seva. Algemene deelname lijkt mogelijk met tempel-etiquette; actuele uren en fotografie niet stabiel vastgesteld. Sfeer vermoedelijk kleinschaliger en ritueel gericht; beelden/reviews tekort.
+
+5. **ISKCON Krishna-Balaram Mandir (nr. 11, tempel-ashram, Gaudiya/Prabhupada)** — BRJ-TMP-011. Officiële ISKCON-instelling draagt dagelijkse mangala-arati, kirtan, darshan, lezingen en internationale deelname. Dit is de sterkste kandidaat voor expliciete gastvrijheid voor buitenlanders en niet-ingewijden. Grote actieve gemeenschap, georganiseerd en toegankelijk; actuele programma- en toegangstijden moeten vlak voor bezoek worden herbevestigd. Volledig beeld- en reviewregister nog niet samengesteld.
+
+6. **Nidhivan en Swami Haridas-complex (nr. 12, heilig bos en tempelcomplex, Radha-Krishna rasa-lila-traditie)** — BRJ-TMP-012. Specifiek fysiek omheind boscomplex met Haridas-, Rang Mahal- en raslila-elementen. Devotees bezoeken uit traditie rond Radha-Krishna's nachtelijke lila; de bovennatuurlijke nachtclaim blijft TRADITION_CONFIRMED, geen historische claim. Overdag deelname als bezoek/darshan mogelijk; nachtsluiting en fotografie vragen strikte actuele controle. Sfeer wordt als mystiek maar toeristisch druk beschreven; beelden/reviews tekort.
+
+7. **Radha Vallabh Temple (nr. 13, tempel, Radha Vallabh-sampradaya)** — BRJ-TMP-013. Specifieke levende lineage-tempel met Radha-centrische bhakti, kirtan en darshan. Institutionele en traditiebevestiging vereist in ZILVER nog sterkere primaire broncontrole. Buitenlandse algemene darshan lijkt mogelijk; praktische regels open. Beeld- en reviewtekort.
+
+## Mathura
+
+8. **Shri Krishna Janmabhoomi / Janmasthan (nr. 3, geboorteplaats-tempel, Krishna)** — canonical IND-PLACE-000003. Devotees bezoeken de traditioneel aangewezen geboorteplek voor darshan, aarti en festivals. Actieve aanbidding en sterke security zijn bevestigd; gewone openingstoestand, verboden voorwerpen en fotografie vereisen actuele controle. Sfeer: massaal, beveiligd en intens devotioneel; tienbeelden-dossier ontbr
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=809 path=research/active/BRAJ-COMPLETE-001/BRONS/report/02_vrindavan_mathura.md blob_sha=a968f534fcb48298222d5084c2d34131912c3d53 original_offset=4096 original_length=878 payload_bytes=878 chunk_index=1 chunk_count=2 classification=text
+eekt.
+
+9. **Dwarkadhish Temple (nr. 15, tempel, Krishna in Pushtimarg)** — BRJ-TMP-015. Fysieke tempel en Pushtimarg-beheer/traditie zijn bevestigd via district- en secundaire bronnen. Devotees wonen mangala-arati, bhajan-kirtan en seizoensfestivals bij. Algemene darshan lijkt toegankelijk; exacte schema's en fotografie open. Architectonisch rijk, stedelijk en druk; beeld/reviewtekort.
+
+10. **Vishram Ghat (nr. 14, Yamuna-ghat, Krishna en Mathura-parikrama)** — BRJ-TMP-014. Fysieke ghat en levende Yamuna-aarti/bad/parikrama-context zijn breed bevestigd. Devotees doen aarti, bootrit, wateroffers en beginnen/eindigen parikrama. Deelname aan aarti en eenvoudige offers lijkt mogelijk; waterkwaliteit, ritueel baden en actuele veiligheid moeten worden gecontroleerd. Sfeer varieert van vroeg rustig tot avondlijk druk en commercieel; beeld/reviewtekort.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=810 path=research/active/BRAJ-COMPLETE-001/BRONS/report/03_govardhan.md blob_sha=44786ad660460f72fc9f1cdcc2a8b3e57aa37e6d original_offset=0 original_length=3336 payload_bytes=3336 chunk_index=0 chunk_count=1 classification=text
+# 03 — Govardhan and parikrama environment
+
+1. **Radha Kund (nr. 4, heilige vijver, Radha-devotie)** — canonical IND-PLACE-000004. Devotees bezoeken voor darshan, offers, parikrama en in bepaalde context ritueel contact met het water. Radha Kund blijft fysiek en ritueel onderscheiden van Shyam Kund. Deelname aan respectvolle oeverdevotie lijkt mogelijk; baden, waterkwaliteit, kleding, fotografie en actuele lokale regels vereisen directe controle. Sfeer: zeer heilig maar dichtbebouwd, druk en commercieel; beeld/reviewtekort.
+
+2. **Shyam Kund (nr. 5, heilige vijver, Krishna-devotie)** — canonical IND-PLACE-000005. Aangrenzend maar afzonderlijk waterbekken met eigen Krishna-traditie. Devotees offeren, reciteren en nemen deel aan de gezamenlijke kund-parikrama. Praktische en hygiënische controle gelijk aan Radha Kund. Sfeerbasis en beelden onvoldoende compleet.
+
+3. **Govardhan Hill (nr. 6, heilige heuvel, Krishna/Giriraj)** — canonical IND-PLACE-000006. De fysieke heuvelrug is het landschappelijke heiligdom; devotees vereren Giriraj als Krishna-vorm, offeren stenen/berg-gerelateerde symbolen en lopen rondom. Geen claim dat de traditionele Krishna-gebeurtenis historisch gedocumenteerd is; zij is TRADITION_CONFIRMED. Toegang tot specifieke delen en natuur-/beschermingsregels blijven open.
+
+4. **Govardhan Parikrama (nr. 7, pelgrimsrondgang, Krishna/Giriraj)** — canonical IND-PLACE-000007. Levende routepraktijk met lopen, prostratie, mantra, darshan en stops bij kunds/tempels. Buitenlandse bezoekers kunnen doorgaans respectvol meelopen; afstand, hitte, verkeer, blote voeten, apen en festivaldrukte vragen praktische voorbereiding. Geen definitieve routeplanning in deze fase.
+
+5. **Kusum Sarovar (nr. 8, heilige vijver en monumentaal complex, Radha-Krishna)** — canonical IND-PLACE-000008. Fysiek erfgoed- en watercomplex binnen de parikramacontext. Devotees en pelgrims passeren en verblijven kort; een afzonderlijk georganiseerd terugkerend ritueel specifiek aan het object blijft niet vastgesteld. Visueel waarschijnlijk ZEER_MOOI op architectonische basis, maar het vereiste tienbeelden- en onderhoudsdossier ontbreekt.
+
+6. **Mansi Ganga (nr. 16, heilig meer, Krishna en Govardhan-stad)** — BRJ-TMP-016. Specifiek stedelijk heilig water rond Govardhan met parikrama- en badtraditie. Devotees doen oeverpuja, aarti en rituele omgang. Beheer, waterkwaliteit en veilige deelname moeten worden gecontroleerd. Fysieke en traditionele identiteit voldoende voor opname; actuele bezoekbaarheid blijft praktisch open.
+
+7. **Daan Ghati Temple (nr. 17, tempel aan parikrama, Krishna's dana-lila)** — BRJ-TMP-017. Specifiek tempelcomplex en belangrijke parikramastop. Devotees doen darshan en offers aan Giriraj/Krishna. Levend gebruik is sterk, maar institutionele beheerbron en actuele crowd-controlregels zijn nog niet voldoende vastgelegd. Druk en commercie waarschijnlijk hoog.
+
+8. **Jatipura Mukharvind (nr. 18, Giriraj-heiligdom, Govardhan-steenverering)** — BRJ-TMP-018. Fysiek tempel-/mukharvindobject in Jatipura waar devotees Giriraj darshan en melk-/bloemoffers verrichten. Traditie- en praktijkbasis zijn sterk; precieze institutionele drager, toegangsregels en fotografie vragen ZILVER-verificatie. Dit is inhoudelijk anders dan de heuvel en de route en blijft daarom apart.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=811 path=research/active/BRAJ-COMPLETE-001/BRONS/report/04_gokul_mahavan.md blob_sha=22a8fbfac9474ec80663269cfb3bba4b7f001fe8 original_offset=0 original_length=2178 payload_bytes=2178 chunk_index=0 chunk_count=1 classification=text
+# 04 — Gokul and Mahavan
+
+1. **Raman Reti (nr. 19, zandveld en ashramcomplex, Krishna's kinder-lila)** — BRJ-TMP-019. Specifiek fysiek zandterrein met tempel-/ashramfunctie in de Gokul-Mahavanomgeving. Devotees zitten, rollen of spelen in het zand vanuit de traditie dat Krishna hier speelde; het lila-verhaal is TRADITION_CONFIRMED. Algemene spirituele deelname lijkt mogelijk en laagdrempelig, maar actuele instellingen, programma's en fotografie moeten worden bevestigd. Sfeer wordt doorgaans als open, speels en gezinsgericht beschreven; beeld/reviewdossier tekort.
+
+2. **Chaurasi Khamba / Nand Bhavan, Mahavan (nr. 20, historisch tempelhuis, Krishna's jeugdtraditie)** — BRJ-TMP-020. Een specifieke zuilenstructuur/tempelplaats wordt traditioneel met Nanda, Yashoda en Krishna's jeugd verbonden. Devotees doen darshan en herinneren de huiselijke kinder-lila's. De fysieke identiteit is voldoende voor opname; de historische ouderdom en precieze institutionele drager vereisen verdere controle. Algemene deelname waarschijnlijk mogelijk, actuele toegang open.
+
+3. **Brahmand Ghat (nr. 21, Yamuna-ghat en heiligdom, Krishna toont het universum)** — BRJ-TMP-021. Specifieke ghat/tempelplek verbonden met de levende traditie waarin Yashoda het universum in Krishna's mond ziet. Devotees bezoeken voor darshan, wateroffers en herinnering aan de kinder-lila. De gebeurtenis wordt als TRADITION_CONFIRMED behandeld. Waterveiligheid, onderhoud, fotografie en actuele toegang zijn praktisch te controleren.
+
+4. **Gokulnath Temple / Nand-Yashoda Bhavan, Gokul (nr. 22, tempel, Krishna's vroege jeugd en Vallabha-context)** — BRJ-TMP-022. De zoekrichting leverde een specifieke levende tempelplaats op die in Gokul met Krishna's jeugd en lokale Vaishnava/Pushtimarg-praktijk is verbonden. Devotees doen darshan, bhajan en festivaldevotie. Naam- en grensverwarring met Mahavan's Nand Bhavan blijft open; niet samenvoegen voordat fysieke en institutionele identiteit onafhankelijk zijn gecontroleerd.
+
+Negatief/open: geen betrouwbare fysieke AOAY-, Kriya- of NKB-plek werd binnen Gokul/Mahavan vastgesteld. Die detector leverde hier geen nieuwe kandidaat op.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+

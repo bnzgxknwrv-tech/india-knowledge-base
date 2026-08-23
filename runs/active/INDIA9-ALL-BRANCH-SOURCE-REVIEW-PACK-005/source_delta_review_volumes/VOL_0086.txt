@@ -1,0 +1,1010 @@
+>>> CHUNK stream_row=1517 path=research/active/KUMAON-ROUTE-OPTIMIZATION-001/context/ZILVER_CONTEXT.yaml blob_sha=32d88cff60c61cf4f3dd4953c4069328307e9816 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+ght logic without choosing a hotel
+    expected_git_blob_sha: 175e2b80266ba703e501807ac02e821de26b7cf6
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/arrival_and_exit_analysis.jsonl
+    reason: arrival and departure alternatives with risks
+    task: independently compare train and flight including 23 kg baggage and hotel effects
+    expected_git_blob_sha: 6a413ff8538b3f7ca2c503117d1658b3d686795e
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/door_to_door_comparison.jsonl
+    reason: total travel-time and cost comparison
+    task: rebuild all material calculations from current independent sources
+    expected_git_blob_sha: e99931441b802de712f32a93b4c71707fe2bac6d
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/intercluster_transport_matrix.jsonl
+    reason: comparison of all required successor clusters
+    task: independently test Haridwar/Kankhal against Varanasi, Bodh Gaya and Kolkata plus Braj linkage
+    expected_git_blob_sha: 7120d55db17301f933824a838623b00aa9433e8d
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/live_recheck_register.jsonl
+    reason: all time-sensitive future controls
+    task: verify that every timetable, fare, winter road, trail, taxi, parking and coordinate risk has a concrete recheck
+    expected_git_blob_sha: 072fbe7957bc0d326754c4ea66029030e43bda50
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/kml_route_input.jsonl
+    reason: technical route, base, train and station-marker KML input
+    task: verify layer semantics, permanent IDs, grey train markers and coordinate controls
+    expected_git_blob_sha: 32f09c1717de45991a0626aebbd21822997363cc
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/audit.md
+    reason: predecessor scope and integrity audit
+    task: independently reproduce every PASS statement and preserve open gaps
+    expected_git_blob_sha: 9e235551862013fb47752c71895820b4c1eb59f0
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/next_cluster_decision.md
+    reason: explicit working next-cluster decision
+    task: independently verify or correct Haridwar/Kankhal without researching successor-cluster content
+    expected_git_blob_sha: 3920b4a210dc396f95a005004f32b4333828d3c3
+optional_files:
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/report/01_arrival_internal_route_and_bases.md
+    trigger: mandatory when report/INDEX.md is read
+    reason: complete arrival, bases and internal-route narrative
+    task: verify every material narrative claim against registers and external sources
+    expected_git_blob_sha: 81051ba36a5659e88260207aace1b2978d9e3182
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/report/02_exit_next_cluster_and_remaining_chain.md
+    trigger: mandatory when report/INDEX.md is read
+    reason: complete exit and remaining-chain narrative
+    task: verify next-cluster and provisional chain logic
+    expected_git_blob_sha: 591f6d1994bb87c6c24984450b8a1e1bff888175
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/report/03_transport_registers_kml_and_live_controls.md
+    trigger: mandatory when report/INDEX.md is read
+    reason: train, KML and live-control narrative
+    task: cross-check all technical registers and marker rules
+    expected_git_blob_sha: 4c635d8827d166aa7701c80d2f4cbfbf00f9d2ab
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/report/04_quality_gate_and_open_gaps.md
+    trigger: mandatory when report/INDEX.md is read
+    reason: predecessor quality-gate narrative and highest gaps
+    task: test every claimed pass and blocker independently
+    expected_git_blob_sha: c378e86339246889a5908506b7d5d4fd34bf11cb
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/images.jsonl
+    trigger: mandatory ZILVER visual-dossier check
+    reason: BRONS image-layer disposition
+    task: determine whether NOT_APPLICABLE is correct within route-only scope
+    expected_git_blob_sha: da02f6858e79e2d0a722ba96e44c05044a8c64f9
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/experience_reviews.jsonl
+    trig
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1518 path=research/active/KUMAON-ROUTE-OPTIMIZATION-001/context/ZILVER_CONTEXT.yaml blob_sha=32d88cff60c61cf4f3dd4953c4069328307e9816 original_offset=12288 original_length=3613 payload_bytes=3613 chunk_index=3 chunk_count=4 classification=text
+ger: mandatory ZILVER experience-layer check
+    reason: BRONS review-layer disposition
+    task: determine whether NOT_APPLICABLE is correct within route-only scope
+    expected_git_blob_sha: 75a99727f46fa3ccee947f6d17212e58e882b2d8
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/train_stop_detector_inputs.jsonl
+    trigger: when validating station-marker and detector rules
+    reason: complete station detector input and no-auto-A policy
+    task: verify all station sets and preserve detector-only semantics
+    expected_git_blob_sha: 134e0b510011db197936ababf8c0798c22b39f5f
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/MASTER_INDIA_KML_LINKAGE.md
+    trigger: when validating issue #17 linkage input
+    reason: master-KML layer and mutation boundary
+    task: verify all required layers and no direct master mutation
+    expected_git_blob_sha: ff71f25cc92d1c2814921052017953be647fe85d
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/predecessor_pin.yaml
+    trigger: only if BRONS loss-control or predecessor-boundary evidence is disputed
+    reason: authoritative KUMAON-COMPLETE-001 predecessor boundary
+    task: verify that ZILVER does not reactivate the old GOUD route
+    expected_git_blob_sha: d9bd40187e57f13faf91a724f678d4c178eb1235
+forbidden_files:
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/context/GOUD_CONTEXT.yaml
+  - research/active/KUMAON-COMPLETE-001/** except the explicitly triggered predecessor pin does not authorize predecessor file reads
+  - research/completed/**
+  - pipeline/**/PARELS/**
+  - every repository file not listed in required_files or activated by an explicit optional_files trigger
+priority_order:
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/run.yaml
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/state.yaml
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/events.jsonl
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/scope.md
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/issue_requirements.md
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/manifest.yaml
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/COMPLETED
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/handoff.yaml
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/report/INDEX.md
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/claims.jsonl
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/sources/registry.jsonl
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/sources/rejected.jsonl
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/train_services.jsonl
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/train_stops.jsonl
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/route_sequence.jsonl
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/base_and_nights_plan.jsonl
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/arrival_and_exit_analysis.jsonl
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/intercluster_transport_matrix.jsonl
+  - pipeline/roles/ZILVER.md
+  - knowledge/methodology/METHODOLOGY_V2.md
+  - pipeline/protocols/EVIDENCE_PROTOCOL.md
+  - pipeline/QUALITY_GATE.md
+maximum_context_budget:
+  required_files: 35
+  optional_files_maximum_when_triggered: 9
+  lines_per_file: 1500
+predecessor_manifest: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/manifest.yaml
+output_path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/ZILVER/
+completion_destination: VOOR_VOLGEND_METAAL
+post_completion:
+  mode: INLINE_POST_PHASE_CONTROLLER
+  target_role: GOUD
+  target_ready_state: READY_FOR_GOUD
+  emit_next_role_handoff: true
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1519 path=research/active/KUMAON-ROUTE-OPTIMIZATION-001/events.jsonl blob_sha=3490d9bade30c84bdef1cd156457a11a2ed2bd8e original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+{"event_id":"EVT-0001","event_type":"RUN_CREATED","run_id":"KUMAON-ROUTE-OPTIMIZATION-001","actor":"INDIA2","created_at":"2026-07-20T17:16:34+02:00","from_state":null,"to_state":"READY_FOR_BRONS","source_base_commit":"41a77b967d784de5babb67d603becf2b9f2ebf75","predecessor_run_id":"KUMAON-COMPLETE-001","predecessor_completion_commit":"41a77b967d784de5babb67d603becf2b9f2ebf75","execution_issue":18,"master_kml_issue":17,"claim_status":null,"notes":"New pinned v3.1.1 ROUTE_OPTIMIZATION run created. No worker or controller claim activated."}
+{"event_id":"EVT-0002","event_type":"CONTEXT_PREPARED","run_id":"KUMAON-ROUTE-OPTIMIZATION-001","actor":"INDIA2","created_at":"2026-07-20T17:16:34+02:00","from_state":"READY_FOR_BRONS","to_state":"READY_FOR_BRONS","context_manifest":"research/active/KUMAON-ROUTE-OPTIMIZATION-001/context/BRONS_CONTEXT.yaml","route":"BRONS","claim_status":null,"notes":"BRONS context path created; final source commit and blob pins are written before NEXT_ACTION activation."}
+{"event_id":"EVT-0003","event_type":"CLAIMED","run_id":"KUMAON-ROUTE-OPTIMIZATION-001","actor":"ChatGPT-BRONS-KUMAON-ROUTE-001","created_at":"2026-07-20T18:10:21+02:00","from_state":"READY_FOR_BRONS","to_state":"BRONS_CLAIMED","role":"BRONS","claimed_by":"ChatGPT-BRONS-KUMAON-ROUTE-001","source_commit":"dbac7e3e89f275ec1c99bf348da55f6bcf7ac5e8","expected_state":"READY_FOR_BRONS","output_path":"research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/","claim_status":"ACTIVE","notes":"Required context, hashes, sentinels, predecessor pin and no-active-claim checks validated before claim."}
+{"event_id":"EVT-0004","event_type":"PHASE_COMPLETED","run_id":"KUMAON-ROUTE-OPTIMIZATION-001","actor":"ChatGPT-BRONS-KUMAON-ROUTE-001","created_at":"2026-07-20T18:56:48+02:00","from_state":"BRONS_CLAIMED","to_state":"BRONS_COMPLETE","role":"BRONS","claim_status":"CLOSED","result_status":"PARTIAL","research_commit":"e49ceb2598dc8d587c04799eae545b746301c336","completion_commit":"THIS_ATOMIC_COMMIT","manifest_path":"research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/manifest.yaml","manifest_blob_sha":"660f9b67dbec7f78e11f14f54469ddc78bbe36bf","handoff_path":"research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/handoff.yaml","completed_path":"research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/COMPLETED","completed_blob_sha":"85834b8a0e15271b86f8bd30e276cd5bf7b44651","notes":"BRONS route-optimization phase completed with all required artifacts committed; worker claim closed in this atomic completion commit."}
+{"event_id":"EVT-0005","event_type":"TRANSITION_CLAIMED","run_id":"KUMAON-ROUTE-OPTIMIZATION-001","actor":"ChatGPT-CONTROLLER-KUMAON-ROUTE-001","created_at":"2026-07-20T19:05:31+02:00","from_state":"BRONS_COMPLETE","to_state":"BRONS_COMPLETE","transition":"BRONS_TO_ZILVER","claimed_by":"ChatGPT-CONTROLLER-KUMAON-ROUTE-001","source_commit":"73c11932a17f9ab0186c32621597c21a8f8b1984","expected_state":"BRONS_COMPLETE","target_context_manifest":"research/active/KUMAON-ROUTE-OPTIMIZATION-001/context/ZILVER_CONTEXT.yaml","activation_mode":"INLINE_POST_PHASE_CONTROLLER","claim_status":"ACTIVE","notes":"Separate inline controller claim created after worker termination, repeated GitHub preflight and protocol readback."}
+{"event_id":"EVT-0006","event_type":"CONTEXT_PREPARED","run_id":"KUMAON-ROUTE-OPTIMIZATION-001","actor":"ChatGPT-CONTROLLER-KUMAON-ROUTE-001","created_at":"2026-07-20T19:08:45+02:00","from_state":"BRONS_COMPLETE","to_state":"BRONS_COMPLETE","route":"ZILVER","context_manifest":"research/active/KUMAON-ROUTE-OPTIMIZATION-001/context/ZILVER_CONTEXT.yaml","source_commit":"73c11932a17f9ab0186c32621597c21a8f8b1984","context_profile":"ZILVER_MIN","claim_status":"ACTIVE","notes":"Definitive ZILVER context prepared from validated BRONS completion and explicitly pinned BRONS artifacts."}
+{"event_id":"EVT-0007","event_type":"TRANSITIONED","run_id":"KUMAON-ROUTE-OPTIMIZATION-001","actor":"ChatGPT-CONTROLLER-KUMAON-ROUTE-001","created_at":"2026-07-20T19:08:45+02:00","from_state":"BRONS_COMPLETE","to_state":"READY_FOR_ZILVER","transition":"BRONS_TO_ZILVER","source_c
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1520 path=research/active/KUMAON-ROUTE-OPTIMIZATION-001/events.jsonl blob_sha=3490d9bade30c84bdef1cd156457a11a2ed2bd8e original_offset=4096 original_length=1269 payload_bytes=1269 chunk_index=1 chunk_count=2 classification=text
+ommit":"73c11932a17f9ab0186c32621597c21a8f8b1984","transition_commit":"THIS_ATOMIC_COMMIT","context_manifest":"research/active/KUMAON-ROUTE-OPTIMIZATION-001/context/ZILVER_CONTEXT.yaml","next_action_route":"ZILVER","controller_claim_status":"CLOSED","worker_claim_status":"CLOSED","validation_result":"PASS","notes":"BRONS predecessor validated, ZILVER context and NEXT_ACTION synchronized, controller claim closed in this atomic transition commit."}
+{"event_id":"EVT-0008","event_type":"RUN_REPAIRED","run_id":"KUMAON-ROUTE-OPTIMIZATION-001","actor":"ChatGPT-SUBREGIE-RUN-REPAIR","created_at":"2026-07-20T20:01:07+02:00","from_state":"READY_FOR_ZILVER","to_state":"READY_FOR_ZILVER","repair_id":"KUMAON-ROUTE-OPTIMIZATION-001-RUN-REPAIR-001","repair_class":"LOCAL_DATA_ERROR","repaired_file":"pipeline/NEXT_ACTION.yaml","repaired_field":"source_commit","previous_value":"73c11932a17f9ab0186c32621597c21a8f8b1984","corrected_value":"3eb11704c769e69f1c6533ce3a26249eb0293e92","repair_commit":"37fde4a6d4db0ba76ef1bd79128420f6967b1897","phase_outputs_modified":false,"notes":"Corrected the execution pin so ZILVER reads its context manifest from the transition commit where that manifest exists. BRONS output and ZILVER context content were not changed."}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1521 path=research/active/KUMAON-ROUTE-OPTIMIZATION-001/issue_requirements.md blob_sha=9d1e571c3ebf312d0c764247dd26fa8e8f19d902 original_offset=0 original_length=2996 payload_bytes=2996 chunk_index=0 chunk_count=1 classification=text
+# Gepinde issuevereisten — KUMAON-ROUTE-OPTIMIZATION-001
+
+## Issue #18 — uitvoeringsautoriteit
+
+Issue: `KUMAON-ROUTE-OPTIMIZATION-001`
+Status bij initialisatie: OPEN
+Peildatum: 2026-07-20
+
+De run voert volledig uit:
+
+- optimale Kumaon-route, aankomst, bases, eerste en laatste A, uitgang, volgend cluster en clusterketen;
+- reisperiode 19 december 2026 tot en met 21 januari 2027;
+- lange afstanden per trein of vliegtuig;
+- nooit bus;
+- auto/taxi alleen kort, bergen en first/last mile;
+- bagage rugzak/dagtas plus 23 kg ruimbagage;
+- trein-vluchtvergelijking op totale deur-tot-deurtijd, totale kosten, bagage, transfers, hotelnacht en effectieve verloren daguren;
+- minimaal Haridwar/Kankhal, Varanasi, Bodh Gaya en Kolkata/Dakshineswar vergelijken;
+- van ieder aanbevolen treintraject beginstation, alle tussenstops en eindstation registreren;
+- stationscode, trein, volgorde, tijden en stopduur waar beschikbaar;
+- alle stations grijs met één treinlogo op aparte KML-laag;
+- aangeven waar Mark instapt en uitstapt;
+- treinhaltes bewaren als detectorinput voor mogelijke latere zware-A-sweeps;
+- een halte wordt nooit automatisch A;
+- verplichte outputs: `KUMAON_ROUTE_OPTIMIZED.kml`, `intercluster_transport_matrix.jsonl`, `train_services.jsonl`, `train_stops.jsonl`, `route_sequence.jsonl`, `base_and_nights_plan.jsonl`, `next_cluster_decision.md`, `MARK_FINAL_REPORT.md`;
+- A/B/C formeel ongewijzigd;
+- `D_DOOR_MARK_TE_BEOORDELEN` als mensvriendelijke naam voor onbeoordeeld;
+- D is tijdelijk en geen vierde waarderingsklasse;
+- koppeling aan issue #17;
+- eerst INDIA2-initialisatie, daarna BRONS, ZILVER en GOUD;
+- gekozen volgende cluster pas na routebeslissing starten.
+
+## Issue #17 — MASTER-INDIA-KML-001
+
+Issue: `MASTER-INDIA-KML-001 — A/B/C/D en alle treinhaltes`
+Status bij initialisatie: OPEN
+Peildatum: 2026-07-20
+
+Voor deze run geldt:
+
+- masterstatuslagen blijven `A_FORMEEL`, `B_FORMEEL`, `C_FORMEEL`, `D_DOOR_MARK_TE_BEOORDELEN`, `CONTEXT_OF_AFGEVALLEN`;
+- mastertransportlagen gebruiken `TREINTRAJECTEN`, `TREINSTATIONS_GRIJS`, eventueel `VLIEGVELDEN_EN_VLUCHTEN` en `BASES_EN_OVERNACHTING`;
+- treinmarkers hebben één grijze kleur en één treinlogo;
+- iedere marker bevat stationsnaam, code, trein nummer/naam, reisdatum, aankomst/vertrek, stopduur, ritvolgorde, begin/tussen/eindrol en instap/uitstapstatus;
+- alle tussenstops blijven zichtbaar voor toekomstige detector-sweeps;
+- treinhaltes veranderen geen formele status;
+- lange verplaatsingen zijn trein of vliegtuig, nooit bus;
+- auto/taxi blijft kort en first/last mile;
+- vluchtvergelijkingen rekenen met rugzak/dagtas plus 23 kg ruimbagage en volledige deur-tot-deurkosten/tijd;
+- alleen Mark wijzigt formele A/B/C.
+
+## Run-specifieke uitvoeringsgrens
+
+De run levert gevalideerde integratie-input voor MASTER-INDIA-KML-001 maar voert geen directe master-KML-mutatie uit. Een latere afzonderlijk gepinde masterintegratie gebruikt `MASTER_INDIA_KML_LINKAGE.md` en de finale runartifacts.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1522 path=research/active/KUMAON-ROUTE-OPTIMIZATION-001/predecessor_pin.yaml blob_sha=d9bd40187e57f13faf91a724f678d4c178eb1235 original_offset=0 original_length=2693 payload_bytes=2693 chunk_index=0 chunk_count=1 classification=text
+schema_version: 1
+run_id: KUMAON-ROUTE-OPTIMIZATION-001
+predecessor:
+  run_id: KUMAON-COMPLETE-001
+  authoritative_completion_commit: 41a77b967d784de5babb67d603becf2b9f2ebf75
+  completion_message: Atomically repair KUMAON GOUD GEO handoff
+  state: GOUD_PARTIAL
+  claim_status: CLOSED
+  controller_claim_status: CLOSED
+  content_complete_for_route_optimization: true
+  route_optimization_ready: YES_WITH_OPEN_CONTROLS
+  old_next_action_must_not_be_reactivated: true
+validated_artifacts:
+  state:
+    path: research/active/KUMAON-COMPLETE-001/state.yaml
+    blob_sha: 630d324c186e4cb4993af9dcc8d5d10a8d922ef0
+  mark_final_report:
+    path: research/active/KUMAON-COMPLETE-001/GOUD/MARK_FINAL_REPORT.md
+    blob_sha: 739adf902bb2ec5777ece5d23f0e93678258ebe9
+  manifest:
+    path: research/active/KUMAON-COMPLETE-001/GOUD/manifest.yaml
+    blob_sha: df21cb2b772f63da0ce2039eec900e11a89f084e
+  kml:
+    path: research/active/KUMAON-COMPLETE-001/GOUD/KUMAON_COMPLETE.kml
+    blob_sha: d1cb312ec9329853e2c290a2e447256cfbc1aa78
+  geo_locations:
+    path: research/active/KUMAON-COMPLETE-001/GOUD/geo_locations.jsonl
+    blob_sha: 1d44fbce8c9372d631b69f992af158ef456a6f8e
+  geo_connections:
+    path: research/active/KUMAON-COMPLETE-001/GOUD/geo_connections.jsonl
+    blob_sha: da369f8f96f88d4915f1c243963656be93cb11fe
+  base_comparison:
+    path: research/active/KUMAON-COMPLETE-001/GOUD/base_comparison.jsonl
+    blob_sha: 6bf244c28f02611ba033f338d62903537b843e2e
+  station_and_route_nodes:
+    path: research/active/KUMAON-COMPLETE-001/GOUD/station_and_route_nodes.jsonl
+    blob_sha: 169bd9376c4fce754cb8387987d5e629f7af7d00
+  practical_access:
+    path: research/active/KUMAON-COMPLETE-001/GOUD/practical_access.jsonl
+    blob_sha: 1c99a22cae17d69173802369f988f7bd27c7f10b
+  map_source:
+    path: research/active/KUMAON-COMPLETE-001/GOUD/map_source.jsonl
+    blob_sha: 548be6a5a902192b0325888ff342af933fdd205d
+  formal_status_coverage:
+    path: research/active/KUMAON-COMPLETE-001/GOUD/formal_status_coverage.md
+    blob_sha: d11dfd0188e0f0d1739289635139fe2291d2fdcf
+preserved_counts:
+  records: 47
+  connections: 32
+  bases: 9
+  station_and_route_nodes: 4
+  formal_A: 16
+  formal_B: 1
+  formal_C: 4
+  unassessed: 12
+  context_or_rejected: 1
+open_controls:
+  - Exact identity, access and GEO remain open for K. K. Sah house, Bodh Ashram and the Vivekananda cave.
+  - Complete ten-function image and systematic recent-review coverage remains absent.
+  - Live December 2026 rail, winter-road, trail, taxi, parking and travel-time conditions remain time-sensitive.
+prohibitions:
+  broad_predecessor_sweep: true
+  predecessor_status_change: true
+  predecessor_route_reactivation: true
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1523 path=research/active/KUMAON-ROUTE-OPTIMIZATION-001/run.yaml blob_sha=ab9513b3cfceff207c30e79e8ce59b6a4307b2ed original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+run_id: KUMAON-ROUTE-OPTIMIZATION-001
+project: india
+run_type: ROUTE_OPTIMIZATION
+run_type_compatibility: TARGETED_SUPPLEMENT
+run_type_authority:
+  issue: 18
+  explicit_mark_instruction: true
+scope_file: research/active/KUMAON-ROUTE-OPTIMIZATION-001/scope.md
+created_at: 2026-07-20T17:16:34+02:00
+created_by: INDIA2
+immutable_after_first_claim: true
+operating_mode: CONTROLLED_MANUAL_INLINE_HANDOFF
+context_profile: BRONS_MIN
+production_gate:
+  smoke_result: pipeline/tests/results/PIPELINE_HANDOFF_SMOKE_001_RESULT.md
+  smoke_result_blob_sha: 82e1b743bf6d4869da6a142596ce7189caae6789
+  required_value: "PRODUCTION_READY: YES"
+  verified_on_main: true
+pins:
+  entrypoint: pipeline/ENTRYPOINT.md
+  run_template: pipeline/templates/RUN_TEMPLATE_V3.md
+  methodology: knowledge/methodology/METHODOLOGY_V2.md
+  evidence_protocol: pipeline/protocols/EVIDENCE_PROTOCOL.md
+  quality_gate: pipeline/QUALITY_GATE.md
+  execution_protocol: pipeline/protocols/EXECUTION_PROTOCOL.md
+  long_running_execution_protocol: pipeline/protocols/LONG_RUNNING_EXECUTION_PROTOCOL.md
+  context_protocol: pipeline/protocols/CONTEXT_PROTOCOL.md
+  controller_transition_protocol: pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md
+  continuous_learning_protocol: pipeline/protocols/CONTINUOUS_LEARNING_PROTOCOL.md
+  self_routing_protocol: pipeline/protocols/SELF_ROUTING_PROTOCOL.md
+  role_handoff_protocol: pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md
+  geo_protocol: pipeline/protocols/GEO_LOCATION_PROTOCOL.md
+  context_profiles: pipeline/CONTEXT_PROFILES.yaml
+  next_action_template: pipeline/templates/NEXT_ACTION_V3_TEMPLATE.yaml
+  next_role_handoff_template: pipeline/templates/NEXT_ROLE_HANDOFF_TEMPLATE.md
+  mark_final_report_template: pipeline/templates/MARK_FINAL_REPORT_TEMPLATE.md
+  canonical_integration_proposal_template: pipeline/templates/CANONICAL_INTEGRATION_PROPOSAL_TEMPLATE.md
+  handoff_layer_template: pipeline/templates/HANDOFF_LAYER_STATUS_TEMPLATE.yaml
+  place_registry: knowledge/places/registry.jsonl
+  decisions_index: decisions/INDEX.yaml
+  roles:
+    BRONS: pipeline/roles/BRONS.md
+    ZILVER: pipeline/roles/ZILVER.md
+    GOUD: pipeline/roles/GOUD.md
+versions:
+  pipeline: 3.1.1
+  methodology: 3.0.0
+  execution_protocol: 2.3.1
+  context_protocol: 2.1
+  controller_transition_protocol: 2.3.1
+  role_handoff_protocol: 1.1
+  self_routing_protocol: 1.1.1
+source_base_commit: 41a77b967d784de5babb67d603becf2b9f2ebf75
+predecessors:
+  - run_id: KUMAON-COMPLETE-001
+    authoritative_completion_commit: 41a77b967d784de5babb67d603becf2b9f2ebf75
+    accepted_state: GOUD_PARTIAL
+    content_status: CONTENT_COMPLETE_FOR_ROUTE_OPTIMIZATION
+    route_optimization_ready: YES_WITH_OPEN_CONTROLS
+    purpose: use the completed 47-record Kumaon dossier without reopening a broad Kumaon sweep
+issues:
+  execution_issue: 18
+  master_kml_issue: 17
+travel_window:
+  start_date: 2026-12-19
+  end_date: 2027-01-21
+transport_policy:
+  long_distance_modes: [TRAIN, FLIGHT]
+  bus_forbidden: true
+  car_taxi_scope: SHORT_FIRST_LAST_MILE_AND_MOUNTAIN_ONLY
+  baggage:
+    cabin: BACKPACK_OR_DAYPACK
+    checked: 23_KG
+  comparison_basis: DOOR_TO_DOOR_TIME_TOTAL_COST_BAGGAGE_TRANSFERS_HOTEL_NIGHT_AND_EFFECTIVE_LOST_DAYLIGHT
+status_policy:
+  preserve_formal_abc: true
+  forbid_new_formal_or_advisory_abc: true
+  unassessed_human_name: D_DOOR_MARK_TE_BEOORDELEN
+  d_is_fourth_rating_class: false
+research_boundaries:
+  broad_kumaon_sweep_forbidden: true
+  next_cluster_research_forbidden: true
+  hotel_booking_forbidden: true
+  definitive_train_booking_forbidden: true
+  schedule_and_price_data_time_sensitive: true
+  later_live_rechecks_required: true
+claim_policy:
+  worker_claim_initial_status: ACTIVE
+  close_worker_claim_in_completion_commit: true
+  controller_claim_initial_status: ACTIVE
+  close_controller_claim_in_transition_commit: true
+post_completion_policy:
+  BRONS:
+    mode: INLINE_POST_PHASE_CONTROLLER
+    target_role: ZILVER
+    target_ready_state: READY_FOR_ZILVER
+  ZILVER:
+    mode: INLINE_POST_PHASE_CONTROLLER
+    target_role: GOUD
+    target_ready_state: READY_FOR_GOUD
+  GOUD:
+    mode: MARK_FI
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1524 path=research/active/KUMAON-ROUTE-OPTIMIZATION-001/run.yaml blob_sha=ab9513b3cfceff207c30e79e8ce59b6a4307b2ed original_offset=4096 original_length=773 payload_bytes=773 chunk_index=1 chunk_count=2 classification=text
+NAL_REPORT
+    completion_destination: VOOR_MARK
+    canonical_integration:
+      mode: DETERMINISTIC_NON_DECISIONAL
+      proposal_template: pipeline/templates/CANONICAL_INTEGRATION_PROPOSAL_TEMPLATE.md
+      allowed_registry_path: knowledge/places/registry.jsonl
+      allowed_decisions_index_path: decisions/INDEX.yaml
+      forbid_new_or_changed_abc: true
+      forbid_new_decision_id: true
+      require_mark_decision_on_content_choice: true
+run_local_complete_kml_required: true
+kml_final_path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/GOUD/KUMAON_ROUTE_OPTIMIZED.kml
+master_india_kml_linkage:
+  issue: 17
+  mode: PREPARE_VALIDATED_LINKAGE_INPUT
+  direct_master_mutation: false
+parallel_writers_allowed: false
+successor_contexts_precreated: false
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1525 path=research/active/KUMAON-ROUTE-OPTIMIZATION-001/scope.md blob_sha=b3f4fbdad3d96b022f575089182528ff64ba2619 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# Scope — KUMAON-ROUTE-OPTIMIZATION-001
+
+## Centrale onderzoeksvraag
+
+Bepaal voor Marks reisperiode van 19 december 2026 tot en met 21 januari 2027 de optimale volledige Kumaon-route en de logisch beste overgang naar het volgende reeds bestaande projectcluster, zonder nieuwe plaatsensweep, zonder nieuw clusteronderzoek en zonder nieuwe formele of adviserende A/B/C-status.
+
+## Gezaghebbende onderlaag
+
+`KUMAON-COMPLETE-001` blijft inhoudelijk voltooid voor routegebruik. De gezaghebbende predecessorcompletion is `41a77b967d784de5babb67d603becf2b9f2ebf75`, state `GOUD_PARTIAL`, met 47 records, 32 verbindingen, 9 mogelijke bases, 4 stations/routeknooppunten, 16 formele A, 1 formele B en 4 formele C. De open micro-GEO-, toegangs-, review- en live wintertransportcontroles blijven zichtbaar maar openen geen nieuwe brede Kumaon-sweep.
+
+## Verplichte routebesluiten
+
+De run onderzoekt en levert onderbouwd:
+
+1. aankomststation of andere aankomstwijze in Kumaon;
+2. eerste praktische basis;
+3. eerste formele A-locatie;
+4. volledige interne Kumaon-volgorde;
+5. optimale basiswissels;
+6. aanbevolen overnachtingsverdeling per basis of verblijfslocatie, zonder hotelboeking;
+7. laatste Kumaon-locatie;
+8. beste uitgang uit Kumaon;
+9. logisch volgende cluster;
+10. voorlopige clusterketen voor de rest van de reisperiode.
+
+De route moet alle relevante formele A-locaties behandelen. Formele B blijft optioneel. Formele C blijft zichtbaar maar telt niet mee als bezoekdoel. Onbeoordeelde locaties heten mensvriendelijk `D_DOOR_MARK_TE_BEOORDELEN`; D is tijdelijk en geen vierde waarderingsklasse.
+
+## Verplichte vervolgrichtingen
+
+Vergelijk minimaal, zonder vooraf een winnaar te kiezen:
+
+- Haridwar/Kankhal;
+- Varanasi;
+- Bodh Gaya;
+- Kolkata/Dakshineswar;
+- andere reeds formeel bestaande projectclusters wanneer geografisch of logistiek aantoonbaar logischer.
+
+Deze vergelijking onderzoekt uitsluitend route- en vervoerslogica op basis van bestaande projectclusters. Start geen inhoudelijke plaatsensweep van het volgende cluster.
+
+## Vervoerscontract
+
+- Lange afstanden: trein of vliegtuig.
+- Bus: absoluut verboden.
+- Auto/taxi: alleen kort, bergtrajecten en first/last mile.
+- Bagage: rugzak/dagtas plus 23 kg ruimbagage.
+- Vergelijk trein en vliegtuig op volledige deur-tot-deurtijd, totale kosten, bagagevoorwaarden, transfers, eventueel noodzakelijke hotelnacht en effectieve verloren reis-/daglichturen.
+- Maak geen definitieve treinboeking, vluchtboeking of hotelboeking.
+- Behandel dienstregelingen, treinsamenstellingen, operationele dagen, tijden, tarieven, bagageregels, beschikbaarheid, winterwegen, trails, taxi's, parking en reistijden als tijdgevoelig.
+- Leg per tijdgevoelige aanbeveling een concrete latere live recheck vast.
+
+## Treinonderzoek en kaartcontract
+
+Voor ieder aanbevolen treintraject registreert de run:
+
+- beginstation;
+- alle tussenstops;
+- eindstation;
+- stationsnaam en stationscode;
+- trein nummer en trein naam;
+- exacte volgorde;
+- geplande of onderzochte reisdatum;
+- aankomst- en vertrektijden waar betrouwbaar beschikbaar;
+- stopduur waar betrouwbaar beschikbaar;
+- rol `BEGINSTATION`, `TUSSENSTOP` of `EINDSTATION`;
+- `mark_boards_here: true|false`;
+- `mark_alights_here: true|false`;
+- bron, controledatum, onzekerheid en live-recheckmoment.
+
+Alle stations van ieder daadwerkelijk aanbevolen traject komen in een aparte KML-laag `TREINSTATIONS_GRIJS`, met één grijze stijl en één herkenbaar treinlogo. Een treinhalte wordt nooit automatisch formeel of adviserend A/B/C.
+
+Maak daarnaast per treinhalte detectorinput voor een mogelijke latere, afzonderlijk geautoriseerde zware-A-sweep. Deze detectorinput is geen nieuwe clusterstart, geen kandidaatstatus en geen advies.
+
+## Kumaon-KML
+
+`KUMAON_ROUTE_OPTIMIZED.kml` bevat minimaal afzonderlijke lagen voor:
+
+- `A_FORMEEL`;
+- `B_FORMEEL`;
+- `C_FORMEEL`;
+- `D_DOOR_MARK_TE_BEOORDELEN`;
+- `CONTEXT_OF_AFGEVALLEN`;
+- `ROUTE_VOLGORDE`;
+- `BASES_EN_OVERNACHTING`;
+- `TREINTRAJECTEN`;
+- `TREINSTATIONS_GRIJS`;
+- `VLIEGVELDEN_EN_VLUCHTEN` wanneer aanbevolen of dragend vergeleken.
+
+Behoud permanente LOCAT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1526 path=research/active/KUMAON-ROUTE-OPTIMIZATION-001/scope.md blob_sha=b3f4fbdad3d96b022f575089182528ff64ba2619 original_offset=4096 original_length=3793 payload_bytes=3793 chunk_index=1 chunk_count=2 classification=text
+ION_ID's. Maak geen nieuwe formele of adviserende A/B/C. Route-, base-, station- en vervoerskeuzes zijn reisplanning en wijzigen de inhoudelijke status niet.
+
+## MASTER-INDIA-KML-001
+
+Koppel de gevalideerde runuitkomst aan issue #17 door een technisch overdrachtsbestand te leveren dat exact aangeeft welke Kumaon-lagen, routegeometrie, stations, treintrajecten, basisnachten en eventuele vluchtlagen later in de master-KML kunnen worden opgenomen. Wijzig de master-KML of issue #17 niet rechtstreeks zonder afzonderlijke pin.
+
+## Geen nieuwe brede plaatsensweep
+
+Verboden:
+
+- opnieuw breed zoeken naar alle spirituele plekken in Kumaon;
+- opnieuw beoordelen van de 47 predecessorrecords als clusterinventarisatie;
+- nieuwe formele of adviserende A/B/C;
+- inhoudelijk onderzoek van het gekozen volgende cluster;
+- een treinhalte of overstapstad automatisch tot bestemming maken;
+- bus als routeoptie;
+- auto/taxi als langeafstandsalternatief in de vlakte;
+- boekingen uitvoeren;
+- tijdgevoelige dienstregeling of prijs als blijvend feit presenteren.
+
+Gericht aanvullend onderzoek is alleen toegestaan voor routeoptimalisatie, vervoer, stationsvolgorde, deur-tot-deurvergelijking, winterhaalbaarheid, basisnachten en concrete open toegangspunten die de routevolgorde materieel beïnvloeden.
+
+## Verplichte run-specifieke outputs
+
+Naast de standaard fase-artifacts levert de keten uiteindelijk minimaal:
+
+- `KUMAON_ROUTE_OPTIMIZED.kml`;
+- `intercluster_transport_matrix.jsonl`;
+- `train_services.jsonl`;
+- `train_stops.jsonl`;
+- `route_sequence.jsonl`;
+- `base_and_nights_plan.jsonl`;
+- `arrival_and_exit_analysis.jsonl`;
+- `door_to_door_comparison.jsonl`;
+- `train_stop_detector_inputs.jsonl`;
+- `live_recheck_register.jsonl`;
+- `next_cluster_decision.md`;
+- `MASTER_INDIA_KML_LINKAGE.md`;
+- `MARK_FINAL_REPORT.md`.
+
+## BRONS-opdracht
+
+BRONS bouwt een brede maar uitsluitend routegerichte eerste onderzoekslaag. BRONS verzamelt actuele primaire en geschikte routebronnen, maakt meerdere expliciete routealternatieven, inventariseert alle benodigde trein- en vluchtdata, registreert onzekerheden en maakt geen eindkeuze die niet door de latere verificatie kan worden heropend. BRONS heropent geen brede Kumaon-kandidateninventarisatie en start geen onderzoek van het volgende cluster.
+
+## ZILVER-opdracht
+
+ZILVER verifieert onafhankelijk de dragende vervoersclaims, volledige stationsreeksen, kostencomponenten, deur-tot-deurtijden, winterfrictie, basiswissels en routealternatieven. ZILVER controleert dat geen bus, lange vlakke autoverplaatsing, nieuwe A/B/C of volgend-clusteronderzoek is binnengeslopen.
+
+## GOUD-opdracht
+
+GOUD synthetiseert één optimale route, één aankomst, eerste basis en eerste formele A, basiswissels en nachten, laatste Kumaon-locatie, beste uitgang, volgend cluster en voorlopige clusterketen. GOUD levert de definitieve datasets, runlokale KML, master-KML-linkage en het volledige Markrapport. GOUD maakt geen boeking en markeert alle live rechecks.
+
+## Compleetheidscriteria
+
+De run kan alleen PASS of PARTIAL opleveren wanneer:
+
+1. iedere relevante formele Kumaon-A in de routeanalyse is verantwoord;
+2. aankomst, eerste basis, eerste A, basiswissels, nachten, laatste locatie en uitgang ondubbelzinnig zijn;
+3. minimaal de vier verplichte vervolgrichtingen gelijkwaardig zijn vergeleken;
+4. trein-vluchtvergelijkingen volledige deur-tot-deurcomponenten bevatten;
+5. ieder aanbevolen treintraject alle stations bevat;
+6. KML-statussemantiek en grijze treinmarkers exact kloppen;
+7. alle tijdgevoelige claims een latere live recheck hebben;
+8. geen bus, boeking, brede Kumaon-sweep, volgend-clusteronderzoek of nieuwe formele/adviserende A/B/C is uitgevoerd;
+9. issue #17 een valide technische koppeling ontvangt zonder directe masterwijziging.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1527 path=research/active/KUMAON-ROUTE-OPTIMIZATION-001/state.yaml blob_sha=c005266f8b386e3e8f7d2c384cab3466f3623528 original_offset=0 original_length=2536 payload_bytes=2536 chunk_index=0 chunk_count=1 classification=text
+schema_version: 3
+run_id: KUMAON-ROUTE-OPTIMIZATION-001
+state: READY_FOR_ZILVER
+active_role: null
+claim:
+  role: BRONS
+  claimed_by: ChatGPT-BRONS-KUMAON-ROUTE-001
+  claimed_at: 2026-07-20T18:10:21+02:00
+  source_commit: dbac7e3e89f275ec1c99bf348da55f6bcf7ac5e8
+  expected_state: READY_FOR_BRONS
+  output_path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/
+  claim_status: CLOSED
+  closed_at: 2026-07-20T18:56:48+02:00
+  result_status: PARTIAL
+  research_commit: e49ceb2598dc8d587c04799eae545b746301c336
+  completion_commit: THIS_ATOMIC_COMMIT
+  manifest_blob_sha: 660f9b67dbec7f78e11f14f54469ddc78bbe36bf
+  completed_blob_sha: 85834b8a0e15271b86f8bd30e276cd5bf7b44651
+controller_claim:
+  transition: BRONS_TO_ZILVER
+  claimed_by: ChatGPT-CONTROLLER-KUMAON-ROUTE-001
+  claimed_at: 2026-07-20T19:05:31+02:00
+  source_commit: 73c11932a17f9ab0186c32621597c21a8f8b1984
+  expected_state: BRONS_COMPLETE
+  target_context_manifest: research/active/KUMAON-ROUTE-OPTIMIZATION-001/context/ZILVER_CONTEXT.yaml
+  activation_mode: INLINE_POST_PHASE_CONTROLLER
+  claim_status: CLOSED
+  claim_closed_at: 2026-07-20T19:08:45+02:00
+  transition_commit: THIS_ATOMIC_COMMIT
+  validation_result: PASS
+last_event_id: EVT-0008
+last_validated_commit: 3eb11704c769e69f1c6533ce3a26249eb0293e92
+initialization_status: COMPLETE
+blockers: []
+context_profile: ZILVER_MIN
+active_context_manifest: research/active/KUMAON-ROUTE-OPTIMIZATION-001/context/ZILVER_CONTEXT.yaml
+working_geo: true
+run_local_complete_kml_required: true
+parallel_writers_allowed: false
+inline_handoff_active: true
+post_completion_mode: INLINE_POST_PHASE_CONTROLLER
+next_role_after_zilver: GOUD
+master_india_kml_issue: 17
+execution_issue: 18
+predecessor:
+  run_id: KUMAON-COMPLETE-001
+  completion_commit: 41a77b967d784de5babb67d603becf2b9f2ebf75
+  accepted_state: GOUD_PARTIAL
+  content_complete_for_route_optimization: true
+formal_status_policy:
+  preserve_existing_abc: true
+  forbid_new_formal_or_advisory_abc: true
+  unassessed_human_name: D_DOOR_MARK_TE_BEOORDELEN
+run_repair:
+  repair_id: KUMAON-ROUTE-OPTIMIZATION-001-RUN-REPAIR-001
+  repaired_at: 2026-07-20T20:01:07+02:00
+  repaired_field: pipeline/NEXT_ACTION.yaml source_commit
+  previous_value: 73c11932a17f9ab0186c32621597c21a8f8b1984
+  corrected_value: 3eb11704c769e69f1c6533ce3a26249eb0293e92
+  repair_commits:
+    report: 35aa0e207a8bec8540cd8a7cbe1ea4b3b3e52043
+    next_action: 37fde4a6d4db0ba76ef1bd79128420f6967b1897
+    event: 012922a37d8052ed1ed6a09eff40d6d87913e494
+  phase_outputs_modified: false
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1528 path=research/active/KUMAON-ROUTE-OPTIMIZATION-001/transitions/BRONS_TO_ZILVER_HANDOFF.md blob_sha=5343354b742010ce64a6dd7be9360f2ee0b43a92 original_offset=0 original_length=2481 payload_bytes=2481 chunk_index=0 chunk_count=1 classification=text
+# BRONS → ZILVER operationele handoff
+
+RESULTAATSTATUS: PARTIAL
+RUN_ID: KUMAON-ROUTE-OPTIMIZATION-001
+VOLTOOIDE_ROL: BRONS
+FASE_COMPLETION_COMMIT: 73c11932a17f9ab0186c32621597c21a8f8b1984
+WORKER_CLAIM_CLOSED: YES
+TRANSITION_COMMIT: THIS_ATOMIC_COMMIT
+CONTROLLER_CLAIM_CLOSED: YES
+NEXT_ROLE: ZILVER
+NEXT_ROLE_READY: YES
+NEXT_EXPECTED_STATE: READY_FOR_ZILVER
+NEXT_CONTEXT_MANIFEST: research/active/KUMAON-ROUTE-OPTIMIZATION-001/context/ZILVER_CONTEXT.yaml
+HOOGSTE_BLOCKERS: NONE
+
+VOLGENDE_METAAL_STARTOPDRACHT_BEGIN
+GitHub ZILVER:
+
+Activeer in deze chat onmiddellijk de GitHub-connector en houd deze gedurende de volledige uitvoering beschikbaar. Dit onderzoek gebruikt GitHub als enige bron van waarheid en overdrachtskanaal. Test vóór ieder inhoudelijk werk zowel GitHub-read als GitHub-write voor repository bnzgxknwrv-tech/india-knowledge-base. Ontbreekt read of write, antwoord dan uitsluitend: MARK: IK MIS GITHUB CONNECTOR!
+
+Open pipeline/ENTRYPOINT.md in repository bnzgxknwrv-tech/india-knowledge-base.
+
+Controleer dat pipeline/NEXT_ACTION.yaml semantisch exact deze lower-case velden bevat:
+- run_id: KUMAON-ROUTE-OPTIMIZATION-001
+- route: ZILVER
+- expected_state: READY_FOR_ZILVER
+- context_manifest: research/active/KUMAON-ROUTE-OPTIMIZATION-001/context/ZILVER_CONTEXT.yaml
+
+Voer uitsluitend de aangewezen actie uit. Lees uitsluitend het gepinde contextmanifest en de daarin genoemde required files. Haal de volledige gevalideerde predecessoroutput uit GitHub; gebruik deze geplakte overdracht niet als onderzoeksbron.
+
+Voer het volledige gepinde rolcontract, de methodologie, protocollen en quality gates uit. Stop bij ontbrekende GitHub-write, een ACTIVE bestaande claim, state/event-desynchronisatie, ontbrekend of afgekapt required bestand, hashafwijking, ongeldige bronreferenties of een andere gepinde stopvoorwaarde.
+
+Schrijf en commit de volledige fase. Sluit de workerclaim aantoonbaar in de completioncommit. Wanneer NEXT_ACTION de modus INLINE_POST_PHASE_CONTROLLER expliciet toestaat, beëindig daarna de workerrol en voer als afzonderlijke controllerrol uitsluitend de geldige transition naar het volgende metaal uit. Sluit ook de controllerclaim in de transitioncommit. Bij GOUD: schrijf verplicht het volledige MARK_FINAL_REPORT en CANONICAL_INTEGRATION_PROPOSAL, voer alleen gepinde deterministische canonieke integratie uit, valideer de finale readback en lever het rapport rechtstreeks aan Mark.
+VOLGENDE_METAAL_STARTOPDRACHT_EINDE
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1529 path=research/active/KUMAON-ROUTE-OPTIMIZATION-001/transitions/BRONS_TO_ZILVER_VALIDATION.md blob_sha=aadf541583528bc7c9f1674315197a2cfdf4e1ae original_offset=0 original_length=2389 payload_bytes=2389 chunk_index=0 chunk_count=1 classification=text
+# BRONS → ZILVER transition validation
+
+Run: `KUMAON-ROUTE-OPTIMIZATION-001`
+Controllerclaim: `ChatGPT-CONTROLLER-KUMAON-ROUTE-001`
+BRONS completioncommit: `73c11932a17f9ab0186c32621597c21a8f8b1984`
+Controllerclaimcommit: `ec1df778126f7f758b72463430bb73bb636f7327`
+Resultaat: `PASS`
+
+## Verplichte controles
+
+- GitHub-read en GitHub-write opnieuw bevestigd.
+- `BRONS/manifest.yaml`, `BRONS/COMPLETED` en `BRONS/handoff.yaml` volledig gelezen.
+- Alle 26 manifest-artifacts bestaan en zijn door blob-SHA of dezelfde completioncommit gebonden.
+- Alle vereiste sentinels zijn aanwezig.
+- Manifest, COMPLETED, state en EVT-0004 tonen hetzelfde resultaat `PARTIAL`.
+- De BRONS-workerclaim is `CLOSED` en de symbolische self-reference `THIS_ATOMIC_COMMIT` resolveert eenduidig naar completioncommit `73c11932a17f9ab0186c32621597c21a8f8b1984` omdat state, event, manifest en marker in die ene commit zijn geschreven.
+- `claims.jsonl` bevat 16 unieke claims.
+- `sources/registry.jsonl` bevat 23 unieke geaccepteerde source-ID's.
+- `sources/rejected.jsonl` bevat 3 unieke afgewezen source-ID's.
+- Iedere claim-source-ID bestaat exact eenmaal in het geaccepteerde register; geen claim verwijst naar een afgewezen ID.
+- Alle manifest- en handoffpaden bestaan.
+- De definitieve BRONS-resultaatcommit is ondubbelzinnig vastgesteld.
+- Inline control is expliciet toegestaan door run, context, NEXT_ACTION en ROLE_HANDOFF_PROTOCOL.
+- De productiepoort toont `SMOKE_TEST_STATUS: PASS` en `PRODUCTION_READY: YES`.
+- Geen andere ACTIVE worker- of controllerclaim bestond bij controllerclaimactivatie.
+- De ZILVER-context bevat 35 required files en maximaal 9 expliciet getriggerde optional files, ieder met reden, taak en blob-SHA.
+- `pipeline/NEXT_ACTION.yaml` is voorbereid voor exact `ZILVER`, `READY_FOR_ZILVER` en het ZILVER-contextpad.
+
+## Continuous Learning
+
+Ontdekte defecten: `GEEN`.
+Beslissing: `NO_SYSTEM_CHANGE`.
+Reden: alle bestaande protocollen waren ondubbelzinnig en de gevalideerde run voldoet eraan; geen lokale reparatie of structurele protocolwijziging is nodig.
+
+## Transitionuitkomst
+
+- target state: `READY_FOR_ZILVER`
+- target context: `research/active/KUMAON-ROUTE-OPTIMIZATION-001/context/ZILVER_CONTEXT.yaml`
+- controllerclaim: wordt `CLOSED` in dezelfde transitioncommit
+- workerclaim: blijft `CLOSED`
+- fase-output: niet gewijzigd na BRONS-workerbeëindiging
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1530 path=research/active/KUMAON-ROUTE-OPTIMIZATION-001/transitions/RUN_REPAIR_001.md blob_sha=d78c2c24d456ee4a482e4719a2ff4c3fcad23e1e original_offset=0 original_length=1510 payload_bytes=1510 chunk_index=0 chunk_count=1 classification=text
+# RUN_REPAIR — KUMAON-ROUTE-OPTIMIZATION-001-RUN-REPAIR-001
+
+## Probleem
+
+De ZILVER-start stopte terecht omdat `pipeline/NEXT_ACTION.yaml` het veld `source_commit` liet verwijzen naar BRONS-completioncommit `73c11932a17f9ab0186c32621597c21a8f8b1984`. Het verplichte `context/ZILVER_CONTEXT.yaml` bestond daar nog niet; het werd pas aangemaakt in transitioncommit `3eb11704c769e69f1c6533ce3a26249eb0293e92`.
+
+## Classificatie
+
+- foutklasse: `LOCAL_DATA_ERROR`
+- risico: ZILVER kan het gepinde contextmanifest niet openen en moet vóór claim stoppen
+- actuele reparatie: corrigeer uitsluitend `pipeline/NEXT_ACTION.yaml:source_commit` naar de transitioncommit
+- fase-output gewijzigd: nee
+- ZILVER-contextinhoud gewijzigd: nee
+- worker- of controllerclaim geopend: nee
+
+## Correctie
+
+- vorige waarde: `73c11932a17f9ab0186c32621597c21a8f8b1984`
+- correcte waarde: `3eb11704c769e69f1c6533ce3a26249eb0293e92`
+- contextpad: `research/active/KUMAON-ROUTE-OPTIMIZATION-001/context/ZILVER_CONTEXT.yaml`
+- state blijft: `READY_FOR_ZILVER`
+
+## Systeemles
+
+De transitioncontroller moet onderscheid maken tussen:
+
+1. de predecessor-resultaatcommit die binnen `ZILVER_CONTEXT.yaml` als inhoudelijke bronpin staat;
+2. de transitioncommit waar het nieuwe contextmanifest feitelijk bestaat en die in `pipeline/NEXT_ACTION.yaml:source_commit` moet staan.
+
+Structurele protocolwijziging valt buiten deze actieve gepinde run. Beslissing: `DEFER_WITH_REASON`; registreer dit bij eerstvolgend pipeline-onderhoud.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1531 path=research/active/VARANASI-COMPLETE-001/BRONS/COMPLETED blob_sha=c5259ec5c661d1e1350dcc376f0963ea06936f49 original_offset=0 original_length=1662 payload_bytes=1662 chunk_index=0 chunk_count=1 classification=text
+PARTIAL
+run_id: VARANASI-COMPLETE-001
+role: BRONS
+source_commit: 5e351144fe19fe40b487588c43827dc937df3de6
+output_manifest: research/active/VARANASI-COMPLETE-001/BRONS/manifest.yaml
+completion_commit_ref: THIS_ATOMIC_COMMIT
+outputs:
+  - report/INDEX.md
+  - report/01_candidate_map.md
+  - report/02_lineages_and_living_practice.md
+  - report/03_ghats_temples_and_sarnath.md
+  - report/04_master_ab_registry_and_kml.md
+  - report/05_quality_gate_and_conclusion.md
+  - candidates.jsonl
+  - claims.jsonl
+  - sources/registry.jsonl
+  - sources/rejected.jsonl
+  - detector_checks.jsonl
+  - negative_searches.jsonl
+  - working_geo.jsonl
+  - images.jsonl
+  - experience_reviews.jsonl
+  - proximity.jsonl
+  - formal_ab_coverage.md
+  - INDIA_ALL_FORMAL_A_B_WORKING_PREPARED.kml
+  - ../shared/MASTER_A_B_GEO_REGISTRY.jsonl
+  - audit.md
+  - handoff.yaml
+highest_gaps:
+  - Small/private physical identities, management and access require independent verification.
+  - Complete current image and review coverage remains absent and is explicitly registered.
+  - Current rituals, opening, photography, foreign access and crowd conditions remain time-sensitive.
+validation: All mandatory BRONS artifacts were reopened from GitHub; every text sentinel is visible; claim-source references resolve uniquely; 40 candidates, 57 claims, 22 accepted sources, 6 rejected sources, 40 GEO records, 40 image-shortage records and 40 review-shortage records are coherent; the shared registry contains 28 A and 2 B records; the prepared KML is valid XML with exactly 28 A, 2 B and 30 placemarks; no C, route, station, base, hotel, status change or parked-run mutation occurred.
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1532 path=research/active/VARANASI-COMPLETE-001/BRONS/INDIA_ALL_FORMAL_A_B_WORKING_PREPARED.kml,research/active/VARANASI-COMPLETE-001/GOUD/INDIA_ALL_FORMAL_A_B_WORKING.kml,research/active/VARANASI-COMPLETE-001/ZILVER/INDIA_ALL_FORMAL_A_B_WORKING_ZILVER.kml blob_sha=510ccbcbc8665b12ba2edff807638558f41a677d original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>India alle formele A en B — voorbereid</name>
+<Style id="A_GREEN"><IconStyle><color>ff00aa00</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href></Icon></IconStyle></Style>
+<Style id="B_ORANGE"><IconStyle><color>ff00a5ff</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/orange-pushpin.png</href></Icon></IconStyle></Style>
+<Folder><name>A_FORMEEL</name>
+<Placemark id="AB-001"><name>Mahabodhi Tempel (boeddhistische hoofdtempel)</name><styleUrl>#A_GREEN</styleUrl><description><![CDATA[REGISTRY_RECORD_ID: AB-001
+LOCATION_ID: niet toegewezen
+CLUSTER: BODH_GAYA
+FORMELE STATUS: A_FORMEEL
+GEO-STATUS: WORKING_GOOGLE_MAPS_PIN
+NAUWKEURIGHEID: 25_100_M
+HERKENNING: boeddhistische hoofdtempel bij de plaats van de verlichting
+BRONRUN: LEGACY_BODH_GAYA
+OPEN GEO-VRAAG: Exacte bezoekersingang later controleren.]]></description><Point><coordinates>84.9914,24.695,0</coordinates></Point></Placemark>
+<Placemark id="AB-002"><name>Bodhiboom (boom van de verlichting)</name><styleUrl>#A_GREEN</styleUrl><description><![CDATA[REGISTRY_RECORD_ID: AB-002
+LOCATION_ID: niet toegewezen
+CLUSTER: BODH_GAYA
+FORMELE STATUS: A_FORMEEL
+GEO-STATUS: VERIFIED_SITE_CENTRE
+NAUWKEURIGHEID: SITE_LEVEL
+HERKENNING: vereerde boom binnen het Mahabodhi-complex
+BRONRUN: LEGACY_BODH_GAYA
+OPEN GEO-VRAAG: Exacte bezoekersingang later controleren.]]></description><Point><coordinates>84.9911,24.6951,0</coordinates></Point></Placemark>
+<Placemark id="AB-003"><name>Lahiri Mahasaya Samadhi (Kriya-samadhi)</name><styleUrl>#A_GREEN</styleUrl><description><![CDATA[REGISTRY_RECORD_ID: AB-003
+LOCATION_ID: niet toegewezen
+CLUSTER: VARANASI
+FORMELE STATUS: A_FORMEEL
+GEO-STATUS: WORKING_ADDRESS_POINT
+NAUWKEURIGHEID: 25_100_M
+HERKENNING: samadhi- en meditatietempel van Lahiri Mahasaya
+BRONRUN: VARANASI-COMPLETE-001
+OPEN GEO-VRAAG: Exacte bezoekersingang later controleren.]]></description><Point><coordinates>83.0074,25.3028,0</coordinates></Point></Placemark>
+<Placemark id="AB-004"><name>Lahiri-huis (woonhuis van Lahiri Mahasaya)</name><styleUrl>#A_GREEN</styleUrl><description><![CDATA[REGISTRY_RECORD_ID: AB-004
+LOCATION_ID: niet toegewezen
+CLUSTER: VARANASI
+FORMELE STATUS: A_FORMEEL
+GEO-STATUS: WORKING_ADDRESS_POINT
+NAUWKEURIGHEID: 25_100_M
+HERKENNING: historisch Kriya-woonhuis in Madanpura
+BRONRUN: VARANASI-COMPLETE-001
+OPEN GEO-VRAAG: Exacte bezoekersingang later controleren.]]></description><Point><coordinates>83.0068,25.3018,0</coordinates></Point></Placemark>
+<Placemark id="AB-005"><name>Manikarnika Ghat (crematieghat)</name><styleUrl>#A_GREEN</styleUrl><description><![CDATA[REGISTRY_RECORD_ID: AB-005
+LOCATION_ID: niet toegewezen
+CLUSTER: VARANASI
+FORMELE STATUS: A_FORMEEL
+GEO-STATUS: WORKING_GOOGLE_MAPS_PIN
+NAUWKEURIGHEID: 25_100_M
+HERKENNING: actieve crematieghat in de Shiva-traditie
+BRONRUN: VARANASI-COMPLETE-001
+OPEN GEO-VRAAG: Exacte bezoekersingang later controleren.]]></description><Point><coordinates>83.0142,25.3109,0</coordinates></Point></Placemark>
+<Placemark id="AB-006"><name>Trailanga Swami-samadhi (samadhi-math)</name><styleUrl>#A_GREEN</styleUrl><description><![CDATA[REGISTRY_RECORD_ID: AB-006
+LOCATION_ID: niet toegewezen
+CLUSTER: VARANASI
+FORMELE STATUS: A_FORMEEL
+GEO-STATUS: WORKING_ADDRESS_POINT
+NAUWKEURIGHEID: 25_100_M
+HERKENNING: samadhi en math van Trailanga Swami bij Panchganga
+BRONRUN: VARANASI-COMPLETE-001
+OPEN GEO-VRAAG: Exacte bezoekersingang later controleren.]]></description><Point><coordinates>83.013,25.3188,0</coordinates></Point></Placemark>
+<Placemark id="AB-007"><name>Anandamayi Ma Ashram (ashram)</name><styleUrl>#A_GREEN</styleUrl><description><![CDATA[REGISTRY_RECORD_ID: AB-007
+LOCATION_ID: niet toegewezen
+CLUSTER: VARANASI
+FORMELE STATUS: A_FORMEEL
+GEO-STATUS: WORKING_GOOGLE_MAPS_PIN
+NAUWKEURIGHEID: 25_100_M
+HERKENNING: Bhadaini-ashram van Anandamayi Ma
+BRONRUN: VARANASI-COMPLETE-001
+OPEN GEO-VRAAG: Exacte bezoekersingang later controleren.]]></description><Point><co
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1533 path=research/active/VARANASI-COMPLETE-001/BRONS/INDIA_ALL_FORMAL_A_B_WORKING_PREPARED.kml,research/active/VARANASI-COMPLETE-001/GOUD/INDIA_ALL_FORMAL_A_B_WORKING.kml,research/active/VARANASI-COMPLETE-001/ZILVER/INDIA_ALL_FORMAL_A_B_WORKING_ZILVER.kml blob_sha=510ccbcbc8665b12ba2edff807638558f41a677d original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+ordinates>83.0068,25.2897,0</coordinates></Point></Placemark>
+<Placemark id="AB-008"><name>Sarnath (boeddhistisch heilig complex)</name><styleUrl>#A_GREEN</styleUrl><description><![CDATA[REGISTRY_RECORD_ID: AB-008
+LOCATION_ID: niet toegewezen
+CLUSTER: VARANASI_SARNATH
+FORMELE STATUS: A_FORMEEL
+GEO-STATUS: VERIFIED_SITE_CENTRE
+NAUWKEURIGHEID: SITE_LEVEL
+HERKENNING: complex rond de eerste leerrede van de Boeddha
+BRONRUN: VARANASI-COMPLETE-001
+OPEN GEO-VRAAG: Exacte bezoekersingang later controleren.]]></description><Point><coordinates>83.0214,25.3811,0</coordinates></Point></Placemark>
+<Placemark id="AB-009"><name>Kashi Vishwanath (Shiva-tempel)</name><styleUrl>#A_GREEN</styleUrl><description><![CDATA[REGISTRY_RECORD_ID: AB-009
+LOCATION_ID: niet toegewezen
+CLUSTER: VARANASI
+FORMELE STATUS: A_FORMEEL
+GEO-STATUS: WORKING_GOOGLE_MAPS_PIN
+NAUWKEURIGHEID: 25_100_M
+HERKENNING: belangrijkste Shiva-jyotirlingatempel van Kashi
+BRONRUN: VARANASI-COMPLETE-001
+OPEN GEO-VRAAG: Exacte bezoekersingang later controleren.]]></description><Point><coordinates>83.0107,25.3109,0</coordinates></Point></Placemark>
+<Placemark id="AB-010"><name>Babaji Cave (Kriya-grot)</name><styleUrl>#A_GREEN</styleUrl><description><![CDATA[REGISTRY_RECORD_ID: AB-010
+LOCATION_ID: 400
+CLUSTER: KUMAON_DWARAHAT
+FORMELE STATUS: A_FORMEEL
+GEO-STATUS: WORKING_GOOGLE_MAPS_PIN
+NAUWKEURIGHEID: 25_100_M
+HERKENNING: grot van de Babaji-Lahiri Kriya-traditie
+BRONRUN: KUMAON-COMPLETE-001
+OPEN GEO-VRAAG: Exacte bezoekersingang later controleren.]]></description><Point><coordinates>79.4654,29.8334,0</coordinates></Point></Placemark>
+<Placemark id="AB-011"><name>Babaji Smriti Bhavan (Kriya-herdenkingsplek)</name><styleUrl>#A_GREEN</styleUrl><description><![CDATA[REGISTRY_RECORD_ID: AB-011
+LOCATION_ID: 401
+CLUSTER: KUMAON_DWARAHAT
+FORMELE STATUS: A_FORMEEL
+GEO-STATUS: WORKING_GOOGLE_MAPS_PIN
+NAUWKEURIGHEID: 25_100_M
+HERKENNING: herdenkingsgebouw bij de Babaji-grot
+BRONRUN: KUMAON-COMPLETE-001
+OPEN GEO-VRAAG: Exacte bezoekersingang later controleren.]]></description><Point><coordinates>79.464364,29.832873,0</coordinates></Point></Placemark>
+<Placemark id="AB-012"><name>Dunagiri Tempel (Shakti-tempel)</name><styleUrl>#A_GREEN</styleUrl><description><![CDATA[REGISTRY_RECORD_ID: AB-012
+LOCATION_ID: 402
+CLUSTER: KUMAON_DWARAHAT
+FORMELE STATUS: A_FORMEEL
+GEO-STATUS: WORKING_GOOGLE_MAPS_PIN
+NAUWKEURIGHEID: 25_100_M
+HERKENNING: bergtempel in het Babaji-Dunagiri-cluster
+BRONRUN: KUMAON-COMPLETE-001
+OPEN GEO-VRAAG: Exacte bezoekersingang later controleren.]]></description><Point><coordinates>79.45123,29.79672,0</coordinates></Point></Placemark>
+<Placemark id="AB-013"><name>YSS Dwarahat Ashram (Kriya-ashram)</name><styleUrl>#A_GREEN</styleUrl><description><![CDATA[REGISTRY_RECORD_ID: AB-013
+LOCATION_ID: 403
+CLUSTER: KUMAON_DWARAHAT
+FORMELE STATUS: A_FORMEEL
+GEO-STATUS: WORKING_GOOGLE_MAPS_PIN
+NAUWKEURIGHEID: 25_100_M
+HERKENNING: officiële YSS-ashram voor meditatie en Babaji-pelgrims
+BRONRUN: KUMAON-COMPLETE-001
+OPEN GEO-VRAAG: Exacte bezoekersingang later controleren.]]></description><Point><coordinates>79.422761,29.784767,0</coordinates></Point></Placemark>
+<Placemark id="AB-014"><name>Kainchi Dham (Neem Karoli Baba-ashram)</name><styleUrl>#A_GREEN</styleUrl><description><![CDATA[REGISTRY_RECORD_ID: AB-014
+LOCATION_ID: 404
+CLUSTER: KUMAON_KAINCHI
+FORMELE STATUS: A_FORMEEL
+GEO-STATUS: WORKING_GOOGLE_MAPS_PIN
+NAUWKEURIGHEID: 25_100_M
+HERKENNING: hoofdashram van Neem Karoli Baba in Kumaon
+BRONRUN: KUMAON-COMPLETE-001
+OPEN GEO-VRAAG: Exacte bezoekersingang later controleren.]]></description><Point><coordinates>79.51245,29.42255,0</coordinates></Point></Placemark>
+<Placemark id="AB-015"><name>Kasar Devi (Shakti-tempel)</name><styleUrl>#A_GREEN</styleUrl><description><![CDATA[REGISTRY_RECORD_ID: AB-015
+LOCATION_ID: 405
+CLUSTER: KUMAON_ALMORA
+FORMELE STATUS: A_FORMEEL
+GEO-STATUS: WORKING_GOOGLE_MAPS_PIN
+NAUWKEURIGHEID: 25_100_M
+HERKENNING: Shakti-tempel op de Kasar-rug
+BRONRUN: KUMAON-COMPLETE-001
+OPEN GEO-VRAAG: Exacte bezoekersingang later controleren.]]></description><Point><coordinates>79.661
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1534 path=research/active/VARANASI-COMPLETE-001/BRONS/INDIA_ALL_FORMAL_A_B_WORKING_PREPARED.kml,research/active/VARANASI-COMPLETE-001/GOUD/INDIA_ALL_FORMAL_A_B_WORKING.kml,research/active/VARANASI-COMPLETE-001/ZILVER/INDIA_ALL_FORMAL_A_B_WORKING_ZILVER.kml blob_sha=510ccbcbc8665b12ba2edff807638558f41a677d original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+83,29.64172,0</coordinates></Point></Placemark>
+<Placemark id="AB-016"><name>Crank's Ridge (spirituele bergrug)</name><styleUrl>#A_GREEN</styleUrl><description><![CDATA[REGISTRY_RECORD_ID: AB-016
+LOCATION_ID: 406
+CLUSTER: KUMAON_ALMORA
+FORMELE STATUS: A_FORMEEL
+GEO-STATUS: APPROXIMATE_LOCAL_POINT
+NAUWKEURIGHEID: 100_500_M
+HERKENNING: historische zoekers- en meditatiezone bij Kasar Devi
+BRONRUN: KUMAON-COMPLETE-001
+OPEN GEO-VRAAG: Exacte bezoekersingang later controleren.]]></description><Point><coordinates>79.663,29.648,0</coordinates></Point></Placemark>
+<Placemark id="AB-017"><name>Kakrighat (Shiva-tempel en Vivekananda-plek)</name><styleUrl>#A_GREEN</styleUrl><description><![CDATA[REGISTRY_RECORD_ID: AB-017
+LOCATION_ID: 407
+CLUSTER: KUMAON_ALMORA
+FORMELE STATUS: A_FORMEEL
+GEO-STATUS: APPROXIMATE_LOCAL_POINT
+NAUWKEURIGHEID: 100_500_M
+HERKENNING: Shiva-tempel aan de Kosi en Vivekananda-meditatieplek
+BRONRUN: KUMAON-COMPLETE-001
+OPEN GEO-VRAAG: Exacte bezoekersingang later controleren.]]></description><Point><coordinates>79.53274,29.54371,0</coordinates></Point></Placemark>
+<Placemark id="AB-018"><name>Jageshwar (Shiva-tempelcomplex)</name><styleUrl>#A_GREEN</styleUrl><description><![CDATA[REGISTRY_RECORD_ID: AB-018
+LOCATION_ID: 408
+CLUSTER: KUMAON_JAGESHWAR
+FORMELE STATUS: A_FORMEEL
+GEO-STATUS: WORKING_GOOGLE_MAPS_PIN
+NAUWKEURIGHEID: 25_100_M
+HERKENNING: historisch Shiva-tempelcomplex
+BRONRUN: KUMAON-COMPLETE-001
+OPEN GEO-VRAAG: Exacte bezoekersingang later controleren.]]></description><Point><coordinates>79.85428,29.6375,0</coordinates></Point></Placemark>
+<Placemark id="AB-019"><name>Hanuman Garhi (Hanuman-tempel)</name><styleUrl>#A_GREEN</styleUrl><description><![CDATA[REGISTRY_RECORD_ID: AB-019
+LOCATION_ID: 409
+CLUSTER: KUMAON_NAINITAL
+FORMELE STATUS: A_FORMEEL
+GEO-STATUS: WORKING_GOOGLE_MAPS_PIN
+NAUWKEURIGHEID: 25_100_M
+HERKENNING: Neem Karoli Baba-gerelateerde Hanuman-tempel
+BRONRUN: KUMAON-COMPLETE-001
+OPEN GEO-VRAAG: Exacte bezoekersingang later controleren.]]></description><Point><coordinates>79.455,29.381,0</coordinates></Point></Placemark>
+<Placemark id="AB-020"><name>Ramakrishna Kutir (Ramakrishna-ashram)</name><styleUrl>#A_GREEN</styleUrl><description><![CDATA[REGISTRY_RECORD_ID: AB-020
+LOCATION_ID: 413
+CLUSTER: KUMAON_ALMORA
+FORMELE STATUS: A_FORMEEL
+GEO-STATUS: APPROXIMATE_LOCAL_POINT
+NAUWKEURIGHEID: 100_500_M
+HERKENNING: actief Ramakrishna Math-centrum in Almora
+BRONRUN: KUMAON-COMPLETE-001
+OPEN GEO-VRAAG: Exacte bezoekersingang later controleren.]]></description><Point><coordinates>79.655,29.597,0</coordinates></Point></Placemark>
+<Placemark id="AB-021"><name>Chitai Golu Devta (tempel van gerechtigheid)</name><styleUrl>#A_GREEN</styleUrl><description><![CDATA[REGISTRY_RECORD_ID: AB-021
+LOCATION_ID: 414
+CLUSTER: KUMAON_ALMORA
+FORMELE STATUS: A_FORMEEL
+GEO-STATUS: WORKING_GOOGLE_MAPS_PIN
+NAUWKEURIGHEID: 25_100_M
+HERKENNING: tempel waar devotees verzoekbrieven ophangen
+BRONRUN: KUMAON-COMPLETE-001
+OPEN GEO-VRAAG: Exacte bezoekersingang later controleren.]]></description><Point><coordinates>79.714,29.642,0</coordinates></Point></Placemark>
+<Placemark id="AB-022"><name>Turiya Niwas (historische woonplek)</name><styleUrl>#A_GREEN</styleUrl><description><![CDATA[REGISTRY_RECORD_ID: AB-022
+LOCATION_ID: 420
+CLUSTER: KUMAON_ALMORA
+FORMELE STATUS: A_FORMEEL
+GEO-STATUS: APPROXIMATE_LOCAL_POINT
+NAUWKEURIGHEID: 100_500_M
+HERKENNING: woonplek van Alfred Sunyata Sorensen
+BRONRUN: KUMAON-COMPLETE-001
+OPEN GEO-VRAAG: Exacte bezoekersingang later controleren.]]></description><Point><coordinates>79.669,29.654,0</coordinates></Point></Placemark>
+<Placemark id="AB-023"><name>Bodh Ashram (historische ashram)</name><styleUrl>#A_GREEN</styleUrl><description><![CDATA[REGISTRY_RECORD_ID: AB-023
+LOCATION_ID: 421
+CLUSTER: KUMAON_ALMORA
+FORMELE STATUS: A_FORMEEL
+GEO-STATUS: APPROXIMATE_LOCAL_POINT
+NAUWKEURIGHEID: 100_500_M
+HERKENNING: Evans-Wentz en Lama Govinda-landgoed
+BRONRUN: KUMAON-COMPLETE-001
+OPEN GEO-VRAAG: Exacte bezoekersingang later controleren.]]></description><Point><coordinates>79.675,29.643,0</coordinates></Point></Pl
+<<< END CHUNK >>>
+

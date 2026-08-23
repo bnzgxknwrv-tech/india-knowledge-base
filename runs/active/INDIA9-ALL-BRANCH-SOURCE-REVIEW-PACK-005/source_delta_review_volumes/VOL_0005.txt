@@ -1,0 +1,781 @@
+>>> CHUNK stream_row=63 path=governance/SWEEP_PROTOCOL.md blob_sha=c033d502e199db3ceaafdbaf987d87a4aed0deac original_offset=40960 original_length=4096 payload_bytes=4096 chunk_index=10 chunk_count=16 classification=text
+en klasse, geen kunstmatig puntensysteem:
+  `WERELD-/PAN-INDIA HEAVYWEIGHT`, `NATIONAAL/ZEER ZWAAR`, `REGIONAAL ZWAAR`, `LOKAAL/BEPERKT`, of
+  `GEEN ECHTE PELGRIMSMAGNEET — vooral historisch/institutioneel/architectonisch/studiecentrum`.
+  Onderbouw concreet met wat beschikbaar is: aantoonbare bezoekers-/pelgrimsstroom (alleen cijfers
+  bij betrouwbare bron), status binnen een canonieke groep (bv. één van een beperkt aantal
+  Shakti Peethas), uniek reliek/lichaamsdeel/voetafdruk/graf/grot/boom/gebeurtenis, centrale
+  rituele functie, nationale/internationale faam binnen de traditie, ouderdom/continuïteit van
+  levende bedevaart, omvang van jaarlijkse festivals, levende devotie versus alleen historisch
+  belang.
+- **Magnetisme ter plekke**: feitelijk, observeerbaar (voortdurend veel pelgrims/offers/puja/zang;
+  vooral druk tijdens één festival, daarbuiten rustig; actief klooster zonder pelgrimsmagneet;
+  monument/museum met weinig levende praktijk; `ONBEKEND` indien niet betrouwbaar onderzocht) —
+  geen zweverige "energie"-claims.
+- **Relatieve context** (optioneel, alleen indien onderbouwd): één korte, feitelijke vergelijking
+  met een andere kandidaat uit dezelfde regio — nooit een ranking om de ranking.
+- **Voor Mark in één zin**: concrete persoonlijke vertaling, geen verborgen A/B/C-advies.
+
+Regel: populariteit alleen is GEEN spirituele zwaarte; "vertegenwoordigt religie X" is NOOIT een
+zwaarteargument (zie ook FK-011/E.1). Een kleine AOAY/Top-11-plek blijft voor Mark belangrijker dan
+een objectief enorme bedevaartsplek zonder AOAY/Top-11-link.
+
+#### L.3 Feitelijke claimdiscipline in gebruikerstekst (INDIA6 bericht 057, 2026-08-08)
+
+Vóór elke PRE_PDF_CONTENT-vrijgave controleert CCI nogmaals alle keuze-relevante absolute claims:
+"exacte plek", "eerste", "oudste", "grootste", "enige", directe causaliteitsclaims, en een
+gebeurtenis-op-exact-deze-fysieke-plek-claim. Bij twijfel: genuanceerd formuleren, nooit
+stilzwijgend een stad/regio-gebeurtenis versmallen tot een specifiek tempelcomplex, en
+toegangsbeleid nooit afleiden uit de afwezigheid van een gemeld verbod (bestaande regel, poort G,
+hier herbevestigd). Bekende Bodh Gaya-precedenten: Sri Yukteswars sannyas-gebeurtenis in Bodh Gaya
+≠ bewezen exacte locatie Mahabodhi Temple Complex (zie poort E.1, gebeurtenis vs. exacte plek);
+Sujata Stupa niet zonder sterk bewijs als "exacte plek van aanbieding" presenteren; Great Buddha
+Statue niet onnodig absoluut als "grootste van India" formuleren; Mahabodhi Society niet absoluut
+"oudste bestaande kloostergebouw" zonder sterke onderbouwing.
+
+### O. Vervangbaarheid/handoff (nieuw format, zie ook Deel 2 van dit voorstel-pakket:
+`governance/ACTIVE_STATE.md`)
+
+Elke actieve run houdt een `STATUS.md` (of vergelijkbaar) bij met minimaal: huidige fase (van de
+negen stappen), laatste permanente nummers, harde Mark-besluiten, open blockers, protocolversie
+(dit document + eventuele opvolgers), toegestane volgende stap, en relevante foutlessen
+(verwijzing naar Deel 3, het foutklassenregister). Een nieuwe regisseursessie moet dit ene
+bestand kunnen lezen en zonder chatgeschiedenis verder kunnen.
+
+**O.1 Taakbestanden i.p.v. PR-transcript als bron van waarheid (canoncorrectie, INDIA6 taak
+RELAY-MIGRATION-001, 2026-08-08 — reden: PR #23 werd zo lang dat INDIA's connectorweergave
+truncateerde)**: vanaf nu krijgt elke actieve taak een eigen, klein bestandenpaar onder
+`runs/active/<TASK_ID>/`:
+- `TASK.md` — de volledige, vastgelegde opdracht (scope, prioriteiten, brondiscipline,
+  verplichte outputvelden). Wordt bij een correctie IN HETZELFDE bestand bijgewerkt, niet
+  opnieuw als lange PR-tekst herhaald.
+- `STATUS.md` — kort, altijd actueel: `task_id`, `state`, paden naar `TASK.md`/`RESULT.md`,
+  `blockers`, `next_allowed_step`, en een letterlijke, kopieerbare startzin voor de volgende
+  actie ("korte startzin voor CCI/INDIA").
+- `RESULT.md` — het laatste resultaat van de laatst uitgevoerde stap (Sweep A, reconciliatie,
+  etc.). Wordt per fase OVERSCHREVEN of uitgebreid, niet als eindeloze geschiedenis bijgehouden
+  —
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=64 path=governance/SWEEP_PROTOCOL.md blob_sha=c033d502e199db3ceaafdbaf987d87a4aed0deac original_offset=45056 original_length=4096 payload_bytes=4096 chunk_index=11 chunk_count=16 classification=text
+ de git-historie van het bestand is de geschiedenis, niet het bestand zelf.
+
+**Bestaande `india5/tasks/`-architectuur (TASK.yaml/STATUS.yaml met ACL's, sha256-hashes,
+completion-markers) NIET hergebruikt**: expliciet overwogen en te zwaar bevonden voor dit doel —
+die architectuur was al aangemerkt voor deprecatie (zie Openstaande ontwerpbeslissingen, punt 1)
+en voegt machinerie toe (hash-pinning, allow/forbid-lijsten) die hier geen functie heeft. Dit is
+bewust de kleinste duurzame oplossing, geen nieuwe bureaucratische architectuur.
+
+**PR #23 wordt index/relay, niet meer het volledige transcript**: nieuwe PR-comments zijn vanaf
+nu KORTE enveloppen (`task_id`, `task_file`/`status_file`, status, commit) — de volledige inhoud
+staat in de taakbestanden zelf, niet meer herhaald in de PR-tekst. Een nieuwe INDIA-sessie hoeft
+dus niet de volledige PR-geschiedenis op te halen: `governance/ACTIVE_STATE.md` (altijd het
+eerste bestand dat gelezen wordt, zie kop van dit document) bevat een `ACTIVE_TASKS`-lijst met
+directe paden naar elke actieve `STATUS.md`.
+
+### P. Zelflerende foutklassen (nieuw register)
+
+Zie `governance/SWEEP_ERROR_CLASSES.md` (nieuw, apart bestand — zie Deel 3 hieronder). Bij
+elke nieuwe, generaliseerbare fout: classificeren, een preventieve poort toevoegen aan dit
+document (niet een losse ad-hoc regel ernaast), en één keer centraal documenteren.
+
+### Q. Token-/efficiencyregel (nieuw, toegevoegd na INDIA6 bericht 032/tweede versie)
+
+Dit protocol moet first-time-right verbeteren zonder een bureaucratisch monster te worden.
+
+| Gebruik wél | Vermijd |
+|---|---|
+| Matrices/JSONL-regels i.p.v. lange vrije tekst | Herhaalde brede repo-scans wanneer gerichte bestanden volstaan |
+| Korte, vaste statusvelden (bv. `SATURATED`/`ACTIVE`) | PDF-herbouw zonder nieuw `PDF_GO: JA` |
+| Validatorscripts waar mogelijk (zie ook Deel 3, ontwerpvraag 2) | Heronderzoek van al gesloten/bevestigde feiten |
+| Vaste stopcriteria (Verzadigingsdrempel, evidence-matrix) | Lange narratieve statusrapporten waar een tabel volstaat |
+| Gerichte bronqueries per openstaande lens/lead | Volledige nieuwe sweep om één deelvraag te beantwoorden |
+
+Deze regel is geen aparte controlestap maar een werkinstructie voor hoe alle poorten A-R worden
+uitgevoerd — vandaar geen eigen JSONL-bestand of token.
+
+### R. Dubbele onafhankelijke sweep + reconciliatie (nieuw, INDIA6 bericht 059, 2026-08-08 —
+foutprecedent: Bodh Gaya)
+
+**Waarom deze poort bestaat**: de Bodh Gaya-run toonde aan dat één CCI-sweep niet betrouwbaar
+genoeg is voor Marks missiekritische laag (AOAY + Top-11). Pas nadat INDIA6 onafhankelijk dezelfde
+regio onderzocht (bericht 058, "ONAFHANKELIJKE CROSS-CHECK"), kwamen meerdere gemiste/foutieve
+links boven water: Ram Dass bij 061 versus 074 (datum + gebouw), Anandamayi Ma bij 051, Vivekananda
+bij 046 (verdieping), een echte Ramakrishna-fout bij 046 (ingetrokken, correcte link verplaatst
+naar 051), en Neem Karoli Baba's devotee-context bij 046 (correct geclassificeerd als geen directe
+fysieke link). Dit lost tevens openstaande ontwerpvraag 3 (hieronder, "reikwijdte van de
+adversarial pass") op door een harde ondergrens te zetten: één interne CCI-pass (poort I) is NOOIT
+voldoende voor de missiekritische laag — er moet een echt onafhankelijke tweede sweep zijn.
+
+**Twee onafhankelijke sweeps, verplicht vóór een regio als inhoudelijk compleet geldt**:
+- **Sweep A = CCI primaire sweep**: normale discovery volgens dit protocol (AOAY volledig, elk
+  Top-11-lid individueel, daarna laag-3 zwaargewichten), stopt alleen op geldige
+  saturatieregels (poort J).
+  - **Sweep B = onafhankelijke INDIA-tegensweep**: uitgevoerd door de actuele INDIA-regisseur,
+  of — als Mark dat expliciet kiest — door een aparte, onafhankelijke onderzoekschat. Krijgt
+  dezelfde regio en dezelfde Mark-kernprioriteiten, maar NIET vooraf CCI's kandidatenlijst of
+  conclusies. Doel is zelfstandig ontdekken, niet kandidaat-voor-kandidaat CCI verifiëren:
+  andere queryformuleringen, bronfamilies, biografische ingangen, historische spellingen.
+  Rapporteert ook ne
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=65 path=governance/SWEEP_PROTOCOL.md blob_sha=c033d502e199db3ceaafdbaf987d87a4aed0deac original_offset=49152 original_length=4096 payload_bytes=4096 chunk_index=12 chunk_count=16 classification=text
+gatieve resultaten per AOAY/Top-11-persoon. Mag NIET vervangen worden door
+  INDIA die achteraf alleen CCI's lijst naleest — dat veroorzaakt anchoring.
+
+**Wat dubbel moet, wat niet**: verplicht dubbel — volledige AOAY-regioverbindingen, elk Top-11-lid
+apart, fysieke gebeurtenissen/locaties (ook obscure huizen/kamers/tempeltjes/grotten/stations/
+bomen/ashrams), gebeurtenis en exacte fysieke locatie apart geverifieerd. NIET verplicht dubbel tot
+detailniveau: GEO-coördinaten, openingstijden, PDF-layout, bronformattering, technische validators
+— die blijven CCI-uitvoer/QA.
+
+**Laag-3/bonuslaag: HEAVYWEIGHT-DISCOVERY PASS, geen volledige duplicatie (canoncorrectie, INDIA6
+bericht 065, 2026-08-08)**: Sweep B dupliceert NIET alle middelgrote/lokale bonuskandidaten van
+Sweep A. In plaats daarvan voert INDIA een eigen, onafhankelijke HEAVYWEIGHT-DISCOVERY PASS uit —
+andere zoekingangen/detectors dan Sweep A, specifiek gericht op het vinden van grote religieuze/
+spirituele/pelgrimsmagneten die Sweep A kan hebben gemist (bijvoorbeeld een enorme Shakti-, Sikh-,
+Jain-, soefi-, boeddhistische, tribale of andere obscure bedevaartsplek). Doel: een gemiste
+zwaargewicht-kandidaat moet een reële kans hebben om alsnog boven te komen, zonder dat elke kleine
+of middelgrote bonuskandidaat twee keer wordt onderzocht.
+
+**Blinde volgorde (anchoring-preventie)**: (1) CCI rondt Sweep A af en bevriest de uitkomst; (2)
+INDIA voert Sweep B uit zonder eerst Sweep A's kandidaten/conclusies als zoekbasis te gebruiken;
+(3) pas daarna worden A en B naast elkaar gelegd; (4) elk verschil krijgt één van: `CCI_MISSED`,
+`INDIA_MISSED`, `SAME_FINDING`, `SOURCE_CONFLICT`, `DIFFERENT_PHYSICAL_IDENTIFICATION`,
+`NOT_RELEVANT_AFTER_RECONCILIATION`; (5) alleen de gereconcilieerde uitkomst mag door naar
+keuzerapport-gereedheid.
+
+**Reconciliatiegate (verplicht vóór keuzerapport/PDF)**:
+
+```text
+DOUBLE_SWEEP_COMPLETED: JA
+INDEPENDENT_SWEEP_PERFORMED: JA
+RECONCILIATION_COMPLETED: JA
+MISSION_CRITICAL_DIFFERENCES_RESOLVED: JA
+INDIA_ACCEPTED_SATURATION: JA
+```
+
+Een regio geldt NIET als inhoudelijk sweep-compleet/keuzerijp zolang een missiekritisch verschil
+openstaat. Geen consensus-door-meerderheid, geen automatisch-CCI-gelijk-geven: bij verschil worden
+bronnen opnieuw getoetst; als het verschil niet betrouwbaar oplosbaar is, gaat het zichtbaar naar
+Mark (als `MARK_DECISION_CONFLICT` of vergelijkbaar). Het laatste token (`INDIA_ACCEPTED_SATURATION:
+JA`, oorspronkelijk poort K) bevestigt dat INDIA ook CCI's structurele evidence-matrix (Coverage
+Matrix/Lead Register-volledigheid, poort J) zelf heeft gecontroleerd, niet alleen de conclusie —
+een echte Sweep B dekt dit inhoudelijk al af, maar het token blijft apart gecheckt door
+`preflight_validator.py --phase discovery` (ongewijzigd).
+
+**Rol van Mark**: Mark hoeft geen twee rapporten te lezen — INDIA en CCI lossen de verschillen
+onderling op (via GitHub/PR, zie poort S, `HUMAN_TOUCHPOINTS_MINIMIZED`) en Mark krijgt pas
+daarna één geconsolideerde, menselijke keuzebasis. Alleen echte onoplosbare inhoudelijke
+conflicten of persoonlijke classificatiekeuzes gaan naar Mark.
+
+**Efficiency**: dubbel DENKEN/ZOEKEN, niet dubbel PRODUCEREN — Sweep B focust op onafhankelijke
+discovery/inhoud, geen tweede datasetsuite/PDF/KML; één compact onafhankelijk sweep-rapport
+volstaat; reconciliatie in één bestand vastgelegd; alleen nieuwe/differente leads worden daarna
+door CCI volledig technisch uitgewerkt (zie ook poort Q).
+
+**Bodh Gaya blijft het geldige precedent** voor waarom deze poort bestaat, óók na de huidige
+reconciliatieronde (bericht 058) — deze poort geldt voortaan voor toekomstige regio's, niet
+retroactief als blokkade voor het al lopende Bodh Gaya-werk.
+
+### S. HUMAN_TOUCHPOINTS_MINIMIZED — GitHub als communicatiebrug (nieuw, INDIA6 bericht 060,
+2026-08-08)
+
+**Principe**: Mark is geen menselijke message-bus tussen INDIA en CCI. GitHub/PR is de
+gezamenlijke communicatie- en state-laag tussen INDIA en CCI; Mark komt alleen in beeld voor
+beslissingen die uitsluitend hij kan nemen.
+
+**Precisering (2026-08-08
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=66 path=governance/SWEEP_PROTOCOL.md blob_sha=c033d502e199db3ceaafdbaf987d87a4aed0deac original_offset=53248 original_length=4096 payload_bytes=4096 chunk_index=13 chunk_count=16 classification=text
+, RELAY-MIGRATION-001)**: "GitHub als communicatiebrug" betekent sinds
+poort O.1 niet meer "de volledige inhoud in PR-comments" — PR #23 blijft het kanaal, maar de
+comments zelf worden korte enveloppen die naar taakbestanden (`TASK.md`/`STATUS.md`/`RESULT.md`)
+verwijzen. Dit voorkomt dat de PR zelf te lang wordt om nog bruikbaar te zijn als relay.
+
+**Belangrijke grens (geen fictieve automatisering)**: INDIA kan technisch niet autonoom/achter-
+grond blijven draaien of door CCI worden aangeroepen. Deze poort claimt dus GEEN automatische
+INDIA-activering. Wat wél geldt: zodra Mark (of een geplande/getriggerde sessie) terugkeert in de
+INDIA-chat, of zodra CCI een nieuwe PR-comment van INDIA leest, moet de betreffende kant
+zelfstandig GitHub uitlezen — zien wat de andere kant inmiddels heeft gedaan/gecommit/gerapporteerd
+— en de eerstvolgende eigen controle/actie uitvoeren zonder Mark opnieuw als koerier te gebruiken.
+
+**Geen apart scope-bevestigingsmoment (canoncorrectie, INDIA6 bericht 065, 2026-08-08)**: als
+Marks initiële opdracht/scope al duidelijk is, wacht CCI niet op een aparte
+scope-bevestigingsvraag/-fase — CCI start direct met Sweep A. Mark komt normaal pas terug bij de
+uiteindelijke keuze-PDF, of bij een echte inhoudelijke blocker die alleen hij kan beslissen.
+
+**Gewenste normale flow** (per sweep): (1) Mark geeft één opdracht: sweep regio X. (2) CCI voert
+Sweep A uit en schrijft resultaten/state in GitHub. (3) INDIA leest die resultaten rechtstreeks uit
+GitHub en voert onafhankelijk Sweep B uit (poort R). (4) INDIA zet verschillen/gaten rechtstreeks
+op GitHub. (5) CCI onderzoekt/reconcileert die verschillen en commit de uitkomst. (6) INDIA leest
+de volledige gereconcilieerde PRE_PDF_CONTENT rechtstreeks uit GitHub en reviewt integraal. (7)
+Correcties tussen INDIA↔CCI lopen rechtstreeks via GitHub, zonder dat Mark teksten hoeft te
+kopiëren. (8) Pas als beide inhoudelijk akkoord zijn, krijgt Mark één goede keuze-PDF. (9) Mark
+geeft alleen A/B/C en eventuele persoonlijke inhoudelijke correcties. (10) CCI legt besluiten vast;
+vervolgcluster/pacing kan daarna volgens canon.
+
+**Mark hoeft normaal NIET**: CCI-uitvoer naar INDIA te kopiëren als die al op GitHub staat;
+INDIA-instructies naar CCI te kopiëren als INDIA ze rechtstreeks op de PR kan plaatsen;
+tussenreviews te lezen; technische commits/statusvelden te beoordelen; meerdere concept-PDF's te
+beoordelen.
+
+**Mark moet wel**: de initiële reis-/sweepvraag geven; persoonlijke voorkeuren/nieuwe
+canonbesluiten geven; de uiteindelijke A/B/C-keuzes maken; alleen bij echte inhoudelijke ambiguïteit
+die niet door bronnen/protocol oplosbaar is (bijv. een niet-oplosbare `MARK_DECISION_CONFLICT`)
+beslissen.
+
+**Geen aparte bureaucratische subarchitectuur**: dit vereenvoudigt de bestaande flow, het voegt er
+geen nieuwe laag aan toe — poort R (met de van poort K opgegane INDIA-structuurcontrole) en poort O
+(Vervangbaarheid/handoff) blijven ongewijzigd van kracht, deze poort maakt alleen expliciet dat
+GitHub/PR het kanaal is en dat Mark niet de verplichte tussenpersoon is.
+
+---
+
+## Deel 3 — Foutklassenregister (apart bestand)
+
+Zie `governance/SWEEP_ERROR_CLASSES.md`. Bevat de tien fouten uit Deel 1 als herbruikbare,
+genummerde klassen (FK-001 t/m FK-010), plus later toegevoegde klassen uit canoncorrecties
+(FK-011 t/m FK-012 en verder), zodat een toekomstige, nieuwe fout eerst tegen dit register gelegd
+kan worden ("is dit een bekende klasse, of nieuw?") in plaats van dat elke fout een losse, steeds
+langere ad-hoc regel wordt.
+
+**Eén-incident-regel (canoncorrectie, INDIA6 berichten 064/065, 2026-08-08 — precedent: poort T,
+dezelfde dag gecanoniseerd én weer ingetrokken)**: een praktische oplossing die ontstaat als reactie
+op ÉÉN specifiek correctiemoment wordt niet automatisch permanente canon. Eerst toetsen of het een
+algemene, herhaalbare foutklasse is (past het in een bestaande FK-rij, of verdient het een nieuwe?)
+— pas na een tweede, onafhankelijke keer dat dezelfde situatie zich voordoet, mag het een
+standaardregel/poort worden. Uitzondering: een
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=67 path=governance/SWEEP_PROTOCOL.md blob_sha=c033d502e199db3ceaafdbaf987d87a4aed0deac original_offset=57344 original_length=4096 payload_bytes=4096 chunk_index=14 chunk_count=16 classification=text
+ MACHINE-CHECKBARE validator die een objectieve fout
+voorkomt (JSONL-structuur, verboden placeholders, GEO-symmetrie e.d.) mag wél meteen worden
+toegevoegd, ook na één incident — dat is geen nieuwe procesregel voor mensen, alleen een
+goedkope, foutloze extra controle.
+
+---
+
+## Deel 4 — Machine-checkbare preflight
+
+`governance/scripts/preflight_validator.py` controleert, voor een gegeven run-directory, de
+structurele (niet-inhoudelijke) voorwaarden vóór fase-overgangen:
+
+- **Vóór keuzerapportfase**: Coverage Matrix bevat geen `NOT_STARTED`/`ACTIVE`-regel; Lead
+  Register: elke lead heeft een geldige eindstatus; geen open `UNRESOLVED_BLOCKER` in de
+  identiteit/duplicatencheck; geen open keuze-relevante toegankelijkheidsblocker; permanente
+  nummering uniek/valide (hergebruikt `validate_global_numbering.py`); actieve kandidaten hebben
+  geen status `HARD_EXCLUDED`/`SUBLOCATION`/`DUPLICATE`; saturation-evidence-bestand aanwezig;
+  `INDIA_ACCEPTED_SATURATION: JA` aanwezig; GEO-combinatiesymmetrie (poort L.1) via het optionele
+  `combine_with`-veld — `NIET_CONTROLEERBAAR` zolang een run dat veld niet gebruikt (bv. Bodh Gaya,
+  nog vrije tekst), machine-`FAIL` bij asymmetrie zodra het veld wél gebruikt wordt.
+- **Vóór PDF**: verboden placeholders (poort N: `NOG NIET ONDERZOCHT`/`TODO`/`TBD`) in `GOUD/USER/`
+  — machine-`FAIL` bij een treffer (canoncorrectie 2026-08-08, bericht 065, voorheen alleen
+  handmatig); `PRE_PDF_CONTENT_APPROVED: JA` aanwezig (vervangt `CONTENT_QA_ACCEPTED: JA` voor
+  PDF-doeleinden, zie poort M); `PDF_GO: JA` aanwezig.
+- **Vóór keuzerapport-gereedheid van een missiekritische regio (poort R, nieuw 2026-08-08, nog NIET
+  in `preflight_validator.py` geïmplementeerd — hier expliciet als open punt genoteerd, niet
+  verhuld)**: `DOUBLE_SWEEP_COMPLETED: JA`, `INDEPENDENT_SWEEP_PERFORMED: JA`,
+  `RECONCILIATION_COMPLETED: JA`, `MISSION_CRITICAL_DIFFERENCES_RESOLVED: JA`. Vooralsnog
+  handmatig door INDIA/CCI gecontroleerd,
+  zoals ook `INDIA_ACCEPTED_SATURATION` aanvankelijk handmatig was vóórdat het een script-check
+  werd — een validator-uitbreiding is mogelijke v2-toekomstige stap (zie Openstaande
+  ontwerpbeslissingen, punt 2).
+
+**Grens van de validator (expliciet, niet verhuld)**: de validator controleert uitsluitend
+structurele/machinaal-checkbare voorwaarden (bestaat het veld, is de status geldig, is er geen
+lege/tegenstrijdige waarde). Hij kan NIET beoordelen of een saturatieclaim inhoudelijk klopt, of
+een bron sterk genoeg is voor een claim, of een generiek-check correct is uitgevoerd — dat blijft
+mensen-/CCI-/INDIA-oordeel. De validator doet dus nooit alsof hij inhoudelijke kwaliteit
+garandeert; hij garandeert alleen dat de vereiste structuur/velden aanwezig en intern consistent
+zijn vóór een fase-overgang wordt toegestaan.
+
+---
+
+## Wat dit protocol NIET doet
+
+- Geen nieuwe regionale sweep gestart.
+- Geen PDF gebouwd.
+- Geen A/B/C ingevuld namens Mark.
+- Geen route/pacing/accommodatie.
+- Geen bestaande canon (INDIA5-PROTOCOL.md, INDIA5_REGION_START_PROTOCOL.md,
+  NOT_TO_BE_MISSED_FRAMEWORK.md) stilzwijgend overschreven — dit document VOEGT TOE, het vervangt
+  niet.
+
+## Openstaande ontwerpbeslissingen (rolgebaseerd — voor de huidige INDIA-regisseur)
+
+1. **Twee protocol-lineages**: naast `india4/protocols/INDIA5-PROTOCOL.md` (het document dat
+   feitelijk deze hele sessie is gebruikt) bestaat een parallelle, eerder opgezette architectuur
+   onder `india5/` (`GOVERNANCE.md`, `TASK_PROTOCOL.md`, `india5/tasks/` met
+   `TASK.yaml`/`STATUS.yaml`, `india5/schemas/`). Die tweede architectuur lijkt na de eerste
+   Varanasi-coverage-taken (`INDIA5-VNS-DISCOVERY-COVERAGE-003`, nog altijd "active" staande
+   `INDIA5-VNS-DISCOVERY-SATURATION-004`) niet meer gebruikt te zijn voor Bodh Gaya — de run
+   gebruikte in plaats daarvan de PR-comment-envelop + `runs/active/`-structuur. **Richting
+   bevestigd (INDIA6 bericht 065, 2026-08-08)**: geen hybride samenvoeging bouwen — bij een
+   volgende regio-start expliciet deprecaten in plaats van open laten hangen. Dit document blijft
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=68 path=governance/SWEEP_PROTOCOL.md blob_sha=c033d502e199db3ceaafdbaf987d87a4aed0deac original_offset=61440 original_length=2253 payload_bytes=2253 chunk_index=15 chunk_count=16 classification=text
+:
+   nieuwe bestanden onder `runs/active/<RUN_ID>/PRE_BRONS/`, niet onder `india5/tasks/`.
+2. **Machine-validatie**: verder opgelost door `governance/scripts/preflight_validator.py`
+   (Deel 4) — dekt de structurele checks, inclusief (sinds 2026-08-08, bericht 065) een
+   GEO-symmetrie-check (poort L.1, via `combine_with`) en een hard placeholder-verbod (poort N)
+   vóór PDF. Nog open: of ook Coverage Matrix/Lead Register-inhoud zelf (niet alleen
+   status-volledigheid) en poort R's vier reconciliatiegate-tokens verder geautomatiseerd moeten
+   worden.
+3. **Reikwijdte van de adversarial pass (poort I)**: OPGELOST (2026-08-08, poort R, bevestigd
+   bericht 065) — voor de missiekritische laag (AOAY + Top-11) is een harde ondergrens gezet: één
+   interne CCI-pass is nooit voldoende, er is een echt onafhankelijke tweede sweep (Sweep B, door
+   INDIA of een aparte onderzoekschat) plus reconciliatiegate verplicht. Voor de bonusmateriaal-laag
+   (laag 3): expliciet GEEN volledige pariteit — een gerichte HEAVYWEIGHT-DISCOVERY PASS (zie poort
+   R) volstaat, geen dubbele bewerking van elke middelgrote/lokale kandidaat.
+4. **Volgende regio = prospectieve test (nieuw, INDIA6 bericht 065, 2026-08-08)**: het V2-protocol
+   (poorten G.1, R, S, N-herordening, machine-checks) is tot nu toe alleen retroactief op Bodh Gaya
+   getoetst. De eerstvolgende, volledig nieuwe regio-sweep test het protocol prospectief vanaf nul
+   — alleen echte afwijkingen/fouten loggen, geen aannames vooraf overnemen.
+
+## Activatie
+
+Status: **ACTIEF/CANONIEK**, geaccepteerd via protocolreview (PR #23) door de huidige
+INDIA-regisseur. Toekomstige, verdere wijzigingen aan dit document worden pas bindend na een
+expliciet `CURRENT_INDIA_REGISSEUR: ACCEPTEERT`-token (rolgebaseerd, niet aan een sessienaam
+gebonden) in een PR-reactie. De bestaande canon (negen-stappenflow, Verzadigingsdrempel,
+NOT_TO_BE_MISSED-framework) blijft daarnaast onverkort van kracht; dit document is een aanvulling,
+geen vervanging.
+
+---
+Geschreven door: CCI, geactiveerd na protocolreview door de huidige INDIA-regisseur (PR #23).
+Geen PDF, geen nieuwe regionale sweep, geen A/B/C, geen route/pacing. `PDF_STATUS: VERBODEN`
+gerespecteerd tijdens het schrijven van dit document.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=69 path=runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/STATUS.md blob_sha=243aa4d547b5822d8e341cbbfa70daece49b8eff original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# STATUS — TOP11-EXTERNAL-AI-BENCHMARK-001
+
+```
+task_id: TOP11-EXTERNAL-AI-BENCHMARK-001
+state: ANANDAMAYI_EXTERNAL_UNION_INGESTED__INDIA_SOURCE_FIRST_PASS_COMPLETE__RECONCILIATION_NEXT
+last_updated: 2026-08-16
+last_updated_by: INDIA
+```
+
+## Ingevoerd
+- `EXTERNAL_UNION_INPUT.md`: Marks gecombineerde onafhankelijke AI-union voor Anandamayi Ma, 156 masterlocaties.
+- `INDIA_SOURCE_FIRST_SWEEP_ANANDAMAYI.md`: INDIA's eigen source-first corpuspass over de officiële/lineage Anandamayi-corpus.
+- `TASK.md`: benchmark is nu expliciet driehoek CCI vs INDIA-source-first vs externe multi-AI-union.
+
+## Harde QA-uitkomst tot nu toe
+1. CCI's Anandamayi-atlas (~23 punten) is **aantoonbaar niet compleet genoeg**. Het eerdere `PERSON_SWEEP_SATURATED: JA` is voor recall-doeleinden voorlopig ingetrokken/provisioneel.
+2. Marks externe union (156) is **veel rijker dan CCI** en bewijst de waarde van onafhankelijke AI-detectoren.
+3. De externe union is zelf óók niet compleet: een source-first scan van `anandamayi.org` Life History 1896–1982 + Sangha-biografie levert opnieuw vele expliciete fysieke sites/events die niet als afzonderlijk record in de 156-union zichtbaar zijn.
+4. Conclusie: AI-search alleen — ongeacht welke AI — mag niet de primaire completeness-engine zijn. Corpus-extractie moet vóór discovery komen.
+
+## Voorlopige architectuur
+`CORPUS EXTRACTIE -> CCI/INDIA independent-method discovery -> host/gastheer graph -> EXTERNAL MULTI-AI adversarial union -> directe bronverificatie -> identity reconciliation -> SATURATION`
+
+## Test om te bepalen of externe AI structureel nodig blijft
+Anandamayi Ma is door alle partijen inmiddels 'besmet' met elkaars resultaten en is daarom geen zuivere toekomstige blindtest meer. Gebruik haar voor methodebouw en reconciliatie.
+
+Daarna een **prospectieve control-test op Paramahansa Yogananda**:
+1. CCI + INDIA voeren eerst METHOD_V2 source-first uit en freezen de volledige Yogananda-atlas.
+2. Pas daarna krijgt een onafhankelijke externe multi-AI-set dezelfde blanco opdracht zonder CCI/INDIA-lijst.
+3. External-only claims worden rechtstreeks geverifieerd.
+4. Als externe AI nog betekenisvolle geverifieerde plekken toevoegt => externe multi-AI wordt verplichte derde detector voor alle Top-11.
+5. Als CCI+INDIA METHOD_V2 de externe geverifieerde union volledig reproduceert => externe AI kan terug naar periodieke/adversarial audit in plaats van iedere persoon volledig.
+
+## Update — CCI_TASK 084 Deel A + B afgerond (CCI, 2026-08-16)
+
+**Deel A**: `RECONCILIATION_CCI_084.md` — CCI heeft 8/10 CCI-misses, 13 source-first-only plekken
+en 5 externe-only/verdachte claims rechtstreeks tegen de officiële `anandamayi.org`-chronologie
+geverifieerd, niet de aangeleverde lijsten blind overgenomen. Bevindt onafhankelijk: `BENCHMARK_
+RESULT.md`'s conclusies kloppen; de externe union bevat zowel echte waarde als minstens één
+aantoonbare fout (Krishnamurti-ontmoeting: juiste plek is Kitty Shiva Rao's tuin, niet de
+Rajghat/Krishnamurti Foundation-campus) en één vermoedelijk compilatieartefact (Mandi-claim
+gesourcet aan "AI2's eigen methodesectie", geen echte plaatsvermelding).
+
+**Deel B**: `runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/METHOD_V2.md` geformaliseerd
+(negen fasen, vier verplichte saturation-gates: corpus-coverage, hostgraph, discovery,
+reconciliatie). Prospectief toegepast op Yogananda vóórdat een externe Yogananda-union bestaat:
+`.../YOGANANDA_V2_FREEZE.md`, corpus-eerst (volledige AOAY-brontekst + YSS-chronologie), expliciet
+NIET gebaseerd op de oude Fase-2-ATL-PY-lijst als checklist. Resultaat: zes nieuwe, bronmatig
+bevestigde sub-locaties binnen Mysore/Bangalore (hoofdstuk 41, Chamundi-tempel, Krishnaraja Sagar
+Dam, Yuvaraja's zomerpaleis, drie lezingzalen, C.V. Raman-ontmoeting) die de oude lijst niet had.
+Bijvangst: één fout in de eerdere AOAY-locatie-atlas gevonden en gecorrigeerd (Belur Math/Bengal
+verward met de Belur-tempel/Karnataka in hoofdstuk 41 — nu rechtgezet in `PLACE_ATLAS.jsonl`).
+`AOAY_YOGANANDA_V2_SATURATED: NEE`, expliciete hiaten vastgelegd (zie freeze-bestand
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=70 path=runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/STATUS.md blob_sha=243aa4d547b5822d8e341cbbfa70daece49b8eff original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+).
+
+## Update — CCI_TASK 085 afgerond: definitieve pre-external Yogananda-freeze (CCI, 2026-08-16)
+
+```
+freeze_commit: cd0ff2b159900015fcdc3d69617850efc32bc550
+freeze_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/YOGANANDA_V2_PRE_EXTERNAL_FINAL_FREEZE.md
+YOGANANDA_V2_PRE_EXTERNAL_SATURATED: NEE
+```
+
+Pre-external completion-pass op de hiaten uit `YOGANANDA_V2_FREEZE.md`: alle 82 India-plaatsen uit
+de AOAY-atlas herlezen met volledige occurrence-context (niet alleen de dichtste hoofdstukken).
+Resultaat:
+- **Tweede fout in de AOAY-locatie-atlas gevonden en gecorrigeerd**: "Dwarka" (5 occurrences) bleek
+  "Dwarka Prasad" — een persoonsnaam (huisbaaszoon in Bareilly), geen vermelding van de
+  bedevaartsstad Dwarka. Naamcollision, niet een plaats. Gecorrigeerd in `PLACE_ATLAS.jsonl`.
+- **Hyderabad/Ellora/Ajanta definitief opgelost**: `YOGANANDA_PERSONALLY_PRESENT: NEE`, tekstueel
+  onderbouwd (regionale geschiedenisdigressie zonder eerste-persoonstaal, in scherp contrast met de
+  omringende Mysore/Bangalore-passages die wél "I"/"we" gebruiken).
+- **Drie nieuwe bevestigde persoonlijke bezoeken**: Delhi (zwager Satish, hfst. 22), Simla
+  (Kashmir-reis, hfst. 21), Purulia (hfst. 46).
+- **Vier plaatsen gecorrigeerd van "mogelijk Yogananda" naar "eigenlijk Lahiri Mahasaya's eigen
+  levensverhaal"**: Danapur, Ranikhet, Ghurni, Nadia (blijven geldig als Lahiri Mahasaya-punten,
+  niet als Yogananda-eigen-aanwezigheid).
+- **Belangrijke nuance**: Yogoda Math bij Dakshineswar (Yogananda's eigen stichting, gewijd 1939)
+  is apart gehouden van zijn persoonlijke aanwezigheid — hij keerde na 1935-36 niet meer fysiek
+  naar India terug, dus stichter zijn ≠ fysiek aanwezig bij de latere wijding.
+- **Wright's volledige dagboek bevestigd structureel nooit gepubliceerd** (geen falende zoekactie).
+  EAST-WEST-tijdschriftarchief gevonden maar ongeoCR'd, `BRON_GEBLOKKEERD/DEELS`.
+
+Alle vier METHOD_V2-gates beoordeeld; corpus-coverage en discovery blijven `DEELS` met expliciet
+benoemde, niet-verzwegen hiaten. `NEE` bewust gekozen boven een valse `JA`-claim.
+
+## Update — CCI_TASK 086 afgerond: externe Yogananda-union gereconcilieerd (CCI, 2026-08-18)
+
+```
+task_id: TOP11-EXTERNAL-AI-BENCHMARK-001
+state: YOGANANDA_EXTERNAL_RECONCILIATION_COMPLETE__VERDICT_JA__WACHT_OP_INDIA_QA
+external_input: PR #24, head e8c7ef6899feaa2a8fdfd1d82d98986f85d8281d, atlas blob 089b652e
+reconciliation_file: runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/YOGANANDA_EXTERNAL_RECONCILIATION_CCI_086.md
+EXTERNAL_MULTI_AI_MANDATORY_FOR_REMAINING_TOP11: JA
+```
+
+De 114-record externe union (Grok/Gemini/DeepSeek/Copilot/AI-5-synthese) is gereconcilieerd tegen
+de bevroren interne pre-external freeze (`cd0ff2b1`). Acht betekenisvolle `EXTERNAL_ONLY_CLAIM`/
+`EXTERNAL_MORE_GRANULAR`-kandidaten zijn rechtstreeks tegen de lokale AOAY-brontekst geverifieerd —
+**allemaal `VERIFIED_TRUE`** (Pranabananda's residentie Benares, Sri Yukteswars Rana Mahal-huis,
+Bhaduri Mahasaya's woning, Bose Institute, Giri Bala/Biur, Keshabananda-ashram Brindaban, Kumbh
+Mela 1936-persoonlijke-aanwezigheid, Taj Mahal Hotel Bombay). Vier zelf-gerapporteerde externe
+identiteitsconflicten opgelost (Anandamayi Ma-ontmoeting is Bhowanipur/Ranchi niet Varanasi;
+Gandhi-ontmoeting is Wardha niet Sabarmati; Ramana-ontmoeting is Tiruvannamalai niet "Bangalore";
+Ellora/Ajanta/Hyderabad zijn geen bewezen bezoek).
+
+**CCI vond bovendien zelf iets dat alle vijf externe AI's misten**: de externe atlas liet de kamer
+van het Sri Yukteswar-"resurrection"-visioen expliciet `ONBEKEND`. Rechtstreekse lezing van
+hoofdstuk 43 noemt tweemaal de **Regent Hotel, Bombay** (derde verdieping) — een derde, door geen
+enkele externe AI genoemde naam, die noch met "Taj Mahal Hotel" (Grok) noch met "Royal Hotel"
+(AI-5, voor Wright) overeenkomt.
+
+**Root cause van de echte misses**: CCI's eigen token-/gazetteerdetector (uit
+`AOAY-FULL-LOCATION-ATLAS-001`) is sterk voor plaatsnamen met een eigen toponiem, maar structureel
+zwakker voor privéadressen die de tekst alleen via de bewonersnaam aanduidt ("huis van [naam]") —
+prec
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=71 path=runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/STATUS.md blob_sha=243aa4d547b5822d8e341cbbfa70daece49b8eff original_offset=8192 original_length=685 payload_bytes=685 chunk_index=2 chunk_count=3 classification=text
+ies het gat dat de externe host-netwerkanalyse dichtte.
+
+**Verdict**: `EXTERNAL_MULTI_AI_MANDATORY_FOR_REMAINING_TOP11: JA`, met de aanvullende bevinding dat
+CCI's eigen directe bronverificatie evenmin gemist mag worden (Regent Hotel-vondst). De juiste
+architectuur blijft de volledige METHOD_V2-keten: corpus -> CCI/INDIA-pass -> externe union ->
+directe verificatie -> reconciliatie, niet "CCI OF externe AI".
+
+## next_allowed_step
+STOP hier conform CCI_TASK 086 stopvoorwaarde. Wacht op INDIA-QA-audit van dit verdict. Geen nieuwe
+Top-11-persoon starten. **Arunachala-regiosweep-hold blijft van kracht** totdat INDIA deze 086-audit
+heeft afgerond. Geen A/B/C, geen PDF, geen route.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=72 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/STATUS.md blob_sha=a69b956963fd4ad1f38443d4396f4f10e7853d1d original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# STATUS — TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
+
+```
+task_id: TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
+state: METHOD_V1_SUPERSEDED_BY_V2__PHASE2_SATURATION_PROVISIONEEL__YOGANANDA_V2_FREEZE_KLAAR
+method_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/METHOD_V1.md
+method_v2_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/METHOD_V2.md
+task_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/TASK.md
+status_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/STATUS.md
+pilot_result_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/PILOT_RESULT.md
+saturation_result_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/SATURATION_RESULT.md
+phase2_result_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/PHASE2_RESULT.md
+phase2_synthesis_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/PHASE2_SYNTHESIS.md
+yogananda_v2_freeze_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/YOGANANDA_V2_FREEZE.md
+last_updated: 2026-08-16
+last_updated_by: CCI (CCI_TASK 084, METHOD_V2 + Yogananda-freeze)
+```
+
+**blockers**: geen.
+
+**Update CCI_TASK 084**: `PERSON_SWEEP_SATURATED: JA` uit Fase 2 (alle 11 personen) is
+**provisioneel**, niet ingetrokken maar ook niet langer als eindwaarheid behandeld — zie
+`TOP11-EXTERNAL-AI-BENCHMARK-001/BENCHMARK_RESULT.md` en `RECONCILIATION_CCI_084.md` voor de
+Anandamayi-driewegverificatie die dit heeft aangetoond. `METHOD_V1.md` is vervangen door
+`METHOD_V2.md` (corpus-eerst i.p.v. zoekmachine-eerst, vier verplichte saturation-gates). Als
+prospectieve controle is METHOD_V2 al toegepast op Yogananda (`YOGANANDA_V2_FREEZE.md`,
+`AOAY_YOGANANDA_V2_SATURATED: NEE`, expliciete hiaten vastgelegd). Repo-crosscheck (Fase C) voor
+Yogananda volgt apart. De overige 10 personen krijgen pas een METHOD_V2-herziening na INDIA's
+besluit of externe multi-AI structureel nodig blijft (zie `BENCHMARK_RESULT.md`, "zuivere
+beslisproef").
+
+**INDIA_QA_BESLUIT**: CCI_TASK 080 is gecontroleerd. De host-/gastheer-as heeft zelfstandig nieuwe Bodh-Ashram-achtige fysieke plekken gevonden. De methode is daarom goedgekeurd en bevroren in `METHOD_V1.md`.
+
+**Pilotpersonen compleet volgens huidige projectnorm**:
+- Anandamayi Ma: `PERSON_SWEEP_SATURATED: JA`.
+- Neem Karoli Baba: `PERSON_SWEEP_SATURATED: JA`.
+
+**Fase 2 geautoriseerd voor overige 9** — één persoon volledig afwerken en freeze vóór de volgende, maar CCI hoeft niet na iedere persoon op nieuwe toestemming te wachten tenzij er een systeemwijde blocker of echt Mark-besluitconflict ontstaat.
+
+Volgorde:
+1. Mahavatar Babaji
+2. Lahiri Mahasaya
+3. Paramahansa Yogananda
+4. Ram Dass
+5. Sri Yukteswar
+6. Hariharananda
+7. Vivekananda
+8. Ramakrishna
+9. Ramana Maharshi
+
+Per persoon is de host-/gastheer-as vanaf het BEGIN verplicht, naast chronologie, officiële/lineage-bronnen, primaire/biografische teksten, alternatieve namen/spellingen en repo-cross-check pas na freeze.
+
+**Fase 2 samenvatting**: alle 9 overige Top-11-personen individueel gefreezed en tegen de repo
+vergeleken (`PHASE2_RESULT.md`); circa 90 atlaspunten, 11/11 personen `PERSON_SWEEP_SATURATED: JA`.
+Sterkste nieuwe regiosignalen: Puri/Odisha (Sri Yukteswar + Hariharananda), Tamil Nadu/Arunachala
+(Ramana Maharshi + Vivekananda + Yogananda-bezoek), West-Bengal-kernregio (Ramakrishna +
+Vivekananda + Sri Yukteswar + Lahiri Mahasaya-geboorte + Yogananda-jeugd). Eén `REGION_MISS`
+(Almora/Vivekananda binnen bestaand Kumaon-gebied) vastgelegd voor toekomstige vervolgronde. Vijf
+`PERSON_LINK_UPGRADE`s op bestaande/tijdelijke plekken (Kainchi, Vrindavan-NKB, VNS-CAND-002,
+Mayavati/KB2-038, Ramanasramam). Geen `MARK_DECISION_CONFLICT`. Volledige synthese:
+`PHASE2_SYNTHESIS.md`.
+
+**next_allowed_step**: STOP hier voor INDIA-QA, conform CCI_TASK 081. Voorstel aan INDIA: eigen
+reconciliatie-/permanente-nummeringstaak voor de drie sterkste nieuwe clusters (Puri, Tamil Nadu,
+West-Bengal-kernregio), plus een gerichte Kumaon-vervolgronde voor de Almora-miss. Geen automatische
+voortzetting zonder INDIA-akkoord. Geen PDF, geen route, geen A/B/C namens Mark.
+
+---
+Dit b
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=73 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/STATUS.md blob_sha=a69b956963fd4ad1f38443d4396f4f10e7853d1d original_offset=4096 original_length=63 payload_bytes=63 chunk_index=1 chunk_count=2 classification=text
+estand is de kortste actuele bron van waarheid voor deze taak.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=74 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/BABAJI_PRE_COMPARE_FREEZE.md blob_sha=99b8ddef8f47b7ee0f05691a01322f51bd982c96 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=10 classification=text
+# Mahavatar Babaji — PRE-COMPARE FREEZE
+
+**Run:** `TOP11-PARALLEL-CHATGPT-SWEEP-001`  
+**Persoon:** Mahavatar Babaji  
+**Freeze:** externe blinde sweep; geen interne atlas, kandidatenlijst of CCI-resultaat geraadpleegd  
+**Freeze-datum:** 2026-08-18  
+**India-masterlocaties:** **35**  
+**PHYSICAL_IDENTITY:** **EXACT 5 · DEELS 17 · ALLEEN_PLAATS 11 · ONBEKEND 2**  
+**PERSONALLY_PRESENT:** **JA 22 · ONZEKER 13 · NEE 0** (uitsluitingen met NEE staan buiten de mastercount)  
+**SATURATION:** **NEE** — het digitaal toegankelijke kerncorpus en vier grote claimant-tradities zijn breed gesweept, maar het corpus is open-eindig en hagiografisch; meerdere Bengali/Hindi/Engelse printbiografieën, privéarchieven en niet-geïndexeerde getuigenissen waren niet volledig controleerbaar.
+
+## Afbakening en bewijsregel
+
+Een locatie komt alleen in de masterlijst wanneer een bron een handeling, verblijf, lichamelijke verschijning, stem/visioen of biografische gebeurtenis **van Babaji zelf** aan die plek koppelt. Een tempel, ashram of monument dat alleen aan hem is gewijd, is niet genoeg. `PERSONALLY_PRESENT=JA` betekent dat de geciteerde bron de aanwezigheid expliciet claimt; het is geen onafhankelijke historische bevestiging. Bovennatuurlijke, visionaire, retroactieve en identiteits-afhankelijke claims blijven dus in de recall-first set, maar krijgen `ONZEKER` en/of een conflictwaarschuwing.
+
+`PHYSICAL_IDENTITY` meet de lokaliseerbaarheid/continuïteit van de fysieke plek, niet de waarheid van het wonderverhaal:
+
+- `EXACT`: het gebouw/object/adres is specifiek en als dezelfde plek traceerbaar;
+- `DEELS`: complex/landschapselement is traceerbaar, maar kamer, grot, boom, routepunt of historische continuïteit niet volledig;
+- `ALLEEN_PLAATS`: alleen stad/dorp/regio;
+- `ONBEKEND`: zelfs de plaats kan niet veilig worden vastgesteld.
+
+## Bronregister
+
+### Primair of semi-primair
+
+- **P1** — Paramahansa Yogananda, *Autobiography of a Yogi*, eerste editie (1946), met eigen ervaringen en aan hem vertelde getuigenissen; [Project Gutenberg volledige tekst](https://www.gutenberg.org/files/7452/7452-h/7452-h.htm). Locators: hoofdstukken 33, 34, 36 en 37.
+- **P2** — Sri M, *Apprenticed to a Himalayan Master* plus vervolg, memoiretekst; [Internet Archive full-text](https://archive.org/stream/the-journey-continues-a-sequel-to-apprentice-to-a-himalayan-master_202011/Apprenticed%20to%20a%20Himalayan%20Master_Sri%20M.%20%20%2831-M.B%29_djvu.txt). Locators: passages “Neelkant”, “Panar”, “Kedarnath”, “Jaisalmer”, “Panchkuli/Pandukhali”.
+- **P3** — Kriya Yoga International, officiële lineagebiografie van Hariharananda en herdenkingsbericht; [biografie](https://www.kriya.org/guru/paramahamsa-hariharananda/en), alinea’s 1949/Ranikhet; [“The Vision of the Great Master”](https://www.kriya.org/page/announcement/en), openingsalinea.
+- **P4** — Babaji’s Kriya Yoga Order of Acharyas, officiële lineagepagina’s; [“Who is Mahavatar Babaji?”](https://www.babajiskriyayoga.net/english/about-babaji.htm), secties “Kriya Babaji Reveals Himself” en “Other Techniques”; [Ramaiah-biografie](https://www.babajiskriyayoga.net/english/articles/art25-yogi-ssa-ramaiah.htm), alinea’s over Egmore en Santopanth Tal; [FAQ](https://www.babajiskriyayoga.net/english/kriya-yoga-faq.htm), vraag over fysieke verschijningen.
+- **P5** — The Satsang Foundation/Sri M, officiële publicatiecontext; [Satsang Foundation](https://satsang-foundation.org/). P2 bevat de feitelijke memoirepassages.
+- **P6** — Haidakhandi Samaj, officiële devotional history; [homepage](https://haidakhandisamaj.in/), openingsbiografie van de verschijning in 1970.
+
+### Secundair / locator-versterkend
+
+- **S1** — Yogoda Satsanga Society of India (YSS), [Mahavatar Babaji](https://yssofindia.org/about/mahavatar-babaji) en [Dwarahat/Pandukholi-grot](https://yssofindia.org/location/dwarahat).
+- **S2** — Daya Mata, [“A Blessing From Mahavatar Babaji”](https://yssofindia.org/about/a-blessing-from-mahavatar-babaji), YSS-publicatie van haar pelgrimsverslag.
+- **S3
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=75 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/BABAJI_PRE_COMPARE_FREEZE.md blob_sha=99b8ddef8f47b7ee0f05691a01322f51bd982c96 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=10 classification=text
+** — YSS, [4 Garpar Road](https://yssofindia.org/programmes/planting-seeds-of-kriya-yoga-worldwide) en [Rai Ghat-banyan](https://yssofindia.org/location/dakshineswar).
+- **S4** — Kriya Yoga Centre Europe, [Mahavatar Babaji Maharaj](https://www.kriya.eu/lineage/mahavatar-babaji-maharaj/).
+- **S5** — Lahiri Kriya Yoga, [Satyalok-adres](https://www.lahirikriyayoga.com/) (`D 22/3, Chousatti Ghat, Varanasi`).
+- **S6** — Kataragama research site, [Neelakantan-locatie](https://kataragama.org/news/babaji.htm), passage met `No. 9, Surammal Lane, Egmore`.
+- **S7** — Haidakhan Ashram, [About Babaji](https://www.babajiashram.org/babaji.html), verschijning bij de grot tegenover Haidakhan.
+- **S8** — Kritische/oriënterende secundaire context: [Mahavatar Babaji](https://en.wikipedia.org/wiki/Mahavatar_Babaji) en [Haidakhan Babaji](https://en.wikipedia.org/wiki/Haidakhan_Babaji). Deze bronnen maken zichtbaar dat de biografie legendarisch is en de Haidakhan-identificatie betwist wordt.
+- **S9** — Reprint van hoofdstuk 36, [“Babaji’s Interest in the West”](https://anandaindia.org/paramhansa-yogananda/autobiography-of-a-yogi/babajis-interest-in-the-west/), voor de Lahiri-huispassage.
+
+## Genormaliseerde masterlocaties
+
+### B01 — Drongiri/Dunagiri: grot en rotsrichel bij Pandukholi
+
+- **Stad/deelstaat:** Kukuchina–Dwarahat/Ranikhet-regio, Almora, Uttarakhand.
+- **Type:** grot, rotsrichel, bergkamp.
+- **Actie + periode:** Lahiri Mahasaya zegt dat Babaji hem in het najaar van **1861** op een richel aansprak, in een grot voorwerpen uit Lahiri’s vorige leven aanwees, hem initieerde en circa tien dagen in het kamp hield.
+- **PERSONALLY_PRESENT:** JA. **PHYSICAL_IDENTITY:** DEELS.
+- **Host/netwerk:** Lahiri Mahasaya; Babaji’s kleine groep.
+- **Primair/semi-primair + locator:** P1, hfdst. 34, vanaf Lahiri’s klim op Drongiri tot zijn vertrek; P1-fotobijschrift in hfdst. 33 noemt “one of the caves occupied by Babaji in Drongiri Mountains near Ranikhet”.
+- **Secundair:** S1 identificeert tegenwoordig een grot op Pandukholi Mountain voorbij Kukuchina als de initiatieplek.
+- **Historisch/huidig + onzekerheid:** berg/grot bestaan; de keten van de tekst uit 1946 naar de huidige aangewezen grot is retrospectief. Daarom niet `EXACT`.
+
+### B02 — Oever van de Gogash-rivier
+
+- **Stad/deelstaat:** Drongiri-regio bij Ranikhet/Dwarahat, Uttarakhand.
+- **Type:** rivierbank, rituele sublocatie.
+- **Actie + periode:** Babaji liet Lahiri in 1861 olie drinken en beval hem aan de oever van de Gogash te gaan liggen; na de bergstroom keerde Lahiri terug en werd gevoed.
+- **PERSONALLY_PRESENT:** JA. **PHYSICAL_IDENTITY:** DEELS.
+- **Host/netwerk:** Lahiri Mahasaya; Babaji’s leerling die voedsel bracht.
+- **Primair/semi-primair + locator:** P1, hfdst. 34, passage “Go lie down by the Gogash River”.
+- **Secundair:** S1 voor de bredere Pandukholi/Dwarahat-context.
+- **Historisch/huidig + onzekerheid:** de riviernaam en bergcontext zijn gegeven, maar geen exacte oeversectie; moderne spelling/identificatie varieert.
+
+### B03 — Tijdelijk paleis / kale grond nabij de Drongiri-grotten
+
+- **Stad/deelstaat:** Drongiri-regio bij Ranikhet/Dwarahat, Uttarakhand.
+- **Type:** gematerialiseerd paleis, tuin en daarna kale grond.
+- **Actie + periode:** volgens Lahiri materialiseerde Babaji in 1861 een gouden paleis voor de initiatie; de volgende ochtend was het verdwenen en bleef kale grond nabij de rotsgrotten over.
+- **PERSONALLY_PRESENT:** JA. **PHYSICAL_IDENTITY:** DEELS.
+- **Host/netwerk:** Lahiri Mahasaya; Babaji en discipelen.
+- **Primair/semi-primair + locator:** P1, hfdst. 34, paleis-, tuin-, initiatie- en verdwijnpassages.
+- **Secundair:** S1 lokaliseert alleen het bredere grotgebied.
+- **Historisch/huidig + onzekerheid:** bovennatuurlijke claim; de tekst onderscheidt de plek van de grot maar biedt geen blijvend object of coördinaten.
+
+### B04 — Naamloos Himalayakamp met vuur en afgrond
+
+- **Stad/deelstaat:** Himalaya, deelstaat onbekend.
+- **Type:** tijdelijk bergkamp, vuurplaats, richel/afgrond.
+- **Actie + periode:** Kebalananda 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=76 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/BABAJI_PRE_COMPARE_FREEZE.md blob_sha=99b8ddef8f47b7ee0f05691a01322f51bd982c96 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=10 classification=text
+vertelde dat Babaji’s groep van kamp naar kamp trok; op één naamloze berg sloeg Babaji een chela met een brandend houtblok. In een ander of hetzelfde naamloze kamp sprong een zoeker van een richel en werd volgens het verhaal hersteld.
+- **PERSONALLY_PRESENT:** JA. **PHYSICAL_IDENTITY:** ONBEKEND.
+- **Host/netwerk:** Swami Kebalananda als verteller; Babaji’s rondtrekkende groep.
+- **Primair/semi-primair + locator:** P1, hfdst. 33, passages na “Dera danda uthao”.
+- **Secundair:** S1 herpubliceert deze drie Kebalananda/Ram Gopal-verhalen.
+- **Historisch/huidig + onzekerheid:** de bron noemt geen berg, district of deelstaat; de twee incidenten kunnen verschillende kampen zijn, maar zijn niet ruimtelijk te scheiden.
+
+### B05 — Naamloze grot nabij Badrinarayan/Badrinath (Keshabananda)
+
+- **Stad/deelstaat:** Badrinath-regio, Chamoli, Uttarakhand.
+- **Type:** ruime berggrot met vuur.
+- **Actie + periode:** Swami Keshabananda vertelde Yogananda in 1936 dat hij “vorig jaar” verdwaalde nabij Badrinarayan, een grot binnenging en Babaji daar lichamelijk aantrof; Babaji gaf een boodschap voor Yogananda.
+- **PERSONALLY_PRESENT:** JA. **PHYSICAL_IDENTITY:** ALLEEN_PLAATS.
+- **Host/netwerk:** Keshabananda; boodschap aan Yogananda.
+- **Primair/semi-primair + locator:** P1, hfdst. 42, Keshabananda’s verslag van zijn bezoek “last year”.
+- **Secundair:** S8 vat dezelfde claim samen.
+- **Historisch/huidig + onzekerheid:** alleen de regio “near Badrinarayan” is gegeven; niet gelijkgesteld aan B01 of B29.
+
+### B06 — Dashashwamedh Ghat: stenen plaat en ondergrondse grot van Mataji
+
+- **Stad/deelstaat:** Varanasi, Uttar Pradesh.
+- **Type:** bad-ghat, ondergrondse grot.
+- **Actie + periode:** Ram Gopal verklaarde dat Lahiri hem ’s nachts naar Dashashwamedh Ghat stuurde; een stenen plaat opende, Mataji verscheen, daarna materialiseerden Lahiri en Babaji. Babaji beloofde zijn lichaam te behouden.
+- **PERSONALLY_PRESENT:** JA. **PHYSICAL_IDENTITY:** DEELS.
+- **Host/netwerk:** Ram Gopal Muzumdar; Mataji; Lahiri Mahasaya.
+- **Primair/semi-primair + locator:** P1, hfdst. 33, slotverhaal; voetnoot noemt de verborgen grot nabij de ghat.
+- **Secundair:** S8; ook de huidige ghat is publiek traceerbaar.
+- **Historisch/huidig + onzekerheid:** de ghat is exact, maar de stenen plaat/ondergrondse grot is niet publiek traceerbaar.
+
+### B07 — Privéhuis van een Bengaalse familie in Moradabad
+
+- **Stad/deelstaat:** Moradabad, Uttar Pradesh.
+- **Type:** privéwoning, donkere kamer.
+- **Actie + periode:** kort na 1861 demonstreerde Lahiri volgens zijn eigen verhaal aan vrienden dat Babaji zou komen; in een afgesloten donkere kamer materialiseerde Babaji, liet zich aanraken en at halua.
+- **PERSONALLY_PRESENT:** JA. **PHYSICAL_IDENTITY:** ALLEEN_PLAATS.
+- **Host/netwerk:** naamloze Bengaalse familie; Lahiri; zes vrienden.
+- **Primair/semi-primair + locator:** P1, hfdst. 34, passage na Lahiri’s vertrek uit Ranikhet.
+- **Secundair:** geen onafhankelijke locator gevonden.
+- **Historisch/huidig + onzekerheid:** straat, familie en huis zijn niet genoemd; aanwezigheid berust geheel op Lahiri’s navertelling.
+
+### B08 — Kumbha Mela-terrein Allahabad, onbepaalde subplek
+
+- **Stad/deelstaat:** Prayagraj (toen Allahabad), Uttar Pradesh.
+- **Type:** mela-/pelgrimsterrein.
+- **Actie + periode:** Lahiri vertelde Babaji op een Kumbha Mela te hebben gezien terwijl hij de voeten van een anchoriet waste en diens kookgerei schoonmaakte.
+- **PERSONALLY_PRESENT:** JA. **PHYSICAL_IDENTITY:** ALLEEN_PLAATS.
+- **Host/netwerk:** Lahiri Mahasaya; naamloze anchoriet.
+- **Primair/semi-primair + locator:** P1, hfdst. 33, passage over Babaji’s nederigheid op de Kumbha Mela.
+- **Secundair:** S1.
+- **Historisch/huidig + onzekerheid:** datum en subplek ontbreken; niet samengevoegd met de afzonderlijk beschreven ontmoeting van 1894.
+
+### B09 — Kumbha Mela 1894: boom bij een brug aan de Ganges
+
+- **Stad/deelstaat:** Prayagraj (toen Allahabad), Uttar Pradesh.
+- **Type:** rivieroever, brugomgeving, boom/kamp.
+- **Actie + periode:** Sri Yukteswar beschreef zijn on
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=77 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/BABAJI_PRE_COMPARE_FREEZE.md blob_sha=99b8ddef8f47b7ee0f05691a01322f51bd982c96 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=10 classification=text
+tmoeting met Babaji in januari 1894: eerst bij een brug, daarna onder een nabijgelegen boom; Babaji gaf hem de opdracht *The Holy Science* te schrijven.
+- **PERSONALLY_PRESENT:** JA. **PHYSICAL_IDENTITY:** DEELS.
+- **Host/netwerk:** Sri Yukteswar; Babaji’s groep.
+- **Primair/semi-primair + locator:** P1, hfdst. 36, begin van Yukteswars Kumbha-verhaal.
+- **Secundair:** S4.
+- **Historisch/huidig + onzekerheid:** brug en boom worden niet benoemd; mela-geografie en rivierloop zijn veranderd.
+
+### B10 — Rai Ghat-banyan aan de Ganges
+
+- **Stad/deelstaat:** Serampore/Srirampur, West Bengal.
+- **Type:** ghat, specifieke banyanboom.
+- **Actie + periode:** na voltooiing van *The Holy Science* zag Sri Yukteswar Babaji en zijn groep onder de grote banyan aan Rai Ghat; Babaji wees een uitnodiging naar Yukteswars nabijgelegen woning af.
+- **PERSONALLY_PRESENT:** JA. **PHYSICAL_IDENTITY:** EXACT.
+- **Host/netwerk:** Sri Yukteswar; Babaji’s discipelen.
+- **Primair/semi-primair + locator:** P1, hfdst. 36, passage “Rai Ghat”; S3 wijst dezelfde nog bestaande grote banyan aan.
+- **Secundair:** S4.
+- **Historisch/huidig + onzekerheid:** huidige lineage-identificatie is specifiek; onafhankelijke historische verificatie van de verschijning ontbreekt.
+
+### B11 — Lahiri Mahasaya’s huis: parlor en drempel
+
+- **Stad/deelstaat:** Varanasi, Uttar Pradesh.
+- **Type:** privéwoning/familieschrijn, kleine ontvangkamer en drempel.
+- **Actie + periode:** enkele maanden na Rai Ghat zag Sri Yukteswar Babaji bij de drempel/receiving room nadat Lahiri hem aanraakte. Een afzonderlijke lineage-overlevering plaatst ook Pranabananda’s gesprek met Babaji in Lahiri’s huis.
+- **PERSONALLY_PRESENT:** JA. **PHYSICAL_IDENTITY:** EXACT.
+- **Host/netwerk:** Lahiri Mahasaya; Sri Yukteswar; volgens latere traditie Swami Pranabananda.
+- **Primair/semi-primair + locator:** P1, hfdst. 36, “little parlor” en threshold; S9.
+- **Secundair:** S5 en S8 voor het bewaarde familieadres/Pranabananda-overlevering.
+- **Historisch/huidig + onzekerheid:** het huis is traceerbaar; niet bewezen dat de huidige publiekskamer exact dezelfde interieurconfiguratie heeft.
+
+### B12 — Privékamer in Barrackpore
+
+- **Stad/deelstaat:** Barrackpore, West Bengal.
+- **Type:** privéwoning/kamer.
+- **Actie + periode:** Shankari Mai Jiew vertelde dat zij naast Lahiri zat toen Babaji stil de kamer binnenkwam en met Lahiri sprak.
+- **PERSONALLY_PRESENT:** JA. **PHYSICAL_IDENTITY:** ALLEEN_PLAATS.
+- **Host/netwerk:** Lahiri Mahasaya; Shankari Mai Jiew.
+- **Primair/semi-primair + locator:** P1, hfdst. 31, passage “Barackpur section near Calcutta”.
+- **Secundair:** geen betrouwbare adresidentificatie gevonden.
+- **Historisch/huidig + onzekerheid:** datum, bewoner en straat ontbreken.
+
+### B13 — 4 Garpar Road: Yogananda’s kamer/vestibule
+
+- **Stad/deelstaat:** Kolkata (toen Calcutta), West Bengal.
+- **Type:** familiehuis, kamer en vestibule.
+- **Actie + periode:** op **25 juli 1920** verscheen Babaji volgens Yogananda in zijn kamer, bevestigde zijn missie naar Amerika en vertrok via de vestibule.
+- **PERSONALLY_PRESENT:** JA. **PHYSICAL_IDENTITY:** EXACT.
+- **Host/netwerk:** Paramahansa Yogananda; familie Ghosh.
+- **Primair/semi-primair + locator:** P1, hfdst. 37, openingsscène vóór de Amerikaanse reis.
+- **Secundair:** S3 noemt expliciet 4 Garpar Road; YSS herdenkt het gebeuren in hetzelfde huis.
+- **Historisch/huidig + onzekerheid:** huis en bovenkamer zijn traceerbaar; claim blijft Yogananda’s eigen religieuze getuigenis.
+
+### B14 — Karar Ashram: eerste gesloten kamer
+
+- **Stad/deelstaat:** Puri, Odisha.
+- **Type:** ashram, gesloten kamer.
+- **Actie + periode:** in **1949** zag Brahmachari Rabinarayan/Hariharananda tijdens meditatie Babaji in zijn afgesloten kamer; Babaji raakte zijn ogen aan en verdween.
+- **PERSONALLY_PRESENT:** JA. **PHYSICAL_IDENTITY:** DEELS.
+- **Host/netwerk:** Paramahamsa Hariharananda; Karar Ashram.
+- **Primair/semi-primair + locator:** P3, biografie en herdenkingsbericht; de officiële bron bevestigt twee bezoeken/een gesloten meditation room.
+<<< END CHUNK >>>
+

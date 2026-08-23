@@ -1,0 +1,405 @@
+>>> CHUNK stream_row=1400 path=research/active/KUMAON-COMPLETE-001/GOUD/candidates.jsonl,research/active/KUMAON-COMPLETE-001/ZILVER/candidates.jsonl blob_sha=28ec04c9cea0a0b5cc07757909a76b93b6ea402e original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+{"candidate_id":"KUM-CAND-001","location_id":"308","name":"Lal Kuan Junction railway station","cluster":"FOOTHILLS","type":"STATION","formal_status":null,"layer":"STATIONS_EN_ROUTEKNOOPPUNTEN","identity":"ESTABLISHED","source_ids":["ZKS-028"]}
+{"candidate_id":"KUM-CAND-002","location_id":"309","name":"Haldwani railway station","cluster":"FOOTHILLS","type":"STATION","formal_status":null,"layer":"STATIONS_EN_ROUTEKNOOPPUNTEN","identity":"ESTABLISHED","source_ids":["ZKS-028"]}
+{"candidate_id":"KUM-CAND-003","location_id":"310","name":"Kathgodam railway station","cluster":"FOOTHILLS","type":"STATION","formal_status":null,"layer":"STATIONS_EN_ROUTEKNOOPPUNTEN","identity":"ESTABLISHED","source_ids":["ZKS-028","ZKS-029"]}
+{"candidate_id":"KUM-CAND-004","location_id":"400","name":"Babaji Cave","cluster":"DWARAHAT_DUNAGIRI","type":"SPIRITUAL","formal_status":"A","layer":"A_FORMEEL","identity":"ESTABLISHED","source_ids":["ZKS-004","ZKS-006"]}
+{"candidate_id":"KUM-CAND-005","location_id":"401","name":"Babaji Smriti Bhavan","cluster":"DWARAHAT_DUNAGIRI","type":"SPIRITUAL","formal_status":"A","layer":"A_FORMEEL","identity":"ESTABLISHED","source_ids":["ZKS-004","ZKS-006"]}
+{"candidate_id":"KUM-CAND-006","location_id":"402","name":"Dunagiri Temple","cluster":"DWARAHAT_DUNAGIRI","type":"SPIRITUAL","formal_status":"A","layer":"A_FORMEEL","identity":"ESTABLISHED","source_ids":["ZKS-004"]}
+{"candidate_id":"KUM-CAND-007","location_id":"403","name":"YSS Dwarahat Ashram","cluster":"DWARAHAT_DUNAGIRI","type":"SPIRITUAL","formal_status":"A","layer":"A_FORMEEL","identity":"ESTABLISHED","source_ids":["ZKS-004","ZKS-005"]}
+{"candidate_id":"KUM-CAND-008","location_id":"404","name":"Kainchi Dham","cluster":"KAINCHI_NAINITAL","type":"SPIRITUAL","formal_status":"A","layer":"A_FORMEEL","identity":"ESTABLISHED","source_ids":["ZKS-007","ZKS-008"]}
+{"candidate_id":"KUM-CAND-009","location_id":"405","name":"Kasar Devi Temple","cluster":"ALMORA_KASAR","type":"SPIRITUAL","formal_status":"A","layer":"A_FORMEEL","identity":"ESTABLISHED","source_ids":["ZKS-009","ZKS-033"]}
+{"candidate_id":"KUM-CAND-010","location_id":"406","name":"Crank's Ridge","cluster":"ALMORA_KASAR","type":"SPIRITUAL_LANDSCAPE","formal_status":"A","layer":"A_FORMEEL","identity":"ESTABLISHED","source_ids":["ZKS-009"]}
+{"candidate_id":"KUM-CAND-011","location_id":"407","name":"Kakrighat / Karkateshwar Mahadev","cluster":"ALMORA_KAKRIGHAT","type":"SPIRITUAL","formal_status":"A","layer":"A_FORMEEL","identity":"ESTABLISHED","source_ids":["ZKS-008","ZKS-013"]}
+{"candidate_id":"KUM-CAND-012","location_id":"408","name":"Jageshwar temple complex","cluster":"JAGESHWAR","type":"SPIRITUAL","formal_status":"A","layer":"A_FORMEEL","identity":"ESTABLISHED","source_ids":["ZKS-010"]}
+{"candidate_id":"KUM-CAND-013","location_id":"409","name":"Hanuman Garhi, Nainital","cluster":"KAINCHI_NAINITAL","type":"SPIRITUAL","formal_status":"A","layer":"A_FORMEEL","identity":"ESTABLISHED","source_ids":["ZKS-008"]}
+{"candidate_id":"KUM-CAND-014","location_id":"410","name":"Hotel Evelyn, Nainital","cluster":"KAINCHI_NAINITAL","type":"LODGING_CONTEXT","formal_status":null,"layer":"NOG_DOOR_MARK_TE_BEOORDELEN","identity":"ESTABLISHED","source_ids":["ZKR-005"]}
+{"candidate_id":"KUM-CAND-015","location_id":"411","name":"K. K. Sah house, Nainital","cluster":"KAINCHI_NAINITAL","type":"PRIVATE_HISTORIC_SITE","formal_status":null,"layer":"NOG_DOOR_MARK_TE_BEOORDELEN","identity":"PARTIAL","source_ids":["ZKS-012","ZKR-001"]}
+{"candidate_id":"KUM-CAND-016","location_id":"412","name":"Bhumiyadhar temple grounds","cluster":"KAINCHI_NAINITAL","type":"SPIRITUAL_HISTORIC_SITE","formal_status":"A","layer":"A_FORMEEL","identity":"ESTABLISHED","source_ids":["ZKS-002","ZKS-008"]}
+{"candidate_id":"KUM-CAND-017","location_id":"413","name":"Ramakrishna Kutir, Almora","cluster":"ALMORA_KASAR","type":"SPIRITUAL","formal_status":"A","layer":"A_FORMEEL","identity":"ESTABLISHED","source_ids":["ZKS-013","ZKS-015"]}
+{"candidate_id":"KUM-CAND-018","location_id":"414","name":"Chitai Golu Devta Temple","cluster":"ALMORA_KASAR","type":"SPIRITUAL","formal
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1401 path=research/active/KUMAON-COMPLETE-001/GOUD/candidates.jsonl,research/active/KUMAON-COMPLETE-001/ZILVER/candidates.jsonl blob_sha=28ec04c9cea0a0b5cc07757909a76b93b6ea402e original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+_status":"A","layer":"A_FORMEEL","identity":"ESTABLISHED","source_ids":["ZKS-030"]}
+{"candidate_id":"KUM-CAND-019","location_id":"415","name":"Mirtola / Uttar Vrindavan Ashram","cluster":"ALMORA_OUTER","type":"SPIRITUAL","formal_status":"C","layer":"C_FORMEEL","identity":"ESTABLISHED","source_ids":["ZKS-001","ZKS-035"]}
+{"candidate_id":"KUM-CAND-020","location_id":"416","name":"Binsar Wildlife Sanctuary","cluster":"ALMORA_OUTER","type":"LANDSCAPE","formal_status":"C","layer":"C_FORMEEL","identity":"ESTABLISHED","source_ids":["ZKS-001","ZKS-034"]}
+{"candidate_id":"KUM-CAND-021","location_id":"417","name":"Patal Bhuvaneshwar","cluster":"OUTER_KUMAON","type":"SPIRITUAL","formal_status":"C","layer":"C_FORMEEL","identity":"ESTABLISHED","source_ids":["ZKS-001","ZKS-037"]}
+{"candidate_id":"KUM-CAND-022","location_id":"418","name":"Naina Devi Temple, Nainital","cluster":"KAINCHI_NAINITAL","type":"SPIRITUAL","formal_status":null,"layer":"NOG_DOOR_MARK_TE_BEOORDELEN","identity":"ESTABLISHED","source_ids":["ZKS-038"]}
+{"candidate_id":"KUM-CAND-023","location_id":"419","name":"Lala Badri Shah House, Almora","cluster":"ALMORA_VIVEKANANDA","type":"HISTORIC_SITE","formal_status":null,"layer":"NOG_DOOR_MARK_TE_BEOORDELEN","identity":"ESTABLISHED","source_ids":["ZKS-013","ZKS-014"]}
+{"candidate_id":"KUM-CAND-024","location_id":"420","name":"Turiya Niwas, Crank's Ridge","cluster":"ALMORA_KASAR","type":"HISTORIC_RETREAT","formal_status":"A","layer":"A_FORMEEL","identity":"ESTABLISHED","source_ids":["ZKS-001","ZKS-026","ZKR-006"]}
+{"candidate_id":"KUM-CAND-025","location_id":"421","name":"Bodh Ashram, Kasar Devi area","cluster":"ALMORA_KASAR","type":"SPIRITUAL_RETREAT","formal_status":"A","layer":"A_FORMEEL","identity":"PARTIAL","source_ids":["ZKS-001","ZKR-004"]}
+{"candidate_id":"KUM-CAND-026","location_id":"422","name":"Anandamayi Ma Ashram, Dhaulchina","cluster":"ALMORA_OUTER","type":"SPIRITUAL","formal_status":"C","layer":"C_FORMEEL","identity":"ESTABLISHED","source_ids":["ZKS-001","ZKS-016","ZKS-017"]}
+{"candidate_id":"KUM-CAND-027","location_id":"423","name":"Haidakhan Vishwa Mahadham","cluster":"HAIDAKHAN","type":"SPIRITUAL","formal_status":"A","layer":"A_FORMEEL","identity":"ESTABLISHED","source_ids":["ZKS-001","ZKS-019","ZKS-020"]}
+{"candidate_id":"KUM-CAND-028","location_id":"424","name":"Ghorakhal Golu Devta Temple","cluster":"KAINCHI_NAINITAL","type":"SPIRITUAL","formal_status":"B","layer":"B_FORMEEL","identity":"ESTABLISHED","source_ids":["ZKS-001","ZKS-011"]}
+{"candidate_id":"KUM-CAND-029","location_id":"425","name":"Anandamayi Ma Ashram / Patal Devi","cluster":"ALMORA_KASAR","type":"SPIRITUAL","formal_status":null,"layer":"NOG_DOOR_MARK_TE_BEOORDELEN","identity":"ESTABLISHED","source_ids":["ZKS-016","ZKS-018"]}
+{"candidate_id":"KUM-CAND-030","location_id":"426","name":"Vivekananda meditation cave near Kasar Devi","cluster":"ALMORA_KASAR","type":"HISTORIC_SPIRITUAL_SITE","formal_status":null,"layer":"NOG_DOOR_MARK_TE_BEOORDELEN","identity":"PARTIAL","source_ids":["ZKS-009","ZKR-003"]}
+{"candidate_id":"KUM-CAND-031","location_id":"427","name":"Bhowali practical base area","cluster":"BASE_COMPARISON","type":"BASE","formal_status":null,"layer":"MOGELIJKE_BASES_EN_OVERNACHTING","identity":"ESTABLISHED","source_ids":["ZKS-027"]}
+{"candidate_id":"KUM-CAND-032","location_id":"428","name":"Nainital practical base area","cluster":"BASE_COMPARISON","type":"BASE","formal_status":null,"layer":"MOGELIJKE_BASES_EN_OVERNACHTING","identity":"ESTABLISHED","source_ids":["ZKS-028","ZKS-038"]}
+{"candidate_id":"KUM-CAND-033","location_id":"429","name":"Kainchi practical base area","cluster":"BASE_COMPARISON","type":"BASE","formal_status":null,"layer":"MOGELIJKE_BASES_EN_OVERNACHTING","identity":"ESTABLISHED","source_ids":["ZKS-007"]}
+{"candidate_id":"KUM-CAND-034","location_id":"430","name":"Kathgodam practical base area","cluster":"BASE_COMPARISON","type":"BASE","formal_status":null,"layer":"MOGELIJKE_BASES_EN_OVERNACHTING","identity":"ESTABLISHED","source_ids":["ZKS-028"]}
+{"candidate_id":"KUM-CAND-035","location_id":"431","name":"Haldwani pract
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1402 path=research/active/KUMAON-COMPLETE-001/GOUD/candidates.jsonl,research/active/KUMAON-COMPLETE-001/ZILVER/candidates.jsonl blob_sha=28ec04c9cea0a0b5cc07757909a76b93b6ea402e original_offset=8192 original_length=3397 payload_bytes=3397 chunk_index=2 chunk_count=3 classification=text
+ical base area","cluster":"BASE_COMPARISON","type":"BASE","formal_status":null,"layer":"MOGELIJKE_BASES_EN_OVERNACHTING","identity":"ESTABLISHED","source_ids":["ZKS-028"]}
+{"candidate_id":"KUM-CAND-036","location_id":"432","name":"Advaita Ashrama, Mayavati","cluster":"OUTER_KUMAON_MAYAVATI","type":"SPIRITUAL","formal_status":null,"layer":"NOG_DOOR_MARK_TE_BEOORDELEN","identity":"ESTABLISHED","source_ids":["ZKS-021","ZKS-022","ZKS-023","ZKS-031"]}
+{"candidate_id":"KUM-CAND-037","location_id":"433","name":"Vivekananda Ashrama, Shyamla Tal","cluster":"OUTER_KUMAON_SHYAMLA_TAL","type":"SPIRITUAL","formal_status":null,"layer":"NOG_DOOR_MARK_TE_BEOORDELEN","identity":"ESTABLISHED","source_ids":["ZKS-024","ZKS-025","ZKS-032"]}
+{"candidate_id":"KUM-CAND-038","location_id":"434","name":"Anandapuri Ashram, Chiliyanaula","cluster":"RANIKHET_CHILIYANAULA","type":"SPIRITUAL","formal_status":null,"layer":"NOG_DOOR_MARK_TE_BEOORDELEN","identity":"ESTABLISHED","source_ids":["ZKS-019","ZKS-020"]}
+{"candidate_id":"KUM-CAND-039","location_id":"435","name":"Kukuchina / Babaji Cave trail approach","cluster":"DWARAHAT_DUNAGIRI","type":"ROUTE_NODE","formal_status":null,"layer":"STATIONS_EN_ROUTEKNOOPPUNTEN","identity":"ESTABLISHED","source_ids":["ZKS-004"]}
+{"candidate_id":"KUM-CAND-040","location_id":"436","name":"Dwarahat practical base area","cluster":"BASE_COMPARISON","type":"BASE","formal_status":null,"layer":"MOGELIJKE_BASES_EN_OVERNACHTING","identity":"ESTABLISHED","source_ids":["ZKS-004"]}
+{"candidate_id":"KUM-CAND-041","location_id":"437","name":"Almora practical base area","cluster":"BASE_COMPARISON","type":"BASE","formal_status":null,"layer":"MOGELIJKE_BASES_EN_OVERNACHTING","identity":"ESTABLISHED","source_ids":["ZKS-013","ZKS-030"]}
+{"candidate_id":"KUM-CAND-042","location_id":"438","name":"Kasar Devi practical base area","cluster":"BASE_COMPARISON","type":"BASE","formal_status":null,"layer":"MOGELIJKE_BASES_EN_OVERNACHTING","identity":"ESTABLISHED","source_ids":["ZKS-009"]}
+{"candidate_id":"KUM-CAND-043","location_id":"439","name":"Ranikhet / Chiliyanaula practical base area","cluster":"BASE_COMPARISON","type":"BASE","formal_status":null,"layer":"MOGELIJKE_BASES_EN_OVERNACHTING","identity":"ESTABLISHED","source_ids":["ZKS-019"]}
+{"candidate_id":"KUM-CAND-044","location_id":"440","name":"Vivekananda Rest House / Vivekananda Shila, Karbala","cluster":"ALMORA_VIVEKANANDA","type":"HISTORIC_SITE","formal_status":null,"layer":"NOG_DOOR_MARK_TE_BEOORDELEN","identity":"ESTABLISHED","source_ids":["ZKS-013","ZKS-014"]}
+{"candidate_id":"KUM-CAND-045","location_id":"441","name":"Thompson House / ITI, Almora","cluster":"ALMORA_VIVEKANANDA","type":"HISTORIC_SITE","formal_status":null,"layer":"NOG_DOOR_MARK_TE_BEOORDELEN","identity":"ESTABLISHED","source_ids":["ZKS-013","ZKS-014"]}
+{"candidate_id":"KUM-CAND-046","location_id":"442","name":"Sri Raghunath Temple reception site, Almora","cluster":"ALMORA_VIVEKANANDA","type":"HISTORIC_SPIRITUAL_SITE","formal_status":null,"layer":"NOG_DOOR_MARK_TE_BEOORDELEN","identity":"ESTABLISHED","source_ids":["ZKS-013","ZKS-014"]}
+{"candidate_id":"KUM-CAND-047","location_id":"443","name":"Bright End Corner / Vivekananda Corner, Almora","cluster":"ALMORA_VIVEKANANDA","type":"HISTORIC_ROUTE_CONTEXT","formal_status":null,"layer":"CONTEXT_OF_AFGEVALLEN","identity":"ESTABLISHED","source_ids":["ZKS-013","ZKS-030"]}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1403 path=research/active/KUMAON-COMPLETE-001/GOUD/claims.jsonl,research/active/KUMAON-COMPLETE-001/ZILVER/claims.jsonl blob_sha=910f2807247c5547bcf1fc9fc063217a0adb8e2b original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=5 classification=text
+{"claim_id":"ZKC-001","candidate_id":"KUM-CAND-001","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 308.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZKS-028"]}
+{"claim_id":"ZKC-002","candidate_id":"KUM-CAND-002","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 309.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZKS-028"]}
+{"claim_id":"ZKC-003","candidate_id":"KUM-CAND-003","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 310.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZKS-028","ZKS-029"]}
+{"claim_id":"ZKC-004","candidate_id":"KUM-CAND-004","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 400.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-004","ZKS-006"]}
+{"claim_id":"ZKC-005","candidate_id":"KUM-CAND-005","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 401.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-004","ZKS-006"]}
+{"claim_id":"ZKC-006","candidate_id":"KUM-CAND-006","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 402.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-004"]}
+{"claim_id":"ZKC-007","candidate_id":"KUM-CAND-007","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 403.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-004","ZKS-005"]}
+{"claim_id":"ZKC-008","candidate_id":"KUM-CAND-008","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 404.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-007","ZKS-008"]}
+{"claim_id":"ZKC-009","candidate_id":"KUM-CAND-009","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 405.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZKS-009","ZKS-033"]}
+{"claim_id":"ZKC-010","candidate_id":"KUM-CAND-010","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 406.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZKS-009"]}
+{"claim_id":"ZKC-011","candidate_id":"KUM-CAND-011","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 407.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-008","ZKS-013"]}
+{"claim_id":"ZKC-012","candidate_id":"KUM-CAND-012","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 408.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZKS-010"]}
+{"claim_id":"ZKC-013","candidate_id":"KUM-CAND-013","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 409.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-008"]}
+{"claim_id":"ZKC-014","candidate_id":"KUM-CAND-014","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 410.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZKR-005"]}
+{"claim_id":"ZKC-015","candidate_id":"KUM-CAND-015","claim_type":"PHYSICAL_IDENTITY","claim_text":"KK Sah home relation retained; exact address/access not established.","evidence_status":"NOT_ESTABLISHED","source_ids":["ZKS-012","ZKR-001"]}
+{"claim_id":"ZKC-016","candidate_id":"KUM-CAND-016","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 412.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-002","ZKS-008"]}
+{"claim_id":"ZKC-017","candidate_id":"KUM-CAND-017","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 413.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-013","ZKS-015"]}
+{"claim_id":"ZKC-018","candidate_id":"KUM-CAND-018","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 414.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZKS-030"]}
+{"claim_id":"ZKC-019","candidate_id":"KUM-CAND-019","claim_type":"PHYSICAL_IDENTITY","clai
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1404 path=research/active/KUMAON-COMPLETE-001/GOUD/claims.jsonl,research/active/KUMAON-COMPLETE-001/ZILVER/claims.jsonl blob_sha=910f2807247c5547bcf1fc9fc063217a0adb8e2b original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=5 classification=text
+m_text":"Physical identity retained at LOCATION_ID 415.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZKS-001","ZKS-035"]}
+{"claim_id":"ZKC-020","candidate_id":"KUM-CAND-020","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 416.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZKS-001","ZKS-034"]}
+{"claim_id":"ZKC-021","candidate_id":"KUM-CAND-021","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 417.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZKS-001","ZKS-037"]}
+{"claim_id":"ZKC-022","candidate_id":"KUM-CAND-022","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 418.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZKS-038"]}
+{"claim_id":"ZKC-023","candidate_id":"KUM-CAND-023","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 419.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-013","ZKS-014"]}
+{"claim_id":"ZKC-024","candidate_id":"KUM-CAND-024","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 420.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZKS-001","ZKS-026","ZKR-006"]}
+{"claim_id":"ZKC-025","candidate_id":"KUM-CAND-025","claim_type":"PHYSICAL_IDENTITY","claim_text":"Bodh Ashram formal A retained; identity/management/access not established.","evidence_status":"NOT_ESTABLISHED","source_ids":["ZKS-001","ZKR-004"]}
+{"claim_id":"ZKC-026","candidate_id":"KUM-CAND-026","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 422.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-001","ZKS-016","ZKS-017"]}
+{"claim_id":"ZKC-027","candidate_id":"KUM-CAND-027","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 423.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-001","ZKS-019","ZKS-020"]}
+{"claim_id":"ZKC-028","candidate_id":"KUM-CAND-028","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 424.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZKS-001","ZKS-011"]}
+{"claim_id":"ZKC-029","candidate_id":"KUM-CAND-029","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 425.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-016","ZKS-018"]}
+{"claim_id":"ZKC-030","candidate_id":"KUM-CAND-030","claim_type":"PHYSICAL_IDENTITY","claim_text":"Vivekananda cave tradition retained; exact cave/point/trail not established.","evidence_status":"NOT_ESTABLISHED","source_ids":["ZKS-009","ZKR-003"]}
+{"claim_id":"ZKC-031","candidate_id":"KUM-CAND-031","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 427.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZKS-027"]}
+{"claim_id":"ZKC-032","candidate_id":"KUM-CAND-032","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 428.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZKS-028","ZKS-038"]}
+{"claim_id":"ZKC-033","candidate_id":"KUM-CAND-033","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 429.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZKS-007"]}
+{"claim_id":"ZKC-034","candidate_id":"KUM-CAND-034","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 430.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZKS-028"]}
+{"claim_id":"ZKC-035","candidate_id":"KUM-CAND-035","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 431.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZKS-028"]}
+{"claim_id":"ZKC-036","candidate_id":"KUM-CAND-036","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 432.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-021","ZKS-022","ZKS-023","ZKS-031"]}
+{"claim_id":"ZKC-037","candidate_id":"KUM-CAND-037","claim_type":"PHYSICAL_IDENTITY","claim_
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1405 path=research/active/KUMAON-COMPLETE-001/GOUD/claims.jsonl,research/active/KUMAON-COMPLETE-001/ZILVER/claims.jsonl blob_sha=910f2807247c5547bcf1fc9fc063217a0adb8e2b original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=5 classification=text
+text":"Physical identity retained at LOCATION_ID 433.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-024","ZKS-025","ZKS-032"]}
+{"claim_id":"ZKC-038","candidate_id":"KUM-CAND-038","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 434.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-019","ZKS-020"]}
+{"claim_id":"ZKC-039","candidate_id":"KUM-CAND-039","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 435.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-004"]}
+{"claim_id":"ZKC-040","candidate_id":"KUM-CAND-040","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 436.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-004"]}
+{"claim_id":"ZKC-041","candidate_id":"KUM-CAND-041","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 437.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-013","ZKS-030"]}
+{"claim_id":"ZKC-042","candidate_id":"KUM-CAND-042","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 438.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZKS-009"]}
+{"claim_id":"ZKC-043","candidate_id":"KUM-CAND-043","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 439.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-019"]}
+{"claim_id":"ZKC-044","candidate_id":"KUM-CAND-044","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 440.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-013","ZKS-014"]}
+{"claim_id":"ZKC-045","candidate_id":"KUM-CAND-045","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 441.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-013","ZKS-014"]}
+{"claim_id":"ZKC-046","candidate_id":"KUM-CAND-046","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 442.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-013","ZKS-014"]}
+{"claim_id":"ZKC-047","candidate_id":"KUM-CAND-047","claim_type":"PHYSICAL_IDENTITY","claim_text":"Physical identity retained at LOCATION_ID 443.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-013","ZKS-030"]}
+{"claim_id":"ZKC-048","candidate_id":"KUM-CAND-004","claim_type":"LINEAGE","claim_text":"YSS confirms the Babaji Cave–Kriya pilgrimage relation.","evidence_status":"LINEAGE_CONFIRMED","source_ids":["ZKS-004","ZKS-006"],"project_confirmation":true}
+{"claim_id":"ZKC-049","candidate_id":"KUM-CAND-007","claim_type":"PARTICIPATION","claim_text":"YSS Dwarahat public meditation and restricted lesson-student stay are confirmed.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-004","ZKS-005"],"project_confirmation":true}
+{"claim_id":"ZKC-050","candidate_id":"KUM-CAND-016","claim_type":"HISTORICAL","claim_text":"Bhumiyadhar grounds, not an exact tree, carry the first-meeting relation.","evidence_status":"HISTORICALLY_DOCUMENTED","source_ids":["ZKS-002","ZKS-008"],"project_confirmation":true}
+{"claim_id":"ZKC-051","candidate_id":"KUM-CAND-015","claim_type":"LINEAGE","claim_text":"KK Sah home relation is confirmed; address and public access remain open.","evidence_status":"LINEAGE_CONFIRMED","source_ids":["ZKS-012","ZKR-001"],"project_confirmation":true}
+{"claim_id":"ZKC-052","candidate_id":"KUM-CAND-017","claim_type":"INSTITUTIONAL_IDENTITY","claim_text":"Ramakrishna Kutir is a current official Almora institution.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-013","ZKS-015"],"project_confirmation":true}
+{"claim_id":"ZKC-053","candidate_id":"KUM-CAND-023","claim_type":"HISTORICAL","claim_text":"Lala Badri Shah House is a Vivekananda stay; access is by request.","evidence_status":"LINEAGE_CONFIRMED","source_ids":["ZKS-013","ZKS-014"],"project_confirmation":true}
+{"claim_id":"ZKC-054","candidate_id":"KUM-CAND-044","claim_type":"HISTORICAL","claim_text"
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1406 path=research/active/KUMAON-COMPLETE-001/GOUD/claims.jsonl,research/active/KUMAON-COMPLETE-001/ZILVER/claims.jsonl blob_sha=910f2807247c5547bcf1fc9fc063217a0adb8e2b original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=5 classification=text
+:"Karbala/Vivekananda Shila is an official Vivekananda historic site.","evidence_status":"LINEAGE_CONFIRMED","source_ids":["ZKS-013","ZKS-014"],"project_confirmation":true}
+{"claim_id":"ZKC-055","candidate_id":"KUM-CAND-045","claim_type":"HISTORICAL","claim_text":"Thompson House/ITI is an official Vivekananda historic site.","evidence_status":"LINEAGE_CONFIRMED","source_ids":["ZKS-013","ZKS-014"],"project_confirmation":true}
+{"claim_id":"ZKC-056","candidate_id":"KUM-CAND-046","claim_type":"HISTORICAL","claim_text":"Sri Raghunath Temple is an official Vivekananda reception site.","evidence_status":"LINEAGE_CONFIRMED","source_ids":["ZKS-013","ZKS-014"],"project_confirmation":true}
+{"claim_id":"ZKC-057","candidate_id":"KUM-CAND-030","claim_type":"OVERLAY_RELATION","claim_text":"The Kasar cave tradition remains; exact cave and trail are open.","evidence_status":"NOT_ESTABLISHED","source_ids":["ZKS-009","ZKR-003"],"project_confirmation":true}
+{"claim_id":"ZKC-058","candidate_id":"KUM-CAND-029","claim_type":"LINEAGE","claim_text":"Patal Devi is an Anandamayi ashram with Bhaiji memorial relation.","evidence_status":"LINEAGE_CONFIRMED","source_ids":["ZKS-016","ZKS-018"],"project_confirmation":true}
+{"claim_id":"ZKC-059","candidate_id":"KUM-CAND-026","claim_type":"VISITABILITY","claim_text":"Dhaulchina requires contact and has restrictive hermitage rules.","evidence_status":"PRACTICAL_CHECK_REQUIRED","source_ids":["ZKS-016","ZKS-017"]}
+{"claim_id":"ZKC-060","candidate_id":"KUM-CAND-027","claim_type":"LINEAGE","claim_text":"Haidakhan is active; no Mahavatar Babaji identity is asserted.","evidence_status":"LINEAGE_CONFIRMED","source_ids":["ZKS-001","ZKS-019","ZKS-020"],"project_confirmation":true}
+{"claim_id":"ZKC-061","candidate_id":"KUM-CAND-038","claim_type":"INSTITUTIONAL_IDENTITY","claim_text":"Anandapuri is a distinct current Haidakhandi ashram.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-019","ZKS-020"],"project_confirmation":true}
+{"claim_id":"ZKC-062","candidate_id":"KUM-CAND-036","claim_type":"HISTORICAL","claim_text":"Mayavati was founded in 1899; Vivekananda stayed in 1901.","evidence_status":"HISTORICALLY_DOCUMENTED","source_ids":["ZKS-021"],"project_confirmation":true}
+{"claim_id":"ZKC-063","candidate_id":"KUM-CAND-037","claim_type":"INSTITUTIONAL_IDENTITY","claim_text":"Shyamla Tal is current; no personal Vivekananda visit is claimed.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-024","ZKS-025"],"project_confirmation":true}
+{"claim_id":"ZKC-064","candidate_id":"KUM-CAND-031","claim_type":"PROXIMITY","claim_text":"Bhowali is a comparison junction; no base is selected.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZKS-027"]}
+{"claim_id":"ZKC-065","candidate_id":"KUM-CAND-008","claim_type":"PROXIMITY","claim_text":"Kainchi is about 9 km Bhowali, 17 km Nainital, 43 km Kathgodam.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZKS-007"]}
+{"claim_id":"ZKC-066","candidate_id":"KUM-CAND-028","claim_type":"PROXIMITY","claim_text":"Ghorakhal is about 3 km from Bhowali.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZKS-011"]}
+{"claim_id":"ZKC-067","candidate_id":"KUM-CAND-001","claim_type":"VISITABILITY","claim_text":"Exact December 2026 rail operation and transfers remain open.","evidence_status":"PRACTICAL_CHECK_REQUIRED","source_ids":["ZKS-028","ZKS-029","ZKR-008"]}
+{"claim_id":"ZKC-068","candidate_id":"BASE-COMPARISON","claim_type":"PROXIMITY","claim_text":"Nine bases are comparable inputs; no winner is selected.","evidence_status":"INFERRED","source_ids":["ZKS-002","ZKS-027","ZKS-028","ZKS-030"]}
+{"claim_id":"ZKC-069","candidate_id":"ALL-KUMAON","claim_type":"OVERLAY_RELATION","claim_text":"No additional Krishna place passed the project detector threshold.","evidence_status":"NOT_ESTABLISHED","source_ids":["ZKR-005"]}
+{"claim_id":"ZKC-070","candidate_id":"ALL-KUMAON","claim_type":"VISUAL_CONDITION","claim_text":"No candidate has a complete ten-function current image dossier.","evidence_status":"NOT_ESTABLISHED","source_ids":["ZKR-007"]}
+{"claim_id":"ZKC-
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1407 path=research/active/KUMAON-COMPLETE-001/GOUD/claims.jsonl,research/active/KUMAON-COMPLETE-001/ZILVER/claims.jsonl blob_sha=910f2807247c5547bcf1fc9fc063217a0adb8e2b original_offset=16384 original_length=1670 payload_bytes=1670 chunk_index=4 chunk_count=5 classification=text
+071","candidate_id":"KUM-CAND-036","claim_type":"PHYSICAL_IDENTITY","claim_text":"Mayavati GEO corrected to about 29.37417,80.06333.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZKS-023","ZKS-031"]}
+{"claim_id":"ZKC-072","candidate_id":"KUM-CAND-037","claim_type":"PHYSICAL_IDENTITY","claim_text":"Shyamla Tal remains a broad 500–1000 m WORKING point.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZKS-024","ZKS-025","ZKS-032"]}
+{"claim_id":"ZKC-073","candidate_id":"KUM-CAND-036","claim_type":"VISITABILITY","claim_text":"Mayavati requires confirmed reservation and applies stay restrictions.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-022","ZKS-023"]}
+{"claim_id":"ZKC-074","candidate_id":"KUM-CAND-037","claim_type":"VISITABILITY","claim_text":"Shyamla Tal requires application; guest stay is 2–7 nights.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZKS-025"]}
+{"claim_id":"ZKC-075","candidate_id":"KUM-CAND-024","claim_type":"TESTIMONY","claim_text":"Turiya is current lodging; Sunyata history is host-reported.","evidence_status":"EXPERIENTIALLY_REPORTED","source_ids":["ZKS-026","ZKR-006"]}
+{"claim_id":"ZKC-076","candidate_id":"ALL-KUMAON","claim_type":"EXPERIENCE","claim_text":"Systematic recent reviews remain insufficient for most candidates.","evidence_status":"NOT_ESTABLISHED","source_ids":["ZKS-036","ZKS-039","ZKR-007"]}
+{"claim_id":"ZKC-077","candidate_id":"ALL-KUMAON","claim_type":"PROXIMITY","claim_text":"Connections support later optimization; live winter times remain open.","evidence_status":"PRACTICAL_CHECK_REQUIRED","source_ids":["ZKS-027","ZKS-028","ZKR-002"]}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1408 path=research/active/KUMAON-COMPLETE-001/GOUD/completeness_matrix.md,research/active/KUMAON-COMPLETE-001/ZILVER/completeness_matrix.md blob_sha=513e60109c0d1981c75b8f85a79f98c833327d95 original_offset=0 original_length=1230 payload_bytes=1230 chunk_index=0 chunk_count=1 classification=text
+# Compleetheidsmatrix — KUMAON-COMPLETE-001 ZILVER
+
+| Laag | Status | Resultaat |
+|---|---|---|
+| Formele A/B/C | PASS | 16 A, 1 B, 4 C volledig behouden |
+| 47 kandidaten | PASS | geen record verwijderd |
+| Identiteit hoofdlocaties | PASS/PARTIAL | hoofdinstellingen bevestigd; drie micro-sites open |
+| Lineage en historie | PASS/PARTIAL | dragende lijnen geverifieerd; Turiya-associatie alleen gerapporteerd |
+| Praktische toegang | PASS/PARTIAL | plaats-specifieke correcties; dagactuele regels open |
+| Bases | PASS | negen vergelijkbare inputs, geen winnaar |
+| Stations/knooppunten | PASS/PARTIAL | vier inputs; decemberdienst open |
+| Verbindingen | PASS/PARTIAL | 32 WORKING-relaties, geen route |
+| WORKING_GEO | PASS/PARTIAL | 47 records; Mayavati gecorrigeerd; micro-sites zichtbaar onzeker |
+| Beelden | PARTIAL | één identiteitslead per kandidaat, negen functies tekort |
+| Reviews/ervaring | PARTIAL | systematische actuele dekking ontbreekt grotendeels |
+| Zevenlaagse KML | PASS | 47 placemarks, zeven semantisch gescheiden lagen |
+| Route-optimalisatiegereedheid | PARTIAL | geen nieuwe brede geografische sweep nodig; live praktische controles blijven |
+
+Algemene ZILVER-uitkomst: PARTIAL.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1409 path=research/active/KUMAON-COMPLETE-001/GOUD/decision.md blob_sha=455644add1a48363f6bb1bf17bbe51dd2ca5c5b4 original_offset=0 original_length=863 payload_bytes=863 chunk_index=0 chunk_count=1 classification=text
+# GOUD release decision — KUMAON-COMPLETE-001
+
+result_status: PARTIAL
+route_optimization_ready: YES_WITH_OPEN_CONTROLS
+canonical_integration_status: NOT_APPLICABLE
+mark_decision_required: NO
+
+De volledige 47-record Kumaon-set is technisch coherent en geschikt als bron voor `KUMAON-ROUTE-OPTIMIZATION-001`. Alle formele statussen, LOCATION_ID's, zeven kaartlagen en 32 WORKING-verbindingen zijn behouden.
+
+De hard-PASS-gate wordt niet gehaald door:
+1. drie open micro-sites: K. K. Sah house, Bodh Ashram en de Vivekananda cave;
+2. ontbrekende complete tien-functionele beeld- en systematische reviewdekking;
+3. tijdgevoelige december 2026 trein-, winterweg-, trail-, taxi-, parking- en reistijdinformatie.
+
+Geen route, basis, station, hotel, eerste of laatste locatie, uitreisrichting, formele/adviserende A/B/C of nieuw decision-ID is gekozen.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1410 path=research/active/KUMAON-COMPLETE-001/GOUD/decision_inputs.md blob_sha=f3c7cb410b06250ddd4b1dfe5de6ea190835ae88 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# Decision inputs — KUMAON-COMPLETE-001
+
+## Beslisgrens
+
+Dit bestand levert uitsluitend feiten voor een latere `KUMAON-ROUTE-OPTIMIZATION-001`. Het kiest geen basis, station, hotel, eerste bezoeklocatie, interne route, laatste Kumaon-locatie of uitreisrichting.
+
+## Dataset
+
+- 47 locaties/gebieden/nodes;
+- 9 vergelijkbare basisgebieden;
+- 4 stations of routeknooppunten;
+- 32 WORKING-verbindingen;
+- 16 formele A, 1 formele B en 4 formele C;
+- 12 locaties nog door Mark te beoordelen;
+- 1 context/afgevallen marker.
+
+## Formele A — behouden
+
+- 400 Babaji Cave — trail, weer en daglicht hercontroleren.
+- 401 Babaji Smriti Bhavan — lokale toegang via YSS bevestigen.
+- 402 Dunagiri Temple — lokale weg en uren bevestigen.
+- 403 YSS Dwarahat Ashram — 09:00–17:00; verblijf alleen voor geschikte lesstudenten na aanvraag.
+- 404 Kainchi Dham — publiek; piekdrukte rond 15 juni.
+- 405 Kasar Devi Temple — actuele uren en fotografie bevestigen.
+- 406 Crank's Ridge — verspreid landschap; toegang en deelname open.
+- 407 Kakrighat / Karkateshwar Mahadev — exacte benadering lokaal bevestigen.
+- 408 Jageshwar temple complex — actuele uren en wegconditie bevestigen.
+- 409 Hanuman Garhi, Nainital — uren, parking en drukte bevestigen.
+- 412 Bhumiyadhar temple grounds — terrein bevestigd; geen exact eventpunt geclaimd.
+- 413 Ramakrishna Kutir, Almora — darshan, fotografie en gastregels bevestigen.
+- 414 Chitai Golu Devta Temple — actuele uren en verkeer bevestigen.
+- 420 Turiya Niwas — actuele logiesplek; historie alleen host-gerapporteerd.
+- 421 Bodh Ashram — formele A behouden; identiteit, beheer en toegang niet onafhankelijk vastgesteld.
+- 423 Haidakhan Vishwa Mahadham — reservering en lokale toegang bevestigen; geen Mahavatar-Babaji-equivalentie.
+
+## Formele B en C — behouden
+
+- 424 Ghorakhal Golu Devta Temple — formele B; uren en verkeer bevestigen.
+- 415 Mirtola / Uttar Vrindavan Ashram — formele C; toestemming vereist.
+- 416 Binsar Wildlife Sanctuary — formele C; natuur- en sanctuaryregels.
+- 417 Patal Bhuvaneshwar — formele C; grot, trappen en fysieke belasting.
+- 422 Anandamayi Ma Ashram, Dhaulchina — formele C; directe toestemming en restrictieve hermitageregels.
+
+## Nog door Mark te beoordelen
+
+- 410 Hotel Evelyn — logiescontext; huidige werking niet herbevestigd.
+- 411 K. K. Sah house — private micro-site; exact adres en toegang niet vastgesteld.
+- 418 Naina Devi Temple — publieke tempelcontext.
+- 419 Lala Badri Shah House — historisch; toegang op verzoek.
+- 425 Anandamayi Ma Ashram / Patal Devi — direct contact en bezoekvoorwaarden bevestigen.
+- 426 Vivekananda meditation cave — exacte identiteit, punt en trail niet vastgesteld.
+- 432 Advaita Ashrama, Mayavati — reservering; serieuze zoekers; normaal 2–3 nachten in 2026-gastseizoenen.
+- 433 Vivekananda Ashrama, Shyamla Tal — aanvraag; 2–7 nachten; breed WORKING-punt.
+- 434 Anandapuri Ashram — reservering; afzonderlijk van hoofd-Haidakhan.
+- 440 Vivekananda Rest House / Shila — historisch circuit; lokaal toegangspunt.
+- 441 Thompson House / ITI — historisch circuit; lokaal toegangspunt.
+- 442 Sri Raghunath Temple reception site — historisch ontvangstpunt; WORKING-precisie.
+
+## Context en knooppunten
+
+- 443 Bright End Corner / Vivekananda Corner — contextmarker, geen bestemmingadvies.
+- 308 Lal Kuan Junction, 309 Haldwani, 310 Kathgodam en 435 Kukuchina trail approach — stations/nodes, geen aankomstkeuze.
+
+## Mogelijke bases — geen winnaar
+
+- 427 Bhowali;
+- 428 Nainital;
+- 429 Kainchi;
+- 430 Kathgodam;
+- 431 Haldwani;
+- 436 Dwarahat;
+- 437 Almora;
+- 438 Kasar Devi;
+- 439 Ranikhet / Chiliyanaula.
+
+## Vereiste live controles voor optimalisatie
+
+- exacte reisdatum en treinbedrijf december 2026;
+- actuele winterwegen, mist, wegschade en taxi-beschikbaarheid;
+- trailconditie, daglicht en fysiek haalbare klim naar Babaji Cave;
+- reserveringen en toelating bij YSS Dwarahat, Mayavati, Shyamla Tal, Dhaulchina en Haidakhandi-ashrams;
+- parkeer- en crowdregime rond Nainital, Kainchi en hoofdtempels;
+- micro-site-toe
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1411 path=research/active/KUMAON-COMPLETE-001/GOUD/decision_inputs.md blob_sha=f3c7cb410b06250ddd4b1dfe5de6ea190835ae88 original_offset=4096 original_length=59 payload_bytes=59 chunk_index=1 chunk_count=2 classification=text
+gang voor private en historische objecten.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1412 path=research/active/KUMAON-COMPLETE-001/GOUD/detector_checks.jsonl,research/active/KUMAON-COMPLETE-001/ZILVER/detector_checks.jsonl blob_sha=ca7dc8d856e6db8963c7556a20a8a96b5b17417a original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+{"detector_check_id":"ZDC-001","subcluster":"FOOTHILLS_BHOWALI_KAINCHI_NAINITAL","detectors":["Yogananda/AOAY","Babaji/Kriya","Neem Karoli Baba/Ram Dass","Anandamayi Ma","Ramakrishna/Vivekananda","Krishna categories","India Essential"],"found_location_ids":["404","409","411","412","418","424","427","428","429","430","431"],"result":"Existing NKB/Ram Dass and formal anchors retained; no additional direct Yogananda, Lahiri, Sri Yukteswar, Keshavanand or Anandamayi physical site established.","source_ids":["ZKS-007","ZKS-008","ZKS-012","ZKS-027","ZKS-028","ZKS-038","ZKR-005"],"checked_at":"2026-07-19"}
+{"detector_check_id":"ZDC-002","subcluster":"ALMORA_KASAR_VIVEKANANDA","detectors":["Ramakrishna","Vivekananda","Anandamayi Ma","Kasar seeker history","AOAY/Kriya"],"found_location_ids":["405","406","413","419","420","421","425","426","437","438","440","441","442","443"],"result":"Official Ramakrishna and Anandamayi sources retain the historic circuit; Bodh Ashram and exact cave remain unverified micro-sites.","source_ids":["ZKS-009","ZKS-013","ZKS-014","ZKS-015","ZKS-016","ZKS-018","ZKS-026","ZKR-003","ZKR-004"],"checked_at":"2026-07-19"}
+{"detector_check_id":"ZDC-003","subcluster":"JAGESHWAR_CHITAI_ALMORA_OUTER","detectors":["living tradition","India Essential","Ramakrishna/Vivekananda","Anandamayi Ma"],"found_location_ids":["408","414","415","416","422"],"result":"Formal records retained; ordinary local temples without a required detector relation were not inflated.","source_ids":["ZKS-010","ZKS-016","ZKS-017","ZKS-034","ZKS-035","ZKR-005"],"checked_at":"2026-07-19"}
+{"detector_check_id":"ZDC-004","subcluster":"DWARAHAT_DUNAGIRI_KUKUCHINA","detectors":["AOAY","Mahavatar Babaji","Kriya Yoga","Yogananda","Lahiri Mahasaya","Sri Yukteswar","Keshavanand"],"found_location_ids":["400","401","402","403","435","436"],"result":"YSS carries the cave/lineage and current pilgrimage relation; no additional separately identifiable Sri Yukteswar or Keshavanand site established.","source_ids":["ZKS-004","ZKS-005","ZKS-006"],"checked_at":"2026-07-19"}
+{"detector_check_id":"ZDC-005","subcluster":"HAIDAKHAN_RANIKHET_CHILIYANAULA","detectors":["Haidakhan lineage","Mahavatar Babaji distinction","living practice","Ramakrishna/Vivekananda"],"found_location_ids":["423","434","439"],"result":"Two distinct Haidakhandi ashrams retained; no factual identity equivalence with Mahavatar Babaji asserted.","source_ids":["ZKS-001","ZKS-019","ZKS-020"],"checked_at":"2026-07-19"}
+{"detector_check_id":"ZDC-006","subcluster":"OUTER_KUMAON_MAYAVATI_SHYAMLA_TAL","detectors":["Ramakrishna","Vivekananda","India Essential","living monastic practice"],"found_location_ids":["432","433"],"result":"Mayavati direct historic relation and Shyamla Tal institutional lineage relation confirmed; no Vivekananda personal visit to Shyamla Tal claimed.","source_ids":["ZKS-021","ZKS-022","ZKS-023","ZKS-024","ZKS-025"],"checked_at":"2026-07-19"}
+{"detector_check_id":"ZDC-007","subcluster":"OUTER_KUMAON_PATAL_BHUVANESHWAR","detectors":["India Essential","Krishna categories","personal-line figures"],"found_location_ids":["417"],"result":"Formal C site retained; no additional required-detector physical site established in the eastern outer zone.","source_ids":["ZKS-001","ZKS-037","ZKR-005"],"checked_at":"2026-07-19"}
+{"detector_check_id":"ZDC-008","subcluster":"ALL_KUMAON","detectors":["Krishna teacher of Gita","Krishna/Babaji Kriya","canonical Krishna shrine","ordinary Krishna temples","regional Krishna stories"],"found_location_ids":[],"result":"No new physical Krishna site met the direct-line or exceptional-canonical threshold.","source_ids":["ZKR-005"],"checked_at":"2026-07-19"}
+{"detector_check_id":"ZDC-009","subcluster":"ALL_KUMAON","detectors":["small physical places outside tourist lists"],"found_location_ids":["401","411","419","425","426","440","441","442"],"result":"Small lineage/event sites retained when a physical relation existed; exact private or cave microtopography stays open where unverified.","source_ids":["ZKS-006","ZKS-012","ZKS-013","ZKS-014","ZKS-018","ZKR-001","
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1413 path=research/active/KUMAON-COMPLETE-001/GOUD/detector_checks.jsonl,research/active/KUMAON-COMPLETE-001/ZILVER/detector_checks.jsonl blob_sha=ca7dc8d856e6db8963c7556a20a8a96b5b17417a original_offset=4096 original_length=63 payload_bytes=63 chunk_index=1 chunk_count=2 classification=text
+ZKR-003","ZKR-004"],"checked_at":"2026-07-19"}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1414 path=research/active/KUMAON-COMPLETE-001/GOUD/experience_reviews.jsonl,research/active/KUMAON-COMPLETE-001/ZILVER/experience_reviews.jsonl blob_sha=d45ae50061e0dcb680a3af8fe2f8acda0761a4e0 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+{"experience_id":"ZKE-001","candidate_id":"KUM-CAND-001","location_id":"308","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-028"]}
+{"experience_id":"ZKE-002","candidate_id":"KUM-CAND-002","location_id":"309","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-028"]}
+{"experience_id":"ZKE-003","candidate_id":"KUM-CAND-003","location_id":"310","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-028","ZKS-029"]}
+{"experience_id":"ZKE-004","candidate_id":"KUM-CAND-004","location_id":"400","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-004","ZKS-006"]}
+{"experience_id":"ZKE-005","candidate_id":"KUM-CAND-005","location_id":"401","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-004","ZKS-006"]}
+{"experience_id":"ZKE-006","candidate_id":"KUM-CAND-006","location_id":"402","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-004"]}
+{"experience_id":"ZKE-007","candidate_id":"KUM-CAND-007","location_id":"403","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-004","ZKS-005"]}
+{"experience_id":"ZKE-008","candidate_id":"KUM-CAND-008","location_id":"404","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-007","ZKS-008"]}
+{"experience_id":"ZKE-009","candidate_id":"KUM-CAND-009","location_id":"405","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-009","ZKS-033"]}
+{"experience_id":"ZKE-010","candidate_id":"KUM-CAND-010","location_id":"406","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-009"]}
+{"experience_id":"ZKE-011","candidate_id":"KUM-CAND-011","location_id":"407","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-008","ZKS-013"]}
+{"experience_id":"ZKE-012","candidate_id":"KUM-CAND-012","location_id":"408","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-010"]}
+{"experience_id":"ZKE-013","candidate_id":"KUM-CAND-013","location_id":"409","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-008"]}
+{"experience_id":"ZKE-014","candidate_id":"KUM-CAND-014","location_id":"410","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKR-005"]}
+{"experience_id":"ZKE-015","candidate_id":"KUM-CAND-015","location_id":"411","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-012","ZKR-001"]}
+{"experience_id":"ZKE-016","candidate_id":"KUM-CAND-016","location_id":"412","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-002","ZKS-008"]}
+{"experience_id":"ZKE-017","candidate_id":"KUM-CAND-017","location_id":"413","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-013","ZKS-015"]}
+{"experience_id":"ZKE-018","candidate_id":"KUM-CAND-018","location_id":"414","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-030"]}
+{"experience_id":"ZKE-019","candidate_id":"KUM-CAND-019","location_id":"415","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-001","ZKS-035"]}
+{"experience_id":"ZKE-020","candidate_id":"KUM-CAND-020","location_id":"416","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-001","ZKS-034"]}
+{"experience_id":"ZKE-021","candidate_id":"KUM-CAND-021","location_id":"417","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-001","ZKS-037"]}
+{"experience_id":"ZKE-022","candidate_id":"KUM-CAND-022","location_id":"418","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reli
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1415 path=research/active/KUMAON-COMPLETE-001/GOUD/experience_reviews.jsonl,research/active/KUMAON-COMPLETE-001/ZILVER/experience_reviews.jsonl blob_sha=d45ae50061e0dcb680a3af8fe2f8acda0761a4e0 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+ability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-038"]}
+{"experience_id":"ZKE-023","candidate_id":"KUM-CAND-023","location_id":"419","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-013","ZKS-014"]}
+{"experience_id":"ZKE-024","candidate_id":"KUM-CAND-024","location_id":"420","basis":"SMALL_CURRENT_LODGING_LISTING_REVIEW_BASE","reliability":"LIMITED","source_ids":["ZKS-026","ZKR-006"]}
+{"experience_id":"ZKE-025","candidate_id":"KUM-CAND-025","location_id":"421","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-001","ZKR-004"]}
+{"experience_id":"ZKE-026","candidate_id":"KUM-CAND-026","location_id":"422","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-001","ZKS-016","ZKS-017"]}
+{"experience_id":"ZKE-027","candidate_id":"KUM-CAND-027","location_id":"423","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-001","ZKS-019","ZKS-020"]}
+{"experience_id":"ZKE-028","candidate_id":"KUM-CAND-028","location_id":"424","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-001","ZKS-011"]}
+{"experience_id":"ZKE-029","candidate_id":"KUM-CAND-029","location_id":"425","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-016","ZKS-018"]}
+{"experience_id":"ZKE-030","candidate_id":"KUM-CAND-030","location_id":"426","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-009","ZKR-003"]}
+{"experience_id":"ZKE-031","candidate_id":"KUM-CAND-031","location_id":"427","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-027"]}
+{"experience_id":"ZKE-032","candidate_id":"KUM-CAND-032","location_id":"428","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-028","ZKS-038"]}
+{"experience_id":"ZKE-033","candidate_id":"KUM-CAND-033","location_id":"429","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-007"]}
+{"experience_id":"ZKE-034","candidate_id":"KUM-CAND-034","location_id":"430","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-028"]}
+{"experience_id":"ZKE-035","candidate_id":"KUM-CAND-035","location_id":"431","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-028"]}
+{"experience_id":"ZKE-036","candidate_id":"KUM-CAND-036","location_id":"432","basis":"LIMITED_RECENT_AGGREGATED_REVIEWS_PLUS_OFFICIAL_RULES","reliability":"LIMITED_BUT_USEFUL_FOR_RECURRING_THEMES","source_ids":["ZKS-022","ZKS-023","ZKS-036","ZKS-039"]}
+{"experience_id":"ZKE-037","candidate_id":"KUM-CAND-037","location_id":"433","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-024","ZKS-025","ZKS-032"]}
+{"experience_id":"ZKE-038","candidate_id":"KUM-CAND-038","location_id":"434","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-019","ZKS-020"]}
+{"experience_id":"ZKE-039","candidate_id":"KUM-CAND-039","location_id":"435","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-004"]}
+{"experience_id":"ZKE-040","candidate_id":"KUM-CAND-040","location_id":"436","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-004"]}
+{"experience_id":"ZKE-041","candidate_id":"KUM-CAND-041","location_id":"437","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-013","ZKS-030"]}
+{"experience_id":"ZKE-042","candidate_id":"KUM-CAND-042","location_id":"438","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-009"]}
+{"experience_id":"ZKE-043","candidate_id":"KUM-CAND-043","location_id":"439","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","so
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1416 path=research/active/KUMAON-COMPLETE-001/GOUD/experience_reviews.jsonl,research/active/KUMAON-COMPLETE-001/ZILVER/experience_reviews.jsonl blob_sha=d45ae50061e0dcb680a3af8fe2f8acda0761a4e0 original_offset=8192 original_length=811 payload_bytes=811 chunk_index=2 chunk_count=3 classification=text
+urce_ids":["ZKS-019"]}
+{"experience_id":"ZKE-044","candidate_id":"KUM-CAND-044","location_id":"440","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-013","ZKS-014"]}
+{"experience_id":"ZKE-045","candidate_id":"KUM-CAND-045","location_id":"441","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-013","ZKS-014"]}
+{"experience_id":"ZKE-046","candidate_id":"KUM-CAND-046","location_id":"442","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-013","ZKS-014"]}
+{"experience_id":"ZKE-047","candidate_id":"KUM-CAND-047","location_id":"443","basis":"NOT_SYSTEMATICALLY_ESTABLISHED","reliability":"OPEN_EXPLICIT_SHORTAGE","source_ids":["ZKS-013","ZKS-030"]}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1417 path=research/active/KUMAON-COMPLETE-001/GOUD/formal_status_coverage.md,research/active/KUMAON-COMPLETE-001/ZILVER/formal_status_coverage.md blob_sha=d11dfd0188e0f0d1739289635139fe2291d2fdcf original_offset=0 original_length=589 payload_bytes=589 chunk_index=0 chunk_count=1 classification=text
+# Formele-statusdekking — KUMAON-COMPLETE-001 ZILVER
+
+- formele A verwacht/aanwezig: 16/16;
+- formele B verwacht/aanwezig: 1/1;
+- formele C verwacht/aanwezig: 4/4;
+- gewijzigde formele statussen: 0;
+- nieuw toegekende formele of adviserende statussen: 0.
+
+Alle formele C-records blijven aanwezig in candidates, GEO, kaartbron en KML. Niet-formele lagen blijven duidelijk onderscheiden.
+
+LOCATION_ID 308–310 en 400–443 zijn uniek; 427–443 zijn door BRONS uitgegeven en door ZILVER behouden. Geen hernummering, hergebruik of cross-blocktoewijzing.
+
+Resultaat: PASS.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1418 path=research/active/KUMAON-COMPLETE-001/GOUD/geo_connections.jsonl blob_sha=da369f8f96f88d4915f1c243963656be93cb11fe original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+{"connection_id":"ZP-001","from_location_id":"310","to_location_id":"427","mode":"CAR","estimated_time_min":null,"distance_km":null,"source_or_method":"Validated ZILVER WORKING relation","working_time_or_distance":"about 34 km / 60–90 min WORKING class","source_ids":["ZKS-027","ZKR-002"],"checked_at":"2026-07-19","traffic_or_access_notes":"Hill traffic and winter conditions vary.","status":"WORKING_INPUT_FOR_LATER_OPTIMIZATION_NO_SEQUENCE"}
+{"connection_id":"ZP-002","from_location_id":"309","to_location_id":"427","mode":"CAR","estimated_time_min":null,"distance_km":null,"source_or_method":"Validated ZILVER WORKING relation","working_time_or_distance":"about 40 km / 70–100 min WORKING class","source_ids":["ZKS-027","ZKR-002"],"checked_at":"2026-07-19","traffic_or_access_notes":"Urban exit and hill traffic vary.","status":"WORKING_INPUT_FOR_LATER_OPTIMIZATION_NO_SEQUENCE"}
+{"connection_id":"ZP-003","from_location_id":"427","to_location_id":"404","mode":"CAR","estimated_time_min":null,"distance_km":null,"source_or_method":"Validated ZILVER WORKING relation","working_time_or_distance":"9 km / roughly 20–30 min WORKING","source_ids":["ZKS-007"],"checked_at":"2026-07-19","traffic_or_access_notes":"Kainchi congestion can dominate.","status":"WORKING_INPUT_FOR_LATER_OPTIMIZATION_NO_SEQUENCE"}
+{"connection_id":"ZP-004","from_location_id":"427","to_location_id":"428","mode":"CAR","estimated_time_min":null,"distance_km":null,"source_or_method":"Validated ZILVER WORKING relation","working_time_or_distance":"about 11 km / roughly 25–40 min WORKING","source_ids":["ZKS-027","ZKR-002"],"checked_at":"2026-07-19","traffic_or_access_notes":"Nainital parking and traffic matter.","status":"WORKING_INPUT_FOR_LATER_OPTIMIZATION_NO_SEQUENCE"}
+{"connection_id":"ZP-005","from_location_id":"427","to_location_id":"424","mode":"CAR","estimated_time_min":null,"distance_km":null,"source_or_method":"Validated ZILVER WORKING relation","working_time_or_distance":"about 3 km / roughly 10–15 min WORKING","source_ids":["ZKS-011"],"checked_at":"2026-07-19","traffic_or_access_notes":"Short local hill connection.","status":"WORKING_INPUT_FOR_LATER_OPTIMIZATION_NO_SEQUENCE"}
+{"connection_id":"ZP-006","from_location_id":"428","to_location_id":"409","mode":"CAR","estimated_time_min":null,"distance_km":null,"source_or_method":"Validated ZILVER WORKING relation","working_time_or_distance":"short Nainital hill connection","source_ids":["ZKS-008","ZKR-002"],"checked_at":"2026-07-19","traffic_or_access_notes":"Town traffic and parking.","status":"WORKING_INPUT_FOR_LATER_OPTIMIZATION_NO_SEQUENCE"}
+{"connection_id":"ZP-007","from_location_id":"428","to_location_id":"418","mode":"WALK_OR_LOCAL_TAXI","estimated_time_min":null,"distance_km":null,"source_or_method":"Validated ZILVER WORKING relation","working_time_or_distance":"town-centre relation","source_ids":["ZKS-038"],"checked_at":"2026-07-19","traffic_or_access_notes":"Crowd and commercial friction.","status":"WORKING_INPUT_FOR_LATER_OPTIMIZATION_NO_SEQUENCE"}
+{"connection_id":"ZP-008","from_location_id":"404","to_location_id":"412","mode":"CAR","estimated_time_min":null,"distance_km":null,"source_or_method":"Validated ZILVER WORKING relation","working_time_or_distance":"same Kainchi–Bhumiyadhar road zone; exact minutes open","source_ids":["ZKS-008","ZKR-002"],"checked_at":"2026-07-19","traffic_or_access_notes":"No exact event point claimed.","status":"WORKING_INPUT_FOR_LATER_OPTIMIZATION_NO_SEQUENCE"}
+{"connection_id":"ZP-009","from_location_id":"437","to_location_id":"413","mode":"LOCAL_TAXI_OR_WALK","estimated_time_min":null,"distance_km":null,"source_or_method":"Validated ZILVER WORKING relation","working_time_or_distance":"Almora town relation","source_ids":["ZKS-013","ZKS-015"],"checked_at":"2026-07-19","traffic_or_access_notes":"Steep streets.","status":"WORKING_INPUT_FOR_LATER_OPTIMIZATION_NO_SEQUENCE"}
+{"connection_id":"ZP-010","from_location_id":"437","to_location_id":"425","mode":"LOCAL_TAXI","estimated_time_min":null,"distance_km":null,"source_or_method":"Validated ZILVER WORKING relation","wo
+<<< END CHUNK >>>
+

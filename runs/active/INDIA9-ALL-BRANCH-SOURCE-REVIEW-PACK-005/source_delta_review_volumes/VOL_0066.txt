@@ -1,0 +1,699 @@
+>>> CHUNK stream_row=1120 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/sources/rejected.jsonl,research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/sources/rejected.jsonl blob_sha=46cad98bc4aab97f7e37e513d3ee0a1cc7a62eea original_offset=0 original_length=2228 payload_bytes=2228 chunk_index=0 chunk_count=1 classification=text
+{"source_id":"ZR-001","url":"Wikipedia and generic train aggregators for current operating days","reason":"Official Indian Railways lists were available for 12039/12040 and 15035/15036; aggregator day patterns and endpoint data conflicted.","searched_for":"Current train operation and timing classes","replacement_source_id":"ZS-001"}
+{"source_id":"ZR-002","url":"Current secondary schedules for train 15055 with conflicting weekly/day patterns","reason":"Route and existence are useful leads, but exact current operating days were inconsistent and cannot close a December 2026 booking claim.","searched_for":"15055 Mathura Cantt–Ramnagar operating days","replacement_source_id":"ZS-003"}
+{"source_id":"ZR-003","url":"Generic route-time websites claiming exact Vrindavan–Haldwani duration","reason":"Non-live estimates omit departure time, traffic, stops, fog and vehicle conditions; unsuitable as an exact travel-time fact.","searched_for":"Direct road duration","replacement_source_id":null}
+{"source_id":"ZR-004","url":"Google Maps search-result pins without object-level corroboration","reason":"Several BRONS points resolved to a town, nearby institution or broad area rather than the intended cave, temple or ashram object.","searched_for":"Forty WORKING_GEO point placements","replacement_source_id":"ZS-013"}
+{"source_id":"ZR-005","url":"General local temple and tourism lists along the corridor","reason":"No concrete direct personal-line relation or exceptional India-Essential status was established; ordinary-temple inflation is prohibited.","searched_for":"Heavy-A candidates per route zone","replacement_source_id":null}
+{"source_id":"ZR-006","url":"B_ADVIES label in the BRONS KML and central map source","reason":"The two records are already formal B decisions by Mark; the label could falsely imply new ZILVER advice.","searched_for":"Map-layer semantics","replacement_source_id":"ZS-024"}
+{"source_id":"ZR-007","url":"Secondary-only Kankhal samadhi identification","reason":"Official Anandamayi Sangha sources directly confirm Kankhal Ashram, Samadhi Mandir and recurring practice.","searched_for":"Institutional confirmation Anandamayi Ma Samadhi Kankhal","replacement_source_id":"ZS-008"}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1121 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/transport_options.jsonl,research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/transport_options.jsonl blob_sha=e99769e8ab5112999147f3da90c0c0edecc4fb8e original_offset=0 original_length=2696 payload_bytes=2696 chunk_index=0 chunk_count=1 classification=text
+{"transport_id":"ZTO-001","corridor_id":"ZCR-001","mode":"PRIVATE_CAR_WITH_DRIVER","service_or_route":"Vrindavan–Moradabad–Rampur–Rudrapur–Haldwani/Kathgodam","frequency":"ON_DEMAND","time_class":"conservative 7–9 hour winter planning class to foothill gateway","reliability":"MEDIUM_HIGH_WITH_WEATHER_VARIABILITY","booking_requirement":"driver, vehicle and live route check","source_ids":["ZS-004","ZS-005","ZS-006"],"checked_at":"2026-07-18","recheck_before":"2026-12-01"}
+{"transport_id":"ZTO-002","corridor_id":"ZCR-005","mode":"TRAIN","service_or_route":"12040 New Delhi–Kathgodam Shatabdi","frequency":"currently listed","time_class":"06:00–11:40 official current class","reliability":"HIGH_CURRENT_SERVICE_DATE_OPEN","booking_requirement":"advance reservation and early New Delhi arrival","source_ids":["ZS-001","ZS-003"],"checked_at":"2026-07-18","recheck_before":"exact travel date"}
+{"transport_id":"ZTO-003","corridor_id":"ZCR-002","mode":"TRAIN","service_or_route":"15035 Delhi–Kathgodam Uttarakhand Sampark Kranti","frequency":"currently listed","time_class":"16:00–22:45 official current class","reliability":"HIGH_CURRENT_SERVICE_DATE_OPEN","booking_requirement":"date-specific PRS/IRCTC check and Moradabad connection buffer","source_ids":["ZS-002","ZS-003"],"checked_at":"2026-07-18","recheck_before":"exact travel date"}
+{"transport_id":"ZTO-004","corridor_id":"ZCR-003","mode":"TRAIN","service_or_route":"15055 Agra Fort–Ramnagar lead via Mathura/Kasganj/Bareilly","frequency":"EXACT_CURRENT_DAYS_NOT_ESTABLISHED","time_class":"long through-journey class","reliability":"LOW_AS_DEFAULT","booking_requirement":"exact train, day, boarding station and destination verification","source_ids":["ZS-003","ZR-002"],"checked_at":"2026-07-18","recheck_before":"exact travel date"}
+{"transport_id":"ZTO-005","corridor_id":"ZCR-004","mode":"ROAD","service_or_route":"Mathura–Kasganj–Bareilly then current roads to Lal Kuan/Haldwani","frequency":"ON_DEMAND","time_class":"same-day possible; no verified advantage over ZCR-001","reliability":"MEDIUM","booking_requirement":"live route and road-status check","source_ids":["ZS-004","ZS-005"],"checked_at":"2026-07-18","recheck_before":"2026-12-01"}
+{"transport_id":"ZTO-006","corridor_id":"KUMAON-ONWARD","mode":"HELICOPTER","service_or_route":"Haldwani–Almora supplementary service lead","frequency":"VOLATILE_NOT_RELIED_UPON","time_class":"potentially short if operating","reliability":"PRACTICAL_CHECK_REQUIRED","booking_requirement":"direct operator, weather, baggage and operating-day confirmation","source_ids":["ZS-003"],"checked_at":"2026-07-18","recheck_before":"before relying on service"}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1122 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/WORKING_GEO_POLICY.md blob_sha=90160d8a4a90cc5bc4a587f0399740bd933ac653 original_offset=0 original_length=3373 payload_bytes=3373 chunk_index=0 chunk_count=1 classification=text
+# WORKING_GEO policy — VRINDAVAN-KUMAON-CORRIDOR-001
+
+## Doel
+
+Deze run maakt een praktisch kaart- en routebesluit mogelijk zonder bruikbare locaties leeg te laten omdat een exacte bezoekersingang nog niet dubbel is geverifieerd.
+
+Dit document is een run-specifieke aanvulling op `pipeline/protocols/GEO_LOCATION_PROTOCOL.md` en `DECISION-0013`. Voor definitieve precisie blijft VERIFIED beter; voor de werkkaart is correct gelabeld WORKING voldoende.
+
+## Toegestane GEO-statussen
+
+- `VERIFIED`: kaartpunt rechtstreeks en betrouwbaar bevestigd als bedoelde fysieke locatie of logische bezoekersingang.
+- `WORKING`: redelijk kaartpunt voor de bedoelde locatie, geschikt voor globale route- en kaartanalyse, maar exacte ingang of grens niet definitief bevestigd.
+- `CONFLICTED`: twee of meer materieel verschillende fysieke identiteiten of punten zijn nog niet opgelost.
+- `NOT_ESTABLISHED`: geen redelijk punt of adres gevonden; alleen toegestaan na aantoonbare zoekcontrole.
+
+## Toegestane POINT_TYPE
+
+- `VISITOR_ENTRANCE`;
+- `EXACT_SITE`;
+- `BUILDING_CENTRE`;
+- `COMPLEX_CENTRE`;
+- `SITE_CENTRE`;
+- `STATION_POINT`;
+- `CITY_TRANSPORT_NODE`;
+- `ROUTE_REPRESENTATIVE_POINT`;
+- `LANDSCAPE_REPRESENTATIVE_POINT`;
+- `ADDRESS_CENTROID`;
+- `ESTIMATED`.
+
+## Toegestane kaartbasis
+
+- Google Maps;
+- OpenStreetMap;
+- officiële instelling of overheid met kaart/adres;
+- spoorweg- of stationsbron;
+- straatadres dat via een tweede kaartbron naar hetzelfde terrein leidt;
+- herkenbaar gebouw-, terrein- of landschapsmiddelpunt.
+
+## Nauwkeurigheidsklassen
+
+- `0_25_M`: exacte ingang of duidelijk fysiek object;
+- `25_50_M`: gebouw of kleine site;
+- `50_150_M`: terrein of complex;
+- `150_500_M`: representatief centrum van groot terrein, route- of landschapsobject;
+- `OVER_500_M`: alleen met expliciete motivatie; standaard niet kaartklaar.
+
+## Verplichte velden per punt
+
+- `location_id`;
+- `candidate_id` of route/station-ID;
+- `canonical_name`;
+- `cluster`;
+- `formal_status` of research label;
+- `latitude_wgs84`;
+- `longitude_wgs84`;
+- `geo_status`;
+- `point_type`;
+- `estimated_accuracy`;
+- `map_source` en URL;
+- `point_choice_reason`;
+- `checked_at`;
+- `recheck_before` waar tijdsgevoelig.
+
+## Harde controles
+
+Een punt faalt wanneer het verwijst naar:
+
+- een gelijknamige andere stad of plaats;
+- een hotel, winkel, kantoor of reisbureau met dezelfde naam;
+- een administratief centrum in plaats van de spirituele plek;
+- een verkeerd station;
+- een willekeurig stadscentrum terwijl een herkenbaar site- of adrespunt beschikbaar is.
+
+Een WORKING-punt mag circa 50–500 meter afwijken wanneer het object daardoor nog ondubbelzinnig herkenbaar blijft. Coördinaten worden niet leeg gelaten wanneer een redelijk punt of adres beschikbaar is.
+
+## Reistijden
+
+Globale corridor-, auto-, trein- en aansluitingslogica mag op WORKING-punten worden gebaseerd. Vermeld altijd bron/methode, datum, vervoer en onzekerheidsklasse. Geen schijnprecisie: gebruik tijdsklassen of bandbreedtes wanneer verkeer, dienstregeling of exacte ingang onzeker is.
+
+## KML
+
+- Iedere marker toont `WORKING` of `VERIFIED` zichtbaar.
+- `CONFLICTED` en `NOT_ESTABLISHED` komen niet als betrouwbaar punt in KML maar blijven in de bron- en auditbestanden.
+- KML-kleur toont status A/B/C-laag; GEO-status blijft een afzonderlijk veld.
+- Geen formele status afleiden uit marker- of laagkleur.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1123 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/COMPLETED blob_sha=019b432eeb6d18e7954c31019d3611ce385dc352 original_offset=0 original_length=2026 payload_bytes=2026 chunk_index=0 chunk_count=1 classification=text
+PARTIAL
+run_id: VRINDAVAN-KUMAON-CORRIDOR-001
+role: ZILVER
+source_commit: 60d87c0869584c2c89a3a19a626b65b496e1a2c9
+context_profile: ZILVER_MIN
+corridor_result: DOORREIZEN_NAAR_KUMAON
+counts:
+  claims: 19
+  accepted_sources: 27
+  rejected_sources: 7
+  route_corridors: 5
+  transport_options: 6
+  route_zones: 10
+  heavy_a_gate_records: 4
+  detector_checks: 12
+  negative_searches: 10
+  working_geo_records: 40
+  corridor_location_assignments: 16
+  location_id_requests: 4
+  central_map_records: 51
+  kml_placemarks: 40
+outputs:
+  - manifest.yaml
+  - report/INDEX.md
+  - report/01_transport_and_corridors_verified.md
+  - report/02_heavy_a_and_negative_search_verified.md
+  - report/03_geo_location_ids_and_map_semantics.md
+  - report/04_conclusion_and_gate.md
+  - claims.jsonl
+  - sources/registry.jsonl
+  - sources/rejected.jsonl
+  - route_corridors.jsonl
+  - transport_options.jsonl
+  - route_zones.jsonl
+  - heavy_a_gate.jsonl
+  - detector_checks.jsonl
+  - negative_searches.jsonl
+  - working_geo.jsonl
+  - location_assignments.jsonl
+  - location_id_requests.jsonl
+  - central_map_source.jsonl
+  - corridor_working.kml
+  - formal_status_coverage.md
+  - audit.md
+  - handoff.yaml
+highest_gaps:
+  - Exact December 2026 train operation and booking availability require PRS or IRCTC recheck.
+  - Live winter road time, fog, weather and hill conditions require recheck near departure.
+  - Some WORKING points and external cluster block reservations remain unresolved before definitive all-project KML release.
+validation: All required ZILVER artifacts were reopened; END_OF_ARTIFACT sentinels and KML closing tags were checked; 19 claims resolve to 27 accepted and 7 rejected unique source IDs; 40 WORKING_GEO records, 51 central-map records and 40 KML placemarks were counted; all formal statuses and LOCATION_IDs were preserved; no formal or advisory A/B/C, PARELS work, hotel choice, internal Kumaon planning, inline-handoff migration, successor context, controller transition or pipeline modification occurred.
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1124 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/audit.md blob_sha=164918077be2b5562522092caf750bd285ed2d72 original_offset=0 original_length=3392 payload_bytes=3392 chunk_index=0 chunk_count=1 classification=text
+# ZILVER audit — VRINDAVAN-KUMAON-CORRIDOR-001
+
+## Technical preflight
+
+- GitHub read and write were confirmed before content work.
+- `NEXT_ACTION.yaml` selected this run, role ZILVER, expected state `READY_FOR_ZILVER` and the schema-v2 context manifest.
+- State and eventlog were synchronized at EVT-0006 before claim; no active claim existed.
+- All 46 pinned required files were fully read at source commit `60d87c0869584c2c89a3a19a626b65b496e1a2c9`.
+- Every expected blob SHA and sentinel matched.
+- The phase was claimed as EVT-0007 before external research.
+- No forbidden predecessor, GOUD, completed-run or protocol file was changed.
+- The run was not migrated to inline handoff.
+
+## Claim and source integrity
+
+- ZILVER claim IDs ZC-001 through ZC-019 are unique.
+- Accepted source IDs ZS-001 through ZS-027 are unique.
+- Rejected source IDs ZR-001 through ZR-007 are unique.
+- Every claim source reference resolves exactly once across accepted or rejected registers.
+- Official railway sources replace conflicting aggregator claims where available.
+- Map and photo sources carry only GEO/physical placement claims.
+- Seasonal IMD evidence is not represented as a December 2026 forecast.
+- Institution and direct-line significance remain separate from route value.
+
+## Corridor verification
+
+- Current Indian Railways lists confirm 12039/12040 and 15035/15036 endpoints and time classes.
+- Exact December 2026 operation remains a future PRS/IRCTC check.
+- 15055 route lead is preserved without asserting conflicted operating days.
+- Official MoRTH records confirm the relevant NH-09 sections.
+- Direct road remains the preferred working corridor.
+- Route-changing heavy-A passes on the real corridor: 0.
+- Kankhal is institutionally confirmed as Anandamayi Ma ashram/samadhi, but route gate remains failed.
+- Corridor result remains `DOORREIZEN_NAAR_KUMAON`.
+
+## GEO and map integrity
+
+- Forty assigned WORKING points are present.
+- Material conflation of Babaji Cave, Smriti Bhavan, Dunagiri Temple and YSS Dwarahat Ashram was corrected.
+- Neem Karoli Baba Vrindavan, Radha Raman, Kasar Devi, Kakrighat, Jageshwar, Binsar and Ghorakhal points were corrected or refined.
+- Every WORKING record includes point type, estimated accuracy, source, reason, check date and recheck condition.
+- No WORKING point is described as a verified entrance unless the evidence supports that precision.
+- LOCATION_ID 300–315 assignments remain unique and block-pure.
+- All formal A/B/C records remain present and unchanged.
+- `B_ADVIES` was replaced by `B_FORMEEL`; no advice was assigned.
+- KML folders are `A_FORMEEL`, `B_FORMEEL`, `C_CONTEXT` and `CORRIDOR_EN_STATIONS`.
+- KML contains only assigned records with usable WORKING coordinates and closes as valid KML/XML text.
+
+## Scope and prohibitions
+
+- No formal or advisory A/B/C was assigned or changed.
+- No PARELS, hotel choice, internal Kumaon day plan, unrelated route stage or pipeline redesign was performed.
+- No GOUD context or controllertransition was created.
+
+## Quality-gate result
+
+Technical integrity: PASS.
+Content status: PARTIAL.
+
+Remaining non-fatal gaps:
+1. exact December 2026 train operation and booking availability;
+2. live winter road, fog and hill conditions;
+3. several locality/representative WORKING points and missing external cluster block reservations before definitive all-project KML release.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1125 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/claims.jsonl blob_sha=47fa624fb9b496cb6b55c4b3b94c4e4d4ae0b959 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+{"claim_id":"ZC-001","candidate_id":"CORRIDOR-DIRECT-ROAD","claim_type":"PROXIMITY","claim_text":"The direct all-road corridor from Vrindavan through Moradabad, Rampur and Rudrapur to Haldwani/Kathgodam remains the most continuous default corridor.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZS-004","ZS-005"],"supersedes_claim_id":"RC-001","notes":"Official highway-section evidence supports corridor geometry; exact live routing remains practical."}
+{"claim_id":"ZC-002","candidate_id":"CORRIDOR-DIRECT-ROAD","claim_type":"VISITABILITY","claim_text":"A conservative seven-to-nine-hour winter planning class to the foothill gateway is usable, but actual December 2026 road time, fog and hill continuation require live checking.","evidence_status":"PRACTICAL_CHECK_REQUIRED","source_ids":["ZS-006","ZR-003"],"supersedes_claim_id":"RC-002","notes":"Historical fog evidence is seasonal context, not a future forecast or exact ETA."}
+{"claim_id":"ZC-003","candidate_id":"CORRIDOR-DELHI-SHATABDI","claim_type":"PROXIMITY","claim_text":"Indian Railways currently lists 12040 New Delhi–Kathgodam at 06:00–11:40 and 12039 Kathgodam–New Delhi at 15:35–21:05.","evidence_status":"HISTORICALLY_DOCUMENTED","source_ids":["ZS-001"],"supersedes_claim_id":"RC-004","notes":"Exact December 2026 availability remains a booking-date check."}
+{"claim_id":"ZC-004","candidate_id":"CORRIDOR-MORADABAD-RAIL","claim_type":"PROXIMITY","claim_text":"Indian Railways currently lists 15035 Delhi–Kathgodam at 16:00–22:45 and 15036 Kathgodam–Delhi at 08:45–15:25.","evidence_status":"HISTORICALLY_DOCUMENTED","source_ids":["ZS-002"],"supersedes_claim_id":"RC-006","notes":"Corrects BRONS uncertainty about the current service class; date-specific availability remains open."}
+{"claim_id":"ZC-005","candidate_id":"CORRIDOR-MATHURA-RAMNAGAR","claim_type":"PROXIMITY","claim_text":"The Mathura/Kasganj/Bareilly/Ramnagar train lead remains non-default because exact current operating days conflict and December 2026 service cannot yet be confirmed.","evidence_status":"PRACTICAL_CHECK_REQUIRED","source_ids":["ZS-003","ZR-002"],"supersedes_claim_id":"RC-007","notes":"Route lead retained without inventing a stable weekly pattern."}
+{"claim_id":"ZC-006","candidate_id":"CORRIDOR-DELHI-SHATABDI","claim_type":"PROXIMITY","claim_text":"Returning from Vrindavan to New Delhi before travelling east to Kathgodam remains a substantial backtrack and is not the default fastest continuous corridor.","evidence_status":"INFERRED","source_ids":["ZS-001","ZS-004"],"supersedes_claim_id":"RC-005","notes":"Can still be chosen for comfort or when already positioned in Delhi."}
+{"claim_id":"ZC-007","candidate_id":"HEAVY-YSS-NOIDA","claim_type":"INSTITUTIONAL_IDENTITY","claim_text":"YSS Noida is a current official Yogananda institution but is a modern branch rather than a unique Yogananda life-event, samadhi or residence site.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZS-007"],"project_confirmation":true,"supersedes_claim_id":"RC-010","notes":"Direct-line detector positive; route gate remains failed."}
+{"claim_id":"ZC-008","candidate_id":"HEAVY-ANANDAMAYI-KANKHAL","claim_type":"INSTITUTIONAL_IDENTITY","claim_text":"Anandamayi Ma's Kankhal Ashram and Samadhi Mandir/Chetan Samadhi are institutionally confirmed current lineage places with recurring practice.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["ZS-008","ZS-009","ZS-010"],"project_confirmation":true,"supersedes_claim_id":"RC-012","notes":"Upgrades the BRONS secondary basis to institutional confirmation."}
+{"claim_id":"ZC-009","candidate_id":"HEAVY-ANANDAMAYI-KANKHAL","claim_type":"PROXIMITY","claim_text":"Kankhal passes the direct-personal-line content gate but fails the Vrindavan–Kumaon route gate because it requires a major Haridwar detour.","evidence_status":"INFERRED","source_ids":["ZS-008","ZS-004","ZS-005"],"supersedes_claim_id":"RC-013","notes":"Requires a separate conscious Haridwar/Anandamayi route choice."}
+{"claim_id":"ZC-010","candidate_id":"EXCEPTION-DARGAH-ALA-HAZRAT","claim_ty
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1126 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/claims.jsonl blob_sha=47fa624fb9b496cb6b55c4b3b94c4e4d4ae0b959 original_offset=4096 original_length=3928 payload_bytes=3928 chunk_index=1 chunk_count=2 classification=text
+pe":"DEVOTIONAL_PURPOSE","claim_text":"Dargah-e-Ala Hazrat remains a major Barelvi shrine but is not established as an India-Essential route interruption for Mark under the strict gate.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZS-026","ZS-027"],"supersedes_claim_id":"RC-014","notes":"Research exception only; no formal or advisory B assigned by ZILVER."}
+{"claim_id":"ZC-011","candidate_id":"CONTEXT-SORON","claim_type":"TRADITION","claim_text":"Soron Shukar Kshetra did not establish a direct personal-line relation or exceptional India-Essential status for this corridor.","evidence_status":"NOT_ESTABLISHED","source_ids":["ZR-005"],"supersedes_claim_id":"RC-015","notes":"Regional significance does not pass the strict gate."}
+{"claim_id":"ZC-012","candidate_id":"ALL-ROUTE-ZONES","claim_type":"OVERLAY_RELATION","claim_text":"No new route-changing heavy-A place was established after independent repeat checks across all corridor zones and required personal-line detectors.","evidence_status":"NOT_ESTABLISHED","source_ids":["ZR-005"],"supersedes_claim_id":"RC-016","notes":"Negative result is scoped to the exceptional gate, not absence of religious places."}
+{"claim_id":"ZC-013","candidate_id":"GEO-DWARAHAT","claim_type":"PHYSICAL_IDENTITY","claim_text":"Babaji Cave, Babaji Smriti Bhavan, Dunagiri Temple and YSS Dwarahat Ashram are four distinct physical points and must not share the Dwarahat ashram coordinate.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZS-011","ZS-012","ZS-013","ZS-014"],"notes":"Corrects material BRONS point conflation."}
+{"claim_id":"ZC-014","candidate_id":"IND-PLACE-000002","claim_type":"PHYSICAL_IDENTITY","claim_text":"The Neem Karoli Baba Ashram and Samadhi Vrindavan working point is corrected to approximately 27.567400, 77.692150.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZS-022"],"notes":"Geotag corroborates the intended ashram rather than a northern Vrindavan point."}
+{"claim_id":"ZC-015","candidate_id":"BRJ-TMP-010","claim_type":"PHYSICAL_IDENTITY","claim_text":"The Radha Raman Temple working point is corrected to approximately 27.58538, 77.69873.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZS-023"],"notes":"Formal B status remains unchanged."}
+{"claim_id":"ZC-016","candidate_id":"KUMAON-GEO-CORRECTIONS","claim_type":"PHYSICAL_IDENTITY","claim_text":"Kasar Devi, Kakrighat, Jageshwar, Binsar and Ghorakhal working points were corrected or refined to the intended named objects or representative sites.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZS-015","ZS-018","ZS-019","ZS-020","ZS-021"],"notes":"Exact entrances remain WORKING where not authoritatively established."}
+{"claim_id":"ZC-017","candidate_id":"FORMAL-STATUS-MAP","claim_type":"INSTITUTIONAL_IDENTITY","claim_text":"Radha Raman Temple and Ghorakhal Temple are existing formal B records and the map layer must be B_FORMEEL, not B_ADVIES.","evidence_status":"HISTORICALLY_DOCUMENTED","source_ids":["ZS-024","ZR-006"],"notes":"Semantic correction only; no new rating or advice."}
+{"claim_id":"ZC-018","candidate_id":"LOCATION-ID-SYSTEM","claim_type":"PHYSICAL_IDENTITY","claim_text":"Braj, corridor and Kumaon LOCATION_ID assignments remain unique and block-pure; unresolved external clusters remain BLOCK_RESERVATION_REQUIRED.","evidence_status":"HISTORICALLY_DOCUMENTED","source_ids":["ZS-025"],"notes":"No ID was added, reused or renumbered by ZILVER."}
+{"claim_id":"ZC-019","candidate_id":"CORRIDOR-CONCLUSION","claim_type":"PROXIMITY","claim_text":"The verified corridor decision remains DOORREIZEN NAAR KUMAON, with an overnight only for transport safety or timing and not for a discovered corridor heavy-A place.","evidence_status":"INFERRED","source_ids":["ZS-001","ZS-002","ZS-004","ZS-005","ZS-006","ZS-007","ZS-008"],"supersedes_claim_id":"RC-020","notes":"Subject to live date-specific transport and weather checks."}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1127 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/corridor_working.kml blob_sha=b83fae2a47835c9b0506f26014c4e44aeab33631 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>VRINDAVAN-KUMAON-CORRIDOR-001 — ZILVER WORKING GEO</name>
+<Style id="aStyle"><IconStyle><color>ff00aa00</color><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle></Style>
+<Style id="bStyle"><IconStyle><color>ff00a5ff</color><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle></Style>
+<Style id="cStyle"><IconStyle><color>ff0000ff</color><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle></Style>
+<Style id="corridorStyle"><IconStyle><color>ffff0000</color><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle></Style>
+<Folder><name>A_FORMEEL</name>
+<Placemark><name>200 — Katyayani Peeth / Keshav Ashram</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 200 | formal A | GEO WORKING | exact gate open</description><Point><coordinates>77.6905,27.5769,0</coordinates></Point></Placemark>
+<Placemark><name>201 — Neem Karoli Baba Ashram and Samadhi, Vrindavan</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 201 | formal A | GEO WORKING corrected</description><Point><coordinates>77.69215,27.5674,0</coordinates></Point></Placemark>
+<Placemark><name>400 — Babaji Cave</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 400 | formal A | geotagged cave point; trail recheck</description><Point><coordinates>79.4654,29.8334,0</coordinates></Point></Placemark>
+<Placemark><name>401 — Babaji Smriti Bhavan</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 401 | formal A | building near cave; WORKING</description><Point><coordinates>79.464364,29.832873,0</coordinates></Point></Placemark>
+<Placemark><name>402 — Dunagiri Temple</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 402 | formal A | temple object corrected</description><Point><coordinates>79.45123,29.79672,0</coordinates></Point></Placemark>
+<Placemark><name>403 — YSS Dwarahat Ashram</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 403 | formal A | official ashram point; WORKING</description><Point><coordinates>79.422761,29.784767,0</coordinates></Point></Placemark>
+<Placemark><name>404 — Kainchi Dham</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 404 | formal A | complex centre; traffic entrance recheck</description><Point><coordinates>79.51245,29.42255,0</coordinates></Point></Placemark>
+<Placemark><name>405 — Kasar Devi</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 405 | formal A | temple object corrected</description><Point><coordinates>79.66154,29.6416,0</coordinates></Point></Placemark>
+<Placemark><name>406 — Crank's Ridge</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 406 | formal A | representative landscape point</description><Point><coordinates>79.663,29.648,0</coordinates></Point></Placemark>
+<Placemark><name>407 — Kakrighat / Karkateshwar Mahadev</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 407 | formal A | representative site point corrected</description><Point><coordinates>79.53274,29.54371,0</coordinates></Point></Placemark>
+<Placemark><name>408 — Jageshwar</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 408 | formal A | temple-complex point refined</description><Point><coordinates>79.85428,29.6375,0</coordinates></Point></Placemark>
+<Placemark><name>409 — Hanuman Garhi</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 409 | formal A | WORKING complex point</description><Point><coordinates>79.455,29.381,0</coordinates></Point></Placemark>
+<Placemark><name>412 — Bhumiyadhar, first Ram Dass–Maharaj-ji meeting</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 412 | formal A | grounds point; exact meeting spot not claimed</description><Point><coordinates>79.509,29.411,0</coordinates></Point></Placemark>
+<Placemark><name>413 — Ramakrishna Kutir</name><styleUrl>#aStyle</styleUrl><de
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1128 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/corridor_working.kml blob_sha=b83fae2a47835c9b0506f26014c4e44aeab33631 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+scription>LOCATION_ID 413 | formal A | official institution; exact gate open</description><Point><coordinates>79.655,29.597,0</coordinates></Point></Placemark>
+<Placemark><name>414 — Chitai Golu Devta Temple</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 414 | formal A | WORKING temple point</description><Point><coordinates>79.714,29.642,0</coordinates></Point></Placemark>
+<Placemark><name>420 — Turiya Niwas</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 420 | formal A | WORKING building point</description><Point><coordinates>79.669,29.654,0</coordinates></Point></Placemark>
+<Placemark><name>421 — Bodh Ashram</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 421 | formal A | WORKING ashram point</description><Point><coordinates>79.675,29.643,0</coordinates></Point></Placemark>
+<Placemark><name>423 — Haidakhan Vishwa Mahadham</name><styleUrl>#aStyle</styleUrl><description>LOCATION_ID 423 | formal A | WORKING complex point; no Babaji equivalence claim</description><Point><coordinates>79.701,29.119,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>B_FORMEEL</name>
+<Placemark><name>209 — Radha Raman Temple</name><styleUrl>#bStyle</styleUrl><description>LOCATION_ID 209 | existing formal B | not ZILVER advice | GEO corrected</description><Point><coordinates>77.69873,27.58538,0</coordinates></Point></Placemark>
+<Placemark><name>424 — Ghorakhal Temple</name><styleUrl>#bStyle</styleUrl><description>LOCATION_ID 424 | existing formal B | not ZILVER advice | GEO corrected</description><Point><coordinates>79.54545,29.37953,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>C_CONTEXT</name>
+<Placemark><name>415 — Mirtola / Krishnaprem Ashram</name><styleUrl>#cStyle</styleUrl><description>LOCATION_ID 415 | formal C | WORKING</description><Point><coordinates>79.787,29.663,0</coordinates></Point></Placemark>
+<Placemark><name>416 — Binsar Wildlife Sanctuary</name><styleUrl>#cStyle</styleUrl><description>LOCATION_ID 416 | formal C | representative sanctuary centre corrected</description><Point><coordinates>79.75,29.6667,0</coordinates></Point></Placemark>
+<Placemark><name>417 — Patal Bhuvaneshwar</name><styleUrl>#cStyle</styleUrl><description>LOCATION_ID 417 | formal C | WORKING</description><Point><coordinates>80.091,29.691,0</coordinates></Point></Placemark>
+<Placemark><name>422 — Daulchina / Dhaulchina Ashram</name><styleUrl>#cStyle</styleUrl><description>LOCATION_ID 422 | formal C | locality-level WORKING point</description><Point><coordinates>79.632,29.743,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>CORRIDOR_EN_STATIONS</name>
+<Placemark><name>300 — Mathura Junction railway station</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 300 | corridor station</description><Point><coordinates>77.6737,27.4924,0</coordinates></Point></Placemark>
+<Placemark><name>301 — Mathura Cantt railway station</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 301 | corridor station</description><Point><coordinates>77.6907,27.5006,0</coordinates></Point></Placemark>
+<Placemark><name>302 — New Delhi railway station</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 302 | Delhi comparison station</description><Point><coordinates>77.2199,28.6429,0</coordinates></Point></Placemark>
+<Placemark><name>303 — YSS Noida Ashram</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 303 | direct-line context only | route gate fail</description><Point><coordinates>77.3718,28.6246,0</coordinates></Point></Placemark>
+<Placemark><name>304 — Gajraula Junction / road node</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 304 | direct corridor node</description><Point><coordinates>78.2395,28.8447,0</coordinates></Point></Placemark>
+<Placemark><name>305 — Moradabad Junction railway station</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 305 | direct corridor and rail transfer</description><Point><coordinates>78.7733,28.8386,0</coordinates></Point></Placemark>
+<Placemark><name>306 — Ramp
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1129 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/corridor_working.kml blob_sha=b83fae2a47835c9b0506f26014c4e44aeab33631 original_offset=8192 original_length=2365 payload_bytes=2365 chunk_index=2 chunk_count=3 classification=text
+ur Junction railway station</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 306 | direct corridor</description><Point><coordinates>79.0245,28.806,0</coordinates></Point></Placemark>
+<Placemark><name>307 — Rudrapur City railway station</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 307 | direct corridor</description><Point><coordinates>79.3996,28.9743,0</coordinates></Point></Placemark>
+<Placemark><name>308 — Lal Kuan Junction railway station</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 308 | Kumaon junction</description><Point><coordinates>79.5195,29.0665,0</coordinates></Point></Placemark>
+<Placemark><name>309 — Haldwani railway station</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 309 | Kumaon gateway</description><Point><coordinates>79.5127,29.2183,0</coordinates></Point></Placemark>
+<Placemark><name>310 — Kathgodam railway station</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 310 | rail terminus and hill gateway</description><Point><coordinates>79.546,29.2693,0</coordinates></Point></Placemark>
+<Placemark><name>311 — Kasganj Junction railway station</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 311 | alternative corridor station</description><Point><coordinates>78.6463,27.8087,0</coordinates></Point></Placemark>
+<Placemark><name>312 — Soron Shukar Kshetra</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 312 | context only | heavy gate fail</description><Point><coordinates>78.746,27.8904,0</coordinates></Point></Placemark>
+<Placemark><name>313 — Bareilly Junction railway station</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 313 | alternative corridor station</description><Point><coordinates>79.4111,28.3364,0</coordinates></Point></Placemark>
+<Placemark><name>314 — Ramnagar railway station</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 314 | date-dependent western Kumaon arrival</description><Point><coordinates>79.1265,29.3941,0</coordinates></Point></Placemark>
+<Placemark><name>315 — Dargah-e-Ala Hazrat</name><styleUrl>#corridorStyle</styleUrl><description>LOCATION_ID 315 | research exception only | heavy route gate fail</description><Point><coordinates>79.4155,28.3676,0</coordinates></Point></Placemark>
+</Folder>
+</Document>
+</kml>
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1130 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/formal_status_coverage.md blob_sha=d2a0e0504155dac25c693e8665efca16bdc524a6 original_offset=0 original_length=1214 payload_bytes=1214 chunk_index=0 chunk_count=1 classification=text
+# Formal status coverage — VRINDAVAN-KUMAON-CORRIDOR-001 ZILVER
+
+## Snapshot comparison
+
+- expected formal A: 28;
+- present in `central_map_source.jsonl`: 28;
+- expected formal B: 2;
+- present: 2;
+- expected formal C: 4;
+- present: 4;
+- missing formal records: 0;
+- changed formal statuses: 0;
+- newly assigned formal or advisory A/B/C: 0.
+
+## Semantic correction
+
+The BRONS layer name `B_ADVIES` was invalid for the already-formal B records Radha Raman Temple and Ghorakhal Temple. ZILVER uses `B_FORMEEL`. This is a label correction only. Both B decisions remain Marks existing formal decisions.
+
+## LOCATION_ID integrity
+
+- Braj formal records preserve existing IDs including 200, 201 and 209.
+- Kumaon formal records preserve seed IDs 400–424 where assigned.
+- Corridor records remain 300–315.
+- Duplicate, reused or cross-block IDs: 0.
+- Bodh Gaya, Varanasi, Agra and Kankhal remain `BLOCK_RESERVATION_REQUIRED`; no fabricated permanent ID was created.
+
+## Result
+
+Formal-status preservation, map-layer semantics and LOCATION_ID coverage: PASS.
+
+Definitive all-project KML release remains deferred until missing cluster blocks are reserved and their GEO records are separately verified.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1131 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/handoff.yaml blob_sha=a346b141da37802246fd23e1aa5edf0b3a916e0c original_offset=0 original_length=3710 payload_bytes=3710 chunk_index=0 chunk_count=1 classification=text
+schema_version: 1
+run_id: VRINDAVAN-KUMAON-CORRIDOR-001
+completed_role: ZILVER
+result_status: PARTIAL
+output_manifest_path: research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/manifest.yaml
+next_role: GOUD
+next_expected_transition: CONTROLLER_TRANSITION_TO_GOUD
+corridor_result: DOORREIZEN_NAAR_KUMAON
+layer_statuses:
+  transport_and_corridor:
+    status: CORRECTED
+    risk: MEDIUM
+    reason: Official current service classes for 12039/12040 and 15035/15036 are established; December 2026 operation and live road conditions remain future checks.
+    reopen_instruction: VERIFY_DATE_SPECIFIC_ONLY
+  heavy_a_gate:
+    status: ACCEPTED
+    risk: LOW
+    reason: No route-changing heavy-A pass; Kankhal content gate is institutionally strengthened but route gate still fails.
+    reopen_instruction: MOTIVATED_SAMPLE
+  detector_and_negative_search:
+    status: ACCEPTED
+    risk: MEDIUM
+    reason: All required zones and detectors were independently repeated without a new route-changing physical place.
+    reopen_instruction: MOTIVATED_SAMPLE
+  working_geo:
+    status: CORRECTED
+    risk: MEDIUM
+    reason: Material Dwarahat, Vrindavan and Kumaon point errors were corrected; remaining low-precision points stay explicitly WORKING.
+    reopen_instruction: VERIFY_OPEN_ENTRANCES
+  location_ids:
+    status: ACCEPTED
+    risk: LOW
+    reason: Existing blocks and assignments remain unique and unchanged; missing external-cluster blocks remain requested.
+    reopen_instruction: MOTIVATED_SAMPLE
+  central_map_and_kml:
+    status: CORRECTED
+    risk: MEDIUM
+    reason: B_ADVIES was corrected to B_FORMEEL and the forty-point KML was regenerated with corrected coordinates.
+    reopen_instruction: VERIFY_XML_AND_COUNTS
+  formal_status_coverage:
+    status: ACCEPTED
+    risk: LOW
+    reason: All 28 formal A, 2 formal B and 4 formal C records remain present and unchanged.
+    reopen_instruction: MOTIVATED_SAMPLE
+open_blockers:
+  - Exact December 2026 train operation and booking availability require PRS or IRCTC recheck.
+  - Live winter road time, fog, weather and hill conditions require recheck near departure.
+  - Some WORKING points and external cluster block reservations remain unresolved before definitive all-project KML release.
+required_predecessor_files:
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/manifest.yaml
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/report/INDEX.md
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/claims.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/sources/registry.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/sources/rejected.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/route_corridors.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/transport_options.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/route_zones.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/heavy_a_gate.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/detector_checks.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/negative_searches.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/working_geo.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/location_assignments.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/location_id_requests.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/central_map_source.jsonl
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/corridor_working.kml
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/formal_status_coverage.md
+  - research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/audit.md
+future_source_commit: null
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1132 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/manifest.yaml blob_sha=4e0a79f512ead3aaf79f7d2775e1319142936b25 original_offset=0 original_length=2609 payload_bytes=2609 chunk_index=0 chunk_count=1 classification=text
+run_id: VRINDAVAN-KUMAON-CORRIDOR-001
+role: ZILVER
+completion_status: PARTIAL
+corridor_result: DOORREIZEN_NAAR_KUMAON
+source_commit: 60d87c0869584c2c89a3a19a626b65b496e1a2c9
+context_profile: ZILVER_MIN
+protocol_versions:
+  pipeline: 3.1.0
+  methodology: 3.0.0
+counts:
+  claims: 19
+  accepted_sources: 27
+  rejected_sources: 7
+  route_corridors: 5
+  transport_options: 6
+  route_zones: 10
+  heavy_a_gate_records: 4
+  detector_checks: 12
+  negative_searches: 10
+  working_geo_records: 40
+  corridor_location_assignments: 16
+  location_id_requests: 4
+  central_map_records: 51
+  kml_placemarks: 40
+formal_status_counts:
+  expected_a: 28
+  present_a: 28
+  expected_b: 2
+  present_b: 2
+  expected_c: 4
+  present_c: 4
+files:
+  - path: report/INDEX.md
+  - path: report/01_transport_and_corridors_verified.md
+  - path: report/02_heavy_a_and_negative_search_verified.md
+  - path: report/03_geo_location_ids_and_map_semantics.md
+  - path: report/04_conclusion_and_gate.md
+  - path: claims.jsonl
+  - path: sources/registry.jsonl
+  - path: sources/rejected.jsonl
+  - path: route_corridors.jsonl
+  - path: transport_options.jsonl
+  - path: route_zones.jsonl
+  - path: heavy_a_gate.jsonl
+  - path: detector_checks.jsonl
+  - path: negative_searches.jsonl
+  - path: working_geo.jsonl
+  - path: location_assignments.jsonl
+  - path: location_id_requests.jsonl
+  - path: central_map_source.jsonl
+  - path: corridor_working.kml
+  - path: formal_status_coverage.md
+  - path: audit.md
+  - path: handoff.yaml
+  - path: COMPLETED
+line_counts_reliable: false
+content_hashes_reliable: false
+validation:
+  github_read_confirmed: true
+  github_write_confirmed: true
+  schema_v2_context_preserved: true
+  inline_handoff_migration_performed: false
+  required_outputs_present: true
+  sentinels_checked: true
+  kml_xml_closing_checked: true
+  kml_placemark_count_checked: true
+  max_lines_under_1500: true
+  forbidden_files_used: false
+  source_id_references_valid: true
+  source_ids_unique_across_registers: true
+  identifiers_unique: true
+  working_geo_records_complete: true
+  formal_status_records_complete: true
+  formal_or_advisory_abc_assigned: false
+  parels_activated: false
+  successor_context_created: false
+  controller_transition_executed: false
+  pipeline_architecture_modified: false
+open_blockers:
+  - Exact December 2026 train operation and booking availability require PRS or IRCTC recheck.
+  - Live winter road time, fog, weather and hill conditions require recheck near departure.
+  - Some WORKING points and external cluster block reservations remain unresolved before definitive all-project KML release.
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1133 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/report/01_transport_and_corridors_verified.md blob_sha=e6d0c92e426d2c69ee307e727de522f7748729bd original_offset=0 original_length=2785 payload_bytes=2785 chunk_index=0 chunk_count=1 classification=text
+# 01 — Transport and corridors verified
+
+## Uitkomst
+
+De BRONS-hoofdrichting blijft staan: de meest continue standaardverbinding is rechtstreeks per auto vanaf Vrindavan via de NH-09-as langs Gajraula, Moradabad, Rampur en Rudrapur naar Lal Kuan, Haldwani of Kathgodam. De wegas Delhi–Moradabad en Rampur–Rudrapur is door actuele MoRTH-documentatie bevestigd. Terugrijden naar New Delhi voegt een grote westelijke verplaatsing en een transfer toe.
+
+`DOORREIZEN_NAAR_KUMAON` blijft daarom de corridoruitkomst. Een overnachting wordt niet spiritueel gerechtvaardigd, maar kan praktisch nodig worden door laat vertrek, wintermist, chauffeurbelasting, duisternis of een verdere rit naar Almora, Dwarahat of Haidakhan.
+
+## Treinen
+
+Indian Railways bevestigt actueel:
+
+- 12040 New Delhi–Kathgodam Shatabdi: 06:00–11:40;
+- 12039 Kathgodam–New Delhi Shatabdi: 15:35–21:05;
+- 15035 Delhi–Kathgodam Uttarakhand Sampark Kranti: 16:00–22:45;
+- 15036 Kathgodam–Delhi Uttarakhand Sampark Kranti: 08:45–15:25.
+
+Dit sluit de BRONS-onzekerheid over het actuele bestaan en de globale tijdsklasse van 15035/15036. De specifieke operationele status op Marks reisdatum in december 2026 kan nu nog niet definitief worden bevestigd en blijft een IRCTC/PRS-hercontrole vóór boeken.
+
+De 15055 Agra Fort–Ramnagar-route via Mathura/Kasganj/Bareilly blijft een bruikbare treinlead. Route en bestaan zijn voldoende bevestigd, maar de actuele rijdagen lopen in secundaire bronnen uiteen. Zij blijft daarom geen robuuste standaardroute zonder datum-specifieke boekingscontrole.
+
+## Wegduur en winter
+
+BRONS' zeven–negen uur blijft bruikbaar als conservatieve winterse deur-tot-deur-planningsklasse met pauzes, stedelijke vertraging, mist en marge. Het is geen actuele ETA. Een live routerberekening moet vlak voor vertrek worden uitgevoerd.
+
+IMD-documentatie uit december 2025 bevestigt dat dichte tot zeer dichte mist in Uttar Pradesh en geïsoleerd Uttarakhand een reëel seizoensrisico is. Dit bewijst geen weersituatie voor december 2026. Live router, IMD-waarschuwingen en wegstatus moeten vlak voor vertrek opnieuw worden gecontroleerd.
+
+## Corridors
+
+- CR-001 directe auto: voorkeur behouden.
+- CR-002 auto naar Moradabad plus trein: bruikbaar om rijbelasting te beperken, maar aansluiting- en transfertijdrisico maken geen snelheidsvoordeel aantoonbaar.
+- CR-003 Mathura/Kasganj/Bareilly/Ramnagar: beperkte, datumafhankelijke vergelijking; westelijke aankomst is niet optimaal voor alle Kumaon-A's.
+- CR-004 Kasganj/Bareilly over de weg: samenhangende alternatieve corridor, zonder bewezen voordeel boven CR-001.
+- CR-005 New Delhi plus Shatabdi: betrouwbare comfortoptie wanneer Mark al in Delhi is gepositioneerd; vanuit Vrindavan blijft het een grote terugweg.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1134 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/report/02_heavy_a_and_negative_search_verified.md blob_sha=09050518336b641d07643b085af7b4c14ee086e8 original_offset=0 original_length=2273 payload_bytes=2273 chunk_index=0 chunk_count=1 classification=text
+# 02 — Heavy-A gate and negative searches verified
+
+## Gate-uitkomst
+
+Geen onderzochte plek op de realistische doorgaande corridor haalt tegelijk de inhoudelijke zware poort en de routepoort. De strenge uitkomst van BRONS wordt bevestigd.
+
+### YSS Noida Ashram
+
+YSS bevestigt een actuele officiële Yogananda-instelling met meditatie, satsanga en retreatfunctie. Dit is een directe institutionele lijnrelatie, maar geen unieke verblijfplaats, samadhi of historische Yogananda-gebeurtenis. Vanuit Vrindavan vereist de locatie een terugweg naar Delhi/NCR. Inhoudelijke detector positief; routepoort faalt.
+
+### Anandamayi Ma Samadhi, Kankhal
+
+De eerdere secundaire basis is vervangen door institutionele Anandamayi-bronnen. De Kankhal-ashram, Samadhi Mandir/Chetan Samadhi, terugkerende Sanyam-praktijk en actuele Sangha-contactstructuur zijn institutioneel bevestigd. De directe-persoonlijke-lijnpoort passeert inhoudelijk.
+
+Kankhal ligt echter buiten de snelste Vrindavan–Kumaon-as en veroorzaakt een grote Haridwar-omweg. De routepoort faalt binnen deze run. De plek hoort alleen in een afzonderlijke bewuste Haridwar/Anandamayi-routekeuze.
+
+### Dargah-e-Ala Hazrat, Bareilly
+
+De fysieke schrijn en transnationale Barelvi-betekenis blijven bevestigd. De bronnen dragen geen conclusie dat deze plek voor Marks persoonlijke pelgrimsdoel een nationaal onmisbare routeonderbreking vormt. Zij blijft een onderzoeksuitzondering, zonder formeel of adviserend B-label door ZILVER. Zware poort faalt.
+
+### Soron Shukar Kshetra
+
+Regionale Varaha/Ganga-pelgrimsbetekenis is aannemelijk, maar directe persoonlijke lijn of uitzonderlijke India-Essential-status is niet vastgesteld. Zware poort faalt.
+
+## Herhaalde detectorcontrole
+
+De AOAY-, Babaji/Kriya-, Lahiri-, Sri Yukteswar-, Keshavanand-, Neem Karoli Baba/Ram Dass-, Anandamayi-, Ramakrishna/Vivekananda-, overige TOP_X- en vijfdelige Krishna-detectoren zijn opnieuw per routezone gecontroleerd. Er is geen nieuwe concrete routebepalende fysieke plek vastgesteld.
+
+Negatieve resultaten betekenen uitsluitend dat binnen de afgebakende corridor geen plek de uitzonderlijk hoge persoonlijke-lijn- of India-Essential-poort haalde. Zij betekenen niet dat de onderzochte steden geen religieuze plaatsen bezitten.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1135 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/report/03_geo_location_ids_and_map_semantics.md blob_sha=dca93907ffc3aa09aaceaf6de4edf0def752404e original_offset=0 original_length=2154 payload_bytes=2154 chunk_index=0 chunk_count=1 classification=text
+# 03 — GEO, LOCATION_ID and map semantics
+
+## LOCATION_ID
+
+Braj 200–228, corridor 300–315 and Kumaon 400–426 blijven ongewijzigd. Corridor-ID's zijn uniek, sequentieel en blokzuiver. De bestaande aanvragen voor Bodh Gaya, Varanasi, Agra en Haridwar/Kankhal blijven `BLOCK_RESERVATION_REQUIRED`; ZILVER reserveert geen nieuw blok.
+
+## Materiële GEO-correcties
+
+De onafhankelijke controle vond dat vier Dwarahat-objecten in BRONS te dicht bij hetzelfde ashrampunt waren geplaatst. Zij zijn nu gescheiden:
+
+- Babaji Cave: 29.833400, 79.465400;
+- Babaji Smriti Bhavan: 29.832873, 79.464364;
+- Dunagiri Temple: 29.796720, 79.451230;
+- YSS Dwarahat Ashram: 29.784767, 79.422761.
+
+Andere materiële correcties:
+
+- Neem Karoli Baba Ashram Vrindavan: 27.567400, 77.692150;
+- Radha Raman Temple: 27.585380, 77.698730;
+- Kainchi Dham: 29.422550, 79.512450;
+- Kasar Devi Temple: 29.641600, 79.661540;
+- Kakrighat representatief punt: 29.543710, 79.532740;
+- Jageshwar complex: 29.637500, 79.854280;
+- Binsar Sanctuary representatief centrum: 29.666700, 79.750000;
+- Ghorakhal Temple: 29.379530, 79.545450.
+
+De overige punten zijn opnieuw op naam, stad, objecttype en globale plaatsing gecontroleerd. Waar geen gezaghebbende exacte bezoekersingang beschikbaar was, blijft `WORKING` zichtbaar. Geen WORKING-punt wordt als geverifieerde ingang gepresenteerd.
+
+## Kaartsemantiek
+
+BRONS gebruikte `B_ADVIES` voor twee reeds formele B-records: Radha Raman Temple en Ghorakhal Temple. Dat was semantisch onjuist omdat ZILVER geen adviesstatus mag toekennen en deze B-statussen uitsluitend van Mark afkomstig zijn.
+
+De gecorrigeerde centrale bron en KML gebruiken daarom `B_FORMEEL`. Beide records behouden exact hun bestaande formele B-status. Er is geen nieuw adviserend B-record toegevoegd.
+
+`A_FORMEEL`, `B_FORMEEL`, `C_CONTEXT` en `CORRIDOR_EN_STATIONS` blijven onderscheiden. GEO-status is onafhankelijk van de kaartlaag. De KML bevat uitsluitend records met een toegewezen LOCATION_ID en bruikbaar WORKING-punt; formele locaties zonder gereserveerd blok blijven volledig zichtbaar in de centrale bron maar niet als fictief genummerde marker.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1136 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/report/04_conclusion_and_gate.md blob_sha=08497e46725acbeeb95a234052107f4fdfc7d3db original_offset=0 original_length=2071 payload_bytes=2071 chunk_index=0 chunk_count=1 classification=text
+# 04 — Conclusion and quality gate
+
+Resultaat: PARTIAL.
+
+## Corridordeel
+
+`DOORREIZEN_NAAR_KUMAON`
+
+De directe autoroute via Moradabad–Rampur–Rudrapur naar Haldwani/Kathgodam blijft de snelste, eenvoudigste en meest continue werkcorridor. Delhi plus Shatabdi is een comfortvergelijking, niet de standaard vanaf Vrindavan. Moradabad plus trein kan rijbelasting verminderen maar heeft geen aangetoond deur-tot-deurvoordeel. De Mathura–Ramnagar-lead blijft datumafhankelijk en subclustergebonden.
+
+Geen onderzochte corridorplek rechtvaardigt een spirituele tussenstop of overnachting. Alleen vervoersveiligheid, wintermist, laat vertrek, chauffeurbelasting of verdere bergrit kan een overnachting praktisch rechtvaardigen.
+
+## Verbeteringen ten opzichte van BRONS
+
+- 12040/12039 en 15035/15036 zijn door officiële Indian Railways-bronnen bevestigd met actuele eindpunten en tijdsklassen.
+- Kankhal is opgewaardeerd van secundaire naar institutionele bevestiging voor ashram en samadhi, zonder de routepoort te veranderen.
+- materieel fout geplaatste Dwarahat/Kumaon- en Vrindavanpunten zijn gecorrigeerd;
+- de formele-B-kaartlaag is gecorrigeerd van `B_ADVIES` naar `B_FORMEEL`;
+- alle LOCATION_ID's en blokaanvragen zijn behouden zonder hernummering;
+- de zware-A- en negatieve zoekuitkomsten zijn onafhankelijk herhaald en blijven overeind.
+
+## Open gaten
+
+1. Een specifieke dienstregeling of beschikbaarheid voor Marks exacte reisdag in december 2026 kan pas dichter bij boeken via IRCTC/PRS worden bevestigd.
+2. Werkelijke winterse rijtijd, mist, wegstatus en bergrisico moeten vlak voor vertrek live worden gecontroleerd.
+3. Een beperkt aantal fysieke punten blijft bewust `WORKING` omdat een exacte bezoekersingang of kleine-sitegrens niet gezaghebbend is vastgesteld; ontbrekende clusterblokken blijven SUBREGIE-werk vóór een definitieve complete-project-KML.
+
+Geen formele of adviserende A/B/C-status is toegekend. Geen PARELS, hotelkeuze, interne Kumaon-dagplanning, GOUD-context, controllertransition of pipelinewijziging is uitgevoerd.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1137 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/report/INDEX.md blob_sha=3b6389e3350f5652dd17b7a65dd694082d782b4b original_offset=0 original_length=741 payload_bytes=741 chunk_index=0 chunk_count=1 classification=text
+# ZILVER report index — VRINDAVAN-KUMAON-CORRIDOR-001
+
+Leesvolgorde:
+1. `01_transport_and_corridors_verified.md`
+2. `02_heavy_a_and_negative_search_verified.md`
+3. `03_geo_location_ids_and_map_semantics.md`
+4. `04_conclusion_and_gate.md`
+
+Ondersteunende registers: `../claims.jsonl`, `../sources/registry.jsonl`, `../sources/rejected.jsonl`, `../route_corridors.jsonl`, `../transport_options.jsonl`, `../route_zones.jsonl`, `../heavy_a_gate.jsonl`, `../detector_checks.jsonl`, `../negative_searches.jsonl`, `../working_geo.jsonl`, `../location_assignments.jsonl`, `../location_id_requests.jsonl`, `../central_map_source.jsonl`, `../corridor_working.kml`, `../formal_status_coverage.md`, `../audit.md` en `../handoff.yaml`.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1138 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/sources/registry.jsonl blob_sha=33a205b2c6e3e9afcde1bffd70edf31c9b3c712c original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+{"source_id":"ZS-001","url":"https://www.indianrail.gov.in/shatabdi_trn_list.html","title":"Shatabdi Train List","publisher":"Indian Railways / CRIS","source_type":"GOVERNMENT","retrieved_at":"2026-07-18","access_status":"OK","notes":"Official current endpoints and timing class for 12039/12040."}
+{"source_id":"ZS-002","url":"https://indianrail.gov.in/mail_express_trn_list.html","title":"Mail/Express/Superfast Train List","publisher":"Indian Railways / CRIS","source_type":"GOVERNMENT","retrieved_at":"2026-07-18","access_status":"OK","notes":"Official current endpoints and timing class for 15035/15036."}
+{"source_id":"ZS-003","url":"https://indianrail.gov.in/enquiry/SCHEDULE/TrainSchedule.jsp","title":"Passenger Reservation Enquiry — Train Schedule","publisher":"Indian Railways / CRIS","source_type":"GOVERNMENT","retrieved_at":"2026-07-18","access_status":"DATE_QUERY_REQUIRED","notes":"Authoritative booking-date recheck interface; future December operation cannot yet be guaranteed."}
+{"source_id":"ZS-004","url":"https://morth.nic.in/hi/node/18606","title":"NH-09 Delhi–Moradabad section","publisher":"Ministry of Road Transport and Highways","source_type":"GOVERNMENT","retrieved_at":"2026-07-18","access_status":"OK","notes":"Official confirmation of the Delhi–Moradabad NH-09 section."}
+{"source_id":"ZS-005","url":"https://morth.nic.in/hi/node/23290","title":"NH-09 Rampur–Rudrapur section","publisher":"Ministry of Road Transport and Highways","source_type":"GOVERNMENT","retrieved_at":"2026-07-18","access_status":"OK","notes":"Official confirmation of the Rampur–Rudrapur NH-09 section."}
+{"source_id":"ZS-006","url":"https://mausam.imd.gov.in/Forecast/marquee_data/Press%20Release%2023-12-2025.pdf","title":"IMD Press Release 23 December 2025","publisher":"India Meteorological Department","source_type":"GOVERNMENT","retrieved_at":"2026-07-18","access_status":"OK","notes":"Historical seasonal evidence of dense/very dense fog in Uttar Pradesh and Uttarakhand; not a forecast for December 2026."}
+{"source_id":"ZS-007","url":"https://yssofindia.org/location/noida","title":"Yogoda Satsanga Sakha Ashram — Noida","publisher":"Yogoda Satsanga Society of India","source_type":"OFFICIAL_INSTITUTION","retrieved_at":"2026-07-18","access_status":"OK","notes":"Current official Yogananda institution and programmes."}
+{"source_id":"ZS-008","url":"https://www.anandamayi.org/calendar-visiting-sri-mas-ashrams/","title":"Calendar and Visiting Sri Ma’s Ashrams","publisher":"Sri Sri Anandamayi Sangha","source_type":"OFFICIAL_INSTITUTION","retrieved_at":"2026-07-18","access_status":"OK","notes":"Current Kankhal programme and samadhi-access context."}
+{"source_id":"ZS-009","url":"https://www.anandamayi.org/ashram/samyam.htm","title":"Sanyam Mahavrata at Kankhal","publisher":"Sri Sri Anandamayi Sangha","source_type":"OFFICIAL_LINEAGE","retrieved_at":"2026-07-18","access_status":"OK","notes":"Identifies annual practice at Kankhal adjacent to the Chetan Samadhi shrine."}
+{"source_id":"ZS-010","url":"https://www.anandamayi.org/ashram-contact-details/","title":"Ashram Contact Details","publisher":"Sri Sri Anandamayi Sangha","source_type":"OFFICIAL_INSTITUTION","retrieved_at":"2026-07-18","access_status":"OK","notes":"Current Kankhal institutional contact structure."}
+{"source_id":"ZS-011","url":"https://yssofindia.org/location/dwarahat","title":"Mahavatar Babaji Cave and YSS Dwarahat Ashram","publisher":"Yogoda Satsanga Society of India","source_type":"OFFICIAL_LINEAGE","retrieved_at":"2026-07-18","access_status":"OK","notes":"Official relationship among Dwarahat Ashram, Babaji Cave and recurring processions."}
+{"source_id":"ZS-012","url":"https://yssofindia.org/blog/newsletter-and-appeal-2011","title":"YSS Newsletter and Appeal 2011","publisher":"Yogoda Satsanga Society of India","source_type":"OFFICIAL_LINEAGE","retrieved_at":"2026-07-18","access_status":"OK","notes":"Identifies Smriti Bhavan as a meditation hall near Babaji Cave."}
+{"source_id":"ZS-013","url":"https://commons.wikimedia.org/wiki/File%3AMahavatar_Babaji%27s_Cave.jpg","title":"Ma
+<<< END CHUNK >>>
+

@@ -1,0 +1,1085 @@
+>>> CHUNK stream_row=277 path=runs/active/TOP11-INDIAGEEL-BLIND-SWEEP-001/RAMAKRISHNA_INDIAGEEL_FREEZE.md blob_sha=e79dede85ee5034c0284d42a168115d50636158e original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=10 classification=text
+al
+- TYPE: patron’s mansion/private house
+- EVENT/PERIOD: God-intoxication period; stayed for several days on at least one occasion
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: *Gospel of Sri Ramakrishna*, Master’s reminiscence.
+- URL: https://cs.rkmvu.ac.in/~tamal/gospel/gospel.html
+- LOCATOR: Ramakrishna says Mathur Babu kept him at his Janbazar mansion a few days.
+- CONTINUITY: historical mansion/site identifiable in Janbazar tradition; exact original fabric not verified here.
+
+### RK-017 — Dakshineswar Bhavatarini Kali Temple sanctum
+- PLACE/STATE: Dakshineswar, Kolkata, West Bengal
+- TYPE: Kali temple/sanctum; priestly workplace and vision site
+- EVENT/PERIOD: from 1855; central sadhana years
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Belur Math biography; *Gospel*; *Great Master*.
+- URL: https://belurmath.org/sri-ramakrishna/
+- LOCATOR: official biography states he became priest and spent hours worshipping Mother Kali; first major Kali vision associated with this worship.
+
+### RK-018 — Sri Ramakrishna’s room at Dakshineswar
+- PLACE/STATE: Dakshineswar, Kolkata, West Bengal
+- TYPE: residential/audience room
+- EVENT/PERIOD: long-term residence; Gospel conversations especially 1882–1885
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *Gospel of Sri Ramakrishna*.
+- URL: https://cs.rkmvu.ac.in/~tamal/EssentialBooks/gospel-of-sri-ramakrishna/gospel-of-sri-ramakrishna.html
+- LOCATOR: Gospel repeatedly places Master on the couch/porches in his room; architecture remains identifiable.
+
+### RK-019 — Panchavati, Dakshineswar
+- PLACE/STATE: Dakshineswar, Kolkata, West Bengal
+- TYPE: sacred grove/meditation area
+- EVENT/PERIOD: intense sadhana years; later walks/teachings
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *Great Master*; *Gospel*.
+- URL: https://cs.rkmvu.ac.in/~tamal/EssentialBooks/sri-ramakrishna-the-great-master/sri-ramakrishna-the-great-master.html
+- LOCATOR: repeated sadhana accounts and later Gospel occurrences.
+
+### RK-020 — Bilva/Bel tree sadhana site, Dakshineswar
+- PLACE/STATE: Dakshineswar, Kolkata, West Bengal
+- TYPE: sacred tree/ritual site
+- EVENT/PERIOD: Tantric sadhanas, c. 1860–1863
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Saradananda, *Great Master*.
+- URL: https://cs.rkmvu.ac.in/~tamal/greatmaster/greatmaster.html
+- LOCATOR: Ramakrishna’s own account says Brahmani conducted prescribed practices under the Vilva tree or Panchavati.
+
+### RK-021 — Dakshineswar bathing ghat / Ganges shoal
+- PLACE/STATE: Dakshineswar, Kolkata, West Bengal
+- TYPE: river ghat/riverbank
+- EVENT/PERIOD: recurring; Totapuri drowning-attempt reminiscence and daily temple life
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: *Gospel of Sri Ramakrishna*.
+- URL: https://cs.rkmvu.ac.in/~tamal/gospel/gospel.html
+- LOCATOR: Gospel describes the temple bathing-ghat and Ramakrishna’s knowledge/use of riverbank setting.
+- NOTE: exact river shoal geometry is historically variable.
+
+### RK-022 — Jadu Mallick’s garden house at Dakshineswar
+- PLACE/STATE: Dakshineswar, West Bengal
+- TYPE: private garden house/parlour
+- EVENT/PERIOD: 1870s; Christian vision sequence and other visits
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: *Gospel of Sri Ramakrishna*.
+- URL: https://cs.rkmvu.ac.in/~tamal/EssentialBooks/gospel-of-sri-ramakrishna/gospel-of-sri-ramakrishna.html
+- LOCATOR: Gospel says he sat in the parlour of Jadu Mallick’s garden house when Madonna-and-Child painting triggered Christian devotional experience.
+
+### RK-023 — Panchavati path/area of Christ vision
+- PLACE/STATE: Dakshineswar, West Bengal
+- TYPE: grove/path
+- EVENT/PERIOD: 1874 Christian sadhana, fourth day after painting experience
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: *Gospel of Sri Ramakrishna*.
+- URL: https://cs.rkmvu.ac.in/~tamal/EssentialBooks/gospel-of-sri-ramakrishna/gospel-of-sri-ramakrishna.html
+- LOCATOR: Gospel places Ramakrishna walking in Panchavati when he saw the figure identified with Jesus.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=278 path=runs/active/TOP11-INDIAGEEL-BLIND-SWEEP-001/RAMAKRISHNA_INDIAGEEL_FREEZE.md blob_sha=e79dede85ee5034c0284d42a168115d50636158e original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=10 classification=text
+
+- UNCERTAINTY: exact path point not given.
+
+### RK-024 — Deoghar / Baidyanath (Vaidyanath) Temple
+- PLACE/STATE: Deoghar, Jharkhand
+- TYPE: Jyotirlinga temple
+- EVENT/PERIOD: Jan 1868 pilgrimage; several days
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Ramakrishna Mission Deoghar history; *Great Master* pilgrimage chapter.
+- URL: https://rkmdeoghar.org/sri-ramakrishna-at-deoghar/
+- LOCATOR: pilgrimage party halted to visit Vaidyanath shrine.
+
+### RK-025 — impoverished village near Deoghar
+- PLACE/STATE: Deoghar vicinity, Jharkhand
+- TYPE: village occurrence
+- EVENT/PERIOD: Jan 1868; Ramakrishna sat among poor villagers and pressed Mathur to feed/clothe them
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ALLEEN_PLAATS
+- SOURCE: Ramakrishna Mission Deoghar; *Great Master*.
+- URL: https://rkmdeoghar.org/sri-ramakrishna-at-deoghar/
+- LOCATOR: official narrative of relief episode.
+- UNCERTAINTY: village name not securely exposed in accessible source.
+
+### RK-026 — two rented houses near Kedar Ghat (Mathur’s party)
+- PLACE/STATE: Varanasi, Uttar Pradesh
+- TYPE: rented residences
+- EVENT/PERIOD: 1868 Kashi stay
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: *Great Master*; Ramakrishna Advaita Ashrama Varanasi historical page.
+- URL: https://varanasi.rkmm.org/sri-ramakrishna-in-varanasi/
+- LOCATOR: sources state Mathur hired two houses side-by-side near Kedar Ghat.
+- UNCERTAINTY: one house is associated by institutional tradition with Kalinath Bapuli/Paduka Mandir; second exact house unresolved.
+
+### RK-027 — Kalinath Bapuli house / present Paduka Mandir tradition near Kedar Ghat
+- PLACE/STATE: Varanasi, Uttar Pradesh
+- TYPE: private residence/memorial
+- EVENT/PERIOD: 1868
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: Ramakrishna Advaita Ashrama Varanasi historical page.
+- URL: https://varanasi.rkmm.org/sri-ramakrishna-in-varanasi/
+- LOCATOR: institutional account says party stayed at Kalinath Bapuli house near Kedar Ghat and descendants retained the same house.
+- CAUTION: separate footwear-relic claim on site is not independently verified and is not used as presence proof.
+
+### RK-028 — Kashi Vishwanath Temple
+- PLACE/STATE: Varanasi, Uttar Pradesh
+- TYPE: Shiva temple
+- EVENT/PERIOD: 1868; visited almost daily
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *Great Master*; Varanasi RKM history.
+- URL: https://varanasi.rkmm.org/sri-ramakrishna-in-varanasi/
+- LOCATOR: pilgrimage narrative explicitly records repeated Vishwanath visits.
+
+### RK-029 — Kedarnath/Kedareshwar Temple at Kedar Ghat
+- PLACE/STATE: Varanasi, Uttar Pradesh
+- TYPE: Shiva temple
+- EVENT/PERIOD: 1868; particular ecstasy there
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *Great Master*.
+- URL: https://cs.rkmvu.ac.in/~tamal/EssentialBooks/sri-ramakrishna-the-great-master/sri-ramakrishna-the-great-master.html
+- LOCATOR: pilgrimage chapter notes special devotional absorption in Kedarnath temple.
+
+### RK-030 — Manikarnika Ghat / river off the ghat
+- PLACE/STATE: Varanasi, Uttar Pradesh
+- TYPE: cremation ghat/boat occurrence
+- EVENT/PERIOD: 1868; vision/samadhi from boat near burning ghat
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Varanasi RKM; *Great Master*.
+- URL: https://varanasi.rkmm.org/sri-ramakrishna-in-varanasi/
+- LOCATOR: boat approached Manikarnika and Ramakrishna entered ecstatic state witnessing the cremation ground.
+
+### RK-031 — Trailanga Swami’s place at Manikarnika Ghat
+- PLACE/STATE: Varanasi, Uttar Pradesh
+- TYPE: ascetic’s temporary residence/ghat site
+- EVENT/PERIOD: 1868; several visits
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: *Great Master*.
+- URL: https://cs.rkmvu.ac.in/~tamal/EssentialBooks/sri-ramakrishna-the-great-master/sri-ramakrishna-the-great-master.html
+- LOCATOR: pilgrimage chapter says Trailanga was then staying at Manikarnika and Ramakrishna visited him multiple times.
+- UNCERTAINTY: exact platform/room not specified.
+
+### RK-032 — Maheshchandra Sarkar’s house, Madanpura
+- PLACE/STATE: V
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=279 path=runs/active/TOP11-INDIAGEEL-BLIND-SWEEP-001/RAMAKRISHNA_INDIAGEEL_FREEZE.md blob_sha=e79dede85ee5034c0284d42a168115d50636158e original_offset=20480 original_length=4096 payload_bytes=4096 chunk_index=5 chunk_count=10 classification=text
+aranasi, Uttar Pradesh
+- TYPE: private house
+- EVENT/PERIOD: 1868; extended vina-listening visit
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: Varanasi RKM historical page.
+- URL: https://varanasi.rkmm.org/sri-ramakrishna-in-varanasi/
+- LOCATOR: records Mahesh Sarkar in Madanpura and Ramakrishna at his house for several hours listening to vina.
+
+### RK-033 — golden Annapurna image/temple occurrence
+- PLACE/STATE: Varanasi, Uttar Pradesh
+- TYPE: goddess shrine/temple
+- EVENT/PERIOD: 1868, after return from Vrindavan
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: *Great Master* pilgrimage chapter.
+- URL: https://cs.rkmvu.ac.in/~tamal/EssentialBooks/sri-ramakrishna-the-great-master/sri-ramakrishna-the-great-master.html
+- LOCATOR: narrative says on return to Kashi he saw the golden image of Annapurna.
+- UNCERTAINTY: exact historical shrine room/building not independently tied to a modern temple footprint in this freeze.
+
+### RK-034 — Triveni Sangam, Prayag/Allahabad
+- PLACE/STATE: Prayagraj, Uttar Pradesh
+- TYPE: river confluence/pilgrimage bathing site
+- EVENT/PERIOD: 1868; stayed three nights, sacred bath
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *Great Master* pilgrimage chapter.
+- URL: https://cs.rkmvu.ac.in/~tamal/EssentialBooks/sri-ramakrishna-the-great-master/sri-ramakrishna-the-great-master.html
+- LOCATOR: pilgrimage narrative explicitly records Prayag and bath at the holy confluence.
+
+### RK-035 — Fouzdar Kunj, Retia Bazar
+- PLACE/STATE: Vrindavan, Uttar Pradesh
+- TYPE: lodging house / upper room with semicircular veranda
+- EVENT/PERIOD: 1868 Vrindavan stay
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Ramakrishna Mission Sevashrama Vrindavan historical page.
+- URL: https://rkmsvrind.org/sri-ramakrishna-in-vrindavan/
+- LOCATOR: official account identifies “Fouzdar Kunj” and the upper room/veranda used by Ramakrishna.
+- CONTINUITY: institution states building remained identifiable; independent structural audit not performed.
+
+### RK-036 — Banke Bihari Temple
+- PLACE/STATE: Vrindavan, Uttar Pradesh
+- TYPE: Krishna temple
+- EVENT/PERIOD: 1868
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Ramakrishna Mission Vrindavan; *Great Master*.
+- URL: https://rkmsvrind.org/sri-ramakrishna-in-vrindavan/
+- LOCATOR: official pilgrimage-site list and narrative.
+
+### RK-037 — Kaliyadah/Kaliya-daha Ghat
+- PLACE/STATE: Vrindavan, Uttar Pradesh
+- TYPE: Yamuna ghat/bathing site
+- EVENT/PERIOD: 1868; bathing
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Ramakrishna Mission Vrindavan.
+- URL: https://rkmsvrind.org/sri-ramakrishna-in-vrindavan/
+- LOCATOR: official history identifies his bathing there.
+
+### RK-038 — Nidhivan and Ganga Mata’s kutiya site
+- PLACE/STATE: Vrindavan, Uttar Pradesh
+- TYPE: sacred grove and hermitage
+- EVENT/PERIOD: 1868; repeated association with Ganga Mata
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: *Great Master*; Ramakrishna Mission Vrindavan.
+- URL: https://rkmsvrind.org/sri-ramakrishna-in-vrindavan/
+- LOCATOR: sources place Ganga Mata at Nidhivan and Ramakrishna with her; modern account associates kutiya site with later Dharamshala/Ashram property.
+
+### RK-039 — Govardhan Hill
+- PLACE/STATE: Govardhan, Uttar Pradesh
+- TYPE: sacred hill
+- EVENT/PERIOD: 1868; climbed/ascended hill in ecstasy
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *Great Master*; Ramakrishna Mission Vrindavan.
+- URL: https://cs.rkmvu.ac.in/~tamal/EssentialBooks/sri-ramakrishna-the-great-master/sri-ramakrishna-the-great-master.html
+- LOCATOR: pilgrimage narrative explicitly records ascent.
+
+### RK-040 — Radha Kund
+- PLACE/STATE: Govardhan/Vrindavan region, Uttar Pradesh
+- TYPE: sacred tank
+- EVENT/PERIOD: 1868
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *Great Master*; Ramakrishna Mission Vrindavan.
+- URL: https://rkmsvrind.org/sri-ramakrishna-in-vrindavan/
+- LOCATOR: named in pilgrimage itinerary and biography.
+
+### RK-041 — Shyam Kund
+- PLACE/STATE: Govardhan/Vrindava
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=280 path=runs/active/TOP11-INDIAGEEL-BLIND-SWEEP-001/RAMAKRISHNA_INDIAGEEL_FREEZE.md blob_sha=e79dede85ee5034c0284d42a168115d50636158e original_offset=24576 original_length=4096 payload_bytes=4096 chunk_index=6 chunk_count=10 classification=text
+n region, Uttar Pradesh
+- TYPE: sacred tank
+- EVENT/PERIOD: 1868
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *Great Master*; Ramakrishna Mission Vrindavan.
+- URL: https://rkmsvrind.org/sri-ramakrishna-in-vrindavan/
+- LOCATOR: named in pilgrimage itinerary and biography.
+
+### RK-042 — Kusum Sarovar
+- PLACE/STATE: Govardhan region, Uttar Pradesh
+- TYPE: sacred tank
+- EVENT/PERIOD: 1868 pilgrimage
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Ramakrishna Mission Vrindavan historical page.
+- URL: https://rkmsvrind.org/sri-ramakrishna-in-vrindavan/
+- LOCATOR: official itinerary identifies visit.
+
+### RK-043 — Dhruva Ghat, Mathura
+- PLACE/STATE: Mathura, Uttar Pradesh
+- TYPE: Yamuna ghat
+- EVENT/PERIOD: 1868
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Ramakrishna Mission Vrindavan historical page.
+- URL: https://rkmsvrind.org/sri-ramakrishna-in-vrindavan/
+- LOCATOR: official account identifies Dhruva Ghat next to Bengali Ghat in Mathura.
+
+### RK-044 — Bhagavan Das Babaji’s hermitage
+- PLACE/STATE: Kalna/Ambika Kalna, West Bengal
+- TYPE: saint’s hermitage
+- EVENT/PERIOD: c. 1870 eastern-Bengal/Chaitanya pilgrimage
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: Saradananda, *Great Master*.
+- URL: https://cs.rkmvu.ac.in/~tamal/EssentialBooks/sri-ramakrishna-the-great-master/sri-ramakrishna-the-great-master.html
+- LOCATOR: narrative says boat reached Kalna ghat and Ramakrishna walked to Bhagavan Das’s hermitage.
+- UNCERTAINTY: exact surviving nineteenth-century hermitage fabric not established.
+
+### RK-045 — Kalna landing ghat (unnamed)
+- PLACE/STATE: Kalna, West Bengal
+- TYPE: river ghat/transit
+- EVENT/PERIOD: c. 1870
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ALLEEN_PLAATS
+- SOURCE: *Great Master*.
+- URL: https://cs.rkmvu.ac.in/~tamal/EssentialBooks/sri-ramakrishna-the-great-master/sri-ramakrishna-the-great-master.html
+- LOCATOR: pilgrimage narrative: their boat reached a ghat at Kalna early; they went on foot to Bhagavan Das.
+- UNCERTAINTY: ghat not named.
+
+### RK-046 — Panihati festival site under old pipal tree by Ganges
+- PLACE/STATE: Panihati, West Bengal
+- TYPE: riverbank/festival tree site
+- EVENT/PERIOD: documented festival visit, 1885 (and tradition of earlier visits)
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: Saradananda, *Great Master*, Panihati chapter.
+- URL: https://cs.rkmvu.ac.in/~tamal/EssentialBooks/sri-ramakrishna-the-great-master/sri-ramakrishna-the-great-master.html
+- LOCATOR: party arrived by boat and festival centre described around old pipal tree on Ganga.
+- CONTINUITY: exact original tree survival not established.
+
+### RK-047 — Mani Sen’s house/parlour and Radhakanta temple
+- PLACE/STATE: Panihati, West Bengal
+- TYPE: private house and family temple
+- EVENT/PERIOD: Panihati festival visit, 1885
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: *Great Master*; *Gospel*.
+- URL: https://cs.rkmvu.ac.in/~tamal/EssentialBooks/sri-ramakrishna-the-great-master/sri-ramakrishna-the-great-master.html
+- LOCATOR: Ramakrishna entered Mani Sen’s parlour and family Sri Radhakanta temple during festival sequence.
+
+### RK-048 — Raghava Pandit’s house/temple
+- PLACE/STATE: Panihati, West Bengal
+- TYPE: historic devotee-house temple
+- EVENT/PERIOD: Panihati festival route, 1885
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: *Great Master*.
+- URL: https://cs.rkmvu.ac.in/~tamal/EssentialBooks/sri-ramakrishna-the-great-master/sri-ramakrishna-the-great-master.html
+- LOCATOR: procession walked toward Raghava Pandit’s house and its temple/Salagrama/images.
+
+### RK-049 — reservoir in Mati Seal’s temple garden
+- PLACE/STATE: Kolkata/Dakshineswar vicinity, West Bengal
+- TYPE: temple-garden reservoir
+- EVENT/PERIOD: return from Panihati, 1885
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: *Gospel of Sri Ramakrishna*.
+- URL: https://cs.rkmvu.ac.in/~tamal/gospel/gospel.html
+- LOCATOR: Gospel says party stopped at reservoir in Mati Seal’s temple garden; Master used fish swim
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=281 path=runs/active/TOP11-INDIAGEEL-BLIND-SWEEP-001/RAMAKRISHNA_INDIAGEEL_FREEZE.md blob_sha=e79dede85ee5034c0284d42a168115d50636158e original_offset=28672 original_length=4096 payload_bytes=4096 chunk_index=7 chunk_count=10 classification=text
+ming freely as teaching illustration.
+- UNCERTAINTY: precise modern reservoir identity not independently verified.
+
+### RK-050 — Balaram Bose’s house / Balaram Mandir
+- PLACE/STATE: Bagbazar, Kolkata, West Bengal
+- TYPE: private devotee house; present Ramakrishna Math branch
+- EVENT/PERIOD: numerous visits 1880s; conversations, festivals/Ratha Yatra
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Belur Math official Balaram Mandir history; *Gospel*.
+- URL: https://belurmath.org/ramakrishna-math-balaram-mandir-kolkata-2/
+- LOCATOR: official branch history states present centre occupies Balaram Basu’s house and was sanctified by numerous Ramakrishna visits; current address 7 Girish Avenue.
+
+### RK-051 — Ishwar Chandra Vidyasagar’s two-storey house, Badurbagan
+- PLACE/STATE: Kolkata, West Bengal
+- TYPE: private residence
+- EVENT/PERIOD: 5 Aug 1882
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: *Gospel of Sri Ramakrishna*, “Visit to Vidyasagar”.
+- URL: https://cs.rkmvu.ac.in/~tamal/EssentialBooks/gospel-of-sri-ramakrishna/gospel-of-sri-ramakrishna.html
+- LOCATOR: detailed arrival through courtyard and second-floor room with table/bench.
+- CONTINUITY: exact historical house is documented; modern structural status not audited here.
+
+### RK-052 — Manimohan Mallick’s house, 81 Chitpore Road, Sinduriapati
+- PLACE/STATE: Kolkata, West Bengal
+- TYPE: private residence / Brahmo festival venue
+- EVENT/PERIOD: 26 Nov 1883 festival
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: Saradananda, *Great Master*, “Brahmo Festival in Manimohan Mallick’s House”.
+- URL: https://cs.rkmvu.ac.in/~tamal/EssentialBooks/sri-ramakrishna-the-great-master/sri-ramakrishna-the-great-master.html
+- LOCATOR: chapter identifies address and first-floor parlour/inner-apartment gathering.
+
+### RK-053 — Jayagopal Sen’s house, Mathaghasa quarter
+- PLACE/STATE: Kolkata, West Bengal
+- TYPE: private residence
+- EVENT/PERIOD: 28 Nov 1883
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ALLEEN_PLAATS
+- SOURCE: Saradananda, *Great Master*, “The Master in Jayagopal Sen’s House”.
+- URL: https://cs.rkmvu.ac.in/~tamal/EssentialBooks/sri-ramakrishna-the-great-master/sri-ramakrishna-the-great-master.html
+- LOCATOR: visit to spacious first-floor parlour reached by southern stair.
+- UNCERTAINTY: exact surviving building/address not established.
+
+### RK-054 — Shyampukur house, No. 55 Shyampukur Street; Master’s first-floor room
+- PLACE/STATE: Kolkata, West Bengal
+- TYPE: rented two-storey sick-house / room
+- EVENT/PERIOD: 1885, about 2.5 months
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Saradananda/*Great Master*; *Holy Mother Sri Sarada Devi* RKM corpus.
+- URL: https://cs.rkmvu.ac.in/~tamal/EssentialBooks/holy-mother-sri-sarada-devi/holy-mother-sri-sarada-devi.html
+- LOCATOR: source gives No. 55, street orientation and detailed floorplan; large first-floor room where Master lived.
+
+### RK-055 — Cossipore/Kasipur Garden House (Udyanbati), Master’s upstairs room, and Cossipore burning ghat
+- PLACE/STATE: Cossipore, Kolkata, West Bengal
+- TYPE: garden house/final residence and cremation site
+- EVENT/PERIOD: 11 Dec 1885–16 Aug 1886; Mahasamadhi and cremation
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT (garden house); DEELS (historic cremation ground footprint)
+- SOURCE: Belur Math/RKM Cossipore history; RKM *Early History of the Ramakrishna Movement*; Saradananda corpus.
+- URL: https://belurmath.org/ramakrishna-math-cossipore-kolkata/
+- LOCATOR: institutional histories identify 90 Cossipore Road garden house, the upstairs room occupied by the Master, death there on 16 Aug 1886, and procession to Cossipore burning ghat where body was cremated.
+- NOTE: garden house and cremation memorial are physically distinct sub-sites but retained as one terminal-event record to avoid inflating the normalized count; future canonicalization may split them.
+
+## ADDITIONAL VERIFIED OCCURRENCES HELD OUT OF NORMALIZED COUNT
+These are securely attested but not counted separately above because e
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=282 path=runs/active/TOP11-INDIAGEEL-BLIND-SWEEP-001/RAMAKRISHNA_INDIAGEEL_FREEZE.md blob_sha=e79dede85ee5034c0284d42a168115d50636158e original_offset=32768 original_length=4096 payload_bytes=4096 chunk_index=8 chunk_count=10 classification=text
+xact physical identity is either nested in another counted site or not sufficiently resolved for a standalone normalized record:
+- Keshab Chandra Sen’s Lily Cottage/Kamal Kutir, Kolkata: multiple visits; exact historical house well attested in Gospel/Great Master, modern continuity requires a dedicated property-history audit.
+- Surendra Nath Mitra’s house in Kolkata: Gospel records ground-floor room and upstairs drawing room on visit; exact address/building not resolved here.
+- Surendra Nath Mitra’s separate garden house at Kankurgachi: Gospel records 15 Jun 1884 festival; kept separate conceptually from Ramchandra Datta’s Yogodyan but exact plot continuity not established.
+- Ramchandra Datta’s Kankurgachi garden/Yogodyan: official Yogodyan history documents Ramakrishna’s visit; exact room-level event not necessary to inflate current count.
+- Jadu Mallick’s Calcutta/Kolkata house/garden visits beyond the separately counted Dakshineswar garden house.
+- Star Theatre, Beadon Street, Kolkata: Gospel records Ramakrishna attending performances in 1884; historical theatre location is clear but structure no longer treated as exact without urban-history audit.
+- Adhar Sen’s second-floor parlour, Kolkata; Nanda Bose’s large hall in Baghbazar; Ram Chandra Datta’s ground-floor drawing room; grieving Brahmani’s old brick house and Ganu’s mother’s drawing room: each is explicitly visited in Gospel, but exact modern physical identity/address was not resolved in this run.
+- Maidan, Kolkata: Ramakrishna recounts a balloon-ascension crowd and samadhi triggered by seeing an English boy leaning against a tree; exact point unknown.
+
+## CONFLICTS
+1. Exact date/year details for some early Kamarpukur sadhana episodes and the marriage are handled conservatively because early biographies themselves note chronology uncertainties.
+2. Varanasi residence: sources agree Mathur rented two side-by-side houses near Kedar Ghat; later institutional tradition identifies Kalinath Bapuli’s house/Paduka Mandir as one relevant house, but the second remains unresolved and relic claims are not treated as historical proof.
+3. Navadvip journey: the broader pilgrimage is documented, but the accessible indexed corpus did not expose enough occurrence-level text to assign specific Navadvip temples/houses without risk of importing a later pilgrimage itinerary. No speculative Navadvip site is therefore frozen.
+4. Several Kolkata memorial/property identifications have shifted street names or structures; historical presence is retained while modern “same building” status is marked DEELS/ALLEEN_PLAATS where not independently audited.
+
+## UNRESOLVED_LEADS
+- Exact Kolkata residence/work address where young Gadadhar assisted Ramkumar before Dakshineswar.
+- Exact physical point of the old Puri-road pilgrim rest shelter near Kamarpukur; two candidate traditions exist.
+- Exact field/house at Sihore for cowherd-feeding episode and other Hriday-family stays.
+- Exact second rented Varanasi house near Kedar Ghat.
+- Exact modern footprint of Maheshchandra Sarkar’s Madanpura residence.
+- Full occurrence-level reconstruction of the Navadvip leg of the 1870 journey from direct corpus text.
+- Modern continuity/audit of Lily Cottage/Kamal Kutir, Star Theatre historical site, Manimohan Mallick house, Jayagopal Sen house, Adhar Sen house, Nanda Bose house, Ram Chandra Datta house, Girish Chandra Ghosh house, Prankrishna house, Captain Viswanath house and other Gospel host-sites.
+- Exact property distinction/boundaries between Ramchandra Datta’s Yogodyan and nearby Surendra Nath Mitra garden house at Kankurgachi.
+- Additional minor ghats/boat landings and route-stops in the 1868 and 1870 pilgrimages may remain in unexhausted chapter text.
+
+## SATURATION_ATTEMPTS
+1. Corpus-first pass through Saradananda’s *Great Master* and M.’s *Gospel*, then official Belur Math/RKM institutional histories.
+2. Kamarpukur micro-site round: house rooms, school, pond, cremation grounds, mango grove, pilgrim shelter, Pyne family and neighbouring Anur/Jayrambati/Sihore.
+3. D
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=283 path=runs/active/TOP11-INDIAGEEL-BLIND-SWEEP-001/RAMAKRISHNA_INDIAGEEL_FREEZE.md blob_sha=e79dede85ee5034c0284d42a168115d50636158e original_offset=36864 original_length=2014 payload_bytes=2014 chunk_index=9 chunk_count=10 classification=text
+akshineswar room/tree/garden round: Kali shrine, Master’s room, Panchavati, Bilva tree, river/ghat, Jadu Mallick garden and sadhana incidents.
+4. 1868 pilgrimage round independently by Deoghar, Varanasi, Prayag, Mathura and Vrindavan plus host saints/houses.
+5. Kalna/Navadvip adversarial search using Bhagavan Das, Chaitanya, ghat and eastern-Bengal journey variants; Kalna yielded localisable occurrence, Navadvip did not yield enough direct indexed detail for safe site records.
+6. Panihati micro-site round: pipal riverbank, Mani Sen house/Radhakanta, Raghava Pandit and Mati Seal garden reservoir.
+7. Kolkata hostgraph round across Balaram, Vidyasagar, Keshab, Manimohan, Jayagopal, Surendra, Ramchandra, Adhar, Nanda, Girish, Jadu, theatres and samaj gatherings.
+8. Final-illness room-level round resolved No. 55 Shyampukur Street and 90 Cossipore Road/upstairs room, plus cremation-ground lead.
+9. Repeated broad discovery after these rounds increasingly returned already captured famous sites or host-sites whose exact modern identity was unresolved rather than new securely localisable India occurrences.
+
+PERSON_SWEEP_SATURATED: NEE
+MOTIVATION: The sweep reached a broad nationwide and occurrence-level corpus with 55 normalized records and a further set of verified but unresolved/nested Kolkata occurrences. It is not honest to declare saturation while the Navadvip leg, several private Kolkata houses, and some nineteenth-century property continuities remain unresolved and the searchable corpora were not exhaustively traversed page-by-page.
+
+## BLINDNESS AT FREEZE
+No PR #23 or #24, no comments on those PRs, no CCI person results/reconciliations, no IndiaROOD freezes, no other detector branches, no Top-11/METHOD result atlases, no AOAY location atlas, no candidate union, no regional/cluster person-result file, and no repository content beyond the explicitly allowed India-GEEL TASK.md and STATUS.md was read before this freeze. Research was derived independently from public external sources.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=284 path=runs/active/TOP11-INDIAGEEL-BLIND-SWEEP-001/RAMANA_MAHARSHI_INDIAGEEL_FREEZE.md blob_sha=86209637389b64b2c2280f00c50a0a4b0d905bbf original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=8 classification=text
+# RAMANA MAHARSHI — INDIA GEEL PRE-COMPARE FREEZE
+
+PERSON: Ramana Maharshi (Venkataraman Iyer)
+FREEZE_TIMESTAMP: 2026-08-19T15:08:01+02:00
+BLINDNESS_CONFIRMED: JA
+MODE: PRE-COMPARE BLIND / independent external research from zero
+
+## CORPORA_SEARCHED
+- Sri Ramanasramam / gururamana.org public biography, Journey Home, timeline and Arunachala pages.
+- Arunachala Ashrama eLibrary / archive.arunachala.org: *Bhagavan Ramana* by T. M. P. Mahadevan (Sri Ramanasramam publication); *Life of Sri Ramana Maharshi*; *Day by Day with Bhagavan* entries; *The Maharshi* archive; devotee reminiscence pages.
+- Arunachala Ashrama public life timeline with citations back to *Self-Realisation*, *Pictorial Biography*, Arthur Osborne, *Day by Day*, and other early corpus witnesses.
+- Independent secondary cross-checks only after corpus extraction: current/historical site descriptions for Arunachaleswarar Temple and Ramana-related site maps/pages.
+
+## SOURCE_ACCESS_BLOCKERS
+- Some primary/early printed corpora surfaced only through later transcriptions, timeline citations, snippets, or archive editions rather than page-image access in this run.
+- Google Books/HathiTrust/Internet Archive page-image saturation was not exhaustive; inaccessible or non-indexed volumes remain possible. Where only an indexed derivative supported a detail, this is noted by source type rather than treated as stronger evidence.
+- Historic private houses in Villupuram/Tirukoilur and the exact Dindigul school building were not physically identified from the accessible sources.
+
+## HOSTGRAPH_SEARCHED
+Family/hosts: Sundaram Iyer, Alagammal, Subbaiyar/Subba Iyer, Nelliappa Iyer, Muthukrishna Bhagavatar and wife, unnamed Sastri household. Attendants/devotees: Seshadri Swami, Mouna Swami, Uddandi Nayinar, Annamalai Tambiran, Palaniswami, Echammal, Ganapati Muni, Vasudeva Sastri, Ramanatha Brahmachari, M. Venkataraman, F. H. Humphreys. Networks searched for houses, schools, temples, caves, tanks, stations, food stops, ashram rooms, hill-rest points and summit excursions.
+
+## DISCOVERY_SEARCH_FAMILIES
+- Ramana/Venkataraman + birth house / school / Madurai / realization room / Meenakshi / Azhagar Koil.
+- 1896 journey + Madurai Junction / Tiruchirappalli / Villupuram / Mambalapattu / Araiyaninallur / Kilur / Tirukoilur / station / hotel / Bhagavatar.
+- Tiruvannamalai early residences + Arunachaleswara / Ayyankulam / Thousand Pillared Hall / Patala Lingam / Subramanya / garden / float room / Illupai / Mangai Pillayar / Gurumurtam / mango grove / Arunagirinathar / Pavalakkunru.
+- Arunachala hill + Satguru/Alamarathu / Guhai Namasivaya / Virupaksha / Mango Tree Cave / Pachaiamman / Tortoise Rock / Seven Springs / banyan / summit / beacon / bridge / pradakshina.
+- Ramanasramam + Mother shrine / Old Hall / kitchen / New Hall / Mathrubhuteswara / Nirvana Room.
+- Hostgraph variants for family, attendants, disciples and eyewitness reminiscences.
+
+NORMALIZED_RECORDCOUNT: 51
+
+## LOCATION_RECORDS
+
+### RM-001 — Sri Sundara Mandiram (birth house)
+- PLACE/STATE: Tiruchuzhi, Tamil Nadu
+- TYPE: private family house; now memorial shrine
+- EVENT/PERIOD: born 30 Dec 1879
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Arunachala Ashrama, “Sri Ramana Maharshi Life Timeline,” 1879 entry; Sri Ramanasramam early-life material.
+- URL: https://arunachala.org/sri-ramana-maharshi/ramana-maharshi-life-timeline/
+- LOCATOR: 1879 entry: birth at Tiruchuli; house now called Sri Sundara Mandiram.
+- NOTE: current memorial identity is explicitly tied to the birth house.
+
+### RM-002 — Bhuminatheswara Temple, Kalyana Mandapam
+- PLACE/STATE: Tiruchuzhi, Tamil Nadu
+- TYPE: temple marriage hall / school-play space
+- EVENT/PERIOD: childhood, c. 1880s
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Arunachala Ashrama timeline.
+- URL: https://arunachala.org/sri-ramana-maharshi/ramana-maharshi-life-timeline/
+- LOCATOR: 1886 entry: he recalled playing there and classes being held there.
+
+### RM-003 — Sri Sahayavalli shrine, Bhuminatheswara Temple
+- PLACE/STATE: Tiruchuzhi, Tamil Nadu
+- TY
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=285 path=runs/active/TOP11-INDIAGEEL-BLIND-SWEEP-001/RAMANA_MAHARSHI_INDIAGEEL_FREEZE.md blob_sha=86209637389b64b2c2280f00c50a0a4b0d905bbf original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=8 classification=text
+PE: temple shrine
+- EVENT/PERIOD: childhood, about age six
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Arunachala Ashrama timeline; Sri Ramanasramam early-life account.
+- URL: https://arunachala.org/sri-ramana-maharshi/ramana-maharshi-life-timeline/
+- LOCATOR: 1886 entry: child Venkataraman found seated behind the Mother Sahayavalli image.
+
+### RM-004 — school in Dindigul (institution/building unidentified)
+- PLACE/STATE: Dindigul, Tamil Nadu
+- TYPE: school
+- EVENT/PERIOD: c. 1891–1892, one year of schooling
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ALLEEN_PLAATS
+- SOURCE: T. M. P. Mahadevan, *Bhagavan Ramana*; Arunachala Ashrama timeline.
+- URL: https://archive.arunachala.org/docs/bhagavan-r/?fmt=plain
+- LOCATOR: biographical section: elementary school at Tiruchuzhi, then one year at a school in Dindigul.
+- UNCERTAINTY: accessible corpus did not name the school.
+
+### RM-005 — Sri Ramana Mandiram / Subbaiyar’s house (realization house)
+- PLACE/STATE: Madurai, Tamil Nadu
+- TYPE: private uncle’s house; now memorial
+- EVENT/PERIOD: residence 1892–1896; death-experience/realization mid-1896; departure 29 Aug 1896
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Arunachala Ashrama timeline; Mahadevan, *Bhagavan Ramana*.
+- URL: https://arunachala.org/sri-ramana-maharshi/ramana-maharshi-life-timeline/
+- LOCATOR: 1892 and 1896 entries; house explicitly said to be now called Sri Ramana Mandiram.
+
+### RM-006 — Scott’s Middle School
+- PLACE/STATE: Madurai, Tamil Nadu
+- TYPE: school
+- EVENT/PERIOD: after 1892
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: Mahadevan, *Bhagavan Ramana*; Sri Ramanasramam early-life biography.
+- URL: https://archive.arunachala.org/docs/bhagavan-r/?fmt=plain
+- LOCATOR: early-life schooling paragraph.
+- NOTE: institution is named; continuity of the exact nineteenth-century building not established here.
+
+### RM-007 — American Mission High School
+- PLACE/STATE: Madurai, Tamil Nadu
+- TYPE: school
+- EVENT/PERIOD: pre-August 1896
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: Mahadevan, *Bhagavan Ramana*; Sri Ramanasramam early-life biography.
+- URL: https://archive.arunachala.org/docs/bhagavan-r/?fmt=plain
+- LOCATOR: early-life schooling paragraph.
+- NOTE: institution named; exact historic classroom/building continuity unresolved.
+
+### RM-008 — Meenakshi Temple
+- PLACE/STATE: Madurai, Tamil Nadu
+- TYPE: temple
+- EVENT/PERIOD: especially after realization in 1896; daily visits
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Mahadevan, *Bhagavan Ramana*.
+- URL: https://archive.arunachala.org/docs/bhagavan-r/?fmt=plain
+- LOCATOR: paragraph following realization: daily visits to Minaksi temple and standing before images of gods/saints.
+
+### RM-009 — Azhagar Koil / Alagar Koyil (Vishnu temple)
+- PLACE/STATE: near Madurai, Tamil Nadu
+- TYPE: temple complex
+- EVENT/PERIOD: youth, pre-1896
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Sri Ramanasramam public timeline.
+- URL: https://www.gururamana.org/Bhagavan/sri-ramana-maharshi-timeline
+- LOCATOR: “Azhagar Koil” section: young Venkataraman and friends sometimes visited and played in the premises.
+
+### RM-010 — Madurai Junction railway station
+- PLACE/STATE: Madurai, Tamil Nadu
+- TYPE: railway station / transit
+- EVENT/PERIOD: 29 Aug 1896 departure for Arunachala
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Mahadevan, *Bhagavan Ramana*; Sri Ramanasramam Journey Home/timeline.
+- URL: https://archive.arunachala.org/docs/bhagavan-r/?fmt=plain
+- LOCATOR: “epic journey” section, departure from uncle’s house to railway station.
+
+### RM-011 — Tiruchirappalli railway station (train stop)
+- PLACE/STATE: Tiruchirappalli, Tamil Nadu
+- TYPE: railway station / transit
+- EVENT/PERIOD: evening of 29 Aug 1896 journey
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: Mahadevan, *Bhagavan Ramana*.
+- URL: https://archive.arunachala.org/docs/bhagavan-r/?fmt=plain
+- LOCATOR: journey narrative: train reached Tiruccirappalli at du
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=286 path=runs/active/TOP11-INDIAGEEL-BLIND-SWEEP-001/RAMANA_MAHARSHI_INDIAGEEL_FREEZE.md blob_sha=86209637389b64b2c2280f00c50a0a4b0d905bbf original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=8 classification=text
+sk; he bought two country pears.
+- NOTE: exact platform/stall unknown.
+
+### RM-012 — Villupuram Junction railway station
+- PLACE/STATE: Villupuram, Tamil Nadu
+- TYPE: railway station / transit
+- EVENT/PERIOD: early 30 Aug 1896
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Mahadevan; Sri Ramanasramam timeline/Journey Home.
+- URL: https://www.gururamana.org/Bhagavan/journey-home
+- LOCATOR: journey sequence: arrival at Villupuram, later return to station and ticket to Mambalappattu.
+
+### RM-013 — unnamed hotel/restaurant in Villupuram town
+- PLACE/STATE: Villupuram, Tamil Nadu
+- TYPE: eating house
+- EVENT/PERIOD: 30 Aug 1896, waited until noon and ate
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ALLEEN_PLAATS
+- SOURCE: Mahadevan, *Bhagavan Ramana*.
+- URL: https://archive.arunachala.org/docs/bhagavan-r/?fmt=plain
+- LOCATOR: journey narrative after Villupuram arrival.
+- UNCERTAINTY: proprietor and building not identified.
+
+### RM-014 — Mambalappattu railway station
+- PLACE/STATE: Mambalappattu, Tamil Nadu
+- TYPE: railway station / transit
+- EVENT/PERIOD: afternoon 30 Aug 1896
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Sri Ramanasramam timeline/Journey Home; Mahadevan.
+- URL: https://www.gururamana.org/Bhagavan/sri-ramana-maharshi-timeline
+- LOCATOR: 1896 travel sequence.
+
+### RM-015 — Sri Atulyanateswarar Temple, Araiyaninallur
+- PLACE/STATE: Araiyaninallur (Arayaninallur), Tamil Nadu
+- TYPE: temple / pillared hall
+- EVENT/PERIOD: evening 30 Aug 1896; meditation and light experience
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Sri Ramanasramam Journey Home/timeline; Arunachala Ashrama “Sage of Arunachala”.
+- URL: https://www.gururamana.org/Bhagavan/journey-home
+- LOCATOR: journey-home account of first temple near Tirukoilur.
+
+### RM-016 — Sri Viratteswarar / Viratteeswara Temple, Kilur
+- PLACE/STATE: Kilur/Keelur near Tirukoilur, Tamil Nadu
+- TYPE: temple
+- EVENT/PERIOD: night 30 Aug 1896; meditation and temple food
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Sri Ramanasramam timeline; House of Arunachala biography.
+- URL: https://www.gururamana.org/Bhagavan/sri-ramana-maharshi-timeline
+- LOCATOR: 1896 sequence, “Sri Viratteswar Temple in Kilur”.
+
+### RM-017 — unnamed Sastri’s house near Kilur/Tirukoilur
+- PLACE/STATE: Tirukoilur area, Tamil Nadu
+- TYPE: private house
+- EVENT/PERIOD: night 30 Aug 1896; sent there for water, fainted, ate/rested
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ALLEEN_PLAATS
+- SOURCE: Mahadevan, *Bhagavan Ramana*.
+- URL: https://archive.arunachala.org/docs/bhagavan-r/?fmt=plain
+- LOCATOR: journey narrative after Kilur temple.
+- UNCERTAINTY: house/owner not named beyond “a Sastri’s house”.
+
+### RM-018 — Muthukrishna Bhagavatar’s house
+- PLACE/STATE: Tirukoilur area, Tamil Nadu
+- TYPE: private house
+- EVENT/PERIOD: 31 Aug 1896; fed and pledged earrings
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: Mahadevan; House of Arunachala biography.
+- URL: https://archive.arunachala.org/docs/bhagavan-r/?fmt=plain
+- LOCATOR: journey narrative: house belonging to Muthukrishna Bhagavatar.
+- UNCERTAINTY: historical house identity/address not established in this run.
+
+### RM-019 — Tirukoilur railway station
+- PLACE/STATE: Tirukoilur, Tamil Nadu
+- TYPE: railway station / overnight transit
+- EVENT/PERIOD: night 31 Aug–1 Sep 1896
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Sri Ramanasramam timeline.
+- URL: https://www.gururamana.org/Bhagavan/sri-ramana-maharshi-timeline
+- LOCATOR: 1896 sequence: arrived station Aug 31; spent night there; boarded Sep 1 train.
+
+### RM-020 — Tiruvannamalai railway station
+- PLACE/STATE: Tiruvannamalai, Tamil Nadu
+- TYPE: railway station / arrival
+- EVENT/PERIOD: 1 Sep 1896
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Mahadevan, *Bhagavan Ramana*; Journey Home.
+- URL: https://archive.arunachala.org/docs/bhagavan-r/?fmt=plain
+- LOCATOR: arrival narrative immediately before hastening to the great temple.
+
+### RM-021 — Arunachaleswar
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=287 path=runs/active/TOP11-INDIAGEEL-BLIND-SWEEP-001/RAMANA_MAHARSHI_INDIAGEEL_FREEZE.md blob_sha=86209637389b64b2c2280f00c50a0a4b0d905bbf original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=8 classification=text
+ar Temple, inner sanctum
+- PLACE/STATE: Tiruvannamalai, Tamil Nadu
+- TYPE: temple sanctum
+- EVENT/PERIOD: 1 Sep 1896 arrival and subsequent visits
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Mahadevan; Arunachala Ashrama timeline.
+- URL: https://archive.arunachala.org/docs/bhagavan-r/?fmt=plain
+- LOCATOR: arrival: entered sanctum sanctorum and stood before Arunacalesvara.
+
+### RM-022 — Ayyankulam Tank
+- PLACE/STATE: Tiruvannamalai, Tamil Nadu
+- TYPE: temple tank / shaving and renunciation site
+- EVENT/PERIOD: 1 Sep 1896
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Mahadevan; Arunachala Ashrama timeline.
+- URL: https://arunachala.org/sri-ramana-maharshi/ramana-maharshi-life-timeline/
+- LOCATOR: 1896 arrival entry.
+
+### RM-023 — Thousand-Pillared Hall, Arunachaleswarar Temple
+- PLACE/STATE: Tiruvannamalai, Tamil Nadu
+- TYPE: temple hall / residence
+- EVENT/PERIOD: first weeks after 1 Sep 1896
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Mahadevan; Arunachala Ashrama timeline.
+- URL: https://arunachala.org/sri-ramana-maharshi/ramana-maharshi-life-timeline/
+- LOCATOR: 1896 temple-residence entry.
+
+### RM-024 — Patala Lingam underground shrine
+- PLACE/STATE: Arunachaleswarar Temple, Tiruvannamalai, Tamil Nadu
+- TYPE: underground shrine / meditation residence
+- EVENT/PERIOD: 1896
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Mahadevan; Arunachaleswarar Temple site-history page.
+- URL: https://arunachalasamudra.in/prakarams/prakaram-5
+- LOCATOR: Patala Lingam section explicitly identifies it as Ramana’s meditation place soon after arrival.
+- NOTE: shrine has undergone later renovation; historic core identity retained.
+
+### RM-025 — Gopura Subramanya Shrine
+- PLACE/STATE: Arunachaleswarar Temple, Tiruvannamalai, Tamil Nadu
+- TYPE: temple shrine / residence
+- EVENT/PERIOD: c. 1896, about two months
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Arunachala Ashrama timeline.
+- URL: https://arunachala.org/sri-ramana-maharshi/ramana-maharshi-life-timeline/
+- LOCATOR: 1896 entries after Patala Lingam.
+
+### RM-026 — adjoining temple flower garden and banana grove
+- PLACE/STATE: Arunachaleswarar Temple complex, Tiruvannamalai, Tamil Nadu
+- TYPE: garden/grove residence
+- EVENT/PERIOD: 1896–1897 phase
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: Arunachala Ashrama timeline citing Pictorial Biography.
+- URL: https://arunachala.org/sri-ramana-maharshi/ramana-maharshi-life-timeline/
+- LOCATOR: 1896 entry after Gopura Subramanya.
+- UNCERTAINTY: exact historic garden boundaries not fixed here.
+
+### RM-027 — room where large temple floats were stored
+- PLACE/STATE: Arunachaleswarar Temple complex, Tiruvannamalai, Tamil Nadu
+- TYPE: storage room / temporary residence
+- EVENT/PERIOD: 1896–1897 phase
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: Arunachala Ashrama timeline citing Pictorial Biography.
+- URL: https://arunachala.org/sri-ramana-maharshi/ramana-maharshi-life-timeline/
+- LOCATOR: 1896 entry: sometimes stayed in room where large floats were stored.
+- UNCERTAINTY: current exact room identification not established.
+
+### RM-028 — large Illupai tree / Mangai Pillayar Shrine
+- PLACE/STATE: Arunachaleswarar Temple complex, Tiruvannamalai, Tamil Nadu
+- TYPE: sacred tree / Ganesha shrine
+- EVENT/PERIOD: 1896–1897 phase
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Arunachala Ashrama timeline; Arunachala temple prakaram page identifies Mangai Pillaiyar under an Iluppai tree.
+- URL: https://arunachalasamudra.in/prakarams/prakaram-5
+- LOCATOR: temple garden/Mangai Pillaiyar section; timeline 1896 entry.
+
+### RM-029 — Gurumurtam
+- PLACE/STATE: outskirts of Tiruvannamalai, Tamil Nadu
+- TYPE: shrine/mutt residence
+- EVENT/PERIOD: c. Feb 1897/1898 into 1898 (chronology varies in derivative timelines)
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Mahadevan; Arunachala Ashrama timeline.
+- URL: https://archive.arunachala.org/docs/bhagavan-r/?fmt=plain
+- LOCATOR: biography: shifted to Gu
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=288 path=runs/active/TOP11-INDIAGEEL-BLIND-SWEEP-001/RAMANA_MAHARSHI_INDIAGEEL_FREEZE.md blob_sha=86209637389b64b2c2280f00c50a0a4b0d905bbf original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=8 classification=text
+rumurtam less than six months after arrival; timeline labels move February 1898.
+- CONFLICT: accessible derivative chronology differs on whether move is placed in 1897 or 1898; site presence itself is uncontested.
+
+### RM-030 — mango orchard neighbouring Gurumurtam
+- PLACE/STATE: Tiruvannamalai, Tamil Nadu
+- TYPE: private orchard residence
+- EVENT/PERIOD: c. 1898, about six months
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: Mahadevan; Arunachala Ashrama timeline.
+- URL: https://archive.arunachala.org/docs/bhagavan-r/?fmt=plain
+- LOCATOR: Gurumurtam paragraph and 1898 timeline entry.
+- HOST: uncle Nelliappa Iyer found him there.
+
+### RM-031 — Arunagirinathar Temple
+- PLACE/STATE: Tiruvannamalai, Tamil Nadu
+- TYPE: temple / temporary residence
+- EVENT/PERIOD: 1898, about one month
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Arunachala Ashrama timeline citing Self-Realisation/Pictorial Biography.
+- URL: https://arunachala.org/sri-ramana-maharshi/ramana-maharshi-life-timeline/
+- LOCATOR: 1898 entry between mango grove and Pavalakkunru.
+
+### RM-032 — one tower of the great Arunachaleswarar Temple
+- PLACE/STATE: Tiruvannamalai, Tamil Nadu
+- TYPE: temple tower / temporary residence
+- EVENT/PERIOD: 1898, about one week
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: Arunachala Ashrama timeline.
+- URL: https://arunachala.org/sri-ramana-maharshi/ramana-maharshi-life-timeline/
+- LOCATOR: 1898 entry: “one of the towers of the great temple”.
+- UNCERTAINTY: tower not named in accessible source.
+
+### RM-033 — Alari (oleander) garden
+- PLACE/STATE: Tiruvannamalai, Tamil Nadu
+- TYPE: temple-associated garden / temporary residence
+- EVENT/PERIOD: 1898
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: Arunachala Ashrama timeline.
+- URL: https://arunachala.org/sri-ramana-maharshi/ramana-maharshi-life-timeline/
+- LOCATOR: 1898 entry immediately before Pavalakkunru.
+
+### RM-034 — Pavalakkunru / Pavala Kundru Iswara temple area
+- PLACE/STATE: Tiruvannamalai, Tamil Nadu
+- TYPE: hill-spur temple/cave/mutt complex
+- EVENT/PERIOD: from Sep 1898; mother’s visit Dec 1898
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Mahadevan; Arunachala Ashrama timeline.
+- URL: https://archive.arunachala.org/docs/bhagavan-r/?fmt=plain
+- LOCATOR: mother’s first attempt to take him home; timeline 1898.
+
+### RM-035 — Satguru Swami Cave / Alamarathu Guhai (Banyan Cave)
+- PLACE/STATE: Arunachala Hill, Tiruvannamalai, Tamil Nadu
+- TYPE: cave
+- EVENT/PERIOD: 1899, short stay
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Arunachala Ashrama timeline.
+- URL: https://arunachala.org/sri-ramana-maharshi/ramana-maharshi-life-timeline/
+- LOCATOR: 1899 hill-cave sequence.
+
+### RM-036 — Guhai Namasivaya Cave/Temple
+- PLACE/STATE: Arunachala Hill, Tiruvannamalai, Tamil Nadu
+- TYPE: cave/temple
+- EVENT/PERIOD: 1899, short stay
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Arunachala Ashrama timeline.
+- URL: https://arunachala.org/sri-ramana-maharshi/ramana-maharshi-life-timeline/
+- LOCATOR: 1899 hill-cave sequence.
+
+### RM-037 — Virupaksha Cave
+- PLACE/STATE: Arunachala Hill, Tiruvannamalai, Tamil Nadu
+- TYPE: cave / principal residence
+- EVENT/PERIOD: 1899–1916, mainly
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Mahadevan; Arunachala Ashrama timeline.
+- URL: https://archive.arunachala.org/docs/bhagavan-r/?fmt=plain
+- LOCATOR: post-Pavalakkunru residence; timeline records 17-year use.
+
+### RM-038 — Mango Tree Cave near Mulaipal Tirtham
+- PLACE/STATE: Arunachala Hill, Tiruvannamalai, Tamil Nadu
+- TYPE: cave / seasonal residence
+- EVENT/PERIOD: Virupaksha years, especially summers
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Arunachala Ashrama timeline.
+- URL: https://arunachala.org/sri-ramana-maharshi/ramana-maharshi-life-timeline/
+- LOCATOR: 1899 entry.
+
+### RM-039 — Pachaiamman Koil
+- PLACE/STATE: Tiruvannamalai, Tamil Nadu
+- TYPE: temple / temporary residence
+- EVENT/PERIOD: c. 1905 six months during plague; J
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=289 path=runs/active/TOP11-INDIAGEEL-BLIND-SWEEP-001/RAMANA_MAHARSHI_INDIAGEEL_FREEZE.md blob_sha=86209637389b64b2c2280f00c50a0a4b0d905bbf original_offset=20480 original_length=4096 payload_bytes=4096 chunk_index=5 chunk_count=8 classification=text
+an–Mar 1908 with Ganapati Muni and others
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Arunachala Ashrama timeline.
+- URL: https://arunachala.org/sri-ramana-maharshi/ramana-maharshi-life-timeline/
+- LOCATOR: 1905 and 1908 entries.
+
+### RM-040 — Tortoise Rock / Tortoise Cave
+- PLACE/STATE: Arunachala Hill, Tiruvannamalai, Tamil Nadu
+- TYPE: rock/cave rest site
+- EVENT/PERIOD: 1912 “second death experience”
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Arunachala Ashrama timeline; later site documentation.
+- URL: https://arunachala.org/sri-ramana-maharshi/ramana-maharshi-life-timeline/
+- LOCATOR: 1912 entry: death experience at Tortoise Rock in presence of Vasudeva Sastry and others.
+
+### RM-041 — Seven Springs / Ezhu Sunai
+- PLACE/STATE: Arunachala Hill, Tiruvannamalai, Tamil Nadu
+- TYPE: springs / hill camp and picnic/rest site
+- EVENT/PERIOD: multiple hill excursions; documented in Ramana’s own recollection and devotee reminiscences
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *Day by Day with Bhagavan*, 2 May 1946; *The Maharshi* archive.
+- URL: https://archive.arunachala.org/docs/day-bdwb/1946.05.02
+- LOCATOR: Ramana recounts reaching Ezhu Sunai after hornet incident; independent reminiscences describe overnight/picnic presence.
+
+### RM-042 — Skandashram
+- PLACE/STATE: Arunachala Hill, Tiruvannamalai, Tamil Nadu
+- TYPE: ashram residence
+- EVENT/PERIOD: 1916–1922
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Mahadevan; Arunachala Ashrama timeline.
+- URL: https://archive.arunachala.org/docs/bhagavan-r/?fmt=plain
+- LOCATOR: mother joins; move from Virupaksha to Skandasramam; mother’s final illness/death.
+
+### RM-043 — Mother’s tomb/shrine site, nucleus of Sri Ramanasramam
+- PLACE/STATE: Tiruvannamalai, Tamil Nadu
+- TYPE: samadhi/shrine and emerging ashram
+- EVENT/PERIOD: mother buried May 1922; Ramana visited daily then settled there c. late 1922; residence through 1950
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Mahadevan, *Bhagavan Ramana*.
+- URL: https://archive.arunachala.org/docs/bhagavan-r/?fmt=plain
+- LOCATOR: mother’s body interred between Palitirtham Tank and Dakshinamurti Mantapam; Ramana daily visits then stays there.
+
+### RM-044 — Old Hall, Sri Ramanasramam
+- PLACE/STATE: Tiruvannamalai, Tamil Nadu
+- TYPE: ashram hall / principal audience-residence space
+- EVENT/PERIOD: from c. 1926 through later ashram years
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Arunachala Ashrama timeline; Mahadevan.
+- URL: https://arunachala.org/sri-ramana-maharshi/ramana-maharshi-life-timeline/
+- LOCATOR: 1926 Old Hall entry; Mahadevan notes he sat most of the time in the hall built for the purpose.
+- CONTINUITY: timeline states later reconstruction reused major original fabric and preserved appearance.
+
+### RM-045 — Sri Ramanasramam kitchen
+- PLACE/STATE: Tiruvannamalai, Tamil Nadu
+- TYPE: ashram kitchen
+- EVENT/PERIOD: 1920s–before May 1941; food preparation/help
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Arunachala Ashrama timeline and early ashram reminiscence.
+- URL: https://arunachala.org/sri-ramana-maharshi/ramana-maharshi-life-timeline/
+- LOCATOR: 1941 entry: stopped going to kitchen to help; early ashram reminiscence says Bhagavan worked with residents.
+
+### RM-046 — Mathrubhuteswara Temple inner shrine / Sri Chakra
+- PLACE/STATE: Sri Ramanasramam, Tiruvannamalai, Tamil Nadu
+- TYPE: temple inner shrine
+- EVENT/PERIOD: foundation 1939; entered/touched Sri Chakra 14 Mar 1949; kumbhabhishekam 17 Mar 1949
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Arunachala Ashrama timeline citing S. S. Cohen diary/Guru Ramana.
+- URL: https://arunachala.org/sri-ramana-maharshi/ramana-maharshi-life-timeline/
+- LOCATOR: 1939 and March 1949 entries.
+
+### RM-047 — New Hall adjoining Mother’s Temple
+- PLACE/STATE: Sri Ramanasramam, Tiruvannamalai, Tamil Nadu
+- TYPE: ashram hall
+- EVENT/PERIOD: foundation/cornerstone 1945; used 1949
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=290 path=runs/active/TOP11-INDIAGEEL-BLIND-SWEEP-001/RAMANA_MAHARSHI_INDIAGEEL_FREEZE.md blob_sha=86209637389b64b2c2280f00c50a0a4b0d905bbf original_offset=24576 original_length=4096 payload_bytes=4096 chunk_index=6 chunk_count=8 classification=text
+: EXACT
+- SOURCE: Arunachala Ashrama timeline.
+- URL: https://arunachala.org/sri-ramana-maharshi/ramana-maharshi-life-timeline/
+- LOCATOR: 1945 foundation; 1949 opening and stone couch entry.
+
+### RM-048 — Nirvana Room (final sick room)
+- PLACE/STATE: Sri Ramanasramam, Tiruvannamalai, Tamil Nadu
+- TYPE: ashram room
+- EVENT/PERIOD: final illness; death 14 Apr 1950 at 8:47 p.m.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Arunachala Ashrama timeline.
+- URL: https://arunachala.org/sri-ramana-maharshi/ramana-maharshi-life-timeline/
+- LOCATOR: 1950 entry explicitly identifies present Nirvana Room as origin point in the contemporary account.
+
+### RM-049 — “Sri Bhagavan’s Bridge” / Ramana’s Bridge on giripradakshina route
+- PLACE/STATE: Tiruvannamalai, Tamil Nadu
+- TYPE: roadside bridge/rest point
+- EVENT/PERIOD: pre-1926 pradakshina years; repeatedly used as rest/viewpoint
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: *The Maharshi* archive, reminiscence describing the named bridge and Ramana’s repeated stops there.
+- URL: https://archive.arunachala.org/newsletters/1995/sep-oct
+- LOCATOR: pradakshina reminiscence near Kanji Road: bridge named because Bhagavan often stopped/rested there.
+- NOTE: exact modern engineering continuity not independently verified.
+
+### RM-050 — Arunachala summit / Deepam beacon area
+- PLACE/STATE: Arunachala Hill, Tiruvannamalai, Tamil Nadu
+- TYPE: mountain summit / beacon site
+- EVENT/PERIOD: at least one documented excursion during hill-residence years
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *The Maharshi* archive, devotee reminiscence.
+- URL: https://archive.arunachala.org/newsletters/2015/nov-dec
+- LOCATOR: witness states Bhagavan took him to the top and showed places including annual beacon-light spot, then descended to Seven Springs.
+
+### RM-051 — large banyan tree on precipitous boulder / hornet-incident route
+- PLACE/STATE: north side of Arunachala Hill, Tiruvannamalai, Tamil Nadu
+- TYPE: natural feature / off-path hill location
+- EVENT/PERIOD: pre-1916 hill-residence period; exact date unresolved
+- PERSONALLY_PRESENT: JA (at/near the boulder; he did not reach the tree itself)
+- PHYSICAL_IDENTITY: ONBEKEND
+- SOURCE: *Day by Day with Bhagavan*, 2 May 1946, Ramana’s own retrospective account.
+- URL: https://archive.arunachala.org/docs/day-bdwb/1946.05.02
+- LOCATOR: Ramana recounts seeing a remarkable banyan tree on a huge precipitous boulder, hornet attack, then walking to Seven Springs.
+- CAUTION: do not convert this into a claimed “sacred banyan” exact site; Ramana explicitly rejected later embellishment that he had deliberately set out to find the puranic tree.
+
+## CONFLICTS
+1. Gurumurtam chronology: accessible timeline labels the move under 1898, while Mahadevan’s narrative says “a little less than six months” after Sep 1896, implying 1897. Site presence is secure; exact month/year needs direct reconciliation against the cited early editions.
+2. Tirukoilur journey micro-chronology varies slightly among later retellings (night allocation/train timing), but the sequence Villupuram → Mambalappattu → Araiyaninallur → Kilur/Tirukoilur → Tiruvannamalai is repeatedly supported.
+3. Banyan-tree tradition: later devotional retellings can identify the seen tree with a puranic siddha-banyan; Ramana’s own 1946 account says he merely became curious on seeing a remarkable tree and did not set out to find the puranic tree. Freeze preserves the physical occurrence without endorsing the later identity claim.
+
+## UNRESOLVED_LEADS
+- Exact name/site of the Dindigul school.
+- Exact nineteenth-century buildings/campuses for Scott’s Middle School and American Mission High School.
+- Exact Villupuram hotel/restaurant used on 30 Aug 1896.
+- Exact Sastri house and surviving identity of Muthukrishna Bhagavatar’s Tirukoilur house.
+- Exact “one tower” and float-storage room within Arunachaleswarar Temple if a primary floor-plan identification exists.
+- Historic boundaries/continuity of Gurumurtam mango orchard and Alari
+<<< END CHUNK >>>
+

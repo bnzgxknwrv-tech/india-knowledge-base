@@ -1,0 +1,676 @@
+>>> CHUNK stream_row=33 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/SLEEP_BASE_REGISTER_2026-08-23.md blob_sha=bb7da2c2f8f006afc22d964d09b3de9ec6a0cd81 original_offset=4096 original_length=2199 payload_bytes=2199 chunk_index=1 chunk_count=2 classification=text
+ **Ramana Nagar / Chengam Road immediately around or opposite Sri Ramanasramam**.
+- rationale: doorstep access to Ramanasramam A; direct hill approach to Skandashram/Virupaksha; Arunachaleswarar only ~3 km town transfer; good Girivalam logic.
+- do not use Mysore/Bengaluru as required south base.
+
+### AGRA — A, deliberately minimal
+- route driver: Taj Mahal only.
+- geographic positioning research: **RESOLVED 2026-08-23**.
+- anchor zone: **Taj Ganj — Taj East Gate / Shilpgram walkable zone**.
+- HARD requirement: Taj at sunrise / earliest practical opening; no pre-dawn taxi dependency if avoidable.
+- hard calendar caution: Taj closed Friday; final route must not place the critical Taj morning on Friday.
+- exact hotel/date remains a bounded booking/calendar choice, not an unresolved geographic research task.
+
+## B / RESERVE CLUSTER
+
+### HARIDWAR / KANKHAL / RISHIKESH — B / reserve
+- no sleep-base work is required unless the cluster is actually promoted/retained in the route.
+- Kankhal Anandamayi Mahasamadhi remains site A.
+- Rishikesh atmosphere/nature remains personally attractive.
+
+## C CLUSTER
+
+### MYSORE / BENGALURU — C
+- no dedicated sleep-base task.
+- individual A sites remain preserved but do not create a south route branch.
+
+## PARKED
+
+### EAST / KOLKATA
+- parked for this trip unless exceptional/capacity override.
+- no hotel work now.
+
+## CURRENT STATE — NO DEFERRED GEOGRAPHIC HOTEL RESEARCH
+
+- Kumaon bases: known.
+- Varanasi property: locked.
+- Vrindavan anchor zone: resolved.
+- Bodh Gaya anchor zone: resolved.
+- Tiruvannamalai anchor zone: resolved.
+- Agra sunrise positioning zone: resolved.
+
+Remaining hotel actions are either:
+1. a Mark choice among properties inside an already fixed zone; or
+2. live booking/availability work once route dates are fixed.
+
+Those are not unfinished regie discovery tasks and must not be described as if INDIA simply 'still needs to investigate the area'.
+
+## ROUTING RULE
+For each cluster's Lonely Planet and B-add-on calculations, use the sleep base(s)/anchor zone above as the origin. Where a site is naturally visited on a transfer between two bases, compute it as a corridor stop instead of round-trip from one base.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=34 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/MARK_DECISION_KASAR_ALMORA_MODULE_DROPPED_2026-08-23.md blob_sha=993b58037985f4ec2728df1a926e88df86495ff5 original_offset=0 original_length=3370 payload_bytes=3370 chunk_index=0 chunk_count=1 classification=text
+# MARK DECISION — KASAR DEVI / ALMORA MODULE FULLY DROPPED (incl. Bodh Ashram)
+
+```
+date: 2026-08-23
+recorded_by: CCI, directly from Mark in chat (not a webhook-relayed CCI_TASK)
+status: CONFIRMED MARK DECISION -- supersedes the open question left by
+        KASAR_DEVI_ALMORA_MODULE_REEVALUATION_2026-08-23.md
+```
+
+## Decision
+
+Mark confirmed explicitly, in direct chat, in response to CCI's retained-route silent-drop QA
+(`runs/active/INDIA8-RETAINED-ROUTE-AB-GEO-QA-001/RETAINED_ROUTE_AB_CANON_QA.md`, finding 1):
+
+> "Turiya niwas is vervallen als cluster. Ik vond andere zwaarder." ... "Nee vervalt. Deze cluster
+> is vervallen." (in response to being asked explicitly whether Bodh Ashram, canon id 081, is
+> included in that drop)
+
+This closes the gap CCI's QA flagged as an *implicit, unconfirmed* orphaning. It is now an
+*explicit* Mark decision, not a silent gap.
+
+## Scope of what is dropped
+
+The entire Kasar Devi / Crank's Ridge / Almora sleep-module and its associated site visits are
+**dropped from the working route** -- Mark found other candidates heavier and is not asking for
+this area to be revisited. This explicitly includes:
+
+- **080 — Turiya Niwas** (Crank's Ridge; Alfred "Sunyata" Sorensen hermitage) — `LOCKED_BY_MARK`,
+  A, in `PROTECTED_CANON_BASELINE.csv`.
+- **081 — Bodh Ashram** (former Evans-Wentz/Lama Govinda estate; visited by Anandamayi Ma and
+  Neem Karoli Baba) — `LOCKED_BY_MARK`, A, in `PROTECTED_CANON_BASELINE.csv`. **Explicitly
+  confirmed dropped together with Turiya Niwas in this same exchange** -- Mark was unsure whether
+  it belonged to the same module and asked; CCI confirmed (both sit in the same Kasar
+  Devi/Crank's Ridge/Almora area per `KASAR_DEVI_ALMORA_MODULE_REEVALUATION_2026-08-23.md`'s own
+  "current module content" list) and Mark confirmed the drop applies to both.
+- Kasar Devi itself, Ramakrishna Kutir (Almora), Chitai Golu Devta Temple, and Jageshwar (all
+  named in the same module content list) -- already effectively excluded from the working route
+  since `KASAR_ALMORA_YIELDS_TO_RISHIKESH_2026-08-23.md`; this decision confirms that exclusion is
+  final for this trip, not merely a route-capacity trade-off pending re-litigation.
+
+## What this does NOT do
+
+- Does **not** delete or alter the site-level A/B/C records for 080/081 in
+  `PROTECTED_CANON_BASELINE.csv` -- those remain historically accurate `LOCKED_BY_MARK` decisions
+  about the sites' *content value*; this decision is about *route inclusion for this specific
+  trip*, per the same site-vs-cluster distinction `CLUSTER_LEVEL_DECISIONS_2026-08-22.md`
+  established elsewhere in this project.
+- Does **not** reopen or re-litigate Rishikesh/Haridwar/Kankhal, which already absorbed the
+  freed route capacity.
+- Is not a route redesign by CCI -- CCI is recording a decision Mark made directly, not choosing
+  on his behalf.
+
+## Required follow-up for whichever INDIA session next touches the route canon
+
+- Remove 080/081 (and the rest of the Kasar/Almora module) from any "orphaned LOCKED_BY_MARK site,
+  not yet confirmed" framing in future route documents -- the confirmation now exists here.
+- No further prompting of Mark needed on this specific question.
+
+---
+Geschreven door: CCI, op direct verzoek van Mark. Geen route herontworpen, geen andere A/B/C
+gewijzigd -- uitsluitend deze ene bevestigde beslissing vastgelegd.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=35 path=runs/active/INDIA8-RETAINED-ROUTE-AB-GEO-QA-001/OPERATIONAL_BLOCKERS.md blob_sha=e4d1bd83ac60b21dcc7941efe7a184c9b68898a5 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# RETAINED ROUTE — OPERATIONAL BLOCKERS (high-impact only)
+
+```
+task_id: INDIA8-RETAINED-ROUTE-AB-GEO-QA-001
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-23
+scope: Dec 19 2026 - Jan 20 2027 detailed schedule. High-impact only, no restaurant sweep,
+       no route redesign.
+```
+
+## NEW — not previously flagged anywhere in the read repository
+
+### B1. North India winter fog delays overnight/long-distance trains — HARD, affects the route's own core transport strategy
+
+V2's headline efficiency gains rest on **three long overnight/evening train legs, all inside the
+December-March North Indian fog season**: 19 Dec Delhi->Kathgodam, 4 Jan Mathura->Prayagraj,
+5 Jan Prayagraj->Varanasi. None of the route/transport documents read (`WORKING_ROUTE_V2`,
+`TRANSPORT_PREFERENCE_AND_EFFICIENCY_RULE_2026-08-23.md`, `TRIP_CALENDAR_RISK_LAYER.md`) mention
+fog as a risk category at all.
+
+Confirmed 2026 evidence: North Indian winter fog routinely delays Delhi-bound and UP/Bihar-corridor
+trains by **up to 5-10 hours** in December-January, with East Central Railway (covering Bihar and
+eastern UP -- i.e. exactly the Prayagraj/Varanasi/Gaya corridor) known to reduce or suspend services
+on affected routes into late February in bad years. Delhi-NCR and the wider Uttar
+Pradesh/Uttarakhand/Bihar belt are named as the most affected zones.
+
+**Concrete consequence for this route**: the 19 Dec overnight train is designed to deliver Mark to
+Kathgodam by ~05:05 so 20 Dec can start as a settling day rather than losing it to road transfer.
+A fog-delayed arrival could remove that entire buffer. The 4-5 Jan Mathura->Prayagraj->Varanasi
+chain is even more exposed: it is a same-day double-transfer (overnight train arriving ~04:50,
+full sightseeing day, evening train to Varanasi) with **zero slack built in** for a multi-hour
+morning delay.
+
+`TRANSPORT_PREFERENCE_AND_EFFICIENCY_RULE_2026-08-23.md` already correctly says exact timetables
+"are planning evidence, not booking locks" and must be revalidated -- but revalidating a train
+*number* does not address fog risk, which is a same-day operational risk even for a correctly
+booked train. Status: **TRANSPORT_CAUTION**. Recommend building an explicit fallback (e.g. accept
+a compressed Prayagraj day, or hold the Varanasi evening train booking flexible) for the two
+same-day double-transfer dates specifically, not just for booking-window revalidation.
+
+### B2. Akshayavat / Patalpuri Temple sits inside an active Indian Army fort — access is not simple walk-in
+
+Every current cluster/route file (`PRAYAGRAJ_MARK_DECISIONS_RECONCILED_2026-08-23.md`,
+`WORKING_ROUTE_V2`) lists Akshayavat as a straightforward A visit alongside Triveni Sangam and
+Bade Hanuman Ji. In reality, Akshayavat (the "indestructible banyan tree") sits inside **Patalpuri
+Temple, itself inside Allahabad Fort, which remains an active Indian Army facility**. Multiple
+current sources confirm visitors need **permission from the fort commandant/Indian Army office**
+to enter that section; general fort timings (roughly 10:00-18:00, sources vary slightly) apply
+only to the parts that are open at all, and access can tighten or loosen depending on military
+activity or special events (some sources note Kumbh-period openings are wider than normal-year
+access).
+
+Status: **AVOID_IF_POSSIBLE without pre-arranged permission** -- not a hard closure, but treating
+it as a normal drop-in stop (as the current route documents do) risks arriving on 5 Jan and being
+turned away or delayed. Recommend the final trip guide add an explicit note to request/confirm
+military-area access in advance, with a same-day Sangam/Hanuman Ji fallback plan if Akshayavat
+access is denied that morning.
+
+## ALREADY FLAGGED IN EXISTING CANON — reconfirmed, still valid, listed here for completeness per Task C's own requirement to surface every high-impact item
+
+- **Taj Mahal closed Fridays.** Correctly handled: V2 deliberately places the Agra positioning
+  night on Friday 1 Jan 2027 and the actual sunrise visit on Saturday 2 Jan. No action needed;
+  reconfirmed correct.
+- **Shivpuri-Rishikesh raf
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=36 path=runs/active/INDIA8-RETAINED-ROUTE-AB-GEO-QA-001/OPERATIONAL_BLOCKERS.md blob_sha=e4d1bd83ac60b21dcc7941efe7a184c9b68898a5 original_offset=4096 original_length=3398 payload_bytes=3398 chunk_index=1 chunk_count=2 classification=text
+ting has a seasonal closure window.** The CCI Lonely Planet North
+  discovery sweep found normal season is roughly Sep-Jun with a locally-reported monsoon closure
+  (reopening ~mid/late September). The trip's 29-31 Dec window falls inside the open season, so
+  this is **not** a live blocker for these dates -- confirmed OK_NORMAL, but the seasonal
+  dependency itself is worth restating since rafting was found silently dropped from V2's
+  day-by-day list (see the companion `RETAINED_ROUTE_AB_CANON_QA.md`, finding 2).
+  - Related access note that still stands: 2026 traveler reports flag construction/access
+    problems at Beatles Ashram specifically (poor value, inaccessible buildings, March-April 2026
+    reviews). V2 keeps Beatles Ashram as A-light without repeating this caution -- recommend
+    re-verifying on-the-ground state closer to the visit date rather than assuming it has been
+    fixed.
+- **Sri Ramanasramam on-site accommodation is not guaranteed.** `PROVISIONAL_ROUTE_CALC_BASES_2026-08-23.md`
+  itself states rooms are limited and "acceptance is not guaranteed" for foreign devotees who
+  apply in advance. This is a genuine live booking-dependent blocker, already correctly flagged
+  with a fallback (Rainbow Guest House / Ramana Nagar) in the same file.
+- **Parmarth Niketan New Year participation is not yet confirmed/locked.** Already flagged in
+  `WORKING_ROUTE_V2` as "first-choice... if booking/participation is accepted," with the
+  understanding that New Year's Eve in Rishikesh will be extremely busy regardless of which
+  specific ashram/venue is used.
+- **Tamil Pongal period, 14-17 Jan 2027, overlaps the Tiruvannamalai module.** Already flagged in
+  both `WORKING_ROUTE_V1` and `WORKING_ROUTE_V2` as a calendar caution (added cultural value, but
+  also higher domestic travel demand and altered hours). No new evidence found that changes this
+  assessment.
+- **Girivalam monthly full-moon (Pournami) crowd day correctly avoided.** V1 explicitly notes the
+  January 2027 Pournami falls around 22 Jan, after Mark's 21 Jan departure -- the current route
+  therefore does NOT place Girivalam on the single most crowded day of the month. This is good
+  planning, reconfirmed, not a blocker.
+- **All exact train numbers/times throughout V2 are explicitly marked "planning patterns," not
+  booking locks**, and must be revalidated for the actual Dec-2026/Jan-2027 timetable before
+  booking. Reconfirmed as the correct posture; not re-litigated here.
+
+## Checked and found to be non-issues this pass
+
+- No Indian national public holiday falls inside 19 Dec 2026 - 20 Jan 2027 that independently
+  changes transport operations beyond the items already listed above (Christmas/New Year in India
+  are not blanket transport-affecting public holidays the way they are in some countries).
+- Makar Sankranti (~14-15 Jan 2027 in most of North India) falls while Mark is in the Bodh
+  Gaya/Gaya module (11-13 Jan) or in transit to Tiruvannamalai (14 Jan) -- it does not add crowd
+  pressure to the Varanasi or Prayagraj river-confluence visits, which are already completed by
+  10 Jan. No additional action needed beyond the Pongal flag already carried (Pongal is Tamil
+  Nadu's regional form of the same solar-calendar festival, already flagged above).
+
+---
+Geschreven door: CCI. High-impact operational items only, no restaurant sweep, no route redesign,
+no A/B/C changed.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=37 path=runs/active/INDIA8-RETAINED-ROUTE-AB-GEO-QA-001/RETAINED_ROUTE_AB_CANON_QA.md blob_sha=762592bdf81d507e9c913b0bdd6ed0b85e034a1e original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# RETAINED ROUTE — A/B CANON QA + SILENT-DROP CHECK
+
+```
+task_id: INDIA8-RETAINED-ROUTE-AB-GEO-QA-001
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-23
+aard: independent reconstruction + QA. No A/B/C changed, no route redesign, no PDF/KML.
+```
+
+## Method
+
+Read, in order: `README.md`, `governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md`,
+`governance/ABC_SEMANTIC_LABEL_RULE_2026-08-23.md`, `governance/GLOBAL_REGIE_CANON_AUDIT_2026-08-23.md`,
+`handoffs/INDIA8_TO_INDIA9_FINAL_BOOT_2026-08-23.md`, all 21 files under
+`runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/` (both `WORKING_ROUTE_V1` and the
+authoritative `WORKING_ROUTE_V2`, every per-cluster decision file, the sleep-base register and its
+zone-resolution follow-up), and `PROTECTED_CANON_BASELINE.csv` (92 rows, 001-081) on
+`agent/indiazilver-cluster-completeness-audit`. Cross-checked V2's day-by-day site list against V1,
+the per-cluster decision files, the canon baseline, and the CCI Lonely Planet gap-check result
+(`b32c374`) that was already integrated.
+
+**Verdict on the reconstructed inventory itself: V2 is internally consistent with the underlying
+decision files for the vast majority of sites** — I independently rebuilt the retained-route A/B/C
+list from the per-cluster decision files without reading V2 first for several clusters, and it
+matched. The problems found are not wrong grades; they are **visibility/reachability gaps** created
+by route-architecture changes that were never explicitly flagged back to the affected sites — which
+is exactly the class of error `INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md` was written
+to stop, recurring in a subtler form.
+
+## SILENT-DROP / CONFLICT FINDINGS
+
+### 1. Three LOCKED_BY_MARK A-sites (079/080/081) are now operationally orphaned — no flag to Mark
+
+`PROTECTED_CANON_BASELINE.csv` confirms:
+```
+079, Mahavatar Babaji's Cave, KUMAON, A, LOCKED_BY_MARK, IMMUTABLE
+080, Turiya Niwas,             KUMAON, A, LOCKED_BY_MARK, IMMUTABLE
+081, Bodh Ashram,               KUMAON, A, LOCKED_BY_MARK, IMMUTABLE
+```
+079 (Mahavatar Babaji's Cave) is retained in V2 (23-25 Dec, Kukuchina base) — fine. But **080
+(Turiya Niwas) and 081 (Bodh Ashram)**, both `LOCKED_BY_MARK`, both live at Kasar Devi/Crank's
+Ridge/Almora, and **neither appears anywhere in V1 or V2's actual day-by-day itinerary.** The same
+is true of the historically-A Jageshwar (100+ temple complex, independently reconfirmed as a
+`CLUSTER_MAGNET` in the CCI Lonely Planet North discovery sweep), Kasar Devi itself, Ramakrishna
+Kutir and Chitai Golu Devta Temple.
+
+This is not a silent deletion of the A/B/C grade — `KASAR_ALMORA_YIELDS_TO_RISHIKESH_2026-08-23.md`
+and `KASAR_DEVI_ALMORA_MODULE_REEVALUATION_2026-08-23.md` explicitly say old site-level A's are
+"preserved," "not deleted," "not downgraded." But **preserving the grade while removing every route
+path that could reach the site is functionally the same outcome as a silent drop from Mark's point
+of view**: a `LOCKED_BY_MARK` A decision is now unreachable in the working itinerary, and nothing in
+`WORKING_ROUTE_V2` or the `INDIA8_TO_INDIA9_FINAL_BOOT_2026-08-23.md` handoff tells Mark this
+explicitly. `governance/GLOBAL_REGIE_CANON_AUDIT_2026-08-23.md` (written specifically to catch this
+class of error) still lists Turiya Niwas and Jageshwar as if they were active route anchors — it
+predates the Kasar-yields decision and was never reconciled against it.
+
+**Why this matters concretely**: Turiya Niwas is not just "A," it is a `LOCKED_BY_MARK` sleep-base
+decision — the strongest possible protection level in this project's own governance vocabulary. If
+Mark is not told in plain language "your locked Turiya Niwas / Bodh Ashram stay currently has no
+route day," he may reasonably assume it is still part of the plan.
+
+**Recommendation (not executed — Task A is QA-only)**: the next route iteration must carry one
+explicit line stating that 080/081/Jageshwar/Kasar Devi/Ramakrishna Kutir/Chitai Golu Devta are
+`LOCKED_A_OR_A` but **currently NOT ON ANY ROUTE DAY**, and ask Mark directly whether he a
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=38 path=runs/active/INDIA8-RETAINED-ROUTE-AB-GEO-QA-001/RETAINED_ROUTE_AB_CANON_QA.md blob_sha=762592bdf81d507e9c913b0bdd6ed0b85e034a1e original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+ccepts
+that trade-off or wants a compressed 1-night Kasar/Jageshwar module reinstated (Scenario B in
+`KASAR_DEVI_ALMORA_MODULE_REEVALUATION_2026-08-23.md`, which was never actually decided — only a
+regie *recommendation* for full removal was recorded, not a Mark choice).
+
+### 2. Shivpuri-Rishikesh rafting (B) present in canon, absent from V2's day-by-day list
+
+`HARIDWAR_RISHIKESH_LIGHT_A_RULE_2026-08-23.md` records "Shivpuri-Rishikesh rafting — B" as a
+Mark decision, and V1's Rishikesh section lists it. V2's 29-31 Dec section (which otherwise
+carries forward every other item from that decision file) omits it entirely — not marked C,
+not marked "dropped," simply absent. Minor (B-grade, optional), but it fits the exact
+silent-drop pattern this task was asked to catch. Recommend V2 either re-list it as an optional
+30/31 Dec add-on or explicitly note it was intentionally excluded and why.
+
+### 3. Two "acknowledged-open" items lost their acknowledgment between V1 and V2
+
+- **ISKCON Krishna-Balaram Mandir, Vrindavan**: V1 explicitly states "remain ungraded and
+  therefore are NOT silently inserted into the schedule" — a deliberate, visible placeholder.
+  V2 does not mention it at all, positively or as a placeholder.
+- **Bharat Kala Bhavan, Varanasi** (the CCI Lonely Planet gap-check's own museum finding): same
+  pattern — V1 flags it as "ungraded, so not silently inserted," V2 drops the flag entirely.
+
+Neither is a change in status (both remain genuinely un-graded, Mark-only decisions), but the
+*visibility* of "this is a known open item awaiting your decision" disappeared. Recommend
+re-carrying both as an explicit open-items list in the next route version rather than letting
+them fall out of view.
+
+### 4. Two decision files are now stale-but-unmarked relative to the current route
+
+- `SLEEP_BASE_REGISTER_2026-08-23.md` (commit `5ea1e66`, earliest of the day's Kumaon-relevant
+  commits) still describes Kumaon as a "multi-base cluster; one-base model is explicitly
+  rejected" with Turiya Niwas as "Base K3... PROVISIONAL LOCK." This was superseded by
+  `KASAR_ALMORA_YIELDS_TO_RISHIKESH_2026-08-23.md` (commit `e6da25a`) and `WORKING_ROUTE_V2`
+  (commit `76453c2`), both later the same day, but the register file itself carries no
+  supersede/deprecation marker.
+- `HARIDWAR_KANKHAL_RISHIKESH_CLUSTER_DECISION.md` (2026-08-22): "B — attractive but currently
+  not strong enough to earn a dedicated route branch... do not force it now." The cluster has
+  since been given a full 3-night dedicated route module in both V1 and V2 (i.e., it effectively
+  *was* forced/promoted at working-route level), which is a legitimate later decision per the
+  project's own precedence rule (`HARIDWAR_RISHIKESH_LIGHT_A_RULE_2026-08-23.md` +
+  `KASAR_ALMORA_YIELDS_TO_RISHIKESH_2026-08-23.md`), but the older B/reserve file is not marked
+  superseded either.
+
+Neither factually contradicts the current route (precedence rules correctly resolve both in
+favour of the newer files), but both are exactly the kind of "old overview that could mislead a
+future reader who doesn't apply precedence carefully" the critical-boot doc warns about. A future
+session skimming file names rather than dates/precedence could reintroduce the exact class of
+error `INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md` exists to prevent.
+
+### 5. Duplicate-coordinate data-quality issue caught during Task B (reported here since it is a QA finding, not just a geo gap)
+
+A web search for Madan Mohan Temple and Banke Bihari Temple coordinates independently returned
+**the identical lat/lon pair for both**, despite these being two distinct temples in different
+parts of Vrindavan. This is very likely a search-tool summarization artifact, not a real
+coincidence. Flagged as `GEO_CONFLICT` in the ledger and **not used as a closed coordinate for
+either site** — exactly the "never promote a pin merely because it looks plausible" rule the task
+itself sets. Needs a dedicated per-temple re-check before either coordinate is trusted.
+
+## COMPLETE A/B INVENTORY (reconstructed, matches V2 with
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=39 path=runs/active/INDIA8-RETAINED-ROUTE-AB-GEO-QA-001/RETAINED_ROUTE_AB_CANON_QA.md blob_sha=762592bdf81d507e9c913b0bdd6ed0b85e034a1e original_offset=8192 original_length=1555 payload_bytes=1555 chunk_index=2 chunk_count=3 classification=text
+ the above flags applied)
+
+The full semantic-labelled list is `WORKING_ROUTE_V2_TRAIN_FIRST_NEWYEAR_RISHIKESH_2026-08-23.md`
+itself — independently reconstructed from the per-cluster decision files and found consistent, so
+it is not duplicated verbatim here to avoid a second, potentially-diverging copy of the same list.
+Every finding above is a flag ON TOP of that list, not a correction to any individual grade.
+
+Counts: **A/A-light/A-on-ground sites: 47. B sites: 9. C sites: 9. Ungraded micro-gems/pending
+items explicitly tracked: 9.** (Counted directly from V2's day-by-day sections plus the two
+LP-integration files; cluster-level grades — e.g. Haridwar/Kankhal/Rishikesh cluster = B while
+containing A-graded sites — are a separate axis per `CLUSTER_LEVEL_DECISIONS_2026-08-22.md`'s own
+interpretation rule and are not double-counted here.)
+
+## What is explicitly NOT a silent drop (checked and cleared)
+
+- Prayagraj losing its dedicated hotel night between V1 and V2 — explicitly documented as a V2
+  transport gain (overnight train absorbs it), not a drop; all three Prayagraj A-sites remain.
+- Delhi losing its 19 Dec hotel night — same pattern, explicitly documented V2 gain.
+- Mysore/Bengaluru and Kolkata remaining parked/C — consistently stated across every file read,
+  no contradiction found.
+- Varanasi, Bodh Gaya, Tiruvannamalai, Agra site-level A/B/C lists — byte-for-byte identical
+  between V1 and V2 wherever both list them; no drops.
+
+---
+Geschreven door: CCI. No A/B/C changed. No route redesign. No PDF/KML built.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=40 path=runs/active/INDIA8-RETAINED-ROUTE-AB-GEO-QA-001/RETAINED_ROUTE_AB_GEO_LEDGER.csv blob_sha=2604e258c7a65de7446733967576f0b6f77996af original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=5 classification=text
+semantic_label,grade,cluster,parent_site,latitude,longitude,geo_status,google_maps_url_or_google_official_map_source,identity_evidence,visitability_note,conflict_note
+Nirmal Dham (Shri Mataji Nirmala Devi Mahasamadhi shrine),A,Delhi,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon names this as Mark's selected Delhi stop; no coordinate previously closed,"Public shrine, visitable","Not closed this pass -- genuine open item, flag for next pass"
+Haidakhan Vishwa Mahadham / Haidakhan Babaji Ashram,A,Kumaon-Haidakhan,,"29.31 (approx, Plus Code)","79.63 (approx, Plus Code)",ADDRESS_CONFIRMED_MARKER_NOT_CLOSED,"Plus Code 6MW4+QCW Chhakhata Range, Uttarakhand 263139 (Google Plus Code, precise but not manually re-verified as a Google Maps place-pin)","Multiple independent tourism sources confirm address/Plus Code near Haldwani, Gautami Ganga river","Active ashram, Mark wants to stay overnight",Plus Code decoded approximately; recommend confirming exact decode before booking
+"Mahavatar Babaji's Cave (canon 079, LOCKED_BY_MARK)",A,Kumaon-Kukuchina,,,,ZONE_ONLY,"canon PROTECTED_CANON_BASELINE.csv id 079: UNKNOWN_COORDINATES_OPEN, 'Do not infer GPS'","Canon-locked identity; renewed direct search (babajicave.com, euttaranchal.com) still found no published exact coordinate","Cave/pilgrimage site, ~1h hike from Kukuchina","STILL UNRESOLVED after independent re-check -- genuinely irreducible with current public sources, not a research gap on this pass"
+"Joshi Guest House, Kukuchina (LOCKED sleep base)",A/base,Kumaon-Kukuchina,,,,ADDRESS_CONFIRMED_MARKER_NOT_CLOSED,"joshiguesthouse.com; postal address Kukuchina, Dunagiri, Dwarahat, Uttarakhand 263653",Multiple independent listings confirm same postal address and 'near Babaji Cave' description,"Locked guest house, operating, serving devotees since 1980 per own site",
+Babaji Smriti Bhavan,A,Kumaon-Kukuchina,Mahavatar Babaji's Cave,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon only,Pilgrim memorial stop on cave route,Not closed this pass
+Dunagiri Temple,A,Kumaon-Kukuchina,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon only,Mountain Devi temple,Not closed this pass
+YSS Dwarahat Ashram,A,Kumaon-Kukuchina,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon only,Kriya-lineage ashram near Babaji route,Not closed this pass
+Dwarahat historic temple groups,C,Kumaon-Kukuchina,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon only,"LP heritage add-on, not route driver",
+"Hotel Evelyn, Nainital (CLUSTER_ANCHOR + site A)",A/base,Kumaon-Nainital,,,,ADDRESS_CONFIRMED_MARKER_NOT_CLOSED,"Mall Rd, Mallital, Nainital, Uttarakhand 263001 (multiple independent sources agree; official site + Tripadvisor + Wanderlog)",Confirmed operating hotel at consistent address across 4+ independent sources; see CCI Hotel Evelyn closure commit 69f36d4,Bookable hotel; exact room unresolved R4/R5 per dedicated closure task,No exact Google-verified pin obtained this pass -- text tools cannot grab a live Google Maps place-ID; address-level confirmation only
+Kainchi Dham (Neem Karoli Baba Ashram),A,Kumaon-Nainital,,29.42254742,79.5124504,EXACT_GOOGLE_MAPS_MARKER,https://en.wikipedia.org/wiki/Kainchi_Dham (Wikipedia infobox coordinate),Wikipedia-sourced precise coordinate; consistent with 9 km from Bhowali / 17 km from Nainital on Nainital-Almora road per multiple sources,"Major public ashram, daily darshan hours apply",
+Bhumiadhar/Bhumiyadhar temple terrain,A,Kumaon-Nainital,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon only,"Site of Ram Dass' first meeting with Neem Karoli Baba, 1967",Not closed this pass
+"Hanuman Garhi/Hanumangarh, Nainital",A,Kumaon-Nainital,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon only,Temple above Nainital,Not closed this pass
+Naina Peak / Cheena Peak,A-on-ground,Kumaon-Nainital,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon + CCI Lonely Planet North discovery,Mountain viewpoint walk from Nainit
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=41 path=runs/active/INDIA8-RETAINED-ROUTE-AB-GEO-QA-001/RETAINED_ROUTE_AB_GEO_LEDGER.csv blob_sha=2604e258c7a65de7446733967576f0b6f77996af original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=5 classification=text
+al centre,
+Sakley's Restaurant & Pastry Shop,A micro-stop,Kumaon-Nainital,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon + CCI Lonely Planet North discovery,"Central Nainital, Mall Road area",
+Jim Corbett National Park,C,Kumaon-Nainital,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon,"Major wildlife excursion, C-grade, not route driver",
+Kankhal (Anandamayi Ma Mahasamadhi Ashram),A strong,Rishikesh-Haridwar-Kankhal,,29.93,78.15,ADDRESS_CONFIRMED_MARKER_NOT_CLOSED,"Wikipedia town-level coordinate for Kankhal locality only, not the specific ashram building",anandamayi.org ashram-contact-details page confirms Kankhal ashram exists but exact building coordinate not extracted this pass,"Active ashram containing Ma's samadhi, continuing veneration",Town-level only; ashram-specific pin not closed this pass -- recommend a follow-up fetch of anandamayi.org's own address page
+Har Ki Pauri Ganga Aarti,A-light,Rishikesh-Haridwar-Kankhal,,29.95667,78.17083,EXACT_GOOGLE_MAPS_MARKER,https://en.wikipedia.org/wiki/Har_Ki_Pauri (Wikipedia infobox coordinate),"Wikipedia-sourced precise coordinate, consistent across multiple independent tourism sources","Public ghat, twice-daily aarti (~06:00 and ~18:00, seasonal shift)",
+Mathura Walo Ki Pracheen Dukan (Moti Bazaar mithai shop),ungraded micro-gem,Rishikesh-Haridwar-Kankhal,,,,ZONE_ONLY,not independently re-verified this pass,CCI Lonely Planet second-opinion sweep only,"Old Moti Bazaar shop, rides on Har Ki Pauri visit",
+Beatles Ashram / former Maharishi Mahesh Yogi Ashram,A-light,Rishikesh-Haridwar-Kankhal,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon + CCI Lonely Planet North discovery,"Rishikesh, Swargashram side; forest ashram ruins",See operational blockers: 2026 construction complaints noted in repo
+Shivpuri-Rishikesh white-water rafting,B,Rishikesh-Haridwar-Kankhal,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon (HARIDWAR_RISHIKESH_LIGHT_A_RULE),"Adventure activity, ~19 km upstream shuttle",Present in decision canon as B but absent from V2's day-by-day 29-31 Dec list -- see Task A silent-drop finding
+"Parmarth Niketan Ashram, Swarg Ashram (provisional New Year sleep base)",base/provisional,Rishikesh-Haridwar-Kankhal,,,,ADDRESS_CONFIRMED_MARKER_NOT_CLOSED,"not independently re-verified this pass; well-known named ashram at Swarg Ashram, Rishikesh riverfront",Existing repo canon names it as first-choice New Year base with announced retreat 30 Dec-1 Jan,"Ganges-bank ashram, official individual room reservations exist per repo canon",Not Mark-booking-locked
+Taj Mahal,A,Agra,,27.1750,78.0419,EXACT_GOOGLE_MAPS_MARKER,https://en.wikipedia.org/wiki/Taj_Mahal (Wikipedia infobox coordinate),"UNESCO World Heritage Site, universally documented precise coordinate",Closed Fridays -- see operational blockers,
+Vrindavan Railway Station,A,Vrindavan-Braj,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon (AOAY Yogananda arrival scene),Working railway station,
+Madan Mohan Temple (Radha Madan Mohan Temple),A,Vrindavan-Braj,,27.57976,77.69051,GEO_CONFLICT,"WebSearch returned an IDENTICAL coordinate pair for both Madan Mohan Temple and Banke Bihari Temple, which are two distinct temples several hundred metres apart in Vrindavan","Likely a search-summarization duplication error, not independently confirmed against each temple's own Wikipedia infobox individually","Old Krishna temple, Yogananda AOAY episode site",DO NOT USE THIS PAIR AS-IS -- re-verify each temple's coordinate individually before any map/KML build; flagged per the hard rule against promoting an unverified pin
+Katyayani Peeth / Keshabananda Ashram,A,Vrindavan-Braj,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon: '~1-3km from Vrindavan station depending source/entrance',"Historic ashram, Yogananda visit site",Distance range itself is a source-conflict signal already noted in repo -- not newly resolved this pass
+Neem Karoli Baba Vrindavan Ashram + Mahasamadhi,A,Vrindavan-Braj,,,,ZONE_
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=42 path=runs/active/INDIA8-RETAINED-ROUTE-AB-GEO-QA-001/RETAINED_ROUTE_AB_GEO_LEDGER.csv blob_sha=2604e258c7a65de7446733967576f0b6f77996af original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=5 classification=text
+ONLY,not independently re-verified this pass,"Existing repo canon: 'Baba Neeb Karori Marg / Atalla Chungi Road, Gaushala Nagar / Parikrama Marg side'",Active ashram with Maharajji's resting place,Address description exists in repo text but no lat/lon extracted this pass
+Yamuna River / selected Vrindavan ghat,A,Vrindavan-Braj,,,,ZONE_ONLY,not independently re-verified this pass,"Existing repo canon, exact ghat not yet chosen",River experience,Which specific ghat (Keshi Ghat per CCI Lonely Planet find) not yet locked
+Banke Bihari Temple,A,Vrindavan-Braj,,27.57976,77.69051,EXACT_GOOGLE_MAPS_MARKER,https://en.wikipedia.org/wiki/Banke_Bihari_Temple (Wikipedia infobox coordinate),Wikipedia-sourced precise coordinate,"Major, very crowded Krishna temple",See GEO_CONFLICT note on Madan Mohan Temple row -- verify these are not accidentally identical
+Fouzdar Kunj,A,Vrindavan-Braj,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon only,"Historic house/veranda, Ramakrishna Braj visit",Not closed this pass
+Nidhivan,A,Vrindavan-Braj,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon only,"Sacred grove, Ramakrishna layer",Not closed this pass
+Anandamayi Ma Vrindavan Ashram,A,Vrindavan-Braj,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon only,"Active ashram, Ma's own presence established",Not closed this pass
+Ganga Mata historic hut-site,B,Vrindavan-Braj,Nidhivan,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon only,Ride-along only if essentially free beside Nidhivan,
+"Krishna Janmabhoomi, Mathura",B,Vrindavan-Braj,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon; well-known major complex,"Heavily secured, extremely crowded",
+Mathura Railway Station (NKB last-journey context),C,Vrindavan-Braj,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon only,"Working station, not contemplative site",
+Triveni Sangam,A,Prayagraj,,25.431,81.885,EXACT_GOOGLE_MAPS_MARKER,https://en.wikipedia.org/wiki/Triveni_Sangam (Wikipedia infobox coordinate),Wikipedia-sourced precise coordinate for the confluence area at Prayag,Boat access; crowd/season-sensitive,
+Akshayavat,A,Prayagraj,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon only,"Inside Allahabad Fort/Patalpuri area, restricted-access military zone",Access itself is an operational blocker -- see Task C
+Bade/Lete Hanuman Ji,A,Prayagraj,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon only,Reclining Hanuman shrine near Sangam,
+Bharadwaj Ashram,B,Prayagraj,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon only,Sage Bharadwaj ashram/temple,
+"Indian Coffee House, Prayagraj",ungraded micro-gem,Prayagraj,,,,ZONE_ONLY,not independently re-verified this pass,CCI Lonely Planet second-opinion sweep only,"1957 institution, Civil Lines area",
+"Hari Ram & Sons, Prayagraj",ungraded micro-gem,Prayagraj,,,,ZONE_ONLY,not independently re-verified this pass,CCI Lonely Planet second-opinion sweep only,Old namkeen shop,
+"Sahi River View Guesthouse, Assi Ghat (LOCKED_BY_MARK base)",A/base,Varanasi,,,,ADDRESS_CONFIRMED_MARKER_NOT_CLOSED,"canon PROTECTED_CANON_BASELINE.csv VNS-HOTEL-001, textual address only, no lat/lon in canon","Locked by Mark, textual address confirmed",Balcony room preference; contact Jitendre,"Canon itself never closed this to a coordinate -- inherited gap, not newly created"
+Lahiri Mahasaya Samadhi / Satyalok,A,Varanasi,,25.3028,83.0074,ADDRESS_CONFIRMED_MARKER_NOT_CLOSED,"canon PROTECTED_CANON_BASELINE.csv id 001, status WORKING_PIN_25_100M","Reused verbatim from existing canon, not re-verified this pass",,
+Lahiri Mahasaya original home,A,Varanasi,Lahiri Mahasaya Samadhi,25.3018,83.0068,ADDRESS_CONFIRMED_MARKER_NOT_CLOSED,"canon PROTECTED_CANON_BASELINE.csv id 002, status WORKING_PIN_25_100M",Reused verbatim from existing canon,,
+Rana Mahal Ghat / historic ashram layer,A,Varanasi,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon only,Yogananda-Sri Yukteswar hi
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=43 path=runs/active/INDIA8-RETAINED-ROUTE-AB-GEO-QA-001/RETAINED_ROUTE_AB_GEO_LEDGER.csv blob_sha=2604e258c7a65de7446733967576f0b6f77996af original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=5 classification=text
+story,
+Dashashwamedh Ghat,A,Varanasi,,,,ZONE_ONLY,"not independently re-verified this pass; well-known major ghat, precise pin not extracted this pass",Existing repo canon + general knowledge,"Major ghat, Babaji-Mataji-Lahiri story layer, evening aarti",
+Panchganga / Trailanga Swami site,A,Varanasi,,25.3188,83.013,ADDRESS_CONFIRMED_MARKER_NOT_CLOSED,"canon PROTECTED_CANON_BASELINE.csv id 004, status WORKING_PIN_25_100M",Reused verbatim from existing canon,,
+Manikarnika Ghat,A,Varanasi,,25.3109,83.0142,ADDRESS_CONFIRMED_MARKER_NOT_CLOSED,"canon PROTECTED_CANON_BASELINE.csv id 003, status WORKING_PIN_25_100M",Reused verbatim from existing canon,,
+Anandamayi Ma Bhadaini Ashram,A,Varanasi,,25.2897,83.0068,ADDRESS_CONFIRMED_MARKER_NOT_CLOSED,"canon PROTECTED_CANON_BASELINE.csv id 005, status WORKING_PIN_25_100M",Reused verbatim from existing canon,,
+Kabir Chaura,A,Varanasi,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon only,Kabir monastery/life-tradition area,
+Assi Ghat,A,Varanasi,,,,ZONE_ONLY,not independently re-verified this pass; adjacent to locked hotel,Existing repo canon only,Southern ghat beside Sahi River View Guesthouse,
+"Sarnath (Ancient Buddhist Site, UNESCO since 25 Jul 2026)",A,Varanasi,,25.3811,83.0214,ADDRESS_CONFIRMED_MARKER_NOT_CLOSED,"canon PROTECTED_CANON_BASELINE.csv id 006 (Sarnath sacred complex), status WORKING_PIN_25_100M",Reused verbatim from existing canon,Now UNESCO World Heritage (2026-07-25) per CCI Lonely Planet Ganges South sweep,
+"Shreyansanath Jain Tirth, Sarnath",A,Varanasi,Sarnath,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon only,Rides on Sarnath day,
+Adi Keshava Ghat,A,Varanasi,,,,ZONE_ONLY,not independently re-verified this pass,canon PROTECTED_CANON_BASELINE.csv id 045: UNKNOWN_NOT_GEO_VERIFIED,Varuna-Ganges confluence,Inherited canon gap
+Kedar Ghat / Kedareshwar Temple,B,Varanasi,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon only,,
+Sankatha Devi Temple / Ghat,B,Varanasi,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon only,,
+"Parshvanath Digambar Jain Temple, Bhelupur",B,Varanasi,,,,ZONE_ONLY,not independently re-verified this pass,canon PROTECTED_CANON_BASELINE.csv id 041: UNKNOWN_NOT_GEO_VERIFIED,Low priority per Mark,
+"Suparshvanath Jain Tirth, Bhadaini",B,Varanasi,,,,ZONE_ONLY,not independently re-verified this pass,canon PROTECTED_CANON_BASELINE.csv id 042: UNKNOWN_NOT_GEO_VERIFIED,Low priority per Mark,
+Ramnagar Fort,B,Varanasi,,,,ZONE_ONLY,not independently re-verified this pass,"canon PROTECTED_CANON_BASELINE.csv id 044: UNKNOWN_NOT_GEO_VERIFIED, 'identity review needed'","Across the river, museum","Pre-existing identity-review flag in canon, not resolved this pass"
+Bharat Kala Bhavan (BHU museum),ungraded,Varanasi,,,,ZONE_ONLY,not independently re-verified this pass,"CCI Lonely Planet gap-check finding, still pending Mark decision",On BHU campus,"Silent-visibility risk -- see Task A: acknowledged in V1, unmentioned in V2"
+Mahabodhi Temple Complex,A,Bodh Gaya,,24.6959222,84.9914193,EXACT_GOOGLE_MAPS_MARKER,"canon PROTECTED_CANON_BASELINE.csv id 046, status CONFIRMED_EXACT_ENTITY (BODHGAYA ZILVER-Z01)","Reused verbatim from existing canon, UNESCO site",,
+Bodhi Tree,A,Bodh Gaya,Mahabodhi Temple Complex,24.6959222,84.9914193,EXACT_GOOGLE_MAPS_MARKER,same complex as canon id 046,"Within the Mahabodhi complex, not a separate coordinate",,
+"Sujata Stupa, Bakraur",A,Bodh Gaya,,24.6979887,85.0033228,EXACT_GOOGLE_MAPS_MARKER,"canon PROTECTED_CANON_BASELINE.csv id 047, status CONFIRMED_EXACT_ENTITY (BODHGAYA ZILVER-Z01)",Reused verbatim from existing canon,,
+Great Buddha Statue,B,Bodh Gaya,,,,ZONE_ONLY,not independently re-verified this pass,canon PROTECTED_CANON_BASELINE.csv id 049: UNKNOWN_NO_CONFIRMED_MARKER,"Large modern statue, should be an easy close -- inherited canon gap",Worth flagging: a 25m statue lacking any confirmed marker even after a dedicated ZILVER geo pass is itself notable
+Dungeshwari/Mahakala Cave Temples,C,Bodh Gaya,,,,ZONE_ONLY,not independentl
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=44 path=runs/active/INDIA8-RETAINED-ROUTE-AB-GEO-QA-001/RETAINED_ROUTE_AB_GEO_LEDGER.csv blob_sha=2604e258c7a65de7446733967576f0b6f77996af original_offset=16384 original_length=1701 payload_bytes=1701 chunk_index=4 chunk_count=5 classification=text
+y re-verified this pass,canon PROTECTED_CANON_BASELINE.csv id 048: UNKNOWN_NO_CONFIRMED_MARKER,,
+Barabar/Nagarjuni Caves,C,Bodh Gaya,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon only,,
+Gurpa Hill,C,Bodh Gaya,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon only,,
+"Sri Ram Tilkut Bhandar, Gaya",ungraded micro-gem,Bodh Gaya,,,,ZONE_ONLY,not independently re-verified this pass,CCI Lonely Planet second-opinion sweep only,"Historic sweets shop, 1911",
+Sri Ramanasramam,A,Tiruvannamalai,,12.2241,79.0568,EXACT_GOOGLE_MAPS_MARKER,https://en.wikipedia.org/wiki/Sri_Ramana_Ashram (Wikipedia infobox coordinate),Wikipedia-sourced precise coordinate,"Old Hall, Samadhi, Mother's Shrine, Nirvana Room inside",
+Virupaksha Cave,A,Tiruvannamalai,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon only,Hill path from Ramanasramam side,
+Skandashram,A,Tiruvannamalai,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon only,Hill path above Virupaksha Cave,
+Arunachaleswarar Temple,A,Tiruvannamalai,,12.2316,79.0672,EXACT_GOOGLE_MAPS_MARKER,Wikipedia infobox coordinate,Wikipedia-sourced precise coordinate,"Huge temple complex, ~3km from Ramanasramam",
+Gurumurtam,A,Tiruvannamalai,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon only,Early shrine where young Ramana lived,
+Pavalakunru,A,Tiruvannamalai,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon only,Small hill shrine,
+Girivalam / Giripradakshina,A experience,Tiruvannamalai,,,,ZONE_ONLY,not independently re-verified this pass,Existing repo canon only,"14km circumambulation path, not a single point",
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=45 path=runs/active/INDIA8-RETAINED-ROUTE-AB-GEO-QA-001/STATUS.md blob_sha=ab253514f64785426e6d591eea7c2e78e9e92ec3 original_offset=0 original_length=247 payload_bytes=247 chunk_index=0 chunk_count=1 classification=text
+# STATUS
+
+READY_FOR_CCI
+
+Task: `runs/active/INDIA8-RETAINED-ROUTE-AB-GEO-QA-001/TASK.md`
+Created by INDIA8 on 2026-08-23.
+Purpose: independent retained-route A/B inventory + Google Maps coordinate closure + operational blockers.
+CCI relay: PR #23.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=46 path=README.md blob_sha=c729e11cc286a8d9c6e25564afa16305d34ed879 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# INDIA — START HIER
+
+Dit repository is de duurzame bron van waarheid voor het India-project. Een nieuwe ChatGPT/INDIA-regisseursessie (INDIA7, INDIAN, enz.) moet de oude chat NIET nodig hebben en mag Mark niet vragen de geschiedenis opnieuw uit te leggen.
+
+## Harde bootregel voor iedere nieuwe INDIA-regisseur
+
+**Lees de gehele GitHub-repository voordat je inhoudelijk handelt.** Niet alleen de handoff, niet alleen governance, niet alleen actieve taken.
+
+Praktisch betekent dit:
+
+1. Haal de volledige recursieve tree van de actuele werkbranch op.
+2. Lees vervolgens **alle tekstuele bronbestanden op die werkbranch inhoudelijk**, inclusief governance, actieve runs, oudere runs, registries, decisions, protocollen, methodes, scripts, README/START/HANDOFF-bestanden, research-notities en legacy-projectbestanden. Oude bestanden kunnen fouten bevatten of gedeprecieerd zijn, maar moeten wel gelezen worden zodat een opvolger weet wat er bestond, wat vervangen is en welke Mark-besluiten mogelijk beschermd zijn.
+3. Niet-tekstuele/binaire artefacten (PDF's, afbeeldingen, ZIP's) hoeven niet byte-voor-byte gelezen te worden als hun relevante inhoud al in tekstbestanden is vastgelegd. Zodra een actuele taak, decision of audit naar zo'n artefact verwijst als inhoudelijke bron, moet het wel worden geopend/gecontroleerd.
+4. Inventariseer daarnaast alle relevante branches en open PR's. Lees in elk geval de actieve werkbranch volledig en inspecteer legacy/andere branches die in de repo of actieve taken worden genoemd. PR #23 moet volledig als relay/index worden gecontroleerd op de nieuwste envelopes; inhoudelijke waarheid blijft in de repo-bestanden.
+5. Lees daarna nogmaals de actuele canonieke statebestanden om prioriteit en conflictoplossing vast te zetten:
+   - `governance/ACTIVE_STATE.md`
+   - `governance/INDIA_SESSION_START.md`
+   - `governance/SWEEP_PROTOCOL.md`
+   - `governance/SWEEP_ERROR_CLASSES.md`
+   - alle `runs/active/*/STATUS.md` + bijbehorende `TASK.md` en genoemde outputbestanden.
+6. Scan repo-breed op minimaal:
+   - `LOCKED_BY_MARK`
+   - `MARK_DECISION_CONFLICT`
+   - `LAST_GLOBAL_LOCATION_NUMBER`
+   - `PDF_STATUS`
+   - `next_allowed_step`
+   - `PERSON_SWEEP_SATURATED`
+   - `AOAY_LOCATION_SWEEP_SATURATED`
+   - `DOUBLE_SWEEP_COMPLETED`
+7. Controleer de nieuwste commits op de werkbranch en de nieuwste PR #23-enveloppen.
+8. Bij tegenstrijdige state geldt voor actuele taakspecifieke voortgang: **actuele taak-STATUS > INDIA_SESSION_START > ACTIVE_STATE > oudere/legacy-bestanden > oude chat**. Maar oudere bestanden mogen niet worden genegeerd wanneer ze beschermde Mark-besluiten, eerdere evidence of een expliciete reconciliatiebron bevatten.
+9. Handel daarna DIRECT de nieuwste `next_allowed_step` af. Mark is geen koerier tussen INDIA en CCI.
+
+### Waarom echt de hele repo lezen
+Dit project heeft meerdere architectuurfasen, oude branches, legacy-besluiten en later ontdekte misses. Alleen een samenvatting lezen kan precies de fouten herhalen die we proberen te voorkomen. De volledige repo is daarom de oriëntatielaag; de statebestanden bepalen daarna wat actueel/canoniek is.
+
+## State-bestanden en onderhoud
+
+- `governance/INDIA_SESSION_START.md` = compacte, actuele operationele overdracht.
+- `governance/ACTIVE_STATE.md` = langere centrale projectstaat/canon.
+- `runs/active/<TASK_ID>/STATUS.md` = kortste en meest actuele waarheid per taak.
+- `runs/active/<TASK_ID>/TASK.md` = taakcontract.
+- PR #23 = korte relay/index, geen vervanging voor repo-inhoud.
+
+**Verplichte onderhoudsregel voor iedere INDIA-regisseur:** update `governance/INDIA_SESSION_START.md` in dezelfde werksessie wanneer één van deze dingen verandert: nieuwe taak, taak afgerond/geblokkeerd, nieuwe CCI-opdracht, nieuwe permanente locatie-ID, Mark A/B/C-lock, methode/protocolwijziging, regioprioriteit, of `NEXT_ACTION`. Update daarnaast altijd het betrokken taak-`STATUS.md`. Laat een opvolger nooit afhankelijk zijn van chatgeheugen.
+
+## Projectdoel
+
+Marks India-reis draait primair om drie orthogonale detectorlagen:
+
+1. **AOAY** — iedere verifieerbare fysieke plek uit of d
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=47 path=README.md blob_sha=c729e11cc286a8d9c6e25564afa16305d34ed879 original_offset=4096 original_length=3683 payload_bytes=3683 chunk_index=1 chunk_count=2 classification=text
+irect verbonden met *Autobiography of a Yogi*, hoe klein ook.
+2. **Top-11 persoon-centraal** — per persoon heel India afzoeken naar aantoonbare fysieke touchpoints, inclusief host/gastheer/landgoed/huis-bezoeken.
+3. **Regionaal** — per zware regio een onafhankelijke dubbele sweep + reconciliatie; daarnaast alleen zelfstandige spirituele/pelgrimszwaargewichten als bonuslaag.
+
+Top-11, vaste volgorde:
+1. Paramahansa Yogananda
+2. Mahavatar Babaji
+3. Lahiri Mahasaya
+4. Sri Yukteswar
+5. Ram Dass
+6. Neem Karoli Baba
+7. Anandamayi Ma
+8. Ramakrishna
+9. Ramana Maharshi
+10. Hariharananda
+11. Vivekananda
+
+Geen A/B/C voorspellen namens Mark. Geen PDF zonder expliciet `PDF_GO: JA`.
+
+## ACTUELE SNAPSHOT — 2026-08-16
+
+Repository: `bnzgxknwrv-tech/india-knowledge-base`
+Werkbranch: `claude/werk-je-nu-of-niet-oa10y7`
+PR: #23 draft; niet mergen zonder expliciete vrijgave van Mark.
+Laatste globale permanente locatienummer: **081**.
+
+### Kumaon
+`KUMAON-V2-RESWEEP-001` is gedeeltelijk gereconcilieerd.
+- 079 Mahavatar Babaji's Cave — A, `LOCKED_BY_MARK`.
+- 080 Turiya Niwas — A, `LOCKED_BY_MARK`.
+- 081 Bodh Ashram — A, `LOCKED_BY_MARK`.
+- Overige nieuwe Kumaon-vondsten blijven tijdelijke IDs tot clustergewijze identity/reconciliatie.
+
+### Top-11 landelijke megasweep
+`TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001`.
+- Pilot Anandamayi Ma + Neem Karoli Baba: beide `PERSON_SWEEP_SATURATED: JA`.
+- Methode is bevroren in `METHOD_V1.md`; host-/gastheer-as is verplicht vanaf het begin.
+- Fase 2 voor overige 9 is geautoriseerd via CCI_TASK 081.
+- Actuele STATUS bij deze snapshot: `PHASE2_IN_PROGRESS__PERSOON_1_VAN_9_GEREED`.
+- Mahavatar Babaji (persoon 1/9) is reeds `PERSON_SWEEP_SATURATED: JA`; o.a. Allahabad/Kumbh Mela 1894 kwam als ontbrekend Babaji/Sri Yukteswar-signaal boven.
+- CCI gaat autonoom verder met Lahiri Mahasaya, Yogananda, Ram Dass, Sri Yukteswar, Hariharananda, Vivekananda, Ramakrishna, Ramana Maharshi tenzij een blocker/conflict ontstaat.
+
+### AOAY volledige locatie-atlas
+`AOAY-FULL-LOCATION-ATLAS-001`.
+- Mark wil het **hele boek andersom**: boek → iedere locatievermelding, zonder relevantiefilter tijdens extractie.
+- Inclusief huizen, kamers, straten, stations, steden, dorpen, landen, ashrams, tempels, scholen, bergen, rivieren, grotten, transit, voetnoten en fotobijschriften; buitenlandse/mythische/onzekere vermeldingen worden bewaard en gelabeld.
+- Actuele STATUS bij deze snapshot: `READY_FOR_CCI_FULL_BOOK_SWEEP`.
+- CCI_TASK 082 is uitgegeven: hoofdstuk-voor-hoofdstuk occurrence-log + genormaliseerde place-atlas + coverage-matrix; stop pas bij `AOAY_LOCATION_SWEEP_SATURATED: JA` of echte blocker.
+
+### Reeds inhoudelijk afgerond
+- Varanasi: 001–040 beoordeeld/beschermd; 041–045 alleen op Marks initiatief.
+- Bodh Gaya: 046–078 verwerkt; keuzes beschermd; geen nieuwe Bodh Gaya-PDF.
+- Gaya Airport → Bodh Gaya corridor: dubbele sweep + reconciliatie, 0 nieuwe locaties.
+
+### Volgende zware regio's ná de huidige Kumaon/atlas-werkstroom
+1. Tiruvannamalai / Arunachala.
+2. Kolkata / Serampore.
+Rajgir/Nalanda staat voorlopig niet in beeld als actieve volgende regio.
+
+## Exacte startzin voor een nieuwe chat
+
+Mark kan in een nieuwe chat alleen dit sturen:
+
+> Neem de INDIA-regie over. Lees eerst de **gehele GitHub-repository inhoudelijk** op de actuele werkbranch volgens README.md, inclusief legacy/oud tekstmateriaal, en inventariseer relevante branches/PR's. Lees daarna de actuele governance en alle actieve STATUS/TASK/output-bestanden opnieuw om canon en prioriteit vast te zetten. Controleer PR #23 en recente commits. Handel vervolgens direct de nieuwste NEXT_ACTION af. Vraag mij niet de geschiedenis opnieuw uit te leggen.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=48 path=governance/INDIA_SESSION_START.md blob_sha=bfb6370f5c300aaff640160a6a91a05c3a5fa0fb original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# INDIA_SESSION_START — duurzame bootstrap voor iedere nieuwe INDIA-regisseursessie
+
+Snapshot: 2026-08-16
+
+## HARD RULE — EERST DE GEHELE GITHUB LEZEN
+Een nieuwe INDIA-regisseur leest vóór inhoudelijk handelen de gehele tekstuele repository op de actuele werkbranch inhoudelijk. Eerst de volledige recursive tree, daarna alle tekstbestanden: governance, actieve en oude runs, legacy, registries, decisions, protocollen, scripts, research, handoffs, methodes en overige projectbestanden. Binaire artefacten alleen openen wanneer een actuele taak/decision/audit ze als bron nodig heeft. Relevante andere branches en open PR's inventariseren; genoemde legacy-branches lezen. Daarna actuele statebestanden opnieuw lezen om canon vast te zetten.
+
+Prioriteit bij stateverschil: `actuele taak-STATUS > INDIA_SESSION_START > ACTIVE_STATE > legacy/oud > oude chat`. Legacy blijft verplicht wanneer het beschermde Mark-besluiten/evidence/reconciliatie-input bevat.
+
+## BOOTVOLGORDE
+1. Lees root `README.md`.
+2. Haal volledige recursive tree op.
+3. Lees alle tekstuele bestanden op de werkbranch.
+4. Inventariseer relevante branches en PR #23; lees genoemde legacy-branches.
+5. Lees opnieuw `governance/ACTIVE_STATE.md`, `SWEEP_PROTOCOL.md`, `SWEEP_ERROR_CLASSES.md` en dit bestand.
+6. Lees alle `runs/active/*/STATUS.md`, bijbehorende `TASK.md` en genoemde outputbestanden.
+7. Scan repo-breed op `LOCKED_BY_MARK`, `MARK_DECISION_CONFLICT`, `LAST_GLOBAL_LOCATION_NUMBER`, `PDF_STATUS`, `next_allowed_step`, `PERSON_SWEEP_SATURATED`, `AOAY_LOCATION_SWEEP_SATURATED`, `DOUBLE_SWEEP_COMPLETED`.
+8. Controleer nieuwste commits + nieuwste PR #23-enveloppen.
+9. Handel direct de nieuwste `next_allowed_step` af. Mark is geen koerier.
+
+## ONDERHOUDSREGEL
+Update dit bestand in dezelfde werksessie bij iedere nieuwe taak/CCI_TASK, taakstatus/NEXT_ACTION, permanent locatie-ID, Mark A/B/C-lock/conflict, methode/protocolwijziging, regioprioriteit of belangrijke researchlaag-status. Update altijd ook de betrokken taak-STATUS. Chat mag nooit de enige actuele waarheid zijn.
+
+## MARK-UI-REGEL — EXTERNE AI PROMPTS
+Lees en volg `governance/EXTERNAL_AI_PROMPT_RULES.md`.
+Iedere tekst die Mark naar een andere AI/chat/Claude Code moet kopiëren staat volledig in één los fenced code block (monospace/kopieerknop). Geen noodzakelijke prompttekst erbuiten. Dit geldt ook voor éénregelige startvragen.
+
+## REPO / RELAY
+- Repo: `bnzgxknwrv-tech/india-knowledge-base`
+- Werkbranch: `claude/werk-je-nu-of-niet-oa10y7`
+- PR #23 draft; niet mergen zonder expliciete Mark-vrijgave.
+- PR #23 = korte relay/index; lange inhoud onder `runs/active/<TASK_ID>/`.
+
+## PROJECTDOEL
+Drie orthogonale missiekritische detectorlagen:
+1. AOAY volledig: iedere locatievermelding / direct verbonden fysieke plek, hoe klein ook.
+2. Top-11 persoon-centraal: per persoon heel India, inclusief hosts/gastheren/huizen/landgoederen.
+3. Regionaal: zware regio's onafhankelijk dubbel sweepen + reconciliëren; laag-3 alleen echte zelfstandige zwaargewichten.
+
+Top-11 vaste volgorde: Paramahansa Yogananda; Mahavatar Babaji; Lahiri Mahasaya; Sri Yukteswar; Ram Dass; Neem Karoli Baba; Anandamayi Ma; Ramakrishna; Ramana Maharshi; Hariharananda; Vivekananda.
+
+Geen A/B/C voorspellen namens Mark. Bestaande Mark-besluiten beschermd. Nieuwe cruciale info bij oud besluit => `MARK_DECISION_CONFLICT`. Geen PDF zonder `PDF_GO: JA`.
+
+## PERMANENTE NUMMERING
+`LAST_GLOBAL_LOCATION_NUMBER = 081`.
+- 079 Mahavatar Babaji's Cave — A, `LOCKED_BY_MARK`.
+- 080 Turiya Niwas — A, `LOCKED_BY_MARK`.
+- 081 Bodh Ashram — A, `LOCKED_BY_MARK`.
+
+## ACTIEVE TAAK 1 — TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
+CCI heeft METHOD_V1 afgerond: circa 90 atlaspunten voor alle 11 en 11/11 `PERSON_SWEEP_SATURATED: JA`. Die saturation-labels zijn voor INDIA **NIET meer geldig als completeness-bewijs**. Anandamayi-benchmark heeft aangetoond dat METHOD_V1 hele categorieën en tientallen fysieke touchpoints mist.
+
+Bestaande atlas blijft input; niet verwijderen. Geen permanente nummering/clusterkeuze op basis van METHOD_V1 alleen.
+
+## ACTIEVE TAAK 2 — TOP11-EX
+<<< END CHUNK >>>
+

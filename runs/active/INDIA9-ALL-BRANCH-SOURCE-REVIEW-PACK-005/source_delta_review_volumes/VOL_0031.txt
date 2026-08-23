@@ -1,0 +1,612 @@
+>>> CHUNK stream_row=463 path=runs/active/INDIATURQUOISE-ALLPERSON-OVERLAP-001/PROVISIONAL_CLUSTER_SHORTLIST.md blob_sha=4fd2102ad537450a4ffc685565af42f4f0690ea7 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# PROVISIONAL_CLUSTER_SHORTLIST — INDIA TURQUOISE
+
+status: PROVISIONAL_PRE_HEATMAP
+scope: overlap-derived travel relevance only; no route, nights, hotel, or A/B/C decision
+
+This shortlist is not a destination decision. It identifies clusters that look travel-relevant because multiple project persons or multiple strong sites already converge there in durable data.
+
+## Tier P1 — strongest overlap clusters already visible
+
+### Prayagraj / Allahabad
+Why it stands out: current conservative city-level lower bound is **5 unique persons**: Mahavatar Babaji, Sri Yukteswar, Lahiri Mahasaya, Paramahansa Yogananda and Neem Karoli Baba. The overlap is heterogeneous rather than one shared structure: 1894 Kumbh event, later Kumbh attendance, 4 Church Lane and station-related material. That makes the city strong as a cross-lineage junction while requiring strict subsite separation.
+
+Travel-relevance signal: **VERY HIGH OVERLAP DENSITY**.
+Decision status: **UNDECIDED_BY_MARK**.
+
+### Varanasi / Kashi
+Why it stands out: conservative lower bound **5 persons if Babaji tradition-presence is counted, 4 hard-historical persons without it**. Lahiri Mahasaya and Sri Yukteswar share a strict exact house overlap; Ramakrishna has a city-level pilgrimage link; Anandamayi Ma has an ashram/verblijf layer; Babaji has a reconciled tradition/source claim at Dashashwamedh Ghat. The city already has an existing deep repository candidate layer, so this is not a new destination recommendation but a strong integration signal.
+
+Travel-relevance signal: **VERY HIGH, with strongest exact-site lineage overlap at Lahiri residence**.
+Decision status: existing Mark-protected decisions remain untouched.
+
+### Kolkata / Hooghly lineage belt
+Why it stands out: Yogananda, Vivekananda, Ramakrishna and Anandamayi Ma all have durable metropolitan/near-metropolitan links; the broader West-Bengal belt additionally includes Sri Yukteswar, Serampore and Lahiri’s Nadia birth-region context. Strong identifiable sites include Dakshineswar, Cossipore, Vivekananda’s ancestral house and Serampore lineage locations.
+
+Travel-relevance signal: **VERY HIGH REGION-CLUSTER DENSITY**, but this is a belt, not one walkable city-site.
+Decision status: **UNDECIDED_BY_MARK**.
+
+### Vrindavan
+Why it stands out: **4-person lower bound**: Neem Karoli Baba, Ram Dass, Anandamayi Ma and Ramakrishna. NKB + Ram Dass converge on the exact NKB ashram/mahasamadhi complex; Ramakrishna’s Akrura Ghat is a separate site; Anandamayi has her own ashram layer.
+
+Travel-relevance signal: **HIGH** because both cross-person exact overlap and separate person-linked sites coexist.
+Decision status: **UNDECIDED_BY_MARK**.
+
+## Tier P2 — compact, high-quality exact-overlap clusters
+
+### Tiruvannamalai / Arunachala
+Ramana Maharshi supplies a dense four-site lifetime cluster and Yogananda adds a confirmed Sri Ramanasramam visit. This remains `LOCKED_BY_MARK` A-anchor. The task therefore records the overlap but does not re-rank or reconsider Mark’s choice.
+
+Travel-relevance signal: **HIGH and already protected by Mark**.
+
+### Puri
+Sri Yukteswar + Hariharananda share Karar Ashram; Hariharananda adds Balighai Gurukulam; Anandamayi Ma contributes a weaker organization-listed Puri layer. This gives Puri both exact overlap and multiple separate lineage sites.
+
+Travel-relevance signal: **HIGH, but Anandamayi contribution remains provisional**.
+Decision status: **UNDECIDED_BY_MARK**.
+
+### Ranchi
+Yogananda’s Ranchi Vidyalaya/YSS campus and Anandamayi Ma’s documented visit/photo session converge on the same physical campus. This is one of the cleanest targeted exact cross-person results in the repo.
+
+Travel-relevance signal: **HIGH exact-site quality, lower person count**.
+Decision status: **UNDECIDED_BY_MARK**.
+
+### Kainchi / Nainital microcluster
+Kainchi Dham is a strict NKB + Ram Dass exact overlap. Nearby Nainital/Hanuman Garh also has cross-person convergence. This sits inside the already-important Kumaon context and must not be confused with the separate Babaji-cave principal travel reason.
+
+Travel-relevance sign
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=464 path=runs/active/INDIATURQUOISE-ALLPERSON-OVERLAP-001/PROVISIONAL_CLUSTER_SHORTLIST.md blob_sha=4fd2102ad537450a4ffc685565af42f4f0690ea7 original_offset=4096 original_length=1956 payload_bytes=1956 chunk_index=1 chunk_count=2 classification=text
+al: **HIGH within Kumaon**.
+Decision status: existing Kumaon/Mark decisions unchanged.
+
+### Serampore
+Sri Yukteswar + Yogananda converge strongly on the guru/ashram lineage context. Anandamayi Ma also has a separate later station encounter with Yogananda in Serampore, but that station must not be merged with the ashram.
+
+Travel-relevance signal: **MEDIUM-HIGH** pending fuller Yogananda reconciliation.
+Decision status: **UNDECIDED_BY_MARK**.
+
+## Tier P3 — regional overlap signals worth preserving for later heatmap work
+
+### Almora / Kumaon
+Anandamayi Ma + Vivekananda share Almora at city level, while the wider Kumaon region contains NKB/Ram Dass, Mayavati, Kainchi, and the separate Kukuchina/Dunagiri Babaji anchor. This is a **regional** density signal, not evidence that all persons share one local site.
+
+### Haridwar / Kankhal
+Anandamayi Ma’s Kankhal Mahasamadhi is a major single-person anchor in the pilot. It is not yet a multi-person city overlap in the conservative table, but it remains travel-relevant because single-person importance can exceed overlap count. It is retained here specifically to prevent an overlap-only heatmap from erasing high-value unique anchors.
+
+### Kukuchina / Dunagiri
+Mahavatar Babaji cave remains a principal reason for the India trip. It is deliberately preserved despite low cross-person count. Lahiri Mahasaya shares the initiation-event lineage context, but the exact cave evidence remains governed by Core-Kriya reconciliation and Babaji’s special epistemic rule.
+
+## Guardrail for later heatmap/route builders
+
+Do not convert this shortlist directly into A/B/C, nights, routing, hotel choices or destination selection. A later travel heatmap should combine at least three separate dimensions: (1) overlap density, (2) single-person mission-critical anchors, and (3) coverage confidence. Otherwise cities with many provisional links could incorrectly outrank a uniquely important Mark-locked site.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=465 path=runs/active/INDIATURQUOISE-ALLPERSON-OVERLAP-001/STATUS.md blob_sha=8e5f6eff9a1bf93e9b65d8688fff4d025c0d4292 original_offset=0 original_length=1378 payload_bytes=1378 chunk_index=0 chunk_count=1 classification=text
+# STATUS — INDIATURQUOISE-ALLPERSON-OVERLAP-001
+
+state: COMPLETE
+branch: agent/indiaturquoise-allperson-overlap
+owner: INDIA TURQUOISE
+mode: integration_not_blind
+completed_at: 2026-08-19
+
+outputs:
+- runs/active/INDIATURQUOISE-ALLPERSON-OVERLAP-001/ALL_PERSON_CITY_OVERLAP.md
+- runs/active/INDIATURQUOISE-ALLPERSON-OVERLAP-001/ALL_PERSON_EXACT_OVERLAP.md
+- runs/active/INDIATURQUOISE-ALLPERSON-OVERLAP-001/PROVISIONAL_CLUSTER_SHORTLIST.md
+- runs/active/INDIATURQUOISE-ALLPERSON-OVERLAP-001/COVERAGE_WARNINGS.md
+
+constraints_respected:
+- no new person-location research
+- no A/B/C choices made for Mark
+- Arunachala/Tiruvannamalai retained as LOCKED_BY_MARK A-anchor
+- Babaji cave Kukuchina/Dunagiri retained as principal travel reason
+- no route/nights/hotel choice
+- no PDF
+- no merge/PR
+
+integration_note: counts are conservative MIN_CONFIRMED_COUNT values. Core-Kriya uses completed reconciled layers; NKB/Ram Dass use their current completed external reconciliation but remain unsaturated; Ramana/Ramakrishna multidetector reconciliation remains pending; Yogananda/Hariharananda/Vivekananda/Anandamayi rely on durable internal/targeted layers with explicit coverage warnings.
+
+next_allowed_step: downstream heatmap/route-prep agents may consume these outputs as provisional integration layers, preserving COVERAGE_WARNINGS and without converting them into Mark decisions.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=466 path=runs/active/INDIATURQUOISE-ALLPERSON-OVERLAP-001/TASK.md blob_sha=14663ebe3c760593d7b24159ca6eaac1c6fd6dcd original_offset=0 original_length=2181 payload_bytes=2181 chunk_index=0 chunk_count=1 classification=text
+# INDIA TURQUOISE — ALL-PERSON PROVISIONAL OVERLAP / PRE-HEATMAP
+
+STATUS: READY
+OWNER: INDIA TURQUOISE
+MODE: INTEGRATION, NOT BLIND
+GOAL: maak nu al een voorlopig alle-personen overlapbeeld voor reisplanning, zonder nieuw persoonslocatieonderzoek.
+
+## Scope
+Gebruik alle reeds duurzaam beschikbare persoonslagen voor de Top-11/projectpersonen die op de actuele repo/branches beschikbaar zijn, inclusief gereconcilieerde CCI-resultaten waar aanwezig en anders duidelijk gelabelde frozen detectorlagen. Combineer GEEN onzeker record stilzwijgend tot canon.
+
+Doelpersonen minimaal: Yogananda, Mahavatar Babaji, Lahiri Mahasaya, Sri Yukteswar, Neem Karoli Baba, Ram Dass, Ramana Maharshi, Ramakrishna, Vivekananda, Hariharananda en Anandamayi Ma voor zover duurzame projectdata beschikbaar is.
+
+## Belangrijk
+- Dit is GEEN nieuwe persoons-sweep.
+- Geen webresearch naar nieuwe persoonslocaties.
+- Geen claims upgraden alleen omdat meerdere detectoren ze noemen.
+- Per persoon/per locatie herkomstlaag bewaren: RECONCILED / INTERNAL_FREEZE / EXTERNAL_FREEZE / TARGETED_ONLY / LEGACY_UNVERIFIED.
+- Indien dezelfde stad maar niet dezelfde fysieke plek: CITY_OVERLAP.
+- Indien hetzelfde identificeerbare complex/gebouw/tempel/ashram/station/etc.: EXACT_OR_COMPLEX_OVERLAP.
+- Indien alleen regio/plaatsniveau: REGION_OR_PLACE_OVERLAP.
+- Conflicten zichtbaar houden.
+
+## Outputs
+1. ALL_PERSON_CITY_OVERLAP.md — ranglijst steden/plaatsen op aantal unieke personen; per persoon bewijs/herkomst.
+2. ALL_PERSON_EXACT_OVERLAP.md — alleen mogelijke/zekere gedeelde fysieke sites of complexen; streng bewijsniveau.
+3. PROVISIONAL_CLUSTER_SHORTLIST.md — clusters die op basis van overlap duidelijk travel-relevant lijken, maar GEEN A/B/C-keuze maken.
+4. COVERAGE_WARNINGS.md — welke personen/lagen nog onvoldoende gereconcilieerd zijn zodat tellingen voorlopig zijn.
+5. STATUS.md bijwerken naar COMPLETE.
+
+## Reisgrenzen
+- Arunachala/Tiruvannamalai blijft LOCKED_BY_MARK A-anker.
+- Babaji-grot Kukuchina/Dunagiri blijft hoofdreden reis.
+- Geen route/nachten/hotelkeuze.
+- Geen A/B/C namens Mark.
+- Geen PDF.
+- Geen merge/PR.
+
+Commit alle outputs op agent/indiaturquoise-allperson-overlap.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=467 path=runs/active/INDIATURQUOISE-ENTITY-OVERLAP-RECONCILIATION-001/AMBIGUOUS_MERGES_QUEUE.md blob_sha=d6322d4039bac4372be39916b63e6111d99b7337 original_offset=0 original_length=4013 payload_bytes=4013 chunk_index=0 chunk_count=1 classification=text
+# AMBIGUOUS_MERGES_QUEUE — INDIA TURQUOISE
+
+status: COMPLETE
+purpose: preserve potentially mergeable findings that lack enough physical-identity evidence for a hard merge
+
+## Blocking / high-impact ambiguities
+
+| priority | candidate merge | evidence for convergence | why NOT merged now | downstream effect |
+|---|---|---|---|---|
+| HIGH | Sri Yukteswar Serampore ashram / Yogoda Math ↔ Yogananda return-to-guru site | `ATL-SY-001`; `ATL-PY-007`; prior TURQUOISE layer calls convergence highly plausible | prior exact-overlap output explicitly withheld promotion pending fuller Yogananda reconciliation | Could change exact-site count for Kolkata/Hooghly belt, but not city/person overlap. |
+| HIGH | Historic Dunagiri initiation cave/event landscape ↔ modern Mahavatar Babaji Cave institutional identification | `BJ-INT-01`; `B01`; `BJ-INT-14`; `B01-S1`; `ATL-MB-001` | event landscape includes distinct riverbank/palace claims and Babaji-specific epistemic rule; modern cave identification must not erase historic granularity | Important for final physical-entity presentation of principal Babaji anchor. |
+| HIGH | Bhowanipur disciple house exact building identity | targeted Yogananda–Anandamayi task verifies Bhowanipur event and Bholanath presence | exact house/gastheer address unresolved | Exact-site count for Kolkata cannot include this building; city/neighbor event remains valid. |
+| MEDIUM-HIGH | Dashashwamedh Ghat claimed underground cave exact point | `BJ-INT-11+12`; `B06` correct the event to Dashashwamedh Ghat | exact hidden cave point not physically resolved | Keep ghat-zone entity; do not invent a micro-location. |
+| MEDIUM-HIGH | Delhi unnamed estate ↔ any named Delhi NKB site | `NKB-21`; `RAMDASS-ext-6` cross-person same estate | estate remains unnamed; no evidence it is Jonapur or another named temple/ashram | Must remain separate from Jonapur despite same region. |
+
+## Important but non-blocking ambiguities
+
+| candidate | status | handling |
+|---|---|---|
+| Nainital Hanuman Garh / Hanuman Garhi naming | alias strongly supported but source depth uneven | merged only as name alias; original names retained. |
+| NKB Vrindavan later memorial `ext-108` vs cremation/mahasamadhi microsites | temporal relation, not duplicate | keep as successor child. |
+| Akbarpur birth house vs later 2001 temple | temporal chain | no same-building merge. |
+| Ghurni original birth/family site vs rebuilt shrine | historic site partly lost/changed | successor relation only. |
+| Prayagraj Kumbh 1894 vs other Kumbh/Magh records/years | recurring event geography | never merge different-year events merely by fair name. |
+| Puri Anandamayi organization-listed layer ↔ Karar Ashram/Balighai | same city only | no merge; personal presence at those exact sites not established in durable input. |
+| Varanasi Ramakrishna city-pilgrimage ↔ Lahiri house | same city only | no merge. |
+| Vrindavan Akrura Ghat ↔ NKB ashram | same city only | no merge. |
+| Serampore station ↔ Sri Yukteswar ashram | same town only | explicit distinct-site relation. |
+| Bodh Gaya/Gaya cross-person entity overlap | insufficient exact-overlap evidence in the TURQUOISE inputs inspected | preserve existing IDs/person links; no forced merge. |
+
+## Governance/input warning
+
+`governance/LOCATION_RESOLUTION_BEFORE_ABC_2026-08-19.md` was requested by TASK but was not present at that path on this branch and repository search returned no match. This is recorded as an **input-file gap**, not a blocker: TASK.md itself supplies the controlling rules used here (physical identity before merge; parent-child for micro-sites; successor relation for historic→modern; no A/B/C or ID changes).
+
+## Queue rule
+
+Nothing in this file authorizes new person-location research. A later reconciliation may close an ambiguity only from an already-authorized durable layer or a separately issued task. Until then, all source claims and event links remain lossless and unmerged where physical identity is not established.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=468 path=runs/active/INDIATURQUOISE-ENTITY-OVERLAP-RECONCILIATION-001/ENTITY_MERGE_MAP.jsonl blob_sha=cfef623f8e937282d12aa583b3dc4645df91850a original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+{"entity_merge_key":"TQ-ENT-001","canonical_label_for_reconciliation_only":"Lahiri Mahasaya residence, D 31/58 Madanpura/Bangali Tola","place":"Varanasi","relation":"SAME_PHYSICAL_SITE","confidence":"HIGH","source_record_ids":["LM residence durable record","VNS-CAND-002","BJ-INT-07","B11","ATL-SY-003"],"persons":["Lahiri Mahasaya","Sri Yukteswar","Mahavatar Babaji (source/tradition claim only)"],"events":["Lahiri residence/teaching","Sri Yukteswar repeated guru visits","Babaji appearance claim in Lahiri parlour/drempel"],"uncertainties":["Babaji link is source/tradition-presence, not historical-body verification"],"merge_action":"MERGE_ENTITY_KEEP_ALL_LINKS","id_policy":"NON_CANONICAL_MERGE_KEY_ONLY"}
+{"entity_merge_key":"TQ-ENT-002","canonical_label_for_reconciliation_only":"Kainchi Dham ashram complex","place":"Kainchi, Uttarakhand","relation":"SAME_PHYSICAL_SITE_WITH_MICROSITES","confidence":"HIGH","source_record_ids":["NKB-5","ext-41..49","ATL-RD-002"],"persons":["Neem Karoli Baba","Ram Dass"],"events":["NKB ashram life/events","Ram Dass first meeting/sadhana"],"uncertainties":["nine external sublocations remain children, not duplicates"],"merge_action":"MERGE_PARENT_ONLY_KEEP_MICROSITES","id_policy":"NON_CANONICAL_MERGE_KEY_ONLY"}
+{"entity_merge_key":"TQ-ENT-003","canonical_label_for_reconciliation_only":"Neem Karoli Baba Vrindavan Ashram / Mahasamadhi complex","place":"Vrindavan","relation":"SAME_PHYSICAL_SITE_WITH_MICROSITES","confidence":"HIGH","source_record_ids":["NKB-8","ext-104..108","NKB-14","ext-107","ATL-RD-003"],"persons":["Neem Karoli Baba","Ram Dass"],"events":["NKB ashram residence/final lineage context","cremation/mahasamadhi-related records","Ram Dass later Maharajji years"],"uncertainties":["ext-108 is later memorial/negative-control and is not evidence of NKB personal presence at construction time"],"merge_action":"MERGE_PARENT_KEEP_CHILD_AND_SUCCESSOR_DISTINCTIONS","id_policy":"NON_CANONICAL_MERGE_KEY_ONLY"}
+{"entity_merge_key":"TQ-ENT-004","canonical_label_for_reconciliation_only":"4 Church Lane / Red House","place":"Prayagraj / Allahabad","relation":"SAME_PHYSICAL_SITE_WITH_MICROSITES","confidence":"MEDIUM_HIGH","source_record_ids":["ext-20","ext-21","ext-22","ext-23","ext-24","ext-25","RAMDASS cross-person 4 Church Lane record"],"persons":["Neem Karoli Baba","Ram Dass"],"events":["NKB stays/devotee-house events","Ram Dass/NKB cross-person corpus link"],"uncertainties":["modern access/current physical condition not established in this task"],"merge_action":"MERGE_PARENT_ONLY_KEEP_ROOMS_AS_CHILDREN","id_policy":"NON_CANONICAL_MERGE_KEY_ONLY"}
+{"entity_merge_key":"TQ-ENT-005","canonical_label_for_reconciliation_only":"Karar Ashram, Swargadwar","place":"Puri","relation":"SAME_PHYSICAL_SITE_WITH_DISTINCT_MICROSITES","confidence":"HIGH","source_record_ids":["ATL-SY-002","ATL-HH-002","B14","B15"],"persons":["Sri Yukteswar","Hariharananda","Mahavatar Babaji claimant tradition HARIHARANANDA only"],"events":["Sri Yukteswar ashram/mahasamadhi","Hariharananda monastic residence/leadership","Hariharananda-tradition Babaji room/Kali-puja-room claims"],"uncertainties":["B14/B15 are explicitly wrong-person-or-tradition for AOAY Babaji and must never be merged into AOAY-Babaji identity"],"merge_action":"MERGE_SITE_IDENTITY_KEEP_TRADITION_SEPARATION_AND_MICROSITES","id_policy":"NON_CANONICAL_MERGE_KEY_ONLY"}
+{"entity_merge_key":"TQ-ENT-006","canonical_label_for_reconciliation_only":"Sri Ramanasramam","place":"Tiruvannamalai","relation":"SAME_PHYSICAL_SITE","confidence":"HIGH_SITE_IDENTITY_PROVISIONAL_PERSON_RECONCILIATION","source_record_ids":["ATL-RM-006","ATL-PY-009"],"persons":["Ramana Maharshi","Paramahansa Yogananda"],"events":["Ramana residence 1922-1950/mahanirvana","Yogananda visit 1935"],"uncertainties":["Ramana multidetector reconciliation was pending in prior TURQUOISE layer"],"merge_action":"MERGE_ENTITY_KEEP_SEPARATE_EVENTS","id_policy":"NON_CANONICAL_MERGE_KEY_ONLY"}
+{"entity_merge_key":"TQ-ENT-007","canonical_label_for_reconciliation_only":"Ranchi Vidyalaya / Yogoda Satsanga Sakha Math campus","pl
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=469 path=runs/active/INDIATURQUOISE-ENTITY-OVERLAP-RECONCILIATION-001/ENTITY_MERGE_MAP.jsonl blob_sha=cfef623f8e937282d12aa583b3dc4645df91850a original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+ace":"Ranchi","relation":"HISTORIC_NAME_TO_CURRENT_SAME_CAMPUS","confidence":"HIGH","source_record_ids":["ATL-PY-005","YOGANANDA-ANANDAMAYI-PHOTO-LOCATION-001:Ranchi-event"],"persons":["Paramahansa Yogananda","Anandamayi Ma"],"events":["Yogananda school/ashram campus","Anandamayi Ma visit and garden photo session"],"uncertainties":["specific garden sublocation within campus not resolved"],"merge_action":"MERGE_CAMPUS_IDENTITY_KEEP_HISTORIC_CURRENT_NAMES","id_policy":"NON_CANONICAL_MERGE_KEY_ONLY"}
+{"entity_merge_key":"TQ-ENT-008","canonical_label_for_reconciliation_only":"Dakshineswar Kali Temple complex","place":"Kolkata metropolitan area","relation":"SAME_PHYSICAL_COMPLEX","confidence":"HIGH_SITE_IDENTITY","source_record_ids":["ATL-RK-002","Vivekananda sweep deliberate cross-person link"],"persons":["Ramakrishna","Vivekananda"],"events":["Ramakrishna priest/residence core period","Vivekananda/Narendranath meetings with Ramakrishna"],"uncertainties":["do not merge with other Kolkata metro sites"],"merge_action":"MERGE_COMPLEX_KEEP_PERSON_EVENTS","id_policy":"NON_CANONICAL_MERGE_KEY_ONLY"}
+{"entity_merge_key":"TQ-ENT-009","canonical_label_for_reconciliation_only":"Hanuman Garh / Hanuman Garhi temple","place":"Nainital","relation":"ALIAS_SAME_PHYSICAL_SITE","confidence":"MEDIUM_HIGH","source_record_ids":["NKB-19","ext-31..34","Ram Dass reconciliation cross-person Hanuman Garh record"],"persons":["Neem Karoli Baba","Ram Dass"],"events":["NKB temple/site events","Ram Dass cross-person presence/context"],"uncertainties":["name spelling variant retained; primary-source depth uneven"],"merge_action":"MERGE_ALIAS_KEEP_NAMES","id_policy":"NON_CANONICAL_MERGE_KEY_ONLY"}
+{"entity_merge_key":"TQ-ENT-010","canonical_label_for_reconciliation_only":"Allahabad/Prayagraj Kumbh event zone 1894","place":"Prayagraj","relation":"SAME_EVENT_ZONE_NOT_FIXED_BUILDING","confidence":"MEDIUM","source_record_ids":["BJ-INT-04","B09","ATL-SY-004"],"persons":["Mahavatar Babaji","Sri Yukteswar"],"events":["1894 encounter"],"uncertainties":["event-ground/zone not a stable exact structure","Babaji source/tradition-presence rule applies"],"merge_action":"MERGE_EVENT_ZONE_ONLY_NO_BUILDING_ENTITY","id_policy":"NON_CANONICAL_MERGE_KEY_ONLY"}
+{"entity_merge_key":"TQ-ENT-011","canonical_label_for_reconciliation_only":"Drongiri/Dunagiri initiation landscape","place":"Kukuchina / Dunagiri / Dwarahat","relation":"PARENT_LANDSCAPE_WITH_DISTINCT_MICROSITES","confidence":"HIGH_FOR_CORPUS_RELATION_MEDIUM_FOR_HISTORIC_TO_MODERN_IDENTITY","source_record_ids":["BJ-INT-01","B01","BJ-INT-01a","B02","BJ-INT-01b","B03","BJ-INT-14","B01-S1","ATL-MB-001","ATL-LM-005"],"persons":["Mahavatar Babaji","Lahiri Mahasaya"],"events":["initiation-event corpus","Gogash riverbank","temporary materialized palace claim","modern institutional cave identification"],"uncertainties":["riverbank and palace are distinct sublocations","modern Mahavatar Babaji Cave is an institutional identification and must not silently erase broader historic-event landscape","Babaji epistemic rule applies"],"merge_action":"ONE_PARENT_LANDSCAPE_CHILD_MICROSITES_SUCCESSOR_IDENTIFICATION_RELATION","id_policy":"NON_CANONICAL_MERGE_KEY_ONLY"}
+{"entity_merge_key":"TQ-ENT-012","canonical_label_for_reconciliation_only":"Dashashwamedh Ghat / underground-cave claim zone","place":"Varanasi","relation":"SAME_NAMED_GHAT_ZONE_CORRECTED_ALIAS","confidence":"HIGH_FOR_SOURCE_LOCATION_LOW_FOR_HIDDEN_MICROSITE","source_record_ids":["BJ-INT-11+12","B06"],"persons":["Mahavatar Babaji","Lahiri Mahasaya","Mataji"],"events":["AOAY hfst 33 appearance/tradition event"],"uncertainties":["underground cave exact physical point unresolved","prior Ram Gopal/Ranbajpur-Tarakeswar localization was corrected and must remain as historical error trail, not alias"],"merge_action":"MERGE_GHAT_ZONE_KEEP_UNDERGROUND_MICROSITE_UNRESOLVED","id_policy":"NON_CANONICAL_MERGE_KEY_ONLY"}
+{"entity_merge_key":"TQ-ENT-013","canonical_label_for_reconciliation_only":"Serampore Sri Yukteswar lineage ashram / Yogoda Math","place":"Serampore","relation":"PROBABLE_SA
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=470 path=runs/active/INDIATURQUOISE-ENTITY-OVERLAP-RECONCILIATION-001/ENTITY_MERGE_MAP.jsonl blob_sha=cfef623f8e937282d12aa583b3dc4645df91850a original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+ME_PHYSICAL_SITE","confidence":"MEDIUM_HIGH_NOT_PROMOTED_TO_HARD_MERGE","source_record_ids":["ATL-SY-001","ATL-PY-007"],"persons":["Sri Yukteswar","Paramahansa Yogananda"],"events":["Sri Yukteswar ashram/guru residence","Yogananda reunion/return to guru"],"uncertainties":["prior TURQUOISE exact-overlap file explicitly withheld strict promotion pending fuller Yogananda reconciliation"],"merge_action":"AMBIGUOUS_QUEUE_DO_NOT_CANONICAL_MERGE_YET","id_policy":"NON_CANONICAL_MERGE_KEY_ONLY"}
+{"entity_merge_key":"TQ-ENT-014","canonical_label_for_reconciliation_only":"Serampore railway station","place":"Serampore","relation":"DISTINCT_SITE_SAME_CITY","confidence":"HIGH","source_record_ids":["YOGANANDA-ANANDAMAYI-PHOTO-LOCATION-001:Serampore-station-event"],"persons":["Paramahansa Yogananda","Anandamayi Ma"],"events":["later station-platform encounter"],"uncertainties":[],"merge_action":"DO_NOT_MERGE_WITH_SERAMPORE_ASHRAM","id_policy":"NON_CANONICAL_MERGE_KEY_ONLY"}
+{"entity_merge_key":"TQ-ENT-015","canonical_label_for_reconciliation_only":"Bhowanipur disciple-house encounter zone","place":"Kolkata / Bhowanipur","relation":"HISTORIC_SITE_NOT_IDENTIFIED","confidence":"HIGH_EVENT_LOW_EXACT_ADDRESS","source_record_ids":["YOGANANDA-ANANDAMAYI-PHOTO-LOCATION-001:Bhowanipur-event"],"persons":["Paramahansa Yogananda","Anandamayi Ma","Bholanath"],"events":["1935 Bhowanipur encounter; possible informal photo"],"uncertainties":["exact house/gastheer unidentified","must not merge with Ranchi garden photo event"],"merge_action":"NO_PHYSICAL_MERGE_BEYOND_NEIGHBORHOOD_EVENT","id_policy":"NON_CANONICAL_MERGE_KEY_ONLY"}
+{"entity_merge_key":"TQ-ENT-016","canonical_label_for_reconciliation_only":"Ghurni Lahiri birth/family-site chain","place":"Ghurni, Nadia","relation":"HISTORIC_SITE_TO_REBUILT_COMMERMORATIVE_SUCCESSOR","confidence":"MEDIUM_HIGH","source_record_ids":["LM-INT-01","EXT-01","LM-INT-02","EXT-02+04","ATL-LM-001"],"persons":["Lahiri Mahasaya"],"events":["birth 1828","family temple/site tradition","later rebuilt Shiva/shrine site"],"uncertainties":["original physical birth site affected/lost through river change","rebuilt shrine is not evidence of Lahiri personal presence in the later structure"],"merge_action":"SUCCESSOR_RELATION_NO_SAME_BUILDING_MERGE","id_policy":"NON_CANONICAL_MERGE_KEY_ONLY"}
+{"entity_merge_key":"TQ-ENT-017","canonical_label_for_reconciliation_only":"Akbarpur birth-house / later memorial-temple chain","place":"Akbarpur","relation":"HISTORIC_SITE_AND_LATER_COMMERMORATIVE_MICROSITE_CHAIN","confidence":"MEDIUM","source_record_ids":["NKB-1","ext-1..3","ext-2","ext-3"],"persons":["Neem Karoli Baba"],"events":["birthplace tradition","Sharma family/birth house","later 2001 temple"],"uncertainties":["external split includes later temple as negative-control; later temple must not be silently equated with NKB-era building"],"merge_action":"PARENT_HISTORIC_SITE_PLUS_SUCCESSOR_MEMORIAL_CHILD","id_policy":"NON_CANONICAL_MERGE_KEY_ONLY"}
+{"entity_merge_key":"TQ-ENT-018","canonical_label_for_reconciliation_only":"Delhi/Jonapur Neem Karoli Baba Ashram","place":"Delhi / Jonapur","relation":"SAME_NAMED_SITE_PROVISIONAL_EXACT","confidence":"MEDIUM","source_record_ids":["NKB-18","ext-102..103"],"persons":["Neem Karoli Baba"],"events":["summer 1973 ashram presence claim"],"uncertainties":["reconciliation verdict PLAUSIBLE; source S9 not separately rechecked in that task"],"merge_action":"MERGE_ALIAS_GRANULARITY_KEEP_CONFIDENCE","id_policy":"NON_CANONICAL_MERGE_KEY_ONLY"}
+{"entity_merge_key":"TQ-ENT-019","canonical_label_for_reconciliation_only":"Unnamed estate near Delhi","place":"Delhi region","relation":"CROSS_PERSON_SAME_PHYSICAL_SITE_UNNAMED","confidence":"MEDIUM","source_record_ids":["NKB-21","RAMDASS-ext-6"],"persons":["Neem Karoli Baba","Ram Dass"],"events":["shared estate event/context"],"uncertainties":["estate identity/name unresolved; must not merge with Jonapur merely because both are Delhi-region"],"merge_action":"KEEP_SEPARATE_UNNAMED_ENTITY","id_policy":"NON_CANONICAL_MERGE_KEY_ONLY"}
+{"entity_merge_key":"TQ-ENT-020","ca
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=471 path=runs/active/INDIATURQUOISE-ENTITY-OVERLAP-RECONCILIATION-001/ENTITY_MERGE_MAP.jsonl blob_sha=cfef623f8e937282d12aa583b3dc4645df91850a original_offset=12288 original_length=700 payload_bytes=700 chunk_index=3 chunk_count=4 classification=text
+nonical_label_for_reconciliation_only":"Bodh Gaya / Gaya priority entities","place":"Bodh Gaya / Gaya","relation":"NO_NEW_CROSS_PERSON_EXACT_MERGE_CONFIRMED_IN_AVAILABLE_TURQUOISE_INPUTS","confidence":"N_A","source_record_ids":["051 Vishnupad Temple existing project ID/link context"],"persons":["Anandamayi Ma link context retained where already present"],"events":["existing project-linked event/context only"],"uncertainties":["special-priority region requested by TASK, but no additional same-site cross-person entity identity was established from the durable overlap/matrices inspected here"],"merge_action":"PRESERVE_EXISTING_IDS_AND_LINKS_NO_FORCED_MERGE","id_policy":"EXISTING_ID_UNCHANGED"}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=472 path=runs/active/INDIATURQUOISE-ENTITY-OVERLAP-RECONCILIATION-001/PARENT_CHILD_SITE_MAP.md blob_sha=ba26d64ded60da35f536aea4338ee3d1eb3deeb0 original_offset=0 original_length=3550 payload_bytes=3550 chunk_index=0 chunk_count=1 classification=text
+# PARENT_CHILD_SITE_MAP — INDIA TURQUOISE
+
+status: COMPLETE
+rule: same complex does not make child micro-locations duplicates
+
+## Parent → child relations
+
+| parent entity | child / micro-location | source-record IDs | relation | keep separate event/source links? |
+|---|---|---|---|---|
+| Kainchi Dham complex | nine external Kainchi sublocations | `NKB-5`; `ext-41..49` | `CHILD_MICROSITES` | JA — all nine source claims remain lossless. |
+| NKB Vrindavan Ashram / Mahasamadhi complex | Maharajji room; verandah; cremation place; later memorial | `NKB-8`; `ext-104..108`; `NKB-14`; `ext-107` | `CHILD_MICROSITES_AND_LATER_MEMORIAL` | JA; later memorial is not silently converted to lifetime-presence evidence. |
+| 4 Church Lane / Red House | Maharajji room | `ext-21` | `ROOM_CHILD` | JA |
+| 4 Church Lane / Red House | hall | `ext-22` | `ROOM_CHILD` | JA |
+| 4 Church Lane / Red House | outside veranda | `ext-23` | `MICROSITE_CHILD` | JA |
+| 4 Church Lane / Red House | kitchen / meal room | `ext-24` | `ROOM_CHILD` | JA |
+| 4 Church Lane / Red House | bathrooms / front area | `ext-25` | `MICROSITE_CHILD` | JA |
+| Karar Ashram | first room 1949 claim | `B14` | `ROOM_CHILD + CLAIMANT_TRADITION_SEPARATE` | JA; Hariharananda-claimant Babaji must not be merged into AOAY Babaji identity. |
+| Karar Ashram | Kali-puja room 1949 claim | `B15` | `ROOM_CHILD + CLAIMANT_TRADITION_SEPARATE` | JA |
+| Ranchi Vidyalaya / YSS campus | garden used for Anandamayi Ma photo session | targeted Ranchi event | `UNRESOLVED_MICROSITE_CHILD` | JA; exact garden position is not inferred. |
+| Dunagiri/Drongiri initiation landscape | initiation cave / cave-site corpus | `BJ-INT-01`; `B01`; `BJ-INT-14`; `B01-S1`; `ATL-MB-001` | `CHILD_SITE_WITH_HISTORIC_MODERN_IDENTITY_CAVEAT` | JA |
+| Dunagiri/Drongiri initiation landscape | Gogash riverbank | `BJ-INT-01a`; `B02` | `DISTINCT_CHILD_SUBLOCATION` | JA |
+| Dunagiri/Drongiri initiation landscape | temporary materialized palace claim | `BJ-INT-01b`; `B03` | `DISTINCT_CLAIMED_CHILD_SUBLOCATION` | JA; not flattened into cave. |
+| Dashashwamedh Ghat zone | claimed underground cave | `BJ-INT-11+12`; `B06` | `UNRESOLVED_CHILD_MICROSITE` | JA; ghat identity known, hidden cave point not resolved. |
+| Sri Ramanasramam | no child merge created in this task | `ATL-RM-006`; `ATL-PY-009` | `PARENT_COMPLEX_ONLY` | Separate Ramana/Yogananda events retained. |
+| Arunachala/Tiruvannamalai cluster | Arunachaleswarar Temple | `ATL-RM-003` | `DISTINCT_SITE_IN_CLUSTER` | JA |
+| Arunachala/Tiruvannamalai cluster | Virupaksha Cave | `ATL-RM-004` | `DISTINCT_SITE_IN_CLUSTER` | JA |
+| Arunachala/Tiruvannamalai cluster | Mango Tree Cave | contained in `ATL-RM-004` wording | `DISTINCT_MICROSITE_ASSOCIATED_WITH_VIRUPAKSHA_PERIOD` | JA |
+| Arunachala/Tiruvannamalai cluster | Skandashram | `ATL-RM-005` | `DISTINCT_SITE_IN_CLUSTER` | JA |
+| Arunachala/Tiruvannamalai cluster | Sri Ramanasramam | `ATL-RM-006`; `ATL-PY-009` | `DISTINCT_SITE_IN_CLUSTER + CROSS_PERSON_PARENT_ENTITY` | JA |
+
+## Explicit anti-collapse rules
+
+1. A room inside an ashram remains a child finding when a source attaches a specific event to that room.
+2. A cremation place and a later memorial/samadhi structure are not interchangeable.
+3. A ghat, cave, riverbank and temporary/palace claim inside one broader event landscape are distinct physical concepts.
+4. A metropolitan or regional cluster is never a parent entity in the duplicate-removal sense; it is only a travel/analysis container.
+5. Existing A/B/C and permanent IDs are untouched.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=473 path=runs/active/INDIATURQUOISE-ENTITY-OVERLAP-RECONCILIATION-001/SAME_SITE_OVERLAP_MATRIX.md blob_sha=1ab0ff9642d436ebf9078173bdef6160068fdea6 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# SAME_SITE_OVERLAP_MATRIX — INDIA TURQUOISE
+
+status: COMPLETE_ENTITY_RECONCILIATION_LAYER
+scope: existing durable repo layers only; no new person-location research
+
+## Relation classes
+
+- `SAME_PHYSICAL_SITE`: source records converge on one identifiable physical place.
+- `SAME_PHYSICAL_SITE_WITH_MICROSITES`: one parent site/complex, but rooms, shrines, verandas, ghats, caves or other sublocations remain separate child findings.
+- `ALIAS_SAME_PHYSICAL_SITE`: spelling/name variants for the same physical site.
+- `SAME_EVENT_ZONE_NOT_FIXED_BUILDING`: same event-ground/zone, but no stable exact structure may be inferred.
+- `PROBABLE_SAME_PHYSICAL_SITE`: strong convergence, but prior reconciliation guardrail prevents hard merge yet.
+- `DISTINCT_SITE_SAME_CITY`: explicitly not merged.
+
+## Confirmed same-site / same-complex overlaps
+
+| entity | place | persons / traditions | source-record IDs retained | relation | confidence | reconciliation outcome |
+|---|---|---|---|---|---|---|
+| Lahiri Mahasaya residence, D 31/58 Madanpura/Bangali Tola | Varanasi | Lahiri Mahasaya; Sri Yukteswar; Babaji source/tradition claim | `VNS-CAND-002`; `BJ-INT-07`; `B11`; `ATL-SY-003` | `SAME_PHYSICAL_SITE` | HIGH for house identity | One house entity; keep every person/event link. Babaji link remains epistemically separate. |
+| Kainchi Dham | Kainchi | Neem Karoli Baba; Ram Dass | `NKB-5`; `ext-41..49`; `ATL-RD-002` | `SAME_PHYSICAL_SITE_WITH_MICROSITES` | HIGH | One parent complex, external sublocations remain children. |
+| NKB Vrindavan Ashram / Mahasamadhi complex | Vrindavan | Neem Karoli Baba; Ram Dass | `NKB-8`; `ext-104..108`; `NKB-14`; `ext-107`; `ATL-RD-003` | `SAME_PHYSICAL_SITE_WITH_MICROSITES` | HIGH | One parent complex; room/verandah/cremation/memorial distinctions retained. |
+| 4 Church Lane / Red House | Prayagraj | Neem Karoli Baba; Ram Dass | `ext-20..25` + Ram-Dass cross-person record | `SAME_PHYSICAL_SITE_WITH_MICROSITES` | MEDIUM-HIGH | Parent house only is merged; room, hall, veranda, kitchen and bathroom/front-area stay separate children. |
+| Karar Ashram | Puri | Sri Yukteswar; Hariharananda; separate Hariharananda-Babaji claimant tradition | `ATL-SY-002`; `ATL-HH-002`; `B14`; `B15` | `SAME_PHYSICAL_SITE_WITH_DISTINCT_MICROSITES` | HIGH site identity | One ashram complex; different rooms/events and claimant traditions remain separate. |
+| Sri Ramanasramam | Tiruvannamalai | Ramana Maharshi; Yogananda | `ATL-RM-006`; `ATL-PY-009` | `SAME_PHYSICAL_SITE` | HIGH site identity | One ashram entity; separate person-events. |
+| Ranchi Vidyalaya / present YSS campus | Ranchi | Yogananda; Anandamayi Ma | `ATL-PY-005`; targeted Ranchi photo-event | `HISTORIC_NAME_TO_CURRENT_SAME_CAMPUS` | HIGH | Same campus identity; historic/current names both retained. Garden is unresolved child sublocation. |
+| Dakshineswar Kali Temple complex | Kolkata metro | Ramakrishna; Vivekananda | `ATL-RK-002` + Vivekananda cross-person link | `SAME_PHYSICAL_COMPLEX` | HIGH site identity | Same temple complex; not merged with any other Kolkata site. |
+| Hanuman Garh / Hanuman Garhi | Nainital | Neem Karoli Baba; Ram Dass | `NKB-19`; `ext-31..34` + Ram-Dass cross-person record | `ALIAS_SAME_PHYSICAL_SITE` | MEDIUM-HIGH | Name variants merged at entity layer only; original labels retained. |
+| Allahabad Kumbh 1894 | Prayagraj | Babaji; Sri Yukteswar | `BJ-INT-04`; `B09`; `ATL-SY-004` | `SAME_EVENT_ZONE_NOT_FIXED_BUILDING` | MEDIUM | One event-zone, never converted into a building-level entity. |
+
+## Same place name but NOT same entity
+
+| geography | records that must remain separate | reason |
+|---|---|---|
+| Varanasi | Lahiri residence; Dashashwamedh Ghat underground-cave claim; Anandamayi Ramghat ashram; Ramakrishna city-level pilgrimage | Same city is not physical-identity evidence. |
+| Prayagraj | 4 Church Lane; railway station; Ganges bank; Flooded Hanuman Temple; Kumbh/Magh fair zone | Distinct physical sites/events. |
+| Vrindavan | NKB Ashram/Mahasamadhi complex; Ramakrishna Mission Hospital; Akrura Ghat; Anandamayi ashram | Distinct complexes/location
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=474 path=runs/active/INDIATURQUOISE-ENTITY-OVERLAP-RECONCILIATION-001/SAME_SITE_OVERLAP_MATRIX.md blob_sha=1ab0ff9642d436ebf9078173bdef6160068fdea6 original_offset=4096 original_length=1820 payload_bytes=1820 chunk_index=1 chunk_count=2 classification=text
+s. |
+| Serampore | Sri Yukteswar/Yogoda ashram candidate; railway station encounter; Rai Ghat banyan claim | Same town, distinct or unresolved physical sites. |
+| Kolkata metro | Dakshineswar; Cossipore; Vivekananda ancestral house; Bhowanipur disciple-house event; Agarpara | Metropolitan aggregation is not a merge rule. |
+| Delhi | Jonapur NKB ashram; unnamed estate cross-person site; north-Delhi Hanuman temple | No merge based on Delhi label. |
+| Kumaon | Babaji cave landscape; Kainchi; Bhumiadhar; Kakrighat; Hanuman Garh; Mayavati; Patal Devi; Dhaulchina | Regional cluster only; sites remain physically distinct. |
+
+## Special-priority region result
+
+- **Varanasi:** one strong cross-person exact house entity; Dashashwamedh remains separate ghat-zone entity.
+- **Kumaon:** strongest parent/child problem is Dunagiri initiation landscape and Kainchi microsites; no regional mega-merge.
+- **Bodh Gaya/Gaya:** no additional cross-person exact merge established from the durable inputs inspected; existing IDs/links remain untouched.
+- **Tiruvannamalai/Arunachala:** Sri Ramanasramam is a same-site cross-person entity; Arunachaleswarar, Virupaksha, Mango Tree Cave and Skandashram remain separate Ramana micro/standalone sites.
+- **Vrindavan/Braj:** NKB/Ram Dass exact complex overlap is strong; hospital, Akrura Ghat and other Braj sites remain separate.
+- **Prayagraj:** 4 Church Lane is a parent house with child microsites; Kumbh is an event-zone; station/riverbank/temple remain distinct.
+- **Delhi:** Jonapur and unnamed estate are explicitly kept separate.
+- **Heritage stays:** no hotel/stay entity is merged into a person-site without physical identity evidence; route/stay decisions remain out of scope.
+- **Oost-data:** Kolkata/Serampore/Puri/Ranchi entities are included without reopening any route.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=475 path=runs/active/INDIATURQUOISE-ENTITY-OVERLAP-RECONCILIATION-001/STATUS.md blob_sha=6cda63bbb3ca5c32ddc9cddfb5ebc685d74b49af original_offset=0 original_length=1353 payload_bytes=1353 chunk_index=0 chunk_count=1 classification=text
+task_id: INDIATURQUOISE-ENTITY-OVERLAP-RECONCILIATION-001
+state: COMPLETE
+branch: agent/indiaturquoise-allperson-overlap
+completed_outputs:
+  - ENTITY_MERGE_MAP.jsonl
+  - SAME_SITE_OVERLAP_MATRIX.md
+  - PARENT_CHILD_SITE_MAP.md
+  - SUCCESSOR_SITE_MAP.md
+  - AMBIGUOUS_MERGES_QUEUE.md
+method: existing durable repo layers only; no new person-location research
+preservation: all referenced source-record IDs, persons, events, aliases, uncertainties and claimant-tradition distinctions retained
+hard_same_site_rule: physical identity evidence required; never city-name-only
+micro_site_rule: same complex => parent-child where physically distinct, not duplicate
+successor_rule: historic-to-modern successor relation retained without silently equating structures
+special_priorities_processed: Varanasi; Kumaon; Bodh Gaya/Gaya; Tiruvannamalai/Arunachala; Vrindavan/Braj; Prayagraj/Allahabad; Delhi; heritage-stay guardrail; East-data entities
+input_gap: governance/LOCATION_RESOLUTION_BEFORE_ABC_2026-08-19.md not found at requested path or by repository search; TASK.md equivalent hard rules applied and gap recorded in AMBIGUOUS_MERGES_QUEUE.md
+abc_changed: false
+existing_ids_changed: false
+route_changed: false
+blockers: none for task completion
+next: INDIA/Mark may consume entity map downstream; ambiguous rows remain unmerged until separately resolved
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=476 path=runs/active/INDIATURQUOISE-ENTITY-OVERLAP-RECONCILIATION-001/SUCCESSOR_SITE_MAP.md blob_sha=00740e6ff8f005b61b6f7aaf8616b12380c07e31 original_offset=0 original_length=3165 payload_bytes=3165 chunk_index=0 chunk_count=1 classification=text
+# SUCCESSOR_SITE_MAP — INDIA TURQUOISE
+
+status: COMPLETE
+rule: historic site/building and modern memorial/successor remain different temporal entities unless the corpus proves continuous same physical structure
+
+| historic entity / claim | modern successor / memorial | source-record IDs | relation | merge verdict |
+|---|---|---|---|---|
+| Ghurni Lahiri birth/family site | rebuilt Shiva / shrine site | `LM-INT-01`; `EXT-01`; `LM-INT-02`; `EXT-02+04`; `ATL-LM-001` | `HISTORIC_SITE_TO_COMMERMORATIVE_SUCCESSOR` | **NO SAME-BUILDING MERGE**. Original site history includes river-change/loss; later shrine preserves memory, not lifetime building identity. |
+| Akbarpur NKB birth-house/family-site tradition | later temple inaugurated 2001 | `NKB-1`; `ext-1..3`; `ext-2`; `ext-3` | `HISTORIC_SITE_TO_LATER_MEMORIAL_TEMPLE` | **NO LIFETIME-BUILDING MERGE**. Keep birthplace, family house and 2001 temple claims separately linked under a temporal chain. |
+| Ranchi Vidyalaya historic school/campus | current Yogoda Satsanga Sakha Math / YSS campus | `ATL-PY-005`; targeted Ranchi event | `HISTORIC_NAME_TO_CURRENT_SAME_CAMPUS` | **SAME CAMPUS / SUCCESSOR-INSTITUTION RELATION**. Historic/current names both retained; no claim that every building is unchanged. |
+| Dunagiri/Drongiri historic initiation landscape | modern institutionally identified Mahavatar Babaji Cave | `BJ-INT-01`; `B01`; `BJ-INT-14`; `B01-S1`; `ATL-MB-001` | `HISTORIC_EVENT_LANDSCAPE_TO_MODERN_IDENTIFIED_SITE` | **SUCCESSOR/IDENTIFICATION RELATION, NOT SILENT IDENTITY COLLAPSE**. Modern cave identification is preserved alongside broader event landscape and Babaji epistemic caveat. |
+| NKB Vrindavan cremation place | later memorial / samadhi structures | `NKB-14`; `ext-107`; `ext-108` | `EVENT_SITE_TO_LATER_MEMORIAL` | **KEEP TEMPORAL DISTINCTION**. Later memorial cannot be used as evidence of NKB presence after death/construction. |
+| Sri Yukteswar Serampore historic ashram context | later Yogoda/YSS Smriti Mandir / lineage-site naming where represented in durable layer | `ATL-SY-001`; `ATL-PY-007` | `HISTORIC_LINEAGE_SITE_TO_CURRENT_LINEAGE_SUCCESSOR_OR_CONTINUATION` | **PROVISIONAL**. Physical continuity is plausible but prior TURQUOISE layer withheld a hard exact merge pending fuller Yogananda reconciliation. |
+
+## Explicit non-successor cases
+
+- Serampore railway station is not a successor of Sri Yukteswar’s ashram.
+- Bhowanipur disciple-house event is not a predecessor of Ranchi campus; they are separate Yogananda–Anandamayi events.
+- Karar Ashram rooms are micro-sites inside the same complex, not successors of one another.
+- Prayagraj Kumbh event zones across different years are repeated-use geographic/event areas, not one unchanged physical building.
+- Kolkata metropolitan lineage sites are separate physical entities, not successor stages of one site.
+
+## Interpretation
+
+A successor relation preserves historical continuity without deleting either endpoint. Downstream route/ABC agents must not treat a modern memorial as proof that the historical person occupied the modern structure unless the source layer explicitly establishes structural continuity.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=477 path=runs/active/INDIATURQUOISE-ENTITY-OVERLAP-RECONCILIATION-001/TASK.md blob_sha=92d64556cf3e4aa926e89a1d2c4dc0272eb23e67 original_offset=0 original_length=1481 payload_bytes=1481 chunk_index=0 chunk_count=1 classification=text
+# INDIATURQUOISE ENTITY / OVERLAP RECONCILIATION
+
+## DOEL
+Bouw de cross-person fysieke entity-merge-map die nodig is om honderden bronclaims zonder verlies naar unieke fysieke plekken te reconciliëren.
+
+## LEES
+- eerdere TURQUOISE all-person overlap/heatmap outputs
+- alle gereconcilieerde person matrices die op deze branch reeds toegestaan/beschikbaar zijn
+- same-site/heritage/cluster outputs
+- governance/LOCATION_RESOLUTION_BEFORE_ABC_2026-08-19.md
+
+## UITVOEREN
+1. Zoek cross-person exact-same-site overlaps, aliases/spellingvarianten, historical-successor-relaties en micro-site -> parent-complex relaties.
+2. Maak NOOIT een merge alleen op plaatsnaam/stad. Vereis fysieke identity-evidence.
+3. Behoud per entity alle source-record IDs, personen, events en onzekerheden.
+4. Same complex but different micro-site = parent-child, niet automatisch duplicate.
+5. Historical building verdwenen maar successor memorial/site aanwezig = successor relation, niet stil gelijkmaken.
+6. Maak speciale overlapprioriteit voor Varanasi, Kumaon, Bodh Gaya, Tiruvannamalai/Arunachala, Vrindavan/Braj, Prayagraj/Allahabad, Delhi en heritage stays.
+7. Oost-data volledig meenemen in entity-map maar route niet heropenen.
+
+## OUTPUTS
+- ENTITY_MERGE_MAP.jsonl
+- SAME_SITE_OVERLAP_MATRIX.md
+- PARENT_CHILD_SITE_MAP.md
+- SUCCESSOR_SITE_MAP.md
+- AMBIGUOUS_MERGES_QUEUE.md
+- STATUS.md
+
+## HARD
+Geen bronrecord verwijderen. Geen A/B/C. Geen IDs wijzigen. Geen route. Commit alles op dezelfde branch.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=478 path=runs/active/INDIATURQUOISE-TRAVEL-PRIORITY-HEATMAP-001/CLUSTER_FAMILIES.md blob_sha=9fef289c9841ff6e643af6d049a2a167d1ec0ee1 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# CLUSTER_FAMILIES — INDIA TURQUOISE
+
+status: PROVISIONAL_CLUSTER_FAMILIES
+scope: existing project geography and overlap only; no new person-location research
+rule: geographic grouping for later decision support, not a route or nights plan
+
+## Family 1 — Kumaon / central Himalayan project family
+
+Included existing project nodes:
+- Kukuchina / Dunagiri / Dwarahat — Babaji cave principal travel reason; Lahiri initiation context.
+- Kainchi Dham — Neem Karoli Baba + Ram Dass exact overlap.
+- Nainital / Hanuman Garh — NKB + Ram Dass cross-person convergence.
+- Almora — Anandamayi Ma + Vivekananda city-level overlap.
+- Patal Devi / Dhaulchina / Kasar Devi-Bodh Ashram layers already present in the project.
+- Mayavati Advaita Ashrama exists in the wider Kumaon project layer.
+
+Why grouped: these are already treated across the repo as Kumaon-area material and form one broad regional family. This grouping says nothing about driving order, base selection or nights.
+
+Anchor treatment:
+- Kukuchina/Dunagiri remains the principal Babaji travel reason.
+- Existing Mark decisions in Kumaon remain untouched.
+
+`MARK_DECISION_REQUIRED: JA` only for how much of the wider family to retain around the principal/locked elements.
+
+## Family 2 — Upper/Middle Ganges spiritual belt
+
+Included existing nodes:
+- Haridwar / Kankhal — Anandamayi Ma mahasamadhi anchor.
+- Vrindavan — NKB/Ram Dass exact complex + Ramakrishna Akrura Ghat + Anandamayi layer.
+- Prayagraj / Allahabad — five-person city overlap, 4 Church Lane and Kumbh event layers.
+- Varanasi / Kashi — five-person city overlap, Lahiri residence exact overlap and multiple separate project sites.
+
+Why grouped: existing project data already places these as major north-Indian pilgrimage/spiritual cities with high person-density. The family is a decision bundle only; it is not a proposed route and does not imply all four must be included.
+
+`MARK_DECISION_REQUIRED: JA`.
+
+## Family 3 — Kolkata / Hooghly lineage belt
+
+Included existing nodes:
+- Kolkata / Calcutta metropolitan sites: Vivekananda ancestral house, Dakshineswar, Cossipore, Bhowanipur, Agarpara and other distinct records.
+- Serampore — Sri Yukteswar/Yogananda lineage context; separate Anandamayi station event.
+- Broader West-Bengal lineage context: Kamarpukur, Baranagar and Nadia/Ghurni/Habibpur-related person layers where already present in durable project data.
+
+Why grouped: the previous all-person synthesis explicitly identified a dense West-Bengal lineage belt. Physical sites remain separate; metro/belt aggregation must never be used as exact-site identity.
+
+`MARK_DECISION_REQUIRED: JA`.
+
+## Family 4 — Odisha / Puri Kriya lineage family
+
+Included existing nodes:
+- Karar Ashram, Puri — Sri Yukteswar + Hariharananda exact overlap.
+- Hariharananda Gurukulam / Balighai — separate Hariharananda anchor.
+- Anandamayi Ma Puri organization-listed layer — provisional personal-presence depth.
+
+Why grouped: multiple durable lineage sites already concentrate in the same Puri-area project family.
+
+`MARK_DECISION_REQUIRED: JA`.
+
+## Family 5 — Jharkhand / Ranchi exact-campus family
+
+Included existing node:
+- Ranchi Vidyalaya / current Yogoda Satsanga Sakha Math campus — exact Yogananda + Anandamayi Ma shared site.
+
+Why kept as its own family: it has unusually high exact-event confidence but currently lower city-wide multi-site density than the larger belts. It should not disappear merely because it is geographically more isolated in the current project atlas.
+
+`MARK_DECISION_REQUIRED: JA`.
+
+## Family 6 — Tamil Nadu / Arunachala family
+
+Included existing nodes:
+- Tiruvannamalai / Arunachala — Ramana Maharshi lifetime cluster + Yogananda at Sri Ramanasramam.
+- Tiruchuzhi and Madurai exist as Ramana life-history nodes in the durable nationwide layer.
+- Vivekananda Tamil Nadu nodes such as Kanyakumari and Rameswaram exist in the durable layer but are separate from the locked Arunachala anchor.
+
+Why grouped: this is a state-level family only. It is deliberately not a route and not a claim of local proximity between al
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=479 path=runs/active/INDIATURQUOISE-TRAVEL-PRIORITY-HEATMAP-001/CLUSTER_FAMILIES.md blob_sha=9fef289c9841ff6e643af6d049a2a167d1ec0ee1 original_offset=4096 original_length=1122 payload_bytes=1122 chunk_index=1 chunk_count=2 classification=text
+l nodes.
+
+Anchor treatment:
+- Tiruvannamalai / Arunachala remains `LOCKED_BY_MARK A-ANCHOR` and is not reopened.
+- Other Tamil Nadu nodes remain undecided.
+
+`MARK_DECISION_REQUIRED: JA` only for optional expansion beyond the locked Arunachala anchor.
+
+## Family 7 — isolated or low-overlap single anchors
+
+Examples retained from existing durable data:
+- Haridwar/Kankhal is already represented in Family 2 but remains a major single-person anchor.
+- Wardha/Maganvadi, Gorakhpur, Khetri, Kanyakumari/Rameswaram and other strong single-person points remain visible in the source atlas even where they do not form a current multi-person cluster.
+
+Why separate: overlap-based clustering must not erase mission-relevant single-person places. These should only re-enter a final decision queue if they can materially compete with or complement the stronger cluster families.
+
+## No-route guardrail
+
+These families are containers for later comparison only. They do not define sequence, travel direction, nights, hotels, transport mode, or required inclusion. A family may later be selected wholly, partly, or not at all by Mark.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=480 path=runs/active/INDIATURQUOISE-TRAVEL-PRIORITY-HEATMAP-001/HIGH_IMPACT_GAPS.md blob_sha=a9da00f8e4a67fc71121295a1bce7978d7868ad7 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# HIGH_IMPACT_GAPS — INDIA TURQUOISE
+
+status: PROVISIONAL_DECISION_GAP_MAP
+scope: gaps already visible in durable project data; no new person-location research
+purpose: identify only unresolved issues that could materially change later travel choices
+
+## MATERIAL gaps
+
+### GAP-H1 — NKB / Ram Dass corpus not saturated
+
+Current durable reconciliation explicitly leaves both persons `SATURATED: NEE`. Important source families remain blocked/partial, and a prepared multidetector follow-up has no completed durable result on this branch.
+
+Why this can materially change travel choice: NKB/Ram Dass are central to Kumaon, Vrindavan, Prayagraj/Allahabad and other north-India nodes. New or downgraded person-links could change relative density between already competing cluster families.
+
+Current treatment: existing reconciled exact sites remain usable; city/cluster rankings remain lower-bound only.
+
+`BLOCKING_FOR_FINAL_HEATMAP: JA`
+`NEW_RESEARCH_ALLOWED_HERE: NEE`
+
+### GAP-H2 — Ramana Maharshi / Ramakrishna multidetector reconciliation pending
+
+Durable internal/external/IndiaGEEL freezes exist, but the multidetector reconciliation task is still pending in the available branch state.
+
+Why material: Ramana affects the already locked Arunachala anchor and Tamil Nadu expansion context; Ramakrishna affects Kolkata/Hooghly, Vrindavan and Varanasi counts. Reconciliation can alter exact-site confidence and city-level lower bounds.
+
+Current treatment: use current links provisionally; never reopen Mark’s Arunachala lock because of this gap.
+
+`BLOCKING_FOR_FINAL_HEATMAP: JA`
+
+### GAP-H3 — Yogananda, Hariharananda, Vivekananda and Anandamayi Ma lack Core-Kriya-grade all-detector reconciliation
+
+Their nationwide/internal layers are durable and useful, but not equivalent in reconciliation depth to Babaji/Lahiri/Sri Yukteswar.
+
+Why material: these four persons drive several high-priority families: Kolkata/Hooghly, Puri, Ranchi, Arunachala cross-link, Haridwar/Kankhal and parts of Kumaon.
+
+Current treatment: keep strong targeted/exact findings, but treat total person-count and completeness as provisional.
+
+`BLOCKING_FOR_FINAL_HEATMAP: JA` where their unresolved coverage could decide between similarly ranked families; otherwise `DEELS`.
+
+### GAP-H4 — Kolkata / Hooghly aggregation versus actual visitable concentration
+
+The project currently has a very strong regional/metropolitan density signal, but its sites are physically distinct: Dakshineswar, Cossipore, Bhowanipur, central Kolkata, Agarpara, Serampore and broader West-Bengal nodes must not be collapsed.
+
+Why material: a high regional person-count could look deceptively compact in a heatmap. The final trip choice needs to distinguish `REGIONAL_DENSITY` from `SAME-BASE_COMPACTNESS` using later travel-ops data, not person research.
+
+`BLOCKING_FOR_FINAL_TRAVEL_WEIGHT: JA`
+`PERSON_RESEARCH_NEEDED: NEE`
+
+### GAP-H5 — Prayagraj exact-site composition
+
+Prayagraj has the highest conservative person-count tier, but much of that count comes from different events/sites: 4 Church Lane, station material and Kumbh event-ground claims. The 1894 Babaji/Sri Yukteswar overlap is an event-zone, not a fixed building.
+
+Why material: person-count alone may overstate physical concentration and visitability relative to Varanasi, Vrindavan, Ranchi or Puri.
+
+`BLOCKING_FOR_FINAL_TRAVEL_WEIGHT: JA`
+`NEW_PERSON_RESEARCH_NEEDED: NEE`; later operations/visitability data can address the travel side.
+
+### GAP-H6 — Anandamayi Ma organization-listed ashram layer
+
+The pilot explicitly did not establish personal presence at every organization-listed ashram. Puri and several other cities therefore carry weaker Anandamayi contributions than her targeted Ranchi result or Kankhal mahasamadhi.
+
+Why material: if weak organization-only links are counted as equal to direct personal-presence sites, Puri and other clusters could be artificially inflated.
+
+Current treatment: never use these weak links to create an exact-site overlap; person-count contribution stays labelled provisional.
+
+`BLOCKING_FOR_CLOSE_CALLS: JA`
+
+## NON_BL
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=481 path=runs/active/INDIATURQUOISE-TRAVEL-PRIORITY-HEATMAP-001/HIGH_IMPACT_GAPS.md blob_sha=a9da00f8e4a67fc71121295a1bce7978d7868ad7 original_offset=4096 original_length=1506 payload_bytes=1506 chunk_index=1 chunk_count=2 classification=text
+OCKING gaps / micro-sites
+
+The following are retained but should not delay a later Mark decision unless their role changes materially:
+
+- Bhowanipur exact house/gastheer for the Yogananda–Anandamayi meeting remains unidentified. The city-level Kolkata link is already established; this is `NON_BLOCKING` for cluster selection.
+- Exact garden sublocation inside the Ranchi YSS campus is unknown. The shared campus itself is identified and visitable in project data; `NON_BLOCKING`.
+- Ramana’s exact Madurai house was not confirmed in the nationwide internal pass. Arunachala is already the locked anchor; `NON_BLOCKING` for that decision.
+- Bhagalpur personal presence of Hariharananda remains unconfirmed. It is not used as a hard heatmap node; `NON_BLOCKING`.
+- Serampore station and Sri Yukteswar’s Serampore ashram remain separate. Lack of a merged identity is not a gap to fix; it is a correct non-merge.
+- Broad Vivekananda parivrajaka substops were intentionally bundled. Obscure individual substops are `NON_BLOCKING` unless a later project requirement elevates one independently.
+- Babaji claimant-tradition sites that lack an identity bridge remain excluded by rule; they are not decision gaps.
+
+## Decision rule
+
+A gap is `HIGH_IMPACT` only if resolving it could plausibly change which cluster family Mark keeps, removes, or gives substantial travel weight. Missing micro-addresses, exact rooms, minor substops and unsupported claimant sites must not hold the main decision process hostage.
+<<< END CHUNK >>>
+

@@ -1,0 +1,852 @@
+>>> CHUNK stream_row=603 path=runs/active/INDIA8-STRATEGIC-ARCHITECTURE-REVIEW-001/STATUS.md blob_sha=4b722f3640b16909fb1c2f7a70a4b97e7fd2bf0a original_offset=0 original_length=604 payload_bytes=604 chunk_index=0 chunk_count=1 classification=text
+# STATUS — INDIA8-STRATEGIC-ARCHITECTURE-REVIEW-001
+
+state: AFGEROND
+type: strategisch adviesdocument (geen CCI_TASK-nummer, geen locatiesweep)
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-19
+output: STRATEGIC_ARCHITECTURE_REVIEW.md — antwoord op INDIA8's A-M architectuurvragen
+kernaanbeveling: nieuwe taak CCI_TASK 096 (REVERSE_DISCOVERY_PASS_AND_GEOCODE_BACKFILL) als
+  kritiek-pad-stap vóór INDIA TURQUOISE/WIT HERITAGE-STAY OVERRIDE/ZILVER echt parallel kunnen
+  draaien.
+next_allowed_step: CCI stopt en wacht op INDIA8-QA. Geen A/B/C gewijzigd, geen locks aangeraakt,
+  geen route vastgelegd.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=604 path=runs/active/INDIA8-STRATEGIC-ARCHITECTURE-REVIEW-001/STRATEGIC_ARCHITECTURE_REVIEW.md blob_sha=2058080964adce1b1bf5d5270da640db8c818052 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=7 classification=text
+# STRATEGISCHE INDIA8 ARCHITECTUUR-REVIEW
+
+```
+task_id: INDIA8-STRATEGIC-ARCHITECTURE-REVIEW-001
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-19
+aanleiding: INDIA8-verzoek via PR #23 (geen CCI_TASK-nummer, geen nieuwe persoonssweep)
+scope: uitzoomen op de volledige methode, geen wijziging van bestaande A/B/C/locks
+```
+
+Dit document beantwoordt INDIA8's veertien vragen (A–M plus de rode-draad-conclusie) op basis van
+de daadwerkelijke governance-canon (`governance/`, `decisions/`), de tot nu toe uitgevoerde
+CCI_TASKs (081–095) en hun resultaten. Ik ben kritisch waar dat nodig is — bevestiging omwille van
+beleefdheid helpt Mark niet.
+
+## 0. Uitgangspositie — wat feitelijk al bestaat
+
+Voordat ik oordeel, eerst wat de repo al aantoonbaar bevat (zodat de rest van dit document niet
+opnieuw uitvindt wat er al is):
+
+- Een bestaand proximity-concept (poort A, `SWEEP_PROTOCOL.md`): "0-20 km kernstraal, 20-30 km
+  signalering, >30 km alleen uitzonderlijk" — maar dit is nooit uitgevoerd als een echte
+  geospatiale pass met coördinaten; het stond als een van elf gelijk-gewogen dekkingslenzen.
+- Een expliciete, al eerder bewezen precedent voor genuine PERSON→LOCATION-winst: de Kumaon
+  miss-root-cause-rescue (CCI_TASK 078) vond twee hoog-ernstige missers (080 Turiya Niwas, 081 Bodh
+  Ashram) die zowel Sweep A ALS de verplichte onafhankelijke Sweep B (poort R, dubbele sweep) allebei
+  gemist hadden — dit gebeurde vóórdat de persoonsgerichte omkering zelfs maar bestond. Dat is het
+  sterkste bewijs in dit project dat regio-eerst-sweeps, zelfs verdubbeld, een structureel gat
+  hebben.
+- Een reeds werkend, herhaald bewezen vier-detector-patroon (CCI intern METHOD_V2 + extern
+  ChatGPT-sweep + IndiaROOD + IndiaGEEL), met strikte blindheidsdiscipline en commit-SHA/blob-hash-
+  integriteitschecks, die nu vier keer achter elkaar (092, 094, 095) nieuwe, Tier-1-bevestigde
+  fysieke locaties heeft opgeleverd die de vorige lagen allemaal gemist hadden.
+- Een al bestaand, expliciet foutklassenregister (FK-001 t/m FK-013) — veel van wat hieronder als
+  risico wordt genoemd, is dus al eerder een keer misgegaan en gedocumenteerd. Dat is goed nieuws
+  voor de review, niet slecht nieuws voor het project.
+- Marks eigen East-route-family-skip-besluit (2026-08-19, vlak vóór dit verzoek): Ranchi, heel
+  Kolkata/Hooghly/Serampore/Dakshineswar en Puri/Odisha zijn voor DEZE reis (18-12-2026 t/m
+  21-01-2027) geschrapt. Dit heeft directe consequenties voor onderdeel L hieronder.
+
+## A. Wat hebben we methodisch geleerd?
+
+**Waarom kon PERSON→LOCATION vinden wat LOCATION→PERSON miste?** Omdat een regio-eerst-sweep
+per definitie begrensd is door de vooraf gekozen regiolijst. Een regio moet eerst ALS regio op de
+radar staan voordat er ook maar gezocht wordt. Chennai/Veerapuram (Neem Karoli Baba, CCI_TASK 095)
+en Kankhal/Haridwar (Anandamayi Ma, al genoteerd in `ACTIVE_STATE.md` als "grootste vondst" van de
+eerste persoonspilot) waren geen van beide onderdeel van enige lopende of geplande regio-sweep —
+niemand had reden om daar te zoeken totdat een persoonsbiografie er expliciet naartoe wees. Een
+persoonsgerichte sweep is daarentegen per definitie landelijk: hij doorzoekt de hele levensloop van
+één mens, ongeacht welke regio's al "af" leken.
+
+**Is de oorspronkelijke methode fundamenteel onvoldoende, of normaal detectorcomplement-gedrag?**
+Het tweede, met een belangrijke nuance. Dit is geen bewijs dat de regio-sweeps slecht werk waren —
+Varanasi en Bodh Gaya zijn zelf grondig en met een verplichte dubbele sweep gedaan (poort R) en
+blijven waardevol. Maar het is wél bewijs dat **regio-eerst alléén structureel onvolledig is voor
+een project waarvan het echte reisdoel personen zijn** (AOAY + Top-11, zie
+`governance/ACTIVE_STATE.md` §"Reisdoel-prioriteit"). Twee complementaire zoekrichtingen op
+hetzelfde probleem (locatie→wie was hier vs. persoon→waar was hij) vinden per constructie
+verschillende dingen, net zoals twee onafhankelijke AI-detectoren op dezelfde persoon verschillende
+dingen vinden (zie het al bewezen vier-detector-patroo
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=605 path=runs/active/INDIA8-STRATEGIC-ARCHITECTURE-REVIEW-001/STRATEGIC_ARCHITECTURE_REVIEW.md blob_sha=2058080964adce1b1bf5d5270da640db8c818052 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=7 classification=text
+n). De echte les is dus: **elke enkele
+zoekrichting, hoe grondig ook, heeft blinde vlekken die alleen een orthogonale tweede richting kan
+blootleggen** — dit is exact wat poort R al voor detectors regelt, maar nooit werd toegepast op
+zoekRICHTING zelf (regio vs. persoon) totdat INDIA8 dat nu deed.
+
+## B. Zijn we nu veilig genoeg?
+
+**Nee, nog niet — de driehoek is goed ontworpen maar nog niet uitgevoerd.** LOCATION/CORPUS +
+PERSON-REVERSE bestaan allebei al met echte resultaten. LOCAL PROXIMITY/BACKFILL bestaat op dit
+moment alleen als **plan** (INDIA WIT/TURQUOISE/ORANJE), niet als uitgevoerde pass. Concreet:
+
+1. De verplichte reverse-discovery-pass (net gecanoniseerd, `REVERSE_DISCOVERY_REOPEN_RULE_
+   2026-08-19.md`) is nog GEEN enkele keer uitgevoerd tegen de drie afgeronde clusters (Varanasi,
+   Bodh Gaya, Kumaon) met de inmiddels bevroren persoonslagen (093-095) als input.
+2. Coördinaten ontbreken voor een aanzienlijk deel van de records — zelfs voor de drie
+   LOCKED_BY_MARK Kumaon-A's (079/080/081) staat letterlijk "Coordinaten voor alle drie nog niet
+   geverifieerd" in `ACTIVE_STATE.md`. Zonder coördinaten is een proximity-pass niet uitvoerbaar,
+   alleen simuleerbaar op stadsniveau.
+3. Detectordekking is ongelijk over de Top-11: Ramana Maharshi, Ramakrishna, Neem Karoli Baba en
+   Ram Dass hebben nu een derde/vierde onafhankelijke laag (IndiaGEEL); Yogananda, Lahiri Mahasaya,
+   Mahavatar Babaji, Sri Yukteswar en Anandamayi Ma hebben dat (nog) niet.
+
+**Ontbrekende gate**: een expliciete **GEOCODE_COVERAGE_GATE** vóór elke proximity-bewering wordt
+vertrouwd, en een **REVERSE_DISCOVERY_EXECUTED_GATE** per cluster (los van de bestaande
+`ORIGINAL_CLUSTER_REVIEW_COMPLETE`) die aangeeft of de pass daadwerkelijk is gedraaid, niet alleen
+gepland. Zonder deze twee is "we hebben nu drie lagen" een plan-op-papier, geen praktische
+risicoreductie.
+
+## C. Reverse discovery — ontwerp
+
+Voorgestelde mechaniek, uitvoerbaar als één taak (zie §K):
+
+1. **Union-bouw**: verzamel alle bevroren persoonslocatierecords uit alle CCI_TASKs tot nu toe
+   (081–095) in één plat, machineleesbaar bestand — plaats, coördinaat (indien bekend), bron-Tier,
+   `PHYSICAL_IDENTITY`, persoon/personen, task-herkomst. Dit bestaat nog niet als één bestand; het
+   staat verspreid over tientallen `runs/active/*` freezes.
+2. **Per bestaand "afgerond" cluster** (Varanasi, Bodh Gaya, Kumaon — de drie in `ACTIVE_STATE.md`
+   met een `fase`-status): definieer een grove polygon/bounding-box (ook zonder exacte coördinaten
+   kan dit vaak op plaatsnaam/district-niveau, bijv. "binnen Varanasi-district").
+3. **Spatial/naam-join**: voor elk record in de union, check of het (a) binnen een bestaand cluster
+   valt, of (b) een geheel nieuw cluster vormt (zoals Veerapuram/Chennai of Dharamsala nu deden).
+4. **Beslisregel welke clusters heropenen**: een cluster heropent zodra ≥1 nieuw record binnen de
+   clustergrens valt DAT NIET al in de oorspronkelijke freeze van dat cluster stond. Nul nieuwe
+   treffers → cluster blijft `ORIGINAL_CLUSTER_REVIEW_COMPLETE`, geen actie.
+5. **Nieuwe IDs**: elk fysiek nieuw record (niet al bestaand onder een ander nummer) krijgt een
+   nieuw, doorlopend permanent nummer vanaf `LAST_GLOBAL_LOCATION_NUMBER` — nooit hergebruik, nooit
+   herschikking (hard bevestigd, zie §G).
+6. **Bestaande B/C voor upgrade-review**: alleen wanneer een nieuw record binnen de ≤500 m-band
+   (zie §D) van een bestaande B/C ligt, EN dat nieuwe record zelf Tier-1 of sterk Tier-2 is — dus
+   niet elke toevallige nabijheid, alleen betekenisvolle.
+7. **Bestaande A's combinatiewaarde**: informatief, geen herbeoordeling — een A blijft A; alleen een
+   notitie "nieuw gevonden record X ligt Y meter hiervandaan" wordt toegevoegd aan de clusterdata
+   voor latere routebouw.
+
+## D. Proximity — praktisch ontwerp
+
+Banden zoals gevraagd: zelfde gebouw/complex; ≤100 m; ≤250 m; ≤500 m; ≤1 km; ≤3 km; daarna alleen
+"zelfde stad/cluster, geen loopafstand" als logistieke (geen betekenis-)groepering.
+
+**Het kernprobleem is niet het b
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=606 path=runs/active/INDIA8-STRATEGIC-ARCHITECTURE-REVIEW-001/STRATEGIC_ARCHITECTURE_REVIEW.md blob_sha=2058080964adce1b1bf5d5270da640db8c818052 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=7 classification=text
+andenschema — dat is triviaal — maar de ontbrekende coördinaten**
+(zie §B punt 2). Praktisch stappenplan:
+1. Voor elk record met `PHYSICAL_IDENTITY: EXACT` of `DEELS`: best-effort geocoderen (adres/
+   instellingsnaam → coördinaat via bekende officiële bronnen, niet gokken). Waar dit niet lukt:
+   expliciet `GEOCODE_PENDING`, nooit stilzwijgend weglaten.
+2. Bereken paarsgewijze afstanden binnen elk cluster en tussen alle Top-11-personen onderling (dit
+   levert meteen ook §F, multi-person overlap, als bijproduct van dezelfde pass).
+3. **Voorkomen dat Mark "er 100 m vlak langs rijdt zonder waarschuwing"**: dit kan pas structureel
+   opgelost worden zodra er een concept-route bestaat (INDIA ROZE) — vóór die tijd is proximity
+   alleen tegen bestaande clusters/A's te checken, niet tegen een reislijn. Daarom hoort een
+   **verplichte herhaling** van de proximity-pass thuis in het routebouwproces zelf: elke dag-
+   segment/rit krijgt een "nabije betekenisvolle locaties binnen 3 km van de rijlijn"-check, niet
+   alleen een eenmalige clustercheck vooraf. Dit moet een vast onderdeel van INDIA ROZE worden, niet
+   een aparte, losstaande stap die vergeten kan worden.
+
+## E. Heritage stays — kritische beoordeling
+
+**Ja, een aparte objectklasse is terecht** — dit is fundamenteel anders dan een "bezoek": het
+verdringt een concrete boekingsbeslissing, niet alleen een dagprogramma-item. Het precedent in dit
+project (Hotel Evelyn, Nainital — Ram Dass, CCI_TASK 089-095) laat zien dat het kán: onafhankelijk
+bevestigd via zowel een ooggetuigendossier (Parvati Markus) als het hotel se eigen historische
+pagina, EXACT-status, en al drieweg herbevestigd in CCI_TASK 095.
+
+Voorgestelde bewijsgates (spiegelt bewust het bestaande Tier-1/Tier-2 + PHYSICAL_IDENTITY-schema,
+geen nieuw vocabulaire nodig):
+
+| gate | vraag | waarden |
+|---|---|---|
+| `PERSON_STAYED_HERE` | is er een bronmatige (niet alleen marketing-)claim dat de persoon hier écht sliep/verbleef? | Tier-1 (rechtstreeks in eigen tekst/dagboek) / Tier-2 (betrouwbare secundaire bron) / `FOLKLORE_ONLY` (alleen hotelmarketing, geen onafhankelijke bron) |
+| `BUILDING_CONTINUITY` | is het huidige gebouw hetzelfde als het historische? | EXACT/DEELS/ALLEEN_PLAATS/ONBEKEND |
+| `CURRENTLY_OPERATING_AS_LODGING` | bestaat het nog als plek waar men kan overnachten? | JA/NEE/ONZEKER |
+| `SPECIFIC_ROOM_KNOWN` | is de exacte kamer/verdieping bekend? | JA/NEE |
+| `BOOKABLE_NOW` | rechtstreeks gecontroleerd (niet aangenomen) dat het boekbaar is | JA/NEE/ONZEKER, met controle-datum |
+| `CLAIM_PROVENANCE` | expliciet onderscheid | `SOURCE_STRONG` (autobiografie/ooggetuige) vs. `HOTEL_MARKETING_ONLY` |
+
+**`FOLKLORE_ONLY`/`HOTEL_MARKETING_ONLY` mag NOOIT een bestaand hotel verdringen** — dit is precies
+het soort claim waar een hotel commercieel belang bij heeft om te overdrijven. Alleen `Tier-1`/
+`Tier-2` met `SOURCE_STRONG` mag als serieuze kandidaat worden voorgelegd.
+
+**Invloed op bestaande hotelkeuzes zonder namens Mark te kiezen**: een heritage-stay-vondst wordt
+nooit automatisch verwerkt. Het wordt gelabeld `HERITAGE_STAY_CANDIDATE — REVIEW_FOR_HOTEL_SWAP` en
+gaat in dezelfde batch-digest als andere REVIEW_FOR_UPGRADE-items (§G) naar Mark. Een reeds
+`LOCKED_BY_MARK`-hotel (bijv. Varanasi's Sahi River View Guesthouse) wordt nooit stilzwijgend
+overschreven — het wordt alleen "voor review teruggebracht", exact zoals de bestaande
+`REVERSE_DISCOVERY_REOPEN_RULE` al voor B/C-locaties voorschrijft.
+
+## F. Multi-person overlap — weging
+
+Voorstel voor een expliciet, apart travel-significance-signaal (niet hetzelfde als A/B/C, een
+aanvullende laag erbovenop):
+
+- **1 persoon, één bezoek**: baseline, geen boost.
+- **2 personen, onafhankelijk gevonden, exact dezelfde fysieke plek** (`SAME_SITE`, niet alleen
+  dezelfde stad): **MEDIUM boost** — een verrassende confluentie die het verdient om apart genoemd
+  te worden aan Mark, ook als de individuele plek op zichzelf misschien een B was.
+- **3+ personen, exact dezelfde plek**: **HIGH boost** — dit soort plek (bijv. Kumaon se Bodh
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=607 path=runs/active/INDIA8-STRATEGIC-ARCHITECTURE-REVIEW-001/STRATEGIC_ARCHITECTURE_REVIEW.md blob_sha=2058080964adce1b1bf5d5270da640db8c818052 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=7 classification=text
+  Ashram, al bevestigd bezocht door zowel Anandamayi Ma als Neem Karoli Baba en al `A`,
+  `LOCKED_BY_MARK`) is zeldzaam genoeg dat hij vrijwel automatisch reiswaardig is, ongeacht de
+  faam van de plek zelf.
+- **Alleen dezelfde stad/cluster, geen exacte plek-overlap**: **geen betekenisboost**, wel een
+  logistieke clusteringssignaal voor routebouw (§D/§K) — twee personen "in Vrindavan" zegt niets
+  over spirituele confluentie, wel iets over reisefficiëntie.
+
+**Kritische waarschuwing (zelfbescherming tegen FK-011-achtige inflatie)**: de boost mag alleen
+gelden wanneer ELK van de onderliggende bezoeken zelf al minstens Tier-2 is. Twee zwakke,
+`ONZEKER`-claims tellen niet op tot een sterke overlap-claim — dat zou precies het soort
+"categorie-dekking verward met Mark-relevantie"-fout zijn die FK-011 al identificeerde, nu toegepast
+op overlap in plaats van religie/traditie.
+
+## G. A/B/C en IDs — veilige migratie
+
+De harde eisen (geen renummering, geen stille wijziging, nieuwe IDs voor nieuwe kandidaten, Mark
+beslist zelf) staan al correct in `REVERSE_DISCOVERY_REOPEN_RULE_2026-08-19.md` en worden hier
+bevestigd, niet opnieuw uitgevonden.
+
+**Hoe voorkomen we honderden losse vragen aan Mark?** Door nooit per losse vondst te vragen, maar
+één **geconsolideerde Reverse-Discovery Digest per uitgevoerde pass** te bouwen, met drie secties:
+
+1. **Nieuwe kandidaten, eigen A/B/C nodig** — alleen items die minstens Tier-2 zijn EN een
+   duidelijke reiswaarde-reden hebben (zie §D/§F-signalen); zwakke/`FOLKLORE_ONLY`/puur-academische
+   vondsten worden NIET aan Mark voorgelegd, alleen vastgelegd als "genoteerd, geen Mark-beslissing
+   nodig".
+2. **Bestaande B/C, `REVIEW_FOR_UPGRADE`** — met de specifieke nieuwe reden (proximity/overlap/
+   heritage-stay) erbij, zodat Mark in één oogopslag ziet WAAROM iets terugkomt, niet opnieuw het
+   hele oorspronkelijke dossier hoeft te lezen.
+3. **Info-only verrijking van bestaande A's** — geen beslissing gevraagd, alleen ter kennisgeving.
+
+Eén digest, één beslismoment, drie secties — in plaats van tientallen aparte PR-comments.
+
+## H. Statusmachine voor "AF"
+
+INDIA8's voorstel is een goede basis; ik zou hem als volgt aanscherpen/aanvullen tot een complete
+keten (elke stap hieronder is een aparte, apart-checkbare status, geen synoniemen):
+
+```
+CANDIDATE_LAYER_COMPLETE        (persoons-/locatiediscovery voor die pass bevroren)
+    -> ORIGINAL_CLUSTER_REVIEW_COMPLETE   (bestaande INDIA8-dimensie, ongewijzigd overgenomen)
+    -> REOPENED_BY_PERSON_DISCOVERY       (trigger: reverse-discovery-hit, zie §C)
+    -> GEOCODE_COVERAGE_CHECKED           (nieuw, zie §B/§D — vóór proximity vertrouwd wordt)
+    -> BACKFILL_PENDING                   (nieuwe kandidaten geïdentificeerd, nog geen ID/bron)
+    -> NEW_IDS_ASSIGNED
+    -> MARK_REVIEW_PENDING                (digest verstuurd, §G)
+    -> MARK_REVIEW_COMPLETE
+    -> TRAVEL_READY                       (zie §I — LOS van PERSON_SWEEP_SATURATED)
+    -> ROUTE_LOCKED                       (pas na routebouw zelf, buiten deze review se scope)
+```
+
+Cruciaal: `TRAVEL_READY` en `PERSON_SWEEP_SATURATED` zijn en blijven twee aparte assen (dit is
+letterlijk al ingevoerd in CCI_TASK 095's nieuwe `TRAVEL_READINESS_GATE.md`) — een cluster kan
+`TRAVEL_READY` zijn terwijl `PERSON_SWEEP_SATURATED: NEE` eerlijk blijft staan.
+
+## I. Wanneer stoppen we met onderzoek? — TRAVEL-RECALL STOP RULE
+
+**Academische saturatie** = ieder denkbaar devoteehuis/voetnoot is nagetrokken. **Travel-material
+completeness** = genoeg om een boekbare, verantwoorde reis te plannen. Dit project moet naar de
+tweede maatstaf sturen, niet de eerste — en heeft dat in CCI_TASK 095 voor het eerst expliciet zo
+gedaan (`TRAVEL_READINESS_GATE.md`, precies dit onderscheid).
+
+**Voorgestelde stopregel per cluster**, alle vijf voorwaarden moeten waar zijn:
+1. Elke `LOCKED_BY_MARK`-A-anker binnen het cluster is `TRAVEL-READY` (zie §H-definitie:
+   `PHYSICAL_IDENTITY ≥ DEELS`, ≥2 lagen bevestigen elkaar of één laag is Tier-1, geen onopgelost
+   identiteitsconflict).
+2. M
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=608 path=runs/active/INDIA8-STRATEGIC-ARCHITECTURE-REVIEW-001/STRATEGIC_ARCHITECTURE_REVIEW.md blob_sha=2058080964adce1b1bf5d5270da640db8c818052 original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=7 classification=text
+instens twee onafhankelijke detectors/richtingen (regio + persoon, of twee AI-detectors) hebben
+   het cluster/de persoon bestreken.
+3. Geen onopgelost conflict raakt een daadwerkelijk te boeken beslissing (hotel, routestop) — een
+   academisch datumconflict over een reeds vaststaande plek (zoals NKB se Mathura-vraag) is GEEN
+   travel-blocker.
+4. De verplichte reverse-discovery-pass heeft minstens eenmaal gedraaid ná de laatste
+   persoonslaagvondst voor dat cluster.
+5. **Diminishing-returns-signaal**: de laatste twee onafhankelijke passes leverden elk <10% nieuwe
+   *travel-relevante* (niet academische) records op.
+
+Zodra deze vijf waar zijn: cluster mag naar `TRAVEL_READY`, ongeacht een eerlijke
+`PERSON_SWEEP_SATURATED: NEE`. Dit is precies het onderscheid dat al bestaat maar nu voor het eerst
+consistent als STOP-regel wordt geformuleerd in plaats van als losse uitzondering per taak.
+
+## J. Wat kan parallel? — meerdere AI's zonder besmetting
+
+Het bewezen patroon (IndiaROOD, IndiaGEEL) werkt al en is de blauwdruk: elke externe AI krijgt één
+zelfstandig kopieerbaar promptblok (`governance/EXTERNAL_AI_PROMPT_RULES.md` regelt dit al —
+kopieerbaar blok, geen CCI-kandidatenlijst vooraf, eerst zelf freezen, pas daarna vergelijken),
+freezet blind op een eigen branch, en CCI reconciliëert met commit-SHA/blob-hash-integriteitscheck
+vóór opening. Mark se enige handmatige stap is: prompt plakken in de externe tool, output naar een
+nieuwe branch/bestand pushen. Dat is al aantoonbaar laagdrempelig gebleken.
+
+**Waarschuwing — niet blind opschalen.** Elke extra detector vermenigvuldigt CCI se
+reconciliatiewerk (2-weg → 3-weg → 4-weg wordt steeds duurder, niet lineair). Concreet advies:
+- **Niet** nu al een vijfde/zesde detector (Perplexity/Gemini/DeepSeek/Grok/Copilot) toevoegen voor
+  personen die al 3-4 lagen hebben (Ramana, Ramakrishna, NKB, Ram Dass) — diminishing returns, zie
+  §I punt 5.
+- **Wel** overwegen voor de vier full-deep-personen die nog maar 2 lagen hebben (Yogananda, Lahiri
+  Mahasaya, Sri Yukteswar, Anandamayi Ma) — maar alleen als een gerichte gap-scan (zie §L punt 2)
+  eerst een concrete reden aanwijst, niet automatisch.
+- **Kritieke randvoorwaarde**: bevestig expliciet dat elke parallelle ChatGPT-"kleurinstance"
+  (TURQUOISE/WIT/ZILVER/ORANJE/PAARS/ROZE/BLAUW) dezelfde blindheidsdiscipline volgt als IndiaROOD/
+  IndiaGEEL wanneer ze onderling "onafhankelijke" bevindingen claimen — zie §L punt 8, dit kan CCI
+  niet zelf verifiëren vanaf deze kant.
+
+## K. Kritieke pad naar het eindpunt
+
+Eindpunt = hoogwaardige reisplanning A-Z, niet een perfecte database. Kortste veilige pad:
+
+1. **NU — ontbrekende fundament-stap**: één geconsolideerde reverse-discovery-pass + geocode-
+   backfill over alle bevroren persoonsrecords tegen de drie afgeronde clusters (zie §C, concreet
+   voorstel als CCI_TASK 096 in §M.5).
+2. Heritage-stay-evidencepass op de subset van records die al als logies-type herkenbaar zijn
+   (Hotel Evelyn, Fouzdar Kunj, K.K. Sah-huis, etc. — al aanwezig in bestaande freezes, nog niet
+   apart doorgelicht met het §E-schema).
+3. Proximity-/overlapberekening (§D/§F) als bijproduct van dezelfde geocode-pass.
+4. Eén geconsolideerde Mark-decision-digest (§G) — nieuwe A/B/C + upgrade-reviews + heritage-stay-
+   opties, in één ronde.
+5. Mark beslist (één batch, niet honderd losse vragen).
+6. Clusterheatmap/definitieve clusters (INDIA TURQUOISE, nu met echte data i.p.v. voorlopige
+   zwaartepunten).
+7. Route/nachten/transport (INDIA ROZE) — inclusief de herhaalde proximity-check tegen de
+   daadwerkelijke rijlijn (§D).
+8. Hotels (gekruist met heritage-stay-besluiten uit stap 4-5).
+9. Dagplanning.
+10. Booking/deadline-executie (INDIA BLAUW — kan en moet parallel aan 1-9 lopen, is tijdgebonden en
+    grotendeels onafhankelijk van locatie-onderzoek).
+11. Definitieve reisdocumentatie.
+
+Stap 1 is het bottleneck-punt: zonder coördinaten en zonder de verplichte reverse-discovery-pass
+zijn stappen 2-3 provisorisch en stap 6 (heatmap) bouwt op aannames in plaats van op data
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=609 path=runs/active/INDIA8-STRATEGIC-ARCHITECTURE-REVIEW-001/STRATEGIC_ARCHITECTURE_REVIEW.md blob_sha=2058080964adce1b1bf5d5270da640db8c818052 original_offset=20480 original_length=4096 payload_bytes=4096 chunk_index=5 chunk_count=7 classification=text
+.
+
+## L. Red-team — tien manieren waarop we nog steeds iets missen
+
+1. **Ontbrekende coördinaten maken proximity onuitvoerbaar** — een plek kan 50 m van de route liggen
+   zonder dat iemand het weet. *Mitigatie*: verplichte geocode-pass vóór elke proximity-bewering
+   vertrouwd wordt; `GEOCODE_PENDING` blokkeert `TRAVEL_READY`, niet alleen een nice-to-have.
+2. **Ongelijke detectordekking** — Yogananda/Lahiri Mahasaya/Sri Yukteswar/Anandamayi Ma hebben geen
+   derde/vierde laag terwijl Ramana/Ramakrishna/NKB/Ram Dass dat wel hebben. *Mitigatie*: een
+   gerichte, goedkope "gap-scan" (niet een volledige nieuwe deep sweep) per onderbedekte persoon
+   vóór travel-ready-verklaring.
+3. **Brondiversiteit is dunner dan detectordiversiteit** — IndiaGEEL, extern-ChatGPT en intern CCI
+   putten grotendeels uit dezelfde Engelstalige gepubliceerde corpora (Be Here Now, Miracle of Love,
+   Great Master, Divine Reality, officiële RKM-sites). Een Hindi/Bengaals-taats-alleen bron of lokale
+   mondelinge overlevering kan echte missers bevatten die geen van de huidige detectors ooit zal
+   vinden. *Mitigatie*: expliciet `HIGHER_RESIDUAL_RISK`-label voor personen/clusters met vrijwel
+   uitsluitend Engelstalige/vertaalde bronnen; overweeg één gerichte niet-Engelstalige bronronde voor
+   de hoogste-prioriteit ankers (Kumaon/Babaji-kring, Ramakrishna).
+4. **Proximity is nu tegen clusters gecheckt, niet tegen een echte route** — pas als de rijlijn
+   bestaat, is "100 m ernaast" echt detecteerbaar. *Mitigatie*: verplichte herhaling van de
+   proximity-check als vast onderdeel van INDIA ROZE, niet een eenmalige stap die vergeten kan
+   worden (zie §D).
+5. **Heritage-stay-boekbaarheid veroudert** — een guesthouse kan tussen nu en december 2026 sluiten/
+   verbouwen/naam wijzigen. *Mitigatie*: verplichte laatste-check vlak vóór daadwerkelijk boeken,
+   niet alleen een eenmalige historische verificatie maanden van tevoren.
+6. **Snel-bewegende multi-agent-governance kan een taak achterhalen tijdens uitvoering** — dit
+   gebeurde letterlijk twee keer tijdens deze sessie (`REVERSE_DISCOVERY_REOPEN_RULE` en
+   `EAST_ROUTE_FAMILY_SKIPPED` landden allebei terwijl CCI met iets anders bezig was). *Mitigatie*:
+   CCI doet al fetch+rebase vóór elke push (bestaande praktijk); dit moet expliciet worden uitgebreid
+   tot een korte scan van nieuwe `decisions/*.md`-bestanden bij de START van elke taak, niet alleen
+   bij het pushen.
+7. **Coupling-risico met de East-route-skip**: Vivekananda is direct verbonden met Ramakrishna/
+   Kolkata, en Ramakrishna's eigen, net drieweg-bevestigde locatiedekking bevat plekken (Dakshineswar,
+   Kolkata-devoteehuizen) die letterlijk in het nu geschrapte East-route-gebied liggen. Een groot deel
+   van het net voltooide Ramakrishna-onderzoek is voor DEZE specifieke reis dus niet direct
+   uitvoerbaar. *Mitigatie*: expliciet `FUTURE_TRIP_ONLY`/`NOT_THIS_ITINERARY`-label op alle Kolkata/
+   Hooghly/Puri-regiorecords, zodat routebouw niet in de war raakt en CCI geen verdere moeite in dat
+   gebied steekt vóór de decembersdeadline.
+8. **Niet-geverifieerde blindheid tussen parallelle ChatGPT-kleurinstances** — als twee kleuren
+   elkaar toch (deels) gelezen hebben, is hun "onafhankelijke" bevestiging vals vertrouwen.
+   *Mitigatie*: INDIA8 moet expliciet bevestigen (niet aannemen) dat elke kleurinstance dezelfde
+   blindheidsdiscipline volgt als IndiaROOD/IndiaGEEL.
+9. **Reverse-discovery/proximity mag geen confirmatie-tier-filter gebruiken als inclusiecriterium**
+   — als de pass alleen Tier-1-bevestigde nieuwe locaties terugprojecteert, blijven waardevolle
+   `PLAUSIBLE`-vondsten (bijv. Dharamsala/Ganeshpuri/Anandamayi-ashrams uit CCI_TASK 095) onzichtbaar
+   voor proximity/overlap, puur omdat ze nog niet "genoeg" bevestigd zijn. *Mitigatie*: de
+   geospatiale pass draait op ALLE bevroren records, met bevestigingstier als aparte kolom, nooit als
+   filter voor de pass zelf.
+10. **Geen mechanische consistentiecheck op het geheel** — `governance/scripts/preflight_
+    validator.py` controleert (eigen 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=610 path=runs/active/INDIA8-STRATEGIC-ARCHITECTURE-REVIEW-001/STRATEGIC_ARCHITECTURE_REVIEW.md blob_sha=2058080964adce1b1bf5d5270da640db8c818052 original_offset=24576 original_length=3617 payload_bytes=3617 chunk_index=6 chunk_count=7 classification=text
+erkenning in `ACTIVE_STATE.md`, "Openstaande
+    ontwerpbeslissingen") nog niet de inhoud van Coverage Matrix/Lead Register, en ook niet de
+    nieuwe poort-R-reconciliatietokens. Er is geen geautomatiseerde check die ID-botsingen tussen
+    alle `runs/active/*`-freezes opspoort, of die verifieert dat elke `TRAVEL_READY`-bewering
+    daadwerkelijk een `TRAVEL_READINESS_GATE`-regel heeft. *Mitigatie*: uitbreiding van de
+    preflight-validator (of een lichte vervolgscript) met precies deze twee checks vóór een
+    route-lock-stap.
+
+## M. Conclusie
+
+**1. Wat INDIA8 goed doet**: de omkering naar persoonsgericht onderzoek was de juiste zet en heeft
+al aantoonbare, concrete reiswaarde opgeleverd (Lucknow-upgrade, Veerapuram, Dharamsala-lead); de
+"niets bestaands verwijderen, alleen additief heropenen"-discipline is precies goed; vooruitdenken
+over heritage-stays/route-builder/visa-deadlines toont een gezonde lange-termijnblik; de
+`INDIA_REGIE_ALWAYS_EXPLICIT_NEXT_ACTION`-regel houdt het multi-agent-systeem uit stilstand.
+
+**2. Wat onmiddellijk moet veranderen**: (a) de verplichte reverse-discovery-pass daadwerkelijk
+uitvoeren — dit is het grootste gat tussen "we vonden nieuwe dingen" en "we zijn echt veilig"; (b)
+coördinaten/geocoding backfillen — proximity is nu onuitvoerbaar zonder; (c) expliciet bevestigen
+dat alle parallelle kleurinstances echt blind van elkaar werken, niet aannemen; (d) Kolkata/Hooghly/
+Puri-regiorecords labelen als `FUTURE_TRIP_ONLY` gegeven de East-route-skip, om verdere CCI-inzet
+daar vóór de deadline te voorkomen.
+
+**3. Welke lopende taken mogen doorgaan**: INDIA WIT (master travel readiness + reverse-cluster
+reopen) — dit IS de ontbrekende schakel, moet prioriteit krijgen; INDIA BLAUW (visa/booking/
+deadlines) — tijdgebonden en grotendeels onafhankelijk van locatieonderzoek, kan altijd parallel.
+
+**4. Welke taken overbodig/dubbel zijn (nu, in deze volgorde)**: INDIA TURQUOISE (heatmap), INDIA
+WIT HERITAGE-STAY OVERRIDE en INDIA ZILVER (completeness-audit) bouwen alle drie op dezelfde
+ontbrekende geocode-/reverse-discovery-fundering. Ze parallel starten vóórdat die fundering bestaat
+riskeert drie instances die onafhankelijk hetzelfde "we hebben geen coördinaten"-blocker
+herontdekken en drie gedeeltelijk-overlappende, voorbarige outputs produceren. Advies: sequencen,
+niet schrappen — eerst de fundering (§K stap 1-3), dan pas deze drie echt parallel.
+
+**5. Nieuwe taak die ik zou starten**: **CCI_TASK 096 — REVERSE_DISCOVERY_PASS_AND_GEOCODE_
+BACKFILL**: bouw de union van alle bevroren persoonslocatierecords (081-095), geocode elk
+`EXACT`/`DEELS`-record dat nog geen coördinaat heeft (best-effort, `GEOCODE_PENDING` waar het niet
+lukt), spatial-join tegen de drie afgeronde clusters plus de LOCKED-ankers, en lever één
+geconsolideerde Reverse-Discovery Digest conform §G.
+
+**6. Kritieke pad nu**: exact die taak (096) — hij is de bottleneck die heatmap-, heritage-stay- en
+proximity-werk van "provisorisch" naar "echt" tilt.
+
+**7. Wanneer van research naar Marks A/B/C-herbeoordeling**: pas nadat CCI_TASK 096 (reverse-
+discovery + geocode) én de heritage-stay-evidencepass (§K stap 2) samen één geconsolideerde digest
+hebben opgeleverd. Eerder betekent dat Mark een onvolledig beeld beoordeelt en later alsnog een
+tweede ronde "oh, nog één ding" krijgt — precies het "honderden losse vragen"-risico dat INDIA8 zelf
+al benoemde.
+
+---
+Geschreven door: CCI. Geen A/B/C namens Mark, geen bestaande locks gewijzigd, geen route vastgelegd,
+geen PDF, geen merge. Dit is een strategisch adviesdocument, geen uitvoeringstaak.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=611 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/STATUS.md blob_sha=592936816bc0b6602b0fc580330e4d130032a31b original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=5 classification=text
+# STATUS — TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
+
+```
+task_id: TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
+state: CCI_TASK_090_NKB_RAMDASS_CORE_SOURCE_RECOVERY_ISSUED__WACHT_OP_CCI_RESULT
+method_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/METHOD_V1.md
+method_v2_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/METHOD_V2.md
+task_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/TASK.md
+status_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/STATUS.md
+pilot_result_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/PILOT_RESULT.md
+saturation_result_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/SATURATION_RESULT.md
+phase2_result_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/PHASE2_RESULT.md
+phase2_synthesis_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/PHASE2_SYNTHESIS.md
+yogananda_v2_freeze_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/YOGANANDA_V2_FREEZE.md
+babaji_v2_freeze_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/BABAJI_V2_PRE_EXTERNAL_FREEZE.md
+lahiri_mahasaya_v2_freeze_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/LAHIRI_MAHASAYA_V2_PRE_EXTERNAL_FREEZE.md
+sri_yukteswar_v2_freeze_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/SRI_YUKTESWAR_V2_PRE_EXTERNAL_FREEZE.md
+last_updated: 2026-08-19
+last_updated_by: INDIA7 (CCI_TASK 090 issued)
+```
+
+## Update — CCI_TASK 087/087R afgerond: drie pre-external freezes (CCI, 2026-08-19)
+
+```
+commits: 6b79f1c (Babaji), 642e464 (Lahiri Mahasaya), ea60ba5 (Sri Yukteswar)
+BABAJI_V2_PRE_EXTERNAL_SATURATED: NEE
+LAHIRI_MAHASAYA_V2_PRE_EXTERNAL_SATURATED: NEE
+SRI_YUKTESWAR_V2_PRE_EXTERNAL_SATURATED: NEE
+```
+
+Verse, blinde METHOD_V2 Fase 0-4-sweeps voor de drie kernpersonen van de Kriya-lijn, uitgevoerd
+direct door CCI nadat een eerste poging met drie parallelle subagents faalde op een sessielimiet
+zonder duurzame output (zie git-historie/PR #23 voor de recovery-context, CCI_TASK 087R).
+`PHASE2_RESULT.md` (oude METHOD_V1 ATL-MB/ATL-LM/ATL-SY-lijsten) NIET gebruikt als
+discovery-checklist tijdens de blinde pas; alleen achteraf ter vergelijking geraadpleegd, zoals
+gedocumenteerd in elk freeze-bestand zelf. Geen inzage in de aparte externe blinde
+ChatGPT-parallelsweep (`TOP11-PARALLEL-CHATGPT-SWEEP-001`).
+
+**Babaji**: 14 occurrence-clusters, A/B/C/D-evidentietier toegepast (ahistorisch/legendarisch
+karakter van de figuur zelf). Sterkste vondst: Yogananda's eigen, nooit eerder verteld
+ooggetuigenverslag van een persoonlijke Babaji-ontmoeting op 4 Gurpar Road, Calcutta (hfst. 37) —
+ontbrak in de oude lijst en is het sterkste bewijsstuk voor Babaji's fysieke bestaan in het hele
+corpus.
+
+**Lahiri Mahasaya**: 19 occurrence-clusters, volledige geboorte-tot-dood-biografische lijn (Ghurni
+1828, 1833-vloed, vijf overplaatsingsstandplaatsen, vaste woning Garudeswar Mohulla Benares,
+pensionering 1886, dood 1895). Nieuwe vondst: een materialisatie nabij Gorakhpur die Yogananda's
+vaders eigen bekering verklaart (hfst. 1).
+
+**Sri Yukteswar**: site-niveau sweep (284 occurrences over 32 hoofdstukken, te wijdverspreid voor
+volledige occurrence-normalisatie in de beschikbare tijd — expliciet benoemde beperking). Twee
+kernlocaties stevig bevestigd (Serampore/Rai Ghat Lane als geboorteplaats ÉN hermitage; zelf
+gebouwde Puri-zeehermitage als sterfplaats). Belangrijkste nieuwe vondst: de Kashmir-reis
+(Simla/Srinagar/Shalimar Bagh/Nishat Bagh/Gulmarg, vandaag al voor Yogananda geverifieerd in
+`TOP11-EXTERNAL-AI-BENCHMARK-001/WERKPAKKET_D_DEEPENING_CCI_086.md`) blijkt ook Sri Yukteswars eigen
+reis te zijn geweest — stond nog niet als Sri-Yukteswar-record vast.
+
+Alle drie `NEE` op saturation, met expliciet benoemde hiaten (o.a. niet-AOAY lineage-bronnen
+niet geraadpleegd, Sri Yukteswar geen volledige Fase 4-discovery). `NEE` bewust boven een schijnbare
+`JA`, conform staand projectbeleid.
+
+**blockers**: geen.
+
+**Update CCI_TASK 084**: `PERSON_SWEEP_SATURATED: JA` uit Fase 2 (alle 11 personen) is
+**provisioneel**, niet ingetrokken maar ook niet langer als eindwaarheid b
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=612 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/STATUS.md blob_sha=592936816bc0b6602b0fc580330e4d130032a31b original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=5 classification=text
+ehandeld — zie
+`TOP11-EXTERNAL-AI-BENCHMARK-001/BENCHMARK_RESULT.md` en `RECONCILIATION_CCI_084.md` voor de
+Anandamayi-driewegverificatie die dit heeft aangetoond. `METHOD_V1.md` is vervangen door
+`METHOD_V2.md` (corpus-eerst i.p.v. zoekmachine-eerst, vier verplichte saturation-gates). Als
+prospectieve controle is METHOD_V2 al toegepast op Yogananda (`YOGANANDA_V2_FREEZE.md`,
+`AOAY_YOGANANDA_V2_SATURATED: NEE`, expliciete hiaten vastgelegd). Repo-crosscheck (Fase C) voor
+Yogananda volgt apart. De overige 10 personen krijgen pas een METHOD_V2-herziening na INDIA's
+besluit of externe multi-AI structureel nodig blijft (zie `BENCHMARK_RESULT.md`, "zuivere
+beslisproef").
+
+**INDIA_QA_BESLUIT**: CCI_TASK 080 is gecontroleerd. De host-/gastheer-as heeft zelfstandig nieuwe Bodh-Ashram-achtige fysieke plekken gevonden. De methode is daarom goedgekeurd en bevroren in `METHOD_V1.md`.
+
+**Pilotpersonen compleet volgens huidige projectnorm**:
+- Anandamayi Ma: `PERSON_SWEEP_SATURATED: JA`.
+- Neem Karoli Baba: `PERSON_SWEEP_SATURATED: JA`.
+
+**Fase 2 geautoriseerd voor overige 9** — één persoon volledig afwerken en freeze vóór de volgende, maar CCI hoeft niet na iedere persoon op nieuwe toestemming te wachten tenzij er een systeemwijde blocker of echt Mark-besluitconflict ontstaat.
+
+Volgorde:
+1. Mahavatar Babaji
+2. Lahiri Mahasaya
+3. Paramahansa Yogananda
+4. Ram Dass
+5. Sri Yukteswar
+6. Hariharananda
+7. Vivekananda
+8. Ramakrishna
+9. Ramana Maharshi
+
+Per persoon is de host-/gastheer-as vanaf het BEGIN verplicht, naast chronologie, officiële/lineage-bronnen, primaire/biografische teksten, alternatieve namen/spellingen en repo-cross-check pas na freeze.
+
+**Fase 2 samenvatting**: alle 9 overige Top-11-personen individueel gefreezed en tegen de repo
+vergeleken (`PHASE2_RESULT.md`); circa 90 atlaspunten, 11/11 personen `PERSON_SWEEP_SATURATED: JA`.
+Sterkste nieuwe regiosignalen: Puri/Odisha (Sri Yukteswar + Hariharananda), Tamil Nadu/Arunachala
+(Ramana Maharshi + Vivekananda + Yogananda-bezoek), West-Bengal-kernregio (Ramakrishna +
+Vivekananda + Sri Yukteswar + Lahiri Mahasaya-geboorte + Yogananda-jeugd). Eén `REGION_MISS`
+(Almora/Vivekananda binnen bestaand Kumaon-gebied) vastgelegd voor toekomstige vervolgronde. Vijf
+`PERSON_LINK_UPGRADE`s op bestaande/tijdelijke plekken (Kainchi, Vrindavan-NKB, VNS-CAND-002,
+Mayavati/KB2-038, Ramanasramam). Geen `MARK_DECISION_CONFLICT`. Volledige synthese:
+`PHASE2_SYNTHESIS.md`.
+
+## Update — CCI_TASK 088 uitgegeven (INDIA7, 2026-08-19)
+
+De onafhankelijke externe ChatGPT-run heeft inmiddels alle acht PRE-COMPARE freezes afgerond.
+Voor Babaji, Lahiri Mahasaya en Sri Yukteswar zijn dus zowel interne als externe freezes beschikbaar.
+Nieuwe taak: `runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/TASK.md`.
+
+**next_allowed_step:** CCI voert CCI_TASK 088 uit: volledige bidirectionele reconciliatie, directe
+bronverificatie en checkpointcommit per persoon. Geen nieuwe blanco ChatGPT-discovery voor deze
+drie, geen cluster/regio, A/B/C, permanente IDs, PDF of route. Finale saturation alleen wanneer
+alle METHOD_V2-gates inclusief detector-/modeldiversiteit aantoonbaar zijn voldaan.
+
+## Update — CCI_TASK 088 afgerond (CCI, 2026-08-19)
+
+```
+result_file: runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/RECONCILIATION_RESULT.md
+checkpoint_commits: 0bfeb45 (Babaji), 05cc7da (Lahiri Mahasaya), 59463c1 (Sri Yukteswar)
+```
+
+Volledige bidirectionele reconciliatie afgerond voor Babaji, Lahiri Mahasaya en Sri Yukteswar (40
+interne records tegen 133 externe records). Belangrijkste opbrengst: twee correcties in interne
+richting (Lahiri's Allahabad-aanwezigheid, een Babaji-datumclaim), meerdere echte interne gaps
+gecorrigeerd na directe AOAY-bronverificatie (Sri Yukteswars moeder Kadambini Devi's woning in
+Rana Mahal, een Serampore-kerk, Albert Hall-podium, een Kebalananda-Himalayakamp-anekdote voor
+Babaji), één interne locatiefout gecorrigeerd (Babaji/Mataji/Lahiri-visioen was ten onrechte bij
+Ram Gopal's grot gelokaliseerd, hoort bij Dashashwamedh Ghat Varanasi), en één eigen datumfout
+gecorrigeerd (Sri Yukteswars m
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=613 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/STATUS.md blob_sha=592936816bc0b6602b0fc580330e4d130032a31b original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=5 classification=text
+ahasamadhi 9 maart 1936, niet 21 maart — dat is de bhandara-
+herdenkingsceremonie). Voor Babaji zijn 21 externe records uit drie andere claimant-tradities
+(Hariharananda, Nagaraj/Ramaiah, Haidakhan) terecht apart gehouden zonder identiteitsbrug.
+
+Een grote nieuwe primaire bron voor Lahiri Mahasaya (Chatterjee's *Purana Purusha*-familiebiografie)
+kon niet zelf worden geverifieerd — bron ontoegankelijk ("under maintenance"); alle daarop
+gebaseerde externe claims blijven `BRON_GEBLOKKEERD`/`UNVERIFIED`, niet stilzwijgend overgenomen.
+
+**Geen van de drie personen krijgt `PERSON_SWEEP_SATURATED: JA`** — `EXTERNAL_MODEL_DIVERSITY_GATE`
+is voor alle drie `NEE` (de bestaande externe branch is één ChatGPT-sessie, geen aantoonbare
+multi-provider-union) en `RECONCILIATION_GATE` is `PROVISIONEEL` omdat IndiaROOD (de door Mark
+aangekondigde derde, onafhankelijke detector) bij geen van de checkpoints een duurzame freeze had.
+
+**next_allowed_step (bijgewerkt):** STOP, wacht op INDIA-QA. Verplichte lossless IndiaROOD-
+deltareconciliatie zodra beschikbaar. Geen automatische vervolgtaak (interne NKB/Ram Dass/Ramana/
+Ramakrishna-freezes) vanuit hier gestart. Geen cluster/regio (Arunachala-hold van kracht), A/B/C,
+permanente IDs, PDF of route.
+
+## Update — CCI_TASK 089 uitgegeven (INDIA7, 2026-08-19)
+
+Nieuwe taak:
+`runs/active/TOP11-NKB-RAMDASS-V2-PRE-EXTERNAL-001/TASK.md`.
+
+CCI voert verse landelijke METHOD_V2 pre-external freezes uit voor Neem Karoli Baba en Ram Dass,
+met een zelfstandige checkpointcommit per persoon. De reeds bevroren externe resultaten blijven
+gesloten tot beide interne freezes duurzaam vaststaan. Oude METHOD_V1/PHASE2-lijsten zijn geen
+discoverychecklist.
+
+**next_allowed_step (actueel):** CCI_TASK 089 uitvoeren en STOP na beide freezecommits +
+resultaatenvelop. Daarna volgt pas een aparte lossless externe reconciliatie. Parallel blijft de
+IndiaROOD-delta voor Babaji/Lahiri/Sri Yukteswar open. Geen cluster/regio, A/B/C, permanente IDs,
+PDF of route.
+
+## Update — CCI_TASK 089 afgerond (CCI, 2026-08-19)
+
+```
+checkpoint_commits: d85c32e (Neem Karoli Baba), f3a5e5d (Ram Dass)
+NEEM_KAROLI_BABA_V2_PRE_EXTERNAL_SATURATED: NEE
+RAM_DASS_V2_PRE_EXTERNAL_SATURATED: NEE
+```
+
+Beide freezes afgerond, blindheidsgrens gerespecteerd (externe freezes, IndiaROOD en oude
+METHOD_V1/PHASE2-lijsten niet geraadpleegd). **Belangrijkste bevinding: voor beide personen bleken
+de kern-primaire devotee-bronnen tijdens deze sessie niet toegankelijk** — *Miracle of Love* en
+*By His Grace* (Neem Karoli Baba) alleen als voorwerk/dokumen.pub-storing bereikt; *Be Here Now* en
+*Sacred Wanderer* (Ram Dass) helemaal niet gevonden als doorzoekbare tekst, zelfs ramdass.org gaf
+een toegangsfout. Beide freezes steunen daardoor grotendeels op secundaire/institutionele bronnen.
+
+**Neem Karoli Baba**: 19 records — geboorte Akbarpur, Neem Karoli-dorp (treinwonder/naamgeving),
+Kainchi Dham (hoofdashram 1964), Bhumiadhar, Kakrighat, Vrindavan (ashram/Mahasamadhi/crematie),
+Panki-tempel Kanpur met een bilocatie-overlevering naar een kamer in Allahabad, en de laatste
+treinreis/ziekenhuisepisode rond zijn dood (sept. 1973, met een onopgelost naamconflict over het
+exacte ziekenhuis). Vier ashrams (Rishikesh/Lucknow/Shimla/Delhi) staan alleen op naam, zonder
+aparte gebeurtenis — zwakste deel van deze atlas.
+
+**Ram Dass**: slechts 5 records — de zwakste pre-external freeze tot nu toe in dit project qua
+corpus-coverage. Kainchi Dham (eerste ontmoeting met Maharajji, 1967, naamgeving), Hotel Evelyn
+Nainital (mini-ashram 1970/1971), Kausani (Vipassana-retraite), Delhi (aankomstpunt, indirect) en
+een niet-gelokaliseerd laatste India-bezoek (2004). Eén claim expliciet uitgesloten: een
+1997-Vrindavan-vermelding bleek over een ANDERE devotee te gaan, niet over Ram Dass' eigen
+aanwezigheid.
+
+Beide `SATURATED: NEE`, `CORPUS_COVERAGE_GATE` NEE (Ram Dass) / NEE (Neem Karoli Baba) — eerlijk
+benoemd, geen schijnzekerheid.
+
+**next_allowed_step:** STOP, wacht op INDIA-QA. Externe reconciliatie voor deze twee personen
+(dezelfde opzet als CCI_TASK 088) volgt pas na ee
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=614 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/STATUS.md blob_sha=592936816bc0b6602b0fc580330e4d130032a31b original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=5 classification=text
+n nieuwe INDIA-opdracht. Overweeg voor INDIA-QA
+expliciet: gezien de zwakke corpus-coverage kan het zinvol zijn om vóór reconciliatie eerst een
+gerichte tweede interne poging te doen om *Miracle of Love*, *By His Grace*, *Be Here Now* en
+*Sacred Wanderer* alsnog toegankelijk te krijgen (andere bronroute/host), zodat de externe
+vergelijking niet grotendeels tegen een dunne interne baseline hoeft te worden getoetst. Geen
+cluster/regio, A/B/C, permanente IDs, PDF of route.
+
+## Update — CCI_TASK 090 uitgegeven (INDIA7, 2026-08-19)
+
+CCI_TASK 089 is afgerond: NKB 19 records, Ram Dass 5 records, beide `SATURATED: NEE` en
+`CORPUS_COVERAGE_GATE: NEE` door vier geblokkeerde kernbronfamilies. CCI_TASK 090 probeert die
+bronnen via meerdere legale routes gericht te herstellen en verwerkt ieder toegankelijk deel
+lossless. Externe freezes blijven gesloten.
+
+**next_allowed_step (actueel):** CCI_TASK 090 uitvoeren en STOP na bronherstelcheckpoints +
+resultaatenvelop. Daarna INDIA-QA vóór externe reconciliatie. Parallel blijft IndiaROOD core-Kriya
+lopen. Geen cluster/regio, A/B/C, permanente IDs, PDF of route.
+
+## Update — CCI_TASK 090 afgerond (CCI, 2026-08-19)
+
+*Be Here Now* volledig hersteld (open archive.org-item) en corpusbreed doorzocht; *Miracle of
+Love*/*By His Grace* blijven `BRON_GEBLOKKEERD`. Titelcorrectie: "Sacred Wanderer" → "Being Ram
+Dass" (2021, `PARTIAL` via Tricycle-fragment). NKB 19→21 records, Ram Dass 5→13 records + 1
+naamsbevestiging (Kainchi). Ram Dass CORPUS-COVERAGE-GATE: NEE → DEELS. Beide `SATURATED: NEE`
+blijven ongewijzigd. Checkpoint commits: `76020b9` (NKB), `0f7a099` (Ram Dass). Resultaat:
+`runs/active/TOP11-NKB-RAMDASS-CORE-SOURCE-RECOVERY-001/SOURCE_RECOVERY_RESULT.md`.
+
+**next_allowed_step (actueel):** CCI stopt na resultaatenvelop op PR #23 en wacht op INDIA-QA. INDIA
+beslist tussen nog één gerichte corpuspass ("Being Ram Dass" volledig, maharajji.love) of externe
+lossless reconciliatie starten. Ramana Maharshi/Ramakrishna blijven niet gestart.
+
+## Update — CCI_TASK 091 afgerond (CCI, 2026-08-19)
+
+Volledige bidirectionele externe reconciliatie tegen `agent/chatgpt-top11-parallel-sweep`. NKB:
+21 intern vs. 113 extern; 3 correcties overgenomen (Akbarpur-district, sterfteziekenhuis =
+Ramakrishna Mission Hospital Vrindavan, Delhi-Ashram/Hanumangarhi-zekerheid); 1 nieuw conflict
+(doodsvolgorde, onopgelost). Ram Dass: 13+1 intern vs. 57 extern; 2 nieuwe Tier-1-sublocaties
+("Health Department"-kantoor, rivier-badplaats Kainchi, beide woordelijk teruggevonden in eigen
+*Be Here Now*-tekst); 1 externe claim afgewezen (Puri-strandwandeling — geciteerde Sara-Davidson-
+quote niet in de aangehaalde bronnen aangetroffen, `FALSE_OR_UNSUPPORTED_EXTERNAL_CLAIM`). Nieuwe
+volledig toegankelijke primaire bron ontdekt: *The Near and the Dear* (dokumen.pub, i.t.t. het nog
+steeds geblokkeerde *By His Grace*). Checkpoint commits: `54d0b51` (NKB), `20c281c` (Ram Dass).
+Resultaat: `runs/active/TOP11-NKB-RAMDASS-EXTERNAL-RECONCILIATION-001/RECONCILIATION_RESULT.md`.
+
+**next_allowed_step (actueel):** CCI stopt na resultaatenvelop op PR #23 en wacht op INDIA-QA. INDIA
+beslist over: (a) de inmiddels lossless IndiaROOD Core-Kriya-freezes alsnog aan CCI_TASK 088
+toevoegen; (b) het NKB-doodsvolgordeconflict gericht laten uitzoeken; (c) Ramana Maharshi/
+Ramakrishna blijven niet gestart zonder nieuwe opdracht.
+
+## Update — CCI_TASK 092 afgerond (CCI, 2026-08-19)
+
+Optie (a) hierboven is uitgevoerd: volledige drieweg-reconciliatie (intern/extern-088/IndiaROOD)
+voor Babaji (50 IndiaROOD-records), Lahiri Mahasaya (40+6) en Sri Yukteswar (42+14). Belangrijkste
+opbrengst: een volledig nieuwe Babaji-claimanttraditie (Hansavedas/Tryambaknath) Tier-1 bevestigd;
+vier Tier-1-bevestigde Lahiri-Mahasaya-vondsten (drie sluiten een AOAY-lossless-gap uit hfst. 36);
+twee Tier-1-bevestigde Sri-Yukteswar-vondsten plus twee eerder geblokkeerde 088-leads
+geconvergeerd (Bodh Gaya-geloften, Calcutta Medical College). Twee onopgeloste Lahiri-Mahasaya-
+conflicten (Ranikhet-jaar, Bishnupur-huwelijk). Geen hallucinaties gevonden bij IndiaRO
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=615 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/STATUS.md blob_sha=592936816bc0b6602b0fc580330e4d130032a31b original_offset=16384 original_length=4087 payload_bytes=4087 chunk_index=4 chunk_count=5 classification=text
+OD.
+`RECONCILIATION_GATE` en `EXTERNAL_MODEL_DIVERSITY_GATE` naar `JA` voor alle drie personen;
+`SATURATED` blijft `NEE`. Checkpoint commits: `3019884` (Babaji), `9338c4f` (Lahiri Mahasaya),
+`2889174` (Sri Yukteswar). Resultaat:
+`runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/RECONCILIATION_RESULT.md`.
+
+**next_allowed_step (actueel):** CCI stopt na resultaatenvelop op PR #23 en wacht op INDIA-QA. INDIA
+beslist over: (a) Ramana Maharshi/Ramakrishna starten (externe freezes bestaan al op
+`agent/chatgpt-top11-parallel-sweep`); (b) de twee Lahiri-Mahasaya-conflicten gericht uitzoeken;
+(c) NKB-doodsvolgordeconflict (CCI_TASK 091) gericht uitzoeken; (d) een andere route naar
+Satyananda's volledige Sri-Yukteswar-biografie proberen.
+
+## Update — CCI_TASK 093 afgerond (CCI, 2026-08-19)
+
+Optie (a) hierboven is uitgevoerd: verse blinde METHOD_V2 pre-external freezes voor Ramana Maharshi
+(23 records) en Ramakrishna (19 records), beide vanaf nul, blind voor `agent/chatgpt-top11-parallel-
+sweep` én het nieuwe `agent/indiageel-ramana-ramakrishna-sweep`. Ramana Maharshi bleek na zijn
+aankomst in Tiruvannamalai (1 sept. 1896) in deze pas nooit meer de regio te hebben verlaten — alle
+17 latere records liggen rond Arunachala. Ramakrishna's freeze bevat de volledige grote pelgrimsreis
+(Vaidyanath/Deoghar → Kasi/Kedarghat → Prayag → Vrindavan/Nidhuvan → terug naar Kasi) plus een
+expliciete negatieve controle (Baranagar-klooster, pas na zijn dood gesticht, terecht niet
+meegeteld als eigen locatie). Beide `SATURATED: NEE`. Checkpoint commits: `6e3f939` (Ramana
+Maharshi), `12e99c1` (Ramakrishna).
+
+**next_allowed_step (actueel):** CCI stopt na resultaatenvelop op PR #23 en wacht op INDIA-QA.
+Aparte multi-detector-reconciliatietaak (extern ChatGPT + IndiaGEEL) volgt pas na een nieuwe
+INDIA-opdracht. Overige openstaande opties (Lahiri-Mahasaya-conflicten, NKB-doodsvolgordeconflict,
+Satyananda-volledige-tekst) blijven ongewijzigd staan.
+
+## Update — CCI_TASK 094 afgerond (CCI, 2026-08-19)
+
+Volledige drieweg-multidetectorreconciliatie (intern 093 / extern ChatGPT / IndiaGEEL) uitgevoerd
+voor zowel Ramana Maharshi als Ramakrishna. Beide `EXTERNAL_MODEL_DIVERSITY_GATE: JA`. Ramana: twee
+Tier-1-bevestigde IndiaGEEL-only locaties (Azhagar Koil; banyanboom/horzelsteek-route), één
+onopgelost drievoudig erkend conflict (Gurumurtam-jaar 1897/1898). Ramakrishna: één Tier-1-bevestigde
+IndiaGEEL-only naamgranulariteit (Fouzdar Kunj), één IndiaGEEL-datumfout Tier-1 gecorrigeerd (Mati
+Seal-reservoir: 1883, niet 1885), en het volledige Kolkata-devoteehuizennetwerk (~80 externe
+records) nu voor het eerst gedekt. Checkpoint commits: `e089bc0` (Ramana), `0779bf2` (Ramakrishna).
+Volledige documenten in
+`runs/active/TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001/`.
+
+**next_allowed_step (voorheen):** CCI_TASK 095 (IndiaGEEL toevoegen aan de bestaande NKB/Ram
+Dass-reconciliatie) stond geprequeued door INDIA8.
+
+## Update — CCI_TASK 095 afgerond (CCI, 2026-08-19)
+
+IndiaGEEL toegevoegd als derde detector aan de NKB/Ram Dass-reconciliatie uit CCI_TASK 091. NKB:
+twee Tier-1 bevestigde nieuwe travel-ready locaties (Hanuman Setu/Sankat Mochan-tempel Lucknow —
+upgrade van ONZEKER; Veerapuram/Chennai — volledig nieuwe Zuid-India-tak). Ram Dass: drie nieuwe,
+nog niet Tier-1 bevestigde kandidaatclusters (Dharamsala/Dalai Lama-audiëntie — vult een expliciet
+091-gat; Ganeshpuri/Muktananda-ashram; Anandamayi Ma-ashrams Vrindavan/Kankhal). Extra
+(niet-doorslaggevende) corroboratie gevonden voor het NKB Mathura-doodsvolgordeconflict uit
+CCI_TASK 091, dat open blijft. Nieuw `TRAVEL_READINESS_GATE.md` onderscheidt expliciet
+travel-relevante van academische restgaten. Checkpoint commits: `8cda7cc` (NKB), `cf3e9da` (Ram
+Dass). Volledige documenten in
+`runs/active/TOP11-NKB-RAMDASS-INDIAGEEL-MULTIDETECTOR-RECONCILIATION-001/`.
+
+**next_allowed_step (actueel):** CCI stopt na resultaatenvelop op PR #23 en wacht op INDIA-QA. Geen
+verdere taak voorgequeued.
+
+---
+Dit bestand is de kortste actuele bron van waarheid voor deze taak.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=616 path=runs/active/TOP11-NKB-RAMDASS-INDIAGEEL-MULTIDETECTOR-RECONCILIATION-001/RECONCILIATION_RESULT.md blob_sha=f84cf69f577fc448f91921a7c7467ce852e55193 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# RECONCILIATION_RESULT — TOP11-NKB-RAMDASS-INDIAGEEL-MULTIDETECTOR-RECONCILIATION-001
+
+```
+task_id: TOP11-NKB-RAMDASS-INDIAGEEL-MULTIDETECTOR-RECONCILIATION-001
+cci_task: CCI_TASK 095
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-19
+checkpoint_commits: 8cda7cc (Neem Karoli Baba), cf3e9da (Ram Dass)
+```
+
+## 1. Samenvatting
+
+IndiaGEEL toegevoegd als derde onafhankelijke detector aan de bestaande CCI_TASK 091-reconciliatie
+(intern + externe ChatGPT-sweep) voor Neem Karoli Baba (46 IndiaGEEL-records) en Ram Dass (55
+IndiaGEEL-records). Beide IndiaGEEL-commits vóór opening geverifieerd als de enige, exacte
+toevoegende commits (via `list_commits`/`get_commit`). Volledige documenten:
+`NEEM_KAROLI_BABA_INDIAGEEL_RECONCILIATION.md`, `RAM_DASS_INDIAGEEL_RECONCILIATION.md`,
+`TRAVEL_READINESS_GATE.md`, `RECONCILIATION_MATRIX.jsonl` (44 regels: 16 NKB + 28 Ram Dass).
+
+## 2. Top-bevindingen
+
+### IndiaGEEL vult een expliciet door de vorige laag opengelaten gat
+De 091-externe-freeze voor Ram Dass noemde het letterlijk als negatieve bevinding: "Dalai
+Lama-audiëntie: BH zegt dat Ram Dass de Dalai Lama ging zien, maar geeft geen locatie. Dharamsala/
+McLeod Ganj is niet zonder locatiebewijs toegevoegd." IndiaGEEL levert — via een genuine tweede
+autobiografische bron (*Being Ram Dass*, 2021, i.p.v. *Be Here Now*/*Miracle of Love*) — precies dit
+Dharamsala/McLeod Ganj-cluster, inclusief een specifieke naam ("Swarg Ashram") voor de Dalai
+Lama-hoofdkwartier-locatie. Niet Tier-1 herverifieerd dit taakbudget, maar een sterk signaal dat een
+onafhankelijke bron een eerder bewust opengelaten gat kan dichten.
+
+### Twee Tier-1 bevestigde, travel-ready nieuwe locaties (NKB)
+- **Hanuman Setu/Sankat Mochan-tempel, Lucknow**: upgrade van `ONZEKER` (091, beide lagen) naar
+  bevestigde persoonlijke aanwezigheid — consecratiedatum 26 januari 1967 onafhankelijk bevestigd.
+- **Veerapuram, Chennai**: volledig nieuwe regionale tak (Zuid-India), woordelijk bevestigd via
+  onafhankelijke bronnen — Baba stopte op braakliggend terrein dat in 1984 het huidige
+  ashramterrein werd.
+
+### Twee volledig nieuwe clusters (Ram Dass), nog niet Tier-1 bevestigd
+- **Ganeshpuri/Muktananda-ashram**: Tier-2 gecorroboreerd via onafhankelijke bronnen over de
+  Ram Dass-Muktananda-Krishna Das-band.
+- **Anandamayi Ma-ashrams, Vrindavan en Kankhal**: plausibel gegeven Maharajji's eigen bevestigde
+  band met Anandamayi Ma (CCI_TASK 084), niet apart geverifieerd deze taak.
+
+### Extra, niet-doorslaggevende corroboratie van een bestaand conflict
+Het NKB-doodsvolgordeconflict uit CCI_TASK 091 (Mathura-tussenstop wel/niet vóór de dood in
+Vrindavan) blijft formeel open (S15 blijft de enige directe Tier-1-tegenbron), maar IndiaGEEL's
+eigen, niet-gepromoveerde lead plus aanvullende websearch wijzen beide consistent naar de
+Mathura-versie — het gewicht van het bewijs verschuift merkbaar, zonder dat het conflict als
+opgelost wordt gemarkeerd.
+
+### Cross-detector consistentie als kwaliteitssignaal
+De Panki-bilocatie-episode (NKB) wordt nu door alle drie lagen — intern, extern (Tier-1 in 091),
+IndiaGEEL — consistent als devotionele traditie behandeld, geen enkele upgradet naar bewezen
+fysieke aanwezigheid. Ram Dass' eerste-ontmoetingsplek (Bhumiadhar) wordt onafhankelijk zowel in
+IndiaGEEL's NKB-freeze als in IndiaGEEL's Ram Dass-freeze bij naam genoemd, wat de 091-externe-
+freeze bewust open had gelaten.
+
+### Geen hallucinaties gevonden
+Bij de rechtstreeks gecontroleerde steekproef (4 directe verificaties: Lucknow, Veerapuram,
+Dharamsala, Muktananda/Ganeshpuri) is geen enkele verzonnen locatie aangetroffen. De 091-eigen
+afwijzing van de externe "Puri-strand"-claim (Ram Dass) wordt door IndiaGEEL's afwezigheid van die
+claim stilzwijgend bevestigd, geen nieuwe tegenspraak.
+
+## 3. Recorddelta per persoon
+
+| persoon | 091 intern | 091 extern | IndiaGEEL | nieuw travel-ready (Tier-1, deze taak) | nieuwe clusters (nog niet Tier-1) | conflicten |
+|---|---:|---:|---:|---:|---:|---:|
+| Neem Karoli Baba | 21 | 113 | 46 | 2 (Lucknow-upgrade, Veerapuram) | 0 substantieel nieuw | 1 (Mathur
+<<< END CHUNK >>>
+

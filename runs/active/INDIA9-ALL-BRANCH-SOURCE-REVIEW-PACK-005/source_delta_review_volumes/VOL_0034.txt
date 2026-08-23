@@ -1,0 +1,826 @@
+>>> CHUNK stream_row=516 path=runs/active/INDIAWIT-HERITAGE-STAY-OVERRIDE-001/MARK_HOTEL_REVIEW_QUEUE.md blob_sha=2395079f7b591f1202a6ab5f3331ae759d42a43f original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# MARK_HOTEL_REVIEW_QUEUE — INDIA WIT
+
+status: DRAFT_FOR_MARK_REVIEW
+verified_at: 2026-08-19
+rule: no decision is made for Mark; this queue minimizes future hotel decisions and preserves existing locks
+
+## Queue design
+
+Only candidates that could materially change where Mark sleeps are surfaced here. Visit-only heritage rooms and unresolved anonymous lodgings are excluded from the decision queue but remain preserved in the other audit outputs.
+
+## Batch 1 — existing hotel lock affected
+
+### Varanasi — one explicit review, no lock change
+
+**Current lock:** `Sahi River View Guesthouse`, Assi Ghat — `LOCKED_BY_MARK`.
+
+**Heritage alternative requiring review:** `Shree Shree Ma Anandamayi Ashram, Bhadaini`.
+
+Why this is a real override candidate:
+- Anandamayi Ma's durable person layer places her at the Varanasi ashram/verblijf.
+- The current official Sangha contact page explicitly publishes room-booking contacts and a local dharamshala contact.
+- Bhadaini is already inside the same south-Varanasi/Assi cluster served by the current hotel lock.
+
+What is **not** known yet:
+- whether the rooms available to travellers are in a building personally used by Ma;
+- whether any preserved Ma-associated room exists and is allocatable;
+- comfort/private bathroom/luggage/check-in/foreign-guest details;
+- whether the heritage gain outweighs Debby's strong personal recommendation and the known balcony-room preference at Sahi.
+
+**Decision to ask Mark later, only after a compact factual comparison:** keep Sahi for all Varanasi nights, move some/all nights to Anandamayi Ashram, or keep Sahi and visit the ashram without sleeping there. WIT makes no choice.
+
+Priority: **P0 — HIGH-IMPACT-REVIEW**.
+
+## Batch 2 — same historic commercial hotel candidates
+
+These are unusually strong because the modern business is the same historic hotel/site rather than merely a nearby spiritual guesthouse.
+
+### Nainital — Hotel Evelyn
+
+- Ram Dass stayed there in 1971.
+- His top-floor small `cave` room is specifically described in the person layer.
+- Hotel Evelyn still operates on Mall Road and is currently offered as a hotel.
+- Historic room number/current-room correspondence is unknown.
+
+Before Mark is asked: obtain direct hotel confirmation on old room numbering/floorplan/photos and whether the historic top-floor room survives. If confirmed, elevate to `SAME_HISTORIC_ROOM`; otherwise present `same historic hotel` only.
+
+Priority: **P0 if Nainital is selected**.
+
+### Mumbai — Taj Mahal Palace
+
+- Yogananda occupied a suite here after returning to India in August 1935.
+- The same historic hotel is operating and bookable today.
+- The autobiography does not provide a suite number/name.
+
+Before Mark is asked: contact Taj heritage/archive team for guest-register or suite-assignment evidence. Even without room-level closure, this remains a strong same-hotel candidate.
+
+Priority: **P1 if Mumbai requires an overnight**.
+
+## Batch 3 — same spiritual complex, modern guest room
+
+### Tiruvannamalai — Sri Ramanasramam
+
+- Arunachala/Tiruvannamalai already remains `LOCKED_BY_MARK` as an A-anchor.
+- Sri Ramanasramam offers current devotee accommodation by online request.
+- The Nirvana Room, Virupaksha Cave and Skandashramam are heritage spaces, **not** sleeping rooms for visitors; cave/hill overnighting is explicitly prohibited.
+- Guest lodging is modern, but the same-complex immersion value is unusually high.
+
+Decision should only be asked after confirming availability for the actual Tiruvannamalai dates and whether Mark meets/accepts the ashram stay conditions.
+
+Priority: **P0 once dates exist**.
+
+### Belur / Kolkata-Hooghly — Belur Math guest house
+
+- Vivekananda's monastic residence is central to the complex's heritage.
+- Belur Math officially offers guesthouse accommodation to pilgrimage devotees; a new Ma Sarada Bhavan/Yatri Nivas opened in May 2026.
+- The preserved historic Vivekananda room itself is not bookable.
+
+Priority: **P1 if Kolkata/Hooghly cluster is chosen**.
+
+### Kamarpukur — RKM guest house
+
+- Ramakrishna's birthplace/home complex is the he
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=517 path=runs/active/INDIAWIT-HERITAGE-STAY-OVERRIDE-001/MARK_HOTEL_REVIEW_QUEUE.md blob_sha=2395079f7b591f1202a6ab5f3331ae759d42a43f original_offset=4096 original_length=3205 payload_bytes=3205 chunk_index=1 chunk_count=2 classification=text
+ritage reason.
+- The current Ramakrishna Math offers limited guest house/dormitory lodging by prior request.
+- This is not same-room lodging.
+
+Priority: **P2 if Kamarpukur is chosen**.
+
+## Batch 4 — official heritage guesthouse adjacent to core site
+
+### Kankhal — Anandamayi International Centre
+
+- Current accommodation exists specifically for Ma's devotees.
+- It directly adjoins her Ashram and Samadhi Mandir.
+- It is a later retreat centre, not proof of sleeping in Ma's own room.
+
+Priority: **P1 if Haridwar/Kankhal cluster is chosen**.
+
+### Serampore — YSS Retreat
+
+- Yogananda's Anandaloka room is preserved as a shrine and Sri Yukteswar's hermitage survives as heritage/Smriti Mandir.
+- YSS currently operates a Serampore retreat where retreatants can stay.
+- The accommodation is separate from the historic shrine rooms.
+
+Priority: **P1 if Serampore becomes overnight-worthy rather than a Kolkata day excursion**.
+
+## Batch 5 — conditional / needs closure before Mark sees it
+
+Do **not** burden Mark with these until the missing factual item is closed:
+
+- **Kainchi Dham:** confirm any legitimate guest accommodation only through the official Shri Kainchi Hanuman Mandir Trust; specifically ask whether Ram Dass' 1967 upstairs room survives and whether visitors can ever sleep in that building/room. Third-party booking sites are ignored.
+- **Ranchi YSS:** official lodging is closed until early 2027; recheck exact reopening date against itinerary.
+- **Karar Ashram, Puri:** verify current visitor overnight policy directly with the institution before presenting as hotel alternative.
+- **Katyayani Peeth, Vrindavan:** current ashram exists, but public room-booking policy is not established.
+- **Fouzdar Kunj, Vrindavan:** first establish current building survival/identity and access.
+- **4 Church Lane, Prayagraj:** private-house heritage; only present to Mark if owner/devotee access or legitimate lodging becomes documented.
+- **Regent Hotel, Mumbai / Santiniketan guest house / Delhi semi-hippie hotel / Kausani rented house / Kashmir inns:** historic identity insufficient; no Mark decision until solved from archives, not guesses.
+
+## Minimal future decision interface
+
+When route clusters are chosen, do not ask Mark dozens of hotel questions. Present at most one card per overnight cluster with:
+
+`CURRENT/LOGISTICS OPTION | HERITAGE OPTION | same room? | same building? | current bookability | comfort/access difference | price if known | cancellation | why it matters | WIT confidence`
+
+For Varanasi the card must visibly start with `CURRENT LOCK: Sahi River View Guesthouse — NO CHANGE WITHOUT MARK`.
+
+## Current queue order
+
+1. **Varanasi: Sahi lock vs Anandamayi Ashram review** — only existing lock collision.
+2. **Nainital: Hotel Evelyn historical-room verification**.
+3. **Tiruvannamalai: Sri Ramanasramam availability for chosen dates**.
+4. **Mumbai: Taj archive/suite verification** if Mumbai overnight exists.
+5. **Belur Math / Serampore / Kankhal** only when those clusters survive Mark's route decisions.
+6. All conditional candidates stay hidden from decision burden until evidence/bookability closes.
+
+No hotel, room or route has been changed by this queue.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=518 path=runs/active/INDIAWIT-HERITAGE-STAY-OVERRIDE-001/ROOM_LEVEL_LEADS.md blob_sha=935a63feab27161f9504e7793a3a9ba27beb525f original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# ROOM_LEVEL_LEADS — INDIA WIT
+
+status: COMPLETE_AUDIT_SNAPSHOT
+verified_at: 2026-08-19
+rule: room/floor/suite detail only when already supported by project source layers; no room number invented
+
+## Highest-value room-level leads
+
+| priority | person | place | room-level evidence | current room continuity | same room bookable now | action |
+|---:|---|---|---|---|---|---|
+| 1 | Ram Dass | Hotel Evelyn, Nainital | 1971 `top-floor small room`, described as a meditation `cave`; hotel balcony/patio also tied to his stay | **DEELS/HIGH LEAD** — hotel still operates, but no public historical floorplan or room-number match found | **ONZEKER** | Ask Hotel Evelyn directly for 1971 top-floor room history, old room numbering, photographs/floorplan, and whether that room can be specifically reserved. Do not present any modern room as the historic room without written confirmation. |
+| 2 | Paramahansa Yogananda | Taj Mahal Hotel, Mumbai | occupied a **suite** after August 1935 arrival | hotel/site continuity **JA**; suite identity not named in autobiography | **ONZEKER** | Contact Taj heritage/archives: ask whether 1935 guest register or Yogananda suite assignment survives and whether the corresponding present-day room/suite exists. |
+| 3 | Paramahansa Yogananda | Sarada Prasad Ghosh house, Serampore | exact room preserved as shrine **Anandaloka** | **JA** according to YSS institutional material | **NEE** as ordinary lodging on current evidence | Preserve as must-inspect room; pair with separate YSS Serampore retreat stay rather than implying sleep in shrine room. |
+| 4 | Sri Yukteswar | Priyadham / Serampore hermitage | private bedroom with wooden bed; second-floor sitting room and street balcony; ground-floor hall, dining patio | **DEELS** — site/restoration continuity is strong but room-by-room historic fabric not fully closed | **NEE/ONZEKER** | Request YSS heritage-room map/inventory; determine which historic internal rooms survive and visitor access. |
+| 5 | Ram Dass | Kainchi Dham | `old upstairs room`, rear building, where he lived in 1967 and revisited in 1971 | **ONZEKER** at exact door/room level | **ONZEKER**; no safe official public booking proof for historical room | Ask only the official Shri Kainchi Hanuman Mandir Trust. Ignore third-party “ashram room booking” pages unless Trust confirms them. |
+| 6 | Neem Karoli Baba | 4 Church Lane, Prayagraj | Maharajji's room; hall; outside veranda; meal/kitchen areas; bathrooms/front sitting zone | house identity **JA/DEELS**, exact current room fabric not audited inside | **NEE/ONZEKER** | Treat as private-house heritage. Seek owner/devotee permission only if project later needs access; no lodging assumption. |
+| 7 | Ramana Maharshi | Sri Ramanasramam | **Nirvana Room** preserved as in Maharshi's time | **JA** official ashram description | **NEE** — sacred preserved room, not guest lodging | Same-complex guest stay is possible in modern rooms; never market Nirvana Room as bookable. |
+| 8 | Ramana Maharshi | Virupaksha Cave / Skandashramam | exact historical living spaces | **JA** preserved by Sri Ramanasramam | **NEE** — official rules prohibit overnight stays on hill/in caves | Visit only. Modern ashram guest room is the legitimate heritage-stay alternative. |
+| 9 | Paramahansa Yogananda | Ranchi Ashram | preserved sacred-room/campus layer; historic school/ashram stay | campus **JA** | current YSS guest accommodation **TEMPORARILY CLOSED until early 2027** | Recheck exact reopening before any Jan-2027 Ranchi overnight. Do not equate a modern guest room with Yogananda's historic room. |
+| 10 | Paramahansa Yogananda | Mahamandal hermitage, Varanasi | attic/room in which he meditated and stayed as novice | underlying hermitage parcel **ONBEKEND** | **ONZEKER** | Archive-only lead until hermitage identity is established; no current-world hotel search should guess a match. |
+| 11 | Paramahansa Yogananda | Swami Pranabananda residence, Varanasi | second-floor hall | house address unresolved | **ONZEKER** | Not a lodging candidate unless project source proves Yogananda 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=519 path=runs/active/INDIAWIT-HERITAGE-STAY-OVERRIDE-001/ROOM_LEVEL_LEADS.md blob_sha=935a63feab27161f9504e7793a3a9ba27beb525f original_offset=4096 original_length=2708 payload_bytes=2708 chunk_index=1 chunk_count=2 classification=text
+slept there; retain room detail only as heritage-room lead. |
+| 12 | Sri Yukteswar | unnamed Kashmir inns | lodging explicitly present in person layer, exact inn identities unresolved | **ONBEKEND** | **ONZEKER** | Preserve as archive leads; do not match modern inns by name similarity. |
+| 13 | Ramakrishna | Fouzdar Kunj, Retia Bazar, Vrindavan | directly verified by CCI 094: upper room with semicircular veranda in Mathur Babu's pilgrimage lodging | **ONZEKER** | **ONZEKER** | High-value identity/survival verification if Vrindavan is selected; no room booking claim yet. |
+| 14 | Ramakrishna | Dakshineswar room | exact preserved room associated with long residence | **JA** | **NEE** | Visit only; no overnight implication. |
+| 15 | Vivekananda | Belur Math historic room/monastic residence | core monastic residence layer; preserved heritage room belongs to shrine/history function | **JA** at complex level | historic room **NEE**; separate pilgrimage guest house **JA** | Best formulation: `sleep at Belur Math guest house, visit Vivekananda's room`, not `sleep in Vivekananda's room`. |
+| 16 | Anandamayi Ma | Varanasi Bhadaini Ashram | ashram residence confirmed, but no room number/individual historic bedroom safely recovered in current source envelope | site **JA** | **JA for present ashram/dharamshala rooms**, same historic room **ONZEKER** | Ask room-booking contact whether any room is specifically preserved/associated with Ma and whether it is visitor-accessible or allocatable; require written evidence before claiming same-room stay. |
+
+## Room-number audit result
+
+No reliable numeric room number was recovered for any high-impact heritage stay in the source layers reviewed. The audit therefore records **zero confirmed historic room numbers**. This is a finding, not a gap to fill by inference.
+
+## Floor/position details that are source-supported
+
+- Hotel Evelyn: top-floor small room / meditation `cave`.
+- Kainchi: old upstairs room, rear/back part of building; no number.
+- Sri Yukteswar Priyadham: second-floor sitting room/balcony; private bedroom with wooden bed; ground-floor hall.
+- Yogananda at Pranabananda residence: second-floor hall (visit-room, not proven sleep-room).
+- Yogananda at Garpar Road: attic meditation room and first-floor Babaji-encounter room; family residence, not public lodging.
+- Ramakrishna Fouzdar Kunj: upper room with semicircular veranda.
+
+## Guardrail
+
+A modern room that occupies approximately the same floor or wing is not automatically the historic room. Required proof for `SAME_HISTORIC_ROOM = JA`: archival register/floorplan, institution/owner written confirmation, or a preserved-room designation with traceable historical provenance.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=520 path=runs/active/INDIAWIT-HERITAGE-STAY-OVERRIDE-001/STATUS.md blob_sha=11e310500d355065784383279f6f9542a9ca33e9 original_offset=0 original_length=3402 payload_bytes=3402 chunk_index=0 chunk_count=1 classification=text
+# STATUS — INDIAWIT-HERITAGE-STAY-OVERRIDE-001
+
+state: COMPLETE
+branch: agent/indiawit-master-travel-readiness
+owner: INDIA WIT
+scope: heritage-stay candidates + room-level/current existence/bookability + hotel override review only
+completed_at: 2026-08-19
+
+outputs:
+- HERITAGE_STAY_CANDIDATES.md — commit `5f3c49982b00a3cf880c5033bd05568154ceaa95`
+- ROOM_LEVEL_LEADS.md — commit `79264149d2e776699aac043023d9610831c1d7f2`
+- CURRENT_EXISTENCE_AND_BOOKABILITY.md — commit `33036b8e4b564dac0be4b8cc20fc0c2e93d844ce`
+- EXISTING_HOTEL_OVERRIDE_MATRIX.md — commit `fe2da4a5d1824c2df02a5fee10f45df0c7ecaee8`
+- MARK_HOTEL_REVIEW_QUEUE.md — commit `c5f7029581e248779aeeab3acc3b08e4ff4de432`
+
+key_findings:
+- Existing Varanasi lock `Sahi River View Guesthouse` remains LOCKED_BY_MARK and unchanged.
+- Anandamayi Ma's Bhadaini Varanasi Ashram currently publishes explicit room-booking/dharamshala contacts and therefore creates `MARK_REVIEW_REQUIRED — HIGH-IMPACT-REVIEW` against the existing Varanasi lock, without replacing it.
+- Hotel Evelyn in Nainital still operates and is a high-impact same-historic-hotel candidate for Ram Dass; his 1971 top-floor `cave` room is not yet mapped to a current room number.
+- The Taj Mahal Palace in Mumbai remains operational/bookable and is a same-historic-hotel candidate for Yogananda; exact 1935 suite identity is unresolved.
+- Sri Ramanasramam currently accepts devotee accommodation requests; historic Nirvana Room/caves are not bookable, and overnighting on the hill/in caves is prohibited. This is a high-impact same-complex stay review because Tiruvannamalai remains LOCKED_BY_MARK A-anchor.
+- Belur Math offers pilgrimage guest accommodation; Vivekananda's historic room itself is not bookable.
+- YSS Ranchi guest accommodation is officially closed until early 2027 and needs exact-date recheck if Ranchi enters the route.
+- Kainchi current booking search is contaminated by third-party/unofficial booking sites; only the official Shri Kainchi Hanuman Mandir Trust is accepted as authority. No historic Ram Dass/NKB room was marked bookable.
+- No confirmed numeric historic room number was recovered; zero room numbers were invented.
+
+constraints_respected:
+- no broad new person-location sweep
+- current web verification only for already-detected stay claims
+- all investigated core-person layers represented, including unresolved lodging leads where identity is insufficient
+- no room/floor/building continuity inferred without source
+- no existing hotel lock changed
+- no A/B/C decision made for Mark
+- no hotel booking
+- no PDF
+- no merge/PR
+
+blockers_downstream:
+- Direct institution/hotel archive contact is needed for Hotel Evelyn historic room mapping, Taj 1935 suite identification, Kainchi historical room policy, Karar Ashram overnight policy and several other room-level leads.
+- Ranchi reopening date is not exact enough yet for the Dec-2026/Jan-2027 trip.
+- Some historic lodgings remain identity-unresolved and must not be matched to modern businesses by name similarity.
+
+next_allowed_step:
+- INDIA8/route layer may consume MARK_HOTEL_REVIEW_QUEUE only after route clusters/dates are chosen.
+- For any selected cluster, resolve the small number of institution-specific factual blockers before asking Mark one compact hotel decision.
+- Preserve Sahi River View Guesthouse as Varanasi LOCKED_BY_MARK unless Mark explicitly changes it.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=521 path=runs/active/INDIAWIT-HERITAGE-STAY-OVERRIDE-001/TASK.md blob_sha=71c9892645e92071f2aad8c11c7e217fc39ea9d9 original_offset=0 original_length=2926 payload_bytes=2926 chunk_index=0 chunk_count=1 classification=text
+# INDIA WIT — HERITAGE STAY OVERRIDE AUDIT
+
+STATUS: READY
+OWNER: INDIA WIT
+MODE: CROSS-BRANCH INTEGRATION + CURRENT-WORLD VERIFICATION
+
+## Waarom deze taak bestaat
+Persoonsgerichte sweeps kunnen niet alleen nieuwe bezoeklocaties opleveren, maar ook historische verblijven: hotels, guesthouses, kamers, ashramkamers, woningen of andere slaapplaatsen waar een kernpersoon aantoonbaar verbleef. Zo'n vondst kan een eerder gekozen logistiek hotel inhoudelijk overtreffen. Bestaande hotelkeuzes blijven intact totdat Mark expliciet anders beslist, maar moeten opnieuw ter beoordeling komen zodra een relevante heritage-stay kandidaat bestaat.
+
+## Opdracht
+Maak voor ALLE onderzochte kernpersonen een lossless inventaris van persoonsgebonden verblijven in India uit reeds beschikbare persoonsfreezes/reconciliaties en toegestane projectoutputs. Zoek daarna gericht op de actuele fysieke voortzetting van alleen die reeds gedetecteerde verblijfclaims. Geen brede nieuwe persoonslocatiesweep.
+
+Lever:
+1. HERITAGE_STAY_CANDIDATES.md
+2. ROOM_LEVEL_LEADS.md
+3. CURRENT_EXISTENCE_AND_BOOKABILITY.md
+4. EXISTING_HOTEL_OVERRIDE_MATRIX.md
+5. MARK_HOTEL_REVIEW_QUEUE.md
+
+## Per kandidaat minimaal
+- persoon/personen;
+- historische naam verblijf;
+- stad/regio;
+- aard: hotel/guesthouse/ashram/private house/dharmshala/etc.;
+- bewijs van werkelijk verblijf versus alleen bezoek;
+- datum/periode/frequentie indien bekend;
+- kamernummer, vleugel, verdieping of specifieke ruimte indien bronmatig bekend;
+- bron + locator;
+- huidige naam/continuïteit van gebouw of onderneming;
+- bestaat fysiek nog: JA/NEE/ONZEKER;
+- overnachting tegenwoordig mogelijk: JA/NEE/ONZEKER;
+- dezelfde historische ruimte/kamer boekbaar: JA/NEE/ONZEKER;
+- afstand tot bestaande gekozen/voorgestelde hotel of clusteranker indien betrouwbaar vaststelbaar;
+- mogelijke impact op bestaande hotelkeuze: NONE / REVIEW / HIGH-IMPACT-REVIEW;
+- onzekerheden/conflicten.
+
+## Zeer belangrijk
+- Zoek expliciet naar room-level detail waar reeds een verblijfclaim is gevonden: kamernummer, kamernaam, verdieping, suite, hut, kuti, guest room, host house.
+- Geen kamernummer of continuïteit afleiden zonder bron.
+- Een modern hotel met dezelfde naam is niet automatisch hetzelfde gebouw.
+- Een historische private woning die nu hotel is geworden is juist zeer relevant, maar continuïteit moet worden aangetoond.
+- Een gesloten hotel kan nog steeds als bezoeklocatie relevant zijn.
+- Een bestaand eerder LOCKED_BY_MARK hotel NIET wijzigen. Alleen `MARK_REVIEW_REQUIRED` produceren.
+- Geen A/B/C namens Mark.
+- Geen definitieve boeking.
+
+## Prioriteit
+Begin met steden/clusters die al waarschijnlijk in de reis komen of waar bestaande hotels/overnachtingen eerder zijn besproken. Geef extra gewicht aan Ram Dass, Neem Karoli Baba, Yogananda en andere personen voor wie concrete verblijfplaatsen in de persoonslagen voorkomen.
+
+Commit outputs en update STATUS.md. Geen PDF/merge/PR.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=522 path=runs/active/INDIAWIT-MASTER-TRAVEL-READINESS-001/HIGH_IMPACT_GAPS.md blob_sha=876192dbe8273f4732015a51eb367da14081aeac original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# HIGH IMPACT GAPS — INDIA WIT
+
+status: PROVISIONAL_TRAVEL_BLOCKER_FILTER
+snapshot_date: 2026-08-19
+rule: only gaps that can reasonably change destination selection, cluster priority, number of nights, transport or booking risk belong in the main section
+
+## High-impact gaps
+
+1. **CCI_TASK 095 — Neem Karoli Baba + Ram Dass third-detector reconciliation**
+   - current state: no durable 095 result at snapshot; only TASK/STATUS exist.
+   - travel impact: can change Kumaon/Kainchi/Nainital, Vrindavan and Prayagraj exact-overlap confidence/counts.
+   - action: complete 095 before treating those cross-person counts as final.
+
+2. **Yogananda current multidetector closure**
+   - current state: durable internal/nationwide and targeted layers exist, but no current all-detector reconciliation comparable to Core-Kriya/CCI094.
+   - travel impact: may affect Tiruvannamalai, Ranchi, Kolkata, Prayagraj and Serampore cluster weight/exactness.
+   - action: bounded reconciliation/QA only; no new open-ended person sweep unless governance explicitly requires it.
+
+3. **Governance-limited closure for Hariharananda and Vivekananda major known locations**
+   - current state: internal layers exist; exhaustive national deep sweep is explicitly not allowed/needed.
+   - travel impact: Puri/Karar/Balighai and Kolkata/Almora/West-Bengal belt may change in confidence or exactness.
+   - action: verify/reconcile only the biggest known travel-relevant locations after the heatmap identifies where this could change a decision.
+
+4. **Anandamayi Ma organization-layer normalization where it changes a cluster**
+   - current state: pilot not saturated; some organization-listed ashrams do not prove personal presence.
+   - travel impact: Puri and other city/region counts can be inflated if institutional presence is mistaken for personal presence.
+   - action: only normalize claims that can alter a real cluster decision; targeted Ranchi/Bhowanipur evidence already remains stronger.
+
+5. **INDIA PAARS outputs missing**
+   - current state: task still READY.
+   - travel impact: without the preference profile/rubric/minimal-decision interface, Mark risks being asked many fragmented A/B/C questions and travel friction may be inconsistently weighed.
+   - action: complete PAARS before the main Mark decision round.
+
+6. **INDIA ROZE outputs missing**
+   - current state: task still READY.
+   - travel impact: without route input contract and optimization rules, selected clusters cannot yet be converted consistently into nights, transfer buffers and a final A-Z format.
+   - action: complete ROZE before route instantiation; this does not block heatmap preparation.
+
+7. **Regional exactness/dedup gaps in clusters that survive Mark’s decision layer**
+   - current state: several strong city/region clusters contain `CITY_ONLY`, separate micro-sites or possible same-complex relationships.
+   - travel impact: can alter local transport, number of site-days and whether a regional deep sweep is necessary.
+   - action: apply ORANJE `CLUSTER_TRIGGER_RULES`; sweep only `YES` regions, not everything.
+
+8. **Train booking details cannot be finalized before concrete route segments exist**
+   - current state: generic 60-day ARP is known; Foreign Tourist facility and train-specific ARP/quota are segment-specific.
+   - travel impact: can force schedule/transport substitutions and reduce flexibility.
+   - action: route should be sufficiently stable before the rolling normal train openings start on 2026-10-19; recheck policy on 2026-10-01 and exact trains as soon as chosen.
+
+9. **Winter-access and Delhi-return-chain risk is destination/segment specific**
+   - current state: structural fog/Himalayan winter risk is known, exact closures are unknowable this far ahead.
+   - travel impact: can change transfer buffers, order, transport mode and possibly practical feasibility of a chosen high-altitude segment.
+   - action: 7–14 day and 72-hour rechecks for Himalayan segments; daily Delhi operational checks 2027-01-18 through 2027-01-21 once return chain is fixed.
+
+## NON_BLOCKING academic / micro ga
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=523 path=runs/active/INDIAWIT-MASTER-TRAVEL-READINESS-001/HIGH_IMPACT_GAPS.md blob_sha=876192dbe8273f4732015a51eb367da14081aeac original_offset=4096 original_length=1045 payload_bytes=1045 chunk_index=1 chunk_count=2 classification=text
+ps
+
+These should remain documented but should not delay the travel decision layer unless a chosen route makes one operationally relevant:
+
+- Ramana Gurumurtam 1897/1898 chronology conflict.
+- Ramana Villupuram hotel/Sastri-house/storage/garden micro-identities and incomplete exhaustive *Day by Day* / pictorial traversal.
+- Ramakrishna many nineteenth-century Kolkata private-house identities, Navadvip microlocations, Jayagopal Sen nuance and unverified Kusum Sarovar addition.
+- Lahiri Ranikhet-year/Bishnupur chronology/source conflicts when they do not change a chosen physical destination.
+- Babaji historical-body certainty beyond the project’s source/tradition evidence rule.
+- Granularity expansion inside already-confirmed complexes that changes scholarly completeness but not visit logistics.
+
+## Stop rule
+
+Do not launch new person sweeps merely because a NON_BLOCKING item remains open. A gap becomes travel-blocking only when it can plausibly change a Mark decision, nights/route structure, transport feasibility or booking risk.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=524 path=runs/active/INDIAWIT-MASTER-TRAVEL-READINESS-001/MARK_DECISION_QUEUE_DRAFT.md blob_sha=b6995273d6fe0dc121a011b1b48e712def4d6f39 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# MARK DECISION QUEUE DRAFT — INDIA WIT
+
+status: DRAFT_ONLY
+snapshot_date: 2026-08-19
+hard_rule: this file does not make any A/B/C choice on behalf of Mark
+
+## Purpose
+
+Bundle future travel choices into the fewest high-impact decision moments. The system should prepare evidence, logistics and trade-offs; Mark decides travel significance and preference-sensitive choices.
+
+## Batch 0 — protected anchors, no re-decision
+
+These should be shown as context, not re-opened as ordinary A/B/C candidates:
+
+- Arunachala/Tiruvannamalai: `LOCKED_BY_MARK` A-anchor.
+- Kukuchina/Dunagiri Babaji cave: existing principal travel reason/governance anchor.
+
+Only logistics, access and surrounding-cluster integration may later be optimized around them.
+
+## Batch 1 — national cluster selection
+
+Goal: one compact decision screen for all still-undecided major clusters, after the heatmap and travel-material reconciliations are sufficiently stable.
+
+Per cluster show only:
+- cluster name and geographic scope;
+- `MIN_CONFIRMED` Top-person count;
+- number/nature of strict exact shared sites;
+- strongest unique single-person reason;
+- evidence maturity and any material coverage warning;
+- approximate travel friction class once route metadata exists;
+- winter/access risk class;
+- redundancy with already protected anchors or other clusters;
+- what is lost if omitted.
+
+Mark then decides travel significance for the cluster in one action, rather than site-by-site first.
+
+Likely batch members from current provisional overlap layer: Prayagraj, Varanasi, Kolkata/Hooghly belt, Vrindavan, Puri, Ranchi, Kainchi/Nainital/Kumaon context, Serampore, Almora/wider Kumaon. This is not a recommendation or ranking; membership may change after the final heatmap.
+
+## Batch 2 — intensity inside selected clusters
+
+Only for clusters Mark keeps.
+
+For each selected cluster, ask one compact intensity choice rather than dozens of site choices. Present:
+- `CORE`: minimum set of highest-confidence/highest-relevance sites;
+- `EXTENDED`: adds secondary same-person/cross-person sites that materially deepen the cluster;
+- `DEEP`: includes specialist/micro-sites and requires more time/local transport.
+
+The labels are interface levels, not pre-filled choices. The system may calculate consequences such as approximate site-days, travel friction and number of local transfers, but Mark chooses the intensity.
+
+## Batch 3 — comfort versus route efficiency
+
+After cluster and intensity decisions, combine preference-sensitive logistics into one decision moment. Present route alternatives using the same chosen destinations, varying only:
+- fewer transfers versus faster progression;
+- more buffers/rest versus tighter schedule;
+- overnight train/early flight tolerance where relevant;
+- tolerance for uncertain winter mountain access;
+- tolerance for long travel-only days.
+
+The system may optimize technically within the selected comfort envelope but must not infer Mark’s comfort preference.
+
+## Batch 4 — final exceptions only
+
+Ask Mark only about unresolved items that genuinely affect the itinerary after optimization, for example:
+- one cluster cannot fit without displacing another selected cluster;
+- a winter-access risk makes a chosen anchor operationally fragile;
+- a train/flight schedule forces a materially different route shape;
+- two sites thought separate turn out to require duplicate travel effort;
+- an exact-site confidence downgrade changes the reason for staying an extra day.
+
+Do not escalate minor academic uncertainty.
+
+## Decisions agents may optimize without Mark
+
+Once Mark has supplied cluster significance, intensity and comfort envelope, technical agents may normally optimize:
+- ordering to reduce backtracking;
+- transfer sequence and connection selection;
+- reasonable arrival/departure times;
+- buffers for fog/winter/remote access;
+- grouping sites by locality;
+- scheduling rest/buffer days within Mark’s stated tolerance;
+- booking-window sequencing;
+- fallback ordering that preserves Mark’s selected priorities.
+
+Agents may not autonomously change A/B/C, drop a protec
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=525 path=runs/active/INDIAWIT-MASTER-TRAVEL-READINESS-001/MARK_DECISION_QUEUE_DRAFT.md blob_sha=b6995273d6fe0dc121a011b1b48e712def4d6f39 original_offset=4096 original_length=480 payload_bytes=480 chunk_index=1 chunk_count=2 classification=text
+ted anchor, select a hotel, or convert an undecided cluster into a destination.
+
+## Upstream dependency
+
+INDIA PAARS is specifically tasked with the definitive preference profile, A/B/C rubric, minimal-decision design and hard-constraints register, but that branch is still `READY` at this snapshot. This WIT queue is therefore a safe structural draft, not a replacement for PAARS. When PAARS completes, reconcile this queue against PAARS rather than duplicating or overruling it.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=526 path=runs/active/INDIAWIT-MASTER-TRAVEL-READINESS-001/MASTER_HEATMAP_INPUT.md blob_sha=a9b7e9bc1b2e0326cdd89a091b24154ef73d8f52 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# MASTER HEATMAP INPUT — INDIA WIT
+
+status: PROVISIONAL_LOSSLESS_INPUT
+snapshot_date: 2026-08-19
+rule: every numerical overlap below is a lower bound and must be labelled `MIN_CONFIRMED`
+
+## Heatmap semantics
+
+Three overlap types are separate and must never be collapsed:
+
+- `CITY_OVERLAP`: multiple persons have durable presence claims in the same city/metropolitan place, without implying one building.
+- `REGION_OVERLAP`: multiple persons occur within one wider belt/region; not a city-level identity claim.
+- `EXACT_SAME_SITE_OVERLAP`: two or more persons are durably tied to the same identifiable physical site/complex. Event-zones are separately marked.
+
+Coverage state is independent from overlap count. `MIN_CONFIRMED` is not a completeness score and must not be converted into A/B/C.
+
+## Governance anchors preserved without revaluation
+
+### Arunachala / Tiruvannamalai
+- governance: `LOCKED_BY_MARK`
+- function: A-anchor
+- person density: Ramana Maharshi + Paramahansa Yogananda
+- exact overlap: Sri Ramanasramam
+- action: retain as locked anchor; no agent re-ranking or new A/B/C.
+
+### Kukuchina / Dunagiri
+- governance: existing principal Babaji travel reason
+- function: mission-critical single-person/cross-lineage anchor even if overlap count is low
+- action: preserve separately from overlap ranking; do not demote because it is not a multi-person city leader.
+
+## Consolidated city overlap layer
+
+| city/place | MIN_CONFIRMED unique persons | persons/layer summary | maturity | exactness notes |
+|---|---:|---|---|---|
+| Prayagraj / Allahabad | 5 | Babaji, Sri Yukteswar, Lahiri Mahasaya, Yogananda, NKB | mixed strong reconciled + internal | 4 Church Lane exact NKB/Ram Dass; 1894 Kumbh is event-zone; station and Kumbh must remain separate |
+| Varanasi / Kashi | 5 incl. Babaji tradition claim; 4 hard-historical | Lahiri, Sri Yukteswar, Ramakrishna, Anandamayi, Babaji tradition | high Core-Kriya + CCI094-strengthened Ramakrishna, mixed others | Lahiri residence exact with Sri Yukteswar; other city records not merged into that house |
+| Kolkata / Calcutta metropolitan cluster | 4 | Yogananda, Vivekananda, Ramakrishna, Anandamayi | mixed internal + CCI094-strengthened Ramakrishna | Dakshineswar exact Ramakrishna/Vivekananda; Bhowanipur, Cossipore, Agarpara, ancestral house remain distinct |
+| Vrindavan | 4 | NKB, Ram Dass, Anandamayi, Ramakrishna | NKB/Ram Dass reconciled but 095 pending; Ramakrishna CCI094 strengthened | exact NKB/Ram Dass ashram/mahasamadhi; Akrura Ghat separate |
+| Puri | 3 | Sri Yukteswar, Hariharananda, Anandamayi | mixed | exact Karar Ashram Sri Yukteswar/Hariharananda; Anandamayi not promoted to that exact site |
+| Ranchi | 2 | Yogananda, Anandamayi | targeted strong | exact/complex overlap at Ranchi Vidyalaya/YSS campus |
+| Tiruvannamalai / Arunachala | 2 | Ramana, Yogananda | Ramana CCI094 reconciled; Yogananda internal | exact Sri Ramanasramam; `LOCKED_BY_MARK` |
+| Serampore | 2 hard minimum | Sri Yukteswar, Yogananda | mixed | shared lineage site highly plausible; keep exact promotion provisional until Yogananda closure |
+| Kainchi / Kainchi Dham | 2 | NKB, Ram Dass | reconciled current layer, 095 pending | exact Kainchi Dham |
+| Almora | 2 | Anandamayi, Vivekananda | internal | city overlap only; wider Kumaon is regional cluster |
+| Nainital | 2 | NKB, Ram Dass | reconciled current layer, 095 pending | Hanuman Garh exact where both records converge |
+
+## Consolidated region overlap layer
+
+| region/belt | MIN_CONFIRMED signal | persons/anchors | warning |
+|---|---|---|---|
+| West Bengal Hooghly/Kolkata lineage belt | 4+ persons | Ramakrishna, Vivekananda, Sri Yukteswar, Yogananda; Lahiri adds Nadia context | not one city and not one walkable cluster; preserve subsite identities |
+| Kumaon / Uttarakhand | multi-person regional density plus unique anchor | NKB/Ram Dass Kainchi-Nainital; Anandamayi/Vivekananda Almora; Kukuchina/Dunagiri Babaji anchor | do not merge separate microclusters or treat low-overlap Babaji anchor as low-value |
+| Braj / Vrindavan-Govardhan context | at least 4 persons at Vrindavan p
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=527 path=runs/active/INDIAWIT-MASTER-TRAVEL-READINESS-001/MASTER_HEATMAP_INPUT.md blob_sha=a9b7e9bc1b2e0326cdd89a091b24154ef73d8f52 original_offset=4096 original_length=2966 payload_bytes=2966 chunk_index=1 chunk_count=2 classification=text
+lus Ramakrishna granular additions | NKB, Ram Dass, Anandamayi, Ramakrishna | CCI094 adds/clarifies Ramakrishna granularity; exact sites remain separate |
+
+## Strict exact same-site / same-complex layer
+
+| exact site/complex | place | persons | status |
+|---|---|---|---|
+| Lahiri Mahasaya residence, D 31/58 Madanpura/Bangali Tola | Varanasi | Lahiri Mahasaya; Sri Yukteswar | HIGH, reconciled |
+| Kainchi Dham | Kainchi | NKB; Ram Dass | HIGH, current reconciled layer; final multidetector count still awaits 095 |
+| Neem Karoli Baba Vrindavan Ashram / Mahasamadhi complex | Vrindavan | NKB; Ram Dass | HIGH, current reconciled layer; 095 pending |
+| Karar Ashram, Swargadwar | Puri | Sri Yukteswar; Hariharananda | HIGH site identity; Hariharananda broader closure still limited/provisional |
+| Sri Ramanasramam | Tiruvannamalai | Ramana Maharshi; Yogananda | HIGH site identity; Ramana now CCI094 reconciled |
+| Ranchi Vidyalaya / YSS campus | Ranchi | Yogananda; Anandamayi Ma | HIGH targeted exact overlap |
+| Dakshineswar Kali Temple complex | Kolkata metro | Ramakrishna; Vivekananda | HIGH site identity; Ramakrishna strengthened by CCI094 |
+| Hanuman Garh / Hanuman Garhi | Nainital | NKB; Ram Dass | MEDIUM-HIGH; 095 pending for final multidetector closure |
+| 4 Church Lane | Prayagraj | NKB; Ram Dass | MEDIUM-HIGH; 095 pending for final multidetector closure |
+| 1894 Kumbh encounter ground/zone | Prayagraj | Babaji; Sri Yukteswar | EVENT_ZONE, not fixed-site identity; Babaji epistemic caveat applies |
+
+## Explicit non-merges
+
+- Varanasi city records for Ramakrishna/Anandamayi/Babaji must not be merged into Lahiri’s house.
+- Prayagraj Kumbh, 4 Church Lane and station material are distinct.
+- Vrindavan NKB ashram and Ramakrishna Akrura Ghat are distinct.
+- Kolkata metro is an aggregation convenience only; Dakshineswar, Cossipore, Bhowanipur, Agarpara and Vivekananda ancestral sites remain distinct.
+- Serampore station Yogananda–Anandamayi encounter is not Sri Yukteswar’s ashram.
+- Anandamayi’s Puri organization layer is not evidence of her presence at Karar Ashram.
+- Babaji claimant traditions are not collapsed into one physical-historical person/site layer.
+
+## Person coverage state to carry into heatmap
+
+- `RECONCILED_STRONG`: Babaji, Lahiri Mahasaya, Sri Yukteswar.
+- `RECONCILED_CCI094_BUT_UNSATURATED`: Ramana Maharshi, Ramakrishna.
+- `RECONCILED_CURRENT_BUT_095_PENDING`: Neem Karoli Baba, Ram Dass.
+- `PROVISIONAL_INTERNAL_OR_TARGETED`: Yogananda, Hariharananda, Vivekananda, Anandamayi Ma.
+
+## Required downstream fields
+
+Every heatmap aggregation must preserve: `MIN_CONFIRMED unique_person_count`, `location_count`, `exact_site_count`, evidence maturity, conflict flags, provisional count, blocked count, locked-anchor flag, and `travel_significance: ONBESLIST`.
+
+Do not calculate a destination score from counts. Overlap density, single-person mission-critical anchors and coverage confidence are separate dimensions.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=528 path=runs/active/INDIAWIT-MASTER-TRAVEL-READINESS-001/MASTER_TRAVEL_READINESS.md blob_sha=da90dce0176207ee97b5eff46d2fd88c1f525edc original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# MASTER TRAVEL READINESS — INDIA WIT
+
+status: PROVISIONAL_MASTER_SNAPSHOT
+snapshot_date: 2026-08-19
+scope: cross-branch integration only; no new person-location research; no A/B/C on behalf of Mark
+
+## Executive state
+
+The project is already strong enough to begin technical travel-preparation around confirmed clusters and hard anchors, but it is not yet fully ready for a final A-Z route. CCI_TASK 094 is durably complete for Ramana Maharshi and Ramakrishna. CCI_TASK 095 has no durable result at this snapshot and is therefore excluded. INDIA PAARS and INDIA ROZE are still READY, so their decision-rubric and route-engine deliverables are not yet available.
+
+## Person-layer travel readiness
+
+| person | best durable layer at snapshot | travel-planning readiness | academic/research remainder |
+|---|---|---|---|
+| Mahavatar Babaji | reconciled Core-Kriya + IndiaROOD delta | JA, with epistemic caveat | source/tradition presence must not be upgraded to historical bodily certainty; claimant traditions remain separated |
+| Lahiri Mahasaya | reconciled Core-Kriya + IndiaROOD delta | JA | open chronology/location conflicts such as Ranikhet-year/Bishnupur remain flags, not travel blockers unless they affect a chosen site |
+| Sri Yukteswar | reconciled Core-Kriya + IndiaROOD delta | JA | broad biographical completeness not perfect, but key Serampore/Puri/Varanasi links are mature |
+| Neem Karoli Baba | current reconciled CCI-vs-external layer | DEELS | current result explicitly unsaturated; CCI_TASK 095 third-detector reconciliation not durably complete |
+| Ram Dass | current reconciled CCI-vs-external layer | DEELS | same as NKB; 095 remains a travel-relevant closure gate |
+| Ramana Maharshi | CCI_TASK 094 multidetector reconciliation complete | JA for cluster/heatmap use, DEELS for exhaustive scholarship | SATURATED: NEE; Gurumurtam-year conflict and several micro-sites remain open |
+| Ramakrishna | CCI_TASK 094 multidetector reconciliation complete | JA for cluster/heatmap use, DEELS for exhaustive scholarship | SATURATED: NEE; many Kolkata micro-identities remain open, but one key date conflict was resolved |
+| Paramahansa Yogananda | durable internal/nationwide + targeted layers | DEELS | no completed current all-detector reconciliation comparable to Core-Kriya |
+| Hariharananda | durable internal layer | DEELS | governance permits only limited targeted verification of major known locations, not exhaustive sweep |
+| Vivekananda | durable internal layer | DEELS | same governance limit as Hariharananda; broad bundled travel makes current city counts conservative |
+| Anandamayi Ma | internal pilot + targeted Yogananda overlap | DEELS | pilot not saturated; organization-listed ashrams must not be equated automatically with personal presence |
+
+Interpretation: `JA` means enough for travel-cluster processing without reopening the person sweep. `DEELS` means usable as provisional travel input with coverage warnings. It does not mean the person should be excluded from travel planning.
+
+## Cluster / region readiness snapshot
+
+All counts below are conservative `MIN_CONFIRMED` values from the completed ALLPERSON overlap integration. City overlap, region overlap and exact-site overlap must remain distinct.
+
+| cluster / region | MIN_CONFIRMED persons | evidence maturity | exact-site density | travel-readiness |
+|---|---:|---|---|---|
+| Prayagraj / Allahabad | 5 | mixed reconciled + internal | MEDIUM: 4 Church Lane exact NKB/Ram Dass; 1894 Kumbh is event-zone, not fixed building | HIGH for heatmap; route choice still Mark-dependent |
+| Varanasi / Kashi | 5 incl. Babaji tradition claim; 4 hard-historical | HIGH for Core-Kriya, mixed overall | HIGH: Lahiri residence shared with Sri Yukteswar | HIGH |
+| Kolkata / Hooghly lineage belt | 4 city/metro; 4+ regional belt | mixed, strengthened by CCI 094 for Ramakrishna | HIGH local site density but geographically spread | HIGH region signal; subsite separation mandatory |
+| Vrindavan | 4 | mixed reconciled + internal | HIGH: NKB/Ram Dass exact ashram/mahasamadhi complex | HIGH |
+| Tiruvannamalai / A
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=529 path=runs/active/INDIAWIT-MASTER-TRAVEL-READINESS-001/MASTER_TRAVEL_READINESS.md blob_sha=da90dce0176207ee97b5eff46d2fd88c1f525edc original_offset=4096 original_length=3881 payload_bytes=3881 chunk_index=1 chunk_count=2 classification=text
+runachala | 2 | CCI 094 now strengthens Ramana; Yogananda remains internal | HIGH: Sri Ramanasramam shared | HIGH and `LOCKED_BY_MARK`; do not re-rank |
+| Puri | 3 | Sri Yukteswar strong; Hariharananda internal; Anandamayi provisional | HIGH at Karar Ashram for Sri Yukteswar/Hariharananda | MEDIUM-HIGH pending non-exhaustive closure |
+| Ranchi | 2 | targeted exact overlap strong | HIGH: Yogananda/Anandamayi same campus | HIGH exact-site quality |
+| Kainchi / Nainital microcluster | 2+ in subclusters | NKB/Ram Dass reconciled but 095 pending | HIGH at Kainchi Dham and Hanuman Garh | HIGH but still provisional for final counts |
+| Serampore | 2 hard minimum | Sri Yukteswar strong; Yogananda not fully reconciled | exact shared lineage site highly plausible but not promoted to strict final table | MEDIUM-HIGH |
+| Almora / wider Kumaon | 2 city-level plus wider regional multi-person density | mixed | multiple strong sites, not one same-site overlap | HIGH regional signal |
+| Kukuchina / Dunagiri | single-person/cross-lineage anchor rather than overlap leader | governed anchor | principal cave/lineage reason retained | HIGH by existing project governance; not re-valued |
+
+## What changed because CCI_TASK 094 is complete
+
+Ramana Maharshi and Ramakrishna are no longer merely pending multidetector inputs. Both now have `RECONCILIATION_GATE: JA` and `EXTERNAL_MODEL_DIVERSITY_GATE: JA`, while remaining honestly unsaturated. This materially reduces uncertainty for Tiruvannamalai/Arunachala and for Ramakrishna-linked Kolkata/Vrindavan/Varanasi records. It does not authorize new A/B/C decisions.
+
+## Critical path from NOW to complete A-Z trip
+
+1. Finish current missing parallel prep outputs: INDIA PAARS decision rubric and INDIA ROZE route-engine contract.
+2. Complete CCI_TASK 095 for Neem Karoli Baba + Ram Dass if a durable result is still absent; then ingest the updated cross-person overlap counts.
+3. Close only travel-material person gates that can still change destination/cluster decisions: Yogananda, and governance-limited major-location closure for Hariharananda/Vivekananda; Anandamayi normalization only where her provisional organization-layer could change a cluster.
+4. Build the national heatmap using reconciled/provisional records with explicit `MIN_CONFIRMED`, exactness, conflicts and coverage warnings.
+5. Apply regional-deep-sweep trigger rules. Use `DEFER` where a person/Mark gate remains open; use `YES` only where exactness/conflict/dedup work is needed for actual travel logistics.
+6. Present Mark with a small batched decision queue. Preserve Arunachala/Tiruvannamalai as `LOCKED_BY_MARK` and Kukuchina/Dunagiri as the existing principal reason; do not re-score them.
+7. After Mark decisions: instantiate the route engine, nights ranges, transfer graph and transport feasibility.
+8. Use BLAUW deadline guardrails: train ARP recheck 2026-10-01, first normal 60-day windows from 2026-10-19, final rolling opening through 2026-11-22, winter/Delhi-fog checks close to travel.
+9. After route stabilization: select transport details and stays, then build day plans with buffers/fallbacks.
+10. Final A-Z freeze only after route, transport, stay, deadlines and winter-risk checks are consistent.
+
+## Current blockers to a final route
+
+- INDIA PAARS outputs absent: no finalized compact Mark decision interface yet.
+- INDIA ROZE outputs absent: no finalized route input contract/optimization rules yet.
+- CCI_TASK 095 result absent: NKB/Ram Dass third-detector closure not yet durable.
+- Yogananda and limited Hariharananda/Vivekananda closure still lack a final current travel-ready release.
+- Any Himalayan segment remains weather/road-status dependent until concrete route and short-range checks exist.
+
+These blockers do not prevent heatmap preparation, metadata normalization, deadline management, or building provisional cluster envelopes.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=530 path=runs/active/INDIAWIT-MASTER-TRAVEL-READINESS-001/NEXT_EXECUTION_MAP.md blob_sha=b63c4a113c824f4b83e63bd8a1640dbb8b519f0f original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# NEXT EXECUTION MAP — INDIA WIT
+
+status: CURRENT_EXECUTION_BRIDGE
+snapshot_date: 2026-08-19
+scope: exact downstream work sequencing; no new person-location research; no A/B/C on behalf of Mark
+
+## Work that can proceed immediately, before CCI_TASK 095
+
+### A. Complete non-research parallel prep
+1. INDIA PAARS completes its four decision-support outputs.
+2. INDIA ROZE completes its five route-engine outputs.
+3. These two streams can run fully in parallel with CCI/person closure because neither requires new person-location research.
+
+### B. Prepare national heatmap mechanics
+1. Use ORANJE `HEATMAP_SCHEMA.md` as the ingest contract.
+2. Seed the aggregate layer from `MASTER_HEATMAP_INPUT.md` using `MIN_CONFIRMED` counts and explicit evidence maturity.
+3. Carry exact-site/city/region overlap as separate fields.
+4. Preserve conflicts and provisional records; keep `travel_significance: ONBESLIST`.
+5. Do not freeze final NKB/Ram Dass counts until 095 is durable.
+
+### C. Apply CCI_TASK 094 immediately
+Ramana Maharshi and Ramakrishna can now move from pending-multidetector status to reconciled-but-unsaturated travel input. Update their heatmap evidence state and any affected Kolkata/Vrindavan/Varanasi/Tiruvannamalai records without launching new person research.
+
+### D. Continue route-independent operations
+Use INDIA BLAUW as standing guardrail:
+- visa application window starts 2026-08-20 for the 1y/5y e-Tourist Visa regime described in the verified source set;
+- recheck visa/entry and railway rules 2026-10-01;
+- first normal 60-day train windows for 2026-12-18 open 2026-10-19 under the current rule;
+- rolling train-window openings continue through 2026-11-22 for travel through 2027-01-21;
+- winter/fog and local road checks remain later, route-specific operations.
+
+## Work directly unlocked when CCI_TASK 095 becomes durable
+
+1. Replace current `RECONCILED_CURRENT_BUT_095_PENDING` state for NKB and Ram Dass with the 095 result state.
+2. Recompute only affected `MIN_CONFIRMED` city/region/exact-site rows, especially Kainchi/Nainital, Vrindavan and Prayagraj.
+3. Re-run cluster-trigger classification for regions whose exactness/conflict/dedup status changed.
+4. Decide whether any remaining NKB/Ram Dass research gap is travel-material. If 095 leaves only academic gaps, stop person research and move on.
+
+Do not ingest 095 assumptions before its durable result exists.
+
+## Person-layer closure after 095
+
+### Yogananda
+Perform a bounded reconciliation/QA closure sufficient to distinguish travel-material confirmed/provisional links. Do not default to another open-ended sweep. Priority is whether current uncertainty can change the selected clusters or exact-site interpretation.
+
+### Hariharananda and Vivekananda
+Follow governance: no exhaustive nationwide deep sweep. Only verify/reconcile the largest already-known locations if the heatmap shows that uncertainty can alter a real destination/cluster decision.
+
+### Anandamayi Ma
+Normalize organization-listed versus personally evidenced presence only where it can alter a real cluster. Retain targeted Ranchi/Bhowanipur evidence as stronger specific input.
+
+## When regional deep sweeps are actually necessary
+
+Use ORANJE trigger logic after the relevant person records are sufficiently reconciled.
+
+Start a regional deep sweep only when at least one travel-material condition exists:
+- multiple persons plus at least one exact/complex site require regional verification;
+- multiple known sites for one person need dedup/access validation;
+- a concentrated location/identity conflict can alter visit logistics;
+- exactness is too weak (`CITY_ONLY`/`REGION_ONLY`) for route/site-day planning;
+- cross-person same-complex identity remains unresolved;
+- a locked/known anchor has surrounding known records that require logistics-only cluster verification.
+
+Use `DEFER` when a person reconciliation or Mark decision is still open. Do not start an exhaustive regional sweep simply because a region is spiritually dense.
+
+## When to skip regional sweep and go directly to route
+
+Proceed directly from heatmap/Mark decis
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=531 path=runs/active/INDIAWIT-MASTER-TRAVEL-READINESS-001/NEXT_EXECUTION_MAP.md blob_sha=b63c4a113c824f4b83e63bd8a1640dbb8b519f0f original_offset=4096 original_length=2788 payload_bytes=2788 chunk_index=1 chunk_count=2 classification=text
+ion to route input when:
+- the chosen cluster’s important physical sites are already sufficiently exact;
+- no material identity/dedup conflict remains;
+- access can be verified later through ordinary travel logistics rather than historical person research;
+- remaining gaps are academic microgaps only;
+- a new sweep would not change destination, intensity, nights or transport.
+
+This stop rule is critical: research completeness is not the same as travel readiness.
+
+## Mark decision gate
+
+After PAARS is complete and heatmap counts are stable enough for travel use:
+1. present protected anchors as fixed context;
+2. present still-undecided major clusters in one national batch;
+3. after Mark selects significance, present intensity per kept cluster;
+4. then present comfort/route-efficiency envelope;
+5. ask later only for true exception decisions.
+
+No route or nights are frozen before this gate.
+
+## Route-build sequence after Mark decisions
+
+1. Instantiate ROZE route input contract for selected clusters only.
+2. Generate route/nights ranges using optimization rules; preserve fixed anchors/dates and avoid backtracking.
+3. Test transport feasibility and booking windows in parallel.
+4. Add winter/fog buffers and remote-access checks where applicable.
+5. Resolve any high-impact infeasibility back to Mark; do not silently drop or downgrade a chosen cluster.
+6. Once route is stable, research/select stays only inside the chosen route.
+7. Build day plans per stay cluster with times/ranges, site priorities, booking/deadline fields, fallbacks and last-verified data.
+8. Run final consistency audit across dates, nights, transfers, booked/booking-critical segments, visa/admin, weather buffers and return chain.
+
+## Critical execution dependency graph
+
+`CCI094 COMPLETE`
+→ `095 when executed` + `PAARS` + `ROZE` can run in parallel
+→ `travel-material person closure (Yogananda / limited Hariharananda-Vivekananda / Anandamayi normalization)`
+→ `national heatmap final-enough snapshot`
+→ `regional sweep only for YES triggers`
+→ `batched Mark decisions`
+→ `route + nights model`
+→ `transport feasibility / booking sequence`
+→ `stays`
+→ `day plans`
+→ `final A-Z audit`
+
+## Current blockers versus non-blockers
+
+Blocking final A-Z route now:
+- PAARS incomplete;
+- ROZE incomplete;
+- 095 not yet durable;
+- remaining travel-material person closure not yet explicitly released;
+- Mark national cluster/intensity decisions not yet taken.
+
+Not blocking current preparation:
+- academic saturation gaps in already travel-usable person layers;
+- unresolved micro-sites that do not affect a selected cluster;
+- future weather/road conditions that can only be checked near travel time;
+- exact hotel choice, which must wait for the selected route and is outside this task.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=532 path=runs/active/INDIAWIT-MASTER-TRAVEL-READINESS-001/STATUS.md blob_sha=75e72d9c691f03bdcb3bab7c37ab7889489f0ef8 original_offset=0 original_length=2383 payload_bytes=2383 chunk_index=0 chunk_count=1 classification=text
+# STATUS — INDIAWIT-MASTER-TRAVEL-READINESS-001
+
+state: COMPLETE
+branch: agent/indiawit-master-travel-readiness
+owner: INDIA WIT
+scope: cross-branch integration only; no new person-location research
+completed_at: 2026-08-19
+
+outputs:
+- MASTER_TRAVEL_READINESS.md — commit `e9fbe6a9db096ac66a45af4687528e98203cb68e`
+- MASTER_HEATMAP_INPUT.md — commit `6aa3f9ecc60d05761dfc94ff42b5f6dce868954c`
+- HIGH_IMPACT_GAPS.md — commit `afc0e6f48cdff60db3857a73cf56be3480f766af`
+- MARK_DECISION_QUEUE_DRAFT.md — commit `48a4944b6183fb4651ad0e79fb568fd5796db06a`
+- NEXT_EXECUTION_MAP.md — commit `f2bf2b5a47681680ae6a3be1959acd8760bceb31`
+
+source_snapshot:
+- INDIA ORANJE: COMPLETE
+- INDIA BLAUW: COMPLETE
+- INDIA TURQUOISE: COMPLETE
+- INDIA GEEL Ramana/Ramakrishna: PRE-COMPARE freezes complete; blind contents not used by WIT
+- CCI_TASK 094: durable result COMPLETE and integrated
+- CCI_TASK 095: NOT integrated because no durable result file exists at execution snapshot; only TASK.md/STATUS.md present
+- INDIA PAARS: READY, outputs absent at execution snapshot
+- INDIA ROZE: READY, outputs absent at execution snapshot
+
+constraints_respected:
+- no new person-location web research
+- no new person sweeps
+- no A/B/C choices made for Mark
+- no hotel choice
+- no route/nights freeze
+- no PDF
+- no merge/PR
+- no permanent location IDs
+- Arunachala/Tiruvannamalai preserved as LOCKED_BY_MARK A-anchor
+- Kukuchina/Dunagiri preserved as existing principal travel reason
+- provisional counts explicitly retained as MIN_CONFIRMED
+
+blockers_downstream:
+- INDIA PAARS and INDIA ROZE still need to complete their assigned prep outputs.
+- CCI_TASK 095 needs a durable result before NKB/Ram Dass multidetector closure is treated as final.
+- Yogananda and governance-limited Hariharananda/Vivekananda travel-material closure remain incomplete; Anandamayi normalization is still provisional where organization-listed presence could affect a cluster.
+- final route requires Mark's batched cluster/intensity decisions and later segment-specific transport/winter checks.
+
+next_allowed_step:
+- Complete PAARS, ROZE and CCI_TASK 095 in parallel where possible.
+- Update/recompute only affected heatmap layers after new durable results.
+- Then close remaining travel-material person gates, apply regional sweep triggers, and present Mark with the batched decision queue before any route/nights freeze.
+
+<<< END CHUNK >>>
+

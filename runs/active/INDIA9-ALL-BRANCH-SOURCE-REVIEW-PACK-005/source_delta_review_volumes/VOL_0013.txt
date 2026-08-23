@@ -1,0 +1,460 @@
+>>> CHUNK stream_row=179 path=runs/active/INDIABLAUW-AOAY-YOGANANDA-LOCATION-CLOSURE-001/AOAY_YOGANANDA_R4_R5_CLOSURE.md blob_sha=471fab04e79313d62e13aba4d264ab9b0849ff38 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# AOAY / YOGANANDA — R4/R5 LOCATION CLOSURE
+
+Checked: 2026-08-20
+Branch: `agent/indiablauw-trip-ops-prep`
+
+## Resolution scale used in this closure
+
+- **R1** — extant physical entity identified at building/monument level.
+- **R2** — historic entity has a strong named successor/continuity mapping.
+- **R3** — historic zone/complex is fixed, but exact room/parcel is not.
+- **R4** — city/village + named building/event claim exists but current physical identity remains uncertain.
+- **R5** — scene is real but only broad landscape/private-house/transit micro-site can be retained.
+
+No existing repository IDs and no A/B/C decisions were changed.
+
+## P0 special closures
+
+### 1. Haridwar / chapter 4 — split instead of one city record
+AOAY fixes a sequence: Burdwan station -> Moghul Serai platform -> Bareilly station halt -> dawn arrival at **Hardwar station** -> attempted onward train to Rishikesh -> detention in a **station bungalow**. Rishikesh itself was not reached. The closure therefore keeps Hardwar station and detention bungalow as separate physical entities, and keeps Rishikesh as a negative/not-visited claim. Source: 1946 AOAY ch4, current web text checked 2026-08-20: https://www.ananda.org/autobiography/ .
+
+**Result:** Haridwar Junction = R2 successor; station bungalow = R5 unresolved; Rishikesh = NEE/not visited.
+
+### 2. Vrindavan / chapter 11 — temple now named
+AOAY explicitly says Yogananda and Jitendra visited **Madanamohana Temple** and other Krishna shrines. It also preserves a separate micro-site: the secluded place near the station where Yogananda initiated Pratap. The latter cannot be recovered physically from the text and remains R5 rather than being silently absorbed into the station. Source: AOAY ch11, https://www.ananda.org/autobiography/ checked 2026-08-20.
+
+**Result:** Madan Mohan Temple = R1; Vrindavan station = R2; initiation spot near station = R5.
+
+### 3. Keshabananda / Brindaban — historical ashram name recovered
+AOAY chapter 42 names the place **Katayani Peith Ashram**, describing an imposing brick building with massive black pillars in a garden. This is stronger than the previous generic “Keshabananda hermitage” label. A present-day Katyayani Peeth/Uma Shakti Peeth exists in Vrindavan, but this pass found no archival chain proving that the current temple/building is the same 1936 structure or parcel.
+
+**Result:** historic name closed; present physical continuity remains **R4**, not upgraded by name similarity alone.
+
+### 4. Regent Hotel, Bombay — historic room fixed, modern continuity not fixed
+AOAY chapter 43 explicitly places the Krishna vision in Yogananda's room at the **Regent Hotel in Bombay**, viewed from a long open **third-story window**. One week later, on 19 June 1936, the Sri Yukteswar resurrection scene occurs in “the Bombay hotel,” contextually the same lodging. A current Regent Hotel exists at **8 BEST Road, Colaba, Mumbai 400039**, but present-day name identity does not prove 1936 continuity.
+
+**Result:** 1936 Regent Hotel = historically certain; current 8 BEST Road hotel = candidate only; **R4** until directory/property-chain evidence joins them. Current hotel listing checked 2026-08-20: https://www.booking.com/hotel/in/regent-colaba.html .
+
+### 5. Bhaduri Mahasaya / Upper Circular Road
+YSS states that Bhaduri Mahasaya's house on Upper Circular Road was converted into **Nagendra Math** and is open to devotees. A current pilgrimage listing places it at **2B Rammohan Roy Road, Garpar/Raja Bazar, Kolkata 700009**.
+
+**Result:** R2 successor/continuity; presently visitable as a devotional site, subject to local opening arrangements. Official continuity source checked 2026-08-20: https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar .
+
+### 6. Sri Yukteswar Serampore hermitage
+AOAY itself gives **Rai Ghat Lane**. Current YSS material says a **Smriti Mandir** stands on the old ashram site, with modern mapping commonly using **3A Buro Bibi Lane, Serampore**. The modern address conflict is therefore treated as address evolution, not as evidence that the h
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=180 path=runs/active/INDIABLAUW-AOAY-YOGANANDA-LOCATION-CLOSURE-001/AOAY_YOGANANDA_R4_R5_CLOSURE.md blob_sha=471fab04e79313d62e13aba4d264ab9b0849ff38 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+istorical site is unknown.
+
+**Result:** R2 strong site continuity. Current YSS source checked 2026-08-20: https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar .
+
+### 7. Sri Yukteswar temporary Benares house / Rana Mahal
+AOAY fixes the Rana Mahal section and a stone balcony overlooking the Ganges, but not a house number. The ghat/section is physically locatable; the exact house is not.
+
+**Result:** R3 historic zone; exterior/ghat-zone visitable, building claim unresolved.
+
+### 8. Pranabananda residence, Benares
+The source is unusually physical — a long hall-like room on the second floor — but no street/address is supplied in the allowed inputs and no reliable current successor was found.
+
+**Result:** R5 private-house claim retained, not merged into generic Varanasi.
+
+### 9. Mysore lecture sites
+AOAY personally names: **Town Hall**, **Maharajah's College**, **University Medical School**. Current physical interpretation:
+- Town Hall -> C. V. Rangacharlu Memorial Hall: R1.
+- Maharaja's College -> surviving University of Mysore institution/campus: R1.
+- University Medical School -> Mysore Medical College historic campus, founded 1924: R2 continuity.
+
+The **Yuvaraja's summer palace** remains unresolved because AOAY does not name it and candidate-palace substitution would be guesswork: R5.
+
+### 10. Bangalore lecture sites
+AOAY names **National High School**, **Intermediate College**, and **Chetty Town Hall**. Deepening already established that “Chetty” belongs to Bangalore, not Mysore.
+- National High School: institution identifiable, exact 1935 hall unresolved -> R3.
+- Intermediate College: no safe successor/building resolution in this pass -> R5.
+- Chetty Town Hall -> Sir Puttanna Chetty Town Hall continuity -> R2.
+
+### 11. Kashmir micro-sites
+AOAY chapter 21 requires separate entities, not one “Kashmir” record:
+- double-storey Srinagar inn overlooking hills + nearby well -> R5;
+- Shankaracharya/Swami Shankara temple -> R1;
+- Gulmarg -> R1;
+- Khilanmarg horse route/slopes -> R3 landscape;
+- Shalimar Bagh -> R1;
+- Nishat Bagh -> R1;
+- Dal Lake channels/floating gardens -> R3 landscape.
+Source checked 2026-08-20: https://www.ananda.org/autobiography/ .
+
+### 12. Biur / Giri Bala
+The text gives more than a village: a large two-storey brick-and-plaster house dominating surrounding adobe huts. No parcel continuity was found.
+
+**Result:** R4; retain the described building claim even if later fieldwork concludes it has disappeared.
+
+## Explicit unresolved/non-AOAY-strength claims retained in the audit trail
+
+The mandatory deepening input names several claims that cannot be safely promoted in this closure. They are not silently converted to exact locations: Roma's house/Girish Vidyaratna Lane; Tulsi Bose claim; Kshattriya Conference venue; Bowbazar/Serpentine Lane; early lecture-hall claims; Gokhale Hall Madras; Chittagong/Mejda-memoire claim. These require the non-AOAY source families identified by CCI (Wright correspondence, newspapers, Mejda memoir, archival address sources). They are `UNRESOLVED/SECONDARY_ONLY`, not evidence for changing any existing ID or A/B/C.
+
+The same deepening input explicitly rejects as personal AOAY locations: Jagannath Temple Puri claim, Vishvanath Temple Benares claim, alleged father's Benares house, Meerut, Royal Hotel as Yogananda lodging, Golden Temple/Amritsar, Trivandrum/Kanyakumari and Hyderabad/Ellora/Ajanta/Kanchipuram personal-visit claims. These negative findings remain documented and are not resurrected as location candidates.
+
+## Current-access closures with strongest evidence
+
+- **Dakshineswar Kali Temple:** official temple website says visitors/pilgrims welcome; daily public windows 06:30–12:30 and 15:30–19:30, timing can change. https://www.dakshineswarkalitemple.org/ checked 2026-08-20.
+- **Nagendra Math / Bhaduri house:** YSS explicitly says converted house is open to devotees. https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar checked 2026-08-20.
+- **Serampore Smriti Mandir/Anandaloka:** YSS identifies both as pilgrimage-associated sites; practi
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=181 path=runs/active/INDIABLAUW-AOAY-YOGANANDA-LOCATION-CLOSURE-001/AOAY_YOGANANDA_R4_R5_CLOSURE.md blob_sha=471fab04e79313d62e13aba4d264ab9b0849ff38 original_offset=8192 original_length=1219 payload_bytes=1219 chunk_index=2 chunk_count=3 classification=text
+cal visits should be arranged/confirmed with YSS rather than assuming unrestricted private-house entry.
+- **Ranchi Ashram:** active YSS institutional site, current official contact address Paramahansa Yogananda Path, Ranchi 834001. https://yssofindia.org/ checked 2026-08-20.
+- **Taj Mahal Palace Mumbai:** active hotel; historic Yogananda hotel identity is strong, but interior access is hotel-policy/security dependent.
+- **Current Regent Hotel Mumbai:** active hotel exists, but access status does NOT close historic identity.
+
+## Governance blocker
+
+TASK.md requires `governance/LOCATION_RESOLUTION_BEFORE_ABC_2026-08-19.md`. On 2026-08-20 that path returned GitHub 404 on the mandated branch, and an exact repository search returned no match. The closure therefore states its own R1-R5 operational definitions above and does not pretend the missing governance document was read.
+
+## Accounting
+
+Core personal-location source records written: **58**.
+Entity mappings written: **58**.
+Mapping balance: **58/58 = closed** (each `AYC-SRC-*` maps exactly once to an `AYC-ENT-*`; unresolved/negative records remain explicit mappings rather than drops).
+
+No A/B/C, existing ID, route or destination decision was changed.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=182 path=runs/active/INDIABLAUW-AOAY-YOGANANDA-LOCATION-CLOSURE-001/AOAY_YOGANANDA_SOURCE_RECORDS.jsonl blob_sha=2ee6037a5732c7babfdb1ea287d4d71c94331aba original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=7 classification=text
+{"source_record_id":"AYC-SRC-001","aoay_chapter_scene":"ch1 Gorakhpur childhood home compound/neem tree","yogananda_personally_present":"JA","historical_name":"family compound, Gorakhpur","current_name":"Yogananda birthplace/home claim, Gorakhpur","address_coordinates":"exact parcel not re-proven in this pass","resolution":"R4","access_status":"private/managed; current interior access not guaranteed","source":"AOAY ch1; PLACE_ATLAS AOAY-ATL-005","confidence":"HIGH historical / LOW current parcel"}
+{"source_record_id":"AYC-SRC-002","aoay_chapter_scene":"ch2 Bareilly family bungalow/piazza/sheoli tree","yogananda_personally_present":"JA","historical_name":"family bungalow, Bareilly","current_name":null,"address_coordinates":null,"resolution":"R5","access_status":"unresolved historic private-house site","source":"AOAY ch2; PLACE_ATLAS AOAY-ATL-019","confidence":"HIGH city+scene / LOW parcel"}
+{"source_record_id":"AYC-SRC-003","aoay_chapter_scene":"ch4 escape departure home/attic","yogananda_personally_present":"JA","historical_name":"4 Gurpar Road","current_name":"4 Garpar Road/Garpar Road boyhood-home complex","address_coordinates":"4 Garpar Road, Kolkata; YSS-linked Garpar Road centre in Bhattacharya Lane behind Tulsi Bose house","resolution":"R2","access_status":"historic house access variable; YSS says linked Garpar Road centre has Saturday meditation","source":"AOAY ch4; YSS Dakshineswar pilgrimage page https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar checked 2026-08-20","confidence":"HIGH"}
+{"source_record_id":"AYC-SRC-004","aoay_chapter_scene":"ch4 Burdwan transfer/sweetmeats","yogananda_personally_present":"JA","historical_name":"Burdwan railway station","current_name":"Barddhaman Junction railway station","address_coordinates":"Bardhaman, West Bengal","resolution":"R2","access_status":"active railway station; public passenger access subject to rail/security rules","source":"AOAY ch4 lines 547-558","confidence":"HIGH identity"}
+{"source_record_id":"AYC-SRC-005","aoay_chapter_scene":"ch4 Moghul Serai platform interrogation","yogananda_personally_present":"JA","historical_name":"Moghul Serai railway station","current_name":"Pt. Deen Dayal Upadhyaya Junction","address_coordinates":"Mughalsarai/PDDU Nagar, Uttar Pradesh","resolution":"R2","access_status":"active railway station","source":"AOAY ch4 lines 558-583","confidence":"HIGH identity"}
+{"source_record_id":"AYC-SRC-006","aoay_chapter_scene":"ch4 brief Bareilly station halt","yogananda_personally_present":"JA","historical_name":"Bareilly railway station","current_name":"Bareilly Junction","address_coordinates":"Bareilly, Uttar Pradesh","resolution":"R2","access_status":"active railway station","source":"AOAY ch4 line 586","confidence":"HIGH"}
+{"source_record_id":"AYC-SRC-007","aoay_chapter_scene":"ch4 dawn arrival and dash through station","yogananda_personally_present":"JA","historical_name":"Hardwar railway station","current_name":"Haridwar Junction","address_coordinates":"Haridwar, Uttarakhand","resolution":"R2","access_status":"active railway station","source":"AOAY ch4 lines 587-589","confidence":"HIGH"}
+{"source_record_id":"AYC-SRC-008","aoay_chapter_scene":"ch4 detained after attempting Rishikesh departure","yogananda_personally_present":"JA","historical_name":"station bungalow/police detention near Hardwar station","current_name":null,"address_coordinates":null,"resolution":"R5","access_status":"historic operational building not identified; do not equate automatically with current police post","source":"AOAY ch4 lines 589-606","confidence":"HIGH scene / LOW building"}
+{"source_record_id":"AYC-SRC-009","aoay_chapter_scene":"ch4 Rishikesh intended destination","yogananda_personally_present":"NEE","historical_name":"Rishikesh","current_name":"Rishikesh","address_coordinates":null,"resolution":"R5","access_status":"landscape/city only; Yogananda did not reach it in this scene","source":"AOAY ch4 lines 589-610","confidence":"HIGH negative"}
+{"source_record_id":"AYC-SRC-010","aoay_chapter_scene":"ch3 visit to Swami Pranabananda","yogananda_personal
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=183 path=runs/active/INDIABLAUW-AOAY-YOGANANDA-LOCATION-CLOSURE-001/AOAY_YOGANANDA_SOURCE_RECORDS.jsonl blob_sha=2ee6037a5732c7babfdb1ea287d4d71c94331aba original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=7 classification=text
+ly_present":"JA","historical_name":"Pranabananda residence, Benares; long hall-like second-floor room","current_name":null,"address_coordinates":null,"resolution":"R5","access_status":"private-house identity unresolved","source":"AOAY ch3; CCI_086 VERIFIED_TRUE","confidence":"HIGH scene / LOW parcel"}
+{"source_record_id":"AYC-SRC-011","aoay_chapter_scene":"ch4 pundit and son home/courtyard, Benares","yogananda_personally_present":"JA","historical_name":"scriptural authority's home, Benares","current_name":null,"address_coordinates":null,"resolution":"R5","access_status":"private-house identity unresolved","source":"AOAY ch4 lines 619-623","confidence":"HIGH scene / LOW parcel"}
+{"source_record_id":"AYC-SRC-012","aoay_chapter_scene":"ch10 first meeting with Sri Yukteswar and temporary house","yogananda_personally_present":"JA","historical_name":"temporary residence, Rana Mahal section; stone balcony overlooking Ganges","current_name":"Rana Mahal Ghat historic zone","address_coordinates":"Rana Mahal Ghat area, Varanasi; exact house unproven","resolution":"R3","access_status":"exterior/ghat zone visitable; exact house not established","source":"AOAY ch10; https://anandaindia.org/paramhansa-yogananda/autobiography-of-a-yogi/i-meet-my-master-sri-yukteswar/ checked 2026-08-20","confidence":"HIGH zone / LOW house"}
+{"source_record_id":"AYC-SRC-013","aoay_chapter_scene":"ch7 Bhaduri Mahasaya top-floor quarters","yogananda_personally_present":"JA","historical_name":"Bhaduri Mahasaya house, Upper Circular Road","current_name":"Nagendra Math","address_coordinates":"2B Rammohan Roy Road, Garpar/Raja Bazar, Kolkata 700009 (current pilgrimage listing)","resolution":"R2","access_status":"YSS states house converted into Nagendra Math and open to devotees","source":"CCI_086; YSS Dakshineswar page; corroborating current pilgrimage listing https://anandakolkata.org/pilgrimage-2/ checked 2026-08-20","confidence":"HIGH successor"}
+{"source_record_id":"AYC-SRC-014","aoay_chapter_scene":"ch8 Jagadis Chandra Bose encounter/laboratory","yogananda_personally_present":"JA","historical_name":"Acharya Bhavan/Bose residence and laboratory","current_name":"Sir J.C. Bose Trust, Acharya Bhavan","address_coordinates":"93 Acharya Prafulla Chandra Road, Kolkata 700009","resolution":"R1","access_status":"museum visitor access reported Wed/Fri 14:00-16:00; recheck before visit","source":"CCI_086; current Sir JC Bose Trust listing surfaced at https://anandakolkata.org/pilgrimage-2/ checked 2026-08-20","confidence":"HIGH"}
+{"source_record_id":"AYC-SRC-015","aoay_chapter_scene":"ch9 and ch22 repeated pilgrimages","yogananda_personally_present":"JA","historical_name":"Dakshineswar Kali Temple","current_name":"Dakshineswar Kali Temple","address_coordinates":"Dakshineswar, Kolkata, West Bengal 700035","resolution":"R1","access_status":"OPEN; official temple site says visitors welcome, 06:30-12:30 and 15:30-19:30, subject to change","source":"AOAY; https://www.dakshineswarkalitemple.org/ checked 2026-08-20","confidence":"VERY_HIGH"}
+{"source_record_id":"AYC-SRC-016","aoay_chapter_scene":"ch22 family visit/vision at 50 Amherst Street","yogananda_personally_present":"JA","historical_name":"50 Amherst Street","current_name":"50 Amherst Street/50 Raja Rammohan Sarani heritage claim","address_coordinates":"Kolkata; exact modern numbering to verify locally","resolution":"R3","access_status":"YSS identifies site; private/heritage access not stated as general public","source":"YSS Dakshineswar pilgrimage page checked 2026-08-20","confidence":"HIGH identity / MEDIUM access"}
+{"source_record_id":"AYC-SRC-017","aoay_chapter_scene":"ch45 first Anandamayi Ma encounter","yogananda_personally_present":"JA","historical_name":"Bhowanipur street/meeting area","current_name":"Bhowanipore, Kolkata","address_coordinates":null,"resolution":"R5","access_status":"public neighborhood; exact encounter point unresolved","source":"YOGANANDA_EXTERNAL_RECONCILIATION_CCI_086","confidence":"HIGH neighborhood / LOW point"}
+{"source_record_id":"AYC-SRC-018","aoay_chapter_scene":"ch10-24 Sri Yuktesw
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=184 path=runs/active/INDIABLAUW-AOAY-YOGANANDA-LOCATION-CLOSURE-001/AOAY_YOGANANDA_SOURCE_RECORDS.jsonl blob_sha=2ee6037a5732c7babfdb1ea287d4d71c94331aba original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=7 classification=text
+ar hermitage","yogananda_personally_present":"JA","historical_name":"Rai Ghat Lane hermitage, Serampore","current_name":"Sri Sri Swami Sri Yukteswar Giri Smriti Mandir","address_coordinates":"3A Buro Bibi Lane, Serampore (current mapping); historical Rai Ghat Lane continuity","resolution":"R2","access_status":"YSS pilgrimage site; contact YSS for current visit arrangements","source":"WERKPAKKET_D #27; YSS Dakshineswar pilgrimage page checked 2026-08-20","confidence":"VERY_HIGH continuity"}
+{"source_record_id":"AYC-SRC-019","aoay_chapter_scene":"ch20/ch23 visits to uncle Sarada's home","yogananda_personally_present":"JA","historical_name":"home of uncle Sarada Prasad Ghosh, Serampore","current_name":"Anandaloka shrine in family house","address_coordinates":"near Sri Yukteswar Smriti Mandir; exact civic number not independently fixed","resolution":"R2","access_status":"YSS states cousin converted Yogananda's room into shrine; arrange via YSS","source":"WERKPAKKET_D #31; YSS Dakshineswar pilgrimage page checked 2026-08-20","confidence":"HIGH"}
+{"source_record_id":"AYC-SRC-020","aoay_chapter_scene":"Serampore college years transit","yogananda_personally_present":"JA","historical_name":"Serampore railway station","current_name":"Serampore railway station","address_coordinates":"Serampore, West Bengal","resolution":"R1","access_status":"active public rail station","source":"AOAY corpus/CCI","confidence":"HIGH"}
+{"source_record_id":"AYC-SRC-021","aoay_chapter_scene":"ch11 penniless test arrival/departure","yogananda_personally_present":"JA","historical_name":"Brindaban railway station","current_name":"Vrindavan railway station","address_coordinates":"Vrindavan, Uttar Pradesh","resolution":"R2","access_status":"rail/transit site; current service/access should be rechecked","source":"AOAY ch11","confidence":"HIGH"}
+{"source_record_id":"AYC-SRC-022","aoay_chapter_scene":"ch11 Krishna shrine tour","yogananda_personally_present":"JA","historical_name":"Madanamohana Temple","current_name":"Madan Mohan Temple, Vrindavan","address_coordinates":"Vrindavan, Uttar Pradesh; historic hill/ghat-side temple","resolution":"R1","access_status":"active temple; visitor hours vary seasonally","source":"AOAY ch11 lines 1568-1571","confidence":"VERY_HIGH identity"}
+{"source_record_id":"AYC-SRC-023","aoay_chapter_scene":"ch11 Kriya initiation of Pratap near station","yogananda_personally_present":"JA","historical_name":"secluded spot near Brindaban station","current_name":null,"address_coordinates":null,"resolution":"R5","access_status":"micro-site unresolvable from text; retain as distinct scene","source":"AOAY ch11 lines 1571-1579","confidence":"HIGH scene / LOW point"}
+{"source_record_id":"AYC-SRC-024","aoay_chapter_scene":"ch42 overnight visit to Keshabananda","yogananda_personally_present":"JA","historical_name":"Katayani Peith Ashram, Brindaban","current_name":"Katyayani Peeth / Uma Shakti Peeth area; exact continuity of Keshabananda building not proven","address_coordinates":"Vrindavan, Uttar Pradesh; exact historic building parcel unresolved","resolution":"R4","access_status":"successor-name hypothesis only; do not claim current temple equals historic ashram without archival proof","source":"AOAY ch42 lines 5195-5234; CCI_086 #56","confidence":"VERY_HIGH historic name / LOW current continuity"}
+{"source_record_id":"AYC-SRC-025","aoay_chapter_scene":"ch11 stay with Ananta in Agra","yogananda_personally_present":"JA","historical_name":"Ananta's bungalow, Agra","current_name":null,"address_coordinates":null,"resolution":"R5","access_status":"private-house location unresolved","source":"AOAY ch11 lines 1453-1489","confidence":"HIGH scene / LOW parcel"}
+{"source_record_id":"AYC-SRC-026","aoay_chapter_scene":"ch11 and ch42 Taj Mahal visits","yogananda_personally_present":"JA","historical_name":"Taj Mahal","current_name":"Taj Mahal","address_coordinates":"Dharmapuri, Forest Colony, Tajganj, Agra, Uttar Pradesh","resolution":"R1","access_status":"public monument subject to ASI ticket/security/weekly rules","source":"AOAY ch11/ch42; CCI deepening #19"
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=185 path=runs/active/INDIABLAUW-AOAY-YOGANANDA-LOCATION-CLOSURE-001/AOAY_YOGANANDA_SOURCE_RECORDS.jsonl blob_sha=2ee6037a5732c7babfdb1ea287d4d71c94331aba original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=7 classification=text
+,"confidence":"VERY_HIGH"}
+{"source_record_id":"AYC-SRC-027","aoay_chapter_scene":"ch27 founding school","yogananda_personally_present":"JA","historical_name":"Ranchi Yogoda school/ashram","current_name":"Yogoda Satsanga Society of India, Ranchi Ashram","address_coordinates":"Paramahansa Yogananda Path, Ranchi 834001, Jharkhand","resolution":"R1","access_status":"active YSS ashram; visitor/program access subject to YSS rules","source":"AOAY ch27; YSS official contact/address https://yssofindia.org/ checked 2026-08-20","confidence":"VERY_HIGH"}
+{"source_record_id":"AYC-SRC-028","aoay_chapter_scene":"early Yogoda school before Ranchi","yogananda_personally_present":"JA","historical_name":"Dihika school/ashram","current_name":"YSS Dihika retreat/heritage site","address_coordinates":"Dihika, West Bengal; exact current YSS property to confirm with YSS","resolution":"R2","access_status":"YSS retreat; access likely managed/prearranged","source":"YOGANANDA V2 freeze YSS retreat index","confidence":"HIGH continuity"}
+{"source_record_id":"AYC-SRC-029","aoay_chapter_scene":"years with Sri Yukteswar/1935-36 return","yogananda_personally_present":"JA","historical_name":"Karar Ashram, Puri","current_name":"Karar Ashram","address_coordinates":"Puri, Odisha; exact civic address not fixed in this pass","resolution":"R1","access_status":"active spiritual institution; visitor access to verify directly","source":"AOAY ch12/ch40-42; CCI","confidence":"VERY_HIGH identity"}
+{"source_record_id":"AYC-SRC-030","aoay_chapter_scene":"ch29 Tagore meeting","yogananda_personally_present":"JA","historical_name":"Santiniketan, Tagore study/meeting room","current_name":"Visva-Bharati/Santiniketan heritage complex","address_coordinates":"Santiniketan, Bolpur, West Bengal; exact room requires institutional confirmation","resolution":"R3","access_status":"campus/heritage access regulated; exact study room not assumed open","source":"WERKPAKKET_D #23 correction","confidence":"HIGH institution / MEDIUM room"}
+{"source_record_id":"AYC-SRC-031","aoay_chapter_scene":"ch44 arrival","yogananda_personally_present":"JA","historical_name":"Wardha railway station","current_name":"Wardha Junction","address_coordinates":"Wardha, Maharashtra","resolution":"R1","access_status":"active public railway station","source":"WERKPAKKET_D #61","confidence":"VERY_HIGH"}
+{"source_record_id":"AYC-SRC-032","aoay_chapter_scene":"ch44 Gandhi stay","yogananda_personally_present":"JA","historical_name":"Maganvadi guesthouse","current_name":"Magan Sangrahalaya/Maganwadi complex continuity","address_coordinates":"Wardha, Maharashtra; exact guest-room parcel not fixed","resolution":"R3","access_status":"institutional/heritage complex; exact guest room access unknown","source":"WERKPAKKET_D #63-64","confidence":"HIGH complex / MEDIUM room"}
+{"source_record_id":"AYC-SRC-033","aoay_chapter_scene":"ch44 repeated meetings with Gandhi","yogananda_personally_present":"JA","historical_name":"Gandhi's writing room, Maganvadi","current_name":"Maganwadi Gandhi-associated room/complex","address_coordinates":"Wardha, Maharashtra; exact room requires on-site/institutional confirmation","resolution":"R3","access_status":"heritage/institution-managed; room-specific access unknown","source":"WERKPAKKET_D #63-64","confidence":"VERY_HIGH scene / MEDIUM current room"}
+{"source_record_id":"AYC-SRC-034","aoay_chapter_scene":"ch40 arrival aboard Rajputana 22 Aug 1935","yogananda_personally_present":"JA","historical_name":"Bombay harbour","current_name":"Mumbai Harbour","address_coordinates":null,"resolution":"R5","access_status":"landscape/harbour; exact pier not named","source":"WERKPAKKET_D #66","confidence":"VERY_HIGH harbour / LOW pier"}
+{"source_record_id":"AYC-SRC-035","aoay_chapter_scene":"ch40 reporters in suite after return","yogananda_personally_present":"JA","historical_name":"Taj Mahal Hotel, Bombay","current_name":"The Taj Mahal Palace, Mumbai","address_coordinates":"Apollo Bunder, Colaba, Mumbai 400001","resolution":"R1","access_status":"active hotel; public/lobby access subject to hotel security/po
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=186 path=runs/active/INDIABLAUW-AOAY-YOGANANDA-LOCATION-CLOSURE-001/AOAY_YOGANANDA_SOURCE_RECORDS.jsonl blob_sha=2ee6037a5732c7babfdb1ea287d4d71c94331aba original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=7 classification=text
+licy","source":"CCI_086 #67; AOAY ch40","confidence":"VERY_HIGH"}
+{"source_record_id":"AYC-SRC-036","aoay_chapter_scene":"ch43 Krishna vision and Sri Yukteswar resurrection, June 1936","yogananda_personally_present":"JA","historical_name":"Regent Hotel, Bombay; third-story room with long open window","current_name":"Regent Hotel name survives at 8 BEST Road, Colaba, but identity with 1936 hotel NOT established","address_coordinates":"candidate: 8 BEST Road, Colaba, Mumbai 400039","resolution":"R4","access_status":"current hotel exists; historical-continuity proof absent, so no interior pilgrimage claim","source":"AOAY ch43 lines 5317-5327; current listing https://www.booking.com/hotel/in/regent-colaba.html checked 2026-08-20","confidence":"VERY_HIGH historic hotel name / LOW-MEDIUM modern continuity"}
+{"source_record_id":"AYC-SRC-037","aoay_chapter_scene":"ch41 Mysore lecture","yogananda_personally_present":"JA","historical_name":"Town Hall, Mysore","current_name":"C. V. Rangacharlu Memorial Hall (Town Hall)","address_coordinates":"Chamarajendra Wadiyar Circle / Big Clock Tower area, Mysuru","resolution":"R1","access_status":"extant civic heritage building; event/interior access variable","source":"AOAY ch41; current heritage identification checked 2026-08-20","confidence":"HIGH"}
+{"source_record_id":"AYC-SRC-038","aoay_chapter_scene":"ch41 Mysore lecture","yogananda_personally_present":"JA","historical_name":"Maharajah's College","current_name":"Maharaja's College, University of Mysore","address_coordinates":"Mysuru, Karnataka","resolution":"R1","access_status":"active educational campus; interior visitor access institutional","source":"AOAY ch41","confidence":"HIGH"}
+{"source_record_id":"AYC-SRC-039","aoay_chapter_scene":"ch41 Mysore lecture","yogananda_personally_present":"JA","historical_name":"University Medical School","current_name":"Mysore Medical College and Research Institute","address_coordinates":"Mysuru, Karnataka, near railway station","resolution":"R2","access_status":"active medical campus; not a general tourist interior","source":"AOAY ch41; 2026 heritage report identifying 1924 Mysore Medical College building","confidence":"HIGH continuity"}
+{"source_record_id":"AYC-SRC-040","aoay_chapter_scene":"ch41 Bangalore mass meeting","yogananda_personally_present":"JA","historical_name":"National High School","current_name":"National High School, Bengaluru","address_coordinates":"Basavanagudi, Bengaluru; exact 1935 hall within campus unresolved","resolution":"R3","access_status":"active school; visitor access permission required","source":"AOAY ch41","confidence":"HIGH institution / MEDIUM building"}
+{"source_record_id":"AYC-SRC-041","aoay_chapter_scene":"ch41 Bangalore mass meeting","yogananda_personally_present":"JA","historical_name":"Intermediate College","current_name":null,"address_coordinates":"Bengaluru; institutional successor not safely resolved","resolution":"R5","access_status":"unresolved institution/building","source":"AOAY ch41","confidence":"HIGH historical name / LOW identity"}
+{"source_record_id":"AYC-SRC-042","aoay_chapter_scene":"ch41 Bangalore mass meeting","yogananda_personally_present":"JA","historical_name":"Chetty Town Hall","current_name":"Sir Puttanna Chetty Town Hall","address_coordinates":"Bengaluru, Karnataka; exact civic address to recheck locally","resolution":"R2","access_status":"extant civic hall; event/interior access variable","source":"AOAY ch41; WERKPAKKET_D #72/#84 distinction","confidence":"HIGH"}
+{"source_record_id":"AYC-SRC-043","aoay_chapter_scene":"ch41 Chamundi pilgrimage","yogananda_personally_present":"JA","historical_name":"Chamundi Temple","current_name":"Sri Chamundeshwari Temple","address_coordinates":"Chamundi Hill, Mysuru, Karnataka","resolution":"R1","access_status":"active public temple subject to temple rules","source":"AOAY ch41; YOGANANDA V2 freeze","confidence":"VERY_HIGH"}
+{"source_record_id":"AYC-SRC-044","aoay_chapter_scene":"ch41 Mysore excursion","yogananda_personally_present":"JA","historical_name":"Krishnaraja Sagar Dam","current_name":"Krishna R
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=187 path=runs/active/INDIABLAUW-AOAY-YOGANANDA-LOCATION-CLOSURE-001/AOAY_YOGANANDA_SOURCE_RECORDS.jsonl blob_sha=2ee6037a5732c7babfdb1ea287d4d71c94331aba original_offset=20480 original_length=4096 payload_bytes=4096 chunk_index=5 chunk_count=7 classification=text
+aja Sagara Dam","address_coordinates":"Mandya district near Mysuru","resolution":"R1","access_status":"dam/Brindavan Gardens visitor controls vary; recheck security","source":"YOGANANDA V2 freeze","confidence":"HIGH"}
+{"source_record_id":"AYC-SRC-045","aoay_chapter_scene":"ch41 Mysore excursion","yogananda_personally_present":"JA","historical_name":"Brindavan Gardens","current_name":"Brindavan Gardens","address_coordinates":"KRS, Mandya district, Karnataka","resolution":"R1","access_status":"public garden subject to opening/security rules","source":"YOGANANDA V2 freeze/external reconciliation","confidence":"HIGH"}
+{"source_record_id":"AYC-SRC-046","aoay_chapter_scene":"ch41 guest of Yuvaraja","yogananda_personally_present":"JA","historical_name":"Yuvaraja's summer palace","current_name":null,"address_coordinates":"Mysuru region; exact palace identity unresolved","resolution":"R5","access_status":"unresolved; no palace substitution without evidence","source":"YOGANANDA V2 freeze","confidence":"HIGH scene / LOW identity"}
+{"source_record_id":"AYC-SRC-047","aoay_chapter_scene":"ch21 Srinagar lodging","yogananda_personally_present":"JA","historical_name":"double-storied inn overlooking hills, well nearby","current_name":null,"address_coordinates":"Srinagar, Jammu & Kashmir","resolution":"R5","access_status":"historic inn unresolved","source":"AOAY ch21 lines 2853-2855","confidence":"VERY_HIGH scene / LOW building"}
+{"source_record_id":"AYC-SRC-048","aoay_chapter_scene":"ch21 pilgrimage","yogananda_personally_present":"JA","historical_name":"temple of Swami Shankara / Shankara ashram","current_name":"Shankaracharya Temple, Srinagar","address_coordinates":"Shankaracharya Hill, Srinagar","resolution":"R1","access_status":"active protected religious/heritage site; security/access rules apply","source":"AOAY ch21 lines 2854-2858","confidence":"VERY_HIGH"}
+{"source_record_id":"AYC-SRC-049","aoay_chapter_scene":"ch21 excursion","yogananda_personally_present":"JA","historical_name":"Gulmarg","current_name":"Gulmarg","address_coordinates":"Baramulla district, Jammu & Kashmir","resolution":"R1","access_status":"public mountain destination; seasonal/security conditions apply","source":"AOAY ch21 lines 2858-2860","confidence":"VERY_HIGH"}
+{"source_record_id":"AYC-SRC-050","aoay_chapter_scene":"ch21 horse excursion","yogananda_personally_present":"JA","historical_name":"Khilanmarg","current_name":"Khilanmarg","address_coordinates":"above Gulmarg, Jammu & Kashmir","resolution":"R3","access_status":"landscape/alpine access seasonal; exact path not recoverable","source":"AOAY ch21 lines 2858-2862","confidence":"VERY_HIGH landscape / LOW exact trail"}
+{"source_record_id":"AYC-SRC-051","aoay_chapter_scene":"ch21 royal gardens excursion","yogananda_personally_present":"JA","historical_name":"Shalimar","current_name":"Shalimar Bagh","address_coordinates":"Srinagar, Jammu & Kashmir","resolution":"R1","access_status":"public heritage garden subject to local rules","source":"AOAY ch21 lines 2863-2864","confidence":"VERY_HIGH"}
+{"source_record_id":"AYC-SRC-052","aoay_chapter_scene":"ch21 royal gardens excursion","yogananda_personally_present":"JA","historical_name":"Nishat Bagh","current_name":"Nishat Garden/Nishat Bagh","address_coordinates":"Srinagar, Jammu & Kashmir","resolution":"R1","access_status":"public heritage garden subject to local rules","source":"AOAY ch21 lines 2863-2864","confidence":"VERY_HIGH"}
+{"source_record_id":"AYC-SRC-053","aoay_chapter_scene":"ch21 repeated shikara/houseboat trips","yogananda_personally_present":"JA","historical_name":"Dal Lake channels/floating gardens","current_name":"Dal Lake","address_coordinates":"Srinagar, Jammu & Kashmir","resolution":"R3","access_status":"public lake/boat landscape; exact channels not recoverable","source":"AOAY ch21 lines 2867-2868","confidence":"VERY_HIGH landscape"}
+{"source_record_id":"AYC-SRC-054","aoay_chapter_scene":"ch21 Simla stop","yogananda_personally_present":"JA","historical_name":"Simla","current_name":"Shimla","address_coordinates":"Himachal Pradesh","resolution":"R4",
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=188 path=runs/active/INDIABLAUW-AOAY-YOGANANDA-LOCATION-CLOSURE-001/AOAY_YOGANANDA_SOURCE_RECORDS.jsonl blob_sha=2ee6037a5732c7babfdb1ea287d4d71c94331aba original_offset=24576 original_length=1861 payload_bytes=1861 chunk_index=6 chunk_count=7 classification=text
+"access_status":"city-level personal stop; no micro-site in source layer","source":"YOGANANDA V2 freeze","confidence":"VERY_HIGH city / LOW site"}
+{"source_record_id":"AYC-SRC-055","aoay_chapter_scene":"ch46 Purulia host stay","yogananda_personally_present":"JA","historical_name":"Lambadar Dey host site / Purulia circle","current_name":null,"address_coordinates":"Purulia, West Bengal","resolution":"R5","access_status":"private host location unresolved","source":"YOGANANDA V2 freeze","confidence":"HIGH scene / LOW parcel"}
+{"source_record_id":"AYC-SRC-056","aoay_chapter_scene":"ch46 Giri Bala visit","yogananda_personally_present":"JA","historical_name":"Giri Bala's large two-storey brick/plaster house, Biur","current_name":null,"address_coordinates":"Biur, Bankura district, West Bengal; exact house unresolved","resolution":"R4","access_status":"village/site search required; retain even if demolished","source":"CCI_086 #38; WERKPAKKET_D #38","confidence":"VERY_HIGH village+building description / LOW parcel"}
+{"source_record_id":"AYC-SRC-057","aoay_chapter_scene":"ch42 Kumbh Mela","yogananda_personally_present":"JA","historical_name":"Kumbha Mela grounds, Allahabad, Jan 23 1936","current_name":"Prayagraj Kumbh/Mela landscape","address_coordinates":"Prayagraj, Uttar Pradesh; 1936 camp sector not fixed","resolution":"R4","access_status":"event landscape; no permanent exact camp-site claimed","source":"CCI_086 #58","confidence":"VERY_HIGH event / LOW micro-site"}
+{"source_record_id":"AYC-SRC-058","aoay_chapter_scene":"ch22 visit to brother-in-law","yogananda_personally_present":"JA","historical_name":"Satish Chandra Bose residence, Delhi","current_name":null,"address_coordinates":"Delhi","resolution":"R5","access_status":"private-house identity unresolved","source":"YOGANANDA V2 freeze","confidence":"VERY_HIGH city+host / LOW parcel"}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=189 path=runs/active/INDIABLAUW-AOAY-YOGANANDA-LOCATION-CLOSURE-001/STATUS.md blob_sha=5f1f87e0e8d206dcc10017c4d9f17bdec1004874 original_offset=0 original_length=2566 payload_bytes=2566 chunk_index=0 chunk_count=1 classification=text
+task_id: INDIABLAUW-AOAY-YOGANANDA-LOCATION-CLOSURE-001
+state: COMPLETE
+branch: agent/indiablauw-trip-ops-prep
+completed: 2026-08-20
+priority: P0
+outputs:
+  - AOAY_YOGANANDA_SOURCE_RECORDS.jsonl
+  - AOAY_YOGANANDA_ENTITY_CANDIDATES.jsonl
+  - AOAY_YOGANANDA_R4_R5_CLOSURE.md
+  - AOAY_YOGANANDA_ACCESS_MATRIX.md
+accounting:
+  source_records: 58
+  entity_mappings: 58
+  silent_drops: 0
+  balance: CLOSED_58_OF_58
+constraints:
+  existing_ids_changed: false
+  abc_changed: false
+  route_selected: false
+  uncertain_locations_filtered_out: false
+key_closures:
+  - Haridwar ch4 split into station, detention-bungalow, and Rishikesh negative/not-reached claim.
+  - Vrindavan ch11 Madanamohana Temple recovered as named R1 entity; station-adjacent initiation micro-site retained R5.
+  - Keshabananda ch42 historic name recovered as Katayani Peith Ashram; modern continuity remains R4.
+  - Regent Hotel Bombay fixed historically to named third-storey hotel room; current same-name Colaba hotel not conflated without continuity proof.
+  - Bhaduri house mapped R2 to Nagendra Math; YSS says open to devotees.
+  - Serampore Rai Ghat Lane hermitage mapped R2 to Smriti Mandir continuity.
+  - Mysore/Bangalore lecture venues split and resolved individually where evidence permits.
+  - Kashmir expanded to Srinagar inn, Shankaracharya Temple, Gulmarg, Khilanmarg, Shalimar, Nishat and Dal Lake.
+blockers:
+  - Required governance/LOCATION_RESOLUTION_BEFORE_ABC_2026-08-19.md is absent on the mandated branch (GitHub 404; exact repo search no match). Operational R1-R5 definitions are therefore stated explicitly in the closure output rather than fabricated from the missing file.
+  - Several private-house/micro-site claims remain R4/R5 because no reliable parcel/address continuity was found: Gorakhpur compound, Bareilly bungalow, Pranabananda residence, Benares pundit home, Rana Mahal exact house, Bhowanipore encounter point, Ananta Agra bungalow, Srinagar inn, Yuvaraja summer palace, Purulia host, Giri Bala house, Satish Delhi home.
+  - Current Regent Hotel at 8 BEST Road is only a modern same-name candidate; historical continuity to the 1936 Regent Hotel remains unproven.
+  - Non-AOAY claims identified by prior deepening (Roma/Girish Vidyaratna Lane, Tulsi Bose, Kshattriya Conference, Bowbazar/Serpentine Lane, early lecture halls, Gokhale Hall, Chittagong memoir claim) still require their named archival source families before promotion.
+next: safe for later Mark A/B/C only after consumer respects R-level/access uncertainty and does not treat R4/R5 as exact sites.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=190 path=runs/active/INDIABLAUW-AOAY-YOGANANDA-LOCATION-CLOSURE-001/TASK.md blob_sha=db8930555a910ee70e6ed1bbe37509c3f4cfdad4 original_offset=0 original_length=1909 payload_bytes=1909 chunk_index=0 chunk_count=1 classification=text
+# INDIABLAUW AOAY / YOGANANDA LOCATION CLOSURE
+
+## DOEL
+Los alle AOAY/Yogananda locatieclaims op tot maximaal haalbare fysieke identiteit vóór nieuwe Mark A/B/C. AOAY is P0.
+
+## LEES
+- runs/active/AOAY-FULL-LOCATION-ATLAS-001/PLACE_ATLAS.jsonl
+- runs/active/AOAY-FULL-LOCATION-ATLAS-001/RAW_OCCURRENCES.jsonl
+- runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/YOGANANDA_V2_PRE_EXTERNAL_FINAL_FREEZE.md
+- runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/YOGANANDA_EXTERNAL_RECONCILIATION_CCI_086.md
+- runs/active/TOP11-EXTERNAL-AI-BENCHMARK-001/WERKPAKKET_D_DEEPENING_CCI_086.md
+- governance/LOCATION_RESOLUTION_BEFORE_ABC_2026-08-19.md
+
+## UITVOEREN
+1. Maak één lossless lijst van alle India AOAY/Yogananda persoonlijke locatieclaims en micro-sites. Geen relevantiefilter.
+2. Splits samengestelde locaties naar afzonderlijke fysieke entities waar de scène dat rechtvaardigt.
+3. Per record: AOAY hoofdstuk/scène, Yogananda persoonlijk aanwezig JA/NEE, historische naam, huidige naam, exact adres/coordinates indien bewijsbaar, R1-R5, access-status, bron, confidence.
+4. Onderzoek alle R4/R5 gericht verder met actuele webbronnen. Moderne hotels/huizen/ashrams/scholen/zalencentra actief op opvolger/continuïteit zoeken.
+5. Speciaal: Haridwar hfst4, Vrindavan hfst11, Keshabananda/Brindaban, Regent Hotel Bombay, Taj Mahal Hotel, Bhaduri/Pranabananda/private-house claims, Kashmir/Mysore/Bangalore micro-sites.
+6. Geen record verwijderen omdat het niet meer bestaat: label R2 successor / verdwenen / exterior / landscape.
+
+## OUTPUTS
+- AOAY_YOGANANDA_SOURCE_RECORDS.jsonl
+- AOAY_YOGANANDA_ENTITY_CANDIDATES.jsonl
+- AOAY_YOGANANDA_R4_R5_CLOSURE.md
+- AOAY_YOGANANDA_ACCESS_MATRIX.md
+- STATUS.md
+
+## HARD
+Geen A/B/C. Geen bestaande IDs wijzigen. Geen route. Geen silent drops. Commit alles op deze branch. STATUS pas COMPLETE als accounting sluit tussen source records en entity/duplicate/unresolved mapping.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=191 path=runs/active/INDIABLAUW-TRIP-OPS-PREP-001/BOOKING_WINDOWS.md blob_sha=b8c403138d83f8f9e0fe15fb460071bd1e4c18d5 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# BOOKING WINDOWS — INDIA TRIP 2026-12-18 → 2027-01-21
+
+Status: CURRENT-WEB-VERIFIED
+Verified: 2026-08-19
+Scope: route-onafhankelijk; geen specifieke rit, vlucht of bestemming geboekt.
+
+## Indian Railways — reguliere Advance Reservation Period
+
+Indian Railways heeft de Advance Reservation Period (ARP) voor veel gereserveerde treinen per 01-11-2024 teruggebracht van 120 naar 60 dagen, exclusief de reisdag. Een officiële Railway Ministry/PIB-publicatie van 08-08-2025 bevestigt dat dit nog het geldende regime is. Sommige treinen hebben een kortere ARP.
+
+Voor de reisperiode betekent dit, als een reisdag onder de normale 60-dagen-ARP valt:
+- reis 18-12-2026 → venster opent 19-10-2026;
+- reis 21-01-2027 → venster opent 22-11-2026;
+- tussenliggende reisdata openen dus geleidelijk tussen deze data.
+
+Praktische regel: zodra concrete treinsegmenten later zijn gekozen, per trein het exacte opening moment in IRCTC/Indian Railways controleren en niet alleen op de generieke 60-dagenregel vertrouwen.
+
+## Buitenlandse toeristen / Foreign Tourist booking
+
+De Railway Ministry meldde bij de ARP-wijziging dat de aparte 365-dagenlimiet voor buitenlandse toeristen onveranderd bleef. Tegelijk vermelden huidige IRCTC internetvoorwaarden dat `advance booking for foreign tourists 360 days in advance` niet via de gewone internetservice wordt aangeboden. Dit is een belangrijk operationeel onderscheid: het bestaan van een langere buitenlandse-toeristen-ARP betekent niet automatisch dat elke trein/klasse online via de normale IRCTC-flow zo vroeg te boeken is.
+
+Daarom:
+- behandel Foreign Tourist quota/advance facility als potentieel nuttig, maar NIET als gegarandeerde beschikbaarheid;
+- zodra treinsegmenten bekend zijn: check per trein of Foreign Tourist quota bestaat, via welk kanaal en met welke actuele identificatie-/betalingsvoorwaarden;
+- buitenlandse reizigers moeten volgens IRCTC hun paspoort als geautoriseerde ID kunnen tonen.
+
+## Tatkal
+
+Officiële IRCTC-informatie: Tatkal opent één dag vóór vertrek vanaf het vertrekstation van de trein; doorgaans 10:00 IST voor AC-klassen en 11:00 IST voor non-AC. Dit is een nood-/last-minute mechanisme, geen hoofdplanningsstrategie. Regels, quota en tijden vóór gebruik opnieuw controleren.
+
+## Binnenlandse vluchten
+
+Er bestaat geen universele Indiase wettelijke boekingshorizon voor alle binnenlandse airlines; elke maatschappij publiceert eigen schema’s.
+
+Actuele primaire voorbeelden:
+- IndiGo: online tickets kunnen tot circa 12 maanden vooruit worden geboekt, afhankelijk van de gepubliceerde schedule; IndiGo adviseert bij domestic travel in algemene zin vroeg te boeken en noemt 2–8 weken als typische fare-planningrange, maar dat is prijsadvies, geen harde deadline.
+- Air India: de officiële boekingspagina vermeldt dat internationale tickets tot 361 dagen vooruit kunnen worden gekocht; voor domestic noemt de pagina geen vergelijkbare harde maximale horizon maar boekbaarheid tot kort voor vertrek. In de praktijk bepaalt de vrijgegeven schedule de horizon.
+
+Operationele conclusie zonder routekeuze: domestic flights hoeven niet te wachten op het trein-ARP. Zodra een binnenlandse vlucht later logisch blijkt, kan die vaak maanden eerder worden vastgelegd. Rond kerst/nieuwjaar en januari-events kan vroeg vastleggen praktisch belangrijker zijn dan een formele airline-deadline.
+
+## Kritieke boekingsfase voor deze reis
+
+- Vanaf nu (augustus 2026): internationale en veel domestic air schedules voor de reisperiode zijn al of grotendeels gepubliceerd; alleen monitoren/voorbereiden, geen route kiezen.
+- 19-10-2026: eerste normale 60-dagen-treinvensters voor reisdag 18-12-2026 openen.
+- 19-10 t/m 22-11-2026: kritieke golf waarin normale treinvensters voor de hele reisperiode openen.
+- Vanaf circa half november: kerst/nieuwjaar en midden-januari vergroten het risico dat populaire trein-/vluchtcapaciteit minder flexibel wordt. Dit is een praktische risicowaarschuwing, geen garantie dat specifieke verbindingen uitverkopen.
+
+## Bronnen
+
+- Ministry of Railways / PIB — ARP 60 days (17-10-2024): https://w
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=192 path=runs/active/INDIABLAUW-TRIP-OPS-PREP-001/BOOKING_WINDOWS.md blob_sha=b8c403138d83f8f9e0fe15fb460071bd1e4c18d5 original_offset=4096 original_length=875 payload_bytes=875 chunk_index=1 chunk_count=2 classification=text
+ww.pib.gov.in/Pressreleaseshare.aspx?PRID=2065879
+- Ministry of Railways / PIB — bevestiging 60-day ARP (08-08-2025): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2154363
+- IRCTC Terms & Conditions: https://contents.irctc.co.in/en/userRegTermsAndConditions.html
+- IRCTC Tatkal guide: https://contents.irctc.co.in/en/TatkalBooking.html
+- IndiGo official flights/booking information: https://www.goindigo.in/flights
+- Air India official booking page: https://www.airindia.com/en-nl/book-flights/
+
+## Recheck
+
+- 2026-10-01: bevestig dat Railway ARP nog 60 dagen is en controleer Foreign Tourist facility.
+- 2026-10-18: final pre-opening check voor eerste 60-dagenvenster.
+- Bij elk later gekozen treinsegment: exacte trein-specifieke ARP/quota/openingstijd checken.
+- Bij elke later gekozen domestic vlucht: alleen primaire airline-schedule en fare conditions gebruiken.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=193 path=runs/active/INDIABLAUW-TRIP-OPS-PREP-001/CALENDAR_RISK.md blob_sha=d14f6cf816707ded011d4c36e7125c995c52b17a original_offset=0 original_length=3726 payload_bytes=3726 chunk_index=0 chunk_count=1 classification=text
+# CALENDAR RISK — INDIA TRIP 2026-12-18 → 2027-01-21
+
+Status: CURRENT-WEB-VERIFIED
+Verified: 2026-08-19
+Scope: alleen reisimpact; geen route- of bestemmingskeuze.
+
+## Landelijke / centrale kalenderpunten
+
+### 25-12-2026 — Christmas Day
+Christmas Day is in 2026 een Gazetted Holiday voor Central Government offices. Mogelijke impact: overheidskantoren gesloten, lokaal afwijkende openingstijden, extra recreatie-/familiedrukte en hogere vraag rond het lange kerstweekend. Transport blijft niet automatisch stil; capaciteit en dienstregelingen moeten per operator worden gecontroleerd.
+
+### 01-01-2027 — New Year's Day
+De officiële centrale kalender voor 2027 vermeldt New Year's Day als Restricted Holiday. Het is dus niet hetzelfde als een landelijke verplichte sluitingsdag. Praktisch kunnen commerciële openingstijden, recreatieve drukte en transportvraag wel afwijken rond 31 december/1 januari.
+
+### 14-01-2027 — Makar Sankranti / Magha Bihu / Pongal
+De officiële Government of India kalender vermeldt 14 januari 2027 als Restricted Holiday voor Makar Sankranti / Magha Bihu / Pongal. Dit is een belangrijke feestperiode met regionaal zeer verschillende intensiteit. De impact kan bestaan uit lokale feestdrukte, aangepaste openingstijden en meer vraag naar vervoer; de feitelijke impact moet later per gekozen regio worden geverifieerd.
+
+### Republic Day valt buiten de reisperiode
+Republic Day is 26-01-2027 en valt na de geplande terugkeer op 21-01-2027. Wel kan in Delhi en andere grote steden in de dagen vóór 26 januari al veiligheids-/repetitie-impact optreden. Omdat terugkeer via Delhi is vastgelegd, moet circa 15-21 januari een actuele Delhi traffic/security recheck plaatsvinden; geen aanname doen dat beperkingen al op een vaste datum beginnen.
+
+## Kerst–nieuwjaarperiode
+
+18-12-2026 t/m begin januari bevat internationaal en binnenlands vakantieverkeer. De officiële holiday status alleen voorspelt geen bezetting. Operationeel geldt daarom: trein- en vluchtcapaciteit rond 24-26 december, 31 december/1 januari en het eerste januarieweekend als verhoogd vraagrisico behandelen en bij concrete segmenten vroeg beschikbaarheid controleren.
+
+## Midden januari — regionale oogstfeesten
+
+14 januari is landelijk herkenbaar maar regionaal verschillend: Makar Sankranti, Pongal en Magha Bihu hebben uiteenlopende lokale patronen. Dit dossier selecteert geen regio. Zodra de route later bekend is, moeten 13-16 januari specifiek worden gecontroleerd op:
+- regionale feestdagen en school-/kantoorsluitingen;
+- grote lokale evenementen/processies/fairs;
+- transportvraag en eventuele verkeersmaatregelen.
+
+## Grote events: alleen bewezen impact meenemen
+
+Er is geen route gekozen, dus events die slechts één stad/regio raken worden hier niet als routeargument gebruikt. Zodra een route bestaat, moet een event-sweep worden herhaald met officiële state/district/tourism bronnen. Dat voorkomt dat een lokaal evenement ten onrechte nu al een bestemming beïnvloedt.
+
+## Bronnen
+
+- National Portal of India — Holiday Calendar (2026/2027): https://www.india.gov.in/calendar
+- India Post — All India Holidays 2026: https://www.indiapost.gov.in/holidays-list
+- Ministry of Parliamentary Affairs — official calendar/holiday list: https://mpa.gov.in/media/calendar
+
+## Recheck-datums
+
+- 2026-10-01: 2027 central/state holiday calendars opnieuw controleren.
+- Zodra regio’s vaststaan: state/district calendars voor 18-12-2026 t/m 21-01-2027 controleren.
+- 2026-12-01: kerst/nieuwjaar transport- en openingsimpact actualiseren.
+- 2027-01-05: 13-16 januari regionale festivalimpact actualiseren.
+- 2027-01-15: Delhi pre-Republic-Day verkeers-/securitymaatregelen voor terugkeerperiode controleren.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=194 path=runs/active/INDIABLAUW-TRIP-OPS-PREP-001/DEADLINE_BOARD.md blob_sha=9a70ed964c63d3e170036dda412d0ef8c0297094 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# DEADLINE BOARD — INDIA TRIP 2026-12-18 → 2027-01-21
+
+Status: CURRENT-WEB-VERIFIED
+Verified: 2026-08-19
+
+| Datum | Actie | Waarom | Confidence | Source date / recheck |
+|---|---|---|---|---|
+| 2026-08-20 | e-Tourist Visa 1y/5y aanvraagvenster opent voor aankomst 18-12-2026 | Officiële e-Visa FAQ: max 120 dagen vooruit | HIGH | Official portal checked 2026-08-19; recheck 2026-08-20 |
+| 2026-10-01 | Volledige entry/visa/e-Arrival Card-regels opnieuw verifiëren | Regels en entry-point-lijsten kunnen wijzigen | HIGH | Recheck required |
+| 2026-10-01 | Indian Railways ARP + Foreign Tourist facility opnieuw verifiëren | 60-dagen-ARP is huidig maar beleid kan wijzigen | HIGH | Railway Ministry confirmation 2025-08-08; recheck 2026-10-01 |
+| 2026-10-18 | Pre-opening check voor eerste normale treinvenster | Reisdag 18-12 opent onder 60-dagenregel op 19-10 | HIGH | Recheck exact per trein zodra segmenten bestaan |
+| 2026-10-19 | Eerste normale 60-dagen-treinvensters voor 18-12-2026 openen | Tijdkritisch voor populaire gereserveerde treinen | HIGH | Generic rule; train-specific exceptions possible |
+| 2026-10-19 → 2026-11-22 | Dagelijks/periodiek gekozen treinsegmenten boeken zodra hun ARP opent | Hele reisperiode rolt door het 60-dagenvenster | HIGH | Alleen nadat route later is gekozen |
+| 2026-11-22 | Laatste normale 60-dagen-opening binnen huidige reisperiode: reisdag 21-01-2027 | Sluit de ARP-openingsgolf af | HIGH | Generic rule |
+| 2026-12-01 | Final pre-trip admin check: ETA, passport, entry airport, airline docs | Voorkomt last-minute documentblokkade | HIGH | Recheck official sources |
+| 2026-12-01 | Winter/fog seasonal check bij IMD | December-januari is kernperiode voor noordelijke mist en Himalayan disturbances | HIGH | IMD recheck |
+| 2026-12-01 | Kerst/nieuwjaar transportdruk en openingstijden actualiseren | 25-12 Gazetted Holiday; 01-01 Restricted Holiday | MEDIUM-HIGH | Calendar verified 2026-08-19 |
+| 2026-12-14 | Niet later dan dit als formele minimumgrens voor 1y/5y e-Visa-aanvraag bij aankomst 18-12 | Officiële minimum 4 dagen vooraf; operationeel veel te laat | HIGH | Gebruik als hard stop, niet als streefdatum |
+| circa 2026-12-15 | e-Arrival Card venster opent, afhankelijk van exacte aankomsttijd | Officiële regel: binnen 72 uur vóór aankomst | HIGH | Recheck 2026-12-14 |
+| 2027-01-05 | Midden-januari festivalimpact per gekozen regio controleren | Makar Sankranti / Pongal / Magha Bihu 14-01 | HIGH voor datum, impact regionaal variabel | Official 2027 calendar |
+| 7-14 dagen vóór ieder gekozen Himalayan segment | IMD + state/district/road-authority winterstatus | Sneeuw/closures zijn plaats- en weersafhankelijk | HIGH | Fresh sources required |
+| 72 uur vóór ieder gekozen Himalayan segment | Hercontrole weather/road status | Korte-termijnverandering mogelijk | HIGH | Fresh sources required |
+| 2027-01-15 | Delhi return-chain risk check starten | Fog + mogelijke pre-Republic-Day maatregelen vóór terugkeer 21-01 | MEDIUM-HIGH | Fresh IMD/Delhi authority check required |
+| 2027-01-18 → 2027-01-21 | Dagelijkse Delhi fog/flight/rail operation check zodra return-chain vastligt | Beschermt internationale terugkeer tegen kettingvertraging | HIGH | Fresh operational sources required |
+
+## Harde onderscheidingen
+
+- `deadline` = formele grens uit primaire bron.
+- `recheck` = datum waarop veranderlijke informatie opnieuw moet worden geverifieerd.
+- `booking critical` = praktisch moment waarop capaciteit/flexibiliteit kan afnemen; geen formele wettelijke deadline.
+
+## Belangrijkste huidige blockers
+
+1. Geen concrete route/treinsegmenten — bewust buiten scope. Daardoor kan Foreign Tourist quota niet per trein worden bevestigd.
+2. Geen domestic-flightsegmenten — bewust buiten scope. Airline-specifieke beschikbaarheid kan pas later exact worden gecontroleerd.
+3. Winter-road closures kunnen zonder bestemming en zonder korte-termijnforecast niet exact worden voorspeld.
+4. Delhi pre-Republic-Day maatregelen voor 15-21 januari 2027 zijn nog niet gepubliceerd; fresh check in januari vereist.
+
+## Bronset
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=195 path=runs/active/INDIABLAUW-TRIP-OPS-PREP-001/DEADLINE_BOARD.md blob_sha=9a70ed964c63d3e170036dda412d0ef8c0297094 original_offset=4096 original_length=559 payload_bytes=559 chunk_index=1 chunk_count=2 classification=text
+
+- Indian Visa Online / Bureau of Immigration: https://indianvisaonline.gov.in/
+- e-Visa official portal: https://indianvisaonline.gov.in/evisa/tvoa.html
+- Ministry of Railways / PIB: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2154363
+- IRCTC: https://contents.irctc.co.in/en/userRegTermsAndConditions.html
+- National Portal of India calendar: https://www.india.gov.in/calendar
+- Ministry of Parliamentary Affairs calendar: https://mpa.gov.in/media/calendar
+- India Meteorological Department: https://internal.imd.gov.in/pages/press_release_mausam.php
+
+<<< END CHUNK >>>
+

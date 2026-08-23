@@ -1,0 +1,477 @@
+>>> CHUNK stream_row=78 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/BABAJI_PRE_COMPARE_FREEZE.md blob_sha=99b8ddef8f47b7ee0f05691a01322f51bd982c96 original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=10 classification=text
+
+- **Secundair:** S4.
+- **Historisch/huidig + onzekerheid:** het ashram is exact, maar openbare bronnen wijzen de eerste kamer niet eenduidig aan; sommige verkorte versies behandelen beide bezoeken als één kamer.
+
+### B15 — Karar Ashram: kleine Kali-puja-/meditatiekamer
+
+- **Stad/deelstaat:** Puri, Odisha.
+- **Type:** ashram, kleine puja- en meditatieruimte.
+- **Actie + periode:** meteen na B14 bad Rabinarayan in zijn kleine Kali-kamer; Babaji verscheen opnieuw, at een stuk banaan, zegende hem en droeg hem op Kriya te verspreiden.
+- **PERSONALLY_PRESENT:** JA. **PHYSICAL_IDENTITY:** DEELS.
+- **Host/netwerk:** Hariharananda; Karar Ashram-schoolgemeenschap.
+- **Primair/semi-primair + locator:** P3, officiële samenvatting van de verschijning en opdracht; gedetailleerde lineage-overlevering wordt aangehaald in Paramahamsa Prajnanananda, *River of Compassion*, hoofdstuk “Encounter with Shri Babaji Maharaj”.
+- **Secundair:** S4.
+- **Historisch/huidig + onzekerheid:** de gedetailleerde tekst onderscheidt de kleine pujakamer van de eerste kamer; huidige kameridentificatie niet onafhankelijk gecontroleerd.
+
+### B16 — Ranikhet/Dunagiri-route: alleen een stem voor Hariharananda
+
+- **Stad/deelstaat:** Ranikhet/Dunagiri-regio, Uttarakhand.
+- **Type:** bergpad/grotbenadering.
+- **Actie + periode:** rond **1960** reisde Hariharananda naar de grot; hij zag Babaji niet maar hoorde een stem die zei dat Babaji zelf zou verschijnen wanneer hij dat wenste.
+- **PERSONALLY_PRESENT:** ONZEKER. **PHYSICAL_IDENTITY:** ALLEEN_PLAATS.
+- **Host/netwerk:** Hariharananda; naamloze naakte yogi die de route wees.
+- **Primair/semi-primair + locator:** P3, biografie-alinea Ranikhet; gedetailleerd in de genoemde *River of Compassion*-passage.
+- **Secundair:** S1 voor de moderne grotcontext.
+- **Historisch/huidig + onzekerheid:** auditieve ervaring zonder visuele/lichamelijke waarneming; exact rustpunt op het pad ontbreekt.
+
+### B17 — Kathgodam railway station: wachtkamer
+
+- **Stad/deelstaat:** Kathgodam, Uttarakhand.
+- **Type:** station, wachtkamer.
+- **Actie + periode:** tijdens Daya Mata’s pelgrimstocht van **1963–1964** ervoer zij in de wachtkamer een extatische aanwezigheid/visioen van Babaji en innerlijke communicatie.
+- **PERSONALLY_PRESENT:** ONZEKER. **PHYSICAL_IDENTITY:** DEELS.
+- **Host/netwerk:** Sri Daya Mata; YSS-pelgrimsgroep.
+- **Primair/semi-primair + locator:** S2, begin van “A Blessing From Mahavatar Babaji”, station-passages.
+- **Secundair:** geen onafhankelijke getuige voor een lichamelijke verschijning.
+- **Historisch/huidig + onzekerheid:** station exact, historische wachtkamer niet geïdentificeerd; de bron presenteert een spirituele waarneming, niet een controleerbaar lichaam.
+
+### B18 — Onbenoemd government rest house na de grottocht
+
+- **Stad/deelstaat:** route vanaf Dwarahat/Pandukholi, vermoedelijk Uttarakhand; exacte plaats onbekend.
+- **Type:** government rest house, slaapkamer.
+- **Actie + periode:** na het bezoek aan de grot overnachtte Daya Mata in een rest house; de kamer vulde zich volgens haar met goud/blauw licht en Babaji’s aanwezigheid sprak met haar.
+- **PERSONALLY_PRESENT:** ONZEKER. **PHYSICAL_IDENTITY:** ONBEKEND.
+- **Host/netwerk:** Daya Mata; YSS-reisgezelschap.
+- **Primair/semi-primair + locator:** S2, passage na vertrek van de grot en de negen uur durende rit.
+- **Secundair:** geen.
+- **Historisch/huidig + onzekerheid:** naam en plaats van het rest house ontbreken; visionaire ervaring.
+
+### B19 — Neelkant Hill: teakbos aan het pad
+
+- **Stad/deelstaat:** Neelkanth Mahadev/Rishikesh-regio, Uttarakhand.
+- **Type:** bos, bergpad.
+- **Actie + periode:** Sri M beschrijft zijn eerste fysieke ontmoeting met “Sri Guru Babaji”, die hij met Mahavatar Babaji identificeert: Babaji kwam uit het pad achter teakbomen, sprak met hem en zegende hem.
+- **PERSONALLY_PRESENT:** JA. **PHYSICAL_IDENTITY:** DEELS.
+- **Host/netwerk:** Sri M; Maheshwarnath Babaji; Nath/Kriya-lineage.
+- **Primair/semi-primair + locator:** P2, passage “forests surrounding Neelkant Hill”, vanaf de figuur achter de teakbo
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=79 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/BABAJI_PRE_COMPARE_FREEZE.md blob_sha=99b8ddef8f47b7ee0f05691a01322f51bd982c96 original_offset=20480 original_length=4096 payload_bytes=4096 chunk_index=5 chunk_count=10 classification=text
+men.
+- **Secundair:** P5 voor de auteur/lineagecontext.
+- **Historisch/huidig + onzekerheid:** de memoire verbergt het precieze pad; identificatie “Sri Guru Babaji = Mahavatar” is lineage-eigen.
+
+### B20 — Neelkant Hill: bosplek vlak bij Mauni Baba’s grot
+
+- **Stad/deelstaat:** Neelkanth Mahadev/Rishikesh-regio, Uttarakhand.
+- **Type:** geïsoleerde bosplek nabij grot.
+- **Actie + periode:** bij een latere ontmoeting nabij Mauni Baba’s grot verscheen Sri Guru Babaji volgens Sri M in een lichtbol, was aanwezig bij Maheshwarnaths overlijden/overdracht en vertrok weer.
+- **PERSONALLY_PRESENT:** JA. **PHYSICAL_IDENTITY:** DEELS.
+- **Host/netwerk:** Sri M; Maheshwarnath Babaji; Mauni Baba.
+- **Primair/semi-primair + locator:** P2, latere passage “isolated spot in the forest close to Mauni Baba’s cave”.
+- **Secundair:** P5.
+- **Historisch/huidig + onzekerheid:** andere sublocatie dan B19, maar exacte grot en plek worden niet onthuld; bovennatuurlijke aankomst.
+
+### B21 — Panar: natuurlijke grot bij Kakbhusundi Tal/Nanda Devi
+
+- **Stad/deelstaat:** Panar/Kakbhusundi Lake-regio, Chamoli, Uttarakhand.
+- **Type:** natuurlijke grot, hooggebergtelocatie.
+- **Actie + periode:** Maheshwarnath vertelde Sri M dat hij hier eens met Sri Guru Babaji had gestopt en dat de streek een favoriete verblijfplaats van hem was.
+- **PERSONALLY_PRESENT:** JA. **PHYSICAL_IDENTITY:** DEELS.
+- **Host/netwerk:** Maheshwarnath Babaji als bron; Sri M als recorder.
+- **Primair/semi-primair + locator:** P2, Panar-passages rond de natuurlijke grot en “favourite haunt”.
+- **Secundair:** geen onafhankelijke identificatie van de grot.
+- **Historisch/huidig + onzekerheid:** tweedehands binnen de memoire; route/gebied zijn herkenbaar, grot niet exact gemapt.
+
+### B22 — Geheim pad achter Kedarnath Temple
+
+- **Stad/deelstaat:** Kedarnath, Rudraprayag, Uttarakhand.
+- **Type:** bergpad/achterzijde tempel.
+- **Actie + periode:** drie anonieme mannen wezen Sri M achter de tempel een punt aan waar Adi Shankara volgens hun overlevering een geheim pad nam en Sri Guru Babaji ontmoette.
+- **PERSONALLY_PRESENT:** ONZEKER. **PHYSICAL_IDENTITY:** DEELS.
+- **Host/netwerk:** Adi Shankara; drie anonieme gidsen; Sri M.
+- **Primair/semi-primair + locator:** P2, Kedarnath-passage vóór Sri M geblinddoekt naar een ondergrondse grot wordt gebracht.
+- **Secundair:** P4 stelt in algemene zin dat Babaji Shankara initieerde, zonder Kedarnath-locator.
+- **Historisch/huidig + onzekerheid:** oude mondelinge claim, geen datum/bewijs; Babaji was niet aanwezig in de grot waar Sri M daarna Maheshwarnath aantrof.
+
+### B23 — Jaisalmer, onbepaalde locatie uit een vorige-levensvisioen
+
+- **Stad/deelstaat:** Jaisalmer, Rajasthan.
+- **Type:** stad/woestijnrijk.
+- **Actie + periode:** Sri M beschrijft een trance- of vorige-levensherinnering waarin Sri Guru Babaji zijn leraar was toen hij als krijger betrokken was bij de stichting van een woestijnrijk in Jaisalmer.
+- **PERSONALLY_PRESENT:** ONZEKER. **PHYSICAL_IDENTITY:** ALLEEN_PLAATS.
+- **Host/netwerk:** Sri M, reïncarnatieclaim.
+- **Primair/semi-primair + locator:** P2, passage met “setting up the desert kingdom of Jaisalmer”.
+- **Secundair:** geen.
+- **Historisch/huidig + onzekerheid:** geen datering of gebouw; uitsluitend visionair autobiografisch materiaal.
+
+### B24 — Parangipettai/Porto Novo: geboorte en priesterfamilie
+
+- **Stad/deelstaat:** Parangipettai, Cuddalore, Tamil Nadu.
+- **Type:** geboortedorp; nabij tempel van vader.
+- **Actie + periode:** de Babaji-Nagaraj/Siddha-traditie stelt dat Nagaraj op **30 november 203 n.Chr.** hier werd geboren en dat zijn vader priester was van de toenmalige Shiva-, nu Muruga-tempel.
+- **PERSONALLY_PRESENT:** ONZEKER. **PHYSICAL_IDENTITY:** ALLEEN_PLAATS.
+- **Host/netwerk:** ouders/Nambudri-gemeenschap volgens de Siddha-traditie.
+- **Primair/semi-primair + locator:** P4, “Kriya Babaji Reveals Himself”, geboorteparagrafen.
+- **Secundair:** S8 noteert dat Yogananda’s traditie juist geen geboortegegevens kent.
+- **Historisch/huidig + onzekerheid:** fundamenteel identiteit
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=80 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/BABAJI_PRE_COMPARE_FREEZE.md blob_sha=99b8ddef8f47b7ee0f05691a01322f51bd982c96 original_offset=24576 original_length=4096 payload_bytes=4096 chunk_index=6 chunk_count=10 classification=text
+sconflict: “Babaji Nagaraj = Mahavatar Babaji” is niet gedeeld door alle Kriya-lineages; het huidige geboorteheiligdom is retrospectief.
+
+### B25 — Kolkata: ontvoering/slavernij als kind
+
+- **Stad/deelstaat:** Kolkata (toenmalige voorloper van Calcutta), West Bengal.
+- **Type:** stad, handelaar-/koopmansomgeving.
+- **Actie + periode:** de Nagaraj-traditie zegt dat de vijfjarige Babaji hierheen werd ontvoerd, als slaaf verkocht en door een rijke koopman werd vrijgelaten.
+- **PERSONALLY_PRESENT:** ONZEKER. **PHYSICAL_IDENTITY:** ALLEEN_PLAATS.
+- **Host/netwerk:** naamloze handelaar en koopman.
+- **Primair/semi-primair + locator:** P4, biografische alinea direct na de geboorte.
+- **Secundair:** geen contemporaine bron.
+- **Historisch/huidig + onzekerheid:** anachronistische moderne plaatsnaam bij een claim uit de derde eeuw; geen markt, huis of route.
+
+### B26 — Courtallam/Kutralam: 48 dagen tapas en ontmoeting Agastyar
+
+- **Stad/deelstaat:** Courtallam, Tenkasi, Tamil Nadu.
+- **Type:** pelgrims-/natuurgebied, onbepaalde sadhana-plek.
+- **Actie + periode:** de Nagaraj-traditie stelt dat hij op vijftienjarige leeftijd 48 dagen intensief oefende nabij Courtallam, waarna Agastyar verscheen en hem initieerde.
+- **PERSONALLY_PRESENT:** ONZEKER. **PHYSICAL_IDENTITY:** ALLEEN_PLAATS.
+- **Host/netwerk:** Agastyar; Boganathar als verwijzer.
+- **Primair/semi-primair + locator:** P4, geboorte-/jeugdsectie, Courtallam-paragraaf.
+- **Secundair:** geen onafhankelijke antieke bron gevonden.
+- **Historisch/huidig + onzekerheid:** identiteits- en dateringsconflict; waterval, grot of tempel wordt niet gespecificeerd.
+
+### B27 — Badrinath: achttien maanden in een onbenoemde grot
+
+- **Stad/deelstaat:** Badrinath-regio, Chamoli, Uttarakhand.
+- **Type:** grot.
+- **Actie + periode:** volgens de Nagaraj-traditie stuurde Agastyar hem naar Badrinath, waar hij achttien maanden alleen in een grot oefende en siddha werd.
+- **PERSONALLY_PRESENT:** ONZEKER. **PHYSICAL_IDENTITY:** ALLEEN_PLAATS.
+- **Host/netwerk:** Agastyar/Boganathar/Siddha-lineage.
+- **Primair/semi-primair + locator:** P4, slot van de jeugdsectie.
+- **Secundair:** P4 noemt elders ook een “ashram near Badrinath”, zonder gelijkstelling met Santopanth of Keshabananda’s grot.
+- **Historisch/huidig + onzekerheid:** niet samengevoegd met B05 of B29: andere epoch, claimant-traditie en grot zonder bewijs van fysieke identiteit.
+
+### B28 — 9 Surammal Lane, Egmore: pujakamer van V.T. Neelakantan
+
+- **Stad/deelstaat:** Chennai (toen Madras), Tamil Nadu.
+- **Type:** privéwoning, pujakamer.
+- **Actie + periode:** tussen **1952–1953** zou Babaji herhaaldelijk ’s nachts fysiek in Neelakantans pujakamer zijn verschenen en drie boeken hebben gedicteerd.
+- **PERSONALLY_PRESENT:** JA. **PHYSICAL_IDENTITY:** EXACT.
+- **Host/netwerk:** V.T. Neelakantan; S.A.A. Ramaiah; Kriya Babaji Sangah.
+- **Primair/semi-primair + locator:** P4, secties over Neelakantan en Ramaiah; S6 geeft `No. 9, Surammal Lane, Egmore, Madras`.
+- **Secundair:** publicatiebeschrijving van *The Voice of Babaji* op P4.
+- **Historisch/huidig + onzekerheid:** exact historisch adres, maar huidige gebouwcontinuïteit niet gecontroleerd; claim komt uit de afwijkende Nagaraj-lineage.
+
+### B29 — Santopanth Tal: grot naast het gletsjermeer
+
+- **Stad/deelstaat:** circa 30 km noord van Badrinath, Chamoli, Uttarakhand.
+- **Type:** hooggebergtegrot naast gletsjermeer.
+- **Actie + periode:** Ramaiah’s lineagebiografie stelt dat Babaji hem na drie dagen zoeken in **1954** lichamelijk verscheen en hem daarna maandenlang 144 kriya’s leerde in zijn grot bij Santopanth Tal.
+- **PERSONALLY_PRESENT:** JA. **PHYSICAL_IDENTITY:** DEELS.
+- **Host/netwerk:** S.A.A. Ramaiah; Mataji/Nagalakshmi; Dadaji/Pranavanandar.
+- **Primair/semi-primair + locator:** P4, Ramaiah-biografie, alinea’s 34–38.
+- **Secundair:** P4-hoofdpagina noemt een zes maanden durende initiatie nabij Badrinath.
+- **Historisch/huidig + onzekerheid:** meer en afstand zijn concreet; specifieke grot is niet publiek exact aangewezen en de lineage-identificatie wijkt af
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=81 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/BABAJI_PRE_COMPARE_FREEZE.md blob_sha=99b8ddef8f47b7ee0f05691a01322f51bd982c96 original_offset=28672 original_length=4096 payload_bytes=4096 chunk_index=7 chunk_count=10 classification=text
+ van YSS.
+
+### B30 — Brongebied van de Alaknanda, circa 30 km noord van Badrinath
+
+- **Stad/deelstaat:** hooggebergte boven Badrinath, Chamoli, Uttarakhand.
+- **Type:** rivierbron/gletsjerlandschap.
+- **Actie + periode:** M. Govindan zegt dat Babaji hem in **oktober 1999** tweemaal “on the vital plane” verscheen; hij beschrijft tegelijk aanraking van de voeten.
+- **PERSONALLY_PRESENT:** ONZEKER. **PHYSICAL_IDENTITY:** DEELS.
+- **Host/netwerk:** Marshall Govindan; Babaji’s Kriya Yoga Order.
+- **Primair/semi-primair + locator:** P4, “Other Techniques”, slotpassage: 30 km north of Badrinath, nearly 5,000 m, source of the Alaknanda.
+- **Secundair:** P4 FAQ.
+- **Historisch/huidig + onzekerheid:** “vital plane” is niet gelijk aan verifieerbare lichamelijke aanwezigheid; mogelijk ruimtelijke overlap met Santopanth, maar bron preciseert geen identieke grot.
+
+### B31 — Kumaon Hills: verschijning aan Swami Satyeswarananda
+
+- **Stad/deelstaat:** Kumaon, Uttarakhand.
+- **Type:** bergregio, subplek onbekend.
+- **Actie + periode:** de Babaji-Nagaraj-traditie zegt dat Babaji begin jaren **1970** aan Swami Satyeswarananda verscheen en hem opdroeg Lahiri’s geschriften te vertalen en publiceren.
+- **PERSONALLY_PRESENT:** JA. **PHYSICAL_IDENTITY:** ALLEEN_PLAATS.
+- **Host/netwerk:** Swami Satyeswarananda Giri.
+- **Primair/semi-primair + locator:** P4, “Other Techniques” en FAQ.
+- **Secundair:** geen onafhankelijke locator gevonden.
+- **Historisch/huidig + onzekerheid:** “Kumaon Hills” is zeer breed; vorm van de verschijning wordt niet uitgewerkt.
+
+### B32 — Satyalok/huis van Shibendu Lahiri
+
+- **Stad/deelstaat:** Varanasi, Uttar Pradesh.
+- **Type:** familiehuis/familieschrijn.
+- **Actie + periode:** P4 rapporteert Shibendu Lahiri’s claim dat Babaji hem eind jaren **1980** thuis bezocht en zijn wereldwijde Kriya-werk zegende.
+- **PERSONALLY_PRESENT:** JA. **PHYSICAL_IDENTITY:** DEELS.
+- **Host/netwerk:** Shibendu Lahiri; Lahiri-familielijn.
+- **Primair/semi-primair + locator:** P4 FAQ, alinea over Shibendu Lahiri.
+- **Secundair:** S5 identificeert Shibendu’s familiehuis/familieschrijn als Satyalok, `D 22/3, Chousatti Ghat`.
+- **Historisch/huidig + onzekerheid:** de koppeling van “his home” aan Satyalok is een expliciete maar nog inferentiële adresnormalisatie; kamer ontbreekt.
+
+### B33 — Haidakhan: grot tegenover het dorp
+
+- **Stad/deelstaat:** Haidakhan, Nainital district, Uttarakhand.
+- **Type:** grot aan voet van Kumaon Mount Kailash, over de Gautama Ganga.
+- **Actie + periode:** Haidakhandi-bronnen stellen dat een jong ogende Babaji in **juni 1970** in deze grot verscheen.
+- **PERSONALLY_PRESENT:** ONZEKER. **PHYSICAL_IDENTITY:** DEELS.
+- **Host/netwerk:** Haidakhandi Samaj; lokale dorpelingen.
+- **Primair/semi-primair + locator:** P6; S7 noemt grot, bergvoet, rivier en ligging tegenover Haidakhan.
+- **Secundair:** S8.
+- **Historisch/huidig + onzekerheid:** alleen relevant indien Haidakhan Babaji dezelfde persoon is als Mahavatar Babaji. Die identificatie is expliciet betwist door andere Kriya-lineages en Haidakhan Babaji overleed in 1984.
+
+### B34 — Kumaon Mount Kailash: klein tempeltje op de top
+
+- **Stad/deelstaat:** boven Haidakhan, Nainital district, Uttarakhand.
+- **Type:** bergtop, klein tempeltje.
+- **Actie + periode:** Haidakhandi-overlevering zegt dat Babaji vanaf september **1970** 45 dagen onbeweeglijk in dit tempeltje mediteerde.
+- **PERSONALLY_PRESENT:** ONZEKER. **PHYSICAL_IDENTITY:** DEELS.
+- **Host/netwerk:** Haidakhandi-volgelingen en lokale waarnemers.
+- **Primair/semi-primair + locator:** P6, openingsbiografie.
+- **Secundair:** S8, levensbeschrijving.
+- **Historisch/huidig + onzekerheid:** tempelnaam en precieze huidige structuur niet vastgesteld; dezelfde identiteitswaarschuwing als B33.
+
+### B35 — Haidakhan Vishwa Mahadham en Gautama Ganga
+
+- **Stad/deelstaat:** Haidakhan, Nainital district, Uttarakhand.
+- **Type:** ashram/temple complex en rivier-ghat.
+- **Actie + periode:** de publiek gedocumenteerde Haidakhan Babaji verbleef en onderwees hier in **1970–1984**, baadd
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=82 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/BABAJI_PRE_COMPARE_FREEZE.md blob_sha=99b8ddef8f47b7ee0f05691a01322f51bd982c96 original_offset=32768 original_length=4096 payload_bytes=4096 chunk_index=8 chunk_count=10 classification=text
+e in de Gautama Ganga, gaf darshan en werd na zijn dood in het ashram begraven.
+- **PERSONALLY_PRESENT:** ONZEKER. **PHYSICAL_IDENTITY:** EXACT.
+- **Host/netwerk:** Haidakhandi Samaj; internationale devotees.
+- **Primair/semi-primair + locator:** P6 en de door de Samaj gepubliceerde biografische context.
+- **Secundair:** S8, secties “Life”, “Spiritual routine” en “Identity”.
+- **Historisch/huidig + onzekerheid:** aanwezigheid van de historische Haidakhan-leraar is sterk traceerbaar; opname onder Mahavatar Babaji is uitsluitend recall-first vanwege de betwiste identiteitsclaim.
+
+## Negatieve bevindingen en uitgesloten niet-aanwezigheidslocaties
+
+Deze locaties zijn **niet** meegeteld omdat de gevonden bron alleen verering, een monument, een hedendaags bezoek door een ander of een niet-Babaji-persoon aantoonde:
+
+- **Adinath Sri Guru Mahavatar Babaji Temple, Madanapalle, Andhra Pradesh — PERSONALLY_PRESENT: NEE.** De Satsang Foundation beschrijft een moderne aan Babaji gewijde tempel; geen concrete persoonlijke aanwezigheid van Mahavatar Babaji op de bouwplek gevonden.
+- **Babaji-tempel/geboorteheiligdom, Parangipettai — PERSONALLY_PRESENT: NEE als afzonderlijke huidige structuur.** De tempel is in 1974 retrospectief gebouwd; alleen de bredere geboorteclaim is B24.
+- **Smriti Bhavan bij Pandukholi en YSS Dwarahat Ashram — PERSONALLY_PRESENT: NEE.** Moderne pelgrims-/meditatie-infrastructuur; de historische claim betreft B01–B03.
+- **Karar Ashram als geheel buiten de twee kamers — geen extra locatie.** Alleen de twee concrete 1949-kamers zijn B14–B15.
+- **Kedarnath ondergrondse grot waar Sri M geblinddoekt heen ging — PERSONALLY_PRESENT: NEE voor Mahavatar.** In P2 trof hij daar Maheshwarnath aan; de Mahavatar-claim betreft uitsluitend het geheime pad B22.
+- **Katirgama/Kataragama — buiten India.** Belangrijke Nagaraj-claim in Sri Lanka, daarom niet meegeteld.
+- **Pashupatinath — buiten India.** Nepal-claim in P2, daarom niet meegeteld.
+- **Buitenlandse verschijningen/ashrams** (onder meer Australië en Noord-Amerika) zijn geografisch uitgesloten.
+- **Tempels, schilderijen, jaarlijkse Smriti Divas en meditatiecentra** zijn niet als bewijs van fysieke aanwezigheid gebruikt.
+
+## Onopgeloste leads
+
+1. **Swami Pranabananda in Lahiri’s huis:** de claim is wijd verspreid en past ruimtelijk bij B11, maar de precieze primaire uitgave/hoofdstuk en datum bleven onvast.
+2. **Ramaiah’s San Thome-woning, Chennai:** P4 zegt dat Babaji aan Ramaiah “began appearing”, maar maakt niet veilig duidelijk of de fysieke verschijningen in die woning gebeurden; daarom niet als aparte masterlocatie opgenomen.
+3. **Shibendu Lahiri:** “at his home” is bronvast, maar Satyalok als exact huis van de late-jaren-1980-verschijning blijft een afleiding.
+4. **Swami Satyeswarananda:** “Kumaon Hills” is de enige gevonden locator; dagboek, route of specifieke grot niet gevonden.
+5. **Kebalananda’s Himalayakampen:** mogelijk meerdere masterlocaties, maar zonder plaatsnamen niet verantwoord te splitsen.
+6. **Badrinath-cluster:** Keshabananda’s grot, Nagaraj’s oude grot, Santopanth Tal en Govindans Alaknanda-bron kunnen deels overlappen; geen bron bewijst fysieke identiteit.
+7. **Hariharananda 1949:** de gedetailleerde lineage-versie onderscheidt twee kamers; publieke huidige plattegrond/room-labeling bleef onbevestigd.
+8. **V.T. Neelakantan, 9 Surammal Lane:** historisch adres gevonden, maar kadastrale/gebouwcontinuïteit en onafhankelijk archiefbewijs niet.
+9. **Haidakhan identiteit en reisroutes:** de historische leraar reisde vanaf 1971 door India; zonder acceptatie van zijn identiteit als Mahavatar zouden honderden stops vals-positief zijn. Alleen drie sterke kernsublocaties zijn bevroren.
+10. **Print-only corpora:** *Purana Purusha*, *River of Compassion*, *The Voice of Babaji*, Ramaiah/Govindan-boeken en regionale herinneringen waren niet allemaal volledig digitaal doorzoekbaar.
+
+## Saturation-oordeel
+
+**SATURATION = NEE.** De zoekrun bereikte wel inhoudelijke stabiliteit in het webtoegankelijke kerncorpus: h
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=83 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/BABAJI_PRE_COMPARE_FREEZE.md blob_sha=99b8ddef8f47b7ee0f05691a01322f51bd982c96 original_offset=36864 original_length=627 payload_bytes=627 chunk_index=9 chunk_count=10 classification=text
+erhaalde zoekrondes leverden steeds dezelfde Yogananda-locaties plus de vier duidelijk scheidbare alternatieve tradities op (Hariharananda, Sri M, Babaji Nagaraj en Haidakhan). Volledige verzadiging is niet verantwoord wegens (a) het ontbreken van contemporaine historische records, (b) niet-open print- en privéarchieven, (c) de open-eindige hoeveelheid moderne verschijningsclaims, en (d) identiteitsconflicten waarbij verschillende leraren “Babaji” heten.
+
+Deze freeze is uitsluitend een recall-first persoonsatlas. Er is geen vergelijking, reconciliatie, A/B/C-classificatie, routekeuze of clusterselectie uitgevoerd.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=84 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/LAHIRI_MAHASAYA_PRE_COMPARE_FREEZE.md blob_sha=25511fb1e1e3556e68fb057a3dfdfdea0a8ccd5f original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=8 classification=text
+# Lahiri Mahasaya — PRE-COMPARE FREEZE
+
+**Run:** TOP11-PARALLEL-CHATGPT-SWEEP-001  
+**Persoon:** Lahiri Mahasaya / Shyama Charan Lahiri (1828–1895)  
+**Freeze-datum:** 2026-08-18  
+**Modus:** onafhankelijke externe blinde sweep; vóór deze freeze zijn uitsluitend het taakbestand en `STATUS.md` uit de repository gelezen. Er is niet vergeleken met een interne atlas, kandidatenlijst of CCI-resultaat.
+
+## Freeze-samenvatting
+
+| Metriek | Waarde |
+|---|---:|
+| Genormaliseerde India-locaties | **60** |
+| `PHYSICAL_IDENTITY=EXACT` | **6** |
+| `PHYSICAL_IDENTITY=DEELS` | **20** |
+| `PHYSICAL_IDENTITY=ALLEEN_PLAATS` | **17** |
+| `PHYSICAL_IDENTITY=ONBEKEND` | **17** |
+| `SATURATION` | **JA** |
+
+`SATURATION=JA` betekent hier corpus-/discovery-saturatie, niet dat ieder historisch gebouw exact is geïdentificeerd. Een volledige familie-/lineagebiografie, de 1946-versie van *Autobiography of a Yogi*, officiële lineagepagina's en gerichte spelling-, host-, route-, school-, tempel-, foto- en miss-detection-sweeps leverden in de laatste rondes geen nieuwe, onafhankelijk lokaliseerbare India-locaties op. De resterende onzekerheden vragen archief- of veldonderzoek (PWD-personeelsdossiers, adressen van gastheren, schoolakten, huwelijksregisters en historische cave-identificatie), geen bredere webzoekslag.
+
+## Classificatieregels
+
+- `PERSONALLY_PRESENT=JA`: de bron stelt lichamelijke aanwezigheid of, bij nr. 32, aanwezigheid van de stoffelijke resten rechtstreeks vast.
+- `PERSONALLY_PRESENT=ONZEKER`: aanwezigheid op die specifieke plek is een inferentie, een bilocatie-/wonderclaim of slechts secundair gelokaliseerd.
+- `PERSONALLY_PRESENT=NEE`: latere lineage-/memorialplek zonder gevonden bewijs van zijn lichamelijke aanwezigheid.
+- `EXACT`: het concrete object of de concrete sublocatie is geïdentificeerd.
+- `DEELS`: complex, natuurlijke zone, institutionele continuïteit of route is bekend, maar footprint/fabric/subplek is onzeker.
+- `ALLEEN_PLAATS`: plaats/wijk/district is bekend, maar gebouw, kamer of tracé niet.
+- `ONBEKEND`: zelfs de concrete plaatsidentiteit of het adres ontbreekt of is uitsluitend legendarisch beschreven.
+
+## Bronnenregister
+
+- **PP** — Ashoke Kumar Chatterjee, *Purana Purusha Yogiraj Sri Shama Churn Lahiree: A Complete Biography*. Familie-/lineagebiografie, samengesteld met 26 dagboeken, brieven en informatie van afstammelingen; HTML-voltekst met regelankers: https://dokumen.pub/purana-purusha-yogiraj-sri-shama-churn-lahiree-a-complete-biography-818756301x.html
+- **AOY** — Paramahansa Yogananda, *Autobiography of a Yogi*, editie 1946. De Lahiri-hoofdstukken verwerken getuigenissen van onder anderen Sri Yukteswar, Swami Kebalananda, Ram Gopal en Swami Satyananda: https://www.gutenberg.org/files/7452/old/7452-h/7452-h.htm
+- **YSS** — Yogoda Satsanga Society of India, officiële lineagepagina: https://yssofindia.org/about/lahiri-mahasaya
+- **SSVV** — Sampurnanand Sanskrit Vishwavidyalaya, officiële institutionele geschiedenis: https://www.ssvv.ac.in/brief-history
+- **II** — Incredible India, veldbeschrijving van het nog bewoonde Lahiri-huis en de naamplaat in Varanasi: https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/our-special-find-in-benaras
+- **P2Y** — secundair veldverslag dat het oorspronkelijke familiehuis onderscheidt van de latere Satyalok-tempel: https://www.path2yoga.net/2020/07/lahiri-mahasaya-temple-varanasi.html
+- **AP** — Ananda Pilgrimages, actuele pilgrimagebeschrijving van het Lahiri-huis en de Trailanga-locatie: https://anandapilgrimages.org/
+- **SKY** — Suddha Kriya Yoga, lineagebiografie met de tempelpassage bij Dronagiri: https://suddhakriyayoga.in/shri-shyamacharan-lahiri-mahasaya/
+- **KL** — huidige familie-lineagepagina van Satyalok: https://www.kriyayogalahiri.com/
+
+Regellocators hieronder verwijzen naar de tekstregels in de openbare HTML-extracties van PP en AOY. Dat is reproduceerbaarder dan paginanummers van wisselende scans.
+
+## Genormaliseerde masterlijst
+
+### Nadia/Krishnanagar en Varanasi
+
+| # | Locatie; huidige plaats/staat | Type | Activiteit / pe
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=85 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/LAHIRI_MAHASAYA_PRE_COMPARE_FREEZE.md blob_sha=25511fb1e1e3556e68fb057a3dfdfdea0a8ccd5f original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=8 classification=text
+riode; aanwezigheid | Fysieke identiteit en historische/current status | Host / netwerk | Kernbewijs; secundaire steun | Onzekerheid / unresolved lead |
+|---:|---|---|---|---|---|---|---|
+| 1 | Ancestraal Lahiri-huis/landgoed en geboorteplek, Ghurni, Krishnanagar, Nadia, West-Bengalen | privéhuis / geboorteplek | Geboren en vroege kinderjaren, 1828–ca. 1833; **JA** | **DEELS**; huis door Jalangi-vloed verwoest, alleen het historische erf/gebied is benaderbaar | Gour Mohan en Muktakeshi Lahiri | PP 219, 240–243; AOY 3872–3877; YSS | Exacte footprint en kadastrale opvolging ontbreken; moderne “birthplace”-pins niet als bewijs gebruikt |
+| 2 | Oorspronkelijke aangrenzende Lahiri-familie-Shivatempel, Ghurni | familietempel | Als kind naast zijn mediterende moeder bij de tempel; vóór ca. 1833; **JA** | **DEELS**; originele tempel verdween in dezelfde vloed | Lahiri-familie | PP 234, 240–243; AOY 3872–3877 | Exacte fundering niet vastgesteld; niet gelijkgesteld aan het latere herbouwde heiligdom |
+| 3 | Zandbank/rivierzone naast het Ghurni-erf, Jalangi/Kharey, Krishnanagar | natuurlijke sublocatie | Als kind naakt in zand begraven/mediterend; vóór ca. 1833; **JA** | **DEELS**; rivier en zandzone bekend, precieze oever door rivierverlegging verloren | familie | PP 233; AOY 3872–3874 | Exacte historische oeverlijn vereist hydrologisch/kadastraal onderzoek |
+| 4 | Herbouwde “Ghurni Shiva Site” / Jalesvara-heiligdom, Ghurni | tempel / lineageplaats | Geredde familie-Shiva volgens overlevering omstreeks 1840 herplaatst; Lahiri’s aanwezigheid niet gevonden; **NEE** | **DEELS**; huidige lineage-identiteit is traceerbaar, maar geen bewezen originele fabric/footprint | Lahiri-lineage, lokale devotee | PP 240–243; AOY 3875 | Lahiri was toen al in Kashi; terugkeer naar deze tempel nergens aangetoond |
+| 5 | Huis van de schoonfamilie van de oudste zoon, district Krishnanagar, West-Bengalen | privéhuis / familiebezoek | AOY zegt dat Lahiri op Bengalreizen de huizen van de schoonvaders van beide zonen bezocht; datum onbekend; **JA** | **ONBEKEND**; zelfs dorp, hostnaam en adres niet gegeven | schoonfamilie oudste zoon | AOY 4216; secundair: PP noemt Bengalreizen maar identificeert dit huis niet | Genealogie/huwelijksregister van Tinkari nodig |
+| 6 | Huis van oudere broer Chandrakanta, Simon Chauhatta, Madanpura, Varanasi, Uttar Pradesh | privéhuis / jeugdverblijf | Familie vestigde zich hier na vertrek uit Ghurni; ca. 1833 en later; **JA** | **ALLEEN_PLAATS**; wijk en eigenaar bekend, gebouw/adres niet | Chandrakanta Lahiri | PP 240–243; AOY 3875–3877 | Simon Chauhatta historisch geocoderings-/kadasteronderzoek nodig |
+| 7 | Door Gour Mohan opgerichte Shivatempel, Benares/Varanasi | familietempel | Directe familielocatie na verhuizing; persoonlijke tempelbezoeken plausibel maar niet expliciet; **ONZEKER** | **ONBEKEND**; geen naam, wijk of adres | Gour Mohan Lahiri | AOY 3875–3877; PP beschrijft de familieverhuizing maar lokaliseert deze tweede Kashi-tempel niet | Niet verwarren met de Ghurni-tempel, Garureswar Mahadeva of de huis-shrine |
+| 8 | Hindi-/Urdu-studiegroepen, Benares | school / onderwijsruimte | Onderwijs in Hindi en Urdu in jeugd; ca. jaren 1830–1840; **JA** | **ONBEKEND**; meerdere niet-genoemde venues | Gour Mohan; lokale studiegroepen | AOY 3876–3877 | Namen/adressen van de groepen ontbreken |
+| 9 | Joynarayan English School, historisch Garureswar; door PP gelokaliseerd bij Sadanand Market tussen Ramapura- en Rewari-talabs, Varanasi | school | Leerling; jeugd, vóór ca. 1840; **JA** | **DEELS**; instelling en huidige locatiebeschrijving bekend, 19e-eeuwse campuscontinuïteit onzeker | Joynarayan Ghosal | PP 246–247; AOY 3876–3877 | Schoolregisters/campusverhuizing verifiëren |
+| 10 | Engelstalige afdeling van Government Sanskrit College, Varanasi; institutionele opvolger SSVV | college / universiteit | Ingeschreven rond leeftijd 12; circa acht jaar, tot 1848; **JA** | **DEELS**; instelling is identificeerbaar, precieze afdeling/campus uit de jaren 1840 niet | Government Sanskr
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=86 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/LAHIRI_MAHASAYA_PRE_COMPARE_FREEZE.md blob_sha=25511fb1e1e3556e68fb057a3dfdfdea0a8ccd5f original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=8 classification=text
+it College; Nagvatta | PP 249–250; AOY 3877; SSVV | College-archief nodig voor campusgebouw en inschrijvingsbewijs |
+| 11 | Huis van Devnarayan Sanyal Bachaspati, Khalishpura, Varanasi | privéhuis / schoonfamilie | Sociale/familieband; ontmoette de stervende schoonvader; huwelijkscontext vanaf 1846; **ONZEKER** voor dit specifieke huis | **ALLEEN_PLAATS**; host en wijk bekend, gebouw niet | Devnarayan Sanyal; Kashimoni | PP 251–252, 345–348 | Huwelijks- en sterfbedvenue worden niet expliciet genoemd; adres ontbreekt |
+| 12 | Gehuurd deel van een twee verdiepingen tellend huis, Simon Chauhatta, Varanasi | privéhuis | Zelfstandig gezinsverblijf na familieruzie; zoon Tinkari hier geboren in 1863; **JA** | **ALLEEN_PLAATS**; straatgebied bekend, huis niet | Lahiri-gezin; verhuurder onbekend | PP 258–259, 267 | Mogelijk maar niet bewezen hetzelfde pand als nr. 6; daarom afzonderlijk bevroren |
+| 13 | Eigen huis, Garureswar/Gurudham, **D/31/58 Madanpura**, Varanasi | privéhuis / onderwijs- en initiatieplaats | Gekocht 1864; wonen, gezin, dagelijkse ontvangsten, onderwijs, initiaties en overlijden; 1864–1895; **JA** | **EXACT**; huis en adres expliciet, nog als familiehuis beschreven | Kashimoni, kinderen, discipelen | PP 268, 354–360, 985–988, 2071; AOY 3741–3757, 3882, 4216–4221; II; P2Y; AP | Toegang beperkt; naam “Garureswar/Guroodeshwar” varieert. Niet verwarren met Satyalok |
+| 14 | Begane-grondparlour/bedstee (“holy room”) in D/31/58 | kamer / concrete sublocatie | Discourses, meditatie, laatste ziekte en overlijden op 26-09-1895 om 17:25; **JA** | **EXACT**; bron lokaliseert kamer en bed binnen exact huis, later met standbeeld | huishouden; aanwezige discipelen | PP 2034–2035, 2052–2068, 985; AOY 3744–3756, 4219–4221 | Conserveringsgeschiedenis na 1895 niet onafhankelijk bouwhistorisch onderzocht |
+| 15 | In-house Shivatempel en deuropening in D/31/58 | huis-shrine / sublocatie | Stond in de deuropening toen hij zijn vrouw zes maanden vooraf over zijn dood vertelde; vóór maart 1895; **JA** | **DEELS**; subfunctie helder, huidige precieze opstelling niet extern geverifieerd | Kashimoni | PP 2027–2030 | Veldverificatie/plattegrond nodig |
+| 16 | Bangalitola High School, waarschijnlijke institutionele opvolger Bengali Tola Inter College/Sonarpura, Varanasi | school / burgerinitiatief | Mede opgericht door zijn inspanning; founder-secretary; onverwachte inspecties; 19e eeuw; **JA** | **DEELS**; instelling identificeerbaar, oorspronkelijke campus/fabric onzeker | lokale onderwijzers/bestuur | PP 272–275; AOY 3880–3882 | Stichtingsakte en exacte oorspronkelijke campus ontbreken in het open corpus |
+| 17 | Door Lahiri gestichte meisjesschool, Varanasi | school | Oprichting/toezicht; school sloot wegens gebrek aan leerlingen; 19e eeuw; **JA** | **ONBEKEND**; geen naam of adres | Lahiri; lokale gemeenschap | PP 272–275 | Schoolbestuurs- of krantenarchief vereist |
+| 18 | Leslocatie van de vierde Nepalese prins, Varanasi | privé-/royale onderwijsruimte | Benoemd als tutor 24-03-1864; opnieuw via koningin 04-03-1866; **ONZEKER** voor specifieke venue | **ONBEKEND** | Nepalese hofkring | PP 276 | Werkrelatie staat vast, maar huis/paleis/leskamer niet genoemd |
+| 19 | Leslocatie van de zoon van Harashankar Prasad Singh, Varanasi | privéhuis / onderwijsruimte | Tutorbenoeming 05-04-1867; **ONZEKER** voor specifieke venue | **ONBEKEND** | Harashankar Prasad Singh-familie | PP 277 | Hostnaam bekend, adres en bewijs dat les thuis plaatsvond ontbreken |
+| 20 | Military Engineering Works/PWD-kantoor, Varanasi | overheidskantoor | Overgeplaatst naar/werkzaam in Kashi vanaf 1852 en later; **JA** | **ALLEEN_PLAATS**; stad/afdeling bekend, kantooradres niet | British Indian PWD/Military Engineering Works | PP 253–255, 330–335; AOY 3882 | Colonial PWD establishment lists/personeelsdossier nodig |
+| 21 | Ramnagar-paleis/fortcomplex, Ramnagar, Varanasi | paleis / les- en verblijfplaats | Dagelijks per koninklijke boot als tutor van Pravunarayan Singh; verbleef er in moesson; na pensionering; *
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=87 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/LAHIRI_MAHASAYA_PRE_COMPARE_FREEZE.md blob_sha=25511fb1e1e3556e68fb057a3dfdfdea0a8ccd5f original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=8 classification=text
+*JA** | **EXACT** op complexniveau; specifieke kamer onbekend | Kashi Naresh Ishwari Narayan Singh; Pravunarayan Singh | PP 348–349 | Datum pensionering conflicteert: PP september 1880, AOY 1886; verblijfskamer unresolved |
+| 22 | Koninklijke bootroute over de Ganges tussen Kashi en Ramnagar | reisroute / boot | Dagelijkse overtocht naar het paleis; moessonperiodes uitgezonderd door verblijf aldaar; **JA** | **DEELS**; eindpunten en vervoermiddel bekend, steigers/tracé niet | Kashi royal household | PP 349 | Historische aanlegplaatsen onbekend |
+| 23 | Ranamahal Ghat, Varanasi | ghat / bad- en wandelplek | Dagelijkse heilige duik en avondpromenade; latere jaren; **JA** | **EXACT**; ghat-identiteit bestaat, specifieke trede niet | Krishnaram; lokale baders | PP 470–473, 583, 736, 834–835 | Geen enkele trede of aanlegplek als uniek object aangewezen |
+| 24 | Krishnarams verandah/kamer, Udaipur Estate naast Radha-Krishna-tempel, Ranamahal Ghat | gastenverblijf / verandah / tempelcomplex | Zat er tijdens dagelijkse wandeling en besprak de Gita; **JA** | **DEELS**; genoemd complex en functie, kamer-/fabriccontinuïteit onbekend | Krishnaram; Udaipur Estate | PP 583; plaatsbeschrijving bevestigd in PP 2041 | Historische plattegrond/eigendomstitel nodig |
+| 25 | Steeg tussen Ranamahal Ghat en Lahiri’s huis waar een baksteen zijn voet raakte, Varanasi | steeg / incidentplek | Terugweg na bad; voetwond; **JA** | **ONBEKEND**; alleen routecontext | Krishnaram | PP 736, 949 | Geen straatnaam; meerdere mogelijke stegen |
+| 26 | Gehuurd huis van een oude, stervende discipel, Varanasi | privéhuis / ziekenbezoek | Ging de discipel vóór diens dood bezoeken; **JA** | **ONBEKEND** | naamloze discipel; oude hospita | PP 441–445 | Naam, wijk en adres ontbreken |
+| 27 | Huis van favoriete discipel A, “een kleine afstand” van D/31/58, Varanasi | privéhuis / maaltijd | Accepteerde uitnodiging en at er; **JA** | **ONBEKEND** | naamloze favoriete discipel | PP 952–956 | Niet samenvoegen met nr. 28: tekst introduceert een andere devotee |
+| 28 | Huis van devotee B, Varanasi | privéhuis / maaltijd | Ging op een afzonderlijke uitnodiging lunchen; **JA** | **ONBEKEND** | naamloze devotee | PP 957–959 | Naam, wijk en relatie tot nr. 27 ontbreken |
+| 29 | Huis van Pareshbabu nabij Garureswar, Varanasi | privéhuis / discipelbezoek | Ging er herhaaldelijk heen om Pareshbabu uit samadhi te halen; **JA** | **ONBEKEND** | Pareshbabu | PP 969–970 | Voornaam, huisnummer en straat ontbreken |
+| 30 | Dasasamedh/Dashashwamedh Market, Varanasi | markt / wonderclaim | Een devotee zag hem winkelen terwijl zijn lichaam tegelijk in meditatie thuis werd gezien; datum onbekend; **ONZEKER** | **DEELS**; marktgebied identificeerbaar, winkel/spot niet | naamloze devotee | PP 936–937 | Alleen als adversarial lead opgenomen; niet als gewone lichamelijke reis bewezen |
+| 31 | Onbepaald Kashi-spoorwegstation van vertrek voor Bishnupurreizen | station / reisstop | Vertrek om 21:00 voor reizen van mei 1886 en mei 1891; **JA** | **ONBEKEND**; bron zegt alleen “from Kashi by train” | Lahiri-familie | PP 791–797 | Niet stilzwijgend gelijkgesteld aan Varanasi Junction of Banaras station |
+| 32 | Manikarnika Ghat, Varanasi | crematieghat | Stoffelijke resten na overlijden gecremeerd; 26-09-1895; **JA** (stoffelijke aanwezigheid) | **EXACT** | familie, discipelen, crematiegezelschap | PP 2070–2075; AOY/YSS bevestigen overlijden in Benares | Geen claim dat hij hier tijdens leven kwam op basis van deze gebeurtenis |
+| 33 | Niet nader benoemde Ganges-bad-/zwemplekken in Benares vóór de expliciete Ranamahal-routine | ghat/rivier | Dagelijks baden/zwemmen sinds jeugd; **JA** | **ALLEEN_PLAATS**; rivier en stad bekend, ghat niet | Gour Mohan / gezin | AOY 3876–3877; PP 354–360 | Mogelijke overlap met Ranamahal in latere jaren, maar vroege ghat blijft onbekend |
+| 34 | Locatie van de enige oorspronkelijke foto door Gangadhar De, waarschijnlijk Varanasi | historische fotolocatie | Liet zich eenmalig fotograferen na verzoek van discipelen; **JA** | 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=88 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/LAHIRI_MAHASAYA_PRE_COMPARE_FREEZE.md blob_sha=25511fb1e1e3556e68fb057a3dfdfdea0a8ccd5f original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=8 classification=text
+**ONBEKEND** | Gangadhar De; discipelen | PP 633–637, 970–975 | Tekst specificeert studio versus huis niet; moderne foto-attributies lokaliseren de opname niet |
+| 35 | Satyalok/Lahiri-tempel, D22/3 Chausattighat, Varanasi | latere tempel / familie-lineageplaats | Huidige familie-lineageplaats; geen gevonden bewijs van bezoek door Lahiri; **NEE** | **EXACT** | nakomelingen/Lahiri lineage | PP 985–988 noemt latere standbeelden; KL; P2Y onderscheidt Satyalok van D/31/58 | Niet als woon-/samadhihuis tellen; dit is een expliciete false-positive freeze |
+| 36 | Trailanga Swami-ontmoetings-/meditatieplek, door AP als diens tempel in Varanasi aangeduid | tempel / ontmoetingsplek | AOY stelt dat Lahiri en Trailanga vaak samen mediteerden; specifieke tempeltoewijzing is secundair; **ONZEKER** | **DEELS**; huidige Trailanga-tempel traceerbaar, historische zitplek niet | Trailanga Swami | AOY 3757–3758; AP | AOY noemt geen venue; veld-/ashramarchief moet bevestigen dat AP’s tempel de historische plaats is |
+
+### Werkposten, Himalaya, Bengalreizen en routes
+
+| # | Locatie; huidige plaats/staat | Type | Activiteit / periode; aanwezigheid | Fysieke identiteit en historische/current status | Host / netwerk | Kernbewijs; secundaire steun | Onzekerheid / unresolved lead |
+|---:|---|---|---|---|---|---|---|
+| 37 | Onbenoemde kamer in de Barackpur/Barrackpore-sectie nabij Kolkata, West-Bengalen | privé-/ontmoetingskamer | Shankari Mai zat naast Lahiri toen Babaji volgens haar getuigenis binnenkwam; datum onbekend; **JA** | **ALLEEN_PLAATS**; section/town known, room/house unknown | Shankari Mai Jiew; Babaji | AOY 3783–3786 | Host/eigenaar, straat en datum ontbreken; dit is wel rechtstreeks fysiek taalgebruik, niet een verschijning van Lahiri zelf |
+| 38 | Military Engineering Works/PWD-kantoor, Ghazipur, Uttar Pradesh | overheidskantoor | Eerste benoeming als clerk in 1851; **JA** | **ALLEEN_PLAATS** | British Indian PWD/Military Engineering Works | PP 253–255; SKY; AOY 3882 noemt Gazipur | Kantoor-/woningadres en verblijfsduur ontbreken |
+| 39 | PWD/Military Engineering Works-kantoor, Mirzapur, Uttar Pradesh | overheidskantoor | Werkpost; na een versie van de Ranikhetperiode hierheen terug; **JA** | **ALLEEN_PLAATS** | PWD | PP 254, 323–324; AOY 3882 noemt Mirjapur | Volgorde/datering conflicteert met AOY’s Danapur-terugkeer |
+| 40 | PWD/Military Engineering Works-kantoor, Buxar, Bihar | overheidskantoor | Overplaatsing/werkpost; 1850s–1860s ongedateerd; **JA** | **ALLEEN_PLAATS** | PWD | PP 254; SKY | AOY laat Buxar weg; adres en exacte data ontbreken |
+| 41 | PWD/Military Engineering Works-kantoor, Katua/Katwa, Purba Bardhaman, West-Bengalen | overheidskantoor | Overplaatsing/werkpost; ongedateerd; **JA** | **ALLEEN_PLAATS** | PWD | PP 254 | Spelling “Katua”; AOY laat post weg; PWD-record vereist |
+| 42 | PWD/Military Engineering Works-kantoor, Gorakhpur, Uttar Pradesh | overheidskantoor | Overplaatsing/werkpost; ongedateerd; **JA** | **ALLEEN_PLAATS** | PWD | PP 254; SKY | Kantooradres en exacte data ontbreken |
+| 43 | PWD/Military Engineering Works-kantoor met solitaire kamer, Danapur, Bihar | overheidskantoor / kamer | Werkpost; meditatie in stille kantoorruimte; vóór/na Ranikhet afhankelijk van bron; **JA** | **ALLEEN_PLAATS** | PWD | PP 330–335; AOY 4000–4004, 4083–4115 | Grote chronologieconflict: AOY plaatst transfer in 1861 en terugkeer naar Danapur; PP in 1868 en via Mirzapur |
+| 44 | PWD/Military Engineering Works-kantoor, Naini Tal, Uttarakhand | overheidskantoor | Transfer/posting volgens AOY; **JA** | **ALLEEN_PLAATS** | PWD | AOY 3882 | Niet genoemd in PP; mogelijk variant/verwarring met Ranikhetregio. PWD-record nodig |
+| 45 | Nieuw PWD-kantoor, Ranikhet, Almora, Uttarakhand | overheidskantoor | Head clerk/barrack master; 1861 volgens AOY of 1868–1869 volgens PP; **JA** | **ALLEEN_PLAATS** | PWD/Military Engineering Works | PP 284–291; AOY 4000–4004 | Kantoorlocatie, fabric en jaartalconflict unresolved |
+| 46 | Tentverblijf bij Ranikhet PWD-post | tijdelijk verblijf | Woonde in een 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=89 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/LAHIRI_MAHASAYA_PRE_COMPARE_FREEZE.md blob_sha=25511fb1e1e3556e68fb057a3dfdfdea0a8ccd5f original_offset=20480 original_length=4096 payload_bytes=4096 chunk_index=5 chunk_count=8 classification=text
+tent bij de nieuwe post; winter 1868–69 volgens PP; **JA** | **ALLEEN_PLAATS** | PWD-kamp | PP 287–288 | Kampcoördinaten ontbreken; AOY noemt geen tent |
+| 47 | Officiële cash-/hill-route vanuit Ranikhet richting bergdorpen | werkroute / bergpad | Trok met ondergeschikten/gewapende begeleiding voor uitbetaling en kwam in het berggebied; **JA** | **ALLEEN_PLAATS**; vertrekgebied en functie bekend, tracé niet | PWD-personeel; dragers/guards | PP 288–296 | Niet automatisch gelijkstellen aan de moderne Kukuchina-pelgrimsroute |
+| 48 | Drongiri/Dronagiri/Dunagiri-berghelling en clearing met hermitage/caves, Dwarahat Range, Almora, Uttarakhand | bergzone / hermitage | Eerste ontmoeting met Babaji en verblijf; 15 mijl van Ranikhet volgens PP; 1861 of 1868; **JA** | **DEELS**; bergmassief en cave-cluster bekend, historische clearing niet hard gegeocodeerd | Babaji en yogagroep | PP 296–321; AOY 4004–4029; YSS | Moderne “Babaji Cave” bij Kukuchina is een lineage-identificatie, geen onafhankelijk bewezen 19e-eeuwse grot |
+| 49 | Specifieke initiatiegrot/grotto in Drongiri-cluster | grot / concrete sublocatie | Kriya-inwijding en dagenlange samadhi; **JA** | **DEELS**; gebeurtenis aan een grot gekoppeld, maar keuze uit/continuïteit binnen cluster onzeker | Babaji | PP 300–321; AOY 4007–4024, 4066 | De moderne grotclaim vereist historische survey; niet `EXACT` gemaakt |
+| 50 | Rotsige oever van de Gogash-rivier/bergstroom, Drongiri-regio | rivierbank / rituele sublocatie | Reiniging/ritueel voorafgaand aan initiatie; **JA** | **DEELS**; waterloop benoemd, precieze bank onbekend | Babaji’s chela | AOY 4027–4029 | Hydroniem/transliteratie en huidige waterloopidentiteit verifiëren |
+| 51 | Tijdelijke “gouden paleis”- en homa-site nabij de initiatiegrot | visionaire/legendarische tijdelijke locatie | In AOY-narratief materieel paleis, diner en initiatie; daarna gedematerialiseerd; **JA binnen de bronclaim** | **ONBEKEND**; niet-bestaand/visionair en niet te mappen | Babaji en yogagroep | AOY 4037–4060 | Geloofsnarratief expliciet apart gehouden van verifieerbare bouwkundige locatie |
+| 52 | Oude tempel enkele mijlen van de grot, mogelijk Dronagiri-tempel, Almora | tempel / nachtelijke bezoekplek | Latere lineageversie zegt dat Lahiri er ’s nachts heen ging en een heilige ontmoette; **ONZEKER** | **ONBEKEND**; bron noemt geen tempelnaam, moderne gelijkstelling onbewezen | onbekende heilige; Babaji-lineage | SKY | Niet in PP/AOY gevonden; pas na archief-/veldbevestiging aan huidige Dunagiri-tempel koppelen |
+| 53 | Huis van een Bengaalse vriend/familie, Moradabad, Uttar Pradesh | privéhuis / reisverblijf | Enkele dagen verblijf op terugreis; discussie/demonstratie in stille kamer; jan. 1869 volgens PP of na 1861 volgens AOY; **JA** | **ONBEKEND** | naamloze Bengaalse vrienden | PP 323–324; AOY 4088–4107 | Hostnaam, adres, straat en route verder ontbreken |
+| 54 | Panagarh railway station, Panagarh, Paschim Bardhaman, West-Bengalen | station / reisstop | Uitgestapt bij reizen naar Bishnupur in mei 1886 en mei 1891; **JA** | **DEELS**; stationsidentiteit/plaats continu, historische platform/fabric onzeker | Panchanan Bhattacharya ontmoette hem in 1891 | PP 791–797 | Spoorboekjes/treinnummers en platform ontbreken |
+| 55 | Waarschijnlijke Ramamoy Bhattacharjee-familiewoning/huwelijksvenue, Kadakuli, Bishnupur, Bankura, West-Bengalen | privéhuis / huwelijk | Reis naar huwelijk van dochter Harimohini, laatste week mei 1886; aanwezigheid in Bishnupur zeker, specifiek huis **ONZEKER** | **ALLEEN_PLAATS**; Kadakuli en bruidegomfamilie bekend, huis niet | Ramamoy Bhattacharjee en familie | PP 353, 791–793; AOY 4216 (huizen van schoonvaders) | Huwelijksakte/adres nodig; venue niet expliciet als Ramamoy-huis beschreven |
+| 56 | Huis van de schoonfamilie van de jongste zoon in Bishnupur, Bankura | privéhuis / familiebezoek | AOY zegt bezocht; PP beschrijft reis voor huwelijk van zoon en initiatie van Kailasbabu, mei 1891; **JA** | **ONBEKEND**; hostnaam/adres niet gegeven | schoonfamilie jongste zoon; Pan
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=90 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/LAHIRI_MAHASAYA_PRE_COMPARE_FREEZE.md blob_sha=25511fb1e1e3556e68fb057a3dfdfdea0a8ccd5f original_offset=24576 original_length=4096 payload_bytes=4096 chunk_index=6 chunk_count=8 classification=text
+chanan; Kailasbabu | AOY 4216; PP 791–797 | Genealogie/huwelijksregister van Dukari nodig; mogelijk maar niet bewezen gelijk aan huwelijksvenue |
+| 57 | Burdwan/Barddhaman railway station, Barddhaman, West-Bengalen | station / reisstop | Aankomst uit Kashi in december 1892 voor Tirolreis; **JA** | **DEELS**; station continu, historische platform/fabric onzeker | Panchanan Bhattacharya wachtte met palanquin | PP 798–800 | Trein, datum en platform ontbreken |
+| 58 | Kali-tempel van Tirol, huidig Tirol in Arambagh subdivision, Hooghly, West-Bengalen (historisch door bron “Burdwan district”) | tempel / medicijnreis | Ging per palanquin naar tempel en verkreeg medicijn voor zoon Dukari; december 1892; **JA** | **DEELS**; dorp en tempeltraditie benoemd, huidige structuur/preciese Kali-shrine niet onafhankelijk vastgesteld | Panchanan; stationschef van Tarakeswar; tempelnetwerk | PP 798–800 | Moderne districtsgrens verschilt; bouwhistorie en exacte shrine-pin vereisen veldwerk |
+| 59 | Panagarh–Bishnupur cow-cart route, West-Bengalen | reisroute / overland stopketen | Koeienkar vanaf Panagarh na treinreis, in 1886 en 1891; **JA** | **DEELS**; eindpunten/vervoermiddel bekend, 19e-eeuws tracé en tussenstops niet | familie; Panchanan in 1891 | PP 791–797 | Historische wegenkaart nodig; geen tussenstop uit bron afgeleid |
+| 60 | Barddhaman–Tirol palanquinroute, West-Bengalen | reisroute / overland stopketen | Palanquin naar Tirol en terug, december 1892; **JA** | **DEELS**; eindpunten en afstand ca. 17–18 mijl bekend, tracé onbekend | Panchanan; dragers | PP 798–800 | Bron vergelijkt ook slechtere route vanaf Tarakeswar, maar Lahiri nam die niet; daarom alleen Barddhamanroute bevroren |
+
+## Belangrijkste conflicten en normalisatiebesluiten
+
+1. **Ranikhetjaar en terugkeerroute.** AOY geeft 1861, stationering in Danapur en terugkeer naar Danapur; PP geeft transferorder 23-11-1868, vertrek uit Kashi 27-11-1868, vertrek uit Ranikhet 15-01-1869 en terugkeer via Mirzapur. Beide tradities zijn behouden; er is niet harmoniserend gegokt.
+2. **Pensioenjaar.** PP noemt september 1880; AOY 1886. Ramnagar is als bewezen werk-/verblijfcomplex opgenomen zonder het jaartalconflict op te lossen.
+3. **Babaji-grot.** Het Drongiri/Dunagiri-massief en een grot zijn bronmatig stevig; de huidige Kukuchina-pelgrimsclaim is niet voldoende om `EXACT` toe te kennen.
+4. **Ghurni-tempels.** De verwoeste familietempel, de later herbouwde Ghurni Shiva Site en de niet-gelokaliseerde Kashi-tempel van Gour Mohan zijn drie verschillende entiteiten.
+5. **Twee Simon Chauhatta-huizen.** Het huis van broer Chandrakanta en Lahiri’s later gehuurde tweeverdiepingenhuis zijn niet zonder bewijs samengevoegd.
+6. **Twee Bishnupurreizen.** Het huwelijk van dochter Harimohini (1886) en het huwelijk/familiebezoek rond de jongste zoon (1891) blijven aparte host-entiteiten; Panagarh en de cart-route zijn gedeelde reisobjecten.
+7. **Bovennatuurlijke claims.** Dasasamedh-bilocatie en het gouden paleis staan als expliciet onzekere/visionaire leads in de freeze, zodat recall behouden blijft zonder ze als gewone fysieke aanwezigheid te presenteren.
+
+## Negatieve bevindingen en false-positive-controle
+
+- **Satyalok D22/3 Chausattighat** is een latere familie-/memorialtempel; geen bewijs gevonden dat Lahiri er lichamelijk was. Zijn eigen huis is D/31/58 Madanpura.
+- De **royale Kashi-“death palace”** is expliciet geen bezoek: PP 463–465 laat Lahiri weigeren er lichamelijk heen te gaan. Niet in de masterlijst opgenomen.
+- **Kedareswar-tempel**: PP 338 lokaliseert een florist/discipel bij de ingang, niet Lahiri. Geen persoonlijke aanwezigheid bewezen.
+- **Garureswar Mahadeva-tempel**: PP 470–473 gebruikt de tempel als buurtanker; een bezoek van Lahiri staat er niet. Niet gelijkgesteld aan de in-house shrine.
+- **Kashi Vishwanath-tempel**: PP 780 beschrijft dat een discipel daarheen ging en Lahiri’s vorm in het beeld zag; dat is geen bewijs dat Lahiri lichamelijk in de tempel was.
+- **Trailanga Swami-tempel** is alleen als onzekere specifieke identificatie o
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=91 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/LAHIRI_MAHASAYA_PRE_COMPARE_FREEZE.md blob_sha=25511fb1e1e3556e68fb057a3dfdfdea0a8ccd5f original_offset=28672 original_length=2510 payload_bytes=2510 chunk_index=7 chunk_count=8 classification=text
+pgenomen: AOY bewijst gezamenlijke meditatie, niet de venue. De Ananda-pelgrimagepagina maakt de tempelkoppeling.
+- **Bishuddhananda Math bij Ahalyabai Ghat**: PP 388 gaat over Tinkari’s bezoeken aan Bishuddhananda; geen Lahiri-bezoek gevonden.
+- **Kakina Estate Thakurbari, Kashi**: PP 390 zegt dat bezoekers daar logeerden en later door Lahiri werden geïnitieerd, maar bewijst niet dat Lahiri naar de Thakurbari ging.
+- **Arya Mission Institution, Kolkata**: door Panchanan met Lahiri’s toestemming/lineagefunctie ontwikkeld; geen bron gevonden die Lahiri’s bezoek aantoont.
+- **Deoghar/52 Bigha**: latere relic-/lineageconnectie, geen lichamelijke aanwezigheid van Lahiri gevonden.
+- Geen voldoende bewijs gevonden voor persoonlijke aanwezigheid in **Allahabad/Prayagraj, Haridwar, Puri, Serampore, Agra, Vrindavan, Badrinath, Kedarnath of Amarnath**. Verhalen over discipelen, latere ashrams of verschijningen zijn niet als reis van Lahiri overgenomen.
+- Familieverwijzingen naar **Latakhola (Dhaka)** en **Varanga (Pabna)** vallen bovendien buiten het huidige India en leverden geen bewezen reis van Lahiri op; zij zijn niet in deze India-freeze opgenomen.
+
+## Onopgeloste gerichte leads voor later archief-/veldonderzoek
+
+- Gour Mohans Kashi-Shivatempel; Simon Chauhatta-kadaster; Devnarayan Sanyal-huis; beide maaltijdhuizen; Pareshbabu; oude stervende discipel; Nepalese en Singh-leslocaties.
+- Colonial PWD/Military Engineering Works establishment books en personeelsdossier voor kantooradressen, quarters en exacte postingchronologie in Ghazipur, Mirzapur, Buxar, Katwa, Gorakhpur, Danapur, Nainital, Ranikhet en Kashi.
+- Schoolakten/-registers voor Joynarayan, Government Sanskrit College, Bangalitola High School en de meisjesschool.
+- Historische topo-/surveykaarten voor Ranikhet–Drongiri, Gogash, cave cluster, Panagarh–Bishnupur en Barddhaman–Tirol.
+- Huwelijksregisters/genealogie voor beide zonen en dochter Harimohini; hostadressen in Krishnanagar en Bishnupur.
+- Gangadhar De’s studio-/negatiefarchief voor de oorspronkelijke foto-opnamelocatie.
+- Trailanga-ashramarchief voor de precieze gezamenlijke meditatieplek; Barrackpore-hostidentificatie voor Shankari Mai’s getuigenis.
+
+## Freeze-verklaring
+
+Deze 60 records zijn de volledige genormaliseerde externe PRE-COMPARE set van deze run voor Lahiri Mahasaya. Na deze verklaring zijn geen interne repository-atlassen of vergelijkingsresultaten geopend en zijn geen A/B/C-, route-, cluster- of reconciliatiekeuzes gemaakt.
+
+<<< END CHUNK >>>
+

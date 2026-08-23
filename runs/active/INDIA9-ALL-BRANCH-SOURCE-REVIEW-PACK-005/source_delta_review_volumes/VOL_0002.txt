@@ -1,0 +1,747 @@
+>>> CHUNK stream_row=15 path=india4/reference/PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md blob_sha=089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d original_offset=45056 original_length=4096 payload_bytes=4096 chunk_index=11 chunk_count=15 classification=text
+hi #59**, **Mumbai #66–70**, **Madras #85–86** en de **Kashmir-route #94–105**: aanwezigheid op stads-/route-niveau is breed aannemelijk; hotels, huizen en tussenstops zijn slechts gedeeltelijk bekend.
+- **Ellora #90 en Ajanta #91** hebben meerdere vinders maar géén inhoudelijke consensus: de meerderheid van de vroege AI's zegt “bezocht”, terwijl AI-5 en DeepSeek de tekst als mogelijk louter beschrijvend behandelen.
+
+## Consensus over uitsluiting
+
+- **Dwarahat/Babaji's Cave #106**: meerdere AI's waarschuwen dat de historische gebeurtenis Lahiri Mahasaya betreft, niet Yogananda.
+- **Dehradun-hermitage #112**: AI-5 en Grok vinden geen persoonlijk bezoek; alleen het vertrek van Anandamoyi Ma is gedocumenteerd.
+- **Gouden Tempel #96**: route via Amritsar is mogelijk, maar geen bezoek aan de tempel bewezen.
+
+---
+
+# D. CONFLICTEN
+
+| Conflict | Standpunten | Masterbeoordeling | Vereiste controle |
+|---|---|---|---|
+| Exacte identiteit Gorakhpur-geboortehuis | Grok: oorspronkelijke woning weg, alleen site; DeepSeek: exacte site; Gemini: “4 Gorabati Lane” én later adres onbekend; AI-5: huidige aanwijzing rust op traditie/overheid | Geboorte **bewezen**, fysieke identiteit **DEELS** | Eigendoms-/kadastrale YSS- of familiebron; oorsprong van “4 Gorabati Lane”. |
+| Wie zat op 50 Amherst Street? | Grok noemt Master Mahasaya maar zet hem gelijk aan Nagendra Nath Bhaduri; Gemini/AI-5 onderscheiden Mahendra Nath Gupta van Bhaduri | Persoonsverwarring bij Grok; adres behouden voor Master Mahasaya/familie, Bhaduri apart #12–13 | Volledige AY hfst. 7 en 9 naast elkaar. |
+| Serampore-adres en huidige structuur | `3 Rai Ghat Lane`, `57 Netaji Subhas Avenue`, `3A Buro Bibi`; “oorspronkelijk bewaard” versus “grotendeels gesloopt” | Historische locatie zeker; modern `EXACT` niet bewezen | YSS-eigendomsakte, oude plattegrond, bouwgeschiedenis. |
+| Puri Karar Ashram exact pand/kamer | Sommige AI's `EXACT`; andere `DEELS` of alleen plaats; latere bouw naast origineel | Campus/ashram bewezen; kamer en huidige historische stof **DEELS** | Karar/YSS-kadaster en bouwfasering. |
+| Ranchi startjaar en kamerlabels | 1917 versus 1918; persoonlijke kamer, Vision Room en storeroom lopen door elkaar | Campus bewezen; subruimten niet automatisch één locatie | Campusplattegrond en YSS-erfgoeddossier. |
+| Dwivedi Hotel kamer 205 | DeepSeek: hoge waarschijnlijkheid; AI-5: alleen Rana Mahal-huis, exact pand onbekend | **WAARSCHIJNLIJKE kandidaat**, niet bewezen | Historisch kadaster, eigendomsketen, foto's en tekstuele looproute AY hfst. 10. |
+| Anandamayi Ma in Varanasi | Gemini: exacte Varanasi-ashramontmoeting; AI-5: Bhowanipur, Ranchi, Serampore-station; geen Varanasi | Varanasi-claim **zeer waarschijnlijk foutief** | Volledige AY hfst. 45 + Wright-chronologie. |
+| Kumbh Mela 1936 | Grok/Gemini: Yogananda aanwezig; AI-5: gedetailleerde Wright-brief bewijst alleen Wrights bezoek | **Onopgelost**; geen persoonlijke aanwezigheid claimen | Volledige Wright-correspondentie, *Inner Culture/East-West* 1936 en YSS-reisagenda. |
+| Wardha: Maganvadi of Sevagram? | Gemini noemt ook Sabarmati; AI-5 ziet Maganvadi/Sevagram-ambiguïteit en mogelijk tweede bezoek 1936 | Wardha-ontmoeting bewezen; Sabarmati niet; exact complex en tweede datum open | AY hfst. 44, Gandhiaanse dagboeken, AP-telegram 27 aug. 1936. |
+| Mumbai-hotels | Grok: Taj Mahal Hotel; AI-5: Royal Hotel expliciet voor Wright; exacte resurrection-kamer onbekend | Hotels niet samenvoegen; Yogananda in geen van beide hard bewezen | Wrights volledige Bombay-brief, hotelregisters, Yogananda-correspondentie. |
+| Mysore-paleizen | Gemini: Lalitha Mahal/Amba Vilas/Mysore Palace; Copilot/AI-5: Third Princess's Mansion en Yuvaraja-zomerpaleis | Minstens twee koninklijke locaties waarschijnlijk; moderne namen niet vastgesteld | Wrights originele brief, paleisagenda's en Mysore Palace-archief. |
+| Mysore versus Bengaluru Town Hall | Copilot onderscheidt Mysore Town Hall en Chetty Town Hall Bengaluru; AI-5 noemt “Sir Puttanna Chetty Town Hall” ook in Mysore | Twee steden/venues behoud
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=16 path=india4/reference/PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md blob_sha=089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d original_offset=49152 original_length=4096 payload_bytes=4096 chunk_index=12 chunk_count=15 classification=text
+en; AI-5's Mysore-naam mogelijk verwisseld | Kranten van 6/20 nov. 1935 en historische zaalnamen. |
+| Ramana Maharshi-locatie en bron | DeepSeek plaatst hem onjuist in Bangalore; andere AI's: Tiruvannamalai; AI-5: niet in gangbare AY | Tiruvannamalai/Ramanasramam bewezen; Bangalore-claim fout | Yogananda's apart gepubliceerde herinnering, Ramanasramam-dagboek/film. |
+| Ellora/Ajanta/Kanchipuram/Hyderabad | Grok/Copilot behandelen als bezoeken; DeepSeek twijfelt; AI-5 zegt mogelijk alleen genoemd | `BETWIST` of `ALLEEN PLAATS`; geen hard bezoekclaim | Volledige onverkorte AY hfst. 41 en complete Wright-tourbrieven. |
+| Giri Bala-huis exactheid | AI-5 `EXACT`; vier andere AI's slechts dorp/route of `DEELS` | Bezoek bewezen, huidig huis **DEELS** | Foto-onderschrift, Wright-route, lokaal kadaster/veldonderzoek. |
+| Yogoda Math Dakshineswar | Copilot zegt Yogananda werkte er 1935–36; AI-5 vindt datering 1939 | Persoonlijke aanwezigheid op dit specifieke perceel **betwist** | Aankoopakte, bestuursnotulen en brieven 1935–39. |
+| Taj Mahal Agra | Grok: bezocht; DeepSeek: unresolved | Waarschijnlijk, maar nog geen consensus | Exacte AY/Wright-passage en 1936-route. |
+
+---
+
+# E. MOGELIJKE GATEN
+
+## Bronnen die nog niet afdoende zijn onderzocht
+
+1. **Volledige, onverkorte AY-tekst en editieverschillen.** Vooral hoofdstukken 11, 14, 16–17, 19, 23, 25–26, 30, 32, 34–40, 42–43 en 47–49 zijn volgens AI-5 niet overal zin voor zin op locaties geëxtraheerd. Dit raakt Brindaban, Benares, de terugkeerroute en de Bombay-“resurrection”.
+2. **Volledige Wright-dagboeken en brieven.** De gepubliceerde fragmenten dekken aankomst, Wardha, Zuid-India, Mysore, Ranchi, Bombay, Giri Bala en Kara Patri, maar hotels, perrons, zalen en tussenstops kunnen in ongepubliceerde of nog niet geopende delen staan.
+3. **YSS/SRF-interne archieven.** Brieven, reisagenda's, kasboeken, eigendomsakten, gastboeken, oude plattegronden en foto-onderschriften zijn essentieel voor Serampore, Puri, Ranchi, Dakshineswar, Mumbai en de Zuid-India-zalen.
+4. **Lokale kranten 1910–1936.** Vooral Kolkata, Mysuru, Bengaluru, Chennai en Mumbai: zaaladvertenties, ontvangstcomités, hotels en exacte data.
+5. **Familiebronnen.** Het volledige *Mejda*-memoire, Ghosh-familiearchief en papieren van Tulsi Bose, Giri Bala, de Lahiri-familie en oom Sarada Prasad Ghosh.
+6. **Bengaalse en andere Indiase taalbronnen.** De AI-sweeps waren grotendeels Engelstalig; lokale biografieën en kranten kunnen kleine huizen, scholen en gastheren zichtbaar maken.
+7. **Fotografische forensiek.** Systematische controle van achtergronden, bijschriften en negatiefregisters voor foto's met Sri Yukteswar, Gandhi, Ramana Maharshi, Giri Bala en Ranchi-groepen.
+8. **Kadasters en gebouwsgeschiedenis.** Nodig voor Gorakhpur, 50 Amherst, Bhaduri-huizen, Tulsi Bose-huis, Serampore, Puri, Dwivedi Hotel en Biur.
+
+## Geografische en chronologische gaten
+
+- **Pre-1910 familieverplaatsingen:** exacte spoorwegwoningen, Ichapur, Bareilly, Lahore en Chittagong.
+- **Calcutta microtopografie:** huizen van heiligen/gastheren, vroege lezingen, het huis van de discipel in Bhowanipur en Tagores eerste ontmoetingsplek.
+- **Serampore–Puri–Ranchi-reisroutine 1910–1920:** stations, logeerhuizen en tussenstops.
+- **Dihika-overgang naar Ranchi:** landgoed, oorspronkelijke schoolgebouwen en verhuisroute.
+- **Kashmir-reis:** naam van Srinagar-herberg, vervoer vanaf Rawalpindi, mogelijke Amritsar-stop, shikara/steiger en exacte bergpaden.
+- **Bombay–Wardha–Calcutta, 1935:** kade, treinroute, stations, hotel en ontvangstadressen.
+- **December 1935–januari 1936:** gat tussen Ramanasramam en de betwiste Kumbh Mela-periode.
+- **Agra–Vrindavan–Delhi–Meerut–Varanasi, 1936:** bijna alles blijft op stadsniveau.
+- **Zuid-India-tour:** exacte route, overnachtingen en onderscheid tussen bezochte en slechts beschreven plaatsen; vooral Hyderabad, Kanchipuram, Ellora, Ajanta, Travancore en Kanyakumari.
+- **April–juli 1936:** periode rond Giri Bala, Madras- en Bombay-lezingen bevat waarschijnlijk nog zalen, gasth
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=17 path=india4/reference/PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md blob_sha=089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d original_offset=53248 original_length=4096 payload_bytes=4096 chunk_index=13 chunk_count=15 classification=text
+eren en reisstops.
+- **Historisch Brits-Indië buiten huidige India:** Lahore, Rawalpindi en Chittagong zijn biografisch relevant maar vragen onderzoek in Pakistaanse/Bangladesh-archieven.
+
+## Onvoldoende onderzochte locatiecategorieën
+
+- Privéwoningen van boyhood friends, zwager, broer Ananta, Tulsi Bose, onbekende discipelen en Zuid-Indiase gastheren.
+- Hotels, pensions, guesthouses en spoorwegdienstwoningen.
+- Specifieke lezingzalen in Kolkata, Mumbai, Hyderabad en meerdere dagen in Mysuru/Bengaluru/Madras.
+- Tempels binnen genoemde tempelsteden, vooral Vrindavan en Kanchipuram.
+- Kamers en tuinen binnen grotere complexen: Ranchi, Wardha, Serampore, Puri, Dakshineswar en Santiniketan.
+
+**Verzadigingsoordeel:** niet verzadigd. De hoofdassen zijn herkenbaar, maar micro-locaties, gastheerwoningen, zaalnamen, hotels en reisstops zijn nog aantoonbaar onvolledig.
+
+---
+
+# F. KWALITEITSAUDIT
+
+## Welke AI vond de meeste unieke waardevolle locaties?
+
+**AI-5 (het onbenoemde vijfde onderzoek)** leverde duidelijk de meeste unieke waarde. Het onderscheidde 71 genummerde kandidaten en voegde vooral waarde toe met:
+
+- kleine maar fysieke plekken zoals Panthi-pension, Moghul Serai-station, Burdwan-station, Gokhale Hall, Bowbazar/Serpentine Lane en Tagores Calcutta-studeerkamer;
+- concrete sublocaties in Kashmir;
+- expliciete negatieve bevindingen die populaire maar foutieve associaties afvangen;
+- bronkritiek waarbij Wrights eigen aanwezigheid niet automatisch aan Yogananda werd toegeschreven.
+
+De keerzijde is dat AI-5 soms te stellig `EXACT` gebruikt (Giri Bala-huis, enkele instellingen) en een mogelijke Mysore/Bengaluru Town Hall-verwisseling bevat.
+
+**Gemini** leverde minder unieke vondsten, maar twee daarvan zijn zeer belangrijk: **Dihika** en **Scottish Church College**. Zijn meer spectaculaire unieke claims—Sabarmati, Varanasi-Anandamayi en het samengevoegde Mysore Palace/Lalitha Mahal/Amba Vilas—zijn juist de minst betrouwbare.
+
+**Copilot** voegde sterke micro-locaties toe in Wardha en concrete Zuid-Indiase zalen. **Grok** gaf een solide geografische ruggengraat en enkele waardevolle leads zoals Agra/Taj Mahal en de Puri-kust. **DeepSeek** leverde vooral Dwivedi Hotel kamer 205 als interessante, maar nog onbewezen precisieclaim.
+
+## Welke AI vond vooral duplicaten?
+
+**DeepSeek** had naar verhouding de meeste overlap met de al door andere AI's gevonden kernlocaties. Zijn atlas herhaalt Gorakhpur, 4 Garpar Road, Dakshineswar, Serampore, Ranchi, Puri, Wardha, Ramanasramam en de brede Kashmir-/Zuid-India-routes. De unieke meerwaarde zit hoofdzakelijk in **Dwivedi Hotel kamer 205** en **Rai Ghat-banyanboom**, beide met zwakker bewijs dan de kernlocaties.
+
+Dat maakt DeepSeek niet waardeloos: juist de precisieclaims zijn nuttige onderzoekshypothesen. Maar als maatstaf “nieuwe, reeds goed onderbouwde fysieke locaties” wordt gebruikt, was de netto toevoeging het kleinst.
+
+## Welke locaties lijken het meest betrouwbaar?
+
+De betrouwbaarste locaties zijn die waar een expliciete bronpassage, herhaalde biografische aanwezigheid en een duidelijk identificeerbare fysieke plek samenvallen:
+
+1. **4 Garpar Road, Kolkata (#5–6)**.
+2. **Dakshineswar Kali Temple (#9)**.
+3. **Sri Yukteswars Serampore-site (#27)** — aanwezigheid zeer sterk, huidig gebouw/adres minder zeker.
+4. **Ranchi Vidyalaya-campus (#36)**.
+5. **Karar Ashram, Puri (#40)** — aanwezigheid zeer sterk, exacte kamers/bouwfasen minder zeker.
+6. **Giri Bala in Biur (#38)** — ontmoeting sterk; exacte huidige woning niet.
+7. **Maganvadi/Wardha-ontmoeting met Gandhi (#62)** — ontmoeting sterk; Sevagram/Maganvadi-lokalisering verfijnen.
+8. **Chamundi-tempel (#71), KRS-dam (#78) en Brindavan Gardens (#79)**.
+9. **Bengaluru Town Hall (#84)** en **Ramanasramam (#87)**.
+10. **Shankaracharya-tempel, Srinagar (#97)**.
+
+Ook **Kalighat (#7)**, **Bose Institute (#21)**, **Serampore College (#29)**, **Panthi-pension (#30)**, **Ram Gopal-hut (#34)** en **Santiniketan (#35)** hebben goede tekstuele basis, maar werden door minder AI's gevonden en verdienen daarom een directe tekstcont
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=18 path=india4/reference/PARAMAHANSA_YOGANANDA_MASTER_LOCATION_ATLAS.md blob_sha=089b652e6b0c7393fa8e6508f7c1bd6e3bb7399d original_offset=57344 original_length=3480 payload_bytes=3480 chunk_index=14 chunk_count=15 classification=text
+role voordat `EXACT` op modern gebouwniveau wordt gebruikt.
+
+## Waar moet nog primaire broncontrole gebeuren?
+
+Hoogste prioriteit:
+
+1. **Kumbh Mela #58:** was Yogananda zelf aanwezig of alleen Wright?
+2. **Dwivedi Hotel kamer 205 #47:** kan de moderne identificatie werkelijk aan AY's Rana Mahal-huis worden gekoppeld?
+3. **Dakshineswar YSS Math #11:** bezocht/verwierf Yogananda het specifieke perceel vóór zijn vertrek, of ontstond de locatie pas in 1939?
+4. **Mumbai #67–69:** Taj Mahal Hotel, Royal Hotel of een derde verblijfplaats; waar vond de “resurrection”-ervaring plaats?
+5. **Ellora/Ajanta/Kanchipuram/Hyderabad #88–91:** bezoek of slechts beschrijving?
+6. **Wardha #62–65:** Maganvadi versus Sevagram; sluit Sabarmati uit; onderzoek mogelijk tweede bezoek in 1936.
+7. **Mysore-paleizen en Town Halls #72, #75–77:** exacte historische gebouwidentiteiten en data.
+8. **Gorakhpur #1:** herkomst van het precieze adres en de exacte geboortehuissite.
+9. **Serampore/Puri #27 en #40:** kadastrale adressen, oorspronkelijke bouwmassa en kamers.
+10. **Giri Bala #38:** exacte woning, foto-onderschrift en huidige site.
+
+Daarna:
+
+- Dihika #33, Jagannath-tempel #42, Vishvanath-tempel #49, Taj Mahal #57 en Gokhale Hall #85: controleer de exacte passages/data.
+- Tulsi Bose #17, Tagore-studeerkamer #23, oom Sarada #31, Meerut #60 en C.V. Raman #80: zoek primaire gastheer-/familiebronnen.
+- Scottish Church College #22, Serampore College #29, Maharaja's College #73, Medical School #74, National High School #82 en Intermediate College #83: controleer inschrijvings- en zaalregisters.
+
+## Eindbeoordeling van de vijf onderzoeken
+
+| AI | Sterkste bijdrage | Zwakste punt | Netto-oordeel |
+|---|---|---|---|
+| **Grok** | Goede brede ruggengraat; duidelijke host- en gatenlijst | Bundelt soms meerdere fysieke plekken onder één stadsitem; enkele stellige hotel-/bezoekclaims | Sterke basisatlas, matige microgranulariteit. |
+| **Gemini** | Dihika, Scottish Church College, Jagannath en onderwijscontext | Meerdere waarschijnlijke conflaties: Sabarmati/Wardha, Mysore-paleizen, Anandamayi in Varanasi; interne tegenspraak Gorakhpur | Waardevolle unieke vondsten, maar hoogste factcheckbehoefte. |
+| **DeepSeek** | Dwivedi Hotel-hypothese, Tulsi Bose-context, Rai Ghat-lead | Veel duplicaten; verwarring Ramana/Bangalore en Hyderabad/Ellora-Ajanta; secundaire pelgrimsbronnen soms te zwaar gewogen | Nuttig als hypothesegenerator, minder sterk als definitieve atlas. |
+| **Copilot** | Concrete zalen en Wardha-microplekken | Selectieve dekking; sommige `EXACT`-labels sterker dan de bronbasis; historische/latere gebeurtenissen soms vermengd | Goede specialistische aanvulling, vooral Zuid-India en Wardha. |
+| **AI-5** | Grootste aantal unieke micro-locaties; beste negatieve audit en bronkritisch onderscheid tussen Yogananda en derden | Enkele overstellige exactheidslabels; Town Hall-geografie mogelijk verwisseld; niet alle AY-hoofdstukken volledig gedekt | Hoogste totale onderzoekswaarde en beste basis voor vervolgverificatie. |
+
+---
+
+## Slotnotitie
+
+Deze master-atlas is **niet compleet** en pretendeert dat uitdrukkelijk niet. Hij bewaart alle unieke fysieke vondsten en leads uit de vijf AI-resultaten, verwijdert alleen aantoonbare duplicaten, splitst conflaties waar nodig en houdt onbewezen of foutieve associaties zichtbaar. Een volgende onderzoeksronde moet primair worden ingericht als bron- en identiteitscontrole, niet als toeristische selectie.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=19 path=india4/roles/BRONS.md blob_sha=90eda8fec9b4c9118c203d4f92b960a8ea7541a4 original_offset=0 original_length=1301 payload_bytes=1301 chunk_index=0 chunk_count=1 classification=text
+# BRONS — BATCHCONTRACT
+
+Missie: onderzoek uitsluitend het kandidaatbereik van de genoemde BRONS-batch, maximaal tien kandidaten.
+
+Lees uitsluitend: `india4/START.md`, dit contract, `india4/protocols/GITHUB_REQUIRED.md`, `india4/protocols/GEO.md`, `india4/protocols/MARK_DECISIONS.md`, de runopdracht, de kandidaatbron en het eigen batchbestand of voortgangsbestand.
+
+Per kandidaat:
+- zoek de volledige kandidaatnaam als openbare Google Maps-zoekopdracht;
+- kies alleen een marker die inhoudelijk dezelfde fysieke plek is;
+- controleer naam en waar nodig wijk, ghat, adres of plaatssoort;
+- neem exact het markercoördinaat over;
+- gebruik geen schatting, terreinmiddelpunt, oude KML-waarde, officieel websitecoördinaat als vervanging of nabijgelegen marker;
+- wanneer geen passende openbare Google Maps-marker kan worden vastgesteld: `GOOGLE_MAPS_MARKER_NOT_CONFIRMED`, reden vastleggen en doorgaan.
+
+Bestaande coördinaten zijn uitsluitend vergelijkingsmateriaal. BRONS wijzigt geen A/B/C-keuze.
+
+Output: één JSONL-batchbestand met volledige records. Bij onvolledige uitvoering daarnaast `PROGRESS.yaml` met afgeronde candidate_id’s en `next_candidate`. Bij volledige uitvoering: readback, commit, batchstatus COMPLETED en exact één complete startvraag voor de volgende batch. Stop daarna.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=20 path=india4/templates/BATCH_OUTPUT.md blob_sha=922a51a72fc22bed2a9ffc00ecd51ee8700c4478 original_offset=0 original_length=582 payload_bytes=582 chunk_index=0 chunk_count=1 classification=text
+# INDIA4 BATCHOUTPUT
+
+Per kandidaat één volledige JSONL-regel met minimaal:
+- candidate_id
+- candidate_name
+- candidate_description
+- google_maps_search_term
+- google_maps_found_name
+- google_maps_public_link_or_finding
+- latitude
+- longitude
+- name_check
+- locality_ghat_address_check
+- marker_status: EXACT_GOOGLE_MAPS_MARKER | GOOGLE_MAPS_MARKER_NOT_CONFIRMED
+- old_coordinate
+- difference_or_problem
+- sources
+- uncertainty_note
+
+Regels moeten volledig en geldig zijn. Geen gedeeltelijke JSONL-regels. Bij hervatting reeds afgeronde candidate_id’s niet opnieuw onderzoeken.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=21 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/BRONS/BRONS-B03.jsonl blob_sha=4b171be06ec5fce93c61688c629c0de2e9838450 original_offset=0 original_length=1981 payload_bytes=1981 chunk_index=0 chunk_count=1 classification=text
+{"candidate_id":"VNS-CAND-021","canonical_name":"Nepali Temple / Kathwala Temple","protected_mark_status":"DOOR_MARK_TE_BEOORDELEN","research_status":"COMPLETED_UNRESOLVED","geo_status":"GOOGLE_MAPS_MARKER_NOT_CONFIRMED","final_latitude":null,"final_longitude":null,"old_comparison":{"latitude":25.312,"longitude":83.0132,"geo_status":"WORKING_GOOGLE_MAPS_PIN","use":"COMPARISON_ONLY"},"identity_check":{"matched_place":"Nepali Temple / Kathwala Temple / Shri Samrajeshwar Pashupatinath Mahadev","address":"near Lalita Ghat, Ghats of Varanasi, Lahori Tola, Varanasi, Uttar Pradesh 221001, India","physical_identity":"CONFIRMED","marker_identity":"NOT_EXACTLY_EXTRACTED"},"evidence":[{"url":"https://wanderlog.com/place/details/7405/nepali-temple","supports":"Google-derived listing confirms the Nepali Temple/Kathwala Temple identity, Shiva-temple type, Lalita Ghat location, Lahori Tola address and proximity to Manikarnika Ghat"},{"url":"https://www.google.com.np/travel/hotels/entity/ChkIwo6fzOn895U8Gg0vZy8xMWI4Y2c4Z2hmEAQ","supports":"Public Google travel place page confirms the Nepali Temple name, alternate Kathwala identity and near-Lalita-Ghat address"},{"url":"https://www.explorebanaras.in/place/kathwala-temple/","supports":"Confirms the wooden Nepalese pagoda-style Shiva temple on Lalita Ghat and the same Lahori Tola address"},{"url":"https://visitvaranasi.in/visit-temples/nepali-mandir-varanasi/","supports":"Confirms the Kathwala Nepali Mandir as a Shiva temple directly on Lalita Ghat beside the Ganga"}],"reason":"The intended physical place is conclusively identified as the Nepali/Kathwala Shiva temple at Lalita Ghat, near Manikarnika Ghat and within the Kashi Vishwanath corridor area. Public Google-derived and independent sources agree on the name, address and landmark context, but no exact public Google Maps place URL exposing a uniquely verifiable marker coordinate was found. The old comparison coordinate was not reused.","checked_at":"2026-07-28"}
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=22 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/RUN.yaml blob_sha=d8ce16b6b43fa1eb873a97fa2a69c36a5bd5bac7 original_offset=0 original_length=2773 payload_bytes=2773 chunk_index=0 chunk_count=1 classification=text
+schema_version: 2
+run_id: VARANASI-GEO-DELIVERY-REPAIR-001
+system: INDIA4
+status: BRONS_B03_IN_PROGRESS
+status_corrected_at: 2026-07-28
+status_correction_note: >
+  Voorheen stond hier READY_FOR_BRONS_B01, sterk verouderd t.o.v. de werkelijke voortgang
+  (B01+B02 waren toen al volledig af). Zie ROOT_CAUSE.md. Vertrouw voor de actuele stand
+  altijd scripts/next_candidate.py, niet dit veld.
+created_at: 2026-07-24
+batch_model: AUTONOMOUS_SEQUENTIAL_COMMIT_PER_CANDIDATE
+objective:
+  - Onderzoek alle 40 Varanasi-kandidaten opnieuw op fysieke locatie.
+  - Gebruik uitsluitend exact vastgestelde openbare Google Maps-markers als eindcoördinaat.
+  - Behandel bestaande coördinaten uitsluitend als vergelijkingsmateriaal.
+  - Isoleer kandidaatgebonden onzekerheid en ga door.
+inputs:
+  candidate_source: runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/INPUT/candidates.jsonl
+  old_geo_comparison: runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/INPUT/old_geo_comparison.jsonl
+protected_mark_decisions:
+  VNS-CAND-001: A
+  VNS-CAND-002: A
+  VNS-CAND-003: A
+  VNS-CAND-007: A
+  VNS-CAND-008: B
+  all_other_35: DOOR_MARK_TE_BEOORDELEN
+explicit_rejections:
+  - candidate_id: VNS-CAND-008
+    coordinate: [25.3045, 82.979369]
+    rule: MUST_NOT_BE_REUSED_AS_FINAL_POINT
+geo_marker_rule:
+  accepted_status: EXACT_GOOGLE_MAPS_MARKER
+  unresolved_status: GOOGLE_MAPS_MARKER_NOT_CONFIRMED
+  forbidden_substitutes: [ESTIMATE, SITE_CENTRE, OLD_KML_COORDINATE, OFFICIAL_WEBSITE_COORDINATE_AS_REPLACEMENT, NEARBY_MARKER]
+batches:
+  BRONS-B01:
+    range: [VNS-CAND-001, VNS-CAND-010]
+    status: COMPLETED
+    output: BRONS/BRONS-B01.jsonl
+  BRONS-B02:
+    range: [VNS-CAND-011, VNS-CAND-020]
+    status: COMPLETED
+    output: BRONS/BRONS-B02.jsonl
+  BRONS-B03:
+    range: [VNS-CAND-021, VNS-CAND-030]
+    status: IN_PROGRESS
+    output: BRONS/BRONS-B03.jsonl
+  BRONS-B04:
+    range: [VNS-CAND-031, VNS-CAND-040]
+    status: WAITING
+    output: BRONS/BRONS-B04.jsonl
+  ZILVER-Z01:
+    range: [VNS-CAND-001, VNS-CAND-020]
+    prerequisites: [BRONS-B01, BRONS-B02]
+    status: WAITING
+    output: ZILVER/ZILVER-Z01.jsonl
+  ZILVER-Z02:
+    range: [VNS-CAND-021, VNS-CAND-040]
+    prerequisites: [BRONS-B03, BRONS-B04]
+    status: WAITING
+    output: ZILVER/ZILVER-Z02.jsonl
+  GOUD:
+    prerequisites: [BRONS-B01, BRONS-B02, BRONS-B03, BRONS-B04, ZILVER-Z01, ZILVER-Z02]
+    status: WAITING
+required_goud_outputs:
+  - GOUD/USER/VARANASI_40_KANDIDATEN.kml
+  - GOUD/USER/VARANASI_KEUZE.pdf
+  - GOUD/GEO_AUDIT.md
+  - GOUD/CORRECTIERAPPORT.md
+  - GOUD/COMPLETION.md
+forbidden_outputs:
+  - CENTRAL_INDIA_MASTER_KML_UPDATE
+active_batch: BRONS-B03
+chat_automation: AUTONOMOUS_VIA_BRONS_AUTOBATCH_PROMPT
+next_candidate_source_of_truth: runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/scripts/next_candidate.py
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=23 path=runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/STATUS.yaml blob_sha=d7d4597be74bf19bfc7621c7ed71ff5f906d2341 original_offset=0 original_length=427 payload_bytes=427 chunk_index=0 chunk_count=1 classification=text
+system: INDIA4
+run_id: VARANASI-GEO-DELIVERY-REPAIR-001
+status: BRONS_B03_IN_PROGRESS
+current_role: BRONS
+next_role: ZILVER
+closed: false
+updated_at: 2026-07-28
+note: >
+  Gecorrigeerd op 2026-07-28 (zie ROOT_CAUSE.md) -- stond hier al sinds 2026-07-24 op
+  READY_FOR_BRONS/"geen onderzoek uitgevoerd", terwijl 21 kandidaten al af waren.
+  Dit veld is niet langer de bron van waarheid; gebruik altijd scripts/next_candidate.py.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=24 path=handoffs/INDIA8_TO_INDIA9_FINAL_BOOT_2026-08-23.md blob_sha=62b874f13aecc56b43dbcb5425ad99c3c4e6a0e6 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# INDIA8 -> INDIA9 FINAL BOOT HANDOFF — 2026-08-23
+
+Status: CURRENT / SUPERSEDES older INDIA8->INDIA9 immediate-action sections where inconsistent.
+
+## FIRST ACTION — NO EXCEPTIONS
+
+1. Open root `README.md`.
+2. Open `governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md`.
+3. Open `governance/ABC_SEMANTIC_LABEL_RULE_2026-08-23.md`.
+4. Read the entire textual repository on the active regie branch and relevant legacy/worker branches before presenting anything to Mark.
+5. Reconcile current Mark canon before applying new findings.
+6. For every item, run `AL BESLIST?` before presenting it.
+7. If you can safely execute something now, execute it in the same turn and commit it. Never leave executable work as prose-only 'next step'.
+
+## HARD PRESENTATION RULE
+Every A/B/C location must ALWAYS be shown as:
+`NAME (plain-language: what it is / why Mark is going there) — A/B/C`.
+Never assume Indian place names are meaningful or memorable to Mark. Example: `Jageshwar (complex of >100 old stone temples in cedar forest) — A`, not just `Jageshwar — A`.
+Clusters may have geographic names, but every route/cluster block must list the concrete visit locations underneath in this semantic format.
+
+## WHY THIS IS HARD
+INDIA8 made a serious regie error on 2026-08-23 by over-weighting recent runs and under-using older still-valid Mark canon. That caused already-decided items to be presented again and existing sleep bases to be underused.
+Known examples: Jageshwar was already A; Binsar already C; Joshi Guest House / Hotel Evelyn / Turiya Niwas already known Kumaon anchors; Sahi River View already LOCKED_BY_MARK for Varanasi.
+Do not repeat this class of error.
+
+## CURRENT TRIP FRAME
+- Travel dates: **18 Dec 2026 through 21 Jan 2027 = 34 days**.
+- Return flight: Delhi.
+- Breathing room at major clusters is preferred over maximizing site count.
+
+## CURRENT CLUSTER / ROUTE CANON — LATEST
+- Haidakhan / Nainital-Kainchi / Babaji-Dunagiri north family remains heavy A.
+- **Kasar Devi / Almora is NO LONGER a dedicated sleep module in the working route.** Latest Mark decision 2026-08-23: it yields to Rishikesh/Haridwar/Kankhal. Old site A's are retained historically but do not create nights. Jageshwar likewise no longer drives a dedicated excursion merely because it was A when already in that region.
+- **Rishikesh / Haridwar / Kankhal is promoted into the working route in place of the Kasar/Almora sleep module.** Its site-level A's include Kankhal Anandamayi Mahasamadhi, Har Ki Pauri Ganga Aarti (LIGHT A), Beatles Ashram (LIGHT A); rafting is B. LIGHT A means visit if the cluster is included but does not independently justify opening the cluster.
+- Vrindavan / Braj / Mathura: A, route-sensitive.
+- Varanasi + Sarnath: A.
+- Bodh Gaya / Gaya: A.
+- Tiruvannamalai / Arunachala: A, fixed.
+- Agra: A, Taj-only; Taj sunrise/earliest opening HARD.
+- Mysore / Bengaluru: C cluster.
+- East/Kolkata: parked.
+
+## CURRENT SLEEP-BASE CANON
+### North
+- Haidakhan: stay in Haidakhan Ashram desired.
+- Joshi Guest House, Kukuchina — LOCKED, Babaji Cave/Dunagiri base.
+- Hotel Evelyn, Nainital — CLUSTER_ANCHOR + site A. Historical authenticity matters more to Mark than comfort; maintenance/heating-cost issues do NOT disqualify it. Targeted independent room/floor/wing closure task exists at `runs/active/INDIA8-HOTEL-EVELYN-RAMDASS-ROOM-CLOSURE-001/TASK.md`.
+- Turiya Niwas / Kasar Devi — old provisional lock retained as historical canon but NOT a working-route sleep module after latest Mark decision.
+- Rishikesh/Haridwar/Kankhal — working-route replacement module; exact sleep property not yet Mark-locked.
+
+### Varanasi
+- Sahi River View Guesthouse, Assi Ghat — LOCKED_BY_MARK; balcony room; Jitendre; greetings from Debby.
+
+### Vrindavan
+- anchor zone: Vrindavan proper — Goda Vihar / old-Vrindavan / Atalla-Chungi side; not Mathura. Specific property not Mark-locked.
+
+### Bodh Gaya
+- anchor zone: walkable Mahabodhi temple core, preferably ~0.8 km or less / Thai Temple–Do Muhan side. Specific property not Mark-locked.
+
+### Tiruvannamalai
+- first lodgi
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=25 path=handoffs/INDIA8_TO_INDIA9_FINAL_BOOT_2026-08-23.md blob_sha=62b874f13aecc56b43dbcb5425ad99c3c4e6a0e6 original_offset=4096 original_length=2297 payload_bytes=2297 chunk_index=1 chunk_count=2 classification=text
+ng concept: apply to stay in Sri Ramanasramam itself if appropriate/accepted; fallback geographic anchor Ramana Nagar / Chengam Road around/opposite Ramanasramam.
+
+### Agra
+- positioning zone: Taj Ganj / Taj East Gate / Shilpgram walkable zone. Avoid pre-dawn taxi dependency if possible. Taj closed Fridays.
+
+## PRECEDENCE FOR TRAVEL REGIE
+1. newest explicit Mark decision / LOCKED_BY_MARK / supersede;
+2. newest accommodation/base lock;
+3. newest cluster-level Mark decision;
+4. newest site-level Mark A/B/C;
+5. current central all-findings/reconciliation;
+6. current governance/handoff;
+7. older protected legacy locks/anchors;
+8. old candidate/overview files only as context.
+Never let an older candidate/overview silently downgrade or reopen a later Mark decision.
+
+## REQUIRED ROUTE WORK ORDER
+`SLEEP BASE -> EXISTING A -> DISTANCES/COMBINATIONS -> LONELY PLANET LAYER -> OPPORTUNISTIC B -> NIGHTS -> CALENDAR/FESTIVALS/CLOSURES -> TRANSPORT -> PROPERTY BOOKING -> DAY CARDS -> FINAL COMFORT SWEEP`
+
+FINAL COMFORT SWEEP is mandatory after route freeze: historic bakeries/patisseries, local signature sweets/products, best coffee, strong restaurants, characterful cafés and other high-quality microstops per sleep base.
+
+## CCI RELAY
+PR #23 is the fixed CCI relay/index channel. Task files that CCI must know about must be pointed to there. A pointer to the current Hotel Evelyn task and Lonely Planet second-opinion task was posted as PR #23 comment id `5385302391`. Those tasks are NOT assigned to CCI unless a later PR #23 `CCI_TASK` explicitly says so.
+
+## NO-DEFERRAL CHECK BEFORE EVERY ANSWER
+If INDIA9 can safely execute research/reconciliation/matrix work without a Mark-only choice, DO IT BEFORE SENDING and commit it. Leave open only genuine Mark choices, live booking choices requiring date/price acceptance, or irreducible external blockers after all safe workarounds are exhausted.
+
+## CURRENT EXECUTION STATE
+Do not invent a generic next action from this handoff. After boot/reconciliation, read the user's actual current request and execute every currently possible part immediately. Current user priority at handoff: build a concrete new route using semantic labels for EVERY A/B/C visit location, with Rishikesh/Haridwar/Kankhal replacing the Kasar Devi/Almora sleep module.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=26 path=runs/active/INDIA8-HOTEL-EVELYN-RAMDASS-ROOM-CLOSURE-001/HOTEL_EVELYN_PHOTO_MATCH_LEDGER.md blob_sha=452f3611126327d36a0331079b27d9277021af81 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# HOTEL EVELYN — PHOTO MATCH LEDGER
+
+```
+task_id: INDIA8-HOTEL-EVELYN-RAMDASS-ROOM-CLOSURE-001
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-23
+regel: geen speculatieve pixel-match als feit — alleen wat daadwerkelijk is ingezien/vergeleken
+       wordt als "matched" gemarkeerd; al het overige is expliciet "NOT VERIFIED" of "NOT FOUND".
+```
+
+Dit is een tekstuele, bronvergelijkende ledger, geen geautomatiseerde beeldherkenning. Elke rij
+geeft aan wat een historische bron/tekst claimt, wat er visueel/tekstueel over vandaag bekend is,
+en de verificatiestatus.
+
+| # | historisch element | historische bron/claim | huidige-staat bron | vergelijkingsstatus |
+|---|---|---|---|---|
+| 1 | "Nainital High"-groepsfoto, 1971 (grootformaat-glasnegatief, 11×14, in bezit van Parvati Markus) | HE, letterlijk beschreven; caption ook herhaald op PA-fotoarchiefpagina | Geen publiek gepubliceerde scan van het negatief zelf gevonden binnen deze ronde | **NOT FOUND** — bestaan bevestigd via twee onafhankelijke tekstbronnen (HE + PA-caption), maar het beeld zelf niet ingezien. Geen matching mogelijk zonder het beeld. |
+| 2 | Balkon waarop Ram Dass en Parvati Markus leunden (sept. 1971) | HE, letterlijk citaat: "leaning over the balcony of the Evelyn Hotel" | Officiële hotelsite en wanderlog.com noemen een bestaand "terras en veranda's met uitzicht" / "flower be-decked terrace" met meeruitzicht vandaag | **NOT VERIFIED (functionele match, geen fotomatch)** — zelfde functie/oriëntatie (uitzicht op meer), geen foto-op-foto-vergelijking mogelijk zonder een historische afbeelding. |
+| 3 | Voorpatio waar Ram Dass op zondagen voorlas | HE, tekstueel beschreven ("gather on the front patio") | Zelfde "terras/veranda's"-vermelding als #2 — geen apart onderscheiden "voorpatio" in huidige bronnen | **NOT VERIFIED** — plausibele, niet bevestigde continuïteit. |
+| 4 | "Bovenste kleine 'cave'-kamer" (meditatiegrot) | Uitsluitend *Miracle of Love*, pp. 276-277 — bron ontoegankelijk (`access-restricted-item`, alleen leenbaar) | Geen enkele toegankelijke bron (HE, PA, huidige hotelsite, reviews) bevestigt of weerlegt een specifieke "grot"-achtige kamer | **UNRESOLVED / SOURCE_BLOCKED** — niet bevestigd, niet weerlegd, geen fotovergelijking mogelijk. |
+| 5 | Gebouw/exterieur zoals bezocht in 1970-71 | Geen exterieurfoto of -beschrijving gevonden in HE zelf | Wanderlog.com: "two distinct buildings — one from the British era and a newer structure"; euttaranchal.com heeft een fotogalerij van het huidige gebouw (niet in detail geanalyseerd binnen deze ronde) | **PARTIAL / NOT VERIFIED** — bevestigt dat er een ouder ("British era") bouwdeel bestaat naast een nieuwere vleugel, wat consistent is met (maar geen bewijs is voor) het 1971-verblijf in het oudere deel. |
+| 6 | Ligging/adres van het hotel | HE: "Hotel Evelyn, The Mall Road, Nainital – 263002, Uttarakhand" | Wanderlog.com: "Mall Rd, Mallital, Nainital, Uttarakhand 263001" | **MATCHED (adres/locatie-niveau)** — zelfde straat/hotel, kleine postcodevariatie (263001 vs 263002) is normale adresregistratieverschil, geen inhoudelijke tegenspraak. |
+| 7 | Eigenaarscontinuïteit (Sah-familie) | HE: "owned by longtime devotees of Maharajji"; K.K. Sah als familielid/tolk | Meerdere onafhankelijke overzichtsbronnen: "Since Indian Independence, it has been owned and run by Mr S.L. Sah's family" | **MATCHED (tekstueel, twee onafhankelijke bronnen)** — eigenaarslijn bevestigd, niet slechts uit één bron. |
+| 8 | Bouwjaar/oorsprong pand | Niet expliciet in HE | "Before 1947, Mrs Page, a British lady ran a guesthouse of the same name, where the hotel stands today" | **MATCHED (nieuwe informatie, niet in eerdere rondes gevonden)** — bevestigt site-continuïteit vóór de Ram Dass-periode zelf, versterkt de aanname dat het "British era"-gebouw het historisch relevante deel is. |
+
+## Wat NIET is gedaan (expliciet, per taakregel)
+
+- Geen automatische beeldherkenning/pixelvergelijking tussen historische en actuele foto's — geen
+  van beide beeldsets was in dit onderzoek daadwerkelijk gelijktijdig beschi
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=27 path=runs/active/INDIA8-HOTEL-EVELYN-RAMDASS-ROOM-CLOSURE-001/HOTEL_EVELYN_PHOTO_MATCH_LEDGER.md blob_sha=452f3611126327d36a0331079b27d9277021af81 original_offset=4096 original_length=703 payload_bytes=703 chunk_index=1 chunk_count=2 classification=text
+kbaar als afbeelding.
+- Geen speculatieve "dit moet dezelfde balkonreling zijn"-uitspraak zonder visueel bewijs.
+- Geen kamernummer of exacte GPS-/gevelpositie toegekend.
+
+## Aanbevolen vervolgstap (niet uitgevoerd binnen deze taak)
+
+Als een scherpere fotomatch gewenst is: (a) de euttaranchal.com-fotogalerij van het huidige
+gebouw laten inzien/analyseren naast de HE-tekstbeschrijving, en (b) navraag doen bij Parvati
+Markus/Love Serve Remember Foundation of het 11×14-glasnegatief ooit gedigitaliseerd is. Beide zijn
+concrete, uitvoerbare stappen, geen open-eindige nieuwe sweep.
+
+---
+Geschreven door: CCI. Alleen matches die daadwerkelijk konden worden gecontroleerd zijn als
+"MATCHED" gemarkeerd.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=28 path=runs/active/INDIA8-HOTEL-EVELYN-RAMDASS-ROOM-CLOSURE-001/HOTEL_EVELYN_RAMDASS_ROOM_CLOSURE.md blob_sha=19cda5dadb88013c667e9cc444f2d782e9826129 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+# HOTEL EVELYN — RAM DASS ROOM CLOSURE
+
+```
+task_id: INDIA8-HOTEL-EVELYN-RAMDASS-ROOM-CLOSURE-001
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-23
+branch: agent/cci-hotelevelyn-ramdass-closure
+aard: gerichte fysieke/historische closure, GEEN algemene hotelsweep, GEEN A/B/C-wijziging
+```
+
+## Samenvatting vooraf
+
+Dit is geen nieuwe ontdekking vanaf nul. Het project had al drie lagen bestaand onderzoek over
+Ram Dass en Hotel Evelyn (`TOP11-NKB-RAMDASS-V2-PRE-EXTERNAL-001` / CCI_TASK 089,
+`TOP11-NKB-RAMDASS-EXTERNAL-RECONCILIATION-001` / CCI_TASK 091, en de externe
+`TOP11-PARALLEL-CHATGPT-SWEEP-001`-freeze). Deze taak (1) heeft die drie lagen gelezen, (2) heeft
+de kernbron zelf — niet alleen de eerdere samenvattingen ervan — rechtstreeks opgehaald en gelezen,
+(3) heeft actief nieuwe, onafhankelijke bronnen gezocht (huidige hotelstatus, K.K. Sah-tribute,
+Krishna Das-connectie, Internet Archive) om precies de resterende hiaten te sluiten, en (4) meldt
+eerlijk wat na deze extra ronde nog steeds niet verantwoord vastgesteld kan worden.
+
+## Bronnen geraadpleegd (deze ronde, rechtstreeks)
+
+| bron | status | wat het opleverde |
+|---|---|---|
+| ashramsofindia.com/the-hotels-they-stayed-in-hotel-evelyn/ (**HE** — Parvati Markus e.a. ooggetuigen) | **VOLLEDIG OPGEHAALD EN GELEZEN** (twee gerichte extractierondes) | Kernbron voor deze closure — zie §1-3. |
+| ashramsofindia.com/photos/ (**PA** — fotoarchief) | **OPGEHAALD** | Eén relevante groepsfoto-caption bevestigd, geen aparte balkon/cave-foto gevonden. |
+| archive.org/details/miracleoflovesto0000ramd (**MOL**) | **OPGEHAALD, STATUS GECONTROLEERD** | Blijft `BRON_GEBLOKKEERD`: `access-restricted-item: true`, alleen leenbaar, geen doorzoekbare volledige tekst. Consistent met CCI_TASK 090/091. |
+| vdoc.pub-kopie van *Miracle of Love* | **DEELS OPGEHAALD** (voorbeeldfragment) | Bevestigt bestaan van K.K. Sah-dankwoord en een Nainital-hotelvermelding in de tekst zelf, maar het fragment stopt vóór/zonder de "cave"-passage. Geen "Evelyn" of "cave" letterlijk gevonden in het beschikbare fragment. |
+| ramdass.org/honoring-kk-sah/ | **NIEUW GEVONDEN, OPGEHAALD** | K.K. Sah-biografie/tribute — zie §5. |
+| wanderlog.com/place/details/1793304/hotel-evelyn | **NIEUW GEVONDEN, OPGEHAALD** | Huidige status, twee gebouwen, terras — zie §4. |
+| hotelevelynnainital.in (officiële hotelsite) | **NIEUW GEVONDEN, OPGEHAALD** | Huidige kamerbeschrijving, "terras en veranda's met uitzicht" — zie §4. |
+| thesloppybhakti.com devotee-blog (2018) | **OPGEHAALD** | Alleen historisch, geen hedendaagse vergelijking — negatief resultaat, expliciet vermeld. |
+| Bredere zoekrondes (Krishna Das, maharajji.love, TripAdvisor-reviews) | **UITGEVOERD** | Zie §2, §4, §6 voor resultaten; TripAdvisor-hoofdpagina gaf HTTP 403 (niet toegankelijk voor geautomatiseerd ophalen). |
+
+Niet (opnieuw) bereikbaar binnen deze ronde: *Be Here Now* volledige tekst (al bevestigd
+`BRON_GEBLOKKEERD` in CCI_TASK 089/090), *Sacred Wanderer* (2010), ramdass.org's eigen
+"First Meeting with Maharajji"-pagina (HTTP 403, zelfde als in CCI_TASK 089), maharajji.love's
+Nainital-specifieke pagina's (wel gevonden via zoekresultaten, niet apart doorzocht binnen de
+tijd van deze gerichte taak — expliciet als hiaat vermeld, niet stilzwijgend overgeslagen).
+
+## 1. Kamer / kamertype / verdieping / vleugel
+
+**Geen enkele geraadpleegde bron — inclusief de kernbron HE — noemt een kamernummer, verdieping of
+vleugel voor Ram Dass persoonlijk.** De enige concrete kamerdetail in de hele HE-tekst betreft een
+ANDERE gast ("onze kamer lag recht boven de keuken", met een gat in de vloer) — niet Ram Dass.
+
+De enige kamerspecifieke claim voor Ram Dass zelf ("bovenste kleine 'cave'-kamer", ingericht als
+meditatiegrot, verbleef er tot het bevel te vertrekken) komt **uitsluitend** uit *Miracle of Love*
+(pp. 276-277), die dit onderzoek — net als de twee eerdere rondes — niet kon openen. Deze claim is
+dus nog steeds **niet onafhankelijk bevestigd**, maar ook niet weerlegd. Volgens de harde regel van
+deze taak wordt hier **geen kamernu
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=29 path=runs/active/INDIA8-HOTEL-EVELYN-RAMDASS-ROOM-CLOSURE-001/HOTEL_EVELYN_RAMDASS_ROOM_CLOSURE.md blob_sha=19cda5dadb88013c667e9cc444f2d782e9826129 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+mmer verzonnen** en wordt de claim niet stilzwijgend als feit
+overgenomen.
+
+**R-class kamer/verdieping/vleugel: R5 (unresolved).**
+
+## 2. Balkon, patio, tuin, trap, ingang op historische foto's/teksten
+
+Wél goed gedocumenteerd, uit de HE-kernbron zelf (letterlijke citaten):
+
+- **Balkon**: "Ram Dass and I were standing together, leaning over the balcony of the Evelyn
+  Hotel" (Parvati Markus, september 1971), uitkijkend over "the verdant foothills of the
+  Himalayas" en het meer.
+- **Voorpatio ("front patio")**: wekelijkse zondagse lezingen — Ram Dass las voor uit de Bijbel,
+  een Hindoe heilige tekst, *The Aquarian Gospel of Jesus the Christ*, of *The Lazy Man's Guide to
+  Enlightenment* — met de hele groep verzameld.
+- **Meeruitzicht**: expliciet "a magnificent view of the Nainital lake" vanaf het hotel zelf.
+- **Groepsfoto**: "Nainital High"-groepsfoto (1971) door een lokale fotograaf met een grote
+  platencamera; Parvati Markus bewaart nog het originele 11×14-glasnegatief.
+- Geen tuin, trap of specifieke ingang wordt in de geraadpleegde tekst beschreven.
+
+**R-class balkon/patio als fenomeen (níet als exact gevonden huidig bouwdeel): R3** — de
+gebeurtenis en de algemene locatie (balkon/terras aan de meerzijde) zijn goed gedocumenteerd; het
+exacte huidige bouwdeel is niet fotografisch geverifieerd (zie Photo Match Ledger).
+
+## 3. Oude foto's/film/stills versus huidige gebouwstructuur
+
+- Alleen **tekstuele** beschrijvingen en één met naam genoemde glasnegatief-groepsfoto konden
+  worden bevestigd; het originele beeld zelf kon niet rechtstreeks worden ingezien (geen publiek
+  gepubliceerde scan gevonden binnen deze ronde).
+- Er is **geen enkele publiek beschikbare "toen versus nu"-fotovergelijking** gevonden voor Hotel
+  Evelyn specifiek — dit is een expliciet, eerlijk gemeld hiaat, geen aanname.
+- Zie `HOTEL_EVELYN_PHOTO_MATCH_LEDGER.md` voor de volledige, itemized fotostatus.
+
+## 4. Bestaat de exacte kamer nog / huidige structuur
+
+Belangrijke, nieuw bevestigde feiten over de huidige structuur (allemaal na 2026-08-19, dus na de
+vorige onderzoeksrondes gevonden):
+
+- Hotel Evelyn **bestaat nog en is operationeel**: Mall Road, Mallital, Nainital, Uttarakhand
+  263001. 3,8/5 (366 Google-reviews via wanderlog.com).
+- **Twee gebouwen**: "available in two distinct buildings — one from the British era and a newer
+  structure" (wanderlog.com). Dit is cruciaal: het hotel is NIET één ongewijzigd gebouw.
+- **Site-continuïteit vóór 1947 bevestigd**: "Before 1947, Mrs Page, a British lady ran a
+  guesthouse of the same name, where the hotel stands today. Since Indian Independence, it has
+  been owned and run by Mr S.L. Sah's family... turned the small guesthouse into a 60-room hotel"
+  (via zoekresultaten uit meerdere onafhankelijke overzichtsbronnen, consistent met de HE-bron
+  zelf). Dit ondersteunt continuïteit van de **plek/het perceel**, niet automatisch van elke
+  individuele huidige kamer.
+- Officiële hotelsite noemt een "terras en veranda's met uitzicht" en een "flower be-decked
+  terrace" als bestaand kenmerk vandaag — plausibel dezelfde functie/locatie als het 1971-balkon/
+  voorpatio, maar **niet fotografisch bevestigd als exact hetzelfde bouwdeel**.
+- Reviews melden wisselende onderhoudsstaat op de 1e/2e verdieping van (vermoedelijk) het oudere
+  gebouw ("decrepit furnishing" op sommige verdiepingen) — bevestigt dat het gebouw oud/historisch
+  genoeg is om zulke slijtage te tonen, ondersteunt indirect (niet doorslaggevend) dat dit
+  waarschijnlijk het "British era"-gebouw is waar de 1971-groep verbleef.
+
+**Conclusie**: de hotelsite/het perceel bestaat aantoonbaar door vanaf vóór 1947 tot vandaag
+(**R2** voor de site als geheel). Of de exacte kamer nog bestaat kan **niet** verantwoord worden
+vastgesteld — het gebouw is uitgebreid (60 kamers, twee bouwdelen), en geen bron koppelt een
+specifieke, nog bestaande kamer aan Ram Dass. **Comfort/onderhoudsstaat is hier uitdrukkelijk NIET
+gebruikt als afwijsreden**, conform de harde regel — de onzekerheid is puur bewijsmatig
+(welk bouwdeel/welke kamer
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=30 path=runs/active/INDIA8-HOTEL-EVELYN-RAMDASS-ROOM-CLOSURE-001/HOTEL_EVELYN_RAMDASS_ROOM_CLOSURE.md blob_sha=19cda5dadb88013c667e9cc444f2d782e9826129 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+), niet kwaliteitsgedreven.
+
+## 5. Kamer/zone nu boekbaar of bezoekbaar
+
+Ja in brede zin: Hotel Evelyn is een operationeel, boekbaar hotel met "Book now"-functionaliteit
+op de eigen site en actieve aanwezigheid op Tripadvisor/wanderlog/euttaranchal. Een gast kan dus
+overnachten en gebruikmaken van het terras/de veranda's die functioneel overeenkomen met het
+1971-balkon/de voorpatio. **Een specifieke, met naam bevestigde "Ram Dass-kamer" is niet als
+zodanig boekbaar** — geen enkele bron (inclusief de officiële hotelsite) claimt zo'n kamer expliciet
+te vermarkten of aan te wijzen.
+
+## 6. Wat daar precies gebeurde (met bron/datum/context)
+
+- **Zomer 1970**: eerste verblijf, met echtgenote Jan, samen met reisgenoot Frank (HE).
+- **September–november 1971 (zeven weken)**: hoofdverblijf. Ongeveer twintig westerse devotees
+  ("Nainital High") maakten Hotel Evelyn tot een informele "mini-ashram": ochtendbel, dagelijkse
+  reis van 19 km naar Kainchi Dham voor darshan bij Neem Karoli Baba (Maharajji), zondagse
+  voorleessessies door Ram Dass op de voorpatio uit meerdere heilige/spirituele teksten (HE).
+- **September 1971**: het balkonmoment met Parvati Markus, met uitzicht over de Himalaya-uitlopers
+  en het meer (HE, letterlijk citaat).
+- **1971, ongedateerd binnen de periode**: de "Nainital High"-groepsfoto door een lokale fotograaf
+  met grootformaatcamera (HE + PA-fotoarchief-caption).
+- Het hotel functioneerde als thuisbasis tussen de dagelijkse Kainchi-bezoeken, niet als plek van
+  directe Maharajji-ontmoetingen zelf (die vonden in Kainchi plaats).
+
+## 7. Relatie met K.K. Sah, Bhagwan Das, Neem Karoli Baba en anderen
+
+- **K.K. Sah**: bevestigd als levenslange Maharajji-devotee en Ram Dass' persoonlijke tolk bij
+  gesprekken met Maharajji sinds hun eerste ontmoeting in 1967; nam Ram Dass op in zijn
+  gezin/huiselijke kring en introduceerde hem in het Indiase familieleven; **overleden in zijn
+  eigen huis in Nainital op 14 januari 2020** (ramdass.org/honoring-kk-sah/, nieuw gevonden bron
+  deze ronde). Ramdass.org markeert hem expliciet als onmisbare brug tussen Maharajji en het
+  Westerse satsang ("There might not have been a Neem Karoli Baba Satsang in the West without
+  KK"). K.K. Sah wordt in de HE-bron zelf beschreven als familielid van de hoteleigenaarsfamilie
+  én als vertaler — dit maakt hem de directe persoonlijke schakel tussen Ram Dass en Hotel Evelyn/
+  de Sah-familie, boven op zijn rol als Maharajji-tolk.
+- **Sah-familie (hoteleigenaren)**: Mr S.L. Sah (na-1947 eigenaar, breidde uit tot 60 kamers) en
+  familie worden in meerdere bronnen omschreven als "longtime devotees of Maharajji" — de groep
+  werd "als familie behandeld", geen zakelijke gast-relatie.
+- **Bhagwan Das (Kermit Michael Riggs)**: **geen enkele geraadpleegde bron plaatst hem fysiek in
+  Hotel Evelyn.** Bhagwan Das introduceerde Ram Dass bij Maharajji, maar die ontmoeting vond
+  eerder plaats (Kathmandu-route → Kainchi), vóór de Hotel Evelyn-periode. Dit is een expliciete
+  **negatieve bevinding**, niet een omissie: de taak vroeg dit specifiek te checken, en het
+  antwoord is "niet gevonden dat hij hier fysiek was", niet "niet onderzocht".
+- **Krishna Das (Jeffrey Kagel)**: bevestigd als deel van dezelfde 1971-groep in Hotel Evelyn/
+  Nainital (meerdere onafhankelijke bronnen dit keer, inclusief de HE-naamlijst zelf).
+- **Overige met naam genoemde 1971-verblijvers** (uit de HE-groepsfoto-caption): Rameshwar Das
+  (James Lytton), Lakshman Das (Douglas Markus), Dale Borglum (Ram Dev), Mitchell Markus, Danny
+  Goleman, Joe Bonner, Teresa Weill, Radha Baum, Mohan Baum, Ron Zimardi, Susan McCarthy, Peter
+  Goetsch, Jean Nantel, Ganesh Dass, Noah Markus, Mrs Page (vooroorlogse eigenaar).
+
+## Eindconclusie — R-classificatie per element
+
+| element | R-class | onderbouwing |
+|---|---|---|
+| Hotel Evelyn als site/perceel | **R2** | Doorlopende exploitatie op dezelfde plek sinds vóór 1947 (Mrs Page → Sah-familie), vandaag nog steeds hetzelfde adres/hotel. |
+| Balkon/voorpatio als fenomeen | **R3** | Goed gedocumenteerde gebeurtenis en functi
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=31 path=runs/active/INDIA8-HOTEL-EVELYN-RAMDASS-ROOM-CLOSURE-001/HOTEL_EVELYN_RAMDASS_ROOM_CLOSURE.md blob_sha=19cda5dadb88013c667e9cc444f2d782e9826129 original_offset=12288 original_length=2226 payload_bytes=2226 chunk_index=3 chunk_count=4 classification=text
+e (meerzijdig terras/veranda), geen bevestigde exacte bouwdeelmatch. |
+| Specifieke kamer/verdieping/vleugel | **R5** | Enige claim ("cave"-kamer) uitsluitend uit ontoegankelijke bron (MOL), niet onafhankelijk bevestigd. |
+
+---
+
+# BEST_PROVABLE_PLACE_TO_SLEEP_OR_STAND
+
+**Plek**: het terras/de veranda's van Hotel Evelyn met uitzicht over Naini Lake — bij voorkeur in
+het oudere ("British era") bouwdeel eerder dan de nieuwere vleugel, gebaseerd op de continuïteit
+van de site sinds vóór 1947 en de functionele match met het door Parvati Markus beschreven
+1971-balkon/voorpatio.
+
+**Exactheidsklasse**: **R3 voor het terras/de veranda als geheel; R2 voor de hotelsite zelf.**
+Geen specifieke kamer kan verantwoord worden aangewezen (R5) — dit rapport wijst daarom bewust
+een gedeelde/algemene plek aan, geen kamernummer.
+
+**Hoe Mark dit ter plaatse kan herkennen of ernaar kan vragen**:
+1. Vraag bij het hotel expliciet naar het "British era"-gedeelte van het gebouw (twee bouwdelen
+   worden door meerdere bronnen bevestigd) en naar het terras/de veranda met meeruitzicht.
+2. Vraag personeel/eigenaar rechtstreeks naar de familie Sah en naar K.K. Sah — de connectie met
+   Neem Karoli Baba, Ram Dass en de "Nainital High"-groep (1971) is bij de hoteleigenaren zelf
+   bekende, gedeelde geschiedenis, geen obscure claim; het is heel plausibel dat personeel of de
+   familie zelf meer weet dan online gepubliceerd is (mondelinge overlevering, mogelijk foto's
+   ter plekke — dit rapport kon dat niet verifiëren, maar het is een concrete, uitvoerbare
+   vervolgstap voor Mark zelf).
+3. Vraag specifiek naar de "Nainital High"-groepsfoto (1971) — als een afdruk ter plaatse hangt of
+   bekend is bij het personeel, geeft dat een directe visuele referentie die dit onderzoek zelf
+   niet kon bemachtigen.
+4. Verwacht GEEN bevestiging van een specifieke "meditatiegrot-kamer" — die claim blijft
+   onbevestigd; vraag er gerust naar, maar behandel elk antwoord als aanvullend mondeling bewijs,
+   niet als voorafgaand vastgesteld feit.
+
+---
+Geschreven door: CCI. Geen kamernummer verzonnen, geen gebouwcontinuïteit aangenomen zonder bewijs,
+comfort/onderhoud niet als afwijscriterium gebruikt, geen A/B/C gewijzigd.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=32 path=runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/SLEEP_BASE_REGISTER_2026-08-23.md blob_sha=bb7da2c2f8f006afc22d964d09b3de9ec6a0cd81 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# SLEEP BASE REGISTER — 2026-08-23
+
+Purpose: current travel-regie routing origins. This register does not invent new hotel choices and does not override Mark. It consolidates existing repo decisions and now includes resolved anchor zones for every retained A-cluster.
+
+See also:
+- `SLEEP_BASE_ZONE_RESOLUTION_2026-08-23.md`
+- `../INDIA8-CLUSTER-CASTING-001/KUMAON_THREE_BASE_EXECUTION_MATRIX_2026-08-23.md`
+
+## A-CLUSTERS
+
+### KUMAON / NAINITAL / KAINCHI / BABAJI — A
+This is a multi-base cluster; one-base model is explicitly rejected.
+
+#### Base K1 — Kukuchina / Dunagiri
+- **Joshi Guest House, Kukuchina**
+- status: **LOCKED**
+- use for: Mahavatar Babaji Cave / Dunagiri landscape; Babaji Smriti Bhavan; Dunagiri Temple; YSS Dwarahat; nearby Babaji-spine routing.
+- routing origin for LP layer: YES.
+
+#### Base K2 — Nainital
+- **Hotel Evelyn, Nainital**
+- status: **CLUSTER_ANCHOR + site A**
+- use for: Kainchi Dham; Bhumiadhar; Hanuman Garhi; Nainital/NKB/Ram Dass layer; Naina Peak; central Nainital micro-gems.
+- historic/current web check executed 2026-08-23: Hotel Evelyn is well supported as 1970–71 devotee base; balcony and front-patio/porch scenes are supportable, but no exact current room number can honestly be identified as Ram Dass's room from public evidence yet.
+- **MARK OVERRIDE 2026-08-23:** historic authenticity has priority over comfort here. Maintenance problems, primitive conditions, poor reviews, limited comfort, or extra heating cost are NOT grounds to demote or replace Hotel Evelyn. Mark is willing to accept very basic sleeping conditions to stay at the historic place.
+- practical caution is therefore informational only: verify that overnight stay is physically/legalistically possible and safe; do not use comfort reviews as ranking criteria.
+- targeted independent closure queued: `runs/active/INDIA8-HOTEL-EVELYN-RAMDASS-ROOM-CLOSURE-001/TASK.md` to resolve room/floor/wing/balcony/patio as far as evidence permits.
+- routing origin for LP layer: YES.
+
+#### Base K3 — Kasar Devi / Almora
+- **Turiya Niwas, Crank's Ridge**
+- status: **PROVISIONAL LOCK as sleep base + site A**
+- use for: Kasar Devi/Crank's Ridge; Almora; Bodh Ashram; Jageshwar direction; Almora micro-gems.
+- winter readiness already directly confirmed with host.
+- exact dates/stay length/reservation depend on final route calendar, not on more geographic research.
+- fallback #1: Kripal House.
+- fallback #2: Rudra Himalayan Retreat.
+- routing origin for LP layer: YES.
+
+#### Kumaon route note
+Kakrighat = transit stop, not a fourth sleep base.
+Haidakhan = separate experiential A-module; do not force it into the three-base model.
+
+### VRINDAVAN / BRAJ / MATHURA — A, route-sensitive
+- locked property: **NONE yet**.
+- geographic anchor research: **RESOLVED 2026-08-23**.
+- anchor zone: **Vrindavan proper — Goda Vihar / old-Vrindavan / Atalla-Chungi side; NOT Mathura**.
+- rationale: keeps Railway Station A, Madan Mohan A, Katyayani/Keshabananda A-intent and NKB Ashram A in short local routing while preserving actual Vrindavan atmosphere.
+- remaining issue is property choice/availability inside a bounded zone, not citywide base research.
+
+### VARANASI / SARNATH — A
+- **Sahi River View Guesthouse, Assi Ghat**
+- accommodation id: VNS-HOTEL-001
+- status: **LOCKED_BY_MARK**
+- room preference: **balcony room**
+- contact note: **Jitendre; greetings from Debby**
+- use for: Assi/Bhadaini/south-ghat A-zone and wider Varanasi routing.
+- supersedes older provisional wording.
+- routing origin for LP layer: YES.
+
+### BODH GAYA / GAYA — A
+- locked property: **NONE yet**.
+- geographic anchor research: **RESOLVED 2026-08-23**.
+- anchor zone: **Bodh Gaya temple core, preferably within ~0.8 km walk of Mahabodhi / Thai Temple / Do Muhan Road side**.
+- rationale: repeat dawn/evening access to Mahabodhi and Bodhi Tree by foot; Gaya items remain vehicle excursions.
+- existing Bodh Gaya A/B/C decisions remain protected.
+
+### TIRUVANNAMALAI / ARUNACHALA — A, fixed
+- locked property: **NONE yet**.
+- geographic anchor research: **RESOLVED 2026-08-23**.
+- anchor zone:
+<<< END CHUNK >>>
+

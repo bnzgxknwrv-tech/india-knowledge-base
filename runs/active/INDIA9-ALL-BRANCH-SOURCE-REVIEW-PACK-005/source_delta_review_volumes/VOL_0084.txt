@@ -1,0 +1,585 @@
+>>> CHUNK stream_row=1474 path=research/active/KUMAON-COMPLETE-001/events.jsonl blob_sha=fc15ef577d3c4358b1be9c194793ebe81dcd6181 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+{"event_id":"EVT-0001","run_id":"KUMAON-COMPLETE-001","event_type":"RUN_CREATED","at":"2026-07-19T10:41:36+02:00","actor":"INDIA2","run_type":"CLUSTER_SWEEP","from_state":null,"to_state":"READY_FOR_BRONS","source_base_commit":"ea6f2eda979f2aaf8827648227fa39c8bfc2444b","context_manifest":"research/active/KUMAON-COMPLETE-001/context/BRONS_CONTEXT.yaml","context_profile":"BRONS_MIN","operating_mode":"CONTROLLED_MANUAL_INLINE_HANDOFF","production_gate":"PRODUCTION_READY: YES","next_route":"BRONS","notes":"New complete Kumaon cluster sweep initialized after Mark accepted VRINDAVAN-KUMAON-CORRIDOR-001. Existing A/B/C and LOCATION_IDs preserved; no old INDIA2 reassessment; no new formal or advisory A/B/C; run-local complete layered Kumaon KML required."}
+{"event_id":"EVT-0002","run_id":"KUMAON-COMPLETE-001","event_type":"CLAIMED","at":"2026-07-19T11:15:09+02:00","actor":"ChatGPT-BRONS","role":"BRONS","claimed_by":"ChatGPT-BRONS","source_commit":"a10c848b7fe203a32563675293a6d2e0de484728","expected_state":"READY_FOR_BRONS","output_path":"research/active/KUMAON-COMPLETE-001/BRONS/","claim_status":"ACTIVE","from_state":"READY_FOR_BRONS","to_state":"BRONS_CLAIMED","claim_commit":"bc8b14871ea764c785c6cad04003101f01ab5e3f","notes":"Claimed after GitHub read/write preflight, full required context read, triggered optional decision read, exact blob-SHA validation, sentinel checks and state/event synchronization."}
+{"event_id":"EVT-0003","run_id":"KUMAON-COMPLETE-001","event_type":"BRONS_COMPLETED","at":"2026-07-19T15:02:00+02:00","actor":"ChatGPT-BRONS","role":"BRONS","result_status":"PARTIAL","claim_status":"CLOSED","source_commit":"a10c848b7fe203a32563675293a6d2e0de484728","output_manifest":"research/active/KUMAON-COMPLETE-001/BRONS/manifest.yaml","completion_commit_ref":"THIS_ATOMIC_COMMIT","from_state":"BRONS_CLAIMED","to_state":"BRONS_COMPLETE","notes":"All BRONS artifacts completed and reopened. Forty-seven candidates and seven KML layers produced; all existing formal statuses and LOCATION_IDs preserved. No formal/advisory A/B/C, PARELS, hotel, base, station or route choice performed."}
+{"event_id":"EVT-0004","run_id":"KUMAON-COMPLETE-001","event_type":"TRANSITION_CLAIMED","at":"2026-07-19T15:12:00+02:00","actor":"ChatGPT-INLINE-CONTROLLER","transition":"BRONS_COMPLETE_TO_READY_FOR_ZILVER","source_commit":"9afdbb21ab4cb202144c2a6346218d6e1a3639aa","expected_state":"BRONS_COMPLETE","target_context_manifest":"research/active/KUMAON-COMPLETE-001/context/ZILVER_CONTEXT.yaml","activation_mode":"INLINE_POST_PHASE_CONTROLLER","claim_status":"ACTIVE","from_state":"BRONS_COMPLETE","to_state":"TRANSITION_TO_ZILVER_CLAIMED","notes":"Separate controller claim after worker termination, repeated GitHub preflight and controller protocol reread."}
+{"event_id":"EVT-0005","run_id":"KUMAON-COMPLETE-001","event_type":"CONTEXT_PREPARED","at":"2026-07-19T15:24:00+02:00","actor":"ChatGPT-INLINE-CONTROLLER","source_commit":"9afdbb21ab4cb202144c2a6346218d6e1a3639aa","context_manifest":"research/active/KUMAON-COMPLETE-001/context/ZILVER_CONTEXT.yaml","context_profile":"ZILVER_MIN","predecessor_manifest":"research/active/KUMAON-COMPLETE-001/BRONS/manifest.yaml","from_state":"TRANSITION_TO_ZILVER_CLAIMED","to_state":"TRANSITION_TO_ZILVER_CLAIMED","notes":"Definitive ZILVER context prepared from validated BRONS completion with explicit artifact hashes and OPEN-layer verification instructions."}
+{"event_id":"EVT-0006","run_id":"KUMAON-COMPLETE-001","event_type":"TRANSITIONED","at":"2026-07-19T15:25:00+02:00","actor":"ChatGPT-INLINE-CONTROLLER","transition":"BRONS_COMPLETE_TO_READY_FOR_ZILVER","source_commit":"9afdbb21ab4cb202144c2a6346218d6e1a3639aa","context_manifest":"research/active/KUMAON-COMPLETE-001/context/ZILVER_CONTEXT.yaml","next_action":"pipeline/NEXT_ACTION.yaml","claim_status":"CLOSED","transition_commit_ref":"THIS_ATOMIC_COMMIT","from_state":"TRANSITION_TO_ZILVER_CLAIMED","to_state":"READY_FOR_ZILVER","next_route":"ZILVER","notes":"BRONS predecessor validated as technically coherent with PARTIAL content status preserved. No repair or system change
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1475 path=research/active/KUMAON-COMPLETE-001/events.jsonl blob_sha=fc15ef577d3c4358b1be9c194793ebe81dcd6181 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+ required; ZILVER must reopen all OPEN and load-bearing layers."}
+{"event_id":"EVT-0007","run_id":"KUMAON-COMPLETE-001","event_type":"CLAIMED","at":"2026-07-19T15:13:17+02:00","actor":"ChatGPT-ZILVER","role":"ZILVER","claimed_by":"ChatGPT-ZILVER","source_commit":"9afdbb21ab4cb202144c2a6346218d6e1a3639aa","expected_state":"READY_FOR_ZILVER","output_path":"research/active/KUMAON-COMPLETE-001/ZILVER/","claim_status":"ACTIVE","from_state":"READY_FOR_ZILVER","to_state":"ZILVER_CLAIMED","claim_commit_ref":"THIS_ATOMIC_COMMIT","notes":"Claimed after GitHub read/write preflight, complete pinned required-context validation, exact blob-SHA checks, sentinel checks and state/event synchronization."}
+{"event_id":"EVT-0008","run_id":"KUMAON-COMPLETE-001","event_type":"ZILVER_PARTIAL_COMMIT_REPAIRED","at":"2026-07-19T18:50:45+02:00","actor":"ChatGPT-ZILVER","repair_type":"TRANSIENT_STATE_ONLY_COMPLETION_WRITE","transient_commit":"25e410a1af2f5e832e5ba548701f95f88bacce01","from_state":"ZILVER_CLAIMED","to_state":"ZILVER_CLAIMED","notes":"The transient state-only write was not accepted as completion. State, events, manifest and COMPLETED are atomically reissued in the completion commit."}
+{"event_id":"EVT-0009","run_id":"KUMAON-COMPLETE-001","event_type":"ZILVER_METADATA_REPAIRED","at":"2026-07-19T18:50:50+02:00","actor":"ChatGPT-ZILVER","repair_type":"CLAIM_EVENT_TIMESTAMP_NON_MONOTONIC","claim_commit":"7a358b6d2625945f4967207580cfdbda79816128","evidence":"Git ancestry proves the claim commit followed the READY_FOR_ZILVER transition; the prior at-field is non-monotonic metadata only.","from_state":"ZILVER_CLAIMED","to_state":"ZILVER_CLAIMED","notes":"Append-only repair record; no content, claim ownership or state transition changed."}
+{"event_id":"EVT-0010","run_id":"KUMAON-COMPLETE-001","event_type":"ZILVER_COMPLETED","at":"2026-07-19T18:51:00+02:00","actor":"ChatGPT-ZILVER","role":"ZILVER","result_status":"PARTIAL","claim_status":"CLOSED","source_commit":"9afdbb21ab4cb202144c2a6346218d6e1a3639aa","output_manifest":"research/active/KUMAON-COMPLETE-001/ZILVER/manifest.yaml","completion_commit":"THIS_ATOMIC_COMMIT","completion_commit_ref":"THIS_ATOMIC_COMMIT","from_state":"ZILVER_CLAIMED","to_state":"ZILVER_COMPLETE","notes":"This completion event was emitted in an events-only transient commit and is not accepted as the authoritative completion; EVT-0012 reissues completion atomically."}
+{"event_id":"EVT-0011","run_id":"KUMAON-COMPLETE-001","event_type":"ZILVER_PARTIAL_COMMIT_REPAIRED","at":"2026-07-19T18:54:23+02:00","actor":"ChatGPT-ZILVER","repair_type":"TRANSIENT_EVENTS_ONLY_COMPLETION_WRITE","transient_commit":"91c1c1f7f9a7e7e8eb1403c10e33cbe4ade02085","from_state":"ZILVER_CLAIMED","to_state":"ZILVER_CLAIMED","notes":"The events-only write and EVT-0010 were not accepted as authoritative completion. State, events, manifest and COMPLETED are atomically reissued in the final completion commit."}
+{"event_id":"EVT-0012","run_id":"KUMAON-COMPLETE-001","event_type":"ZILVER_COMPLETED","at":"2026-07-19T18:55:00+02:00","actor":"ChatGPT-ZILVER","role":"ZILVER","result_status":"PARTIAL","claim_status":"CLOSED","source_commit":"9afdbb21ab4cb202144c2a6346218d6e1a3639aa","output_manifest":"research/active/KUMAON-COMPLETE-001/ZILVER/manifest.yaml","completion_commit":"THIS_ATOMIC_COMMIT","completion_commit_ref":"THIS_ATOMIC_COMMIT","from_state":"ZILVER_CLAIMED","to_state":"ZILVER_COMPLETE","notes":"Authoritative atomic completion after repair. All ZILVER artifacts were reopened from GitHub and validated. Forty-seven candidates, seventy-seven claims, thirty-nine accepted sources, eight rejected sources, thirty-two connections and forty-seven KML placemarks in seven layers are coherent. Mayavati GEO was corrected; open micro-site, image/review and live practical gaps remain explicit."}
+{"event_id":"EVT-0013","run_id":"KUMAON-COMPLETE-001","event_type":"TRANSITION_CLAIMED","at":"2026-07-19T18:56:00+02:00","actor":"ChatGPT-INLINE-CONTROLLER","transition":"ZILVER_COMPLETE_TO_READY_FOR_GOUD","source_commit":"55fc0924b29ac3e006efc8b5c5f095a561b41b56","exp
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1476 path=research/active/KUMAON-COMPLETE-001/events.jsonl blob_sha=fc15ef577d3c4358b1be9c194793ebe81dcd6181 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+ected_state":"ZILVER_COMPLETE","target_context_manifest":"research/active/KUMAON-COMPLETE-001/context/GOUD_CONTEXT.yaml","activation_mode":"INLINE_POST_PHASE_CONTROLLER","claim_status":"ACTIVE","from_state":"ZILVER_COMPLETE","to_state":"TRANSITION_TO_GOUD_CLAIMED","notes":"Separate controller claim after ZILVER worker termination, repeated GitHub preflight and controller protocol reread."}
+{"event_id":"EVT-0014","run_id":"KUMAON-COMPLETE-001","event_type":"CONTEXT_PREPARED","at":"2026-07-19T18:58:00+02:00","actor":"ChatGPT-INLINE-CONTROLLER","source_commit":"55fc0924b29ac3e006efc8b5c5f095a561b41b56","context_manifest":"research/active/KUMAON-COMPLETE-001/context/GOUD_CONTEXT.yaml","context_profile":"GOUD_MIN","predecessor_manifest":"research/active/KUMAON-COMPLETE-001/ZILVER/manifest.yaml","from_state":"TRANSITION_TO_GOUD_CLAIMED","to_state":"TRANSITION_TO_GOUD_CLAIMED","notes":"Definitive GOUD context prepared from the validated ZILVER PARTIAL completion with explicit artifact hashes, open-layer triggers and limited BRONS loss-control inputs."}
+{"event_id":"EVT-0015","run_id":"KUMAON-COMPLETE-001","event_type":"TRANSITIONED","at":"2026-07-19T18:59:00+02:00","actor":"ChatGPT-INLINE-CONTROLLER","transition":"ZILVER_COMPLETE_TO_READY_FOR_GOUD","source_commit":"55fc0924b29ac3e006efc8b5c5f095a561b41b56","context_manifest":"research/active/KUMAON-COMPLETE-001/context/GOUD_CONTEXT.yaml","next_action":"pipeline/NEXT_ACTION.yaml","claim_status":"CLOSED","transition_commit":"THIS_ATOMIC_COMMIT","transition_commit_ref":"THIS_ATOMIC_COMMIT","from_state":"TRANSITION_TO_GOUD_CLAIMED","to_state":"READY_FOR_GOUD","next_route":"GOUD","notes":"ZILVER predecessor validated as technically coherent with PARTIAL content status preserved. GOUD must finalize the dossier, retain explicit shortages, deliver the complete Kumaon KML and Mark report, and apply only deterministic non-decisional canonical integration."}
+{"event_id":"EVT-0016","run_id":"KUMAON-COMPLETE-001","event_type":"CLAIMED","at":"2026-07-20T16:23:00+02:00","actor":"ChatGPT-GOUD","role":"GOUD","claimed_by":"ChatGPT-GOUD","source_commit":"55fc0924b29ac3e006efc8b5c5f095a561b41b56","expected_state":"READY_FOR_GOUD","output_path":"research/active/KUMAON-COMPLETE-001/GOUD/","claim_status":"ACTIVE","from_state":"READY_FOR_GOUD","to_state":"GOUD_CLAIMED","claim_commit":"8cc1c4f6dd47e4a94a80446eb60395c12451e937","notes":"Claimed after GitHub read/write preflight, complete required and triggered optional context validation, exact blob-SHA checks, sentinel checks, source-reference validation and state/event synchronization."}
+{"event_id":"EVT-0017","run_id":"KUMAON-COMPLETE-001","event_type":"GOUD_COMPLETED","at":"2026-07-20T16:55:00+02:00","actor":"ChatGPT-GOUD","role":"GOUD","result_status":"PARTIAL","claim_status":"CLOSED","source_commit":"55fc0924b29ac3e006efc8b5c5f095a561b41b56","output_manifest":"research/active/KUMAON-COMPLETE-001/GOUD/manifest.yaml","mark_final_report":"research/active/KUMAON-COMPLETE-001/GOUD/MARK_FINAL_REPORT.md","completion_commit":"THIS_ATOMIC_COMMIT","completion_commit_ref":"THIS_ATOMIC_COMMIT","from_state":"GOUD_CLAIMED","to_state":"GOUD_PARTIAL","completion_destination":"VOOR_MARK","canonical_integration_status":"NOT_APPLICABLE","notes":"Authoritative atomic GOUD completion. Forty-seven candidates, permanent IDs, final GEO datasets, thirty-two connections and the seven-layer KUMAON_COMPLETE.kml are coherent. No formal/advisory A/B/C, decision-ID, canonical write, route, base, station or hotel choice was made. MARK_FINAL_REPORT is ready for direct delivery."}
+{"event_id":"EVT-0018","run_id":"KUMAON-COMPLETE-001","event_type":"GOUD_COMPLETION_REPAIRED","at":"2026-07-20T17:02:00+02:00","actor":"ChatGPT-GOUD","role":"GOUD","repair_type":"GEO_SCHEMA_FIELDS_REISSUED","superseded_completion_commit":"a0fbd45b57faa5041025f4f6b02e5c79e4aee448","result_status":"PARTIAL","claim_status":"CLOSED","output_manifest":"research/active/KUMAON-COMPLETE-001/GOUD/manifest.yaml","completion_commit":"THIS_ATOMIC_COMMIT","completion_commit_ref":"THIS_ATOMIC_COMMIT","from_state":"GOU
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1477 path=research/active/KUMAON-COMPLETE-001/events.jsonl blob_sha=fc15ef577d3c4358b1be9c194793ebe81dcd6181 original_offset=12288 original_length=394 payload_bytes=394 chunk_index=3 chunk_count=4 classification=text
+D_PARTIAL","to_state":"GOUD_PARTIAL","notes":"Authoritative atomic repaired GOUD completion. geo_locations.jsonl and geo_connections.jsonl were reissued with all required protocol fields, Maps links, point-choice status, source/method and WORKING limitations; manifest, COMPLETED, audit, state and events were atomically reissued. All other validated outputs remain unchanged."}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1478 path=research/active/KUMAON-COMPLETE-001/state.yaml blob_sha=630d324c186e4cb4993af9dcc8d5d10a8d922ef0 original_offset=0 original_length=2897 payload_bytes=2897 chunk_index=0 chunk_count=1 classification=text
+schema_version: 3
+run_id: KUMAON-COMPLETE-001
+state: GOUD_PARTIAL
+active_role: null
+claim:
+  role: GOUD
+  claimed_by: ChatGPT-GOUD
+  claimed_at: 2026-07-20T16:23:00+02:00
+  source_commit: 55fc0924b29ac3e006efc8b5c5f095a561b41b56
+  expected_state: READY_FOR_GOUD
+  output_path: research/active/KUMAON-COMPLETE-001/GOUD/
+  claim_status: CLOSED
+  closed_at: 2026-07-20T16:55:00+02:00
+  result_status: PARTIAL
+  completion_commit: THIS_ATOMIC_COMMIT
+  completion_commit_ref: THIS_ATOMIC_COMMIT
+controller_claim:
+  transition: ZILVER_COMPLETE_TO_READY_FOR_GOUD
+  claimed_by: ChatGPT-INLINE-CONTROLLER
+  claimed_at: 2026-07-19T18:56:00+02:00
+  source_commit: 55fc0924b29ac3e006efc8b5c5f095a561b41b56
+  expected_state: ZILVER_COMPLETE
+  target_context_manifest: research/active/KUMAON-COMPLETE-001/context/GOUD_CONTEXT.yaml
+  activation_mode: INLINE_POST_PHASE_CONTROLLER
+  claim_status: CLOSED
+  closed_at: 2026-07-19T18:59:00+02:00
+  transition_commit: THIS_ATOMIC_COMMIT
+  transition_commit_ref: THIS_ATOMIC_COMMIT
+completion_repair:
+  predecessor_transient_commits:
+    - 25e410a1af2f5e832e5ba548701f95f88bacce01
+    - 91c1c1f7f9a7e7e8eb1403c10e33cbe4ade02085
+  predecessor_status: REPAIRED_IN_ZILVER_COMPLETION
+  predecessor_repair_events: [EVT-0008, EVT-0011]
+  goud_superseded_completion_commit: a0fbd45b57faa5041025f4f6b02e5c79e4aee448
+  goud_repair_status: GEO_SCHEMA_REISSUED
+  goud_repair_event: EVT-0018
+claim_order_validation:
+  status: VALID_BY_GIT_ANCESTRY
+  claim_commit: 7a358b6d2625945f4967207580cfdbda79816128
+  metadata_repair_event: EVT-0009
+last_event_id: EVT-0018
+last_validated_commit: THIS_ATOMIC_COMMIT
+blockers:
+  - Exact identity, access and GEO remain open for K. K. Sah house, Bodh Ashram and the Vivekananda cave.
+  - Complete ten-function image and systematic recent-review coverage remains absent.
+  - Live December 2026 rail, winter-road, trail, taxi, parking and travel-time conditions remain time-sensitive.
+context_profile: GOUD_MIN
+active_context_manifest: research/active/KUMAON-COMPLETE-001/context/GOUD_CONTEXT.yaml
+location_id_blocks:
+  corridor_nodes_preserved: 300-399
+  kumaon: 400-499
+  existing_kumaon_assignments: 400-426
+  new_kumaon_assignments: 427-443
+working_geo: true
+run_local_complete_kml_required: true
+parels_layer_active: false
+parallel_writers_allowed: false
+inline_handoff_active: false
+post_completion_mode: MARK_FINAL_REPORT
+next_role_after_goud: MARK
+completion_destination: VOOR_MARK
+mark_final_report_ready: true
+route_optimization_ready: true
+canonical_integration:
+  mode: DETERMINISTIC_NON_DECISIONAL
+  status: NOT_APPLICABLE
+  registry_write_applied: false
+  decisions_index_write_applied: false
+  allowed_registry_path: knowledge/places/registry.jsonl
+  allowed_decisions_index_path: decisions/INDEX.yaml
+  forbid_new_or_changed_abc: true
+  forbid_new_decision_id: true
+  require_mark_decision_on_content_choice: true
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1479 path=research/active/KUMAON-COMPLETE-001/transitions/ZILVER_TO_GOUD_HANDOFF.md blob_sha=413df1b64531c5a3a96ca13a99e521c572867f87 original_offset=0 original_length=2806 payload_bytes=2806 chunk_index=0 chunk_count=1 classification=text
+RESULTAATSTATUS: PARTIAL
+RUN_ID: KUMAON-COMPLETE-001
+VOLTOOIDE_ROL: ZILVER
+FASE_COMPLETION_COMMIT: 55fc0924b29ac3e006efc8b5c5f095a561b41b56
+WORKER_CLAIM_CLOSED: YES
+TRANSITION_COMMIT: THIS_ATOMIC_COMMIT
+CONTROLLER_CLAIM_CLOSED: YES
+NEXT_ROLE: GOUD
+NEXT_ROLE_READY: YES
+NEXT_EXPECTED_STATE: READY_FOR_GOUD
+NEXT_CONTEXT_MANIFEST: research/active/KUMAON-COMPLETE-001/context/GOUD_CONTEXT.yaml
+HOOGSTE_BLOCKERS: K. K. Sah house, Bodh Ashram en Vivekananda-grot blijven op micro-identiteit/toegang/GEO open; volledige tien-functie beeld- en reviewdekking ontbreekt; december 2026 vervoer en wintertoegang blijven tijdgevoelig.
+
+VOLGENDE_METAAL_STARTOPDRACHT_BEGIN
+GitHub GOUD:
+
+Activeer in deze chat onmiddellijk de GitHub-connector en houd deze gedurende de volledige uitvoering beschikbaar. Dit onderzoek gebruikt GitHub als enige bron van waarheid en overdrachtskanaal. Test vóór ieder inhoudelijk werk zowel GitHub-read als GitHub-write voor repository bnzgxknwrv-tech/india-knowledge-base. Ontbreekt read of write, antwoord dan uitsluitend: MARK: IK MIS GITHUB CONNECTOR!
+
+Open pipeline/ENTRYPOINT.md in repository bnzgxknwrv-tech/india-knowledge-base.
+
+Controleer dat pipeline/NEXT_ACTION.yaml semantisch exact deze lower-case velden bevat:
+- run_id: KUMAON-COMPLETE-001
+- route: GOUD
+- expected_state: READY_FOR_GOUD
+- context_manifest: research/active/KUMAON-COMPLETE-001/context/GOUD_CONTEXT.yaml
+
+Voer uitsluitend de aangewezen actie uit. Lees uitsluitend het gepinde contextmanifest en de daarin genoemde required files en expliciet getriggerde optional files. Haal de volledige gevalideerde ZILVER-output uit GitHub; gebruik deze geplakte overdracht niet als onderzoeksbron.
+
+Voer het volledige gepinde GOUD-rolcontract, de methodologie, protocollen en quality gates uit. Stop bij ontbrekende GitHub-write, een ACTIVE bestaande claim, state/event-desynchronisatie, ontbrekend of afgekapt required bestand, hashafwijking, ongeldige bronreferenties of een andere gepinde stopvoorwaarde.
+
+Schrijf en commit de volledige GOUD-fase. Lever verplicht geo_locations.jsonl, geo_connections.jsonl, location_id_audit.md, decision_inputs.md, de complete zevenlaagse KUMAON_COMPLETE.kml, CANONICAL_INTEGRATION_PROPOSAL.md en MARK_FINAL_REPORT.md. Voer uitsluitend de gepinde deterministische, niet-beslissende canonieke integratie uit; wijzig geen formele of adviserende A/B/C-status, creëer geen nieuw decision-ID en neem geen route-, basis-, station- of hotelbesluit namens Mark. Sluit de GOUD-workerclaim aantoonbaar in de completioncommit. Valideer daarna alle finale artifacts, eventuele canonieke writes, state/events en het opnieuw geopende MARK_FINAL_REPORT. Lever bij geldige PASS of PARTIAL het volledige gecommitte rapport rechtstreeks aan Mark.
+VOLGENDE_METAAL_STARTOPDRACHT_EINDE
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1480 path=research/active/KUMAON-COMPLETE-001/transitions/ZILVER_TO_GOUD_VALIDATION.md blob_sha=31715c64e7ff9fcaa88707f1db7f86d416a710aa original_offset=0 original_length=3835 payload_bytes=3835 chunk_index=0 chunk_count=1 classification=text
+# ZILVER naar GOUD — transitionvalidatie
+
+## Resultaat
+
+`PASS`
+
+- run_id: `KUMAON-COMPLETE-001`
+- transition: `ZILVER_COMPLETE_TO_READY_FOR_GOUD`
+- definitieve ZILVER-resultaatcommit: `55fc0924b29ac3e006efc8b5c5f095a561b41b56`
+- ZILVER-resultaatstatus: `PARTIAL`
+- ZILVER-workerclaim: `CLOSED`
+- controllerclaim: gesloten in dezelfde transitioncommit
+- doelstate: `READY_FOR_GOUD`
+- doelcontext: `research/active/KUMAON-COMPLETE-001/context/GOUD_CONTEXT.yaml`
+
+## Predecessorvalidatie
+
+- `manifest.yaml`, `COMPLETED`, `handoff.yaml`, state en events tonen dezelfde geldige ZILVER-uitkomst.
+- De finale completioncommit bevat manifest, COMPLETED, state en events samen.
+- Alle verplichte ZILVER-artifacts bestaan, zijn volledig heropend en eindigen waar vereist met `END_OF_ARTIFACT`.
+- 47 kandidaten, 77 claims, 39 accepted sources, 8 rejected sources, 47 GEO-records, 32 verbindingen en 47 KML-placemarks zijn structureel coherent.
+- Iedere claim-sourceverwijzing resolveert exact één keer; accepted en rejected source-ID's zijn onderling uniek.
+- Alle LOCATION_ID's zijn uniek; 308-310 en 400-443 blijven behouden; geen hernummering of cross-blocktoewijzing.
+- Formele statussen blijven exact 16 A, 1 B en 4 C; geen formele of adviserende status is toegevoegd of gewijzigd.
+- De zeven KML-lagen zijn volledig en Mayavati gebruikt het door ZILVER gecorrigeerde WORKING_GEO-punt.
+- Geen station, basis, hotel, route, eerste bezoeklocatie, laatste Kumaon-locatie of uitreisrichting is gekozen.
+
+## Continuous Learning-classificatie
+
+### KUMAON-ZILVER-ERR-001
+
+- fout: twee voorlopige completionwrites schreven eerst alleen state en daarna alleen events;
+- risico: een schijnbaar gesloten fase zonder atomische manifest/COMPLETED/state/event-combinatie;
+- foutklasse: `LOCAL_DATA_ERROR`;
+- actuele reparatie: beide commits zijn expliciet als niet-autoritatief geregistreerd in `EVT-0008` en `EVT-0011`; commit `55fc0924b29ac3e006efc8b5c5f095a561b41b56` heeft de fase atomisch voltooid;
+- structurele verbetering: `NO_SYSTEM_CHANGE`;
+- reden: `EXECUTION_PROTOCOL.md` en `ROLE_HANDOFF_PROTOCOL.md` vereisen reeds ondubbelzinnig een atomische completioncommit. De fout ontstond door onjuiste toolselectie, niet door een protocolgat;
+- actieve run: reparatie geldt volledig voor deze run.
+
+### KUMAON-ZILVER-ERR-002
+
+- fout: het vrije tijdveld van `EVT-0007` is niet monotoon ten opzichte van `EVT-0006`;
+- risico: verwarring bij uitsluitend chronologische lezing van eventmetadata;
+- foutklasse: `LOCAL_DATA_ERROR`;
+- actuele reparatie: Git-ancestry bewijst de geldige claimvolgorde; `EVT-0009` documenteert dit append-only;
+- structurele verbetering: `NO_SYSTEM_CHANGE`;
+- reden: state, eventvolgorde en commit-ancestry zijn reeds de gezaghebbende synchronisatiesignalen en het defect verandert geen claimbezit of transition;
+- actieve run: de claim blijft geldig en aantoonbaar na `READY_FOR_ZILVER` geplaatst.
+
+## GOUD-context
+
+Het GOUD-contextmanifest pint:
+
+- de volledige technische ZILVER-kern;
+- alle OPEN en high-risk CORRECTED lagen via expliciete always-triggers;
+- beperkte BRONS-loss-control voor kandidaten, GEO, kaartbron en KML;
+- het GOUD-contract, quality gate, GEO-protocol en de verplichte Mark- en integratietemplates;
+- `MARK_FINAL_REPORT` en `DETERMINISTIC_NON_DECISIONAL` als enige post-completionmodus.
+
+## Open inhoudelijke punten voor GOUD
+
+1. K. K. Sah house, Bodh Ashram en de exacte Vivekananda-grot blijven op identiteit, toegang of micro-GEO open.
+2. Het tien-functionele beelddossier en systematische recente reviewdekking blijven onvolledig.
+3. December 2026-spoor, winterwegen, trails, taxi's en reistijden blijven tijdgevoelig.
+
+Deze punten zijn niet fataal voor de transition en moeten door GOUD worden opgelost of als concrete praktische controles in het eindrapport blijven staan.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1481 path=research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/COMPLETED blob_sha=85834b8a0e15271b86f8bd30e276cd5bf7b44651 original_offset=0 original_length=432 payload_bytes=432 chunk_index=0 chunk_count=1 classification=text
+run_id: KUMAON-ROUTE-OPTIMIZATION-001
+role: BRONS
+status: PARTIAL
+research_commit: e49ceb2598dc8d587c04799eae545b746301c336
+handoff_path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/handoff.yaml
+manifest_path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/manifest.yaml
+worker_claim: ChatGPT-BRONS-KUMAON-ROUTE-001
+claim_status: CLOSED_IN_THIS_COMPLETION_COMMIT
+completed_at: 2026-07-20T18:56:48+02:00
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1482 path=research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/MASTER_INDIA_KML_LINKAGE.md blob_sha=ff71f25cc92d1c2814921052017953be647fe85d original_offset=0 original_length=1200 payload_bytes=1200 chunk_index=0 chunk_count=1 classification=text
+# MASTER_INDIA_KML_LINKAGE — BRONS input
+
+Issue-koppeling: `MASTER-INDIA-KML-001` (#17)
+
+## Later op te nemen lagen
+
+- A_FORMEEL: alle bestaande Kumaon-A-markers ongewijzigd.
+- B_FORMEEL: bestaande B-marker ongewijzigd.
+- C_FORMEEL: alle bestaande C-markers ongewijzigd.
+- D_DOOR_MARK_TE_BEOORDELEN: bestaande onbeoordeelde markers; D is geen vierde klasse.
+- CONTEXT_OF_AFGEVALLEN: bestaande contextmarker.
+- ROUTE_VOLGORDE: volgorde uit `route_sequence.jsonl` en `kml_route_input.jsonl`.
+- BASES_EN_OVERNACHTING: Bhowali 3, Almora/Kasar 5, Dwarahat 4, Haldwani 2.
+- TREINTRAJECTEN: 12040 NDLS-KGM, 12092 HDW-HW, 18478 HW-MTJ.
+- TREINSTATIONS_GRIJS: alle stop-instanties uit `train_stops.jsonl`, één grijze stijl en één treinlogo.
+- VLIEGVELDEN_EN_VLUCHTEN: alleen vergelijking/fallback; geen aanbevolen vluchtlaag tenzij ZILVER/GOUD deze dragend houdt.
+
+## Integriteitsregels
+
+- Geen treinhalte krijgt een formele of adviserende A/B/C.
+- Permanente LOCATION_ID's blijven behouden.
+- Nieuwe externe stationpunten worden pas in finale KML gezet na WGS84-verificatie.
+- De master-KML wordt in deze run niet rechtstreeks gewijzigd.
+- Issue #17 wordt in deze fase niet gemuteerd.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1483 path=research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/arrival_and_exit_analysis.jsonl blob_sha=6a413ff8538b3f7ca2c503117d1658b3d686795e original_offset=0 original_length=2598 payload_bytes=2598 chunk_index=0 chunk_count=1 classification=text
+{"analysis_id":"ARR-TRAIN-12040","type":"ARRIVAL","option":"Delhi hotel -> NDLS -> train 12040 -> KGM -> Bhowali","recommended":true,"door_to_door_time_h":"7.5-8.5 from Delhi lodging","effective_arrival":"Bhowali about early afternoon if current timetable holds","cost_components":["CC snapshot INR 680 or EC INR 1330","Delhi local transfer","KGM-Bhowali mountain taxi","one Delhi hotel night is operationally prudent"],"baggage":"23 kg checked-size luggage is not subject to airline excess-baggage pricing; personal handling and rail rules still require live check.","advantages":["earlier Bhowali arrival than current midday DEL flight","single long rail leg","lowest current transport cost","no airport baggage surcharge"],"risks":["06:20 departure requires protected Delhi overnight","winter fog can also delay rail","December inventory not yet open"],"source_ids":["BRS-EXT-001","BRS-EXT-002","BRS-EXT-012"]}
+{"analysis_id":"ARR-FLIGHT-DEL-PGH","type":"ARRIVAL","option":"DEL -> PGH -> road to Bhowali","recommended":false,"door_to_door_time_h":"5-6.5 from airport check-in, excluding arrival-airport connection risk","effective_arrival":"Current midday pattern reaches Bhowali later than 12040; exact winter schedule unknown.","cost_components":["volatile airfare","23 kg exceeds 15 kg domestic checked allowance by 8 kg","prepaid 10 kg excess slab current snapshot INR 6500","PGH-Bhowali road transfer"],"baggage":"Backpack/daypack plus 23 kg checked makes the flight materially more expensive unless a fare bundle changes the allowance.","advantages":["short flight time","fallback when rail cannot connect with international arrival"],"risks":["winter fog","baggage collection","airport transfer","future schedule and fare unavailable","DXN option requires separate airport positioning"],"source_ids":["BRS-EXT-008","BRS-EXT-009","BRS-EXT-010","BRS-EXT-011","BRS-EXT-012","BRS-EXT-016"]}
+{"analysis_id":"EXIT-HARIDWAR-12092","type":"EXIT","option":"Haldwani -> Haridwar on 12092","recommended":true,"planned_date":"2027-01-03","door_to_door_time_h":"5h25 rail plus short base/station transfers","effective_arrival":"Haridwar 11:05 current timetable; preserves afternoon.","cost_components":["2S/CC fare live recheck","short Haldwani station transfer"],"advantages":["direct","no bus","no plains taxi","best bridge to Haridwar/Kankhal","Sunday matches current operating pattern"],"risks":["five-day service requires date lock","current sources contain misleading all-days headers","winter disruption"],"source_ids":["BRS-EXT-003","BRS-EXT-004","BRS-EXT-005","BRS-CAL-001"]}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1484 path=research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/audit.md blob_sha=9e235551862013fb47752c71895820b4c1eb59f0 original_offset=0 original_length=1623 payload_bytes=1623 chunk_index=0 chunk_count=1 classification=text
+# BRONS audit — KUMAON-ROUTE-OPTIMIZATION-001
+
+## Context
+
+- source_commit: `dbac7e3e89f275ec1c99bf348da55f6bcf7ac5e8`
+- predecessor_completion_commit: `41a77b967d784de5babb67d603becf2b9f2ebf75`
+- worker_claim: `ChatGPT-BRONS-KUMAON-ROUTE-001`
+- scope: routeoptimalisatie, geen brede sweep
+- checked_at: 2026-07-20
+
+## Scope-audit
+
+PASS:
+- alle zestien formele Kumaon-A-locaties verantwoord;
+- formele B optioneel en alle C zichtbaar;
+- geen nieuwe formele of adviserende A/B/C;
+- geen bus;
+- auto/taxi alleen bergen, kort en first/last mile;
+- geen boekingen;
+- vier verplichte vervolgclusters vergeleken;
+- volledige stationreeksen voor alle aanbevolen treinen;
+- 23 kg-vluchtbagage expliciet meegerekend;
+- live-recheckregister aanwezig;
+- technische master-KML-input aanwezig zonder mastermutatie.
+
+## Bronintegriteit
+
+Accepted sources: 23
+Rejected sources: 3
+Claims: 16
+
+Alle `source_ids` in claims verwijzen naar exact één record in `sources/registry.jsonl`. Geen claim verwijst naar een afgewezen bron-ID. Het interne 12092-conflict is zichtbaar gemaakt en de onbetrouwbare algemene kop is afgewezen.
+
+## Geen inhoudsverlies
+
+- 16 A, 1 B en 4 C behouden.
+- LOCATION_ID 308–310 en 400–443 niet gewijzigd.
+- Bodh Ashram blijft A maar route-uitvoering is conditioneel.
+- Haidakhan Vishwa Mahadham blijft onderscheiden van Anandapuri/Chiliyanaula-context.
+- Treinhaltes blijven detectorinput en geen bestemmingstatus.
+
+## Resultaat
+
+`PARTIAL`
+
+Reden: toekomstige boekbare dienstregeling, winterconditie, Bodh Ashram-toegang en externe stationcoördinaten zijn nog niet definitief verifieerbaar.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1485 path=research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/base_and_nights_plan.jsonl blob_sha=175e2b80266ba703e501807ac02e821de26b7cf6 original_offset=0 original_length=1696 payload_bytes=1696 chunk_index=0 chunk_count=1 classification=text
+{"base_id":"BASE-DELHI","base_name":"Delhi","location_id":null,"check_in":"2026-12-19","check_out":"2026-12-20","nights":1,"role":"ARRIVAL_BUFFER","reason":"06:20 train requires protected previous-night positioning; not a Kumaon base.","hotel_selected":false}
+{"base_id":"BASE-BHOWALI","base_name":"Bhowali","location_id":"427","check_in":"2026-12-20","check_out":"2026-12-23","nights":3,"role":"FIRST_KUMAON_BASE","reason":"Best junction for Kainchi/Bhumiyadhar, Nainital/Hanuman Garhi and onward Almora axis without Nainital parking dependence.","hotel_selected":false,"source_ids":["BRS-INT-004","BRS-EXT-012"]}
+{"base_id":"BASE-ALMORA-KASAR","base_name":"Almora / Kasar Devi","location_ids":["437","438"],"check_in":"2026-12-23","check_out":"2026-12-28","nights":5,"role":"CENTRAL_A_CLUSTER_BASE","reason":"Covers Almora circuit, Kasar ridge and Jageshwar with one weather/access buffer. Exact lodging side remains open.","hotel_selected":false,"source_ids":["BRS-INT-003","BRS-INT-004","BRS-EXT-014"]}
+{"base_id":"BASE-DWARAHAT","base_name":"Dwarahat","location_id":"436","check_in":"2026-12-28","check_out":"2027-01-01","nights":4,"role":"BABAJI_DUNAGIRI_BASE","reason":"Supports YSS/Dunagiri/Smriti and a separate full Babaji Cave day with winter buffer.","hotel_selected":false,"source_ids":["BRS-INT-004","BRS-EXT-013"]}
+{"base_id":"BASE-HALDWANI","base_name":"Haldwani","location_id":"431","check_in":"2027-01-01","check_out":"2027-01-03","nights":2,"role":"HAIDAKHAN_AND_EXIT_BASE","reason":"Services, Haidakhan access and direct boarding of 12092 without returning uphill to Kathgodam.","hotel_selected":false,"source_ids":["BRS-INT-003","BRS-INT-004","BRS-EXT-003"]}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1486 path=research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/claims.jsonl blob_sha=e833ca6059d816229a93377bc535eb0f668ac93f original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+{"claim_id":"BRC-001","candidate_id":"ROUTE-ARRIVAL","claim_type":"VISITABILITY","claim_text":"Train 12040 currently runs daily from NDLS 06:20 to KGM 11:55 with the recorded nine-station sequence.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["BRS-EXT-001"],"notes":"Time-sensitive; December live recheck mandatory."}
+{"claim_id":"BRC-002","candidate_id":"ROUTE-ARRIVAL","claim_type":"VISITABILITY","claim_text":"For Marks 23 kg checked bag, the current IndiGo domestic baseline creates excess-baggage cost above a 15 kg allowance; the current 10 kg prepaid slab is INR 6500.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["BRS-EXT-008","BRS-EXT-009"],"notes":"Fare bundle may change; live quote required."}
+{"claim_id":"BRC-003","candidate_id":"ROUTE-ARRIVAL","claim_type":"PROXIMITY","claim_text":"Bhowali is materially closer by road to Kathgodam than to Pantnagar under the state tourism access description, supporting KGM as practical rail arrival.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["BRS-EXT-012"],"notes":"Exact winter drive time remains open."}
+{"claim_id":"BRC-004","candidate_id":"ROUTE-ARRIVAL","claim_type":"VISITABILITY","claim_text":"The 12040 rail option is the preferred working arrival because it is cheaper with 23 kg baggage and currently reaches the first base earlier in the day than the midday DEL-PGH pattern.","evidence_status":"INFERRED","source_ids":["BRS-EXT-001","BRS-EXT-008","BRS-EXT-009","BRS-EXT-011","BRS-EXT-012"],"notes":"Inference from current schedules and cost components; not a booking fact."}
+{"claim_id":"BRC-005","candidate_id":"BASE-BHOWALI","claim_type":"PROXIMITY","claim_text":"Bhowali is the preferred first base for the Kainchi/Bhumiyadhar and Nainital-side formal locations before moving east to Almora.","evidence_status":"INFERRED","source_ids":["BRS-INT-003","BRS-INT-004","BRS-EXT-012"],"notes":"No hotel selected."}
+{"claim_id":"BRC-006","candidate_id":"ROUTE-INTERNAL","claim_type":"OVERLAY_RELATION","claim_text":"The proposed internal order accounts for all sixteen formal Kumaon A locations without altering any A/B/C status.","evidence_status":"INFERRED","source_ids":["BRS-INT-002","BRS-INT-006"],"notes":"Route order is a BRONS working proposal for ZILVER verification."}
+{"claim_id":"BRC-007","candidate_id":"BASE-ALMORA-KASAR","claim_type":"PROXIMITY","claim_text":"A five-night Almora/Kasar block can cover the Almora circuit, Kasar ridge and Jageshwar while retaining one weather/access buffer.","evidence_status":"INFERRED","source_ids":["BRS-INT-003","BRS-INT-004","BRS-EXT-014"],"notes":"Exact lodging side and road times remain open."}
+{"claim_id":"BRC-008","candidate_id":"BASE-DWARAHAT","claim_type":"VISITABILITY","claim_text":"Babaji Cave requires a distinct full day because the official YSS page places it 25 km beyond Dwarahat, reports about a one-hour climb and six-to-eight hours for the ashram-cave return.","evidence_status":"LINEAGE_CONFIRMED","source_ids":["BRS-EXT-013"],"notes":"Winter trail and daylight check mandatory."}
+{"claim_id":"BRC-009","candidate_id":"LOCATION-421","claim_type":"VISITABILITY","claim_text":"Bodh Ashram remains formally A but cannot be treated as a reliable visit slot until physical identity, management and access are confirmed.","evidence_status":"PRACTICAL_CHECK_REQUIRED","source_ids":["BRS-INT-001","BRS-INT-005"],"notes":"Status unchanged; route slot conditional."}
+{"claim_id":"BRC-010","candidate_id":"BASE-HALDWANI","claim_type":"PROXIMITY","claim_text":"Haldwani is the preferred final Kumaon base because it supports the Haidakhan day and direct boarding of 12092 without an uphill return to Kathgodam.","evidence_status":"INFERRED","source_ids":["BRS-INT-003","BRS-INT-004","BRS-EXT-003"],"notes":"Local road/taxi must be live checked."}
+{"claim_id":"BRC-011","candidate_id":"ROUTE-EXIT","claim_type":"VISITABILITY","claim_text":"Train 12092 currently provides a direct Sunday 3 January 2027 working exit from HDW 05:40 to HW 11:05.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["BRS-EXT-003","BRS-EXT-004","BRS-CAL-001
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1487 path=research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/claims.jsonl blob_sha=e833ca6059d816229a93377bc535eb0f668ac93f original_offset=4096 original_length=2112 payload_bytes=2112 chunk_index=1 chunk_count=2 classification=text
+"],"notes":"Service-day details cross-checked; misleading all-days header rejected; live official recheck mandatory."}
+{"claim_id":"BRC-012","candidate_id":"NEXT-CLUSTER","claim_type":"OVERLAY_RELATION","claim_text":"Haridwar/Kankhal is the best next existing projectcluster because the direct 12092 arrives before noon and avoids bus, flight and plains taxi.","evidence_status":"INFERRED","source_ids":["BRS-EXT-003","BRS-EXT-004","BRS-EXT-005"],"notes":"Route decision, not a new place valuation."}
+{"claim_id":"BRC-013","candidate_id":"NEXT-CLUSTER","claim_type":"VISITABILITY","claim_text":"The current 18478 schedule provides a daily daytime bridge from HW 06:54 to MTJ 13:45 with all segment stops recorded.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["BRS-EXT-006","BRS-EXT-007"],"notes":"High delay signal and future diversion require buffer/live recheck."}
+{"claim_id":"BRC-014","candidate_id":"CLUSTER-CHAIN","claim_type":"OVERLAY_RELATION","claim_text":"The provisional remainder Haridwar/Kankhal -> Braj/Agra -> Varanasi -> Bodh Gaya -> Kolkata/Dakshineswar is geographically and operationally stronger than jumping directly from Kumaon to Kolkata.","evidence_status":"INFERRED","source_ids":["BRS-EXT-006","BRS-EXT-007","BRS-EXT-015"],"notes":"No content research of successor clusters performed."}
+{"claim_id":"BRC-015","candidate_id":"ALT-KOLKATA","claim_type":"VISITABILITY","claim_text":"The direct 13020 KGM-HWH option is not preferred because its current duration is about 37h25 and it skips the desired intermediate cluster sequence.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["BRS-EXT-015"],"notes":"Comparison only."}
+{"claim_id":"BRC-016","candidate_id":"KML","claim_type":"PHYSICAL_IDENTITY","claim_text":"All recommended train-stop instances are preserved as grey transport markers with one train-logo style and never acquire formal or advisory A/B/C status.","evidence_status":"INFERRED","source_ids":["BRS-INT-002","BRS-EXT-001","BRS-EXT-003","BRS-EXT-006"],"notes":"Coordinates remain a blocking final-KML recheck where not already permanent."}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1488 path=research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/door_to_door_comparison.jsonl blob_sha=e99931441b802de712f32a93b4c71707fe2bac6d original_offset=0 original_length=2348 payload_bytes=2348 chunk_index=0 chunk_count=1 classification=text
+{"comparison_id":"D2D-ARR-TRAIN","corridor":"Delhi to first Kumaon base","mode":"TRAIN","option":"12040 + taxi","door_to_door_hours":"7.5-8.5 from Delhi lodging","total_cost_inr_working":"roughly 3000-6000 including chair car, local transfers and mountain taxi; hotel night separate","checked_baggage_23kg":"no airline excess fee","transfers":2,"hotel_night":"YES, recommended before 06:20 departure","effective_daylight_loss":"low after arrival; Bhowali early afternoon","status":"PREFERRED_WORKING","source_ids":["BRS-EXT-001","BRS-EXT-002","BRS-EXT-012"]}
+{"comparison_id":"D2D-ARR-FLIGHT","corridor":"Delhi to first Kumaon base","mode":"FLIGHT","option":"DEL/DXN-PGH + taxi","door_to_door_hours":"5-6.5 from airport process, but international-airport positioning can add materially","total_cost_inr_working":"roughly 10000-14000 at current sample logic when excess baggage and road transfer are included","checked_baggage_23kg":"8 kg above standard 15 kg; current 10 kg prepaid slab INR 6500","transfers":2,"hotel_night":"MAYBE, depends on international arrival and airport used","effective_daylight_loss":"current DEL midday pattern reaches Bhowali late afternoon; DXN schedule can be earlier but requires airport transfer","status":"FALLBACK_ONLY","source_ids":["BRS-EXT-008","BRS-EXT-009","BRS-EXT-010","BRS-EXT-011","BRS-EXT-012","BRS-EXT-016"]}
+{"comparison_id":"D2D-EXIT-HARIDWAR","corridor":"Last Kumaon base to Haridwar/Kankhal","mode":"TRAIN","option":"12092 HDW-HW","door_to_door_hours":"about 6 including short station transfers","total_cost_inr_working":"low; current KGM-HW snapshot INR 165 2S / INR 520 CC","checked_baggage_23kg":"rail handling, no airline excess fee","transfers":1,"hotel_night":"NO extra night beyond Haldwani base","effective_daylight_loss":"half day; arrival 11:05","status":"PREFERRED_WORKING","source_ids":["BRS-EXT-003","BRS-EXT-004","BRS-EXT-005"]}
+{"comparison_id":"D2D-EXIT-KOLKATA","corridor":"Kumaon to Kolkata/Dakshineswar","mode":"TRAIN","option":"13020 KGM-HWH","door_to_door_hours":"about 39 including station transfers","total_cost_inr_working":"fare recheck required","checked_baggage_23kg":"rail handling","transfers":0,"hotel_night":"ON_TRAIN two calendar nights","effective_daylight_loss":"more than one full usable day","status":"NOT_PREFERRED","source_ids":["BRS-EXT-015"]}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1489 path=research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/experience_reviews.jsonl blob_sha=75a99727f46fa3ccee947f6d17212e58e882b2d8 original_offset=0 original_length=290 payload_bytes=290 chunk_index=0 chunk_count=1 classification=text
+{"run_id":"KUMAON-ROUTE-OPTIMIZATION-001","role":"BRONS","status":"NOT_APPLICABLE","reason":"No new successor-cluster or place-experience research is authorized; predecessor experience gaps remain visible but do not control route ordering except where access is material."}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1490 path=research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/handoff.yaml blob_sha=bc73321b5f891f93113bd843483773f7f827f926 original_offset=0 original_length=3120 payload_bytes=3120 chunk_index=0 chunk_count=1 classification=text
+schema_version: 3
+run_id: KUMAON-ROUTE-OPTIMIZATION-001
+completed_role: BRONS
+result_status: PARTIAL
+output_manifest_path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/manifest.yaml
+next_role: ZILVER
+next_expected_transition: READY_FOR_ZILVER
+layer_statuses:
+  route_scope_and_status_preservation:
+    status: ACCEPTED
+    risk: LOW
+    reason: All 16 A, 1 B and 4 C are preserved; no new ABC assigned.
+    reopen_instruction: VERIFY_DRAGGING_CLAIMS
+  arrival_transport:
+    status: OPEN
+    risk: HIGH
+    reason: 12040 is preferred over flight, but December inventory and total live cost are future.
+    reopen_instruction: VERIFY_ALL
+  internal_route_and_bases:
+    status: CORRECTED
+    risk: HIGH
+    reason: One explicit 14-night Kumaon plan now covers every formal A with winter buffers.
+    reopen_instruction: VERIFY_ALL
+  station_sequences:
+    status: CORRECTED
+    risk: HIGH
+    reason: Full stop sequences are recorded for 12040, 12092 and 18478.
+    reopen_instruction: VERIFY_ALL
+  costs_and_baggage:
+    status: OPEN
+    risk: HIGH
+    reason: Current snapshots show major flight baggage penalty; future fares are unknown.
+    reopen_instruction: VERIFY_ALL
+  winter_access:
+    status: OPEN
+    risk: HIGH
+    reason: Roads, taxis, cave trail, parking and Bodh Ashram access require live confirmation.
+    reopen_instruction: VERIFY_ALL
+  next_cluster_and_chain:
+    status: CORRECTED
+    risk: MEDIUM
+    reason: Haridwar/Kankhal selected as working next cluster; remainder chain is provisional.
+    reopen_instruction: VERIFY_ALL
+  kml_and_station_markers:
+    status: OPEN
+    risk: HIGH
+    reason: Layer semantics are complete; external station coordinates still require verification.
+    reopen_instruction: VERIFY_ALL
+open_blockers:
+  - Final December 2026 and January 2027 timetable, fares and inventory.
+  - Bodh Ashram physical identity, management and public access.
+  - Winter roads, trail, taxi and external station WGS84 points.
+required_predecessor_files:
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/manifest.yaml
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/report/INDEX.md
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/claims.jsonl
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/sources/registry.jsonl
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/sources/rejected.jsonl
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/train_services.jsonl
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/train_stops.jsonl
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/route_sequence.jsonl
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/base_and_nights_plan.jsonl
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/arrival_and_exit_analysis.jsonl
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/door_to_door_comparison.jsonl
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/intercluster_transport_matrix.jsonl
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/live_recheck_register.jsonl
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/kml_route_input.jsonl
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1491 path=research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/images.jsonl blob_sha=da02f6858e79e2d0a722ba96e44c05044a8c64f9 original_offset=0 original_length=235 payload_bytes=235 chunk_index=0 chunk_count=1 classification=text
+{"run_id":"KUMAON-ROUTE-OPTIMIZATION-001","role":"BRONS","status":"NOT_APPLICABLE","reason":"This is a pinned route-optimization phase; no new place/image sweep is authorized.","predecessor_image_layer_preserved":true}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1492 path=research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/intercluster_transport_matrix.jsonl blob_sha=7120d55db17301f933824a838623b00aa9433e8d original_offset=0 original_length=2543 payload_bytes=2543 chunk_index=0 chunk_count=1 classification=text
+{"matrix_id":"ICM-001","from":"Haldwani/Kumaon","to":"Haridwar/Kankhal","existing_project_cluster":true,"best_current_mode":"TRAIN","working_service":"12092 HDW-HW","door_to_door":"about 6h","transfers":1,"hotel_night_required":false,"effective_lost_daylight":"half day","route_score":"BEST_NEXT_CLUSTER","reason":"Direct rail exit, arrives before noon, and creates a clean onward link to Braj.","source_ids":["BRS-EXT-003","BRS-EXT-004","BRS-EXT-005"]}
+{"matrix_id":"ICM-002","from":"Haldwani/Kumaon","to":"Varanasi","existing_project_cluster":true,"best_current_mode":"TRAIN_OR_FLIGHT_VIA_HUB","working_service":"No single direct fast segment established","door_to_door":"roughly 18-32h depending connection","transfers":"2 or more","hotel_night_required":"possible or overnight train","effective_lost_daylight":"one full day or more","route_score":"WEAKER_THAN_HARIDWAR_FIRST","reason":"Connection-heavy from Kumaon; better reached after Braj in eastbound chain.","source_ids":["BRS-EXT-003","BRS-EXT-015"]}
+{"matrix_id":"ICM-003","from":"Haldwani/Kumaon","to":"Bodh Gaya","existing_project_cluster":true,"best_current_mode":"TRAIN_OR_FLIGHT_VIA_HUB","working_service":"No direct decision-grade service established","door_to_door":"roughly 18-24h working class","transfers":"2 or more","hotel_night_required":"likely overnight travel","effective_lost_daylight":"one full day","route_score":"WEAKER_THAN_VARANASI_SEQUENCE","reason":"Geographically east but connection-heavy; logical after Varanasi.","source_ids":["BRS-EXT-015"]}
+{"matrix_id":"ICM-004","from":"Haldwani/Kumaon","to":"Kolkata/Dakshineswar","existing_project_cluster":true,"best_current_mode":"DIRECT_TRAIN_OR_FLIGHT_VIA_DELHI","working_service":"13020 direct KGM-HWH","door_to_door":"about 39h by direct train","transfers":0,"hotel_night_required":"two calendar nights on train","effective_lost_daylight":"more than one full day","route_score":"NOT_NEXT","reason":"Direct but excessively slow and skips Varanasi/Bodh Gaya sequence.","source_ids":["BRS-EXT-015"]}
+{"matrix_id":"ICM-005","from":"Haridwar/Kankhal","to":"Braj/Mathura-Vrindavan","existing_project_cluster":true,"best_current_mode":"TRAIN","working_service":"18478 HW-MTJ","door_to_door":"about 8h including transfers","transfers":1,"hotel_night_required":false,"effective_lost_daylight":"most of one day but arrival 13:45 current timetable","route_score":"BEST_AFTER_HARIDWAR","reason":"Direct daytime rail bridge that sets up west-to-east remainder.","source_ids":["BRS-EXT-006","BRS-EXT-007"]}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1493 path=research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/kml_route_input.jsonl blob_sha=32f09c1717de45991a0626aebbd21822997363cc original_offset=0 original_length=2007 payload_bytes=2007 chunk_index=0 chunk_count=1 classification=text
+{"kml_input_id":"KML-ROUTE-ORDER","layer":"ROUTE_VOLGORDE","ordered_location_ids":["404","412","409","407","413","414","405","406","420","421","408","403","402","401","400","423"],"geometry_source":"KUMAON-COMPLETE-001 map_source at pinned completion commit","conditional_location_ids":["421"],"formal_status_change":false}
+{"kml_input_id":"KML-BASES","layer":"BASES_EN_OVERNACHTING","bases":[{"location_ids":["427"],"name":"Bhowali","nights":3},{"location_ids":["437","438"],"name":"Almora / Kasar Devi","nights":5},{"location_ids":["436"],"name":"Dwarahat","nights":4},{"location_ids":["431"],"name":"Haldwani","nights":2}],"hotel_selected":false}
+{"kml_input_id":"KML-TRAINS","layer":"TREINTRAJECTEN","segments":[{"service_id":"TRN-12040-NDLS-KGM","train_number":"12040","date":"2026-12-20","start":"NDLS","end":"KGM"},{"service_id":"TRN-12092-HDW-HW","train_number":"12092","date":"2027-01-03","start":"HDW","end":"HW"},{"service_id":"TRN-18478-HW-MTJ","train_number":"18478","date":"2027-01-06","start":"HW","end":"MTJ"}],"geometry_status":"BUILD_FROM_VERIFIED_STATION_POINTS"}
+{"kml_input_id":"KML-TRAIN-STATIONS","layer":"TREINSTATIONS_GRIJS","source_register":"train_stops.jsonl","join_key":["service_id","sequence"],"style_id":"TRAIN_GREY_SINGLE_LOGO","marker_color":"808080","icon_requirement":"ONE_RECOGNISABLE_TRAIN_LOGO","description_fields":["station_name","station_code","service_id","sequence","arrival","departure","halt_min","role","mark_action"],"coordinates":"Reuse permanent 308-310 where applicable; independently verify every other WGS84 point before final KML.","automatic_candidate":false,"automatic_formal_or_advisory_abc":false}
+{"kml_input_id":"KML-MASTER-LINK","master_issue":17,"master_run":"MASTER-INDIA-KML-001","master_mutated_in_brons":false,"required_layers":["A_FORMEEL","B_FORMEEL","C_FORMEEL","D_DOOR_MARK_TE_BEOORDELEN","CONTEXT_OF_AFGEVALLEN","ROUTE_VOLGORDE","BASES_EN_OVERNACHTING","TREINTRAJECTEN","TREINSTATIONS_GRIJS","VLIEGVELDEN_EN_VLUCHTEN"]}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1494 path=research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/live_recheck_register.jsonl blob_sha=072fbe7957bc0d326754c4ea66029030e43bda50 original_offset=0 original_length=3019 payload_bytes=3019 chunk_index=0 chunk_count=1 classification=text
+{"recheck_id":"RCK-001","when":"2026-09-20","subject":"Open December 2026 rail inventory and confirm 12040 on 2026-12-20","action":"Verify operating day, exact timetable, fare, class availability, luggage rules and platform.","blocking_if_failed":true,"source_ids":["BRS-EXT-001","BRS-EXT-002"]}
+{"recheck_id":"RCK-002","when":"2026-09-20","subject":"Confirm 12092 on Sunday 2027-01-03","action":"Resolve five-day service, timetable, HDW boarding permission, fare and platform from official/IRCTC data.","blocking_if_failed":true,"source_ids":["BRS-EXT-003","BRS-EXT-004","BRS-EXT-005"]}
+{"recheck_id":"RCK-003","when":"2026-10-15","subject":"Confirm 18478 on 2027-01-06","action":"Verify timetable, diversion/cancellation, class, fare, delay pattern and platform.","blocking_if_failed":true,"source_ids":["BRS-EXT-006","BRS-EXT-007"]}
+{"recheck_id":"RCK-004","when":"2026-10-01","subject":"Compare live DEL and DXN to PGH flights against train fallback","action":"Check exact flight schedule, total fare including 23 kg checked baggage, airport transfer and cancellation terms.","blocking_if_failed":false,"source_ids":["BRS-EXT-008","BRS-EXT-009","BRS-EXT-010","BRS-EXT-011"]}
+{"recheck_id":"RCK-005","when":"2026-12-16","subject":"Kumaon winter road and taxi viability","action":"Call/verify local taxi for KGM-Bhowali, Bhowali-Almora, Almora-Dwarahat, Dwarahat-Haldwani and Haldwani-Haidakhan; check road closures, black ice, landslides and daylight.","blocking_if_failed":true,"source_ids":["BRS-INT-003","BRS-EXT-012","BRS-EXT-014"]}
+{"recheck_id":"RCK-006","when":"2026-12-27","subject":"Babaji Cave trail on 2026-12-30","action":"Contact YSS Dwarahat for trail, weather, local vehicle, start time and cave access; move within buffer if unsafe.","blocking_if_failed":true,"source_ids":["BRS-EXT-013"]}
+{"recheck_id":"RCK-007","when":"2026-12-20","subject":"Bodh Ashram identity and access","action":"Do not route as visit until physical identity, management and permission are independently confirmed.","blocking_if_failed":false,"fallback":"Keep its formal A status unchanged but use the 2026-12-27 buffer for other confirmed A access.","source_ids":["BRS-INT-001","BRS-INT-005"]}
+{"recheck_id":"RCK-008","when":"2026-12-20","subject":"Jageshwar current vehicle/parking controls","action":"Verify whether shuttle, parking restriction or road control applies on 2026-12-26.","blocking_if_failed":false,"source_ids":["BRS-EXT-014"]}
+{"recheck_id":"RCK-009","when":"2026-12-20","subject":"Haidakhan Vishwa Mahadham access on 2027-01-02","action":"Confirm road/river crossing, local taxi, visiting/stay rules and same-day return to Haldwani.","blocking_if_failed":true,"source_ids":["BRS-INT-005"]}
+{"recheck_id":"RCK-010","when":"2026-12-01","subject":"All station coordinates and grey marker inputs","action":"Verify WGS84 visitor/platform points for every recommended train stop before final KML; reuse permanent 308-310 where applicable.","blocking_if_failed":true,"source_ids":["BRS-INT-002"]}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1495 path=research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/manifest.yaml blob_sha=660f9b67dbec7f78e11f14f54469ddc78bbe36bf original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+schema_version: 3
+run_id: KUMAON-ROUTE-OPTIMIZATION-001
+role: BRONS
+result_status: PARTIAL
+source_commit: dbac7e3e89f275ec1c99bf348da55f6bcf7ac5e8
+predecessor_completion_commit: 41a77b967d784de5babb67d603becf2b9f2ebf75
+research_commit: e49ceb2598dc8d587c04799eae545b746301c336
+completion_commit: THIS_ATOMIC_COMMIT
+completed_at: 2026-07-20T18:56:48+02:00
+artifact_count: 26
+counts:
+  accepted_sources: 23
+  rejected_sources: 3
+  claims: 16
+  train_services: 4
+  recommended_train_services: 3
+  train_stop_rows: 30
+  route_days: 16
+  formal_A_accounted: 16
+  formal_B_preserved: 1
+  formal_C_preserved: 4
+  kumaon_bases: 4
+  arrival_buffer_bases: 1
+  live_rechecks: 10
+validation:
+  github_read_confirmed: true
+  github_write_confirmed: true
+  required_context_files_fully_read: true
+  required_context_hashes_match: true
+  predecessor_pin_respected: true
+  predecessor_route_reactivated: false
+  broad_kumaon_sweep_performed: false
+  all_required_outputs_present: true
+  all_artifacts_end_with_sentinel: true
+  all_claim_source_ids_valid: true
+  formal_statuses_preserved: true
+  new_formal_or_advisory_abc_assigned: false
+  bus_used: false
+  booking_performed: false
+  successor_cluster_content_researched: false
+  worker_claim_closed_in_completion_commit: true
+  master_kml_mutated: false
+integrity:
+  algorithm: git_blob_sha1
+  aggregate_commit: e49ceb2598dc8d587c04799eae545b746301c336
+  completion_binding: THIS_ATOMIC_COMMIT
+artifacts:
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/report/INDEX.md
+    line_count: 12
+    git_blob_sha: 53856cb630b7141ff179e7ae171990887ea6b24e
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/report/01_arrival_internal_route_and_bases.md
+    line_count: 47
+    git_blob_sha: 81051ba36a5659e88260207aace1b2978d9e3182
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/report/02_exit_next_cluster_and_remaining_chain.md
+    line_count: 39
+    git_blob_sha: 591f6d1994bb87c6c24984450b8a1e1bff888175
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/report/03_transport_registers_kml_and_live_controls.md
+    line_count: 32
+    git_blob_sha: 4c635d8827d166aa7701c80d2f4cbfbf00f9d2ab
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/report/04_quality_gate_and_open_gaps.md
+    line_count: 37
+    git_blob_sha: c378e86339246889a5908506b7d5d4fd34bf11cb
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/next_cluster_decision.md
+    line_count: 23
+    git_blob_sha: 3920b4a210dc396f95a005004f32b4333828d3c3
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/MASTER_INDIA_KML_LINKAGE.md
+    line_count: 26
+    git_blob_sha: ff71f25cc92d1c2814921052017953be647fe85d
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/images.jsonl
+    line_count: 2
+    git_blob_sha: da02f6858e79e2d0a722ba96e44c05044a8c64f9
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/experience_reviews.jsonl
+    line_count: 2
+    git_blob_sha: 75a99727f46fa3ccee947f6d17212e58e882b2d8
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/sources/registry.jsonl
+    line_count: 24
+    git_blob_sha: f3e144ad980869c182ab638492adeb0efad8eed1
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/sources/rejected.jsonl
+    line_count: 4
+    git_blob_sha: 34b41e5ba8a71737d12955ce63a98acdfbcc4aca
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/claims.jsonl
+    line_count: 17
+    git_blob_sha: e833ca6059d816229a93377bc535eb0f668ac93f
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/train_services.jsonl
+    line_count: 5
+    git_blob_sha: d7c972170cdbb06050c020187887fd53ef133d50
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/train_stops.jsonl
+    line_count: 31
+    git_blob_sha: 8f2c8265c01c5317c8b7695ff1911a740a400f7e
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/train_stop_detector_inputs.jsonl
+    line_count: 5
+    git_blob_sha: 134e0b510011db197936ababf8c0798c22b39f5f
+  - path: research/active/KUMAON-ROUTE-OPTIMIZATION-001/BRONS/route_sequence.jsonl
+    line_count: 17
+    git_blob_sha: 00f5c675e
+<<< END CHUNK >>>
+

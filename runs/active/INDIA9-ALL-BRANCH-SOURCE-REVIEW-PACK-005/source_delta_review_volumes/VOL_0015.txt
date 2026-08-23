@@ -1,0 +1,639 @@
+>>> CHUNK stream_row=216 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/STATUS.md blob_sha=b8c4f7e13237e62a1730e075677983e67aae4270 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=5 classification=text
+n nieuwe INDIA-opdracht. Overweeg voor INDIA-QA
+expliciet: gezien de zwakke corpus-coverage kan het zinvol zijn om vóór reconciliatie eerst een
+gerichte tweede interne poging te doen om *Miracle of Love*, *By His Grace*, *Be Here Now* en
+*Sacred Wanderer* alsnog toegankelijk te krijgen (andere bronroute/host), zodat de externe
+vergelijking niet grotendeels tegen een dunne interne baseline hoeft te worden getoetst. Geen
+cluster/regio, A/B/C, permanente IDs, PDF of route.
+
+## Update — CCI_TASK 090 uitgegeven (INDIA7, 2026-08-19)
+
+CCI_TASK 089 is afgerond: NKB 19 records, Ram Dass 5 records, beide `SATURATED: NEE` en
+`CORPUS_COVERAGE_GATE: NEE` door vier geblokkeerde kernbronfamilies. CCI_TASK 090 probeert die
+bronnen via meerdere legale routes gericht te herstellen en verwerkt ieder toegankelijk deel
+lossless. Externe freezes blijven gesloten.
+
+**next_allowed_step (actueel):** CCI_TASK 090 uitvoeren en STOP na bronherstelcheckpoints +
+resultaatenvelop. Daarna INDIA-QA vóór externe reconciliatie. Parallel blijft IndiaROOD core-Kriya
+lopen. Geen cluster/regio, A/B/C, permanente IDs, PDF of route.
+
+## Update — CCI_TASK 090 afgerond (CCI, 2026-08-19)
+
+*Be Here Now* volledig hersteld (open archive.org-item) en corpusbreed doorzocht; *Miracle of
+Love*/*By His Grace* blijven `BRON_GEBLOKKEERD`. Titelcorrectie: "Sacred Wanderer" → "Being Ram
+Dass" (2021, `PARTIAL` via Tricycle-fragment). NKB 19→21 records, Ram Dass 5→13 records + 1
+naamsbevestiging (Kainchi). Ram Dass CORPUS-COVERAGE-GATE: NEE → DEELS. Beide `SATURATED: NEE`
+blijven ongewijzigd. Checkpoint commits: `76020b9` (NKB), `0f7a099` (Ram Dass). Resultaat:
+`runs/active/TOP11-NKB-RAMDASS-CORE-SOURCE-RECOVERY-001/SOURCE_RECOVERY_RESULT.md`.
+
+**next_allowed_step (actueel):** CCI stopt na resultaatenvelop op PR #23 en wacht op INDIA-QA. INDIA
+beslist tussen nog één gerichte corpuspass ("Being Ram Dass" volledig, maharajji.love) of externe
+lossless reconciliatie starten. Ramana Maharshi/Ramakrishna blijven niet gestart.
+
+## Update — CCI_TASK 091 afgerond (CCI, 2026-08-19)
+
+Volledige bidirectionele externe reconciliatie tegen `agent/chatgpt-top11-parallel-sweep`. NKB:
+21 intern vs. 113 extern; 3 correcties overgenomen (Akbarpur-district, sterfteziekenhuis =
+Ramakrishna Mission Hospital Vrindavan, Delhi-Ashram/Hanumangarhi-zekerheid); 1 nieuw conflict
+(doodsvolgorde, onopgelost). Ram Dass: 13+1 intern vs. 57 extern; 2 nieuwe Tier-1-sublocaties
+("Health Department"-kantoor, rivier-badplaats Kainchi, beide woordelijk teruggevonden in eigen
+*Be Here Now*-tekst); 1 externe claim afgewezen (Puri-strandwandeling — geciteerde Sara-Davidson-
+quote niet in de aangehaalde bronnen aangetroffen, `FALSE_OR_UNSUPPORTED_EXTERNAL_CLAIM`). Nieuwe
+volledig toegankelijke primaire bron ontdekt: *The Near and the Dear* (dokumen.pub, i.t.t. het nog
+steeds geblokkeerde *By His Grace*). Checkpoint commits: `54d0b51` (NKB), `20c281c` (Ram Dass).
+Resultaat: `runs/active/TOP11-NKB-RAMDASS-EXTERNAL-RECONCILIATION-001/RECONCILIATION_RESULT.md`.
+
+**next_allowed_step (actueel):** CCI stopt na resultaatenvelop op PR #23 en wacht op INDIA-QA. INDIA
+beslist over: (a) de inmiddels lossless IndiaROOD Core-Kriya-freezes alsnog aan CCI_TASK 088
+toevoegen; (b) het NKB-doodsvolgordeconflict gericht laten uitzoeken; (c) Ramana Maharshi/
+Ramakrishna blijven niet gestart zonder nieuwe opdracht.
+
+## Update — CCI_TASK 092 afgerond (CCI, 2026-08-19)
+
+Optie (a) hierboven is uitgevoerd: volledige drieweg-reconciliatie (intern/extern-088/IndiaROOD)
+voor Babaji (50 IndiaROOD-records), Lahiri Mahasaya (40+6) en Sri Yukteswar (42+14). Belangrijkste
+opbrengst: een volledig nieuwe Babaji-claimanttraditie (Hansavedas/Tryambaknath) Tier-1 bevestigd;
+vier Tier-1-bevestigde Lahiri-Mahasaya-vondsten (drie sluiten een AOAY-lossless-gap uit hfst. 36);
+twee Tier-1-bevestigde Sri-Yukteswar-vondsten plus twee eerder geblokkeerde 088-leads
+geconvergeerd (Bodh Gaya-geloften, Calcutta Medical College). Twee onopgeloste Lahiri-Mahasaya-
+conflicten (Ranikhet-jaar, Bishnupur-huwelijk). Geen hallucinaties gevonden bij IndiaRO
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=217 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/STATUS.md blob_sha=b8c4f7e13237e62a1730e075677983e67aae4270 original_offset=16384 original_length=2046 payload_bytes=2046 chunk_index=4 chunk_count=5 classification=text
+OD.
+`RECONCILIATION_GATE` en `EXTERNAL_MODEL_DIVERSITY_GATE` naar `JA` voor alle drie personen;
+`SATURATED` blijft `NEE`. Checkpoint commits: `3019884` (Babaji), `9338c4f` (Lahiri Mahasaya),
+`2889174` (Sri Yukteswar). Resultaat:
+`runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/RECONCILIATION_RESULT.md`.
+
+**next_allowed_step (actueel):** CCI stopt na resultaatenvelop op PR #23 en wacht op INDIA-QA. INDIA
+beslist over: (a) Ramana Maharshi/Ramakrishna starten (externe freezes bestaan al op
+`agent/chatgpt-top11-parallel-sweep`); (b) de twee Lahiri-Mahasaya-conflicten gericht uitzoeken;
+(c) NKB-doodsvolgordeconflict (CCI_TASK 091) gericht uitzoeken; (d) een andere route naar
+Satyananda's volledige Sri-Yukteswar-biografie proberen.
+
+## Update — CCI_TASK 093 afgerond (CCI, 2026-08-19)
+
+Optie (a) hierboven is uitgevoerd: verse blinde METHOD_V2 pre-external freezes voor Ramana Maharshi
+(23 records) en Ramakrishna (19 records), beide vanaf nul, blind voor `agent/chatgpt-top11-parallel-
+sweep` én het nieuwe `agent/indiageel-ramana-ramakrishna-sweep`. Ramana Maharshi bleek na zijn
+aankomst in Tiruvannamalai (1 sept. 1896) in deze pas nooit meer de regio te hebben verlaten — alle
+17 latere records liggen rond Arunachala. Ramakrishna's freeze bevat de volledige grote pelgrimsreis
+(Vaidyanath/Deoghar → Kasi/Kedarghat → Prayag → Vrindavan/Nidhuvan → terug naar Kasi) plus een
+expliciete negatieve controle (Baranagar-klooster, pas na zijn dood gesticht, terecht niet
+meegeteld als eigen locatie). Beide `SATURATED: NEE`. Checkpoint commits: `6e3f939` (Ramana
+Maharshi), `12e99c1` (Ramakrishna).
+
+**next_allowed_step (actueel):** CCI stopt na resultaatenvelop op PR #23 en wacht op INDIA-QA.
+Aparte multi-detector-reconciliatietaak (extern ChatGPT + IndiaGEEL) volgt pas na een nieuwe
+INDIA-opdracht. Overige openstaande opties (Lahiri-Mahasaya-conflicten, NKB-doodsvolgordeconflict,
+Satyananda-volledige-tekst) blijven ongewijzigd staan.
+
+---
+Dit bestand is de kortste actuele bron van waarheid voor deze taak.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=218 path=runs/active/TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl blob_sha=307820e48d266a2b5ca530b05df0d9f7357ff764 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+{"person": "Ramana Maharshi", "internal_id": "intern-1", "external_id": "R001", "indiageel_id": "RM-001", "outcome": "MATCH_EXISTING", "place": "Geboortehuis Tiruchuzhi", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-2", "external_id": "R002-R004", "indiageel_id": "RM-002/RM-003", "outcome": "MATCH_EXISTING", "place": "Sri Sahayavalli-schrijn", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-3", "external_id": "R006-R007", "indiageel_id": "RM-004", "outcome": "MATCH_EXISTING", "place": "Dindigul-school", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-4/5", "external_id": "R008-R009", "indiageel_id": "RM-005", "outcome": "MATCH_EXISTING", "place": "Oom Subba Iyer's huis + realisatiekamer", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "093-unresolved", "external_id": "R010-R011", "indiageel_id": "RM-006/RM-007", "outcome": "MATCH_EXISTING", "place": "Scott's/American Mission School", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": null, "external_id": "R012-R013", "indiageel_id": "RM-008", "outcome": "EXTERNAL_AND_INDIAGEEL_MATCH", "place": "Meenakshi-tempel", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-6", "external_id": "R014", "indiageel_id": "RM-010", "outcome": "MATCH_EXISTING", "place": "Madurai Junction", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-7/8/9", "external_id": "R015-R025", "indiageel_id": "RM-011-RM-020", "outcome": "MATCH_EXISTING", "place": "Treinreis Madurai-Tiruvannamalai", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-10", "external_id": "R027", "indiageel_id": "RM-022", "outcome": "MATCH_EXISTING", "place": "Ayyankulam-tank", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-11", "external_id": "R028-R029", "indiageel_id": "RM-023-RM-024", "outcome": "MATCH_EXISTING", "place": "Duizendzuilenhal+Patala Lingam", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-12", "external_id": "R030", "indiageel_id": "RM-025", "outcome": "MATCH_EXISTING", "place": "Gopura Subramanya-schrijn", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-13/14", "external_id": "R031-R035", "indiageel_id": "RM-026-RM-028", "outcome": "MATCH_EXISTING", "place": "Tuin/bananenbos/opslag/Illupai/Mangai Pillayar", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-15", "external_id": "R037", "indiageel_id": "RM-029", "outcome": "MATCH_EXISTING", "place": "Gurumurtam", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-13", "external_id": "R038", "indiageel_id": "RM-030", "outcome": "MATCH_EXISTING", "place": "Mangobongaard Gurumurtam", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-14", "external_id": "R039", "indiageel_id": "RM-031", "outcome": "MATCH_EXISTING", "place": "Arunagirinathar-tempel", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": null, "external_id": "R040-R041", "indiageel_id": "RM-032-RM-033", "o
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=219 path=runs/active/TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl blob_sha=307820e48d266a2b5ca530b05df0d9f7357ff764 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+utcome": "EXTERNAL_AND_INDIAGEEL_MATCH", "place": "Tempeltoren+oleandertuin", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-16", "external_id": "R042-R043", "indiageel_id": "RM-034", "outcome": "MATCH_EXISTING", "place": "Pavalakkunru", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": null, "external_id": "R044", "indiageel_id": "RM-035", "outcome": "EXTERNAL_AND_INDIAGEEL_MATCH", "place": "Satguru Swami Cave", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": null, "external_id": "R045", "indiageel_id": "RM-036", "outcome": "EXTERNAL_AND_INDIAGEEL_MATCH", "place": "Guhai Namasivaya Cave", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-17", "external_id": "R046", "indiageel_id": "RM-037", "outcome": "MATCH_EXISTING", "place": "Virupaksha-grot", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-18", "external_id": "R047-R048", "indiageel_id": "RM-038", "outcome": "MATCH_EXISTING", "place": "Mango Tree-grot", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-19", "external_id": "R049-R050", "indiageel_id": "RM-039", "outcome": "MATCH_EXISTING", "place": "Pachaiamman Koil", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-20", "external_id": "R051", "indiageel_id": "RM-040", "outcome": "MATCH_EXISTING", "place": "Tortoise Rock", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-21", "external_id": "R052-R053", "indiageel_id": "RM-042", "outcome": "MATCH_EXISTING", "place": "Skandashram", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": null, "external_id": "R056", "indiageel_id": "RM-050", "outcome": "EXTERNAL_AND_INDIAGEEL_MATCH", "place": "Arunachala-top/Deepam", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": null, "external_id": "R067", "indiageel_id": "RM-049", "outcome": "EXTERNAL_AND_INDIAGEEL_MATCH", "place": "Ramana's Bridge", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": "intern-22", "external_id": "R069-R103 (30+ sublocaties)", "indiageel_id": "RM-043-RM-048 (6 records)", "outcome": "MATCH_EXISTING", "place": "Sri Ramanasramam-complex", "note": "Drieweg of tweeweg match, zie reconciliatiedoc voor granulariteitsdetails."}
+{"person": "Ramana Maharshi", "internal_id": null, "external_id": "R036", "indiageel_id": null, "outcome": "EXTERNAL_ONLY_CLAIM", "place": "Grootvaders huis bij tempelwagen", "note": "Onderbouwd met Ramana's eigen Narasimhaswami-notities citaat; niet apart geverifieerd, PLAUSIBLE.", "verdict": "PLAUSIBLE"}
+{"person": "Ramana Maharshi", "internal_id": null, "external_id": "R054", "indiageel_id": null, "outcome": "EXTERNAL_ONLY_CLAIM", "place": "Kandaswami-hut/rotsbron", "note": "Specifieke bronvermelding P14, niet apart geverifieerd.", "verdict": "PLAUSIBLE"}
+{"person": "Ramana Maharshi", "internal_id": null, "external_id": "R055", "indiageel_id": "RM-041", "outcome": "MATCH_EXISTING", "place": "Seven Springs", "note": "IndiaGEEL citeert Ramana's eigen Day-by-Day-relaas rechtstreeks, sterker brontype dan extern's secundaire herinnering."}
+{"person": "Ramana Maharshi", "internal_id": null, "external_id": null, "indiageel_id": "RM-009", "outcome": "INDIAGEEL_ONLY_CLAIM", "place": "Azhagar Koil", "note": "CONFIRMED Tier-1 woordelijk via gururamana.org.", "verdict"
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=220 path=runs/active/TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl blob_sha=307820e48d266a2b5ca530b05df0d9f7357ff764 original_offset=8192 original_length=901 payload_bytes=901 chunk_index=2 chunk_count=3 classification=text
+: "CONFIRMED"}
+{"person": "Ramana Maharshi", "internal_id": null, "external_id": null, "indiageel_id": "RM-051", "outcome": "INDIAGEEL_ONLY_CLAIM", "place": "Banyanboom/horzelsteek-route", "note": "CONFIRMED Tier-1 woordelijk via Day by Day with Bhagavan 1946.05.02.", "verdict": "CONFIRMED"}
+{"person": "Ramana Maharshi", "internal_id": "intern-15", "external_id": "R037", "indiageel_id": "RM-029", "outcome": "CONFLICT", "place": "Gurumurtam-datum 1897 vs 1898", "note": "Drievoudig herkend conflict tussen afgeleide tijdlijnen; niet opgelost."}
+{"person": "Ramana Maharshi", "internal_id": null, "external_id": "R057-R068 (10 microstops)", "indiageel_id": null, "outcome": "EXTERNAL_ONLY_CLAIM", "place": "Giripradakshina-microcluster (Unnamulai-tank, Sona Tirtham, Gautama Ashram, Venamma's mangoboom, Adi Annamalai-zijpad)", "note": "Niet apart geverifieerd, uniek aan extern-ChatGPT-detector."}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=221 path=runs/active/TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001/STATUS.md blob_sha=261d27aa0f6633aed555436093f4adfd0fc4da2c original_offset=0 original_length=458 payload_bytes=458 chunk_index=0 chunk_count=1 classification=text
+# STATUS — TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001
+
+STATUS: READY_FOR_CCI
+CCI_TASK: 094
+PERSONS: Ramana Maharshi; Ramakrishna
+MODE: POST-FREEZE MULTIDETECTOR RECONCILIATION
+WORKBRANCH: claude/werk-je-nu-of-niet-oa10y7
+INPUT_LAYERS: CCI internal 093 + ChatGPT external blind + IndiaGEEL blind
+NEXT_ALLOWED_STEP: CCI voert TASK.md volledig uit, checkpoint Ramana en daarna Ramakrishna, post CCI_RESULT 094 op PR #23 en stopt voor INDIA-QA.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=222 path=runs/active/TOP11-RAMANA-RAMAKRISHNA-V2-PRE-EXTERNAL-001/RAMAKRISHNA_V2_PRE_EXTERNAL_FREEZE.md blob_sha=7bdbeec267410090b7d1ff5b4753bf792c5c0b45 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+# RAMAKRISHNA_V2_PRE_EXTERNAL_FREEZE
+
+```
+task_id: TOP11-RAMANA-RAMAKRISHNA-V2-PRE-EXTERNAL-001
+cci_task: CCI_TASK 093
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-19
+methode: METHOD_V2 Fase 0-4, blinde corpus-first sweep vanaf nul.
+```
+
+## BLINDNESS_CONFIRMED
+
+- `agent/chatgpt-top11-parallel-sweep`: **NIET geopend**.
+- `agent/indiageel-ramana-ramakrishna-sweep`: **NIET geopend**.
+- IndiaGEEL Ramana/Ramakrishna-freezes: **NIET geraadpleegd**.
+- Oude METHOD_V1/PHASE2-kandidatenlijsten: **NIET gebruikt** als discoverychecklist.
+- Externe unions/reconciliaties voor Ramakrishna: **NIET geraadpleegd**.
+- Regionale/clusterbestanden: **NIET geraadpleegd**.
+
+## CORPORA_SEARCHED
+
+- **Primaire bron**: Swami Saradananda, *Sri Ramakrishna, the Great Master* (oorspronkelijk Bengaals,
+  1909-1919; vertaling Swami Jagadananda, 1952) — geschreven door een directe discipel, gebaseerd op
+  interviews met mensen die Ramakrishna persoonlijk kenden. Volledige tekst gedownload en
+  corpusbreed doorzocht via Internet Archive
+  (`sri-ramakrishna-the-great-master-by-swami-saradananda`, `_djvu.txt`-volledige tekst, 2,9 MB,
+  HTTP 200, geen inlog). Dit is het meest gedetailleerde, plaatsrijke standaardwerk over
+  Ramakrishna's leven.
+- Aanvullend gecontroleerd via WebSearch: Wikipedia (Ramakrishna), *The Gospel of Sri Ramakrishna*
+  (Mahendranath Gupta/"M") — geïdentificeerd als beschikbaar (archive.org, sacred-texts.com) maar
+  **niet** binnen dit taakbudget zelf doorzocht (vooral gesprekken tijdens de Dakshineswar-jaren,
+  minder aanvullende plaatsdekking te verwachten dan de reeds gebruikte volledige biografie).
+
+## SOURCE_ACCESS_BLOCKERS
+
+Geen harde toegangsblokkades. *The Gospel of Sri Ramakrishna* niet zelf doorzocht (tijdsbudget, niet
+ontoegankelijkheid) — genoteerd als open lead, niet als `BRON_GEBLOKKEERD`.
+
+## HOSTGRAPH_SEARCHED
+
+- Vader Khudiram/Kshudiram Chattopadhyaya (overleden toen Ramakrishna jong was); moeder Chandramani
+  Devi/Chandradevi; oudere broer Ramkumar (eerste priester bij Rani Rasmani se Dakshineswar-tempel,
+  richtte ook een Sanskrit-Tol/school op in Calcutta); broer Rameswar; zuster Sarvamangala.
+- Echtgenote Saradamani Devi (Sarada Devi), getrouwd mei 1859, uit het dorp Jayrambati.
+- Rani Rasmani (stichteres van de Dakshineswar Kali-tempel) en haar schoonzoon Mathur Babu
+  (Mathuranath Biswas, belangrijkste beschermheer/regelaar van de grote pelgrimsreis).
+- Hriday(ram) (neef en persoonlijke verzorger, vergezelde hem op reizen incl. de grote pelgrimage).
+- Bhairavi Brahmani (tantrische leermeesteres, vooral actief in de Panchavati te Dakshineswar).
+- Tota Puri (advaita-leermeester, verbleef eveneens te Dakshineswar).
+- Trailanga Swami (ontmoet te Kasi/Varanasi tijdens de pelgrimsreis).
+- Latere discipelen/jonge devotees (Narendra/Vivekananda, Rakhal, Bhavanath e.a.) — vooral relevant
+  voor de Shyampukur/Kasipur-eindfase; ashram-oprichting te Baranagar valt expliciet **na**
+  Ramakrishna's overlijden en is dus geen eigen locatie van hemzelf.
+
+## DISCOVERY_SEARCH_FAMILIES
+
+Geboorte/jeugd Kamarpukur (incl. sub-sites); vaders herkomstdorp Dere; huwelijksreis naar
+Jayrambati; vroege Calcutta-episode bij broer Ramkumar; decennialang verblijf te Dakshineswar (incl.
+Panchavati als sublocatie); de grote pelgrimsreis met Mathur Babu en Hriday (Vaidyanath/Deoghar,
+Kedarghat/Kasi, Prayag, Vrindavan/Nidhuvan, terugkeer naar Kasi); latere afzonderlijke bezoeken
+(Navadwip, Kalna, Kalutola-Harisabha Calcutta, Panihati-festival, een reis via Jayrambati naar
+Sihar); laatste ziektefase (Shyampukur-huis, Calcutta) en overlijden (Kasipur-tuinhuis).
+
+## NORMALIZED_RECORDCOUNT
+
+**19 locatierecords.**
+
+## LOCATION_RECORDS
+
+| # | Plaats/staat | Type | Gebeurtenis/periode | PERSONALLY_PRESENT | PHYSICAL_IDENTITY | Bron |
+|---|---|---|---|---|---|---|
+| 1 | Kamarpukur, Hooghly-district, West-Bengalen | geboortedorp/familiehuis | Geboren als Gadadhar Chattopadhyaya, 18 feb. 1836, 05:00 uur; jeugd, school, tot vertrek naar Calcutta | JA | EXACT (dorp/familiehuis) | Saradananda, geboortehoofdstuk (astrologische passage, letterlijke datum
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=223 path=runs/active/TOP11-RAMANA-RAMAKRISHNA-V2-PRE-EXTERNAL-001/RAMAKRISHNA_V2_PRE_EXTERNAL_FREEZE.md blob_sha=7bdbeec267410090b7d1ff5b4753bf792c5c0b45 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+) |
+| 2 | Haidar-tank, Bhuti-beek en mangobongaard, Kamarpukur | tank/beek/boomgaard | Jeugdomgeving, expliciet in het geografische hoofdstuk over Kamarpukur beschreven | JA | ALLEEN_PLAATS | Saradananda, hoofdstuk II (TOC-item "The Haidar tank, the Bhuti stream and the mango grove") |
+| 3 | Raghuvir-Salagrama-schrijn (familietempel), Kamarpukur | familietempel | Vader Kshudiram ontving de Salagrama (Vishnu-steen) van Raghuvir op wonderlijke wijze; centrum van het gezinsgeloof | JA (als kind opgegroeid met deze verering) | DEELS | Saradananda, hoofdstuk III |
+| 4 | Lakshmijala paddy-veld, Kamarpukur | akker | Plaats van een van vaders spirituele visioenen | ONZEKER (vooral vaders eigen ervaring, Ramakrishna's eigen aanwezigheid als kind niet apart beschreven) | ALLEEN_PLAATS | Saradananda, hoofdstuk III (TOC-item) |
+| 5 | School van de Laha's, Kamarpukur | school | Eerste schoolgang | JA | ALLEEN_PLAATS | Saradananda, hoofdstuk VI (TOC-item) |
+| 6 | Huis van Sitanath Pyne, Kamarpukur | privéwoning | Vertrouwelijke omgang met deze familie als jongeman, incl. een spanning met Durgadas Pyne se trots | JA | ONBEKEND | Saradananda, hoofdstuk VIII (TOC-items) |
+| 7 | Dere, West-Bengalen | ancestraal dorp (vader) | Herkomstdorp van vader Kshudiram vóór diens verhuizing naar Kamarpukur; Ramakrishna zelf niet als aanwezig beschreven — familiegeschiedenis-context | NEE (context-only, vóór zijn geboorte) | ALLEEN_PLAATS | Saradananda, hoofdstuk II |
+| 8 | Jayrambati (Jayaramvati), vier mijl ten westen van Kamarpukur, West-Bengalen | huwelijksdorp | Huwelijk met de vijfjarige Saradamani Mukhopadhyaya, mei 1859; latere reis "via Jayrambati" naar Sihar | JA | EXACT | Saradananda, letterlijk "the village of Jayaramvati, four miles west of Kamarpukur" en de huwelijksdatum "May, 1859" |
+| 9 | Sihar, West-Bengalen | reisbestemming, aard van bezoek niet volledig gespecificeerd | Reis per draagstoel via Jayrambati, met neef Hriday als begeleider; grote mensenmenigte onderweg | JA | ONBEKEND | Saradananda, letterlijk "a palanquin was brought for him to go to Sihar via Jayrambati" |
+| 10 | Ramkumar's Sanskrit-Tol (school), Calcutta | school/woonplek broer | Als jongeman door broer Ramkumar meegenomen naar Calcutta na diens zorgen over zijn ongeschiktheid voor "bread-winning education" | JA | ALLEEN_PLAATS | Saradananda, hoofdstuk VIII (TOC: "Ramkumar started a Sanskrit school (Tol) in Calcutta") |
+| 11 | Dakshineswar Kali-tempel, ten noorden van Calcutta, West-Bengalen | tempelcomplex | Hoofdverblijfplaats gedurende het grootste deel van zijn volwassen leven; broer Ramkumar werd hier eerst priester op verzoek van Rani Rasmani | JA | EXACT | Saradananda, letterlijk "The Rani requested Ramkumar to accept the office of the priest"; "After Rani Rasmani consecrated the Kali temple..." |
+| 12 | Panchavati (vijf-bomen-bosje), Dakshineswar-tempelterrein | sublocatie/sadhana-plek | Eigenhandig beplant; centrum van intensieve sadhana en van de Sastra-discussies met de Bhairavi Brahmani | JA | EXACT | Saradananda, letterlijk "The Master planted the Panchavati with his own hands"; "discussion on the Sastras under the Panchavati" |
+| 13 | Vaidyanath (Deoghar), toenmalig Bengal Presidency, huidig Jharkhand | pelgrimsoord/tempel | Eerste halte van de grote pelgrimsreis met Mathur Babu en Hriday; diende de armen | JA | ALLEEN_PLAATS | Saradananda, letterlijk "Visit to Sri Vaidyanath and service to the poor" |
+| 14 | Kedarghat/Vishwanath-tempel, Kasi (Varanasi), Uttar Pradesh | ghat/tempel | Verbleef hier tijdens de pelgrimsreis, bracht eer aan Vishwanath, ontmoette Trailanga Swami | JA | EXACT | Saradananda, letterlijk "They stayed at Kedarghat and paid their obeisance to Sri Visvanath"; "The Master and Trailanga Swami" |
+| 15 | Prayag (Allahabad), Uttar Pradesh | pelgrimsoord/samenvloeiing | Bezocht tijdens dezelfde reis, specifiek gedrag van de Meester hier beschreven | JA | ALLEEN_PLAATS | Saradananda, letterlijk "The Master's behaviour at Prayag" |
+| 16 | Nidhuvan/Vankavihari-tempel, Vrindavan, Uttar Pradesh | tempel/pelgrimsoord | Bezocht tijdens
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=224 path=runs/active/TOP11-RAMANA-RAMAKRISHNA-V2-PRE-EXTERNAL-001/RAMAKRISHNA_V2_PRE_EXTERNAL_FREEZE.md blob_sha=7bdbeec267410090b7d1ff5b4753bf792c5c0b45 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+ de pelgrimsreis; intense liefde voor Vraja; ontmoette Gangamata; overwoog er te blijven maar keerde terug vanwege zijn moeder | JA | EXACT | Saradananda, letterlijk "The Master visited places like Nidhuvan in Vrindavan"; "vision... of Vankavihari"; "Gangamata of Nidhuvan" |
+| 17 | Manikarnika Ghat, Kasi (Varanasi), Uttar Pradesh | crematieghat | Terugkeer naar Kasi na Vrindavan; visioen dat zielen bij overlijden in Kasi bevrijd worden; ontmoette opnieuw de Brahmani en bezocht vina-speler Mahesh | JA | EXACT | Saradananda, letterlijk "The Master's vision at Manikarnika that Jivas are liberated..."; "He met the Brahmani at Kasi" |
+| 18 | Navadwip, West-Bengalen | pelgrimsoord (Chaitanya-geboorteplaats) | Afzonderlijk bezoek, latere periode; visioen dat zijn eerdere opvatting over Chaitanya deed veranderen | JA | ALLEEN_PLAATS | Saradananda, letterlijk "The Master visited Navadwip" |
+| 19 | Kalna, West-Bengalen | pelgrimsoord | Afzonderlijk bezoek; ontmoette de asceet Bhagavan Das | JA | ALLEEN_PLAATS | Saradananda, letterlijk "The Master went to Kalna" |
+
+*(Vervolg van de tabel — records 20-24 — vanwege de lengte apart genummerd om de tabelbreedte
+beheersbaar te houden; zie hieronder voor de laatste vijf locaties.)*
+
+| # | Plaats/staat | Type | Gebeurtenis/periode | PERSONALLY_PRESENT | PHYSICAL_IDENTITY | Bron |
+|---|---|---|---|---|---|---|
+| 20 | Harisabha, Kalutola, Calcutta | vergaderhuis/religieuze sabha | Woonde een Bhagavata-lezing bij, nam plaats op "de zetel van Sri Chaitanya" — beroering in de Vaishnava-gemeenschap | JA | EXACT | Saradananda, letterlijk "The Master went to the Harisabha in Kalutola"; "occupied the seat of Sri Chaitanya" |
+| 21 | Panihati, West-Bengalen | dorpsfestival | Bezocht het jaarlijkse Vaishnava-festival (eerste vermelding 1859, met latere terugkerende bezoeken; laatste bezoek verergerde zijn keelziekte) | JA | ALLEEN_PLAATS | Saradananda, letterlijk "the festival at Panihati in 1859"; "The visit to Panihati increased the pain in the throat" |
+| 22 | Shyampukur-huis, Calcutta | gehuurd woonhuis | Gehuurd voor zijn verzorging tijdens de laatste ziekte (keelkanker), na Panihati en vóór Kasipur; echtgenote Sarada Devi kwam hier ook wonen | JA | EXACT | Saradananda, letterlijk "A house was hired at Shyampukur"; "The Master's Stay at Shyampukur" |
+| 23 | Kasipur-tuinhuis, ten noorden van Calcutta, West-Bengalen | tuinhuis/sterfplaats | Laatste verblijfplaats; trainde er zijn jonge discipelen intensief; overleed hier | JA | EXACT | Saradananda, letterlijk "The garden house of Kasipur"; "The Master in the Garden House of Kasipur" |
+| 24 | Baranagar-klooster, West-Bengalen | latere instelling — **NIET Ramakrishna's eigen locatie** | Klooster gesticht door zijn discipelen (o.a. Vivekananda) **na** zijn overlijden, niet ver van het Kasipur-tuinhuis | **NEE** — negative control, na overlijden | EXACT (instelling), maar geen aanwezigheidsclaim voor Ramakrishna zelf | Saradananda, letterlijk "went straight to the Baranagar monastery" (context: discipelen na de crematie) |
+
+## CONFLICTS
+
+Geen tegenstrijdigheden gevonden binnen de doorzochte primaire bron. De volgorde van de grote
+pelgrimsreis (Vaidyanath → Kasi/Kedarghat → Prayag → Vrindavan → terug naar Kasi) is intern
+consistent volgens de brontekst zelf.
+
+## UNRESOLVED_LEADS
+
+1. *The Gospel of Sri Ramakrishna* (Mahendranath Gupta) niet zelf doorzocht — kan aanvullende
+   Calcutta-devoteehuizen bevatten uit de latere Dakshineswar-jaren (bv. bezoeken aan huizen van
+   stedelijke devotees), niet binnen dit taakbudget gecontroleerd.
+2. Exacte aard van het bezoek aan Sihar (record 9) — de brontekst geeft geen reden/gebeurtenis,
+   alleen de reis zelf.
+3. Sitanath Pyne's huis (record 6) en de school van de Laha's (record 5) — geen adres/exacte
+   plek binnen Kamarpukur vastgesteld.
+4. Mogelijke aanvullende pelgrimsstops die niet in de doorzochte TOC-secties zijn opgevallen —
+   het volledige boek (72K regels) is niet regel voor regel gelezen, alleen gericht doorzocht op
+   plaatsnamen; een tweede, grondigere pas zou nieuwe mic
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=225 path=runs/active/TOP11-RAMANA-RAMAKRISHNA-V2-PRE-EXTERNAL-001/RAMAKRISHNA_V2_PRE_EXTERNAL_FREEZE.md blob_sha=7bdbeec267410090b7d1ff5b4753bf792c5c0b45 original_offset=12288 original_length=1841 payload_bytes=1841 chunk_index=3 chunk_count=4 classification=text
+ro-locaties kunnen opleveren.
+5. Exacte relatie tussen Kamarpukur en het latere Sri Sarada Devi-verblijf te Jayrambati na
+   Ramakrishna's dood — buiten scope van deze taak (postuum).
+
+## Gate-statussen
+
+| gate | status | onderbouwing |
+|---|---|---|
+| CORPUS_COVERAGE_GATE | **DEELS** | Eén zeer sterke, gedetailleerde primaire discipelbiografie volledig gedownload en gericht doorzocht; *Gospel*-bron en volledige regel-voor-regel lezing van de 72K-regelige *Great Master* niet uitgevoerd. |
+| HOSTGRAPH_GATE | **DEELS** | Kernfamilie, belangrijkste beschermheer (Mathur Babu) en leermeesters (Bhairavi, Tota Puri, Trailanga Swami) goed gedekt; bredere latere devoteenetwerk (vooral Calcutta-periode) niet uitputtend. |
+| DISCOVERY_GATE | **DEELS** | Eén primaire bron plus gerichte WebSearch; geen tweede onafhankelijke primaire bron (Gospel) geraadpleegd. |
+| RECONCILIATION_GATE | **N.V.T. in deze taak** | Blinde pre-external freeze; geen externe/IndiaGEEL-vergelijking uitgevoerd. |
+
+## PERSON_SWEEP_SATURATED: NEE
+
+Onderbouwing: één zeer sterke, gedetailleerde primaire bron volledig gedownload en gericht op
+plaatsnamen doorzocht, met 19 lossless bevestigde records inclusief een expliciete negatieve
+controle (Baranagar-klooster, postuum, terecht niet meegeteld). Verzadiging is niet verantwoord
+omdat (a) *The Gospel of Sri Ramakrishna* niet is geraadpleegd, (b) de primaire bron zelf niet
+regel-voor-regel maar gericht op plaatsnamen is doorzocht, en (c) de latere Dakshineswar-jaren
+(devoteebezoeken in Calcutta, o.a. via de Gospel) waarschijnlijk nog aanvullende micro-locaties
+bevatten.
+
+Geen A/B/C namens Mark. Geen permanente locatie-ID. Geen PDF. Geen route/cluster/heatmap. Geen
+externe of IndiaGEEL-freeze geraadpleegd tijdens deze pas.
+
+---
+Geschreven door: CCI. Checkpoint 2/2 (laatste persoon) van CCI_TASK 093.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=226 path=governance/INDIA_SESSION_START.md blob_sha=a1c35d29d9419f807633d5eded0d60bb1edb0f7e original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=5 classification=text
+# INDIA_SESSION_START — duurzame bootstrap voor iedere nieuwe INDIA-regisseursessie
+
+Snapshot: 2026-08-18 23:59 CEST
+
+## LATEST ACTION — CCI_TASK 091 AFGEROND (CCI, 2026-08-19)
+
+Resultaat:
+- `runs/active/TOP11-NKB-RAMDASS-EXTERNAL-RECONCILIATION-001/RECONCILIATION_RESULT.md`
+- `NEEM_KAROLI_BABA_RECONCILIATION.md`, `RAM_DASS_RECONCILIATION.md`, `RECONCILIATION_MATRIX.jsonl`
+  (141 regels)
+- DELTA-paragrafen toegevoegd aan beide V2-pre-external-freezes
+- checkpoint commits: `54d0b51` (Neem Karoli Baba), `20c281c` (Ram Dass)
+
+Volledige bidirectionele reconciliatie tegen `agent/chatgpt-top11-parallel-sweep` (NKB 113, Ram
+Dass 57 externe records), beide bronbestanden vooraf blob-SHA-geverifieerd. Belangrijkste
+bevindingen: NKB-sterfteziekenhuis rechtstreeks bevestigd als Ramakrishna Mission Hospital,
+Vrindavan (lost oud naamconflict op, maar opent een nieuw onopgelost conflict over de exacte
+reisvolgorde/Mathura-tussenstop); Delhi-Ashram/Hanumangarhi-onzekerheid opgeheven naar extern
+JA/EXACT. Voor Ram Dass: twee nieuwe sublocaties woordelijk bevestigd in de eigen *Be Here Now*-
+tekst ("Health Department"-kantoor, rivier-badplaats Kainchi); één externe claim (Jagannath-Puri-
+strandwandeling) expliciet afgewezen omdat de geciteerde Sara-Davidson-quote niet in de aangehaalde
+bronnen staat — `FALSE_OR_UNSUPPORTED_EXTERNAL_CLAIM`, Yogananda-precedent toegepast. Een nieuwe,
+volledig toegankelijke NKB-primaire bron ontdekt (*The Near and the Dear*, dokumen.pub — in
+tegenstelling tot het nog steeds geblokkeerde *By His Grace*). Meerdere cross-persoon-bevestigingen
+tussen de NKB- en Ram-Dass-externe freezes (4 Church Lane, Allahabad-station, Vrindavan-ashram,
+Hanuman Garh-tempel) versterken het vertrouwen in beide externe bronnen. Beide `SATURATED: NEE`
+blijven eerlijk ongewijzigd. IndiaROOD en Core-Kriya zijn NIET geopend, conform TASK.md §8.
+
+**NU_DOEN:** CCI stopt na de resultaatenvelop op PR #23 en wacht op INDIA-QA. INDIA beslist tussen
+(a) de inmiddels lossless IndiaROOD Core-Kriya-freezes (Babaji, Lahiri Mahasaya, Sri Yukteswar —
+nu duurzaam gecommit op `agent/indiarood-core-kriya-sweep`) alsnog aan CCI_TASK 088 toevoegen;
+(b) het NKB-doodsvolgordeconflict (Mathura-tussenstop, zie CCI_TASK 091) gericht laten uitzoeken;
+of (c) Ramana Maharshi/Ramakrishna starten. Geen van deze is automatisch gestart.
+
+## LATEST MARK_DECISION — BABAJI MYTHISCH/AHISTORISCH (2026-08-19)
+
+Canoniek besluit:
+`decisions/BABAJI_MYTHIC_FIGURE_EVIDENCE_RULE_2026-08-19.md`.
+
+Mahavatar Babaji wordt niet behandeld als historisch verifieerbare persoon met objectief bewijsbare
+verblijfplaatsen. Per locatie wordt alleen afzonderlijk vastgesteld: (1) welke traditie/bron de
+claim maakt, (2) of de fysieke site identificeerbaar is en (3) dat Babaji's eigen historische
+aanwezigheid `NIET_VASTSTELBAAR` blijft. A/B/C/D meet uitsluitend claimprovenance, niet
+historische waarschijnlijkheid. De aanwezigheid van beter documenteerbare volgelingen/getuigen kan
+apart wel worden geverifieerd.
+
+Heatmaps mogen traditionele betekenis en Marks persoonlijke pelgrimswaarde wegen, maar Babaji niet
+als geverifieerde historische aanwezigheid tellen. 079 Mahavatar Babaji's Cave blijft
+`A`/`LOCKED_BY_MARK` en hoofdreden van de reis; dat berust op betekenis/toewijding, niet op
+historische bewijsbaarheid. FK-013 + protocolpoort G.2 toegevoegd en bestaande Babaji-output
+gecorrigeerd.
+
+## LATEST ACTION — CCI_TASK 089 AFGEROND (CCI, 2026-08-19)
+
+Resultaat:
+- `runs/active/TOP11-NKB-RAMDASS-V2-PRE-EXTERNAL-001/NEEM_KAROLI_BABA_V2_PRE_EXTERNAL_FREEZE.md` (19 records)
+- `runs/active/TOP11-NKB-RAMDASS-V2-PRE-EXTERNAL-001/RAM_DASS_V2_PRE_EXTERNAL_FREEZE.md` (5 records)
+- checkpoint commits: `d85c32e` (Neem Karoli Baba), `f3a5e5d` (Ram Dass)
+
+Verse landelijke corpus-first METHOD_V2 pre-external freezes, blindheidsgrens gerespecteerd (geen
+externe freezes, IndiaROOD of oude METHOD_V1/PHASE2-lijsten geraadpleegd). **Kernbevinding: voor
+beide personen waren de belangrijkste primaire devotee-bronnen niet toegankelijk** — *Miracle of
+Love*/*By His Grace* (Neem Karoli Baba) en *Be Her
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=227 path=governance/INDIA_SESSION_START.md blob_sha=a1c35d29d9419f807633d5eded0d60bb1edb0f7e original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=5 classification=text
+e Now*/*Sacred Wanderer* (Ram Dass, zelfs
+ramdass.org gaf een 403-toegangsfout). Beide freezes steunen daardoor grotendeels op secundaire/
+institutionele bronnen; `CORPUS_COVERAGE_GATE` is voor beide `NEE`. Ram Dass' freeze (5 records) is
+de dunste pre-external freeze tot nu toe in dit project.
+
+Neem Karoli Baba: geboorte Akbarpur, Neem Karoli-dorp (treinwonder/naamgeving), Kainchi Dham
+(hoofdashram), Bhumiadhar, Kakrighat, Vrindavan (ashram/dood/crematie, met een onopgelost
+ziekenhuisnaamconflict), Panki-tempel Kanpur met een bilocatie-overlevering naar Allahabad. Ram
+Dass: Kainchi Dham (eerste ontmoeting met Maharajji 1967), Hotel Evelyn Nainital, Kausani, Delhi,
+een niet-gelokaliseerd laatste 2004-bezoek. Eén claim expliciet uitgesloten (1997-Vrindavan-
+vermelding bleek over een andere devotee te gaan, niet Ram Dass zelf).
+
+Beide `SATURATED: NEE`. Parallelle staat ongewijzigd: CCI_TASK 088 blijft provisioneel, wacht op
+IndiaROOD-delta's voor Babaji/Lahiri/Sri Yukteswar.
+
+**NEXT_ACTION:** STOP, wacht op INDIA-QA. Overweeg voor INDIA-QA: gezien de zwakke corpus-coverage
+kan een gerichte tweede poging om de vier geblokkeerde kernbronnen alsnog te bereiken (andere
+bronroute) nuttig zijn vóór externe reconciliatie voor deze twee personen wordt gestart. Geen
+cluster/regio, A/B/C, permanente IDs, PDF of route.
+
+## LATEST ACTION — CCI_TASK 088 AFGEROND (CCI, 2026-08-19)
+
+Resultaat:
+- `runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/BABAJI_RECONCILIATION.md`
+- `runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/LAHIRI_MAHASAYA_RECONCILIATION.md`
+- `runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/SRI_YUKTESWAR_RECONCILIATION.md`
+- `runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/RECONCILIATION_MATRIX.jsonl`
+- `runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/RECONCILIATION_RESULT.md`
+- checkpoint commits: `0bfeb45` (Babaji), `05cc7da` (Lahiri Mahasaya), `59463c1` (Sri Yukteswar)
+
+Volledige bidirectionele METHOD_V2-reconciliatie van interne 087/087R-freezes (40 records) versus de
+bevroren externe ChatGPT-freezes (133 records) voor Mahavatar Babaji, Lahiri Mahasaya en Sri
+Yukteswar. Directe bronverificatie uitgevoerd op alle internal-only/external-only/conflictclaims
+waar mogelijk. Kernresultaten: twee correcties in interne richting (Lahiri's Allahabad-aanwezigheid
+ten onrechte extern ontkend; een Babaji-datumcitatie niet in AOAY teruggevonden), vier bevestigde
+interne gaps gecorrigeerd (Sri Yukteswars moeders woning Rana Mahal, een Serampore-kerk, Albert
+Hall-podium, een Babaji-Himalayakamp-anekdote), één interne locatiefout gecorrigeerd
+(Babaji/Mataji/Lahiri-visioen naar Dashashwamedh Ghat i.p.v. Ram Gopal's grot) en één datumfout
+(Sri Yukteswars mahasamadhi 9 maart, niet 21 maart). 21 Babaji-records uit drie andere
+claimant-tradities (Hariharananda, Nagaraj/Ramaiah, Haidakhan) terecht apart gehouden. Eén
+bronblokkade: Chatterjee's *Purana Purusha*-Lahiri-biografie (dokumen.pub) ontoegankelijk, alle
+daarop gebaseerde claims blijven `BRON_GEBLOKKEERD`. Externe branch niet gewijzigd/gemerged.
+IndiaROOD had bij geen van de drie checkpoints een duurzame freeze — de blindheid is niet besmet.
+
+**Geen `PERSON_SWEEP_SATURATED: JA` voor deze drie** — `EXTERNAL_MODEL_DIVERSITY_GATE` blijft NEE
+(de bestaande externe branch is één ChatGPT-sessie, geen multi-provider-union) en
+`RECONCILIATION_GATE` is PROVISIONEEL zolang de IndiaROOD-delta ontbreekt.
+
+**NEXT_ACTION:** STOP, wacht op INDIA-QA-audit van dit resultaat. Verplichte lossless
+IndiaROOD-deltareconciliatie voor alle drie personen zodra Mark's IndiaROOD-chat een duurzame
+freeze-envelop op PR #23 plaatst. Geen automatische vervolgtaak (interne NKB/Ram Dass/Ramana/
+Ramakrishna-freezes, ondanks dat voor hen externe freezes gereed zijn of komen) vanuit hier gestart.
+Geen cluster/regio (Arunachala-hold blijft van kracht), A/B/C, permanente IDs, PDF of route.
+
+## LATEST HANDOFF — INDIA7
+Lees na de volledige repo-boot expliciet:
+- `governance/INDIA7_BOOTSTRAP_DELTA_2026-08-18.md`
+- `handoffs/INDIA6_TO_INDIA7_2026-08-18.md`
+- `decisions/TOP11_SWEEP_DEPTH_BY_PERSON_2026-08-18.md
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=228 path=governance/INDIA_SESSION_START.md blob_sha=a1c35d29d9419f807633d5eded0d60bb1edb0f7e original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=5 classification=text
+`
+- `decisions/ARUNACHALA_TIRUVANNAMALAI_A_ANCHOR_2026-08-18.md`
+- `governance/CCI_GITHUB_WAKE_RELAY.md`
+- `research/YOGANANDA_RAMANA_ARUNACHALA_POST_FREEZE_NOTE_2026-08-18.md`
+
+Actuele strategische volgorde is nu LOCKED:
+`LANDELIJKE PERSONEN-SWEEPS -> EXTERNAL BLIND FREEZES -> RECONCILIATIE -> CLUSTERHEATMAP -> REGIONALE CLUSTERSWEEPS -> MARK A/B/C -> ROUTE`.
+
+Full-deep personen: Paramahansa Yogananda, Mahavatar Babaji, Lahiri Mahasaya, Sri Yukteswar, Neem Karoli Baba, Ram Dass, Ramana Maharshi, Ramakrishna. Vivekananda + Hariharananda targeted major-sites only. Anandamayi niet opnieuw vanaf nul.
+
+CCI_TASK 087R staat al op PR #23 als recovery/resume van 087; op handoffmoment nog geen CCI_RESULT 087R zichtbaar. Een werkelijk `<wake reason="external-event">` met `source="github" kind="issue_comment.created"` is voor deze comment waargenomen: PR-comment is dus bewezen CCI-wake; Mark hoeft CCI niet handmatig te starten. Niet dupliceren.
+
+Parallel loopt een onafhankelijke externe ChatGPT-run op branch `agent/chatgpt-top11-parallel-sweep`; lees daar `runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/TASK.md` + actuele `STATUS.md`. Op snapshotmoment waren Yogananda (127) en Sri Yukteswar (38) gefreezed; Babaji/Lahiri/NKB/Ram Dass in progress; Ramana/Ramakrishna queued. Deze branchstatus kan inmiddels nieuwer zijn.
+
+Arunachala/Tiruvannamalai is `LOCKED_BY_MARK` A-anker voor latere routeanalyse, maar route/nachten nog niet vast. Eerst nationale persoonslaag/heatmap. Terugvlucht is gepland vanaf Delhi.
+
+## HARD RULE — EERST DE GEHELE GITHUB LEZEN
+Een nieuwe INDIA-regisseur leest vóór inhoudelijk handelen de gehele tekstuele repository op de actuele werkbranch inhoudelijk. Eerst de volledige recursive tree, daarna alle tekstbestanden: governance, actieve en oude runs, legacy, registries, decisions, protocollen, scripts, research, handoffs, methodes en overige projectbestanden. Binaire artefacten alleen openen wanneer een actuele taak/decision/audit ze als bron nodig heeft. Relevante andere branches en open PR's inventariseren; genoemde legacy-branches lezen. Daarna actuele statebestanden opnieuw lezen om canon vast te zetten.
+
+Prioriteit bij stateverschil: `actuele taak-STATUS > INDIA_SESSION_START > ACTIVE_STATE > legacy/oud > oude chat`. Legacy blijft verplicht wanneer het beschermde Mark-besluiten/evidence/reconciliatie-input bevat.
+
+## BOOTVOLGORDE
+1. Lees root `README.md`.
+2. Haal volledige recursive tree op.
+3. Lees alle tekstuele bestanden op de werkbranch.
+4. Inventariseer relevante branches en PR #23; lees genoemde legacy-branches.
+5. Lees opnieuw `governance/ACTIVE_STATE.md`, `SWEEP_PROTOCOL.md`, `SWEEP_ERROR_CLASSES.md` en dit bestand.
+6. Lees alle `runs/active/*/STATUS.md`, bijbehorende `TASK.md` en genoemde outputbestanden.
+7. Scan repo-breed op `LOCKED_BY_MARK`, `MARK_DECISION_CONFLICT`, `LAST_GLOBAL_LOCATION_NUMBER`, `PDF_STATUS`, `next_allowed_step`, `PERSON_SWEEP_SATURATED`, `AOAY_LOCATION_SWEEP_SATURATED`, `DOUBLE_SWEEP_COMPLETED`.
+8. Controleer nieuwste commits + nieuwste PR #23-enveloppen.
+9. Handel direct de nieuwste `next_allowed_step` af. Mark is geen koerier.
+
+## ONDERHOUDSREGEL
+Update dit bestand in dezelfde werksessie bij iedere nieuwe taak/CCI_TASK, taakstatus/NEXT_ACTION, permanent locatie-ID, Mark A/B/C-lock/conflict, methode/protocolwijziging, regioprioriteit of belangrijke researchlaag-status. Update altijd ook de betrokken taak-STATUS. Chat mag nooit de enige actuele waarheid zijn.
+
+## MARK-UI-REGEL — EXTERNE AI PROMPTS
+Lees en volg `governance/EXTERNAL_AI_PROMPT_RULES.md`.
+Iedere tekst die Mark naar een andere AI/chat/Claude Code moet kopiëren staat volledig in één los fenced code block (monospace/kopieerknop). Geen noodzakelijke prompttekst erbuiten. Dit geldt ook voor éénregelige startvragen.
+
+## REPO / RELAY
+- Repo: `bnzgxknwrv-tech/india-knowledge-base`
+- Werkbranch: `claude/werk-je-nu-of-niet-oa10y7`
+- PR #23 draft; niet mergen zonder expliciete Mark-vrijgave.
+- PR #23 = korte relay/index; lange inhoud onder `runs/active/<TASK_ID>/`.
+- Bewezen relaygedrag: een nieuwe top-level PR-comment
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=229 path=governance/INDIA_SESSION_START.md blob_sha=a1c35d29d9419f807633d5eded0d60bb1edb0f7e original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=5 classification=text
+ genereert `github issue_comment.created` wake voor CCI; zie `governance/CCI_GITHUB_WAKE_RELAY.md`.
+
+## PROJECTDOEL
+Drie orthogonale missiekritische detectorlagen:
+1. AOAY volledig: iedere locatievermelding / direct verbonden fysieke plek, hoe klein ook.
+2. Top-11 persoon-centraal: per persoon heel India, inclusief hosts/gastheren/huizen/landgoederen.
+3. Regionaal: zware regio's onafhankelijk dubbel sweepen + reconciliëren; laag-3 alleen echte zelfstandige zwaargewichten.
+
+Top-11 vaste volgorde: Paramahansa Yogananda; Mahavatar Babaji; Lahiri Mahasaya; Sri Yukteswar; Ram Dass; Neem Karoli Baba; Anandamayi Ma; Ramakrishna; Ramana Maharshi; Hariharananda; Vivekananda.
+
+Geen A/B/C voorspellen namens Mark. Bestaande Mark-besluiten beschermd. Nieuwe cruciale info bij oud besluit => `MARK_DECISION_CONFLICT`. Geen PDF zonder `PDF_GO: JA`.
+
+## PERMANENTE NUMMERING
+`LAST_GLOBAL_LOCATION_NUMBER = 081`.
+- 079 Mahavatar Babaji's Cave — A, `LOCKED_BY_MARK`.
+- 080 Turiya Niwas — A, `LOCKED_BY_MARK`.
+- 081 Bodh Ashram — A, `LOCKED_BY_MARK`.
+
+## ACTIEVE TAAK 1 — TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
+CCI heeft METHOD_V1 afgerond: circa 90 atlaspunten voor alle 11 en 11/11 `PERSON_SWEEP_SATURATED: JA`. Die saturation-labels zijn voor INDIA **NIET meer geldig als completeness-bewijs**. Anandamayi-benchmark heeft aangetoond dat METHOD_V1 hele categorieën en tientallen fysieke touchpoints mist.
+
+Bestaande atlas blijft input; niet verwijderen. Geen permanente nummering/clusterkeuze op basis van METHOD_V1 alleen.
+
+## ACTIEVE TAAK 2 — TOP11-EXTERNAL-AI-BENCHMARK-001
+Actuele benchmarkconclusie: Yogananda prospective control is afgerond via CCI_TASK 086 en heeft `EXTERNAL_MULTI_AI_MANDATORY_FOR_REMAINING_TOP11: JA` opgeleverd.
+
+Bestanden:
+- `TASK.md`
+- `STATUS.md`
+- `EXTERNAL_UNION_INPUT.md` — Marks externe multi-AI union: 156 Anandamayi-masterlocaties.
+- `INDIA_SOURCE_FIRST_SWEEP_ANANDAMAYI.md`
+- `BENCHMARK_RESULT.md`
+- `YOGANANDA_EXTERNAL_RECONCILIATION_CCI_086.md`
+
+### Harde bevindingen
+1. CCI's Anandamayi-set (~23) is aantoonbaar zwaar incompleet.
+2. Externe multi-AI union (156) heeft echte waarde: onafhankelijke AI's vinden reële long-tail host-/reislocaties die CCI mist.
+3. Externe union is zelf óók aantoonbaar incompleet: source-first scan van officiële Life History 1896–1982 + Sangha-biografie vond opnieuw vele afzonderlijke sites die niet in de 156-union staan.
+4. Sommige externe claims zijn fout/overmerged en moeten rechtstreeks worden geverifieerd; consensus is geen bewijs.
+5. Yogananda control: 114 externe masterrecords; 8/8 rechtstreeks getoetste externe kandidaten `VERIFIED_TRUE`.
+6. CCI vond zelf Regent Hotel Bombay, gemist door alle vijf externe AI's. Dus volledige METHOD_V2-keten blijft nodig.
+
+### METHOD_V2
+`CORPUS INVENTORY -> LOSSLESS CORPUS OCCURRENCE EXTRACTION -> EVENT/PLACE NORMALIZATION -> HOST/NETWORK GRAPH -> WEB DISCOVERY -> INDIA INDEPENDENT METHOD PASS -> EXTERNAL MULTI-AI ADVERSARIAL UNION -> DIRECT VERIFICATION/RECONCILIATION -> SATURATION`.
+
+`PERSON_SWEEP_SATURATED` mag pas na aantoonbare corpuscoverage, hostgraph, discovery en detectorreconciliatie.
+
+### CCI_TASK 087 / 087R — AFGEROND (CCI, 2026-08-19)
+087 = nationale pre-external METHOD_V2 freezes voor Mahavatar Babaji + Lahiri Mahasaya + Sri Yukteswar.
+087R = context-limit recovery; eerste subagent-poging (3 parallelle workers) faalde op sessielimiet
+zonder duurzame output. CCI heeft daarna alle drie freezes direct (niet via subagent) uitgevoerd,
+met tussentijdse checkpoint-commits per persoon: Babaji (`6b79f1c`), Lahiri Mahasaya (`642e464`),
+Sri Yukteswar (`ea60ba5`). Bestanden:
+`runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/BABAJI_V2_PRE_EXTERNAL_FREEZE.md`,
+`.../LAHIRI_MAHASAYA_V2_PRE_EXTERNAL_FREEZE.md`, `.../SRI_YUKTESWAR_V2_PRE_EXTERNAL_FREEZE.md`.
+Alle drie `SATURATED: NEE` met expliciet benoemde hiaten (zie STATUS.md van die taak voor details).
+Geen PHASE2_RESULT.md-checklist gebruikt tijdens de blinde pas; geen inzage in de externe
+ChatGPT-parallelsweep. **NEXT_ACTION 087:** blanco externe multi-AI-sweeps voor deze drie 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=230 path=governance/INDIA_SESSION_START.md blob_sha=a1c35d29d9419f807633d5eded0d60bb1edb0f7e original_offset=16384 original_length=3301 payload_bytes=3301 chunk_index=4 chunk_count=5 classification=text
+personen,
+daarna directe verificatie/reconciliatie. Geen clustersweep/regiosweep (Arunachala-hold van kracht),
+geen A/B/C, geen PDF, geen route. Wacht op INDIA-QA-audit.
+
+## EXTERNE PARALLEL CHATGPT-RUN
+Branch: `agent/chatgpt-top11-parallel-sweep`.
+Task: `runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/TASK.md`.
+Doel: onafhankelijke blinde externe freezes voor acht full-deep personen. Geen interne repo-kandidaten lezen vóór alle acht freezes; eigen branch; commit per persoon; pas later reconciliëren.
+
+## ACTIEVE TAAK 3 — AOAY-FULL-LOCATION-ATLAS-001
+Actuele STATUS: `SUBSTANTIELE_EERSTE_OOGST__NIET_SATURATED__WACHT_OP_INDIA`.
+- eerste ronde: 1.359 occurrence-records; 123 genormaliseerde plaatsen; 30 `AOAY_FOUND_BUT_MISSING_FROM_REPO`; Kashmir nieuw signaal.
+- `AOAY_LOCATION_SWEEP_SATURATED: NEE`.
+- duizenden kandidaat-tokentypes unresolved; occurrence-level verification nog niet compleet.
+
+**NEXT_ACTION AOAY:** niet afsluiten. Vervolgronde tot echte saturation/blocker met detector-verdieping + occurrence-verificatie. Eerst huidige personenlaag respecteren.
+
+## ACTIEVE TAAK 4 — YOGANANDA-ANANDAMAYI-PHOTO-LOCATION-001
+Status: `RESULT_KLAAR__TWEE_SITES_ONDERSCHEIDEN__WACHT_OP_INDIA`.
+- Ranchi Vidyalaya-tuin = bronmatig zekerste fotosessie, exact bezoekbaar.
+- Bhowanipur/Calcutta = historische ontmoeting met Bholanath aanwezig, maar exact huis/adres nog niet bewezen.
+- open: Gurupriya Devi-dagboek/OCR + visuele fotoinspectie om Bholanath-foto exact toe te wijzen.
+
+## ACTIEVE/OPEN TAAK 5 — KUMAON-V2-RESWEEP-001
+079–081 beschermd. Overige kandidaten tijdelijk; identity/reconciliatie nog open. Nieuwe landelijke METHOD_V2/atlaslagen moeten vóór choice-ready eindstatus over Kumaon worden gekruist.
+
+## ARUNACHALA / TIRUVANNAMALAI
+`decisions/ARUNACHALA_TIRUVANNAMALAI_A_ANCHOR_2026-08-18.md` = LOCKED_BY_MARK A-anker, nog geen route/nachten.
+Yogananda-Ramana direct bewijs + film-sublocatie staat in `research/YOGANANDA_RAMANA_ARUNACHALA_POST_FREEZE_NOTE_2026-08-18.md`.
+Niet verwarren: film-scène exact op bank ten noorden van Old Hall; volledige conversatie exact daar nog niet bewezen.
+
+## AFGEROND
+- VARANASI: 001–040 beoordeeld/beschermd; 041–045 alleen op Marks initiatief.
+- BODH GAYA: 046–078 verwerkt; keuzes beschermd; geen nieuwe Bodh Gaya-PDF.
+- GAYA AIRPORT → BODH GAYA corridor: `DOUBLE_SWEEP_COMPLETED_RECONCILED`; 0 nieuwe locaties.
+
+## REGIOPRIORITEIT
+Na huidige landelijke atlas/QA-stroom:
+1. Tiruvannamalai / Arunachala.
+2. Kolkata / Serampore.
+Rajgir/Nalanda niet actief als volgende regio.
+
+## STARTZIN NIEUWE CHAT
+`Neem de INDIA-regie over als INDIA7. Gebruik GitHub onmiddellijk als primaire waarheid. Lees eerst de GEHELE tekstuele repository op branch claude/werk-je-nu-of-niet-oa10y7 volgens README.md. Lees daarna governance/INDIA7_BOOTSTRAP_DELTA_2026-08-18.md en handoffs/INDIA6_TO_INDIA7_2026-08-18.md opnieuw, inventariseer PR #23, PR #24 en branch agent/chatgpt-top11-parallel-sweep, en lees hun nieuwste states. Controleer als eerste of CCI_RESULT 087R inmiddels binnen is. Respecteer de blindheid van nog onafgeronde external freezes en start geen regionale/cluster-sweep voordat de nationale persoonslaag dit toestaat. Handel daarna direct de nieuwste next_allowed_step af zonder mij de geschiedenis opnieuw te laten uitleggen.`
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=231 path=runs/active/INDIAGEEL-FOURPERSON-LOCATION-CLOSURE-001/FOURPERSON_ACCESS_MATRIX.md blob_sha=c938d227770ae19fc6d639b00e3f323b7ad60921 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+# FOURPERSON ACCESS MATRIX — INDIA GEEL
+
+Current-access closure is deliberately conservative. `PUBLIC` means a current public/institutional visitor site is documented; `PRIVATE/CONDITIONAL` means a living/private property or access-by-arrangement context; `HISTORIC_ONLY` means the historical structure is gone/replaced or not independently continuous; `UNKNOWN` means current access was not safely established; `PROHIBITED` means current published rules prohibit ordinary access.
+
+| Person | Physical site / micro-site | Resolution | Current access | Current identity/access note |
+|---|---|---:|---|---|
+| Neem Karoli Baba | 4 Church Lane / Red House, Prayagraj | R1 | PRIVATE/CONDITIONAL | Current lineage material says the red house remains in place and receives visitors; still a private-house context. |
+| Neem Karoli Baba | Maharajji room, 4 Church Lane | R2 | PRIVATE/CONDITIONAL | Historic room explicit; current layout not independently audited. |
+| Neem Karoli Baba | Kainchi Ashram parent | R1 | PUBLIC | Active pilgrimage/ashram site; room-level access varies. |
+| Neem Karoli Baba | Maharajji residential kuti/room, Kainchi | R1 | CONDITIONAL | Exact historic subsite; public interior access not assumed. |
+| Neem Karoli Baba | Kainchi Hanuman temple/courtyard | R1 | PUBLIC | Active temple/ashram child. |
+| Neem Karoli Baba | original wooden bridge alignment, Kainchi | R3 | PUBLIC-AREA/HISTORIC_ONLY | Original wooden bridge replaced by concrete structure. |
+| Neem Karoli Baba | Bhumiadhar temple/ashram | R1 | PUBLIC | Active sacred site; room-level access separate. |
+| Neem Karoli Baba | Bhumiadhar Baba room/kuti | R3 | UNKNOWN/CONDITIONAL | Historic room attested; current visitor access not closed. |
+| Neem Karoli Baba | Hanuman Garhi/Hanumangarh temple, Nainital | R1 | PUBLIC | Active temple site. |
+| Neem Karoli Baba | Baba historic hut at Hanumangarh | R3 | UNKNOWN | Present fabric/access unresolved. |
+| Neem Karoli Baba | Ramsay Hospital, Nainital | R2 | INSTITUTIONAL | Hospital identity named; historical ECG room not a visitor site. |
+| Neem Karoli Baba | Gethia sanatorium/doctor site | R4 | UNKNOWN | Formal institution identity unresolved. |
+| Neem Karoli Baba | Neeb Karori historic cave | R2 | PUBLIC-SUCCESSOR | Original cave collapsed; current lineage cave is continuity/successor site. |
+| Neem Karoli Baba | Hanuman temple above Neeb Karori cave | R1 | PUBLIC | Active lineage site. |
+| Neem Karoli Baba | Lachman Das Puri / Neeb Karori station | R2 | PUBLIC-TRANSIT/HISTORIC | Railway-site identity strong; station naming chronology remains archival issue. |
+| Neem Karoli Baba | Akbarpur birth house | R3 | UNKNOWN/PRIVATE | Birth-house finding strong; exact surviving parcel/access unresolved. |
+| Neem Karoli Baba | Dak Bangalia, Akbarpur | R3 | UNKNOWN | Current structure continuity unresolved. |
+| Neem Karoli Baba | Ramabai ashram, Babania/Vavania | R3 | UNKNOWN | Historic site strong; current exact footprint/access unaudited. |
+| Neem Karoli Baba | Babania lake | R3 | PUBLIC-NATURAL/UNKNOWN-PRECISE | Lake occurrence retained; proper name/precise modern identity unresolved. |
+| Neem Karoli Baba | first Hanuman site, Babania | R2 | UNKNOWN/PILGRIMAGE | Lineage site clear; current fabric/access not audited. |
+| Neem Karoli Baba | Jagmohan Sharma house, Agra | R4 | PRIVATE/UNKNOWN | Host house presence supported; street address unresolved. |
+| Neem Karoli Baba | final-day S. house, Agra | R5 | PRIVATE/UNKNOWN | Separate finding; host identity unresolved. |
+| Neem Karoli Baba | heart-specialist/Dr Mathur clinic, Agra | R5 | UNKNOWN | Clinic address unresolved. |
+| Neem Karoli Baba | Mathura railway station | R3 | PUBLIC-TRANSIT / CONFLICT | Station public; NKB presence remains source-conflicted. |
+| Neem Karoli Baba | Mathura station steps/outdoor-latrine micro-site | R4 | UNKNOWN / CONFLICT | Exact point not mapped; retain only as conflict-version micro-site. |
+| Neem Karoli Baba | Ramakrishna Mission Hospital, Vrindavan | R1 | INSTITUTIONAL | Exact hospital identity strong; exact emergency room unknown. |
+| Neem Karoli 
+<<< END CHUNK >>>
+

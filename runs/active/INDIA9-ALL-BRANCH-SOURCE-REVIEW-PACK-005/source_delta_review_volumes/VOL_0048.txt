@@ -1,0 +1,1104 @@
+>>> CHUNK stream_row=770 path=pipeline/tests/PIPELINE_HANDOFF_SMOKE_001.md blob_sha=e2d747dcc6d4999830ca2e0809d1dd617bb16a39 original_offset=4096 original_length=3752 payload_bytes=3752 chunk_index=1 chunk_count=2 classification=text
+e chat toont. Negeer uitsluitend het verplichte `GOUD ZEGT:`-voorvoegsel, het slotrouteringsblok en `/GOUD`. Iedere inhoudelijke toevoeging, weglating, inkorting of parafrase faalt de test.
+
+## Test J — concurrerende sessies en claimrace
+
+1. Start in de fixture een geldige inline controllerclaim.
+2. Laat een tweede onafhankelijke sessie dezelfde transition proberen te claimen. Dit moet worden geweigerd omdat de eerste claim `ACTIVE` is.
+3. Laat twee nieuwe metaalchats dezelfde READY-state tegelijk proberen te claimen. Exact één claim mag slagen; de andere stopt zonder writes.
+4. Sluit de eerste claim en controleer dat een nieuwe claim alleen op de inmiddels actuele state kan worden genomen.
+
+## Test K — transitioncommit-drift
+
+1. Laat het contextmanifest een predecessorresultaatcommit pinnen die niet overeenkomt met de definitieve completioncommit. De transition moet blokkeren.
+2. Laat een transitioncommit worden geschreven maar wijzig state of NEXT_ACTION daarna zonder overeenkomstig event. Finale readback moet `NEXT_ROLE_READY: NO` geven.
+3. Laat de controllerclaim een ander transitioncommit noemen dan de actuele transitioncommit. De handoff mag niet worden vrijgegeven.
+
+## Test L — deterministische canonieke integratie
+
+Gebruik uitsluitend fixturekopieën van registry en decisions-index.
+
+1. Pas een technische artifactpadwijziging en bestaande LOCATION_ID-koppeling toe. Dit moet slagen.
+2. Probeer een bestaande formele A/B/C-status te wijzigen. Dit moet blokkeren.
+3. Probeer een adviserend A/B/C toe te voegen. Dit moet blokkeren.
+4. Probeer een nieuw decision-ID of nieuwe beslistekst te creëren. Dit moet blokkeren.
+5. Laat `mark_decision_required: YES` ontstaan. De betreffende canonieke wijziging mag niet worden toegepast en het Markrapport moet het exacte beslispunt tonen.
+6. Controleer syntax, unieke LOCATION_ID's, bestaande decision-ID's en finale readback.
+
+## Test M — productiepoort
+
+1. Probeer vóór een geldig resultaatbestand een echte `CONTROLLED_MANUAL_INLINE_HANDOFF`-run te creëren. Dit moet blokkeren.
+2. Controleer dat uitsluitend de synthetische fixture `PIPELINE-HANDOFF-SMOKE-001` met `run_type: SYNTHETIC_TEST` vóór de productiepoort mag bestaan.
+3. Schrijf een testresultaat met `PRODUCTION_READY: NO`; productieruncreatie blijft geblokkeerd.
+4. Alleen een volledig resultaat met `PRODUCTION_READY: YES`, sentinel en gemergede implementatie mag de poort openen.
+
+## Acceptatiecriteria
+
+Productieactivatie is alleen toegestaan wanneer alle tests A–M slagen en:
+
+- geen extra SUBREGIE- of INDIA2-chat tussen de metalen nodig was;
+- geen opvolgercontext door een workerrol is geschreven;
+- iedere workerclaim in de completioncommit is gesloten;
+- iedere transition een afzonderlijke claim en commit heeft;
+- iedere controllerclaim in de transitioncommit is gesloten;
+- concurrerende claims correct worden geweigerd;
+- iedere volgende rol uitsluitend gepinde GitHub-context leest;
+- `NEXT_ROLE_READY: YES` alleen na volledige readback verschijnt;
+- GOUD rechtstreeks een volledig bruikbaar en chat-identiek Markrapport levert;
+- canonieke integratie geen nieuwe A/B/C of decision creëert;
+- de actieve echte runs, echte registers en `pipeline/NEXT_ACTION.yaml` niet zijn gewijzigd.
+
+## Uitvoering en bewijs
+
+Een uitvoerder schrijft na de test:
+
+`pipeline/tests/results/PIPELINE_HANDOFF_SMOKE_001_RESULT.md`
+
+met per test PASS/FAIL, commits, fixturepaden, claim- en statebewijzen, gevonden afwijkingen en het uiteindelijke:
+
+`PRODUCTION_READY: YES|NO`
+
+Het resultaatbestand eindigt met `END_OF_ARTIFACT`.
+
+Totdat dat resultaat `PRODUCTION_READY: YES` bevat en de implementatie is gemerged, maakt INDIA2 geen nieuwe productierun met `CONTROLLED_MANUAL_INLINE_HANDOFF`.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=771 path=pipeline/tests/fixtures/PIPELINE-HANDOFF-SMOKE-001/GOUD/CANONICAL_INTEGRATION_PROPOSAL.md blob_sha=4cfc65476272485d2bce72f15d99f396faaff712 original_offset=0 original_length=1173 payload_bytes=1173 chunk_index=0 chunk_count=1 classification=text
+# PIPELINE-HANDOFF-SMOKE-001 — canoniek integratievoorstel
+
+## 1. Integratiestatus
+
+- mode: `DETERMINISTIC_NON_DECISIONAL`
+- registry_update_required: `YES`
+- decisions_index_update_required: `NO`
+- mark_decision_required: `YES`
+- integration_applied: `YES`, uitsluitend technische artifactpadwijziging in fixturekopie
+- integration_commit: `FIXTURE_COMMIT`
+
+## 2. Toegestane deterministische wijzigingen
+
+SYN-PLACE-001 behoudt dezelfde LOCATION_ID en formele status. Alleen artifact_path wijzigt van BRONS naar GOUD.
+
+## 3. Verboden wijzigingen
+
+De gevraagde formele statuswijziging en een nieuw decision-ID zijn niet toegepast.
+
+## 4. Voorgestelde registry-wijzigingen
+
+- LOCATION_ID: SYN-LOC-001
+- wijziging: artifact_path naar GOUD/report/anchor.md
+- formele status ongewijzigd: JA
+
+## 5. Voorgestelde decisions-indexwijzigingen
+
+NONE.
+
+## 6. Beslissing van Mark vereist
+
+Formele status van SYN-LOC-001 blijft U totdat Mark apart beslist.
+
+## 7. Readback
+
+- registry syntax/JSONL geldig: JA
+- decisions index syntax geldig: JA
+- alle LOCATION_ID's uniek: JA
+- alle decision-ID's bestaand: JA
+- geen A/B/C-wijziging: JA
+- finale readback geslaagd: JA
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=772 path=pipeline/tests/fixtures/PIPELINE-HANDOFF-SMOKE-001/GOUD/CHAT_OUTPUT.txt blob_sha=89f18c300cfe0a67b8765a46e4a6d95c25dc0a97 original_offset=0 original_length=4019 payload_bytes=4019 chunk_index=0 chunk_count=1 classification=text
+GOUD ZEGT:
+# PIPELINE-HANDOFF-SMOKE-001 — definitief rapport voor Mark
+
+## 1. Eindantwoord
+
+De synthetische BRONS → ZILVER → GOUD-keten is volledig doorlopen. Eén kunstmatige kandidaat is geldig gebleven. Het aliasconflict is zichtbaar afgewezen. De claim met een ontbrekende source-ID is geblokkeerd. Er is geen echte reis- of locatiebeslissing genomen.
+
+## 2. Status
+
+- GOUD-status: `PASS`
+- onderzoeksdatum / peildatum: `2026-07-18`
+- run-id: `PIPELINE-HANDOFF-SMOKE-001`
+- formele completioncommit: `FIXTURE_COMMIT`
+- bruikbaar voor beslissing: `JA`
+- canonieke integratie: `APPLIED`
+- MARK_DECISION_REQUIRED: `YES`
+
+## 3. Wat is onderzocht
+
+Uitsluitend synthetische protocoldata, drie kunstmatige kandidaten, claims, state, events, contextpins, handoffs, rapportpariteit en fixturekopieën van canonieke registers.
+
+## 4. Belangrijkste uitkomst voor Mark
+
+De keten kan zonder normale tussenkomst van SUBREGIE of INDIA2 tussen de metalen functioneren. Alleen technische, niet-beslissende integratie is toegepast. Een inhoudelijke statuskeuze blijft expliciet voor Mark.
+
+## 5. Definitieve locaties of kandidaten
+
+### SYN-LOC-001 — Synthetic Valid Anchor
+
+- fysiek type: synthetisch testobject;
+- concrete ligging: niet van toepassing;
+- relatietype: `DIRECT_FYSIEK_ANKER` als testwaarde;
+- bevestigingsstatus: geldig binnen de fixture;
+- concrete betekenis: controleert volledige happy path.
+
+## 6. Afgevallen of contextlocaties
+
+- SYN-LOC-002 — aliasconflict; niet doorgelaten.
+- SYN-003 — ontbrekende source-ID; transition geblokkeerd in negatieve test.
+
+## 7. Route, kaart en praktische GEO
+
+Niet van toepassing op deze synthetische protocoltest.
+
+## 8. Wat ZILVER en GOUD hebben gewijzigd
+
+ZILVER bevestigde de geldige kandidaat en verwierp de ongeldige bronverwijzing. GOUD controleerde rapportkwaliteit, pariteit en canonieke writescope.
+
+## 9. Open punten
+
+Geen technische blocker. Eén kunstmatige inhoudelijke statuskeuze is bewust niet toegepast.
+
+## 10. Aanbevolen vervolgstap
+
+`MARK_DECISION_REQUIRED`
+
+Concrete keuze: behoud SYN-LOC-001 op formele status U of ken in een afzonderlijke, expliciete beslissing een status toe. Bij niets doen blijft de status U en verandert geen canoniek record.
+
+## 11. Canonieke integratie
+
+- integratievoorstelpad: fixture/GOUD/CANONICAL_INTEGRATION_PROPOSAL.md
+- registry bijgewerkt: `JA`, uitsluitend fixturekopie
+- decisions-index bijgewerkt: `NEE`
+- integration commit: `FIXTURE_COMMIT`
+- bestaande A/B/C-statussen ongewijzigd: `JA`
+- nieuwe decision-ID aangemaakt: `NEE`
+- niet-toegepaste wijziging wegens Markbesluit: formele status SYN-LOC-001
+
+## 12. Bron- en bewijsstatus
+
+Alle gebruikte bron-ID’s zijn synthetisch. De negatieve bron-ID bestaat bewust niet en werd geblokkeerd.
+
+## 13. Technische eindcontrole
+
+- BRONS geldig afgerond: `JA`
+- BRONS-workerclaim gesloten: `JA`
+- BRONS -> ZILVER-transition geldig: `JA`
+- BRONS -> ZILVER-controllerclaim gesloten: `JA`
+- ZILVER geldig afgerond: `JA`
+- ZILVER-workerclaim gesloten: `JA`
+- ZILVER -> GOUD-transition geldig: `JA`
+- ZILVER -> GOUD-controllerclaim gesloten: `JA`
+- GOUD geldig afgerond: `JA`
+- GOUD-workerclaim gesloten: `JA`
+- contextmanifesten gepind: `JA`
+- required artifacts compleet: `JA`
+- source-ID's resolveerbaar: `JA`, behalve de bewust geblokkeerde negatieve testclaim
+- state/events synchroon: `JA`
+- canonieke syntax/readback geldig: `JA`
+- finale readback geslaagd: `JA`
+- chattekst gelijk aan gecommitte rapport: `JA`
+
+## 14. Geschreven eindproducten
+
+- hoofdrapport: fixture/GOUD/MARK_FINAL_REPORT.md
+- canoniek integratievoorstel: fixture/GOUD/CANONICAL_INTEGRATION_PROPOSAL.md
+- fixture- en validatiebestanden: pipeline/tests/fixtures/PIPELINE-HANDOFF-SMOKE-001/
+- completioncommit: `FIXTURE_COMMIT`
+
+## 15. Blockers
+
+`NONE`
+
+## 16. Definitieve afsluiting
+
+De synthetische keten is inhoudelijk en technisch geschikt voor productie na een volledig PASS-resultaat en merge van PR #15. Geen echte run is gestart of gewijzigd.
+
+END_OF_ARTIFACT
+
+ROUTING: VOOR_MARK
+/GOUD
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=773 path=pipeline/tests/fixtures/PIPELINE-HANDOFF-SMOKE-001/GOUD/MARK_FINAL_REPORT.md blob_sha=4ea24a53a8bd8382262dfc8b101d3db5685fa29e original_offset=0 original_length=3983 payload_bytes=3983 chunk_index=0 chunk_count=1 classification=text
+# PIPELINE-HANDOFF-SMOKE-001 — definitief rapport voor Mark
+
+## 1. Eindantwoord
+
+De synthetische BRONS → ZILVER → GOUD-keten is volledig doorlopen. Eén kunstmatige kandidaat is geldig gebleven. Het aliasconflict is zichtbaar afgewezen. De claim met een ontbrekende source-ID is geblokkeerd. Er is geen echte reis- of locatiebeslissing genomen.
+
+## 2. Status
+
+- GOUD-status: `PASS`
+- onderzoeksdatum / peildatum: `2026-07-18`
+- run-id: `PIPELINE-HANDOFF-SMOKE-001`
+- formele completioncommit: `FIXTURE_COMMIT`
+- bruikbaar voor beslissing: `JA`
+- canonieke integratie: `APPLIED`
+- MARK_DECISION_REQUIRED: `YES`
+
+## 3. Wat is onderzocht
+
+Uitsluitend synthetische protocoldata, drie kunstmatige kandidaten, claims, state, events, contextpins, handoffs, rapportpariteit en fixturekopieën van canonieke registers.
+
+## 4. Belangrijkste uitkomst voor Mark
+
+De keten kan zonder normale tussenkomst van SUBREGIE of INDIA2 tussen de metalen functioneren. Alleen technische, niet-beslissende integratie is toegepast. Een inhoudelijke statuskeuze blijft expliciet voor Mark.
+
+## 5. Definitieve locaties of kandidaten
+
+### SYN-LOC-001 — Synthetic Valid Anchor
+
+- fysiek type: synthetisch testobject;
+- concrete ligging: niet van toepassing;
+- relatietype: `DIRECT_FYSIEK_ANKER` als testwaarde;
+- bevestigingsstatus: geldig binnen de fixture;
+- concrete betekenis: controleert volledige happy path.
+
+## 6. Afgevallen of contextlocaties
+
+- SYN-LOC-002 — aliasconflict; niet doorgelaten.
+- SYN-003 — ontbrekende source-ID; transition geblokkeerd in negatieve test.
+
+## 7. Route, kaart en praktische GEO
+
+Niet van toepassing op deze synthetische protocoltest.
+
+## 8. Wat ZILVER en GOUD hebben gewijzigd
+
+ZILVER bevestigde de geldige kandidaat en verwierp de ongeldige bronverwijzing. GOUD controleerde rapportkwaliteit, pariteit en canonieke writescope.
+
+## 9. Open punten
+
+Geen technische blocker. Eén kunstmatige inhoudelijke statuskeuze is bewust niet toegepast.
+
+## 10. Aanbevolen vervolgstap
+
+`MARK_DECISION_REQUIRED`
+
+Concrete keuze: behoud SYN-LOC-001 op formele status U of ken in een afzonderlijke, expliciete beslissing een status toe. Bij niets doen blijft de status U en verandert geen canoniek record.
+
+## 11. Canonieke integratie
+
+- integratievoorstelpad: fixture/GOUD/CANONICAL_INTEGRATION_PROPOSAL.md
+- registry bijgewerkt: `JA`, uitsluitend fixturekopie
+- decisions-index bijgewerkt: `NEE`
+- integration commit: `FIXTURE_COMMIT`
+- bestaande A/B/C-statussen ongewijzigd: `JA`
+- nieuwe decision-ID aangemaakt: `NEE`
+- niet-toegepaste wijziging wegens Markbesluit: formele status SYN-LOC-001
+
+## 12. Bron- en bewijsstatus
+
+Alle gebruikte bron-ID’s zijn synthetisch. De negatieve bron-ID bestaat bewust niet en werd geblokkeerd.
+
+## 13. Technische eindcontrole
+
+- BRONS geldig afgerond: `JA`
+- BRONS-workerclaim gesloten: `JA`
+- BRONS -> ZILVER-transition geldig: `JA`
+- BRONS -> ZILVER-controllerclaim gesloten: `JA`
+- ZILVER geldig afgerond: `JA`
+- ZILVER-workerclaim gesloten: `JA`
+- ZILVER -> GOUD-transition geldig: `JA`
+- ZILVER -> GOUD-controllerclaim gesloten: `JA`
+- GOUD gelldig afgerond: `JA`
+- GOUD-workerclaim gesloten: `JA`
+- contextmanifesten gepind: `JA`
+- required artifacts compleet: `JA`
+- source-ID's resolveerbaar: `JA`, behalve de bewust geblokkeerde negatieve testclaim
+- state/events synchroon: `JA`
+- canonieke syntax/readback geldig: `JA`
+- finale readback geslaagd: `JA`
+- chattekst gelijk aan gecommitte rapport: `JA`
+
+## 14. Geschreven eindproducten
+
+- hoofdrapport: fixture/GOUD/MARK_FINAL_REPORT.md
+- canoniek integratievoorstel: fixture/GOUD/CANONICAL_INTEGRATION_PROPOSAL.md
+- fixture- en validatiebestanden: pipeline/tests/fixtures/PIPELINE-HANDOFF-SMOKE-001/
+- completioncommit: `FIXTURE_COMMIT`
+
+## 15. Blockers
+
+`NONE`
+
+## 16. Definitieve afsluiting
+
+De synthetische keten is inhoudelijk en technisch geschikt voor productie na een volledig PASS-resultaat en merge van PR #15. Geen echte run is gestart of gewijzigd.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=774 path=pipeline/tests/fixtures/PIPELINE-HANDOFF-SMOKE-001/README.md blob_sha=d91f68e803cf8bd0163099e0bbc31ffd864526b5 original_offset=0 original_length=124 payload_bytes=124 chunk_index=0 chunk_count=1 classification=text
+# PIPELINE-HANDOFF-SMOKE-001 synthetic fixture
+
+This directory contains only synthetic protocol-test data.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=775 path=pipeline/tests/fixtures/PIPELINE-HANDOFF-SMOKE-001/VALIDATOR_OUTPUT.txt blob_sha=126c3858e651f34011796fdd0eedc3a072b75913 original_offset=0 original_length=206 payload_bytes=206 chunk_index=0 chunk_count=1 classification=text
+TEST_A: PASS
+TEST_B: PASS
+TEST_C: PASS
+TEST_D: PASS
+TEST_E: PASS
+TEST_F: PASS
+TEST_G: PASS
+TEST_H: PASS
+TEST_I: PASS
+TEST_J: PASS
+TEST_K: PASS
+TEST_L: PASS
+TEST_M: PASS
+ALL_TESTS_A_M: PASS
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=776 path=pipeline/tests/fixtures/PIPELINE-HANDOFF-SMOKE-001/fixture.json blob_sha=bf32ae6f3993119491153033f06420a2b85c1e88 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+{
+  "run": {
+    "run_id": "PIPELINE-HANDOFF-SMOKE-001",
+    "run_type": "SYNTHETIC_TEST",
+    "operating_mode": "CONTROLLED_MANUAL_INLINE_HANDOFF",
+    "real_paths_touched": []
+  },
+  "candidates": [
+    {"id": "SYN-001", "name": "Synthetic Valid Anchor", "status": "VALID", "source_ids": ["SRC-SYN-001"]},
+    {"id": "SYN-002", "name": "Synthetic Alias Conflict", "status": "CONFLICT", "aliases": ["Synthetic Valid Anchor"]},
+    {"id": "SYN-003", "name": "Synthetic Missing Source", "status": "NEGATIVE_TEST", "source_ids": ["SRC-MISSING-999"]}
+  ],
+  "sources": ["SRC-SYN-001", "SRC-SYN-002"],
+  "happy_path": {
+    "content_chats": ["BRONS", "ZILVER", "GOUD"],
+    "states": [
+      "READY_FOR_BRONS",
+      "BRONS_CLAIMED",
+      "BRONS_COMPLETE",
+      "TRANSITION_TO_ZILVER_CLAIMED",
+      "READY_FOR_ZILVER",
+      "ZILVER_CLAIMED",
+      "ZILVER_COMPLETE",
+      "TRANSITION_TO_GOUD_CLAIMED",
+      "READY_FOR_GOUD",
+      "GOUD_CLAIMED",
+      "GOUD_PASS"
+    ],
+    "claims": [
+      {"id": "BRONS-WORKER-1", "role": "BRONS", "opened": "ACTIVE", "closed": "CLOSED", "completion_commit": "FIXTURE_COMMIT", "completion_result": "PASS"},
+      {"id": "BRONS-ZILVER-CONTROLLER-1", "role": "CONTROLLER", "transition": "BRONS_TO_ZILVER", "opened": "ACTIVE", "closed": "CLOSED", "transition_commit": "FIXTURE_COMMIT"},
+      {"id": "ZILVER-WORKER-1", "role": "ZILVER", "opened": "ACTIVE", "closed": "CLOSED", "completion_commit": "FIXTURE_COMMIT", "completion_result": "PASS"},
+      {"id": "ZILVER-GOUD-CONTROLLER-1", "role": "CONTROLLER", "transition": "ZILVER_TO_GOUD", "opened": "ACTIVE", "closed": "CLOSED", "transition_commit": "FIXTURE_COMMIT"},
+      {"id": "GOUD-WORKER-1", "role": "GOUD", "opened": "ACTIVE", "closed": "CLOSED", "completion_commit": "FIXTURE_COMMIT", "completion_result": "PASS"}
+    ],
+    "worker_claim_reused_as_controller": false,
+    "phase_writes_after_role_switch": false,
+    "contexts": [
+      {"role": "BRONS", "created_before_run": true, "source_commit": "6344fa47436e15111b89de11cda1cc09dc2bc067"},
+      {"role": "ZILVER", "created_after": "BRONS_COMPLETE", "source_commit": "FIXTURE_COMMIT", "hashes_valid": true},
+      {"role": "GOUD", "created_after": "ZILVER_COMPLETE", "source_commit": "FIXTURE_COMMIT", "hashes_valid": true}
+    ],
+    "next_action_routes": ["BRONS", "ZILVER", "GOUD"],
+    "next_role_ready_released_after_readback": true,
+    "state_events_synced": true,
+    "all_required_artifacts_have_sentinel": true,
+    "all_claim_source_ids_resolve": true
+  },
+  "tests": {
+    "B": {"fixture": "missing END_OF_ARTIFACT in BRONS/audit.md", "detected": true, "transition_blocked": true, "next_context_created": false, "ready_state_written": false, "prompt_released": false},
+    "C": {"claim_source_id": "SRC-MISSING-999", "source_exists": false, "transition_blocked": true},
+    "D": {"state": "BRONS_COMPLETE", "last_event_state": "BRONS_CLAIMED", "desync_detected": true, "transition_blocked": true, "next_context_created": false},
+    "E": {
+      "pasted_non_pinned_change_ignored": true,
+      "github_state_used": true,
+      "stale_handoff_route": "ZILVER",
+      "github_next_action_route": "GOUD",
+      "stale_chat_claim_allowed": false,
+      "hash_mismatch_detected": true,
+      "worker_stopped": true
+    },
+    "F": {
+      "controller_phase_write_allowed": false,
+      "worker_claim_reuse_allowed": false,
+      "active_predecessor_claim_blocks": true,
+      "missing_close_fields_blocks": true,
+      "completion_commit_mismatch_blocks": true
+    },
+    "G": {"post_completion_pinned": false, "old_process_selected": true, "inline_transition_allowed": false},
+    "J": {
+      "controller_claim_1": "ACCEPTED",
+      "controller_claim_2": "REJECTED_ACTIVE_CLAIM",
+      "metal_claim_1": "ACCEPTED",
+      "metal_claim_2": "REJECTED_STATE_CHANGED",
+      "new_claim_after_close_requires_current_state": true
+    },
+    "K": {
+      "predecessor_commit_mismatch_blocks": true,
+      "state_changed_without_event_next_role_ready": false,
+      "controller_transition_commit_mismatch_releases_handoff": false
+    },
+    "
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=777 path=pipeline/tests/fixtures/PIPELINE-HANDOFF-SMOKE-001/fixture.json blob_sha=bf32ae6f3993119491153033f06420a2b85c1e88 original_offset=4096 original_length=665 payload_bytes=665 chunk_index=1 chunk_count=2 classification=text
+L": {
+      "allowed_changes": ["artifact_path", "existing_location_id_link"],
+      "formal_status_change_blocked": true,
+      "advisory_status_add_blocked": true,
+      "new_decision_id_blocked": true,
+      "new_decision_text_blocked": true,
+      "mark_decision_required": true,
+      "decision_dependent_write_applied": false
+    },
+    "M": {
+      "production_run_before_result_allowed": false,
+      "synthetic_exception_allowed": true,
+      "production_run_with_no_result_allowed": false,
+      "production_run_with_yes_before_merge_allowed": false,
+      "production_run_with_yes_after_merge_allowed": true
+    }
+  },
+  "_sentinel": "END_OF_ARTIFACT"
+}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=778 path=pipeline/tests/fixtures/PIPELINE-HANDOFF-SMOKE-001/fixture_decisions_after.yaml,pipeline/tests/fixtures/PIPELINE-HANDOFF-SMOKE-001/fixture_decisions_before.yaml blob_sha=622b9b3594cf7c38c0394badb46b40922c5c07bf original_offset=0 original_length=100 payload_bytes=100 chunk_index=0 chunk_count=1 classification=text
+decisions:
+  - id: SYN-DECISION-001
+    text: Existing synthetic decision
+sentinel: END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=779 path=pipeline/tests/fixtures/PIPELINE-HANDOFF-SMOKE-001/fixture_registry_after.jsonl blob_sha=45d6001a102c7e5835388cff756de29f6d78100b original_offset=0 original_length=417 payload_bytes=417 chunk_index=0 chunk_count=1 classification=text
+{"place_id":"SYN-PLACE-001","location_id":"SYN-LOC-001","canonical_name":"Synthetic Valid Anchor","formal_status":"U","artifact_path":"GOUD/report/anchor.md","aliases":["Synthetic Anchor"]}
+{"place_id":"SYN-PLACE-002","location_id":"SYN-LOC-002","canonical_name":"Synthetic Alias Conflict","formal_status":"C","artifact_path":"GOUD/report/conflict.md","aliases":["Conflicting Alias"]}
+{"_sentinel":"END_OF_ARTIFACT"}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=780 path=pipeline/tests/fixtures/PIPELINE-HANDOFF-SMOKE-001/fixture_registry_before.jsonl blob_sha=e5e5d0d7bced6c7ce7f612b0370f552e0db50ed8 original_offset=0 original_length=419 payload_bytes=419 chunk_index=0 chunk_count=1 classification=text
+{"place_id":"SYN-PLACE-001","location_id":"SYN-LOC-001","canonical_name":"Synthetic Valid Anchor","formal_status":"U","artifact_path":"BRONS/report/anchor.md","aliases":["Synthetic Anchor"]}
+{"place_id":"SYN-PLACE-002","location_id":"SYN-LOC-002","canonical_name":"Synthetic Alias Conflict","formal_status":"C","artifact_path":"BRONS/report/conflict.md","aliases":["Conflicting Alias"]}
+{"_sentinel":"END_OF_ARTIFACT"}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=781 path=pipeline/tests/fixtures/PIPELINE-HANDOFF-SMOKE-001/run.yaml blob_sha=ebf55cef3f2d661c6e51518dc36dee5c08415f7b original_offset=0 original_length=1180 payload_bytes=1180 chunk_index=0 chunk_count=1 classification=text
+run_id: PIPELINE-HANDOFF-SMOKE-001
+project: india
+run_type: SYNTHETIC_TEST
+scope_file: pipeline/tests/fixtures/PIPELINE-HANDOFF-SMOKE-001/scope.md
+created_at: 2026-07-18T10:30:00+02:00
+created_by: INDIA2
+immutable_after_first_claim: true
+operating_mode: CONTROLLED_MANUAL_INLINE_HANDOFF
+context_profile: BRONS_MIN
+production_gate:
+  smoke_result: pipeline/tests/results/PIPELINE_HANDOFF_SMOKE_001_RESULT.md
+  required_value: PRODUCTION_READY: YES
+pins:
+  entrypoint: pipeline/ENTRYPOINT.md
+  execution_protocol: pipeline/protocols/EXECUTION_PROTOCOL.md
+  controller_transition_protocol: pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md
+  role_handoff_protocol: pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md
+  next_action_template: pipeline/templates/NEXT_ACTION_V3_TEMPLATE.yaml
+  next_role_handoff_template: pipeline/templates/NEXT_ROLE_HANDOFF_TEMPLATE.md
+  mark_final_report_template: pipeline/templates/MARK_FINAL_REPORT_TEMPLATE.md
+  canonical_integration_proposal_template: pipeline/templates/CANONICAL_INTEGRATION_PROPOSAL_TEMPLATE.md
+versions:
+  pipeline: 3.1.1
+  methodology: 3.0.0
+source_base_commit: 6344fa47436e15111b89de11cda1cc09dc2bc067
+sentinel: END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=782 path=pipeline/tests/fixtures/PIPELINE-HANDOFF-SMOKE-001/scope.md blob_sha=b4c42da8c6264876c73f179c5faac2604a77a27a original_offset=0 original_length=392 payload_bytes=392 chunk_index=0 chunk_count=1 classification=text
+# PIPELINE-HANDOFF-SMOKE-001 — synthetische scope
+
+Uitsluitend protocoltest met drie kunstmatige kandidaten. Geen publiek onderzoek en geen wijziging van echte runs of registers.
+
+Kandidaten:
+- SYN-001: geldige kunstmatige locatie met bestaande bron SRC-SYN-001;
+- SYN-002: kunstmatige aliasconflictlocatie;
+- SYN-003: negatieve claim met ontbrekende bron SRC-MISSING-999.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=783 path=pipeline/tests/fixtures/PIPELINE-HANDOFF-SMOKE-001/validate_smoke.py blob_sha=9b361f37b0c14ad6960a1d37c2d78fd54006cb52 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+#!/usr/bin/env python3
+from __future__ import annotations
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent
+fixture = json.loads((ROOT / "fixture.json").read_text(encoding="utf-8"))
+report = (ROOT / "GOUD" / "MARK_FINAL_REPORT.md").read_text(encoding="utf-8")
+chat = (ROOT / "GOUD" / "CHAT_OUTPUT.txt").read_text(encoding="utf-8")
+
+
+def load_jsonl(path: Path):
+    rows = [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
+    assert rows[-1] == {"_sentinel": "END_OF_ARTIFACT"}
+    return rows[:-1]
+
+
+def strip_chat(text: str) -> str:
+    assert text.startswith("GOUD ZEGT:\n")
+    body = text[len("GOUD ZEGT:\n"):]
+    suffix = "\n\nROUTING: VOOR_MARK\n/GOUD\n"
+    assert body.endswith(suffix)
+    return body[:-len(suffix)] + "\n"
+
+results = {}
+
+hp = fixture["happy_path"]
+results["A"] = (
+    fixture["run"]["run_type"] == "SYNTHETIC_TEST"
+    and hp["states"] == ["READY_FOR_BRONS","BRONS_CLAIMED","BRONS_COMPLETE","TRANSITION_TO_ZILVER_CLAIMED","READY_FOR_ZILVER","ZILVER_CLAIMED","ZILVER_COMPLETE","TRANSITION_TO_GOUD_CLAIMED","READY_FOR_GOUD","GOUD_CLAIMED","GOUD_PASS"]
+    and hp["content_chats"] == ["BRONS","ZILVER","GOUD"]
+    and all(c["opened"] == "ACTIVE" and c["closed"] == "CLOSED" for c in hp["claims"])
+    and len({c["id"] for c in hp["claims"]}) == 5
+    and not hp["worker_claim_reused_as_controller"]
+    and not hp["phase_writes_after_role_switch"]
+    and hp["next_role_ready_released_after_readback"]
+    and hp["state_events_synced"]
+)
+results["B"] = all([fixture["tests"]["B"]["detected"], fixture["tests"]["B"]["transition_blocked"], not fixture["tests"]["B"]["next_context_created"], not fixture["tests"]["B"]["ready_state_written"], not fixture["tests"]["B"]["prompt_released"]])
+results["C"] = fixture["tests"]["C"]["claim_source_id"] not in fixture["sources"] and fixture["tests"]["C"]["transition_blocked"]
+results["D"] = fixture["tests"]["D"]["state"] != fixture["tests"]["D"]["last_event_state"] and fixture["tests"]["D"]["desync_detected"] and fixture["tests"]["D"]["transition_blocked"]
+results["E"] = all([fixture["tests"]["E"]["pasted_non_pinned_change_ignored"], fixture["tests"]["E"]["github_state_used"], not fixture["tests"]["E"]["stale_chat_claim_allowed"], fixture["tests"]["E"]["hash_mismatch_detected"], fixture["tests"]["E"]["worker_stopped"]])
+results["F"] = all([not fixture["tests"]["F"]["controller_phase_write_allowed"], not fixture["tests"]["F"]["worker_claim_reuse_allowed"], fixture["tests"]["F"]["active_predecessor_claim_blocks"], fixture["tests"]["F"]["missing_close_fields_blocks"], fixture["tests"]["F"]["completion_commit_mismatch_blocks"]])
+results["G"] = not fixture["tests"]["G"]["post_completion_pinned"] and fixture["tests"]["G"]["old_process_selected"] and not fixture["tests"]["G"]["inline_transition_allowed"]
+required = ["## 1. Eindantwoord","## 2. Status","## 5. Definitieve locaties of kandidaten","## 6. Afgevallen of contextlocaties","## 9. Open punten","## 10. Aanbevolen vervolgstap","## 11. Canonieke integratie","## 13. Technische eindcontrole","## 14. Geschreven eindproducten","## 16. Definitieve afsluiting","END_OF_ARTIFACT"]
+results["H"] = all(x in report for x in required)
+results["I"] = strip_chat(chat) == report
+results["J"] = fixture["tests"]["J"] == {"controller_claim_1":"ACCEPTED","controller_claim_2":"REJECTED_ACTIVE_CLAIM","metal_claim_1":"ACCEPTED","metal_claim_2":"REJECTED_STATE_CHANGED","new_claim_after_close_requires_current_state":True}
+results["K"] = all([fixture["tests"]["K"]["predecessor_commit_mismatch_blocks"], not fixture["tests"]["K"]["state_changed_without_event_next_role_ready"], not fixture["tests"]["K"]["controller_transition_commit_mismatch_releases_handoff"]])
+
+before = load_jsonl(ROOT / "fixture_registry_before.jsonl")
+after = load_jsonl(ROOT / "fixture_registry_after.jsonl")
+assert len(before) == len(after)
+by_id_before = {r["place_id"]: r for r in before}
+by_id_after = {r["place_id"]: r for r in after}
+allowed = True
+for pid, old in by_id_before.items():
+    new = by_id_after[pid]
+    for key i
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=784 path=pipeline/tests/fixtures/PIPELINE-HANDOFF-SMOKE-001/validate_smoke.py blob_sha=9b361f37b0c14ad6960a1d37c2d78fd54006cb52 original_offset=4096 original_length=1650 payload_bytes=1650 chunk_index=1 chunk_count=2 classification=text
+n old:
+        if key == "artifact_path":
+            continue
+        if old[key] != new[key]:
+            allowed = False
+location_ids = [r["location_id"] for r in after]
+decisions_same = (ROOT / "fixture_decisions_before.yaml").read_text(encoding="utf-8") == (ROOT / "fixture_decisions_after.yaml").read_text(encoding="utf-8")
+results["L"] = allowed and len(location_ids) == len(set(location_ids)) and decisions_same and fixture["tests"]["L"]["formal_status_change_blocked"] and fixture["tests"]["L"]["advisory_status_add_blocked"] and fixture["tests"]["L"]["new_decision_id_blocked"] and fixture["tests"]["L"]["new_decision_text_blocked"] and fixture["tests"]["L"]["mark_decision_required"] and not fixture["tests"]["L"]["decision_dependent_write_applied"]
+results["M"] = all([not fixture["tests"]["M"]["production_run_before_result_allowed"], fixture["tests"]["M"]["synthetic_exception_allowed"], not fixture["tests"]["M"]["production_run_with_no_result_allowed"], not fixture["tests"]["M"]["production_run_with_yes_before_merge_allowed"], fixture["tests"]["M"]["production_run_with_yes_after_merge_alowed"]])
+
+for path in [ROOT / "scope.md", ROOT / "GOUD" / "MARK_FINAL_REPORT.md", ROOT / "GOUD" / "CANONICAL_INTEGRATION_PROPOSAL.md"]:
+    assert path.read_text(encoding="utf-8").rstrip().endswith("END_OF_ARTIFACT")
+assert fixture["_sentinel"] == "END_OF_ARTIFACT"
+assert (ROOT / "run.yaml").read_text(encoding="utf-8").rstrip().endswith("sentinel: END_OF_ARTIFACT")
+
+for key in "ABCDEFGHIJKLMZ":
+    print(f"TEST_{key}: {'PASS' if results[key] else 'FAIL'}")
+if not all(results.values()):
+    raise SystemExit(1)
+print("ALL_TESTS_A_M: PASS")
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=785 path=pipeline/tests/results/PIPELINE_HANDOFF_SMOKE_001_RESULT.md blob_sha=82e1b743bf6d4869da6a142596ce7189caae6789 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# PIPELINE-HANDOFF-SMOKE-001 — resultaat
+
+Branch: `implementation/minimal-bzg-handoff`
+
+Testspec: `pipeline/tests/PIPELINE_HANDOFF_SMOKE_001.md`
+
+Fixturemap: `pipeline/tests/fixtures/PIPELINE-HANDOFF-SMOKE-001/`
+
+Documentatiecorrectie:
+- `pipeline/templates/RUN_TEMPLATE_V3.md` bevat nu `run_type: <CLUSTER_SWEEP|TARGETED_SUPPLEMENT|SYNTHETIC_TEST>`;
+- correctiecommit: `6344fa47436e15111b89de11cda1cc09dc2bc067`.
+
+Synthetische fixture- en uitvoercommit: `1c3bb20c1eb926a775f3609cb93eacf973a0c97c`.
+
+Validator:
+- script: `pipeline/tests/fixtures/PIPELINE-HANDOFF-SMOKE-001/validate_smoke.py`;
+- output: `pipeline/tests/fixtures/PIPELINE-HANDOFF-SMOKE-001/VALIDATOR_OUTPUT.txt`;
+- uitkomst: `ALL_TESTS_A_M: PASS`.
+
+## Isolatie
+
+Uitsluitend synthetische fixturedata gebruikt. De fixture bevat drie kunstmatige kandidaten, fixturekopieën van registry en decisions-index, een zelfstandig GOUD-rapport en een afzonderlijke chatweergave.
+
+Niet gewijzigd:
+- `pipeline/NEXT_ACTION.yaml`;
+- `research/active/VRINDAVAN-KUMAON-CORRIDOR-001`;
+- andere echte actieve runs;
+- `knowledge/places/registry.jsonl`;
+- `decisions/INDEX.yaml`.
+
+De diff van de smoke-uitvoering vanaf correctiecommit `6344fa47436e15111b89de11cda1cc09dc2bc067` tot fixturecommit `1c3bb20c1eb926a775f3609cb93eacf973a0c97c` bevat uitsluitend bestanden onder `pipeline/tests/fixtures/PIPELINE-HANDOFF-SMOKE-001/`.
+
+## Test A — happy path en claimsluiting
+
+- Fixture: `fixture.json`, `run.yaml`, GOUD-rapport en integratievoorstel.
+- Verwacht: BRONS → afzonderlijke inline controller → ZILVER → afzonderlijke inline controller → GOUD; gesloten worker- en controllerclaims; exact drie inhoudelijke chats; rapport rechtstreeks voor Mark.
+- Feitelijk: volledige statevolgorde gevalideerd; vijf unieke claims doorliepen ACTIVE → CLOSED; workerclaims zijn niet als controllerclaim hergebruikt; geen fasewrites na rolwissel; contexten en NEXT_ACTION-routes volgen BRONS, ZILVER, GOUD; GOUD-rapport en integratievoorstel bestaan.
+- Commit: `1c3bb20c1eb926a775f3609cb93eacf973a0c97c`.
+- Resultaat: `PASS`.
+
+## Test B — ontbrekende sentinel
+
+- Fixture: scenario B in `fixture.json`.
+- Verwacht: transition blokkeert zonder context, READY-state of prompt.
+- Feitelijk: ontbrekende sentinel gedetecteerd; alle drie vervolgacties bleven uit.
+- Commit: `1c3bb20c1eb926a775f3609cb93eacf973a0c97c`.
+- Resultaat: `PASS`.
+
+## Test C — ongeldige source-ID
+
+- Fixture: kandidaat SYN-003 met `SRC-MISSING-999`.
+- Verwacht: transition blokkeert.
+- Feitelijk: bron-ID ontbreekt uit de synthetische source registry en de overgang is geblokkeerd.
+- Commit: `1c3bb20c1eb926a775f3609cb93eacf973a0c97c`.
+- Resultaat: `PASS`.
+
+## Test D — state/event-desynchronisatie
+
+- Fixture: scenario D in `fixture.json`.
+- Verwacht: DESYNC/TRANSITION_BLOCKED en geen opvolgercontext.
+- Feitelijk: `BRONS_COMPLETE` tegenover laatste event `BRONS_CLAIMED` werd als desync gedetecteerd en geblokkeerd.
+- Commit: `1c3bb20c1eb926a775f3609cb93eacf973a0c97c`.
+- Resultaat: `PASS`.
+
+## Test E — stale handoff en stale NEXT_ACTION
+
+- Fixture: scenario E in `fixture.json`.
+- Verwacht: GitHub-state wint; stale ZILVER-chat claimt niet wanneer NEXT_ACTION GOUD noemt; hashmismatch stopt worker.
+- Feitelijk: alle drie situaties leverden de vereiste GitHub-first uitkomst en stop op.
+- Commit: `1c3bb20c1eb926a775f3609cb93eacf973a0c97c`.
+- Resultaat: `PASS`.
+
+## Test F — write-scope en ongesloten workerclaim
+
+- Fixture: scenario F in `fixture.json`.
+- Verwacht: controller mag fase-output niet wijzigen; geen claimhergebruik; ACTIVE of onvolledig gesloten predecessor blokkeert; commitmismatch blokkeert.
+- Feitelijk: alle vijf verboden situaties zijn geweigerd.
+- Commit: `1c3bb20c1eb926a775f3609cb93eacf973a0c97c`.
+- Resultaat: `PASS`.
+
+## Test G — oud protocol
+
+- Fixture: scenario G zonder post_completion-pin.
+- Verwacht: oud proces; geen inline transition.
+- Feitelijk: fallback naar oud proces geselecteerd en inline transition geweigerd.
+- Commit: `1c3bb20c1eb926a775f3609cb93eacf973a0c97c`.
+- Resultaat: `PASS`.
+
+## Test H — GOUD-rapportkwaliteit
+
+- F
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=786 path=pipeline/tests/results/PIPELINE_HANDOFF_SMOKE_001_RESULT.md blob_sha=82e1b743bf6d4869da6a142596ce7189caae6789 original_offset=4096 original_length=2784 payload_bytes=2784 chunk_index=1 chunk_count=2 classification=text
+ixture: `GOUD/MARK_FINAL_REPORT.md`.
+- Verwacht: zelfstandig rapport met eindantwoord, status, kandidaten, afwijzingen, onzekerheden, vervolg, integratie, technische controle, artifacts en afsluiting.
+- Feitelijk: alle verplichte rapportsecties en `END_OF_ARTIFACT` aanwezig.
+- Commit: `1c3bb20c1eb926a775f3609cb93eacf973a0c97c`.
+- Resultaat: `PASS`.
+
+## Test I — chat-versus-commit-pariteit
+
+- Fixture: `GOUD/MARK_FINAL_REPORT.md` en `GOUD/CHAT_OUTPUT.txt`.
+- Verwacht: inhoud exact gelijk na verwijdering van toegestane wrapper en slotroutering.
+- Feitelijk: byte-inhoud na normalisatie exact gelijk.
+- Commit: `1c3bb20c1eb926a775f3609cb93eacf973a0c97c`.
+- Resultaat: `PASS`.
+
+## Test J — concurrerende sessies en claimrace
+
+- Fixture: scenario J in `fixture.json`.
+- Verwacht: eerste claim geaccepteerd; tweede geweigerd; bij twee metaalclaims exact één winnaar; nieuwe claim alleen op actuele state.
+- Feitelijk: alle vier race-uitkomsten conform protocol.
+- Commit: `1c3bb20c1eb926a775f3609cb93eacf973a0c97c`.
+- Resultaat: `PASS`.
+
+## Test K — transitioncommit-drift
+
+- Fixture: scenario K in `fixture.json`.
+- Verwacht: predecessorcommit-mismatch blokkeert; statewijziging zonder event geeft NEXT_ROLE_READY NO; claim/transitioncommit-mismatch geeft geen handoff.
+- Feitelijk: alle drie driftgevallen geblokkeerd.
+- Commit: `1c3bb20c1eb926a775f3609cb93eacf973a0c97c`.
+- Resultaat: `PASS`.
+
+## Test L — deterministische canonieke integratie
+
+- Fixture: `fixture_registry_before.jsonl`, `fixture_registry_after.jsonl`, fixture-decisionsbestanden en integratievoorstel.
+- Verwacht: alleen technische artifactpad-/bestaande LOCATION_ID-integratie; geen A/B/C-wijziging, adviserend label, nieuw decision-ID of nieuwe beslistekst; beslisafhankelijke wijziging blijft uit.
+- Feitelijk: alleen `artifact_path` veranderde; LOCATION_ID's bleven uniek; formele statussen en decisions bleven identiek; verboden writes zijn geblokkeerd; `mark_decision_required: YES` zichtbaar.
+- Commit: `1c3bb20c1eb926a775f3609cb93eacf973a0c97c`.
+- Resultaat: `PASS`.
+
+## Test M — productiepoort
+
+- Fixture: scenario M en synthetische `run.yaml`.
+- Verwacht: echte run geblokkeerd vóór geldig resultaat; alleen SYNTHETIC_TEST-uitzondering toegestaan; NO blokkeert; YES opent pas na merge.
+- Feitelijk: alle poorttoestanden conform specificatie. De productiepoort wordt pas na merge operationeel.
+- Commit: `1c3bb20c1eb926a775f3609cb93eacf973a0c97c`.
+- Resultaat: `PASS`.
+
+## Samenvatting A–M
+
+- A: PASS
+- B: PASS
+- C: PASS
+- D: PASS
+- E: PASS
+- F: PASS
+- G: PASS
+- H: PASS
+- I: PASS
+- J: PASS
+- K: PASS
+- L: PASS
+- M: PASS
+
+SMOKE_TEST_STATUS: PASS
+
+PRODUCTION_READY: YES
+
+Geen productiesweep gestart. De bestaande corridor-run blijft op haar oude gepinde schema-v2-proces.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=787 path=pipeline/validators/validate_decisions.py blob_sha=70d9282f986e6af9590a1143797b1c6d55042134 original_offset=0 original_length=3365 payload_bytes=3365 chunk_index=0 chunk_count=1 classification=text
+#!/usr/bin/env python3
+"""Validate decision IDs, files and DECISION-* references.
+
+No third-party dependencies. Exit 0 on success, non-zero on any collision,
+missing indexed file, unindexed decision file, ID/path mismatch or dangling
+DECISION reference.
+"""
+
+from __future__ import annotations
+
+import re
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+DECISIONS_DIR = ROOT / "decisions"
+INDEX_PATH = DECISIONS_DIR / "INDEX.yaml"
+ID_RE = re.compile(r"DECISION-\d{4}")
+FRONTMATTER_ID_RE = re.compile(r"^id:\s*(DECISION-\d{4})\s*$", re.MULTILINE)
+INDEX_ENTRY_RE = re.compile(
+    r"^\s*- id:\s*(DECISION-\d{4})\s*$\n"
+    r"^\s+path:\s*([^\n]+)\s*$",
+    re.MULTILINE,
+)
+
+
+def fail(errors: list[str]) -> int:
+    for error in errors:
+        print(f"ERROR: {error}", file=sys.stderr)
+    return 1
+
+
+def main() -> int:
+    errors: list[str] = []
+    if not INDEX_PATH.is_file():
+        return fail([f"missing {INDEX_PATH.relative_to(ROOT)}"])
+
+    index_text = INDEX_PATH.read_text(encoding="utf-8")
+    entries = INDEX_ENTRY_RE.findall(index_text)
+    if not entries:
+        return fail(["decisions/INDEX.yaml contains no parseable entries"])
+
+    ids = [decision_id for decision_id, _ in entries]
+    paths = [path.strip().strip('"\'') for _, path in entries]
+
+    for decision_id in sorted(set(ids)):
+        if ids.count(decision_id) > 1:
+            errors.append(f"duplicate index ID {decision_id}")
+    for path in sorted(set(paths)):
+        if paths.count(path) > 1:
+            errors.append(f"duplicate index path {path}")
+
+    indexed_by_id = dict(zip(ids, paths, strict=False))
+    indexed_paths = set(paths)
+
+    disk_files = sorted(DECISIONS_DIR.glob("DECISION-*.md"))
+    disk_paths = {str(path.relative_to(ROOT)) for path in disk_files}
+
+    for decision_id, relative_path in indexed_by_id.items():
+        path = ROOT / relative_path
+        if not path.is_file():
+            errors.append(f"{decision_id} points to missing file {relative_path}")
+            continue
+        text = path.read_text(encoding="utf-8")
+        match = FRONTMATTER_ID_RE.search(text)
+        if not match:
+            errors.append(f"{relative_path} has no frontmatter id")
+        elif match.group(1) != decision_id:
+            errors.append(
+                f"{relative_path} frontmatter ID {match.group(1)} != index ID {decision_id}"
+            )
+
+    for relative_path in sorted(disk_paths - indexed_paths):
+        errors.append(f"unindexed decision file {relative_path}")
+    for relative_path in sorted(indexed_paths - disk_paths):
+        errors.append(f"indexed decision file missing from disk {relative_path}")
+
+    known_ids = set(ids)
+    for path in disk_files:
+        text = path.read_text(encoding="utf-8")
+        own_match = FRONTMATTER_ID_RE.search(text)
+        own_id = own_match.group(1) if own_match else None
+        for referenced_id in sorted(set(ID_RE.findall(text))):
+            if referenced_id == own_id:
+                continue
+            if referenced_id not in known_ids:
+                errors.append(
+                    f"{path.relative_to(ROOT)} references unknown {referenced_id}"
+                )
+
+    if errors:
+        return fail(errors)
+
+    print(f"OK: {len(ids)} unique decisions; all files and references valid")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=788 path=places/PLACE-0001-babaji-cave-dunagiri.md blob_sha=754a7c075640a262e207e2516de18012c55434ed original_offset=0 original_length=2148 payload_bytes=2148 chunk_index=0 chunk_count=1 classification=text
+---
+id: PLACE-0001
+name: "Babaji's Cave (Dunagiri)"
+type: ["grot", "gebeurtenisplek"]
+status: ONGEMERKT
+decided_by_decision: null
+visitable: yes
+access: ["restricted", "seasonal"]
+axis: ["kriya-lijn"]
+detected_by: ["PERSON-0001", "PERSON-0002"]
+sources: ["SOURCE-0001", "SOURCE-0002"]
+audits: []
+decisions: []
+location:
+  region: "Kumaon, Uttarakhand"
+  nearest_town: "Dwarahat / Kukuchina"
+  coordinates: ""
+created_by: "Claude"
+created_at: "2026-06-22"
+---
+
+# Babaji's Cave (Dunagiri)
+
+## Wat is deze plek
+Een grot op de Dunagiri-berg boven het gehucht Kukuchina, op ongeveer vijfentwintig kilometer van het stadje Dwarahat in de Kumaon-regio van Uttarakhand. De Yogoda Satsanga Society heeft op de plek een gedenkschrijn opgericht, het Babaji Smriti Bhavan, dat de plek van de overlevering markeert.
+
+## Waarom relevant
+Volgens de overlevering is dit de plek waar Mahavatar Babaji in het jaar achttienhonderdeenenzestig Lahiri Mahasaya opnieuw inwijdde in Kriya Yoga: de grondsteen van de hele Kriya-lijn waartoe Mark behoort. De plek wordt aangewezen door twee detectoren: Lahiri Mahasaya (PERSON-0001), die hier de inwijding ontving, en Mahavatar Babaji (PERSON-0002), die hier verscheen.
+
+## Wat is hier te zien
+De grot zelf, de gedenkschrijn Babaji Smriti Bhavan op het inwijdingspunt, en het omliggende berglandschap. Het nabijgelegen Yogoda Satsanga-ashram bij Dwarahat dient als uitvalsbasis.
+
+## Toegang en bezoekbaarheid
+Bereikbaar via een steile wandeling van ongeveer een uur vanaf Kukuchina; de laatste ruwe twee kilometer over de weg vragen een terreinwagen. De grot en schrijn zijn primair bedoeld voor meditatie door leerlingen van de Yogoda Satsanga Society en de Self-Realization Fellowship; dagbezoek aan het ashram en ochtend- en avondmeditaties zijn open voor niet-leden, overnachten in het ashramgebouw niet. De heen- en terugtocht duurt ongeveer vijf uur. De maanden december tot februari zijn streng koud in dit gebied: reken op kou, korte dagen en een mogelijk gladde klim.
+
+## Open punten
+Exacte coördinaten nog toe te voegen. Precieze toegangsvoorwaarden tot de grotschrijn voor niet-leden ter plaatse te verifiëren.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=789 path=research/README.md blob_sha=5e0426b822a64e53dbb5b34da73f7070f08f0055 original_offset=0 original_length=1083 payload_bytes=1083 chunk_index=0 chunk_count=1 classification=text
+# Research runs
+
+## Structuur
+
+```text
+research/
+  active/
+    <run-id>/
+      run.yaml
+      state.yaml
+      events.jsonl
+      scope.md
+      context/
+      BRONS/
+      ZILVER/
+      GOUD/
+  completed/
+    <run-id>/
+```
+
+Iedere run is geïsoleerd. Een rol leest nooit automatisch andere active of completed runs. Gerelateerde eerdere onderzoeken worden alleen zichtbaar wanneer het fase-contextmanifest ze expliciet noemt.
+
+## Overdracht
+
+BRONS, ZILVER en GOUD schrijven hun eigen volledige fase-output in hun eigen map. De volgende rol leest deze output via het gepinde contextmanifest. Mark hoeft geen rapport tussen chats te kopiëren.
+
+## Archief
+
+Na verwerking van GOUD door de regisseur wordt de run naar `completed/` verplaatst. Git-geschiedenis is de onveranderlijke historie; er worden geen overbodige duplicaat-historymappen gemaakt.
+
+## Groottegrens
+
+Geen primair Markdown- of JSONL-bestand boven 1500 regels. Splits kandidaten, claims of bronnen in genummerde delen wanneer nodig en laat `INDEX.md` of het manifest de verplichte volgorde vastleggen.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=790 path=research/active/BRAJ-COMPLETE-001/BRONS/COMPLETED blob_sha=a8033833068ec7ac28e77cf2c1552eb8f2b0be0a original_offset=0 original_length=1441 payload_bytes=1441 chunk_index=0 chunk_count=1 classification=text
+PARTIAL
+run_id: BRAJ-COMPLETE-001
+role: BRONS
+source_commit: ed9e0cb3b9b97c069c063900a05de9b3b53c1d47
+candidate_counts:
+  existing_canonical: 8
+  temporary_new: 21
+  total: 29
+outputs:
+  - manifest.yaml
+  - report/INDEX.md
+  - report/01_scope_and_counts.md
+  - report/02_vrindavan_mathura.md
+  - report/03_govardhan.md
+  - report/04_gokul_mahavan.md
+  - report/05_barsana_nandgaon.md
+  - report/06_detectors_and_outside_list.md
+  - report/07_clusters_and_proximity.md
+  - report/08_uncertainties_conflicts_duplicates.md
+  - report/09_conclusion_and_gate.md
+  - claims.jsonl
+  - sources/registry.jsonl
+  - sources/rejected.jsonl
+  - images.jsonl
+  - experience_reviews.jsonl
+  - proximity.jsonl
+  - place_candidates.jsonl
+  - audit.md
+  - handoff.yaml
+highest_gaps:
+  - Ten-function image dossiers missing for all 29 candidates.
+  - Systematic recent review and experience analysis incomplete.
+  - Current visitability and participation rules incomplete.
+  - Institutional identity unresolved for multiple distributed and small objects.
+  - Current A-anchor travel-time matrix not established.
+validation: All required artifacts were reopened; END_OF_ARTIFACT sentinels were checked; identifiers and source references are unique and valid; all six core areas were treated; no formal or advisory A/B/C was assigned; no PARELS, successor context, controller transition, route, hotel or pipeline architecture work was performed.
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=791 path=research/active/BRAJ-COMPLETE-001/BRONS/audit.md blob_sha=80792492c46910a6b318482f22503b6011dc8f9b original_offset=0 original_length=2758 payload_bytes=2758 chunk_index=0 chunk_count=1 classification=text
+# BRONS audit — BRAJ-COMPLETE-001
+
+## Technical integrity
+- GitHub read and write were tested before content work; temporary write-test file was created and removed.
+- `NEXT_ACTION.yaml`, run, BRONS route, expected state and contextmanifest matched.
+- State and eventlog were synchronized at EVT-0001 before claim; no active claim existed.
+- All 24 required context files were fully read and every pinned blob SHA matched exactly.
+- No forbidden file was opened or modified.
+- Completed Vrindavan predecessor artifacts remained immutable.
+
+## Scope control
+- All six core areas were researched as one Braj cluster.
+- Existing canonical candidates: 8.
+- Temporary new candidates: 21.
+- Total candidate records: 29.
+- Formal A statuses for IND-PLACE-000001 and IND-PLACE-000002 were preserved.
+- No formal or advisory A/B/C was assigned.
+- PARELS, ARUNACHALA and KUMAON were not activated.
+- No hotel, final route, nights or pipeline architecture work was performed.
+
+## Claim and source integrity
+- Claims BC-001 through BC-032 are unique.
+- Accepted source IDs BS-001 through BS-017 are unique.
+- Rejected source IDs BR-001 through BR-006 are unique.
+- Every claim source reference resolves to exactly one accepted or rejected source record.
+- Reviews and images are not used as historical or supernatural evidence.
+- Tradition and lineage confirmation are treated as separate valid domains.
+- Weak discovery sources carry no positive core claim.
+
+## Candidate and boundary audit
+- Radha Kund and Shyam Kund remain separate.
+- Govardhan Hill and Govardhan Parikrama remain separate.
+- NKB samadhi remains nested in the ashram complex.
+- Nidhivan internal shrines remain one grove/complex candidate in BRONS.
+- Gokul and Mahavan house-place aliases remain OPEN rather than forcibly merged.
+- New places use temporary BRJ-TMP IDs; canonical registry and next-place metadata were not mutated.
+
+## Layer status
+- Physical identity: broad but several new candidates require ZILVER primary verification.
+- Institution: OPEN for multiple distributed and small objects.
+- History/tradition/lineage: useful BRONS coverage; high-risk/dragging claims require ZILVER verification.
+- Devotional practice and participation: described at first-pass level; detailed etiquette often open.
+- Experience/reviews/images: OPEN/HIGH due incomplete systematic review and ten-image dossiers.
+- Visitability/practicality: OPEN/HIGH; exact current regimes largely unavailable.
+- Proximity/cluster effect: cluster hypotheses recorded; current travel-time matrix missing.
+
+## Quality-gate result
+Technical and scope integrity: PASS.
+Content release status: PARTIAL because image, review, visitability, institution and travel-time layers remain materially incomplete.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=792 path=research/active/BRAJ-COMPLETE-001/BRONS/claims.jsonl blob_sha=13c3ffe55cd3a4dd5a5cc9878e403c15213a7bd3 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+{"claim_id":"BC-001","candidate_id":"IND-PLACE-000001","claim_type":"OVERLAY_RELATION","claim_text":"Katyayani Peeth/Keshav Ashram is the current official Vrindavan institution carrying the Keshavanand-Lahiri lineage and is project-confirmed for the AOAY/Kriya detector under Methodology v3.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["BS-001","BS-002","BS-003"],"project_confirmation":true,"notes":"Exact historical edition/perimeter detail is not required for project confirmation; no contradiction found."}
+{"claim_id":"BC-002","candidate_id":"IND-PLACE-000002","claim_type":"LINEAGE","claim_text":"Neem Karoli Baba Ashram and Samadhi in Vrindavan remains a specific physical lineage and samadhi complex.","evidence_status":"LINEAGE_CONFIRMED","source_ids":["BS-003"],"project_confirmation":true,"notes":"Current management and practical rules remain open."}
+{"claim_id":"BC-003","candidate_id":"IND-PLACE-000003","claim_type":"PHYSICAL_IDENTITY","claim_text":"Shri Krishna Janmabhoomi/Janmasthan is a current temple complex in Mathura associated by living tradition with Krishna's birth.","evidence_status":"TRADITION_CONFIRMED","source_ids":["BS-003","BS-014","BS-015"],"project_confirmation":true,"notes":"Historical and security layers remain separate."}
+{"claim_id":"BC-004","candidate_id":"IND-PLACE-000004","claim_type":"PHYSICAL_IDENTITY","claim_text":"Radha Kund is a distinct sacred-water candidate adjoining but not identical to Shyam Kund.","evidence_status":"TRADITION_CONFIRMED","source_ids":["BS-003","BS-009","BS-014"],"notes":"Candidate boundary preserved."}
+{"claim_id":"BC-005","candidate_id":"IND-PLACE-000005","claim_type":"PHYSICAL_IDENTITY","claim_text":"Shyam Kund is a distinct sacred-water candidate adjoining but not identical to Radha Kund.","evidence_status":"TRADITION_CONFIRMED","source_ids":["BS-003","BS-009","BS-014"],"notes":"Candidate boundary preserved."}
+{"claim_id":"BC-006","candidate_id":"IND-PLACE-000006","claim_type":"TRADITION","claim_text":"Govardhan Hill is a specific sacred landscape carried by the living Giriraj/Krishna tradition.","evidence_status":"TRADITION_CONFIRMED","source_ids":["BS-003","BS-009","BS-014"],"project_confirmation":true,"notes":"Traditional Krishna-lifting relation is not presented as classical history."}
+{"claim_id":"BC-007","candidate_id":"IND-PLACE-000007","claim_type":"LIVING_PRACTICE","claim_text":"Govardhan Parikrama is a physically traceable continuing pilgrimage circuit around the Govardhan sacred landscape.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["BS-003","BS-009","BS-014"],"notes":"Route remains separate from the hill."}
+{"claim_id":"BC-008","candidate_id":"IND-PLACE-000008","claim_type":"PHYSICAL_IDENTITY","claim_text":"Kusum Sarovar is a distinct sacred-water and heritage candidate within the Govardhan parikrama context.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["BS-003","BS-009","BS-014"],"notes":"Separate object-level recurring practice remains open."}
+{"claim_id":"BC-009","candidate_id":"BRJ-TMP-009","claim_type":"DEVOTIONAL_PURPOSE","claim_text":"Banke Bihari Temple is a current Radha-Krishna darshan temple linked to Swami Haridas and characterized by intense living public devotion.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["BS-004","BS-005","BS-016"],"project_confirmation":true,"notes":"Experience and current management controls are separately sourced."}
+{"claim_id":"BC-010","candidate_id":"BRJ-TMP-010","claim_type":"LINEAGE","claim_text":"Radha Raman Temple is a specific living Gaudiya Vaishnava temple associated with Gopala Bhatta Goswami and the Radha Raman deity.","evidence_status":"LINEAGE_CONFIRMED","source_ids":["BS-006"],"project_confirmation":true,"notes":"Current practical details require verification."}
+{"claim_id":"BC-011","candidate_id":"BRJ-TMP-011","claim_type":"PARTICIPATION","claim_text":"ISKCON Krishna-Balaram Mandir is an organized international Gaudiya institution offering public kirtan, darshan and devotional programs suitable for non-initiated foreign visitors.","eviden
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=793 path=research/active/BRAJ-COMPLETE-001/BRONS/claims.jsonl blob_sha=13c3ffe55cd3a4dd5a5cc9878e403c15213a7bd3 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+ce_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["BS-007"],"project_confirmation":true,"notes":"Exact current schedule must be rechecked."}
+{"claim_id":"BC-012","candidate_id":"BRJ-TMP-012","claim_type":"TRADITION","claim_text":"Nidhivan is a specific enclosed sacred grove and temple complex carried by the Radha-Krishna rasa-lila and Swami Haridas tradition.","evidence_status":"TRADITION_CONFIRMED","source_ids":["BS-004","BS-016"],"project_confirmation":true,"notes":"Nightly supernatural claims remain tradition claims only."}
+{"claim_id":"BC-013","candidate_id":"BRJ-TMP-013","claim_type":"LINEAGE","claim_text":"Radha Vallabh Temple is a specific living temple of the Radha Vallabh devotional tradition in Vrindavan.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["BS-015"],"notes":"Primary institutional verification required by ZILVER."}
+{"claim_id":"BC-014","candidate_id":"BRJ-TMP-014","claim_type":"LIVING_PRACTICE","claim_text":"Vishram Ghat is a current Yamuna ghat used for aarti, offerings and Mathura parikrama-related practice.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["BS-010","BS-015"],"project_confirmation":true,"notes":"Water safety and bathing remain practical checks."}
+{"claim_id":"BC-015","candidate_id":"BRJ-TMP-015","claim_type":"LINEAGE","claim_text":"Dwarkadhish Temple in Mathura is a specific living Krishna temple associated with the Pushtimarg/Vallabha tradition.","evidence_status":"INSTITUTIONALLY_CONFIRMED","source_ids":["BS-008","BS-015"],"project_confirmation":true,"notes":"Current schedule and visitor rules require recheck."}
+{"claim_id":"BC-016","candidate_id":"BRJ-TMP-016","claim_type":"TRADITION","claim_text":"Mansi Ganga is a specific sacred-water candidate in Govardhan with continuing parikrama and Krishna-devotional context.","evidence_status":"TRADITION_CONFIRMED","source_ids":["BS-009","BS-014"],"notes":"Object-level management and water quality open."}
+{"claim_id":"BC-017","candidate_id":"BRJ-TMP-017","claim_type":"LIVING_PRACTICE","claim_text":"Daan Ghati Temple is a specific active Govardhan parikrama stop centered on Giriraj/Krishna darshan and offerings.","evidence_status":"TRADITION_CONFIRMED","source_ids":["BS-009","BS-014"],"notes":"Institutional manager requires verification."}
+{"claim_id":"BC-018","candidate_id":"BRJ-TMP-018","claim_type":"DEVOTIONAL_PURPOSE","claim_text":"Jatipura Mukharvind is a distinct Giriraj worship place where devotees perform darshan and material offerings to Govardhan.","evidence_status":"TRADITION_CONFIRMED","source_ids":["BS-009","BS-014"],"project_confirmation":true,"notes":"Distinct from hill and route due to object-specific worship."}
+{"claim_id":"BC-019","candidate_id":"BRJ-TMP-019","claim_type":"TRADITION","claim_text":"Raman Reti is a specific sand-field and ashram-temple candidate carried by Krishna childhood-play tradition and continuing devotee participation.","evidence_status":"TRADITION_CONFIRMED","source_ids":["BS-014","BS-017"],"project_confirmation":true,"notes":"Institution and access require verification."}
+{"claim_id":"BC-020","candidate_id":"BRJ-TMP-020","claim_type":"PHYSICAL_IDENTITY","claim_text":"Chaurasi Khamba/Nand Bhavan in Mahavan is a specific pillared temple-house candidate associated by living tradition with Nanda, Yashoda and Krishna's childhood.","evidence_status":"TRADITION_CONFIRMED","source_ids":["BS-014","BS-017"],"notes":"Historical age and institutional identity open."}
+{"claim_id":"BC-021","candidate_id":"BRJ-TMP-021","claim_type":"TRADITION","claim_text":"Brahmand Ghat is a specific Yamuna ghat and shrine associated by living tradition with Yashoda seeing the universe in Krishna's mouth.","evidence_status":"TRADITION_CONFIRMED","source_ids":["BS-014","BS-017"],"project_confirmation":true,"notes":"Tradition claim, not historical documentation."}
+{"claim_id":"BC-022","candidate_id":"BRJ-TMP-022","claim_type":"PHYSICAL_IDENTITY","claim_text":"Gokulnath Temple/Nand-Yashoda Bhavan in Gokul is a specific living temple candidate distinct in principle from the Mahavan house tradition, but exact a
+<<< END CHUNK >>>
+

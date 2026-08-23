@@ -1,0 +1,330 @@
+>>> CHUNK stream_row=118 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/RAMAKRISHNA_PRE_COMPARE_FREEZE.md blob_sha=162d9c3198aef047eb6d5ec9a1842645ad91823f original_offset=69632 original_length=4096 payload_bytes=4096 chunk_index=17 chunk_count=19 classification=text
+prevent seeing it. The museum visit itself is RK-120. |
+| Sarvamangala temple viewed from carriage | A distant salute/sight does not prove entry at the temple. Not promoted without a direct visit account. |
+| Sonabere and Talamargo/Satkhira estate tour | GM directly supports presence, but these places are in present-day Bangladesh and therefore outside the India-only output. They must not be mislabelled West Bengal. |
+| Belur Math and Ramakrishna Temple | The institution/temple postdates his death. Lifetime presence on the later campus is independently supported only at the timber yard (RK-076); relic temple is separately `NEE` (RK-131). |
+| Baranagar Math, Alambazar Math, Udbodhan/Mayer Bari | Later institutions/residences of disciples or Sarada Devi. No lifetime personal-presence proof found for Ramakrishna at these later institutional premises. Baranagar temple visits are separate RK-062–066. |
+| Nabagopal Ghosh’s Howrah house | BM itinerary describes Vivekananda’s 1898 installation of Ramakrishna’s image, not Ramakrishna’s personal visit. Excluded. |
+| Dr. Mahendralal Sarkar’s house | GOS repeatedly has M visit the doctor; that is not evidence Ramakrishna went there. Excluded. |
+| Nabin Sen’s house | GOS wording concerns M/Baburam’s visit and discussion of Nilkantha; it does not prove Ramakrishna attended. Excluded. Nabin Niyogi’s performance house is RK-113. |
+| Dhani Kamarini’s later shrine/house claim | GM proves Dhani served as nurse and received first ceremonial alms, but the consulted account does not place the alms at her own house. No separate Dhani-house row; the domestic ceremony belongs to the family precinct unless a stronger source emerges. |
+| Lakshmijala paddy field | GM proves it was Kshudiram’s family plot; it does not independently prove the child’s first-ecstasy field was that parcel. The vision remains RK-012 `ALLEEN_PLAATS`. |
+| Current Star Theatre in Hatibagan | No automatic identity with the historic Beadon Street building used in 1884–85; RK-124/125 remain `DEELS`. |
+| Kamarpukur “last visit” year | GOS chronology and later biographical sequencing can be read differently (1875 versus 1880-era return). This freeze does not force a disputed terminal year; each site relies on presence, not on that chronology choice. |
+
+## Unresolved lead register
+
+The following are deliberately retained for a future identity-only pass, not used to invent additional locations:
+
+1. Resolve the three high-recall aggregate families: unnamed Jhamapukur shrine-houses (RK-029), unnamed Kamarpukur host households/workshops (RK-019/020), and unnamed Kashi/Vraja temples/hermit cells (RK-142/158).
+2. Use 1868 railway timetables and Rajendralal Bandyopadhyaya’s service records to identify RK-137.
+3. Reconstruct the two Kedar Ghat rentals, Raja Babu’s drawing room and the Chausatti Yogini-quarter house from Mathur estate papers/Hriday testimony.
+4. Check Kolkata municipal assessment rolls/deeds for Prankrishna, Captain Viswanath, Ishan/Bhudar, Ram Chandra Datta, Surendra, Adhar, Keshab, Devendra Majumdar, Nanda Bose, Golap Ma, Ganu’s mother, M., Shivanath, Rajmohan and the first Baghbazar sick-house.
+5. Field-map the official BM temple itinerary where names are generic (Baranagar market Kali; Baghbazar Jagannath) and distinguish historic fabric from later rebuilding.
+6. Gazetteer-match Kalaighat near Ranaghat and hydrographically reconstruct the Nabadwip shoals/landing.
+7. Search Bengali *Kathamrita* indexes and contemporary theatre advertisements for Nabin Niyogi’s village/house and the unidentified Ramlila venue.
+8. Verify whether the 1879 Keshab-house photograph room was Komal Kutir and whether the 1881 Bengal Photographers first-floor studio room survives.
+
+## Saturation statement
+
+**SATURATION: JA — discovery/corpus saturation, not physical-identity saturation.** The complete public *Great Master* text and all 52 public Gospel chapters were searched iteratively by place, host, travel, house, garden, ghat, temple, school, theatre, station, photo and adversarial false-positive patte
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=119 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/RAMAKRISHNA_PRE_COMPARE_FREEZE.md blob_sha=162d9c3198aef047eb6d5ec9a1842645ad91823f original_offset=73728 original_length=1057 payload_bytes=1057 chunk_index=18 chunk_count=19 classification=text
+rns; official RKM pilgrimage/place dossiers were then used as an independent miss-detector. The final adversarial pass added small network and route sites (Padmalochan’s garden, Konnagar landing, Vivekananda’s ancestral house, Rajmohan’s house), while repeat searches mainly returned already normalized places or other people’s locations. Remaining uncertainty is concentrated in historic parcel identity and unnamed aggregate premises, explicitly preserved above. No claim of all-address saturation is made.
+
+## Mechanical freeze counts
+
+Counts below are intended to be mechanically reproducible from the 175 `RK-` master rows and the `PHYSICAL_IDENTITY` column; negative-finding rows are excluded.
+
+- **Normalized master locations:** 175
+- **EXACT:** 55
+- **DEELS:** 52
+- **ALLEEN_PLAATS:** 30
+- **ONBEKEND:** 38
+- **PERSONALLY_PRESENT:** `JA` 172; `ONZEKER` 1; `NEE` 2
+
+**Freeze boundary:** PRE-COMPARE. No CCI comparison, internal-atlas comparison, reconciliation, A/B/C classification, route choice, cluster choice or merge has been performed.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=120 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/RAMANA_MAHARSHI_PRE_COMPARE_FREEZE.md blob_sha=688c0a64fcadf151a5a356355a41d2ee393e1792 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=10 classification=text
+# RAMANA MAHARSHI — PRE-COMPARE FREEZE
+
+**Run:** TOP11-PARALLEL-CHATGPT-SWEEP-001  
+**Persoon:** Ramana Maharshi (Venkataraman Iyer, 1879–1950)  
+**Freeze-type:** onafhankelijke externe blinde recall-sweep; geen interne atlas, kandidatenlijst of CCI-output geraadpleegd  
+**Geografische scope:** India  
+**Freeze-datum:** 2026-08-18
+
+## Resultaat in één oogopslag
+
+- Genormaliseerde masterlocaties: **103**.
+- `PERSONALLY_PRESENT`: **JA 100; ONZEKER 1; NEE 2**.
+- `PHYSICAL_IDENTITY`: zie de machinegetelde samenvatting na de tabel; de regels zijn afzonderlijk bevroren en niet geselecteerd op toeristische waarde.
+- `SATURATION`: **NEE**. De levensloop is geografisch uitzonderlijk begrensd en de hoofdchronologie, vlucht-/treinroute, alle bekende residenties, omloopstops en ashram-/foto-sublocaties zijn breed afgedekt. Toch bleven belangrijke recall-risico's bestaan: niet volledig doorzoekbare edities van *Day by Day*, de *Pictorial Biography* en vroege herinneringen; niet-openbare ashram-gastenregisters en foto-negatieven; naamloze bhiksha-deuren, bomen, rotsen, tuinen en routekampen; en ontbrekende kadastrale/school-/spoorhistorie.
+
+## Beslisregels
+
+- `EXACT`: de concrete structuur/feature is ondubbelzinnig geïdentificeerd en bestaat nog substantieel.
+- `DEELS`: de plek is goed gelokaliseerd, maar structuur, landschap, route of materiaal is vervangen, verbouwd of slechts gedeeltelijk continu.
+- `ALLEEN_PLAATS`: stad, dorp, instelling of routecorridor is bekend, niet het precieze huidige gebouw/punt.
+- `ONBEKEND`: de historische beschrijving is te vaag of de hedendaagse fysieke match is niet vastgesteld.
+- `PERSONALLY_PRESENT=JA` vereist afzonderlijk bewijs van een handeling, verblijf, passage of fotografische aanwezigheid. `ONZEKER` bewaart een concrete lead zonder dat nabijheid als aanwezigheid wordt opgewaardeerd. `NEE` is uitsluitend gebruikt voor directe postume levens-/lineageplekken.
+- Geen adres of coördinaat is geraden. De conflicterende straatnummers die online voor het Madurai-huis circuleren zijn bewust niet overgenomen.
+
+## Bronnenregister
+
+| Code | Bronfamilie | Type en locator |
+|---|---|---|
+| P1 | Arunachala Ashrama, **Life Timeline** | Semi-primair; chronologie en plaatsnamen: https://arunachala.org/sri-ramana-maharshi/ramana-maharshi-life-timeline/ |
+| P2 | Sri Ramanasramam/Arunachala Archives, **Life of Sri Ramana Maharshi** | Semi-primair, met eerste-persoonsmateriaal; vooral “Early Years”, “Journey”, “Life in Tiruvannamalai”, “Mother's Return”: https://archive.arunachala.org/ramana/life/ |
+| P3 | Arunachala Archives, **Sage of Arunachala** | Institutionele documentairetekst met route- en sitebeelden: https://archive.arunachala.org/docs/sage-oa/ |
+| P4 | Sri Ramanasramam, **Visiting Us** | Officiële huidige terreinbeschrijving en continuïteit: https://www.gururamana.org/Ashram/visiting-us |
+| P5 | Arunachala Ashrama, **Archival Films booklet** | Primair fotografisch/filmisch bewijs plus tijdcodes: https://archive.arunachala.org/docs/archival-films-booklet |
+| P6 | B.V. Narasimha Swami/S.S. Cohen, **Self-Realisation, Epilogue** | Vroege biografie/naaste getuige; ziekte, ashram en Tortoise Rock: https://archive.arunachala.org/docs/self-realization/epilogue |
+| P7 | Suri Nagamma, **Letters from Sri Ramanasramam**, ch.161 | Eerste-/nabije getuigenissen over giripradakshina-stops: https://archive.arunachala.org/docs/letters-fsr/ch-161 |
+| P8 | Suri Nagamma, **Letters**, ch.211 | Eerste-persoonsgesprek over Pachaiamman-verblijven en kookkamers: https://archive.arunachala.org/docs/letters-fsr/ch-211 |
+| P9 | B.V. Narasimhaswami’s interview notes, ed. David Godman | Bhagavans eigen herinneringen aan eerste voedsel en enige huisbezoek in Tiruvannamalai: https://www.davidgodman.org/more-of-b-v-narasimhaswamis-notes/ |
+| P10 | Sri Ramanasramam, **Ramana Maharshi timeline** | Institutionele reisnodes/stations: https://www.gururamana.org/Bhagavan/sri-ramana-maharshi-timeline |
+| P11 | Arunachala Archives, **May/Jun 2008 The Maharshi** | Nabije traditie over Ramana's Bridge: https://archive.ar
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=121 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/RAMANA_MAHARSHI_PRE_COMPARE_FREEZE.md blob_sha=688c0a64fcadf151a5a356355a41d2ee393e1792 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=10 classification=text
+unachala.org/newsletters/2008/may-jun |
+| P12 | Arunachala Archives, **Nov/Dec 2015 The Maharshi** | Devoteeherinnering aan top/Deepam-site en Seven Springs: https://archive.arunachala.org/newsletters/2015/nov-dec |
+| P13 | Arunachala Archives, **Mudaliar Patti** | Herinnering aan Seven Springs: https://www.archive.arunachala.org/sri-ramanasramam/mountain-path/mudaliar-patti |
+| P14 | Sri Ramanasramam, **Saranagati Sep. 2023** | Institutionele historische reconstructie van Kandaswami-hut/bron: https://www.sriramana.org/saranagati/September_2023/ |
+| P15 | Arunachala Archives, **Letters**, ch.23 | Eerste getuigenis cow Lakshmi/gosala: https://archive.arunachala.org/docs/letters-fsr/ch-023 |
+| P16 | David Godman, **Lakshmi the Cow**, p.5 | Redactionele transcriptie van primaire herinneringen aan Lakshmi's begrafenis: https://www.davidgodman.org/lakshmi-the-cow/5/ |
+| P17 | N. Balarama Reddy, **Recollections** | Nabije getuige, o.a. dagelijkse Palakothu-wandelingen: https://archive.arunachala.org/docs/recollections-nbr |
+| S1 | David Godman, **places where Ramana lived and taught** | Secundaire site-identificatie, o.a. Jubilee Hall: https://www.davidgodman.org/talks-at-various-places-where-ramana-maharshi-lived-and-taught/ |
+| S2 | Richard Clarke, **Ramana sites / Tortoise Rock / Bridge** | Secundaire huidige veldlokalisatie: https://richardarunachala.wordpress.com/guide-to-this-blog/ramana-maharshi-timeline-and-sites/ |
+
+## Genormaliseerde masterlocaties
+
+| ID | Fysieke locatie | Plaats + staat | Type | Wat Ramana daar deed; periode | PERSONALLY_PRESENT | PHYSICAL_IDENTITY | Host/netwerk | Primair/semi-primair bewijs | Historie, conflict en unresolved lead |
+|---|---|---|---|---|---|---|---|---|---|
+| R001 | Sri Sundara Mandiram (geboortehuis) | Tiruchuli, Tamil Nadu | privéhuis / huidige shrine | Geboren; familiehuis en jeugdverblijf, 1879–1891 | JA | EXACT | ouders Sundaram Iyer en Azhagammal | P1 1879; P3 geboorte/huisscène | Huidig als shrine beheerd; exacte geboortekamer wordt getoond. |
+| R002 | Bhuminatheswara–Sahayavalli-tempelcomplex | Tiruchuli, Tamil Nadu | tempelcomplex | Jeugdspel, lessen en familie-/feestcontext | JA | EXACT | lokale tempelpriesters | P1 1886; P3 begin | Overkoepelende complexregel; concrete sublocaties R003–R004 apart. |
+| R003 | Kalyana Mandapam naast de tempel | Tiruchuli, Tamil Nadu | tempelhal | Speelde er en kreeg er tijdelijk les, ca. 1886 | JA | EXACT | klasgenoten | P1 1886, letterlijk “classes … held there” | Hal is concreet; precieze leszone binnen de mandapam niet apart bekend. |
+| R004 | Achterzijde van het Sahayavalli-idool / sanctum | Tiruchuli, Tamil Nadu | sanctum-sublocatie | Verstopte zich hier na een berisping, ca. zes jaar oud | JA | EXACT | priester die hem vond | P1 1886 | Bewijs betreft expliciet “behind the idol”. |
+| R005 | Naamloze lagere school | Tiruchuli, Tamil Nadu | school | Voltooide lagere opleiding vóór 1891 | JA | ALLEEN_PLAATS | leraren/klasgenoten onbekend | P1 1891; P2 “Early Years” | Schoolnaam en historisch gebouw ontbreken; mandapamlessen staan apart. |
+| R006 | Huis van familieleden | Dindigul, Tamil Nadu | privéhuis | Woonde bij verwanten tijdens schooljaar 1891–1892 | JA | ALLEEN_PLAATS | Dindigul-verwanten | P3 vroege jaren | Stad en functie bekend; geen adres of pandidentificatie. |
+| R007 | Dindigul Municipal High School | Dindigul, Tamil Nadu | school | Eerste form, ongeveer één jaar, 1891–1892 | JA | DEELS | schoolnetwerk | P3 vroege jaren; P1 noemt Dindigul-schooljaar | Historische instelling benoemd; continuïteit van gebouw/perceel niet archiefmatig bevestigd. |
+| R008 | Sri Ramana Mandiram, voormalig huis van Subba Iyer | Madurai, Tamil Nadu | privéhuis / huidige shrine | Woonde er vanaf 1892; vertrok hieruit op 29 aug. 1896 | JA | EXACT | oom Subba Iyer en tante | P1 1892/1896; P2 “Leaving Home”; P6 slot | Online straatnummers conflicteren; alleen het institutioneel geïdentificeerde gebouw is bevroren. |
+| R009 | Eerste-verdiepingskamer in Sri Ramana Mandiram | Madurai, Tamil Nadu | kamer | Doodservari
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=122 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/RAMANA_MAHARSHI_PRE_COMPARE_FREEZE.md blob_sha=688c0a64fcadf151a5a356355a41d2ee393e1792 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=10 classification=text
+ng/zelfrealisatie, midden juli 1896 | JA | EXACT | alleen | P1 1896; P2 “Great Awakening”; P9 citeert Bhagavan | Kamerniveau expliciet: “first floor”. |
+| R010 | Scott’s Middle School | Madurai, Tamil Nadu | school | Ging hier naar school, vanaf 1892 | JA | DEELS | schoolnetwerk | P1 1892; P2 “Early Years” | Historische instelling zeker; huidig gebouw/sitecontinuïteit behoeft onderwijsarchief. |
+| R011 | American Mission High School | Madurai, Tamil Nadu | school | Latere middelbare opleiding tot vertrek in 1896 | JA | DEELS | leraren/medeleerlingen | P1 1892; P2 “Early Years” | Institutionele opvolging aannemelijk, historisch lesgebouw niet vastgesteld. |
+| R012 | Meenakshi–Sundareswarar-tempelcomplex | Madurai, Tamil Nadu | tempel | Bezocht na de realisatie dagelijks/iedere avond; gebed en extase, 1896 | JA | EXACT | tempelpriesters | P2 regels 121–123; P3 regels 95–96 | Complex bestaat; concrete devotiepunten in R013. |
+| R013 | Shiva-, Meenakshi-, Nataraja- en 63-Nayanmar-beelden | Madurai, Tamil Nadu | tempel-sublocaties | Stond voor deze beelden, bad en huilde van devotie, 1896 | JA | EXACT | — | P3 95–96; P2 123 | Bron benoemt meerdere beelden, niet steeds welk exact Nayanmar-beeld op welke avond. |
+| R014 | Madurai Junction | Madurai, Tamil Nadu | spoorstation | Liep erheen en nam de trein op 29 aug. 1896 | JA | DEELS | — | P2 137–138; P10 reisroute | Station continu, maar historisch perron/gebouw gewijzigd. |
+| R015 | Tiruchirappalli Junction | Tiruchirappalli, Tamil Nadu | spoorstation | Trein stopte bij schemer; kocht twee landperen, 29 aug. 1896 | JA | DEELS | fruitverkoper onbekend | P2 139 | Perron/kraam niet bekend; stationcontinuïteit wel. |
+| R016 | Villupuram Junction | Villupuram, Tamil Nadu | spoorstation | Stapte ca. 03:00 uit; keerde terug en kocht ticket, 30 aug. 1896 | JA | DEELS | maulvi onderweg | P2 138–141; P10 | Historisch gebouw/perron niet vastgesteld. |
+| R017 | Naamloos hotel/eethuis | Villupuram, Tamil Nadu | hotel / restaurant | Wachtte tot de maaltijd klaar was, at; eigenaar weigerde betaling, 30 aug. 1896 | JA | ONBEKEND | naamloze eigenaar | P2 140–141; P3 108 | Geen naam, adres of huidige match. |
+| R018 | Mambalapattu railway station | Mambalapattu, Tamil Nadu | spoorstation | Stapte uit en begon te voet verder te gaan, 30 aug. 1896 | JA | DEELS | — | P2 142; P10 | Station-/haltecontinuïteit, historisch perron onbekend. |
+| R019 | Wandelcorridor Mambalapattu–Arayaninallur/Tirukoilur | Viluppuram/Kallakurichi-regio, Tamil Nadu | voet-/spoorroute | Liep circa tien mijl richting Tiruvannamalai | JA | ALLEEN_PLAATS | — | P2 142; P3 109 | Bron wisselt tussen spoorlijn/weg; geen exact trace bevroren. |
+| R020 | Atulyanatheswarar-tempel, pillared hall | Arayaninallur, Tamil Nadu | tempelhal | Wachtte, mediteerde en zag een allesdoordringend licht, avond 30 aug. 1896 | JA | EXACT | priesters/tempelkok | P2 142–143; P3 109–111 | Ook als Arakandanallur/Arayaninallur gespeld. |
+| R021 | Sri Viratteswarar-tempel | Kilur/Keelur bij Tirukoilur, Tamil Nadu | tempel | Volgde priesters, ging in samadhi en kreeg het aandeel voedsel van de drummer | JA | EXACT | tempeldrummer | P2 143–144; P3 111–114 | Concrete tempel; exacte plek van zitten binnen complex niet beschreven. |
+| R022 | Naamloos huis van een Sastri | Kilur/Keelur, Tamil Nadu | privéhuis | Ging voor water; viel flauw, at en sliep, nacht 30–31 aug. 1896 | JA | ONBEKEND | naamloze Sastri / omstanders | P2 144; P3 114 | “At some distance”; geen naam/adres. |
+| R023 | Huis van Muthukrishna Bhagavatar | Tirukoilur/Kilur, Tamil Nadu | privéhuis | Kreeg voedsel, verpandde oorbellen en ontving Gokulastami-snoep, 31 aug. 1896 | JA | DEELS | Muthukrishna Bhagavatar en echtgenote | P2 145–148; P3 115–117 | Institutionele documentaire identificeert “this house”, maar bouwkundige continuïteit is niet onafhankelijk vastgesteld. |
+| R024 | Tirukoilur railway station | Tirukoilur, Tamil Nadu | spoorstation | Wachtte/sliep er ’s nachts en nam ochtendtrein, 31 aug.–1 sep. 1896 | JA 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=123 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/RAMANA_MAHARSHI_PRE_COMPARE_FREEZE.md blob_sha=688c0a64fcadf151a5a356355a41d2ee393e1792 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=10 classification=text
+| DEELS | — | P3 117; P10 | Historisch stationsgebouw/perron kan gewijzigd zijn. |
+| R025 | Tiruvannamalai railway station | Tiruvannamalai, Tamil Nadu | spoorstation | Arriveerde per trein op 1 sep. 1896 | JA | DEELS | — | P2 152–153; P10 | Station continu, historische aankomstplek niet exact. |
+| R026 | Garbhagriha/inner shrine van Arunachaleswarar en Apeethakuchamba | Tiruvannamalai, Tamil Nadu | sanctum | Ging rechtstreeks naar binnen en “meldde” zijn aankomst aan Arunachala, 1 sep. 1896 | JA | EXACT | — | P1 1896; P2 153; P5/May-Jun-2008 transcript | Fysiek sanctum exact; uitzonderlijke open deuren zijn historisch evenement. |
+| R027 | Ayyankulam Tank en trappen | Tiruvannamalai, Tamil Nadu | tank / openbare ruimte | Liet hoofd scheren; wierp geld, snoep, kleding en draad weg, 1 sep. 1896 | JA | EXACT | onbekende kapper | P1 1896; P2 155–156; P3 119–120 | Tank exact; precieze traptrede/kapperplek niet. |
+| R028 | Thousand-Pillared Hall | Arunachaleswarar-tempel, Tiruvannamalai | tempelhal | Eerste residentie; zat/wekenlang mediteerde, 1896 | JA | EXACT | Mouna Swami/Seshadri Swami | P1 1896; P2 157–162; P3 121 | Eerste bhiksha gebeurde tijdens rondgaan in deze hal (P9). |
+| R029 | Patala Lingam, zuidoostelijke ondergrondse cel | Arunachaleswarar-tempel, Tiruvannamalai | ondergrondse shrine | Zat wekenlang in absorptie; werd er lichamelijk uitgedragen, 1896 | JA | EXACT | Seshadri Swami en redders | P1 35–36; P2 161–162; P3 124–128 | Zeer concrete sublocatie; huidige shrine bewaart plek. |
+| R030 | Gopura Subrahmanya Shrine | Arunachaleswarar-tempel, Tiruvannamalai | shrine | Verbleef circa twee maanden; ontving vroege bhiksha, 1896 | JA | EXACT | Mouna Swami | P1 38; P9 70–77 | Ook Subrahmanyeswara gespeld. |
+| R031 | Aangrenzende bloementuin | Arunachaleswarar-tempel, Tiruvannamalai | historische tuin | Verplaatste verblijf hierheen, 1896–1897 | JA | DEELS | Uddandi Nayinar | P1 39; P3 129 | Historische tuinzone binnen complex; aanleg is veranderd. |
+| R032 | Bananenbos/banana grove | Arunachaleswarar-tempel, Tiruvannamalai | historische tuin | Verbleef er tijdelijk, 1896–1897 | JA | ALLEEN_PLAATS | — | P1 39 | Alleen tempelcomplex als plaats; exacte vroegere grove niet gematcht. |
+| R033 | Kamer waar tempelwagens/floats werden opgeslagen | Arunachaleswarar-tempel, Tiruvannamalai | opslagkamer | Verbleef er soms, 1896–1897 | JA | ONBEKEND | tempelnetwerk | P1 39 | Geen huidige kamermatch; “large floats” kan vertaal-/functiewissel bevatten. |
+| R034 | Grote historische Illupai-boom | Arunachaleswarar-tempel, Tiruvannamalai | boom / open plek | Zat eronder, 1896–1897 | JA | ONBEKEND | — | P1 40 | Niet gelijkgesteld aan de huidige 400-jarige ashram-Iluppai; geen keten van identiteit. |
+| R035 | Mangai Pillayar Shrine | Arunachaleswarar-tempel, Tiruvannamalai | Ganesha-shrine | Zat/verbleef er, 1896–1897 | JA | EXACT | Uddandi Nayinar | P1 40 | Naam en shrine concreet. |
+| R036 | Huis van grootvader T.P. Ramachandra Iyer, nabij tempelwagen | Tiruvannamalai, Tamil Nadu | privéhuis | Werd meegenomen en at op noordelijke veranda; enige huis dat hij na aankomst binnenging, 1896 | JA | ONBEKEND | grootvader T.P. Ramachandra Iyer | P9 79–101 | Ruim huis, veranda’s en Tulasi-binnenhof beschreven; geen naam/adres/huidig pand. |
+| R037 | Gurumurtam Shrine | Tiruvannamalai, Tamil Nadu | shrine / residentie | Woonde hier circa feb. 1897–mei 1898 | JA | EXACT | Annamalai Tambiran; Palaniswami | P1 43–45; P2 164–166; P3 131–138 | Bestaande concrete shrine. |
+| R038 | Aangrenzende mango-orchard bij Gurumurtam | Tiruvannamalai, Tamil Nadu | boomgaard / privéterrein | Woonde hier circa zes maanden vanaf mei 1898 | JA | DEELS | eigenaar van boomgaard; Palaniswami | P1 45–46; P3 137–142 | P3 meldt bomen gekapt en land later rijstveld; site wel traditioneel geïdentificeerd. |
+| R039 | Arunagirinathar Temple | Tiruvannamalai, Tamil Nadu | tempel | Woonde ongeveer één maand, 1898 | JA | EXACT | Palaniswami | P1 47; P3 142 | Concrete tempel. |
+| R040 | Eén niet benoemde toren
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=124 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/RAMANA_MAHARSHI_PRE_COMPARE_FREEZE.md blob_sha=688c0a64fcadf151a5a356355a41d2ee393e1792 original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=10 classification=text
+ van de grote Arunachaleswarar-tempel | Tiruvannamalai, Tamil Nadu | tempeltoren | Verbleef circa één week, 1898 | JA | ONBEKEND | — | P1 47 | Welke gopuram/toren blijft unresolved. |
+| R041 | Alari-/oleandertuin | Arunachaleswarar-tempel, Tiruvannamalai | historische tuin | Verbleef er kort, 1898 | JA | ONBEKEND | — | P1 47 | Geen actuele tuinsublocatie bevestigd. |
+| R042 | Pavalakunru Iswara Temple | Pavalakunru, Tiruvannamalai, Tamil Nadu | heuveltempel / residentie | Woonde er vanaf sep. 1898; ontmoeting met moeder in dec. | JA | EXACT | moeder Azhagammal; Nagaswami | P1 48–49; P2 168–170; S1 | Tempel exact; verblijf wordt soms als gehele mutt/tempelzone beschreven. |
+| R043 | Rotsige top/steile toegang van Pavalakunru | Pavalakunru, Tiruvannamalai, Tamil Nadu | heuvelsublocatie | Leefde op de uitloper; liep weg/terug tijdens moeders smeekbeden | JA | DEELS | familie/devotees | P3 142–145; S1 | Huidige trappen en aanleg kunnen later zijn; bron identificeert uitloper, niet elke stap. |
+| R044 | Satguru Swami Cave / Alamarathu Guhai | Arunachala, Tiruvannamalai, Tamil Nadu | grot | Kort verblijf in vroege heuvelperiode, 1899 | JA | EXACT | Palaniswami | P1 53–55 | Naamvariant bevroren als alias van één grot. |
+| R045 | Guhai Namasivaya Cave/Temple compound | Arunachala, Tiruvannamalai, Tamil Nadu | grot / shrine | Kort verblijf; ontving o.a. Sivaprakasam Pillai, ca. 1899–1902 | JA | EXACT | Sivaprakasam Pillai | P1 54; S1 | Institutioneel als concrete compound bewaard. |
+| R046 | Virupaksha Cave | Arunachala, Tiruvannamalai, Tamil Nadu | grot / residentie | Hoofdresidentie ongeveer 1899–1916; onderricht en schrijven | JA | EXACT | Palaniswami, Ganapati Muni, vroege discipelen | P1 54–60; P2 171–190; P4 108–109 | Grot behouden door ashram. |
+| R047 | Mango Tree Cave | Arunachala, Tiruvannamalai, Tamil Nadu | grot / zomerresidentie | Verbleef er in hete perioden tijdens Virupaksha-jaren | JA | EXACT | vroege ashramgroep | P1 55; P3 146–147 | Concrete nog bekende grot. |
+| R048 | Mulaipal Tirtham bij Mango Tree Cave | Arunachala, Tiruvannamalai, Tamil Nadu | bron / tirtha | Directe aanwezigheid is aannemelijk als nabijgelegen waterbron maar niet in de geraadpleegde kernregel afzonderlijk beschreven | ONZEKER | DEELS | — | P1 55 noemt nabijheid; P3 147 “perennial supply” | Niet op basis van nabijheid tot JA verheven; exacte historische waternameplek te verifiëren. |
+| R049 | Pachaiamman Koil, shrine-interieur | Tiruvannamalai, Tamil Nadu | tempel / residentie | Verbleef er zes maanden in 1905 en jan.–mrt. 1908; olie-baden | JA | EXACT | Ganapati Muni en groep | P1 70, 78; P6 152–159; P8 | P8 bevestigt dat hij toen in de shrine zelf leefde. |
+| R050 | Latere kookkamers van Pachaiamman Koil | Tiruvannamalai, Tamil Nadu | keuken-/verblijfsruimten | Tijdens een latere giripradakshina verbleef de groep hier, kookte en hield “housewarming” | JA | EXACT | Ganapati Muni/devotees | P8 | Kamers bestonden niet tijdens het vroege shrine-verblijf; daarom apart. |
+| R051 | Tortoise Rock / “tortoise slab” | Arunachala, Tiruvannamalai, Tamil Nadu | rots | Tweede doodservaring bij terugkeer van Pachaiamman, ca. 1912 | JA | DEELS | Vasudeva Sastri, Palaniswami | P1 90; P6 152–160; P8/Nagamma noemt zoekprobleem | Historische naam zeker; zelfs Nagamma kon exacte rots niet identificeren. Huidige traditie is secundair (S2). |
+| R052 | Skandashram | Arunachala, Tiruvannamalai, Tamil Nadu | hermitage / residentie | Woonde 1916–1922; onderricht, schrijven, zorg voor moeder | JA | EXACT | moeder, Chinnaswami, discipelen | P1 103–117; P2 179–182; P4 108–109 | Behouden door ashram. |
+| R053 | Moeders ziek-/sterfplek binnen Skandashram | Arunachala, Tiruvannamalai, Tamil Nadu | kamer/bedplek | Zat bij haar, hand op hart en hoofd tot haar dood, 19 mei 1922 | JA | DEELS | Azhagammal | P1 116; P2 181 | Gebeurtenis exact in Skandashram; huidige kamermatch niet volledig gedocumenteerd in webbron. |
+| R054 | Kandaswami-hut en rotsbron op plek van latere Skandashram | Arunachala, Tiruvannamalai, Tamil
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=125 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/RAMANA_MAHARSHI_PRE_COMPARE_FREEZE.md blob_sha=688c0a64fcadf151a5a356355a41d2ee393e1792 original_offset=20480 original_length=4096 payload_bytes=4096 chunk_index=5 chunk_count=10 classification=text
+ Nadu | historische hut/bron | Bezocht bron om te baden en verbleef ca. twee uur in hut vóór permanente verhuizing | JA | DEELS | Kandaswami | P14 | Hut opgegaan/vervangen door Skandashram; bron-/sitecontinuïteit gedeeltelijk. |
+| R055 | Seven Springs kamp-/rustplaats | Arunachala, Tiruvannamalai, Tamil Nadu | brongebied / rotskamp | Rustte/sliep hier tijdens topbeklimmingen en excursies | JA | DEELS | devoteegroepen | P12; P13 | Brongebied bekend, exacte slaaprots/plek kan verschillen. |
+| R056 | Arunachala-top en Karthigai Deepam-beacon site | Arunachala, Tiruvannamalai, Tamil Nadu | bergtop / rituele plek | Leidde een groep naar de top en wees de beaconplek; meer dan één beklimming | JA | EXACT | devoteegroepen | P12; Arunachala Archives 2011 May-Jun recollection | Top/beaconplek fysiek eenduidig; individuele rustpunten niet. |
+| R057 | Niet nader benoemd heuvelpad noordwest van Sri Ramanasramam | Tiruvannamalai, Tamil Nadu | wandel-/fotolocatie | Gefilmd wandelend met groep, nov./dec. 1938 | JA | ALLEEN_PLAATS | T.K. Sundaresa Iyer, Guy Hague, Krishnaswami | P5 116–127 | Film bewijst aanwezigheid; exact huidig segment niet uit beeldmetadata gereconstrueerd. |
+| R058 | Noordelijke heuveltrap en pad boven de ashram | Tiruvannamalai, Tamil Nadu | trap / wandelroute | Gefilmd klimmend en terugkerend, 1945 | JA | DEELS | Rangaswami, Taleyarkhan-groep | P5 142–145 | Route herkenbaar, aanleg/trappen kunnen gewijzigd zijn. |
+| R059 | Gewone stoprots vóór Gautama Ashram op inner path | Arunachala, Tiruvannamalai, Tamil Nadu | rots / rustplaats | Stopte hier gewoonlijk op de binnenroute | JA | ONBEKEND | Kunju Swami/devotees | Arunachala Archives, “Journey of My Heart”: https://archive.arunachala.org/newsletters/journey-of-my-heart | Herinnering is concreet maar rots is niet fysiek geïdentificeerd. |
+| R060 | Arunachala inner path | Tiruvannamalai, Tamil Nadu | voetroute | Wandelde binnendoor met discipelen; stopte vóór Gautama Ashram | JA | ALLEEN_PLAATS | Kunju Swami e.a. | idem R059; P6 Tortoise-returnroute | Historische paden vertakken/veranderen; geen integraal exact trace. |
+| R061 | Giripradakshina-/buitenomloop rond Arunachala | Tiruvannamalai, Tamil Nadu | pelgrimsroute | Liep de omloop vele malen, soms nachten/dagenlang, tot 1926 | JA | DEELS | talrijke devotees | P1 125; P7; officiële routecontext: https://www.gururamana.org/Arunachala/walking-around-the-hill | Historische route grotendeels continu maar wegprofiel en segmenten gewijzigd. |
+| R062 | Unnamulai Tank-rand | Girivalam route, Tiruvannamalai, Tamil Nadu | tank / rustpunt | Zat hier om achterblijvers te laten aansluiten | JA | EXACT | Kunju Swami-groep | P7, opening ch.161 | Benoemde tank; precieze zitsteen niet. |
+| R063 | Sona Tirtham | Girivalam route, Tiruvannamalai, Tamil Nadu | tirtha / kampstop | Passeerde; groepen kookten en kampeerden hier tijdens omlopen | JA | DEELS | Venamma/devotees | P7 | Tirtha bekend; historische kookplek niet afzonderlijk. |
+| R064 | Gautama Ashram | Girivalam route, Tiruvannamalai, Tamil Nadu | ashram / kampstop | Stopte, kookte, at en rustte er tijdens pradakshina | JA | EXACT | devoteegroepen | P7 | Concrete ashram; meermaals genoemd. |
+| R065 | “Venamma’s mango tree” en mango grove | Na Gautama Ashram, Tiruvannamalai, Tamil Nadu | boom/grove / kampstop | Stopte onder de boom, at Venamma’s voedsel; boom kreeg deze naam | JA | ONBEKEND | Venamma | P7 | Historische boom/grove niet hedendaags gelokaliseerd. |
+| R066 | Tank en boom aan zijpad vóór Adi Annamalai | Adi Annamalai, Tamil Nadu | tank / boom | Maakte omweg, zat onder boom en at drankspijs van oude boer | JA | ONBEKEND | naamloze oude boer | P7 | Ca. een halve furlong van hoofdweg; naam tank/boer ontbreekt. |
+| R067 | Ramana’s Bridge | Girivalam route bij Adi Annamalai, Tamil Nadu | brug / rustpunt | Stopte hier vaak, keek naar Arunachala en rustte | JA | DEELS | pradakshina-groepen | P11; S2 huidige veldlokalisatie | Huidige brug vervangt de historische; plaatscontinuïteit, niet materiaalcontinuïteit. |
+| R068 | Adi Annamalai-benad
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=126 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/RAMANA_MAHARSHI_PRE_COMPARE_FREEZE.md blob_sha=688c0a64fcadf151a5a356355a41d2ee393e1792 original_offset=24576 original_length=4096 payload_bytes=4096 chunk_index=6 chunk_count=10 classification=text
+eringssegment en zijweg | Adi Annamalai, Tamil Nadu | routecorridor | Passeerde herhaaldelijk; week uit naar oude boer/tank | JA | ALLEEN_PLAATS | oude boer/devotees | P7 | Geen afzonderlijk bewijs dat hij de Adi Annamalai-tempel binnenging; die is daarom niet als eigen locatie opgevoerd. |
+| R069 | Moeders oorspronkelijke graf-/samadhi-site, nu Matrubhuteswara-voetafdruk | Sri Ramanasramam, Tiruvannamalai | grafsite / temple footprint | Woonde begrafenis bij, bezocht dagelijks en vestigde zich er eind 1922 | JA | DEELS | Chinnaswami, devotees | P1 116–117; P2 181–183; P6 83–87 | Exacte site, maar eenvoudige tombe/hut vervangen door granieten tempel. |
+| R070 | Eerste hut/shrine bij moeders samadhi | Sri Ramanasramam, Tiruvannamalai | historische hut / residentie | Woonde en gaf darshan in vroege beneden-ashram, ca. 1922–1928 | JA | DEELS | Chinnaswami, vroege ashramgroep | P2 182–183; S1; officiële historie in P4 | Houten/rieten structuur bestaat niet als toen; footprint rond R069. |
+| R071 | Kleine historische dining-hall-cum-office, huidige Maharshi-samadhi-site | Sri Ramanasramam, Tiruvannamalai | verdwenen eet-/kantoorruimte | At hier tot circa 1938; ruimte had dubbele functie | JA | DEELS | ashrammanagement | P6 66–67, 119–120 | Gebouw verdwenen; zijn latere graf ligt vrijwel op dezelfde plek. |
+| R072 | Old Hall | Sri Ramanasramam, Tiruvannamalai | darshan-/woonhal | Woonde, sliep, las, sprak en ontving duizenden, ca. 1926/28–1946 | JA | DEELS | ashramdevotees | P1 126; P4 70–73; P5 217 | In 1986 ontmanteld/herbouwd met veel hergebruikt origineel materiaal. |
+| R073 | Sofa/couch in Old Hall | Sri Ramanasramam, Tiruvannamalai | meubel / exact zitpunt | Dagelijkse hoofdzetel en bed in Old Hall | JA | EXACT | attendants | P4 71; P5 217 | Couch wordt als historische kerninrichting bewaard. |
+| R074 | Bench ten noorden van Old Hall | Sri Ramanasramam, Tiruvannamalai | fotografisch zitpunt | Zat hier met Yogananda/Brunton, 29 nov. 1935 | JA | ONBEKEND | Yogananda, Paul Brunton, C.R. Wright | P5 106–113 | Film exact in relatie tot Old Hall; losse bench/huidige marker niet bevestigd. |
+| R075 | Open plek vóór Old Hall met cushioned chair | Sri Ramanasramam, Tiruvannamalai | fotografisch zitpunt | Zat, dronk water en liet voeten drogen na heuvelwandeling, 1938 | JA | ONBEKEND | Krishnaswami, Madhava Swami | P5 127–128 | Open zone herkenbaar; tijdelijke stoel/precies punt niet duurzaam. |
+| R076 | Noordelijke ashram-ingang en trapovergang | Sri Ramanasramam, Tiruvannamalai | toegang / trap | Gefilmd binnenkomend na heuvelwandeling, 1938 | JA | DEELS | filmgroep | P5 127, 135 | Toegangstracé aanwezig; treden/poortconfiguratie kan gewijzigd zijn. |
+| R077 | Historisch ashramkantoor (huidige opslag-/packing building) | Sri Ramanasramam, Tiruvannamalai | kantoor | Ging er in/uit; gefilmd uitlopend richting Old Hall, 1945 | JA | EXACT | Chinnaswami, personeel | P5 132–140 | P5 zegt expliciet dat kantoorbuilding nog staat; aangrenzende boekwinkel is verdwenen. |
+| R078 | Grote ashramkeuken | Sri Ramanasramam, Tiruvannamalai | keuken | Sneed/kookte en hielp dagelijks tot hij er vóór mei 1941 mee stopte | JA | EXACT | Shantamma en kookploeg | P1 162; P4 76–79; Arunachala Archives 2021 Nov-Dec | Historische keukenblock bestaat; latere uitbreidingen niet als aparte locatie geteld. |
+| R079 | Oude/grote dining hall | Sri Ramanasramam, Tiruvannamalai | eetzaal | At dagelijks; filmbeelden tonen binnenkomen/uitgaan | JA | EXACT | ashramgemeenschap | P4 76–78; P5 179, 197 | Nieuwe uitbreiding postdateert Ramana en is niet apart meegeteld. |
+| R080 | Gemarkeerde maaltijdplek van Ramana in dining hall | Sri Ramanasramam, Tiruvannamalai | exact zitpunt | Vaste zitplaats bij maaltijden | JA | EXACT | servers/devotees | P4 77 | Huidig gemarkeerd met foto op marmeren platform. |
+| R081 | Zuiddeur en trappen van dining hall | Sri Ramanasramam, Tiruvannamalai | fotografische sublocatie | Stapte naar buiten en poetste tanden op de trappen, 1948 | JA | EXACT | Sivananda | P5 197–199 | Filmische plaatsidentificati
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=127 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/RAMANA_MAHARSHI_PRE_COMPARE_FREEZE.md blob_sha=688c0a64fcadf151a5a356355a41d2ee393e1792 original_offset=28672 original_length=4096 payload_bytes=4096 chunk_index=7 chunk_count=10 classification=text
+e; historische deur/trappen binnen bewaard blok. |
+| R082 | Passage oostwaarts tussen dining hall en badkamer | Sri Ramanasramam, Tiruvannamalai | wandel-/fotolocatie | Liep er met devoteegroepen, 1948 | JA | EXACT | Aravind Bose-groep | P5 199–200; P4 78–79 | Huidige terreinuitleg bevestigt passage. |
+| R083 | Lavatory/bathroom naast gosala | Sri Ramanasramam, Tiruvannamalai | sanitaire ruimte | Gefilmd erheen lopend/in gaand, 1945–1949 | JA | DEELS | attendants, T.P. Ramachandra Iyer | P5 145, 176, 280 | Functie/zone exact; huidige badkamer kan verbouwd of vervangen zijn. |
+| R084 | Passage bij mannen-dormitory | Sri Ramanasramam, Tiruvannamalai | dormitory-/padzone | Gefilmd lopend vanuit dining room; Nambiar-paar raakte zijn voeten, 1947 | JA | DEELS | K.K. en Mrs. Nambiar | P5 184–186; P4 78–79 | Historische mannenruimte/passage in huidige logistieke zone, verbouwingen mogelijk. |
+| R085 | Grote gosala | Sri Ramanasramam, Tiruvannamalai | cowshed | Bezocht koeien, onderzocht hun welzijn en aaide Lakshmi; film 1947–1948 | JA | EXACT | cow Lakshmi, Chinnaswami | P5 177–181, 203–209; P15 | Concrete bestaande gosala. |
+| R086 | Graf/samadhi van cow Lakshmi | Sri Ramanasramam, Tiruvannamalai | dierengraf / shrine | Woonde begrafenis bij, zat bij graf en gaf instructies, 18 juni 1948 | JA | EXACT | Lakshmi, attendants | P16; P5 207, 283 | Huidig gemarkeerde tombe met door hem opgesteld opschrift. |
+| R087 | Frontage van Veda Patasala | Sri Ramanasramam, Tiruvannamalai | school / fotografische sublocatie | Stopte; priesters/studenten kwamen naar buiten; liep ervoor langs, 1948 | JA | EXACT | Veda-studenten/priesters | P5 200, 213–215; P4 79–82 | Huidige schoolzone bestaat. |
+| R088 | Palakothu-grove | West van Sri Ramanasramam, Tiruvannamalai | bos/grove / wandelgebied | Regelmatige dagelijkse wandelingen en bezoeken aan resident-devotees | JA | DEELS | Annamalai Swami, Krishnaswami e.a. | P5 121–123, 136; P17; P4 93 | Historische dichte grove is uitgedund en deels bebouwd. |
+| R089 | Oever van klein Palakothu-tankje | Palakothu, Tiruvannamalai | tank / fotografische route | Gefilmd rond de oever lopend, 1938 | JA | DEELS | Krishnaswami, Jayadevlal Dave | P5 136 | Tank/landschap veranderd; exact filmtracé niet gemarkeerd. |
+| R090 | Bloementuin en slaapzone noord van Old Hall | Sri Ramanasramam, Tiruvannamalai | tuin / buitenzitplek | Sliep/lag in 1949 op couch bij de noord-zuidtuinafscheiding | JA | DEELS | attendants | Arunachala Archives Jul-Aug 1996: https://archive.arunachala.org/newsletters/1996/jul-aug ; P4 73 | Tuinzone bekend; historische fence en couchpositie gewijzigd. |
+| R091 | Ashram dispensary | Sri Ramanasramam, Tiruvannamalai | kliniek | Derde en vierde sarcoomoperatie op 7 aug. en 19 dec. 1949 | JA | EXACT | ashramdokters/chirurgen | P6 94–101; P4 73, 95 | Institutioneel aangeduide dispensary; interne operatiekamerconfiguratie niet vastgelegd. |
+| R092 | Jubilee Hall, tijdelijke palmblad-shed ten noorden van Old Hall | Sri Ramanasramam, Tiruvannamalai | verdwenen darshanhal | Hoofd-darshanplek 1946–1 juni 1949 | JA | DEELS | Golden Jubilee-gemeenschap | P6 73–74; P5 156, 267; S1 | Shed verdwenen; site ten noorden van Old Hall duidelijk, structuur niet. |
+| R093 | New Hall | Sri Ramanasramam, Tiruvannamalai | darshanhal | Eerste zit 14 mrt.; formeel in gebruik vanaf 1 juni 1949 | JA | EXACT | sthapati, priesters, devotees | P1 188–191; P4 50–52; P5 267–275 | Granieten hal bestaat. |
+| R094 | Granieten yogasana/stone couch in New Hall | Sri Ramanasramam, Tiruvannamalai | exact zit-/bedobject | Zat/las/gaf darshan op de couch, 1949 | JA | EXACT | attendants | P1 189; P4 52; P5 268–275 | Origineel monolithisch object bewaard. |
+| R095 | New Hall-verandah en treden | Sri Ramanasramam, Tiruvannamalai | fotografische sublocatie | Stapte er zwak af tijdens ziekte, 1949 | JA | EXACT | attendants, O.P.R. Reddier | P5 277–280 | Granieten sublocatie binnen bestaande hal. |
+| R096 | Matrubhuteswara garbhagriha en Sri Chakra achter lingam | Sri Ramanasramam, Tiruvannamalai | sanct
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=128 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/RAMANA_MAHARSHI_PRE_COMPARE_FREEZE.md blob_sha=688c0a64fcadf151a5a356355a41d2ee393e1792 original_offset=32768 original_length=4096 payload_bytes=4096 chunk_index=8 chunk_count=10 classification=text
+um | Legde foundation; inspecteerde bouw; raakte Sri Chakra aan, 14 mrt. 1949; consecratie bijgewonen | JA | EXACT | Vaidyanatha Stapati, Chinnaswami | P1 151, 188–190; P4 55–60; P5 304 | Concrete huidige sanctum; R069 bewaart oudere graflaag. |
+| R097 | Nirvana Room / laatste slaapkamer | Sri Ramanasramam, Tiruvannamalai | kamer | Verbleef er vanaf 1 jan. 1950; laatste dagen en overlijden 14 apr. 1950 | JA | EXACT | medici, attendants, familie | P6 101–106; P4 85–89; P1 195 | Kamer wordt als in zijn tijd bewaard. |
+| R098 | Couch/darshanplek direct buiten Nirvana Room | Sri Ramanasramam, Tiruvannamalai | verandah / zitpunt | Sleepte zich tweemaal daags naar couch voor darshan tot 2 mrt. 1950 | JA | EXACT | devotees/attendants | P6 101–102 | “Just outside the room”; fysieke buitenzone exact, los couchobject niet afzonderlijk geclaimd. |
+| R099 | Zuidverandah voor abhishekam van het lichaam | Sri Ramanasramam, Tiruvannamalai | verandah / postume rituele plek | Lichaam hierheen gedragen voor puja/abhishekam, 15 apr. 1950 | NEE | DEELS | T.N. Venkataraman, Chinnaswami | P6 111–114 | Directe levens-/overgangslocatie; geen persoonlijke handeling, daarom NEE. Welke “south verandah” bouwkundig exact is behoeft plan. |
+| R100 | Sri Maharshi’s burial pit/samadhi en huidige linga-shrine | Sri Ramanasramam, Tiruvannamalai | graf / lineage-shrine | Lichaam bijgezet 15 apr. 1950; directe postume levenslocatie | NEE | EXACT | ashramgemeenschap | P6 114–120; P4 63–67; P5 284–298 | Exact graf; huidige bovenbouw is later, maar burial locus eenduidig. |
+| R101 | Pad zuidelijk langs storeroom | Sri Ramanasramam, Tiruvannamalai | fotografische wandelplek | Gefilmd wandelend/stoppend bij manuscript, 1949 | JA | DEELS | Sivananda en devotee | P5 256–264 | Storeroomzone bekend; precieze camerastand/oud pad gewijzigd. |
+| R102 | Achteringang van de ashram | Sri Ramanasramam, Tiruvannamalai | toegang / fotografische plek | Gefilmd naderend na heuvelwandeling, 1945 | JA | DEELS | Rangaswami, twee devotees | P5 142–145 | Toegangszone zeker, historische poortconfiguratie niet. |
+| R103 | Vroege rieten gosala op plek van latere gentlemen’s guest house | Sri Ramanasramam, Tiruvannamalai | verdwenen cowshed | Bezocht/verzorgde dieren in vroege ashramfase vóór grote gosala | JA | DEELS | Shantamma/Dandapani Swami; ashramkoeien | Arunachala Archives Nov-Dec 2021: https://archive.arunachala.org/newsletters/2021/nov-dec ; P2 “Friend of Animals” | Getuige lokaliseert oude shed bij huidige guest house; structuur vervangen. Grote latere gosala staat in R085. |
+
+## Machinecontrole identiteit en aanwezigheid
+
+De hieronder gerapporteerde totalen zijn berekend op de 103 tabelregels (niet op bronvermeldingen of aliasnamen):
+
+- `PHYSICAL_IDENTITY`: **EXACT 47; DEELS 37; ALLEEN_PLAATS 7; ONBEKEND 12**.
+- `PERSONALLY_PRESENT`: **JA 100; ONZEKER 1; NEE 2**.
+
+## Adversarial miss-detection en negatieve bevindingen
+
+1. **Echammal’s house niet als aanwezigheid opgevoerd.** De kernbiografie zegt dat Echammal dagelijks voedsel naar Ramana bracht (P2 173–174). P9 bevat Ramana’s expliciete herinnering dat hij na aankomst slechts één huis in Tiruvannamalai binnenging om te eten: het huis bij de tempelwagen (R036). Een bekende devoteewoning is dus niet automatisch zijn bezoekplek.
+2. **Adi Annamalai Temple niet apart opgevoerd.** De geraadpleegde getuigenissen bewijzen doorgang door Adi Annamalai en een zijweg/tankbezoek (R066/R068), maar geen afzonderlijke tempelentree.
+3. **Ishanya/Esanya Mutt niet opgevoerd.** Veel devotees verbleven er, maar in deze sweep is geen zelfstandige gebeurtenis gevonden die Ramana fysiek in de mutt plaatst.
+4. **Latere Ramana-centra en mandirams buiten Tiruvannamalai zijn geen levenslocaties.** Een uitnodiging naar een devoteehuis of latere shrine/organisatie is niet als reisbewijs gebruikt. De geraadpleegde biografie zegt dat de rest van zijn leven na aankomst in Tiruvannamalai werd doorgebracht (P2 153–155).
+5. **Pavalakunru spring/cave/mutt niet kunstmatig gesplitst.** P1 noemt deze features al
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=129 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/RAMANA_MAHARSHI_PRE_COMPARE_FREEZE.md blob_sha=688c0a64fcadf151a5a356355a41d2ee393e1792 original_offset=36864 original_length=1966 payload_bytes=1966 chunk_index=9 chunk_count=10 classification=text
+s onderdelen van de uitloper, maar het verblijf is concreet aan de Iswara-tempel gebonden; nabijheid alleen is geen aanwezigheid.
+6. **Mulaipal Tirtham blijft ONZEKER.** De bronnen plaatsen Mango Tree Cave bij een waterbron, maar de geselecteerde kernpassages geven geen afzonderlijke handeling aan de tirtha; daarom R048 niet op JA gezet.
+7. **Historische versus huidige gosala gescheiden.** De vroege rieten koeienstal (R103) en de latere grote gosala (R085) zijn verschillende fysieke lagen.
+8. **Jubilee Hall niet met New Hall verward.** De Jubilee Hall was een tijdelijke palmblad-shed noord van Old Hall; de granieten New Hall opende 1 juni 1949.
+9. **Samadhi niet als persoonlijke aanwezigheid geclaimd.** R099–R100 zijn directe overgangs-/lineageplekken met `PERSONALLY_PRESENT=NEE`, ondanks aanwezigheid van het lichaam.
+
+## Open onderzoekslijnen
+
+- Kadastrale identificatie van R006, R017, R022 en R036; historische straat-/wagenstandkaart voor R036.
+- Onderwijsarchieven voor de exacte gebouwen van R007, R010 en R011.
+- Spoorarchieven/perronplannen voor R014–R018 en R024–R025; hotelregisters Villupuram.
+- Tempelplattegrond/archief voor de float-storage room, Illupai-boom, oleandertuin en de niet benoemde toren (R033–R034, R040–R041).
+- Volledige digitale zoekslag in *Day by Day with Bhagavan*, *Pictorial Biography*, complete *Letters* en vroege Tamil-reminiscenties op named rocks, wells, mandapams, garden seats en bhiksha-deuren.
+- Ashram-gastenregisters, bouwtekeningen en alle originele film/negatiefnotities voor R074–R076, R083–R084, R089–R090, R099 en R101–R103.
+- Field verification van Tortoise Rock, Venamma’s mango tree, de oude-boer-tank, de inner-path stoprots en het historische bridge alignment.
+
+## Freezeverklaring
+
+Dit bestand is de volledige eigen externe ontdekking vóór vergelijking. Er is geen A/B/C-waardering, routeadvies, clusterselectie of reconciliatie met interne repository-resultaten uitgevoerd.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=130 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/RAM_DASS_PRE_COMPARE_FREEZE.md blob_sha=6d2c5c978c7eddbb9d74f2352c8682e6b1cfe7b6 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=8 classification=text
+# RAM DASS — PRE-COMPARE FREEZE
+
+**Run:** `TOP11-PARALLEL-CHATGPT-SWEEP-001`  
+**Persoon:** Ram Dass (Richard Alpert)  
+**Freeze-datum:** 2026-08-18  
+**Onderzoeksmodus:** onafhankelijke externe blinde sweep; geen interne atlassen, CCI-resultaten, kandidatenlijsten of vergelijkingsbestanden geraadpleegd.  
+**Geografische scope:** India. Buitenlandse locaties (o.a. Kathmandu/Nepal) zijn alleen als routecontext gebruikt en niet opgenomen.
+
+## Freeze-samenvatting
+
+- Genormaliseerde locaties: **57**
+- `PHYSICAL_IDENTITY`: **EXACT 13 · DEELS 24 · ALLEEN_PLAATS 2 · ONBEKEND 18**
+- `PERSONALLY_PRESENT`: **JA 56 · ONZEKER 1 · NEE 0**
+- `SATURATION`: **NEE** — brede bron- en adversarial zoekcycli leverden geen nieuwe benoemde plaatsen meer op, maar verscheidene materiële leads blijven fysiek onopgelost: de Zuid-Indiase Shiva-route, “Baneshwar”, het Sombari-ashram, meerdere privéhuizen/hotels in Delhi en Uttar Pradesh, de 2004-opnamelocatie en Lama Govinda's bezoek.
+- Interpretatieregel: een concrete plaatsnaam is niet als persoonlijke aanwezigheid behandeld zonder tekstuele, getuigen- of fotobewijs dat Ram Dass daar zelf was. `DEELS` betekent dat complex/plaats voldoende is gelokaliseerd maar de historische sublocatie of gebouwcontinuïteit niet volledig vaststaat; `ALLEEN_PLAATS` betekent alleen stad/gebied of gemeenschap.
+
+## Bronnensleutel
+
+- **BH** — Ram Dass, *Be Here Now*, autobiografisch reisverhaal, PDF: https://attachments.are.na/31405922/506594af952c11c8f558e115db64b7e3.pdf?1728901791=
+- **MOL** — Ram Dass, *Miracle of Love*; alleen passages met `R.D.` of expliciete vermelding van Ram Dass zijn als persoonsbewijs gebruikt: https://yoga.quest/pdf/Miracle-of-Love-Stories-about-Neem-Karoli-Baba-1995.pdf
+- **RD** — officiële Ram Dass / Love Serve Remember-pagina's: https://www.ramdass.org/about-ram-dass/ ; https://www.ramdass.org/coming-home-to-maharaji/ ; https://www.ramdass.org/jao/ ; https://www.ramdass.org/the-veil/ ; https://www.ramdass.org/love-at-the-root-the-devotion-and-wisdom-of-kk-sah/ ; https://www.ramdass.org/flicker-of-faith/
+- **IM** — Wes Nisker, interview met Ram Dass, *Inquiring Mind*: https://inquiringmind.com/article/0202_1_ram-dass-interview/ en terugblik als mede-retreatant: https://inquiringmind.com/article/2702_50_nisker/
+- **SD** — Sara Davidson, ooggetuige/reisgenoot 1970–71: https://saradavidson.com/ram-dass-does-a-saint-get-angry/ en historische reportage: https://beezone.com/ramdass/ram_dass_history.html
+- **HE** — Parvati Markus en andere ooggetuigen, Hotel Evelyn-dossier: https://ashramsofindia.com/the-hotels-they-stayed-in-hotel-evelyn/
+- **PA** — historisch fotoarchief met onderschriften: https://ashramsofindia.com/photos/
+- **SAI** — ooggetuigen en Ram Dass' eigen geciteerde herinnering aan Whitefield: https://ashramsofindia.com/early-western-devotees-of-sathya-sai-baba-from-the-1970s-to-the-1980s/
+- **JV** — Jon Vasu, deelnemer 2004 Kainchi-reis: https://jonvasu.com/ram-dass/
+- **RDE** — verzamelde ooggetuigen 2004: https://dokumen.pub/remarkable-encounters-with-ram-dass.html en https://maharajji.love/maharajji-introduces-me-to-baba-ram-dass/
+- **AV** — officiële Auroville-bezoekpagina: https://auroville.org/page/ram-dass-visit%27s-auroville
+- **CG** — Columbia University Libraries, metadata Lama Govinda-huis: https://dlc.library.columbia.edu/catalog/cul%3Afn2z34tpq8
+- **ID** — huidige/fysieke-identiteitssteun: Kainchi en Vrindavan: https://nkbashram.org/maharaj-ji-indian-ashrams/kainchi-dham en https://maharajjisevatrust.com/ashrams ; Anasakti Ashram: https://www.gandhiheritageportal.org/gandhi_heritage_site/writeup/Ng%3D%3D en https://www.incredibleindia.gov.in/en/uttarakhand/kausani/anasakti-ashram
+
+## Genormaliseerde locaties
+
+| ID | Fysieke naam | Stad / staat | Type | Handeling | Datum / periode | Persoonlijk aanwezig | Fysieke identiteit | Host / netwerk | Primair of semi-primair bewijs + locator | Secundaire steun | Historisch / huidig | Onzekerheid / conflict | Open lead |
+|---:|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 |
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=131 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/RAM_DASS_PRE_COMPARE_FREEZE.md blob_sha=6d2c5c978c7eddbb9d74f2352c8682e6b1cfe7b6 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=8 classification=text
+ Amarnath Cave (in BH gespeld “Amanath Cave”) | Amarnath-vallei, Jammu & Kashmir | grot / pelgrimsoord | Te paard naar de grot tijdens eerste Indiareis | 1967 | JA | EXACT | Bhagavan Das / reisroute | **BH**, verhaal pp. 28–29: “horseback” naar de grot in Kashmir | Gangbare objectidentiteit Amarnath Cave | Historisch object bestaat; toegang/seizoen variabel | Spelling in bron is afwijkend, maar combinatie grot + Kashmir is eenduidig | Exacte aanlooproute en kamp onbekend |
+| 2 | Benares / Varanasi (alleen stad) | Varanasi, Uttar Pradesh | stad | Bezocht tijdens eerste rondreis | 1967 | JA | ALLEEN_PLAATS | Bhagavan Das | **BH**, pp. 28–29: expliciet “visited Benares” | — | Stad continu | Geen gebouw of verblijfplaats genoemd | Zoek naar 1967 logies/ghat |
+| 3 | “Baneshwar” tempelstop | Naam/plaats onopgelost | tempel / pelgrimsstop | Tempelpelgrimage; sliep in kloosters onderweg | ca. 1967–68 | JA | ONBEKEND | Bhagavan Das / tempelroute | **BH**, pp. 31–33: “to Baneshwar and Konarak” | — | Onbekend | Kan plaatsnaam, OCR-fout of variant zijn; niet gelijkgesteld aan Bhubaneswar/Baneswar | Bronedities en reisnotities vergelijken |
+| 4 | Konark-tempelstop, waarschijnlijk Sun Temple-complex | Konark, Odisha | tempelcomplex | Bezocht op tempelpelgrimage | ca. 1967–68 | JA | DEELS | Bhagavan Das | **BH**, pp. 31–33: “Konarak” in tempelroute | De Sun Temple is het dominante historische tempelobject in Konark | Historisch complex aanwezig | Bron noemt niet expliciet “Sun Temple”; daarom geen EXACT | Exacte sublocatie/overnachting zoeken |
+| 5 | Chinese Buddhist monastery / Chinese Temple | Sarnath, Uttar Pradesh | klooster / tempel | Verbleef er enkele weken | 1967 | JA | DEELS | Chinese boeddhistische kloostergemeenschap | **BH**, pp. 34–36: “several weeks” in een Chinese Buddhist monastery in Sarnath | Huidige Chinese Buddhist Temple, Sarnath, dateert uit 1939 | Institutionele continuïteit plausibel; gebouwdetails kunnen gewijzigd zijn | Formele historische naam ontbreekt in BH | Archief/gastenregister opsporen |
+| 6 | Landgoed / huis van niet-genoemde heilige bij Delhi | Niet-genoemde plaats nabij Delhi | privéhuis / landgoed | Bezocht een heilige en verbleef in diens omgeving | 1967 | JA | ONBEKEND | Bhagavan Das; niet-genoemde holy man | **BH**, pp. 34–36: naar nearby town/estate en holy man's house | — | Niet geïdentificeerd | Afstand, naam en plaats ontbreken | Identiteit via ongecensureerde reisnotities zoeken |
+| 7 | Kainchi Dham / Shri Kainchi Hanuman Ashram | Kainchi, Uttarakhand | ashram / tempelcomplex | Woonde, studeerde, ontving darshan; keerde meermaals terug | 1967; 1970–73; 2004 | JA | EXACT | Neem Karoli Baba; Baba Hari Dass; westerse satsang | **BH**, pp. 37–50; **MOL**, o.a. pp. 249–250 en 350–351; **JV/RDE** voor 2004 | **ID** bevestigt huidig complex | Historisch complex bestaat, met latere bouwlagen | Sommige BH-passages noemen alleen “the temple”; samenhang is sterk maar subsites apart gewaardeerd | Historische plattegrond per jaar reconstrueren |
+| 8 | Eerste-ontmoetingsveld achter heuvel nabij kleine wegtempel | Kainchi-regio / Kumaon, Uttarakhand | veld / helling | Eerste ontmoeting met Maharajji; zat in veld met uitzicht over vallei | 1967 | JA | DEELS | Bhagavan Das; Neem Karoli Baba | **BH**, pp. 37–39; **RD**, “Coming Home to Maharaji” | Traditie koppelt episode aan Kainchi-regio | Landschap aanwezig; exacte kavel niet vastgesteld | BH noemt 80–100 mijl rit, kleine wegtempel en veld, niet een huidige pin | Oude route en lokale mondelinge geschiedenis |
+| 9 | Maharajji's “office” / tucket- en porch-zone in Kainchi | Kainchi, Uttarakhand | sublocatie ashram | Zat bij Maharajji in office; verbleef buiten na poortsluiting | 1971 | JA | DEELS | Neem Karoli Baba / Kainchi-sevaks | **MOL**, pp. 249–250 | Fotoarchieven tonen tucket/porch-context | Subzone historisch herkenbaar; precieze kamerconfiguratie kan veranderd zijn | “Office”, tucket en buitenplek kunnen aangrenzende maar niet identieke plekken zijn | Historische
+<<< END CHUNK >>>
+

@@ -1,0 +1,733 @@
+>>> CHUNK stream_row=533 path=runs/active/INDIAWIT-MASTER-TRAVEL-READINESS-001/TASK.md blob_sha=30d406f095b76960e3e72e394b671134849c46fc original_offset=0 original_length=3069 payload_bytes=3069 chunk_index=0 chunk_count=1 classification=text
+# INDIA WIT — MASTER TRAVEL READINESS INTEGRATION
+
+STATUS: READY
+OWNER: INDIA WIT
+MODE: CROSS-BRANCH INTEGRATOR
+GOAL: combineer alle afgeronde parallelle werkstromen tot één actuele brug van onderzoek naar reisplanning, zonder zelf nieuwe persoonslocaties te onderzoeken en zonder A/B/C-keuzes namens Mark te maken.
+
+## Bronnen die WIT WEL mag lezen
+Lees de actuele outputbestanden van deze branches/taken:
+- agent/indiaorange-travel-heatmap-prep
+- agent/indiablauw-trip-ops-prep
+- agent/indiapaars-decision-rubric-prep
+- agent/indiaroze-route-builder-prep
+- agent/indiaturquoise-allperson-overlap
+- agent/indiageel-ramana-ramakrishna-sweep (alleen POST-FREEZE/targeted/overlap-output; blindheid is al afgesloten)
+- claude/werk-je-nu-of-niet-oa10y7 voor CCI-resultaten t/m CCI_TASK 094; neem CCI_TASK 095 alleen mee indien CCI_RESULT 095 inmiddels duurzaam bestaat op het moment van uitvoering.
+- relevante governance/decisions voor LOCKED_BY_MARK en harde projectgrenzen.
+
+## Opdracht
+Maak vijf outputs:
+1. MASTER_TRAVEL_READINESS.md
+   - per persoonslaag: voldoende voor travel-planning JA/NEE/DEELS; academische restgaten apart;
+   - per cluster/regio: huidige minimum-confirmed overlap, evidence maturity, exact-site density, travel-readiness;
+   - expliciet kritisch pad vanaf NU tot complete A-Z reis.
+
+2. MASTER_HEATMAP_INPUT.md
+   - één geconsolideerde, lossless input voor de echte landelijke heatmap;
+   - markeer voorlopige tellingen als MIN_CONFIRMED;
+   - scheid city overlap, region overlap en exact same-site overlap;
+   - neem Arunachala/Tiruvannamalai LOCKED_BY_MARK A-anker en Kukuchina/Dunagiri hoofdreden apart op zonder ze te herwaarderen.
+
+3. HIGH_IMPACT_GAPS.md
+   - alleen gaten die redelijkerwijs een bestemmingskeuze, clusterprioriteit, aantal nachten, vervoer of boekingsrisico kunnen veranderen;
+   - obscure academische microgaten die de reis niet beïnvloeden in aparte NON_BLOCKING-sectie;
+   - maximaal 10 echte high-impact gaten, liefst minder.
+
+4. MARK_DECISION_QUEUE_DRAFT.md
+   - bundel toekomstige keuzes in zo weinig mogelijk beslismomenten;
+   - nog GEEN keuze namens Mark;
+   - ontwerp batches, bijvoorbeeld cluster-keuze, intensiteit per cluster, comfort/logistiek, zodat Mark niet tientallen losse A/B/C's hoeft te beantwoorden.
+
+5. NEXT_EXECUTION_MAP.md
+   - exacte paralleliseerbare stappen na deze taak;
+   - wat kan al vóór CCI 095 klaar is;
+   - wat wordt direct ontgrendeld na CCI 095;
+   - wanneer regionale deep sweeps werkelijk nodig zijn versus wanneer we direct naar route kunnen.
+
+## Harde grenzen
+- Geen nieuw webonderzoek naar persoonslocaties.
+- Geen nieuwe personen-sweeps.
+- Geen A/B/C namens Mark.
+- Geen hotels kiezen.
+- Geen nachten of route definitief vastzetten.
+- Geen PDF.
+- Geen merge/PR.
+- Geen permanente locatie-ID's.
+- Onzekerheid niet verbergen; gebruik PROVISIONEEL/MIN_CONFIRMED waar nodig.
+
+## Outputlocatie
+Schrijf alle vijf bestanden onder:
+runs/active/INDIAWIT-MASTER-TRAVEL-READINESS-001/
+
+Werk STATUS.md bij naar COMPLETE en commit alles op agent/indiawit-master-travel-readiness.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=534 path=runs/active/INDIAWIT-REVERSE-CLUSTER-REOPEN-001/STATUS.md blob_sha=8e264bfec4f38cb6061a3d7798179e9928eb1b7d original_offset=0 original_length=577 payload_bytes=577 chunk_index=0 chunk_count=1 classification=text
+# STATUS — INDIAWIT-REVERSE-CLUSTER-REOPEN-001
+
+state: READY
+branch: agent/indiawit-master-travel-readiness
+owner: INDIA WIT
+mode: cross-branch reverse discovery / additive reopen only
+outputs: CLOSED_CLUSTER_INVENTORY.md, REVERSE_NEW_LOCATION_DELTA.md, PROXIMITY_AND_SYNERGY_REVIEW.md, ADDITIVE_ID_QUEUE.md, REOPEN_DECISION_QUEUE.md, ACCOMMODATION_SIGNIFICANCE.md, ROUTE_IMPACT.md
+hard_rule: no deletion; new candidates get new permanent IDs and Mark A/B/C; prior B/C may be REVIEW_FOR_UPGRADE only
+next_allowed_step: INDIA WIT voert TASK.md volledig uit en commit outputs.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=535 path=runs/active/INDIAWIT-REVERSE-CLUSTER-REOPEN-001/TASK.md blob_sha=856f3c153bc990eb683a6e72b0d99448c9c21c0d original_offset=0 original_length=3368 payload_bytes=3368 chunk_index=0 chunk_count=1 classification=text
+# INDIA WIT — REVERSE CLUSTER REOPEN AUDIT
+
+STATUS: READY
+OWNER: INDIA WIT
+MODE: CROSS-BRANCH INTEGRATION / NO NEW PERSON DISCOVERY
+
+## Doel
+Voer de omgekeerde zoektocht uit: neem de nieuwste landelijke persoons-/overlaplagen als uitgangspunt en toets ELK eerder afgewerkt/gefreeze-d cluster op nieuwe locaties die sinds de oorspronkelijke A/B/C-ronde zijn opgedoken.
+
+Dit is additief. Niets gaat automatisch AF.
+
+## Verplichte bronlagen
+Gebruik de voor WIT reeds toegestane afgeronde detector-/reconciliatie-/overlapbranches plus de bestaande cluster/candidate/A-B-C/numbering-registers op de hoofdwerkbranch. Neem ook decisions/REVERSE_DISCOVERY_REOPEN_RULE_2026-08-19.md als governance over zodra beschikbaar via de werkbranch.
+
+## Werkpakketten
+1. Maak CLOSED_CLUSTER_INVENTORY.md: alle clusters/regio's die eerder als reviewed/complete/frozen/AF zijn behandeld, met bestaande kandidaatcount, bestaande A/B/C-state en numbering-registry.
+2. Maak REVERSE_NEW_LOCATION_DELTA.md: per bestaand cluster ALLE persoonslocaties uit de nieuwe landelijke laag die niet in de oorspronkelijke kandidatenlijst zaten. Classificeer EXACT_SITE / SAME_CITY / NEARBY / OUTSIDE_CLUSTER. Geen nieuw webonderzoek.
+3. Maak PROXIMITY_AND_SYNERGY_REVIEW.md: markeer nieuwe locaties die dicht bij bestaande A/B/C, verblijf of dagroute liggen; multi-person sites; persoonsgebonden hotels/huizen/ashrams; combinaties die een bestaande B/C praktisch aantrekkelijker kunnen maken. Gebruik REVIEW_FOR_UPGRADE, nooit automatisch upgraden.
+4. Maak ADDITIVE_ID_QUEUE.md: voor elke werkelijk nieuwe fysieke kandidaat het volgende vrije permanente nummer/ID volgens bestaande registers. Bestaande IDs nooit wijzigen/hergebruiken. Als feitelijke toekenning volgens governance nog Mark/CCI vereist: reserveer als NEXT_ID_PROPOSED en markeer write-gate duidelijk.
+5. Maak REOPEN_DECISION_QUEUE.md: per cluster alleen de nieuwe kandidaatlocaties en bestaande B/C's die door nieuwe context herbeoordeling verdienen. Bundel voor Mark; geen tientallen losse vragen als één clusterbatch kan.
+6. Maak ACCOMMODATION_SIGNIFICANCE.md: inventariseer alle nieuw zichtbare hotels/guesthouses/houses/ashrams waar Top-personen aantoonbaar verbleven en die potentieel als verblijf gebruikt kunnen worden. Geen hotelkeuze namens Mark; wel expliciet aangeven waar 'hier slapen' historische/personale betekenis toevoegt.
+7. Maak ROUTE_IMPACT.md: welke bestaande voorlopige reis-/clusterlogica kan ADDITIEF veranderen door deze nieuwe vondsten? Benoem: extra halve dag/dag, cluster langer verblijf, omweg vervalt door nabijheid, B kan upgrade-kandidaat worden, accommodatiebasis kan verschuiven. Geen definitieve route/nachten kiezen.
+
+## Harde regels
+- Geen bestaande locatie verwijderen.
+- Geen bestaande A/B/C automatisch verlagen of verhogen.
+- Elke nieuwe fysieke kandidaat moet uiteindelijk eigen permanent ID + eigen Mark A/B/C krijgen.
+- Exact same-site en multi-person overlap krijgen prominente markering.
+- Een reeds AF cluster wordt `REVERSE_DISCOVERY_CURRENT: NEE` zodra er nieuwe kandidaten zijn totdat additieve review is afgerond.
+- Geen nieuw persoonslocatieonderzoek/webresearch in deze taak.
+- Geen PDF, merge of definitieve route.
+
+## Output
+Schrijf alle 7 outputs onder runs/active/INDIAWIT-REVERSE-CLUSTER-REOPEN-001/ en update STATUS.md. Commit alles op agent/indiawit-master-travel-readiness.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=536 path=runs/active/TOP11-NKB-RAMDASS-INDIAGEEL-MULTIDETECTOR-RECONCILIATION-001/STATUS.md blob_sha=924413b6e86e3940e499f0c7a8a24a66139679ce original_offset=0 original_length=351 payload_bytes=351 chunk_index=0 chunk_count=1 classification=text
+# STATUS — TOP11-NKB-RAMDASS-INDIAGEEL-MULTIDETECTOR-RECONCILIATION-001
+
+state: READY_FOR_CCI
+cci_task: CCI_TASK 095
+branch: claude/werk-je-nu-of-niet-oa10y7
+persons: Neem Karoli Baba, Ram Dass
+mode: post-freeze third-detector reconciliation
+next_allowed_step: CCI voert TASK.md volledig uit, commit per persoon en plaatst CCI_RESULT 095 op PR #23.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=537 path=runs/active/INDIAZILVER-CLUSTER-COMPLETENESS-AUDIT-001/ABC_REVIEW_QUEUE.md blob_sha=263489787e4cb04601d2ea6fba175bece6c595f8 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# ABC_REVIEW_QUEUE — INDIA ZILVER
+
+status: COMPLETE
+hard rule: INDIA ZILVER verandert geen bestaande A/B/C en kiest geen A/B/C namens Mark.
+
+## Nieuwe fysieke kandidaten
+
+Alle **31** records uit `REOPEN_AND_ID_QUEUE.md` krijgen:
+
+`MARK_REVIEW_REQUIRED: JA`
+
+Geen enkel record krijgt hier een voorgestelde automatische A/B/C-status. Multi-person-, heritage-, proximity- en logistieke signalen zijn uitsluitend review-argumenten.
+
+| # | kandidaat | review-vlaggen |
+|---:|---|---|
+| 1 | Matri Mandir / Anandamayi Ma Mahasamadhi, Kankhal | MARK_REVIEW_REQUIRED; HERITAGE_SAMADHI |
+| 2 | Anandamayi Ma Ashram, Vrindavan | MARK_REVIEW_REQUIRED; PROXIMITY_BACKFILL_REQUIRED |
+| 3 | Kishenpur Anandamayi Ashram, Dehradun | MARK_REVIEW_REQUIRED; HISTORIC_EARLY_ASHRAM |
+| 4 | NKB birthplace temple, Akbarpur | MARK_REVIEW_REQUIRED; BIRTHPLACE |
+| 5 | NKB Delhi Ashram / Annapoorna Mandir | MARK_REVIEW_REQUIRED |
+| 6 | North Delhi Hanuman Temple | MARK_REVIEW_REQUIRED |
+| 7 | Panki Hanuman Temple | MARK_REVIEW_REQUIRED |
+| 8 | Yogananda birthplace/memorial, Gorakhpur | MARK_REVIEW_REQUIRED; BIRTHPLACE |
+| 9 | Dihika Ashram | MARK_REVIEW_REQUIRED; IDENTITY_CONFIRMATION_REQUIRED; HISTORIC_STAY_OR_FOUNDATION |
+| 10 | YSS Math, Ranchi | MARK_REVIEW_REQUIRED; HERITAGE_STAY_CANDIDATE |
+| 11 | Maganvadi, Wardha | MARK_REVIEW_REQUIRED; HISTORIC_STAY_CANDIDATE |
+| 12 | Yogoda Math / Sri Yukteswar Ashram, Serampore | MARK_REVIEW_REQUIRED; MULTI_PERSON_SAME_SITE; HERITAGE_STAY_CANDIDATE |
+| 13 | Sri Ramanasramam | MARK_REVIEW_REQUIRED; MULTI_PERSON_SAME_SITE; HERITAGE_STAY_CANDIDATE |
+| 14 | Karar Ashram, Puri | MARK_REVIEW_REQUIRED; MULTI_PERSON_SAME_SITE; HERITAGE_STAY_CANDIDATE |
+| 15 | Hariharananda Gurukulam, Balighai | MARK_REVIEW_REQUIRED; SAMADHI_SITE |
+| 16 | Vivekananda ancestral house, Kolkata | MARK_REVIEW_REQUIRED; BIRTHPLACE |
+| 17 | Belur Math | MARK_REVIEW_REQUIRED; MAJOR_LINEAGE_SITE |
+| 18 | Khetri House | MARK_REVIEW_REQUIRED; HERITAGE_STAY_CANDIDATE |
+| 19 | Vivekananda Rock Memorial | MARK_REVIEW_REQUIRED |
+| 20 | Kamarpukur birthplace/temple complex | MARK_REVIEW_REQUIRED; BIRTHPLACE |
+| 21 | Dakshineswar Kali Temple | MARK_REVIEW_REQUIRED; MULTI_PERSON_SAME_SITE; HERITAGE_STAY_CANDIDATE |
+| 22 | Cossipore Garden House | MARK_REVIEW_REQUIRED; HERITAGE_STAY_CANDIDATE |
+| 23 | Akrura Ghat, Vrindavan | MARK_REVIEW_REQUIRED; PROXIMITY_BACKFILL_REQUIRED |
+| 24 | Ramana birthplace site, Tiruchuzhi | MARK_REVIEW_REQUIRED; BIRTHPLACE; IDENTITY_CONFIRMATION_REQUIRED |
+| 25 | Arunachaleswarar Temple | MARK_REVIEW_REQUIRED; ARUNACHALA_A_CLUSTER_CONTEXT |
+| 26 | Virupaksha Cave | MARK_REVIEW_REQUIRED; HERITAGE_STAY_CANDIDATE; ARUNACHALA_A_CLUSTER_CONTEXT |
+| 27 | Skandashram | MARK_REVIEW_REQUIRED; HERITAGE_STAY_CANDIDATE; ARUNACHALA_A_CLUSTER_CONTEXT |
+| 28 | Rana Mahal Ghat | MARK_REVIEW_REQUIRED; VARANASI_REOPEN; PROXIMITY_BACKFILL_REQUIRED |
+| 29 | 4 Garpar Road | MARK_REVIEW_REQUIRED; MULTI_PERSON_SAME_SITE; HERITAGE_STAY_CANDIDATE |
+| 30 | Tulsi Bose House / Sadhana Mandir | MARK_REVIEW_REQUIRED; IDENTITY_CONFIRMATION_REQUIRED; PROXIMITY_BACKFILL_REQUIRED |
+| 31 | Calcutta Medical College | MARK_REVIEW_REQUIRED; EVENT_EVIDENCE_CONFIRMATION_REQUIRED |
+
+## Bestaande locaties: review-for-upgrade zonder wijziging
+
+De volgende bestaande locaties krijgen uitsluitend een review-vlag; hun huidige Mark-status blijft onaangetast:
+
+| bestaande locatie | nieuw signaal | vlag |
+|---|---|---|
+| `VNS-CAND-002` Lahiri Mahasaya original home | + Sri Yukteswar herhaalde bezoeken | `REVIEW_FOR_UPGRADE` alleen indien huidige status B/C; anders person-link verrijken zonder statuswijziging |
+| `VNS-CAND-009` Dashashwamedh Ghat | gecorrigeerde Babaji/Mataji/Lahiri-traditiescène | `REVIEW_FOR_UPGRADE` alleen indien huidige status B/C |
+| `VNS-CAND-004` / `VNS-CAND-011` | Lahiri–Trailanga meeting bij Panchganga Ghat Ashram | `IDENTITY_REVIEW` + `REVIEW_FOR_UPGRADE` indien dit exact dezelfde beoordeelde site blijkt en huidige status B/C |
+| `VNS-CAND-044` Ramnagar Fort | Lahiri/Kashi Naresh tutoring-lead | `IDENTITY_REVIEW`; daarna `REVIEW_FOR_UPGRADE` indie
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=538 path=runs/active/INDIAZILVER-CLUSTER-COMPLETENESS-AUDIT-001/ABC_REVIEW_QUEUE.md blob_sha=263489787e4cb04601d2ea6fba175bece6c595f8 original_offset=4096 original_length=933 payload_bytes=933 chunk_index=1 chunk_count=2 classification=text
+n bewezen same-site en huidige status B/C |
+| Kainchi Dham | + Ram Dass | `PERSON_LINK_UPGRADE`; status niet automatisch wijzigen |
+| NKB Vrindavan Ashram/samadhi | + Ram Dass | `PERSON_LINK_UPGRADE`; status niet automatisch wijzigen |
+| Mayavati Advaita Ashrama / `KB2-038` | + Vivekananda als stichter | `REVIEW_FOR_UPGRADE` zodra identity/nummering in Kumaon is afgerond, indien huidige status B/C |
+
+## Heritage stay policy voor deze audit
+
+`HERITAGE_STAY_CANDIDATE` betekent alleen: er is een historisch betekenisvol verblijf/woon-/ashramverband dat reviewwaarde kan hebben. Het betekent NIET dat Mark daar moet overnachten, dat de site nu accommodatie biedt, of dat route/nachten worden gekozen.
+
+## Geen automatische downgrade
+
+Nieuwe informatie kan een bestaande B/C mogelijk interessanter maken; deze audit bevat daarom uitsluitend upgrade-reviewvlaggen. Er wordt geen bestaande A, B of C verwijderd, verlaagd of gewijzigd.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=539 path=runs/active/INDIAZILVER-CLUSTER-COMPLETENESS-AUDIT-001/CLUSTER_RECALL_AUDIT.md blob_sha=084717598f6599251b4d0eab3b36a9fcb1c5da9c original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# CLUSTER_RECALL_AUDIT — INDIA ZILVER
+
+status: COMPLETE
+scope: repo-state on `agent/indiazilver-cluster-completeness-audit`
+rule: additief; geen bestaande locatie, permanent ID of Mark A/B/C gewijzigd.
+
+## Executive count
+
+- Eerder afgerond/bevroren/ABC-complete cluster dat nu inhoudelijk moet heropenen: **3**.
+- `REOPEN_REQUIRED: JA`: **VARANASI**, **BODH GAYA / GAYA-CORRIDOR**, **KUMAON**.
+- Tiruvannamalai/Arunachala telt NIET als heropening: het A-cluster is door Mark gelockt, maar de regionale METHOD_V2-sweep was expliciet nog niet gestart.
+
+## Clusteraudit
+
+| cluster | eerdere status | later reverse-discovery signaal | type | REOPEN_REQUIRED |
+|---|---|---|---|---|
+| VARANASI | 45 permanente locaties; Mark A/B/C afgerond; verblijf `VNS-HOTEL-001` locked | Lahiri: Rana Mahal Ghat bevestigd; Panchganga Ghat Ashram-signaal; Ramnagar-paleis/Kashi Naresh-link; postmortale/hostgraph-leads. Sri Yukteswar: Pranabashram Benares-lead. | 1 exact nieuwe fysieke kandidaat + same-site/identity checks + leads | **JA** |
+| BODH GAYA | Mark-besluiten locked voor de open Bodh-Gaya-set; numbering registry aanwezig | Sri Yukteswar: monastieke geloften in Bodh Gaya onder Mahant Krishnadayal Giri, later tweedetector-plausible. Anandamayi Ma: Rajgir als nabij corridor-signaal, maar fysieke identiteit/persoonlijke aanwezigheid niet hard genoeg. | stad/regio/lead; nog geen nieuwe exacte site uit deze claims | **JA** |
+| GAYA AIRPORT–BODH GAYA CORRIDOR | dubbele locatie-sweep gereconcilieerd, 0 nieuwe corridor-kandidaten | persoonslaag toont dat '0 nieuwe locatie-sweep-kandidaten' niet gelijkstaat aan persoons-compleet; Bodh-Gaya/Sri-Yukteswar-lead moet in lokale proximity-backfill worden meegenomen | lead / methodische reopen | **JA** (samen met BODH GAYA) |
+| KUMAON | legacy `KUMAON-COMPLETE-001` had 46 genummerde locaties + LOCKED A/B/C | latere reverse/hostgraph-rescue vond Turiya Niwas en Bodh Ashram; beide inmiddels 080/081 A LOCKED. Vivekananda leverde daarnaast een Almora `REGION_MISS`-lead; Mayavati werd als bestaande `KB2-038` herkend | reeds bewezen fysieke misses + nieuwe city-level lead | **JA** |
+| TIRUVANNAMALAI / ARUNACHALA | Mark: A-cluster locked | landelijke person sweep vond Arunachaleswarar, Virupaksha Cave, Skandashram, Sri Ramanasramam + Tiruchuzhi; Yogananda-link op Ramanasramam | nieuwe fysieke kandidaten | **NEE — geen 'reopen'; clusterresearch was nog niet regionaal afgerond** |
+
+## Waarom Varanasi aantoonbaar niet meer 'travel-complete' is
+
+De permanente Varanasi registry bevat al `VNS-CAND-004 Shri Tailanga Swami Math`, `011 Panchganga Ghat`, `044 Ramnagar Fort` en 001-045 zonder nummerwijziging. Latere Lahiri-reconciliatie bevestigt echter **Rana Mahal Ghat** als apart bezoek-/badpunt; die naam staat niet in de 001-045 registry. Panchganga Ghat Ashram moet eerst tegen 004/011 worden gededupliceerd; Ramnagar-paleis moet eerst tegen 044 worden gematcht. Geen nieuw nummer claimen voor die twee voordat identity-resolutie klaar is.
+
+## Bodh Gaya nuance
+
+De Sri-Yukteswar-claim 'Bodh Gaya monastieke geloften' is tweedetector-plausible maar heeft op deze branch nog geen voldoende specifieke fysieke klooster/site-identiteit. Daarom heropenen we de cluster voor lokale backfill, maar tellen we deze claim NIET als harde nieuwe-ID-kandidaat.
+
+## Kumaon nuance
+
+Kumaon is het bewijs dat heropening nodig kan zijn na een eerdere 'complete' sweep: Turiya Niwas en Bodh Ashram werden pas via latere host-/informele-verblijfslogica gered en hebben inmiddels 080/081. Zij worden hier dus niet opnieuw in de nieuwe-ID-queue gezet. De open Almora/Vivekananda-lead blijft een reden waarom `TRAVEL_COMPLETENESS_GATE` nog niet JA kan zijn.
+
+## Niet als fysieke kandidaat geteld
+
+- alleen stad/regio: Bareilly, Calcutta-familiehuis zonder adres, Danapur, Almora-lezingen, Rajgir-signaal;
+- niet-bestaande historische plek: Lahiri's oorspronkelijke Ghurni-site die door rivierverlegging verdween;
+- tijdelijk/vaag terrein: Kumbh Mela zonder vaste subsite, Ganga Sagar-kamp, Rajputana-bundel;
+- postmortale/traditieclaim zonder identificeerbare hui
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=540 path=runs/active/INDIAZILVER-CLUSTER-COMPLETENESS-AUDIT-001/CLUSTER_RECALL_AUDIT.md blob_sha=084717598f6599251b4d0eab3b36a9fcb1c5da9c original_offset=4096 original_length=69 payload_bytes=69 chunk_index=1 chunk_count=2 classification=text
+dige site;
+- mogelijke duplicates van bestaande permanente locaties.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=541 path=runs/active/INDIAZILVER-CLUSTER-COMPLETENESS-AUDIT-001/COMPLETENESS_GATE.md blob_sha=2fe87e3af2d8081bbb11de582ca417d7bcdb2f66 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# COMPLETENESS_GATE — INDIA ZILVER
+
+status: COMPLETE
+
+## Gate-definitie
+
+Een cluster krijgt `TRAVEL_COMPLETENESS_GATE: JA` uitsluitend wanneer:
+1. `LOCATION_SWEEP_DONE: JA`;
+2. `PERSON_REVERSE_DONE: JA` voor de relevante persoonslagen die in de repo beschikbaar zijn;
+3. `LOCAL_PROXIMITY_DONE: JA`;
+4. alle bekende nieuwe fysieke kandidaten een permanent ID hebben of expliciet als duplicate/non-candidate zijn opgelost (`NEW_IDS_ASSIGNED: JA`);
+5. alle nieuwe fysieke kandidaten door Mark zijn beoordeeld (`NEW_ABC_REVIEWED: JA`);
+6. geen bekende persoonslocatie als onbeoordeelde fysieke kandidaat tussen de lagen blijft hangen.
+
+`PERSON_REVERSE_DONE` betekent hier niet dat iedere historische persoon absoluut saturated is; het betekent dat de voor dit cluster bekende beschikbare reverse-resultaten zijn verwerkt. Wanneer een relevante person-reconciliatie zelf `SATURATED: NEE` meldt, wordt dat als open epistemische beperking vermeld en kan de travel gate niet op basis van schijnzekerheid worden gesloten.
+
+## Toepassing per cluster
+
+| cluster | LOCATION_SWEEP_DONE | PERSON_REVERSE_DONE | LOCAL_PROXIMITY_DONE | NEW_IDS_ASSIGNED | NEW_ABC_REVIEWED | TRAVEL_COMPLETENESS_GATE | reden |
+|---|---|---|---|---|---|---|---|
+| VARANASI | JA | **NEE** | NEE | NEE | NEE | **NEE** | latere Lahiri/Sri-Yukteswar-reconciliaties leveren Rana Mahal + dedup/identity-leads op; Core-Kriya saturation blijft deels open |
+| BODH GAYA / GAYA-CORRIDOR | JA | **NEE** | NEE | NVT/NEE | NVT/NEE | **NEE** | Sri-Yukteswar Bodh-Gaya-vows lead en Rajgir-signaal nog niet fysiek lokaal teruggevuld; persoonslaag niet volledig verwerkt |
+| KUMAON | JA (legacy + resweep) | **NEE** | NEE | DEELS | DEELS | **NEE** | 079/080/081 opgelost, maar Almora/Vivekananda-region-miss en resterende tijdelijke circuitpunten houden de gate open |
+| TIRUVANNAMALAI / ARUNACHALA | NEE | DEELS | NEE | NEE | NEE | **NEE** | Mark A-cluster locked, maar regionale METHOD_V2 dubbele sweep expliciet nog niet voltooid; 5 fysieke person-sites wachten op regionale reconciliatie/IDs/review |
+| PURI / ODISHA | NEE | DEELS | NEE | NEE | NEE | **NEE** | Karar + Balighai vormen nieuw person-discovered cluster; nog geen regionale sweep/reeks/A-B-C |
+| KOLKATA / WEST-BENGAL CORE | NEE | DEELS | NEE | NEE | NEE | **NEE** | meerdere nieuwe sterke fysieke locaties en Core-Kriya Tier-2/Tier-1 leads; nog geen regionale reconciliatie |
+| VRINDAVAN | NEE/ONBEKEND als zelfstandige complete cluster | DEELS | NEE | NEE | NEE | **NEE** | bestaande NKB-site plus nieuwe Anandamayi/Akrura-punten; lokale dedup/proximity ontbreekt |
+| HARIDWAR/KANKHAL | NEE | DEELS | NEE | NEE | NEE | **NEE** | Matri Mandir is nieuw sterk punt; hostgraph-leads bestaan; geen regionaal complete laag |
+| DELHI | NEE | DEELS | NEE | NEE | NEE | **NEE** | twee NKB T1-sites + Anandamayi T2-signaal; geen regionale sweep/review |
+| overige nieuwe losse regio's (Ranchi, Wardha, Gorakhpur, Kanpur, Khetri, Kanyakumari, Dehradun) | NEE | DEELS | NEE | NEE | NEE | **NEE** | person-first discovery moet nog door location + proximity + ID + Mark-review heen |
+
+## Heropen-gate
+
+Voor de drie eerder afgewerkte travelclusters geldt:
+
+- **VARANASI: REOPEN_REQUIRED JA**
+- **BODH GAYA/GAYA-CORRIDOR: REOPEN_REQUIRED JA**
+- **KUMAON: REOPEN_REQUIRED JA**
+
+Deze heropening verwijdert geen eerder werk. Ze voegt reverse-discovery, dedup, proximity en review toe aan wat al bestaat.
+
+## Stopvoorwaarden vóór opnieuw sluiten
+
+### Varanasi
+- Rana Mahal Ghat fysieke identity + betrouwbare coördinaat;
+- dedup Panchganga Ghat Ashram tegen 004/011;
+- dedup Ramnagar palace tegen 044;
+- Benares-leads uit Sri-Yukteswar/Lahiri reconciliaties triëren op huidige fysieke identiteit;
+- daarna proximity-bands tegen alle bestaande beoordeelde VNS-sites;
+- nieuw ID append-only waar echt nieuw;
+- Mark A/B/C review.
+
+### Bodh Gaya/Gaya-corridor
+- Sri-Yukteswar Bodh-Gaya-vows claim tot fysieke site of expliciet `ALLEEN_PLAATS/UNRESOLVED` oplossen;
+- Rajgir-signaal correct buiten/binnen lokale backfill begrenzen zonder routekeuze;
+- proximity-backfill uitvoeren;
+- eventuele nieuw
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=542 path=runs/active/INDIAZILVER-CLUSTER-COMPLETENESS-AUDIT-001/COMPLETENESS_GATE.md blob_sha=2fe87e3af2d8081bbb11de582ca417d7bcdb2f66 original_offset=4096 original_length=715 payload_bytes=715 chunk_index=1 chunk_count=2 classification=text
+e fysieke sites via ID + Mark-review verwerken.
+
+### Kumaon
+- Almora Vivekananda `REGION_MISS` tot exacte fysieke kandidaat of `ALLEEN_PLAATS` oplossen;
+- resterende relevante tijdelijke Vivekananda-circuitpunten identity-checken zoals de bestaande status voorschrijft;
+- proximity-backfill op nieuwe/geredde sites afronden;
+- geen bestaande 079/080/081 wijzigen.
+
+## Projectbrede conclusie
+
+Op deze branch krijgt **geen** geauditeerd cluster `TRAVEL_COMPLETENESS_GATE: JA`. Dat is een bewuste kwaliteitsuitkomst: eerder 'afgerond' betekende in enkele gevallen alleen dat de location-first laag klaar was. De nieuwe standaard vereist location-first + person-reverse + local-proximity + immutable IDs + Mark-review.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=543 path=runs/active/INDIAZILVER-CLUSTER-COMPLETENESS-AUDIT-001/MISSED_NEARBY_RISK.md blob_sha=ffd0a2295a8a669bce29b6f528d89d627ceb9853 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# MISSED_NEARBY_RISK — INDIA ZILVER
+
+status: COMPLETE_WITH_DISTANCE_LIMITATION
+rule: alleen bestaande betrouwbare coördinaten/afstanden; niets geraden.
+
+## Kernuitkomst
+
+- nieuwe fysieke kandidaten in de strikte ID/A-B-C-queue: **31**
+- daarvan **bevestigd <=1 km** van een reeds beoordeelde/gekozen locatie: **0**
+- daarvan **bevestigd <=3 km** van een reeds beoordeelde/gekozen locatie: **0**
+- interpretatie: dit zijn **bevestigde lower bounds**, niet de claim dat er werkelijk geen kandidaten binnen 1 of 3 km liggen.
+- reden: voor de nieuwe fysieke kandidaten staat op deze branch geen voldoende complete set betrouwbare kandidaatcoördinaten + vergelijkbare bestaande A/B/C-coördinaten waarmee de bands verliesloos kunnen worden berekend. TASK.md verbiedt raden.
+
+## Risicobands
+
+| kandidaat / signaal | cluster | betrouwbare afstand tot bestaande beoordeelde locatie | band | same-site / complex | actie |
+|---|---|---:|---|---|---|
+| Rana Mahal Ghat | Varanasi | UNKNOWN | >10 km/unknown | NEE bekend | coördinaten valideren en tegen 001-045 proximity-backfill doen |
+| Panchganga Ghat Ashram / Trailanga Swami meeting | Varanasi | identiteit eerst oplossen tegen `VNS-CAND-004` en `VNS-CAND-011` | UNKNOWN | **POSSIBLE_SAME_SITE_OR_COMPLEX** | geen nieuw ID vóór dedup/identity |
+| Ramnagar palace / Kashi Naresh tutoring | Varanasi | identiteit eerst oplossen tegen `VNS-CAND-044 Ramnagar Fort` | UNKNOWN | **POSSIBLE_SAME_SITE_OR_COMPLEX** | geen nieuw ID vóór dedup/identity |
+| Pranabashram, rented ashram house Benares | Varanasi | UNKNOWN | >10 km/unknown | onbekend | lead; exacte huidige fysieke identiteit ontbreekt |
+| Anandamayi Ma Ashram, Vrindavan | Vrindavan | UNKNOWN t.o.v. reeds bekende NKB Vrindavan-site | >10 km/unknown | onbekend | betrouwbare coördinatenpaarvergelijking nodig |
+| Akrura Ghat, Vrindavan | Vrindavan | UNKNOWN t.o.v. reeds bekende NKB Vrindavan-site | >10 km/unknown | onbekend | betrouwbare coördinatenpaarvergelijking nodig |
+| overige 28 strikte nieuwe fysieke kandidaten | nieuwe/niet eerder A-B-C-complete regio's | geen betrouwbaar vergelijkingspaar in de geraadpleegde repo-lagen | >10 km/unknown | waar van toepassing in ID-queue gemarkeerd | lokale proximity-backfill bij regionale reconciliatie |
+
+## Bands — bevestigde aantallen
+
+| band | bevestigd aantal |
+|---|---:|
+| <=250 m | 0 |
+| 250-500 m | 0 |
+| 0.5-1 km | 0 |
+| 1-3 km | 0 |
+| 3-10 km | 0 |
+| >10 km/unknown | 31 |
+
+`>10 km/unknown` betekent hier hoofdzakelijk **UNKNOWN**. Het mag niet worden gelezen als bewijs dat de locatie >10 km weg ligt.
+
+## Hoogste proximity-risico zonder toegestane afstandsclaim
+
+### Varanasi
+De kans op een praktisch relevante near-miss is het hoogst omdat er al 45 permanent genummerde en door Mark beoordeelde locaties bestaan én de reverse-discovery later nieuwe/meer-granulaire Varanasi-signalen opleverde. Vooral Rana Mahal Ghat moet daarom vóór travel-completeness tegen de bestaande Varanasi-set worden gegeocodeerd en geband.
+
+### Vrindavan
+Er bestaat al een bekende/locked Neem Karoli Baba-ashram/samadhi-site, terwijl de persoonslaag twee andere fysiek benoembare Vrindavan-punten oplevert: Anandamayi Ma Ashram en Akrura Ghat. Zonder betrouwbare repo-coördinaten wordt geen 1/3-km-afstand geclaimd.
+
+## Same-site / multi-person signalen
+
+- `VNS-CAND-002` Lahiri Mahasaya original home: reeds bestaand; extra Sri Yukteswar-link, **MULTI_PERSON_SAME_SITE**, geen nieuw ID.
+- Karar Ashram, Puri: één fysieke nieuwe site met Sri Yukteswar + Hariharananda, **MULTI_PERSON_SAME_SITE**; exact één nieuwe ID nodig.
+- Sri Ramanasramam: Ramana Maharshi + Yogananda, **MULTI_PERSON_SAME_SITE**; exact één nieuwe ID nodig.
+- Yogoda Math/Serampore: Sri Yukteswar + Yogananda, **MULTI_PERSON_SAME_SITE**; exact één nieuwe ID nodig.
+- Dakshineswar Kali Temple: Ramakrishna-kernsite + Vivekananda-ontmoetingslink, **MULTI_PERSON_SAME_SITE**; exact één nieuwe ID nodig.
+- 4 Garpar Road: Yogananda-familiesite en Sri-Yukteswar/Babaji-gerelateerde bronlaag, **MULTI_PERSON_SAME_SITE**; exact één nieuwe ID nodig.
+
+## Gate-consequ
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=544 path=runs/active/INDIAZILVER-CLUSTER-COMPLETENESS-AUDIT-001/MISSED_NEARBY_RISK.md blob_sha=ffd0a2295a8a669bce29b6f528d89d627ceb9853 original_offset=4096 original_length=351 payload_bytes=351 chunk_index=1 chunk_count=2 classification=text
+entie
+
+Geen cluster met nieuwe kandidaten krijgt `LOCAL_PROXIMITY_DONE: JA` uitsluitend op basis van deze audit. Varanasi, Bodh Gaya/Gaya-corridor en Kumaon blijven daarom heropen totdat de bekende reverse-discovery-leads lokaal zijn teruggevuld. Voor nieuwe regio's moet proximity onderdeel zijn van de eerste regionale reconciliatie, niet achteraf.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=545 path=runs/active/INDIAZILVER-CLUSTER-COMPLETENESS-AUDIT-001/REOPEN_AND_ID_QUEUE.md blob_sha=2709b13e71ec7497fd9b18190e67674523ab0d8a original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# REOPEN_AND_ID_QUEUE — INDIA ZILVER
+
+status: COMPLETE
+policy: bestaande permanente IDs nooit wijzigen/hergebruiken. Nieuwe nummers pas append-only claimen zodra de betreffende regionale registercontext is geopend en dedup/identity is afgerond.
+
+## Telling
+
+**31 unieke nieuwe fysieke kandidaten** vereisen een permanent ID-traject plus een Mark A/B/C-review.
+
+Niet in deze 31: alleen stad/regio, verdwenen historische sites, tijdelijke terreinen, onbevestigde aanwezigheid, en kandidaten die waarschijnlijk/zeker dezelfde fysieke site zijn als een bestaand permanent ID.
+
+## Queue
+
+| # | fysieke kandidaat | regio | persoonslink(s) | status fysieke identiteit | append-context |
+|---:|---|---|---|---|---|
+| 1 | Matri Mandir / Anandamayi Ma Mahasamadhi, Kankhal | Haridwar/Kankhal | Anandamayi Ma | exact fysiek | nieuwe Haridwar/Kankhal regionale reeks |
+| 2 | Anandamayi Ma Ashram, Vrindavan | Vrindavan | Anandamayi Ma | fysiek bevestigd; exact adres nog regionaal pinnen | bestaande/nieuwe Vrindavan regionale reeks na dedup |
+| 3 | Kishenpur Anandamayi Ashram | Dehradun | Anandamayi Ma | fysiek bevestigd; exacte sublocatie regionaal pinnen | Dehradun-reeks |
+| 4 | Neem Karoli Baba birthplace temple, Akbarpur | Ambedkar Nagar, UP | Neem Karoli Baba | exact fysiek | regionale reeks |
+| 5 | Annapoorna Mandir / NKB Delhi Ashram, Mehrauli | Delhi | Neem Karoli Baba | fysiek bevestigd | Delhi-reeks |
+| 6 | North Delhi Hanuman Temple, Yamuna-side | Delhi | Neem Karoli Baba | fysiek bevestigd, gedateerd | Delhi-reeks |
+| 7 | Panki Hanuman Temple | Kanpur | Neem Karoli Baba | fysiek bevestigd | Kanpur-reeks |
+| 8 | Yogananda birthplace/memorial site near Kotwali | Gorakhpur | Yogananda | fysiek bevestigd; memorial in ontwikkeling / exact subsite check | Gorakhpur-reeks |
+| 9 | Dihika Ashram | Dihika, West Bengal | Yogananda | historische fysieke site; huidige gebouwidentity nog bevestigen | West-Bengal/Dihika-reeks na identity |
+| 10 | Yogoda Satsanga Sakha Math, Old Hazaribag Road | Ranchi | Yogananda | exact fysiek | Ranchi-reeks |
+| 11 | Maganvadi Ashram | Wardha | Yogananda | fysiek bevestigd; exacte toegang/marker nog pinnen | Wardha-reeks |
+| 12 | Yogoda Math / Sri Yukteswar Ashram, Serampore | Serampore | Sri Yukteswar + Yogananda | exact fysiek | West-Bengal/Serampore-reeks |
+| 13 | Sri Ramanasramam | Tiruvannamalai | Ramana Maharshi + Yogananda | exact fysiek | Tiruvannamalai/Arunachala-reeks |
+| 14 | Karar Ashram, Swargadwar | Puri | Sri Yukteswar + Hariharananda | exact fysiek | Puri/Odisha-reeks |
+| 15 | Hariharananda Gurukulam / Shri Guru Mandir, Balighai | Puri/Balighai | Hariharananda | fysiek bevestigd; exacte marker nog regionaal pinnen | Puri/Odisha-reeks |
+| 16 | Vivekananda ancestral house, 105 Vivekananda Road | Kolkata | Vivekananda | exact fysiek | Kolkata/West-Bengal-reeks |
+| 17 | Belur Math | Belur/Howrah | Vivekananda | exact fysiek | Kolkata/Howrah-reeks |
+| 18 | Khetri House / historical Khetri stay-site | Khetri | Vivekananda | fysiek bevestigd; exacte subsite check | Rajasthan/Khetri-reeks |
+| 19 | Vivekananda Rock Memorial / Shripada Parai | Kanyakumari | Vivekananda | exact fysiek | Tamil Nadu/Kanyakumari-reeks |
+| 20 | Kamarpukur Ramakrishna birthplace/temple complex | Kamarpukur | Ramakrishna | exact fysiek | West-Bengal-reeks |
+| 21 | Dakshineswar Kali Temple | Kolkata-region | Ramakrishna + Vivekananda | exact fysiek | Kolkata-region reeks |
+| 22 | Cossipore Garden House | Kolkata | Ramakrishna | exact fysiek | Kolkata-reeks |
+| 23 | Akrura Ghat | Vrindavan | Ramakrishna | fysiek bevestigd; exacte sublocatie deels | Vrindavan-reeks |
+| 24 | Ramana Maharshi birthplace site, Tiruchuzhi | Tiruchuzhi | Ramana Maharshi | fysieke geboorteplek bevestigd; canonieke huidige site pinnen | Tamil Nadu/Tiruchuzhi-reeks |
+| 25 | Arunachaleswarar Temple — Ramana arrival/stay subsite | Tiruvannamalai | Ramana Maharshi | exact fysiek | Tiruvannamalai/Arunachala-reeks |
+| 26 | Virupaksha Cave | Arunachala | Ramana Maharshi | exact fysiek | Tiruvannamalai/Arunachala-reeks |
+| 27 | Skandashram | Arunachala | Ramana Mah
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=546 path=runs/active/INDIAZILVER-CLUSTER-COMPLETENESS-AUDIT-001/REOPEN_AND_ID_QUEUE.md blob_sha=2709b13e71ec7497fd9b18190e67674523ab0d8a original_offset=4096 original_length=2546 payload_bytes=2546 chunk_index=1 chunk_count=2 classification=text
+arshi | exact fysiek | Tiruvannamalai/Arunachala-reeks |
+| 28 | Rana Mahal Ghat | Varanasi | Lahiri Mahasaya | bronmatig fysiek bevestigd; niet aanwezig in VNS 001-045 registry | **append aan Varanasi-reeks na coordinate check** |
+| 29 | 4 Garpar Road | Kolkata | Yogananda + Sri Yukteswar + Babaji-traditielaag | exact adres fysiek | Kolkata-reeks |
+| 30 | Tulsi Bose House / Sadhana Mandir, naast 4 Garpar Road | Kolkata | Sri Yukteswar / Yogananda-netwerk | benoemde fysieke site; exacte identity/marker bevestigen | Kolkata-reeks na identity |
+| 31 | Calcutta Medical College | Kolkata | Sri Yukteswar | instelling fysiek exact; persoonsgebeurtenis `PLAUSIBLE`, evidence confirmation vereist | Kolkata-reeks **pas na event-verificatie** |
+
+## Geen nieuw ID vóór identity/dedup
+
+| signaal | waarom geen nieuw nummer nu |
+|---|---|
+| Panchganga Ghat Ashram / Trailanga Swami meeting | match eerst tegen bestaande `VNS-CAND-004 Shri Tailanga Swami Math` en `VNS-CAND-011 Panchganga Ghat` |
+| Ramnagar palace / Kashi Naresh tutoring | match eerst tegen `VNS-CAND-044 Ramnagar Fort (zetel van Kashi Naresh)` |
+| VNS Lahiri house / Sri Yukteswar visits | al `VNS-CAND-002`; alleen person-link upgrade |
+| Dashashwamedh Ghat Babaji/Mataji/Lahiri scene | al `VNS-CAND-009`; alleen person-link upgrade |
+| Kainchi Dham / Ram Dass | bestaande Kumaon-locatie; alleen person-link upgrade |
+| NKB Vrindavan Ashram + samadhi / Ram Dass | bestaande locked locatie; alleen person-link upgrade |
+| Mayavati Advaita Ashrama / Vivekananda | al bestaande Kumaon-kandidaat `KB2-038`; identity/nummering volgens Kumaon-status, geen nieuw duplicaat |
+| Turiya Niwas en Bodh Ashram | reeds gered en permanent 080/081 A LOCKED; niet opnieuw nummeren |
+
+## Leads die nog géén fysieke-ID-kandidaat zijn
+
+Bodh Gaya monastic-vows site (Sri Yukteswar), Rajgir Anandamayi-signaal, Almora Vivekananda-lezingslocatie, Pranabashram Benares, Keshabananda-room/hostgraph-sites, naamloze maharaja-huizen, Danapur/Bareilly/stadsverblijven, Rameswaram/Kundukal zonder voldoende exacte sublocatie, en andere TIER-2/TIER-3 person-leads blijven in de reopen/backfill-laag tot fysieke identiteit aantoonbaar is.
+
+## Append-regel
+
+Geen van de 31 krijgt in dit document een definitief driecijferig nummer. De ALL_INDIA-regel is immutable en append-only; een nieuw nummer wordt pas geclaimd wanneer het juiste regionale register, dedup en fysieke identiteit beschikbaar zijn. Voor Varanasi betekent dit concreet: **na 045 append**, nooit een bestaand nummer wijzigen of hergebruiken.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=547 path=runs/active/INDIAZILVER-CLUSTER-COMPLETENESS-AUDIT-001/STATUS.md blob_sha=15e6378dbc3c746505a11fc0fc3bea4fd8be13e4 original_offset=0 original_length=1786 payload_bytes=1786 chunk_index=0 chunk_count=1 classification=text
+# STATUS — INDIAZILVER-CLUSTER-COMPLETENESS-AUDIT-001
+
+state: COMPLETE
+branch: agent/indiazilver-cluster-completeness-audit
+owner: INDIA ZILVER
+completed_at: 2026-08-19
+outputs: CLUSTER_RECALL_AUDIT.md, MISSED_NEARBY_RISK.md, REOPEN_AND_ID_QUEUE.md, ABC_REVIEW_QUEUE.md, COMPLETENESS_GATE.md, TOP_REOPEN_PRIORITIES.md
+
+## Final counts
+
+- previously finished travel clusters requiring reopen: **3**
+  - Varanasi
+  - Kumaon
+  - Bodh Gaya / Gaya-corridor (counted as one travel cluster)
+- unique new physical candidates requiring permanent-ID processing + Mark A/B/C review: **31**
+- confirmed within <=1 km of an already reviewed/chosen location using reliable repo distances: **0**
+- confirmed within <=3 km: **0**
+- distance caveat: these are confirmed lower bounds, not a claim of no proximity. Reliable coordinate pairs are incomplete; no distances were guessed. All unresolved proximity cases remain explicitly queued for local backfill.
+
+## Safety / immutability
+
+- no existing location removed;
+- no existing permanent ID changed or reused;
+- no Mark A/B/C decision changed, removed, upgraded or downgraded;
+- no route, nights or hotel choice made for Mark;
+- no PDF/merge performed.
+
+## Key reopen reason
+
+Location-first completion was insufficient as a travel-completeness criterion. Later person-reverse/reconciliation layers produced physical misses and identity/proximity leads after earlier cluster closure. The new gate therefore requires location sweep + person reverse + local proximity + immutable ID resolution + Mark review.
+
+next_allowed_step: controller/integrator may consume the six outputs and schedule regional reopen/backfill tasks. Any new permanent number assignment must remain append-only and occur only after regional identity/dedup context is available.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=548 path=runs/active/INDIAZILVER-CLUSTER-COMPLETENESS-AUDIT-001/TASK.md blob_sha=59822e2ec502a07e0d07ce0d2504e6c20e791448 original_offset=0 original_length=4022 payload_bytes=4022 chunk_index=0 chunk_count=1 classification=text
+# INDIA ZILVER — CLUSTER COMPLETENESS / REVERSE-RECALL AUDIT
+
+STATUS: READY
+OWNER: INDIA ZILVER
+MODE: CROSS-LAYER AUDIT
+GOAL: aantonen welke eerder afgeronde locatieclusters door persoonsgerichte sweeps onvolledig bleken en voorkomen dat Mark tijdens de reis op korte afstand van een relevante plek komt zonder dat die ooit aan hem is voorgelegd.
+
+## Kernhypothese
+Eerdere locatiegerichte sweeps waren niet volledig genoeg als enige detector. Persoonsgerichte sweeps hebben aantoonbaar nieuwe locaties gevonden. Daarom moet elk reisrelevant cluster vóór route-lock drie detectierichtingen doorstaan:
+1. LOCATION_TO_PERSON / klassieke locatiesweep;
+2. PERSON_TO_LOCATION / persoonsgerichte reverse discovery;
+3. LOCAL_PROXIMITY_BACKFILL / lokale nabijheidsaudit rond bestaande en nieuw gevonden kandidaten.
+
+## Opdracht
+Maak repo-breed, op basis van reeds beschikbare resultaten en zonder bestaande keuzes te verwijderen:
+
+1. `CLUSTER_RECALL_AUDIT.md`
+   - inventariseer alle eerder als afgerond/bevroren/ABC-complete beschouwde clusters;
+   - leg per cluster vast welke nieuwe persoonslocaties later alsnog verschenen;
+   - markeer `REOPEN_REQUIRED: JA/NEE`;
+   - onderscheid exact nieuwe fysieke kandidaat, alleen stad/regio, conflict/lead.
+
+2. `MISSED_NEARBY_RISK.md`
+   - identificeer nieuwe fysieke kandidaten die op korte praktische afstand liggen van bestaande A/B/C-locaties of gekozen verblijf/basis;
+   - gebruik alleen betrouwbare bestaande coördinaten/afstanden; niet raden;
+   - bands: <=250 m, 250-500 m, 0.5-1 km, 1-3 km, 3-10 km, >10 km/unknown;
+   - extra vlag voor same-site of zelfde complex.
+
+3. `REOPEN_AND_ID_QUEUE.md`
+   - lijst alle nieuwe fysieke kandidaten die een nieuw permanent ID nodig hebben in hun bestaande cluster/regionale nummeringsreeks;
+   - geen bestaand ID wijzigen/hergebruiken;
+   - nog geen definitief nummer claimen als registercontext ontbreekt, maar exact aangeven waar append moet gebeuren.
+
+4. `ABC_REVIEW_QUEUE.md`
+   - elke nieuwe fysieke kandidaat krijgt `MARK_REVIEW_REQUIRED`;
+   - bestaande B/C met sterke nabijheid/synergie tot nieuwe A-waardige of multi-person plek krijgt `REVIEW_FOR_UPGRADE`;
+   - bestaande A/B/C nooit automatisch veranderen.
+
+5. `COMPLETENESS_GATE.md`
+   - definieer en pas per cluster toe:
+     `LOCATION_SWEEP_DONE`, `PERSON_REVERSE_DONE`, `LOCAL_PROXIMITY_DONE`, `NEW_IDS_ASSIGNED`, `NEW_ABC_REVIEWED`, `TRAVEL_COMPLETENESS_GATE`;
+   - `TRAVEL_COMPLETENESS_GATE: JA` alleen als geen bekende nieuwe persoonslocaties zonder review overblijven en een proximity-backfill is gedaan.
+
+6. `TOP_REOPEN_PRIORITIES.md`
+   - rangschik clusters op kans dat heropening de reis echt verandert: veel nieuwe locaties, multi-person overlaps, historisch verblijf/hotel, veel <=3km nabijheid, bestaande reisbasis/lock, hoge logistieke synergie.
+
+## Toegestane bronnen
+Lees bestaande clusteratlassen, A/B/C-besluiten, numbering registries, persoonsfreezes/reconciliaties, overlap/heatmap-resultaten en governance. Geen nieuwe landelijke persoonsmegasweep. Web alleen indien strikt nodig om een travel-relevante nabijheidsclaim of actuele fysieke identiteit van een reeds bekende kandidaat te verifiëren; geen brede discovery.
+
+## Speciale aandacht
+- Varanasi en andere reeds A/B/C-afgeronde clusters expliciet auditen.
+- Historisch betekenisvolle hotels/verblijven waar een Top-persoon werkelijk verbleef apart markeren als `HERITAGE_STAY_CANDIDATE`.
+- Exacte gedeelde sites van meerdere personen apart markeren als `MULTI_PERSON_SAME_SITE`.
+- Een locatie die 100 m van een bestaande routebasis ligt mag niet verdwijnen in een generieke stadsoverlap.
+
+## Grenzen
+Geen locaties verwijderen. Geen A/B/C namens Mark. Geen route/nachten/hotelkeuze namens Mark. Geen merge/PDF. Alle uitkomsten zijn additief.
+
+## Einde
+Commit alle zes outputs en STATUS.md op dezelfde branch. Rapporteer hoeveel clusters moeten heropenen, hoeveel nieuwe fysieke kandidaten een ID + A/B/C nodig hebben, en hoeveel <=1 km / <=3 km van reeds gekozen of beoordeelde locaties liggen.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=549 path=runs/active/INDIAZILVER-CLUSTER-COMPLETENESS-AUDIT-001/TOP_REOPEN_PRIORITIES.md blob_sha=79ba154303a097bab50e460c2e1f4d1ef67a79b0 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# TOP_REOPEN_PRIORITIES — INDIA ZILVER
+
+status: COMPLETE
+ranking_scope: kans dat heropening/aanvulling de reisinhoud praktisch kan veranderen; geen route- of verblijfskeuze namens Mark.
+
+## Ranglijst
+
+| rank | cluster | status | waarom hoog/laag |
+|---:|---|---|---|
+| 1 | **VARANASI** | REOPEN_REQUIRED | al 45 permanent genummerde en Mark-beoordeelde locaties + locked verblijf; latere persoonsreconciliatie levert een echt nieuwe fysieke kandidaat (Rana Mahal Ghat) en meerdere same-site/hostgraph-leads op. Hoogste risico op een gemiste plek vlak bij bestaand reiswerk, maar afstanden mogen pas na betrouwbare coordinate-backfill worden geclaimd. |
+| 2 | **KUMAON** | REOPEN_REQUIRED | bewezen historische failure mode: na een eerdere complete/locked laag moesten Turiya Niwas en Bodh Ashram alsnog worden gered en 080/081 A worden. Vivekananda/Almora blijft open; veel person-overlap en bestaande sterke A-sites. |
+| 3 | **BODH GAYA / GAYA-CORRIDOR** | REOPEN_REQUIRED | location-first en corridor-double-sweep waren klaar, maar reverse discovery levert een Sri-Yukteswar Bodh-Gaya-lead en Anandamayi/Rajgir-signaal. Fysieke identiteit is nog te dun; daarom lager dan Varanasi/Kumaon maar wel methodisch verplicht heropenen. |
+| 4 | **KOLKATA / WEST-BENGAL CORE** | NEW_CLUSTER_PRIORITY | grootste nieuwe fysieke kandidaatconcentratie: Vivekananda ancestral house, Belur Math, Kamarpukur, Dakshineswar, Cossipore, 4 Garpar Road, Tulsi Bose House, Calcutta Medical College plus Serampore; meerdere multi-person overlaps en historische verblijfplaatsen. Niet 'heropen' omdat deze regio niet eerder travel-complete was. |
+| 5 | **TIRUVANNAMALAI / ARUNACHALA** | NEW_CLUSTER_PRIORITY | Mark heeft het cluster al als A-cluster locked; person discovery levert Ramanasramam, Arunachaleswarar, Virupaksha Cave, Skandashram en Tiruchuzhi. Regionale METHOD_V2 is echter nog niet af; dit is afronden, niet heropenen. |
+| 6 | **PURI / ODISHA** | NEW_CLUSTER_PRIORITY | Karar Ashram is multi-person same-site (Sri Yukteswar + Hariharananda) en Balighai voegt een tweede zware fysieke lineage-site toe. Hoge heritage/samadhi-dichtheid. |
+| 7 | **VRINDAVAN** | NEW/EXPAND | reeds bekende NKB-site + nieuwe Anandamayi Ashram + Akrura Ghat; potentieel sterke lokale synergie, maar betrouwbare proximity-bands ontbreken nog. |
+| 8 | **HARIDWAR / KANKHAL** | NEW | Anandamayi Ma's Matri Mandir/mahasamadhi is een zwaar fysiek punt; overige hostgraph/ashram-leads moeten nog regionaal worden geverifieerd. |
+| 9 | **DELHI** | NEW | twee fysiek bevestigde NKB T1-sites plus zwakkere Anandamayi-signalen; geen eerdere regionale travel-complete laag. |
+| 10 | **RANCHI / WARDHA / GORAKHPUR / KANPUR / KHETRI / KANYAKUMARI / DEHRADUN** | NEW_SINGLETON_OR_SMALL_CLUSTER | sterke individuele sites, maar minder bekende lokale dichtheid in de huidige repo. Eerst regionaal clusteren voordat logistieke synergie kan worden vastgesteld. |
+
+## Scoringsfactoren toegepast
+
+- bewezen nieuwe fysieke locaties na eerdere completion;
+- multi-person same-site/overlap;
+- historisch verblijf, woonhuis, ashram, samadhi of birthplace;
+- bestaande Mark A/B/C of travel-lock;
+- potentieel <=3 km risico alleen als betrouwbare afstand bestaat; **geen punten toegekend op gegiste afstand**;
+- logistieke synergie alleen op aantoonbare clusterbasis, niet op routekeuze.
+
+## Heritage-stay / historical-stay highlights
+
+De sterkste historische verblijfskandidaten voor review zijn onder meer Ranchi YSS Math, Serampore Yogoda Math, Sri Ramanasramam, Karar Ashram, Dakshineswar, Cossipore Garden House, Khetri House, 4 Garpar Road, Virupaksha Cave en Skandashram. `HERITAGE_STAY_CANDIDATE` beschrijft historische betekenis; het is geen aanbeveling om daar te overnachten en geen claim dat de site accommodatie aanbiedt.
+
+## Multi-person same-site highlights
+
+- Lahiri house Varanasi — bestaande site, + Sri Yukteswar;
+- Karar Ashram — Sri Yukteswar + Hariharananda;
+- Sri Ramanasramam — Ramana Maharshi + Yogananda;
+- Serampore Yogoda Math — Sri Yukteswar + Yogananda;
+- Dakshineswar — Ramakrishna + Vivekananda;
+- 4 Garpar R
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=550 path=runs/active/INDIAZILVER-CLUSTER-COMPLETENESS-AUDIT-001/TOP_REOPEN_PRIORITIES.md blob_sha=79ba154303a097bab50e460c2e1f4d1ef67a79b0 original_offset=4096 original_length=429 payload_bytes=429 chunk_index=1 chunk_count=2 classification=text
+oad — Yogananda + Sri Yukteswar + Babaji-traditielaag;
+- Kainchi Dham en NKB Vrindavan — bestaande sites, + Ram Dass.
+
+## Prioriteitsconclusie
+
+Als uitsluitend de **eerder afgewerkte** clusters worden gerangschikt, is de volgorde:
+**1 Varanasi → 2 Kumaon → 3 Bodh Gaya/Gaya-corridor**.
+
+Nieuwe regio's moeten daarna volgens dezelfde completeness-gate worden opgebouwd, zodat de location-first fout niet opnieuw ontstaat.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=551 path=runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/ABC_REVIEW_AFTER_CLOSURE_QUEUE.md blob_sha=e10868ae45f994c5547d41321e159679b0987c65 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# ABC_REVIEW_AFTER_CLOSURE_QUEUE — INDIA ZILVER
+
+status: UPDATED_WITH_GEEL_TURQUOISE_WIT_ROOD_FINAL
+hard_rule: no A/B/C choice is changed or proposed automatically; this file only stages later Mark review after entity closure/ID assignment.
+
+## Existing 31-candidate review seed
+
+All 31 candidates from `REOPEN_AND_ID_QUEUE.md` remain `MARK_REVIEW_REQUIRED: JA` once their entity/ID gate is satisfied. No candidate receives an A/B/C here.
+
+Material context:
+- Sri Ramanasramam: `MULTI_PERSON_SAME_SITE` Ramana + Yogananda; child microsites explicit.
+- Dakshineswar Kali Temple complex: `MULTI_PERSON_SAME_COMPLEX`; room/Panchavati/Bel tree remain children.
+- Cossipore Garden House: final room child; cremation ghat physically distinct.
+- Ramana Arunachala cluster: Virupaksha, Mango Tree Cave, Skandashram and other cave/rock/spring sites remain distinct.
+- Akbarpur NKB: historic birth/family site and 2001 temple are a temporal chain, not one lifetime building.
+- Ranchi: historic Vidyalaya/current YSS campus is same-campus institutional succession; garden event remains child dependency.
+
+## Numeric proximity consequences
+
+Hard numeric gate used only endpoints whose coordinates are independently strong enough for the task. The old Varanasi 25–100 m working pins are preserved in the baseline but are not promoted to hard proximity evidence unless the Varanasi final decision overview also records a confirmed marker.
+
+Confirmed new-candidate proximity:
+- `OLD31-28` Rana Mahal Ghat ↔ permanent `019` Kedareshwar Temple/Kedar Ghat: **0.895 km (<=1 km)**. Existing `019` is **A**, therefore no `REVIEW_FOR_UPGRADE`; clustering/context only.
+- `OLD31-28` Rana Mahal Ghat ↔ permanent `018` Sankatha Devi Temple: **1.285 km (<=3 km)**. Existing `018` is **A**, therefore no `REVIEW_FOR_UPGRADE`; clustering/context only.
+
+Confirmed baseline reference pairs include 029↔031 0.620 km, 029↔033 0.165 km, 031↔033 0.642 km and Bodh Gaya 046↔047 1.224 km. These do not change existing protected A/B/C.
+
+ROOD and WIT contribute no new pair where both endpoints pass the hard WGS84 quality gate, so the final numeric totals remain **16 numeric pairs / 7 tight pairs**.
+
+### Existing B/C that merit later proximity screening after coordinate confirmation
+
+These are **not confirmed <=1/3-km findings**. Their old working pins place them near Rana Mahal and therefore they are explicitly staged for re-check once their own marker is confirmed:
+- `012` Harishchandra Ghat — current **B** — old working-pin screen ~0.594 km from Rana Mahal → `POTENTIAL_REVIEW_FOR_UPGRADE_AFTER_COORD_CONFIRMATION`.
+- `013` Kaal Bhairav Temple — current **B** — old working-pin screen ~1.958 km → same conditional review.
+- `026` Ramakrishna Mission Home of Service — current **C** — old working-pin screen ~1.330 km → same conditional review.
+- `027` Baba Keenaram Sthal / Krim Kund — current **C** — old working-pin screen ~1.589 km → same conditional review.
+- `040` Bharat Mata Temple — current **C** — old working-pin screen ~2.494 km → same conditional review.
+
+Do **not** treat those five screening distances as hard matrix results until their coordinate quality closes. `008` (B) has an explicitly rejected old coordinate; `023` (B) has an unresolved ~3 km coordinate conflict; `025` (B) has only an approximate 100–500 m class point. All three remain `DEPENDENCY_COORDINATE` rather than being forced into a proximity band.
+
+## Existing Varanasi enrichment / identity cases — protected decisions preserved
+
+- `002` Lahiri house is **A**. ROOD `LAHIRI-HOUSE::BUILDING` and Sri Yukteswar linkage are `PERSON_LINK_ENRICHMENT_ONLY`; parlor and threshold remain child microsites.
+- `009` Dashashwamedh Ghat is **A**. ROOD confirms the ghat parent; hidden Mataji cave remains R5 entity dependency.
+- `004` and `011` are both **A**. ROOD resolves Tailang Math/Panchganga parent identity; no A/B/C upgrade request.
+- `044` is a permanent but **PROVISIONAL_NO_ABC** record. ROOD resolves Ramnagar Fort parent identity but the tutoring room remains child-level; later treatm
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=552 path=runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/ABC_REVIEW_AFTER_CLOSURE_QUEUE.md blob_sha=e10868ae45f994c5547d41321e159679b0987c65 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+ent is an initial A/B/C decision, not an upgrade.
+- `VNS-HOTEL-001` remains `LOCKED_BY_MARK`; it is outside A/B/C candidate numbering.
+
+## New GEEL entities requiring later Mark review after ID/dedup
+
+Neem Karoli Baba / Ram Dass — Kumaon: Neeb Karori temple/cave/station; Hanuman Garhi parent/child hut; Bhumiadhar parent/room/first-meeting field; Kainchi child rock/room/Hanuman/bridge/Ram Dass room/river; Hotel Evelyn parent/patio; Ramsay Hospital. Kainchi parent itself is existing and receives enrichment only.
+
+Prayagraj / Vrindavan: 4 Church Lane parent and children; Ramakrishna Mission Hospital Vrindavan; NKB Vrindavan child office/courtyard; Seth Anandram Jaipuria Bhawan; Banke Bihari Temple; Fouzdar Kunj parent/room/veranda; Nidhivan and Ganga Mata historic hut. NKB Vrindavan parent remains existing/locked and is not duplicated.
+
+Ramana — Tiruvannamalai / Arunachala: Arunachaleswarar inner sanctum, Thousand-Pillared Hall and Patala Lingam; Mango Tree Cave; Satguru Swami Cave; Guhai Namasivaya; Tortoise Rock/Cave; Seven Springs; Sri Ramanasramam Mother shrine, Old Hall, kitchen, Mathrubhuteswara inner shrine, New Hall and Nirvana Room.
+
+Ramakrishna — Kolkata: Dakshineswar room/Panchavati/Bel-tree children; Balaram Mandir; Shyampukur Bati and first-floor room; Cossipore final room and distinct cremation ghat; Panihati Mani Sen property / Radhakanta temple and Raghava Pandit site.
+
+Rule for all: `ENTITY_CLOSURE_FIRST -> ID/DEDUP -> MARK_REVIEW`.
+
+## ROOD final feed — review staging after dedup
+
+ROOD contributes **204 temporary physical entity candidates**: 146 primary anchors plus 58 physical splits. Temporary ROOD keys are not permanent IDs. The final feed is consumed additively from `CORE_KRIYA_ENTITY_CANDIDATES.jsonl` and `CORE_KRIYA_SOURCE_RECORDS.jsonl`.
+
+### ROOD entities that are existing-parent enrichment, not new parent ABC items
+
+- `DASHASHWAMEDH::GHAT` → permanent `009`.
+- `LAHIRI-HOUSE::BUILDING` → permanent `002`.
+- `VARANASI-PANCHGANGA::GHAT` → permanent `011`.
+- `VARANASI-PANCHGANGA::TAILANG-MATH` → permanent `004`.
+- `RANA-MAHAL::GHAT` → `OLD31-28`.
+- `RAMNAGAR::FORT-PALACE` → permanent provisional `044`; parent identity closure does not itself create an A/B/C.
+- `GARPAR-4::HOUSE` → `OLD31-29`.
+- `KARAR::COMPLEX` → `OLD31-14`.
+- `DUNAGIRI-YSS::PANDUKHOLI-CAVE` → dedup against current permanent `079` only at the **current claimant site** layer; this must not convert the unresolved 1861 cave equivalence into fact.
+
+### ROOD R1–R3 items that enter later Mark review after entity/ID closure
+
+- Dunagiri/Gagas landscape anchors; Prayagraj 1894 mela-zone and present claimant banyan; Rai Ghat banyan.
+- Lahiri-house front parlor and threshold; 4 Garpar room/roof; Karar samadhi and Hariharananda room-level sites.
+- Parangipettai Babaji Nagaraj Mandir and claimed birth substrate — tradition-specific and separate from Dunagiri/Haidakhan.
+- Satopanth lake-zone; Keshav Prayag confluence; Dunagiri/Harapriya temple dedup context.
+- Haidakhan historic cave and Dhuni, under the separate Haidakhandi claimant tradition.
+- Ghurni lost-estate landscape and Jaleshwar successor shrine.
+- Ramnagar tutoring room; current Keshav Ashram Haridwar as possible successor only.
+- Serampore Priyadham historic terrain, current Smriti Mandir successor, courtyard/hall/sitting-room/eating-patio/bedroom.
+- Tulsi Bose historic house identity case and current YSS Garpar adjacent/successor centre.
+- Panthi historic plot and demolished room; Dihika historic school/current retreat chain; Albert Hall/current Indian Coffee House.
+- Current Regent Hotel 8 BEST Road remains a **same-name candidate**, not the proven 1936 Regent Hotel.
+
+All of these remain `MARK_REVIEW_REQUIRED` only after `ENTITY_CLOSURE_FIRST -> ID/DEDUP`. None receives an A/B/C here.
+
+## Babaji claimant-tradition ABC guard
+
+Do not pool evidence or inherit A/B/C across claimant traditions. The following are separate review/evidence families:
+
+- historic AOAY Dunagiri 1861 cave-field / unnamed initiation cave;
+- current YSS Pandukholi cave identification (c
+<<< END CHUNK >>>
+

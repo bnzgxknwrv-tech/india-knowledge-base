@@ -1,0 +1,343 @@
+>>> CHUNK stream_row=832 path=research/active/BRAJ-COMPLETE-001/GOUD/experience_reviews.jsonl blob_sha=bd1d5807f3971fb10b925c64b8bf35b0bcb0da15 original_offset=8192 original_length=2892 payload_bytes=2892 chunk_index=2 chunk_count=3 classification=text
+":null,"checked_at":"2026-07-15","positive_themes":[],"negative_themes":["aliases, boundary and institution conflicted"],"basis_reliability":"BLOCKED","notes":"Resolve identity before experience synthesis."}
+{"review_id":"GER-023","location_id":"222","candidate_id":"BRJ-TMP-023","platform":"VALIDATED_ZILVER_SYNTHESIS","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["hilltop devotion and views"],"negative_themes":["stairs, ordinary access, festivals and photography"],"basis_reliability":"PARTIAL","notes":"Systematic recent multi-platform sample remains incomplete."}
+{"review_id":"GER-024","location_id":"223","candidate_id":"BRJ-TMP-024","platform":"VALIDATED_ZILVER_SYNTHESIS","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["quiet hill and bhajan atmosphere"],"negative_themes":["lineage institution and programme"],"basis_reliability":"PARTIAL","notes":"Systematic recent multi-platform sample remains incomplete."}
+{"review_id":"GER-025","location_id":"224","candidate_id":"BRJ-TMP-025","platform":"VALIDATED_ZILVER_SYNTHESIS","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["polished modern architecture and seva"],"negative_themes":["programme and photography uncertainty"],"basis_reliability":"PARTIAL","notes":"Systematic recent multi-platform sample remains incomplete."}
+{"review_id":"GER-026","location_id":"225","candidate_id":"BRJ-TMP-026","platform":"VALIDATED_ZILVER_SYNTHESIS","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["quiet water setting"],"negative_themes":["manager, water and recurring ritual"],"basis_reliability":"PARTIAL","notes":"Systematic recent multi-platform sample remains incomplete."}
+{"review_id":"GER-027","location_id":"226","candidate_id":"BRJ-TMP-027","platform":"VALIDATED_ZILVER_SYNTHESIS","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["hilltop devotion and views"],"negative_themes":["stairs, timings, photography and festival pressure"],"basis_reliability":"PARTIAL","notes":"Systematic recent multi-platform sample remains incomplete."}
+{"review_id":"GER-028","location_id":"227","candidate_id":"BRJ-TMP-028","platform":"VALIDATED_ZILVER_SYNTHESIS","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["quiet water setting"],"negative_themes":["manager, water and ritual"],"basis_reliability":"PARTIAL","notes":"Systematic recent multi-platform sample remains incomplete."}
+{"review_id":"GER-029","location_id":"228","candidate_id":"BRJ-TMP-029","platform":"VALIDATED_ZILVER_SYNTHESIS","score":null,"review_count":null,"checked_at":"2026-07-15","positive_themes":["quiet Gaudiya atmosphere"],"negative_themes":["operator, access and programme"],"basis_reliability":"PARTIAL","notes":"Systematic recent multi-platform sample remains incomplete."}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=833 path=research/active/BRAJ-COMPLETE-001/GOUD/geo_connections.jsonl blob_sha=73a74db57146f9956fdee8b17d19012c48598824 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+{"connection_id":"GCON-001","from_location_id":"200","to_location_id":"201","mode":"UNSPECIFIED","estimated_time_min":null,"distance_km":null,"source_or_method":"Validated cluster relation only; endpoints not verified","checked_at":"2026-07-15","traffic_or_access_notes":"Vrindavan anchor pair; verify visitor entrances and live traffic first.","status":"NOT_ESTABLISHED"}
+{"connection_id":"GCON-002","from_location_id":"208","to_location_id":"209","mode":"WALK_OR_RICKSHAW","estimated_time_min":null,"distance_km":null,"source_or_method":"Validated old-Vrindavan cluster relation only","checked_at":"2026-07-15","traffic_or_access_notes":"Narrow lanes, queues and pedestrian controls may dominate.","status":"NOT_ESTABLISHED"}
+{"connection_id":"GCON-003","from_location_id":"209","to_location_id":"211","mode":"WALK_OR_RICKSHAW","estimated_time_min":null,"distance_km":null,"source_or_method":"Validated old-Vrindavan cluster relation only","checked_at":"2026-07-15","traffic_or_access_notes":"Verify controlled Nidhivan entrance and current lane access.","status":"NOT_ESTABLISHED"}
+{"connection_id":"GCON-004","from_location_id":"202","to_location_id":"214","mode":"ROAD_OR_RICKSHAW","estimated_time_min":null,"distance_km":null,"source_or_method":"Validated Mathura-core relation only","checked_at":"2026-07-15","traffic_or_access_notes":"Security and urban traffic can dominate.","status":"NOT_ESTABLISHED"}
+{"connection_id":"GCON-005","from_location_id":"214","to_location_id":"213","mode":"WALK_OR_RICKSHAW","estimated_time_min":null,"distance_km":null,"source_or_method":"Validated Mathura-core relation only","checked_at":"2026-07-15","traffic_or_access_notes":"Verify temple and ghat access points first.","status":"NOT_ESTABLISHED"}
+{"connection_id":"GCON-006","from_location_id":"203","to_location_id":"204","mode":"WALK","estimated_time_min":null,"distance_km":null,"source_or_method":"Validated direct adjacency; exact endpoints absent","checked_at":"2026-07-15","traffic_or_access_notes":"Use separately verified kund access points.","status":"NOT_ESTABLISHED"}
+{"connection_id":"GCON-007","from_location_id":"215","to_location_id":"216","mode":"WALK_OR_RICKSHAW","estimated_time_min":null,"distance_km":null,"source_or_method":"Validated Govardhan town/parikrama relation only","checked_at":"2026-07-15","traffic_or_access_notes":"Pilgrimage traffic and route controls vary.","status":"NOT_ESTABLISHED"}
+{"connection_id":"GCON-008","from_location_id":"203","to_location_id":"207","mode":"ROAD_OR_RICKSHAW","estimated_time_min":null,"distance_km":null,"source_or_method":"Validated northern Govardhan cluster relation only","checked_at":"2026-07-15","traffic_or_access_notes":"Verify both water-object access points before timing.","status":"NOT_ESTABLISHED"}
+{"connection_id":"GCON-009","from_location_id":"218","to_location_id":"219","mode":"ROAD","estimated_time_min":null,"distance_km":null,"source_or_method":"Validated Gokul/Mahavan day-cluster hypothesis only","checked_at":"2026-07-15","traffic_or_access_notes":"Do not route via conflicted LOCATION_ID 221 before identity resolution.","status":"NOT_ESTABLISHED"}
+{"connection_id":"GCON-010","from_location_id":"222","to_location_id":"224","mode":"ROAD_OR_LOCAL_TRANSPORT","estimated_time_min":null,"distance_km":null,"source_or_method":"Validated Barsana local-cluster relation only","checked_at":"2026-07-15","traffic_or_access_notes":"Hill, stair and festival access vary.","status":"NOT_ESTABLISHED"}
+{"connection_id":"GCON-011","from_location_id":"226","to_location_id":"227","mode":"ROAD_OR_WALK","estimated_time_min":null,"distance_km":null,"source_or_method":"Validated Nandgaon local-cluster relation only","checked_at":"2026-07-15","traffic_or_access_notes":"Verify hill approach and sarovar access points.","status":"NOT_ESTABLISHED"}
+{"connection_id":"GCON-012","from_location_id":"226","to_location_id":"228","mode":"ROAD","estimated_time_min":null,"distance_km":null,"source_or_method":"Validated separate local-ride relation only","checked_at":"2026-07-15","traffic_or_access_notes":"Ter Kadamba endpoint and
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=834 path=research/active/BRAJ-COMPLETE-001/GOUD/geo_connections.jsonl blob_sha=73a74db57146f9956fdee8b17d19012c48598824 original_offset=4096 original_length=86 payload_bytes=86 chunk_index=1 chunk_count=2 classification=text
+ road access require direct verification.","status":"NOT_ESTABLISHED"}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=835 path=research/active/BRAJ-COMPLETE-001/GOUD/geo_locations.jsonl blob_sha=d1a2e3a618c46de5e9bd96f0c9b866e0ee9914ff original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+{"location_id":"200","candidate_id":"IND-PLACE-000001","place_id":"IND-PLACE-000001","canonical_name":"Katyayani Peeth / Keshav Ashram","cluster":"BRAJ","latitude_wgs84":null,"longitude_wgs84":null,"geo_point_type":"ESTIMATED","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["GR-007"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=Katyayani%20Peeth%20Keshav%20Ashram%20Vrindavan","point_choice_reason":"Search lead only; no independently verified visitor entrance or exact point in pinned context.","checked_at":"2026-07-15","recheck_before":"before KML or route use"}
+{"location_id":"201","candidate_id":"IND-PLACE-000002","place_id":"IND-PLACE-000002","canonical_name":"Neem Karoli Baba Ashram and Samadhi, Vrindavan","cluster":"BRAJ","latitude_wgs84":null,"longitude_wgs84":null,"geo_point_type":"ESTIMATED","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["GR-007"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=Neem%20Karoli%20Baba%20Ashram%20Vrindavan","point_choice_reason":"Search lead only; no independently verified visitor entrance or exact point in pinned context.","checked_at":"2026-07-15","recheck_before":"before KML or route use"}
+{"location_id":"202","candidate_id":"IND-PLACE-000003","place_id":"IND-PLACE-000003","canonical_name":"Shri Krishna Janmabhoomi / Janmasthan","cluster":"BRAJ","latitude_wgs84":null,"longitude_wgs84":null,"geo_point_type":"ESTIMATED","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["GR-007"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=Shri%20Krishna%20Janmabhoomi%20Mathura","point_choice_reason":"Search lead only; security-sensitive visitor entrance not independently verified.","checked_at":"2026-07-15","recheck_before":"before KML or route use"}
+{"location_id":"203","candidate_id":"IND-PLACE-000004","place_id":"IND-PLACE-000004","canonical_name":"Radha Kund","cluster":"BRAJ","latitude_wgs84":null,"longitude_wgs84":null,"geo_point_type":"ESTIMATED","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["GR-007"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=Radha%20Kund%20Govardhan","point_choice_reason":"Search lead only; exact ritual access point not independently verified.","checked_at":"2026-07-15","recheck_before":"before KML or route use"}
+{"location_id":"204","candidate_id":"IND-PLACE-000005","place_id":"IND-PLACE-000005","canonical_name":"Shyam Kund","cluster":"BRAJ","latitude_wgs84":null,"longitude_wgs84":null,"geo_point_type":"ESTIMATED","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["GR-007"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=Shyam%20Kund%20Govardhan","point_choice_reason":"Search lead only; exact ritual access point not independently verified.","checked_at":"2026-07-15","recheck_before":"before KML or route use"}
+{"location_id":"205","candidate_id":"IND-PLACE-000006","place_id":"IND-PLACE-000006","canonical_name":"Govardhan Hill","cluster":"BRAJ","latitude_wgs84":null,"longitude_wgs84":null,"geo_point_type":"ESTIMATED","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["GR-007"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=Govardhan%20Hill%20India","point_choice_reason":"Distributed landscape; no arbitrary centre selected.","checked_at":"2026-07-15","recheck_before":"before KML or route use"}
+{"location_id":"206","candidate_id":"IND-PLACE-000007","place_id":"IND-PLACE-000007","canonical_name":"Govardhan Parikrama","cluster":"BRAJ","latitude_wgs84":null,"longitude_wgs84":null,"geo_point_type":"ESTIMATED","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["GR-007"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=Govardhan%20Parikrama","point_choice_reason":"Route object; no single arbitrary centre selected.","checked_at":"2026-07-15","recheck_before":"before KML or route use"}
+{"location_id":"207","candidate_id":"IND-PLACE-000008","place_id":"IND-PLACE-000008","canonical_name":"Kusum Sarovar","cluster":"BRAJ","latitude_wgs84":null,"longitude_wgs84":null,"geo_point_typ
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=836 path=research/active/BRAJ-COMPLETE-001/GOUD/geo_locations.jsonl blob_sha=d1a2e3a618c46de5e9bd96f0c9b866e0ee9914ff original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+e":"ESTIMATED","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["GR-007"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=Kusum%20Sarovar","point_choice_reason":"Search lead only; visitor approach not independently verified.","checked_at":"2026-07-15","recheck_before":"before KML or route use"}
+{"location_id":"208","candidate_id":"BRJ-TMP-009","place_id":null,"canonical_name":"Banke Bihari Temple","cluster":"BRAJ","latitude_wgs84":null,"longitude_wgs84":null,"geo_point_type":"ESTIMATED","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["GR-007"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=Banke%20Bihari%20Temple%20Vrindavan","point_choice_reason":"Search lead only; crowd-control entrance can change.","checked_at":"2026-07-15","recheck_before":"before KML or route use"}
+{"location_id":"209","candidate_id":"BRJ-TMP-010","place_id":null,"canonical_name":"Radha Raman Temple","cluster":"BRAJ","latitude_wgs84":null,"longitude_wgs84":null,"geo_point_type":"ESTIMATED","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["GR-007"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=Radha%20Raman%20Temple%20Vrindavan","point_choice_reason":"Search lead only; visitor entrance not independently verified.","checked_at":"2026-07-15","recheck_before":"before KML or route use"}
+{"location_id":"210","candidate_id":"BRJ-TMP-011","place_id":null,"canonical_name":"ISKCON Krishna-Balaram Mandir","cluster":"BRAJ","latitude_wgs84":null,"longitude_wgs84":null,"geo_point_type":"ESTIMATED","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["GR-007"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=ISKCON%20Krishna%20Balaram%20Mandir%20Vrindavan","point_choice_reason":"Search lead only; visitor gate not independently verified.","checked_at":"2026-07-15","recheck_before":"before KML or route use"}
+{"location_id":"211","candidate_id":"BRJ-TMP-012","place_id":null,"canonical_name":"Nidhivan and Swami Haridas Complex","cluster":"BRAJ","latitude_wgs84":null,"longitude_wgs84":null,"geo_point_type":"ESTIMATED","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["GR-007"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=Nidhivan%20Vrindavan","point_choice_reason":"Search lead only; controlled daytime entrance not independently verified.","checked_at":"2026-07-15","recheck_before":"before KML or route use"}
+{"location_id":"212","candidate_id":"BRJ-TMP-013","place_id":null,"canonical_name":"Radha Vallabh Temple","cluster":"BRAJ","latitude_wgs84":null,"longitude_wgs84":null,"geo_point_type":"ESTIMATED","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["GR-007"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=Radha%20Vallabh%20Temple%20Vrindavan","point_choice_reason":"Search lead only; visitor entrance not independently verified.","checked_at":"2026-07-15","recheck_before":"before KML or route use"}
+{"location_id":"213","candidate_id":"BRJ-TMP-014","place_id":null,"canonical_name":"Vishram Ghat","cluster":"BRAJ","latitude_wgs84":null,"longitude_wgs84":null,"geo_point_type":"ESTIMATED","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["GR-007"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=Vishram%20Ghat%20Mathura","point_choice_reason":"Distributed ghat frontage; exact visitor approach not independently verified.","checked_at":"2026-07-15","recheck_before":"before KML or route use"}
+{"location_id":"214","candidate_id":"BRJ-TMP-015","place_id":null,"canonical_name":"Dwarkadhish Temple, Mathura","cluster":"BRAJ","latitude_wgs84":null,"longitude_wgs84":null,"geo_point_type":"ESTIMATED","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["GR-007"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=Dwarkadhish%20Temple%20Mathura","point_choice_reason":"Search lead only; visitor entrance not independently verified.","checked_at":"2026-07-15","recheck_before":"before KML or route use"}
+{"location_id":"215","candidate_id":"BRJ-TMP-016","place_id":null,"can
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=837 path=research/active/BRAJ-COMPLETE-001/GOUD/geo_locations.jsonl blob_sha=d1a2e3a618c46de5e9bd96f0c9b866e0ee9914ff original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+onical_name":"Mansi Ganga","cluster":"BRAJ","latitude_wgs84":null,"longitude_wgs84":null,"geo_point_type":"ESTIMATED","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["GR-007"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=Mansi%20Ganga%20Govardhan","point_choice_reason":"Distributed water edge; exact ritual access point not independently verified.","checked_at":"2026-07-15","recheck_before":"before KML or route use"}
+{"location_id":"216","candidate_id":"BRJ-TMP-017","place_id":null,"canonical_name":"Daan Ghati Temple","cluster":"BRAJ","latitude_wgs84":null,"longitude_wgs84":null,"geo_point_type":"ESTIMATED","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["GR-007"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=Daan%20Ghati%20Temple%20Govardhan","point_choice_reason":"Search lead only; entrance not independently verified.","checked_at":"2026-07-15","recheck_before":"before KML or route use"}
+{"location_id":"217","candidate_id":"BRJ-TMP-018","place_id":null,"canonical_name":"Jatipura Mukharvind","cluster":"BRAJ","latitude_wgs84":null,"longitude_wgs84":null,"geo_point_type":"ESTIMATED","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["GR-007"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=Jatipura%20Mukharvind","point_choice_reason":"Search lead only; exact shrine approach not independently verified.","checked_at":"2026-07-15","recheck_before":"before KML or route use"}
+{"location_id":"218","candidate_id":"BRJ-TMP-019","place_id":null,"canonical_name":"Raman Reti","cluster":"BRAJ","latitude_wgs84":null,"longitude_wgs84":null,"geo_point_type":"ESTIMATED","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["GR-007"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=Raman%20Reti%20Gokul","point_choice_reason":"Search lead only; visitor entrance not independently verified.","checked_at":"2026-07-15","recheck_before":"before KML or route use"}
+{"location_id":"219","candidate_id":"BRJ-TMP-020","place_id":null,"canonical_name":"Chaurasi Khamba / Nand Bhavan, Mahavan","cluster":"BRAJ","latitude_wgs84":null,"longitude_wgs84":null,"geo_point_type":"ESTIMATED","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["GR-007"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=Chaurasi%20Khamba%20Mahavan","point_choice_reason":"Search lead only; exact object entrance not independently verified.","checked_at":"2026-07-15","recheck_before":"before KML or route use"}
+{"location_id":"220","candidate_id":"BRJ-TMP-021","place_id":null,"canonical_name":"Brahmand Ghat","cluster":"BRAJ","latitude_wgs84":null,"longitude_wgs84":null,"geo_point_type":"ESTIMATED","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["GR-007"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=Brahmand%20Ghat%20Gokul","point_choice_reason":"Distributed ghat; exact visitor approach not independently verified.","checked_at":"2026-07-15","recheck_before":"before KML or route use"}
+{"location_id":"221","candidate_id":"BRJ-TMP-022","place_id":null,"canonical_name":"Gokulnath Temple / Nand-Yashoda Bhavan, Gokul","cluster":"BRAJ","latitude_wgs84":null,"longitude_wgs84":null,"geo_point_type":"ESTIMATED","geo_verification_status":"CONFLICTED","geo_sources":["GR-007"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=Gokulnath%20Temple%20Gokul","point_choice_reason":"Physical identity and aliases remain conflicted; no point may be selected.","checked_at":"2026-07-15","recheck_before":"after identity resolution"}
+{"location_id":"222","candidate_id":"BRJ-TMP-023","place_id":null,"canonical_name":"Radha Rani Temple / Shriji Temple","cluster":"BRAJ","latitude_wgs84":null,"longitude_wgs84":null,"geo_point_type":"ESTIMATED","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["GR-007"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=Radha%20Rani%20Temple%20Barsana","point_choice_reason":"Hilltop complex; visitor approach not independently verified.","checked_at":"2026-07-15","recheck_be
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=838 path=research/active/BRAJ-COMPLETE-001/GOUD/geo_locations.jsonl blob_sha=d1a2e3a618c46de5e9bd96f0c9b866e0ee9914ff original_offset=12288 original_length=3188 payload_bytes=3188 chunk_index=3 chunk_count=4 classification=text
+fore":"before KML or route use"}
+{"location_id":"223","candidate_id":"BRJ-TMP-024","place_id":null,"canonical_name":"Maan Mandir / Maan Garh","cluster":"BRAJ","latitude_wgs84":null,"longitude_wgs84":null,"geo_point_type":"ESTIMATED","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["GR-007"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=Maan%20Mandir%20Barsana","point_choice_reason":"Search lead only; exact ashram entrance not independently verified.","checked_at":"2026-07-15","recheck_before":"before KML or route use"}
+{"location_id":"224","candidate_id":"BRJ-TMP-025","place_id":null,"canonical_name":"Kirti Mandir / Rangeeli Mahal","cluster":"BRAJ","latitude_wgs84":null,"longitude_wgs84":null,"geo_point_type":"ESTIMATED","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["GR-007"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=Kirti%20Mandir%20Barsana","point_choice_reason":"Search lead only; visitor gate not independently verified.","checked_at":"2026-07-15","recheck_before":"before KML or route use"}
+{"location_id":"225","candidate_id":"BRJ-TMP-026","place_id":null,"canonical_name":"Prem Sarovar","cluster":"BRAJ","latitude_wgs84":null,"longitude_wgs84":null,"geo_point_type":"ESTIMATED","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["GR-007"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=Prem%20Sarovar%20Barsana","point_choice_reason":"Distributed water edge; exact access point not independently verified.","checked_at":"2026-07-15","recheck_before":"before KML or route use"}
+{"location_id":"226","candidate_id":"BRJ-TMP-027","place_id":null,"canonical_name":"Nand Bhavan / Nand Baba Temple, Nandgaon","cluster":"BRAJ","latitude_wgs84":null,"longitude_wgs84":null,"geo_point_type":"ESTIMATED","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["GR-007"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=Nand%20Baba%20Temple%20Nandgaon","point_choice_reason":"Hilltop complex; visitor approach not independently verified.","checked_at":"2026-07-15","recheck_before":"before KML or route use"}
+{"location_id":"227","candidate_id":"BRJ-TMP-028","place_id":null,"canonical_name":"Pavana Sarovar","cluster":"BRAJ","latitude_wgs84":null,"longitude_wgs84":null,"geo_point_type":"ESTIMATED","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["GR-007"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=Pavana%20Sarovar%20Nandgaon","point_choice_reason":"Distributed water edge; exact access point not independently verified.","checked_at":"2026-07-15","recheck_before":"before KML or route use"}
+{"location_id":"228","candidate_id":"BRJ-TMP-029","place_id":null,"canonical_name":"Ter Kadamba","cluster":"BRAJ","latitude_wgs84":null,"longitude_wgs84":null,"geo_point_type":"ESTIMATED","geo_verification_status":"NOT_ESTABLISHED","geo_sources":["GR-007"],"google_maps_url":"https://www.google.com/maps/search/?api=1&query=Ter%20Kadamba%20Nandgaon","point_choice_reason":"Search lead only; shrine or visitor entrance not independently verified.","checked_at":"2026-07-15","recheck_before":"before KML or route use"}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=839 path=research/active/BRAJ-COMPLETE-001/GOUD/handoff.yaml blob_sha=8d6bd4d2ea8680ca2f63c1fb7574f160543782ac original_offset=0 original_length=2349 payload_bytes=2349 chunk_index=0 chunk_count=1 classification=text
+schema_version: 1
+run_id: BRAJ-COMPLETE-001
+completed_role: GOUD
+result_status: PARTIAL
+output_manifest_path: research/active/BRAJ-COMPLETE-001/GOUD/manifest.yaml
+next_role: SUBREGIE_INDIA
+next_expected_transition: TECHNICAL_FINAL_VALIDATION
+completion_destination: VOOR_SUBREGIE_INDIA
+candidate_counts:
+  existing_canonical: 8
+  temporary_new: 21
+  total: 29
+location_ids:
+  assigned_start: "200"
+  assigned_end: "228"
+  assigned_count: 29
+  block: "200-299"
+open_blockers:
+  - Verified WGS84 visitor entrances or exact sites remain absent for all 29 candidates; LOCATION_ID 221 is identity-conflicted.
+  - Complete ten-function image dossiers remain absent for all 29 candidates.
+  - Systematic recent reviews and current participation/visitability remain incomplete.
+  - Object-level management remains unresolved for multiple distributed and small objects.
+  - Current traffic-aware A-anchor connections remain unavailable without verified endpoints.
+required_predecessor_files:
+  - research/active/BRAJ-COMPLETE-001/GOUD/manifest.yaml
+  - research/active/BRAJ-COMPLETE-001/GOUD/report/INDEX.md
+  - research/active/BRAJ-COMPLETE-001/GOUD/report/01_final_candidate_map.md
+  - research/active/BRAJ-COMPLETE-001/GOUD/report/02_open_layers_and_geo.md
+  - research/active/BRAJ-COMPLETE-001/GOUD/report/03_quality_gate_and_conclusion.md
+  - research/active/BRAJ-COMPLETE-001/GOUD/claims.jsonl
+  - research/active/BRAJ-COMPLETE-001/GOUD/sources/registry.jsonl
+  - research/active/BRAJ-COMPLETE-001/GOUD/sources/rejected.jsonl
+  - research/active/BRAJ-COMPLETE-001/GOUD/images.jsonl
+  - research/active/BRAJ-COMPLETE-001/GOUD/experience_reviews.jsonl
+  - research/active/BRAJ-COMPLETE-001/GOUD/proximity.jsonl
+  - research/active/BRAJ-COMPLETE-001/GOUD/place_candidates.jsonl
+  - research/active/BRAJ-COMPLETE-001/GOUD/geo_locations.jsonl
+  - research/active/BRAJ-COMPLETE-001/GOUD/geo_connections.jsonl
+  - research/active/BRAJ-COMPLETE-001/GOUD/location_id_audit.md
+  - research/active/BRAJ-COMPLETE-001/GOUD/decision_inputs.md
+  - research/active/BRAJ-COMPLETE-001/GOUD/audit.md
+  - research/active/BRAJ-COMPLETE-001/GOUD/decision.md
+  - research/active/BRAJ-COMPLETE-001/GOUD/COMPLETED
+archiving_executed: false
+regisseur_transition_executed: false
+kml_created: false
+formal_or_advisory_abc_assigned: false
+future_source_commit: null
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=840 path=research/active/BRAJ-COMPLETE-001/GOUD/images.jsonl blob_sha=ecc1b0b97a4060db7b7c64204c3d746b7ef63247 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+{"image_id":"GI-001","location_id":"200","candidate_id":"IND-PLACE-000001","url":"https://www.katyayanipeeth.org.in/","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"PARTIAL_OFFICIAL_SET","observation_supported":"Current temple-ashram identity; ten functions not covered.","reliability_notes":"Official promotional imagery; normal crowd, access, surroundings and maintenance gaps remain."}
+{"image_id":"GI-002","location_id":"201","candidate_id":"IND-PLACE-000002","url":"https://maharajji.com/ashrams/vrindavan/","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"PARTIAL_LINEAGE_SET","observation_supported":"Ashram/samadhi visual lead only.","reliability_notes":"Current comprehensive visitor-condition set unavailable."}
+{"image_id":"GI-003","location_id":"202","candidate_id":"IND-PLACE-000003","url":"https://www.upbtvp.in/","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"PARTIAL_GOVERNMENT_SET","observation_supported":"Physical complex recognition.","reliability_notes":"Security-sensitive; ten-function current set unavailable."}
+{"image_id":"GI-004","location_id":"203","candidate_id":"IND-PLACE-000004","url":"https://mathura.nic.in/tourist-place/brij-parikrama/","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"PARTIAL_GOVERNMENT_SET","observation_supported":"Kund/parikrama context.","reliability_notes":"Water condition, ordinary/festival crowd and candidate-specific access missing."}
+{"image_id":"GI-005","location_id":"204","candidate_id":"IND-PLACE-000005","url":"https://mathura.nic.in/tourist-place/brij-parikrama/","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"PARTIAL_GOVERNMENT_SET","observation_supported":"Kund/parikrama context.","reliability_notes":"Boundary-specific and water-condition set incomplete."}
+{"image_id":"GI-006","location_id":"205","candidate_id":"IND-PLACE-000006","url":"https://mathura.nic.in/tourist-place/brij-parikrama/","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"PARTIAL_LANDSCAPE_SET","observation_supported":"Sacred landscape context.","reliability_notes":"Access, route wear and ordinary/festival comparison missing."}
+{"image_id":"GI-007","location_id":"206","candidate_id":"IND-PLACE-000007","url":"https://mathura.nic.in/tourist-place/brij-parikrama/","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"PARTIAL_ROUTE_SET","observation_supported":"Pilgrimage-route context.","reliability_notes":"Ten route segments and crowd/daypart functions not assembled."}
+{"image_id":"GI-008","location_id":"207","candidate_id":"IND-PLACE-000008","url":"https://www.upbtvp.in/","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"PARTIAL_HERITAGE_SET","observation_supported":"Monumental architecture and sarovar identity.","reliability_notes":"Water, maintenance, devotees and normal-versus-peak functions incomplete."}
+{"image_id":"GI-009","location_id":"208","candidate_id":"BRJ-TMP-009","url":"https://mathura.nic.in/tourist-place/shri-banke-bihari/","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"PARTIAL_GOVERNMENT_SET","observation_supported":"Temple exterior/identity.","reliability_notes":"Gate flow, normal crowd, peak crowd and surroundings not complete."}
+{"image_id":"GI-010","location_id":"209","candidate_id":"BRJ-TMP-010","url":"http://www.radharamanmandir.com/","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"PARTIAL_OFFICIAL_SET","observation_supported":"Temple and deity/seva context.","reliability_notes":"Independent current access and crowd functions missing."}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=841 path=research/active/BRAJ-COMPLETE-001/GOUD/images.jsonl blob_sha=ecc1b0b97a4060db7b7c64204c3d746b7ef63247 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+{"image_id":"GI-011","location_id":"210","candidate_id":"BRJ-TMP-011","url":"https://iskconvrindavan.com/","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"PARTIAL_OFFICIAL_SET","observation_supported":"Temple, kirtan and international institution context.","reliability_notes":"Ten-function ordinary/peak/maintenance set incomplete."}
+{"image_id":"GI-012","location_id":"211","candidate_id":"BRJ-TMP-012","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"No attributable ten-function set assembled.","reliability_notes":"Grove, gates, internal shrines and crowd functions remain open."}
+{"image_id":"GI-013","location_id":"212","candidate_id":"BRJ-TMP-013","url":"https://www.radhavallabhmandir.com/index.php","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"PARTIAL_OFFICIAL_SET","observation_supported":"Official temple/lineage visual identity.","reliability_notes":"Access, normal crowd and surroundings incomplete."}
+{"image_id":"GI-014","location_id":"213","candidate_id":"BRJ-TMP-014","url":"https://uptourism.gov.in/en/post/vishram-ghat","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"PARTIAL_GOVERNMENT_SET","observation_supported":"Ghat and Yamuna setting.","reliability_notes":"Aarti, water condition, morning/evening and commerce functions incomplete."}
+{"image_id":"GI-015","location_id":"214","candidate_id":"BRJ-TMP-015","url":"https://mathura.nic.in/tourist-place/shri-dwarkadhish-temple/","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"PARTIAL_GOVERNMENT_SET","observation_supported":"Temple architecture/identity.","reliability_notes":"Ritual, crowd, access and surroundings incomplete."}
+{"image_id":"GI-016","location_id":"215","candidate_id":"BRJ-TMP-016","url":"https://mathura.nic.in/tourist-place/brij-parikrama/","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"PARTIAL_ROUTE_SET","observation_supported":"Parikrama-water context.","reliability_notes":"Object-specific water, ghats and practice functions incomplete."}
+{"image_id":"GI-017","location_id":"216","candidate_id":"BRJ-TMP-017","url":"https://mathura.nic.in/tourist-place/brij-parikrama/","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"PARTIAL_ROUTE_SET","observation_supported":"Govardhan stop context.","reliability_notes":"Entrance, sanctum approach and crowd functions incomplete."}
+{"image_id":"GI-018","location_id":"217","candidate_id":"BRJ-TMP-018","url":"https://mathura.nic.in/tourist-place/brij-parikrama/","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"PARTIAL_ROUTE_SET","observation_supported":"Jatipura/Giriraj worship context.","reliability_notes":"Object-specific offering, access and crowd set incomplete."}
+{"image_id":"GI-019","location_id":"218","candidate_id":"BRJ-TMP-019","url":"https://mathura.nic.in/","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"PARTIAL_REGIONAL_SET","observation_supported":"Raman Reti physical detector.","reliability_notes":"Sand participation and ashram-context functions incomplete."}
+{"image_id":"GI-020","location_id":"219","candidate_id":"BRJ-TMP-020","url":"https://mathura.nic.in/","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"PARTIAL_REGIONAL_SET","observation_supported":"Mahavan physical detector.","reliability_notes":"Pillars, worship, access and maintenance set incomplete."}
+{"image_id":"GI-021","location_id":"220","candidate_id":"BRJ-TMP-021","url":"https://mathura.nic.in/","source_type":"PHOTO_DOCUMENTATIO
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=842 path=research/active/BRAJ-COMPLETE-001/GOUD/images.jsonl blob_sha=ecc1b0b97a4060db7b7c64204c3d746b7ef63247 original_offset=8192 original_length=3361 payload_bytes=3361 chunk_index=2 chunk_count=3 classification=text
+N","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"PARTIAL_REGIONAL_SET","observation_supported":"Ghat/shrine detector.","reliability_notes":"Water, shrine, access and maintenance functions incomplete."}
+{"image_id":"GI-022","location_id":"221","candidate_id":"BRJ-TMP-022","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IDENTITY_IMAGE_SHORTFALL","observation_supported":"Images insufficient to resolve Gokul/Mahavan alias boundary.","reliability_notes":"Direct geolocated institutional imagery required."}
+{"image_id":"GI-023","location_id":"222","candidate_id":"BRJ-TMP-023","url":"https://radharanimandir.com/","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"PARTIAL_OFFICIAL_SET","observation_supported":"Hill temple, deity and festival identity.","reliability_notes":"Ordinary-day stairs, access and crowd comparison incomplete."}
+{"image_id":"GI-024","location_id":"223","candidate_id":"BRJ-TMP-024","url":"https://uptourism.gov.in/en/destination/barsana","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"PARTIAL_REGIONAL_SET","observation_supported":"Barsana lila-place context.","reliability_notes":"Ashram, bhajan and participation images incomplete."}
+{"image_id":"GI-025","location_id":"224","candidate_id":"BRJ-TMP-025","url":"https://www.jkp.org.in/kirti-mandir/","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"PARTIAL_OFFICIAL_SET","observation_supported":"Modern architecture, deity and organized institution.","reliability_notes":"Independent current crowd and participation set incomplete."}
+{"image_id":"GI-026","location_id":"225","candidate_id":"BRJ-TMP-026","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"No attributable ten-function set assembled.","reliability_notes":"Water, maintenance, practice and access images missing."}
+{"image_id":"GI-027","location_id":"226","candidate_id":"BRJ-TMP-027","url":"https://uptourism.gov.in/en/destination/barsana","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"PARTIAL_REGIONAL_SET","observation_supported":"Nandgaon hill-temple context.","reliability_notes":"Hill climb, interior, crowd and daypart functions incomplete."}
+{"image_id":"GI-028","location_id":"227","candidate_id":"BRJ-TMP-028","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"No attributable ten-function set assembled.","reliability_notes":"Water, shore, maintenance and practice images missing."}
+{"image_id":"GI-029","location_id":"228","candidate_id":"BRJ-TMP-029","url":"NOT_COLLECTED","source_type":"PHOTO_DOCUMENTATION","captured_or_published_at":null,"retrieved_at":"2026-07-15","visual_function":"IMAGE_SHORTFALL","observation_supported":"No attributable ten-function set assembled.","reliability_notes":"Grove, shrine, access and bhajan images missing."}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=843 path=research/active/BRAJ-COMPLETE-001/GOUD/location_id_audit.md blob_sha=53a5e57e222536661b9fbfed2ab0d17d266e422f original_offset=0 original_length=1744 payload_bytes=1744 chunk_index=0 chunk_count=1 classification=text
+# LOCATION_ID audit — BRAJ-COMPLETE-001
+
+## Assignment
+
+- Reserved cluster block: `200–299`.
+- Assigned IDs: every decimal value from `200` through `228` inclusive.
+- Assigned count: 29.
+- Candidate count: 29.
+- Duplicate LOCATION_IDs: none.
+- Duplicate candidate assignments: none.
+- Out-of-block IDs: none.
+- Overlap with Delhi block `100–199`: none.
+- Unused Braj values after this run: `229–299`.
+- Gaps inside assigned sequence: none; gaps remain allowed for later discoveries.
+
+## Mapping integrity
+
+`200–207` map to the eight existing canonical `IND-PLACE-*` records in their preserved order. `208–228` map to the 21 temporary Braj candidates in their preserved order. No existing formal status was changed. The two existing A records remain only preserved metadata and were not reassessed.
+
+## C retention
+
+No candidate was removed from `place_candidates.jsonl`, `geo_locations.jsonl`, `decision_inputs.md` or the final report because it may later receive C. All 29 locations remain present regardless of future advisory or formal status.
+
+## GEO integrity
+
+Every candidate has exactly one GEO record and one permanent LOCATION_ID. No record contains a guessed coordinate. All latitude and longitude fields remain null because no independently verified visitor entrance or exact site point exists in the pinned context. LOCATION_ID `221` is additionally marked `CONFLICTED` because the Gokul physical identity remains unresolved.
+
+Google Maps search URLs are locator leads only and are not classified as verified points. No KML was generated. No connection contains a guessed travel time or distance.
+
+Audit result: LOCATION_ID assignment PASS; WGS84 verification PARTIAL/NOT_ESTABLISHED for all 29 records.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=844 path=research/active/BRAJ-COMPLETE-001/GOUD/manifest.yaml blob_sha=5cfe1ca8cfe05008a2bb30c2ebd52ce0885ca402 original_offset=0 original_length=2142 payload_bytes=2142 chunk_index=0 chunk_count=1 classification=text
+run_id: BRAJ-COMPLETE-001
+role: GOUD
+completion_status: PARTIAL
+source_commit: 10e0e4128f1f3f7f0498b4e2612549a8f68ae090
+context_profile: GOUD_MIN
+protocol_versions:
+  pipeline: 3.0.0
+  methodology: 3.0.0
+candidate_counts:
+  existing_canonical: 8
+  temporary_new: 21
+  total: 29
+location_id_assignment:
+  block: "200-299"
+  assigned_start: "200"
+  assigned_end: "228"
+  assigned_count: 29
+files:
+  - path: report/INDEX.md
+  - path: report/01_final_candidate_map.md
+  - path: report/02_open_layers_and_geo.md
+  - path: report/03_quality_gate_and_conclusion.md
+  - path: claims.jsonl
+  - path: sources/registry.jsonl
+  - path: sources/rejected.jsonl
+  - path: images.jsonl
+  - path: experience_reviews.jsonl
+  - path: proximity.jsonl
+  - path: place_candidates.jsonl
+  - path: geo_locations.jsonl
+  - path: geo_connections.jsonl
+  - path: location_id_audit.md
+  - path: decision_inputs.md
+  - path: audit.md
+  - path: decision.md
+  - path: handoff.yaml
+  - path: COMPLETED
+line_counts_reliable: false
+content_hashes_reliable: false
+validation:
+  github_read_confirmed: true
+  github_write_confirmed: true
+  required_outputs_present: true
+  sentinels_checked: true
+  max_lines_under_1500: true
+  forbidden_files_used: false
+  source_id_references_valid: true
+  source_ids_unique_across_registers: true
+  identifiers_unique: true
+  all_29_candidates_accounted: true
+  location_ids_unique_and_in_block: true
+  all_geo_records_present: true
+  verified_geo_points_complete: false
+  formal_or_advisory_abc_assigned: false
+  parels_activated: false
+  kml_created: false
+  archiving_executed: false
+  regisseur_transition_executed: false
+open_blockers:
+  - Verified WGS84 visitor entrances or exact sites remain absent for all 29 candidates; LOCATION_ID 221 is identity-conflicted.
+  - Complete ten-function image dossiers remain absent for all 29 candidates.
+  - Systematic recent review and current participation/visitability coverage remains incomplete.
+  - Object-level management remains unresolved for multiple distributed and small objects.
+  - Current traffic-aware A-anchor matrix remains unavailable without verified endpoints.
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=845 path=research/active/BRAJ-COMPLETE-001/GOUD/place_candidates.jsonl blob_sha=4b0de93ac9c891c31ef87697f2bc6b6755e02a1d original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+{"location_id":"200","candidate_id":"IND-PLACE-000001","canonical_name":"Katyayani Peeth / Keshav Ashram","cluster":"VRINDAVAN","formal_status_preserved":"A","goud_status":"PRESERVED_PARTIAL","geo_verification_status":"NOT_ESTABLISHED"}
+{"location_id":"201","candidate_id":"IND-PLACE-000002","canonical_name":"Neem Karoli Baba Ashram and Samadhi, Vrindavan","cluster":"VRINDAVAN","formal_status_preserved":"A","goud_status":"PRESERVED_PARTIAL","geo_verification_status":"NOT_ESTABLISHED"}
+{"location_id":"202","candidate_id":"IND-PLACE-000003","canonical_name":"Shri Krishna Janmabhoomi / Janmasthan","cluster":"MATHURA","formal_status_preserved":"U","goud_status":"PRESERVED_PARTIAL","geo_verification_status":"NOT_ESTABLISHED"}
+{"location_id":"203","candidate_id":"IND-PLACE-000004","canonical_name":"Radha Kund","cluster":"GOVARDHAN","formal_status_preserved":"U","goud_status":"PRESERVED_PARTIAL","geo_verification_status":"NOT_ESTABLISHED"}
+{"location_id":"204","candidate_id":"IND-PLACE-000005","canonical_name":"Shyam Kund","cluster":"GOVARDHAN","formal_status_preserved":"U","goud_status":"PRESERVED_PARTIAL","geo_verification_status":"NOT_ESTABLISHED"}
+{"location_id":"205","candidate_id":"IND-PLACE-000006","canonical_name":"Govardhan Hill","cluster":"GOVARDHAN","formal_status_preserved":"U","goud_status":"PRESERVED_PARTIAL","geo_verification_status":"NOT_ESTABLISHED"}
+{"location_id":"206","candidate_id":"IND-PLACE-000007","canonical_name":"Govardhan Parikrama","cluster":"GOVARDHAN","formal_status_preserved":"U","goud_status":"PRESERVED_PARTIAL","geo_verification_status":"NOT_ESTABLISHED"}
+{"location_id":"207","candidate_id":"IND-PLACE-000008","canonical_name":"Kusum Sarovar","cluster":"GOVARDHAN","formal_status_preserved":"U","goud_status":"PRESERVED_PARTIAL","geo_verification_status":"NOT_ESTABLISHED"}
+{"location_id":"208","candidate_id":"BRJ-TMP-009","canonical_name":"Banke Bihari Temple","cluster":"VRINDAVAN","formal_status_preserved":"U","goud_status":"PRESERVED_PARTIAL","geo_verification_status":"NOT_ESTABLISHED"}
+{"location_id":"209","candidate_id":"BRJ-TMP-010","canonical_name":"Radha Raman Temple","cluster":"VRINDAVAN","formal_status_preserved":"U","goud_status":"PRESERVED_PARTIAL","geo_verification_status":"NOT_ESTABLISHED"}
+{"location_id":"210","candidate_id":"BRJ-TMP-011","canonical_name":"ISKCON Krishna-Balaram Mandir","cluster":"VRINDAVAN","formal_status_preserved":"U","goud_status":"PRESERVED_PARTIAL","geo_verification_status":"NOT_ESTABLISHED"}
+{"location_id":"211","candidate_id":"BRJ-TMP-012","canonical_name":"Nidhivan and Swami Haridas Complex","cluster":"VRINDAVAN","formal_status_preserved":"U","goud_status":"PRESERVED_PARTIAL","geo_verification_status":"NOT_ESTABLISHED"}
+{"location_id":"212","candidate_id":"BRJ-TMP-013","canonical_name":"Radha Vallabh Temple","cluster":"VRINDAVAN","formal_status_preserved":"U","goud_status":"PRESERVED_PARTIAL","geo_verification_status":"NOT_ESTABLISHED"}
+{"location_id":"213","candidate_id":"BRJ-TMP-014","canonical_name":"Vishram Ghat","cluster":"MATHURA","formal_status_preserved":"U","goud_status":"PRESERVED_PARTIAL","geo_verification_status":"NOT_ESTABLISHED"}
+{"location_id":"214","candidate_id":"BRJ-TMP-015","canonical_name":"Dwarkadhish Temple, Mathura","cluster":"MATHURA","formal_status_preserved":"U","goud_status":"PRESERVED_PARTIAL","geo_verification_status":"NOT_ESTABLISHED"}
+{"location_id":"215","candidate_id":"BRJ-TMP-016","canonical_name":"Mansi Ganga","cluster":"GOVARDHAN","formal_status_preserved":"U","goud_status":"PRESERVED_PARTIAL","geo_verification_status":"NOT_ESTABLISHED"}
+{"location_id":"216","candidate_id":"BRJ-TMP-017","canonical_name":"Daan Ghati Temple","cluster":"GOVARDHAN","formal_status_preserved":"U","goud_status":"PRESERVED_PARTIAL","geo_verification_status":"NOT_ESTABLISHED"}
+{"location_id":"217","candidate_id":"BRJ-TMP-018","canonical_name":"Jatipura Mukharvind","cluster":"GOVARDHAN","formal_status_preserved":"U","goud_status":"PRESERVED_PARTIAL","geo_verification_status":"NOT_ESTABLISHED"}
+{"location_id":"218","candidate_id":"BRJ-TMP-019","canonic
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=846 path=research/active/BRAJ-COMPLETE-001/GOUD/place_candidates.jsonl blob_sha=4b0de93ac9c891c31ef87697f2bc6b6755e02a1d original_offset=4096 original_length=2441 payload_bytes=2441 chunk_index=1 chunk_count=2 classification=text
+al_name":"Raman Reti","cluster":"GOKUL_MAHAVAN","formal_status_preserved":"U","goud_status":"PRESERVED_PARTIAL","geo_verification_status":"NOT_ESTABLISHED"}
+{"location_id":"219","candidate_id":"BRJ-TMP-020","canonical_name":"Chaurasi Khamba / Nand Bhavan, Mahavan","cluster":"GOKUL_MAHAVAN","formal_status_preserved":"U","goud_status":"PRESERVED_PARTIAL","geo_verification_status":"NOT_ESTABLISHED"}
+{"location_id":"220","candidate_id":"BRJ-TMP-021","canonical_name":"Brahmand Ghat","cluster":"GOKUL_MAHAVAN","formal_status_preserved":"U","goud_status":"PRESERVED_PARTIAL","geo_verification_status":"NOT_ESTABLISHED"}
+{"location_id":"221","candidate_id":"BRJ-TMP-022","canonical_name":"Gokulnath Temple / Nand-Yashoda Bhavan, Gokul","cluster":"GOKUL_MAHAVAN","formal_status_preserved":"U","goud_status":"PRESERVED_PARTIAL","geo_verification_status":"NOT_ESTABLISHED"}
+{"location_id":"222","candidate_id":"BRJ-TMP-023","canonical_name":"Radha Rani Temple / Shriji Temple","cluster":"BARSANA","formal_status_preserved":"U","goud_status":"PRESERVED_PARTIAL","geo_verification_status":"NOT_ESTABLISHED"}
+{"location_id":"223","candidate_id":"BRJ-TMP-024","canonical_name":"Maan Mandir / Maan Garh","cluster":"BARSANA","formal_status_preserved":"U","goud_status":"PRESERVED_PARTIAL","geo_verification_status":"NOT_ESTABLISHED"}
+{"location_id":"224","candidate_id":"BRJ-TMP-025","canonical_name":"Kirti Mandir / Rangeeli Mahal","cluster":"BARSANA","formal_status_preserved":"U","goud_status":"PRESERVED_PARTIAL","geo_verification_status":"NOT_ESTABLISHED"}
+{"location_id":"225","candidate_id":"BRJ-TMP-026","canonical_name":"Prem Sarovar","cluster":"BARSANA","formal_status_preserved":"U","goud_status":"PRESERVED_PARTIAL","geo_verification_status":"NOT_ESTABLISHED"}
+{"location_id":"226","candidate_id":"BRJ-TMP-027","canonical_name":"Nand Bhavan / Nand Baba Temple, Nandgaon","cluster":"NANDGAON","formal_status_preserved":"U","goud_status":"PRESERVED_PARTIAL","geo_verification_status":"NOT_ESTABLISHED"}
+{"location_id":"227","candidate_id":"BRJ-TMP-028","canonical_name":"Pavana Sarovar","cluster":"NANDGAON","formal_status_preserved":"U","goud_status":"PRESERVED_PARTIAL","geo_verification_status":"NOT_ESTABLISHED"}
+{"location_id":"228","candidate_id":"BRJ-TMP-029","canonical_name":"Ter Kadamba","cluster":"NANDGAON","formal_status_preserved":"U","goud_status":"PRESERVED_PARTIAL","geo_verification_status":"NOT_ESTABLISHED"}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=847 path=research/active/BRAJ-COMPLETE-001/GOUD/proximity.jsonl blob_sha=056797679080dcb62606bd7b0d6fe7fcc0246ef8 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+{"proximity_id":"GP-001","location_id":"200","candidate_id":"IND-PLACE-000001","cluster":"VRINDAVAN","from_A1_time_min":0,"from_A2_time_min":null,"status":"PRACTICAL_CHECK_REQUIRED","checked_at":"2026-07-15","recheck_before":"after verified GEO endpoints","notes":"No travel time promoted without verified WGS84 endpoints."}
+{"proximity_id":"GP-002","location_id":"201","candidate_id":"IND-PLACE-000002","cluster":"VRINDAVAN","from_A1_time_min":null,"from_A2_time_min":0,"status":"PRACTICAL_CHECK_REQUIRED","checked_at":"2026-07-15","recheck_before":"after verified GEO endpoints","notes":"No travel time promoted without verified WGS84 endpoints."}
+{"proximity_id":"GP-003","location_id":"202","candidate_id":"IND-PLACE-000003","cluster":"MATHURA","from_A1_time_min":null,"from_A2_time_min":null,"status":"PRACTICAL_CHECK_REQUIRED","checked_at":"2026-07-15","recheck_before":"after verified GEO endpoints","notes":"No travel time promoted without verified WGS84 endpoints."}
+{"proximity_id":"GP-004","location_id":"203","candidate_id":"IND-PLACE-000004","cluster":"GOVARDHAN","from_A1_time_min":null,"from_A2_time_min":null,"status":"PRACTICAL_CHECK_REQUIRED","checked_at":"2026-07-15","recheck_before":"after verified GEO endpoints","notes":"No travel time promoted without verified WGS84 endpoints."}
+{"proximity_id":"GP-005","location_id":"204","candidate_id":"IND-PLACE-000005","cluster":"GOVARDHAN","from_A1_time_min":null,"from_A2_time_min":null,"status":"PRACTICAL_CHECK_REQUIRED","checked_at":"2026-07-15","recheck_before":"after verified GEO endpoints","notes":"No travel time promoted without verified WGS84 endpoints."}
+{"proximity_id":"GP-006","location_id":"205","candidate_id":"IND-PLACE-000006","cluster":"GOVARDHAN","from_A1_time_min":null,"from_A2_time_min":null,"status":"PRACTICAL_CHECK_REQUIRED","checked_at":"2026-07-15","recheck_before":"after verified GEO endpoints","notes":"No travel time promoted without verified WGS84 endpoints."}
+{"proximity_id":"GP-007","location_id":"206","candidate_id":"IND-PLACE-000007","cluster":"GOVARDHAN","from_A1_time_min":null,"from_A2_time_min":null,"status":"PRACTICAL_CHECK_REQUIRED","checked_at":"2026-07-15","recheck_before":"after verified GEO endpoints","notes":"No travel time promoted without verified WGS84 endpoints."}
+{"proximity_id":"GP-008","location_id":"207","candidate_id":"IND-PLACE-000008","cluster":"GOVARDHAN","from_A1_time_min":null,"from_A2_time_min":null,"status":"PRACTICAL_CHECK_REQUIRED","checked_at":"2026-07-15","recheck_before":"after verified GEO endpoints","notes":"No travel time promoted without verified WGS84 endpoints."}
+{"proximity_id":"GP-009","location_id":"208","candidate_id":"BRJ-TMP-009","cluster":"VRINDAVAN","from_A1_time_min":null,"from_A2_time_min":null,"status":"PRACTICAL_CHECK_REQUIRED","checked_at":"2026-07-15","recheck_before":"after verified GEO endpoints","notes":"No travel time promoted without verified WGS84 endpoints."}
+{"proximity_id":"GP-010","location_id":"209","candidate_id":"BRJ-TMP-010","cluster":"VRINDAVAN","from_A1_time_min":null,"from_A2_time_min":null,"status":"PRACTICAL_CHECK_REQUIRED","checked_at":"2026-07-15","recheck_before":"after verified GEO endpoints","notes":"No travel time promoted without verified WGS84 endpoints."}
+{"proximity_id":"GP-011","location_id":"210","candidate_id":"BRJ-TMP-011","cluster":"VRINDAVAN","from_A1_time_min":null,"from_A2_time_min":null,"status":"PRACTICAL_CHECK_REQUIRED","checked_at":"2026-07-15","recheck_before":"after verified GEO endpoints","notes":"No travel time promoted without verified WGS84 endpoints."}
+{"proximity_id":"GP-012","location_id":"211","candidate_id":"BRJ-TMP-012","cluster":"VRINDAVAN","from_A1_time_min":null,"from_A2_time_min":null,"status":"PRACTICAL_CHECK_REQUIRED","checked_at":"2026-07-15","recheck_before":"after verified GEO endpoints","notes":"No travel time promoted without verified WGS84 endpoints."}
+{"proximity_id":"GP-013","location_id":"212","candidate_id":"BRJ-TMP-013","cluster":"VRINDAVAN","from_A1_time_min":null,"from_A2_time_min":null,"status":"PRACTICAL_CHECK_REQUIRED","checked
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=848 path=research/active/BRAJ-COMPLETE-001/GOUD/proximity.jsonl blob_sha=056797679080dcb62606bd7b0d6fe7fcc0246ef8 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+_at":"2026-07-15","recheck_before":"after verified GEO endpoints","notes":"No travel time promoted without verified WGS84 endpoints."}
+{"proximity_id":"GP-014","location_id":"213","candidate_id":"BRJ-TMP-014","cluster":"MATHURA","from_A1_time_min":null,"from_A2_time_min":null,"status":"PRACTICAL_CHECK_REQUIRED","checked_at":"2026-07-15","recheck_before":"after verified GEO endpoints","notes":"No travel time promoted without verified WGS84 endpoints."}
+{"proximity_id":"GP-015","location_id":"214","candidate_id":"BRJ-TMP-015","cluster":"MATHURA","from_A1_time_min":null,"from_A2_time_min":null,"status":"PRACTICAL_CHECK_REQUIRED","checked_at":"2026-07-15","recheck_before":"after verified GEO endpoints","notes":"No travel time promoted without verified WGS84 endpoints."}
+{"proximity_id":"GP-016","location_id":"215","candidate_id":"BRJ-TMP-016","cluster":"GOVARDHAN","from_A1_time_min":null,"from_A2_time_min":null,"status":"PRACTICAL_CHECK_REQUIRED","checked_at":"2026-07-15","recheck_before":"after verified GEO endpoints","notes":"No travel time promoted without verified WGS84 endpoints."}
+{"proximity_id":"GP-017","location_id":"216","candidate_id":"BRJ-TMP-017","cluster":"GOVARDHAN","from_A1_time_min":null,"from_A2_time_min":null,"status":"PRACTICAL_CHECK_REQUIRED","checked_at":"2026-07-15","recheck_before":"after verified GEO endpoints","notes":"No travel time promoted without verified WGS84 endpoints."}
+{"proximity_id":"GP-018","location_id":"217","candidate_id":"BRJ-TMP-018","cluster":"GOVARDHAN","from_A1_time_min":null,"from_A2_time_min":null,"status":"PRACTICAL_CHECK_REQUIRED","checked_at":"2026-07-15","recheck_before":"after verified GEO endpoints","notes":"No travel time promoted without verified WGS84 endpoints."}
+{"proximity_id":"GP-019","location_id":"218","candidate_id":"BRJ-TMP-019","cluster":"GOKUL_MAHAVAN","from_A1_time_min":null,"from_A2_time_min":null,"status":"PRACTICAL_CHECK_REQUIRED","checked_at":"2026-07-15","recheck_before":"after verified GEO endpoints","notes":"No travel time promoted without verified WGS84 endpoints."}
+{"proximity_id":"GP-020","location_id":"219","candidate_id":"BRJ-TMP-020","cluster":"GOKUL_MAHAVAN","from_A1_time_min":null,"from_A2_time_min":null,"status":"PRACTICAL_CHECK_REQUIRED","checked_at":"2026-07-15","recheck_before":"after verified GEO endpoints","notes":"No travel time promoted without verified WGS84 endpoints."}
+{"proximity_id":"GP-021","location_id":"220","candidate_id":"BRJ-TMP-021","cluster":"GOKUL_MAHAVAN","from_A1_time_min":null,"from_A2_time_min":null,"status":"PRACTICAL_CHECK_REQUIRED","checked_at":"2026-07-15","recheck_before":"after verified GEO endpoints","notes":"No travel time promoted without verified WGS84 endpoints."}
+{"proximity_id":"GP-022","location_id":"221","candidate_id":"BRJ-TMP-022","cluster":"GOKUL_MAHAVAN","from_A1_time_min":null,"from_A2_time_min":null,"status":"IDENTITY_BLOCKED","checked_at":"2026-07-15","recheck_before":"after identity and GEO verification","notes":"No route time before alias and location resolution."}
+{"proximity_id":"GP-023","location_id":"222","candidate_id":"BRJ-TMP-023","cluster":"BARSANA","from_A1_time_min":null,"from_A2_time_min":null,"status":"PRACTICAL_CHECK_REQUIRED","checked_at":"2026-07-15","recheck_before":"after verified GEO endpoints","notes":"No travel time promoted without verified WGS84 endpoints."}
+{"proximity_id":"GP-024","location_id":"223","candidate_id":"BRJ-TMP-024","cluster":"BARSANA","from_A1_time_min":null,"from_A2_time_min":null,"status":"PRACTICAL_CHECK_REQUIRED","checked_at":"2026-07-15","recheck_before":"after verified GEO endpoints","notes":"No travel time promoted without verified WGS84 endpoints."}
+{"proximity_id":"GP-025","location_id":"224","candidate_id":"BRJ-TMP-025","cluster":"BARSANA","from_A1_time_min":null,"from_A2_time_min":null,"status":"PRACTICAL_CHECK_REQUIRED","checked_at":"2026-07-15","recheck_before":"after verified GEO endpoints","notes":"No travel time promoted without verified WGS84 endpoints."}
+{"proximity_id":"GP-026","location_id":"225","candidate_id":"BRJ-TMP-026","cluster":"B
+<<< END CHUNK >>>
+

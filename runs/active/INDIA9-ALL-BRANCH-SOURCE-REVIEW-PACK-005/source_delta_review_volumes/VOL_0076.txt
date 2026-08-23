@@ -1,0 +1,1126 @@
+>>> CHUNK stream_row=1330 path=runs/active/KUMAON-V2-RESWEEP-001/INDIA_SWEEP_B.md blob_sha=e54da5530bb94650413d99578d1d7456d9fbe6db original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=6 classification=text
+nainital.nic.in/tourist-place/kaichi-dham/
+- https://nainital.nic.in/tourist-place/hanuman-garhi/
+- https://www.ramdass.org/neem-karoli-baba-maharaji-stories-dada-mukerjee/
+- https://uttarakhandtourism.gov.in/public/blogs/nine-totally-amazing-offbeat-places-in-uttarakhand-i-explore
+
+### 7. Anandamayi Ma
+`DIRECT_MISSION_LINK_GEVONDEN — MEERVOUDIG`
+
+De Anandamayi-bronnen leveren een opvallend dicht Kumaon-cluster:
+- Nainital in 1937;
+- Bhumiya Dhara, vier mijl van Naina Temple;
+- Naina Temple: Vedic Yagna met Ma als centrale figuur;
+- Nanda Devi Temple, Almora: Ma verbleef daar;
+- Patal Devi, Almora: Bhaiji's samadhi en later Ma's ashram/rooms; Ma verbleef er en de ashram werd in haar aanwezigheid ingewijd;
+- Dhaulchina: huidige Anandamayi Ashram bestaat en haar levensbeschrijving noemt reizen door de Dhaulchina-zone;
+- Mirtola: haar officiële levensgeschiedenis bevestigt een ontmoeting met Yasoda Ma in Mirtola in 1943;
+- Jageshwar/Yogeshwar verschijnt in haar Himalaya-reisroute; spelling/precisie bij reconciliatie bevestigen voordat de Top11-link hard aan de exacte Jageshwar-locatie wordt gehangen.
+
+Bronnen:
+- https://www.anandamayi.org/books/Anandamayee.htm
+- https://www.anandamayi.org/life-history-1943-1952/
+- https://www.anandamayi.org/ashram-contact-details/
+
+### 8. Ramakrishna
+`GEEN PERSOONLIJK KUMAON-BEZOEK BEVESTIGD | STERKE LINEAGE/ORDER-LINK`
+
+- Ramakrishna Kutir, Almora: opgericht door directe discipelen/monniken uit de Ramakrishna-traditie om Vivekananda's uitgesproken wens voor een Almora-ashram te verwezenlijken.
+- Diverse plekken in/om Almora zijn direct verbonden met Vivekananda en andere directe discipelen van Ramakrishna.
+
+Niet formuleren alsof Ramakrishna zelf hier fysiek geweest is zolang daarvoor geen bron bestaat.
+
+Bron: https://almora.rkmm.org/places
+
+### 9. Ramana Maharshi
+`GEEN DIRECTE KUMAON-LINK GEVONDEN IN GERICHTE SWEEP B`
+
+Geen kandidaat promoveren. Dit is een negatief onderzoeksresultaat, geen absolute bewijsclaim dat er onmogelijk ooit een indirecte institutionele link bestaat.
+
+### 10. Hariharananda
+`DIRECT_REGION_EVENT_GEVONDEN | EXACT_SITE_ONBEKEND`
+
+Kriya Yoga International vermeldt dat Hariharananda naar Ranikhet reisde om Babaji te bezoeken en daar Babaji's stem hoorde die hem opdroeg Kriya Yoga wereldwijd te verspreiden. Ranikhet is dus een directe Top-11-eventlocatie, maar de exacte fysieke sublocatie wordt niet gegeven.
+
+Bron: https://www.kriya.org/guru/paramahamsa-hariharananda/en
+
+### 11. Vivekananda
+`ZEER ZWARE DIRECTE FYSIEKE CLUSTER`
+
+De officiële Ramakrishna Kutir-site documenteert een uitzonderlijk uitgebreide reeks fysieke voetstappen:
+- Kathgodam Railway Station;
+- Nainital-verblijfzone;
+- Kakrighat Jnana Vriksha;
+- Vivekananda Shila / Karbala;
+- Lodhia ontvangstzone / huidig Vivekananda Dwar;
+- Thompson House;
+- English Club;
+- Government Inter College, Almora;
+- Amba Dutt's Garden;
+- Raghunath Temple;
+- Lala Badri Sah's House;
+- Kasar Devi Cave;
+- Dewaldhar Estate;
+- Syahi Devi;
+- Mornaula Dak Bungalow;
+- Binsar Dak Bungalow;
+- Mayavati Advaita Ashrama;
+- daarnaast Oakley House/Nivedita Cottage en meerdere routepunten die de officiële Kumaon Spiritual Circuit noemt, maar waarvan detail/identiteit per punt nog gecontroleerd moet worden.
+
+Ramakrishna Kutir zelf is een sterke institutionele/lineage-locatie, maar is opgericht nadat Vivekananda was overleden; niet als persoonlijke verblijfplaats van Vivekananda presenteren.
+
+Bronnen:
+- https://almora.rkmm.org/places
+- https://almora.rkmm.org/three-visits
+
+## TIJDELIJKE_NIEUWE_FYSIEKE_KANDIDATEN
+
+Geen A/B/C. Alleen tijdelijke Sweep-B-identiteiten.
+
+| temp_id | fysieke plek | hoofdlaag | status Sweep B |
+|---|---|---|---|
+| KB2-001 | Mahavatar Babaji's Cave, Pandukholi/Kukuchina | AOAY + Babaji + Lahiri | DIRECT_MISSION_CONFIRMED |
+| KB2-002 | Gogash River | AOAY + Lahiri | DIRECT_FEATURE; exact historic bank unknown |
+| KB2-003 | Ranikhet historic Lahiri work/army-post zone | AOAY + Lahiri | DIRECT_EVENT_ZONE; exact building unresolved |
+| KB2-004 | Yogoda Satsanga Sakha Ashram, Dwarahat | Yogananda/YSS/Kriya | INSTITUTION
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1331 path=runs/active/KUMAON-V2-RESWEEP-001/INDIA_SWEEP_B.md blob_sha=e54da5530bb94650413d99578d1d7456d9fbe6db original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=6 classification=text
+AL_MISSION_CONFIRMED |
+| KB2-005 | Government Rest House, Dwarahat | YSS/Daya Mata lineage | LINEAGE_EVENT; lower priority identity confirmed by YSS description |
+| KB2-006 | YSS Nainital Meditation Centre | Yogananda/YSS | INSTITUTIONAL_MISSION_CONFIRMED |
+| KB2-007 | YSS Kathgodam Meditation Centre | Yogananda/YSS | INSTITUTIONAL_MISSION_CONFIRMED |
+| KB2-008 | Kainchi Dham | Ram Dass + NKB | DIRECT_MISSION_CONFIRMED |
+| KB2-009 | Bhumiadhar Temple/Ashram | NKB; possible Ram Dass historical relevance | DIRECT_NKB; identity/history relation to Bhumiya Dhara still reconcile |
+| KB2-010 | Hanuman Garhi, Nainital | NKB | DIRECT_MISSION_CONFIRMED |
+| KB2-011 | Neem Karoli Baba Ashram/Temple, Kakrighat | NKB | PHYSICAL_LEAD_CONFIRMED_BY_UTDB; identity separation needed |
+| KB2-012 | K.K. Sah Nainital home | Ram Dass | DIRECT_EVENT; PRIVATE/EXACT_VISITOR_IDENTITY_NOT_PROMOTED |
+| KB2-013 | Sah-family hotel, Nainital | Ram Dass | DIRECT_STAY_LEAD; exact hotel/current identity unresolved |
+| KB2-014 | Naina Devi Temple, Nainital | Anandamayi Ma | DIRECT_TOP11_EVENT_CONFIRMED |
+| KB2-015 | Bhumiya Dhara | Anandamayi Ma | DIRECT_TOP11_EVENT; exact identity vs Bhumiadhar unresolved |
+| KB2-016 | Nanda Devi Temple, Almora | Anandamayi Ma | DIRECT_TOP11_STAY_CONFIRMED |
+| KB2-017 | Anandamayi Ashram, Patal Devi | Anandamayi Ma | DIRECT_MISSION_CONFIRMED |
+| KB2-018 | Anandamayi Ashram, Dhaulchina | Anandamayi Ma | CURRENT_INSTITUTION + historical route link; detail verify |
+| KB2-019 | Mirtola / Sri Yashoda Ma Ashram | Anandamayi Ma | DIRECT_TOP11_MEETING_CONFIRMED |
+| KB2-020 | Kathgodam Railway Station | Vivekananda | DIRECT_TOP11_FOOTSTEP_CONFIRMED |
+| KB2-021 | Nainital Vivekananda stay zone | Vivekananda | DIRECT_TOP11; exact lodging unresolved |
+| KB2-022 | Kakrighat Jnana Vriksha | Vivekananda | DIRECT_TOP11_REALIZATION_CONFIRMED |
+| KB2-023 | Vivekananda Shila / Karbala | Vivekananda | DIRECT_TOP11_EVENT_CONFIRMED |
+| KB2-024 | Lodhia reception zone / Vivekananda Dwar | Vivekananda | DIRECT_EVENT + later commemoration |
+| KB2-025 | Ramakrishna Kutir, Almora | Vivekananda wish + Ramakrishna Order | INSTITUTIONAL_TOP11_LINEAGE_CONFIRMED |
+| KB2-026 | Thompson House | Vivekananda | DIRECT_TOP11_STAY_CONFIRMED |
+| KB2-027 | English Club, Almora | Vivekananda | DIRECT_TOP11_LECTURE_CONFIRMED |
+| KB2-028 | Oakley House / Nivedita Cottage | Vivekananda/Nivedita | OFFICIAL_CIRCUIT; exact event detail verify |
+| KB2-029 | Government Inter College, Almora | Vivekananda | DIRECT_TOP11_LECTURE_CONFIRMED |
+| KB2-030 | Amba Dutt's Garden | Vivekananda | DIRECT_TOP11_EVENT_CONFIRMED |
+| KB2-031 | Raghunath Temple / reception zone | Vivekananda | DIRECT_TOP11_EVENT_CONFIRMED |
+| KB2-032 | Lala Badri Sah's House | Vivekananda | DIRECT_TOP11_STAY_CONFIRMED |
+| KB2-033 | Kasar Devi Cave / temple area | Vivekananda | DIRECT_TOP11_MEDITATION_CONFIRMED |
+| KB2-034 | Dewaldhar Estate | Vivekananda | DIRECT_TOP11_STAY_CONFIRMED; surviving physical identity verify |
+| KB2-035 | Syahi Devi / forest-cave zone | Vivekananda | DIRECT_TOP11_STAY/MEDITATION; exact cave identity verify |
+| KB2-036 | Mornaula Dak Bungalow | Vivekananda | DIRECT_TOP11_STAY_CONFIRMED; current building identity verify |
+| KB2-037 | Binsar Dak Bungalow | Vivekananda | DIRECT_TOP11_STAY_CONFIRMED; current building identity verify |
+| KB2-038 | Mayavati Advaita Ashrama | Vivekananda | DIRECT_TOP11_STAY + INSTITUTION_CONFIRMED |
+| KB2-039 | Vivekananda Ashrama, Shyamlatal | Vivekananda disciple lineage | INSTITUTIONAL_LINEAGE; no personal visit asserted |
+| KB2-040 | Turiyananda Tapasthali / Chilkapet House zone | Ramakrishna direct disciples | TOP11_LINEAGE; chronology/details on RKMM page require proofreading check |
+| KB2-041 | Haidakhan Vishwa Mahadham | heavy living tradition | LAYER3_HEAVY; Mahavatar-identity = tradition claim only |
+| KB2-042 | Anandapuri Ashram, Chiliyanaula | Haidakhandi tradition | LAYER3_HEAVY/TRADITION; no AOAY identity canonization |
+| KB2-043 | Jageshwar Dham | major regional pilgrimage + possible Anandamayi route | LAYER3_HEAVY_CONFIRMED; Top11 spel
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1332 path=runs/active/KUMAON-V2-RESWEEP-001/INDIA_SWEEP_B.md blob_sha=e54da5530bb94650413d99578d1d7456d9fbe6db original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=6 classification=text
+ling/link verify |
+| KB2-044 | Dunagiri/Doonagiri Temple | major regional pilgrimage | LAYER3_HEAVY_CONFIRMED; distinct from Babaji Cave |
+| KB2-045 | Chitai Golu Devta Temple | major regional pilgrimage | LAYER3_HEAVY_CONFIRMED |
+
+## EVENT_LEADS_ZONDER_VOLDOENDE_AFZONDERLIJKE_FYSIEKE_IDENTITEIT
+
+1. Ranikhet — exact kantoor/army-post gebouw van Lahiri in 1861.
+2. Ranikhet — exacte plek waar Hariharananda Babaji's stem hoorde.
+3. Golden Palace-event — geen blijvend paleis; area bij grotten, niet als los gebouw behandelen.
+4. Nainital — exact hotel van Sah-familie waar Ram Dass/Western satsang verbleef; naam/current identity nog hard maken.
+5. K.K. Sah's huis — historische betekenis bevestigd, maar privé en exact bezoekerspunt niet nodig zonder publieke/ethische basis.
+6. Nainital — exact Vivekananda-verblijf in 1890/1898 waar officiële circuitbron alleen de stad noemt.
+7. Official Vivekananda Spiritual Circuit noemt ook Dhari Dak Bungalow, Pahar Pani, Dhunaghat en Khatima; huidige fysieke identiteit/precisie nog niet volledig geverifieerd in Sweep B.
+8. Askot en verdere Kailash-routepunten van Anandamayi Ma liggen buiten de kernzone; alleen uitbreiden als latere routekeuze/regioscope dat rechtvaardigt.
+
+## AFGEWEZEN_DUPLICATEN/SUBLOCATIES / NIET ALS LOS OBJECT PROMOVEREN
+
+- materialized palace: geen blijvend gebouw; event-sublocatie in hetzelfde grottenlandschap;
+- Bhaiji Samadhi binnen Patal Devi Ashram: relevante sublocatie, maar niet automatisch een apart regionaal hoofdobject;
+- Mrityunjaya/Jageshwar-subtempels: onderdeel van Jageshwar-complex tenzij latere spirituele reden aparte kandidaat vereist;
+- Dwarahat oude tempelgroepen: archeologisch belangrijk, maar niet elk afzonderlijk automatisch laag-3-zwaargewicht;
+- Ramsay Hospital Nainital: NKB-event bestaat in Ram Dass-materiaal, maar is medisch/mundaan en heeft zonder verdere spirituele betekenis geen kandidaatpromotie gekregen;
+- Bhowali als verkeers-/verblijfsplaats: geen losse spirituele kandidaat zonder specifieke plek.
+
+## LAAG3_HEAVYWEIGHTS
+
+### Jageshwar Dham
+`HEAVY_CONFIRMED`
+Uttarakhand Tourism en Almora District beschrijven een groot, eeuwenoud Shiva-tempelcomplex met circa 124–125 tempels; het is een van de belangrijkste religieuze plekken van Kumaon en ASI-beschermd. Zelfstandig zwaar genoeg, ook zonder Top-11-link.
+
+Bronnen:
+- https://www.uttarakhandtourism.gov.in/explore/Jageshwar
+- https://almora.nic.in/places-of-interest/
+
+### Dunagiri/Doonagiri Temple
+`HEAVY_REGIONAL_CONFIRMED`
+Almora District noemt de bekende Durga-tempel circa 10 km van Dwarahat. Los houden van Babaji's Cave; geografische nabijheid maakt ze niet dezelfde plek.
+
+Bron: https://almora.nic.in/places-of-interest/
+
+### Chitai Golu Devta Temple
+`HEAVY_REGIONAL_CONFIRMED`
+Uttarakhand Tourism beschrijft Golu Devta als een van de meest vereerde godheden van Kumaon en noemt duizenden bezoekers; districtbron bevestigt de bekende Chitai-tempel.
+
+Bronnen:
+- https://www.uttarakhandtourism.gov.in/explore/Jageshwar
+- https://almora.nic.in/hi/धार्मिक-स्थल/
+
+### Haidakhan Vishwa Mahadham
+`HEAVY_LIVING_TRADITION_CONFIRMED | AOAY_IDENTITY_NOT_CONFIRMED`
+De Haidakhandi Samaj documenteert de ashram, negen tempels en de eigen traditie rond de Haidakhan Baba van 1970–1984. De Samaj claimt expliciet identiteit met Mahavatar Babaji uit AOAY; dat is bewijs voor de overtuiging van de traditie, NIET onafhankelijke verificatie van die identiteit.
+
+Bronnen:
+- https://haidakhandisamaj.in/ashrams/
+- https://haidakhandisamaj.in/about-samaj/
+
+### Anandapuri Ashram, Chiliyanaula
+`HEAVY_TRADITIONAL_SECONDARY_SITE`
+Actuele Haidakhandi Ashram bij Ranikhet. Relevantie vooral door dezelfde levende traditie; lager zelfstandig gewicht dan Haidakhan Vishwa Mahadham.
+
+## BRONVERIFICATIE_STATUS
+
+Sterkste bronfamilies rechtstreeks geopend/geraadpleegd:
+- Project Gutenberg — AOAY hoofdstuk 34;
+- Yogoda Satsanga Society of India — Dwarahat/Babaji Cave + huidige centres;
+- Kriya Yoga International — Hariharananda biography;
+- Ramakrishna Kutir/Ramakrishna Math — officiële Vivekanan
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1333 path=runs/active/KUMAON-V2-RESWEEP-001/INDIA_SWEEP_B.md blob_sha=e54da5530bb94650413d99578d1d7456d9fbe6db original_offset=20480 original_length=3286 payload_bytes=3286 chunk_index=5 chunk_count=6 classification=text
+da Kumaon circuitbeschrijvingen;
+- Ram Dass / Love Serve Remember Foundation — Ram Dass/NKB/KK Sah/Kainchi-context;
+- Sri Sri Anandamayi Sangha/Anandamayi.org — levenschronologie, ashrams, Kumaon-bezoeken;
+- Nainital District Administration + Uttarakhand Tourism — Kainchi/Hanuman Garhi/regiopelgrimage;
+- Almora District Administration + Uttarakhand Tourism — Dwarahat/Jageshwar/regionale heiligdommen;
+- Haidakhandi Samaj — uitsluitend gebruikt voor wat die eigen traditie over zichzelf en haar fysieke ashrams claimt.
+
+Belangrijke bronwaarschuwingen:
+- Incredible India noemt ten onrechte/onzorgvuldig een 'samadhi/final resting place' van NKB in Kainchi; niet overgenomen als canon.
+- RKMM-pagina `places` heeft bij Oakley House een tekstblok dat duidelijk Nainital-tekst dupliceert; Oakley blijft daarom in deze Sweep B `OFFICIAL_CIRCUIT; DETAILS_VERIFY` en niet op dat foutieve tekstblok hard gecanoniseerd.
+- Haidakhandi's identificatie van hun Babaji met AOAY's Mahavatar Babaji blijft een traditieclaim.
+- `Bhumiadhar` (NKB) en `Bhumiya Dhara` (Anandamayi) mogen niet op naamgelijkenis automatisch worden samengevoegd.
+
+## NEGATIEVE_RESULTATEN
+
+- Sri Yukteswar: geen direct persoonlijk Kumaon-bezoekpunt bevestigd.
+- Ramana Maharshi: geen directe Kumaon-locatie bevestigd.
+- Ramakrishna: geen persoonlijk Kumaon-bezoek bevestigd; lineage/Order wel zeer sterk.
+- Yogananda: geen persoonlijk Kumaon-bezoek bevestigd; institutionele YSS-link wel sterk.
+- Geen basis om Haidakhan Baba zonder kwalificatie als dezelfde historische/eeuwige Babaji uit AOAY te presenteren.
+- Geen basis om de verdwenen golden palace als huidig afzonderlijk gebouw te presenteren.
+
+## SATURATION_STATUS_SWEEP_B
+
+`SWEEP_B_COMPLETE_FOR_RECONCILIATION: JA`
+
+Dit is geen finale Kumaon-compleetheidsclaim. Finale saturation mag pas na:
+1. CCI Sweep A voltooid en bevroren;
+2. Sweep A vs Sweep B vergelijking;
+3. pas daarna legacy `KUMAON-COMPLETE-001` openen;
+4. `NIEUW_INTERSECT_OUD`, `NIEUW_MIN_OUD`, `OUD_MIN_NIEUW`, bronconflicten en eventuele Mark-conflicten verklaren;
+5. identity/GEO-controle op unresolved leads.
+
+## MARK_BESLUIT_CONFLICTEN
+
+Nog niet beoordeeld — bewust, omdat legacy Mark-besluiten tot na de blinde sweeps geen discovery-basis zijn. Geen enkel bestaand Mark-besluit is in Sweep B gewijzigd.
+
+## BLOCKERS
+
+Geen blocker voor het bevriezen van Sweep B.
+
+Open research-gaten vóór finale reconciliatie:
+- exacte Lahiri Ranikhet worksite;
+- exacte Hariharananda Ranikhet eventsite;
+- Bhumiadhar vs Bhumiya Dhara identity;
+- Ram Dass Sah-family hotel current/historic identity;
+- enkele Vivekananda-circuitgebouwen/routepunten current identity;
+- Anandamayi 'Yogeshwar' vs exact Jageshwar spelling/location;
+- scheiding NKB Kakrighat Ashram vs Vivekananda Jnana Vriksha/temple;
+- Haidakhan tradition claim strikt gescheiden houden van YSS/AOAY canon.
+
+## NEXT_AFTER_FREEZE
+
+INDIA leest nu GEEN CCI Sweep-A-resultaat zolang CCI Sweep A nog niet expliciet klaar/bevroren is.
+Zodra CCI Sweep A klaar is:
+1. Sweep A openen en vergelijken met dit bevroren Sweep B-bestand;
+2. daarna pas legacy Kumaon-data openen;
+3. volledige V2-reconciliatie uitvoeren;
+4. alleen daarna kandidaten/IDs/keuzeproduct voor Mark voorbereiden.
+
+Geen PRE_PDF_CONTENT. Geen PDF. Geen A/B/C voorspeld.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1334 path=runs/active/KUMAON-V2-RESWEEP-001/RESULT.md blob_sha=36d33a450d0803bcbd1369633fd0bba78dd89a71 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=5 classification=text
+# RESULT — KUMAON-V2-RESWEEP-001 — Sweep A (CCI)
+
+```
+task_id: KUMAON-V2-RESWEEP-001
+sweep: A (CCI, blind, geen legacy als discovery-basis)
+uitgevoerd_op: 2026-08-14
+uitgevoerd_door: CCI
+```
+
+## SWEEP_A_STATUS
+
+KLAAR. Volledig nieuwe discovery uitgevoerd zonder `KUMAON-COMPLETE-001`/
+`VRINDAVAN-KUMAON-CORRIDOR-001` als zoekbasis te raadplegen (zie BLINDHEID_VERKLAARD). AOAY
+volledig doorzocht op primaire brontekst; alle 11 Top-11-namen individueel onderzocht; laag-3
+gericht op zelfstandige zwaargewichten binnen de regionale samenhang. 8 tijdelijke
+Sweep-A-kandidaten gevonden, geen permanente ID's toegekend.
+
+## SCOPE_DEFINITION
+
+Geografische as bepaald op basis van TASK.md-omgeving en bevestigd via onderzoek: Nainital-district
+(Nainital, Bhowali, Kainchi, Haldwani, Kathgodam — laatste twee bevestigd als spoorweg-/
+transitgateways naar de Kumaon-heuvels, geen zelfstandige AOAY/Top-11/laag-3-kandidaat daar zelf
+gevonden) en Almora-district (Almora-stad, Ranikhet, Dwarahat, Dunagiri/Kukuchina, Kasar Devi,
+Jageshwar). Pithoragarh-district (Patal Bhuvaneshwar) ligt geografisch verder oostelijk, buiten de
+in TASK.md letterlijk genoemde plaatsnamen, maar wordt binnen bredere Kumaon-regionale samenhang
+meegenomen als grensgeval — expliciet zo gemarkeerd, niet stilzwijgend als kernzone behandeld (zie
+KUM-SWEEP-A-006).
+
+## AOAY_RESULTAAT
+
+**Hoofdvondst, rechtstreeks uit de brontekst geciteerd** (Project Gutenberg eBook #7452, lokaal
+gedownload en volledig doorzocht op alle varianten van Kumaon-plaatsnamen — Kumaon, Kainchi,
+Ranikhet, Dwarahat, Nainital/Naini Tal, Haldwani, Kathgodam, Bhowali, Almora, Dunagiri/Drongiri,
+Pandukholi, Kukuchina, Haidakhan, Nanda Devi, Garhwal, Mukteshwar, Binsar): het hoofdstuk over
+Lahiri Mahasaya's eerste ontmoeting met Babaji beschrijft in uitgebreid detail een grot op de
+“Drongiri Mountain” nabij Ranikhet, waar Babaji hem in 1861 in Kriya Yoga initieerde. Letterlijk
+uit de tekst: “One of the caves occupied by Babaji in the Drongiri Mountains near Ranikhet in the
+Himalayas” (illustratiebijschrift) en Lahiri Mahasaya's eigen verslag: “I continued my vigorous
+upward climb on Drongiri Mountain… I finally reached a small clearing whose sides were dotted
+with caves.” Voetnoot FN34-2 plaatst dit expliciet “in the Almora district of United Provinces…
+aan de voet van Nanda Devi.” Dit is de moderne, door meerdere onafhankelijke bronnen bevestigde
+Mahavatar Babaji-grot bij Kukuchina, nabij Dunagiri/Dwarahat (spellingvariant “Drongiri” =
+“Dunagiri”). Zie KUM-SWEEP-A-001.
+
+Secundaire, zwakkere AOAY-vermelding: jonge Yogananda “fled that afternoon toward Naini Tal in the
+Himalayan foothills” tijdens een mislukte weglooppoging vanuit Bareilly — zijn broer haalde hem in
+voordat hij Naini Tal daadwerkelijk bereikte (“I was forced to return sadly to Bareilly”). GEEN
+fysieke locatie-kandidaat: hij is er nooit aangekomen. Vastgelegd voor volledigheid, niet
+gepromoveerd.
+
+Geen andere treffers voor de overige gezochte termen (Kainchi, Dwarahat, Haldwani, Kathgodam,
+Bhowali, Dunagiri/Pandukholi/Kukuchina/Haidakhan als letterlijke tekst, Garhwal, Mukteshwar,
+Binsar) — expliciet nul, niet onderzocht gelaten.
+
+`gebeurtenis_geverifieerd`: JA (rechtstreekse primaire brontekst, niet snippet/samenvatting).
+`exacte_fysieke_locatie_geverifieerd`: JA voor de regio/berg (Drongiri/Dunagiri-Mountains nabij
+Ranikhet, Almora-district); de precieze grotidentiteit is bevestigd via onafhankelijke moderne
+bronnen (zie KUM-SWEEP-A-001), niet uit AOAY zelf.
+
+## TOP11_RESULTAAT_PER_NAAM
+
+| # | Persoon | Methode | Bevinding | Bron(nen) |
+|---|---|---|---|---|
+| 1 | Paramahansa Yogananda | AOAY-sweep + gerichte zoekopdracht naar persoonlijk Kumaon-bezoek | GEEN_AANTOONBARE_PERSOONLIJK_BEZOEK — AOAY beschrijft de Babaji-grot uitgebreid (via Lahiri Mahasaya's verslag), maar geen bron bevestigt dat Yogananda de grot zelf persoonlijk bezocht; zijn eigen jeugd-wegloop­poging richting Naini Tal strandde voordat hij aankwam. AOAY-link (KUM-SWEEP-A-001) blijft staan als boek-locatie, los van persoon
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1335 path=runs/active/KUMAON-V2-RESWEEP-001/RESULT.md blob_sha=36d33a450d0803bcbd1369633fd0bba78dd89a71 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=5 classification=text
+lijk bezoek | AOAY-sweep (rechtstreeks); WebSearch (geen bevestiging persoonlijk bezoek) |
+| 2 | Mahavatar Babaji | AOAY-sweep (hoofdvondst) + corroboratie via onafhankelijke moderne bronnen | LINK_GEVONDEN — grot op Drongiri/Dunagiri Mountain nabij Ranikhet/Dwarahat, zijn eigen woonplek/ontmoetingsplek met Lahiri Mahasaya (1861) | AOAY (rechtstreeks); euttaranchal.com, yssofindia.org, atlastravel.in (corroborerend) |
+| 3 | Lahiri Mahasaya | AOAY-sweep (hoofdvondst) | LINK_GEVONDEN — Kriya Yoga-initiatie door Babaji in dezelfde grot, 1861, uitgebreid eigen ooggetuigenverslag in AOAY | AOAY (rechtstreeks) |
+| 4 | Sri Yukteswar | Gerichte zoekopdracht naar Himalaya-/Kumaon-reizen buiten Serampore/Puri | GEEN_AANTOONBARE_LINK — biografische bronnen plaatsen zijn hele leven in Serampore en Puri (twee ashrams, “Priyadham” en “Karar Ashram”); geen enkele bron noemt een Himalaya-/Kumaon-reis | WebSearch (meerdere biografische bronnen, geen Kumaon-vermelding) |
+| 5 | Ram Dass | Gerichte zoekopdracht naar zijn 1967-transformatie | LINK_GEVONDEN — Kainchi Dham-ashram (Neem Karoli Baba) is de plek van zijn bepalende ontmoeting met zijn goeroe in 1967, aanleiding voor “Be Here Now” | ramdass.org, nkbashram.org (corroborerend) |
+| 6 | Neem Karoli Baba | Gerichte zoekopdracht naar zijn hoofdverblijfplaats | LINK_GEVONDEN — Kainchi Dham (Bhowali-vallei, Nainital-district) is zijn door hemzelf gestichte hoofdashram (eerste tempel ingewijd juni 1964) | euttaranchal.com, nkbashram.org, myholidayhappiness.com (corroborerend) |
+| 7 | Anandamayi Ma | Gerichte zoekopdracht naar ashrams/bezoeken in de regio | LINK_GEVONDEN — twee eigen ashrams in Almora-district (Patal Devi en Dhaul-Chhina, beide officieel vermeld door haar eigen organisatie); één zwakkere, enkelvoudige bron noemt ook een bezoek aan Kasar Devi — apart vastgelegd met lagere zekerheid | anandamayi.org, shreeshreeanandamayeesangha.org (sterk, officieel); één secundaire tourism-bron voor Kasar Devi (zwak, niet gecorroboreerd) |
+| 8 | Ramakrishna | Gerichte zoekopdracht + hergebruik van eerder vastgesteld biografisch patroon (reisde nagenoeg nooit buiten Bengalen, overleden 1886) | GEEN_AANTOONBARE_LINK — geen enkele bron bevestigt een persoonlijk Kumaon-bezoek. “Ramakrishna Kutir, Almora” bestaat wel, maar is een latere Ramakrishna Mission-vestiging (instelling/eerbetoon), geen locatie waar Ramakrishna zelf ooit was — zie OUT_OF_SCOPE-sectie, analoog aan het Belur Math Gaya Ji-precedent uit de corridor-taak | WebSearch (geen persoonlijk bezoek gevonden; wel het institutionele Ramakrishna Kutir) |
+| 9 | Ramana Maharshi | Hergebruik van eerder onafhankelijk vastgesteld, hoogzeker biografisch feit (verliet Arunachala 54 jaar lang nooit) | GEEN_AANTOONBARE_LINK (hoge zekerheid, niet regio-afhankelijk opnieuw onderzocht omdat de onderliggende reden — fysieke afwezigheid van Arunachala — al onafhankelijk vaststaat) | eerdere AOAY_TOP11_AUDIT.md (hergebruikt) |
+| 10 | Hariharananda (Giri) | Gerichte zoekopdracht naar Kriya-lineage-bezoeken aan de Babaji-grot | LINK_GEVONDEN — bezocht Ranikhet in de jaren '60 en mediteerde in dezelfde grot waar Babaji Lahiri Mahasaya initieerde; hoorde er zelf Babaji's stem | kriya.org, Wikipedia (Hariharananda Giri), rajahamsakriya.com (corroborerend) |
+| 11 | Vivekananda | Gerichte zoekopdracht naar Almora/Nainital-bezoeken | LINK_GEVONDEN — drie gedocumenteerde bezoeken: augustus 1890 (rondtrekkende monnik, 6 dagen in Nainital, meditatie in een grot bij Kasar Devi), mei 1897 (Almora, verblijf), juli 1897 (lezing English Club Almora), mei 1898 (Nainital) | almora.rkmm.org (officieel, Ramakrishna Mission), sannidhi.net (Vivekananda Cave Kasar Devi) |
+
+**Samenvatting**: 6 van 11 LINK_GEVONDEN (Babaji, Lahiri Mahasaya, Ram Dass, Neem Karoli Baba,
+Anandamayi Ma, Hariharananda, Vivekananda — telt op tot 7, zie correctie: Yogananda zelf is een
+aparte, zwakkere AOAY-boek-link zonder persoonlijk bezoek). 4 GEEN_AANTOONBARE_LINK (Yogananda
+persoonlijk bezoek, Sri Yukteswar, Ramakrishna, Ramana Maharshi) — alle vi
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1336 path=runs/active/KUMAON-V2-RESWEEP-001/RESULT.md blob_sha=36d33a450d0803bcbd1369633fd0bba78dd89a71 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=5 classification=text
+er expliciet vastgelegd
+met reden, niet stilzwijgend weggelaten.
+
+## LAAG3_HEAVYWEIGHTS
+
+- **Haidakhan Baba-ashram** (Haidakhan-dorp, Nainital-district) — onafhankelijke 20e-eeuwse
+  spirituele figuur (1970-1984 publiek optredend), negen tempels, eigen organisatie
+  (Haidakhandi Samaj). Door veel devotees geassocieerd met Mahavatar Babaji, maar dit is
+  devotionele identificatie/geloof, GEEN geverifieerd feit — expliciet zo vastgelegd, niet als
+  Top-11-Babaji-link behandeld. Zelfstandig zwaar genoeg voor laag 3 los van die associatie.
+- **Patal Bhuvaneshwar cave-tempel** (Pithoragarh-district) — Puranisch vermeld (Skanda Purana),
+  Adi Shankaracharya-bedevaart 1191 n.Chr., devotees beschouwen bezoek als gelijkwaardig aan een
+  Char Dham-bedevaart. Geografisch grensgeval t.o.v. de kernzone (zie SCOPE_DEFINITION).
+- **Jageshwar-tempelcomplex** (circa 35 km van Almora) — 125+ oude Shiva-tempels, circa 2500 jaar
+  oud (bouwperiode 9e-13e eeuw, Katyuri/Chand-dynastieën), één van de grootste tempelcomplexen van
+  de Himalaya. Duidelijk binnen kernzone.
+- **Pandukholi** (Dunagiri-berg, nabij Dwarahat) — Mahabharata-verbonden bedevaartsplek
+  (Pandava's-schuilplaats-legende), fysiek op dezelfde berg als KUM-SWEEP-A-001. Zelfstandige
+  laag-3-zwaarte via de Pandava-mythologie, los van de Babaji-connectie; geografisch
+  gecombineerd met 001 vermeld (mogelijke `combine_with` bij reconciliatie).
+
+## TIJDELIJKE_NIEUWE_FYSIEKE_KANDIDATEN
+
+```
+KUM-SWEEP-A-001 — Mahavatar Babaji-grot (Kukuchina, Dunagiri-berg, nabij Dwarahat/Ranikhet, Almora-district)
+  laag: AOAY + Top-11 (Babaji, Lahiri Mahasaya, Hariharananda)
+  bron_type: PRIMAIR (AOAY-brontekst) + OFFICIEEL (yssofindia.org) + REVIEW_PATTERN
+  bron: Project Gutenberg eBook #7452 (rechtstreeks doorzocht); yssofindia.org/location/dwarahat; euttaranchal.com; atlastravel.in
+  as_of: 2026-08-14
+  freshness: STABLE (historische/geografische identiteit)
+
+KUM-SWEEP-A-002 — Kainchi Dham (Neem Karoli Baba-ashram, Bhowali-vallei, Nainital-district)
+  laag: Top-11 (Neem Karoli Baba, Ram Dass)
+  bron_type: OFFICIEEL + REVIEW_PATTERN
+  bron: euttaranchal.com; nkbashram.org; ramdass.org
+  as_of: 2026-08-14
+  freshness: STABLE (geografische identiteit); CHECK_ON_USE (praktische toegang/tijden)
+
+KUM-SWEEP-A-003 — Kasar Devi / Vivekananda-grot (Almora)
+  laag: Top-11 (Vivekananda, hoge zekerheid); Anandamayi Ma (zwakke, enkelvoudige bron)
+  bron_type: OFFICIEEL (almora.rkmm.org) + REVIEW_PATTERN
+  bron: almora.rkmm.org; sannidhi.net; Wikipedia (Kasar Devi)
+  as_of: 2026-08-14
+  freshness: STABLE
+
+KUM-SWEEP-A-004 — Anandamayi Ma-ashrams Almora (Patal Devi + Dhaul-Chhina, twee sublocaties)
+  laag: Top-11 (Anandamayi Ma)
+  bron_type: OFFICIEEL (eigen organisatie)
+  bron: anandamayi.org; shreeshreeanandamayeesangha.org
+  as_of: 2026-08-14
+  freshness: STABLE
+
+KUM-SWEEP-A-005 — Haidakhan Baba-ashram (Haidakhan-dorp, Nainital-district)
+  laag: laag 3 (onafhankelijk zwaargewicht)
+  bron_type: REVIEW_PATTERN + eigen organisatie (Haidakhandi Samaj)
+  bron: Wikipedia (Haidakhan Babaji); rishikeshdaytour.com; uttarakhandi.com
+  as_of: 2026-08-14
+  freshness: STABLE
+
+KUM-SWEEP-A-006 — Patal Bhuvaneshwar cave-tempel (Pithoragarh-district) — GEOGRAFISCH GRENSGEVAL
+  laag: laag 3 (onafhankelijk zwaargewicht)
+  bron_type: OFFICIEEL (pithoragarh.nic.in, kumaon.gov.in) + PURANISCH
+  bron: pithoragarh.nic.in; Wikipedia (Patal Bhuvaneshwar); kumaon.gov.in
+  as_of: 2026-08-14
+  freshness: STABLE
+
+KUM-SWEEP-A-007 — Jageshwar-tempelcomplex (nabij Almora)
+  laag: laag 3 (onafhankelijk zwaargewicht)
+  bron_type: OFFICIEEL (incredibleindia.gov.in) + archeologisch
+  bron: incredibleindia.gov.in; srimandir.com; garhwalstories.com
+  as_of: 2026-08-14
+  freshness: STABLE
+
+KUM-SWEEP-A-008 — Pandukholi (Dunagiri-berg, nabij Dwarahat) — mogelijk combine_with KUM-SWEEP-A-001
+  laag: laag 3 (Mahabharata-verbonden bedevaartsplek)
+  bron_type: REVIEW_PATTERN + mythologisch
+  bron: babajicave.com; rishikeshdaytour.com; devbhoomidarshan17.com
+  as_of: 2026-08-14
+  freshness: STABLE
+```
+
+Alle acht zijn TIJ
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1337 path=runs/active/KUMAON-V2-RESWEEP-001/RESULT.md blob_sha=36d33a450d0803bcbd1369633fd0bba78dd89a71 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=5 classification=text
+DELIJKE sweep-ID's conform TASK.md — geen permanente locatienummers toegekend;
+dat gebeurt pas na reconciliatie met Sweep B en identity-check.
+
+## AFGEWEZEN_DUPLICATEN/SUBLOCATIES
+
+Geen dubbele tijdelijke ID's binnen deze sweep. KUM-SWEEP-A-004 bevat twee sublocaties (Patal Devi,
+Dhaul-Chhina) bewust onder één tijdelijke ID gehouden tot identity-check bepaalt of ze apart moeten
+worden vastgelegd. KUM-SWEEP-A-008 (Pandukholi) is fysiek op dezelfde berg als KUM-SWEEP-A-001 maar
+heeft een eigen, onafhankelijke (niet-Babaji-gerelateerde) pelgrimsidentiteit (Pandava-mythologie)
+en wordt daarom NIET als sublocatie van 001 behandeld, wel met een mogelijke geo-relatie
+gemarkeerd.
+
+## NEGATIEVE_RESULTATEN
+
+Zie TOP11_RESULTAAT_PER_NAAM voor de 4 expliciete negatieve Top-11-bevindingen. Aanvullend:
+Haldwani en Kathgodam zijn bevestigd als spoorweg-/transitgateways naar de Kumaon-heuvels zonder
+eigen zelfstandige AOAY/Top-11/laag-3-kandidaat op die exacte plaats zelf. Mukteshwar, Binsar en
+Garhwal leverden geen AOAY-treffer en geen apart onderzochte laag-3-kandidaat op binnen de
+beschikbare onderzoekstijd — NIET uitgesloten, wel NIET_UITPUTTEND_ONDERZOCHT, expliciet zo
+vastgelegd voor Sweep B/reconciliatie i.p.v. stilzwijgend als “nul” gepresenteerd.
+
+## OUT_OF_SCOPE_NEGATIEVE_DETECTORBEVINDINGEN
+
+- **Ramakrishna Kutir, Almora** — officiële Ramakrishna Mission-vestiging in Almora, ontstaan uit
+  Vivekananda's bezoeken aan de regio (zie Top-11 #11). GEEN locatie waar Ramakrishna zelf
+  (Top-11 #8) ooit fysiek aanwezig was — een instelling vernoemd naar hem, analoog aan het Belur
+  Math Gaya Ji-precedent uit `GAYA-AIRPORT-BODHGAYA-CORRIDOR-001`. Niet gepromoveerd als
+  Ramakrishna-kandidaat; wel relevant als onderdeel van de Vivekananda-context bij
+  KUM-SWEEP-A-003.
+
+## BRONVERIFICATIE_STATUS (poort G.1)
+
+AOAY: volledige lokale full-textsweep van de daadwerkelijke brontekst (Project Gutenberg #7452,
+20.104 regels, lokaal gedownload en doorzocht met exacte grep-matching, niet snippet/samenvatting).
+Hoofdvondst rechtstreeks geciteerd uit de brontekst zelf, inclusief voetnootnummer en
+illustratiebijschrift.
+
+Top-11 en laag-3: voor elke LINK_GEVONDEN-claim is minimaal één corroborerende bron rechtstreeks
+geraadpleegd via WebSearch; waar een officieel/organisatie-eigen domein beschikbaar was (yssofindia.org,
+nkbashram.org, ramdass.org, anandamayi.org, almora.rkmm.org, incredibleindia.gov.in,
+pithoragarh.nic.in) is die als sterkste bron geprioriteerd boven algemene tourism-blogs. Één claim
+(Anandamayi Ma bij Kasar Devi) steunt op één enkelvoudige, niet-officiele bron en is expliciet als
+zwakker gemarkeerd, niet gelijkgesteld aan de sterker onderbouwde bevindingen.
+
+## BLINDHEID_VERKLAARD
+
+CCI heeft tijdens deze sweep NIET geraadpleegd: `KUMAON-COMPLETE-001`, `VRINDAVAN-KUMAON-CORRIDOR-001`,
+of enige oude Kumaon-kandidatenlijst, GOUD-rapport, decision report of volledigheidsclaim uit die
+runs. Geen van de bestandsnamen/paden uit die oude runs is geopend of doorzocht tijdens discovery.
+De scope-as (SCOPE_DEFINITION hierboven) is uitsluitend afgeleid uit TASK.md's eigen
+geografische omschrijving + onafhankelijk geografisch onderzoek, niet uit oude kandidaatlocaties.
+Oude Mark-besluiten zijn niet geraadpleegd tijdens discovery (er was ook geen aanleiding: geen van
+de 8 tijdelijke kandidaten hoefde tegen een bestaand besluit te worden getoetst tijdens Sweep A).
+
+## SATURATION_STATUS_SWEEP_A
+
+GEEN finale regionale compleetheidsclaim (conform TASK.md — volgt pas na Sweep B + reconciliatie,
+poort R). Voor Sweep A zelf: AOAY exhaustief doorzocht op primaire brontekst; alle 11 Top-11-namen
+individueel onderzocht met expliciete resultaten (positief en negatief); laag-3 gecontroleerd tegen
+meerdere onafhankelijke, deels officiele bronnen. Drie randgebieden (Mukteshwar, Binsar, Garhwal-
+breedte) zijn expliciet als niet-uitputtend onderzocht gemarkeerd i.p.v. als bewezen leeg
+gepresenteerd. Sweep A beschouwt zichzelf als KLAAR voor deze scope, wachtend op onafhankelijke
+Sweep B.
+
+## BLOCKERS
+
+Geen. Klaar voor Sweep B door INDIA (b
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1338 path=runs/active/KUMAON-V2-RESWEEP-001/RESULT.md blob_sha=36d33a450d0803bcbd1369633fd0bba78dd89a71 original_offset=16384 original_length=205 payload_bytes=205 chunk_index=4 chunk_count=5 classification=text
+lind, zonder dit RESULT.md als zoekbasis — zie TASK.md).
+
+---
+Geschreven door: CCI. Geen A/B/C, geen PDF, geen permanente locatienummers toegekend — uitsluitend
+tijdelijke sweep-ID's, conform TASK.md.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1339 path=runs/active/KUMAON-V2-RESWEEP-001/STATUS.md blob_sha=aebc496b88c024a0d99839d596b79f3dcafb5ec6 original_offset=0 original_length=1813 payload_bytes=1813 chunk_index=0 chunk_count=1 classification=text
+# STATUS — KUMAON-V2-RESWEEP-001
+
+```
+task_id: KUMAON-V2-RESWEEP-001
+state: SWEEP_A_KLAAR_WACHT_OP_INDIA_SWEEP_B
+task_file: runs/active/KUMAON-V2-RESWEEP-001/TASK.md
+status_file: runs/active/KUMAON-V2-RESWEEP-001/STATUS.md
+result_file: runs/active/KUMAON-V2-RESWEEP-001/RESULT.md
+last_updated: 2026-08-14
+last_updated_by: CCI (Sweep A uitgevoerd)
+```
+
+**blockers**: geen.
+
+**Sweep A samenvatting**: volledig blinde discovery (geen oude Kumaon-runs geraadpleegd). AOAY
+leverde een sterke hoofdvondst op: de Mahavatar Babaji-grot nabij Ranikhet/Dwarahat waar Babaji
+Lahiri Mahasaya in 1861 initieerde, rechtstreeks uit de AOAY-brontekst geciteerd. 8 tijdelijke
+kandidaten (KUM-SWEEP-A-001 t/m 008) met bronvermelding. 7 van 11 Top-11-namen hebben een
+gevonden link (Babaji, Lahiri Mahasaya, Ram Dass, Neem Karoli Baba, Anandamayi Ma, Hariharananda,
+Vivekananda); 4 negatief (Yogananda persoonlijk bezoek, Sri Yukteswar, Ramakrishna, Ramana
+Maharshi), elk expliciet vastgelegd. Volledige details: `RESULT.md`.
+
+**next_allowed_step**: INDIA voert onafhankelijk Sweep B uit (poort R) — blind, zonder dit
+`RESULT.md` als zoekbasis te gebruiken vóórdat de eigen sweep is afgerond, en zonder de oude
+Kumaon-runs als discovery-basis. Pas daarna reconciliatie tegen zowel Sweep A als legacy-data
+(`NIEUW_INTERSECT_OUD`, `NIEUW_MIN_OUD`, `OUD_MIN_NIEUW`, `BRON_CONFLICTEN`,
+`MARK_BESLUIT_CONFLICTEN`). Geen PRE_PDF_CONTENT, geen PDF, geen A/B/C, geen permanente
+locatienummers tot na reconciliatie.
+
+**Korte startzin voor INDIA** (kopieerbaar):
+`Voer onafhankelijk Sweep B uit voor KUMAON-V2-RESWEEP-001 volgens TASK.md — lees CCI's RESULT.md
+pas NA je eigen sweep, en gebruik geen oude Kumaon-kandidaatset als zoekbasis.`
+
+---
+Dit bestand is de kortste, altijd-actuele bron van waarheid voor deze taak (poort O.1).
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1340 path=pipeline/proposals/CLAUDE_REVIEW_REQUEST_ONE_SHOT_BZG.md blob_sha=7d091887b484153e52de5c9d9dd35b58be812d1c original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# Claude-reviewopdracht: ONE-SHOT BRONS–ZILVER–GOUD
+
+Status: REVIEW_REQUEST
+
+Lees volledig:
+
+1. `pipeline/proposals/ONE_SHOT_BZG_ORCHESTRATION_PROPOSAL.md`
+2. `pipeline/protocols/EXECUTION_PROTOCOL.md`
+3. `pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md`
+4. `pipeline/protocols/LONG_RUNNING_EXECUTION_PROTOCOL.md`
+5. `pipeline/protocols/SELF_ROUTING_PROTOCOL.md`
+6. `pipeline/ENTRYPOINT.md`
+
+## Opdracht
+
+Treed op als onafhankelijke architect en red-teamreviewer. Beoordeel of Mark werkelijk met één startopdracht de volledige BRONS–ZILVER–GOUD-keten kan laten uitvoeren, met GitHub als duurzaam geheugen, automatische hervatting en één eindmelding.
+
+Het doel is consensus, niet een vrijblijvende second opinion.
+
+## Harde reviewvragen
+
+1. Is de conclusie correct dat echte urenlange uitvoering en automatische hervatting een externe orchestrator vereist en niet betrouwbaar door alleen één gewone chatprompt kan worden geleverd?
+2. Is n8n een geschikte primaire orchestrator voor deze repositorygestuurde pipeline, of is GitHub Actions, Claude Code SDK, OpenAI Agents SDK of een andere architectuur aantoonbaar beter?
+3. Blijft de epistemische onafhankelijkheid van BRONS, ZILVER en GOUD voldoende behouden wanneer iedere fase een verse modelrun krijgt maar dezelfde GitHub-repository gebruikt?
+4. Zijn worker- en controllerbevoegdheden voldoende gescheiden?
+5. Kan de bestaande `state.yaml` + `events.jsonl` + `NEXT_ACTION.yaml`-architectuur canoniek blijven zonder een tweede concurrerend orchestratiestatusbestand?
+6. Is de checkpointstrategie idempotent en veilig bij sessie-einde, API-time-out, connectorverlies of partiële GitHub-commit?
+7. Zijn de truncatie- en splitregels voldoende om stille dataverliesfouten te voorkomen?
+8. Zijn seriële GitHub-writes en blob-SHA-controle voldoende tegen conflictsituaties?
+9. Welke harde stopvoorwaarden ontbreken?
+10. Welke onderdelen zijn te complex en kunnen zonder kwaliteitsverlies worden verwijderd?
+11. Is providerdiversiteit voor ZILVER wenselijk, verplicht of juist contraproductief?
+12. Kan de pushmelding betrouwbaar worden losgekoppeld van de onderzoekscompletion?
+13. Welke regressietests ontbreken?
+14. Welke beveiligingsrisico’s ontstaan door modelworkers GitHub-write te geven?
+15. Is de voorgestelde gebruikersstartopdracht kort genoeg en correct, gegeven dat het werkelijke protocol in GitHub staat?
+
+## Verplicht antwoordformaat
+
+Begin exact met:
+
+`CLAUDE ARCHITECTUURREVIEW ZEGT:`
+
+### A. Eindbesluit
+
+Kies exact één:
+
+- `ACCEPT`
+- `ACCEPT_WITH_REQUIRED_CHANGES`
+- `REJECT`
+
+### B. Beslismatrix
+
+Geef voor ieder punt `C-01` tot en met `C-16` uit `ONE_SHOT_BZG_CONSENSUS_MATRIX.md`:
+
+- oordeel: ACCEPT / CHANGE / REJECT;
+- korte technische reden;
+- exacte vervangende formulering of protocolwijziging wanneer CHANGE;
+- risico wanneer het voorstel ongewijzigd blijft.
+
+### C. Top vijf failure modes
+
+Rangschik de vijf waarschijnlijkste echte productiefouten op kans × impact. Geef per fout:
+
+- detectie;
+- automatische herstelactie;
+- moment waarop Mark wel moet worden gewaarschuwd.
+
+### D. Minimale uitvoerbare versie
+
+Beschrijf de kleinste versie die al veilig één volledige testketen kan uitvoeren. Vermijd nice-to-haves.
+
+### E. Productiearchitectuur
+
+Geef jouw voorkeursarchitectuur met:
+
+- orchestrator;
+- modelcalls;
+- GitHub-authenticatie;
+- statebron;
+- retries;
+- checkpoints;
+- notificatie;
+- kosten- en veiligheidslimieten.
+
+### F. Definitieve startopdracht
+
+Schrijf één definitieve gebruikersstartopdracht van maximaal 120 woorden.
+
+### G. Rapportcijfers
+
+Geef cijfers van 1–10 voor:
+
+- waarheid;
+- uitvoerbaarheid;
+- eenvoud;
+- fouttolerantie;
+- onafhankelijkheid van de metalen.
+
+Noem per cijfer de belangrijkste aftrekreden.
+
+Eindig exact met:
+
+`/CLAUDE ARCHITECTUURREVIEW`
+
+## Verboden
+
+- Implementeer niets.
+- Wijzig geen actieve run.
+- Maak geen algemene loftekst zonder beslissingen.
+- Beweer niet dat een gewone Claude- of ChatGPT-chat zichzelf na beëindiging opnieuw kan starten.
+- Vermeng Markdown-protocollen niet met Home Assistant-YAML.
+- Voeg geen nieuwe fase toe wannee
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1341 path=pipeline/proposals/CLAUDE_REVIEW_REQUEST_ONE_SHOT_BZG.md blob_sha=7d091887b484153e52de5c9d9dd35b58be812d1c original_offset=4096 original_length=79 payload_bytes=79 chunk_index=1 chunk_count=2 classification=text
+r dezelfde functie door de orchestrator kan worden uitgevoerd.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1342 path=pipeline/proposals/INDIA2_HANDOFF_MINIMAL_INTERVENTION_BZG.md blob_sha=84163256e86523dec96c9527dd28e044c82fcfa8 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=7 classification=text
+# OVERDRACHT AAN INDIA2 — MINIMALE TUSSENREGIE VOOR BRONS → ZILVER → GOUD
+
+## 1. Aan wie dit rapport is gericht
+
+INDIA2,
+
+Dit rapport is rechtstreeks aan jou gericht. Mark wil dat jij het volledige voorstel beoordeelt tegen de bestaande repositoryprotocollen en de feitelijke werkwijze van de India-pipeline. Het doel is niet om opnieuw een grote technische architectuur te ontwerpen. Het doel is een kleine, betrouwbare procesverbetering waarmee Mark minder lang hoeft te wachten en minder vaak handmatig tussen chats hoeft te schakelen.
+
+Lees daarom niet alleen dit document. Controleer ook de relevante bestaande rolcontracten, controllerprotocollen, contextmanifesten, statebestanden en de ontwerpstukken op deze branch. Geef daarna een zelfstandig oordeel en stel alleen wijzigingen voor die aantoonbaar nodig zijn.
+
+## 2. Marks werkelijke doel
+
+Mark wil inhoudelijk dezelfde BRONS-, ZILVER- en GOUD-pipeline behouden.
+
+Hij wil vooral af van dit patroon:
+
+1. INDIA2 maakt een startopdracht voor SUBREGIE.
+2. SUBREGIE maakt een startopdracht voor BRONS.
+3. Mark wacht op BRONS.
+4. Mark gaat terug naar SUBREGIE.
+5. SUBREGIE maakt de volgende opdracht voor ZILVER.
+6. Mark wacht op ZILVER.
+7. Mark gaat opnieuw terug naar SUBREGIE.
+8. SUBREGIE maakt de volgende opdracht voor GOUD.
+9. Mark wacht opnieuw.
+10. GOUD levert iets op waarna INDIA2 mogelijk nog een eindbewerking moet doen.
+
+Dat levert veel wachttijd, veel kopieerwerk en meerdere lange tussenstappen op die inhoudelijk weinig toevoegen.
+
+Marks voorkeur is:
+
+1. INDIA2 maakt direct één complete, correcte startopdracht voor BRONS.
+2. BRONS voert zijn volledige rol uit en levert daarna direct een complete overdrachtsopdracht voor ZILVER.
+3. Mark kopieert alleen die overdracht naar een verse ZILVER-chat.
+4. ZILVER voert zijn volledige rol uit en levert daarna direct een complete overdrachtsopdracht voor GOUD.
+5. Mark kopieert alleen die overdracht naar een verse GOUD-chat.
+6. GOUD voert zijn volledige rol uit en levert direct het volledige eindrapport voor Mark.
+7. INDIA2 hoeft na de start niet opnieuw tussenbeide te komen tenzij er een echte harde blocker, protocolconflict of state-desynchronisatie bestaat.
+
+De kernwens is dus:
+
+> liever één keer een lange, complete fase van ongeveer twee uur laten lopen dan drie of meer keren twintig minuten wachten op tussenregie en nieuwe prompts.
+
+Mark accepteert dat hij na BRONS en ZILVER handmatig één antwoord naar de volgende chat kopieert. Hij wil vooral voorkomen dat hij telkens eerst terug moet naar SUBREGIE of INDIA2 om een nieuwe startopdracht te laten construeren.
+
+## 3. Wat oorspronkelijk goed werkte
+
+De bestaande architectuur bevat waardevolle eigenschappen die behouden moeten blijven:
+
+- BRONS, ZILVER en GOUD zijn afzonderlijke rollen.
+- Iedere rol heeft een eigen contract en eigen kwaliteitsverantwoordelijkheid.
+- GitHub is de duurzame bron van waarheid.
+- Context wordt via gepinde manifesten en commits overgedragen.
+- Controllertransities bewaken de overgang tussen fasen.
+- Workers mogen niet stil eigen protocollen of runstate herschrijven.
+- Claims, source-ID's, statebestanden en artifacts moeten controleerbaar blijven.
+- Verse chats of verse rolcontexten voorkomen dat ZILVER en GOUD slechts voortbouwen op de redeneerstijl van de vorige rol.
+
+Mark wil deze inhoudelijke scheiding niet opheffen. Hij wil alleen de menselijke tussenregie verminderen.
+
+## 4. Welke verkeerde afslag is genomen
+
+Op de ontwerpbranch en in PR #14 is vervolgens een veel grotere oplossing uitgewerkt:
+
+- n8n als externe orchestrator;
+- non-interactieve Claude Code-workers;
+- automatische polling en hervatting;
+- externe heartbeat;
+- kostenbewaking;
+- kill switches;
+- pushnotificaties;
+- technische truncatiedetectie;
+- volledig geautomatiseerde controllerketens.
+
+Claude heeft die architectuur vervolgens beoordeeld en technisch verbeterd. Die review was op zichzelf coherent binnen dat ontwerp.
+
+Het fundamentele probleem is echter dat dit niet Marks actuele vraag oplost. Het introduceert bovendien een andere uitvoerder voor de zware rollen. Mark wil nie
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1343 path=pipeline/proposals/INDIA2_HANDOFF_MINIMAL_INTERVENTION_BZG.md blob_sha=84163256e86523dec96c9527dd28e044c82fcfa8 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=7 classification=text
+t dat Claude BRONS overneemt. Hij wil de inhoudelijke zware werkzaamheden door ChatGPT/OpenAI laten uitvoeren zoals nu, met de bestaande GitHub-connector en repositoryprotocollen.
+
+De n8n/Claude Code-route zou daarnaast vereisen:
+
+- installatie en beheer van n8n;
+- serverbeheer;
+- credentials en secrets;
+- API- of CLI-integratie;
+- foutafhandeling buiten de bestaande chats;
+- monitoring van de orchestrator zelf;
+- nieuwe implementatie- en testtijd;
+- nieuwe operationele afhankelijkheden.
+
+Dat is disproportioneel voor een pipeline met nog ongeveer tien sweeps. Het risico is dat er meer uren in automatisering verdwijnen dan er door de resterende runs worden bespaard.
+
+Daarom geldt voor dit nieuwe voorstel:
+
+- geen n8n;
+- geen Claude Code als BRONS-, ZILVER- of GOUD-worker;
+- geen externe runtime-orchestrator;
+- geen wijziging van actieve runs;
+- geen grote protocolmigratie voordat de eenvoudige keten is bewezen.
+
+PR #14 moet daarom niet in zijn huidige architectuurvorm worden gemerged als productieoplossing.
+
+## 5. Voorgestelde eenvoudige doelarchitectuur
+
+```text
+MARK
+  |
+  v
+INDIA2
+  |  maakt één complete BRONS-startopdracht
+  v
+BRONS
+  |  schrijft gevalideerde resultaten naar GitHub
+  |  sluit zijn rol af volgens contract
+  |  levert complete ZILVER-startopdracht aan Mark
+  v
+MARK kopieert overdracht naar verse ZILVER-chat
+  |
+  v
+ZILVER
+  |  leest uitsluitend toegestaan/gepind predecessor-context
+  |  controleert en verrijkt zelfstandig
+  |  schrijft gevalideerde resultaten naar GitHub
+  |  levert complete GOUD-startopdracht aan Mark
+  v
+MARK kopieert overdracht naar verse GOUD-chat
+  |
+  v
+GOUD
+  |  voert synthese, eindcontrole en finale repository-writes uit
+  |  levert compleet eindrapport rechtstreeks aan Mark
+  v
+KLAAR
+```
+
+INDIA2 is in deze opzet alleen vooraf nodig voor:
+
+- runselectie;
+- beginstatuscontrole;
+- vaststellen van de juiste gepinde context;
+- het maken van de complete BRONS-startopdracht;
+- eventueel een korte waarschuwing wanneer de run niet veilig kan starten.
+
+INDIA2 is na de start niet meer nodig voor normale voortgang.
+
+## 6. Belangrijk onderscheid: roltransitie versus promptoverdracht
+
+Dit voorstel vraagt niet automatisch dat BRONS of ZILVER ongecontroleerd controllerbevoegdheden krijgt.
+
+Er zijn twee afzonderlijke zaken:
+
+### 6.1 Repositorytransitie
+
+De bestaande protocollen bepalen wie:
+
+- de fase afrondt;
+- completionstatus schrijft;
+- het volgende contextmanifest maakt;
+- controllertransities uitvoert;
+- NEXT_ACTION of equivalente state bijwerkt.
+
+Dat moet volgens de huidige canonieke protocollen gebeuren. Wanneer de worker dit volgens zijn contract niet mag, mag hij die bevoegdheid niet stil overnemen.
+
+### 6.2 Menselijke promptoverdracht
+
+Los daarvan kan iedere voltooide rol een volledig, direct plakbaar startbericht voor de volgende chat teruggeven.
+
+Dat startbericht hoeft geen nieuwe bron van waarheid te zijn. Het is slechts een bedieningsbericht dat de volgende worker instrueert:
+
+- welke repository te openen;
+- welke run te behandelen;
+- welke rol uit te voeren;
+- welk gepind contextmanifest te lezen;
+- welke stopvoorwaarden gelden;
+- welke writes verplicht zijn;
+- welke handelingen verboden zijn.
+
+De volgende rol moet alle feitelijke state opnieuw uit GitHub lezen. De overdrachtstekst mag dus nooit gebruikt worden om repository-state te vervangen.
+
+Dit onderscheid is essentieel. Het maakt tijdwinst mogelijk zonder de bestaande state- en bevoegdheidsscheiding te beschadigen.
+
+## 7. Verplichte einduitvoer van BRONS
+
+BRONS moet na succesvolle voltooiing twee soorten output leveren.
+
+### 7.1 Canonieke GitHub-output
+
+Alles wat het BRONS-rolcontract vereist, waaronder minstens:
+
+- volledige onderzoeksoutput;
+- verplichte source records;
+- candidate/claim artifacts;
+- statusupdates;
+- completioncommit;
+- alle verplichte validaties en readbacks;
+- geen ZILVER-inhoud die buiten BRONS-scope valt.
+
+### 7.2 Bedieningsoutput voor Mark
+
+BRONS eindigt uitsluitend met een compact completionblok plus een volledig plakbare ZILVER-startopdracht.
+
+Aanbevolen structuur:
+
+```text
+RESULTAATSTATUS: <COMP
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1344 path=pipeline/proposals/INDIA2_HANDOFF_MINIMAL_INTERVENTION_BZG.md blob_sha=84163256e86523dec96c9527dd28e044c82fcfa8 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=7 classification=text
+LETED | BLOCKED | FAILED>
+RUN_ID: <run-id>
+COMPLETION_COMMIT: <sha of NONE>
+HOOGSTE_BLOCKERS: <NONE of korte lijst>
+NEXT_ROLE_READY: <YES | NO>
+
+ZILVER_STARTOPDRACHT_BEGIN
+<volledige zelfstandige opdracht>
+ZILVER_STARTOPDRACHT_EINDE
+```
+
+Bij `NEXT_ROLE_READY: NO` mag geen misleidende startopdracht volgen. Dan moet helder staan welke harde blocker eerst door INDIA2 of Mark moet worden opgelost.
+
+## 8. Verplichte inhoud van de ZILVER-startopdracht
+
+De door BRONS teruggegeven ZILVER-opdracht moet zelfstandig uitvoerbaar zijn. Zij moet ten minste bevatten:
+
+- repository: `bnzgxknwrv-tech/india-knowledge-base`;
+- rol: ZILVER;
+- exacte run-id;
+- instructie om `pipeline/ENTRYPOINT.md` eerst te lezen;
+- instructie om uitsluitend het gepinde ZILVER-contextmanifest te lezen;
+- instructie om de volledige gevalideerde BRONS-output uit GitHub te halen;
+- verplicht zelfstandig aanvullend internetonderzoek wanneer het ZILVER-contract dit verlangt;
+- broncontrole;
+- institutionele verificatie;
+- fysieke-identiteitscontrole;
+- actuele bezoekbaarheidscontrole;
+- AOAY-dubbele verificatie wanneer toepasselijk;
+- claimclassificatie;
+- controle van alle source-ID-verwijzingen;
+- verplichte writes en completioncommit;
+- bestaande stopvoorwaarden;
+- verbod op GOUD-context of controllertransition wanneer dat volgens het huidige contract niet is toegestaan;
+- verplicht eindblok met volledige GOUD-startopdracht.
+
+Belangrijk: BRONS mag de ZILVER-opdracht technisch voorbereiden, maar mag niet zelf de ZILVER-beoordeling invullen.
+
+## 9. Verplichte einduitvoer van ZILVER
+
+ZILVER levert eveneens twee soorten output.
+
+### 9.1 Canonieke GitHub-output
+
+Alles wat het ZILVER-rolcontract vereist, waaronder:
+
+- audit van BRONS;
+- zelfstandige aanvullende verificatie;
+- gecorrigeerde of geclassificeerde claims;
+- volledige broncontrole;
+- alle verplichte ZILVER-artifacts;
+- completioncommit;
+- correcte state volgens de bestaande protocollen.
+
+### 9.2 Bedieningsoutput voor Mark
+
+```text
+RESULTAATSTATUS: <COMPLETED | BLOCKED | FAILED>
+RUN_ID: <run-id>
+COMPLETION_COMMIT: <sha of NONE>
+HOOGSTE_BLOCKERS: <NONE of korte lijst>
+NEXT_ROLE_READY: <YES | NO>
+
+GOUD_STARTOPDRACHT_BEGIN
+<volledige zelfstandige opdracht>
+GOUD_STARTOPDRACHT_EINDE
+```
+
+## 10. Verplichte inhoud van de GOUD-startopdracht
+
+De door ZILVER teruggegeven GOUD-opdracht moet ten minste bevatten:
+
+- repository en run-id;
+- rol GOUD;
+- instructie om `pipeline/ENTRYPOINT.md` eerst te lezen;
+- uitsluitend het gepinde GOUD-contextmanifest en de expliciet toegestane predecessor-artifacts;
+- volledige naleving van het GOUD-rolcontract;
+- synthese zonder ongevalideerde claims opnieuw binnen te halen;
+- controle van alle bron- en source-ID-verwijzingen;
+- controle van fysieke identiteit, historische/spirituele relatie en actuele bezoekbaarheid waar die poorten gelden;
+- controle dat classificaties en uitsluitingen consistent zijn;
+- controle op ontbrekende, dubbele of conflicterende records;
+- finale repository-writes;
+- completioncommit;
+- finale readback en stateconsistentie;
+- verplicht volledig eindrapport rechtstreeks aan Mark;
+- geen verplichte terugkeer naar INDIA2 bij succesvolle afronding.
+
+## 11. Wat GOUD rechtstreeks aan Mark moet opleveren
+
+GOUD moet niet alleen een technisch completionbericht geven. Het moet het volledige, bruikbare eindproduct leveren zodat INDIA2 geen redactie, samenvatting of interpretatie meer hoeft te doen.
+
+Het eindrapport moet zo compleet zijn dat Mark direct begrijpt:
+
+- wat onderzocht is;
+- wat betrouwbaar bevestigd is;
+- wat is afgewezen;
+- welke onzekerheden overblijven;
+- welke fysieke plekken daadwerkelijk zijn vastgesteld;
+- welke relatie per plek is bevestigd;
+- hoe de actuele bezoekbaarheid is beoordeeld;
+- welke bronkwaliteit per belangrijke conclusie geldt;
+- welke claims tijdens ZILVER zijn aangepast;
+- wat de uiteindelijke GOUD-selectie of synthese is;
+- of de repository technisch correct is afgerond.
+
+### 11.1 Aanbevolen vaste structuur van het GOUD-eindrapport
+
+1. **Eindstatus**
+   - PASS / PARTIAL / BLOCKED / FAILED.
+   - Run-id.
+   - Finale completioncommit
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1345 path=pipeline/proposals/INDIA2_HANDOFF_MINIMAL_INTERVENTION_BZG.md blob_sha=84163256e86523dec96c9527dd28e044c82fcfa8 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=7 classification=text
+.
+
+2. **Managementsamenvatting voor Mark**
+   - Het belangrijkste resultaat in gewone taal.
+   - Geen interne pipelinejargon tenzij noodzakelijk.
+
+3. **Onderzoeksbereik**
+   - Welke sweep, regio, traditie, bronset of onderzoeksvraag is behandeld.
+   - Wat expliciet buiten scope bleef.
+
+4. **Definitieve resultaten**
+   - Volledige uiteindelijke kandidaten-/plekkenkaart of andere vereiste hoofdoutput.
+   - Per item minimaal fysieke identiteit, ligging, historische/spirituele relatie, actuele bezoekbaarheid en onzekerheden.
+
+5. **Afwijzingen en uitsluitingen**
+   - Welke kandidaten zijn afgevallen.
+   - Exacte reden.
+   - Geen verborgen verlies van interessante maar onvoldoende verifieerbare kandidaten.
+
+6. **Belangrijkste wijzigingen door ZILVER en GOUD**
+   - Welke BRONS-conclusies zijn bevestigd.
+   - Welke zijn aangepast.
+   - Welke zijn verworpen.
+   - Waarom.
+
+7. **Bron- en bewijsstatus**
+   - Institutionele bronnen.
+   - Primaire of gezaghebbende historische/spirituele bronnen.
+   - Actuele bezoekbaarheidsbronnen.
+   - Eventuele bronconflicten.
+
+8. **Onzekerheden en open punten**
+   - Exact aangeven wat niet vastgesteld is.
+   - Geen invulling door aannames.
+
+9. **Technische pipeline-audit**
+   - BRONS completion geldig: ja/nee.
+   - ZILVER completion geldig: ja/nee.
+   - GOUD completion geldig: ja/nee.
+   - Contextmanifesten correct gepind: ja/nee.
+   - Alle verplichte artifacts aanwezig: ja/nee.
+   - Source-ID's oplosbaar: ja/nee.
+   - State en events synchroon: ja/nee.
+   - Finale repository-readback geslaagd: ja/nee.
+
+10. **Geschreven artifacts**
+    - Exacte paden.
+    - Finale commits.
+
+11. **Blockers**
+    - `NONE` wanneer er geen blockers zijn.
+    - Anders alleen echte blockers, met gevolgen.
+
+12. **Definitief oordeel**
+    - Een duidelijke afsluiting voor Mark.
+    - Geen vraag om nog via INDIA2 te gaan wanneer de run geldig voltooid is.
+
+## 12. Vormvereisten voor het GOUD-rapport
+
+Het rapport moet:
+
+- volledig zijn;
+- zelfstandig leesbaar zijn;
+- geen kennis van eerdere chats vereisen;
+- geen verwijzing bevatten als “zie BRONS” zonder de relevante uitkomst samen te vatten;
+- onderscheid maken tussen vastgesteld, aannemelijk, betwist en niet vastgesteld;
+- duidelijk maken waar actuele bezoekbaarheid niet betrouwbaar vastgesteld kon worden;
+- geen route-, hotel- of reisadvies toevoegen wanneer dat buiten scope is;
+- geen ongefundeerde waarderingen invoeren;
+- technisch bewijs en inhoudelijke conclusies van elkaar scheiden;
+- de belangrijkste informatie niet alleen in GitHub laten staan maar ook in het eindrapport opnemen;
+- compact genoeg blijven om bruikbaar te zijn, maar niet zo kort dat INDIA2 alsnog alle artifacts moet nalezen om Mark uit te leggen wat er is gebeurd.
+
+## 13. Faalgedrag
+
+De lineaire keten mag snelheid niet boven betrouwbaarheid stellen.
+
+### 13.1 BRONS blokkeert
+
+BRONS levert geen ZILVER-startopdracht alsof de fase geldig voltooid is. Het meldt:
+
+- status BLOCKED;
+- exacte blocker;
+- laatste geldige commit;
+- welke beslissing of reparatie nodig is.
+
+Pas dan gaat Mark eventueel terug naar INDIA2.
+
+### 13.2 ZILVER blokkeert
+
+ZILVER levert geen GOUD-startopdracht alsof de audit geldig voltooid is. Het meldt dezelfde minimale blockerinformatie.
+
+### 13.3 GOUD blokkeert
+
+GOUD levert een volledig blocker/eindrapport met:
+
+- wat wel voltooid is;
+- wat niet kon worden afgerond;
+- welke outputs geldig blijven;
+- waarom geen PASS mogelijk is;
+- wat Mark of INDIA2 precies moet beslissen.
+
+### 13.4 Geen automatische omzeiling
+
+Geen enkele rol mag:
+
+- een SHA-conflict negeren;
+- ontbrekende context zelf reconstrueren uit chatgeheugen;
+- een truncatie gokken;
+- een ongeldige claim stil laten passeren;
+- een ontbrekende bron als bevestigd behandelen;
+- state-desynchronisatie repareren buiten de eigen bevoegdheid.
+
+## 14. Technische implementatie met minimale wijziging
+
+Voorkeur: voeg niet direct een groot nieuw orchestrationprotocol toe.
+
+Begin met de kleinste wijziging die het gedrag afdwingt:
+
+1. Voeg aan het BRONS-rolcontract een verplichte `NEXT_ROLE_HANDOFF`-uitvoer toe.
+2. Voeg aan het ZILVER-
+<<< END CHUNK >>>
+

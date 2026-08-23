@@ -1,0 +1,287 @@
+>>> CHUNK stream_row=92 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/NEEM_KAROLI_BABA_PRE_COMPARE_FREEZE.md blob_sha=867d96559886a911b585b72134bd44dace86661a original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=9 classification=text
+# Neem Karoli Baba — pre-compare freeze
+
+**Run:** TOP11-PARALLEL-CHATGPT-SWEEP-001  
+**Freeze type:** independent external blind sweep; no internal atlas, CCI result or prior candidate list consulted  
+**Scope:** personally evidenced locations in present-day India. Repeated visits are normalized; materially distinct rooms, route stops and sublocations are separate.  
+**Rule:** a temple built in his name or at his request is not by itself proof that he stood there. `JA` requires a witness narrative or institutional history that places him personally; `ONZEKER` preserves an unresolved parcel/visit lead.
+
+## Source key
+
+- **P1** — Sudhir “Dada” Mukerjee, *The Near and the Dear: Stories of Neem Karoli Baba and His Devotees* (devotee memoir; online text): https://dokumen.pub/the-near-and-the-dear-stories-of-neem-karoli-baba-and-his-devotees.html
+- **P2** — Ram Dass / Love Serve Remember, “Neem Karoli Baba (Maharaji) Stories: His Devotees”: https://www.ramdass.org/neem-karoli-baba-maharaji-stories-devotees/
+- **S1** — Maharajji Seva Trust, biographical and photo page: https://maharajjisevatrust.com/who-is-neem-karoli-baba%3F
+- **S2** — Maharajji.love, Akbarpur: https://maharajji.love/akbarpur-maharajjis-birthplace/
+- **S3** — Maharajji.love, Vavania: https://maharajji.love/vavania-ashram/
+- **S4** — Maharajji.love, Nibkarori ashram/cave: https://maharajji.love/nibkarori-ashram/
+- **S5** — Maharajji.love, Hanumangarhi: https://maharajji.love/hanumanghar/
+- **S6** — Maharajji.love, Bhumiadhar: https://maharajji.love/bhumiadar-ashram-a-hanuman-mandir/
+- **S7** — Maharajji.love, Kainchi: https://maharajji.love/kainchi-ashram/
+- **S8** — Maharajji.love, Kakrighat: https://maharajji.love/kakrighat-temple/
+- **S9** — Maharajji.love, Delhi/Jonapur: https://maharajji.love/delhi-ashram/
+- **S10** — Maharajji.love, Rishikesh/Veerbhadra: https://maharajji.love/rishikesh-ashram/
+- **S11** — Maharajji.love, Shimla Sankat Mochan/Taradevi history: https://maharajji.love/shimla-sankatamocana-hanuman-temple/
+- **S12** — Maharajji.love, Panki Hanuman Temple: https://maharajji.love/paniki-hanuman-temple-in-kanpur/
+- **S13** — Maharajji.love, Lucknow Hanuman Setu: https://maharajji.love/lucknow-ashram-hanuman-sethu-mandir/
+- **S14** — NKB Ashram, Vrindavan history: https://nkbashram.org/maharaj-ji-indian-ashrams/vrindavan-ashram
+- **S15** — Maharajji.love, Vrindavan final-day/cremation tradition: https://maharajji.love/heaven-at-shri-vrindavandham/
+- **S16** — Maharajji institutional overview of temple-building locations: https://babaneebkarorimaharaj.com/about-maharaj-ji/
+
+## Normalized location register
+
+| # | Location | City/state | Type | Personal act and period | PERSONALLY_PRESENT | PHYSICAL_IDENTITY | Host/network | Primary/semi-primary locator | Secondary | Historic/current; uncertainty/conflict; unresolved lead |
+|---:|---|---|---|---|---|---|---|---|---|---|
+| 1 | Akbarpur village | Akbarpur, Firozabad district, Uttar Pradesh | birthplace/village | Born and lived here as a child; returned later | JA | ALLEEN_PLAATS | Sharma family | S2, “Ashram History” | S1 | District is Firozabad in the lineage sources; some tertiary pages misassign Ambedkar Nagar. Exact birth house unresolved. |
+| 2 | Sharma family/birth house | Akbarpur, Uttar Pradesh | private residence | Childhood family residence | JA | ONBEKEND | Durga Prasad Sharma family | S2; S1 biography | — | No address, parcel or surviving structure established. |
+| 3 | Later Akbarpur temple site | Akbarpur, Uttar Pradesh | memorial temple | Modern temple was dedicated in 2001; source proves village presence, not that he stood on this precise later parcel | ONZEKER | EXACT | village devotees | S2 | — | Negative-control row: do not equate birthplace village with later temple footprint without land history. |
+| 4 | Vaishnav saint's ashram/compound | Vavania, Gujarat | ashram | Stayed about six or seven years as a youth; austerities and yoga | JA | DEELS | unnamed Vaishnav saint | S3, “Ashram History” | S1 | Current ashram is identified
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=93 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/NEEM_KAROLI_BABA_PRE_COMPARE_FREEZE.md blob_sha=867d96559886a911b585b72134bd44dace86661a original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=9 classification=text
+ with the tradition; original building fabric not demonstrated. |
+| 5 | Pond at Vavania ashram | Vavania, Gujarat | pond/sadhana sublocation | Sat/immersed in pond in seclusion; hence “Talaiya Baba” | JA | EXACT | local herders; Vaishnav saint | S3 | — | Waterbody asserted as the same; exact bank position may have changed. |
+| 6 | Hanuman murti site on pond bank | Vavania, Gujarat | shrine sublocation | Established Hanuman murti on the bank | JA | EXACT | local devotees | S3 | — | Murti/site continuity is a lineage claim; check conservation record. |
+| 7 | South India pilgrimage route | states unresolved, South India | pilgrimage region | After Vavania, reportedly travelled through South India and took Hanuman darshan at many temples | JA | ALLEEN_PLAATS | wandering sadhu networks | S3 | — | No individual temple names in this passage; retain broad route lead only. |
+| 8 | Neeb Karori/Nibkarori village | Farrukhabad district, Uttar Pradesh | village/residence area | Lived as a sadhu on village edge for a long period, reportedly until 1938 | JA | EXACT | villagers | S4 | S1 | Duration “about twenty years” is retrospective and chronologically tensioned with Vavania; physical village identity is firm. |
+| 9 | Maharajji's cave/ashram area | Nibkarori, Uttar Pradesh | cave/ashram | Sat and practised as a sadhu | JA | EXACT | village devotees | S4 | — | Current cave/ashram identifies the place; exact chronology uncertain. |
+| 10 | Hand-made Hanuman murti/temple | Nibkarori, Uttar Pradesh | temple | Made/installed Hanuman image | JA | EXACT | village devotees | S4 | S1 | Direct association asserted by the lineage source. |
+| 11 | Lakshmandas Puri railway station | near Nibkarori, Uttar Pradesh | station | Setting of the train-stop/ejection narrative that generated the Neem Karoli name tradition | JA | EXACT | railway staff/passengers | S4 | P2 | Station and ashram relation are explicit; exact bench/platform not established. |
+| 12 | Nibkarori railway platform/trackside spot | Nibkarori, Uttar Pradesh | station sublocation | Sat/was put off the train in the well-known railway episode | JA | DEELS | stationmaster/conductor | P2, train story | S4 | Event is devotional oral history; platform geometry may have changed. |
+| 13 | Fatehgarh military barracks | Fatehgarh, Uttar Pradesh | military compound | Repeatedly visited soldiers during Jaidev Singh's posting | JA | DEELS | Jaidev Singh; Ram Singh; soldiers | P1, Jaidev Singh chapter | — | Barracks complex identifiable, but unit/building number not supplied. |
+| 14 | Jaidev Singh's barracks room | Fatehgarh, Uttar Pradesh | private room | Visited Jaidev in his room | JA | ONBEKEND | Jaidev Singh | P1, Jaidev Singh chapter | — | No barrack/block number. |
+| 15 | Well beside Hanuman temple outside barracks | Fatehgarh, Uttar Pradesh | roadside/well/temple | Stayed beside the well near temple after confrontation with Colonel McKenna | JA | ONBEKEND | soldiers; Colonel McKenna | P1, Jaidev Singh chapter | — | Municipal-road relation is described; current well/temple match unresolved. |
+| 16 | Colonel McKenna's quarters/room | Fatehgarh, Uttar Pradesh | official residence | Visited and was seen sitting on the colonel's bed | JA | ONBEKEND | Colonel McKenna | P1, Jaidev Singh chapter | — | Compound only; residence identity unavailable. |
+| 17 | Official-quarters road | Bijnor, Uttar Pradesh | road | Sat in the middle of the road at night to meet Ram Narayan Sinha | JA | ONBEKEND | Ram Narayan Sinha; police | P1, Ram Narayan Sinha chapter | — | Road within superintendent's official-quarter area, unnamed. |
+| 18 | Ram Narayan Sinha's official residence | Bijnor, Uttar Pradesh | private/official house | Entered, ate and restored household morale | JA | ONBEKEND | Ram Narayan Sinha family | P1, Ram Narayan Sinha chapter | — | Exact compound/address not given. |
+| 19 | Dwarkadhish Temple | location unresolved, Uttar Pradesh | temple | Walked to temple, addressed priest and crowd | JA | ONBEKEND | Ram Narayan Sinha; temple priest | P1, Ram Narayan Sinha chapter | —
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=94 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/NEEM_KAROLI_BABA_PRE_COMPARE_FREEZE.md blob_sha=867d96559886a911b585b72134bd44dace86661a original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=9 classification=text
+ | Text excerpt names temple but not town; multiple Dwarkadhish temples create high false-match risk. |
+| 20 | 4 Church Lane / “Red House” | Prayagraj, Uttar Pradesh | private residence/winter camp | Stayed three to four months in winters from 1959–60; held darshan and satsang | JA | EXACT | Sudhir and Kamala Mukerjee; Ma/Maushi Ma | P1, introduction and “Red House” passage | — | Exact address; survival/current ownership not verified. |
+| 21 | Maharajji's room, 4 Church Lane | Prayagraj, Uttar Pradesh | room/sublocation | Slept, ate, met devotees and gave darshan | JA | DEELS | Mukerjee household | P1, throughout memoir | — | Room function explicit; later shrine room may or may not preserve exact fabric. |
+| 22 | Hall, 4 Church Lane | Prayagraj, Uttar Pradesh | room/sublocation | Addressed/fed crowds during winter camp | JA | DEELS | Mukerjee household; devotees | P1, winter-camp chapters | — | House exact, internal plan unverified. |
+| 23 | Outside veranda, 4 Church Lane | Prayagraj, Uttar Pradesh | house sublocation | Sat, spoke privately and received returning parties | JA | DEELS | Sudhir Mukerjee; visitors | P1, multiple chapters | — | Camera/seat position not fixed. |
+| 24 | Kitchen/meal room, 4 Church Lane | Prayagraj, Uttar Pradesh | house sublocation | Meals prepared/served; supervised feeding | JA | DEELS | Kamala Mukerjee; Ma; Maushi Ma | P1, winter-camp chapters | — | Exact internal room boundary unresolved. |
+| 25 | Bathrooms/front area, 4 Church Lane | Prayagraj, Uttar Pradesh | house sublocation | Sat surrounded by devotees before the bathrooms | JA | DEELS | winter-camp devotees | P1, winter-camp narrative | — | Textual sublocation; house plan needed. |
+| 26 | Unnamed lane-side devotee house | Prayagraj, Uttar Pradesh | private house | Sat with devotees in a room after summoning Ayodhya Nath | JA | ONBEKEND | unnamed devotee; Ayodhya Nath Sinha | P1, Ayodhya Nath chapter | — | Not safely equated with 4 Church Lane. |
+| 27 | Allahabad railway station | Prayagraj, Uttar Pradesh | station | Used station repeatedly; sent Ayodhya Nath and foreign visitors off | JA | EXACT | devotees/travel companions | P1, Ayodhya Nath and winter-camp chapters | — | Platform and historic entrance unresolved. |
+| 28 | Ganges riverbank near Allahabad | Prayagraj, Uttar Pradesh | riverbank | Spent a full day with devotees | JA | ALLEEN_PLAATS | Tularam and others | P1, Tularam chapter | — | No ghat name. |
+| 29 | Flooded Hanuman Temple by Allahabad Fort | Prayagraj, Uttar Pradesh | temple/riverfront | Arrived by jeep, took flood water in his hand and addressed priests | JA | EXACT | temple priests; Dr. Katju context | P1, flood narrative | — | Identifiable reclining Hanuman temple tradition; exact standing point absent. |
+| 30 | Kumbh/Magh fair area | Prayagraj, Uttar Pradesh | pilgrimage/fair grounds | Winter residence and pilgrimage network make fair presence plausible, but no clean event locator found in swept text | ONZEKER | ALLEEN_PLAATS | sadhu/devotee networks | P1 contextual corpus | — | Retain as unresolved lead, not upgraded from city presence. |
+| 31 | Hanumangarhi roadside parapets near Kisanpur | Nainital, Uttarakhand | roadside gathering spot | Sat evening after evening; tea/bhandara; often slept nearby | JA | DEELS | K.C. Tewari; Haridas; local devotees | S5, Premavatar excerpt | P1 | Relative route description only; individual parapet not fixed. |
+| 32 | Gravel hill/burial-ground temple site | Hanumangarhi, Nainital, Uttarakhand | hill/open sadhana site | Climbed, sat, held bhandaras and slept in open before temple construction | JA | EXACT | local devotees | S5 | — | Same ridge as current complex; historic microtopography altered. |
+| 33 | Hanumangarhi Hanuman Temple | Nainital, Uttarakhand | temple | Selected site, laid/oversaw foundation, repeatedly visited after establishment | JA | EXACT | K.C. Tewari; Haridas; trust | S5 | P1 | Lineage dates vary (1951/early 1950s); presence is not in doubt. |
+| 34 | Remote corner/room at Hanumangarhi | Nainital, Uttarakhand | temple subloc
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=95 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/NEEM_KAROLI_BABA_PRE_COMPARE_FREEZE.md blob_sha=867d96559886a911b585b72134bd44dace86661a original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=9 classification=text
+ation | Sat during bhandara; permitted Shukla to sleep in his room | JA | DEELS | Shukla; Haridas | P1, Shukla chapter | — | Room within complex described, present correspondence unknown. |
+| 35 | Nainital streets | Nainital, Uttarakhand | streets | Spent nights walking/sitting with Tularam and others | JA | ALLEEN_PLAATS | Tularam; Jivan; K.C. Tewari | P1, Tularam chapter | — | No route precision. |
+| 36 | Unnamed roadside culverts, Nainital–Kumaon area | Nainital district, Uttarakhand | culvert/overnight stop | Slept/spent nights inside culverts while itinerant | JA | ONBEKEND | Tularam and companions | P1, Tularam; Bhumiadhar passages | S6 | Multiple culverts, not individually recoverable. |
+| 37 | Nainital hospital | Nainital, Uttarakhand | hospital | Visited ill Tularam | JA | ONBEKEND | Tularam; hospital staff | P1, Tularam chapter | — | Hospital name absent. |
+| 38 | Bhumiadhar ashram/temple | Bhumiadhar, Uttarakhand | ashram/temple | Frequently stayed; bhandaras and service activities | JA | EXACT | local land donor; Shukla; hill devotees | P1, Bhumiadhar passages | S6 | Current small ashram identifies site; first hut preceded temple. |
+| 39 | First roadside hut at Bhumiadhar | Bhumiadhar, Uttarakhand | hut | Stayed in hut before temple construction | JA | DEELS | local devotee/land donor | S6 | P1 | Original hut survival not established. |
+| 40 | Bhumiadhar roads, dry watercourses and bridges | Bhumiadhar, Uttarakhand | outdoor overnight sites | Slept outdoors with a few devotees | JA | ALLEEN_PLAATS | local devotees | S6 | P1 | Plural/unnamed; exact bridge or culvert unknown. |
+| 41 | River stone under tree at future Kainchi site | Kainchi, Uttarakhand | riverbank/sadhana spot | Sat on stone slab while wandering from Bhumiadhar; site later became ashram | JA | DEELS | Shukla and companions | P1, Shukla/Bhumiadhar narrative | S7 | Likely within present complex, but precise stone/tree not demonstrated. |
+| 42 | Roadside parapet at Kainchi | Kainchi, Uttarakhand | roadside meeting spot | Waited for Poornanand in 1962 and discussed acquiring site | JA | DEELS | Poornanand | S7 | — | Exact parapet segment unresolved. |
+| 43 | Sadhu Premi Baba/Sombari Maharaj yagyashala platform | Kainchi, Uttarakhand | ritual platform | Inspected/chose historic ritual place and ordered chabootara | JA | EXACT | Poornanand; forest official | S7 | — | Hanuman temple was built over platform; subsurface identity institutional. |
+| 44 | Kainchi Dham ashram complex | Kainchi, Uttarakhand | ashram/temple | Founded, stayed, gave darshan, fed visitors and directed work, 1960s–1973 | JA | EXACT | Siddhi Ma; Dada/Didi; Indian and Western devotees | P1, throughout | S7 | Strong personal-presence and institutional continuity. |
+| 45 | Maharajji's small room/office, Kainchi | Kainchi, Uttarakhand | room/sublocation | Gave darshan, rested and met visitors; present immediately before final departure | JA | EXACT | Dada; Siddhi Ma; Ram Dass; devotees | P1, multiple Kainchi chapters | S7 | Current room tradition is strong; historic interior changes possible. |
+| 46 | Kainchi verandah | Kainchi, Uttarakhand | ashram sublocation | Sat with large groups and gave darshan | JA | DEELS | devotees | P1, Vrindavan/Kainchi comparison passages | — | Which veranda/bay varies by episode. |
+| 47 | Kainchi prasad room/kitchen | Kainchi, Uttarakhand | service sublocation | Inspected feeding/work and directed supplies | JA | DEELS | Dada; kitchen volunteers | P1, bhandara and firewood/axes passages | — | Exact historic room layout not independently mapped. |
+| 48 | Kainchi back room | Kainchi, Uttarakhand | room/sublocation | Came to companions gathered in a back room during night incident | JA | DEELS | Dada; Shukla; devotees | P1, Shukla chapter | — | Internal plan/room numbering unavailable. |
+| 49 | Kainchi ashram grounds/bhandara circuit | Kainchi, Uttarakhand | courtyard/grounds | Walked around checking visitors and activity during 15 June bhandara | JA | EXACT | Dada; volunteers | P1; related account at https://maharajji.love/hanuman-darsh
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=96 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/NEEM_KAROLI_BABA_PRE_COMPARE_FREEZE.md blob_sha=867d96559886a911b585b72134bd44dace86661a original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=9 classification=text
+an/ | S7 | Broad circuit exact to complex; individual photo points unresolved. |
+| 50 | Kakrighat old hut/cave-temple site | Kakrighat, Uttarakhand | cave/ashram | Lived and meditated here; later temple built over/at prior Sombari Baba site | JA | EXACT | hill sadhu network | S8 | P1, Almora-road episodes | Current page conflates some Sombari/Maharajji material; exact hut attribution needs archival separation. |
+| 51 | Kakrighat riverbank | Kakrighat, Uttarakhand | riverbank | Visited/travelled to site in flood/road episodes and meditation tradition | JA | DEELS | Barman; devotees | P1, Karkarighat route | S8 | Exact bank spot not fixed. |
+| 52 | Bhowali forest rest house/Soni residence | Bhowali, Uttarakhand | guest house/private lodging | Spent day with Soni family and guests | JA | DEELS | Soni family | P1, Bhowali forest-rest-house passage | — | Source calls it forest rest house and family host setting; lease/room identity open. |
+| 53 | Bhowali market | Bhowali, Uttarakhand | market/turnaround point | Drove there at night, then ordered return to Kainchi | JA | ALLEEN_PLAATS | Shukla; Dada; companions | P1, moving-light journey | — | No shop/road point. |
+| 54 | Bhimtal devotee's house | Bhimtal, Uttarakhand | private house | Visited, asked about residents and received tea | JA | ONBEKEND | unnamed devotee | P1, Jivan chapter | — | Address/host omitted. |
+| 55 | Schoolteacher's house near park/Shiva temple | Bhimtal, Uttarakhand | private house | Visited after first Bhimtal house | JA | ONBEKEND | unnamed schoolteacher | P1, Jivan chapter | — | Park and Shiva temple are relative clues; exact house unresolved. |
+| 56 | Haldwani devotee gathering house | Haldwani, Uttarakhand | private house | Repeatedly arrived, sat with devotees and began journeys | JA | ONBEKEND | Jivan and local devotees | P1, Jivan chapter | — | Multiple houses likely; normalized only where text cannot separate. |
+| 57 | Haldwani host house before station | Haldwani, Uttarakhand | private house | Rested and provisioned stranded pilgrims before their train | JA | ONBEKEND | unnamed host; Jivan | P1, Jivan chapter | — | Could be same as #56; text does not establish identity. |
+| 58 | Haldwani railway station | Haldwani, Uttarakhand | station | Saw pilgrims off and used station during travels | JA | EXACT | Jivan; pilgrims | P1, Jivan chapter | — | Platform unspecified. |
+| 59 | Almora streets | Almora, Uttarakhand | streets | Repeated nocturnal walking and travel | JA | ALLEEN_PLAATS | Tularam; Jivan | P1, Tularam/Jivan chapters | — | Route not named. |
+| 60 | Almora devotee house/verandah | Almora, Uttarakhand | private house | Accepted overnight hospitality; sat on veranda and spoke with people | JA | ONBEKEND | unnamed persistent devotee | P1, Jivan/Tularam journey | — | Host and address absent. |
+| 61 | Almora dharmasala | Almora, Uttarakhand | pilgrim lodging | Visited/assisted stranded South Indian pilgrims at/near their lodging | JA | ONBEKEND | pilgrims; Jivan | P1, Jivan chapter | — | Dharmasala name not given. |
+| 62 | Unidentified western-mountain forest photo spot | Uttarakhand/Himalayan west | forest/photo location | Pointed out in 1973 as spot where matted-lock photograph was taken during sadhana | JA | ONBEKEND | travelling devotees | P1, Jivan chapter | — | Valuable historic-photo lead; mountain/road coordinates absent. |
+| 63 | Bareilly, Dr. Bhandari's house | Bareilly, Uttar Pradesh | private house | “Always visited” there when in Bareilly; waited for Jivan and received devotees | JA | ONBEKEND | Dr. Bhandari; Jivan; Yogesh | P1, Jivan chapter | P2 | Host exact, address absent. Medical directories are a key unresolved route. |
+| 64 | Hema Pande's house | Bareilly, Uttar Pradesh | private house | Departed from this house with Jivan and visited other houses before station | JA | ONBEKEND | Hema Pande | P1, Jivan pilgrimage chapter | — | City inferred from surrounding Bareilly journey; verify with host records. |
+| 65 | Bareilly railway station | Bareilly, Uttar Pradesh | station | Boarded mountain pilgrima
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=97 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/NEEM_KAROLI_BABA_PRE_COMPARE_FREEZE.md blob_sha=867d96559886a911b585b72134bd44dace86661a original_offset=20480 original_length=4096 payload_bytes=4096 chunk_index=5 chunk_count=9 classification=text
+ge train; later separated from Jivan there | JA | EXACT | Jivan; devotees | P1, Jivan chapter | — | Platform not stated. |
+| 66 | Kotdwara railway station | Kotdwara, Uttarakhand | station | Travelled first-class from Bareilly toward mountain pilgrimage | JA | EXACT | Jivan | P1, Jivan chapter | — | Arrival details implicit in ticketed route; do not infer hotel. |
+| 67 | Pauri route/town | Pauri Garhwal, Uttarakhand | travel stop | Travelled through/from Bareilly to Pauri on pilgrimage | JA | ALLEEN_PLAATS | Jivan | P1, Jivan chapter | — | No sublocation. |
+| 68 | Kedarnath pilgrimage area | Kedarnath, Uttarakhand | pilgrimage/temple area | Travelled and stayed in area on multiple pilgrimages; associated it with earlier sadhana | JA | ALLEEN_PLAATS | Jivan; Shukla; sadhus | P1, Jivan/Shukla chapters | — | Text does not always say he entered temple; presence in pilgrimage area is explicit. |
+| 69 | Badrinath pilgrimage settlement/temple area | Badrinath, Uttarakhand | pilgrimage/temple area | Travelled with devotees, met sadhus and fed companions | JA | ALLEEN_PLAATS | Jivan; Shukla; Usha Didi; sadhus | P1, pilgrimage chapters | — | Specific shelter/temple threshold not always supplied. |
+| 70 | Riverbank/forest meeting place at Badrinath | Badrinath, Uttarakhand | riverbank/forest | Sat and took food brought by Usha Didi | JA | ONBEKEND | Usha Didi; Shukla | P1, Shukla chapter | — | Described as some distance through forest; exact river/bank unresolved. |
+| 71 | Brahmakapal ritual site | Badrinath, Uttarakhand | sacred river/ritual site | Sent Shukla there and waited elsewhere; text does not prove he stood on the slab in that episode | ONZEKER | EXACT | Shukla | P1, Shukla chapter | — | Place mention is not presence; retain only because other pilgrimages may supply future evidence. |
+| 72 | Gangotri pilgrimage area | Gangotri, Uttarakhand | pilgrimage/temple area | Accompanied Shukla on 1960 pilgrimage | JA | ALLEEN_PLAATS | Shukla | P1, Shukla chapter | — | No lodging or exact shrine-entry claim. |
+| 73 | Gomukh | Uttarkashi district, Uttarakhand | glacier/pilgrimage endpoint | Accompanied Shukla on 1960 pilgrimage | JA | ALLEEN_PLAATS | Shukla | P1, Shukla chapter | — | Route/camp spot unspecified. |
+| 74 | Haridwar | Haridwar, Uttarakhand | pilgrimage city | Accompanied Shukla on 1960 pilgrimage | JA | ALLEEN_PLAATS | Shukla | P1, Shukla chapter | — | No specific ghat in this source. |
+| 75 | Rishikesh pilgrimage city | Rishikesh, Uttarakhand | pilgrimage city | Accompanied Shukla on 1960 pilgrimage | JA | ALLEEN_PLAATS | Shukla | P1, Shukla chapter | — | Distinct from later Veerbhadra temple parcel. |
+| 76 | Veerbhadra leased temple land | Rishikesh, Uttarakhand | later ashram parcel | Took Forest Department land on lease and planned temple; current complex built after 1984 | ONZEKER | EXACT | Forest Department; Siddhi Ma | S10 | S16 | Administrative action does not prove a site visit; requires lease file/correspondence placing him on parcel. |
+| 77 | Varanasi/Benares temple circuit | Varanasi, Uttar Pradesh | pilgrimage circuit | Travelled by car; accompanied devotees to temples, sometimes remaining outside | JA | ALLEEN_PLAATS | Tularam; Siddhi Ma; Shukla | P1, Tularam/Shukla chapters | — | Individual temples unnamed; do not assign Sankat Mochan/Kashi Vishwanath without evidence. |
+| 78 | Vindhyachal temple circuit | Mirzapur district, Uttar Pradesh | pilgrimage circuit | Took Dada/Shukla to temples; earlier sadhana also reported | JA | ALLEEN_PLAATS | Sudhir Mukerjee; Shukla; Hubbaji | P1, Shukla chapter | — | Temple names and sadhana site not fixed. |
+| 79 | Chitrakoot pilgrimage area | Chitrakoot, Uttar Pradesh/Madhya Pradesh | pilgrimage area | Repeated visits, including 1961 and Holi 1972 | JA | ALLEEN_PLAATS | Tularam; Dada; Siddhi Ma; Jivanti Ma | P1, Chitrakoot passages | — | Interstate sacred region; town/side not always specified. |
+| 80 | Kamadgiri circumambulation path | Chitrakoot, Uttar Pradesh | sacred route | Walked parikrama with Tularam/Shukla | JA | EXACT | Tularam; Sh
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=98 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/NEEM_KAROLI_BABA_PRE_COMPARE_FREEZE.md blob_sha=867d96559886a911b585b72134bd44dace86661a original_offset=24576 original_length=4096 payload_bytes=4096 chunk_index=6 chunk_count=9 classification=text
+ukla | P1, Chitrakoot passages | — | Route exact, stopping points unknown. |
+| 81 | Chitrakoot cot/sitting place | Chitrakoot, Uttar Pradesh | lodging/sublocation | Sat on cot before abruptly returning to Allahabad | JA | ONBEKEND | Hubbaji; companions | P1, Chitrakoot passage | — | Host house/ashram not named. |
+| 82 | Chitrakoot approach road crash site | near Chitrakoot, Uttar Pradesh | road incident site | In taxi collision with truck, Holi 1972 | JA | ONBEKEND | Dada; Siddhi Ma; Jivanti Ma | P1, 1972 crash passage | — | “Nearing Chitrakoot”; police/insurance records could localize. |
+| 83 | Dwarka pilgrimage/temple area | Dwarka, Gujarat | pilgrimage area | Visited with Tularam in 1962; recognized by head priest; earlier residence claimed | JA | ALLEEN_PLAATS | Tularam; temple priest; sadhus | P1, Tularam/Jivan chapters | — | Nearby Hanuman temple said to have been installed by him is not securely named. |
+| 84 | Unnamed Hanuman temple near Dwarka | Dwarka area, Gujarat | temple | Reportedly installed during an earlier stay | ONZEKER | ONBEKEND | Dwarka priest tradition | P1, Jivan chapter | — | Hearsay and no name/location; do not merge with a famous local temple. |
+| 85 | Rameswaram temple/pilgrimage area | Rameswaram, Tamil Nadu | temple/pilgrimage | Visited with Tularam in 1962; took prasad on visits | JA | DEELS | Tularam; sadhus | P1, Tularam and prasad passages | — | Strong site-level presence; exact gate/room not given. |
+| 86 | Jagannath Temple premises | Puri, Odisha | temple | Visited with devotees; observed prasad distribution and picked up/tasted prasad | JA | EXACT | Hubbaji; Tularam; temple community | P1, Hubbaji/Tularam passages | — | Temple-premises presence explicit. |
+| 87 | Dakshineswar Shiva-temple row | Dakshineswar, West Bengal | temple sublocation | Visited in 1935 for mantra episode and returned years later to identify the Shiva temple | JA | EXACT | Sudhir Mukerjee; travelling devotees | P1, opening and Hubbaji passages | — | Exact one of the row of Shiva temples not identified. |
+| 88 | Unnamed Kolkata host house | Kolkata, West Bengal | private residence | Stayed at one house, shifted to another during Puri/Dakshineswar journey | JA | ONBEKEND | local devotees | P1, opening passage | — | Two houses may be involved; neither host/address named. |
+| 89 | Panki Hanuman Temple | Kanpur, Uttar Pradesh | temple | Founded/planned temple, but refused devotees' request to attend opening; bodily presence at inauguration not proven | ONZEKER | EXACT | Kanpur devotees; Panki trust | P1, opening-ceremony story | S12 | Explicit adversarial caution: story's point is refusal; miracle/bilocation claims are not physical-presence proof. Seek other visit testimony. |
+| 90 | Kanpur devotee houses | Kanpur, Uttar Pradesh | private houses | Visited houses with Shukla in early association | JA | ONBEKEND | Shukla; local devotees | P1, Shukla chapter | — | Plural, no host names/addresses. |
+| 91 | Shukla's photography shop | Lucknow, Uttar Pradesh | shop | Arrived by tonga, got down and invited Shukla to take him home | JA | ONBEKEND | Umadutta Shukla; Ram Prakash | P1, Shukla chapter | — | Business name/address absent; trade directories may resolve. |
+| 92 | Shukla family home | Lucknow, Uttar Pradesh | private house | Visited, met family and ate; fed about twenty guests | JA | ONBEKEND | Umadutta Shukla family; Ram Prakash | P1, Shukla chapter | — | No address. |
+| 93 | Gomti River bridge | Lucknow, Uttar Pradesh | bridge/transit | Crossed by tonga with Shukla and discussed a prior event | JA | DEELS | Shukla; Ram Prakash | P1, Shukla chapter | — | Which historic bridge is not named. |
+| 94 | Suraj Narayan Mehrotra's house | Lucknow, Uttar Pradesh | private house | Stayed/received devotees there | JA | ONBEKEND | Suraj Narayan Mehrotra | semi-primary excerpt reproduced at https://www.scribd.com/document/295616937/Divine-Reality-Neem-Karoli-Baba | P1 Lucknow network | Address unavailable; use printed *Divine Reality* for page-exact verification. |
+| 95 | Nazarbag house | Lucknow, Ut
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=99 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/NEEM_KAROLI_BABA_PRE_COMPARE_FREEZE.md blob_sha=867d96559886a911b585b72134bd44dace86661a original_offset=28672 original_length=4096 payload_bytes=4096 chunk_index=7 chunk_count=9 classification=text
+tar Pradesh | private house | Sat before a crowd, then left by rickshaw | JA | ONBEKEND | Pooran Chandra Pande; devotees | semi-primary story at https://sanaatan-niketan.wixsite.com/main/naam-karoli-baba | — | House owner/address absent. |
+| 96 | Unnamed house in Mahanagar | Lucknow, Uttar Pradesh | private house | Directed rickshaw toward someone's home | ONZEKER | ONBEKEND | Pooran Chandra Pande; Rahim | same story as #95 | — | Source excerpt does not confirm arrival; preserve as route lead only. |
+| 97 | Lucknow Hanuman Setu/Sankat Mochan Ashram | Lucknow, Uttar Pradesh | temple/ashram | Temple established in his lifetime; personal visits likely in lineage tradition but not cleanly stated in swept page | ONZEKER | EXACT | temple trust; Bhabania; Lucknow devotees | P1, Bhabania/Lucknow-temple passages | S13 | Do not convert institutional authorship into bodily presence without an event account. |
+| 98 | Barabanki devotee houses | Barabanki, Uttar Pradesh | private houses | Visited devotees' houses with Shukla | JA | ONBEKEND | Shukla; local devotees | P1, Shukla chapter | — | No names/addresses; potentially several locations. |
+| 99 | Sitapur devotee houses | Sitapur, Uttar Pradesh | private houses | Visited devotees' houses with Shukla | JA | ONBEKEND | Shukla; local devotees | P1, Shukla chapter | — | No names/addresses; potentially several locations. |
+| 100 | Taradevi hut | near Shimla, Himachal Pradesh | hut/stay | Stayed nine or ten days in the 1950s | JA | ONBEKEND | local hosts/devotees | S11 | S16 | Hut not mapped; later Sankat Mochan temple should not automatically be treated as the hut footprint. |
+| 101 | Sankat Mochan Hanuman Temple site | Shimla, Himachal Pradesh | temple | Desired/began temple after Taradevi stay; exact bodily presence on current parcel is plausible but not isolated | ONZEKER | EXACT | Shimla devotees | S11 | S16 | Need foundation/inauguration witness account or land record. |
+| 102 | Delhi/Jonapur Ashram | Jonapur, New Delhi | ashram | Personally inaugurated in summer 1973 | JA | EXACT | Madrasi Baba; Delhi devotees | S9 | S16 | Exact current complex. |
+| 103 | Delhi/Jonapur inauguration grounds | Jonapur, New Delhi | courtyard/grounds | Attended/conducted opening shortly before mahasamadhi | JA | DEELS | Delhi satsang | S9 | — | Event micro-location/photo camera point unresolved. |
+| 104 | Vrindavan Ashram | Vrindavan, Uttar Pradesh | ashram | Repeatedly stayed and gave darshan from 1967; final body returned here | JA | EXACT | Siddhi Ma; Indian/Western devotees | P1, Vrindavan passages | S14 | Strong institutional continuity. |
+| 105 | Maharajji's room, Vrindavan Ashram | Vrindavan, Uttar Pradesh | room/sublocation | Sat, met devotees and stayed | JA | DEELS | ashram community | P1, Vrindavan passages | S14 | Present room identity not described on the consulted public page. |
+| 106 | Vrindavan Ashram verandah | Vrindavan, Uttar Pradesh | ashram sublocation | Sat all day with a large crowd | JA | DEELS | devotees | P1, Vrindavan passage | — | Which veranda/bay unresolved. |
+| 107 | Vrindavan Ashram courtyard/havankund cremation site | Vrindavan, Uttar Pradesh | courtyard/funerary site | Had selected/sanctified spot earlier in 1973; body cremated there 11 September | JA | EXACT | Vishambhar; Pagal Baba; ashram devotees | S15 | S14 | Presence before death and postmortem cremation both distinguished; current samadhi memorial marks complex. |
+| 108 | Vrindavan Mahasamadhi Mandir | Vrindavan, Uttar Pradesh | later memorial | Built after cremation; no bodily lifetime visit to the later structure | NEE | EXACT | ashram trust | S14; S15 | Negative control: physical remains/site association is not personal presence in the later building. |
+| 109 | Agra family residence | Agra, Uttar Pradesh | private family house | Visited family during final 1973 journey; other stays implied | JA | ONBEKEND | wife/children/family | S15, “family at Agra” | — | Address/house identity missing. |
+| 110 | Agra heart specialist's clinic | Agra, Uttar Pradesh | clinic | Consulted for chest pain, 10 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=100 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/NEEM_KAROLI_BABA_PRE_COMPARE_FREEZE.md blob_sha=867d96559886a911b585b72134bd44dace86661a original_offset=32768 original_length=3421 payload_bytes=3421 chunk_index=8 chunk_count=9 classification=text
+September 1973 | JA | ONBEKEND | physician; travelling companions | biographical narrative summarized by S15 and institutional histories | — | Doctor/clinic name unresolved; medical register/newspaper search required. |
+| 111 | Agra railway station | Agra, Uttar Pradesh | station | Boarded night train toward Kainchi on final journey | JA | ONBEKEND | companions | S15/final-day narrative | — | Which Agra station not stated. |
+| 112 | Mathura railway station | Mathura, Uttar Pradesh | station | Disembarked after convulsions on final journey | JA | EXACT | travelling companions; railway staff | final-day narrative; S15 context | — | Platform not stated. |
+| 113 | Ramakrishna Mission Hospital | Vrindavan, Uttar Pradesh | hospital | Admitted and died during night of 10–11 September 1973 | JA | EXACT | companions; hospital staff | S15 | S14 | Named institution; exact ward/room and historic building status unresolved. |
+
+## Adversarial non-upgrades
+
+- Institutional lists name more than one hundred temples, but only locations with separate personal-presence evidence are `JA`.
+- Panki is deliberately `ONZEKER`: the close devotee memoir explicitly says he declined bodily attendance at the opening. A miracle narrative is not substituted for physical travel.
+- The current Rishikesh/Veerbhadra complex was substantially built after 1984; his lease/plans alone do not prove he visited its precise parcel.
+- The 2001 Akbarpur temple and Vrindavan Mahasamadhi Mandir are later memorial structures. Birth/cremation-site associations do not establish lifetime presence inside those later buildings.
+- India Hotel, Nainital is attached to devotee Tularam in the swept memoir, but no clean passage placed Maharajji inside it; it is not included as a presence row.
+
+## Freeze metrics
+
+- **Normalized locations:** 113
+- **PERSONALLY_PRESENT:** JA 103; ONZEKER 9; NEE 1
+- **PHYSICAL_IDENTITY:** EXACT 35; DEELS 23; ALLEEN_PLAATS 19; ONBEKEND 36
+- **Corpus families covered:** close-devotee memoir; Ram Dass/Western devotee story corpus; ashram and trust histories; institutional photo/place pages; private houses and host networks; temples/ashrams; rooms, verandas, kitchens, courtyards and sadhana sublocations; rail/road/bridge nodes; Himalayan and pan-Indian pilgrimage circuits; final medical journey; adversarial later-memorial checks.
+- **Blocked or unavailable source classes:** complete searchable *Miracle of Love*, *By His Grace*, *Divine Reality*, *Premavatar* and *Barefoot in the Heart* editions with page-level scans; Hindi local press with usable OCR; family diaries/address books; railway incident files and timetables; military/police housing plans; municipal/cadastral records; medical and hotel registers; full trust deed/lease files; photograph negatives and original captions; private-house access.
+- **SATURATION: NEE.** The strongest open close-devotee memoir and major institutional place pages were swept, yielding high recall across homes, travel and sublocations. Saturation is not claimed because the tradition explicitly describes thousands of journeys, many houses remain unnamed, and several core books/archives were not fully searchable or openly accessible.
+
+## Freeze declaration
+
+This file is the Neem Karoli Baba discovery freeze. It precedes and excludes every CCI/internal-atlas comparison, prior candidate list, A/B/C reconciliation, route/cluster choice and merge operation.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=101 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/RAMAKRISHNA_PRE_COMPARE_FREEZE.md blob_sha=162d9c3198aef047eb6d5ec9a1842645ad91823f original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=19 classification=text
+# Ramakrishna — India physical-location atlas — PRE-COMPARE FREEZE
+
+**Run:** `TOP11-PARALLEL-CHATGPT-SWEEP-001`  
+**Freeze date:** 2026-08-18  
+**Discovery mode:** independent external blind sweep; no internal person atlas, CCI output, prior candidate list, reconciliation file, or other person's candidates were consulted.  
+**Scope:** verifiable physical places in present-day India where Sri Ramakrishna (Gadadhar Chattopadhyay, 1836–1886) was personally present, plus a very small number of direct posthumous lineage/physical-remains sites explicitly marked `NEE`. Recall is favoured over precision; unresolved physical identities are retained rather than silently discarded.
+
+## Evidence and normalization rules
+
+- `PERSONALLY_PRESENT` means the source independently supports presence; a later institution or a place merely mentioned in discourse does not.
+- `PHYSICAL_IDENTITY` uses exactly `EXACT`, `DEELS`, `ALLEEN_PLAATS`, or `ONBEKEND`. `EXACT` means a defensible surviving building/site or uniquely identified physical feature, not necessarily unchanged fabric. `DEELS` means a known complex/footprint but an altered, vanished, or only approximately localized subsite. `ALLEEN_PLAATS` means the city/village/route is known but not the concrete premises. `ONBEKEND` means the source names a host or type of premises but the physical identity has not been independently fixed.
+- Contemporary street addresses are included only where an official/institutional or explicit site-history source supports continuity; none are inferred.
+- Dates in the Gospel are observation dates unless the speaker is recalling an earlier visit.
+
+## Public source corpus
+
+| Code | Source | Character / locator |
+|---|---|---|
+| GM | Swami Saradananda, *Sri Ramakrishna, The Great Master* | Direct disciple's biography based on interviews with family, Hriday and witnesses; full public text: https://cs.rkmvu.ac.in/~tamal/greatmaster/greatmaster.html. Locators below use section headings and distinctive event phrases. |
+| GOS | Mahendranath Gupta (M.), *The Gospel of Sri Ramakrishna*, tr. Swami Nikhilananda | Near-contemporary diary/testimony; contents and dated chapters: https://www.ramakrishnavivekananda.info/gospel/gospel.htm |
+| HP | Ramakrishna Math, Holy Pilgrimage | Official institutional place dossiers, especially Kamarpukur, Dakshineswar, Kalighat, Antpur, Jayrambati, Balaram Mandir, Shyampukur, Cossipore and Yogodyan: https://holypilgrimage.rkmm.org/s/hp |
+| BM | Belur Math / Ramakrishna Math & Mission | Official profiles and pilgrimage itinerary. The latter unusually preserves numerous small visit sites: https://vivekananda150.belurmath.org/2014/01/10/vivek-ganga-parikrama-flotilla-ganges-kolkata-jan-13th-2014/ |
+| KATH | *Sri Sri Ramakrishna Kathamrita* English portal | Chapter-level corroboration of the Gospel's premises/hosts: https://www.kathamrita.org/kathamrita |
+| HTP | Holy Trio Footprints | Secondary physical-identity/address checks, never sole proof of presence: https://holytriofootprints.com/ |
+| IMG | Surviving dated historical photographs / cataloguing | Studio portrait catalogue and date: https://commons.wikimedia.org/wiki/File:Ramakrishna_at_studio.jpg ; address continuity checked secondarily at https://holytriofootprints.com/bengal-photographers-studio-at-radhabazar/ |
+
+## Normalized master locations
+
+### A. Kamarpukur, family country and early rural life
+
+| ID | Physical location | Town/district, state | Type | What Ramakrishna did there; date/period | PERSONALLY_PRESENT | PHYSICAL_IDENTITY | Host / network | Primary / semi-primary evidence | Historic/current status, uncertainty, unresolved lead |
+|---|---|---|---|---|---|---|---|---|---|
+| RK-001 | Birth-room footprint (the former paddy-husking/lying-in shed; now within the Ramakrishna Math birthplace-temple area) | Kamarpukur, Hooghly, West Bengal | Birthplace / domestic subsite | Born here before sunrise on 18 Feb 1836. | JA | EXACT | Chandra Devi; Kshudiram | GM, “Birth of the Master”; HP Kamarpukur | Historic shed fabric was replaced/commemorated; exact consecrated footprint 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=102 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/RAMAKRISHNA_PRE_COMPARE_FREEZE.md blob_sha=162d9c3198aef047eb6d5ec9a1842645ad91823f original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=19 classification=text
+is accepted by the official custodian. |
+| RK-002 | First family hut | Kamarpukur, Hooghly, West Bengal | Private house / residence | Lived in the first hut through childhood (official map: until age 16). | JA | EXACT | Chattopadhyay family | GM, childhood chapters; HP Kamarpukur | Preserved/reconstructed within the present birthplace precinct. Distinct from the birth-room footprint. |
+| RK-003 | Second family hut / later Kamarpukur residence | Kamarpukur, Hooghly, West Bengal | Private house / residence | Stayed here during later returns, including 1858–59, 1867 and later visits. | JA | EXACT | Chattopadhyay family; Sarada Devi | GM, “The Master’s stay at Kamarpukur”; HP Kamarpukur | Official precinct identifies the hut; fabric/repairs over time not independently dated. |
+| RK-004 | Family shrine of Raghuvir and Sitala | Kamarpukur, Hooghly, West Bengal | Domestic shrine | Worshipped and served the family deities throughout boyhood and later stays. | JA | EXACT | Chattopadhyay family | GM, childhood and 1867-return sections; HP Kamarpukur | Shrine is maintained in the birthplace complex. |
+| RK-005 | Laha school in the theatre hall/natmandir | Kamarpukur, Hooghly, West Bengal | School / hall | Attended the village school, learned elementary reading/writing and joined dramatic activity; c. 1841 onward. | JA | DEELS | Laha family | GM, “Gadadhar’s education” and school description | School function and Laha precinct are clear; exact historic hall fabric/footprint requires cadastral confirmation. |
+| RK-006 | Haldarpukur tank and bathing bank | Kamarpukur, Hooghly, West Bengal | Tank / bathing place | Bathed/fetched water; childhood episode involving the women’s bathing side and later disguise episode. | JA | EXACT | Village community | GM, childhood chapters, distinctive “Haldarpukur” passages | Tank survives; the exact bank/steps used in each episode are not fixed. |
+| RK-007 | Manik Raja’s house/palace site | Bhursubo near Kamarpukur, Hooghly, West Bengal | Private house / estate | Taken there by his father at age six, repeatedly invited and hosted by Manik Raja’s family. | JA | DEELS | Manik Chandra Bandyopadhyay (“Manik Raja”) | GM, “Manikraja of Bhursubo” and “boy’s courage” | Village and estate association are strong; surviving palace fabric/precise footprint needs field verification. |
+| RK-008 | Manik Raja’s mango grove | Kamarpukur/Bhursubo, Hooghly, West Bengal | Grove / rehearsal ground | Sought solitude there after his father’s death; later organized and rehearsed village yatra with boys. | JA | DEELS | Manik Raja; boyhood companions | GM, childhood sections, “Bhutir Khal…or Manikraja’s mango grove” and yatra rehearsal | Historic grove zone is known; tree continuity and exact rehearsal patch are unresolved. |
+| RK-009 | Bhutir Khal cremation ground, old peepul/bilva area | Kamarpukur, Hooghly, West Bengal | Cremation ground / sadhana site | Wandered there as a child; in 1858–59 meditated, performed japa, made offerings and planted a bilva seedling. | JA | DEELS | Rameswar; village relatives | GM, “The opinion of the Master’s relatives” | Cremation ground identity survives; exact old peepul/tree and planted bilva no longer securely identifiable. |
+| RK-010 | Budhui Moral cremation ground | Kamarpukur, Hooghly, West Bengal | Cremation ground / sadhana site | Spent long solitary periods in both village cremation grounds during 1858–59. | JA | DEELS | Rameswar; village relatives | GM, “All alone, he spent…in the two…crematoriums named Bhutirkhal and Budhui-moral” | Ground/local name is identifiable; exact meditation position unknown. |
+| RK-011 | Laha pilgrim shelter/sattra on the Puri road | Kamarpukur, Hooghly, West Bengal | Pilgrim rest house | Regularly visited resident/itinerant monks, served them and listened to scripture in boyhood. | JA | DEELS | Laha family; itinerant sadhus | GM, “His keeping company with holy men” | Historic structure/site identification needs confirmation against the official Kamarpukur map. |
+| RK-012 | Paddy-fiel
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=103 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/RAMAKRISHNA_PRE_COMPARE_FREEZE.md blob_sha=162d9c3198aef047eb6d5ec9a1842645ad91823f original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=19 classification=text
+d path near Kamarpukur (first recorded ecstasy) | Kamarpukur, Hooghly, West Bengal | Field / walking route | While carrying puffed rice at age six or seven, saw dark clouds and white cranes and lost outward consciousness. | JA | ALLEEN_PLAATS | Village companions/family | GM, childhood vision account | No source fixes the exact field; do not conflate automatically with the family’s Lakshmijala plot. |
+| RK-013 | Road/fields from Kamarpukur toward Anur | Kamarpukur–Anur, Hooghly, West Bengal | Pilgrimage route / field | On a women’s pilgrimage to Vishalakshi, sang and entered an ecstatic state on the road. | JA | ALLEEN_PLAATS | Prasanna Laha and village women | GM, childhood “Vishalakshi of Anur” episode | Route corridor only; exact collapse/vision point unresolved. |
+| RK-014 | Vishalakshi temple | Anur, Hooghly, West Bengal | Temple | Destination of the childhood pilgrimage on which he entered ecstasy; worship party reached/served the deity. | JA | EXACT | Prasanna Laha; village women | GM, same episode; HP Kamarpukur pilgrimage map | Current temple/site is identifiable; historic fabric changed. |
+| RK-015 | Laha family house | Kamarpukur, Hooghly, West Bengal | Private house | Attended the large sraddha scholars’ meeting and resolved a disputed point; frequented the family. | JA | DEELS | Dharmadas Laha; Gayavishnu Laha | GM, “Gadadhar solved a disputed point…” | Family premises known locally; exact meeting room/historic fabric unresolved. |
+| RK-016 | Sitanath Pyne’s house and inner apartments | Kamarpukur, Hooghly, West Bengal | Private house / performance space | Frequent visitor; read/sang/impersonated characters for the women, staged the Shiva drama and was welcomed after marriage. | JA | DEELS | Sitanath Pyne and family | GM, “Gadadhar’s intimacy with the family of Sitanath Pyne” | Current claimed house/site needs an official continuity check; inner apartment not separately locatable. |
+| RK-017 | Durgadas Pyne’s house, parlour and inner apartment | Kamarpukur, Hooghly, West Bengal | Private house | Entered disguised as a weaver woman, stayed in the women’s quarters and revealed himself when Rameswar called. | JA | ONBEKEND | Durgadas Pyne | GM, “A blow to Durgadas Pyne’s pride” | Host and episode exact; no defensible current physical identification found. |
+| RK-018 | Madhu Jugi’s house | Kamarpukur, Hooghly, West Bengal | Private house | Invited for scripture reading and devotional company in boyhood. | JA | ONBEKEND | Madhu Jugi | GM, childhood devotional-reading passages | Premises not physically identified. |
+| RK-019 | Unspecified village potters’ and painters’ workspaces | Kamarpukur, Hooghly, West Bengal | Workshops / houses | Visited potters and painters, learned image-making and painting in boyhood. | JA | ONBEKEND | Unnamed village artisans | GM, “The progress and range of Gadadhar’s education” | Aggregate unresolved lead; names and premises absent. |
+| RK-020 | Unspecified Kamarpukur households that hosted/fed him | Kamarpukur, Hooghly, West Bengal | Private houses | Daily visited or was invited by village women/families for food, songs and impersonations. | JA | ONBEKEND | Laha, Pyne, blacksmith, carpenter, goldsmith and other families | GM, childhood and 1867-return sections | Aggregate retained to signal under-detection; named houses above are not exhaustive. |
+| RK-021 | Antpur stay-house (host not fixed by the consulted source) | Antpur, Hooghly, West Bengal | Private stay / travel stop | Visited and stayed several days around age nineteen while travelling to Kamarpukur. | JA | ALLEEN_PLAATS | Local host unresolved | HP Antpur | Official page supports stay but not the exact premises in the extracted record. |
+| RK-022 | Ramchandra Mukhopadhyay’s original house site | Jayrambati, Bankura, West Bengal | Private house / marriage site | Marriage to Sarada Devi took place here in May 1859; also visited the family. | JA | EXACT | Ramchandra Mukhopadhyay; Sarada Devi | GM, marriage chapters; HP Jayrambati | Original-house footprint is officially commemo
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=104 path=runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/RAMAKRISHNA_PRE_COMPARE_FREEZE.md blob_sha=162d9c3198aef047eb6d5ec9a1842645ad91823f original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=19 classification=text
+rated; distinguish from later Mother’s house. |
+| RK-023 | Hridayram Mukhopadhyay’s family house | Sihar, Bankura, West Bengal | Private house / stay | Visited/stayed with nephew Hriday and travelled there from Kamarpukur. | JA | ONBEKEND | Hridayram Mukhopadhyay | GM, Kamarpukur-return/travel episodes | Village known; exact house not fixed in the consulted sources. |
+| RK-024 | Paddy-field route between Kamarpukur and Sihar | Kamarpukur–Sihar, West Bengal | Palanquin/foot route | Had a vision of two boys emerging from his body while travelling to Sihar. | JA | ALLEEN_PLAATS | Hriday; palanquin bearers | GM, 1867 Kamarpukur section | Exact field/road segment unknown. |
+| RK-025 | Natavar Goswami’s house | Belte near Phului-Shyambazar, Hooghly, West Bengal | Private house / devotional venue | Accepted Natavar’s invitation and stayed/was hosted during the regional kirtan visit. | JA | ONBEKEND | Natavar Goswami | GM, 1867 visit to Shyambazar/Belte | Village and host known; premises unresolved. |
+| RK-026 | Sankirtan houses/lanes of Phului-Shyambazar | Phului-Shyambazar, Hooghly, West Bengal | Village performance zone | For three days and nights joined intense sankirtan; crowds occupied roofs and trees. | JA | ALLEEN_PLAATS | Natavar Goswami; local Vaishnavas | GM, same section | More than one house/yard may be involved; no exact venue extracted. |
+
+### B. Jhamapukur and the Dakshineswar–Baranagar–Hooghly orbit
+
+| ID | Physical location | Town/district, state | Type | What Ramakrishna did there; date/period | PERSONALLY_PRESENT | PHYSICAL_IDENTITY | Host / network | Primary / semi-primary evidence | Historic/current status, uncertainty, unresolved lead |
+|---|---|---|---|---|---|---|---|---|---|
+| RK-027 | Ramkumar’s Sanskrit tol and residence | Jhamapukur, Kolkata, West Bengal | School / residence | Came to Calcutta c. 1852, lived with Ramkumar, studied/assisted and served household deities for roughly three years. | JA | ALLEEN_PLAATS | Ramkumar Chattopadhyay | GM, “The Master came to Calcutta” / Jhamapukur sections | Neighbourhood and institution are certain; exact building/lot not established here. |
+| RK-028 | Digambar Mitra’s house and domestic shrine | Jhamapukur, Kolkata, West Bengal | Private house / shrine | Conducted daily deity service while attached to Ramkumar’s tol. | JA | ONBEKEND | Digambar Mitra | GM, Jhamapukur account | Named host; exact historic house continuity unresolved. |
+| RK-029 | Other unnamed Jhamapukur household shrines | Jhamapukur, Kolkata, West Bengal | Private houses / shrines | Served deities in several wealthy families under Ramkumar’s arrangements. | JA | ONBEKEND | Unnamed patrons | GM, Jhamapukur account | Aggregate unresolved corpus lead; should not be collapsed into Digambar Mitra’s house. |
+| RK-030 | Rani Rashmoni’s Janbazar mansion / inner apartments | Janbazar, Kolkata, West Bengal | Mansion / temporary residence | Stayed in the inner apartments during a phase of feminine/madhura devotional practice and moved freely among the women. | JA | DEELS | Rani Rashmoni; Mathur Nath Biswas | GM, madhura-bhava chapter | Rashmoni mansion complex survives in divided/altered form; exact wing/room unresolved. |
+| RK-031 | Ramakrishna’s room and semicircular porch | Dakshineswar, Kolkata, West Bengal | Residence / teaching room | Principal room for residence, samadhi, worship and teaching over decades, 1855–1885. | JA | EXACT | Dakshineswar temple estate | GOS throughout; GM; HP Dakshineswar | Preserved official pilgrimage subsite. |
+| RK-032 | Bhavatarini Kali temple / sanctum | Dakshineswar, Kolkata, West Bengal | Temple / workplace | Served as priest, worshipped Kali, prayed and experienced foundational visions. | JA | EXACT | Rani Rashmoni; Mathur | GM, early Dakshineswar/sadhana chapters; GOS | Surviving temple; sanctum access/fabric has undergone normal conservation. |
+| RK-033 | Radhakanta/Radha-Govinda Vishnu temple | Dakshineswar, Kolkata, West Bengal | Temple / workplace | Served as priest, repaired the broken Govinda image, worshipped and visited rep
+<<< END CHUNK >>>
+

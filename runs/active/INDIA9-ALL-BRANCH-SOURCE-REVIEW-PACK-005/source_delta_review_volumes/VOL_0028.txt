@@ -1,0 +1,826 @@
+>>> CHUNK stream_row=418 path=runs/active/INDIAROOD-CORE-KRIYA-LOCATION-CLOSURE-001/CORE_KRIYA_R4_R5_CLOSURE.md blob_sha=41fa2f3460d4ef2565f3896afdbe179489940e9a original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+, but `SY-029` remains R5 because Sri Yukteswar's personal visit is still only a secondary claim not independently closed. Source: https://yssofindia.org/location/dihika
+
+Named Kashmir public sites are retained at the precision actually stated by the travel narrative: Shankaracharya Temple, Shalimar Bagh and Nishat Bagh are exact site-level anchors; Dal Lake and Khilanmarg remain landscape-level; the unnamed Srinagar inn remains R5.
+
+AOAY's 1936 `Regent Hotel, Bombay` scene remains R5. A current Regent Hotel exists at 8 BEST Road, Colaba, but no consulted source proves that it is the same hotel/building. The current same-name hotel is therefore a separate R1 contemporary candidate and is explicitly not merged with the historical hotel.
+
+Current hotel: https://www.regenthotelcolaba.in/contact-us.html
+
+## Remaining R4/R5 ledger — all retained
+
+The full original wording is preserved losslessly through exact source path/ref/blob pointers in `CORE_KRIYA_SOURCE_RECORDS.jsonl`. The following is the complete unresolved set after targeted physical-resolution research.
+
+### Mahavatar Babaji — 29
+
+`IR-1(R4)`, `IR-5(R5)`, `IR-6(R4)`, `IR-13(R4)`, `IR-14(R5)`, `IR-15(R5)`, `IR-17(R4)`, `IR-18(R5)`, `IR-20(R4)`, `IR-21(R4)`, `IR-22(R4)`, `IR-23(R4)`, `IR-28(R4)`, `IR-29(R5)`, `IR-31(R4)`, `IR-38(R4)`, `IR-39(R4)`, `IR-41(R4)`, `IR-42(R4)`, `IR-43(R5)`, `IR-44(R4)`, `IR-45(R4)`, `IR-46(R4)`, `IR-47(R4)`, `IR-50(R4)`, `ext-B12(R4)`, `ext-B16(R5)`, `ext-B22(R5)`, `ext-B23(R4)`.
+
+Primary remaining search routes: archival 1894 Kumbha maps; private-host/family archives; BKOA original books/estate papers; Haldwani court record; hospital register; Haidakhandi travel diaries/registers; local property records; Sri M/Nath primary publication/site testimony. Intrinsically hidden/mythic/mobile events remain R5 rather than being forced onto a current marker.
+
+### Lahiri Mahasaya — 27
+
+`LM-004(R4)`, `LM-005(R4)`, `LM-009(R4)`, `LM-010(R4)`, `LM-011(R4)`, `LM-012(R4)`, `LM-013(R4)`, `LM-014(R4)`, `LM-015(R4)`, `LM-016(R4)`, `LM-019(R5)`, `LM-020(R5)`, `LM-021(R4)`, `LM-022(R4)`, `LM-027(R4)`, `LM-029(R4)`, `LM-030(R4)`, `LM-031(R4)`, `LM-032(R4)`, `LM-035(R4)`, `LM-036(R4)`, `LM-037(R4)`, `LM-038(R5)`, `LM-039(R5)`, `LM-040(R5)`, `intern-18-Gorakhpur-Abinash(R4)`, `DELTA-LM-PP-ONLY-AGGREGATE(R5)`.
+
+Primary remaining search routes: Military Engineering/PWD personnel/posting/property records; Varanasi cadastral/family papers; Moradabad and Rana Mahal host-family identification; Kumbha-year/sector evidence; original PP/Bidyananda family biographies; Keshabananda/Panchanon/Pranabananda address material; Bishnupur family-event documentation. `DELTA-LM-PP-ONLY-AGGREGATE` remains intentionally aggregate because the authorised delta only names examples such as Panagarh/Burdwan station and does not expose enough row detail to invent the missing source records.
+
+### Sri Yukteswar — 23
+
+`SY-002(R4)`, `SY-003(R4)`, `SY-006(R5)`, `SY-008(R4)`, `SY-009(R4)`, `SY-011(R5)`, `SY-014(R4)`, `SY-016(R5)`, `SY-017(R5)`, `SY-018(R4)`, `SY-020(R4)`, `SY-021(R5)`, `SY-022(R5)`, `SY-027(R4)`, `SY-029(R5)`, `SY-030(R4)`, `SY-031(R5)`, `SY-033(R4)`, `SY-038(R4)`, `SY-039(R4)`, `SY-040(R5)`, `SY-041(R5)`, `SY-042(R5)`.
+
+Primary remaining search routes: full Satyananda text and Sadhu Sabha records; Serampore family/property files; Varanasi address material; named host archives; Bengali originals for Ghatal/Khukurdaha; Ganga Sagar camp testimony; Srinagar lodging directories; Bombay hotel directories/newspapers for 1936 Regent; stronger primary confirmation for Dihika.
+
+## Non-merges that remain mandatory
+
+- unnamed 1861 Dunagiri cave ≠ YSS Pandukholi cave as independently proven fact;
+- YSS Pandukholi cave ≠ Hansavedas Harapriya-temple claim ≠ Haidakhan cave;
+- historic 1894 Kumbha tree ≠ current Jhusi claimant banyan unless continuity evidence is found;
+- Lahiri 1864 residence ≠ Satyalok;
+- historical Keshabananda Haridwar hermitage ≠ current Keshav Ashram unless same-site continuity is proven;
+- Bodh Gaya Krishnadayal Giri math ≠ Mahabodhi Temple by assum
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=419 path=runs/active/INDIAROOD-CORE-KRIYA-LOCATION-CLOSURE-001/CORE_KRIYA_R4_R5_CLOSURE.md blob_sha=41fa2f3460d4ef2565f3896afdbe179489940e9a original_offset=12288 original_length=248 payload_bytes=248 chunk_index=3 chunk_count=4 classification=text
+ption;
+- AOAY 1936 Regent Hotel ≠ current 8 BEST Road Regent Hotel by name alone;
+- Haidakhan Baba's well-attested 1970–1984 physical sites do not settle Mahavatar identity.
+
+These unresolved records are a research state, not a deletion state.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=420 path=runs/active/INDIAROOD-CORE-KRIYA-LOCATION-CLOSURE-001/CORE_KRIYA_SOURCE_RECORDS.jsonl blob_sha=fbb247d8f845d92c2c30bb4f2aaba01aac381085 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+{"_meta":{"schema":"CORE_KRIYA_SOURCE_RECORDS.v1","records":178,"claims":146,"negative_controls":32,"lossless":true,"sources":{"X1":["runs/active/TOP11-INDIAROOD-BLIND-SWEEP-001/BABAJI_INDIAROOD_FREEZE.md","agent/indiarood-core-kriya-sweep","463e7822dcbb5af4d404fa4016ffa4b415914abd"],"X2":["runs/active/TOP11-INDIAROOD-BLIND-SWEEP-001/LAHIRI_MAHASAYA_INDIAROOD_FREEZE.md","agent/indiarood-core-kriya-sweep","01778b6f43198db8080c1460402b12a478842314"],"X3":["runs/active/TOP11-INDIAROOD-BLIND-SWEEP-001/SRI_YUKTESWAR_INDIAROOD_FREEZE.md","agent/indiarood-core-kriya-sweep","4d86a13474f115ab5c5e7530bfd5d1215ccc9f32"],"X4":["runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/INDIAROOD_DELTA_MATRIX.jsonl","agent/india8-cluster-casting","3ed676bc82aac1e58b3cdb6beb05c48571e64024"]},"fields":{"id":"existing source/audit ID; temporary only when t=1","s":"source code","k":"kind when non-default","r":"R1-R5 numeric suffix","a":"access code","q":"claim label needed for delta/temporary records","m":"matched IDs","t":"temporary audit ID"},"access":{"PO":"PUBLIC_OPEN","PL":"PUBLIC_LIMITED_HOURS","PP":"PRIVATE_PERMISSION_POSSIBLE","EO":"EXTERIOR_ONLY","LA":"LANDSCAPE_ACCESS","SV":"SUCCESSOR_SITE_VISITABLE","AU":"ACCESS_UNKNOWN","AX":"ACCESS_UNKNOWN_AFTER_EXHAUSTION"},"rule":"Original stable-ID records remain lossless by exact source path+ref+blob SHA and are not rewritten. This file is the closure index adding physical resolution/access. No existing ID changed. Temporary audit IDs only fill source records that lacked one."}}
+{"id":"IR-1","s":"X1","r":4,"a":"LA"}
+{"id":"IR-2","s":"X1","r":3,"a":"LA"}
+{"id":"IR-3","s":"X1","r":1,"a":"LA"}
+{"id":"IR-4","s":"X1","r":3,"a":"LA"}
+{"id":"IR-5","s":"X1","r":5,"a":"AX"}
+{"id":"IR-6","s":"X1","r":4,"a":"AX"}
+{"id":"IR-7","s":"X1","r":3,"a":"LA"}
+{"id":"IR-8","s":"X1","r":3,"a":"LA"}
+{"id":"IR-9","s":"X1","r":3,"a":"LA"}
+{"id":"IR-10","s":"X1","r":1,"a":"LA"}
+{"id":"IR-11","s":"X1","r":1,"a":"PL"}
+{"id":"IR-12","s":"X1","r":1,"a":"PP"}
+{"id":"IR-13","s":"X1","r":4,"a":"AX"}
+{"id":"IR-14","s":"X1","r":5,"a":"AX"}
+{"id":"IR-15","s":"X1","r":5,"a":"AX"}
+{"id":"IR-16","s":"X1","r":1,"a":"PP"}
+{"id":"IR-17","s":"X1","r":4,"a":"PO"}
+{"id":"IR-18","s":"X1","r":5,"a":"PL"}
+{"id":"IR-19","s":"X1","r":1,"a":"PL"}
+{"id":"IR-20","s":"X1","r":4,"a":"AX"}
+{"id":"IR-21","s":"X1","r":4,"a":"AX"}
+{"id":"IR-22","s":"X1","r":4,"a":"LA"}
+{"id":"IR-23","s":"X1","r":4,"a":"AX"}
+{"id":"IR-24","s":"X1","r":3,"a":"AX"}
+{"id":"IR-25","s":"X1","r":3,"a":"AX"}
+{"id":"IR-26","s":"X1","r":3,"a":"LA"}
+{"id":"IR-27","s":"X1","r":3,"a":"LA"}
+{"id":"IR-28","s":"X1","r":4,"a":"AX"}
+{"id":"IR-29","s":"X1","r":5,"a":"LA"}
+{"id":"IR-30","s":"X1","r":3,"a":"PL"}
+{"id":"IR-31","s":"X1","r":4,"a":"AX"}
+{"id":"IR-32","s":"X1","r":1,"a":"PP"}
+{"id":"IR-33","s":"X1","r":3,"a":"LA"}
+{"id":"IR-34","s":"X1","r":1,"a":"PP"}
+{"id":"IR-35","s":"X1","r":1,"a":"PP"}
+{"id":"IR-36","s":"X1","r":1,"a":"PP"}
+{"id":"IR-37","s":"X1","r":1,"a":"PP"}
+{"id":"IR-38","s":"X1","r":4,"a":"AX"}
+{"id":"IR-39","s":"X1","r":4,"a":"AX"}
+{"id":"IR-40","s":"X1","r":1,"a":"PL"}
+{"id":"IR-41","s":"X1","r":4,"a":"AX"}
+{"id":"IR-42","s":"X1","r":4,"a":"AX"}
+{"id":"IR-43","s":"X1","r":5,"a":"LA"}
+{"id":"IR-44","s":"X1","r":4,"a":"AX"}
+{"id":"IR-45","s":"X1","r":4,"a":"AX"}
+{"id":"IR-46","s":"X1","r":4,"a":"AX"}
+{"id":"IR-47","s":"X1","r":4,"a":"AX"}
+{"id":"IR-48","s":"X1","r":1,"a":"PP"}
+{"id":"IR-49","s":"X1","r":1,"a":"PL"}
+{"id":"IR-50","s":"X1","r":4,"a":"AX"}
+{"id":"LM-001","s":"X2","r":3,"a":"LA"}
+{"id":"LM-002","s":"X2","r":3,"a":"LA"}
+{"id":"LM-003","s":"X2","r":3,"a":"PL"}
+{"id":"LM-004","s":"X2","r":4,"a":"AX"}
+{"id":"LM-005","s":"X2","r":4,"a":"AX"}
+{"id":"LM-006","s":"X2","r":3,"a":"PL"}
+{"id":"LM-007","s":"X2","r":3,"a":"PL"}
+{"id":"LM-008","s":"X2","r":3,"a":"PL"}
+{"id":"LM-009","s":"X2","r":4,"a":"AX"}
+{"id":"LM-010","s":"X2","r":4,"a":"AX"}
+{"id":"LM-011","s":"X2","r":4,"a":"AX"}
+{"id":"LM-012","s":"X2","r":4,"a":"AX"}
+{"id":"LM-013","s":"X2","r":4,"a":"AX"}
+{"id":"LM-014","s":"X2","r":4,"a":"AX"}
+{"id":"LM-015","s":"X2","r":4,"a":"AX"}
+{"id":"LM-01
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=421 path=runs/active/INDIAROOD-CORE-KRIYA-LOCATION-CLOSURE-001/CORE_KRIYA_SOURCE_RECORDS.jsonl blob_sha=fbb247d8f845d92c2c30bb4f2aaba01aac381085 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+6","s":"X2","r":4,"a":"AX"}
+{"id":"LM-017","s":"X2","r":3,"a":"LA"}
+{"id":"LM-018","s":"X2","r":3,"a":"LA"}
+{"id":"LM-019","s":"X2","r":5,"a":"AX"}
+{"id":"LM-020","s":"X2","r":5,"a":"AX"}
+{"id":"LM-021","s":"X2","r":4,"a":"AX"}
+{"id":"LM-022","s":"X2","r":4,"a":"AX"}
+{"id":"LM-023","s":"X2","r":1,"a":"PL"}
+{"id":"LM-024","s":"X2","r":3,"a":"PL"}
+{"id":"LM-025","s":"X2","r":1,"a":"PL"}
+{"id":"LM-026","s":"X2","r":1,"a":"LA"}
+{"id":"LM-027","s":"X2","r":4,"a":"AX"}
+{"id":"LM-028","s":"X2","r":1,"a":"PL"}
+{"id":"LM-029","s":"X2","r":4,"a":"AX"}
+{"id":"LM-030","s":"X2","r":4,"a":"AX"}
+{"id":"LM-031","s":"X2","r":4,"a":"AX"}
+{"id":"LM-032","s":"X2","r":4,"a":"AX"}
+{"id":"LM-033","s":"X2","r":3,"a":"LA"}
+{"id":"LM-034","s":"X2","r":1,"a":"PO"}
+{"id":"LM-035","s":"X2","r":4,"a":"AX"}
+{"id":"LM-036","s":"X2","r":4,"a":"AX"}
+{"id":"LM-037","s":"X2","r":4,"a":"AX"}
+{"id":"LM-038","s":"X2","r":5,"a":"AX"}
+{"id":"LM-039","s":"X2","r":5,"a":"AX"}
+{"id":"LM-040","s":"X2","r":5,"a":"AX"}
+{"id":"SY-001","s":"X3","r":2,"a":"SV"}
+{"id":"SY-002","s":"X3","r":4,"a":"AX"}
+{"id":"SY-003","s":"X3","r":4,"a":"AX"}
+{"id":"SY-004","s":"X3","r":1,"a":"PL"}
+{"id":"SY-005","s":"X3","r":3,"a":"PL"}
+{"id":"SY-006","s":"X3","r":5,"a":"AX"}
+{"id":"SY-007","s":"X3","r":1,"a":"PL"}
+{"id":"SY-008","s":"X3","r":4,"a":"LA"}
+{"id":"SY-009","s":"X3","r":4,"a":"AX"}
+{"id":"SY-010","s":"X3","r":3,"a":"PO"}
+{"id":"SY-011","s":"X3","r":5,"a":"AX"}
+{"id":"SY-012","s":"X3","r":3,"a":"PL"}
+{"id":"SY-013","s":"X3","r":3,"a":"LA"}
+{"id":"SY-014","s":"X3","r":4,"a":"AX"}
+{"id":"SY-015","s":"X3","r":1,"a":"LA"}
+{"id":"SY-016","s":"X3","r":5,"a":"AX"}
+{"id":"SY-017","s":"X3","r":5,"a":"AX"}
+{"id":"SY-018","s":"X3","r":4,"a":"AX"}
+{"id":"SY-019","s":"X3","r":1,"a":"PP"}
+{"id":"SY-020","s":"X3","r":4,"a":"AX"}
+{"id":"SY-021","s":"X3","r":5,"a":"AX"}
+{"id":"SY-022","s":"X3","r":5,"a":"AX"}
+{"id":"SY-023","s":"X3","r":3,"a":"PP"}
+{"id":"SY-024","s":"X3","r":1,"a":"PP"}
+{"id":"SY-025","s":"X3","r":2,"a":"SV"}
+{"id":"SY-026","s":"X3","r":1,"a":"PL"}
+{"id":"SY-027","s":"X3","r":4,"a":"AX"}
+{"id":"SY-028","s":"X3","r":1,"a":"PL"}
+{"id":"SY-029","s":"X3","r":5,"a":"SV"}
+{"id":"SY-030","s":"X3","r":4,"a":"PO"}
+{"id":"SY-031","s":"X3","r":5,"a":"AX"}
+{"id":"SY-032","s":"X3","r":1,"a":"PL"}
+{"id":"SY-033","s":"X3","r":4,"a":"PO"}
+{"id":"SY-034","s":"X3","r":3,"a":"LA"}
+{"id":"SY-035","s":"X3","r":1,"a":"PL"}
+{"id":"SY-036","s":"X3","r":1,"a":"PL"}
+{"id":"SY-037","s":"X3","r":3,"a":"LA"}
+{"id":"SY-038","s":"X3","r":4,"a":"AX"}
+{"id":"SY-039","s":"X3","r":4,"a":"AX"}
+{"id":"SY-040","s":"X3","r":5,"a":"AX"}
+{"id":"SY-041","s":"X3","r":5,"a":"LA"}
+{"id":"SY-042","s":"X3","r":5,"a":"AX"}
+{"id":"NEG-BABAJI-01","s":"X1","k":"negative_control","t":1,"q":"Allahabad Kumbha, 23 Jan 1936"}
+{"id":"NEG-BABAJI-02","s":"X1","k":"negative_control","t":1,"q":"YSS Dwarahat Ashram"}
+{"id":"NEG-BABAJI-03","s":"X1","k":"negative_control","t":1,"q":"Government Rest House, Dwarahat"}
+{"id":"NEG-BABAJI-04","s":"X1","k":"negative_control","t":1,"q":"Ranchi school/ashram, 1920"}
+{"id":"NEG-BABAJI-05","s":"X1","k":"negative_control","t":1,"q":"Ranikhet route, Hariharananda"}
+{"id":"NEG-BABAJI-06","s":"X1","k":"negative_control","t":1,"q":"Nadia sand, Lahiri youth"}
+{"id":"NEG-BABAJI-07","s":"X1","k":"negative_control","t":1,"q":"Places of Shankara or Kabir"}
+{"id":"NEG-BABAJI-08","s":"X1","k":"negative_control","t":1,"q":"Palani, Tamil Nadu"}
+{"id":"NEG-BABAJI-09","s":"X1","k":"negative_control","t":1,"q":"Kataragama/Katirgama"}
+{"id":"NEG-BABAJI-10","s":"X1","k":"negative_control","t":1,"q":"Modern Babaji ashrams/centres without visit claim"}
+{"id":"NEG-BABAJI-11","s":"X1","k":"negative_control","t":1,"q":"Dunagiri/Pandukholi, Badrinath, Satopanth, Haidakhan caves"}
+{"id":"NEG-BABAJI-12","s":"X1","k":"negative_control","t":1,"q":"Haidakhan Baba = Mahavatar Babaji"}
+{"id":"ext-B12","s":"X4","k":"external_only_claim","r":4,"a":"AX","q":"Barrackpore/Barackpur — Shankari Mai Jiew room","m":["ext-B12"]}
+{"id":"ext-B16","s":"X4","k":"external_only_claim","r":5,"a":"LA","q":"Ranikhet route — voice only","m":["ext
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=422 path=runs/active/INDIAROOD-CORE-KRIYA-LOCATION-CLOSURE-001/CORE_KRIYA_SOURCE_RECORDS.jsonl blob_sha=fbb247d8f845d92c2c30bb4f2aaba01aac381085 original_offset=8192 original_length=2654 payload_bytes=2654 chunk_index=2 chunk_count=3 classification=text
+-B16"]}
+{"id":"ext-B17","s":"X4","k":"external_only_claim","r":3,"a":"PL","q":"Kathgodam railway waiting-room","m":["ext-B17"]}
+{"id":"ext-B18","s":"X4","k":"external_only_claim","r":1,"a":"EO","q":"Government Rest House, Dwarahat","m":["ext-B18"]}
+{"id":"ext-B32","s":"X4","k":"external_only_claim","r":3,"a":"PP","q":"Satyalok, Chousatti Ghat, Varanasi","m":["ext-B32"]}
+{"id":"ext-B19","s":"X4","k":"external_only_claim","r":3,"a":"LA","q":"Neelkant/Neelkanth Hill zone","m":["ext-B19"]}
+{"id":"ext-B20","s":"X4","k":"external_only_claim","r":3,"a":"LA","q":"Neelkant Hill — Mauni Baba cave zone","m":["ext-B20"]}
+{"id":"ext-B21","s":"X4","k":"external_only_claim","r":3,"a":"LA","q":"Panar / Kakbhusundi Tal zone","m":["ext-B21"]}
+{"id":"ext-B22","s":"X4","k":"external_only_claim","r":5,"a":"AX","q":"Kedarnath — secret path","m":["ext-B22"]}
+{"id":"ext-B23","s":"X4","k":"external_only_claim","r":4,"a":"AX","q":"Jaisalmer","m":["ext-B23"]}
+{"id":"ext-B11-subclaim","s":"X4","k":"external_only_claim","r":1,"a":"PL","q":"Lahiri house, Varanasi — Pranabananda subclaim","m":["ext-B11-subclaim"]}
+{"id":"NEG-LM-01","s":"X2","k":"negative_control"}
+{"id":"NEG-LM-02","s":"X2","k":"negative_control"}
+{"id":"NEG-LM-03","s":"X2","k":"negative_control"}
+{"id":"NEG-LM-04","s":"X2","k":"negative_control"}
+{"id":"NEG-LM-05","s":"X2","k":"negative_control"}
+{"id":"NEG-LM-06","s":"X2","k":"negative_control"}
+{"id":"intern-18-Gorakhpur-Abinash","s":"X4","k":"external_only_claim","r":4,"a":"AX","q":"Gorakhpur — Abinash Babu materialization scene","m":["intern-18-Gorakhpur-Abinash"]}
+{"id":"DELTA-LM-PP-ONLY-AGGREGATE","s":"X4","k":"aggregate_reference_only","r":5,"a":"AX","t":1,"q":"Additional PP-only sublocations including Panagarh and Burdwan-station"}
+{"id":"N-01","s":"X3","k":"negative_control"}
+{"id":"N-02","s":"X3","k":"negative_control"}
+{"id":"N-03","s":"X3","k":"negative_control"}
+{"id":"N-04","s":"X3","k":"negative_control"}
+{"id":"N-05","s":"X3","k":"negative_control"}
+{"id":"N-06","s":"X3","k":"negative_control"}
+{"id":"N-07","s":"X3","k":"negative_control"}
+{"id":"N-08","s":"X3","k":"negative_control"}
+{"id":"N-09","s":"X3","k":"negative_control"}
+{"id":"N-10","s":"X3","k":"negative_control"}
+{"id":"N-11","s":"X3","k":"negative_control"}
+{"id":"N-12","s":"X3","k":"negative_control"}
+{"id":"N-13","s":"X3","k":"negative_control"}
+{"id":"N-14","s":"X3","k":"negative_control"}
+{"id":"DELTA-SY-SERAMPORE-MICRO-AGGREGATE","s":"X4","k":"aggregate_reference_only","r":3,"a":"SV","t":1,"q":"Serampore hermitage micro-sites: hall, courtyard, sitting room, eating patio, bedroom(s)","m":["intern-1","ext-SY001-005","ext-SY008"]}
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=423 path=runs/active/INDIAROOD-CORE-KRIYA-LOCATION-CLOSURE-001/STATUS.md blob_sha=68acb1c3df6e5363bdfb514176361c28dae9cddf original_offset=0 original_length=1043 payload_bytes=1043 chunk_index=0 chunk_count=1 classification=text
+task_id: INDIAROOD-CORE-KRIYA-LOCATION-CLOSURE-001
+state: COMPLETE
+branch: agent/indiarood-core-kriya-sweep
+blockers: none
+
+outputs:
+  - CORE_KRIYA_SOURCE_RECORDS.jsonl @ e45dd559b7e442d47f2f94cfc548137d1f4ffd58
+  - CORE_KRIYA_ENTITY_CANDIDATES.jsonl @ 96d1a58eb4e5a34f6048c757bf7ed7149a68233d
+  - CORE_KRIYA_R4_R5_CLOSURE.md @ cd817119ffdb6ec1af0293e8842f9cb3d6bde893
+  - CORE_KRIYA_ACCESS_MATRIX.md @ 844bdc276aafb2553b9c97584f14596f3f85d672
+
+accounting:
+  source_records_total: 178
+  claim_records: 146
+  negatives: 32
+  entity_candidates_total: 204
+  required_micro_site_or_successor_splits: 58
+  r1: 31
+  r2: 2
+  r3: 34
+  r4: 54
+  r5: 25
+  resolved_or_strong_localized: 67
+  unresolved_explicit: 79
+  silent_drops: 0
+
+hard_preservation:
+  existing_ids_changed: false
+  abc_changed: false
+  babaji_claimant_traditions_collapsed: false
+
+next: feed all four outputs into INDIA8 ALL_FINDINGS_LOCATION_MASTER and ZILVER additive proximity/new-ID staging; no rediscovery rerun required unless central reconciliation exposes a true evidence gap
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=424 path=runs/active/INDIAROOD-CORE-KRIYA-LOCATION-CLOSURE-001/TASK.md blob_sha=8f38abd1128556fcb47756da39309ad18a220692 original_offset=0 original_length=2409 payload_bytes=2409 chunk_index=0 chunk_count=1 classification=text
+# INDIAROOD CORE KRIYA LOCATION CLOSURE
+
+## DOEL
+Maak Babaji + Lahiri Mahasaya + Sri Yukteswar lossless fysiek resolveerbaar uit alle freezes/reconciliaties.
+
+## BRANCHREGEL
+ALLE WRITES/COMMITS uitsluitend op `agent/indiarood-core-kriya-sweep`.
+
+READ-ONLY CROSS-BRANCH INPUT is EXPLICIET toegestaan voor exact de hieronder genoemde centrale bestanden op `agent/india8-cluster-casting`. Dit is geen vergelijkingslek maar een gecontroleerde input-sync: deze bestanden zijn de reeds afgeronde CCI/IndiaROOD delta-reconciliatie en de centrale governance die op ROOD zelf ontbreken.
+
+## LEES — EIGEN BRANCH
+- eigen originele IndiaROOD freezes
+- deze TASK.md en STATUS.md
+
+## LEES — EXPLICIET TOEGESTAAN READ-ONLY VAN `agent/india8-cluster-casting`
+- `runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/INDIAROOD_DELTA_MATRIX.jsonl`
+- `runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/BABAJI_INDIAROOD_DELTA.md`
+- `runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/LAHIRI_MAHASAYA_INDIAROOD_DELTA.md`
+- `runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/SRI_YUKTESWAR_INDIAROOD_DELTA.md`
+- `governance/LOCATION_RESOLUTION_BEFORE_ABC_2026-08-19.md`
+
+Deze refs zijn door INDIA8 geverifieerd als aanwezig op `agent/india8-cluster-casting`. Geen andere branchbestanden openen tenzij TASK.md later expliciet wordt aangepast.
+
+## UITVOEREN
+1. Alle bronrecords behouden, ook claimant-tradities/mythische/verschijningen/negatives.
+2. Samengestelde records naar echte fysieke sub-entities waar nodig.
+3. R1-R5 toekennen en R4/R5 verder onderzoeken.
+4. Prioriteit: Dunagiri/Drongiri/Pandukholi/Gogash/gouden-paleis micro-sites; Kumbh boom/brug; Varanasi ghats/huizen/kamers; Rana Mahal; Panchganga; Keshabananda; PWD-posten; Serampore/Puri/Bodh Gaya; hosthuizen; hotels; postmortale scenes.
+5. Babaji-tradities strikt gescheiden houden; geen historische zekerheid fabriceren. R3 is acceptabel waar claim intrinsiek topografisch/mythisch is.
+6. Huidige access/continuïteit vastleggen.
+7. Gebruik actuele webbronnen waar nodig om fysieke identity/current access te sluiten.
+
+## OUTPUTS
+- CORE_KRIYA_SOURCE_RECORDS.jsonl
+- CORE_KRIYA_ENTITY_CANDIDATES.jsonl
+- CORE_KRIYA_R4_R5_CLOSURE.md
+- CORE_KRIYA_ACCESS_MATRIX.md
+- STATUS.md
+
+## HARD
+Geen A/B/C. Geen IDs wijzigen. Geen route. Geen record wegfilteren wegens lage confidence. Commit alles op dezelfde ROOD-branch.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=425 path=runs/active/TOP11-INDIAROOD-BLIND-SWEEP-001/BABAJI_INDIAROOD_FREEZE.md blob_sha=463e7822dcbb5af4d404fa4016ffa4b415914abd original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=11 classification=text
+# IndiaROOD — Mahavatar Babaji — onafhankelijke landelijke locatiesweep
+
+**Freeze-datum:** 19 augustus 2026  
+**Scope:** India; uitsluitend Mahavatar-Babaji-claims en expliciet daarvan gescheiden Babaji-identiteitstradities.  
+**Geen reisadvies:** dit is een bron- en locatie-inventaris, geen route of waardering.
+
+## Leeswijzer en bewijslat
+
+- **PERSONALLY_PRESENT: JA** betekent uitsluitend dat de genoemde bron een lichamelijke verschijning/aanwezigheid op die plek expliciet beschrijft. Het betekent niet dat een onafhankelijk historicus het wonderverhaal heeft bewezen.
+- **ONZEKER** wordt gebruikt bij een visioen, „vital plane”, onzichtbare aanwezigheid, alleen een stem, impliciete aanwezigheid, een zwakke bron of een betwiste identificatie.
+- Bij **Haidakhan Baba** betekent `JA (Haidakhan Baba) / ONZEKER (Mahavatar-identiteit)` dat de publiek optredende persoon uit 1970–1984 aantoonbaar op de plek werd gezien, maar dat zijn gelijkstelling met Yogananda’s Mahavatar Babaji niet vaststaat.
+- **EXACT** betreft de fysieke plek die door de bron wordt aangewezen; **DEELS** een bestaand terrein/complex waarvan het precieze punt of de historische continuïteit onzeker is; **ALLEEN_PLAATS** alleen stad/dorp/regio; **ONBEKEND** geen terugvindbare fysieke identiteit.
+- Vrijwel alle positieve Babaji-claims zijn lineage- of devotionele getuigenissen. Voor de bovennatuurlijke identificatie ontbreekt onafhankelijke historische verificatie. Bronkwaliteit en locatie-identiteit zijn daarom afzonderlijk beoordeeld.
+
+## Bronnenregister
+
+- **Y33** — Paramahansa Yogananda, *Autobiography of a Yogi* (1946), [hoofdstuk 33](https://en.wikisource.org/wiki/Autobiography_of_a_Yogi/Chapter_33): Badrinarayan-regio; Himalayakampen; Dashashwamedh Ghat.
+- **Y34** — Yogananda, [hoofdstuk 34](https://en.wikisource.org/wiki/Autobiography_of_a_Yogi/Chapter_34): Lahiri’s relaas over Dunagiri, Gogash, het paleis, Moradabad en de Kumbha met Lahiri.
+- **Y36** — Yogananda, [hoofdstuk 36](https://en.wikisource.org/wiki/Autobiography_of_a_Yogi/Chapter_36): Kumbha 1894, Rai Ghat en Lahiri’s huis.
+- **Y37** — Yogananda, [hoofdstuk 37](https://en.wikisource.org/wiki/Autobiography_of_a_Yogi/Chapter_37): Yogananda’s eigen ontmoeting in Garpar Road.
+- **Y42** — Yogananda, [hoofdstuk 42](https://en.wikisource.org/wiki/Autobiography_of_a_Yogi/Chapter_42): Keshabananda’s grot nabij Badrinarayan en de negatieve Kumbha-bevinding van 1936.
+- **YSS-CAVE** — Yogoda Satsanga Society, [Dwarahat/Babaji’s Cave](https://yssofindia.org/location/dwarahat): huidige Pandukholi-identificatie voorbij Kukuchina.
+- **YSS-BIO** — Yogoda Satsanga Society, [Mahavatar Babaji](https://yssofindia.org/about/mahavatar-babaji): officiële lineage-samenvatting en expliciete onbekendheid van geboorte/familie.
+- **SRF-GARPAR** — Self-Realization Fellowship, [The Transmission of Divine Consciousness](https://yogananda.org/transmission-of-divine-consciousness): 4 Garpar Road.
+- **YSS-RAI** — YSS, [Dakshineswar/omliggende plaatsen](https://yssofindia.org/ta/location/dakshineswar): de nog aangewezen banyan aan Rai Ghat Lane.
+- **KYI-HARI** — Kriya Yoga International, [Paramahamsa Hariharananda](https://www.kriya.org/guru/paramahamsa-hariharananda/en): twee Karar-Ashrambezoeken in 1949; later alleen een stem bij Ranikhet.
+- **BKOA-BIO** — Babaji’s Kriya Yoga Order of Acharyas, [Who is Mahavatar Babaji?](https://www.babajiskriyayoga.net/english/about-babaji.htm): Babaji-Nagaraj-levensverhaal en moderne verschijningen.
+- **BKOA-NAG** — dezelfde traditie, [Kriya Babaji Nagaraj (pdf)](https://www.babajiskriyayoga.net/english/pdfs/Kriya%20Babaji%20Nagaraj.pdf): alternatieve Dacca- en Benaresvariant.
+- **BKOA-RAM** — dezelfde traditie, [Yogi S.A.A. Ramaiah](https://mail.babajiskriyayoga.net/english/articles/art25-yogi-ssa-ramaiah.htm): lichamelijke ontmoeting en training bij Santopanth Tal.
+- **BKOA-DARSHAN** — Marshall Govindan, [My Darshan with Babaji in Badrinath](https://www.babajiskriyayoga.net/english/pdfs/My-darshan-of-Babaji-in-Badrinath-en.pdf): Santopan
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=426 path=runs/active/TOP11-INDIAROOD-BLIND-SWEEP-001/BABAJI_INDIAROOD_FREEZE.md blob_sha=463e7822dcbb5af4d404fa4016ffa4b415914abd original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=11 classification=text
+th, oktober 1999, expliciet op het „vital plane”.
+- **BKOA-KAT** — C. Shanmuganayagam, [Kriya Babaji and the Ancient Kataragama Shrine](https://www.babajiskriyayoga.net/english/pdfs/Kriya%20Babaji%20and%20the%20Ancient%20Kataragama%20Shrine.pdf): fysieke-materialisatieclaim op 9 Surammal Lane.
+- **BKOA-RAM-HOUSE** — BKOA-biografiepagina, via [staging-versie](https://staging.babajiskriyayoga.net/ta/%E0%AE%87%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%AF%E0%AE%BE-%E0%AE%86%E0%AE%9A%E0%AE%BF%E0%AE%B0%E0%AE%AE%E0%AE%AE%E0%AF%8D/): Ramaiahs huis op 2 Arulananda Mudali Street.
+- **BKOA-SHRINES** — BKOA, [Ramaiah-biografie](https://www.babajiskriyayoga.net/tamil/articles/art25-yogi-ssa-ramaiah.htm): in 1974 gebouwde schrijn op de geclaimde geboorteplek.
+- **HANSAVEDAS** — Hansavedas Fellowship, [Path of Yoga](https://hansavedas.org/path-of-yoga/): afzonderlijke Tryambaknath-identificatie; Keshav Prayag en Dunagiri Harapriya Devi.
+- **HS-ABOUT** — Haidakhandi Samaj, [About Babaji](https://haidakhandisamaj.in/about-babaji/): grot, Kailash-top en Haidakhan/Chilianaula.
+- **HS-ASHRAMS** — Haidakhandi Samaj, [Ashrams](https://haidakhandisamaj.in/ashrams/): Haidakhan, Anandpuri en Manda.
+- **HS-SHASTRI** — Haidakhandi Universal Ashram, [Shri Shastriji](https://babajiashram.org/shastriji): Kathgharia en Vrindavan als hoofdverblijfplaatsen.
+- **HS-MUNIRAJ** — [interview met Muniraj](https://www.babajiashram.org/documents/muniraji-special-edition-journal.pdf): Allahabadse ziekenhuisverschijning en lichamelijke ontmoeting in Kathgharia.
+- **HS-RAMLOTI** — [Ramloti’s ooggetuigenverslag](https://babajiashram.org/devotees/ramloti.html): Wape/Vapi-huis in februari 1981.
+- **HS-LISETTA** — Lisetta Carmi/Janki Rani, [herinneringen (pdf)](https://www.bholebabaji.it/wp-content/uploads/2020/11/Lisetta-Carmi-Janki-Rani-Babaji-sacred-fire-cisternino-ashram-ENG.pdf): Jaipur, Delhi, Bombay en Vapi.
+- **HS-DELHI** — HUA, [interview Meena Chandra](https://www.babajiashram.org/newsletters/2014/newsletter-2014-april): huis van Mrs. Lal, Delhi, 22 november 1976.
+- **HS-BANDIKUI** — officiële Haidakhandi-Samajvideo, [Bandikui](https://www.youtube.com/watch?v=dplsz9R1u44): drie bezoeken en Mahayagya in 1974.
+- **HS-UNF** — *Babaji — The Unfathomable* [pdf](https://www.bholebabaji.it/wp-content/uploads/2016/01/Babaji-The-Unfathomable-ebook.pdf): Kathgharia na Delhi en diverse getuigenissen.
+- **HS-ID** — American Haidakhan Samaj, [Who is Babaji?](https://www.americanhaidakhansamaj.org/who-is-babaji): de eigen gelijkstellingsclaim met Mahavatar Babaji.
+- **ANANDA-ID** — Ananda, [Is Haidakhan Baba the Same As Mahavatar Babaji?](https://www.ananda.org/ask/is-haidakhan-baba-the-same-as-mahavatar-babaji/): expliciete afwijzing/twijfel vanuit een andere Yogananda-afsplitsing.
+
+# LOCATIEATLAS
+
+## I. Yogananda–Lahiri–Sri Yukteswar Kriya-lijn
+
+### 1. Noordelijke Himalayarotsen nabij Badrinarayan
+
+- **Plaats/staat:** omgeving Badrinath/Badrinarayan, Uttarakhand
+- **Type:** bergregio / beweerde verblijfzone
+- **Gebeurtenis/periode:** door Yogananda aangeduid als Babaji’s blijvende verblijf; datum onbepaald.
+- **PERSONALLY_PRESENT:** **JA volgens lineage**, maar niet aan één observeerbaar moment gekoppeld
+- **PHYSICAL_IDENTITY:** **ALLEEN_PLAATS**
+- **Bron:** Y33, begin hoofdstuk: “The northern Himalayan crags near Badrinarayan…”; YSS-BIO.
+- **Twijfel/conflict:** geen grot, dal of coördinaat genoemd; niet verwarren met een later gebouwde Badrinath-ashram.
+
+### 2. Drongiri/Dunagiri Mountain — open plek met grotten en Lahiri’s grot
+
+- **Plaats/staat:** Ranikhet/Dunagiri-regio, Almora, Uttarakhand
+- **Type:** berghelling, open plek, grotten
+- **Gebeurtenis/periode:** Babaji ontmoette Lahiri Mahasaya; herinnerde hem aan een vorige incarnatie en initieerde hem; herfst 1861.
+- **PERSONALLY_PRESENT:** **JA** binnen Lahiri’s via Kebalananda en Sri Yukteswar overgeleverde relaas
+- **PHYSICAL_IDENTITY:** **DEELS**
+- **Bron:** Y34, passages vanaf “I continued my vigorous upward climb on Drongiri Mountain” en “Rest he
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=427 path=runs/active/TOP11-INDIAROOD-BLIND-SWEEP-001/BABAJI_INDIAROOD_FREEZE.md blob_sha=463e7822dcbb5af4d404fa4016ffa4b415914abd original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=11 classification=text
+re in this cave”.
+- **Twijfel/conflict:** het primaire relaas identificeert de berg en een grottenveld, niet een moderne afzonderlijke grot. Spelling Drongiri/Dunagiri/Dronagiri varieert.
+
+### 3. Huidige YSS-‘Mahavatar Babaji’s Cave’, Pandukholi voorbij Kukuchina
+
+- **Plaats/staat:** Pandukholi Mountain, voorbij Kukuchina, circa 25 km van Dwarahat, Uttarakhand
+- **Type:** specifieke grot / lineage-pelgrimsplek
+- **Gebeurtenis/periode:** door YSS geïdentificeerd als de 1861-initiatielocatie.
+- **PERSONALLY_PRESENT:** **JA volgens YSS-identificatie**
+- **PHYSICAL_IDENTITY:** **EXACT voor de huidige grot; DEELS voor de historische gelijkstelling**
+- **Bron:** YSS-CAVE, regels “Babaji’s Cave area…” en “on the Pandukholi Mountain beyond…Kukuchina”.
+- **Twijfel/conflict:** Y34 noemt Pandukholi en Kukuchina niet. De historische gelijkstelling is dus een latere lineage-identificatie, niet rechtstreeks uit Lahiri’s geciteerde relaas.
+
+### 4. Rotsige oever van de Gogash/Gagas-rivier
+
+- **Plaats/staat:** Dunagiri-regio, Uttarakhand
+- **Type:** rivierbank
+- **Gebeurtenis/periode:** Lahiri lag op Babaji’s bevel uren op de ijskoude oever vóór de initiatie; 1861. Babaji zelf bleef in de directe ontmoetingszone.
+- **PERSONALLY_PRESENT:** **JA in dezelfde gebeurteniszone**
+- **PHYSICAL_IDENTITY:** **DEELS**
+- **Bron:** Y34: “The chill wavelets of the Gogash River…”; YSS-CAVE noemt stromen die de Gogash voeden.
+- **Twijfel/conflict:** geen exact oeverpunt; hedendaagse naam vaak Gagas.
+
+### 5. Tijdelijk gematerialiseerd ‘gouden paleis’ en tuinen
+
+- **Plaats/staat:** bos in de Dunagiri/Ranikhet-regio, Uttarakhand
+- **Type:** tijdelijk paleis, ontvangsthal en tuin
+- **Gebeurtenis/periode:** Babaji zou het paleis voor Lahiri’s initiatie hebben gematerialiseerd en daarna gedematerialiseerd; 1861.
+- **PERSONALLY_PRESENT:** **JA volgens Y34**
+- **PHYSICAL_IDENTITY:** **ONBEKEND**
+- **Bron:** Y34, vanaf “Yonder light is the glow of a golden palace…”
+- **Twijfel/conflict:** in het relaas per definitie niet meer bestaand; geen exact terrein. Niet gelijkstellen aan een huidig gebouw.
+
+### 6. Huis van een niet-genoemde Bengaalse gastfamilie in Moradabad
+
+- **Plaats/staat:** Moradabad, Uttar Pradesh
+- **Type:** privéwoning / gastenkamer
+- **Gebeurtenis/periode:** Lahiri riep Babaji op; hij verscheen in een verduisterde kamer, werd door zes vrienden aangeraakt en at halwa; kort na 1861.
+- **PERSONALLY_PRESENT:** **JA volgens Lahiri’s relaas; een aanwezige, Maitra, wordt genoemd**
+- **PHYSICAL_IDENTITY:** **ALLEEN_PLAATS**
+- **Bron:** Y34, vanaf “I spent a few days with a Bengali family at Moradabad”.
+- **Host:** naam onbekend; Maitra was getuige, niet noodzakelijk eigenaar.
+- **Twijfel/conflict:** adres en familie-identiteit ontbreken.
+
+### 7. Kumbha Mela-terrein Allahabad — ontmoeting met Lahiri
+
+- **Plaats/staat:** Allahabad/Prayagraj, Uttar Pradesh
+- **Type:** tijdelijk festivalterrein
+- **Gebeurtenis/periode:** Lahiri zag Babaji de voeten en vaat van een asceet wassen; datum na 1861, niet gespecificeerd.
+- **PERSONALLY_PRESENT:** **JA volgens Lahiri’s relaas**
+- **PHYSICAL_IDENTITY:** **ALLEEN_PLAATS**
+- **Bron:** Y34, “The scene was a Kumbha Mela at Allahabad”.
+- **Twijfel/conflict:** niet hetzelfde aantoonbare evenement als de Kumbha van januari 1894.
+
+### 8. Kumbha Mela 1894 — boom nabij een brug aan de Ganges
+
+- **Plaats/staat:** Allahabad/Prayagraj, Uttar Pradesh
+- **Type:** boom/samenkomstplek op tijdelijk mela-terrein
+- **Gebeurtenis/periode:** Babaji ontmoette Priya Nath Karar (Sri Yukteswar), gaf hem de swami-aanspreking, de opdracht *The Holy Science* te schrijven en beloofde Yogananda te sturen; januari 1894.
+- **PERSONALLY_PRESENT:** **JA volgens Sri Yukteswars ooggetuigenrelaas**
+- **PHYSICAL_IDENTITY:** **DEELS**
+- **Bron:** Y36: na “Passing a bridge on the bank of the Ganges” werd hij naar “a tree” geleid.
+- **Twijfel/conflict:** brug, boom en mela-sector zijn niet geïdentificeerd; tijdelijke geografie kan veranderd zijn.
+
+### 9. Dashashwamedh Ghat en Mataji’s
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=428 path=runs/active/TOP11-INDIAROOD-BLIND-SWEEP-001/BABAJI_INDIAROOD_FREEZE.md blob_sha=463e7822dcbb5af4d404fa4016ffa4b415914abd original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=11 classification=text
+ ondergrondse grot
+
+- **Plaats/staat:** Varanasi, Uttar Pradesh
+- **Type:** badghat; verborgen grot onder stenen plaat
+- **Gebeurtenis/periode:** Ram Gopal zag Mataji, Lahiri en Babaji materialiseren; Babaji beloofde zijn lichaam niet af te leggen; datum onbekend, vóór publicatie van Yogananda’s relaas.
+- **PERSONALLY_PRESENT:** **JA volgens Ram Gopals ooggetuigenrelaas**
+- **PHYSICAL_IDENTITY:** **EXACT voor de ghat; ONBEKEND voor de grot**
+- **Bron:** Y33, vanaf “go at once to the Dasasamedh bathing ghat”.
+- **Twijfel/conflict:** de ghat bestaat, maar de ‘huge stone slab’ en grot zijn niet publiek geïdentificeerd.
+
+### 10. Rai Ghat — banyan aan de Hooghly/Ganges
+
+- **Plaats/staat:** Rai Ghat Lane, Serampore, West-Bengalen
+- **Type:** ghat / specifieke banyanboom
+- **Gebeurtenis/periode:** Babaji en enkele discipelen bedankten Sri Yukteswar na voltooiing van *The Holy Science*; kort na 1894.
+- **PERSONALLY_PRESENT:** **JA volgens Sri Yukteswars ooggetuigenrelaas**
+- **PHYSICAL_IDENTITY:** **EXACT volgens YSS; historische boomcontinuïteit niet onafhankelijk gedateerd**
+- **Bron:** Y36, “under the shade of the banyan”; YSS-RAI noemt de huidige grote banyan “a silent witness”.
+- **Twijfel/conflict:** de identificatie van de nog aanwezige boom berust op lineage-overlevering.
+
+### 11. Lahiri Mahasaya’s kleine salon en kamerdrempel
+
+- **Plaats/staat:** Lahiri-familiehuis, Bengali Tola/Varanasi, Uttar Pradesh
+- **Type:** privéwoning, salon en deuropening
+- **Gebeurtenis/periode:** Lahiri liet Sri Yukteswar Babaji bij de kamerdrempel zien; enkele maanden na Rai Ghat, ca. 1894–1895.
+- **PERSONALLY_PRESENT:** **JA volgens Sri Yukteswars relaas**, met een bovennatuurlijk zichtbaar-worden
+- **PHYSICAL_IDENTITY:** **DEELS**
+- **Bron:** Y36: “Did you just meet Babaji at the threshold of my room?”
+- **Host:** Lahiri Mahasaya.
+- **Twijfel/conflict:** openbare adresvermeldingen voor ‘huis’, ‘Satyalok’ en ‘samadhi’ spreken elkaar tegen; daarom geen huisnummer toegewezen.
+
+### 12. 4 Garpar Road — vestibule en kamer van Yogananda
+
+- **Plaats/staat:** 4 Garpar Road, Kolkata, West-Bengalen
+- **Type:** familiehuis / kamer en vestibule
+- **Gebeurtenis/periode:** Babaji klopte, trad binnen en droeg Yogananda op naar Amerika te gaan; 25 juli 1920 volgens latere SRF-datering.
+- **PERSONALLY_PRESENT:** **JA volgens Yogananda’s eigen eerste-persoonsrelaas**
+- **PHYSICAL_IDENTITY:** **EXACT**
+- **Bron:** Y37, “vestibule adjoining the Gurpar Road room”; SRF-GARPAR specificeert 4 Garpar Road.
+- **Host:** familie Ghosh/Yogananda.
+- **Twijfel/conflict:** spelling Gurpar/Garpar; het precieze interieurpunt wordt door de familie/lineage aangewezen.
+
+### 13. Tijdelijke grot van Keshabananda nabij Badrinarayan
+
+- **Plaats/staat:** noordelijke Himalaya nabij Badrinarayan, Uttarakhand
+- **Type:** ruime grot met vuurplaats
+- **Gebeurtenis/periode:** Keshabananda verdwaalde, vond de grot en zag Babaji fysiek verschijnen; waarschijnlijk 1935, “last year” verteld in 1936.
+- **PERSONALLY_PRESENT:** **JA volgens Keshabananda’s ooggetuigenrelaas**
+- **PHYSICAL_IDENTITY:** **ALLEEN_PLAATS**
+- **Bron:** Y42, “Shelter appeared in a spacious cave…” en Babaji noemt het zijn “temporary abode”.
+- **Twijfel/conflict:** niet identificeren met de 1861-grot; de bron doet dat niet.
+
+### 14. Niet-gelokaliseerd Himalayakamp met vedisch vuur
+
+- **Plaats/staat:** Himalaya, India; precieze regio onbekend
+- **Type:** mobiel kamp / vuurplaats
+- **Gebeurtenis/periode:** Babaji sloeg volgens Kebalananda een leerling met een brandend blok om zwaarder karma af te wenden; periode onbekend; Lahiri was aanwezig.
+- **PERSONALLY_PRESENT:** **JA volgens Kebalananda’s overlevering**
+- **PHYSICAL_IDENTITY:** **ONBEKEND**
+- **Bron:** Y33, “disciples were sitting one night around a huge fire”.
+- **Twijfel/conflict:** geen plaatsnaam; alleen behouden als ongelokaliseerde fysieke gebeurtenis.
+
+### 15. Niet-gelokaliseerde rotsrichel en afgrond nabij Babaji’s kamp
+
+- **Plaats/staat:** “forbidding crags”, Himalaya, India
+- *
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=429 path=runs/active/TOP11-INDIAROOD-BLIND-SWEEP-001/BABAJI_INDIAROOD_FREEZE.md blob_sha=463e7822dcbb5af4d404fa4016ffa4b415914abd original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=11 classification=text
+*Type:** bergkamp, richel en afgrond
+- **Gebeurtenis/periode:** een zoeker sprong, werd teruggebracht en volgens het relaas door Babaji tot leven gewekt; periode onbekend.
+- **PERSONALLY_PRESENT:** **JA volgens Kebalananda’s overlevering**
+- **PHYSICAL_IDENTITY:** **ONBEKEND**
+- **Bron:** Y33, “nearly inaccessible ledge near the camp”.
+- **Twijfel/conflict:** mogelijk een van Babaji’s vele mobiele kampen; niet bewijsbaar dezelfde plek als nr. 14.
+
+## II. Hariharananda-overlevering
+
+### 16. Karar Ashram
+
+- **Plaats/staat:** Puri, Odisha
+- **Type:** ashram
+- **Gebeurtenis/periode:** twee “long-cherished visits” aan Brahmachari Rabinarayan/Hariharananda; 1949; opdracht/voorspelling over verbreiding van Kriya Yoga.
+- **PERSONALLY_PRESENT:** **JA volgens Hariharananda-lineage**
+- **PHYSICAL_IDENTITY:** **EXACT voor de ashram; exact vertrek onbekend**
+- **Bron:** KYI-HARI, alinea die begint “After following a strict spiritual practice…”
+- **Host:** Brahmachari Rabinarayan; ashram van Sri Yukteswars lijn.
+- **Twijfel/conflict:** organisatiebiografie, geen onafhankelijk ooggetuigenverslag of afzonderlijke primaire publicatie aangetroffen.
+
+## III. Tamil Babaji-Nagaraj-traditie — afzonderlijk behandeld
+
+Deze traditie identificeert haar Babaji Nagaraj met Yogananda’s Mahavatar. Dat is geen neutraal vastgesteld feit. Haar biografie botst rechtstreeks met YSS-BIO, waarin Yogananda zegt dat geen geboorte- of familiegegevens ooit zijn ontdekt.
+
+### 17. Parangipettai/Porto Novo — geclaimd geboortedorp
+
+- **Plaats/staat:** Parangipettai, Cuddalore District, Tamil Nadu
+- **Type:** dorp / geboorteplaats
+- **Gebeurtenis/periode:** geboorte van Nagaraj op 30 november 203 n.Chr.
+- **PERSONALLY_PRESENT:** **JA binnen Nagaraj-biografie; historisch ONZEKER**
+- **PHYSICAL_IDENTITY:** **ALLEEN_PLAATS**
+- **Bron:** BKOA-BIO en BKOA-NAG.
+- **Twijfel/conflict:** geen contemporaine of vroeg-historische bron; Yogananda’s lijn zegt juist dat geboortegegevens onbekend zijn.
+
+### 18. Voormalige Shiva-tempel, nu Muruga-tempel, Parangipettai
+
+- **Plaats/staat:** Parangipettai, Tamil Nadu
+- **Type:** tempel
+- **Gebeurtenis/periode:** Nagarajs vader zou priester van deze tempel zijn geweest; kindertijd ca. 203–208.
+- **PERSONALLY_PRESENT:** **ONZEKER**
+- **PHYSICAL_IDENTITY:** **DEELS**
+- **Bron:** BKOA-BIO: vader was priester “in the Shiva temple…today…dedicated to Muruga”.
+- **Twijfel/conflict:** de bron bewijst niet expliciet dat Nagaraj zelf in het gebouw was; bouwkundige continuïteit over circa 1.800 jaar is niet aangetoond.
+
+### 19. Babaji Nagaraj Mandir — in 1974 aangewezen geboorteperceel
+
+- **Plaats/staat:** Parangipettai/Porto Novo, Tamil Nadu
+- **Type:** latere schrijn
+- **Gebeurtenis/periode:** Yogi Ramaiah bouwde in 1974 een granieten schrijn “on the birthplace of Babaji”.
+- **PERSONALLY_PRESENT:** **ONZEKER voor het onderliggende geboorteperceel; NEE voor het gebouw uit 1974**
+- **PHYSICAL_IDENTITY:** **EXACT voor de schrijn; ONZEKER voor historische geboorteplek**
+- **Bron:** BKOA-SHRINES.
+- **Twijfel/conflict:** later gebouwde commemoratie is geen zelfstandig bewijs van aanwezigheid.
+
+### 20. Calcutta óf Dacca — ontvoering/slavernij
+
+- **Plaats/staat:** Kolkata, West-Bengalen **of** Dhaka/Dacca, tegenwoordig Bangladesh
+- **Type:** stad; woning/markt onbekend
+- **Gebeurtenis/periode:** op vijfjarige leeftijd ontvoerd, verkocht en vrijgelaten; ca. 208 n.Chr.
+- **PERSONALLY_PRESENT:** **ONZEKER**
+- **PHYSICAL_IDENTITY:** **ALLEEN_PLAATS**
+- **Bron:** BKOA-BIO zegt “what is today Calcutta”; BKOA-NAG zegt “taken north to Dacca”.
+- **Twijfel/conflict:** harde interne tegenspraak; Dacca valt buiten India. Geen adres of locatiecategorie binnen de stad bekend.
+
+### 21. Benares/Kashi — geclaimde Sanskritstudie
+
+- **Plaats/staat:** Varanasi, Uttar Pradesh
+- **Type:** stad; school/ashram onbekend
+- **Gebeurtenis/periode:** Nagaraj zou er als Sanskritgeleerde hebben verbleven; jeugd, datum onbekend.
+- **PERSONALLY_PRESENT:** **ONZEKER**
+- **PHYSICAL_IDENTITY:** **ALLEEN_PLAATS**
+- **Bron:** BKOA-NAG;
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=430 path=runs/active/TOP11-INDIAROOD-BLIND-SWEEP-001/BABAJI_INDIAROOD_FREEZE.md blob_sha=463e7822dcbb5af4d404fa4016ffa4b415914abd original_offset=20480 original_length=4096 payload_bytes=4096 chunk_index=5 chunk_count=11 classification=text
+ de kortere BKOA-BIO-versie laat Benares weg.
+- **Twijfel/conflict:** geen gebouw, leraar of primaire vindplaats.
+
+### 22. Courtrallam/Kutralam — tapas en ontmoeting met Agastyar
+
+- **Plaats/staat:** Courtallam/Kutralam, Tenkasi District, Tamil Nadu
+- **Type:** heilig landschapsgebied; precieze grot/waterval/plek onbekend
+- **Gebeurtenis/periode:** op circa vijftienjarige leeftijd 48 dagen intensieve beoefening; Agastyar verscheen en initieerde hem.
+- **PERSONALLY_PRESENT:** **JA binnen Nagaraj-biografie; historisch ONZEKER**
+- **PHYSICAL_IDENTITY:** **ALLEEN_PLAATS**
+- **Bron:** BKOA-BIO.
+- **Twijfel/conflict:** geen exacte fysieke plek genoemd; moderne “Agastyar”-locaties mogen niet zonder bewijs worden ingevuld.
+
+### 23. Niet-geïdentificeerde grot bij Badrinath
+
+- **Plaats/staat:** Badrinath-regio, Uttarakhand
+- **Type:** grot
+- **Gebeurtenis/periode:** Nagaraj leefde er achttien maanden en bereikte volgens de traditie siddha/soruba-samadhi; ca. 219–220 n.Chr.
+- **PERSONALLY_PRESENT:** **JA binnen Nagaraj-biografie; historisch ONZEKER**
+- **PHYSICAL_IDENTITY:** **ALLEEN_PLAATS**
+- **Bron:** BKOA-BIO.
+- **Twijfel/conflict:** niet bewezen dezelfde grot als YSS-Pandukholi of Santopanth; die liggen ook niet zonder meer op dezelfde plek.
+
+### 24. 2 Arulananda Mudali Street (nu Arulandam Street), San Thome
+
+- **Plaats/staat:** Mylapore/Chennai, Tamil Nadu
+- **Type:** privéwoning / later Ramaiah-ashram
+- **Gebeurtenis/periode:** Ramaiah woonde hier tijdens zijn ziekte; latere traditie plaatst een volledige verschijning van Babaji aan Ramaiah/Neelakantan in dit huis op 26 juli 1952.
+- **PERSONALLY_PRESENT:** **ONZEKER**
+- **PHYSICAL_IDENTITY:** **EXACT voor het huisadres; gebeurtenisruimte niet vastgesteld**
+- **Bron:** BKOA-RAM-HOUSE bevestigt het adres; BKOA-BIO zegt algemeen dat Babaji aan Ramaiah en Neelakantan verscheen. De precieze datum/huiscombinatie werd alleen in een latere secundaire reconstructie gevonden.
+- **Host:** S.A.A. Ramaiah.
+- **Twijfel/conflict:** geen rechtstreeks openbaar primaire passage gevonden die zowel de fysieke verschijning als dit adres samen bevestigt.
+
+### 25. Puja-kamer van V.T. Neelakantan, 9 Surammal Lane, Egmore
+
+- **Plaats/staat:** Chennai (toen Madras), Tamil Nadu
+- **Type:** privéwoning / puja-kamer
+- **Gebeurtenis/periode:** Babaji zou zich meerdere keren fysiek hebben gematerialiseerd en drie boeken hebben gedicteerd; 1952–1953.
+- **PERSONALLY_PRESENT:** **JA volgens deze lineage**
+- **PHYSICAL_IDENTITY:** **EXACT**
+- **Bron:** BKOA-KAT: “materialized in physical form on several occasions in the puja room…No. 9, Surammal Lane”.
+- **Host:** V.T. Neelakantan.
+- **Twijfel/conflict:** dit is een terugblikkend lineage-artikel; onafhankelijke bevestiging van de materialisaties ontbreekt.
+
+### 26. Grot bij Santopanth Tal
+
+- **Plaats/staat:** Santopanth Tal, circa 30 km noord van Badrinath, Uttarakhand
+- **Type:** gletsjermeer en grot
+- **Gebeurtenis/periode:** Babaji verscheen volgens Ramaiahs traditie lichamelijk na drie dagen zoeken en onderwees hem maandenlang in 144 kriya’s; 1954–1955.
+- **PERSONALLY_PRESENT:** **JA volgens Ramaiah-lineage**
+- **PHYSICAL_IDENTITY:** **DEELS**
+- **Bron:** BKOA-RAM.
+- **Twijfel/conflict:** “his cave beside the glacial lake” wordt niet eenduidig gekoppeld aan een van de huidige zichtbare grotten.
+
+### 27. Santopanth/brongebied van de Alaknanda — Govindans darshan
+
+- **Plaats/staat:** circa 30 km noord van Badrinath, nabij Santopanth Tal/Alaknanda-bron, Uttarakhand
+- **Type:** hooggebergte, meer- en brongebied
+- **Gebeurtenis/periode:** twee darshans aan Marshall Govindan; oktober 1999.
+- **PERSONALLY_PRESENT:** **ONZEKER** — de eigen bron noemt dit expliciet het **“vital plane”**
+- **PHYSICAL_IDENTITY:** **DEELS**
+- **Bron:** BKOA-DARSHAN; BKOA-BIO.
+- **Twijfel/conflict:** niet als gewone lichamelijke ontmoeting coderen, ondanks beschrijving van aanraking van voeten.
+
+### 28. Kumaon Hills — verschijning aan Swami Satyaswarananda
+
+- **Plaats/staat:** Kumaon, Uttarakhand
+- **Type:** bergregio
+- **Gebeurtenis/periode:** Ba
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=431 path=runs/active/TOP11-INDIAROOD-BLIND-SWEEP-001/BABAJI_INDIAROOD_FREEZE.md blob_sha=463e7822dcbb5af4d404fa4016ffa4b415914abd original_offset=24576 original_length=4096 payload_bytes=4096 chunk_index=6 chunk_count=11 classification=text
+baji zou opdracht hebben gegeven Lahiri’s geschriften te vertalen/publiceren; vroege jaren 1970.
+- **PERSONALLY_PRESENT:** **ONZEKER**
+- **PHYSICAL_IDENTITY:** **ALLEEN_PLAATS**
+- **Bron:** BKOA-BIO.
+- **Twijfel/conflict:** geen dorp, ashram of getuigenpassage; mogelijk overlappend met andere Kumaonclaims maar niet bewijsbaar dezelfde plek.
+
+## IV. Hansavedas/Tryambaknath-claim — afzonderlijk behandeld
+
+Hansavedas noemt Tryambaknath “popularly known as Mahavatar Babaji”. Dit is een eigen moderne identificatietraditie en mag niet automatisch met Yogananda’s, Nagarajs of Haidakhans figuur worden samengevoegd.
+
+### 29. Gauri Shankara Pitha nabij Keshav Prayag
+
+- **Plaats/staat:** nabij de samenvloeiing van Alaknanda en Saraswati, noord van Mana/Badrinath, Uttarakhand
+- **Type:** beweerd verborgen natuurlijk siddha-enclave / pitha
+- **Gebeurtenis/periode:** primaire verblijfplaats van Tryambaknath tot zijn aangekondigde vertrek in 2015.
+- **PERSONALLY_PRESENT:** **JA binnen Hansavedas-claim; historisch ONZEKER**
+- **PHYSICAL_IDENTITY:** **DEELS/ONBEKEND**
+- **Bron:** HANSAVEDAS, regels 38–43.
+- **Twijfel/conflict:** bron zegt zelf dat de enclave door “energy barriers” verborgen bleef; er is dus geen publiek verifieerbaar gebouw of terreinbegrenzing.
+
+### 30. Dunagiri Harapriya Devi-tempel — omgeving
+
+- **Plaats/staat:** Dunagiri, Uttarakhand
+- **Type:** tempelomgeving / berggebied
+- **Gebeurtenis/periode:** Hansavedas situeert Tryambaknaths onderricht aan Lahiri in de jaren 1860 “near the Dunagiri Harapriya Devi Temple”.
+- **PERSONALLY_PRESENT:** **JA binnen Hansavedas-claim**
+- **PHYSICAL_IDENTITY:** **DEELS**
+- **Bron:** HANSAVEDAS, regels 75–76.
+- **Twijfel/conflict:** alternatieve fijnlokalisering van hetzelfde 1861-verhaal; Y34 noemt deze tempel niet en YSS wijst de Pandukholi-grot aan.
+
+### 31. Shivalik Mountains — niet-gespecificeerde siddha-centra
+
+- **Plaats/staat:** noordelijk India; meerdere staten mogelijk
+- **Type:** bergketen / niet-gelokaliseerde enclaves
+- **Gebeurtenis/periode:** Tryambaknath zou verschillende siddhashrama-centra geregeld hebben bezocht; vóór 2015.
+- **PERSONALLY_PRESENT:** **ONZEKER**
+- **PHYSICAL_IDENTITY:** **ALLEEN_PLAATS**
+- **Bron:** HANSAVEDAS, regel 39.
+- **Twijfel/conflict:** te vaag voor afzonderlijke fysieke punten; bewaard als regionale unresolved lead.
+
+## V. Haidakhan-traditie — aanwezigheid van Haidakhan Baba versus identiteit
+
+De volgende locaties documenteren grotendeels de publiek geziene Haidakhan Baba/Bhole Baba (1970–1984). Zijn eigen organisaties stellen hem gelijk aan Shiva Mahavatar Babaji (HS-ID); Ananda en andere Kriya-volgelingen betwijfelen die gelijkstelling (ANANDA-ID). Ook zijn dood/begrafenis in 1984 staat op gespannen voet met Yogananda’s belofte dat Babaji zijn lichaam niet zal afleggen. Daarom blijft de **Mahavatar-identiteit overal ONZEKER**, ook waar Haidakhan Baba’s lichamelijke aanwezigheid sterk is.
+
+### 32. Historische grot van Haidakhan
+
+- **Plaats/staat:** Haidakhan, district Nainital, Uttarakhand
+- **Type:** grot
+- **Gebeurtenis/periode:** verschijning/materialisatie als jongeman; juni 1970.
+- **PERSONALLY_PRESENT:** **JA (Haidakhan Baba) / ONZEKER (Mahavatar-identiteit)**
+- **PHYSICAL_IDENTITY:** **EXACT volgens Samaj**
+- **Bron:** HS-ABOUT; HS-ASHRAMS.
+- **Twijfel/conflict:** niet verwarren met de Dunagiri/Pandukholi-grot uit de Lahiri-lijn.
+
+### 33. Kleine tempel op de top van Kumaon Mount Kailash/Adi Kailash bij Haidakhan
+
+- **Plaats/staat:** boven Haidakhan, Uttarakhand
+- **Type:** bergtoptempel
+- **Gebeurtenis/periode:** 45 dagen onafgebroken meditatie; september–oktober 1970.
+- **PERSONALLY_PRESENT:** **JA (Haidakhan Baba) / ONZEKER (Mahavatar-identiteit)**
+- **PHYSICAL_IDENTITY:** **EXACT volgens Samaj**
+- **Bron:** HS-ABOUT.
+- **Twijfel/conflict:** dit lokale Kumaon Mount Kailash is niet de Tibetaanse berg Kailash.
+
+### 34. Haidakhan Vishwa Mahadham / negen tempels aan de Gautami Ganga
+
+- **Plaats/staat:** P.O. Haidakhan, district Nainital, Uttarakhand
+- **Type:** ashram- en tempelcomplex
+- **Gebeurten
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=432 path=runs/active/TOP11-INDIAROOD-BLIND-SWEEP-001/BABAJI_INDIAROOD_FREEZE.md blob_sha=463e7822dcbb5af4d404fa4016ffa4b415914abd original_offset=28672 original_length=4096 payload_bytes=4096 chunk_index=7 chunk_count=11 classification=text
+is/periode:** hoofdverblijf gedurende het grootste deel van 1970–1984; bouw van ashram en negen tempels; overlijden/mahasamadhi en begrafenis op 14 februari 1984.
+- **PERSONALLY_PRESENT:** **JA (Haidakhan Baba) / ONZEKER (Mahavatar-identiteit)**
+- **PHYSICAL_IDENTITY:** **EXACT**
+- **Bron:** HS-ASHRAMS; HS-ABOUT.
+- **Twijfel/conflict:** hoofdtempel wordt aan “Old Haidakhan Baba” toegeschreven; huidige bebouwing omvat meerdere bouwfasen.
+
+### 35. Maha Shakti Dhuni, Haidakhan
+
+- **Plaats/staat:** binnen Haidakhan Vishwa Mahadham, Uttarakhand
+- **Type:** heilige vuurplaats/dhuni
+- **Gebeurtenis/periode:** door Haidakhan Baba eigenhandig gebouwd en in augustus 1983 ingewijd volgens de traditie.
+- **PERSONALLY_PRESENT:** **JA (Haidakhan Baba) / ONZEKER (Mahavatar-identiteit)**
+- **PHYSICAL_IDENTITY:** **EXACT binnen complex**
+- **Bron:** officiële/gelieerde Haidakhan-ashrambeschrijvingen; context HS-ASHRAMS en HS-ID.
+- **Twijfel/conflict:** sublocatie van nr. 34, apart behouden omdat het een eigen concreet bouwwerk met eigen gebeurtenis is.
+
+### 36. Anandpuri Ashram en tempel, Chilianaula
+
+- **Plaats/staat:** Chilianaula bij Ranikhet, district Almora, Uttarakhand
+- **Type:** ashram en tempel
+- **Gebeurtenis/periode:** door Haidakhan Baba geïnitieerd/gebouwd in de late jaren 1970.
+- **PERSONALLY_PRESENT:** **JA (Haidakhan Baba) / ONZEKER (Mahavatar-identiteit)**
+- **PHYSICAL_IDENTITY:** **EXACT**
+- **Bron:** HS-ABOUT; HS-ASHRAMS.
+- **Twijfel/conflict:** niet de 1861-Dunagiri-grot, ondanks nabijheid van Ranikhet.
+
+### 37. Kathgharia Ashram
+
+- **Plaats/staat:** circa drie mijl buiten Haldwani, Uttarakhand
+- **Type:** ashram en tempel
+- **Gebeurtenis/periode:** Muniraj ontmoette hem hier voor het eerst in lichamelijke vorm; Babaji bezocht de ashram in 1971 na enkele dagen in Delhi.
+- **PERSONALLY_PRESENT:** **JA (Haidakhan Baba) / ONZEKER (Mahavatar-identiteit)**
+- **PHYSICAL_IDENTITY:** **EXACT**
+- **Bron:** HS-MUNIRAJ; HS-UNF.
+- **Twijfel/conflict:** tempel bestond al sinds 1957/1958; een eerdere lichtverschijning bij installatie is geen gewone lichamelijke aanwezigheid.
+
+### 38. Rechtbank van Haldwani
+
+- **Plaats/staat:** Haldwani, Uttarakhand
+- **Type:** gerechtsgebouw
+- **Gebeurtenis/periode:** gezworen verklaring over identiteit als Old Haidakhan Baba en gebruiksrecht van Kathgharia/Haidakhan-ashrams; september 1971.
+- **PERSONALLY_PRESENT:** **JA (Haidakhan Baba) volgens latere verslagen / ONZEKER (Mahavatar-identiteit)**
+- **PHYSICAL_IDENTITY:** **ALLEEN_PLAATS**
+- **Bron:** samenvatting in de Haidakhan-literatuur; de openbare primaire rechtbankakte werd niet gevonden.
+- **Twijfel/conflict:** exact gerechtsgebouw, zaaknummer en akte moeten primair worden gecontroleerd.
+
+### 39. Militair ziekenhuis Allahabad
+
+- **Plaats/staat:** Allahabad/Prayagraj, Uttar Pradesh
+- **Type:** militair ziekenhuis; afdeling/gebouw onbekend
+- **Gebeurtenis/periode:** Muniraj zag Babaji de nacht vóór een operatie; 1960; herkende hem pas later.
+- **PERSONALLY_PRESENT:** **ONZEKER** — darshan/verschijning, vóór de publieke 1970-manifestatie
+- **PHYSICAL_IDENTITY:** **DEELS**
+- **Bron:** HS-MUNIRAJ.
+- **Twijfel/conflict:** geen ziekenhuisnaam en geen bevestiging dat dit lichamelijk in plaats van visionair was.
+
+### 40. Samb Sadashiv Kunj, Vrindavan
+
+- **Plaats/staat:** nabij Gopeshwar Mahadev Temple, Vrindavan, Uttar Pradesh
+- **Type:** ashram/tempel
+- **Gebeurtenis/periode:** op 25 februari 1971 naar deze ashram gebracht; Shastriji noemt Vrindavan naast Haidakhan een van zijn twee hoofdverblijven; frequente bezoeken tot 1984.
+- **PERSONALLY_PRESENT:** **JA (Haidakhan Baba) / ONZEKER (Mahavatar-identiteit)**
+- **PHYSICAL_IDENTITY:** **EXACT**
+- **Bron:** HS-SHASTRI; aanvullend getuigenis op de HUA-pagina’s.
+- **Twijfel/conflict:** “Vrindaban” kan in losse teksten zowel de stad als dit specifieke complex betekenen; hier alleen exact waar de ashram expliciet wordt genoemd.
+
+### 41. Gwalior — niet-geïdentificeerde verblijf-/darshanplek
+
+- **Plaats/staat:** Gwalior, Madhya Pradesh
+- **Type:** stad; mogelijk Babaji-ashram/tempel,
+<<< END CHUNK >>>
+

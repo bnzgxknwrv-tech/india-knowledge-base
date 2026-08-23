@@ -1,0 +1,388 @@
+>>> CHUNK stream_row=1571 path=research/active/VARANASI-COMPLETE-001/GOUD/MARK_FINAL_REPORT.md blob_sha=430216ba6c7ae3f3a539cb91e9d977d4bb47de15 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=5 classification=text
+ghat en Shiva-pelgrimsplek. Geen indringende fotografie; afstand houden van families en rituelen.
+- `VNS-CAND-007` — **Shri Kashi Vishwanath Temple**: formeel A. Belangrijkste Shiva-jyotirlingatempel van Kashi. Officiële darshan- en buitenlandse procedure bestaan; speciale dagen en voorwaarden blijven tijdgevoelig.
+- `VNS-CAND-009` — **Dashashwamedh Ghat**: grote aarti- en rituele ghat. Zeer drukte- en festivalgevoelig; geen nieuwe formele status.
+- `VNS-CAND-011` — **Panchganga Ghat**: historische rituele ghat en onderdeel van het Trailanga/Bindu Madhav-cluster.
+- `VNS-CAND-012` — **Harishchandra Ghat**: actieve crematieghat. Dezelfde strikte respect- en fotografieregels als Manikarnika.
+- `VNS-CAND-013` — **Kaal Bhairav Temple**: tempel van de traditionele bewaker van Kashi.
+- `VNS-CAND-014` — **Maa Annapurna Temple**: tempel van de godin van voedsel nabij Vishwanath; actuele voedseluitdeling en toegang niet vastgesteld.
+- `VNS-CAND-017` — **Vishalakshi Gauri Temple**: Shakti-tempel in het Vishwanath-cluster.
+- `VNS-CAND-018` — **Sankatha Devi Temple**: beschermingstempel bij Scindia Ghat.
+- `VNS-CAND-020` — **Lalita Ghat**: rituele ghat en toegangsomgeving van Vishwanath Dham.
+- `VNS-CAND-021` — **Nepali Temple / Kathwala Temple**: Shiva-tempel in Nepalese stijl bij Lalita Ghat.
+- `VNS-CAND-022` — **Bindu Madhav Temple**: Vishnu-tempel in het Panchganga-cluster.
+- `VNS-CAND-023` — **Mrityunjay Mahadev Temple**: Shiva-tempel voor bescherming en genezing.
+- `VNS-CAND-038` — **Ratneshwar Mahadev Temple**: scheve Shiva-tempel bij Manikarnika; bezoekbaarheid afhankelijk van waterstand en lokale omstandigheden.
+- `VNS-CAND-039` — **Shitala Mata Temple, Dashashwamedh**: Shakti-tempel in hetzelfde rituele cluster als Dashashwamedh.
+
+### Trailanga, Anandamayi, Ramakrishna en Aghor
+
+- `VNS-CAND-004` — **Shri Tailanga Swami Math**: formeel A. Samadhi-math bij Panchganga. Werkadres bruikbaar; huidige beheerder en toegang rechtstreeks bevestigen.
+- `VNS-CAND-005` — **Shree Shree Ma Anandamayi Ashram, Bhadaini**: formeel A. Huidige institutionele contactvermelding bevestigd; programma en gasttoegang vooraf vragen.
+- `VNS-CAND-026` — **Ramakrishna Mission Home of Service**: actieve seva-, ziekenhuis- en reliefinstelling. Geen gewone toeristische tempelstop; zorgfunctie respecteren.
+- `VNS-CAND-027` — **Baba Keenaram Sthal / Krim Kund**: actieve Aghor-hoofdzetel met dhuni en sacred-ash-praktijk. Deelname alleen met lokale toestemming.
+- `VNS-CAND-028` — **Bhaskarananda Samadhi / Anand Bagh**: historische Bhaskarananda-relatie bevestigd. Huidige samadhi, beheer, toegang en exacte microplek niet vastgesteld.
+
+### Kabir
+
+- `VNS-CAND-024` — **Kabir Chaura Math**: fysieke herinneringsplek en levende Kabir-traditie bevestigd. Een overheidsbron noemt 05:00–20:00; vóór bezoek opnieuw controleren.
+- `VNS-CAND-025` — **Lahartara Kabir birthplace memorial**: Kabir-geboortetraditiezone. Alleen een approximate lokaal werkpunt; exacte microplek en actuele bezoekbaarheid niet vastgesteld.
+
+### Zuid-Varanasi en ghats
+
+- `VNS-CAND-010` — **Assi Ghat**: ochtend- en avondghat met levende rituele praktijk; drukte en evenementen actueel controleren.
+- `VNS-CAND-015` — **Sankat Mochan Hanuman Temple**: belangrijke Hanuman-tempel; toegang, fotografie en drukte ter plaatse controleren.
+- `VNS-CAND-016` — **Durga Temple and Durga Kund**: Shakti-tempel met heilige vijver.
+- `VNS-CAND-019` — **Kedareshwar Temple and Kedar Ghat**: Shiva-tempel en ghat in het zuidelijke riviercluster.
+- `VNS-CAND-035` — **Tulsi Manas Temple**: Rama-tempel en Tulsidas-herinneringsplek.
+- `VNS-CAND-036` — **Tulsi Ghat**: Tulsidas- en levende akhara/ghattraditie.
+- `VNS-CAND-037` — **Lolark Kund**: zon- en vruchtbaarheidskund; festivaltoegang kan zeer druk en beperkt zijn.
+
+### Sarnath
+
+- `VNS-CAND-006` — **Sarnath sacred complex**: formeel A. Overkoepelend boeddhistisch heilig en archeologisch complex.
+- `VNS-CAND-029` — **Dhamek Stupa**: fysieke stupa van de eerste-leerrede-traditie.
+- `VNS-CAND-030` — **Mulagandh
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1572 path=research/active/VARANASI-COMPLETE-001/GOUD/MARK_FINAL_REPORT.md blob_sha=430216ba6c7ae3f3a539cb91e9d977d4bb47de15 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=5 classification=text
+a Kuti Vihara**: actieve boeddhistische vihara; rituele toegang en tijden vooraf controleren.
+- `VNS-CAND-031` — **Chaukhandi Stupa**: afzonderlijk boeddhistisch monument.
+- `VNS-CAND-032` — **Sarnath Archaeological Museum**: museum met Ashoka- en boeddhistische objecten; opening en sluitingsdag actueel controleren.
+- `VNS-CAND-033` — **Deer Park / Isipatana sacred landscape**: heilig landschap rond de eerste leerrede-traditie.
+- `VNS-CAND-034` — **Saranganath Temple**: lokale Shiva-tempel in Sarnath.
+
+### Overige stedelijke context
+
+- `VNS-CAND-040` — **Bharat Mata Temple**: civiele tempel met reliëfkaart van India; contextlocatie zonder formele status.
+
+## 6. Afgevallen of contextlocaties
+
+Geen van de 40 kandidaten is stil verwijderd. De volgende twee blijven inhoudelijk beperkt en zijn geen betrouwbare routebepalende bestemming op basis van dit dossier:
+
+- `VNS-CAND-025` Lahartara: traditiezone zonder bevestigde microplek;
+- `VNS-CAND-028` Bhaskarananda/Anand Bagh: historische relatie zonder bevestigde actuele samadhi-/beheeridentiteit.
+
+Het exacte huidige fysieke punt van de eerste ontmoeting tussen Yogananda en Sri Yukteswar is niet vastgesteld en is daarom niet als kandidaat toegevoegd.
+
+De overige niet-formele kandidaten blijven context- of clusterinputs. Overslaan daarvan is geen door GOUD genomen beslissing.
+
+## 7. Route, kaart en praktische GEO
+
+`geo_locations.jsonl` bevat 40 records. Omdat alleen SUBREGIE INDIA nieuwe permanente IDs mag uitgeven, staan `location_id` en `place_id` voor deze kandidaten op `null`. De kandidaat-ID’s en coördinaten bieden wel een stabiele technische koppeling.
+
+`geo_connections.jsonl` bevat 15 clusterrelaties. De afstanden zijn rechte-lijnafstanden vanaf de werkpunten. Zij dienen alleen om clusters te controleren. Reistijden, wegafstanden en bezoekvolgorde zijn niet vastgesteld.
+
+Belangrijke clusters voor latere planning:
+
+- Lahiri Samadhi–Lahiri-huis;
+- Manikarnika–Kashi Vishwanath–Annapurna–Lalita;
+- Trailanga Math–Panchganga–Bindu Madhav;
+- Anandamayi Bhadaini–Assi–Lolark;
+- Sankat Mochan–Durga Kund–Tulsi;
+- Kabir Chaura–Lahartara;
+- Sarnath-complex–Dhamek–Mulagandha–Chaukhandi–museum.
+
+Kaartartifact:
+`research/active/VARANASI-COMPLETE-001/GOUD/INDIA_ALL_FORMAL_A_B_WORKING.kml`
+
+De KML bevat exact:
+
+- `A_FORMEEL`: 28 groene markers;
+- `B_FORMEEL`: 2 oranje markers;
+- totaal: 30 markers;
+- geen C, routes, stations, bases of hotels.
+
+WORKING_GEO betekent: bruikbaar voor herkenning en clusterplanning, niet automatisch de exacte bezoekersingang.
+
+## 8. Wat ZILVER en GOUD hebben gewijzigd
+
+- generieke Google Maps-zoeklinks zijn niet langer dragend bewijs voor tientallen fysieke identiteiten;
+- Lahartara is teruggebracht tot een approximate traditiezone;
+- Bhaskarananda/Anand Bagh is teruggebracht tot een historische relatie met niet-vastgestelde huidige microplek en beheer;
+- Lahiri Samadhi/Satyalok, Lahiri-huis en Trailanga Math zijn expliciet als werkobjecten met beheer-/toegangslimiet vastgelegd;
+- praktische onzekerheid is gescheiden van spirituele, historische en lineagebetekenis;
+- nabijheid gebruikt alleen rechte-lijnafstanden, zonder verzonnen routeafstand of reistijd;
+- beeld- en reviewtekorten zijn niet kunstmatig gevuld;
+- twee reeds bestaande canonieke Braj-records kregen gevalideerde WORKING_GEO en provenance, zonder status- of decisionwijziging.
+
+## 9. Open punten
+
+1. **Lahartara en Bhaskarananda/Anand Bagh** — exacte microplek, beheer, toegang en GEO ontbreken. Gevolg: alleen als traditioneel/historisch contextpunt gebruiken totdat lokale bevestiging bestaat.
+2. **Lahiri Samadhi/Satyalok, Lahiri-huis en Trailanga Math** — huidige beheerder, toegang en ingang rechtstreeks bevestigen. Gevolg: kaartbaar maar geen bezoekgarantie.
+3. **Beelden** — geen enkele kandidaat heeft een volledige tien-functionele set. Gevolg: geen definitief visueel sfeer- of kwaliteitsbeeld.
+4. **Reviews** — geen systematische recente multi-platform analyse. Gevolg: geen betrouwbare algemene uitspraak over rust, netheid, drukte of gastvrijheid.
+5
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1573 path=research/active/VARANASI-COMPLETE-001/GOUD/MARK_FINAL_REPORT.md blob_sha=430216ba6c7ae3f3a539cb91e9d977d4bb47de15 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=5 classification=text
+. **Praktische actualiteit** — opening, fotografie, kleding, buitenlandse toegang, rituelen, festivals en drukte zijn tijdgevoelig. Gevolg: kort vóór vertrek controleren.
+
+## 10. Aanbevolen vervolgstap
+
+`CONTROLE_VOOR_VERTREK`
+
+Exacte eerstvolgende handeling: voer vlak vóór de reis één gerichte praktische controle uit voor de gekozen bezoeksubset. Controleer opening, buitenlandse toegang, fotografie, lokale contactpersonen, festivaldata en tijdelijke drukte. Neem voor Lahiri Samadhi/Satyalok, het Lahiri-huis, Trailanga Math, Lahartara en Bhaskarananda rechtstreeks lokaal contact op of verifieer ter plaatse.
+
+Een nieuwe brede Varanasi-sweep is niet nodig. Wanneer de 40 kandidaten later canoniek moeten worden geregistreerd, moet SUBREGIE INDIA eerst de permanente place-ID’s reserveren.
+
+Wanneer Mark nu niets doet, blijft het dossier bruikbaar als onderzoeks- en kaartbasis maar niet als dagactuele bezoekgarantie.
+
+## 11. Canonieke integratie
+
+- integratievoorstelpad: `research/active/VARANASI-COMPLETE-001/GOUD/CANONICAL_INTEGRATION_PROPOSAL.md`
+- registry bijgewerkt: `JA`
+- decisions-index bijgewerkt: `NEE`
+- integration commit: `8f23111b8d9810e9673d7853619b21ce15f57a4c`
+- bestaande A/B/C-statussen ongewijzigd: `JA`
+- nieuwe decision-ID aangemaakt: `NEE`
+- nieuwe permanente place-ID of LOCATION_ID: `NEE`
+- niet-toegepaste wijziging wegens Markbesluit: `NONE`
+
+De twee bijgewerkte bestaande records zijn Katyayani Peeth / Keshav Ashram en Neem Karoli Baba Ashram and Samadhi, Vrindavan. Alleen coördinaten, nauwkeurigheid, controledatum en provenance zijn aangevuld.
+
+## 12. Bron- en bewijsstatus
+
+- accepted bronnen: 25;
+- rejected bronnen: 7;
+- alle claim-sourceverwijzingen resolveerbaar en uniek;
+- sterke bronnen: officiële tempeltrust, YSS, Anandamayi Sangha, Ramakrishna Mission, Aghor-lijn, district Varanasi, UNESCO en nationale toerismebronnen;
+- secundaire werkbronnen zijn uitsluitend gebruikt voor adressen en beperkte bezoekersleads;
+- lineage, traditie, historie, praktische toegang, beelden en reviews zijn afzonderlijk beoordeeld;
+- beeld- en reviewbasis blijft zwak maar zichtbaar.
+
+## 13. Technische eindcontrole
+
+- BRONS geldig afgerond: `JA`
+- BRONS-workerclaim gesloten: `JA`
+- BRONS -> ZILVER-transition geldig: `JA`
+- BRONS -> ZILVER-controllerclaim gesloten: `JA`
+- ZILVER geldig afgerond: `JA`
+- ZILVER-workerclaim gesloten: `JA`
+- ZILVER -> GOUD-transition geldig: `JA`
+- ZILVER -> GOUD-controllerclaim gesloten: `JA`
+- GOUD geldig afgerond: `JA`
+- GOUD-workerclaim gesloten: `JA — IN DEZELFDE COMPLETIONCOMMIT`
+- contextmanifesten gepind: `JA`
+- required artifacts compleet: `JA`
+- source-ID’s resolveerbaar: `JA`
+- state/events synchroon: `JA`
+- canonieke syntax/readback geldig: `JA`
+- finale readback geslaagd: `JA`
+- chattekst gelijk aan gecommitte rapport: `JA`
+
+## 14. Geschreven eindproducten
+
+- hoofdrapport: `research/active/VARANASI-COMPLETE-001/GOUD/MARK_FINAL_REPORT.md`
+- beslissing: `research/active/VARANASI-COMPLETE-001/GOUD/decision.md`
+- beslisinputs: `research/active/VARANASI-COMPLETE-001/GOUD/decision_inputs.md`
+- kandidaten: `research/active/VARANASI-COMPLETE-001/GOUD/candidates.jsonl`
+- GEO-locaties: `research/active/VARANASI-COMPLETE-001/GOUD/geo_locations.jsonl`
+- GEO-verbindingen: `research/active/VARANASI-COMPLETE-001/GOUD/geo_connections.jsonl`
+- nummeringsaudit: `research/active/VARANASI-COMPLETE-001/GOUD/location_id_audit.md`
+- kaart/KML: `research/active/VARANASI-COMPLETE-001/GOUD/INDIA_ALL_FORMAL_A_B_WORKING.kml`
+- claims en bronnen: `research/active/VARANASI-COMPLETE-001/GOUD/claims.jsonl`, `sources/registry.jsonl`, `sources/rejected.jsonl`
+- technische audit: `research/active/VARANASI-COMPLETE-001/GOUD/audit.md`
+- canoniek integratievoorstel: `research/active/VARANASI-COMPLETE-001/GOUD/CANONICAL_INTEGRATION_PROPOSAL.md`
+- canonieke integratiecommit: `8f23111b8d9810e9673d7853619b21ce15f57a4c`
+- completioncommit: `THIS_ATOMIC_COMMIT`
+
+## 15. Blockers
+
+`NONE`
+
+De genoemde open punten zijn niet-fataal en veroorzaken de status `PARTIAL`.
+
+## 16. Definitieve afsluiting
+
+Bewaar dit dossi
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1574 path=research/active/VARANASI-COMPLETE-001/GOUD/MARK_FINAL_REPORT.md blob_sha=430216ba6c7ae3f3a539cb91e9d977d4bb47de15 original_offset=16384 original_length=561 payload_bytes=561 chunk_index=4 chunk_count=5 classification=text
+er als definitieve Varanasi/Sarnath-onderzoeksbasis. Er is geen nieuwe brede sweep en geen inhoudelijke keuze van Mark nodig. Controleer alleen de praktische bezoekvoorwaarden vlak vóór vertrek. Laat permanente place-ID’s later uitsluitend door SUBREGIE INDIA reserveren wanneer canonieke registratie gewenst is.
+
+ROUTERING: VOOR_MARK
+VOLGENDE ACTIE VOOR MARK: Bewaar dit rapport als definitieve Varanasi/Sarnath-basis en plan vlak vóór vertrek één praktische toegangscontrole voor de uiteindelijk gekozen locaties.
+DOORSTUURTEKST: GEEN
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1575 path=research/active/VARANASI-COMPLETE-001/GOUD/MASTER_A_B_GEO_REGISTRY_VERIFIED.jsonl,research/active/VARANASI-COMPLETE-001/ZILVER/MASTER_A_B_GEO_REGISTRY_VERIFIED.jsonl,research/active/VARANASI-COMPLETE-001/shared/MASTER_A_B_GEO_REGISTRY.jsonl blob_sha=da7be7eb5257398b6d49681bb52abcebe1499688 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=6 classification=text
+{"registry_record_id":"AB-001","location_id":null,"canonical_name":"Mahabodhi Temple","display_name_nl":"Mahabodhi Tempel (boeddhistische hoofdtempel)","marker_name":"Mahabodhi Tempel (boeddhistische hoofdtempel)","cluster":"BODH_GAYA","formal_status":"A_FORMEEL","latitude":24.695,"longitude":84.9914,"geo_status":"WORKING_GOOGLE_MAPS_PIN","geo_source_type":"WORKING_MAP_OR_STATUS_SOURCE","geo_source_reference":"LOCKED_A.md + Google Maps","accuracy_class":"25_100_M","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaarde.","last_checked_at":"2026-07-20","source_run":"LEGACY_BODH_GAYA","recognition_hook":"boeddhistische hoofdtempel bij de plaats van de verlichting","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+{"registry_record_id":"AB-002","location_id":null,"canonical_name":"Bodhi Tree","display_name_nl":"Bodhiboom (boom van de verlichting)","marker_name":"Bodhiboom (boom van de verlichting)","cluster":"BODH_GAYA","formal_status":"A_FORMEEL","latitude":24.6951,"longitude":84.9911,"geo_status":"VERIFIED_SITE_CENTRE","geo_source_type":"WORKING_MAP_OR_STATUS_SOURCE","geo_source_reference":"LOCKED_A.md + Mahabodhi complex","accuracy_class":"SITE_LEVEL","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaarde.","last_checked_at":"2026-07-20","source_run":"LEGACY_BODH_GAYA","recognition_hook":"vereerde boom binnen het Mahabodhi-complex","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+{"registry_record_id":"AB-003","location_id":null,"canonical_name":"Lahiri Mahasaya Samadhi","display_name_nl":"Lahiri Mahasaya Samadhi (Kriya-samadhi)","marker_name":"Lahiri Mahasaya Samadhi (Kriya-samadhi)","cluster":"VARANASI","formal_status":"A_FORMEEL","latitude":25.3028,"longitude":83.0074,"geo_status":"WORKING_ADDRESS_POINT","geo_source_type":"WORKING_MAP_OR_STATUS_SOURCE","geo_source_reference":"LOCKED_A.md + VS-008","accuracy_class":"25_100_M","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaarde.","last_checked_at":"2026-07-20","source_run":"VARANASI-COMPLETE-001","recognition_hook":"samadhi- en meditatietempel van Lahiri Mahasaya","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+{"registry_record_id":"AB-004","location_id":null,"canonical_name":"Lahiri Mahasaya original home","display_name_nl":"Lahiri-huis (woonhuis van Lahiri Mahasaya)","marker_name":"Lahiri-huis (woonhuis van Lahiri Mahasaya)","cluster":"VARANASI","formal_status":"A_FORMEEL","latitude":25.3018,"longitude":83.0068,"geo_status":"WORKING_ADDRESS_POINT","geo_source_type":"WORKING_MAP_OR_STATUS_SOURCE","geo_source_reference":"LOCKED_A.md + VS-009","accuracy_class":"25_100_M","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaarde.","last_checked_at":"2026-07-20","source_run":"VARANASI-COMPLETE-001","recognition_hook":"historisch Kriya-woonhuis in Madanpura","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+{"registry_record_id":"AB-005","location_id":null,"canonical_name":"Manikarnika Ghat","display_name_nl":"Manikarnika Ghat (crematieghat)","marker_name":"Manikarnika Ghat (crematieghat)","cluster":"VARANASI","formal_status":"A_FORMEEL","latitude":25.3109,"longitude":83.0142,"geo_status":"WORKING_GOOGLE_MAPS_PIN","geo_source_type":"WORKING_MAP_OR_STATUS_SOURCE","geo_source_reference":"LOCKED_A.md + VS-005","accuracy_class":"25_100_M","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaarde.","last_checked_at":"2026-07-20","source_run":"VARANASI-COMPLETE-001","recognition_hook":"actieve crematieghat in de Shiva-traditie","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+{"registry_record_id":"AB-006","location_id":null,"canonical_name":"Shri Tailanga Swami Math","display_name_nl":"Trailanga Swami-samadhi (samadhi-math)","marker_name":"Trailanga Swami-samadhi (samadhi-math)","cluster":"VARANASI","formal_status":"A_FORMEEL","latitu
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1576 path=research/active/VARANASI-COMPLETE-001/GOUD/MASTER_A_B_GEO_REGISTRY_VERIFIED.jsonl,research/active/VARANASI-COMPLETE-001/ZILVER/MASTER_A_B_GEO_REGISTRY_VERIFIED.jsonl,research/active/VARANASI-COMPLETE-001/shared/MASTER_A_B_GEO_REGISTRY.jsonl blob_sha=da7be7eb5257398b6d49681bb52abcebe1499688 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=6 classification=text
+de":25.3188,"longitude":83.013,"geo_status":"WORKING_ADDRESS_POINT","geo_source_type":"WORKING_MAP_OR_STATUS_SOURCE","geo_source_reference":"LOCKED_A.md + VS-010","accuracy_class":"25_100_M","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaarde.","last_checked_at":"2026-07-20","source_run":"VARANASI-COMPLETE-001","recognition_hook":"samadhi en math van Trailanga Swami bij Panchganga","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+{"registry_record_id":"AB-007","location_id":null,"canonical_name":"Shree Shree Ma Anandamayi Ashram, Bhadaini","display_name_nl":"Anandamayi Ma Ashram (ashram)","marker_name":"Anandamayi Ma Ashram (ashram)","cluster":"VARANASI","formal_status":"A_FORMEEL","latitude":25.2897,"longitude":83.0068,"geo_status":"WORKING_GOOGLE_MAPS_PIN","geo_source_type":"WORKING_MAP_OR_STATUS_SOURCE","geo_source_reference":"LOCKED_A.md + VS-004","accuracy_class":"25_100_M","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaarde.","last_checked_at":"2026-07-20","source_run":"VARANASI-COMPLETE-001","recognition_hook":"Bhadaini-ashram van Anandamayi Ma","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+{"registry_record_id":"AB-008","location_id":null,"canonical_name":"Sarnath sacred complex","display_name_nl":"Sarnath (boeddhistisch heilig complex)","marker_name":"Sarnath (boeddhistisch heilig complex)","cluster":"VARANASI_SARNATH","formal_status":"A_FORMEEL","latitude":25.3811,"longitude":83.0214,"geo_status":"VERIFIED_SITE_CENTRE","geo_source_type":"WORKING_MAP_OR_STATUS_SOURCE","geo_source_reference":"LOCKED_A.md + VS-002","accuracy_class":"SITE_LEVEL","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaarde.","last_checked_at":"2026-07-20","source_run":"VARANASI-COMPLETE-001","recognition_hook":"complex rond de eerste leerrede van de Boeddha","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+{"registry_record_id":"AB-009","location_id":null,"canonical_name":"Shri Kashi Vishwanath Temple","display_name_nl":"Kashi Vishwanath (Shiva-tempel)","marker_name":"Kashi Vishwanath (Shiva-tempel)","cluster":"VARANASI","formal_status":"A_FORMEEL","latitude":25.3109,"longitude":83.0107,"geo_status":"WORKING_GOOGLE_MAPS_PIN","geo_source_type":"WORKING_MAP_OR_STATUS_SOURCE","geo_source_reference":"LOCKED_A.md + VS-001","accuracy_class":"25_100_M","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaarde.","last_checked_at":"2026-07-20","source_run":"VARANASI-COMPLETE-001","recognition_hook":"belangrijkste Shiva-jyotirlingatempel van Kashi","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+{"registry_record_id":"AB-010","location_id":"400","canonical_name":"Babaji Cave","display_name_nl":"Babaji Cave (Kriya-grot)","marker_name":"Babaji Cave (Kriya-grot)","cluster":"KUMAON_DWARAHAT","formal_status":"A_FORMEEL","latitude":29.8334,"longitude":79.4654,"geo_status":"WORKING_GOOGLE_MAPS_PIN","geo_source_type":"VALIDATED_PREDECESSOR","geo_source_reference":"KUMAON GOUD map_source","accuracy_class":"25_100_M","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaarde.","last_checked_at":"2026-07-20","source_run":"KUMAON-COMPLETE-001","recognition_hook":"grot van de Babaji-Lahiri Kriya-traditie","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+{"registry_record_id":"AB-011","location_id":"401","canonical_name":"Babaji Smriti Bhavan","display_name_nl":"Babaji Smriti Bhavan (Kriya-herdenkingsplek)","marker_name":"Babaji Smriti Bhavan (Kriya-herdenkingsplek)","cluster":"KUMAON_DWARAHAT","formal_status":"A_FORMEEL","latitude":29.832873,"longitude":79.464364,"geo_status":"WORKING_GOOGLE_MAPS_PIN","geo_source_type":"VALIDATED_PREDECESSOR","geo_source_reference":"KUMAON GOUD map_source","accuracy_class":"25_100_M","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaard
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1577 path=research/active/VARANASI-COMPLETE-001/GOUD/MASTER_A_B_GEO_REGISTRY_VERIFIED.jsonl,research/active/VARANASI-COMPLETE-001/ZILVER/MASTER_A_B_GEO_REGISTRY_VERIFIED.jsonl,research/active/VARANASI-COMPLETE-001/shared/MASTER_A_B_GEO_REGISTRY.jsonl blob_sha=da7be7eb5257398b6d49681bb52abcebe1499688 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=6 classification=text
+e.","last_checked_at":"2026-07-20","source_run":"KUMAON-COMPLETE-001","recognition_hook":"herdenkingsgebouw bij de Babaji-grot","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+{"registry_record_id":"AB-012","location_id":"402","canonical_name":"Dunagiri Temple","display_name_nl":"Dunagiri Tempel (Shakti-tempel)","marker_name":"Dunagiri Tempel (Shakti-tempel)","cluster":"KUMAON_DWARAHAT","formal_status":"A_FORMEEL","latitude":29.79672,"longitude":79.45123,"geo_status":"WORKING_GOOGLE_MAPS_PIN","geo_source_type":"VALIDATED_PREDECESSOR","geo_source_reference":"KUMAON GOUD map_source","accuracy_class":"25_100_M","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaarde.","last_checked_at":"2026-07-20","source_run":"KUMAON-COMPLETE-001","recognition_hook":"bergtempel in het Babaji-Dunagiri-cluster","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+{"registry_record_id":"AB-013","location_id":"403","canonical_name":"YSS Dwarahat Ashram","display_name_nl":"YSS Dwarahat Ashram (Kriya-ashram)","marker_name":"YSS Dwarahat Ashram (Kriya-ashram)","cluster":"KUMAON_DWARAHAT","formal_status":"A_FORMEEL","latitude":29.784767,"longitude":79.422761,"geo_status":"WORKING_GOOGLE_MAPS_PIN","geo_source_type":"VALIDATED_PREDECESSOR","geo_source_reference":"KUMAON GOUD map_source","accuracy_class":"25_100_M","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaarde.","last_checked_at":"2026-07-20","source_run":"KUMAON-COMPLETE-001","recognition_hook":"officiële YSS-ashram voor meditatie en Babaji-pelgrims","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+{"registry_record_id":"AB-014","location_id":"404","canonical_name":"Kainchi Dham","display_name_nl":"Kainchi Dham (Neem Karoli Baba-ashram)","marker_name":"Kainchi Dham (Neem Karoli Baba-ashram)","cluster":"KUMAON_KAINCHI","formal_status":"A_FORMEEL","latitude":29.42255,"longitude":79.51245,"geo_status":"WORKING_GOOGLE_MAPS_PIN","geo_source_type":"VALIDATED_PREDECESSOR","geo_source_reference":"KUMAON GOUD map_source","accuracy_class":"25_100_M","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaarde.","last_checked_at":"2026-07-20","source_run":"KUMAON-COMPLETE-001","recognition_hook":"hoofdashram van Neem Karoli Baba in Kumaon","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+{"registry_record_id":"AB-015","location_id":"405","canonical_name":"Kasar Devi Temple","display_name_nl":"Kasar Devi (Shakti-tempel)","marker_name":"Kasar Devi (Shakti-tempel)","cluster":"KUMAON_ALMORA","formal_status":"A_FORMEEL","latitude":29.64172,"longitude":79.66183,"geo_status":"WORKING_GOOGLE_MAPS_PIN","geo_source_type":"VALIDATED_PREDECESSOR","geo_source_reference":"KUMAON GOUD map_source","accuracy_class":"25_100_M","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaarde.","last_checked_at":"2026-07-20","source_run":"KUMAON-COMPLETE-001","recognition_hook":"Shakti-tempel op de Kasar-rug","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+{"registry_record_id":"AB-016","location_id":"406","canonical_name":"Crank's Ridge","display_name_nl":"Crank's Ridge (spirituele bergrug)","marker_name":"Crank's Ridge (spirituele bergrug)","cluster":"KUMAON_ALMORA","formal_status":"A_FORMEEL","latitude":29.648,"longitude":79.663,"geo_status":"APPROXIMATE_LOCAL_POINT","geo_source_type":"VALIDATED_PREDECESSOR","geo_source_reference":"KUMAON GOUD map_source","accuracy_class":"100_500_M","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaarde.","last_checked_at":"2026-07-20","source_run":"KUMAON-COMPLETE-001","recognition_hook":"historische zoekers- en meditatiezone bij Kasar Devi","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+{"registry_record_id":"AB-017","location_id":"407","canonical_name":"Kakrighat / Karkateshwar Mahadev","display_name_nl":"Kakrighat (S
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1578 path=research/active/VARANASI-COMPLETE-001/GOUD/MASTER_A_B_GEO_REGISTRY_VERIFIED.jsonl,research/active/VARANASI-COMPLETE-001/ZILVER/MASTER_A_B_GEO_REGISTRY_VERIFIED.jsonl,research/active/VARANASI-COMPLETE-001/shared/MASTER_A_B_GEO_REGISTRY.jsonl blob_sha=da7be7eb5257398b6d49681bb52abcebe1499688 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=6 classification=text
+hiva-tempel en Vivekananda-plek)","marker_name":"Kakrighat (Shiva-tempel en Vivekananda-plek)","cluster":"KUMAON_ALMORA","formal_status":"A_FORMEEL","latitude":29.54371,"longitude":79.53274,"geo_status":"APPROXIMATE_LOCAL_POINT","geo_source_type":"VALIDATED_PREDECESSOR","geo_source_reference":"KUMAON GOUD map_source","accuracy_class":"100_500_M","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaarde.","last_checked_at":"2026-07-20","source_run":"KUMAON-COMPLETE-001","recognition_hook":"Shiva-tempel aan de Kosi en Vivekananda-meditatieplek","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+{"registry_record_id":"AB-018","location_id":"408","canonical_name":"Jageshwar temple complex","display_name_nl":"Jageshwar (Shiva-tempelcomplex)","marker_name":"Jageshwar (Shiva-tempelcomplex)","cluster":"KUMAON_JAGESHWAR","formal_status":"A_FORMEEL","latitude":29.6375,"longitude":79.85428,"geo_status":"WORKING_GOOGLE_MAPS_PIN","geo_source_type":"VALIDATED_PREDECESSOR","geo_source_reference":"KUMAON GOUD map_source","accuracy_class":"25_100_M","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaarde.","last_checked_at":"2026-07-20","source_run":"KUMAON-COMPLETE-001","recognition_hook":"historisch Shiva-tempelcomplex","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+{"registry_record_id":"AB-019","location_id":"409","canonical_name":"Hanuman Garhi, Nainital","display_name_nl":"Hanuman Garhi (Hanuman-tempel)","marker_name":"Hanuman Garhi (Hanuman-tempel)","cluster":"KUMAON_NAINITAL","formal_status":"A_FORMEEL","latitude":29.381,"longitude":79.455,"geo_status":"WORKING_GOOGLE_MAPS_PIN","geo_source_type":"VALIDATED_PREDECESSOR","geo_source_reference":"KUMAON GOUD map_source","accuracy_class":"25_100_M","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaarde.","last_checked_at":"2026-07-20","source_run":"KUMAON-COMPLETE-001","recognition_hook":"Neem Karoli Baba-gerelateerde Hanuman-tempel","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+{"registry_record_id":"AB-020","location_id":"413","canonical_name":"Ramakrishna Kutir, Almora","display_name_nl":"Ramakrishna Kutir (Ramakrishna-ashram)","marker_name":"Ramakrishna Kutir (Ramakrishna-ashram)","cluster":"KUMAON_ALMORA","formal_status":"A_FORMEEL","latitude":29.597,"longitude":79.655,"geo_status":"APPROXIMATE_LOCAL_POINT","geo_source_type":"VALIDATED_PREDECESSOR","geo_source_reference":"KUMAON GOUD map_source","accuracy_class":"100_500_M","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaarde.","last_checked_at":"2026-07-20","source_run":"KUMAON-COMPLETE-001","recognition_hook":"actief Ramakrishna Math-centrum in Almora","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+{"registry_record_id":"AB-021","location_id":"414","canonical_name":"Chitai Golu Devta Temple","display_name_nl":"Chitai Golu Devta (tempel van gerechtigheid)","marker_name":"Chitai Golu Devta (tempel van gerechtigheid)","cluster":"KUMAON_ALMORA","formal_status":"A_FORMEEL","latitude":29.642,"longitude":79.714,"geo_status":"WORKING_GOOGLE_MAPS_PIN","geo_source_type":"VALIDATED_PREDECESSOR","geo_source_reference":"KUMAON GOUD map_source","accuracy_class":"25_100_M","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaarde.","last_checked_at":"2026-07-20","source_run":"KUMAON-COMPLETE-001","recognition_hook":"tempel waar devotees verzoekbrieven ophangen","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+{"registry_record_id":"AB-022","location_id":"420","canonical_name":"Turiya Niwas, Crank's Ridge","display_name_nl":"Turiya Niwas (historische woonplek)","marker_name":"Turiya Niwas (historische woonplek)","cluster":"KUMAON_ALMORA","formal_status":"A_FORMEEL","latitude":29.654,"longitude":79.669,"geo_status":"APPROXIMATE_LOCAL_POINT","geo_source_type":"VALIDATED_PREDECESSOR","geo_source_re
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1579 path=research/active/VARANASI-COMPLETE-001/GOUD/MASTER_A_B_GEO_REGISTRY_VERIFIED.jsonl,research/active/VARANASI-COMPLETE-001/ZILVER/MASTER_A_B_GEO_REGISTRY_VERIFIED.jsonl,research/active/VARANASI-COMPLETE-001/shared/MASTER_A_B_GEO_REGISTRY.jsonl blob_sha=da7be7eb5257398b6d49681bb52abcebe1499688 original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=6 classification=text
+ference":"KUMAON GOUD map_source","accuracy_class":"100_500_M","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaarde.","last_checked_at":"2026-07-20","source_run":"KUMAON-COMPLETE-001","recognition_hook":"woonplek van Alfred Sunyata Sorensen","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+{"registry_record_id":"AB-023","location_id":"421","canonical_name":"Bodh Ashram, Kasar Devi area","display_name_nl":"Bodh Ashram (historische ashram)","marker_name":"Bodh Ashram (historische ashram)","cluster":"KUMAON_ALMORA","formal_status":"A_FORMEEL","latitude":29.643,"longitude":79.675,"geo_status":"APPROXIMATE_LOCAL_POINT","geo_source_type":"VALIDATED_PREDECESSOR","geo_source_reference":"KUMAON GOUD map_source","accuracy_class":"100_500_M","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaarde.","last_checked_at":"2026-07-20","source_run":"KUMAON-COMPLETE-001","recognition_hook":"Evans-Wentz en Lama Govinda-landgoed","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+{"registry_record_id":"AB-024","location_id":null,"canonical_name":"Katyayani Peeth / Keshav Ashram","display_name_nl":"Katyayani Peeth (Shakti- en Kriya-ashram)","marker_name":"Katyayani Peeth (Shakti- en Kriya-ashram)","cluster":"BRAJ_VRINDAVAN","formal_status":"A_FORMEEL","latitude":27.5796,"longitude":77.6974,"geo_status":"WORKING_GOOGLE_MAPS_PIN","geo_source_type":"WORKING_MAP_OR_STATUS_SOURCE","geo_source_reference":"LOCKED_A.md + canonical registry","accuracy_class":"25_100_M","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaarde.","last_checked_at":"2026-07-20","source_run":"VRINDAVAN-INTEGRATION-001","recognition_hook":"Shakti Peeth en Keshavanand Kriya-lijnplek","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+{"registry_record_id":"AB-025","location_id":null,"canonical_name":"Neem Karoli Baba Ashram and Samadhi, Vrindavan","display_name_nl":"Neem Karoli Baba Ashram (ashram en samadhi)","marker_name":"Neem Karoli Baba Ashram (ashram en samadhi)","cluster":"BRAJ_VRINDAVAN","formal_status":"A_FORMEEL","latitude":27.5767,"longitude":77.6865,"geo_status":"WORKING_GOOGLE_MAPS_PIN","geo_source_type":"WORKING_MAP_OR_STATUS_SOURCE","geo_source_reference":"LOCKED_A.md + canonical registry","accuracy_class":"25_100_M","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaarde.","last_checked_at":"2026-07-20","source_run":"VRINDAVAN-INTEGRATION-001","recognition_hook":"Vrindavan-ashram en samadhi van Maharaj-ji","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+{"registry_record_id":"AB-026","location_id":null,"canonical_name":"Taj Mahal","display_name_nl":"Taj Mahal (mausoleum bij zonsopgang)","marker_name":"Taj Mahal (mausoleum bij zonsopgang)","cluster":"AGRA","formal_status":"A_FORMEEL","latitude":27.1751,"longitude":78.0421,"geo_status":"WORKING_GOOGLE_MAPS_PIN","geo_source_type":"WORKING_MAP_OR_STATUS_SOURCE","geo_source_reference":"LOCKED_A.md + Google Maps","accuracy_class":"25_100_M","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaarde.","last_checked_at":"2026-07-20","source_run":"LEGACY_AGRA","recognition_hook":"Mughal-mausoleum; formeel A voor zonsopgang","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+{"registry_record_id":"AB-027","location_id":"423","canonical_name":"Haidakhan Vishwa Mahadham","display_name_nl":"Haidakhan Vishwa Mahadham (Haidakhan-ashram)","marker_name":"Haidakhan Vishwa Mahadham (Haidakhan-ashram)","cluster":"KUMAON_HAIDAKHAN","formal_status":"A_FORMEEL","latitude":29.119,"longitude":79.701,"geo_status":"APPROXIMATE_LOCAL_POINT","geo_source_type":"VALIDATED_PREDECESSOR","geo_source_reference":"KUMAON GOUD map_source","accuracy_class":"100_500_M","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaarde.","last_checked_at":"2026-07-20","source_run":"K
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1580 path=research/active/VARANASI-COMPLETE-001/GOUD/MASTER_A_B_GEO_REGISTRY_VERIFIED.jsonl,research/active/VARANASI-COMPLETE-001/ZILVER/MASTER_A_B_GEO_REGISTRY_VERIFIED.jsonl,research/active/VARANASI-COMPLETE-001/shared/MASTER_A_B_GEO_REGISTRY.jsonl blob_sha=da7be7eb5257398b6d49681bb52abcebe1499688 original_offset=20480 original_length=2543 payload_bytes=2543 chunk_index=5 chunk_count=6 classification=text
+UMAON-COMPLETE-001","recognition_hook":"hoofdashram van de Haidakhandi-lijn","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+{"registry_record_id":"AB-028","location_id":"412","canonical_name":"Bhumiyadhar temple grounds","display_name_nl":"Bhumiyadhar (Ram Dass–Maharaj-ji ontmoetingsplek)","marker_name":"Bhumiyadhar (Ram Dass–Maharaj-ji ontmoetingsplek)","cluster":"KUMAON_KAINCHI","formal_status":"A_FORMEEL","latitude":29.411,"longitude":79.509,"geo_status":"APPROXIMATE_LOCAL_POINT","geo_source_type":"VALIDATED_PREDECESSOR","geo_source_reference":"KUMAON GOUD map_source","accuracy_class":"100_500_M","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaarde.","last_checked_at":"2026-07-20","source_run":"KUMAON-COMPLETE-001","recognition_hook":"tempelterrein van de eerste ontmoeting tussen Ram Dass en Maharaj-ji","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+{"registry_record_id":"AB-029","location_id":"424","canonical_name":"Ghorakhal Golu Devta Temple","display_name_nl":"Ghorakhal Golu Devta (tempel van gerechtigheid)","marker_name":"Ghorakhal Golu Devta (tempel van gerechtigheid)","cluster":"KUMAON_KAINCHI","formal_status":"B_FORMEEL","latitude":29.37953,"longitude":79.54545,"geo_status":"WORKING_GOOGLE_MAPS_PIN","geo_source_type":"VALIDATED_PREDECESSOR","geo_source_reference":"LOCKED_B.md + KUMAON GOUD map_source","accuracy_class":"25_100_M","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaarde.","last_checked_at":"2026-07-20","source_run":"KUMAON-COMPLETE-001","recognition_hook":"Golu Devta-tempel bij Ghorakhal","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+{"registry_record_id":"AB-030","location_id":null,"canonical_name":"Radha Raman Temple","display_name_nl":"Radha Raman Tempel (Krishna-tempel)","marker_name":"Radha Raman Tempel (Krishna-tempel)","cluster":"BRAJ_VRINDAVAN","formal_status":"B_FORMEEL","latitude":27.583,"longitude":77.6995,"geo_status":"WORKING_GOOGLE_MAPS_PIN","geo_source_type":"WORKING_MAP_OR_STATUS_SOURCE","geo_source_reference":"LOCKED_B.md + Google Maps","accuracy_class":"25_100_M","exactness_note":"Bruikbaar herkenbaar werkpunt; exacte deur of ingang is geen opnamevoorwaarde.","last_checked_at":"2026-07-20","source_run":"BRAJ-COMPLETE-001","recognition_hook":"historische Krishna-tempel in Vrindavan","open_geo_question":"Exacte bezoekersingang later controleren.","active":true}
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1581 path=research/active/VARANASI-COMPLETE-001/GOUD/audit.md blob_sha=fe551784783698f7285d167b30b61d25da38fa7e original_offset=0 original_length=2940 payload_bytes=2940 chunk_index=0 chunk_count=1 classification=text
+# GOUD-audit — VARANASI-COMPLETE-001
+
+## Preflight en context
+
+- GitHub-read en admin-write bevestigd;
+- `NEXT_ACTION.yaml` matchte exact run, GOUD, `READY_FOR_GOUD` en het gepinde contextmanifest;
+- state en eventcursor waren synchroon op `EVT-0012` vóór claim;
+- ZILVER-workerclaim en controllerclaim waren gesloten;
+- alle 34 required files en 15 getriggerde optionals volledig gelezen;
+- alle gepinde blob-SHA’s en tekstsentinels matchten;
+- forbidden files gebruikt: 0;
+- `research/active/KUMAON-ROUTE-OPTIMIZATION-001/**` gelezen of gewijzigd: 0;
+- GOUD-claim vastgelegd in commit `484cb3dcac961e4963b04e3492952e1c440d5c5c`.
+
+## Registers en bewijs
+
+- kandidaten: 40 unieke IDs;
+- claims: 57 unieke IDs;
+- accepted bronnen: 25 unieke IDs;
+- rejected bronnen: 7 unieke IDs;
+- source-ID-overlap accepted/rejected: 0;
+- ontbrekende claim-sourceverwijzingen: 0;
+- detectorchecks: 8;
+- negatieve searches: 6;
+- praktische toegangsrecords: 40;
+- beeldrecords: 40;
+- reviewrecords: 40.
+
+## GEO en verbindingen
+
+- `geo_locations.jsonl`: 40 records met alle verplichte GEO-velden;
+- `geo_connections.jsonl`: 15 records met alle verplichte verbindingsvelden;
+- nieuwe permanente `place_id`: 0;
+- nieuwe permanente `location_id`: 0;
+- Lahartara en Bhaskarananda blijven `ESTIMATED`/`NOT_ESTABLISHED`;
+- Lahiri Samadhi, Lahiri-huis en Trailanga Math blijven werkpunten zonder ingangprecisie;
+- reistijdclaims: 0;
+- routebesluiten: 0.
+
+## Formele A/B en KML
+
+- formele A: 28;
+- formele B: 2;
+- KML-placemarks: 30;
+- KML-folders: 2;
+- A-stijl: uitsluitend `A_GREEN`, `ff00aa00`;
+- B-stijl: uitsluitend `B_ORANGE`, `ff00a5ff`;
+- C, stations, routes, bases, hotels en categorie-logo’s: 0;
+- dubbele niet-lege LOCATION_IDs: 0;
+- ontbrekende coördinaten: 0.
+
+## Canonieke integratie
+
+- voorstel vooraf gecommit: `9e3b17026d472e0235bd892bcb5aa802820fe879`;
+- registrywrite: `8f23111b8d9810e9673d7853619b21ce15f57a4c`;
+- gewijzigde bestaande records: `IND-PLACE-000001`, `IND-PLACE-000002`;
+- nieuwe records of IDs: 0;
+- gewijzigde formele status: 0;
+- gewijzigde decision-ID: 0;
+- decisions-indexwrite: 0;
+- registry JSONL opnieuw gelezen en geldig.
+
+## Quality gate
+
+Technische integriteit: `PASS`.
+Inhoudelijke status: `PARTIAL`.
+
+Hoogste niet-fatale gaten:
+
+1. Lahartara en Bhaskarananda/Anand Bagh: exacte micro-identiteit, beheer, toegang en GEO niet vastgesteld.
+2. Lahiri Samadhi/Satyalok, Lahiri-huis en Trailanga Math: directe beheer- en toegangsinformatie open.
+3. Volledige tien-functionele beeldsets en systematische recente reviews ontbreken.
+4. Opening, fotografie, buitenlandse toegang, festivals en drukte blijven tijdgevoelig.
+
+## Scopeverboden
+
+- formele/adviserende A/B/C toegekend of gewijzigd: `NEE`;
+- nieuw decision-ID: `NEE`;
+- nieuwe permanente ID: `NEE`;
+- route, basis, station, hotel of eerste bezoek gekozen: `NEE`;
+- pipeline of protocol gewijzigd: `NEE`;
+- parked-run gelezen of gewijzigd: `NEE`.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1582 path=research/active/VARANASI-COMPLETE-001/GOUD/candidates.jsonl,research/active/VARANASI-COMPLETE-001/ZILVER/candidates.jsonl blob_sha=6e1f8688b4af305333986dd299ce8ba9c071b9d0 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=5 classification=text
+{"candidate_id":"VNS-CAND-001","canonical_name":"Lahiri Mahasaya Samadhi / Satyalok","recognition_hook":"Lahiri Mahasaya-samadhi en meditatietempel","cluster":"KRIYA_BENGALI_TOLA","place_type":"SAMADHI_MEDITATION","formal_status_preserved":"A","identity_status_zilver":"WORKING_SUPPORTED","latitude":25.3028,"longitude":83.0074,"geo_status":"WORKING_ADDRESS_POINT","source_ids":["ZVS-007","ZVS-014"],"visitability_assessment":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-002","canonical_name":"Lahiri Mahasaya original home","recognition_hook":"woonhuis van Lahiri Mahasaya","cluster":"KRIYA_BENGALI_TOLA","place_type":"HISTORIC_HOME","formal_status_preserved":"A","identity_status_zilver":"WORKING_SUPPORTED","latitude":25.3018,"longitude":83.0068,"geo_status":"WORKING_ADDRESS_POINT","source_ids":["ZVS-007","ZVS-013","ZVS-015"],"visitability_assessment":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-003","canonical_name":"Manikarnika Ghat","recognition_hook":"crematieghat en Shiva-pelgrimsplek","cluster":"GHATS_OLD_CITY","place_type":"CREMATION_GHAT","formal_status_preserved":"A","identity_status_zilver":"CONFIRMED","latitude":25.3109,"longitude":83.0142,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-003"],"visitability_assessment":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-004","canonical_name":"Shri Tailanga Swami Math","recognition_hook":"samadhi-math van Trailanga Swami","cluster":"PANCHGANGA","place_type":"SAMADHI_MATH","formal_status_preserved":"A","identity_status_zilver":"WORKING_SUPPORTED","latitude":25.3188,"longitude":83.013,"geo_status":"WORKING_ADDRESS_POINT","source_ids":["ZVS-016"],"visitability_assessment":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-005","canonical_name":"Shree Shree Ma Anandamayi Ashram, Bhadaini","recognition_hook":"ashram van Anandamayi Ma","cluster":"BHADAINI_ASSI","place_type":"ASHRAM","formal_status_preserved":"A","identity_status_zilver":"CONFIRMED","latitude":25.2897,"longitude":83.0068,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-008"],"visitability_assessment":"Officieel contact bevestigd; programma en toegang vooraf rechtstreeks bevestigen.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-006","canonical_name":"Sarnath sacred complex","recognition_hook":"boeddhistisch heilig complex","cluster":"SARNATH","place_type":"SACRED_COMPLEX","formal_status_preserved":"A","identity_status_zilver":"CONFIRMED","latitude":25.3811,"longitude":83.0214,"geo_status":"VERIFIED_SITE_CENTRE","source_ids":["ZVS-004","ZVS-005"],"visitability_assessment":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-007","canonical_name":"Shri Kashi Vishwanath Temple","recognition_hook":"Shiva-jyotirlingatempel","cluster":"VISHWANATH_OLD_CITY","place_type":"TEMPLE","formal_status_preserved":"A","identity_status_zilver":"CONFIRMED","latitude":25.3109,"longitude":83.0107,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-001","ZVS-002","ZVS-018"],"visitability_assessment":"Actuele officiële toegangsinformatie bevestigd; tijden en uitzonderingen blijven datumafhankelijk.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-008","canonical_name":"Yogoda Satsanga Dhyana Mandali, Varanasi","recognition_hook":"Kriya-meditatiecentrum","cluster":"MAHMOORGANJ","place_type":"MEDITATION_CENTRE","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.3045,"longitude":82.979369,"geo_status":"VERIFIED_SITE_CENTRE","source_ids":["ZVS-006"],"visitability_assessment":"Officieel adres en openbare groepsmeditaties bevestigd; dagschema telefonisch controleren.","status_decision_by_worker":null}
+{"candidate_id
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1583 path=research/active/VARANASI-COMPLETE-001/GOUD/candidates.jsonl,research/active/VARANASI-COMPLETE-001/ZILVER/candidates.jsonl blob_sha=6e1f8688b4af305333986dd299ce8ba9c071b9d0 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=5 classification=text
+":"VNS-CAND-009","canonical_name":"Dashashwamedh Ghat","recognition_hook":"grote Ganga-aartighat","cluster":"GHATS_OLD_CITY","place_type":"RITUAL_GHAT","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.3062,"longitude":83.0104,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-003"],"visitability_assessment":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-010","canonical_name":"Assi Ghat","recognition_hook":"ochtend- en avondghat","cluster":"BHADAINI_ASSI","place_type":"RITUAL_GHAT","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.2887,"longitude":83.0061,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-003"],"visitability_assessment":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-011","canonical_name":"Panchganga Ghat","recognition_hook":"historische vijf-rivierenghat","cluster":"PANCHGANGA","place_type":"RITUAL_GHAT","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.3185,"longitude":83.0128,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-003"],"visitability_assessment":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-012","canonical_name":"Harishchandra Ghat","recognition_hook":"crematieghat","cluster":"GHATS_SOUTH","place_type":"CREMATION_GHAT","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.2994,"longitude":83.009,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-003"],"visitability_assessment":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-013","canonical_name":"Kaal Bhairav Temple","recognition_hook":"tempel van de bewaker van Kashi","cluster":"NORTH_OLD_CITY","place_type":"TEMPLE","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.3223,"longitude":83.009,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-003"],"visitability_assessment":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-014","canonical_name":"Maa Annapurna Temple","recognition_hook":"tempel van de godin van voedsel","cluster":"VISHWANATH_OLD_CITY","place_type":"TEMPLE","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.3107,"longitude":83.0103,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-003"],"visitability_assessment":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-015","canonical_name":"Sankat Mochan Hanuman Temple","recognition_hook":"Hanuman-tempel","cluster":"SOUTH_VARANASI","place_type":"TEMPLE","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.282,"longitude":82.9992,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-003"],"visitability_assessment":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-016","canonical_name":"Durga Temple and Durga Kund","recognition_hook":"Shakti-tempel en heilige vijver","cluster":"SOUTH_VARANASI","place_type":"TEMPLE_KUND","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.288,"longitude":82.9998,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-003"],"visitability_assessment":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-017","canonical_name":"Vishalakshi Gauri Temple","recognition_hook":"Shakti-tempel","cluster":"VISHWANATH_OLD_CITY","place_type":"TEMPLE","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.3102,"longitude":83.0119,"geo_status":"WORK
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1584 path=research/active/VARANASI-COMPLETE-001/GOUD/candidates.jsonl,research/active/VARANASI-COMPLETE-001/ZILVER/candidates.jsonl blob_sha=6e1f8688b4af305333986dd299ce8ba9c071b9d0 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=5 classification=text
+ING_GOOGLE_MAPS_PIN","source_ids":["ZVS-003"],"visitability_assessment":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-018","canonical_name":"Sankatha Devi Temple","recognition_hook":"tempel van de godin van bescherming","cluster":"SCINDIA_GHAT","place_type":"TEMPLE","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.3156,"longitude":83.014,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-003"],"visitability_assessment":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-019","canonical_name":"Kedareshwar Temple and Kedar Ghat","recognition_hook":"Shiva-tempel en ghat","cluster":"GHATS_SOUTH","place_type":"TEMPLE_GHAT","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.2967,"longitude":83.0088,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-003"],"visitability_assessment":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-020","canonical_name":"Lalita Ghat","recognition_hook":"Ganga-aartighat en toegang tot Vishwanath Dham","cluster":"VISHWANATH_OLD_CITY","place_type":"RITUAL_GHAT","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.3114,"longitude":83.0131,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-003"],"visitability_assessment":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-021","canonical_name":"Nepali Temple / Kathwala Temple","recognition_hook":"Shiva-tempel in Nepalese stijl","cluster":"LALITA_GHAT","place_type":"TEMPLE","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.312,"longitude":83.0132,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-003"],"visitability_assessment":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-022","canonical_name":"Bindu Madhav Temple","recognition_hook":"Vishnu-tempel bij Panchganga","cluster":"PANCHGANGA","place_type":"TEMPLE","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.3187,"longitude":83.0125,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-003"],"visitability_assessment":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-023","canonical_name":"Mrityunjay Mahadev Temple","recognition_hook":"Shiva-tempel voor bescherming en genezing","cluster":"NORTH_VARANASI","place_type":"TEMPLE","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.3291,"longitude":83.0056,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-003"],"visitability_assessment":"Fysieke plek bevestigd; actuele bezoekbaarheid niet betrouwbaar vastgesteld.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-024","canonical_name":"Kabir Chaura Math","recognition_hook":"Kabir-math en herinneringsplek","cluster":"KABIR_CHAURA","place_type":"MATH_MEMORIAL","formal_status_preserved":null,"identity_status_zilver":"CONFIRMED","latitude":25.3233,"longitude":82.9992,"geo_status":"WORKING_GOOGLE_MAPS_PIN","source_ids":["ZVS-010"],"visitability_assessment":"Overheidsbron noemt 05:00–20:00; vóór bezoek actueel bevestigen.","status_decision_by_worker":null}
+{"candidate_id":"VNS-CAND-025","canonical_name":"Lahartara Kabir birthplace memorial","recognition_hook":"Kabir-geboortetraditie en vijverzone","cluster":"LAHARTARA","place_type":"MEMORIAL_SACRED_WATER","formal_status_preserved":null,"identity_status_zilver":"PARTIAL","latitude":25.304,"longitude":82.966,"geo_status":"APPROXIMATE_LOCAL_POINT","source_ids":["ZVS-010","ZVR-004"],"visitability_assessment":"Traditiezone bevestigd; exacte microplek en actuele bezoekbaarheid niet betrouwbaar vastgesteld.
+<<< END CHUNK >>>
+

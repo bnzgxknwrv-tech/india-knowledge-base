@@ -1,0 +1,323 @@
+>>> CHUNK stream_row=1082 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/COMPLETED blob_sha=78e08ee322b0ee04cf54b4670b731f9c9faff486 original_offset=0 original_length=1363 payload_bytes=1363 chunk_index=0 chunk_count=1 classification=text
+PARTIAL
+run_id: VRINDAVAN-KUMAON-CORRIDOR-001
+role: GOUD
+source_commit: 6cbc233b5831c0474e0eb2f06be24416130a49e7
+context_profile: GOUD_MIN
+corridor_result: DOORREIZEN_NAAR_KUMAON
+schema_v2_context_preserved: true
+inline_handoff_migration_performed: false
+counts:
+  claims: 8
+  accepted_sources: 25
+  rejected_sources: 7
+  route_corridors: 5
+  transport_options: 6
+  route_zones: 10
+  heavy_a_gate_records: 4
+  detector_checks: 12
+  negative_searches: 10
+  working_geo_records: 40
+  corridor_location_assignments: 16
+  location_id_requests: 4
+  central_map_records: 51
+  predecessor_kml_placemarks: 40
+  geo_connections: 4
+formal_status_counts:
+  A: 28
+  B: 2
+  C: 4
+highest_gaps:
+  - Exact December 2026 train operation and booking availability require PRS or IRCTC recheck.
+  - Live winter road time, fog, weather and hill conditions require recheck near departure.
+  - External cluster blocks and outside-scope GEO remain required before definitive complete-project KML.
+validation: GOUD completed the pinned schema-v2 synthesis, targeted official train and weather-control readback, source-integrity check, GEO/LOCATION_ID audit and immutable predecessor-KML validation. No inline migration, successor context, new A/B/C, PARELS, hotel choice, internal Kumaon plan, block reservation, pipeline modification or final all-project KML was created.
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1083 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/audit.md blob_sha=cc4a5d1b244e1d6b67318edcaf041dc6ba0ef34f original_offset=0 original_length=2240 payload_bytes=2240 chunk_index=0 chunk_count=1 classification=text
+# GOUD audit — VRINDAVAN-KUMAON-CORRIDOR-001
+
+## Preflight en context
+
+- GitHub-read en GitHub-write bevestigd.
+- NEXT_ACTION selecteerde schema-v2 GOUD voor de juiste run en state.
+- State en events waren synchroon op EVT-0011 vóór de GOUD-claim.
+- Alle required contextbestanden en alle 24 gepinde ZILVER-artifacts zijn volledig gelezen.
+- Alle verwachte ZILVER blob-SHA's kwamen overeen.
+- GOUD is geclaimd als EVT-0012.
+- Geen inline-handoffmigratie uitgevoerd.
+
+## Gerichte GOUD-hercontrole
+
+- De officiële Shatabdi-lijst toont 12039/12040 nog steeds.
+- De officiële Mail/Express-lijst toont 15035/15036 nog steeds.
+- Een exacte dienst en beschikbaarheid voor december 2026 kan nu niet betrouwbaar worden vastgezet; PRS/IRCTC blijft verplicht.
+- IMD biedt actuele en korte/extended-range waarschuwingen, geen betrouwbare exacte routevoorspelling voor december 2026 in juli.
+- Geen materiële tegenspraak gevonden met de ZILVER-corridoruitkomst.
+
+## Bronintegriteit
+
+- GOUD claim IDs GC-001 t/m GC-008 zijn uniek.
+- De GOUD accepted registry bevat 25 unieke, werkelijk gebruikte ZS- en GS-source-ID's.
+- Rejected source IDs ZR-001 t/m ZR-007 zijn uniek.
+- Iedere GOUD-claimreferentie resolveert exact één keer in accepted of rejected.
+- Reviews of secundaire bronnen dragen geen officiële trein- of historische claims buiten hun domein.
+
+## GEO en kaart
+
+- 40 WORKING_GEO-records behouden.
+- Exacte bezoekersingang is geen releasevoorwaarde.
+- 51 centrale kaartrecords behouden.
+- De predecessor-KML bevat 40 placemarks en sluit geldig als XML/KML.
+- De predecessor-KML is niet herschreven.
+- Geen complete-project-KML gecreëerd.
+- A28/B2/C4 ongewijzigd.
+- LOCATION_IDs uniek en blokzuiver.
+
+## Scope
+
+Niet uitgevoerd:
+
+- geen nieuwe sweep;
+- geen nieuwe A/B/C;
+- geen PARELS;
+- geen hotelkeuze;
+- geen interne Kumaon-dagplanning;
+- geen nieuwe clusterblokken;
+- geen successorcontext;
+- geen pipelinewijziging.
+
+## Quality gate
+
+Technische integriteit: PASS.
+
+Inhoudelijke vrijgavestatus: PARTIAL.
+
+Niet-fatale open punten:
+
+1. exacte decemberdienst en beschikbaarheid;
+2. live weer, mist, wegstatus en rijtijd;
+3. externe clusterblokken en complete-project-KML;
+4. enkele bewust laagprecieze WORKING-punten.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1084 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/central_map_source.jsonl,research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/central_map_source.jsonl blob_sha=8551908d851960f989a0e9cea32c28a94c0b40e1 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=6 classification=text
+{"map_record_id":"ZCMS-001","location_id":null,"location_id_status":"BLOCK_RESERVATION_REQUIRED","location_id_request":"LIR-001","canonical_name":"Mahabodhi Temple","cluster":"BODH_GAYA","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"boeddhistische hoofdtempel, verlichting van de Boeddha","latitude_wgs84":null,"longitude_wgs84":null,"geo_status":"NOT_ESTABLISHED","route_relevance":"Formal project A; outside corridor scope.","detour_class":"OUTSIDE_RUN_CORRIDOR","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-002","location_id":null,"location_id_status":"BLOCK_RESERVATION_REQUIRED","location_id_request":"LIR-001","canonical_name":"Bodhi Tree","cluster":"BODH_GAYA","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"heilige boom, verlichting van de Boeddha","latitude_wgs84":null,"longitude_wgs84":null,"geo_status":"NOT_ESTABLISHED","route_relevance":"Formal project A; outside corridor scope.","detour_class":"OUTSIDE_RUN_CORRIDOR","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-003","location_id":null,"location_id_status":"BLOCK_RESERVATION_REQUIRED","location_id_request":"LIR-002","canonical_name":"Lahiri Mahasaya Samadhi","cluster":"VARANASI","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"samadhi, Lahiri Mahasaya en Kriya","latitude_wgs84":null,"longitude_wgs84":null,"geo_status":"NOT_ESTABLISHED","route_relevance":"Formal project A; outside corridor scope.","detour_class":"OUTSIDE_RUN_CORRIDOR","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-004","location_id":null,"location_id_status":"BLOCK_RESERVATION_REQUIRED","location_id_request":"LIR-002","canonical_name":"Lahiri House","cluster":"VARANASI","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"huis, Lahiri Mahasaya en Kriya","latitude_wgs84":null,"longitude_wgs84":null,"geo_status":"NOT_ESTABLISHED","route_relevance":"Formal project A; outside corridor scope.","detour_class":"OUTSIDE_RUN_CORRIDOR","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-005","location_id":null,"location_id_status":"BLOCK_RESERVATION_REQUIRED","location_id_request":"LIR-002","canonical_name":"Manikarnika Ghat","cluster":"VARANASI","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"crematieghat, Kashi en bevrijding","latitude_wgs84":null,"longitude_wgs84":null,"geo_status":"NOT_ESTABLISHED","route_relevance":"Formal project A; outside corridor scope.","detour_class":"OUTSIDE_RUN_CORRIDOR","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-006","location_id":null,"location_id_status":"BLOCK_RESERVATION_REQUIRED","location_id_request":"LIR-002","canonical_name":"Trailanga Swami Samadhi","cluster":"VARANASI","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"samadhi, Trailanga Swami","latitude_wgs84":null,"longitude_wgs84":null,"geo_status":"NOT_ESTABLISHED","route_relevance":"Formal project A; outside corridor scope.","detour_class":"OUTSIDE_RUN_CORRIDOR","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-007","location_id":null,"location_id_status":"BLOCK_RESERVATION_REQUIRED","location_id_request":"LIR-002","canonical_name":"Anandamayi Ma Ashram","cluster":"VARANASI","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"ashram, Anandamayi Ma","latitude_wgs84":null,"longitude_wgs84":null,"geo_status":"NOT_ESTABLISHED","route_relevance":"Formal project A; outside corridor scope.","detour_class":"OUTSIDE_RUN_CORRIDOR","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-008","location_id":null,"location_id_status":"BLOCK_RESERVATION_REQUIRED","location_id_request":"LIR-002","canonical_name":"Sarnath","cluster":"VARANASI","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"boeddhistisch heiligdom, eerste leerrede","latitude_wgs84":null,"longitude_wgs84":null,"geo_status":"NOT_ESTABLISHED","route_relevance":"Formal project A; outside corridor scope.","detour_class":"OUTSIDE_RUN_CORRIDOR","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-009","location_id":null,"location_id_status":"BLOCK_RESERVATI
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1085 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/central_map_source.jsonl,research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/central_map_source.jsonl blob_sha=8551908d851960f989a0e9cea32c28a94c0b40e1 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=6 classification=text
+ON_REQUIRED","location_id_request":"LIR-002","canonical_name":"Kashi Vishwanath","cluster":"VARANASI","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"Shiva-tempel, Kashi","latitude_wgs84":null,"longitude_wgs84":null,"geo_status":"NOT_ESTABLISHED","route_relevance":"Formal project A; outside corridor scope.","detour_class":"OUTSIDE_RUN_CORRIDOR","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-010","location_id":null,"location_id_status":"BLOCK_RESERVATION_REQUIRED","location_id_request":"LIR-003","canonical_name":"Taj Mahal at sunrise","cluster":"AGRA","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"monument, formele A-context","latitude_wgs84":null,"longitude_wgs84":null,"geo_status":"NOT_ESTABLISHED","route_relevance":"Formal project A; outside corridor research scope.","detour_class":"OUTSIDE_RUN_CORRIDOR","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-011","location_id":"200","location_id_status":"ASSIGNED","canonical_name":"Katyayani Peeth / Keshav Ashram","cluster":"BRAJ_VRINDAVAN","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"tempel-ashram, Shakti en Kriya-lineage","latitude_wgs84":27.5769,"longitude_wgs84":77.6905,"geo_status":"WORKING","route_relevance":"Formeel vertrekanker.","detour_class":"START_ANCHOR","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-012","location_id":"201","location_id_status":"ASSIGNED","canonical_name":"Neem Karoli Baba Ashram and Samadhi, Vrindavan","cluster":"BRAJ_VRINDAVAN","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"ashram en samadhi, Maharaj-ji","latitude_wgs84":27.5674,"longitude_wgs84":77.69215,"geo_status":"WORKING","route_relevance":"Formeel vertrekanker; GEO gecorrigeerd.","detour_class":"START_ANCHOR","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-013","location_id":"400","location_id_status":"ASSIGNED","canonical_name":"Babaji Cave","cluster":"KUMAON_DWARAHAT","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"grot, Mahavatar Babaji en Kriya","latitude_wgs84":29.8334,"longitude_wgs84":79.4654,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming; GEO gecorrigeerd.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-014","location_id":"401","location_id_status":"ASSIGNED","canonical_name":"Babaji Smriti Bhavan","cluster":"KUMAON_DWARAHAT","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"herinneringsgebouw, Babaji/Kriya","latitude_wgs84":29.832873,"longitude_wgs84":79.464364,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming; GEO gecorrigeerd.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-015","location_id":"402","location_id_status":"ASSIGNED","canonical_name":"Dunagiri Temple","cluster":"KUMAON_DWARAHAT","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"tempel, Dunagiri en Babaji-context","latitude_wgs84":29.79672,"longitude_wgs84":79.45123,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming; GEO gecorrigeerd.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-016","location_id":"403","location_id_status":"ASSIGNED","canonical_name":"YSS Dwarahat Ashram","cluster":"KUMAON_DWARAHAT","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"ashram, Yogananda/Kriya","latitude_wgs84":29.784767,"longitude_wgs84":79.422761,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming; afgescheiden van cave/Smriti/Dunagiri.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-017","location_id":"404","location_id_status":"ASSIGNED","canonical_name":"Kainchi Dham","cluster":"KUMAON_KAINCHI_NAINITAL","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"ashram-tempel, Neem Karoli Baba","latitude_wgs84":29.42255,"longitude_wgs84":79.51245,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming.","detour_class":"DESTINATION_CLUSTER","ch
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1086 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/central_map_source.jsonl,research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/central_map_source.jsonl blob_sha=8551908d851960f989a0e9cea32c28a94c0b40e1 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=6 classification=text
+ecked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-018","location_id":"405","location_id_status":"ASSIGNED","canonical_name":"Kasar Devi","cluster":"KUMAON_ALMORA","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"tempel/bergplek, meditatie en Vivekananda-context","latitude_wgs84":29.6416,"longitude_wgs84":79.66154,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming; GEO gecorrigeerd.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-019","location_id":"406","location_id_status":"ASSIGNED","canonical_name":"Crank's Ridge","cluster":"KUMAON_ALMORA","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"bergrug, meditatiecultuur","latitude_wgs84":29.648,"longitude_wgs84":79.663,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming; representatief landschapspunt.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-020","location_id":"407","location_id_status":"ASSIGNED","canonical_name":"Kakrighat / Karkateshwar Mahadev","cluster":"KUMAON_ALMORA","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"rivier- en tempelplek, Vivekananda","latitude_wgs84":29.54371,"longitude_wgs84":79.53274,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming; representatief punt gecorrigeerd.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-021","location_id":"408","location_id_status":"ASSIGNED","canonical_name":"Jageshwar","cluster":"KUMAON_ALMORA","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"Shiva-tempelcomplex","latitude_wgs84":29.6375,"longitude_wgs84":79.85428,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming; complexpunt verfijnd.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-022","location_id":"409","location_id_status":"ASSIGNED","canonical_name":"Hanuman Garhi","cluster":"KUMAON_KAINCHI_NAINITAL","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"Hanuman-tempel, Nainital","latitude_wgs84":29.381,"longitude_wgs84":79.455,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-023","location_id":"412","location_id_status":"ASSIGNED","canonical_name":"Bhumiyadhar, first Ram Dass–Maharaj-ji meeting","cluster":"KUMAON_KAINCHI_NAINITAL","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"tempelterrein, eerste ontmoeting Ram Dass en Maharaj-ji","latitude_wgs84":29.411,"longitude_wgs84":79.509,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming; exact meetingpunt niet geclaimd.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-024","location_id":"413","location_id_status":"ASSIGNED","canonical_name":"Ramakrishna Kutir","cluster":"KUMAON_ALMORA","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"ashram, Ramakrishna/Vivekananda","latitude_wgs84":29.597,"longitude_wgs84":79.655,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming; officiële instelling bevestigd.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-025","location_id":"414","location_id_status":"ASSIGNED","canonical_name":"Chitai Golu Devta Temple","cluster":"KUMAON_ALMORA","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"tempel, Golu Devta","latitude_wgs84":29.642,"longitude_wgs84":79.714,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-026","location_id":"420","location_id_status":"ASSIGNED","canonical_name":"Turiya Niwas","cluster":"KUMAON_ALMORA","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"verblijfplaats, spirituele lineagecontext","latitude_wgs84":29.654,"longitude_wgs84":79.669,"geo_status":"WORKING","route_relevance":"Formel
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1087 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/central_map_source.jsonl,research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/central_map_source.jsonl blob_sha=8551908d851960f989a0e9cea32c28a94c0b40e1 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=6 classification=text
+e Kumaon-bestemming; exact ingangspunt open.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-027","location_id":"421","location_id_status":"ASSIGNED","canonical_name":"Bodh Ashram","cluster":"KUMAON_ALMORA","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"ashram, spirituele praktijk","latitude_wgs84":29.643,"longitude_wgs84":79.675,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming; exact ingangspunt open.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-028","location_id":"423","location_id_status":"ASSIGNED","canonical_name":"Haidakhan Vishwa Mahadham","cluster":"KUMAON_HAIDAKHAN","map_layer":"A_FORMEEL","formal_or_research_status":"A","recognition_hook":"ashram, Haidakhan Baba","latitude_wgs84":29.119,"longitude_wgs84":79.701,"geo_status":"WORKING","route_relevance":"Formele Kumaon-bestemming; Haidakhan Baba niet als Mahavatar Babaji geïdentificeerd.","detour_class":"DESTINATION_CLUSTER","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-029","location_id":"209","location_id_status":"ASSIGNED","canonical_name":"Radha Raman Temple","cluster":"BRAJ_VRINDAVAN","map_layer":"B_FORMEEL","formal_or_research_status":"B","recognition_hook":"tempel, Gaudiya/Gopala Bhatta","latitude_wgs84":27.58538,"longitude_wgs84":77.69873,"geo_status":"WORKING","route_relevance":"Bestaande formele B behouden; GEO gecorrigeerd.","detour_class":"START_CLUSTER_CONTEXT","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-030","location_id":"424","location_id_status":"ASSIGNED","canonical_name":"Ghorakhal Temple","cluster":"KUMAON_KAINCHI_NAINITAL","map_layer":"B_FORMEEL","formal_or_research_status":"B","recognition_hook":"tempel, Golu Devta","latitude_wgs84":29.37953,"longitude_wgs84":79.54545,"geo_status":"WORKING","route_relevance":"Bestaande formele B behouden; GEO gecorrigeerd.","detour_class":"DESTINATION_CLUSTER_CONTEXT","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-031","location_id":"415","location_id_status":"ASSIGNED","canonical_name":"Mirtola / Krishnaprem Ashram","cluster":"KUMAON_ALMORA","map_layer":"C_CONTEXT","formal_or_research_status":"C","recognition_hook":"ashram, Krishnaprem","latitude_wgs84":29.663,"longitude_wgs84":79.787,"geo_status":"WORKING","route_relevance":"Formele C bewaard, niet routebepalend.","detour_class":"DESTINATION_CONTEXT","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-032","location_id":"416","location_id_status":"ASSIGNED","canonical_name":"Binsar Wildlife Sanctuary","cluster":"KUMAON_ALMORA","map_layer":"C_CONTEXT","formal_or_research_status":"C","recognition_hook":"natuurgebied, context","latitude_wgs84":29.6667,"longitude_wgs84":79.75,"geo_status":"WORKING","route_relevance":"Formele C bewaard; representatief centrum gecorrigeerd.","detour_class":"DESTINATION_CONTEXT","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-033","location_id":"417","location_id_status":"ASSIGNED","canonical_name":"Patal Bhuvaneshwar","cluster":"KUMAON_OUTER","map_layer":"C_CONTEXT","formal_or_research_status":"C","recognition_hook":"grot-tempel, context","latitude_wgs84":29.691,"longitude_wgs84":80.091,"geo_status":"WORKING","route_relevance":"Formele C bewaard, niet routebepalend.","detour_class":"OUTER_KUMAON_CONTEXT","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-034","location_id":"422","location_id_status":"ASSIGNED","canonical_name":"Daulchina / Dhaulchina Ashram","cluster":"KUMAON_ALMORA","map_layer":"C_CONTEXT","formal_or_research_status":"C","recognition_hook":"ashram, context","latitude_wgs84":29.743,"longitude_wgs84":79.632,"geo_status":"WORKING","route_relevance":"Formele C bewaard; exacte ingang open.","detour_class":"DESTINATION_CONTEXT","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-035","location_id":"300","location_id_status":"ASSIGNED","canonical_name":"Mathura Junction railway station","cluster":"CORRIDOR_MATHURA","map_layer":"CORRIDOR_EN_STATIONS","formal_or_research_status":"CORRIDOR_EN_STATIONS","recognition_hook":"hoofdstation, vertrekpoort Vrindavan","latitude_wgs84":27.49
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1088 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/central_map_source.jsonl,research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/central_map_source.jsonl blob_sha=8551908d851960f989a0e9cea32c28a94c0b40e1 original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=6 classification=text
+24,"longitude_wgs84":77.6737,"geo_status":"WORKING","route_relevance":"Principal rail gateway.","detour_class":"START_NODE","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-036","location_id":"301","location_id_status":"ASSIGNED","canonical_name":"Mathura Cantt railway station","cluster":"CORRIDOR_MATHURA","map_layer":"CORRIDOR_EN_STATIONS","formal_or_research_status":"CORRIDOR_EN_STATIONS","recognition_hook":"station, Ramnagar-treinlead","latitude_wgs84":27.5006,"longitude_wgs84":77.6907,"geo_status":"WORKING","route_relevance":"Date-dependent train lead.","detour_class":"START_NODE","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-037","location_id":"302","location_id_status":"ASSIGNED","canonical_name":"New Delhi railway station","cluster":"DELHI_COMPARISON","map_layer":"CORRIDOR_EN_STATIONS","formal_or_research_status":"CORRIDOR_EN_STATIONS","recognition_hook":"station, Kathgodam Shatabdi","latitude_wgs84":28.6429,"longitude_wgs84":77.2199,"geo_status":"WORKING","route_relevance":"Delhi comparison only.","detour_class":"MAJOR_BACKTRACK","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-038","location_id":"303","location_id_status":"ASSIGNED","canonical_name":"YSS Noida Ashram","cluster":"DELHI_COMPARISON","map_layer":"CORRIDOR_EN_STATIONS","formal_or_research_status":"DIRECT_LINE_CONTEXT_ONLY","recognition_hook":"ashram, Yogananda/Kriya","latitude_wgs84":28.6246,"longitude_wgs84":77.3718,"geo_status":"WORKING","route_relevance":"Direct-line institution; routegate faalt.","detour_class":"MAJOR_BACKTRACK","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-039","location_id":"304","location_id_status":"ASSIGNED","canonical_name":"Gajraula Junction / road node","cluster":"DIRECT_ROAD_CORRIDOR","map_layer":"CORRIDOR_EN_STATIONS","formal_or_research_status":"CORRIDOR_EN_STATIONS","recognition_hook":"weg-/spoorknooppunt","latitude_wgs84":28.8447,"longitude_wgs84":78.2395,"geo_status":"WORKING","route_relevance":"Directe corridor.","detour_class":"DIRECT","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-040","location_id":"305","location_id_status":"ASSIGNED","canonical_name":"Moradabad Junction railway station","cluster":"DIRECT_ROAD_CORRIDOR","map_layer":"CORRIDOR_EN_STATIONS","formal_or_research_status":"CORRIDOR_EN_STATIONS","recognition_hook":"spoorwegknooppunt, Kumaon-overstap","latitude_wgs84":28.8386,"longitude_wgs84":78.7733,"geo_status":"WORKING","route_relevance":"Directe corridor en treintransfer.","detour_class":"DIRECT","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-041","location_id":"306","location_id_status":"ASSIGNED","canonical_name":"Rampur Junction railway station","cluster":"DIRECT_ROAD_CORRIDOR","map_layer":"CORRIDOR_EN_STATIONS","formal_or_research_status":"CORRIDOR_EN_STATIONS","recognition_hook":"spoorwegaftakking, Kumaon","latitude_wgs84":28.806,"longitude_wgs84":79.0245,"geo_status":"WORKING","route_relevance":"Directe corridor.","detour_class":"DIRECT","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-042","location_id":"307","location_id_status":"ASSIGNED","canonical_name":"Rudrapur City railway station","cluster":"DIRECT_ROAD_CORRIDOR","map_layer":"CORRIDOR_EN_STATIONS","formal_or_research_status":"CORRIDOR_EN_STATIONS","recognition_hook":"station, vlakteknooppunt","latitude_wgs84":28.9743,"longitude_wgs84":79.3996,"geo_status":"WORKING","route_relevance":"Directe corridor.","detour_class":"DIRECT","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-043","location_id":"308","location_id_status":"ASSIGNED","canonical_name":"Lal Kuan Junction railway station","cluster":"KUMAON_FOOTHILLS","map_layer":"CORRIDOR_EN_STATIONS","formal_or_research_status":"CORRIDOR_EN_STATIONS","recognition_hook":"station, Kumaon-vertakking","latitude_wgs84":29.0665,"longitude_wgs84":79.5195,"geo_status":"WORKING","route_relevance":"Kumaon-aankomst/overstap.","detour_class":"DIRECT","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-044","location_id":"309","location_id_status":"ASSIGNED","canonical_name":"Haldwani railway station","cluster":"KUMAON_FOOTHILLS","map_layer":"CORRIDOR_EN_STATIONS","formal_or_research_st
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1089 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/central_map_source.jsonl,research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/central_map_source.jsonl blob_sha=8551908d851960f989a0e9cea32c28a94c0b40e1 original_offset=20480 original_length=3762 payload_bytes=3762 chunk_index=5 chunk_count=6 classification=text
+atus":"CORRIDOR_EN_STATIONS","recognition_hook":"stad en station, poort naar Kumaon","latitude_wgs84":29.2183,"longitude_wgs84":79.5127,"geo_status":"WORKING","route_relevance":"Hoofdpoort naar Kumaon.","detour_class":"DIRECT","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-045","location_id":"310","location_id_status":"ASSIGNED","canonical_name":"Kathgodam railway station","cluster":"KUMAON_FOOTHILLS","map_layer":"CORRIDOR_EN_STATIONS","formal_or_research_status":"CORRIDOR_EN_STATIONS","recognition_hook":"spoorwegterminus, poort naar de heuvels","latitude_wgs84":29.2693,"longitude_wgs84":79.546,"geo_status":"WORKING","route_relevance":"Spoorpoort naar Kumaon.","detour_class":"DIRECT","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-046","location_id":"311","location_id_status":"ASSIGNED","canonical_name":"Kasganj Junction railway station","cluster":"KASGANJ_BAREILLY_CORRIDOR","map_layer":"CORRIDOR_EN_STATIONS","formal_or_research_status":"CORRIDOR_EN_STATIONS","recognition_hook":"spoor-/wegknooppunt","latitude_wgs84":27.8087,"longitude_wgs84":78.6463,"geo_status":"WORKING","route_relevance":"Alternatieve corridor.","detour_class":"COMPARISON","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-047","location_id":"312","location_id_status":"ASSIGNED","canonical_name":"Soron Shukar Kshetra","cluster":"KASGANJ_BAREILLY_CORRIDOR","map_layer":"C_CONTEXT","formal_or_research_status":"CONTEXT_ONLY","recognition_hook":"regionale pelgrimsplek, Varaha/Ganga","latitude_wgs84":27.8904,"longitude_wgs84":78.746,"geo_status":"WORKING","route_relevance":"Zware poort faalt.","detour_class":"LOW_ON_ALTERNATIVE","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-048","location_id":"313","location_id_status":"ASSIGNED","canonical_name":"Bareilly Junction railway station","cluster":"KASGANJ_BAREILLY_CORRIDOR","map_layer":"CORRIDOR_EN_STATIONS","formal_or_research_status":"CORRIDOR_EN_STATIONS","recognition_hook":"spoorwegknooppunt, Bareilly","latitude_wgs84":28.3364,"longitude_wgs84":79.4111,"geo_status":"WORKING","route_relevance":"Alternatieve corridor.","detour_class":"COMPARISON","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-049","location_id":"314","location_id_status":"ASSIGNED","canonical_name":"Ramnagar railway station","cluster":"WESTERN_KUMAON_ARRIVAL","map_layer":"CORRIDOR_EN_STATIONS","formal_or_research_status":"CORRIDOR_EN_STATIONS","recognition_hook":"station, westelijke Kumaon-aankomst","latitude_wgs84":29.3941,"longitude_wgs84":79.1265,"geo_status":"WORKING","route_relevance":"Datumafhankelijke Mathura-treinlead.","detour_class":"SUBCLUSTER_DEPENDENT","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-050","location_id":"315","location_id_status":"ASSIGNED","canonical_name":"Dargah-e-Ala Hazrat","cluster":"KASGANJ_BAREILLY_CORRIDOR","map_layer":"C_CONTEXT","formal_or_research_status":"RESEARCH_EXCEPTION_ONLY","recognition_hook":"soefi-schrijn, Ahmad Raza Khan/Barelvi","latitude_wgs84":28.3676,"longitude_wgs84":79.4155,"geo_status":"WORKING","route_relevance":"Onderzoeksuitzondering; zware routepoort faalt.","detour_class":"ON_BAREILLY_ALTERNATIVE","checked_at":"2026-07-18"}
+{"map_record_id":"ZCMS-051","location_id":null,"location_id_status":"BLOCK_RESERVATION_REQUIRED","location_id_request":"LIR-004","canonical_name":"Anandamayi Ma Samadhi, Kankhal","cluster":"HARIDWAR_KANKHAL","map_layer":"C_CONTEXT","formal_or_research_status":"HEAVY_A_GATE_PASS_CANDIDATE_ROUTE_FAIL","recognition_hook":"samadhi, Anandamayi Ma","latitude_wgs84":null,"longitude_wgs84":null,"geo_status":"NOT_ESTABLISHED","route_relevance":"Institutioneel bevestigde directe-lijnkandidaat buiten snelste corridor; afzonderlijke routekeuze nodig.","detour_class":"MAJOR_OFF_CORRIDOR_DETOUR","checked_at":"2026-07-18"}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1090 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/claims.jsonl blob_sha=3ff19c35e58408e9a9c1d6c73fea6251b9e365e2 original_offset=0 original_length=3232 payload_bytes=3232 chunk_index=0 chunk_count=1 classification=text
+{"claim_id":"GC-001","candidate_id":"CORRIDOR-DIRECT-ROAD","claim_type":"PROXIMITY","claim_text":"The direct road corridor from Vrindavan via Moradabad, Rampur and Rudrapur to the Haldwani/Kathgodam gateway remains the most continuous standard option.","evidence_status":"SUPPORTED_SECONDARY","source_ids":["ZS-004","ZS-005"],"notes":"No live ETA is claimed; use a date-specific route check."}
+{"claim_id":"GC-002","candidate_id":"CORRIDOR-DELHI-RAIL","claim_type":"PROXIMITY","claim_text":"Official Indian Railways lists currently retain 12039/12040 and 15035/15036 with the same endpoint and time classes validated by ZILVER.","evidence_status":"HISTORICALLY_DOCUMENTED","source_ids":["GS-001","GS-002"],"notes":"Current list presence does not guarantee exact December 2026 operation or availability."}
+{"claim_id":"GC-003","candidate_id":"CORRIDOR-DATE-SPECIFIC-RAIL","claim_type":"VISITABILITY","claim_text":"Exact train operation and booking availability for Mark's December 2026 travel date are not yet reliably establishable and require a later PRS/IRCTC date query.","evidence_status":"PRACTICAL_CHECK_REQUIRED","source_ids":["GS-003"],"notes":"No future timetable or seat availability was invented."}
+{"claim_id":"GC-004","candidate_id":"CORRIDOR-WINTER-CONTROL","claim_type":"VISITABILITY","claim_text":"December 2026 fog, weather, visibility and road conditions cannot be forecast reliably in July 2026 and require live IMD and road checks near departure.","evidence_status":"PRACTICAL_CHECK_REQUIRED","source_ids":["GS-004","ZS-006"],"notes":"Seasonal risk is not represented as a forecast."}
+{"claim_id":"GC-005","candidate_id":"ALL-ROUTE-ZONES","claim_type":"OVERLAY_RELATION","claim_text":"No investigated physical place on the realistic corridor passed both the strict heavy-content gate and the route gate.","evidence_status":"NOT_ESTABLISHED","source_ids":["ZR-005","ZS-007","ZS-008","ZS-026","ZS-027"],"notes":"Negative conclusion is limited to the route-changing threshold."}
+{"claim_id":"GC-006","candidate_id":"GEO-WORKING-SET","claim_type":"PHYSICAL_IDENTITY","claim_text":"All forty ZILVER WORKING_GEO records remain usable for corridor and overview mapping; an exact visitor entrance is not a release prerequisite under the pinned run policy.","evidence_status":"HISTORICALLY_DOCUMENTED","source_ids":["GS-005","GS-006"],"notes":"WORKING remains visibly distinct from VERIFIED."}
+{"claim_id":"GC-007","candidate_id":"FORMAL-STATUS-AND-IDS","claim_type":"PHYSICAL_IDENTITY","claim_text":"All 28 formal A, 2 formal B and 4 formal C records and all assigned Braj, corridor and Kumaon LOCATION_IDs remain unchanged and block-pure.","evidence_status":"HISTORICALLY_DOCUMENTED","source_ids":["ZS-024","ZS-025"],"notes":"GOUD assigned no formal or advisory A/B/C."}
+{"claim_id":"GC-008","candidate_id":"CORRIDOR-CONCLUSION","claim_type":"PROXIMITY","claim_text":"The final corridor decision remains DOORREIZEN NAAR KUMAON; an overnight is justified only by transport safety or timing, not by a discovered corridor heavy-A place.","evidence_status":"INFERRED","source_ids":["ZS-004","ZS-005","ZS-006","GS-001","GS-002","ZR-005"],"notes":"Subject to live date-specific transport and weather checks."}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1091 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/decision.md blob_sha=93ece22d52e32b0ad20789e5ebae97ab2c9be5db original_offset=0 original_length=1003 payload_bytes=1003 chunk_index=0 chunk_count=1 classification=text
+# GOUD decision — VRINDAVAN-KUMAON-CORRIDOR-001
+
+- status: `PARTIAL`
+- corridor_result: `DOORREIZEN_NAAR_KUMAON`
+- decision_reliability: `BRUIKBAAR_MET_TIJDGEVOELIGE_CONTROLES`
+- schema_v2_preserved: `YES`
+- inline_handoff_migration: `NO`
+- new_formal_or_advisory_abc: `NO`
+- final_all_project_kml_created: `NO`
+- next_destination: `VOOR_SUBREGIE_INDIA`
+
+## Besluit
+
+De snelste en logischste werkcorridor blijft rechtstreeks vanuit Vrindavan naar Kumaon. Geen onderzochte routeplek rechtvaardigt een spirituele tussenstop of overnachting. Treinroutes blijven vergelijkingsopties die pas op Marks exacte datum definitief kunnen worden beoordeeld.
+
+De ZILVER-kaartbron, alle 40 WORKING_GEO-punten, de 40-placemark voorlopige KML, de formele statussen en LOCATION_IDs zijn technisch voldoende behouden voor de volgende validatiestap.
+
+## Open controle
+
+SUBREGIE valideert de volledige GOUD-output en beslist daarna uitsluitend over de technische vervolgroute van deze oude schema-v2-run.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1092 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/decision_inputs.md blob_sha=86d2e7874edc24a349f33f7e0f15d9b853321956 original_offset=0 original_length=1304 payload_bytes=1304 chunk_index=0 chunk_count=1 classification=text
+# Decision inputs — corridor Vrindavan naar Kumaon
+
+## Rechtstreeks antwoord
+
+Ga vanuit Vrindavan door naar Kumaon. Er is op de onderzochte realistische corridors geen nieuwe zware plek gevonden die een spirituele tussenstop of overnachting rechtvaardigt.
+
+## Transportkeuze
+
+1. Rechtstreeks per auto met chauffeur is de meest continue standaard.
+2. Delhi plus Kathgodam Shatabdi is een comfortoptie wanneer Mark bewust teruggaat of vooraf in Delhi overnacht.
+3. Een auto-treincombinatie via Moradabad kan rijbelasting beperken, maar heeft geen bewezen deur-tot-deurvoordeel.
+4. Mathura–Ramnagar blijft alleen een datumgerichte vergelijking.
+
+## Afzonderlijk later te beslissen
+
+Anandamayi Ma Samadhi in Kankhal is inhoudelijk sterk bevestigd, maar hoort niet in de snelste corridor naar Kumaon. Alleen een afzonderlijke Haridwar/Anandamayi-routekeuze kan deze plek opnemen.
+
+## Kaartbetekenis
+
+De voorlopige KML toont alle binnen de beschikbare blokken kaartklare A-, B-, C- en corridorpunten. WORKING is voldoende voor overzicht; een exacte ingang is niet vereist. Een complete master-KML voor alle projectregio's is nog een afzonderlijke consolidatierun.
+
+## Formele status
+
+Geen nieuwe A/B/C-beslissing nodig voor deze corridoruitkomst. Alle bestaande statussen blijven van Mark.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1093 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/detector_checks.jsonl,research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/detector_checks.jsonl blob_sha=b19e9a0ae925a774a1c2b1e29a497029fb9ef6b9 original_offset=0 original_length=2984 payload_bytes=2984 chunk_index=0 chunk_count=1 classification=text
+{"detector_id":"ZDC-001","detector":"Yogananda / YSS / SRF","zones_checked":["Vrindavan/Mathura","Delhi/Noida","Moradabad","Bareilly","Haldwani/Kathgodam"],"result":"YSS Noida official institution confirmed; route gate failed. Existing Vrindavan and Kumaon anchors preserved.","source_ids":["ZS-007"]}
+{"detector_id":"ZDC-002","detector":"Mahavatar Babaji / Kriya / Lahiri / Sri Yukteswar / Keshavanand","zones_checked":["all corridor zones"],"result":"No new corridor physical site passed; Dwarahat destination points corrected and preserved.","source_ids":["ZS-011","ZS-012","ZS-013"]}
+{"detector_id":"ZDC-003","detector":"Neem Karoli Baba / Ram Dass","zones_checked":["all corridor zones"],"result":"No new corridor site; Vrindavan departure and Kumaon Kainchi/Bhumiyadhar destinations preserved.","source_ids":["ZS-022","ZR-005"]}
+{"detector_id":"ZDC-004","detector":"Anandamayi Ma","zones_checked":["corridor plus exceptional outside-zone check"],"result":"Kankhal ashram and samadhi institutionally confirmed; content gate passes and route gate fails due major detour.","source_ids":["ZS-008","ZS-009","ZS-010"]}
+{"detector_id":"ZDC-005","detector":"Ramakrishna / Vivekananda","zones_checked":["all corridor zones"],"result":"No new corridor physical site; formal Kumaon destinations preserved.","source_ids":["ZS-016","ZR-005"]}
+{"detector_id":"ZDC-006","detector":"Ramana Maharshi / Buddha / Hariharananda / other TOP_X","zones_checked":["all corridor zones"],"result":"No concrete corridor physical relation established.","source_ids":["ZR-005"]}
+{"detector_id":"ZDC-007","detector":"Krishna category 1 — Bhagavad Gita teacher","zones_checked":["all corridor zones"],"result":"No canonical Gita-teaching physical site on the corridor.","source_ids":["ZR-005"]}
+{"detector_id":"ZDC-008","detector":"Krishna category 2 — Krishna/Babaji Kriya","zones_checked":["all corridor zones"],"result":"No new corridor physical site beyond existing Kriya anchors.","source_ids":["ZR-005"]}
+{"detector_id":"ZDC-009","detector":"Krishna category 3 — national/world canonical","zones_checked":["all corridor zones"],"result":"No exceptional category-3 corridor site established.","source_ids":["ZR-005"]}
+{"detector_id":"ZDC-010","detector":"Krishna categories 4 and 5 — ordinary temple/regional story place","zones_checked":["all corridor zones"],"result":"Generic and regional possibilities excluded by the strict gate; no ordinary-temple inflation.","source_ids":["ZR-005"]}
+{"detector_id":"ZDC-011","detector":"India Essential","zones_checked":["all corridor zones"],"result":"Dargah-e-Ala Hazrat retained as research exception; strict route-changing threshold not met. Soron failed.","source_ids":["ZS-026","ZS-027","ZR-005"]}
+{"detector_id":"ZDC-012","detector":"Small physical places outside tourist lists","zones_checked":["all corridor zones"],"result":"No additional direct-line small site passed physical identity plus heavy gate.","source_ids":["ZR-005"]}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1094 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/formal_status_coverage.md blob_sha=7e8e1db8a1e1918a70f3e503442e81ea216bb4d2 original_offset=0 original_length=481 payload_bytes=481 chunk_index=0 chunk_count=1 classification=text
+# Formal-status coverage — GOUD
+
+- verwachte formele A: 28;
+- aanwezig in de centrale kaartbron: 28;
+- verwachte formele B: 2;
+- aanwezig: 2;
+- verwachte formele C: 4;
+- aanwezig: 4;
+- ontbrekende formele records: 0;
+- gewijzigde formele statussen: 0;
+- nieuw toegewezen formele of adviserende A/B/C: 0.
+
+`B_FORMEEL` blijft de juiste laag voor Radha Raman Temple en Ghorakhal Temple.
+
+GOUD heeft geen status herbeoordeeld. Alleen Mark kan formele A/B/C wijzigen.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1095 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/geo_connections.jsonl blob_sha=9d9073ab455c3822ef82555f62d85ceae3f12860 original_offset=0 original_length=1724 payload_bytes=1724 chunk_index=0 chunk_count=1 classification=text
+{"connection_id":"GCON-001","from_location_id":"200","to_location_id":"310","mode":"CAR","estimated_time_min":null,"time_class":"420_540_MIN_CONSERVATIVE_WINTER_PLANNING_CLASS_TO_FOOTHILL_GATEWAY","distance_km":null,"source_or_method":"ZCR-001; official NH-09 section evidence plus conservative planning class","checked_at":"2026-07-18","traffic_or_access_notes":"Live router, fog, pauses, driver hours and onward hill destination materially affect actual duration.","status":"WORKING"}
+{"connection_id":"GCON-002","from_location_id":"201","to_location_id":"310","mode":"CAR","estimated_time_min":null,"time_class":"420_540_MIN_CONSERVATIVE_WINTER_PLANNING_CLASS_TO_FOOTHILL_GATEWAY","distance_km":null,"source_or_method":"ZCR-001; same departure cluster and direct corridor","checked_at":"2026-07-18","traffic_or_access_notes":"Live router and safety margin required.","status":"WORKING"}
+{"connection_id":"GCON-003","from_location_id":"302","to_location_id":"310","mode":"TRAIN_12040","estimated_time_min":340,"distance_km":null,"source_or_method":"Indian Railways Shatabdi list","checked_at":"2026-07-18","traffic_or_access_notes":"Requires deliberate backtrack/pre-positioning from Vrindavan and date-specific PRS confirmation.","status":"CURRENT_SERVICE_DATE_OPEN"}
+{"connection_id":"GCON-004","from_location_id":"301","to_location_id":"314","mode":"TRAIN_15055_LEAD","estimated_time_min":null,"time_class":"LONG_DATE_DEPENDENT","distance_km":null,"source_or_method":"Indian Railways PRS lead; operating-day conflict unresolved","checked_at":"2026-07-18","traffic_or_access_notes":"Exact train, day, boarding station and western-Kumaon suitability must be verified.","status":"PRACTICAL_CHECK_REQUIRED"}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1096 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/geo_locations.jsonl,research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/working_geo.jsonl,research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/working_geo.jsonl blob_sha=2dd7f3e903d2c3be4098167afd8caca2643b3c9d original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=6 classification=text
+{"location_id":"300","candidate_id":"NODE-MATHURA-JUNCTION","canonical_name":"Mathura Junction railway station","cluster":"CORRIDOR_MATHURA","research_label":"CORRIDOR_EN_STATIONS","latitude_wgs84":27.4924,"longitude_wgs84":77.6737,"geo_status":"WORKING","point_type":"STATION_POINT","estimated_accuracy":"50_150_M","map_source":"Google Maps search and District Mathura station identity","map_url":"https://www.google.com/maps/search/?api=1&query=Mathura+Junction+railway+station","point_choice_reason":"Principal practical rail gateway for Vrindavan; exact platform entrance not asserted.","checked_at":"2026-07-18","recheck_before":"2026-12-01"}
+{"location_id":"301","candidate_id":"NODE-MATHURA-CANTT","canonical_name":"Mathura Cantt railway station","cluster":"CORRIDOR_MATHURA","research_label":"CORRIDOR_EN_STATIONS","latitude_wgs84":27.5006,"longitude_wgs84":77.6907,"geo_status":"WORKING","point_type":"STATION_POINT","estimated_accuracy":"150_500_M","map_source":"Google Maps search and District Mathura station identity","map_url":"https://www.google.com/maps/search/?api=1&query=Mathura+Cantt+railway+station","point_choice_reason":"Working station point for the Ramnagar train lead.","checked_at":"2026-07-18","recheck_before":"2026-12-01"}
+{"location_id":"302","candidate_id":"NODE-NEW-DELHI","canonical_name":"New Delhi railway station","cluster":"DELHI_COMPARISON","research_label":"CORRIDOR_EN_STATIONS","latitude_wgs84":28.6429,"longitude_wgs84":77.2199,"geo_status":"WORKING","point_type":"STATION_POINT","estimated_accuracy":"50_150_M","map_source":"Google Maps search and Indian Railways service identity","map_url":"https://www.google.com/maps/search/?api=1&query=New+Delhi+railway+station","point_choice_reason":"Delhi comparison departure station for Shatabdi.","checked_at":"2026-07-18","recheck_before":"2026-12-01"}
+{"location_id":"303","candidate_id":"HEAVY-YSS-NOIDA","canonical_name":"YSS Noida Ashram","cluster":"DELHI_COMPARISON","research_label":"DIRECT_LINE_CONTEXT_ONLY","latitude_wgs84":28.6246,"longitude_wgs84":77.3718,"geo_status":"WORKING","point_type":"COMPLEX_CENTRE","estimated_accuracy":"150_500_M","map_source":"Google Maps search and official YSS address","map_url":"https://www.google.com/maps/search/?api=1&query=YSS+Noida+Ashram","point_choice_reason":"Official Sector 62 institution; exact gate remains unverified.","checked_at":"2026-07-18","recheck_before":"before visit use"}
+{"location_id":"304","candidate_id":"NODE-GAJRAULA","canonical_name":"Gajraula Junction / road node","cluster":"DIRECT_ROAD_CORRIDOR","research_label":"CORRIDOR_EN_STATIONS","latitude_wgs84":28.8447,"longitude_wgs84":78.2395,"geo_status":"WORKING","point_type":"CITY_TRANSPORT_NODE","estimated_accuracy":"150_500_M","map_source":"Google Maps search","map_url":"https://www.google.com/maps/search/?api=1&query=Gajraula+Junction","point_choice_reason":"Representative road and rail junction on the direct axis.","checked_at":"2026-07-18","recheck_before":"2026-12-01"}
+{"location_id":"305","candidate_id":"NODE-MORADABAD","canonical_name":"Moradabad Junction railway station","cluster":"DIRECT_ROAD_CORRIDOR","research_label":"CORRIDOR_EN_STATIONS","latitude_wgs84":28.8386,"longitude_wgs84":78.7733,"geo_status":"WORKING","point_type":"STATION_POINT","estimated_accuracy":"50_150_M","map_source":"Google Maps search and railway identity","map_url":"https://www.google.com/maps/search/?api=1&query=Moradabad+Junction+railway+station","point_choice_reason":"Major interchange for Kumaon rail services.","checked_at":"2026-07-18","recheck_before":"2026-12-01"}
+{"location_id":"306","candidate_id":"NODE-RAMPUR","canonical_name":"Rampur Junction railway station","cluster":"DIRECT_ROAD_CORRIDOR","research_label":"CORRIDOR_EN_STATIONS","latitude_wgs84":28.806,"longitude_wgs84":79.0245,"geo_status":"WORKING","point_type":"STATION_POINT","estimated_accuracy":"50_150_M","map_source":"Google Maps search and railway identity","map_url":"https://www.google.com/maps/search/?api=1&query=Rampur+Junction+railway+station","point_choice_reason":"Junction on the Kumaon rail axis.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1097 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/geo_locations.jsonl,research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/working_geo.jsonl,research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/working_geo.jsonl blob_sha=2dd7f3e903d2c3be4098167afd8caca2643b3c9d original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=6 classification=text
+","checked_at":"2026-07-18","recheck_before":"2026-12-01"}
+{"location_id":"307","candidate_id":"NODE-RUDRAPUR","canonical_name":"Rudrapur City railway station","cluster":"DIRECT_ROAD_CORRIDOR","research_label":"CORRIDOR_EN_STATIONS","latitude_wgs84":28.9743,"longitude_wgs84":79.3996,"geo_status":"WORKING","point_type":"STATION_POINT","estimated_accuracy":"50_150_M","map_source":"Google Maps search and railway identity","map_url":"https://www.google.com/maps/search/?api=1&query=Rudrapur+City+railway+station","point_choice_reason":"Plains transport node before Lal Kuan and Haldwani.","checked_at":"2026-07-18","recheck_before":"2026-12-01"}
+{"location_id":"308","candidate_id":"NODE-LAL-KUAN","canonical_name":"Lal Kuan Junction railway station","cluster":"KUMAON_FOOTHILLS","research_label":"CORRIDOR_EN_STATIONS","latitude_wgs84":29.0665,"longitude_wgs84":79.5195,"geo_status":"WORKING","point_type":"STATION_POINT","estimated_accuracy":"50_150_M","map_source":"Google Maps search and railway identity","map_url":"https://www.google.com/maps/search/?api=1&query=Lal+Kuan+Junction+railway+station","point_choice_reason":"Rail and road junction for western and central Kumaon.","checked_at":"2026-07-18","recheck_before":"2026-12-01"}
+{"location_id":"309","candidate_id":"NODE-HALDWANI","canonical_name":"Haldwani railway station","cluster":"KUMAON_FOOTHILLS","research_label":"CORRIDOR_EN_STATIONS","latitude_wgs84":29.2183,"longitude_wgs84":79.5127,"geo_status":"WORKING","point_type":"STATION_POINT","estimated_accuracy":"50_150_M","map_source":"Google Maps search and railway identity","map_url":"https://www.google.com/maps/search/?api=1&query=Haldwani+railway+station","point_choice_reason":"Principal urban gateway to Kumaon.","checked_at":"2026-07-18","recheck_before":"2026-12-01"}
+{"location_id":"310","candidate_id":"NODE-KATHGODAM","canonical_name":"Kathgodam railway station","cluster":"KUMAON_FOOTHILLS","research_label":"CORRIDOR_EN_STATIONS","latitude_wgs84":29.2693,"longitude_wgs84":79.546,"geo_status":"WORKING","point_type":"STATION_POINT","estimated_accuracy":"50_150_M","map_source":"Google Maps search and Indian Railways destination identity","map_url":"https://www.google.com/maps/search/?api=1&query=Kathgodam+railway+station","point_choice_reason":"Rail terminus and gateway to Nainital and Almora routes.","checked_at":"2026-07-18","recheck_before":"2026-12-01"}
+{"location_id":"311","candidate_id":"NODE-KASGANJ","canonical_name":"Kasganj Junction railway station","cluster":"KASGANJ_BAREILLY_CORRIDOR","research_label":"CORRIDOR_EN_STATIONS","latitude_wgs84":27.8087,"longitude_wgs84":78.6463,"geo_status":"WORKING","point_type":"STATION_POINT","estimated_accuracy":"50_150_M","map_source":"Google Maps search and railway identity","map_url":"https://www.google.com/maps/search/?api=1&query=Kasganj+Junction+railway+station","point_choice_reason":"Rail and road node on the alternative corridor.","checked_at":"2026-07-18","recheck_before":"2026-12-01"}
+{"location_id":"312","candidate_id":"CONTEXT-SORON","canonical_name":"Soron Shukar Kshetra","cluster":"KASGANJ_BAREILLY_CORRIDOR","research_label":"CONTEXT_ONLY","latitude_wgs84":27.8904,"longitude_wgs84":78.746,"geo_status":"WORKING","point_type":"SITE_CENTRE","estimated_accuracy":"150_500_M","map_source":"Google Maps search","map_url":"https://www.google.com/maps/search/?api=1&query=Soron+Shukar+Kshetra","point_choice_reason":"Regional pilgrimage context; strict heavy-A gate failed.","checked_at":"2026-07-18","recheck_before":"before visit use"}
+{"location_id":"313","candidate_id":"NODE-BAREILLY","canonical_name":"Bareilly Junction railway station","cluster":"KASGANJ_BAREILLY_CORRIDOR","research_label":"CORRIDOR_EN_STATIONS","latitude_wgs84":28.3364,"longitude_wgs84":79.4111,"geo_status":"WORKING","point_type":"STATION_POINT","estimated_accuracy":"50_150_M","map_source":"Google Maps search and railway identity","map_url":"https://www.google.com/maps/search/?api=1&query=Bareilly+Junction+railway+station","point_choice_reason":"Comparison interchange toward Lal Kuan and Haldwani.","checked_
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1098 path=research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/geo_locations.jsonl,research/active/VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/working_geo.jsonl,research/active/VRINDAVAN-KUMAON-CORRIDOR-001/ZILVER/working_geo.jsonl blob_sha=2dd7f3e903d2c3be4098167afd8caca2643b3c9d original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=6 classification=text
+at":"2026-07-18","recheck_before":"2026-12-01"}
+{"location_id":"314","candidate_id":"NODE-RAMNAGAR","canonical_name":"Ramnagar railway station","cluster":"WESTERN_KUMAON_ARRIVAL","research_label":"CORRIDOR_EN_STATIONS","latitude_wgs84":29.3941,"longitude_wgs84":79.1265,"geo_status":"WORKING","point_type":"STATION_POINT","estimated_accuracy":"50_150_M","map_source":"Google Maps search and railway identity","map_url":"https://www.google.com/maps/search/?api=1&query=Ramnagar+railway+station","point_choice_reason":"Endpoint of the Mathura train lead; not equivalent to Kathgodam.","checked_at":"2026-07-18","recheck_before":"2026-12-01"}
+{"location_id":"315","candidate_id":"EXCEPTION-DARGAH-ALA-HAZRAT","canonical_name":"Dargah-e-Ala Hazrat","cluster":"KASGANJ_BAREILLY_CORRIDOR","research_label":"RESEARCH_EXCEPTION_ONLY","latitude_wgs84":28.3676,"longitude_wgs84":79.4155,"geo_status":"WORKING","point_type":"COMPLEX_CENTRE","estimated_accuracy":"150_500_M","map_source":"Google Maps search and shrine identity sources","map_url":"https://www.google.com/maps/search/?api=1&query=Dargah-e-Ala+Hazrat+Bareilly","point_choice_reason":"Major Barelvi shrine; no formal or advisory status assigned.","checked_at":"2026-07-18","recheck_before":"before visit use"}
+{"location_id":"200","candidate_id":"IND-PLACE-000001","canonical_name":"Katyayani Peeth / Keshav Ashram","cluster":"BRAJ_VRINDAVAN","formal_status":"A","latitude_wgs84":27.5769,"longitude_wgs84":77.6905,"geo_status":"WORKING","point_type":"COMPLEX_CENTRE","estimated_accuracy":"150_500_M","map_source":"Google Maps search and official address","map_url":"https://www.google.com/maps/search/?api=1&query=Katyayani+Peeth+Keshav+Ashram","point_choice_reason":"Reasonable official-institution working point; exact visitor gate not independently verified.","checked_at":"2026-07-18","recheck_before":"before route or visit use"}
+{"location_id":"201","candidate_id":"IND-PLACE-000002","canonical_name":"Neem Karoli Baba Ashram and Samadhi, Vrindavan","cluster":"BRAJ_VRINDAVAN","formal_status":"A","latitude_wgs84":27.5674,"longitude_wgs84":77.69215,"geo_status":"WORKING","point_type":"COMPLEX_CENTRE","estimated_accuracy":"25_50_M","map_source":"Wikimedia geotag and map identity","map_url":"https://commons.wikimedia.org/wiki/File%3A2017-12-25-18-26-41-631_Neem_karoli_baba_ji_ka_ashram_2.jpg","point_choice_reason":"Corrects the BRONS point to the geotagged Vrindavan ashram complex.","checked_at":"2026-07-18","recheck_before":"before visit use"}
+{"location_id":"400","candidate_id":"KUMAON-15","canonical_name":"Babaji Cave","cluster":"KUMAON_DWARAHAT","formal_status":"A","latitude_wgs84":29.8334,"longitude_wgs84":79.4654,"geo_status":"WORKING","point_type":"EXACT_SITE","estimated_accuracy":"25_50_M","map_source":"Wikimedia geotag and YSS lineage identity","map_url":"https://commons.wikimedia.org/wiki/File%3AMahavatar_Babaji%27s_Cave.jpg","point_choice_reason":"Material correction from the Dwarahat ashram area to the geotagged cave site.","checked_at":"2026-07-18","recheck_before":"before trail use"}
+{"location_id":"401","candidate_id":"KUMAON-16","canonical_name":"Babaji Smriti Bhavan","cluster":"KUMAON_DWARAHAT","formal_status":"A","latitude_wgs84":29.832873,"longitude_wgs84":79.464364,"geo_status":"WORKING","point_type":"BUILDING_CENTRE","estimated_accuracy":"50_150_M","map_source":"YSS lineage description and nearby geotagged cave approach","map_url":"https://yssofindia.org/blog/newsletter-and-appeal-2011","point_choice_reason":"Smriti Bhavan is near Babaji Cave and distinct from Dwarahat Ashram.","checked_at":"2026-07-18","recheck_before":"before trail use"}
+{"location_id":"402","candidate_id":"KUMAON-17","canonical_name":"Dunagiri Temple","cluster":"KUMAON_DWARAHAT","formal_status":"A","latitude_wgs84":29.79672,"longitude_wgs84":79.45123,"geo_status":"WORKING","point_type":"COMPLEX_CENTRE","estimated_accuracy":"25_50_M","map_source":"Mapcarta / OpenStreetMap temple object","map_url":"https://mapcarta.com/N6192376992","point_choice_reason":"Corrects the BRONS point to the named temple complex, separ
+<<< END CHUNK >>>
+

@@ -1,0 +1,721 @@
+>>> CHUNK stream_row=263 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/LAHIRI_MAHASAYA_RECONCILIATION.md blob_sha=0122c82c3e990d0eaa46b97b74c9ef12fe9ba430 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+ — **chronologieconflict expliciet onopgelost** | Extern meldt zelf: AOY plaatst de Ranikhet-transfer in **1861** vanuit/naar Danapur; PP plaatst de transferorder op **23-11-1868**. Dit is een reëel, onopgelost conflict tussen AOAY en de nieuwe PP-bron — ik kan dit niet oplossen zonder PP zelf te kunnen lezen (`BRON_GEBLOKKEERD`). Classificatie: `IDENTITY_CONFLICT_UNRESOLVED` voor de exacte datering, terwijl de plaats zelf (Danapur) `SAME_SITE_SAME_EVENT` blijft. |
+| 8 (Naini Tal) | 44 | `SAME_SITE_SAME_EVENT` | AOY 3882; extern merkt op dat PP deze post NIET noemt — mogelijk verwarring met Ranikhet-regio. Blijft staan zoals AOY het geeft. |
+| 9 (Drongiri-grot/Ranikhet, 1861-ontmoeting) | 48 (Drongiri-berghelling) + 49 (initiatiegrot) + 50 (Gogash-oever) + 51 (paleis) | `SAME_SITE_DIFFERENT_GRANULARITY` | Extern splitst dit (net als bij Babaji) in vier sublocaties. Zelfde als de Babaji-reconciliatie hierboven — kruisverwijzing, niet dubbel geteld. |
+| 10 (Garudeswar Mohulla, Benares, eigen woning) | 13 (D/31/58 Madanpura) + 14 (parlour/bedstee) + 15 (huis-shrine) | `SAME_SITE_DIFFERENT_GRANULARITY` — **exact adres niet zelf geverifieerd** | Kernlocatie identiek (mijn "Garudeswar Mohulla" = extern "Garureswar/Gurudham, D/31/58 Madanpura"). Extern splitst in drie sublagen (huis/parlour-sterfkamer/huis-schrijn) met PP-locators. Het exacte huisnummer D/31/58 en de kloktijd van overlijden (17:25) zijn `BRON_GEBLOKKEERD` — niet door mij bevestigd, wel plausibel en niet tegenstrijdig met AOY. De sterfdatum zelf (26-09-1895) is onafhankelijk bevestigd via YSS. |
+| 11 (Moradabad, materialisatie aan Babaji-oproep) | 53 (huis Bengaalse vriend, Moradabad) | `SAME_SITE_SAME_EVENT` | AOY 4088-4107 + PP 323-324. PP dateert dit "jan. 1869", AOY impliceert kort na 1861 — zelfde onderliggende chronologieconflict als bij record 7/43. |
+| 12 (Allahabad Kumbh Mela) | — | `INTERNAL_ONLY_UNVERIFIED` | Extern vermeldt expliciet in de negatieve-bevindingen-sectie: "Geen voldoende bewijs gevonden voor persoonlijke aanwezigheid in Allahabad/Prayagraj [...]". **Dit is een DIRECT CONFLICT** met mijn eigen record 12, dat steunt op AOAY hfst. 33/34 zelf (Lahiri vertelt zelf over het wassen van de voeten van een asceet op een Kumbha Mela). Ik heb deze AOAY-passage zelf gelezen en het staat er ondubbelzinnig. Classificatie: `FALSE_OR_UNSUPPORTED_EXTERNAL_CLAIM` voor de externe negatieve bevinding — de externe freeze heeft hier een AOAY-passage gemist die ik wel vond. **Dit is de belangrijkste single vondst in deze Lahiri-reconciliatie**: mijn eigen atlas is op dit punt aantoonbaar sterker dan de externe 60-record-set. |
+| 13 (Retirement 1886, Benares parlor) | 21 (Ramnagar-paleis, na pensionering) | `SAME_SITE_DIFFERENT_NAME` (deels) + `EXTERNAL_ONLY_UNVERIFIED` | Extern voegt een volledig NIEUWE, grote locatie toe: dagelijkse boottocht naar en verblijf in het Ramnagar-paleis als tutor van Pravunarayan Singh, na pensionering, PP 348-349. Dit is niet in AOAY en niet in mijn interne freeze. Zeer plausibel gezien Lahiri's bekende rol als privéleraar (AOAY noemt elders al een andere maharadja-tutorschap), maar **niet door mij geverifieerd** (`BRON_GEBLOKKEERD`, PP ontoegankelijk). Genoteerd als belangrijke open lead, niet overgenomen als bevestigd feit. |
+| 14 (Bengalitola-wijk, schoolstichting) | 16 (Bangalitola High School) | `SAME_SITE_SAME_EVENT` | AOY 3880-3882 + PP 272-275. |
+| 15 (Krishnagar/Bishnupur, regionale KRIYA-invloed) | 55 + 56 (twee aparte Bishnupur-huwelijksreizen, 1886 en 1891) | `SAME_SITE_DIFFERENT_GRANULARITY` — **belangrijke precisering** | Ik had dit als vage regionale claim ("reisde meermaals naar Bengal, bezocht schoonfamilies") zonder data. Extern (PP) geeft TWEE aparte, gedateerde reizen: mei 1886 (dochter Harimohini's huwelijk, Kadakuli) en mei 1891 (jongste zoons schoonfamilie + Kailasbabu-initiatie), plus de Panagarh-route en de Tirol-Kali-tempel-medicijnreis (dec. 1892). Belangrijke verdieping, maar wederom `BRON_GEBLOKKEERD` voor de PP-details zelf — de onderliggende AOAY-basisclaim (hfst. 35, "travel
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=264 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/LAHIRI_MAHASAYA_RECONCILIATION.md blob_sha=0122c82c3e990d0eaa46b97b74c9ef12fe9ba430 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+ed to Bengal... visiting the homes of the fathers-in-law") blijft wel mijn eigen, AOAY-bevestigde uitgangspunt. |
+| 16 (sterfplaats Benares, 1895) | 14 (parlour/bedstee) + 32 (Manikarnika Ghat crematie) | `SAME_SITE_DIFFERENT_GRANULARITY` | Extern voegt de crematieplaats (Manikarnika Ghat) toe — logisch, plausibel, maar niet in AOAY en niet door mij geverifieerd (`EXTERNAL_ONLY_UNVERIFIED`, wel zeer waarschijnlijk gezien Manikarnika de standaard crematieghat van Benares is). |
+| 17 (Calcutta, Arya Mission Institution — discipel-instelling) | negatieve bevinding | `SAME_SITE_SAME_EVENT` (bevestiging) | Extern bevestigt onafhankelijk hetzelfde: "geen bron gevonden die Lahiri's bezoek aantoont" — matcht mijn eigen `NEE`-classificatie voor Lahiri zelf op deze plek. Geen conflict. |
+| 18 (Gorakhpur-materialisatie aan Abinash Babu) | — | `INTERNAL_ONLY_VERIFIED_MISS` | Geen externe tegenhanger. Door mij zelf rechtstreeks in AOAY hfst. 1 geverifieerd (Lahiri Mahasaya materialiseert zich op een veld nabij Gorakhpur en spreekt Bhagabati Charan Ghosh/Abinash Babu aan — dit leidt tot Yogananda's vaders bekering). Extern noemt dit nergens, ook niet in de negatieve-bevindingensectie — waarschijnlijk simpelweg gemist omdat het in hoofdstuk 1 staat, ver van de "biografische" hoofdstukken 32-36 waar extern kennelijk primair zocht. Blijft een geldige, eigen vondst. |
+| 19 (Benares, pensionering-tot-dood) | 13/14 (zie boven) | `SAME_SITE_SAME_EVENT` | Samengevoegd met record 10/13-15 hierboven — geen apart nieuw record. |
+
+## Werkpakket B (vervolg) — externe records zonder interne tegenhanger, AOY-gedekt
+
+- **Record 37** (Barrackpore-kamer, Shankari Mai + Babaji): dit is dezelfde scène als de Babaji-
+  reconciliatie record BJ-INT-08/B12 — al gereconcilieerd daar, geen dubbele Lahiri-specifieke rij
+  nodig. `SAME_SITE_SAME_EVENT`.
+
+## Werkpakket B (vervolg) — 36 externe records uitsluitend op PP/secundaire bronnen (geen AOY-locator)
+
+Records 5, 7, 8, 10-12, 17-20, 22-31, 33-36, 40-42, 45-47, 52, 54, 57-60: allemaal
+`EXTERNAL_ONLY_UNVERIFIED` met `BRON_GEBLOKKEERD` (PP-bron ontoegankelijk op moment van deze taak).
+Dit betreft o.a. de leerlocaties voor de Nepalese prins en Harashankar Prasad Singhs zoon, meerdere
+naamloze discipelhuizen, Ranamahal Ghat + Krishnarams verandah, Panagarh-station en -cart-route,
+Burdwan-station, de Tirol-Kali-tempel-reis, en de PWD-posten Buxar en Katwa (die AOAY zelf niet
+noemt). Geen van deze is tegengesproken door AOAY — ze liggen simpelweg buiten mijn corpus. Volledige
+lijst met PP-regelankers staat in de externe freeze zelf; niet hier herhaald om dubbele,
+ongeverifieerde citatie te vermijden.
+
+**Twee waardevolle negatieve bevindingen die mijn eigen terughoudendheid bevestigen** (geen conflict,
+extern bevestigt wat ik nooit beweerde): Satyalok/D22/3 Chausattighat (`NEE`, latere memorialtempel)
+en de "royale Kashi death-palace" (`NEE`, Lahiri weigerde er expliciet heen te gaan volgens PP).
+
+## Werkpakket C — directe bronverificatie, resultaat
+
+| claim | resultaat |
+|---|---|
+| Sterfdatum 26-09-1895 | **ONAFHANKELIJK BEVESTIGD** via yssofindia.org, apart van AOAY en van PP. |
+| Sterftijd 17:25, huisadres D/31/58, Ramnagar-paleis/Pravunarayan Singh-tutorschap | **BRON_GEBLOKKEERD** — PP-bron (dokumen.pub) meldt "under maintenance", niet leesbaar op moment van deze taak. Niet overgenomen als bevestigd, niet verworpen als onwaar. |
+| 1861 (AOAY) vs. 1868 (PP) Ranikhet-transferjaar | **ECHT, ONOPGELOST BRONCONFLICT** — beide bronnen zijn intern consistent met zichzelf maar spreken elkaar tegen. Niet geharmoniseerd, expliciet als `IDENTITY_CONFLICT_UNRESOLVED` gelaten. |
+| Allahabad Kumbh Mela-aanwezigheid (Lahiri wast voeten van asceet) | **AOAY-EIGEN TEKST BEVESTIGT DIT WÉL** (hfst. 33) — de externe freeze's negatieve bevinding hierover is dus zelf onjuist/onvolledig. Belangrijkste correctie-in-de-andere-richting van deze reconciliatie. |
+| Gorakhpur-materialisatie aan Abinash Babu | **AOAY-EIGEN TEKST BEVESTIGT DIT** (hfst. 1) — bevestigt mijn eigen eerdere directe lezing, blijf
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=265 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/LAHIRI_MAHASAYA_RECONCILIATION.md blob_sha=0122c82c3e990d0eaa46b97b74c9ef12fe9ba430 original_offset=12288 original_length=3093 payload_bytes=3093 chunk_index=3 chunk_count=4 classification=text
+t internal-only t.o.v. de externe set. |
+
+## Werkpakket D — METHOD_V2-gates, herbeoordeeld
+
+| gate | oordeel | onderbouwing |
+|---|---|---|
+| `CORPUS_COVERAGE_GATE` | **DEELS** | AOAY volledig (ongewijzigd); PP (de belangrijkste ontbrekende bronfamilie uit mijn oorspronkelijke freeze) is nu geïdentificeerd maar niet zelf gelezen — `BRON_GEBLOKKEERD`, niet stilzwijgend overgeslagen. |
+| `HOSTGRAPH_GATE` | **JA voor AOAY; DEELS voor PP-hosts** | AOAY-hostrelaties ongewijzigd bevestigd. PP introduceert tientallen nieuwe hostnamen (Krishnaram, Panchanan Bhattacharya's reisrol, Devnarayan Sanyal, etc.) die ik niet zelf kan natrekken zolang PP ontoegankelijk is. |
+| `DISCOVERY_GATE` | **DEELS** | Externe freeze opende een grote, plausibele nieuwe bronfamilie (PP) die mijn eigen Fase 4 niet vond; dat is precies waarvoor de externe detectorlaag bedoeld is. |
+| `RECONCILIATION_GATE` | **PROVISIONEEL** | Alle 24 AOY-gedekte externe records + mijn 19 interne records hebben een expliciete uitkomst; één belangrijke interne correctie in mijn voordeel (Allahabad Kumbh Mela), twee grote nieuwe PP-only bevindingen (Ramnagar-paleis, Bishnupur-reisdetails) blijven `BRON_GEBLOKKEERD`/`UNVERIFIED`. PROVISIONEEL i.p.v. JA vanwege zowel PP-ontoegankelijkheid als de ontbrekende IndiaROOD-derde-detector. |
+| `EXTERNAL_MODEL_DIVERSITY_GATE` | **NEE** | Zelfde reden als bij Babaji — één ChatGPT-sessie, geen multi-provider-bewijs. IndiaROOD nog niet beschikbaar. |
+
+**`LAHIRI_MAHASAYA_SWEEP_SATURATED: NEE`** — blijft NEE, met twee concrete nieuwe hiaten (PP-bron
+ontoegankelijk; IndiaROOD-delta openstaand) bovenop de al bekende hiaten uit de 087-freeze.
+
+## Correcties toegepast op de interne pre-external freeze
+
+1. Record 2 (1833-vloed) opgesplitst in drie entiteiten conform extern: verwoeste tempel, zandbank-
+   meditatieplek, en de herbouwde Ghurni Shiva Site (expliciet `PERSONALLY_PRESENT: NEE` voor Lahiri
+   zelf — hij was toen al in Kashi). Dit was in mijn oorspronkelijke freeze niet zo scherp
+   onderscheiden.
+2. Record 15 (regionale Bengal-reizen) verdiend een aantekening dat twee concrete, gedateerde reizen
+   (1886, 1891) bestaan volgens PP — nog niet zelf bevestigd, wel als gerichte toekomstige lead
+   vastgelegd i.p.v. vaag te blijven.
+
+Geen enkele interne AOAY-eigen claim bleek bij verificatie fout. Het belangrijkste resultaat van deze
+reconciliatie is in de ANDERE richting: de externe freeze's negatieve bevinding over Allahabad is
+zelf onjuist gebleken bij directe AOAY-herlezing.
+
+## next_allowed_step (voor deze persoon)
+
+1. Verplichte lossless IndiaROOD-deltareconciliatie zodra beschikbaar.
+2. Indien de PP-bron (dokumen.pub) later weer bereikbaar wordt: gerichte verificatieronde op de
+   hoogste-impact-claims (Ramnagar-paleis/Pravunarayan Singh, sterftijd 17:25, huisadres D/31/58,
+   1861-vs-1868-Ranikhet-conflict) — geen nieuwe brede discoverysweep, uitsluitend directe
+   bronverificatie van reeds genoteerde claims.
+3. Geen cluster/regio, A/B/C, permanente ID's, PDF of route.
+
+---
+Geschreven door: CCI, checkpoint 2 van CCI_TASK 088.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=266 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/SRI_YUKTESWAR_RECONCILIATION.md blob_sha=1befbcd88e293f51d39dbd8c6803111a32e569fc original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+# SRI_YUKTESWAR_RECONCILIATION
+
+```
+task_id: TOP11-CORE-KRIYA-RECONCILIATION-001
+cci_task: CCI_TASK 088
+uitgevoerd_door: CCI
+uitgevoerd_op: 2026-08-19
+interne_input: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/SRI_YUKTESWAR_V2_PRE_EXTERNAL_FREEZE.md
+  (freeze commit ea60ba5975b0169736cd95a14f5daeef7d4c0868, 7 site-niveau records)
+externe_input: agent/chatgpt-top11-parallel-sweep:
+  runs/active/TOP11-PARALLEL-CHATGPT-SWEEP-001/SRI_YUKTESWAR_PRE_COMPARE_FREEZE.md
+  (freeze commit 7ebad72652cf14d750c00aaa77fc25f53f2be2cd, 38 records: SY-001 t/m SY-038)
+INDIA_ROOD_PENDING: JA — geen duurzame IndiaROOD-freeze voor Sri Yukteswar beschikbaar op dit
+  checkpointmoment. RECONCILIATION_GATE: PROVISIONEEL, EXTERNAL_MODEL_DIVERSITY_GATE: NEE.
+```
+
+## Uitgangspunt
+
+Mijn interne freeze was zelf al site-niveau (7 records, niet occurrence-voor-occurrence) met een
+expliciet benoemde beperking (`DISCOVERY-GATE: NEE`). De externe set (38) is veel fijnmaziger. Deze
+reconciliatie behandelt de externe granulariteit als een verdieping van mijn 7 site-records, niet
+als 38 losstaande nieuwe personen-claims — en verifieert daarbij de meest consequente externe
+toevoegingen rechtstreeks bij AOAY zelf (mijn enige toegankelijke primaire bron voor deze persoon).
+
+## Werkpakket A+B — matching
+
+| intern # | externe #'s | uitkomst | toelichting |
+|---|---|---|---|
+| 1 (Serampore Rai Ghat Lane, geboorte+hermitage) | SY-001 t/m SY-005, SY-008 | `SAME_SITE_DIFFERENT_GRANULARITY` | Extern splitst mijn ene kernrecord in vijf sublocaties (hal/binnenhof, zitkamer/balkon, eetpatio/keuken, slaapkamer, ochtendwandelroute). Alle vijf AOAY-hfst. 12/42-gebaseerd (S1) — consistent met mijn eigen bron, extern preciezer op kamerniveau. Geen conflict. |
+| 1 | SY-006 (Rai Ghat badingsghat) + SY-007 (banyanboom) | `SAME_SITE_SAME_EVENT` | Beide al apart bevestigd in mijn eigen Babaji-kruisverwijzing (record 4/6) en in `WERKPAKKET_D_DEEPENING_CCI_086.md`. Geen dubbeltelling. |
+| 1 | SY-009 (Serampore station) | `SAME_SITE_SAME_EVENT` | Matcht mijn interne record 6 rechtstreeks. |
+| (nieuw, ontbrak intern) | SY-010 (naamloze christelijke kerk bij Serampore Courthouse) | `EXTERNAL_ONLY_VERIFIED_MISS` | **Bronmatig gecontroleerd**: AOAY hfst. 20, regels 51/78 bevestigen "the Christian church near Serampore Courthouse" letterlijk, met Sri Yukteswar die er tweemaal loopt en Yogananda ontmoet. Ontbrak in mijn site-lijst — toegevoegd als correctie. Kerknaam zelf niet gegeven (extern noemt St. Olav's Church slechts als ongeverifieerde kandidaat). |
+| (nieuw, ontbrak intern) | SY-011 (Serampore Christian Missionary College) | `EXTERNAL_ONLY_UNVERIFIED` | Steunt op S12 (Wikipedia, via Satyananda-biografie), geen AOAY-locator gevonden door extern zelf. Niet door mij geverifieerd (geen toegang tot Satyananda's volledige biografie) — `BRON_GEBLOKKEERD`. |
+| 3 (Benares, Lahiri Mahasaya's huis) | SY-018 | `SAME_SITE_SAME_EVENT` | AOAY hfst. 12/36, identiek aan mijn record. |
+| (nieuw, ontbrak intern) | SY-016 (smalle lane, Bengali quarter, eerste ontmoeting) + SY-017 (Kadambini Devi's woning, Rana Mahal) | `EXTERNAL_ONLY_VERIFIED_MISS` — **belangrijke correctie** | **Bronmatig gecontroleerd**: AOAY hfst. 10 (regel 303) noemt expliciet de "Rana Mahal section of the city"; hfst. 12 (regel 981) zegt letterlijk: "Sri Yukteswar's mother lived in the Rana Mahal district of Benares." Dit is Sri Yukteswars EIGEN moeders huis — een aparte, tot nu toe in mijn freeze ontbrekende locatie, los van Lahiri Mahasaya's huis (record 3/SY-018). Ik had de hele Benares-eerste-ontmoeting-episode ten onrechte niet als eigen atlaspunt vastgelegd. Toegevoegd als correctie. |
+| 4 (Allahabad Kumbh Mela-oever, 1894) | SY-019 + SY-020 | `SAME_SITE_SAME_EVENT` | Matcht, kruisverwijzing naar Babaji-reconciliatie. |
+| (nieuw, ontbrak intern) | SY-021 (Mahabodhi Temple/Bodh Gaya, monastieke geloften 1906) | `EXTERNAL_ONLY_UNVERIFIED` | **Grote, mogelijk belangrijke claim** — Sri Yukteswar zou in 1906 bij de Mahabodhi Temple monastieke geloften hebben afgelegd onder Swami Krishna Dayal Giri. Nie
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=267 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/SRI_YUKTESWAR_RECONCILIATION.md blob_sha=1befbcd88e293f51d39dbd8c6803111a32e569fc original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+t in AOAY (geen S1-locator door extern zelf gegeven, alleen S6/S7 lineage-/reisnotitiebronnen). Ik kan dit niet bevestigen of ontkennen binnen deze taak — `BRON_GEBLOKKEERD`, belangrijke open lead, NIET stilzwijgend overgenomen als feit. |
+| 2 (Puri zeehermitage, zelf gebouwd + sterfplaats) | SY-023 t/m SY-028 | `SAME_SITE_DIFFERENT_GRANULARITY` | Extern splitst in zes sublocaties (zandduin/stichting, hoofdhermitage, cobra-episode-plek, strand, mahasamadhi-kamer, graf/Samadhi Mandir). Alle AOAY-hfst. 15/42/43-gebaseerd, consistent met mijn eigen bron. Sterfdatum/-plaats bevestigd (9-10 maart 1936, niet 21 maart zoals ik eerder had — zie correctie hieronder). |
+| (nieuw, ontbrak intern) | SY-022 (eerste Puri-aankomst via zee, mislukte ontmoeting met astronoom Samanta Chandrasekhar) | `EXTERNAL_ONLY_UNVERIFIED` | Bron S5 (Karar Ashram-lineagepagina), geen AOAY-locator. Niet door mij geverifieerd. |
+| — | **datumcorrectie op mijn eigen record 2** | `SAME_SITE_DIFFERENT_GRANULARITY` (intern zelf gecorrigeerd, geen echt conflict) | **Herlezen ch. 42, regels 518-524**: "March 21" in mijn oorspronkelijke freeze is WEL degelijk over Sri Yukteswar zelf ("Srimat Swami Sri Yukteswar Giri Maharaj, aged 81") — maar de zin beschrijft expliciet zijn **death BHANDARA (herdenkingsceremonie)**, niet de mahasamadhi/het overlijden zelf. De voorafgaande regel noemt dit een "vernal equinox memorial service" — 21 maart is de lentenachtevening, de datum van de herdenkingsceremonie, niet van de dood. Extern geeft voor de mahasamadhi zelf **9 maart 1936, 19:00** en begrafenis **10 maart**. **Mijn eigen fout**: ik had de bhandara-ceremoniedatum abusievelijk als sterfdatum genoteerd. Geen echt bronconflict — beide data kunnen correct zijn voor verschillende gebeurtenissen; ik corrigeer alleen mijn eigen eerdere gelijkstelling. |
+| 5 (Kashmir-route) | SY-029 t/m SY-036 | `SAME_SITE_SAME_EVENT` | Volledige match met de vandaag al zelf geverifieerde Werkpakket-D-batch5-route (Simla, Srinagar-inn, Shankaracharya-tempel, Gulmarg, Khilanmarg, Shalimar Bagh, Nishat Bagh, Dal Lake). Extern classificeert de naamloze Srinagar-inn (SY-030) als `ONBEKEND` fysieke identiteit — consistent met mijn eigen eerdere bevinding dat AOAY geen innaam geeft. |
+| 6 (Serampore-station) | SY-009 | `SAME_SITE_SAME_EVENT` | Zie boven. |
+| 7 (Calcutta, algemeen/onbepaald) | SY-013 (Calcutta Medical College) + SY-014 (Albert Hall) + SY-015 (onbekende bestemming na dringende oproep) | `EXTERNAL_ONLY_VERIFIED_MISS` (SY-014) / `EXTERNAL_ONLY_UNVERIFIED` (SY-013, SY-015) | **SY-014 bronmatig herkenbaar**: AOAY hfst. 42 ("Last Days with My Guru") beschrijft Sri Yukteswars aanwezigheid op het podium tijdens Yogananda's Calcutta-lezing eind 1935 — dit is een concrete, AOAY-eigen locatie die ik zelf niet als apart Calcutta-record had vastgelegd ondanks dat ik hfst. 42 wel had gelezen voor andere doeleinden. Genoteerd als correctie. SY-013 (medische studie) en SY-015 (dringende oproep) steunen op resp. Satyananda-secundair (S6/S12) en AOAY hfst. 19 — dat laatste kan ik navragen maar heb ik nu niet apart herlezen; blijft `UNVERIFIED` bij dit checkpoint, geen aanname. |
+| (nieuw, ontbrak intern) | SY-012 (Panthi boardinghouse, materialisatie aan Yogananda, ca. 1915) | `EXTERNAL_ONLY_VERIFIED_MISS` (met kwalificatie) | AOAY hfst. 19 beschrijft dit (reeds bekend uit de Yogananda-atlas als Panthi-pension, batch1 vandaag VERIFIED_TRUE voor Yogananda's eigen kamer). Voor Sri Yukteswar zelf is dit een **materialisatie tijdens leven** (1915, hij stierf pas 1936) — geen postume verschijning, maar ook geen gewone reisbeweging. Conform TASK.md §8 apart gehouden: `PRESENCE_TYPE: VISION_OR_MATERIALIZATION`, niet als gewone fysieke aanwezigheid genormaliseerd. |
+| — | SY-037 (Regent Hotel Bombay, postume verschijning) | `SYMBOLIC_VISIONARY_OR_POSTHUMOUS_ONLY` | Matcht mijn eigen bestaande behandeling exact (al apart gehouden in zowel mijn 087-freeze als `WERKPAKKET_D_DEEPENING_CCI_086.md`). Geen conflict, bevestiging. |
+| — | SY-038 (Bherir Bazar hutment) | `EXTERNAL_ONLY_UNVER
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=268 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/SRI_YUKTESWAR_RECONCILIATION.md blob_sha=1befbcd88e293f51d39dbd8c6803111a32e569fc original_offset=8192 original_length=3860 payload_bytes=3860 chunk_index=2 chunk_count=3 classification=text
+IFIED` | Extern classificeert zelf al zwak (`S14`, "afgeleide documentweergave, zwak bewijs", `PERSONALLY_PRESENT: ONZEKER`). Niet door mij nagetrokken, blijft ongeverifieerd aan beide kanten. |
+
+## Werkpakket C — resultaat directe bronverificatie (samenvatting)
+
+| claim | resultaat |
+|---|---|
+| Christelijke kerk bij Serampore Courthouse (SY-010) | **BEVESTIGD** — AOAY hfst. 20, regels 51/78. |
+| Kadambini Devi's woning, Rana Mahal (SY-016/017) | **BEVESTIGD** — AOAY hfst. 10 regel 303, hfst. 12 regel 981 ("Sri Yukteswar's mother lived in the Rana Mahal district of Benares"). Eigen interne gap gecorrigeerd. |
+| Sterfdatum Sri Yukteswar | **EIGEN FOUT GECORRIGEERD**: 9 maart 1936 (niet 21 maart, dat was een andere persoon/passage in hfst. 42). |
+| Albert Hall-podium, Calcutta-lezing 1935 (SY-014) | **BEVESTIGD** — AOAY hfst. 42, eigen eerdere lezing bevestigt de scène; ontbrak als apart atlaspunt. |
+| Mahabodhi Temple-geloften 1906 (SY-021) | **NIET GEVERIFIEERD** — geen AOAY-locator, niet lokaal na te trekken binnen deze taak. |
+| Calcutta Medical College (SY-013) | **NIET GEVERIFIEERD** — secundaire bron (Satyananda via Wikipedia), niet zelf gecontroleerd. |
+
+## Werkpakket D — METHOD_V2-gates, herbeoordeeld
+
+| gate | oordeel | onderbouwing |
+|---|---|---|
+| `CORPUS_COVERAGE_GATE` | **DEELS** | AOAY nu grotendeels ook op sublocatieniveau gedekt dankzij de externe verdieping en drie directe correcties (kerk, moederhuis, Albert Hall). Satyananda's volledige biografie en *The Holy Science* blijven `BRON_GEBLOKKEERD`. |
+| `HOSTGRAPH_GATE` | **DEELS** | Kadambini Devi (moeder) toegevoegd als nieuwe hostrelatie; overige kernrelaties ongewijzigd. |
+| `DISCOVERY_GATE` | **DEELS** | Externe freeze vond Bodh Gaya-monastieke-geloften (1906) en de Calcutta Medical College-episode — beide grote, plausibele aanvullingen buiten wat mijn eigen (bewust beperkte) pas vond. |
+| `RECONCILIATION_GATE` | **PROVISIONEEL** | Alle 7 interne + 38 externe records hebben een expliciete uitkomst; drie concrete interne gaps gecorrigeerd (kerk, moederhuis, Albert Hall) plus één datumfout (sterfdatum) rechtgezet. PROVISIONEEL i.p.v. JA: IndiaROOD ontbreekt nog bij dit checkpoint. |
+| `EXTERNAL_MODEL_DIVERSITY_GATE` | **NEE** | Zelfde reden als bij de andere twee personen. |
+
+**`SRI_YUKTESWAR_SWEEP_SATURATED: NEE`** — blijft NEE, nu met een steviger fundament (38 sublocaties
+verwerkt, vier eigen correcties toegepast) maar nog altijd zonder Satyananda-volledige-biografie,
+*The Holy Science*, en zonder IndiaROOD-derde-detector.
+
+## Correcties toegepast op de interne pre-external freeze
+
+1. Nieuwe rij: christelijke kerk bij Serampore Courthouse (AOAY hfst. 20) — ontbrak.
+2. Nieuwe rij: Kadambini Devi's woning, Rana Mahal-district, Benares (AOAY hfst. 10/12) — Sri
+   Yukteswars eigen moeders huis, ontbrak als apart record van Lahiri Mahasaya's huis.
+3. Nieuwe rij: Albert Hall-podium, Calcutta-lezing eind 1935 (AOAY hfst. 42) — ontbrak als apart
+   Calcutta-record.
+4. **Datumcorrectie**: Sri Yukteswars mahasamadhi was **9 maart 1936** (19:00), begrafenis 10 maart.
+   Mijn oorspronkelijke freeze noemde "21 maart" als sterfdatum, gebaseerd op AOAY hfst. 42 — maar
+   die passage beschrijft zijn **death BHANDARA (herdenkingsceremonie, gekoppeld aan de
+   lentenachtevening)**, niet de mahasamadhi zelf. Geen bronconflict, wel een eigen
+   interpretatiefout die hier gecorrigeerd is.
+
+## next_allowed_step (voor deze persoon)
+
+1. Verplichte lossless IndiaROOD-deltareconciliatie zodra beschikbaar.
+2. Indien later toegankelijk: Satyananda's volledige biografie en *The Holy Science* voor de
+   Bodh Gaya-geloften (1906) en Calcutta Medical College-episode direct verifiëren.
+3. Geen cluster/regio, A/B/C, permanente ID's, PDF of route.
+
+---
+Geschreven door: CCI, checkpoint 3 (laatste persoon) van CCI_TASK 088.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=269 path=runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/STATUS.md blob_sha=cde344bd88551f6e823482a1c66e186f81c6d82e original_offset=0 original_length=1967 payload_bytes=1967 chunk_index=0 chunk_count=1 classification=text
+# STATUS — TOP11-CORE-KRIYA-RECONCILIATION-001
+
+```
+task_id: TOP11-CORE-KRIYA-RECONCILIATION-001
+cci_task: CCI_TASK 088
+state: RECONCILIATION_COMPLETE__PROVISIONEEL__WACHT_OP_INDIAROOD_EN_INDIA_QA
+issued_at: 2026-08-19
+issued_by: INDIA7
+completed_at: 2026-08-19
+completed_by: CCI
+target_branch: claude/werk-je-nu-of-niet-oa10y7
+task_file: runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/TASK.md
+status_file: runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/STATUS.md
+result_file: runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/RECONCILIATION_RESULT.md
+checkpoint_commits: 0bfeb45 (Babaji), 05cc7da (Lahiri Mahasaya), 59463c1 (Sri Yukteswar)
+```
+
+## Scope
+
+Bidirectionele METHOD_V2-reconciliatie van de interne en externe freezes voor Mahavatar Babaji,
+Lahiri Mahasaya en Sri Yukteswar, inclusief directe bronverificatie en traditie-/identiteitscontrole.
+
+## Inputstatus
+
+- drie interne CCI_TASK 087/087R freezes: FROZEN, gereconcilieerd;
+- drie externe PRE-COMPARE freezes: FROZEN, gereconcilieerd, niet gewijzigd;
+- IndiaROOD derde blinde detector: bij afronding van deze taak nog steeds AANGEKONDIGD / GEEN
+  FREEZE-PAD OF COMMIT BESCHIKBAAR — laatst gecontroleerd 2026-08-19, geen nieuwere PR #23-comment;
+- externe branches/contexts: IMMUTABLE / NIET MERGEN / NIET BESMET;
+- blockers: één bronblokkade (PP-biografie dokumen.pub "under maintenance"), geen systeembrede
+  blocker;
+- finale reconciliation/saturation gate: PROVISIONEEL voor alle drie personen — zie
+  `RECONCILIATION_RESULT.md` voor de volledige gate-tabel.
+
+## Harde holds
+
+Geen cluster/regio, geen A/B/C, geen permanente IDs, geen PDF, geen route. Arunachala-hold blijft
+staan.
+
+## next_allowed_step
+
+Zie `RECONCILIATION_RESULT.md`: verplichte lossless IndiaROOD-deltareconciliatie zodra beschikbaar;
+gerichte PP-verificatie zodra dokumen.pub weer bereikbaar is. Geen automatische vervolgtaak
+(NKB/Ram Dass/Ramana/Ramakrishna interne freezes) vanuit hier gestart. STOP, wacht op INDIA-QA.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=270 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/STATUS.md blob_sha=afae316bfb812caa6ae8072a18cefffdbc5a995f original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+# STATUS — TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
+
+```
+task_id: TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001
+state: CCI_TASK_090_NKB_RAMDASS_CORE_SOURCE_RECOVERY_ISSUED__WACHT_OP_CCI_RESULT
+method_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/METHOD_V1.md
+method_v2_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/METHOD_V2.md
+task_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/TASK.md
+status_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/STATUS.md
+pilot_result_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/PILOT_RESULT.md
+saturation_result_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/SATURATION_RESULT.md
+phase2_result_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/PHASE2_RESULT.md
+phase2_synthesis_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/PHASE2_SYNTHESIS.md
+yogananda_v2_freeze_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/YOGANANDA_V2_FREEZE.md
+babaji_v2_freeze_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/BABAJI_V2_PRE_EXTERNAL_FREEZE.md
+lahiri_mahasaya_v2_freeze_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/LAHIRI_MAHASAYA_V2_PRE_EXTERNAL_FREEZE.md
+sri_yukteswar_v2_freeze_file: runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/SRI_YUKTESWAR_V2_PRE_EXTERNAL_FREEZE.md
+last_updated: 2026-08-19
+last_updated_by: INDIA7 (CCI_TASK 090 issued)
+```
+
+## Update — CCI_TASK 087/087R afgerond: drie pre-external freezes (CCI, 2026-08-19)
+
+```
+commits: 6b79f1c (Babaji), 642e464 (Lahiri Mahasaya), ea60ba5 (Sri Yukteswar)
+BABAJI_V2_PRE_EXTERNAL_SATURATED: NEE
+LAHIRI_MAHASAYA_V2_PRE_EXTERNAL_SATURATED: NEE
+SRI_YUKTESWAR_V2_PRE_EXTERNAL_SATURATED: NEE
+```
+
+Verse, blinde METHOD_V2 Fase 0-4-sweeps voor de drie kernpersonen van de Kriya-lijn, uitgevoerd
+direct door CCI nadat een eerste poging met drie parallelle subagents faalde op een sessielimiet
+zonder duurzame output (zie git-historie/PR #23 voor de recovery-context, CCI_TASK 087R).
+`PHASE2_RESULT.md` (oude METHOD_V1 ATL-MB/ATL-LM/ATL-SY-lijsten) NIET gebruikt als
+discovery-checklist tijdens de blinde pas; alleen achteraf ter vergelijking geraadpleegd, zoals
+gedocumenteerd in elk freeze-bestand zelf. Geen inzage in de aparte externe blinde
+ChatGPT-parallelsweep (`TOP11-PARALLEL-CHATGPT-SWEEP-001`).
+
+**Babaji**: 14 occurrence-clusters, A/B/C/D-evidentietier toegepast (ahistorisch/legendarisch
+karakter van de figuur zelf). Sterkste vondst: Yogananda's eigen, nooit eerder verteld
+ooggetuigenverslag van een persoonlijke Babaji-ontmoeting op 4 Gurpar Road, Calcutta (hfst. 37) —
+ontbrak in de oude lijst en is het sterkste bewijsstuk voor Babaji's fysieke bestaan in het hele
+corpus.
+
+**Lahiri Mahasaya**: 19 occurrence-clusters, volledige geboorte-tot-dood-biografische lijn (Ghurni
+1828, 1833-vloed, vijf overplaatsingsstandplaatsen, vaste woning Garudeswar Mohulla Benares,
+pensionering 1886, dood 1895). Nieuwe vondst: een materialisatie nabij Gorakhpur die Yogananda's
+vaders eigen bekering verklaart (hfst. 1).
+
+**Sri Yukteswar**: site-niveau sweep (284 occurrences over 32 hoofdstukken, te wijdverspreid voor
+volledige occurrence-normalisatie in de beschikbare tijd — expliciet benoemde beperking). Twee
+kernlocaties stevig bevestigd (Serampore/Rai Ghat Lane als geboorteplaats ÉN hermitage; zelf
+gebouwde Puri-zeehermitage als sterfplaats). Belangrijkste nieuwe vondst: de Kashmir-reis
+(Simla/Srinagar/Shalimar Bagh/Nishat Bagh/Gulmarg, vandaag al voor Yogananda geverifieerd in
+`TOP11-EXTERNAL-AI-BENCHMARK-001/WERKPAKKET_D_DEEPENING_CCI_086.md`) blijkt ook Sri Yukteswars eigen
+reis te zijn geweest — stond nog niet als Sri-Yukteswar-record vast.
+
+Alle drie `NEE` op saturation, met expliciet benoemde hiaten (o.a. niet-AOAY lineage-bronnen
+niet geraadpleegd, Sri Yukteswar geen volledige Fase 4-discovery). `NEE` bewust boven een schijnbare
+`JA`, conform staand projectbeleid.
+
+**blockers**: geen.
+
+**Update CCI_TASK 084**: `PERSON_SWEEP_SATURATED: JA` uit Fase 2 (alle 11 personen) is
+**provisioneel**, niet ingetrokken maar ook niet langer als eindwaarheid b
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=271 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/STATUS.md blob_sha=afae316bfb812caa6ae8072a18cefffdbc5a995f original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+ehandeld — zie
+`TOP11-EXTERNAL-AI-BENCHMARK-001/BENCHMARK_RESULT.md` en `RECONCILIATION_CCI_084.md` voor de
+Anandamayi-driewegverificatie die dit heeft aangetoond. `METHOD_V1.md` is vervangen door
+`METHOD_V2.md` (corpus-eerst i.p.v. zoekmachine-eerst, vier verplichte saturation-gates). Als
+prospectieve controle is METHOD_V2 al toegepast op Yogananda (`YOGANANDA_V2_FREEZE.md`,
+`AOAY_YOGANANDA_V2_SATURATED: NEE`, expliciete hiaten vastgelegd). Repo-crosscheck (Fase C) voor
+Yogananda volgt apart. De overige 10 personen krijgen pas een METHOD_V2-herziening na INDIA's
+besluit of externe multi-AI structureel nodig blijft (zie `BENCHMARK_RESULT.md`, "zuivere
+beslisproef").
+
+**INDIA_QA_BESLUIT**: CCI_TASK 080 is gecontroleerd. De host-/gastheer-as heeft zelfstandig nieuwe Bodh-Ashram-achtige fysieke plekken gevonden. De methode is daarom goedgekeurd en bevroren in `METHOD_V1.md`.
+
+**Pilotpersonen compleet volgens huidige projectnorm**:
+- Anandamayi Ma: `PERSON_SWEEP_SATURATED: JA`.
+- Neem Karoli Baba: `PERSON_SWEEP_SATURATED: JA`.
+
+**Fase 2 geautoriseerd voor overige 9** — één persoon volledig afwerken en freeze vóór de volgende, maar CCI hoeft niet na iedere persoon op nieuwe toestemming te wachten tenzij er een systeemwijde blocker of echt Mark-besluitconflict ontstaat.
+
+Volgorde:
+1. Mahavatar Babaji
+2. Lahiri Mahasaya
+3. Paramahansa Yogananda
+4. Ram Dass
+5. Sri Yukteswar
+6. Hariharananda
+7. Vivekananda
+8. Ramakrishna
+9. Ramana Maharshi
+
+Per persoon is de host-/gastheer-as vanaf het BEGIN verplicht, naast chronologie, officiële/lineage-bronnen, primaire/biografische teksten, alternatieve namen/spellingen en repo-cross-check pas na freeze.
+
+**Fase 2 samenvatting**: alle 9 overige Top-11-personen individueel gefreezed en tegen de repo
+vergeleken (`PHASE2_RESULT.md`); circa 90 atlaspunten, 11/11 personen `PERSON_SWEEP_SATURATED: JA`.
+Sterkste nieuwe regiosignalen: Puri/Odisha (Sri Yukteswar + Hariharananda), Tamil Nadu/Arunachala
+(Ramana Maharshi + Vivekananda + Yogananda-bezoek), West-Bengal-kernregio (Ramakrishna +
+Vivekananda + Sri Yukteswar + Lahiri Mahasaya-geboorte + Yogananda-jeugd). Eén `REGION_MISS`
+(Almora/Vivekananda binnen bestaand Kumaon-gebied) vastgelegd voor toekomstige vervolgronde. Vijf
+`PERSON_LINK_UPGRADE`s op bestaande/tijdelijke plekken (Kainchi, Vrindavan-NKB, VNS-CAND-002,
+Mayavati/KB2-038, Ramanasramam). Geen `MARK_DECISION_CONFLICT`. Volledige synthese:
+`PHASE2_SYNTHESIS.md`.
+
+## Update — CCI_TASK 088 uitgegeven (INDIA7, 2026-08-19)
+
+De onafhankelijke externe ChatGPT-run heeft inmiddels alle acht PRE-COMPARE freezes afgerond.
+Voor Babaji, Lahiri Mahasaya en Sri Yukteswar zijn dus zowel interne als externe freezes beschikbaar.
+Nieuwe taak: `runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/TASK.md`.
+
+**next_allowed_step:** CCI voert CCI_TASK 088 uit: volledige bidirectionele reconciliatie, directe
+bronverificatie en checkpointcommit per persoon. Geen nieuwe blanco ChatGPT-discovery voor deze
+drie, geen cluster/regio, A/B/C, permanente IDs, PDF of route. Finale saturation alleen wanneer
+alle METHOD_V2-gates inclusief detector-/modeldiversiteit aantoonbaar zijn voldaan.
+
+## Update — CCI_TASK 088 afgerond (CCI, 2026-08-19)
+
+```
+result_file: runs/active/TOP11-CORE-KRIYA-RECONCILIATION-001/RECONCILIATION_RESULT.md
+checkpoint_commits: 0bfeb45 (Babaji), 05cc7da (Lahiri Mahasaya), 59463c1 (Sri Yukteswar)
+```
+
+Volledige bidirectionele reconciliatie afgerond voor Babaji, Lahiri Mahasaya en Sri Yukteswar (40
+interne records tegen 133 externe records). Belangrijkste opbrengst: twee correcties in interne
+richting (Lahiri's Allahabad-aanwezigheid, een Babaji-datumclaim), meerdere echte interne gaps
+gecorrigeerd na directe AOAY-bronverificatie (Sri Yukteswars moeder Kadambini Devi's woning in
+Rana Mahal, een Serampore-kerk, Albert Hall-podium, een Kebalananda-Himalayakamp-anekdote voor
+Babaji), één interne locatiefout gecorrigeerd (Babaji/Mataji/Lahiri-visioen was ten onrechte bij
+Ram Gopal's grot gelokaliseerd, hoort bij Dashashwamedh Ghat Varanasi), en één eigen datumfout
+gecorrigeerd (Sri Yukteswars m
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=272 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/STATUS.md blob_sha=afae316bfb812caa6ae8072a18cefffdbc5a995f original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+ahasamadhi 9 maart 1936, niet 21 maart — dat is de bhandara-
+herdenkingsceremonie). Voor Babaji zijn 21 externe records uit drie andere claimant-tradities
+(Hariharananda, Nagaraj/Ramaiah, Haidakhan) terecht apart gehouden zonder identiteitsbrug.
+
+Een grote nieuwe primaire bron voor Lahiri Mahasaya (Chatterjee's *Purana Purusha*-familiebiografie)
+kon niet zelf worden geverifieerd — bron ontoegankelijk ("under maintenance"); alle daarop
+gebaseerde externe claims blijven `BRON_GEBLOKKEERD`/`UNVERIFIED`, niet stilzwijgend overgenomen.
+
+**Geen van de drie personen krijgt `PERSON_SWEEP_SATURATED: JA`** — `EXTERNAL_MODEL_DIVERSITY_GATE`
+is voor alle drie `NEE` (de bestaande externe branch is één ChatGPT-sessie, geen aantoonbare
+multi-provider-union) en `RECONCILIATION_GATE` is `PROVISIONEEL` omdat IndiaROOD (de door Mark
+aangekondigde derde, onafhankelijke detector) bij geen van de checkpoints een duurzame freeze had.
+
+**next_allowed_step (bijgewerkt):** STOP, wacht op INDIA-QA. Verplichte lossless IndiaROOD-
+deltareconciliatie zodra beschikbaar. Geen automatische vervolgtaak (interne NKB/Ram Dass/Ramana/
+Ramakrishna-freezes) vanuit hier gestart. Geen cluster/regio (Arunachala-hold van kracht), A/B/C,
+permanente IDs, PDF of route.
+
+## Update — CCI_TASK 089 uitgegeven (INDIA7, 2026-08-19)
+
+Nieuwe taak:
+`runs/active/TOP11-NKB-RAMDASS-V2-PRE-EXTERNAL-001/TASK.md`.
+
+CCI voert verse landelijke METHOD_V2 pre-external freezes uit voor Neem Karoli Baba en Ram Dass,
+met een zelfstandige checkpointcommit per persoon. De reeds bevroren externe resultaten blijven
+gesloten tot beide interne freezes duurzaam vaststaan. Oude METHOD_V1/PHASE2-lijsten zijn geen
+discoverychecklist.
+
+**next_allowed_step (actueel):** CCI_TASK 089 uitvoeren en STOP na beide freezecommits +
+resultaatenvelop. Daarna volgt pas een aparte lossless externe reconciliatie. Parallel blijft de
+IndiaROOD-delta voor Babaji/Lahiri/Sri Yukteswar open. Geen cluster/regio, A/B/C, permanente IDs,
+PDF of route.
+
+## Update — CCI_TASK 089 afgerond (CCI, 2026-08-19)
+
+```
+checkpoint_commits: d85c32e (Neem Karoli Baba), f3a5e5d (Ram Dass)
+NEEM_KAROLI_BABA_V2_PRE_EXTERNAL_SATURATED: NEE
+RAM_DASS_V2_PRE_EXTERNAL_SATURATED: NEE
+```
+
+Beide freezes afgerond, blindheidsgrens gerespecteerd (externe freezes, IndiaROOD en oude
+METHOD_V1/PHASE2-lijsten niet geraadpleegd). **Belangrijkste bevinding: voor beide personen bleken
+de kern-primaire devotee-bronnen tijdens deze sessie niet toegankelijk** — *Miracle of Love* en
+*By His Grace* (Neem Karoli Baba) alleen als voorwerk/dokumen.pub-storing bereikt; *Be Here Now* en
+*Sacred Wanderer* (Ram Dass) helemaal niet gevonden als doorzoekbare tekst, zelfs ramdass.org gaf
+een toegangsfout. Beide freezes steunen daardoor grotendeels op secundaire/institutionele bronnen.
+
+**Neem Karoli Baba**: 19 records — geboorte Akbarpur, Neem Karoli-dorp (treinwonder/naamgeving),
+Kainchi Dham (hoofdashram 1964), Bhumiadhar, Kakrighat, Vrindavan (ashram/Mahasamadhi/crematie),
+Panki-tempel Kanpur met een bilocatie-overlevering naar een kamer in Allahabad, en de laatste
+treinreis/ziekenhuisepisode rond zijn dood (sept. 1973, met een onopgelost naamconflict over het
+exacte ziekenhuis). Vier ashrams (Rishikesh/Lucknow/Shimla/Delhi) staan alleen op naam, zonder
+aparte gebeurtenis — zwakste deel van deze atlas.
+
+**Ram Dass**: slechts 5 records — de zwakste pre-external freeze tot nu toe in dit project qua
+corpus-coverage. Kainchi Dham (eerste ontmoeting met Maharajji, 1967, naamgeving), Hotel Evelyn
+Nainital (mini-ashram 1970/1971), Kausani (Vipassana-retraite), Delhi (aankomstpunt, indirect) en
+een niet-gelokaliseerd laatste India-bezoek (2004). Eén claim expliciet uitgesloten: een
+1997-Vrindavan-vermelding bleek over een ANDERE devotee te gaan, niet over Ram Dass' eigen
+aanwezigheid.
+
+Beide `SATURATED: NEE`, `CORPUS_COVERAGE_GATE` NEE (Ram Dass) / NEE (Neem Karoli Baba) — eerlijk
+benoemd, geen schijnzekerheid.
+
+**next_allowed_step:** STOP, wacht op INDIA-QA. Externe reconciliatie voor deze twee personen
+(dezelfde opzet als CCI_TASK 088) volgt pas na ee
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=273 path=runs/active/TOP11-INDIA-PERSON-CENTRIC-MEGASWEEP-001/STATUS.md blob_sha=afae316bfb812caa6ae8072a18cefffdbc5a995f original_offset=12288 original_length=3450 payload_bytes=3450 chunk_index=3 chunk_count=4 classification=text
+n nieuwe INDIA-opdracht. Overweeg voor INDIA-QA
+expliciet: gezien de zwakke corpus-coverage kan het zinvol zijn om vóór reconciliatie eerst een
+gerichte tweede interne poging te doen om *Miracle of Love*, *By His Grace*, *Be Here Now* en
+*Sacred Wanderer* alsnog toegankelijk te krijgen (andere bronroute/host), zodat de externe
+vergelijking niet grotendeels tegen een dunne interne baseline hoeft te worden getoetst. Geen
+cluster/regio, A/B/C, permanente IDs, PDF of route.
+
+## Update — CCI_TASK 090 uitgegeven (INDIA7, 2026-08-19)
+
+CCI_TASK 089 is afgerond: NKB 19 records, Ram Dass 5 records, beide `SATURATED: NEE` en
+`CORPUS_COVERAGE_GATE: NEE` door vier geblokkeerde kernbronfamilies. CCI_TASK 090 probeert die
+bronnen via meerdere legale routes gericht te herstellen en verwerkt ieder toegankelijk deel
+lossless. Externe freezes blijven gesloten.
+
+**next_allowed_step (actueel):** CCI_TASK 090 uitvoeren en STOP na bronherstelcheckpoints +
+resultaatenvelop. Daarna INDIA-QA vóór externe reconciliatie. Parallel blijft IndiaROOD core-Kriya
+lopen. Geen cluster/regio, A/B/C, permanente IDs, PDF of route.
+
+## Update — CCI_TASK 090 afgerond (CCI, 2026-08-19)
+
+*Be Here Now* volledig hersteld (open archive.org-item) en corpusbreed doorzocht; *Miracle of
+Love*/*By His Grace* blijven `BRON_GEBLOKKEERD`. Titelcorrectie: "Sacred Wanderer" → "Being Ram
+Dass" (2021, `PARTIAL` via Tricycle-fragment). NKB 19→21 records, Ram Dass 5→13 records + 1
+naamsbevestiging (Kainchi). Ram Dass CORPUS-COVERAGE-GATE: NEE → DEELS. Beide `SATURATED: NEE`
+blijven ongewijzigd. Checkpoint commits: `76020b9` (NKB), `0f7a099` (Ram Dass). Resultaat:
+`runs/active/TOP11-NKB-RAMDASS-CORE-SOURCE-RECOVERY-001/SOURCE_RECOVERY_RESULT.md`.
+
+**next_allowed_step (actueel):** CCI stopt na resultaatenvelop op PR #23 en wacht op INDIA-QA. INDIA
+beslist tussen nog één gerichte corpuspass ("Being Ram Dass" volledig, maharajji.love) of externe
+lossless reconciliatie starten. Ramana Maharshi/Ramakrishna blijven niet gestart.
+
+## Update — CCI_TASK 091 afgerond (CCI, 2026-08-19)
+
+Volledige bidirectionele externe reconciliatie tegen `agent/chatgpt-top11-parallel-sweep`. NKB:
+21 intern vs. 113 extern; 3 correcties overgenomen (Akbarpur-district, sterfteziekenhuis =
+Ramakrishna Mission Hospital Vrindavan, Delhi-Ashram/Hanumangarhi-zekerheid); 1 nieuw conflict
+(doodsvolgorde, onopgelost). Ram Dass: 13+1 intern vs. 57 extern; 2 nieuwe Tier-1-sublocaties
+("Health Department"-kantoor, rivier-badplaats Kainchi, beide woordelijk teruggevonden in eigen
+*Be Here Now*-tekst); 1 externe claim afgewezen (Puri-strandwandeling — geciteerde Sara-Davidson-
+quote niet in de aangehaalde bronnen aangetroffen, `FALSE_OR_UNSUPPORTED_EXTERNAL_CLAIM`). Nieuwe
+volledig toegankelijke primaire bron ontdekt: *The Near and the Dear* (dokumen.pub, i.t.t. het nog
+steeds geblokkeerde *By His Grace*). Checkpoint commits: `54d0b51` (NKB), `20c281c` (Ram Dass).
+Resultaat: `runs/active/TOP11-NKB-RAMDASS-EXTERNAL-RECONCILIATION-001/RECONCILIATION_RESULT.md`.
+
+**next_allowed_step (actueel):** CCI stopt na resultaatenvelop op PR #23 en wacht op INDIA-QA. INDIA
+beslist over: (a) de inmiddels lossless IndiaROOD Core-Kriya-freezes alsnog aan CCI_TASK 088
+toevoegen; (b) het NKB-doodsvolgordeconflict gericht laten uitzoeken; (c) Ramana Maharshi/
+Ramakrishna blijven niet gestart zonder nieuwe opdracht.
+
+---
+Dit bestand is de kortste actuele bron van waarheid voor deze taak.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=274 path=runs/active/TOP11-INDIAGEEL-BLIND-SWEEP-001/RAMAKRISHNA_INDIAGEEL_FREEZE.md blob_sha=e79dede85ee5034c0284d42a168115d50636158e original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=10 classification=text
+# RAMAKRISHNA — INDIA GEEL PRE-COMPARE FREEZE
+
+PERSON: Sri Ramakrishna (Gadadhar Chattopadhyay)
+FREEZE_TIMESTAMP: 2026-08-19T15:13:25+02:00
+BLINDNESS_CONFIRMED: JA
+MODE: PRE-COMPARE BLIND / independent external research from zero
+
+## CORPORA_SEARCHED
+- Swami Saradananda, *Sri Ramakrishna The Great Master* / *Sri Sri Ramakrishna Lila-prasanga*, online text hosted by Ramakrishna Mission Vivekananda Educational and Research Institute (RKMVERI/RKMVU); direct-disciple biography using eyewitness and collected source material.
+- Mahendranath Gupta (“M.”), *The Gospel of Sri Ramakrishna*, RKMVERI/RKMVU online corpus, based on M.’s diary records.
+- Official Ramakrishna Math & Ramakrishna Mission / Belur Math biographies and branch-centre historical pages.
+- Official Ramakrishna Math & Mission Kamarpukur pages for birthplace, village and surrounding occurrence-sites.
+- Official Ramakrishna Mission Vrindavan, Varanasi and Deoghar historical pages for the 1868 pilgrimage.
+- Official Cossipore Udyanbati / Ramakrishna Yogodyan / Balaram Mandir institutional histories where independently discoverable.
+- Secondary material was used only for discovery or continuity questions after occurrence extraction, not to substitute for stronger corpus evidence when the latter was available.
+
+## SOURCE_ACCESS_BLOCKERS
+- The searchable RKMVERI HTML corpora are extensive but not a page-image facsimile of every cited Bengali/English edition; edition-specific page references could not always be supplied.
+- Search indexing did not expose every chapter occurrence cleanly, especially the Navadvip portion of the 1870 journey and some private-house visits. Those leads remain explicitly unresolved rather than reconstructed from later pilgrimage lists.
+- Several nineteenth-century Kolkata private houses are identifiable by host and historical address/quarter but their exact surviving building identity is uncertain or demolished.
+- Some current memorial-site claims (for example relic/footwear claims) are devotional/institutional continuity claims and are not treated as proof beyond the historical presence established by the biography/Gospel.
+
+## HOSTGRAPH_SEARCHED
+Family/early network: Khudiram and Chandramani Chattopadhyay, Ramkumar, Rameswar, Dhani Kamarini, Chinu Shankari, Laha family, Sitanath/Rasiklal Pyne, Manik Raja, Hriday, Sarada Devi and her parents. Dakshineswar patrons/guides: Rani Rasmani, Mathur Mohan Biswas, Bhairavi Brahmani, Totapuri, Jatadhari, Govinda Rai, Sambhu Charan Mallick, Jadu Mallick. Pilgrimage hosts/saints: Mathur, Trailanga Swami, Maheshchandra Sarkar, Ganga Mata, Bhagavan Das Babaji. Kolkata/devotee network: Keshab Chandra Sen, Balaram Bose, Surendra Nath Mitra, Ramchandra Datta, Girish Chandra Ghosh, Adhar Sen, Manimohan Mallick, Jayagopal Sen, Nanda Bose, Prankrishna, Ishwar Chandra Vidyasagar, Shashadhar, Ishan, Captain Viswanath, Jadu Mallick and associated houses/gardens/samaj/theatre sites.
+
+## DISCOVERY_SEARCH_FAMILIES
+- Gadadhar/Ramakrishna + Kamarpukur birth house, school, ponds, cremation grounds, mango grove, Pyne/Laha/Manik Raja, pilgrim rest house, Anur, Sihore.
+- Kolkata pre-Dakshineswar + Ramkumar, Janbazar, Mathur mansion.
+- Dakshineswar occurrence-level search: Kali shrine, Master’s room, Panchavati, bel tree, bathing ghat/Ganga, temple garden, Jadu/Sambhu gardens, room-level incidents.
+- Marriage + Jayrambati original Mukhopadhyay house.
+- 1868 pilgrimage + Deoghar/Vaidyanath, poor village, Varanasi/Kashi/Kedar Ghat/Vishwanath/Kedarnath/Manikarnika/Trailanga/Mahesh Sarkar/Annapurna, Prayag/Sangam, Mathura/Vrindavan/Fouzdar Kunj/Banke Bihari/Kaliyadah/Nidhivan/Govardhan/Radha Kund/Shyam Kund/Kusum Sarovar/Dhruva Ghat.
+- Kalna/Navadvip journey + Bhagavan Das hermitage, ghats and Chaitanya-associated locations.
+- Panihati festival + Mani Sen, Raghava Pandit, Radhakanta, pipal/Ganga, Mati Seal garden reservoir.
+- Kolkata hostgraph + Balaram, Vidyasagar, Keshab/Lily Cottage, Manimohan, Jayagopal, Adhar, Ram, Girish, Nanda, Surendra, Prankrishna, Jadu Mallick, Star Theatre, Brahmo/Samaj festival sites.
+- Fina
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=275 path=runs/active/TOP11-INDIAGEEL-BLIND-SWEEP-001/RAMAKRISHNA_INDIAGEEL_FREEZE.md blob_sha=e79dede85ee5034c0284d42a168115d50636158e original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=10 classification=text
+l illness + Shyampukur exact house/room, Cossipore exact garden house/room and cremation ghat.
+
+NORMALIZED_RECORDCOUNT: 55
+
+## LOCATION_RECORDS
+
+### RK-001 — Sri Ramakrishna birth spot / present temple altar
+- PLACE/STATE: Kamarpukur, Hooghly district, West Bengal
+- TYPE: birth-house compound; original paddy-husking/boiling shed, now temple
+- EVENT/PERIOD: born 18 Feb 1836
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Ramakrishna Math & Mission Kamarpukur, “Temple/Birth Place”.
+- URL: https://kamarpukur.rkmm.org/temple
+- LOCATOR: official site identifies the altar as the exact birthplace, originally a shed used for husking/boiling paddy.
+- CONTINUITY: structure changed into memorial temple; physical spot explicitly preserved.
+
+### RK-002 — ancestral dwelling / present Kamarpukur home compound
+- PLACE/STATE: Kamarpukur, West Bengal
+- TYPE: family house/homestead
+- EVENT/PERIOD: childhood and later returns
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Ramakrishna Math & Mission Kamarpukur, Temple/Birth Place and village-history pages.
+- URL: https://kamarpukur.rkmm.org/temple
+- LOCATOR: official description of ancestral dwelling, rooms and preserved homestead.
+
+### RK-003 — Ramakrishna’s “Parlour” in ancestral compound
+- PLACE/STATE: Kamarpukur, West Bengal
+- TYPE: room in family house
+- EVENT/PERIOD: childhood/later Kamarpukur stays
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Ramakrishna Math & Mission Kamarpukur.
+- URL: https://kamarpukur.rkmm.org/temple
+- LOCATOR: official compound description names the preserved Parlour and notes its historic door/orientation.
+
+### RK-004 — mango tree planted by Sri Ramakrishna in homestead
+- PLACE/STATE: Kamarpukur, West Bengal
+- TYPE: natural feature in family compound
+- EVENT/PERIOD: youth/adult return; exact date not fixed
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Ramakrishna Math & Mission Kamarpukur.
+- URL: https://kamarpukur.rkmm.org/temple
+- LOCATOR: official site identifies the mango tree as planted by him.
+
+### RK-005 — Laha primary school in Natmandir before Laha Durga Temple
+- PLACE/STATE: Kamarpukur, West Bengal
+- TYPE: school held in temple natmandir
+- EVENT/PERIOD: childhood schooling
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Ramakrishna Math & Mission Kamarpukur, “At Kamarpukur”.
+- URL: https://kamarpukur.rkmm.org/at-kamarpukur
+- LOCATOR: official page states the primary school was held in the spacious Natmandir and Gadadhar studied there.
+
+### RK-006 — Halder Pukur
+- PLACE/STATE: Kamarpukur, West Bengal
+- TYPE: village pond/bathing place
+- EVENT/PERIOD: childhood; repeated bathing/swimming
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Ramakrishna Math & Mission Kamarpukur, “At Kamarpukur”.
+- URL: https://kamarpukur.rkmm.org/at-kamarpukur
+- LOCATOR: official page explicitly records boyhood swimming/bathing there.
+
+### RK-007 — Sitanath/Rasiklal Pyne family house
+- PLACE/STATE: Kamarpukur, West Bengal
+- TYPE: private house
+- EVENT/PERIOD: boyhood; frequent visits, devotional reading/singing and ecstatic incidents
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: Saradananda, *Sri Ramakrishna The Great Master*, boyhood chapter; Kamarpukur official “At Kamarpukur”.
+- URL: https://cs.rkmvu.ac.in/~tamal/EssentialBooks/sri-ramakrishna-the-great-master/sri-ramakrishna-the-great-master.html
+- LOCATOR: Great Master says Gadadhar spent much time in the Pyne family dwelling; official Kamarpukur page identifies Sitanath Pyne house site.
+- CONTINUITY: historic family site is identified; exact surviving fabric not independently established.
+
+### RK-008 — Manik Raja’s mango grove
+- PLACE/STATE: Kamarpukur, West Bengal
+- TYPE: mango grove/play/theatre site
+- EVENT/PERIOD: boyhood dramatic rehearsals with friends
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Saradananda, *Great Master*; Ramakrishna Math Kamarpukur.
+- URL: https://kamarpukur.rkmm.org/at-kamarpukur
+- LOCATOR: Great Master describes assembling friends 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=276 path=runs/active/TOP11-INDIAGEEL-BLIND-SWEEP-001/RAMAKRISHNA_INDIAGEEL_FREEZE.md blob_sha=e79dede85ee5034c0284d42a168115d50636158e original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=10 classification=text
+in neighbouring mango grove to rehearse religious drama; official centre identifies Manik Raja’s Mango Grove.
+
+### RK-009 — Budhui Moral cremation ground
+- PLACE/STATE: Kamarpukur, West Bengal
+- TYPE: cremation ground / meditation site
+- EVENT/PERIOD: Kamarpukur periods, including after Dakshineswar austerities
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Ramakrishna Math & Mission Kamarpukur, “At Kamarpukur”.
+- URL: https://kamarpukur.rkmm.org/at-kamarpukur
+- LOCATOR: official page says Ramakrishna used to go there to contemplate.
+
+### RK-010 — Bhutir Khal cremation ground / old banyan meditation site
+- PLACE/STATE: Kamarpukur, West Bengal
+- TYPE: cremation ground and tree meditation site
+- EVENT/PERIOD: about age 22 / Kamarpukur recovery period
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Ramakrishna Math & Mission Kamarpukur.
+- URL: https://kamarpukur.rkmm.org/at-kamarpukur
+- LOCATOR: official page records night meditation under old banyan and a Bilwa tree planted by him.
+
+### RK-011 — old Puri-road pilgrim rest house near Kamarpukur
+- PLACE/STATE: Kamarpukur, West Bengal
+- TYPE: public pilgrim shelter/rest house
+- EVENT/PERIOD: boyhood; association with itinerant sadhus
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ALLEEN_PLAATS
+- SOURCE: Kamarpukur RKM historical article on young Gadadhar and wandering monks.
+- URL: https://kamarpukur.rkmm.org/at-kamarpukur
+- LOCATOR: official/local corpus describes the roadside shelter but notes no surviving exact structure; later identifications differ.
+- UNCERTAINTY: exact site among proposed locations unresolved.
+
+### RK-012 — Vishalakshi Temple excursion, Anur
+- PLACE/STATE: Anur, West Bengal
+- TYPE: village goddess temple / pilgrimage destination
+- EVENT/PERIOD: about age eight; ecstatic episode during women’s pilgrimage
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: Ramakrishna Math Kamarpukur, “Around Kamarpukur”; Saradananda early-life account.
+- URL: https://kamarpukur.rkmm.org/around-kamarpukur
+- LOCATOR: official page identifies Anur Vishalakshmi destination and Gadadhar accompanying the party.
+- CAUTION: accessible text establishes the pilgrimage to the shrine; exact spot of trance on the approach is not separately localised.
+
+### RK-013 — Holy Mother’s original parental house / marriage site
+- PLACE/STATE: Jayrambati, Bankura district, West Bengal
+- TYPE: private family house; memorial complex
+- EVENT/PERIOD: marriage of Ramakrishna and Saradamani, c. 1859
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Ramakrishna Math Kamarpukur “Around Kamarpukur”; Belur Math Sarada Devi biography.
+- URL: https://kamarpukur.rkmm.org/around-kamarpukur
+- LOCATOR: official page states Holy Mother’s marriage took place in the very original dwelling-house of her father Ramchandra Mukhopadhyay.
+
+### RK-014 — Sihore/Shihar (Hriday’s native village; cowherd-feeding occurrence)
+- PLACE/STATE: Sihore/Shihar, West Bengal
+- TYPE: village occurrence; exact field/house unknown
+- EVENT/PERIOD: God-intoxication period; fed cowherd boys and perceived them as Vrindavan cowherds
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ALLEEN_PLAATS
+- SOURCE: *Gospel of Sri Ramakrishna*.
+- URL: https://cs.rkmvu.ac.in/~tamal/gospel/gospel.html
+- LOCATOR: Master’s reminiscence: “Once, at Sihore, I fed the cowherd boys.”
+- UNCERTAINTY: exact physical sub-site not given.
+
+### RK-015 — Ramkumar’s Kolkata residence/school-priest network
+- PLACE/STATE: Kolkata, West Bengal
+- TYPE: residence/work base
+- EVENT/PERIOD: from about age sixteen, before Dakshineswar appointment
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ALLEEN_PLAATS
+- SOURCE: Belur Math official Sri Ramakrishna biography.
+- URL: https://belurmath.org/sri-ramakrishna/
+- LOCATOR: Ramkumar took sixteen-year-old Gadadhar to Kolkata to assist his priestly profession.
+- UNCERTAINTY: exact house/school building was not established from accessible sources in this run.
+
+### RK-016 — Mathur Babu’s Janbazar mansion
+- PLACE/STATE: Janbazar, Kolkata, West Beng
+<<< END CHUNK >>>
+

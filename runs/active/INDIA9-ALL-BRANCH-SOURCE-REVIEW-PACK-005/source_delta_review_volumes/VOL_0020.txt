@@ -1,0 +1,1017 @@
+>>> CHUNK stream_row=291 path=runs/active/TOP11-INDIAGEEL-BLIND-SWEEP-001/RAMANA_MAHARSHI_INDIAGEEL_FREEZE.md blob_sha=86209637389b64b2c2280f00c50a0a4b0d905bbf original_offset=28672 original_length=1869 payload_bytes=1869 chunk_index=7 chunk_count=8 classification=text
+ garden.
+- Exact modern point/structure continuity of “Sri Bhagavan’s Bridge”.
+- Exact physical location of the hornet/banyan-boulder incident remains deliberately unresolved.
+- Further room-level locations inside early Ramanasramam may exist in unexhausted diaries/letters.
+
+## SATURATION_ATTEMPTS
+1. Corpus-first extraction from Sri Ramanasramam/Arunachala Ashrama biographies and chronological pages.
+2. Independent re-search of the 1896 railway/walking journey by every named stop and host.
+3. Separate search of pre-Arunachala childhood/school/temple network.
+4. Separate search of every early Tiruvannamalai residence, including garden/storage/shrine micro-sites.
+5. Hill-site adversarial search for caves, rocks, springs, bridge, summit, banyan/hornet incident and seasonal residences.
+6. Ramanasramam room-level search: Mother’s shrine, Old Hall, kitchen, New Hall, Mathrubhuteswara inner shrine, Nirvana Room.
+7. Hostgraph search using relatives, attendants and eyewitnesses to expose private-house and minor excursion locations.
+8. Repeated broad-query rounds produced mostly already captured famous sites rather than new securely localisable occurrences.
+
+PERSON_SWEEP_SATURATED: NEE
+MOTIVATION: The accessible corpus yielded a dense 51-record nationwide/occurrence-level set, including minor transit/private/room-level sites. However, several early printed corpora and page-image archives were not exhaustively traversable in this run, and multiple explicitly unresolved micro-sites remain. A “JA” would therefore overstate completeness.
+
+## BLINDNESS AT FREEZE
+No PR #23/#24, CCI result, IndiaROOD result, Top-11 atlas, METHOD result, other detector branch, external AI union, prior candidate list, cluster/regional person-result file, or other repository content beyond the explicitly allowed TASK.md and STATUS.md was read before this freeze.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=292 path=runs/active/TOP11-INDIAGEEL-BLIND-SWEEP-001/STATUS.md blob_sha=407b3341da19b18c14307082e848287788ec95ad original_offset=0 original_length=1844 payload_bytes=1844 chunk_index=0 chunk_count=1 classification=text
+# STATUS — TOP11-INDIAGEEL-BLIND-SWEEP-001
+
+```
+task_id: TOP11-INDIAGEEL-BLIND-SWEEP-001
+state: COMPLETE_PRE_COMPARE_FROZEN
+owner: INDIA GEEL
+issued_by: INDIA8
+issued_at: 2026-08-19
+target_branch_for_output: agent/indiageel-ramana-ramakrishna-sweep
+```
+
+## Volgorde
+1. Ramana Maharshi — FROZEN
+   - freeze_path: `runs/active/TOP11-INDIAGEEL-BLIND-SWEEP-001/RAMANA_MAHARSHI_INDIAGEEL_FREEZE.md`
+   - freeze_commit_sha: `0da6c2d0c54d6caf181e8e6fadcf6df863121e2d`
+   - normalized_recordcount: 51
+   - PERSON_SWEEP_SATURATED: NEE
+   - principal blockers: several early page-image corpora not exhaustively traversed; unresolved Dindigul school, Villupuram hotel/private-house identities, several temple/hill micro-sites.
+2. Ramakrishna — FROZEN
+   - freeze_path: `runs/active/TOP11-INDIAGEEL-BLIND-SWEEP-001/RAMAKRISHNA_INDIAGEEL_FREEZE.md`
+   - freeze_commit_sha: `693ddc00660e88030d52564362f3eb2a8af3d9cd`
+   - normalized_recordcount: 55
+   - PERSON_SWEEP_SATURATED: NEE
+   - principal blockers: Navadvip occurrence-level leg not safely resolved from indexed direct corpus; several nineteenth-century Kolkata private-house/property identities and archive continuities unresolved.
+
+## Blindheidsstatus
+BLINDNESS_PRESERVED: JA
+Tijdens beide PRE-COMPARE sweeps zijn uitsluitend `TASK.md`, deze `STATUS.md` en zelfstandig gevonden openbare externe bronnen gebruikt. PR #23/#24, CCI-resultaten, IndiaROOD-resultaten, andere detectorbranches, Top-11/METHOD-resultaatatlassen, kandidaten-unions, regionale/cluster-persoonsresultaten en andere verboden projectresultaten zijn niet gelezen.
+
+## next_allowed_step
+STOP. Beide India-GEEL PRE-COMPARE freezes zijn duurzaam vastgelegd. Geen vergelijking, reconciliatie, PR-lezing, merge, cluster/heatmap/regiosweep, A/B/C, permanente IDs, PDF of route uitvoeren zonder nieuwe expliciete INDIA8-opdracht.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=293 path=runs/active/TOP11-INDIAGEEL-FOURPERSON-OVERLAP-001/FOURPERSON_OVERLAP_MATRIX.md blob_sha=3b4deaa5b10e81d9084613e9c7b9457275a7b05b original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# INDIA GEEL — FOUR-PERSON OVERLAP MATRIX
+
+MODE: POST-FREEZE COMPARISON OF OWN FREEZES ONLY  
+INPUTS: Ramana Maharshi, Ramakrishna, Neem Karoli Baba, Ram Dass India-GEEL freezes  
+NEW_WEB_RESEARCH: NEE  
+NEW_LOCATION_CLAIMS: NEE
+
+## Legenda
+- `RM` = Ramana Maharshi
+- `RK` = Ramakrishna
+- `NKB` = Neem Karoli Baba
+- `RD` = Ram Dass
+- `EXACT-SITE` = ten minste één gedeeld fysiek gebouw/complex/tempel/ashram/station is in de freezes als kandidaat voor dezelfde site identificeerbaar.
+- `SAME-CITY/REGION` = personen zijn aantoonbaar in dezelfde stad/regio geweest, maar niet noodzakelijk op dezelfde fysieke site.
+- Record-counts hieronder zijn counts binnen de gebruikte genormaliseerde GEEL-freezes; bij regionale aggregatie worden alleen duidelijk aan die regio toewijsbare records meegenomen. Onzekere `PERSONALLY_PRESENT: ONZEKER`-records tellen niet als bewezen persoonsaanwezigheid.
+
+## A. Meerpersoons-overlap
+
+| Stad/regio | RM | RK | NKB | RD | person-count | minimum attributable record-count | overlapniveau | Notitie |
+|---|---:|---:|---:|---:|---:|---:|---|---|
+| Vrindavan / kern-Braj |  | JA | JA | JA | 3 | 13+ | EXACT-SITE + SAME-REGION | RK en RD delen Banke Bihari Temple exact; NKB en RD delen NKB Vrindavan Ashram exact. RK heeft daarnaast Fouzdar Kunj, Kaliyadah, Nidhivan e.a.; RD Jaipuria Bhawan, Yamuna, Anandamayi Ma Ashram e.a. |
+| Prayagraj / Allahabad |  | JA | JA | JA | 3 | 9 | EXACT-SITE-CANDIDATE + SAME-CITY | RK: Triveni Sangam. NKB: oude Mukerjee-house, 4 Church Lane, Babaji-room, Prabhudatt Ashram, Hanuman-riverbank, Prayag station. RD: reclining-Hanuman/Sangam-zone en 4 Church Lane. NKB–RD delen 4 Church Lane exact. |
+| Varanasi / Kashi |  | JA |  | JA | 2 | 11 | PROBABLE-SITE + SAME-CITY | RK heeft Kedar-Ghat lodging, Vishwanath, Kedareshwar, Manikarnika, Trailanga-site, Madanpura-house, Annapurna e.a.; RD hotel/ghat/boat. Manikarnika is waarschijnlijk dezelfde fysieke ghat-zone, maar RD-freeze is DEELS. |
+| Kainchi |  |  | JA | JA | 2 | 6 | EXACT-SITE | NKB: founding rock/site, Maharajji kuti, courtyard/Hanuman temple, wooden bridge. RD: Kainchi Ashram/temple complex en eigen room. Exact hetzelfde ashramcomplex staat in beide freezes. |
+| Nainital |  |  | JA | JA | 2 | 6+ | EXACT-SITE + SAME-CITY | Exact gedeeld: Hanuman Garh/Hanumangarh temple. Verder NKB hut/Ramsay Hospital en RD K.K. Sah home/Hotel Evelyn. |
+| Bhumiadhar / Bhumiyadhar |  |  | JA | JA | 2 | 3 | EXACT-SITE | NKB roadside Hanuman temple + Baba-room; RD eerste Maharaj-ji meeting at Bhumiadhar temple/complex. |
+| Bareilly |  |  | JA | JA | 2 | 4 | SAME-CITY | NKB: Dr A.D. Bhandari house en Yogendra Prakash Goel house. RD: Harish Johari family home / journey departure. Geen gedeeld gebouw bewezen. |
+| Govardhan / Braj-region |  | JA |  | JA* | 2* | RK: 4+ | SAME-REGION ONLY | RK heeft Govardhan Hill, Radha Kund, Shyam Kund, Kusum Sarovar. RD is in bredere Vrindavan/Braj-context aanwezig maar zijn freeze bewijst niet afzonderlijk deze RK-sites; daarom geen exacte overlap. |
+| Mathura–Vrindavan corridor |  | JA | JA | JA | 3 | 15+ regionaal | SAME-REGION + exact subclusters | RK: Mathura Dhruva Ghat en Vrindavan/Braj-sites; NKB: Vrindavan sites; RD: Vrindavan sites. Niet behandelen als één fysieke site. |
+| Kumaon / Nainital district cluster |  |  | JA | JA | 2 | 15+ | MULTIPLE EXACT-SITE + SAME-REGION | Omvat Kainchi, Bhumiadhar en Nainital/Hanuman Garh plus overige eigen records. Dit is een regionale aggregatie, geen nieuwe locatieclaim. |
+
+`*` RD is bewezen in Vrindavan/Braj, maar niet op RK's specifieke Govardhan/Radha-Kund/Shyam-Kund/Kusum-Sarovar records; daarom alleen brede regio-overlap indien die schaal wordt gebruikt.
+
+## B. Ramana Maharshi — overlapkarakter
+
+Binnen de vier GEEL-freezes heeft Ramana Maharshi geen overtuigende city-level overlap met RK/NKB/RD die op basis van de eigen freezes veilig als gedeelde stad kan worden genormaliseerd. Zijn 51 records concentreren sterk op Tamil Nadu, vooral Tiruvannamalai/Arunachala, plus Tiruchuzhi, Madurai, Dindigul en de 1896 rail/pelgrimsroute. Daarom blijft RM in deze vierpe
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=294 path=runs/active/TOP11-INDIAGEEL-FOURPERSON-OVERLAP-001/FOURPERSON_OVERLAP_MATRIX.md blob_sha=3b4deaa5b10e81d9084613e9c7b9457275a7b05b original_offset=4096 original_length=1014 payload_bytes=1014 chunk_index=1 chunk_count=2 classification=text
+rsoons pre-heatmap hoofdzakelijk een aparte zuidelijke clusterlaag.
+
+## C. Persoonsprofielen voor pre-heatmap
+
+- **Ramana Maharshi:** 51 records; zeer hoge interne dichtheid in Tiruvannamalai/Arunachala, maar geen sterke overlap met de andere drie GEEL-personen.
+- **Ramakrishna:** 55 records; hoofddichtheid Kamarpukur/Dakshineswar/Kolkata, plus duidelijke pelgrimageclusters Varanasi–Prayagraj–Vrindavan/Braj.
+- **Neem Karoli Baba:** 46 records; sterk verspreid over Uttar Pradesh/Uttarakhand, met zeer dichte Kumaon- en Prayagraj/Vrindavan-hostnetwerken.
+- **Ram Dass:** 55 records; brede reislaag door Noord- en West/Zuid-India, met zware overlap met NKB in Kumaon, Prayagraj en Vrindavan en met RK in Varanasi/Vrindavan.
+
+## Methodische grens
+Deze matrix vergelijkt uitsluitend reeds bestaande GEEL-records. Historische naamnormalisatie is alleen gebruikt wanneer de freezes zelf de equivalentie aangeven (bijv. Allahabad/Prayagraj, Benares/Varanasi). Geen externe verificatie of aanvulling is uitgevoerd.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=295 path=runs/active/TOP11-INDIAGEEL-FOURPERSON-OVERLAP-001/SAME_SITE_CANDIDATES.md blob_sha=2680a06d7b65588c0de89bf74053a13be6a0a0ff original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# INDIA GEEL — SAME-SITE CANDIDATES
+
+MODE: POST-FREEZE comparison of own four GEEL freezes only  
+NEW_WEB_RESEARCH: NEE  
+
+## Classificatie
+- `EXACT` — beide freezes identificeren hetzelfde fysieke complex/gebouw/tempel/ashram overtuigend genoeg.
+- `WAARSCHIJNLIJK` — dezelfde fysieke site is aannemelijk, maar één of beide records zijn `DEELS`/onvoldoende exact om stil tot EXACT te promoveren.
+- `ALLEEN_STAD` — zelfde stad/regio, geen bewijs voor hetzelfde gebouw/site.
+
+## EXACT
+
+### SS-01 — Kainchi Ashram / temple complex
+- PERSONEN: Neem Karoli Baba + Ram Dass
+- NKB records: NKB-IG-016, NKB-IG-017, NKB-IG-018, NKB-IG-019
+- RD records: RD-22, RD-23
+- CLASS: EXACT op complexniveau
+- NOTE: Maharajji's kuti en Ram Dass's eigen room zijn niet automatisch dezelfde subruimte; exactheid geldt voor het gedeelde ashramcomplex.
+
+### SS-02 — Bhumiadhar Hanuman temple / meeting complex
+- PERSONEN: Neem Karoli Baba + Ram Dass
+- NKB records: NKB-IG-014, NKB-IG-015
+- RD record: RD-20
+- CLASS: EXACT op temple/complexniveau
+- NOTE: RD's first Maharaj-ji meeting is expliciet bij het Bhumiadhar temple complex; NKB-freeze identificeert dezelfde roadside Hanuman temple site.
+
+### SS-03 — Hanuman Garh / Hanumangarh temple, Nainital
+- PERSONEN: Neem Karoli Baba + Ram Dass
+- NKB record: NKB-IG-012
+- RD record: RD-24
+- CLASS: EXACT
+- NOTE: spellingvariant Hanumangarh/Hanuman Garh; beide freezes plaatsen de persoon op dezelfde Nainital Hanuman-tempelsite.
+
+### SS-04 — 4 Church Lane, Allahabad/Prayagraj
+- PERSONEN: Neem Karoli Baba + Ram Dass
+- NKB records: NKB-IG-024, NKB-IG-025
+- RD record: RD-37
+- CLASS: EXACT
+- NOTE: exact adres staat in beide freeze-lagen. NKB's kleine room is een subsite; RD is bewezen in het huis maar niet noodzakelijk in elk NKB-room-level record.
+
+### SS-05 — Neem Karoli Baba Vrindavan Ashram, Parikrama Marg
+- PERSONEN: Neem Karoli Baba + Ram Dass
+- NKB record: NKB-IG-042
+- RD records: RD-43, RD-44, RD-45
+- CLASS: EXACT op ashramcomplexniveau
+- NOTE: RD office/courtyard records zijn subsites binnen het gedeelde complex.
+
+### SS-06 — Banke/Bankey Bihari Temple, Vrindavan
+- PERSONEN: Ramakrishna + Ram Dass
+- RK record: RK-036
+- RD record: RD-52
+- CLASS: EXACT
+- NOTE: spellingvariant Banke/Bankey; beide freezes identificeren dezelfde Krishna-tempel.
+
+## WAARSCHIJNLIJK
+
+### SS-07 — Manikarnika Ghat / burning-ghat zone, Varanasi
+- PERSONEN: Ramakrishna + Ram Dass
+- RK record: RK-030
+- RD record: RD-15
+- CLASS: WAARSCHIJNLIJK
+- NOTE: RK is exact bij Manikarnika/boat off the ghat. RD zat bij de burning ghats en verbleef nabij Manikarnika, maar zijn freeze houdt de precieze ghat voor elk moment op `DEELS`; daarom niet promoveren naar EXACT.
+
+### SS-08 — riverside Hanuman temple near Sangam, Prayagraj
+- PERSONEN: Neem Karoli Baba + Ram Dass
+- NKB record: NKB-IG-027
+- RD record: RD-36
+- CLASS: WAARSCHIJNLIJK
+- NOTE: beide records beschrijven een Hanuman-tempel in de Sangam/Ganges-zone. RD noemt de ongebruikelijke reclining/underground Hanuman; NKB-freeze noemt de flood-side Hanuman temple en waarschuwt dat de beroemde moderne identiteit niet zonder sterkere locator exact mag worden gesteld.
+
+## ALLEEN STAD / REGIO
+
+### SS-09 — Bareilly
+- PERSONEN: Neem Karoli Baba + Ram Dass
+- CLASS: ALLEEN_STAD
+- NKB sites: Dr A.D. Bhandari house; Yogendra Prakash Goel house.
+- RD site: Harish Johari family home/departure point.
+- NOTE: geen gedeeld huis bewezen.
+
+### SS-10 — Prayagraj beyond 4 Church Lane
+- PERSONEN: Ramakrishna + Neem Karoli Baba + Ram Dass
+- CLASS: ALLEEN_STAD voor RK versus NKB/RD
+- RK site: Triveni Sangam.
+- NKB/RD: host houses, Hanuman-temple zone, station/other sites.
+- NOTE: drie-person city overlap betekent niet dat één drie-person exact site bewezen is.
+
+### SS-11 — Vrindavan beyond the exact pairs above
+- PERSONEN: Ramakrishna + Neem Karoli Baba + Ram Dass
+- CLASS: ALLEEN_STAD/REGIO voor veel overige records
+- NOTE: RK Fouzdar Kunj/Kaliyadah/Nidhivan en RD Jaipuria/Yamuna/Anandamayi sites zijn niet automatisch NKB-sites; alleen SS-05 en SS-06 zijn cross-person exact binnen de huidige fr
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=296 path=runs/active/TOP11-INDIAGEEL-FOURPERSON-OVERLAP-001/SAME_SITE_CANDIDATES.md blob_sha=2680a06d7b65588c0de89bf74053a13be6a0a0ff original_offset=4096 original_length=1087 payload_bytes=1087 chunk_index=1 chunk_count=2 classification=text
+eezes.
+
+### SS-12 — Nainital beyond Hanuman Garh
+- PERSONEN: Neem Karoli Baba + Ram Dass
+- CLASS: ALLEEN_STAD
+- NKB: hut/Hanumangarh/Ramsay Hospital e.a.
+- RD: K.K. Sah home/Hotel Evelyn/Hanuman Garh.
+- NOTE: alleen Hanuman Garh is exact gedeeld.
+
+## Negative controls / niet als same-site tellen
+- NKB Maharajji kuti at Kainchi ≠ RD's own room at Kainchi, tenzij een toekomstige bron exact dezelfde room bewijst.
+- Ramakrishna Triveni Sangam ≠ automatisch NKB/RD Hanuman temple near Sangam.
+- `same city` Varanasi ≠ same temple; RK Vishwanath/Kedareshwar/etc. worden niet aan RD toegeschreven.
+- regionale Braj-overlap ≠ aanwezigheid van RD/NKB op RK's Govardhan/Radha Kund/Shyam Kund/Kusum Sarovar-sites.
+- Geen Ramana-site is in deze vier GEEL-freezes overtuigend als same-site met een van de andere drie geïdentificeerd.
+
+## Resultaat
+- EXACT same-site candidates: 6
+- WAARSCHIJNLIJK same-site candidates: 2
+- ALLEEN_STAD/REGIO controls: 4
+
+Dit bestand introduceert geen nieuwe persoonslocaties; het classificeert uitsluitend relaties tussen reeds gefreezede GEEL-records.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=297 path=runs/active/TOP11-INDIAGEEL-FOURPERSON-OVERLAP-001/STATUS.md blob_sha=bd269a0548637cff8bcd0b8321d943d04454c1b8 original_offset=0 original_length=1448 payload_bytes=1448 chunk_index=0 chunk_count=1 classification=text
+# STATUS — TOP11-INDIAGEEL-FOURPERSON-OVERLAP-001
+
+state: COMPLETE
+branch: agent/indiageel-ramana-ramakrishna-sweep
+owner: INDIA GEEL
+scope: post-freeze comparison of four India-GEEL freezes only
+new_web_research: NEE
+new_location_claims: NEE
+
+## Outputs
+- `runs/active/TOP11-INDIAGEEL-FOURPERSON-OVERLAP-001/FOURPERSON_OVERLAP_MATRIX.md`
+  - commit_sha: `255989dfd9fb99475a991deeb1850814cc8f91c7`
+- `runs/active/TOP11-INDIAGEEL-FOURPERSON-OVERLAP-001/TOP_OVERLAP_CLUSTERS.md`
+  - commit_sha: `b7c8d621a817e956cc79d8819778b3d2e292d447`
+- `runs/active/TOP11-INDIAGEEL-FOURPERSON-OVERLAP-001/SAME_SITE_CANDIDATES.md`
+  - commit_sha: `8b41dda2251e9d8d88ca1f1cb11c2fc5901b8336`
+
+## Result summary
+- strongest 3-person overlap clusters: Vrindavan/Braj and Prayagraj/Allahabad
+- strongest 2-person density: Kumaon/Nainital district (Neem Karoli Baba + Ram Dass)
+- same-site classification: 6 EXACT, 2 WAARSCHIJNLIJK, 4 ALLEEN_STAD/REGIO controls
+- Ramana Maharshi remains geographically largely separate within this four-person GEEL comparison, despite high internal Tiruvannamalai/Arunachala record density.
+
+## Compliance
+Only the four explicitly allowed India-GEEL freezes were compared. No web research was performed. PR #23/#24, CCI, IndiaROOD, other detector branches/results and existing heatmaps were not opened. No A/B/C, route, nights, permanent IDs, PDF, merge or PR was produced.
+
+next_allowed_step: STOP. Await a new explicit INDIA8 task.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=298 path=runs/active/TOP11-INDIAGEEL-FOURPERSON-OVERLAP-001/TASK.md blob_sha=2f04be253c2fcc293e18d8a00ab8aa933393b30b original_offset=0 original_length=1319 payload_bytes=1319 chunk_index=0 chunk_count=1 classification=text
+# INDIA GEEL — FOUR-PERSON OVERLAP PRE-HEATMAP
+
+STATUS: READY
+OWNER: INDIA GEEL
+MODE: POST-FREEZE COMPARISON OF OWN FREEZES ONLY
+
+## Input
+Gebruik uitsluitend de vier reeds duurzaam gefreezede India-GEEL-bestanden op branch `agent/indiageel-ramana-ramakrishna-sweep`:
+- RAMANA_MAHARSHI_INDIAGEEL_FREEZE.md
+- RAMAKRISHNA_INDIAGEEL_FREEZE.md
+- NEEM_KAROLI_BABA_INDIAGEEL_FREEZE.md
+- RAM_DASS_INDIAGEEL_FREEZE.md
+
+## Opdracht
+Maak een compacte overlap/pre-heatmap die uitsluitend deze vier onafhankelijke GEEL-freezes vergelijkt. Geen nieuwe webresearch. Geen andere branches, PR #23/#24, CCI, IndiaROOD of bestaande heatmaps openen.
+
+Lever:
+1. `FOURPERSON_OVERLAP_MATRIX.md` — per stad/regio welke van de vier personen aantoonbaar aanwezig waren; onderscheid exact fysieke overlap versus alleen zelfde stad/regio.
+2. `TOP_OVERLAP_CLUSTERS.md` — rangschik puur descriptief op person-count en record-count; geen A/B/C of reisadvies.
+3. `SAME_SITE_CANDIDATES.md` — alleen gevallen waar mogelijk exact hetzelfde fysieke gebouw/complex/ashram/tempel/station door meer dan één van de vier is bezocht; markeer EXACT/WAARSCHIJNLIJK/ALLEEN_STAD.
+4. `STATUS.md` bijwerken naar COMPLETE.
+
+Harde regel: geen nieuwe locatieclaims toevoegen die niet al in de vier freezes staan. Geen route, nachten, A/B/C, PDF, merge of PR.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=299 path=runs/active/TOP11-INDIAGEEL-FOURPERSON-OVERLAP-001/TOP_OVERLAP_CLUSTERS.md blob_sha=cafd0bc8470d95e3c80b5a656d40b5a8d3e49fdf original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# INDIA GEEL — TOP OVERLAP CLUSTERS
+
+MODE: POST-FREEZE DESCRIPTIVE RANKING  
+INPUT: uitsluitend vier India-GEEL freezes  
+NEW_WEB_RESEARCH: NEE  
+TRAVEL_RANKING: NEE
+
+## Rangschikregel
+Primair: aantal personen met bewezen aanwezigheid.  
+Secundair: aantal aan de cluster toewijsbare records in de vier freezes.  
+Tertiair: hoeveelheid exact/waarschijnlijk gedeelde fysieke sites.  
+
+Dit is uitsluitend een descriptieve pre-heatmap. Geen A/B/C, geen reisadvies en geen routewaarde.
+
+## Tier 1 — drie personen
+
+### 1. Vrindavan / kern-Braj
+- PERSONS: Ramakrishna, Neem Karoli Baba, Ram Dass
+- PERSON_COUNT: 3
+- ATTRIBUTABLE_RECORDS: 13+ in Vrindavan-kern; hoger bij bredere Braj-aggregatie
+- EXACT_SHARED_SITES:
+  - Banke Bihari Temple — Ramakrishna + Ram Dass
+  - Neem Karoli Baba Vrindavan Ashram — Neem Karoli Baba + Ram Dass
+- SAME-REGION EXTRA: Fouzdar Kunj, Kaliyadah, Nidhivan, Govardhan/Radha-Shyam-Kund/Kusum-Sarovar aan RK-zijde; Jaipuria Bhawan, Yamuna en Anandamayi Ma Ashram aan RD-zijde; Hathiwale Baba/Gore Dauji en NKB Ashram aan NKB-zijde.
+- INTERPRETATIE: hoogste combinatie van drie-person overlap en meerdere exacte fysieke cross-person sites.
+
+### 2. Prayagraj / Allahabad
+- PERSONS: Ramakrishna, Neem Karoli Baba, Ram Dass
+- PERSON_COUNT: 3
+- ATTRIBUTABLE_RECORDS: 9
+- EXACT_SHARED_SITE:
+  - 4 Church Lane — Neem Karoli Baba + Ram Dass
+- PROBABLE_SHARED_SITE:
+  - Hanuman-temple/Sangam-zone — NKB flood-side Hanuman record en RD reclining-Hanuman record lijken mogelijk dezelfde beroemde riverside site, maar de freezes leggen dit niet beide exact genoeg vast om `EXACT` te maken.
+- SAME-CITY EXTRA: RK Triveni Sangam; NKB old Mukerjee house, Babaji room, Prabhudatt Ashram en Prayag station.
+- INTERPRETATIE: zeer sterke hostgraph-overlap, maar minder exact gedeelde sites dan Vrindavan.
+
+### 3. Mathura–Vrindavan / bredere Braj-corridor
+- PERSONS: Ramakrishna, Neem Karoli Baba, Ram Dass
+- PERSON_COUNT: 3
+- ATTRIBUTABLE_RECORDS: 15+ regionaal
+- EXACT_SHARED_SUBCLUSTERS: zie Vrindavan hierboven.
+- CAUTION: deze corridor is een regionale aggregatie; Mathura, Govardhan en Vrindavan mogen niet als één fysieke plaats worden behandeld.
+
+## Tier 2 — twee personen, hoge recorddichtheid
+
+### 4. Kumaon / Nainital district
+- PERSONS: Neem Karoli Baba, Ram Dass
+- PERSON_COUNT: 2
+- ATTRIBUTABLE_RECORDS: 15+
+- EXACT_SHARED_SITES: Kainchi Ashram complex, Bhumiadhar temple complex, Hanuman Garh/Hanumangarh.
+- SAME-REGION EXTRA: K.K. Sah home, Hotel Evelyn, Ramsay Hospital, Maharajji hut/room, Kainchi bridge en diverse NKB/RD sublocaties.
+- INTERPRETATIE: grootste twee-persoons recordconcentratie en hoogste dichtheid van gedeelde NKB–RD sites.
+
+### 5. Varanasi / Kashi
+- PERSONS: Ramakrishna, Ram Dass
+- PERSON_COUNT: 2
+- ATTRIBUTABLE_RECORDS: 11
+- PROBABLE_SHARED_SITE: Manikarnika Ghat / burning-ghat zone.
+- RK-only within cluster: Kedar-Ghat lodging, Vishwanath, Kedareshwar, Trailanga-site, Madanpura house, Annapurna.
+- RD-only within cluster: unnamed hotel near Ganga/Manikarnika and Ganga boat occurrence.
+- INTERPRETATIE: hoge historische recorddichtheid, maar exact cross-person building overlap is beperkt.
+
+### 6. Nainital stad
+- PERSONS: Neem Karoli Baba, Ram Dass
+- PERSON_COUNT: 2
+- ATTRIBUTABLE_RECORDS: 6+
+- EXACT_SHARED_SITE: Hanuman Garh/Hanumangarh temple.
+- EXTRA: NKB hut and Ramsay Hospital; RD K.K. Sah home and Hotel Evelyn.
+
+### 7. Kainchi
+- PERSONS: Neem Karoli Baba, Ram Dass
+- PERSON_COUNT: 2
+- ATTRIBUTABLE_RECORDS: 6
+- EXACT_SHARED_SITE: Kainchi Ashram/temple complex.
+- SUBSITE CAUTION: NKB Maharajji residential kuti and RD's own room are different rooms; same complex does not mean same room.
+
+### 8. Bareilly
+- PERSONS: Neem Karoli Baba, Ram Dass
+- PERSON_COUNT: 2
+- ATTRIBUTABLE_RECORDS: 4
+- SHARED_SITE: geen bewezen gedeeld gebouw.
+- NKB: Bhandari house; Goel house.
+- RD: Harish Johari family home / departure point.
+
+### 9. Bhumiadhar
+- PERSONS: Neem Karoli Baba, Ram Dass
+- PERSON_COUNT: 2
+- ATTRIBUTABLE_RECORDS: 3
+- EXACT_SHARED_SITE: Bhumiadhar Hanuman temple/meeting complex.
+
+## Tier 3 — één persoon maar z
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=300 path=runs/active/TOP11-INDIAGEEL-FOURPERSON-OVERLAP-001/TOP_OVERLAP_CLUSTERS.md blob_sha=cafd0bc8470d95e3c80b5a656d40b5a8d3e49fdf original_offset=4096 original_length=1217 payload_bytes=1217 chunk_index=1 chunk_count=2 classification=text
+eer hoge interne dichtheid
+Deze zijn geen cross-person overlap, maar relevant voor een toekomstige heatmap omdat record-count anders verkeerd kan worden geïnterpreteerd.
+
+### Tiruvannamalai / Arunachala — Ramana Maharshi
+- PERSON_COUNT: 1
+- RECORD_DENSITY: zeer hoog; meerderheid van Ramana's 51 records.
+- Karakter: tempel-subsites, caves, hill sites, Ramanasramam rooms/halls.
+
+### Kamarpukur — Ramakrishna
+- PERSON_COUNT: 1
+- RECORD_DENSITY: minstens 11 vroege-life records in de freeze.
+- Karakter: geboortecompound, school, ponds, cremation grounds, grove, rest-house.
+
+### Dakshineswar — Ramakrishna
+- PERSON_COUNT: 1
+- RECORD_DENSITY: meerdere exact fysieke sadhana- en room-level records.
+
+## Samenvatting
+- Hoogste `person-count`: Vrindavan/Braj en Prayagraj/Allahabad (3 personen).
+- Hoogste twee-persoons recorddichtheid: Kumaon/Nainital district (NKB + RD).
+- Sterkste exact-site keten: NKB + RD via Bhumiadhar → Nainital/Hanuman Garh → Kainchi → Prayagraj/4 Church Lane → Vrindavan NKB Ashram.
+- Ramana blijft binnen deze vierpersoonsvergelijking grotendeels geografisch separaat, ondanks zeer hoge interne recorddichtheid in Tiruvannamalai.
+
+Geen van deze regels is een reisrangschikking.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=301 path=runs/active/TOP11-INDIAGEEL-NKB-BLIND-SWEEP-001/NEEM_KAROLI_BABA_INDIAGEEL_FREEZE.md blob_sha=16e05ff9ed7ba924d61f8a08e5c9f405093fb2a6 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=9 classification=text
+# NEEM KAROLI BABA — INDIAGEEL PRE-COMPARE FREEZE
+
+PERSON: Neem Karoli Baba / Neeb Karori Baba / Baba Lachman Das / Maharajji  
+FREEZE_TIMESTAMP: 2026-08-19T15:28:00+02:00  
+BLINDNESS_CONFIRMED: JA  
+MODE: PRE-COMPARE BLIND  
+SCOPE: heel India; zelfstandige source-first/corpus-first sweep vanaf nul
+
+## CORPORA_SEARCHED
+
+1. Ravi Prakash Pande (Rajida), *The Divine Reality / Alokik Yatharatha: Shri Baba Neem Karoli Ji Maharaj*, English ed. 2003, published by Shri Kainchi Hanuman Mandir and Ashram. Free publisher-associated PDF supplied through divinereality.info. This was the main occurrence corpus; nearly 400 remembered lilas plus an extended temples/ashrams section.
+2. Dada Mukerjee, *By His Grace: A Devotee's Story*, Hanuman Foundation / Love Serve Remember Foundation editions; web-indexed full text and official LSRF excerpts. Used for Allahabad winter camp, Chitrakut/Vindhyachal, Kanpur, Bhumiadhar, Kainchi, pilgrimage and last-days occurrence detail.
+3. Ram Dass / Love Serve Remember Foundation, *Miracle of Love* story excerpts and NKB story pages; used mainly as an independent semi-primary witness layer for Ram Dass, Dada and other devotee recollections.
+4. Neem Karoli Baba Ashram & Hanuman Temple (Taos) pages on Nibkarori, Kainchi and Vrindavan; institutional secondary/semi-primary lineage layer.
+5. Neeb Karori Baba Vrindavan Samadhi Temple institutional site; used for Vrindavan institutional continuity.
+6. Open Library / Internet Archive catalog records for *By His Grace* and *Miracle of Love* to verify editions and access status.
+
+## SOURCE_ACCESS_BLOCKERS
+
+- *Miracle of Love* full searchable edition was not available from an official free full-text source in this run; official LSRF excerpts and an indexed scan/catalog were used selectively. Full page-by-page extraction therefore remains incomplete.
+- *By His Grace* was available as web-indexed full text on a third-party document host and in official excerpt form, but the official publisher's full ebook is commercial/DRM. Exact printed-page reconciliation was not performed.
+- *The Divine Reality* PDF was text-searchable and was the strongest broad corpus. The PDF screenshot endpoint failed with a cache-miss when explicitly tested; parsed PDF text remained accessible.
+- Several private houses are identified in recollections only by devotee surname/role. Exact present-day parcel/building identity cannot safely be inferred.
+- Historical district labels in sources are retained where necessary; Akbarpur was described as Agra district in source-era text, while modern administrative placement is Firozabad district.
+
+## HOSTGRAPH_SEARCHED
+
+Dada/Sudhir Mukerjee and Kamala Mukerjee; 4 Church Lane household; Tularam Sah and Siddhi Ma; K.K./Krishna Kumar Sah and Sah family; Hira Lal Shah/Habba; Ramesh Sah; Kanhaiya Lal Srivastava; Devkamta Dixit and Dr Dixit; Didi's brother Mr Choudhury; Dr A.D. Bhandari; Yogendra Prakash Goel; Jagmohan Sharma; Ram Prakash/Agra devotee network; Hukum Chand; Ram Dass and Western devotees; Prabhudatt Brahmachari; Hathiwale Baba; Somvar Giri Baba; Haridas Baba; Habibulla; Ravi and final-journey companions; local Neeb Karori villagers including Goverdhan; Ramabai/Babania lineage; temple and ashram caretakers.
+
+## DISCOVERY_SEARCH_FAMILIES
+
+- `Neem/Neeb Karoli Baba` + biography / places / journey / ashram / house / station / hospital / temple / cave / dharamshala.
+- Name variants: Neem Karoli, Neeb Karori, Nib Karori, Lachman Das, Lakshmi/Laxmi Narayan Sharma, Maharajji.
+- Host-family searches: Dada Mukerjee, K.K. Sah, Sah family, Hukum Chand, Dixit, Bhandari, Sharma, Ram Dass.
+- City/region adversarial queries around Allahabad/Prayagraj, Nainital, Bhowali, Bhumiadhar, Kainchi, Bareilly, Kanpur, Lucknow, Agra, Mathura, Vrindavan, Farrukhabad/Fatehgarh, Gujarat/Morvi/Babania, Shimla, Badrinath, Rishikesh, Madras/Chennai, Rameshwaram, Chitrakut.
+- Micro-site searches: room, kuti, hut, cave, bridge, platform, rooftop, garden, station steps, hospital room, inspection house, dharamshala, riverside, ghat, cow shed.
+- Post-foundation filter: later temp
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=302 path=runs/active/TOP11-INDIAGEEL-NKB-BLIND-SWEEP-001/NEEM_KAROLI_BABA_INDIAGEEL_FREEZE.md blob_sha=16e05ff9ed7ba924d61f8a08e5c9f405093fb2a6 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=9 classification=text
+les were not counted as personal-presence sites merely because they are associated with Baba.
+
+NORMALIZED_RECORDCOUNT: 46
+
+## LOCATION_RECORDS
+
+### NKB-IG-001 — Sharma family home / birthplace, Akbarpur
+- PLACE/STATE: Akbarpur, source-era Agra district, U.P.; modern district commonly Firozabad.
+- TYPE: family house / birthplace.
+- EVENT/PERIOD: birth and childhood, c. turn of 20th century; source says he left home before age eleven.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: *The Divine Reality*, pp. 44–45 (PDF pages 44–45), lines around 1187–1217; also institutional Vrindavan biography.
+- URL: https://divinereality.info/downloads/DIVINE_REALITY_1st_English_Edition.pdf
+- LOCATOR: PDF P44–45, birth in Akbarpur and departure to Gujarat.
+- UNCERTAINTY: exact surviving family-house parcel is not fixed by the text used here.
+
+### NKB-IG-002 — Dak Bangalia, Akbarpur
+- PLACE/STATE: Akbarpur, U.P.
+- TYPE: dak bungalow / lodging.
+- EVENT/PERIOD: documented later stays and meetings with relatives.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: *The Divine Reality*, story 103/105 context, PDF P162–163.
+- URL: https://divinereality.info/downloads/DIVINE_REALITY_1st_English_Edition.pdf
+- LOCATOR: P162–163: “Maharaji was staying at Dak Bangalia in his village, Akbarpur”; Shyam Sunder recollection.
+- UNCERTAINTY: current structure continuity unresolved.
+
+### NKB-IG-003 — Vaishnav saint's ashram, Gujarat, exact place unresolved
+- PLACE/STATE: Gujarat.
+- TYPE: ashram.
+- EVENT/PERIOD: early renunciate period after leaving Akbarpur; received name Lachman Das.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ONBEKEND
+- SOURCE: *The Divine Reality*, P45.
+- URL: https://divinereality.info/downloads/DIVINE_REALITY_1st_English_Edition.pdf
+- LOCATOR: P45 lines 1207–1215.
+- UNCERTAINTY: ashram/site and guru not named in searched text.
+
+### NKB-IG-004 — Ramabai ashram/hermitage, Babania near Morvi
+- PLACE/STATE: Babania, about 40 km from Morvi/Morbi, Gujarat.
+- TYPE: ashram/hermitage.
+- EVENT/PERIOD: early years; spiritual austerities.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: *The Divine Reality*, P45 and P448–449.
+- URL: https://divinereality.info/downloads/DIVINE_REALITY_1st_English_Edition.pdf
+- LOCATOR: P45 lines 1215–1218; temples section P449.
+- UNCERTAINTY: modern exact hermitage footprint not independently cadastral-verified.
+
+### NKB-IG-005 — Lake at Babania
+- PLACE/STATE: Babania, Gujarat.
+- TYPE: lake / austerity site.
+- EVENT/PERIOD: early spiritual practice; source says he sometimes immersed himself in the lake.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: *The Divine Reality*, P45, P448–449.
+- URL: https://divinereality.info/downloads/DIVINE_REALITY_1st_English_Edition.pdf
+- LOCATOR: P45 lines 1215–1218; P448–449 lines 13855–13875.
+- UNCERTAINTY: lake proper name not supplied.
+
+### NKB-IG-006 — First Hanuman murti/temple site, Babania
+- PLACE/STATE: Babania, Gujarat.
+- TYPE: Hanuman shrine/temple beside lake.
+- EVENT/PERIOD: early period; Baba installed first Hanuman murti near lake.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *The Divine Reality*, P449.
+- URL: https://divinereality.info/downloads/DIVINE_REALITY_1st_English_Edition.pdf
+- LOCATOR: P449 lines 13870–13880.
+- UNCERTAINTY: temple was later built around/for the murti; historical fabric continuity not audited.
+
+### NKB-IG-007 — First/second underground cave, Neeb Karori village
+- PLACE/STATE: Neeb Karori (Nib Karori), Farrukhabad district, U.P.
+- TYPE: underground meditation cave.
+- EVENT/PERIOD: c. 1916–1935; long sadhana residence, source states eighteen years.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *The Divine Reality*, P45 and P448–450; NKB Ashram Nibkarori history.
+- URL: https://divinereality.info/downloads/DIVINE_REALITY_1st_English_Edition.pdf ; https://nkbashram.org/maharaj-ji-indian-ashrams/nibkarori-ashram-maharajjis-cave
+- LOCATOR: P45 lines 1219–1228; P449 lines 13881–13894.
+- UNCERTAINTY: original c
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=303 path=runs/active/TOP11-INDIAGEEL-NKB-BLIND-SWEEP-001/NEEM_KAROLI_BABA_INDIAGEEL_FREEZE.md blob_sha=16e05ff9ed7ba924d61f8a08e5c9f405093fb2a6 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=9 classification=text
+ave collapsed; present cave/site is historical-successor identity.
+
+### NKB-IG-008 — Hanuman temple above cave, Neeb Karori
+- PLACE/STATE: Neeb Karori, Farrukhabad district, U.P.
+- TYPE: Hanuman temple.
+- EVENT/PERIOD: residence era; temple built over cave at Baba's direction; Baba present in temple stories.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *The Divine Reality*, P48–50, P449–450; Nibkarori institutional page.
+- URL: same as NKB-IG-007.
+- LOCATOR: P48 lines 1280–1286; P449–450 construction narrative.
+- UNCERTAINTY: later repairs/alterations not audited.
+
+### NKB-IG-009 — Lachman Das Puri railway station / Neeb Karori train-lila station
+- PLACE/STATE: near Neeb Karori, U.P.
+- TYPE: railway station/platform, transit.
+- EVENT/PERIOD: British-era train incident; removed from train and sat on platform.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *The Divine Reality*, P42; Nibkarori institutional history.
+- URL: https://divinereality.info/downloads/DIVINE_REALITY_1st_English_Edition.pdf ; https://nkbashram.org/maharaj-ji-indian-ashrams/nibkarori-ashram-maharajjis-cave
+- LOCATOR: P42 lines 1108–1134; institutional page identifies station as Lakshmandas Puri.
+- UNCERTAINTY: historical station naming chronology needs railway-record verification.
+
+### NKB-IG-010 — Ganges bathing place, Farrukhabad
+- PLACE/STATE: Farrukhabad, U.P.
+- TYPE: river/ghat area.
+- EVENT/PERIOD: Neeb Karori years; recurring holy baths; explicitly at Farrukhabad in 1935 episode.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ALLEEN_PLAATS
+- SOURCE: *The Divine Reality*, P50.
+- URL: https://divinereality.info/downloads/DIVINE_REALITY_1st_English_Edition.pdf
+- LOCATOR: P50 lines 1304–1312.
+- UNCERTAINTY: exact ghat not named.
+
+### NKB-IG-011 — Kilaghat, Fatehgarh
+- PLACE/STATE: Fatehgarh/Farrukhabad, U.P.
+- TYPE: Ganges bank / residence area.
+- EVENT/PERIOD: after leaving Neeb Karori, post-1935; lived for some time and kept cows.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ALLEEN_PLAATS
+- SOURCE: *The Divine Reality*, P50.
+- URL: https://divinereality.info/downloads/DIVINE_REALITY_1st_English_Edition.pdf
+- LOCATOR: P50 lines 1317–1325.
+- UNCERTAINTY: exact riverside structure absent.
+
+### NKB-IG-012 — Hanumangarh/Hanuman Garhi hill temple site, Nainital
+- PLACE/STATE: Nainital, Uttarakhand (source-era U.P.).
+- TYPE: hilltop temple/ashram.
+- EVENT/PERIOD: late 1940s onward; temple development; source explicitly records arrival a week before 16 June 1953 consecration.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *The Divine Reality*, P453–455.
+- URL: https://divinereality.info/downloads/DIVINE_REALITY_1st_English_Edition.pdf
+- LOCATOR: P455 lines 14021–14049.
+- UNCERTAINTY: modern complex has expanded.
+
+### NKB-IG-013 — Baba's hut, Hanumangarh
+- PLACE/STATE: Nainital, Uttarakhand.
+- TYPE: hut/kuti.
+- EVENT/PERIOD: 1953 consecration period; source records Baba emerging from and later shutting himself in his hut.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: *The Divine Reality*, P455.
+- URL: same PDF.
+- LOCATOR: P455 lines 14041–14049.
+- UNCERTAINTY: present-day surviving hut identity not established.
+
+### NKB-IG-014 — Bhumiadhar roadside Hanuman temple
+- PLACE/STATE: Bhumiadhar below Bhowali, Nainital district, Uttarakhand.
+- TYPE: roadside temple/ashram.
+- EVENT/PERIOD: repeated stays and darshan; documented 1962 and later.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: Dada Mukerjee, *By His Grace*, Bhumiadhar chapter occurrences; official/lineage temple listings.
+- URL: https://dokumen.pub/by-his-grace-a-devotees-story-stories-about-neem-karoli-baba-paperbacknbsped-0962887870-9780962887871.html
+- LOCATOR: indexed lines around 545–550, 603–604, 639–645, 688–690.
+- UNCERTAINTY: none on site identity; structure changes not assessed.
+
+### NKB-IG-015 — Baba's room/kuti, Bhumiadhar
+- PLACE/STATE: Bhumiadhar, Uttarakhand.
+- TYPE: room/kuti within temple complex.
+- EVENT/PERIOD: repeated stays; cot/room explicitly described.
+- PE
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=304 path=runs/active/TOP11-INDIAGEEL-NKB-BLIND-SWEEP-001/NEEM_KAROLI_BABA_INDIAGEEL_FREEZE.md blob_sha=16e05ff9ed7ba924d61f8a08e5c9f405093fb2a6 original_offset=12288 original_length=4096 payload_bytes=4096 chunk_index=3 chunk_count=9 classification=text
+RSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: *By His Grace*.
+- URL: same as NKB-IG-014.
+- LOCATOR: lines around 639 and 688.
+- UNCERTAINTY: historical room vs current room continuity unresolved.
+
+### NKB-IG-016 — Kainchi original rock/platform/site
+- PLACE/STATE: Kainchi, Nainital district, Uttarakhand.
+- TYPE: ashram founding site / rock.
+- EVENT/PERIOD: pre-construction selection and recurring residence.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *The Divine Reality*, Kainchi temples section.
+- URL: https://divinereality.info/downloads/DIVINE_REALITY_1st_English_Edition.pdf
+- LOCATOR: P462–463, lines 14204–14216.
+- UNCERTAINTY: rock-level identity is described but not independently mapped.
+
+### NKB-IG-017 — Maharajji residential kuti/room, Kainchi Ashram
+- PLACE/STATE: Kainchi, Uttarakhand.
+- TYPE: residential kuti/room.
+- EVENT/PERIOD: recurring summer residence, roughly 3–4 months/year.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *The Divine Reality* P463–468; *By His Grace* Kainchi occurrences.
+- URL: same PDF and By His Grace URL.
+- LOCATOR: P463 lines 14211–14216; P467–468 lines 14305–14321.
+- UNCERTAINTY: room preservation/renovation history not audited.
+
+### NKB-IG-018 — Kainchi temple courtyard / Hanuman temple
+- PLACE/STATE: Kainchi, Uttarakhand.
+- TYPE: temple courtyard/Hanuman temple.
+- EVENT/PERIOD: repeated darshan, bhandaras and 15 June consecration cycles.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *The Divine Reality* P463–468; *By His Grace* lines around 457–460.
+- URL: same sources.
+- LOCATOR: P463 lines 14223–14231; By His Grace 1968 bhandara sequence.
+- UNCERTAINTY: none material.
+
+### NKB-IG-019 — Wooden bridge to Kainchi ashram
+- PLACE/STATE: Kainchi, Uttarakhand.
+- TYPE: bridge/transit/darshan subsite.
+- EVENT/PERIOD: Baba often sat on original wooden bridge and met devotees there.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: *The Divine Reality*, P466–467.
+- URL: same PDF.
+- LOCATOR: P466 lines 14275–14292.
+- UNCERTAINTY: original wooden bridge was removed and replaced by concrete bridge.
+
+### NKB-IG-020 — Bhumiadhar-to-Gethia sanatorium/doctor site
+- PLACE/STATE: near Gethia, Nainital district, Uttarakhand.
+- TYPE: sanatorium/medical site.
+- EVENT/PERIOD: Baba drove from Bhumiadhar to sanitarium, hid/stayed there while meeting doctor and devotees.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: *By His Grace*.
+- URL: By His Grace URL.
+- LOCATOR: lines 642–645.
+- UNCERTAINTY: source does not name the sanatorium formally.
+
+### NKB-IG-021 — Ramsay Hospital clinic, Nainital
+- PLACE/STATE: Nainital, Uttarakhand.
+- TYPE: hospital/clinic.
+- EVENT/PERIOD: 1972 ECG examination.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *By His Grace*.
+- URL: By His Grace URL.
+- LOCATOR: lines 701–702.
+- UNCERTAINTY: exact room not supplied.
+
+### NKB-IG-022 — Kakrighat Hanuman-temple site
+- PLACE/STATE: Kakrighat, Almora district, Uttarakhand.
+- TYPE: temple/riverside site.
+- EVENT/PERIOD: temple chosen during Baba's lifetime; corpus says he chose the place and had murti installed while staying at Kainchi.
+- PERSONALLY_PRESENT: ONZEKER
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *The Divine Reality*, P469–470.
+- URL: same PDF.
+- LOCATOR: P469 lines 14326–14336.
+- UNCERTAINTY: text proves personal agency but does not in this passage explicitly state he physically stood at the Kakrighat site; retained as uncertainty rather than promoted to JA.
+
+### NKB-IG-023 — Old Mukerjee household, Allahabad, exact address unresolved
+- PLACE/STATE: Allahabad/Prayagraj, U.P.
+- TYPE: private house.
+- EVENT/PERIOD: first phase of Dada's relationship, before new Church Lane house; repeated Baba visits.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ALLEEN_PLAATS
+- SOURCE: Dada Mukerjee, *By His Grace*, early chapters.
+- URL: By His Grace URL.
+- LOCATOR: lines 177–186 describe old-house period and Baba visits before construction of new house.
+- UNCERTAINTY: exact address not recover
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=305 path=runs/active/TOP11-INDIAGEEL-NKB-BLIND-SWEEP-001/NEEM_KAROLI_BABA_INDIAGEEL_FREEZE.md blob_sha=16e05ff9ed7ba924d61f8a08e5c9f405093fb2a6 original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=9 classification=text
+ed.
+
+### NKB-IG-024 — 4 Church Lane (“red house”), Allahabad/Prayagraj
+- PLACE/STATE: 4 Church Lane, Allahabad/Prayagraj, U.P.
+- TYPE: private house / major winter residence.
+- EVENT/PERIOD: annual winter camps and many shorter visits from late 1950s through early 1970s.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *By His Grace*; *The Divine Reality*; LSRF Dada excerpts.
+- URL: By His Grace URL; https://www.ramdass.org/neem-karoli-baba-maharaji-stories-dada-mukerjee/
+- LOCATOR: By His Grace intro and winter-camp chapters; Divine Reality multiple occurrences, e.g. P217/P365.
+- UNCERTAINTY: current private-property continuity not independently verified in this run.
+
+### NKB-IG-025 — Baba's small room, 4 Church Lane
+- PLACE/STATE: Allahabad/Prayagraj, U.P.
+- TYPE: room within private house.
+- EVENT/PERIOD: recurring winter residence, meals, private conversations; later memorial room.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *By His Grace*.
+- URL: By His Grace URL.
+- LOCATOR: lines 333–335 and many later references to “Babaji's room”.
+- UNCERTAINTY: internal-layout continuity not audited.
+
+### NKB-IG-026 — Prabhudatt Brahmachari ashram, Allahabad/Prayag
+- PLACE/STATE: across Ganges from Allahabad Mela area, U.P.
+- TYPE: ashram.
+- EVENT/PERIOD: January 1960 Ardha Mela visit.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: official LSRF excerpt from *By His Grace*.
+- URL: https://www.ramdass.org/neem-karoli-baba-maharaji-stories-baba-food-drink/
+- LOCATOR: “Winter Camp” excerpt: crossed Ganges, reached Prabhudatt Brahmachari's ashram, Baba entered and met sadhus.
+- UNCERTAINTY: exact institutional property name/address not resolved.
+
+### NKB-IG-027 — Flood-side Hanuman temple/Ganges bank, Allahabad
+- PLACE/STATE: Allahabad/Prayagraj, U.P.
+- TYPE: Hanuman temple / riverbank.
+- EVENT/PERIOD: major flood episode; Baba arrived by jeep, went to river and sipped water.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: *By His Grace*, Chamatkari Baba.
+- URL: By His Grace URL.
+- LOCATOR: lines 257–260.
+- UNCERTAINTY: likely famous riverside Hanuman temple, but exact modern identity not asserted without stronger locator.
+
+### NKB-IG-028 — Prayag railway station
+- PLACE/STATE: Allahabad/Prayagraj, U.P.
+- TYPE: railway station/transit.
+- EVENT/PERIOD: documented departures; devotee attempted to buy ticket.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *The Divine Reality*, P122–123.
+- URL: Divine Reality PDF.
+- LOCATOR: P123 lines 3614–3617.
+- UNCERTAINTY: historical station naming vs current Prayag/Prayagraj stations should be checked before pilgrimage mapping.
+
+### NKB-IG-029 — Government Inspection House, Chitrakut
+- PLACE/STATE: Chitrakut, source-era U.P./M.P. border region.
+- TYPE: government inspection house / lodging.
+- EVENT/PERIOD: February 1963 pilgrimage; overnight stay.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: *By His Grace*.
+- URL: By His Grace URL.
+- LOCATOR: lines 288–293.
+- UNCERTAINTY: exact inspection-house building not named.
+
+### NKB-IG-030 — Kamadgiri/Kamodgiri parikrama, Chitrakut
+- PLACE/STATE: Chitrakut, U.P./M.P. border region.
+- TYPE: sacred hill/parikrama route.
+- EVENT/PERIOD: February 1963 pilgrimage; Baba alternately rode dandi and walked circuit.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *By His Grace*.
+- URL: By His Grace URL.
+- LOCATOR: lines 294–302.
+- UNCERTAINTY: individual unnamed temples on circuit not split into separate records.
+
+### NKB-IG-031 — Dilapidated panda-arranged house, Chitrakut
+- PLACE/STATE: Chitrakut.
+- TYPE: private/guest lodging house.
+- EVENT/PERIOD: separate Magh/Kumbh-era journey; Baba slept in damaged room.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ONBEKEND
+- SOURCE: *The Divine Reality*, story 330, P365–366.
+- URL: Divine Reality PDF.
+- LOCATOR: P366 lines 11340–11357.
+- UNCERTAINTY: no house owner/name/address supplied.
+
+### NKB-IG-032 — Mandakini river bank, Chitrakut
+- PLACE/STATE: Chitrakut.
+- TYPE: river
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=306 path=runs/active/TOP11-INDIAGEEL-NKB-BLIND-SWEEP-001/NEEM_KAROLI_BABA_INDIAGEEL_FREEZE.md blob_sha=16e05ff9ed7ba924d61f8a08e5c9f405093fb2a6 original_offset=20480 original_length=4096 payload_bytes=4096 chunk_index=5 chunk_count=9 classification=text
+bank/ghat area.
+- EVENT/PERIOD: same pilgrimage corpus; Baba stood/sat on bank calling to “Gopal”.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ALLEEN_PLAATS
+- SOURCE: *The Divine Reality*, P366–367.
+- URL: Divine Reality PDF.
+- LOCATOR: lines 11358–11360 onward.
+- UNCERTAINTY: exact ghat not supplied.
+
+### NKB-IG-033 — Vindhyachal/Vindhyavasini temple visit
+- PLACE/STATE: Vindhyachal, Mirzapur district, U.P.
+- TYPE: temple pilgrimage complex.
+- EVENT/PERIOD: immediately after 1963 Chitrakut journey; party visited temples.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: *By His Grace*.
+- URL: By His Grace URL.
+- LOCATOR: lines 309–310.
+- UNCERTAINTY: source says “temples” and names Vindhyavasini Devi prospectively; exact sequence/buildings not fully itemised.
+
+### NKB-IG-034 — Unnamed devotee house with rooftop, Kanpur
+- PLACE/STATE: Kanpur, U.P.
+- TYPE: private house.
+- EVENT/PERIOD: Baba stayed/visited during Didi-family funeral trip; sat on open roof with devotees.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ONBEKEND
+- SOURCE: *By His Grace*.
+- URL: By His Grace URL.
+- LOCATOR: lines 313–316.
+- UNCERTAINTY: narrative first mentions Dr Dixit's house but says Baba had gone to another devotee in another part of city; rooftop house owner not safely equated with Dixit.
+
+### NKB-IG-035 — Mr Choudhury family house, Kanpur
+- PLACE/STATE: Kanpur, U.P.
+- TYPE: private house.
+- EVENT/PERIOD: same visit; Baba visited Didi's brother and family at night.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: ONBEKEND
+- SOURCE: *By His Grace*.
+- URL: By His Grace URL.
+- LOCATOR: lines 315–316.
+- UNCERTAINTY: street address absent.
+
+### NKB-IG-036 — Panki Hanuman temple, Kanpur
+- PLACE/STATE: Panki, Kanpur, U.P.
+- TYPE: Hanuman temple.
+- EVENT/PERIOD: consecration 21 Jan 1964; corpus contains simultaneous-presence reports.
+- PERSONALLY_PRESENT: ONZEKER
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *The Divine Reality* P217–218 and P473; *By His Grace*.
+- URL: Divine Reality PDF; By His Grace URL.
+- LOCATOR: P473 lines 14392–14400; P217–218 lines 6576 onward.
+- UNCERTAINTY/CONFLICT: multiple witnesses reported physical Baba at Panki while other witnesses had him physically at 4 Church Lane simultaneously. This is a devotional bilocation claim, not resolvable historically; do not collapse to ordinary verified presence.
+
+### NKB-IG-037 — Dr A.D. Bhandari house, Bareilly
+- PLACE/STATE: Bareilly, U.P.
+- TYPE: private doctor residence.
+- EVENT/PERIOD: documented visit/darshan in devotee recollection.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: *The Divine Reality*, P172–173.
+- URL: Divine Reality PDF.
+- LOCATOR: lines 5214–5223.
+- UNCERTAINTY: exact address not in extracted passage.
+
+### NKB-IG-038 — Yogendra Prakash Goel house, Station Road/Civil Lines, Bareilly
+- PLACE/STATE: 165 Civil Lines, Station Rd, Bareilly, U.P. (source address).
+- TYPE: private house.
+- EVENT/PERIOD: Baba arrived at devotee's home in evening; direct first-person recollection.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *The Divine Reality*, P244–245 context.
+- URL: Divine Reality PDF.
+- LOCATOR: source identifies witness/address at lines 7457–7458 and following occurrence begins with Baba arriving at his house.
+- UNCERTAINTY: current numbering/property continuity not checked.
+
+### NKB-IG-039 — Hanuman Setu/Sankat Mochan temple site, Lucknow
+- PLACE/STATE: Gomti river/Hanuman Setu, Lucknow, U.P.
+- TYPE: temple site.
+- EVENT/PERIOD: Baba personally stamped ground and designated location for second Hanuman temple; consecrated 26 Jan 1967.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *The Divine Reality*, P475–477.
+- URL: Divine Reality PDF.
+- LOCATOR: P475 lines 14406–14422.
+- UNCERTAINTY: first and second Lucknow temple sequence should remain distinct in future mapping; this record is the explicitly footprint-designated second site.
+
+### NKB-IG-040 — Sankat Mochan forest hut, Shimla/Tara Devi area
+- PLACE/STATE: near Tara Devi, about 5 km from Shimla, Himachal Pr
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=307 path=runs/active/TOP11-INDIAGEEL-NKB-BLIND-SWEEP-001/NEEM_KAROLI_BABA_INDIAGEEL_FREEZE.md blob_sha=16e05ff9ed7ba924d61f8a08e5c9f405093fb2a6 original_offset=24576 original_length=4096 payload_bytes=4096 chunk_index=6 chunk_count=9 classification=text
+adesh.
+- TYPE: forest hut / future temple site.
+- EVENT/PERIOD: late 1950s; Baba stayed ten days and requested temple.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: *The Divine Reality*, P477–478.
+- URL: Divine Reality PDF.
+- LOCATOR: P477 lines 14465–14474.
+- UNCERTAINTY: original hut survival unresolved; future temple site identity is clear.
+
+### NKB-IG-041 — Hathiwale Baba hut / future Gore Dauji site, Vrindavan
+- PLACE/STATE: Parikrama Marg, Vrindavan, U.P.
+- TYPE: saint's hut / private sacred residence site.
+- EVENT/PERIOD: before NKB ashram construction; Maharaj stayed with Hathiwale Baba and lay under neem tree.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *The Divine Reality*, P479–480.
+- URL: Divine Reality PDF.
+- LOCATOR: P479 lines 14494–14506.
+- UNCERTAINTY: source says Gore Dauji temple now stands there; original hut no longer exists as such.
+
+### NKB-IG-042 — Neem Karoli Baba Vrindavan Ashram / takhat area
+- PLACE/STATE: Parikrama Marg, Vrindavan, U.P.
+- TYPE: ashram/temple/residential site.
+- EVENT/PERIOD: 1960s–1973; repeated residence; site chosen and first Hanuman murti placed by Baba.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *The Divine Reality* P479–481; NKB Ashram Vrindavan institutional history.
+- URL: Divine Reality PDF; https://nkbashram.org/maharaj-ji-indian-ashrams/vrindavan-ashram
+- LOCATOR: P479–480 lines 14503–14517; institutional history.
+- UNCERTAINTY: later expansion substantial, but core site clear.
+
+### NKB-IG-043 — Nara range sage hut / Badrivan cow-shed area, Badrinath
+- PLACE/STATE: Badrinath/Badrivan, Uttarakhand.
+- TYPE: sage hut/cow shed, pilgrimage lodging.
+- EVENT/PERIOD: repeated Badrinath pilgrimages; source states Baba stayed in sage's hut on Nara range; another occurrence states he rested/stayed in cow shed at Badrivan.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: *The Divine Reality*, P167–168, P352, P489.
+- URL: Divine Reality PDF.
+- LOCATOR: lines 5033–5054; 10892–10903; 14691–14699.
+- UNCERTAINTY: whether “sage hut” and “cow shed at Badrivan” are same exact subsite is unresolved; normalized together at locality/subsite-complex level rather than inventing two exact structures.
+
+### NKB-IG-044 — Sindhi Dharmsala, Madras/Chennai
+- PLACE/STATE: Madras/Chennai, Tamil Nadu.
+- TYPE: dharamshala, specific rooms/veranda.
+- EVENT/PERIOD: 9–23 Jan 1973 South India journey.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: *The Divine Reality*, stories 325–329, P361–365; *By His Grace* corroborates 1973 Sindhi dharamshala stay.
+- URL: Divine Reality PDF; By His Grace URL.
+- LOCATOR: P361–362 lines 11177–11208; P365 lines 11301–11310.
+- UNCERTAINTY: exact modern dharamshala address/room continuity not established.
+
+### NKB-IG-045 — Vaishnavi Devi Temple/ashram, Madras vicinity
+- PLACE/STATE: about 23 km from Sindhi Dharmsala/Madras, Tamil Nadu.
+- TYPE: temple/ashram.
+- EVENT/PERIOD: January 1973; Baba took devotees there and “graced the sage by his presence”.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: DEELS
+- SOURCE: *The Divine Reality*, P362–364.
+- URL: Divine Reality PDF.
+- LOCATOR: lines 11210–11227 and 11239–11247.
+- UNCERTAINTY: current formal name/address not independently established.
+
+### NKB-IG-046 — Veerapuram barren land / later NKB ashram site
+- PLACE/STATE: Veerapuram, about 32 km from Chennai, Tamil Nadu.
+- TYPE: barren land / later temple-ashram site.
+- EVENT/PERIOD: January 1973; taxis overshot Vaishnavi Devi temple, Baba stopped, got out and walked around this exact land. Later temple established on same parcel in 1984.
+- PERSONALLY_PRESENT: JA
+- PHYSICAL_IDENTITY: EXACT
+- SOURCE: *The Divine Reality*, P362–363 and P485–486.
+- URL: Divine Reality PDF.
+- LOCATOR: P362–363 lines 11216–11237; P485 lines 14614–14629.
+- UNCERTAINTY: exact cadastral boundary not independently checked, but corpus explicitly equates later temple land with earlier stop.
+
+## PROVEN PLACE / BUILDING UNKNOWN — ADDITIONAL OCCURRENCES N
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=308 path=runs/active/TOP11-INDIAGEEL-NKB-BLIND-SWEEP-001/NEEM_KAROLI_BABA_INDIAGEEL_FREEZE.md blob_sha=16e05ff9ed7ba924d61f8a08e5c9f405093fb2a6 original_offset=28672 original_length=4096 payload_bytes=4096 chunk_index=7 chunk_count=9 classification=text
+OT PROMOTED TO NUMBERED EXACT-SITE RECORDS
+
+These are retained as independently found leads/evidence but not counted as additional normalized physical records because the building/site identity was insufficiently specific in this run:
+
+- Rameshwaram, Tamil Nadu — explicit 1960 and 1973 pilgrimage references in *By His Grace* / *The Divine Reality*; personal presence supported, exact lodging/temple sequence unresolved.
+- Jagannath Puri, Odisha — *By His Grace* states Baba went there with devotees (including a later explicit 1964 week-long journey); exact lodging/temple occurrence unresolved.
+- Dwarka, Gujarat — *By His Grace* states January 1962 pilgrimage including Dwarka; exact physical site unresolved.
+- Agra, U.P. — many direct house visits; at least Jagmohan Sharma's house and final-day “S.'s house” are supported, but exact modern property identities remain unresolved in this normalization.
+- Mathura railway station, U.P. — final journey: got off train, sat on station steps by outdoor latrine, became acutely ill, then transferred by taxi to Vrindavan. Strong transit presence, but normalized below under unresolved lead because the freeze record cap prioritized enduring pilgrim-relevant identities; this should be promoted in a continuation sweep.
+- Ramakrishna Mission hospital, Vrindavan — final emergency room and death, 11 Sept 1973; exact institutional identity is strong and should be promoted in continuation sweep.
+- Lalkua railway station, Uttarakhand — direct overnight transit/platform episode before truck to Haldwani.
+- Haldwani, Uttarakhand — direct arrival/departure/transit documented repeatedly; exact private host locations not exhausted.
+
+## CONFLICTS
+
+1. **Panki 21 Jan 1964 bilocation claim** — *The Divine Reality* and *By His Grace* preserve reports that Baba was physically at 4 Church Lane, Allahabad while other devotees reported prolonged physical interaction with him at Panki and an additional Bareilly sighting. This is recorded as a devotional multi-presence tradition, not silently converted to ordinary historical location proof. Panki therefore remains `PERSONALLY_PRESENT: ONZEKER` despite strong tradition testimony.
+2. **Birth chronology and district terminology** — sources place birth in Akbarpur, then Agra district, “a little before” 1900; modern popular accounts often give later exact years/dates and modern Firozabad district. No exact birth date is asserted here.
+3. **Neeb Karori cave identity** — original cave collapsed and was replaced by another cave. Current “Maharajji's cave” is a successor/continuity site rather than necessarily untouched original fabric.
+4. **Kakrighat** — corpus proves Baba's decision and temple foundation activity but the extracted section does not state in plain words that he physically stood on the site. Marked ONZEKER rather than inferred.
+
+## UNRESOLVED_LEADS
+
+- Promote and fully source the final journey as separate durable records: Kainchi departure vehicle/station (station name unresolved in searched extract), Agra railway station, final Agra host “S.” house, heart-specialist clinic, Mathura station steps/outdoor latrine, Ramakrishna Mission Hospital Vrindavan, and final transfer to Vrindavan temple.
+- Resolve exact Agra hosts: Jagmohan Sharma residence; “S.” final-day residence; doctor/heart specialist identity; Shazadi Mandi devotee network.
+- Resolve exact Kanpur houses: Dr Dixit versus unnamed rooftop host, Choudhury house, Shukla special-room house.
+- Exhaust K.K. Sah/Sah-family private Nainital residences and other Nainital private hosts at address/building level; current web material proves household relationship but this run did not safely identify every Baba occurrence at those houses.
+- Exhaust Bareilly hostgraph beyond Dr Bhandari and Goel, including Civil Surgeon network.
+- Resolve Rameshwaram temple/lodging sequence, Puri and Dwarka occurrence-level sites from full pilgrimage accounts.
+- Resolve the exact Rishikesh 1970 land acquisition event: corpus proves the land was obtained in Baba's lifetime but does not
+<<< END CHUNK >>>
+

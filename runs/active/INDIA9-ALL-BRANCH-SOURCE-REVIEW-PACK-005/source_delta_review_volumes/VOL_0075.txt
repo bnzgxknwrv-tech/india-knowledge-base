@@ -1,0 +1,846 @@
+>>> CHUNK stream_row=1316 path=governance/SWEEP_PROTOCOL.md blob_sha=52efd7d7547d892ccc2a761cf83d80c53afb5736 original_offset=16384 original_length=4096 payload_bytes=4096 chunk_index=4 chunk_count=16 classification=text
+032/tweede versie): `SUBLOCATION` als eigen uitkomst,
+los van `DUPLICATE` — een lead kan een feitelijk andere, bestaande plek zijn zonder een duplicaat
+te zijn (precies het 076 Akshayavat-geval: geen dubbele plek, wel binnen dezelfde
+tempelbinnenplaats als 051, dus geen zelfstandige kandidaat maar ook geen "duplicaat").
+
+Harde regel: geen lead mag zonder eindstatus blijven staan bij sweep-afsluiting (fixt fout #10 —
+"vergeten open leads" worden zichtbaar in plaats van pas later herontdekt).
+
+### E. MARK_WAARDIG-gate (aanscherping van bestaand mechanisme)
+
+Vóór een permanent nummer wordt toegekend, verplicht "ja" op ALLE onderstaande punten (niet
+alleen impliciet aannemen):
+
+| Check | Verplicht |
+|---|---|
+| Concrete, aanwijsbare fysieke plek (geen diffuus gebied) | ja |
+| Eigen verhaal/ervaring, los van de categorie waartoe het behoort | ja |
+| **Generiek-check**: is het onderscheid UITSLUITEND "vertegenwoordigt land/traditie X"? Zo ja → `EXCLUDED_HARD_REASON`, geen nummer, TENZIJ E.1 hieronder een AOAY- of Top-X-override geeft | ja (fixt fout #4) |
+| Geen bevestigd duplicaat/sublocatie van een bestaande kandidaat (zie poort F) | ja |
+| Redelijkerwijs A, B of C mogelijk na eerlijke uitleg | ja |
+
+Landendekking/categorievolledigheid is nooit op zichzelf voldoende — dit stond al in
+`NOT_TO_BE_MISSED_FRAMEWORK.md`, hier herbevestigd met een verplichte, expliciete checkstap i.p.v.
+een achteraf-principe.
+
+#### E.1 Prioriteitslagen / beslisvolgorde (canoncorrectie, INDIA6 berichten 036 + 044, 2026-08-08)
+
+De generiek-check hierboven is niet absoluut — er zijn drie lagen, elk met een eigen drempel.
+**Dit is uitdrukkelijk GEEN gelijkwaardige drielaagse lijst (bericht 044-verscherping)**: laag 1
+en 2 (AOAY, Top-X) zijn Marks eigenlijke, missiekritische reisdoel; laag 3 is bonusmateriaal, pas
+relevant nadat laag 1/2 aantoonbaar zijn afgezocht (zie poort A/C/J voor de bijbehorende
+sweepverplichting en volgordedwang). Voor iedere lead, in deze volgorde:
+
+1. **AOAY = ABSOLUTE OVERRIDE, MISSIEKRITISCH.** Een verifieerbare fysieke plek die expliciet
+   voorkomt in *Autobiography of a Yogi*, rechtstreeks gekoppeld is aan een daarin beschreven
+   gebeurtenis, of aantoonbaar de fysieke plek is waar zo'n gebeurtenis plaatsvond → MOET getoond
+   worden, ook als de plek objectief klein, lokaal, architectonisch onbelangrijk, geen grote
+   bedevaartsplaats of verder niet onderscheidend is. AOAY overrulet de generiek-/zwaartefilter
+   volledig. Enige eis: fysieke identiteit verifieerbaar (welke plek dat werkelijk is).
+2. **TOP X = MAXIMALE PERSOONLIJKE ZWAARTE, MISSIEKRITISCH.** Zonder AOAY-link: breed zoeken naar
+   betekenisvolle fysieke plekken rond geboorte, jeugd, verblijf, meditatie, initiatie,
+   leraar/leerling-ontmoeting, ashram, samadhi, onderricht, lineage-gebeurtenis, relieken,
+   belangrijke reis/gebeurtenis van de **definitieve Top-11** (zie poort A: Yogananda, Babaji,
+   Lahiri Mahasaya, Sri Yukteswar, Ram Dass, Neem Karoli Baba, Anandamayi Ma, Ramakrishna, Ramana
+   Maharshi, Hariharananda, Vivekananda — plus Shri Mataji Nirmala Devi apart, met haar eigen
+   Mahasamadhi-locatiewens). **Boeddha en Krishna staan NIET in deze lijst** (bericht 046) — hun
+   kandidaten vallen onder laag 3. Lage drempel voor tonen binnen de Top-11 — niet beperken tot
+   beroemde of drukbezochte plekken. **Gebeurtenis vs. exacte plek, apart vastleggen
+   (bericht 044)**: als een betekenisvolle verbinding wél verifieerbaar is maar de precieze
+   fysieke sublocatie niet meer vaststelbaar is (bijvoorbeeld: Sri Yukteswar trad in Bodh Gaya in
+   de sannyas-orde, exacte plek binnen Bodh Gaya onbekend — zie 046), wordt dit ALTIJD getoond met
+   twee losse velden: `gebeurtenis_geverifieerd: JA/NEE` en `exacte_locatie_geverifieerd:
+   JA/NEE/ONBEKEND` — nooit stilzwijgend samengevoegd tot één "onbevestigd" dat de gebeurtenis
+   zelf verdoezelt.
+3. **ALLES BUITEN AOAY/TOP X = RELIGIE-ONAFHANKELIJKE BEDEVAARTSZOEKING, HOGE DREMPEL** (verscherpt,
+   INDIA6 bericht 040/tweede versie, 2026-08-08 — vervangt de eerdere, voor misverstand va
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1317 path=governance/SWEEP_PROTOCOL.md blob_sha=52efd7d7547d892ccc2a761cf83d80c53afb5736 original_offset=20480 original_length=4096 payload_bytes=4096 chunk_index=5 chunk_count=16 classification=text
+tbare
+   formulering "religieuze zwaargewichten"). De zoekvraag is NIET "welke belangrijke religies zijn
+   hier aanwezig?" maar UITSLUITEND: **"welke fysieke plekken in deze sweepregio hebben
+   uitzonderlijke religieuze/spirituele/pelgrimszwaarte?"** Concreet:
+   - Een grote wereldreligie geeft op zichzelf GEEN recht op opname.
+   - Een zeer kleine, obscure of lokaal onbekende religie/traditie MOET wél ontdekt worden zodra
+     zij hier een extreem belangrijke bedevaartsplek heeft — een obscure traditie met één plaats
+     waar enorme aantallen mensen naartoe pelgrimeren moet juist boven komen.
+   - Religiecategorieën (hindoeïsme, jaïnisme, islam, sikhisme, christendom, ...) zijn hoogstens
+     aanvullende zoektermen, nooit de begrenzing van de zoekruimte.
+   - Discovery moet daarom ook rechtstreeks zoeken op bedevaart, heiligdommen, pelgrimsstromen,
+     beroemde relieken/beelden/graven/grotten/heilige plaatsen en vergelijkbare zwaartesignalen,
+     zonder vooraf bekende religielijst als filter.
+   - Sterke signalen (illustratief, geen religielijst): zeer grote jaarlijkse pelgrimsstromen,
+     nationaal/internationaal beroemde bedevaartsstatus, een uitzonderlijk vereerd
+     beeld/relict/graf/grot/heiligdom, een belangrijke heilige persoon, een zeer oude levende
+     traditie, uitzonderlijke religieuze/historische zwaarte, of een plek waarheen ook mensen
+     buiten de eigen traditie bewust reizen.
+   - **Boeddha- en Krishna-kandidaten vallen hier expliciet onder** (bericht 046): een kleine
+     boeddhistische tempel of gewone Krishna-tempel wordt NIET opgenomen alleen omdat Boeddha/
+     Krishna er wordt vereerd; een plek als Mahabodhi Temple/Bodh Gaya blijft vanzelfsprekend
+     kandidaat omdat de fysieke plek zelf uitzonderlijke internationale bedevaarts-/spirituele
+     zwaarte heeft; een uitzonderlijk groot Krishna-bedevaartsoord blijft eveneens kandidaat als
+     de plek zelf de hoge drempel haalt.
+   - Een gewone tempel/heiligdom van eender welke traditie, puur aanwezig voor categoriedekking,
+     is NIET MARK_WAARDIG; een heiligdom van eender welke traditie (groot of obscuur) mét
+     aantoonbaar zware, zelfstandige bedevaartsbetekenis WEL.
+
+**Geen "religies afvinken"**: religieuze/traditie-coverage (poort A, de lenzenlijst) is
+uitsluitend aanvullende zoekterminologie om mogelijke zwaargewichten niet te missen — nooit
+zelfstandig bewijs voor kandidaatstatus, en nooit een begrenzing van waar discovery mag zoeken.
+Coverage mag discovery openen; kandidaatstatus vereist altijd óf een AOAY/Top-X-override, óf
+aantoonbare zelfstandige, religie-onafhankelijke bedevaarts-/pelgrimszwaarte onder laag 3.
+
+Praktisch: iedere lead doorloopt A→B→C. A: AOAY-link? Ja → tonen (mits fysieke identiteit
+verifieerbaar). Nee → B: Top-X-link? Ja → brede toets, lage drempel. Nee → C: algemene
+religieuze/spirituele plek? Alleen tonen als aantoonbaar zwaargewicht/bedevaartsplek/
+uitzonderlijke fysieke of historische betekenis, zoals hierboven omschreven.
+
+### F. Identiteit/duplicaten (nieuw, verplichte stap vóór nummering)
+
+Bij elke nieuwe kandidaat: een korte overlap-scan tegen bestaande kandidaten met dezelfde
+traditie, vergelijkbare naam, of dezelfde/aangrenzende locatie. Uitkomst verplicht één van:
+`CONFIRMED_DIFFERENT` (met bronverwijzing), `CONFIRMED_DUPLICATE` (geen tweede nummer),
+`UNRESOLVED_BLOCKER` (nummering wacht tot opgelost). Nooit stilzwijgend allebei nummeren zonder
+check — dit is precies wat bij 063/068 wél goed ging (apart gecheckt) maar bij het eerste
+Akshayavat-nummer (076) niet vooraf gebeurde.
+
+### G. Claimkwaliteit naar claimgewicht (nieuw)
+
+| Claimtype (voorbeelden) | Minimale bronstandaard |
+|---|---|
+| Exacte historische gebeurtenislocatie | Primaire tekst of erkend academisch naslagwerk; een toeristische foto-caption of wiki zonder bronvermelding is NOOIT voldoende als enige bron |
+| "Eerste/enige/grootste" | Minimaal twee onafhankelijke bronnen, of expliciet als onbevestigd/mogelijk overdreven gemarkeerd |
+| Toegang voor buitenlander/niet-aanhanger | Specifiek voor DIE plek gev
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1318 path=governance/SWEEP_PROTOCOL.md blob_sha=52efd7d7547d892ccc2a761cf83d80c53afb5736 original_offset=24576 original_length=4096 payload_bytes=4096 chunk_index=6 chunk_count=16 classification=text
+erifieerd — nooit afgeleid van een vergelijkbare, andere plek (zie 073-les: niet van Puri afleiden) |
+| Evenementdatum | Meest recente bevestigde editie vermelden; toekomstige datum nooit zelf schatten — `ONBEKEND` indien niet gepubliceerd |
+| Verblijf/deelnamemogelijkheid zonder volledig programma | Expliciet navragen/verifiëren wat een niet-deelnemer kan doen — nooit aannemen dat het hetzelfde is als een vergelijkbare kandidaat |
+| Lineage-/persoonsconnectie (bv. Sri Yukteswar, Guru-bezoeken) | Bron benoemen als primair/institutioneel vs. gemeenschapshistoriografie vs. reisblog — expliciet het niveau vermelden, nooit gelijkstellen |
+
+Regel: "onzeker" wordt altijd expliciet als onzeker geschreven — nooit stilzwijgend opgevuld met
+de meest waarschijnlijke aanname.
+
+**G.1 Primaire-bronverificatie voor AOAY/Top-11-hoofdclaims (verplicht, canoncorrectie, INDIA6
+berichten 063/065, 2026-08-08 — foutprecedent: de ingetrokken Ramakrishna-claim bij Bodh Gaya)**:
+elke AOAY- of Top-11-hoofdclaim mag pas als bevestigd gelden nadat de volgende harde regel is
+toegepast, NIET pas bij een latere controle:
+- nooit vertrouwen op een zoekresultaat/snippet/samenvatting als enige basis;
+- de exacte geciteerde brontekst rechtstreeks openen en lezen (WebFetch/download), niet
+  parafraseren op basis van een AI-samenvatting;
+- primaire/officiële bron gebruiken waar die bestaat; formuleer dit nooit als "primaire bron
+  verplicht" wanneer voor die claim geen primaire bron bestaat — gebruik dan de sterkste
+  betrouwbare secundaire bron, expliciet als zodanig gelabeld;
+- gebeurtenis en exacte fysieke locatie altijd apart verifiëren (`gebeurtenis_geverifieerd` vs.
+  `exacte_fysieke_locatie_geverifieerd`, zie ook poort E.1) — nooit het één als bewijs voor het
+  ander laten doorgaan.
+
+Dit voorkomt specifiek de foutklasse waarbij een claim al in de eerste sweep aanwezig is, feitelijk
+onjuist is, en zonder deze stap een dubbele sweep (poort R) kan overleven omdat Sweep B toevallig
+niet precies die claim herhaalt.
+
+### H. Toegankelijkheid vóór keuzerapport (nieuw, verplicht veld)
+
+Elke kandidaat krijgt, vóór opname in het keuzerapport, een ingevuld veld: "wat kan Mark als
+gewone buitenlandse bezoeker daadwerkelijk zien/doen?" — inclusief expliciete vermelding als dit
+niet geverifieerd is. Dit mag nooit voor het eerst tijdens routeplanning aan het licht komen als
+het de A/B/C-keuze had kunnen beïnvloeden (fixt fout #6).
+
+### I. Adversarial missed-place pass (nieuw, verplichte stap na reguliere discovery)
+
+Ná de reguliere discovery-ronde, vóór de sweep als gesloten wordt beschouwd, één verplichte,
+apart gelogde ronde met de vraag: "Welke MARK_WAARDIGE plek zou Mark later terecht boos maken dat
+we hem nooit hebben laten zien?" — met ANDERE zoekrichtingen/brontypen dan de eerste pass
+(bijvoorbeeld: officiële lijsten/tourism-overzichten cross-checken tegen wat al genummerd is,
+zoals in de Bodh Gaya-sweep uiteindelijk wél gebeurde met de internationale-kloosterlijst). Elke
+nieuwe vondst heropent automatisch de bijbehorende detector/lens in de Coverage Matrix (status
+terug naar `ACTIVE`).
+
+### J. Saturation-gate (aanscherping, met controleerbare evidence-matrix)
+
+`SATURATED=JA` mag CCI alleen claimen met een bijgevoegde, ingevulde evidence-matrix:
+
+```text
+[ ] Coverage Matrix: alle regels SATURATED of EXPLICIET_ONBESCHIKBAAR (geen NOT_STARTED/ACTIVE)
+[ ] Laag 1 (AOAY + elke Top-X-persoon) apart bevestigd SATURATED/EXPLICIET_ONBESCHIKBAAR vóórdat
+    laag-2-bevindingen (algemene bedevaartsplekken) meetellen als saturatiebewijs (INDIA6 bericht 044)
+[ ] Lead Register: geen regel zonder eindstatus
+[ ] Ontbrekende-categoriecheck: uitgevoerd, resultaat vermeld (ook als "niets nieuws")
+[ ] Identiteit/duplicaatvragen die kandidaten beinvloeden: opgelost of expliciet UNRESOLVED_BLOCKER
+[ ] Keuze-relevante toegangsblockers: geen open exemplaren
+[ ] Adversarial pass (poort I): uitgevoerd, resultaat vermeld
+```
+
+Geen vrije-tekst-conclusie zonder deze matrix. Dit is de directe fix voor fout #10.
+
+### K. [OPGEGAAN IN POORT R, 2026-08-08
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1319 path=governance/SWEEP_PROTOCOL.md blob_sha=52efd7d7547d892ccc2a761cf83d80c53afb5736 original_offset=28672 original_length=4096 payload_bytes=4096 chunk_index=7 chunk_count=16 classification=text
+, INDIA6 bericht 065, na expliciete equivalentiecheck]
+
+Poort K bestond uit twee onderdelen. (1) INDIA controleert CCI's evidence-matrix zelf (niet alleen
+de conclusie) — dit is nu een letterlijke sub-eis in poort R's reconciliatiegate hieronder, dus
+GEEN verloren bescherming. (2) Het token `INDIA_ACCEPTED_SATURATION: JA` — dit token blijft
+ONGEWIJZIGD bestaan en wordt nog steeds gecheckt door `preflight_validator.py --phase discovery`;
+alleen de bijbehorende poorttekst is verplaatst naar poort R, omdat een echte onafhankelijke
+tweede sweep (Sweep B) een strenger substituut is voor "INDIA leest de matrix" — wie een volledige
+zelfstandige sweep doet, heeft de matrix per definitie ook inhoudelijk getoetst. Geen aparte
+poorttitel meer nodig; deze regel blijft alleen als vindplaats-verwijzing staan zodat oudere
+verwijzingen naar "poort K" niet in het niets verwijzen.
+
+### L. Keuzerapport — verbod op voorspelde A/B/C (nieuw, met concrete verboden lijst)
+
+Verboden formuleringen (letterlijk, niet uitputtend): "eerder B/C", "A alleen als...", "B goed
+voorstelbaar", "waarschijnlijk C/B/A", "A minder waarschijnlijk", "A niet uitgesloten", "degelijke
+C-optie". Toegestaan: feiten + een feitelijke "reden om eventueel over te slaan" zonder
+lettercode-voorspelling. Aanbevolen praktische check vóór commit: een eenvoudige grep op deze
+zinsneden over het GOUD-bestand (geen aparte validator-script verplicht in v1, wel aanbevolen voor
+v2 — zie Deel 3).
+
+#### L.1 GEO-combinatiesymmetrie (canoncorrectie, INDIA6 bericht 051, 2026-08-08)
+
+"Goed te combineren met" betekent UITSLUITEND: de locaties liggen geografisch/praktisch zo dicht
+bij elkaar dat ze in hetzelfde bezoek, wandeling, korte rit of dagdeel te combineren zijn. Het is
+NOOIT: inhoudelijke verwantschap, zelfde religie/thema, "zou leuk samen zijn", of
+routeplannings-voorkeur — thematische verwantschap mag nooit als GEO-combinatie gepresenteerd
+worden.
+
+**Verplichte symmetrie**: als kandidaat A vermeldt dat hij goed te combineren is met B, dan MOET
+B's eigen tekst ook A vermelden. Vormen A, B en C samen één logisch cluster, dan noemt elk van de
+drie de andere twee — nooit een eenrichtingsrelatie of een gedeeltelijk genoemd cluster. Altijd
+`nummer + naam`, nooit een kaal nummer.
+
+**Bij onvoldoende betrouwbare locatiegegevens**: niet raden. Schrijf letterlijk
+`combineerbaarheid niet betrouwbaar vast te stellen na GEO-controle — [reden]` in plaats van een
+aangenomen combinatie of een stille leegte.
+
+**Permanente PDF-gate-uitbreiding**: een keuze-PDF faalt de gate (poort M/N) als: combineer-
+relaties asymmetrisch zijn; een kandidaat slechts een deel van een aantoonbaar cluster noemt;
+thematische verwantschap als GEO-combinatie gepresenteerd wordt; of combineerbaarheid nog niet
+onderzocht is (dat laatste moet expliciet gemeld worden, niet stilzwijgend blijven staan als
+"nog niet onderzocht").
+
+**Machineleesbare canonieke relatie (canoncorrectie, INDIA6 bericht 065, 2026-08-08)**: geen grote
+pairwise matrix nodig, maar wél een machineleesbaar veld per kandidaat-record (bijvoorbeeld
+`combine_with: [display_ids]`) als de canonieke bron van waarheid; de mensleesbare
+PDF-combineerbaarheidstekst wordt daaruit afgeleid, niet andersom. Een symmetrie-validator
+(`governance/scripts/preflight_validator.py`) controleert dit veld automatisch: voor elk
+`display_id` X dat kandidaat Y in `combine_with` noemt, moet Y's eigen record X terugnoemen.
+Ontbreekt het veld bij een run (zoals bij de bestaande Bodh Gaya-tekstvelden, nog niet
+gemigreerd), dan rapporteert de validator `NIET_CONTROLEERBAAR`, geen valse `FAIL`/`OK` — nieuwe
+runs vullen dit veld voortaan direct in.
+
+### M. Content-QA vóór PDF — verplichte PRE_PDF_CONTENT-stap (aangescherpt, INDIA6 bericht 055, 2026-08-08)
+
+**Vervangt/specificeert het eerdere `CONTENT_QA_ACCEPTED`-token** — hetzelfde principe (CCI levert
+tekst/data, INDIA controleert de volledige inhoud, correcties gaan eerst in brondata/rapport),
+maar nu met een verplichte, concrete tussenstap zodat INDIA altijd het EINDPRODUCT als geheel
+controleert, niet alle
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1320 path=governance/SWEEP_PROTOCOL.md blob_sha=52efd7d7547d892ccc2a761cf83d80c53afb5736 original_offset=32768 original_length=4096 payload_bytes=4096 chunk_index=8 chunk_count=16 classification=text
+en losse bronrapporten:
+
+1. CCI rondt research/data af.
+2. CCI bouwt de VOLLEDIGE beoogde PDF-inhoud als één human-readable Markdown-bestand
+   (`PRE_PDF_CONTENT.md` in `GOUD/USER/` van de run), exact in de uiteindelijke volgorde en met
+   dezelfde koppen/tabellen/kandidaatteksten die later in de PDF verschijnen.
+3. CCI committeert dit bestand. **Nog GEEN PDF-build.**
+4. INDIA leest het volledige `PRE_PDF_CONTENT.md` als eindproduct.
+5. Correcties gaan terug naar CCI en worden in hetzelfde bestand verwerkt (niet in een los kanaal).
+6. INDIA voert een laatste integrale controle uit op het gecorrigeerde bestand.
+7. Alleen bij expliciet, letterlijk `PRE_PDF_CONTENT_APPROVED: JA` ÉN een apart, letterlijk
+   `PDF_GO: JA` mag CCI renderen. Dit vervangt het oude losse `CONTENT_QA_ACCEPTED: JA`-token voor
+   PDF-doeleinden — gebruik voortaan uitsluitend `PRE_PDF_CONTENT_APPROVED: JA` als het
+   content-goedkeuringstoken vóór een PDF-build, om verwarring tussen een oud en nieuw token te
+   voorkomen.
+8. De uiteindelijke PDF mag inhoudelijk niet afwijken van het goedgekeurde `PRE_PDF_CONTENT.md`,
+   behalve automatische paginering/typografie. De renderer herschrijft nooit zelfstandig inhoud.
+9. Na build: CCI controleert uitsluitend visueel op lay-out (zoals al gangbare praktijk); inhoud
+   wordt niet opnieuw autonoom herschreven.
+
+Een PDF die INDIA niet integraal als volledige eindtekst heeft gelezen en goedgekeurd, mag nooit
+aan Mark als keuze-PDF gepresenteerd worden.
+
+### N. PDF — vorm/leesbaarheid en verplichte kandidaatblok-inhoud (aangescherpt, INDIA6 berichten 055/056/057, 2026-08-08)
+
+Eén definitieve keuze-PDF per sweep-fase, uitsluitend ná de PRE_PDF_CONTENT-stap (poort M). De PDF
+is een presentatie van al goedgekeurde inhoud, nooit zelf een onderzoeksstap of correctiekanaal.
+
+**Voorkeursvolgorde van het document:**
+1. Regio + Marks persoonlijke missie daar in het kort + AOAY-treffers + Top-11-treffers + overige
+   zwaargewichten als bonus.
+2. Compacte beslismatrix: nr + naam | Jouw link | GEO/cluster | bezoektijd | toegang | kernreden |
+   A/B/C-vak (of, na een keuzeronde, de vastgelegde A/B/C).
+3. Eenvoudige geografische clusterkaart, uitsluitend indien voldoende betrouwbare GEO-data
+   beschikbaar is; onzekere GEO apart gemarkeerd, niet geraden.
+4. Compacte kandidaatkaarten, bij voorkeur niet over een pagina-einde gesplitst.
+5. Laatste pagina: compact A/B/C-invuloverzicht (of, na een keuzeronde, een overzicht van de
+   vastgelegde besluiten).
+
+**Beslissingsblok bovenaan elke kaart (canoncorrectie, INDIA6 bericht 065, 2026-08-08)**: velden 1
+(`JOUW LINK`), 2 (`OBJECTIEVE SPIRITUELE/PELGRIMS-ZWAARTE`) en, indien reeds bekend, de huidige
+`MARK: A/B/C`-status (of een leeg keuzevakje vóór een keuzeronde) staan als compact, in 5-10
+seconden scanbaar blok BOVENAAN elke kandidaatkaart, vóór de overige, narratieve velden. Geen
+nieuwe velden — alleen volgorde. De overige verplichte velden (3-10 hieronder) blijven zichtbaar en
+volledig, gewoon eronder.
+
+**Verplichte velden per kandidaatkaart (minimaal):**
+1. `JOUW LINK` — AOAY (exacte passage/gebeurtenis) OF Top-11 (naam + exacte link) OF
+   `GEEN AOAY/TOP-11-LINK — zelfstandig pelgrims-/spiritueel zwaargewicht`. Nooit generiek "Kriya-/
+   boeddhistische focus" schrijven — Boeddha is geen Top-11-naam.
+2. `OBJECTIEVE SPIRITUELE/PELGRIMS-ZWAARTE` — zie poort L.2 hieronder.
+3. `MAGNETISME TER PLEKKE` — zie poort L.2.
+4. `WAAROM DIT VOOR MARK KAN TELLEN` — vertaling naar zijn reisdoel, zonder A/B/C te voorspellen.
+5. `WAT ER CONCREET TE ERVAREN IS`.
+6. `PRAKTISCH/GEO` — combineerbaarheid uitsluitend volgens poort L.1.
+7. `BEZOEKTIJD` — realistische bandbreedte; een transparante INDIA/CCI-planningsschatting is
+   toegestaan zonder officiële bron, mits expliciet zo gelabeld ("inschatting op basis van
+   omvang/type bezoek") — geen schijnprecisie. Dit is geen routeplanning/ervaringstijd voor het
+   hele cluster.
+8. `REISPERIODE-RELEVANTIE` — Marks daadwerkelijke reisperiode is **18 december 2026 t/m 21
+   januari 2027** (vastgelegd in `governance/AC
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1321 path=governance/SWEEP_PROTOCOL.md blob_sha=52efd7d7547d892ccc2a761cf83d80c53afb5736 original_offset=36864 original_length=4096 payload_bytes=4096 chunk_index=9 chunk_count=16 classification=text
+TIVE_STATE.md`). Keuze-relevante festivals/
+   evenementen/toegang worden hiertegen gecontroleerd, niet tegen een oud/generiek festivaljaar:
+   `evenement tijdens reisperiode: JA/NEE/ONBEKEND NA ONDERZOEK`. Expliciete regel (canoncorrectie,
+   INDIA6 bericht 065, 2026-08-08): een oudere, bevestigde editie mag NOOIT stilzwijgend als
+   actuele 2026/27-informatie gepresenteerd worden; een nog onbevestigde nieuwe editie moet
+   expliciet zo benoemd worden ("editie 2026/27 nog niet gepubliceerd").
+9. `AFWEGING` — het echte beslispunt, geen verborgen A/B/C-advies.
+10. `ECHTE ONZEKERHEID` — alleen onzekerheid die overblijft NA onderzoek, met een concrete
+    categorie: `RELEVANTIE-TWIJFEL`, `BRON-TWIJFEL`, `TOEGANG-TWIJFEL`, `DATUM-TWIJFEL`,
+    `GEO-TWIJFEL`, of een andere concrete categorie (meerdere toegestaan). Nooit een kaal
+    "TWIJFELGEVAL" zonder aard van de twijfel.
+
+**Verboden placeholders voor keuze-relevante velden**: `NOG NIET ONDERZOCHT`, `TODO`, `TBD` of
+gelijkwaardig. Als iets na echt gericht onderzoek onbekend blijft: `ONBEKEND NA ONDERZOEK` + korte
+reden. Dit geldt minimaal voor: persoonlijke betekenis/link, spirituele/pelgrims-zwaarte, concrete
+ervaring, bezoekbaarheid/toegang, GEO-identiteit, combineerbaarheid, bezoektijd voor zover redelijk
+afleidbaar, keuze-relevante datum-/festivalinformatie. **Machine-afgedwongen (canoncorrectie,
+INDIA6 bericht 065, 2026-08-08)**: `preflight_validator.py --phase pdf` blokkeert vanaf nu hard op
+deze placeholders binnen `GOUD/USER/` vóór `PRE_PDF_CONTENT_APPROVED` geldig kan zijn — geen
+handmatige discipline meer alleen.
+
+**Na een Mark-keuze**: oude AI-classificaties (`CORE_PASS`, `OPTIONAL_PASS`, "niet kernwaardig",
+e.d.) worden niet meer zichtbaar getoond in de gebruikers-PDF zodra Mark A/B/C heeft gekozen — dan
+gewoon `MARK: A/B/C`. Oude AI-classificaties zijn niet gebruikersrelevant na Marks besluit.
+
+Kale nummers zijn verboden — altijd `nummer + naam`. Vermijd meta-/protocoltekst in de
+gebruikers-PDF en onnodige herhaling tussen "waarom", "betekenis", "ervaring" en "afweging".
+
+#### L.2 Zwaarte voor Mark — verplicht blok (INDIA6 bericht 056, 2026-08-08)
+
+Elke kandidaat krijgt, naast `JOUW LINK` (zie poort N), een `ZWAARTE VOOR MARK`-blok:
+
+- **Objectieve pelgrims-/heiligdomzwaarte**: een klasse, geen kunstmatig puntensysteem:
+  `WERELD-/PAN-INDIA HEAVYWEIGHT`, `NATIONAAL/ZEER ZWAAR`, `REGIONAAL ZWAAR`, `LOKAAL/BEPERKT`, of
+  `GEEN ECHTE PELGRIMSMAGNEET — vooral historisch/institutioneel/architectonisch/studiecentrum`.
+  Onderbouw concreet met wat beschikbaar is: aantoonbare bezoekers-/pelgrimsstroom (alleen cijfers
+  bij betrouwbare bron), status binnen een canonieke groep (bv. één van een beperkt aantal
+  Shakti Peethas), uniek reliek/lichaamsdeel/voetafdruk/graf/grot/boom/gebeurtenis, centrale
+  rituele functie, nationale/internationale faam binnen de traditie, ouderdom/continuïteit van
+  levende bedevaart, omvang van jaarlijkse festivals, levende devotie versus alleen historisch
+  belang.
+- **Magnetisme ter plekke**: feitelijk, observeerbaar (voortdurend veel pelgrims/offers/puja/zang;
+  vooral druk tijdens één festival, daarbuiten rustig; actief klooster zonder pelgrimsmagneet;
+  monument/museum met weinig levende praktijk; `ONBEKEND` indien niet betrouwbaar onderzocht) —
+  geen zweverige "energie"-claims.
+- **Relatieve context** (optioneel, alleen indien onderbouwd): één korte, feitelijke vergelijking
+  met een andere kandidaat uit dezelfde regio — nooit een ranking om de ranking.
+- **Voor Mark in één zin**: concrete persoonlijke vertaling, geen verborgen A/B/C-advies.
+
+Regel: populariteit alleen is GEEN spirituele zwaarte; "vertegenwoordigt religie X" is NOOIT een
+zwaarteargument (zie ook FK-011/E.1). Een kleine AOAY/Top-11-plek blijft voor Mark belangrijker dan
+een objectief enorme bedevaartsplek zonder AOAY/Top-11-link.
+
+#### L.3 Feitelijke claimdiscipline in gebruikerstekst (INDIA6 bericht 057, 2026-08-08)
+
+Vóór elke PRE_PDF_CONTENT-vrijgave controleert CCI nogmaals alle keuze-relevante absolute claims:
+"exacte plek", "eerste"
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1322 path=governance/SWEEP_PROTOCOL.md blob_sha=52efd7d7547d892ccc2a761cf83d80c53afb5736 original_offset=40960 original_length=4096 payload_bytes=4096 chunk_index=10 chunk_count=16 classification=text
+, "oudste", "grootste", "enige", directe causaliteitsclaims, en een
+gebeurtenis-op-exact-deze-fysieke-plek-claim. Bij twijfel: genuanceerd formuleren, nooit
+stilzwijgend een stad/regio-gebeurtenis versmallen tot een specifiek tempelcomplex, en
+toegangsbeleid nooit afleiden uit de afwezigheid van een gemeld verbod (bestaande regel, poort G,
+hier herbevestigd). Bekende Bodh Gaya-precedenten: Sri Yukteswars sannyas-gebeurtenis in Bodh Gaya
+≠ bewezen exacte locatie Mahabodhi Temple Complex (zie poort E.1, gebeurtenis vs. exacte plek);
+Sujata Stupa niet zonder sterk bewijs als "exacte plek van aanbieding" presenteren; Great Buddha
+Statue niet onnodig absoluut als "grootste van India" formuleren; Mahabodhi Society niet absoluut
+"oudste bestaande kloostergebouw" zonder sterke onderbouwing.
+
+### O. Vervangbaarheid/handoff (nieuw format, zie ook Deel 2 van dit voorstel-pakket:
+`governance/ACTIVE_STATE.md`)
+
+Elke actieve run houdt een `STATUS.md` (of vergelijkbaar) bij met minimaal: huidige fase (van de
+negen stappen), laatste permanente nummers, harde Mark-besluiten, open blockers, protocolversie
+(dit document + eventuele opvolgers), toegestane volgende stap, en relevante foutlessen
+(verwijzing naar Deel 3, het foutklassenregister). Een nieuwe regisseursessie moet dit ene
+bestand kunnen lezen en zonder chatgeschiedenis verder kunnen.
+
+**O.1 Taakbestanden i.p.v. PR-transcript als bron van waarheid (canoncorrectie, INDIA6 taak
+RELAY-MIGRATION-001, 2026-08-08 — reden: PR #23 werd zo lang dat INDIA's connectorweergave
+truncateerde)**: vanaf nu krijgt elke actieve taak een eigen, klein bestandenpaar onder
+`runs/active/<TASK_ID>/`:
+- `TASK.md` — de volledige, vastgelegde opdracht (scope, prioriteiten, brondiscipline,
+  verplichte outputvelden). Wordt bij een correctie IN HETZELFDE bestand bijgewerkt, niet
+  opnieuw als lange PR-tekst herhaald.
+- `STATUS.md` — kort, altijd actueel: `task_id`, `state`, paden naar `TASK.md`/`RESULT.md`,
+  `blockers`, `next_allowed_step`, en een letterlijke, kopieerbare startzin voor de volgende
+  actie ("korte startzin voor CCI/INDIA").
+- `RESULT.md` — het laatste resultaat van de laatst uitgevoerde stap (Sweep A, reconciliatie,
+  etc.). Wordt per fase OVERSCHREVEN of uitgebreid, niet als eindeloze geschiedenis bijgehouden
+  — de git-historie van het bestand is de geschiedenis, niet het bestand zelf.
+
+**Bestaande `india5/tasks/`-architectuur (TASK.yaml/STATUS.yaml met ACL's, sha256-hashes,
+completion-markers) NIET hergebruikt**: expliciet overwogen en te zwaar bevonden voor dit doel —
+die architectuur was al aangemerkt voor deprecatie (zie Openstaande ontwerpbeslissingen, punt 1)
+en voegt machinerie toe (hash-pinning, allow/forbid-lijsten) die hier geen functie heeft. Dit is
+bewust de kleinste duurzame oplossing, geen nieuwe bureaucratische architectuur.
+
+**PR #23 wordt index/relay, niet meer het volledige transcript**: nieuwe PR-comments zijn vanaf
+nu KORTE enveloppen (`task_id`, `task_file`/`status_file`, status, commit) — de volledige inhoud
+staat in de taakbestanden zelf, niet meer herhaald in de PR-tekst. Een nieuwe INDIA-sessie hoeft
+dus niet de volledige PR-geschiedenis op te halen: `governance/ACTIVE_STATE.md` (altijd het
+eerste bestand dat gelezen wordt, zie kop van dit document) bevat een `ACTIVE_TASKS`-lijst met
+directe paden naar elke actieve `STATUS.md`.
+
+### P. Zelflerende foutklassen (nieuw register)
+
+Zie `governance/SWEEP_ERROR_CLASSES.md` (nieuw, apart bestand — zie Deel 3 hieronder). Bij
+elke nieuwe, generaliseerbare fout: classificeren, een preventieve poort toevoegen aan dit
+document (niet een losse ad-hoc regel ernaast), en één keer centraal documenteren.
+
+### Q. Token-/efficiencyregel (nieuw, toegevoegd na INDIA6 bericht 032/tweede versie)
+
+Dit protocol moet first-time-right verbeteren zonder een bureaucratisch monster te worden.
+
+| Gebruik wél | Vermijd |
+|---|---|
+| Matrices/JSONL-regels i.p.v. lange vrije tekst | Herhaalde brede repo-scans wanneer gerichte bestanden volstaan |
+| Korte, vaste statusvelden (bv. `SATURATED`/`ACTIVE`) | PDF-herbouw zonder nieuw `P
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1323 path=governance/SWEEP_PROTOCOL.md blob_sha=52efd7d7547d892ccc2a761cf83d80c53afb5736 original_offset=45056 original_length=4096 payload_bytes=4096 chunk_index=11 chunk_count=16 classification=text
+DF_GO: JA` |
+| Validatorscripts waar mogelijk (zie ook Deel 3, ontwerpvraag 2) | Heronderzoek van al gesloten/bevestigde feiten |
+| Vaste stopcriteria (Verzadigingsdrempel, evidence-matrix) | Lange narratieve statusrapporten waar een tabel volstaat |
+| Gerichte bronqueries per openstaande lens/lead | Volledige nieuwe sweep om één deelvraag te beantwoorden |
+
+Deze regel is geen aparte controlestap maar een werkinstructie voor hoe alle poorten A-R worden
+uitgevoerd — vandaar geen eigen JSONL-bestand of token.
+
+### R. Dubbele onafhankelijke sweep + reconciliatie (nieuw, INDIA6 bericht 059, 2026-08-08 —
+foutprecedent: Bodh Gaya)
+
+**Waarom deze poort bestaat**: de Bodh Gaya-run toonde aan dat één CCI-sweep niet betrouwbaar
+genoeg is voor Marks missiekritische laag (AOAY + Top-11). Pas nadat INDIA6 onafhankelijk dezelfde
+regio onderzocht (bericht 058, "ONAFHANKELIJKE CROSS-CHECK"), kwamen meerdere gemiste/foutieve
+links boven water: Ram Dass bij 061 versus 074 (datum + gebouw), Anandamayi Ma bij 051, Vivekananda
+bij 046 (verdieping), een echte Ramakrishna-fout bij 046 (ingetrokken, correcte link verplaatst
+naar 051), en Neem Karoli Baba's devotee-context bij 046 (correct geclassificeerd als geen directe
+fysieke link). Dit lost tevens openstaande ontwerpvraag 3 (hieronder, "reikwijdte van de
+adversarial pass") op door een harde ondergrens te zetten: één interne CCI-pass (poort I) is NOOIT
+voldoende voor de missiekritische laag — er moet een echt onafhankelijke tweede sweep zijn.
+
+**Twee onafhankelijke sweeps, verplicht vóór een regio als inhoudelijk compleet geldt**:
+- **Sweep A = CCI primaire sweep**: normale discovery volgens dit protocol (AOAY volledig, elk
+  Top-11-lid individueel, daarna laag-3 zwaargewichten), stopt alleen op geldige
+  saturatieregels (poort J).
+  - **Sweep B = onafhankelijke INDIA-tegensweep**: uitgevoerd door de actuele INDIA-regisseur,
+  of — als Mark dat expliciet kiest — door een aparte, onafhankelijke onderzoekschat. Krijgt
+  dezelfde regio en dezelfde Mark-kernprioriteiten, maar NIET vooraf CCI's kandidatenlijst of
+  conclusies. Doel is zelfstandig ontdekken, niet kandidaat-voor-kandidaat CCI verifiëren:
+  andere queryformuleringen, bronfamilies, biografische ingangen, historische spellingen.
+  Rapporteert ook negatieve resultaten per AOAY/Top-11-persoon. Mag NIET vervangen worden door
+  INDIA die achteraf alleen CCI's lijst naleest — dat veroorzaakt anchoring.
+
+**Wat dubbel moet, wat niet**: verplicht dubbel — volledige AOAY-regioverbindingen, elk Top-11-lid
+apart, fysieke gebeurtenissen/locaties (ook obscure huizen/kamers/tempeltjes/grotten/stations/
+bomen/ashrams), gebeurtenis en exacte fysieke locatie apart geverifieerd. NIET verplicht dubbel tot
+detailniveau: GEO-coördinaten, openingstijden, PDF-layout, bronformattering, technische validators
+— die blijven CCI-uitvoer/QA.
+
+**Laag-3/bonuslaag: HEAVYWEIGHT-DISCOVERY PASS, geen volledige duplicatie (canoncorrectie, INDIA6
+bericht 065, 2026-08-08)**: Sweep B dupliceert NIET alle middelgrote/lokale bonuskandidaten van
+Sweep A. In plaats daarvan voert INDIA een eigen, onafhankelijke HEAVYWEIGHT-DISCOVERY PASS uit —
+andere zoekingangen/detectors dan Sweep A, specifiek gericht op het vinden van grote religieuze/
+spirituele/pelgrimsmagneten die Sweep A kan hebben gemist (bijvoorbeeld een enorme Shakti-, Sikh-,
+Jain-, soefi-, boeddhistische, tribale of andere obscure bedevaartsplek). Doel: een gemiste
+zwaargewicht-kandidaat moet een reële kans hebben om alsnog boven te komen, zonder dat elke kleine
+of middelgrote bonuskandidaat twee keer wordt onderzocht.
+
+**Blinde volgorde (anchoring-preventie)**: (1) CCI rondt Sweep A af en bevriest de uitkomst; (2)
+INDIA voert Sweep B uit zonder eerst Sweep A's kandidaten/conclusies als zoekbasis te gebruiken;
+(3) pas daarna worden A en B naast elkaar gelegd; (4) elk verschil krijgt één van: `CCI_MISSED`,
+`INDIA_MISSED`, `SAME_FINDING`, `SOURCE_CONFLICT`, `DIFFERENT_PHYSICAL_IDENTIFICATION`,
+`NOT_RELEVANT_AFTER_RECONCILIATION`; (5) alleen de gereconcilieerde uitkomst mag door naar
+keuze
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1324 path=governance/SWEEP_PROTOCOL.md blob_sha=52efd7d7547d892ccc2a761cf83d80c53afb5736 original_offset=49152 original_length=4096 payload_bytes=4096 chunk_index=12 chunk_count=16 classification=text
+rapport-gereedheid.
+
+**Reconciliatiegate (verplicht vóór keuzerapport/PDF)**:
+
+```text
+DOUBLE_SWEEP_COMPLETED: JA
+INDEPENDENT_SWEEP_PERFORMED: JA
+RECONCILIATION_COMPLETED: JA
+MISSION_CRITICAL_DIFFERENCES_RESOLVED: JA
+INDIA_ACCEPTED_SATURATION: JA
+```
+
+Een regio geldt NIET als inhoudelijk sweep-compleet/keuzerijp zolang een missiekritisch verschil
+openstaat. Geen consensus-door-meerderheid, geen automatisch-CCI-gelijk-geven: bij verschil worden
+bronnen opnieuw getoetst; als het verschil niet betrouwbaar oplosbaar is, gaat het zichtbaar naar
+Mark (als `MARK_DECISION_CONFLICT` of vergelijkbaar). Het laatste token (`INDIA_ACCEPTED_SATURATION:
+JA`, oorspronkelijk poort K) bevestigt dat INDIA ook CCI's structurele evidence-matrix (Coverage
+Matrix/Lead Register-volledigheid, poort J) zelf heeft gecontroleerd, niet alleen de conclusie —
+een echte Sweep B dekt dit inhoudelijk al af, maar het token blijft apart gecheckt door
+`preflight_validator.py --phase discovery` (ongewijzigd).
+
+**Rol van Mark**: Mark hoeft geen twee rapporten te lezen — INDIA en CCI lossen de verschillen
+onderling op (via GitHub/PR, zie poort S, `HUMAN_TOUCHPOINTS_MINIMIZED`) en Mark krijgt pas
+daarna één geconsolideerde, menselijke keuzebasis. Alleen echte onoplosbare inhoudelijke
+conflicten of persoonlijke classificatiekeuzes gaan naar Mark.
+
+**Efficiency**: dubbel DENKEN/ZOEKEN, niet dubbel PRODUCEREN — Sweep B focust op onafhankelijke
+discovery/inhoud, geen tweede datasetsuite/PDF/KML; één compact onafhankelijk sweep-rapport
+volstaat; reconciliatie in één bestand vastgelegd; alleen nieuwe/differente leads worden daarna
+door CCI volledig technisch uitgewerkt (zie ook poort Q).
+
+**Bodh Gaya blijft het geldige precedent** voor waarom deze poort bestaat, óók na de huidige
+reconciliatieronde (bericht 058) — deze poort geldt voortaan voor toekomstige regio's, niet
+retroactief als blokkade voor het al lopende Bodh Gaya-werk.
+
+### S. HUMAN_TOUCHPOINTS_MINIMIZED — GitHub als communicatiebrug (nieuw, INDIA6 bericht 060,
+2026-08-08)
+
+**Principe**: Mark is geen menselijke message-bus tussen INDIA en CCI. GitHub/PR is de
+gezamenlijke communicatie- en state-laag tussen INDIA en CCI; Mark komt alleen in beeld voor
+beslissingen die uitsluitend hij kan nemen.
+
+**Precisering (2026-08-08, RELAY-MIGRATION-001)**: "GitHub als communicatiebrug" betekent sinds
+poort O.1 niet meer "de volledige inhoud in PR-comments" — PR #23 blijft het kanaal, maar de
+comments zelf worden korte enveloppen die naar taakbestanden (`TASK.md`/`STATUS.md`/`RESULT.md`)
+verwijzen. Dit voorkomt dat de PR zelf te lang wordt om nog bruikbaar te zijn als relay.
+
+**Belangrijke grens (geen fictieve automatisering)**: INDIA kan technisch niet autonoom/achter-
+grond blijven draaien of door CCI worden aangeroepen. Deze poort claimt dus GEEN automatische
+INDIA-activering. Wat wél geldt: zodra Mark (of een geplande/getriggerde sessie) terugkeert in de
+INDIA-chat, of zodra CCI een nieuwe PR-comment van INDIA leest, moet de betreffende kant
+zelfstandig GitHub uitlezen — zien wat de andere kant inmiddels heeft gedaan/gecommit/gerapporteerd
+— en de eerstvolgende eigen controle/actie uitvoeren zonder Mark opnieuw als koerier te gebruiken.
+
+**Geen apart scope-bevestigingsmoment (canoncorrectie, INDIA6 bericht 065, 2026-08-08)**: als
+Marks initiële opdracht/scope al duidelijk is, wacht CCI niet op een aparte
+scope-bevestigingsvraag/-fase — CCI start direct met Sweep A. Mark komt normaal pas terug bij de
+uiteindelijke keuze-PDF, of bij een echte inhoudelijke blocker die alleen hij kan beslissen.
+
+**Gewenste normale flow** (per sweep): (1) Mark geeft één opdracht: sweep regio X. (2) CCI voert
+Sweep A uit en schrijft resultaten/state in GitHub. (3) INDIA leest die resultaten rechtstreeks uit
+GitHub en voert onafhankelijk Sweep B uit (poort R). (4) INDIA zet verschillen/gaten rechtstreeks
+op GitHub. (5) CCI onderzoekt/reconcileert die verschillen en commit de uitkomst. (6) INDIA leest
+de volledige gereconcilieerde PRE_PDF_CONTENT rechtstreeks uit GitHub en reviewt integraal. (7)
+Correcties t
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1325 path=governance/SWEEP_PROTOCOL.md blob_sha=52efd7d7547d892ccc2a761cf83d80c53afb5736 original_offset=53248 original_length=4096 payload_bytes=4096 chunk_index=13 chunk_count=16 classification=text
+ussen INDIA↔CCI lopen rechtstreeks via GitHub, zonder dat Mark teksten hoeft te
+kopiëren. (8) Pas als beide inhoudelijk akkoord zijn, krijgt Mark één goede keuze-PDF. (9) Mark
+geeft alleen A/B/C en eventuele persoonlijke inhoudelijke correcties. (10) CCI legt besluiten vast;
+vervolgcluster/pacing kan daarna volgens canon.
+
+**Mark hoeft normaal NIET**: CCI-uitvoer naar INDIA te kopiëren als die al op GitHub staat;
+INDIA-instructies naar CCI te kopiëren als INDIA ze rechtstreeks op de PR kan plaatsen;
+tussenreviews te lezen; technische commits/statusvelden te beoordelen; meerdere concept-PDF's te
+beoordelen.
+
+**Mark moet wel**: de initiële reis-/sweepvraag geven; persoonlijke voorkeuren/nieuwe
+canonbesluiten geven; de uiteindelijke A/B/C-keuzes maken; alleen bij echte inhoudelijke ambiguïteit
+die niet door bronnen/protocol oplosbaar is (bijv. een niet-oplosbare `MARK_DECISION_CONFLICT`)
+beslissen.
+
+**Geen aparte bureaucratische subarchitectuur**: dit vereenvoudigt de bestaande flow, het voegt er
+geen nieuwe laag aan toe — poort R (met de van poort K opgegane INDIA-structuurcontrole) en poort O
+(Vervangbaarheid/handoff) blijven ongewijzigd van kracht, deze poort maakt alleen expliciet dat
+GitHub/PR het kanaal is en dat Mark niet de verplichte tussenpersoon is.
+
+---
+
+## Deel 3 — Foutklassenregister (apart bestand)
+
+Zie `governance/SWEEP_ERROR_CLASSES.md`. Bevat de tien fouten uit Deel 1 als herbruikbare,
+genummerde klassen (FK-001 t/m FK-010), plus later toegevoegde klassen uit canoncorrecties
+(FK-011 t/m FK-012 en verder), zodat een toekomstige, nieuwe fout eerst tegen dit register gelegd
+kan worden ("is dit een bekende klasse, of nieuw?") in plaats van dat elke fout een losse, steeds
+langere ad-hoc regel wordt.
+
+**Eén-incident-regel (canoncorrectie, INDIA6 berichten 064/065, 2026-08-08 — precedent: poort T,
+dezelfde dag gecanoniseerd én weer ingetrokken)**: een praktische oplossing die ontstaat als reactie
+op ÉÉN specifiek correctiemoment wordt niet automatisch permanente canon. Eerst toetsen of het een
+algemene, herhaalbare foutklasse is (past het in een bestaande FK-rij, of verdient het een nieuwe?)
+— pas na een tweede, onafhankelijke keer dat dezelfde situatie zich voordoet, mag het een
+standaardregel/poort worden. Uitzondering: een MACHINE-CHECKBARE validator die een objectieve fout
+voorkomt (JSONL-structuur, verboden placeholders, GEO-symmetrie e.d.) mag wél meteen worden
+toegevoegd, ook na één incident — dat is geen nieuwe procesregel voor mensen, alleen een
+goedkope, foutloze extra controle.
+
+---
+
+## Deel 4 — Machine-checkbare preflight
+
+`governance/scripts/preflight_validator.py` controleert, voor een gegeven run-directory, de
+structurele (niet-inhoudelijke) voorwaarden vóór fase-overgangen:
+
+- **Vóór keuzerapportfase**: Coverage Matrix bevat geen `NOT_STARTED`/`ACTIVE`-regel; Lead
+  Register: elke lead heeft een geldige eindstatus; geen open `UNRESOLVED_BLOCKER` in de
+  identiteit/duplicatencheck; geen open keuze-relevante toegankelijkheidsblocker; permanente
+  nummering uniek/valide (hergebruikt `validate_global_numbering.py`); actieve kandidaten hebben
+  geen status `HARD_EXCLUDED`/`SUBLOCATION`/`DUPLICATE`; saturation-evidence-bestand aanwezig;
+  `INDIA_ACCEPTED_SATURATION: JA` aanwezig; GEO-combinatiesymmetrie (poort L.1) via het optionele
+  `combine_with`-veld — `NIET_CONTROLEERBAAR` zolang een run dat veld niet gebruikt (bv. Bodh Gaya,
+  nog vrije tekst), machine-`FAIL` bij asymmetrie zodra het veld wél gebruikt wordt.
+- **Vóór PDF**: verboden placeholders (poort N: `NOG NIET ONDERZOCHT`/`TODO`/`TBD`) in `GOUD/USER/`
+  — machine-`FAIL` bij een treffer (canoncorrectie 2026-08-08, bericht 065, voorheen alleen
+  handmatig); `PRE_PDF_CONTENT_APPROVED: JA` aanwezig (vervangt `CONTENT_QA_ACCEPTED: JA` voor
+  PDF-doeleinden, zie poort M); `PDF_GO: JA` aanwezig.
+- **Vóór keuzerapport-gereedheid van een missiekritische regio (poort R, nieuw 2026-08-08, nog NIET
+  in `preflight_validator.py` geïmplementeerd — hier expliciet als open punt genoteerd, niet
+  verhuld)**: `DOUBLE
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1326 path=governance/SWEEP_PROTOCOL.md blob_sha=52efd7d7547d892ccc2a761cf83d80c53afb5736 original_offset=57344 original_length=4096 payload_bytes=4096 chunk_index=14 chunk_count=16 classification=text
+_SWEEP_COMPLETED: JA`, `INDEPENDENT_SWEEP_PERFORMED: JA`,
+  `RECONCILIATION_COMPLETED: JA`, `MISSION_CRITICAL_DIFFERENCES_RESOLVED: JA`. Vooralsnog
+  handmatig door INDIA/CCI gecontroleerd,
+  zoals ook `INDIA_ACCEPTED_SATURATION` aanvankelijk handmatig was vóórdat het een script-check
+  werd — een validator-uitbreiding is mogelijke v2-toekomstige stap (zie Openstaande
+  ontwerpbeslissingen, punt 2).
+
+**Grens van de validator (expliciet, niet verhuld)**: de validator controleert uitsluitend
+structurele/machinaal-checkbare voorwaarden (bestaat het veld, is de status geldig, is er geen
+lege/tegenstrijdige waarde). Hij kan NIET beoordelen of een saturatieclaim inhoudelijk klopt, of
+een bron sterk genoeg is voor een claim, of een generiek-check correct is uitgevoerd — dat blijft
+mensen-/CCI-/INDIA-oordeel. De validator doet dus nooit alsof hij inhoudelijke kwaliteit
+garandeert; hij garandeert alleen dat de vereiste structuur/velden aanwezig en intern consistent
+zijn vóór een fase-overgang wordt toegestaan.
+
+---
+
+## Wat dit protocol NIET doet
+
+- Geen nieuwe regionale sweep gestart.
+- Geen PDF gebouwd.
+- Geen A/B/C ingevuld namens Mark.
+- Geen route/pacing/accommodatie.
+- Geen bestaande canon (INDIA5-PROTOCOL.md, INDIA5_REGION_START_PROTOCOL.md,
+  NOT_TO_BE_MISSED_FRAMEWORK.md) stilzwijgend overschreven — dit document VOEGT TOE, het vervangt
+  niet.
+
+## Openstaande ontwerpbeslissingen (rolgebaseerd — voor de huidige INDIA-regisseur)
+
+1. **Twee protocol-lineages**: naast `india4/protocols/INDIA5-PROTOCOL.md` (het document dat
+   feitelijk deze hele sessie is gebruikt) bestaat een parallelle, eerder opgezette architectuur
+   onder `india5/` (`GOVERNANCE.md`, `TASK_PROTOCOL.md`, `india5/tasks/` met
+   `TASK.yaml`/`STATUS.yaml`, `india5/schemas/`). Die tweede architectuur lijkt na de eerste
+   Varanasi-coverage-taken (`INDIA5-VNS-DISCOVERY-COVERAGE-003`, nog altijd "active" staande
+   `INDIA5-VNS-DISCOVERY-SATURATION-004`) niet meer gebruikt te zijn voor Bodh Gaya — de run
+   gebruikte in plaats daarvan de PR-comment-envelop + `runs/active/`-structuur. **Richting
+   bevestigd (INDIA6 bericht 065, 2026-08-08)**: geen hybride samenvoeging bouwen — bij een
+   volgende regio-start expliciet deprecaten in plaats van open laten hangen. Dit document blijft:
+   nieuwe bestanden onder `runs/active/<RUN_ID>/PRE_BRONS/`, niet onder `india5/tasks/`.
+2. **Machine-validatie**: verder opgelost door `governance/scripts/preflight_validator.py`
+   (Deel 4) — dekt de structurele checks, inclusief (sinds 2026-08-08, bericht 065) een
+   GEO-symmetrie-check (poort L.1, via `combine_with`) en een hard placeholder-verbod (poort N)
+   vóór PDF. Nog open: of ook Coverage Matrix/Lead Register-inhoud zelf (niet alleen
+   status-volledigheid) en poort R's vier reconciliatiegate-tokens verder geautomatiseerd moeten
+   worden.
+3. **Reikwijdte van de adversarial pass (poort I)**: OPGELOST (2026-08-08, poort R, bevestigd
+   bericht 065) — voor de missiekritische laag (AOAY + Top-11) is een harde ondergrens gezet: één
+   interne CCI-pass is nooit voldoende, er is een echt onafhankelijke tweede sweep (Sweep B, door
+   INDIA of een aparte onderzoekschat) plus reconciliatiegate verplicht. Voor de bonusmateriaal-laag
+   (laag 3): expliciet GEEN volledige pariteit — een gerichte HEAVYWEIGHT-DISCOVERY PASS (zie poort
+   R) volstaat, geen dubbele bewerking van elke middelgrote/lokale kandidaat.
+4. **Volgende regio = prospectieve test (nieuw, INDIA6 bericht 065, 2026-08-08)**: het V2-protocol
+   (poorten G.1, R, S, N-herordening, machine-checks) is tot nu toe alleen retroactief op Bodh Gaya
+   getoetst. De eerstvolgende, volledig nieuwe regio-sweep test het protocol prospectief vanaf nul
+   — alleen echte afwijkingen/fouten loggen, geen aannames vooraf overnemen.
+
+## Activatie
+
+Status: **ACTIEF/CANONIEK**, geaccepteerd via protocolreview (PR #23) door de huidige
+INDIA-regisseur. Toekomstige, verdere wijzigingen aan dit document worden pas bindend na een
+expliciet `CURRENT_INDIA_REGISSEUR: ACCEPTEERT`-token (rolgebaseerd, niet aan een sessienaam
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1327 path=governance/SWEEP_PROTOCOL.md blob_sha=52efd7d7547d892ccc2a761cf83d80c53afb5736 original_offset=61440 original_length=451 payload_bytes=451 chunk_index=15 chunk_count=16 classification=text
+gebonden) in een PR-reactie. De bestaande canon (negen-stappenflow, Verzadigingsdrempel,
+NOT_TO_BE_MISSED-framework) blijft daarnaast onverkort van kracht; dit document is een aanvulling,
+geen vervanging.
+
+---
+Geschreven door: CCI, geactiveerd na protocolreview door de huidige INDIA-regisseur (PR #23).
+Geen PDF, geen nieuwe regionale sweep, geen A/B/C, geen route/pacing. `PDF_STATUS: VERBODEN`
+gerespecteerd tijdens het schrijven van dit document.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1328 path=runs/active/KUMAON-V2-RESWEEP-001/INDIA_SWEEP_B.md blob_sha=e54da5530bb94650413d99578d1d7456d9fbe6db original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=6 classification=text
+# INDIA_SWEEP_B — KUMAON-V2-RESWEEP-001
+
+```text
+task_id: KUMAON-V2-RESWEEP-001
+sweep: B
+uitgevoerd_door: INDIA
+uitgevoerd_op: 2026-08-14
+status: SWEEP_B_FROZEN_BLIND
+branch: india/kumaon-v2-sweep-b-001
+```
+
+## BLINDHEID_VERKLAARD
+
+Deze Sweep B is uitgevoerd terwijl CCI Sweep A nog liep.
+
+Tijdens discovery zijn NIET gelezen/gebruikt als zoekbasis:
+- CCI `RESULT.md` van `KUMAON-V2-RESWEEP-001`;
+- oude kandidatenlijsten uit `KUMAON-COMPLETE-001`;
+- oude Kumaon GOUD-/decision-/completeness-rapporten;
+- oude locatie-ID 400–426 als discoverylijst.
+
+Wel gelezen vóór discovery:
+- de actuele taakdefinitie `runs/active/KUMAON-V2-RESWEEP-001/TASK.md`;
+- publieke primaire/officiële bronnen die hieronder zijn vastgelegd.
+
+De kandidaat-ID's hieronder zijn uitsluitend tijdelijke Sweep-B-ID's (`KB2-*`) en hebben GEEN relatie met oude of toekomstige permanente locatie-ID's.
+
+## SCOPE_DEFINITION
+
+Voorafgaand aan inhoudelijke kandidatenselectie is de zoekregio gedefinieerd als de praktisch samenhangende spirituele Kumaon-as:
+
+1. gateway: Haldwani / Kathgodam;
+2. Nainital / Bhowali / Kainchi;
+3. Almora / Kakrighat / Kasar-Devi-zone / Mirtola / Jageshwar;
+4. Ranikhet / Chiliyanaula / Dwarahat / Kukuchina / Pandukholi / Dunagiri;
+5. Haidakhan-zone wanneer inhoudelijk zwaar;
+6. verder gelegen Kumaon-locaties alleen wanneer een directe AOAY- of Top-11-link ze mission-critical maakt (bijvoorbeeld Mayavati/Shyamlatal).
+
+Dit is geen cirkelradius en geen oude kandidatenlijst. Directe AOAY/Top-11-links mogen de kernzone uitbreiden; laag-3-bonuslocaties worden buiten de kernzone niet eindeloos meegesleept.
+
+## SWEEP_B_STATUS
+
+KLAAR en bevroren vóór inzage in CCI Sweep A of legacy-Kumaon-data.
+
+Hoofdbeeld uit de onafhankelijke sweep:
+- de regio is uitzonderlijk zwaar voor AOAY/Babaji/Lahiri;
+- zeer sterke directe Top-11-clusters voor Ram Dass + Neem Karoli Baba, Anandamayi Ma en vooral Vivekananda;
+- een afzonderlijke Hariharananda-Ranikhet-link is bevestigd, maar zonder exact fysiek subadres;
+- Ramakrishna zelf is niet als persoonlijke bezoeker bevestigd, maar zijn directe discipelen/Order hebben sterke fysieke Kumaon-locaties;
+- Haidakhan is een zelfstandige zware levende traditie, maar de claim dat Haidakhan Baba identiek is aan AOAY's Mahavatar Babaji is alleen een claim van die traditie en wordt NIET als AOAY-feit gecanoniseerd.
+
+## AOAY_RESULTAAT
+
+### A. Ranikhet — historische werk-/transferzone
+`AOAY_DIRECT | EXACT_BUILDING_UNRESOLVED`
+
+AOAY hoofdstuk 34 beschrijft Lahiri Mahasaya's overplaatsing in 1861 naar Ranikhet voor de Military Engineering Department en noemt de daar nieuw gevestigde army post. Ranikhet zelf is dus een directe AOAY-plaats. Het exacte historische kantoor/gebouw is in deze Sweep B niet voldoende geïdentificeerd om een afzonderlijk bezoekerspunt te claimen.
+
+### B. Drongiri / Babaji-grottenlandschap
+`AOAY_DIRECT | CURRENT_IDENTIFICATION_CORROBORATED_BY_YSS`
+
+AOAY beschrijft Lahiri's beklimming van Drongiri Mountain, een open plek met grotten, en de grot waar Babaji hem ontving. Project Gutenberg bevat ook een fotobijschrift van een door Babaji gebruikte grot in de Drongiri Mountains near Ranikhet.
+
+YSS identificeert de huidige pelgrimslocatie als Mahavatar Babaji's Cave op Pandukholi Mountain voorbij Kukuchina, circa 25 km van Dwarahat, en koppelt deze expliciet aan Lahiri's initiatie in 1861.
+
+### C. Gogash River
+`AOAY_DIRECT | EXACT_EVENT_BANK_UNRESOLVED`
+
+AOAY beschrijft Lahiri liggend op de rotsachtige oever terwijl de Gogash River over hem spoelt. YSS vermeldt dat stromen op de route naar de grot de Gogash River voeden die in AOAY genoemd wordt. De rivier is dus een directe AOAY-fysieke feature; de exacte historische oeverplek is niet vastgesteld.
+
+### D. Materialized palace / initiatieplaats
+`AOAY_DIRECT_EVENT | NO_SURVIVING_SEPARATE_OBJECT | SUBLOCATION_OF_CAVE_LANDSCAPE_UNTIL_PROVEN_OTHERWISE`
+
+AOAY situeert het gematerialiseerde paleis, de initiatie en later de kale grond van de verdwenen structuur in hetzelfde grottenlandschap, niet ver van de rotsgrotten. Er bestaat geen huidige afzonderlijke fysieke
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1329 path=runs/active/KUMAON-V2-RESWEEP-001/INDIA_SWEEP_B.md blob_sha=e54da5530bb94650413d99578d1d7456d9fbe6db original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=6 classification=text
+ paleisstructuur. Niet als los huidig gebouw canoniseren tenzij een bron een aparte blijvende plaats betrouwbaar identificeert.
+
+Bronnen AOAY/YSS:
+- Project Gutenberg, *Autobiography of a Yogi*, hoofdstuk 34: https://www.gutenberg.org/files/7452/7452-h/7452-h.htm
+- YSS Dwarahat / Mahavatar Babaji Cave: https://yssofindia.org/location/dwarahat
+
+## TOP11_RESULTAAT_PER_NAAM
+
+### 1. Paramahansa Yogananda
+`FYSIEKE_LINK_GEVONDEN — INSTITUTIONEEL, GEEN PERSOONLIJK BEZOEK BEWEZEN`
+
+- Yogoda Satsanga Sakha Ashram — Dwarahat: actuele YSS-ashram, functioneel gekoppeld aan Babaji's Cave en Kriya-pelgrimage.
+- Yogoda Satsanga Dhyana Mandali — Nainital: actuele YSS-meditatieplek.
+- Yogoda Satsanga Dhyana Mandali — Kathgodam: actuele YSS-meditatieplek.
+
+In deze frisse sweep is geen betrouwbare bron gevonden die een persoonlijk bezoek van Yogananda aan deze Kumaon-locaties bewijst. Institutionele link niet verwarren met persoonlijke voetstappen.
+
+Bronnen:
+- https://yssofindia.org/location/dwarahat
+- https://yssofindia.org/location/nainital
+- https://yssofindia.org/list-of-centres
+
+### 2. Mahavatar Babaji
+`DIRECT_MISSION_LINK_GEVONDEN`
+
+- Babaji's Cave / Pandukholi-Kukuchina: door YSS expliciet gekoppeld aan Lahiri's initiatie in 1861; AOAY-hoofdstuk 34 is de primaire verhaallaag.
+- Cave landscape / palace-event-area is mission-critical maar geen los blijvend paleisobject.
+- Haidakhan Vishwa Mahadham wordt door de Haidakhandi Samaj aan Mahavatar Babaji gekoppeld, maar dit is een TRADITIE-EIGEN identiteitsclaim. Geen YSS/AOAY-onafhankelijke bevestiging aangetroffen dat de Haidakhan Baba van 1970–1984 identiek is aan AOAY's Babaji.
+
+### 3. Lahiri Mahasaya
+`DIRECT_MISSION_LINK_GEVONDEN`
+
+- Ranikhet transfer/werkzone;
+- Drongiri/Pandukholi grottenlandschap;
+- Babaji's Cave;
+- Gogash River;
+- initiatie-/palace-event-area.
+
+Dit is één van de zwaarste Lahiri-clusters van de hele India-reis.
+
+### 4. Sri Yukteswar
+`GEEN DIRECTE PERSOONLIJKE KUMAON-LOCATIE BEVESTIGD IN SWEEP B`
+
+Wel lineage-context via Lahiri/YSS. Geen persoonlijke plek promoveren zonder direct bewijs.
+
+### 5. Ram Dass
+`DIRECT_MISSION_LINK_GEVONDEN`
+
+- Kainchi Dham: Ram Dass' eigen organisatie beschrijft dat Richard Alpert naar Maharajji's ashram in Kainchi werd gebracht, daar de naam Ram Dass kreeg en intensieve sadhana training onderging; hier ontstond ook de kiem voor *Be Here Now*.
+- Nainital: Ram Dass' eigen materiaal bevestigt zijn sterke Nainital-context en de Sah-familie; een concreet publiek bezoekpunt moet fysiek worden geïdentificeerd voordat het als locatie wordt gepromoveerd.
+- K.K. Sah's huis: Ram Dass' eigen organisatie bevestigt dat K.K. hem na zijn eerste ontmoeting met Maharajji mee naar huis nam en dat K.K. in Nainital woonde. Exact huidig privé-adres niet nodig/niet publiceren; alleen als openbaar spiritueel bezoekerspunt relevant indien daar expliciet toestemming/identiteit voor bestaat.
+- Sah-familie-hotel/Nainital: Ram Dass' eigen verhalen bevestigen verblijf in een hotel van de Sah-familie en dagelijks verkeer Nainital↔Kainchi. Naam/current identity moet nog bronmatig worden vastgezet voor kandidaatstatus.
+
+Bronnen:
+- https://www.ramdass.org/the-legacy-of-be-here-now/
+- https://www.ramdass.org/love-at-the-root-the-devotion-and-wisdom-of-kk-sah/
+- https://www.ramdass.org/baba-stories-maharaji-knows-best/
+
+### 6. Neem Karoli Baba
+`DIRECT_MISSION_LINK_GEVONDEN`
+
+- Kainchi Dham: officiële district-/tourism-bronnen bevestigen het pelgrimscentrum en de ashram van Neem Karoli Maharaj.
+- Bhumiadhar: Ram Dass/Dada Mukerjee-bron beschrijft Maharajji fysiek bij de tempel en vertrek vandaar naar Kainchi. De exacte relatie tussen 'Bhumiadhar/Bhumiya Dhara' in verschillende bronnen moet tijdens identity-reconciliatie worden getest.
+- Hanuman Garhi, Nainital: Nainital District Administration stelt dat het tempelcomplex rond 1950 op initiatief van Neem Karoli Baba werd gebouwd.
+- Kakrighat: Uttarakhand Tourism noemt daar een Neem Karoli Baba Ashram; fysiek scheiden van Vivekananda's Jnana Vriksha/Shiva-site en identity-check uitvoeren.
+
+Bronnen:
+- https://
+<<< END CHUNK >>>
+

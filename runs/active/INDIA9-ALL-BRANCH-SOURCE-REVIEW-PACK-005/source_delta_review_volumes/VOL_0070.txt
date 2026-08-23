@@ -1,0 +1,1055 @@
+>>> CHUNK stream_row=1207 path=research/active/VRINDAVAN-SUPPLEMENT-001/context/ZILVER_CONTEXT.yaml blob_sha=7ef4ad484cfabd20bcc0b2b6fea5c5f4ae56f443 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+run_id: VRINDAVAN-SUPPLEMENT-001
+role: ZILVER
+status: READY
+source_commit: d5b722d27f6fb457d66b0229eeb550b35f826fc8
+prepared_by: SUBREGIE_INDIA
+operating_mode: CONTROLLED_MANUAL_FAST
+protocol_versions:
+  pipeline: 2.4.0
+  methodology: 2.0.0
+required_files:
+  - pipeline/ENTRYPOINT.md
+  - pipeline/roles/ZILVER.md
+  - pipeline/protocols/EXECUTION_PROTOCOL.md
+  - pipeline/protocols/CONTEXT_PROTOCOL.md
+  - pipeline/protocols/EVIDENCE_PROTOCOL.md
+  - pipeline/protocols/SELF_ROUTING_PROTOCOL.md
+  - pipeline/QUALITY_GATE.md
+  - knowledge/methodology/METHODOLOGY_V2.md
+  - knowledge/project/OVERLAYS_INDIA.md
+  - research/active/VRINDAVAN-SUPPLEMENT-001/run.yaml
+  - research/active/VRINDAVAN-SUPPLEMENT-001/scope.md
+  - research/active/VRINDAVAN-SUPPLEMENT-001/state.yaml
+  - research/active/VRINDAVAN-SUPPLEMENT-001/events.jsonl
+  - research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/manifest.yaml
+  - research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/report/INDEX.md
+  - research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/report/01_scope_and_counts.md
+  - research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/report/02_candidates_blockers.md
+  - research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/report/03_sources_and_management.md
+  - research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/report/04_uncertainties_and_negative_results.md
+  - research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/report/05_living_practice.md
+  - research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/report/06_conclusion_and_gate.md
+  - research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/claims.jsonl
+  - research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/sources/registry.jsonl
+  - research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/sources/rejected.jsonl
+  - research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/audit.md
+  - research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/handoff.yaml
+  - research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/COMPLETED
+expected_git_blob_shas:
+  research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/manifest.yaml: 853541971db22a67a868d3e33b0f7d9072f27603
+  research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/report/INDEX.md: f62ed96718b37e9b8539e7b4c05c48b4e0ca0007
+  research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/report/01_scope_and_counts.md: 19866fe62b260506beedcc80867d3a9daa9d540c
+  research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/report/02_candidates_blockers.md: be758fbd183f9c7e8ab02299a7313445caa0154f
+  research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/report/03_sources_and_management.md: f00f542d495f2adead829200b7a5ce4853d47275
+  research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/report/04_uncertainties_and_negative_results.md: c405a6a3a1ba4a26b3b8ebff6285e361bca0481e
+  research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/report/05_living_practice.md: 2725582bc0a82021f13c26378e2804866004a601
+  research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/report/06_conclusion_and_gate.md: 78fc76643953286cfd25e62e38f56e123b7b88ca
+  research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/claims.jsonl: 3217d1c1ebba7a8e1e3724a327fc94d8e82f5943
+  research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/sources/registry.jsonl: a544339877c995d59275ffb8cbd629b0caa19ce2
+  research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/sources/rejected.jsonl: dc765ffd09fea7433ab95d223fdea37e750cdb8f
+  research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/audit.md: e360632c58bb38764d8b891036e3d97cc22858b9
+  research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/handoff.yaml: 360223379dd5fcd706eda91e286b43eb60768509
+  research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/COMPLETED: 5bf6a5fd305527885988f227d1be3fbf28443b31
+predecessor_manifest: research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/manifest.yaml
+output_path: research/active/VRINDAVAN-SUPPLEMENT-001/ZILVER/
+required_focus:
+  - Verify only the five pinned blockers and BRONS supplement findings.
+  - Do not repeat the full Vrindavan cluster sweep.
+  - Preserve the eight-candidate boundary and predecessor GOUD dossier.
+  - Recheck every claim-to-source reference.
+  - Make no A/B/C assessment.
+forbidden_files:
+  - research/active/VRINDAVAN-SUPPLEMENT-001/GOUD/**
+  - research/completed/**
+maximum_context_budget:
+  files: 40
+  lines_per_file: 1500
+END_OF_AR
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1208 path=research/active/VRINDAVAN-SUPPLEMENT-001/context/ZILVER_CONTEXT.yaml blob_sha=7ef4ad484cfabd20bcc0b2b6fea5c5f4ae56f443 original_offset=4096 original_length=6 payload_bytes=6 chunk_index=1 chunk_count=2 classification=text
+TIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1209 path=research/active/VRINDAVAN-SUPPLEMENT-001/events.jsonl blob_sha=e1f9b1bedf90d21c8729513a05f581b956dc892a original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+{"event_id":"EVT-0001","run_id":"VRINDAVAN-SUPPLEMENT-001","event_type":"RUN_CREATED","at":"2026-07-13T23:20:00+02:00","actor":"SUBREGIE_INDIA","from_state":null,"to_state":"READY_FOR_BRONS","predecessor_run":"VRINDAVAN-INTEGRATION-001","predecessor_role":"GOUD","predecessor_commit":"5c0f37a31547f9e62bb1fc94965d1ccd4cf5bb80","notes":"Targeted supplementation run created for exactly five INDIA2-approved blockers; no full cluster sweep."}
+{"event_id":"EVT-0002","run_id":"VRINDAVAN-SUPPLEMENT-001","event_type":"CLAIMED","at":"2026-07-13T23:18:00+02:00","actor":"ChatGPT-BRONS","role":"BRONS","claimed_by":"ChatGPT-BRONS","source_commit":"5c0f37a31547f9e62bb1fc94965d1ccd4cf5bb80","expected_state":"READY_FOR_BRONS","output_path":"research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/","from_state":"READY_FOR_BRONS","to_state":"BRONS_CLAIMED","commit":"7df9a0ee06480b4abd06c6fd81ccc02ca41581d5","notes":"Targeted BRONS supplementation claimed after pinned context, blob hashes, state/event synchronization and GitHub write access were verified."}
+{"event_id":"EVT-0003","run_id":"VRINDAVAN-SUPPLEMENT-001","event_type":"BRONS_COMPLETED","at":"2026-07-13T23:25:00+02:00","actor":"ChatGPT-BRONS","role":"BRONS","result_status":"PARTIAL","source_commit":"5c0f37a31547f9e62bb1fc94965d1ccd4cf5bb80","output_manifest":"research/active/VRINDAVAN-SUPPLEMENT-001/BRONS/manifest.yaml","from_state":"BRONS_CLAIMED","to_state":"BRONS_COMPLETE","commit":"768dba81d4e7f2d0d0c42d5a32a6b4e567497d9b","notes":"All five targeted blockers treated. No full sweep, ZILVER context, controller transition or A/B/C reassessment performed."}
+{"event_id":"EVT-0004","run_id":"VRINDAVAN-SUPPLEMENT-001","event_type":"TRANSITION_CLAIMED","at":"2026-07-13T23:58:00+02:00","actor":"SUBREGIE_INDIA","transition":"BRONS_COMPLETE_TO_READY_FOR_ZILVER","source_commit":"d5b722d27f6fb457d66b0229eeb550b35f826fc8","expected_state":"BRONS_COMPLETE","target_context_manifest":"research/active/VRINDAVAN-SUPPLEMENT-001/context/ZILVER_CONTEXT.yaml","from_state":"BRONS_COMPLETE","to_state":"TRANSITION_TO_ZILVER_CLAIMED","notes":"BRONS supplement validated for required artifacts, sentinels, exact five-blocker scope and source-ID integrity."}
+{"event_id":"EVT-0005","run_id":"VRINDAVAN-SUPPLEMENT-001","event_type":"CONTEXT_PREPARED","at":"2026-07-13T23:59:00+02:00","actor":"SUBREGIE_INDIA","transition":"BRONS_COMPLETE_TO_READY_FOR_ZILVER","source_commit":"d5b722d27f6fb457d66b0229eeb550b35f826fc8","context_manifest":"research/active/VRINDAVAN-SUPPLEMENT-001/context/ZILVER_CONTEXT.yaml","commit":"334695586898b9255bd2a0eea770078331f7468c","notes":"Pinned complete targeted BRONS output for ZILVER; no full cluster sweep permitted."}
+{"event_id":"EVT-0006","run_id":"VRINDAVAN-SUPPLEMENT-001","event_type":"TRANSITIONED","at":"2026-07-14T00:00:00+02:00","actor":"SUBREGIE_INDIA","transition":"BRONS_COMPLETE_TO_READY_FOR_ZILVER","from_state":"TRANSITION_TO_ZILVER_CLAIMED","to_state":"READY_FOR_ZILVER","source_commit":"d5b722d27f6fb457d66b0229eeb550b35f826fc8","context_manifest":"research/active/VRINDAVAN-SUPPLEMENT-001/context/ZILVER_CONTEXT.yaml","notes":"BRONS supplement accepted as PARTIAL and targeted ZILVER phase released."}
+{"event_id":"EVT-0007","run_id":"VRINDAVAN-SUPPLEMENT-001","event_type":"CLAIMED","at":"2026-07-14T00:10:00+02:00","actor":"ChatGPT-ZILVER","role":"ZILVER","claimed_by":"ChatGPT-ZILVER","source_commit":"d5b722d27f6fb457d66b0229eeb550b35f826fc8","expected_state":"READY_FOR_ZILVER","output_path":"research/active/VRINDAVAN-SUPPLEMENT-001/ZILVER/","from_state":"READY_FOR_ZILVER","to_state":"ZILVER_CLAIMED","notes":"Targeted five-blocker ZILVER phase claimed after pinned-context and state/event validation."}
+{"event_id":"EVT-0008","run_id":"VRINDAVAN-SUPPLEMENT-001","event_type":"ZILVER_COMPLETED","at":"2026-07-14T00:18:00+02:00","actor":"ChatGPT-ZILVER","role":"ZILVER","result_status":"PARTIAL","source_commit":"d5b722d27f6fb457d66b0229eeb550b35f826fc8","output_manifest":"research/active/VRINDAVAN-SUPPLEMENT-001/ZILVER/manifest.yaml","from_state":"ZILVER_CLAIMED","to_state":"ZILVER_COMPLETE",
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1210 path=research/active/VRINDAVAN-SUPPLEMENT-001/events.jsonl blob_sha=e1f9b1bedf90d21c8729513a05f581b956dc892a original_offset=4096 original_length=3927 payload_bytes=3927 chunk_index=1 chunk_count=2 classification=text
+"commit":"de6ab8a953eaa9da0ffc8af4d344e49c454344c8","notes":"Exactly five pinned Vrindavan blockers verified. No full sweep, A/B/C reassessment, GOUD context or controller transition performed."}
+{"event_id":"EVT-0009","run_id":"VRINDAVAN-SUPPLEMENT-001","event_type":"TRANSITION_CLAIMED","at":"2026-07-14T00:20:00+02:00","actor":"SUBREGIE_INDIA","transition":"ZILVER_COMPLETE_TO_READY_FOR_GOUD","source_commit":"f2a67a3fdc628738ecf4e0d83ed51de312c085d0","expected_state":"ZILVER_COMPLETE","target_context_manifest":"research/active/VRINDAVAN-SUPPLEMENT-001/context/GOUD_CONTEXT.yaml","from_state":"ZILVER_COMPLETE","to_state":"TRANSITION_TO_GOUD_CLAIMED","notes":"Targeted ZILVER supplement validated for required artifacts, sentinels, exact five-blocker scope and source-ID integrity."}
+{"event_id":"EVT-0010","run_id":"VRINDAVAN-SUPPLEMENT-001","event_type":"CONTEXT_PREPARED","at":"2026-07-14T00:21:00+02:00","actor":"SUBREGIE_INDIA","transition":"ZILVER_COMPLETE_TO_READY_FOR_GOUD","source_commit":"f2a67a3fdc628738ecf4e0d83ed51de312c085d0","context_manifest":"research/active/VRINDAVAN-SUPPLEMENT-001/context/GOUD_CONTEXT.yaml","commit":"dc9d41209e74b518e138c3cf916411d60e28ed1a","notes":"Pinned complete targeted ZILVER output for final GOUD verification; no full cluster sweep permitted."}
+{"event_id":"EVT-0011","run_id":"VRINDAVAN-SUPPLEMENT-001","event_type":"TRANSITIONED","at":"2026-07-14T00:22:00+02:00","actor":"SUBREGIE_INDIA","transition":"ZILVER_COMPLETE_TO_READY_FOR_GOUD","from_state":"TRANSITION_TO_GOUD_CLAIMED","to_state":"READY_FOR_GOUD","source_commit":"f2a67a3fdc628738ecf4e0d83ed51de312c085d0","context_manifest":"research/active/VRINDAVAN-SUPPLEMENT-001/context/GOUD_CONTEXT.yaml","notes":"ZILVER supplement accepted as PARTIAL and targeted GOUD phase released."}
+{"event_id":"EVT-0012","run_id":"VRINDAVAN-SUPPLEMENT-001","event_type":"CLAIMED","at":"2026-07-13T23:40:00+02:00","actor":"ChatGPT-GOUD","role":"GOUD","claimed_by":"ChatGPT-GOUD","source_commit":"f2a67a3fdc628738ecf4e0d83ed51de312c085d0","expected_state":"READY_FOR_GOUD","output_path":"research/active/VRINDAVAN-SUPPLEMENT-001/GOUD/","from_state":"READY_FOR_GOUD","to_state":"GOUD_CLAIMED","notes":"Claimed after write access, synchronized state/event cursor, complete required context and all ten pinned ZILVER blob SHA checks passed."}
+{"event_id":"EVT-0013","run_id":"VRINDAVAN-SUPPLEMENT-001","event_type":"GOUD_COMPLETED","at":"2026-07-13T23:44:00+02:00","actor":"ChatGPT-GOUD","role":"GOUD","result_status":"PARTIAL","source_commit":"f2a67a3fdc628738ecf4e0d83ed51de312c085d0","output_manifest":"research/active/VRINDAVAN-SUPPLEMENT-001/GOUD/manifest.yaml","from_state":"GOUD_CLAIMED","to_state":"GOUD_PARTIAL","artifact_commit":"85127c2bd35fe9bb8010a5b76eb676f749e748ec","state_commit":"afd6bbc3bd1fae0ed8b81c3b33d3a48417bad750","completion_destination":"VOOR_SUBREGIE_INDIA","notes":"Definitive quality gate applied only to the five pinned blockers. GOUD supplement completed as PARTIAL; no archiving, regisseur processing, protocol change or A/B/C assessment executed."}
+{"event_id":"EVT-0014","run_id":"VRINDAVAN-SUPPLEMENT-001","event_type":"REGISSEUR_PACKAGE_PREPARED","at":"2026-07-14T08:08:00+02:00","actor":"SUBREGIE_INDIA","role":"SUBREGIE_INDIA","from_state":"GOUD_PARTIAL","to_state":"GOUD_PARTIAL","worker_completioncommit":"41d6f7dd326df6daa0afae8d9fba646ff3870825","artifact_commit":"85127c2bd35fe9bb8010a5b76eb676f749e748ec","validation":"research/active/VRINDAVAN-SUPPLEMENT-001/transitions/SUBREGIE_FINAL_VALIDATION.md","package":"research/active/VRINDAVAN-SUPPLEMENT-001/transitions/INDIA2_REGISSEUR_PACKAGE.md","technical_integrity":"PASS","completion_destination":"VOOR_INDIA2","notes":"GOUD PARTIAL supplement technically validated. Exact five-blocker scope, source-ID integrity and uncertainty disposition confirmed; clean INDIA2 package prepared. No archiving or A/B/C action performed."}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1211 path=research/active/VRINDAVAN-SUPPLEMENT-001/run.yaml blob_sha=a2531a21a7e048cfd6c44a6eb9f1158a0a723e75 original_offset=0 original_length=1257 payload_bytes=1257 chunk_index=0 chunk_count=1 classification=text
+run_id: VRINDAVAN-SUPPLEMENT-001
+project: india
+run_type: TARGETED_SUPPLEMENT
+parent_run: VRINDAVAN-INTEGRATION-001
+scope_file: research/active/VRINDAVAN-SUPPLEMENT-001/scope.md
+created_at: 2026-07-13T23:20:00+02:00
+created_by: SUBREGIE_INDIA
+immutable_after_first_claim: true
+pins:
+  entrypoint: pipeline/ENTRYPOINT.md
+  methodology: knowledge/methodology/METHODOLOGY_V2.md
+  overlays: knowledge/project/OVERLAYS_INDIA.md
+  execution_protocol: pipeline/protocols/EXECUTION_PROTOCOL.md
+  context_protocol: pipeline/protocols/CONTEXT_PROTOCOL.md
+  controller_transition_protocol: pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md
+  evidence_protocol: pipeline/protocols/EVIDENCE_PROTOCOL.md
+  self_routing_protocol: pipeline/protocols/SELF_ROUTING_PROTOCOL.md
+  quality_gate: pipeline/QUALITY_GATE.md
+  roles:
+    BRONS: pipeline/roles/BRONS.md
+    ZILVER: pipeline/roles/ZILVER.md
+    GOUD: pipeline/roles/GOUD.md
+versions:
+  pipeline: 2.4.0
+  methodology: 2.0.0
+source_base_commit: 93f2c3a1ef29c1903f8145df67e496392be31426
+predecessor:
+  run_id: VRINDAVAN-INTEGRATION-001
+  role: GOUD
+  status: PARTIAL
+  completion_commit: 5c0f37a31547f9e62bb1fc94965d1ccd4cf5bb80
+  manifest: research/active/VRINDAVAN-INTEGRATION-001/GOUD/manifest.yaml
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1212 path=research/active/VRINDAVAN-SUPPLEMENT-001/scope.md blob_sha=3457f82b475e126c05c1bcd3028f37e5f4deb5d1 original_offset=0 original_length=1767 payload_bytes=1767 chunk_index=0 chunk_count=1 classification=text
+# Scope — VRINDAVAN-SUPPLEMENT-001
+
+Doel: uitsluitend de vijf door INDIA2 vastgestelde blockers uit het gevalideerde GOUD-PARTIAL-dossier van `VRINDAVAN-INTEGRATION-001` gericht aanvullen.
+
+## Verplichte onderzoeksvragen
+
+1. AOAY-dubbele verificatie van de exacte Keshavanand/Vrindavan-locatie: een gecontroleerde editiepassage plus afzonderlijke verificatie van de identiteit van de huidige fysieke plek.
+2. Actuele bezoekbaarheid, beperkingen en openingstoestand van alle acht bestaande kandidaten: KP-01, NKB-01, KJ-01, RK-01, SK-01, GH-01, GP-01 en KS-01.
+3. Actueel officieel beheer en terugkerende levende praktijk van Neem Karoli Baba Ashram Vrindavan.
+4. Objectniveau operationeel beheer van Radha Kund, Shyam Kund, Govardhan Hill, Govardhan Parikrama en Kusum Sarovar.
+5. Objectniveau terugkerende levende praktijk bij Kusum Sarovar.
+
+## Harde begrenzing
+
+- Geen volledige clustersweep herhalen.
+- Geen nieuwe algemene kandidateninventarisatie.
+- Geen nieuwe regio-, route-, hotel-, vervoer- of prijsanalyse.
+- Geen A/B/C-status toekennen of bestaande waarderingen wijzigen.
+- Het bestaande GOUD-dossier is uitsluitend gepinde predecessorcontext.
+- Nieuwe kandidaten worden alleen genoemd wanneer zij strikt noodzakelijk zijn om een van de vijf blockers te verklaren; zij worden niet als nieuwe projectkandidaat opgenomen.
+- Niet opgeloste blockers blijven expliciet `NOT_ESTABLISHED` of gebruiken de verplichte bezoekbaarheidszin.
+
+## Verwachte fasen
+
+BRONS maakt een gerichte aanvullingsinventaris per blocker. ZILVER controleert uitsluitend die aanvullingen en de koppeling met de predecessorclaims. GOUD levert een nieuwe volledige supplementbeslissing die exact aangeeft welke blockers zijn opgelost, verlaagd of ongewijzigd gebleven.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1213 path=research/active/VRINDAVAN-SUPPLEMENT-001/state.yaml blob_sha=0e8efc21febe2719387a76b9868be29586526006 original_offset=0 original_length=903 payload_bytes=903 chunk_index=0 chunk_count=1 classification=text
+run_id: VRINDAVAN-SUPPLEMENT-001
+state: GOUD_PARTIAL
+active_role: null
+claim: null
+last_event_id: EVT-0014
+last_validated_commit: 85127c2bd35fe9bb8010a5b76eb676f749e748ec
+technical_integrity: PASS
+subregie_validation: research/active/VRINDAVAN-SUPPLEMENT-001/transitions/SUBREGIE_FINAL_VALIDATION.md
+regisseur_package: research/active/VRINDAVAN-SUPPLEMENT-001/transitions/INDIA2_REGISSEUR_PACKAGE.md
+completion_destination: VOOR_INDIA2
+blockers:
+  - Controlled SRF/YSS AOAY edition passage with stable metadata remains unavailable.
+  - Authoritative current visitability remains incomplete for all eight candidates.
+  - Official NKB Vrindavan operating management, recurring practice and visitor rules remain unresolved.
+  - Exclusive object-level daily management remains unresolved for distributed objects.
+  - Separate recurring object-level Kusum Sarovar practice remains unresolved.
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1214 path=research/active/VRINDAVAN-SUPPLEMENT-001/transitions/INDIA2_REGISSEUR_PACKAGE.md blob_sha=a550d18fc281d11c2b6da71d20f9f7c28095f603 original_offset=0 original_length=3036 payload_bytes=3036 chunk_index=0 chunk_count=1 classification=text
+# INDIA2-REGISSEURSPAKKET — Vrindavan aanvullende verificatie
+
+run_id: VRINDAVAN-SUPPLEMENT-001
+GOUD_status: PARTIAL
+GOUD_completioncommit: 41d6f7dd326df6daa0afae8d9fba646ff3870825
+manifest: research/active/VRINDAVAN-SUPPLEMENT-001/GOUD/manifest.yaml
+report_index: research/active/VRINDAVAN-SUPPLEMENT-001/GOUD/report/INDEX.md
+technische_integriteit: PASS
+
+## In gewone mensentaal
+
+De aanvullende ronde heeft de vijf resterende vragen opnieuw en uitsluitend gericht onderzocht. Het bestaande Vrindavan-dossier blijft betrouwbaar bruikbaar, maar de vijf onzekerheden konden met openbaar toegankelijke online bronnen niet volledig worden opgelost.
+
+Er zijn wel twee belangrijke verduidelijkingen bereikt:
+
+1. De huidige fysieke plek van Katyayani Peeth/Keshav Ashram in Vrindavan is officieel bevestigd door Katyayani Trust. De koppeling met de passage in *Autobiography of a Yogi* blijft echter slechts mogelijk, omdat geen gecontroleerde SRF/YSS-editiepassage met stabiele editiegegevens is verkregen.
+2. De Uttar Pradesh Braj Teerth Vikas Parishad heeft aantoonbaar een officiële regionale rol bij planning, behoud, ontwikkeling en coördinatie in Braj. Dat bewijst publieke betrokkenheid, maar niet wie ieder afzonderlijk object dagelijks beheert.
+
+Voor Kusum Sarovar is bevestigd dat het deel uitmaakt van de levende Govardhan-parikramacontext. Dit bewijst herhaalde pelgrimspassage, maar niet een afzonderlijke vaste rituele praktijk die specifiek bij Kusum Sarovar wordt georganiseerd.
+
+## Open gebleven
+
+- Voor geen van de acht kandidaten is een volledig, actueel en gezaghebbend pakket van openingstoestand, beperkingen en toegangsregels verkregen.
+- Het actuele officiële beheer, de terugkerende praktijk en de bezoekersregels van Neem Karoli Baba Ashram Vrindavan zijn niet betrouwbaar vastgesteld.
+- De exclusieve dagelijkse beheerder van Radha Kund, Shyam Kund, Govardhan Hill, Govardhan Parikrama en Kusum Sarovar is niet vastgesteld.
+- Een afzonderlijke terugkerende objectpraktijk bij Kusum Sarovar is niet vastgesteld.
+- De gecontroleerde AOAY-editiepassage ontbreekt.
+
+## Betekenis voor het project
+
+- Geen kandidaat hoeft op grond van deze aanvullende ronde te worden verwijderd.
+- Er is geen basis om A/B/C toe te kennen of bestaande waarderingen te wijzigen.
+- De onzekerheden moeten zichtbaar in het uiteindelijke Vrindavan-rapport blijven.
+- Nog een algemene online sweep heeft waarschijnlijk weinig meerwaarde. Verdere sluiting vereist eerder een gecontroleerde boekeditie, rechtstreeks contact met instellingen/beheerders of verificatie kort voor of tijdens de reis.
+
+## Vereiste actie van INDIA2
+
+Verwerk het oorspronkelijke GOUD-dossier en dit supplement samen tot één begrijpelijk inhoudelijk Vrindavan-rapport voor Mark. Scheid daarin duidelijk:
+
+- wat betrouwbaar bevestigd is;
+- wat aannemelijk maar niet definitief bevestigd is;
+- wat vóór een bezoek rechtstreeks moet worden gecontroleerd.
+
+Geen technische pipeline-uitleg opnemen in Marks rapport.
+
+Aanbevolen vervolg: VERWERKEN.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1215 path=research/active/VRINDAVAN-SUPPLEMENT-001/transitions/SUBREGIE_FINAL_VALIDATION.md blob_sha=d38c1adab2617e35fe85844352485b90c42636d7 original_offset=0 original_length=1402 payload_bytes=1402 chunk_index=0 chunk_count=1 classification=text
+# SUBREGIE INDIA — technische eindvalidatie
+
+run_id: VRINDAVAN-SUPPLEMENT-001
+validated_role: GOUD
+validated_status: PARTIAL
+worker_completioncommit: 41d6f7dd326df6daa0afae8d9fba646ff3870825
+artifact_commit: 85127c2bd35fe9bb8010a5b76eb676f749e748ec
+technical_integrity: PASS
+validated_at: 2026-07-14T08:08:00+02:00
+
+## Validatie
+
+- `state.yaml` en `events.jsonl` zijn synchroon op `EVT-0013`.
+- De run staat op `GOUD_PARTIAL`; er is geen actieve rol en geen actieve claim.
+- Manifest, `COMPLETED`, handoff en decision stemmen overeen op status `PARTIAL`.
+- Alle verplichte GOUD-artifacts bestaan en bevatten de eindsentinel.
+- De uitvoering bleef beperkt tot exact de vijf gepinde Vrindavan-blockers.
+- Alle zeven claimverwijzingen resolven naar unieke accepted of rejected source-ID's.
+- De acht bestaande kandidaten, grenzen en onzekerheden zijn behouden.
+- Geen A/B/C-status, rangorde, route-, verblijf- of prijsadvies is toegevoegd.
+- Geen archivering is uitgevoerd.
+
+## Eindbesluit
+
+De aanvullende GOUD-uitkomst is technisch betrouwbaar en mag naar INDIA2 voor inhoudelijke verwerking. `PARTIAL` is de correcte status: de vijf vragen zijn scherper afgebakend, maar geen van de vijf is volledig gesloten op het vereiste bewijsniveau.
+
+## Routering
+
+Volgende bestemming: INDIA2.
+Regisseurspakket: `research/active/VRINDAVAN-SUPPLEMENT-001/transitions/INDIA2_REGISSEUR_PACKAGE.md`.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1216 path=sources/SOURCE-0001-autobiography-of-a-yogi.md blob_sha=7bbb6ac83a095ebab1ddca4b91366cef901eb0e2 original_offset=0 original_length=854 payload_bytes=854 chunk_index=0 chunk_count=1 classification=text
+---
+id: SOURCE-0001
+type: "boek"
+title: "Autobiography of a Yogi"
+author: "Paramahansa Yogananda"
+url: ""
+accessed_at: "2026-06-22"
+reliability: "primair"
+supports: ["PLACE-0001", "PERSON-0001", "PERSON-0002"]
+created_by: "Claude"
+created_at: "2026-06-22"
+---
+
+# Autobiography of a Yogi
+
+## Wat deze bron vaststelt
+Het boek beschrijft de inwijding van Lahiri Mahasaya door Mahavatar Babaji in de Himalaya bij Dunagiri en vormt de kernoverlevering voor de Kriya-lijn en de daaraan verbonden plekken.
+
+## Betrouwbaarheid
+Primaire bron binnen de traditie zelf, geschreven door een directe lijn-afstammeling. Devotioneel van aard: de gebeurtenissen zijn overlevering, geen onafhankelijk geverifieerde geschiedenis. Zwaar in spiritueel gewicht, voorzichtig te hanteren wat historische exactheid betreft.
+
+## Verwijzingen
+PLACE-0001, PERSON-0001, PERSON-0002.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1217 path=sources/SOURCE-0002-yss-dwarahat.md blob_sha=e627ace07456785956102d7ec6917a8fcda2e480 original_offset=0 original_length=849 payload_bytes=849 chunk_index=0 chunk_count=1 classification=text
+---
+id: SOURCE-0002
+type: "organisatie-website"
+title: "Yogoda Satsanga Society of India - Dwarahat Ashram en Babaji-grot"
+author: "Yogoda Satsanga Society of India"
+url: "https://yssofindia.org"
+accessed_at: "2026-06-22"
+reliability: "lijn-organisatie"
+supports: ["PLACE-0001"]
+created_by: "Claude"
+created_at: "2026-06-22"
+---
+
+# Yogoda Satsanga Society of India - Dwarahat Ashram en Babaji-grot
+
+## Wat deze bron vaststelt
+De officiele organisatie in de lijn van Yogananda onderhoudt een ashram bij Dwarahat en een gedenkschrijn bij de Babaji-grot, en geeft aan dat de schrijn primair voor meditatie door leerlingen toegankelijk is.
+
+## Betrouwbaarheid
+Officiele bron van de lijn-organisatie zelf; gezaghebbend voor toegang, locatie en faciliteiten, maar belanghebbend wat de devotionele framing van de plek betreft.
+
+## Verwijzingen
+PLACE-0001.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1218 path=templates/AUDIT_TEMPLATE.md blob_sha=7ee7770cf53195c688be4cfcb9fcd836cb7f0a9b original_offset=0 original_length=563 payload_bytes=563 chunk_index=0 chunk_count=1 classification=text
+---
+id: AUDIT-0000
+subject: ""
+type: ""
+status: open
+raised_by: ""
+raised_at: ""
+related_places: []
+related_persons: []
+related_sources: []
+resolved_by_decision: null
+---
+
+# AUDIT {id}: {korte titel}
+
+## De kwestie
+Wat is precies de twijfel, het conflict of de kritiek.
+
+## Posities
+- Standpunt A (met onderbouwing en bronverwijzing)
+- Standpunt B (met onderbouwing en bronverwijzing)
+
+## Wat nog onbeslist is
+Concreet benoemen wat een besluit nodig heeft.
+Een kunstmatig intelligentiesysteem sluit dit niet zelf af.
+Alleen Mark beslist, via een DECISION-record.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1219 path=templates/DECISION_TEMPLATE.md blob_sha=1053522969899c9887b51a6c868387c9fd6dbf1a original_offset=0 original_length=839 payload_bytes=839 chunk_index=0 chunk_count=1 classification=text
+---
+id: DECISION-0000
+subject: ""
+decided_by: "Mark"
+decided_at: ""
+outcome: ""
+applies_to_place: ""
+supersedes: null
+based_on_audits: []
+based_on_sources: []
+---
+
+# DECISION {id}: {korte titel}
+
+## Besluit
+De definitieve keuze, voluit. Bij een waardering: welke (A/B/C) en op
+welke PLACE deze van toepassing is.
+
+## Onderbouwing
+Waarom dit besluit, herleidbaar tot de AUDIT- en SOURCE-records hierboven.
+
+## Gevolg
+Werk het veld `status` en `decided_by_decision` op het betreffende PLACE-record
+bij zodat de spiegel klopt. Eerdere besluiten worden niet verwijderd, maar via
+`supersedes` aan elkaar geketend voor reproduceerbaarheid.
+
+## Waarderingslegenda (door Mark beheerd)
+A = zeker bezoeken
+B = interessant, Mark beslist later
+C = gezien en bewust verworpen (niet bezoeken, wel bewaren)
+U = onbeoordeeld (werkstatus, geen waardering)
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1220 path=templates/EXTERNAL_CLUSTER_SWEEP_PROMPT.md blob_sha=e258ff99d93640cb3978a8f6c0e38db789b53418 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+# EXTERNAL_CLUSTER_SWEEP_PROMPT - Generiek sweep-protocol voor externe onderzoekers
+
+> **STATUS: TOOL TEMPLATE**
+>
+> Dit bestand bevat geen projectwaarheid en mag nooit als bron van projectfeiten worden gebruikt.
+>
+> Alle projectinhoud wordt per sweep door INDIA 2 uit de actuele GitHub-repository ingevuld.
+>
+> **Bij een conflict tussen dit template en de repository is de repository altijd leidend.**
+>
+> Doel: zelfstandige opdrachten genereren voor externe AI-onderzoekers zonder GitHub-toegang.
+
+## Waarom dit bestand bestaat
+
+Externe consumenten-AI's (Perplexity, Gemini, DeepSeek, Copilot) kunnen een GitHub-repository niet betrouwbaar lezen. DeepSeek beweerde het te kunnen en loog; Copilot bleek het niet te kunnen. Daarom krijgen externe onderzoekers **geen GitHub-opdracht**, maar een volledig zelfstandige prompt waarin INDIA 2 alle context heeft ingevuld.
+
+Voor AI's die GitHub WEL kunnen lezen (INDIA 2, Claude) blijft `GENERIC_CLUSTER_SWEEP_STARTPROMPT.md` in de hoofdmap de juiste prompt.
+
+## Wat de eerste sweep leerde (verwerkt in dit protocol)
+
+De eerste Vrindavan-sweep met drie AI's mislukte op vier punten (zie LESSONS 9-12):
+- de controlelijst werd een plafond: alle drie leverden precies de lijst terug, nul eigen vondsten;
+- geen enkele AI gaf bronlinks, omdat er geen consequentie op stond;
+- de tellingsectie werd genegeerd omdat hij achteraan stond;
+- de prioriteitsindex werd niet systematisch langsgelopen.
+
+Dit protocol corrigeert alle vier. **Wijzig de structuur niet zonder reden** - elk onderdeel lost een bewezen faalmodus op.
+
+## Rolverdeling
+- GitHub = de waarheid
+- INDIA 2 (ChatGPT) = regisseur; leest GitHub, vult dit protocol in, vergelijkt de rapporten
+- Claude = curator; controleert repository-delta, schrijft alleen na Marks besluit
+- Externe AI's = onderzoekers; lezen alleen, schrijven nooit, kennen geen waarderingen toe
+- Mark = enige beslisser en enige beoordelaar
+
+---
+
+## HET PROTOCOL
+
+INDIA 2 vult alle `{{...}}` in en levert het resultaat als één kopieerbaar codeblok. Mark plakt dat blok ongewijzigd in elke externe AI.
+
+```text
+Jij voert één afgebakende BASIS-SWEEP uit voor een spirituele pelgrimsreis door India.
+
+Je hebt GEEN GitHub-toegang nodig. Alle context staat hieronder.
+Je taak is uitsluitend actueel internetonderzoek met controleerbare bronnen.
+
+=== BRONREGELS (hier valt of staat je rapport) ===
+
+VERPLICHT PER KANDIDAAT
+Elke kandidaat in sectie B moet minimaal één PRIMAIRE of INSTITUTIONELE bron hebben
+met een aanklikbare link. Alleen wanneer zo'n bron aantoonbaar niet bestaat, mag je
+één SECUNDAIRE bron gebruiken - expliciet vermeld en gemotiveerd.
+
+Een kandidaat met alleen een ZWAKKE bron hoort NIET in sectie B of C, maar uitsluitend
+in sectie F.
+
+BRONHIERARCHIE (label elke bron)
+- PRIMAIR: officiële tempel-, ashram- of beheerderswebsite; primair geschrift;
+  institutioneel archief.
+- INSTITUTIONEEL: overheid, Archaeological Survey of India, museum,
+  erfgoedorganisatie, universiteit.
+- SECUNDAIR: serieuze journalistiek, gepubliceerd historisch onderzoek.
+- ZWAK: reisblog, YouTube, commerciële reissite, forum. (Alleen sectie F.)
+
+GELDEN NIET ALS BRON
+- Google Search-resultaten, AI-overzichten, zoekpagina's.
+- Wikipedia - gebruik het als navigatie NAAR de oorspronkelijke bron, en citeer die.
+- Commerciële reis- of boekingssites voor historische of spirituele claims.
+
+LINK NAAR DE JUISTE PAGINA
+Een algemene homepage geldt alleen als bron wanneer de relevante informatie daar
+direct zichtbaar is. Link anders naar de specifieke onderliggende pagina.
+
+BRONONDERSTEUNING PER FEIT, NIET ALLEEN PER PLEK
+Praktische en historische gegevens - openingstijden, bouwjaar, oprichtingsjaar,
+afstanden, reistijden, verblijfsmogelijkheden, historische gebeurtenissen - mag je
+alleen noemen als de aangehaalde bron die informatie daadwerkelijk bevat. Vul niets
+aan uit eigen kennis. Weet je het niet: schrijf "niet gevonden in bron".
+
+NEGATIEVE RESULTATEN ZIJN GELDIG EN VERPLICHT
+Heb je bewust gezocht en niets betrouwbaars gevonden: meld dat expliciet. "Niets
+gevonden" is een goed antwoord. Vul nooit op om 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1221 path=templates/EXTERNAL_CLUSTER_SWEEP_PROMPT.md blob_sha=e258ff99d93640cb3978a8f6c0e38db789b53418 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+een sectie te vullen. Blaas niets op.
+Presenteer geen alias als nieuwe vondst.
+
+=== PROJECTCONTEXT ===
+{{PROJECT_CONTEXT}}
+(doel van de reis; reisperiode; spirituele lijn van Mark)
+
+Het onderzoeksobject is ALTIJD de fysiek bestaande, bezoekbare plek. Personen en
+lijnen zijn alleen DETECTOREN om plekken te vinden.
+
+Centrale vraag: niet "welke beroemde heiligen horen bij dit gebied?" maar
+"Welke fysieke plek heeft betekenis wanneer Mark daar werkelijk staat?"
+
+Ken GEEN waarderingen toe. Dat doet alleen Mark.
+
+=== AOAY - DWINGEND IN ELK CLUSTER ===
+"Autobiography of a Yogi" van Paramahansa Yogananda is de kernbron van dit project.
+
+VERPLICHTE CONTROLE: zoek systematisch of er in of rond dit cluster plekken liggen die
+in de AOAY voorkomen - hoe klein of terloops ook genoemd.
+
+Denk aan: tempels waar Yogananda iemand bezocht; huizen waar hij logeerde; plaatsen
+waar hij een heilige ontmoette; plekken waar een gebeurtenis uit het boek zich
+afspeelde; verblijfplaatsen van Sri Yukteswar, Lahiri Mahasaya of Babaji; en van
+heiligen die maar één hoofdstuk lang voorkomen.
+
+UITZONDERING OP DE GROOTTE-REGEL: bij AOAY-plekken telt grootte NIET. Een klein,
+onbekend tempeltje waar Yogananda werkelijk geweest is, is voor Mark een bestemming.
+De fysieke voetstap maakt de plek, niet de omvang of bekendheid.
+
+Is zo'n plek nog fysiek te bezoeken - ook al is het een straat, een huis, of een
+tempeltje dat niemand kent - dan MOET Mark erop gewezen worden.
+
+Meld expliciet in sectie D, ook als het antwoord nee is.
+
+=== PRIORITEITSINDEX (detectoren, geen filter) ===
+{{PRIORITY_INDEX}}
+
+DRIE REGELS, IN DEZE VOLGORDE:
+
+1. DE KRACHT VAN DE PLEK WEEGT HET ZWAARST - niet de positie van de persoon. Een
+   kleine, onbeduidende plek van een hoog geplaatste persoon weegt minder dan een
+   grote, levende, betekenisvolle plek van een lager geplaatste persoon.
+
+2. DE POSITIE IS EEN WEEGFACTOR BIJ GELIJKE PLEK-KRACHT, geen automatische rangorde.
+   Een lage positie betekent niet dat de persoon minder waard is.
+
+3. DE INDEX IS NIET UITPUTTEND. Vind je een krachtige plek van een heilige, traditie
+   of religie die NIET in deze lijst staat - meld hem toch. Mark wil daar mogelijk
+   ook heen. De index helpt plekken VINDEN; hij sluit niets uit.
+
+=== DOELCLUSTER ===
+{{CLUSTER}}
+(naam; kernplaatsen; vorige cluster; volgende cluster; bijzondere context, zoals:
+welke plaatsen zijn nog niet gekozen en moeten zichzelf bewijzen)
+
+=== AL VASTGELEGD (niet herbeoordelen, wel bronmateriaal leveren) ===
+{{CURRENT_STATUS}}
+(bestaande A/B/C-locaties in dit cluster; wat nog helemaal open is)
+
+Lever voor de al vastgelegde plekken bronnen en fysieke status. Geef GEEN waardering
+en GEEN advies over hun status.
+
+=== ZOEK ACTIEF BUITEN DE CONTROLELIJST ===
+De controlelijst (sectie G) is de ONDERGRENS, niet het werk. Zoek gericht naar plekken
+die er NIET op staan: kleine ashrams, samadhi-plaatsen, minder bekende ghats,
+verblijfplaatsen van heiligen, AOAY-plekken, plekken die alleen in lijn-eigen bronnen
+voorkomen.
+
+Vind je er weinig of geen met voldoende bronkwaliteit: meld dat eerlijk. Een korte,
+goed onderbouwde lijst is beter dan een lange lijst met zwakke vondsten.
+
+=== HARD ONDERSCHEID (verplicht per bewering) ===
+FEIT: verifieerbaar (historisch, geografisch, praktisch), met bron.
+TRADITIECLAIM: overgeleverd door een lijn of gemeenschap, niet onafhankelijk
+vastgesteld. Noem altijd WELKE traditie de claim draagt.
+
+Presenteer nooit een moderne gedenkplek, vijver, boom of tempel als de ongewijzigde
+oorspronkelijke gebeurtenisplek, tenzij een bron dat aantoont.
+
+Een groot verhaal zonder fysiek aanwijsbare, bezoekbare plek haalt de
+bezoekbaarheidspoort niet.
+
+=== WAT JE NIET DOET ===
+Geen waarderingen toekennen of adviseren. Geen hotels, nachten, dagplanning, route of
+vervoer. Geen prijzen of kamers vergelijken. Niet aannemen dat Mark alle gevonden
+plekken bezoekt. Geen traditieclaim als feit presenteren.
+
+=== GEWENSTE UITVOER ===
+
+A. TELLING
+Zet deze sectie bovenaan je antwoord, maar vul hem pas in NADAT je onderzoek af is.
+- Aantal kandidaten in sectie B: ...
+- Waarvan met primaire of
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1222 path=templates/EXTERNAL_CLUSTER_SWEEP_PROMPT.md blob_sha=e258ff99d93640cb3978a8f6c0e38db789b53418 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+ institutionele bron: ...
+- Waarvan met alleen een secundaire bron (met motivatie): ...
+- Aantal kandidaten buiten de vaste controlelijst: ...
+- Aantal namen uit de vaste controlelijst behandeld: ... van {{AANTAL_CONTROLELIJST}}
+- Aantal keer "niets betrouwbaars gevonden": ...
+- AOAY-plekken gevonden: ...
+
+B. KANDIDATENKAART
+Per fysieke plek, precies deze velden:
+
+NAAM:
+ALIASES:
+LAAG: kern / clusterzone (ongeveer 2 uur) / routecorridor
+STATUS: bestaande waardering indien bekend, anders "nieuw"
+WAT IS HET:
+DETECTOR (welke persoon of lijn - of: AOAY, hoofdstuk indien bekend):
+UNIEKE INHOUD (wat voegt deze plek toe dat een andere niet heeft):
+FYSIEK BEZOEKBAAR:
+FEIT vs TRADITIECLAIM (scheid expliciet):
+BRON (aanklikbare link naar de specifieke pagina):
+BRONKWALITEIT: primair / institutioneel / secundair
+ZEKERHEID: hoog / middel / laag
+  (ZEKERHEID gaat over de bewijssterkte van de fysieke en historische gegevens, NIET
+  over de religieuze waarheid van een traditieclaim.)
+
+C. VONDSTEN BUITEN DE CONTROLELIJST
+Tabel, GEEN herhaling van de volledige velden uit B:
+| Naam | Verwijzing naar B | Waarom buiten de lijst gevonden | Gebruikte zoekrichting |
+
+Vond je er geen of weinig met voldoende bronkwaliteit: zeg dat, en beschrijf welke
+zoekrichtingen je hebt geprobeerd.
+
+D. AOAY-CONTROLE (verplicht, ook bij negatief resultaat)
+"AOAY-controle uitgevoerd. Gecontroleerd: [wat je hebt onderzocht]. Gevonden:
+[plekken met verwijzing naar B, of: geen bezoekbare AOAY-plekken in dit cluster]."
+
+E. PRIORITEITSINDEX-TABEL (alle personen, geen veld leeg)
+| # | Persoon | Fysieke plek in dit cluster? | Welke | Bron | Bronkwaliteit |
+Loop de hele index langs. "Nee, niets gevonden" is een geldig en gewenst antwoord.
+
+Noem hier ook plekken van heiligen of tradities BUITEN de index die je krachtig genoeg
+vindt om te melden (regel 3).
+
+F. ONZEKER OF ONGEVERIFIEERD
+Plekken die je tegenkwam maar niet kon staven met een aanvaardbare bron, of die alleen
+een zwakke bron hebben. Noem ze hier, niet in B. Vermeld wat je wél vond en waarom het
+onvoldoende is.
+
+G. CONTROLELIJST - AFVINKEN
+{{CONTROLELIJST}}
+(per plaats de bekende namen; INDIA 2 stelt deze samen uit GitHub en eigen kennis;
+vermeld het aantal per plaats)
+
+Behandel elke naam. Zeg per naam: zelfstandige kandidaat / onderdeel van groter
+complex / alias / geen fysieke plek / bewust weggelaten (met reden).
+
+H. DUBBELINGEN OPLOSSEN
+{{DUBBELINGEN}}
+(clusterspecifieke dubbelingsvragen; INDIA 2 formuleert deze op basis van bekende
+alias- en complexrisico's in dit cluster)
+
+Neem niet elke beroemde tempel automatisch op. Toon per kandidaat welke UNIEKE inhoud
+hij toevoegt.
+
+I. ASHRAMS - ROUTEVORMENDE TOETS
+Onderzoek ashrams niet als goedkoop hotel, maar als mogelijke spirituele
+verblijfservaring. Per ashram: relatie met de prioriteitsindex of AOAY; historisch
+origineel of modern centrum; dagbezoek, gastenverblijf of retreat; kan verblijf de
+inhoud of duur van het cluster veranderen; wat moet later nog worden geverifieerd.
+
+{{ASHRAMS_MINIMAAL}}
+(minimaal te behandelen ashrams in dit cluster)
+
+Vergelijk geen kamers of prijzen.
+
+J. BASISCONCLUSIE
+1. Is de kandidatenkaart compleet genoeg om Mark de locaties te laten beoordelen?
+2. Maximaal vijf open onderzoeksvragen die dat nog blokkeren.
+3. Welke plekken lijken inhoudelijk uniek? (geen waarderingsadvies)
+
+Eindig met exact één van deze regels:
+BASIS-SWEEP COMPLEET
+BASIS-SWEEP NOG NIET COMPLEET - BLOKKERS: <maximaal vijf>
+```
+
+---
+
+## Vergelijkprotocol (na ontvangst van meerdere rapporten)
+
+Gebruik hiervoor een APARTE, wegwerpbare chat - niet INDIA 2. Meerdere lange rapporten vullen de context, en INDIA 2 moet schoon blijven voor de regie.
+
+Scoor elke AI op zes punten:
+
+| Controle | Wat je beoordeelt |
+|---|---|
+| Recall | Aantal kandidaten; aantal controlelijst-namen behandeld; unieke vondsten die anderen missen |
+| Bronkwaliteit | Aanklikbare links? Primair/institutioneel of overwegend blogs? Kandidaten zonder bron? |
+| Hallucinatie | Verdacht precieze data zonder bron? Traditieclaims als feit? Plekken die geen enkele andere AI kent? |
+| Structuurdiscipline
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1223 path=templates/EXTERNAL_CLUSTER_SWEEP_PROMPT.md blob_sha=e258ff99d93640cb3978a8f6c0e38db789b53418 original_offset=12288 original_length=717 payload_bytes=717 chunk_index=3 chunk_count=4 classification=text
+ | Uitvoerstructuur gevolgd? Afgekapt? Velden opgevuld met lege frasen? |
+| Feit vs traditieclaim | Consequent onderscheiden, of alleen waar het makkelijk is? |
+| Dubbelingen | Zijn de gestelde dubbelingsvragen opgelost? Wordt één complex kunstmatig als meerdere bestemmingen geteld? |
+
+Beslisregels:
+- Een vondst die maar één AI heeft, blijft behouden als kandidaat - dat is de winst van meerdere onderzoekers. Maar markeer hem als te verifiëren.
+- Tegenspraak over een feit: INDIA 2 zoekt uit, of het wordt een open vraag.
+- Een AI die plekken verzint of geen bronnen geeft is ongeschikt, hoe uitgebreid zijn rapport ook oogt.
+- Een AI die weigert te werken zonder zoekresultaten (zoals Copilot deed) valt af.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1224 path=templates/PERSON_TEMPLATE.md blob_sha=08b98bf7d92b9a3538b6dffef8bfcb3cdcd4f513 original_offset=0 original_length=596 payload_bytes=596 chunk_index=0 chunk_count=1 classification=text
+---
+id: PERSON-0000
+name: ""
+role: detector
+lineage: ""
+relation: ""
+detects_places: []
+sources: []
+audits: []
+created_by: ""
+created_at: ""
+---
+
+# {name}
+
+## Wie is dit
+Korte feitelijke beschrijving. Geen heiligenencyclopedie: alleen wat nodig is
+om de plekken te begrijpen waar deze persoon naartoe wijst.
+
+## Welke plekken wijst deze persoon aan
+Som de PLACE-records op en leg per plek uit waarom deze persoon de aanwijzing is.
+
+## Plaats in de lijn
+Korte positionering in de afstamming, voor zover relevant voor plekselectie.
+
+## Bronnen en open punten
+Verwijs naar SOURCE- en AUDIT-records.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1225 path=templates/PLACE_TEMPLATE.md blob_sha=bc988e605b93aec3d757fc6943e0555a5c6eb249 original_offset=0 original_length=730 payload_bytes=730 chunk_index=0 chunk_count=1 classification=text
+---
+id: PLACE-0000
+name: ""
+type: ""
+status: ONGEMERKT
+decided_by_decision: null
+visitable: unknown
+axis: []
+detected_by: []
+sources: []
+audits: []
+decisions: []
+location:
+  region: ""
+  nearest_town: ""
+  coordinates: ""
+created_by: ""
+created_at: ""
+---
+
+# {name}
+
+## Wat is deze plek
+Korte feitelijke beschrijving van de fysieke locatie.
+
+## Waarom relevant
+Waarom deze plek mogelijk de moeite van het bezoeken waard is.
+Verwijs naar de detectoren (PERSON-records) die hierheen wijzen.
+
+## Wat is hier te zien
+Concreet: shrine, grot, oever, samadhi, bankje, gebouw.
+
+## Toegang en bezoekbaarheid
+Bereikbaarheid, openingstijden, beperkingen, seizoensaspecten.
+
+## Open punten
+Verwijs naar AUDIT-records met onopgeloste twijfel.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1226 path=templates/README.md blob_sha=e84735ac476e0a245ff1e61a66e7412587b2f098 original_offset=0 original_length=1449 payload_bytes=1449 chunk_index=0 chunk_count=1 classification=text
+# templates/ - Hulpmiddelen, geen projectwaarheid
+
+Deze map bevat gereedschap: recordsjablonen en promptsjablonen. **Geen enkel bestand in deze map bevat projectwaarheid.** Bij een conflict tussen een template en de gewone repositorybestanden is de repository altijd leidend.
+
+## Recordsjablonen (structuur voor nieuwe records)
+- `PLACE_TEMPLATE.md`
+- `PERSON_TEMPLATE.md`
+- `SOURCE_TEMPLATE.md`
+- `DECISION_TEMPLATE.md`
+- `AUDIT_TEMPLATE.md`
+
+## Promptsjablonen voor externe AI's zonder GitHub-toegang
+Externe consumenten-AI's (Perplexity, Gemini) kunnen een GitHub-repository niet betrouwbaar lezen. DeepSeek beweerde het te kunnen en loog; Copilot bleek het niet te kunnen. Daarom vult INDIA 2 (ChatGPT) deze sjablonen vers uit GitHub, zodat de externe AI een volledig zelfstandige opdracht krijgt en alleen internetonderzoek hoeft te doen.
+
+- `EXTERNAL_CLUSTER_SWEEP_PROMPT.md` - basissweep van een cluster (bestaat)
+
+Toekomstige sjablonen, aan te maken zodra ze werkelijk nodig zijn (nu bewust niet als leeg bestand aangemaakt, om verwarring te voorkomen):
+- `EXTERNAL_VERIFICATION_PROMPT.md` - gerichte verificatie van één claim of locatie
+- `EXTERNAL_COMPARISON_PROMPT.md` - vergelijking van twee concurrerende modules
+- `EXTERNAL_FACTCHECK_PROMPT.md` - feitcontrole van een specifieke historische claim
+
+Voor AI's die GitHub WEL kunnen lezen (INDIA 2, Claude) blijft `GENERIC_CLUSTER_SWEEP_STARTPROMPT.md` in de hoofdmap de juiste prompt.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1227 path=templates/SOURCE_TEMPLATE.md blob_sha=ddb23423dfc767059e3980b414a870c1ce23cc66 original_offset=0 original_length=464 payload_bytes=464 chunk_index=0 chunk_count=1 classification=text
+---
+id: SOURCE-0000
+type: ""
+title: ""
+author: ""
+url: ""
+accessed_at: ""
+reliability: ""
+supports: []
+created_by: ""
+created_at: ""
+---
+
+# {title}
+
+## Wat deze bron vaststelt
+Samenvatting in eigen woorden van wat de bron beweert over welke plek of persoon.
+Geen letterlijke lange citaten.
+
+## Betrouwbaarheid
+Waarom deze bron wel of niet zwaar weegt; eventuele tegenspraak met andere bronnen.
+
+## Verwijzingen
+Welke PLACE- en PERSON-records steunen op deze bron.
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1228 path=LOCKED_A.md blob_sha=32a63f129d06d53a08a7125942f99064c7d9300e original_offset=0 original_length=2516 payload_bytes=2516 chunk_index=0 chunk_count=1 classification=text
+# LOCKED_A - Door Mark definitief als A gekozen locaties
+
+A = bezoeken. Dit zijn de bestemmingen van de reis. Niet herwaarderen, niet opnieuw ranken, niet naar B of C verplaatsen. Alleen Mark wijzigt deze lijst. Verblijfsbases staan apart in CLUSTER_ANCHORS.md en zijn normaal geen A. B in LOCKED_B.md, C in LOCKED_C.md. Definities in METHODOLOGY.md.
+
+## Bodh Gaya
+1. Mahabodhi Tempel
+2. Bodhiboom
+
+## Varanasi
+4. Lahiri Mahasaya Samadhi
+5. Lahiri-huis
+6. Manikarnika Ghat
+8. Trailanga Swami-samadhi
+10. Anandamayi Ma Ashram
+11. Sarnath
+12. Kashi Vishwanath
+
+## Babaji / Dwarahat
+15. Babaji Cave
+16. Babaji Smriti Bhavan
+17. Dunagiri Tempel
+18. YSS Dwarahat Ashram
+
+## Kainchi / Almora
+19. Kainchi Dham
+20. Kasar Devi
+21. Crank's Ridge
+22. Kakrighat (= Karkateshwar Mahadev Temple, Shiva-tempel aan de Kosi; Vivekananda-meditatieplek augustus 1890)
+23. Jageshwar
+24. Hanuman Garhi
+29. Ramakrishna Kutir
+30. Chitai Golu Devta Temple
+36. Turiya Niwas - historische woonplek van Alfred "Sunyata" Sorensen; tevens LEADING CLUSTER_ANCHOR (slaapplaats en bestemming vallen hier samen vanwege eigen historische waarde)
+37. Bodh Ashram - voormalig landgoed van Evans-Wentz en daarna Lama Govinda; bezocht door Anandamayi Ma en Neem Karoli Baba; Beats bezochten Govinda hier
+
+Crank's Ridge-kern binnen dit cluster: 20 Kasar Devi + 21 Crank's Ridge + 36 Turiya Niwas + 37 Bodh Ashram vormen samen een aaneengesloten loopbaar A-cluster.
+
+## Vrindavan
+- Katyayani Peeth - A per DECISION-0004. Shakti Peeth én fysieke Kriya-lijnlocatie via oprichter Swami Keshavanand, discipel van Lahiri Mahasaya; Babaji-verbinding uitsluitend als traditieclaim van de eigen lijn.
+
+## Agra
+28. Taj Mahal bij zonsopgang
+
+## Kumaon (Haidakhan)
+46. Haidakhan Babaji Ashram (Haidakhan Vishwa Mahadham) - A per DECISION-0001. Bestemming bezoeken; ashramovernachting gewenst, aantal nachten OPEN (werkhypothese 3 nachten, nog geen definitief besluit). Identificatie Haidakhan Baba met Mahavatar Babaji niet als feit vastgelegd.
+
+27. Bhumiyadhar (eerste ontmoeting Ram Dass - Maharaj-ji) - bevestigd A per DECISION-0002. Op/bij het tempelterrein vond in 1967 Ram Dass' eerste ontmoeting met Neem Karoli Baba plaats (primaire bronnen: Ram Dass' eigen boeken).
+
+Totaal bevestigde A: 27 locaties.
+
+De nummering volgt CLUSTER_LOCATIONS.md waar een bestaand nummer beschikbaar is. Bewust niet als A: 3 Dungeshwari, 7 Dashashwamedh, 9 Bhaskarananda, 13 Kabir Math, 14 eerste ontmoeting Yogananda-Yukteswar, 25 Hotel Evelyn (CLUSTER_ANCHOR), 26 KK Sah huis.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1229 path=LOCKED_B.md blob_sha=5b48847d409910d6ec7e9156ac013814313464e8 original_offset=0 original_length=422 payload_bytes=422 chunk_index=0 chunk_count=1 classification=text
+# LOCKED_B - Door Mark als B gekozen bestemmingen
+
+B-bestemmingen: plekken waar Mark heen wil als de tijd het toelaat. Geen verblijfsbases (zie CLUSTER_ANCHORS.md). Alleen Mark wijzigt deze lijst.
+
+## Kainchi / Almora
+- Ghorakhal Temple - Golu Devta-tempel (God of Justice)
+
+## Vrindavan
+- Neem Karoli Baba Ashram - verblijfplaats Neem Karoli Baba
+- Radha Raman Tempel - historische Krishna-tempel
+
+Totaal: 3 bestemmingen.
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1230 path=OPERATING_MODEL.md blob_sha=07364f5721d0a4db4fe2bbcdb0118478fda02bfe original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# OPERATING_MODEL - Hoe het onderzoek werkt
+
+Dit document beschrijft de samenwerking - niet het project (zie PROJECT.md), niet het datamodel (zie AI_RULES.md).
+
+## 0. Algemene inleesvolgorde
+
+Voor regie- en algemene projectchats:
+1. README.md
+2. AI_RULES.md
+3. PROJECT.md
+4. OPERATING_MODEL.md
+5. CHATGPT_ROLE.md
+6. PRIORITY_GROUPS.md
+7. LESSONS.md
+8. METHODOLOGY.md
+9. CHAT_DISTILLATION.md
+10. CHATGPT_HANDOFF.md
+11. CURRENT_FOCUS.md
+12. relevante cluster-, PLACE-, SOURCE-, AUDIT- en DECISION-records
+
+Een nieuwe regiechat levert eerst een STATE RECONSTRUCTION en laat Mark die bevestigen vóór nieuw onderzoek.
+
+BRONS-, ZILVER- en GOUD-workers vormen een aparte uitvoeringsroute. Zij starten uitsluitend bij `pipeline/ENTRYPOINT.md`, ontvangen alleen een run-id en rol, lezen het gepinde contextmanifest en schrijven alle resultaten naar GitHub. Zij voeren geen algemene state reconstruction met Mark uit.
+
+## 1. Doel
+
+Het doel is niet heiligen verzamelen. Het doel is fysiek bestaande spirituele bestemmingen identificeren die binnen levende tradities blijvende betekenis hebben gekregen. De plek is het onderzoeksobject; personen, boeken, lineages, tradities en getuigenissen zijn zoek- en interpretatielagen.
+
+De onderzoeker beschrijft verschillende onderbouwingstypen afzonderlijk en berekent geen spirituele totaalscore. Alleen Mark beoordeelt wat hij wil bezoeken.
+
+## 2. Rollen
+
+- Mark — eindbeslisser. Kent als enige A/B/C toe, beheert persoonlijke voorkeuren en neemt reisbesluiten.
+- India2 / ChatGPT-regisseur — regisseur en architect. Bepaalt scope, activeert runs en verwerkt het definitieve GOUD-dossier.
+- Bevoegde curatoren — onderhouden repositoryrecords via expliciete commits of pull requests.
+- BRONS — brede detectie en primaire inventarisatie.
+- ZILVER — verificatie, tegenspraak, bronverbetering en inhoudelijke correctie.
+- GOUD — synthese, acceptatie en vrijgave met PASS, PARTIAL of BLOCKED.
+- Andere AI-systemen — kunnen iedere pipeline-rol uitvoeren wanneer zij GitHub volledig kunnen lezen en schrijven en het gepinde contract volgen.
+
+Wat geen enkele AI mag: A/B/C toekennen, de prioriteitsindex stil wijzigen, een record stil veranderen, projectrelevantie als score invoeren of een capaciteit claimen die niet bewezen is.
+
+## 3. Werkstromen
+
+### 3.1 Reguliere repositorywerkstroom
+
+1. Hypothese of open vraag.
+2. Onderzoek en bronverzameling.
+3. Audit en tegenspraak.
+4. Mark neemt waar nodig een besluit.
+5. Een bevoegde schrijver legt het resultaat vast.
+
+### 3.2 BRONS–ZILVER–GOUD-pijplijn
+
+1. De regisseur of Mark maakt een geïsoleerde run met scope, status en contextmanifesten.
+2. BRONS wordt in een nieuwe chat geactiveerd met alleen run-id en rol en schrijft een volledige faseversie naar `BRONS/`.
+3. Na geldige completion wordt ZILVER in een nieuwe chat geactiveerd. ZILVER haalt BRONS uit GitHub en schrijft een volledige eigen versie naar `ZILVER/`.
+4. Na geldige completion wordt GOUD in een nieuwe chat geactiveerd. GOUD haalt ZILVER uit GitHub en schrijft het definitieve dossier naar `GOUD/`.
+5. Alleen GOUD gaat naar de regisseur, via run-id, commit en manifestpad. Mark hoeft geen rapporten tussen chats te kopiëren.
+6. Na verwerking wordt de run gearchiveerd onder `research/completed/`.
+
+De gezaghebbende regels staan onder `pipeline/` en de generieke Methodology v2.0 onder `knowledge/methodology/`.
+
+## 4. Conflicten
+
+Onenigheid tussen AI's is normaal en gewenst. Een positie wint alleen door betere onderbouwing of door een besluit van Mark. Onopgeloste feitelijke conflicten blijven zichtbaar in claims, audit of een formeel AUDIT-record.
+
+## 5. Waarderingen
+
+Alleen Mark kent A, B of C toe. Nieuwe plekken starten ONGEMERKT. Geen pipeline-rol maakt een totaalscore, projectrelevantie of impliciete rangorde.
+
+## 6. Prioriteiten
+
+PRIORITY_GROUPS.md is leidend voor Marks persoonlijke-aantrekkingsas. Geen AI mag die volgorde wijzigen of als objectieve onderzoeksuitkomst presenteren.
+
+## 7. Repositoryschrijven en protocolverbetering
+
+GitHub is de gedeelde waarheid en het enige overdrachtskanaal tussen pipeline-work
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1231 path=OPERATING_MODEL.md blob_sha=07364f5721d0a4db4fe2bbcdb0118478fda02bfe original_offset=4096 original_length=331 payload_bytes=331 chunk_index=1 chunk_count=2 classification=text
+ers. Iedere wijziging is zichtbaar via een commit of pull request.
+
+India2, Claude, ChatGPT en andere bevoegde schrijvers mogen de pipeline verbeteren. Een actieve run blijft op de in `run.yaml` gepinde methodologie, rollen en protocollen. Een worker wijzigt zijn eigen contract nooit tijdens dezelfde uitvoering.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1232 path=knowledge/methodology/METHODOLOGY_V2.md blob_sha=ac9929cfcb49467276e108a2632e8b0cec2d03c8 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+# Methodology v2.0 — blijvende spirituele bestemmingen
+
+## 1. Centrale onderzoeksvraag
+
+Het systeem onderzoekt waarom een fysiek bestaande plaats binnen één of meer spirituele tradities een blijvende bestemming is geworden, welke typen onderbouwing daarvoor bestaan en welke huidige fysieke werkelijkheid daarmee verbonden is.
+
+Het systeem bewijst of ontkent geen spirituele werkelijkheid. Het onderzoekt fysieke plaatsen, institutionele identiteit, historische gegevens, gedragen tradities, lineages, levende praktijk en getuigenissen. Deze lagen blijven afzonderlijk zichtbaar en worden nooit samengevoegd tot één totaalscore.
+
+## 2. Harde grens: de plek is het onderzoeksobject
+
+Alleen een fysiek aanwijsbare huidige plaats kan kandidaat zijn: gebouw, terrein, grot, oever, ghat, kund, tempel, ashram, samadhi, monument, route of ander bezoekbaar object.
+
+Een persoon, boek, visioen, leer of traditie is geen PLACE maar kan een zoekrichting, relatie of interpretatie-overlay opleveren.
+
+## 3. Verplichte onderzoekslagen per kandidaat
+
+### 3.1 Fysieke identiteit
+- exacte naam, aliassen en ligging;
+- welk huidig object of terrein bedoeld wordt;
+- onderscheid tussen dorp, complex, afzonderlijk gebouw, route en traditieclaim;
+- huidige fysieke continuïteit voor zover vaststelbaar.
+
+### 3.2 Institutionele identiteit
+Verplicht onderzoeken:
+- huidige beheerder, trust, orde, tempelorganisatie of overheid;
+- oprichter en officiële geschiedenis;
+- officiële missie;
+- officiële lineage of parampara;
+- officiële publicaties en bronnen die de instelling zelf gezaghebbend noemt.
+
+Een instellingsbron is sterk voor eigen identiteit, beheer, praktijk en lijntraditie, maar bewijst niet automatisch een onafhankelijke historische gebeurtenis.
+
+### 3.3 Historische identiteit
+- onafhankelijk verifieerbare personen, gebeurtenissen, bouwfasen en documenten;
+- expliciet aangeven wat niet historisch is vastgesteld;
+- een historisch tekort diskwalificeert een traditie- of lineageplaats niet automatisch.
+
+### 3.4 Traditie
+- welke religieuze of spirituele traditie de plaats aanwijst;
+- wie de overlevering draagt;
+- sinds wanneer dit aantoonbaar wordt verteld;
+- welke teksten, instellingen of rituelen de relatie onderhouden.
+
+Traditie wordt als traditie gerapporteerd, nooit als historisch feit vermomd.
+
+### 3.5 Lineage
+- welke guru-parampara of spirituele lijn de plaats verbindt met personen of gebeurtenissen;
+- welke primaire lijnbronnen dit dragen;
+- of de lijn intern consistent is;
+- waar onafhankelijke bevestiging wel of niet bestaat.
+
+Mythische of bovennatuurlijke figuren worden niet aan een onmogelijke klassieke biografische bewijsproef onderworpen. Onderzoek in plaats daarvan welke levende lineage de relatie draagt en welke fysieke plaats daarbij hoort.
+
+### 3.6 Levende praktijk en continuïteit
+- is de plek vandaag actief;
+- dagelijkse of periodieke praktijk: meditatie, puja, satsang, retraite, darshan, parikrama of pelgrimage;
+- actieve gemeenschap, priesterschap of lineage;
+- aantoonbare duur of continuïteit;
+- jaarlijkse festivals en terugkerende pelgrimspraktijk;
+- actuele toegang afzonderlijk van spirituele betekenis.
+
+Populariteit als toeristische attractie is geen vervanging voor levende spirituele praktijk.
+
+### 3.7 Persoonlijke getuigenissen
+- wie een ervaring, verschijning, visioen of bijzonder gevoel beschrijft;
+- bron en context;
+- nooit presenteren als onafhankelijk historisch bewijs;
+- wel gebruiken om de levende betekenis en aantrekkingskracht van een plaats te begrijpen.
+
+## 4. Place types
+
+Een kandidaat krijgt één of meer objectieve typen:
+- `EVENT` — door een traditie of historie aan een gebeurtenis verbonden;
+- `LINEAGE` — fysiek anker van een guru-parampara of spirituele lijn;
+- `SAMADHI` — graf-, as-, mahasamadhi- of herinneringsplaats;
+- `LIVING_PRACTICE` — actieve ashram-, tempel-, meditatie- of pelgrimspraktijk.
+
+Meerdere typen zijn toegestaan. De typen zijn geen waardering.
+
+## 5. Interpretatie-overlays
+
+Het systeem ondersteunt projectspecifieke overlays. Een overlay verbindt een kandidaat met een referentiek
+<<< END CHUNK >>>
+

@@ -1,0 +1,535 @@
+>>> CHUNK stream_row=1641 path=research/active/VARANASI-COMPLETE-001/ZILVER/report/05_quality_gate_and_conclusion.md blob_sha=d74926e96aecf4fc036d7663b59b3bfed6cd7432 original_offset=0 original_length=2037 payload_bytes=2037 chunk_index=0 chunk_count=1 classification=text
+# 05 — Quality gate en conclusie
+
+## Resultaat
+
+`PARTIAL`
+
+## Sterke lagen
+
+- 40/40 kandidaten behouden en onafhankelijk geclassificeerd;
+- 57/57 BRONS-claims opnieuw beoordeeld;
+- 35 kandidaten bevestigd, 3 als beperkt werkobject behouden en 2 expliciet `PARTIAL`;
+- alle 8 detectoren en 6 negatieve zoekresultaten opnieuw gecontroleerd;
+- bronregister opgeschoond naar 25 geaccepteerde en 7 afgewezen bronnen;
+- alle source-ID's uniek en resolveerbaar;
+- 40 unieke GEO-records en 15 gecontroleerde clusterrelaties;
+- 28 formele A, 2 formele B en 30 placemarks exact bevestigd;
+- uitsluitend groen voor A en oranje voor B;
+- geen status-, route-, hotel-, basis-, station-, PARELS- of parked-runbesluit.
+
+## Beslisrelevante correcties
+
+1. Generieke Google Maps-zoeklinks zijn niet langer dragend bewijs voor tientallen fysieke identiteiten.
+2. Lahartara is teruggebracht tot een approximate traditiezone.
+3. Bhaskarananda/Anand Bagh is teruggebracht tot een historische relatie met niet-vastgestelde huidige microplek, beheer en toegang.
+4. Lahiri-huis, Lahiri-samadhi en Trailanga Math blijven bruikbare fysieke werkobjecten maar niet institutioneel volledig vrijgegeven.
+5. Alle actuele praktische claims zijn gescheiden van spirituele, historische en lineagebetekenis.
+6. Nabijheid bevat nu rechte-lijnafstanden als controle, maar geen verzonnen routeafstand of reistijd.
+
+## Open voor GOUD
+
+1. Geen volledige tien-functiesbeeldset voor enige kandidaat.
+2. Geen systematische recente reviewanalyse voor enige kandidaat.
+3. Actuele opening, fotografie, kleding, buitenlandse toegang, rituelen en festivaldrukte blijven voor veel objecten tijdgevoelig.
+4. Lahartara en Bhaskarananda blijven micro-identiteits-/GEO-gaten.
+5. Lahiri Samadhi/Satyalok, Lahiri-huis en Trailanga Math vereisen directe lokale toegang-/beheerbevestiging.
+
+## Vrijgave
+
+De dataset is technisch coherent en betrouwbaar bruikbaar voor GOUD-synthese. De open punten zijn zichtbaar en niet fataal. GOUD mag ze niet stil als bevestigd presenteren.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1642 path=research/active/VARANASI-COMPLETE-001/ZILVER/report/INDEX.md blob_sha=6e942474a08e1dd67533b141d31a6e65e6da808d original_offset=0 original_length=563 payload_bytes=563 chunk_index=0 chunk_count=1 classification=text
+# ZILVER report index — VARANASI-COMPLETE-001
+
+Leesvolgorde:
+
+1. `01_verified_candidate_map.md`
+2. `02_lineages_practice_and_access.md`
+3. `03_geo_visuals_reviews_and_proximity.md`
+4. `04_master_ab_registry_and_kml.md`
+5. `05_quality_gate_and_conclusion.md`
+
+Ondersteunende registers staan in de ZILVER-hoofdmap. Het gedeelde masterregister is inhoudelijk niet gewijzigd omdat de telling, status, GEO-velden en KML-afleiding de controle passeerden. ZILVER kent geen formele of adviserende A/B/C toe en kiest geen route, hotel, station of basis.
+
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1643 path=research/active/VARANASI-COMPLETE-001/context/BRONS_CONTEXT.yaml blob_sha=cec6305d6ae8cd91f531d936b9e0283e0ffed006 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+schema_version: 3
+run_id: VARANASI-COMPLETE-001
+role: BRONS
+status: READY
+source_commit: 5e351144fe19fe40b487588c43827dc937df3de6
+context_profile: BRONS_MIN
+protocol_versions:
+  pipeline: 3.1.1
+  methodology: 3.0.0
+  execution_protocol: 2.3.1
+  context_protocol: 2.1
+  controller_transition_protocol: 2.3.1
+  role_handoff_protocol: 1.1
+required_files:
+  - {path: pipeline/ENTRYPOINT.md, reason: executable entrypoint, task: obey preflight and stop conditions, expected_git_blob_sha: 2cb50f0e6307bded90da1bb7418e103791c96dd4}
+  - {path: pipeline/roles/BRONS.md, reason: BRONS role contract, task: execute full Varanasi discovery and A/B map inventory, expected_git_blob_sha: 3074c2276411e98e750fb37661096a4e33b85abb}
+  - {path: knowledge/methodology/METHODOLOGY_V2.md, reason: place and status methodology, task: apply physical-place gate and advisory status semantics, expected_git_blob_sha: cba69457b46f26f60a4775a848f9fc4bf01000ff}
+  - {path: pipeline/protocols/EVIDENCE_PROTOCOL.md, reason: source integrity, task: atomize identity history spirituality access and visitability claims, expected_git_blob_sha: 5d853e6dae868495782363d0864f641fa2747186}
+  - {path: pipeline/QUALITY_GATE.md, reason: completeness and technical gate, task: validate all required sweep and map artifacts, expected_git_blob_sha: 8c9d39ed09e8992d785baf15d727a920ccdbb0c0}
+  - {path: pipeline/protocols/EXECUTION_PROTOCOL.md, reason: claim lifecycle, task: claim BRONS and close workerclaim in completioncommit, expected_git_blob_sha: f384e45c824ea4c10194dbf476b30b61312a0ed2}
+  - {path: pipeline/protocols/LONG_RUNNING_EXECUTION_PROTOCOL.md, reason: large combined run, task: checkpoint before context exhaustion without duplicate research, expected_git_blob_sha: 0640c6af87df2ed94155fa5b04b377c2e729161a}
+  - {path: pipeline/protocols/CONTEXT_PROTOCOL.md, reason: deterministic read boundary, task: read only listed files and explicit triggers, expected_git_blob_sha: 872bce45f01e276d76dc65479c09e71dc72a15de}
+  - {path: pipeline/protocols/GEO_LOCATION_PROTOCOL.md, reason: LOCATION_ID and map integrity, task: preserve identifiers provenance and visible uncertainty, expected_git_blob_sha: 149c0515010930ec9306a6d68f5beb2a7b3bbe91}
+  - {path: pipeline/CONTEXT_PROFILES.yaml, reason: BRONS_MIN profile, task: keep repository reads proportionate, expected_git_blob_sha: 4526bb1fe5e3605d63af45d81f8efb152bef1863}
+  - {path: pipeline/templates/RUN_TEMPLATE_V3.md, reason: v3.1.1 lifecycle, task: produce required phase artifacts and inline handoff, expected_git_blob_sha: 859a72f4209024754ab79afa8a8300aeffbc0167}
+  - {path: pipeline/templates/HANDOFF_LAYER_STATUS_TEMPLATE.yaml, reason: phase-layer handoff, task: classify sweep GEO registry KML and coverage layers, expected_git_blob_sha: 335f43721be70f999ccc43f4d1873108ac42c6db}
+  - {path: research/active/VARANASI-COMPLETE-001/run.yaml, reason: immutable run policy, task: enforce fast GEO green/orange KML and preservation rules, expected_git_blob_sha: b0e000c62188a102144eb68888bcd2864901686a}
+  - {path: research/active/VARANASI-COMPLETE-001/scope.md, reason: complete content and map contract, task: execute every detector output and prohibition, expected_git_blob_sha: 6a53e3288a9c765feb8c0481ebbb9aa7b3100af5}
+  - {path: research/active/VARANASI-COMPLETE-001/state.yaml, reason: READY state, task: require READY_FOR_BRONS and no active claim, expected_git_blob_sha: 98055663d747b5a6b398aec1b9671faf7d2a1359}
+  - {path: research/active/VARANASI-COMPLETE-001/events.jsonl, reason: initialization event cursor, task: verify EVT-0001 and EVT-0002, expected_git_blob_sha: 7405da2c150b1c5777047c6ac5fd435248b7646f}
+  - {path: research/active/VARANASI-COMPLETE-001/predecessor_inventory.md, reason: old-output preservation, task: never overwrite earlier BRONS or parked Kumaon route work, expected_git_blob_sha: e966ad1522a9aed6581a4b1be2a3247cb6e93044}
+  - {path: research/active/VARANASI-COMPLETE-001/shared/GEO_REGISTRY_SCHEMA.md, reason: maintainable map source schema, task: create and populate the shared A/B GEO registry before generating KML, expected_git_blo
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1644 path=research/active/VARANASI-COMPLETE-001/context/BRONS_CONTEXT.yaml blob_sha=cec6305d6ae8cd91f531d936b9e0283e0ffed006 original_offset=4096 original_length=4051 payload_bytes=4051 chunk_index=1 chunk_count=2 classification=text
+b_sha: 964c716769997c64772795c90515e62391cdbc48}
+  - {path: LOCKED_A.md, reason: formal A source, task: include every current formal A without reassessment, expected_git_blob_sha: 4f2a9a1adf2f8046652035a72b8b76bce884d012}
+  - {path: LOCKED_B.md, reason: formal B source, task: include every current formal B without reassessment, expected_git_blob_sha: ee35ea06ee760563344640103680cb28ae67ea1d}
+  - {path: decisions/INDEX.yaml, reason: valid status decisions, task: reconcile formal status without inventing a decision, expected_git_blob_sha: 2ce46e9b7328da8ab4a5301b81a707777d967466}
+  - {path: knowledge/places/registry.jsonl, reason: canonical IDs aliases and existing coordinates, task: prevent duplicates and reuse valid GEO, expected_git_blob_sha: 3aa17754af90f45dd5a122a14b2fb98f1f87a485}
+optional_files:
+  - {path: research/active/KUMAON-COMPLETE-001/GOUD/geo_locations.jsonl, trigger: when reconciling Kumaon A/B coordinates, reason: validated predecessor GEO, task: reuse valid points without reopening sweep, expected_git_blob_sha: 1d44fbce8c9372d631b69f992af158ef456a6f8e}
+  - {path: research/active/KUMAON-COMPLETE-001/GOUD/map_source.jsonl, trigger: when reconciling Kumaon display names and statuses, reason: validated map source, task: preserve IDs names and status, expected_git_blob_sha: 548be6a5a902192b0325888ff342af933fdd205d}
+  - {path: pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md, trigger: after BRONS worker completion, reason: BRONS-to-ZILVER transition, task: perform controller-only transition, expected_git_blob_sha: 0c52ebc9a2be47583e08619c6422efad582619b3}
+  - {path: pipeline/protocols/CONTINUOUS_LEARNING_PROTOCOL.md, trigger: only for a genuine transition defect, reason: defect classification, task: do not modify protocols during worker phase, expected_git_blob_sha: 38186f203d33623fc11476d712410284cb49b95b}
+  - {path: pipeline/protocols/SELF_ROUTING_PROTOCOL.md, trigger: when composing ZILVER handoff, reason: deterministic routing, task: emit only after final readback, expected_git_blob_sha: b6b7f07bd7f6c946ba35776124f8fa6e6ced564c}
+  - {path: pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md, trigger: after BRONS completion, reason: role separation, task: use separate controllerclaim, expected_git_blob_sha: f4663ed3049f5d5586fcf6fc98d8c64a292b1998}
+  - {path: pipeline/templates/NEXT_ACTION_V3_TEMPLATE.yaml, trigger: during controller transition, reason: ZILVER routing schema, task: update NEXT_ACTION only after validated completion, expected_git_blob_sha: 7ad211a3f1f6da02643c52b60b4839f9facbc87d}
+  - {path: pipeline/templates/NEXT_ROLE_HANDOFF_TEMPLATE.md, trigger: after successful transition, reason: ZILVER start format, task: emit full successor instruction, expected_git_blob_sha: 048ed3df254d0e98ac7c94c943dcfe122214633a}
+forbidden_files:
+  - research/active/VARANASI-COMPLETE-001/context/ZILVER_CONTEXT.yaml
+  - research/active/VARANASI-COMPLETE-001/context/GOUD_CONTEXT.yaml
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/**
+  - every earlier BRONS output except a file explicitly activated for loss-control
+priority_order:
+  - research/active/VARANASI-COMPLETE-001/run.yaml
+  - research/active/VARANASI-COMPLETE-001/state.yaml
+  - research/active/VARANASI-COMPLETE-001/events.jsonl
+  - research/active/VARANASI-COMPLETE-001/scope.md
+  - LOCKED_A.md
+  - LOCKED_B.md
+  - decisions/INDEX.yaml
+  - knowledge/places/registry.jsonl
+  - research/active/VARANASI-COMPLETE-001/shared/GEO_REGISTRY_SCHEMA.md
+  - pipeline/roles/BRONS.md
+  - knowledge/methodology/METHODOLOGY_V2.md
+  - pipeline/protocols/EVIDENCE_PROTOCOL.md
+  - pipeline/QUALITY_GATE.md
+maximum_context_budget:
+  required_files: 24
+  optional_files_maximum_when_triggered: 8
+  lines_per_file: 2000
+output_path: research/active/VARANASI-COMPLETE-001/BRONS/
+shared_output_path: research/active/VARANASI-COMPLETE-001/shared/
+completion_destination: VOOR_VOLGEND_METAAL
+post_completion:
+  mode: INLINE_POST_PHASE_CONTROLLER
+  target_role: ZILVER
+  target_ready_state: READY_FOR_ZILVER
+  emit_next_role_handoff: true
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1645 path=research/active/VARANASI-COMPLETE-001/context/GOUD_CONTEXT.yaml blob_sha=9bc8f310f5a862415a6f02c28bda3c896efe84f5 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+schema_version: 3
+run_id: VARANASI-COMPLETE-001
+role: GOUD
+status: READY
+source_commit: ddf5f7963feb67d3ea8436cdccbc1c1c68685c68
+context_profile: GOUD_MIN
+protocol_versions: {pipeline: 3.1.1, methodology: 3.0.0, execution_protocol: 2.3.1, controller_transition_protocol: 2.3.1, role_handoff_protocol: '1.1'}
+required_files:
+  - {path: 'pipeline/ENTRYPOINT.md', reason: 'single executable entrypoint', task: 'obey startup, claim, completion and direct-to-Mark rules', expected_git_blob_sha: '2cb50f0e6307bded90da1bb7418e103791c96dd4'}
+  - {path: 'pipeline/roles/GOUD.md', reason: 'GOUD synthesis and direct delivery contract', task: 'finalize the validated ZILVER dossier without new formal or advisory A/B/C', expected_git_blob_sha: '62e7f34f896bd5850be0b654d6a3543170753f67'}
+  - {path: 'knowledge/methodology/METHODOLOGY_V2.md', reason: 'physical-place, lineage, practice and completeness methodology', task: 'keep confirmation domains separate and preserve explicit uncertainty', expected_git_blob_sha: 'cba69457b46f26f60a4775a848f9fc4bf01000ff'}
+  - {path: 'pipeline/protocols/EVIDENCE_PROTOCOL.md', reason: 'atomic claim and source-integrity rules', task: 'validate all final claims and source references', expected_git_blob_sha: '5d853e6dae868495782363d0864f641fa2747186'}
+  - {path: 'pipeline/QUALITY_GATE.md', reason: 'final technical and substantive release gate', task: 'issue exactly PASS, PARTIAL or BLOCKED', expected_git_blob_sha: '8c9d39ed09e8992d785baf15d727a920ccdbb0c0'}
+  - {path: 'pipeline/protocols/EXECUTION_PROTOCOL.md', reason: 'worker claim, outputs, canonical integration and completion lifecycle', task: 'claim GOUD, write all outputs and close the workerclaim atomically', expected_git_blob_sha: 'f384e45c824ea4c10194dbf476b30b61312a0ed2'}
+  - {path: 'pipeline/protocols/LONG_RUNNING_EXECUTION_PROTOCOL.md', reason: 'controlled checkpoint rules', task: 'checkpoint without repeating validated blocks', expected_git_blob_sha: '0640c6af87df2ed94155fa5b04b377c2e729161a'}
+  - {path: 'pipeline/protocols/CONTEXT_PROTOCOL.md', reason: 'deterministic context boundary', task: 'read only this manifest and explicitly triggered optional files', expected_git_blob_sha: '872bce45f01e276d76dc65479c09e71dc72a15de'}
+  - {path: 'pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md', reason: 'transition integrity reference', task: 'verify the closed ZILVER-to-GOUD controllerclaim in the final audit', expected_git_blob_sha: '0c52ebc9a2be47583e08619c6422efad582619b3'}
+  - {path: 'pipeline/protocols/CONTINUOUS_LEARNING_PROTOCOL.md', reason: 'defect classification reference', task: 'classify any newly discovered defect without silently changing this run', expected_git_blob_sha: '38186f203d33623fc11476d712410284cb49b95b'}
+  - {path: 'pipeline/protocols/SELF_ROUTING_PROTOCOL.md', reason: 'direct GOUD-to-Mark routing', task: 'route a valid PASS or PARTIAL directly to Mark', expected_git_blob_sha: 'b6b7f07bd7f6c946ba35776124f8fa6e6ced564c'}
+  - {path: 'pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md', reason: 'worker and direct-delivery boundaries', task: 'validate the ZILVER-to-GOUD handoff and GOUD direct delivery', expected_git_blob_sha: 'f4663ed3049f5d5586fcf6fc98d8c64a292b1998'}
+  - {path: 'pipeline/protocols/GEO_LOCATION_PROTOCOL.md', reason: 'GEO integrity', task: 'produce final geo_locations and geo_connections without guessed precision', expected_git_blob_sha: '149c0515010930ec9306a6d68f5beb2a7b3bbe91'}
+  - {path: 'pipeline/CONTEXT_PROFILES.yaml', reason: 'GOUD_MIN reopening policy', task: 'reopen every OPEN, PARTIAL and high-risk CORRECTED layer', expected_git_blob_sha: '4526bb1fe5e3605d63af45d81f8efb152bef1863'}
+  - {path: 'pipeline/templates/MARK_FINAL_REPORT_TEMPLATE.md', reason: 'mandatory direct-to-Mark report schema', task: 'write the full final report and reproduce it in chat', expected_git_blob_sha: 'b8d929b4d04c6bfc82e9a3f6cfd4abd3697b2bcc'}
+  - {path: 'pipeline/templates/CANONICAL_INTEGRATION_PROPOSAL_TEMPLATE.md', reason: 'mandatory pre-write canonical proposal', task: 'constrain deterministic non-decisional integration', expected_git_bl
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1646 path=research/active/VARANASI-COMPLETE-001/context/GOUD_CONTEXT.yaml blob_sha=9bc8f310f5a862415a6f02c28bda3c896efe84f5 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+ob_sha: '3f48cf5f69f9aa2792881254c93ad803b16f3a5b'}
+  - {path: 'knowledge/places/NUMBERING_POLICY.md', reason: 'permanent place-ID authority', task: 'do not allocate new permanent IDs; only SUBREGIE INDIA may reserve them', expected_git_blob_sha: '99c7934a87fde4120404d8f97fb5d73ed0df5359'}
+  - {path: 'research/active/VARANASI-COMPLETE-001/run.yaml', reason: 'immutable run identity and pins', task: 'preserve scope, KML contract, parked-run protection and canonical mode', expected_git_blob_sha: 'b0e000c62188a102144eb68888bcd2864901686a'}
+  - {path: 'research/active/VARANASI-COMPLETE-001/scope.md', reason: 'complete Varanasi/Sarnath and repositorywide A/B map scope', task: 'answer the central question without route or status decisions', expected_git_blob_sha: '6a53e3288a9c765feb8c0481ebbb9aa7b3100af5'}
+  - {path: 'research/active/VARANASI-COMPLETE-001/state.yaml', reason: 'transition-generated READY_FOR_GOUD state', task: 'require READY_FOR_GOUD, no ACTIVE claim and closed controllerclaim before claiming', expected_git_blob_sha: '4a57ae4591fc1027e784e52b097fda0fb32edf8c'}
+  - {path: 'research/active/VARANASI-COMPLETE-001/events.jsonl', reason: 'transition-generated append-only event cursor', task: 'require EVT-0012 synchronized with READY_FOR_GOUD', expected_git_blob_sha: 'ef1509ba947950c20790f0ec452b6ca1eb556552'}
+  - {path: 'LOCKED_A.md', reason: 'immutable formal A source', task: 'preserve exactly 28 formal A records', expected_git_blob_sha: '4f2a9a1adf2f8046652035a72b8b76bce884d012'}
+  - {path: 'LOCKED_B.md', reason: 'immutable formal B source', task: 'preserve exactly 2 formal B records', expected_git_blob_sha: 'ee35ea06ee760563344640103680cb28ae67ea1d'}
+  - {path: 'decisions/INDEX.yaml', reason: 'existing decision index and allowed integration target', task: 'link only existing decision IDs and create no new decision', expected_git_blob_sha: '2ce46e9b7328da8ab4a5301b81a707777d967466'}
+  - {path: 'knowledge/places/registry.jsonl', reason: 'canonical place registry and allowed integration target', task: 'apply only proposal-backed deterministic changes and no new ID allocation', expected_git_blob_sha: '3aa17754af90f45dd5a122a14b2fb98f1f87a485'}
+  - {path: 'research/active/VARANASI-COMPLETE-001/ZILVER/manifest.yaml', reason: 'authoritative ZILVER inventory and hashes', task: 'validate all predecessor counts and completion assertions', expected_git_blob_sha: 'd83b23b1abdfb871cf614ddba6b368567a2a1723'}
+  - {path: 'research/active/VARANASI-COMPLETE-001/ZILVER/handoff.yaml', reason: 'risk-based ZILVER-to-GOUD handoff', task: 'reopen every OPEN, PARTIAL and high-risk CORRECTED layer', expected_git_blob_sha: '72fa18476478f1a7689e2bc2b4fb73be5ca78991'}
+  - {path: 'research/active/VARANASI-COMPLETE-001/ZILVER/COMPLETED', reason: 'ZILVER completion sentinel', task: 'verify PARTIAL status and full output list', expected_git_blob_sha: '3133a77f877eafde3c4ecdf35478f0add38defb3'}
+  - {path: 'research/active/VARANASI-COMPLETE-001/ZILVER/candidates.jsonl', reason: 'complete forty-candidate register', task: 'preserve all candidates and finalize practical meaning', expected_git_blob_sha: '6e1f8688b4af305333986dd299ce8ba9c071b9d0'}
+  - {path: 'research/active/VARANASI-COMPLETE-001/ZILVER/claims.jsonl', reason: 'fifty-seven independently reassessed claims', task: 'validate all final load-bearing, corrected and partial claims', expected_git_blob_sha: '65047e76d6774023dd462cee5a0f7266edc0e84c'}
+  - {path: 'research/active/VARANASI-COMPLETE-001/ZILVER/sources/registry.jsonl', reason: 'accepted source register', task: 'validate every material accepted source', expected_git_blob_sha: 'fe68142dae76abf2027276538d5b3efca455d1a7'}
+  - {path: 'research/active/VARANASI-COMPLETE-001/ZILVER/sources/rejected.jsonl', reason: 'rejected source register', task: 'preserve exclusions and unique source-ID resolution', expected_git_blob_sha: '3db4f3b55c097cac8f080a17a6075e108889106d'}
+  - {path: 'research/active/VARANASI-COMPLETE-001/ZILVER/MASTER_A_B_GEO_REGISTRY_VERIFIED.jsonl', reason: 'verified repositorywide formal map source', task: 'preserve exact 28 A, 
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1647 path=research/active/VARANASI-COMPLETE-001/context/GOUD_CONTEXT.yaml blob_sha=9bc8f310f5a862415a6f02c28bda3c896efe84f5 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+2 B, 30 records and valid existing LOCATION_IDs', expected_git_blob_sha: 'da7be7eb5257398b6d49681bb52abcebe1499688'}
+  - {path: 'research/active/VARANASI-COMPLETE-001/ZILVER/INDIA_ALL_FORMAL_A_B_WORKING_ZILVER.kml', reason: 'validated predecessor KML', task: 'deliver deterministic GOUD KML with the same 30 records and exact colors', expected_git_blob_sha: '510ccbcbc8665b12ba2edff807638558f41a677d'}
+optional_files:
+  - {path: 'research/active/VARANASI-COMPLETE-001/ZILVER/report/INDEX.md', trigger: 'always', reason: 'mandatory ZILVER report order', task: 'open all five report parts', expected_git_blob_sha: '6e942474a08e1dd67533b141d31a6e65e6da808d'}
+  - {path: 'research/active/VARANASI-COMPLETE-001/ZILVER/report/01_verified_candidate_map.md', trigger: 'always after report/INDEX.md', reason: 'candidate and identity narrative', task: 'finalize 35 confirmed, 3 working-supported and 2 partial identities', expected_git_blob_sha: '21e6308bb049169d2501a84455ab9cc1b553dbe4'}
+  - {path: 'research/active/VARANASI-COMPLETE-001/ZILVER/report/02_lineages_practice_and_access.md', trigger: 'always; living practice and access remain high-risk', reason: 'lineage, practice and access narrative', task: 'retain current official practice and time-sensitive controls', expected_git_blob_sha: '3a925e32982277f8cf0035d6131aa49ed9877e5e'}
+  - {path: 'research/active/VARANASI-COMPLETE-001/ZILVER/report/03_geo_visuals_reviews_and_proximity.md', trigger: 'always; GEO, images, reviews and proximity remain high-risk', reason: 'operational layer narrative', task: 'finalize without fake precision or unsupported experience claims', expected_git_blob_sha: '16d8fda02aa110fc347edc81e60a4f3b20684c70'}
+  - {path: 'research/active/VARANASI-COMPLETE-001/ZILVER/report/04_master_ab_registry_and_kml.md', trigger: 'always; master map is mandatory', reason: 'formal A/B map narrative', task: 'preserve exact counts, folders and colors', expected_git_blob_sha: '9345de9fd252aa7b78f8f4646852c78a83dce822'}
+  - {path: 'research/active/VARANASI-COMPLETE-001/ZILVER/report/05_quality_gate_and_conclusion.md', trigger: 'always; predecessor status is PARTIAL', reason: 'ZILVER conclusion and gate', task: 'test final GOUD status and retain non-fatal gaps', expected_git_blob_sha: 'd74926e96aecf4fc036d7663b59b3bfed6cd7432'}
+  - {path: 'research/active/VARANASI-COMPLETE-001/ZILVER/detector_checks.jsonl', trigger: 'always; cluster completeness must be finalized', reason: 'eight detector records', task: 'verify no required detector or physical candidate was lost', expected_git_blob_sha: '2099a950295fe28b9a0184ff6920825a27a63ff9'}
+  - {path: 'research/active/VARANASI-COMPLETE-001/ZILVER/negative_searches.jsonl', trigger: 'always; negative conclusions remain bounded evidence', reason: 'six negative-search records', task: 'retain absence wording without converting it to proof', expected_git_blob_sha: '32a007f0fd7e9e195a8019f9da37623c98578934'}
+  - {path: 'research/active/VARANASI-COMPLETE-001/ZILVER/working_geo.jsonl', trigger: 'always; two points remain partial and three are limited working addresses', reason: 'forty-record GEO register', task: 'produce final geo_locations without entrance precision', expected_git_blob_sha: '2413a99159ef2cc17fd6d66a3aea701f7e70e7d3'}
+  - {path: 'research/active/VARANASI-COMPLETE-001/ZILVER/practical_access.jsonl', trigger: 'always; practical layer remains OPEN', reason: 'forty access records', task: 'turn time-sensitive details into direct-contact or pre-departure checks', expected_git_blob_sha: 'd6e3eaa9bd5e93d44e86d62e9d5d8d96b9232fc9'}
+  - {path: 'research/active/VARANASI-COMPLETE-001/ZILVER/images.jsonl', trigger: 'always; visual layer remains OPEN', reason: 'explicit image shortages', task: 'retain ten-function shortages and identity-only visual leads', expected_git_blob_sha: 'eaa607d69788a26dacc5e454a72ce167a8f8e8a2'}
+  - {path: 'research/active/VARANASI-COMPLETE-001/ZILVER/experience_reviews.jsonl', trigger: 'always; review layer remains OPEN', reason: 'explicit systematic-review shortages', task: 'do not generalize from limited leads', expected_git_
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1648 path=research/active/VARANASI-COMPLETE-001/context/GOUD_CONTEXT.yaml blob_sha=9bc8f310f5a862415a6f02c28bda3c896efe84f5 original_offset=12288 original_length=3344 payload_bytes=3344 chunk_index=3 chunk_count=4 classification=text
+blob_sha: 'b467e9c44ff8aa612bddf512a83e74a1b1d1e3a5'}
+  - {path: 'research/active/VARANASI-COMPLETE-001/ZILVER/proximity.jsonl', trigger: 'always; final proximity output is required', reason: 'fifteen straight-line cluster sanity checks', task: 'produce geo_connections without route time or route choice', expected_git_blob_sha: '173e7f288e81fcf5f624a0eb0778eadf921e3db0'}
+  - {path: 'research/active/VARANASI-COMPLETE-001/ZILVER/formal_ab_coverage.md', trigger: 'always; immutable map loss-control', reason: 'formal A/B audit', task: 'confirm exact 28 A, 2 B, 30 markers and no status change', expected_git_blob_sha: '0b74949874397526f06341578077d6429e9072f4'}
+  - {path: 'research/active/VARANASI-COMPLETE-001/ZILVER/audit.md', trigger: 'always; predecessor technical assertions require final validation', reason: 'ZILVER technical audit', task: 'validate counts, scope prohibitions and completion', expected_git_blob_sha: '375868f725c6afe69fd66615c9b15316cdd2ca1e'}
+forbidden_files:
+  - 'research/active/KUMAON-ROUTE-OPTIMIZATION-001/**'
+  - 'research/completed/**'
+  - 'pipeline/**/PARELS/**'
+  - 'every repository file not listed in required_files or activated by an explicit optional_files trigger'
+priority_order:
+  - research/active/VARANASI-COMPLETE-001/run.yaml
+  - research/active/VARANASI-COMPLETE-001/state.yaml
+  - research/active/VARANASI-COMPLETE-001/events.jsonl
+  - research/active/VARANASI-COMPLETE-001/scope.md
+  - research/active/VARANASI-COMPLETE-001/ZILVER/manifest.yaml
+  - research/active/VARANASI-COMPLETE-001/ZILVER/handoff.yaml
+  - research/active/VARANASI-COMPLETE-001/ZILVER/COMPLETED
+  - research/active/VARANASI-COMPLETE-001/ZILVER/candidates.jsonl
+  - research/active/VARANASI-COMPLETE-001/ZILVER/claims.jsonl
+  - research/active/VARANASI-COMPLETE-001/ZILVER/MASTER_A_B_GEO_REGISTRY_VERIFIED.jsonl
+  - research/active/VARANASI-COMPLETE-001/ZILVER/INDIA_ALL_FORMAL_A_B_WORKING_ZILVER.kml
+maximum_context_budget: {required_files: 34, optional_files_maximum_when_triggered: 15, lines_per_file: 1500}
+predecessor_manifest: research/active/VARANASI-COMPLETE-001/ZILVER/manifest.yaml
+output_path: research/active/VARANASI-COMPLETE-001/GOUD/
+required_outputs:
+  - decision.md
+  - decision_inputs.md
+  - geo_locations.jsonl
+  - geo_connections.jsonl
+  - location_id_audit.md
+  - INDIA_ALL_FORMAL_A_B_WORKING.kml
+  - CANONICAL_INTEGRATION_PROPOSAL.md
+  - MARK_FINAL_REPORT.md
+  - manifest.yaml
+  - COMPLETED
+completion_destination: VOOR_MARK
+post_completion:
+  mode: MARK_FINAL_REPORT
+  target_role: MARK
+  emit_next_role_handoff: false
+  report_template: pipeline/templates/MARK_FINAL_REPORT_TEMPLATE.md
+  canonical_integration:
+    mode: DETERMINISTIC_NON_DECISIONAL
+    proposal_template: pipeline/templates/CANONICAL_INTEGRATION_PROPOSAL_TEMPLATE.md
+    allowed_registry_path: knowledge/places/registry.jsonl
+    allowed_decisions_index_path: decisions/INDEX.yaml
+    forbid_new_or_changed_abc: true
+    forbid_new_decision_id: true
+    require_mark_decision_on_content_choice: true
+constraints:
+  preserve_all_40_candidates: true
+  preserve_formal_A_28: true
+  preserve_formal_B_2: true
+  preserve_master_placemarks_30: true
+  A_only_green: true
+  B_only_orange: true
+  new_permanent_place_ids_by_goud_forbidden: true
+  no_route_base_hotel_station_decision: true
+  no_parked_run_read_or_write: true
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1649 path=research/active/VARANASI-COMPLETE-001/context/ZILVER_CONTEXT.yaml blob_sha=69b8b9a56b35a2da0f1b371a8fc85806b1f6a531 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=4 classification=text
+schema_version: 3
+run_id: VARANASI-COMPLETE-001
+role: ZILVER
+status: READY
+source_commit: d4459c0f58c4a9ab88213e4f04a1e61d291a1124
+context_profile: ZILVER_MIN
+protocol_versions:
+  pipeline: 3.1.1
+  methodology: 3.0.0
+  execution_protocol: 2.3.1
+  controller_transition_protocol: 2.3.1
+  role_handoff_protocol: 1.1
+required_files:
+  - {path: pipeline/ENTRYPOINT.md, reason: executable entrypoint, task: obey preflight stop conditions and phase lifecycle, expected_git_blob_sha: 2cb50f0e6307bded90da1bb7418e103791c96dd4}
+  - {path: pipeline/roles/ZILVER.md, reason: independent verification contract, task: verify and improve BRONS without status assignment, expected_git_blob_sha: a71a39c3693388f2feb93a32d27969e7dfe0b54a}
+  - {path: knowledge/methodology/METHODOLOGY_V2.md, reason: physical-place and devotional methodology, task: separate evidence domains and project confirmation, expected_git_blob_sha: cba69457b46f26f60a4775a848f9fc4bf01000ff}
+  - {path: pipeline/protocols/EVIDENCE_PROTOCOL.md, reason: atomic claim and source rules, task: independently open every material source and correct claim classification, expected_git_blob_sha: 5d853e6dae868495782363d0864f641fa2747186}
+  - {path: pipeline/QUALITY_GATE.md, reason: technical and substantive gate, task: validate all OPEN and load-bearing layers, expected_git_blob_sha: 8c9d39ed09e8992d785baf15d727a920ccdbb0c0}
+  - {path: pipeline/protocols/EXECUTION_PROTOCOL.md, reason: claim and completion lifecycle, task: claim and complete only ZILVER, expected_git_blob_sha: f384e45c824ea4c10194dbf476b30b61312a0ed2}
+  - {path: pipeline/protocols/LONG_RUNNING_EXECUTION_PROTOCOL.md, reason: controlled checkpoint rules, task: checkpoint before exhaustion and do not repeat validated blocks, expected_git_blob_sha: 0640c6af87df2ed94155fa5b04b377c2e729161a}
+  - {path: pipeline/protocols/CONTEXT_PROTOCOL.md, reason: deterministic read boundary, task: read only this manifest and explicit optional triggers, expected_git_blob_sha: 872bce45f01e276d76dc65479c09e71dc72a15de}
+  - {path: pipeline/protocols/GEO_LOCATION_PROTOCOL.md, reason: identifier and GEO integrity, task: verify working points and preserve permanent identifiers, expected_git_blob_sha: 149c0515010930ec9306a6d68f5beb2a7b3bbe91}
+  - {path: pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md, reason: later separate GOUD transition, task: do not create GOUD context as ZILVER worker, expected_git_blob_sha: 0c52ebc9a2be47583e08619c6422efad582619b3}
+  - {path: pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md, reason: worker-controller separation, task: close ZILVER workerclaim before inline controller activation, expected_git_blob_sha: f4663ed3049f5d5586fcf6fc98d8c64a292b1998}
+  - {path: pipeline/protocols/SELF_ROUTING_PROTOCOL.md, reason: deterministic next-role routing, task: emit GOUD handoff only after valid transition, expected_git_blob_sha: b6b7f07bd7f6c946ba35776124f8fa6e6ced564c}
+  - {path: pipeline/CONTEXT_PROFILES.yaml, reason: ZILVER_MIN reopening policy, task: reopen OPEN and high-risk layers, expected_git_blob_sha: 4526bb1fe5e3605d63af45d81f8efb152bef1863}
+  - {path: pipeline/templates/NEXT_ACTION_V3_TEMPLATE.yaml, reason: later GOUD routing schema, task: use only after ZILVER completion, expected_git_blob_sha: 7ad211a3f1f6da02643c52b60b4839f9facbc87d}
+  - {path: pipeline/templates/NEXT_ROLE_HANDOFF_TEMPLATE.md, reason: later GOUD handoff format, task: emit only after READY_FOR_GOUD, expected_git_blob_sha: 048ed3df254d0e98ac7c94c943dcfe122214633a}
+  - {path: pipeline/templates/HANDOFF_LAYER_STATUS_TEMPLATE.yaml, reason: layer handoff schema, task: classify each ZILVER layer, expected_git_blob_sha: 335f43721be70f999ccc43f4d1873108ac42c6db}
+  - {path: research/active/VARANASI-COMPLETE-001/run.yaml, reason: immutable run policy, task: preserve scope map rules and parked-run prohibition, expected_git_blob_sha: b0e000c62188a102144eb68888bcd2864901686a}
+  - {path: research/active/VARANASI-COMPLETE-001/scope.md, reason: full Varanasi and A/B map contract, task: verify every detector candidate and map requirement, expected_git_blob_sha: 6a53e32
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1650 path=research/active/VARANASI-COMPLETE-001/context/ZILVER_CONTEXT.yaml blob_sha=69b8b9a56b35a2da0f1b371a8fc85806b1f6a531 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=4 classification=text
+88a9c765feb8c0481ebbb9aa7b3100af5}
+  - {path: research/active/VARANASI-COMPLETE-001/state.yaml, reason: executable READY state, task: require READY_FOR_ZILVER and both claims CLOSED before claiming, expected_git_blob_sha: 0d9170d04209effc1f373335cb09f49200c0f256}
+  - {path: research/active/VARANASI-COMPLETE-001/events.jsonl, reason: append-only transition cursor, task: verify events end at EVT-0007 and match READY_FOR_ZILVER, expected_git_blob_sha: 4226b8636db5ef1964dbb9b734d75c5dabb6a8a9}
+  - {path: pipeline/NEXT_ACTION.yaml, reason: exact ZILVER routing, task: verify route run expected state and context path, expected_git_blob_sha: 57061a9907c05648fa9c82597209c493a566fe79}
+  - {path: LOCKED_A.md, reason: immutable formal A source, task: preserve exactly 28 A, expected_git_blob_sha: 4f2a9a1adf2f8046652035a72b8b76bce884d012}
+  - {path: LOCKED_B.md, reason: immutable formal B source, task: preserve exactly 2 B, expected_git_blob_sha: ee35ea06ee760563344640103680cb28ae67ea1d}
+  - {path: decisions/INDEX.yaml, reason: valid decision index, task: create no new decision and alter no formal status, expected_git_blob_sha: 2ce46e9b7328da8ab4a5301b81a707777d967466}
+  - {path: knowledge/places/registry.jsonl, reason: canonical aliases and IDs, task: detect duplicate physical places and preserve existing records, expected_git_blob_sha: 3aa17754af90f45dd5a122a14b2fb98f1f87a485}
+  - {path: research/active/VARANASI-COMPLETE-001/shared/MASTER_A_B_GEO_REGISTRY.jsonl, reason: only editable A/B map source, task: independently validate 28 A 2 B 30 active records and all GEO fields, expected_git_blob_sha: da7be7eb5257398b6d49681bb52abcebe1499688}
+  - {path: research/active/VARANASI-COMPLETE-001/BRONS/manifest.yaml, reason: authoritative predecessor inventory, task: validate counts hashes and completion assertions, expected_git_blob_sha: ca77522e980c6a9e3cf9fc80ff66f01def128d47}
+  - {path: research/active/VARANASI-COMPLETE-001/BRONS/handoff.yaml, reason: risk-based BRONS handoff, task: reopen every OPEN and load-bearing layer, expected_git_blob_sha: 56ff02e8fdc005a9407558f8413d194134f4bcdc}
+  - {path: research/active/VARANASI-COMPLETE-001/BRONS/COMPLETED, reason: completion sentinel, task: verify PARTIAL output and validation list, expected_git_blob_sha: c5259ec5c661d1e1350dcc376f0963ea06936f49}
+  - {path: research/active/VARANASI-COMPLETE-001/BRONS/report/INDEX.md, reason: mandatory report order, task: read all five report parts, expected_git_blob_sha: 93782220b287d810ab56b6ff3589064450a9d96f}
+  - {path: research/active/VARANASI-COMPLETE-001/BRONS/report/01_candidate_map.md, reason: candidate map, task: verify 40 physical candidates and loss control, expected_git_blob_sha: c8376dadb03d95546b88037a7c7b282eabb63b02}
+  - {path: research/active/VARANASI-COMPLETE-001/BRONS/report/02_lineages_and_living_practice.md, reason: lineage and practice narrative, task: independently verify Kriya Trailanga Anandamayi Ramakrishna Kabir and Aghor layers, expected_git_blob_sha: 16f67a67a3f453f8a0ab6b634b6df854d288f2ef}
+  - {path: research/active/VARANASI-COMPLETE-001/BRONS/report/03_ghats_temples_and_sarnath.md, reason: ghats temples and Sarnath narrative, task: verify living practice etiquette and separate physical objects, expected_git_blob_sha: 9af97539496fc8b75fc7b710daa3047f42615349}
+  - {path: research/active/VARANASI-COMPLETE-001/BRONS/report/04_master_ab_registry_and_kml.md, reason: master map narrative, task: verify exact registry-to-KML equality, expected_git_blob_sha: 73f5ac93159dd94d9e6afe79b8c4055810a81e09}
+  - {path: research/active/VARANASI-COMPLETE-001/BRONS/report/05_quality_gate_and_conclusion.md, reason: predecessor quality conclusion, task: test PARTIAL and all listed gaps, expected_git_blob_sha: 6a3e9694871452490d939fa665c17799c7e9c124}
+  - {path: research/active/VARANASI-COMPLETE-001/BRONS/candidates.jsonl, reason: forty-candidate register, task: verify identity aliases clusters and status preservation, expected_git_blob_sha: 1b015549c66a08e3821365e94a5295e2e4ac9321}
+  - {path: research/active/VARANASI-COMPLETE-001/BRONS/claims.jsonl, re
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1651 path=research/active/VARANASI-COMPLETE-001/context/ZILVER_CONTEXT.yaml blob_sha=69b8b9a56b35a2da0f1b371a8fc85806b1f6a531 original_offset=8192 original_length=4096 payload_bytes=4096 chunk_index=2 chunk_count=4 classification=text
+ason: fifty-seven atomic claims, task: open every material source and correct wording or domain, expected_git_blob_sha: 0ce9516a2ab143a3c5780821d2b0c0123ef8df69}
+  - {path: research/active/VARANASI-COMPLETE-001/BRONS/sources/registry.jsonl, reason: accepted source registry, task: independently validate 22 accepted sources, expected_git_blob_sha: 16d2425473d6d1773757554a386795f18e3f5bfc}
+  - {path: research/active/VARANASI-COMPLETE-001/BRONS/sources/rejected.jsonl, reason: rejected source registry, task: verify 6 unique rejected IDs and VR-004 claim resolution, expected_git_blob_sha: 9077bb3678baf6c57a5a5f4785f6b51f4a66be13}
+  - {path: research/active/VARANASI-COMPLETE-001/BRONS/detector_checks.jsonl, reason: eight required detectors, task: repeat material detector checks and find missed physical places, expected_git_blob_sha: d5330bb17a02c6c2c3276a9f6dd2d31153391644}
+  - {path: research/active/VARANASI-COMPLETE-001/BRONS/negative_searches.jsonl, reason: six explicit negative searches, task: strengthen material negatives without treating absence as proof, expected_git_blob_sha: 6ba7455ac40d936d85c7b0fa22f65fafa8249ad9}
+  - {path: research/active/VARANASI-COMPLETE-001/BRONS/working_geo.jsonl, reason: forty working GEO records, task: verify identity coordinates point type and uncertainty, expected_git_blob_sha: 5514d0eb6a3c1d63b287113bbe8b81a299cfad38}
+  - {path: research/active/VARANASI-COMPLETE-001/BRONS/images.jsonl, reason: explicit image shortages, task: build representative ten-function coverage or retain honest shortages, expected_git_blob_sha: 3300048f4ce95746637e4c9c501c501115a50ce2}
+  - {path: research/active/VARANASI-COMPLETE-001/BRONS/experience_reviews.jsonl, reason: explicit review shortages, task: verify recent review themes and daypart or festival differences, expected_git_blob_sha: 805c9152450809c50b3c468a5b8d595ef90a8ff0}
+  - {path: research/active/VARANASI-COMPLETE-001/BRONS/proximity.jsonl, reason: fifteen working relations, task: verify cluster proximity without selecting a route, expected_git_blob_sha: d1420e27bfaa7ca813e4ff761f2975728b07b357}
+  - {path: research/active/VARANASI-COMPLETE-001/BRONS/formal_ab_coverage.md, reason: exact formal map coverage, task: confirm 28 A 2 B and zero omissions, expected_git_blob_sha: c948068948bab5f9f6624a63fe109e27097950b0}
+  - {path: research/active/VARANASI-COMPLETE-001/BRONS/INDIA_ALL_FORMAL_A_B_WORKING_PREPARED.kml, reason: prepared two-layer KML, task: validate XML styles 30 placemarks and forbidden-category absence, expected_git_blob_sha: 510ccbcbc8665b12ba2edff807638558f41a677d}
+  - {path: research/active/VARANASI-COMPLETE-001/BRONS/audit.md, reason: technical predecessor audit, task: challenge all counts hashes and preservation claims, expected_git_blob_sha: dd342c6d1f80c1601502ce9b5586e628a221978b}
+optional_files:
+  - {path: pipeline/protocols/CONTINUOUS_LEARNING_PROTOCOL.md, trigger: only after ZILVER worker completion when separate controllerrole begins or a genuine defect is found, reason: defect classification, task: do not modify protocols during worker phase, expected_git_blob_sha: 38186f203d33623fc11476d712410284cb49b95b}
+forbidden_files:
+  - research/active/VARANASI-COMPLETE-001/context/GOUD_CONTEXT.yaml
+  - research/active/KUMAON-ROUTE-OPTIMIZATION-001/**
+  - every earlier phase output not explicitly listed
+priority_order:
+  - research/active/VARANASI-COMPLETE-001/run.yaml
+  - research/active/VARANASI-COMPLETE-001/state.yaml
+  - research/active/VARANASI-COMPLETE-001/events.jsonl
+  - research/active/VARANASI-COMPLETE-001/BRONS/manifest.yaml
+  - research/active/VARANASI-COMPLETE-001/BRONS/handoff.yaml
+  - research/active/VARANASI-COMPLETE-001/BRONS/COMPLETED
+  - research/active/VARANASI-COMPLETE-001/BRONS/report/INDEX.md
+  - research/active/VARANASI-COMPLETE-001/BRONS/claims.jsonl
+  - research/active/VARANASI-COMPLETE-001/BRONS/sources/registry.jsonl
+  - research/active/VARANASI-COMPLETE-001/BRONS/sources/rejected.jsonl
+  - research/active/VARANASI-COMPLETE-001/shared/MASTER_A_B_GEO_REGISTRY.jsonl
+  - research/active/VARANASI-COMPLETE-001/BRONS/INDIA
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1652 path=research/active/VARANASI-COMPLETE-001/context/ZILVER_CONTEXT.yaml blob_sha=69b8b9a56b35a2da0f1b371a8fc85806b1f6a531 original_offset=12288 original_length=489 payload_bytes=489 chunk_index=3 chunk_count=4 classification=text
+_ALL_FORMAL_A_B_WORKING_PREPARED.kml
+maximum_context_budget:
+  required_files: 48
+  optional_files_maximum_when_triggered: 1
+  lines_per_file: 2000
+predecessor_manifest: research/active/VARANASI-COMPLETE-001/BRONS/manifest.yaml
+output_path: research/active/VARANASI-COMPLETE-001/ZILVER/
+completion_destination: VOOR_VOLGEND_METAAL
+post_completion:
+  mode: INLINE_POST_PHASE_CONTROLLER
+  target_role: GOUD
+  target_ready_state: READY_FOR_GOUD
+  emit_next_role_handoff: true
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1653 path=research/active/VARANASI-COMPLETE-001/events.jsonl blob_sha=b47a9e1961a1b6a21ef016e257953cd48f5f5a99 original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=3 classification=text
+{"event_id":"EVT-0001","run_id":"VARANASI-COMPLETE-001","event":"RUN_CREATED","at":"2026-07-20T20:58:18+02:00","actor":"INDIA2","commit":"ee4e3b62789de527611d7f1b43d3cbf944a07cc6"}
+{"event_id":"EVT-0002","run_id":"VARANASI-COMPLETE-001","event":"READY_FOR_BRONS","at":"2026-07-20T21:02:00+02:00","actor":"INDIA2","state":"READY_FOR_BRONS","context":"research/active/VARANASI-COMPLETE-001/context/BRONS_CONTEXT.yaml"}
+{"event_id":"EVT-0003","run_id":"VARANASI-COMPLETE-001","event_type":"CLAIMED","at":"2026-07-20T21:30:00+02:00","actor":"ChatGPT-BRONS","role":"BRONS","claimed_by":"ChatGPT-BRONS","source_commit":"5e351144fe19fe40b487588c43827dc937df3de6","expected_state":"READY_FOR_BRONS","output_path":"research/active/VARANASI-COMPLETE-001/BRONS/","claim_status":"ACTIVE","from_state":"READY_FOR_BRONS","to_state":"BRONS_CLAIMED","claim_commit":"8c9b26aaddf5cc7e05a1ced1a218b09a5cbebe58","notes":"Claimed after GitHub read/write preflight, complete required-context read, exact blob-SHA validation, sentinel checks and state/event synchronization."}
+{"event_id":"EVT-0004","run_id":"VARANASI-COMPLETE-001","event_type":"BRONS_COMPLETED","at":"2026-07-20T23:20:00+02:00","actor":"ChatGPT-BRONS","role":"BRONS","result_status":"PARTIAL","claim_status":"CLOSED","source_commit":"5e351144fe19fe40b487588c43827dc937df3de6","output_manifest":"research/active/VARANASI-COMPLETE-001/BRONS/manifest.yaml","completion_commit_ref":"d4459c0f58c4a9ab88213e4f04a1e61d291a1124","from_state":"BRONS_CLAIMED","to_state":"BRONS_COMPLETE","notes":"All mandatory BRONS artifacts completed and reopened. Forty Varanasi/Sarnath candidates, 57 claims, 28 formal A, 2 formal B and a 30-placemark prepared KML are structurally coherent. Image and review shortages remain explicit; no status, route, hotel, base or parked-run mutation occurred."}
+{"event_id":"EVT-0005","run_id":"VARANASI-COMPLETE-001","event_type":"TRANSITION_CLAIMED","at":"2026-07-20T23:35:00+02:00","actor":"ChatGPT-INLINE-CONTROLLER","transition":"BRONS_COMPLETE_TO_READY_FOR_ZILVER","source_commit":"d4459c0f58c4a9ab88213e4f04a1e61d291a1124","expected_state":"BRONS_COMPLETE","target_context_manifest":"research/active/VARANASI-COMPLETE-001/context/ZILVER_CONTEXT.yaml","activation_mode":"INLINE_POST_PHASE_CONTROLLER","claim_status":"ACTIVE","from_state":"BRONS_COMPLETE","to_state":"TRANSITION_TO_ZILVER_CLAIMED","notes":"Separate controller claim after BRONS worker termination, repeated GitHub preflight and controller protocol reread."}
+{"event_id":"EVT-0006","run_id":"VARANASI-COMPLETE-001","event_type":"CONTEXT_PREPARED","at":"2026-07-20T23:49:00+02:00","actor":"ChatGPT-INLINE-CONTROLLER","source_commit":"d4459c0f58c4a9ab88213e4f04a1e61d291a1124","context_manifest":"research/active/VARANASI-COMPLETE-001/context/ZILVER_CONTEXT.yaml","context_profile":"ZILVER_MIN","predecessor_manifest":"research/active/VARANASI-COMPLETE-001/BRONS/manifest.yaml","from_state":"TRANSITION_TO_ZILVER_CLAIMED","to_state":"TRANSITION_TO_ZILVER_CLAIMED","notes":"Definitive ZILVER context prepared from the validated BRONS completion with explicit hashes for all predecessor artifacts and final state/routing files."}
+{"event_id":"EVT-0007","run_id":"VARANASI-COMPLETE-001","event_type":"TRANSITIONED","at":"2026-07-20T23:50:00+02:00","actor":"ChatGPT-INLINE-CONTROLLER","transition":"BRONS_COMPLETE_TO_READY_FOR_ZILVER","source_commit":"d4459c0f58c4a9ab88213e4f04a1e61d291a1124","context_manifest":"research/active/VARANASI-COMPLETE-001/context/ZILVER_CONTEXT.yaml","next_action":"pipeline/NEXT_ACTION.yaml","claim_status":"CLOSED","transition_commit_ref":"THIS_ATOMIC_COMMIT","from_state":"TRANSITION_TO_ZILVER_CLAIMED","to_state":"READY_FOR_ZILVER","next_route":"ZILVER","notes":"BRONS predecessor validated as technically coherent with PARTIAL content status preserved. No repair or system change required; ZILVER must reopen all OPEN and load-bearing layers."}
+{"event_id":"EVT-0008","run_id":"VARANASI-COMPLETE-001","event_type":"CLAIMED","at":"2026-07-21T08:25:35+02:00","actor":"ChatGPT-ZILVER","role":"ZILVER","claimed_by":"ChatGPT-ZILVER","sour
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1654 path=research/active/VARANASI-COMPLETE-001/events.jsonl blob_sha=b47a9e1961a1b6a21ef016e257953cd48f5f5a99 original_offset=4096 original_length=4096 payload_bytes=4096 chunk_index=1 chunk_count=3 classification=text
+ce_commit":"d4459c0f58c4a9ab88213e4f04a1e61d291a1124","expected_state":"READY_FOR_ZILVER","output_path":"research/active/VARANASI-COMPLETE-001/ZILVER/","claim_status":"ACTIVE","from_state":"READY_FOR_ZILVER","to_state":"ZILVER_CLAIMED","claim_commit_ref":"THIS_ATOMIC_COMMIT","notes":"Claimed after GitHub read/write preflight, complete required-context read, exact blob-SHA validation, sentinel checks, state/event synchronization and explicit parked-run protection."}
+{"event_id":"EVT-0009","run_id":"VARANASI-COMPLETE-001","event_type":"ZILVER_COMPLETED","at":"2026-07-21T09:08:00+02:00","actor":"ChatGPT-ZILVER","role":"ZILVER","result_status":"PARTIAL","claim_status":"CLOSED","source_commit":"d4459c0f58c4a9ab88213e4f04a1e61d291a1124","output_manifest":"research/active/VARANASI-COMPLETE-001/ZILVER/manifest.yaml","completion_commit":"ddf5f7963feb67d3ea8436cdccbc1c1c68685c68","completion_commit_ref":"ddf5f7963feb67d3ea8436cdccbc1c1c68685c68","from_state":"ZILVER_CLAIMED","to_state":"ZILVER_COMPLETE","notes":"All ZILVER artifacts were reopened from GitHub and validated. Forty candidates and fifty-seven claims were independently reassessed. Thirty-five identities are confirmed, three retained as limited working objects and two remain partial. The repositorywide map remains exactly 28 A, 2 B and 30 placemarks with A only green and B only orange. Image, review, access and micro-identity gaps remain explicit; no formal status, decision, route or parked-run mutation occurred."}
+{"event_id":"EVT-0010","run_id":"VARANASI-COMPLETE-001","event_type":"TRANSITION_CLAIMED","at":"2026-07-21T09:11:30+02:00","actor":"ChatGPT-INLINE-CONTROLLER","transition":"ZILVER_COMPLETE_TO_READY_FOR_GOUD","source_commit":"ddf5f7963feb67d3ea8436cdccbc1c1c68685c68","expected_state":"ZILVER_COMPLETE","target_context_manifest":"research/active/VARANASI-COMPLETE-001/context/GOUD_CONTEXT.yaml","activation_mode":"INLINE_POST_PHASE_CONTROLLER","claim_status":"ACTIVE","from_state":"ZILVER_COMPLETE","to_state":"TRANSITION_TO_GOUD_CLAIMED","notes":"Separate controller claim after ZILVER worker termination, repeated GitHub read/write preflight and controller, continuous-learning and handoff protocol reread."}
+{"event_id":"EVT-0011","run_id":"VARANASI-COMPLETE-001","event_type":"CONTEXT_PREPARED","at":"2026-07-21T09:15:30+02:00","actor":"ChatGPT-INLINE-CONTROLLER","source_commit":"ddf5f7963feb67d3ea8436cdccbc1c1c68685c68","context_manifest":"research/active/VARANASI-COMPLETE-001/context/GOUD_CONTEXT.yaml","context_profile":"GOUD_MIN","predecessor_manifest":"research/active/VARANASI-COMPLETE-001/ZILVER/manifest.yaml","from_state":"TRANSITION_TO_GOUD_CLAIMED","to_state":"TRANSITION_TO_GOUD_CLAIMED","notes":"Definitive GOUD context prepared from the validated ZILVER PARTIAL completion with all corrected and open layers explicitly pinned, plus exact formal A/B master-map constraints."}
+{"event_id":"EVT-0012","run_id":"VARANASI-COMPLETE-001","event_type":"TRANSITIONED","at":"2026-07-21T09:16:00+02:00","actor":"ChatGPT-INLINE-CONTROLLER","transition":"ZILVER_COMPLETE_TO_READY_FOR_GOUD","source_commit":"ddf5f7963feb67d3ea8436cdccbc1c1c68685c68","context_manifest":"research/active/VARANASI-COMPLETE-001/context/GOUD_CONTEXT.yaml","next_action":"pipeline/NEXT_ACTION.yaml","claim_status":"CLOSED","transition_commit":"THIS_ATOMIC_COMMIT","transition_commit_ref":"THIS_ATOMIC_COMMIT","from_state":"TRANSITION_TO_GOUD_CLAIMED","to_state":"READY_FOR_GOUD","next_route":"GOUD","notes":"ZILVER predecessor validated as technically coherent with PARTIAL content status preserved. GOUD must finalize all forty candidates, retain explicit identity/access/image/review gaps, deliver the exact 28-A/2-B/30-marker KML and complete Mark report, and apply only deterministic non-decisional canonical integration without allocating new permanent IDs."}
+{"event_id":"EVT-0013","run_id":"VARANASI-COMPLETE-001","event_type":"CLAIMED","at":"2026-07-21T17:20:00+02:00","actor":"ChatGPT-GOUD","role":"GOUD","claimed_by":"ChatGPT-GOUD","source_commit":"ddf5f7963feb67d3ea8436cdccbc1c1c68685c68","expected_state":"RE
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1655 path=research/active/VARANASI-COMPLETE-001/events.jsonl blob_sha=b47a9e1961a1b6a21ef016e257953cd48f5f5a99 original_offset=8192 original_length=1610 payload_bytes=1610 chunk_index=2 chunk_count=3 classification=text
+ADY_FOR_GOUD","output_path":"research/active/VARANASI-COMPLETE-001/GOUD/","claim_status":"ACTIVE","from_state":"READY_FOR_GOUD","to_state":"GOUD_CLAIMED","claim_commit":"484cb3dcac961e4963b04e3492952e1c440d5c5c","notes":"Claimed after GitHub read/write preflight, exact NEXT_ACTION validation, synchronized state/event cursor, closed predecessor and controller claims, pinned-context hash checks and explicit parked-run protection."}
+{"event_id":"EVT-0014","run_id":"VARANASI-COMPLETE-001","event_type":"GOUD_COMPLETED","at":"2026-07-21T17:36:00+02:00","actor":"ChatGPT-GOUD","role":"GOUD","result_status":"PARTIAL","claim_status":"CLOSED","source_commit":"ddf5f7963feb67d3ea8436cdccbc1c1c68685c68","output_manifest":"research/active/VARANASI-COMPLETE-001/GOUD/manifest.yaml","mark_final_report":"research/active/VARANASI-COMPLETE-001/GOUD/MARK_FINAL_REPORT.md","completion_commit":"THIS_ATOMIC_COMMIT","completion_commit_ref":"THIS_ATOMIC_COMMIT","from_state":"GOUD_CLAIMED","to_state":"GOUD_PARTIAL","completion_destination":"VOOR_MARK","canonical_integration_status":"APPLIED","canonical_integration_commit":"8f23111b8d9810e9673d7853619b21ce15f57a4c","notes":"Authoritative atomic GOUD completion. All 40 candidates, 57 claims, 40 GEO records, 15 cluster relations and the exact 28-A/2-B/30-marker green-orange master KML are coherent. Two existing canonical records received deterministic WORKING_GEO only. No formal/advisory status, decision-ID, permanent place-ID, route, base, station, hotel or first-visit choice was created; the parked Kumaon route run was neither read nor modified."}
+END_OF_ARTIFACT
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1656 path=research/active/VARANASI-COMPLETE-001/predecessor_inventory.md blob_sha=e966ad1522a9aed6581a4b1be2a3247cb6e93044 original_offset=0 original_length=933 payload_bytes=933 chunk_index=0 chunk_count=1 classification=text
+# Predecessor inventory
+
+All existing BRONS, ZILVER and GOUD outputs remain authoritative historical inputs and must not be overwritten.
+
+Mandatory preservation rules:
+- `KUMAON-COMPLETE-001` remains the completed Kumaon cluster dossier.
+- `KUMAON-ROUTE-OPTIMIZATION-001` is parked; its current BRONS and transition material remains intact and this run may not mutate it.
+- Existing Vrindavan, Braj, Agra, Bodh Gaya and other project records may be read only when explicitly listed in the BRONS context or triggered for A/B coverage reconciliation.
+- `LOCKED_A.md`, `LOCKED_B.md`, decisions and the canonical place registry determine existing formal status. No worker may infer a status change from map data.
+- Existing coordinates are reused when valid. New working coordinates supplement rather than erase provenance.
+
+The new run creates its own BRONS output under `research/active/VARANASI-COMPLETE-001/BRONS/`.
+
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1657 path=research/active/VARANASI-COMPLETE-001/run.yaml blob_sha=b0e000c62188a102144eb68888bcd2864901686a original_offset=0 original_length=4096 payload_bytes=4096 chunk_index=0 chunk_count=2 classification=text
+schema_version: 3
+run_id: VARANASI-COMPLETE-001
+project: india
+run_type: CLUSTER_SWEEP
+scope_file: research/active/VARANASI-COMPLETE-001/scope.md
+created_at: 2026-07-20T20:58:18+02:00
+created_by: INDIA2
+immutable_after_first_claim: true
+operating_mode: CONTROLLED_MANUAL_INLINE_HANDOFF
+context_profile: BRONS_MIN
+production_gate:
+  smoke_result: pipeline/tests/results/PIPELINE_HANDOFF_SMOKE_001_RESULT.md
+  required_value: "PRODUCTION_READY: YES"
+  verified_on_main: true
+pins:
+  entrypoint: pipeline/ENTRYPOINT.md
+  run_template: pipeline/templates/RUN_TEMPLATE_V3.md
+  methodology: knowledge/methodology/METHODOLOGY_V2.md
+  evidence_protocol: pipeline/protocols/EVIDENCE_PROTOCOL.md
+  quality_gate: pipeline/QUALITY_GATE.md
+  execution_protocol: pipeline/protocols/EXECUTION_PROTOCOL.md
+  long_running_execution_protocol: pipeline/protocols/LONG_RUNNING_EXECUTION_PROTOCOL.md
+  context_protocol: pipeline/protocols/CONTEXT_PROTOCOL.md
+  controller_transition_protocol: pipeline/protocols/CONTROLLER_TRANSITION_PROTOCOL.md
+  continuous_learning_protocol: pipeline/protocols/CONTINUOUS_LEARNING_PROTOCOL.md
+  self_routing_protocol: pipeline/protocols/SELF_ROUTING_PROTOCOL.md
+  role_handoff_protocol: pipeline/protocols/ROLE_HANDOFF_PROTOCOL.md
+  geo_protocol: pipeline/protocols/GEO_LOCATION_PROTOCOL.md
+  context_profiles: pipeline/CONTEXT_PROFILES.yaml
+  next_action_template: pipeline/templates/NEXT_ACTION_V3_TEMPLATE.yaml
+  next_role_handoff_template: pipeline/templates/NEXT_ROLE_HANDOFF_TEMPLATE.md
+  mark_final_report_template: pipeline/templates/MARK_FINAL_REPORT_TEMPLATE.md
+  canonical_integration_proposal_template: pipeline/templates/CANONICAL_INTEGRATION_PROPOSAL_TEMPLATE.md
+  handoff_layer_template: pipeline/templates/HANDOFF_LAYER_STATUS_TEMPLATE.yaml
+  place_registry: knowledge/places/registry.jsonl
+  place_numbering_policy: knowledge/places/NUMBERING_POLICY.md
+  decisions_index: decisions/INDEX.yaml
+  roles:
+    BRONS: pipeline/roles/BRONS.md
+    ZILVER: pipeline/roles/ZILVER.md
+    GOUD: pipeline/roles/GOUD.md
+versions:
+  pipeline: 3.1.1
+  methodology: 3.0.0
+source_base_commit: c57b7b8140d43f8d2ba0bd98856f1f2221df8791
+issues:
+  execution_issue: 19
+  master_kml_issue: 17
+predecessor_policy:
+  preserve_all_existing_phase_outputs: true
+  overwrite_old_brons_forbidden: true
+  parked_run: KUMAON-ROUTE-OPTIMIZATION-001
+  parked_run_mutation_forbidden: true
+status_policy:
+  only_mark_changes_formal_abc: true
+  preserve_existing_formal_abc: true
+  new_candidates_may_receive_advisory_status: true
+  unassessed_human_name: D_DOOR_MARK_TE_BEOORDELEN
+geo_policy:
+  target: PRACTICAL_WORKING_MAP
+  preferred_point: RECOGNIZABLE_GOOGLE_MAPS_PIN
+  acceptable_alternatives: [SITE_CENTRE, ADDRESS_POINT, APPROXIMATE_LOCAL_POINT]
+  target_accuracy_m: 100
+  exact_error_calculation_required: false
+  missing_precision_must_not_block_marker: true
+  uncertainty_must_be_visible: true
+kml_policy:
+  source_of_truth: research/active/VARANASI-COMPLETE-001/shared/MASTER_A_B_GEO_REGISTRY.jsonl
+  output_path: research/active/VARANASI-COMPLETE-001/GOUD/INDIA_ALL_FORMAL_A_B_WORKING.kml
+  layers: [A_FORMEEL, B_FORMEEL]
+  include_c: false
+  a_color: GREEN
+  b_color: ORANGE
+  category_logos_forbidden: true
+  marker_name_policy: "Readable name; when mainly Indian terminology, add short Dutch function in parentheses"
+  examples: ["Kashi Vishwanath (Shiva-tempel)", "Manikarnika Ghat (crematieghat)"]
+  deterministic_generation_required: true
+  coverage_equality_required: true
+claim_policy:
+  worker_claim_initial_status: ACTIVE
+  close_worker_claim_in_completion_commit: true
+  controller_claim_initial_status: ACTIVE
+  close_controller_claim_in_transition_commit: true
+post_completion_policy:
+  BRONS: {mode: INLINE_POST_PHASE_CONTROLLER, target_role: ZILVER, target_ready_state: READY_FOR_ZILVER}
+  ZILVER: {mode: INLINE_POST_PHASE_CONTROLLER, target_role: GOUD, target_ready_state: READY_FOR_GOUD}
+  GOUD:
+    mode: MARK_FINAL_REPORT
+    completion_destination: VOOR_MARK
+    canonical_integration:
+      mode: DETERMINISTIC_NON_DECISIONAL
+      proposal_template: pipeline/templa
+<<< END CHUNK >>>
+
+>>> CHUNK stream_row=1658 path=research/active/VARANASI-COMPLETE-001/run.yaml blob_sha=b0e000c62188a102144eb68888bcd2864901686a original_offset=4096 original_length=375 payload_bytes=375 chunk_index=1 chunk_count=2 classification=text
+tes/CANONICAL_INTEGRATION_PROPOSAL_TEMPLATE.md
+      allowed_registry_path: knowledge/places/registry.jsonl
+      allowed_decisions_index_path: decisions/INDEX.yaml
+      forbid_new_or_changed_abc: true
+      forbid_new_decision_id: true
+      require_mark_decision_on_content_choice: true
+parallel_writers_allowed: false
+successor_contexts_precreated: false
+END_OF_ARTIFACT
+
+<<< END CHUNK >>>
+
