@@ -63,3 +63,15 @@ left as-is.
 
 Guardrails respected: no route choice, no A/B/C, no central-canon file modified. This entire
 output lives only on CCI's own new worker branch `agent/cci-india9-full-byte-audit`.
+
+## Addendum 2026-08-23: escalated to task 004, full-repo scope
+
+Task chain continued beyond this single frozen commit with
+`INDIA9-ALL-BRANCH-TIP-UNION-AUDIT-004`, which audits the UNION of ALL 54 current
+branch-tip trees repo-wide (not just this one frozen commit). See
+`../INDIA9-ALL-BRANCH-TIP-UNION-AUDIT-004/ALL_BRANCH_TIP_UNION_ACCOUNTING.md` and its own
+`STATUS.md` for full detail. Headline: the all-branch-tip union is 1,680 unique blobs /
+26,972,137 bytes, of which only 366 blobs / 4,883,398 bytes (this task's own frozen central
+commit) are central-known — 81.9% of the union's unique bytes exist only on non-central
+branches. This confirms and extends, at full-repo scale, the "six-color-agent integration
+gap" headline finding above.
