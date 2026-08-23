@@ -11,6 +11,15 @@ Mark's India trip is primarily a spiritual pilgrimage, but non-person travel dis
 
 The goal is DIVERSITY OF SEARCH, not consensus. Different AI systems/workers must search independently before seeing each other's results.
 
+## TERMINOLOGY — HARD
+Use **cost/kosten** only for money. For route impact use precise terms such as:
+- extra reistijd;
+- omweg;
+- duur;
+- looptijd/rijtijd;
+- logistieke belasting.
+Do not describe a time-efficient or nearby stop as "free/gratis" unless monetary price is literally meant.
+
 ## BLINDNESS — HARD
 Before freezing your own discovery output:
 - DO NOT read existing Lonely Planet discovery outputs, the existing 80 findings, CCI gap-check, or other workers' outputs.
@@ -60,7 +69,7 @@ Prefer 10 excellent findings over 30 ordinary ones. A finding should have at lea
 - unusual experiential value;
 - exceptional beauty/rarity;
 - plausible ability to justify an extra half-day/day or a meaningful detour;
-- very high reward at almost zero route cost.
+- very high reward with almost no extra travel time or detour.
 
 Exclude:
 - generic city top-10 filler;
