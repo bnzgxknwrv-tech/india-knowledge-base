@@ -16,16 +16,16 @@ This is a personal India travel/pilgrimage knowledge base, not a software produc
 ## Current central regie branch
 `agent/india8-cluster-casting`
 
-The central branch currently contains the INDIA9 knowledge-audit imports and the task-008 successor architecture. INDIA9 is simplifying that architecture on `agent/india9-travel-scope-unified` before the final India10 handoff.
+This branch contains the INDIA9 one-time knowledge-audit imports plus the final LIGHT successor architecture agreed by INDIA9 and CCI. The abandoned heavier candidate branch `agent/india9-successor-architecture-integration` is provenance only and is not a competing current authority.
 
 ## Protected canon
 Canonical protected decision file:
 `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv`
 
-Current protected blob at the start of this simplification:
+Current protected blob:
 `a607241caa41637e2167d0f56781bf663f038932`
 
-Existing Mark decisions, permanent IDs and locks must not be silently changed. A later explicit Mark decision may of course supersede an earlier one; when that happens, update the durable canon rather than maintaining competing truth files.
+Existing Mark decisions, permanent IDs and locks must not be silently changed. A later explicit Mark decision may supersede an earlier one; when that happens, update the durable canon rather than maintaining competing truth files.
 
 ## What is active vs historical
 - Current Mark decisions/locks + protected canon: ACTIVE.
@@ -59,6 +59,8 @@ A new IndiaN can responsibly continue when it has read:
 If those disagree, read deeper until the conflict is understood. A full-repository reread is an exceptional recovery tool, not the normal start procedure.
 
 ## Current architecture status
-`INDIA9_SCOPE_SIMPLIFICATION: IN_PROGRESS`
+`INDIA9_SCOPE_SIMPLIFICATION: PASS`
+`CCI_FINAL_SANITY_011: PASS`
+`STOP_OPTIMIZING: JA`
 
-No new travel research is part of this architecture pass. The final India10 handoff will replace this line with the closed status and exact start prompt.
+CCI final review reported validator PASS, protected canon PASS, fast-forward PASS, scope-fit PASS, contradictions NONE and fixes required 0. The next INDIA session should move on to the actual travel/research work rather than further architecture optimization.
