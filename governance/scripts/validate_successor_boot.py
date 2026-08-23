@@ -1,184 +1,87 @@
 #!/usr/bin/env python3
-"""
-validate_successor_boot.py
+"""Light sanity validator for the INDIA travel knowledge base.
 
-Mechanical validator for the task-008 successor boot architecture.
-Fails loudly (non-zero exit, explicit message) on any missing/malformed
-requirement -- never silently passes a missing field.
+Checks only the expensive-to-miss failures:
+- current-state/start files exist;
+- protected canon still matches the SHA recorded in CURRENT_STATE;
+- permanent protected IDs 001..081 are still present exactly once;
+- the simplified boot did not accidentally re-activate the old brute-force mechanics.
 
-Run from the repository root:
-    python3 governance/scripts/validate_successor_boot.py
+A real non-force/fast-forward branch comparison is checked separately immediately
+before a central write. This script is intentionally not a certification system.
 """
+
+from __future__ import annotations
+
 import csv
-import json
-import os
+import hashlib
 import re
+import subprocess
 import sys
+from pathlib import Path
 
-REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+ROOT = Path(__file__).resolve().parents[2]
+errors: list[str] = []
 
-errors = []
-warnings = []
+CURRENT = ROOT / "governance/CURRENT_STATE.md"
+CANON_REL = "runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv"
+CANON = ROOT / CANON_REL
 
-
-def fail(msg):
-    errors.append(msg)
-
-
-def warn(msg):
-    warnings.append(msg)
-
-
-def path(*parts):
-    return os.path.join(REPO_ROOT, *parts)
-
-
-def read_text(*parts):
-    p = path(*parts)
-    if not os.path.isfile(p):
-        return None
-    with open(p, "r", encoding="utf-8") as f:
-        return f.read()
-
-
-def read_jsonl(*parts):
-    p = path(*parts)
-    if not os.path.isfile(p):
-        return None
-    rows = []
-    with open(p, "r", encoding="utf-8") as f:
-        for i, line in enumerate(f, start=1):
-            line = line.strip()
-            if not line:
-                continue
-            try:
-                rows.append(json.loads(line))
-            except json.JSONDecodeError as e:
-                fail(f"{parts[-1]}: line {i} failed to parse as JSON: {e}")
-    return rows
-
-
-# --- 1. latest baseline pointer exists and referenced files exist ---
-latest = read_text("governance", "KNOWLEDGE_BASELINE_LATEST.md")
-if latest is None:
-    fail("governance/KNOWLEDGE_BASELINE_LATEST.md is missing")
-else:
-    m = re.search(r"latest_baseline:\s*(\S+)", latest)
-    if not m:
-        fail("governance/KNOWLEDGE_BASELINE_LATEST.md has no 'latest_baseline:' field")
-    else:
-        baseline_ref = m.group(1)
-        if not os.path.isfile(path(baseline_ref)):
-            fail(f"KNOWLEDGE_BASELINE_LATEST.md points to '{baseline_ref}' which does not exist")
-
-if not os.path.isfile(path("governance", "KNOWLEDGE_BASELINE_2026-08-23.md")):
-    fail("governance/KNOWLEDGE_BASELINE_2026-08-23.md is missing")
-
-# --- 2. protected canon central path exists ---
-canon_path = "runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv"
-if not os.path.isfile(path(canon_path)):
-    fail(f"protected canon not found centrally at {canon_path}")
-else:
-    with open(path(canon_path), newline="", encoding="utf-8") as f:
-        canon_rows = list(csv.DictReader(f))
-    if not canon_rows:
-        fail(f"{canon_path} parsed to zero rows")
-    else:
-        ids = [r.get("entity_id") for r in canon_rows]
-        seen = {}
-        dup_ids = set()
-        for eid in ids:
-            if eid in seen:
-                dup_ids.add(eid)
-            seen[eid] = True
-        if dup_ids:
-            fail(f"protected canon has duplicate entity_id values: {sorted(dup_ids)}")
-
-# --- 3. PRECEDENCE_MAP and CENTRAL_INTEGRATION_REGISTRY exist and parse linewise ---
-prec_rows = read_jsonl("governance", "PRECEDENCE_MAP.jsonl")
-if prec_rows is None:
-    fail("governance/PRECEDENCE_MAP.jsonl is missing")
-elif not prec_rows:
-    fail("governance/PRECEDENCE_MAP.jsonl parsed to zero rows")
-else:
-    required_prec_fields = {"scope", "higher_authority", "lower_authority", "relation",
-                             "reason", "effective_date", "evidence"}
-    for i, r in enumerate(prec_rows, start=1):
-        missing = required_prec_fields - set(r.keys())
-        if missing:
-            fail(f"PRECEDENCE_MAP.jsonl row {i} missing fields: {sorted(missing)}")
-
-integ_rows = read_jsonl("governance", "CENTRAL_INTEGRATION_REGISTRY.jsonl")
-if integ_rows is None:
-    fail("governance/CENTRAL_INTEGRATION_REGISTRY.jsonl is missing")
-elif not integ_rows:
-    fail("governance/CENTRAL_INTEGRATION_REGISTRY.jsonl parsed to zero rows")
-else:
-    required_integ_fields = {"task_path", "source_branch", "worker_output_state",
-                              "central_integration_state"}
-    for i, r in enumerate(integ_rows, start=1):
-        missing = required_integ_fields - set(r.keys())
-        if missing:
-            fail(f"CENTRAL_INTEGRATION_REGISTRY.jsonl row {i} missing fields: {sorted(missing)}")
-
-# --- 4. semantic import registry: exactly 62 category1 source blob SHAs, no duplicates ---
-sem_rows = read_jsonl("governance", "SEMANTIC_IMPORT_REGISTRY_2026-08-23.jsonl")
-if sem_rows is None:
-    fail("governance/SEMANTIC_IMPORT_REGISTRY_2026-08-23.jsonl is missing")
-else:
-    if len(sem_rows) != 62:
-        fail(f"SEMANTIC_IMPORT_REGISTRY_2026-08-23.jsonl has {len(sem_rows)} rows, expected exactly 62")
-    shas = [r.get("blob_sha") for r in sem_rows]
-    if any(s is None for s in shas):
-        fail("SEMANTIC_IMPORT_REGISTRY_2026-08-23.jsonl has a row with no blob_sha")
-    dup_shas = {s for s in shas if shas.count(s) > 1}
-    if dup_shas:
-        fail(f"SEMANTIC_IMPORT_REGISTRY_2026-08-23.jsonl has duplicate blob_sha keys: {sorted(dup_shas)}")
-    dispositions = {r.get("central_disposition") for r in sem_rows}
-    if not dispositions <= {"PROMOTED_CANONICAL", "ARCHIVED_PROVENANCE",
-                             "ALREADY_CENTRAL"}:
-        fail(f"SEMANTIC_IMPORT_REGISTRY_2026-08-23.jsonl has unexpected central_disposition values: {dispositions}")
-    promoted = sum(1 for r in sem_rows if r.get("central_disposition") == "PROMOTED_CANONICAL")
-    archived = sum(1 for r in sem_rows if r.get("central_disposition") == "ARCHIVED_PROVENANCE")
-    if promoted + archived != len(sem_rows):
-        fail("SEMANTIC_IMPORT_REGISTRY_2026-08-23.jsonl: promoted+archived does not equal total row count")
-    # every archived row's central_path must exist on disk; every promoted row's central_path must exist
-    for r in sem_rows:
-        cp = r.get("central_path")
-        if not cp:
-            fail(f"SEMANTIC_IMPORT_REGISTRY_2026-08-23.jsonl row for blob {r.get('blob_sha')} has no central_path")
-            continue
-        if not os.path.isfile(path(cp)):
-            fail(f"SEMANTIC_IMPORT_REGISTRY_2026-08-23.jsonl row for blob {r.get('blob_sha')} points to missing file: {cp}")
-
-# --- 5. required boot/handoff/progress files exist ---
-required_files = [
-    ("governance", "INDIA_SUCCESSOR_BOOT_PROTOCOL.md"),
-    ("governance", "ACTIVE_FRAMEWORK.md"),
-    ("handoffs", "INDIA9_TO_INDIA10_SUCCESSOR_BOOT_2026-08-23.md"),
-    ("runs", "active", "INDIA9-SUCCESSOR-BOOT-2026-08-23", "BOOT_PROGRESS.md"),
+required = [
+    ROOT / "README.md",
+    CURRENT,
+    ROOT / "governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md",
+    ROOT / "governance/CCI_COLLABORATION_PROTOCOL.md",
+    CANON,
 ]
-for parts in required_files:
-    if not os.path.isfile(path(*parts)):
-        fail(f"required file missing: {'/'.join(parts)}")
 
-# --- 6. current start prompt references the binding protocol ---
-readme = read_text("README.md")
-if readme is None:
-    fail("README.md is missing")
-elif "INDIA_SUCCESSOR_BOOT_PROTOCOL.md" not in readme:
-    fail("README.md does not reference governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md")
+for p in required:
+    if not p.is_file():
+        errors.append(f"missing required file: {p.relative_to(ROOT)}")
 
-# --- summary ---
-print(f"validate_successor_boot.py -- {len(errors)} errors, {len(warnings)} warnings")
-for w in warnings:
-    print(f"WARNING: {w}")
-for e in errors:
-    print(f"ERROR: {e}")
+current_text = CURRENT.read_text(encoding="utf-8") if CURRENT.is_file() else ""
+
+# CURRENT_STATE deliberately carries the expected protected-canon blob so a silent
+# mutation is caught without a separate receipt/registry system.
+m = re.search(r"Current protected blob[^\n]*:\s*\n`([0-9a-f]{40})`", current_text)
+if not m:
+    errors.append("CURRENT_STATE does not contain the expected protected-canon blob SHA")
+else:
+    expected = m.group(1)
+    try:
+        actual = subprocess.check_output(
+            ["git", "hash-object", CANON_REL], cwd=ROOT, text=True
+        ).strip()
+    except Exception as exc:
+        errors.append(f"cannot hash protected canon: {exc}")
+    else:
+        if actual != expected:
+            errors.append(f"protected canon changed: {actual} != {expected}")
+
+if CANON.is_file():
+    with CANON.open(encoding="utf-8", newline="") as fh:
+        rows = list(csv.DictReader(fh))
+    permanent_ids = [r.get("entity_id", "") for r in rows if r.get("record_type") == "PERMANENT"]
+    for i in range(1, 82):
+        eid = f"{i:03d}"
+        if permanent_ids.count(eid) != 1:
+            errors.append(f"protected permanent ID {eid} occurs {permanent_ids.count(eid)} times; expected 1")
+
+readme = (ROOT / "README.md").read_text(encoding="utf-8") if (ROOT / "README.md").is_file() else ""
+boot = (ROOT / "governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md").read_text(encoding="utf-8") if (ROOT / "governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md").is_file() else ""
+
+for forbidden in ["GEHELE REPO LEZEN", "byte_weighted_knowledge_pct"]:
+    if forbidden in readme or forbidden in boot:
+        errors.append(f"old heavy boot mechanic became active again: {forbidden}")
 
 if errors:
-    print("RESULT: FAIL")
+    print("INDIA_TRAVEL_BOOT_SANITY: FAIL")
+    for e in errors:
+        print(f"- {e}")
     sys.exit(1)
-else:
-    print("RESULT: PASS")
-    sys.exit(0)
+
+print("INDIA_TRAVEL_BOOT_SANITY: PASS")
+print("protected canon: unchanged; IDs 001..081 preserved")
+print("light start/current-state/collaboration files: present")
+print("central branch relation: CHECK SEPARATELY before central write")
+sys.exit(0)
