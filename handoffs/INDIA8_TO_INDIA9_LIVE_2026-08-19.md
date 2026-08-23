@@ -5,9 +5,46 @@ Lees vóór regie-uitvoering:
 `governance/INDIA_REGIE_DOORGANGSPROTOCOL_2026-08-20.md`
 Actuele governance bevat ook de limiet: maximaal twee actieve workerstreams, liefst één worker naast INDIA-regie.
 
+### 2026-08-23 GLOBAL CANON AUDIT — VERPLICHTE EXTRA FIRST READ
+Regie-miss ontdekt: recente runs werden te zwaar gewogen terwijl legacy-but-still-protected Mark-locks en sleep anchors onvoldoende werden meegenomen. Daardoor werden o.a. Jageshwar (reeds A), Binsar (reeds C) en bestaande Kumaon slaapbases opnieuw/te laat behandeld.
+
+Lees daarom vóór ELK volgend keuze-/routeblok ook:
+- `governance/GLOBAL_REGIE_CANON_AUDIT_2026-08-23.md`
+- `runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/SLEEP_BASE_REGISTER_2026-08-23.md`
+
+Nieuwe regieregel: vóór een locatie aan Mark wordt gepresenteerd, eerst latest Mark-decision -> accommodation lock -> central master -> governance/handoff -> legacy protected locks/anchors controleren. Oude candidates/overviews zijn nooit leidend bij conflict.
+
+Tactische routevolgorde voor reeds behouden clusters is nu:
+`KNOWN/CHOSEN SLEEP BASE -> A SITES -> DISTANCE/COMBINATION MATRIX -> LONELY PLANET ADDONS -> opportunistic B -> NIGHTS`.
+Dit wijzigt geen site-A/B/C; het voorkomt rekenen vanaf willekeurige stadscentra terwijl historische/spirituele slaapbases al bekend zijn.
+
+Actuele slaapbasisstatus:
+- Kukuchina/Dunagiri: **Joshi Guest House LOCKED**.
+- Nainital: **Hotel Evelyn CLUSTER_ANCHOR + site A**; historic Ram Dass room/patio access still final-trip prerequisite.
+- Kasar Devi/Almora: **Turiya Niwas PROVISIONAL LOCK + site A**; wintercomfort direct bevestigd; alleen exacte data/duur/reservering open; Kripal/Rudra fallbacks.
+- Varanasi: **Sahi River View Guesthouse LOCKED_BY_MARK**, balcony room, Jitendre, greetings from Debby. Dit OVERRULET oude provisional wording.
+- Vrindavan/Braj: sleep-base gap.
+- Bodh Gaya: sleep-base gap.
+- Tiruvannamalai/Arunachala: sleep-base gap.
+- Agra: exact hotel gap; max positioning night for HARD Taj sunrise/first-opening requirement.
+
+Reisperiode: **18-12-2026 t/m 21-01-2027 = 34 dagen**, vluchten geboekt.
+
 ## KERNREIS / BESLUITEN
 Reisperiode 18-12-2026 t/m 21-01-2027; terugvlucht Delhi. Zeker: Delhi zeer kort; Kumaon; Varanasi; Bodh Gaya; Tiruvannamalai / Arunachala. Vrindavan/Braj en Prayagraj/Allahabad kandidaat tot global closure. Haridwar/Kankhal/Rishikesh als zelfstandig cluster afgevallen; individuele uitzonderlijke sites mogen terugkomen. Oost geparkeerd tenzij capaciteit/exceptionele override.
 AOAY/Yogananda blijft P0. Geen onzeker finding ooit stil filteren.
+
+LET OP: bovenstaande historische kernstatus is inmiddels deels ingehaald door latere expliciete Mark-clusterbesluiten. Actueel geldt conform `CLUSTER_LEVEL_DECISIONS_2026-08-22.md`:
+- Kumaon A;
+- Vrindavan/Braj/Mathura A maar route-sensitive;
+- Varanasi/Sarnath A;
+- Bodh Gaya/Gaya A;
+- Tiruvannamalai/Arunachala A fixed;
+- Mysore/Bengaluru cluster C;
+- Haridwar/Kankhal/Rishikesh cluster B/reserve;
+- Agra A maar Taj-only route driver, sunrise hard requirement;
+- Oost/Kolkata geparkeerd.
+Bij conflict wint deze latere status.
 
 Anandamayi Ma algemene scope: travel-core, NIET elk historisch huis/hostadres exhaustief oplossen. Een beperkt aantal zeer sterke, concrete en bezoekbare kernplekken is voldoende voor de reis, tenzij overlap/heritage/clusterwaarde een extra locatie relevant maakt.
 
@@ -58,12 +95,14 @@ Commit `b0486eb3ca4cae911b809c14cf98848185de51cd`.
 2. CCI completeness closure / independent QA via PR #23.
 No loose color workers remain active. Do not restart them unless central master exposes a genuinely isolated heavy correction task.
 
-## IMMEDIATE NEXT ACTIONS
-1. Finish full-enough master accounting with AOAY/Yogananda exhaustive priority.
-2. Explicitly identify and physically resolve every documented Anandamayi×Yogananda joint-photo location; attach photo provenance, date/event, current identity, R-class, access and cluster membership.
-3. Do not exhaustively chase all Anandamayi host houses; keep full underlying source universe lossless and bring only travel-core + override cases into deep closure.
-4. Produce decision-ready complete cluster lists beginning with Vrindavan/Braj + Prayagraj/Allahabad, then additive delta for Kumaon/Varanasi/Bodh Gaya and full concrete layer Tiruvannamalai / Arunachala.
-5. Only then Mark A/B/C, cluster decisions, route/nights/transport/hotels.
+## IMMEDIATE NEXT ACTIONS — UPDATED 2026-08-23
+1. Do NOT ask Mark to re-grade known locks. Use global canon audit first.
+2. Use existing sleep bases as route origins. For Kumaon: Joshi Guest House / Hotel Evelyn / Turiya Niwas. For Varanasi: Sahi River View.
+3. Resolve sleep-base gaps for Vrindavan/Braj, Bodh Gaya and Tiruvannamalai/Arunachala before detailed LP-distance/nights calculations there.
+4. For Kumaon, build 3-base A/LP distance-and-combination matrix next; Jageshwar already A and Binsar already C, so neither is a new decision surface.
+5. Integrate CCI Lonely-Planet gap-check when returned; do not restart full discovery.
+6. Apply trip calendar/festival/closure layer before dates/transfers are frozen.
+7. Preserve all A-site microdetails for final pre-visit day cards.
 
 ## HARDE GRENZEN
 Geen A/B/C namens Mark. Geen silent filtering. Geen oude IDs/locks wijzigen. Geen PDF zonder PDF_GO. Geen merge zonder Mark. Oost geparkeerd. Ademruimte blijft reisdoel.
