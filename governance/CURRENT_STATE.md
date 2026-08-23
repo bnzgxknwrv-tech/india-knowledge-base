@@ -58,6 +58,20 @@ A new IndiaN can responsibly continue when it has read:
 
 If those disagree, read deeper until the conflict is understood. A full-repository reread is an exceptional recovery tool, not the normal start procedure.
 
+## Current travel execution
+
+The current route is V2 plus the INDIA9 canon patch. Hotel Evelyn and the Lonely Planet micro-gems have already been centrally reconciled; do not repeat those worker tasks.
+
+INDIA10 completed the next actionable travel task:
+`runs/active/INDIA10-BOOKING-SEQUENCE-CLOSURE-001/BOOKING_ACTION_BOARD.md`
+
+It converts the fixed route into an ordered booking/application sequence without changing route or protected decisions. Immediate private-action boundary:
+- e-Visa status must be confirmed;
+- Haidakhan, Joshi Guest House, Hotel Evelyn and Sahi River View can be requested/confirmed;
+- Sri Ramanasramam should be submitted once visa data permit;
+- concrete normal rail-ARP planning dates are recorded;
+- no booking, payment, message or personal-data upload has been performed.
+
 ## Current architecture status
 `INDIA9_SCOPE_SIMPLIFICATION: PASS`
 `CCI_FINAL_SANITY_011: PASS`
