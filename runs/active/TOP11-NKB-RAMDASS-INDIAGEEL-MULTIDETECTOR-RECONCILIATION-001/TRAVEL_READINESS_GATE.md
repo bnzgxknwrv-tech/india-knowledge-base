@@ -49,7 +49,7 @@ onbevestigde detectorclaim.
   functionerend tempelcomplex), alleen de historische aanwezigheidsclaim is onzeker — voor
   reisdoeleinden telt de tempel zelf als travel-ready, de "bilocatie" als narratief, niet als
   routebepalend feit.
-- Sindhi Dharmsala Madras en Vaishnivi Devi-tempel (IndiaGEEL-only, niet apart Tier-1 bevestigd —
+- Sindhi Dharmsala Madras en Vaishnavi Devi-tempel (IndiaGEEL-only, niet apart Tier-1 bevestigd —
   Veerapuram wel, deze twee nog niet)
 - Alle in de reconciliatiedoc genoemde `ONBEKEND`-adressen (tientallen kleinere devoteehuizen in
   Kanpur/Bareilly/Agra) — niet travel-ready, geen adres om naartoe te reizen.
@@ -70,34 +70,47 @@ onbevestigde detectorclaim.
 - 4 Church Lane, Allahabad/Prayagraj (huisadres, historisch bevestigd)
 - Triveni Sangam, Allahabad/Prayagraj
 
-### NOG NIET travel-ready (IndiaGEEL-only, niet Tier-1 bevestigd deze taak)
-- **Dharamsala/McLeod Ganj** (Dalai Lama-audiëntiegebied, "Swarg Ashram") — vult een echt gat, maar
-  vereist een gerichte verificatiepas vóór opname; McLeod Ganj zelf is uiteraard een bestaand,
-  bezoekbaar gebied, maar de specifieke "Swarg Ashram"-locatie-identiteit is niet bevestigd.
-- **Ganeshpuri/Muktananda-ashram** — Tier-2 gecorroboreerd (het bestaan van de Ram Dass-Muktananda-
-  band is aannemelijk), maar niet Tier-1 bevestigd voor deze taak.
-- **Anandamayi Ma-ashrams, Vrindavan en Kankhal** — plausibel, niet apart geverifieerd.
+### NOG NIET travel-ready (CCI_TASK 095 snapshot; see INDIA10 closure below)
+- **Dharamsala/McLeod Ganj** (Dalai Lama-audiëntiegebied, "Swarg Ashram") — CCI_TASK 095 required a gerichte verificatiepas.
+- **Ganeshpuri/Muktananda-ashram** — CCI_TASK 095 had Tier-2 corroboration but no Tier-1 closure.
+- **Anandamayi Ma-ashrams, Vrindavan en Kankhal** — CCI_TASK 095 judged plausible but not separately verified.
 - Srinagar/Dal Lake-houseboat "New Ruby", Kumar Gallery Delhi, reclining Hanuman-tempel bij Sangam —
   interessante IndiaGEEL-only details, niet travel-blocker-vrij bevestigd.
 
-## Samenvatting — travel-relevante delta van deze taak
+## Samenvatting — travel-relevante delta van CCI_TASK 095
 
 | categorie | NKB | Ram Dass |
 |---|---:|---:|
-| Nieuw travel-ready gemaakt door IndiaGEEL (upgrade of nieuwe Tier-1-bevestiging) | 2 (Lucknow-upgrade, Veerapuram) | 0 (geen enkele IndiaGEEL-only claim is deze taak zelf Tier-1 bevestigd voor Ram Dass — Bhumiadhar was al impliciet travel-ready als regio, nu alleen preciezer benoemd) |
-| Nieuwe regio's/clusters geopend, nog niet travel-ready | 0 substantieel nieuw (Zuid-India-cluster is al travel-ready via Veerapuram) | 3 (Dharamsala, Ganeshpuri, Anandamayi Ma-ashrams) |
+| Nieuw travel-ready gemaakt door IndiaGEEL (upgrade of nieuwe Tier-1-bevestiging) | 2 (Lucknow-upgrade, Veerapuram) | 0 in CCI_TASK 095 |
+| Nieuwe regio's/clusters geopend, nog niet travel-ready in CCI_TASK 095 | 0 substantieel nieuw | 3 (Dharamsala, Ganeshpuri, Anandamayi Ma-ashrams) |
 | Onopgelost conflict, geen travel-blocker voor bestaande plek | 1 (Mathura-doodsvolgorde — de plekken zelf, Kainchi/Agra/Vrindavan, zijn alle travel-ready; alleen de exacte routevolgorde van de laatste reis is onzeker) | 0 nieuw |
 
-## Conclusie
+## CCI_TASK 095 conclusie
 
 Voor **beide personen** geldt: de reeds bekende kernclusters (Kainchi, Vrindavan, Nainital-regio,
 Allahabad/Prayagraj, Bodh Gaya) waren al travel-ready na CCI_TASK 091 en blijven dat, nu met een
-derde onafhankelijke bevestigingslaag. Deze taak voegt concreet **twee nieuwe travel-ready
+derde onafhankelijke bevestigingslaag. CCI_TASK 095 voegde concreet **twee nieuwe travel-ready
 locaties** toe voor NKB (Lucknow-tempel, Veerapuram) en **drie potentiële nieuwe regio's** voor Ram
-Dass die eerst een gerichte verificatiepas nodig hebben voordat ze als travel-ready gelden.
+Dass die eerst een gerichte verificatiepas nodig hadden voordat ze als travel-ready golden.
 
-`PERSON_SWEEP_SATURATED` blijft voor beide personen `NEE` — dat is een aparte, strengere maatstaf
+`PERSON_SWEEP_SATURATED` bleef voor beide personen `NEE` — dat is een aparte, strengere maatstaf
 dan travel-gereedheid en wordt hier bewust niet mee verward.
 
+## INDIA10 targeted closure — 2026-08-23
+
+INDIA10 executed exactly the targeted verification pass requested by CCI_TASK 095. Full evidence and provenance are in:
+`RAM_DASS_TARGETED_TIER1_CLOSURE_2026-08-23.md`.
+
+The CCI_TASK 095 snapshot above is preserved as provenance, but its three Ram Dass physical-identity blockers are superseded as follows:
+
+- **Dharamsala / McLeod Ganj — Swarg Ashram**: `TRAVEL_READY = JA — BUILDING LEVEL`. Ram Dass's memoir places the visit at Swarg Ashram; the Dalai Lama's official chronology independently confirms Swarg Ashram as his Dharamsala residence in the relevant 1960–1968 period; the former building is independently identified as the present Regional Mountaineering Centre on Tushita Road. Exact historical room/access is not promoted.
+- **Ganeshpuri — Muktananda / Gurudev Siddha Peeth**: `TRAVEL_READY = JA — ASHRAM-COMPLEX LEVEL`. Ram Dass-side sources confirm presence at Ganeshpuri/Muktananda's complex and Siddha Yoga independently identifies the surviving ashram complex. Exact meditation-room mapping remains unresolved.
+- **Anandamayi Ma — Vrindavan**: `TRAVEL_READY = JA — ASHRAM-COMPLEX LEVEL`. Ram Dass's memoir confirms the visit and the Anandamayi Sangha independently identifies the current Vrindavan ashram. Exact historical room/courtyard remains unresolved.
+- **Anandamayi Ma — Kankhal / Haridwar**: `TRAVEL_READY = JA — ASHRAM-COMPLEX LEVEL`. Ram Dass's memoir confirms the visit; Sounds True preserves a historical near-Haridwar ashram image; the Anandamayi Sangha independently identifies the current Kankhal ashram. Exact historical temple-step/room sublocation remains unresolved.
+
+This closure removes a physical-identity blocker only. It **does not** choose these places for Mark, assign A/B/C, create permanent IDs, change cluster inclusion or alter a route.
+
+`PERSON_SWEEP_SATURATED: NEE` remains unchanged for both NKB and Ram Dass.
+
 ---
-Geschreven door: CCI. CCI_TASK 095.
+Original CCI_TASK 095 gate by CCI; INDIA10 targeted closure appended 2026-08-23.
