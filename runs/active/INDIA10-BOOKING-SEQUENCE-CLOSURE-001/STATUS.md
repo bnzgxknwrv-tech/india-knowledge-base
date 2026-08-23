@@ -1,26 +1,20 @@
 # STATUS — INDIA10-BOOKING-SEQUENCE-CLOSURE-001
 
-state: COMPLETE__ACTION_READY__PERSONAL_SUBMISSION_PENDING
+state: FUTURE_PLANNING_ARTIFACT__NOT_CURRENT_PROJECT_PHASE
 branch: agent/india8-cluster-casting
-completed: 2026-08-23
+created: 2026-08-23
 output: BOOKING_ACTION_BOARD.md
 
-## Result
+## Disposition
 
-The already-decided V2 route has been converted into a concrete booking order without reopening any A/B/C, hotel, sleep-base or route decision.
+`BOOKING_ACTION_BOARD.md` is preserved as a potentially useful future planning artifact, but it is **not** the current `next_action` and must not be used to imply that the India project has reached the booking/application phase.
 
-Closed:
-- immediate stay-request order;
-- four normal rail-ARP planning dates;
-- official Haidakhan conditions;
-- current Sri Ramanasramam foreign-national rules;
-- e-Visa arrival-date correction;
-- foreign-tourist rail-quota uncertainty preserved rather than guessed.
+Mark explicitly corrected that interpretation on 2026-08-23: upstream national person/location closure, additive discovery/reconciliation and relevant Mark-ready location/cluster decision work are still active. The underlying `INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001` master likewise places route/transport/hotels only after those decision slices.
 
-Material corrections:
-- e-Visa 120-day date is 2026-08-21 because India arrival is 2026-12-19;
-- Sri Ramanasramam currently publishes a 14-day maximum for foreign nationals, so the fixed five-night request fits the duration rule.
+Nothing in this disposition reopens or changes any existing A/B/C, hotel, sleep-base or route decision already made. It only corrects the project-phase interpretation.
 
-No booking, message, payment, account action or personal-data upload was performed.
+The action board's time-sensitive facts may be revalidated later when booking actually becomes a live task. Do not maintain them as globally current in the meantime.
 
-next_action: Mark confirms visa status; then execute the ordered private booking/application actions in BOOKING_ACTION_BOARD.md.
+No booking, message, payment, account action or personal-data upload has been performed.
+
+next_action: NONE_FROM_THIS_ARTIFACT until upstream person/location/cluster work has reached the appropriate travel-planning stage.
