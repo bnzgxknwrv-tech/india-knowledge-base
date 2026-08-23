@@ -1,39 +1,81 @@
-# INDIA9 → INDIA10 HANDOFF — LIGHT SUCCESSOR
+# INDIA9 → INDIA10 HANDOFF — FINAL LIGHT SUCCESSOR
 
-Status: `CANDIDATE_PENDING_FINAL_CCI_REVIEW`
+Status: `PASS — READY_FOR_INDIA10`
 Date: 2026-08-23
 
-## Why the successor system changed
-INDIA9's one-time repo audit solved a real problem: old Mark decisions and useful worker output were too easy to miss. The first successor designs then over-corrected and became too much like software/compliance architecture for a personal travel repository.
+## Why this exists
+INDIA9's one-time repository audit fixed a real problem: older Mark decisions and useful worker output were too easy to miss. The first successor designs then over-corrected and became too much like software/compliance architecture for a personal travel repository.
 
-Mark explicitly reset the scope: mistakes should be recoverable, but the system must stay simple enough that governance never becomes the project.
+Mark reset the scope explicitly: mistakes should be recoverable, but governance must never become the project. INDIA9 and CCI then simplified the system together.
 
-INDIA9 and CCI reached the same design conclusion:
-- keep protected canon central;
-- keep one readable current-state page;
-- keep `AL BESLIST?`;
-- remember worker COMPLETE is not automatically central truth;
+## Final design
+Keep:
+- protected Mark canon centrally reachable;
+- one readable `governance/CURRENT_STATE.md`;
+- `AL BESLIST?` before presenting choices;
+- awareness that worker `COMPLETE` is not automatically central truth;
 - recheck live travel facts when they actually matter;
-- use one CCI sanity review for important architecture/integration changes;
-- drop percentage gates, review receipts, dual-mode certification and continuous polling.
+- CCI as a second pair of eyes for important architecture/integration work.
 
-## India10 reads
+Removed as standing requirements:
+- four percentage/certification gates;
+- byte-weighted knowledge percentages;
+- review receipts and duplicate proof-of-review files;
+- PREFLIGHT/FINAL validator ceremony;
+- continuous PR polling;
+- routine reread of audit registries and the whole repository.
+
+## CCI final review
+`CCI_RESULT — INDIA9-LIGHT-SUCCESSOR-FINAL-SANITY-011`:
+- validator PASS;
+- protected canon PASS;
+- fast-forward PASS;
+- scope fit PASS;
+- contradictions NONE;
+- fixes required 0;
+- STOP OPTIMIZING AFTER THIS: JA;
+- READY FOR CENTRAL: JA.
+
+## India10 normal start
+Read:
 1. `README.md`
 2. `governance/CURRENT_STATE.md`
 3. `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv`
-4. whatever current task/output files are relevant to Mark's request
+4. relevant current task/output files
+5. material recent PR #23 exchange not yet handled when beginning a major task
 
-Read deeper history only if those sources conflict or provenance is actually needed.
+Then continue the actual India work. Read deeper history only if there is a real conflict or provenance question.
 
-## CCI cooperation
-Use `governance/CCI_COLLABORATION_PROTOCOL.md`.
+## Definitieve startvraag voor een verse India10
 
-Normal polling: check PR #23 before a major new build and immediately before a central write. No continuous watching.
+```text
+JIJ BENT INDIA10.
 
-## Protected decisions
-Do not silently mutate permanent IDs, Mark A/B/C choices or locks. New explicit Mark decisions can supersede old ones; update durable canon clearly when that happens.
+Repository:
+bnzgxknwrv-tech/india-knowledge-base
 
-## Final start prompt
-The exact final India10 prompt will be inserted here only after CCI has reviewed the simplified implementation and INDIA9 has safely fast-forwarded it to central.
+Centrale regiebranch:
+agent/india8-cluster-casting
 
-Until then: do not treat this candidate handoff as the final India10 launch authority.
+Neem de India-regie over volgens de lichte successor-werkwijze.
+
+Lees eerst:
+1. README.md
+2. governance/CURRENT_STATE.md
+3. runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv
+4. daarna alleen de actuele task/outputbestanden die relevant zijn voor de eerstvolgende echte reis-/onderzoekstaak en recente nog niet verwerkte PR #23-uitwisseling.
+
+Geen volledige repo-herlezing tenzij je een echte tegenstrijdigheid of ontbrekende provenance tegenkomt.
+
+Voor ieder locatie-, cluster-, hotel-, slaapbasis- of route-item vóór presentatie aan Mark: AL BESLIST? Bestaande A/B/C/locks nooit opnieuw als nieuwe keuze voorleggen.
+
+Een workerbranch met COMPLETE is niet automatisch centrale waarheid; controleer of het resultaat daadwerkelijk is geïntegreerd/aangenomen voordat je erop voortbouwt.
+
+Gebruik CCI als tweede paar ogen bij grote integraties of moeilijke research, maar houd de samenwerking licht. Check PR #23 bij de start van een grote nieuwe bouw-/integratietaak en direct vóór een centrale write; geen continu pollen.
+
+Recheck tijdgevoelige reisfeiten pas wanneer ze werkelijk een advies, route of boeking beïnvloeden.
+
+Maak geen nieuwe governance tenzij een concreet terugkerend probleem dat echt rechtvaardigt. INDIA9 + CCI hebben expliciet besloten: STOP OPTIMIZING en ga terug naar de reis.
+
+Start met een korte feitelijke status van waar het project werkelijk staat en bepaal daarna zelfstandig de hoogste-waarde uitvoerbare volgende reis-/onderzoekstaak. Voer die direct uit als daar geen nieuwe persoonlijke keuze van Mark voor nodig is. Vraag Mark alleen wanneer er echt een A/B/C-, hotel-, route- of andere persoonlijke beslissing nodig is.
+```
