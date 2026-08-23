@@ -4,11 +4,21 @@ status: READY_FOR_INDEPENDENT_WORKERS
 repository: bnzgxknwrv-tech/india-knowledge-base
 central_branch: agent/india8-cluster-casting
 purpose: independent traveler/experience discovery before Mark re-rates clusters
+travel_window: approximately 2026-12-19 through 2027-01-21 in India
 
 ## WHY
 Mark's India trip is primarily a spiritual pilgrimage, but non-person travel discoveries can materially change cluster value and nights. Existing Lonely-Planet-style discovery is useful but was not designed around Mark's now-explicit taste for unusual experiences, hot springs, rafting/adventure, wildlife, strange historical experiences, cult local institutions, exceptional nature and world-class magnets outside a fixed radius.
 
 The goal is DIVERSITY OF SEARCH, not consensus. Different AI systems/workers must search independently before seeing each other's results.
+
+## TERMINOLOGY — HARD
+Use **cost/kosten** only for money. For route impact use precise terms such as:
+- extra reistijd;
+- omweg;
+- duur;
+- looptijd/rijtijd;
+- logistieke belasting.
+Do not describe a time-efficient or nearby stop as "free/gratis" unless monetary price is literally meant.
 
 ## BLINDNESS — HARD
 Before freezing your own discovery output:
@@ -31,7 +41,12 @@ Current retained or decision-relevant travel world:
 - Bodh Gaya / Gaya
 - Tiruvannamalai / Arunachala and realistic arrival/departure corridors
 
+Mysore/Bengaluru is currently an excluded/C-control, not a normal search cluster. Surface something there only if it is genuinely world-/India-level or experientially extraordinary enough that a reasonable traveler might reconsider the exclusion.
+
 This is NOT a hard radius exercise. Search locally, but also run an adaptive WORLD-MAGNET check outside normal cluster bounds. A find 60–150+ km away may be valid if it is genuinely exceptional enough to justify the detour or an extra day. A mediocre find 30 km away is not valid merely because it is close.
+
+## SEASON / DATES
+The relevant travel period is late December 2026 through 21 January 2027. Prefer experiences plausibly available then. If a great finding is seasonal, access-limited, weather-sensitive, festival/date-specific or normally unavailable in this window, say so explicitly rather than silently promoting it.
 
 ## MARK'S TRAVELER TASTE — IMPORTANT
 Examples of the TYPE of discovery that can matter (examples are not India candidates):
@@ -54,7 +69,7 @@ Prefer 10 excellent findings over 30 ordinary ones. A finding should have at lea
 - unusual experiential value;
 - exceptional beauty/rarity;
 - plausible ability to justify an extra half-day/day or a meaningful detour;
-- very high reward at almost zero route cost.
+- very high reward with almost no extra travel time or detour.
 
 Exclude:
 - generic city top-10 filler;
@@ -76,13 +91,14 @@ This layer is for things Mark could realistically DO or VISIT as a traveler. Pri
 - traveler signal / repeated praise
 - nearest current cluster or corridor
 - approximate detour / extra time class
-- could plausibly add cluster time? YES / MAYBE / NO (descriptive only, not A/B/C)
+- could plausibly add cluster time? YES / MAYBE / NO (descriptive only, not A/B/C or A+)
 - current visitability/seasonality caveat if material
 - source URLs
 - confidence
 
 ## NO DECISIONS
 - Do not assign Mark's A/B/C.
+- Do not assign `A+`; A+ is a later Mark-only intrinsic-anchor decision after all discovery layers are merged.
 - Do not choose clusters, nights, hotels or route.
 - Do not downgrade old decisions.
 - Discovery only.
