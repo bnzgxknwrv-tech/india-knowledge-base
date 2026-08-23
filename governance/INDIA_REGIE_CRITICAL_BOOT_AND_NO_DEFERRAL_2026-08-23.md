@@ -22,10 +22,11 @@ VÓÓR enig inhoudelijk advies, nieuwe kandidaat, routevoorstel, hotelvoorstel, 
 
 1. Lees `README.md` volledig.
 2. Lees DIT bestand volledig.
-3. Haal de volledige recursive tree van de actuele regiebranch op.
-4. Lees de gehele tekstuele repository inhoudelijk, inclusief legacy/oude architectuurlagen die beschermd Mark-besluit/evidence kunnen bevatten.
-5. Inventariseer relevante branches, vooral actieve workerbranches en expliciet genoemde legacy-branches.
-6. Bouw intern één actuele CANON RECONCILIATION vóór presentatie:
+3. Lees daarna `handoffs/INDIA8_TO_INDIA9_FINAL_BOOT_2026-08-23.md` volledig. Dit is de actuele compacte opvolgershandoff en supersedet oudere INDIA8→INDIA9 immediate-action secties waar die afwijken.
+4. Haal de volledige recursive tree van de actuele regiebranch op.
+5. Lees de gehele tekstuele repository inhoudelijk, inclusief legacy/oude architectuurlagen die beschermd Mark-besluit/evidence kunnen bevatten.
+6. Inventariseer relevante branches, vooral actieve workerbranches en expliciet genoemde legacy-branches.
+7. Bouw intern één actuele CANON RECONCILIATION vóór presentatie:
    - nieuwste expliciete Mark-besluiten;
    - accommodation/hotel locks;
    - cluster-level decisions;
@@ -34,7 +35,7 @@ VÓÓR enig inhoudelijk advies, nieuwe kandidaat, routevoorstel, hotelvoorstel, 
    - actuele all-findings/location master;
    - huidige handoff/governance;
    - legacy locks/anchors die nog niet superseded zijn.
-7. Pas daarna pas nieuwe research/route-informatie toe.
+8. Pas daarna pas nieuwe research/route-informatie toe.
 
 ## PRECEDENCE — BIJ CONFLICT
 
