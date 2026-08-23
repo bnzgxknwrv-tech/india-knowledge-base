@@ -1,7 +1,7 @@
 # INDIA REGIE — CRITICAL BOOT + NO-DEFERRAL RULE
 
 Date: 2026-08-23
-Status: HARD / MANDATORY / FIRST-SESSION GATE
+Status: HARD INCIDENT-GUARDS / BOOT MECHANICS DEFER TO SUCCESSOR PROTOCOL
 Owner: INDIA-regie
 
 ## INCIDENT DAT DEZE REGEL VEROORZAAKTE
@@ -14,63 +14,59 @@ Voorbeelden van het type fout dat NOOIT meer mag gebeuren:
 - Kumaon behandelen alsof slaapbasis nog open was terwijl Joshi Guest House / Hotel Evelyn / Turiya Niwas al als belangrijke bases/anchors bestonden.
 - Varanasi-hotelonderzoek openen terwijl Sahi River View Guesthouse al `LOCKED_BY_MARK` was.
 
-Dit is een ernstige regiefout omdat Mark dan dezelfde beslissingen opnieuw moet nemen en routeberekeningen op een verkeerde uitgangssituatie kunnen worden gebouwd.
+Deze incidentlessen blijven volledig bindend.
 
-## HARD BOOT GATE — VOOR IEDERE INDIA9+ REGIESESSIE
+## BOOTMECHANIEK — NIEUWE HOOGSTE AUTORITEIT
 
-VÓÓR enig inhoudelijk advies, nieuwe kandidaat, routevoorstel, hotelvoorstel, A/B/C-vraag of 'volgende stap':
+Voor INDIA10+ bepaalt `governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md` de bootmethode.
 
-1. Lees `README.md` volledig.
-2. Lees DIT bestand volledig.
-3. Lees daarna `handoffs/INDIA8_TO_INDIA9_FINAL_BOOT_2026-08-23.md` volledig. Dit is de actuele compacte opvolgershandoff en supersedet oudere INDIA8→INDIA9 immediate-action secties waar die afwijken.
-4. Haal de volledige recursive tree van de actuele regiebranch op.
-5. Lees de gehele tekstuele repository inhoudelijk, inclusief legacy/oude architectuurlagen die beschermd Mark-besluit/evidence kunnen bevatten.
-6. Inventariseer relevante branches, vooral actieve workerbranches en expliciet genoemde legacy-branches.
-7. Bouw intern één actuele CANON RECONCILIATION vóór presentatie:
-   - nieuwste expliciete Mark-besluiten;
-   - accommodation/hotel locks;
-   - cluster-level decisions;
-   - site A/B/C locks;
-   - parent/microcluster regels;
-   - actuele all-findings/location master;
-   - huidige handoff/governance;
-   - legacy locks/anchors die nog niet superseded zijn.
-8. Pas daarna pas nieuwe research/route-informatie toe.
+Standaard is nu:
+
+`gecertificeerde baseline + delta + actuele authority reconciliation + freshness`
+
+Concreet:
+1. valideer `governance/KNOWLEDGE_BASELINE_LATEST.md` en het bijbehorende auditbewijs;
+2. bepaal exhaustief de betekenisvolle nieuwe/gewijzigde delta sinds de gecertificeerde cutoff;
+3. lees 100% van die semantische delta;
+4. lees/reconcileer altijd opnieuw de actuele authority-set, waaronder Mark-besluiten, locks, protected canon, precedence, current task state en relevante PR #23-enveloppen;
+5. sluit de freshness-gate voor tijdgevoelige informatie die daadwerkelijk wordt gebruikt;
+6. handel inhoudelijk pas bij `KNOWLEDGE_READY: 100%`.
+
+Kan de baseline of delta niet bewijsbaar worden gevalideerd, dan geldt de full-bootstrap fallback uit het successor protocol. De oude regel om standaard bij iedere generatie letterlijk alles opnieuw te lezen is dus vervangen; volledige herlezing blijft fail-closed fallback, niet de normale route.
 
 ## PRECEDENCE — BIJ CONFLICT
 
-Gebruik voor reisregie deze volgorde, tenzij een nog specifiekere actuele taakstatus expliciet anders voorschrijft:
+De machineleesbare actuele kaart staat in `governance/PRECEDENCE_MAP.jsonl`.
+De kern blijft:
+1. nieuwste expliciete Mark-beslissing / `LOCKED_BY_MARK` / expliciete supersede;
+2. nieuwste expliciete accommodation/hotel/base lock;
+3. nieuwste cluster-level Mark decision;
+4. nieuwste site-level A/B/C Mark decision;
+5. protected canon + actuele centrale reconciliatie;
+6. actuele governance/handoff/task state;
+7. oudere beschermde locks/anchors als provenance zolang niet superseded;
+8. oude overzichten/kandidatenlijsten alleen als context.
 
-1. Nieuwste expliciete Mark-beslissing / `LOCKED_BY_MARK` / expliciete supersede.
-2. Nieuwste expliciete accommodation/hotel/base lock.
-3. Nieuwste cluster-level Mark decision.
-4. Nieuwste site-level A/B/C Mark decision.
-5. Actuele centrale all-findings/location master + reconciliatie.
-6. Actuele governance/handoff/state.
-7. Oudere beschermde LOCKED_A/B/C, CLUSTER_ANCHORS, hotelbesluiten en legacy-canon.
-8. Oude overzichten/kandidatenlijsten alleen als context; zij mogen latere besluiten NOOIT terugdraaien.
+Een oud overzicht mag een later Mark-besluit nooit terugdraaien.
 
-Een oud overzicht met een B/C-status mag dus nooit een latere A overschrijven. Een legacy-lock mag ook niet worden genegeerd alleen omdat hij uit een oudere architectuur komt.
-
-## VERPLICHTE 'AL BESLIST?'-CHECK VOOR ELK ITEM
+## VERPLICHTE `AL BESLIST?`-CHECK VOOR ELK ITEM
 
 Voor ELKE locatie, cluster, hotel, slaapbasis of routekeuze die aan Mark wordt genoemd:
-
 - Is dit al A/B/C?
 - Is dit al `LOCKED_BY_MARK`?
-- Is er een later besluit dan het bestand waar ik nu uit lees?
+- Is er een later besluit dan de bron die ik nu lees?
 - Is dit onderdeel/microsite van een al beoordeeld parent-complex?
-- Is dit al afgewezen/reserve?
+- Is dit al afgewezen/reserve/provisional?
 - Is er al een gekozen hotel/base in dit cluster?
 - Is er een route-/tijdregel die de presentatie verandert?
 
-Als één antwoord JA is, presenteer het niet als nieuwe keuze. Gebruik het als bestaande canon en vermeld alleen relevante nieuwe delta.
+Als één antwoord JA is, presenteer het niet als nieuwe keuze. Gebruik het als bestaande canon en vermeld alleen de relevante nieuwe delta.
 
 ## SLAAPBASIS-EERST REGEL
 
 Wanneer route/nachten/dagplanning wordt besproken:
 
-`SLAAPBASIS -> bestaande A's -> afstanden/combinaties -> Lonely Planet laag -> gratis/meeliftende B's -> benodigde nachten -> transportdetail`
+`SLAAPBASIS -> bestaande A's -> afstanden/combinaties -> aanvullende discoverylaag -> gratis/meeliftende B's -> benodigde nachten -> transportdetail`
 
 Nooit vanaf een willekeurig stadscentrum rekenen als een bestaande slaapbasis/anchor bekend is.
 
@@ -78,37 +74,39 @@ Nooit vanaf een willekeurig stadscentrum rekenen als een bestaande slaapbasis/an
 
 **Iets wat INDIA-regie NU veilig en zelfstandig kan uitvoeren, mag NIET worden bewaard als 'volgende stap', 'later uitzoeken', 'moet nog', 'zou nog kunnen' of handoff-notitie. DOE HET IN DEZELFDE BEURT.**
 
-Een regiebeurt mag niet eindigen met een uitvoerbare open actie die de regie-agent zelf had kunnen doen.
-
-Voor verzending van ieder antwoord moet INDIA intern controleren:
+Voor verzending van ieder antwoord controleert INDIA intern:
 - Heb ik ergens geschreven: moet nog / later / volgende stap / nog onderzoeken / nog bepalen?
 - Kan ik dat zonder Mark-besluit nu zelf uitvoeren?
-- Zo ja: antwoord nog NIET verzenden; eerst uitvoeren en duurzaam in GitHub vastleggen.
+- Zo ja: antwoord nog niet verzenden; eerst uitvoeren en duurzaam in GitHub vastleggen.
 
-Alleen werkelijk niet-uitvoerbare zaken mogen open blijven, bijvoorbeeld:
-- een expliciete A/B/C-keuze die alleen Mark mag maken;
-- live beschikbaarheid/boeking die pas op een concrete datum door Mark besloten kan worden;
-- externe blocker zonder veilige workaround.
+Alleen werkelijk niet-uitvoerbare zaken mogen open blijven, zoals een Mark-only persoonlijke keuze of een echte externe blocker zonder veilige workaround.
 
-Ook dan moet INDIA eerst alles doen wat wél kan: research, shortlist, verificatie, matrix, delta, beslisinformatie en exacte blocker.
+## CCI-RESULTAAT-POLL — HARD ZODRA EEN CCI-TAAK OPENSTAAT
+
+Zie `governance/CCI_COLLABORATION_PROTOCOL.md`.
+Zodra INDIA een CCI-task heeft geplaatst en nog geen terminal resultaat heeft gelezen:
+- controleer PR #23 bij iedere grote werkfase;
+- controleer opnieuw vóór ieder lang voortgangs-/eindantwoord;
+- controleer opnieuw vóór central fast-forward;
+- laat Mark niet handmatig hoeven melden dat CCI al geantwoord heeft wanneer INDIA dit zelf kan controleren.
+
+Dit is actieve controle tijdens de eigen beurt, geen fictieve achtergrondmonitoring.
 
 ## HANDOFF FAILSAFE
 
-Bij iedere nieuwe belangrijke Mark-beslissing, foutcorrectie, routecanon, accommodatiekeuze, clusterbesluit of methodiekwijziging:
-
+Bij iedere belangrijke Mark-beslissing, foutcorrectie, routecanon, accommodatiekeuze, clusterbesluit, methodiekwijziging of integratiestatus:
 1. schrijf het direct duurzaam naar GitHub;
-2. update de relevante centrale handoff/state of maak een expliciete actuele canon-delta;
+2. update de relevante actuele state/handoff/registry;
 3. laat de opvolger niet afhankelijk zijn van chatgeheugen;
-4. controleer of bestaande oudere bestanden hierdoor semantisch verouderd raken en noteer precedence/supersede.
+4. noteer precedence/supersede waar oudere bestanden semantisch verouderen.
 
-## INDIA9+ STARTVERIFICATIE
+## INDIA10+ STARTVERIFICATIE
 
-Een nieuwe INDIA-regisseur mag pas inhoudelijk handelen nadat hij zelf kan samenvatten:
-- huidige reisdata;
-- huidige cluster A/B/C;
-- bekende slaapbases/hotellocks;
-- belangrijkste site A/B/C locks per actief cluster;
-- actuele open beslissingen die werkelijk alleen Mark kan nemen;
-- welke eerdere overzichten inmiddels superseded zijn.
+Een nieuwe INDIA-regisseur mag pas inhoudelijk handelen nadat hij kan aantonen:
+- `SEMANTIC_KNOWLEDGE_COVERAGE: 100%`;
+- `INTEGRITY_COVERAGE: 100%`;
+- `AUTHORITY_RECONCILIATION: PASS`;
+- `FRESHNESS_GATE: PASS_FOR_CURRENT_USE` voor de actuele taak;
+- `KNOWLEDGE_READY: 100%`.
 
-Als dat niet scherp is: verder lezen, niet adviseren.
+En vóór presentatie moet hij de relevante bestaande Mark-besluiten/locks/slaapbases scherp hebben. Als dat niet sluit: verder booten/checkpointen, niet adviseren.
