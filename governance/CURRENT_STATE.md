@@ -65,12 +65,9 @@ The current route is V2 plus the INDIA9 canon patch. Hotel Evelyn and the Lonely
 INDIA10 completed the next actionable travel task:
 `runs/active/INDIA10-BOOKING-SEQUENCE-CLOSURE-001/BOOKING_ACTION_BOARD.md`
 
-INDIA10 then completed the directly executable follow-on without asking Mark to re-decide anything:
-`runs/active/INDIA10-BOOKING-SEQUENCE-CLOSURE-001/BOOKING_CONTACT_PACK.md`
-
-The action board converts the fixed route into an ordered booking/application sequence; the contact pack turns the already-decided stay requests into copy-ready messages/form inputs while preserving the private-data boundary. Neither changes route or protected decisions. Immediate private-action boundary:
+It converts the fixed route into an ordered booking/application sequence without changing route or protected decisions. Immediate private-action boundary:
 - e-Visa status must be confirmed;
-- Haidakhan, Joshi Guest House, Hotel Evelyn and Sahi River View can be requested/confirmed using the prepared contact pack;
+- Haidakhan, Joshi Guest House, Hotel Evelyn and Sahi River View can be requested/confirmed;
 - Sri Ramanasramam should be submitted once visa data permit;
 - concrete normal rail-ARP planning dates are recorded;
 - no booking, payment, message or personal-data upload has been performed.
