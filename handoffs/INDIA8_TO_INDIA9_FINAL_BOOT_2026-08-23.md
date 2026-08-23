@@ -3,7 +3,6 @@
 Status: CURRENT / SUPERSEDES older INDIA8->INDIA9 immediate-action sections where inconsistent.
 
 ## FIRST ACTION — NO EXCEPTIONS
-
 1. Open root `README.md`.
 2. Open `governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md`.
 3. Open `governance/ABC_SEMANTIC_LABEL_RULE_2026-08-23.md`.
@@ -15,49 +14,87 @@ Status: CURRENT / SUPERSEDES older INDIA8->INDIA9 immediate-action sections wher
 ## HARD PRESENTATION RULE
 Every A/B/C location must ALWAYS be shown as:
 `NAME (plain-language: what it is / why Mark is going there) — A/B/C`.
-Never assume Indian place names are meaningful or memorable to Mark. Example: `Jageshwar (complex of >100 old stone temples in cedar forest) — A`, not just `Jageshwar — A`.
-Clusters may have geographic names, but every route/cluster block must list the concrete visit locations underneath in this semantic format.
+Never assume Indian place names are meaningful or memorable to Mark.
 
 ## WHY THIS IS HARD
-INDIA8 made a serious regie error on 2026-08-23 by over-weighting recent runs and under-using older still-valid Mark canon. That caused already-decided items to be presented again and existing sleep bases to be underused.
-Known examples: Jageshwar was already A; Binsar already C; Joshi Guest House / Hotel Evelyn / Turiya Niwas already known Kumaon anchors; Sahi River View already LOCKED_BY_MARK for Varanasi.
-Do not repeat this class of error.
+INDIA8 made a serious regie error on 2026-08-23 by over-weighting recent runs and under-using older still-valid Mark canon. That caused already-decided items to be presented again and existing sleep bases to be underused. Known examples: Jageshwar was already A; Binsar already C; Joshi Guest House / Hotel Evelyn / Turiya Niwas already known Kumaon anchors; Sahi River View already LOCKED_BY_MARK for Varanasi. Do not repeat this class of error.
 
 ## CURRENT TRIP FRAME — EXACT
 - Booked outbound: **Air India 18 Dec 2026 20:35 AMS -> DEL, arrival 19 Dec 10:15**.
 - Booked return: **Air India 21 Jan 2027 12:20 DEL -> AMS, arrival 18:35**.
-- Calendar window is commonly described as 34 days, BUT the 18 Dec night is on the aircraft.
-- Exact India accommodation envelope = **33 nights: 19 Dec 2026 through 20 Jan 2027**.
-- Never build a fictional Delhi hotel night on 18 Dec.
+- 18 Dec night is on the international aircraft.
+- India calendar envelope = **33 nights: 19 Dec through 20 Jan**, and some of those may intentionally be overnight-train nights rather than hotels.
 - Breathing room at major clusters is preferred over maximizing site count.
-- Read `runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/TRIP_FIXED_FLIGHTS_AND_NIGHTS_2026-08-23.md`.
 
-## CURRENT WORKING ROUTE V1 — READ BEFORE CHANGING NIGHTS
+## CURRENT WORKING ROUTE — V2 IS AUTHORITATIVE
+Read before changing route/nights:
+`runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/WORKING_ROUTE_V2_TRAIN_FIRST_NEWYEAR_RISHIKESH_2026-08-23.md`
+
+V1 is historical only and is superseded where inconsistent.
+
+### Current V2 exact 33-night calendar
+- 19 Dec — overnight train Delhi -> Kathgodam
+- 20–22 Dec — Haidakhan Ashram, 3 nights
+- 23–25 Dec — Joshi Guest House / Kukuchina, 3 nights
+- 26–28 Dec — Hotel Evelyn / Nainital, 3 nights
+- 29–31 Dec — Rishikesh, 3 nights
+- 1 Jan — Agra, 1 night
+- 2–3 Jan — Vrindavan, 2 hotel nights
+- 4 Jan — overnight train Mathura -> Prayagraj
+- 5–10 Jan — Varanasi, 6 nights
+- 11–13 Jan — Bodh Gaya/Gaya, 3 nights
+- 14–18 Jan — Tiruvannamalai/Arunachala, 5 nights
+- 19–20 Jan — Delhi, 2 final buffer nights
+
+### V2 route-efficiency gains
+- 19 Dec Ranikhet Express planning pattern: Old Delhi ~22:05 -> Kathgodam ~05:05, turning first northbound transfer into sleep.
+- 4 Jan Mathura->Prayagraj planning pattern: train 20404 ~19:55 -> ~04:50 with 1A currently offered, preserving all of 4 Jan for Braj.
+- 5 Jan Prayagraj->Varanasi evening fast train, current useful pattern 22416 ~21:15 -> ~23:05, eliminating a Prayagraj hotel night and giving Varanasi six nights/five full local days.
+- 11 Jan current useful Varanasi->Gaya pattern: 20888 Vande Bharat ~16:05 -> ~18:45; 11 Jan 2027 is Monday and current timetable pattern includes Monday.
+- Exact Dec/Jan timetables and availability MUST be revalidated before booking.
+
+## HARD TRANSPORT PREFERENCE — MARK
 Read:
-`runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/WORKING_ROUTE_V1_AFTER_RISHIKESH_SWAP_2026-08-23.md`
+`runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/TRANSPORT_PREFERENCE_AND_EFFICIENCY_RULE_2026-08-23.md`
 
-Current exact 33-night allocation:
-- 19 Dec Delhi 1
-- 20–22 Dec Haidakhan 3
-- 23–25 Dec Kukuchina/Dunagiri 3
-- 26–28 Dec Nainital/Kainchi 3
-- 29–31 Dec Rishikesh/Haridwar/Kankhal 3
-- 1 Jan Agra 1
-- 2–4 Jan Vrindavan/Braj 3
-- 5 Jan Prayagraj 1
-- 6–10 Jan Varanasi/Sarnath 5
-- 11–13 Jan Bodh Gaya/Gaya 3
-- 14–18 Jan Tiruvannamalai/Arunachala 5
-- 19–20 Jan Delhi 2 final-buffer nights
+Order for long distances:
+1. TRAIN preferred.
+2. FLIGHT when train destroys too much usable trip time after true door-to-door comparison.
+3. PRIVATE CAR for mountains, last mile and cases where rail/air geometry is inferior.
+4. BUS = EXCLUDED. Never route Mark by intercity/long-distance bus as normal fallback.
 
-Important calendar fit: 1 Jan 2027 is Friday, so the route uses it only as Rishikesh->Agra positioning day. Taj sunrise/first-opening is **2 Jan**, avoiding the Taj's Friday closure.
+Door-to-door and lost daylight are more important than published vehicle duration.
+
+Current mode architecture:
+- Delhi -> Kathgodam: overnight train.
+- Kumaon mountain legs: private car.
+- Nainital -> Rishikesh: private car.
+- Rishikesh/Haridwar local: private car/taxi + walking.
+- Rishikesh -> Agra on 1 Jan: private car because useful trains require very early departure after New Year's Eve or arrive too late; preserve New-Year morning.
+- Agra -> Vrindavan: private car.
+- Mathura -> Prayagraj: overnight train.
+- Prayagraj -> Varanasi: fast evening train.
+- Varanasi -> Gaya: train/Vande Bharat.
+- Bodh Gaya/Gaya -> Patna airport: private car; Patna -> Chennai flight because rail to Tamil Nadu is too time-expensive.
+- Chennai -> Tiruvannamalai: private car.
+- Tiruvannamalai -> Chennai airport private car; Chennai -> Delhi flight.
+
+## NEW YEAR — HARD CURRENT ROUTE INTENT
+31 Dec 2026 should be **Rishikesh**, not Haridwar, Agra or transit.
+Preferred first-choice sleep/experience base to test: **Parmarth Niketan Ashram, Swarg Ashram**.
+Parmarth has announced a Special New Year Spiritual Retreat for **30 Dec 2026–1 Jan 2027**.
+Current shape:
+- 29 Dec: Nainital -> Rishikesh, settle.
+- 30 Dec: Kankhal **(Anandamayi Ma Mahasamadhi — A strong)** + Haridwar **(Har Ki Pauri Ganga Aarti — A-light)**.
+- 31 Dec: Rishikesh only; Beatles Ashram **(ashram where Beatles stayed in 1968 — A-light)** + Ganges/Parmarth New Year.
+- 1 Jan morning: preserve New-Year spiritual activity; then private car to Agra.
 
 ## CURRENT CLUSTER / ROUTE CANON — LATEST
 - Haidakhan / Nainital-Kainchi / Babaji-Dunagiri north family remains heavy A.
-- **Kasar Devi / Almora is NO LONGER a dedicated sleep module in the working route.** Latest Mark decision 2026-08-23: it yields to Rishikesh/Haridwar/Kankhal. Old site A's are retained historically but do not create nights. Jageshwar likewise no longer drives a dedicated excursion merely because it was A when already in that region.
-- **Rishikesh / Haridwar / Kankhal is in working route in place of Kasar/Almora.** Site A's: Kankhal Anandamayi Mahasamadhi strong A; Har Ki Pauri Ganga Aarti LIGHT A; Beatles Ashram LIGHT A; rafting B. LIGHT A = visit if cluster included, but does not independently justify opening cluster.
+- Kasar Devi / Almora is NO LONGER a dedicated sleep module; it yielded to Rishikesh/Haridwar/Kankhal. Old site A's are retained historically but do not create nights.
+- Rishikesh / Haridwar / Kankhal is in the working route. Kankhal Anandamayi Mahasamadhi = strong A; Har Ki Pauri Ganga Aarti = LIGHT A; Beatles Ashram = LIGHT A; rafting = B. LIGHT A means visit if cluster is included but does not independently justify opening cluster.
 - Vrindavan / Braj / Mathura: A, route-sensitive.
-- **Prayagraj / Allahabad: restored A-intent / route-efficiency-sensitive compact corridor module.** Read `PRAYAGRAJ_MARK_DECISIONS_RECONCILED_2026-08-23.md`; never drop it because an older cluster summary omitted it.
+- Prayagraj / Allahabad: restored A-intent / route-efficiency-sensitive compact corridor module. Read `PRAYAGRAJ_MARK_DECISIONS_RECONCILED_2026-08-23.md`; V2 uses it as one full day with no hotel night.
 - Varanasi + Sarnath: A.
 - Bodh Gaya / Gaya: A.
 - Tiruvannamalai / Arunachala: A, fixed.
@@ -68,35 +105,65 @@ Important calendar fit: 1 Jan 2027 is Friday, so the route uses it only as Rishi
 ## CURRENT SLEEP-BASE CANON
 ### North
 - Haidakhan: stay in Haidakhan Ashram desired.
-- Joshi Guest House, Kukuchina — LOCKED, Babaji Cave/Dunagiri base.
-- Hotel Evelyn, Nainital — CLUSTER_ANCHOR + site A. Historical authenticity matters more to Mark than comfort; maintenance/heating-cost issues do NOT disqualify it. Targeted independent room/floor/wing closure task exists at `runs/active/INDIA8-HOTEL-EVELYN-RAMDASS-ROOM-CLOSURE-001/TASK.md`.
-- Turiya Niwas / Kasar Devi — old provisional lock retained as historical canon but NOT a working-route sleep module after latest Mark decision.
-- Rishikesh/Haridwar/Kankhal — current provisional calculation base: **Parmarth Niketan Ashram, Swarg Ashram, Rishikesh**; official individual-room reservation exists; NOT Mark-locked yet.
+- Joshi Guest House, Kukuchina — LOCKED.
+- Hotel Evelyn, Nainital — A / desired historic sleep target regardless of rustic comfort.
+- Rishikesh: Parmarth Niketan is first-choice provisional New-Year/route base; not yet Mark-booking-locked.
 
 ### Varanasi
 - Sahi River View Guesthouse, Assi Ghat — LOCKED_BY_MARK; balcony room; Jitendre; greetings from Debby.
 
 ### Vrindavan
-- anchor zone: Vrindavan proper — Goda Vihar / old-Vrindavan / Atalla-Chungi side; not Mathura. Specific property not Mark-locked.
+- anchor zone: old Vrindavan / Goda Vihar / Atalla-Chungi side; not Mathura. Specific property not locked.
 
 ### Bodh Gaya
-- anchor zone: walkable Mahabodhi temple core, preferably ~0.8 km or less / Thai Temple–Do Muhan side. Specific property not Mark-locked.
+- anchor zone: walkable Mahabodhi core. Specific property not locked.
 
 ### Tiruvannamalai
-- first lodging concept: apply to stay in Sri Ramanasramam itself if appropriate/accepted; fallback geographic anchor Ramana Nagar / Chengam Road around/opposite Ramanasramam.
+- first lodging concept: apply to stay in Sri Ramanasramam itself; fallback Ramana Nagar / Chengam Road around/opposite Ramanasramam.
 
 ### Agra
-- positioning zone: Taj Ganj / Taj East Gate / Shilpgram walkable zone. Avoid pre-dawn taxi dependency if possible. Taj closed Fridays.
+- Taj East Gate / Shilpgram walkable positioning zone. Taj closed Fridays; V2 uses Fri 1 Jan only as positioning and visits Taj at dawn Sat 2 Jan.
+
+## HOTEL EVELYN — DUAL INDEPENDENT CLOSURE NOW RECONCILED
+Read:
+`runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/HOTEL_EVELYN_DUAL_CLOSURE_RECONCILIATION_2026-08-23.md`
+
+Inputs:
+- independent worker `eab8a127...` + photo ledger `0a7da62...`;
+- CCI independent closure `69f36d4...`.
+
+Canonical result:
+- Hotel Evelyn property/site secure.
+- Ram Dass had a private room/door, but no defensible room number/floor/wing/current successor room.
+- Sleep target = Hotel Evelyn/property, R4 operationally.
+- Best stand zone = historic main terrace/front-patio/veranda complex, R3.
+- Academic catalogue explicitly places 1971 `Nainital High` Ram Dass group photo on Evelyn's **main terrace**.
+- Current older/`British era` building section is a useful on-site lead, not proof of exact room.
+- The famous Ram Dass + K.K. Sah + Bhagavan Das rooftop photo is NOT Evelyn; it is the Sah family home's rooftop courtyard.
+- Final trip guide MUST carry on-site protocol: show 1971 photo, ask Sah family/long-serving staff for old main terrace/front patio/British-era section, then guest register/room ledger/old numbering and only then ask for Richard Alpert/Ram Dass room.
+
+## LP MICRO-GEMS SECOND OPINION — INTEGRATED
+Input worker commit: `5ad6fe83069091791be3c17852593de8fd4ca5d4`.
+Read integration:
+`runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/LONELY_PLANET_SECOND_OPINION_MICRO_INTEGRATION_2026-08-23.md`
+
+High-fit route texture preserved without changing A/B/C:
+- Haridwar: Mathura Walo Ki Pracheen Dukan **(old mithai shop with unusual sweet/malai samosa)**.
+- Prayagraj: Indian Coffee House **(1957 political/literary institution)** and Hari Ram & Sons **(old mini masala-samosa/namkeen shop)**, only if compact A-day has slack.
+- Varanasi: Ram Bhandar **(historic breakfast institution)**; winter malaiyo **(seasonal airy saffron-milk sweet)**; Gulabi Meenakari artisan workshop **(traditional pink-enamel metalcraft workshop)**.
+- Gaya: Sri Ram Tilkut Bhandar **(historic tilkut sweets shop / winter sesame specialty)**.
+- Almora bazaar/copper walk dormant because Almora route module removed.
+- Agra Red Taj/cemetery dormant because Mark's Agra rule remains Taj-only.
+- Vrindavan Sanjhi art out of season for Dec/Jan.
 
 ## BODH GAYA RECONCILIATION — LATEST KNOWN USER GRADES
-Do not reopen these simply because the LP layer later called some of them magnets:
-- Mahabodhi Temple — A.
-- Bodhi Tree — A.
-- Sujata Stupa/Bakraur — A (later explicit Mark upgrade).
-- Great Buddha Statue — B (later explicit downgrade from earlier A).
-- Dungeshwari/Mahakala Cave Temples — C (later explicit grade).
-- Barabar/Nagarjuni Caves — C in Mark's preserved grading even though LP independently calls them a major magnet.
-- Gurpa Hill — C.
+- Mahabodhi Temple **(enlightenment temple complex)** — A.
+- Bodhi Tree **(tree at Buddha's enlightenment spot)** — A.
+- Sujata Stupa/Bakraur **(site linked to Sujata's meal before Buddha abandoned extreme asceticism)** — A.
+- Great Buddha Statue **(large modern seated Buddha)** — B.
+- Dungeshwari/Mahakala Caves **(caves of Buddha's extreme ascetic practice)** — C.
+- Barabar/Nagarjuni Caves **(Mauryan polished-rock cave architecture)** — C despite LP magnet signal.
+- Gurpa Hill **(remote Buddhist-associated hill/cave terrain)** — C.
 
 ## PRECEDENCE FOR TRAVEL REGIE
 1. newest explicit Mark decision / LOCKED_BY_MARK / supersede;
@@ -114,16 +181,11 @@ Never let an older candidate/overview silently downgrade or reopen a later Mark 
 
 FINAL COMFORT SWEEP is mandatory after route freeze: historic bakeries/patisseries, local signature sweets/products, best coffee, strong restaurants, characterful cafés and other high-quality microstops per sleep base.
 
-## CALENDAR FLAGS ALREADY VISIBLE
-- Taj Mahal: Friday closed; V1 avoids this with Agra positioning Friday 1 Jan and Taj dawn Saturday 2 Jan.
-- Tiruvannamalai module 14–18 Jan overlaps the Tamil Pongal period. Treat this as an explicit planning factor: cultural upside but domestic travel/crowd/operating-hours risk.
-- January 2027 Pournami/full moon is around 22 Jan, after Mark's India trip, so V1 Girivalam is not automatically forced into Pournami mega-crowds.
-
 ## CCI RELAY
-PR #23 is the fixed CCI relay/index channel. Task files that CCI must know about must be pointed to there. A pointer to the current Hotel Evelyn task and Lonely Planet second-opinion task was posted as PR #23 comment id `5385302391`. Those tasks are NOT assigned to CCI unless a later PR #23 `CCI_TASK` explicitly says so.
+PR #23 is the fixed CCI relay/index channel. CCI reads newest `CCI_TASK` there and posts `CCI_RESULT` there. INDIA8 accidentally allowed Mark to paste a task manually once; do not rely on manual copy when ChatGPT can post a task directly.
 
 ## NO-DEFERRAL CHECK BEFORE EVERY ANSWER
 If INDIA9 can safely execute research/reconciliation/matrix work without a Mark-only choice, DO IT BEFORE SENDING and commit it. Leave open only genuine Mark choices, live booking choices requiring date/price acceptance, or irreducible external blockers after all safe workarounds are exhausted.
 
 ## CURRENT EXECUTION STATE
-The first exact 33-night human-review route now EXISTS. Do not respond to Mark by saying 'we should build a route'; open the V1 route and work from it. The next user interaction is human review of pace/order/content. When Mark changes a night/module, immediately recompute the full 33-night envelope, calendar constraints, and affected transfers and commit the new route version.
+V2 train-first route exists and is authoritative. Do not say 'we should build a route'. Work from V2. Current next phase is human review of pace/order, followed by day-level geographic grouping, exact sleep-property decisions where still provisional, exact-date transport revalidation when bookable, then final COMFORT SWEEP and trip day cards.
