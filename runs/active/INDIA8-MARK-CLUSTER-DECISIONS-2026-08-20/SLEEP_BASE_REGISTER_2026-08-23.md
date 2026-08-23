@@ -1,118 +1,133 @@
-# SLEEP BASE REGISTER — 2026-08-23
+# SLEEP BASE REGISTER — 2026-08-23 — INDIA9 RECONCILED
 
-Purpose: current travel-regie routing origins. This register does not invent new hotel choices and does not override Mark. It consolidates existing repo decisions and now includes resolved anchor zones for every retained A-cluster.
+Purpose: current travel-regie routing origins. This register does not invent hotel choices and does not override Mark. It consolidates existing decisions plus the latest 2026-08-23 route/handoff supersedes.
 
-See also:
-- `SLEEP_BASE_ZONE_RESOLUTION_2026-08-23.md`
-- `../INDIA8-CLUSTER-CASTING-001/KUMAON_THREE_BASE_EXECUTION_MATRIX_2026-08-23.md`
+Current precedence patch: `governance/INDIA9_CANON_RECONCILIATION_2026-08-23.md`.
 
-## A-CLUSTERS
+## HARD STAY RULE — EXACTLY TWO ASHRAM STAYS
 
-### KUMAON / NAINITAL / KAINCHI / BABAJI — A
-This is a multi-base cluster; one-base model is explicitly rejected.
+Mark's latest rule permits/desires exactly two ashram sleep experiences:
+1. **Haidakhan Ashram**;
+2. **Sri Ramanasramam**, if accommodation is accepted/available.
 
-#### Base K1 — Kukuchina / Dunagiri
+All other route nights use normal hotel/guesthouse lodging. In particular, **Parmarth Niketan is NOT the Rishikesh sleep base**; it remains a New-Year/spiritual-experience target only.
+
+## CURRENT ROUTE SLEEP BASES / ANCHORS
+
+### DELHI — 19 DEC ARRIVAL / 19 DEC NIGHT TRAIN
+- no Delhi hotel on 19 Dec;
+- Air India arrives DEL 19 Dec 10:15;
+- night 1 is planned as overnight train Delhi -> Kathgodam;
+- Delhi local routing must start from actual airport/transfer position, not a fictional city-centre hotel.
+
+### HAIDAKHAN — 20–22 DEC, 3 NIGHTS
+- **Haidakhan Vishwa Mahadham / Haidakhan Ashram**
+- status: **DESIRED ASHRAM STAY #1 + site A**
+- use as the actual local routing origin while staying there.
+- live acceptance/availability remains an institutional booking boundary; this is not a reason to reopen the location decision.
+
+### KUKUCHINA / DUNAGIRI — 23–25 DEC, 3 NIGHTS
 - **Joshi Guest House, Kukuchina**
 - status: **LOCKED**
-- use for: Mahavatar Babaji Cave / Dunagiri landscape; Babaji Smriti Bhavan; Dunagiri Temple; YSS Dwarahat; nearby Babaji-spine routing.
-- routing origin for LP layer: YES.
+- use for: Mahavatar Babaji Cave; Babaji Smriti Bhavan; Dunagiri Temple; YSS Dwarahat and same-landscape routing.
+- routing origin: property itself.
 
-#### Base K2 — Nainital
+### NAINITAL / KAINCHI — 26–28 DEC, 3 NIGHTS
 - **Hotel Evelyn, Nainital**
-- status: **CLUSTER_ANCHOR + site A**
-- use for: Kainchi Dham; Bhumiadhar; Hanuman Garhi; Nainital/NKB/Ram Dass layer; Naina Peak; central Nainital micro-gems.
-- historic/current web check executed 2026-08-23: Hotel Evelyn is well supported as 1970–71 devotee base; balcony and front-patio/porch scenes are supportable, but no exact current room number can honestly be identified as Ram Dass's room from public evidence yet.
-- **MARK OVERRIDE 2026-08-23:** historic authenticity has priority over comfort here. Maintenance problems, primitive conditions, poor reviews, limited comfort, or extra heating cost are NOT grounds to demote or replace Hotel Evelyn. Mark is willing to accept very basic sleeping conditions to stay at the historic place.
-- practical caution is therefore informational only: verify that overnight stay is physically/legalistically possible and safe; do not use comfort reviews as ranking criteria.
-- targeted independent closure queued: `runs/active/INDIA8-HOTEL-EVELYN-RAMDASS-ROOM-CLOSURE-001/TASK.md` to resolve room/floor/wing/balcony/patio as far as evidence permits.
-- routing origin for LP layer: YES.
+- status: **CLUSTER_ANCHOR + site A + desired historic stay**
+- historic authenticity outranks comfort for Mark; poor reviews/basic conditions/heating surcharge are informational, not grounds for automatic replacement.
+- exact Ram Dass room/floor/wing/current successor room remains unproven.
+- best supportable historic standing zone: **main terrace / front-patio / veranda complex (R3)**; property-level sleep target R4.
+- route from the actual Hotel Evelyn property, not central Nainital.
 
-#### Base K3 — Kasar Devi / Almora
-- **Turiya Niwas, Crank's Ridge**
-- status: **PROVISIONAL LOCK as sleep base + site A**
-- use for: Kasar Devi/Crank's Ridge; Almora; Bodh Ashram; Jageshwar direction; Almora micro-gems.
-- winter readiness already directly confirmed with host.
-- exact dates/stay length/reservation depend on final route calendar, not on more geographic research.
-- fallback #1: Kripal House.
-- fallback #2: Rudra Himalayan Retreat.
-- routing origin for LP layer: YES.
+### KASAR DEVI / ALMORA — NO CURRENT V2 SLEEP MODULE
+- **Turiya Niwas, Crank's Ridge** remains **A / LOCKED_BY_MARK as a destination** and its previous sleep-base research remains preserved.
+- **Bodh Ashram (081)** and other protected Kasar/Almora A-sites remain protected.
+- Mark's later explicit route decision `KASAR_ALMORA_YIELDS_TO_RISHIKESH_2026-08-23.md` removes the dedicated Kasar/Almora sleep module from the current V2 trip.
+- therefore Turiya is **NOT a current V2 sleep base**, without any downgrade of its A/lock status.
+- do not ask Mark to decide this trade-off again.
 
-#### Kumaon route note
-Kakrighat = transit stop, not a fourth sleep base.
-Haidakhan = separate experiential A-module; do not force it into the three-base model.
+### RISHIKESH / KANKHAL / HARIDWAR — 29–31 DEC, 3 NIGHTS
+- route module status: **RETAINED in current V2**; older `B / reserve` cluster wording is superseded for route inclusion.
+- sleep type: **NORMAL HOTEL/GUESTHOUSE ONLY — NO ASHRAM OVERNIGHT**.
+- resolved anchor zone for calculation: **Rishikesh, Swarg Ashram / Parmarth-access side**, close enough for the 31 Dec Parmarth/New-Year framework and Ganges walking logic.
+- exact property: **NOT LOCKED_BY_MARK**.
+- property selection is bounded hotel choice/live availability, not citywide location research.
+- local Haridwar/Kankhal day is a road/taxi excursion from this actual Rishikesh base.
 
-### VRINDAVAN / BRAJ / MATHURA — A, route-sensitive
-- locked property: **NONE yet**.
-- geographic anchor research: **RESOLVED 2026-08-23**.
+### AGRA — 1 JAN, 1 NIGHT
+- route driver: Taj Mahal only.
+- anchor zone: **Taj Ganj — East Gate / Shilpgram walkable zone**.
+- exact property: **NOT LOCKED_BY_MARK**.
+- hard filter: genuinely walkable/pre-dawn practical for Taj earliest-opening visit on 2 Jan; avoid pre-dawn taxi dependence if possible.
+- 1 Jan 2027 is Friday; Taj is closed that day, which is already used as positioning day.
+
+### VRINDAVAN / BRAJ — 2–3 JAN, 2 HOTEL NIGHTS
 - anchor zone: **Vrindavan proper — Goda Vihar / old-Vrindavan / Atalla-Chungi side; NOT Mathura**.
-- rationale: keeps Railway Station A, Madan Mohan A, Katyayani/Keshabananda A-intent and NKB Ashram A in short local routing while preserving actual Vrindavan atmosphere.
-- remaining issue is property choice/availability inside a bounded zone, not citywide base research.
+- exact property: **NOT LOCKED_BY_MARK**.
+- current calculation property may be a rekenbasis only; never present a calculation property as Mark's hotel lock.
+- 4 Jan has no Vrindavan hotel night because the planned overnight train substitutes for it.
 
-### VARANASI / SARNATH — A
+### PRAYAGRAJ — 5 JAN CORRIDOR DAY, NO HOTEL NIGHT
+- no Prayagraj sleep base in V2.
+- arrive from the 4 Jan overnight train; use station pickup/luggage/day-room logistics as operational support only.
+- evening train onward to Varanasi; do not invent an overnight base.
+
+### VARANASI / SARNATH — 5–10 JAN, 6 NIGHTS
 - **Sahi River View Guesthouse, Assi Ghat**
-- accommodation id: VNS-HOTEL-001
+- accommodation id: `VNS-HOTEL-001`
 - status: **LOCKED_BY_MARK**
 - room preference: **balcony room**
-- contact note: **Jitendre; greetings from Debby**
-- use for: Assi/Bhadaini/south-ghat A-zone and wider Varanasi routing.
-- supersedes older provisional wording.
-- routing origin for LP layer: YES.
+- named contact: **Jitendre; greetings from Debby**
+- recorded address: **B1/158 A2, Assi Ghat Rd, Varanasi, Uttar Pradesh 221005, India**
+- exact Google Maps marker remains not canonically verified; do not guess coordinates.
+- all Varanasi local travel calculations start from this property/address, never from generic Varanasi centre.
+- any older file calling the Varanasi hotel provisional/open is superseded.
 
-### BODH GAYA / GAYA — A
-- locked property: **NONE yet**.
-- geographic anchor research: **RESOLVED 2026-08-23**.
-- anchor zone: **Bodh Gaya temple core, preferably within ~0.8 km walk of Mahabodhi / Thai Temple / Do Muhan Road side**.
-- rationale: repeat dawn/evening access to Mahabodhi and Bodhi Tree by foot; Gaya items remain vehicle excursions.
-- existing Bodh Gaya A/B/C decisions remain protected.
+### BODH GAYA / GAYA — 11–13 JAN, 3 NIGHTS
+- anchor zone: **Bodh Gaya temple core, preferably within roughly 0.8 km walk of Mahabodhi / Thai Temple / Do Muhan Road side**.
+- exact property: **NOT LOCKED_BY_MARK**.
+- current calculation base such as Maya Heritage is a rekenbasis only unless Mark separately locks it.
+- use the actual selected property inside this zone for final local timings; Gaya-side items are vehicle excursions.
 
-### TIRUVANNAMALAI / ARUNACHALA — A, fixed
-- locked property: **NONE yet**.
-- geographic anchor research: **RESOLVED 2026-08-23**.
-- anchor zone: **Ramana Nagar / Chengam Road immediately around or opposite Sri Ramanasramam**.
-- rationale: doorstep access to Ramanasramam A; direct hill approach to Skandashram/Virupaksha; Arunachaleswarar only ~3 km town transfer; good Girivalam logic.
-- do not use Mysore/Bengaluru as required south base.
+### TIRUVANNAMALAI / ARUNACHALA — 14–18 JAN, 5 NIGHTS
+- first-choice sleep: **Sri Ramanasramam accommodation itself**
+- status: **DESIRED ASHRAM STAY #2 + site A**, subject to institutional acceptance/availability.
+- if unavailable: normal lodging in **Ramana Nagar / Chengam Road immediately around/opposite Sri Ramanasramam**.
+- fallback sleep does not alter the A status of Sri Ramanasramam.
+- local route calculations start at the accepted ashram room or actual fallback property, not town centre.
 
-### AGRA — A, deliberately minimal
-- route driver: Taj Mahal only.
-- geographic positioning research: **RESOLVED 2026-08-23**.
-- anchor zone: **Taj Ganj — Taj East Gate / Shilpgram walkable zone**.
-- HARD requirement: Taj at sunrise / earliest practical opening; no pre-dawn taxi dependency if avoidable.
-- hard calendar caution: Taj closed Friday; final route must not place the critical Taj morning on Friday.
-- exact hotel/date remains a bounded booking/calendar choice, not an unresolved geographic research task.
+### DELHI — 19–20 JAN, 2 BUFFER NIGHTS
+- two buffer nights retained before 21 Jan 12:20 international departure.
+- exact final Delhi hotel: not locked in this register.
+- choose/finalize only against airport/remaining-Delhi-day geometry once that day's retained visit set is fixed.
 
-## B / RESERVE CLUSTER
+## NON-ROUTE / PARKED CLUSTERS
 
-### HARIDWAR / KANKHAL / RISHIKESH — B / reserve
-- no sleep-base work is required unless the cluster is actually promoted/retained in the route.
-- Kankhal Anandamayi Mahasamadhi remains site A.
-- Rishikesh atmosphere/nature remains personally attractive.
+### MYSORE / BENGALURU — C cluster
+- no dedicated sleep base.
+- individual historic A records remain preserved but do not create a south-route branch.
 
-## C CLUSTER
+### EAST / KOLKATA — parked for current trip
+- no hotel/base research is activated by old candidate files.
 
-### MYSORE / BENGALURU — C
-- no dedicated sleep-base task.
-- individual A sites remain preserved but do not create a south route branch.
+## NO-DEFERRAL INTERPRETATION
 
-## PARKED
+Geographic sleep-base research is already resolved for the current route at the level required for route calculation:
+- concrete locked/desired properties where Mark has them;
+- otherwise bounded anchor zones.
 
-### EAST / KOLKATA
-- parked for this trip unless exceptional/capacity override.
-- no hotel work now.
+The only legitimate unresolved accommodation boundaries are:
+- an actual Mark property preference where no property is locked;
+- live price/availability/booking acceptance;
+- institutional acceptance for the two desired ashram stays.
 
-## CURRENT STATE — NO DEFERRED GEOGRAPHIC HOTEL RESEARCH
-
-- Kumaon bases: known.
-- Varanasi property: locked.
-- Vrindavan anchor zone: resolved.
-- Bodh Gaya anchor zone: resolved.
-- Tiruvannamalai anchor zone: resolved.
-- Agra sunrise positioning zone: resolved.
-
-Remaining hotel actions are either:
-1. a Mark choice among properties inside an already fixed zone; or
-2. live booking/availability work once route dates are fixed.
-
-Those are not unfinished regie discovery tasks and must not be described as if INDIA simply 'still needs to investigate the area'.
+Do not describe these bounded booking decisions as unfinished citywide research.
 
 ## ROUTING RULE
-For each cluster's Lonely Planet and B-add-on calculations, use the sleep base(s)/anchor zone above as the origin. Where a site is naturally visited on a transfer between two bases, compute it as a corridor stop instead of round-trip from one base.
+
+For every local route calculation:
+1. use the actual sleep property when locked/selected;
+2. otherwise use the bounded anchor-zone calculation point and label it explicitly `REKENBASIS`, not hotel lock;
+3. if a location lies naturally on an inter-base transfer, calculate it as a corridor stop rather than an artificial round trip;
+4. apply the full AL-BESLIST? gate before presenting any hotel/base as a new choice.
