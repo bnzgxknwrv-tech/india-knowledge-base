@@ -174,13 +174,16 @@ B-items only ride when they fit geography; they do not displace the A-core. Bhar
 # 11–13 JAN — BODH GAYA / GAYA — 3 NIGHTS
 Sleep base zone: walkable Mahabodhi core; provisional calculation base Maya Heritage / equivalent, not Mark-locked.
 
-Confirmed protected A core:
+Reconciled Mark decisions relevant to this route:
 - **Mahabodhi Temple (Buddhist temple complex marking the place of Buddha's enlightenment) — A.**
-- **Bodhi Tree (the sacred tree at the enlightenment spot within the Mahabodhi complex) — A.**
+- **Bodhi Tree (sacred tree at the enlightenment spot within the Mahabodhi complex) — A.**
+- **Sujata Stupa / Bakraur (stupa/village site linked to Sujata, whose milk-rice meal preceded Buddha abandoning extreme asceticism and moving toward enlightenment) — A.**
+- **Great Buddha Statue (large modern seated Buddha monument in Bodh Gaya) — B.**
+- **Dungeshwari / Mahakala Cave Temples (cave complex associated with Buddha's years of extreme ascetic practice before choosing the Middle Way) — C.**
+- **Barabar / Nagarjuni Caves (Mauryan polished-rock cave complexes, among India's earliest surviving rock-cut architecture; objectively a Lonely-Planet magnet but Mark's latest preserved grade remains C) — C.**
+- **Gurpa Hill (remote hill/cave pilgrimage terrain with Buddhist associations; substantial excursion) — C.**
 
-The wider Bodh Gaya/Gaya corpus contains already-researched Buddha-route locations such as Dungeshwari/Mahakala ascetic caves and Sujata/Bakraur, but this V1 does NOT invent or overwrite an A/B/C where the latest explicit Mark grade is not safely reconciled in the current regie evidence. They remain preserved for the next route-detail pass, not silently dropped.
-
-Barabar/Nagarjuni Caves are an objectively strong Lonely-Planet magnet but remain ungraded by Mark, so they are not yet scheduled as A/B/C.
+Other old Bodh/Gaya C-candidates remain in the protected evidence master but do not consume this three-night route module.
 
 ---
 
@@ -219,7 +222,7 @@ The pressure points are now visible:
 - Vrindavan: Taj morning + arrival afternoon, then ~2 full days; high A density, so this is compact.
 - Prayagraj: 1 corridor night; intentionally compact.
 - Varanasi: ~4 full local days after Prayagraj transfer; heavy but workable only with geographic grouping.
-- Bodh Gaya: ~2 full days plus arrival/transfer edges; may be the first place to test for +1 night if its full A-canon demands it.
+- Bodh Gaya: ~2 full days plus arrival/transfer edges; current A-set is compact enough for three nights.
 - Tiruvannamalai: ~4 full days; enough to create one Ramanasramam day, one cave/hill day, one town/early-Ramana day, and one Girivalam day, but little weather/slack.
 
 No extra cluster can be added without taking time from one of these modules or using overnight transport intelligently.
