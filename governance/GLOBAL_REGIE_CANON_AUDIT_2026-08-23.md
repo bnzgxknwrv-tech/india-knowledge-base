@@ -3,6 +3,20 @@
 Status: ACTIVE REGIE GUARDRAIL
 Purpose: prevent INDIA8/INDIA9+ from re-presenting already-decided locations, missing sleep anchors, or using stale summaries over later Mark decisions.
 
+**PARTIALLY STALE (flagged 2026-08-23, task 008 optimization pass):** this file still
+lists Turiya Niwas (080) as an active sleep-anchor/A-destination below. Mark
+subsequently confirmed directly that the entire Kasar Devi/Crank's Ridge/Almora module
+— Turiya Niwas (080) AND Bodh Ashram (081), both `LOCKED_BY_MARK` — is dropped from the
+working route (heavier candidates found elsewhere). See
+`runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/MARK_DECISION_KASAR_ALMORA_MODULE_DROPPED_2026-08-23.md`
+(commit `53c7484` on `agent/cci-mark-decision-kasar-almora-dropped`) for the exact
+decision record. This is a route-inclusion decision, not a canon/value edit — the
+underlying site grades in `PROTECTED_CANON_BASELINE.csv` are unchanged — but any
+regie/route text below that still treats Turiya Niwas as an active stop is superseded
+by that later decision. This file is otherwise NOT fully re-verified in this pass;
+treat every other claim below with the same "check PROTECTED_CANON_BASELINE.csv and
+governance/PRECEDENCE_MAP.jsonl first" discipline as any other pre-baseline file.
+
 ## ROOT CAUSE OF 2026-08-23 REGIE MISS
 The regie chat over-weighted recent runs/worker branches and under-read legacy-but-still-valid root canon such as `CLUSTER_ANCHORS.md`, `LOCKED_A.md`, `LOCKED_B.md`, `LOCKED_C.md` and later accommodation decision files. This caused already-known facts (e.g. Jageshwar A, Binsar C, Kumaon sleep anchors) to be presented as if new.
 

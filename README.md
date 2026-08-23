@@ -34,7 +34,14 @@ En tevens hard:
 
 Dit repository is de duurzame bron van waarheid voor het India-project. Een nieuwe ChatGPT/INDIA-regisseursessie (INDIA7, INDIA8, INDIA9, enz.) moet de oude chat NIET nodig hebben en mag Mark niet vragen de geschiedenis opnieuw uit te leggen.
 
-## Harde bootregel voor iedere nieuwe INDIA-regisseur
+## Harde bootregel voor iedere nieuwe INDIA-regisseur (historisch, 2026-08-19 — leesmechaniek vervangen door governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md, zie STOP-blok bovenaan)
+
+**LET OP (2026-08-23, task 008): volg de instructie hieronder NIET meer letterlijk.**
+Als `governance/KNOWLEDGE_BASELINE_LATEST.md` een geldige baseline oplevert, lees dan
+uitsluitend de nieuw/gewijzigde delta + de altijd-actuele autoriteitsbestanden
+(`governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md` Sectie G) — niet de volledige repository
+opnieuw. Alleen als die baseline-validatie faalt, geldt de onderstaande stap-voor-stap
+instructie alsnog als fallback.
 
 **Lees de gehele GitHub-repository voordat je inhoudelijk handelt.** Niet alleen de handoff, niet alleen governance, niet alleen actieve taken.
 
