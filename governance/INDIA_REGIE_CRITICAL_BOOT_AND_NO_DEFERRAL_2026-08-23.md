@@ -4,6 +4,17 @@ Date: 2026-08-23
 Status: HARD / MANDATORY / FIRST-SESSION GATE
 Owner: INDIA-regie
 
+## SUPERSEDE NOTICE (2026-08-23, task 008)
+
+`governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md` is now the highest boot authority for
+INDIA10+. It supersedes ONLY the read *mechanics* below (step 5's "lees de gehele
+tekstuele repository" instruction) with a validated-baseline + delta model — see that
+file's Section B/C for exactly when the baseline-skip applies and when full reread is
+still mandatory (baseline validation failure). Every other rule in this file —
+the incident record, the AL BESLIST check, the no-deferral rule, and the boot gate
+sequence itself — remains fully in force, unchanged, for INDIA9 and all later
+versions.
+
 ## INCIDENT DAT DEZE REGEL VEROORZAAKTE
 
 Op 2026-08-23 bleek dat INDIA8 bij reisregie te veel steunde op recente runs/branches en te weinig op oudere maar nog geldige canon zoals cluster-anchors, LOCKED_A/B/C, accommodation locks en eerdere Mark-besluiten. Daardoor werden bestaande A/C-keuzes opnieuw als kandidaat gepresenteerd en werden reeds gekozen slaapbases onvoldoende gebruikt.

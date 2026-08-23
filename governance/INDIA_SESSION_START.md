@@ -1,5 +1,22 @@
 # INDIA_SESSION_START — duurzame bootstrap voor iedere nieuwe INDIA-regisseursessie
 
+## ACTUEEL (2026-08-23, task 008) — lees dit eerst
+
+Dit bestand hieronder is een snapshot van 2026-08-18 en is inmiddels gedateerd t.o.v.
+latere INDIA8/INDIA9-werk. De actuele startvolgorde is:
+
+1. `governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md` (hoogste boot-autoriteit, INDIA10+)
+2. `governance/KNOWLEDGE_BASELINE_LATEST.md` → wijst naar de actuele gecertificeerde
+   baseline (`governance/KNOWLEDGE_BASELINE_2026-08-23.md` op moment van schrijven)
+3. `handoffs/INDIA9_TO_INDIA10_SUCCESSOR_BOOT_2026-08-23.md` (meest recente handoff)
+4. `governance/PRECEDENCE_MAP.jsonl` + `governance/ACTIVE_FRAMEWORK.md` voor wat
+   actueel gezaghebbend is versus alleen provenance.
+
+De rest van dit bestand blijft staan als historische snapshot (2026-08-18) en is
+NIET verwijderd, maar is dus niet meer de eerste bron van waarheid.
+
+---
+
 Snapshot: 2026-08-18 23:59 CEST
 
 ## LATEST ACTION — CCI_TASK 094 AFGEROND (CCI, 2026-08-19)

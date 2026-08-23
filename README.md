@@ -1,6 +1,21 @@
 # INDIA — START HIER
 
-## STOP — VERPLICHTE EERSTE POORT VOOR INDIA9 EN LATER
+## STOP — VERPLICHTE EERSTE POORT VOOR INDIA10 EN LATER (2026-08-23, task 008)
+
+**Lees vóór ALLES eerst:** `governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md`
+
+Dat bestand is nu de hoogste boot-autoriteit. Het vervangt de mechaniek van
+"lees letterlijk elke keer de hele repository" (hieronder, sectie "STOP — VERPLICHTE
+EERSTE POORT VOOR INDIA9") door een baseline+delta-model: begin bij
+`governance/KNOWLEDGE_BASELINE_LATEST.md`, lees vervolgens alleen wat sindsdien
+nieuw/gewijzigd is plus de altijd-actuele autoriteitsbestanden (Sectie G van het
+protocol), en val terug op een volledige herlezing als de baseline niet valideert
+(Sectie C). Dit vervangt uitsluitend de LEESMECHANIEK — het incident, de
+AL-BESLIST-regel, de sleep-base-first-regel en de no-deferral-regel hieronder blijven
+onverkort van kracht.
+
+## STOP — VERPLICHTE EERSTE POORT VOOR INDIA9 (2026-08-23, historisch — leesmechaniek
+hierboven vervangen; onderstaande regels blijven zelf van kracht)
 
 **Lees vóór ALLES eerst:**
 `governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md`
