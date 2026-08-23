@@ -21,6 +21,12 @@ Outputs:
   relation to frozen (identical/ancestor/descendant/diverged), added/deleted/modified path counts
   vs frozen, and (for the 19 branches referenced in governance/handoff text) the full list of
   divergent paths.
+- `FULL_BYTE_READ_STREAM.jsonl` (task 002) — 1,383 rows, lossless chunked read stream of all 366
+  unique frozen blobs (max 4096 original bytes/row, text chunks UTF-8-boundary-safe, binary/PDF
+  chunks base64), mechanically reconstructed and verified 366/366 byte-size + git-blob-SHA
+  identity before commit. Zero mismatches.
+- `FULL_BYTE_READ_STREAM_INDEX.md` (task 002) — chunking rule, row schema, verification result,
+  and suggested ~8-row fetch ranges (173 fetches) for INDIA9's own semantic read.
 - `STATUS.md` — this file.
 
 Headline finding: `PROTECTED_CANON_BASELINE.csv` does not exist in frozen central at all — it
