@@ -82,13 +82,14 @@ This layer is for things Mark could realistically DO or VISIT as a traveler. Pri
 - traveler signal / repeated praise
 - nearest current cluster or corridor
 - approximate detour / extra time class
-- could plausibly add cluster time? YES / MAYBE / NO (descriptive only, not A/B/C)
+- could plausibly add cluster time? YES / MAYBE / NO (descriptive only, not A/B/C or A+)
 - current visitability/seasonality caveat if material
 - source URLs
 - confidence
 
 ## NO DECISIONS
 - Do not assign Mark's A/B/C.
+- Do not assign `A+`; A+ is a later Mark-only intrinsic-anchor decision after all discovery layers are merged.
 - Do not choose clusters, nights, hotels or route.
 - Do not downgrade old decisions.
 - Discovery only.
