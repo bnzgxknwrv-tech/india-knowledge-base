@@ -34,7 +34,7 @@ Never abbreviate:
 - `A` = Mark wil hier HEEL GRAAG OOK heen. It is a genuine intended visit and defaults to PLAN/RETAIN. An A may only be brought back for discussion when actual route/visit burden is clearly disproportionate: very large detour, major isolated side trip, unusually long visit requirement, extra night(s), or material collision with stronger trip priorities. Distance/time is a discussion trigger, never an automatic downgrade.
 - `B` = reserve/bycatch only. Normally NOT planned. Only consider if Mark is already there, it is almost frictionless, or there is unexpected spare time. A B may not independently steer a route, create a taxi outing, half-day or extra night. In practice many B sites will not be visited.
 - `C` = NIET heen. Do not plan, route for, optimize for, or re-present unless Mark explicitly reopens it.
-- `OPEN` traveler/regional finding = ungraded. INDIA may recommend A/B/C, but `interesting` alone is never enough for A. A means strong enough to genuinely plan; B means accidental/easy bycatch only; C means spend no trip time on it.
+- `OPEN` traveler/regional/Lonely-Planet finding = ungraded. It may become `A+`, `A`, `B` or `C` by Mark. Provenance never limits the maximum grade. A+ is appropriate only when Mark concludes the new discovery itself is now a core reason for the trip; A means strong enough to genuinely plan; B means accidental/easy bycatch only; C means spend no trip time on it.
 - Corridor geometry can rescue a wanted place when it becomes an easy transfer capture; KUMAON / KAKRIGHAT / Kakrighat (Kosi-rivierplek waar Vivekananda in 1890 een belangrijke realisatie had) — A is the model case.
 
 ## MARK DECISION CARD — HARD
@@ -48,8 +48,8 @@ Grade-sensitive handling:
 2. A+ -> protect absolutely; solve route around it.
 3. A -> assume retain; first find easy capture/bundles; only re-open when burden is clearly disproportionate.
 4. B -> never route for it; attach only if nearly frictionless and spare time exists.
-5. OPEN regional/traveler/LP -> hard cuts first, then easy captures, bundles, genuine choices.
-Working friction bands are advisory only. Over ~150 min extra or standalone half/full day is a legitimate discussion trigger for an existing A, not an automatic downgrade; for an OPEN candidate it creates strong B/C pressure unless the intrinsic value is exceptional.
+5. OPEN regional/traveler/LP -> eligible for A+/A/B/C; assess intrinsic importance and corridor reality, with hard cuts first, then easy captures, bundles, genuine choices / possible new A+ world-magnets.
+Working friction bands are advisory only. Over ~150 min extra or standalone half/full day is a legitimate discussion trigger for an existing A, not an automatic downgrade; for an OPEN candidate it creates strong B/C pressure unless the intrinsic value is exceptional or Mark elevates it to A+.
 Full method: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_PROXIMITY_DECISION_MODEL.md`.
 
 ## CENTRAL TRUTH / ACTIVE FILES
@@ -62,6 +62,7 @@ Branch: `agent/india8-cluster-casting`.
 - Varanasi corridors: `VARANASI_A_PLUS_CORRIDOR_MATRIX.md`.
 - Bodh Gaya corridors: `BODHGAYA_A_PLUS_CORRIDOR_MATRIX.md`.
 - Traveler master: `runs/active/INDIA10-MULTIAI-TRAVELER-DISCOVERY-001/TRAVELER_EXPERIENCE_MASTER_UNION_LEDGER.md` — 221 raw represented inputs -> 150 canonical traveler/experience rows.
+- Active traveler/LP overlay: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRAVELER_OVERLAY_CORRIDOR_PASS_2026-08-24.md`.
 Regional discovery: 8/8 workers complete and integrated.
 
 ## FIXED CORE WORLDS
@@ -139,8 +140,9 @@ Mandatory overlay pipeline:
 4. A+ duplicates are absolute route anchors;
 5. A duplicates stay planned unless a clearly disproportionate burden merits an explicit reconsideration card;
 6. B duplicates remain reserve/bycatch only and do not drive route;
-7. genuinely new OPEN traveler rows are assessed corridor-first: hard cuts -> easy captures -> alternative bundles -> true ties;
+7. genuinely new OPEN traveler/regional/LP rows are eligible for A+/A/B/C and assessed corridor-first: hard cuts -> easy captures -> alternative bundles -> true ties / possible new A+ world-magnets;
 8. show Mark only rows where a real grade decision remains.
+Current Mark-facing subfrontier: KUMAON traveler/LP first hard-cut advice HC-K1 / HC-K2 / HC-K3 in `TRAVELER_OVERLAY_CORRIDOR_PASS_2026-08-24.md`; after those grades, proceed directly to Kumaon easy captures.
 
 ## OPEN AUTONOMOUS GEO WORK
 - KUMAON / KUKUCHINA-DUNAGIRI / Mahavatar Babaji's Cave (bezoekbare YSS/Kriya-pelgrimsgrot; hoofdreden voor de reis) — exact protected GPS remains open before final precise Kumaon route math.
