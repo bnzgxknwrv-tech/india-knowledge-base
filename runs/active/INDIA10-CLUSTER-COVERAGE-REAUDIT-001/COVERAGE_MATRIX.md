@@ -1,51 +1,57 @@
 # INDIA10 CLUSTER COVERAGE RE-AUDIT — MATRIX
 
-status: INITIAL_EVIDENCE_PASS_COMPLETE__REGIONAL_WORKERS_ACTIVE
+status: REGIONAL_DISCOVERY_PHASE_COMPLETE__A_PLUS_SLICES_READY
 updated: 2026-08-24
 central_branch: agent/india8-cluster-casting
 
-## SUPERSEDE / CURRENT METHOD NOTICE
-The old tail of this file that said `Mark decides A/B/C -> cluster survival -> nights -> route` is superseded.
+## CURRENT HARD METHOD
+`DISCOVERY CLOSE ENOUGH -> MARK CHOOSES A+ -> PRACTICAL PROXIMITY/TIME RELATIVE TO A+ -> MARK RE-RATES A/B/C -> COMPLETE-EXECUTION PLAN PER CLUSTER -> TRUE DURATION/NIGHTS -> CLUSTER SURVIVAL -> GLOBAL ROUTE`
 
-Current hard decision order is defined in:
+Authority:
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_PROXIMITY_DECISION_MODEL.md`
 
-Current sequence:
-`DISCOVERY CLOSE ENOUGH -> MARK CHOOSES A+ -> PRACTICAL PROXIMITY/TIME RELATIVE TO A+ -> MARK RE-RATES A/B/C -> COMPLETE-EXECUTION PLAN PER CLUSTER -> TRUE DURATION/NIGHTS -> CLUSTER SURVIVAL -> GLOBAL ROUTE`.
+No file in this phase assigns A+ or changes A/B/C on Mark's behalf.
 
-## PURPOSE
-Before Mark re-rates locations/clusters, establish whether each cluster has enough independent input from:
-1. person/AOAY layer;
-2. true regional/location discovery (not merely verification of a pre-existing list);
-3. traveler/experience discovery;
-4. later additive findings and visitability reality.
+## REGIONAL DISCOVERY STATUS — 8/8 COMPLETE AND INTEGRATED
 
-This file does NOT change A/B/C, A+, cluster status, nights or route. Old Mark decisions remain visible provenance until Mark explicitly supersedes them during the authorized re-evaluation round.
-
-## STATUS LEGEND
-- GREEN = genuine regional discovery structure with accepted saturation / strong closure; do not restart generically.
-- ORANGE = substantial real research exists, but known coverage/identity gaps remain; fill only bounded gaps.
-- RED = no true broad regional discovery demonstrated, or source explicitly says it was not done; run regional/location discovery before Mark re-rates.
-- RED_UNPROVEN = no qualifying regional sweep located in current active evidence; prove one exists or treat as missing.
-
-## MATRIX
-
-| Cluster / travel world | Regional/location discovery | Evidence | Current implication |
+| Cluster / travel world | Prior gap status | New regional worker | Current state |
 |---|---|---|---|
-| Delhi / Delhi buffers & corridors | RED_UNPROVEN | No dedicated qualifying broad regional discovery was located in the active-run audit. | Compact high-threshold regional sweep now assigned to `agent/india10-region-delhi`. |
-| Kumaon — Haidakhan / Nainital-Kainchi / Almora-Kasar / Dwarahat-Kukuchina-Dunagiri | ORANGE | `KUMAON-V2-RESWEEP-001/STATUS.md`: independent Sweep A + Sweep B + legacy reconciliation + rescue; rescue still found high-severity misses. | Bounded reverse/gap closure now assigned to `agent/india10-region-kumaon-gap`; no zero restart. |
-| Haridwar / Kankhal / Rishikesh | RED | Existing casting explicitly said `broad_new_discovery: NO`. | Full regional sweep now assigned to `agent/india10-region-rishikesh-haridwar`. |
-| Agra / nearby world-magnet zone | RED_UNPROVEN | Existing work was Taj/corridor focused rather than qualifying broad regional discovery. | Compact high-threshold sweep now assigned to `agent/india10-region-agra`. |
-| Vrindavan / Braj / Mathura / Govardhan | RED | Existing cluster casting explicitly preceded the expensive regional deep sweep. | Full regional sweep now assigned to `agent/india10-region-braj`. |
-| Prayagraj / Allahabad | RED | Existing casting explicitly preceded the regional deep sweep; later work mainly exactness/route work. | Full regional sweep now assigned to `agent/india10-region-prayagraj`. |
-| Varanasi / Sarnath | ORANGE | A genuine later coverage audit found Jain + royal misses but explicitly remained `NOT_YET_SATURATED`; Islamic/Sufi and radius weaknesses remained. | Bounded completion + out-of-radius check now assigned to `agent/india10-region-varanasi-gap`. |
-| Bodh Gaya / Gaya | GREEN | `BODHGAYA-DISCOVERY-001/PRE_BRONS/SATURATION_ACCEPTANCE.md`: `INDIA_ACCEPTED_SATURATION: JA`. | No generic resweep; only concrete new gaps/world-magnet exceptions. |
-| Tiruvannamalai / Arunachala | RED | Existing status explicitly said regional METHOD_V2 double sweep had not started. | Full high-priority regional sweep now assigned to `agent/india10-region-tiruvannamalai`. |
-| Mysore / Bengaluru (excluded/C control) | CONTROL_ONLY | Existing cluster status C/excluded in rough route. | No full sweep; only exceptional world-magnet evidence may challenge exclusion. |
+| Delhi | RED_UNPROVEN | `agent/india10-region-delhi` | FREEZE COMPLETE + CENTRAL A+ SLICE READY |
+| Kumaon | ORANGE | `agent/india10-region-kumaon-gap` | BOUNDED FREEZE COMPLETE + CENTRAL A+ SLICE READY |
+| Haridwar / Kankhal / Rishikesh | RED | `agent/india10-region-rishikesh-haridwar` | FULL FREEZE COMPLETE + CENTRAL A+ SLICE READY |
+| Agra | RED_UNPROVEN | `agent/india10-region-agra` | FREEZE COMPLETE + CENTRAL A+ SLICE READY |
+| Vrindavan / Braj / Mathura / Govardhan | RED | `agent/india10-region-braj` | FULL FREEZE COMPLETE + CENTRAL A+ SLICE READY |
+| Prayagraj | RED | `agent/india10-region-prayagraj` | FULL FREEZE COMPLETE + CENTRAL A+ SLICE READY |
+| Varanasi / Sarnath | ORANGE | `agent/india10-region-varanasi-gap` | BOUNDED COMPLETION FREEZE COMPLETE + CENTRAL A+ SLICE READY |
+| Tiruvannamalai / Arunachala | RED | `agent/india10-region-tiruvannamalai` | FULL FREEZE COMPLETE + CENTRAL A+ SLICE READY |
+| Bodh Gaya / Gaya | GREEN | prior accepted saturation | NO GENERIC RESWEEP; existing discovery sufficient for current A+ merge |
+| Mysore / Bengaluru control | CONTROL_ONLY | world-magnet layer only | Hampi/other extreme challengers preserved in traveler union; no generic sweep |
+
+## REGIONAL FREEZE FILES
+- `REGION_DELHI_FREEZE.md`
+- `REGION_KUMAON_GAP_FREEZE.md`
+- `REGION_HARIDWAR_RISHIKESH_FREEZE.md`
+- `REGION_AGRA_FREEZE.md`
+- `REGION_BRAJ_FREEZE.md`
+- `REGION_PRAYAGRAJ_FREEZE.md`
+- `REGION_VARANASI_GAP_FREEZE.md`
+- `REGION_TIRUVANNAMALAI_FREEZE.md`
+
+All were created blind relative to project canon/person/traveler/other-worker outputs and were then centrally compared only after their independent freeze.
+
+## CENTRAL MARK-READY A+ SLICES — 8 CREATED
+- `AGRA_A_PLUS_MARK_SELECTION_SLICE.md` — commit `98d940d19f29dd21bae2af94cf94b0dc450a6a0c`
+- `TIRUVANNAMALAI_A_PLUS_MARK_SELECTION_SLICE.md` — commit `fb82522ea315b945b484d99df705334c401a9378`
+- `BRAJ_A_PLUS_MARK_SELECTION_SLICE.md` — commit `b76a9559a7c489498b661c5621eb39592c01996d`
+- `PRAYAGRAJ_A_PLUS_MARK_SELECTION_SLICE.md` — commit `d7b3883bdd4a99f39f669e60cd7d40bedcb01fb9`
+- `DELHI_A_PLUS_MARK_SELECTION_SLICE.md` — commit `571fa0d9403fe9314a72cf980bf4197469e6c805`
+- `VARANASI_A_PLUS_MARK_SELECTION_SLICE.md` — commit `4d39cb2dca7878a02ba83843121c5cdeb2045723`
+- `KUMAON_A_PLUS_MARK_SELECTION_SLICE.md` — commit `7b91660d2a61a5068f83143809ec116309f41760`
+- `HARIDWAR_RISHIKESH_A_PLUS_MARK_SELECTION_SLICE.md` — commit `cebe18356c51e8319bf8b17e703cdc80e20f2e19`
+
+Bodh Gaya/Gaya already had accepted regional saturation and will be merged into its A+ slice from existing regional/person/traveler material rather than re-researched.
 
 ## TRAVELER / EXPERIENCE LAYER — MASTER UNION COMPLETE
-The traveler layer is no longer pending.
-
 Central ledger:
 `runs/active/INDIA10-MULTIAI-TRAVELER-DISCOVERY-001/TRAVELER_EXPERIENCE_MASTER_UNION_LEDGER.md`
 
@@ -61,64 +67,24 @@ Raw represented inputs: **221**.
 Canonical deduplicated traveler/experience records: **150**.
 Commit: `f75ed681259ef4ea2d16151537e93f0558489ad2`.
 
-Overlap is useful signal but not a vote. Single-AI uniques remain retained. Distinct experiences at one physical place remain separate where planning meaning differs. No A/B/C or A+ was assigned.
+Overlap is signal, not a vote. Single-detector uniques are preserved. Distinct experiences at one physical place remain separate where planning meaning differs.
 
-## VISITABILITY FILTER FOR FINAL MARK REVIEW
-Historical evidence remains preserved, but a practical visit candidate normally requires a visitor-facing context.
+## VISITABILITY FILTER
+Practical Mark-facing candidates normally require visitor context. Preserve but do not promote as ordinary visit choices:
+- unresolved/private residences;
+- ordinary functioning hospitals/workplaces/schools without memorial/visitor context;
+- unproven exact historic rooms/microspots;
+- household-scale craft premises without arranged visitor access.
 
-Normally DO NOT surface as a Mark travel choice:
-- ordinary private residence with no memorial/shrine/visitor arrangement;
-- ordinary functioning hospital merely because a person died there;
-- school/workplace with no relevant visitor context;
-- unresolved micro-spot that cannot be responsibly identified on the ground.
+Visitor-facing ashrams, shrines, museums, historic houses with permission, public landscapes/events and legitimate workshops remain eligible.
 
-Surface when appropriate:
-- ashram, shrine, memorial, museum or lineage institution that receives visitors;
-- historic house/room with explicit visitor permission or established pilgrimage context;
-- landscape/event location that is meaningfully visitable even if an exact historic tent/room cannot survive;
-- world/traveler experience a normal traveler can realistically book/do/visit.
+## IMPORTANT NEW CALENDAR SIGNALS FROM REGIONAL PHASE
+- Tiruvannamalai full moon: 24 Dec 2026, relevant to high-intensity Girivalam.
+- Haridwar Kumbh/Ardh Kumbh opening + Makar Sankranti Snan: 14 Jan 2027, in trip window; not to be mislabeled as one of the later Amrit Snans.
+- Prayagraj Magh Mela: current official window begins 15 Jan 2027; trip overlaps 15–21 Jan. Current reporting places Paush Purnima on 22 Jan, outside trip end.
+- Karthigai Deepam was NOT verified inside the stated trip window and must not be treated as available without authoritative date confirmation.
 
-## MARK REVIEW DESIGN — A+ FIRST
-After each regional gap closes enough, INDIA integrates that region against:
-- person/AOAY;
-- 150-row traveler/experience union;
-- protected old A/B/C provenance;
-- visitability.
+## CURRENT EXECUTION FRONTIER
+Regional discovery is no longer waiting on workers. The Mark-facing A+ selection round can now begin cluster by cluster after Bodh Gaya/Gaya receives the same existing-evidence merge treatment.
 
-The first Mark-facing slice is for **A+ selection**, not ordinary A/B/C rerating.
-
-For every surfaced candidate show compactly:
-- name + plain-language description;
-- person/AOAY relevance, if any;
-- non-person regional significance, if any;
-- traveler/experience signal, if any;
-- what Mark can physically do/see there;
-- visitability confidence;
-- old A/B/C/lock provenance where applicable;
-- intrinsic significance evidence without INDIA assigning A+.
-
-After Mark chooses A+, INDIA itself adds practical context for the rest:
-- nearest/relevant A+;
-- real walking/driving/boat time;
-- extra travel time / omweg;
-- natural bundle vs separate excursion;
-- isolation.
-
-Only then Mark re-rates ordinary A/B/C.
-
-## CURRENT EXECUTION STATUS — 2026-08-24 10:08 EUROPE/AMSTERDAM
-Mark reports all eight prepared regional workers have been started externally.
-
-GitHub check at this timestamp: **0/8 branches have yet written a new freeze commit**. Each remains at the prepared task baseline. This is not a blocker: central INDIA continues any safe independent integration/audit work while results are pending and integrates each worker immediately when it lands.
-
-## CURRENT EXECUTION ORDER
-1. Regional workers run independently/blind on the eight prepared branches.
-2. INDIA reads and integrates each freeze as soon as it appears; do not wait for all eight if useful integration can begin safely.
-3. No generic Bodh Gaya resweep.
-4. Close visitability/identity conflicts that materially affect Mark-facing candidates.
-5. Produce compact A+ selection slices as clusters become sufficiently complete.
-6. Mark chooses A+.
-7. INDIA computes practical A+-centric proximity/time context.
-8. Mark re-rates ordinary A/B/C.
-9. INDIA builds complete-execution schedules and true duration/nights per cluster.
-10. Only then cluster survival and final global route are decided.
+After Mark chooses A+ for a cluster, INDIA—not Mark—must calculate practical A+-centric travel time, extra travel time/omweg, natural bundles and isolation for the other candidates before ordinary A/B/C is requested.
