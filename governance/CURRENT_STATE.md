@@ -68,6 +68,33 @@ Person/AOAY sweep bodies are sufficient for this travel-planning stage unless a 
 
 Traveler discovery and missing regional discovery are complete enough for Mark's A+ selection round.
 
+## MARK REVIEW STRATEGY — CERTAIN HEAVY CORE FIRST
+Mark clarified on 2026-08-24 that decision effort now starts with clusters he already knows he wants, because their A+ + traveler + regional content must be fully reviewed and their complete-execution duration known before deciding which route-sensitive/reserve clusters can fit.
+
+Explicit 2026-08-22 cluster decisions establish the **certain heavy core** as:
+1. **Kumaon / Nainital / Kainchi / Babaji** — A.
+2. **Varanasi / Sarnath** — A.
+3. **Bodh Gaya / Gaya** — A.
+4. **Tiruvannamalai / Arunachala** — A, explicitly fixed by content + personal pull.
+
+Separate certain stop:
+- **Agra / Taj Mahal** — A but deliberately minimal, `Taj Mahal only`, sunrise/earliest opening HARD. It is certain travel content but not treated as a heavy cluster whose expansion must be resolved before the four core clusters.
+
+Not equally fixed:
+- Vrindavan/Braj/Mathura = old A but explicitly route-sensitive and less immovable than Varanasi;
+- Haridwar/Kankhal/Rishikesh = old B/reserve;
+- Delhi = gateway/logistics world, not an explicitly fixed heavy content cluster;
+- Prayagraj = discovery-ready but not in the explicit fixed-A cluster list;
+- out-of-radius magnets = challengers;
+- Mysore/Bengaluru = old C/control.
+
+Operational order now:
+**For the four certain heavy core clusters: A+ selection -> A+-centric proximity -> ordinary A/B/C -> complete-execution duration. Only after those four durations are known do route-sensitive/reserve clusters get equivalent decision effort.**
+
+Controller updated:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_REVIEW_INDEX.md`
+commit `0fa562f62839cd468fc9fffff0bd9bd04b71e7f8`.
+
 ## HARD DECISION ORDER — A+ FIRST
 Authority:
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_PROXIMITY_DECISION_MODEL.md`
@@ -132,7 +159,7 @@ Ready:
 - `OUT_OF_RADIUS_WORLD_MAGNET_A_PLUS_CHALLENGERS.md`
 
 Compact review controller:
-`A_PLUS_MARK_REVIEW_INDEX.md` — latest prework-wired version commit `81658d820794c426ba8fa08277fe20c10e009c3f`.
+`A_PLUS_MARK_REVIEW_INDEX.md` — current certain-core-first version commit `0fa562f62839cd468fc9fffff0bd9bd04b71e7f8`.
 
 Prepared durable decision landing zone:
 `A_PLUS_MARK_DECISION_LOG.md` — commit `4ee008c2dbf2d55a9090eb434b15c0d6ea8f87f9`.
@@ -172,7 +199,7 @@ Global duplicate control is now explicit before Mark review:
 These are not reasons to choose A+; they are precomputed execution constraints.
 
 ## CURRENT FRONTIER — ONLY MARK CAN DO THIS PART
-Mark selects A+ cluster by cluster from the prepared slices. INDIA presents the slice compactly and does not make Mark read raw files.
+Mark selects A+ cluster by cluster from the prepared slices, starting with the four certain heavy core clusters: Kumaon, Varanasi/Sarnath, Bodh Gaya/Gaya, Tiruvannamalai/Arunachala.
 
 Immediately after each Mark A+ decision, INDIA must in the SAME turn:
 1. record the A+ choices in `A_PLUS_MARK_DECISION_LOG.md`;
@@ -180,7 +207,8 @@ Immediately after each Mark A+ decision, INDIA must in the SAME turn:
 3. compute practical real road/walk/boat time from known sleep bases and between relevant A+ anchors;
 4. assign every remaining surfaced candidate to nearest/relevant A+ or isolated;
 5. calculate incremental extra travel time / omweg and natural bundle;
-6. present only the compact ordinary A/B/C decision set to Mark.
+6. present only the compact ordinary A/B/C decision set to Mark;
+7. after ordinary A/B/C is complete for that certain core cluster, build its realistic complete-execution duration before spending equivalent review effort on route-sensitive/reserve clusters.
 
 The fields `nearest_A_plus`, `incremental_detour_time` and `isolated_from_all_A_plus` cannot logically be finalized before Mark's A+ set exists. Everything else identifiable before that choice has been preworked.
 
