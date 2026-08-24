@@ -22,46 +22,35 @@ Every non-obvious site is shown as:
 `CLUSTER / PLAATS / PLEK (korte Nederlandse uitleg) — huidige status: A+ / A / B / C / OPEN`.
 Never rely on Mark remembering Indian/local names.
 Never write Nirmal Dham alone: `DELHI / CHHAWLA / Nirmal Dham (rustplaats/Mahasamadhi van Shri Mataji Nirmala Devi) — A+`.
-For Manikarnika preserve the significance: `VARANASI / MANIKARNIKA / Manikarnika Ghat (heilige crematieghat waar Lahiri Mahasaya werd gecremeerd) — ...`.
+For Manikarnika always preserve: `VARANASI / MANIKARNIKA / Manikarnika Ghat (heilige crematieghat waar Lahiri Mahasaya werd gecremeerd) — ...`.
+NEVER abbreviate the following two sites in Mark-facing text:
+- **BODH GAYA / BAKRAUR / Sujata Stupa (plek waar Sujata de uitgemergelde Siddhartha voedsel gaf; keerpunt van extreme ascese naar de Middenweg vóór zijn verlichting) — ...**
+- **BODH GAYA / DUNGESHWARI HILLS / Dungeshwari–Mahakala Caves (grotten waar Siddhartha extreme ascese beoefende vóór Sujata en de verlichting) — ...**
 `kosten` / `gratis` are money-only words; use reistijd/extra reistijd/omweg/duur for logistics.
 
 ## MARK DECISION CARD — HARD
 Never ask Mark to choose from a bare name or isolated distance. Each real decision card includes: who/tradition, what happened, why relevant, what is visitable now, current status, relevant A+ anchors, corridor relation, practical distance/time, incremental detour, bundle vs side excursion, likely time/day impact.
 
-## CORRIDOR-FIRST METHOD — GLOBAL HARD / MARK 2026-08-24
-A/B/C must be judged against the mandatory corridors BETWEEN fixed A+ anchors, not just point-to-point distance from one base.
-Required corridor classes:
-- `ON_CORRIDOR`
-- `SMALL_TRANSFER_DETOUR`
-- `ALTERNATIVE_CORRIDOR_BUNDLE`
-- `TRUE_SIDE_EXCURSION`
-- `OFF_CORRIDOR_DROP`
-
-Review order:
-1. hard practical cuts first;
-2. easy corridor captures second;
-3. alternative corridor bundles third;
-4. only genuine subjective ties last.
-
-Working advisory bands: ~0–15 min added = very low friction; ~15–30 min = easy catch; ~30–90 min = plausible transfer enrichment; ~90–150 min = meaningful route conversion; >~150 min or standalone half/full day = true excursion/default hard-cut advice unless importance is near A+.
+## CORRIDOR-FIRST METHOD — GLOBAL HARD
+A/B/C is judged against mandatory corridors BETWEEN fixed A+ anchors, not just point-to-point distance from one base.
+Classes: `ON_CORRIDOR`, `SMALL_TRANSFER_DETOUR`, `ALTERNATIVE_CORRIDOR_BUNDLE`, `TRUE_SIDE_EXCURSION`, `OFF_CORRIDOR_DROP`.
+Review order: hard practical cuts -> easy corridor captures -> alternative bundles -> genuine subjective ties.
+Working advisory bands: ~0–15 min added very low friction; ~15–30 min easy catch; ~30–90 min plausible transfer enrichment; ~90–150 min meaningful route conversion; >~150 min or standalone half/full day default hard-cut advice unless importance is near A+.
 Full method: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_PROXIMITY_DECISION_MODEL.md`.
 
 ## CENTRAL TRUTH / ACTIVE FILES
 Branch: `agent/india8-cluster-casting`.
-- A+ / current decision log: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md`.
+- Current decision log: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md`.
+- Latest easy-capture decision delta: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/EASY_CAPTURE_MARK_DECISIONS_2026-08-24.md`.
 - Promotion master: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_PROMOTION_MASTER.md`.
-- Rich old-A cards: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_MARK_DECISION_CARDS.md` — content/reference only; later Mark decisions supersede old statuses.
-- Hard-cut pass: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/FIXED_CORE_OLD_A_HARD_CUT_PASS_2026-08-24.md` — COMPLETE for current old-A layer.
-- Easy-capture prework: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/FIXED_CORE_OLD_A_EASY_CAPTURE_PASS_2026-08-24.md`.
-- Kumaon corridors: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_A_PLUS_CORRIDOR_MATRIX.md`.
-- Kumaon latest Mark corridor decision: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_CORRIDOR_MARK_DECISION_2026-08-24.md`.
-- Varanasi corridors: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/VARANASI_A_PLUS_CORRIDOR_MATRIX.md`.
-- Bodh Gaya corridors: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_A_PLUS_CORRIDOR_MATRIX.md`.
+- Rich old-A cards: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_MARK_DECISION_CARDS.md` — reference only; later decisions supersede statuses.
+- Kumaon corridors: `KUMAON_A_PLUS_CORRIDOR_MATRIX.md`.
+- Varanasi corridors: `VARANASI_A_PLUS_CORRIDOR_MATRIX.md`.
+- Bodh Gaya corridors: `BODHGAYA_A_PLUS_CORRIDOR_MATRIX.md`.
 Traveler master: 221 raw represented inputs -> 150 canonical traveler/experience records.
 Regional discovery: 8/8 workers complete and integrated.
 
 ## FIXED CORE WORLDS
-Definitely in trip for current costing phase:
 1. Kumaon
 2. Varanasi / Sarnath
 3. Bodh Gaya / Gaya
@@ -76,7 +65,7 @@ Reserve/deferred until fixed-core footprint known: Braj/Vrindavan/Mathura/Govard
 - KUMAON / KAINCHI / Kainchi Dham (Neem Karoli Baba-ashramcomplex; kernplek voor Neem Karoli Baba en Ram Dass) — A+.
 - KUMAON / NAINITAL / Hotel Evelyn (historisch hotel waar Ram Dass verbleef; exacte kamer niet bewezen) — A+.
 - KUMAON / HAIDAKHAN / Haidakhan Ashram (Haidakhan Babaji-pelgrimsashram; gewenste ashramovernachting) — A+.
-- KUMAON / HAIDAKHAN / Historische Haidakhan-grot (grot uit de aparte Haidakhan Babaji-traditie; niet dezelfde claim als Babaji Cave bij Kukuchina/Dunagiri) — A+.
+- KUMAON / HAIDAKHAN / Historische Haidakhan-grot (grot uit aparte Haidakhan Babaji-traditie; niet dezelfde claim als Babaji Cave bij Kukuchina/Dunagiri) — A+.
 
 ### VARANASI / SARNATH
 - VARANASI / OLD CITY / Varanasi Kriya core (Lahiri Mahasaya-huis + samadhi + Yogananda/Sri Yukteswar-zone) — A+ parent.
@@ -90,6 +79,8 @@ Reserve/deferred until fixed-core footprint known: Braj/Vrindavan/Mathura/Govard
 
 ### BODH GAYA / GAYA
 - BODH GAYA / BODH GAYA / Mahabodhi Temple Complex (Boeddha-verlichtingscomplex) — A+ parent; Bodhi Tree/internal enlightenment microsites inherit.
+- **BODH GAYA / BAKRAUR / Sujata Stupa (plek waar Sujata de uitgemergelde Siddhartha voedsel gaf; keerpunt van extreme ascese naar de Middenweg vóór zijn verlichting) — A+.**
+- **BODH GAYA / DUNGESHWARI HILLS / Dungeshwari–Mahakala Caves (grotten waar Siddhartha extreme ascese beoefende vóór Sujata en de verlichting) — A+.**
 
 ### TIRUVANNAMALAI / ARUNACHALA
 - ARUNACHALA / TIRUVANNAMALAI / Arunachala / Ramana sacred world (heilige berg, ashram en directe Ramana Maharshi-levensplekken) — A+ parent; Sri Ramanasramam, Virupaksha Cave, Skandashram, Arunachaleswarar Temple, Girivalam, Gurumurtam and Pavalakunru inherit.
@@ -100,25 +91,33 @@ Reserve/deferred until fixed-core footprint known: Braj/Vrindavan/Mathura/Govard
 ### AGRA
 - AGRA / AGRA / Taj Mahal — A+; sunrise/earliest practical opening HARD.
 
-## LATEST KUMAON MARK DECISIONS — SUPERSEDE OLD A PROVENANCE
-- KUMAON / KAKRIGHAT / Kakrighat (Kosi-rivierplek waar Vivekananda in 1890 een belangrijke realisatie had) — A. KEEP because it is a natural small transfer detour on Kainchi -> Kukuchina/Babaji corridor.
-- KUMAON / JAGESHWAR / Jageshwar Dham + Dandeshwar (grote vroegmiddeleeuwse Shiva-tempelgroepen in deodarwoud) — C.
-- KUMAON / ALMORA / Ramakrishna Kutir (levend Ramakrishna Mission-retraitecentrum; Sri Ramakrishna verbleef hier niet) — C.
-- KUMAON / CHITAI / Chitai Golu Devta Temple (Kumaoni tempel met duizenden bellen/verzoeken om gerechtigheid) — C.
-- KUMAON / CRANK'S RIDGE-KASAR DEVI / Turiya Niwas (historische kluizenaarswoning van Alfred 'Sunyata' Sorensen) — C.
-- KUMAON / CRANK'S RIDGE-KASAR DEVI / Bodh Ashram (Evans-Wentz/Lama Govinda/Tibetaans-boeddhistische zoekersplek) — C.
-Do not re-present these five C rows unless Mark explicitly reopens them.
+## LATEST ORDINARY GRADES — MARK 2026-08-24
+### KUMAON
+- Kakrighat (Vivekananda-realisatieplek aan de Kosi) — A because easy transfer catch.
+- Jageshwar Dham + Dandeshwar — C.
+- Ramakrishna Kutir — C.
+- Chitai Golu Devta Temple — C.
+- Turiya Niwas — C.
+- Bodh Ashram — C.
+Do not re-present these five C rows unless explicitly reopened.
 
-## HARD-CUT PASS RESULT — CURRENT OLD-A LAYER
-COMPLETE.
-Only the five Kumaon rows above were hard practical cuts and are already C by Mark.
-No additional old-A hard cuts were identified in Varanasi/Sarnath or Bodh Gaya/Gaya: their remaining old A rows are local/easy or naturally bundled. Arunachala has no separate old-A rows; Delhi and Agra have no additional old-A items in this pass.
+### VARANASI / SARNATH EASY-CAPTURE DECISIONS
+- VARANASI / TULSI GHAT / Tulsi Ghat + Lolark Kund (Tulsidas-ghat plus oude rituele zon-/vruchtbaarheidsbron) — A.
+- VARANASI / LALITA GHAT / Lalita Ghat + Nepali/Kathwala Temple (Ganges-ghat met Nepalese houten pagodetempel) — A.
+- VARANASI / DURGA KUND-AREA / Tulsi Manas Temple (moderne tempel verbonden met Tulsidas/Ramcharitmanas-traditie) — B; supersedes old A.
+- VARANASI / DURGA KUND / Durga Temple + Durga Kund (rode levende Durga-tempel met heilige vijver) — A.
+- VARANASI / ANAND BAGH / Bhaskarananda Samadhi (samadhi/herdenkingsplek van yogi Swami Bhaskarananda) — B; supersedes old A. Old A reason was only immediate adjacency/bycatch with Durga Temple/Durga Kund.
+- VARANASI / SANKAT MOCHAN / Sankat Mochan Hanuman Temple (levende Hanuman-tempel traditioneel verbonden met Tulsidas) — A.
+- VARANASI / SARNATH-SIMHAPURI / Shreyansanath Jain Tirth (Jain geboorte-/pelgrimsplek in dezelfde Sarnath-zone) — A.
+
+### BODH GAYA / GAYA
+- BODH GAYA / BODH GAYA / Great Buddha Statue (grote moderne zittende Boeddha; geen historische levensplek van Gautama Boeddha) — A.
 
 ## CURRENT FRONTIER
-The hard-cut stage is complete. Easy-capture pass is already prebuilt.
-Do not make Mark revisit the five Kumaon C rows.
-Next Mark-facing review should use the easy-capture set first, then small city detours/bundles, then only true ties.
-For later traveler/LP overlay, run the exact same `hard cuts -> easy captures -> alternative bundles -> ties` process inside each fixed-core corridor.
+The hard-cut and easy-capture old-A passes are resolved except for two Varanasi content choices:
+1. VARANASI / KABIR CHAURA / Kabir Chaura Math (levend centrum van mysticus/dichter Kabir en Kabir Panth) — current A; ~1.47 km straight-line from Panchganga A+, short city diversion.
+2. VARANASI / ADI KESHAVA–RAJGHAT / Adi Keshava Ghat + Temple (Vishnu-heiligdom bij de Varuna–Ganges-samenvloeiing; klassieke noordgrens van heilig Kashi) — current A; ~3–3.5 km / ~15–20 min road class from Panchganga A+.
+After these two Mark choices, old-A promotion is closed. Then execute full regional + traveler/Lonely-Planet overlay against all A+ corridors using the same `hard cuts -> easy captures -> alternative bundles -> ties` method.
 
 ## OPEN AUTONOMOUS GEO WORK
 - Mahavatar Babaji Cave exact protected GPS remains open before final precise Kumaon route math.
