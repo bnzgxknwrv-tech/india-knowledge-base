@@ -5,10 +5,11 @@ updated: 2026-08-24
 source universe: `runs/active/INDIA10-MULTIAI-TRAVELER-DISCOVERY-001/TRAVELER_EXPERIENCE_MASTER_UNION_LEDGER.md` (150 canonical rows)
 
 ## MARK GRADE SEMANTICS — HARD
-- `A+` = trip-defining/core anchor; route must protect it.
+- `A+` = trip-defining/core anchor; route must protect it. **Any genuinely new traveler / Lonely-Planet / regional discovery may become A+ if Mark decides it is a core reason for this trip. Provenance never limits the maximum grade.**
 - `A` = Mark wil hier in principe echt naartoe; plan it unless a later conflict forces reconsideration.
 - `B` = alleen als Mark er toch is / het logisch meeloopt; no independent route steering.
 - `C` = NIET heen; remove from active route planning unless explicitly reopened.
+- `OPEN` = not yet graded. It may become A+, A, B or C only by Mark's explicit decision.
 
 ## OVERLAY PIPELINE — HARD
 1. Deduplicate traveler rows against latest A+/A/B/C truth.
@@ -16,9 +17,10 @@ source universe: `runs/active/INDIA10-MULTIAI-TRAVELER-DISCOVERY-001/TRAVELER_EX
 3. Existing C duplicates drop from active review.
 4. Existing A+/A duplicates remain planned.
 5. Existing B duplicates remain incidental only.
-6. Only genuinely new traveler rows reach corridor analysis.
-7. New rows reviewed in order: hard practical cuts -> easy captures -> alternative bundles -> genuine ties.
-8. A means intentional visit; do not inflate generic 'interesting' traveler signal into A.
+6. Only genuinely new traveler rows reach corridor + intrinsic-importance analysis.
+7. New rows are eligible for the full Mark scale: A+ / A / B / C.
+8. Review new rows in order: hard practical cuts -> easy captures -> alternative bundles -> genuine ties / possible A+ world-magnets.
+9. A means intentional visit; do not inflate generic 'interesting' traveler signal into A. A+ means Mark concludes the discovery itself is now one of the core reasons for the trip.
 
 ## FIRST INHERITED DUPLICATES — NO MARK ACTION
 ### KUMAON
