@@ -1,6 +1,6 @@
 # CURRENT STATE — INDIA
 
-Last updated: 2026-08-23
+Last updated: 2026-08-24
 Purpose: one human-readable page that tells the next INDIA session what is current.
 
 ## Project type
@@ -12,6 +12,20 @@ This is a personal India travel/pilgrimage knowledge base, not a software produc
 3. Read the current task/output files relevant to what Mark is asking now.
 4. Check PR #23 back to the last CCI/INDIA exchange you have not handled when starting a major new build.
 5. Read older governance/branches only when a concrete inconsistency, provenance question or missing decision requires it.
+
+## ACTION-FIRST / NO DEFERRAL — HARD
+
+`governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md` is binding.
+
+Mark explicitly reaffirmed this on 2026-08-24:
+- if INDIA can safely execute something now, execute it in the same turn before replying;
+- do not tell Mark what INDIA itself still needs to do when INDIA can do it immediately;
+- do not stop at a status summary while safe autonomous project work remains;
+- keep user-facing regie compact: report completed action, then give only the external action Mark must perform because INDIA cannot perform it;
+- when Mark must start another AI/worker, INDIA first prepares branch, TASK, inputs and output path, then gives a paste-ready prompt;
+- `kosten` / `gratis` refer only to money; time/logistics use reistijd, extra reistijd, omweg, duur, looptijd/rijtijd or logistieke belasting.
+
+PR #23 reaffirmation comment: issuecomment `5392193197`.
 
 ## Current central regie branch
 `agent/india8-cluster-casting`
@@ -58,86 +72,115 @@ A new IndiaN can responsibly continue when it has read:
 
 If those disagree, read deeper until the conflict is understood. A full-repository reread is an exceptional recovery tool, not the normal start procedure.
 
-## Current project phase — IMPORTANT CORRECTION 2026-08-23
+## Current project phase — DELIBERATE RE-EVALUATION
 
 **The project is NOT in the booking/application phase.**
 
-Mark explicitly corrected an INDIA10 interpretation that treated a later route/booking artifact as the current execution frontier. The underlying location master is the stronger phase signal:
-
+The underlying location master remains the stronger phase signal:
 `runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/STATUS.md`
 
 Current master state there:
 - 700 row-level findings;
 - 575 unique physical-entity keys;
 - 211 genuine `STILL_UNRESOLVED` rows preserved;
-- existing permanent IDs 001–081 and existing A/B/C/locks preserved;
-- next execution order remains Mark-ready cluster/location slices and additive location closure before route/transport/hotel finalization.
+- existing permanent IDs 001–081 and existing A/B/C/locks preserved.
 
-Cluster-level decisions and site A/B/C choices already made by Mark remain protected provenance and must never be silently changed. However, on 2026-08-23 Mark explicitly opened a DELIBERATE RE-EVALUATION ROUND because many earlier A/B/C decisions predate completed person sweeps and/or true regional discovery. During this round it is allowed to present old decisions back to Mark for reconsideration after person + regional/location + traveler/experience layers are merged. Preserve the old grade/lock visibly as provenance until Mark explicitly supersedes it. INDIA/CCI/workers do not change A/B/C or cluster status on Mark's behalf.
+Cluster-level decisions and site A/B/C choices already made by Mark remain protected provenance and must never be silently changed. Mark explicitly opened a DELIBERATE RE-EVALUATION ROUND because many earlier A/B/C decisions predate completed person sweeps and/or true regional discovery.
 
-Therefore the live phase is:
+## HARD DECISION ORDER — A+ FIRST
 
-`COVERAGE AUDIT -> MISSING REGIONAL/LOCATION DISCOVERY + MULTI-AI TRAVELER/EXPERIENCE DISCOVERY -> MERGE WITH PERSON LAYERS + OLD ABC -> MARK RE-EVALUATES SITES/CLUSTER WEIGHT -> LATER NIGHTS/ROUTE/TRANSPORT/HOTELS -> LATER BOOKING`
+This sequencing supersedes older wording that put ordinary A/B/C or cluster survival first.
 
-Do not use the existence of route drafts, calendar work or booking-prep files as proof that upstream location/person closure is finished.
+1. Finish enough discovery to create the full candidate universe per decision-relevant cluster:
+   - person/AOAY;
+   - regional/location;
+   - traveler/experience;
+   - adaptive world-magnet/out-of-radius;
+   - visitability.
+2. Mark identifies A+ FIRST. A+ is Mark-only and means intrinsically a major reason to want to visit that place/area/experience.
+3. For all other surfaced candidates establish practical context relative to relevant A+:
+   - identity/coordinates where needed;
+   - real walking/driving/boat time;
+   - extra travel time / detour;
+   - natural bundle vs separate excursion;
+   - isolation from retained A+.
+4. ONLY THEN Mark re-rates ordinary A/B/C.
+5. Build realistic COMPLETE-EXECUTION schedules per cluster using retained A/B plus transfer/buffer reality.
+6. Derive true duration / minimum nights per cluster.
+7. ONLY THEN compare clusters against the total trip envelope and decide which clusters survive.
+8. Build the final global route / quarter-hour itinerary from surviving complete clusters.
 
-### Re-evaluation design — explicit Mark instruction 2026-08-23
-- The trip remains primarily a spiritual pilgrimage. AOAY/Top-11 person relevance stays mission-critical.
-- Regional/location discovery must also surface independently exceptional spiritual, cultural, historical and world-magnet places.
-- Traveler/Lonely-Planet-style discovery must include EXPERIENCES, not only places: e.g. exceptional rafting/adventure, hot springs/wellness, wildlife, unusual transport, strange historical/cult experiences, old local institutions, markets/crafts, spectacular short nature experiences and other repeated traveler highlights.
-- Do not use a fixed geographic radius as a hard exclusion. Run an adaptive WORLD-MAGNET check: a truly extraordinary place/experience substantially farther away may deserve Mark review, while a mediocre nearby place does not.
-- Historic person evidence is not automatically a visit candidate. Private homes, ordinary hospitals, schools or workplaces without shrine/memorial/visitor context remain in the knowledge base but normally should not be surfaced as practical pilgrimage choices.
-- Old `A` may have meant “definitely visit if already nearby” rather than “add a day/night for this”. During re-evaluation separately ask whether a site/experience is a CLUSTER DRIVER that justifies incremental cluster time.
-- Do not move into quarter-hour itinerary construction until this re-evaluation has been completed far enough to recalculate cluster weight and nights.
+Hard travel-quality rule: prefer dropping an entire cluster over retaining it in a rushed/incomplete form that silently omits important retained sites/experiences.
+
+Durable model:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_PROXIMITY_DECISION_MODEL.md`
 
 ## Current person/location front
 
-The central branch now contains the missing final CCI_TASK 095 outputs for Neem Karoli Baba and Ram Dass:
-- `runs/active/TOP11-NKB-RAMDASS-INDIAGEEL-MULTIDETECTOR-RECONCILIATION-001/RECONCILIATION_RESULT.md`
-- `runs/active/TOP11-NKB-RAMDASS-INDIAGEEL-MULTIDETECTOR-RECONCILIATION-001/TRAVEL_READINESS_GATE.md`
+Person/AOAY sweep bodies are sufficient for the current travel-planning stage unless a concrete unresolved physical identity could materially change a cluster decision. Do not regress into open-ended national person research solely because a technical saturation token remains NEE.
 
-Both person sweeps remain `PERSON_SWEEP_SATURATED: NEE`.
+The central branch includes final CCI_TASK 095 outputs for Neem Karoli Baba / Ram Dass plus targeted physical-identity follow-up. These do not assign A/B/C or route inclusion.
 
-INDIA10 then executed the exact targeted physical-identity follow-up CCI_TASK 095 requested for three Ram Dass gaps:
-`runs/active/TOP11-NKB-RAMDASS-INDIAGEEL-MULTIDETECTOR-RECONCILIATION-001/RAM_DASS_TARGETED_TIER1_CLOSURE_2026-08-23.md`
-
-Result at travel-identity level only:
-- Dharamsala/McLeod Ganj — historical Swarg Ashram: travel-ready at building level;
-- Ganeshpuri — Muktananda/Gurudev Siddha Peeth: travel-ready at ashram-complex level;
-- Anandamayi Ma — Vrindavan and Kankhal ashrams: travel-ready at ashram-complex level.
-
-This does not assign A/B/C or include any of these in Mark's route. Exact rooms/microsublocations remain separate where not proven.
-
-Other national person layers also remain honestly non-saturated even where multi-detector reconciliation is already complete. For current travel re-evaluation, Mark considers the completed person-sweep bodies sufficient to proceed unless a concrete location/identity gap can materially change a cluster decision. Do not regress into open-ended national person research merely because a technical saturation token says NEE.
-
-## Multi-AI traveler/experience discovery — active
+## Multi-AI traveler/experience discovery — DISCOVERY COMPLETE, UNION BUILD ACTIVE
 
 Central task:
 `runs/active/INDIA10-MULTIAI-TRAVELER-DISCOVERY-001/TASK.md`
 
-This layer deliberately uses independent AI/search styles. CCI is not required for discovery. Workers freeze their own findings before reading the existing 80 findings or other worker outputs. Diversity is the detector; agreement is useful evidence but not required for a unique high-value finding.
-
-Prepared worker branches:
+Four independent blind ChatGPT worker freezes are complete on:
 - `agent/indialp-multiai-weird-human`
 - `agent/indialp-multiai-nature-adventure`
 - `agent/indialp-multiai-world-magnets`
 - `agent/indialp-multiai-blind-general`
 
-Central INDIA reconciles/deduplicates only after each independent freeze.
+External collector handoff is safely stored centrally:
+`runs/active/INDIA10-MULTIAI-TRAVELER-DISCOVERY-001/EXTERNAL_MULTI_AI_COLLECTOR_HANDOFF.md`
+
+Collector concrete AI families:
+- DeepSeek
+- Grok
+- Perplexity
+- Copilot
+- Gemini
+
+Collector totals:
+- 77 unique external COL records;
+- 29 with overlap across >=2 external AI systems;
+- 48 single-AI uniques.
+
+Existing earlier traveler layer remains additive, not superseded: two older discovery sweeps (26 North + 54 Ganges/South) plus 3 high-threshold CCI misses. Central INDIA must deduplicate all these with the new four ChatGPT freezes and external collector while preserving provenance and unique details.
+
+## Regional/location discovery gaps — WORKERS PREPARED 2026-08-24
+
+Central task:
+`runs/active/INDIA10-REGIONAL-DISCOVERY-GAPS-001/TASK.md`
+
+Commit creating task: `ee310d1f037a4c9f271975d8857b521627814f96`
+
+Prepared independent blind branches:
+- `agent/india10-region-tiruvannamalai` — full regional sweep
+- `agent/india10-region-rishikesh-haridwar` — full regional sweep
+- `agent/india10-region-braj` — full regional sweep
+- `agent/india10-region-prayagraj` — full regional sweep
+- `agent/india10-region-agra` — compact high-threshold sweep
+- `agent/india10-region-delhi` — compact high-threshold sweep
+- `agent/india10-region-varanasi-gap` — bounded completion
+- `agent/india10-region-kumaon-gap` — bounded completion/reverse-discovery
+
+Bodh Gaya/Gaya is GREEN from prior regional saturation acceptance and should not receive a generic resweep. Reopen only on a concrete new gap/world-magnet exception.
 
 ## Booking-prep artifact disposition
 
 `runs/active/INDIA10-BOOKING-SEQUENCE-CLOSURE-001/BOOKING_ACTION_BOARD.md` is retained only as a **future planning artifact**. Its task STATUS is explicitly `FUTURE_PLANNING_ARTIFACT__NOT_CURRENT_PROJECT_PHASE`.
 
-Do not ask Mark for visa status, send accommodation requests, or drive the project from that board until upstream person/location/cluster work has actually reached that stage. Time-sensitive facts in that board should be revalidated later when they become actionable.
+Do not ask Mark for visa status, send accommodation requests, or drive the project from that board until upstream discovery/re-evaluation has reached that stage. Time-sensitive facts should be revalidated later when actionable.
 
 ## Current architecture status
 `INDIA9_SCOPE_SIMPLIFICATION: PASS`
 `CCI_FINAL_SANITY_011: PASS`
 `STOP_OPTIMIZING: JA`
 
-Architecture optimization is over. The correction above is not a new governance layer; it is a factual phase correction after a real provenance contradiction was found.
+Architecture optimization is over.
 
-## Current next-action rule
+## Current execution rule
 
-Finish the retained-cluster coverage audit. Execute only genuine RED/ORANGE regional/location gaps plus the independent multi-AI traveler/experience layer. Then merge person + region/location + traveler/experience + old A/B/C into Mark-ready cluster review slices. Preserve prior decisions until Mark explicitly changes them; do not infer regrades. Quarter-hour planning stays downstream of the renewed cluster/nights decision.
+Run the prepared regional workers in parallel while central INDIA continues the traveler-union deduplication. When regional freezes arrive, central INDIA immediately integrates them with person/AOAY + traveler union + old protected A/B/C provenance and produces Mark-ready A+ selection slices. Do not assign A+ or ordinary A/B/C on Mark's behalf.
