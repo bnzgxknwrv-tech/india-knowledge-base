@@ -6,18 +6,24 @@ updated: 2026-08-24
 ## HARD RULES
 - Only Mark assigns A+ parents/anchors.
 - Once a meaningful parent complex/sacred local world is A+, true same-site/same-compound children and obvious naturally bundled core micro-sites inherit `CHILD_A_PLUS`; do not ask Mark to vote on each room/shrine/cave separately.
-- A user interruption does NOT cancel unfinished INDIA work. Incorporate the new input, resume the unfinished `SCAN -> DO -> RECORD -> RESCAN` loop, and only then reply.
+- A user interruption does NOT cancel unfinished INDIA work. Incorporate the new input, resume the unfinished `SCAN -> DO -> RECORD -> RESCAN` loop, and only then reply unless Mark explicitly says STOP/cancel or supersedes the old work.
 - Every non-obvious Indian name shown to Mark must immediately include a short plain-Dutch explanation in parentheses.
 - Never display `Nirmal Dham` alone; always use `Nirmal Dham (rustplaats/Mahasamadhi van Shri Mataji Nirmala Devi)`.
 
 ## EXPLICIT A+ PARENTS / ANCHORS
 
 ### KUMAON
-- `079` **Mahavatar Babaji's Cave (bezoekbare Babaji-pelgrimsgrot boven Kukuchina/Dunagiri)** — A+.
+- `079` **Mahavatar Babaji's Cave (bezoekbare YSS/Kriya-pelgrimsgrot boven Kukuchina/Dunagiri)** — FORMAL A+.
+  - Mark emphasis 2026-08-24: `A++++`, `100% lineage bearer` and absolute core reason for the journey.
+  - This emphasis is preserved as priority/provenance; the formal decision class remains A+ so the system does not invent extra grading classes.
+  - Guardrail: the current visitable YSS/Kriya claimant site is the travel anchor; historically unnamed 1861 cave identity remains epistemically distinct where unproven.
 - **Kainchi Dham (Neem Karoli Baba-ashramcomplex; kernplek voor Neem Karoli Baba en Ram Dass)** — A+ PARENT. On-compound NKB/Ram Dass rooms, bridge/rock/shrine and other preserved micro-sites inherit `CHILD_A_PLUS`.
 - **Hotel Evelyn (historisch hotel in Nainital waar Ram Dass verbleef; exacte kamer niet bewezen)** — A+ PARENT/SITE. Patio/terrace/room-zone details remain nested; exact-room claim stays unresolved.
 - **Haidakhan Ashram (Haidakhan Babaji-pelgrimsashram aan het begin van de reis; gewenste ashramovernachting)** — A+ PARENT/MODULE.
-- **Historische Haidakhan-grot (grot uit de Haidakhan Babaji-traditie; fysiek/traditioneel NIET dezelfde claim als Mahavatar Babaji's Cave boven Kukuchina/Dunagiri)** — A+ associated component by explicit Mark statement 2026-08-24. Exact route relation to Haidakhan Ashram remains to close; do not merge claimant traditions.
+- **Historische Haidakhan-grot (grot uit de Haidakhan Babaji-traditie; fysiek/traditioneel NIET dezelfde claim als Mahavatar Babaji's Cave boven Kukuchina/Dunagiri)** — A+ separate-tradition component.
+  - Mark intent 2026-08-24: he explicitly wants to visit BOTH Babaji traditions; he does not require INDIA to collapse them into one historical identity.
+  - Purpose of Haidakhan visit: experience/feel the place directly and understand who Haidakhan Babaji was and what happens there.
+  - Exact route relation to Haidakhan Ashram remains to close before scheduling.
 
 Current-trip superseding disposition:
 - **Turiya Niwas (kluizenaarswoning van Alfred “Sunyata” Sorensen op Crank’s Ridge)** — NOT A+; dedicated Kasar Devi/Almora side module was already dropped. Preserve old A provenance for later A+-centric logistics test only.
@@ -30,20 +36,11 @@ Current-trip superseding disposition:
   - **Rana Mahal Ghat (bezoekbare ghat-zone van de Yogananda–Sri Yukteswar-historische scène; exact huis niet bewezen)** — `CHILD_A_PLUS`; ~0.44 km straight-line from the Lahiri home.
 - `006` **Sarnath sacred/archaeological complex (Boeddha's eerste-preeklandschap met Dhamek Stupa, Deer Park en museum als één ervaring)** — A+ PARENT, explicitly confirmed by Mark 2026-08-24. Internal Sarnath children inherit; do not ask Dhamek/Deer Park/museum separately.
 
-Materially separate old-A sites for the promotion pass, not automatic A+:
-- `004` **Shri Tailanga Swami Math / Panchganga (ashram/matha van de heilige Tailanga Swami bij Panchganga Ghat)**.
-- `005` **Shree Shree Ma Anandamayi Ashram, Bhadaini (bezoekbaar Varanasi-ashram van Anandamayi Ma)**.
-- `007` **Shri Kashi Vishwanath Temple (grote levende Shiva-tempel in het hart van Varanasi)**.
-- Other preserved old A rows must be reconciled against later Mark decisions before presentation.
-
 ### BODH GAYA / GAYA
 - `046` **Mahabodhi Temple Complex (Boeddha-verlichtingscomplex in Bodh Gaya)** — A+ PARENT.
   - **Bodhi Tree (heilige boom op de plek van Boeddha's verlichting)** — `CHILD_A_PLUS`.
   - Internal enlightenment micro-sites (Vajrasana/Muchalinda/meditation details where responsibly identified) = `CHILD_A_PLUS`/visit-card details.
-Separate old-A candidates:
-- `047` **Sujata Stupa / Bakraur (plek verbonden met Sujata vóór de verlichting)** — outside parent; current matrix ~1.224 km straight-line, practical road/approach longer.
-- `048` **Dungeshwari / Mahakala Caves (grotten waar Boeddha volgens traditie extreme ascese beoefende vóór de verlichting)** — separate excursion.
-- `049` **Great Buddha Statue (grote moderne Boeddha-beeldengroep in Bodh Gaya)** — separate local site.
+Separate old-A candidates are handled in the promotion pass, subject to later Mark supersedes.
 
 ### TIRUVANNAMALAI / ARUNACHALA
 - **Arunachala / Ramana sacred world (heilige berg, ashram en directe Ramana Maharshi-levensplekken in Tiruvannamalai)** — A+ PARENT, explicitly confirmed by Mark 2026-08-24.
@@ -63,7 +60,7 @@ Included without further ballot:
 - **Taj Mahal** — A+; sunrise / earliest practical opening remains HARD.
 
 ## CURRENT METHOD
-The obvious parent-A+ pass for the six fixed worlds is now complete enough to stop micro-ballots.
+The obvious parent-A+ pass for the six fixed worlds is complete enough to stop micro-ballots.
 Next active phase is the reconciled OLD-A PROMOTION PASS:
 1. collect every materially separate current old-A site not already swallowed by an A+ parent;
 2. reconcile later Mark supersedes before showing anything;
