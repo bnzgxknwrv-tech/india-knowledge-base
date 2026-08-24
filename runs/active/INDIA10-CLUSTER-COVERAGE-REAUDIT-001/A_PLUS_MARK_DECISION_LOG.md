@@ -20,15 +20,18 @@ Intrinsic non-negotiable or near-non-negotiable anchor inside a fixed world.
 
 ## EXPLICIT A+ LOCATIONS
 ### KUMAON
-status: PARTIAL_A_PLUS_RECORDED__MORE_SELECTION_PENDING
+status: OBVIOUS_A_PLUS_SET_CONFIRMED__OLD_A_PROMOTION_PASS_NEXT
 A_PLUS:
 - `079` — **Mahavatar Babaji's Cave (bezoekbare Babaji-pelgrimsgrot boven Kukuchina/Dunagiri)** — A+.
   - Reaffirmed by Mark 2026-08-24: `100% A+`.
   - Guardrail: current visitable pilgrimage claimant site is A+; historically unnamed 1861 cave identity remains epistemically distinct where unproven.
+- **Kainchi Dham (Neem Karoli Baba-ashramcomplex; kernplek voor Neem Karoli Baba en Ram Dass)** — A+; explicitly confirmed YES by Mark 2026-08-24.
+- **Hotel Evelyn (historisch hotel in Nainital waar Ram Dass verbleef; exacte kamer niet bewezen)** — A+; explicitly confirmed YES by Mark 2026-08-24.
+- **Haidakhan Ashram (Haidakhan Babaji-pelgrimsashram; tevens gewenste ashramovernachting)** — A+; explicitly confirmed YES by Mark 2026-08-24.
 
 Current-trip superseding disposition:
-- **Turiya Niwas (kluizenaarswoning van Alfred “Sunyata” Sorensen op Crank’s Ridge)** — NOT A+; dedicated Kasar/Almora detour was already dropped 2026-08-23 and Mark reconfirmed 2026-08-24 that it is too far from the real Kumaon A+ spine. Old site-level A remains historical provenance only.
-- **Bodh Ashram (voormalig landgoed van Evans-Wentz/Lama Govinda op Crank’s Ridge; bezocht door Anandamayi Ma en Neem Karoli Baba)** — not currently proposed as A+ because it belongs to the same de-prioritized Kasar/Almora geography; no new Mark A+ decision recorded.
+- **Turiya Niwas (kluizenaarswoning van Alfred “Sunyata” Sorensen op Crank’s Ridge)** — NOT A+; dedicated Kasar Devi/Almora side module was already dropped 2026-08-23. Old site-level A remains historical provenance only. It may be tested later only as an old-A logistics candidate against the final A+ spine; it does not reopen a sleep module by itself.
+- **Bodh Ashram (voormalig landgoed van Evans-Wentz/Lama Govinda op Crank’s Ridge; bezocht door Anandamayi Ma en Neem Karoli Baba)** — NOT currently A+; belongs to the same de-prioritized Kasar Devi/Almora geography. Preserve for later old-A logistics review only.
 
 ### VARANASI / SARNATH
 status: PARTIAL_A_PLUS_RECORDED__MORE_SELECTION_PENDING
@@ -71,8 +74,9 @@ Haridwar/Kankhal/Rishikesh; Braj/Vrindavan/Mathura/Govardhan; Prayagraj; out-of-
 
 ## GEO CLOSURE QUEUE
 - `079` **Mahavatar Babaji's Cave (bezoekbare Babaji-pelgrimsgrot boven Kukuchina/Dunagiri)**: exact protected GPS remains open; keep active for closure before proximity calculations.
-- Do NOT prioritize Turiya Niwas geo work for current A+ geometry because the dedicated detour is skipped.
-- Bodh Ashram geo work is not A+ priority unless Mark later reopens it.
+- Close/verify practical route origins for **Kainchi Dham (Neem Karoli Baba-ashramcomplex; kernplek voor Neem Karoli Baba en Ram Dass)**, **Hotel Evelyn (historisch hotel in Nainital waar Ram Dass verbleef)** and **Haidakhan Ashram (Haidakhan Babaji-pelgrimsashram)** before final A+-centric Kumaon geometry.
+- Do NOT prioritize **Turiya Niwas (kluizenaarswoning van Alfred “Sunyata” Sorensen op Crank’s Ridge)** or **Bodh Ashram (voormalig landgoed van Evans-Wentz/Lama Govinda op Crank’s Ridge)** as A+ geometry. Test them later only in the old-A promotion/logistics pass.
+Do not guess coordinates.
 
 ## AFTER EACH COMPLETED CLUSTER A+ SET — AUTORUN
-INDIA records choices, updates identity/geo, computes A+-centric proximity for all remaining candidates, and presents the compact ordinary A/B/C set without another permission request.
+INDIA records choices, updates identity/geo, runs the old-A promotion pass, then computes A+-centric proximity for all remaining candidates and presents compact ordinary A/B/C without another permission request.
