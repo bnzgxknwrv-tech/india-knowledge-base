@@ -25,6 +25,11 @@ For Manikarnika always preserve the travel-significance in the name: `VARANASI /
 Globally self-explanatory names such as Taj Mahal need no parenthetical explanation.
 `kosten` / `gratis` refer only to money; use `reistijd`, `extra reistijd`, `omweg`, `duur`, etc. for logistics.
 
+## MARK DECISION CARD — GLOBAL HARD
+The older rule still present in `VARANASI_DECISIONS_BLOCK_11_15.md` is restored globally: every real Mark A/B/C/A+ decision must include who/tradition, what happened there, why historically/spiritually relevant, and what is visitable now; parent-sites only, microsites nested.
+For the current A+-first phase each card ALSO includes nearest/relevant A+, useful distance + realistic travel mode/time, natural bundle vs separate excursion, and likely day/time impact.
+Never ask Mark to decide from a bare name/one-line description or from distance alone. If these fields are not sufficiently known, INDIA researches them first.
+
 ## PRECEDENCE
 Latest explicit Mark decision > later accommodation/cluster/site decision > current central state/method > protected older canon > old handoffs/candidate lists.
 Old route-first/booking-first control is superseded by current A+-first method.
@@ -33,6 +38,8 @@ Old route-first/booking-first control is superseded by current A+-first method.
 Branch: `agent/india8-cluster-casting`.
 Decision log: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md`.
 Promotion master: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_PROMOTION_MASTER.md`.
+Distance context: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/OLD_A_PROMOTION_DISTANCE_CONTEXT.md`.
+Rich decision cards: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_MARK_DECISION_CARDS.md` once built.
 Method: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_PROXIMITY_DECISION_MODEL.md`.
 Traveler master: 221 raw represented inputs -> 150 canonical traveler/experience records.
 Regional discovery: 8/8 workers complete and integrated.
@@ -88,7 +95,7 @@ ARUNACHALA / TIRUVANNAMALAI / Arunachala / Ramana sacred world (heilige berg, as
 
 ## CURRENT PHASE — OLD-A PROMOTION PASS
 Latest promotions recorded: Manikarnika, Dashashwamedh and Assi are now A+.
-Remaining old A promotion candidates must be shown with distance/reistijd to the nearest relevant A+ before Mark is asked to choose.
+Remaining old A promotion candidates must be presented as rich Mark Decision Cards, not bare list rows.
 Then finish A+ identity/geo, overlay all remaining old A/B/C + regional + traveler/Lonely-Planet findings, compute real A+-centric distances/times/bundles, then ordinary A/B/C and true cluster duration/nights.
 
 ## OPEN GEO WORK — AUTOMATIC, NOT FOR MARK TO REMEMBER
@@ -97,4 +104,4 @@ Then finish A+ identity/geo, overlay all remaining old A/B/C + regional + travel
 - Other selected A+ coordinates/route origins close during geometry stage; never guess.
 
 ## CURRENT FRONTIER
-Present remaining old-A promotion candidates with `CLUSTER / PLAATS / PLEK (uitleg) — huidige status` plus nearest relevant A+ distance/reistijd and natural bundle/separate-excursion context. Do not ask Mark to decide blind.
+Build/use rich decision cards for every remaining old A. Do not ask Mark to decide until each card explains significance, current visitability and A+-centric logistics sufficiently to understand the actual choice.
