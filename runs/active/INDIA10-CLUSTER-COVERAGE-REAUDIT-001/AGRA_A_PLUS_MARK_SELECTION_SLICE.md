@@ -45,17 +45,19 @@ No ranking is implied by numbering.
 - **Traveler layers:** `TRV-085`; ChatGPT World-Magnet + external collector; additionally old Mark HARD sunrise requirement.
 - **Regional layer:** Taj is the known anchor against which the compact regional sweep calibrated its threshold.
 - **Old Mark provenance:** Agra A, Taj-only; sunrise HARD.
-- **Visitability:** public ASI monument; Friday closure remains operationally important.
+- **Visitability:** public ASI monument; Friday closure remains operationally important. Current official rule: opens 30 minutes before sunrise on normal days.
 - **Why in this slice:** combined spiritual-person relevance + world-level intrinsic significance.
 
 ### 2. Taj Mahal — official full-moon night viewing
-- **What:** controlled ~30-minute night-view batch on the limited full-moon window.
+- **What:** controlled 30-minute night-view batch on the limited full-moon window.
 - **Person/AOAY:** same exact Taj physical anchor as above; experience itself is modern visitor access, not a historic Yogananda event.
 - **Traveler layers:** `TRV-084`, external collector.
 - **Regional layer:** independently rediscovered as Finding 1 in `REGION_AGRA_FREEZE.md`.
-- **Time/logistics:** low geographic detour, but date/alignment and ticketing burden can be high.
-- **Visitability:** official experience in principle; exact Dec 2026/Jan 2027 usable dates must be confirmed from the future ASI release. Friday exclusions/fog matter.
-- **Decision note:** distinct experience from daytime/sunrise, so kept separately rather than deduped into the Taj row.
+- **Time/logistics:** low geographic detour if already in Agra, but date/alignment and ticketing burden are high.
+- **Current official rules verified 2026-08-24:** full moon + two nights before + two nights after; 20:00–23:59; 8 batches of max 50; 30 minutes; Friday closed; security reporting at Shilpgram.
+- **Current-trip calendar closure:** Indian astronomical data gives the in-window full moon on **24 Dec 2026 at 06:58 IST**. Therefore the theoretical five-night cycle is **22–26 Dec**; **Friday 25 Dec is excluded**, leaving plausible dates **22, 23, 24 or 26 Dec 2026**, subject to ASI ticket release/security/fog. The next full moon is **22 Jan 2027**, one day after the current trip end, so there is no January full-moon Taj opportunity inside the present envelope.
+- **Ticketing caveat:** official current FAQ says online booking can open seven days before viewing; legacy wording elsewhere on the same official site still references day-before physical sale. Recheck the live channel when the Dec release actually opens.
+- **Decision note:** distinct experience from daytime/sunrise, so kept separately rather than deduped into the Taj row. If A+, it requires route repositioning away from the old Jan-1 Agra frame.
 
 ### 3. Agra Fort
 - **What:** UNESCO Mughal imperial fortified palace-city, not a single fort room/viewpoint.
@@ -84,6 +86,7 @@ No ranking is implied by numbering.
 - **Season:** December–January is specifically favorable.
 - **Visitability:** established public national park; species abundance still varies annually.
 - **Old Mark provenance:** not part of earlier Taj-only Agra choice.
+- **Dedup control:** same global candidate as the Keoladeo row in the Braj slice; Mark should not be asked to assign A+ twice.
 
 ### 6. National Chambal Sanctuary — river safari
 - **What:** licensed boat through Chambal ravine/river habitat for gharial, mugger, turtles, Indian skimmer and possible river dolphin.
@@ -169,6 +172,9 @@ The Agra worker explicitly researched but did not retain standalone:
 - Chand Baori as an Agra out-and-back (corridor-dependent only).
 
 These exclusions are discovery-threshold results, not Mark A/B/C decisions.
+
+## FIXED-DATE COLLISION NOTE
+24 Dec 2026 is also the verified in-window Arunachala full-moon Girivalam day. If Taj night viewing and full-moon Girivalam both become A+, this is a real calendar/route conflict, not a proximity problem. See `FIXED_DATE_COLLISION_MATRIX.md`.
 
 ## NEXT MARK ACTION FOR AGRA — ONLY WHEN PRESENTED IN CHAT
 Mark selects whichever of rows 1–12, if any, are **A+** for him. INDIA must not infer A+ from overlap count, UNESCO status, old A status or its own preference.
