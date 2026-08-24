@@ -39,7 +39,7 @@ Branch: `agent/india8-cluster-casting`.
 Decision log: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md`.
 Promotion master: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_PROMOTION_MASTER.md`.
 Distance context: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/OLD_A_PROMOTION_DISTANCE_CONTEXT.md`.
-Rich decision cards: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_MARK_DECISION_CARDS.md` once built.
+Rich decision cards: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_MARK_DECISION_CARDS.md` — BUILT, 18 remaining A cards.
 Method: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_PROXIMITY_DECISION_MODEL.md`.
 Traveler master: 221 raw represented inputs -> 150 canonical traveler/experience records.
 Regional discovery: 8/8 workers complete and integrated.
@@ -93,9 +93,9 @@ ARUNACHALA / TIRUVANNAMALAI / Arunachala / Ramana sacred world (heilige berg, as
 ### AGRA
 - AGRA / AGRA / Taj Mahal — huidige status: A+; sunrise/earliest practical opening HARD.
 
-## CURRENT PHASE — OLD-A PROMOTION PASS
+## CURRENT PHASE — OLD-A PROMOTION PASS / RICH CARD READY
 Latest promotions recorded: Manikarnika, Dashashwamedh and Assi are now A+.
-Remaining old A promotion candidates must be presented as rich Mark Decision Cards, not bare list rows.
+All 18 remaining old A choices have now been rebuilt as rich Mark Decision Cards with significance, visitability and A+-centric logistics. Do not use the old bare-list presentation anymore.
 Then finish A+ identity/geo, overlay all remaining old A/B/C + regional + traveler/Lonely-Planet findings, compute real A+-centric distances/times/bundles, then ordinary A/B/C and true cluster duration/nights.
 
 ## OPEN GEO WORK — AUTOMATIC, NOT FOR MARK TO REMEMBER
@@ -104,4 +104,4 @@ Then finish A+ identity/geo, overlay all remaining old A/B/C + regional + travel
 - Other selected A+ coordinates/route origins close during geometry stage; never guess.
 
 ## CURRENT FRONTIER
-Build/use rich decision cards for every remaining old A. Do not ask Mark to decide until each card explains significance, current visitability and A+-centric logistics sufficiently to understand the actual choice.
+Use `CURRENT_OLD_A_MARK_DECISION_CARDS.md` for Mark's remaining A->A+ review. Present compact cluster-sized batches if needed for readability, but never strip the decision context again.
