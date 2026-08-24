@@ -9,7 +9,7 @@ Owner: INDIA-regie
 
 For every current and future INDIA-regie successor (INDIA10, INDIA11, INDIA12, etc.):
 - `README.md` defines the mandatory entry order;
-- THIS file is the highest execution authority for `NO-DEFERRAL`, `ACTION-FIRST`, `INTERRUPTION-RESUME`, `AL BESLIST?` and the user-facing naming/display rule;
+- THIS file is the highest execution authority for `NO-DEFERRAL`, `ACTION-FIRST`, `INTERRUPTION-RESUME`, `AL BESLIST?` and the user-facing naming/display/decision-card rules;
 - `governance/CURRENT_STATE.md` is the highest human-readable authority for the current project phase and active execution frontier;
 - `governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md` defines the light read mechanics and successor continuity;
 - older handoffs are provenance unless `CURRENT_STATE.md` explicitly points to them as current.
@@ -81,12 +81,12 @@ Als één antwoord JA is, presenteer het niet als nieuwe keuze. Gebruik het als 
 
 Voor ALLE huidige en toekomstige INDIA-versies geldt bij iedere aan Mark getoonde locatie/ervaring/site de standaardvorm:
 
-`CLUSTER / PLAATS / PLEK (korte Nederlandse uitleg wat dit is en waarom die naam relevant is)`
+`CLUSTER / PLAATS / PLEK (korte Nederlandse uitleg wat dit is en waarom die naam relevant is) — huidige status: A+ / A / B / C / OPEN`
 
 Voorbeelden:
-- `DELHI / CHHAWLA / Nirmal Dham (rustplaats/Mahasamadhi van Shri Mataji Nirmala Devi)`
-- `KUMAON / KUKUCHINA-DUNAGIRI / Mahavatar Babaji's Cave (bezoekbare YSS/Kriya-pelgrimsgrot; hoofdreden voor de reis)`
-- `BODH GAYA / BAKRAUR / Sujata Stupa (stupa bij de plek waar Sujata volgens de traditie de uitgeputte Boeddha vóór zijn verlichting voedsel gaf)`
+- `DELHI / CHHAWLA / Nirmal Dham (rustplaats/Mahasamadhi van Shri Mataji Nirmala Devi) — huidige status: A+`
+- `KUMAON / KUKUCHINA-DUNAGIRI / Mahavatar Babaji's Cave (bezoekbare YSS/Kriya-pelgrimsgrot; hoofdreden voor de reis) — huidige status: A+`
+- `BODH GAYA / BAKRAUR / Sujata Stupa (stupa bij de plek waar Sujata volgens de traditie de uitgeputte Boeddha vóór zijn verlichting voedsel gaf) — huidige status: A`
 
 Regels:
 - deze structuur geldt voor lijsten, beslisvragen, afstanden, dagplannen, hotel-/basisrelaties en uiteindelijke reisgids;
@@ -94,6 +94,28 @@ Regels:
 - ook wanneer een naam al eerder is uitgelegd, herhaal de korte uitleg opnieuw;
 - wereldwijd zelfverklarende uitzonderingen zoals `AGRA / AGRA / Taj Mahal` mogen zonder extra uitleg tussen haakjes;
 - interne technische bestanden/IDs hoeven niet retroactief hernoemd te worden; de harde regel betreft iedere user-facing presentatie en nieuwe Mark-ready output.
+
+## MARK DECISION CARD — GLOBAL HARD / RESTORED 2026-08-24
+
+De oudere Mark-presentatieregel is opnieuw verheven tot globale standaard. Bronprovenance: `VARANASI_DECISIONS_BLOCK_11_15.md` herbevestigde expliciet dat kandidaatcontext altijd moet bevatten: **wie**, **wat er gebeurde**, **waarom historisch/spiritueel relevant**, en **wat nu bezoekbaar is**; parent-sites tonen, microsites genest houden.
+
+Vanaf nu mag GEEN A/B/C/A+-beslissing aan Mark worden gevraagd op basis van alleen een naam of één korte regel. Iedere echte besliskaart bevat minimaal:
+1. `CLUSTER / PLAATS / PLEK (duidelijke Nederlandse uitleg) — huidige status`;
+2. **Wie / traditie** — welke persoon/personen, lineage of historische/culturele laag hier relevant is;
+3. **Wat gebeurde hier** — concrete gebeurtenis/claim, met onzekerheid zichtbaar waar nodig;
+4. **Waarom relevant** — waarom dit mogelijk reiswaardig is voor Marks specifieke reis, niet generieke toeristische marketing;
+5. **Wat bezoek je nu echt** — huidige fysieke site, parent/child-relatie en bezoekbaarheid; geen private of verdwenen microplek als toeristische locatie verkopen;
+6. **Relatie tot A+** — dichtstbijzijnde/relevante A+-anker(s), bruikbare afstand en realistische wandel-/rij-/boot-/trekduur; straight-line alleen als die expliciet zo gelabeld is;
+7. **Logistieke impact** — natuurlijke combinatie, meelopend binnen bestaande dag, aparte halve dag, aparte hele dag of grotere omweg; noem extra reistijd/omweg waar redelijk sluitbaar;
+8. **Besliskader** — huidige A/B/C/A+ en indien nuttig INDIA-advies, maar Mark beslist A/B/C/A+.
+
+Kwaliteitsregels:
+- onvoldoende informatie = eerst zelfstandig research/geo/visitability sluiten, NIET Mark blind laten kiezen;
+- een bekende naam zonder betekenis is onvoldoende;
+- een afstand zonder inhoudelijke betekenis is onvoldoende;
+- inhoudelijke betekenis zonder logistieke impact is onvoldoende wanneer die impact de waardering kan veranderen;
+- gebruik compacte maar volledige kaarten; geen onnodige bron-dump in de chat;
+- informatie die al door een A+ parent wordt geërfd blijft genest en wordt niet als losse keuze teruggestuurd.
 
 ## ACTUELE BESLISVOLGORDE VOOR ROUTE/NACHTEN
 
@@ -186,6 +208,7 @@ Een nieuwe INDIA-regisseur mag pas inhoudelijk handelen nadat hij zelf kan samen
 - actuele open beslissingen die werkelijk alleen Mark kan nemen;
 - welke oudere handoffs/routeframes inmiddels provenance zijn;
 - de INTERRUPTION-RESUME-regel;
-- en de verplichte `CLUSTER / PLAATS / PLEK (uitleg)`-presentatie.
+- de verplichte `CLUSTER / PLAATS / PLEK (uitleg) — huidige status`-presentatie;
+- en de MARK DECISION CARD-regel met inhoud + bezoekbaarheid + A+-logistiek vóór ieder echt keuzeverzoek.
 
 Als dat niet scherp is: verder lezen, niet adviseren.
