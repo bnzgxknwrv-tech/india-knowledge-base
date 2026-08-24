@@ -35,10 +35,14 @@ Repairs completed on the central branch:
 - `README.md` exposes the hard action-first gate before normal boot text — commit `5fde2c75529438ea0d74ce73316f0554256ed961`;
 - `INDIA_SUCCESSOR_BOOT_PROTOCOL.md` makes no-deferral mandatory and includes `SCAN -> DO -> RECORD -> RESCAN` — commit `38fa78c4e4b70f542e9ca3b84b50a6c0957c3b8e`;
 - `INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md` has aligned boot order, current A+ sequencing and stale-handoff precedence — commit `5f23ac5bca23e6330fa8734a57af309acab24a7d`;
-- `COVERAGE_MATRIX.md` was corrected from stale A/B/C-first sequencing to the current A+-first model.
+- `COVERAGE_MATRIX.md` was corrected from stale A/B/C-first sequencing and is now fully closed at `DISCOVERY_COMPLETE_ENOUGH__ALL_A_PLUS_SLICES_READY` — commit `f065c7284d3ab47aedb92f5783814d52d87d63db`.
 
 ### Old INDIA8 -> INDIA9 handoff disposition
 `handoffs/INDIA8_TO_INDIA9_FINAL_BOOT_2026-08-23.md` is HISTORICAL PROVENANCE for current-phase control. Its factual travel details may still be useful, but `V2 IS AUTHORITATIVE`, `CURRENT EXECUTION STATE` and old route-first work order are superseded by THIS file + the A+ model.
+
+### Independent boot sanity review
+A bounded LIGHT CCI review was posted on PR #23 as issuecomment `5392664248`.
+It may only review boot/action-first consistency and current frontier; no discovery, no A/B/C/A+, no route choice, no file edits.
 
 ## Current central regie branch
 `agent/india8-cluster-casting`
@@ -60,7 +64,7 @@ The project is NOT in booking/application phase and is NOT in final global route
 
 Person/AOAY sweep bodies are sufficient for this travel-planning stage unless a concrete unresolved physical identity could materially change a candidate. Do not regress into open-ended national person research solely because a technical saturation token says NEE.
 
-Traveler discovery and the missing regional discovery phase are now complete enough for Mark's A+ selection round.
+Traveler discovery and missing regional discovery are complete enough for Mark's A+ selection round.
 
 ## HARD DECISION ORDER — A+ FIRST
 Authority:
@@ -103,11 +107,11 @@ Every freeze was read and merged centrally against person/AOAY + traveler union 
 
 Coverage status:
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/COVERAGE_MATRIX.md`
-commit `12f0a69338172a80697010ce7af63b1f5748645c`.
+commit `f065c7284d3ab47aedb92f5783814d52d87d63db`.
 
 Bodh Gaya/Gaya did not need a generic worker because earlier regional saturation was accepted (`INDIA_ACCEPTED_SATURATION: JA`); it has now also received an A+ slice from existing saturated discovery.
 
-## MARK-READY A+ SLICES
+## MARK-READY A+ SLICES — COMPLETE
 Directory:
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/`
 
@@ -123,6 +127,12 @@ Ready:
 - `TIRUVANNAMALAI_A_PLUS_MARK_SELECTION_SLICE.md`
 - `OUT_OF_RADIUS_WORLD_MAGNET_A_PLUS_CHALLENGERS.md`
 
+Compact review controller:
+`A_PLUS_MARK_REVIEW_INDEX.md`
+commit `aee6cad8db503f8c3bf4d8f255ba13d1c2a046fb`.
+
+Mark does NOT need to open raw worker files or these slice files himself; INDIA presents one compact numbered cluster block in chat.
+
 Out-of-radius challenger file preserves Khajuraho, Golden Temple/Amritsar and Hampi so they cannot disappear because of current cluster geometry.
 
 ## Important calendar deltas now known
@@ -132,7 +142,7 @@ Out-of-radius challenger file preserves Khajuraho, Golden Temple/Amritsar and Ha
 - Karthigai Deepam was NOT verified in the trip window; preserve historical/traveler evidence but do not promise event attendance.
 
 ## CURRENT FRONTIER — ONLY MARK CAN DO THIS PART
-Mark selects A+ cluster by cluster from the prepared slices. INDIA must present those slices compactly, without making Mark read raw worker files.
+Mark selects A+ cluster by cluster from the prepared slices. INDIA presents the slice compactly and does not make Mark read raw files.
 
 Immediately after each Mark A+ decision, INDIA itself performs the A+-centric proximity/time/bundle analysis before asking Mark for ordinary A/B/C.
 
