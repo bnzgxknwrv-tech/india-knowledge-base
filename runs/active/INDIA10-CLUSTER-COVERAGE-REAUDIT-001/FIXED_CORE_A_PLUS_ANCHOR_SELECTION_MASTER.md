@@ -1,17 +1,16 @@
 # INDIA10 — FIXED CORE A+ ANCHOR SELECTION MASTER
 
-status: ACTIVE_MARK_ANCHOR_SELECTION
+status: OBVIOUS_PARENT_A_PLUS_PASS_COMPLETE__OLD_A_PROMOTION_ACTIVE
 updated: 2026-08-24
-purpose: finish only genuinely separate intrinsic A+ parents/anchors in the fixed travel worlds BEFORE old-A promotion and traveler/Lonely-Planet proximity.
 
 ## HARD DISPLAY RULE
-Every non-obvious Indian place/institution/site name shown to Mark is immediately followed by a short plain-Dutch explanation in parentheses.
+Every non-obvious Indian place/institution/site shown to Mark immediately gets a short plain-Dutch explanation in parentheses.
 Never display `Nirmal Dham` alone; use `Nirmal Dham (rustplaats/Mahasamadhi van Shri Mataji Nirmala Devi)`.
 
 ## PARENT A+ RULE
-When Mark makes a meaningful parent complex/sacred local world A+, true same-compound children and obvious naturally bundled core micro-sites inherit CHILD_A_PLUS. Do not ask Mark to vote on every room, cave, shrine or adjacent core site. Only materially separate route/time parents remain as A+ questions.
+When a meaningful parent complex/sacred local world is A+, true same-compound children and obvious naturally bundled core micro-sites inherit `CHILD_A_PLUS`. No room/shrine/cave micro-ballots. Materially separate drives/hikes remain separate candidates.
 
-## FIXED CORE CLUSTERS
+## FIXED CORE WORLDS
 1. Kumaon
 2. Varanasi / Sarnath
 3. Bodh Gaya / Gaya
@@ -19,66 +18,37 @@ When Mark makes a meaningful parent complex/sacred local world A+, true same-com
 5. Delhi
 6. Agra / Taj Mahal
 
-## EXPLICIT A+ — CURRENT
-### KUMAON — COMPLETE OBVIOUS A+ SPINE
-- **Mahavatar Babaji's Cave (bezoekbare Babaji-pelgrimsgrot boven Kukuchina/Dunagiri)** — A+.
-- **Kainchi Dham (Neem Karoli Baba-ashramcomplex; kernplek voor Neem Karoli Baba en Ram Dass)** — A+ PARENT; on-compound NKB/Ram Dass micro-sites inherit CHILD_A_PLUS.
-- **Hotel Evelyn (historisch hotel in Nainital waar Ram Dass verbleef; exacte kamer niet bewezen)** — A+ PARENT/SITE; room/patio details nested.
-- **Haidakhan Ashram (Haidakhan Babaji-pelgrimsashram; tevens gewenste ashramovernachting)** — A+ PARENT.
+## CONFIRMED A+ PARENTS / ANCHORS
+### KUMAON
+- **Mahavatar Babaji's Cave (bezoekbare YSS/Kriya-pelgrimsgrot boven Kukuchina/Dunagiri)** — formal A+; Mark emphasis `A++++ / 100% lineage bearer`.
+- **Kainchi Dham (Neem Karoli Baba-ashramcomplex; kernplek voor Neem Karoli Baba en Ram Dass)** — A+ parent.
+- **Hotel Evelyn (historisch Nainital-hotel waar Ram Dass verbleef; exacte kamer niet bewezen)** — A+ parent/site.
+- **Haidakhan Ashram (Haidakhan Babaji-pelgrimsashram aan het begin van de reis)** — A+ parent/module.
+- **Historische Haidakhan-grot (grot uit de aparte Haidakhan Babaji-traditie)** — A+ associated component; explicitly separate from the YSS/Kriya Babaji cave tradition.
 
-Not A+ / later logistics review only:
-- **Turiya Niwas (kluizenaarswoning van Alfred “Sunyata” Sorensen op Crank’s Ridge)** — dedicated Kasar Devi/Almora side module previously dropped.
-- **Bodh Ashram (voormalig landgoed van Evans-Wentz/Lama Govinda op Crank’s Ridge; bezocht door Anandamayi Ma en Neem Karoli Baba)** — same de-prioritized side geography.
+Not A+ / later geometry only: **Turiya Niwas (kluizenaarswoning van Alfred “Sunyata” Sorensen op Crank’s Ridge)**, **Bodh Ashram (voormalig landgoed van Evans-Wentz/Lama Govinda op Crank’s Ridge; bezocht door Anandamayi Ma en Neem Karoli Baba)** and the dropped Kasar Devi/Almora side-module.
 
 ### VARANASI / SARNATH
-A+ PARENT already formed:
-- **Varanasi Kriya core (compacte oude-stadsmicrocluster rond Lahiri Mahasaya en de Yogananda/Sri Yukteswar-zone)**.
-  - **Lahiri Mahasaya original home (oorspronkelijke woonhuis van Lahiri Mahasaya)** — anchor A+.
-  - **Lahiri Mahasaya Samadhi / Satyalok (samadhi-/herdenkingsplek van Lahiri Mahasaya)** — naturally bundled CHILD_A_PLUS, ~0.13 km straight-line from the home.
-  - **Rana Mahal Ghat (bezoekbare ghat-zone van de Yogananda–Sri Yukteswar-historische scène; exact huis niet bewezen)** — naturally bundled CHILD_A_PLUS, ~0.44 km straight-line from the home.
+- **Varanasi Kriya core (compacte oude-stadsmicrocluster rond Lahiri Mahasaya en de Yogananda/Sri Yukteswar-zone)** — A+ parent: Lahiri home + Lahiri samadhi + Rana Mahal zone.
+- **Sarnath (Boeddha's eerste-preekcomplex met Dhamek Stupa, Deer Park en museum)** — A+ parent; confirmed 2026-08-24.
 
-Only genuinely separate current A+ parent question:
-- **Sarnath sacred/archaeological complex (Boeddha's eerste-preeklandschap met Dhamek Stupa, Deer Park en museum als één ervaring)** — ~8.9 km straight-line from Lahiri home; all internal Sarnath sites will inherit under one parent if Mark makes this A+.
+### BODH GAYA / GAYA
+- **Mahabodhi Temple Complex (Boeddha-verlichtingscomplex in Bodh Gaya)** — A+ parent; **Bodhi Tree (heilige boom op de plek van Boeddha's verlichting)** and internal enlightenment micro-sites inherit.
 
-These remain later old-A promotion candidates rather than A+ micro-ballots:
-- **Shree Shree Ma Anandamayi Ashram, Bhadaini (bezoekbaar Varanasi-ashram van Anandamayi Ma)**.
-- **Shri Kashi Vishwanath Temple (grote levende Shiva-tempel in het hart van Varanasi)**.
-- **Shri Tailanga Swami Math / Panchganga (ashram/matha van Tailanga Swami bij Panchganga Ghat)**.
-
-### BODH GAYA / GAYA — CORE PARENT COMPLETE
-- **Mahabodhi Temple Complex (Boeddha-verlichtingscomplex in Bodh Gaya)** — A+ PARENT.
-  - **Bodhi Tree (heilige boom op de plek van Boeddha's verlichting)** and all responsibly identified internal enlightenment micro-sites inherit CHILD_A_PLUS.
-
-Separate later old-A candidates, not child ballots:
-- **Sujata Stupa / Bakraur (plek verbonden met Sujata vóór de verlichting)** — distinct outside parent; ~1.224 km straight-line in current matrix / ~4 km practical eastward description in Bihar tourism material.
-- **Dungeshwari / Mahakala Caves (grotten van Boeddha's extreme ascese vóór de verlichting)** — separate excursion.
-- **Great Buddha Statue (grote moderne Boeddha-beeldengroep in Bodh Gaya)** — separate local site, roughly ~1.15 km straight-line from Mahabodhi using current known coordinates.
-
-### TIRUVANNAMALAI / ARUNACHALA — COMPLETE PARENT A+
-- **Arunachala / Ramana sacred world (heilige berg, ashram en directe Ramana Maharshi-levensplekken in Tiruvannamalai)** — A+ PARENT.
-Included A+ components without further ballot:
-- **Sri Ramanasramam (hoofdashram van Ramana Maharshi aan de voet van Arunachala)** + same-compound micro-sites.
-- **Virupaksha Cave (grot waar Ramana Maharshi jarenlang woonde en mediteerde)**.
-- **Skandashram (bergashram waar Ramana Maharshi later woonde)**.
-- **Arunachaleswarar / Annamalaiyar Temple (grote Shiva-tempel en vroege Ramana-kernplek)**.
-- **Arunachala Girivalam / Giripradakshina (14 km pelgrimsomloop rond de heilige berg)**.
-- **Gurumurtam (vroeg verblijf van Ramana Maharshi)**.
-- **Pavalakunru (heuvelplek waar Ramana Maharshi verbleef en zijn moeder hem bezocht)**.
-
-Known geometry: Sri Ramanasramam-main temple ~2 km; back gate-Virupaksha ~20–45 min uphill, then another ~20–30 min to Skandashram; Girivalam ~14 km; Gurumurtam ~3 km from main temple in historical/local sources; Pavalakunru local eastern spur with exact route distance still to close.
+### TIRUVANNAMALAI / ARUNACHALA
+- **Arunachala / Ramana sacred world (heilige berg, ashram en directe Ramana Maharshi-levensplekken in Tiruvannamalai)** — A+ parent; Sri Ramanasramam, Virupaksha Cave, Skandashram, Arunachaleswarar Temple, Girivalam, Gurumurtam and Pavalakunru included without further ballot.
 
 ### DELHI
 - **Nirmal Dham (rustplaats/Mahasamadhi van Shri Mataji Nirmala Devi, Chhawla/Delhi)** — A+.
-No other intrinsic parent question currently required before later old-A/traveler overlay.
 
 ### AGRA
-- **Taj Mahal** — A+; sunrise/earliest-opening remains HARD.
+- Taj Mahal — A+; sunrise/earliest-opening HARD.
 
-## REQUIRED ORDER
-1. Finish only materially separate A+ parent decisions.
-2. Run reconciled old-A promotion for separate sites not already covered by A+ parent inheritance.
-3. Finish exact A+ identity/geo.
-4. Overlay all remaining old A/B/C + regional + traveler/Lonely-Planet candidates.
-5. Compute real A+-centric travel time/detour/bundling.
-6. Then ordinary A/B/C.
-7. Then true cluster duration/minimum nights.
+## CURRENT ACTIVE REVIEW
+The obvious-parent pass is closed. Do not reopen it unless Mark explicitly changes a decision.
+Use:
+`CURRENT_OLD_A_PROMOTION_MASTER.md`
+for every remaining materially separate old A that may still deserve promotion to A+.
+
+After that promotion pass:
+A+ identity/geo -> regional/traveler/Lonely-Planet overlay -> real A+-centric travel time/extra travel time/omweg/bundling -> ordinary A/B/C -> true cluster duration/minimum nights.
