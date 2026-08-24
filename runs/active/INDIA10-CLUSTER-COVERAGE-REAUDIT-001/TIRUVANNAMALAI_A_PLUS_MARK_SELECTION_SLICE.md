@@ -19,9 +19,9 @@ Old Mark/site provenance before this deliberate re-evaluation included A for Ram
 ## Merged A+-selection universe
 No ranking implied.
 
-1. **Sri Ramanasramam** — direct mission/person anchor; active ashram; possible desired ashram sleep.
+1. **Sri Ramanasramam** — direct mission/person anchor; active ashram; possible desired ashram sleep. Current official accommodation is limited/discretionary, online registration at `stay.gururamana.org` is mandatory, stays are usually about three days, and accommodation is specifically for Bhagavan-focused devotees rather than general spiritual tourism. The ashram discourages accommodation requests during full-moon/festival pressure. Do not treat this as a normal hotel booking.
 2. **Virupaksha Cave + Skandashram trail** — direct Ramana physical-life sites plus mountain walk; traveler ledger `TRV-140` reinforces the trail as an experience.
-3. **Arunachala Girivalam / Giripradakshina** — 14 km embodied pilgrimage; regional freeze independently retained it and traveler union `TRV-133` has Blind-General + World-Magnet + external overlap. The 24 Dec 2026 full moon creates a distinct high-intensity variant.
+3. **Arunachala Girivalam / Giripradakshina** — 14 km embodied pilgrimage; regional freeze independently retained it and traveler union `TRV-133` has Blind-General + World-Magnet + external overlap. Indian astronomical data confirms the in-window full moon on **24 Dec 2026**; Tiruvannamalai district confirms full-moon Girivalam as a mass pilgrimage event. This is therefore a genuine high-intensity date-specific variant, but not automatically compatible with Ramanasramam lodging or other 24-Dec route magnets.
 4. **Arunachaleswarar / Annamalaiyar Temple** — monumental living Shaiva city at the mountain foot; regional independent Finding 1 + traveler `TRV-134`; old Mark A provenance.
 5. **Gurumurtam** — direct Ramana-life anchor; old Mark A provenance.
 6. **Pavalakunru** — direct Ramana-life anchor; old Mark A provenance.
@@ -46,9 +46,11 @@ No ranking implied.
 - `TRV-143` Pondicherry White Town + artisan bakeries — gateway/traveler texture, not erased by regional threshold.
 - old B micro-sites Mango Tree Cave and Pachaiamman Temple remain provenance and should be proximity-tested after A+.
 
-## Explicit calendar correction
-- Full moon: 24 Dec 2026 is in-window and materially changes Girivalam intensity.
-- Karthigai Deepam is NOT assumed in-window; regional worker did not verify a 2026 Deepam date inside 19 Dec–21 Jan. `TRV-137` therefore remains preserved traveler evidence but must not be presented as an available trip event without authoritative date confirmation.
+## Explicit calendar / accommodation corrections
+- **Full moon: 24 Dec 2026** is verified in-window and materially changes Girivalam intensity.
+- **Karthigai Deepam 2026 is 24 Nov 2026**, before the India trip. It must NOT be presented as an available Dec/Jan event.
+- Full-moon Ramanasramam lodging is specifically less favorable because the ashram asks devotees to avoid full-moon/festival periods when seeking accommodation.
+- 24 Dec also sits inside the only Taj full-moon night-viewing cycle within the overall trip window. This is a real later calendar tradeoff if both date-specific experiences become A+; see `FIXED_DATE_COLLISION_MATRIX.md`.
 
 ## Next Mark-only decision
 Mark chooses any A+ from this merged universe. After that INDIA computes real A+-centric travel time, extra travel time/omweg, bundles and isolation before ordinary A/B/C re-rating.
