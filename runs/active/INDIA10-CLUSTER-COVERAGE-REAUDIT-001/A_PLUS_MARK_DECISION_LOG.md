@@ -1,15 +1,22 @@
 # INDIA10 — MARK A+ / CURRENT DECISION LOG
 
-status: CORRIDOR_AWARE_REVIEW_ACTIVE
+status: OLD_A_PROMOTION_CLOSED__TRAVELER_OVERLAY_NEXT
 updated: 2026-08-24
 
 ## HARD RULES
 - Only Mark assigns or changes A+, A, B or C.
 - Latest explicit Mark decision supersedes older protected provenance; older grades remain historical evidence only.
 - Parent-complex A+ inheritance applies to true same-site/same-compound children.
-- User-facing format is always `CLUSTER / PLAATS / PLEK (korte Nederlandse uitleg) — huidige status`.
-- Corridor geometry must be shown before ordinary grading when transfer fit can change practical value.
-- Never abbreviate the two Bodh Gaya A+ sites to only `Sujata` or `Dungeshwari` in Mark-facing text. Always use the full explanatory forms below.
+- User-facing format is ALWAYS `CLUSTER / PLAATS / PLEK (korte Nederlandse uitleg) — huidige status`, every time a non-obvious name appears.
+- Corridor geometry must be shown before grading when transfer fit can change practical value.
+
+## GRADE SEMANTICS — HARD / MARK 2026-08-24
+- `A+` = trip-defining/core anchor; route must protect it.
+- `A` = Mark wil hier in principe echt naartoe. Plan it unless a later route conflict forces reconsideration.
+- `B` = geen zelfstandige route-driver; alleen meenemen als Mark er toch is / het logisch meeloopt / de extra belasting klein is.
+- `C` = NIET heen. Do not plan, route for, or re-present unless Mark explicitly reopens it.
+- Corridor fit may legitimately change a candidate's practical grade: a wanted place that would otherwise be dropped may stay/become A when it is a natural transfer capture.
+- Apply exactly these semantics to the regional + traveler/Lonely-Planet overlay; do not inflate 'interesting' into A.
 
 ## CURRENT A+ SPINE
 ### KUMAON
@@ -37,8 +44,8 @@ updated: 2026-08-24
 ### BODH GAYA / GAYA
 - BODH GAYA / BODH GAYA / Mahabodhi Temple Complex (Boeddha-verlichtingscomplex) — A+ parent.
   - Bodhi Tree (heilige boom op de plek van Boeddha's verlichting) — CHILD_A+.
-- **BODH GAYA / BAKRAUR / Sujata Stupa (plek waar Sujata de uitgemergelde Siddhartha voedsel gaf; keerpunt van extreme ascese naar de Middenweg vóór zijn verlichting) — A+.**
-- **BODH GAYA / DUNGESHWARI HILLS / Dungeshwari–Mahakala Caves (grotten waar Siddhartha extreme ascese beoefende vóór Sujata en de verlichting) — A+.**
+- BODH GAYA / BAKRAUR / Sujata Stupa (plek waar Sujata de uitgemergelde Siddhartha voedsel gaf; keerpunt van extreme ascese naar de Middenweg vóór zijn verlichting) — A+.
+- BODH GAYA / DUNGESHWARI HILLS / Dungeshwari–Mahakala Caves (grotten waar Siddhartha extreme ascese beoefende vóór Sujata en de verlichting) — A+.
 
 ### TIRUVANNAMALAI / ARUNACHALA
 - ARUNACHALA / TIRUVANNAMALAI / Arunachala / Ramana sacred world (heilige berg, ashram en directe Ramana Maharshi-levensplekken) — A+ parent.
@@ -56,22 +63,19 @@ updated: 2026-08-24
 - KUMAON / ALMORA / Ramakrishna Kutir (levend Ramakrishna Mission-retraitecentrum; Sri Ramakrishna verbleef hier niet) — C.
 - KUMAON / CHITAI / Chitai Golu Devta Temple (Kumaoni tempel met duizenden bellen en verzoeken om gerechtigheid) — C.
 - KUMAON / CRANK'S RIDGE-KASAR DEVI / Turiya Niwas (historische kluizenaarswoning van Alfred 'Sunyata' Sorensen) — C.
-- KUMAON / CRANK'S RIDGE-KASAR DEVI / Bodh Ashram (Evans-Wentz/Lama Govinda/Tibetaans-boeddhistische zoekersplek) — C.
+- KUMAON / CRANK'S RIDGE-KASAR DEVI / Bodh Ashram (voormalige Evans-Wentz/Lama Govinda-zoekersplek; bezocht door Anandamayi Ma en Neem Karoli Baba) — C.
 Do not re-present these five C rows unless Mark explicitly reopens them.
 
-## LATEST VARANASI EASY-CAPTURE GRADES — MARK 2026-08-24
-Source delta: `EASY_CAPTURE_MARK_DECISIONS_2026-08-24.md`.
+## LATEST VARANASI ORDINARY GRADES — MARK 2026-08-24
 - VARANASI / TULSI GHAT / Tulsi Ghat + Lolark Kund (Tulsidas-ghat plus oude rituele zon-/vruchtbaarheidsbron) — A.
 - VARANASI / LALITA GHAT / Lalita Ghat + Nepali/Kathwala Temple (Ganges-ghat met Nepalese houten pagodetempel) — A.
 - VARANASI / DURGA KUND-AREA / Tulsi Manas Temple (moderne tempel verbonden met Tulsidas/Ramcharitmanas-traditie) — B; supersedes old A.
 - VARANASI / DURGA KUND / Durga Temple + Durga Kund (rode levende Durga-tempel met heilige vijver) — A.
-- VARANASI / ANAND BAGH / Bhaskarananda Samadhi (samadhi/herdenkingsplek van yogi Swami Bhaskarananda) — B; supersedes old A. Old A existed only because it was immediately adjacent to Durga Temple/Durga Kund and rode along in that A cluster.
+- VARANASI / ANAND BAGH / Bhaskarananda Samadhi (samadhi/herdenkingsplek van yogi Swami Bhaskarananda) — B; supersedes old A. Old A existed only because it was immediate bycatch with Durga Temple/Durga Kund.
 - VARANASI / SANKAT MOCHAN / Sankat Mochan Hanuman Temple (levende Hanuman-tempel traditioneel verbonden met Tulsidas) — A.
 - VARANASI / SARNATH-SIMHAPURI / Shreyansanath Jain Tirth (Jain geboorte-/pelgrimsplek in dezelfde Sarnath-zone) — A.
-
-Still open in the old-A Varanasi pass:
-- VARANASI / KABIR CHAURA / Kabir Chaura Math (levend centrum van mysticus/dichter Kabir en Kabir Panth) — current A.
-- VARANASI / ADI KESHAVA–RAJGHAT / Adi Keshava Ghat + Temple (Vishnu-heiligdom bij de Varuna–Ganges-samenvloeiing; klassieke noordgrens van heilig Kashi) — current A.
+- VARANASI / KABIR CHAURA / Kabir Chaura Math (levend centrum van mysticus/dichter Kabir en de Kabir Panth) — A.
+- VARANASI / ADI KESHAVA–RAJGHAT / Adi Keshava Ghat + Temple (oud Vishnu-heiligdom bij de Varuna–Ganges-samenvloeiing; klassieke noordgrens van heilig Kashi) — A.
 
 ## LATEST BODH GAYA ORDINARY GRADE
 - BODH GAYA / BODH GAYA / Great Buddha Statue (grote moderne zittende Boeddha; geen historische levensplek van Gautama Boeddha) — A.
@@ -83,7 +87,7 @@ Still open in the old-A Varanasi pass:
 4. easy corridor captures second;
 5. alternative corridor bundles third;
 6. true subjective ties last;
-7. overlay traveler/LP/regional rows against same corridor framework;
+7. overlay regional + traveler/Lonely-Planet rows against same corridor framework, inheriting existing grades for duplicates;
 8. ordinary A/B/C finalization;
 9. complete cluster execution and true nights;
 10. global route last.
