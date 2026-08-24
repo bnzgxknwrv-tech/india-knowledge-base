@@ -8,6 +8,11 @@ purpose: finish all intrinsic A+ anchors in the fixed travel worlds BEFORE old-A
 Every non-obvious Indian place/institution/site name shown to Mark is immediately followed by a short plain-Dutch explanation in parentheses. Never rely on remembered terminology.
 Never display `Nirmal Dham` alone; use `Nirmal Dham (rustplaats/Mahasamadhi van Shri Mataji Nirmala Devi)`.
 
+## SUPERSEDING ROUTE GUARD — KASAR / ALMORA
+The 2026-08-23 Mark route decision removed dedicated Kasar Devi/Almora module priority. Old site-level A labels remain provenance only and MUST NOT resurrect the module during A+ selection.
+- **Turiya Niwas (kluizenaarswoning van Alfred “Sunyata” Sorensen op Crank’s Ridge)** — current-trip disposition: SKIP as dedicated detour / not an A+ candidate; preserve old A history only.
+- **Bodh Ashram (voormalig landgoed van Evans-Wentz/Lama Govinda op Crank’s Ridge; bezocht door Anandamayi Ma en Neem Karoli Baba)** — do not propose as A+ merely from old A provenance; same secondary/dropped Kasar-Almora geography.
+
 ## FIXED CORE CLUSTERS
 1. Kumaon
 2. Varanasi / Sarnath
@@ -17,7 +22,7 @@ Never display `Nirmal Dham` alone; use `Nirmal Dham (rustplaats/Mahasamadhi van 
 6. Agra / Taj Mahal
 
 ## ALREADY EXPLICIT A+
-- K1 — **Mahavatar Babaji's Cave (bezoekbare Babaji-pelgrimsgrot boven Kukuchina/Dunagiri)** — A+.
+- K1 — **Mahavatar Babaji's Cave (bezoekbare Babaji-pelgrimsgrot boven Kukuchina/Dunagiri)** — A+; Mark reaffirmed 2026-08-24: `100% A+`.
 - V1 — **Lahiri Mahasaya original home (oorspronkelijke woonhuis van Lahiri Mahasaya in Varanasi)** — A+.
 - B1 — **Bodhi Tree (heilige boom op de plek van Boeddha's verlichting binnen het Mahabodhi-complex)** — A+.
 - D1 — **Nirmal Dham (rustplaats/Mahasamadhi van Shri Mataji Nirmala Devi, Chhawla/Delhi)** — A+.
@@ -27,11 +32,13 @@ Never display `Nirmal Dham` alone; use `Nirmal Dham (rustplaats/Mahasamadhi van 
 These are only intrinsic pilgrimage/person anchors. Traveler/LP attractions come later after A+ geometry exists.
 
 ### KUMAON
-K2 — **Turiya Niwas (later-rescued lineage/persoonslocatie in Kumaon; protected old A)**.
-K3 — **Bodh Ashram (later-rescued lineage/persoonsashram in Kumaon; protected old A)**.
 K4 — **Kainchi Dham (Neem Karoli Baba-ashramcomplex; kernplek voor NKB/Ram Dass)**.
 K5 — **Hotel Evelyn (historisch Nainital-hotel waar Ram Dass verbleef; exacte kamer niet bewezen)**.
-K6 — **Haidakhan Ashram (Babaji/Haidakhan-pelgrimsashram en gewenste ashram-overnamecht)**.
+K6 — **Haidakhan Ashram (Babaji/Haidakhan-pelgrimsashram en gewenste ashram-overnaachting)**.
+
+Excluded from current intrinsic A+ review by superseding route disposition:
+- **Turiya Niwas (kluizenaarswoning van Alfred “Sunyata” Sorensen op Crank’s Ridge)** — skip current trip as dedicated detour.
+- **Bodh Ashram (voormalig landgoed van Evans-Wentz/Lama Govinda op Crank’s Ridge; bezocht door Anandamayi Ma en Neem Karoli Baba)** — not a current A+ proposal.
 
 ### VARANASI / SARNATH
 V2 — **Lahiri Mahasaya Samadhi / Satyalok (samadhi-/herdenkingsplek van Lahiri Mahasaya)**.
@@ -58,19 +65,18 @@ T7 — **Pavalakunru (heuveltempel/plek uit Ramana Maharshi's vroege Tiruvannama
 
 ### DELHI
 D1 already selected: **Nirmal Dham (rustplaats/Mahasamadhi van Shri Mataji Nirmala Devi, Chhawla/Delhi)** — A+.
-No other Delhi intrinsic person/pilgrimage anchor currently forces a pre-LP A+ question. Delhi traveler/regional candidates wait for later proximity overlay unless Mark explicitly promotes one.
+No other Delhi intrinsic person/pilgrimage anchor currently forces a pre-LP A+ question.
 
 ### AGRA
 A1 already selected: **Taj Mahal** — A+.
-Old Mark provenance remains `Taj-only / sunrise HARD` for the intrinsic-anchor pass. Agra Fort, Fatehpur Sikri, Keoladeo etc. wait for post-A+ proximity/traveler review unless Mark explicitly promotes one.
+Old Mark provenance remains `Taj-only / sunrise HARD` for the intrinsic-anchor pass.
 
 ## AFTER MARK COMPLETES THIS LIST
 INDIA immediately, without another permission round:
 1. records selected A+ anchors;
-2. resolves identity/coordinate confidence;
-3. overlays every preserved old A + regional + traveler/LP candidate;
-4. computes nearest/relevant A+, real travel time, distance where useful, extra travel time/omweg, natural bundle/separate excursion and isolation;
-5. gives Mark compact ordinary A/B/C choices;
-6. builds complete-execution cluster schedule and true duration/minimum nights.
-
-Only after all six fixed core worlds are costed in TIME do route-sensitive/reserve clusters compete for remaining trip space.
+2. performs the old-A promotion pass while honoring superseding route dispositions;
+3. resolves identity/coordinate confidence for selected A+ anchors;
+4. overlays every remaining old A/B/C + regional + traveler/LP candidate;
+5. computes nearest/relevant A+, real travel time, distance where useful, extra travel time/omweg, natural bundle/separate excursion and isolation;
+6. gives Mark compact ordinary A/B/C choices;
+7. builds complete-execution cluster schedule and true duration/minimum nights.
