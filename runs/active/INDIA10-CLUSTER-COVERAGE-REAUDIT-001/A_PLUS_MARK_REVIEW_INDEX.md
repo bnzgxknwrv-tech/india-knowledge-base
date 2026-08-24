@@ -12,6 +12,29 @@ Question per surfaced candidate:
 
 A+ does NOT automatically mean the cluster survives the final trip. A cluster can contain A+ and still be dropped if it cannot be executed properly inside the total trip envelope.
 
+## MARK STRATEGY OVERRIDE — REVIEW CERTAIN CORE CLUSTERS FIRST
+Mark clarified on 2026-08-24 that the A+ / traveler / regional review should first be completed for clusters he already knows he wants to visit, so their real content and complete-execution duration can be established before spending decision effort on route-sensitive/reserve clusters.
+
+Explicit prior cluster decisions confirm the **certain heavy core** as:
+1. **Kumaon / Nainital / Kainchi / Babaji** — old cluster A; contains core Babaji/NKB/Ram Dass anchors.
+2. **Varanasi / Sarnath** — old cluster A; major core-Kriya/AOAY/person density.
+3. **Bodh Gaya / Gaya** — old cluster A.
+4. **Tiruvannamalai / Arunachala** — old cluster A, explicitly fixed by content + personal pull.
+
+Separate certainty category:
+5. **Agra / Taj Mahal** — old cluster A but explicitly deliberately minimal, `Taj Mahal only`, with sunrise/earliest opening HARD. Treat as a certain fixed stop, not as a heavy cluster whose expansion should precede the four core reviews. The current deliberate re-evaluation may still test whether any newly surfaced Agra experience is A+, but only after the four heavy core clusters unless Mark says otherwise.
+
+Not yet in the same certainty class:
+- **Vrindavan / Braj / Mathura** — old A but explicitly route-sensitive / less immovable than Varanasi.
+- **Haridwar / Kankhal / Rishikesh** — old B/reserve; strong individual anchors do not make the whole cluster fixed.
+- **Delhi** — required gateway/logistics world, but not an explicitly locked heavy content cluster.
+- **Prayagraj** — discovery-ready but not present in the 2026-08-22 explicit fixed-A cluster list.
+- **Out-of-radius world magnets** — challengers only.
+- **Mysore / Bengaluru** — old cluster C/control.
+
+Operational consequence:
+**Finish A+ selection -> proximity -> ordinary A/B/C -> complete-execution duration for the four certain heavy core clusters FIRST.** This allows Mark to know how many days the non-negotiable trip core actually needs before deciding whether route-sensitive/reserve clusters fit.
+
 ## PREWORK ALREADY EXECUTED — DO NOT REDO AFTER MARK VOTES
 Before asking Mark for A+, INDIA has already executed reusable work that does not depend on the A+ choice:
 - `PRE_A_PLUS_AUTONOMOUS_PREWORK.md` — invariant visitability/logistics corrections, duplicate control and post-selection autorun;
@@ -40,20 +63,24 @@ Do not ask Mark twice for the same global candidate merely because it appears in
 - Mark answers only with the numbers/names that are A+; `geen` is valid;
 - INDIA records those choices immediately in GitHub;
 - INDIA then calculates nearest/relevant A+, real travel time, extra travel time/omweg, natural bundle and isolation for the remaining candidates;
-- only after that is ordinary A/B/C requested.
+- only after that is ordinary A/B/C requested;
+- after ordinary A/B/C for a certain core cluster, INDIA immediately builds that cluster's realistic complete-execution duration before moving to uncertain clusters.
 
-## READY SLICES
-Suggested review order is operational only, not a priority ranking:
-
+## REVIEW ORDER — CURRENT
+### Phase 1 — certain heavy core
 1. **Kumaon** — `KUMAON_A_PLUS_MARK_SELECTION_SLICE.md`
-2. **Haridwar / Kankhal / Rishikesh** — `HARIDWAR_RISHIKESH_A_PLUS_MARK_SELECTION_SLICE.md`
-3. **Delhi** — `DELHI_A_PLUS_MARK_SELECTION_SLICE.md`
-4. **Agra** — `AGRA_A_PLUS_MARK_SELECTION_SLICE.md`
-5. **Braj / Vrindavan / Mathura / Govardhan** — `BRAJ_A_PLUS_MARK_SELECTION_SLICE.md`
-6. **Prayagraj** — `PRAYAGRAJ_A_PLUS_MARK_SELECTION_SLICE.md`
-7. **Varanasi / Sarnath** — `VARANASI_A_PLUS_MARK_SELECTION_SLICE.md`
-8. **Bodh Gaya / Gaya** — `BODHGAYA_GAYA_A_PLUS_MARK_SELECTION_SLICE.md`
-9. **Tiruvannamalai / Arunachala** — `TIRUVANNAMALAI_A_PLUS_MARK_SELECTION_SLICE.md`
+2. **Varanasi / Sarnath** — `VARANASI_A_PLUS_MARK_SELECTION_SLICE.md`
+3. **Bodh Gaya / Gaya** — `BODHGAYA_GAYA_A_PLUS_MARK_SELECTION_SLICE.md`
+4. **Tiruvannamalai / Arunachala** — `TIRUVANNAMALAI_A_PLUS_MARK_SELECTION_SLICE.md`
+
+### Phase 2 — certain fixed stop, deliberately minimal provenance
+5. **Agra / Taj Mahal** — `AGRA_A_PLUS_MARK_SELECTION_SLICE.md`
+
+### Phase 3 — route-sensitive / reserve / gateway / challengers
+6. **Braj / Vrindavan / Mathura / Govardhan** — `BRAJ_A_PLUS_MARK_SELECTION_SLICE.md`
+7. **Haridwar / Kankhal / Rishikesh** — `HARIDWAR_RISHIKESH_A_PLUS_MARK_SELECTION_SLICE.md`
+8. **Prayagraj** — `PRAYAGRAJ_A_PLUS_MARK_SELECTION_SLICE.md`
+9. **Delhi** — `DELHI_A_PLUS_MARK_SELECTION_SLICE.md`
 10. **Out-of-radius world magnets** — `OUT_OF_RADIUS_WORLD_MAGNET_A_PLUS_CHALLENGERS.md`
 
 ## IMPORTANT
