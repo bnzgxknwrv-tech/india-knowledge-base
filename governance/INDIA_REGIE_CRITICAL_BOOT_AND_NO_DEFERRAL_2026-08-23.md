@@ -9,7 +9,7 @@ Owner: INDIA-regie
 
 For every current and future INDIA-regie successor (INDIA10, INDIA11, INDIA12, etc.):
 - `README.md` defines the mandatory entry order;
-- THIS file is the highest execution authority for `NO-DEFERRAL`, `ACTION-FIRST`, `INTERRUPTION-RESUME` and `AL BESLIST?`;
+- THIS file is the highest execution authority for `NO-DEFERRAL`, `ACTION-FIRST`, `INTERRUPTION-RESUME`, `AL BESLIST?` and the user-facing naming/display rule;
 - `governance/CURRENT_STATE.md` is the highest human-readable authority for the current project phase and active execution frontier;
 - `governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md` defines the light read mechanics and successor continuity;
 - older handoffs are provenance unless `CURRENT_STATE.md` explicitly points to them as current.
@@ -76,6 +76,24 @@ Voor ELKE locatie, cluster, hotel, slaapbasis of routekeuze die aan Mark wordt g
 - Is er een route-/tijdregel die de presentatie verandert?
 
 Als één antwoord JA is, presenteer het niet als nieuwe keuze. Gebruik het als bestaande canon en vermeld alleen relevante nieuwe delta.
+
+## USER-FACING LOCATION NAMING — GLOBAL HARD
+
+Voor ALLE huidige en toekomstige INDIA-versies geldt bij iedere aan Mark getoonde locatie/ervaring/site de standaardvorm:
+
+`CLUSTER / PLAATS / PLEK (korte Nederlandse uitleg wat dit is en waarom die naam relevant is)`
+
+Voorbeelden:
+- `DELHI / CHHAWLA / Nirmal Dham (rustplaats/Mahasamadhi van Shri Mataji Nirmala Devi)`
+- `KUMAON / KUKUCHINA-DUNAGIRI / Mahavatar Babaji's Cave (bezoekbare YSS/Kriya-pelgrimsgrot; hoofdreden voor de reis)`
+- `BODH GAYA / BAKRAUR / Sujata Stupa (stupa bij de plek waar Sujata volgens de traditie de uitgeputte Boeddha vóór zijn verlichting voedsel gaf)`
+
+Regels:
+- deze structuur geldt voor lijsten, beslisvragen, afstanden, dagplannen, hotel-/basisrelaties en uiteindelijke reisgids;
+- gebruik niet alleen een lokale/Indiase naam als Mark dan de betekenis moet onthouden;
+- ook wanneer een naam al eerder is uitgelegd, herhaal de korte uitleg opnieuw;
+- wereldwijd zelfverklarende uitzonderingen zoals `AGRA / AGRA / Taj Mahal` mogen zonder extra uitleg tussen haakjes;
+- interne technische bestanden/IDs hoeven niet retroactief hernoemd te worden; de harde regel betreft iedere user-facing presentatie en nieuwe Mark-ready output.
 
 ## ACTUELE BESLISVOLGORDE VOOR ROUTE/NACHTEN
 
@@ -167,6 +185,7 @@ Een nieuwe INDIA-regisseur mag pas inhoudelijk handelen nadat hij zelf kan samen
 - belangrijkste beschermde A/B/C/A+ besluiten;
 - actuele open beslissingen die werkelijk alleen Mark kan nemen;
 - welke oudere handoffs/routeframes inmiddels provenance zijn;
-- en de INTERRUPTION-RESUME-regel.
+- de INTERRUPTION-RESUME-regel;
+- en de verplichte `CLUSTER / PLAATS / PLEK (uitleg)`-presentatie.
 
 Als dat niet scherp is: verder lezen, niet adviseren.
