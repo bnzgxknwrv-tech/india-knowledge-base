@@ -10,13 +10,13 @@ updated: 2026-08-24
 - User-facing format is ALWAYS `CLUSTER / PLAATS / PLEK (korte Nederlandse uitleg) — huidige status`, every time a non-obvious name appears.
 - Corridor geometry must be shown before grading when transfer fit can change practical value.
 
-## GRADE SEMANTICS — HARD / MARK 2026-08-24
-- `A+` = trip-defining/core anchor; route must protect it.
-- `A` = Mark wil hier in principe echt naartoe. Plan it unless a later route conflict forces reconsideration.
-- `B` = geen zelfstandige route-driver; alleen meenemen als Mark er toch is / het logisch meeloopt / de extra belasting klein is.
-- `C` = NIET heen. Do not plan, route for, or re-present unless Mark explicitly reopens it.
-- Corridor fit may legitimately change a candidate's practical grade: a wanted place that would otherwise be dropped may stay/become A when it is a natural transfer capture.
-- Apply exactly these semantics to the regional + traveler/Lonely-Planet overlay; do not inflate 'interesting' into A.
+## GRADE SEMANTICS — ABSOLUTE HARD / MARK 2026-08-24
+- `A+` = KERNLOCATIE / dit is waarom Mark deze reis maakt. Nul discussie over inclusion. Route must protect it and may bend/omrijden solely for it.
+- `A` = Mark wil hier HEEL GRAAG OOK heen. It is a genuine intended visit, even if discovered through this project. Default = plan/retain. Only bring an A back for discussion when actual route or visit burden is clearly disproportionate: very large detour, major isolated side trip, unusually long visit requirement, extra night(s), or material conflict with stronger priorities. Distance/time is a discussion trigger, NOT an automatic downgrade.
+- `B` = reserve/bycatch only. Normally not planned; only if Mark is already there, it is almost frictionless, or there is unexpected spare time. B must not drive a route, create a taxi outing, half-day or extra night. Many B sites will never be visited.
+- `C` = NIET heen. Do not plan, route for, optimize for, or re-present unless Mark explicitly reopens it.
+- `OPEN` traveler/regional finding = ungraded. INDIA may recommend A/B/C using exactly these semantics. `Interesting` alone is never enough for A.
+- Corridor fit can legitimately preserve a wanted A when it becomes an easy transfer capture; KUMAON / KAKRIGHAT / Kakrighat (Kosi-rivierplek waar Vivekananda in 1890 een belangrijke realisatie had) — A is the model case.
 
 ## CURRENT A+ SPINE
 ### KUMAON
@@ -72,7 +72,7 @@ Do not re-present these five C rows unless Mark explicitly reopens them.
 - VARANASI / LALITA GHAT / Lalita Ghat + Nepali/Kathwala Temple (Ganges-ghat met Nepalese houten pagodetempel) — A.
 - VARANASI / DURGA KUND-AREA / Tulsi Manas Temple (moderne tempel verbonden met Tulsidas/Ramcharitmanas-traditie) — B; supersedes old A.
 - VARANASI / DURGA KUND / Durga Temple + Durga Kund (rode levende Durga-tempel met heilige vijver) — A.
-- VARANASI / ANAND BAGH / Bhaskarananda Samadhi (samadhi/herdenkingsplek van yogi Swami Bhaskarananda) — B; supersedes old A. Old A existed only because it was immediate bycatch with Durga Temple/Durga Kund.
+- VARANASI / ANAND BAGH / Bhaskarananda Samadhi (samadhi/herdenkingsplek van yogi Swami Bhaskarananda) — B; supersedes old A.
 - VARANASI / SANKAT MOCHAN / Sankat Mochan Hanuman Temple (levende Hanuman-tempel traditioneel verbonden met Tulsidas) — A.
 - VARANASI / SARNATH-SIMHAPURI / Shreyansanath Jain Tirth (Jain geboorte-/pelgrimsplek in dezelfde Sarnath-zone) — A.
 - VARANASI / KABIR CHAURA / Kabir Chaura Math (levend centrum van mysticus/dichter Kabir en de Kabir Panth) — A.
@@ -84,11 +84,12 @@ Do not re-present these five C rows unless Mark explicitly reopens them.
 ## CURRENT METHOD
 1. fixed A+ parents/anchors;
 2. build mandatory A+ corridors;
-3. hard practical cuts first;
-4. easy corridor captures second;
-5. alternative corridor bundles third;
-6. true subjective ties last;
+3. C removed from planning;
+4. A+ protected absolutely;
+5. A assumed retained and only explicitly challenged when burden is disproportionate;
+6. B reserve/bycatch only;
 7. overlay regional + traveler/Lonely-Planet rows against same corridor framework, inheriting existing grades for duplicates;
-8. ordinary A/B/C finalization;
-9. complete cluster execution and true nights;
-10. global route last.
+8. for genuinely new OPEN rows: hard cuts -> easy captures -> alternative bundles -> true ties;
+9. ordinary A/B/C finalization;
+10. complete cluster execution and true nights;
+11. global route last.
