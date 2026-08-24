@@ -56,12 +56,15 @@ P19 — VARANASI / ADI KESHAVA / Adi Keshava Ghat (noordelijke ghat bij Varuna-G
 
 ### BODH GAYA / GAYA
 P20 — BODH GAYA / BAKRAUR / Sujata Stupa (stupa en dorpslandschap verbonden met Sujata die de uitgeputte Boeddha vóór zijn verlichting voedsel gaf) — huidige status: A; A+-promotion OPEN.
-- Bihar/Gaya government sources place Sujata village/stupa roughly 2–4 km from Mahabodhi Temple Complex depending reference/route; recent travel reporting describes roughly 10 minutes from Bodh Gaya.
+- Government sources place it roughly 2–4 km from Mahabodhi Temple Complex depending reference/route; recent 2026 reporting describes roughly 10 minutes from Bodh Gaya.
 - This is NOT a separate-day site.
 
 P21 — BODH GAYA / DUNGESHWARI HILLS / Dungeshwari / Mahakala Caves (grotten waar Boeddha volgens traditie extreme ascese beoefende vóór zijn verlichting) — huidige status: A; A+-promotion OPEN.
-- Current Bihar/Gaya sources describe Dungeshwari Hill as ~22 km by road in one government listing, while recent reporting gives roughly 30 minutes from Bodh Gaya; tourism material also frames it as the pre-enlightenment stop before Bodh Gaya.
-- Sujata and Dungeshwari belong to the same narrative/outward Buddha-life corridor. Operationally they should be tested as ONE combined half-day excursion, not two separate days, unless later exact current road/visit-time evidence forces otherwise.
+- A bridge inaugurated in 2022 shortened Bodh Gaya -> Dungeshwari road travel from the former ~25 km circuit to about 8 km according to contemporary Bihar reporting.
+- Recent 2026 reporting describes Dungeshwari as roughly a 30-minute drive from Bodh Gaya.
+- The government tourism narrative places Dungeshwari before Sujata/Bodh Gaya in Buddha's pre-enlightenment sequence.
+- Operational conclusion for promotion review: Sujata + Dungeshwari are one natural combined half-day Buddha-life excursion, not two separate days. Final exact route/visit duration still gets checked during A+-geometry.
+- 2026 ropeway construction at Dungeshwari was nearing launch but was not yet safe to assume operational for the trip; do not build the schedule around it until later live confirmation.
 
 P22 — BODH GAYA / BODH GAYA / Great Buddha Statue (grote moderne Boeddha-beeldengroep) — huidige status: A. INDIA advies: geen A+; local/proximity review later.
 
