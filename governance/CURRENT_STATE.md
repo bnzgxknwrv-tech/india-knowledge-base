@@ -81,7 +81,8 @@ Reserve/deferred until fixed-core footprint known: Braj/Vrindavan/Mathura/Govard
 - VARANASI / PANCHGANGA / Shri Tailanga Swami Math + Panchganga Ghat + Bindu Madhav Temple (heilige wereld rond yogi Tailanga Swami) — A+.
 - VARANASI / BHADAINI / Shree Shree Ma Anandamayi Ashram (bezoekbaar ashram van Anandamayi Ma) — A+.
 - VARANASI / OLD CITY / Kashi Vishwanath sacred core (grote Shiva-tempel + nabijgelegen heiligdommen) — A+.
-- VARANASI / MANIKARNIKA / Manikarnika Ghat (heilige crematieghat waar Lahiri Mahasaya werd gecremeerd) — A+.
+- VARANASI / MANIKARNIKA / Manikarnika Ghat (heilige crematieghat waar Lahiri Mahasaya werd gecremeerd) — A+ parent/bundle.
+  - VARANASI / MANIKARNIKA / Ratneshwar Mahadev Temple (beroemde scheve Shiva-tempel direct aan de Manikarnika-rivierzone; onderdeel van Marks eerdere `7 A+` bundelkeuze) — CHILD_A+.
 - VARANASI / DASHASHWAMEDH / Dashashwamedh Ghat + Shitala Mata Temple (grote Ganga-Aarti-zone) — A+.
 - VARANASI / ASSI / Assi Ghat (zuidelijke ochtend-/pelgrimsghat) — A+.
 
