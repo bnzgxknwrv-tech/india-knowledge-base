@@ -132,23 +132,57 @@ Ready:
 - `OUT_OF_RADIUS_WORLD_MAGNET_A_PLUS_CHALLENGERS.md`
 
 Compact review controller:
-`A_PLUS_MARK_REVIEW_INDEX.md`
-commit `aee6cad8db503f8c3bf4d8f255ba13d1c2a046fb`.
+`A_PLUS_MARK_REVIEW_INDEX.md` — latest prework-wired version commit `81658d820794c426ba8fa08277fe20c10e009c3f`.
+
+Prepared durable decision landing zone:
+`A_PLUS_MARK_DECISION_LOG.md` — commit `4ee008c2dbf2d55a9090eb434b15c0d6ea8f87f9`.
 
 Mark does NOT need to open raw worker files or these slice files himself; INDIA presents one compact numbered cluster block in chat.
 
 Out-of-radius challenger file preserves Khajuraho, Golden Temple/Amritsar and Hampi so they cannot disappear because of current cluster geometry.
 
-## Important calendar deltas now known
-- Tiruvannamalai full moon: 24 Dec 2026 -> high-intensity Girivalam opportunity.
-- Haridwar Kumbh/Ardh Kumbh opening + Makar Sankranti Snan: 14 Jan 2027. Do NOT label it an Amrit Snan; announced Amrit Snans are later/outside trip.
-- Prayagraj Magh Mela: official current start 15 Jan 2027; trip overlaps 15–21 Jan. Current reporting places Paush Purnima 22 Jan, outside trip end.
-- Karthigai Deepam was NOT verified in the trip window; preserve historical/traveler evidence but do not promise event attendance.
+## PRE-A+ AUTONOMOUS PREWORK — COMPLETE
+INDIA executed all safe reusable work identifiable before Mark's first A+ choice instead of deferring it.
+
+Durable files:
+- `PRE_A_PLUS_AUTONOMOUS_PREWORK.md` — commit `de286f24a6cab633238d3cc44a6910b692835228`;
+- `FIXED_DATE_COLLISION_MATRIX.md` — commit `53446030d20cbf42a5fcf70e42c3334f948ecece`.
+
+Material current corrections already propagated into relevant A+ slices:
+- **ARIES Manora Peak:** visits currently open; public day visits Mon/Wed/Fri; evening stargazing all days after sunset subject to clear skies; advance online request; public 14-inch telescope; max public batch currently 25. Kumaon slice corrected — commit `dafc361de00197ebad9e3843ca10c5152939a2c4`.
+- **Sri Ramanasramam accommodation:** limited/discretionary, Bhagavan-devotee focused, mandatory online registration, usually ~3 days, full-moon/festival accommodation discouraged. Tiruvannamalai slice corrected — commit `6c7eee908aa42e199111a4d5b47f2ed074539a2a`.
+- **Karthigai Deepam 2026:** now verified as **24 Nov 2026**, outside the trip. Do not preserve old ambiguity that it might be in-window.
+- **Tiruvannamalai full moon:** 24 Dec 2026 confirmed; high-intensity Girivalam variant remains in-window if route is deliberately repositioned.
+- **Taj night viewing:** official full-moon ±2-day rule verified. With Dec full moon 24 Dec, current-trip theoretical dates are 22–26 Dec; Friday 25 Dec excluded. Next full moon 22 Jan is after trip end. Agra slice corrected — commit `0a02ed9fe1aeff96d51dafc6cd8d5c11742fc0c5`.
+- **Rajgir ropeway:** current BSTDC booking page explicitly says old chairlift is not available; cabin remains bookable. Bodh Gaya slice corrected — commit `6ecb8b81cf4b2ac7bc62cb06001cd57ec0c61d0d`.
+- **Haridwar 2027:** 14 Jan opening phase is inside trip; do NOT call it an Amrit Snan. Announced Amrit Snans are later/outside trip.
+- **Prayagraj Magh Mela 2027:** current Ministry of Tourism listing is 15 Jan–6 Mar; trip overlaps 15–21 Jan; Paush Purnima 22 Jan is outside trip end.
+
+Global duplicate control is now explicit before Mark review:
+- Keoladeo/Bharatpur = one global candidate across Agra/Braj;
+- Golden Temple/Amritsar = one global candidate across Delhi/out-of-radius;
+- Taj sunrise/day vs Taj night = same monument, deliberately distinct experiences;
+- Sarnath normally reviewed as one coherent A+ complex;
+- parent/micro-site rules prevent cluster-driver inflation.
+
+## FIXED-DATE COLLISIONS ALREADY KNOWN
+- **24 Dec 2026:** Tiruvannamalai full-moon Girivalam and Taj full-moon night-viewing cycle collide geographically; the date is also Thursday (Nizamuddin qawwali opportunity). If more than one is A+, this becomes a later real route tradeoff.
+- **14 Jan 2027:** Haridwar Kumbh opening.
+- **15 Jan 2027:** Prayagraj Magh Mela opening.
+These are not reasons to choose A+; they are precomputed execution constraints.
 
 ## CURRENT FRONTIER — ONLY MARK CAN DO THIS PART
 Mark selects A+ cluster by cluster from the prepared slices. INDIA presents the slice compactly and does not make Mark read raw files.
 
-Immediately after each Mark A+ decision, INDIA itself performs the A+-centric proximity/time/bundle analysis before asking Mark for ordinary A/B/C.
+Immediately after each Mark A+ decision, INDIA must in the SAME turn:
+1. record the A+ choices in `A_PLUS_MARK_DECISION_LOG.md`;
+2. resolve chosen A+ identity/coordinates first;
+3. compute practical real road/walk/boat time from known sleep bases and between relevant A+ anchors;
+4. assign every remaining surfaced candidate to nearest/relevant A+ or isolated;
+5. calculate incremental extra travel time / omweg and natural bundle;
+6. present only the compact ordinary A/B/C decision set to Mark.
+
+The fields `nearest_A_plus`, `incremental_detour_time` and `isolated_from_all_A_plus` cannot logically be finalized before Mark's A+ set exists. Everything else identifiable before that choice has been preworked.
 
 ## Booking-prep artifact disposition
 `runs/active/INDIA10-BOOKING-SEQUENCE-CLOSURE-001/BOOKING_ACTION_BOARD.md` remains future planning only: `FUTURE_PLANNING_ARTIFACT__NOT_CURRENT_PROJECT_PHASE`.
@@ -158,4 +192,4 @@ Immediately after each Mark A+ decision, INDIA itself performs the A+-centric pr
 `CCI_FINAL_SANITY_011: PASS`
 `STOP_OPTIMIZING: JA`
 
-No new governance layer was created by the 2026-08-24 boot repair; existing boot/state files were corrected in place.
+No new governance layer was created by the 2026-08-24 boot repair; existing boot/state files were corrected in place. The new pre-A+ files are current run outputs, not governance architecture.
