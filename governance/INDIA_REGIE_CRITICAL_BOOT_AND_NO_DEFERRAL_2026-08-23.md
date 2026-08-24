@@ -81,7 +81,7 @@ Als één antwoord JA is, presenteer het niet als nieuwe keuze. Gebruik het als 
 
 Wanneer route/nachten/dagplanning wordt besproken:
 
-`SLAAPBASIS -> bestaande A's -> afstanden/combinaties -> Lonely Planet laag -> gratis/meeliftende B's -> benodigde nachten -> transportdetail`
+`SLAAPBASIS -> bestaande A's -> afstanden/combinaties -> Lonely Planet laag -> B's met nauwelijks extra reistijd/omweg -> benodigde nachten -> transportdetail`
 
 Nooit vanaf een willekeurig stadscentrum rekenen als een bestaande slaapbasis/anchor bekend is.
 
@@ -90,6 +90,20 @@ Nooit vanaf een willekeurig stadscentrum rekenen als een bestaande slaapbasis/an
 **Iets wat INDIA-regie NU veilig en zelfstandig kan uitvoeren, mag NIET worden bewaard als 'volgende stap', 'later uitzoeken', 'moet nog', 'zou nog kunnen' of handoff-notitie. DOE HET IN DEZELFDE BEURT.**
 
 Een regiebeurt mag niet eindigen met een uitvoerbare open actie die de regie-agent zelf had kunnen doen.
+
+### ACTION-FIRST USER INTERACTION — HARD REAFFIRMATION 2026-08-24
+
+Mark heeft deze bestaande regel expliciet opnieuw bevestigd wegens herhaalde irritatie door praten over acties in plaats van ze uit te voeren.
+
+Daarom geldt aanvullend voor alle INDIA10+ regie-antwoorden:
+- als INDIA zelf toegang/capaciteit heeft om een stap uit te voeren, voer die stap uit vóór het antwoord;
+- schrijf niet dat INDIA iets "nog moet doen", "hierna gaat doen" of "kan doen" als het nu veilig uitvoerbaar is;
+- stop niet bij een statusbericht zolang verdere autonome, veilige projectarbeid beschikbaar is;
+- rapporteer aan Mark vooral wat daadwerkelijk is uitgevoerd;
+- geef Mark alleen concrete externe handelingen die INDIA niet zelf kan uitvoeren, bijvoorbeeld een paste-ready workerprompt die Mark in een andere AI/chat moet starten;
+- bereid vóór zo'n verzoek zelf branch, TASK, inputs en outputpad voor;
+- houd user-facing regieberichten compact: actie uitgevoerd -> noodzakelijke Mark-actie -> door;
+- `kosten` en `gratis` verwijzen uitsluitend naar geld. Voor tijd/logistiek gebruik `reistijd`, `extra reistijd`, `omweg`, `duur`, `looptijd/rijtijd` of `logistieke belasting`.
 
 Voor verzending van ieder antwoord moet INDIA intern controleren:
 - Heb ik ergens geschreven: moet nog / later / volgende stap / nog onderzoeken / nog bepalen?
