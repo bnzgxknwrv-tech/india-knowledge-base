@@ -37,21 +37,26 @@ Required corridor classes:
 - `TRUE_SIDE_EXCURSION`
 - `OFF_CORRIDOR_DROP`
 
-Review order is now:
+Review order:
 1. hard practical cuts first;
 2. easy corridor captures second;
 3. alternative corridor bundles third;
 4. only genuine subjective ties last.
 
-Working advisory bands only: ~0–15 min added = very low friction; ~15–30 min = easy catch; ~30–90 min = plausible transfer enrichment; ~90–150 min = meaningful route conversion; >~150 min or standalone half/full day = true excursion and default hard-cut advice unless importance is near A+.
-Full controlling method: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_PROXIMITY_DECISION_MODEL.md`.
+Working advisory bands: ~0–15 min added = very low friction; ~15–30 min = easy catch; ~30–90 min = plausible transfer enrichment; ~90–150 min = meaningful route conversion; >~150 min or standalone half/full day = true excursion/default hard-cut advice unless importance is near A+.
+Full method: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_PROXIMITY_DECISION_MODEL.md`.
 
-## CENTRAL TRUTH
+## CENTRAL TRUTH / ACTIVE FILES
 Branch: `agent/india8-cluster-casting`.
-A+ decision log: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md`.
-Kumaon corridor matrix: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_A_PLUS_CORRIDOR_MATRIX.md`.
-Latest Kumaon corridor decision: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_CORRIDOR_MARK_DECISION_2026-08-24.md`.
-Rich old-A cards: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_MARK_DECISION_CARDS.md` — content/reference only; later Mark decisions supersede old statuses.
+- A+ / current decision log: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md`.
+- Promotion master: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_PROMOTION_MASTER.md`.
+- Rich old-A cards: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_MARK_DECISION_CARDS.md` — content/reference only; later Mark decisions supersede old statuses.
+- Hard-cut pass: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/FIXED_CORE_OLD_A_HARD_CUT_PASS_2026-08-24.md` — COMPLETE for current old-A layer.
+- Easy-capture prework: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/FIXED_CORE_OLD_A_EASY_CAPTURE_PASS_2026-08-24.md`.
+- Kumaon corridors: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_A_PLUS_CORRIDOR_MATRIX.md`.
+- Kumaon latest Mark corridor decision: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_CORRIDOR_MARK_DECISION_2026-08-24.md`.
+- Varanasi corridors: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/VARANASI_A_PLUS_CORRIDOR_MATRIX.md`.
+- Bodh Gaya corridors: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_A_PLUS_CORRIDOR_MATRIX.md`.
 Traveler master: 221 raw represented inputs -> 150 canonical traveler/experience records.
 Regional discovery: 8/8 workers complete and integrated.
 
@@ -63,7 +68,7 @@ Definitely in trip for current costing phase:
 4. Tiruvannamalai / Arunachala
 5. Delhi
 6. Agra / Taj Mahal
-Reserve/deferred until fixed-core footprint is known: Braj/Vrindavan/Mathura/Govardhan; Haridwar/Kankhal/Rishikesh; Prayagraj; out-of-radius challengers; Mysore/Bengaluru unless explicitly reopened.
+Reserve/deferred until fixed-core footprint known: Braj/Vrindavan/Mathura/Govardhan; Haridwar/Kankhal/Rishikesh; Prayagraj; out-of-radius challengers; Mysore/Bengaluru unless explicitly reopened.
 
 ## CURRENT A+ SPINE
 ### KUMAON
@@ -96,20 +101,24 @@ Reserve/deferred until fixed-core footprint is known: Braj/Vrindavan/Mathura/Gov
 - AGRA / AGRA / Taj Mahal — A+; sunrise/earliest practical opening HARD.
 
 ## LATEST KUMAON MARK DECISIONS — SUPERSEDE OLD A PROVENANCE
-Corridor lesson proved decisive.
-- KUMAON / KAKRIGHAT / Kakrighat (Kosi-rivierplek waar Vivekananda in 1890 een belangrijke realisatie had) — A. KEEP. It is a natural small transfer detour on Kainchi -> Kukuchina/Babaji corridor; this easy capture is why it remains A.
-- KUMAON / JAGESHWAR / Jageshwar Dham + Dandeshwar (grote vroegmiddeleeuwse Shiva-tempelgroepen in deodarwoud) — C. CUT for current trip.
+- KUMAON / KAKRIGHAT / Kakrighat (Kosi-rivierplek waar Vivekananda in 1890 een belangrijke realisatie had) — A. KEEP because it is a natural small transfer detour on Kainchi -> Kukuchina/Babaji corridor.
+- KUMAON / JAGESHWAR / Jageshwar Dham + Dandeshwar (grote vroegmiddeleeuwse Shiva-tempelgroepen in deodarwoud) — C.
 - KUMAON / ALMORA / Ramakrishna Kutir (levend Ramakrishna Mission-retraitecentrum; Sri Ramakrishna verbleef hier niet) — C.
-- KUMAON / CHITAI / Chitai Golu Devta Temple (Kumaoni tempel met duizenden bellen en verzoeken om gerechtigheid) — C.
+- KUMAON / CHITAI / Chitai Golu Devta Temple (Kumaoni tempel met duizenden bellen/verzoeken om gerechtigheid) — C.
 - KUMAON / CRANK'S RIDGE-KASAR DEVI / Turiya Niwas (historische kluizenaarswoning van Alfred 'Sunyata' Sorensen) — C.
 - KUMAON / CRANK'S RIDGE-KASAR DEVI / Bodh Ashram (Evans-Wentz/Lama Govinda/Tibetaans-boeddhistische zoekersplek) — C.
-Do not reopen these five C rows unless Mark explicitly changes them later.
+Do not re-present these five C rows unless Mark explicitly reopens them.
 
-## CURRENT PHASE / FRONTIER
-Continue fixed-core A+ review and corridor-aware pruning. Do not present the five Kumaon C rows again as open choices.
-For every remaining fixed cluster, build corridor/bundle geometry before grading remaining old A/B/C and traveler/LP findings.
-First show obvious practical hard cuts; then easy captures; then bundled alternatives; only then true ties.
-Bodh Gaya open old-A promotion items remain Sujata Stupa and Dungeshwari/Mahakala Caves until Mark decides; Great Buddha remains old A. Varanasi remaining old-A rows still require corridor-aware rich review.
+## HARD-CUT PASS RESULT — CURRENT OLD-A LAYER
+COMPLETE.
+Only the five Kumaon rows above were hard practical cuts and are already C by Mark.
+No additional old-A hard cuts were identified in Varanasi/Sarnath or Bodh Gaya/Gaya: their remaining old A rows are local/easy or naturally bundled. Arunachala has no separate old-A rows; Delhi and Agra have no additional old-A items in this pass.
+
+## CURRENT FRONTIER
+The hard-cut stage is complete. Easy-capture pass is already prebuilt.
+Do not make Mark revisit the five Kumaon C rows.
+Next Mark-facing review should use the easy-capture set first, then small city detours/bundles, then only true ties.
+For later traveler/LP overlay, run the exact same `hard cuts -> easy captures -> alternative bundles -> ties` process inside each fixed-core corridor.
 
 ## OPEN AUTONOMOUS GEO WORK
 - Mahavatar Babaji Cave exact protected GPS remains open before final precise Kumaon route math.
