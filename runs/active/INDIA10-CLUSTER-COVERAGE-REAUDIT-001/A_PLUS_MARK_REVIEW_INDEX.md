@@ -12,6 +12,27 @@ Question per surfaced candidate:
 
 A+ does NOT automatically mean the cluster survives the final trip. A cluster can contain A+ and still be dropped if it cannot be executed properly inside the total trip envelope.
 
+## PREWORK ALREADY EXECUTED — DO NOT REDO AFTER MARK VOTES
+Before asking Mark for A+, INDIA has already executed reusable work that does not depend on the A+ choice:
+- `PRE_A_PLUS_AUTONOMOUS_PREWORK.md` — invariant visitability/logistics corrections, duplicate control and post-selection autorun;
+- `FIXED_DATE_COLLISION_MATRIX.md` — known calendar collisions and exact trip-window event windows.
+
+Material corrections already propagated into the relevant slices:
+- ARIES Manora Peak is a real currently open public astronomy/stargazing experience with advance request, not speculative;
+- Sri Ramanasramam accommodation is limited/discretionary/devotee-only and requires online registration; full-moon/festival lodging is discouraged;
+- Rajgir old single-seat chairlift is currently unavailable; current responsible product is the cabin ropeway + Vishwa Shanti Stupa unless chairlift reopening is later confirmed;
+- Karthigai Deepam 2026 is 24 Nov and outside the trip;
+- Taj full-moon night viewing has only one lunar cycle inside the trip: 22–26 Dec around the 24 Dec full moon, with Friday 25 Dec excluded;
+- Haridwar Kumbh opening 14 Jan and Prayagraj Magh Mela opening 15 Jan are precomputed as a major late-trip calendar conflict.
+
+## GLOBAL DUPLICATE CONTROL
+Do not ask Mark twice for the same global candidate merely because it appears in two geographic slices:
+- Keoladeo/Bharatpur = one global candidate across Agra + Braj.
+- Golden Temple/Amritsar = one global candidate across Delhi + out-of-radius challengers.
+- Taj sunrise/day and Taj full-moon night = intentionally separate experiences at the same physical monument.
+- Sarnath should normally be A+-reviewed as one coherent complex/experience rather than five protected IDs.
+- Ramanasramam child microsites remain parent/child provenance; do not inflate them into independent cluster drivers.
+
 ## HOW INDIA PRESENTS THIS TO MARK
 - one cluster at a time;
 - compact numbered list, no raw source dump;
@@ -40,6 +61,6 @@ Mark does NOT need to open these files himself. INDIA reads them and presents th
 
 Do not make Mark re-read old A/B/C tables at A+ stage. Old grades are shown only as short provenance where they matter.
 
-Do not compute proximity before A+ has been chosen; proximity is deliberately the next layer.
+Do not compute `nearest_A_plus`, `incremental_detour_time` or `isolated_from_all_A_plus` before A+ has been chosen; those fields logically depend on Mark's A+ set. All invariant preparation needed to compute them immediately afterward has already been staged.
 
 Do not proceed to global route/nights before A+-centric proximity, ordinary A/B/C, and complete-execution duration per retained cluster are finished.
