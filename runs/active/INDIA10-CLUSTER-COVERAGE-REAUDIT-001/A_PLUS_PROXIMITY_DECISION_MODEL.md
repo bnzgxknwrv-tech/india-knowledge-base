@@ -1,72 +1,68 @@
 # INDIA10 A+ / PROXIMITY DECISION MODEL
 
 status: ACTIVE_MARK_REEVALUATION_RULE
-updated: 2026-08-23
+updated: 2026-08-24
 central_branch: agent/india8-cluster-casting
 
 ## PURPOSE
-Mark has clarified that ordinary A/B/C cannot be judged responsibly before the intrinsically non-negotiable or near-non-negotiable anchors are identified and the practical proximity of all other candidates to those anchors is known.
+Ordinary A/B/C cannot be judged responsibly before the intrinsically non-negotiable or near-non-negotiable anchors are identified and the practical proximity of all other candidates to those anchors is known.
 
-This file does not itself assign A+, A, B or C. Only Mark does that.
+Only Mark assigns A+, A, B or C.
 
 ## TERMINOLOGY — HARD
-Use **cost/kosten** only for money. For planning and proximity use precise terms such as duration, extra travel time, detour, walking/driving time and logistical burden. Do not call a nearby or time-efficient stop "free/gratis" unless monetary price is literally meant.
+Use **cost/kosten** only for money. For planning and proximity use duration, extra travel time, detour, walking/driving time and logistical burden. Do not call a nearby or time-efficient stop `free/gratis` unless monetary price is literally meant.
 
-## A+ DEFINITION
-A+ is a separate decision dimension from ordinary A/B/C.
+## TWO LEVELS
+### A+ CLUSTER / FIXED TRAVEL WORLD
+A fixed A+ cluster means Mark is already certain that this travel world belongs in the trip and must be fully evaluated before route-sensitive or reserve clusters.
 
-A+ means: a place, experience or event that is intrinsically a major reason for Mark to want to visit that area / make this India journey, independent of convenience or nearby add-ons.
+Current fixed core set, explicitly confirmed by Mark:
+- Kumaon;
+- Varanasi / Sarnath;
+- Bodh Gaya / Gaya;
+- Tiruvannamalai / Arunachala;
+- Delhi, anchored by Shri Mataji Nirmala Devi's Nirmal Dham/Mahasamadhi;
+- Agra/Taj, with old deliberate `Taj-only, sunrise HARD` provenance.
 
-A+ may come from any discovery layer:
-- AOAY / Top-11 / person sweep;
-- regional/location sweep;
-- Lonely-Planet/traveler/experience layer;
-- world-magnet layer.
+### A+ LOCATION / EXPERIENCE
+A+ means a place or experience that is intrinsically one of the real reasons for this India journey, independent of convenience or nearby add-ons.
 
-A+ DOES NOT mean the cluster is automatically included in the final trip. A cluster can contain one or more A+ items and still be dropped later because the complete cluster cannot be executed properly within the total trip.
+Examples explicitly given by Mark on 2026-08-24 include Babaji's Cave, Lahiri Mahasaya's house, the Bodhi Tree, Shri Mataji Nirmala Devi's Mahasamadhi/Nirmal Dham, and Taj Mahal.
+
+A+ can in principle come from any discovery layer, but for the **fixed-core costing pass** Mark clarified a practical staging rule: complete the intrinsic A+ anchor set first, and only then lay the full regional + traveler/Lonely-Planet layer over those anchors for proximity-based ordinary A/B/C. Do not make Mark grade the whole traveler layer before the anchor geometry exists.
 
 ## HARD TRAVEL QUALITY RULE
-Mark prefers skipping an entire cluster rather than visiting a retained cluster hurriedly, incompletely, or by silently omitting important retained sites/experiences.
+Mark prefers skipping an entire route-sensitive cluster rather than visiting a retained cluster hurriedly, incompletely, or by silently omitting important retained sites/experiences.
+
+For fixed core clusters, the question is different: they are already retained. The task is to discover how much time they truly require when done properly.
 
 Therefore:
-- no cluster survives merely because it has an A+;
-- no cluster is compressed below a realistic complete-execution duration merely to force it into the route;
-- final cluster survival is decided only after the cluster's complete realistic execution time is known.
+- fixed core clusters are costed in TIME before reserve/route-sensitive clusters are reconsidered;
+- no fixed core cluster is artificially compressed merely to preserve later clusters;
+- no ordinary A is treated as a day-driver until its relation to A+ anchors is known.
 
 ## DECISION ORDER — HARD
-1. Finish enough discovery to create the full candidate universe per cluster:
-   - person/AOAY layer;
-   - regional/location layer;
-   - traveler/Lonely-Planet/experience layer;
-   - adaptive world-magnet/out-of-radius layer;
-   - visitability filter.
-2. Mark identifies A+ items FIRST across all decision-relevant clusters.
-3. For every other surfaced candidate, establish proximity/context relative to the nearest/relevant A+:
-   - trustworthy coordinates / identity where possible;
-   - straight-line distance as descriptive support only;
-   - real walking/driving/boat travel time where meaningful;
-   - incremental detour time from the likely A+ visit path / sleep base;
-   - whether it naturally bundles with an A+ or requires a separate excursion;
-   - isolation flag if far from all A+ and other retained items.
-4. Only with that context does Mark re-rate ordinary A/B/C.
-5. Build a realistic complete-execution schedule PER CLUSTER using all retained A/B and any required buffers/transfer reality. Do not yet force every cluster into one global trip.
-6. Derive true minimum nights/time for each cluster.
-7. Only then compare clusters against the total trip envelope and decide which clusters survive.
-8. Build the global route / quarter-hour itinerary from surviving complete clusters.
-
-## WHY ORDINARY A/B/C MUST WAIT FOR A+
-A moderate candidate may rationally rise because it adds almost no extra time to an A+ visit. Conversely, an old A may fall if it requires a large separate excursion and is not intrinsically strong enough to justify it.
-
-Examples of the intended logic:
-- pleasant waterfall 5 minutes from a heavy A+ -> may become A in context;
-- same waterfall 90 minutes each way from all A+ -> may remain B/C;
-- old A 100 km from every true A+ -> must be explicitly reconsidered rather than silently counted as cluster weight;
-- world-class traveler experience can itself become A+ if Mark judges it a major trip reason.
+1. Discovery is complete enough to provide full person/AOAY + regional + traveler/LP + world-magnet candidate universes.
+2. Lock the fixed core cluster set.
+3. Mark completes the A+ LOCATION/EXPERIENCE set inside those fixed core clusters.
+4. INDIA resolves the exact physical identity/coordinates of all A+ anchors first.
+5. INDIA overlays **every other existing old-A/new-candidate/traveler-LP finding** in that cluster against the nearest/relevant A+ and computes:
+   - trustworthy identity/coordinates where possible;
+   - straight-line distance only as descriptive support;
+   - real walking/driving/boat travel time;
+   - incremental extra travel time / omweg from A+ path or sleep base;
+   - same compound / walkable / natural bundle / separate excursion;
+   - isolation if far from all A+ and other retained items.
+6. Only with that context does Mark re-rate ordinary A/B/C.
+   Explicit Mark logic: an otherwise-A place requiring roughly three hours separate travel may become B because it effectively consumes a day; a similar-strength place 15 minutes from an A+ may remain/become A.
+7. INDIA builds a realistic COMPLETE-EXECUTION schedule for that fixed cluster using retained A/B and required transfer/buffer reality.
+8. Derive true minimum duration/nights for that fixed cluster.
+9. Repeat through all fixed core clusters.
+10. Only after the fixed core's true time footprint is known, evaluate route-sensitive/reserve clusters against remaining trip space.
+11. Global route / quarter-hour itinerary comes only after surviving clusters are known.
 
 ## PROXIMITY METRIC — DO NOT USE KILOMETRES ALONE
-The existing `PROXIMITY_1KM_3KM_MATRIX.csv` is useful foundation evidence, but the new decision model needs practical travel-time and detour impact.
-
-Required context fields for Mark review where feasible:
+The existing `PROXIMITY_1KM_3KM_MATRIX.csv` is foundation evidence, but practical review requires:
 - `nearest_A_plus`
 - `distance_km`
 - `travel_mode`
@@ -81,16 +77,16 @@ Required context fields for Mark review where feasible:
 Straight-line distance never substitutes for route reality in mountains, across rivers, restricted zones or poor-road areas.
 
 ## PROVENANCE
-Existing A/B/C and locks remain preserved as old decisions and must be shown during re-rating. This authorized reevaluation round permits Mark to supersede them after the full discovery + A+ + proximity context is available. No worker or INDIA session may automatically alter them.
+Existing A/B/C and locks remain preserved as old decisions and must be shown during re-rating. This authorized reevaluation round permits Mark to supersede them only after full discovery + A+ + proximity context. No worker or INDIA session may automatically alter them.
 
 ## RELATION TO KML/GEO WORK
-Existing geo/proximity work is not discarded. Reuse and extend:
+Reuse and extend:
 - `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROXIMITY_1KM_3KM_MATRIX.csv`
 - protected trusted coordinates and coordinate-quality flags;
 - prior KML/geo artifacts where provenance is sound.
 
-New coordinate work should prioritize surfaced A+ candidates first, then candidates needed for contextual A/B/C review.
+Coordinate work prioritizes selected A+ anchors first, then all candidates needed for their cluster's contextual A/B/C review.
 
 ## CURRENT CONSEQUENCE
-Do NOT ask Mark to do final ordinary A/B/C re-rating yet.
-First complete the missing regional + multi-AI traveler discovery layers. Then present the union in manageable cluster slices for A+ selection. Only after A+ selection should proximity enrichment and final ordinary A/B/C review begin.
+Do NOT ask Mark for ordinary A/B/C yet and do NOT force Mark through the traveler/LP list yet.
+Current frontier: complete the A+ anchor list for the six fixed core clusters. Then INDIA automatically performs the traveler/old-A/regional proximity overlay and returns only the compact A/B/C decisions that actually require Mark.
