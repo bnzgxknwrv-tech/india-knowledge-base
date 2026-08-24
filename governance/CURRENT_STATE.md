@@ -29,13 +29,13 @@ Never abbreviate:
 - BODH GAYA / DUNGESHWARI HILLS / Dungeshwari–Mahakala Caves (grotten waar Siddhartha extreme ascese beoefende vóór Sujata en de verlichting) — ...
 `kosten` / `gratis` are money-only words; logistics use reistijd/extra reistijd/omweg/duur.
 
-## GRADE SEMANTICS — GLOBAL HARD / MARK 2026-08-24
-- `A+` = trip-defining/core anchor; route must protect it.
-- `A` = Mark wil hier in principe echt naartoe. It should be planned unless a later route conflict forces reconsideration.
-- `B` = only if already there / naturally bundled / very low incremental burden. It must NOT independently steer the route.
-- `C` = NIET heen. Do not plan, route for, or re-present unless Mark explicitly reopens it.
-- Corridor geometry can legitimately rescue a wanted site into/within A when it becomes an easy transfer capture; Kakrighat is the model case.
-- Apply these exact semantics to regional + traveler/Lonely-Planet discoveries. 'Interesting' alone is never enough for A.
+## GRADE SEMANTICS — ABSOLUTE HARD / MARK 2026-08-24
+- `A+` = KERNLOCATIE / DIT IS WAAROM MARK DEZE REIS MAAKT. Nul discussie over inclusion. Route must protect it and may bend/omrijden solely for it.
+- `A` = Mark wil hier HEEL GRAAG OOK heen. It is a genuine intended visit and defaults to PLAN/RETAIN. An A may only be brought back for discussion when actual route/visit burden is clearly disproportionate: very large detour, major isolated side trip, unusually long visit requirement, extra night(s), or material collision with stronger trip priorities. Distance/time is a discussion trigger, never an automatic downgrade.
+- `B` = reserve/bycatch only. Normally NOT planned. Only consider if Mark is already there, it is almost frictionless, or there is unexpected spare time. A B may not independently steer a route, create a taxi outing, half-day or extra night. In practice many B sites will not be visited.
+- `C` = NIET heen. Do not plan, route for, optimize for, or re-present unless Mark explicitly reopens it.
+- `OPEN` traveler/regional finding = ungraded. INDIA may recommend A/B/C, but `interesting` alone is never enough for A. A means strong enough to genuinely plan; B means accidental/easy bycatch only; C means spend no trip time on it.
+- Corridor geometry can rescue a wanted place when it becomes an easy transfer capture; KUMAON / KAKRIGHAT / Kakrighat (Kosi-rivierplek waar Vivekananda in 1890 een belangrijke realisatie had) — A is the model case.
 
 ## MARK DECISION CARD — HARD
 Never ask Mark to choose from a bare name or isolated distance. Each decision card includes: who/tradition, what happened, why relevant, what is visitable now, current status, relevant A+ anchors, corridor relation, practical distance/time, incremental detour, bundle vs side excursion, likely time/day impact.
@@ -43,8 +43,14 @@ Never ask Mark to choose from a bare name or isolated distance. Each decision ca
 ## CORRIDOR-FIRST METHOD — GLOBAL HARD
 A/B/C is judged against mandatory corridors BETWEEN fixed A+ anchors, not just point-to-point distance from one base.
 Classes: `ON_CORRIDOR`, `SMALL_TRANSFER_DETOUR`, `ALTERNATIVE_CORRIDOR_BUNDLE`, `TRUE_SIDE_EXCURSION`, `OFF_CORRIDOR_DROP`.
-Review order: hard practical cuts -> easy corridor captures -> alternative bundles -> genuine subjective ties.
-Working advisory bands: ~0–15 min added very low friction; ~15–30 min easy catch; ~30–90 min plausible transfer enrichment; ~90–150 min meaningful route conversion; >~150 min or standalone half/full day default hard-cut advice unless importance is near A+.
+Grade-sensitive handling:
+1. C -> remove from active planning.
+2. A+ -> protect absolutely; solve route around it.
+3. A -> assume retain; first find easy capture/bundles; only re-open when burden is clearly disproportionate.
+4. B -> never route for it; attach only if nearly frictionless and spare time exists.
+5. OPEN regional/traveler/LP -> hard cuts first, then easy captures, bundles, genuine choices.
+Working friction bands are advisory only. Over ~150 min extra or standalone half/full day is a legitimate discussion trigger for an existing A, not an automatic downgrade; for an OPEN candidate it creates strong B/C pressure unless the intrinsic value is exceptional.
+Full method: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_PROXIMITY_DECISION_MODEL.md`.
 
 ## CENTRAL TRUTH / ACTIVE FILES
 Branch: `agent/india8-cluster-casting`.
@@ -130,10 +136,11 @@ Mandatory overlay pipeline:
 1. identity-deduplicate traveler/regional rows against current canon;
 2. exact duplicates inherit latest Mark grade and are not re-ballotted;
 3. C duplicates are removed from active route review;
-4. A+/A duplicates stay planned at current grade;
-5. B duplicates remain incidental only;
-6. genuinely new traveler rows are assessed corridor-first: hard cuts -> easy captures -> alternative bundles -> true ties;
-7. show Mark only rows where a real grade decision remains.
+4. A+ duplicates are absolute route anchors;
+5. A duplicates stay planned unless a clearly disproportionate burden merits an explicit reconsideration card;
+6. B duplicates remain reserve/bycatch only and do not drive route;
+7. genuinely new OPEN traveler rows are assessed corridor-first: hard cuts -> easy captures -> alternative bundles -> true ties;
+8. show Mark only rows where a real grade decision remains.
 
 ## OPEN AUTONOMOUS GEO WORK
 - KUMAON / KUKUCHINA-DUNAGIRI / Mahavatar Babaji's Cave (bezoekbare YSS/Kriya-pelgrimsgrot; hoofdreden voor de reis) — exact protected GPS remains open before final precise Kumaon route math.
