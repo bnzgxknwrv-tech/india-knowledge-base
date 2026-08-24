@@ -15,23 +15,22 @@ Purpose: compact durable boot state. Older handoffs are provenance only.
 ## ACTION-FIRST / INTERRUPTION-RESUME — HARD
 Mandatory loop: `SCAN -> DO -> RECORD -> RESCAN -> repeat -> REPLY`.
 If Mark interrupts with a new message, that does NOT cancel unfinished work. Absorb the new input, finish the interrupted autonomous work unless explicitly STOP/cancelled/superseded, then process the new work fully, rescan, and only then reply.
-This rule is global for all future INDIA-regie successors; authority: `governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md`.
+Explicit STOP cancels/suspends the prior workstream; do not resume it unless Mark reopens it.
 
 ## CONTINUOUS REPLACEABILITY / CRASH-SAFE — HARD
 Every INDIA-regisseur is disposable and may be replaced after any turn. GitHub must therefore be sufficient to continue without Mark repeating context.
 Pre-answer test after every material project change:
 `IF THIS INDIA DISAPPEARS NOW, CAN THE NEXT INDIA CONTINUE FROM GITHUB ALONE?`
 If not: update GitHub first.
-Do not wait for a planned INDIA11/12 handoff or for context exhaustion.
-Material Mark decisions, completed integrations, current phase/frontier, exact active files, relevant genuine open work/blockers and controlling methodology must not exist only in chat/model memory.
 
-Crash-safe checkpoint as of this update:
-- no material A+ decision from the current phase is known only to chat;
-- latest A+ spine below is durable;
-- the old bare A-list must NOT be used for Mark decisions;
-- the active rich-card truth is `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_MARK_DECISION_CARDS.md`;
-- if replacement occurs now, resume the remaining A->A+ review from those rich cards; do not redo completed discovery/research;
-- automatic geo work listed below waits only where final A+ choices are genuinely needed first; it is not forgotten work.
+Crash-safe checkpoint now:
+- all current A+ decisions are durable below;
+- bare A lists are forbidden for Mark decisions;
+- rich-card source is `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_MARK_DECISION_CARDS.md`;
+- HOWEVER its Kumaon K01–K06 cards are historical/reference only and MUST NOT be presented in the current A+ ballot;
+- authoritative promotion filter is `CURRENT_OLD_A_PROMOTION_MASTER.md` after the 2026-08-24 correction;
+- active A+ review now concerns only remaining Varanasi and Bodh Gaya old-A candidates;
+- the dropped Kasar Devi / Almora / Crank's Ridge side module may return only later during geometry if it is a natural ride-along/low-increment detour.
 
 ## USER-FACING LOCATION FORMAT — GLOBAL HARD
 Every user-facing location/site/experience must use:
@@ -43,9 +42,8 @@ Globally self-explanatory names such as Taj Mahal need no parenthetical explanat
 `kosten` / `gratis` refer only to money; use `reistijd`, `extra reistijd`, `omweg`, `duur`, etc. for logistics.
 
 ## MARK DECISION CARD — GLOBAL HARD
-The older rule still present in `VARANASI_DECISIONS_BLOCK_11_15.md` is restored globally: every real Mark A/B/C/A+ decision must include who/tradition, what happened there, why historically/spiritually relevant, and what is visitable now; parent-sites only, microsites nested.
-For the current A+-first phase each card ALSO includes nearest/relevant A+, useful distance + realistic travel mode/time, natural bundle vs separate excursion, and likely day/time impact.
-Never ask Mark to decide from a bare name/one-line description or from distance alone. If these fields are not sufficiently known, INDIA researches them first.
+Every real Mark A/B/C/A+ decision must include who/tradition, what happened there, why historically/spiritually relevant, what is visitable now, nearest/relevant A+, practical distance/time, bundle vs separate excursion and likely time impact. Parent-sites only; microsites nested.
+Never ask Mark to decide from a bare name/one-line description or from distance alone.
 
 ## PRECEDENCE
 Latest explicit Mark decision > later accommodation/cluster/site decision > current central state/method > protected older canon > old handoffs/candidate lists.
@@ -54,9 +52,9 @@ Old route-first/booking-first control is superseded by current A+-first method.
 ## CENTRAL TRUTH
 Branch: `agent/india8-cluster-casting`.
 Decision log: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md`.
-Promotion master: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_PROMOTION_MASTER.md`.
+Promotion master: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_PROMOTION_MASTER.md` — authoritative active/deferred filter.
 Distance context: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/OLD_A_PROMOTION_DISTANCE_CONTEXT.md`.
-Rich decision cards: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_MARK_DECISION_CARDS.md` — BUILT, 18 remaining A cards.
+Rich decision cards: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_MARK_DECISION_CARDS.md` — content/reference; apply promotion-master filter before presentation.
 Method: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_PROXIMITY_DECISION_MODEL.md`.
 Traveler master: 221 raw represented inputs -> 150 canonical traveler/experience records.
 Regional discovery: 8/8 workers complete and integrated.
@@ -72,9 +70,14 @@ Definitely in trip for current costing phase:
 
 Deferred until fixed-core time footprint known: Braj/Vrindavan/Mathura/Govardhan; Haridwar/Kankhal/Rishikesh; Prayagraj; out-of-radius challengers; Mysore/Bengaluru unless explicitly reopened.
 
-## PARENT-COMPLEX A+ INHERITANCE — HARD
-Do not ask Mark to vote on rooms/shrines/micro-sites separately when a meaningful parent is already A+.
-Same-site / same-compound / true parent-child -> `CHILD_A_PLUS`; nearby distinct sites only bundle when genuinely one natural pilgrimage visit; materially separate drives/hikes remain separate candidates.
+## KUMAON ROUTE-DISPOSITION — HARD
+Latest Mark decision `KASAR_ALMORA_YIELDS_TO_RISHIKESH_2026-08-23.md` remains authoritative:
+- KEEP the fixed Kumaon A+ spine: Babaji Cave / Kukuchina-Dunagiri, Kainchi Dham, Hotel Evelyn/Nainital, Haidakhan Ashram + separate historical Haidakhan cave.
+- DO NOT reopen a dedicated Kasar Devi / Almora / Crank's Ridge module now.
+- Jageshwar old A was strongly route-contingent; no dedicated detour/day by default.
+- Kakrighat may return only if it naturally lies on a transfer.
+- Ramakrishna Kutir, Chitai, Turiya Niwas and Bodh Ashram preserve old A provenance but are route-deferred.
+- After the final A+ spine is closed, full geometry may test these only as ride-alongs / low-increment detours. Do not ask Mark to make them A+ now.
 
 ## CURRENT A+ SPINE
 ### KUMAON
@@ -83,8 +86,6 @@ Same-site / same-compound / true parent-child -> `CHILD_A_PLUS`; nearby distinct
 - KUMAON / NAINITAL / Hotel Evelyn (historisch hotel waar Ram Dass verbleef; exacte kamer niet bewezen) — huidige status: A+.
 - KUMAON / HAIDAKHAN / Haidakhan Ashram (Haidakhan Babaji-pelgrimsashram; gewenste ashramovernachting) — huidige status: A+.
 - KUMAON / HAIDAKHAN / Historische Haidakhan-grot (grot uit de aparte Haidakhan Babaji-traditie; niet dezelfde claim als de Kukuchina/Dunagiri Babaji-grot) — huidige status: A+.
-- KUMAON / CRANK'S RIDGE / Turiya Niwas (kluizenaarswoning van Alfred “Sunyata” Sorensen) — huidige status: A; not A+; later geometry review.
-- KUMAON / CRANK'S RIDGE / Bodh Ashram (voormalig landgoed van Evans-Wentz/Lama Govinda; bezocht door Anandamayi Ma en Neem Karoli Baba) — huidige status: A; not A+; later geometry review.
 
 ### VARANASI / SARNATH
 - VARANASI / OLD CITY / Varanasi Kriya core (Lahiri Mahasaya-huis + samadhi + Yogananda/Sri Yukteswar-zone) — huidige status: A+ parent.
@@ -98,11 +99,11 @@ Same-site / same-compound / true parent-child -> `CHILD_A_PLUS`; nearby distinct
 
 ### BODH GAYA / GAYA
 - BODH GAYA / BODH GAYA / Mahabodhi Temple Complex (Boeddha-verlichtingscomplex) — huidige status: A+ parent; Bodhi Tree/internal enlightenment micro-sites inherit.
-- BODH GAYA / BAKRAUR / Sujata Stupa (stupa en dorpslandschap verbonden met Sujata vóór Boeddha's verlichting) — huidige status: A; A+-promotion still OPEN.
-- BODH GAYA / DUNGESHWARI HILLS / Dungeshwari / Mahakala Caves (grotten van Boeddha's extreme ascese vóór de verlichting) — huidige status: A; A+-promotion still OPEN.
+- BODH GAYA / BAKRAUR / Sujata Stupa (stupa en dorpslandschap verbonden met Sujata vóór Boeddha's verlichting) — huidige status: A; A+-promotion OPEN.
+- BODH GAYA / DUNGESHWARI HILLS / Dungeshwari / Mahakala Caves (grotten van Boeddha's extreme ascese vóór de verlichting) — huidige status: A; A+-promotion OPEN.
 
 ### TIRUVANNAMALAI / ARUNACHALA
-ARUNACHALA / TIRUVANNAMALAI / Arunachala / Ramana sacred world (heilige berg, ashram en directe Ramana Maharshi-levensplekken) — huidige status: A+ parent. Sri Ramanasramam, Virupaksha Cave, Skandashram, Arunachaleswarar Temple, Girivalam, Gurumurtam and Pavalakunru inherit.
+- ARUNACHALA / TIRUVANNAMALAI / Arunachala / Ramana sacred world (heilige berg, ashram en directe Ramana Maharshi-levensplekken) — huidige status: A+ parent. Sri Ramanasramam, Virupaksha Cave, Skandashram, Arunachaleswarar Temple, Girivalam, Gurumurtam and Pavalakunru inherit.
 
 ### DELHI
 - DELHI / CHHAWLA / Nirmal Dham (rustplaats/Mahasamadhi van Shri Mataji Nirmala Devi) — huidige status: A+.
@@ -110,10 +111,11 @@ ARUNACHALA / TIRUVANNAMALAI / Arunachala / Ramana sacred world (heilige berg, as
 ### AGRA
 - AGRA / AGRA / Taj Mahal — huidige status: A+; sunrise/earliest practical opening HARD.
 
-## CURRENT PHASE — OLD-A PROMOTION PASS / RICH CARD READY
+## CURRENT PHASE — OLD-A PROMOTION PASS / ACTIVE FILTER CORRECTED
 Latest promotions recorded: Manikarnika, Dashashwamedh and Assi are now A+.
-All 18 remaining old A choices have now been rebuilt as rich Mark Decision Cards with significance, visitability and A+-centric logistics. Do not use the old bare-list presentation anymore.
-Then finish A+ identity/geo, overlay all remaining old A/B/C + regional + traveler/Lonely-Planet findings, compute real A+-centric distances/times/bundles, then ordinary A/B/C and true cluster duration/nights.
+Kumaon K01–K06 are NOT active promotion questions; they are preserved A provenance deferred to later geometry.
+Active promotion review is now Varanasi P11–P19 and Bodh Gaya P20–P22 only, using rich decision-card context.
+After final A+ is closed: finish A+ identity/geo, overlay all remaining old A/B/C + regional + traveler/Lonely-Planet findings, compute real A+-centric distances/times/bundles, then ordinary A/B/C and true cluster duration/nights.
 
 ## OPEN GEO WORK — AUTOMATIC, NOT FOR MARK TO REMEMBER
 - Mahavatar Babaji's Cave exact protected GPS remains open before final Kumaon proximity math.
@@ -121,4 +123,4 @@ Then finish A+ identity/geo, overlay all remaining old A/B/C + regional + travel
 - Other selected A+ coordinates/route origins close during geometry stage; never guess.
 
 ## CURRENT FRONTIER
-Use `CURRENT_OLD_A_MARK_DECISION_CARDS.md` for Mark's remaining A->A+ review. Present compact cluster-sized batches if needed for readability, but never strip the decision context again.
+Because Mark explicitly said STOP, do not resume the cancelled previous workstream automatically. For the current A+ review, never show Kumaon K01–K06 as open A+ choices. When Mark resumes decision review, continue with active Varanasi/Bodh Gaya rich cards only.
