@@ -21,6 +21,7 @@ Every user-facing location/site/experience must use:
 `CLUSTER / PLAATS / PLEK (korte Nederlandse uitleg) — huidige status: A+ / A / B / C / OPEN`.
 Never write a non-obvious Indian/local name without the explanation, even if previously explained.
 Never write `Nirmal Dham` alone. Use `DELHI / CHHAWLA / Nirmal Dham (rustplaats/Mahasamadhi van Shri Mataji Nirmala Devi) — huidige status: A+`.
+For Manikarnika always preserve the travel-significance in the name: `VARANASI / MANIKARNIKA / Manikarnika Ghat (heilige crematieghat waar Lahiri Mahasaya werd gecremeerd) — huidige status: ...`.
 Globally self-explanatory names such as Taj Mahal need no parenthetical explanation.
 `kosten` / `gratis` refer only to money; use `reistijd`, `extra reistijd`, `omweg`, `duur`, etc. for logistics.
 
@@ -54,7 +55,6 @@ Same-site / same-compound / true parent-child -> `CHILD_A_PLUS`; nearby distinct
 ## CURRENT A+ SPINE
 ### KUMAON
 - KUMAON / KUKUCHINA-DUNAGIRI / Mahavatar Babaji's Cave (bezoekbare YSS/Kriya-pelgrimsgrot; hoofdreden voor de reis) — huidige status: A+.
-  - Earlier `A++++` wording was emphasis only; do NOT invent a new formal grade.
 - KUMAON / KAINCHI / Kainchi Dham (Neem Karoli Baba-ashramcomplex; kernplek voor Neem Karoli Baba en Ram Dass) — huidige status: A+.
 - KUMAON / NAINITAL / Hotel Evelyn (historisch hotel waar Ram Dass verbleef; exacte kamer niet bewezen) — huidige status: A+.
 - KUMAON / HAIDAKHAN / Haidakhan Ashram (Haidakhan Babaji-pelgrimsashram; gewenste ashramovernachting) — huidige status: A+.
@@ -65,9 +65,12 @@ Same-site / same-compound / true parent-child -> `CHILD_A_PLUS`; nearby distinct
 ### VARANASI / SARNATH
 - VARANASI / OLD CITY / Varanasi Kriya core (Lahiri Mahasaya-huis + samadhi + Yogananda/Sri Yukteswar-zone) — huidige status: A+ parent.
 - VARANASI / SARNATH / Sarnath sacred/archaeological complex (Boeddha's eerste-preeklandschap met Dhamek Stupa, Deer Park en museum) — huidige status: A+ parent.
-- VARANASI / PANCHGANGA / Shri Tailanga Swami Math + Panchganga Ghat + Bindu Madhav Temple (compacte heilige wereld rond yogi Tailanga Swami) — huidige status: A+; promoted 2026-08-24.
-- VARANASI / BHADAINI / Shree Shree Ma Anandamayi Ashram (bezoekbaar ashram van Anandamayi Ma) — huidige status: A+; promoted 2026-08-24.
-- VARANASI / OLD CITY / Kashi Vishwanath sacred core (grote Shiva-tempel met nabijgelegen Annapurna- en Vishalakshi-heiligdommen) — huidige status: A+; promoted 2026-08-24.
+- VARANASI / PANCHGANGA / Shri Tailanga Swami Math + Panchganga Ghat + Bindu Madhav Temple (compacte heilige wereld rond yogi Tailanga Swami) — huidige status: A+.
+- VARANASI / BHADAINI / Shree Shree Ma Anandamayi Ashram (bezoekbaar ashram van Anandamayi Ma) — huidige status: A+.
+- VARANASI / OLD CITY / Kashi Vishwanath sacred core (grote Shiva-tempel met nabijgelegen Annapurna- en Vishalakshi-heiligdommen) — huidige status: A+.
+- VARANASI / MANIKARNIKA / Manikarnika Ghat (heilige crematieghat waar Lahiri Mahasaya werd gecremeerd; Ratneshwar Mahadev Temple in dezelfde ghat-zone) — huidige status: A+.
+- VARANASI / DASHASHWAMEDH / Dashashwamedh Ghat + Shitala Mata Temple (centrale ceremonieghat waar de grote Ganga Aarti plaatsvindt) — huidige status: A+.
+- VARANASI / ASSI / Assi Ghat (zuidelijke Ganges-ghat en belangrijk ochtend-/pelgrimsanker) — huidige status: A+.
 
 ### BODH GAYA / GAYA
 - BODH GAYA / BODH GAYA / Mahabodhi Temple Complex (Boeddha-verlichtingscomplex) — huidige status: A+ parent; Bodhi Tree/internal enlightenment micro-sites inherit.
@@ -84,9 +87,9 @@ ARUNACHALA / TIRUVANNAMALAI / Arunachala / Ramana sacred world (heilige berg, as
 - AGRA / AGRA / Taj Mahal — huidige status: A+; sunrise/earliest practical opening HARD.
 
 ## CURRENT PHASE — OLD-A PROMOTION PASS
-Mark has promoted Varanasi P05/P06/P07 to A+.
-Current immediate open promotion questions are Bodh Gaya P20/P21 after practical distance/bundle context is shown.
-Then finish all remaining A promotion review, close final A+ identity/geo, overlay all remaining old A/B/C + regional + traveler/Lonely-Planet findings, compute real A+-centric distances/times/bundles, then ordinary A/B/C and true cluster duration/nights.
+Latest promotions recorded: Manikarnika, Dashashwamedh and Assi are now A+.
+Remaining old A promotion candidates must be shown with distance/reistijd to the nearest relevant A+ before Mark is asked to choose.
+Then finish A+ identity/geo, overlay all remaining old A/B/C + regional + traveler/Lonely-Planet findings, compute real A+-centric distances/times/bundles, then ordinary A/B/C and true cluster duration/nights.
 
 ## OPEN GEO WORK — AUTOMATIC, NOT FOR MARK TO REMEMBER
 - Mahavatar Babaji's Cave exact protected GPS remains open before final Kumaon proximity math.
@@ -94,4 +97,4 @@ Then finish all remaining A promotion review, close final A+ identity/geo, overl
 - Other selected A+ coordinates/route origins close during geometry stage; never guess.
 
 ## CURRENT FRONTIER
-Give Mark practical distance/bundle context for BODH GAYA / BAKRAUR / Sujata Stupa and BODH GAYA / DUNGESHWARI HILLS / Dungeshwari/Mahakala Caves; then continue the remaining old-A promotion list using the required display format and current status.
+Present remaining old-A promotion candidates with `CLUSTER / PLAATS / PLEK (uitleg) — huidige status` plus nearest relevant A+ distance/reistijd and natural bundle/separate-excursion context. Do not ask Mark to decide blind.
