@@ -27,7 +27,7 @@ No ranking implied.
 12. **Dinapani Panchachuli/Himadri women-weaver revival** — regional-only additive contemporary craft/social-history layer. Store confirmed; workshop interaction must be prearranged.
 13. **Folk Culture Museum / Lok Sanskriti Sangrahalaya, Bhimtal** — regional Finding 7; dense specialist folk/archaeology collection, unusually human-scale.
 14. **Butterfly Research Centre, Bhimtal** — regional Finding 8 + traveler `TRV-019`; specialist natural-history collection; winter value is collection/research rather than live butterflies.
-15. **ARIES Manora Peak public astronomy** — regional-only strong science experience: working national observatory outreach, possible evening telescope session by booking.
+15. **ARIES Manora Peak public astronomy** — regional-only strong science experience, now operationally verified rather than speculative: official ARIES says visits are open; Manora Peak Science Centre is about 9 km by road from Nainital Bus Stand; day visits are Monday/Wednesday/Friday; evening stargazing is available all days after sunset subject to clear skies; public stargazing uses a dedicated 14-inch telescope; public/private visitors apply online in advance; current max public batch is 25. Large research telescopes are not public-use instruments.
 16. **Sattal–Chanfi serious winter birding / hides** — regional Finding 10 + traveler `TRV-045`/`TRV-041`; specialist dawn/naturalist version rather than generic lake sightseeing.
 17. **Chhoti Haldwani community heritage trail, Kaladhungi** — regional Finding 11; community-managed Jim Corbett village/conservation-history trail, distinct from a tiger safari.
 18. **Baithaki Holi early-season singing** — regional Finding 12; genuine raga-based winter living tradition. Exact public Dec/Jan 2026–27 session requires later schedule verification.
@@ -50,6 +50,7 @@ No ranking implied.
 - Exact Ram Dass room at Hotel Evelyn is not proven; building/terrace zone is the responsible claim.
 - Turiya Niwas/Bodh Ashram and other lineage properties must be handled according to their actual visitor/permission status, not generic map presence.
 - Dinapani production access requires contact; current cooperative history changed in 2024–25.
+- ARIES is a real public experience but requires advance online request/confirmation and clear skies for stargazing; there is no visitor transport/accommodation supplied by ARIES.
 - January hill driving requires frost/snow/fog/short-day buffers; road kilometres do not represent real time.
 - Family traditions like Ghughutia require respectful host context and privacy.
 
