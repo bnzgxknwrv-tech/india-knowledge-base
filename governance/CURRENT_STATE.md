@@ -6,15 +6,32 @@ Purpose: compact durable boot state. Older handoffs are provenance only.
 ## MANDATORY BOOT
 1. Read `README.md`.
 2. Read `governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md`.
-3. Read THIS file.
-4. Before presenting a location/cluster/hotel/base as new, reconcile `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv` + later Mark supersedes.
-5. Read only current files relevant to the active question.
-6. Check PR #23 before major central build/write.
+3. Read `governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md`.
+4. Read THIS file.
+5. Before presenting a location/cluster/hotel/base as new, reconcile `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv` + later Mark supersedes.
+6. Read only current files relevant to the active question.
+7. Check PR #23 before major central build/write.
 
 ## ACTION-FIRST / INTERRUPTION-RESUME — HARD
 Mandatory loop: `SCAN -> DO -> RECORD -> RESCAN -> repeat -> REPLY`.
 If Mark interrupts with a new message, that does NOT cancel unfinished work. Absorb the new input, finish the interrupted autonomous work unless explicitly STOP/cancelled/superseded, then process the new work fully, rescan, and only then reply.
 This rule is global for all future INDIA-regie successors; authority: `governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md`.
+
+## CONTINUOUS REPLACEABILITY / CRASH-SAFE — HARD
+Every INDIA-regisseur is disposable and may be replaced after any turn. GitHub must therefore be sufficient to continue without Mark repeating context.
+Pre-answer test after every material project change:
+`IF THIS INDIA DISAPPEARS NOW, CAN THE NEXT INDIA CONTINUE FROM GITHUB ALONE?`
+If not: update GitHub first.
+Do not wait for a planned INDIA11/12 handoff or for context exhaustion.
+Material Mark decisions, completed integrations, current phase/frontier, exact active files, relevant genuine open work/blockers and controlling methodology must not exist only in chat/model memory.
+
+Crash-safe checkpoint as of this update:
+- no material A+ decision from the current phase is known only to chat;
+- latest A+ spine below is durable;
+- the old bare A-list must NOT be used for Mark decisions;
+- the active rich-card truth is `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_MARK_DECISION_CARDS.md`;
+- if replacement occurs now, resume the remaining A->A+ review from those rich cards; do not redo completed discovery/research;
+- automatic geo work listed below waits only where final A+ choices are genuinely needed first; it is not forgotten work.
 
 ## USER-FACING LOCATION FORMAT — GLOBAL HARD
 Every user-facing location/site/experience must use:
