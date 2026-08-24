@@ -31,15 +31,28 @@ For Manikarnika always use the significance-bearing name: `VARANASI / MANIKARNIK
 - DELHI / CHHAWLA / Nirmal Dham (rustplaats/Mahasamadhi van Shri Mataji Nirmala Devi) — huidige status: A+.
 - AGRA / AGRA / Taj Mahal — huidige status: A+.
 
-## CURRENT OLD-A PROMOTION CANDIDATES
+## ROUTE-DEFERRED OLD A — PRESERVE, DO NOT RE-BALLOT NOW
+Latest Mark cluster decision `KASAR_ALMORA_YIELDS_TO_RISHIKESH_2026-08-23.md` governs this whole side geography.
 
-### KUMAON
-P01 — KUMAON / JAGESHWAR / Jageshwar Dham + Dandeshwar (vroegmiddeleeuwse stenen tempelgroepen in deodarwoud) — huidige status: A.
-P02 — KUMAON / KAKRIGHAT / Kakrighat (Kosi-rivierplek waar Vivekananda in 1890 een belangrijke realisatie had) — huidige status: A.
-P03 — KUMAON / ALMORA / Ramakrishna Kutir (Ramakrishna Mission-retraite; geen verblijfplaats van Sri Ramakrishna zelf) — huidige status: A.
-P04 — KUMAON / CHITAI / Chitai Golu Devta Temple (Kumaoni tempel beroemd om duizenden bellen en schriftelijke rechtvaardigheidsverzoeken) — huidige status: A.
-KUMAON / CRANK'S RIDGE / Turiya Niwas (kluizenaarswoning van Alfred “Sunyata” Sorensen) — huidige status: A; expliciet niet A+ in current trip disposition, later geometry review.
-KUMAON / CRANK'S RIDGE / Bodh Ashram (voormalig landgoed van Evans-Wentz/Lama Govinda; bezocht door Anandamayi Ma en Neem Karoli Baba) — huidige status: A; expliciet niet A+ in current trip disposition, later geometry review.
+Hard interpretation:
+- the separate Kasar Devi / Almora side module was already dropped as a dedicated time/sleep module;
+- Jageshwar was A largely because the route was previously expected to be in the wider area, not because it independently outranked retained core clusters;
+- Kakrighat may return only as a natural transfer stop if final geometry passes it;
+- Turiya Niwas / Bodh Ashram / Almora / Chitai remain historically meaningful A provenance but do NOT reopen a dedicated Almora/Kasar module;
+- do not ask Mark now to promote these to A+ as if they were active route anchors;
+- after the final A+ spine is closed, geometry may reconsider any of them only as ride-alongs / low-increment detours. No dedicated nights are assumed.
+
+Preserved old-A rows:
+- KUMAON / JAGESHWAR / Jageshwar Dham + Dandeshwar (vroegmiddeleeuwse stenen tempelgroepen in deodarwoud) — huidige status: A; ROUTE-DEFERRED.
+- KUMAON / KAKRIGHAT / Kakrighat (Kosi-rivierplek waar Vivekananda in 1890 een belangrijke realisatie had) — huidige status: A; TRANSFER-ONLY CANDIDATE if route naturally passes.
+- KUMAON / ALMORA / Ramakrishna Kutir (Ramakrishna Mission-retraite; geen verblijfplaats van Sri Ramakrishna zelf) — huidige status: A; ROUTE-DEFERRED.
+- KUMAON / CHITAI / Chitai Golu Devta Temple (Kumaoni tempel beroemd om duizenden bellen en schriftelijke rechtvaardigheidsverzoeken) — huidige status: A; ROUTE-DEFERRED.
+- KUMAON / CRANK'S RIDGE / Turiya Niwas (kluizenaarswoning van Alfred “Sunyata” Sorensen) — huidige status: A; ROUTE-DEFERRED, not A+.
+- KUMAON / CRANK'S RIDGE / Bodh Ashram (voormalig landgoed van Evans-Wentz/Lama Govinda; bezocht door Anandamayi Ma en Neem Karoli Baba) — huidige status: A; ROUTE-DEFERRED, not A+.
+
+These six MUST NOT appear in the current Mark A+ ballot. Their historical A status is preserved for the later A+-centric geometry pass only.
+
+## ACTIVE CURRENT OLD-A PROMOTION CANDIDATES
 
 ### VARANASI / SARNATH
 Resolved promotions P05/P06/P07/P08/P09/P10 are now A+ and not open anymore.
@@ -75,4 +88,4 @@ No additional current old-A promotion item before traveler/regional overlay.
 No old-A promotion item; Taj Mahal already A+.
 
 ## NEXT
-Do not ask Mark to decide any remaining A blindly. Present each with nearest relevant A+ distance/reistijd/bundle context first. Then Mark can promote remaining A to A+ before full traveler/LP overlay.
+Current Mark A+ ballot excludes the six route-deferred Kumaon/Almora-side rows. Continue only with rich decision cards for active Varanasi and Bodh Gaya A candidates. After final A+ is closed, run the full geometry pass; only then may the deferred Kumaon rows return as ride-along/low-increment candidates if the actual route makes them practical.
