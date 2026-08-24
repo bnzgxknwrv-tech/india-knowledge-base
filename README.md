@@ -20,17 +20,43 @@ Mark krijgt alleen:
 Bindende uitvoeringsregel:
 `governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md`
 
+## CONTINUOUS REPLACEABILITY / CRASH-SAFE — HARD
+
+**Iedere INDIA-regisseur moet op elk moment vervangbaar zijn door INDIA(N+1). Chatgeheugen/modelcontext is tijdelijk en mag nooit de enige drager van projectwaarheid zijn.**
+
+Na iedere materiële Mark-beslissing, researchclosure, integratie, methodiekwijziging of verschuiving van de actieve frontier — en vóór het antwoord — geldt een extra gate:
+
+`KAN EEN NIEUWE INDIA NU UITSLUITEND VANUIT GITHUB ZONDER MARKS HERHALING VERDER?`
+
+Zo niet: eerst GitHub bijwerken.
+
+Minimaal duurzaam zichtbaar moeten zijn:
+- de nieuwste materiële Mark-besluiten en supersedes;
+- de actuele projectfase en exacte frontier;
+- wat al uitgevoerd/geïntegreerd is;
+- eventueel nog onafgemaakt relevant werk en waarom het nog open is;
+- exacte actuele bestanden die de opvolger moet gebruiken;
+- Mark-only beslissingen/blockers die werkelijk niet zelfstandig gesloten kunnen worden.
+
+Verboden:
+- cruciale projectstate alleen in de chat of intern modelgeheugen bewaren;
+- wachten met checkpointen tot een geplande handoff;
+- aannemen dat dezelfde INDIA-versie de volgende beurt nog beschikbaar is;
+- Mark bij opvolging opnieuw laten uitleggen wat al besloten of uitgevoerd was.
+
+Als de context lang wordt of vervanging plausibel wordt, is dat géén reden om te stoppen: checkpoint eerst de actuele waarheid en ga door zolang zelfstandig werk mogelijk is.
+
 ## Nieuwe INDIA-sessie: verplichte leesvolgorde
 1. `README.md`
 2. `governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md`
-3. `governance/CURRENT_STATE.md`
-4. `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv`
-5. de actuele task/outputbestanden die relevant zijn voor Marks vraag
-6. PR #23 voor recente CCI/INDIA-uitwisseling die nog niet verwerkt is wanneer je aan een grote nieuwe taak begint of vlak vóór een grote centrale write
+3. `governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md`
+4. `governance/CURRENT_STATE.md`
+5. `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv`
+6. de actuele task/outputbestanden die relevant zijn voor Marks vraag
+7. PR #23 voor recente CCI/INDIA-uitwisseling die nog niet verwerkt is wanneer je aan een grote nieuwe taak begint of vlak vóór een grote centrale write
 
 Daarna: ga inhoudelijk aan het werk en blijf zelfstandig doorwerken zolang dat veilig en relevant kan.
 
-Volledige bootregels: `governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md`.
 CCI-samenwerking: `governance/CCI_COLLABORATION_PROTOCOL.md`.
 Actief-vs-historisch: `governance/ACTIVE_FRAMEWORK.md`.
 
@@ -47,6 +73,8 @@ Alleen Mark maakt of wijzigt persoonlijke A/B/C-keuzes, A+, hotel/slaapbasiskeuz
 ## Worker ≠ central
 Een workerbranch met `COMPLETE` is waardevolle input, maar niet automatisch centrale waarheid. Controleer of het resultaat daadwerkelijk is geïntegreerd/aangenomen voordat je het als definitief gebruikt.
 
+Geen aparte central-integration bureaucratie is nodig wanneer adoptie duidelijk uit `CURRENT_STATE.md` en Git-history blijkt.
+
 ## Actuele reisfeiten
 Visa, toegang/opening, dienstregelingen, prijzen, beschikbaarheid, weer en vergelijkbare live feiten worden opnieuw gecontroleerd wanneer ze werkelijk een reisadvies of boekingsbesluit beïnvloeden. Ze hoeven niet permanent wereldwijd 'gecertificeerd' te blijven.
 
@@ -54,6 +82,7 @@ Visa, toegang/opening, dienstregelingen, prijzen, beschikbaarheid, weer en verge
 - Bewaar belangrijke Mark-besluiten duurzaam.
 - Bewaar nuttige onderzoeksoutput; verwijder geschiedenis niet zomaar.
 - Houd `governance/CURRENT_STATE.md` actueel bij materiële veranderingen, niet bij ieder klein commitje.
+- Bij materieel werk geldt daarnaast de replaceability-gate: de actuele continuation state mag nooit uitsluitend in chatcontext zitten.
 - Mark is geen koerier tussen INDIA en CCI; gebruik PR #23 als relay/index.
 - Geen PDF tenzij expliciet gevraagd.
 - Als een oude handoff zichzelf nog `CURRENT` noemt maar `CURRENT_STATE.md` een latere expliciete supersede bevat, geldt `CURRENT_STATE.md` voor de projectfase. Corrigeer de verouderde handoff direct wanneer die een opvolger kan misleiden.
@@ -67,4 +96,4 @@ Historische governance, oude session-startbestanden, auditstreams, registries en
 Als `CURRENT_STATE`, beschermd canon, current task-output of een recente Mark-beslissing elkaar tegenspreken: lees gericht verder totdat je begrijpt welke informatie nieuwer/juister is. Alleen bij zo'n echte onduidelijkheid is een brede historische audit nodig.
 
 De standaard is dus niet: "bewijs dat je alles hebt gelezen".
-De standaard is: "lees de bindende actuele regels, ken de actuele waarheid, voer uitvoerbaar werk meteen uit en laat Mark geen werk terugkrijgen dat INDIA zelf had kunnen doen".
+De standaard is: "lees de bindende actuele regels, ken de actuele waarheid, voer uitvoerbaar werk meteen uit, checkpoint continu zodat je direct vervangbaar bent, en laat Mark geen werk terugkrijgen dat INDIA zelf had kunnen doen".
