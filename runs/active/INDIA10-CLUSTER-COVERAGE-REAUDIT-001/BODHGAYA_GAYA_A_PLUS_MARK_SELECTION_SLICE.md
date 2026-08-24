@@ -48,11 +48,14 @@ No ranking implied.
 11. **Barabar / Nagarjuni Caves** — traveler `TRV-124` external + old traveler; Mauryan polished granite cave architecture of India-level antiquity, substantial half-day outward excursion. Central status `PRIORITY_VERIFY` for current operating/logistic detail, not for historical significance.
 12. **Nalanda Mahavihara** — traveler `TRV-129` World-Magnet + external + old traveler; UNESCO/world-historical monastic-university detour, full-day-class from Bodh Gaya.
 13. **Rajgir Brahma Kund hot springs** — traveler `TRV-131` Nature + external; genuine winter thermal-bathing culture, significant outward excursion and cleanliness/crowding caveats.
-14. **Rajgir ropeway + Vishwa Shanti Stupa** — traveler `TRV-132`; outward landscape/Buddhist experience, `PRIORITY_VERIFY` for exact current operations.
+14. **Rajgir cabin ropeway + Vishwa Shanti Stupa / Ratnagiri Hill** — traveler `TRV-132`; outward landscape/Buddhist experience. Critical current correction: BSTDC's live booking page states **the old single-seat chairlift is currently not available**; the newer 8-person cabin remains bookable. Current listed hours are 10:00–16:00. Do not sell this as a guaranteed historic-chairlift experience unless a later official check confirms the chairlift has reopened.
 15. **International monastery landscape in Bodh Gaya** — multiple old B/C provenance rows plus traveler `TRV-128`; should not be expanded into dozens of equivalent temple checkboxes. Individual old grades remain available for later A/B/C after Mark A+.
 
 ## Important no-research / no-inflation rule
 The saturated Bodh Gaya discovery set contains many monasteries and Gaya religious sites. They remain preserved, but this A+ slice intentionally surfaces only candidates with plausible intrinsic-anchor significance or distinct experiential value. The existence of many old rows is not a reason to fill days.
+
+## Operational correction logged 2026-08-24
+BSTDC currently describes both old chairlift and new cabin infrastructure, but the live ticket page explicitly says `Currently chairlift is not available.` There was also recent chairlift automation/recommissioning procurement. For current planning, the responsible product is the cabin-ropeway/stupa experience; chairlift reopening is a later live check, not an assumption.
 
 ## Next Mark-only decision
 Mark chooses any A+ from this merged universe. INDIA then computes A+-centric real driving/walking time, extra travel time/omweg, natural bundles and isolation before ordinary A/B/C re-rating.
