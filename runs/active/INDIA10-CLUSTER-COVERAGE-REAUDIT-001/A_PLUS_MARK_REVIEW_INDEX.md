@@ -2,80 +2,70 @@
 
 status: READY_FOR_MARK
 updated: 2026-08-24
-purpose: prevent Mark from having to read raw worker files or long integration prose.
+purpose: compact controller; Mark should not need raw worker files.
 
-## RULE
-A+ is Mark-only and is decided BEFORE ordinary A/B/C.
+## HARD DISPLAY RULE
+Every non-obvious Indian place/site/institution name shown to Mark immediately includes a short plain-Dutch explanation in parentheses, every time.
+Never display `Nirmal Dham` alone; use `Nirmal Dham (rustplaats/Mahasamadhi van Shri Mataji Nirmala Devi)`.
 
-## CURRENT METHOD — MARK 2026-08-24
-Two levels must remain separate:
-- **fixed A+ cluster / travel world** = Mark is already certain it belongs in the trip;
-- **A+ location / experience** = intrinsic anchor inside that cluster where the trip is really about.
+## TWO A+ LEVELS
+- fixed A+ cluster/travel world = definitely in trip;
+- A+ location/experience = intrinsic anchor the trip is really about.
 
-Current fixed core clusters:
+Fixed core:
 1. Kumaon
 2. Varanasi / Sarnath
 3. Bodh Gaya / Gaya
 4. Tiruvannamalai / Arunachala
-5. Delhi — anchored by Nirmal Dham / Shri Mataji Nirmala Devi Mahasamadhi
-6. Agra / Taj — fixed because Taj Mahal is A+; old Taj-only/sunrise HARD provenance remains.
+5. Delhi — anchored by Nirmal Dham (rustplaats/Mahasamadhi van Shri Mataji Nirmala Devi)
+6. Agra / Taj Mahal
 
-Route-sensitive/reserve worlds wait until these six are fully costed in TIME:
-- Braj / Vrindavan / Mathura / Govardhan;
-- Haridwar / Kankhal / Rishikesh;
-- Prayagraj;
-- out-of-radius challengers;
-- Mysore/Bengaluru remains old C/control unless later explicitly reopened.
+Route-sensitive/reserve worlds wait until these six are fully costed in time.
 
-## CURRENT FRONTIER — INTRINSIC A+ ANCHORS FIRST
+## CURRENT FRONTIER
 Do NOT ask Mark to grade traveler/Lonely-Planet rows yet.
-
 Use:
-`FIXED_CORE_A_PLUS_ANCHOR_SELECTION_MASTER.md`
+- `ASSISTANT_PROPOSED_A_PLUS_FOR_MARK_REVIEW.md` for the concise advice-only first list;
+- `FIXED_CORE_A_PLUS_ANCHOR_SELECTION_MASTER.md` for the full intrinsic candidate register;
+- `A_PLUS_MARK_DECISION_LOG.md` for explicit Mark decisions only.
 
-Already explicit A+ anchors:
-- K1 Babaji Cave (`079`);
-- V1 Lahiri Mahasaya original home (`002`);
-- B1 Bodhi Tree;
-- D1 Nirmal Dham / Shri Mataji Nirmala Devi Mahasamadhi;
-- A1 Taj Mahal / sunrise core.
+Already explicit A+:
+- K1 Mahavatar Babaji's Cave (bezoekbare Babaji-pelgrimsgrot boven Kukuchina/Dunagiri);
+- V1 Lahiri Mahasaya original home (oorspronkelijke woonhuis van Lahiri Mahasaya in Varanasi);
+- B1 Bodhi Tree (heilige boom op de plek van Boeddha's verlichting binnen het Mahabodhi-complex);
+- D1 Nirmal Dham (rustplaats/Mahasamadhi van Shri Mataji Nirmala Devi, Chhawla/Delhi);
+- A1 Taj Mahal.
 
-Tiruvannamalai/Arunachala is fixed at cluster level but still needs its individual A+ anchor selections.
+## HARD REVIEW ORDER
+1. Mark confirms/rejects the concise assistant-proposed obvious A+ list.
+2. INDIA immediately runs the **ALL EXISTING A promotion pass**: every preserved old A in the six fixed clusters not already A+ is shown with a descriptive label; Mark may promote additional ones to A+.
+3. Only when that A+ set is complete enough does INDIA resolve chosen A+ identity/coordinates.
+4. INDIA overlays every remaining old A/B/C + regional + traveler/Lonely-Planet row against nearest/relevant A+.
+5. Compute real walking/driving/boat time, useful distance, extra travel time/omweg, natural bundle/separate excursion and isolation.
+6. Only then ordinary A/B/C.
+7. Build complete-execution cluster schedule and true duration/minimum nights.
+8. Repeat for all six fixed worlds before reserve/route-sensitive clusters compete for remaining time.
 
-## AFTER THE A+ ANCHOR SET IS COMPLETE
-For each fixed cluster INDIA automatically:
-1. resolves exact A+ identity/coordinates first;
-2. overlays every old A + regional candidate + traveler/Lonely-Planet finding;
-3. computes nearest/relevant A+, real travel time, extra travel time/omweg, natural bundle vs separate excursion and isolation;
-4. only then asks Mark for ordinary A/B/C;
-5. builds a realistic complete-execution cluster schedule using retained A/B;
-6. derives true cluster duration/minimum nights.
-
-Explicit Mark logic: an otherwise-A place requiring ~3 hours separate travel may become B because it effectively consumes a day, while a similar-strength place ~15 minutes from an A+ may remain/become A.
-
-## PREWORK ALREADY EXECUTED — DO NOT REDO
+## PREWORK ALREADY EXECUTED
 - `PRE_A_PLUS_AUTONOMOUS_PREWORK.md`
 - `FIXED_DATE_COLLISION_MATRIX.md`
 - `SELECTED_A_PLUS_ANCHOR_IDENTITY_BASELINE.md`
-- `A_PLUS_MARK_DECISION_LOG.md`
+- traveler union 221 raw -> 150 canonical
+- regional workers 8/8 complete/integrated
 
-Selected A+ identity/logistics already preworked where possible:
-- Babaji Cave current YSS pilgrimage identity and 6–8h Dwarahat-ashram visit envelope; no guessed GPS;
-- Lahiri house protected working pin;
-- Bodhi Tree / Mahabodhi same-compound identity;
-- Nirmal Dham official address/visitor status and external reference coordinate;
-- Taj UNESCO coordinate and sunrise-core distinction.
+Known geo queue:
+- Babaji's Cave exact GPS still open; do not guess.
+- Turiya Niwas/Bodh Ashram coordinates only become priority if promoted to A+.
 
 ## GLOBAL DUPLICATE CONTROL
-- Keoladeo/Bharatpur = one global candidate across Agra/Braj.
-- Golden Temple/Amritsar = one global candidate across Delhi/out-of-radius.
-- Taj sunrise/day and Taj full-moon night are distinct experiences at one monument; only sunrise/core is currently A+.
-- Sarnath normally reviewed as one coherent complex unless Mark explicitly separates it.
+- Keoladeo/Bharatpur one global candidate across Agra/Braj.
+- Golden Temple/Amritsar one global candidate across Delhi/out-of-radius.
+- Taj sunrise/core vs full-moon night are separate experiences; only sunrise/core is currently A+.
+- Sarnath normally one coherent complex at A+ stage.
 - parent/micro-site rules prevent A+ inflation.
 
-## USER-FACING REVIEW RULE
-Mark does not open raw files. INDIA presents only the unresolved intrinsic A+ checklist first. After Mark answers, INDIA records it and performs the entire proximity overlay in the same turn without asking permission.
+## MARK LOGIC
+A place that seems A in isolation can become B if it requires roughly three hours separate travel; comparable value ~15 minutes from an A+ may remain/become A.
 
-## IMPORTANT
-Do not proceed to global route/nights before the six fixed clusters have passed:
-A+ anchors -> proximity/traveler overlay -> ordinary A/B/C -> complete-execution duration.
+No global route/nights before all six fixed clusters have passed:
+A+ first pass -> old-A promotion -> proximity/traveler overlay -> ordinary A/B/C -> complete-execution duration.
