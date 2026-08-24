@@ -40,9 +40,11 @@ Repairs completed on the central branch:
 ### Old INDIA8 -> INDIA9 handoff disposition
 `handoffs/INDIA8_TO_INDIA9_FINAL_BOOT_2026-08-23.md` is HISTORICAL PROVENANCE for current-phase control. Its factual travel details may still be useful, but `V2 IS AUTHORITATIVE`, `CURRENT EXECUTION STATE` and old route-first work order are superseded by THIS file + the A+ model.
 
-### Independent boot sanity review
-A bounded LIGHT CCI review was posted on PR #23 as issuecomment `5392664248`.
-It may only review boot/action-first consistency and current frontier; no discovery, no A/B/C/A+, no route choice, no file edits.
+### Independent boot sanity review — CLOSED PASS
+CCI task: PR #23 issuecomment `5392664248`.
+CCI result: PR #23 issuecomment `5392683442`.
+Result: `A: PASS`, `B: PASS`, `C: PASS`, `D: PASS`, `OVERALL: PASS`, `No correction needed`.
+CCI independently re-verified that the stale route-first path is cut off, the action-first loop is semantically aligned, the current A+ frontier is accurate, protected canon remains unchanged at 81/81 permanent IDs, and the boot repair introduced no new governance layer or Mark decision.
 
 ## Current central regie branch
 `agent/india8-cluster-casting`
@@ -104,6 +106,8 @@ All eight workers were started by Mark and returned during the 2026-08-24 action
 - Kumaon bounded reverse/gap completion.
 
 Every freeze was read and merged centrally against person/AOAY + traveler union + old Mark provenance. No worker assigned A/B/C/A+.
+
+12:30 Europe/Amsterdam rescan: all eight regional branches still contain exactly one freeze commit relative to their prepared baseline; no unintegrated post-freeze delta exists. The four blind traveler branches likewise contain only their already-integrated role output plus task-sync history; no new traveler result remains outside the 150-row union.
 
 Coverage status:
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/COVERAGE_MATRIX.md`
