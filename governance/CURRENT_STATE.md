@@ -3,15 +3,21 @@
 Last updated: 2026-08-24
 Purpose: compact durable state for the next INDIA session.
 
-## Start here
-1. Read this file.
+## MANDATORY BOOT — DO NOT SKIP
+1. Read `README.md`.
 2. Read `governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md`.
-3. Read `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv` before presenting any location/cluster/hotel/base as a new choice.
-4. Read only the current task/output files relevant to the active question.
-5. Check PR #23 once before a major build and again immediately before a major central write.
+3. Read THIS file.
+4. Read `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv` before presenting any location/cluster/hotel/base as a new choice.
+5. Read only the current task/output files relevant to the active question.
+6. Check PR #23 once before a major build and again immediately before a major central write.
+
+The boot files must be actually read in the current session. GitHub is durable memory/source-of-truth, but repository rules are not self-executing unless the active INDIA session retrieves and applies them.
 
 ## ACTION-FIRST / NO DEFERRAL — HARD
-If INDIA can safely execute something now, execute it in the same turn before replying. Do not tell Mark what INDIA itself still needs to do when INDIA can do it immediately. Do not stop at a status summary while safe autonomous project work remains.
+If INDIA can safely execute something now, execute it in the same turn before replying. Do not tell Mark what INDIA itself still needs to do when INDIA can do it immediately. Do not stop at a status summary while safe relevant autonomous project work remains.
+
+Mandatory pre-answer loop:
+`SCAN -> DO -> RECORD -> RESCAN -> repeat -> REPLY`.
 
 User-facing regie should be compact:
 `ACTIE UITGEVOERD -> ALLEEN NOODZAKELIJKE EXTERNE MARK-ACTIE -> DOOR`.
@@ -21,6 +27,20 @@ When Mark must start another AI/worker, INDIA first prepares branch, TASK, input
 `kosten` / `gratis` refer only to money. For time/logistics use `reistijd`, `extra reistijd`, `omweg`, `duur`, `looptijd/rijtijd` or `logistieke belasting`.
 
 PR #23 reaffirmation: issuecomment `5392193197`.
+
+## BOOT-AUDIT REPAIR — 2026-08-24
+A real successor-risk was found: the hard no-deferral rule existed, but the boot chain was inconsistent enough that a new INDIA could miss/soften it or be redirected by a stale handoff.
+
+Repairs completed on the central branch:
+- `README.md` now exposes the hard action-first gate before all normal boot text — commit `5fde2c75529438ea0d74ce73316f0554256ed961`;
+- `INDIA_SUCCESSOR_BOOT_PROTOCOL.md` now makes no-deferral mandatory, includes the `SCAN -> DO -> RECORD -> RESCAN` loop and forbids status-only stopping — commit `38fa78c4e4b70f542e9ca3b84b50a6c0957c3b8e`;
+- `INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md` now has aligned boot order, current A+ sequencing and explicit stale-handoff precedence — commit `5f23ac5bca23e6330fa8734a57af309acab24a7d`;
+- `COVERAGE_MATRIX.md` was corrected from stale A/B/C-first sequencing to the current A+-first model and current worker status — commit `44b585958f77c09f4e32d51d6d43cd08fb74be15`.
+
+### Old INDIA8 -> INDIA9 handoff disposition
+`handoffs/INDIA8_TO_INDIA9_FINAL_BOOT_2026-08-23.md` is **HISTORICAL PROVENANCE for current-phase control**.
+
+Its factual travel details may still contain useful provenance, but its statements such as `V2 IS AUTHORITATIVE`, `CURRENT EXECUTION STATE` and the old route-first work order are superseded by THIS file and the A+ decision model. A successor must not use that handoff to move the project back into route/dayplanning before the current re-evaluation is complete.
 
 ## Current central regie branch
 `agent/india8-cluster-casting`
@@ -38,7 +58,7 @@ Existing Mark decisions, permanent IDs and locks must not be silently changed. A
 PR #23 is relay/index; repo files hold durable substance. CCI is a LIGHT second pair of eyes for major central integration/reconciliation, not the traveler-discovery engine. No continuous polling.
 
 ## Current project phase — DELIBERATE RE-EVALUATION
-The project is NOT in booking/application phase.
+The project is NOT in booking/application phase and is NOT yet in final global route/day-card construction.
 
 Underlying location master remains:
 `runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/STATUS.md`
@@ -65,7 +85,7 @@ Hard travel-quality rule: prefer dropping an entire cluster over keeping it in a
 Central task:
 `runs/active/INDIA10-MULTIAI-TRAVELER-DISCOVERY-001/TASK.md`
 
-Inputs now reconciled:
+Inputs reconciled:
 - old North traveler discovery: 26 raw findings;
 - old Ganges/South traveler discovery: 54 raw findings;
 - CCI high-threshold gap-check: 3 findings;
@@ -74,15 +94,11 @@ Inputs now reconciled:
 - external collector: 77 unique COL records from DeepSeek, Grok, Perplexity, Copilot and Gemini.
 
 Raw inputs represented before cross-layer deduplication: **221**.
-
 Canonical traveler/experience union after central identity/experience deduplication: **150 records**.
 
 Durable ledger:
 `runs/active/INDIA10-MULTIAI-TRAVELER-DISCOVERY-001/TRAVELER_EXPERIENCE_MASTER_UNION_LEDGER.md`
 Commit: `f75ed681259ef4ea2d16151537e93f0558489ad2`
-
-External source handoff remains preserved separately:
-`runs/active/INDIA10-MULTIAI-TRAVELER-DISCOVERY-001/EXTERNAL_MULTI_AI_COLLECTOR_HANDOFF.md`
 
 Important union rules:
 - single-AI uniques are retained;
@@ -98,14 +114,16 @@ Central task:
 Commit: `ee310d1f037a4c9f271975d8857b521627814f96`
 
 Eight prepared blind worker branches:
-- `agent/india10-region-tiruvannamalai` — full regional sweep
-- `agent/india10-region-rishikesh-haridwar` — full regional sweep
-- `agent/india10-region-braj` — full regional sweep
-- `agent/india10-region-prayagraj` — full regional sweep
-- `agent/india10-region-agra` — compact high-threshold sweep
-- `agent/india10-region-delhi` — compact high-threshold sweep
-- `agent/india10-region-varanasi-gap` — bounded completion
-- `agent/india10-region-kumaon-gap` — bounded completion/reverse-discovery
+- `agent/india10-region-tiruvannamalai`
+- `agent/india10-region-rishikesh-haridwar`
+- `agent/india10-region-braj`
+- `agent/india10-region-prayagraj`
+- `agent/india10-region-agra`
+- `agent/india10-region-delhi`
+- `agent/india10-region-varanasi-gap`
+- `agent/india10-region-kumaon-gap`
+
+Mark reports all eight were started on 2026-08-24. GitHub check at approximately 10:08 Europe/Amsterdam: **0/8 had yet written a new freeze commit**; all still pointed at the prepared task baseline.
 
 Bodh Gaya/Gaya is GREEN from prior regional saturation acceptance: no generic resweep. Reopen only on a concrete new gap/world-magnet exception.
 
@@ -124,4 +142,4 @@ Do not ask Mark for visa status, send accommodation requests or drive the projec
 `CCI_FINAL_SANITY_011: PASS`
 `STOP_OPTIMIZING: JA`
 
-No new architecture/governance layer is needed.
+No new governance layer was created by the 2026-08-24 repair; existing boot/state files were corrected in place.
