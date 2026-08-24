@@ -1,15 +1,23 @@
 # PROVISIONAL ROUTE CALCULATION BASES — 2026-08-23
 
 Status: REGIE REKENBASIS, NOT HOTEL LOCK.
-Purpose: enable real day-by-day routing calculations now. A REKENBASIS may be replaced later by Mark without invalidating the route architecture if it stays inside the same anchor zone.
+Purpose: enable real day-by-day routing calculations. A REKENBASIS may be replaced later by Mark without invalidating route architecture if it stays inside the same anchor zone.
 
 Rule: fine local travel times are calculated from the concrete property below. Intercluster transport may use station/airport transfer points separately.
 
-## KUMAON — already established multi-base
-1. Joshi Guest House, Kukuchina — LOCKED calculation/stay base.
-2. Hotel Evelyn, Nainital — CLUSTER_ANCHOR + historic site A; heritage value outranks comfort. Maintenance, primitive bedding or heating surcharge are NOT rejection reasons for Mark. Exact Ram Dass room/wing remains targeted independent research.
-3. Turiya Niwas, Crank's Ridge — PROVISIONAL SLEEP LOCK + site A.
-4. Haidakhan Vishwa Mahadham / ashram stay — separate experiential module; use as the local calculation origin if overnight stay is accepted/available.
+## IMPORTANT SUPERSEDE — 2026-08-24
+The old line treating **Turiya Niwas (kluizenaarswoning van Alfred “Sunyata” Sorensen op Crank’s Ridge)** as `PROVISIONAL SLEEP LOCK` is superseded by Mark's later 2026-08-23 decision dropping the dedicated Kasar Devi/Almora side module. Turiya Niwas remains historical old-A provenance only and may be reconsidered only if later A+-centric geometry shows a tolerable detour. Do NOT reserve nights there by default.
+
+## KUMAON — CURRENT A+ SPINE / CALCULATION BASES
+1. **Joshi Guest House, Kukuchina (verblijf-/rekenbasis voor de Babaji-grotzone boven Kukuchina/Dunagiri)** — LOCKED calculation/stay base.
+2. **Hotel Evelyn, Nainital (historisch hotel waar Ram Dass verbleef; tevens A+ locatie en Nainital-rekenbasis)** — CLUSTER_ANCHOR; heritage value outranks comfort. Exact Ram Dass room/wing remains targeted independent research.
+3. **Haidakhan Ashram (Haidakhan Babaji-pelgrimsashram; aparte A+ ervarings- en overnachtingsmodule)** — use as local calculation origin if overnight stay is accepted/available.
+4. **Kainchi Dham (Neem Karoli Baba-ashramcomplex; A+ kernplek voor Neem Karoli Baba en Ram Dass)** — A+ destination calculated primarily from the Nainital/Hotel Evelyn module unless later geometry proves another routing more efficient.
+
+### DE-PRIORITIZED SIDE MODULE
+- **Kasar Devi / Crank’s Ridge / Almora (afzonderlijke heuvelrug-/Almora-zijmodule met onder meer Turiya Niwas en Bodh Ashram)** — no dedicated sleep module by default.
+- **Turiya Niwas (kluizenaarswoning van Alfred “Sunyata” Sorensen op Crank’s Ridge)** and **Bodh Ashram (voormalig landgoed van Evans-Wentz/Lama Govinda op Crank’s Ridge; bezocht door Anandamayi Ma en Neem Karoli Baba)** remain preserved for later old-A promotion/logistics review only.
+- Reopening requires actual A+-centric detour math; old A labels alone cannot reopen this module.
 
 ## VARANASI
 - Sahi River View Guesthouse, Assi Ghat — LOCKED_BY_MARK.
@@ -52,15 +60,5 @@ Rule: fine local travel times are calculated from the concrete property below. I
 ### fallback
 - Hotel Taj Plaza / Taj Classic / similar East Gate walkable property; key invariant is walkability to East Gate, not comfort level.
 
-## WHY THIS IS ENOUGH TO START ROUTING
-The exact final property is not required to build the first real itinerary. What matters is a concrete calculation origin inside the correct anchor zone. If Mark later changes a property within the same zone, day-route timings change by minutes rather than invalidating the whole itinerary.
-
-## NEXT EXECUTION
-Use these calculation bases to build the first full 34-day itinerary proposal for the six heavy clusters, with:
-- actual transfer days;
-- local A-site groupings;
-- realistic buffer/rest time;
-- Taj sunrise constraint;
-- trip calendar/festival/closure constraints;
-- no Haridwar/Rishikesh insertion until heavy-core capacity is visible;
-- Prayagraj treated separately as a reconciliation/corridor decision rather than silently inserted.
+## CURRENT EXECUTION RULE
+Do not build final global route yet. First finish A+ location selection, then current-old-A promotion, then A+-centric proximity/traveler overlay and ordinary A/B/C per fixed core cluster. Only afterward derive true cluster duration and compare route-sensitive clusters.
