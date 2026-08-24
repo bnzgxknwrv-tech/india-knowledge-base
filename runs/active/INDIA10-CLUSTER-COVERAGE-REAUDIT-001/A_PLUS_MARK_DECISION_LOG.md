@@ -36,6 +36,9 @@ Current-trip superseding disposition:
 - **VARANASI / PANCHGANGA / Shri Tailanga Swami Math + Panchganga Ghat + Bindu Madhav Temple (compacte heilige wereld rond yogi Tailanga Swami)** — huidige status: A+; promoted by Mark 2026-08-24 from old A.
 - **VARANASI / BHADAINI / Shree Shree Ma Anandamayi Ashram (bezoekbaar ashram van Anandamayi Ma in Varanasi)** — huidige status: A+; promoted by Mark 2026-08-24 from old A.
 - **VARANASI / OLD CITY / Kashi Vishwanath sacred core (grote Shiva-tempel met nabijgelegen Annapurna- en Vishalakshi-heiligdommen)** — huidige status: A+; promoted by Mark 2026-08-24 from old A.
+- **VARANASI / MANIKARNIKA / Manikarnika Ghat (heilige crematieghat waar Lahiri Mahasaya op 26 september 1895 na zijn mahasamadhi met householder rites werd gecremeerd; Ratneshwar Mahadev Temple ligt in dezelfde ghat-zone)** — huidige status: A+; promoted by Mark 2026-08-24 from old A. Naming rule: always include the Lahiri-cremation significance when showing this site to Mark.
+- **VARANASI / DASHASHWAMEDH / Dashashwamedh Ghat + Shitala Mata Temple (centrale ceremonieghat waar de grote Ganga Aarti plaatsvindt)** — huidige status: A+; promoted by Mark 2026-08-24 from old A.
+- **VARANASI / ASSI / Assi Ghat (zuidelijke Ganges-ghat en belangrijk ochtend-/pelgrimsanker)** — huidige status: A+; promoted by Mark 2026-08-24 from old A.
 
 ### BODH GAYA / GAYA
 - `046` **BODH GAYA / BODH GAYA / Mahabodhi Temple Complex (Boeddha-verlichtingscomplex)** — huidige status: A+ PARENT.
