@@ -21,7 +21,7 @@ Every Indian/non-obvious place, institution, temple, ashram, ghat, cave, festiva
 Format: `Naam (wat het concreet is / waarom het voor deze reis relevant is)`.
 Do this every time, even when the name was explained earlier. Do not assume Mark will remember Indian names a month later.
 Specific permanent display rule: never write `Nirmal Dham` by itself. Always write at least `Nirmal Dham (rustplaats/Mahasamadhi van Shri Mataji Nirmala Devi)`.
-Globally self-explanatory names such as Taj Mahal do not require a parenthetical explanation, though extra context may still be useful.
+Globally self-explanatory names such as Taj Mahal do not require a parenthetical explanation.
 
 `kosten` / `gratis` refer only to money. For time/logistics use `reistijd`, `extra reistijd`, `omweg`, `duur`, `looptijd/rijtijd`, `logistieke belasting`.
 
@@ -59,7 +59,7 @@ Two A+ levels:
 
 ## EXPLICIT A+ LOCATIONS ALREADY RECORDED
 Decision log: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md`.
-- K1 — Mahavatar Babaji's Cave (huidige bezoekbare Babaji-pelgrimsgrot boven Kukuchina/Dunagiri) — A+.
+- K1 — Mahavatar Babaji's Cave (bezoekbare Babaji-pelgrimsgrot boven Kukuchina/Dunagiri) — A+.
 - V1 — Lahiri Mahasaya original home (oorspronkelijke woonhuis van Lahiri Mahasaya in Varanasi) — A+.
 - B1 — Bodhi Tree (heilige boom op de plek van Boeddha's verlichting binnen het Mahabodhi-complex) — A+.
 - D1 — Nirmal Dham (rustplaats/Mahasamadhi van Shri Mataji Nirmala Devi, Chhawla/Delhi) — A+.
@@ -69,20 +69,22 @@ Tiruvannamalai/Arunachala is fixed at cluster level; its complete A+ location se
 
 Intrinsic-anchor checklist: `FIXED_CORE_A_PLUS_ANCHOR_SELECTION_MASTER.md`.
 Selected identity baseline: `SELECTED_A_PLUS_ANCHOR_IDENTITY_BASELINE.md`.
+Assistant advice-only proposal: `ASSISTANT_PROPOSED_A_PLUS_FOR_MARK_REVIEW.md`.
 
-## HARD METHOD — A+ FIRST, LP/TRAVELER SECOND
+## HARD METHOD — FIRST A+, THEN OLD-A PROMOTION, THEN LP/TRAVELER
 Authority: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_PROXIMITY_DECISION_MODEL.md`.
 
 For each fixed cluster:
-1. Mark completes all intrinsic A+ locations FIRST.
-2. INDIA closes identity/coordinate confidence for chosen A+ anchors.
-3. INDIA overlays EVERY preserved old A + regional candidate + traveler/Lonely-Planet finding.
-4. For every non-A+ candidate compute nearest/relevant A+, real walking/driving/boat time, useful distance, incremental extra travel time/omweg, same compound/walkable/natural bundle/separate excursion and isolation.
-5. Only then Mark re-rates ordinary A/B/C.
-6. INDIA builds realistic complete-execution schedule and true cluster duration/minimum nights.
-7. Repeat for all six fixed worlds.
-8. Only then test route-sensitive/reserve clusters against remaining trip time.
-9. Global route/quarter-hour itinerary last.
+1. Mark confirms/rejects the concise obvious-A+ proposal.
+2. BEFORE any traveler/LP grading, INDIA presents every preserved existing A-location that is not already A+; Mark may promote additional old A locations to A+.
+3. Only when that A+ set is complete enough does INDIA close identity/coordinate confidence for selected A+ anchors.
+4. INDIA overlays every remaining old A/B/C + regional + traveler/Lonely-Planet finding.
+5. For every non-A+ candidate compute nearest/relevant A+, real walking/driving/boat time, useful distance, incremental extra travel time/omweg, same compound/walkable/natural bundle/separate excursion and isolation.
+6. Only then Mark re-rates ordinary A/B/C.
+7. INDIA builds realistic complete-execution schedule and true cluster duration/minimum nights.
+8. Repeat for all six fixed worlds.
+9. Only then test route-sensitive/reserve clusters against remaining trip time.
+10. Global route/quarter-hour itinerary last.
 
 Mark logic: an otherwise-A location requiring ~3 h separate travel may become B; comparable value ~15 min from an A+ may remain/become A.
 
@@ -93,15 +95,18 @@ Pre-A+ reusable work complete: `PRE_A_PLUS_AUTONOMOUS_PREWORK.md` + `FIXED_DATE_
 Known operational corrections already closed include ARIES public astronomy, Ramanasramam lodging rules, Karthigai Deepam outside trip, Tiruvannamalai full moon 24 Dec, Taj Dec night-view window, Rajgir old chairlift unavailable/current cabin, Haridwar 14 Jan opening, Prayagraj Magh Mela 15 Jan start.
 
 ## OPEN-LOOP AUDIT — CURRENT
-No missing autonomous prerequisite remains before intrinsic A+ location selection.
-Intentionally waiting on Mark because it logically depends on his A+ choices:
-- complete remaining intrinsic A+ set;
-- nearest-A+ geometry;
-- LP/traveler/regional proximity overlay;
-- ordinary A/B/C re-rating;
+No missing autonomous prerequisite remains before Mark's first A+ review.
+Known geo items are staged, not forgotten:
+- K1 Babaji's Cave exact GPS remains open and must close before proximity math;
+- Turiya Niwas and Bodh Ashram coordinates are only prioritized if Mark promotes them to A+.
+Intentionally waiting on Mark because it logically depends on his decisions:
+- confirm/correct the obvious-A+ proposal;
+- old-A promotion pass;
+- then nearest-A+ geometry and LP/traveler/regional overlay;
+- ordinary A/B/C;
 - complete cluster duration/nights;
 - route-sensitive cluster competition;
 - final global route.
 
 ## CURRENT FRONTIER
-Present Mark with a concise numbered proposal of likely intrinsic A+ locations across the six fixed clusters, ALWAYS using the descriptive-name rule. Mark says yes/no/corrections. Record immediately, then continue automatically.
+Present Mark with the concise numbered assistant-proposed A+ list across the six fixed clusters, ALWAYS using descriptive-name rule. Mark says yes/no/corrections. Record immediately, then run the old-A promotion pass automatically.
