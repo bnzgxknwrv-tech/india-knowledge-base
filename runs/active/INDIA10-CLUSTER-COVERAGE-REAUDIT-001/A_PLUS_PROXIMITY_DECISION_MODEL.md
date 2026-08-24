@@ -1,23 +1,23 @@
-# INDIA10 A+ / PROXIMITY DECISION MODEL
+# INDIA10 A+ / PROXIMITY / CORRIDOR DECISION MODEL
 
 status: ACTIVE_MARK_REEVALUATION_RULE
 updated: 2026-08-24
 central_branch: agent/india8-cluster-casting
 
 ## PURPOSE
-Ordinary A/B/C cannot be judged responsibly before the intrinsically non-negotiable anchors are identified and the practical proximity of all other candidates to those anchors is known.
-Only Mark assigns A+, A, B or C, but once Mark designates a parent complex/compound/sacred micro-world A+, INDIA applies inheritance and corridor logic without bouncing obvious geometry back to Mark.
+Ordinary A/B/C cannot be judged responsibly before the intrinsically non-negotiable A+ anchors are identified and the practical geometry between those anchors is known.
+Only Mark assigns A+, A, B or C. INDIA must do the geography, bundling, corridor and time reasoning first so Mark is never asked to infer where places lie.
 
-## HARD DISPLAY RULE
-Every non-obvious Indian place/site/institution/festival/local term shown to Mark immediately gets a short plain-Dutch explanation in parentheses, every time it is mentioned. Never rely on remembered names.
+## HARD USER-FACING FORMAT
+Every non-obvious location is shown as:
+`CLUSTER / PLAATS / PLEK (korte Nederlandse uitleg) — huidige status: A+ / A / B / C / OPEN`.
+Never rely on Mark remembering an Indian/local name.
 Never display `Nirmal Dham` alone; use `Nirmal Dham (rustplaats/Mahasamadhi van Shri Mataji Nirmala Devi)`.
-
-## TERMINOLOGY — HARD
-Use cost/kosten only for money. For planning use duration, extra travel time, detour, walking/driving time and logistical burden. Never use `gratis` for small time impact.
+`kosten` / `gratis` are money-only terms; logistics use reistijd, extra reistijd, omweg, duur, loop-/rijtijd.
 
 ## TWO LEVELS
 ### A+ CLUSTER / FIXED TRAVEL WORLD
-Definitely part of the trip. Current fixed core:
+Current fixed core:
 - Kumaon;
 - Varanasi / Sarnath;
 - Bodh Gaya / Gaya;
@@ -29,61 +29,80 @@ Definitely part of the trip. Current fixed core:
 A place/experience intrinsically among the real reasons for the India journey, independent of convenience.
 
 ## PARENT-COMPLEX A+ INHERITANCE — HARD
-Do NOT ask Mark to vote separately on every micro-site when he has already made the meaningful parent A+.
-1. SAME_PHYSICAL_SITE, SAME_PHYSICAL_COMPLEX and true PARENT_CHILD micro-sites inherit A+ automatically as CHILD_A_PLUS.
-2. Rooms, halls, shrines, samadhis, courtyards, bridges, rocks, riverbank microspots and other on-compound details stay nested under the parent.
-3. A nearby physically distinct site may be auto-bundled when genuinely walkable/naturally part of the same visit and not a material separate excursion.
-4. A site several kilometres away, across difficult terrain/river, or requiring material separate drive remains separate.
-5. Display parent first, then important child details in plain language.
-6. If Mark explicitly says an entire sacred local world is A+, INDIA may define a broader parent A+ and include natural local components while still flagging materially separate excursions.
+Do not ask Mark to vote separately on every room/shrine/micro-site when a meaningful parent is already A+.
+- SAME_PHYSICAL_SITE / SAME_COMPLEX / true PARENT_CHILD -> CHILD_A_PLUS.
+- Rooms, shrines, courtyards, rocks, bridge spots and other on-compound details stay nested.
+- A nearby distinct site may be auto-bundled if genuinely walkable/natural and not a material separate excursion.
+- A material drive/hike/river crossing remains a separate candidate.
 
 Controlling examples:
-- Kainchi Dham (Neem Karoli Baba-ashramcomplex): preserved on-compound NKB/Ram Dass child sites inherit A+.
-- Mahabodhi Temple Complex (Boeddha-verlichtingscomplex): Bodhi Tree/internal enlightenment micro-sites inherit; Sujata/Dungeshwari remain physically distinct.
-- Arunachala/Ramana sacred world: core Ramana ashram/hill/local-life sites are treated as one parent world, while any material remote excursion remains visible.
+- Kainchi Dham (Neem Karoli Baba-ashramcomplex): on-compound NKB/Ram Dass microsites inherit A+.
+- Mahabodhi Temple Complex (Boeddha-verlichtingscomplex): Bodhi Tree/internal enlightenment microsites inherit A+; Sujata/Dungeshwari remain physically separate.
+- Arunachala/Ramana sacred world: direct Ramana ashram/hill/local-life core is one A+ parent world; remote excursions remain visible.
 
-## A+ CORRIDOR CAPTURE — GLOBAL HARD / MARK 2026-08-24
-Nearest-A+ distance alone is NOT enough. Before any ordinary A/B/C re-rating in a fixed cluster, INDIA must connect the mandatory A+ anchors/bases into realistic transfer corridors and test every candidate against those corridors.
+## A+ CORRIDOR CAPTURE — GLOBAL HARD
+Nearest-A+ distance alone is not enough. First connect the fixed A+ anchors/bases into realistic mandatory transfer corridors. Then test every old A/B/C, regional and traveler/LP finding against those corridors.
 
 Required corridor classes:
-- `ON_CORRIDOR` — naturally passed on a transfer that must happen anyway;
-- `SMALL_TRANSFER_DETOUR` — short taxi/road/walk deviation from mandatory transfer;
-- `ALTERNATIVE_CORRIDOR_BUNDLE` — choosing a somewhat longer transfer route captures several desirable sites together without requiring a dedicated sleep module;
-- `TRUE_SIDE_EXCURSION` — materially separate out-and-back/half-day/full-day beyond the mandatory transfer.
+1. `ON_CORRIDOR` — naturally passed during a transfer that must happen anyway.
+2. `SMALL_TRANSFER_DETOUR` — short taxi/road/walk deviation from a mandatory transfer.
+3. `ALTERNATIVE_CORRIDOR_BUNDLE` — a somewhat longer transfer route captures several meaningful sites together without requiring a new sleep module.
+4. `TRUE_SIDE_EXCURSION` — materially separate out-and-back / half-day / full-day beyond the mandatory transfer.
+5. `OFF_CORRIDOR_DROP` — practically poor fit and insufficient intrinsic importance to justify reopening time/route.
 
 For each candidate show:
-- relevant corridor endpoints (FROM A+ -> TO A+);
-- base transfer distance/time without candidate;
-- candidate-added road/walk distance/time;
-- visit time separately from transfer time;
-- whether other A/B/C/traveler sites can be bundled into the same detour;
-- whether it changes nights or only changes a transfer day.
+- corridor `FROM A+ -> TO A+`;
+- mandatory baseline transfer without candidate;
+- extra road/walk time caused by candidate;
+- visit time separately;
+- taxi/driver capture practicality;
+- other sites bundled into same deviation;
+- whether it changes only a transfer day or creates a separate half/full day/night.
 
-Marks explicit preference: a former/current A that would not justify a dedicated sleep module can still be highly desirable if it is an easy transfer catch. Do not suppress it merely because its former cluster module was dropped. `DROPPED MODULE != DROPPED SITE`.
+`DROPPED MODULE != DROPPED SITE`.
+A place that once looked awkward may remain A because it becomes a very easy corridor catch. Conversely an old A may become C if it is a genuine side excursion and no longer deserves the time.
 
-Kumaon implementation lives in `KUMAON_A_PLUS_CORRIDOR_MATRIX.md` and is controlling for current Kumaon review.
+## CORRIDOR TRIAGE — HARD ORDER
+To reduce Mark's decision burden, INDIA reviews candidates in this order:
 
-## HARD TRAVEL QUALITY RULE
-Fixed core clusters are already retained; determine how much time they truly require when done properly. Do not compress them merely to preserve later clusters.
+### 1. HARD PRACTICAL CUTS FIRST
+Identify candidates that are clearly `TRUE_SIDE_EXCURSION` or `OFF_CORRIDOR_DROP` and whose intrinsic importance does not approach A+.
+Present these first with a hard recommendation to cut. Mark alone confirms C.
+
+### 2. EASY CAPTURES SECOND
+Identify `ON_CORRIDOR` and `SMALL_TRANSFER_DETOUR` sites that Mark already liked. These get strong retention advice because the incremental burden is low.
+
+### 3. BUNDLED ALTERNATIVE CORRIDORS THIRD
+Only then compare route variants that capture multiple worthwhile places together. Judge the whole bundle against the extra transfer time, never each site as if it created a separate day.
+
+### 4. TRUE SUBJECTIVE TIES LAST
+Only the remaining genuinely balanced cases go back to Mark for difficult choice.
+
+## WORKING LOGISTICS BANDS — ADVISORY, NOT AUTOMATIC GRADES
+These are planning bands, not replacement for judgement and not automatic A/B/C rules:
+- about 0–15 min extra driving/walking: near-zero corridor friction;
+- about 15–30 min extra: easy catch;
+- about 30–90 min extra: plausible bundle / transfer-day enrichment;
+- about 90–150 min extra: meaningful route conversion; retain only if several strong sites are captured or one site matters a lot;
+- over about 150 min extra or a standalone half/full day: true excursion; default hard-cut recommendation unless intrinsic importance is near A+.
+Mountain roads, access windows, ferries, traffic and winter conditions override these bands when needed.
 
 ## DECISION ORDER — HARD
 1. Discovery complete enough: person/AOAY + regional + traveler/LP + world-magnet universes exist.
 2. Fixed core cluster set locked for this costing phase.
-3. FIRST A+ PASS: Mark confirms/rejects parent/anchor A+ proposals; INDIA applies parent inheritance automatically.
-4. OLD-A PROMOTION PASS: review preserved existing A-locations not already covered by A+ parent, but never without corridor context when geometry may alter their practical value.
-5. Resolve physical identity/coordinate confidence for selected A+ parents/anchors.
-6. Build mandatory A+ transfer corridors inside each fixed cluster/world.
-7. Overlay every remaining old A/B/C, regional candidate and traveler/Lonely-Planet finding against BOTH nearest/relevant A+ AND the A+ transfer corridors; compute trustworthy identity, useful distance, real travel time, incremental detour, corridor class, natural bundle and isolation.
-8. Only then Mark re-rates ordinary A/B/C.
-9. Build realistic complete-execution schedule for fixed cluster.
-10. Derive true minimum duration/nights.
-11. Repeat through all fixed core clusters.
-12. After fixed-core footprint, evaluate route-sensitive/reserve clusters.
-13. Global route / quarter-hour itinerary last.
+3. FIRST A+ PASS: Mark confirms parent/anchor A+; INDIA applies parent inheritance.
+4. OLD-A PROMOTION / CORRIDOR PASS: build A+ corridors first; then hard cuts -> easy catches -> bundled alternatives -> true ties.
+5. Resolve physical identity/coordinate confidence for selected A+ parents/anchors and corridor-critical candidates.
+6. Overlay every remaining old A/B/C, regional candidate and traveler/Lonely-Planet finding against BOTH nearest/relevant A+ AND the A+ transfer corridors.
+7. Only then Mark re-rates ordinary A/B/C.
+8. Build realistic complete-execution schedule for fixed cluster.
+9. Derive true minimum duration/nights.
+10. Repeat through fixed core clusters.
+11. After fixed-core footprint, evaluate route-sensitive/reserve clusters.
+12. Global route / quarter-hour itinerary last.
 
-## PROXIMITY + CORRIDOR METRIC
-Reuse `PROXIMITY_1KM_3KM_MATRIX.csv` but kilometres alone never decide.
-Required fields where feasible:
+## REQUIRED METRICS
+Where feasible:
 - nearest_A_plus
 - distance_km
 - travel_mode
@@ -100,15 +119,21 @@ Required fields where feasible:
 - base_transfer_time
 - added_transfer_time
 - visit_time
+- taxi_capture_practical
+- additional_half_day_required
+- additional_full_day_required
 - additional_night_required
 
 Straight-line distance never substitutes for route reality in mountains, across rivers, restricted zones or poor-road areas.
 
-## PROVENANCE
-Existing A/B/C and locks remain visible provenance. This reevaluation lets Mark supersede them only after current process; no worker/INDIA may silently alter them.
+## CURRENT KUMAON PROOF OF METHOD
+`KUMAON_A_PLUS_CORRIDOR_MATRIX.md` showed why this method matters:
+- Kakrighat (Vivekananda-realisatieplek aan de Kosi) looked weak when judged as an isolated Almora-side point, but becomes a strong retained A as a small detour on Kainchi -> Kukuchina/Babaji transfer.
+- Jageshwar, Ramakrishna Kutir, Chitai, Turiya Niwas and Bodh Ashram were explicitly changed by Mark to C once corridor/time reality was shown.
+Latest decision source: `KUMAON_CORRIDOR_MARK_DECISION_2026-08-24.md`.
 
-## GEO WORK
-Coordinate work prioritizes selected A+ anchors first, then candidates needed for contextual A/B/C review. Never guess GPS.
+## PROVENANCE
+Existing A/B/C and locks remain visible provenance. Mark may supersede them in this reevaluation; workers/INDIA may not silently alter grades.
 
 ## CURRENT CONSEQUENCE
-Do not present child-site ballot lists. Do not present isolated old-A distance lists. Present parent A+ worlds and corridor-aware materially separate candidates only.
+Do not present child-site ballot lists. Do not present isolated distance lists. Do not make Mark reconstruct geography. Present corridor-aware decision cards, starting with hard practical cuts.
