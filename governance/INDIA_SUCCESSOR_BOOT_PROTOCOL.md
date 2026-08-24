@@ -1,20 +1,21 @@
 # INDIA SUCCESSOR BOOT PROTOCOL — BINDING
 
 Status: BINDING for INDIA10+ until explicitly superseded.
-Effective: 2026-08-23; action-first hardening: 2026-08-24.
+Effective: 2026-08-23; action-first hardening: 2026-08-24; continuous-replaceability hardening: 2026-08-24.
 Purpose: preserve useful travel knowledge without turning this personal travel repository into a compliance system, while making the few truly critical rules unavoidable.
 
 ## The rule in one sentence
-Read the binding current rules and state, protect Mark's existing decisions, execute every safe relevant step you can now, rescan for remaining executable work, and only then answer Mark.
+Read the binding current rules and state, protect Mark's existing decisions, execute every safe relevant step you can now, continuously persist enough state that a successor can take over without Mark repeating anything, rescan for remaining executable work, and only then answer Mark.
 
 ## 1. Normal start — mandatory order
 A new IndiaN reads, in this order:
 1. `README.md`;
 2. `governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md`;
-3. `governance/CURRENT_STATE.md`;
-4. `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv`;
-5. the current task/output files relevant to Mark's request;
-6. recent PR #23 exchanges not yet handled when they materially affect the task, and again immediately before a major central write.
+3. THIS file `governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md`;
+4. `governance/CURRENT_STATE.md`;
+5. `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv`;
+6. the current task/output files relevant to Mark's request;
+7. recent PR #23 exchanges not yet handled when they materially affect the task, and again immediately before a major central write.
 
 This is normally enough. There is no routine requirement to reread the whole repository, compute byte percentages or recertify old unchanged files.
 
@@ -85,19 +86,54 @@ Allowed open items are only:
 
 `Do not manufacture work` still applies: do not invent irrelevant audits or bureaucracy. But relevant autonomous project work already implied by the active task/state is NOT manufactured work and must be executed.
 
-## 10. Good-enough threshold
+## 10. CONTINUOUS REPLACEABILITY / CRASH-SAFE CHECKPOINT — GLOBAL HARD
+A running IndiaN is disposable. It may be replaced by IndiaN+1 after any message or while context is becoming long. Therefore continuity may NEVER depend on the current chat/model retaining context.
+
+This is a standing pre-answer gate, not a handoff ceremony.
+
+After every material event — including a Mark decision, correction, research closure, worker integration, route/method change or active-frontier change — IndiaN must ask:
+
+`IF I DISAPPEAR NOW, CAN INDIA(N+1) CONTINUE FROM GITHUB WITHOUT MARK REPEATING OR RECONSTRUCTING ANYTHING?`
+
+If NO, update GitHub before replying or proceeding to a Mark-only decision.
+
+The durable continuation state must make clear, where applicable:
+- newest Mark decisions/supersedes;
+- current phase and exact frontier;
+- what was actually completed/integrated;
+- which current output/decision files contain the working truth;
+- any relevant unfinished work that genuinely remains and whether it is autonomous, Mark-only, external or blocked;
+- known methodological/display rules that materially control the next action;
+- no hidden assumption that exists only in the chat.
+
+Hard rules:
+- do NOT wait until Mark announces INDIA11/12 or until context is visibly exhausted;
+- do NOT keep material continuation state only in memory because "we are still in the same chat";
+- do NOT make a successor infer current truth from dozens of old commits when `CURRENT_STATE.md` can point directly to it;
+- do NOT ask Mark to repeat decisions/work after replacement when GitHub could have carried them;
+- if context is getting long, checkpoint FIRST, then continue executing; context pressure is not permission to defer current work.
+
+Trivial conversational wording does not require a commit. Material project state does.
+
+## 11. Good-enough threshold
 IndiaN may say `READY_TO_CONTINUE` when it has enough current context to act responsibly: current state + protected canon + relevant current files + material recent relay delta.
 
 If those sources disagree, resolve the disagreement first. Otherwise continue. No `100% knowledge` percentage is required.
 
 `READY_TO_CONTINUE` is not permission to stop: if relevant work is executable, continue executing it.
 
-## 11. Successor handoff safety
-Before an IndiaN session hands control to IndiaN+1 after material work:
-- ensure `CURRENT_STATE.md` reflects the real active phase;
-- ensure any stale handoff that could override/mislead the next session carries an explicit supersede notice;
-- do not rely on chat memory to carry the action-first rule;
-- the next session must still boot from README + critical no-deferral + CURRENT_STATE, not from a remembered summary alone.
+## 12. Successor handoff safety
+A successor-safe checkpoint is maintained continuously under section 10. Therefore a planned IndiaN -> IndiaN+1 switch should require almost no special handoff work.
+
+Before an explicit handoff after material work, verify only that:
+- `CURRENT_STATE.md` reflects the real active phase/frontier;
+- newest material Mark decisions are durable;
+- exact active files are pointed to;
+- any stale handoff that could override/mislead the next session carries an explicit supersede notice;
+- no unfinished autonomous action is hidden only in the outgoing chat;
+- the next session boots from README + critical no-deferral + THIS protocol + CURRENT_STATE, not from a remembered summary alone.
+
+If these conditions are already true because continuous replaceability was followed, do not create redundant handoff bureaucracy.
 
 ## Historical note
 The heavier task-008 baseline/gate architecture and INDIA9 audit remain in Git history and archive as provenance. They solved a real one-time knowledge-loss problem. Their detailed percentage gates, blob taxonomies and certification mechanics are intentionally not standing daily requirements anymore.
