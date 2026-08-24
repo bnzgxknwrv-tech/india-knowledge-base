@@ -17,9 +17,23 @@ Mandatory loop: `SCAN -> DO -> RECORD -> RESCAN -> repeat -> REPLY`.
 A user interruption does not cancel unfinished work unless Mark explicitly STOPs/cancels/supersedes it.
 Every INDIA-regisseur is disposable. Before reply ask: `IF THIS INDIA DISAPPEARS NOW, CAN THE NEXT INDIA CONTINUE FROM GITHUB ALONE?` If not, update GitHub first.
 
-## USER-FACING FORMAT — HARD
-Every non-obvious site is shown as:
-`CLUSTER / PLAATS / PLEK (korte Nederlandse uitleg) — huidige status: A+ / A / B / C / OPEN`.
+## USER-FACING NAME PROTOCOL — ABSOLUTE HARD
+Every Indian/non-obvious place, institution, temple, ashram, ghat, cave, festival, local term or experience shown to Mark MUST be written as:
+`CLUSTER / PLAATS / PLEK (korte Nederlandse uitleg: wat het concreet is / waarom relevant) — huidige status: A+ / A / B / C / OPEN`.
+
+This applies **EVERY SINGLE TIME THE NAME APPEARS**, including:
+- compact recaps;
+- status summaries;
+- one-line decision confirmations;
+- parenthetical side references;
+- tables;
+- headings/subheadings;
+- comparison sentences;
+- follow-up messages in the same conversation;
+- names already explained earlier in the same answer or chat.
+
+Forbidden examples include bare shorthand such as `Tulsi Ghat A`, `Sankat Mochan A`, `Sujata A+`, `Dungeshwari A+`, `Turiya Niwas C`, or any similar name+grade abbreviation.
+Bold formatting is allowed and encouraged when it improves scanability, but NEVER replaces the parenthetical Dutch explanation.
 Never rely on Mark remembering Indian/local names.
 Never write Nirmal Dham alone: `DELHI / CHHAWLA / Nirmal Dham (rustplaats/Mahasamadhi van Shri Mataji Nirmala Devi) — A+`.
 For Manikarnika always preserve: `VARANASI / MANIKARNIKA / Manikarnika Ghat (heilige crematieghat waar Lahiri Mahasaya werd gecremeerd) — ...`.
@@ -93,12 +107,12 @@ Reserve/deferred until fixed-core footprint known: Braj/Vrindavan/Mathura/Govard
 
 ## LATEST ORDINARY GRADES — MARK 2026-08-24
 ### KUMAON
-- Kakrighat (Vivekananda-realisatieplek aan de Kosi) — A because easy transfer catch.
-- Jageshwar Dham + Dandeshwar — C.
-- Ramakrishna Kutir — C.
-- Chitai Golu Devta Temple — C.
-- Turiya Niwas — C.
-- Bodh Ashram — C.
+- KUMAON / KAKRIGHAT / Kakrighat (Kosi-rivierplek waar Vivekananda in 1890 een belangrijke realisatie had) — A; easy transfer catch.
+- KUMAON / JAGESHWAR / Jageshwar Dham + Dandeshwar (grote vroegmiddeleeuwse Shiva-tempelgroepen in deodarwoud) — C.
+- KUMAON / ALMORA / Ramakrishna Kutir (levend Ramakrishna Mission-retraitecentrum; Sri Ramakrishna verbleef hier niet) — C.
+- KUMAON / CHITAI / Chitai Golu Devta Temple (Kumaoni tempel met duizenden bellen en verzoeken om gerechtigheid) — C.
+- KUMAON / CRANK'S RIDGE-KASAR DEVI / Turiya Niwas (historische kluizenaarswoning van Alfred 'Sunyata' Sorensen) — C.
+- KUMAON / CRANK'S RIDGE-KASAR DEVI / Bodh Ashram (voormalige Evans-Wentz/Lama Govinda-zoekersplek; bezocht door Anandamayi Ma en Neem Karoli Baba) — C.
 Do not re-present these five C rows unless explicitly reopened.
 
 ### VARANASI / SARNATH EASY-CAPTURE DECISIONS
@@ -115,11 +129,11 @@ Do not re-present these five C rows unless explicitly reopened.
 
 ## CURRENT FRONTIER
 The hard-cut and easy-capture old-A passes are resolved except for two Varanasi content choices:
-1. VARANASI / KABIR CHAURA / Kabir Chaura Math (levend centrum van mysticus/dichter Kabir en Kabir Panth) — current A; ~1.47 km straight-line from Panchganga A+, short city diversion.
+1. VARANASI / KABIR CHAURA / Kabir Chaura Math (levend centrum van mysticus/dichter Kabir en de Kabir Panth) — current A; ~1.47 km straight-line from Panchganga A+, short city diversion.
 2. VARANASI / ADI KESHAVA–RAJGHAT / Adi Keshava Ghat + Temple (Vishnu-heiligdom bij de Varuna–Ganges-samenvloeiing; klassieke noordgrens van heilig Kashi) — current A; ~3–3.5 km / ~15–20 min road class from Panchganga A+.
 After these two Mark choices, old-A promotion is closed. Then execute full regional + traveler/Lonely-Planet overlay against all A+ corridors using the same `hard cuts -> easy captures -> alternative bundles -> ties` method.
 
 ## OPEN AUTONOMOUS GEO WORK
-- Mahavatar Babaji Cave exact protected GPS remains open before final precise Kumaon route math.
-- Haidakhan Ashram <-> historical Haidakhan cave exact route relation remains to close before final schedule.
+- KUMAON / KUKUCHINA-DUNAGIRI / Mahavatar Babaji's Cave (bezoekbare YSS/Kriya-pelgrimsgrot; hoofdreden voor de reis) — exact protected GPS remains open before final precise Kumaon route math.
+- KUMAON / HAIDAKHAN / Haidakhan Ashram (Haidakhan Babaji-pelgrimsashram; gewenste ashramovernachting) <-> Historische Haidakhan-grot (grot uit aparte Haidakhan Babaji-traditie) — exact route relation remains to close before final schedule.
 - Exact trip-day times must later be live-routed in winter conditions; never fake precision.
