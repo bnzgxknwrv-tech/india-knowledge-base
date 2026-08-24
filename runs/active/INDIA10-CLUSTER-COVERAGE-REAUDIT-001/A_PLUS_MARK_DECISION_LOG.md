@@ -9,6 +9,7 @@ updated: 2026-08-24
 - Parent-complex A+ inheritance applies to true same-site/same-compound children.
 - User-facing format is always `CLUSTER / PLAATS / PLEK (korte Nederlandse uitleg) — huidige status`.
 - Corridor geometry must be shown before ordinary grading when transfer fit can change practical value.
+- Never abbreviate the two Bodh Gaya A+ sites to only `Sujata` or `Dungeshwari` in Mark-facing text. Always use the full explanatory forms below.
 
 ## CURRENT A+ SPINE
 ### KUMAON
@@ -36,6 +37,8 @@ updated: 2026-08-24
 ### BODH GAYA / GAYA
 - BODH GAYA / BODH GAYA / Mahabodhi Temple Complex (Boeddha-verlichtingscomplex) — A+ parent.
   - Bodhi Tree (heilige boom op de plek van Boeddha's verlichting) — CHILD_A+.
+- **BODH GAYA / BAKRAUR / Sujata Stupa (plek waar Sujata de uitgemergelde Siddhartha voedsel gaf; keerpunt van extreme ascese naar de Middenweg vóór zijn verlichting) — A+.**
+- **BODH GAYA / DUNGESHWARI HILLS / Dungeshwari–Mahakala Caves (grotten waar Siddhartha extreme ascese beoefende vóór Sujata en de verlichting) — A+.**
 
 ### TIRUVANNAMALAI / ARUNACHALA
 - ARUNACHALA / TIRUVANNAMALAI / Arunachala / Ramana sacred world (heilige berg, ashram en directe Ramana Maharshi-levensplekken) — A+ parent.
@@ -48,18 +51,30 @@ updated: 2026-08-24
 - AGRA / AGRA / Taj Mahal — A+; sunrise / earliest practical opening HARD.
 
 ## LATEST KUMAON ORDINARY GRADES — MARK 2026-08-24
-Source of truth: `KUMAON_CORRIDOR_MARK_DECISION_2026-08-24.md`.
-These supersede older A provenance.
-
-- KUMAON / KAKRIGHAT / Kakrighat (Kosi-rivierplek waar Vivekananda in 1890 een belangrijke realisatie had) — A.
-  - Retained specifically because corridor analysis shows it is an easy transfer catch on Kainchi -> Kukuchina/Babaji.
+- KUMAON / KAKRIGHAT / Kakrighat (Kosi-rivierplek waar Vivekananda in 1890 een belangrijke realisatie had) — A; retained because corridor analysis makes it an easy transfer catch on Kainchi -> Kukuchina/Babaji.
 - KUMAON / JAGESHWAR / Jageshwar Dham + Dandeshwar (grote vroegmiddeleeuwse Shiva-tempelgroepen in deodarwoud) — C.
 - KUMAON / ALMORA / Ramakrishna Kutir (levend Ramakrishna Mission-retraitecentrum; Sri Ramakrishna verbleef hier niet) — C.
 - KUMAON / CHITAI / Chitai Golu Devta Temple (Kumaoni tempel met duizenden bellen en verzoeken om gerechtigheid) — C.
 - KUMAON / CRANK'S RIDGE-KASAR DEVI / Turiya Niwas (historische kluizenaarswoning van Alfred 'Sunyata' Sorensen) — C.
 - KUMAON / CRANK'S RIDGE-KASAR DEVI / Bodh Ashram (Evans-Wentz/Lama Govinda/Tibetaans-boeddhistische zoekersplek) — C.
+Do not re-present these five C rows unless Mark explicitly reopens them.
 
-Do not re-present these five C rows as open choices unless Mark explicitly reopens them.
+## LATEST VARANASI EASY-CAPTURE GRADES — MARK 2026-08-24
+Source delta: `EASY_CAPTURE_MARK_DECISIONS_2026-08-24.md`.
+- VARANASI / TULSI GHAT / Tulsi Ghat + Lolark Kund (Tulsidas-ghat plus oude rituele zon-/vruchtbaarheidsbron) — A.
+- VARANASI / LALITA GHAT / Lalita Ghat + Nepali/Kathwala Temple (Ganges-ghat met Nepalese houten pagodetempel) — A.
+- VARANASI / DURGA KUND-AREA / Tulsi Manas Temple (moderne tempel verbonden met Tulsidas/Ramcharitmanas-traditie) — B; supersedes old A.
+- VARANASI / DURGA KUND / Durga Temple + Durga Kund (rode levende Durga-tempel met heilige vijver) — A.
+- VARANASI / ANAND BAGH / Bhaskarananda Samadhi (samadhi/herdenkingsplek van yogi Swami Bhaskarananda) — B; supersedes old A. Old A existed only because it was immediately adjacent to Durga Temple/Durga Kund and rode along in that A cluster.
+- VARANASI / SANKAT MOCHAN / Sankat Mochan Hanuman Temple (levende Hanuman-tempel traditioneel verbonden met Tulsidas) — A.
+- VARANASI / SARNATH-SIMHAPURI / Shreyansanath Jain Tirth (Jain geboorte-/pelgrimsplek in dezelfde Sarnath-zone) — A.
+
+Still open in the old-A Varanasi pass:
+- VARANASI / KABIR CHAURA / Kabir Chaura Math (levend centrum van mysticus/dichter Kabir en Kabir Panth) — current A.
+- VARANASI / ADI KESHAVA–RAJGHAT / Adi Keshava Ghat + Temple (Vishnu-heiligdom bij de Varuna–Ganges-samenvloeiing; klassieke noordgrens van heilig Kashi) — current A.
+
+## LATEST BODH GAYA ORDINARY GRADE
+- BODH GAYA / BODH GAYA / Great Buddha Statue (grote moderne zittende Boeddha; geen historische levensplek van Gautama Boeddha) — A.
 
 ## CURRENT METHOD
 1. fixed A+ parents/anchors;
