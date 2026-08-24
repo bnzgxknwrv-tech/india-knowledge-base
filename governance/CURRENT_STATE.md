@@ -19,8 +19,8 @@ If INDIA can safely execute something now, execute it in the same turn before re
 Mandatory pre-answer loop:
 `SCAN -> DO -> RECORD -> RESCAN -> repeat -> REPLY`.
 
-User-facing regie should be compact:
-`ACTIE UITGEVOERD -> ALLEEN NOODZAKELIJKE EXTERNE MARK-ACTIE -> DOOR`.
+User-facing regie:
+`ACTIE UITGEVOERD -> ALLEEN NOODZAKELIJKE EXTERNE/MARK-ONLY ACTIE -> DOOR`.
 
 When Mark must start another AI/worker, INDIA first prepares branch, TASK, inputs and output path and then gives an exact paste-ready prompt.
 
@@ -32,15 +32,13 @@ PR #23 reaffirmation: issuecomment `5392193197`.
 A real successor-risk was found: the hard no-deferral rule existed, but the boot chain was inconsistent enough that a new INDIA could miss/soften it or be redirected by a stale handoff.
 
 Repairs completed on the central branch:
-- `README.md` now exposes the hard action-first gate before all normal boot text — commit `5fde2c75529438ea0d74ce73316f0554256ed961`;
-- `INDIA_SUCCESSOR_BOOT_PROTOCOL.md` now makes no-deferral mandatory, includes the `SCAN -> DO -> RECORD -> RESCAN` loop and forbids status-only stopping — commit `38fa78c4e4b70f542e9ca3b84b50a6c0957c3b8e`;
-- `INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md` now has aligned boot order, current A+ sequencing and explicit stale-handoff precedence — commit `5f23ac5bca23e6330fa8734a57af309acab24a7d`;
-- `COVERAGE_MATRIX.md` was corrected from stale A/B/C-first sequencing to the current A+-first model and current worker status — commit `44b585958f77c09f4e32d51d6d43cd08fb74be15`.
+- `README.md` exposes the hard action-first gate before normal boot text — commit `5fde2c75529438ea0d74ce73316f0554256ed961`;
+- `INDIA_SUCCESSOR_BOOT_PROTOCOL.md` makes no-deferral mandatory and includes `SCAN -> DO -> RECORD -> RESCAN` — commit `38fa78c4e4b70f542e9ca3b84b50a6c0957c3b8e`;
+- `INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md` has aligned boot order, current A+ sequencing and stale-handoff precedence — commit `5f23ac5bca23e6330fa8734a57af309acab24a7d`;
+- `COVERAGE_MATRIX.md` was corrected from stale A/B/C-first sequencing to the current A+-first model.
 
 ### Old INDIA8 -> INDIA9 handoff disposition
-`handoffs/INDIA8_TO_INDIA9_FINAL_BOOT_2026-08-23.md` is **HISTORICAL PROVENANCE for current-phase control**.
-
-Its factual travel details may still contain useful provenance, but its statements such as `V2 IS AUTHORITATIVE`, `CURRENT EXECUTION STATE` and the old route-first work order are superseded by THIS file and the A+ decision model. A successor must not use that handoff to move the project back into route/dayplanning before the current re-evaluation is complete.
+`handoffs/INDIA8_TO_INDIA9_FINAL_BOOT_2026-08-23.md` is HISTORICAL PROVENANCE for current-phase control. Its factual travel details may still be useful, but `V2 IS AUTHORITATIVE`, `CURRENT EXECUTION STATE` and old route-first work order are superseded by THIS file + the A+ model.
 
 ## Current central regie branch
 `agent/india8-cluster-casting`
@@ -57,89 +55,93 @@ Existing Mark decisions, permanent IDs and locks must not be silently changed. A
 ## CCI collaboration
 PR #23 is relay/index; repo files hold durable substance. CCI is a LIGHT second pair of eyes for major central integration/reconciliation, not the traveler-discovery engine. No continuous polling.
 
-## Current project phase — DELIBERATE RE-EVALUATION
-The project is NOT in booking/application phase and is NOT yet in final global route/day-card construction.
+## Current project phase — A+ MARK SELECTION READY
+The project is NOT in booking/application phase and is NOT in final global route/day-card construction.
 
-Underlying location master remains:
-`runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/STATUS.md`
-with 700 row-level findings, 575 unique physical-entity keys, 211 genuine `STILL_UNRESOLVED` rows and protected permanent IDs 001–081 / existing A/B/C locks.
+Person/AOAY sweep bodies are sufficient for this travel-planning stage unless a concrete unresolved physical identity could materially change a candidate. Do not regress into open-ended national person research solely because a technical saturation token says NEE.
 
-Person/AOAY sweep bodies are sufficient for the current travel-planning stage unless a concrete unresolved physical identity could materially change a cluster decision. Do not regress into open-ended national person research solely because a technical saturation token says NEE.
+Traveler discovery and the missing regional discovery phase are now complete enough for Mark's A+ selection round.
 
 ## HARD DECISION ORDER — A+ FIRST
-Durable model:
+Authority:
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_PROXIMITY_DECISION_MODEL.md`
 
-1. Close enough discovery per decision-relevant cluster: person/AOAY + regional/location + traveler/experience + adaptive world-magnets + visitability.
-2. Mark identifies A+ FIRST. A+ is Mark-only and means intrinsically a major reason to want to visit that place/area/experience.
-3. INDIA establishes practical context for all other surfaced candidates relative to relevant A+: real walking/driving/boat time, extra travel time/omweg, bundle vs separate excursion and isolation.
+1. Discovery close enough — NOW REACHED for current decision-relevant clusters.
+2. Mark identifies A+ FIRST — CURRENT FRONTIER.
+3. INDIA computes practical context for all other surfaced candidates relative to relevant A+: real walking/driving/boat time, extra travel time/omweg, bundle vs separate excursion and isolation.
 4. ONLY THEN Mark re-rates ordinary A/B/C.
 5. INDIA builds realistic COMPLETE-EXECUTION schedules per cluster using retained A/B plus transfer/buffer reality.
 6. Derive true duration/minimum nights per cluster.
-7. ONLY THEN compare clusters against the total trip envelope and decide which clusters survive.
+7. ONLY THEN compare clusters against total trip envelope and decide which survive.
 8. Build final global route / quarter-hour itinerary from surviving complete clusters.
 
 Hard travel-quality rule: prefer dropping an entire cluster over keeping it in a rushed/incomplete form that silently omits important retained sites/experiences.
 
 ## Traveler / experience layer — MASTER UNION COMPLETE
-Central task:
-`runs/active/INDIA10-MULTIAI-TRAVELER-DISCOVERY-001/TASK.md`
-
-Inputs reconciled:
-- old North traveler discovery: 26 raw findings;
-- old Ganges/South traveler discovery: 54 raw findings;
-- CCI high-threshold gap-check: 3 findings;
-- old second-opinion micro worker: 10 findings;
-- new blind ChatGPT workers: 12 Weird + 11 Nature + 15 World-Magnet + 13 Blind-General = 51 raw role findings;
-- external collector: 77 unique COL records from DeepSeek, Grok, Perplexity, Copilot and Gemini.
-
-Raw inputs represented before cross-layer deduplication: **221**.
-Canonical traveler/experience union after central identity/experience deduplication: **150 records**.
-
-Durable ledger:
+Central ledger:
 `runs/active/INDIA10-MULTIAI-TRAVELER-DISCOVERY-001/TRAVELER_EXPERIENCE_MASTER_UNION_LEDGER.md`
-Commit: `f75ed681259ef4ea2d16151537e93f0558489ad2`
 
-Important union rules:
-- single-AI uniques are retained;
-- overlap is signal, not a voting rule;
-- four ChatGPT workers are four blind search passes but one model family;
-- distinct experiences at the same physical place stay separate when planning meaning differs;
-- 150-row ledger assigns no A/B/C or A+;
-- `PRIORITY_VERIFY` records carry known identity/access/time/season conflicts and are not negatively graded.
+221 raw represented inputs -> **150 canonical traveler/experience records**.
+Commit: `f75ed681259ef4ea2d16151537e93f0558489ad2`.
 
-## Regional/location discovery — CURRENT EXTERNAL FRONTIER
-Central task:
-`runs/active/INDIA10-REGIONAL-DISCOVERY-GAPS-001/TASK.md`
-Commit: `ee310d1f037a4c9f271975d8857b521627814f96`
+Inputs include old North/Ganges traveler sweeps, CCI gap findings, old micro second opinion, four new blind ChatGPT roles and 77 unique external records from DeepSeek/Grok/Perplexity/Copilot/Gemini.
 
-Eight prepared blind worker branches:
-- `agent/india10-region-tiruvannamalai`
-- `agent/india10-region-rishikesh-haridwar`
-- `agent/india10-region-braj`
-- `agent/india10-region-prayagraj`
-- `agent/india10-region-agra`
-- `agent/india10-region-delhi`
-- `agent/india10-region-varanasi-gap`
-- `agent/india10-region-kumaon-gap`
+Single-detector uniques are preserved; overlap is signal, not a vote. No A/B/C/A+ assigned.
 
-Mark reports all eight were started on 2026-08-24. GitHub check at approximately 10:08 Europe/Amsterdam: **0/8 had yet written a new freeze commit**; all still pointed at the prepared task baseline.
+## Regional/location discovery — 8/8 COMPLETE + CENTRAL INTEGRATION COMPLETE
+All eight workers were started by Mark and returned during the 2026-08-24 action-first integration turn:
+- Tiruvannamalai full sweep;
+- Haridwar/Kankhal/Rishikesh full sweep;
+- Braj full sweep;
+- Prayagraj full sweep;
+- Agra compact high-threshold sweep;
+- Delhi compact high-threshold sweep;
+- Varanasi bounded gap completion;
+- Kumaon bounded reverse/gap completion.
 
-Bodh Gaya/Gaya is GREEN from prior regional saturation acceptance: no generic resweep. Reopen only on a concrete new gap/world-magnet exception.
+Every freeze was read and merged centrally against person/AOAY + traveler union + old Mark provenance. No worker assigned A/B/C/A+.
 
-## What happens as regional freezes arrive
-INDIA immediately reads each completed branch, integrates/deduplicates it against person/AOAY + the 150-row traveler union + protected old A/B/C provenance, and continues without waiting for all eight if useful work can already be done safely.
+Coverage status:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/COVERAGE_MATRIX.md`
+commit `12f0a69338172a80697010ce7af63b1f5748645c`.
 
-After the regional discovery set is sufficiently closed, INDIA produces compact Mark-ready A+ selection slices. INDIA does not assign A+ or ordinary A/B/C on Mark's behalf.
+Bodh Gaya/Gaya did not need a generic worker because earlier regional saturation was accepted (`INDIA_ACCEPTED_SATURATION: JA`); it has now also received an A+ slice from existing saturated discovery.
+
+## MARK-READY A+ SLICES
+Directory:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/`
+
+Ready:
+- `KUMAON_A_PLUS_MARK_SELECTION_SLICE.md`
+- `HARIDWAR_RISHIKESH_A_PLUS_MARK_SELECTION_SLICE.md`
+- `DELHI_A_PLUS_MARK_SELECTION_SLICE.md`
+- `AGRA_A_PLUS_MARK_SELECTION_SLICE.md`
+- `BRAJ_A_PLUS_MARK_SELECTION_SLICE.md`
+- `PRAYAGRAJ_A_PLUS_MARK_SELECTION_SLICE.md`
+- `VARANASI_A_PLUS_MARK_SELECTION_SLICE.md`
+- `BODHGAYA_GAYA_A_PLUS_MARK_SELECTION_SLICE.md`
+- `TIRUVANNAMALAI_A_PLUS_MARK_SELECTION_SLICE.md`
+- `OUT_OF_RADIUS_WORLD_MAGNET_A_PLUS_CHALLENGERS.md`
+
+Out-of-radius challenger file preserves Khajuraho, Golden Temple/Amritsar and Hampi so they cannot disappear because of current cluster geometry.
+
+## Important calendar deltas now known
+- Tiruvannamalai full moon: 24 Dec 2026 -> high-intensity Girivalam opportunity.
+- Haridwar Kumbh/Ardh Kumbh opening + Makar Sankranti Snan: 14 Jan 2027. Do NOT label it an Amrit Snan; announced Amrit Snans are later/outside trip.
+- Prayagraj Magh Mela: official current start 15 Jan 2027; trip overlaps 15–21 Jan. Current reporting places Paush Purnima 22 Jan, outside trip end.
+- Karthigai Deepam was NOT verified in the trip window; preserve historical/traveler evidence but do not promise event attendance.
+
+## CURRENT FRONTIER — ONLY MARK CAN DO THIS PART
+Mark selects A+ cluster by cluster from the prepared slices. INDIA must present those slices compactly, without making Mark read raw worker files.
+
+Immediately after each Mark A+ decision, INDIA itself performs the A+-centric proximity/time/bundle analysis before asking Mark for ordinary A/B/C.
 
 ## Booking-prep artifact disposition
-`runs/active/INDIA10-BOOKING-SEQUENCE-CLOSURE-001/BOOKING_ACTION_BOARD.md` is future planning only. Its STATUS is `FUTURE_PLANNING_ARTIFACT__NOT_CURRENT_PROJECT_PHASE`.
-
-Do not ask Mark for visa status, send accommodation requests or drive the project from booking-prep until upstream discovery/re-evaluation has reached that stage. Revalidate time-sensitive facts only when actionable.
+`runs/active/INDIA10-BOOKING-SEQUENCE-CLOSURE-001/BOOKING_ACTION_BOARD.md` remains future planning only: `FUTURE_PLANNING_ARTIFACT__NOT_CURRENT_PROJECT_PHASE`.
 
 ## Architecture
 `INDIA9_SCOPE_SIMPLIFICATION: PASS`
 `CCI_FINAL_SANITY_011: PASS`
 `STOP_OPTIMIZING: JA`
 
-No new governance layer was created by the 2026-08-24 repair; existing boot/state files were corrected in place.
+No new governance layer was created by the 2026-08-24 boot repair; existing boot/state files were corrected in place.
