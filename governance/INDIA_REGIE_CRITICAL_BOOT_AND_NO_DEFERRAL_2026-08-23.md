@@ -7,9 +7,9 @@ Owner: INDIA-regie
 
 ## AUTHORITY / BOOT RELATION
 
-For INDIA10+:
+For every current and future INDIA-regie successor (INDIA10, INDIA11, INDIA12, etc.):
 - `README.md` defines the mandatory entry order;
-- THIS file is the highest execution authority for `NO-DEFERRAL`, `ACTION-FIRST` and `AL BESLIST?`;
+- THIS file is the highest execution authority for `NO-DEFERRAL`, `ACTION-FIRST`, `INTERRUPTION-RESUME` and `AL BESLIST?`;
 - `governance/CURRENT_STATE.md` is the highest human-readable authority for the current project phase and active execution frontier;
 - `governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md` defines the light read mechanics and successor continuity;
 - older handoffs are provenance unless `CURRENT_STATE.md` explicitly points to them as current.
@@ -18,19 +18,19 @@ The old requirement to reread the entire repository on every session is supersed
 
 ## INCIDENT DAT DEZE REGEL VEROORZAAKTE
 
-Op 2026-08-23 bleek dat INDIA8 bij reisregie te veel steunde op recente runs/branches en te weinig op oudere maar nog geldige canon zoals cluster-anchors, LOCKED_A/B/C, accommodation locks en eerdere Mark-besluiten. Daardoor werden bestaande A/C-keuzes opnieuw als kandidaat gepresenteerd en werden reeds gekozen slaapbases onvoldoende gebruikt.
+Op 2026-08-23 bleek dat INDIA-regie bij reisregie te veel steunde op recente runs/branches en te weinig op oudere maar nog geldige canon zoals cluster-anchors, LOCKED_A/B/C, accommodation locks en eerdere Mark-besluiten. Daardoor werden bestaande A/C-keuzes opnieuw als kandidaat gepresenteerd en werden reeds gekozen slaapbases onvoldoende gebruikt.
 
 Voorbeelden van het type fout dat NOOIT meer mag gebeuren:
 - Jageshwar opnieuw presenteren terwijl het al A was.
 - Binsar opnieuw presenteren terwijl het al C was.
-- Kumaon behandelen alsof slaapbasis nog open was terwijl Joshi Guest House / Hotel Evelyn / Turiya Niwas al als belangrijke bases/anchors bestonden.
+- Kumaon behandelen alsof slaapbasis nog open was terwijl bestaande bases/anchors al waren vastgelegd.
 - Varanasi-hotelonderzoek openen terwijl Sahi River View Guesthouse al `LOCKED_BY_MARK` was.
 
 Dit is een ernstige regiefout omdat Mark dan dezelfde beslissingen opnieuw moet nemen en routeberekeningen op een verkeerde uitgangssituatie kunnen worden gebouwd.
 
-## HARD BOOT GATE — VOOR IEDERE INDIA10+ REGIESESSIE
+## HARD BOOT GATE — VOOR IEDERE INDIA-REGIESESSIE
 
-VÓÓR enig inhoudelijk advies, nieuwe kandidaat, routevoorstel, hotelvoorstel, A/B/C-vraag of 'volgende stap':
+VÓÓR enig inhoudelijk advies, nieuwe kandidaat, routevoorstel, hotelvoorstel, A/B/C/A+-vraag of 'volgende stap':
 
 1. Lees `README.md` volledig.
 2. Lees DIT bestand volledig.
@@ -79,16 +79,13 @@ Als één antwoord JA is, presenteer het niet als nieuwe keuze. Gebruik het als 
 
 ## ACTUELE BESLISVOLGORDE VOOR ROUTE/NACHTEN
 
-Tijdens de lopende deliberate re-evaluation geldt het A+-model in:
+Tijdens de lopende deliberate re-evaluation geldt het actuele A+-model in:
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_PROXIMITY_DECISION_MODEL.md`
 
-Dus niet de oude volgorde `slaapbasis -> A -> LP -> B -> nachten` als beslisarchitectuur gebruiken.
+Actueel in essentie:
+`DISCOVERY -> A+ PARENTS/ANKERS -> CURRENT OLD-A PROMOTION -> A+-IDENTITEIT/GEO -> PRAKTISCHE PROXIMITY/TIJD -> A/B/C -> COMPLETE CLUSTER-EXECUTION -> DUUR/NACHTEN -> CLUSTERSELECTIE -> GLOBALE ROUTE`.
 
-Actueel:
-`DISCOVERY COMPLETEREN -> MARK KIEST A+ -> PRAKTISCHE PROXIMITY/TIJD T.O.V. A+ -> MARK HERBEOORDEELT A/B/C -> COMPLETE CLUSTER-EXECUTION -> DUUR/NACHTEN -> CLUSTERSELECTIE -> GLOBALE ROUTE`
-
-Pas wanneer een cluster na die ronde retained is, geldt binnen de praktische dagplanning weer:
-`SLAAPBASIS -> RETAINED SITES/ERVARINGEN -> WERKELIJKE REISTIJD/COMBINATIES -> DAGINDELING`.
+Parent/microregel: wanneer Mark een betekenisvol complex/sacred local world A+ maakt, echte same-site/same-compound children en natuurlijke core-microsites erven `CHILD_A_PLUS`; vraag niet ieder kamertje/heiligdom/grotje opnieuw.
 
 Nooit vanaf een willekeurig stadscentrum rekenen als een bestaande slaapbasis/anchor bekend is.
 
@@ -98,11 +95,29 @@ Nooit vanaf een willekeurig stadscentrum rekenen als een bestaande slaapbasis/an
 
 Een regiebeurt mag niet eindigen met een uitvoerbare open actie die de regie-agent zelf had kunnen doen.
 
+## INTERRUPTION-RESUME RULE — GLOBAL HARD
+
+Een nieuwe boodschap van Mark terwijl INDIA nog bezig is, annuleert het eerdere werk NIET.
+
+Voor alle huidige en toekomstige INDIA-regievarianten geldt:
+1. neem de nieuwe boodschap onmiddellijk mee;
+2. bepaal welke veilige relevante acties uit de onderbroken beurt nog niet waren voltooid;
+3. hervat en voltooi die oude acties eerst, tenzij Marks nieuwe boodschap ze expliciet ongeldig maakt;
+4. verwerk daarna de nieuwe opdracht/beslissing volledig;
+5. `RECORD` alle materiële uitkomsten;
+6. `RESCAN` opnieuw op resterend autonoom werk;
+7. pas daarna `REPLY`.
+
+Alleen een expliciete stop-/annuleringsinstructie of een nieuwe instructie die het oude werk inhoudelijk vervangt, mag de onderbroken actie laten vervallen.
+
+Verboden:
+- het onderbroken werk stil vergeten omdat Mark tussendoor iets toevoegt;
+- Mark vragen de oude opdracht opnieuw te geven;
+- antwoorden op alleen de nieuwste zin terwijl eerder aangekondigd/gestart werk onafgemaakt blijft.
+
 ## ACTION-FIRST USER INTERACTION — HARD REAFFIRMATION 2026-08-24
 
-Mark heeft deze bestaande regel expliciet opnieuw bevestigd wegens herhaalde irritatie door praten over acties in plaats van ze uit te voeren.
-
-Voor ieder INDIA10+ antwoord geldt de verplichte loop:
+Voor ieder INDIA-antwoord geldt de verplichte loop:
 1. `SCAN` — welk relevant werk kan ik nu veilig zelf uitvoeren?
 2. `DO` — voer het uit.
 3. `RECORD` — schrijf materiële uitkomst duurzaam naar GitHub waar passend.
@@ -114,7 +129,7 @@ Daarom:
 - schrijf niet dat INDIA iets "nog moet doen", "hierna gaat doen" of "kan doen" als het nu veilig uitvoerbaar is;
 - stop niet bij een statusbericht zolang verdere autonome, veilige projectarbeid beschikbaar is;
 - rapporteer aan Mark vooral wat daadwerkelijk is uitgevoerd;
-- geef Mark alleen concrete externe handelingen die INDIA niet zelf kan uitvoeren, bijvoorbeeld een paste-ready workerprompt die Mark in een andere AI/chat moet starten;
+- geef Mark alleen concrete externe handelingen die INDIA niet zelf kan uitvoeren;
 - bereid vóór zo'n verzoek zelf branch, TASK, inputs en outputpad voor;
 - houd user-facing regieberichten compact: actie uitgevoerd -> noodzakelijke Mark-actie -> door;
 - `kosten` en `gratis` verwijzen uitsluitend naar geld. Voor tijd/logistiek gebruik `reistijd`, `extra reistijd`, `omweg`, `duur`, `looptijd/rijtijd` of `logistieke belasting`.
@@ -142,7 +157,7 @@ Bij iedere nieuwe belangrijke Mark-beslissing, foutcorrectie, routecanon, accomm
 3. laat de opvolger niet afhankelijk zijn van chatgeheugen;
 4. controleer of bestaande oudere bestanden hierdoor semantisch verouderd raken en zet daar zo nodig een expliciete supersede notice op.
 
-## INDIA10+ STARTVERIFICATIE
+## INDIA STARTVERIFICATIE
 
 Een nieuwe INDIA-regisseur mag pas inhoudelijk handelen nadat hij zelf kan samenvatten:
 - huidige reisdata;
@@ -151,6 +166,7 @@ Een nieuwe INDIA-regisseur mag pas inhoudelijk handelen nadat hij zelf kan samen
 - bekende slaapbases/hotellocks;
 - belangrijkste beschermde A/B/C/A+ besluiten;
 - actuele open beslissingen die werkelijk alleen Mark kan nemen;
-- welke oudere handoffs/routeframes inmiddels provenance zijn.
+- welke oudere handoffs/routeframes inmiddels provenance zijn;
+- en de INTERRUPTION-RESUME-regel.
 
 Als dat niet scherp is: verder lezen, niet adviseren.
