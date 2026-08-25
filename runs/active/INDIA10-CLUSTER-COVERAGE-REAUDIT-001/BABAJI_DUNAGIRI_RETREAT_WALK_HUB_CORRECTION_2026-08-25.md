@@ -33,6 +33,21 @@ Working accommodation-based route:
 - taxi-to-trailhead requirement: APPEARS UNNECESSARY if this lodging + route are confirmed
 - safety: UNRESOLVED; daylight first, local guide/retreat advice to be checked; do not assume solo/dark safety.
 
+## HARD PREFERENCE — SHORTEST GOOD HOTEL-BASED ROUTE
+If a selected A+/A site is already directly and pleasantly walkable from the planned hotel/base, that hotel-based route is the DEFAULT.
+
+Do NOT separately retain, recommend or schedule a longer approach to the same site merely because Komoot or another source offers one.
+
+A longer alternative survives only if it is demonstrably EXCEPTIONAL, for example:
+- materially more beautiful landscape / forest / water / ridge;
+- historically or spiritually meaningful footpath in its own right;
+- links multiple selected A+/A/A* sites elegantly;
+- clearly superior experience that justifies the extra walking burden.
+
+Otherwise: use the shortest good route from the hotel and remove redundant taxi/trailhead logistics.
+
+For Mahavatar Babaji's Cave specifically, the direct Dunagiri Retreat-based approach is therefore the working preferred route. The generic Kukuchina ~6 km-return approach is FALLBACK/ALTERNATIVE_ONLY pending proof that it is exceptionally better.
+
 ## WALKING-HUB LEADS FROM SAME BASE
 1. Mahavatar Babaji's Cave — A+ anchor; likely direct walk from retreat.
 2. Dunagiri/Vaishno Devi Temple — OPEN traveler/walk finding; official retreat claim 3 km walking from retreat.
@@ -61,14 +76,17 @@ Never force walking just to remove a taxi. A bad/unsafe road walk loses to a tax
 Research and close, in priority order:
 1. confirm whether Dunagiri Retreat was indeed the previously selected/planned lodging in project history/canon;
 2. exact retreat -> Babaji Cave track: route, km, time, ascent/descent, surface, winter access, legal status, solo safety, wildlife, daylight window, exact/best-searchable Komoot name;
-3. test RETREAT -> DUNAGIRI TEMPLE -> PANDUKHOLI/BABAJI CAVE -> RETREAT as loop;
-4. test DUNAGIRI TEMPLE -> PANDUKHOLI/BABAJI CAVE -> RETREAT as point-to-point;
-5. test short retreat -> Sukhadevi walk for sunrise/sunset only after light + wildlife/safety closure;
-6. compare all routes on SCENIC_DENSITY, WATER_PRESENCE, spiritual density, time, winter fit and safety;
-7. retain generic Kukuchina trailhead only as alternate/fallback geometry.
+3. only compare a longer Kukuchina/Pandukholi approach if it may be genuinely exceptional rather than merely longer;
+4. test RETREAT -> DUNAGIRI TEMPLE -> PANDUKHOLI/BABAJI CAVE -> RETREAT as loop only if scenic/spiritual payoff justifies the extra distance;
+5. test DUNAGIRI TEMPLE -> PANDUKHOLI/BABAJI CAVE -> RETREAT as point-to-point under the same criterion;
+6. test short retreat -> Sukhadevi walk for sunrise/sunset only after light + wildlife/safety closure;
+7. compare alternatives on SCENIC_DENSITY, WATER_PRESENCE, spiritual density, time, winter fit and safety;
+8. retain generic Kukuchina trailhead only as alternate/fallback geometry unless exceptional quality is proven.
 
 ## USER-FACING RULE
 Until closure, say clearly:
 - the retreat-based cave walk appears much shorter than the generic Kukuchina 6 km-return route;
 - taxi to a separate trailhead appears unnecessary if Dunagiri Retreat is confirmed as lodging;
+- the shortest good hotel-based route is preferred;
+- a longer route is only kept if it is genuinely exceptional;
 - exact km/time and safe solo suitability are not yet locked.
