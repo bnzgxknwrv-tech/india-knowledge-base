@@ -4,52 +4,66 @@ status: ACTIVE_CENTRAL_ROUTE_TOPOLOGY
 branch: agent/india8-cluster-casting
 updated: 2026-08-25
 
-## WHY THIS FILE EXISTS
-The previous conversational calendar layer is not trusted because transfer time was not consistently deducted as occupied day time. Exact calendar days/nights are therefore deliberately NOT assigned here.
+## PURPOSE
+The previous conversational calendar layer is not trusted because transfer time was not consistently deducted as occupied day time. Exact calendar days/nights are deliberately NOT assigned here.
 
-This file answers the earlier question that must come first:
+This file answers the prerequisite question:
 
-> Given the currently protected A+ worlds and realistic travel burden, which clusters are geographically/logistically realistic, which are cheap corridor additions, which introduce a meaningful extra travel block, and which create route-breaking backtracking?
+> Given the protected A+ worlds and realistic travel burden, which clusters are geographically/logistically realistic, which are cheap corridor additions, which introduce a meaningful extra travel block, and which create route-breaking backtracking?
 
-The controlling transport ledger is:
+Controlling transport ledger:
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/GLOBAL_TRANSFER_LEDGER_2026-08-25.md`.
 
 ## HARD INTERPRETATION RULE
 - Raw drive/rail/flight duration is NOT calendar occupancy.
-- Final schedule must add checkout/loading, terminal/station access, security/wait, baggage/exit, hotel check-in, food/rest and winter/fog/traffic/delay buffers.
-- This audit may classify topology before exact door-to-door closure, but it may not pretend that a 3h flight is a 3h travel day.
-- Exact dates remain forbidden until route order and selected cluster dwell-times are known.
+- Final schedule adds checkout/loading, terminal/station access, security/wait, baggage/exit, hotel check-in, food/rest and winter/fog/traffic/delay buffers.
+- Topology can be classified before exact door-to-door closure, but a 3h flight may never be presented as a 3h travel day.
+- Exact dates remain blocked until route order and selected cluster dwell-times are known.
 
 ---
 
 # 1. PROTECTED CORE WORLDS — MUST FIT
 These are not being re-graded here.
 
-1. `KUMAON` — protected A+/A pilgrimage world, intrinsically transfer-heavy.
+1. `KUMAON` — protected A+/A pilgrimage world.
 2. `DELHI` — contains `DELHI / CHHAWLA / Nirmal Dham ... — A+` and is the principal northern gateway.
 3. `AGRA` — contains `AGRA / AGRA / Taj Mahal — A+`, earliest practical opening hard.
 4. `BODH GAYA / GAYA` — protected A+ Buddhist enlightenment world.
 5. `VARANASI / SARNATH` — protected A+ Kriya/Ganges/Buddhist world.
 6. `TIRUVANNAMALAI / ARUNACHALA` — protected A+ Ramana world.
 
-These six core worlds remain feasible as a trip structure, but Kumaon and the north-to-south jump consume substantial transfer time and must be budgeted as real travel blocks.
+The six core worlds remain feasible as a trip structure. The fixed heavy transfer consumers are Kumaon and the north-to-south jump.
 
 ---
 
-# 2. KUMAON IS FIXED BUT EXPENSIVE
-Current efficient internal order remains:
+# 2. KUMAON — FIXED, REALISTIC, HIGH TRANSFER BURDEN
+Current efficient internal order:
 
 `HAIDAKHAN -> NAINITAL -> KAINCHI -> DWARAHAT -> DUNAGIRI/KUKUCHINA`.
 
 Do NOT reverse this into Dwarahat/Dunagiri before Nainital/Kainchi; that creates backtracking.
 
-Important global consequence:
-- the eventual exit from Kumaon occurs from the eastern/highland Dwarahat/Dunagiri end, not from Nainital;
-- therefore any global route estimate that casually treats Nainital as the last Kumaon base is invalid;
-- broad current road evidence for Dwarahat/Dunagiri to Delhi/Agra varies strongly by source and route, but it is clearly in a long-transfer/full-day class rather than a small hop;
-- this is one of the principal fixed time consumers of the trip.
+## Eastern Kumaon exit — materially closed 2026-08-25
+The actual global exit occurs from the Dwarahat/Dunagiri end, not Nainital.
+
+Fresh evidence:
+- HOTEL Dunagiri Retreat itself states Delhi is about 400 km and road travel is about 9–10h; Pantnagar Airport is ~160 km / about 5h road from the retreat.
+- Rome2Rio gives Dunagiri -> Delhi 374.7 km / 6h38 raw drive and Dunagiri -> Pantnagar -> Delhi air composite ~4h54, illustrating why raw calculators are optimistic compared with the retreat's local mountain estimate.
+- Rome2Rio gives Agra -> Dunagiri 427.2 km / 7h42 raw drive; reversing the route gives the correct rough geometry for Dunagiri -> Agra, but a winter pilgrimage plan must budget materially more than 7h42 once mountain-road reality, stops and arrival overhead are included.
+
+Working calendar class:
+- `DUNAGIRI -> AGRA/PLAINS = FULL TRAVEL DAY`.
+- Direct road toward Agra is geographically possible; **a forced return to Delhi is not inherently required**.
+- Flight via Pantnagar may reduce physical road hours but does not magically create a short day: retreat->airport alone is about 5h, plus airport buffer, ~1h flight, baggage/exit and onward road/rail.
+
+This is one of the most important findings of the zoom-out audit: **Kumaon itself consumes a full exit day regardless of whether Rishikesh is included.**
 
 Topology class: `FIXED / REALISTIC / HIGH TRANSFER BURDEN`.
+
+Sources:
+- Dunagiri Retreat: https://www.dunagiri.com/post/how-to-reach-dunagiri-retreat
+- Rome2Rio Dunagiri -> Delhi: https://www.rome2rio.com/s/Dunagiri/Delhi
+- Rome2Rio Agra -> Dunagiri: https://www.rome2rio.com/s/Agra/Dunagiri
 
 ---
 
@@ -57,117 +71,133 @@ Topology class: `FIXED / REALISTIC / HIGH TRANSFER BURDEN`.
 Working combined world:
 `HARIDWAR–RISHIKESH / HARIDWAR–KANKHAL–RISHIKESH / spirituele Ganges-cluster (Rishikesh-yoga/ashramwereld plus Haridwar/Kankhal-heilige Gangeslaag) — huidige status: OPEN`.
 
-Haridwar and Rishikesh are close enough to be treated as ONE cluster for global topology, not as two separate long-distance clusters.
+Treat Haridwar/Kankhal/Rishikesh as ONE global cluster.
 
-## Current transport evidence
-- Delhi -> Rishikesh: current public planners show roughly 218–248 km; bus around 5h11, road calculators around 3h23 raw. For winter planning use a conservative occupied road class around 5–6h before final door-to-door closure.
-- Rishikesh -> Nainital: about 236 km; current cab planner ~5h15; public-transport solution ~7h32. For a private-driver pilgrimage plan, use a conservative practical class around 5.5–7h before exact endpoint/access buffers.
-- Rishikesh -> eastern Kumaon/Dwarahat is longer again; it should not be treated as a casual half-day insertion.
+Fresh evidence:
+- Delhi -> Rishikesh: public planners show ~218–248 km; bus ~5h11, raw road calculator ~3h23. Conservative winter planning class ~5–6h before final hotel-level closure.
+- Rishikesh -> Nainital: ~236 km; cab planner ~5h15; public-transport solution ~7h32. Conservative private-driver class ~5.5–7h.
 
-## Topology comparison
-A route such as:
-`DELHI -> HARIDWAR/RISHIKESH -> KUMAON`
-DOES NOT inherently require returning to Delhi.
+Natural topology:
+`DELHI -> HARIDWAR/RISHIKESH -> KUMAON`.
 
-Compared with a direct Delhi -> Kumaon entry, inserting the Ganges cluster changes one northbound transfer into two substantial transfers. Working impact:
-- likely roughly one additional half/full movement block in total geometry;
-- PLUS however many actual stay/visit days Mark chooses for the cluster;
-- PLUS one extra base change;
-- but NOT automatically a catastrophic zigzag.
+This does NOT inherently require returning to Delhi. Compared with direct Delhi -> Kumaon, the cluster changes one northern transfer into two substantial transfers.
 
-The cluster becomes much more expensive if an exact date forces the route to leave a natural corridor and bounce back west/east.
+Working incremental impact:
+- approximately one additional half/full movement block in total geometry;
+- plus however many actual stay/visit days Mark chooses;
+- plus one extra base change;
+- not automatically a catastrophic zigzag.
 
-## 31 December
-The previously discussed idea of Rishikesh on 31 Dec 2026 remains `DATE_WISH`, NOT a date lock. It must not force backtracking before the final nights-per-cluster arithmetic proves it fits naturally.
+The bad version is a date-forced bounce. The good version is one insertion between Delhi and Kumaon.
+
+The previous wish for Rishikesh on 31 Dec 2026 remains `DATE_WISH`, NOT a date lock.
 
 Topology class: `OPTIONAL / REALISTIC / MODERATE EXTRA BURDEN`.
-Verdict at current zoom level: **Rishikesh is still genuinely possible and should NOT be cut merely because transfers now count.** It should only be retained if its content merits the extra transfer/base-change burden once dwell-times are chosen.
+Verdict: **do not cut Rishikesh merely because transfer time now counts.** It remains genuinely feasible at zoom-out level.
+
+Sources:
+- https://www.rome2rio.com/s/Delhi/Rish%C4%ABkesh
+- https://www.rome2rio.com/s/Rish%C4%ABkesh/Nainital
+- https://www.makemytrip.com/routeplanner/rishikesh-nainital.html
 
 ---
 
-# 4. BRAJ IS GEOGRAPHICALLY CHEAP
+# 4. BRAJ — GEOGRAPHICALLY CHEAP
 Working world:
 `BRAJ / MATHURA–VRINDAVAN–GOVARDHAN / Braj-pelgrimscluster (Krishna-landschap direct bij de Delhi–Agra-corridor) — huidige status: OPEN`.
 
-Current road evidence:
+Fresh road evidence:
 - Agra -> Mathura ~57 km / ~51 min raw drive;
-- Agra -> Vrindavan ~66 km / ~59 min raw drive;
-- realistic transfer allowance should still include city traffic/check-in, but the geometry is clearly small.
+- Agra -> Vrindavan ~66 km / ~59 min raw drive.
 
 Meaning:
-- Braj is not a major geographic detour from the Delhi–Agra axis;
-- its main cost is the actual visit time/night(s), not getting there;
-- if content survives Mark's cluster selection, this is among the easiest optional clusters to keep.
+- not a major geographic detour from Delhi–Agra axis;
+- principal time cost is actual visit/night(s), not getting there;
+- among the easiest optional clusters to retain if content merits it.
 
 Topology class: `OPTIONAL / LOW GEOMETRIC BURDEN / CORRIDOR-COMPATIBLE`.
 
+Sources:
+- https://www.rome2rio.com/s/Agra/Mathura
+- https://www.rome2rio.com/s/Agra/Vrind%C4%81van
+
 ---
 
-# 5. PRAYAGRAJ IS ALSO CORRIDOR-COMPATIBLE
+# 5. PRAYAGRAJ — CORRIDOR-COMPATIBLE
 Working world:
 `PRAYAGRAJ / PRAYAGRAJ / heilige Ganges–Yamuna-samenvloeiingscluster (Triveni Sangam/Allahabad-pelgrimswereld op de west-oost spooras) — huidige status: OPEN`.
 
-Current rail evidence:
+Fresh rail evidence:
 - Agra Fort -> Prayagraj Junction: multiple direct trains; fastest current published example ~5h55, many slower.
-- Prayagraj -> Gaya: many direct trains; fastest ~4h14, daily practical services around ~5h35–6h30 also exist.
+- Prayagraj -> Gaya: many direct trains; fastest ~4h14; daily practical services around ~5h35–6h30.
 
 Meaning:
-- Prayagraj sits on the west->east movement rather than requiring a dramatic north/south side excursion;
-- if retained, a clean sequence can be `Agra -> Prayagraj -> Bodh Gaya/Gaya`;
-- its main burden is again its own visit/base time plus station/door-to-door overhead, not a huge geographic detour.
+- sits on west->east movement rather than requiring dramatic north/south side excursion;
+- clean optional sequence: `AGRA -> PRAYAGRAJ -> BODH GAYA/GAYA`;
+- burden is own visit/base time plus station/door-to-door overhead, not huge geometric detour.
 
 Topology class: `OPTIONAL / LOW-TO-MODERATE GEOMETRIC BURDEN / EASTBOUND-CORRIDOR-COMPATIBLE`.
 
+Sources:
+- https://www.railroute.in/trains/agra-fort-to-prayagraj-jn
+- https://www.railroute.in/trains/prayagraj-jn-to-gaya-jn
+- https://www.confirmtkt.com/trains/prayagraj-to-gaya-train-tickets
+
 ---
 
-# 6. BODH GAYA + VARANASI SHOULD BE ORDERED FOR THE SOUTHBOUND EXIT
+# 6. BODH GAYA + VARANASI — NATURAL EASTERN PAIR
 Current eastern connection:
-- Gaya -> Varanasi rail: current public data shows ~2h55 fastest examples, ~4h23 average in a multi-service view; road is also a plausible short inter-cluster move.
+- Gaya -> Varanasi rail: current public data shows ~2h55 fastest examples and ~4h23 average in a multi-service view.
 
-This means the two protected A+ worlds form a natural eastern pair.
+Therefore the two protected A+ worlds should be treated as a paired eastern chain.
 
-## Major topology improvement
-Current flight research changes the preferred order:
+## Major topology improvement: finish east in Varanasi
+Current stronger sequence:
 
 `... -> BODH GAYA/GAYA -> VARANASI/SARNATH -> BENGALURU AIRPORT -> TIRUVANNAMALAI/ARUNACHALA`
 
-is currently a stronger topology than:
+rather than:
 
 `... -> VARANASI -> BODH GAYA/GAYA -> GAYA/CHENNAI CONNECTION -> TIRUVANNAMALAI`.
 
-Reason:
-- current Gaya -> Chennai search shows no nonstop flight and requires at least one stop;
-- Air India Express currently publishes daily Varanasi -> Bengaluru non-stop service, fastest/direct block around 2h35;
-- Bengaluru Airport -> Tiruvannamalai is ~232 km / ~3h33 raw drive;
-- therefore Varanasi can function as the northern/eastern AIR EXIT after Bodh Gaya.
+Why:
+- current Gaya -> Chennai search shows no nonstop flight;
+- Air India Express currently publishes daily Varanasi -> Bengaluru non-stop service; direct block ~2h35;
+- Bengaluru Airport -> Tiruvannamalai ~232 km / ~3h33 raw drive.
 
-This does NOT mean the entire Varanasi->Tiruvannamalai move takes ~6h. Airport access, preflight buffer, baggage/exit, driver pickup, food/rest and hotel arrival mean it remains a substantial/full travel day in practical planning.
+Varanasi therefore functions as the stronger present northern/eastern air exit after Bodh Gaya.
 
-## Schedule caveat
-Air India Express currently shows the route as daily/non-stop, but Dec 2026 and Jan 2027 fare inventory is not yet displayed on the route page. Therefore:
-- topology: `STRONG CURRENT HYPOTHESIS`;
-- exact trip-date flight: `RECHECK BEFORE LOCK`.
+This still becomes a substantial/full travel day after airport access, preflight buffer, baggage, driver pickup, food/rest and hotel arrival.
+
+Schedule caveat:
+- current VNS->BLR route is daily/non-stop;
+- Dec 2026 and Jan 2027 fare inventory is not yet displayed on the route page;
+- exact trip-date flight status = `RECHECK BEFORE LOCK`.
 
 `BENGALURU / BENGALURU / Kempegowda-airportgateway (mogelijke directe vliegbrug tussen Varanasi en Arunachala; geen automatisch sightseeingcluster) — huidige status: OPEN` is an AIR GATEWAY, not automatically a sightseeing cluster.
 
-Topology class for Bengaluru gateway: `TRANSIT GATEWAY / HIGH LEVERAGE / NO EXTRA SIGHTSEEING ASSUMED`.
+Sources:
+- https://www.rome2rio.com/Train/Gaya/Varanasi
+- https://flights.airindiaexpress.com/en-in/varanasi-to-bengaluru-flights
+- https://www.rome2rio.com/s/Bengaluru-Airport-BLR/Tiruvann%C4%81malai
+- https://www.flightconnections.com/flights-from-gay-to-maa
 
 ---
 
 # 7. CURRENT BEST GLOBAL GEOGRAPHY — NO DATES
-The strongest route spine to test first is:
+Strongest spine to test first:
 
 `DELHI`
 `-> optional HARIDWAR–RISHIKESH`
 `-> KUMAON: HAIDAKHAN -> NAINITAL -> KAINCHI -> DWARAHAT -> DUNAGIRI/KUKUCHINA`
-`-> exit Kumaon to plains (treat as a major/full travel block until exact edge is closed)`
+`-> FULL TRAVEL DAY east-Kumaon exit toward plains/Agra corridor`
 `-> optional BRAJ`
 `-> AGRA`
 `-> optional PRAYAGRAJ`
 `-> BODH GAYA/GAYA`
 `-> VARANASI/SARNATH`
 `-> VNS -> BLR nonstop hypothesis`
-`-> road BLR -> TIRUVANNAMALAI/ARUNACHALA`
+`-> road BLR -> TIRUVANNAMALAI/ARUNACHALA`.
 
 This is TOPOLOGY, not a calendar and not a final Mark cluster selection.
 
@@ -175,55 +205,47 @@ This is TOPOLOGY, not a calendar and not a final Mark cluster selection.
 
 # 8. FEASIBILITY CLASSES AT CURRENT ZOOM LEVEL
 
-## A. FIXED / REALISTIC / EXPENSIVE
-- Kumaon — mandatory A+ world, major mountain-transfer consumer.
-- Tiruvannamalai/Arunachala — mandatory A+ world, requires one major north-south transfer but is realistic.
+## FIXED / REALISTIC / EXPENSIVE
+- Kumaon — mandatory A+ world; internal mountain corridor + full exit day.
+- Tiruvannamalai/Arunachala — mandatory A+ world; major north-south air+road transfer.
 
-## B. FIXED / LOGISTICALLY NATURAL
+## FIXED / LOGISTICALLY NATURAL
 - Delhi — northern gateway + A+.
-- Agra — on plains corridor + Taj A+.
-- Bodh Gaya/Gaya + Varanasi/Sarnath — paired eastward A+ chain; current transport relationship is manageable.
+- Agra — plains corridor + Taj A+.
+- Bodh Gaya/Gaya + Varanasi/Sarnath — paired eastward A+ chain.
 
-## C. OPTIONAL / REALISTIC
-- Haridwar/Rishikesh/Kankhal — moderate burden; preserve as viable candidate, not automatic cut.
+## OPTIONAL / REALISTIC
+- Haridwar/Rishikesh/Kankhal — moderate burden; viable, not automatic cut.
 - Braj — low geometric burden adjacent to Agra.
 - Prayagraj — low/moderate geometric burden on eastbound rail axis.
 
-## D. OPTIONAL / MORE EXPENSIVE UNTIL PROVEN
-- Mysore — would create a separate south/west tail if used as sightseeing world; Bengaluru airport usage alone does not justify Mysore.
-- other out-of-radius challengers — only survive if content is strong enough to justify a dedicated extra transfer/night burden.
+## OPTIONAL / MORE EXPENSIVE UNTIL PROVEN
+- Mysore — separate south/west tail if used as sightseeing world; Bengaluru airport usage alone does not justify it.
+- out-of-radius challengers — only survive if content justifies dedicated transfer/night burden.
 
 ---
 
-# 9. WHAT THIS MEANS FOR CLUSTER SELECTION
-At this stage the question is NOT "how many exact days?" but:
+# 9. ANSWER TO THE CURRENT STRATEGIC QUESTION
+The route is not yet overfull merely because transfers are now counted correctly. But the time budget is tighter than the old day sketches implied.
 
-1. Is the cluster on/near the route spine?
-2. Does adding it create another base change?
-3. Does it add only visit time, or also a half/full extra movement block?
-4. Does it force backtracking because of a fixed date?
-5. Does it weaken protected A+/A time by converting too many days into transit?
+Important distinction:
+- **Kumaon already has a fixed full exit day.** This burden exists with or without Rishikesh.
+- **Rishikesh adds a moderate extra transfer/base-change burden**, not another giant cross-country detour if placed once between Delhi and Kumaon.
+- **Braj and Prayagraj are much cheaper geographically** and mostly cost their own visit time.
+- **The Varanasi->Bengaluru air bridge materially improves the southbound topology** and can save the eastern chain from a worse Gaya->Chennai connection pattern.
 
-Current answer for the user’s specific concern:
-- **Rishikesh is still feasible.**
-- It is materially more expensive than Braj or Prayagraj in route geometry.
-- It is not so expensive that it should be discarded at zoom-out level.
-- The dangerous version is a date-forced Rishikesh bounce; the natural version is one insertion between Delhi and Kumaon.
+Therefore Rishikesh remains a real candidate. The cluster should later be judged on whether its content is worth roughly an extra half/full movement block + its stay time, not rejected because of a mistaken assumption that it forces a return to Delhi.
 
 ---
 
-# 10. SOURCES / FRESHNESS — 2026-08-25
-Current public transport evidence checked 2026-08-25:
-- Rome2Rio, Delhi -> Rishikesh: https://www.rome2rio.com/s/Delhi/Rish%C4%ABkesh
-- Rome2Rio, Rishikesh -> Nainital: https://www.rome2rio.com/s/Rish%C4%ABkesh/Nainital
-- MakeMyTrip route planner, Rishikesh -> Nainital: https://www.makemytrip.com/routeplanner/rishikesh-nainital.html
-- Rome2Rio, Agra -> Mathura: https://www.rome2rio.com/s/Agra/Mathura
-- Rome2Rio, Agra -> Vrindavan: https://www.rome2rio.com/s/Agra/Vrind%C4%81van
-- RailRoute, Agra Fort -> Prayagraj: https://www.railroute.in/trains/agra-fort-to-prayagraj-jn
-- RailRoute / ConfirmTkt, Prayagraj -> Gaya: https://www.railroute.in/trains/prayagraj-jn-to-gaya-jn ; https://www.confirmtkt.com/trains/prayagraj-to-gaya-train-tickets
-- Rome2Rio, Gaya -> Varanasi train overview: https://www.rome2rio.com/Train/Gaya/Varanasi
-- Air India Express, Varanasi -> Bengaluru: https://flights.airindiaexpress.com/en-in/varanasi-to-bengaluru-flights
-- Rome2Rio, Bengaluru Airport -> Tiruvannamalai: https://www.rome2rio.com/s/Bengaluru-Airport-BLR/Tiruvann%C4%81malai
-- FlightConnections, Gaya -> Chennai: https://www.flightconnections.com/flights-from-gay-to-maa
+# 10. CALENDAR GATE
+No exact dates or final nights yet.
 
-All exact Dec 2026 / Jan 2027 flight/train availability must still be rechecked when dates become bookable/selected. Topology conclusions may be used now; exact timetable claims may not be frozen as trip-date guarantees.
+Before calendar rebuild:
+1. retain/drop optional clusters with their burden visible;
+2. determine desired dwell-time ranges per retained cluster;
+3. close actual used door-to-door edges;
+4. count each base change and full transfer day;
+5. only then fit exact dates and date wishes such as Rishikesh 31 Dec.
+
+All exact Dec 2026 / Jan 2027 flight/train availability remains subject to date-specific recheck.
