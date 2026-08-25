@@ -21,6 +21,7 @@ A user interruption does not cancel unfinished work unless Mark explicitly STOPs
 Every Indian/non-obvious place, institution, temple, ashram, ghat, cave, festival, local term or experience shown to Mark MUST be written every time as:
 `CLUSTER / PLAATS / PLEK (korte Nederlandse uitleg: wat het concreet is / waarom relevant) — huidige status: A+ / A / A* / B / C / OPEN`.
 This also applies in headings, tables, recaps, shorthand confirmations and side references. Never rely on Mark remembering local names.
+For EVERY walk/hike/loop shown to Mark, the explanatory name MUST also contain approximate walking distance + realistic walking duration, e.g. `(ca. 3,2 km / 55–75 min; ...)`. If one is not verified, explicitly write `nog te verifiëren`; never omit silently.
 For Manikarnika always preserve: `VARANASI / MANIKARNIKA / Manikarnika Ghat (heilige crematieghat waar Lahiri Mahasaya werd gecremeerd) — ...`.
 Never abbreviate:
 - `BODH GAYA / BAKRAUR / Sujata Stupa (plek waar Sujata de uitgemergelde Siddhartha voedsel gaf; keerpunt van extreme ascese naar de Middenweg vóór zijn verlichting) — ...`
@@ -30,11 +31,11 @@ Never abbreviate:
 ## GRADE SEMANTICS — ABSOLUTE HARD / MARK 2026-08-25
 - `A+` = KERNLOCATIE / DIT IS WAAROM MARK DEZE REIS MAAKT. Nul discussie over inclusion. Route may bend/omrijden solely for it.
 - `A` = Mark wil hier HEEL GRAAG OOK heen. Default PLAN/RETAIN. Re-open only if actual burden is clearly disproportionate: very large detour, isolated major excursion, unusually long visit, extra night(s), or material collision with stronger priorities. Distance/time is a discussion trigger, never an automatic downgrade.
-- `A*` = DISPLAY SUBTYPE OF FORMAL `A`, NOT A FIFTH FORMAL GRADE. Means: corridor/bycatch A — not one of Mark's original first-choice interests, but now an intentional planned visit because route/corridor geometry makes it an unusually easy/high-value capture. Always display the `*` plus parenthetical explanation so Mark never confuses it with an intrinsically selected A. Canon fields: `formal_grade=A`, `display_subtype=A*`, `reason=CORRIDOR_BYCATCH/EASY_CAPTURE`.
+- `A*` = DISPLAY SUBTYPE OF FORMAL `A`, NOT A FIFTH FORMAL GRADE. Corridor/bycatch A: not one of Mark's original first-choice destinations, but an attractive extra discovery retained because it fits the route unusually well. Operationally `SKIP_FIRST`: if Mark is tired, delayed, weather is poor or the day is overloaded, A* may be skipped before intrinsic A. A* must not by itself force a dedicated detour, extra night or major schedule sacrifice. Always display the `*` plus parenthetical explanation. Canon: `formal_grade=A`, `display_subtype=A*`, `reason=CORRIDOR_BYCATCH/EASY_CAPTURE`, `operational_priority=SKIP_FIRST`.
 - `B` = reserve/bycatch only. Normally NOT planned. Only consider if already there, almost frictionless, or unexpected spare time. A B may not independently steer route/create taxi outing/half-day/night.
 - `C` = NIET heen. Do not plan, route for, optimize for or re-present unless Mark explicitly reopens it.
 - `OPEN` regional/traveler/Lonely-Planet finding = ungraded and may become `A+`, intrinsic `A`, `A*` (formal A corridor-bycatch), `B` or `C`. Provenance never limits maximum grade.
-- Model `A*`: KUMAON / KAKRIGHAT / Kakrighat (Kosi-rivierplek waar Vivekananda in 1890 een belangrijke realisatie had; inhoudelijk gewenst maar door corridor vrijwel gratis mee te nemen) — huidige status: A* (formeel A; corridor-bijvangst, niet oorspronkelijke eerste keus).
+- Model `A*`: KUMAON / KAKRIGHAT / Kakrighat (Kosi-rivierplek waar Vivekananda in 1890 een belangrijke realisatie had; inhoudelijk gewenst maar door corridor vrijwel gratis mee te nemen) — huidige status: A* (formeel A; corridor-bijvangst, SKIP_FIRST).
 
 ## MARK DECISION CARD — HARD
 Never ask Mark to choose from a bare name or isolated distance. Each real decision card includes: who/tradition, what happened, why relevant, what is visitable now, current status, relevant A+ anchors, corridor relation, practical distance/time, incremental detour, bundle vs side excursion, likely time/day impact.
@@ -42,16 +43,17 @@ Never ask Mark to choose from a bare name or isolated distance. Each real decisi
 ## CORRIDOR-FIRST METHOD — GLOBAL HARD
 Judge against mandatory corridors BETWEEN fixed A+ anchors, not just nearest-base distance.
 Classes: `ON_CORRIDOR`, `SMALL_TRANSFER_DETOUR`, `ALTERNATIVE_CORRIDOR_BUNDLE`, `TRUE_SIDE_EXCURSION`, `OFF_CORRIDOR_DROP`.
-Handling: C remove; A+ protect absolutely; intrinsic A assume retain and first seek easy capture/bundles; A* intentionally plan as corridor/bycatch A but preserve subtype; B never route for; OPEN -> hard cuts -> easy captures -> alternative bundles -> true ties / possible A+ magnets.
-Working friction bands are advisory only. Over ~150 min extra or standalone half/full day is a legitimate discussion trigger for an existing A, not an automatic downgrade.
+Handling: C remove; A+ protect absolutely; intrinsic A assume retain and first seek easy capture/bundles; A* retain as optional corridor extra but SKIP_FIRST; B never route for; OPEN -> hard cuts -> easy captures -> alternative bundles -> true ties / possible A+ magnets.
+Working friction bands are advisory only. Over ~150 min extra or standalone half/full day is a legitimate discussion trigger for an existing intrinsic A, not an automatic downgrade.
 
 ## CENTRAL TRUTH / ACTIVE FILES
 Branch: `agent/india8-cluster-casting`.
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md`
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_PROMOTION_MASTER.md` — old-A promotion CLOSED.
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRAVELER_OVERLAY_CORRIDOR_PASS_2026-08-24.md` — active regional/traveler/LP overlay.
-- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_TRAVELER_HARD_CUT_MARK_DECISIONS_2026-08-24.md` — latest Mark traveler C delta.
-- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_TRAVELER_EASY_CAPTURE_PASS_2026-08-24.md` — active Kumaon easy-capture review; EC-K1 resolved A*.
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_TRAVELER_HARD_CUT_MARK_DECISIONS_2026-08-24.md`.
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_TRAVELER_EASY_CAPTURE_PASS_2026-08-24.md`.
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_EASY_CAPTURE_MARK_DECISIONS_2026-08-25.md` — latest Mark decisions + A* SKIP_FIRST + walk-name rule.
 - corridor matrices: Kumaon, Varanasi, Bodh Gaya in same run directory.
 - traveler master: `runs/active/INDIA10-MULTIAI-TRAVELER-DISCOVERY-001/TRAVELER_EXPERIENCE_MASTER_UNION_LEDGER.md` — 150 canonical rows from 221 represented raw inputs.
 Regional discovery: 8/8 integrated.
@@ -70,6 +72,7 @@ Reserve/deferred until fixed-core footprint known: Braj/Vrindavan/Mathura/Govard
 - KUMAON / KUKUCHINA-DUNAGIRI / Mahavatar Babaji's Cave (bezoekbare YSS/Kriya-pelgrimsgrot; hoofdreden voor de reis) — A+.
 - KUMAON / KAINCHI / Kainchi Dham (Neem Karoli Baba-ashramcomplex; kernplek voor Neem Karoli Baba en Ram Dass) — A+.
 - KUMAON / NAINITAL / Hotel Evelyn (historisch hotel waar Ram Dass verbleef; exacte kamer niet bewezen) — A+.
+- KUMAON / NAINITAL / Naini Lake-rondwandeling (ca. 3,2 km / 55–75 min; volledige lus via Mall Road en de autovrije Thandi Road; voorkeur vroeg in de ochtend) — A+.
 - KUMAON / HAIDAKHAN / Haidakhan Ashram (Haidakhan Babaji-pelgrimsashram; gewenste ashramovernachting) — A+.
 - KUMAON / HAIDAKHAN / Historische Haidakhan-grot (grot uit aparte Haidakhan Babaji-traditie; niet dezelfde claim als Mahavatar Babaji's Cave bij Kukuchina/Dunagiri) — A+.
 
@@ -101,16 +104,14 @@ Reserve/deferred until fixed-core footprint known: Braj/Vrindavan/Mathura/Govard
 - KUMAON / MUNSIYARI / Munsiyari + Panchachuli views (ver oostelijk Himalayadorp met grote Panchachuli-bergpanorama's; aparte verre Kumaon-uitstap) — C.
 - KUMAON / CHAUKORI / Chaukori Tea Gardens + Panchachuli views (hooggelegen theedorp met Himalaya-uitzicht en theevelden; forse oostelijke omweg buiten A+-ruggengraat) — C.
 - KUMAON / NAMIK-RANTHAN / Namik–Ranthan high-Himalaya trek (afgelegen meerdaagse bergtrek richting Ranthan Top/Namik; aparte trekkingreis) — C.
-- KUMAON / KAKRIGHAT / Kakrighat (Kosi-rivierplek waar Vivekananda in 1890 een belangrijke realisatie had; inhoudelijk gewenst maar door corridor vrijwel gratis mee te nemen) — A* (formeel A; corridor-bijvangst, niet oorspronkelijke eerste keus).
-- KUMAON / DWARAHAT / Dwarahat historic temple groups (acht hoofdgroepen van 11e-eeuwse stenen tempels in het stadje dat al op de verplichte Babaji-corridor ligt) — A* (formeel A; corridor-bijvangst, niet oorspronkelijke eerste keus).
+- KUMAON / KAKRIGHAT / Kakrighat (Kosi-rivierplek waar Vivekananda in 1890 een belangrijke realisatie had; inhoudelijk gewenst maar door corridor vrijwel gratis mee te nemen) — A* (formeel A; corridor-bijvangst, SKIP_FIRST).
+- KUMAON / DWARAHAT / Dwarahat historic temple groups (acht hoofdgroepen van 11e-eeuwse stenen tempels in het stadje dat al op de verplichte Babaji-corridor ligt) — A* (formeel A; corridor-bijvangst, SKIP_FIRST).
+- KUMAON / BHIMTAL / Butterfly Research Centre (klein gespecialiseerd vlinder- en mottenmuseum/onderzoekscentrum in een bungalow bij Bhimtal) — C.
+- KUMAON / SATTAL / Sattal / Seven Lakes (zeven bosmeren voor natuurwandeling en vogels; mooie transfer-bijvangst die Mark graag ziet maar waarvoor niet zelfstandig moet worden omgereden) — A* (formeel A; corridor-bijvangst, SKIP_FIRST).
 
 ## CURRENT FRONTIER
-Traveler/regional/LP overlay is active. First Kumaon hard-cut trio is resolved C. EC-K1 is resolved A*.
-NEXT Mark-facing easy-capture decisions:
-- KUMAON / NAINITAL / Naini Lake & Nainital ridge by night (avondwandeling langs het bergmeer met weerspiegelde heuvellichtjes; nul extra route omdat Nainital al A+-basis is) — OPEN.
-- KUMAON / BHIMTAL / Butterfly Research Centre (klein gespecialiseerd vlinder- en mottenmuseum/onderzoekscentrum; mogelijke transferbijvangst tussen Haidakhan en Nainital) — OPEN.
-- KUMAON / SATTAL / Sattal / Seven Lakes (zeven bosmeren voor natuurwandeling en vogels; kan samen met Bhimtal in alternatieve Haidakhan→Nainital-transfer) — OPEN.
-Do not show the whole traveler universe at once.
+Traveler/regional/LP overlay is active. Kumaon first hard cuts and first easy-capture group are resolved.
+NEXT: continue Kumaon corridor review with remaining candidates, prioritizing actual pass-through catches around Nainital, Ranikhet and Dwarahat before true side excursions. Likely next rows: Nainital local institutions/short walks, Ranikhet corridor stops, then Almora-side or Mukteshwar-side deviations. Do not show the whole traveler universe at once.
 
 ## OPEN AUTONOMOUS GEO WORK
 - exact protected GPS for the Babaji cave claimant before final precise Kumaon route math.
