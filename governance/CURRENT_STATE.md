@@ -44,6 +44,7 @@ C remove; A+ protect; A seek bundles/easy capture first; A* SKIP_FIRST; B never 
 Branch: `agent/india8-cluster-casting`.
 
 Primary current truth:
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/ROUTE_PLANNING_SYSTEM_CORRECTION_2026-08-25.md` — explicit incident/correction record explaining why the old calendar layer was invalidated, what remains valid, and the mandatory successor-safe planning pipeline.
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/GLOBAL_TRANSFER_LEDGER_2026-08-25.md`
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CLUSTER_TOPOLOGY_FEASIBILITY_2026-08-25.md`
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md`
@@ -113,7 +114,7 @@ Raw road/rail/flight duration is never the complete travel-day duration. Add che
 Protected A+/A/site/hotel decisions remain valid; only the calendar/timing layer was invalidated.
 
 ## CURRENT GLOBAL TOPOLOGY — ACTIVE, NO DATES
-Read both primary topology/transfer files before any route advice.
+Read the route-planning correction plus both primary topology/transfer files before any route advice.
 
 Current strongest spine:
 `DELHI -> optional HARIDWAR/RISHIKESH -> KUMAON (HAIDAKHAN -> NAINITAL -> KAINCHI -> DWARAHAT -> DUNAGIRI/KUKUCHINA) -> FULL TRAVEL DAY exit from eastern Kumaon toward plains/Agra corridor -> optional BRAJ -> AGRA -> optional PRAYAGRAJ -> BODH GAYA/GAYA -> VARANASI/SARNATH -> current VNS->BLR nonstop hypothesis -> road BLR->TIRUVANNAMALAI/ARUNACHALA`.
@@ -148,4 +149,4 @@ Do NOT ask Mark for exact days yet. When cluster content/priorities are compared
 - exact winter daily routing later; never fake precision.
 
 ## REPLACEABILITY CHECKPOINT
-If INDIA10 disappears, INDIA11 boots normally and reads this CURRENT_STATE, then `GLOBAL_TRANSFER_LEDGER_2026-08-25.md`, `CLUSTER_TOPOLOGY_FEASIBILITY_2026-08-25.md`, protected canon and the relevant decision files. India11 must not reconstruct any of this from chat memory and must not return to exact date planning prematurely.
+If INDIA10 disappears, INDIA11 boots normally and reads this CURRENT_STATE, then `ROUTE_PLANNING_SYSTEM_CORRECTION_2026-08-25.md`, `GLOBAL_TRANSFER_LEDGER_2026-08-25.md`, `CLUSTER_TOPOLOGY_FEASIBILITY_2026-08-25.md`, protected canon and the relevant decision files. India11 must not reconstruct any of this from chat memory and must not return to exact date planning prematurely.
