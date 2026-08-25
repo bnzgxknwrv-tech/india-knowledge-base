@@ -34,7 +34,7 @@ Never abbreviate:
 - `A*` = DISPLAY SUBTYPE OF FORMAL `A`, NOT A FIFTH FORMAL GRADE. Corridor/bycatch A: not one of Mark's original first-choice destinations, but an attractive extra discovery retained because it fits the route unusually well. Operationally `SKIP_FIRST`: if Mark is tired, delayed, weather is poor or the day is overloaded, A* may be skipped before intrinsic A. A* must not by itself force a dedicated detour, extra night or major schedule sacrifice. Always display the `*` plus parenthetical explanation. Canon: `formal_grade=A`, `display_subtype=A*`, `reason=CORRIDOR_BYCATCH/EASY_CAPTURE`, `operational_priority=SKIP_FIRST`.
 - `B` = reserve/bycatch only. Normally NOT planned. Only consider if already there, almost frictionless, or unexpected spare time. A B may not independently steer route/create taxi outing/half-day/night.
 - `C` = NIET heen. Do not plan, route for, optimize for or re-present unless Mark explicitly reopens it.
-- `OPEN` regional/traveler/Lonely-Planet/Komoot finding = ungraded and may become `A+`, intrinsic `A`, `A*` (formal A corridor-bycatch), `B` or `C`. Provenance never limits maximum grade.
+- `OPEN` regional/traveler/Lonely-Planet/Komoot finding = ungraded and may become A+, intrinsic A, A*, B or C. Provenance never limits maximum grade.
 - Model `A*`: KUMAON / KAKRIGHAT / Kakrighat (Kosi-rivierplek waar Vivekananda in 1890 een belangrijke realisatie had; inhoudelijk gewenst maar door corridor vrijwel gratis mee te nemen) — huidige status: A* (formeel A; corridor-bijvangst, SKIP_FIRST).
 
 ## MARK DECISION CARD — HARD
@@ -56,18 +56,21 @@ Use Komoot to:
 3. discover short high-payoff nature stops along A+ transfer corridors;
 4. search Highlights/categories as well as exact route names because Indian indexing is incomplete;
 5. compare multiple walks to the same attraction and retain only the most beautiful/practical variants.
-Mark preferences for this layer: forest lakes, blue/green water, waterfalls/cascades, river/gorge, forest immersion, dramatic viewpoints/ridges, caves, spiritually meaningful paths, and short high-reward walks. Suppress mediocre/generic/repetitive walking content.
+Mark preferences: forest lakes, blue/green water, waterfalls/cascades, river/gorge, forest immersion, dramatic viewpoints/ridges, caves, spiritually meaningful paths, short high-reward walks. Suppress mediocre/generic/repetitive walking content.
 There is currently no installable Komoot plugin available through the connected plugin catalog, so public Komoot web pages/indexes/Highlights and broader current web research remain the execution method.
 
 ## CENTRAL TRUTH / ACTIVE FILES
 Branch: `agent/india8-cluster-casting`.
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md`
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_PROMOTION_MASTER.md` — old-A promotion CLOSED.
-- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRAVELER_OVERLAY_CORRIDOR_PASS_2026-08-24.md` — active regional/traveler/LP overlay.
-- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KOMOOT_WALK_DISCOVERY_LAYER_2026-08-25.md` — active Komoot overlay + color-worker template.
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRAVELER_OVERLAY_CORRIDOR_PASS_2026-08-24.md` — regional/traveler/LP overlay.
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KOMOOT_WALK_DISCOVERY_LAYER_2026-08-25.md` — active Komoot overlay.
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_WALK_COVERAGE_MATRIX_2026-08-25.md` — current A+ walk coverage/status matrix.
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/GLOBAL_TRANSFER_LEDGER_2026-08-25.md` — HARD transport bridge; raw travel times may never be treated as full calendar blocks.
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CLUSTER_TOPOLOGY_FEASIBILITY_2026-08-25.md` — ACTIVE global zoom-out/topology truth before any new calendar.
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_TRAVELER_HARD_CUT_MARK_DECISIONS_2026-08-24.md`.
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_TRAVELER_EASY_CAPTURE_PASS_2026-08-24.md`.
-- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_EASY_CAPTURE_MARK_DECISIONS_2026-08-25.md` — latest Mark decisions + A* SKIP_FIRST + walk-name rule.
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_EASY_CAPTURE_MARK_DECISIONS_2026-08-25.md` — latest Kumaon Mark decisions + A* SKIP_FIRST + walk-name rule.
 - corridor matrices: Kumaon, Varanasi, Bodh Gaya in same run directory.
 - traveler master: `runs/active/INDIA10-MULTIAI-TRAVELER-DISCOVERY-001/TRAVELER_EXPERIENCE_MASTER_UNION_LEDGER.md` — 150 canonical rows from 221 represented raw inputs.
 Regional discovery: 8/8 integrated.
@@ -129,11 +132,54 @@ Reserve/deferred until fixed-core footprint known: Braj/Vrindavan/Mathura/Govard
 - KUMAON / KATARMAL / Katarmal Sun Temple-wandeling (ca. 3 km retour / ca. 1–1¾ uur lopen from road/parking start below the temple complex; separate deviation from direct Babaji corridor) — B.
 - KUMAON / ALMORA / historische bazaarwandeling (loopafstand nog te verifiëren / ca. 2 uur lopen from a start in Almora town; requires deliberate Almora deviation) — C.
 
-## CURRENT FRONTIER
-Traveler/regional/LP overlay remains active, now with Komoot overlay added. Continue Kumaon first, but for every selected A+/A/A* walk also close exact/best-searchable Komoot route/Highlight names where possible and use Komoot to discover exceptional nearby hidden nature before declaring Kumaon complete.
-Do not show the whole traveler or Komoot universe at once.
+## GLOBAL CALENDAR CORRECTION — HARD 2026-08-25
+The earlier conversational/daily calendar layer is NON-AUTHORITATIVE because transfer time was not consistently deducted as occupied day time. Do not reuse old day/date sketches as itinerary truth.
 
-## OPEN AUTONOMOUS GEO WORK
-- exact protected GPS for the Babaji cave claimant before final precise Kumaon route math.
-- Haidakhan ashram <-> historical Haidakhan cave exact route relation before final schedule.
+Active method now:
+`SELECTED SITES -> REAL DOOR-TO-DOOR TRANSFER BLOCKS -> GLOBAL CLUSTER TOPOLOGY -> MARK CLUSTER/DWELL-TIME CHOICES -> NIGHT SCENARIOS -> EXACT DATES`.
+
+Hard consequences:
+- raw road/rail/flight duration is never the complete travel-day duration;
+- exact dates remain blocked until topology + selected dwell-time ranges are known;
+- 31 Dec 2026 in Rishikesh is a `DATE_WISH`, not a calendar lock;
+- protected A+/A and hotel decisions remain valid; the invalidation concerns the calendar/timing layer, not location research.
+
+## CURRENT GLOBAL TOPOLOGY — ACTIVE HYPOTHESIS, NO DATES
+Read `CLUSTER_TOPOLOGY_FEASIBILITY_2026-08-25.md` + `GLOBAL_TRANSFER_LEDGER_2026-08-25.md` before any new route/calendar advice.
+
+Current strongest geometry to test first:
+`DELHI -> optional HARIDWAR/RISHIKESH -> KUMAON (HAIDAKHAN -> NAINITAL -> KAINCHI -> DWARAHAT -> DUNAGIRI/KUKUCHINA) -> major Kumaon exit to plains -> optional BRAJ -> AGRA -> optional PRAYAGRAJ -> BODH GAYA/GAYA -> VARANASI/SARNATH -> VNS->BLR nonstop hypothesis -> road BLR->TIRUVANNAMALAI/ARUNACHALA`.
+
+Current feasibility read:
+- KUMAON: FIXED / REALISTIC / HIGH TRANSFER BURDEN; actual exit is from eastern Dwarahat/Dunagiri end, not Nainital.
+- HARIDWAR/RISHIKESH/KANKHAL: OPTIONAL / REALISTIC / MODERATE EXTRA BURDEN; natural placement is once between Delhi and Kumaon; do not date-force a bounce.
+- BRAJ: OPTIONAL / LOW GEOMETRIC BURDEN adjacent to Agra.
+- PRAYAGRAJ: OPTIONAL / LOW-TO-MODERATE GEOMETRIC BURDEN on eastbound rail axis.
+- BODH GAYA/GAYA + VARANASI/SARNATH: natural protected eastern pair.
+- SOUTHBOUND: current strong hypothesis is finish east in Varanasi, then current daily/nonstop VNS->BLR (~2h35 block today) + ~232 km/~3h33 raw road BLR airport->Tiruvannamalai; exact Dec 2026/Jan 2027 service MUST be rechecked before lock.
+- Gaya->Chennai currently has no nonstop and is therefore downranked as the default southbound topology.
+- Bengaluru is an airport gateway only, not automatically a sightseeing cluster.
+
+## CURRENT FRONTIER
+PRIMARY: GLOBAL_CLUSTER_TOPOLOGY_FEASIBILITY + REAL_TRANSFER_BURDEN. Do not return to exact day planning yet.
+
+Goal now is to determine which optional clusters are genuinely feasible around the fixed A+ spine once travel burden counts correctly. Exact number of days per cluster remains intentionally open because Mark is still deciding desired dwell time.
+
+Parallel preserved work:
+- traveler/regional/LP overlay remains valid;
+- Komoot overlay remains valid and should continue to enrich selected routes/anchors, but it must not distract from the current global travel-time/topology correction.
+
+## OPEN AUTONOMOUS GEO / OPS WORK
+- exact protected GPS for the Babaji cave claimant before final precise Kumaon route math;
+- Haidakhan ashram <-> historical Haidakhan cave exact route relation before final schedule;
+- exact eastern Kumaon final-base -> plains transfer closure is high priority because it controls global topology time;
+- exact Dec 2026/Jan 2027 VNS->BLR service recheck only when inventory/timetable is available and date selection approaches;
 - exact winter day routing later; never fake precision.
+
+## REPLACEABILITY CHECKPOINT
+If INDIA10 disappears, INDIA11 must NOT reconstruct this from chat. Boot normally, then use:
+1. this CURRENT_STATE;
+2. `GLOBAL_TRANSFER_LEDGER_2026-08-25.md`;
+3. `CLUSTER_TOPOLOGY_FEASIBILITY_2026-08-25.md`;
+4. protected canon/Mark decision files.
+The current user question is global feasibility of clusters with real transfer time included, especially whether Haridwar/Rishikesh remains worthwhile or creates excessive route friction. Do not prematurely ask for exact dates.
