@@ -25,16 +25,23 @@ Controlling active files:
 1. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/GLOBAL_TRANSFER_LEDGER_2026-08-25.md`
 2. `runs/active/INDIA10-CLUSTER-TOPOLOGY-001/TASK_SPLIT_2026-08-26.md`
 3. `runs/active/INDIA10-CLUSTER-TOPOLOGY-001/NORTH_TOPOLOGY_DECISION_SUPPORT.md`
+4. `runs/active/INDIA10-CLUSTER-TOPOLOGY-001/EAST_CORRIDOR_TRANSFER_TOPOLOGY.md`
 
 ### TASK SPLIT
 BLOCK 1 NORTH — COMPLETE PROVISIONAL.
 Result: RISHIKESH/HARIDWAR is `STRUCTURALLY_PLAUSIBLE / REALISTIC_TO_RETAIN`; best current north hypothesis is DELHI -> KUMAON -> RISHIKESH/HARIDWAR -> AGRA. It may be an ALTERNATIVE_CORRIDOR_BUNDLE, not a true side excursion. Do not globally lock yet.
 
-BLOCK 2 EAST — NEXT ONLY.
-Scope: AGRA/DELHI gateway -> VARANASI/SARNATH -> BODH GAYA/GAYA. Close transfer topology and occupied-time classes. No south and no exact dates.
+BLOCK 2 EAST — COMPLETE PROVISIONAL.
+Result: strongest current east-corridor hypothesis is `AGRA -> BODH GAYA/GAYA -> VARANASI/SARNATH`.
+- direct daily Agra Fort -> Gaya overnight rail currently gives a one-seat eastbound option with low waking-day loss but a sleep/recovery penalty;
+- direct Agra -> Banaras Vande Bharat is a structurally valid reverse-order alternative but consumes most of a waking day;
+- Agra -> Delhi -> east by air remains a valid fallback, but adds multi-mode backtracking and a full travel-day class;
+- Bodh Gaya/Gaya <-> Varanasi/Sarnath is a natural paired-world transfer; private car is operationally competitive with rail after station/local-transfer interfaces are counted.
+No train/mode/date is locked yet. Exact Dec 2026 / Jan 2027 service is rechecked only when calendar/booking becomes relevant.
+Canonical output: `runs/active/INDIA10-CLUSTER-TOPOLOGY-001/EAST_CORRIDOR_TRANSFER_TOPOLOGY.md`.
 
-BLOCK 3 SOUTH — after Block 2.
-Scope: BODH GAYA/GAYA / northern gateway -> TIRUVANNAMALAI/ARUNACHALA.
+BLOCK 3 SOUTH — NEXT ONLY.
+Scope: BODH GAYA/GAYA / VARANASI northern eastern gateway -> TIRUVANNAMALAI/ARUNACHALA. Compare actual plausible air/rail/road gateway sequences and full occupied travel-day cost. No global stitch and no exact calendar.
 
 BLOCK 4 GLOBAL STITCH — only after 1–3.
 Then determine realistic cluster set / approximate footprint. Only after that may exact dates and special-event targeting return.
