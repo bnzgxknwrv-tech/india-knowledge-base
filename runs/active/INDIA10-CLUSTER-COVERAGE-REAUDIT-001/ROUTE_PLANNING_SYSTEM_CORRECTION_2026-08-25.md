@@ -1,123 +1,71 @@
-# INDIA10 — ROUTE PLANNING SYSTEM CORRECTION — 2026-08-25
+# INDIA — ROUTE PLANNING SYSTEM CORRECTION — 2026-08-25
 
-status: HARD_CORRECTION / SUCCESSOR_SAFE
+status: HARD_CORRECTION / METHOD_VALID / OLD_SUCCESSOR_FRONTIER_SUPERSEDED
 branch: agent/india8-cluster-casting
-updated: 2026-08-25
+updated: 2026-08-26
 
 ## INCIDENT
-During the emerging calendar/day-planning layer, travel times had been researched in corridor files, but were NOT consistently charged as occupied time inside the day/calendar sketches. Raw road/rail/flight durations were sometimes treated too loosely alongside visit blocks. This made some conversational date/day sketches look more feasible than they were.
+Earlier calendar/day sketches undercharged travel. Raw road/rail/flight durations were sometimes treated too loosely next to visit blocks, and one Kumaon sketch even created unnecessary backtracking.
 
-A concrete symptom was a loose Kumaon sequence that placed Dwarahat/Dunagiri before Nainital/Kainchi, creating unnecessary backtracking despite an older corridor file already containing the better geometry.
-
-This is a REGIE/SYSTEM error in the calendar layer, not a failure of the underlying location research.
-
-## WHAT IS INVALIDATED
-All earlier conversational exact-date/day sketches are NON-AUTHORITATIVE unless rebuilt through the new transfer gate.
-
-In particular, do not reuse any compact date sequence merely because it appeared plausible in chat. A date wish such as 31 Dec 2026 in Rishikesh is not a route lock until the complete route mathematics supports it.
+Therefore all older exact-date/day sketches remain NON-AUTHORITATIVE unless rebuilt through the current transfer/accounting method.
 
 ## WHAT REMAINS VALID
-The correction does NOT discard:
 - Mark's A+/A/A*/B/C decisions;
-- LOCKED_BY_MARK accommodation choices;
-- protected person/location canon;
-- regional/traveler/Lonely Planet research;
-- Komoot discovery and walk findings;
-- safety/legal research;
-- corridor geography that remains consistent after recheck;
-- direct Mark decisions such as a FULL DAY at the YSS Dwarahat A location.
+- accommodation locks;
+- protected location/person canon;
+- traveler/LP/Komoot research;
+- corridor geography that survives current verification;
+- YSS Dwarahat FULL DAY;
+- Kumaon one-way internal direction.
 
-Only the timing/calendar interpretation is invalidated where transfers were not fully consumed.
+## WHAT IS SUPERSEDED
+The old successor frontier in earlier versions of this file said to compare optional clusters before fully closing the six fixed-core time footprints. That frontier is SUPERSEDED.
 
-## NEW HARD PLANNING PIPELINE
-No successor may jump directly from selected places to dates.
+Current controlling method:
+`TRIP_PLANNING_META_CONTROLLER_2026-08-26.md`.
 
-Mandatory order:
-`SELECTED SITES / CLUSTERS`
-`-> REAL DOOR-TO-DOOR TRANSFER LEDGER`
-`-> GLOBAL CLUSTER TOPOLOGY / ROUTE DIRECTION`
-`-> MARK DWELL-TIME CHOICES PER RETAINED CLUSTER`
-`-> NIGHT / BASE-CHANGE SCENARIOS`
-`-> EXACT CALENDAR DATES`
-`-> SPECIAL-EVENT OPTIMIZATION ONLY WHERE IT STILL FITS`.
+Current order:
+`SIX FIXED A+ WORLDS -> PER-CORE CONTENT CLOSURE -> EXECUTION GEOMETRY -> MARK PACE/DWELL -> DURATION_CLOSED x6 -> REAL INTER-CORE TRANSFERS -> FIXED_CORE_34_DAY_BUDGET -> OPTIONAL-CLUSTER SURVIVAL -> FINAL TOPOLOGY -> LIVE LOGISTICS -> EXACT CALENDAR`.
 
-## DOOR-TO-DOOR MEANS DOOR-TO-DOOR
-Every used transfer must charge, as applicable:
-- packing/check-out/loading/pickup;
-- road to station/airport;
-- terminal/platform/check-in/security waiting;
-- scheduled flight/train;
-- delay/fog/winter buffer;
+Do NOT jump from transfer research directly to Rishikesh/Braj/Prayagraj selection.
+
+## DOOR-TO-DOOR RULE — STILL HARD
+Every used transfer must account for applicable:
+- packing/check-out/loading;
+- station/airport/road access;
+- check-in/security/platform waiting;
+- scheduled transport;
+- winter/fog/traffic/delay buffer;
 - baggage/exit;
-- onward road transfer;
-- next HOTEL check-in;
+- onward road;
+- next sleeping-base check-in;
 - food/toilet/rest;
-- realistic lost daylight and traveller energy.
+- usable daylight and traveller energy.
 
-A 1-hour flight is never automatically a 1-hour travel block. A 3-hour mountain drive is never automatically a 3-hour calendar block.
+Raw transport time is evidence, not occupied-day time by itself.
 
-## ROUTE-DIRECTION RULE
-Internal corridor direction may not be frozen in isolation from global entry/exit geometry. Test the whole route first. However, as of the current 2026-08-25 topology audit the strongest north sequence is:
-`DELHI -> optional HARIDWAR/RISHIKESH -> KUMAON / HAIDAKHAN -> NAINITAL -> KAINCHI -> DWARAHAT -> DUNAGIRI/KUKUCHINA -> plains/eastbound corridor`.
+## CURRENT TOPOLOGY PRINCIPLES
+- Fixed core worlds: Delhi, Kumaon, Agra/Taj Mahal, Bodh Gaya/Gaya, Varanasi/Sarnath, Tiruvannamalai/Arunachala.
+- Kumaon internal direction: `HAIDAKHAN VISHWA MAHADHAM -> NAINITAL -> KAINCHI -> DWARAHAT -> DUNAGIRI/KUKUCHINA`.
+- Do not use `Haidakhan -> Dwarahat/Dunagiri -> Nainital/Kainchi`.
+- Eastern Kumaon exit is a FULL TRAVEL DAY class edge and must be counted once.
+- Bodh Gaya/Gaya + Varanasi/Sarnath remain a natural eastern pair.
+- Varanasi remains a strong southbound gateway hypothesis toward Chennai/Bengaluru -> Tiruvannamalai, subject to actual-date service recheck.
+- If optional Rishikesh survives later, its natural position is before Kumaon.
+- Braj is geographically near Delhi/Agra.
+- Prayagraj is eastbound-corridor compatible but not route-required.
 
-The previously seen conversational sequence `HAIDAKHAN -> DUNAGIRI/DWARAHAT -> NAINITAL/KAINCHI` is prohibited because it backtracks.
+These topology facts prevent bad local assumptions; they do NOT authorize premature optional-cluster selection.
 
-The Dwarahat/Dunagiri eastern Kumaon finish itself creates a FULL TRAVEL DAY class exit toward the plains. That burden exists even if Rishikesh is removed.
+## KUMAON CURRENT ACCOUNTING EXAMPLE
+For the fixed-core baseline:
+- K0 `DELHI -> HAIDAKHAN VISHWA MAHADHAM` is included as a full occupied travel day in Kumaon's current footprint;
+- internal base changes consume real day time;
+- the eastern Dunagiri exit remains visible and will be charged exactly once to the next fixed-core bridge/global budget.
 
-## CURRENT TOPOLOGY RESULT — NO DATES
-Fixed core worlds remain structurally feasible:
-- Kumaon;
-- Delhi;
-- Agra/Taj Mahal;
-- Bodh Gaya/Gaya;
-- Varanasi/Sarnath;
-- Tiruvannamalai/Arunachala.
+If an optional world is later inserted, calculate its marginal delta against that baseline rather than silently replacing/losing an edge.
 
-Current optional topology classes:
-- Haridwar/Kankhal/Rishikesh: OPTIONAL / REALISTIC / MODERATE EXTRA BURDEN. Natural insertion is once between Delhi and Kumaon. It replaces one northern transfer with two substantial transfers and adds a base change + its own stay time; it is not inherently a route-breaking cross-country zigzag.
-- Braj/Mathura/Vrindavan/Govardhan: OPTIONAL / LOW GEOMETRIC BURDEN near Agra; mostly costs visit/dwell time.
-- Prayagraj: OPTIONAL / LOW-TO-MODERATE GEOMETRIC BURDEN on eastbound rail axis; mostly corridor-compatible.
-- Mysore/Bengaluru sightseeing: not assumed. Bengaluru may be used purely as an air gateway for the southbound jump.
+## CURRENT FRONTIER
+Finish Kumaon execution/pace closure, then run the same closure cycle for the other five fixed A+ worlds. Only after all six are `DURATION_CLOSED` may the fixed-core 34-day budget and optional-cluster survival round begin.
 
-Current eastern/southbound hypothesis:
-`... -> BODH GAYA/GAYA -> VARANASI/SARNATH -> Varanasi flight gateway -> Bengaluru/Chennai gateway as actually available -> road/rail to TIRUVANNAMALAI/ARUNACHALA`.
-Exact Dec 2026/Jan 2027 service must be rechecked before calendar lock.
-
-## RISHIKESH DECISION FRAME
-Do NOT ask “does Rishikesh fit on 31 Dec?” yet.
-Ask first:
-1. Is the Haridwar/Kankhal/Rishikesh spiritual cluster worth its own dwell time to Mark?
-2. Is roughly an extra half/full movement block + one base change acceptable relative to fixed-core travel load?
-3. Does placing it once between Delhi and Kumaon preserve a clean one-way topology?
-4. Only after these are answered may 31 Dec be tested as a special-event/date preference.
-
-Current zoom-out answer: Rishikesh remains feasible and should NOT be cut solely because travel time is now counted correctly.
-
-## YSS FULL-DAY CORRECTION
-Canonical file:
-`DWARAHAT_YSS_FULL_DAY_PLAN_2026-08-25.md`.
-The older half-day file is superseded.
-
-`KUMAON / DWARAHAT / Yogoda Satsanga Sakha Ashram — Dwarahat (YSS-ashram van Paramahansa Yogananda’s organisatie; meditatiecentrum in de Mahavatar Babaji/Kriya-regio) — huidige status: A` requires a FULL DAY.
-Mark is Ananda, not YSS/SRF; YSS overnight accommodation must NOT be planned. Primary Babaji base remains `KUMAON / DUNAGIRI / HOTEL Dunagiri Retreat (...) — accommodatie-status: LOCKED_BY_MARK`.
-
-## CURRENT CONTROLLING FILES
-Read in this order for route work:
-1. `governance/CURRENT_STATE.md`
-2. this file
-3. `GLOBAL_TRANSFER_LEDGER_2026-08-25.md`
-4. `CLUSTER_TOPOLOGY_FEASIBILITY_2026-08-25.md`
-5. protected canon / relevant cluster decisions
-6. only then cluster-specific corridor/walk files.
-
-## SUCCESSOR FRONTIER
-If INDIA10 disappears now, INDIA11 must NOT reconstruct a calendar from old chat or old date sketches.
-
-Active task is:
-- keep exact dates open;
-- compare retained/optional clusters against REAL travel burden;
-- determine which optional worlds deserve dwell time;
-- then close the exact route edges actually used;
-- only after that build nights and exact dates.
-
-No further calendar precision is authorized until that sequence is followed.
+END_OF_CORRECTION
