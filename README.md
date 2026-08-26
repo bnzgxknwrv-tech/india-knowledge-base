@@ -29,6 +29,16 @@ Tot expliciete retirement is daarom dit bestand **verplicht onderdeel van iedere
 
 Het bevat de concrete fouten en preventieregels. Een successor mag NIET redeneren dat `CURRENT_STATE.md` alle oudere persoonlijke dwell/base/flow-besluiten bevat. Bij een recovery-trigger (`we hadden dit al`, `zoek terug`, `je mist te veel`, eerdere flow wijkt af, slaapduur/base voelt generiek, tracker lijkt stale) moet gericht historisch worden verbreed vóór nieuwe route-/dagconclusies.
 
+## TRIP PLANNING META CONTROLLER — BINDING FOR INDIA12+
+
+Tot expliciete supersede/retirement is ook dit bestand verplicht:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRIP_PLANNING_META_CONTROLLER_2026-08-26.md`
+
+Dit is niet alleen achtergrond. Het is de actieve master-controller voor de route naar een sluitende 34-daagse kalender. INDIA12+ mag de methode niet opnieuw uitvinden of tussendoor naar een andere laag springen.
+
+Hard proces:
+`RESEARCH UNIVERSE -> A+/A/A*/B/C -> SIX FIXED A+ WORLDS -> PER-CORE CONTENT CLOSURE -> EXECUTION GEOMETRY -> MARK PACE/DWELL -> DURATION_CLOSED x6 -> FIXED_CORE_34_DAY_BUDGET + REAL TRANSFERS -> OPTIONAL-CLUSTER SURVIVAL -> FINAL TOPOLOGY -> LIVE LOGISTICS RECHECK -> EXACT 34-DAY CALENDAR`.
+
 ## HOT INTERACTION RULES — LEES VOORDAT JE MET MARK PRAAT
 
 Deze regels staan uitgebreider in de critical bootfile, maar worden hier expres herhaald zodat INDIA12+ ze niet kan missen:
@@ -43,7 +53,7 @@ Deze regels staan uitgebreider in de critical bootfile, maar worden hier expres 
 - **KLEINERE COHERENTE CHUNKS:** vermijd onnodig enorme tool-/tekstblokken die streaming/context kwetsbaar maken. Werk in coherente stukken, maar ieder stuk moet echte actie bevatten en duurzaam checkpointen; chunking is geen excuus om uitvoerbaar werk als prose terug te geven.
 - **CONTINUÏTEIT:** na materiële veranderingen moet GitHub genoeg waarheid bevatten dat INDIA(N+1) zonder chatreconstructie kan doorgaan.
 
-Compatibility pointer: `governance/INDIA_SESSION_START.md` moet exact dezelfde harde bootingang weerspiegelen en mag nooit een verkorte route om de critical bootfile heen geven.
+Compatibility pointer: `governance/INDIA_SESSION_START.md` moet exact dezelfde harde bootingang weerspiegelen en mag nooit een verkorte route om de critical bootfile, recovery-postmortem of meta-controller heen geven.
 
 ## CONTINUOUS REPLACEABILITY / CRASH-SAFE — HARD
 
@@ -58,6 +68,7 @@ Zo niet: eerst GitHub bijwerken.
 Minimaal duurzaam zichtbaar moeten zijn:
 - de nieuwste materiële Mark-besluiten en supersedes;
 - de actuele projectfase en exacte frontier;
+- de actieve master-controller/methode;
 - wat al uitgevoerd/geïntegreerd is;
 - eventueel nog onafgemaakt relevant werk en waarom het nog open is;
 - exacte actuele bestanden die de opvolger moet gebruiken;
@@ -67,7 +78,8 @@ Verboden:
 - cruciale projectstate alleen in de chat of intern modelgeheugen bewaren;
 - wachten met checkpointen tot een geplande handoff;
 - aannemen dat dezelfde INDIA-versie de volgende beurt nog beschikbaar is;
-- Mark bij opvolging opnieuw laten uitleggen wat al besloten of uitgevoerd was.
+- Mark bij opvolging opnieuw laten uitleggen wat al besloten of uitgevoerd was;
+- een nieuwe INDIA de actieve planningmethode laten reconstrueren uit chat of oude commits wanneer een master-controller bestaat.
 
 Als de context lang wordt of vervanging plausibel wordt, is dat géén reden om te stoppen: checkpoint eerst de actuele waarheid en ga door zolang zelfstandig werk mogelijk is.
 
@@ -77,9 +89,10 @@ Als de context lang wordt of vervanging plausibel wordt, is dat géén reden om 
 3. `governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md`
 4. `governance/INDIA11_RECOVERY_POSTMORTEM_AND_MUST_READ_2026-08-26.md`
 5. `governance/CURRENT_STATE.md`
-6. `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv`
-7. de actuele task/outputbestanden die relevant zijn voor Marks vraag
-8. PR #23 voor recente CCI/INDIA-uitwisseling die nog niet verwerkt is wanneer je aan een grote nieuwe taak begint of vlak vóór een grote centrale write
+6. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRIP_PLANNING_META_CONTROLLER_2026-08-26.md`
+7. `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv`
+8. de actuele task/outputbestanden die relevant zijn voor Marks vraag
+9. PR #23 voor recente CCI/INDIA-uitwisseling die nog niet verwerkt is wanneer je aan een grote nieuwe taak begint of vlak vóór een grote centrale write
 
 Daarna: ga inhoudelijk aan het werk en blijf zelfstandig doorwerken zolang dat veilig en relevant kan.
 
@@ -125,4 +138,4 @@ Als `CURRENT_STATE`, beschermd canon, current task-output of een recente Mark-be
 **Ook zonder formele bestands-tegenspraak geldt recovery als Mark aangeeft dat oudere beslis-/dwell-/base-/flowinformatie ontbreekt.** Dan is `CURRENT_STATE` aantoonbaar niet voldoende voor die specifieke vraag en moet gericht historisch worden gezocht vóór verdere conclusies.
 
 De standaard is dus niet: "bewijs dat je alles hebt gelezen".
-De standaard is: "lees de bindende actuele regels, ken de actuele waarheid, voer uitvoerbaar werk meteen uit, checkpoint continu zodat je direct vervangbaar bent, en laat Mark geen werk terugkrijgen dat INDIA zelf had kunnen doen".
+De standaard is: "lees de bindende actuele regels en master-controller, ken de actuele waarheid, voer uitvoerbaar werk meteen uit, checkpoint continu zodat je direct vervangbaar bent, en laat Mark geen werk terugkrijgen dat INDIA zelf had kunnen doen".
