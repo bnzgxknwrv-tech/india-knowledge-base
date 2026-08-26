@@ -1,25 +1,29 @@
-# INDIA11 — KUMAON COMPLETE EXECUTION DRAFT — 2026-08-26
+# INDIA11 — KUMAON COMPLETE EXECUTION — 2026-08-27
 
-status: MARK_PACE_REVIEW_REQUIRED
+status: DURATION_CLOSED
 branch: agent/india8-cluster-casting
 scope: current-trip KUMAON A+ cluster only; no exact calendar dates
 
 ## PURPOSE
-Translate the now-closed Kumaon A+/A/A*/B selection into a human day structure so Mark can judge the only thing INDIA cannot calculate: whether the pace and total stay feel right.
+Durable complete-execution structure for the now-closed Kumaon A+/A/A*/B selection and Mark-closed pace/duration.
 
 For the 34-day budget, the known inbound travel day from the current fixed-core predecessor is part of the Kumaon footprint. The eastern exit remains a separate mandatory adjacent edge and must be charged exactly once later, never omitted.
 
-## COUNTING CONVENTION — CORRECTED 2026-08-26
+## COUNTING CONVENTION
 - `KUMAON_STAY_NIGHTS` = nights physically slept inside the Kumaon cluster.
 - `KUMAON_FOOTPRINT_DAYS` = occupied days beginning with the inbound transfer from the known fixed-core predecessor through the final Dunagiri night.
 - Internal base-change days are included normally.
 - The eastern exit is kept visible as the next mandatory bridge edge and will be charged once when connecting the next fixed core.
 
-## HAIDAKHAN SLEEP / DURATION CORRECTION — RESTORED 2026-08-26
+## HAIDAKHAN SLEEP / DURATION — LOCKED BY MARK 2026-08-27
 - Intended Haidakhan sleep base is **inside Haidakhan Vishwa Mahadham / Haidakhan Ashram itself**, not a separately selected hotel property.
 - Any earlier `HOTEL Haidakhan Ashram` wording used `HOTEL` merely as the project display prefix for a sleeping base; it must not be read as evidence of a separate hotel selection.
-- Historical decision DECISION-0001 explicitly left duration OPEN but preserved a **working hypothesis of 3 nights**, because 2 nights yield only one complete day while Mark wanted the option of **2 complete quiet days** in Haidakhan.
-- Therefore the planner baseline below uses **3 Haidakhan nights / 2 full Haidakhan days** as the working hypothesis. This is not yet a final Mark duration lock.
+- Historical DECISION-0001 preserved a 3-night working hypothesis because 2 nights yield only one complete day while Mark wanted the option of 2 complete quiet days.
+- On 2026-08-27 Mark explicitly selected option 2: **3 Haidakhan nights / 2 complete full days**.
+- This is now `LOCKED_BY_MARK`, not a working hypothesis.
+
+Canonical duration decision:
+`KUMAON_DURATION_MARK_DECISION_2026-08-27.md`.
 
 ## CURRENT LOSSLESS ACTIVE CONTENT
 ### A+
@@ -51,7 +55,7 @@ For the 34-day budget, the known inbound travel day from the current fixed-core 
 
 All C and the explicitly dropped Kasar Devi/Almora module are omitted from execution.
 
-# REALISTIC WORKING DRAFT — 9 KUMAON FOOTPRINT DAYS / 9 NIGHTS
+# CLOSED KUMAON FOOTPRINT — 9 OCCUPIED DAYS / 9 NIGHTS
 
 ## K0 — DELHI -> HAIDAKHAN VISHWA MAHADHAM — FULL TRAVEL DAY
 Current fixed-core predecessor: DELHI.
@@ -80,7 +84,7 @@ Night H2.
 ## K2 — HAIDAKHAN FULL QUIET DAY 2
 Base: Haidakhan Vishwa Mahadham / Ashram sleeping base.
 Purpose:
-- preserve the historical working hypothesis behind 3 nights: two complete days physically in Haidakhan;
+- second complete day explicitly protected by Mark's 3-night choice;
 - no mandatory new excursion is manufactured merely to fill the day;
 - use for ashram rhythm, karma-yoga/ritual time, river/gufa world, rest and any locally meaningful short walk that is operationally valid at the time.
 Night H3.
@@ -92,7 +96,7 @@ Critical correction:
 - exact true Haidakhan -> Nainital winter road geometry remains P0 to close before exact day sequencing.
 Conditional A*:
 - KUMAON / SATTAL / Sattal / Seven Lakes — A*; walk ~3–4 km / 60–90 min;
-- Sattal may enrich this base-change day only if the corrected true-road geometry, daylight, weather and energy show it is genuinely practical;
+- Sattal may enrich this base-change day only if corrected true-road geometry, daylight, weather and energy show it is genuinely practical;
 - otherwise SKIP_FIRST. Do not force it from obsolete travel-time assumptions.
 Nainital arrival:
 - settle into Hotel Evelyn historical world;
@@ -107,7 +111,7 @@ Core:
 - KUMAON / NAINITAL-HANUMAN GARHI / Hanuman Garhi + Maharajji-kuti — A.
 Conditional:
 - KUMAON / NAINITAL / Naina Peak — B only if visibility, energy and actual spare time make the ~2h35–3h total base footprint attractive;
-- if Naina Peak is used, protect the A+/A content and drop generic town filler first.
+- if Naina Peak is used, protect A+/A content and drop generic town filler first.
 Night N2.
 
 ## K5 — BHUMIADHAR + KAINCHI A+ DAY, KEEP NAINITAL BASE
@@ -131,7 +135,7 @@ Destination:
 Working road reality:
 - Kainchi -> Dwarahat direct efficient spine ~71.7 km / ~2h24 raw current road class;
 - Dwarahat -> HOTEL Dunagiri Retreat remains a short mountain relation but exact winter door-to-door time is still to close;
-- Dhokaney adds a real side-branch burden, so this day must start early and A* items are the first to drop if roads/visit take longer.
+- Dhokaney adds a real side-branch burden, so this day must start early and A* items are first to drop if roads/visit take longer.
 - KUMAON / KATARMAL / Katarmal Sun Temple — B is NOT inserted here by default: it cannot force the dropped Almora-side module.
 Night D1.
 
@@ -169,16 +173,17 @@ Accounting rule:
 - it MUST be charged exactly once when building the next fixed-core connection / six-core 34-day budget;
 - never omit it and never charge it twice.
 
-# FOOTPRINT RESULT — WORKING, NOT YET MARK-LOCKED
-Planner baseline:
+# FOOTPRINT RESULT — DURATION_CLOSED
 - **K0 Delhi -> Haidakhan full travel day INCLUDED.**
-- Haidakhan: **3 nights / 2 full quiet days** — historical working hypothesis, not final duration lock.
-- Nainital: 3 nights.
-- Dunagiri: 3 nights.
-- Total through final Dunagiri night: **9 occupied Kumaon-footprint days / 9 nights**.
-- Eastern exit: separate mandatory full-travel bridge day, to be charged once in next-edge/global total.
+- Haidakhan: **3 nights / 2 complete full days — LOCKED_BY_MARK 2026-08-27.**
+- Nainital: 3 nights in the closed current execution structure.
+- Dunagiri: 3 nights in the closed current execution structure.
+- Total through final Dunagiri night: **9 occupied Kumaon-footprint days / 9 nights — DURATION_CLOSED.**
+- Eastern exit: separate mandatory full-travel bridge day, to be charged once in the next-edge/global total.
 
-## MARK-ONLY PACE DECISION TARGET
-Do not ask Mark to regrade sites. When Mark is ready to lock Kumaon duration, the key subjective question is whether the historical **3-night Haidakhan / 2-full-day** working hypothesis still feels right. Until then preserve it as the planner baseline, not a final lock.
+## FRONTIER
+KUMAON is the first of six fixed A+ worlds to reach `DURATION_CLOSED`.
+Next fixed-core world: **VARANASI / SARNATH**.
+Apply the same controller: content closure -> execution geometry/day bundles -> Mark pace/dwell -> `DURATION_CLOSED`.
 
 END_OF_ARTIFACT
