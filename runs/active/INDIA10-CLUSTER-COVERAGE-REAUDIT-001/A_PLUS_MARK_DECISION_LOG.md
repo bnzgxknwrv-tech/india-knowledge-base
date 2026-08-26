@@ -1,6 +1,6 @@
 # INDIA10 — MARK A+ / CURRENT DECISION LOG
 
-status: OLD_A_PROMOTION_CLOSED__TRAVELER_OVERLAY_ACTIVE
+status: KUMAON_SELECTION_CLOSED__COMPLETE_EXECUTION_ACTIVE
 updated: 2026-08-26
 
 ## HARD RULES
@@ -11,7 +11,8 @@ updated: 2026-08-26
 - User-facing format is ALWAYS `CLUSTER / PLAATS / PLEK (korte Nederlandse uitleg) — huidige status`, every time a non-obvious name appears.
 - Every walk/hike/loop name shown to Mark must include approximate distance + realistic duration; if not verified, say so explicitly.
 - Corridor geometry must be shown before grading when transfer fit can change practical value.
-- MARK PRESENTATION RULE 2026-08-26: every Mark-facing choice batch must be one contiguous numbered block (`1`, `2`, `3`...) so Mark can answer compactly as `1 A, 2 B, 3 C`. Do not split the same choice batch over text above/below a table or across separate sections.
+- Every Mark-facing choice batch must be one contiguous numbered block (`1`, `2`, `3`...) so Mark can answer compactly as `1 A, 2 B, 3 C`.
+- A Mark side-question does not cancel the active task. Incorporate/answer it and automatically resume the pre-existing work unless Mark explicitly cancels/replaces it.
 
 ## GRADE SEMANTICS — ABSOLUTE HARD / LATEST MARK 2026-08-26
 - `A+` = KERNLOCATIE / dit is waarom Mark deze reis maakt. Nul discussie over inclusion. Route must protect it and may bend/omrijden solely for it.
@@ -62,7 +63,7 @@ updated: 2026-08-26
 - KUMAON / SATTAL / Sattal / Seven Lakes (zeven bosmeren voor natuurwandeling en vogels; mooie transfer-bijvangst die Mark graag ziet maar waarvoor niet zelfstandig moet worden omgereden) — A* (formal A; SKIP_FIRST).
 - KUMAON / NAINITAL / Sakley's Restaurant & Pastry Shop (historisch café/banketadres uit 1944 in Nainital) — A* (formal A; ON_BASE / SKIP_FIRST).
 - KUMAON / DHOKANEY-SUYALBARI / Dhokaney Waterfall-wandeling (ca. 0,8–1,2 km retour / ca. 30–45 min vanaf de praktische weg-/parkeertoegang; Almora-zijtak vanaf Kainchi) — A.
-- KUMAON / NAINITAL / Naina Peak / China Peak forest-summit walk (nieuwe korte variant ca. 4,69 km / ca. 1u52 lopen / +350 m; totale Nainital-basebelasting ca. 2u35–3u) — B. Mark explicitly reaffirmed B on 2026-08-26: decide on site depending spare time, how fast other visits go and weather/visibility.
+- KUMAON / NAINITAL / Naina Peak / China Peak forest-summit walk (korte variant ca. 4,69 km / ca. 1u52 lopen / +350 m; totale Nainital-basebelasting ca. 2u35–3u) — B. Mark beslist ter plekke afhankelijk van overgebleven tijd, tempo elders en weer/zicht.
 - KUMAON / KATARMAL / Katarmal Sun Temple-wandeling (ca. 3 km retour / ca. 1–1¾ uur lopen plus side-road burden) — B.
 
 ### C — REMOVED FROM ACTIVE TRIP
@@ -77,11 +78,16 @@ updated: 2026-08-26
 - KUMAON / NAMIK-RANTHAN / Namik–Ranthan high-Himalaya trek — C.
 - KUMAON / RANIKHET / Kumaon Regimental Centre Museum — C.
 - KUMAON / ALMORA / historische bazaarwandeling — C.
-- KUMAON / CORBETT / Dhikala / Jim Corbett National Park serious safari module — C (Mark 2026-08-26).
-- KUMAON / PANGOT–KILBURY / Pangot + Kilbury forest/birding experience — C (Mark 2026-08-26).
+- KUMAON / CORBETT / Dhikala / Jim Corbett National Park serious safari module — C.
+- KUMAON / PANGOT–KILBURY / Pangot + Kilbury forest/birding experience — C.
+- KUMAON / MUKTESHWAR / Mukteshwar + Chauli ki Jali — C.
+- KUMAON / SATTAL–CHANFI / specialistische winter-birding/hides module — C; Sattal/Seven Lakes zelf blijft A*.
+- KUMAON / KALADHUNGI / Chhoti Haldwani Jim Corbett Heritage Village Trail — C.
+- KUMAON / BAGESHWAR / Uttarayani Mela — C.
+- KUMAON / PATAL BHUVANESHWAR / Patal Bhuvaneshwar Cave — C.
 
-### STILL OPEN
-- KUMAON / MUKTESHWAR / Mukteshwar + Chauli ki Jali (bergtempel, rotsrand, bos en Himalaya-uitzicht; ongeveer 5–6 uur footprint from Nainital working class) — OPEN. It was item 3 in the 2026-08-26 four-choice block and Mark did not assign a grade in that response.
+Kumaon day-expanding OPEN survivor gate is CLOSED. Canonical closure artifact:
+`KUMAON_FINAL_OPEN_SURVIVOR_MARK_DECISIONS_2026-08-26.md`.
 
 ## LATEST VARANASI ORDINARY GRADES — MARK 2026-08-24
 - VARANASI / TULSI GHAT / Tulsi Ghat + Lolark Kund (Tulsidas-ghat plus oude rituele zon-/vruchtbaarheidsbron) — A.
@@ -106,6 +112,8 @@ updated: 2026-08-26
 6. A* planned as attractive corridor extra but SKIP_FIRST and never sole route-driver;
 7. B stays visible in the real travel plan as conditional/reserve content, but may not independently add a dedicated night, major detour or route restructuring;
 8. overlay regional + traveler/Lonely-Planet + Komoot rows against same corridor framework;
-9. for genuinely new OPEN rows: hard cuts -> easy captures -> alternative bundles -> true ties / possible A+ magnets;
+9. close genuinely day-changing OPEN survivors;
 10. complete cluster execution and true nights;
 11. global route last.
+
+CURRENT KUMAON FRONTIER: selection closure is complete; build complete-execution/day design and true duration/minimum nights now.
