@@ -77,6 +77,33 @@ Canonical semantic source: `governance/ABC_SEMANTIC_LABEL_RULE_2026-08-23.md` pl
 - No PDF unless Mark explicitly asks for one.
 - Preserve useful research in GitHub; do not make the final travel project primarily a governance exercise.
 
+## LIGHT HISTORICAL PREFERENCE CHECK BEFORE `DURATION_CLOSED` — HARD
+Do NOT wait only for Mark to notice that an old preference is missing.
+
+Before any fixed-core cluster is marked `DURATION_CLOSED`, INDIA performs one bounded historical check for that specific cluster. This is NOT a full repo audit.
+
+Search only relevant terms such as:
+- cluster/place name;
+- chosen/previous sleep-base names;
+- key person/ashram/hotel names;
+- `night`, `nights`, `nachten`, `dagen`, `full day`, `rust`, `stay`, `sleep`, `hotel`, `ashram`, `train`, `flight`, `car`, `bus`, `LOCKED_BY_MARK` where relevant.
+
+Look first in:
+1. current decision/state files;
+2. `decisions/`;
+3. `handoffs/` most relevant to that cluster/time period;
+4. relevant older run files / Git history only if needed.
+
+Goal: recover prior Mark wishes about **sleep base, number of nights/days, pace/spiritual dwell and transport** before asking Mark to approve final duration.
+
+Rules:
+- newest explicit Mark decision wins;
+- do not revive old A/B/C or old route/calendar merely because a valid preference is found beside them;
+- promote still-valid recovered preferences into CURRENT state/this preference canon or a current cluster decision file;
+- if no additional preference is found, proceed; do not expand into an unbounded archive audit.
+
+This gate exists specifically to prevent a repeat of the Haidakhan error, where the current A+/A list was correct but the older 3-night / 2-complete-day dwell intention was missed.
+
 ## HISTORICAL RECOVERY RULE
 Older `handoffs/`, `governance/ACTIVE_STATE.md`, old route files and Git history can contain genuine Mark preferences that were never promoted into a current file.
 
@@ -93,6 +120,6 @@ But historical recovery is **selective**: extract the still-valid preference and
 This file does NOT prove that every preference Mark has ever stated has already been recovered. No INDIA version may claim 100% historical knowledge merely because boot passed.
 
 The safety model is:
-`CURRENT BOOT + CURRENT PREFERENCE CANON + PROTECTED DECISIONS + ACTIVE TASK FILES + TARGETED HISTORICAL RECOVERY WHEN SIGNALLED`.
+`CURRENT BOOT + CURRENT PREFERENCE CANON + PROTECTED DECISIONS + ACTIVE TASK FILES + LIGHT CLUSTER PREF CHECK BEFORE DURATION_CLOSED + TARGETED HISTORICAL RECOVERY WHEN SIGNALLED`.
 
 END_OF_CURRENT_PREFERENCE_CANON
