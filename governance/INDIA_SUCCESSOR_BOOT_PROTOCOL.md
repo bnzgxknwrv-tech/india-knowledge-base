@@ -1,11 +1,11 @@
 # INDIA SUCCESSOR BOOT PROTOCOL — BINDING
 
 Status: BINDING for INDIA10+ until explicitly superseded.
-Effective: 2026-08-23; action-first hardening: 2026-08-24; continuous-replaceability hardening: 2026-08-24; INDIA11 recovery hardening: 2026-08-26; meta-controller hardening: 2026-08-26.
+Effective: 2026-08-23; action-first hardening: 2026-08-24; continuous-replaceability hardening: 2026-08-24; INDIA11 recovery hardening: 2026-08-26; meta-controller hardening: 2026-08-26; preference-canon hardening: 2026-08-26.
 Purpose: preserve useful travel knowledge without turning this personal travel repository into a compliance system, while making the few truly critical rules unavoidable.
 
 ## The rule in one sentence
-Read the binding current rules, recovery guard, current state AND active trip-planning master controller; protect Mark's existing decisions; execute every safe relevant step you can now; continuously persist enough state that a successor can take over without Mark repeating anything; rescan for remaining executable work; and only then answer Mark.
+Read the binding current rules, authority map, Mark preference canon, recovery guard, current state AND active trip-planning master controller; protect Mark's existing decisions; execute every safe relevant step you can now; continuously persist enough state that a successor can take over without Mark repeating anything; rescan for remaining executable work; and only then answer Mark.
 
 ## 1. Normal start — mandatory order
 A new IndiaN reads, in this order:
@@ -13,24 +13,30 @@ A new IndiaN reads, in this order:
 2. `governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md`;
 3. THIS file `governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md`;
 4. `governance/INDIA11_RECOVERY_POSTMORTEM_AND_MUST_READ_2026-08-26.md`;
-5. `governance/CURRENT_STATE.md`;
-6. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRIP_PLANNING_META_CONTROLLER_2026-08-26.md`;
-7. `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv`;
-8. the current task/output files relevant to Mark's request;
-9. recent PR #23 exchanges not yet handled when they materially affect the task, and again immediately before a major central write.
+5. `governance/ACTIVE_FRAMEWORK.md`;
+6. `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md`;
+7. `governance/CURRENT_STATE.md`;
+8. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRIP_PLANNING_META_CONTROLLER_2026-08-26.md`;
+9. `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv`;
+10. the current task/output files relevant to Mark's request;
+11. recent PR #23 exchanges not yet handled when they materially affect the task, and again immediately before a major central write.
 
 This is normally enough. There is no routine requirement to reread the whole repository, compute byte percentages or recertify old unchanged files.
 
 **Boot is not complete merely because these filenames were mentioned in a handoff. They must actually be read in the current session before substantive regie work.**
 
+**AUTHORITY GATE:** `ACTIVE_FRAMEWORK.md` defines what counts as current authority versus historical provenance. Old `ACTIVE_STATE.md`, handoffs and route/calendar files may contain valuable facts/preferences, but they are not automatically current.
+
+**PREFERENCE GATE:** `MARK_TRAVEL_PREFERENCES_CURRENT.md` is the current cross-cluster preference canon. It includes fixed trip envelope, pace principle, transport hierarchy/class preference, door-to-door logic, final comfort-sweep preferences and presentation rules. A successor may not force Mark to restate these.
+
 **MASTER-CONTROLLER GATE:** `TRIP_PLANNING_META_CONTROLLER_2026-08-26.md` is binding for INDIA12+ and later successors until explicitly superseded or retired. A successor may not silently redesign the route-to-calendar sequence, jump to optional clusters or exact dates, or treat the controller as mere background context.
 
-**INDIA11 recovery trigger:** current-state boot is a pointer, not a guarantee that every older user-specific dwell/base/flow choice is restated there. If Mark says `we already decided this`, `zoek terug`, `je mist te veel`, or the proposed duration/base/flow conflicts with prior project logic, immediately widen to historical decisions/commits/handoffs/PR evidence before making further conclusions. See the mandatory INDIA11 postmortem.
+**INDIA11 recovery trigger:** current-state/current-preference boot is a pointer, not a guarantee that every older user-specific dwell/base/flow/preference choice has already been recovered. If Mark says `we already decided this`, `zoek terug`, `je mist te veel`, `ik had daar een voorkeur voor`, or the proposed duration/base/flow/transport conflicts with prior project logic, immediately widen to relevant historical decisions/commits/handoffs/PR evidence before making further conclusions. Promote only the still-valid fact into current canon; never revive an old route bundle wholesale.
 
 ## 2. Baseline + delta is a convenience, not a ceremony
 The INDIA9 baseline/audit files remain useful evidence that older branch knowledge was inspected and imported or archived. Use them when provenance matters or when something appears missing.
 
-For normal work, read the meaningful changes since the current-state page / last known handoff that are relevant to the task. If a conflict or unexplained gap appears, widen the read until it is understood. A missing user-specific dwell/base/flow fact signaled by Mark counts as an unexplained gap even when no two current files literally contradict each other. Full-repository bootstrap is an exceptional recovery option, not a default gate.
+For normal work, read the meaningful changes since the current-state page / last known handoff that are relevant to the task. If a conflict or unexplained gap appears, widen the read until it is understood. A missing user-specific dwell/base/flow/preference fact signaled by Mark counts as an unexplained gap even when no two current files literally contradict each other. Full-repository bootstrap is an exceptional recovery option, not a default gate.
 
 The master controller defines the current planning architecture. Historical widening may recover facts and decisions, but it may not silently replace the active method with an older planning pipeline unless Mark/current governance explicitly supersedes it.
 
@@ -43,6 +49,8 @@ If Mark has already decided it, do not ask him to decide it again. Report only a
 Existing Mark A/B/C choices, A+ choices, locks and permanent IDs are protected against silent mutation. A new explicit Mark decision may supersede an older one; when it does, update the durable canon clearly instead of keeping competing current truths.
 
 Do not convert a conditional question, hypothetical or reasoning prompt from Mark into a grade/drop/route decision. A subjective mutation requires explicit decision language or a directly unambiguous Mark answer.
+
+Cross-cluster preferences that change materially must also be updated in `MARK_TRAVEL_PREFERENCES_CURRENT.md` when they are meant to persist beyond the current task.
 
 ## 5. Worker output is not automatically central truth
 A worker branch saying `COMPLETE` means the worker finished its assignment. It does not automatically mean the result has been adopted centrally or is ready for route use. Check integration/adoption before relying on it as final state.
@@ -71,6 +79,8 @@ Do not update it for every trivial commit.
 If an older handoff still labels itself `CURRENT` but conflicts with a later explicit `CURRENT_STATE.md` phase/method supersede, the later state governs the current phase. Correct the stale handoff immediately when it can mislead a successor.
 
 Do not assume CURRENT_STATE contains every older personalized dwell/base preference. It must point successors to the active recovery guard, and historical widening is mandatory when a user correction exposes an omitted older fact.
+
+Do not assume `MARK_TRAVEL_PREFERENCES_CURRENT.md` proves perfect historical completeness either. It is a consolidated current index; targeted historical recovery remains mandatory when Mark signals a missing preference.
 
 CURRENT_STATE must also point to the active master controller. If a new controller supersedes `TRIP_PLANNING_META_CONTROLLER_2026-08-26.md`, the boot chain must be updated in the SAME material change so no successor starts with two competing methods.
 
@@ -117,6 +127,7 @@ The durable continuation state must make clear, where applicable:
 - newest Mark decisions/supersedes;
 - current phase and exact frontier;
 - active master controller/method and whether it is still binding;
+- current cross-cluster Mark preferences when material;
 - what was actually completed/integrated;
 - which current output/decision files contain the working truth;
 - any relevant unfinished work that genuinely remains and whether it is autonomous, Mark-only, external or blocked;
@@ -126,7 +137,8 @@ The durable continuation state must make clear, where applicable:
 Hard rules:
 - do NOT wait until Mark announces INDIA11/12/13 or until context is visibly exhausted;
 - do NOT keep material continuation state only in memory because "we are still in the same chat";
-- do NOT make a successor infer current truth from dozens of old commits when `CURRENT_STATE.md` can point directly to it;
+- do NOT make a successor infer current truth from dozens of old commits when current canon can point directly to it;
+- do NOT make a successor reconstruct cross-cluster preferences from old handoffs when `MARK_TRAVEL_PREFERENCES_CURRENT.md` can carry them;
 - do NOT make a successor reconstruct the active planning architecture when a binding meta-controller exists;
 - do NOT ask Mark to repeat decisions/work after replacement when GitHub could have carried them;
 - if context is getting long, checkpoint FIRST, then continue executing; context pressure is not permission to defer current work.
@@ -134,9 +146,9 @@ Hard rules:
 Trivial conversational wording does not require a commit. Material project state does.
 
 ## 11. Good-enough threshold
-IndiaN may say `READY_TO_CONTINUE` when it has enough current context to act responsibly on the specific active task: current state + active meta-controller + protected canon + relevant current files + material recent relay delta + mandatory failure/recovery guard.
+IndiaN may say `READY_TO_CONTINUE` when it has enough current context to act responsibly on the specific active task: authority map + current preference canon + current state + active meta-controller + protected canon + relevant current files + material recent relay delta + mandatory failure/recovery guard.
 
-`READY_TO_CONTINUE` does NOT mean 'I know every historical project detail'. If the active task depends on a past dwell/base/pace/flow choice and that choice is not in current state, recover it first.
+`READY_TO_CONTINUE` does NOT mean 'I know every historical project detail' or 'every preference ever stated is already consolidated'. If the active task depends on a past dwell/base/pace/flow/preference choice and that choice is not in current state/preference canon, recover it first.
 
 If those sources disagree, resolve the disagreement first. Otherwise continue. No `100% knowledge` percentage is required.
 
@@ -148,12 +160,14 @@ A successor-safe checkpoint is maintained continuously under section 10. Therefo
 Before an explicit handoff after material work, verify only that:
 - `CURRENT_STATE.md` reflects the real active phase/frontier;
 - newest material Mark decisions are durable;
+- durable cross-cluster preference changes are reflected in `MARK_TRAVEL_PREFERENCES_CURRENT.md`;
 - exact active files are pointed to;
+- `ACTIVE_FRAMEWORK.md` and the current preference canon are named in the boot chain;
 - the active meta-controller is named explicitly in the boot chain and CURRENT_STATE;
 - the mandatory active recovery/postmortem file is still in the boot chain unless explicitly retired;
 - any stale handoff that could override/mislead the next session carries an explicit supersede notice;
 - no unfinished autonomous action is hidden only in the outgoing chat;
-- the next session boots from README + critical no-deferral + THIS protocol + recovery postmortem + CURRENT_STATE + active meta-controller, not from a remembered summary alone.
+- the next session boots from README + critical no-deferral + THIS protocol + recovery postmortem + active framework + Mark preference canon + CURRENT_STATE + active meta-controller, not from a remembered summary alone.
 
 If these conditions are already true because continuous replaceability was followed, do not create redundant handoff bureaucracy.
 
