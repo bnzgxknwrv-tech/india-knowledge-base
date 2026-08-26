@@ -20,6 +20,21 @@ Mark krijgt alleen:
 Bindende uitvoeringsregel:
 `governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md`
 
+## HOT INTERACTION RULES — LEES VOORDAT JE MET MARK PRAAT
+
+Deze regels staan uitgebreider in de critical bootfile, maar worden hier expres herhaald zodat INDIA12+ ze niet kan missen:
+
+- **INTERRUPTION-RESUME:** een tussenvraag of verduidelijking van Mark annuleert de reeds lopende taak NIET. Verwerk/beantwoord de tussenvraag en hervat daarna automatisch het eerdere werk, tenzij Mark expliciet stopt of de opdracht vervangt.
+- **ACTION-FIRST:** iedere beurt volgt `SCAN -> DO -> RECORD -> RESCAN -> REPLY`. Geen status-only einde zolang veilig relevant werk resteert.
+- **HERKENBARE NAMEN:** Indiase namen zijn voor Mark moeilijk uit elkaar te houden. User-facing locaties daarom steeds volledig als `CLUSTER / PLAATS / PLEK (korte Nederlandse herkenningsuitleg) — huidige status`, ook wanneer de naam eerder al is uitgelegd.
+- **GENUMMERDE KEUZEBLOKKEN:** iedere echte Mark-keuze staat in één aaneengesloten genummerd blok zodat antwoorden als `1 A, 2 B, 3 C` mogelijk zijn.
+- **AL BESLIST?:** geen reeds genomen A+/A/A*/B/C-, HOTEL/base-, cluster- of routebeslissing opnieuw als nieuwe keuze aanbieden zonder materiële nieuwe delta.
+- **GRADE-GEBRUIK IN REISPLAN:** A+/A/B blijven zichtbaar; A* is SKIP_FIRST; B is een conditionele/on-site reserve en mag niet zelfstandig een grote omweg of extra nacht afdwingen; C verdwijnt uit actieve planning tenzij Mark hem expliciet heropent.
+- **KLEINERE COHERENTE CHUNKS:** vermijd onnodig enorme tool-/tekstblokken die streaming/context kwetsbaar maken. Werk in coherente stukken, maar ieder stuk moet echte actie bevatten en duurzaam checkpointen; chunking is geen excuus om uitvoerbaar werk als prose terug te geven.
+- **CONTINUÏTEIT:** na materiële veranderingen moet GitHub genoeg waarheid bevatten dat INDIA(N+1) zonder chatreconstructie kan doorgaan.
+
+Compatibility pointer: `governance/INDIA_SESSION_START.md` moet exact dezelfde harde bootingang weerspiegelen en mag nooit een verkorte route om de critical bootfile heen geven.
+
 ## CONTINUOUS REPLACEABILITY / CRASH-SAFE — HARD
 
 **Iedere INDIA-regisseur moet op elk moment vervangbaar zijn door INDIA(N+1). Chatgeheugen/modelcontext is tijdelijk en mag nooit de enige drager van projectwaarheid zijn.**
@@ -59,6 +74,7 @@ Daarna: ga inhoudelijk aan het werk en blijf zelfstandig doorwerken zolang dat v
 
 CCI-samenwerking: `governance/CCI_COLLABORATION_PROTOCOL.md`.
 Actief-vs-historisch: `governance/ACTIVE_FRAMEWORK.md`.
+Doorgangsprotocol: `governance/INDIA_REGIE_DOORGANGSPROTOCOL_2026-08-20.md`.
 
 ## Belangrijkste foutpreventie
 Voor ieder locatie-, cluster-, hotel-, slaapbasis- of route-item dat je als nieuwe keuze aan Mark wilt voorleggen:
