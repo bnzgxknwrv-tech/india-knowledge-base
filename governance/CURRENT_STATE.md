@@ -1,216 +1,119 @@
 # CURRENT STATE — INDIA
 
-Last updated: 2026-08-25
-Purpose: compact durable boot state for INDIA10+; old handoffs/date sketches are provenance only.
-Branch: `agent/india8-cluster-casting`.
+Last updated: 2026-08-26
+Branch: `agent/india8-cluster-casting`
+Purpose: compact durable boot state. Old calendar sketches are provenance only.
 
-## MANDATORY BOOT
+## BOOT
+Read in this order:
 1. `README.md`
 2. `governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md`
 3. `governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md`
 4. THIS file
-5. protected canon: `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv`
-6. relevant active files below
-7. PR #23 before major central work/write. Latest relevant CCI task was cancelled by Mark STOP on 2026-08-24; do not revive unless explicitly reopened.
+5. `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv`
+6. only current-frontier files listed below
+7. PR #23 at start of major integration and directly before central write; no continuous polling.
 
-## EXECUTION / REPLACEABILITY — HARD
-Mandatory loop: `SCAN -> DO -> RECORD -> RESCAN -> repeat -> REPLY`.
-Every INDIA-regisseur is disposable. Before every reply ask: `IF I DISAPPEAR NOW, CAN INDIA(N+1) CONTINUE FROM GITHUB WITHOUT MARK REPEATING ANYTHING?`
-A user interruption does not cancel unfinished work unless Mark explicitly STOPs/cancels/supersedes it.
+Worker `COMPLETE` is not automatically central truth. Verify integration/adoption. Use CCI only as a light second pair of eyes on genuinely hard research/integration. STOP OPTIMIZING and return to the trip.
 
-## USER-FACING NAME PROTOCOL — ABSOLUTE HARD
-Every Indian/non-obvious place, hotel, institution, ashram, temple, cave, ghat, walk or experience shown to Mark must EVERY TIME use full cluster/place/name + short Dutch explanation + current status. Never rely on shorthand memory.
+## HARD PRESENTATION / DECISION RULES
+Before any location, cluster, HOTEL, sleeping base or route item shown to Mark: `AL BESLIST?`.
+Never re-offer an existing A/B/C/A+/lock as a new choice.
 
-Standard:
-`CLUSTER / PLAATS / PLEK (korte Nederlandse uitleg wat dit concreet is / waarom relevant) — huidige status: A+ / A / A* / B / C / OPEN`.
+Precedence: newest Mark decision/supersede > accommodation lock > cluster decision > site A/B/C/A+ > current master/reconciliation > CURRENT_STATE/method > protected legacy > old handoff provenance.
 
-Sleeping-place display rule:
-- EVERY sleeping base starts user-facing with `HOTEL`, including guesthouses, retreats and ashrams used for sleeping. This is a clarity prefix, not a legal classification.
-- Example: `KUMAON / DUNAGIRI / HOTEL Dunagiri Retreat (...) — accommodatie-status: LOCKED_BY_MARK`.
-- An ashram discussed as a spiritual visit site retains its normal site name; HOTEL applies when referring to its sleeping-base function.
+User-facing places always use:
+`CLUSTER / PLAATS / PLEK (korte Nederlandse uitleg) — huidige status: A+ / A / A* / B / C / OPEN`.
+Every sleeping base is prefixed `HOTEL` user-facing.
 
-Every walk shown must include walking distance + realistic walking duration FROM physical start/trailhead, then separately the road/transfer relation from the relevant A+/A/A* anchor. Unverified = `nog te verifiëren`.
-`kosten` / `gratis` are money-only words; logistics use reistijd/extra reistijd/omweg/duur.
+Grade semantics:
+- A+ trip-defining;
+- A Mark wants to visit very much; default retain;
+- A* corridor/base bycatch, SKIP_FIRST;
+- B reserve/bycatch;
+- C do not plan unless reopened;
+- OPEN ungraded; subjective scope belongs to Mark.
 
-## GRADE SEMANTICS — HARD
-- `A+` = trip-defining; protect absolutely.
-- intrinsic `A` = Mark wants to go VERY MUCH; default retain unless true burden is clearly disproportionate.
-- `A*` = formal A corridor/base bycatch; `SKIP_FIRST`; may not independently force detour/extra night/major sacrifice.
-- `B` = reserve/bycatch only; normally not planned.
-- `C` = do not plan/re-present unless explicitly reopened.
-- `OPEN` = ungraded discovery; only Mark assigns/changes subjective grade.
+## ROUTE METHOD — HARD
+Earlier exact-date/day sketches are NON-AUTHORITATIVE because transfer time was not consistently charged door-to-door.
 
-Never ask Mark to grade from a bare name/distance. Decision cards include meaning + current physical visit + relation to A+ + real logistical burden.
+Planning order:
+`SELECTED SITES/CLUSTERS -> REAL DOOR-TO-DOOR TRANSFERS -> GLOBAL TOPOLOGY -> MARK DWELL-TIME RANGES -> NIGHT/BASE SCENARIOS -> EXACT CALENDAR -> SPECIAL-EVENT OPTIMIZATION`.
 
-## PRIMARY CURRENT TRUTH — READ BEFORE ROUTE/CALENDAR ADVICE
-1. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/ROUTE_PLANNING_SYSTEM_CORRECTION_2026-08-25.md`
-2. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/GLOBAL_TRANSFER_LEDGER_2026-08-25.md`
-3. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CLUSTER_TOPOLOGY_FEASIBILITY_2026-08-25.md`
-4. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DWARAHAT_YSS_FULL_DAY_PLAN_2026-08-25.md`
-5. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BABAJI_DUNAGIRI_RETREAT_LOCKED_ACCOMMODATION_2026-08-25.md`
-6. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KOMOOT_WALK_DISCOVERY_LAYER_2026-08-25.md`
-7. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_WALK_COVERAGE_MATRIX_2026-08-25.md`
-8. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md`
-9. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_EASY_CAPTURE_MARK_DECISIONS_2026-08-25.md`
-10. traveler master: `runs/active/INDIA10-MULTIAI-TRAVELER-DISCOVERY-001/TRAVELER_EXPERIENCE_MASTER_UNION_LEDGER.md`
+Door-to-door means packing/check-out/loading + ground access + terminal/station buffer + transport + baggage/exit + next HOTEL transfer/check-in + food/rest + winter/fog/traffic/delay + daylight/energy loss.
+31 Dec 2026 Rishikesh remains DATE_WISH, not lock.
 
-The old `DWARAHAT_YSS_HALF_DAY_BUNDLE_2026-08-25.md` is explicitly SUPERSEDED by `DWARAHAT_YSS_FULL_DAY_PLAN_2026-08-25.md`.
+## CURRENT ROUTE TRUTH
+1. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/GLOBAL_TRANSFER_LEDGER_2026-08-25.md`
+2. `runs/active/INDIA10-CLUSTER-TOPOLOGY-001/NORTH_TOPOLOGY_DECISION_SUPPORT.md`
+3. `runs/active/INDIA10-CLUSTER-TOPOLOGY-001/EAST_CORRIDOR_TRANSFER_TOPOLOGY.md`
+4. `runs/active/INDIA10-CLUSTER-TOPOLOGY-001/SOUTH_JUMP_TRANSFER_TOPOLOGY.md`
+5. `runs/active/INDIA10-CLUSTER-TOPOLOGY-001/GLOBAL_CLUSTER_TOPOLOGY_SYNTHESIS.md`
+6. `runs/active/INDIA10-CLUSTER-TOPOLOGY-001/OPTIONAL_CLUSTER_MARK_DECISION_CARDS.md`
+7. `governance/INDIA_ROUTE_TOPOLOGY_CHECKPOINT_2026-08-26.md`
 
-## MAJOR SYSTEM CORRECTION — HARD 2026-08-25
-Earlier calendar/day sketches are NON-AUTHORITATIVE because researched transfer times were not consistently deducted as occupied day time.
+Traveler candidates when needed: `runs/active/INDIA10-MULTIAI-TRAVELER-DISCOVERY-001/TRAVELER_EXPERIENCE_MASTER_UNION_LEDGER.md`.
 
-What remains valid:
-- A+/A/A*/B/C decisions;
-- hotel/accommodation locks;
-- person/location canon;
-- regional/traveler/LP research;
-- Komoot discoveries;
-- safety/legal findings;
-- corridor evidence that survives current recheck.
+## FIXED CORE / LOCKS
+Six A+ core worlds remain structurally feasible: DELHI; KUMAON; AGRA/Taj Mahal; BODH GAYA/GAYA; VARANASI/SARNATH; TIRUVANNAMALAI/ARUNACHALA.
 
-What is invalidated:
-- old exact-date/day sketches unless rebuilt through the new transfer gate.
-
-Mandatory planning order:
-`SELECTED SITES/CLUSTERS -> REAL DOOR-TO-DOOR TRANSFER BLOCKS -> GLOBAL TOPOLOGY/ROUTE DIRECTION -> MARK DWELL-TIME RANGES -> NIGHT/BASE SCENARIOS -> EXACT CALENDAR -> SPECIAL-EVENT OPTIMIZATION`.
-
-Raw flight/train/road time is NEVER the complete calendar block. Add packing/check-out/loading, station/airport access, waiting/security, baggage/exit, onward transfer, next HOTEL check-in, food/rest, winter/fog/traffic/delay buffer, daylight and energy loss.
-
-31 Dec 2026 in Rishikesh = `DATE_WISH`, not a lock.
-
-## FIXED CORE WORLDS — MUST FIT BEFORE OPTIONAL CLUSTERS
-1. Kumaon
-2. Delhi
-3. Agra / Taj Mahal
-4. Bodh Gaya / Gaya
-5. Varanasi / Sarnath
-6. Tiruvannamalai / Arunachala
-
-Current zoom-out conclusion: all six remain structurally feasible even after travel time is counted honestly.
-
-## PROTECTED A+ SPINE — SUMMARY
-### KUMAON
-- `KUMAON / HAIDAKHAN / Haidakhan Vishwa Mahadham (hoofdashram van Haidakhan Babaji bij Village Haidakhan aan de Gautami Ganga; historische grot waar hij volgens de traditie in 1970 verscheen) — huidige status: A+`.
-- `KUMAON / NAINITAL / Hotel Evelyn (historisch hotel waar Ram Dass verbleef; exacte kamer niet bewezen) — huidige status: A+`.
-- `KUMAON / NAINITAL / Naini Lake-rondwandeling (ca. 3,2 km / 55–75 min vanaf lakefront; volledige meerlus) — huidige status: A+`.
-- `KUMAON / KAINCHI / Kainchi Dham (Neem Karoli Baba-ashramcomplex; kernplek voor Neem Karoli Baba en Ram Dass) — huidige status: A+`.
-- `KUMAON / KUKUCHINA-DUNAGIRI / Mahavatar Babaji's Cave (bezoekbare YSS/Kriya-pelgrimsgrot; hoofdreden voor de reis) — huidige status: A+`.
-
-Do not merge Haidakhan Babaji tradition with Mahavatar Babaji/Kriya claims.
-
-### VARANASI / SARNATH
-Protected A+ world includes Varanasi Kriya core, Sarnath sacred/archaeological complex, Tailanga Swami/Panchganga/Bindu Madhav world, Shree Shree Ma Anandamayi Ashram, Kashi Vishwanath sacred core, Manikarnika Ghat + Ratneshwar CHILD_A+, Dashashwamedh Ghat + Shitala Mata Temple, Assi Ghat.
-
-### BODH GAYA / GAYA
-- `BODH GAYA / BODH GAYA / Mahabodhi Temple Complex (Boeddha-verlichtingscomplex) — huidige status: A+`.
-- `BODH GAYA / BAKRAUR / Sujata Stupa (plek waar Sujata de uitgemergelde Siddhartha voedsel gaf; keerpunt van extreme ascese naar de Middenweg vóór zijn verlichting) — huidige status: A+`.
-- `BODH GAYA / DUNGESHWARI HILLS / Dungeshwari–Mahakala Caves (grotten waar Siddhartha extreme ascese beoefende vóór Sujata en de verlichting) — huidige status: A+`.
-
-### TIRUVANNAMALAI / ARUNACHALA
-- `ARUNACHALA / TIRUVANNAMALAI / Arunachala / Ramana sacred world (heilige berg, ashram en directe Ramana Maharshi-levensplekken) — huidige status: A+`.
-
-### DELHI
-- `DELHI / CHHAWLA / Nirmal Dham (rustplaats/Mahasamadhi van Shri Mataji Nirmala Devi) — huidige status: A+`.
-
-### AGRA
-- `AGRA / AGRA / Taj Mahal — huidige status: A+`; earliest practical opening hard.
-
-## KUMAON — CURRENT ROUTE / LOCKS
-Baseline geometry:
+Kumaon hard order:
 `HAIDAKHAN VISHWA MAHADHAM -> NAINITAL -> KAINCHI -> DWARAHAT -> DUNAGIRI/KUKUCHINA`.
+Do not use Dwarahat/Dunagiri before Nainital/Kainchi.
+Eastern Kumaon exit to the plains/Vrindavan-Agra corridor = FULL TRAVEL DAY class.
 
-Do NOT use the conversational wrong order `Haidakhan -> Dwarahat/Dunagiri -> Nainital/Kainchi`; it backtracks.
+`KUMAON / DUNAGIRI / HOTEL Dunagiri Retreat (gekozen spirituele wandelbasis bij de Mahavatar Babaji-grot) — accommodatie-status: LOCKED_BY_MARK`.
+`VARANASI / ASSI GHAT / HOTEL Sahi River View Guesthouse (gekozen verblijf aan/naast Assi Ghat) — accommodatie-status: LOCKED_BY_MARK`.
 
-Important correction: older raw Haidakhan distances based on generic/ambiguous map pins are NOT calendar-safe. Official Haidakhandi material and public mapping conflict; exact road entrance/time must be closed before northern dates. This uncertainty does NOT reopen the A+ site.
+`KUMAON / DWARAHAT / Yogoda Satsanga Sakha Ashram — Dwarahat (YSS-ashram in de Mahavatar Babaji/Kriya-regio) — huidige status: A` krijgt een FULL DAY. Mark is Ananda, niet YSS/SRF; geen YSS overnight.
 
-`KUMAON / DUNAGIRI / HOTEL Dunagiri Retreat (spiritueel retreat/hotel in Village Chari bij de Mahavatar Babaji-grot; gekozen wandelbasis voor de Mahavatar Babaji-wereld) — accommodatie-status: LOCKED_BY_MARK`.
-- direct hotel-based walk to the Mahavatar Babaji cave is DEFAULT;
-- no taxi to a farther generic trailhead unless a longer version is demonstrably exceptional;
-- winter room heating confirmation is a later booking condition, not a hotel-reopening trigger.
+Formal DECISION-0008, Mark 2026-07-14:
+- `BRAJ / VRINDAVAN / Katyayani Peeth / Keshav Ashram (Shakti-tempel en Kriya-lineage via Swami Keshavanand) — huidige status: A`;
+- `BRAJ / VRINDAVAN / Neem Karoli Baba Ashram en samadhi (ashram en vereerde laatste rustplaats van Maharaj-ji) — huidige status: A`.
+These two are NOT optional. Only broader Braj expansion is OPEN.
 
-`KUMAON / DWARAHAT / Yogoda Satsanga Sakha Ashram — Dwarahat (YSS-ashram van Paramahansa Yogananda’s organisatie; meditatiecentrum in de Mahavatar Babaji/Kriya-regio) — huidige status: A` gets a FULL DAY.
-- Mark is Ananda, not YSS/SRF;
-- YSS overnight accommodation is NOT an option for this trip;
-- preferred working pattern is day trip from HOTEL Dunagiri Retreat if winter commute remains comfortable;
-- a normal Dwarahat HOTEL is only a possible operational fallback if late return is later proven undesirable.
+## TOPOLOGY — BLOCKS 1–4 COMPLETE PROVISIONAL
+North:
+`DELHI -> KUMAON -> [optional HARIDWAR/KANKHAL/RISHIKESH] -> VRINDAVAN/AGRA corridor`.
+Retained Haridwar/Rishikesh adds roughly +1 movement day +1 sleeping base versus the already-long Kumaon exit, plus dwell.
 
-Eastern Kumaon exit from Dwarahat/Dunagiri to plains/Agra corridor = `FULL TRAVEL DAY` planning class. This burden exists with or without Rishikesh.
+East:
+`AGRA -> BODH GAYA/GAYA -> VARANASI/SARNATH`.
+Current direct Agra Fort -> Gaya overnight rail can preserve waking daylight but costs sleep/recovery. No exact train/date locked.
 
-## OPTIONAL CLUSTER FEASIBILITY — NO DATES
-### HARIDWAR / KANKHAL / RISHIKESH
-`HARIDWAR–RISHIKESH / HARIDWAR–KANKHAL–RISHIKESH / spirituele Ganges-cluster (Rishikesh-yoga/ashramwereld plus Haridwar/Kankhal-heilige Gangeslaag) — huidige status: OPEN`.
-Class: `OPTIONAL / REALISTIC / MEANINGFUL-MODERATE EXTRA BURDEN`.
-Best placement: ONCE between Delhi and Kumaon, before the Kumaon eastward sweep.
-It does not inherently require returning to Delhi. It converts one northern transfer into two substantial transfers, adds one base change and adds its own dwell time. Do not place it after eastern Kumaon and bounce west again.
-Exact route to the true Haidakhan Vishwa Mahadham entrance remains P0 closure before dates.
+South:
+`VARANASI/SARNATH -> VNS -> CHENNAI -> TIRUVANNAMALAI/ARUNACHALA`.
+Working class ~9–11h HOTEL-to-HOTEL. Bengaluru is fallback ~10–12.5h. Recheck actual Dec/Jan services only when calendar/booking requires it.
 
-### BRAJ
-`BRAJ / MATHURA–VRINDAVAN–GOVARDHAN / Braj-pelgrimscluster (Krishna-landschap direct bij de Delhi–Agra-corridor) — huidige status: OPEN`.
-Class: `OPTIONAL / LOW GEOMETRIC BURDEN`.
-Mostly costs its own visit/night time rather than a large detour.
+Global no-date skeleton:
+`DELHI -> KUMAON -> [optional HARIDWAR/KANKHAL/RISHIKESH] -> VRINDAVAN fixed A anchors -> [optional broader BRAJ] -> AGRA -> [optional PRAYAGRAJ] -> BODH GAYA/GAYA -> VARANASI/SARNATH -> CHENNAI gateway -> TIRUVANNAMALAI/ARUNACHALA`.
+No return to Delhi is structurally required after Kumaon.
 
-### PRAYAGRAJ
-`PRAYAGRAJ / PRAYAGRAJ / heilige Ganges–Yamuna-samenvloeiingscluster (Triveni Sangam/Allahabad-pelgrimswereld op de west-oost spooras) — huidige status: OPEN`.
-Class: `OPTIONAL / LOW-TO-MODERATE GEOMETRIC BURDEN`.
-It lies on the west-east rail axis, but is NOT route-required: direct Agra->Gaya overnight rail also exists. Prayagraj must survive on content value, not transit necessity.
+## CURRENT FRONTIER — MARK ONLY
+Do NOT do more topology research and do NOT assign exact dates.
+Use `OPTIONAL_CLUSTER_MARK_DECISION_CARDS.md`.
 
-### MYSORE / BENGALURU SIGHTSEEING
-Not assumed. Bengaluru may be an airport fallback only. Any actual sightseeing tail must independently earn its time.
+Mark decisions now needed:
+1. `HARIDWAR–RISHIKESH / HARIDWAR–KANKHAL–RISHIKESH / spirituele Ganges-cluster (...) — huidige status: OPEN` -> RETAIN or DROP.
+2. `BRAJ / MATHURA–VRINDAVAN–GOVARDHAN / bredere Braj-pelgrimslaag rond de vaste Vrindavan-A-ankers (...) — huidige status: OPEN` -> A-ANCHORS_ONLY / VRINDAVAN_CORE_PLUS / BROADER_BRAJ.
+3. `PRAYAGRAJ / PRAYAGRAJ / heilige Ganges–Yamuna-samenvloeiingscluster (...) — huidige status: OPEN` -> RETAIN / DROP / RETAIN_ONLY_IF_MAGH_MELA_ALIGNS.
 
-## CURRENT STRONGEST GLOBAL TOPOLOGY — NO DATES
-`DELHI`
-`-> optional HARIDWAR/KANKHAL/RISHIKESH`
-`-> KUMAON: exact HAIDAKHAN VISHWA MAHADHAM -> NAINITAL -> KAINCHI -> DWARAHAT -> DUNAGIRI/KUKUCHINA`
-`-> FULL TRAVEL DAY eastern-Kumaon exit toward plains`
-`-> optional BRAJ`
-`-> AGRA`
-`-> optional PRAYAGRAJ OR direct overnight AGRA->GAYA`
-`-> BODH GAYA/GAYA`
-`-> VARANASI/SARNATH`
-`-> PRIMARY current direct VNS->CHENNAI air-gateway hypothesis`
-`-> road CHENNAI -> TIRUVANNAMALAI/ARUNACHALA`.
+Burden before dwell:
+- broader Braj: lowest geometric burden; no forced extra full transfer day because fixed Vrindavan A visits exist anyway;
+- Haridwar/Rishikesh: roughly +1 movement day +1 base;
+- Prayagraj: roughly +1 base +1 waking movement block/day versus current direct Agra->Gaya overnight hypothesis.
 
-Eastern pair/order: prefer Bodh Gaya/Gaya -> Varanasi/Sarnath -> south, because Varanasi is the better current air exit.
+Decision-relevant date facts rechecked 2026-08-26:
+- Haridwar Kumbh 2027: official preparations active; Makar Sankranti Snan announced for 14 Jan 2027. Bonus only if later dates naturally align; huge crowd friction.
+- Magh Mela Prayagraj: Incredible India/Uttar Pradesh Tourism currently lists 15 Jan–6 Mar 2027. Bonus only if later dates naturally align.
 
-South gateway hierarchy as of 2026-08-25:
-1. PRIMARY: direct Varanasi (VNS) -> Chennai (MAA) if operating on actual trip date; current flight ~2h15 and Chennai Airport -> Tiruvannamalai ~171 km / ~2.5h raw road class.
-2. FALLBACK: direct Varanasi -> Bengaluru; Bengaluru Airport -> Tiruvannamalai ~232 km / ~3.5h raw road class.
-3. Gaya->Chennai connection pattern is currently inferior because Gaya lacks a nonstop.
+After these three Mark decisions: obtain dwell-time RANGES for retained/open-expanded worlds, then close exact used transfer edges/night scenarios, then exact calendar.
 
-Even the direct VNS->MAA option remains a SUBSTANTIAL/FULL TRAVEL DAY after all door-to-door overhead.
-Exact Dec 2026 / Jan 2027 schedules must be rechecked before lock/booking.
+## LATER P0 OPERATIONAL CLOSURES
+- exact road entrance + winter transfer to true Haidakhan Vishwa Mahadham; generic map pins not trusted;
+- HOTEL Dunagiri Retreat <-> YSS Dwarahat winter commute;
+- Babaji cave hotel-walk track/safety;
+- actual-date Dec 2026/Jan 2027 train/flight operation/availability.
 
-## KOMOOT / WALK LAYER — PRESERVED PARALLEL WORK
-Komoot remains an extra discovery/verification layer above regional/traveler work. It may enrich A+/A/A* anchors and replace taxi segments with good legal/safe walks, but it may not hide transfer time or distort global topology.
-
-Hard walk logic:
-- shortest good hotel/site walk is default;
-- longer variant survives only if clearly exceptionally prettier/spiritually superior or links selected sites usefully;
-- driver may move luggage while Mark walks a beautiful safe site-to-site segment;
-- safety/legal/wildlife can veto walking mode without changing site grade.
-
-## CURRENT FRONTIER — WHAT INDIA11 MUST DO IF IT TAKES OVER
-Do NOT assign exact dates yet.
-
-Current strategic question:
-`Which OPTIONAL clusters are worth their TRUE travel + base-change + dwell-time burden around the six fixed core worlds?`
-
-Current zoom-out answer:
-- six fixed core worlds still fit structurally;
-- Kumaon is the largest fixed northern burden and has a full exit travel day;
-- Haridwar/Kankhal/Rishikesh remains feasible, but is the most material current optional northern insertion;
-- Braj is geographically cheap;
-- Prayagraj is corridor-compatible but not needed to bridge Agra to Gaya;
-- Varanasi->Chennai materially improves the southbound geometry.
-
-Next planning logic is NOT exact date selection. First compare optional cluster value versus burden and obtain Mark's desired dwell-time RANGE for retained clusters. Then close only the exact transfer edges actually used, count nights/base changes, and only then build exact dates/special events.
-
-## P0 OPEN OPERATIONAL CLOSURES
-- exact road entrance and realistic winter transfer time to the true `KUMAON / HAIDAKHAN / Haidakhan Vishwa Mahadham (...) — huidige status: A+` from previous/next cluster; generic map pins are not trusted yet;
-- exact HOTEL Dunagiri Retreat <-> YSS Dwarahat winter commute/late-return practicality before calendar use;
-- exact Babaji cave hotel-walk track/safety before final daily routing;
-- exact Dec 2026/Jan 2027 VNS->MAA schedule before southbound calendar lock;
-- all exact winter daily routing later; never fake precision.
-
-## REPLACEABILITY CHECKPOINT
-If INDIA10 disappears now, INDIA11 reads this CURRENT_STATE plus the first three PRIMARY CURRENT TRUTH files. It must not reconstruct old calendars from chat, must not re-open protected site/hotel decisions, must not offer YSS overnight, and must not return to exact-date planning prematurely.
+## REPLACEABILITY
+If INDIA11 disappears, INDIA12 reads this file + protected baseline + topology checkpoint + optional decision cards. It must not revive old calendars, reopen protected decisions, offer YSS overnight, treat all Vrindavan as optional, or date-plan before Mark's three scope decisions and dwell ranges.
