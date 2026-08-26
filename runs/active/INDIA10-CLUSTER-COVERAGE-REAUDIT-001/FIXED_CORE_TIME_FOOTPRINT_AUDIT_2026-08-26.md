@@ -3,6 +3,12 @@
 status: ACTIVE_FRONTIER_RESTORED__FIXED_CORE_FIRST
 branch: agent/india8-cluster-casting
 
+## MASTER META CONTROLLER
+For the complete route-to-calendar sequence and definition-of-done gates, read first:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRIP_PLANNING_META_CONTROLLER_2026-08-26.md`.
+
+This audit remains the fixed-core evidence/state layer; the meta controller is the higher-level process controller.
+
 ## PURPOSE
 Restore the original controller logic after the 2026-08-25 travel-time correction caused the durable successor pointer to jump too early toward optional-cluster comparison.
 
@@ -31,33 +37,11 @@ These six are already trip-defining. Their inclusion is not being reopened.
 - preserved old-A -> A+ promotion pass: COMPLETE.
 - corridor work: substantial and usable.
 - Komoot/walk layer: substantial and usable.
-- traveler/LP overlay: PARTIAL / NOT CLOSED.
-- complete-execution schedule: NOT FOUND AS CLOSED CURRENT ARTIFACT.
-- true duration/minimum nights: NOT FOUND AS CLOSED CURRENT ARTIFACT.
+- traveler/LP overlay: NOW CLOSED ENOUGH FOR EXECUTION after 2026-08-26 Mark decisions; see `KUMAON_FINAL_OPEN_SURVIVOR_MARK_DECISIONS_2026-08-26.md`.
+- complete-execution schedule: ACTIVE DRAFT in `KUMAON_COMPLETE_EXECUTION_DRAFT_2026-08-26.md`.
+- true duration/minimum nights: MARK PACE REVIEW REQUIRED.
 
-Existing traveler/LP decisions already protected include:
-- Naini Lake roundwalk A+;
-- Sattal / Seven Lakes A*;
-- Sakley's Restaurant & Pastry Shop A*;
-- Dhokaney Waterfall A;
-- Naina Peak B;
-- Kumaon Regimental Centre Museum C;
-- Katarmal Sun Temple B;
-- Almora bazaar walk C;
-- plus previously closed far-east hard cuts and other current A/A*/B/C canon.
-
-Still not visibly closed in the central traveler-overlay sequence include at least:
-- Pangot / Kilbury birding-forest experience;
-- Ramgarh / Tagore orchard-literary layer;
-- Mukteshwar / Chauli ki Jali experience;
-- Lakhudiyar prehistoric rock shelter;
-- Kasar Devi night-sky / stars experience as a traveler experience distinct from nearby C person-sites;
-- Jim Corbett National Park / Dhikala safari;
-- Nandhaur Wildlife Sanctuary;
-- unresolved Kaali Taal identity/access;
-- Bal Mithai / Singhori cult-sweet experience where still materially distinct.
-
-Therefore Kumaon cannot yet be honestly locked to an exact day count.
+Current working footprint through final Dunagiri night is 9 occupied days / 9 nights including the Delhi -> Haidakhan inbound day, with the eastbound Dunagiri exit kept visible as the next mandatory full-travel edge to charge exactly once later.
 
 ### VARANASI / SARNATH
 - A+ parent/anchor pass: COMPLETE.
@@ -111,11 +95,11 @@ Do NOT compare Braj, Haridwar/Rishikesh or Prayagraj for trip inclusion yet.
 Do NOT build exact calendar dates yet.
 
 Execute in this order:
-1. Finish the remaining genuinely undecided traveler/LP/regional/Komoot selection inside KUMAON, preserving every already-decided A+/A/A*/B/C and asking Mark only about true OPEN survivors.
-2. Build a realistic KUMAON complete-execution plan using the selected sites, walks, base changes and internal occupied travel; derive true duration/minimum nights.
-3. Repeat the same closure + complete-execution/time-budget process for VARANASI/SARNATH, BODH GAYA/GAYA, TIRUVANNAMALAI/ARUNACHALA, DELHI and AGRA.
-4. Combine the six internal durations with the mandatory inter-core door-to-door transfer blocks into one `FIXED_CORE_34_DAY_BUDGET`.
-5. Only then calculate how many of the 34 trip days remain and compare route-sensitive/optional worlds by total marginal burden: extra transfer occupancy + extra base change + their own selected dwell/visit days.
+1. Finish KUMAON execution geometry + Mark pace judgment from the corrected current draft; then mark Kumaon duration closed.
+2. Repeat traveler/LP/regional/Komoot closure + complete-execution/time-budget process for VARANASI/SARNATH, BODH GAYA/GAYA, TIRUVANNAMALAI/ARUNACHALA, DELHI and AGRA.
+3. Combine the six internal durations with the mandatory inter-core door-to-door transfer blocks into one `FIXED_CORE_34_DAY_BUDGET`.
+4. Only then calculate how many of the 34 trip days remain and compare route-sensitive/optional worlds by total marginal burden: extra transfer occupancy + extra base change + their own selected dwell/visit days.
+5. After optional survival, freeze final topology, recheck actual-date services/access and only then build exact calendar dates.
 
 ## OPTIONAL WORLDS — DEFERRED, NOT FORGOTTEN
 - BRAJ / MATHURA–VRINDAVAN–GOVARDHAN: inclusion unresolved; earlier false DROP has been invalidated. Its new reconciliation/prep files are preserved but NOT the active frontier.
@@ -128,12 +112,12 @@ They wait until the fixed-core 34-day footprint exists.
 Do not restart generic discovery. The traveler union already has 150 canonical records and the regional sweeps are integrated.
 For each fixed core:
 - deduplicate against current canon;
-- remove inherited C/B/non-action rows;
-- preserve already-decided A+/A/A*;
+- remove inherited C/non-action rows;
+- preserve already-decided A+/A/A*/B;
 - present Mark only genuinely unresolved survivors whose inclusion materially changes actual day usage;
-- then immediately build the cluster duration once selection is closed.
+- then immediately build the cluster execution/duration once selection is closed.
 
 ## CURRENT FIRST MARK-DEPENDENT GATE
-KUMAON traveler/LP overlay is the furthest advanced and should be finished first. Prepare a compact final Kumaon OPEN-survivor decision set; once Mark closes those, no further Kumaon content selection should block the complete-execution/day calculation.
+KUMAON is no longer blocked by generic content discovery. It is at EXECUTION/Mark-pace stage. Close only operational geometry that can materially change the day bundles, show the corrected complete Kumaon structure, obtain Mark's dwell/pace judgment, then freeze Kumaon duration.
 
 END_OF_ARTIFACT
