@@ -1,7 +1,7 @@
 # INDIA10 — MARK A+ / CURRENT DECISION LOG
 
 status: OLD_A_PROMOTION_CLOSED__TRAVELER_OVERLAY_ACTIVE
-updated: 2026-08-25
+updated: 2026-08-26
 
 ## HARD RULES
 - Only Mark assigns or changes A+, A, A*, B or C.
@@ -11,13 +11,14 @@ updated: 2026-08-25
 - User-facing format is ALWAYS `CLUSTER / PLAATS / PLEK (korte Nederlandse uitleg) — huidige status`, every time a non-obvious name appears.
 - Every walk/hike/loop name shown to Mark must include approximate distance + realistic duration; if not verified, say so explicitly.
 - Corridor geometry must be shown before grading when transfer fit can change practical value.
+- MARK PRESENTATION RULE 2026-08-26: every Mark-facing choice batch must be one contiguous numbered block (`1`, `2`, `3`...) so Mark can answer compactly as `1 A, 2 B, 3 C`. Do not split the same choice batch over text above/below a table or across separate sections.
 
-## GRADE SEMANTICS — ABSOLUTE HARD / MARK 2026-08-25
+## GRADE SEMANTICS — ABSOLUTE HARD / LATEST MARK 2026-08-26
 - `A+` = KERNLOCATIE / dit is waarom Mark deze reis maakt. Nul discussie over inclusion. Route must protect it and may bend/omrijden solely for it.
-- `A` = Mark wil hier HEEL GRAAG OOK heen. Genuine intended visit. Default plan/retain. Only reopen when actual route/visit burden is clearly disproportionate.
+- `A` = Mark wil hier HEEL GRAAG OOK heen. Genuine intended visit. Plan/retain inside the surviving trip world.
 - `A*` = formal A with `CORRIDOR_BYCATCH/EASY_CAPTURE` subtype. Attractive extra discovery rather than original first-choice destination. Operational priority `SKIP_FIRST`: if Mark is tired, delayed, weather is poor or the day is overloaded, skip A* before intrinsic A. A* must not independently force a dedicated detour, extra night or major schedule sacrifice.
-- `B` = reserve/bycatch only. Normally not planned; only if already there / almost frictionless / unexpected spare time.
-- `C` = NIET heen. Do not plan, route for, optimize for, or re-present unless Mark explicitly reopens it.
+- `B` = ACTIVE CONDITIONAL / RESERVE. B remains visible in the actual travel plan as an on-site/condition-dependent option (for example when Mark has spare time, leaves somewhere earlier, weather is excellent, or is already nearby). B does NOT by itself justify a dedicated extra night, major detour or route restructuring.
+- `C` = DEFINITIEVE AFVALLER. Remove from the active travel plan, route design, day combinations and future choice batches. Do not re-present unless Mark explicitly reopens it.
 - `OPEN` traveler/regional/LP finding may become A+, A, A*, B or C. Provenance never caps the grade.
 
 ## CURRENT A+ SPINE
@@ -54,19 +55,33 @@ updated: 2026-08-25
 ### AGRA
 - AGRA / AGRA / Taj Mahal (wereldberoemd marmeren mausoleum; kernwereldmagnet van de reis) — A+; sunrise / earliest practical opening HARD.
 
-## LATEST KUMAON ORDINARY / TRAVELER GRADES — MARK 2026-08-25
-- KUMAON / KAKRIGHAT / Kakrighat (Kosi-rivierplek waar Vivekananda in 1890 een belangrijke realisatie had; inhoudelijk gewenst maar door corridor vrijwel gratis mee te nemen) — A* (formal A; SKIP_FIRST).
+## LATEST KUMAON ORDINARY / TRAVELER GRADES — MARK THROUGH 2026-08-26
+### ACTIVE A / A* / B
+- KUMAON / KAKRIGHAT / Kakrighat (Kosi-rivierplek waar Vivekananda in 1890 een belangrijke realisatie had; inhoudelijk gewenst maar door corridor vrijwel eenvoudig mee te nemen) — A* (formal A; SKIP_FIRST).
 - KUMAON / DWARAHAT / Dwarahat historic temple groups (acht hoofdgroepen van 11e-eeuwse stenen tempels in het stadje dat al op de verplichte Babaji-corridor ligt) — A* (formal A; SKIP_FIRST).
 - KUMAON / SATTAL / Sattal / Seven Lakes (zeven bosmeren voor natuurwandeling en vogels; mooie transfer-bijvangst die Mark graag ziet maar waarvoor niet zelfstandig moet worden omgereden) — A* (formal A; SKIP_FIRST).
-- KUMAON / BHIMTAL / Butterfly Research Centre (klein gespecialiseerd vlinder- en mottenmuseum/onderzoekscentrum in een bungalow bij Bhimtal) — C.
-- KUMAON / JAGESHWAR / Jageshwar Dham + Dandeshwar (grote vroegmiddeleeuwse Shiva-tempelgroepen in deodarwoud) — C.
-- KUMAON / ALMORA / Ramakrishna Kutir (levend Ramakrishna Mission-retraitecentrum; Sri Ramakrishna verbleef hier niet) — C.
-- KUMAON / CHITAI / Chitai Golu Devta Temple (Kumaoni tempel met duizenden bellen en verzoeken om gerechtigheid) — C.
-- KUMAON / CRANK'S RIDGE-KASAR DEVI / Turiya Niwas (historische kluizenaarswoning van Alfred 'Sunyata' Sorensen) — C.
-- KUMAON / CRANK'S RIDGE-KASAR DEVI / Bodh Ashram (voormalige Evans-Wentz/Lama Govinda-zoekersplek) — C.
-- KUMAON / MUNSIYARI / Munsiyari + Panchachuli views (ver oostelijk Himalayadorp met grote Panchachuli-bergpanorama's) — C.
-- KUMAON / CHAUKORI / Chaukori Tea Gardens + Panchachuli views (hooggelegen theedorp met Himalaya-uitzicht en theevelden) — C.
-- KUMAON / NAMIK-RANTHAN / Namik–Ranthan high-Himalaya trek (afgelegen meerdaagse bergtrek; aparte trekkingreis) — C.
+- KUMAON / NAINITAL / Sakley's Restaurant & Pastry Shop (historisch café/banketadres uit 1944 in Nainital) — A* (formal A; ON_BASE / SKIP_FIRST).
+- KUMAON / DHOKANEY-SUYALBARI / Dhokaney Waterfall-wandeling (ca. 0,8–1,2 km retour / ca. 30–45 min vanaf de praktische weg-/parkeertoegang; Almora-zijtak vanaf Kainchi) — A.
+- KUMAON / NAINITAL / Naina Peak / China Peak forest-summit walk (nieuwe korte variant ca. 4,69 km / ca. 1u52 lopen / +350 m; totale Nainital-basebelasting ca. 2u35–3u) — B. Mark explicitly reaffirmed B on 2026-08-26: decide on site depending spare time, how fast other visits go and weather/visibility.
+- KUMAON / KATARMAL / Katarmal Sun Temple-wandeling (ca. 3 km retour / ca. 1–1¾ uur lopen plus side-road burden) — B.
+
+### C — REMOVED FROM ACTIVE TRIP
+- KUMAON / BHIMTAL / Butterfly Research Centre — C.
+- KUMAON / JAGESHWAR / Jageshwar Dham + Dandeshwar — C.
+- KUMAON / ALMORA / Ramakrishna Kutir — C.
+- KUMAON / CHITAI / Chitai Golu Devta Temple — C.
+- KUMAON / CRANK'S RIDGE-KASAR DEVI / Turiya Niwas — C.
+- KUMAON / CRANK'S RIDGE-KASAR DEVI / Bodh Ashram — C.
+- KUMAON / MUNSIYARI / Munsiyari + Panchachuli views — C.
+- KUMAON / CHAUKORI / Chaukori Tea Gardens + Panchachuli views — C.
+- KUMAON / NAMIK-RANTHAN / Namik–Ranthan high-Himalaya trek — C.
+- KUMAON / RANIKHET / Kumaon Regimental Centre Museum — C.
+- KUMAON / ALMORA / historische bazaarwandeling — C.
+- KUMAON / CORBETT / Dhikala / Jim Corbett National Park serious safari module — C (Mark 2026-08-26).
+- KUMAON / PANGOT–KILBURY / Pangot + Kilbury forest/birding experience — C (Mark 2026-08-26).
+
+### STILL OPEN
+- KUMAON / MUKTESHWAR / Mukteshwar + Chauli ki Jali (bergtempel, rotsrand, bos en Himalaya-uitzicht; ongeveer 5–6 uur footprint from Nainital working class) — OPEN. It was item 3 in the 2026-08-26 four-choice block and Mark did not assign a grade in that response.
 
 ## LATEST VARANASI ORDINARY GRADES — MARK 2026-08-24
 - VARANASI / TULSI GHAT / Tulsi Ghat + Lolark Kund (Tulsidas-ghat plus oude rituele zon-/vruchtbaarheidsbron) — A.
@@ -85,12 +100,12 @@ updated: 2026-08-25
 ## CURRENT METHOD
 1. fixed A+ parents/anchors;
 2. build mandatory A+ corridors;
-3. C removed from planning;
+3. C removed completely from active trip planning;
 4. A+ protected absolutely;
-5. intrinsic A assumed retained and only challenged when burden is disproportionate;
-6. A* retained as attractive corridor extra but SKIP_FIRST and never a sole route-driver;
-7. B reserve/bycatch only;
-8. overlay regional + traveler/Lonely-Planet rows against same corridor framework;
+5. intrinsic A planned/retained;
+6. A* planned as attractive corridor extra but SKIP_FIRST and never sole route-driver;
+7. B stays visible in the real travel plan as conditional/reserve content, but may not independently add a dedicated night, major detour or route restructuring;
+8. overlay regional + traveler/Lonely-Planet + Komoot rows against same corridor framework;
 9. for genuinely new OPEN rows: hard cuts -> easy captures -> alternative bundles -> true ties / possible A+ magnets;
 10. complete cluster execution and true nights;
 11. global route last.
