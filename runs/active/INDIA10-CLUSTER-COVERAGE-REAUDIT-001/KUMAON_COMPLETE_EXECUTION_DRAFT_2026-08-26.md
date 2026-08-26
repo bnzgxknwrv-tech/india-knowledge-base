@@ -7,15 +7,16 @@ scope: current-trip KUMAON A+ cluster only; no exact calendar dates
 ## PURPOSE
 Translate the now-closed Kumaon A+/A/A*/B selection into a human day structure so Mark can judge the only thing INDIA cannot calculate: whether the pace and total stay feel right.
 
-This is NOT the global route yet. Inbound travel into Haidakhan and the full eastern exit after Dunagiri are charged later in the inter-core transfer ledger, not hidden inside local sightseeing days.
+For the 34-day budget, the known inbound travel day from the current fixed-core predecessor is part of the Kumaon footprint. The eastern exit remains a separate mandatory adjacent edge and must be charged exactly once later, never omitted.
 
-## COUNTING CONVENTION
+## COUNTING CONVENTION — CORRECTED 2026-08-26
 - `KUMAON_STAY_NIGHTS` = nights physically slept inside the Kumaon cluster.
-- `KUMAON_INTERNAL_EXECUTION_DAYS` = substantive local/base-change days after arrival and before final exit.
-- `INBOUND_TRAVEL_DAY` and `EASTERN_EXIT_TRAVEL_DAY` remain separate global occupied-time blocks.
+- `KUMAON_FOOTPRINT_DAYS` = occupied days beginning with the inbound transfer from the known fixed-core predecessor through the final Dunagiri night.
+- Internal base-change days are included normally.
+- The eastern exit is kept visible as the next mandatory bridge edge and will be charged once when connecting the next fixed core.
 
 ## HAIDAKHAN SLEEP / DURATION CORRECTION — RESTORED 2026-08-26
-- Later user decision/context confirms the intended Haidakhan sleep base is **inside Haidakhan Vishwa Mahadham / Haidakhan Ashram itself**, not a separately selected hotel property.
+- Intended Haidakhan sleep base is **inside Haidakhan Vishwa Mahadham / Haidakhan Ashram itself**, not a separately selected hotel property.
 - Any earlier `HOTEL Haidakhan Ashram` wording used `HOTEL` merely as the project display prefix for a sleeping base; it must not be read as evidence of a separate hotel selection.
 - Historical decision DECISION-0001 explicitly left duration OPEN but preserved a **working hypothesis of 3 nights**, because 2 nights yield only one complete day while Mark wanted the option of **2 complete quiet days** in Haidakhan.
 - Therefore the planner baseline below uses **3 Haidakhan nights / 2 full Haidakhan days** as the working hypothesis. This is not yet a final Mark duration lock.
@@ -50,12 +51,21 @@ This is NOT the global route yet. Inbound travel into Haidakhan and the full eas
 
 All C and the explicitly dropped Kasar Devi/Almora module are omitted from execution.
 
-# REALISTIC WORKING DRAFT — 9 KUMAON NIGHTS / 8 INTERNAL DAYS
+# REALISTIC WORKING DRAFT — 9 KUMAON FOOTPRINT DAYS / 9 NIGHTS
 
-## INBOUND — separate global travel block
-Prior core/route -> KUMAON / HAIDAKHAN / Haidakhan Vishwa Mahadham / Ashram sleeping base.
-- Arrival day is NOT falsely counted as a full Haidakhan sightseeing day.
-- Night H1.
+## K0 — DELHI -> HAIDAKHAN VISHWA MAHADHAM — FULL TRAVEL DAY
+Current fixed-core predecessor: DELHI.
+Destination: KUMAON / HAIDAKHAN / Haidakhan Vishwa Mahadham / Ashram sleeping base.
+Current official/topology evidence:
+- true Haidakhan Vishwa Mahadham, Village Haidakhan, not Anandpuri/Ranikhet;
+- Haidakhandi Samaj gives Delhi -> Haidakhan Vishwa Mahadham about **337 km / 8–9 h raw road journey**;
+- once departure/loading, meal/rest, winter/traffic buffer and ashram arrival are included, treat this as a FULL OCCUPIED TRAVEL DAY.
+Plan:
+- no meaningful sightseeing is required on arrival;
+- settle into the ashram world;
+- night H1.
+
+Haridwar/Rishikesh is still optional/deferred and must NOT silently replace Delhi as predecessor. If later selected, recalculate this inbound edge as a scenario delta.
 
 ## K1 — HAIDAKHAN FULL A+ DAY 1
 Base: Haidakhan Vishwa Mahadham / Ashram sleeping base.
@@ -75,16 +85,18 @@ Purpose:
 - use for ashram rhythm, karma-yoga/ritual time, river/gufa world, rest and any locally meaningful short walk that is operationally valid at the time.
 Night H3.
 
-## K3 — HAIDAKHAN -> NAINITAL WITH SATTAL A* ENRICHMENT
+## K3 — HAIDAKHAN -> NAINITAL / POSSIBLE SATTAL A* ENRICHMENT
 Base change: Haidakhan Vishwa Mahadham / Ashram sleeping base -> KUMAON / NAINITAL / Nainital sleeping base in the Hotel Evelyn A+ world.
-Evidence:
-- current raw Haidakhan–Nainital road class ~50 km / ~1h20, but base-change occupied time gets checkout/loading/road/winter/check-in buffer;
-- KUMAON / SATTAL / Sattal / Seven Lakes — A* can enrich this transfer; walk ~3–4 km / 60–90 min and earlier corridor work estimates ~45–75 min additional driving for the Sattal variant.
-Plan:
-- Haidakhan departure after breakfast;
-- Sattal walk if timing/weather/energy good; SKIP_FIRST if delayed;
-- Nainital check-in and settle into Hotel Evelyn historical world;
-- KUMAON / NAINITAL / Sakley's Restaurant & Pastry Shop — A* naturally as lunch/dinner/coffee, not a separate excursion.
+Critical correction:
+- older `Haidakhan -> Nainital ~50 km / ~1h20` working figures are SOURCE-CONFLICTED / NOT CALENDAR-SAFE for the true Haidakhan Vishwa Mahadham and must NOT be used;
+- exact true Haidakhan -> Nainital winter road geometry remains P0 to close before exact day sequencing.
+Conditional A*:
+- KUMAON / SATTAL / Sattal / Seven Lakes — A*; walk ~3–4 km / 60–90 min;
+- Sattal may enrich this base-change day only if the corrected true-road geometry, daylight, weather and energy show it is genuinely practical;
+- otherwise SKIP_FIRST. Do not force it from obsolete travel-time assumptions.
+Nainital arrival:
+- settle into Hotel Evelyn historical world;
+- KUMAON / NAINITAL / Sakley's Restaurant & Pastry Shop — A* can naturally fit as food/coffee if practical.
 Night N1.
 
 ## K4 — NAINITAL LOCAL A+/A DAY
@@ -118,9 +130,9 @@ Destination:
 - KUMAON / DUNAGIRI / HOTEL Dunagiri Retreat — LOCKED_BY_MARK.
 Working road reality:
 - Kainchi -> Dwarahat direct efficient spine ~71.7 km / ~2h24 raw current road class;
-- Dwarahat -> HOTEL Dunagiri Retreat current external road estimate ~17 km / ~29 min; winter buffer still needed;
-- Dhokaney adds a real side-branch burden, so this day must start early and A* items are explicitly the first to drop if the waterfall/roads take longer.
-- KUMAON / KATARMAL / Katarmal Sun Temple — B is NOT inserted here by default: it would pull the day farther into the dropped Almora-side module and cannot force the route.
+- Dwarahat -> HOTEL Dunagiri Retreat remains a short mountain relation but exact winter door-to-door time is still to close;
+- Dhokaney adds a real side-branch burden, so this day must start early and A* items are the first to drop if roads/visit take longer.
+- KUMAON / KATARMAL / Katarmal Sun Temple — B is NOT inserted here by default: it cannot force the dropped Almora-side module.
 Night D1.
 
 ## K7 — MAHAVATAR BABAJI / DUNAGIRI PILGRIMAGE DAY
@@ -130,8 +142,9 @@ Core:
 - KUMAON / DUNAGIRI-KUKUCHINA / Babaji Smriti Bhavan — A, bundled into the same pilgrimage world;
 - KUMAON / DUNAGIRI / Dunagiri Temple / Maa Dunagiri Vaishnavi Temple — A.
 Execution:
-- direct HOTEL-based cave walk is default;
-- existing project working class ~2–3 km one way / around 1 hour climbing before cave pause; reserve an unhurried half-day rather than the old generic 6–8 h Dwarahat-return envelope;
+- direct HOTEL-based cave walk remains default;
+- existing project working class ~2–3 km one way / around 1 hour climbing before cave pause, but exact track/safety/winter closure still controls final operational timing;
+- reserve an unhurried half-day rather than the old generic Dwarahat-return envelope;
 - use late afternoon for Dunagiri Temple only if cave time/energy remains good, otherwise move it to K6 arrival daylight.
 Night D2.
 
@@ -143,24 +156,27 @@ Hard Mark rule:
 - FULL DAY at YSS Dwarahat;
 - Mark is Ananda, not YSS/SRF: NO YSS overnight.
 Execution:
-- current road evidence puts HOTEL Dunagiri Retreat roughly 17 km / ~29 min raw from Dwarahat; use conservative winter morning/evening buffer;
-- driver can wait/reposition;
+- exact HOTEL Dunagiri Retreat <-> Dwarahat winter door-to-door commute remains operational P0;
+- driver can wait/reposition if practical;
 - do NOT hide Dwarahat temples, shopping, transfer or another excursion inside the full-day promise. Any A* not already captured stays skipped.
 Night D3.
 
-## EASTERN KUMAON EXIT = SEPARATE GLOBAL FULL TRAVEL DAY
+## EASTERN KUMAON EXIT — MANDATORY ADJACENT FULL TRAVEL EDGE
 Start: KUMAON / DUNAGIRI / HOTEL Dunagiri Retreat.
-The project already classifies the eastern highland exit as a FULL TRAVEL DAY class. It must be charged later against the 34-day global budget according to the actual next retained core and mode.
+The project classifies the eastern highland exit as a FULL TRAVEL DAY class.
+Accounting rule:
+- it is NOT part of the 9-day footprint above because the 9 days run from Delhi departure through the final Dunagiri night;
+- it MUST be charged exactly once when building the next fixed-core connection / six-core 34-day budget;
+- never omit it and never charge it twice.
 
 # FOOTPRINT RESULT — WORKING, NOT YET MARK-LOCKED
 Planner baseline:
+- **K0 Delhi -> Haidakhan full travel day INCLUDED.**
 - Haidakhan: **3 nights / 2 full quiet days** — historical working hypothesis, not final duration lock.
 - Nainital: 3 nights.
 - Dunagiri: 3 nights.
-- Total physically in Kumaon: **9 nights**.
-- Internal substantive/base-change days after arrival: **8 days (K1–K8)**.
-- Inbound travel into Haidakhan: separate occupied travel block/day, topology-dependent.
-- Eastern exit after Dunagiri: separate **full travel day** in global budget.
+- Total through final Dunagiri night: **9 occupied Kumaon-footprint days / 9 nights**.
+- Eastern exit: separate mandatory full-travel bridge day, to be charged once in next-edge/global total.
 
 ## MARK-ONLY PACE DECISION TARGET
 Do not ask Mark to regrade sites. When Mark is ready to lock Kumaon duration, the key subjective question is whether the historical **3-night Haidakhan / 2-full-day** working hypothesis still feels right. Until then preserve it as the planner baseline, not a final lock.
