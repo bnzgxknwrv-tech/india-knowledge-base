@@ -20,6 +20,15 @@ Mark krijgt alleen:
 Bindende uitvoeringsregel:
 `governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md`
 
+## INDIA11 RECOVERY INCIDENT — MUST READ
+
+INDIA11 bleek op 2026-08-26 ondanks een formeel lichte successor-boot NIET werkelijk up-to-speed op meerdere oudere maar materiële Mark-besluiten, dwell/base-voorkeuren en de herstelde controller-flow. Daardoor moest Mark eerdere projectwaarheid opnieuw aanwijzen.
+
+Tot expliciete retirement is daarom dit bestand **verplicht onderdeel van iedere nieuwe INDIA-boot**:
+`governance/INDIA11_RECOVERY_POSTMORTEM_AND_MUST_READ_2026-08-26.md`
+
+Het bevat de concrete fouten en preventieregels. Een successor mag NIET redeneren dat `CURRENT_STATE.md` alle oudere persoonlijke dwell/base/flow-besluiten bevat. Bij een recovery-trigger (`we hadden dit al`, `zoek terug`, `je mist te veel`, eerdere flow wijkt af, slaapduur/base voelt generiek, tracker lijkt stale) moet gericht historisch worden verbreed vóór nieuwe route-/dagconclusies.
+
 ## HOT INTERACTION RULES — LEES VOORDAT JE MET MARK PRAAT
 
 Deze regels staan uitgebreider in de critical bootfile, maar worden hier expres herhaald zodat INDIA12+ ze niet kan missen:
@@ -30,6 +39,7 @@ Deze regels staan uitgebreider in de critical bootfile, maar worden hier expres 
 - **GENUMMERDE KEUZEBLOKKEN:** iedere echte Mark-keuze staat in één aaneengesloten genummerd blok zodat antwoorden als `1 A, 2 B, 3 C` mogelijk zijn.
 - **AL BESLIST?:** geen reeds genomen A+/A/A*/B/C-, HOTEL/base-, cluster- of routebeslissing opnieuw als nieuwe keuze aanbieden zonder materiële nieuwe delta.
 - **GRADE-GEBRUIK IN REISPLAN:** A+/A/B blijven zichtbaar; A* is SKIP_FIRST; B is een conditionele/on-site reserve en mag niet zelfstandig een grote omweg of extra nacht afdwingen; C verdwijnt uit actieve planning tenzij Mark hem expliciet heropent.
+- **CLUSTER-TIJD = OOK REISDAG:** bij het bepalen hoeveel van de 34 dagen een fixed-core cluster consumeert, tel de occupied inbound transfer vanaf de bekende vorige route/base mee. Parkeer een bekende reisdag niet als abstracte `later globale` post. Definieer edge-charging expliciet om dubbel tellen te voorkomen.
 - **KLEINERE COHERENTE CHUNKS:** vermijd onnodig enorme tool-/tekstblokken die streaming/context kwetsbaar maken. Werk in coherente stukken, maar ieder stuk moet echte actie bevatten en duurzaam checkpointen; chunking is geen excuus om uitvoerbaar werk als prose terug te geven.
 - **CONTINUÏTEIT:** na materiële veranderingen moet GitHub genoeg waarheid bevatten dat INDIA(N+1) zonder chatreconstructie kan doorgaan.
 
@@ -65,10 +75,11 @@ Als de context lang wordt of vervanging plausibel wordt, is dat géén reden om 
 1. `README.md`
 2. `governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md`
 3. `governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md`
-4. `governance/CURRENT_STATE.md`
-5. `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv`
-6. de actuele task/outputbestanden die relevant zijn voor Marks vraag
-7. PR #23 voor recente CCI/INDIA-uitwisseling die nog niet verwerkt is wanneer je aan een grote nieuwe taak begint of vlak vóór een grote centrale write
+4. `governance/INDIA11_RECOVERY_POSTMORTEM_AND_MUST_READ_2026-08-26.md`
+5. `governance/CURRENT_STATE.md`
+6. `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv`
+7. de actuele task/outputbestanden die relevant zijn voor Marks vraag
+8. PR #23 voor recente CCI/INDIA-uitwisseling die nog niet verwerkt is wanneer je aan een grote nieuwe taak begint of vlak vóór een grote centrale write
 
 Daarna: ga inhoudelijk aan het werk en blijf zelfstandig doorwerken zolang dat veilig en relevant kan.
 
@@ -110,6 +121,8 @@ Historische governance, oude session-startbestanden, auditstreams, registries en
 
 ## Als iets niet klopt
 Als `CURRENT_STATE`, beschermd canon, current task-output of een recente Mark-beslissing elkaar tegenspreken: lees gericht verder totdat je begrijpt welke informatie nieuwer/juister is. Alleen bij zo'n echte onduidelijkheid is een brede historische audit nodig.
+
+**Ook zonder formele bestands-tegenspraak geldt recovery als Mark aangeeft dat oudere beslis-/dwell-/base-/flowinformatie ontbreekt.** Dan is `CURRENT_STATE` aantoonbaar niet voldoende voor die specifieke vraag en moet gericht historisch worden gezocht vóór verdere conclusies.
 
 De standaard is dus niet: "bewijs dat je alles hebt gelezen".
 De standaard is: "lees de bindende actuele regels, ken de actuele waarheid, voer uitvoerbaar werk meteen uit, checkpoint continu zodat je direct vervangbaar bent, en laat Mark geen werk terugkrijgen dat INDIA zelf had kunnen doen".
