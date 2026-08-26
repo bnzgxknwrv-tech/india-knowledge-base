@@ -11,9 +11,12 @@ Read in this order:
 3. `governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md`
 4. `governance/INDIA11_RECOVERY_POSTMORTEM_AND_MUST_READ_2026-08-26.md`
 5. THIS file
-6. `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv`
-7. current-frontier files listed below
-8. PR #23 at start of major integration and directly before central write; no continuous polling.
+6. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRIP_PLANNING_META_CONTROLLER_2026-08-26.md`
+7. `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv`
+8. current-frontier files listed below
+9. PR #23 at start of major integration and directly before central write; no continuous polling.
+
+`TRIP_PLANNING_META_CONTROLLER_2026-08-26.md` is the ACTIVE MASTER CONTROLLER for INDIA12+ until explicitly superseded/retired. It is mandatory method, not optional background.
 
 Worker `COMPLETE` is not automatically central truth. Verify integration/adoption. A stale tracker also does not prove a worker is unfinished: inspect actual branch/output when heads moved. Use CCI lightly. STOP OPTIMIZING and return to the trip.
 
@@ -24,6 +27,15 @@ Hard consequence:
 - CURRENT_STATE is a compact pointer, NOT proof that no older user-specific dwell/base/pace/flow decision exists.
 - If Mark says `we already decided this`, `zoek terug`, `je mist te veel`, or the current plan contradicts remembered flow, stop new conclusions and search historical decisions/commits/handoffs/PR evidence until the gap is resolved.
 - Never claim project-wide readiness merely because the light boot completed.
+- Never improvise a new planning sequence while an active master controller exists.
+
+## ALWAYS DISPOSABLE / REPLACEABLE — HARD
+Every IndiaN works as if it can disappear after the current message.
+Before every reply following a material change, verify:
+`CAN INDIA(N+1) CONTINUE FROM GITHUB WITHOUT MARK REPEATING OR RECONSTRUCTING ANYTHING?`
+If NO: checkpoint first.
+
+The durable state must include the current master controller, current frontier, newest Mark decisions/supersedes, cluster duration status, relevant sleeping-base/route assumptions, and exact active files. No future INDIA may depend on the outgoing chat summary or Mark re-teaching the process.
 
 ## HARD PRESENTATION / DECISION RULES
 Before any location, cluster, HOTEL, sleeping base or route item shown to Mark: `AL BESLIST?`.
@@ -67,6 +79,15 @@ Important locks:
 Kumaon direction remains:
 `HAIDAKHAN VISHWA MAHADHAM -> NAINITAL -> KAINCHI -> DWARAHAT -> DUNAGIRI/KUKUCHINA`.
 Eastern Kumaon exit is FULL TRAVEL DAY class and must be counted exactly once in the global budget/adjacent edge.
+
+## ACTIVE META CONTROLLER — HARD
+Canonical controller:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRIP_PLANNING_META_CONTROLLER_2026-08-26.md`.
+
+Controlling sequence:
+`RESEARCH UNIVERSE -> A+/A/A*/B/C -> SIX FIXED A+ WORLDS -> PER-CORE CONTENT CLOSURE -> EXECUTION GEOMETRY -> MARK PACE/DWELL -> DURATION_CLOSED x6 -> FIXED_CORE_34_DAY_BUDGET + REAL TRANSFERS -> OPTIONAL-CLUSTER SURVIVAL -> FINAL TOPOLOGY -> LIVE LOGISTICS RECHECK -> EXACT 34-DAY CALENDAR`.
+
+Do not redesign this sequence per cluster. Do not jump to optional clusters or exact dates before their gates are passed.
 
 ## RECOVERED CONTROLLER FLOW — HARD
 The original active decision model requires:
@@ -184,4 +205,4 @@ No further optional-cluster ballot until fixed-core footprint is known.
 Close these when they materially affect the active fixed-core execution calculation or booking.
 
 ## REPLACEABILITY
-If INDIA11 disappears, INDIA12 must read the mandatory INDIA11 recovery postmortem before this file. It resumes from the corrected Kumaon 9-day/9-night working footprint INCLUDING Delhi inbound, obtains only Mark's pace judgment on the Haidakhan 3-night hypothesis, then continues the other five fixed A+ worlds. It must NOT jump to Braj/Rishikesh/Prayagraj before the six-core 34-day footprint exists.
+If INDIA11 disappears, INDIA12 must read the mandatory INDIA11 recovery postmortem AND the active trip-planning meta-controller before this state is used operationally. It resumes from the corrected Kumaon 9-day/9-night working footprint INCLUDING Delhi inbound, obtains only Mark's pace judgment on the Haidakhan 3-night hypothesis, then continues the other five fixed A+ worlds using the SAME A->B->C closure cycle. It must NOT jump to Braj/Rishikesh/Prayagraj before the six-core 34-day footprint exists.
