@@ -1,30 +1,33 @@
 # INDIA SUCCESSOR BOOT PROTOCOL — BINDING
 
 Status: BINDING for INDIA10+ until explicitly superseded.
-Effective: 2026-08-23; action-first hardening: 2026-08-24; continuous-replaceability hardening: 2026-08-24.
+Effective: 2026-08-23; action-first hardening: 2026-08-24; continuous-replaceability hardening: 2026-08-24; INDIA11 recovery hardening: 2026-08-26.
 Purpose: preserve useful travel knowledge without turning this personal travel repository into a compliance system, while making the few truly critical rules unavoidable.
 
 ## The rule in one sentence
-Read the binding current rules and state, protect Mark's existing decisions, execute every safe relevant step you can now, continuously persist enough state that a successor can take over without Mark repeating anything, rescan for remaining executable work, and only then answer Mark.
+Read the binding current rules and state, read the active failure/recovery guard, protect Mark's existing decisions, execute every safe relevant step you can now, continuously persist enough state that a successor can take over without Mark repeating anything, rescan for remaining executable work, and only then answer Mark.
 
 ## 1. Normal start — mandatory order
 A new IndiaN reads, in this order:
 1. `README.md`;
 2. `governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md`;
 3. THIS file `governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md`;
-4. `governance/CURRENT_STATE.md`;
-5. `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv`;
-6. the current task/output files relevant to Mark's request;
-7. recent PR #23 exchanges not yet handled when they materially affect the task, and again immediately before a major central write.
+4. `governance/INDIA11_RECOVERY_POSTMORTEM_AND_MUST_READ_2026-08-26.md`;
+5. `governance/CURRENT_STATE.md`;
+6. `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv`;
+7. the current task/output files relevant to Mark's request;
+8. recent PR #23 exchanges not yet handled when they materially affect the task, and again immediately before a major central write.
 
 This is normally enough. There is no routine requirement to reread the whole repository, compute byte percentages or recertify old unchanged files.
 
 **Boot is not complete merely because these filenames were mentioned in a handoff. They must actually be read in the current session before substantive regie work.**
 
+**INDIA11 recovery trigger:** current-state boot is a pointer, not a guarantee that every older user-specific dwell/base/flow choice is restated there. If Mark says `we already decided this`, `zoek terug`, `je mist te veel`, or the proposed duration/base/flow conflicts with prior project logic, immediately widen to historical decisions/commits/handoffs/PR evidence before making further conclusions. See the mandatory INDIA11 postmortem.
+
 ## 2. Baseline + delta is a convenience, not a ceremony
 The INDIA9 baseline/audit files remain useful evidence that older branch knowledge was inspected and imported or archived. Use them when provenance matters or when something appears missing.
 
-For normal work, read the meaningful changes since the current-state page / last known handoff that are relevant to the task. If a conflict or unexplained gap appears, widen the read until it is understood. Full-repository bootstrap is an exceptional recovery option, not a default gate.
+For normal work, read the meaningful changes since the current-state page / last known handoff that are relevant to the task. If a conflict or unexplained gap appears, widen the read until it is understood. A missing user-specific dwell/base/flow fact signaled by Mark counts as an unexplained gap even when no two current files literally contradict each other. Full-repository bootstrap is an exceptional recovery option, not a default gate.
 
 ## 3. `AL BESLIST?`
 Before presenting a location, cluster, hotel, sleep base or route choice as new, check protected canon/current decisions first.
@@ -34,8 +37,12 @@ If Mark has already decided it, do not ask him to decide it again. Report only a
 ## 4. Mark decisions and permanent IDs
 Existing Mark A/B/C choices, A+ choices, locks and permanent IDs are protected against silent mutation. A new explicit Mark decision may supersede an older one; when it does, update the durable canon clearly instead of keeping competing current truths.
 
+Do not convert a conditional question, hypothetical or reasoning prompt from Mark into a grade/drop/route decision. A subjective mutation requires explicit decision language or a directly unambiguous Mark answer.
+
 ## 5. Worker output is not automatically central truth
 A worker branch saying `COMPLETE` means the worker finished its assignment. It does not automatically mean the result has been adopted centrally or is ready for route use. Check integration/adoption before relying on it as final state.
+
+Conversely, a stale central tracker saying `WAITING` does not prove workers are unfinished. When branch heads/output have moved, inspect the actual worker output before declaring the layer missing.
 
 No separate central-integration bureaucracy is required when this is obvious from the current state and Git history.
 
@@ -57,6 +64,8 @@ Polling is light: check PR #23 before a major new build and immediately before a
 Do not update it for every trivial commit.
 
 If an older handoff still labels itself `CURRENT` but conflicts with a later explicit `CURRENT_STATE.md` phase/method supersede, the later state governs the current phase. Correct the stale handoff immediately when it can mislead a successor.
+
+Do not assume CURRENT_STATE contains every older personalized dwell/base preference. It must point successors to the active recovery guard, and historical widening is mandatory when a user correction exposes an omitted older fact.
 
 ## 9. NO-DEFERRAL / ACTION-FIRST — HARD, NOT ADVISORY
 This section is binding execution law, not a style preference.
@@ -116,7 +125,9 @@ Hard rules:
 Trivial conversational wording does not require a commit. Material project state does.
 
 ## 11. Good-enough threshold
-IndiaN may say `READY_TO_CONTINUE` when it has enough current context to act responsibly: current state + protected canon + relevant current files + material recent relay delta.
+IndiaN may say `READY_TO_CONTINUE` when it has enough current context to act responsibly on the specific active task: current state + protected canon + relevant current files + material recent relay delta + mandatory failure/recovery guard.
+
+`READY_TO_CONTINUE` does NOT mean 'I know every historical project detail'. If the active task depends on a past dwell/base/pace/flow choice and that choice is not in current state, recover it first.
 
 If those sources disagree, resolve the disagreement first. Otherwise continue. No `100% knowledge` percentage is required.
 
@@ -129,11 +140,23 @@ Before an explicit handoff after material work, verify only that:
 - `CURRENT_STATE.md` reflects the real active phase/frontier;
 - newest material Mark decisions are durable;
 - exact active files are pointed to;
+- the mandatory active recovery/postmortem file is still in the boot chain unless explicitly retired;
 - any stale handoff that could override/mislead the next session carries an explicit supersede notice;
 - no unfinished autonomous action is hidden only in the outgoing chat;
-- the next session boots from README + critical no-deferral + THIS protocol + CURRENT_STATE, not from a remembered summary alone.
+- the next session boots from README + critical no-deferral + THIS protocol + recovery postmortem + CURRENT_STATE, not from a remembered summary alone.
 
 If these conditions are already true because continuous replaceability was followed, do not create redundant handoff bureaucracy.
+
+## 13. Fixed-core day accounting guard — INDIA11 recovery
+When the active phase asks how many of the 34 trip days a fixed A+ cluster consumes, do not count only on-site nights/days and park known travel as `later global`.
+
+Use an explicit edge-charging convention:
+- charge the occupied inbound transfer from the known current predecessor to the cluster being costed;
+- include internal base-change travel in its real occupied day;
+- keep the outbound edge visible and assign it consistently to either the current or next cluster/global bridge so it is never omitted or double-counted;
+- if an optional predecessor is unresolved, show the fixed-core baseline plus a scenario delta rather than hiding the predecessor behind `prior core/route`.
+
+This rule is about day-budget accounting, not exact calendar dates.
 
 ## Historical note
 The heavier task-008 baseline/gate architecture and INDIA9 audit remain in Git history and archive as provenance. They solved a real one-time knowledge-loss problem. Their detailed percentage gates, blob taxonomies and certification mechanics are intentionally not standing daily requirements anymore.
