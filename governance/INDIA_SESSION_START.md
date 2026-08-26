@@ -8,17 +8,30 @@ Read, in this order, IN THE CURRENT SESSION before substantive India-regie work:
 2. `governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md`
 3. `governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md`
 4. `governance/INDIA11_RECOVERY_POSTMORTEM_AND_MUST_READ_2026-08-26.md`
-5. `governance/CURRENT_STATE.md`
-6. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRIP_PLANNING_META_CONTROLLER_2026-08-26.md`
-7. `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv`
-8. current-frontier task/output files named by `CURRENT_STATE.md`
-9. PR #23 when materially relevant and immediately before a major central write.
+5. `governance/ACTIVE_FRAMEWORK.md`
+6. `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md`
+7. `governance/CURRENT_STATE.md`
+8. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRIP_PLANNING_META_CONTROLLER_2026-08-26.md`
+9. `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv`
+10. current-frontier task/output files named by `CURRENT_STATE.md`
+11. PR #23 when materially relevant and immediately before a major central write.
+
+## WHAT EACH CURRENT FILE IS FOR
+- `ACTIVE_FRAMEWORK.md` tells INDIA what is current authority versus useful historical provenance.
+- `MARK_TRAVEL_PREFERENCES_CURRENT.md` contains cross-cluster Mark preferences that must survive successors: fixed trip envelope, pace principle, train/flight/car/bus preferences, overnight rail class preference, door-to-door thinking, final comfort sweep and presentation preferences.
+- `CURRENT_STATE.md` tells INDIA where the project is NOW.
+- `TRIP_PLANNING_META_CONTROLLER_2026-08-26.md` controls the route from research universe to final 34-day calendar.
+- protected canon/current decision logs control site/cluster/hotel grades and locks.
+
+A successor may NEVER assume that an old `handoffs/` or `ACTIVE_STATE.md` is current just because it contains lots of detail. Historical files are evidence only unless reconciled against current authority.
+
+Conversely, current boot is NOT proof that every historical preference Mark ever expressed has already been recovered. If Mark signals an old preference/decision, search the relevant historical entity/topic before asking him to repeat himself, then promote only the still-valid fact into current canon.
 
 ## HARD INDIA12+ META-CONTROLLER GATE
 `TRIP_PLANNING_META_CONTROLLER_2026-08-26.md` is BINDING until explicitly superseded/retired. INDIA12+ may not replace its planning sequence with an improvised one.
 
 The controlling sequence is:
-`RESEARCH UNIVERSE -> A+/A/A*/B/C -> SIX FIXED A+ WORLDS -> PER-CORE CONTENT CLOSURE -> EXECUTION GEOMETRY -> MARK PACE/DWELL -> DURATION_CLOSED x6 -> FIXED_CORE_34_DAY_BUDGET INCLUDING REAL TRANSFERS -> OPTIONAL-CLUSTER SURVIVAL -> FINAL TOPOLOGY -> LIVE LOGISTICS RECHECK -> EXACT 34-DAY CALENDAR`.
+`RESEARCH UNIVERSE -> A+/A/A*/B/C -> SIX FIXED A+ WORLDS -> PER-CORE CONTENT CLOSURE -> EXECUTION GEOMETRY -> MARK PACE/DWELL -> DURATION_CLOSED x6 -> FIXED_CORE_34_DAY_BUDGET INCLUDING REAL TRANSFERS -> OPTIONAL-CLUSTER SURVIVAL -> FINAL TOPOLOGY -> LIVE LOGISTICS RECHECK -> EXACT 34-DAY CALENDAR -> FINAL COMFORT SWEEP / DAY CARDS`.
 
 Hard implications:
 - no generic discovery restart;
@@ -26,7 +39,8 @@ Hard implications:
 - no exact calendar before fixed-core budget + optional-cluster survival;
 - travel days count as occupied trip days;
 - only Mark determines subjective pace/dwell; INDIA proposes executable combinations;
-- every successor must continue from the active layer/frontier instead of redesigning the method.
+- every successor must continue from the active layer/frontier instead of redesigning the method;
+- final route work is not complete until the retained bases/corridors receive the required comfort sweep from `FINAL_COMFORT_SWEEP_RULE_2026-08-23.md`.
 
 ## ALWAYS DISPOSABLE / REPLACEABLE — GLOBAL HARD
 Every IndiaN must work as if it can disappear after the current message.
@@ -40,6 +54,7 @@ A durable checkpoint must include, where relevant:
 - newest Mark decisions and supersedes;
 - current cluster/content/duration status;
 - active master controller / method;
+- current Mark preference canon when a cross-cluster preference changes;
 - exact current frontier;
 - current sleeping-base and route assumptions;
 - unfinished autonomous work and blockers;
@@ -57,10 +72,11 @@ The full binding mechanics are in `governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md`.
 - Real choice batches are one contiguous numbered block so Mark can answer `1 A, 2 B, 3 C`.
 - A+/A/B remain visible in trip design; A* is SKIP_FIRST; B is conditional/on-site reserve and cannot independently force a major detour/night; C disappears from active planning unless explicitly reopened.
 - Cluster day-budgeting includes the known inbound occupied transfer and all real internal base changes; no known travel day may be parked vaguely as `later global`.
+- Apply the current cross-cluster preferences from `MARK_TRAVEL_PREFERENCES_CURRENT.md`; do not rediscover or improvise them from stale route handoffs.
 - Keep work in coherent bounded chunks to reduce context/streaming failure, but every chunk must perform real work and leave a durable continuation state. A bounded chunk is not permission for status-only deferral.
 - GitHub must always contain enough current truth that INDIA(N+1) can continue without Mark reconstructing the chat.
 
 ## RECOVERY TRIGGER
-If Mark says or implies `we decided this already`, `zoek terug`, `je mist te veel`, `vorige India deed dit anders`, or a current plan conflicts with earlier dwell/base/flow logic: stop new conclusions, search historical decisions/commits/handoffs/PR evidence, reconcile newest truth, record it, then resume automatically.
+If Mark says or implies `we decided this already`, `zoek terug`, `je mist te veel`, `vorige India deed dit anders`, `ik had daar een voorkeur voor`, or a current plan conflicts with earlier dwell/base/flow/transport logic: stop new conclusions, search historical decisions/commits/handoffs/PR evidence for that topic, reconcile newest truth, promote the still-valid fact into current state/preference canon where appropriate, then resume automatically.
 
-The old long INDIA6/INDIA8 session snapshot previously stored here remains only in Git history and is not authoritative current state.
+The old long INDIA6/INDIA8 session snapshots and handoffs remain useful provenance but are not authoritative current state.
