@@ -1,10 +1,10 @@
 # CURRENT STATE — INDIA
 
-Last updated: 2026-08-26
+Last updated: 2026-08-27
 Branch: `agent/india8-cluster-casting`
 Purpose: compact durable boot state. Old calendar sketches are provenance only.
 
-## BOOT
+## BOOT — MANDATORY
 Read in this order:
 1. `README.md`
 2. `governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md`
@@ -15,72 +15,59 @@ Read in this order:
 7. THIS file
 8. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRIP_PLANNING_META_CONTROLLER_2026-08-26.md`
 9. `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv`
-10. current-frontier files listed below
-11. PR #23 at start of major integration and directly before central write; no continuous polling.
+10. current-frontier files named below
+11. PR #23 when materially relevant and immediately before a major central write.
 
 `ACTIVE_FRAMEWORK.md` defines current authority versus historical provenance.
-`MARK_TRAVEL_PREFERENCES_CURRENT.md` is the current cross-cluster Mark preference canon.
-`TRIP_PLANNING_META_CONTROLLER_2026-08-26.md` is the ACTIVE MASTER CONTROLLER for INDIA12+ until explicitly superseded/retired. It is mandatory method, not optional background.
+`MARK_TRAVEL_PREFERENCES_CURRENT.md` is the ONE living Mark human-context canon and must be maintained whenever a durable cross-cluster preference is learned.
+`TRIP_PLANNING_META_CONTROLLER_2026-08-26.md` is the ACTIVE MASTER CONTROLLER until explicitly superseded/retired.
 
-Worker `COMPLETE` is not automatically central truth. Verify integration/adoption. A stale tracker also does not prove a worker is unfinished: inspect actual branch/output when heads moved. Use CCI lightly. STOP OPTIMIZING and return to the trip.
-
-## CURRENT CROSS-CLUSTER MARK PREFERENCES — HARD POINTER
-Canonical file:
-`governance/MARK_TRAVEL_PREFERENCES_CURRENT.md`.
-
-Important currently consolidated preferences include:
-- definitive travel period 18 Dec 2026 through 21 Jan 2027; flights booked; project uses 34-day budget convention;
-- breathing room at major spiritual clusters over maximum site density;
-- Mark alone determines subjective dwell/pace;
-- long-distance hierarchy: train first when useful, flight when it saves substantial usable trip time, private car for mountains/last mile/door-to-door wins, intercity/long-distance bus excluded;
-- overnight rail target 1A / First AC; 2A only if Mark later accepts it;
-- door-to-door/lost-daylight accounting controls transport comparisons;
-- final comfort sweep for retained bases/corridors must not be forgotten: historic bakeries/patisseries, local sweets, serious coffee, characterful cafes, strong restaurants and useful transfer-day comfort stops;
-- no PDF unless explicitly requested.
-
-This pointer does NOT claim every historical preference has already been recovered. A direct Mark signal that an old preference existed triggers targeted historical recovery and promotion of only the still-valid fact.
-
-## INDIA11 RECOVERY GUARD — HARD
-INDIA11 was not actually up-to-speed on several older but material Mark decisions/flow/dwell/base facts despite current-state boot. Mark had to recover them manually. The mandatory postmortem above records the concrete errors and recovery triggers.
-
-Hard consequence:
-- CURRENT_STATE is a compact pointer, NOT proof that no older user-specific dwell/base/pace/flow/preference decision exists.
-- If Mark says `we already decided this`, `zoek terug`, `je mist te veel`, `ik had daar een voorkeur voor`, or the current plan contradicts remembered flow/preferences, stop new conclusions and search relevant historical decisions/commits/handoffs/PR evidence until the gap is resolved.
-- Never claim project-wide readiness merely because the light boot completed.
-- Never improvise a new planning sequence while an active master controller exists.
-- Never reactivate an old route/calendar bundle merely because one valid preference was recovered from it.
+Worker `COMPLETE` is not automatically central truth. A stale central tracker also does not prove worker incompleteness. Verify actual output/adoption. Use CCI lightly. Governance serves the trip.
 
 ## ALWAYS DISPOSABLE / REPLACEABLE — HARD
 Every IndiaN works as if it can disappear after the current message.
-Before every reply following a material change, verify:
+Before every reply after a material change verify:
 `CAN INDIA(N+1) CONTINUE FROM GITHUB WITHOUT MARK REPEATING OR RECONSTRUCTING ANYTHING?`
 If NO: checkpoint first.
 
-The durable state must include the current authority map, Mark preference canon when changed, master controller, current frontier, newest Mark decisions/supersedes, cluster duration status, relevant sleeping-base/route assumptions, and exact active files. No future INDIA may depend on the outgoing chat summary or Mark re-teaching the process.
+Never depend on outgoing chat memory for current decisions, duration, sleeping bases, method, frontier or durable Mark preferences.
+
+## MARK HUMAN-CONTEXT POINTER — HARD
+Canonical living profile:
+`governance/MARK_TRAVEL_PREFERENCES_CURRENT.md`.
+
+Important current principles include:
+- this is a personal spiritual/pilgrimage journey, not generic attraction maximization;
+- spiritual meaning and historical evidence must both be treated seriously;
+- breathing room at major spiritual clusters over maximum site density;
+- only Mark determines subjective dwell/pace; INDIA calculates and proposes executable combinations;
+- context before choice: research geography, burden and meaning first;
+- long-distance hierarchy: train first when useful, flight if it saves substantial usable time, private car for mountains/last mile/door-to-door wins, long-distance/intercity bus excluded;
+- overnight rail target 1A / First AC; 2A only after Mark accepts fallback;
+- walking/nature is real trip content when scenic/spiritually meaningful, not filler;
+- authentic meaningful accommodation can outweigh generic comfort when the property itself matters;
+- final comfort sweep must include historic bakeries/patisseries, local sweets, serious coffee, characterful cafes/restaurants and useful transfer-day comfort;
+- user-facing Indian names need repeated Dutch recognition hooks;
+- true Mark choice batches are one contiguous numbered block;
+- when preference history conflicts: search first, then ask Mark rather than guess;
+- no PDF unless explicitly requested.
 
 ## HARD PRESENTATION / DECISION RULES
-Before any location, cluster, HOTEL, sleeping base or route item shown to Mark: `AL BESLIST?`.
-Never re-offer existing A/B/C/A+/lock as a new choice.
-Only Mark assigns/changes subjective A+/A/A*/B/C or hotel choices.
+Before presenting any location, cluster, HOTEL/sleeping base or route item as a new choice: `AL BESLIST?`.
+Only Mark changes subjective A+/A/A*/B/C, hotel/base or equivalent personal travel choices.
+A question/hypothesis is not a decision.
 
-User-facing places use:
-`CLUSTER / PLAATS / PLEK (korte Nederlandse uitleg) — huidige status: A+ / A / A* / B / C / OPEN`.
-Every true Mark choice batch is ONE contiguous numbered block so Mark can answer `1 A, 2 B, 3 C`.
+Current grade semantics:
+- A+ = trip-defining; can carry a world/cluster.
+- A = definitely wanted inside a retained world; does not alone force an optional world.
+- A* = formal A corridor/bycatch subtype, `SKIP_FIRST`.
+- B = active conditional/on-site reserve; remains visible in real plan but cannot independently force major detour/night/restructure.
+- C = definitive current-trip reject; absent from active planning unless Mark explicitly reopens.
 
-Sleeping-base display must not mutate lodging type. For an ashram sleep, make explicit that it is an ashramovernachting even if a generic `HOTEL`/sleep-base prefix is used.
+Canonical grade truth:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md` and current decision model.
 
-## GRADE / CLUSTER SEMANTICS — HARD
-Canonical definition:
-`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_PROXIMITY_DECISION_MODEL.md` plus latest Mark correction in `A_PLUS_MARK_DECISION_LOG.md`.
-
-- A+ = trip-defining; intrinsic reason the trip goes there.
-- A = Mark genuinely wants to visit; retain inside a retained world, but A alone does NOT make an otherwise-optional whole cluster trip-defining.
-- A* = formal A corridor/base bycatch, SKIP_FIRST; never sole route-driver.
-- B = ACTIVE CONDITIONAL / on-site reserve. B remains visible in the actual travel plan but cannot independently force a major detour, extra night or route restructuring.
-- C = definitive active-trip reject. Remove from active plan/day combinations unless Mark explicitly reopens it.
-- OPEN = ungraded.
-
-## SIX FIXED A+ CORE WORLDS — AL BESLIST
+## SIX FIXED A+ CORE WORLDS — INCLUSION CLOSED
 1. DELHI
 2. KUMAON
 3. AGRA / TAJ MAHAL
@@ -88,142 +75,128 @@ Canonical definition:
 5. VARANASI / SARNATH
 6. TIRUVANNAMALAI / ARUNACHALA
 
-Their inclusion is fixed. Their obvious-parent A+ pass is complete and the preserved old-A -> A+ promotion pass is closed.
-Current A+ / Mark grade truth:
-`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md`.
+Do not reopen their inclusion.
 
-Important locks:
-- `KUMAON / DUNAGIRI / HOTEL Dunagiri Retreat (gekozen spirituele wandelbasis bij de Mahavatar Babaji-grot) — accommodatie-status: LOCKED_BY_MARK`.
-- `VARANASI / ASSI GHAT / HOTEL Sahi River View Guesthouse (gekozen verblijf aan/naast Assi Ghat) — accommodatie-status: LOCKED_BY_MARK`.
-- `KUMAON / DWARAHAT / Yogoda Satsanga Sakha Ashram — Dwarahat (YSS-ashram in de Mahavatar Babaji/Kriya-regio) — huidige status: A` krijgt een FULL DAY. Mark is Ananda, niet YSS/SRF; geen YSS overnight.
+Important accommodation/experience locks:
+- `KUMAON / HAIDAKHAN / Haidakhan Vishwa Mahadham (overnachten in het ashram zelf)` — sleep type explicit.
+- `KUMAON / DUNAGIRI / HOTEL Dunagiri Retreat (spirituele wandelbasis bij Mahavatar Babaji-grot)` — `LOCKED_BY_MARK`.
+- `VARANASI / ASSI GHAT / HOTEL Sahi River View Guesthouse (gekozen verblijf aan/naast Assi Ghat)` — `LOCKED_BY_MARK`.
+- `KUMAON / DWARAHAT / Yogoda Satsanga Sakha Ashram (YSS-site in Babaji/Kriya-regio)` — A + FULL DAY; Mark is Ananda, not YSS/SRF; no YSS overnight.
+
+## ACTIVE META CONTROLLER — HARD
+Canonical:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRIP_PLANNING_META_CONTROLLER_2026-08-26.md`.
+
+Sequence:
+`RESEARCH UNIVERSE -> A+/A/A*/B/C -> SIX FIXED A+ WORLDS -> PER-CORE CONTENT CLOSURE -> EXECUTION GEOMETRY -> MARK PACE/DWELL -> DURATION_CLOSED x6 -> FIXED_CORE_34_DAY_BUDGET + REAL TRANSFERS -> OPTIONAL-CLUSTER SURVIVAL -> FINAL TOPOLOGY -> LIVE LOGISTICS RECHECK -> EXACT 34-DAY CALENDAR -> FINAL COMFORT SWEEP / DAY CARDS`.
+
+Do not improvise another sequence. No optional-cluster ballot before six-core duration closure. No exact calendar yet.
+
+## FIXED-CORE DAY ACCOUNTING — HARD
+For each fixed-core footprint:
+- charge the known inbound occupied transfer from the current predecessor;
+- include internal base-change travel on the actual day;
+- keep outbound bridge visible and charge it exactly once to the next bridge/global budget;
+- never hide known travel as `later global`;
+- raw vehicle time is not the full calendar occupancy.
+
+## KUMAON — DURATION_CLOSED 2026-08-27
+Canonical decision:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_DURATION_MARK_DECISION_2026-08-27.md`.
+
+Canonical complete execution:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_COMPLETE_EXECUTION_DRAFT_2026-08-26.md` (internal status now `DURATION_CLOSED`).
+
+Mark explicitly selected option 2 on 2026-08-27:
+- **Haidakhan Vishwa Mahadham / Haidakhan Ashram = 3 nights / 2 complete full days — LOCKED_BY_MARK.**
+
+Closed current fixed-core baseline:
+- K0 DELHI -> true Haidakhan Vishwa Mahadham: FULL OCCUPIED TRAVEL DAY; night H1.
+- K1 Haidakhan full day 1; night H2.
+- K2 Haidakhan full quiet day 2; night H3.
+- K3 Haidakhan -> Nainital base change; Sattal A* only if real geometry/daylight supports it; night N1.
+- K4 Nainital local A+/A day; Naina Peak B conditional; night N2.
+- K5 Bhumiadhar + Kainchi A+ day; Ghorakhal B conditional; night N3.
+- K6 Nainital -> Dhokaney A -> Kakrighat A* if practical -> Dwarahat/Dunagiri; night D1.
+- K7 Mahavatar Babaji/Dunagiri pilgrimage day; night D2.
+- K8 YSS Dwarahat FULL DAY; night D3.
+
+Closed footprint through final Dunagiri night:
+**9 occupied days / 9 nights.**
 
 Kumaon direction remains:
 `HAIDAKHAN VISHWA MAHADHAM -> NAINITAL -> KAINCHI -> DWARAHAT -> DUNAGIRI/KUKUCHINA`.
-Eastern Kumaon exit is FULL TRAVEL DAY class and must be counted exactly once in the global budget/adjacent edge.
 
-## ACTIVE META CONTROLLER — HARD
-Canonical controller:
-`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRIP_PLANNING_META_CONTROLLER_2026-08-26.md`.
+Eastern Kumaon exit remains a mandatory FULL TRAVEL DAY adjacent edge. Charge exactly once when next fixed-core bridge/global budget is built.
 
-Controlling sequence:
-`RESEARCH UNIVERSE -> A+/A/A*/B/C -> SIX FIXED A+ WORLDS -> PER-CORE CONTENT CLOSURE -> EXECUTION GEOMETRY -> MARK PACE/DWELL -> DURATION_CLOSED x6 -> FIXED_CORE_34_DAY_BUDGET + REAL TRANSFERS -> OPTIONAL-CLUSTER SURVIVAL -> FINAL TOPOLOGY -> LIVE LOGISTICS RECHECK -> EXACT 34-DAY CALENDAR -> FINAL COMFORT SWEEP / DAY CARDS`.
-
-Do not redesign this sequence per cluster. Do not jump to optional clusters or exact dates before their gates are passed.
-
-## RECOVERED CONTROLLER FLOW — HARD
-The original active decision model requires:
-`DISCOVERY -> A+ -> OLD-A PROMOTION -> A+-CENTRIC CORRIDOR/TIME -> ORDINARY A/A*/B/C -> COMPLETE-EXECUTION PLAN PER FIXED CLUSTER -> TRUE DURATION/MINIMUM NIGHTS -> REPEAT ALL SIX -> INTER-CORE TRANSFERS -> FIXED-CORE 34-DAY BUDGET -> ONLY THEN OPTIONAL/ROUTE-SENSITIVE CLUSTERS -> GLOBAL ROUTE`.
-
-The 2026-08-25 route-planning correction remains valid but does NOT supersede this fixed-core time-footprint gate. It adds honest door-to-door transfer accounting.
-
-Therefore the current job is:
-**determine how much of Mark's 34-day trip is consumed by the six fixed A+ worlds, their selected A/A*/B/traveler/LP/Komoot content, and mandatory inter-core travel.**
-
-Canonical audit:
-`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/FIXED_CORE_TIME_FOOTPRINT_AUDIT_2026-08-26.md`.
-
-## FIXED-CORE DAY-ACCOUNTING RULE — HARD / MARK 2026-08-26
-For cluster footprint budgeting, do NOT count only nights/on-site days and defer a known inbound journey as `later global`.
-
-Use explicit edge charging:
-- inbound occupied transfer from the known current predecessor is included in the cluster footprint being costed;
-- internal base changes are included on their real occupied day;
-- outbound edge remains visible and is assigned exactly once to the next cluster/global bridge so it cannot disappear or double-count.
-
-For the current FIXED-CORE-ONLY Kumaon baseline, the current topology predecessor is **DELHI**. Haridwar/Rishikesh is optional/deferred and must not silently replace Delhi as predecessor. If that optional cluster later survives, calculate the delta/scenario then.
-
-Current official/topology working relation for the exact true Haidakhan Vishwa Mahadham:
-- Delhi -> Haidakhan Vishwa Mahadham: about **337 km / 8–9 h raw road journey** according to Haidakhandi Samaj; treat as a FULL OCCUPIED TRAVEL DAY once departure/loading/food/winter buffer/arrival are included.
-- Older generic-Haidakhan shortcuts are not calendar-safe.
-
-## KUMAON — CURRENT SELECTION CLOSED ENOUGH FOR EXECUTION / PACE REVIEW
-Day-expanding OPEN survivor decisions are now closed in:
-`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_FINAL_OPEN_SURVIVOR_MARK_DECISIONS_2026-08-26.md`.
-
-Latest important Mark outcomes:
-- Naina Peak / China Peak short forest walk — B; decide on site depending spare time/weather/visibility.
+Closed survivor examples that must not be re-presented:
+- Naina Peak — B active conditional.
 - Corbett/Dhikala — C.
 - Pangot/Kilbury — C.
 - Mukteshwar + Chauli ki Jali — C.
-- Sattal–Chanfi specialist extra birding/hides — C; Sattal / Seven Lakes itself remains A*.
-- Chhoti Haldwani heritage trail — C.
-- Uttarayani Mela Bageshwar — C.
+- Sattal–Chanfi specialist birding extension — C; underlying Sattal / Seven Lakes remains A*.
+- Chhoti Haldwani — C.
+- Uttarayani Mela — C.
 - Patal Bhuvaneshwar — C.
 
-C items above are OUT of active planning. Do not re-present.
+Kumaon operational P0s still to close nearer exact sequencing/booking, without reopening duration unless verified geometry proves physical impossibility:
+- true Haidakhan Vishwa Mahadham -> Nainital winter door-to-door route/time;
+- HOTEL Dunagiri Retreat <-> YSS Dwarahat winter commute;
+- exact Babaji Cave hotel-based walk track/time/safety/winter operation;
+- exact trip-day services/driver logistics.
 
-### HAIDAKHAN RECOVERED DWELL / SLEEP TRUTH
-Historical DECISION-0001/handoff recovery established:
-- sleep is **inside Haidakhan Vishwa Mahadham / Haidakhan Ashram itself**; no separate hotel property is implied;
-- duration remains technically OPEN, but the preserved planner working hypothesis is **3 nights / 2 complete quiet days** because 2 nights provide only one full day;
-- this 3-night value is NOT yet a final Mark duration lock, but it is the correct baseline and must not be silently compressed again.
+## CURRENT FRONTIER — VARANASI / SARNATH
+KUMAON is the first of six fixed A+ worlds to reach `DURATION_CLOSED`.
 
-### KUMAON ACTIVE EXECUTION DRAFT
-Current draft:
-`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_COMPLETE_EXECUTION_DRAFT_2026-08-26.md`.
+Next fixed core:
+**VARANASI / SARNATH**.
 
-Working sleep baseline:
-- Haidakhan Vishwa Mahadham / Ashram: 3 nights / 2 full quiet days — working hypothesis.
-- Nainital: 3 nights.
-- HOTEL Dunagiri Retreat: 3 nights.
-- Total: 9 Kumaon nights.
+Apply exactly the same controller:
+1. recover current A+/A/A*/B/C + sleeping-base truth;
+2. bounded historical preference check for Varanasi/Sarnath before duration closure;
+3. close only genuine remaining traveler/LP/Komoot choices;
+4. build real geography-based day bundles from the locked `HOTEL Sahi River View Guesthouse` base and relevant transfer geometry;
+5. show only decision-ready subjective pace/dwell choices to Mark;
+6. Mark chooses pace;
+7. mark `DURATION_CLOSED`;
+8. move to next fixed core.
 
-Current fixed-core day footprint must be expressed INCLUDING inbound from Delhi:
-- **K0: DELHI -> HAIDAKHAN VISHWA MAHADHAM = full occupied travel day; night H1.**
-- K1–K2: two full Haidakhan days; nights H2–H3.
-- K3: Haidakhan -> Nainital with Sattal A* if practical; night N1.
-- K4: Nainital local A+/A day; night N2.
-- K5: Bhumiadhar + Kainchi A+ day; night N3.
-- K6: Nainital -> Dhokaney A -> Kakrighat A* if practical -> Dwarahat/Dunagiri; night D1.
-- K7: Mahavatar Babaji/Dunagiri pilgrimage day; night D2.
-- K8: YSS Dwarahat FULL DAY; night D3.
+Do not restart generic discovery.
 
-Thus the current working Kumaon footprint through its final Dunagiri night is **9 occupied days / 9 nights**, not `8 internal days plus a travel day later`.
+## OTHER FIXED WORLDS — NOT YET DURATION_CLOSED
+- VARANASI / SARNATH — CURRENT FRONTIER.
+- BODH GAYA / GAYA — substantial canon/research exists; needs same closure cycle.
+- TIRUVANNAMALAI / ARUNACHALA — substantial person/traveler/walk research exists; needs same closure cycle.
+- DELHI — regional/traveler research exists; needs same closure cycle including arrival/exit burden where relevant.
+- AGRA / TAJ MAHAL — regional/traveler research exists; needs same closure cycle around earliest-practical Taj visit.
 
-The eastern Dunagiri exit remains a mandatory FULL TRAVEL DAY edge and must be charged once when the next fixed-core connection is built. Do not omit it from the six-core 34-day total.
+Canonical compact audit:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/FIXED_CORE_TIME_FOOTPRINT_AUDIT_2026-08-26.md`.
 
-Kumaon true duration is still MARK_PACE_REVIEW_REQUIRED because only Mark can decide whether 3 Haidakhan nights / 2 complete days feels right.
+## OPTIONAL WORLDS — DEFERRED
+Do not decide survival yet:
+- BRAJ / MATHURA–VRINDAVAN–GOVARDHAN — unresolved; earlier false DROP invalidated.
+- HARIDWAR / KANKHAL / RISHIKESH — unresolved.
+- PRAYAGRAJ — unresolved.
 
-## OTHER FIVE FIXED WORLDS
-VARANASI/SARNATH, BODH GAYA/GAYA, TIRUVANNAMALAI/ARUNACHALA, DELHI and AGRA have fixed A+ and substantial prior canon/research, but no found current artifact closes every genuinely new traveler/LP row followed by a complete-execution plan and true duration/minimum-night result.
+Only after all six fixed cores are `DURATION_CLOSED`:
+1. connect all six with real door-to-door edges exactly once;
+2. include international arrival/departure occupancy;
+3. calculate fixed-core 34-day consumption;
+4. derive actual days remaining;
+5. run optional-cluster survival by marginal value versus extra transfer/base/dwell burden.
 
-Therefore no honest fixed-core total day count exists yet.
-
-## CURRENT FRONTIER — FIXED CORE FIRST
-Do NOT assign exact calendar dates.
-Do NOT compare Braj, Haridwar/Rishikesh or Prayagraj for inclusion yet.
-
-Execute:
-1. Finish Kumaon pace/duration review from the corrected 9-day/9-night working footprint including Delhi inbound.
-2. Repeat selection closure + complete-execution/time budget for VARANASI/SARNATH, BODH GAYA/GAYA, TIRUVANNAMALAI/ARUNACHALA, DELHI and AGRA.
-3. Combine those six footprints with every mandatory inter-core door-to-door edge exactly once into a `FIXED_CORE_34_DAY_BUDGET`.
-4. Only after the remaining-day count is known compare optional clusters by marginal total burden: extra transfer occupancy + base change + selected dwell/visit time.
-
-## ROUTE/TIME METHOD — STILL HARD
-Old exact-date/day sketches are NON-AUTHORITATIVE because transfer time was not consistently charged.
-Door-to-door includes packing/check-out/loading + access + station/airport buffer + transport + delay/fog/winter buffer + baggage/exit + next HOTEL transfer/check-in + food/rest + daylight/energy loss.
-
-Useful transfer/topology evidence is preserved in:
+## ROUTE / LIVE-FACT METHOD
+Old exact-date/day sketches are NON-AUTHORITATIVE.
+Useful preserved topology sources:
 - `ROUTE_PLANNING_SYSTEM_CORRECTION_2026-08-25.md`
 - `GLOBAL_TRANSFER_LEDGER_2026-08-25.md`
 - `CLUSTER_TOPOLOGY_FEASIBILITY_2026-08-25.md`
 - North/East/South topology files.
-Use it when building fixed-core execution and later optional marginal burden. Do not let topology substitute for unfinished content/time budgeting.
 
-## OPTIONAL WORLDS — DEFERRED
-- BRAJ / MATHURA–VRINDAVAN–GOVARDHAN: unresolved. Earlier false DROP was invalidated; Braj reconciliation/prep remains useful but is NOT current frontier.
-- HARIDWAR / KANKHAL / RISHIKESH: unresolved; topology/event research preserved. Do not silently insert it before Kumaon while fixed-core footprint is being costed.
-- PRAYAGRAJ: unresolved; topology/event research preserved.
+Live train/flight/opening/availability facts are rechecked when they actually affect current routing/booking. Do not prematurely calendarize.
 
-No further optional-cluster ballot until fixed-core footprint is known.
+## REPLACEABILITY — EXACT NEXT ACTION
+If INDIA11 disappears, INDIA12 reads the mandatory boot + living Mark profile + meta-controller, sees **KUMAON = DURATION_CLOSED**, and starts **VARANASI / SARNATH closure**. It must NOT ask Mark again whether Haidakhan should be 2/3/4 nights and must NOT jump to Braj/Rishikesh/Prayagraj.
 
-## LATER P0 OPERATIONAL CLOSURES
-- exact winter door-to-door handling for DELHI -> true Haidakhan Vishwa Mahadham; official base relation is already 337 km / 8–9h raw and sufficient to classify full travel day, but exact trip-day service/driver detail comes later;
-- true Haidakhan Vishwa Mahadham -> Nainital road geometry: older shortcuts are source-conflicted and must be reclosed before exact timetable/day sequencing;
-- HOTEL Dunagiri Retreat <-> YSS Dwarahat winter commute;
-- Babaji cave hotel-walk track/safety;
-- actual-date Dec 2026/Jan 2027 train/flight operations.
-Close these when they materially affect the active fixed-core execution calculation or booking.
-
-## REPLACEABILITY
-If INDIA11 disappears, INDIA12 must read the mandatory INDIA11 recovery postmortem, `ACTIVE_FRAMEWORK.md`, `MARK_TRAVEL_PREFERENCES_CURRENT.md` AND the active trip-planning meta-controller before this state is used operationally. It resumes from the corrected Kumaon 9-day/9-night working footprint INCLUDING Delhi inbound, obtains only Mark's pace judgment on the Haidakhan 3-night hypothesis, then continues the other five fixed A+ worlds using the SAME A->B->C closure cycle. It must NOT jump to Braj/Rishikesh/Prayagraj before the six-core 34-day footprint exists.
+END_OF_CURRENT_STATE
