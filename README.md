@@ -29,6 +29,20 @@ Tot expliciete retirement is daarom dit bestand **verplicht onderdeel van iedere
 
 Het bevat de concrete fouten en preventieregels. Een successor mag NIET redeneren dat `CURRENT_STATE.md` alle oudere persoonlijke dwell/base/flow-besluiten bevat. Bij een recovery-trigger (`we hadden dit al`, `zoek terug`, `je mist te veel`, eerdere flow wijkt af, slaapduur/base voelt generiek, tracker lijkt stale) moet gericht historisch worden verbreed vóór nieuwe route-/dagconclusies.
 
+## AUTHORITY + MARK PREFERENCES — MUST READ
+
+Twee extra bestanden zijn verplicht omdat eerdere handoffs veel waardevolle maar deels verouderde informatie bevatten:
+
+`governance/ACTIVE_FRAMEWORK.md`
+- bepaalt wat actuele autoriteit is en wat alleen historische provenance is;
+- voorkomt zowel blind vertrouwen op oude handoffs als onnodige totale repo-herlezing.
+
+`governance/MARK_TRAVEL_PREFERENCES_CURRENT.md`
+- bevat Marks actuele cross-cluster reisvoorkeuren die iedere successor moet kennen;
+- o.a. vaste reisperiode/budget, rust boven maximale site-dichtheid, transporthiërarchie, 1A-nachttreinvoorkeur, bus-exclusie, door-to-door-tijdlogica en de verplichte final comfort sweep.
+
+Dit voorkeurenbestand claimt NIET dat elke historische voorkeur ooit al gevonden is. Als Mark aangeeft dat iets eerder besproken was, geldt nog steeds targeted recovery: zoek dat specifieke onderwerp terug, reconcileer het tegen huidige canon, en promoveer alleen het nog geldige feit naar actuele waarheid.
+
 ## TRIP PLANNING META CONTROLLER — BINDING FOR INDIA12+
 
 Tot expliciete supersede/retirement is ook dit bestand verplicht:
@@ -37,7 +51,7 @@ Tot expliciete supersede/retirement is ook dit bestand verplicht:
 Dit is niet alleen achtergrond. Het is de actieve master-controller voor de route naar een sluitende 34-daagse kalender. INDIA12+ mag de methode niet opnieuw uitvinden of tussendoor naar een andere laag springen.
 
 Hard proces:
-`RESEARCH UNIVERSE -> A+/A/A*/B/C -> SIX FIXED A+ WORLDS -> PER-CORE CONTENT CLOSURE -> EXECUTION GEOMETRY -> MARK PACE/DWELL -> DURATION_CLOSED x6 -> FIXED_CORE_34_DAY_BUDGET + REAL TRANSFERS -> OPTIONAL-CLUSTER SURVIVAL -> FINAL TOPOLOGY -> LIVE LOGISTICS RECHECK -> EXACT 34-DAY CALENDAR`.
+`RESEARCH UNIVERSE -> A+/A/A*/B/C -> SIX FIXED A+ WORLDS -> PER-CORE CONTENT CLOSURE -> EXECUTION GEOMETRY -> MARK PACE/DWELL -> DURATION_CLOSED x6 -> FIXED_CORE_34_DAY_BUDGET + REAL TRANSFERS -> OPTIONAL-CLUSTER SURVIVAL -> FINAL TOPOLOGY -> LIVE LOGISTICS RECHECK -> EXACT 34-DAY CALENDAR -> FINAL COMFORT SWEEP / DAY CARDS`.
 
 ## HOT INTERACTION RULES — LEES VOORDAT JE MET MARK PRAAT
 
@@ -50,16 +64,17 @@ Deze regels staan uitgebreider in de critical bootfile, maar worden hier expres 
 - **AL BESLIST?:** geen reeds genomen A+/A/A*/B/C-, HOTEL/base-, cluster- of routebeslissing opnieuw als nieuwe keuze aanbieden zonder materiële nieuwe delta.
 - **GRADE-GEBRUIK IN REISPLAN:** A+/A/B blijven zichtbaar; A* is SKIP_FIRST; B is een conditionele/on-site reserve en mag niet zelfstandig een grote omweg of extra nacht afdwingen; C verdwijnt uit actieve planning tenzij Mark hem expliciet heropent.
 - **CLUSTER-TIJD = OOK REISDAG:** bij het bepalen hoeveel van de 34 dagen een fixed-core cluster consumeert, tel de occupied inbound transfer vanaf de bekende vorige route/base mee. Parkeer een bekende reisdag niet als abstracte `later globale` post. Definieer edge-charging expliciet om dubbel tellen te voorkomen.
+- **MARK-VOORKEUREN:** pas `MARK_TRAVEL_PREFERENCES_CURRENT.md` toe; laat een successor deze niet opnieuw afleiden uit oude route-handoffs.
 - **KLEINERE COHERENTE CHUNKS:** vermijd onnodig enorme tool-/tekstblokken die streaming/context kwetsbaar maken. Werk in coherente stukken, maar ieder stuk moet echte actie bevatten en duurzaam checkpointen; chunking is geen excuus om uitvoerbaar werk als prose terug te geven.
 - **CONTINUÏTEIT:** na materiële veranderingen moet GitHub genoeg waarheid bevatten dat INDIA(N+1) zonder chatreconstructie kan doorgaan.
 
-Compatibility pointer: `governance/INDIA_SESSION_START.md` moet exact dezelfde harde bootingang weerspiegelen en mag nooit een verkorte route om de critical bootfile, recovery-postmortem of meta-controller heen geven.
+Compatibility pointer: `governance/INDIA_SESSION_START.md` moet exact dezelfde harde bootingang weerspiegelen en mag nooit een verkorte route om de critical bootfile, recovery-postmortem, authority map, preference canon of meta-controller heen geven.
 
 ## CONTINUOUS REPLACEABILITY / CRASH-SAFE — HARD
 
 **Iedere INDIA-regisseur moet op elk moment vervangbaar zijn door INDIA(N+1). Chatgeheugen/modelcontext is tijdelijk en mag nooit de enige drager van projectwaarheid zijn.**
 
-Na iedere materiële Mark-beslissing, researchclosure, integratie, methodiekwijziging of verschuiving van de actieve frontier — en vóór het antwoord — geldt een extra gate:
+Na iedere materiële Mark-beslissing, researchclosure, integratie, methodiekwijziging, cross-cluster voorkeurwijziging of verschuiving van de actieve frontier — en vóór het antwoord — geldt een extra gate:
 
 `KAN EEN NIEUWE INDIA NU UITSLUITEND VANUIT GITHUB ZONDER MARKS HERHALING VERDER?`
 
@@ -67,6 +82,7 @@ Zo niet: eerst GitHub bijwerken.
 
 Minimaal duurzaam zichtbaar moeten zijn:
 - de nieuwste materiële Mark-besluiten en supersedes;
+- actuele cross-cluster reisvoorkeuren;
 - de actuele projectfase en exacte frontier;
 - de actieve master-controller/methode;
 - wat al uitgevoerd/geïntegreerd is;
@@ -78,8 +94,9 @@ Verboden:
 - cruciale projectstate alleen in de chat of intern modelgeheugen bewaren;
 - wachten met checkpointen tot een geplande handoff;
 - aannemen dat dezelfde INDIA-versie de volgende beurt nog beschikbaar is;
-- Mark bij opvolging opnieuw laten uitleggen wat al besloten of uitgevoerd was;
-- een nieuwe INDIA de actieve planningmethode laten reconstrueren uit chat of oude commits wanneer een master-controller bestaat.
+- Mark bij opvolging opnieuw laten uitleggen wat al besloten of als blijvende voorkeur vastgelegd was;
+- een nieuwe INDIA de actieve planningmethode laten reconstrueren uit chat of oude commits wanneer een master-controller bestaat;
+- blijvende voorkeuren alleen laten voortleven in een oud handoffbestand.
 
 Als de context lang wordt of vervanging plausibel wordt, is dat géén reden om te stoppen: checkpoint eerst de actuele waarheid en ga door zolang zelfstandig werk mogelijk is.
 
@@ -88,11 +105,13 @@ Als de context lang wordt of vervanging plausibel wordt, is dat géén reden om 
 2. `governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md`
 3. `governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md`
 4. `governance/INDIA11_RECOVERY_POSTMORTEM_AND_MUST_READ_2026-08-26.md`
-5. `governance/CURRENT_STATE.md`
-6. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRIP_PLANNING_META_CONTROLLER_2026-08-26.md`
-7. `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv`
-8. de actuele task/outputbestanden die relevant zijn voor Marks vraag
-9. PR #23 voor recente CCI/INDIA-uitwisseling die nog niet verwerkt is wanneer je aan een grote nieuwe taak begint of vlak vóór een grote centrale write
+5. `governance/ACTIVE_FRAMEWORK.md`
+6. `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md`
+7. `governance/CURRENT_STATE.md`
+8. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRIP_PLANNING_META_CONTROLLER_2026-08-26.md`
+9. `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv`
+10. de actuele task/outputbestanden die relevant zijn voor Marks vraag
+11. PR #23 voor recente CCI/INDIA-uitwisseling die nog niet verwerkt is wanneer je aan een grote nieuwe taak begint of vlak vóór een grote centrale write
 
 Daarna: ga inhoudelijk aan het werk en blijf zelfstandig doorwerken zolang dat veilig en relevant kan.
 
@@ -108,7 +127,7 @@ Voor ieder locatie-, cluster-, hotel-, slaapbasis- of route-item dat je als nieu
 Controleer eerst beschermd canon en actuele besluiten. Een bestaand A/B/C/lock wordt niet opnieuw als nieuwe keuze gepresenteerd.
 
 ## Mark beslist
-Alleen Mark maakt of wijzigt persoonlijke A/B/C-keuzes, A+, hotel/slaapbasiskeuzes en vergelijkbare subjectieve reisbesluiten. Workers en INDIA mogen analyseren, adviseren en ontbrekende informatie verzamelen.
+Alleen Mark maakt of wijzigt persoonlijke A/B/C-keuzes, A+, hotel/slaapbasiskeuzes, subjectieve pace/dwell en vergelijkbare subjectieve reisbesluiten. Workers en INDIA mogen analyseren, adviseren en ontbrekende informatie verzamelen.
 
 ## Worker ≠ central
 Een workerbranch met `COMPLETE` is waardevolle input, maar niet automatisch centrale waarheid. Controleer of het resultaat daadwerkelijk is geïntegreerd/aangenomen voordat je het als definitief gebruikt.
@@ -120,6 +139,7 @@ Visa, toegang/opening, dienstregelingen, prijzen, beschikbaarheid, weer en verge
 
 ## GitHub-hygiëne
 - Bewaar belangrijke Mark-besluiten duurzaam.
+- Bewaar blijvende cross-cluster Mark-voorkeuren in `MARK_TRAVEL_PREFERENCES_CURRENT.md`.
 - Bewaar nuttige onderzoeksoutput; verwijder geschiedenis niet zomaar.
 - Houd `governance/CURRENT_STATE.md` actueel bij materiële veranderingen, niet bij ieder klein commitje.
 - Bij materieel werk geldt daarnaast de replaceability-gate: de actuele continuation state mag nooit uitsluitend in chatcontext zitten.
@@ -133,9 +153,9 @@ De repository bevat onder meer AOAY-locatieonderzoek, Top-11 persoonsweeps, regi
 Historische governance, oude session-startbestanden, auditstreams, registries en eerdere architectuurgeneraties blijven in Git/GitHub beschikbaar als provenance. Zij zijn niet automatisch dagelijkse instructies.
 
 ## Als iets niet klopt
-Als `CURRENT_STATE`, beschermd canon, current task-output of een recente Mark-beslissing elkaar tegenspreken: lees gericht verder totdat je begrijpt welke informatie nieuwer/juister is. Alleen bij zo'n echte onduidelijkheid is een brede historische audit nodig.
+Als `CURRENT_STATE`, beschermd canon, current task-output, current preference canon of een recente Mark-beslissing elkaar tegenspreken: lees gericht verder totdat je begrijpt welke informatie nieuwer/juister is. Alleen bij zo'n echte onduidelijkheid is een brede historische audit nodig.
 
-**Ook zonder formele bestands-tegenspraak geldt recovery als Mark aangeeft dat oudere beslis-/dwell-/base-/flowinformatie ontbreekt.** Dan is `CURRENT_STATE` aantoonbaar niet voldoende voor die specifieke vraag en moet gericht historisch worden gezocht vóór verdere conclusies.
+**Ook zonder formele bestands-tegenspraak geldt recovery als Mark aangeeft dat oudere beslis-/dwell-/base-/flow-/voorkeurinformatie ontbreekt.** Dan is de current boot aantoonbaar niet voldoende voor die specifieke vraag en moet gericht historisch worden gezocht vóór verdere conclusies.
 
-De standaard is dus niet: "bewijs dat je alles hebt gelezen".
-De standaard is: "lees de bindende actuele regels en master-controller, ken de actuele waarheid, voer uitvoerbaar werk meteen uit, checkpoint continu zodat je direct vervangbaar bent, en laat Mark geen werk terugkrijgen dat INDIA zelf had kunnen doen".
+De standaard is dus niet: "bewijs dat je alles hebt gelezen" of "claim dat je 100% van de historie kent".
+De standaard is: "lees de bindende actuele regels, authority map, preference canon en master-controller; ken de actuele waarheid; zoek alleen gericht terug wanneer daar een concreet signaal voor is; voer uitvoerbaar werk meteen uit; checkpoint continu zodat je direct vervangbaar bent".
