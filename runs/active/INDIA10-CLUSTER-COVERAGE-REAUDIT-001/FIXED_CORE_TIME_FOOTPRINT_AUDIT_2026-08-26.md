@@ -1,8 +1,8 @@
-# INDIA — FIXED CORE TIME FOOTPRINT AUDIT — 2026-08-26
+# INDIA — FIXED CORE TIME FOOTPRINT AUDIT — 2026-08-27
 
 status: ACTIVE_FIXED_CORE_STATE
 branch: agent/india8-cluster-casting
-updated: 2026-08-26
+updated: 2026-08-27
 
 ## CONTROLLING METHOD
 Read first:
@@ -27,20 +27,28 @@ Their inclusion is closed.
 
 ## CURRENT STATUS
 
-### KUMAON — CONTENT ESSENTIALLY CLOSED / EXECUTION + PACE
+### KUMAON — DURATION_CLOSED
 A+ parent/anchor pass: COMPLETE.
 Old-A promotion: COMPLETE.
-Traveler/LP/Komoot day-changing survivor decisions: CLOSED ENOUGH FOR EXECUTION.
-Complete-execution draft: EXISTS.
-True duration: NOT YET MARK-CLOSED.
+Traveler/LP/Komoot day-changing survivor decisions: CLOSED.
+Complete-execution structure: COMPLETE.
+True duration: **DURATION_CLOSED 2026-08-27**.
 
-Current working footprint through final Dunagiri night:
+Mark's explicit pace choice:
+- Haidakhan Vishwa Mahadham / Haidakhan Ashram: **3 nights / 2 complete full days — LOCKED_BY_MARK**.
+
+Closed footprint through final Dunagiri night:
 - K0 DELHI -> true Haidakhan Vishwa Mahadham: full occupied travel day;
-- Haidakhan Vishwa Mahadham: working hypothesis 3 nights / 2 complete quiet days, not yet final duration lock;
-- Nainital: 3 nights working structure;
-- HOTEL Dunagiri Retreat: 3 nights working structure;
-- total current working footprint: 9 occupied days / 9 nights through final Dunagiri night;
+- Haidakhan Vishwa Mahadham: 3 nights / 2 complete days;
+- Nainital: 3 nights;
+- HOTEL Dunagiri Retreat: 3 nights;
+- total: **9 occupied days / 9 nights through final Dunagiri night**;
 - eastern Dunagiri exit remains a mandatory full-travel adjacent edge and must be charged exactly once in the next fixed-core bridge/global budget.
+
+Canonical duration decision:
+`KUMAON_DURATION_MARK_DECISION_2026-08-27.md`.
+Canonical execution:
+`KUMAON_COMPLETE_EXECUTION_DRAFT_2026-08-26.md` (status inside file = DURATION_CLOSED).
 
 Latest closed Kumaon survivor outcomes that must NOT be reopened:
 - Naina Peak short forest-summit walk — B, active conditional;
@@ -52,18 +60,17 @@ Latest closed Kumaon survivor outcomes that must NOT be reopened:
 - Uttarayani Mela Bageshwar — C;
 - Patal Bhuvaneshwar — C.
 
-Operational items that still need targeted closure because they affect day geometry, NOT content discovery:
+Operational items that still need targeted closure before exact calendar/booking because they affect day geometry, not duration choice:
 - true Haidakhan Vishwa Mahadham -> Nainital winter door-to-door route/time;
 - HOTEL Dunagiri Retreat <-> YSS Dwarahat winter commute;
 - exact Babaji cave HOTEL-based walk track/time/safety/winter operation.
 
-Mark-only gate:
-- judge whether the 3-night / 2-full-day Haidakhan working hypothesis still feels right after the corrected full Kumaon sequence is shown.
+These P0 items do not reopen Kumaon duration unless their eventual verified geometry proves the closed execution physically impossible; if that rare material conflict occurs, present only the real delta to Mark.
 
-### VARANASI / SARNATH
+### VARANASI / SARNATH — CURRENT FRONTIER
 A+ skeleton: CLOSED.
 Substantial protected canon/research: EXISTS.
-Remaining task: genuine traveler/LP/Komoot closure -> concrete day bundles -> Mark pace/dwell -> `DURATION_CLOSED`.
+Next task: genuine traveler/LP/Komoot closure -> concrete day bundles -> Mark pace/dwell -> `DURATION_CLOSED`.
 
 ### BODH GAYA / GAYA
 A+ skeleton: CLOSED.
@@ -95,6 +102,9 @@ Then:
 5. only then run the optional-cluster survival round.
 
 ## CURRENT FRONTIER
-Finish Kumaon Layer B/C first. Then apply exactly the same method to the other five. Do not restart generic discovery and do not jump to Rishikesh/Braj/Prayagraj inclusion decisions yet.
+**KUMAON is closed. Move to VARANASI / SARNATH.**
+Apply exactly the same method: close current content -> build real executable day combinations from the locked Sahi River View Guesthouse base and relevant transfers -> show only genuine remaining human choices -> Mark pace/dwell -> `DURATION_CLOSED`.
+
+Do not restart generic discovery and do not jump to Rishikesh/Braj/Prayagraj inclusion decisions yet.
 
 END_OF_AUDIT
