@@ -10,24 +10,45 @@ Read in this order:
 2. `governance/INDIA_REGIE_CRITICAL_BOOT_AND_NO_DEFERRAL_2026-08-23.md`
 3. `governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md`
 4. `governance/INDIA11_RECOVERY_POSTMORTEM_AND_MUST_READ_2026-08-26.md`
-5. THIS file
-6. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRIP_PLANNING_META_CONTROLLER_2026-08-26.md`
-7. `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv`
-8. current-frontier files listed below
-9. PR #23 at start of major integration and directly before central write; no continuous polling.
+5. `governance/ACTIVE_FRAMEWORK.md`
+6. `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md`
+7. THIS file
+8. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRIP_PLANNING_META_CONTROLLER_2026-08-26.md`
+9. `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv`
+10. current-frontier files listed below
+11. PR #23 at start of major integration and directly before central write; no continuous polling.
 
+`ACTIVE_FRAMEWORK.md` defines current authority versus historical provenance.
+`MARK_TRAVEL_PREFERENCES_CURRENT.md` is the current cross-cluster Mark preference canon.
 `TRIP_PLANNING_META_CONTROLLER_2026-08-26.md` is the ACTIVE MASTER CONTROLLER for INDIA12+ until explicitly superseded/retired. It is mandatory method, not optional background.
 
 Worker `COMPLETE` is not automatically central truth. Verify integration/adoption. A stale tracker also does not prove a worker is unfinished: inspect actual branch/output when heads moved. Use CCI lightly. STOP OPTIMIZING and return to the trip.
+
+## CURRENT CROSS-CLUSTER MARK PREFERENCES — HARD POINTER
+Canonical file:
+`governance/MARK_TRAVEL_PREFERENCES_CURRENT.md`.
+
+Important currently consolidated preferences include:
+- definitive travel period 18 Dec 2026 through 21 Jan 2027; flights booked; project uses 34-day budget convention;
+- breathing room at major spiritual clusters over maximum site density;
+- Mark alone determines subjective dwell/pace;
+- long-distance hierarchy: train first when useful, flight when it saves substantial usable trip time, private car for mountains/last mile/door-to-door wins, intercity/long-distance bus excluded;
+- overnight rail target 1A / First AC; 2A only if Mark later accepts it;
+- door-to-door/lost-daylight accounting controls transport comparisons;
+- final comfort sweep for retained bases/corridors must not be forgotten: historic bakeries/patisseries, local sweets, serious coffee, characterful cafes, strong restaurants and useful transfer-day comfort stops;
+- no PDF unless explicitly requested.
+
+This pointer does NOT claim every historical preference has already been recovered. A direct Mark signal that an old preference existed triggers targeted historical recovery and promotion of only the still-valid fact.
 
 ## INDIA11 RECOVERY GUARD — HARD
 INDIA11 was not actually up-to-speed on several older but material Mark decisions/flow/dwell/base facts despite current-state boot. Mark had to recover them manually. The mandatory postmortem above records the concrete errors and recovery triggers.
 
 Hard consequence:
-- CURRENT_STATE is a compact pointer, NOT proof that no older user-specific dwell/base/pace/flow decision exists.
-- If Mark says `we already decided this`, `zoek terug`, `je mist te veel`, or the current plan contradicts remembered flow, stop new conclusions and search historical decisions/commits/handoffs/PR evidence until the gap is resolved.
+- CURRENT_STATE is a compact pointer, NOT proof that no older user-specific dwell/base/pace/flow/preference decision exists.
+- If Mark says `we already decided this`, `zoek terug`, `je mist te veel`, `ik had daar een voorkeur voor`, or the current plan contradicts remembered flow/preferences, stop new conclusions and search relevant historical decisions/commits/handoffs/PR evidence until the gap is resolved.
 - Never claim project-wide readiness merely because the light boot completed.
 - Never improvise a new planning sequence while an active master controller exists.
+- Never reactivate an old route/calendar bundle merely because one valid preference was recovered from it.
 
 ## ALWAYS DISPOSABLE / REPLACEABLE — HARD
 Every IndiaN works as if it can disappear after the current message.
@@ -35,7 +56,7 @@ Before every reply following a material change, verify:
 `CAN INDIA(N+1) CONTINUE FROM GITHUB WITHOUT MARK REPEATING OR RECONSTRUCTING ANYTHING?`
 If NO: checkpoint first.
 
-The durable state must include the current master controller, current frontier, newest Mark decisions/supersedes, cluster duration status, relevant sleeping-base/route assumptions, and exact active files. No future INDIA may depend on the outgoing chat summary or Mark re-teaching the process.
+The durable state must include the current authority map, Mark preference canon when changed, master controller, current frontier, newest Mark decisions/supersedes, cluster duration status, relevant sleeping-base/route assumptions, and exact active files. No future INDIA may depend on the outgoing chat summary or Mark re-teaching the process.
 
 ## HARD PRESENTATION / DECISION RULES
 Before any location, cluster, HOTEL, sleeping base or route item shown to Mark: `AL BESLIST?`.
@@ -85,7 +106,7 @@ Canonical controller:
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRIP_PLANNING_META_CONTROLLER_2026-08-26.md`.
 
 Controlling sequence:
-`RESEARCH UNIVERSE -> A+/A/A*/B/C -> SIX FIXED A+ WORLDS -> PER-CORE CONTENT CLOSURE -> EXECUTION GEOMETRY -> MARK PACE/DWELL -> DURATION_CLOSED x6 -> FIXED_CORE_34_DAY_BUDGET + REAL TRANSFERS -> OPTIONAL-CLUSTER SURVIVAL -> FINAL TOPOLOGY -> LIVE LOGISTICS RECHECK -> EXACT 34-DAY CALENDAR`.
+`RESEARCH UNIVERSE -> A+/A/A*/B/C -> SIX FIXED A+ WORLDS -> PER-CORE CONTENT CLOSURE -> EXECUTION GEOMETRY -> MARK PACE/DWELL -> DURATION_CLOSED x6 -> FIXED_CORE_34_DAY_BUDGET + REAL TRANSFERS -> OPTIONAL-CLUSTER SURVIVAL -> FINAL TOPOLOGY -> LIVE LOGISTICS RECHECK -> EXACT 34-DAY CALENDAR -> FINAL COMFORT SWEEP / DAY CARDS`.
 
 Do not redesign this sequence per cluster. Do not jump to optional clusters or exact dates before their gates are passed.
 
@@ -205,4 +226,4 @@ No further optional-cluster ballot until fixed-core footprint is known.
 Close these when they materially affect the active fixed-core execution calculation or booking.
 
 ## REPLACEABILITY
-If INDIA11 disappears, INDIA12 must read the mandatory INDIA11 recovery postmortem AND the active trip-planning meta-controller before this state is used operationally. It resumes from the corrected Kumaon 9-day/9-night working footprint INCLUDING Delhi inbound, obtains only Mark's pace judgment on the Haidakhan 3-night hypothesis, then continues the other five fixed A+ worlds using the SAME A->B->C closure cycle. It must NOT jump to Braj/Rishikesh/Prayagraj before the six-core 34-day footprint exists.
+If INDIA11 disappears, INDIA12 must read the mandatory INDIA11 recovery postmortem, `ACTIVE_FRAMEWORK.md`, `MARK_TRAVEL_PREFERENCES_CURRENT.md` AND the active trip-planning meta-controller before this state is used operationally. It resumes from the corrected Kumaon 9-day/9-night working footprint INCLUDING Delhi inbound, obtains only Mark's pace judgment on the Haidakhan 3-night hypothesis, then continues the other five fixed A+ worlds using the SAME A->B->C closure cycle. It must NOT jump to Braj/Rishikesh/Prayagraj before the six-core 34-day footprint exists.
