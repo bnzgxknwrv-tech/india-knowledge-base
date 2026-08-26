@@ -1,32 +1,29 @@
-# MARK DECISION — VRINDAVAN / BRAJ CLUSTER DROP — 2026-08-26
+# VRINDAVAN / BRAJ — PREMATURE DROP RECORD CORRECTED — 2026-08-26
 
-status: DECIDED_BY_MARK
+status: INVALIDATED_AS_MARK_DECISION__A_PLUS_GATE_OPEN
 branch: agent/india8-cluster-casting
 
-## DECISION
-Mark explicitly decides that Vrindavan/Braj does not carry enough value as a separate trip cluster and is dropped from the current India trip.
+## CORRECTION
+The earlier version of this file incorrectly converted Mark's conditional question about whether Vrindavan/Braj would therefore fall out of the trip into an explicit final cluster-drop decision.
 
-This is a CLUSTER/TRIP-INCLUSION decision. It does NOT re-grade the two previously locked A locations.
+Mark subsequently clarified in the same 2026-08-26 continuation that he doubted whether the Vrindavan evidence had been read completely, considered INDIA11 to have started without the established flow, and required a full reconstruction of the correct decision flow before any further cluster conclusion.
 
-The complete formal Vrindavan A set remains exactly:
-1. `BRAJ / VRINDAVAN / Katyayani Peeth / Keshav Ashram (Shakti-tempel en Kriya-lineage via Swami Keshavanand, discipel van Lahiri Mahasaya) — huidige status: A`.
-2. `BRAJ / VRINDAVAN / Neem Karoli Baba Ashram en samadhi (ashram en vereerde laatste rustplaats van Maharaj-ji) — huidige status: A`.
+Therefore the earlier `DECIDED_BY_MARK / DROP` status is NOT controlling canon.
 
-No third formal A or A+ in Vrindavan is present in the recovered Mark A canon/current central synthesis.
-
-## SUPERSEDE EFFECT
-Earlier route/topology text saying the two A sites make Vrindavan mandatory trip content is superseded by this newer Mark decision.
-
-The two A grades are preserved for provenance and future reconsideration, but they are NOT planned in the current trip because Mark has now explicitly dropped the containing Vrindavan/Braj cluster.
-
-Broader Braj expansion (Mathura/Govardhan/Radha Kund/Kusum Sarovar/etc.) is therefore also dropped from the current trip.
+## CURRENT VALID STATE
+- `BRAJ / VRINDAVAN / Katyayani Peeth / Keshav Ashram (Shakti-tempel en Kriya-lineage via Swami Keshavanand) — huidige status: A` remains preserved site-level canon.
+- `BRAJ / VRINDAVAN / Neem Karoli Baba Ashram en samadhi (ashram en vereerde laatste rustplaats van Maharaj-ji) — huidige status: A` remains preserved site-level canon.
+- These A grades do NOT by themselves make the containing cluster trip-defining.
+- No valid final RETAIN/DROP decision for the Vrindavan/Braj cluster currently exists.
+- The existing file `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BRAJ_A_PLUS_MARK_SELECTION_SLICE.md` remains `READY_FOR_MARK_A_PLUS_SELECTION` and contains the broader merged universe of possible trip-defining Braj anchors/experiences.
+- Cluster survival must therefore wait until the Braj A+ gate is closed under the current semantics: A+ = intrinsic trip reason / cluster carrier; A = desired visit contingent on the cluster being in the trip.
 
 ## ROUTE CONSEQUENCE
-Do not force a Vrindavan stop or sleeping base into the route. Re-evaluate the northern exit toward Agra on the best direct geometry after the remaining Haridwar/Kankhal/Rishikesh decision is made.
+Do not force Vrindavan/Braj into the route because of the two A sites, but also do not remove it yet.
+Treat the cluster as `A+ GATE OPEN / CLUSTER INCLUSION UNRESOLVED` until Mark has been shown a compact, properly researched A+-candidate decision set derived from the already-complete Braj discovery layers.
 
-## CURRENT SUBJECTIVE CLUSTER FRONTIER AFTER THIS DECISION
-1. Haridwar/Kankhal/Rishikesh — RETAIN or DROP.
-2. Prayagraj — RETAIN / DROP / RETAIN_ONLY_IF_MAGH_MELA_ALIGNS.
-3. Then determine dwell-time ranges for the retained fixed/open worlds before exact calendar construction.
+## SUPERSEDE EFFECT
+This correction supersedes the previous contents of this same file that claimed an explicit Mark DROP decision.
+Any topology/current-state text that either calls Vrindavan mandatory because of A sites OR calls it definitively dropped is non-authoritative until reconciled with this correction.
 
 END_OF_ARTIFACT
