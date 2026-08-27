@@ -145,6 +145,9 @@ This is the next Mark-facing fixed world.
 Mandatory fast-start packet:
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_PREP_PACKET_2026-08-27.md`
 
+INDIA12 bounded current check COMPLETED and centrally recorded in:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_INDIA12_BOUNDED_CURRENT_CHECK_2026-08-27.md`
+
 Current fixed A+:
 - Mahabodhi Temple Complex — A+ `[UNESCO WH]`.
 - Sujata Stupa, Bakraur — A+.
@@ -160,24 +163,25 @@ Current explicit C list is in the packet; do not re-present.
 
 Old 3-night Bodh Gaya and temple-core hotel zone are historical comparison only, not current duration/hotel locks.
 
-Prepared true OPEN layer includes especially:
-- Barabar Caves `[LP]` — unique Mauryan polished-granite/echo cave magnet, strong A candidate.
-- Nalanda Mahavihara `[LP] [UNESCO WH]` — day-changing world-historical magnet, strong A candidate.
-- Rajgir Brahmakund hot springs — traveler/nature, best considered only with Nalanda/Rajgir world.
-- Rajgir Vishwa Shanti Stupa + ropeway — traveler layer, same outer world.
-- Patharkatti black-stone craft village `[LP]`.
-- Sher Shah Suri Tomb `[LP]` — value depends strongly on car vs train transfer geometry via Sasaram.
-- Tutla Bhawani waterfall `[LP]` — winter payoff weak/uncertain; packet says avoid wasting Mark's ballot if current winter check does not support it.
-- Gaya Tilkut — small human/food experience, cannot force a day.
+### TRUE OPEN BATCH — READY FOR MARK
+1. Barabar Caves `[LP]` — unique Mauryan polished-granite/echo cave magnet; current road check ~41 km / 46 min raw, plan about 1:00–1:15 each way plus access/trek; strong A candidate.
+2. Nalanda Mahavihara `[LP] [UNESCO WH]` — day-changing world-historical magnet; current road check ~85 km / 1 h 23 min raw, plan roughly 1.5–2 h each long leg; strong A candidate.
+3. Rajgir Brahmakund hot springs — traveler/nature; living 11-spring bathing/pilgrimage environment; only sensible as part of the Nalanda/Rajgir outer world.
+4. Rajgir Vishwa Shanti Stupa + ropeway — traveler; same outer world; Bodh Gaya -> Rajgir current raw road ~71.5 km / 1 h 11 min.
+5. Patharkatti black-stone craft village `[LP]` — correct identity closed as Pattharkatti, Nimchak Bathani, Gaya; living stone-craft CFC; outer excursion, not a city micro-stop.
+6. Sher Shah Suri Tomb `[LP]` — monumental lake mausoleum at Sasaram; content value must be graded separately from route; operational value depends strongly on later car-vs-train Varanasi/Bodh Gaya bridge and may not silently choose car.
+7. Gaya Tilkut — small winter human/food experience; only when Gaya is already traversed; cannot force a day/night.
 
-### EXACT INDIA12 NEXT ACTION
-1. Read the Bodh Gaya prep packet. Do NOT redo generic discovery/canon recovery.
-2. If needed, do only a bounded current check for Tutla winter payoff and any material route facts that affect the prepared ballot.
-3. Present ONE recognition-rich numbered Bodh Gaya OPEN batch. For every item: what it is, why it may matter to Mark, recommended dwell, real road/transfer burden, UNESCO label where exact.
-4. Do not ask old A+/A/B/C again.
-5. After Mark grades, record immediately and continue automatically into explained 2–3-block geographic day modules.
-6. Mark adjusts subjective dwell; then close Bodh Gaya/Gaya duration.
-7. Continue automatically to Tiruvannamalai using its prepared packet.
+### TUTLA BHAWANI — NOT IN ACTIONABLE BALLOT
+Current official Bihar Tourism check says `Best Time to Visit: June to August`; Marks trip is 18 Dec 2026–21 Jan 2027. Therefore Tutla waterfall is preserved as seasonal-mismatch provenance but intentionally excluded from this numbered winter ballot. INDIA has NOT assigned it C; only Mark changes subjective grades. Reopen only on material new winter evidence.
+
+### EXACT INDIA12 NEXT ACTION — NOW
+1. Present ONE recognition-rich numbered Bodh Gaya OPEN batch using the seven items above. For every item: what it is, why it may matter to Mark, recommended dwell, real road/transfer burden, UNESCO label where exact.
+2. Do not ask old A+/A/B/C again.
+3. Await only Marks explicit grades for the seven OPEN items.
+4. After Mark grades, record immediately and continue automatically into explained 2–3-block geographic day modules.
+5. Mark adjusts subjective dwell; then close Bodh Gaya/Gaya duration.
+6. Continue automatically to Tiruvannamalai using its prepared packet.
 
 # OTHER FIXED WORLDS — PREPARED, NOT DURATION_CLOSED
 - TIRUVANNAMALAI / ARUNACHALA — prep packet ready.
