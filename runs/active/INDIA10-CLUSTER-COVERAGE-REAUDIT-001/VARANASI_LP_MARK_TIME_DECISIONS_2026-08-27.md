@@ -1,6 +1,6 @@
 # VARANASI / SARNATH — MARK LP GRADES + TIME INSTINCTS — 2026-08-27
 
-status: LP_MARK_REVIEW_PARTIAL__SARNATH_REASSESSMENT_PENDING__NO_DURATION_LOCK
+status: LP_MARK_REVIEW_CLOSED__EXECUTION_BUILD_ACTIVE__NO_DURATION_LOCK
 branch: agent/india8-cluster-casting
 
 ## PURPOSE
@@ -26,17 +26,17 @@ HARD interpretation rule: time values below are Marks subjective desired experie
 
 8. `VARANASI / OLD KASHI / Bengali Tola–Thatheri Bazaar–Chowk lanes` — **A**. Mark: interested, but no dedicated special day. Prefer routing THROUGH it toward another selected destination. Reserve **1 hour**.
 
-9. `VARANASI / RAMNAGAR / Ramnagar Ramlila` — no Mark grade inferred from his complaint. It is outside the Dec 2026–Jan 2027 trip window and must not be offered as an actionable choice.
+9. `VARANASI / RAMNAGAR / Ramnagar Ramlila` — `OUTSIDE_TRIP_WINDOW`; not an actionable Mark choice and no grade inferred.
 
 10. `VARANASI / MANIKARNIKA / Ratneshwar Mahadev leaning river temple` — existing **A+ child** within Manikarnika. Mark wants **1 hour on site / for the experience, excluding travel to/from**.
 
-11. `VARANASI / SARNATH / Dhamek Stupa + Deer Park + museum / Sarnath sacred-archaeological world` — existing **A+ parent remains unchanged pending explicit Mark decision**. Mark asked for reassessment because he does not want to spend too long and would consider B only if it were far / poorly combinable. Fresh reassessment: official Varanasi source places Sarnath ~10 km from Varanasi; Assi Ghat -> Sarnath Museum road distance ~13.2 km. Practical planning should allow ~30–45 min each way in city traffic, not rely on theoretical 16 min. Sarnath is internally bundleable with the already-retained Sarnath world including the A Shreyansanath Jain Tirth. Planner recommendation: KEEP A+; logistics do not justify a downgrade. Proposed on-site footprint for Mark's 'not too long' instinct: ~2.5–3 h, plus return travel. Mark must confirm any grade change.
+11. `VARANASI / SARNATH / Dhamek Stupa + Deer Park + museum / Sarnath sacred-archaeological world` — existing **A+ parent CONFIRMED TO REMAIN A+**. Mark accepted INDIA11's reassessment after asking whether distance/combinability might justify B. Objective geometry: official Varanasi source places Sarnath ~10 km from Varanasi; Assi Ghat -> Sarnath Museum road distance ~13.2 km. Planning allowance ~30–45 min each way in city traffic. Sarnath is internally bundleable with the retained Sarnath world including the A Shreyansanath Jain Tirth. Mark accepted planner proposal of **~2.5–3 h on site**, plus return travel.
 
 12. `VARANASI / ASSI–TULSI–RIVERFRONT / slow dawn ghat walk` — **A**. Reserve **3 hours**.
 
-13. `VARANASI / ASSI GHAT / Subah-e-Banaras` — Mark explicitly says **morning**. No A/B/C letter was given; do NOT silently infer one. Preserve time-of-day preference and request grade only if needed for final planning.
+13. `VARANASI / ASSI GHAT / Subah-e-Banaras` — **A**. Mark accepted INDIA11's recommendation after specifying morning. Preserve as a distinct morning experience; do not silently collapse it into another dawn experience merely to save nights.
 
-14. `VARANASI / GANGES / dawn rowboat` — existing **A** from the preceding decision round. Mark asks INDIA to propose a beautiful execution/time allocation. Current planner proposal for later confirmation: **2.5-hour dawn block**, ideally ~90–120 min rowing on the Ganges plus calm embark/disembark margin; do not automatically merge with the separate 3-hour slow ghat walk or Subah-e-Banaras merely to save nights.
+14. `VARANASI / GANGES / dawn rowboat` — existing **A**. Mark accepted INDIA11's proposed beautiful execution: **2.5-hour dawn block**, ideally ~90–120 min rowing on the Ganges plus calm embark/disembark margin. Do not automatically merge with the separate 3-hour slow ghat walk or Subah-e-Banaras merely to save nights.
 
 15. `VARANASI-CORRIDOR / BHADOHI / hand-knotted carpet loom visit` — **C**.
 
@@ -51,12 +51,19 @@ HARD rule for future Mark-facing choice batches:
 - if Mark explicitly asks for a COMPLETE provenance/source layer, impossible items may be mentioned only in a clearly separated non-actionable note, not mixed into the choice ballot;
 - do not make Mark grade/date-filter an impossible option himself.
 
-## CURRENT UNRESOLVED SUBJECTIVE POINTS
-Only these remain from this LP pass:
-- Sarnath grade: existing A+ remains current unless Mark explicitly downgrades after reassessment; planner recommends A+.
-- Subah-e-Banaras grade: morning preference known, grade not explicitly given.
-- Dawn rowboat time proposal: planner proposes 2.5 h; Mark has not yet accepted/replaced that duration.
+## CONTINUATION RULE — MARK 2026-08-27
+When Mark answers the last open subjective items in an already-authorized cluster-closure workflow, INDIA must **resume automatically** and continue building/integrating until the next genuine Mark-only decision. Do not stop merely to report that the mini-ballot is closed.
 
-No Varanasi night-count or DURATION_CLOSED decision may be made yet.
+## LP GATE RESULT
+All actionable subjective points from this strict LP pass are now closed enough for execution design.
+
+INDIA must now:
+1. build the complete Varanasi/Sarnath day combinations from the locked Sahi River View Guesthouse;
+2. preserve Marks explicit time allocations above;
+3. respect existing A+/A/B/C canon and the recovered slow-Varanasi pace;
+4. use B only as conditional reserve and C not at all;
+5. only then present the genuine final Varanasi dwell/night choice to Mark.
+
+No Varanasi `DURATION_CLOSED` decision exists yet.
 
 END_OF_ARTIFACT
