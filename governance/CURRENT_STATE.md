@@ -2,7 +2,7 @@
 
 Last updated: 2026-08-27
 Branch: `agent/india8-cluster-casting`
-Purpose: compact durable boot state. Old calendar sketches are provenance only.
+Purpose: compact durable continuation state. Old exact calendars are provenance only.
 
 ## BOOT — MANDATORY
 Read in this order:
@@ -15,58 +15,34 @@ Read in this order:
 7. THIS file
 8. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRIP_PLANNING_META_CONTROLLER_2026-08-26.md`
 9. `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv`
-10. current-frontier files named below
-11. PR #23 when materially relevant and immediately before a major central write.
+10. current-frontier files below
+11. PR #23 when materially relevant and immediately before major central writes.
 
-`ACTIVE_FRAMEWORK.md` defines current authority versus historical provenance.
-`MARK_TRAVEL_PREFERENCES_CURRENT.md` is the ONE living Mark human-context canon and must be maintained whenever a durable cross-cluster preference is learned.
-`TRIP_PLANNING_META_CONTROLLER_2026-08-26.md` is the ACTIVE MASTER CONTROLLER until explicitly superseded/retired.
+## ALWAYS DISPOSABLE
+Before every material reply: `CAN INDIA(N+1) CONTINUE FROM GITHUB WITHOUT MARK REPEATING ANYTHING?`
+If no, checkpoint first.
 
-## ALWAYS DISPOSABLE / REPLACEABLE — HARD
-Every IndiaN works as if it can disappear after the current message.
-Before every reply after a material change verify:
-`CAN INDIA(N+1) CONTINUE FROM GITHUB WITHOUT MARK REPEATING OR RECONSTRUCTING ANYTHING?`
-If NO: checkpoint first.
+## ONE LIVING MARK PROFILE
+Canonical: `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md`.
+Important current additions 2026-08-27:
+- full actionable LP layer must be visible before Mark's subjective time filtering when he asks for that source layer;
+- a small item for the planner can be a half/full day for Mark;
+- impossible-outside-window events are provenance, not actionable Mark ballots;
+- official UNESCO World Heritage status adds magnetism for Mark and must be appended to exact current A+/A/A*/B names where applicable; a B with exact UNESCO WH becomes a Mark re-review trigger, never an automatic grade change;
+- umbrella/wijk/complex names must state the actual physical things Mark will visit;
+- minimize separate worker questions; consolidate coherent audits;
+- workers write direct to GitHub, regie checks/integrates itself; Mark is not courier;
+- explain useful reasoning/tradeoffs so Mark can learn the planning logic.
 
-Never depend on outgoing chat memory for current decisions, duration, sleeping bases, method, frontier or durable Mark preferences.
+## HARD GRADE SEMANTICS
+- A+ trip-defining.
+- A definitely wanted inside retained world.
+- A* formal A corridor/bycatch, SKIP_FIRST.
+- B active conditional/reserve, visible but cannot force major detour/night.
+- C current-trip reject, absent unless Mark explicitly reopens.
+- only Mark changes subjective grades.
 
-## MARK HUMAN-CONTEXT POINTER — HARD
-Canonical living profile:
-`governance/MARK_TRAVEL_PREFERENCES_CURRENT.md`.
-
-Key current principles:
-- personal spiritual/pilgrimage journey, not generic attraction maximization;
-- spiritual meaning and historical evidence both taken seriously;
-- breathing room at major spiritual clusters over maximum site density;
-- only Mark determines subjective dwell/pace; INDIA calculates and proposes executable combinations;
-- context before choice: geography, burden and meaning first;
-- **before fixed-core time/dwell closure, Mark must see the complete relevant Lonely Planet layer; INDIA may not suppress an item as 'small/non-day-changing' because a small item for the planner may deserve a half/full day for Mark**;
-- objective minimum visit/logistics duration is information, NOT a recommendation for Mark's subjective time allocation;
-- train first when useful; flight if it materially saves usable time; private car for mountains/last mile/door-to-door wins; intercity/long-distance bus excluded;
-- overnight rail target 1A / First AC; 2A only after Mark accepts fallback;
-- walking/nature is real content when scenic/spiritually meaningful, not filler;
-- authentic meaningful accommodation can outweigh generic comfort when the property itself matters;
-- final comfort sweep includes historic bakeries/patisseries, local sweets, serious coffee, characterful cafes/restaurants and transfer-day comfort;
-- Indian names need repeated Dutch recognition hooks;
-- choice batches are one contiguous numbered block;
-- when preference history conflicts: search first, then ask Mark rather than guess;
-- no PDF unless explicitly requested.
-
-## HARD DECISION SEMANTICS
-Before any new location/base/route choice: `AL BESLIST?`.
-Only Mark changes subjective A+/A/A*/B/C or hotel/base choices.
-A question/hypothesis is not a decision.
-
-- A+ = trip-defining; can carry a world/cluster.
-- A = definitely wanted inside a retained world; does not alone force an optional world.
-- A* = formal A corridor/bycatch subtype, `SKIP_FIRST`.
-- B = active conditional/on-site reserve; visible in real plan but cannot independently force major detour/night/restructure.
-- C = definitive current-trip reject; absent from active planning unless Mark explicitly reopens.
-
-Canonical grade truth:
-`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md` plus latest decision artifacts.
-
-## SIX FIXED A+ CORE WORLDS — INCLUSION CLOSED
+## SIX FIXED A+ CORE WORLDS
 1. DELHI
 2. KUMAON
 3. AGRA / TAJ MAHAL
@@ -74,195 +50,126 @@ Canonical grade truth:
 5. VARANASI / SARNATH
 6. TIRUVANNAMALAI / ARUNACHALA
 
-Important accommodation/experience locks:
-- `KUMAON / HAIDAKHAN / Haidakhan Vishwa Mahadham (overnachten in het ashram zelf)`.
-- `KUMAON / DUNAGIRI / HOTEL Dunagiri Retreat (spirituele wandelbasis bij Mahavatar Babaji-grot)` — `LOCKED_BY_MARK`.
-- `VARANASI / ASSI GHAT / HOTEL Sahi River View Guesthouse (gekozen verblijf direct bij Assi Ghat)` — `LOCKED_BY_MARK`.
-- `KUMAON / DWARAHAT / Yogoda Satsanga Sakha Ashram (YSS-site in Babaji/Kriya-regio)` — A + FULL DAY; Mark is Ananda, not YSS/SRF; no YSS overnight.
+Meta-controller sequence remains:
+`PER-CORE CONTENT CLOSURE -> FULL RELEVANT SOURCE VISIBILITY -> EXECUTION GEOMETRY -> MARK PACE/DWELL -> DURATION_CLOSED x6 -> REAL FIXED-CORE TRANSFERS -> 34-DAY BUDGET -> OPTIONAL CLUSTER SURVIVAL -> FINAL TOPOLOGY -> LIVE LOGISTICS -> EXACT CALENDAR -> COMFORT SWEEP/DAY CARDS`.
 
-## ACTIVE META CONTROLLER — HARD
-Canonical:
-`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRIP_PLANNING_META_CONTROLLER_2026-08-26.md`.
+No optional-cluster ballot and no exact calendar yet.
 
-Sequence:
-`RESEARCH UNIVERSE -> A+/A/A*/B/C -> SIX FIXED A+ WORLDS -> PER-CORE CONTENT CLOSURE -> COMPLETE LP/TRAVELER VISIBILITY FOR MARK -> EXECUTION GEOMETRY -> MARK PACE/DWELL -> DURATION_CLOSED x6 -> FIXED_CORE_34_DAY_BUDGET + REAL TRANSFERS -> OPTIONAL-CLUSTER SURVIVAL -> FINAL TOPOLOGY -> LIVE LOGISTICS RECHECK -> EXACT 34-DAY CALENDAR -> FINAL COMFORT SWEEP / DAY CARDS`.
-
-No optional-cluster ballot before six-core duration closure. No exact calendar yet.
-
-## FIXED-CORE DAY ACCOUNTING — HARD
-For each fixed-core footprint:
-- charge the known inbound occupied transfer from the current predecessor;
-- include internal base-change travel on the actual day;
-- keep outbound bridge visible and charge it exactly once later;
-- never hide known travel as `later global`;
-- raw vehicle time is not full calendar occupancy.
-
-# KUMAON — DURATION_CLOSED 2026-08-27
+# KUMAON — DURATION_CLOSED
 Canonical decision:
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_DURATION_MARK_DECISION_2026-08-27.md`.
 
-Mark explicitly selected option 2:
-- **Haidakhan Vishwa Mahadham / Haidakhan Ashram = 3 nights / 2 complete full days — LOCKED_BY_MARK.**
+Locked:
+- Haidakhan Vishwa Mahadham / Ashram = **3 nights / 2 complete quiet days**.
+- Kumaon footprint through final Dunagiri night = **9 occupied days / 9 nights**, including Delhi -> Haidakhan inbound day.
+- eastern Kumaon exit remains mandatory adjacent FULL TRAVEL DAY, charged once later.
 
-Closed current fixed-core baseline:
-- K0 DELHI -> Haidakhan: full occupied travel day; H1.
-- K1 Haidakhan full day 1; H2.
-- K2 Haidakhan full quiet day 2; H3.
-- K3 Haidakhan -> Nainital; N1.
-- K4 Nainital local; N2.
-- K5 Bhumiadhar + Kainchi; N3.
-- K6 Nainital -> Dhokaney/Kakrighat corridor -> Dunagiri; D1.
-- K7 Mahavatar Babaji/Dunagiri pilgrimage; D2.
-- K8 YSS Dwarahat FULL DAY; D3.
+# CURRENT FRONTIER — VARANASI / SARNATH PACE REVIEW
+Kumaon is the first fixed world duration-closed.
+Varanasi/Sarnath content/LP review is now closed enough for pace choice.
 
-**Closed footprint through final Dunagiri night: 9 occupied days / 9 nights.**
-Eastern Kumaon exit remains mandatory FULL TRAVEL DAY adjacent edge, charged exactly once later.
-
-Operational P0s remain for later exact sequencing without reopening duration unless physical impossibility is found:
-- true Haidakhan -> Nainital winter geometry;
-- HOTEL Dunagiri Retreat <-> YSS Dwarahat commute;
-- exact hotel-based Babaji Cave track/time/safety;
-- exact driver/live service logistics.
-
-# CURRENT FRONTIER — VARANASI / SARNATH FULL LP VISIBILITY
-Kumaon is the first of six fixed worlds to reach `DURATION_CLOSED`.
-Varanasi/Sarnath is active but **DURATION NOT READY**.
-
-## Required current files
+## Required current Varanasi files
 1. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/VARANASI_HISTORICAL_PACE_PREFERENCE_RECOVERY_2026-08-27.md`
-2. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/VARANASI_MARK_DECISIONS_AND_FULL_LP_GATE_2026-08-27.md` — CURRENT OVERRIDE
-3. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/VARANASI_BASELINE_EXECUTION_DRAFT_2026-08-27.md` — PRELIMINARY ONLY; do not use its night envelope until LP review is complete
-4. current A+/grade decision log + protected canon
-5. `runs/active/INDIA10-MULTIAI-TRAVELER-DISCOVERY-001/TRAVELER_EXPERIENCE_MASTER_UNION_LEDGER.md` for strict LP source provenance.
+2. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/VARANASI_LP_MARK_TIME_DECISIONS_2026-08-27.md`
+3. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/SARNATH_VISIT_GUIDANCE_AND_UNESCO_LABEL_2026-08-27.md`
+4. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/VARANASI_RELAXED_8_NIGHT_EXECUTION_PROPOSAL_2026-08-27.md`
+5. current grade log/protected canon.
 
-`VARANASI_DAY_CHANGING_CONTENT_CLOSURE_2026-08-27.md` is historical/superseded as a planner-filter gate. Its four choices were answered, but its rule that only day-changing items need Mark review is INVALIDATED by Mark's 2026-08-27 correction.
-
-## Recovered Varanasi Mark pace — MUST NOT BE LOST
-- less-hectic Varanasi pace;
-- roughly maximum one MAIN activity/world per day;
+## Varanasi pace preferences — recovered/current
+- less-hectic;
+- roughly one main activity/world per day;
+- Assi mornings;
 - breathing room/rest;
+- unstructured Ganges time;
 - repeated meaningful places acceptable;
-- Assi Ghat mornings matter;
-- preserve unstructured Ganges time;
-- respect realistic duration/best daypart;
-- do NOT stack multiple sunrise/dawn experiences into one morning merely to save nights.
+- do not stack separate dawn experiences merely to save nights.
 
-## Varanasi fixed sleep/base truth
-`VARANASI / ASSI GHAT / Sahi River View Guesthouse (persoonlijk aanbevolen via Debby; direct bij Assi Ghat) — LOCKED_BY_MARK`.
-Historical preference: balcony room if available.
-Do not reopen hotel choice.
+## Sleep base
+`VARANASI / ASSI GHAT / Sahi River View Guesthouse (gekozen guesthouse direct bij Assi Ghat; persoonlijke aanbeveling via Debby) — LOCKED_BY_MARK`.
+Balcony room historically preferred if available.
 
-## Current Varanasi A+ spine
-- Varanasi Kriya core: Lahiri Mahasaya home + samadhi/Satyalok + Yogananda/Sri Yukteswar zone — A+ parent.
-- Sarnath sacred/archaeological complex — A+ parent.
-- Tailanga Swami Math + Panchganga + Bindu Madhav — A+.
-- Anandamayi Ma Ashram Bhadaini — A+.
-- Kashi Vishwanath sacred core — A+.
-- Manikarnika Ghat bundle — A+.
-- Dashashwamedh + Shitala — A+.
-- Assi Ghat — A+.
+## Latest LP/Traveler Mark decisions and time wishes
+- Banarasi paan — A; 1 h; only while already passing/nearby.
+- Banarasi silk weaving — C.
+- Chandraprabha/Rajdari-Devdari waterfalls — C, superseding earlier B.
+- Chunar Fort — C.
+- Ganga Aarti at Dashashwamedh — existing A+ coverage; full evening, **2 h** reserved.
+- Man Mahal Observatory — C.
+- Nag Nathaiya — C and outside trip window.
+- Bengali Tola/Thatheri Bazaar/Chowk Old Kashi lanes — A; **1 h**, preferably walked through en route to another selected place.
+- Ramnagar Ramlila — outside trip window, no actionable grade inferred.
+- Ratneshwar leaning temple — existing A+ child; **1 h on-site/experience excluding travel**.
+- Sarnath — A+ retained after distance/combinability reassessment.
+- slow riverfront ghat walk — A; **3 h**.
+- Subah-e-Banaras — A.
+- dawn rowboat — A; **2.5 h** dawn block, ideally 90–120 min rowing plus margins.
+- Bhadohi loom — C.
+- Rohtasgarh Fort — C.
 
-Latest ordinary A includes:
-- Tulsi Ghat + Lolark Kund;
-- Lalita Ghat + Nepali/Kathwala Temple;
-- Durga Temple + Durga Kund;
-- Sankat Mochan Hanuman Temple;
-- Shreyansanath Jain Tirth, Sarnath/Simhapuri;
-- Kabir Chaura Math;
-- Adi Keshava Ghat + Temple;
-- protected current A Sankatha Devi;
-- protected current A Kedareshwar Temple + Kedar Ghat.
+## Sarnath recognition-rich current name
+Use instead of bare `Sarnath`:
+`VARANASI / SARNATH / Ancient Buddhist Site of Sarnath — Chaukhandi Stupa + archeologische kern met Dhamek Stupa, Dharmarajika Stupa, Ashoka-pijlerresten en kloosterruïnes [UNESCO WH 2026] + Sarnath Archaeological Museum + Mulagandha Kuti Vihara — A+`.
 
-## Latest Mark Varanasi decisions — 2026-08-27
-- `VARANASI / GANGES / dawn rowboat (zonsopkomst vanaf de rivier langs de levende ghats)` — **A**.
-- `VARANASI / CHUNAR / Chunar Fort + Chunar sacred/history layer` — **C**.
-- `VARANASI / JAUNPUR / Sharqi architectural cluster + Shahi Pul` — **C**.
-- `VARANASI / CHANDRAPRABHA / Rajdari–Devdari waterfalls + sanctuary` — **B**.
+Official UNESCO property has exactly two inscribed components:
+1. Chaukhandi Stupa;
+2. Archaeological Remains of Sarnath.
+Museum/modern temple may be part of Mark's practical visit but must not be mislabeled as separate UNESCO components.
 
-C remains out of active planning; B remains visible/conditional under standard semantics.
+Practical Sarnath outing from Assi:
+- 30–45 min each direction planner class;
+- Buddhist core 2.5–3 h;
+- Shreyansanath Jain Tirth / Simhapuri A + local movement ~30–45 min;
+- total hotel-to-hotel ~4–5 h.
 
-## Varanasi inbound edge — current footprint class
-Current fixed topology: `BODH GAYA / GAYA -> VARANASI / SARNATH`.
-Working evidence:
-- rail roughly 3–5 h station-to-station depending service/transfer;
-- private-car class roughly 5–6 h raw;
-- after Bodh Gaya/Gaya access, station/road buffer, arrival and onward Assi transfer this is an **OCCUPIED ARRIVAL DAY**.
-No major A+/A circuit on arrival day; exact service remains later live-calendar work.
+## Current 8-night Varanasi recommendation
+Canonical:
+`VARANASI_RELAXED_8_NIGHT_EXECUTION_PROPOSAL_2026-08-27.md`.
 
-## Komoot Varanasi consequence
-No new destination forced by Komoot.
-Assi -> Dashashwamedh selected riverfront point-to-point walk ~2.4–3.0 km / ~40–60 min moving is objective geometry only. Mark decides whether the experience deserves far more time.
+Working structure:
+- V0 Bodh Gaya/Gaya -> Assi occupied arrival day; night V1.
+- V1 dawn rowboat A, 2.5 h + deliberate light/free remainder; night V2.
+- V2 Subah-e-Banaras A + later south Varanasi sacred world (Anandamayi A+, Tulsi/Lolark A, Durga A, Sankat Mochan A, Kedareshwar/Kedar A); night V3.
+- V3 Varanasi Kriya core A+ + Old Kashi lanes A 1 h + paan A 1 h while already in geometry; night V4.
+- V4 slow ghat walk A 3 h + afternoon rest + Ganga Aarti A+ 2 h; night V5.
+- V5 Kashi Vishwanath/Manikarnika A+ sacred core + Ratneshwar A+ child 1 h + Lalita/Nepali A; night V6.
+- V6 north Kashi: Tailanga/Panchganga/Bindu Madhav A+ + Sankatha A + Adi Keshava A + Kabir Chaura A; B only conditional; night V7.
+- V7 Sarnath UNESCO/Buddhist + Shreyansanath Jain A outing 4–5 h; night V8.
 
-## FULL LONELY PLANET GATE — HARD
-Before ANY Varanasi night/duration choice, Mark must see the strict complete LP-relevant layer carried by `OLD_LP_GANGES_SOUTH` provenance.
+Pace envelope:
+- **7 nights** technically possible but requires compression/merging of protected experiences.
+- **8 nights** = INDIA11 recommendation; best fit with recovered Mark rhythm.
+- **9 nights** = roomy; adds one intentionally unscheduled/repeat/rest day or separates Subah from south circuit.
 
-14 local Varanasi/Sarnath rows:
-- TRV-099 Banarasi paan.
-- TRV-100 Banarasi silk weaving experience.
-- TRV-102 Chandraprabha Sanctuary + Rajdari/Devdari waterfalls — B.
-- TRV-103 Chunar Fort — C / show only for requested LP completeness, NOT reopened.
-- TRV-104 Ganga Aarti — one good evening position — existing A+ Dashashwamedh coverage.
-- TRV-106 Man Mahal Observatory.
-- TRV-107 Nag Nathaiya Leela at Tulsi Ghat.
-- TRV-108 Old Kashi lanes — Bengali Tola / Thatheri Bazaar / Chowk.
-- TRV-110 Ramnagar Ramlila.
-- TRV-111 Ratneshwar Mahadev leaning river temple — existing A+ Manikarnika child.
-- TRV-112 Sarnath — Dhamek Stupa / Deer Park / museum — A+ parent.
-- TRV-113 slow dawn ghat walk — Assi/Tulsi toward north.
-- TRV-114 Subah-e-Banaras at Assi Ghat.
-- TRV-117 Varanasi dawn rowboat — A.
+No Varanasi duration lock yet. Exact next Mark-only question is one choice: **7 / 8 / 9 nights**.
 
-2 adjacent LP corridor rows:
-- TRV-097 Bhadohi hand-knotted carpet loom visit — Prayagraj–Varanasi corridor.
-- TRV-121 Rohtasgarh Fort — Varanasi–Bodh Gaya corridor.
+## UNESCO CURRENT-CANON WORKER — PARALLEL, MUST NOT BLOCK VARANASI
+One consolidated worker task was written directly to ZILVER branch:
+`agent/indiazilver-cluster-completeness-audit`
+`runs/active/INDIA11-UNESCO-CURRENT-CANON-SWEEP-001/TASK.md`
+commit `dbe50b7479c007c05ef97957965eef145958cdbe`.
 
-Do NOT mislabel these non-LP rows as Lonely Planet: TRV-098 Gulabi Meenakari, TRV-101 Bharat Kala Bhavan, TRV-105 wooden lacquerware, TRV-109 Ramnagar Fort museum, TRV-115 Ram Bhandar, TRV-116 Tulsi Ghat Akhada, TRV-118 evening aarti from water, TRV-119 Malaiyo, TRV-120 Varanasi–Chunar motorboat.
+Expected output on same worker branch:
+`runs/active/INDIA11-UNESCO-CURRENT-CANON-SWEEP-001/UNESCO_CURRENT_CANON_SWEEP.md`.
 
-## Baseline execution draft — PRELIMINARY / NOT A DURATION BALLOT
-`VARANASI_BASELINE_EXECUTION_DRAFT_2026-08-27.md` may be used only as a geographic skeleton. Its earlier 6/7-night envelope is NOT ready for Mark because it was built before full LP time-value review.
-
-## Exact next action
-1. Present all 16 strict LP-relevant rows in one contiguous numbered block with current status, explanation and OBJECTIVE burden/season/overlap.
-2. Mark owns interest/grade/time instinct; planner must not assume a micro-item is micro-time.
-3. Record any new LP decisions/time wishes.
-4. If Mark wants the full non-LP traveler layer too before duration, present that next rather than silently suppress it.
-5. Only after visibility/decisions, build actual combinations.
-6. Only Mark closes Varanasi dwell/nights.
-7. Then Varanasi becomes `DURATION_CLOSED` and the controller moves to the next fixed core.
+INDIA11 already checked after assignment: output was **NOT YET PRESENT** (404). Do not make Mark paste anything. Continue trip work. On later relevant rescan, regie checks GitHub itself, validates exact UNESCO WH/component/tentative labels, and only returns current B+UNESCO WH items to Mark for re-review.
 
 # OTHER FIXED WORLDS — NOT YET DURATION_CLOSED
-- BODH GAYA / GAYA — substantial canon/research exists; needs same closure cycle.
-- TIRUVANNAMALAI / ARUNACHALA — substantial person/traveler/walk research exists; needs same closure cycle.
-- DELHI — regional/traveler research exists; needs same closure cycle including arrival/exit burden.
-- AGRA / TAJ MAHAL — regional/traveler research exists; needs same closure cycle around earliest-practical Taj visit.
+- BODH GAYA / GAYA
+- TIRUVANNAMALAI / ARUNACHALA
+- DELHI
+- AGRA / TAJ MAHAL
 
-Canonical compact audit:
-`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/FIXED_CORE_TIME_FOOTPRINT_AUDIT_2026-08-26.md`.
-
-# OPTIONAL WORLDS — DEFERRED
-Do not decide survival yet:
-- BRAJ / MATHURA–VRINDAVAN–GOVARDHAN;
-- HARIDWAR / KANKHAL / RISHIKESH;
-- PRAYAGRAJ.
-
-Only after all six fixed cores are `DURATION_CLOSED`:
-1. connect all six with real door-to-door edges exactly once;
-2. include international arrival/departure occupancy;
-3. calculate fixed-core 34-day consumption;
-4. derive actual days remaining;
-5. run optional-cluster survival by marginal value versus extra transfer/base/dwell burden.
-
-# ROUTE / LIVE-FACT METHOD
-Old exact-date/day sketches are NON-AUTHORITATIVE.
-Preserved topology sources:
-- `ROUTE_PLANNING_SYSTEM_CORRECTION_2026-08-25.md`
-- `GLOBAL_TRANSFER_LEDGER_2026-08-25.md`
-- `CLUSTER_TOPOLOGY_FEASIBILITY_2026-08-25.md`
-- North/East/South topology files.
-
-Live train/flight/opening/availability facts are rechecked when they affect actual routing/booking. No premature exact calendar.
+# OPTIONAL WORLDS — DEFERRED UNTIL SIX FIXED CORES CLOSED
+- BRAJ / MATHURA–VRINDAVAN–GOVARDHAN
+- HARIDWAR / KANKHAL / RISHIKESH
+- PRAYAGRAJ
 
 ## REPLACEABILITY — EXACT NEXT ACTION
-If INDIA11 disappears now, INDIA12 must NOT restart Varanasi discovery, must NOT ask the four already-answered choices again, and must NOT present the old 6/7-night ballot. It reads `VARANASI_MARK_DECISIONS_AND_FULL_LP_GATE_2026-08-27.md`, presents the complete 16-item strict LP layer to Mark, records Mark's time/interest choices, and only then resumes execution/day-count closure.
+If INDIA11 disappears now:
+1. do NOT reopen Kumaon;
+2. do NOT ask Mark to regrade LP items;
+3. show the existing relaxed Varanasi 7/8/9-night choice only if unanswered;
+4. after Mark chooses, record Varanasi DURATION_CLOSED and continue next fixed core;
+5. independently check whether ZILVER UNESCO output has appeared and integrate it without using Mark as courier.
 
 END_OF_CURRENT_STATE
