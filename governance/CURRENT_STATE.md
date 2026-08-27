@@ -40,6 +40,8 @@ Key current principles:
 - breathing room at major spiritual clusters over maximum site density;
 - only Mark determines subjective dwell/pace; INDIA calculates and proposes executable combinations;
 - context before choice: geography, burden and meaning first;
+- **before fixed-core time/dwell closure, Mark must see the complete relevant Lonely Planet layer; INDIA may not suppress an item as 'small/non-day-changing' because a small item for the planner may deserve a half/full day for Mark**;
+- objective minimum visit/logistics duration is information, NOT a recommendation for Mark's subjective time allocation;
 - train first when useful; flight if it materially saves usable time; private car for mountains/last mile/door-to-door wins; intercity/long-distance bus excluded;
 - overnight rail target 1A / First AC; 2A only after Mark accepts fallback;
 - walking/nature is real content when scenic/spiritually meaningful, not filler;
@@ -83,7 +85,7 @@ Canonical:
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRIP_PLANNING_META_CONTROLLER_2026-08-26.md`.
 
 Sequence:
-`RESEARCH UNIVERSE -> A+/A/A*/B/C -> SIX FIXED A+ WORLDS -> PER-CORE CONTENT CLOSURE -> EXECUTION GEOMETRY -> MARK PACE/DWELL -> DURATION_CLOSED x6 -> FIXED_CORE_34_DAY_BUDGET + REAL TRANSFERS -> OPTIONAL-CLUSTER SURVIVAL -> FINAL TOPOLOGY -> LIVE LOGISTICS RECHECK -> EXACT 34-DAY CALENDAR -> FINAL COMFORT SWEEP / DAY CARDS`.
+`RESEARCH UNIVERSE -> A+/A/A*/B/C -> SIX FIXED A+ WORLDS -> PER-CORE CONTENT CLOSURE -> COMPLETE LP/TRAVELER VISIBILITY FOR MARK -> EXECUTION GEOMETRY -> MARK PACE/DWELL -> DURATION_CLOSED x6 -> FIXED_CORE_34_DAY_BUDGET + REAL TRANSFERS -> OPTIONAL-CLUSTER SURVIVAL -> FINAL TOPOLOGY -> LIVE LOGISTICS RECHECK -> EXACT 34-DAY CALENDAR -> FINAL COMFORT SWEEP / DAY CARDS`.
 
 No optional-cluster ballot before six-core duration closure. No exact calendar yet.
 
@@ -122,19 +124,20 @@ Operational P0s remain for later exact sequencing without reopening duration unl
 - exact hotel-based Babaji Cave track/time/safety;
 - exact driver/live service logistics.
 
-# CURRENT FRONTIER — VARANASI / SARNATH CONTENT CLOSURE
+# CURRENT FRONTIER — VARANASI / SARNATH FULL LP VISIBILITY
 Kumaon is the first of six fixed worlds to reach `DURATION_CLOSED`.
-Varanasi/Sarnath is now active.
+Varanasi/Sarnath is active but **DURATION NOT READY**.
 
 ## Required current files
 1. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/VARANASI_HISTORICAL_PACE_PREFERENCE_RECOVERY_2026-08-27.md`
-2. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/VARANASI_DAY_CHANGING_CONTENT_CLOSURE_2026-08-27.md`
-3. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/VARANASI_BASELINE_EXECUTION_DRAFT_2026-08-27.md`
+2. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/VARANASI_MARK_DECISIONS_AND_FULL_LP_GATE_2026-08-27.md` — CURRENT OVERRIDE
+3. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/VARANASI_BASELINE_EXECUTION_DRAFT_2026-08-27.md` — PRELIMINARY ONLY; do not use its night envelope until LP review is complete
 4. current A+/grade decision log + protected canon
-5. relevant traveler/Komoot ingest only as supporting provenance.
+5. `runs/active/INDIA10-MULTIAI-TRAVELER-DISCOVERY-001/TRAVELER_EXPERIENCE_MASTER_UNION_LEDGER.md` for strict LP source provenance.
+
+`VARANASI_DAY_CHANGING_CONTENT_CLOSURE_2026-08-27.md` is historical/superseded as a planner-filter gate. Its four choices were answered, but its rule that only day-changing items need Mark review is INVALIDATED by Mark's 2026-08-27 correction.
 
 ## Recovered Varanasi Mark pace — MUST NOT BE LOST
-Targeted historical recovery found explicit prior Mark preferences:
 - less-hectic Varanasi pace;
 - roughly maximum one MAIN activity/world per day;
 - breathing room/rest;
@@ -143,8 +146,6 @@ Targeted historical recovery found explicit prior Mark preferences:
 - preserve unstructured Ganges time;
 - respect realistic duration/best daypart;
 - do NOT stack multiple sunrise/dawn experiences into one morning merely to save nights.
-
-No later contradiction found.
 
 ## Varanasi fixed sleep/base truth
 `VARANASI / ASSI GHAT / Sahi River View Guesthouse (persoonlijk aanbevolen via Debby; direct bij Assi Ghat) — LOCKED_BY_MARK`.
@@ -172,93 +173,62 @@ Latest ordinary A includes:
 - protected current A Sankatha Devi;
 - protected current A Kedareshwar Temple + Kedar Ghat.
 
-B remain conditional and cannot add nights; C remain removed.
+## Latest Mark Varanasi decisions — 2026-08-27
+- `VARANASI / GANGES / dawn rowboat (zonsopkomst vanaf de rivier langs de levende ghats)` — **A**.
+- `VARANASI / CHUNAR / Chunar Fort + Chunar sacred/history layer` — **C**.
+- `VARANASI / JAUNPUR / Sharqi architectural cluster + Shahi Pul` — **C**.
+- `VARANASI / CHANDRAPRABHA / Rajdari–Devdari waterfalls + sanctuary` — **B**.
+
+C remains out of active planning; B remains visible/conditional under standard semantics.
 
 ## Varanasi inbound edge — current footprint class
 Current fixed topology: `BODH GAYA / GAYA -> VARANASI / SARNATH`.
-Fresh working evidence:
+Working evidence:
 - rail roughly 3–5 h station-to-station depending service/transfer;
 - private-car class roughly 5–6 h raw;
 - after Bodh Gaya/Gaya access, station/road buffer, arrival and onward Assi transfer this is an **OCCUPIED ARRIVAL DAY**.
-No major A+/A circuit on arrival day; quiet Assi/Ganges time may fit.
-Exact service remains later live-calendar work.
+No major A+/A circuit on arrival day; exact service remains later live-calendar work.
 
 ## Komoot Varanasi consequence
-No new day-driving walk.
-Assi -> Dashashwamedh selected riverfront point-to-point walk ~2.4–3.0 km / ~40–60 min moving can replace a short auto/taxi hop and belongs inside selected riverfront execution.
+No new destination forced by Komoot.
+Assi -> Dashashwamedh selected riverfront point-to-point walk ~2.4–3.0 km / ~40–60 min moving is objective geometry only. Mark decides whether the experience deserves far more time.
 
-## Non-day-changing new overlays — do not block duration
-Preserve for easy-capture/final texture but do not create extra nights by themselves:
-- Subah-e-Banaras;
-- slow ghat walk / Old Kashi lanes;
-- Malaiyo;
-- Ram Bhandar;
-- Banarasi paan;
-- silk weaving;
-- Gulabi Meenakari;
-- wooden-lacquerware workshop;
-- Man Mahal Observatory;
-- Bharat Kala Bhavan;
-- Jnana-Pravaha if operational;
-- Tulsi Ghat Akhada;
-- Rajghat/Tomb Lal Khan if easy with Adi Keshava;
-- Alamgir/Dharahara visual/history layer near Panchganga;
-- respectful specialist mosque/dargah layers only if easy/valid access.
+## FULL LONELY PLANET GATE — HARD
+Before ANY Varanasi night/duration choice, Mark must see the strict complete LP-relevant layer carried by `OLD_LP_GANGES_SOUTH` provenance.
 
-No silent grades are assigned to these overlays; they are non-blocking for current duration closure.
+14 local Varanasi/Sarnath rows:
+- TRV-099 Banarasi paan.
+- TRV-100 Banarasi silk weaving experience.
+- TRV-102 Chandraprabha Sanctuary + Rajdari/Devdari waterfalls — B.
+- TRV-103 Chunar Fort — C / show only for requested LP completeness, NOT reopened.
+- TRV-104 Ganga Aarti — one good evening position — existing A+ Dashashwamedh coverage.
+- TRV-106 Man Mahal Observatory.
+- TRV-107 Nag Nathaiya Leela at Tulsi Ghat.
+- TRV-108 Old Kashi lanes — Bengali Tola / Thatheri Bazaar / Chowk.
+- TRV-110 Ramnagar Ramlila.
+- TRV-111 Ratneshwar Mahadev leaning river temple — existing A+ Manikarnika child.
+- TRV-112 Sarnath — Dhamek Stupa / Deer Park / museum — A+ parent.
+- TRV-113 slow dawn ghat walk — Assi/Tulsi toward north.
+- TRV-114 Subah-e-Banaras at Assi Ghat.
+- TRV-117 Varanasi dawn rowboat — A.
 
-## FOUR MARK-ONLY CONTENT DECISIONS NOW OPEN
-Exactly four unresolved choices can materially change day footprint:
+2 adjacent LP corridor rows:
+- TRV-097 Bhadohi hand-knotted carpet loom visit — Prayagraj–Varanasi corridor.
+- TRV-121 Rohtasgarh Fort — Varanasi–Bodh Gaya corridor.
 
-1. `VARANASI / GANGES / dawn rowboat (zonsopkomst vanaf de rivier langs de levende ghats) — OPEN`.
-   - zero major detour, repeated strong traveler signal, fits Mark's water/lived-place taste;
-   - consumes a main dawn/morning slot under recovered pace;
-   - INDIA11 advice: A.
+Do NOT mislabel these non-LP rows as Lonely Planet: TRV-098 Gulabi Meenakari, TRV-101 Bharat Kala Bhavan, TRV-105 wooden lacquerware, TRV-109 Ramnagar Fort museum, TRV-115 Ram Bhandar, TRV-116 Tulsi Ghat Akhada, TRV-118 evening aarti from water, TRV-119 Malaiyo, TRV-120 Varanasi–Chunar motorboat.
 
-2. `VARANASI / CHUNAR / Chunar Fort + Chunar sacred/history layer (Gangesfort met Afghan/Mughal/British geschiedenis) — OPEN`.
-   - ~40 km Varanasi class; ~4–5 h conservative door-to-door half-day/main-activity burden;
-   - INDIA11 advice: B; keep conditional, no extra night.
-
-3. `VARANASI / JAUNPUR / Sharqi architectural cluster + Shahi Pul (middeleeuwse Sharqi-moskeeën/fort/brug aan de Gomti) — OPEN`.
-   - ~60–65 km each-way city relation; ~5–7 h occupied-day class;
-   - strong architecture but no recovered strong personal Kriya/spiritual Mark anchor;
-   - INDIA11 advice: C.
-
-4. `VARANASI / CHANDRAPRABHA / Rajdari–Devdari waterfalls + sanctuary (bos/watervallen in Chandauli) — OPEN`.
-   - ~60–70 km city-class / ~1.5–2 h each way current planning evidence; full module ~6–8 h;
-   - strong fit with Mark nature taste but winter waterfall-strength uncertain;
-   - INDIA11 advice: B; preserve as spare-day/weather option, do not force extra night.
-
-No other traveler/Komoot row may be used to restart generic Varanasi discovery before these four close.
-
-## Baseline execution already built — NOT YET DURATION LOCK
-Canonical:
-`VARANASI_BASELINE_EXECUTION_DRAFT_2026-08-27.md`.
-
-Current structure before four grades:
-- V0 Bodh Gaya/Gaya -> Assi: occupied arrival day; night V1.
-- V1 south Varanasi / Assi–Bhadaini–Tulsi–Durga main world; night V2.
-- V2 Varanasi Kriya core main world; night V3.
-- V3 Kashi Vishwanath–Manikarnika–Dashashwamedh main world + one Aarti position; night V4.
-- V4 north Kashi / Tailanga–Panchganga–Adi Keshava main world; night V5.
-- V5 Sarnath main day; night V6.
-- V6 only if dawn rowboat becomes intentional A and is protected as own relaxed dawn/main-morning experience; night V7.
-
-Thus before extra A side-trips:
-- baseline relaxed envelope ~6 nights;
-- dawn rowboat as A protected in its own pace = ~7 nights;
-- Chunar/Jaunpur/Chandraprabha as A can add main-day burden; B cannot force extra night.
+## Baseline execution draft — PRELIMINARY / NOT A DURATION BALLOT
+`VARANASI_BASELINE_EXECUTION_DRAFT_2026-08-27.md` may be used only as a geographic skeleton. Its earlier 6/7-night envelope is NOT ready for Mark because it was built before full LP time-value review.
 
 ## Exact next action
-Mark grades ONLY the four choices above in one contiguous numbered reply.
-Then INDIA:
-1. records decisions;
-2. C disappears; B remains conditional without night force;
-3. rebuilds retained Varanasi day bundles;
-4. presents the resulting 6/7/etc-night pace choices;
-5. Mark closes dwell;
-6. Varanasi becomes `DURATION_CLOSED`;
-7. continue next fixed core.
+1. Present all 16 strict LP-relevant rows in one contiguous numbered block with current status, explanation and OBJECTIVE burden/season/overlap.
+2. Mark owns interest/grade/time instinct; planner must not assume a micro-item is micro-time.
+3. Record any new LP decisions/time wishes.
+4. If Mark wants the full non-LP traveler layer too before duration, present that next rather than silently suppress it.
+5. Only after visibility/decisions, build actual combinations.
+6. Only Mark closes Varanasi dwell/nights.
+7. Then Varanasi becomes `DURATION_CLOSED` and the controller moves to the next fixed core.
 
 # OTHER FIXED WORLDS — NOT YET DURATION_CLOSED
 - BODH GAYA / GAYA — substantial canon/research exists; needs same closure cycle.
@@ -293,6 +263,6 @@ Preserved topology sources:
 Live train/flight/opening/availability facts are rechecked when they affect actual routing/booking. No premature exact calendar.
 
 ## REPLACEABILITY — EXACT NEXT ACTION
-If INDIA11 disappears now, INDIA12 must NOT restart Varanasi discovery and must NOT ask about Kumaon again. It reads the three Varanasi current-frontier artifacts, asks Mark only for the four numbered Varanasi content grades if not yet answered, then rebuilds the relaxed day structure and asks only for final Varanasi pace/dwell.
+If INDIA11 disappears now, INDIA12 must NOT restart Varanasi discovery, must NOT ask the four already-answered choices again, and must NOT present the old 6/7-night ballot. It reads `VARANASI_MARK_DECISIONS_AND_FULL_LP_GATE_2026-08-27.md`, presents the complete 16-item strict LP layer to Mark, records Mark's time/interest choices, and only then resumes execution/day-count closure.
 
 END_OF_CURRENT_STATE
