@@ -1,68 +1,66 @@
 # VARANASI / SARNATH — MARK DECISIONS + FULL LONELY PLANET GATE — 2026-08-27
 
-status: FOUR_CHOICES_CLOSED__FULL_LP_REVIEW_ACTIVE__DURATION_NOT_READY
+status: LP_REVIEW_MARK_DECISIONS_RECORDED__THREE_SMALL_POINTS_PENDING__DURATION_NOT_READY
 branch: agent/india8-cluster-casting
 
-## LATEST EXPLICIT MARK DECISIONS
-Mark answered the 2026-08-27 four-item Varanasi content block as:
+## CANONICAL LATEST LP REVIEW RECORD
+Read next:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/VARANASI_LP_MARK_TIME_DECISIONS_2026-08-27.md`.
 
-1. `VARANASI / GANGES / dawn rowboat (zonsopkomst vanaf de rivier langs de levende ghats)` — **A**.
-2. `VARANASI / CHUNAR / Chunar Fort + Chunar sacred/history layer (Gangesfort met Afghan/Mughal/British geschiedenis)` — **C**.
-3. `VARANASI / JAUNPUR / Sharqi architectural cluster + Shahi Pul (middeleeuwse Sharqi-architectuur aan de Gomti)` — **C**.
-4. `VARANASI / CHANDRAPRABHA / Rajdari–Devdari waterfalls + sanctuary (bos/watervallen in Chandauli)` — **B**.
+That file supersedes the earlier OPEN states below and preserves Mark's grades + subjective time instincts losslessly.
 
-These supersede OPEN/advice states in `VARANASI_DAY_CHANGING_CONTENT_CLOSURE_2026-08-27.md`.
+## PRECEDING FOUR DECISIONS — NOW SUPERSEDED WHERE MARK LATER CHANGED THEM
+The earlier four-item block was:
+1. dawn rowboat — A.
+2. Chunar Fort — C.
+3. Jaunpur — C.
+4. Chandraprabha waterfalls — originally B, **later explicitly changed by Mark to C** during full LP review.
 
-## NEW HARD METHOD CORRECTION — MARK 2026-08-27
-Mark explicitly corrected the planner's earlier suppression rule:
+## HARD METHOD CORRECTION — COMPLETE LP BEFORE DWELL
+Before Mark is asked to determine cluster time/dwell, show him the **complete relevant Lonely Planet layer** for that cluster/corridor, not only planner-selected 'day-changing' findings.
 
-> A thing INDIA considers small can be a full day for Mark.
+INDIA may supply objective logistics, but must not decide that a finding is too small to affect Mark's dwell. A thing INDIA sees as small can be a full day for Mark.
 
-Operational meaning:
-- BEFORE Mark is asked to determine cluster time/dwell, show him the **complete relevant Lonely Planet layer** for that cluster/corridor, not only planner-selected 'day-changing' findings.
-- INDIA may still supply objective information: what it is, location, walking/driving burden, opening/season constraints, overlap with already-selected anchors, and a logistical minimum.
-- INDIA must NOT convert 'small', 'easy capture', 'texture', 'micro', 'nearby', or 'fits in same geography' into a subjective time allocation.
-- Mark owns the question whether an item deserves 20 minutes, half a day, a full day, repetition, or extra breathing room.
-- After the complete LP layer is visible and Mark has expressed interest/time value, INDIA may build the best geographic/logistical combinations and show the consequences.
-- C items remain C and need not be re-balloted, but when a COMPLETE LP provenance view is requested they may appear for provenance completeness clearly labeled `C / NOT REOPENED`.
+## HARD PRESENTATION CORRECTION — DO NOT BALLOT IMPOSSIBLE-DATE ITEMS
+Mark explicitly objected to receiving actionable numbered choices for experiences that cannot occur during the fixed 18 Dec 2026–21 Jan 2027 trip window.
 
-This is a cross-cluster planning rule for the remaining fixed-core duration closures unless Mark later changes it.
+Rule:
+- if demonstrably unavailable/outside the trip window, do NOT place it in an actionable Mark choice batch;
+- retain provenance as `OUTSIDE_TRIP_WINDOW`;
+- if Mark asks for a complete provenance layer, put such items only in a separate non-actionable note;
+- do not make Mark spend attention grading an impossible event.
 
 ## STRICT LP PROVENANCE RULE
-The canonical traveler union retains source labels. For this gate, `Lonely Planet layer` means rows carrying `OLD_LP_GANGES_SOUTH` provenance. Do not relabel findings from CCI, external collector, micro-worker or ChatGPT-only passes as Lonely Planet.
-
-Canonical source:
+`Lonely Planet layer` means rows carrying `OLD_LP_GANGES_SOUTH` provenance in:
 `runs/active/INDIA10-MULTIAI-TRAVELER-DISCOVERY-001/TRAVELER_EXPERIENCE_MASTER_UNION_LEDGER.md`.
-
-For Varanasi/Sarnath the strict LP-relevant set is 14 local rows plus 2 adjacent-corridor rows:
-- TRV-099 Banarasi paan.
-- TRV-100 Banarasi silk weaving experience.
-- TRV-102 Chandraprabha Sanctuary + Rajdari/Devdari waterfalls — latest Mark B.
-- TRV-103 Chunar Fort — latest Mark C.
-- TRV-104 Ganga Aarti — one good evening position — already covered by A+ Dashashwamedh world.
-- TRV-106 Man Mahal Observatory.
-- TRV-107 Nag Nathaiya Leela at Tulsi Ghat.
-- TRV-108 Old Kashi lanes — Bengali Tola / Thatheri Bazaar / Chowk.
-- TRV-110 Ramnagar Ramlila.
-- TRV-111 Ratneshwar Mahadev leaning river temple — already A+ child within Manikarnika.
-- TRV-112 Sarnath — Dhamek Stupa / Deer Park / museum — already A+ parent.
-- TRV-113 Slow dawn ghat walk — Assi/Tulsi toward north.
-- TRV-114 Subah-e-Banaras at Assi Ghat.
-- TRV-117 Varanasi dawn rowboat — latest Mark A.
-Adjacent corridor:
-- TRV-097 Bhadohi hand-knotted carpet loom visit — Prayagraj–Varanasi corridor.
-- TRV-121 Rohtasgarh Fort — Varanasi–Bodh Gaya corridor.
-
-Non-LP examples that must NOT be mislabelled as LP: Gulabi Meenakari (TRV-098), Bharat Kala Bhavan (TRV-101), wooden lacquerware (TRV-105), Ramnagar Fort museum (TRV-109), Ram Bhandar (TRV-115), Tulsi Ghat Akhada (TRV-116), evening aarti from water (TRV-118), Malaiyo (TRV-119), Varanasi–Chunar motorboat (TRV-120).
+Do not relabel CCI/external/micro/ChatGPT-only findings as LP.
 
 ## CURRENT FRONTIER
-Do NOT proceed to Varanasi night-count/duration choice yet.
+Do NOT proceed to Varanasi night-count/duration yet.
 
-Next action:
-1. present the complete strict 16-row LP layer to Mark with status + objective burden/context;
-2. let Mark indicate interest/grade/time instinct for OPEN LP items;
-3. only then reconcile the separate non-LP traveler layers if Mark wants the whole traveler universe before duration;
-4. then build day combinations;
-5. only Mark closes Varanasi dwell/nights.
+Latest recorded Mark LP outcomes include:
+- Banarasi paan — A / 1 h / only if naturally on route.
+- Banarasi silk weaving — C.
+- Chandraprabha — C.
+- Chunar — C.
+- Ganga Aarti — existing A+ coverage / full evening / 2 h.
+- Man Mahal Observatory — C.
+- Nag Nathaiya — C + outside trip window.
+- Old Kashi lanes — A / 1 h / preferably routed through toward another selected place.
+- Ramnagar Ramlila — outside trip window; no grade inferred.
+- Ratneshwar Mahadev — existing A+ child / 1 h excluding travel.
+- Sarnath — existing A+ remains current pending Mark's explicit response to fresh logistics reassessment; planner recommends keep A+ and ~2.5–3 h on site.
+- slow dawn ghat walk — A / 3 h.
+- Subah-e-Banaras — morning preference recorded; no grade letter supplied.
+- dawn rowboat — A; planner proposes 2.5 h dawn block, awaiting Mark acceptance/replacement.
+- Bhadohi carpet loom — C.
+- Rohtasgarh — C.
+
+Exact remaining subjective points:
+1. Sarnath: keep existing A+ or explicitly downgrade after reassessment.
+2. Subah-e-Banaras: grade not explicit.
+3. Dawn rowboat: accept/change proposed 2.5 h block.
+
+After those close, reconcile retained non-LP traveler layer before final Varanasi day combinations if required by Mark's requested workflow. Only Mark closes dwell/nights.
 
 END_OF_ARTIFACT
