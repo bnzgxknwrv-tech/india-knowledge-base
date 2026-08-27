@@ -1,44 +1,55 @@
-# VARANASI / SARNATH — HISTORICAL MARK PACE PREFERENCE RECOVERY — 2026-08-27
+# VARANASI / SARNATH — HISTORICAL + CURRENT MARK PACE RECONCILIATION — 2026-08-27
 
-status: CURRENT_PACE_INPUT_RECOVERED
+status: OLD_ONE_MAIN_ACTIVITY_RULE_SUPERSEDED_BY_NEWER_MARK_PACE
 branch: agent/india8-cluster-casting
-purpose: prevent a repeat of the Haidakhan error before Varanasi/Sarnath duration closure.
+purpose: preserve historical provenance without allowing the older slow-pace shorthand to distort the actual day design.
 
-## RECOVERED PRIOR MARK PREFERENCES
-Targeted historical conversation recovery found explicit earlier Mark preferences from June 2026 that materially affect Varanasi day design:
+## HISTORICAL PREFERENCE RECOVERED EARLIER
+Older Mark preferences from June 2026 correctly established that Varanasi should NOT become a frantic checklist:
+- less-hectic pace;
+- breathing room/rest;
+- repeating meaningful places is acceptable;
+- Assi Ghat mornings matter;
+- preserve unstructured Ganges time;
+- respect realistic duration/best daypart;
+- do not stack multiple sunrise/dawn experiences merely to save nights.
 
-- Varanasi should have a **less-hectic pace**.
-- Working preference: roughly **maximum one main activity per day** rather than stacking multiple major experiences.
-- Preserve **rest / breathing room**.
-- Repeating a meaningful place is acceptable; not every day must maximize unique-site count.
-- Mark values **Assi Ghat mornings**.
-- Preserve **unstructured Ganges time** rather than scheduling every hour with attractions.
-- Scheduling must respect each place's realistic duration and best daypart.
-- Do **not stack multiple sunrise/dawn experiences into the same morning** merely to save days.
+One historical shorthand was also recovered as roughly `maximum one MAIN activity/world per day`.
 
-These are not new A/B/C grades and do not supersede current site canon. They are pace/dwell inputs for execution design.
+## NEWER EXPLICIT MARK CORRECTION — CONTROLS
+On 2026-08-27 Mark explicitly rejected the implementation that turned that shorthand into mostly one-activity days.
 
-## CURRENT SLEEP-BASE CONTEXT
-Current accommodation lock remains:
-`VARANASI / ASSI GHAT / Sahi River View Guesthouse (Marks gekozen verblijf bij Assi Ghat; persoonlijke aanbeveling via Debby) — LOCKED_BY_MARK`.
+LATEST CURRENT Varanasi pace:
+- an early morning experience is welcome;
+- after a very early start, **2–3 hours rest/break is fine**;
+- Mark still usually wants a **meaningful afternoon block** and often an **early-evening block**;
+- target **minimum 2, preferably 3 meaningful blocks per local day**;
+- 4–5 physical stops are acceptable when they form one compact complex/walking world;
+- an arrival/transfer day may be a wind-down day but should still contain meaningful content if arrival time permits;
+- Day 1 in Varanasi should preferably connect immediately to Lahiri Mahasaya / Kriya, with Assi/Ganges orientation, rather than hotel-only inactivity;
+- Manikarnika/cremation-world may be deliberately placed later in the stay to acclimatize first;
+- every Mark-facing schedule must explain in ordinary Dutch WHAT each place is, WHY it is selected, recommended dwell and real movement to the next place. Bare Indian names + durations are not decision-ready.
 
-Historical provenance from commit `12148a8e74d3289a4853f24c0809f106bac41f78`:
-- Sahi River View was Mark's #1 Varanasi preference after a personal recommendation from Debby, who had lived in Varanasi and knew both compared accommodations;
-- balcony room preferred if available;
-- this was later superseded from provisional to current LOCKED accommodation, so do not reopen the hotel choice.
+This NEWER statement supersedes only the old `one main activity per day` shorthand. It does **not** supersede the valid underlying preferences for breathing room, Assi mornings, rest, no sunrise stacking and unstructured Ganges time.
 
 ## PLANNING CONSEQUENCE
-Varanasi/Sarnath must NOT be optimized like a dense city-break.
+Use a **multi-block relaxed day**, not a one-stop day:
+- early block;
+- recovery/lunch/rest;
+- afternoon block;
+- optional/meaningful early-evening block where appropriate.
 
-During complete-execution design:
-1. treat dawn rowboat / Assi morning / major Old Kashi sacred circuit / Sarnath as distinct major experience blocks unless Mark later chooses to combine them;
-2. allow small same-geography temple/ghat children to bundle inside a main activity without pretending they are separate major activities;
-3. preserve at least some unscheduled river/ghat time in the realistic recommendation;
-4. do not compress the cluster merely because all points are geographically close;
-5. only Mark closes the final dwell/nights after seeing the resulting day structure.
+Do not call a day relaxed merely because it is empty. Relaxation should come from buffers/rest between meaningful experiences, not from under-planning.
+
+Canonical current implementation:
+`VARANASI_EXPLAINED_HOURLY_8_NIGHT_DRAFT_2026-08-27.md`.
+
+## CURRENT SLEEP BASE
+`VARANASI / ASSI GHAT / Sahi River View Guesthouse (Marks gekozen verblijf bij Assi Ghat; persoonlijke aanbeveling via Debby) — LOCKED_BY_MARK`.
+Historical provenance: balcony room preferred if available.
 
 ## AUTHORITY
-Newest explicit Mark decision still wins if a later statement changes this pace preference.
-No later contradiction was found during the targeted recovery.
+Newest explicit Mark statement wins.
+Do not let any successor reactivate `maximum one main activity per day` as a hard rule.
 
-END_OF_RECOVERY
+END_OF_RECONCILIATION
