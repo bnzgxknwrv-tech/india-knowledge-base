@@ -1,7 +1,7 @@
 # MARK — LIVING INDIA PROJECT PROFILE / CURRENT HUMAN CONTEXT CANON
 
 Status: HARD LIVING HUMAN CONTEXT CANON
-Updated: 2026-08-26
+Updated: 2026-08-27
 Branch: agent/india8-cluster-casting
 Canonical file: `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md`
 
@@ -20,12 +20,11 @@ HARD MAINTENANCE RULE:
 The goal is cumulative intelligence: INDIA12 should begin knowing Mark better than INDIA11, INDIA13 better than INDIA12, without Mark having to teach each new model who he is.
 
 ## CONFIDENCE / STATUS LABELS
-Use these when adding future material:
 - `HARD_CURRENT`: explicit Mark preference/decision, still current or no later contradiction found.
-- `DURABLE_PATTERN`: repeatedly explicit or strongly repeated project behaviour; use as working default, not as an immutable lock.
-- `PHASE_SPECIFIC`: valid in a particular planning/research phase, not necessarily forever.
-- `HISTORICAL_NEEDS_CONFIRMATION`: found in older provenance but may have been superseded; do not silently reactivate.
-- `UNKNOWN`: do not guess. Search relevant history first; if still material and unresolved, ask Mark.
+- `DURABLE_PATTERN`: repeatedly explicit or strongly repeated project behaviour; use as working default, not immutable lock.
+- `PHASE_SPECIFIC`: valid in a particular planning/research phase.
+- `HISTORICAL_NEEDS_CONFIRMATION`: old provenance, possible supersede.
+- `UNKNOWN`: do not guess. Search first; ask only if still material.
 
 ## PRECEDENCE / TRUTH RULE
 1. newest explicit Mark statement;
@@ -36,585 +35,500 @@ Use these when adding future material:
 
 A valid old preference can be recovered from a stale route file WITHOUT reviving the stale route around it.
 
-# 1. HOW THIS GITHUB REPOSITORY CAME TO EXIST
+# 1. WHY THIS REPOSITORY EXISTS
 
-## 1.1 It is external memory for a long human–AI project
+## 1.1 External memory for a long human–AI project
 `HARD_CURRENT`
-The India project became too large and long-running for one chat/model context. Different INDIA versions, CCI, color workers and other research agents have contributed over time. GitHub became the durable memory layer so project truth would survive model replacement, context loss and parallel research.
+The project became too large for one chat/model context. Different INDIA versions, CCI, color workers and other research agents contributed over time. GitHub became durable memory so project truth survives model replacement, context loss and parallel research.
 
-The repository therefore has two jobs:
+The repository has two jobs:
 1. preserve travel/research truth;
 2. make every AI regisseur replaceable.
 
-GitHub is not the trip and governance is not the goal. The repository serves the journey.
+GitHub is not the trip. Governance is not the goal. The repository serves the journey.
 
-## 1.2 Why the repo became messy
+## 1.2 Why it became messy
 `DURABLE_PATTERN / PROJECT HISTORY`
-Several generations stored truth in different places: `decisions/`, `handoffs/`, governance files, active runs, worker outputs, protected canon and Git commits. Later versions tried to prevent knowledge loss with increasingly strict audit/governance systems. That solved real misses but at one point over-corrected into too much process.
+Earlier versions stored truth across `decisions/`, `handoffs/`, governance, active runs, worker outputs, canon and commits. Later governance prevented real knowledge loss but sometimes became too heavy.
 
-Mark's correction was clear: mistakes must be recoverable, but governance must NEVER become the project. Prefer a small number of readable current files, while keeping old history available as provenance.
+Mark's correction: mistakes must be recoverable, but governance must NEVER become the project. Prefer a small number of readable current files; old history remains provenance.
 
-## 1.3 Mark is not the courier between AIs
+## 1.3 Mark is not the courier
 `HARD_CURRENT`
-When INDIA and CCI/workers can communicate through GitHub/PR #23, Mark should not be forced to manually carry messages between them. AI systems should read each other's durable outputs themselves and return to Mark only for actual human decisions.
+When INDIA/CCI/workers can communicate through GitHub, Mark must not manually shuttle worker outputs, prompts or review messages between AIs. Regie should assign, workers write directly to GitHub, and regie checks/integrates itself.
 
 # 2. WHO MARK IS IN THIS INDIA PROJECT
 
-## 2.1 This is a personal pilgrimage, not a generic India holiday
+## 2.1 Personal pilgrimage, not generic tourism
 `HARD_CURRENT`
-The journey is built around real, physical, visitable places that have spiritual meaning for Mark: especially places connected with *Autobiography of a Yogi*, Kriya Yoga lineages and people who personally matter to him.
+The trip is built around real physical places connected to *Autobiography of a Yogi*, Kriya Yoga lineages and spiritual people who matter personally to Mark.
 
-The basic knowledge object is therefore usually:
-`THE PHYSICAL PLACE MARK CAN ACTUALLY STAND IN / WALK TO / SLEEP AT / EXPERIENCE`
-—not biography for biography's sake.
+The basic knowledge object is usually:
+`THE PHYSICAL PLACE MARK CAN ACTUALLY STAND IN / WALK TO / SLEEP AT / EXPERIENCE`.
 
-People are important because they lead to places, stories, events and experiences that can become meaningful on the ground.
+Biography is useful mainly when it leads to a meaningful physical place, story, event or experience.
 
 ## 2.2 Spiritual orientation
 `HARD_CURRENT`
-Within this project Mark identifies with the Yogananda/Ananda Kriya Yoga world. In current route decisions he has explicitly clarified that he is **Ananda, not YSS/SRF**; YSS/SRF sites can still be historically/spiritually important, but should not be treated as his institutional home or used to invent YSS overnight stays.
-
-This is relevant to travel planning because organizational lineage, ashram atmosphere and what a place means to Mark affect how long he may want to stay and what kind of accommodation feels right.
+Mark belongs to the Yogananda/Ananda Kriya Yoga world. He has explicitly clarified: **Ananda, not YSS/SRF**. YSS/SRF sites may still be important, but they are not automatically his institutional home and must not be used to invent YSS overnight stays.
 
 ## 2.3 Spiritually open AND evidence-critical
 `HARD_CURRENT`
-Do not force Mark to choose between spiritual meaning and historical honesty. He wants both.
+Mark wants spiritual meaning and historical honesty simultaneously.
 
 Rules:
-- a traditional/devotional claim can be deeply meaningful and trip-defining even when modern historical proof is limited;
-- never upgrade a tradition claim into proven physical history without evidence;
-- distinguish clearly between:
-  1. what a tradition says;
-  2. whether the physical site is correctly identified;
-  3. what is independently historically verifiable;
-- do not sneer at, flatten or dismiss spiritual tradition merely because it is not academically proven;
-- equally, do not fake certainty to make a sacred story cleaner.
+- traditional/devotional claims may be deeply meaningful without modern historical proof;
+- never upgrade tradition to proven physical history without evidence;
+- distinguish tradition, physical-site identification and independent historical verification;
+- do not dismiss sacred tradition merely because proof is limited;
+- do not fake certainty to make the sacred story cleaner.
 
-Mahavatar Babaji is the clearest proof case: pilgrimage meaning can be enormous while historical evidence remains carefully labeled.
+Mahavatar Babaji is the clearest proof case.
 
-## 2.4 Keep distinct spiritual figures/traditions distinct
+## 2.4 Keep figures/traditions distinct
 `HARD_CURRENT`
-Do not silently merge similarly named traditions, sites or figures. The Haidakhan Babaji tradition and Mahavatar Babaji/Kriya tradition may overlap in a traveler's spiritual imagination, but their claims/sites are not automatically the same historical entity. Preserve distinction unless evidence supports an identification.
+Do not silently merge similarly named figures/traditions/sites. Haidakhan Babaji and Mahavatar Babaji/Kriya may overlap in spiritual imagination but are not automatically the same historical entity.
 
 # 3. SPIRITUAL AFFINITIES / RESEARCH WEIGHTING
-These are human preference signals, not replacements for current A+/A/A*/B/C canon.
 
 ## 3.1 Mahavatar Babaji / Kriya world
 `HARD_CURRENT`
-The Mahavatar Babaji cave/Dunagiri pilgrimage world is among the strongest personal reasons for the trip. It deserves deep research, accurate physical identification, walk/safety detail and unhurried execution.
+The Mahavatar Babaji cave/Dunagiri pilgrimage world is among the strongest reasons for the trip. It deserves deep research, accurate physical identification, walking/safety detail and unhurried execution.
 
 ## 3.2 Haidakhan Babaji
 `HARD_CURRENT`
-Haidakhan Babaji personally speaks to Mark. Mark wanted Haidakhan because of that personal resonance, not because a generic attraction ranking says it is important.
+Haidakhan Babaji personally speaks to Mark. The Haidakhan world is not a checkbox stop.
+
+Current locked dwell:
+- **Haidakhan Vishwa Mahadham / Haidakhan Ashram = 3 nights / 2 complete quiet days — LOCKED_BY_MARK (2026-08-27).**
 
 Planning consequence:
-- the main Haidakhan ashram/gufa world deserves experiential space;
-- do not turn it into a rushed checkbox visit;
-- do not hunt every minor lineage site merely to be exhaustive unless one is genuinely exceptional;
-- current recovered planner baseline is 3 nights / 2 complete quiet days, still awaiting Mark's final pace judgment.
+- preserve temple/gufa/river/ashram rhythm and actual time being there;
+- do not manufacture excursions merely to fill days;
+- do not compress this stay to improve arithmetic.
 
 ## 3.3 Arunachala / Ramana
 `HARD_CURRENT`
-Mark has expressed warm feelings toward Tiruvannamalai/Arunachala and very much wants this world in the journey. It is now fixed A+ and should be treated as an experiential/spiritual stay, not merely a list of Ramana-related micro-sites.
+Mark has warm personal attraction to Tiruvannamalai/Arunachala. It is a fixed A+ experiential/spiritual world, not merely a list of Ramana micro-sites.
 
 ## 3.4 Ramakrishna
 `HARD_CURRENT / RESEARCH WEIGHT`
-Mark regards Ramakrishna as **one of the greats**. If his world is route-logical, a genuinely meaningful Ramakrishna place matters more than the earlier research coverage implied. Do not force a major detour solely for weak Ramakrishna residue, but do not under-research him because an old list happened to be sparse.
+Mark regards Ramakrishna as **one of the greats**. Genuinely meaningful route-logical Ramakrishna places deserve stronger attention than sparse old coverage implied.
 
 ## 3.5 Anandamayi Ma
 `HARD_CURRENT / EDITORIAL PREFERENCE`
-Mark does NOT want a house-by-house completeness pilgrimage. Roughly a few truly important magnets are more valuable than dozens of minor places.
+Mark does not want house-by-house completeness. A few truly important magnets are preferable to dozens of weak addresses.
 
-Strong Anandamayi signals include:
-- active veneration;
-- repeated/major presence;
-- samadhi or preserved room/shrine;
-- living continuity;
-- meaningful physical experience;
-- practical fit.
-
-INDIA should editorially recommend the strongest magnets after research rather than presenting every historical address as equal.
+Strong signals: active veneration, major/repeated presence, samadhi/preserved room/shrine, living continuity, meaningful physical experience, practical fit.
 
 ## 3.6 Sri Aurobindo
 `DURABLE_PATTERN`
-Mark has expressed real interest in Sri Aurobindo, but not enough to automatically force a Puducherry module. Treat as worthwhile when total route value/logistics justify it, not as a hidden mandatory cluster.
+Real interest, but not enough by itself to force Puducherry. Include when total route value/logistics justify it.
 
-## 3.7 Research depth must match personal relevance
+## 3.7 Research depth follows personal relevance
 `HARD_CURRENT`
-Do NOT research every spiritual person to identical exhaustive depth merely for a completeness score.
+Do not research every person to equal exhaustive depth merely for symmetry.
 
-Deep/full treatment has historically been requested for the figures most personally central to this trip, including:
-- Paramahansa Yogananda;
-- Lahiri Mahasaya;
-- Sri Yukteswar;
-- Mahavatar Babaji;
-- Neem Karoli Baba;
-- Ram Dass;
-- Ramana Maharshi;
-- Ramakrishna;
-- Anandamayi Ma has already received unusually broad treatment.
+Historically deep/full treatment has been requested for central figures including Yogananda, Lahiri Mahasaya, Sri Yukteswar, Mahavatar Babaji, Neem Karoli Baba, Ram Dass, Ramana Maharshi, Ramakrishna and Anandamayi Ma.
 
-More targeted treatment is appropriate for less-central lines such as Vivekananda or Hariharananda unless route discoveries elevate them.
-
-Principle: **depth follows personal relevance and potential trip impact, not bureaucratic symmetry.**
+Principle: **depth follows personal relevance and potential trip impact, not bureaucracy.**
 
 # 4. HOW MARK THINKS AND DECIDES
 
 ## 4.1 Context before choice
 `HARD_CURRENT`
-Do not make Mark infer geography, route burden or what an Indian name means before he can decide.
-
-Before presenting a meaningful choice, INDIA should already have done the objective work:
-- what is this place physically?;
-- why is it relevant?;
-- where is it relative to retained anchors/sleep bases?;
-- real extra driving/walking burden;
+Before asking Mark to choose, INDIA should already know and explain:
+- what the physical place is;
+- why it is relevant;
+- where it sits relative to retained anchors/bases;
+- real travel/walking burden;
 - realistic visit duration;
-- whether it bundles with another day;
+- natural bundle;
 - what gets sacrificed if selected.
 
-Then Mark can make the subjective decision.
+Mark should make the subjective choice, not reconstruct the objective problem.
 
-## 4.2 Only Mark can decide subjective dwell/pace
+## 4.2 Only Mark determines felt dwell/pace
 `HARD_CURRENT`
-INDIA can calculate logistics and propose executable day combinations. INDIA cannot calculate how many days a spiritually meaningful place **feels worth** to Mark.
+INDIA calculates logistics and proposes executable combinations. It cannot calculate how long a spiritually meaningful place feels worth to Mark.
 
-Therefore:
-- INDIA proposes combinations and realistic minimum/comfortable envelopes;
-- Mark decides the felt pace and dwell;
-- never silently compress a meaningful stay because the arithmetic looks cleaner.
+Never silently compress a meaningful stay because arithmetic becomes cleaner.
 
-## 4.3 Mark wants an editorial AI, not a dump
+## 4.3 Editorial AI, not dump
 `DURABLE_PATTERN`
-Research broadly; present selectively.
+Research broadly; compare, deduplicate and recommend. Do not throw hundreds of equally weighted findings at Mark.
 
-Mark does not want hundreds of equally weighted findings thrown back at him. INDIA should compare, bundle, deduplicate, explain and recommend. Surface the real ties and decision points.
-
-## 4.4 New evidence may reopen an old search, but not create churn
+## 4.4 New evidence can reopen evidence, not grades automatically
 `HARD_CURRENT`
-A research sweep being `COMPLETE` or `FROZEN` means that search round is complete; it does not mean the universe can never change.
-
-If genuinely new, material evidence appears:
-- add/reopen the relevant finding;
-- preserve existing Mark grades until Mark explicitly changes them;
-- do not use "new research" as an excuse to continuously re-ballot settled choices.
+A completed/frozen sweep does not make the universe immutable. Material new evidence may reopen research, but existing Mark grades remain until Mark explicitly changes them.
 
 ## 4.5 A question is not a decision
 `HARD_CURRENT`
-Never convert Mark's conditional question, thought experiment or doubt into a formal A/B/C, DROP, route or hotel decision.
+Never convert a conditional question, hypothetical or doubt into A/B/C, DROP, route or hotel canon.
 
-Only explicit/unambiguous Mark decision language changes subjective canon.
-
-## 4.6 At genuine uncertainty: search first, then ask
-`HARD_CURRENT — MARK 2026-08-26`
-When an old preference might exist but is unclear:
-1. search the relevant current + historical repo evidence first;
-2. establish whether there is a newer supersede;
-3. if two plausible preferences still conflict and the difference matters, ASK MARK which is current;
-4. never silently pick the version that makes the plan easier.
-
-Mark explicitly permits and prefers a focused clarification question over a guessed preference **after** the repository has been checked.
+## 4.6 Search first; ask if real ambiguity remains
+`HARD_CURRENT`
+When an older preference may exist:
+1. search current + relevant history;
+2. establish newest supersede;
+3. if two plausible current preferences remain and matter, ASK MARK;
+4. never silently pick the easier one.
 
 # 5. TRIP RHYTHM / TIME / ENERGY
 
 ## 5.1 Breathing room over maximum site count
 `HARD_CURRENT`
-Major spiritual clusters should have breathing room. The objective is not to maximize the number of checkmarks per day.
-
-A mathematically dense itinerary is not automatically a better itinerary.
+Major spiritual clusters should breathe. A mathematically dense itinerary is not automatically better.
 
 ## 5.2 Fixed envelope
 `HARD_CURRENT`
-- travel period: **18 December 2026 through 21 January 2027**;
+- 18 December 2026 through 21 January 2027;
 - flights booked;
-- project uses a **34-day trip budget** convention;
-- private booking-account details need not be stored in GitHub;
-- old exact calendars are non-authoritative until rebuilt with current accounting.
+- project uses a 34-day trip-budget convention;
+- private account/booking identifiers need not live in GitHub;
+- old exact calendars are non-authoritative until rebuilt correctly.
 
 ## 5.3 Travel days are real days
 `HARD_CURRENT`
-Raw driving/train/flight duration is not the same as occupied trip time.
+Count door-to-door human burden: packing, checkout, access, waiting, delay/fog/traffic, baggage, onward transfer, hotel/ashram check-in, food/rest/toilet, daylight and energy lost.
 
-Count real door-to-door burden including relevant:
-- packing/check-out/loading;
-- station/airport access;
-- check-in/security/platform waiting;
-- delays/winter/fog/traffic;
-- baggage/exit;
-- onward driver/taxi;
-- check-in at the real next sleeping base;
-- food/rest/toilet;
-- daylight and energy lost.
-
-Do not hide an inbound travel day outside a cluster footprint when that cluster's consumption of the 34-day budget is being judged.
+Do not hide a known travel day outside a cluster footprint when judging its consumption of 34 days.
 
 ## 5.4 Detailed final-day rhythm
 `HARD_UNSUPERSEDED / FINAL-CALENDAR PHASE`
-When the trip reaches actual day-card/calendar construction:
-- use roughly 15-minute timing where useful rather than vague half-day labels;
-- Mark tends to prefer early starts and a relatively early bed;
-- reserve about **1 hour in the evening for dinner**;
-- do NOT force a separate formal lunch block into every day; lunch/snacks can happen en route unless the day/content requires otherwise;
-- use the actual hotel/ashram door as the start/end point, not a generic city centre;
-- overnight trains can convert movement into sleep and should not automatically be treated as a fully lost sightseeing day;
-- use the schedule diagnostically: if the day only works under perfect assumptions, call it **OVERLOADED** instead of shaving buffers until it fits.
-
-These are final-calendar preferences, not permission to create exact dates prematurely.
+- roughly 15-minute timing where useful;
+- early starts and relatively early bed tend to suit Mark;
+- reserve about 1 h evening dinner;
+- no mandatory formal lunch block every day;
+- use actual hotel/ashram doors as start/end;
+- overnight trains can convert movement to sleep;
+- if a day only works under perfect assumptions, label it OVERLOADED instead of shaving buffers.
 
 # 6. WALKING / NATURE PERSONA
 
-## 6.1 Mark very much likes walking
+## 6.1 Walking matters
 `HARD_CURRENT`
-Walking is not merely transport. A beautiful walk can be a destination-quality experience and can make a spiritual visit substantially better.
+Walking is real content, not merely transport.
 
 ## 6.2 Strong scenic preferences
 `HARD_CURRENT`
-Highest-payoff walking/nature signals:
+Especially attractive:
 - forest lakes;
 - clear blue/green water;
-- lakeside/waterside walking;
-- waterfalls and cascades;
+- waterside/lakeside walking;
+- waterfalls/cascades;
 - rivers/gorges;
 - immersive forest;
-- dramatic viewpoints/ridges;
-- caves and unusual rock landscapes;
-- spiritually meaningful footpaths;
-- short high-reward nature walks near retained anchors/corridors;
-- sensible dawn/evening walks.
+- viewpoints/ridges;
+- caves/rock landscapes;
+- spiritually meaningful paths;
+- short high-reward walks near anchors/corridors;
+- good dawn/evening walks.
 
-## 6.3 What NOT to overvalue
+## 6.3 Do not overvalue generic walks
 `HARD_CURRENT`
-Avoid adding a walk merely because Komoot has a route.
-Low-value patterns:
-- generic/repetitive hill walks;
-- ordinary urban strolls disguised as attractions;
-- long hikes with mediocre payoff;
-- a second or third similar walk that adds little new experience.
+Avoid repetitive hill walks, generic urban strolls, long mediocre hikes and duplicate scenic experiences. Prefer the best/practical variant; cut boring approach when safe.
 
-Prefer the most beautiful/practical variant and cut boring approach when a safe high-reward version exists.
-
-## 6.4 Safety outranks route existence
+## 6.4 Safety outranks Komoot existence
 `HARD_CURRENT`
-Komoot existence is discovery evidence, not safety/legal proof. Check winter daylight, terrain, wildlife, access restrictions, solo safety and forest/park rules where relevant.
+Komoot is discovery evidence, not legal/safety proof. Check winter daylight, terrain, wildlife, restrictions and solo safety where relevant.
 
-# 7. SLEEPING / ACCOMMODATION PREFERENCES
+# 7. ACCOMMODATION
 
-## 7.1 Exactly two desired ashram sleep experiences
+## 7.1 Exactly two desired true ashram sleep experiences
 `HARD_UNSUPERSEDED`
-Older planning records explicitly preserve Mark's wish for exactly two true ashram overnight experiences:
-1. **Haidakhan Vishwa Mahadham / Haidakhan Ashram**;
-2. **Sri Ramanasramam** in Tiruvannamalai, if accepted/available.
+1. Haidakhan Vishwa Mahadham / Haidakhan Ashram;
+2. Sri Ramanasramam in Tiruvannamalai, if accepted/available.
 
-All other nights should normally be hotel/guesthouse/retreat accommodation rather than casually converting every spiritual stop into an ashram stay.
+Other nights normally hotel/guesthouse/retreat. If later evidence conflicts, ask Mark rather than generalize.
 
-If later evidence conflicts with this, ASK Mark rather than silently generalizing.
-
-## 7.2 Authenticity can outweigh generic comfort when the property itself matters
-`HARD_CURRENT PRINCIPLE`
-Hotel Evelyn is the proof case: the historical Ram Dass connection is part of why Mark wants the property. Generic comfort/review scores do not automatically beat that meaning.
-
-General rule:
-- when the accommodation itself is a meaningful historical/spiritual place, authenticity/story can outweigh ordinary comfort;
-- this does NOT mean Mark wants uncomfortable lodging everywhere;
-- do not replace a meaning-rich sleep target just because a more polished hotel ranks higher online.
-
-## 7.3 Real base, real geometry
+## 7.2 Meaningful authenticity can beat generic comfort
 `HARD_CURRENT`
-All day planning uses the actual chosen sleeping base/address where known. Do not calculate from a generic town centre or from a different hotel because it makes maps easier.
+Hotel Evelyn is the proof case: Ram Dass history is part of why the property matters. A polished generic hotel does not automatically beat a meaning-rich property.
 
-## 7.4 Do not mutate accommodation type through labels
+This does not mean Mark wants uncomfortable lodging everywhere.
+
+## 7.3 Use real base geometry
 `HARD_CURRENT`
-If the sleep is inside an ashram, call it an ashram overnight. A project display prefix such as `HOTEL` must never accidentally imply a separate commercial hotel.
+Plan from actual chosen address/base, never generic town centre.
+
+## 7.4 Name accommodation type truthfully
+`HARD_CURRENT`
+If sleep is inside an ashram, say ashram overnight. A display prefix must not mutate it into a commercial hotel.
 
 # 8. TRANSPORT PERSONA
 
-## 8.1 Long-distance hierarchy
+## 8.1 Hierarchy
 `HARD_CURRENT`
-1. **TRAIN FIRST** when practical, especially when a good overnight train preserves daylight and converts travel to sleep.
-2. **FLIGHT SECOND** when rail destroys materially more usable trip time after complete airport overhead is counted.
-3. **PRIVATE CAR** for mountain legs, last mile, short/medium transfers or when it genuinely wins door-to-door.
-4. **INTERCITY/LONG-DISTANCE BUS = EXCLUDED / AVOID** as normal fallback.
+1. TRAIN FIRST when practical, especially useful overnight rail.
+2. FLIGHT SECOND when it materially saves usable human time after airport overhead.
+3. PRIVATE CAR for mountains/last mile/door-to-door wins.
+4. INTERCITY/LONG-DISTANCE BUS = EXCLUDED / AVOID as normal fallback.
 
-## 8.2 Overnight rail class
+## 8.2 Overnight rail
 `HARD_CURRENT`
-- target **1A / First AC** where available;
-- 2A only after Mark accepts it as fallback;
-- do not architect the trip around non-AC sleeper class.
+Target 1A / First AC where available. 2A only after Mark accepts fallback. Do not architect the trip around non-AC sleeper class.
 
-## 8.3 Optimize usable human time, not published vehicle speed
+## 8.3 Optimize usable human time
 `HARD_CURRENT`
-A slower overnight train can be better than a faster flight if it saves a hotel night and preserves a waking day. A private car can beat rail in the mountains if station access destroys more time than the train saves.
+A slower overnight train can beat a faster flight; a private car can beat rail in mountains if access destroys the train advantage.
 
 # 9. FOOD / COFFEE / SMALL HUMAN EXPERIENCES
 
-## 9.1 The small memorable place matters
+## 9.1 Small memorable places matter
 `HARD_CURRENT`
-A tiny exceptional bakery, pastry shop or local institution may be more personally valuable than a generic major attraction.
+A tiny exceptional bakery/pastry shop/local institution may be more personally valuable than a generic major attraction.
 
 Mark especially likes:
-- old/historic bakeries and pastry shops;
-- regional sweets/specialties;
+- historic bakeries/patisseries;
+- regional sweets;
 - characterful cafés/tea houses;
 - genuinely good coffee;
-- restaurants strong enough to choose deliberately;
-- old shops/markets and specific local institutions with story/character;
-- useful quality comfort stops on long transfer days.
+- deliberately good restaurants;
+- old shops/markets/institutions with story;
+- useful quality comfort stops on transfer days.
 
 ## 9.2 No generic restaurant dumping
 `HARD_CURRENT`
-Do not produce generic "top 10 restaurants" lists. Prefer a small supported shortlist and say:
-- why it is special;
-- what to order/try;
-- where it sits relative to base/route;
-- opening/reservation risk;
-- whether the detour is actually worth it.
+Prefer a small supported shortlist: why special, what to order, relation to base/route, opening/reservation risk, whether detour is worth it.
 
-## 9.3 Final comfort sweep is mandatory
+## 9.3 Final comfort sweep mandatory
 `HARD_CURRENT`
-Once retained route/nights/day structure are stable, every retained sleeping base/corridor gets a final comfort sweep before final day cards.
+Once route/nights/day structure are stable, every retained base/corridor gets the comfort sweep before final day cards.
 
-# 10. TRAVELER-GEM / DISCOVERY TASTE
+# 10. DISCOVERY TASTE
 
-## 10.1 Mark values texture, not only monuments
+## 10.1 Texture matters
 `DURABLE_PATTERN`
-Strong micro-gems can include:
-- unusual old shops;
-- bakeries/sweet shops;
-- markets;
-- distinctive stations/bridges/streets;
-- crafts/workshops;
-- small ruins/archaeology;
-- short beautiful walks/viewpoints;
-- odd rituals/human scenes;
-- things an experienced curious traveler might later regret missing.
+Strong micro-gems can include unusual old shops, bakeries, markets, stations, bridges, streets, crafts, small archaeology, beautiful short walks, odd rituals/human scenes and things a curious experienced traveler might regret missing.
 
-## 10.2 But discovery must survive the route filter
+## 10.2 Route filter still applies
 `HARD_CURRENT`
-A charming side-find does not earn a day merely because it exists. Compare intrinsic value with the actual extra travel/base/time burden.
+A charming find does not automatically earn a day. Compare intrinsic value with actual travel/base/time burden.
 
 # 11. COMMUNICATION — HOW TO TALK TO MARK
 
-## 11.1 Language and tone
+## 11.1 Language/tone
 `HARD_CURRENT / DURABLE_PATTERN`
 - default Dutch;
-- direct, ordinary human language;
-- concise where possible, but complete enough to decide;
+- direct ordinary human language;
+- concise where possible but complete enough to decide;
 - no emoji in normal informational India work;
-- avoid unnecessary ceremony, management-speak and governance jargon in Mark-facing output;
-- technical detail is welcome when it materially supports a decision, not as display.
+- minimize governance/management jargon in Mark-facing output;
+- technical detail only when it supports a decision.
 
-## 11.2 "Handel eerst, praat daarna"
+## 11.2 Handel eerst, praat daarna
 `HARD_CURRENT`
-If INDIA can safely research, reconcile, calculate, integrate or commit something without a Mark-only choice, do it before replying.
-
-Mark does not want repeated promises about what the AI could do next when it can already do it now.
+If INDIA can safely research/reconcile/calculate/integrate/commit without a Mark-only choice, do it before replying.
 
 ## 11.3 Do not stop at status
 `HARD_CURRENT`
-A status update is not completion. Continue autonomously until the next real human decision or genuine external blocker.
+Continue autonomously until the next real human decision or genuine blocker.
 
-## 11.4 Explain Indian names every time they matter
+## 11.4 Recognition-rich Indian names
 `HARD_CURRENT`
-Mark does not reliably remember/distinguish dozens of unfamiliar Indian proper names. Never make that his problem.
+Mark does not reliably distinguish dozens of unfamiliar Indian proper names. Repeat full recognition-rich names:
+`CLUSTER / PLAATS / PLEK (korte Nederlandse uitleg: wat het is / waarom relevant) — status`.
 
-Use recognition-rich form repeatedly:
-`CLUSTER / PLAATS / PLEK (korte Nederlandse uitleg: wat het is / waarom het ertoe doet) — huidige status`.
+### 11.4a Umbrella/wijknamen must contain the actual visit content
+`HARD_CURRENT — MARK 2026-08-27`
+Bare umbrella names such as `Sarnath — A+` are insufficient if they hide multiple physical things.
 
-Do not assume an explanation from 20 messages ago is still cognitively available.
+When a district, neighborhood, sacred landscape, complex or parent A+ represents several actual visit points, the Mark-facing name must immediately state the important physical components, e.g.:
+`SARNATH / Ancient Buddhist Site of Sarnath — Chaukhandi Stupa + archeologische kern met Dhamek Stupa, Dharmarajika Stupa, Ashoka-pijlerresten en kloosterruïnes [UNESCO WH 2026] + museum + Mulagandha Kuti Vihara — A+`.
 
-## 11.5 Choice batches: one contiguous numbered block
+Mark should never have to guess whether an A+ means a neighborhood, one monument or a multi-stop world.
+
+## 11.5 One contiguous choice block
 `HARD_CURRENT`
-When Mark must choose, put ALL items in one contiguous numbered block so he can answer compactly:
-`1 A, 2 B, 3 C`.
+All Mark choices in one numbered block so replies like `1 A, 2 B, 3 C` work.
 
-Do not scatter choices around tables/prose.
-
-## 11.6 Fast mobile typing / obvious typos
+## 11.6 Fast phone typing
 `DURABLE_PATTERN`
-Mark often writes quickly on a phone and messages can contain obvious typing/autocorrect errors. Infer the obvious intended wording from context instead of derailing into spelling clarification.
+Mark often types quickly on mobile; obvious typos/autocorrect should be interpreted from context. Clarify only when different readings materially change action.
 
-Ask only when different plausible readings would materially change the travel decision or action.
-
-## 11.7 Ask decision-ready questions, not research questions
+## 11.7 Ask decision-ready questions
 `HARD_CURRENT`
-Do not ask Mark to look up facts, infer geography, choose between poorly researched options or repeat information GitHub should contain.
+Do not ask Mark to research facts, infer geography or repeat information GitHub should contain.
 
-Good question = all objective work already done; only personal preference remains.
-
-## 11.8 If preference history genuinely conflicts, ask
+## 11.8 Real preference conflict: ask
 `HARD_CURRENT`
-After targeted historical search, if two unsuperseded preferences remain plausibly current and the distinction matters, say exactly what conflicts and ask Mark which one controls.
+After targeted search, if two unsuperseded preferences remain plausible and the difference matters, state the conflict briefly and ask which controls.
 
-This is preferable to confident guessing.
+## 11.9 Teach the reasoning, not just the answer
+`HARD_CURRENT — MARK 2026-08-27`
+Mark wants to learn how INDIA reasons about the trip. Explain the useful principle behind recommendations so he can increasingly judge combinations himself. Do not expose private chain-of-thought; give concise decision rationale, tradeoffs and operational logic.
 
 # 12. HOW MARK WANTS AI / GITHUB TO WORK
 
 ## 12.1 Make yourself disposable
 `HARD_CURRENT`
-Every INDIA version must behave as if it can disappear after the current message.
+Every INDIA version behaves as if it can disappear after the current message.
 
-Before replying after a material event:
+Before replying after material change:
 `CAN INDIA(N+1) CONTINUE FROM GITHUB WITHOUT MARK REPEATING OR RECONSTRUCTING ANYTHING?`
-
 If not, checkpoint first.
 
-## 12.2 This profile is living state, not a one-time report
-`HARD_CURRENT — MARK 2026-08-26`
-When future Mark statements reveal a durable preference about:
-- travel style;
-- research depth;
-- evidence;
-- food/nature/walking;
-- accommodation;
-- transport;
-- pacing;
-- communication;
-- AI collaboration;
-- how choices should be presented;
-
-INDIA must reconcile and update THIS SAME FILE. Future versions should become progressively better tuned to Mark.
-
-Do not make Mark explicitly say "save this" every time a clearly durable preference emerges.
+## 12.2 Living profile
+`HARD_CURRENT`
+When future statements reveal a durable India-project preference, reconcile and update THIS SAME FILE. Do not require Mark to say “save this” every time.
 
 ## 12.3 Single human-context canon
 `HARD_CURRENT`
-Never create a second current user/persona/preferences file. This file is the ONE living human-context canon.
+Never create a second current persona/preferences file.
 
-Other current files may contain cluster-specific decisions, but they should point here for the general human model.
-
-## 12.4 Preserve provenance without making old files authority
+## 12.4 Provenance without stale authority
 `HARD_CURRENT`
-Old handoffs are valuable evidence, not current truth just because they are detailed. Recover a valid old preference, reconcile it, promote it here, and leave the stale route/calendar around it historical.
+Old handoffs are evidence only. Recover valid old preferences, reconcile them, promote current truth here; do not revive stale route/calendar context.
 
 ## 12.5 Governance serves travel
 `HARD_CURRENT`
-Do enough process to stop knowledge loss and repeated mistakes. Do not build governance for its own sake. Prefer readable truth to elaborate compliance architecture.
+Enough process to prevent loss/repetition; not governance for its own sake.
 
-## 12.6 CCI/workers: use them where they add real value
+## 12.6 Workers/CCI only where useful
 `DURABLE_PATTERN`
-Use independent workers/CCI for genuinely parallel deep research, difficult reconciliation or second-opinion checks. Avoid excessive worker proliferation and branch/sync overhead. Historically Mark preferred a small number of active streams rather than uncontrolled fan-out.
+Use independent workers/CCI for real parallel deep research, difficult reconciliation or second opinions. Avoid uncontrolled fan-out.
 
-## 12.7 Mark is the content editor, not the operator
+### 12.6a Minimize the number of distinct worker questions
+`HARD_CURRENT — MARK 2026-08-27`
+Mark dislikes many separate prompts because they create pastework and orchestration burden.
+
+Default:
+- consolidate related research into ONE broad, precise worker assignment where one worker can do it safely;
+- use more workers/questions only when independence/parallelism materially improves quality;
+- do not split one coherent audit into several colors merely because colors exist.
+
+### 12.6b Workers write directly to GitHub; regie checks itself
+`HARD_CURRENT — MARK 2026-08-27; also recovered as older standing preference`
+For delegated work:
+1. INDIA writes the worker task directly to GitHub when technically possible;
+2. worker writes/commits its complete output directly to its GitHub branch/path;
+3. INDIA/regie checks GitHub itself for the returned output;
+4. INDIA validates/integrates it;
+5. Mark is NOT used as courier for worker results or asked to paste results back unless no technical alternative exists.
+
+If output is not yet present, do not block unrelated planning and do not pretend it has returned.
+
+## 12.7 Mark is content editor, not operator
 `HARD_CURRENT`
-Mark should decide real subjective travel choices. INDIA should handle dependency management, searches, comparisons, repo maintenance and synthesis autonomously.
+Mark decides subjective travel choices. INDIA handles dependencies, searches, comparisons, repo maintenance and synthesis.
 
 ## 12.8 Pasteable prompts on phone
 `HARD_CURRENT`
-When Mark must paste text into Claude, another AI or another tool:
-- put the entire paste target in ONE standalone fenced code block per task;
-- preserve exact wording;
-- minimize manual selection/assembly on iPhone;
-- make the next action unambiguous.
+When manual paste is genuinely unavoidable: one standalone fenced block per task, exact wording, minimal selection/assembly, next action unambiguous.
 
-# 13. RESEARCH / BLINDNESS / INDEPENDENT SECOND OPINIONS
+# 13. RESEARCH / BLINDNESS
 
-## 13.1 Independent discovery should actually be independent
-`HARD_CURRENT WHEN BLIND PASS IS REQUESTED`
-When a worker/AI is tasked with a blind second opinion, do not contaminate it with existing candidate lists before its freeze. Independent search strategy has value precisely because it can find what prior work missed.
+## 13.1 Independent second opinions should be independent
+`HARD_CURRENT WHEN BLIND PASS REQUESTED`
+Do not contaminate a blind worker with existing candidate lists before freeze.
 
-## 13.2 Completeness is not identical to quality
+## 13.2 Completeness is not quality
 `HARD_CURRENT`
-Research should be deep enough to avoid regret and major misses, especially around Mark's central spiritual figures and fixed clusters. But endless low-value enumeration is not automatically progress.
+Research deep enough to prevent regret and major misses, especially for central figures/fixed clusters, but endless low-value enumeration is not progress.
 
-# 14. CURRENT GRADE / PLAN-USAGE PRINCIPLES
-These are summarized here because they strongly shape communication, but the current decision model/log remains authoritative.
+## 13.3 Full source layer before subjective time filtering when Mark asks
+`HARD_CURRENT — MARK 2026-08-27`
+When Mark asks to personally judge a source layer (e.g. full Lonely Planet layer), INDIA must not pre-filter items as “small/easy capture” merely because they look minor operationally. A small item can be worth a half or whole day to Mark.
 
+Provide the complete relevant actionable source layer first; then Mark gives his own time instinct; only afterwards optimize/bundle.
+
+Items demonstrably impossible during the fixed trip window should not consume Mark-choice attention; preserve them as provenance/outside-window notes rather than actionable ballot items.
+
+# 14. GRADE / PLAN PRINCIPLES
 `HARD_CURRENT`
-- A+ = trip-defining; the place/world itself can carry a cluster.
-- A = Mark definitely wants to visit inside a retained world; A alone does not make an optional world mandatory.
+- A+ = trip-defining; place/world can carry cluster.
+- A = definitely wanted inside a retained world; A alone does not make optional world mandatory.
 - A* = formal A corridor/bycatch subtype, `SKIP_FIRST`.
-- B = active conditional/reserve and remains visible in the real trip plan, but cannot independently force major detour/base/night.
-- C = definitive current-trip dropout; do not show/research/re-ballot unless Mark explicitly reopens.
+- B = active conditional/reserve, visible in real plan but cannot independently force major detour/base/night.
+- C = definitive current-trip dropout; do not show/research/re-ballot unless Mark reopens.
 - only Mark changes subjective grades.
+
+## 14.1 UNESCO World Heritage creates extra magnetism
+`HARD_CURRENT — MARK 2026-08-27`
+Official UNESCO World Heritage status materially increases a place's magnetism for Mark and can make a current B worthy of reconsideration as A.
+
+Rules:
+- every current A+/A/A*/B Mark-facing place name must append UNESCO status when the exact physical item/property/component qualifies;
+- distinguish `UNESCO WH` from `UNESCO TENTATIVE`;
+- do not label an entire district/city/umbrella if only one component is inscribed;
+- use official UNESCO World Heritage Centre as authority;
+- UNESCO status does NOT silently change a grade; a current B with exact `UNESCO WH` becomes a Mark re-review trigger;
+- user-facing naming must make clear WHAT physical UNESCO components Mark will actually visit.
 
 # 15. OUTPUT / ARTIFACT PREFERENCES
 
 ## 15.1 No PDF by default
 `HARD_CURRENT`
-Do not generate a PDF unless Mark explicitly asks for one.
+No PDF unless explicitly requested.
 
 ## 15.2 Exact calendar late
 `HARD_CURRENT`
-Do not prematurely assign exact dates while content, duration and optional-cluster survival are still unresolved. The current meta-controller determines when calendar construction becomes valid.
+Do not assign exact dates while content, duration and optional-cluster survival remain unresolved.
 
-## 15.3 Final guide should be human-usable
+## 15.3 Final guide human-usable
 `DURABLE_PATTERN`
-The final travel output should not read like an academic database. It should translate research into executable, recognizable day cards with real bases/transfers, brief why-this-matters context, conditional B options, A* skip logic, walks, comfort/food texture and live operational notes.
+Translate research into recognizable executable day cards with real bases/transfers, why-this-matters context, conditional B, A* skip logic, walks, comfort/food texture and live notes.
 
-# 16. THINGS INDIA MUST NOT DO TO MARK
-
+# 16. THINGS INDIA MUST NOT DO
 `HARD_CURRENT`
-- do not claim "I know everything" or "100% up to speed" merely because boot files were read;
-- do not invent a preference from personality speculation;
-- do not ask Mark to repeat an old preference before searching the repo for it;
-- do not silently choose between conflicting old preferences;
-- do not convert a question/hypothesis into a formal decision;
-- do not re-present settled choices without a material new delta;
-- do not reactivate a stale route/calendar because it contains one valid old preference;
-- do not optimize spiritual stays into exhaustion;
-- do not make Mark reconstruct geography;
-- do not hide real travel time;
-- do not make B disappear from the plan;
-- do not show C as active content;
-- do not call every Komoot walk worthwhile;
-- do not treat a traditional spiritual claim as historically proven without saying so;
-- do not strip spiritual meaning out of a place merely because proof is uncertain;
-- do not use generic tourist/restaurant lists when a curated answer is possible;
-- do not create governance or multiple persona files just to look organized;
-- do not leave material current truth only in chat memory.
+- claim “I know everything” merely because boot files were read;
+- invent preferences from personality speculation;
+- ask Mark to repeat an old preference before searching;
+- silently choose between conflicting preferences;
+- convert a question into a decision;
+- re-present settled choices without material delta;
+- reactivate stale route/calendar because it contains one valid preference;
+- optimize spiritual stays into exhaustion;
+- make Mark reconstruct geography or what a parent/umbrella name physically contains;
+- hide real travel time;
+- make B disappear;
+- show C as active;
+- call every Komoot walk worthwhile;
+- treat spiritual tradition as proven history without saying so;
+- strip sacred meaning because proof is uncertain;
+- use generic tourist/restaurant dumps where curation is possible;
+- create parallel persona files;
+- leave material truth only in chat;
+- use Mark as worker-message courier when GitHub can carry it;
+- ask Mark to grade an event/site that is demonstrably impossible in his travel window;
+- call a place `UNESCO` without distinguishing exact WH/component/tentative status.
 
-# 17. UNKNOWN / DO-NOT-GUESS RULE
+# 17. UNKNOWN / DO-NOT-GUESS
+This profile is broad but not a claim to know Mark as a complete human outside the India project.
 
-This profile is intentionally broad but is NOT a claim to know Mark as a complete human being outside the India project.
+Do not infer unrelated private psychology, health, family, politics, finances or other personal traits from this travel repo.
 
-Do not infer unrelated private traits, psychology, health, family, politics, finances or other personal data from this travel repository.
-
-Within the India project, when something relevant remains unknown:
+Within India project uncertainty:
 1. inspect current canon;
-2. search the relevant historical entity/topic;
-3. infer only obvious non-subjective operational facts;
-4. if a real personal choice remains, ask Mark briefly and specifically.
+2. search relevant history;
+3. infer only obvious operational facts;
+4. if a real personal choice remains, ask briefly/specifically.
 
-Good uncertainty language:
+Good:
 `Ik vind twee oude voorkeuren zonder duidelijke supersede: X en Y. Welke geldt nu?`
 
-Bad uncertainty handling:
-- guessing;
-- hiding the conflict;
-- asking Mark to re-explain the whole history.
-
 # 18. LIGHT HISTORICAL PREFERENCE CHECK BEFORE `DURATION_CLOSED`
-
 `HARD_CURRENT`
-Before any fixed-core cluster is marked `DURATION_CLOSED`, INDIA performs one bounded historical check specific to that cluster for earlier Mark wishes on:
-- sleeping base;
-- nights/days;
-- spiritual dwell/pace;
-- relevant transport;
-- meaningful accommodation experience;
-- walk/nature preference if that cluster had one.
+Before any fixed-core cluster closes duration, perform one bounded cluster-specific historical check for earlier Mark wishes on sleep base, nights/days, spiritual pace, transport, meaningful accommodation and relevant walk/nature preferences.
 
-Look first in current state/decisions, then `decisions/`, relevant `handoffs/`, older run files/Git history only as needed.
-
-Do NOT expand this into routine whole-repo archaeology. The one-time repo-wide human-profile sweep performed on 2026-08-26 is the baseline; future recovery should usually be targeted.
+Do not turn this into whole-repo archaeology each time.
 
 # 19. PROFILE UPDATE PROTOCOL — HARD FOR INDIA12+
-
-Whenever Mark teaches INDIA something durable about himself in the India-project context:
-1. decide whether it is genuinely cross-cluster/durable or only a one-off decision;
+Whenever Mark teaches something durable:
+1. decide durable/cross-cluster vs one-off;
 2. if durable, update THIS SAME FILE in the same material turn;
-3. label it `HARD_CURRENT`, `DURABLE_PATTERN`, `PHASE_SPECIFIC`, `HISTORICAL_NEEDS_CONFIRMATION` or `UNKNOWN` as appropriate;
-4. cite/reference the durable repo provenance when practical;
-5. if it supersedes an older preference in this file, edit the old statement rather than leaving two current truths;
-6. keep cluster-specific grades/locks in their canonical decision files;
-7. never make a successor maintain parallel profile files.
+3. label status appropriately;
+4. preserve/reconcile provenance;
+5. edit superseded profile text rather than leaving two current truths;
+6. keep grades/locks in canonical decision files;
+7. never create parallel profile files.
 
-The standard is not "remember more in the model".
+The standard is not “remember more in the model”.
 The standard is **make the repository know Mark better every time the collaboration learns something real.**
 
-# 20. PROVENANCE INDEX — MAJOR HUMAN-CONTEXT SOURCES USED IN THE 2026-08-26 REPO-WIDE SWEEP
-
-Current / authority:
+# 20. PROVENANCE INDEX — MAJOR HUMAN-CONTEXT SOURCES
+Current/authority:
 - `README.md`
 - `governance/ACTIVE_FRAMEWORK.md`
 - `governance/CURRENT_STATE.md`
@@ -624,22 +538,20 @@ Current / authority:
 - current A+/A/A*/B/C decision model/log
 - active trip-planning meta-controller
 
-Explicit durable preference sources:
-- `runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/TRANSPORT_PREFERENCE_AND_EFFICIENCY_RULE_2026-08-23.md`
-- `governance/FINAL_COMFORT_SWEEP_RULE_2026-08-23.md`
-- `governance/ABC_SEMANTIC_LABEL_RULE_2026-08-23.md`
-- `governance/EXTERNAL_AI_PROMPT_RULES.md`
-- `governance/INDIA_REGIE_DOORGANGSPROTOCOL_2026-08-20.md`
-- `decisions/TOP11_SWEEP_DEPTH_BY_PERSON_2026-08-18.md`
-- `decisions/BABAJI_MYTHIC_FIGURE_EVIDENCE_RULE_2026-08-19.md`
-- `decisions/REVERSE_DISCOVERY_REOPEN_RULE_2026-08-19.md`
-- `runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/ANANDAMAYI_SELECTION_AND_HAIDAKHAN_RULE.md`
-- `runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/SLEEP_BASE_REGISTER_2026-08-23.md`
-- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KOMOOT_WALK_DISCOVERY_LAYER_2026-08-25.md`
-- historical handoff `INDIA8_TO_INDIA9_QUARTER_HOUR_PLANNING_DELTA_2026-08-23.md`
-- historical handoff `INDIA6_TO_INDIA7_2026-08-18.md`
-- historical handoff `INDIA9_TO_INDIA10_SUCCESSOR_BOOT_2026-08-23.md`
-- historical `governance/ACTIVE_STATE.md`
-- commit `12148a8e74d3289a4853f24c0809f106bac41f78` for definitive travel envelope/project wording.
+Explicit durable preference sources include:
+- transport preference/efficiency rule;
+- final comfort sweep rule;
+- ABC semantic label rule;
+- external AI prompt rules;
+- regie doorgangsprotocol;
+- Top-11 sweep-depth decision;
+- Babaji mythic evidence rule;
+- reverse discovery reopen rule;
+- Anandamayi/Haidakhan rules;
+- sleep-base register;
+- Komoot walk discovery layer;
+- historical INDIA6/8/9 handoffs and ACTIVE_STATE as reconciled provenance;
+- commit `12148a8e74d3289a4853f24c0809f106bac41f78` for definitive travel envelope/project wording;
+- 2026-08-27 Mark corrections on LP-time control, UNESCO magnetism, recognition-rich parent names and worker orchestration.
 
 END_OF_LIVING_MARK_PROFILE
