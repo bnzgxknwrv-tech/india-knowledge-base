@@ -1,96 +1,130 @@
 # VARANASI / SARNATH — RELAXED 8-NIGHT EXECUTION PROPOSAL — 2026-08-27
 
-status: MARK_PACE_REVIEW_REQUIRED
+status: MARK_PACE_REVIEW_REQUIRED__CONTENT_LAYERS_CLOSED_ENOUGH
 branch: agent/india8-cluster-casting
 sleep_base: Sahi River View Guesthouse, Assi Ghat — LOCKED_BY_MARK
 calendar_status: NO_EXACT_DATES
 
-## WHY 8 NIGHTS EMERGES
-This proposal does not maximize site count. It preserves Mark's recovered Varanasi rhythm:
+## WHY 8 NIGHTS STILL EMERGES AFTER THE FULL LP + NON-LP REVIEW
+This rebuild uses Marks actual grades/time instincts rather than INDIA deciding which traveler finds are 'small'.
+
+Hard pace inputs:
 - roughly one MAIN experiential world per day;
 - separate dawn experiences are not stacked merely to save nights;
 - unstructured Ganges/rest time remains possible;
-- Marks explicit LP time allocations are protected;
-- Sarnath is treated as a real half-day/generous-half-day world, not a distant full-day excursion;
-- B remains visible as reserve, never a night-driver.
+- Mark's explicit time allocations are protected;
+- B remains visible conditional but never adds a night by itself;
+- A* is host-dependent bycatch only and may disappear at any moment;
+- C is absent from execution.
+
+New traveler closure incorporated:
+- Ram Bhandar — A;
+- winter Malaiyo — A;
+- Tulsi Ghat Akhada — B;
+- Ramnagar Fort Museum — C;
+- crafts/museums side layers from final traveler pass — C where Mark decided;
+- long Chunar cruise — C;
+- Alamgir Mosque — A* ONLY because it is at Panchganga A+; not an intrinsic A;
+- south Varanasi extra Jain layer — C;
+- one Aarti only: from shore / one good fixed position; no second Aarti boat ride;
+- dawn rowboat remains the deliberate boat experience.
+
+# DAY STRUCTURE
 
 ## V0 — BODH GAYA / GAYA -> VARANASI / ASSI — OCCUPIED ARRIVAL DAY
-Destination: `Sahi River View Guesthouse, Assi Ghat — LOCKED_BY_MARK`.
-- real transfer day from Bodh Gaya/Gaya;
-- no major A+/A circuit;
-- if energy permits: slow first Assi/Ganges orientation only.
+Destination:
+`VARANASI / ASSI GHAT / Sahi River View Guesthouse (Marks gekozen verblijf direct bij Assi Ghat) — LOCKED_BY_MARK`.
+
+Treat as real occupied transfer/arrival day from Bodh Gaya/Gaya.
+No major A+/A circuit.
+If energy allows only:
+- first Assi Ghat orientation;
+- tea/food;
+- quiet Ganges time.
 Night V1.
 
-## V1 — GANGES DAWN ROWBOAT DAY
+## V1 — DAWN ROWBOAT / GANGES EXPERIENCE DAY
 Main experience:
 `VARANASI / GANGES / dawn rowboat (zonsopkomst vanaf de rivier langs de levende ghats) — A`.
-Mark time: **2.5 h total dawn block**, ideally ~90–120 min actual rowing plus calm embark/disembark margin.
+Mark allocation: **2.5 h total dawn block**, ideally ~90–120 min actual rowing plus calm embark/disembark margin.
 
 Execution:
 - embark from/near Assi before sunrise;
-- row north along the awakening ghats;
-- no second major dawn activity attached;
-- breakfast/chai and a genuinely slow rest of morning;
-- afternoon deliberately light/free for Assi, hotel, river, reading, photography or repetition.
+- row north along the waking ghats;
+- this is the deliberate boat experience of the Varanasi stay;
+- do NOT add the evening Aarti from a boat later;
+- breakfast/chai after landing;
+- remainder of morning/afternoon intentionally light/free: hotel, Assi, reading, photography, rest or repetition.
 
-Do not 'recover efficiency' by adding another major circuit later.
+Do not recover 'efficiency' by attaching another major spiritual circuit.
 Night V2.
 
 ## V2 — SUBAH-E-BANARAS + SOUTH VARANASI SACRED WORLD
 Dawn anchor:
-`VARANASI / ASSI GHAT / Subah-e-Banaras (Vedische gezangen, muziek/yoga/meditatie bij zonsopkomst) — A`.
-Working allowance: ~1–1.5 h as morning experience; exact live programme later.
+`VARANASI / ASSI GHAT / Subah-e-Banaras (Vedische gezangen, muziek/yoga/meditatie aan Assi bij zonsopkomst) — A`.
+Working technical allowance: ~1–1.5 h; final live timing later.
 
 Then breakfast/rest.
 
-Main south-world circuit later:
-- `Anandamayi Ma Ashram, Bhadaini — A+`;
-- `Tulsi Ghat + Lolark Kund — A`;
-- `Durga Temple + Durga Kund — A`;
-- `Sankat Mochan Hanuman Temple — A`;
-- `Kedareshwar Temple + Kedar Ghat — A` where river/local geometry fits.
+Main south-world circuit:
+- `VARANASI / BHADAINI / Anandamayi Ma Ashram (bezoekbaar Anandamayi Ma-ashram) — A+`;
+- `VARANASI / TULSI GHAT / Tulsi Ghat + Lolark Kund (ghat + oude zon-/vruchtbaarheidskund) — A`;
+- `VARANASI / DURGA KUND / Durga Temple + Durga Kund (rode Durga-tempel met heilige vijver) — A`;
+- `VARANASI / SANKAT MOCHAN / Sankat Mochan Hanuman Temple (belangrijke Hanuman-tempel) — A`.
 
-B reserve only:
+B reserve in exactly this geography:
 - Tulsi Manas Temple — B;
-- Bhaskarananda Samadhi — B.
+- Bhaskarananda Samadhi — B;
+- `Tulsi Ghat Akhada (levende kushti/worsteltraditie) — B`, only if training/access/energy make it attractive.
 
-Do not force every B.
+No C craft/museum additions.
 Night V3.
 
-## V3 — VARANASI KRIYA CORE + OLD KASHI HUMAN TEXTURE
-Main world:
+## V3 — OLD KASHI BREAKFAST + KRIYA CORE + HUMAN FOOD/LANE TEXTURE
+Start deliberately with:
+- `VARANASI / THATHERI BAZAAR / The Ram Bhandar (oude Banarasi ontbijtzaak; kachori-sabzi/jalebi) — A` — working breakfast slot ~1 h unless Mark later wants longer.
+
+Then use the already-selected Old Kashi texture as movement, not a separate sightseeing excursion:
+- `VARANASI / OLD KASHI / Bengali Tola–Thatheri Bazaar–Chowk lanes (oude stegen/markten) — A` — Mark allocation **1 h**, preferably THROUGH the area toward selected content.
+
+Main spiritual/person world:
 `VARANASI / OLD CITY / Varanasi Kriya core (Lahiri Mahasaya-huis + samadhi/Satyalok + Yogananda/Sri Yukteswar-zone) — A+ parent`.
 
 Core:
 - Lahiri Mahasaya original home;
 - Lahiri Mahasaya Samadhi / Satyalok;
-- Rana Mahal / Yogananda–Sri Yukteswar historical zone without fabricating an exact lost house.
+- Rana Mahal / Yogananda–Sri Yukteswar historic zone without fabricating an exact lost house.
 
-Mark LP texture allocations naturally bundled:
-- `Bengali Tola–Thatheri Bazaar–Chowk lanes (oude stegen/markten/werkplaatsen) — A` — **1 h**, preferably walked THROUGH toward another selected destination;
-- `Banarasi paan — A` — **1 h experience allowance**, only while already in the relevant old-city movement; never a special taxi day.
+Food texture while already in Old Kashi:
+- `Banarasi paan — A` — Mark allocation **1 h**, no dedicated taxi/day;
+- `winter Malaiyo / Makhan Malai — A` — working **30–60 min** seasonal stop unless Mark later specifies another dwell; December/January is the point of selecting it.
 
-Do not add unrelated monument collection simply because Old Kashi is dense.
+This is a full Old Kashi/Kriya day but not a random monument marathon.
 Night V4.
 
-## V4 — SLOW GHAT WALK + GANGA AARTI RIVER DAY
+## V4 — SLOW GHAT WALK + KEDAR WORLD + GANGA AARTI
 Morning main experience:
-`ASSI–TULSI–RIVERFRONT / slow ghat walk (langzame rivierwandeling door het levende Gangeslandschap) — A`.
-Mark time: **3 h**.
+`VARANASI / ASSI–TULSI–RIVERFRONT / slow ghat walk (langzame wandeling door het levende Gangeslandschap) — A`.
+Mark allocation: **3 h walking/experience**.
 
-Execution:
-- walk north from Assi through selected ghats at observation pace;
-- sitting, photographing, chai and ritual watching are part of the 3-hour experience, not 'delay';
-- Harishchandra Ghat — B may be captured naturally if the route reaches it without forcing a detour.
+Natural intrinsic A on that river movement:
+- `VARANASI / KEDAR GHAT / Kedareshwar Temple + Kedar Ghat (belangrijke Shiva-tempel/ghat in zuid-centraal Varanasi) — A`.
+Treat the temple visit as real extra experience time; do not pretend it disappears inside the 3 h walk. Working addition ~30–45 min until Mark gives another preference.
+
+B reserve:
+- Harishchandra Ghat — B if naturally encountered/energy good.
 
 Middle of day:
-- return/rest at hotel or quiet food; protect energy.
+- return/rest/quiet food; protect energy.
 
 Evening main experience:
-`Dashashwamedh Ghat + Shitala Mata Temple / Ganga Aarti (dé grote avondceremonie aan de Ganges) — A+`.
-Mark time: **full evening / 2 h reserved**.
+`VARANASI / DASHASHWAMEDH / Ganga Aarti (de grote avondceremonie aan de Ganges) — A+ experience inside Dashashwamedh/Shitala A+ world`.
+Mark allocation: **full evening / 2 h reserved**.
+Execution decision:
+- **from shore / one good fixed position**;
+- no second Aarti boat experience;
+- the morning dawn rowboat is already the boat experience.
 
-This is deliberately a pure Ganges day, not a temple-marathon day.
 Night V5.
 
 ## V5 — KASHI VISHWANATH + MANIKARNIKA SACRED CORE
@@ -99,81 +133,94 @@ Main world:
 
 Core:
 - Kashi Vishwanath Temple — A+;
-- Annapurna/Vishalakshi sacred children — A+ within core where current canon specifies;
+- Maa Annapurna + Vishalakshi — A+ children within sacred core;
 - Manikarnika Ghat — A+;
-- `Ratneshwar Mahadev leaning river temple — A+ child` — Mark time **1 h on site / experience excluding travel**;
-- `Lalita Ghat + Nepali/Kathwala Temple — A`.
+- `Ratneshwar Mahadev leaning river temple (scheefstaande Shiva-tempel bij Manikarnika) — A+ child` — Mark allocation **1 h**, excluding travel;
+- `Lalita Ghat + Nepali/Kathwala Temple (Nepalese pagodetempel aan de rivier) — A`;
+- `Sankatha Devi Temple (oude Devi-tempel in noordelijke Old Kashi) — A` where exact day geometry works.
 
-Because Aarti already had its own previous evening, this day can remain focused on the sacred Shiva/cremation world rather than stretching into night.
+Aarti already has its own previous evening. Do not extend this into another ceremonial night merely because it is nearby.
 Night V6.
 
-## V6 — NORTH KASHI / TAILANGA SWAMI WORLD
+## V6 — NORTH KASHI / TAILANGA SWAMI / PANCHGANGA WORLD
 Main world:
-`VARANASI / PANCHGANGA / Tailanga Swami Math + Panchganga Ghat + Bindu Madhav Temple — A+`.
+`VARANASI / PANCHGANGA / Tailanga Swami Math + Panchganga Ghat + Bindu Madhav Temple (heilige wereld rond yogi Tailanga Swami) — A+`.
 
-Retained A in the same north-city geometry:
-- Sankatha Devi Temple — A;
-- Adi Keshava Ghat + Temple — A;
-- Kabir Chaura Math — A where practical within the day's movement.
+Intrinsic A in same northern movement:
+- `VARANASI / ADI KESHAVA–RAJGHAT / Adi Keshava Ghat + Temple (noordelijke Ganges-/Varuna-samenvloeiingswereld) — A`;
+- `VARANASI / KABIR CHAURA / Kabir Chaura Math (belangrijke Kabir-pelgrimsplek) — A` if practical in the same movement.
+
+A* — HOST DEPENDENT / SKIP_FIRST:
+- `VARANASI / PANCHGANGA / Alamgir Mosque / Dharahara visual-history layer (17e-eeuwse moskee boven Panchganga) — A*` **alleen omdat we al bij A+ Panchganga zijn**. Not intrinsic A. Zero claim on another day. Skip immediately if access/time/energy is not attractive.
 
 B reserve only:
 - Kaal Bhairav Temple — B;
 - Mrityunjay Mahadev Temple — B;
-- Lahartara Kabir birthplace memorial — B only if truly easy;
-- Yogoda Satsanga Dhyana Mandali, Varanasi — B only if genuinely relevant/nearby.
+- Lahartara Kabir birthplace memorial — B only if unexpectedly easy;
+- YSS Dhyana Mandali Varanasi — B only if genuinely relevant/easy.
 
-Do not convert every B into another major circuit.
+Rajghat archaeology/Tomb Lal Khan is C and absent despite proximity.
 Night V7.
 
-## V7 — SARNATH UNESCO / BUDDHIST + JAIN WORLD
-Use recognition-rich name:
-`VARANASI / SARNATH / Ancient Buddhist Site of Sarnath — Chaukhandi Stupa + archeologische kern met Dhamek Stupa, Dharmarajika Stupa, Ashoka-pijlerresten en kloosterruïnes [UNESCO WH 2026] + Sarnath Archaeological Museum + Mulagandha Kuti Vihara — A+`.
+## V7 — SARNATH BUDDHIST + JAIN WORLD — UNESCO WH 2026
+Use precise recognition-rich display:
+`VARANASI / SARNATH / Ancient Buddhist Site of Sarnath — Chaukhandi Stupa + Archaeological Remains of Sarnath [UNESCO WH 2026] (Boeddha's eerste-preeklandschap) — A+`.
 
-Guided visit order:
-1. Chaukhandi Stupa — official UNESCO component;
-2. Archaeological Remains of Sarnath — official UNESCO component including Dhamek/Dharmarajika/Ashoka/monastic context;
-3. Sarnath Archaeological Museum — interpretation, Lion Capital and Sarnath sculpture; do not label museum building itself as UNESCO component;
-4. Mulagandha Kuti Vihara — living modern Buddhist temple/context;
-5. Shreyansanath Jain Tirth / Simhapuri — A, same outing but conceptually separate Jain layer.
+Exact official UNESCO components:
+1. Chaukhandi Stupa;
+2. Archaeological Remains of Sarnath.
 
-Mark-style footprint:
-- ~30–45 min each direction from Assi planner class;
-- Buddhist core ~2.5–3 h;
-- Jain A + local movement ~30–45 min;
+Retained visit world:
+- Chaukhandi Stupa — UNESCO component;
+- archaeological core including Dhamek/Dharmarajika/Ashoka-pillar/monastic context — UNESCO component landscape;
+- Sarnath Archaeological Museum — interpretation/Lion Capital/sculpture, but museum building itself is not labeled as exact UNESCO component;
+- Mulagandha Kuti Vihara — retained sacred/living Buddhist context;
+- `Shreyansanath Jain Tirth / Simhapuri (Jain-pelgrimsplek in Sarnath) — A`, conceptually separate but geographically same outing.
+
+Mark pace:
+- planner road class Assi <-> Sarnath ~30–45 min each way;
+- Mark allocation Buddhist/Sarnath core **~2.5–3 h on site**;
+- Jain A + local movement working ~30–45 min;
 - total outing roughly **4–5 h hotel-to-hotel**.
 
-Rest/free river time after return.
+No south-Varanasi Jain add-on; Mark set that C.
+Return to Assi for rest/free river time.
 Night V8.
 
-# B RESERVE — VISIBLE BUT NO NIGHT FORCE
-Examples remain available where natural:
-- Tulsi Manas Temple;
-- Bhaskarananda Samadhi;
-- Harishchandra Ghat;
-- Kaal Bhairav Temple;
-- Mrityunjay Mahadev Temple;
-- Lahartara Kabir memorial;
-- YSS Dhyana Mandali Varanasi;
-- Ramnagar Fort/museum only if final spare-time geometry later justifies it.
+# B RESERVE — VISIBLE BUT NEVER NIGHT-DRIVER
+Place only where naturally available:
+- Tulsi Manas Temple — B, V2 south day;
+- Bhaskarananda Samadhi — B, V2 south day;
+- Tulsi Ghat Akhada — B, V2 south day;
+- Harishchandra Ghat — B, V4 ghat walk;
+- Kaal Bhairav Temple — B, V6 north day;
+- Mrityunjay Mahadev Temple — B, V6 north day;
+- Lahartara Kabir memorial — B only if truly easy;
+- YSS Dhyana Mandali Varanasi — B only if truly easy.
 
-Chandraprabha waterfalls/sanctuary is now C by Mark and OUT, superseding earlier B.
-Chunar C, Jaunpur C, Bhadohi C, Rohtasgarh C and other C remain out.
+Ramnagar Fort Museum is now C and OUT.
+All other Mark C remain absent.
 
 # CURRENT PACE ENVELOPE
-### 7 nights — technically possible but requires compression
-Would require combining one of the protected dawn/river experiences with another main world or using Sarnath's remaining half-day for substantial second content. This conflicts more with Mark's recovered Varanasi rhythm.
+## 7 nights — possible only by compression
+Would require combining the dawn rowboat day with another substantial world, or turning the Sarnath half-day remainder into another major circuit, or stacking Subah-e-Banaras more aggressively. This conflicts with Marks recovered slow-Varanasi preference.
 
-### 8 nights — INDIA11 RECOMMENDATION
-Exactly the structure above:
+## 8 nights — INDIA11 recommendation
+The structure above:
 - 1 occupied arrival day;
 - 7 substantive local/world days;
-- separate dawn experiences respected;
-- no forced major B;
-- meaningful rest/Ganges space remains.
+- dawn boat, Subah, ghat walk and Aarti each retain experiential identity;
+- all intrinsic A fit without a dedicated traveler side-trip day;
+- A* Alamgir is genuinely host-dependent;
+- B remains optional;
+- meaningful rest/Ganges time survives.
 
-### 9 nights — roomy
-Adds one genuinely unscheduled/repeat day in Varanasi or separates Subah-e-Banaras from the south-city circuit. Best if Mark wants a deliberately unplanned day, repeated Assi/Ganges time or weather/fatigue reserve.
+## 9 nights — deliberately roomy
+Adds one fully unscheduled/repeat/weather/fatigue day, or allows Subah-e-Banaras to stand almost alone rather than preceding the south sacred circuit.
+Choose only if Mark wants a true free Varanasi day rather than simply a relaxed schedule.
 
-No duration is locked until Mark chooses the felt pace.
+## DURATION STATUS
+NOT LOCKED.
+Next human decision is only subjective dwell/pace after UNESCO audit delta is checked for any B that could merit regrading. If the UNESCO worker identifies a current Varanasi B as an actual UNESCO WH component/site and Mark regrades it, rebuild before duration lock.
 
 END_OF_PROPOSAL
