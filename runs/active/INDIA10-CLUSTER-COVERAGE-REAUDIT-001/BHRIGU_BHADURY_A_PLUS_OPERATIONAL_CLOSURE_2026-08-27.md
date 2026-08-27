@@ -1,6 +1,6 @@
 # VARANASI / BHRIGU KARYALAYA BHADURY SADAN — A+ OPERATIONAL CLOSURE — 2026-08-27
 
-status: A_PLUS_LOCKED_BY_MARK__OPERATIONAL_PREBOOK_CHECK_REQUIRED
+status: A_PLUS_LOCKED_BY_MARK__FINAL_DAYS_FIRST_THEN_PREBOOK_AND_INSERT
 branch: agent/india8-cluster-casting
 
 ## MARK DECISION — HARD
@@ -71,7 +71,7 @@ Primary request:
 Do not substitute an unnamed astrologer merely because the address offers generic Jyotish consultations unless Mark explicitly approves.
 
 ## PRE-BOOK QUESTIONS — ALL MUST BE CLOSED
-Before exact Varanasi day cards / booking, contact Acharya Hemant directly and ask in plain English:
+Before exact Varanasi booking, contact Acharya Hemant directly and ask in plain English:
 
 1. **Type of reading**
    - Do you currently offer an in-person **Bhrigu Sanghita / Bhrigu Jyotish reading** at D 47/213 Ramapura?
@@ -156,6 +156,21 @@ This 3-hour envelope is editorial protection, NOT Mark's final subjective dwell 
 - Because it is only ~2 km road-class from Assi, it can be integrated without route distortion.
 - Appointment availability outranks aesthetic day ordering; final exact day cards may move nearby A/B content around it.
 
+## HARD BOOKING / FINAL-PLANNING SEQUENCE — MARK 2026-08-27
+Mark explicitly clarified that the reading must still be inserted into the final day planning and that booking/questions should happen once the final itinerary tells us which Varanasi days are actually available.
+
+Required sequence:
+1. **Finish global route + exact final calendar first** far enough that Varanasi's actual dates and day structure are known.
+2. Identify **2–3 realistic Varanasi appointment windows** that do NOT conflict with Manikarnika, Sarnath or other protected A+ blocks.
+3. Contact Acharya Hemant/Bhadury Sadan with the full pre-book question set above and state the candidate dates/windows.
+4. Confirm exact type of Bhrigu reading, required advance data/search, language, duration, recording/take-away, fee and available appointment slots.
+5. Book the best confirmed slot **in advance**, not walk in speculatively during the trip.
+6. Insert the confirmed appointment as a **mandatory A+ Bhrigu block** in the final Varanasi day card, including hotel-door travel, arrival buffer, consultation time and return/next movement.
+7. If their availability conflicts with the preferred day geometry, move lower-grade A/B/A* content first; do not drop the Bhrigu A+.
+8. Only reopen the 8-night Varanasi duration if provider reality proves that the reading requires an unexpectedly large or multi-visit time commitment that genuinely cannot fit.
+
+This sequence supersedes any earlier wording that implied contacting them only after exact day cards were already fixed. The correct order is: **calendar/date windows -> ask/verify -> prebook -> final day-card insertion**.
+
 ## SOURCES CHECKED 2026-08-27
 High-weight:
 - Bhrigu Yoga / Brahma Chinta Pranali official site — Contact Us; Bhrigu Astrology Part 1; Bhadury lineage pages.
@@ -166,6 +181,6 @@ Supporting current-local:
 
 ## NO-DEFERRAL NEXT STEP
 The research question is closed enough to retain A+.
-The only remaining boundary is direct-provider confirmation. At final live-booking stage, contact Acharya Hemant with the above questions BEFORE fixing the exact Varanasi date/time.
+The only remaining boundary is provider confirmation once the final itinerary yields candidate Varanasi dates. Then contact, verify and prebook BEFORE travel, and insert the confirmed appointment into the final day cards.
 
 END_OF_CLOSURE
