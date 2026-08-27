@@ -137,9 +137,50 @@ Active explanatory planning provenance:
 `VARANASI_EXPLAINED_HOURLY_8_NIGHT_DRAFT_2026-08-27.md`.
 Do not mistake that working clock draft for final dated day cards.
 
+# PREPARED FIXED-CORE PACKETS — DO NOT REDO GENERIC RECOVERY
+Mark asked INDIA11 on 2026-08-27 to prepare all remaining fixed worlds ahead of time and to work in smaller stable chunks.
+The following packets are now the mandatory fast-start layer before any new generic research:
+
+1. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_PREP_PACKET_2026-08-27.md`
+   - reconciled current A+/A/B/C;
+   - strict LP layer + non-LP traveler layer;
+   - UNESCO labels;
+   - old 3-night/sleep-zone provenance;
+   - local/outer geometry and likely decision set;
+   - Nalanda/Barabar/Rajgir duration sensitivity.
+
+2. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_PREP_PACKET_2026-08-27.md`
+   - recovered explicit A set inside Arunachala/Ramana A+ world;
+   - Mango Tree Cave/Pachaiamman B;
+   - desired Sri Ramanasramam ashram sleep #2;
+   - LP/traveler/regional open layer;
+   - UNESCO gateway signal Mamallapuram;
+   - cave/Girivalam/local-day geometry.
+
+3. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_PREP_PACKET_2026-08-27.md`
+   - Nirmal Dham A+ current operations;
+   - recovered hard preference to minimize Delhi/avoid generic Old Delhi overstimulation;
+   - traveler/regional layer compressed against that preference;
+   - UNESCO Humayun/Qutb/Red Fort labels;
+   - arrival/train/hotel historical provenance;
+   - Delhi Bhrigu only backup to Varanasi A+.
+
+4. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/AGRA_PREP_PACKET_2026-08-27.md`
+   - Taj A+ [UNESCO WH] + earliest-opening hard preference;
+   - current official Friday/night-view rules;
+   - recovered strong Mark interest in Fatehpur Sikri, Keoladeo, Chambal, quiet Baby Taj/Mehtab layers;
+   - UNESCO Agra Fort/Fatehpur/Keoladeo labels;
+   - old 1-night Taj-Ganj baseline explicitly nonbinding;
+   - duration sensitivity and prepared open ballot.
+
+If INDIA11 disappears, INDIA12 must use these packets rather than repeating broad searches or asking Mark to restate old preferences.
+
 # CURRENT FRONTIER — BODH GAYA / GAYA FIXED-CORE CLOSURE
-Kumaon and Varanasi/Sarnath are now DURATION_CLOSED.
+Kumaon and Varanasi/Sarnath are DURATION_CLOSED.
 Next fixed core: `BODH GAYA / GAYA`.
+
+Mandatory fast-start packet:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_PREP_PACKET_2026-08-27.md`.
 
 ## Current fixed A+ spine already known
 - `BODH GAYA / Mahabodhi Temple Complex [UNESCO WH] (Boeddha-verlichtingscomplex) — A+ parent`.
@@ -149,23 +190,20 @@ Next fixed core: `BODH GAYA / GAYA`.
 Latest ordinary known current grade:
 - Great Buddha Statue — A.
 
-UNESCO worker found Mahabodhi Temple Complex = exact UNESCO WH. No current B+WH trigger was identified in the worker output, but worker grades can be stale; central must reconcile against newest Bodh Gaya decisions before using that conclusion.
-
 ## Exact next action
-1. recover current Bodh Gaya/Gaya A+/A/A*/B/C canon and any old Mark dwell/base preferences;
-2. expose complete relevant LP/traveler layer before time filtering;
-3. remove impossible-window/C items from actionable ballot;
-4. build recognition-rich geographic day modules with 2–3 meaningful blocks/day where natural;
-5. show Mark what each retained place is, why selected, recommended dwell and real movement;
-6. Mark adjusts subjective time;
-7. close Bodh Gaya/Gaya duration;
-8. continue automatically to next fixed core.
+1. READ `BODHGAYA_PREP_PACKET_2026-08-27.md`; do NOT restart canon/LP recovery.
+2. Present Mark the prepared recognition-rich true OPEN decision set with real time/route burden and `UNESCO WH` labels.
+3. Remove C; retain B conditionally; record new Mark grades.
+4. Build explained multi-block Bodh Gaya day structure from the prepared modules.
+5. Mark adjusts subjective dwell/time.
+6. close Bodh Gaya/Gaya duration.
+7. continue automatically to Tiruvannamalai using its prep packet.
 
-# OTHER FIXED WORLDS — NOT YET DURATION_CLOSED
-- BODH GAYA / GAYA — ACTIVE FRONTIER
-- TIRUVANNAMALAI / ARUNACHALA
-- DELHI
-- AGRA / TAJ MAHAL
+# OTHER FIXED WORLDS — PREPARED, NOT YET DURATION_CLOSED
+- BODH GAYA / GAYA — ACTIVE FRONTIER — prep packet ready.
+- TIRUVANNAMALAI / ARUNACHALA — prep packet ready.
+- DELHI — prep packet ready.
+- AGRA / TAJ MAHAL — prep packet ready.
 
 # OPTIONAL WORLDS — DEFERRED UNTIL SIX FIXED CORES CLOSED
 - BRAJ / MATHURA–VRINDAVAN–GOVARDHAN
