@@ -82,15 +82,38 @@ Haidakhan Babaji and Mahavatar Babaji/Kriya both matter, but their physical/hist
 
 ## Context before choice
 `HARD_CURRENT`
-Before Mark decides, INDIA should already explain what the place physically is, why relevant, route/base relation, real travel/walk burden, technical visit time, natural bundle and what selection might displace.
+Before Mark decides, INDIA should already explain:
+- what the physical place actually is;
+- the short human story / why it matters;
+- why INDIA selected it for Mark;
+- how it relates to Mark's spiritual/traveler interests;
+- route/base relation;
+- real travel/walk burden to the next stop;
+- INDIA's recommended dwell and WHY;
+- natural bundle;
+- what selection might displace.
 
-Mark should decide the subjective value, not reconstruct the objective problem.
+Mark should decide subjective value, not reconstruct the objective problem.
+
+## Bare names + numbers are NOT decision-ready
+`HARD_CURRENT — MARK 2026-08-27`
+A schedule such as `Kashi Vishwanath 2h -> Manikarnika 1h` is unusable if Mark does not know what those names mean.
+
+When presenting a day/timing decision, always explain in ordinary Dutch:
+1. **wat is dit concreet?**
+2. **waarom wil ik dit volgens jullie onderzoek zien?**
+3. **waarom raad INDIA ongeveer deze verblijfsduur aan?**
+4. **hoe lang is lopen/riksja/auto vanaf het vorige punt?**
+
+Only then can Mark meaningfully correct the time.
 
 ## Only Mark determines felt dwell/pace
 `HARD_CURRENT`
 INDIA calculates logistics and proposes executable combinations. It cannot calculate how long a spiritually/humanly meaningful place feels worth to Mark.
 
-A technical 45-minute visit is not a recommendation to spend only 45 minutes there. A planner's “small” item can become Mark's half/full day.
+A technical 45-minute visit is not a command to spend only 45 minutes there. A planner's “small” item can become Mark's half/full day.
+
+INDIA should nevertheless make a **reasoned dwell recommendation** so Mark has something concrete to judge.
 
 ## Full relevant source layer before subjective time filtering
 `HARD_CURRENT — MARK 2026-08-27`
@@ -100,7 +123,7 @@ After Mark grades/allocates time, INDIA combines and optimizes.
 
 ## Impossible-in-window items are not actionable choices
 `HARD_CURRENT`
-If an event/experience is demonstrably unavailable outside 18 Dec 2026–21 Jan 2027, keep it only as provenance/non-actionable note. Do not mix it into the numbered ballot.
+If an event/experience is demonstrably unavailable outside 18 Dec 2026–21 Jan 2027, keep it only as provenance/non-actionable note. Do not mix it into numbered ballots.
 
 ## Editorial AI, not data dump
 `DURABLE_PATTERN`
@@ -141,10 +164,42 @@ Sarnath is the proof case: formerly Tentative, inscribed World Heritage in 2026;
 
 # 7. TRIP RHYTHM / TIME / ENERGY
 
-- **Breathing room — HARD_CURRENT:** major spiritual clusters should breathe; density is not automatically quality.
-- **Fixed envelope — HARD_CURRENT:** 18 Dec 2026–21 Jan 2027; flights booked; project uses 34-day budget convention; old exact calendars non-authoritative.
-- **Travel days — HARD_CURRENT:** count full human door-to-door burden: checkout/loading/access/waiting/fog/traffic/transport/baggage/onward transfer/check-in/food/rest/daylight/energy. Do not hide inbound travel outside the cluster footprint.
-- **Final day rhythm — HARD_UNSUPERSEDED:** roughly 15-minute detail where useful; early starts/relatively early bed; ~1 h evening dinner; no obligatory formal lunch block; actual hotel/ashram doors; overnight rail may convert movement to sleep; call impossible days OVERLOADED instead of shaving buffers.
+## Breathing room, not empty days
+`HARD_CURRENT — latest Mark 2026-08-27`
+Mark likes a relaxed trip, but **relaxed does not mean under-filled**.
+
+Especially on normal city/pilgrimage days:
+- an early morning experience is welcome;
+- after a very early start, a **2–3 hour recovery/break** is completely acceptable;
+- after that Mark usually still wants a meaningful **afternoon block** and often an **early-evening block**;
+- working target: **minimum 2, preferably 3 meaningful blocks per local day**;
+- 4–5 physical stops are fine if they are genuinely one compact complex/walking geography;
+- a transfer/arrival day can be a wind-down day, but if arrival permits Mark prefers some real content rather than hotel-only inactivity;
+- breathing room should usually come from buffers, sitting, food/rest, repeat time and unstructured experience **between** meaningful blocks.
+
+This supersedes any old blanket interpretation of `maximum one main activity per day`. Old preferences for avoiding frantic checklists, preserving rest, Assi/Ganges time and not stacking multiple sunrise experiences remain valid.
+
+## Fixed envelope
+`HARD_CURRENT`
+- 18 Dec 2026–21 Jan 2027;
+- flights booked;
+- project uses 34-day budget convention;
+- old exact calendars non-authoritative until rebuilt correctly.
+
+## Travel days are real days
+`HARD_CURRENT`
+Count complete human door-to-door burden: checkout/loading/access/waiting/fog/traffic/transport/baggage/onward transfer/check-in/food/rest/daylight/energy.
+Do not hide an inbound travel day outside cluster footprint.
+
+## Final day rhythm
+`HARD_CURRENT`
+- roughly 15-minute detail where useful;
+- early starts/relatively early bed tend to suit Mark;
+- ~1 h evening dinner;
+- no obligatory formal lunch block every day;
+- actual hotel/ashram doors as start/end;
+- overnight rail may convert movement to sleep;
+- if a day only works under perfect assumptions, call it OVERLOADED rather than shaving buffers.
 
 # 8. WALKING / NATURE
 
@@ -183,7 +238,7 @@ Final comfort sweep is mandatory after route/nights/day structure stabilize.
 
 ## Dutch/direct
 `HARD_CURRENT / DURABLE_PATTERN`
-Default Dutch, direct ordinary language, concise where possible but complete enough to decide, no emoji in normal India work, minimal governance jargon.
+Default Dutch, direct ordinary language, concise where possible but **never so short that Mark cannot understand what he is choosing**. No emoji in normal India work; minimal governance jargon.
 
 ## Handel eerst, praat daarna
 `HARD_CURRENT`
@@ -215,7 +270,7 @@ Do not ask Mark to research facts, infer geography or repeat GitHub knowledge.
 
 ## Let Mark learn the reasoning
 `HARD_CURRENT — MARK 2026-08-27`
-Mark wants to learn why recommendations make sense. Explain concise decision-relevant principles/trade-offs; do not merely output conclusions.
+Mark wants to learn why recommendations make sense. Explain decision-relevant principles/trade-offs and the human meaning of places, not merely conclusions.
 
 # 13. AI / GITHUB COLLABORATION
 
@@ -264,7 +319,7 @@ If Mark really must paste something externally: entire paste target in one stand
 `HARD_CURRENT / DURABLE_PATTERN`
 - no PDF unless explicitly requested;
 - exact calendar only after fixed-core duration + optional-cluster survival + topology;
-- final guide must be human-usable, with real bases/transfers, brief meaning, B options, A* skip logic, walks, comfort/food texture and live operational notes.
+- final guide must be human-usable, with real bases/transfers, **plain-language explanation of every important stop**, brief meaning, B options, A* skip logic, walks, comfort/food texture and live operational notes.
 
 # 16. THINGS INDIA MUST NOT DO
 
@@ -277,6 +332,9 @@ If Mark really must paste something externally: entire paste target in one stand
 - re-present settled choices without material delta;
 - revive stale route because it contains one useful old preference;
 - compress spiritual stays for arithmetic;
+- confuse 'relaxed' with almost-empty days;
+- present a time schedule full of unexplained Indian names;
+- ask Mark for dwell before explaining what the place is and why it matters;
 - make Mark reconstruct geography;
 - hide real transfer occupancy;
 - make B disappear;
@@ -311,6 +369,6 @@ Before any fixed core is duration-closed, perform one bounded historical check f
 The standard is not “remember more inside the model”. It is:
 **MAKE THE REPOSITORY KNOW MARK BETTER EVERY TIME THE COLLABORATION LEARNS SOMETHING REAL.**
 
-Major provenance includes current boot/state/meta-controller, transport/comfort/prompt rules, person-depth/Babaji/reopen decisions, sleep-base records, Komoot layer, reconciled historical handoffs, `VARANASI_LP_MARK_TIME_DECISIONS_2026-08-27.md`, `VARANASI_REMAINING_LAYER_MARK_DECISIONS_2026-08-27.md`, and `UNESCO_AUDIT_DELEGATION_2026-08-27.md`.
+Major provenance includes current boot/state/meta-controller, transport/comfort/prompt rules, person-depth/Babaji/reopen decisions, sleep-base records, Komoot layer, reconciled historical handoffs, `VARANASI_LP_MARK_TIME_DECISIONS_2026-08-27.md`, `VARANASI_REMAINING_LAYER_MARK_DECISIONS_2026-08-27.md`, `VARANASI_EXPLAINED_HOURLY_8_NIGHT_DRAFT_2026-08-27.md`, and `UNESCO_AUDIT_DELEGATION_2026-08-27.md`.
 
 END_OF_LIVING_MARK_PROFILE
