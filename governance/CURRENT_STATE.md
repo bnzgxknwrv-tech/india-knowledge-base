@@ -94,6 +94,30 @@ Current zoned planning logic:
 - Mark may remain for hours;
 - return/dinner only when he feels finished.
 
+## BHRIGU SAMHITA / KRIYANANDA WISH — RECOVERED HARD CURRENT INPUT
+Canonical recovery:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BHRIGU_SAMHITA_MARK_WISH_RECOVERY_2026-08-27.md`.
+
+Mark wants to try to receive/retrieve his own personal Bhrigu message/reading because of Swami Kriyananda's experience described in *The Book of Bhrigu*.
+Recovered history:
+- 2026-06-15: Bhrigu Samhita explicitly to be retained as B and researched because of Kriyananda's life-changing experience;
+- 2026-06-16: Mark said **Bhrigu/Bhadury Sadan = GRAAG HEEN** because it fits Varanasi with low route burden and strong Kriyananda relevance;
+- 2026-08-27: Mark reaffirms the wish and asks which current clusters can do it.
+
+Current preferred implementation:
+`VARANASI / RAMAPURA-LUXA / Bhrigu Karyalaya Bhadury Sadan (huidige Bhrigu/Jyotish-familieplek; D.47/213 Ramapura; geselecteerd vanwege Kriyananda/The Book of Bhrigu) — SELECTED PERSONAL EXPERIENCE WISH`.
+- integrate within existing 8-night Varanasi stay; do not add a night by default;
+- current public verification shows same family/address continuity and Jyotish consultation activity;
+- before final day cards, verify advance registration/search procedure, birth-data requirements, English practicality, session duration, exact nature of Bhrigu reading versus generic Jyotish consultation, current days/hours and appointment method.
+
+Verified current-route alternative:
+`DELHI / RAJOURI GARDEN / Bhrigu Sadan / Pt Nikhil Sharma Bhrigu Shastri — VERIFIED ALTERNATIVE`, not preferred over the recovered Varanasi wish unless Varanasi availability fails.
+
+Historical provenance:
+- Kriyananda's famous 1959 reading was in **Barnala, Punjab** after lecturing in Patiala;
+- Hoshiarpur, Punjab remains a major current Bhrigu manuscript/reading tradition but is outside current clusters;
+- do not confuse Ballia with Kriyananda's own reading place.
+
 Active explanatory planning provenance:
 `VARANASI_EXPLAINED_HOURLY_8_NIGHT_DRAFT_2026-08-27.md`.
 Do not mistake that working clock draft for final dated day cards.
