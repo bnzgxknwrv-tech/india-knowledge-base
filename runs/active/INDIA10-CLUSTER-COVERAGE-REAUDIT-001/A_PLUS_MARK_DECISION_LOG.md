@@ -1,11 +1,11 @@
 # INDIA10 — MARK A+ / CURRENT DECISION LOG
 
-status: KUMAON_SELECTION_CLOSED__COMPLETE_EXECUTION_ACTIVE
-updated: 2026-08-26
+status: FIXED_CORE_EXECUTION_ACTIVE__VARANASI_DURATION_CLOSED__BODHGAYA_FRONTIER
+updated: 2026-08-27
 
 ## HARD RULES
 - Only Mark assigns or changes A+, A, A*, B or C.
-- `A*` is a display subtype of formal A, not a fifth formal grade.
+- `A*` is NOT an intrinsic A. It is host-/corridor-dependent bycatch only, with `SKIP_FIRST` priority and no independent route/day/night claim.
 - Latest explicit Mark decision supersedes older protected provenance; older grades remain historical evidence only.
 - Parent-complex A+ inheritance applies to true same-site/same-compound children.
 - User-facing format is ALWAYS `CLUSTER / PLAATS / PLEK (korte Nederlandse uitleg) — huidige status`, every time a non-obvious name appears.
@@ -14,10 +14,10 @@ updated: 2026-08-26
 - Every Mark-facing choice batch must be one contiguous numbered block (`1`, `2`, `3`...) so Mark can answer compactly as `1 A, 2 B, 3 C`.
 - A Mark side-question does not cancel the active task. Incorporate/answer it and automatically resume the pre-existing work unless Mark explicitly cancels/replaces it.
 
-## GRADE SEMANTICS — ABSOLUTE HARD / LATEST MARK 2026-08-26
+## GRADE SEMANTICS — ABSOLUTE HARD / LATEST MARK 2026-08-27
 - `A+` = KERNLOCATIE / dit is waarom Mark deze reis maakt. Nul discussie over inclusion. Route must protect it and may bend/omrijden solely for it.
 - `A` = Mark wil hier HEEL GRAAG OOK heen. Genuine intended visit. Plan/retain inside the surviving trip world.
-- `A*` = formal A with `CORRIDOR_BYCATCH/EASY_CAPTURE` subtype. Attractive extra discovery rather than original first-choice destination. Operational priority `SKIP_FIRST`: if Mark is tired, delayed, weather is poor or the day is overloaded, skip A* before intrinsic A. A* must not independently force a dedicated detour, extra night or major schedule sacrifice.
+- `A*` = host-/corridor-dependent bycatch only. It exists because Mark is already at/near a stronger host location; it is NOT an intrinsic A. Operational priority `SKIP_FIRST`: if Mark is tired, delayed, weather is poor or the day is overloaded, skip A* before intrinsic A. A* must not independently force a dedicated detour, extra night or major schedule sacrifice.
 - `B` = ACTIVE CONDITIONAL / RESERVE. B remains visible in the actual travel plan as an on-site/condition-dependent option. B does NOT by itself justify a dedicated extra night, major detour or route restructuring.
 - `C` = DEFINITIEVE AFVALLER. Remove from the active travel plan, route design, day combinations and future choice batches. Do not re-present unless Mark explicitly reopens it.
 
@@ -32,16 +32,17 @@ updated: 2026-08-26
 
 ### VARANASI / SARNATH
 - VARANASI / OLD CITY / Varanasi Kriya core (Lahiri Mahasaya-huis + samadhi + Yogananda/Sri Yukteswar-zone) — A+ parent.
-- VARANASI / SARNATH / Sarnath sacred/archaeological complex (Boeddha's eerste-preeklandschap) — A+ parent.
+- VARANASI / SARNATH / Ancient Buddhist Site of Sarnath — Chaukhandi Stupa + Archaeological Remains of Sarnath [UNESCO WH 2026] (Boeddha's eerste-preeklandschap) — A+ parent.
 - VARANASI / PANCHGANGA / Shri Tailanga Swami Math + Panchganga Ghat + Bindu Madhav Temple (heilige wereld rond yogi Tailanga Swami) — A+.
 - VARANASI / BHADAINI / Shree Shree Ma Anandamayi Ashram (bezoekbaar ashram van Anandamayi Ma) — A+.
 - VARANASI / OLD CITY / Kashi Vishwanath sacred core (grote Shiva-tempel + nabijgelegen Annapurna/Vishalakshi-heiligdommen) — A+.
 - VARANASI / MANIKARNIKA / Manikarnika Ghat (heilige crematieghat waar Lahiri Mahasaya werd gecremeerd) — A+ parent/bundle.
 - VARANASI / DASHASHWAMEDH / Dashashwamedh Ghat + Shitala Mata Temple (grote Ganga-Aarti-zone) — A+.
 - VARANASI / ASSI / Assi Ghat (zuidelijke ochtend-/pelgrimsghat) — A+.
+- VARANASI / RAMAPURA-LUXA / Bhrigu Karyalaya Bhadury Sadan (Bhadury-familiehuis voor Bhrigu Sanghita/Bhrigu Jyotish; Mark wil hier zijn eigen 'Bhrigu-boodschap' laten lezen vanwege Swami Kriyananda's *The Book of Bhrigu*) — A+ LOCKED_BY_MARK. Operational closure: `BHRIGU_BHADURY_A_PLUS_OPERATIONAL_CLOSURE_2026-08-27.md`.
 
 ### BODH GAYA / GAYA
-- BODH GAYA / BODH GAYA / Mahabodhi Temple Complex (Boeddha-verlichtingscomplex) — A+ parent.
+- BODH GAYA / BODH GAYA / Mahabodhi Temple Complex [UNESCO WH] (Boeddha-verlichtingscomplex) — A+ parent.
 - BODH GAYA / BAKRAUR / Sujata Stupa (plek waar Sujata de uitgemergelde Siddhartha voedsel gaf) — A+.
 - BODH GAYA / DUNGESHWARI HILLS / Dungeshwari–Mahakala Caves (grotten waar Siddhartha extreme ascese beoefende) — A+.
 
@@ -52,7 +53,7 @@ updated: 2026-08-26
 - DELHI / CHHAWLA / Nirmal Dham (rustplaats/Mahasamadhi van Shri Mataji Nirmala Devi) — A+.
 
 ### AGRA
-- AGRA / AGRA / Taj Mahal (wereldberoemd marmeren mausoleum; kernwereldmagnet van de reis) — A+; sunrise / earliest practical opening HARD.
+- AGRA / AGRA / Taj Mahal [UNESCO WH] (wereldberoemd marmeren mausoleum; kernwereldmagnet van de reis) — A+; sunrise / earliest practical opening HARD.
 
 ## KUMAON — ACTIVE LOSSLESS A / A* / B CANON FOR EXECUTION
 ### Intrinsic A
@@ -100,7 +101,7 @@ updated: 2026-08-26
 
 Kumaon day-expanding OPEN survivor gate is CLOSED. Canonical closure artifact: `KUMAON_FINAL_OPEN_SURVIVOR_MARK_DECISIONS_2026-08-26.md`.
 
-## LATEST VARANASI ORDINARY GRADES — MARK 2026-08-24
+## LATEST VARANASI ORDINARY GRADES — MARK 2026-08-27
 - VARANASI / TULSI GHAT / Tulsi Ghat + Lolark Kund — A.
 - VARANASI / LALITA GHAT / Lalita Ghat + Nepali/Kathwala Temple — A.
 - VARANASI / DURGA KUND-AREA / Tulsi Manas Temple — B.
@@ -110,6 +111,7 @@ Kumaon day-expanding OPEN survivor gate is CLOSED. Canonical closure artifact: `
 - VARANASI / SARNATH-SIMHAPURI / Shreyansanath Jain Tirth — A.
 - VARANASI / KABIR CHAURA / Kabir Chaura Math — A.
 - VARANASI / ADI KESHAVA–RAJGHAT / Adi Keshava Ghat + Temple — A.
+- VARANASI / PANCHGANGA / Alamgir Mosque/Dharahara — A* only because already at A+ Tailanga/Panchganga; no independent claim and SKIP_FIRST.
 
 ## LATEST BODH GAYA ORDINARY GRADE
 - BODH GAYA / BODH GAYA / Great Buddha Statue — A.
@@ -120,11 +122,11 @@ Kumaon day-expanding OPEN survivor gate is CLOSED. Canonical closure artifact: `
 3. C and explicit current-trip dropped modules removed from active planning;
 4. A+ protected absolutely;
 5. intrinsic A planned/retained;
-6. A* planned as corridor extra but SKIP_FIRST;
+6. A* only as host-dependent bycatch, SKIP_FIRST;
 7. B stays visible as conditional/reserve and cannot independently add night/major detour;
 8. overlay traveler/Lonely-Planet + Komoot against same corridor;
 9. close day-changing OPEN survivors;
 10. complete cluster execution and true nights;
 11. global route last.
 
-CURRENT KUMAON FRONTIER: selection/canon reconciliation closed enough for execution; build complete-execution/day design and ask Mark only for pace/duration judgement.
+CURRENT FRONTIER: BODH GAYA / GAYA fixed-core closure. Varanasi/Sarnath duration is closed at 8 nights; Bhadury Sadan Bhrigu reading is now protected A+ within those 8 nights and must be integrated in final Varanasi day cards after direct-provider confirmation.
