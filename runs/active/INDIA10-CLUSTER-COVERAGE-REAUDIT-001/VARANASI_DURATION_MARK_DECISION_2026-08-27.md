@@ -48,6 +48,26 @@ Newest Mark correction:
 - Mark may stay for hours; return to Assi/dinner happens only when he feels finished.
 - This open-end treatment does not require an extra night because the day is deliberately arranged to end there.
 
+## BHRIGU KARYALAYA BHADURY SADAN — NEW A+ AFTER DURATION LOCK
+2026-08-27 Mark explicitly promoted:
+`VARANASI / RAMAPURA-LUXA / Bhrigu Karyalaya Bhadury Sadan (Bhadury-familiehuis voor Bhrigu Sanghita/Bhrigu Jyotish; Mark wil hier zijn eigen 'Bhrigu-boodschap' laten lezen vanwege Swami Kriyananda's The Book of Bhrigu) — A+ LOCKED_BY_MARK`.
+
+Operational closure:
+`BHRIGU_BHADURY_A_PLUS_OPERATIONAL_CLOSURE_2026-08-27.md`.
+
+Duration impact:
+- Ramapura Luxa is only ~2 km road-class from Assi Ghat; use conservative ~15–25 min local transport class until final navigation closure.
+- The existing 8-night schedule contains enough buffer/open time to protect a provisional **3-hour A+ appointment envelope** without adding a ninth night.
+- This 3 h is an editorial protection envelope, not a final Mark dwell lock; direct provider confirmation may shrink/expand it.
+- Lower-grade B/A* content yields first if the appointment requires more time.
+- Never place this as a rushed add-on and never put it on the Manikarnika open-end day.
+- **8 nights remains DURATION_CLOSED.** Reopen duration only if Bhadury Sadan directly confirms an unexpectedly all-day/multi-day procedure that cannot fit the existing slack.
+
+Critical pre-book boundary:
+- current evidence proves a real Bhadury Bhrigu/Jyotish lineage and inherited calculation method;
+- it does NOT yet prove that Mark's appointment literally includes locating/viewing an ancient personal leaf in the same physical manner as Kriyananda's 1959 Barnala reading;
+- direct confirmation from Acharya Hemant K. Bhadury is mandatory before booking so Mark receives the specific Bhrigu experience he intends rather than a generic Kundali consultation.
+
 ## FINAL-DAY-PLAN DEFERRED DETAIL
 The exact operational clock plan is intentionally deferred until final topology/calendar/live-logistics phase.
 At that stage the day cards must state for every block:
@@ -63,13 +83,14 @@ At that stage the day cards must state for every block:
 
 ## CANONICAL SUPPORT
 - `VARANASI_EXPLAINED_HOURLY_8_NIGHT_DRAFT_2026-08-27.md`
+- `BHRIGU_BHADURY_A_PLUS_OPERATIONAL_CLOSURE_2026-08-27.md`
 - latest Manikarnika open-end Mark correction from 2026-08-27
 - `VARANASI_LP_MARK_TIME_DECISIONS_2026-08-27.md`
 - `VARANASI_REMAINING_LAYER_MARK_DECISIONS_2026-08-27.md`
 - `SARNATH_VISIT_GUIDANCE_AND_UNESCO_LABEL_2026-08-27.md`
 
 ## NEXT
-Varanasi/Sarnath is now the SECOND fixed A+ core world to reach `DURATION_CLOSED` after Kumaon.
+Varanasi/Sarnath remains the SECOND fixed A+ core world to reach `DURATION_CLOSED` after Kumaon.
 Continue automatically to `BODH GAYA / GAYA` fixed-core closure under the active meta-controller.
 
 END_OF_DECISION
