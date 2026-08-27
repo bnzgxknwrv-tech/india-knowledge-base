@@ -1,7 +1,7 @@
 # INDIA — A+ / A / A* / B / C / PROXIMITY DECISION MODEL
 
 status: ACTIVE_MARK_DECISION_RULE
-updated: 2026-08-26
+updated: 2026-08-27
 central_branch: agent/india8-cluster-casting
 
 ## PURPOSE
@@ -13,7 +13,7 @@ Every non-obvious location is shown as:
 Never rely on Mark remembering an Indian/local name.
 `kosten` / `gratis` are money-only terms; logistics use reistijd, extra reistijd, omweg, duur, loop-/rijtijd.
 
-## GRADE SEMANTICS — ABSOLUTE HARD / LATEST MARK 2026-08-26
+## GRADE SEMANTICS — ABSOLUTE HARD / LATEST MARK 2026-08-27
 
 ### A+
 A+ = **trip-defining**.
@@ -23,15 +23,21 @@ A+ = **trip-defining**.
 
 ### A
 A = **Mark definitely wants to visit this inside a retained world/cluster**.
+- A is intrinsic selected content: Mark wants it for itself.
 - A is planned/retained.
 - An A alone does NOT make an otherwise optional whole cluster mandatory.
 - If actual burden is unexpectedly disproportionate, INDIA may show the trade-off, but only Mark may downgrade/remove it.
 
 ### A*
-A* = **formal A, corridor/bycatch subtype — SKIP_FIRST**.
-- It belongs in the real plan where geographically/logistically natural.
-- It cannot independently force a detour, dedicated half/full day, new base or extra night.
-- If a day overruns, A* is normally the first selected content to drop before A/A+.
+A* = **host-dependent corridor/bycatch — SKIP_FIRST — NOT intrinsic A**.
+- A* exists because an already-retained A+ or A route/day brings Mark there or makes it essentially natural to capture.
+- It is NOT evidence that Mark independently wants to route for the place.
+- It belongs in the real plan only where its A+/A host geometry remains genuinely natural.
+- If the host A+/A disappears or geometry ceases to be easy, the A* loses its operational reason unless Mark explicitly upgrades it.
+- It may be dropped at any moment for delay, fatigue, weather, access, crowding or simple lack of interest.
+- It cannot independently force a detour, dedicated half/full day, new base, extra night or schedule sacrifice.
+- If a day overruns, A* is the first selected content to drop before intrinsic A/A+.
+- User-facing display should make host dependence obvious when relevant, e.g. `A* — alleen meepakken omdat we toch bij A+ Panchganga zijn; SKIP_FIRST`.
 
 ### B
 B = **ACTIVE CONDITIONAL / RESERVE**.
@@ -54,6 +60,7 @@ OPEN = genuinely ungraded.
 - A+ can make a world trip-defining.
 - A/A*/B inside an optional world do not automatically make that world mandatory.
 - Multiple A rows do not automatically equal A+.
+- A* cannot contribute independent cluster-force because it is host-dependent by definition.
 - Optional worlds compete later on content value versus total marginal time burden after the six fixed A+ worlds are duration-closed.
 
 ## CURRENT FIXED A+ WORLDS
@@ -93,7 +100,7 @@ Straight-line distance never substitutes for route reality in mountains, across 
 1. C — remove from active planning.
 2. A+ — protect; route around it.
 3. A — place into a real day.
-4. A* — give a real natural slot, marked SKIP_FIRST.
+4. A* — place only as a host-dependent natural bycatch; explicitly SKIP_FIRST.
 5. B — show as a conditional on-site/day option; never let it force major burden.
 6. OPEN — resolve only genuine day-changing survivors.
 
@@ -106,5 +113,8 @@ If this file and an older route/corridor artifact conflict, this latest grade mo
 
 ## PROVENANCE
 Old grades/locks remain historical evidence. Only a newer explicit Mark decision supersedes them; workers/INDIA may not silently mutate grades.
+
+Latest A* clarification provenance:
+`VARANASI_REMAINING_LAYER_MARK_DECISIONS_2026-08-27.md` — Alamgir Mosque set A* only because it rides the already-retained Panchganga/Tailanga A+ world; Mark explicitly said it is not an A in itself and may drop at any moment.
 
 END_OF_MODEL
