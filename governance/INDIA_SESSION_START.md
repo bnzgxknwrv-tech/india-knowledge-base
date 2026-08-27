@@ -2,6 +2,15 @@
 
 This file exists because older tasks/handoffs still point here. It must never offer a shorter boot path than the binding current boot.
 
+## CANONICAL MINIMAL USER START PROMPT — INDIA12+
+If Mark starts a fresh successor chat, the preferred short prompt is:
+
+`JIJ BENT INDIA12. Repository: bnzgxknwrv-tech/india-knowledge-base. Centrale regiebranch uitsluitend: agent/india8-cluster-casting. Neem de India-regie over. Lees en volg governance/INDIA_SESSION_START.md VOLLEDIG in deze sessie vóór inhoudelijk India-werk. Daarna voer je zelfstandig de huidige frontier uit volgens CURRENT_STATE en de bindende meta-controller. AL BESLIST? altijd vóór presentatie. Geen volledige repo-herlezing tenzij de recovery-trigger dat vereist. Worker COMPLETE is geen centrale waarheid zonder integratiecheck. Check PR #23 wanneer INDIA_SESSION_START dat voorschrijft. Werk ACTION-FIRST en maak jezelf steeds vervangbaar via GitHub. Geef eerst een korte feitelijke status en ga daarna direct door tot de eerstvolgende echte Mark-only beslissing.`
+
+This short prompt supersedes older/light prompts that directly listed only README + CURRENT_STATE + protected canon. Those older prompts are no longer sufficient by themselves because the binding boot now also includes the critical boot/no-deferral file, successor protocol, INDIA11 recovery postmortem, active framework, living Mark profile, meta-controller and current-frontier files.
+
+Changing `INDIA12` to the actual successor number is sufficient. The authoritative details remain THIS file, not the pasted prompt.
+
 ## MANDATORY START FOR INDIA10+ / INDIA11 / INDIA12+
 Read, in this order, IN THE CURRENT SESSION before substantive India-regie work:
 1. `README.md`
