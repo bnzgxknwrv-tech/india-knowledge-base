@@ -19,6 +19,22 @@ Examples:
 
 A bare unfamiliar Indian name such as `Brahmakund`, `Sarnath`, `Tergar`, `Kainchi`, `Manikarnika` or `Dungeshwari` is a PRESENTATION FAILURE unless the immediate surrounding wording already supplies the same recognition information unmistakably.
 
+### NO SHORTHAND ESCAPE — HARD / ABSOLUTE
+The naming rule applies to **EVERY occurrence**, not only the first mention and not only headings/cards.
+
+It is explicitly FORBIDDEN to collapse later references into shorthand such as:
+- `Rajgir/Brahmakund + Dungeshwari + Sujata + Mahabodhi`;
+- `Sarnath + Manikarnika`;
+- `Kainchi / Dwarahat / Dunagiri`;
+- any slash-list, plus-list, parenthetical recap, table shorthand, route summary, day summary, comparison sentence or concluding sentence containing bare unfamiliar Indian names.
+
+Even when the full formatted name appeared earlier in the same answer, later references MUST remain recognition-rich enough that Mark never has to remember what the name means.
+
+Required style in compact recaps is therefore still self-explanatory, for example:
+`Brahmakund — hete heilige badbronnen waar Mark wil baden (Rajgir) [A] + Dungeshwari / Mahakala Caves — ascetengrotten van Siddhartha vóór de verlichting (Bodh Gaya outer) [A+] + Sujata Stupa — plek van Sujata's melkrijstgift en de overgang naar de Middenweg (Bakraur) [A+] + Mahabodhi Temple Complex + Bodhi Tree — verlichtingstempel + Bodhiboom waar Boeddha ontwaakte (Bodh Gaya) [A+] [UNESCO WH]`.
+
+If repetition makes a sentence long, shorten the Dutch recognition hook, **never remove it**. Clarity has priority over elegance or brevity.
+
 The recognition hook answers in a few Dutch words: **WAT IS DIT / WAAROM HERKEN IK HET?** It is not marketing prose.
 
 ### Typography — HARD
@@ -107,8 +123,9 @@ When spatial relation is the issue, provide a map/geo view where the interface s
 A useful map should show, where relevant, not only local attractions but also the **predecessor direction, successor direction and corridor relationship** so Mark can see whether a remote-looking place is actually on-route.
 
 ## 9. PRE-REPLY VIOLATION TEST
-Before every user-facing India reply containing locations, scan every location label:
-- Does it follow `FULL NAME — DUTCH RECOGNITION HOOK (PLACE/CLUSTER)`?
+Before every user-facing India reply containing locations, scan **every occurrence of every location name, including shorthand recaps and route/day summaries**:
+- Does it follow `FULL NAME — DUTCH RECOGNITION HOOK (PLACE/CLUSTER)` or an equally recognition-rich compact form?
+- Have I accidentally reduced a later mention to a bare/slash/plus shorthand name?
 - Is it bold at normal body-text size rather than an oversized place-name heading?
 - Is grade/UNESCO correct where shown?
 - If distance matters, is burden stated from the real host/mini-cluster?
