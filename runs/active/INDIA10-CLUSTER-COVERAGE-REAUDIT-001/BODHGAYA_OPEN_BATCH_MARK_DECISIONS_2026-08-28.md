@@ -1,7 +1,7 @@
 # BODH GAYA / GAYA — OPEN BATCH MARK DECISIONS
 
 Date: 2026-08-28
-Status: MARK_DECISIONS_RECORDED
+Status: MARK_DECISIONS_RECORDED__BRAHMAKUND_A_LOCKED
 Branch: `agent/india8-cluster-casting`
 
 ## Authority
@@ -13,16 +13,16 @@ These are explicit Mark decisions from the live INDIA conversation on 2026-08-28
    - Mark decision: C.
    - Current-trip reject. Do not re-present as a new choice.
 
-2. **Rajgir Brahmakund hot springs — CONDITIONAL MARK RULE: A if Mark is personally allowed to bathe; otherwise C**
-   - Mark's exact decision logic: if he can personally bathe in the hot sacred water, A; if he cannot, C.
-   - Current 2026-08-28 operational verification:
-     - Bihar Tourism describes Brahmakund as a hot-spring destination for pilgrims and tourists, explicitly says devotees take a dip, and instructs visitors to dress modestly and follow bathing rules.
-     - Bihar Tourism lists September-April as best season, covering the Dec 2026-Jan 2027 trip window.
-     - Nalanda district official page (updated 2026-08-19) likewise describes the hot springs and bathing, with a separate enclosed spring for women.
+2. **Rajgir Brahmakund hot springs — A**
+   - Mark decision: A.
+   - Mark explicitly accepts the residual on-site risk that he could still be refused bathing access. That operational uncertainty does NOT make the grade conditional and does NOT turn the item into A/C.
+   - Planning consequence: Rajgir/Brahmakund is active wanted content and must be included in Bodh execution geometry unless Mark later explicitly changes the grade.
+   - Current 2026-08-28 verification:
+     - Bihar Tourism describes Brahmakund as a hot-spring destination for pilgrims and tourists, explicitly describes taking a dip/bathing and gives bathing rules.
+     - September-April is listed as a good season, covering Dec 2026-Jan 2027.
      - No current official Bihar Tourism/Nalanda page reviewed states that foreign nationality itself bars bathing.
-     - Some non-official/older sources report a religion-based restriction on the inner Brahmakund; this is not confirmed on the current official pages and must not be silently treated as either proven current or irrelevant.
-   - Operational handling: carry **A_IF_PERSONAL_BATHING_ALLOWED / AUTO-C_IF_NOT_ALLOWED**. Before spending route burden specifically because of this A, verify actual access/bathing permission directly/local-current. Do not ask Mark to decide again; the conversion rule is already decided.
-   - Sources checked 2026-08-28: Bihar Tourism `https://tourism.bihar.gov.in/en/destinations/nalanda/brahmakund`; District Nalanda `https://nalanda.nic.in/en/tourist-place/brahmakund/`.
+     - Older/non-official material reports a religion-based restriction on the inner Brahmakund. Mark knowingly accepts this residual access risk and still chooses A.
+   - Do not ask Mark again whether the item is A or C merely because access remains imperfectly guaranteed.
 
 3. **Rajgir Vishwa Shanti Stupa + ropeway — B**
    - Mark: sounds fun/nice if already nearby, especially for the overview/view from above, but not an A magnet and not a reason by itself to create the Rajgir trip.
@@ -43,11 +43,14 @@ These are explicit Mark decisions from the live INDIA conversation on 2026-08-28
 
 ## Closed batch checksum
 - Nalanda Mahavihara — C
-- Rajgir Brahmakund — A_IF_PERSONAL_BATHING_ALLOWED / AUTO-C_IF_NOT_ALLOWED
+- Rajgir Brahmakund — A
 - Rajgir Vishwa Shanti Stupa + ropeway — B
 - Patharkatti/Pattharkatti — C
 - Sher Shah Suri Tomb — C
 - Gaya Tilkut — A*
 
+## Source-layer closure
+The strict Lonely Planet Bodh Gaya/corridor layer has already been surfaced and reconciled in `BODHGAYA_STRICT_LP_LAYER_GATE_2026-08-27.md`. With this six-item ballot now closed, there is no remaining actionable LP item requiring a Mark grade before execution geometry.
+
 ## Next planning action
-The six-item subjective content ballot is CLOSED. INDIA should now proceed automatically to geographic Bodh Gaya/Gaya day modules and realistic dwell/duration work. Brahmakund's access condition is an operational verification trigger, not a new Mark-only choice.
+Bodh Gaya/Gaya has passed Layer A CONTENT for the current known source universe. INDIA should now proceed automatically to Layer B EXECUTION GEOMETRY: map retained A+/A into geographic day bundles, assign A* SKIP_FIRST and B conditional homes, count honest movement and internal travel, then move to Layer C where Mark judges only the actual pace/dwell footprint. No new Bodh content ballot is required unless genuinely new material later appears.
