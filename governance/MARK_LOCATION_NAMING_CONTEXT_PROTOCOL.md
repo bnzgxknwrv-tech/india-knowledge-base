@@ -21,6 +21,9 @@ A bare unfamiliar Indian name such as `Brahmakund`, `Sarnath`, `Tergar`, `Kainch
 
 The recognition hook answers in a few Dutch words: **WAT IS DIT / WAAROM HERKEN IK HET?** It is not marketing prose.
 
+### Typography — HARD
+User-facing location labels must normally be **bold text at the same body-text size as the surrounding answer**. Do NOT use oversized Markdown headings merely to make a place name prominent. A place label may start a normal paragraph or table cell in bold. Hierarchy comes from wording/layout, not giant type.
+
 ## 2. UMBRELLA / COMPLEX RULE
 If a parent name hides the physical experience, expose the meaningful physical components in the name/hook.
 
@@ -42,7 +45,32 @@ Minimum context when materially relevant:
 
 A site 70 km away may NEVER be presented as `1.5 h visit` if reaching it turns the choice into a 6–8 h excursion/day. The decision surface must show the whole human-time cost BEFORE Mark grades it.
 
-## 4. MINI-CLUSTER FIRST
+## 4. SEQUENCE-AWARE CORRIDOR RULE — HARD
+A location may not be evaluated only as an out-and-back from the sleeping base. INDIA must first place it inside the **actual larger journey sequence**.
+
+For every non-local A/A*/B candidate or selected place, explicitly test:
+1. **Waar komt Mark vandaan vóór deze cluster?** Use the current retained predecessor world/base/transfer hypothesis, not a generic city centre.
+2. **Waar gaat Mark hierna heen?** Use the current retained successor world/base/transfer hypothesis.
+3. **Ligt de locatie langs de inkomende corridor, uitgaande corridor, of tussen twee reeds geselecteerde stops?**
+4. **Wat is de netto extra afstand en netto extra reistijd versus de verplaatsing die Mark toch al maakt?**
+5. **Kan de stop op een aankomst-, vertrek- of transferdag zonder terugrijden worden gevangen?**
+6. **Welke B/A* of andere geselecteerde plek bundelt dan natuurlijk mee?**
+7. **Ontstaat er backtracking?** If yes, quantify it and say so.
+
+This corridor test comes BEFORE calling something a `separate day` or `detour`.
+
+A place that is 70 km from the hotel can still be nearly free if it lies on the next transfer spine. Conversely, a place only 40 km from the hotel can be expensive if it lies in the opposite direction from both predecessor and successor.
+
+Required comparison surfaces where relevant:
+- `BASE -> SITE -> BASE`
+- `PREDECESSOR -> SITE -> CURRENT BASE`
+- `CURRENT BASE -> SITE -> SUCCESSOR`
+- direct baseline `PREDECESSOR -> CURRENT BASE` or `CURRENT BASE -> SUCCESSOR`
+- **NETTO DELTA** in km and human time.
+
+Do not claim corridor convenience from straight-line geography. Use practical road/rail/flight geometry and actual access points.
+
+## 5. MINI-CLUSTER FIRST
 Distance must be judged against where Mark is already going, not only against a headline city.
 
 For each candidate ask:
@@ -53,7 +81,7 @@ For each candidate ask:
 
 If one site creates a distant mini-cluster, say so explicitly before subjective grading.
 
-## 5. ROPEWAY / WALK / BOAT / SPECIAL-ACCESS RULE
+## 6. ROPEWAY / WALK / BOAT / SPECIAL-ACCESS RULE
 An attraction involving transport inside the attraction must state BOTH endpoints/context.
 
 Example:
@@ -61,27 +89,35 @@ Example:
 
 Never write only `ropeway` or `kabelbaan` without saying what it connects and where the boarding/start point is relative to the rest of the mini-cluster.
 
-## 6. TIME FORMAT FOR BUSINESSLIKE OVERVIEWS
+## 7. TIME FORMAT FOR BUSINESSLIKE OVERVIEWS
 When Mark asks for a factual/compact overview, default to compact fields, not narrative paragraphs:
 - `Geschatte lengte: ...`
 - `Vanaf hoofdanker: ... km / ... min`
+- `Vanaf vorige echte stop/wereld: ... km / ... min`
+- `Naar volgende echte stop/wereld: ... km / ... min`
+- `Netto corridor-delta: ... km / ... min`
 - `Vanaf natuurlijke buurstop: ... km / ... min`
-- `Context: LOCAL / OUTER / APARTE DAG / CORRIDOR`
+- `Context: LOCAL / OUTER / APARTE DAG / INKOMENDE CORRIDOR / UITGAANDE CORRIDOR / TRANSFER-BY-CATCH`
 
 Narrative spiritual/human explanation is added only when needed to understand or decide the place.
 
-## 7. MAP REQUIREMENT
+## 8. MAP REQUIREMENT
 When spatial relation is the issue, provide a map/geo view where the interface supports it. The map does NOT replace textual distance/context: both are required.
 
-## 8. PRE-REPLY VIOLATION TEST
+A useful map should show, where relevant, not only local attractions but also the **predecessor direction, successor direction and corridor relationship** so Mark can see whether a remote-looking place is actually on-route.
+
+## 9. PRE-REPLY VIOLATION TEST
 Before every user-facing India reply containing locations, scan every location label:
 - Does it follow `FULL NAME — DUTCH RECOGNITION HOOK (PLACE/CLUSTER)`?
+- Is it bold at normal body-text size rather than an oversized place-name heading?
 - Is grade/UNESCO correct where shown?
 - If distance matters, is burden stated from the real host/mini-cluster?
+- For non-local items: are predecessor, successor and corridor delta tested?
+- Has transfer-day capture been tested before calling it a separate excursion?
 - If the place is remote, is whole excursion/day cost visible?
 - If special internal transport is named, are start/end/context explicit?
 
 If any answer is NO, the reply MUST be fixed before sending.
 
-## 9. WHY THIS IS HARD
-Mark must never need to memorize unfamiliar Indian names or discover only after grading that a seemingly small attraction actually costs a separate half/full day. Recognition and geographic burden are part of decision quality, not optional presentation polish.
+## 10. WHY THIS IS HARD
+Mark must never need to memorize unfamiliar Indian names, infer the route spine himself, or discover only after grading that a seemingly remote attraction lay almost directly on a transfer he was making anyway. Recognition, predecessor/successor context and **net marginal travel cost** are part of decision quality, not optional presentation polish.
