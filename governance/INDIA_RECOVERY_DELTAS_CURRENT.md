@@ -14,8 +14,8 @@ Repeated failure: successors assumed `CURRENT_STATE.md` contained every older pe
 
 Hard correction:
 - current state is the present cockpit, not proof that no older material Mark decision exists;
-- when Mark says `we hadden dit al`, search relevant historical decisions/handoffs/PR before asking him to repeat himself;
-- promote the still-valid fact into current files after recovery.
+- when Mark says `we hadden dit al`, search relevant mapped/protected/history sources before asking him to repeat himself;
+- promote the still-valid fact into the durable top layer after recovery.
 
 # R02 — A QUESTION IS NOT A DECISION
 A prior successor converted a Mark question about Braj/Vrindavan into a DROP.
@@ -72,17 +72,22 @@ Current Haidakhan truth:
 - 3 nights / 2 complete quiet days LOCKED_BY_MARK;
 - space is intentional and must not be compressed for arithmetic convenience.
 
-# R08 — KUMAON SLEEP-BASE SUPERSEDE
+# R08 — KUMAON SLEEP-BASE SUPERSEDE + FALLBACK PRESERVATION
 Historical V2:
-- Joshi Guest House, Kukuchina was once LOCKED.
+- Joshi Guest House, Kukuchina was once the primary locked Babaji-cave base.
 
-Later explicit Mark decision:
-- `HOTEL Dunagiri Retreat — LOCKED_BY_MARK` supersedes Joshi as current Dunagiri/Babaji sleep base.
+Later layer:
+- `HOTEL Dunagiri Retreat — LOCKED_BY_MARK` became the newer selected base.
+
+Explicit Mark refresh on 2026-08-28 resolves the provenance ambiguity and preserves the useful fallback:
+- **Dunagiri Retreat = PRIMARY**;
+- **Joshi Guest House, Kukuchina = FALLBACK_IF_DUNAGIRI_UNAVAILABLE**;
+- do not reopen the comparison unless Mark asks or Dunagiri proves unavailable/unworkable.
 
 Also:
-- Hotel Evelyn remains active and is now A+;
+- Hotel Evelyn remains active and is A+;
 - old Kasar Devi/Almora/Turiya sleep module is not part of the current trip;
-- Turiya Niwas/Bodh Ashram later current grades are C in the old-A/current A+ decision layer.
+- Turiya Niwas/Bodh Ashram current grades are C in the later decision layer.
 
 # R09 — KUMAON INBOUND TRAVEL DAY COUNTS
 Repeated error: inbound travel to Kumaon was parked as `later global` while calculating cluster duration.
@@ -93,7 +98,7 @@ Hard correction:
 - eastern exit remains visible and is charged exactly once later;
 - current closed footprint through final Dunagiri night = 9 occupied days / 9 nights.
 
-# R10 — DUNAGIRI / GREAT BUDDHA / BARABAR CROSS-GENERATION CONFLICT
+# R10 — DUNGESHWARI / GREAT BUDDHA / BARABAR CROSS-GENERATION CONFLICT
 Old 2026-08-23 current-at-the-time grades included:
 - Dungeshwari/Mahakala Caves = C;
 - Great Buddha Statue = B;
@@ -119,7 +124,8 @@ Known proof patterns:
 
 Current consequence:
 - baseline = permanent ID/protected decision anti-forget layer;
-- current decision logs + exact current cluster artifacts take precedence.
+- current decision master + exact current cluster artifacts + later explicit decisions take precedence;
+- baseline is now conditional, not an every-boot read.
 
 # R12 — VARANASI MUST NOT BE REDUCED TO OLD V2 SHORTHAND
 Protected original Varanasi 001–040 decisions are real and were larger than old route shorthand. Later 041–045 decisions are additive.
@@ -213,7 +219,25 @@ Hard correction:
 Future recovery incidents:
 1. identify the durable correction;
 2. update this SAME `INDIA_RECOVERY_DELTAS_CURRENT.md`;
-3. update `CURRENT_STATE`, profile, knowledge map or exact cluster file where needed;
+3. update current master/state/profile/map or exact cluster file where needed;
 4. do not create a new mandatory `INDIA13_POSTMORTEM`, `INDIA14_RECOVERY`, etc. unless this living architecture genuinely cannot carry the issue.
+
+# R23 — 2026-08-28 MEMORY ARCHITECTURE REPAIR / BOOT BACKFILL CLOSED
+Failure found during INDIA12 audit:
+- successors repeatedly needed old handoffs/decision layers because the intended event ledger/current materialized view had never actually been created;
+- this made the boot long and still left the WHY behind decisions fragile.
+
+Structural correction completed:
+- `governance/DECISION_LEDGER.jsonl` now exists as append-only WHAT+WHY+source+supersedes memory;
+- `governance/CURRENT_DECISIONS_MASTER.md` now exists as the fast current `AL BESLIST?` view;
+- `MARK_TRAVEL_PREFERENCES_CURRENT.md` remains the durable human/vision layer;
+- `INDIA_CURRENT_KNOWLEDGE_MAP.md` now says `DECISION_LEDGER_BACKFILL_COMPLETE`;
+- the former eleven-file every-boot migration-safety list is retired;
+- detailed legacy IDs/grade rows are not deleted: they remain conditional anti-forget/provenance sources through the knowledge map;
+- after every future explicit material Mark decision, ledger + current master must be updated in the same execution cycle and the important WHY must be preserved, not only the label.
+
+Scope honesty:
+- backfill complete means durable planning knowledge required at every successor boot has been harvested from the centrally surveyed planning corpus;
+- it does not claim every script/binary/raw worker byte was read or duplicated into the top layer.
 
 END OF CURRENT RECOVERY DELTAS
