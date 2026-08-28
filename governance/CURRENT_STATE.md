@@ -1,6 +1,6 @@
 # CURRENT STATE — INDIA
 
-Last updated: 2026-08-27
+Last updated: 2026-08-28
 Branch: `agent/india8-cluster-casting`
 Purpose: compact durable continuation state. Old exact calendars are provenance only.
 
@@ -9,6 +9,18 @@ After the user's light successor boot (`README.md` -> this file -> protected can
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/INDIA11_TO_INDIA12_HOT_HANDOFF_2026-08-27.md`
 
 That file is the lossless INDIA11 session handoff and contains the newest presentation/pace rules, Varanasi closure detail, Bhrigu A+ operational truth, exact Bodh Gaya frontier, and the status of all prepared remaining fixed-core packets.
+
+### INDIA12 RECOVERY DELTA — MUST APPLY
+On 2026-08-28 Mark explicitly triggered historical recovery because the light successor set had missed material older project truth. INDIA12 widened through the current central tree, all current decisions/handoffs, historical sleep/base canon, current route/transfer files and the fixed-core prep packets.
+
+Mandatory recovery artifact:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/INDIA12_RECOVERY_CANON_RECONCILIATION_2026-08-28.md`
+
+Most important correction:
+- `Barabar/Nagarjuni Caves` had already been Mark **C** in the 2026-08-23 Bodh Gaya reconciliation and was incorrectly reopened by the 2026-08-27 LP/prep layer. No later explicit Mark reopening was found. Barabar is therefore **C / DO NOT RE-PRESENT**.
+- the same older reconciliation's Dungeshwari=C and Great Buddha=B are genuinely superseded by later explicit Mark decisions: Dungeshwari=A+ and Great Buddha=A.
+
+The current Bodh Gaya prep and bounded-check files have been patched accordingly.
 
 Then use the fixed-core prep packets below instead of repeating broad recovery/research.
 
@@ -63,6 +75,11 @@ LOCKED:
 - eastern Kumaon exit = mandatory FULL TRAVEL DAY adjacent edge; charge once later.
 - do not reopen unless physical/logistical impossibility.
 
+Recovered accommodation supersedes:
+- Hotel Evelyn remains active and is A+ within the Nainital world.
+- historical Joshi Guest House/Kukuchina lock is superseded by the later explicit `HOTEL Dunagiri Retreat — LOCKED_BY_MARK` decision.
+- old Kasar Devi/Almora/Turiya sleep module is not part of the current trip.
+
 # VARANASI / SARNATH — DURATION_CLOSED
 Canonical:
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/VARANASI_DURATION_MARK_DECISION_2026-08-27.md`
@@ -103,15 +120,15 @@ Detailed accepted Varanasi working plan is provenance in:
 Do not treat it as final dated day cards.
 
 # PREPARED FIXED-CORE PACKETS — VERIFIED PRESENT
-Mark explicitly asked INDIA11 to prepare all following places in advance so future rounds do not pause for long recovery. All four packets below exist and were checked before INDIA11 handoff.
+Mark explicitly asked INDIA11 to prepare all following places in advance so future rounds do not pause for long recovery. All four packets below exist and have now also been directly re-read by INDIA12 during recovery.
 
 1. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_PREP_PACKET_2026-08-27.md`
-   - reconciled current A+/A/B/C;
+   - reconciled current A+/A/B/C including INDIA12 Barabar recovery;
    - complete strict LP layer + non-LP traveler items;
    - UNESCO labels;
    - old 3-night/sleep-zone provenance;
    - local/outer geometry;
-   - prepared open decision set and preliminary day modules.
+   - corrected open decision set and preliminary day modules.
 
 2. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_PREP_PACKET_2026-08-27.md`
    - recovered Ramana/Arunachala A+ parent + explicit retained A children;
@@ -145,8 +162,11 @@ This is the next Mark-facing fixed world.
 Mandatory fast-start packet:
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_PREP_PACKET_2026-08-27.md`
 
-INDIA12 bounded current check COMPLETED and centrally recorded in:
+INDIA12 bounded current check COMPLETED and recovery-patched in:
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_INDIA12_BOUNDED_CURRENT_CHECK_2026-08-27.md`
+
+Recovery authority:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/INDIA12_RECOVERY_CANON_RECONCILIATION_2026-08-28.md`
 
 Current fixed A+:
 - Mahabodhi Temple Complex — A+ `[UNESCO WH]`.
@@ -159,29 +179,36 @@ Current B already reconciled in packet:
 - Tergar Monastery — B.
 - Mangala Gauri Temple — B.
 - Jagannath Temple — B.
-Current explicit C list is in the packet; do not re-present.
+Current explicit C list is in the packet; do not re-present. Barabar/Nagarjuni is explicitly among those C items after recovery.
 
-Old 3-night Bodh Gaya and temple-core hotel zone are historical comparison only, not current duration/hotel locks.
+Old 3-night Bodh Gaya is historical comparison only, not current duration lock. The old walkable Mahabodhi temple-core sleep-zone preference is useful prior context; exact hotel remains unchosen.
 
-### TRUE OPEN BATCH — READY FOR MARK
-1. Barabar Caves `[LP]` — unique Mauryan polished-granite/echo cave magnet; current road check ~41 km / 46 min raw, plan about 1:00–1:15 each way plus access/trek; strong A candidate.
-2. Nalanda Mahavihara `[LP] [UNESCO WH]` — day-changing world-historical magnet; current road check ~85 km / 1 h 23 min raw, plan roughly 1.5–2 h each long leg; strong A candidate.
-3. Rajgir Brahmakund hot springs — traveler/nature; living 11-spring bathing/pilgrimage environment; only sensible as part of the Nalanda/Rajgir outer world.
-4. Rajgir Vishwa Shanti Stupa + ropeway — traveler; same outer world; Bodh Gaya -> Rajgir current raw road ~71.5 km / 1 h 11 min.
-5. Patharkatti black-stone craft village `[LP]` — correct identity closed as Pattharkatti, Nimchak Bathani, Gaya; living stone-craft CFC; outer excursion, not a city micro-stop.
-6. Sher Shah Suri Tomb `[LP]` — monumental lake mausoleum at Sasaram; content value must be graded separately from route; operational value depends strongly on later car-vs-train Varanasi/Bodh Gaya bridge and may not silently choose car.
-7. Gaya Tilkut — small winter human/food experience; only when Gaya is already traversed; cannot force a day/night.
+### TRUE OPEN BATCH — RECOVERY-CORRECTED / READY FOR MARK
+1. Nalanda Mahavihara `[LP] [UNESCO WH]` — day-changing world-historical magnet; current road check ~85 km / 1 h 23 min raw, plan roughly 1.5–2 h each long leg.
+2. Rajgir Brahmakund hot springs — traveler/nature; living 11-spring bathing/pilgrimage environment; only sensible as part of the Nalanda/Rajgir outer world.
+3. Rajgir Vishwa Shanti Stupa + ropeway — traveler; same outer world; Bodh Gaya -> Rajgir current raw road ~71.5 km / 1 h 11 min.
+4. Patharkatti black-stone craft village `[LP]` — correct identity closed as Pattharkatti, Nimchak Bathani, Gaya; living stone-craft CFC; outer excursion, not a city micro-stop.
+5. Sher Shah Suri Tomb `[LP]` — monumental lake mausoleum at Sasaram; content value must be graded separately from route; operational value depends strongly on later car-vs-train Varanasi/Bodh Gaya bridge and may not silently choose car.
+6. Gaya Tilkut — small winter human/food experience; only when Gaya is already traversed; cannot force a day/night.
 
-### TUTLA BHAWANI — NOT IN ACTIONABLE BALLOT
-Current official Bihar Tourism check says `Best Time to Visit: June to August`; Marks trip is 18 Dec 2026–21 Jan 2027. Therefore Tutla waterfall is preserved as seasonal-mismatch provenance but intentionally excluded from this numbered winter ballot. INDIA has NOT assigned it C; only Mark changes subjective grades. Reopen only on material new winter evidence.
+### NOT ACTIONABLE
+- `Barabar/Nagarjuni Caves` — C, recovered existing Mark decision; do not re-present.
+- `Tutla Bhawani waterfall` — current official best-season mismatch for Dec/Jan; provenance only for this winter ballot, no INDIA-assigned C.
 
-### EXACT INDIA12 NEXT ACTION — NOW
-1. Present ONE recognition-rich numbered Bodh Gaya OPEN batch using the seven items above. For every item: what it is, why it may matter to Mark, recommended dwell, real road/transfer burden, UNESCO label where exact.
-2. Do not ask old A+/A/B/C again.
-3. Await only Marks explicit grades for the seven OPEN items.
+### EXACT INDIA12 NEXT ACTION — AFTER RECOVERY
+1. Do not repeat the incorrect seven-item batch previously shown in chat.
+2. Present/retain only the six true OPEN items above when Mark is ready to grade Bodh Gaya.
+3. Do not ask old A+/A/B/C again.
 4. After Mark grades, record immediately and continue automatically into explained 2–3-block geographic day modules.
 5. Mark adjusts subjective dwell; then close Bodh Gaya/Gaya duration.
 6. Continue automatically to Tiruvannamalai using its prepared packet.
+
+# OTHER RECOVERED ROUTE GUARDS
+- East route family Ranchi + Kolkata/Hooghly/Serampore/Dakshineswar + Puri/Odisha was explicitly skipped by Mark for this trip; research remains provenance but may not silently re-enter.
+- Exactly two intended ashram sleeps: Haidakhan Vishwa Mahadham and Sri Ramanasramam if accepted/available.
+- Old exact V2 calendars are provenance only; retain useful closure/festival/service signals only for later live recheck.
+- Braj/Vrindavan was NOT dropped: an earlier inferred DROP was invalidated. Cluster inclusion remains unresolved/deferred optional; existing site grades stay protected.
+- Current optional worlds before fixed-core budget closure remain only: Braj; Haridwar/Kankhal/Rishikesh; Prayagraj.
 
 # OTHER FIXED WORLDS — PREPARED, NOT DURATION_CLOSED
 - TIRUVANNAMALAI / ARUNACHALA — prep packet ready.
