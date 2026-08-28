@@ -1,16 +1,25 @@
 # BODH GAYA / GAYA — INDIA12 BOUNDED CURRENT CHECK — 2026-08-27
 
-status: READY_FOR_MARK_OPEN_BALLOT
+status: READY_FOR_MARK_OPEN_BALLOT__RECOVERY_PATCHED_2026-08-28
 branch: `agent/india8-cluster-casting`
 purpose: execute only the bounded live/current checks explicitly required by CURRENT_STATE before the prepared Bodh Gaya OPEN batch. This file assigns NO A+/A/A*/B/C grade on Mark's behalf.
 
 ## AUTHORITY / INPUT
 Use together with:
 - `BODHGAYA_PREP_PACKET_2026-08-27.md`;
+- `INDIA12_RECOVERY_CANON_RECONCILIATION_2026-08-28.md`;
 - `governance/CURRENT_STATE.md`;
 - protected canon baseline.
 
 Existing A+/A/B/C are unchanged. This pass only closes current winter suitability and practical outer-road burden for genuine OPEN items.
+
+## RECOVERY OVERRIDE — BARABAR IS NOT OPEN
+The first version of this file treated Barabar as OPEN because the 2026-08-27 prep layer had missed a 2026-08-23 Mark C decision preserved in the older final handoff. INDIA12's widened recovery found that decision and found no later explicit reopening.
+
+Correct current disposition:
+`JEHANABAD / BARABAR–NAGARJUNI / Barabar/Nagarjuni Caves (Mauryaanse gepolijste rotsgrotten; sterke architectuur/akoestiek) — C / DO NOT RE-PRESENT`.
+
+The current route/season facts below may be retained as factual provenance only. They cannot create a new ballot item.
 
 ## RESULT 1 — TUTLA BHAWANI: DO NOT WASTE MARK'S DECISION BALLOT
 `ROHTAS / TILAUTHU / Tutla Bhawani Waterfall + valley — LP discovery, current-trip winter mismatch; provenance only for this ballot.`
@@ -27,8 +36,8 @@ This is NOT an INDIA-assigned C grade. It remains preserved as out-of-window/sea
 Official source checked 2026-08-27:
 https://tourism.bihar.gov.in/en/destinations/rohtas/tutla-bhawani-waterfall-rohtas
 
-## RESULT 2 — BARABAR CAVES: REAL HALF-DAY / MAIN-BLOCK BURDEN
-`JEHANABAD / MAKHDUMPUR / Barabar Caves — OPEN [LP]`.
+## RESULT 2 — BARABAR CURRENT FACTS, PROVENANCE ONLY BECAUSE MARK C
+`JEHANABAD / MAKHDUMPUR / Barabar Caves — C / NON-ACTIONABLE`.
 
 Official Bihar Tourism currently describes the Barabar Hills as home to the world's/India's oldest surviving rock-cut caves, with Mauryan polished interiors/inscriptions and a distinctive echo effect; best season September–April; some trekking may be required.
 
@@ -36,7 +45,7 @@ Current route-planner snapshot Bodh Gaya -> Barabar Caves:
 - road distance ~41 km;
 - raw drive ~46 min.
 
-For real planning do NOT budget only 46 minutes. Use approximately 1:00–1:15 each way from the Bodh Gaya sleep zone once pickup/traffic/finding the access point are included, plus access/walking/trek. Recommended site envelope for Mark to judge later: ~2–3 h at the caves/hills. Operationally this is a strong half-day/main block.
+These facts show why later traveler layers rediscovered the caves as a strong magnet, but they do NOT reopen Mark's C. If Mark ever explicitly reopens them, real planning should use approximately 1:00–1:15 each way from the Bodh Gaya sleep zone plus access/walking/trek, with ~2–3 h on site. Until such an explicit reopen, zero current-trip planning burden is assigned.
 
 Sources checked 2026-08-27:
 https://tourism.bihar.gov.in/en/destinations/jehanabad/barabar-caves
@@ -102,17 +111,18 @@ This remains a winter sesame-jaggery food/human-texture experience. Operationall
 
 No live opening-hour claim is locked in this pass; exact producer/hours are a final-day-card fact only if Mark retains the experience.
 
-## FINAL ACTIONABLE OPEN BATCH AFTER THIS CHECK
+## FINAL ACTIONABLE OPEN BATCH AFTER RECOVERY
 Only these genuine OPEN choices should be presented to Mark now:
-1. Barabar Caves [LP]
-2. Nalanda Mahavihara [LP] [UNESCO WH]
-3. Rajgir Brahmakund hot springs
-4. Rajgir Vishwa Shanti Stupa + ropeway
-5. Patharkatti stone-craft village [LP]
-6. Sher Shah Suri Tomb [LP] — explicitly route-conditional
-7. Gaya Tilkut — micro/human texture
+1. Nalanda Mahavihara [LP] [UNESCO WH]
+2. Rajgir Brahmakund hot springs
+3. Rajgir Vishwa Shanti Stupa + ropeway
+4. Patharkatti stone-craft village [LP]
+5. Sher Shah Suri Tomb [LP] — explicitly route-conditional
+6. Gaya Tilkut — micro/human texture
 
-Tutla Bhawani is intentionally NOT in the numbered ballot because the current official seasonal evidence does not support spending a Dec/Jan decision slot on it.
+Not actionable:
+- Barabar/Nagarjuni — Mark C, do not re-present;
+- Tutla Bhawani — current winter mismatch/provenance only, not a new C.
 
 No existing Mahabodhi/Sujata/Dungeshwari/Great Buddha/B/C item is reopened.
 
