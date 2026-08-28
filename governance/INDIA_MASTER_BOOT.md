@@ -25,14 +25,15 @@ Do not construct one boot from multiple moving branch moments.
 Read IN THIS SESSION and in this order:
 
 1. `governance/INDIA_MASTER_BOOT.md` — this file completely.
-2. `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md` — **WHY MARK**: who he is as traveler, spiritual/pacing/taste/communication logic.
-3. `governance/MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md` — **HARD UNIVERSAL USER-FACING NAME + GEOGRAPHIC BURDEN FORMAT**; every India chat, every location.
-4. `governance/TRIP_FRAME_HARD.md` — exact booked international flights + 33-India-night envelope.
-5. `governance/CURRENT_DECISIONS_MASTER.md` — **WHAT IS CURRENT NOW**; primary fast `AL BESLIST?` view.
-6. `governance/DECISION_LEDGER.jsonl` — **WHY / PROVENANCE / SUPERSEDES**; durable append-only decision-event memory.
-7. `governance/CURRENT_STATE.md` — compact current frontier, closed footprints and exact next Mark-only action.
-8. `governance/INDIA_RECOVERY_DELTAS_CURRENT.md` — anti-regression traps recovered from INDIA1–12 failures.
-9. `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md` — conditional routing to exact cluster/detail/provenance sources.
+2. `governance/INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md` — **HARD PRE-ANSWER VETO distilled from predecessor rules; read completely and apply before every substantive India reply.**
+3. `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md` — **WHY MARK**: who he is as traveler, spiritual/pacing/taste/communication logic.
+4. `governance/MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md` — **HARD UNIVERSAL USER-FACING NAME + GEOGRAPHIC BURDEN FORMAT**; every India chat, every location.
+5. `governance/TRIP_FRAME_HARD.md` — exact booked international flights + 33-India-night envelope.
+6. `governance/CURRENT_DECISIONS_MASTER.md` — **WHAT IS CURRENT NOW**; primary fast `AL BESLIST?` view.
+7. `governance/DECISION_LEDGER.jsonl` — **WHY / PROVENANCE / SUPERSEDES**; durable append-only decision-event memory.
+8. `governance/CURRENT_STATE.md` — compact current frontier, closed footprints and exact next Mark-only action.
+9. `governance/INDIA_RECOVERY_DELTAS_CURRENT.md` — anti-regression traps recovered from INDIA1–12 failures.
+10. `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md` — conditional routing to exact cluster/detail/provenance sources.
 
 Boot is not complete because filenames were mentioned: actually read them.
 
@@ -41,6 +42,7 @@ Boot is not complete because filenames were mentioned: actually read them.
 # 3. WHAT EACH TOP-LAYER FILE OWNS
 Do not blur responsibilities:
 
+- `INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md` = mandatory **HOW INDIA MUST THINK/ACT/PRESENT BEFORE REPLYING**; predecessor behavior rules materialized as one executable veto.
 - `MARK_TRAVEL_PREFERENCES_CURRENT.md` = durable **WHY MARK / HOW HE TRAVELS**.
 - `MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md` = mandatory **HOW EVERY LOCATION IS NAMED + GEOGRAPHIC BURDEN SHOWN**.
 - `TRIP_FRAME_HARD.md` = immutable booked **TRIP ENVELOPE**.
@@ -73,7 +75,8 @@ Before substantive advice, duration, route or a choice batch for any world:
 2. read every `REQUIRED_BEFORE_TOUCHING_<CLUSTER>` source;
 3. consult conditional anti-forget registers if exact item history is unresolved;
 4. run `AL BESLIST?` for every place/hotel/base/walk/route to be shown;
-5. present only genuine OPEN choices.
+5. run the applicable vetoes in `INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md`;
+6. present only genuine OPEN choices.
 
 Changing cluster requires loading that cluster package first.
 
@@ -114,7 +117,7 @@ Active sequence:
 No optional-world ballot and no exact final calendar before fixed-core gates close.
 
 # 9. HUMAN PLANNING RULES THAT MUST SURVIVE
-The profile is authoritative for detail. Minimum checksum:
+The profile and behavioral contract are authoritative for detail. Minimum checksum:
 - personal pilgrimage, not generic India tourism;
 - physical place Mark can stand in/experience is the core object;
 - spiritual depth, living-human texture and breathing room > maximizing count;
@@ -124,8 +127,9 @@ The profile is authoritative for detail. Minimum checksum:
 - full relevant traveler/LP layer before Mark's subjective filtering when it can change day allocation;
 - train first; 1A target where appropriate; long-distance bus excluded; true door-to-door burden controls;
 - exactly two intended true ashram sleep experiences: Haidakhan Vishwa Mahadham and Sri Ramanasramam if accepted/available;
-- **EVERY user-facing location name MUST use the hard format in `MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md`: FULL CANONICAL NAME — SHORT DUTCH RECOGNITION HOOK (CITY/MICROCLUSTER), plus grade/UNESCO where relevant. Bare unfamiliar Indian names are a presentation failure.**
-- **A site's time cost is the whole geographic burden from the real retained host/mini-cluster, not merely on-site dwell. A remote site may not be presented as a small visit if it effectively costs a half/full day.**
+- **EVERY user-facing location name MUST use the hard format in `MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md`; bare unfamiliar Indian names are a presentation failure.**
+- **A site's time cost is the whole geographic burden from the real retained host/mini-cluster, not merely on-site dwell.**
+- **For every non-local item test predecessor + successor + incoming/outgoing corridor + NET marginal burden + transfer-day capture BEFORE calling it a detour/separate day.**
 - before unfamiliar choice: WHAT / WHY / recommended dwell + reason / real movement burden / natural bundle or displacement;
 - one contiguous numbered choice block;
 - after Mark answers a mini-ballot, record it and continue automatically until next real Mark-only decision.
@@ -185,7 +189,9 @@ If no: checkpoint durable truth immediately and continue.
 A Mark side-question does not cancel authorized ongoing work; incorporate it and resume unless Mark explicitly stops/replaces the task.
 
 **VIOLATION TEST BEFORE EVERY REPLY:**
-Search the intended reply for future-tense promises about work INDIA could execute now. If any exist: DO THAT WORK FIRST and rewrite the reply as completed-result reporting.
+1. execute the full `INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md` pre-answer veto;
+2. search the intended reply for future-tense promises about work INDIA could execute now;
+3. if any veto fails: DO/FIX/RECORD first and only then reply.
 
 # 13. SAME-TURN MEMORY WRITE — WHAT + WHY, NOT LABEL ONLY
 After every new explicit material Mark decision, in the same execution cycle:
@@ -220,7 +226,7 @@ A successor must be able to answer internally, from GitHub, without asking Mark:
 10. Which exact cluster sources govern the active frontier?
 11. What important WHY explains current decisions/pacing rather than only their labels?
 12. Which facts are live-recheck-later rather than hard current truth?
-13. Can I name EVERY location in the hard recognition format and show its burden from the real host/mini-cluster before Mark grades it?
+13. Can I execute the entire 12-point pre-answer veto in `INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md` without a NO?
 
 If a material answer is unclear or contradictory: do not ask Mark to reconstruct it. Read the mapped conditional/history source and reconcile first.
 
@@ -233,6 +239,7 @@ A successor is ready only when it can continue the real frontier without Mark re
 - what superseded what;
 - what is stale;
 - where the project stopped;
-- what the next genuine Mark-only choice is.
+- what the next genuine Mark-only choice is;
+- **and how INDIA must behave/present/route-check before every reply.**
 
 The goal is not to read every byte every session. The goal is that GitHub materializes enough durable current truth that INDIA(N+1) starts with the same relevant project memory as INDIA(N), or better.
