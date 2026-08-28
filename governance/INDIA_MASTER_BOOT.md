@@ -127,7 +127,7 @@ The profile and behavioral contract are authoritative for detail. Minimum checks
 - full relevant traveler/LP layer before Mark's subjective filtering when it can change day allocation;
 - train first; 1A target where appropriate; long-distance bus excluded; true door-to-door burden controls;
 - exactly two intended true ashram sleep experiences: Haidakhan Vishwa Mahadham and Sri Ramanasramam if accepted/available;
-- **EVERY user-facing location name MUST use the hard format in `MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md`; bare unfamiliar Indian names are a presentation failure.**
+- **EVERY user-facing location name MUST use the hard format in `MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md`; bare unfamiliar Indian names are a presentation failure. THIS APPLIES TO EVERY OCCURRENCE, INCLUDING SHORTHAND, PLUS-LISTS, TABLES, ROUTE SUMMARIES, PARENTHETICALS, SECOND/THIRD MENTIONS AND CONCLUSIONS. Prior explanation in the same answer is NEVER an exemption. Before send, scan the ENTIRE reply for every Indian location token and expand any bare name.**
 - **A site's time cost is the whole geographic burden from the real retained host/mini-cluster, not merely on-site dwell.**
 - **For every non-local item test predecessor + successor + incoming/outgoing corridor + NET marginal burden + transfer-day capture BEFORE calling it a detour/separate day.**
 - before unfamiliar choice: WHAT / WHY / recommended dwell + reason / real movement burden / natural bundle or displacement;
@@ -226,7 +226,7 @@ A successor must be able to answer internally, from GitHub, without asking Mark:
 10. Which exact cluster sources govern the active frontier?
 11. What important WHY explains current decisions/pacing rather than only their labels?
 12. Which facts are live-recheck-later rather than hard current truth?
-13. Can I execute the entire 12-point pre-answer veto in `INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md` without a NO?
+13. Can I execute the entire current pre-answer veto in `INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md` without a NO, including the ABSOLUTE no-bare-name scan on every occurrence?
 
 If a material answer is unclear or contradictory: do not ask Mark to reconstruct it. Read the mapped conditional/history source and reconcile first.
 
