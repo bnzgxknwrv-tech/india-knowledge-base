@@ -1,0 +1,3 @@
+central-tree markdown read progress
+chunks read: MD_001..MD_045 of MD_001..MD_071
+last updated: checkpoint 5 prep
