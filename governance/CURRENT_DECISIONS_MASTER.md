@@ -75,7 +75,7 @@ Method:
 - Delhi Bhrigu backup only if Varanasi fails.
 
 ## 8. BODH GAYA / GAYA — BALLOT CLOSED, EXECUTION GEOMETRY ACTIVE
-Canonical new decision artifact:
+Canonical decision artifact:
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_OPEN_BATCH_MARK_DECISIONS_2026-08-28.md`
 
 Already decided core:
@@ -90,9 +90,9 @@ Already decided core:
 - Barabar/Nagarjuni Caves — C / DO NOT RE-PRESENT.
 - other current C items remain protected in the Bodh prep packet.
 
-Former six-item OPEN batch is now CLOSED:
+Former six-item OPEN batch is CLOSED:
 1. **Nalanda Mahavihara [UNESCO WH] — C.**
-2. **Rajgir Brahmakund — A_IF_PERSONAL_BATHING_ALLOWED / AUTO-C_IF_NOT_ALLOWED.** This conversion rule is itself already Mark-decided; do not ask Mark again. Current official Bihar/Nalanda pages describe tourist/pilgrim bathing and Dec/Jan is in the recommended season, but direct/local-current access should be confirmed before route burden is spent specifically because of this item.
+2. **Rajgir Brahmakund — A.** Mark explicitly chooses to go and knowingly accepts the residual risk that local/religious access might still prevent him from bathing. Do not make the grade conditional and do not ask again because of that access risk.
 3. **Rajgir Vishwa Shanti Stupa + ropeway — B.** Mark: sounds fun if already nearby, especially for overview/view; not an A magnet and not a reason by itself to create a Rajgir trip.
 4. **Patharkatti/Pattharkatti black-stone craft village — C.**
 5. **Sher Shah Suri Tomb, Sasaram — C.**
