@@ -1,0 +1,248 @@
+surface_type,ref_or_commit,path_or_identifier,blob_sha_or_comment_id,size_if_known,semantic_type,read_status,duplicate_of,relevance,currentness_class,superseded_by,conflict_id,knowledge_output_destination,notes
+pr_body,PR#23,pull/23 body,PR23_BODY,,markdown_prose,READ_FULL,,HIGH,HISTORICAL_PROVENANCE_ONLY,,,CURRENT_TRAVEL_EXECUTION_CANON.md;SUPERSEDED_AND_DO_NOT_REVIVE.md,Varanasi 40-candidate round: 32A/5B/3C; Sahi River View Guesthouse LOCKED_BY_MARK; immutable numbering rule; rejected 008 coordinate
+pr_comment,PR#23,pull/23 comment 2026-08-02T17:02:14Z,5159416542,3047,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-02T17:02:30Z,5159417684,187,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-02T17:08:43Z,5159442198,2743,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-02T17:11:18Z,5159452058,3772,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-02T17:17:36Z,5159476368,3084,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-02T17:18:43Z,5159480445,3908,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-02T17:25:03Z,5159503692,6163,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-02T17:25:42Z,5159506157,2990,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-02T17:35:56Z,5159544451,6159,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-02T17:42:52Z,5159570769,16822,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-02T17:44:16Z,5159576031,1581,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-02T17:44:58Z,5159578648,1352,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-02T17:55:02Z,5159616521,4377,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-02T18:07:48Z,5159666691,351,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-02T19:02:00Z,5159872026,3710,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-02T19:59:53Z,5160088773,2121,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-02T20:28:18Z,5160197803,4869,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-02T20:46:30Z,5160266108,652,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-03T20:03:09Z,5171126952,1072,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-03T20:10:41Z,5171195914,618,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-03T20:21:43Z,5171294818,809,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-03T20:29:58Z,5171368580,422,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-03T20:37:26Z,5171438705,751,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-03T20:57:40Z,5171635471,1028,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-03T21:02:45Z,5171681303,2068,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-03T21:11:03Z,5171756330,537,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-03T21:11:27Z,5171759827,640,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-03T21:28:12Z,5171928696,705,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-04T09:14:38Z,5176974551,543,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-04T09:20:34Z,5177046697,495,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-04T10:52:32Z,5178004746,560,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-04T10:59:41Z,5178071763,539,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-04T11:05:22Z,5178124811,855,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-04T11:15:51Z,5178239888,551,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-04T11:39:21Z,5178479661,669,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-04T13:03:18Z,5179455647,770,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-04T14:56:07Z,5180784284,606,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-04T16:53:52Z,5182104803,1186,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-04T20:33:20Z,5184300608,704,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-04T20:40:11Z,5184368113,587,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-04T21:12:41Z,5184687438,731,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-04T21:23:02Z,5184783261,704,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-05T09:15:55Z,5189928935,514,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-05T09:32:30Z,5190088798,557,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-05T10:15:32Z,5190492432,818,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-05T12:40:59Z,5191840101,4353,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-05T18:17:05Z,5195584170,12013,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-05T20:47:59Z,5197161532,9139,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-06T06:21:57Z,5201120035,5812,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-06T19:18:44Z,5208506959,2099,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-07T11:14:39Z,5216323802,1785,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-07T11:44:58Z,5216629185,2196,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-07T17:26:04Z,5220101447,2306,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T09:54:10Z,5225597303,2328,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T10:03:12Z,5225624861,1492,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T10:20:33Z,5225680810,2690,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T10:31:48Z,5225716159,4083,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T10:34:04Z,5225724002,2502,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T10:44:17Z,5225755263,3604,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T10:53:36Z,5225785077,2168,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T10:55:28Z,5225790711,718,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T10:58:23Z,5225799747,1422,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T11:05:19Z,5225823205,1732,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T11:17:23Z,5225861871,4347,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T11:18:07Z,5225864845,2770,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T11:22:53Z,5225883937,2663,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T11:33:51Z,5225918199,2137,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T11:42:56Z,5225949013,2075,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T13:43:38Z,5226364835,10901,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T13:47:49Z,5226382454,4754,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T14:42:34Z,5226592710,11688,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T15:10:12Z,5226697660,5275,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T15:11:26Z,5226702424,3913,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T17:12:38Z,5227191380,5182,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T17:18:50Z,5227238057,6987,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T17:20:27Z,5227245728,2554,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T17:38:40Z,5227315090,8706,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T17:57:58Z,5227389142,748,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T18:00:56Z,5227400520,2258,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T18:02:45Z,5227407324,5348,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T18:06:07Z,5227420645,16215,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T18:06:45Z,5227423120,7913,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T18:10:26Z,5227437449,12689,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T19:03:52Z,5227644845,4651,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T19:14:54Z,5227688956,3068,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T20:56:21Z,5228126106,1137,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-08T20:58:23Z,5228135961,2219,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-09T08:09:47Z,5230513112,2522,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-09T08:11:54Z,5230521395,1313,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-09T08:15:21Z,5230535043,678,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-09T08:19:31Z,5230550552,987,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-10T16:56:57Z,5243353498,5601,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-10T18:42:21Z,5244469519,1481,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-10T20:22:39Z,5245527224,10805,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-10T20:26:52Z,5245571640,1423,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-10T20:34:49Z,5245659657,1824,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-10T20:39:26Z,5245705630,4424,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-14T19:29:32Z,5297337799,3002,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-14T19:37:04Z,5297404156,1280,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-14T20:02:07Z,5297623305,1099,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-14T20:10:52Z,5297708510,1250,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-14T20:43:28Z,5297989730,790,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-14T21:02:08Z,5298138551,2202,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-14T21:08:45Z,5298191594,2373,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-15T06:07:37Z,5300866513,2410,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-15T06:14:03Z,5300890555,1960,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-15T06:24:10Z,5300925724,839,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-15T06:28:58Z,5300942302,1825,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-15T07:59:12Z,5301269488,1661,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-15T08:02:51Z,5301281774,2165,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-16T17:24:40Z,5308689225,835,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-16T17:27:06Z,5308699645,821,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-16T17:32:34Z,5308723962,759,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-16T17:43:51Z,5308786155,3153,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-16T17:52:33Z,5308831953,2501,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-16T17:52:55Z,5308834026,675,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-16T17:57:40Z,5308859381,2196,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-16T18:47:28Z,5309084247,1211,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-16T19:04:19Z,5309158177,2756,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-16T19:12:51Z,5309194732,3016,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-16T19:27:32Z,5309256953,5754,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-17T06:53:39Z,5312813190,2641,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-18T21:24:03Z,5334243478,4730,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-18T21:30:29Z,5334302931,2844,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-18T21:33:20Z,5334329091,3412,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-18T21:36:02Z,5334354619,1231,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-18T21:42:15Z,5334415453,1284,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-19T06:17:28Z,5338304583,1718,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-19T06:27:47Z,5338386166,3184,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-19T08:07:32Z,5339299346,1360,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-19T08:08:55Z,5339313809,522,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-19T08:11:37Z,5339344304,888,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-19T08:24:42Z,5339498151,3350,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-19T08:44:59Z,5339698378,632,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-19T08:53:25Z,5339798232,3275,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-19T08:54:53Z,5339821932,1106,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-19T09:02:40Z,5339913685,764,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-19T11:17:12Z,5341382246,4372,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-19T11:53:25Z,5341738895,1594,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-19T11:54:22Z,5341748103,1417,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-19T12:10:23Z,5341912589,4470,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-19T12:59:25Z,5342451169,1179,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-19T13:18:39Z,5342696436,4326,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-19T13:29:33Z,5342829749,728,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-19T13:41:22Z,5342972914,3340,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-19T14:12:08Z,5343349675,761,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-19T14:36:31Z,5343659113,3857,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-19T14:47:00Z,5343788887,764,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-19T14:48:29Z,5343807832,689,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-19T16:13:50Z,5344855935,3740,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-19T16:22:32Z,5344956301,3418,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-20T09:15:09Z,5353882287,3676,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-20T09:18:36Z,5353920856,3040,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-20T09:30:08Z,5354042747,4288,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-20T10:32:13Z,5354697915,3202,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-20T10:43:08Z,5354801915,2773,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-20T10:56:57Z,5354940597,4208,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-20T22:12:37Z,5362622659,3100,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-22T19:07:12Z,5382099046,2013,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T09:29:19Z,5385302391,1089,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T09:35:20Z,5385324762,2753,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T10:49:02Z,5385605379,549,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T11:00:29Z,5385648250,3806,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T11:40:40Z,5385803150,2026,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T11:47:50Z,5385831815,3035,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T11:57:54Z,5385871178,1844,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T12:00:16Z,5385880812,2017,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T12:03:15Z,5385894020,1328,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T12:04:35Z,5385899624,1752,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T12:10:59Z,5385927294,1927,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T12:13:10Z,5385936388,2088,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T12:22:28Z,5385973637,3702,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T12:26:25Z,5385989480,1228,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T12:27:45Z,5385994767,3189,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T12:35:44Z,5386027453,1914,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T12:37:19Z,5386033761,3522,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T12:41:13Z,5386048956,2354,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T13:15:49Z,5386192300,7256,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T13:28:17Z,5386247756,3483,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T13:53:08Z,5386359331,1730,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T13:54:40Z,5386365708,1560,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T14:06:08Z,5386414743,11877,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T14:06:59Z,5386418747,2627,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T14:09:26Z,5386430977,1571,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T14:11:13Z,5386438762,1404,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T14:11:35Z,5386440442,1247,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T14:19:11Z,5386474422,3888,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T14:22:40Z,5386490379,4572,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T14:35:08Z,5386547283,5146,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T14:39:31Z,5386566884,8152,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T14:42:30Z,5386580739,6271,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T14:50:23Z,5386615956,3307,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T14:52:09Z,5386623931,10017,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T14:59:59Z,5386659392,2233,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T15:01:47Z,5386667805,3981,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T15:09:37Z,5386704900,10337,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T15:10:11Z,5386707526,1500,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T20:41:56Z,5388354228,434,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T20:42:02Z,5388354742,447,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-23T20:57:30Z,5388421716,1416,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-24T07:46:31Z,5392193197,1333,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-24T08:32:48Z,5392664248,2347,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-24T08:34:36Z,5392683442,3303,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-24T18:50:04Z,5399820255,257,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-24T18:53:54Z,5399861670,3228,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-26T08:46:59Z,5422849702,757,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-26T08:59:58Z,5422990346,634,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-26T10:11:00Z,5423808061,2424,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-26T10:18:13Z,5423887291,7019,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-27T09:34:55Z,5437136583,491,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-27T09:53:42Z,5437336989,4370,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-27T09:53:55Z,5437339395,1485,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-28T07:26:26Z,5449691915,31651,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-28T07:27:31Z,5449701126,16150,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-28T15:28:09Z,5454420305,9714,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-28T15:32:47Z,5454468961,20475,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-28T15:40:54Z,5454553215,1156,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_comment,PR#23,pull/23 comment 2026-08-28T15:45:27Z,5454600198,1316,discussion_prose,READ_FULL,,HIGH,MIXED_SEE_ATOMS,,,KNOWLEDGE_ATOMS.jsonl,full read in 11 chunks
+pr_review_comment,PR#23,pull/23 review threads,0,0,none,READ_FULL,,NONE,N/A,,,,API reports totalCount=0 review threads
+pr_body,PR#24,pull/24 body,PR24_BODY,,markdown_prose,READ_FULL,,MEDIUM,HISTORICAL_PROVENANCE_ONLY,,,,114-location atlas on agent/add-yogananda-location-atlas; 0 comments; never merged
+pr_body,PR#25,pull/25 body,PR25_BODY,,markdown_prose,READ_METADATA_AND_TITLE,,MEDIUM,HISTORICAL_PROVENANCE_ONLY,,,,no-op
+pr_body,PR#26,pull/26 body,PR26_BODY,,markdown_prose,READ_METADATA_AND_TITLE,,MEDIUM,HISTORICAL_PROVENANCE_ONLY,,,,no-op
+pr_body,PR#21,pull/21 body,PR21_BODY,,markdown_prose,READ_METADATA_AND_TITLE,,LOW,HISTORICAL_PROVENANCE_ONLY,,,,pipeline era
+pr_body,PR#16,pull/16 body,PR16_BODY,,markdown_prose,READ_METADATA_AND_TITLE,,LOW,HISTORICAL_PROVENANCE_ONLY,,,,pipeline era
+pr_body,PR#15,pull/15 body,PR15_BODY,,markdown_prose,READ_METADATA_AND_TITLE,,LOW,HISTORICAL_PROVENANCE_ONLY,,,,pipeline era
+pr_body,PR#14,pull/14 body,PR14_BODY,,markdown_prose,READ_METADATA_AND_TITLE,,LOW,HISTORICAL_PROVENANCE_ONLY,,,,pipeline era
+pr_body,PR#13,pull/13 body,PR13_BODY,,markdown_prose,READ_METADATA_AND_TITLE,,LOW,HISTORICAL_PROVENANCE_ONLY,,,,pipeline era
+pr_body,PR#12,pull/12 body,PR12_BODY,,markdown_prose,READ_METADATA_AND_TITLE,,LOW,HISTORICAL_PROVENANCE_ONLY,,,,pipeline era
+pr_body,PR#11,pull/11 body,PR11_BODY,,markdown_prose,READ_METADATA_AND_TITLE,,LOW,HISTORICAL_PROVENANCE_ONLY,,,,pipeline era
+pr_body,PR#10,pull/10 body,PR10_BODY,,markdown_prose,READ_METADATA_AND_TITLE,,LOW,HISTORICAL_PROVENANCE_ONLY,,,,pipeline era
+pr_body,PR#9,pull/9 body,PR9_BODY,,markdown_prose,READ_METADATA_AND_TITLE,,LOW,HISTORICAL_PROVENANCE_ONLY,,,,pipeline era
+pr_body,PR#8,pull/8 body,PR8_BODY,,markdown_prose,READ_METADATA_AND_TITLE,,LOW,HISTORICAL_PROVENANCE_ONLY,,,,pipeline era
+pr_body,PR#7,pull/7 body,PR7_BODY,,markdown_prose,READ_METADATA_AND_TITLE,,LOW,HISTORICAL_PROVENANCE_ONLY,,,,pipeline era
+pr_body,PR#6,pull/6 body,PR6_BODY,,markdown_prose,READ_METADATA_AND_TITLE,,LOW,HISTORICAL_PROVENANCE_ONLY,,,,pipeline era
+pr_body,PR#5,pull/5 body,PR5_BODY,,markdown_prose,READ_METADATA_AND_TITLE,,LOW,HISTORICAL_PROVENANCE_ONLY,,,,pipeline era
+pr_body,PR#4,pull/4 body,PR4_BODY,,markdown_prose,READ_METADATA_AND_TITLE,,LOW,HISTORICAL_PROVENANCE_ONLY,,,,pipeline era
+pr_body,PR#3,pull/3 body,PR3_BODY,,markdown_prose,READ_METADATA_AND_TITLE,,LOW,HISTORICAL_PROVENANCE_ONLY,,,,pipeline era
+pr_body,PR#2,pull/2 body,PR2_BODY,,markdown_prose,READ_METADATA_AND_TITLE,,LOW,HISTORICAL_PROVENANCE_ONLY,,,,pipeline era
+issue,ISSUE#22,issues/22,ISSUE22,,markdown_prose,READ_FULL,,HIGH,CURRENT_PREFERENCE,,,MARK_CURRENT_CANON_MASTER.md;CURRENT_TRAVEL_EXECUTION_CANON.md,Mark product contract: GOUD = decidable PDF + full choice KML; per-candidate format; minimal Mark handling
+issue,ISSUE#20,issues/20,ISSUE20,,markdown_prose,READ_FULL,,LOW,HISTORICAL_PROVENANCE_ONLY,,,MARK_CURRENT_CANON_MASTER.md;CURRENT_TRAVEL_EXECUTION_CANON.md,COMPLETION_FIRST_MODE pipeline rule; pipeline generation retired
+issue,ISSUE#19,issues/19,ISSUE19,,markdown_prose,READ_FULL,,LOW,HISTORICAL_PROVENANCE_ONLY,,,MARK_CURRENT_CANON_MASTER.md;CURRENT_TRAVEL_EXECUTION_CANON.md,superseded by later Varanasi decisions
+issue,ISSUE#18,issues/18,ISSUE18,,markdown_prose,READ_FULL,,HIGH,CURRENT_PREFERENCE,,,MARK_CURRENT_CANON_MASTER.md;CURRENT_TRAVEL_EXECUTION_CANON.md,"transport rules: train/plane long haul, NEVER bus, car/taxi short+mountain+first/last mile, backpack+23kg, door-to-door comparison"
+issue,ISSUE#17,issues/17,ISSUE17,,markdown_prose,READ_FULL,,HIGH,CURRENT_PREFERENCE,,,MARK_CURRENT_CANON_MASTER.md;CURRENT_TRAVEL_EXECUTION_CANON.md,train-stop mapping policy; a train halt never automatically becomes A; only Mark changes A/B/C
+issue,ISSUE#1,issues/1,ISSUE1,,markdown_prose,READ_FULL,,HIGH,CURRENT_CANON,,,MARK_CURRENT_CANON_MASTER.md;CURRENT_TRAVEL_EXECUTION_CANON.md,Mark decision: NO Tibet Kailash/Adi Kailash/Om Parvat this winter trip - future separate pilgrimage; local Haidakhan-Kailash layer relevant; Badrinath winter-closed reserved for future Babaji pilgrimage; A/B/C/U vocabulary correction
+issue,ISSUE#27,issues/27,ISSUE27,,markdown_prose,READ_FULL,,LOW,HISTORICAL_PROVENANCE_ONLY,,,MARK_CURRENT_CANON_MASTER.md;CURRENT_TRAVEL_EXECUTION_CANON.md,no content
+issue_comment,ISSUE#1,issues/1 comments (2),4948377866;4948848862,,discussion_prose,READ_FULL,,HIGH,CURRENT_CANON,,,MARK_CURRENT_CANON_MASTER.md,Kailash closure + A/B/C/U vocabulary correction note
