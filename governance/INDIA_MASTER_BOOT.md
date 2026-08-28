@@ -26,12 +26,13 @@ Read IN THIS SESSION and in this order:
 
 1. `governance/INDIA_MASTER_BOOT.md` — this file completely.
 2. `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md` — **WHY MARK**: who he is as traveler, spiritual/pacing/taste/communication logic.
-3. `governance/TRIP_FRAME_HARD.md` — exact booked international flights + 33-India-night envelope.
-4. `governance/CURRENT_DECISIONS_MASTER.md` — **WHAT IS CURRENT NOW**; primary fast `AL BESLIST?` view.
-5. `governance/DECISION_LEDGER.jsonl` — **WHY / PROVENANCE / SUPERSEDES**; durable append-only decision-event memory.
-6. `governance/CURRENT_STATE.md` — compact current frontier, closed footprints and exact next Mark-only action.
-7. `governance/INDIA_RECOVERY_DELTAS_CURRENT.md` — anti-regression traps recovered from INDIA1–12 failures.
-8. `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md` — conditional routing to exact cluster/detail/provenance sources.
+3. `governance/MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md` — **HARD UNIVERSAL USER-FACING NAME + GEOGRAPHIC BURDEN FORMAT**; every India chat, every location.
+4. `governance/TRIP_FRAME_HARD.md` — exact booked international flights + 33-India-night envelope.
+5. `governance/CURRENT_DECISIONS_MASTER.md` — **WHAT IS CURRENT NOW**; primary fast `AL BESLIST?` view.
+6. `governance/DECISION_LEDGER.jsonl` — **WHY / PROVENANCE / SUPERSEDES**; durable append-only decision-event memory.
+7. `governance/CURRENT_STATE.md` — compact current frontier, closed footprints and exact next Mark-only action.
+8. `governance/INDIA_RECOVERY_DELTAS_CURRENT.md` — anti-regression traps recovered from INDIA1–12 failures.
+9. `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md` — conditional routing to exact cluster/detail/provenance sources.
 
 Boot is not complete because filenames were mentioned: actually read them.
 
@@ -41,6 +42,7 @@ Boot is not complete because filenames were mentioned: actually read them.
 Do not blur responsibilities:
 
 - `MARK_TRAVEL_PREFERENCES_CURRENT.md` = durable **WHY MARK / HOW HE TRAVELS**.
+- `MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md` = mandatory **HOW EVERY LOCATION IS NAMED + GEOGRAPHIC BURDEN SHOWN**.
 - `TRIP_FRAME_HARD.md` = immutable booked **TRIP ENVELOPE**.
 - `CURRENT_DECISIONS_MASTER.md` = materialized **WHAT IS TRUE NOW**.
 - `DECISION_LEDGER.jsonl` = append-only **DECISION EVENTS + WHY + SUPERSEDES**.
@@ -122,7 +124,8 @@ The profile is authoritative for detail. Minimum checksum:
 - full relevant traveler/LP layer before Mark's subjective filtering when it can change day allocation;
 - train first; 1A target where appropriate; long-distance bus excluded; true door-to-door burden controls;
 - exactly two intended true ashram sleep experiences: Haidakhan Vishwa Mahadham and Sri Ramanasramam if accepted/available;
-- user-facing Indian names need short Dutch recognition explanation;
+- **EVERY user-facing location name MUST use the hard format in `MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md`: FULL CANONICAL NAME — SHORT DUTCH RECOGNITION HOOK (CITY/MICROCLUSTER), plus grade/UNESCO where relevant. Bare unfamiliar Indian names are a presentation failure.**
+- **A site's time cost is the whole geographic burden from the real retained host/mini-cluster, not merely on-site dwell. A remote site may not be presented as a small visit if it effectively costs a half/full day.**
 - before unfamiliar choice: WHAT / WHY / recommended dwell + reason / real movement burden / natural bundle or displacement;
 - one contiguous numbered choice block;
 - after Mark answers a mini-ballot, record it and continue automatically until next real Mark-only decision.
@@ -217,6 +220,7 @@ A successor must be able to answer internally, from GitHub, without asking Mark:
 10. Which exact cluster sources govern the active frontier?
 11. What important WHY explains current decisions/pacing rather than only their labels?
 12. Which facts are live-recheck-later rather than hard current truth?
+13. Can I name EVERY location in the hard recognition format and show its burden from the real host/mini-cluster before Mark grades it?
 
 If a material answer is unclear or contradictory: do not ask Mark to reconstruct it. Read the mapped conditional/history source and reconcile first.
 
