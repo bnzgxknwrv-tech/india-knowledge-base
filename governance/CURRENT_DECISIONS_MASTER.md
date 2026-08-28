@@ -85,7 +85,7 @@ Already decided core:
 - Great Buddha Statue — A.
 - Archaeological Museum Bodh Gaya — B.
 - Tergar Monastery — B.
-- Mangala Gauri Temple — B.
+- Mangala Gauri Temple — C / DO NOT RE-PRESENT unless Mark explicitly reopens.
 - Jagannath Temple — B.
 - Barabar/Nagarjuni Caves — C / DO NOT RE-PRESENT.
 - other current C items remain protected in the Bodh prep packet.
@@ -100,7 +100,9 @@ Former six-item OPEN batch is CLOSED:
 
 Tutla Bhawani = winter-mismatch provenance, not Mark C.
 
-Next action is NOT another content ballot: build geographic 2–3-block day modules, calculate honest movement/dwell, ask only genuine subjective pace correction, close Bodh duration, then continue to Tiruvannamalai.
+Execution-geometry rule for this cluster: every non-local active item must be tested not only from the Bodh Gaya base but against the actual inbound and outbound travel spine. Current topology skeleton is `... -> AGRA -> optional PRAYAGRAJ or direct AGRA->GAYA -> BODH GAYA/GAYA -> VARANASI/SARNATH -> SOUTH`. For Rajgir/Brahmakund specifically, quantify whether it can be captured on an incoming/outgoing transfer and compare that with a dedicated out-and-back; do not assume "70 km from hotel" equals "separate day" until corridor geometry is tested.
+
+Next action is NOT another content ballot: build geographic 2–3-block day modules, calculate honest movement/dwell including predecessor/successor corridor deltas, ask only genuine subjective pace correction, close Bodh duration, then continue to Tiruvannamalai.
 
 ## 9. TIRUVANNAMALAI / ARUNACHALA — PREPARED, NOT DURATION_CLOSED
 - Arunachala/Ramana sacred world — A+ parent.
@@ -142,6 +144,7 @@ Hard excluded unless explicit reopen:
 - old V1/V2 exact calendars are PROVENANCE_ONLY; transfers were undercharged;
 - Kumaon internal order: Haidakhan -> Nainital -> Kainchi -> Dwarahat -> Dunagiri/Kukuchina;
 - Bodh Gaya/Gaya + Varanasi form a natural eastern pair;
+- every non-local A/A*/B must be checked against predecessor/current/successor corridor geometry and NET marginal detour before being classified as a separate excursion;
 - final south-gateway/live transport facts rechecked at topology/calendar stage.
 
 ## 15. LIVE FACTS — RECHECK WHEN MATERIAL
