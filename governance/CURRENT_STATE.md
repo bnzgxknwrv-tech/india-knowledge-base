@@ -1,23 +1,46 @@
 # CURRENT STATE — INDIA
 
-state_revision: 2026-08-29_BODH_DISTANCE_FIRST_RAJGIR_CORRECTION
+state_revision: 2026-08-29_HUMAN_CENTERED_DECISION_SUPPORT_STANDARD
 branch: `agent/india8-cluster-casting`
 status: FIXED_CORE_DURATION_CLOSURE_ACTIVE
 boot_authority: `governance/INDIA_MASTER_BOOT.md`
 trip_frame: `governance/TRIP_FRAME_HARD.md`
 current_decisions: `governance/CURRENT_DECISIONS_MASTER.md`
 decision_ledger: `governance/DECISION_LEDGER.jsonl`
+planning_service_standard: `governance/INDIA_HUMAN_CENTERED_COMPLEX_TRIP_PLANNING_STANDARD.md`
 
-## LAST MATERIAL EVENT
-Mark corrected a serious Bodh presentation/canon error:
-- he cannot be expected to know Indian geography;
-- inter-location distance is an essential precondition for meaningful A/B/C/A*/A+ judgment;
-- every presentation must show km + conservative time from hotel, nearest retained A+/A and logical companion stops, and explicitly identify `je bent er toch` combinations;
-- a B may become A in Mark's judgment when nearly free beside an A+; an attractive A may become A*/C when it costs a separate day;
-- **Brahmakund — heilige warmwaterbronnen/badervaring (Rajgir) [A* / ONLY_IF_NATURAL_CORRIDOR_BYCATCH / SKIP_FIRST]** was NOT wanted as a dedicated extra Rajgir day. The earlier simplified `A` lock was wrong because it lost the decisive distance/corridor condition;
-- **Vishwa Shanti Stupa + Rajgir Ropeway — Peace Pagoda + kabelbaan (Rajgir) [B / ONLY_IF_RAJGIR_ALREADY_HAPPENS]** likewise never creates a Rajgir trip by itself.
+## LAST MATERIAL EVENT — SERVICE ARCHITECTURE UPGRADE
+Mark asked INDIA to zoom out and improve its own service for an extremely complex trip rather than merely correcting individual Bodh errors.
 
-Current geometry shows Bodh Gaya -> Rajgir about 71.5 km one way; use ~1 h 30 min conservative planning each direction. A dedicated hot-springs + Peace Pagoda excursion would become roughly 7–9 h door-to-door and current predecessor/successor geometry does not naturally pass Rajgir. Therefore no Rajgir day is allocated in the current Bodh footprint.
+New HARD always-read standard:
+`governance/INDIA_HUMAN_CENTERED_COMPLEX_TRIP_PLANNING_STANDARD.md`
+
+It is now mandatory immediate successor memory through `INDIA_MASTER_BOOT.md`.
+
+Core service correction:
+- Mark supplies subjective taste/meaning; INDIA supplies the decision environment.
+- Before a burden-sensitive grade/choice, INDIA must expose intrinsic value separately from marginal burden, robustness and confidence.
+- Build pairwise proximity/microcluster matrices, not just hotel->site distances.
+- Proactively state `je bent er toch` combinations and exact extra km/minutes.
+- Compare WITH vs WITHOUT candidate and show NET marginal burden.
+- State what a choice displaces: another site, recovery, sacred dwell, early night, hotel night or route simplicity.
+- Include opening/time-window/daypart/climate/daylight fit.
+- Model human energy: overnight trains, early alarms, long drives/walks are not free.
+- Stress-test important days at +30/+60 min and classify ROBUST / SENSITIVE / BRITTLE / OVERLOADED; name first sacrificial B/A*.
+- Maintain uncertainty classes: VERIFIED / PROVISIONAL / DECISION-CRITICAL UNKNOWN / LIVE-RECHECK-LATER.
+- Research priority uses VALUE OF INFORMATION: solve unknowns now only when they can materially change grade, route, duration, base, booking or safety.
+- Use rolling-wave detail: no false precision early, but uncertainty may not be used as an excuse to avoid useful provisional planning.
+- Compare genuine alternatives through scenario DELTAS rather than repetitive full itineraries.
+- Track reversibility/booking urgency and whole-trip cumulative burden.
+- Run a pre-mortem before cluster/calendar closure: likely ways this plan could later feel badly planned.
+
+This standard was informed by Tourist Trip Design Problem research, multimodal/spatiotemporal itinerary research, travel-information uncertainty/value research, rolling-wave planning, choice-complexity research and recent human-centered travel decision-support work. External methods inform HOW INDIA serves Mark; they never override Mark-only subjective decisions.
+
+## BODH RECOVERY CONSEQUENCE
+The service upgrade was triggered by the Bodh geometry failure and preserves the corrected current truth:
+- **Brahmakund — heilige warmwaterbronnen/badervaring (Rajgir) [A* / ONLY_IF_NATURAL_CORRIDOR_BYCATCH / SKIP_FIRST]**; no dedicated Rajgir excursion.
+- **Vishwa Shanti Stupa + Rajgir Ropeway — Peace Pagoda + kabelbaan (Rajgir) [B / ONLY_IF_RAJGIR_ALREADY_HAPPENS]**.
+- current expected corridor does not naturally pass Rajgir; ~71.5 km one way from Bodh Gaya / use ~1 h 30 min planning each way; dedicated combo ~7–9 h door-to-door and is therefore absent from the working plan.
 
 Canonical corrected artifacts:
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_OPEN_BATCH_MARK_DECISIONS_2026-08-28.md`
@@ -30,7 +53,7 @@ Mark selected **Maya Heritage — kleiner rustig middenklassehotel tegenover Wat
 
 Bodh stay rhythm:
 - arrival day must include a real **Mahabodhi Temple Complex + Bodhi Tree — verlichtingstempel + Bodhiboom waar Boeddha ontwaakte (Bodh Gaya) [A+] [UNESCO WH]** visit;
-- the next morning returns very early, nominally 05:00, with winter-darkness/first-light considered operationally;
+- next morning returns very early, nominally 05:00, with winter-darkness/first-light considered operationally;
 - maximum 3 Bodh Gaya overnight stays;
 - if inbound arrival is sufficiently early to create a genuinely usable first local day, preference is 2 overnight stays rather than 3.
 
@@ -46,7 +69,7 @@ From now on:
 - reconcile useful CCI findings against current Mark authority before adopting them; CCI never changes Mark-only A+/A/A*/B/C or other subjective decisions by itself;
 - an hourly condition-watch also checks this branch, but the in-turn pre-major-work check remains mandatory even if no automation notification appeared.
 
-Latest checked CCI head at 2026-08-29 11:03 Europe/Amsterdam:
+Latest checked CCI head at 2026-08-29 12:28 Europe/Amsterdam:
 `1e7f4a02a064a78526d585447395422d5d06fccc` — `checkpoint 2: ALL_REFS_UNIQUE_BLOBS_INVENTORIED (70 refs, 2002 unique tip blobs, 1439 branch-only)`.
 No newer committed interim report was present at that check.
 
@@ -144,9 +167,10 @@ No optional-cluster ballot until all six fixed cores + real mandatory edges prod
 - only Mark changes A+/A/A*/B/C, personal hotel/base, subjective dwell/pace.
 - action-first: if safe relevant work can be done now, do it; do not merely announce future research.
 - distance-first: before asking Mark to grade, show underlinge km/minuten and logical combinations; use conservative operational times.
+- decision-support-first: show marginal burden, displacement, robustness and confidence separately from subjective content value.
 
 ## MEMORY / SUCCESSOR STATUS
-Durable top-layer architecture exists: master boot + Mark profile + hard trip frame + current decisions master + append-only ledger + current state + recovery deltas + knowledge map + behavioral execution contract.
+Durable top-layer architecture now includes master boot + behavioral contract + Mark profile + location naming/context protocol + **human-centered complex-trip planning standard** + hard trip frame + current decisions master + append-only ledger + current state + recovery deltas + knowledge map.
 A deeper CCI repository-wide semantic harvest is running separately on `agent/cci-full-repo-knowledge-harvest`; use interim reports as soon as they appear, subject to current-authority reconciliation.
 
 ## PR / WORKER RULE
