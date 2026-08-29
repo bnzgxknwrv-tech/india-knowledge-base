@@ -152,9 +152,9 @@ Hard recognition:
 
 ### Braj
 Load relevant current/protected site decisions + regional/traveler packets then.
-Hard: Braj is NOT dropped and NOT mandatory; cluster inclusion is deferred/unresolved.
+Hard: **Braj / Mathura–Vrindavan–Govardhan — Krishna's pilgrimage region (Uttar Pradesh) is NOT dropped, NOT mandatory and NOT A+ by inference; cluster inclusion remains deferred/unresolved.**
 **MANDATORY Neem Karoli Baba anti-forget read when Braj/Vrindavan is touched:** `decisions/NEEM_KAROLI_VRINDAVAN_RED_HOUSE_ROUTE_RULE_2026-08-29.md`.
-Recognition checksum: **Neeb/Neem Karoli Baba Ashram + Mahasamadhi Mandir — active samadhi shrine in Krishna's pilgrimage city (Vrindavan, Uttar Pradesh) = protected A.** Do not silently downgrade or omit it; the A does not by itself force the optional Braj world to survive.
+Recognition checksum: **Neeb/Neem Karoli Baba Ashram + Mahasamadhi Mandir — active samadhi shrine in Krishna's pilgrimage city (Vrindavan, Uttar Pradesh) = protected site-level A.** Do not silently downgrade or omit it, but equally do not promote the whole optional Braj world because this one site is A. Mark explicitly clarified that his train-corridor question must not alter the world's status.
 
 ### Haridwar/Kankhal/Rishikesh
 Load current site decisions + regional freeze + traveler layer then.
@@ -164,7 +164,7 @@ Parmarth Niketan is experience only unless Mark explicitly chooses a sleep base.
 Load current decisions + regional/traveler layer then.
 Live Magh Mela/date logistics later.
 **MANDATORY Neem Karoli Baba anti-forget read when Prayagraj is touched:** `decisions/NEEM_KAROLI_VRINDAVAN_RED_HOUSE_ROUTE_RULE_2026-08-29.md`.
-Recognition checksum: **Red House / 4 Church Lane — historic winter home of Neem Karoli Baba with documented devotional puja/darshan shrine room (Prayagraj, Uttar Pradesh).** Mark wants it only if Prayagraj already happens and access is confirmed; zero independent route/day/night weight; no grade inferred; no map pin or exact distance until the new GEO gate verifies the building coordinate.
+Recognition checksum: **Red House / 4 Church Lane — historic winter home of Neem Karoli Baba with documented devotional puja/darshan shrine room (Prayagraj, Uttar Pradesh) [B].** Mark wants it only if Prayagraj already happens and access is confirmed; `ZERO INDEPENDENT ROUTE/DAY/NIGHT WEIGHT`; no map pin or exact distance until the new GEO gate verifies the building coordinate. It does not make Prayagraj more likely to enter the route.
 
 # K. ROUTE / TRANSFER — CONDITIONAL
 Use only when route/global-edge work is active:
