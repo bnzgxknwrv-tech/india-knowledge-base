@@ -1,6 +1,6 @@
 # CURRENT STATE — INDIA
 
-state_revision: 2026-08-28_BODH_MAYA_HERITAGE_AND_STAY_RULES
+state_revision: 2026-08-29_CCI_INTERIM_REPORT_WATCH_HARD
 branch: `agent/india8-cluster-casting`
 status: FIXED_CORE_DURATION_CLOSURE_ACTIVE
 boot_authority: `governance/INDIA_MASTER_BOOT.md`
@@ -17,6 +17,20 @@ Mark selected **Maya Heritage — kleiner rustig middenklassehotel tegenover Wat
 
 Canonical artifact:
 `runs/active/INDIAHOTEL-BODHGAYA-001/MARK_HOTEL_DECISION_2026-08-28.md`
+
+## HARD CCI INTERIM-REPORT WATCH — MARK 2026-08-29
+CCI is running the very large full-repository semantic harvest on branch `agent/cci-full-repo-knowledge-harvest` and Mark has explicitly instructed CCI to publish interim reports because the task repeatedly runs through context/token windows.
+
+From now on:
+- before any major India synthesis, integration, route/duration conclusion, successor-memory change, or other substantive project conclusion, check the CCI harvest branch for a newer head and new interim/checkpoint/semantic-summary outputs;
+- treat new CCI interim reports as an additional current knowledge source that may surface forgotten preferences, decision WHY, anti-regression rules, route/canon knowledge, or successor-memory gaps;
+- do not wait for CCI COMPLETE if a useful interim report already exists;
+- reconcile useful CCI findings against current Mark authority before adopting them; CCI never changes Mark-only A+/A/A*/B/C or other subjective decisions by itself;
+- an hourly condition-watch also checks this branch, but the in-turn pre-major-work check remains mandatory even if no automation notification appeared.
+
+Latest checked CCI head at 2026-08-29 11:03 Europe/Amsterdam:
+`1e7f4a02a064a78526d585447395422d5d06fccc` — `checkpoint 2: ALL_REFS_UNIQUE_BLOBS_INVENTORIED (70 refs, 2002 unique tip blobs, 1439 branch-only)`.
+No newer committed interim report was present at that check.
 
 ## HARD TRIP FRAME
 - Air India outbound: 18 Dec 2026 20:35 AMS -> DEL; arrival 19 Dec 10:15.
@@ -110,7 +124,7 @@ No optional-cluster ballot until all six fixed cores + real mandatory edges prod
 
 ## MEMORY / SUCCESSOR STATUS
 Durable top-layer architecture now exists: master boot + Mark profile + hard trip frame + current decisions master + append-only ledger + current state + recovery deltas + knowledge map + behavioral execution contract.
-A deeper CCI repository-wide semantic harvest is currently running separately on `agent/cci-full-repo-knowledge-harvest`; until integrated, do not claim every historical semantic atom in the repository has already surfaced.
+A deeper CCI repository-wide semantic harvest is currently running separately on `agent/cci-full-repo-knowledge-harvest`; use its interim reports as soon as they appear, subject to current-authority reconciliation.
 
 ## PR / WORKER RULE
 - PR #23 is relay/provenance, not automatically current truth.
