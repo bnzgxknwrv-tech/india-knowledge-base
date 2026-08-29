@@ -13,7 +13,8 @@ Recognition-rich identity:
 ### Current grade truth
 - Existing recovered Braj canon carries this physical site as **A** (`LOCATION_ID 201`, `formal_status_preserved = A`).
 - This is **not a new assistant-created grade**. It is a recovered/protected earlier Mark grade that must not be lost merely because the whole Braj world is currently deferred.
-- Mark's 2026-08-29 reaction: he could not imagine this site not being A. This is consistent with the recovered protected A; do not reopen the grade unless Mark explicitly changes it.
+- Mark's 2026-08-29 clarification: the existence of this A must **NOT** be used to inflate **Braj / Mathura–Vrindavan–Govardhan — Krishna's pilgrimage region (Uttar Pradesh)** into an A+ world or otherwise promote/include the optional world. His question was only whether a Neem Karoli Baba site lay naturally on a train/corridor; it was not a request to reopen or upgrade the Braj-world decision.
+- Keep the site A; keep the world `DEFERRED / OPTIONAL / INCLUSION UNRESOLVED`.
 
 ### What the place actually is
 Current specialist/temple sources confirm:
@@ -26,7 +27,7 @@ Current specialist/temple sources confirm:
 Sources checked 2026-08-29:
 - https://babaneebkarorimaharaj.com/
 - https://maharajjisevatrust.com/ashrams
-- https://www.google.com/maps/search/Visit%2BNeem%2BKaroli%2BBaba%27s%2BSamadhi%2Band%2BAshram%2BGrounds%2C%2BKainchi%2C%2BUttarakhand%2C%2BIndia (search result also exposes the Vrindavan Samadhi Temple listing)
+- current public map/business evidence as researched 2026-08-29.
 
 ### GEO integrity repair
 A prior recovered registry conflict had two competing coordinates about 1.1 km apart.
@@ -41,8 +42,8 @@ Geo source:
 - https://commons.wikimedia.org/wiki/File:Neem_Karoli_Baba,_samadhi_mandir,_Vrindavan_ashram..jpg
 
 ### Route consequence
-The **Braj / Mathura–Vrindavan–Govardhan world is still DEFERRED / inclusion unresolved**. The A grade does not itself silently force that optional world into the trip.
-If final topology naturally reaches Vrindavan/Mathura or the Braj world survives, this A must be surfaced and protected in the day plan.
+The **Braj / Mathura–Vrindavan–Govardhan world remains DEFERRED / OPTIONAL / inclusion unresolved**. The site-level A grade does not independently force the optional world into the trip and does not make that world A+.
+If final topology naturally reaches Vrindavan/Mathura or the Braj world survives for its own reasons, this A must be surfaced and protected in the day plan.
 
 ---
 
@@ -50,6 +51,18 @@ If final topology naturally reaches Vrindavan/Mathura or the Braj world survives
 
 Recognition-rich identity:
 **Red House / 4 Church Lane — Dada and Kamala Mukerjee's historic house where Neem Karoli Baba spent many winters from 1958 until 1973, containing a devotional puja/darshan room built around Maharaj-ji's takhat/bed-platform and images/footprints (Prayagraj/Allahabad, Uttar Pradesh).**
+
+### Current grade truth — MARK CORRECTION 2026-08-29
+**GRADE = B.**
+
+Meaning exactly as Mark specified:
+- if the trip is already in Prayagraj and access is possible, he wants to go;
+- it has **no A-level force of its own**;
+- it may not create Prayagraj inclusion, a route bend, extra day, extra night or meaningful detour;
+- it is a local `JE BENT ER TOCH` B only.
+
+Decision shorthand:
+`B / ONLY_IF_ALREADY_IN_PRAYAGRAJ / ACCESS_CONFIRMED / ZERO INDEPENDENT ROUTE WEIGHT`.
 
 ### What it is — crucial distinction
 This is **NOT merely an ordinary private house with no devotional use**, but it is also **NOT a formal public ashram/temple with guaranteed opening hours**.
@@ -62,9 +75,9 @@ Evidence supports all of the following:
 - historical/repeated Sundarkand/bhandara observances are documented at the house.
 
 Evidence sources checked 2026-08-29:
-- https://imageevent.com/neemkarolibabaphotos/devotees/allahabadsatsang (photo archive explicitly labels Maharaj-ji's takhat at 4 Church Lane as the puja shrine after his passing)
-- https://babaneemkaroli.in/4-church-lane-prayagraj-neem-karoli-baba-winter-home/ (first-person darshan visit; page updated 2025)
-- https://babaneemkaroli.in/neem-karoli-baba-miracles-his-foot-prints/ (repeated devotional observances at 4 Church Lane)
+- https://imageevent.com/neemkarolibabaphotos/devotees/allahabadsatsang
+- https://babaneemkaroli.in/4-church-lane-prayagraj-neem-karoli-baba-winter-home/
+- https://babaneemkaroli.in/neem-karoli-baba-miracles-his-foot-prints/
 - Dada Mukerjee / `The Near and the Dear` provenance for the shrine-room devotional use.
 
 ### Access confidence
@@ -84,12 +97,10 @@ Mark explicitly wants to visit **if and only if**:
 2. the devotional shrine/darshan function remains real and access can be confirmed near the trip.
 
 Hard burden rule:
-`WANT_IF_PRAYAGRAJ_ALREADY_HAPPENS_AND_ACCESS_CONFIRMED / ZERO INDEPENDENT ROUTE WEIGHT / NO EXTRA DAY / NO EXTRA NIGHT / NO ROUTE BEND`.
-
-No subjective A/A*/B grade was assigned by Mark in this message; do not manufacture one.
+`B / WANT_IF_PRAYAGRAJ_ALREADY_HAPPENS_AND_ACCESS_CONFIRMED / ZERO INDEPENDENT ROUTE WEIGHT / NO EXTRA DAY / NO EXTRA NIGHT / NO ROUTE BEND`.
 
 If Prayagraj is omitted from final topology, Red House must NOT create a return/detour.
-If Prayagraj survives, treat this as a high-interest local Neem Karoli Baba stop and verify access/contact shortly before day-card freeze.
+If Prayagraj survives, include this B as a local Neem Karoli Baba stop and verify access/contact shortly before day-card freeze.
 
 ### GEO guard
 The historic address `4 Church Lane` is stable and strongly evidenced, but the exact numeric building coordinate has **not yet passed the project's new independent coordinate gate** in this pass.
@@ -104,6 +115,7 @@ Therefore:
 Any INDIA13/14/15+ successor touching Braj, Agra approach, Prayagraj, the east corridor, or Neem Karoli Baba route capture must recover this file before advice.
 
 Short checksum:
-- **Vrindavan NKB Ashram + Mahasamadhi Mandir = protected A; active real samadhi shrine; Braj inclusion still unresolved.**
-- **Red House 4 Church Lane = historic winter home + real devotional shrine/darshan tradition, but informal/private access; visit only if Prayagraj already happens and access is confirmed; zero independent route weight; no grade inferred.**
+- **Neeb/Neem Karoli Baba Ashram + Mahasamadhi Mandir — active samadhi shrine in Krishna's pilgrimage city (Vrindavan, Uttar Pradesh) = protected site-level A.**
+- **Braj / Mathura–Vrindavan–Govardhan — Krishna's pilgrimage region (Uttar Pradesh) remains OPTIONAL / DEFERRED / NOT A+ by inference. Never promote the world because this one site is A.**
+- **Red House / 4 Church Lane — Neem Karoli Baba winter home with real devotional shrine/darshan tradition in the Sangam city (Prayagraj, Uttar Pradesh) = B / only if already there / access confirmed / zero independent route weight.**
 - no Red House pin until coordinate gate passes.
