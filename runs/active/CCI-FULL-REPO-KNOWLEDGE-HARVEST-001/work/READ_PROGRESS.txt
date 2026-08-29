@@ -3,7 +3,13 @@ central-tree non-md: characterized (46 jsonl schema+counts, 3 csv read, 14 yaml 
 branch-only prose: 677 blobs / 4,712,735 chars
   - 68 same-path-as-central (older versions): read as unified diffs vs central (18 diff chunks DF_001..DF_018), 0 byte-identical - NOT YET READ
   - 609 unique-path: 55 covered in BO_001..BO_016, 554 remaining in 93 chunks U_001..U_093
-    * U_001..U_016 READ (governance/scripts, india4 Yogananda atlas, knowledge/, persons/, pipeline/** incl. all protocol+role+template+review+test versions, places/PLACE-0001)
-    * U_017..U_093 REMAINING (research/ 281 blobs, runs/ 136 blobs, sources/)
+    * U_001..U_053 READ (governance/scripts, india4 Yogananda atlas, knowledge/, persons/, pipeline/** incl. all protocol+role+template+review+test versions, places/PLACE-0001,
+      research/active/BRAJ|KUMAON|VARANASI|VRINDAVAN-* complete, VRINDAVAN-SUPPLEMENT-001, VRINDAVAN-KUMAON-CORRIDOR-001,
+      runs/active/CCI-LONELYPLANET-GAPCHECK-001, CCI-MASTER-QA-ALL-FINDINGS-001, CCI-REPO-AUDIT-001,
+      INDIA-UNESCO-ACTIVE-AUDIT-001 (full audit), INDIA10-MULTIAI-TRAVELER-DISCOVERY-001 (4 blind roles),
+      INDIA10-REGIONAL-DISCOVERY-GAPS-001 (AGRA/BRAJ/DELHI/HARIDWAR_RISHIKESH/KUMAON/PRAYAGRAJ/TIRUVANNAMALAI/VARANASI freezes),
+      INDIA11-UNESCO-CURRENT-CANON-SWEEP-001 TASK)
+    * U_054..U_093 REMAINING (INDIA8/INDIA9/INDIABLAUW/GEEL/GOUD/ORANGE/PAARS/ROOD/ROZE/TURQUOISE/WIT/ZILVER runs,
+      TOP11 blind sweeps + parallel ChatGPT sweeps, KUMAON-V2-RESWEEP, sources/, templates/)
 version-churn analysis: 554 remaining blobs = 494 distinct paths; 469 single-version (3,337,994 B), 25 multi-version paths (85 blobs, 270,688 B)
-last updated: checkpoint 6b
+last updated: checkpoint 6c
