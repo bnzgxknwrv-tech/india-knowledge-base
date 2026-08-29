@@ -376,6 +376,86 @@ All sleeping bases are prefixed 'HOTEL' in user-facing artifacts and KML, carry 
 - **Class:** `CURRENT_CANON`  |  **Integration state:** `ADOPTED`
 - **Source:** commit "INDIA10: prefix all sleeping bases HOTEL and integrate YSS Dwarahat relation"; a5a1b5be ACCOMMODATION_REGISTER pattern
 
+## MRK-051
+
+KUMAON — full current A+ spine at item level (latest Mark, 2026-08-27), beyond the four items the central boot layer names: Mahavatar Babaji's Cave, Kukuchina-Dunagiri (visitable YSS/Kriya pilgrim cave; the main reason for the trip) A+; Kainchi Dham (Neem Karoli Baba ashram complex; core place for NKB and Ram Dass) A+ PARENT; Hotel Evelyn, Nainital (historic hotel where Ram Dass stayed; exact room not proven) A+; **Naini Lake round walk, Nainital (approx. 3.2-3.5 km / 55-75 min; full loop via Mall Road and the car-free Thandi Road; early morning preferred) A+**; Haidakhan Ashram (Haidakhan Babaji pilgrim ashram; desired ashram overnight) A+; **Historic Haidakhan cave (the cave on the gufa side of the Haidakhan ashram where the Haidakhan tradition places Babaji's 1970 appearance — NOT the same claim as the Mahavatar Babaji Cave at Kukuchina/Dunagiri) A+**.
+
+- **Class:** `CURRENT_LOCK`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md
+- **Note:** PARITY REPAIR (iteration 1). This item-level Mark grade is NOT present in any of the eight always-read central boot files; it lives only in a register the current boot demotes to a CONDITIONAL read. A successor booting the central layer alone would not see it.
+
+## MRK-052
+
+KUMAON — intrinsic A items (latest Mark, 2026-08-27), none of which appear in the central boot layer: Bhumiadhar (road/ashram place where Ram Dass first met Neem Karoli Baba per project provenance) A; Hanuman Garhi + Maharajji-kuti, Nainital (Hanuman temple world founded by Neem Karoli Baba just above Nainital) A; Yogoda Satsanga Sakha Ashram Dwarahat A, FULL DAY hard user requirement, no YSS overnight; Dunagiri Temple / Maa Dunagiri Vaishnavi Temple (ancient sacred Devi temple in the Dunagiri/Babaji world) A, no later Mark downgrade found; Babaji Smriti Bhavan, Dunagiri-Kukuchina (Babaji memorial/pilgrim sublocation INSIDE the already-chosen Mahavatar Babaji world) A — preserved old-A sublocation, bundle with the Babaji world and NEVER count it as an independent travel module; Dhokaney Waterfall walk, Dhokaney-Suyalbari (approx. 0.8-1.2 km return / 30-45 min from practical road access; waterfall on the Almora side branch) A.
+
+- **Class:** `CURRENT_LOCK`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md
+- **Note:** PARITY REPAIR (iteration 1). This item-level Mark grade is NOT present in any of the eight always-read central boot files; it lives only in a register the current boot demotes to a CONDITIONAL read. A successor booting the central layer alone would not see it.
+
+## MRK-053
+
+KUMAON — A* / SKIP_FIRST items (latest Mark, 2026-08-27): Kakrighat (Kosi-river place where Vivekananda had an important realisation in 1890) A*; Dwarahat historic temple groups (compact groups of medieval stone temples in Dwarahat) A*; Sattal / Seven Lakes (seven forest lakes; approx. 3-4 km / 60-90 min for the practical main-lakes walk) A*; Sakley's Restaurant & Pastry Shop, Nainital (historic 1944 cafe/patisserie address) A*. SUPERSESSION WARNING: the conditional register CURRENT_OLD_A_PROMOTION_MASTER.md (2026-08-24) still shows Kakrighat as plain **A**; the later 2026-08-27 decision log makes it **A***. The 2026-08-27 value wins.
+
+- **Class:** `CURRENT_LOCK`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md and a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_PROMOTION_MASTER.md
+- **Note:** PARITY REPAIR (iteration 1). This item-level Mark grade is NOT present in any of the eight always-read central boot files; it lives only in a register the current boot demotes to a CONDITIONAL read. A successor booting the central layer alone would not see it. The Kakrighat A -> A* supersession is a live trap between two conditional registers.
+
+## MRK-054
+
+KUMAON — B / active conditional items (latest Mark, 2026-08-27): Naina Peak / China Peak forest-summit walk, Nainital (approx. 4.69 km / approx. 1h52 walking / +350 m; total Nainital base burden approx. 2h35-3h) B — decide on the spot on time/weather/visibility; Katarmal Sun Temple walk (approx. 3 km return / approx. 1-1.75 h walking plus side-road burden) B — CANNOT force the Almora side module; Ghorakhal Golu Devta Mandir (Golu Devta temple near Ghorakhal in the Nainital/Kainchi world) B — protected legacy B, no later Mark change found.
+
+- **Class:** `CURRENT_LOCK`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md
+- **Note:** PARITY REPAIR (iteration 1). This item-level Mark grade is NOT present in any of the eight always-read central boot files; it lives only in a register the current boot demotes to a CONDITIONAL read. A successor booting the central layer alone would not see it.
+
+## MRK-055
+
+KUMAON — explicit C items removed from the active trip (latest Mark, 2026-08-27), eighteen in total, none listed in the central boot layer: Butterfly Research Centre Bhimtal; Jageshwar Dham + Dandeshwar; Ramakrishna Kutir Almora; Chitai Golu Devta Temple; Turiya Niwas; Bodh Ashram; Munsiyari + Panchachuli views; Chaukori Tea Gardens + Panchachuli views; Namik-Ranthan high-Himalaya trek; Kumaon Regimental Centre Museum Ranikhet; Almora historic bazaar walk; Dhikala / Jim Corbett National Park serious safari module; Pangot + Kilbury forest/birding experience; Mukteshwar + Chauli ki Jali; the specialist Sattal-Chanfi winter-birding/hides module (Sattal/Seven Lakes ITSELF remains A*); Chhoti Haldwani Jim Corbett Heritage Village Trail, Kaladhungi; Uttarayani Mela Bageshwar; Patal Bhuvaneshwar Cave. The Kumaon day-expanding OPEN survivor gate is CLOSED (canonical artifact KUMAON_FINAL_OPEN_SURVIVOR_MARK_DECISIONS_2026-08-26.md).
+
+- **Class:** `CURRENT_LOCK`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md
+- **Note:** PARITY REPAIR (iteration 1). This item-level Mark grade is NOT present in any of the eight always-read central boot files; it lives only in a register the current boot demotes to a CONDITIONAL read. A successor booting the central layer alone would not see it.
+
+## MRK-056
+
+KASAR DEVI / ALMORA module wording that must be preserved exactly: 'CURRENT TRIP MODULE DROPPED BY MARK. Historical site-level grades are provenance and are NOT silently rewritten solely because the module dropped.' This is the same route-drop-versus-canon-edit distinction as MRK-011, stated in the decision log itself.
+
+- **Class:** `CURRENT_LOCK`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md
+- **Note:** PARITY REPAIR (iteration 1). This item-level Mark grade is NOT present in any of the eight always-read central boot files; it lives only in a register the current boot demotes to a CONDITIONAL read. A successor booting the central layer alone would not see it.
+
+## MRK-057
+
+VARANASI / SARNATH — the A+ spine is expressed as PARENT BUNDLES, not individual sites: Varanasi Kriya core (Lahiri Mahasaya house + samadhi + Yogananda/Sri Yukteswar zone) A+ PARENT; Ancient Buddhist Site of Sarnath — Chaukhandi Stupa + Archaeological Remains of Sarnath [UNESCO WH 2026] A+ PARENT; Shri Tailanga Swami Math + Panchganga Ghat + Bindu Madhav Temple (the sacred world around yogi Tailanga Swami) A+; Shree Shree Ma Anandamayi Ashram, Bhadaini A+; Kashi Vishwanath sacred core (great Shiva temple + nearby Annapurna/Vishalakshi shrines) A+; Manikarnika Ghat (sacred cremation ghat where Lahiri Mahasaya was cremated) A+ PARENT/BUNDLE; Dashashwamedh Ghat + Shitala Mata Temple (great Ganga Aarti zone) A+; Assi Ghat (southern morning/pilgrim ghat) A+; Bhrigu Karyalaya Bhadury Sadan, Ramapura-Luxa A+ LOCKED_BY_MARK.
+
+- **Class:** `CURRENT_LOCK`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md
+- **Note:** PARITY REPAIR (iteration 1). This item-level Mark grade is NOT present in any of the eight always-read central boot files; it lives only in a register the current boot demotes to a CONDITIONAL read. A successor booting the central layer alone would not see it. The central layer names only Manikarnika and Bhrigu.
+
+## MRK-058
+
+VARANASI — latest ordinary grades, Mark 2026-08-27: Tulsi Ghat + Lolark Kund A; Lalita Ghat + Nepali/Kathwala Temple A; Tulsi Manas Temple B; Durga Temple + Durga Kund A; Bhaskarananda Samadhi, Anand Bagh B; Sankat Mochan Hanuman Temple A; Shreyansanath Jain Tirth, Sarnath-Simhapuri A; Kabir Chaura Math A; Adi Keshava Ghat + Temple, Adi Keshava-Rajghat A; Alamgir Mosque/Dharahara, Panchganga A* — A* ONLY because Mark is already at the A+ Tailanga/Panchganga world; no independent claim, SKIP_FIRST.
+
+- **Class:** `CURRENT_LOCK`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md and a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_PROMOTION_MASTER.md
+- **Note:** PARITY REPAIR (iteration 1). This item-level Mark grade is NOT present in any of the eight always-read central boot files; it lives only in a register the current boot demotes to a CONDITIONAL read. A successor booting the central layer alone would not see it.
+
+## MRK-059
+
+BODH GAYA / GAYA — the full explicit current C list, longer than the central boot layer's summary: Vishnupad Temple Gaya; Japanese Temple / Indosan Nippon; Palyul Namdroling Monastery; Burmese Vihara; Mahabodhi Society of India Bodh Gaya centre; Padmasambhava Grand Temple / Nyingma Center; Shechen Monastery; Pretshila Hill; Brahmayoni Hill / Gayasisa Stupa; International Meditation Centre / Dhamma Bodhi; Bitho Sharif Dargah; Gurdwara Sri Guru Tegh Bahadur Ji Gaya; Barabar/Nagarjuni Caves. Earlier hard-excluded generic monastery/tradition-representation candidates stay excluded.
+
+- **Class:** `CURRENT_LOCK`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_PREP_PACKET_2026-08-27.md
+- **Note:** PARITY REPAIR (iteration 1). This item-level Mark grade is NOT present in any of the eight always-read central boot files; it lives only in a register the current boot demotes to a CONDITIONAL read. A successor booting the central layer alone would not see it.
+
+## MRK-060
+
+Mark-facing presentation rules that live only in the conditional decision log: (a) every walk/hike/loop name shown to Mark must include APPROXIMATE DISTANCE + REALISTIC DURATION, and if not verified must say so explicitly; (b) corridor geometry must be shown BEFORE grading when transfer fit can change practical value; (c) every Mark-facing choice batch is ONE contiguous numbered block (1, 2, 3...) so Mark can answer compactly as '1 A, 2 B, 3 C'; (d) the absolute user-facing format is 'CLUSTER / PLAATS / PLEK (korte Nederlandse uitleg) — huidige status', EVERY time a non-obvious name appears, including in recaps, tables and confirmations — no bare shorthand.
+
+- **Class:** `CURRENT_CANON`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md and a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_PROMOTION_MASTER.md
+- **Note:** PARITY REPAIR (iteration 1). This item-level Mark grade is NOT present in any of the eight always-read central boot files; it lives only in a register the current boot demotes to a CONDITIONAL read. A successor booting the central layer alone would not see it.
+
 ---
 
 ### Two entries a successor should read twice

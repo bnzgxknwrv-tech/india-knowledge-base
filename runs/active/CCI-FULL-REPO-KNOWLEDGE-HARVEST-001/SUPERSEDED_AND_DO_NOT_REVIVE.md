@@ -160,6 +160,14 @@ All 68 branch-only blobs that share a path with the central tree were diffed aga
 - **Class:** `HISTORICAL_PROVENANCE_ONLY`  |  **Integration state:** `ADOPTED`
 - **Source:** this harvest, diff chunks DF_001-DF_018
 
+## SUP-021
+
+DO NOT re-derive from the conditional registers without checking their date. Two conditional registers disagree with each other and with the current layer: CURRENT_OLD_A_PROMOTION_MASTER.md is dated 2026-08-24 and closed; A_PLUS_MARK_DECISION_LOG.md is dated 2026-08-27 and is the later authority; PROTECTED_CANON_BASELINE.csv is older still. Known concrete divergence: Kakrighat is A in the 2026-08-24 promotion master and A* in the 2026-08-27 decision log. Always take the latest dated register, and above all the latest explicit Mark decision.
+
+- **Class:** `CONFLICT_NEEDS_RECONCILIATION`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md vs a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_PROMOTION_MASTER.md
+- **Note:** PARITY REPAIR (iteration 1). This item-level Mark grade is NOT present in any of the eight always-read central boot files; it lives only in a register the current boot demotes to a CONDITIONAL read. A successor booting the central layer alone would not see it.
+
 ---
 
 ### How to use this file

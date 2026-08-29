@@ -286,6 +286,38 @@ Confirmed UNESCO facts from that audit: Sarnath received FULL inscription July 2
 - **Class:** `CURRENT_FACT_WITH_RECHECK_TRIGGER`  |  **Integration state:** `ADOPTED`
 - **Source:** commit c8b671d6 (2026-08-27)
 
+## MRK-061
+
+Traveler/LP overlay rules (from the closed old-A promotion pass): (1) identity-deduplicate against current A+/A/B/C canon FIRST; (2) duplicates inherit the latest Mark grade and are NOT re-balloted; (3) C duplicates disappear from active route review; (4) A+/A duplicates remain planned at their existing grade; (5) genuinely new traveler candidates are reviewed corridor-first as hard cuts -> easy captures -> alternative bundles -> true ties; (6) do NOT inflate 'interesting' into A — A means Mark genuinely intends to go.
+
+- **Class:** `CURRENT_CANON`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_PROMOTION_MASTER.md
+- **Note:** PARITY REPAIR (iteration 1). This item-level Mark grade is NOT present in any of the eight always-read central boot files; it lives only in a register the current boot demotes to a CONDITIONAL read. A successor booting the central layer alone would not see it.
+
+## PHI-039
+
+CAPABILITY CLASSIFICATION — a reusable honesty tool that must be applied BEFORE external work and reported with the result: EXECUTABLE_DIRECT / EXECUTABLE_PUBLIC_SEARCH / REQUIRES_MARK_LINK / NOT_EXECUTABLE. Worked precedent: in the Varanasi GEO repair, public web search, public indexed Maps-link inspection and official map/address link inspection were all EXECUTABLE_PUBLIC_SEARCH, coordinate parsing was EXECUTABLE_DIRECT, and DIRECT GOOGLE MAPS VISUAL OPERATION was NOT_EXECUTABLE — so no record was allowed to claim direct visual Google Maps verification. Classify first, then never claim a stronger verification than the class allows.
+
+- **Class:** `CURRENT_CANON`  |  **Integration state:** `ADOPTED`
+- **Source:** recovered DELETED india3/protocols/TOOL_CAPABILITY_PROTOCOL.md and research/active/VARANASI-GEO-DELIVERY-REPAIR-001/BRONS/HANDOFF.md
+- **Note:** PARITY REPAIR (iteration 1). This item-level Mark grade is NOT present in any of the eight always-read central boot files; it lives only in a register the current boot demotes to a CONDITIONAL read. A successor booting the central layer alone would not see it. Recovered from deleted paths; absent from central.
+
+## PHI-040
+
+CLAIM STATUS vocabulary from the INDIA3 generation, still the most precise one the project ever had and worth reusing: USER_DECISION, IMPLEMENTED, VERIFIED_PRIMARY, VERIFIED_SECONDARY, ASSISTANT_PROPOSAL, REJECTED, NOT_FOUND, NOT_ESTABLISHED, TOOL_LIMITED, SUPERSEDED. Paired GEO statuses: VERIFIED_GOOGLE_MAPS_PLACE, VERIFIED_OFFICIAL_MAP_LINK, VERIFIED_SITE_CENTRE, WORKING_CROSSCHECKED_MAP_POINT, APPROXIMATE_LOCAL_POINT, NOT_ESTABLISHED, TOOL_LIMITED. Note in particular that TOOL_LIMITED is a FIRST-CLASS outcome, distinct from NOT_FOUND: it records that the tooling, not the evidence, was the limit.
+
+- **Class:** `CURRENT_CANON`  |  **Integration state:** `REVIEWED_NOT_ADOPTED`
+- **Source:** recovered DELETED india3/protocols/CLAIM_STATUS_PROTOCOL.md and GEO_PROTOCOL.md
+- **Note:** PARITY REPAIR (iteration 1). This item-level Mark grade is NOT present in any of the eight always-read central boot files; it lives only in a register the current boot demotes to a CONDITIONAL read. A successor booting the central layer alone would not see it. Recovered from deleted paths; absent from central.
+
+## PHI-041
+
+Nine principal failure modes recorded by the INDIA3 iteration-1 audit, all still live risks: treating a coverage COUNT as proof of coverage ('40 markers'); treating SYNTAX as proof of correctness ('the KML opens'); copying inherited coordinates without a verification action; creating successor context as a worker; claiming definitive verification; assigning A/B/C as a worker; postponing durable writes until the end of a run; reading outside the pinned required files; and smoothing uncertainty in user-facing wording.
+
+- **Class:** `CURRENT_CANON`  |  **Integration state:** `REVIEWED_NOT_ADOPTED`
+- **Source:** recovered DELETED india3/migration/ITERATION_1_AUDIT.md
+- **Note:** PARITY REPAIR (iteration 1). This item-level Mark grade is NOT present in any of the eight always-read central boot files; it lives only in a register the current boot demotes to a CONDITIONAL read. A successor booting the central layer alone would not see it. Recovered from a deleted path; absent from central.
+
 ---
 
 ### Reading order inside this file

@@ -216,6 +216,86 @@ Rajgir ropeway current operating reality and the ARIES (Nainital) public-visit f
 - **Class:** `CURRENT_FACT_WITH_RECHECK_TRIGGER`  |  **Integration state:** `ADOPTED`
 - **Source:** commits "INDIA10: correct Rajgir ropeway current operating reality", "...harden Kumaon A+ slice with current ARIES public-visit facts", "...close Taj full-moon calendar window", "...harden Tiruvannamalai A+ slice", "...precompute fixed-date collision matrix"
 
+## EXE-029
+
+Mahabodhi operational facts, current 2026 (Bihar Tourism page updated Aug 2026): UNESCO WH; listed hours 06:00-18:00; free entry; cameras and electronic gadgets PROHIBITED per the tourism page; Bodh Gaya local movement by auto/cycle-rickshaw, and the target sleep zone allows much on foot.
+
+- **Class:** `CURRENT_FACT_WITH_RECHECK_TRIGGER`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_PREP_PACKET_2026-08-27.md
+- **Note:** PARITY REPAIR (iteration 1). This item-level Mark grade is NOT present in any of the eight always-read central boot files; it lives only in a register the current boot demotes to a CONDITIONAL read. A successor booting the central layer alone would not see it.
+
+## EXE-030
+
+Bodh Gaya historical sleep/duration provenance — NOT a lock: the old V2 calculation used 3 Bodh Gaya nights with a hotel anchor in the Bodh Gaya temple core, preferably about 0.8 km walking distance from Mahabodhi / Thai Temple / Do Muhan Road side. The exact hotel is NOT locked by Mark, and Maya Heritage was at most a CALCULATION property, never a choice. Treat 3 nights only as an old comparison baseline — retained LP/traveler magnets may increase it.
+
+- **Class:** `HISTORICAL_PROVENANCE_ONLY`  |  **Integration state:** `PROVENANCE_ONLY`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_PREP_PACKET_2026-08-27.md
+- **Note:** PARITY REPAIR (iteration 1). This item-level Mark grade is NOT present in any of the eight always-read central boot files; it lives only in a register the current boot demotes to a CONDITIONAL read. A successor booting the central layer alone would not see it.
+
+## EXE-031
+
+The seven traditional post-enlightenment week-places inside the Mahabodhi complex (Animeshlochan Chaitya, Ratnachakrama, Ratnaghar Chaitya, Ajapala Nigrodh, Muchalinda pond, Rajyatana tree) are handled as SUBLOCATIONS of 046 Mahabodhi, deliberately NOT separately numbered — the umbrella decision was taken to avoid over-fragmentation. Muchalinda was formally classified MODERN_COMPLEX_REPRESENTATION_VS_HISTORICAL_SITE: Bihar Tourism confirms a Muchalinda Sarovar inside the complex while a separate Mocharim village lies about 1 km south; nothing was numbered independently.
+
+- **Class:** `CURRENT_CANON`  |  **Integration state:** `ADOPTED`
+- **Source:** commits a7a88d0c (2026-08-04), ad641131 (2026-08-05), d62f00f3 (2026-08-05)
+- **Note:** PARITY REPAIR (iteration 1). This item-level Mark grade is NOT present in any of the eight always-read central boot files; it lives only in a register the current boot demotes to a CONDITIONAL read. A successor booting the central layer alone would not see it.
+
+## EXE-032
+
+PERMANENT IMMUTABLE NUMBER ALLOCATION 001-081, the only scheme that is current: Varanasi 001-045; Bodh Gaya / Gaya 046-078; Kumaon 079-081 (079 Mahavatar Babaji Cave, 080 Turiya Niwas, 081 Bodh Ashram). Accommodation IDs are SEPARATE and never share this space (VNS-HOTEL-001). Numbers are never reused, and an EXCLUDED candidate keeps its number reserved forever.
+
+- **Class:** `CURRENT_CANON`  |  **Integration state:** `ADOPTED`
+- **Source:** commits a7a88d0c, de9f5ca7, 9d91476a, 114ada55, a5a1b5be
+- **Note:** PARITY REPAIR (iteration 1). This item-level Mark grade is NOT present in any of the eight always-read central boot files; it lives only in a register the current boot demotes to a CONDITIONAL read. A successor booting the central layer alone would not see it.
+
+## EXE-033
+
+COLLIDING NUMBERING SCHEMES — a successor WILL meet several incompatible ID spaces for the same places and must never reconcile them by number: (1) the CURRENT permanent immutable 001-081 plus VNS-HOTEL-001; (2) legacy CLUSTER_LOCATIONS.md 1-46 (an india1/india2 neutral inventory; its numbers 39-45 were deliberately RESERVED for Bodh Gaya candidates, so the gap is intentional, not a bug); (3) the DECISION-0013 cluster-block LOCATION_ID scheme — Delhi 100-199 RESERVED, Braj 200-299 (assigned 200-228), corridor/stations 300-399 (assigned 300-315), Kumaon 400-499 (assigned 400-443); (4) run-local temporary IDs: OLD31-01..31, KB2-001..045, KUM-CAND-001..047, KUM-SWEEP-A-001..008, BRJ-TMP-*, VNS-CAND-001..040, BGY-WATCH-*; (5) LC-* GEEL keys and IND-PLACE-000001..000008. The cluster-block scheme was NEVER actually applied for Kumaon (no LOCATION_ID was ever filled in PLACE-0001), so the assumption 'Babaji cave = LOCATION_ID 400' was an explicit, documented GUESS that was NOT adopted; the cave is 079.
+
+- **Class:** `CURRENT_CANON`  |  **Integration state:** `ADOPTED`
+- **Source:** commits 9d91476a (2026-08-14), 525ea75c (2026-07-11); branch-only KUMAON/BRAJ/CORRIDOR GOUD candidate files
+- **Note:** This map exists nowhere as a single statement. Without it a successor can silently merge two different places or split one.
+
+## EXE-034
+
+PERSON-FREEZE CORPUS MAP — how much research already exists per person per independent detector, so no successor re-sweeps a saturated person. INDIAGEEL: Ramakrishna 55, Ramana 51, Neem Karoli Baba 46, Ram Dass 55, Vivekananda 9, Hariharananda 7 records. INDIAROOD: Babaji 50, Lahiri Mahasaya 40 (+6), Sri Yukteswar 42 (+14). PARALLEL-CHATGPT external sweep: Yogananda 127, Babaji 35, Lahiri 60, Sri Yukteswar 38, Neem Karoli Baba 113, Ram Dass 57, Ramana 103, Ramakrishna 175. Internal METHOD_V2 pre-external freezes: Babaji 14, Lahiri 19, Sri Yukteswar 7, Neem Karoli Baba 19-21, Ram Dass 5-13, Ramana 23, Ramakrishna 19. ONLY Lahiri (ChatGPT) and Ramakrishna (ChatGPT) ever claimed SATURATION: JA, and only for DISCOVERY saturation — never for physical-identity saturation.
+
+- **Class:** `CURRENT_FACT_WITH_RECHECK_TRIGGER`  |  **Integration state:** `REVIEWED_NOT_ADOPTED`
+- **Source:** branch-only TOP11-INDIAGEEL / TOP11-INDIAROOD / TOP11-PARALLEL-CHATGPT freeze files; commits 087-095 series
+- **Note:** PARITY REPAIR (iteration 1). This item-level Mark grade is NOT present in any of the eight always-read central boot files; it lives only in a register the current boot demotes to a CONDITIONAL read. A successor booting the central layer alone would not see it.
+
+## EXE-035
+
+AOAY full-text atlas scale and its biggest open finding: the reproducible three-detector extraction over the complete Project Gutenberg #7452 text (48 chapters, sha256 recorded) produced 1,359 raw occurrence records normalising to 123 places. THIRTY places are AOAY_FOUND_BUT_MISSING_FROM_REPO, and the strongest single signal is a COMPLETE KASHMIR REGION CLUSTER spanning two full chapters (Simla/Srinagar/Shalimar/Nishat Bagh/Gulmarg) absent from every existing sweep — later confirmed to be Sri Yukteswar's own journey too ('I will accompany you to Kashmir', ch. 21), not only Yogananda's. Nineteen places independently confirm existing Top-11 atlas points from AOAY's own text. Status was honestly AOAY_LOCATION_SWEEP_SATURATED: NEE, with about 6,691 candidate token types left UNRESOLVED_BUT_RECORDED (sampled and found overwhelmingly to be personal names/titles, but not individually verified).
+
+- **Class:** `CURRENT_FACT_WITH_RECHECK_TRIGGER`  |  **Integration state:** `REVIEWED_NOT_ADOPTED`
+- **Source:** commits da27aba5 (2026-08-16), ea60ba59 (2026-08-19)
+- **Note:** PARITY REPAIR (iteration 1). This item-level Mark grade is NOT present in any of the eight always-read central boot files; it lives only in a register the current boot demotes to a CONDITIONAL read. A successor booting the central layer alone would not see it. Kashmir is outside the current six fixed worlds, so this is not an action item — but it is the largest known unexplored AOAY finding and must not be rediscovered from scratch.
+
+## EXE-036
+
+MASTER LOCATION LIST — where the repository-wide person/place findings actually live: ALL_FINDINGS_LOCATION_MASTER, built row-level from six colour-worker family branches (BLAUW/ROOD/GEEL/WIT/TURQUOISE/ZILVER) at 459 rows and then closed out to 700 rows. The 459-row accounting equation closes as 459 = 259 physical-entity-linked (13 already matching canon 001-081/legacy IDs) + 0 explicit-duplicate + 33 negative/non-presence + 167 still-unresolved. MASTER_BUILD_EXCEPTIONS.md names 7 concrete irreducible gaps rather than silently dropping anything.
+
+- **Class:** `CURRENT_FACT_WITH_RECHECK_TRIGGER`  |  **Integration state:** `ADOPTED`
+- **Source:** commits d1fa886c (2026-08-20), 7baab306 (2026-08-20)
+- **Note:** PARITY REPAIR (iteration 1). This item-level Mark grade is NOT present in any of the eight always-read central boot files; it lives only in a register the current boot demotes to a CONDITIONAL read. A successor booting the central layer alone would not see it.
+
+## EXE-037
+
+BRANCH-DELTA MAP — what actually sits on non-central branches, classified by INDIA9-006 into four categories over 867 blobs / 4,993,696 bytes: 62 UNIQUE_SEMANTIC_NOT_CENTRALLY_REPRESENTED, 40 SEMANTICALLY_REPRESENTED_IN_CENTRAL, 601 HISTORICAL_INTERMEDIATE_SUPERSEDED, 164 MECHANICAL_OR_REDUNDANT_SOURCE_ARTIFACT. The 62 unique-semantic blobs were packaged and read in seven volumes (344,876 bytes) and registered in governance/SEMANTIC_IMPORT_REGISTRY_2026-08-23.jsonl, with 50 archived as provenance.
+
+- **Class:** `CURRENT_FACT_WITH_RECHECK_TRIGGER`  |  **Integration state:** `ADOPTED`
+- **Source:** commits 1b7f7d78, 6f2bed99, de2da202 (2026-08-23)
+- **Note:** PARITY REPAIR (iteration 1). This item-level Mark grade is NOT present in any of the eight always-read central boot files; it lives only in a register the current boot demotes to a CONDITIONAL read. A successor booting the central layer alone would not see it.
+
+## EXE-038
+
+Anandamayi Ma / Kankhal: the mahasamadhi shrine at Kankhal-Haridwar is very probably her single most important physical point in all India, and it was COMPLETELY ABSENT from the repository at the time of the person-centric pilot — not in Varanasi, Bodh Gaya or Kumaon. It is now graded A, but it sits in the DEFERRED Haridwar/Kankhal/Rishikesh optional world, and the corridor registry classifies it HEAVY_A_GATE_PASS_CANDIDATE_ROUTE_FAIL / MAJOR_OFF_CORRIDOR_DETOUR. If the optional-world ballot ever drops Haridwar, this is the single most significant content casualty and Mark should see that trade-off explicitly rather than losing it silently.
+
+- **Class:** `CURRENT_FACT_WITH_RECHECK_TRIGGER`  |  **Integration state:** `ADOPTED`
+- **Source:** commit 1f0eeaed (2026-08-15) megasweep pilot; branch-only VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/central_map_source.jsonl
+- **Note:** PARITY REPAIR (iteration 1). This item-level Mark grade is NOT present in any of the eight always-read central boot files; it lives only in a register the current boot demotes to a CONDITIONAL read. A successor booting the central layer alone would not see it. The trade-off framing is new in this harvest.
+
 ---
 
 ### Coordinate trust ladder used throughout

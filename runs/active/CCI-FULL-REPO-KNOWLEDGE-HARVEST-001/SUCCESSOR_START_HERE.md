@@ -125,6 +125,14 @@ R01 — CURRENT_STATE.md is a POINTER, not complete history. When Mark says 'we 
 - **Class:** `CURRENT_CANON`  |  **Integration state:** `ADOPTED`
 - **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:governance/INDIA_RECOVERY_DELTAS_CURRENT.md R01
 
+## SSH-009
+
+PARITY WARNING FOR YOUR OWN BOOT: the eight always-read central boot files do NOT contain the item-level Mark grade ledger. The central layer names roughly a dozen Kumaon/Varanasi/Bodh Gaya items; the actual current Mark canon covers roughly SIXTY graded items. The item-level ledger is `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md` (2026-08-27, the later authority) with `CURRENT_OLD_A_PROMOTION_MASTER.md` (2026-08-24, closed) and the per-cluster prep packets behind it. The current boot correctly calls these CONDITIONAL rather than every-boot reads — but that means you MUST load them before showing any Kumaon, Varanasi or Bodh Gaya item as a choice, or you will re-present something Mark already graded. Atoms MRK-051 to MRK-061 in this harvest carry those grades directly.
+
+- **Class:** `CURRENT_CANON`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md; a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_PROMOTION_MASTER.md; a37423639f7dabb0dfd55c8656d4689bb8a25351:governance/INDIA_CURRENT_KNOWLEDGE_MAP.md section C
+- **Note:** This is the single most important finding of the successor parity test.
+
 ---
 
 ### One live defect you will hit on boot
