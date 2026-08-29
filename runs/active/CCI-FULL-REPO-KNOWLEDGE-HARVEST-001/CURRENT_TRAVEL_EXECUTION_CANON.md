@@ -344,6 +344,14 @@ OPTIONAL-WORLD LOGISTICS-TAX comparison (quantified, not a quality judgment; con
 - **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CLUSTER_TOPOLOGY_QUANTIFIED_DELTA_2026-08-26.md
 - **Note:** PARITY REPAIR (iteration 3). MRK-040/EXE-003 record the deferred-worlds list qualitatively, but none of these quantified figures or the Mysore/Bengaluru gateway-vs-sightseeing distinction existed anywhere in the successor layer before this repair.
 
+## EXE-045
+
+Varanasi day-sequencing preferences (2026-08-27, current): Day 1 in Varanasi should preferably connect immediately to Lahiri Mahasaya / Kriya with Assi Ghat/Ganges orientation, rather than a hotel-only inactive arrival; Manikarnika Ghat / the cremation world may be deliberately placed LATER in the stay so Mark can acclimatize first, not necessarily on day 1. These sit alongside the general pacing rule in `MRK-029` and refine it specifically for Varanasi's emotional sequencing, not just its physical geometry.
+
+- **Class:** `CURRENT_CANON`  |  **Integration state:** `REVIEWED_NOT_ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/VARANASI_HISTORICAL_PACE_PREFERENCE_RECOVERY_2026-08-27.md
+- **Note:** PARITY REPAIR (iteration 7). A small day-1/emotional-sequencing preference not covered by MRK-029 or EXE-019.
+
 ---
 
 ### Coordinate trust ladder used throughout
