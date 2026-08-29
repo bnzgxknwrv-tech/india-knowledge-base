@@ -26,6 +26,13 @@ deleted-path archaeology: COMPLETE
      VARANASI-GEO-DELIVERY-REPAIR-001 run scaffolding incl. 42 KB SOURCES.jsonl + 42 KB GEO_AUDIT.jsonl,
      and runs/active/INDIA10-BOOKING-SEQUENCE-CLOSURE-001/BOOKING_CONTACT_PACK.md)
 
+  - LAST SLICE CLOSED (checkpoint 8): research/active/VARANASI-GEO-DELIVERY-REPAIR-001/** recovered scaffolding read
+    (run.yaml, state.yaml, events.jsonl, context/BRONS_CONTEXT.yaml, BRONS/HANDOFF.md verbatim;
+     BRONS/GEO_AUDIT.jsonl 36 rows and BRONS/SOURCES.jsonl 86 rows dumped row-level).
+    -> MAJOR RECOVERY: 34 working cross-checked Varanasi coordinates absent from central. See NEW_KNOWLEDGE_CANDIDATES.md NK-004.
+
+new-knowledge log started: work/NEW_KNOWLEDGE_CANDIDATES.md (NK-001..NK-006)
+
 NEXT: commit-message archaeology (TASK.md 2.4); PR #23 + issues re-read; KNOWLEDGE_ATOMS.jsonl + COVERAGE_MANIFEST.csv;
       successor-layer md files; SUCCESSOR PARITY TEST; §10 self-checks; HARVEST_REPORT.md.
-last updated: checkpoint 7
+last updated: checkpoint 8
