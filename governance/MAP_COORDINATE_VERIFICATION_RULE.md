@@ -4,6 +4,7 @@ Status: **HARD / UNIVERSAL / ALL INDIA GEOMETRY / ALL SUCCESSORS**
 Effective: 2026-08-29
 Hardened: 2026-08-29 — FIT-FOR-PURPOSE 100% GEO VERIFICATION
 Trigger: Mark caught a materially wrong map pin for the Dungeshwari / Mahakala Caves, which made a distant Rajgir hot-spring cluster appear to lie on the route. This is a decision-corrupting failure class.
+Operational audit/gate: `governance/COORDINATE_INTEGRITY_GATE.md` — consult it before new/reused decision-relevant geometry; old coordinates are not grandfathered into current truth.
 
 ## CORE RULE — COORDINATES ARE FOUNDATIONAL PLANNING DATA
 A location used in India planning may affect A/B/C/A*/A+ judgment, `je bent er toch` combinations, hotel choice, route order, day count, walking burden, transfers and night count. Therefore **geometry-dependent planning may not use a location until its physical position is GEO_VERIFIED_FOR_DECISION at the planning-relevant scale.**
@@ -124,6 +125,11 @@ Before saying `langs de route`, `5 min verder`, `je bent er toch`, `omweg` or si
 A map pin may support orientation; it may not substitute for routing evidence.
 
 ## PROJECT-WIDE GEOMETRY GATE
+Current project-wide audit/status lives in:
+`governance/COORDINATE_INTEGRITY_GATE.md`.
+
+Every successor touching geometry must consult that gate for the active world before reusing old coordinate-based conclusions.
+
 Existing A+/A/A*/B/C decisions are NOT automatically invalidated by old coordinate uncertainty; those remain Mark decisions.
 
 But any **new or reused geography-dependent conclusion** — including proximity, bundle, A* host-fit, `je bent er toch`, hotel geometry, route order, transfer capture, driving/walking time or duration rationale — must pass this rule first.
