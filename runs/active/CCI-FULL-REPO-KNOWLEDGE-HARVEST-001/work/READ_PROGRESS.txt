@@ -2,14 +2,19 @@ central-tree markdown read: COMPLETE (71/71 chunks, 465 .md, 2,996,361 bytes)
 central-tree non-md: characterized (46 jsonl schema+counts, 3 csv read, 14 yaml read, 5 json, 16 py, 3 kml, 6 pdf classified)
 branch-only prose: 677 blobs / 4,712,735 chars
   - 68 same-path-as-central (older versions): read as unified diffs vs central (18 diff chunks DF_001..DF_018), 0 byte-identical - NOT YET READ
-  - 609 unique-path: 55 covered in BO_001..BO_016, 554 remaining in 93 chunks U_001..U_093
-    * U_001..U_053 READ (governance/scripts, india4 Yogananda atlas, knowledge/, persons/, pipeline/** incl. all protocol+role+template+review+test versions, places/PLACE-0001,
-      research/active/BRAJ|KUMAON|VARANASI|VRINDAVAN-* complete, VRINDAVAN-SUPPLEMENT-001, VRINDAVAN-KUMAON-CORRIDOR-001,
+  - 609 unique-path: 55 covered in BO_001..BO_016, 554 in 93 chunks U_001..U_093
+    * U_001..U_093 ALL READ (COMPLETE). Covers: governance/scripts, india4 Yogananda atlas, knowledge/, persons/,
+      pipeline/** (all protocol+role+template+review+test versions), places/PLACE-0001, sources/, templates/,
+      research/active/BRAJ|KUMAON|VARANASI|VRINDAVAN-*, VRINDAVAN-SUPPLEMENT-001, VRINDAVAN-KUMAON-CORRIDOR-001,
       runs/active/CCI-LONELYPLANET-GAPCHECK-001, CCI-MASTER-QA-ALL-FINDINGS-001, CCI-REPO-AUDIT-001,
-      INDIA-UNESCO-ACTIVE-AUDIT-001 (full audit), INDIA10-MULTIAI-TRAVELER-DISCOVERY-001 (4 blind roles),
-      INDIA10-REGIONAL-DISCOVERY-GAPS-001 (AGRA/BRAJ/DELHI/HARIDWAR_RISHIKESH/KUMAON/PRAYAGRAJ/TIRUVANNAMALAI/VARANASI freezes),
-      INDIA11-UNESCO-CURRENT-CANON-SWEEP-001 TASK)
-    * U_054..U_093 REMAINING (INDIA8/INDIA9/INDIABLAUW/GEEL/GOUD/ORANGE/PAARS/ROOD/ROZE/TURQUOISE/WIT/ZILVER runs,
-      TOP11 blind sweeps + parallel ChatGPT sweeps, KUMAON-V2-RESWEEP, sources/, templates/)
-version-churn analysis: 554 remaining blobs = 494 distinct paths; 469 single-version (3,337,994 B), 25 multi-version paths (85 blobs, 270,688 B)
-last updated: checkpoint 6c
+      INDIA-UNESCO-ACTIVE-AUDIT-001, INDIA10-MULTIAI-TRAVELER-DISCOVERY-001, INDIA10-REGIONAL-DISCOVERY-GAPS-001,
+      INDIA11-UNESCO-CURRENT-CANON-SWEEP-001, INDIA8-* (cluster decisions, retained-route AB geo QA, strategic arch review),
+      INDIA9-* (006 successor boot architecture, 007 category1 semantic read pack VOL_0001..VOL_0007 = all 62 cat-1 blobs),
+      INDIABLAUW/GEEL/GOUD/ORANGE/PAARS/ROOD/ROZE/TURQUOISE/WIT/ZILVER runs,
+      KUMAON-V2-RESWEEP-001 INDIA_SWEEP_B, TOP11-INDIAGEEL-* (Ramakrishna/Ramana/NKB/RamDass/Vivekananda/Hariharananda
+      freezes + fourperson overlap), TOP11-INDIAROOD-* (Babaji/Lahiri/Sri Yukteswar freezes),
+      TOP11-PARALLEL-CHATGPT-SWEEP-001 (all 8 pre-compare freezes + STATUS)
+version-churn analysis: 554 blobs = 494 distinct paths; 469 single-version (3,337,994 B), 25 multi-version paths (85 blobs, 270,688 B)
+NEXT: bodiff/DF_001..DF_018 (598,159 chars unified diff vs frozen central), then 185 branch-only jsonl + 19 other blobs,
+      then deleted-path recovery (699 paths) + commit-message archaeology, then PR #23 re-read, then atoms/manifest/successor layer.
+last updated: checkpoint 6f
