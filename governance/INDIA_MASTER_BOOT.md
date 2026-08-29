@@ -29,12 +29,13 @@ Read IN THIS SESSION and in this order:
 3. `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md` — **WHY MARK**: who he is as traveler, spiritual/pacing/taste/communication logic.
 4. `governance/MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md` — **HARD UNIVERSAL USER-FACING NAME + GEOGRAPHIC BURDEN FORMAT**; every India chat, every location.
 5. `governance/INDIA_HUMAN_CENTERED_COMPLEX_TRIP_PLANNING_STANDARD.md` — **HARD DECISION-SUPPORT STANDARD**: proximity matrices, marginal burden, `je bent er toch` combinations, displacement, uncertainty/VOI, robustness, human energy, temporal fit and scenario deltas. This is mandatory immediate memory, not optional methodology reading.
-6. `governance/TRIP_FRAME_HARD.md` — exact booked international flights + 33-India-night envelope.
-7. `governance/CURRENT_DECISIONS_MASTER.md` — **WHAT IS CURRENT NOW**; primary fast `AL BESLIST?` view.
-8. `governance/DECISION_LEDGER.jsonl` — **WHY / PROVENANCE / SUPERSEDES**; durable append-only decision-event memory.
-9. `governance/CURRENT_STATE.md` — compact current frontier, closed footprints and exact next Mark-only action.
-10. `governance/INDIA_RECOVERY_DELTAS_CURRENT.md` — anti-regression traps recovered from INDIA1–12 failures.
-11. `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md` — conditional routing to exact cluster/detail/provenance sources.
+6. `governance/FINAL_COMFORT_SWEEP_RULE_2026-08-23.md` — **HARD END-STAGE FOOD / COFFEE / BREAKFAST / LUNCH / DINNER / HUMAN-TEXTURE RULE** anchored to the actual chosen sleep base and real day corridor; never omit it from final day-card production.
+7. `governance/TRIP_FRAME_HARD.md` — exact booked international flights + 33-India-night envelope.
+8. `governance/CURRENT_DECISIONS_MASTER.md` — **WHAT IS CURRENT NOW**; primary fast `AL BESLIST?` view.
+9. `governance/DECISION_LEDGER.jsonl` — **WHY / PROVENANCE / SUPERSEDES**; durable append-only decision-event memory.
+10. `governance/CURRENT_STATE.md` — compact current frontier, closed footprints and exact next Mark-only action.
+11. `governance/INDIA_RECOVERY_DELTAS_CURRENT.md` — anti-regression traps recovered from INDIA1–12 failures.
+12. `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md` — conditional routing to exact cluster/detail/provenance sources.
 
 Boot is not complete because filenames were mentioned: actually read them.
 
@@ -47,6 +48,7 @@ Do not blur responsibilities:
 - `MARK_TRAVEL_PREFERENCES_CURRENT.md` = durable **WHY MARK / HOW HE TRAVELS**.
 - `MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md` = mandatory **HOW EVERY LOCATION IS NAMED + GEOGRAPHIC BURDEN SHOWN**.
 - `INDIA_HUMAN_CENTERED_COMPLEX_TRIP_PLANNING_STANDARD.md` = mandatory **HOW INDIA BUILDS THE DECISION ENVIRONMENT BEFORE MARK CHOOSES**: four-layer separation (intrinsic value / marginal burden / robustness / confidence), pairwise proximity, microclusters, opportunity cost, uncertainty triage, value-of-information, stress testing, fallbacks, rolling-wave detail and whole-trip human-state checks.
+- `FINAL_COMFORT_SWEEP_RULE_2026-08-23.md` = mandatory **HOW THE SETTLED TRIP BECOMES HUMANLY PLEASANT IN THE FIELD**: actual-location-based breakfast, coffee, lunch, dinner, bakeries/sweets, characterful cafés/tea, local specialties and transfer comfort, with real proximity, opening/daypart fit and detour cost.
 - `TRIP_FRAME_HARD.md` = immutable booked **TRIP ENVELOPE**.
 - `CURRENT_DECISIONS_MASTER.md` = materialized **WHAT IS TRUE NOW**.
 - `DECISION_LEDGER.jsonl` = append-only **DECISION EVENTS + WHY + SUPERSEDES**.
@@ -122,7 +124,7 @@ Active sequence:
 No optional-world ballot and no exact final calendar before fixed-core gates close.
 
 # 9. HUMAN PLANNING RULES THAT MUST SURVIVE
-The profile, human-centered planning standard and behavioral contract are authoritative for detail. Minimum checksum:
+The profile, human-centered planning standard, final-comfort rule and behavioral contract are authoritative for detail. Minimum checksum:
 - personal pilgrimage, not generic India tourism;
 - physical place Mark can stand in/experience is the core object;
 - spiritual depth, living-human texture and breathing room > maximizing count;
@@ -143,6 +145,7 @@ The profile, human-centered planning standard and behavioral contract are author
 - **Use rolling-wave detail: architecture now, exact volatile logistics only when the information is mature enough. Never freeze false precision and never use uncertainty as an excuse not to make a useful provisional plan.**
 - **EVERY substantive cluster/day/base presentation MUST include a compact CLIMATE SNAPSHOT for Mark's reasonably expected stay window, even before the exact calendar is closed: state the estimated local travel period and typical/average temperature at 06:00, 13:00 and 18:00. Use climate normals/historical averages, label them as typical rather than forecast, and refine them once exact dates are known. If dawn/dusk timing materially affects an early/late activity, include that too.**
 - **Human energy matters: an overnight train, 05:00 alarm, long drive or heavy walking changes the following day's usable capacity even when the timetable technically fits.**
+- **FINAL COMFORT / FOOD / HUMAN-TEXTURE SWEEP IS MANDATORY after route, nights, exact calendar, hotels/bases and day structure are stable and BEFORE final day cards are considered complete. Research from the ACTUAL chosen hotel/ashram and actual day endpoints, not a generic city. Per base/day provide a SHORT supported nearby shortlist as relevant for early breakfast, genuinely good coffee, lunch, dinner, historic/cult bakery or patisserie, local sweet/regional specialty, characterful café/tea house, strong restaurant and transfer-day comfort. Show what to order, real walk/vehicle distance and time from where Mark actually is, opening/daypart fit, reservation/access risk, detour cost and whether the detour is worth it. Recheck volatile food/opening facts live at this final stage. Never dump generic top-10 restaurant lists. This layer enriches the settled trip and may NOT silently force a route bend, extra hotel night or loss of protected A+/A content.**
 - before unfamiliar choice: WHAT / WHY / recommended dwell + reason / real movement burden / natural bundle / displacement / confidence;
 - one contiguous numbered choice block;
 - after Mark answers a mini-ballot, record it and continue automatically until next real Mark-only decision.
@@ -170,7 +173,8 @@ Recheck only when they influence real advice/calendar/booking:
 - hotels/ashram acceptance;
 - opening/access;
 - weather/winter safety;
-- prices/availability.
+- prices/availability;
+- final-stage food/coffee/restaurant opening, recent operating signal and reservation status when building comfort/day cards.
 
 Use the human-centered standard's uncertainty/VOI classification: a volatile fact can be `LIVE-RECHECK-LATER` rather than a blocker; a decision-critical current uncertainty must be researched now.
 
@@ -251,6 +255,7 @@ A successor must be able to answer internally, from GitHub, without asking Mark:
 16. Can I stress-test the proposed day at +30/+60 min and identify the first sacrificial B/A*?
 17. Can I execute the entire current pre-answer veto without a NO, including the ABSOLUTE no-bare-name scan and required 06:00/13:00/18:00 climate snapshot for substantive cluster/day/base presentations?
 18. Did I check current CCI interim status before a major synthesis/integration?
+19. Do I know that the FINAL COMFORT / FOOD / HUMAN-TEXTURE SWEEP is mandatory before final day cards, and can I build it from the actual hotel/day locations with nearby breakfast, coffee, lunch, dinner and memorable local stops rather than a generic city restaurant list?
 
 If a material answer is unclear or contradictory: do not ask Mark to reconstruct it. Read the mapped conditional/history source and reconcile first.
 
