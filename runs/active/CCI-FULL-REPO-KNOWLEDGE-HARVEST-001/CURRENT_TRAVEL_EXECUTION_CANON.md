@@ -296,6 +296,30 @@ Anandamayi Ma / Kankhal: the mahasamadhi shrine at Kankhal-Haridwar is very prob
 - **Source:** commit 1f0eeaed (2026-08-15) megasweep pilot; branch-only VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/central_map_source.jsonl
 - **Note:** PARITY REPAIR (iteration 1). This item-level Mark grade is NOT present in any of the eight always-read central boot files; it lives only in a register the current boot demotes to a CONDITIONAL read. A successor booting the central layer alone would not see it. The trade-off framing is new in this harvest.
 
+## EXE-039
+
+GLOBAL TRANSFER LEDGER — the current safe transfer layer for fixed-core planning. Hard accounting rule: every used edge eventually includes, as applicable, packing/check-out/loading; road/station/airport access; check-in/security/platform wait; scheduled transport; winter/fog/traffic/delay buffer; baggage/exit; onward road to the sleeping base; check-in; food/rest/toilet; and remaining daylight/energy. NO exact calendar may use raw transport time as the whole occupied block. For cluster costing: charge the known INBOUND occupied edge to that cluster; include ALL internal base-change movement; keep the OUTBOUND edge visible and charge it exactly once when the next bridge is built.
+
+- **Class:** `CURRENT_CANON`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/GLOBAL_TRANSFER_LEDGER_2026-08-25.md
+- **Note:** PARITY REPAIR (iteration 2). Not present in any of the eight always-read central boot files.
+
+## EXE-040
+
+KUMAON current safe edges, with their working values and their explicit reliability status: K0 Delhi -> Haidakhan Vishwa Mahadham: about 337 km / 8-9 h raw road per Haidakhandi Samaj material — classified a FULL OCCUPIED TRAVEL DAY. Do NOT substitute an ambiguous Haidakhan pin or an Anandpuri/Ranikhet site. K2 Nainital -> Kainchi: about 17 km / 40-60 min raw; the Naini Lake A+ morning walk combines naturally before movement without a road detour. K3 Kainchi -> Dwarahat via the efficient direct spine Kainchi -> Khairna -> Ranikhet -> Dwarahat: about 71.7 km / about 2h24 raw, winter buffer required; the YSS Dwarahat FULL DAY promise may NOT hide this transfer inside it, and Kakrighat (A*/SKIP_FIRST) may be captured only if the transfer day stays comfortable. K6 hard internal order: HAIDAKHAN -> NAINITAL -> KAINCHI -> DWARAHAT -> DUNAGIRI/KUKUCHINA. Do NOT reverse Dwarahat/Dunagiri ahead of Nainital/Kainchi.
+
+- **Class:** `CURRENT_FACT_WITH_RECHECK_TRIGGER`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/GLOBAL_TRANSFER_LEDGER_2026-08-25.md
+- **Note:** PARITY REPAIR (iteration 2). Not present in any of the eight always-read central boot files.
+
+## EXE-041
+
+Inter-core edge policy: do NOT over-research all possible edges now — close only edges actually required by the fixed-core sequence, and later by surviving optional clusters. Haridwar/Rishikesh is optional and must NOT silently replace Delhi as Kumaon's predecessor during fixed-core costing. Optional worlds enter the ledger only after the six fixed cores are duration-closed and the fixed-core 34-day budget shows remaining capacity — no silent insertion. Controlling files, in order: governance/CURRENT_STATE.md; TRIP_PLANNING_META_CONTROLLER_2026-08-26.md; the transfer ledger; CLUSTER_TOPOLOGY_FEASIBILITY_2026-08-25.md for topology evidence subject to later overrides; then the current cluster execution files.
+
+- **Class:** `CURRENT_CANON`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/GLOBAL_TRANSFER_LEDGER_2026-08-25.md
+- **Note:** PARITY REPAIR (iteration 2). Not present in any of the eight always-read central boot files.
+
 ---
 
 ### Coordinate trust ladder used throughout

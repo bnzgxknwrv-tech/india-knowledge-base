@@ -456,6 +456,38 @@ Mark-facing presentation rules that live only in the conditional decision log: (
 - **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md and a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_PROMOTION_MASTER.md
 - **Note:** PARITY REPAIR (iteration 1). This item-level Mark grade is NOT present in any of the eight always-read central boot files; it lives only in a register the current boot demotes to a CONDITIONAL read. A successor booting the central layer alone would not see it.
 
+## MRK-062
+
+WHY THE PROJECT WORKS THIS WAY — from the living Mark profile, which is the ONE cross-session human-context canon: GitHub is EXTERNAL MEMORY, not the trip. The project outgrew a single chat/model context; multiple INDIA versions, CCI and workers contributed; GitHub exists to preserve truth and make every AI regisseur REPLACEABLE. Governance serves the journey and must NEVER become the project. The stated goal is explicit: INDIA12 starts knowing Mark BETTER than INDIA11; INDIA13 better than INDIA12. Model intelligence is a bonus; GitHub carries continuity.
+
+- **Class:** `CURRENT_CANON`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:governance/MARK_TRAVEL_PREFERENCES_CURRENT.md
+- **Note:** PARITY REPAIR (iteration 2). Not present in any of the eight always-read central boot files.
+
+## MRK-063
+
+MARK IS NOT THE COURIER: when AI systems can read and write GitHub or PR #23, Mark must not manually transport long prompts or results between them. Profile maintenance rule: when Mark expresses a durable cross-cluster preference about travel, spirituality, research, evidence, pace, nature, lodging, transport, food, communication, decisions, workers or AI/GitHub collaboration — reconcile it against the newest Mark statements, update the SAME profile file in the same material turn where practical, EDIT/SUPERSEDE the old wording rather than leaving two current truths, and NEVER create a competing current persona/preferences file. Cluster/site grades and locks stay in their proper decision files; the profile stores the human principles behind them.
+
+- **Class:** `CURRENT_CANON`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:governance/MARK_TRAVEL_PREFERENCES_CURRENT.md
+- **Note:** PARITY REPAIR (iteration 2). Not present in any of the eight always-read central boot files.
+
+## MRK-064
+
+SPIRITUALLY OPEN AND EVIDENCE-CRITICAL — Mark wants spiritual meaning and historical honesty at the same time: traditional/devotional claims may be deeply meaningful WITHOUT modern proof; never upgrade tradition to proven physical history without evidence; distinguish tradition, physical-site identity and independent verification; do NOT dismiss sacred meaning because evidence is limited; and do NOT fake certainty for a cleaner pilgrimage story. Mahavatar Babaji is named as the clearest proof case of this balance.
+
+- **Class:** `CURRENT_CANON`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:governance/MARK_TRAVEL_PREFERENCES_CURRENT.md
+- **Note:** PARITY REPAIR (iteration 2). Not present in any of the eight always-read central boot files.
+
+## MRK-065
+
+Profile precedence, which differs from the boot-file precedence and matters when a preference and a lock appear to conflict: (1) newest explicit Mark statement; (2) current decision/lock files + CURRENT_STATE.md for current site/cluster/hotel truth; (3) the profile for durable preferences; (4) protected canon; (5) old handoffs/ACTIVE_STATE/legacy outputs/git history as provenance only. If old preference evidence matters, RECOVER THE PREFERENCE WITHOUT REVIVING THE STALE ROUTE around it.
+
+- **Class:** `CURRENT_CANON`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:governance/MARK_TRAVEL_PREFERENCES_CURRENT.md
+- **Note:** PARITY REPAIR (iteration 2). Not present in any of the eight always-read central boot files.
+
 ---
 
 ### Two entries a successor should read twice

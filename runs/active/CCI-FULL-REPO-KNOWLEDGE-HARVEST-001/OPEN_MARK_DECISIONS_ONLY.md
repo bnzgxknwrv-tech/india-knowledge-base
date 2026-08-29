@@ -94,6 +94,14 @@ STILL-BLOCKED SOURCES (BRON_GEBLOKKEERD) that would advance person research if t
 - **Class:** `CURRENT_FACT_WITH_RECHECK_TRIGGER`  |  **Integration state:** `ADOPTED`
 - **Source:** commits 76020b90, 0f7a0993, 05cc7daa, 2889174e, 45495942, cd0ff2b1
 
+## OPN-011
+
+OPEN P0 TRANSFER CLOSURES — INDIA work, not Mark decisions, and they block the detailed Kumaon day bundles: K1 true Haidakhan Vishwa Mahadham -> Nainital is P0_TO_RECLOSE / OLD SHORTCUT INVALIDATED — the older working values around 50-65 km / 1h20-2h30 are explicitly NOT calendar-safe for the TRUE Haidakhan Vishwa Mahadham and must not be used; exact winter door-to-door road geometry must be reclosed before the K3 day bundle is finalised, and Sattal A* may be attached to this transfer only if the corrected route/daylight proves it genuinely practical. K4 Dwarahat <-> Hotel Dunagiri Retreat is P0_TO_RECLOSE — the repository contains inconsistent old values (about 17 km versus about 25 km); do NOT pick one by habit; close the exact current route/time, winter morning/evening practicality and driver waiting/repositioning practicality. K5 Hotel Dunagiri Retreat -> Mahavatar Babaji's Cave is P0_TO_RECLOSE_OPERATIONALLY — the direct hotel-based walk is the default and the existing working class is roughly 2-3 km one way / about 1 h climbing before the cave pause, but exact track, time, ascent, legal access, wildlife and winter safety must be closed before the final operating schedule, and unhurried cave time and daylight must stay protected. K7 eastern Kumaon exit is FULL TRAVEL DAY CLASS, to be assigned exactly once, starting from the Dunagiri Retreat / eastern Kumaon end and NOT from Nainital.
+
+- **Class:** `CURRENT_FACT_WITH_RECHECK_TRIGGER`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/GLOBAL_TRANSFER_LEDGER_2026-08-25.md
+- **Note:** PARITY REPAIR (iteration 2). Not present in any of the eight always-read central boot files. These are concrete, actionable, currently-open work items.
+
 ---
 
 ### Guard

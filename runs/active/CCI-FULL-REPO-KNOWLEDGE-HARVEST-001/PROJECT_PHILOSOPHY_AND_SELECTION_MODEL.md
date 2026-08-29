@@ -318,6 +318,14 @@ Nine principal failure modes recorded by the INDIA3 iteration-1 audit, all still
 - **Source:** recovered DELETED india3/migration/ITERATION_1_AUDIT.md
 - **Note:** PARITY REPAIR (iteration 1). This item-level Mark grade is NOT present in any of the eight always-read central boot files; it lives only in a register the current boot demotes to a CONDITIONAL read. A successor booting the central layer alone would not see it. Recovered from a deleted path; absent from central.
 
+## PHI-042
+
+SWEEP ERROR CLASS REGISTER FK-001 to FK-013 — the project's own catalogue of how sweeps have actually failed, each with its incident, its gate and its check. FK-001 expected-outcome filter (rejecting a candidate on a predicted A/B/C rather than a hard exclusion ground). FK-002 ignored saturation status (a self-reported NOT_YET_SATURATED did not block the next step). FK-003 missing coverage plan (whole lenses undiscovered until a late explicit reopening). FK-004 generic-candidate numbering (a permanent number purely for 'one more country/tradition'). FK-005 late identity resolution (063 vs 068; Daijokyo vs Indosan Nippon; Akshayavat 076 vs 051; Bakraur vs Sujata). FK-006 late-discovered accessibility (non-Hindu access at 051; course-only at 074; sublocation status of 076). FK-007 claim-weight/source mismatch (a heavy historical claim resting on a photo caption or an unsourced wiki). FK-008 predictive A/B/C language leaking into text that must be objective. FK-009 implicit PDF permission. FK-010 non-auditable saturation claim (free-text SATURATED=JA instead of an itemised matrix). FK-011 category coverage confused with Mark relevance, including using a religion list as a boundary. FK-012 single-agent discovery accepted as complete without an independent counter-sweep. FK-013 tradition claim confused with historical presence — source provenance proves the CLAIM exists, not that the event is historically established.
+
+- **Class:** `CURRENT_CANON`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:governance/SWEEP_ERROR_CLASSES.md
+- **Note:** PARITY REPAIR (iteration 2). Not present in any of the eight always-read central boot files.
+
 ---
 
 ### Reading order inside this file

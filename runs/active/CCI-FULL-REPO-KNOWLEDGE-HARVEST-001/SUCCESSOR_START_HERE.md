@@ -133,6 +133,14 @@ PARITY WARNING FOR YOUR OWN BOOT: the eight always-read central boot files do NO
 - **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md; a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_PROMOTION_MASTER.md; a37423639f7dabb0dfd55c8656d4689bb8a25351:governance/INDIA_CURRENT_KNOWLEDGE_MAP.md section C
 - **Note:** This is the single most important finding of the successor parity test.
 
+## SSH-010
+
+PARITY WARNING 2: execution-critical transfer data is also outside the eight always-read boot files. Before building ANY day module, calendar or duration you must load `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/GLOBAL_TRANSFER_LEDGER_2026-08-25.md` (current override dated 2026-08-26) and `CLUSTER_TOPOLOGY_FEASIBILITY_2026-08-25.md`. Four Kumaon edges are explicitly marked P0_TO_RECLOSE and one older shortcut is explicitly INVALIDATED — using the old value would produce an unsafe calendar. Atoms EXE-039 to EXE-041 and OPN-011 carry that content directly.
+
+- **Class:** `CURRENT_CANON`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/GLOBAL_TRANSFER_LEDGER_2026-08-25.md
+- **Note:** Second most important finding of the successor parity test.
+
 ---
 
 ### One live defect you will hit on boot
