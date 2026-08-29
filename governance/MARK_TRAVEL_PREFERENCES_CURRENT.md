@@ -1,7 +1,7 @@
 # MARK — LIVING INDIA PROJECT PROFILE / CURRENT HUMAN CONTEXT CANON
 
 Status: HARD LIVING HUMAN CONTEXT CANON
-Updated: 2026-08-27
+Updated: 2026-08-29
 Branch: `agent/india8-cluster-casting`
 Canonical file: `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md`
 
@@ -225,14 +225,27 @@ Do not add walks because Komoot has them. Avoid repetitive/generic/long mediocre
 
 Overnight train target: **1A / First AC**; 2A only after Mark accepts fallback. Optimize usable human time, not published vehicle speed.
 
-# 11. FOOD / HUMAN TEXTURE
+# 11. FOOD / HUMAN TEXTURE / FINAL COMFORT
 
-`HARD_CURRENT`
+`HARD_CURRENT — reinforced by Mark 2026-08-29`
 Small memorable institutions can matter enormously: historic bakeries/patisseries, regional sweets, characterful cafés/tea houses, genuinely good coffee, deliberately good restaurants, old shops/markets/institutions with story, quality transfer-day comfort stops.
 
-Do not dump generic restaurant lists. Prefer a short supported shortlist with why special, what to try, route fit, opening/reservation risk and whether detour is worth it.
+The final comfort layer must answer the practical question from **where Mark actually is** — the chosen hotel/ashram, current day block or real end point — not from a generic city centre. Once route/nights/calendar/day structure are stable, INDIA must research a short supported nearby shortlist as relevant for:
+- early breakfast compatible with the actual start time;
+- genuinely good coffee;
+- lunch near the real midday geography;
+- dinner near the hotel or realistic end-of-day point;
+- historic/cult bakery, pastry or sweet stop;
+- local/regional specialty worth trying;
+- one or two characterful café/tea addresses;
+- strong deliberately chosen restaurant;
+- useful transfer-day comfort stop.
 
-Final comfort sweep is mandatory after route/nights/day structure stabilize.
+Do not dump generic restaurant lists. Prefer a short supported shortlist with why special, what to try/order, real walk/vehicle distance and time from the point Mark is actually at, opening/daypart fit, reservation/access risk, detour cost, route fit and whether the detour is worth it.
+
+Food/coffee/opening facts are volatile: recheck them at the final comfort stage. This layer is meant to make the settled trip nicer and more human; it does not silently create a major route bend or extra hotel night.
+
+Final comfort sweep is mandatory after route/nights/day structure stabilize and before final day cards are considered complete. Detailed executable rule: `governance/FINAL_COMFORT_SWEEP_RULE_2026-08-23.md`.
 
 # 12. COMMUNICATION
 
