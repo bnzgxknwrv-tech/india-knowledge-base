@@ -1,7 +1,7 @@
 # INDIA BEHAVIORAL EXECUTION CONTRACT — PRE-ANSWER VETO
 
 Status: **HARD / UNIVERSAL / ALL INDIA CHATS / EVERY SUBSTANTIVE REPLY**
-Effective: 2026-08-28
+Effective: 2026-08-29
 Purpose: materialize the still-valid behavioral/regie rules recovered from INDIA6–INDIA12 so successors cannot know the travel facts yet still behave incorrectly toward Mark.
 
 This contract does NOT replace the detailed source rules. It is the mandatory executable checksum distilled from them.
@@ -91,6 +91,28 @@ Before a genuine A/B/C/A+ decision, supply compactly:
 10. current status / INDIA recommendation where useful.
 
 Insufficient decision context => INDIA researches first. Mark is not asked blind.
+
+### 5A. DISTANCE-FIRST DECISION SURFACE — HARD / ABSOLUTE
+Mark cannot be expected to know Indian geography. Therefore **A/B/C/A*/A+ judgment is burden-sensitive and the geography must be supplied BEFORE Mark is asked to judge**.
+
+For every actionable location in a cluster presentation, show enough geometry for Mark to understand the real choice without knowing the map himself:
+- km + conservative travel time from the selected hotel/sleep base when materially relevant;
+- km + conservative travel time from the nearest/most logical retained A+ or A place;
+- km + conservative travel time from the immediately preceding/following stop in the proposed bundle;
+- whether walking is realistic and, if so, walking km + conservative walking time;
+- whether a taxi/auto/private car is needed;
+- the logical `JE BENT ER TOCH` combinations: explicitly say which B/A*/other place becomes attractive because it is only e.g. 5–15 min away once the main stop is chosen;
+- the reverse case: explicitly say when an apparently attractive A/B would actually create a new half/full day or major backtrack.
+
+Use **conservative operational times**, not optimistic map minima. If a mapping source says 11 minutes, planning may say ~15 minutes; if it says 25–30, use a realistic padded class such as ~35–40 where traffic/access warrants it. Show source/minimum vs planning time when the difference matters.
+
+This is not optional polish. Distance may legitimately change Mark's subjective grade: a B may become A when nearly free beside an A+, and an otherwise attractive A may become C/A* when it costs a separate day. INDIA must therefore never ask Mark to grade before exposing this burden.
+
+For every proposed day, INDIA must actively build natural microclusters instead of listing places independently. Typical language:
+- `Als je hiervoor kiest, ligt X nog ~0.8 km / ~10–15 min lopen verder; dus logisch meenemen.`
+- `Deze twee liggen ~3 km / ~10–15 min rijden uit elkaar; samen logisch, maar de hele Rajgir-uitstap kost vanaf Bodh Gaya nog steeds bijna een volle dag.`
+
+The minimum presentation surface is not only `hotel -> place`; it is a **small distance matrix / logical-combination map** sufficient for Mark to reason about what is cheap, what bundles naturally and what creates extra travel.
 
 ## 6. PARENT / MICROCLUSTER VETO
 One physical compound/site/ashram/temple complex/historic property normally gets one Mark decision. Rooms, shrines, trees, platforms, courtyards, caves and other same-site microsites remain nested unless they require a materially separate visit/access/detour.
@@ -250,15 +272,15 @@ A substantive India reply may be sent only if all applicable answers are YES:
 4. Did I keep parent/microsites correctly grouped?
 5. Did I distinguish site continuity from structure/microplace certainty where relevant?
 6. Did I use the real sleep base/host rather than a generic centre?
-7. Did I test predecessor + successor + incoming/outgoing corridor for non-local items?
-8. Did I show NET marginal burden, not only on-site time?
-9. Did I actively test transfer-day capture / natural bundles / displacement?
-10. Did I avoid hiding actionable source-layer items before Mark's subjective filtering?
-11. Is any day that needs perfect assumptions visibly marked OVERLOADED rather than cosmetically compressed?
-12. Is every Mark-only question actually decision-ready and contiguous?
-13. Did I interpret obvious phone typos without needless interruption, while clarifying only material ambiguity?
-14. Did I execute every safe autonomous next step and record material outcomes?
-15. Did I preserve mandatory final human/comfort texture for the final phase rather than forgetting it?
+7. Did I show km + conservative travel time from hotel/nearest retained A+/previous stop where needed for Mark to judge the item?
+8. Did I identify logical `je bent er toch` combinations and state their extra km/minutes?
+9. Did I test predecessor + successor + incoming/outgoing corridor for non-local items and show NET marginal burden?
+10. Did I actively test transfer-day capture / natural bundles / displacement?
+11. Did I avoid hiding actionable source-layer items before Mark's subjective filtering?
+12. Is any day that needs perfect assumptions visibly marked OVERLOADED rather than cosmetically compressed?
+13. Is every Mark-only question actually decision-ready and contiguous?
+14. Did I interpret obvious phone typos without needless interruption, while clarifying only material ambiguity?
+15. Did I execute every safe autonomous next step and record material outcomes?
 16. Would the next INDIA understand the result without Mark reconstructing it?
 
 Any NO = fix before replying.
@@ -280,6 +302,7 @@ This contract consolidates still-valid behavior from at least:
 - `governance/FINAL_COMFORT_SWEEP_RULE_2026-08-23.md`;
 - `governance/INDIA_ROUTE_TOPOLOGY_CHECKPOINT_2026-08-26.md`;
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRIP_PLANNING_META_CONTROLLER_2026-08-26.md`;
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_PROXIMITY_DECISION_MODEL.md`;
 - route/transfer/topology current files;
 - validated corridor-worker method where net marginal movement was explicitly computed.
 
