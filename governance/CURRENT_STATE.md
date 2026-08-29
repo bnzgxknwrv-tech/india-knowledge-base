@@ -1,6 +1,6 @@
 # CURRENT STATE — INDIA
 
-state_revision: 2026-08-29_HUMAN_CENTERED_DECISION_SUPPORT_STANDARD
+state_revision: 2026-08-29_FINAL_COMFORT_HANDOFF_HARDENED_CCI18
 branch: `agent/india8-cluster-casting`
 status: FIXED_CORE_DURATION_CLOSURE_ACTIVE
 boot_authority: `governance/INDIA_MASTER_BOOT.md`
@@ -8,14 +8,31 @@ trip_frame: `governance/TRIP_FRAME_HARD.md`
 current_decisions: `governance/CURRENT_DECISIONS_MASTER.md`
 decision_ledger: `governance/DECISION_LEDGER.jsonl`
 planning_service_standard: `governance/INDIA_HUMAN_CENTERED_COMPLEX_TRIP_PLANNING_STANDARD.md`
+final_comfort_rule: `governance/FINAL_COMFORT_SWEEP_RULE_2026-08-23.md`
 
-## LAST MATERIAL EVENT — SERVICE ARCHITECTURE UPGRADE
+## LAST MATERIAL EVENT — FINAL COMFORT / FOOD / HUMAN-TEXTURE HANDOFF HARDENED
+Mark explicitly reminded INDIA that the end-stage comfort layer must survive successor handoff: when the real route/day is known, INDIA must tell him where, near the place he actually is, he can get genuinely good coffee, breakfast, lunch, dinner and other memorable/practical comfort stops.
+
+This was not new from zero: the durable profile already contained FOOD / HUMAN TEXTURE and `FINAL_COMFORT_SWEEP_RULE_2026-08-23.md` already made the final comfort sweep mandatory. The weakness was that the master successor boot only named `FINAL COMFORT SWEEP / DAY CARDS` without carrying the executable detail.
+
+Now hardened:
+- `governance/FINAL_COMFORT_SWEEP_RULE_2026-08-23.md` explicitly anchors research to the actual chosen hotel/ashram and actual day endpoints;
+- mandatory categories now explicitly include early breakfast, genuinely good coffee, lunch, dinner, historic/cult bakery/patisserie, local sweets/regional specialties, characterful café/tea, deliberately good restaurants and transfer-day comfort;
+- each recommendation must show what to order, real distance/time from where Mark actually is, opening/daypart fit, reservation/access risk, detour cost and whether the detour is worth it;
+- no generic top-10 restaurant dumps;
+- volatile food/opening facts are live-rechecked at final comfort stage;
+- this layer enriches a settled trip and may not silently force a route bend, extra hotel night or loss of protected A+/A content;
+- `governance/INDIA_MASTER_BOOT.md` now makes the detailed comfort rule an ALWAYS-READ durable memory file, includes the full checksum in §9 and tests it in the successor boot self-test.
+
+Final day cards are not considered complete until this sweep has been done for every retained base / relevant day corridor.
+
+## SERVICE ARCHITECTURE UPGRADE — STILL CURRENT
 Mark asked INDIA to zoom out and improve its own service for an extremely complex trip rather than merely correcting individual Bodh errors.
 
 New HARD always-read standard:
 `governance/INDIA_HUMAN_CENTERED_COMPLEX_TRIP_PLANNING_STANDARD.md`
 
-It is now mandatory immediate successor memory through `INDIA_MASTER_BOOT.md`.
+It is mandatory immediate successor memory through `INDIA_MASTER_BOOT.md`.
 
 Core service correction:
 - Mark supplies subjective taste/meaning; INDIA supplies the decision environment.
@@ -34,7 +51,7 @@ Core service correction:
 - Track reversibility/booking urgency and whole-trip cumulative burden.
 - Run a pre-mortem before cluster/calendar closure: likely ways this plan could later feel badly planned.
 
-This standard was informed by Tourist Trip Design Problem research, multimodal/spatiotemporal itinerary research, travel-information uncertainty/value research, rolling-wave planning, choice-complexity research and recent human-centered travel decision-support work. External methods inform HOW INDIA serves Mark; they never override Mark-only subjective decisions.
+External methods inform HOW INDIA serves Mark; they never override Mark-only subjective decisions.
 
 ## BODH RECOVERY CONSEQUENCE
 The service upgrade was triggered by the Bodh geometry failure and preserves the corrected current truth:
@@ -60,18 +77,28 @@ Bodh stay rhythm:
 Hotel practical Mahabodhi visitor-approach research: roughly 650–900 m / 9–13 min; use ~10–15 min conservative walk planning.
 
 ## HARD CCI INTERIM-REPORT WATCH — MARK 2026-08-29
-CCI is running the very large full-repository semantic harvest on branch `agent/cci-full-repo-knowledge-harvest` and Mark has explicitly instructed CCI to publish interim reports because the task repeatedly runs through context/token windows.
+CCI is running the full-repository semantic harvest on branch `agent/cci-full-repo-knowledge-harvest`. Mark explicitly instructed CCI to publish interim reports because the task repeatedly runs through context/token windows.
 
 From now on:
 - before any major India synthesis, integration, route/duration conclusion, successor-memory change, or other substantive project conclusion, check the CCI harvest branch for a newer head and new interim/checkpoint/semantic-summary outputs;
-- treat new CCI interim reports as an additional current knowledge source that may surface forgotten preferences, decision WHY, anti-regression rules, route/canon knowledge, or successor-memory gaps;
+- treat new CCI interim reports as additional recovery evidence that may surface forgotten preferences, decision WHY, anti-regression rules, route/canon knowledge or successor-memory gaps;
 - do not wait for CCI COMPLETE if a useful interim report already exists;
 - reconcile useful CCI findings against current Mark authority before adopting them; CCI never changes Mark-only A+/A/A*/B/C or other subjective decisions by itself;
-- an hourly condition-watch also checks this branch, but the in-turn pre-major-work check remains mandatory even if no automation notification appeared.
+- an hourly condition-watch can supplement this, but the in-turn pre-major-work check remains mandatory.
 
-Latest checked CCI head at 2026-08-29 12:28 Europe/Amsterdam:
-`1e7f4a02a064a78526d585447395422d5d06fccc` — `checkpoint 2: ALL_REFS_UNIQUE_BLOBS_INVENTORIED (70 refs, 2002 unique tip blobs, 1439 branch-only)`.
-No newer committed interim report was present at that check.
+Latest checked CCI head at 2026-08-29:
+`96f85ddde4adf0b9b6cfee8aeab71edab8ae8b51` — `checkpoint 18: SUCCESSOR PARITY TEST iteration 9 ... atoms 205 -> 206`.
+
+CCI is no longer merely at blob inventory. Useful interim semantic/reconciliation outputs now exist under `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/`, including:
+- `SUCCESSOR_START_HERE.md`;
+- `MARK_CURRENT_CANON_MASTER.md`;
+- `PROJECT_PHILOSOPHY_AND_SELECTION_MODEL.md`;
+- `CURRENT_TRAVEL_EXECUTION_CANON.md`;
+- `OPEN_MARK_DECISIONS_ONLY.md`;
+- `SUCCESSOR_EQUIVALENCE_ADDENDUM.md`;
+- `KNOWLEDGE_ATOMS.jsonl` and supporting report/manifest files.
+
+Relevant recovered comfort confirmation: CCI's Mark canon explicitly preserves that human texture, local food, workshops/markets and meaningful accommodations can materially improve the journey when naturally integrated. This supports, but does not replace, the current central final-comfort rule.
 
 ## HARD TRIP FRAME
 - Air India outbound: 18 Dec 2026 20:35 AMS -> DEL; arrival 19 Dec 10:15.
@@ -168,10 +195,11 @@ No optional-cluster ballot until all six fixed cores + real mandatory edges prod
 - action-first: if safe relevant work can be done now, do it; do not merely announce future research.
 - distance-first: before asking Mark to grade, show underlinge km/minuten and logical combinations; use conservative operational times.
 - decision-support-first: show marginal burden, displacement, robustness and confidence separately from subjective content value.
+- final-comfort-first-before-day-card: once route/calendar/day structure are stable, build actual-location-based food/coffee/comfort cards before calling final day cards complete.
 
 ## MEMORY / SUCCESSOR STATUS
-Durable top-layer architecture now includes master boot + behavioral contract + Mark profile + location naming/context protocol + **human-centered complex-trip planning standard** + hard trip frame + current decisions master + append-only ledger + current state + recovery deltas + knowledge map.
-A deeper CCI repository-wide semantic harvest is running separately on `agent/cci-full-repo-knowledge-harvest`; use interim reports as soon as they appear, subject to current-authority reconciliation.
+Durable top-layer architecture now includes master boot + behavioral contract + Mark profile + location naming/context protocol + human-centered complex-trip planning standard + **final comfort sweep rule** + hard trip frame + current decisions master + append-only ledger + current state + recovery deltas + knowledge map.
+The CCI repository-wide semantic harvest on `agent/cci-full-repo-knowledge-harvest` has advanced into semantic successor-parity/interim outputs; use the current interim reports subject to authority reconciliation.
 
 ## PR / WORKER RULE
 - PR #23 is relay/provenance, not automatically current truth.
@@ -179,4 +207,4 @@ A deeper CCI repository-wide semantic harvest is running separately on `agent/cc
 - Check PR #23 at start of a major integration/build and immediately before a major central write.
 
 ## ACTIVE METHOD
-`FIXED CORE CONTENT/CANON -> FULL RELEVANT SOURCE VISIBILITY -> EXECUTION GEOMETRY -> MARK PACE/DWELL -> DURATION_CLOSED x6 -> REAL INTER-CORE EDGES -> FIXED_CORE_34_DAY_BUDGET -> OPTIONAL WORLD SURVIVAL -> FINAL TOPOLOGY -> LIVE LOGISTICS -> EXACT CALENDAR -> FINAL COMFORT SWEEP / DAY CARDS`.
+`FIXED CORE CONTENT/CANON -> FULL RELEVANT SOURCE VISIBILITY -> EXECUTION GEOMETRY -> MARK PACE/DWELL -> DURATION_CLOSED x6 -> REAL INTER-CORE EDGES -> FIXED_CORE_34_DAY_BUDGET -> OPTIONAL WORLD SURVIVAL -> FINAL TOPOLOGY -> LIVE LOGISTICS -> EXACT CALENDAR -> FINAL COMFORT / FOOD / HUMAN-TEXTURE SWEEP -> FINAL DAY CARDS`.
