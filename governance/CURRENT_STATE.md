@@ -1,6 +1,6 @@
 # CURRENT STATE — INDIA
 
-state_revision: 2026-08-29_CCI_INTERIM_REPORT_WATCH_HARD
+state_revision: 2026-08-29_BODH_DISTANCE_FIRST_RAJGIR_CORRECTION
 branch: `agent/india8-cluster-casting`
 status: FIXED_CORE_DURATION_CLOSURE_ACTIVE
 boot_authority: `governance/INDIA_MASTER_BOOT.md`
@@ -9,14 +9,32 @@ current_decisions: `governance/CURRENT_DECISIONS_MASTER.md`
 decision_ledger: `governance/DECISION_LEDGER.jsonl`
 
 ## LAST MATERIAL EVENT
-Mark selected **Maya Heritage — kleiner rustig middenklassehotel tegenover Wat Thai Buddhagaya, op praktische loopafstand van de Mahabodhi-tempelkern (Bodh Gaya) [HOTEL LOCKED_BY_MARK]** and then set the Bodh stay rhythm:
-- arrival day must include a real Mahabodhi/Bodhi Tree visit;
-- the next morning returns very early, nominally 05:00, but exact start should account for winter darkness / first useful dawn rather than blindly starting in useless pitch-dark conditions;
+Mark corrected a serious Bodh presentation/canon error:
+- he cannot be expected to know Indian geography;
+- inter-location distance is an essential precondition for meaningful A/B/C/A*/A+ judgment;
+- every presentation must show km + conservative time from hotel, nearest retained A+/A and logical companion stops, and explicitly identify `je bent er toch` combinations;
+- a B may become A in Mark's judgment when nearly free beside an A+; an attractive A may become A*/C when it costs a separate day;
+- **Brahmakund — heilige warmwaterbronnen/badervaring (Rajgir) [A* / ONLY_IF_NATURAL_CORRIDOR_BYCATCH / SKIP_FIRST]** was NOT wanted as a dedicated extra Rajgir day. The earlier simplified `A` lock was wrong because it lost the decisive distance/corridor condition;
+- **Vishwa Shanti Stupa + Rajgir Ropeway — Peace Pagoda + kabelbaan (Rajgir) [B / ONLY_IF_RAJGIR_ALREADY_HAPPENS]** likewise never creates a Rajgir trip by itself.
+
+Current geometry shows Bodh Gaya -> Rajgir about 71.5 km one way; use ~1 h 30 min conservative planning each direction. A dedicated hot-springs + Peace Pagoda excursion would become roughly 7–9 h door-to-door and current predecessor/successor geometry does not naturally pass Rajgir. Therefore no Rajgir day is allocated in the current Bodh footprint.
+
+Canonical corrected artifacts:
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_OPEN_BATCH_MARK_DECISIONS_2026-08-28.md`
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_EXECUTION_GEOMETRY_2026-08-28.md`
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_PROXIMITY_DECISION_MODEL.md`
+- `governance/INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md`
+
+## BODH STAY / HOTEL CURRENT
+Mark selected **Maya Heritage — kleiner rustig middenklassehotel tegenover Wat Thai Buddhagaya, op praktische loopafstand van de Mahabodhi-tempelkern (Bodh Gaya) [HOTEL LOCKED_BY_MARK]**.
+
+Bodh stay rhythm:
+- arrival day must include a real **Mahabodhi Temple Complex + Bodhi Tree — verlichtingstempel + Bodhiboom waar Boeddha ontwaakte (Bodh Gaya) [A+] [UNESCO WH]** visit;
+- the next morning returns very early, nominally 05:00, with winter-darkness/first-light considered operationally;
 - maximum 3 Bodh Gaya overnight stays;
 - if inbound arrival is sufficiently early to create a genuinely usable first local day, preference is 2 overnight stays rather than 3.
 
-Canonical artifact:
-`runs/active/INDIAHOTEL-BODHGAYA-001/MARK_HOTEL_DECISION_2026-08-28.md`
+Hotel practical Mahabodhi visitor-approach research: roughly 650–900 m / 9–13 min; use ~10–15 min conservative walk planning.
 
 ## HARD CCI INTERIM-REPORT WATCH — MARK 2026-08-29
 CCI is running the very large full-repository semantic harvest on branch `agent/cci-full-repo-knowledge-harvest` and Mark has explicitly instructed CCI to publish interim reports because the task repeatedly runs through context/token windows.
@@ -76,36 +94,40 @@ Mandatory sources:
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_EXECUTION_GEOMETRY_2026-08-28.md`
 - `runs/active/INDIAHOTEL-BODHGAYA-001/MARK_HOTEL_DECISION_2026-08-28.md`
 
-Fixed current content includes:
-- Mahabodhi Temple Complex + Bodhi Tree [UNESCO WH] — A+.
-- Sujata Stupa — A+.
-- Dungeshwari/Mahakala Caves — A+.
-- Great Buddha Statue — A.
-- Rajgir Brahmakund — A under Mark's current accepted bathing-access risk.
-- Rajgir Vishwa Shanti Stupa + ropeway — B.
-- Archaeological Museum Bodh Gaya — B.
-- Tergar Monastery — B.
-- Jagannath Temple — B.
-- Gaya Tilkut — A* / SKIP_FIRST.
-- Mangala Gauri Temple — C / DO NOT RE-PRESENT.
-- Nalanda / Patharkatti / Sher Shah Suri / Barabar-Nagarjuni and other current C items remain excluded.
+Fixed current content:
+- **Mahabodhi Temple Complex + Bodhi Tree — verlichtingstempel + Bodhiboom (Bodh Gaya) [A+] [UNESCO WH]**.
+- **Sujata Stupa — melkrijst/Middenweg-plek (Bakraur) [A+]**.
+- **Dungeshwari / Mahakala Caves — ascetengrotten vóór de verlichting (Bodh Gaya outer) [A+]**.
+- **Great Buddha Statue — groot modern zittend Boeddhabeeld (Bodh Gaya) [A]**.
+- **Brahmakund — heilige warmwaterbronnen/badervaring (Rajgir) [A* / ONLY_IF_NATURAL_CORRIDOR_BYCATCH / SKIP_FIRST]**; currently not in plan because current corridor does not naturally pass Rajgir.
+- **Vishwa Shanti Stupa + Rajgir Ropeway — Peace Pagoda + kabelbaan (Rajgir) [B / ONLY_IF_RAJGIR_ALREADY_HAPPENS]**.
+- **Archaeological Museum of Bodh Gaya — originele archeologische resten (Bodh Gaya) [B]**.
+- **Tergar Monastery — Tibetaans/Kagyu-kloostercentrum (Bodh Gaya) [B]**.
+- **Prachin Shree Jagannath Mandir — kleine levende hindoe-tempel bij de Mahabodhi-zone (Bodh Gaya) [B]**.
+- **Gaya Tilkut — winterse lokale sesam-jaggeryzoetigheid (Gaya) [A* / SKIP_FIRST]**.
+- Mangala Gauri Temple C; Nalanda/Patharkatti/Sher Shah Suri/Barabar-Nagarjuni and other current C excluded.
 - Tutla Bhawani waterfall = winter-mismatch provenance, not Mark C.
 
-Hotel / base:
-- Maya Heritage — LOCKED_BY_MARK.
-- practical Mahabodhi walk from research: roughly 650–900 m / 9–13 min; exact route recheck later.
+Current proximity spine:
+- hotel -> A+ sacred core ~0.65–0.9 km / ~10–15 min walk;
+- hotel -> Archaeological Museum B ~0.4–0.6 km / ~5–10 min walk;
+- hotel -> Great Buddha A ~0.7–1.0 km class / ~10–15 min walk;
+- hotel -> Tergar B ~1.7 km / ~20–25 min walk or ~5–10 min auto;
+- hotel/core -> Sujata A+ ~2–3 km class / ~10–15 min vehicle until foot route confirmed;
+- hotel/core -> Dungeshwari A+ ~12 km official locality class / ~30–40 min vehicle;
+- Dungeshwari A+ -> Sujata A+ use ~30–40 min conservative connector pending live route closure.
 
-Current duration closure must use the actual inbound edge and arrival hour before turning Mark's 2-vs-3-night rule into a final night count. It must also preserve the real cost of Rajgir rather than assuming it is on the inbound/outbound corridor.
+Rebuilt duration default: **2 hotel nights if early inbound arrival around ~08:30–09:00 is achieved; maximum 3 per Mark if arrival is later or more sacred-core depth is desired.** The earlier third full local day was inflated by the mistaken mandatory Rajgir assumption.
 
 ## CURRENT EAST-CORRIDOR STRUCTURE
 Strongest provisional fixed-core order remains:
 `AGRA -> [optional PRAYAGRAJ if it survives later fixed-core budget] -> BODH GAYA/GAYA -> VARANASI/SARNATH`.
 
-If Prayagraj is omitted, the current strongest inbound hypothesis is direct overnight rail Agra Fort -> Gaya (current timetable benchmark 18:45 -> 07:50), followed by road transfer to Maya Heritage. This creates an early-morning arrival and therefore strongly tests Mark's 2-night preference.
+If Prayagraj is omitted, current strongest inbound hypothesis is direct overnight rail Agra Fort -> Gaya (current timetable benchmark 18:45 -> 07:50), followed by road transfer to Maya Heritage. This creates an early-morning arrival and strongly supports Mark's 2-night preference.
 
-If Prayagraj survives, it inserts before Bodh Gaya and changes the inbound edge/train/arrival hour; do not pretend the Agra overnight-train arrival is then still the active edge.
+If Prayagraj survives, it inserts before Bodh Gaya and changes the inbound edge/train/arrival hour.
 
-Bodh Gaya -> Varanasi is a fixed eastern-world connection. Current evidence leaves private car and direct daytime rail both viable; no night train is currently preferred or locked for this short edge.
+Bodh Gaya -> Varanasi is a fixed eastern-world connection. Current evidence leaves private car and direct daytime rail both viable; no night train currently preferred/locked for this short edge.
 
 ## OPTIONAL WORLDS — DEFERRED
 No optional-cluster ballot until all six fixed cores + real mandatory edges produce the fixed-core budget.
@@ -121,10 +143,11 @@ No optional-cluster ballot until all six fixed cores + real mandatory edges prod
 - a question/hypothesis is never a Mark decision.
 - only Mark changes A+/A/A*/B/C, personal hotel/base, subjective dwell/pace.
 - action-first: if safe relevant work can be done now, do it; do not merely announce future research.
+- distance-first: before asking Mark to grade, show underlinge km/minuten and logical combinations; use conservative operational times.
 
 ## MEMORY / SUCCESSOR STATUS
-Durable top-layer architecture now exists: master boot + Mark profile + hard trip frame + current decisions master + append-only ledger + current state + recovery deltas + knowledge map + behavioral execution contract.
-A deeper CCI repository-wide semantic harvest is currently running separately on `agent/cci-full-repo-knowledge-harvest`; use its interim reports as soon as they appear, subject to current-authority reconciliation.
+Durable top-layer architecture exists: master boot + Mark profile + hard trip frame + current decisions master + append-only ledger + current state + recovery deltas + knowledge map + behavioral execution contract.
+A deeper CCI repository-wide semantic harvest is running separately on `agent/cci-full-repo-knowledge-harvest`; use interim reports as soon as they appear, subject to current-authority reconciliation.
 
 ## PR / WORKER RULE
 - PR #23 is relay/provenance, not automatically current truth.
