@@ -1,20 +1,31 @@
 central-tree markdown read: COMPLETE (71/71 chunks, 465 .md, 2,996,361 bytes)
 central-tree non-md: characterized (46 jsonl schema+counts, 3 csv read, 14 yaml read, 5 json, 16 py, 3 kml, 6 pdf classified)
-branch-only prose: 677 blobs / 4,712,735 chars
-  - 68 same-path-as-central (older versions): read as unified diffs vs central (18 diff chunks DF_001..DF_018), 0 byte-identical - NOT YET READ
-  - 609 unique-path: 55 covered in BO_001..BO_016, 554 in 93 chunks U_001..U_093
-    * U_001..U_093 ALL READ (COMPLETE). Covers: governance/scripts, india4 Yogananda atlas, knowledge/, persons/,
-      pipeline/** (all protocol+role+template+review+test versions), places/PLACE-0001, sources/, templates/,
-      research/active/BRAJ|KUMAON|VARANASI|VRINDAVAN-*, VRINDAVAN-SUPPLEMENT-001, VRINDAVAN-KUMAON-CORRIDOR-001,
-      runs/active/CCI-LONELYPLANET-GAPCHECK-001, CCI-MASTER-QA-ALL-FINDINGS-001, CCI-REPO-AUDIT-001,
-      INDIA-UNESCO-ACTIVE-AUDIT-001, INDIA10-MULTIAI-TRAVELER-DISCOVERY-001, INDIA10-REGIONAL-DISCOVERY-GAPS-001,
-      INDIA11-UNESCO-CURRENT-CANON-SWEEP-001, INDIA8-* (cluster decisions, retained-route AB geo QA, strategic arch review),
-      INDIA9-* (006 successor boot architecture, 007 category1 semantic read pack VOL_0001..VOL_0007 = all 62 cat-1 blobs),
-      INDIABLAUW/GEEL/GOUD/ORANGE/PAARS/ROOD/ROZE/TURQUOISE/WIT/ZILVER runs,
-      KUMAON-V2-RESWEEP-001 INDIA_SWEEP_B, TOP11-INDIAGEEL-* (Ramakrishna/Ramana/NKB/RamDass/Vivekananda/Hariharananda
-      freezes + fourperson overlap), TOP11-INDIAROOD-* (Babaji/Lahiri/Sri Yukteswar freezes),
-      TOP11-PARALLEL-CHATGPT-SWEEP-001 (all 8 pre-compare freezes + STATUS)
-version-churn analysis: 554 blobs = 494 distinct paths; 469 single-version (3,337,994 B), 25 multi-version paths (85 blobs, 270,688 B)
-NEXT: bodiff/DF_001..DF_018 (598,159 chars unified diff vs frozen central), then 185 branch-only jsonl + 19 other blobs,
-      then deleted-path recovery (699 paths) + commit-message archaeology, then PR #23 re-read, then atoms/manifest/successor layer.
-last updated: checkpoint 6f
+
+branch-only prose: 677 blobs / 4,712,735 chars — COMPLETE
+  - 68 same-path-as-central (older versions): READ as 18 unified-diff chunks DF_001..DF_018 (598,159 chars). COMPLETE.
+    verdict: every same-path branch-only blob is HISTORICAL_INTERMEDIATE_SUPERSEDED; central is the newer/richer side in all 68.
+    spot-checked candidate losses (Bodh Gaya per-number A/B/C, Varanasi VNS-CAND 001-040 grades, Kumaon legacy locks,
+    Mark's "die grot is bijna reden 1" quote) — all still present in central. No same-path loss found.
+  - 609 unique-path: 55 in BO_001..BO_016 + 554 in U_001..U_093 — ALL READ. COMPLETE.
+
+branch-only non-prose: 185 jsonl + 19 other — COMPLETE
+  - all 204 characterized (line counts, key sets, status-value histograms)
+  - high-value data blobs additionally dumped row-level:
+    * KUMAON-COMPLETE-001/GOUD/candidates.jsonl  -> full legacy Kumaon LOCATION_ID 400-443 + 308-310 table with formal_status
+    * VARANASI-COMPLETE-001/GOUD/MASTER_A_B_GEO_REGISTRY_VERIFIED.jsonl -> 30 cross-cluster A/B rows WITH coordinates
+    * BRAJ-COMPLETE-001/GOUD/place_candidates.jsonl -> LOCATION_ID 200-228 + IND-PLACE-000001..000008
+    * VRINDAVAN-KUMAON-CORRIDOR-001/GOUD/central_map_source.jsonl -> 52-row geo map incl. corridor 300-315
+
+deleted-path archaeology: COMPLETE
+  - 699 unique deleted paths in full history
+  - 608 still present on some non-central tip (already covered by the branch-only sweep)
+  - 2 deleted-then-restored and present in frozen central
+  - 89 TRULY GONE from every current tip -> all 89 blobs recovered from history (176,734 bytes) and read
+    (17 are mechanical write-test files; the rest is the whole deleted INDIA3 generation, decisions/MARK_DECISIONS.jsonl,
+     decisions/DECISION_SCHEMA.md, archive/README.md + LEGACY_CONTROL_INDEX.md, india5 task stubs,
+     VARANASI-GEO-DELIVERY-REPAIR-001 run scaffolding incl. 42 KB SOURCES.jsonl + 42 KB GEO_AUDIT.jsonl,
+     and runs/active/INDIA10-BOOKING-SEQUENCE-CLOSURE-001/BOOKING_CONTACT_PACK.md)
+
+NEXT: commit-message archaeology (TASK.md 2.4); PR #23 + issues re-read; KNOWLEDGE_ATOMS.jsonl + COVERAGE_MANIFEST.csv;
+      successor-layer md files; SUCCESSOR PARITY TEST; §10 self-checks; HARVEST_REPORT.md.
+last updated: checkpoint 7
