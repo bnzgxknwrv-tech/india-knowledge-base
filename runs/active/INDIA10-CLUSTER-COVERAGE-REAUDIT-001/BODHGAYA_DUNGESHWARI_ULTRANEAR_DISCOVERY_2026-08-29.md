@@ -2,7 +2,7 @@
 
 Date: 2026-08-29
 Branch: `agent/india8-cluster-casting`
-Status: **RESEARCH ONLY / OPEN MARK DECISION / NO GRADE CHANGED**
+Status: **PARTIALLY DECIDED — STUPA RIDGE A / SAME-HILL ONLY / ZERO ROUTE WEIGHT**
 Purpose: identify genuinely worthwhile content in the very close vicinity of Dungeshwari / Mahakala Caves so the A+ cave visit does not become an isolated out-and-back.
 
 ## HARD GEO RULE
@@ -32,14 +32,22 @@ Important: these are horizontal/straight-line comparisons from surveyed coordina
 
 ### Operational interpretation
 - no road detour;
-- likely strongest ultra-near add-on found;
+- same-hill extension only;
 - exact walk line/time remains `ROUTING_ACCESS_UNRESOLVED` and must be field/live-checked before a day card;
 - planning estimate only, not frozen: short partial ridge extension may be roughly +45–75 min; longer ridge exploration could be +75–120 min depending on terrain, guide and how many ruins Mark wants to reach;
 - strong scenic/spiritual payoff because it extends the cave visit vertically rather than adding another drive.
 
-### Decision status
-`OPEN_MARK_DECISION`.
-INDIA may recommend this as a serious same-hill add-on but may NOT assign A/B/A* itself.
+### MARK DECISION — 2026-08-29
+**GRADE = A.**
+
+Hard condition from Mark:
+- this A may **NOT add any independent route/day/night/duration weight** to Dungeshwari;
+- it is `ONLY_WHILE_ALREADY_AT_DUNGESHWARI`;
+- operational meaning: when Mark is already visiting the A+ ascetic caves, wear walking shoes and **certainly try to walk upward toward the ancient stupa ridge if terrain/access on the day allows**;
+- if the ridge walk is unsafe, inaccessible, unclear or costs materially more than the same-hill visit can absorb, it is simply skipped; it never creates a separate excursion or additional hotel night.
+
+Decision shorthand:
+`A / SAME-HILL ADD-ON / ZERO EXTRA ROUTE WEIGHT / TRY ON SITE / WALKING SHOES`.
 
 ## FINDING 2 — SITAVANA / COOL GROVE + SHANKARAKUTA STUPA TRADITION NEAR THE CAVE PARKING
 **Working label:** Sitavana / Cool Grove — Tibetan/Vajrayana charnel-ground tradition associated with Padmasambhava, with remains identified by pilgrimage sources as the Shankarakuta Stupa.
@@ -51,7 +59,7 @@ Status:
 - `EXACT MODERN PHYSICAL IDENTIFICATION = PROVISIONAL`;
 - `GEO_VERIFIED_FOR_DECISION = NO` for exact route/burden use.
 
-Consequence: potentially a very interesting ultra-near B-like candidate, especially for Tibetan/Vajrayana texture, but do NOT present it to Mark as a confirmed easy add-on until exact site identity/access is cross-checked.
+Consequence: potentially interesting but do NOT present it as a confirmed easy add-on until exact site identity/access is cross-checked.
 
 ## FINDING 3 — SUJATA RETURN-LINE: GOOD STORY, VEHICLE GEOMETRY MUST NOT BE OVERSTATED
 The narrative line remains excellent:
@@ -60,19 +68,20 @@ ascetic cave -> Sujata milk-rice/Middle Way site -> Mahabodhi enlightenment core
 Recent support:
 - January 2026 Gyan Yatra publicly followed an ~8 km pilgrimage from Dungeshwari Hills to Mahabodhi via Sujata Garh.
 - Lonely Planet describes motorbike/village-trail return via Sujata.
+- Bihar Tourism confirms local auto-rickshaw/cycle-rickshaw transport for Sujata/Bodh Gaya.
+- multiple visitor/pilgrimage sources describe Bodh Gaya <-> Sujata Stupa as a walk across the river bridge, roughly 20 minutes from the Bodh Gaya side; recent reviews also mention crossing the bridge or taking an e-rickshaw.
 
-But road geometry is not safely summarized as “zero detour by car”. Historical reporting documented a circuitous 25 km motor-road problem between the cave and Sujata in 2017, and a 2026 local connectivity proposal still calls for improving the corridor between Mahabodhi, Sujata village and Dungeshwari Hills.
-
-Therefore:
+Updated operational consequence:
 - `NARRATIVE / FOOT-PILGRIMAGE LINE = STRONGLY SUPPORTED`;
-- `CURRENT PRIVATE-CAR NO-DETOUR CLAIM = NOT YET VERIFIED`;
-- exact 2026/27 motor route must be live-routed before day-card closure.
+- `SUJATA -> BODH GAYA WEST-BANK WALK VIA BRIDGE = SUPPORTED AS A REAL PEDESTRIAN OPTION`;
+- exact bridge approach/path and winter 2026/27 condition remain `LIVE_RECHECK_LATER` before final day card;
+- after crossing to the populated Bodh Gaya side, **auto/e-rickshaw is more realistic than relying on a conventional taxi standing in a small hamlet**; a private driver can also be instructed to meet at a verified west-bank road/bridge pickup point once exact routing is frozen;
+- do not promise taxi availability specifically in Manakosi/Bura/Rahul Nagar without live evidence;
+- exact private-car cave -> Sujata road remains separately live-routed before final day-card closure.
 
 ## RESEARCH CONCLUSION
-The statement “there is geographically nothing hidden right beside the cave” is too strong.
+The ancient stupa ridge is now **A / same-hill only / zero extra route weight** by explicit Mark decision.
 
-The strongest missed ultra-near candidate is the **ancient stupa ridge immediately above the caves**. It is physically on the same hill, archaeologically documented with exact survey coordinates and materially enriches the visit without another road excursion.
+The Sitavana/Cool Grove lead remains geo-provisional.
 
-The **Sitavana/Cool Grove** lead is also interesting but remains geo-provisional and must not yet drive routing.
-
-No Mark grade changed in this file.
+The Sujata crossing is sufficiently supported to retain a real **walk-across-the-river-bridge** scenario, with auto/e-rickshaw or prearranged driver pickup on the Bodh Gaya side as the preferred practical transport concept; exact pickup point is to be verified only when the final day route is frozen.
