@@ -512,6 +512,22 @@ Mark has an explicit personal wish to visit Sri Aurobindo (Puducherry ashram), r
 - **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:decisions/ARUNACHALA_TIRUVANNAMALAI_A_ANCHOR_2026-08-18.md
 - **Note:** PARITY REPAIR (iteration 4). A concrete Mark personal motivation invisible in the whole successor layer before this repair; should be surfaced when the Tiruvannamalai/south-gateway open set is next shown to Mark.
 
+## MRK-069
+
+HARD_MARK_TRAVEL_RULE (2026-08-20): any physically resolvable location in India where Anandamayi Ma and Paramahansa Yogananda are documented together in a PHOTOGRAPH is a mandatory travel-override candidate. If such a photo-location lies inside a cluster Mark ultimately includes in the trip, it MUST be surfaced explicitly to Mark and treated as MUST_VISIT_WITHIN_INCLUDED_CLUSTER, unless physical access is impossible or the historical location cannot be resolved beyond an unusable broad region. This OVERRIDES the general limited/non-exhaustive Anandamayi Ma research scope (`MRK-031`) for joint-photo locations specifically. It does NOT by itself force an otherwise-excluded macro-region into the itinerary — only: if the relevant cluster is included, the photo-location becomes mandatory to surface and presumptively visit.
+
+- **Class:** `CURRENT_LOCK`  |  **Integration state:** `REVIEWED_NOT_ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:governance/ANANDAMAYI_YOGANANDA_PHOTO_OVERRIDE_2026-08-20.md
+- **Note:** PARITY REPAIR (iteration 5). A concrete rule with real route consequences, absent from the boot layer and from this harvest before this repair.
+
+## MRK-070
+
+MARK'S FOOD/COMFORT SENSITIVITY: Mark is especially sensitive to old/historic pastry shops and bakeries, local sweet specialties, characterful pastry/cafe stops, genuinely good coffee, and restaurants strong enough to justify a deliberate choice rather than random convenience. A tiny exceptional pastry shop may matter more to Mark than a generic major attraction. This is governed by a MANDATORY, easily-forgotten FINAL COMFORT SWEEP phase, deferred until clusters/sleep bases/route order/nights are stable, run separately per retained sleep base / day corridor, using forum/community consensus and long-running local reputation rather than generic 'top restaurants' lists. Controlling phase order: HEAVY A CLUSTERS -> ROUTE/NIGHTS -> CALENDAR/CLOSURES -> HOTELS/BASES -> DAY STRUCTURE -> FINAL COMFORT SWEEP -> FINAL DAY CARDS. A route is NOT final-travel-guide-ready until this sweep is done for every retained base.
+
+- **Class:** `CURRENT_PREFERENCE`  |  **Integration state:** `REVIEWED_NOT_ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:governance/FINAL_COMFORT_SWEEP_RULE_2026-08-23.md
+- **Note:** PARITY REPAIR (iteration 5). A distinctive personal Mark taste plus a mandatory late-stage planning phase, absent from the boot layer and this harvest before this repair.
+
 ---
 
 ### Two entries a successor should read twice

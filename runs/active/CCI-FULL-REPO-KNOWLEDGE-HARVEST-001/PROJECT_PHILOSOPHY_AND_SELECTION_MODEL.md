@@ -334,6 +334,14 @@ REVERSE DISCOVERY / REOPEN RULE (ACTIVE GOVERNANCE, Mark, 2026-08-19): a cluster
 - **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:decisions/REVERSE_DISCOVERY_REOPEN_RULE_2026-08-19.md
 - **Note:** PARITY REPAIR (iteration 4). Durable discovery-methodology rule distinct from `PHI-014` and `PHI-021`, not present in the eight always-read central boot files or the prior atom set.
 
+## PHI-044
+
+LONELY PLANET LAYER (ACTIVE, 2026-08-22): a third independent discovery layer alongside the PERSON layer (Top-X people/AOAY events) and the SPIRITUAL/BUILDING/ANCHOR layer (temples, samadhis, shrines, sacred complexes), covering major NON-spiritual travel magnets: outstanding natural landscapes/waterfalls/caves/lakes/rivers/canyons/viewpoints/wildlife/geology; nationally iconic monuments/museums/historic districts/palaces/forts; genuine superlatives; exceptional food/cafe/bakery/confectionery institutions with real regional or national reputation. Threshold: must normally be one of the strongest attractions in the wider region — not merely 'nice nearby'; prefer fewer high-signal findings over many ordinary suggestions. MARK PREFERENCES SPECIFIC TO THIS LAYER, otherwise unrecorded anywhere: a strong preference for nature and visually exceptional places, with water/waterfalls/caves/mountains/exceptionally clear or blue water and unusual landscapes as high-interest. This layer has no spirituality requirement. Route interaction: apply only to locked/likely A clusters, to B/reserve clusters just enough to test whether a magnet changes their cluster weight, and to direct transfer corridors between likely A clusters — never an exhaustive India-wide search before the route skeleton exists. A major finding may strengthen a marginal cluster B->A, justify a stopover, add time to an already-selected cluster, or (rarely) reopen an otherwise-dropped region if genuinely exceptional.
+
+- **Class:** `CURRENT_CANON`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:governance/LONELY_PLANET_LAYER_RULE_2026-08-22.md
+- **Note:** PARITY REPAIR (iteration 5). This is the governing definition behind every 'strict LP layer' file already atomized elsewhere in this harvest, but the rule itself and Mark's nature/water preference existed nowhere in the successor layer before this repair. Distinct from `PHI-006`'s discovery-priority scheme.
+
 ---
 
 ### Reading order inside this file
