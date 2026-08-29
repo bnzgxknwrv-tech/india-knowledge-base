@@ -67,12 +67,38 @@ Consequence:
 - before reusing pairwise distance, walking, `je bent er toch`, microcluster or exact day-routing claims, reverify the relevant retained points at fit-for-purpose scale;
 - do not waste time demanding an exact hotel door if the correct small property/building can be independently located; do verify access separately if lanes/ghat access materially alter walking/vehicle timing.
 
+### TIRUVANNAMALAI / ARUNACHALA CURRENT DURATION GEOMETRY
+Status: **PASS FOR FIXED-CORE DURATION DECISION / FINAL ROUTING-KML PARTIAL**.
+
+Canonical decision-scale registry/surface:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_DURATION_DECISION_SURFACE_2026-08-29.md`
+
+INDIA13 re-audited the load-bearing fixed content before exposing a night-count choice.
+
+Passed for the current duration decision:
+- Sri Ramanasramam exact current institution/address/business identity; official ashram geography gives ~2 km to the Main Temple and ~3 km to rail/bus stations;
+- Arunachaleswarar / Annamalaiyar Temple exact current HR&CE + map/business identity;
+- Skandashram + Virupaksha Cave exact maintained Ramana hill sites and operational route identity through Sri Ramanasramam/eGuide; ~1.5 km climb class and current cave-access window are sufficient for module-scale burden;
+- Gurumurtam exact historic physical site/current entity sufficient for town-fringe/local-module classification; conflicting coarse historical distance wording is not converted into false exact road km;
+- Pavalakunru / Pavazhakundru exact historic hill/temple place/current entity sufficient for the early-Ramana local module;
+- Giripradakshina / Girivalam exact official 14 km / 8.5 mi distributed circuit length; no arbitrary centroid is used as a route endpoint.
+
+Important limitations that remain quarantined from exact routing:
+- older OSM/secondary Virupaksha coordinate renderings conflict with the current public-map point; final KML point must be rechecked even though the physical cave identity and route are secure enough for the duration decision;
+- Gurumurtam exact pairwise road km/minutes remain final-routing work because historical references vary by reference point;
+- Pavalakunru exact approach/stair/vehicle endpoint remains final-routing work;
+- Girivalam exact chosen start/end access is intentionally deferred until final day design.
+
+Consequence:
+- the 4/5/6-night Tiruvannamalai duration scenarios may be presented to Mark;
+- no scenario depends on a guessed pin or a claimed five-minute shortcut;
+- **do not** treat this duration-scale PASS as blanket authorization for final KML, exact hotel-door routing or all optional outer Tiruvannamalai candidates.
+
 ### OTHER FIXED WORLDS
-Current status at this gate's creation:
+Current status at this gate's creation / latest re-audit state:
 - KUMAON: **AUDIT REQUIRED BEFORE NEXT NEW/REUSED DECISION-RELEVANT GEOMETRY CLAIM** unless the exact involved points are already independently proven in a current verified registry/source.
 - DELHI: **AUDIT REQUIRED BEFORE NEXT NEW/REUSED DECISION-RELEVANT GEOMETRY CLAIM**.
 - AGRA / TAJ: **AUDIT REQUIRED BEFORE NEXT NEW/REUSED DECISION-RELEVANT GEOMETRY CLAIM**.
-- TIRUVANNAMALAI / ARUNACHALA: **AUDIT REQUIRED BEFORE NEXT NEW/REUSED DECISION-RELEVANT GEOMETRY CLAIM**.
 
 This is deliberately a gate, not a claim that those old locations are wrong. It means old coordinates are not grandfathered into decision evidence merely because they exist in Git history.
 
