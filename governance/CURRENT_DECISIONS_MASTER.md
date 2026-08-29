@@ -1,7 +1,7 @@
 # INDIA CURRENT DECISIONS MASTER — MATERIALIZED CURRENT TRUTH
 
 Status: **CURRENT / ALWAYS READ / DERIVED VIEW**
-Updated: 2026-08-28
+Updated: 2026-08-29
 Branch: `agent/india8-cluster-casting`
 Event/provenance layer: `governance/DECISION_LEDGER.jsonl`
 Human/WHY layer: `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md`
@@ -27,6 +27,7 @@ Purpose: answer `AL BESLIST?` quickly and preserve operative WHAT without recons
 - Delhi bounded/quiet; Old Delhi not mandatory merely because famous;
 - relaxed != empty: normally 2, preferably 3 meaningful local-day blocks;
 - meaningful/pleasant walking and walkable sacred-core bases matter;
+- Mark cannot be expected to know Indian geography: **before subjective grading, show km + conservative time from hotel, nearest retained A+/A and logical companion stops; explicitly identify `je bent er toch` bundles and full-day detours.** Proximity may materially change Mark's grade.
 - Mark decides content; INDIA does research/GitHub/logistics and continues automatically until a genuine Mark-only choice.
 
 ## 3. GRADE SEMANTICS
@@ -74,12 +75,12 @@ Method:
 - Bhrigu Karyalaya / Bhadury Sadan, Ramapura-Luxa — A+ LOCKED_BY_MARK because of Swami Kriyananda / Book of Bhrigu motivation; never on Manikarnika day.
 - Delhi Bhrigu backup only if Varanasi fails.
 
-## 8. BODH GAYA / GAYA — BALLOT CLOSED, EXECUTION GEOMETRY ACTIVE
+## 8. BODH GAYA / GAYA — BALLOT CLOSED, EXECUTION GEOMETRY REBUILT
 Canonical decision artifact:
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_OPEN_BATCH_MARK_DECISIONS_2026-08-28.md`
 
 Already decided core:
-- Mahabodhi Temple Complex [UNESCO WH] — A+.
+- Mahabodhi Temple Complex + Bodhi Tree [UNESCO WH] — A+.
 - Sujata Stupa — A+.
 - Dungeshwari/Mahakala Caves — A+.
 - Great Buddha Statue — A.
@@ -90,19 +91,30 @@ Already decided core:
 - Barabar/Nagarjuni Caves — C / DO NOT RE-PRESENT.
 - other current C items remain protected in the Bodh prep packet.
 
-Former six-item OPEN batch is CLOSED:
-1. **Nalanda Mahavihara [UNESCO WH] — C.**
-2. **Rajgir Brahmakund — A.** Mark explicitly chooses to go and knowingly accepts the residual risk that local/religious access might still prevent him from bathing. Do not make the grade conditional and do not ask again because of that access risk.
-3. **Rajgir Vishwa Shanti Stupa + ropeway — B.** Mark: sounds fun if already nearby, especially for overview/view; not an A magnet and not a reason by itself to create a Rajgir trip.
+Former six-item OPEN batch is CLOSED, with 2026-08-29 correction:
+1. **Nalanda Mahavihara — boeddhistische universiteitsruïnes (Nalanda) [C] [UNESCO WH].**
+2. **Brahmakund — heilige warmwaterbronnen/badervaring (Rajgir) [A* / ONLY_IF_NATURAL_CORRIDOR_BYCATCH / SKIP_FIRST].** Newest explicit Mark correction: he does NOT want a dedicated Rajgir excursion; only if the real route naturally passes it. This supersedes the over-simplified earlier `A` lock. Current expected corridor does not naturally pass Rajgir, so it is not in the working Bodh footprint.
+3. **Vishwa Shanti Stupa + Rajgir Ropeway — Peace Pagoda + kabelbaan (Rajgir) [B / ONLY_IF_RAJGIR_ALREADY_HAPPENS].** Sounds fun if already there, but never creates the Rajgir trip. Roughly 3–5 km / ~10–15 min local drive from the hot-spring zone if Rajgir ever survives for another reason.
 4. **Patharkatti/Pattharkatti black-stone craft village — C.**
 5. **Sher Shah Suri Tomb, Sasaram — C.**
 6. **Gaya Tilkut winter food/human micro-experience — A*.** Mark wants to look/taste if naturally nearby; no independent detour/day/night/base.
 
 Tutla Bhawani = winter-mismatch provenance, not Mark C.
 
-Execution-geometry rule for this cluster: every non-local active item must be tested not only from the Bodh Gaya base but against the actual inbound and outbound travel spine. Current topology skeleton is `... -> AGRA -> optional PRAYAGRAJ or direct AGRA->GAYA -> BODH GAYA/GAYA -> VARANASI/SARNATH -> SOUTH`. For Rajgir/Brahmakund specifically, quantify whether it can be captured on an incoming/outgoing transfer and compare that with a dedicated out-and-back; do not assume "70 km from hotel" equals "separate day" until corridor geometry is tested.
+Selected base: **Maya Heritage — LOCKED_BY_MARK**. Practical walk to the usable Mahabodhi visitor approach: roughly 650–900 m / use ~10–15 min walk planning.
 
-Next action is NOT another content ballot: build geographic 2–3-block day modules, calculate honest movement/dwell including predecessor/successor corridor deltas, ask only genuine subjective pace correction, close Bodh duration, then continue to Tiruvannamalai.
+Distance-first current geometry:
+- hotel -> Mahabodhi/Bodhi Tree A+: ~0.65–0.9 km / ~10–15 min walk;
+- hotel -> Archaeological Museum B: ~0.4–0.6 km / ~5–10 min walk;
+- hotel -> Great Buddha A: ~0.7–1.0 km class / ~10–15 min walk;
+- hotel -> Tergar B: ~1.7 km / ~20–25 min walk or ~5–10 min auto;
+- hotel/core -> Sujata Stupa A+: ~2–3 km class, use ~10–15 min vehicle until foot/river crossing is live-confirmed;
+- hotel/core -> Dungeshwari/Mahakala Caves A+: official ~12 km from Bodh Gaya; use ~30–40 min vehicle planning;
+- Bodh Gaya -> Rajgir: ~71.5 km one way; use ~1 h 30 min planning each way. Dedicated Rajgir combo would become roughly 7–9 h door-to-door and is therefore excluded under Mark's current corridor-only condition.
+
+Current logical combination: Dungeshwari A+ -> Sujata A+ -> Mahabodhi/Bodhi Tree A+ as one physical/narrative Buddha story arc; local museum/statue/Tergar are cheap sacred-core additions based on actual proximity.
+
+Duration consequence: removing the mistaken mandatory Rajgir day makes **2 Bodh Gaya hotel nights the evidence-based default if inbound arrival is early (~08:30–09:00 hotel class)**; max 3 nights per Mark if arrival is later or he wants more unstructured sacred-core time.
 
 ## 9. TIRUVANNAMALAI / ARUNACHALA — PREPARED, NOT DURATION_CLOSED
 - Arunachala/Ramana sacred world — A+ parent.
@@ -145,6 +157,7 @@ Hard excluded unless explicit reopen:
 - Kumaon internal order: Haidakhan -> Nainital -> Kainchi -> Dwarahat -> Dunagiri/Kukuchina;
 - Bodh Gaya/Gaya + Varanasi form a natural eastern pair;
 - every non-local A/A*/B must be checked against predecessor/current/successor corridor geometry and NET marginal detour before being classified as a separate excursion;
+- every candidate presentation must show enough inter-location km/minutes for Mark to see natural combinations before grading;
 - final south-gateway/live transport facts rechecked at topology/calendar stage.
 
 ## 15. LIVE FACTS — RECHECK WHEN MATERIAL
