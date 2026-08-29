@@ -1,7 +1,7 @@
 # INDIA CURRENT KNOWLEDGE MAP — WAT MOET JE LEZEN / WAT IS OUD
 
 Status: **CURRENT LIVING SOURCE MAP — V3 / DECISION_LEDGER_BACKFILL_COMPLETE**
-Updated: 2026-08-28
+Updated: 2026-08-29
 Branch: `agent/india8-cluster-casting`
 Boot owner: `governance/INDIA_MASTER_BOOT.md`
 Decision-ledger migration: **DECISION_LEDGER_BACKFILL_COMPLETE**
@@ -153,6 +153,8 @@ Hard recognition:
 ### Braj
 Load relevant current/protected site decisions + regional/traveler packets then.
 Hard: Braj is NOT dropped and NOT mandatory; cluster inclusion is deferred/unresolved.
+**MANDATORY Neem Karoli Baba anti-forget read when Braj/Vrindavan is touched:** `decisions/NEEM_KAROLI_VRINDAVAN_RED_HOUSE_ROUTE_RULE_2026-08-29.md`.
+Recognition checksum: **Neeb/Neem Karoli Baba Ashram + Mahasamadhi Mandir — active samadhi shrine in Krishna's pilgrimage city (Vrindavan, Uttar Pradesh) = protected A.** Do not silently downgrade or omit it; the A does not by itself force the optional Braj world to survive.
 
 ### Haridwar/Kankhal/Rishikesh
 Load current site decisions + regional freeze + traveler layer then.
@@ -161,6 +163,8 @@ Parmarth Niketan is experience only unless Mark explicitly chooses a sleep base.
 ### Prayagraj
 Load current decisions + regional/traveler layer then.
 Live Magh Mela/date logistics later.
+**MANDATORY Neem Karoli Baba anti-forget read when Prayagraj is touched:** `decisions/NEEM_KAROLI_VRINDAVAN_RED_HOUSE_ROUTE_RULE_2026-08-29.md`.
+Recognition checksum: **Red House / 4 Church Lane — historic winter home of Neem Karoli Baba with documented devotional puja/darshan shrine room (Prayagraj, Uttar Pradesh).** Mark wants it only if Prayagraj already happens and access is confirmed; zero independent route/day/night weight; no grade inferred; no map pin or exact distance until the new GEO gate verifies the building coordinate.
 
 # K. ROUTE / TRANSFER — CONDITIONAL
 Use only when route/global-edge work is active:
@@ -189,7 +193,8 @@ Use exact person/research dossiers when physical identity/story depends on them.
 Apply as needed:
 - `decisions/BABAJI_MYTHIC_FIGURE_EVIDENCE_RULE_2026-08-19.md` for Mahavatar Babaji claim handling;
 - `decisions/TOP11_SWEEP_DEPTH_BY_PERSON_2026-08-18.md` when person-research completeness is questioned;
-- `decisions/REVERSE_DISCOVERY_REOPEN_RULE_2026-08-19.md` for additive discoveries without silent grade mutation.
+- `decisions/REVERSE_DISCOVERY_REOPEN_RULE_2026-08-19.md` for additive discoveries without silent grade mutation;
+- `decisions/NEEM_KAROLI_VRINDAVAN_RED_HOUSE_ROUTE_RULE_2026-08-29.md` whenever Neem Karoli Baba route capture around Vrindavan or Prayagraj is evaluated.
 
 Their durable always-needed effects are already materialized in `MARK_TRAVEL_PREFERENCES_CURRENT.md`, `DECISION_LEDGER.jsonl` and `CURRENT_DECISIONS_MASTER.md`.
 
