@@ -110,6 +110,14 @@ OPEN — NOT YET SURFACED TO MARK, raised by this harvest: Haridwar's Ardh Kumbh
 - **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CLUSTER_TOPOLOGY_QUANTIFIED_DELTA_2026-08-26.md section 1
 - **Note:** PARITY REPAIR (iteration 3). The single most concrete new finding of parity iteration 3: a specific mega-event date INSIDE the trip window, absent from every boot-reachable file before this repair.
 
+## OPN-013
+
+OPEN — NOT YET SURFACED TO MARK, raised by this harvest (random-sample self-check finding): official YSS Dwarahat winter programme material (as captured 2026-08-25) lists a Christmas Long Meditation on 20 December 2026, 09:00-17:00 at the Dwarahat ashram — explicitly flagged in-source as 'a particularly high-value target if route dates fit naturally'. This date sits right near the start of the trip window (arrival 19 Dec 2026 per `MRK-003`) and inside the DURATION_CLOSED Kumaon footprint (`MRK-005`). It is a discovery signal only, not a Mark decision and not a calendar lock: whether the internal Kumaon sequencing (`EXE-040`) can actually place the YSS Dwarahat full day (`MRK-052`) on or near 20 Dec without breaking the fixed internal order is unclosed. Must be surfaced once exact Kumaon dates are closed, since missing it silently would waste a meaningful, already-known opportunity. Recheck against the live 2026 winter programme before relying on this date.
+
+- **Class:** `CURRENT_FACT_WITH_RECHECK_TRIGGER`  |  **Integration state:** `RECEIVED_UNREVIEWED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DWARAHAT_YSS_FULL_DAY_PLAN_2026-08-25.md
+- **Note:** PARITY REPAIR (iteration 8 / random-sample self-check). A second concrete date-linked opportunity inside/near the trip window, alongside `OPN-012`'s Kumbh Mela finding.
+
 ---
 
 ### Guard

@@ -352,6 +352,14 @@ Varanasi day-sequencing preferences (2026-08-27, current): Day 1 in Varanasi sho
 - **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/VARANASI_HISTORICAL_PACE_PREFERENCE_RECOVERY_2026-08-27.md
 - **Note:** PARITY REPAIR (iteration 7). A small day-1/emotional-sequencing preference not covered by MRK-029 or EXE-019.
 
+## EXE-046
+
+SARNATH visit guidance and UNESCO precision (current). The inscribed UNESCO World Heritage property 'Ancient Buddhist Site of Sarnath' (property 927, inscribed 2026) is a SERIAL property with exactly two components: Chaukhandi Stupa, and Archaeological Remains of Sarnath. Do NOT imply every modern temple/museum in the wider Sarnath locality is itself an inscribed component; the Archaeological Museum and modern Mulagandha Kuti Vihara are included for interpretation/experience value, not as UNESCO components. Guided order from the Sahi River View / Assi Ghat base: S1 Chaukhandi Stupa (~20-30 min); S2 Archaeological Remains of Sarnath — the real core: Dhamek Stupa, Dharmarajika Stupa remains, Ashoka pillar remains, monastic ruins, ancient Mulagandhakuti remains, Deer Park/Isipatana context (~75-90 min unhurried); S3 Archaeological Museum — Ashokan Lion Capital, Sarnath-school sculpture, Friday closure per existing evidence (~45-60 min); S4 Mulagandha Kuti Vihara, the modern living temple, distinct from the ancient ruin of a similar name (~20-30 min); S5 Shreyansanath Jain Tirth/Simhapuri A, geographically compatible add, conceptually separate from the Buddhist UNESCO property (~30-45 min). Realistic total footprint: ~30-45 min transfer each way plus site time = roughly 4-5 h — a generous half-day, not a one-hour stop and not a distant full day.
+
+- **Class:** `CURRENT_FACT_WITH_RECHECK_TRIGGER`  |  **Integration state:** `REVIEWED_NOT_ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/SARNATH_VISIT_GUIDANCE_AND_UNESCO_LABEL_2026-08-27.md
+- **Note:** PARITY REPAIR (iteration 9 / random-sample self-check). `MRK-057` names the Sarnath A+ bundle but not this guided sub-order, the UNESCO-component precision, or the realistic footprint.
+
 ---
 
 ### Coordinate trust ladder used throughout
