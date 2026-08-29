@@ -528,6 +528,14 @@ MARK'S FOOD/COMFORT SENSITIVITY: Mark is especially sensitive to old/historic pa
 - **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:governance/FINAL_COMFORT_SWEEP_RULE_2026-08-23.md
 - **Note:** PARITY REPAIR (iteration 5). A distinctive personal Mark taste plus a mandatory late-stage planning phase, absent from the boot layer and this harvest before this repair.
 
+## MRK-071
+
+Mark rule (2026-08-16), canonical: whenever INDIA gives Mark text that must be pasted into another AI/chat/session, the full copyable instruction must always be given in ONE single fenced code block (monospace) so the interface shows a copy button; no necessary instruction text may sit outside that block; several separate instructions each get their own block; the text must be self-contained; this applies even to one-line start questions and relay instructions. Purpose: minimal manual handling on iPhone and zero doubt about what to copy. Separately: for external independent recall tests, do not give the other AI a CCI candidate list or known misses before discovery; let it freeze its own list first, compare only afterward, and source-verify any claim found only externally before counting it as a real miss.
+
+- **Class:** `CURRENT_CANON`  |  **Integration state:** `REVIEWED_NOT_ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:governance/EXTERNAL_AI_PROMPT_RULES.md
+- **Note:** PARITY REPAIR (iteration 6). A concrete Mark communication/UX rule distinct from `MRK-037` and `MRK-033`; absent from the boot layer and this harvest before this repair.
+
 ---
 
 ### Two entries a successor should read twice
