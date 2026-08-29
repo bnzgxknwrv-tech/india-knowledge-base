@@ -137,9 +137,9 @@ Duration consequence: removing the mistaken mandatory Rajgir day makes **2 Bodh 
 
 ## 12. OPTIONAL WORLDS — DEFERRED
 After fixed-core budget only:
-- **Braj / Mathura–Vrindavan–Govardhan — NOT dropped; inclusion unresolved/deferred; existing grades protected.** Explicit protected site that successors must not lose: **Neeb/Neem Karoli Baba Ashram + Mahasamadhi Mandir — active ashram containing Neem Karoli Baba's samadhi shrine in Krishna's pilgrimage city (Vrindavan, Uttar Pradesh) [A].** Recovered prior Braj canon carries this as A; 2026-08-29 current research reconfirms it is a real active ashram + Mahasamadhi Mandir. The A does not by itself force inclusion of the whole optional Braj world. Exact decision/research handoff: `decisions/NEEM_KAROLI_VRINDAVAN_RED_HOUSE_ROUTE_RULE_2026-08-29.md`.
+- **Braj / Mathura–Vrindavan–Govardhan — NOT dropped; inclusion unresolved/deferred; NOT A+ by inference.** Existing site grades remain protected. **Neeb/Neem Karoli Baba Ashram + Mahasamadhi Mandir — active ashram containing Neem Karoli Baba's samadhi shrine in Krishna's pilgrimage city (Vrindavan, Uttar Pradesh) [A]** remains a protected site-level A, but Mark explicitly clarified on 2026-08-29 that his train-corridor question must not pollute the route book by promoting the whole optional Braj world. Exact handoff: `decisions/NEEM_KAROLI_VRINDAVAN_RED_HOUSE_ROUTE_RULE_2026-08-29.md`.
 - **Haridwar / Kankhal / Rishikesh.**
-- **Prayagraj — samenvloeiingsstad van Ganges/Yamuna met Sangam/Kumbh-context (Uttar Pradesh), inclusion unresolved/deferred.** If Prayagraj survives for independent reasons, also surface **Red House / 4 Church Lane — Dada en Kamala Mukerjee's historische huis waar Neem Karoli Baba vele winters verbleef, met een echte puja/darshan-shrine rond zijn takhat (Prayagraj, Uttar Pradesh)**. Mark wants this **only if Prayagraj already happens AND access is confirmed**; it has **ZERO independent route/day/night weight** and Mark assigned **no new grade**. It is a private historic residence with documented shrine/darshan use, not a formal public mandir with guaranteed opening hours. Exact building coordinate remains GEO-unclosed; no pin/distance claim until verified. See `decisions/NEEM_KAROLI_VRINDAVAN_RED_HOUSE_ROUTE_RULE_2026-08-29.md`.
+- **Prayagraj — samenvloeiingsstad van Ganges/Yamuna met Sangam/Kumbh-context (Uttar Pradesh), inclusion unresolved/deferred.** If Prayagraj survives for independent reasons, also surface **Red House / 4 Church Lane — Dada en Kamala Mukerjee's historische huis waar Neem Karoli Baba vele winters verbleef, met een echte puja/darshan-shrine rond zijn takhat (Prayagraj, Uttar Pradesh) [B / ONLY_IF_ALREADY_IN_PRAYAGRAJ / ACCESS_CONFIRMED / ZERO INDEPENDENT ROUTE WEIGHT]**. It is a private historic residence with documented shrine/darshan use, not a formal public mandir with guaranteed opening hours. Exact building coordinate remains GEO-unclosed; no pin/distance claim until verified. See `decisions/NEEM_KAROLI_VRINDAVAN_RED_HOUSE_ROUTE_RULE_2026-08-29.md`.
 
 Hard excluded unless explicit reopen:
 - Ranchi + Kolkata/Hooghly/Serampore/Dakshineswar + Puri/Odisha.
@@ -158,8 +158,8 @@ Hard excluded unless explicit reopen:
 - Bodh Gaya/Gaya + Varanasi form a natural eastern pair;
 - every non-local A/A*/B must be checked against predecessor/current/successor corridor geometry and NET marginal detour before being classified as a separate excursion;
 - every candidate presentation must show enough inter-location km/minutes for Mark to see natural combinations before grading;
-- **Red House / 4 Church Lane in Prayagraj may never be used to create Prayagraj inclusion or a detour; it is capture-only if Prayagraj already survives and live access is confirmed.**
-- **Neeb/Neem Karoli Baba Ashram + Mahasamadhi Mandir in Vrindavan retains its protected A if Braj/Vrindavan naturally survives; do not silently downgrade it because Braj is optional.**
+- **Red House / 4 Church Lane — Neem Karoli Baba's historic winter home with devotional shrine in Prayagraj [B] may never be used to create Prayagraj inclusion or a detour; it is capture-only if Prayagraj already survives and live access is confirmed.**
+- **Neeb/Neem Karoli Baba Ashram + Mahasamadhi Mandir — active samadhi shrine in Vrindavan [A] retains its protected site-level A if Braj/Vrindavan naturally survives; this does not promote Braj to A+ or force Braj inclusion.**
 - final south-gateway/live transport facts rechecked at topology/calendar stage.
 
 ## 15. LIVE FACTS — RECHECK WHEN MATERIAL
