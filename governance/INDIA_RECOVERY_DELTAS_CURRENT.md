@@ -1,7 +1,7 @@
 # INDIA RECOVERY DELTAS — CURRENT LIVING ANTI-REGRESSION FILE
 
 Status: **CURRENT / MUST READ AT EVERY SUCCESSOR BOOT**
-Updated: 2026-08-28
+Updated: 2026-08-29
 Branch: `agent/india8-cluster-casting`
 Owner: `governance/INDIA_MASTER_BOOT.md`
 
@@ -239,5 +239,23 @@ Structural correction completed:
 Scope honesty:
 - backfill complete means durable planning knowledge required at every successor boot has been harvested from the centrally surveyed planning corpus;
 - it does not claim every script/binary/raw worker byte was read or duplicated into the top layer.
+
+# R24 — COORDINATES ARE FOUNDATIONAL; VERIFY AT THE RIGHT SCALE, NOT WITH PRECISION THEATRE
+Failure class exposed 2026-08-29:
+- a wrong map pin for the Bodh ascetic-cave A+ made a remote Rajgir hot-spring cluster appear to lie on the way;
+- Mark could therefore have assigned a burden-sensitive grade from false geography and corrupted route/day/night planning.
+
+Hard correction:
+- geometry-dependent planning is gated by `governance/MAP_COORDINATE_VERIFICATION_RULE.md` and `governance/COORDINATE_INTEGRITY_GATE.md`;
+- require `GEO_VERIFIED_FOR_DECISION = YES` before a location may support proximity, `je bent er toch`, corridor, route, walk/drive time, sleep-base or duration conclusions;
+- 100% verification means the **correct physical entity/site is certain at a positional scale that cannot change the planning decision**;
+- do NOT confuse verification with exact-door precision: a securely identified small hotel/building can be fully verified for cluster/proximity planning even when its exact entrance point is unknown by tens of metres;
+- do NOT use a generic centroid as a route endpoint for a large park/reserve/campus where the actual entrance/trailhead/parking could materially change movement;
+- distinguish `ENTITY_LOCATION` from `ROUTING_ACCESS_LOCATION`;
+- old PROVISIONAL pins are not grandfathered into current decision geometry;
+- existing Mark grades/locks remain; geometry is quarantined until verified, and only a material new burden delta may trigger a correction/review.
+
+Current known legacy warning:
+- historical PR #23 reported a Varanasi geo layer with only 5 CONFIRMED and 35 PROVISIONAL records, plus a missing safe point and a ~3 km source discrepancy. Those historical pins are provenance, not automatically current routing truth; relevant retained points must be reverified before new/final geometry use.
 
 END OF CURRENT RECOVERY DELTAS
