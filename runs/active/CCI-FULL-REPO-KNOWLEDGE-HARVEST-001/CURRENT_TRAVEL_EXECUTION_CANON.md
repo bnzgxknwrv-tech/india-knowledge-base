@@ -320,6 +320,30 @@ Inter-core edge policy: do NOT over-research all possible edges now — close on
 - **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/GLOBAL_TRANSFER_LEDGER_2026-08-25.md
 - **Note:** PARITY REPAIR (iteration 2). Not present in any of the eight always-read central boot files.
 
+## EXE-042
+
+CURRENT BEST GLOBAL TOPOLOGY SKELETON (no dates, subject to later override): DELHI -> optional HARIDWAR-RISHIKESH -> KUMAON (exact HAIDAKHAN VISHWA MAHADHAM -> NAINITAL -> KAINCHI -> DWARAHAT -> DUNAGIRI/KUKUCHINA) -> FULL TRAVEL DAY eastern-Kumaon exit toward plains -> optional BRAJ -> AGRA -> optional PRAYAGRAJ OR direct overnight AGRA->GAYA -> BODH GAYA/GAYA -> VARANASI/SARNATH -> primary direct VNS->CHENNAI hypothesis -> road CHENNAI -> TIRUVANNAMALAI/ARUNACHALA. SOUTHERN GATEWAY CORRECTION: current operating flight evidence confirms IndiGo 6E6044 runs direct Varanasi (VNS) -> Chennai (MAA), scheduled block roughly 2h15 on operating days; Chennai Airport -> Tiruvannamalai is about 171 km / ~2.5h raw road. FALLBACK if the Chennai flight is unavailable/badly timed on the actual date: direct VNS->BLR service -> Bengaluru Airport -> Tiruvannamalai (about 232 km / ~3.5h raw road). This corrects an earlier Bengaluru-first assumption; Chennai is now primary. Caveat: current operation does NOT prove the exact Dec 2026/Jan 2027 weekday timetable; recheck actual dates before calendar lock and booking.
+
+- **Class:** `CURRENT_FACT_WITH_RECHECK_TRIGGER`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CLUSTER_TOPOLOGY_FEASIBILITY_2026-08-25.md sections 6-7
+- **Note:** PARITY REPAIR (iteration 3). The current controlling route-topology hypothesis including the exact southbound gateway flight; not present in any of the eight always-read central boot files, nor previously anywhere in this harvest's atom set.
+
+## EXE-043
+
+Two corridor facts materially affect optional-world sequencing and must not be silently omitted. (1) EASTERN KUMAON EXIT working figures: HOTEL Dunagiri Retreat states Delhi is about 400 km / about 9-10h road, and Pantnagar Airport is roughly 160 km / about 5h road from the retreat; public route engines produce shorter raw figures, which is exactly why the local mountain-sourced estimate must control conservative calendar planning rather than a generic routing-API number. Direct road toward the Agra/plains corridor is geographically possible; a forced return to Delhi is NOT inherently required. This is the K7 edge named in OPN-011, now with its actual working distances. (2) AGRA -> GAYA DIRECT OVERNIGHT bypasses the need for Prayagraj as a routing bridge: train 12988 Ajmer-Sealdah SF Express runs daily through Agra Fort and Gaya, current timetable Agra Fort ~18:45 -> Gaya ~07:50, about 13h05 overnight. Prayagraj therefore must survive on its own spiritual/travel value, not because route engineering needs it as a bridge.
+
+- **Class:** `CURRENT_FACT_WITH_RECHECK_TRIGGER`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CLUSTER_TOPOLOGY_FEASIBILITY_2026-08-25.md section 2.4 and section 5
+- **Note:** PARITY REPAIR (iteration 3). OPN-011 named the K7 edge as P0 work without these actual working distances; no atom previously recorded the Agra->Gaya direct-overnight alternative to Prayagraj.
+
+## EXE-044
+
+OPTIONAL-WORLD LOGISTICS-TAX comparison (quantified, not a quality judgment; content value is separate and unaffected), ranked cheapest to most burdensome current insertion: (1) BRAJ / Mathura-Vrindavan-Govardhan — LOW geometric tax: Agra -> Mathura roughly 57 km / about 1h raw road; Agra -> Vrindavan roughly 66-70 km / about 1-2h raw road. (2) PRAYAGRAJ — LOW_TO_MODERATE / corridor-compatible: Agra -> Prayagraj roughly 6-7h rail/road, Prayagraj -> Varanasi roughly 2-3h; NOT route-required because a direct Agra->Gaya overnight exists (EXE-043). (3) HARIDWAR-RISHIKESH/KANKHAL — MATERIAL / the biggest current optional northern insert, but NOT route-breaking if inserted exactly once BEFORE Kumaon: correct topology is DELHI -> HARIDWAR/RISHIKESH -> KUMAON, never inserted after the eastern Kumaon end, which would force a long westward bounce. Working movement classes: Delhi -> Rishikesh ~218 km, raw ~3h23 but practical planning ~5h+; Rishikesh -> Nainital ~236-253 km / practical ~5.5-7h; Rishikesh -> Dwarahat ~271-275 km / ~8h (proof against inserting after eastern Kumaon); Rishikesh -> a Haidakhan-labelled destination ~266 km / ~4h50 raw but LOWER entity confidence than EXE-040's official Haidakhan access evidence, so must not be calendar-locked. Net effect: converts one already-large northern approach into TWO substantial road legs plus one base change. (4) MYSORE/BENGALURU sightseeing extension — HIGH / do not assume inclusion: Tiruvannamalai -> Bengaluru ~203 km / ~3h raw road; using Bengaluru as a fallback AIR GATEWAY (EXE-042) does not make Mysore/Bengaluru SIGHTSEEING free — two separate questions.
+
+- **Class:** `CURRENT_FACT_WITH_RECHECK_TRIGGER`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CLUSTER_TOPOLOGY_QUANTIFIED_DELTA_2026-08-26.md
+- **Note:** PARITY REPAIR (iteration 3). MRK-040/EXE-003 record the deferred-worlds list qualitatively, but none of these quantified figures or the Mysore/Bengaluru gateway-vs-sightseeing distinction existed anywhere in the successor layer before this repair.
+
 ---
 
 ### Coordinate trust ladder used throughout

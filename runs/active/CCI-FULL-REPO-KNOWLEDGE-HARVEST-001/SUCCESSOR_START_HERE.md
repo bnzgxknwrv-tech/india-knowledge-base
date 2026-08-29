@@ -39,7 +39,10 @@ They are **mandatory** and they carry knowledge the central boot layer does not:
 
 5. `CURRENT_TRAVEL_EXECUTION_CANON.md` — sequence, geometry, coordinates, access facts, day
    blocks. Read it before you build any day card or map on the delivered Varanasi pins; `EXE-009`
-   to `EXE-011` explain why those pins are currently the weak link.
+   to `EXE-011` explain why those pins are currently the weak link. Read it also before touching
+   any optional-world (Braj/Haridwar-Rishikesh/Prayagraj) question or global gateway assumption —
+   `EXE-042` to `EXE-044` carry the current route topology, and a specific pilgrimage mega-event
+   date inside the trip window (`OPN-012`) that no earlier version of this harvest surfaced.
 
 ## STEP 4 — Reference only when needed
 
@@ -140,6 +143,14 @@ PARITY WARNING 2: execution-critical transfer data is also outside the eight alw
 - **Class:** `CURRENT_CANON`  |  **Integration state:** `ADOPTED`
 - **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/GLOBAL_TRANSFER_LEDGER_2026-08-25.md
 - **Note:** Second most important finding of the successor parity test.
+
+## SSH-011
+
+PARITY WARNING 3: before ANY optional-world (Braj / Haridwar-Rishikesh / Prayagraj) discussion or global route/gateway assumption, read `EXE-042` to `EXE-044` and `OPN-012`. They carry the current topology skeleton with its exact southern-gateway flight (IndiGo 6E6044 VNS->MAA, Bengaluru fallback), the eastern-Kumaon-exit working distances, the quantified logistics-tax ranking of the three optional worlds plus Mysore/Bengaluru, and — most concretely — a Haridwar Ardh Kumbh Mela / Makar Sankranti Snan on 14 Jan 2027 that falls INSIDE the trip window and was previously invisible anywhere in the boot-reachable layer. None of this existed in the successor layer before parity iteration 3; it lived only in `CLUSTER_TOPOLOGY_FEASIBILITY_2026-08-25.md` and `CLUSTER_TOPOLOGY_QUANTIFIED_DELTA_2026-08-26.md`, two files the central knowledge map correctly marks conditional but which nothing pointed a successor to actually open before running the optional-world ballot.
+
+- **Class:** `CURRENT_CANON`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CLUSTER_TOPOLOGY_FEASIBILITY_2026-08-25.md; CLUSTER_TOPOLOGY_QUANTIFIED_DELTA_2026-08-26.md
+- **Note:** Third most important finding of the successor parity test (iteration 3).
 
 ---
 

@@ -102,6 +102,14 @@ OPEN P0 TRANSFER CLOSURES — INDIA work, not Mark decisions, and they block the
 - **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/GLOBAL_TRANSFER_LEDGER_2026-08-25.md
 - **Note:** PARITY REPAIR (iteration 2). Not present in any of the eight always-read central boot files. These are concrete, actionable, currently-open work items.
 
+## OPN-012
+
+OPEN — NOT YET SURFACED TO MARK, raised by this harvest: Haridwar's Ardh Kumbh / Kumbh Mela opening is officially announced for 14 January 2027 with a Makar Sankranti Snan, and this date falls INSIDE the current trip window (arrival 19 Dec 2026, departure 21 Jan 2027 per `MRK-003`). This is a DISCOVERY SIGNAL only, not a Mark decision and not a route lock. Do NOT create a later westward return for it, and do NOT let it silently drive the Haridwar/Rishikesh optional-world inclusion decision, unless Mark later gives it exceptional priority AND the final route mathematics genuinely supports it (see `EXE-044` for why Haridwar/Rishikesh must be inserted BEFORE Kumaon, not after). Separately, an earlier working note treats '31 Dec 2026 in Rishikesh' as a DATE_WISH only, not a route lock. Because a major pilgrimage-crowd mega-event lands inside the trip window, this must be shown to Mark explicitly if/when the Haridwar/Rishikesh optional-world ballot is ever run, rather than being silently missed.
+
+- **Class:** `CURRENT_FACT_WITH_RECHECK_TRIGGER`  |  **Integration state:** `RECEIVED_UNREVIEWED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CLUSTER_TOPOLOGY_QUANTIFIED_DELTA_2026-08-26.md section 1
+- **Note:** PARITY REPAIR (iteration 3). The single most concrete new finding of parity iteration 3: a specific mega-event date INSIDE the trip window, absent from every boot-reachable file before this repair.
+
 ---
 
 ### Guard
