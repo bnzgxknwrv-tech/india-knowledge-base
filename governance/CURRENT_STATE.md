@@ -1,8 +1,8 @@
 # CURRENT STATE — INDIA
 
-state_revision: 2026-08-29_INDIA12_FINAL_HANDOFF_TIRUVANNAMALAI_NEXT
+state_revision: 2026-08-29_INDIA13_TIRUVANNAMALAI_DURATION_MARK_CHOICE_READY
 branch: `agent/india8-cluster-casting`
-status: FIXED_CORE_DURATION_CLOSURE_ACTIVE
+status: FIXED_CORE_DURATION_CLOSURE_ACTIVE__MARK_ONLY_DURATION_CHOICE
 boot_authority: `governance/INDIA_MASTER_BOOT.md`
 trip_frame: `governance/TRIP_FRAME_HARD.md`
 current_decisions: `governance/CURRENT_DECISIONS_MASTER.md`
@@ -15,12 +15,22 @@ train_booking_rule: `governance/INDIA_TRAIN_BOOKING_ROUND_CURRENT.md`
 packing_list: `governance/MARK_INDIA_PACKING_LIST_CURRENT.md`
 
 ## CURRENT FRONTIER — TIRUVANNAMALAI / ARUNACHALA
-**NEXT FIXED CORE TO CLOSE:** Tiruvannamalai / Arunachala — Ramana Maharshi sacred mountain/ashram world (Tamil Nadu) [A+ parent].
+**OBJECTIVE PREP IS CLOSED ENOUGH FOR THE FIRST GENUINE MARK-ONLY CHOICE:** felt duration / nights for **Tiruvannamalai / Arunachala — Ramana Maharshi sacred mountain/ashram world (Tamil Nadu) [A+ parent]**.
 
 Mandatory cluster prep:
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_PREP_PACKET_2026-08-27.md`
 
-Do NOT restart Bodh Gaya. Do NOT ballot optional worlds yet. Do NOT let the recent Neem Karoli Baba side question change route direction.
+Current decision-ready surface:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_DURATION_DECISION_SURFACE_2026-08-29.md`
+
+INDIA13 completed the active fixed-core geo/base/day-module/robustness pass. Do NOT restart Bodh Gaya. Do NOT ballot optional worlds. Do NOT re-ballot the protected Tiruvannamalai A/A+/B items.
+
+### EXACT MARK-ONLY CHOICE NOW
+- **4 nights** = inbound arrival + 3 full local days; technically possible but requires meaningful compression; `SENSITIVE / COMPACT`.
+- **5 nights** = inbound arrival + 4 clean full local A days; `ROBUST / BALANCED`; **INDIA13 recommendation**.
+- **6 nights** = inbound arrival + 5 full local days; one additional unstructured Ramana/Arunachala depth day; `VERY ROBUST / DELIBERATELY DEEP`.
+
+After Mark answers, record WHAT + WHY, close the duration, then continue automatically to the next fixed-core closure. Do not stop for a status report.
 
 ## MARK'S CURRENT GLOBAL METHOD — FIXED A+ SKELETON FIRST
 Canonical rule:
@@ -85,7 +95,7 @@ Current outbound rail candidate to Varanasi:
 - train preferred over 5+ hour car;
 - LIVE/PROVISIONAL until exact-date booking recheck.
 
-## TIRUVANNAMALAI / ARUNACHALA — CURRENT PROTECTED CONTENT
+### TIRUVANNAMALAI / ARUNACHALA — OBJECTIVE DURATION SURFACE CLOSED / MARK CHOICE OPEN
 A+ parent world. Existing A children remain protected and are NOT new ballot items:
 - Sri Ramanasramam;
 - Virupaksha Cave;
@@ -103,20 +113,52 @@ Sleep wish:
 - Sri Ramanasramam itself = desired true ashram sleep #2 if accepted/available;
 - fallback = normal lodging immediately around/opposite the ashram, not a generic hotel re-ranking exercise.
 
+Current official accommodation delta checked by INDIA13:
+- online accommodation request/registration required;
+- limited stay intended for genuine Ramana devotees;
+- current ashram guidance recommends at least three days;
+- normal requested check-in window ~07:00–19:00;
+- late full-travel-day arrival must not be assumed to work perfectly.
+
+Current fixed A-only local modules:
+1. inbound full travel/arrival day — no serious content promised;
+2. deep Sri Ramanasramam day;
+3. Skandashram + Virupaksha Cave spiritual hill walk;
+4. Arunachaleswarar Temple + Gurumurtam + Pavalakunru early-Ramana day;
+5. dedicated full 14 km Girivalam day.
+
+Geo status for this duration decision:
+- load-bearing fixed core re-audited at fit-for-purpose scale;
+- **PASS FOR DURATION DECISION**;
+- exact final KML/pairwise road routing still requires later final-routing/live checks where noted;
+- no duration scenario depends on an unresolved guessed pin.
+
 Current topology hypothesis under fixed-A+ skeleton:
 - predecessor = Varanasi/Sarnath;
-- preferred south bridge = Varanasi airport -> direct Chennai flight if actual-date operation works -> private car Chennai Airport -> Tiruvannamalai;
+- current stronger inbound human-time hypothesis = Varanasi airport -> direct midday Bengaluru flight if actual-date operation works -> private car Bengaluru Airport -> Tiruvannamalai;
+- the previously assumed late direct Chennai arrival is inferior if it forces an airport hotel/overnight drive;
 - successor = Delhi/international exit;
 - natural exit hypothesis = Tiruvannamalai -> Chennai Airport by car -> nonstop Chennai -> Delhi flight;
 - both bridges are substantial/full occupied travel-day class after real door-to-door friction.
 
 Exact services remain LIVE_RECHECK_LATER until calendar maturity.
 
+Typical second-half-January Tiruvannamalai planning climatology, NOT forecast:
+- 06:00 ~18–20 C;
+- 13:00 ~29–31 C;
+- 18:00 ~25–27 C;
+- sunrise ~06:34–06:39;
+- sunset ~17:59–18:15.
+
+January 2027 full moon = 22 Jan, after booked 21 Jan international departure. Therefore no full-moon-vs-quiet Girivalam ballot exists in the current trip frame.
+
 ## OPTIONAL WORLDS — STILL DEFERRED
 Do not ballot before fixed-core budget/edges close:
 - Braj / Mathura–Vrindavan–Govardhan;
 - Haridwar / Kankhal / Rishikesh;
 - Prayagraj.
+
+For the same fixed-A+-only reason, do not smuggle southern external candidates such as Gingee, Mamallapuram or Puducherry into the Tiruvannamalai duration calculation yet.
 
 Side-question protections only:
 - Neeb/Neem Karoli Baba Ashram + Mahasamadhi Mandir in Vrindavan = protected existing site-level A; this does NOT promote Braj or make Braj A+.
@@ -146,14 +188,11 @@ No decision-relevant map/proximity/route claim may use an unverified ambiguous p
 ## USER-FACING NAME HARD GUARD
 Every unfamiliar Indian location name must be recognition-rich on EVERY occurrence, including second mentions, tables, route strings and conclusions. Bare Indian names are a presentation failure.
 
-## EXACT NEXT EXECUTION FOR INDIA13
-After full master boot:
-1. read `governance/INDIA12_FINAL_SUCCESSOR_CHECKPOINT_2026-08-29.md`;
-2. load the Tiruvannamalai prep packet and applicable geo/current-decision sources;
-3. close fixed-core geography, base/ashram logic, realistic day modules, human pace and duration for Tiruvannamalai/Arunachala;
-4. keep Varanasi predecessor and Delhi/international-exit successor visible for honest edge accounting;
-5. do not insert optional A clusters yet;
-6. continue automatically until a genuine Mark-only decision.
+## EXACT NEXT EXECUTION
+1. STOP autonomous advancement at the genuine Mark-only duration choice for Tiruvannamalai / Arunachala.
+2. Present the complete 4/5/6-night scenario delta with INDIA recommendation = 5 nights.
+3. After Mark decides, record WHAT + WHY in ledger/master/exact decision/current state.
+4. Then automatically continue to the next fixed-core closure without asking permission.
 
 ## CCI FULL-REPO HARVEST
 CCI remains complete as reconciliation/archaeology evidence; it does not independently change subjective grades. Useful outputs remain under:
