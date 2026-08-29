@@ -326,6 +326,14 @@ SWEEP ERROR CLASS REGISTER FK-001 to FK-013 — the project's own catalogue of h
 - **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:governance/SWEEP_ERROR_CLASSES.md
 - **Note:** PARITY REPAIR (iteration 2). Not present in any of the eight always-read central boot files.
 
+## PHI-043
+
+REVERSE DISCOVERY / REOPEN RULE (ACTIVE GOVERNANCE, Mark, 2026-08-19): a cluster/region previously marked AF/COMPLETE/FROZEN or similar is closed only for that search round. New person-centric findings MAY and MUST reopen an already-finished cluster for additive review — existing locations never go away through reverse discovery; only new locations, new overlap meaning, new proximity relations and new travel value can be ADDED. Existing A/B/C choices stand until Mark explicitly changes them. New candidates get a NEW permanent ID under the existing numbering system (never reused/shifted/renumbered) and their own individual Mark A/B/C decision — never inferred from proximity or overlap alone; new proximity/combination information on an existing B/C can trigger REVIEW_FOR_UPGRADE, but only Mark can actually change a grade.
+
+- **Class:** `CURRENT_CANON`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:decisions/REVERSE_DISCOVERY_REOPEN_RULE_2026-08-19.md
+- **Note:** PARITY REPAIR (iteration 4). Durable discovery-methodology rule distinct from `PHI-014` and `PHI-021`, not present in the eight always-read central boot files or the prior atom set.
+
 ---
 
 ### Reading order inside this file

@@ -488,6 +488,30 @@ Profile precedence, which differs from the boot-file precedence and matters when
 - **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:governance/MARK_TRAVEL_PREFERENCES_CURRENT.md
 - **Note:** PARITY REPAIR (iteration 2). Not present in any of the eight always-read central boot files.
 
+## MRK-066
+
+LOCKED_BY_MARK (2026-08-19) durable operating rule: every INDIA regisseur turn that contains a substantive reply, status audit or task closure must end with an explicit operational next step in a fixed format: NU_DOEN / eigenaar (MARK / INDIA / CCI / INDIAROOD / other external AI) / actie (one concrete next action) / status (START_NU / LOOPT / WACHT_OP_<CONDITIE>) / daarna (next dependent step). Forbidden empty closings: 'wacht op resultaat', 'laat maar weten', a summary with no owner, or multiple equal options with no regie choice presented. With multiple parallel lanes, INDIA names what is running in each lane separately but points to exactly one primary NU_DOEN action for Mark. Mark is not a courier between CCI and INDIA.
+
+- **Class:** `CURRENT_CANON`  |  **Integration state:** `REVIEWED_NOT_ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:decisions/INDIA_REGIE_ALWAYS_EXPLICIT_NEXT_ACTION_2026-08-19.md
+- **Note:** PARITY REPAIR (iteration 4). LOCKED_BY_MARK communication-protocol rule absent from every always-read central boot file and from this harvest before this repair.
+
+## MRK-067
+
+LOCKED_BY_MARK (2026-08-18) TOP-11 sweep-depth allocation: not every original Top-11 name automatically gets a full nationwide exhaustive METHOD_V2 deep sweep. Mark explicitly wants the full deep sweep for exactly seven: Yogananda, Lahiri Mahasaya, Sri Yukteswar, Neem Karoli Baba, Ram Dass, Ramana Maharshi, and Ramakrishna. MARK'S OWN WORDS ON RAMAKRISHNA: Mark considers him one of the greats and currently feels he is UNDERREPRESENTED in the project; his travel wish is to visit at least one substantial Ramakrishna location if it logically fits the final route — explicitly NOT a hard detour obligation. Mahavatar Babaji already has a full sweep bundled with Lahiri/Sri Yukteswar; Anandamayi Ma already had an exceptionally broad treatment and should not be re-run from zero.
+
+- **Class:** `CURRENT_CANON`  |  **Integration state:** `REVIEWED_NOT_ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:decisions/TOP11_SWEEP_DEPTH_BY_PERSON_2026-08-18.md
+- **Note:** PARITY REPAIR (iteration 4). The Ramakrishna underrepresentation concern and travel wish is exactly the kind of personal Mark motivation TASK.md section 4 requires preserving; it existed nowhere in the successor layer before this repair.
+
+## MRK-068
+
+Mark has an explicit personal wish to visit Sri Aurobindo (Puducherry ashram), recorded alongside the Arunachala A-anchor decision: 'Puducherry/Sri Aurobindo is een positieve kandidaat omdat Mark Sri Aurobindo graag wil bezoeken' — but conditioned on whether the total AOAY/Top-X/spiritual yield justifies the detour from the Tiruvannamalai/south-gateway corridor; it does NOT automatically follow Arunachala. `TIRUVANNAMALAI_PREP_PACKET_2026-08-27.md` already lists plain Pondicherry/White Town as a traveler-gateway item, but does not connect it to Sri Aurobindo or to this recorded Mark wish, and neither does `OPN-003`.
+
+- **Class:** `CURRENT_PREFERENCE`  |  **Integration state:** `REVIEWED_NOT_ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:decisions/ARUNACHALA_TIRUVANNAMALAI_A_ANCHOR_2026-08-18.md
+- **Note:** PARITY REPAIR (iteration 4). A concrete Mark personal motivation invisible in the whole successor layer before this repair; should be surfaced when the Tiruvannamalai/south-gateway open set is next shown to Mark.
+
 ---
 
 ### Two entries a successor should read twice

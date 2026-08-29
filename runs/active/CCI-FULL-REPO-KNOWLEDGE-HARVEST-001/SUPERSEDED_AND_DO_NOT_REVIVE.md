@@ -168,6 +168,14 @@ DO NOT re-derive from the conditional registers without checking their date. Two
 - **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md vs a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_PROMOTION_MASTER.md
 - **Note:** PARITY REPAIR (iteration 1). This item-level Mark grade is NOT present in any of the eight always-read central boot files; it lives only in a register the current boot demotes to a CONDITIONAL read. A successor booting the central layer alone would not see it.
 
+## SUP-022
+
+C ALREADY DECIDED BY MARK, must not be re-presented if a strict Lonely-Planet/traveler layer for the Varanasi->Bodh Gaya corridor is ever shown: Rohtasgarh Fort was already graded C by Mark during the Varanasi LP review. New LP/traveler evidence about it is provenance enrichment only and does not reopen the C.
+
+- **Class:** `REJECTED_BY_MARK`  |  **Integration state:** `ADOPTED`
+- **Source:** a37423639f7dabb0dfd55c8656d4689bb8a25351:runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_STRICT_LP_LAYER_GATE_2026-08-27.md item TRV-121
+- **Note:** PARITY REPAIR (iteration 4). Exactly the anti-regression class TASK.md section 8 names ('C locations that later research rediscovered but did not reopen').
+
 ---
 
 ### How to use this file
