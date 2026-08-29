@@ -37,7 +37,22 @@ and the verification that establishes it is not already in the central tree.
   Sahi River View 5–11 Jan 2027; Sri Ramanasramam 14–19 Jan 2027.
   Hard wording guard: "Do not ask to reserve 'the Ram Dass room'."
 - Verification: path absent from every current tip; no equivalent contact pack in central.
-- Class: `CURRENT_CANON` (execution artifact, still needed for booking).
+- **RECLASSIFIED after commit-message archaeology — DO NOT REVIVE.**
+  This file was not lost; it was **deliberately reverted** by INDIA:
+  - `7fddaf9e78ae4976685207a9f187476f44b6d3de` (2026-08-23) "india10: add ready-to-use booking contact pack"
+  - `b3a66b2649d1e6fd6d2f896c27966c9b40f686ed` (2026-08-23) "revert premature india10 booking contact pack" (-209 lines)
+  - `341ecab2c34b10c42a855f0a16d0c78cd5eb0ae6`, `ba82d753b737e62d9b722bd0052523f1b104abd3` revert the accompanying status/state updates
+  - `5bd2e865013cfd14336f4d04fbb9b693ba264629` "demote premature booking sequence to future planning artifact"
+  Central `runs/active/INDIA10-BOOKING-SEQUENCE-CLOSURE-001/STATUS.md` records the reason verbatim:
+  state `FUTURE_PLANNING_ARTIFACT__NOT_CURRENT_PROJECT_PHASE`; "Mark explicitly corrected that
+  interpretation on 2026-08-23"; the surviving `BOOKING_ACTION_BOARD.md` "must not be used to imply
+  that the India project has reached the booking/application phase"; "The action board's
+  time-sensitive facts may be revalidated later ... Do not maintain them as globally current."
+- Class: **`REJECTED_BY_MARK` / `SUPERSEDED`** → belongs in `SUPERSEDED_AND_DO_NOT_REVIVE.md`.
+  The only durable atom worth carrying forward is the wording guard
+  ("Do not ask to reserve 'the Ram Dass room'"), which is a communication rule independent of the
+  premature booking phase, and the fact that a dated draft contact pack once existed and was
+  reverted (so a successor does not "rediscover" it and re-trigger the same error).
 
 ## NK-004 — Varanasi working coordinates for 34 candidates that central leaves without a point
 
@@ -94,3 +109,66 @@ and the verification that establishes it is not already in the central tree.
   Not reproduced as a single table anywhere in central.
 - Class: `HISTORICAL_PROVENANCE_ONLY` for the grades (superseded by Mark's current grading),
   `CURRENT_FACT_WITH_RECHECK_TRIGGER` for the ID↔place mapping.
+
+## NK-007 — knowledge carried ONLY in commit messages (commit-message archaeology, TASK.md §2.4)
+
+Surface: 1,779 commits across all refs, 1,771 unique subjects (all read), 179 commits with
+message bodies >250 chars (178,718 chars, all read). Items below are recorded in a commit
+message and are either absent from, or materially thinner in, the file tree.
+
+- **Grading-system supersession chain, with dates and reasons.** `20db360a` (2026-07-11)
+  fixed METHODOLOGY to `A+/A/B/C/R` per AI_RULES; `0d118b1d` (same day) records the Mark
+  decision to **scrap `A+` and `R` entirely** — "A+ overbodig" because Mark knows his own top
+  places — leaving `A/B/C/U`. `A+` was then reintroduced in the INDIA10 generation with a new
+  meaning (cluster-carrier), and `A*` added later still. A successor reading only current files
+  cannot see that `A+` once existed, was deliberately abolished, and returned with a *different*
+  definition. This is the single largest vocabulary-drift trap in the repository.
+- **The three PRIORITY_GROUPS weighting rules** (`2ee59451`, 2026-07-12, Mark decision):
+  (1) the strength of the PLACE outweighs the position of the PERSON — a small YSS centre
+  (position 1) ranks below a great Krishna temple (position 13) that all of India visits;
+  (2) position is a tie-breaker only at EQUAL place-strength — Krishna sits at 13 because Mark
+  had little mental picture of him, not because he is worth less;
+  (3) the index is NOT exhaustive — a powerful place outside the list must still be reported.
+  Same commit: the AOAY check is mandatory in every cluster sweep and is the explicit
+  **exception to the size rule** — for an AOAY place, size does not count; a tiny temple
+  Yogananda actually stood in is a destination. A negative AOAY result must also be reported.
+- **The PDF rule chain, in order**, each step with its triggering incident:
+  `cadda76b` PDF is a one-time read document, never auto-rebuilt (Mark: it is read once and then
+  thrown away — avoid token spend); `2c47cc33` after CCI rebuilt a PDF unasked for a small text
+  fix — CCI may NEVER rebuild a PDF on its own initiative, always ask first, even for a
+  correction; `b7bb9028` after a second unintended build — every task now carries explicit
+  `PDF_STATUS: VERBODEN` or `PDF_GO: JA`, and `VERBODEN` is the default when the field is
+  absent; "sweep klaar" never implies "build the PDF"; `93a90306` Mark cancels the Bodh Gaya V2
+  PDF outright ("Geen pdf meer!!!") — `BODHGAYA_PDF_V2_CANCELLED_BY_MARK: JA`; only the PDF step
+  is cancelled, all research and A/B/C survive.
+- **The one-incident rule** (`17b92442`, 2026-08-08): a practical fix after ONE incident becomes
+  permanent canon only after a second, independent occurrence — with the same-day retraction of
+  poort T as its own precedent. Machine-checkable validators may be added immediately.
+- **Poort T was canonised and retracted on the same day** (`58c4f642` then `7587889e`).
+  `DELTA_REVIEW_2026-08-08.md` therefore exists without a canon basis; an
+  `INGETROKKEN_CANONPOGING` note was deliberately left in ACTIVE_STATE.md so a later session
+  would not be confused. A successor that finds the delta-review file must not re-canonise it.
+- **Two withdrawn factual claims, with their corrections.** (a) `46fa5260`: the claim that
+  Ramakrishna visited Bodh Gaya and meditated before the Buddha image is **WRONG** — direct
+  recheck of the cited source shows he deliberately REFUSED to visit Gaya in 1868. The correct
+  Ramakrishna link (his father Kshudiram's naming Gadadhar/Vishnu vision during the 1835 Gaya
+  pilgrimage) was moved from candidate 046 to 051. (b) Same commit: Ram Dass's Goenka Vipassana
+  course is January 1971, not "winter 1969-70", and the exact venue cannot be decided between
+  074 (Samanvaya Ashram) and 061 (Burmese Vihara) — two courses ran back to back.
+- **Genealogy error and its fix** (`e1c23178`): a delivered PDF called Sri Yukteswar "the teacher
+  of Yogananda's teacher", which actually describes Lahiri Mahasaya. Correct line is
+  Babaji -> Lahiri Mahasaya -> Sri Yukteswar -> Yogananda; Sri Yukteswar was Yogananda's own
+  direct guru.
+- **Version-number naming rule** (`6781ace7`, Mark decision): every versionable deliverable gets
+  an incrementing version number at the START of the filename (`V1_`, `V2_`), never at the end,
+  never reused.
+- **Numbering-gap explanations** that prevent a successor from "fixing" a non-bug: `525ea75c`
+  numbers 39–45 in the legacy `CLUSTER_LOCATIONS.md` are deliberately reserved for Bodh Gaya
+  candidates; `9d91476a` the legacy `CLUSTER_LOCATIONS` 1–46 scheme and the never-applied
+  `DECISION-0013` LOCATION_ID cluster blocks are **incompatible schemes from an earlier
+  architecture and were deliberately NOT reused** when permanent number 079 was assigned;
+  the "LOCATION_ID 400" for the Babaji cave was an unconfirmed guess and was not adopted.
+- **Trip frame** (`12148a8e`, 2026-07-08): travel period 18 Dec 2026 – 21 Jan 2027 (34 days),
+  flights booked; booking details deliberately kept OUT of the repository for privacy.
+- **`17823f6d`**: `.claude/worktrees/` is git-ignored — ephemeral per-agent worktrees are not
+  project content. (Relevant to any successor auditing untracked files.)
