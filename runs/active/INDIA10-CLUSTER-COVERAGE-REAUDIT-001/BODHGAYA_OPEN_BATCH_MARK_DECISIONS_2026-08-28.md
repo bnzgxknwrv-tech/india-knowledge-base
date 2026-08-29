@@ -1,80 +1,88 @@
 # BODH GAYA / GAYA — OPEN BATCH MARK DECISIONS
 
 Date: 2026-08-28
-Status: MARK_DECISIONS_RECORDED__BRAHMAKUND_A_LOCKED__MANGLA_GAURI_C_SUPERSEDE
+Updated: 2026-08-29
+Status: MARK_DECISIONS_RECORDED__BRAHMAKUND_CORRIDOR_ONLY_RECOVERED__MANGLA_GAURI_C
 Branch: `agent/india8-cluster-casting`
 
 ## Authority
-These are explicit Mark decisions from the live INDIA conversation on 2026-08-28. They close the previously six-item OPEN Bodh Gaya/Gaya batch. Do not re-present these six as open choices unless Mark explicitly reopens one.
+These are explicit Mark decisions from the live INDIA conversation, with a 2026-08-29 recovery correction after Mark identified that the earlier Brahmakund summary had lost the decisive distance/corridor condition.
+
+Newest explicit Mark statement outranks the earlier simplified A lock.
 
 ## Decisions
 
-1. **Nalanda Mahavihara [UNESCO WH] — C**
+1. **Nalanda Mahavihara — ruïnes van de grote boeddhistische kloosteruniversiteit (Nalanda) [C] [UNESCO WH]**
    - Mark decision: C.
    - Current-trip reject. Do not re-present as a new choice.
 
-2. **Rajgir Brahmakund hot springs — A**
-   - Mark decision: A.
-   - Mark explicitly accepts the residual on-site risk that he could still be refused bathing access. That operational uncertainty does NOT make the grade conditional and does NOT turn the item into A/C.
-   - Planning consequence: Rajgir/Brahmakund is active wanted content and must be included in Bodh execution geometry unless Mark later explicitly changes the grade.
-   - Current 2026-08-28 verification:
-     - Bihar Tourism describes Brahmakund as a hot-spring destination for pilgrims and tourists, explicitly describes taking a dip/bathing and gives bathing rules.
-     - September-April is listed as a good season, covering Dec 2026-Jan 2027.
-     - No current official Bihar Tourism/Nalanda page reviewed states that foreign nationality itself bars bathing.
-     - Older/non-official material reports a religion-based restriction on the inner Brahmakund. Mark knowingly accepts this residual access risk and still chooses A.
-   - Do not ask Mark again whether the item is A or C merely because access remains imperfectly guaranteed.
+2. **Brahmakund — levende heilige warmwaterbronnen waar Mark eventueel zelf zou willen baden (Rajgir) [A* / ONLY_IF_NATURAL_CORRIDOR_BYCATCH / SKIP_FIRST]**
+   - NEWEST explicit Mark correction 2026-08-29: Mark had rejected this as a dedicated excursion and wants it **only if the real trip naturally passes it / it becomes a very cheap bycatch**.
+   - This supersedes the over-simplified 2026-08-28 `A` lock that was recorded without preserving the decisive geography condition.
+   - Recovered older context also supports this: on 2026-06-23 Mark's Bodh decision context had `Rajgir no`, while the assistant's then-correct burden framing described Rajgir/Nalanda as a combined day trip rather than local Bodh content.
+   - Current expected route geometry is west-side predecessor -> Bodh Gaya -> west/northwest toward Varanasi; Rajgir lies east/northeast of Bodh Gaya. Therefore under the **current expected corridor**, this item does NOT survive and must NOT create a dedicated Rajgir day.
+   - If later topology materially changes and the trip genuinely passes Rajgir, surface it again only as host/corridor bycatch with exact net delta.
+   - Bathing-access uncertainty remains a separate issue: Bihar/Nalanda official sources describe bathing/dipping, but older non-official material reports possible religion-based restriction. This matters only if the corridor condition is first satisfied.
 
-3. **Rajgir Vishwa Shanti Stupa + ropeway — B**
-   - Mark: sounds fun/nice if already nearby, especially for the overview/view from above, but not an A magnet and not a reason by itself to create the Rajgir trip.
-   - Must not independently force a major detour/day/night.
+3. **Vishwa Shanti Stupa + Rajgir Ropeway — witte Peace Pagoda boven Ratnagiri Hill met kabelbaan vanaf de heuvelvoet (Rajgir) [B / ONLY_IF_RAJGIR_ALREADY_HAPPENS]**
+   - Mark: sounds fun/nice if already nearby, especially for overview/view from above.
+   - Newest 2026-08-29 clarification: same basic condition as the hot springs — no Rajgir trip is created for this.
+   - It is a logical combo only if another valid route reason already puts Mark in Rajgir.
+   - Current local geometry: roughly 3–5 km class between the hot-spring area and the Peace Pagoda/ropeway zone; plan about ~10–15 min local drive, then separate ropeway/queue/visit time.
+   - Must never independently force a major detour/day/night.
 
-4. **Patharkatti/Pattharkatti black-stone craft village — C**
+4. **Patharkatti / Pattharkatti black-stone artisan village — traditioneel zwartsteen-beeldhouwersdorp (Gaya district) [C]**
    - Mark decision: C.
    - Do not re-present.
 
-5. **Sher Shah Suri Tomb, Sasaram — C**
+5. **Sher Shah Suri Tomb — groot 16e-eeuws mausoleum midden in een waterbassin (Sasaram) [C]**
    - Mark decision: C.
    - Do not re-present even if later route geometry makes it convenient, unless Mark explicitly reopens.
 
-6. **Gaya Tilkut winter food/human micro-experience — A***
+6. **Gaya Tilkut — winterse sesam-jaggeryzoetigheid bij een traditionele producent (Gaya) [A* / SKIP_FIRST]**
    - Mark reaction: fun; if nearby he definitely wants to stop briefly and look/taste.
-   - Meaning: host/corridor-dependent easy capture only; no independent detour/day/night/base.
-   - Preserve as a short winter food/human-texture stop if Gaya traversal naturally puts it close.
+   - Host/corridor-dependent easy capture only; no independent detour/day/night/base.
 
 ## Additional explicit Mark supersede — 2026-08-28
 
-**Mangala Gauri Temple — oude Shakti-tempel op de heuvel (Gaya) — C**
-- Newest explicit Mark decision: `C`.
-- Supersedes the older current `B`.
+**Mangala Gauri Temple — oude Shakti-tempel op de heuvel (Gaya) [C]**
+- Newest explicit Mark decision: C.
+- Supersedes older B.
 - Remove from active execution geometry and do not re-present unless Mark explicitly reopens it.
 
-## Closed batch checksum
-- Nalanda Mahavihara — C
-- Rajgir Brahmakund — A
-- Rajgir Vishwa Shanti Stupa + ropeway — B
-- Patharkatti/Pattharkatti — C
-- Sher Shah Suri Tomb — C
-- Gaya Tilkut — A*
-- Mangala Gauri Temple — C (later same-day supersede of B)
+## Closed batch checksum — CURRENT
+- **Nalanda Mahavihara — boeddhistische universiteitsruïnes (Nalanda) [C] [UNESCO WH]**
+- **Brahmakund — heilige warmwaterbronnen/badervaring (Rajgir) [A* / ONLY_IF_NATURAL_CORRIDOR_BYCATCH / SKIP_FIRST]**
+- **Vishwa Shanti Stupa + Rajgir Ropeway — Peace Pagoda + kabelbaan (Rajgir) [B / ONLY_IF_RAJGIR_ALREADY_HAPPENS]**
+- **Patharkatti / Pattharkatti — zwartsteen-ambachtsdorp (Gaya district) [C]**
+- **Sher Shah Suri Tomb — watermausoleum (Sasaram) [C]**
+- **Gaya Tilkut — winterse lokale zoetigheid (Gaya) [A* / SKIP_FIRST]**
+- **Mangala Gauri Temple — Shakti-tempel op heuvel (Gaya) [C]**
 
 ## Source-layer closure
-The strict Lonely Planet Bodh Gaya/corridor layer has already been surfaced and reconciled in `BODHGAYA_STRICT_LP_LAYER_GATE_2026-08-27.md`. With this six-item ballot now closed, there is no remaining actionable LP item requiring a Mark grade before execution geometry.
+The strict Lonely Planet Bodh Gaya/corridor layer has already been surfaced and reconciled in `BODHGAYA_STRICT_LP_LAYER_GATE_2026-08-27.md`. No new content ballot is created by this correction.
 
-## Execution-geometry correction — sequence and corridor are mandatory
-Bodh geometry may NOT be built only as hotel-centred out-and-back excursions.
+## HARD PRESENTATION LESSON — DISTANCE BEFORE GRADE
+This correction exists because the earlier presentation let a subjective grade be interpreted without enough spatial burden.
 
-Current larger topology hypothesis that must be visible while building this cluster:
-`... -> AGRA -> optional PRAYAGRAJ OR direct AGRA->GAYA -> BODH GAYA/GAYA -> VARANASI/SARNATH -> SOUTH`.
+Before Mark grades or regrades any future location, INDIA must expose:
+- km + conservative time from selected hotel/base;
+- km + conservative time from nearest retained A+/A;
+- distance/time to natural companion stops;
+- logical `je bent er toch` combinations;
+- whether the item creates a half/full extra day;
+- predecessor/successor corridor and NET extra km/time.
 
-For every non-local retained A/A*/B — especially Rajgir/Brahmakund — compare:
-- dedicated `Bodh Gaya base -> site -> Bodh Gaya base`;
-- capture on the incoming predecessor transfer;
-- capture on the outgoing transfer toward Varanasi;
-- practical extra km/time versus the direct baseline;
-- any natural companion B/A* that becomes cheap once already there;
-- backtracking and whole human-time cost.
+A B can become A in Mark's judgment when nearly free beside an A+. An attractive A can become A*/C when it costs a separate day. INDIA owns the geography; Mark must not be expected to know it.
 
-Do not call Rajgir a separate day merely because it is ~70 km from the Bodh Gaya base. First prove whether it is or is not near the actual incoming/outgoing transfer spine. Conversely, do not call it corridor-friendly without practical road geometry.
+## CURRENT RAJGIR GEOMETRY CONSEQUENCE
+Current practical benchmark:
+- Bodh Gaya -> Rajgir: ~71.5 km raw road benchmark; raw drive source ~1 h 11 min, but use ~1 h 30 min conservative planning one-way.
+- Out-and-back alone: ~143 km / ~3 h planned driving before any visit time.
+- **Brahmakund — heilige warmwaterbronnen/badervaring (Rajgir) [A* / corridor-only]**: ~1.5–2 h experiential block if ever valid.
+- **Vishwa Shanti Stupa + Rajgir Ropeway — Peace Pagoda + kabelbaan (Rajgir) [B / host-only]**: about 3–5 km class from the hot-spring zone, ~10–15 min conservative local drive, then ~1.5–2 h including ropeway/queue/visit.
+- Combined dedicated Rajgir excursion from Bodh Gaya therefore trends ~7–9 h door-to-door with meal/access buffers.
+- Current expected predecessor/successor geometry does not make Rajgir a natural bycatch. Therefore **do not allocate this extra day**.
 
 ## Next planning action
-Bodh Gaya/Gaya has passed Layer A CONTENT for the current known source universe. INDIA should now proceed automatically to Layer B EXECUTION GEOMETRY: map retained A+/A into geographic day bundles, assign A* SKIP_FIRST and B conditional homes, count honest movement and internal travel **including predecessor/successor corridor deltas**, then move to Layer C where Mark judges only the actual pace/dwell footprint. No new Bodh content ballot is required unless genuinely new material later appears.
+Rebuild Bodh Gaya execution geometry WITHOUT a mandatory Rajgir day. Show a full proximity matrix around the actual hotel and A+ anchors, then let Mark judge only remaining subjective pace/dwell where genuinely needed.
