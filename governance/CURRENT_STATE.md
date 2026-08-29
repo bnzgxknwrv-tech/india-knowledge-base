@@ -1,6 +1,6 @@
 # CURRENT STATE — INDIA
 
-state_revision: 2026-08-29_FINAL_COMFORT_HANDOFF_HARDENED_CCI18
+state_revision: 2026-08-29_MAP_COORDINATE_VERIFICATION_HARDENED_CCI_COMPLETE
 branch: `agent/india8-cluster-casting`
 status: FIXED_CORE_DURATION_CLOSURE_ACTIVE
 boot_authority: `governance/INDIA_MASTER_BOOT.md`
@@ -8,62 +8,77 @@ trip_frame: `governance/TRIP_FRAME_HARD.md`
 current_decisions: `governance/CURRENT_DECISIONS_MASTER.md`
 decision_ledger: `governance/DECISION_LEDGER.jsonl`
 planning_service_standard: `governance/INDIA_HUMAN_CENTERED_COMPLEX_TRIP_PLANNING_STANDARD.md`
+map_verification_rule: `governance/MAP_COORDINATE_VERIFICATION_RULE.md`
 final_comfort_rule: `governance/FINAL_COMFORT_SWEEP_RULE_2026-08-23.md`
 
-## LAST MATERIAL EVENT — FINAL COMFORT / FOOD / HUMAN-TEXTURE HANDOFF HARDENED
+## LAST MATERIAL EVENT — MAP / COORDINATE DECISION-INTEGRITY HARDENING
+Mark caught a dramatic user-facing map failure: the rendered pin for **Dungeshwari / Mahakala Caves — Siddhartha's ascetengrotten vóór de verlichting (Gaya district) [A+]** was wrong, which visually made **Brahmakund — heilige warmwaterbronnen in de verre Rajgir-cluster (Nalanda district) [A* / route-only]** appear to lie on the way. Because Mark uses maps and proximity to make A/B/C decisions, this is a decision-corrupting error class.
+
+New hard governance:
+- `governance/MAP_COORDINATE_VERIFICATION_RULE.md` is now ALWAYS-READ through `INDIA_MASTER_BOOT.md`;
+- no decision-relevant map pin from a name-only/unverified geocoder result;
+- resolve exact physical entity + authoritative identity/location where available + reliable coordinate/business ref/address + independent cross-check where practical + same-name disambiguation + geographic sanity check;
+- unresolved coordinate = **NO PIN**, never a guessed pin;
+- actual route/proximity conclusions require road/walk routing evidence, not visual map alignment;
+- if Mark spots one map inconsistency, invalidate all map-derived conclusions from that rendering and reverify EVERY pin on the map;
+- prefer no map over a plausible-looking wrong map.
+
+Bodh cluster verified pin registry:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_VERIFIED_MAP_COORDINATES_2026-08-29.md`
+
+Current verified map anchors include:
+- Mahabodhi exact UNESCO property centre: `24.695280,84.993890`;
+- Great Buddha exact object: `24.690468,84.981794`;
+- Sujata Stupa exact object: `24.697920,85.003380`;
+- Dungeshwari Cave Temple exact/cross-checked object: `24.736683,85.047584`;
+- Rajgir Brahmakund exact locator `2C79+6C5`, recovered full code `7MQ72C79+6C5`, centre approximately `25.013013,85.418609`;
+- Vishwa Shanti Stupa exact/cross-checked hilltop object: `25.004520,85.444530`;
+- Maya Heritage: verified exact business identity/address; because secondary numeric pins conflict, use verified business entity/address rather than inventing a manual lat/lon.
+
+Geographic sanity check: the verified Dungeshwari pin is only ~7.1 km straight from Mahabodhi and the official locality class is ~12 km north-east by road/local description. The verified Rajgir Brahmakund pin is ~48.4 km straight from Dungeshwari and therefore plainly NOT on the local Bodh Gaya -> Dungeshwari cave excursion.
+
+## FINAL COMFORT / FOOD / HUMAN-TEXTURE HANDOFF — STILL HARD
 Mark explicitly reminded INDIA that the end-stage comfort layer must survive successor handoff: when the real route/day is known, INDIA must tell him where, near the place he actually is, he can get genuinely good coffee, breakfast, lunch, dinner and other memorable/practical comfort stops.
 
-This was not new from zero: the durable profile already contained FOOD / HUMAN TEXTURE and `FINAL_COMFORT_SWEEP_RULE_2026-08-23.md` already made the final comfort sweep mandatory. The weakness was that the master successor boot only named `FINAL COMFORT SWEEP / DAY CARDS` without carrying the executable detail.
-
-Now hardened:
-- `governance/FINAL_COMFORT_SWEEP_RULE_2026-08-23.md` explicitly anchors research to the actual chosen hotel/ashram and actual day endpoints;
-- mandatory categories now explicitly include early breakfast, genuinely good coffee, lunch, dinner, historic/cult bakery/patisserie, local sweets/regional specialties, characterful café/tea, deliberately good restaurants and transfer-day comfort;
-- each recommendation must show what to order, real distance/time from where Mark actually is, opening/daypart fit, reservation/access risk, detour cost and whether the detour is worth it;
+Hardened state:
+- `governance/FINAL_COMFORT_SWEEP_RULE_2026-08-23.md` anchors research to actual chosen hotel/ashram and actual day endpoints;
+- mandatory categories include early breakfast, genuinely good coffee, lunch, dinner, historic/cult bakery/patisserie, local sweets/regional specialties, characterful café/tea, deliberately good restaurants and transfer-day comfort;
+- each recommendation must show what to order, real distance/time, opening/daypart fit, reservation/access risk, detour cost and whether worth it;
 - no generic top-10 restaurant dumps;
-- volatile food/opening facts are live-rechecked at final comfort stage;
-- this layer enriches a settled trip and may not silently force a route bend, extra hotel night or loss of protected A+/A content;
-- `governance/INDIA_MASTER_BOOT.md` now makes the detailed comfort rule an ALWAYS-READ durable memory file, includes the full checksum in §9 and tests it in the successor boot self-test.
-
-Final day cards are not considered complete until this sweep has been done for every retained base / relevant day corridor.
+- volatile food/opening facts live-rechecked at final comfort stage;
+- final day cards are not complete until the sweep exists for every retained base/relevant day corridor.
 
 ## SERVICE ARCHITECTURE UPGRADE — STILL CURRENT
-Mark asked INDIA to zoom out and improve its own service for an extremely complex trip rather than merely correcting individual Bodh errors.
-
-New HARD always-read standard:
+Hard always-read standard:
 `governance/INDIA_HUMAN_CENTERED_COMPLEX_TRIP_PLANNING_STANDARD.md`
-
-It is mandatory immediate successor memory through `INDIA_MASTER_BOOT.md`.
 
 Core service correction:
 - Mark supplies subjective taste/meaning; INDIA supplies the decision environment.
-- Before a burden-sensitive grade/choice, INDIA must expose intrinsic value separately from marginal burden, robustness and confidence.
+- Before a burden-sensitive grade/choice, expose intrinsic value separately from marginal burden, robustness and confidence.
 - Build pairwise proximity/microcluster matrices, not just hotel->site distances.
-- Proactively state `je bent er toch` combinations and exact extra km/minutes.
+- Proactively state `je bent er toch` combinations and extra km/minutes.
 - Compare WITH vs WITHOUT candidate and show NET marginal burden.
-- State what a choice displaces: another site, recovery, sacred dwell, early night, hotel night or route simplicity.
+- State displacement/opportunity cost.
 - Include opening/time-window/daypart/climate/daylight fit.
-- Model human energy: overnight trains, early alarms, long drives/walks are not free.
-- Stress-test important days at +30/+60 min and classify ROBUST / SENSITIVE / BRITTLE / OVERLOADED; name first sacrificial B/A*.
-- Maintain uncertainty classes: VERIFIED / PROVISIONAL / DECISION-CRITICAL UNKNOWN / LIVE-RECHECK-LATER.
-- Research priority uses VALUE OF INFORMATION: solve unknowns now only when they can materially change grade, route, duration, base, booking or safety.
-- Use rolling-wave detail: no false precision early, but uncertainty may not be used as an excuse to avoid useful provisional planning.
-- Compare genuine alternatives through scenario DELTAS rather than repetitive full itineraries.
-- Track reversibility/booking urgency and whole-trip cumulative burden.
-- Run a pre-mortem before cluster/calendar closure: likely ways this plan could later feel badly planned.
-
-External methods inform HOW INDIA serves Mark; they never override Mark-only subjective decisions.
+- Model human energy.
+- Stress-test +30/+60 min and classify ROBUST / SENSITIVE / BRITTLE / OVERLOADED; name first sacrificial B/A*.
+- Maintain VERIFIED / PROVISIONAL / DECISION-CRITICAL UNKNOWN / LIVE-RECHECK-LATER.
+- Research priority follows value of information.
+- Use rolling-wave detail, scenario deltas, reversibility/booking urgency, whole-trip cumulative burden and pre-mortems.
 
 ## BODH RECOVERY CONSEQUENCE
-The service upgrade was triggered by the Bodh geometry failure and preserves the corrected current truth:
-- **Brahmakund — heilige warmwaterbronnen/badervaring (Rajgir) [A* / ONLY_IF_NATURAL_CORRIDOR_BYCATCH / SKIP_FIRST]**; no dedicated Rajgir excursion.
-- **Vishwa Shanti Stupa + Rajgir Ropeway — Peace Pagoda + kabelbaan (Rajgir) [B / ONLY_IF_RAJGIR_ALREADY_HAPPENS]**.
-- current expected corridor does not naturally pass Rajgir; ~71.5 km one way from Bodh Gaya / use ~1 h 30 min planning each way; dedicated combo ~7–9 h door-to-door and is therefore absent from the working plan.
+Current truth after the earlier burden correction remains:
+- **Brahmakund — heilige warmwaterbronnen/badervaring in de verre Rajgir-cluster (Nalanda district) [A* / ONLY_IF_NATURAL_CORRIDOR_BYCATCH / SKIP_FIRST]**; no dedicated Rajgir excursion under current route.
+- **Vishwa Shanti Stupa + Rajgir Ropeway — Peace Pagoda + kabelbaan in dezelfde verre Rajgir-cluster (Nalanda district) [B / ONLY_IF_RAJGIR_ALREADY_HAPPENS]**.
+- the verified map now independently confirms these are a separate Rajgir microcluster, not on the local Dungeshwari cave excursion.
 
 Canonical corrected artifacts:
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_OPEN_BATCH_MARK_DECISIONS_2026-08-28.md`
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_EXECUTION_GEOMETRY_2026-08-28.md`
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_VERIFIED_MAP_COORDINATES_2026-08-29.md`
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_PROXIMITY_DECISION_MODEL.md`
 - `governance/INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md`
+- `governance/MAP_COORDINATE_VERIFICATION_RULE.md`
 
 ## BODH STAY / HOTEL CURRENT
 Mark selected **Maya Heritage — kleiner rustig middenklassehotel tegenover Wat Thai Buddhagaya, op praktische loopafstand van de Mahabodhi-tempelkern (Bodh Gaya) [HOTEL LOCKED_BY_MARK]**.
@@ -76,29 +91,31 @@ Bodh stay rhythm:
 
 Hotel practical Mahabodhi visitor-approach research: roughly 650–900 m / 9–13 min; use ~10–15 min conservative walk planning.
 
-## HARD CCI INTERIM-REPORT WATCH — MARK 2026-08-29
-CCI is running the full-repository semantic harvest on branch `agent/cci-full-repo-knowledge-harvest`. Mark explicitly instructed CCI to publish interim reports because the task repeatedly runs through context/token windows.
-
-From now on:
-- before any major India synthesis, integration, route/duration conclusion, successor-memory change, or other substantive project conclusion, check the CCI harvest branch for a newer head and new interim/checkpoint/semantic-summary outputs;
-- treat new CCI interim reports as additional recovery evidence that may surface forgotten preferences, decision WHY, anti-regression rules, route/canon knowledge or successor-memory gaps;
-- do not wait for CCI COMPLETE if a useful interim report already exists;
-- reconcile useful CCI findings against current Mark authority before adopting them; CCI never changes Mark-only A+/A/A*/B/C or other subjective decisions by itself;
-- an hourly condition-watch can supplement this, but the in-turn pre-major-work check remains mandatory.
-
+## CCI FULL-REPOSITORY HARVEST — COMPLETE / STILL RECONCILIATION EVIDENCE
 Latest checked CCI head at 2026-08-29:
-`96f85ddde4adf0b9b6cfee8aeab71edab8ae8b51` — `checkpoint 18: SUCCESSOR PARITY TEST iteration 9 ... atoms 205 -> 206`.
+`b5349afe41f98eb4870728aaff2c633899afc1fa` — **checkpoint 19: HARVEST_COMPLETE**.
 
-CCI is no longer merely at blob inventory. Useful interim semantic/reconciliation outputs now exist under `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/`, including:
+CCI reports:
+- 4,192 manifest rows;
+- 2,002 unique branch blobs;
+- 89 recovered deleted blobs;
+- 218 PR comments;
+- 206 knowledge atoms;
+- `100_PERCENT_SEMANTIC_COVERAGE = YES` in its task terminology;
+- `SUCCESSOR_PARITY_TEST = PASS` after nine parity iterations;
+- explicit bounded residual-risk statement rather than an absolute claim that no fact can ever be missed.
+
+Useful outputs under `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/` include:
 - `SUCCESSOR_START_HERE.md`;
 - `MARK_CURRENT_CANON_MASTER.md`;
 - `PROJECT_PHILOSOPHY_AND_SELECTION_MODEL.md`;
 - `CURRENT_TRAVEL_EXECUTION_CANON.md`;
 - `OPEN_MARK_DECISIONS_ONLY.md`;
 - `SUCCESSOR_EQUIVALENCE_ADDENDUM.md`;
-- `KNOWLEDGE_ATOMS.jsonl` and supporting report/manifest files.
+- `KNOWLEDGE_ATOMS.jsonl`;
+- `HARVEST_REPORT.md`.
 
-Relevant recovered comfort confirmation: CCI's Mark canon explicitly preserves that human texture, local food, workshops/markets and meaningful accommodations can materially improve the journey when naturally integrated. This supports, but does not replace, the current central final-comfort rule.
+CCI output is recovery/QA evidence and does not independently change Mark-only A+/A/A*/B/C or other subjective decisions.
 
 ## HARD TRIP FRAME
 - Air India outbound: 18 Dec 2026 20:35 AMS -> DEL; arrival 19 Dec 10:15.
@@ -142,6 +159,7 @@ Mandatory sources:
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/INDIA12_RECOVERY_CANON_RECONCILIATION_2026-08-28.md`
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_OPEN_BATCH_MARK_DECISIONS_2026-08-28.md`
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_EXECUTION_GEOMETRY_2026-08-28.md`
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_VERIFIED_MAP_COORDINATES_2026-08-29.md`
 - `runs/active/INDIAHOTEL-BODHGAYA-001/MARK_HOTEL_DECISION_2026-08-28.md`
 
 Fixed current content:
@@ -163,11 +181,11 @@ Current proximity spine:
 - hotel -> Archaeological Museum B ~0.4–0.6 km / ~5–10 min walk;
 - hotel -> Great Buddha A ~0.7–1.0 km class / ~10–15 min walk;
 - hotel -> Tergar B ~1.7 km / ~20–25 min walk or ~5–10 min auto;
-- hotel/core -> Sujata A+ ~2–3 km class / ~10–15 min vehicle until foot route confirmed;
+- hotel/core -> Sujata A+ ~2–3 km road class / ~10–15 min vehicle until foot route confirmed;
 - hotel/core -> Dungeshwari A+ ~12 km official locality class / ~30–40 min vehicle;
 - Dungeshwari A+ -> Sujata A+ use ~30–40 min conservative connector pending live route closure.
 
-Rebuilt duration default: **2 hotel nights if early inbound arrival around ~08:30–09:00 is achieved; maximum 3 per Mark if arrival is later or more sacred-core depth is desired.** The earlier third full local day was inflated by the mistaken mandatory Rajgir assumption.
+Rebuilt duration default: **2 hotel nights if early inbound arrival around ~08:30–09:00 is achieved; maximum 3 per Mark if arrival is later or more sacred-core depth is desired.**
 
 ## CURRENT EAST-CORRIDOR STRUCTURE
 Strongest provisional fixed-core order remains:
@@ -193,13 +211,14 @@ No optional-cluster ballot until all six fixed cores + real mandatory edges prod
 - a question/hypothesis is never a Mark decision.
 - only Mark changes A+/A/A*/B/C, personal hotel/base, subjective dwell/pace.
 - action-first: if safe relevant work can be done now, do it; do not merely announce future research.
+- map-integrity-first: before any user-facing India map, exact entity + verified coordinate/business ref/address + disambiguation + sanity check; unresolved = no pin.
 - distance-first: before asking Mark to grade, show underlinge km/minuten and logical combinations; use conservative operational times.
 - decision-support-first: show marginal burden, displacement, robustness and confidence separately from subjective content value.
 - final-comfort-first-before-day-card: once route/calendar/day structure are stable, build actual-location-based food/coffee/comfort cards before calling final day cards complete.
 
 ## MEMORY / SUCCESSOR STATUS
-Durable top-layer architecture now includes master boot + behavioral contract + Mark profile + location naming/context protocol + human-centered complex-trip planning standard + **final comfort sweep rule** + hard trip frame + current decisions master + append-only ledger + current state + recovery deltas + knowledge map.
-The CCI repository-wide semantic harvest on `agent/cci-full-repo-knowledge-harvest` has advanced into semantic successor-parity/interim outputs; use the current interim reports subject to authority reconciliation.
+Durable top-layer architecture now includes master boot + behavioral contract + Mark profile + naming/context protocol + **map/coordinate verification rule** + human-centered complex-trip planning standard + final comfort sweep rule + hard trip frame + current decisions master + append-only ledger + current state + recovery deltas + knowledge map.
+CCI full-repository harvest is COMPLETE at checkpoint 19 and remains a semantic QA/recovery layer subject to current authority reconciliation.
 
 ## PR / WORKER RULE
 - PR #23 is relay/provenance, not automatically current truth.
