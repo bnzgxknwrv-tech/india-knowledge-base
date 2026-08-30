@@ -1,6 +1,6 @@
 # CURRENT STATE — INDIA
 
-state_revision: 2026-08-31_V8_1_SUCCESSOR_BOOT_STREAMLINED__INDIA14_AUTHORIZED__TRAVEL_FRONTIER_RAIL_FIRST
+state_revision: 2026-08-31_V8_1_SUCCESSOR_BOOT_STREAMLINED__INDIA14_AUTHORIZED__TAJ_YOGANANDA_CUE__TRAVEL_FRONTIER_RAIL_FIRST
 branch: `agent/india8-cluster-casting`
 status: INDIA14_CONTENT_AUTHORIZED__SUCCESSOR_BOOT_V8_1_STREAMLINED__NO_OPEN_BOOT_ARCHITECTURE_TASK
 boot_authority: `governance/INDIA_MASTER_BOOT.md` + `governance/FRESH_SESSION_BOOT_GATE.md` + `governance/BOOT_MANIFEST_V8.json`
@@ -46,6 +46,9 @@ This streamlining changes no A+/A/A*/B/C grade, hotel/base choice, route choice,
 
 Current fixed-A+-world skeleton remains:
 `DELHI -> KUMAON -> AGRA/TAJ -> BODH GAYA/GAYA -> VARANASI/SARNATH -> TIRUVANNAMALAI/ARUNACHALA -> DELHI/INTERNATIONAL EXIT`.
+
+## ONSITE MEMORY CUES — MUST SURFACE AT THE RELEVANT PLACE
+- `AGRA / Taj Mahal (wereldberoemd marmeren mausoleum; hoofdwereldmagnet van Agra) — A+ [UNESCO WH]`: Mark supplied a historical image he identifies as Paramahansa Yogananda with a group in front of the Taj Mahal and explicitly wants to be reminded of it when he is actually there / when the Taj visit-day card is executed. Source: `https://www.ananda.org/video/yoganandas-divine-consciousness-uplifting-photos-and-videos/`, exact supplied timecode **04:44**. Durable full cue/provenance: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/AGRA_TAJ_MAHAL_YOGANANDA_ONSITE_MEMORY_CUE_2026-08-31.md`. This is personal/spiritual visit texture only; no grade, duration or route change.
 
 ## CURRENT TRAVEL FRONTIER
 Boot architecture is no longer the project frontier.
