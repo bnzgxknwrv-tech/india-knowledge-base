@@ -335,4 +335,19 @@ Hard correction from V7:
 General principle:
 **GitHub can preserve perfect memory and still fail operationally if the current model does not actually load it. Successor safety therefore needs both durable memory and auditable fresh-session execution.**
 
+# R30 — BOOT-GENERATION DRIFT IS A HARD REGRESSION CLASS
+Failure exposed 2026-08-30 during the V7 -> V8 transition: `governance/BOOT_MANIFEST_V8.json` and `governance/FRESH_SESSION_BOOT_GATE.md` were correctly rewritten to V8 semantics, but `governance/INDIA_MASTER_BOOT.md` and `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md` still described V7 (no reference to the new manifest, an obsolete validator invocation, a stale version label), and `governance/boot_receipts/` — the directory V8 itself declares mandatory — did not exist. The structural validator caught exactly this: `does not point to canonical V8 manifest` against both stale files. This is a direct generalization of R28 (a mandatory file reachable only by pointer is not mandatory): here the failure mode is a mandatory *generation* reachable only by pointer in some owner files while other owner files still describe the prior generation.
+
+This is categorically different from R26 (map lagging master boot within one generation): R30 is **a new boot generation shipped as partially applied** — some governance files upgraded, others not, with no single machine-checkable authority to catch the split until the validator itself was hardened to check it.
+
+Hard correction, generalized:
+1. a boot-architecture generation (V6, V7, V8, ...) is NOT shipped until **every** file that owns/points to/enumerates the mandatory boot set is synchronized to that generation in the same change — the manifest, the master boot, the knowledge map, the fresh-session gate, the current-state/safe-state checkpoints, and the validator that checks all of them;
+2. a single machine-readable manifest (`BOOT_MANIFEST_V8.json`) is the sole authority for WHAT is mandatory; every prose file describes HOW/WHY/ORDER only and must structurally reference the manifest rather than duplicate a competing list that can silently drift;
+3. the structural validator must mechanically check that every owner/pointer file names the current manifest by filename — a version label in a status line is not sufficient if the file's actual content still describes the old mechanism (invocation syntax, receipt location, directory structure);
+4. `governance/scripts/validate_successor_boot.py` run with no arguments is the mandatory pre-flight generation-consistency check before any session trusts the boot files at all — a structural FAIL means the repository itself is mid-migration and no fresh session may treat its boot as complete;
+5. shipping a new generation is not complete until `CURRENT_STATE.md` and `SUCCESSOR_SAFE_STATE.md` are updated atomically to reference the new generation and the new checkpoint is committed together with the governance-file changes, not as a separate later cleanup.
+
+General principle:
+**A governance system with multiple owner files for the same boot concept will drift the moment one of those files is edited without the others. The fix is not "remember to update all of them" — memory is exactly what already failed once (R26, R28). The fix is one machine-readable manifest as sole authority, plus a validator that mechanically checks every other file still points at it.**
+
 END OF CURRENT RECOVERY DELTAS

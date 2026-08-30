@@ -6,6 +6,8 @@ Purpose: materialize the still-valid behavioral/regie rules recovered from INDIA
 
 This contract does NOT replace the detailed source rules. It is the mandatory executable checksum distilled from them.
 
+This contract does not own boot mechanics — `governance/BOOT_MANIFEST_V8.json` and `governance/INDIA_MASTER_BOOT.md` do. One pre-answer addition from V8: a structural validator PASS, or even a mechanical receipt PASS, is NOT by itself permission to send a substantive reply — treat `CONTENT_AUTHORIZATION: NOT_GRANTED` in the validator's own output as binding until an independent CHECK session (`governance/INDIA14_START_AND_INDEPENDENT_CHECK.md`) has separately passed. This is the same principle as the rest of this contract applied to the boot step itself: mechanical evidence of having done something is not the same as having verified it was done correctly.
+
 ## 0. AUTHORITY / FAILURE TRIGGER
 If Mark says or implies `we hadden dit al`, `zoek terug`, `je mist te veel`, `vorige INDIA wist dit`, or corrects the planning method itself:
 1. STOP making new travel conclusions;

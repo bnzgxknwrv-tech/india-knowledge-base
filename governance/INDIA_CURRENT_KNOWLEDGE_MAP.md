@@ -1,25 +1,27 @@
 # INDIA CURRENT KNOWLEDGE MAP — WAT MOET JE LEZEN / WAT IS OUD
 
-Status: **CURRENT LIVING SOURCE MAP — V5 / FRESH-SESSION-BOOT-PROOF + CCI-PARITY-SYNCHRONIZED**
+Status: **CURRENT LIVING SOURCE MAP — V8 / MANIFEST-DRIVEN + FRESH-SESSION-BOOT-PROOF + CCI-PARITY-SYNCHRONIZED**
 Updated: 2026-08-30
 Branch: `agent/india8-cluster-casting`
-Boot owner: `governance/INDIA_MASTER_BOOT.md` V7
+Canonical manifest: **`governance/BOOT_MANIFEST_V8.json`** — the single machine-readable authority for exactly which files/counts are mandatory. This map explains ROUTING and WHY; it does not define a competing mandatory set. If a count or file list below ever disagrees with the manifest, the manifest wins and this map must be corrected in the same change.
+Boot owner: `governance/INDIA_MASTER_BOOT.md` V8
 Decision-ledger migration: **DECISION_LEDGER_BACKFILL_COMPLETE**
 CCI parity source: immutable completed harvest `b5349afe41f98eb4870728aaff2c633899afc1fa`
 
 Purpose: every successor must know which files are ALWAYS current, which are required only for one cluster/topic, which are frozen recovery evidence, which are SEARCH_ONLY provenance, which may NEVER independently control current truth, and whether the CURRENT session actually executed the boot.
 
-## A. ALWAYS — EXACTLY FOLLOW MASTER BOOT V7
+## A. ALWAYS — EXACTLY FOLLOW MASTER BOOT V8 + BOOT_MANIFEST_V8.json
 
-`governance/INDIA_MASTER_BOOT.md` is the sole authority for the current every-boot read order. The knowledge map MUST NOT maintain a shorter competing boot list.
+`governance/BOOT_MANIFEST_V8.json` is the sole machine-readable authority for the mandatory central/CCI/active-cluster file sets and their counts. `governance/INDIA_MASTER_BOOT.md` is the sole authority for the read ORDER, receipt mechanics and gate sequencing built on top of that manifest. The knowledge map MUST NOT maintain a shorter or differently-numbered competing boot list; the list below is a human-readable mirror of the manifest's `central_required` array and must stay identical to it.
 
 Fresh-session rule before content:
 - every new INDIA session starts `UNBOOTED`, regardless of predecessor/chat/model summary;
 - `governance/FRESH_SESSION_BOOT_GATE.md` is an explicit mandatory read, not a pointer-only file;
-- after all reads, `governance/BOOT_SESSION_RECEIPT.md` must be updated for the CURRENT session and must show `BOOT_GATE: PASS` before substantive work;
+- after all reads, the CURRENT session must write a NEW append-only receipt under `governance/boot_receipts/INDIA<N>__<NONCE>.json` (per `governance/BOOT_MANIFEST_V8.json`'s `receipt_directory`/`receipt_mode`) showing `boot_gate: PASS`, and pass `governance/scripts/validate_successor_boot.py --require-session-receipt <path> --expected-session <N> --expected-nonce <NONCE>`; `governance/BOOT_SESSION_RECEIPT.md` may still be refreshed as a human pointer but is never itself sufficient proof;
+- even a mechanical receipt PASS is not content authorization until an independent CHECK session passes (`governance/INDIA14_START_AND_INDEPENDENT_CHECK.md`);
 - partial/truncated/summary-only reads do not count.
 
-Current master boot V7 requires the central durable core including:
+Current master boot V8 requires the central durable core including:
 - `governance/FRESH_SESSION_BOOT_GATE.md`;
 - `governance/INDIA_MASTER_BOOT.md`;
 - `governance/INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md`;
@@ -48,7 +50,7 @@ Then the mandatory CCI successor-parity layer at immutable completed commit `b53
 
 CCI is frozen recovery/reconciliation evidence, not a time machine. Newer explicit Mark decisions and newer current central artifacts win. In particular, old CCI frontier text and old route hypotheses must be reconciled, never copied blindly.
 
-`governance/BOOT_SESSION_RECEIPT.md` is a mandatory fresh-session OUTPUT, not a shortcut input. It records exact BOOT_HEAD, file/blob evidence, 15/15 + 6/6 full reads, no unfinished truncation, no summary substitution, active-cluster gate and control-veto checksum. Git history preserves prior receipts.
+The append-only receipt at `governance/boot_receipts/INDIA<N>__<NONCE>.json` is the mandatory fresh-session OUTPUT, not a shortcut input. It records exact BOOT_HEAD, per-file blob evidence and byte-level read coverage, 15/15 + 6/6 full reads, no unfinished truncation, no summary substitution, active-cluster gate, proof-of-read quotes and control-veto checksum. Being append-only, prior sessions' receipts are never overwritten. `governance/BOOT_SESSION_RECEIPT.md` may be refreshed as a convenience pointer to the latest one but carries no independent authority.
 
 Reference only when needed: CCI `KNOWLEDGE_ATOMS.jsonl`, `COVERAGE_MANIFEST.csv`, `HARVEST_REPORT.md`, `work/NEW_KNOWLEDGE_CANDIDATES.md`.
 
@@ -271,7 +273,7 @@ After every material event, not only Mark decisions:
 5. update recovery deltas for reusable failure traps;
 6. update THIS map whenever a successor must know a new source path or a current source is superseded;
 7. keep `SUCCESSOR_SAFE_STATE.md` current and atomically aligned with CURRENT_STATE when both change;
-8. every fresh successor updates `BOOT_SESSION_RECEIPT.md` only after complete 15/15 central + 6/6 CCI reads and before content;
+8. every fresh successor writes a new `governance/boot_receipts/INDIA<N>__<NONCE>.json` (and may refresh `BOOT_SESSION_RECEIPT.md` as a pointer) only after complete 15/15 central + 6/6 CCI reads and before content;
 9. before reply test: `IF THIS CHAT DIES NOW, CAN INDIA(N+1) RECOVER THIS FROM MASTER BOOT + THIS MAP WITHOUT MARK?`
 
 **MAP-SYNC GUARD:** after every change to `INDIA_MASTER_BOOT.md` that adds/removes/changes a mandatory read, update section A of this map in the same execution cycle. After every frontier closure or material operational-frontier change, update section B and the relevant cluster section in the same execution cycle. A stale map is a successor-memory failure, not harmless documentation drift.

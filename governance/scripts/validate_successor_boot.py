@@ -1,43 +1,97 @@
 #!/usr/bin/env python3
-"""Fail-closed INDIA successor boot validator — V8.
+"""Fail-closed INDIA successor boot validator — V8 (hardened finalization).
 
 Authoritative boot membership comes from governance/BOOT_MANIFEST_V8.json.
 Boot PASS requires an append-only per-session JSON receipt and explicit
---require-session-receipt mode. Warnings are fatal in receipt mode.
+--require-session-receipt <path> mode, with --expected-session and
+--expected-nonce also mandatory in that mode. Warnings are fatal in receipt
+mode: every inability-to-verify condition is treated as FAIL, never as a
+soft pass.
+
+HONEST LIMIT: this script cannot prove what a model actually attended to.
+It proves machine-checkable facts only — pinned git content, blob identity,
+ancestor/branch/cleanliness of the repository state, receipt structure, and
+literal verbatim substrings of the pinned source text. A mechanical PASS is
+therefore explicitly NOT content authorization; only an independent second
+CHECK session (see governance/INDIA14_START_AND_INDEPENDENT_CHECK.md) can
+grant that.
+
+RECEIPT COMMIT SHAPE (read this before writing a receipt by hand): a
+commit's hash cannot be known before its own content is fixed, so a
+receipt's `boot_head_final` field can never literally equal the hash of the
+very commit that adds the receipt file (that would require finding content
+whose hash matches a value embedded in that same content — a hash-puzzle
+search, not something a session does by design). The required shape is
+therefore two commits: first commit all mandatory content and call ITS hash
+`boot_head_final`; then, as a SEPARATE follow-up commit whose diff contains
+ONLY the new receipt file and nothing else, commit the receipt itself. The
+validator checks exactly this: current HEAD's first parent must equal
+`boot_head_final`, and the diff between them must be exactly the one
+receipt file.
 """
 from __future__ import annotations
-import argparse, json, re, subprocess, sys
+
+import argparse
+import json
+import re
+import subprocess
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 MANIFEST = ROOT / "governance/BOOT_MANIFEST_V8.json"
+RECOVERY_DELTAS = "governance/INDIA_RECOVERY_DELTAS_CURRENT.md"
+CURRENT_STATE = "governance/CURRENT_STATE.md"
+SAFE_STATE = "governance/SUCCESSOR_SAFE_STATE.md"
+CROSS_REF_FILES = [
+    "governance/INDIA_MASTER_BOOT.md",
+    "governance/INDIA_CURRENT_KNOWLEDGE_MAP.md",
+    "governance/FRESH_SESSION_BOOT_GATE.md",
+]
 
 p = argparse.ArgumentParser()
 p.add_argument("--require-session-receipt", dest="receipt", default=None,
-               help="path to append-only per-session JSON receipt")
-p.add_argument("--expected-session", default=None)
-p.add_argument("--expected-nonce", default=None)
+               help="path to append-only per-session JSON receipt, "
+                    "e.g. governance/boot_receipts/INDIA14__<NONCE>.json")
+p.add_argument("--expected-session", default=None,
+                help="mandatory in receipt mode: exact expected INDIA session label")
+p.add_argument("--expected-nonce", default=None,
+                help="mandatory in receipt mode: exact expected start-prompt nonce")
 args = p.parse_args()
 
 errors: list[str] = []
 
-def fail(msg: str): errors.append(msg)
+
+def fail(msg: str) -> None:
+    errors.append(msg)
+
 
 def git(*a: str) -> str:
     return subprocess.check_output(["git", *a], cwd=ROOT, text=True, stderr=subprocess.STDOUT).strip()
 
+
+def git_ok(*a: str) -> bool:
+    return subprocess.run(["git", *a], cwd=ROOT, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL).returncode == 0
+
+
+# ---------------------------------------------------------------------------
+# Manifest load + structural checks (also run in structural/default mode)
+# ---------------------------------------------------------------------------
 if not MANIFEST.is_file():
     fail("missing governance/BOOT_MANIFEST_V8.json")
     manifest = {}
 else:
-    try: manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    try:
+        manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
     except Exception as e:
-        fail(f"invalid boot manifest JSON: {e}"); manifest = {}
+        fail(f"invalid boot manifest JSON: {e}")
+        manifest = {}
 
 central = manifest.get("central_required", [])
 cci = manifest.get("cci_required", [])
 active = manifest.get("active_cluster_required", [])
 cci_commit = manifest.get("cci_commit", "")
+manifest_branch = manifest.get("branch", "")
 
 if len(central) != 15: fail(f"manifest central count {len(central)} != 15")
 if len(cci) != 6: fail(f"manifest CCI count {len(cci)} != 6")
@@ -47,14 +101,19 @@ if len(set(cci)) != len(cci): fail("duplicate CCI path in manifest")
 if len(set(active)) != len(active): fail("duplicate active-cluster path in manifest")
 
 for rel in central + active:
-    if not (ROOT / rel).is_file(): fail(f"missing manifest file: {rel}")
+    if not (ROOT / rel).is_file():
+        fail(f"missing manifest file: {rel}")
 
-# Structural cross-reference: master + map must name manifest, not maintain a competing authority.
-for rel in ["governance/INDIA_MASTER_BOOT.md", "governance/INDIA_CURRENT_KNOWLEDGE_MAP.md", "governance/FRESH_SESSION_BOOT_GATE.md"]:
+# Structural cross-reference: master + map + gate must name manifest, not
+# maintain a competing authority.
+for rel in CROSS_REF_FILES:
     fp = ROOT / rel
-    if not fp.is_file(): fail(f"missing {rel}"); continue
+    if not fp.is_file():
+        fail(f"missing {rel}")
+        continue
     txt = fp.read_text(encoding="utf-8")
-    if "BOOT_MANIFEST_V8.json" not in txt: fail(f"{rel} does not point to canonical V8 manifest")
+    if "BOOT_MANIFEST_V8.json" not in txt:
+        fail(f"{rel} does not point to canonical V8 manifest")
 
 # Existing crash-safe hard fields remain mandatory.
 safe = ROOT / "governance/SUCCESSOR_SAFE_STATE.md"
@@ -62,7 +121,8 @@ if safe.is_file():
     st = safe.read_text(encoding="utf-8")
     if "STATUS: SAFE_TO_HANDOFF" not in st: fail("safe state not SAFE_TO_HANDOFF")
     if not re.search(r"UNSAVED_RISK:\s*\nGEEN", st): fail("safe state UNSAVED_RISK is not GEEN")
-else: fail("missing SUCCESSOR_SAFE_STATE.md")
+else:
+    fail("missing SUCCESSOR_SAFE_STATE.md")
 
 if args.receipt is None:
     # Deliberately NOT a boot PASS. Structural mode cannot authorize content.
@@ -71,54 +131,155 @@ if args.receipt is None:
         for e in errors: print(f"- {e}")
         sys.exit(1)
     print("INDIA_BOOT_STRUCTURE: PASS")
-    print("BOOT_AUTHORIZATION: NOT_GRANTED — rerun with --require-session-receipt")
+    print("CONTENT_AUTHORIZATION: NOT_GRANTED — structural mode only; "
+          "rerun with --require-session-receipt <path> --expected-session <s> --expected-nonce <n>")
     sys.exit(2)
 
+# ---------------------------------------------------------------------------
+# Receipt / authorization mode — every inability to verify is fatal here.
+# ---------------------------------------------------------------------------
+if not args.expected_session:
+    fail("--expected-session is mandatory in receipt mode")
+if not args.expected_nonce:
+    fail("--expected-nonce is mandatory in receipt mode")
+
 receipt_path = ROOT / args.receipt
-if not receipt_path.is_file(): fail(f"receipt not found: {args.receipt}")
-try:
-    receipt = json.loads(receipt_path.read_text(encoding="utf-8")) if receipt_path.is_file() else {}
-except Exception as e:
-    fail(f"invalid receipt JSON: {e}"); receipt = {}
+if not receipt_path.is_file():
+    fail(f"receipt not found: {args.receipt}")
+    receipt = {}
+else:
+    try:
+        receipt = json.loads(receipt_path.read_text(encoding="utf-8"))
+    except Exception as e:
+        fail(f"invalid receipt JSON: {e}")
+        receipt = {}
 
 # Append-only path and identity binding.
 if not args.receipt.startswith("governance/boot_receipts/"):
     fail("receipt is not under append-only governance/boot_receipts/")
 session = receipt.get("india_session")
 nonce = receipt.get("nonce")
-if args.expected_session and session != args.expected_session: fail(f"session mismatch: {session} != {args.expected_session}")
-if args.expected_nonce and nonce != args.expected_nonce: fail("nonce mismatch")
-if not session or not nonce: fail("receipt missing session or nonce")
+if args.expected_session and session != args.expected_session:
+    fail(f"session mismatch: {session} != {args.expected_session}")
+if args.expected_nonce and nonce != args.expected_nonce:
+    fail("nonce mismatch")
+if not session or not nonce:
+    fail("receipt missing session or nonce")
 if receipt.get("boot_gate") != "PASS": fail("receipt boot_gate != PASS")
 if receipt.get("summary_substitution_used") is not False: fail("summary substitution not explicitly false")
 if receipt.get("unfinished_truncations") != 0: fail("unfinished truncations != 0")
 
+created = receipt.get("receipt_created_utc", "")
+if not re.fullmatch(r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z", created or ""):
+    fail("receipt_created_utc missing or not a valid UTC ISO-8601 timestamp")
+
 # Manifest must be exact source of truth.
 if receipt.get("manifest_path") != "governance/BOOT_MANIFEST_V8.json": fail("receipt manifest_path mismatch")
-try: manifest_blob = git("hash-object", "governance/BOOT_MANIFEST_V8.json")
-except Exception as e: fail(f"cannot hash manifest: {e}"); manifest_blob = None
-if manifest_blob and receipt.get("manifest_blob") != manifest_blob: fail("receipt manifest blob mismatch")
+try:
+    manifest_blob = git("hash-object", "governance/BOOT_MANIFEST_V8.json")
+except Exception as e:
+    fail(f"cannot hash manifest: {e}")
+    manifest_blob = None
+if manifest_blob and receipt.get("manifest_blob") != manifest_blob:
+    fail("receipt manifest blob mismatch")
 
 initial = receipt.get("boot_head_initial", "")
 final = receipt.get("boot_head_final", "")
 if not re.fullmatch(r"[0-9a-f]{40}", initial or ""): fail("invalid boot_head_initial")
 if not re.fullmatch(r"[0-9a-f]{40}", final or ""): fail("invalid boot_head_final")
 
-# Branch delta must be represented; final must be current HEAD when validator runs.
-try: actual_head = git("rev-parse", "HEAD")
-except Exception as e: fail(f"cannot resolve HEAD: {e}"); actual_head = None
-if actual_head and final != actual_head: fail(f"receipt final head stale: {final} != {actual_head}")
+# Branch delta must be represented; `final` is the pinned content boundary
+# the session actually verified. `final` cannot literally equal the commit
+# that adds the receipt file itself (that commit's hash cannot be known
+# until after its content — including this very field — is fixed, which
+# would require a hash-puzzle search to satisfy exactly). Instead: current
+# HEAD must be either exactly `final`, or exactly ONE commit ahead of
+# `final` whose ENTIRE diff is adding this one receipt file and nothing
+# else — i.e. content was fully pinned at `final`, then the receipt
+# recording that fact was committed on top, untangled from any other change.
+try:
+    actual_head = git("rev-parse", "HEAD")
+except Exception as e:
+    fail(f"cannot resolve HEAD: {e}")
+    actual_head = None
+if actual_head and final:
+    if final == actual_head:
+        fail("receipt final head must not equal current HEAD directly: "
+             "the receipt commit itself must sit on top of boot_head_final "
+             "as its own single commit (see script docstring)")
+    else:
+        try:
+            first_parent = git("rev-parse", f"{actual_head}^")
+        except Exception as e:
+            fail(f"cannot resolve parent of HEAD: {e}")
+            first_parent = None
+        if first_parent != final:
+            fail(f"receipt final head stale: current HEAD's parent {first_parent} "
+                 f"!= receipt boot_head_final {final} (more than one commit, or an "
+                 f"unrelated commit, lies between the pinned content and current HEAD)")
+        else:
+            try:
+                receipt_commit_files = git("diff", "--name-only", final, actual_head).splitlines()
+            except Exception as e:
+                fail(f"cannot diff receipt commit: {e}")
+                receipt_commit_files = None
+            if receipt_commit_files != [args.receipt]:
+                fail(f"receipt commit on top of boot_head_final must add ONLY the receipt "
+                     f"file itself; found: {receipt_commit_files}")
 
-# Per-file attestation sets must match manifest exactly.
+# Branch identity: current branch must equal the manifest's declared branch.
+try:
+    current_branch = git("branch", "--show-current")
+except Exception as e:
+    fail(f"cannot resolve current branch: {e}")
+    current_branch = ""
+if not current_branch:
+    fail("cannot verify branch: detached HEAD (inability to verify is fatal in receipt mode)")
+elif manifest_branch and current_branch != manifest_branch:
+    fail(f"wrong branch: {current_branch} != manifest branch {manifest_branch}")
+
+# Clean tracked working tree: all proof text below is read from pinned git
+# refs, never from a possibly-edited working tree.
+try:
+    dirty = git("status", "--porcelain", "--untracked-files=no")
+except Exception as e:
+    fail(f"cannot check working tree cleanliness: {e}")
+    dirty = "unknown"
+if dirty:
+    fail("tracked working tree is not clean; cannot trust proof against pinned refs")
+
+# initial HEAD must be an ancestor of final HEAD.
+if initial and final:
+    if not git_ok("merge-base", "--is-ancestor", initial, final):
+        fail(f"boot_head_initial {initial[:12]} is not an ancestor of boot_head_final {final[:12]}")
+
+# The receipt file itself must exist committed in the tree at current HEAD —
+# not merely present on disk / staged. (It is deliberately NOT expected to
+# exist yet at `final` — see the head-binding block above.)
+if actual_head and re.fullmatch(r"[0-9a-f]{40}", actual_head or ""):
+    if not git_ok("cat-file", "-e", f"{actual_head}:{args.receipt}"):
+        fail(f"receipt not committed at current head: {args.receipt} not found in {actual_head[:12]}")
+
+# Per-file attestation sets must match manifest exactly, and content is
+# fetched from the pinned ref via `git show`, never from the working tree.
 def attest_map(key: str):
     rows = receipt.get(key, [])
-    if not isinstance(rows, list): fail(f"{key} is not list"); return {}
+    if not isinstance(rows, list):
+        fail(f"{key} is not list")
+        return {}
     out = {}
     for row in rows:
-        if not isinstance(row, dict) or not row.get("path"): fail(f"bad attestation row in {key}"); continue
-        if row["path"] in out: fail(f"duplicate attestation {row['path']}")
+        if not isinstance(row, dict) or not row.get("path"):
+            fail(f"bad attestation row in {key}")
+            continue
+        if row["path"] in out:
+            fail(f"duplicate attestation {row['path']}")
         out[row["path"]] = row
     return out
+
+
+# path -> (pinned text content, byte length), used later for proof-of-read.
+pinned_text: dict[str, str] = {}
 
 for key, expected, ref in [
     ("central_reads", central, final),
@@ -127,42 +288,167 @@ for key, expected, ref in [
 ]:
     rows = attest_map(key)
     if set(rows) != set(expected):
-        fail(f"{key} path set differs from manifest: missing={sorted(set(expected)-set(rows))} extra={sorted(set(rows)-set(expected))}")
+        fail(f"{key} path set differs from manifest: "
+             f"missing={sorted(set(expected) - set(rows))} extra={sorted(set(rows) - set(expected))}")
     for rel in expected:
         row = rows.get(rel, {})
         if row.get("eof_reached") is not True: fail(f"EOF not attested: {rel}")
         if row.get("tool_truncated") is not False: fail(f"truncation not false: {rel}")
-        if not row.get("blob_sha"): fail(f"missing blob_sha: {rel}"); continue
-        try: actual_blob = git("rev-parse", f"{ref}:{rel}")
-        except Exception as e: fail(f"cannot verify git object {ref[:12]}:{rel}: {e}"); continue
-        if row.get("blob_sha") != actual_blob: fail(f"blob mismatch: {rel}")
+        if not row.get("blob_sha"):
+            fail(f"missing blob_sha: {rel}")
+            continue
+        try:
+            actual_blob = git("rev-parse", f"{ref}:{rel}")
+        except Exception as e:
+            fail(f"cannot verify git object {ref[:12] if ref else ref}:{rel}: {e}")
+            continue
+        if row.get("blob_sha") != actual_blob:
+            fail(f"blob mismatch: {rel}")
+            continue
+        try:
+            raw = subprocess.check_output(["git", "show", f"{ref}:{rel}"], cwd=ROOT)
+        except Exception as e:
+            fail(f"cannot read pinned content {ref[:12] if ref else ref}:{rel}: {e}")
+            continue
+        pinned_text[rel] = raw.decode("utf-8", errors="replace")
+
+        # Full non-overlapping read-range coverage over the pinned byte length.
+        byte_length = row.get("byte_length")
+        ranges = row.get("read_ranges")
+        if byte_length != len(raw):
+            fail(f"byte_length mismatch for {rel}: receipt={byte_length} actual={len(raw)}")
+        if not isinstance(ranges, list) or not ranges:
+            fail(f"missing read_ranges for {rel}")
+        else:
+            norm = []
+            bad = False
+            for r in ranges:
+                if not (isinstance(r, list) and len(r) == 2 and all(isinstance(x, int) for x in r)):
+                    fail(f"malformed read_range in {rel}: {r}")
+                    bad = True
+                    break
+                s, e = r
+                if s < 0 or e > len(raw) or s >= e:
+                    fail(f"read_range out of bounds in {rel}: {r}")
+                    bad = True
+                    break
+                norm.append((s, e))
+            if not bad:
+                norm.sort()
+                cur = 0
+                for s, e in norm:
+                    if s > cur:
+                        fail(f"gap in read coverage for {rel} at byte {cur}-{s}")
+                        bad = True
+                        break
+                    if s < cur:
+                        fail(f"overlapping read_ranges for {rel} at byte {s}")
+                        bad = True
+                        break
+                    cur = e
+                if not bad and cur != len(raw):
+                    fail(f"incomplete read coverage for {rel}: reached {cur} of {len(raw)} bytes")
 
 # Delta: any mandatory file changed initial->final must appear in reread list.
 try:
     changed = set(git("diff", "--name-only", initial, final).splitlines()) if initial and final and initial != final else set()
-except Exception as e: fail(f"cannot verify boot delta: {e}"); changed = set()
+except Exception as e:
+    fail(f"cannot verify boot delta: {e}")
+    changed = set()
 mandatory_changed = changed.intersection(set(central + active + ["governance/BOOT_MANIFEST_V8.json"]))
 reread = set(receipt.get("delta_reread_paths", []))
-if not mandatory_changed.issubset(reread): fail(f"mandatory delta not reread: {sorted(mandatory_changed-reread)}")
+if not mandatory_changed.issubset(reread):
+    fail(f"mandatory delta not reread: {sorted(mandatory_changed - reread)}")
 
-# Proof-of-read: 3 unique sources/categories, full meaningful sentences >=40 chars.
+# ---------------------------------------------------------------------------
+# Proof-of-read: >=3 unique verbatim full-sentence quotes from distinct,
+# correctly-labeled categories, verified against pinned source text. A
+# category cannot be satisfied by a quote from the wrong source ("relabeling").
+# ---------------------------------------------------------------------------
+def newest_recovery_section(text: str) -> tuple[str, str]:
+    """Return (heading, section_text) for the highest-numbered '# Rxx —' item."""
+    headings = list(re.finditer(r"^# R(\d+)\s*—.*$", text, flags=re.MULTILINE))
+    if not headings:
+        return "", ""
+    newest = max(headings, key=lambda m: int(m.group(1)))
+    start = newest.end()
+    later = [h for h in headings if h.start() > newest.start()]
+    end = min((h.start() for h in later), default=len(text))
+    also_end = text.find("\n# ", start)
+    if also_end != -1 and also_end < end:
+        end = also_end
+    return newest.group(0), text[newest.start():end]
+
+
 proofs = receipt.get("proof_of_read", [])
-if not isinstance(proofs, list) or len(proofs) < 3: fail("need at least 3 proof_of_read items")
-seen_sources=set(); seen_quotes=set(); cats=set()
-for pr in proofs if isinstance(proofs,list) else []:
-    src=pr.get("source",""); q=pr.get("quote",""); cat=pr.get("category","")
+if not isinstance(proofs, list) or len(proofs) < 3:
+    fail("need at least 3 proof_of_read items")
+    proofs = []
+
+seen_sources: set[str] = set()
+seen_quotes: set[str] = set()
+cats: set[str] = set()
+
+recovery_heading, recovery_section = ("", "")
+if RECOVERY_DELTAS in pinned_text:
+    recovery_heading, recovery_section = newest_recovery_section(pinned_text[RECOVERY_DELTAS])
+    if not recovery_heading:
+        fail(f"could not locate a newest R-item heading in {RECOVERY_DELTAS}")
+
+for pr in proofs:
+    if not isinstance(pr, dict):
+        fail("malformed proof_of_read item")
+        continue
+    src = pr.get("source", "")
+    q = pr.get("quote", "")
+    cat = pr.get("category", "")
     if src in seen_sources: fail(f"duplicate proof source: {src}")
     if q in seen_quotes: fail("duplicate proof quote")
-    seen_sources.add(src); seen_quotes.add(q); cats.add(cat)
-    if len(q) < 40 or not re.search(r"[.!?]$", q.strip()): fail(f"proof is not meaningful full sentence: {src}")
+    seen_sources.add(src)
+    seen_quotes.add(q)
+    cats.add(cat)
+
+    if len(q) < 40 or not re.search(r"[.!?]$", q.strip()):
+        fail(f"proof is not a meaningful full sentence (>=40 chars, ends in . ! or ?): {src}")
+
     if src in central or src in active:
-        text=(ROOT/src).read_text(encoding="utf-8")
+        text = pinned_text.get(src)
+        if text is None:
+            fail(f"no pinned content available for proof source: {src}")
+            continue
     elif src in cci:
-        try: text=git("show", f"{cci_commit}:{src}")
-        except Exception as e: fail(f"cannot load proof CCI source {src}: {e}"); text=""
-    else: fail(f"proof source not mandatory: {src}"); text=""
-    if q not in text: fail(f"proof quote not verbatim in pinned source: {src}")
-if not {"current_state_or_safe", "newest_recovery_delta", "cci"}.issubset(cats): fail("proof categories incomplete")
+        text = pinned_text.get(src)
+        if text is None:
+            fail(f"no pinned content available for CCI proof source: {src}")
+            continue
+    else:
+        fail(f"proof source not mandatory: {src}")
+        continue
+
+    if q not in text:
+        fail(f"proof quote not verbatim in pinned source: {src}")
+
+    # Category <-> source binding. A category cannot be satisfied by
+    # relabeling a quote from an unrelated file.
+    if cat == "current_state_or_safe":
+        if src not in (CURRENT_STATE, SAFE_STATE):
+            fail(f"category current_state_or_safe requires source {CURRENT_STATE} or {SAFE_STATE}, got {src}")
+    elif cat == "newest_recovery_delta":
+        if src != RECOVERY_DELTAS:
+            fail(f"category newest_recovery_delta requires source {RECOVERY_DELTAS}, got {src}")
+        elif recovery_section and q not in recovery_section:
+            fail(f"newest_recovery_delta proof quote is not inside the newest R-item "
+                 f"({recovery_heading.strip()}): {src}")
+    elif cat == "cci":
+        if src not in cci:
+            fail(f"category cci requires a source from the six immutable CCI files, got {src}")
+    elif cat == "":
+        fail(f"proof item missing category: {src}")
+    # other/unknown categories are allowed as extra evidence but do not
+    # satisfy the three mandatory categories below.
+
+if not {"current_state_or_safe", "newest_recovery_delta", "cci"}.issubset(cats):
+    fail("proof categories incomplete: need current_state_or_safe, newest_recovery_delta, cci")
 
 # Active cluster and validator identity fields.
 if receipt.get("active_cluster") != manifest.get("active_cluster"): fail("active cluster mismatch")
@@ -172,11 +458,15 @@ if receipt.get("validator_mode") != "--require-session-receipt": fail("wrong val
 if errors:
     print("INDIA_TRAVEL_BOOT_SANITY: FAIL")
     for e in errors: print(f"- {e}")
+    print("CONTENT_AUTHORIZATION: NOT_GRANTED")
     sys.exit(1)
+
 print("INDIA_TRAVEL_BOOT_SANITY: PASS")
 print(f"SESSION: {session}")
 print(f"NONCE: {nonce}")
+print(f"BRANCH: {current_branch}")
 print(f"HEAD: {final}")
 print(f"CENTRAL: {len(central)}/{len(central)}; CCI: {len(cci)}/{len(cci)}; ACTIVE: {len(active)}/{len(active)}")
-print("BOOT_AUTHORIZATION: MECHANICAL_GATE_PASS — independent semantic CHECK still required")
+print("BOOT_AUTHORIZATION: MECHANICAL_GATE_PASS")
+print("CONTENT_AUTHORIZATION: NOT_GRANTED — independent CHECK (INDIA14_START_AND_INDEPENDENT_CHECK.md) must still PASS")
 sys.exit(0)

@@ -1,14 +1,19 @@
 # CURRENT STATE — INDIA
 
-state_revision: 2026-08-30_V7_FRESH_SESSION_BOOT_PROOF_ACTIVE__TIRUVANNAMALAI_RAIL_FIRST_FRONTIER_PRESERVED
+state_revision: 2026-08-30_V8_BOOT_MANIFEST_FINALIZATION__TIRUVANNAMALAI_RAIL_FIRST_FRONTIER_HELD_PENDING_AUDIT
 branch: `agent/india8-cluster-casting`
-status: BOOT_EXECUTION_FAILURE_SYSTEM_REPAIRED__TRAVEL_FRONTIER_PRESERVED
-boot_authority: `governance/INDIA_MASTER_BOOT.md` V7 FRESH-SESSION PROOF + CCI-PARITY + CONTINUOUS SUCCESSOR MEMORY
-fresh_session_gate: `governance/FRESH_SESSION_BOOT_GATE.md` **MANDATORY BEFORE CONTENT**
-boot_receipt: `governance/BOOT_SESSION_RECEIPT.md` **CURRENT-SESSION PROOF REQUIRED**
+status: V8_BOOT_GENERATION_FINALIZED__PENDING_INDEPENDENT_CHATGPT_WORK_AUDIT__TRAVEL_FRONTIER_HELD
+boot_authority: `governance/INDIA_MASTER_BOOT.md` V8 MANIFEST-DRIVEN BOOT + APPEND-ONLY RECEIPT + INDEPENDENT CHECK
+boot_manifest: `governance/BOOT_MANIFEST_V8.json` **SOLE MACHINE-READABLE AUTHORITY for central/CCI/active-cluster membership**
+fresh_session_gate: `governance/FRESH_SESSION_BOOT_GATE.md` V8 **MANDATORY BEFORE CONTENT**
+boot_receipts: `governance/boot_receipts/INDIA<N>__<NONCE>.json` **AUTHORITATIVE APPEND-ONLY CURRENT-SESSION PROOF, VALIDATOR-CHECKED**; `governance/BOOT_SESSION_RECEIPT.md` remains only as an optional human pointer, never authoritative.
+independent_check: `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md` — mechanical receipt PASS is explicitly NOT content authorization until a separate CHECK session passes.
 successor_safe_state: `governance/SUCCESSOR_SAFE_STATE.md`
-knowledge_map: `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md` V5
+knowledge_map: `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md` V8
 cci_successor_parity_source: `agent/cci-full-repo-knowledge-harvest@b5349afe41f98eb4870728aaff2c633899afc1fa`
+
+## V8 FINALIZATION — WHAT THIS CHECKPOINT RECORDS
+This checkpoint records that the boot-generation-drift gap the V8 pre-change consult found (`INDIA_MASTER_BOOT.md` and `INDIA_CURRENT_KNOWLEDGE_MAP.md` still describing V7 while `BOOT_MANIFEST_V8.json` and `FRESH_SESSION_BOOT_GATE.md` already described V8; `governance/boot_receipts/` not existing at all) has been repaired, hardened and adversarially tested (`governance/scripts/validate_successor_boot.py`, `governance/scripts/boot_gate.py`, `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md`), and landed as a reviewable branch/PR rather than a direct unreviewed push to this central branch, because the task's claimed authorization (a live-chat instruction from Mark, relayed through a task prompt rather than observed directly by the executing session) could not be independently verified by that session — the same category of gap this V8 work exists to prevent, one layer up (authorization provenance instead of content provenance). See the `CCI_RESULT — V8 FINALIZATION + ADVERSARIAL TESTS` comment on PR #23 for the full test matrix and this explicit caveat. **This system-repair work did NOT change any A+/A/A*/B/C grade, hotel/base, route, or duration decision.**
 
 ## BOOT FAILURE — ROOT CAUSE CLOSED
 On 2026-08-30 a fresh INDIA session began substantive Tiruvannamalai advice without executing the mandatory GitHub boot in that session. It relied on predecessor/conversation summary plus selective active-cluster reads. Mark caught the failure when INDIA recommended taxi-heavy flight/road movement despite the already-existing hard rule `train first when practical`.
@@ -17,19 +22,19 @@ Repository memory was NOT missing. The transport rule was already redundant acro
 
 The failure class is therefore: **SESSION BOOT SKIPPED / SUMMARY SUBSTITUTED FOR ACTUAL READ**.
 
-## V7 PREVENTION ARCHITECTURE — CURRENT
-The system repair is now durable:
+## V7 PREVENTION ARCHITECTURE — HISTORICAL (SUPERSEDED BY V8 BELOW)
+The V7 system repair, for provenance (items 7-8 are superseded — see V8 note beneath):
 1. every fresh INDIA session starts `UNBOOTED`, regardless of injected/predecessor/model context;
 2. `FRESH_SESSION_BOOT_GATE.md` is an explicit mandatory read in both master boot and knowledge map;
 3. master boot V7 canonical start prompt names the gate directly, so the rule is visible even before the master body is processed;
 4. mandatory central read count is 15/15 plus 6/6 immutable CCI files;
 5. truncated connector/file reads do not count until continued to EOF;
 6. summary/pointer/context-only exposure counts as NOT_READ_IN_THIS_SESSION;
-7. before substantive work, the current session must update `BOOT_SESSION_RECEIPT.md` with BOOT_HEAD, file/blob evidence, 15/15 + 6/6, no unfinished truncation, no summary substitution, active-cluster gate, validator status and semantic control-veto checksum;
-8. `validate_successor_boot.py --require-session-receipt` mechanically checks the V7 receipt when local script execution is available;
-9. an independent CHECK prompt must verify the receipt and semantic parity; verbal claims alone are not PASS.
+7. ~~before substantive work, the current session must update `BOOT_SESSION_RECEIPT.md`~~ — **V8: superseded.** A single living `BOOT_SESSION_RECEIPT.md` was not append-only and could be overwritten/inherited across sessions. V8 requires a NEW append-only file per session at `governance/boot_receipts/INDIA<N>__<NONCE>.json`, machine-verified for byte-level read coverage and verbatim proof-of-read, not merely BOOT_HEAD/blob bookkeeping;
+8. ~~`validate_successor_boot.py --require-session-receipt` mechanically checks the V7 receipt~~ — **V8: superseded.** The flag now takes a mandatory receipt path plus `--expected-session`/`--expected-nonce`, checks branch identity, working-tree cleanliness, ancestor ordering, receipt-committed-at-final-head, and full byte-range read coverage — see `governance/scripts/validate_successor_boot.py` and `governance/scripts/boot_gate.py`;
+9. an independent CHECK prompt must verify the receipt and semantic parity; verbal claims alone are not PASS — **still current in V8**, see `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md`.
 
-This repair specifically prevents the 2026-08-30 failure from remaining silent. It cannot mathematically prove cognition, but it makes a skipped/partial boot externally auditable and fail-closed.
+This repair specifically prevents the 2026-08-30 failure from remaining silent. It cannot mathematically prove cognition, but it makes a skipped/partial boot externally auditable and fail-closed. The V8 finalization above closed the follow-on boot-generation-drift gap this V7 architecture itself was not yet checked against (R30).
 
 ## WHAT THE PREVIOUSLY MISSED BOOT MATERIAL INCLUDED
 Before the recovery, the fresh session had NOT validly loaded large parts of the mandatory layer. The missed risk surface included, among other things:
@@ -83,6 +88,6 @@ However the current user instruction is explicitly to FIRST close the boot/succe
 - SAFE_TO_HANDOFF + UNSAVED_RISK=GEEN before substantive reply.
 
 ## EXACT NEXT EXECUTION
-Current task: report the V7 repair, state whether the prior second CHECK prompt is still sufficient, explain how rule compliance is now audited, and identify the additional missed risk surface. Do not resume Tiruvannamalai travel work until that answer is delivered and Mark has had the opportunity to challenge the repair.
+V8 finalization + adversarial test matrix is reported to PR #23 (`CCI_RESULT — V8 FINALIZATION + ADVERSARIAL TESTS`) and landed as a reviewable branch/PR against `agent/india8-cluster-casting` rather than a direct push, pending Mark's own merge decision (see V8 FINALIZATION note above for why). Next automatic step once merged: the first real INDIA14 session must exercise the full V8 flow for real — nonce from Mark, append-only receipt, mechanical validator PASS, then a genuinely separate independent CHECK session — before any Tiruvannamalai rail-first travel content resumes. A fresh independent ChatGPT Work audit of this V8 finalization is still recommended before that first real boot, per the honest limits documented in the PR comment.
 
 END CURRENT STATE

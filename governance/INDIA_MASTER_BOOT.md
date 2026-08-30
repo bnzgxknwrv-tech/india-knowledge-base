@@ -1,16 +1,22 @@
 # INDIA MASTER BOOT — ENIGE OPSTARTINGANG VOOR ALLE INDIA-OPVOLGERS
 
-Status: **BINDING / SINGLE BOOT AUTHORITY — V7 FRESH-SESSION PROOF + CCI-PARITY + CONTINUOUS SUCCESSOR MEMORY**
+Status: **BINDING / SINGLE BOOT AUTHORITY — V8 MANIFEST-DRIVEN BOOT + APPEND-ONLY RECEIPT + INDEPENDENT CHECK**
 Effective: 2026-08-30
 Branch: `agent/india8-cluster-casting`
-Purpose: every INDIA13/14/15/... must inherit at least the same relevant project memory as its predecessor, without Mark rebuilding that memory, and must prove that the CURRENT session actually executed that boot.
+Canonical manifest: **`governance/BOOT_MANIFEST_V8.json`** — the single machine-readable authority for central/CCI/active-cluster membership. This file and every other governance file describe HOW to boot; the manifest alone defines WHAT is mandatory. If this file's prose ever disagrees with the manifest's file lists or counts, the manifest wins and this file must be corrected.
+Purpose: every INDIA13/14/15/... must inherit at least the same relevant project memory as its predecessor, without Mark rebuilding that memory, and must prove — via an append-only, nonce-bound, machine-verifiable receipt — that the CURRENT session actually executed that boot.
 
 ## 0. CANONICAL TINY START PROMPT
 Mark only needs:
 
-`JIJ BENT INDIA<N>. Repo bnzgxknwrv-tech/india-knowledge-base, branch uitsluitend agent/india8-cluster-casting. Lees governance/FRESH_SESSION_BOOT_GATE.md VOLLEDIG. Lees daarna governance/INDIA_MASTER_BOOT.md VOLLEDIG en voer die boot exact uit. Werk governance/BOOT_SESSION_RECEIPT.md bij voor DEZE sessie en begin GEEN inhoudelijk India-werk vóór BOOT_GATE=PASS. Ga daarna zelfstandig verder vanaf de huidige frontier tot de eerstvolgende echte Mark-only beslissing.`
+`JIJ BENT INDIA<N>. NONCE: <exact-unique-nonce>. Repo bnzgxknwrv-tech/india-knowledge-base, branch uitsluitend agent/india8-cluster-casting. Lees governance/FRESH_SESSION_BOOT_GATE.md VOLLEDIG. Lees daarna governance/INDIA_MASTER_BOOT.md VOLLEDIG en voer die boot exact uit tegen governance/BOOT_MANIFEST_V8.json. Schrijf een NIEUW append-only receipt onder governance/boot_receipts/INDIA<N>__<NONCE>.json en begin GEEN inhoudelijk India-werk vóór een onafhankelijke CHECK-sessie BOOT_GATE=PASS + CONTENT_AUTHORIZATION geeft. Ga daarna zelfstandig verder vanaf de huidige frontier tot de eerstvolgende echte Mark-only beslissing.`
 
-Only `<N>` changes. No old README/session-start/handoff may define a different boot.
+`<N>` and `<exact-unique-nonce>` change every session. The nonce is supplied by Mark (or the start prompt) fresh each time and must never be reused or guessed by the session itself. No old README/session-start/handoff may define a different boot.
+
+## 0B. STRUCTURAL MODE IS NEVER CONTENT AUTHORIZATION
+`validate_successor_boot.py` run with no arguments (or any mode other than `--require-session-receipt <path> --expected-session <s> --expected-nonce <n>`) only checks that the governance FILES are internally consistent. It can never authorize substantive India content, because it proves nothing about what THIS session actually read. Its own output says so explicitly (`CONTENT_AUTHORIZATION: NOT_GRANTED`). Do not treat a structural PASS, a verbal claim, or a stale/copied receipt as boot completion.
+
+Even a full mechanical receipt PASS (`--require-session-receipt` with matching session/nonce) is **still not content authorization** — it proves the machine-checkable facts (files pinned, blobs matched, quotes verbatim, coverage complete) but not that the model actually reasoned correctly about them. Substantive India content may begin only after an **independent second CHECK session** (see `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md`) — a separate session, not this one grading itself — has verified the receipt and passed at least six semantic challenges chosen after the receipt was created.
 
 ## 0A. FRESH-SESSION ANTI-SKIP GATE — FAIL CLOSED
 A fresh INDIA chat/session is ALWAYS `UNBOOTED` at start, regardless of predecessor summary, injected model context, remembered facts, visible CURRENT_STATE, or confidence that the project is already known.
@@ -22,11 +28,12 @@ Therefore BEFORE any substantive India conclusion/recommendation/research synthe
 2. execute this master boot in the current session;
 3. any truncated tool/file response is INCOMPLETE until continued to EOF;
 4. any file seen only through summary/pointer/predecessor context counts as `NOT_READ_IN_THIS_SESSION`;
-5. after all mandatory central + CCI reads and the active cluster gate, update `governance/BOOT_SESSION_RECEIPT.md` with exact BOOT_HEAD, full-read counts and control-veto checksum;
-6. require `BOOT_GATE: PASS`;
-7. only then may substantive India work begin.
+5. after all mandatory central + CCI reads and the active cluster gate, write a NEW append-only session receipt at `governance/boot_receipts/INDIA<N>__<NONCE>.json` (never overwrite/inherit another session's receipt) with exact BOOT_HEAD, full-read counts, byte-level read-coverage per file, proof-of-read quotes and control-veto checksum; optionally also refresh `governance/BOOT_SESSION_RECEIPT.md` as a human-readable pointer, but that file is NEVER itself authoritative proof;
+6. require `BOOT_GATE: PASS` in the append-only receipt, then `python3 governance/scripts/validate_successor_boot.py --require-session-receipt governance/boot_receipts/INDIA<N>__<NONCE>.json --expected-session INDIA<N> --expected-nonce <NONCE>` returning `INDIA_TRAVEL_BOOT_SANITY: PASS`;
+7. even after that mechanical PASS, `CONTENT_AUTHORIZATION` remains `NOT_GRANTED` until an independent second CHECK session (§0B, `INDIA14_START_AND_INDEPENDENT_CHECK.md`) separately passes;
+8. only then may substantive India work begin.
 
-A verbal claim such as `ik ben volledig geboot` is not proof. The GitHub receipt plus the independent audit prompt are the external checks.
+A verbal claim such as `ik ben volledig geboot` is not proof. Neither is a mechanical receipt PASS by itself. The append-only GitHub receipt plus the independent CHECK session are the external checks; both are required.
 
 # 1. PIN THE BOOT SNAPSHOT FIRST
 Before reading project truth:
@@ -37,7 +44,16 @@ Before reading project truth:
 
 Do not construct one boot from multiple moving branch moments.
 
-If shell/script execution is available, run `python3 governance/scripts/validate_successor_boot.py` as the structural precheck. After the session receipt is written, run `python3 governance/scripts/validate_successor_boot.py --require-session-receipt` and require `INDIA_TRAVEL_BOOT_SANITY: PASS` before substantive advice. A FAIL means repair the exact reported gap first, not proceed around it. If script execution is unavailable in the current environment, script execution itself may be marked `TOOL_LIMITED`, but the full file reads + receipt + semantic self-test are still mandatory and may NOT be skipped.
+If shell/script execution is available, run `python3 governance/scripts/validate_successor_boot.py` (no arguments) as the structural precheck only — this can never return boot PASS, only `INDIA_BOOT_STRUCTURE: PASS/FAIL` plus `CONTENT_AUTHORIZATION: NOT_GRANTED`. After the append-only session receipt is written, run the full authorization-mode invocation with the exact receipt path and the exact session/nonce:
+
+`python3 governance/scripts/validate_successor_boot.py --require-session-receipt governance/boot_receipts/INDIA<N>__<NONCE>.json --expected-session INDIA<N> --expected-nonce <NONCE>`
+
+and require `INDIA_TRAVEL_BOOT_SANITY: PASS` before substantive advice. A FAIL means repair the exact reported gap first, not proceed around it — and structural PASS alone is never a substitute for the receipt-mode run. If script execution is unavailable in the current environment, script execution itself may be marked `TOOL_LIMITED`, but the full file reads + receipt + semantic self-test are still mandatory and may NOT be skipped. Prefer the canonical wrapper `governance/scripts/boot_gate.py <N> <NONCE>` (see §1A), which cannot be invoked without a receipt/session/nonce at all.
+
+## 1A. CANONICAL HELPER — STRUCTURAL MODE CANNOT BE MISUSED AS THE GATE
+`governance/scripts/boot_gate.py` is the canonical entrypoint for the content gate. Unlike calling `validate_successor_boot.py` directly, it has no default/structural-only path: it requires an INDIA session label and nonce as positional arguments and always invokes the validator in `--require-session-receipt` mode against `governance/boot_receipts/INDIA<N>__<NONCE>.json`. Its own exit code and printed banner make it impossible to mistake a bare structural check for content authorization. Use it instead of calling `validate_successor_boot.py` directly whenever the point of the run is to gate content, not merely to sanity-check the governance files themselves.
+
+**Honest limit:** no tool available to this repository can force ChatGPT/INDIA's own prose generation to consult this gate before it writes a sentence — that is a model-behavior question, not a file-permission question. `boot_gate.py`'s exit code can only be enforced by whatever *process* around the model chooses to check it (a human, a CI step, or a disciplined session following `FRESH_SESSION_BOOT_GATE.md`'s own instruction to run it and treat FAIL as blocking). The repository fails closed — it never claims PASS when it cannot verify — but it cannot mechanically stop a model from ignoring its own instructions and answering anyway. That gap is closed procedurally (§0B, independent CHECK, Mark's own scrutiny), not cryptographically.
 
 # 2. ALWAYS-READ DURABLE MEMORY CORE
 Read IN THIS SESSION and in this order:
@@ -79,28 +95,36 @@ Reference-only when needed: `KNOWLEDGE_ATOMS.jsonl`, `COVERAGE_MANIFEST.csv`, `H
 
 **The former temporary eleven-file migration-safety read is retired.** `INDIA_CURRENT_KNOWLEDGE_MAP.md` is now `DECISION_LEDGER_BACKFILL_COMPLETE`. Detailed legacy IDs/grades remain conditionally available through the knowledge map; the CCI parity layer above is additive and mandatory because the parity audit proved the former boot alone still lost material predecessor knowledge.
 
-## 2B. SESSION RECEIPT — MANDATORY OUTPUT, NOT A SUBSTITUTE READ
-After all 21 mandatory reads and BEFORE substantive work, update `governance/BOOT_SESSION_RECEIPT.md` for the CURRENT session.
+## 2B. APPEND-ONLY SESSION RECEIPT — MANDATORY OUTPUT, NOT A SUBSTITUTE READ
+After all 21 mandatory reads and BEFORE substantive work, create a NEW append-only receipt file at `governance/boot_receipts/INDIA<N>__<NONCE>.json` for the CURRENT session. This is the authoritative machine-verifiable proof; `governance/BOOT_SESSION_RECEIPT.md` may optionally still be refreshed as a human-readable pointer/index to the latest receipt, but it is NEVER itself sufficient proof and the validator does not trust it.
 
-Minimum PASS fields:
-- session/INDIA label;
-- exact `BOOT_HEAD`;
-- `CENTRAL_FULL_READS: 15/15`;
-- `CCI_FULL_READS: 6/6`;
-- exact paths and blob SHAs where available;
-- `TRUNCATED_READS_LEFT_UNFINISHED: GEEN`;
-- `SUMMARY_SUBSTITUTION_USED: NEE`;
-- active cluster/topic gate status;
-- validator status or explicit `TOOL_LIMITED`;
-- control-veto checksum containing at least TRAIN_FIRST, AL_BESLIST, naming-every-occurrence, GEO verification, action-first, same-turn durable memory, CCI three-way filter, safe-state, full-source-layer, and NU_DOEN.
+Minimum PASS fields in the JSON receipt (see `governance/boot_receipts/README.md` for the exact schema and `governance/scripts/validate_successor_boot.py` for the enforced contract):
+- `india_session` / `nonce` — exact expected INDIA label and exact start-prompt nonce, never reused from a prior session;
+- `receipt_created_utc`;
+- `boot_head_initial` / `boot_head_final` — 40-char commit SHAs; initial must be an ancestor of final;
+- `manifest_path: "governance/BOOT_MANIFEST_V8.json"` + `manifest_blob`;
+- `central_reads` / `cci_reads` / `active_cluster_reads` — one row per manifest file with `path`, `blob_sha`, `eof_reached: true`, `tool_truncated: false`, `byte_length`, and `read_ranges` (non-overlapping `[start,end]` byte ranges whose union is the full file — partial/skimmed reads cannot pass);
+- `delta_reread_paths` — every mandatory file that changed between `boot_head_initial` and `boot_head_final`;
+- `proof_of_read` — at least 3 unique verbatim full-sentence quotes (>=40 chars) from distinct categories: one from `CURRENT_STATE.md` or `SUCCESSOR_SAFE_STATE.md`, one from the newest `# Rnn —` item in `INDIA_RECOVERY_DELTAS_CURRENT.md`, one from any of the six immutable CCI sources — each quote verified verbatim against the pinned ref, and a category cannot be satisfied by a quote from the wrong file;
+- `active_cluster` matching the manifest's `active_cluster`;
+- `validator_mode: "--require-session-receipt"`;
+- `summary_substitution_used: false`;
+- `unfinished_truncations: 0`;
+- control-veto checksum containing at least TRAIN_FIRST, AL_BESLIST, naming-every-occurrence, GEO verification, action-first, same-turn durable memory, CCI three-way filter, safe-state, full-source-layer, and NU_DOEN;
+- `boot_gate: "PASS"` only once every field above is actually true.
 
-If any required read is partial/summary-only/unresolved: `BOOT_GATE: FAIL`. Do not start travel content.
+If any required read is partial/summary-only/unresolved: `boot_gate: "FAIL"`. Do not start travel content.
+
+**Exact commit shape (read before writing a receipt):** a commit's hash cannot be known before its content is fixed, so `boot_head_final` can never literally equal the hash of the very commit that adds the receipt file itself. The required shape is two commits: (1) commit all mandatory content changes first and record THAT commit's hash as `boot_head_final`; (2) as a separate follow-up commit whose diff contains ONLY the new receipt file and nothing else, commit the receipt. The validator checks that current HEAD's parent equals `boot_head_final` and that the one-commit diff between them is exactly the receipt file — anything else (more than one commit, unrelated changes riding along, a receipt that was never actually committed) is a hard FAIL (`receipt final head stale` / `receipt not committed at current head`).
 
 # 3. WHAT EACH TOP-LAYER FILE OWNS
 Do not blur responsibilities:
 
+- `BOOT_MANIFEST_V8.json` = the **SINGLE MACHINE-READABLE AUTHORITY** for exactly which central/CCI/active-cluster files and counts are mandatory; every other file's prose is descriptive, not authoritative, and must be corrected if it drifts from the manifest.
 - `FRESH_SESSION_BOOT_GATE.md` = mandatory **WHETHER THIS CHAT IS ALLOWED TO START CONTENT AT ALL**; current-session read proof, not predecessor confidence.
-- `BOOT_SESSION_RECEIPT.md` = auditable **PROOF RECORD OF THE CURRENT SESSION'S BOOT**; written after reads, never a substitute for them.
+- `governance/boot_receipts/INDIA<N>__<NONCE>.json` = the **AUTHORITATIVE, APPEND-ONLY PROOF RECORD OF THE CURRENT SESSION'S BOOT**; written after reads, never a substitute for them, never overwritten or reused across sessions.
+- `BOOT_SESSION_RECEIPT.md` = an OPTIONAL human-readable pointer to the latest append-only receipt; convenient for a person skimming the repo, but not itself trusted by the validator and not authoritative proof.
+- `governance/boot_checks/` = optional durable evidence from an independent CHECK session (second-key confirmation); documents its own honest limits and makes no claim of cryptographic identity proof.
 - `INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md` = mandatory **HOW INDIA MUST THINK/ACT/PRESENT BEFORE REPLYING**; predecessor behavior rules materialized as one executable veto.
 - `MARK_TRAVEL_PREFERENCES_CURRENT.md` = durable **WHY MARK / HOW HE TRAVELS**.
 - `MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md` = mandatory **HOW EVERY LOCATION IS NAMED + GEOGRAPHIC BURDEN SHOWN**.
