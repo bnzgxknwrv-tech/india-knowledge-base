@@ -40,29 +40,21 @@ Every update must leave these fields current:
 STATUS: SAFE_TO_HANDOFF
 
 FRONTIER:
-Fixed-core duration closure. The current genuine Mark-only decision remains the number of nights for **Tiruvannamalai / Arunachala — Ramana Maharshi sacred mountain/ashram world (Tamil Nadu) [A+ parent]**.
+Fixed-core duration closure. Mark has NOT chosen a duration yet. He asked INDIA to use **4 nights as a trial scenario** and build the previously agreed clock-level presentation with all protected locations, movement, dwell, underlinge afstandslogica, human load and robustness before he decides.
 
 LAST_COMPLETED:
-- INDIA13 completed the CCI full-repository successor-parity reread and filtered frozen CCI knowledge against newer central truth.
-- CCI successor-parity recovery is mandatory; current/later-live/superseded distinctions are preserved.
-- The central knowledge map was repaired after it was found to lag the real frontier.
-- Continuous successor-memory is active: material knowledge may not remain only in chat.
-- This crash-safe checkpoint was added because ChatGPT context exhaustion can occur without warning and therefore handoff preparation cannot be deferred until the end.
-- Objective Tiruvannamalai/Arunachala duration preparation is closed enough for Mark's subjective duration choice.
+- INDIA13 completed the CCI full-repository successor-parity reread and central parity repairs.
+- CCI later reviewed and strengthened the crash-safe architecture; `SUCCESSOR_SAFE_STATE.md` is now ALWAYS-read and the boot validator is repaired.
+- Tiruvannamalai's central prep packet already contains the `STRICT LONELY PLANET / TRAVELER LAYER — CURRENT UNION`; no new LP sweep is needed before the fixed-core duration test.
+- Fresh 2026-08-30 checks reconfirmed the current Sri Ramanasramam daily schedule, official cave-route logic, official Arunachaleswarar Temple 05:30–20:00 window and official 14 km Girivalam length.
+- A full 4-night trial execution surface is now durably materialized at `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_4_NIGHT_TRIAL_EXECUTION_PRESENTATION_2026-08-30.md`.
+- Important trial finding: all protected A content appears executable in 4 nights if Sri Ramanasramam depth is distributed across three substantial morning/afternoon/evening blocks rather than protected as one completely separate local day. This is an objective scenario finding, NOT a Mark duration decision.
 
 NEXT_AUTOMATIC_STEP:
-After Mark chooses 4, 5 or 6 nights:
-1. record WHAT + WHY in the decision ledger;
-2. update CURRENT_DECISIONS_MASTER;
-3. write/update the exact Tiruvannamalai duration decision artifact;
-4. update CURRENT_STATE and this SUCCESSOR_SAFE_STATE;
-5. automatically continue to the next fixed-core closure until the next genuine Mark-only decision.
+Present the 4-night trial surface to Mark. If he corrects the schedule, incorporate the correction and re-test. If he explicitly chooses 4/5/6 nights, record WHAT + WHY in the decision ledger/master/exact decision artifact, update CURRENT_STATE + this checkpoint as required, and automatically continue to the next fixed-core closure.
 
 WAITING_FOR_MARK:
-Choose the Tiruvannamalai/Arunachala duration:
-- 4 nights = compact/sensitive;
-- 5 nights = robust/balanced; INDIA13 recommendation;
-- 6 nights = deliberately deep/very robust.
+After seeing the 4-night clock-level trial, decide whether that distributed-ashram structure feels sufficient or whether the extra unstructured day of the 5-night version is worth the extra night. No duration is locked yet.
 
 CONTROLLING_ARTIFACTS:
 - `governance/INDIA_MASTER_BOOT.md`
@@ -72,6 +64,7 @@ CONTROLLING_ARTIFACTS:
 - `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md`
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_PREP_PACKET_2026-08-27.md`
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_DURATION_DECISION_SURFACE_2026-08-29.md`
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_4_NIGHT_TRIAL_EXECUTION_PRESENTATION_2026-08-30.md`
 
 UNSAVED_RISK:
 GEEN
