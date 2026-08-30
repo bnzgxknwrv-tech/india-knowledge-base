@@ -40,21 +40,24 @@ Every update must leave these fields current:
 STATUS: SAFE_TO_HANDOFF
 
 FRONTIER:
-Fixed-core duration closure. Mark has NOT chosen a duration yet. He asked INDIA to use **4 nights as a trial scenario** and build the previously agreed clock-level presentation with all protected locations, movement, dwell, underlinge afstandslogica, human load and robustness before he decides.
+Fixed-core duration closure. Mark has NOT chosen a duration yet. He asked INDIA to use **4 nights as a trial scenario** and interrogate whether that remains humanly correct once the actual Sri Ramanasramam stay model is understood.
 
 LAST_COMPLETED:
 - INDIA13 completed the CCI full-repository successor-parity reread and central parity repairs.
-- CCI later reviewed and strengthened the crash-safe architecture; `SUCCESSOR_SAFE_STATE.md` is now ALWAYS-read and the boot validator is repaired.
+- CCI later strengthened the crash-safe architecture; `SUCCESSOR_SAFE_STATE.md` is ALWAYS-read and the boot validator is repaired.
 - Tiruvannamalai's central prep packet already contains the `STRICT LONELY PLANET / TRAVELER LAYER — CURRENT UNION`; no new LP sweep is needed before the fixed-core duration test.
-- Fresh 2026-08-30 checks reconfirmed the current Sri Ramanasramam daily schedule, official cave-route logic, official Arunachaleswarar Temple 05:30–20:00 window and official 14 km Girivalam length.
-- A full 4-night trial execution surface is now durably materialized at `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_4_NIGHT_TRIAL_EXECUTION_PRESENTATION_2026-08-30.md`.
-- Important trial finding: all protected A content appears executable in 4 nights if Sri Ramanasramam depth is distributed across three substantial morning/afternoon/evening blocks rather than protected as one completely separate local day. This is an objective scenario finding, NOT a Mark duration decision.
+- A full 4-night trial execution surface is durably materialized at `TIRUVANNAMALAI_4_NIGHT_TRIAL_EXECUTION_PRESENTATION_2026-08-30.md`.
+- Fresh 2026-08-30 official research has now closed a previously under-modeled issue: **Sri Ramanasramam is not a hotel, but neither is it a compulsory-program retreat**. Accommodation is restricted to genuine Ramana devotees/seekers and intended for quiet study, reflection, meditation and immersion in Bhagavan's teachings. However, the official site explicitly says there is no requirement to participate in any particular belief/worship practice; guests choose activities/resources themselves. No compulsory chore/seva/attendance requirement was found.
+- 'Free time' at Sri Ramanasramam is therefore real contemplative time: silent sitting, self-enquiry, reading, library/grounds, rest, optional chanting/puja/readings and Ramana/Arunachala devotional outings. General sightseeing is a poor fit for using ashram accommodation.
+- Important accommodation nuance: an approved Sri Ramanasramam guest room may be in an ashram-run guest facility **outside the main compound within walking distance**, not necessarily physically behind the main gate; exact room/building is management-assigned.
+- This correction is durably recorded at `TIRUVANNAMALAI_SRI_RAMANASRAMAM_STAY_MODEL_2026-08-30.md`.
+- Duration implication: 4 nights remains objectively viable only under the distributed-ashram model. If the qualitative goal is one genuine whole day with nowhere else to be except Sri Ramanasramam, then only two other local days remain for three major modules (caves, full Girivalam, Temple+Gurumurtam+Pavalakunru), forcing stacking/compression. **5 nights is the first clean no-stacking structure with one full ashram day.** This is planning evidence, NOT a Mark duration decision.
 
 NEXT_AUTOMATIC_STEP:
-Present the 4-night trial surface to Mark. If he corrects the schedule, incorporate the correction and re-test. If he explicitly chooses 4/5/6 nights, record WHAT + WHY in the decision ledger/master/exact decision artifact, update CURRENT_STATE + this checkpoint as required, and automatically continue to the next fixed-core closure.
+Explain the real Sri Ramanasramam stay/free-time model to Mark and make the duration consequence explicit. If Mark wants the authentic full-ashram-day interpretation, rebuild/present the 5-night clean structure or a deliberately compressed 4-night alternative before asking for a final duration lock. If he explicitly chooses 4/5/6 nights, record WHAT + WHY in the decision ledger/master/exact decision artifact, update CURRENT_STATE + this checkpoint as required, and automatically continue to the next fixed-core closure.
 
 WAITING_FOR_MARK:
-After seeing the 4-night clock-level trial, decide whether that distributed-ashram structure feels sufficient or whether the extra unstructured day of the 5-night version is worth the extra night. No duration is locked yet.
+Does the intended Sri Ramanasramam experience require one complete day whose only purpose is being in/around the ashram (with optional self-directed chanting, meditation, reading and rest), or is distributed ashram immersion around the other Ramana/Arunachala days sufficient? No duration is locked yet.
 
 CONTROLLING_ARTIFACTS:
 - `governance/INDIA_MASTER_BOOT.md`
@@ -65,6 +68,7 @@ CONTROLLING_ARTIFACTS:
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_PREP_PACKET_2026-08-27.md`
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_DURATION_DECISION_SURFACE_2026-08-29.md`
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_4_NIGHT_TRIAL_EXECUTION_PRESENTATION_2026-08-30.md`
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_SRI_RAMANASRAMAM_STAY_MODEL_2026-08-30.md`
 
 UNSAVED_RISK:
 GEEN
