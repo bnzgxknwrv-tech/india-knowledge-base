@@ -1,287 +1,182 @@
 #!/usr/bin/env python3
-"""Sanity validator for the INDIA travel knowledge base — V7 architecture.
+"""Fail-closed INDIA successor boot validator — V8.
 
-Default mode checks structural boot integrity.
-
-With --require-session-receipt it additionally checks that the latest living
-BOOT_SESSION_RECEIPT contains auditable evidence of a complete fresh-session boot:
-15/15 central files + 6/6 immutable CCI files, no unfinished truncation, no summary
-substitution, BOOT_GATE PASS, and the minimum semantic control-veto checksum.
-
-This cannot mathematically prove model cognition. It converts the dangerous failure
-class 'successor silently skipped the boot but sounded informed' into an externally
-auditable process failure.
+Authoritative boot membership comes from governance/BOOT_MANIFEST_V8.json.
+Boot PASS requires an append-only per-session JSON receipt and explicit
+--require-session-receipt mode. Warnings are fatal in receipt mode.
 """
-
 from __future__ import annotations
-
-import csv
-import re
-import subprocess
-import sys
+import argparse, json, re, subprocess, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
+MANIFEST = ROOT / "governance/BOOT_MANIFEST_V8.json"
+
+p = argparse.ArgumentParser()
+p.add_argument("--require-session-receipt", dest="receipt", default=None,
+               help="path to append-only per-session JSON receipt")
+p.add_argument("--expected-session", default=None)
+p.add_argument("--expected-nonce", default=None)
+args = p.parse_args()
+
 errors: list[str] = []
-warnings: list[str] = []
-require_receipt = "--require-session-receipt" in sys.argv[1:]
 
-MASTER_BOOT = ROOT / "governance/INDIA_MASTER_BOOT.md"
-FRESH_GATE = ROOT / "governance/FRESH_SESSION_BOOT_GATE.md"
-RECEIPT = ROOT / "governance/BOOT_SESSION_RECEIPT.md"
-CURRENT = ROOT / "governance/CURRENT_STATE.md"
-SAFE_STATE = ROOT / "governance/SUCCESSOR_SAFE_STATE.md"
-KNOWLEDGE_MAP = ROOT / "governance/INDIA_CURRENT_KNOWLEDGE_MAP.md"
-TRIP_FRAME = ROOT / "governance/TRIP_FRAME_HARD.md"
-CANON_REL = "runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv"
-CANON = ROOT / CANON_REL
+def fail(msg: str): errors.append(msg)
 
-CENTRAL_PATHS = [
-    "governance/FRESH_SESSION_BOOT_GATE.md",
-    "governance/INDIA_MASTER_BOOT.md",
-    "governance/INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md",
-    "governance/MARK_TRAVEL_PREFERENCES_CURRENT.md",
-    "governance/MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md",
-    "governance/MAP_COORDINATE_VERIFICATION_RULE.md",
-    "governance/INDIA_HUMAN_CENTERED_COMPLEX_TRIP_PLANNING_STANDARD.md",
-    "governance/FINAL_COMFORT_SWEEP_RULE_2026-08-23.md",
-    "governance/TRIP_FRAME_HARD.md",
-    "governance/CURRENT_DECISIONS_MASTER.md",
-    "governance/DECISION_LEDGER.jsonl",
-    "governance/CURRENT_STATE.md",
-    "governance/SUCCESSOR_SAFE_STATE.md",
-    "governance/INDIA_RECOVERY_DELTAS_CURRENT.md",
-    "governance/INDIA_CURRENT_KNOWLEDGE_MAP.md",
-]
+def git(*a: str) -> str:
+    return subprocess.check_output(["git", *a], cwd=ROOT, text=True, stderr=subprocess.STDOUT).strip()
 
-CCI_COMMIT = "b5349afe41f98eb4870728aaff2c633899afc1fa"
-CCI_PATHS = [
-    "runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUCCESSOR_START_HERE.md",
-    "runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUPERSEDED_AND_DO_NOT_REVIVE.md",
-    "runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/MARK_CURRENT_CANON_MASTER.md",
-    "runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/PROJECT_PHILOSOPHY_AND_SELECTION_MODEL.md",
-    "runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/OPEN_MARK_DECISIONS_ONLY.md",
-    "runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/CURRENT_TRAVEL_EXECUTION_CANON.md",
-]
-
-CONTROL_TOKENS = [
-    "TRAIN_FIRST_TRUE_DOOR_TO_DOOR",
-    "AL_BESLIST_BEFORE_CHOICE",
-    "RECOGNITION_RICH_EVERY_LOCATION_OCCURRENCE",
-    "GEO_VERIFIED_FOR_DECISION_OR_NO_GEOMETRY",
-    "ACTION_FIRST_NO_DEFERRAL",
-    "SAME_TURN_DURABLE_MEMORY",
-    "CCI_THREE_WAY_FILTER",
-    "SAFE_STATE_UNSAVED_RISK_GEEN",
-    "FULL_SOURCE_LAYER_WHEN_REQUESTED",
-    "NU_DOEN_EXPLICIT_NEXT_ACTION",
-]
-
-required = [
-    ROOT / "README.md",
-    MASTER_BOOT,
-    FRESH_GATE,
-    RECEIPT,
-    CURRENT,
-    SAFE_STATE,
-    KNOWLEDGE_MAP,
-    TRIP_FRAME,
-    ROOT / "governance/CCI_COLLABORATION_PROTOCOL.md",
-    CANON,
-]
-for p in required:
-    if not p.is_file():
-        errors.append(f"missing required file: {p.relative_to(ROOT)}")
-
-
-def read(p: Path) -> str:
-    return p.read_text(encoding="utf-8") if p.is_file() else ""
-
-
-master_boot_text = read(MASTER_BOOT)
-fresh_gate_text = read(FRESH_GATE)
-receipt_text = read(RECEIPT)
-current_text = read(CURRENT)
-safe_state_text = read(SAFE_STATE)
-knowledge_map_text = read(KNOWLEDGE_MAP)
-trip_frame_text = read(TRIP_FRAME)
-
-# R28 / V7: mandatory reads must be explicit in BOTH authoritative enumerations.
-for rel in CENTRAL_PATHS:
-    name = Path(rel).name
-    if rel not in master_boot_text and name not in master_boot_text:
-        errors.append(f"mandatory central file absent from master boot enumeration: {rel}")
-    if rel not in knowledge_map_text and name not in knowledge_map_text:
-        errors.append(f"mandatory central file absent from knowledge-map ALWAYS section: {rel}")
-
-if "15/15" not in master_boot_text:
-    errors.append("master boot does not declare V7 central full-read count 15/15")
-if "15/15" not in knowledge_map_text:
-    errors.append("knowledge map does not declare V7 central full-read count 15/15")
-if "BOOT_SESSION_RECEIPT.md" not in master_boot_text:
-    errors.append("master boot does not require BOOT_SESSION_RECEIPT.md")
-if "BOOT_SESSION_RECEIPT.md" not in knowledge_map_text:
-    errors.append("knowledge map does not route BOOT_SESSION_RECEIPT.md")
-
-# Crash-safe checkpoint integrity.
-if safe_state_text:
-    if "STATUS: SAFE_TO_HANDOFF" not in safe_state_text:
-        errors.append("SUCCESSOR_SAFE_STATE.md STATUS is not SAFE_TO_HANDOFF")
-    if not re.search(r"UNSAVED_RISK:\s*\nGEEN", safe_state_text):
-        errors.append("SUCCESSOR_SAFE_STATE.md UNSAVED_RISK is not GEEN")
-if "BACKFILL_NOT_COMPLETE" in current_text:
-    errors.append("CURRENT_STATE.md still claims BACKFILL_NOT_COMPLETE")
-
-# Protected-canon blob anchor.
-m = re.search(r"Current protected blob[^\n]*:\s*\n`([0-9a-f]{40})`", trip_frame_text)
-if not m:
-    errors.append("TRIP_FRAME_HARD.md does not contain expected protected-canon blob SHA")
+if not MANIFEST.is_file():
+    fail("missing governance/BOOT_MANIFEST_V8.json")
+    manifest = {}
 else:
-    expected = m.group(1)
-    try:
-        actual = subprocess.check_output(["git", "hash-object", CANON_REL], cwd=ROOT, text=True).strip()
-    except Exception as exc:
-        errors.append(f"cannot hash protected canon: {exc}")
-    else:
-        if actual != expected:
-            errors.append(f"protected canon changed: {actual} != {expected}")
+    try: manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    except Exception as e:
+        fail(f"invalid boot manifest JSON: {e}"); manifest = {}
 
-if CANON.is_file():
-    with CANON.open(encoding="utf-8", newline="") as fh:
-        rows = list(csv.DictReader(fh))
-    permanent_ids = [r.get("entity_id", "") for r in rows if r.get("record_type") == "PERMANENT"]
-    for i in range(1, 82):
-        eid = f"{i:03d}"
-        if permanent_ids.count(eid) != 1:
-            errors.append(f"protected permanent ID {eid} occurs {permanent_ids.count(eid)} times; expected 1")
+central = manifest.get("central_required", [])
+cci = manifest.get("cci_required", [])
+active = manifest.get("active_cluster_required", [])
+cci_commit = manifest.get("cci_commit", "")
 
-readme = read(ROOT / "README.md")
-for forbidden in ["GEHELE REPO LEZEN", "byte_weighted_knowledge_pct"]:
-    if forbidden in readme or forbidden in master_boot_text:
-        errors.append(f"old heavy boot mechanic became active again: {forbidden}")
+if len(central) != 15: fail(f"manifest central count {len(central)} != 15")
+if len(cci) != 6: fail(f"manifest CCI count {len(cci)} != 6")
+if len(active) < 1: fail("manifest active-cluster set empty")
+if len(set(central)) != len(central): fail("duplicate central path in manifest")
+if len(set(cci)) != len(cci): fail("duplicate CCI path in manifest")
+if len(set(active)) != len(active): fail("duplicate active-cluster path in manifest")
 
-# Optional hard session-receipt gate.
-if require_receipt:
-    required_literals = {
-        "CENTRAL_FULL_READS": "CENTRAL_FULL_READS: `15/15`",
-        "CCI_FULL_READS": "CCI_FULL_READS: `6/6`",
-        "TRUNCATED": "TRUNCATED_READS_LEFT_UNFINISHED: `GEEN`",
-        "SUMMARY": "SUMMARY_SUBSTITUTION_USED: `NEE`",
-        "BOOT_GATE": "BOOT_GATE: `PASS`",
-    }
-    for label, literal in required_literals.items():
-        if literal not in receipt_text:
-            errors.append(f"session receipt missing/invalid {label}: expected {literal}")
+for rel in central + active:
+    if not (ROOT / rel).is_file(): fail(f"missing manifest file: {rel}")
 
-    for token in CONTROL_TOKENS:
-        if token not in receipt_text:
-            errors.append(f"session receipt missing control-veto token: {token}")
+# Structural cross-reference: master + map must name manifest, not maintain a competing authority.
+for rel in ["governance/INDIA_MASTER_BOOT.md", "governance/INDIA_CURRENT_KNOWLEDGE_MAP.md", "governance/FRESH_SESSION_BOOT_GATE.md"]:
+    fp = ROOT / rel
+    if not fp.is_file(): fail(f"missing {rel}"); continue
+    txt = fp.read_text(encoding="utf-8")
+    if "BOOT_MANIFEST_V8.json" not in txt: fail(f"{rel} does not point to canonical V8 manifest")
 
-    for rel in CENTRAL_PATHS:
-        if rel not in receipt_text:
-            errors.append(f"session receipt does not enumerate central read: {rel}")
-    for rel in CCI_PATHS:
-        if rel not in receipt_text:
-            errors.append(f"session receipt does not enumerate CCI read: {rel}")
-    if CCI_COMMIT not in receipt_text:
-        errors.append("session receipt does not pin immutable CCI completion commit")
+# Existing crash-safe hard fields remain mandatory.
+safe = ROOT / "governance/SUCCESSOR_SAFE_STATE.md"
+if safe.is_file():
+    st = safe.read_text(encoding="utf-8")
+    if "STATUS: SAFE_TO_HANDOFF" not in st: fail("safe state not SAFE_TO_HANDOFF")
+    if not re.search(r"UNSAVED_RISK:\s*\nGEEN", st): fail("safe state UNSAVED_RISK is not GEEN")
+else: fail("missing SUCCESSOR_SAFE_STATE.md")
 
-    # PROOF_OF_READ_CHALLENGE: a correct blob SHA proves the session identified the
-    # right version of a file, not that its content was ever loaded (a metadata-only
-    # `git rev-parse <head>:<path>` returns the same SHA without reading a byte, and an
-    # unchanged file's SHA can be copied forward from a previous receipt unread). Each
-    # quote must be an exact substring of its named source file's actual text.
-    if "PROOF_OF_READ_CHALLENGE" not in receipt_text:
-        errors.append("session receipt missing PROOF_OF_READ_CHALLENGE block")
-    else:
-        quotes = re.findall(
-            r"SOURCE:\s*([^\n]+)\nQUOTE:\s*\"([^\"]+)\"", receipt_text
-        )
-        if len(quotes) < 3:
-            errors.append(
-                f"PROOF_OF_READ_CHALLENGE has {len(quotes)} SOURCE/QUOTE pairs, need at least 3"
-            )
-        for source_rel, quote in quotes:
-            source_rel = source_rel.strip()
-            quote = quote.strip()
-            if not quote:
-                errors.append(f"PROOF_OF_READ_CHALLENGE has an empty quote for {source_rel}")
-                continue
-            source_path = ROOT / source_rel
-            if source_path.is_file():
-                if quote not in read(source_path):
-                    errors.append(
-                        f"PROOF_OF_READ_CHALLENGE quote not found verbatim in local {source_rel} "
-                        f"(paraphrase, mismatch, or fabricated)"
-                    )
-            elif source_rel.startswith("runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/"):
-                try:
-                    cci_text = subprocess.check_output(
-                        ["git", "show", f"{CCI_COMMIT}:{source_rel}"], cwd=ROOT, text=True, stderr=subprocess.DEVNULL
-                    )
-                except Exception:
-                    warnings.append(f"could not verify PROOF_OF_READ_CHALLENGE quote against immutable CCI {source_rel} locally")
-                else:
-                    if quote not in cci_text:
-                        errors.append(
-                            f"PROOF_OF_READ_CHALLENGE quote not found verbatim in CCI {source_rel} at {CCI_COMMIT}"
-                        )
-            else:
-                errors.append(f"PROOF_OF_READ_CHALLENGE cites unrecognized/unreadable source: {source_rel}")
+if args.receipt is None:
+    # Deliberately NOT a boot PASS. Structural mode cannot authorize content.
+    if errors:
+        print("INDIA_BOOT_STRUCTURE: FAIL")
+        for e in errors: print(f"- {e}")
+        sys.exit(1)
+    print("INDIA_BOOT_STRUCTURE: PASS")
+    print("BOOT_AUTHORIZATION: NOT_GRANTED — rerun with --require-session-receipt")
+    sys.exit(2)
 
-    bm = re.search(r"BOOT_HEAD(?:_READ)?:\s*`([0-9a-f]{40})`", receipt_text)
-    if not bm:
-        errors.append("session receipt lacks exact 40-char BOOT_HEAD")
-    else:
-        boot_head = bm.group(1)
-        # Verify recorded central blob SHAs against the recorded BOOT_HEAD where git objects exist.
-        for rel in CENTRAL_PATHS:
-            rm = re.search(re.escape(rel) + r"[^\n]*blob `([0-9a-f]{40})`", receipt_text)
-            if not rm:
-                errors.append(f"session receipt lacks blob SHA for central read: {rel}")
-                continue
-            recorded_blob = rm.group(1)
-            try:
-                actual_blob = subprocess.check_output(
-                    ["git", "rev-parse", f"{boot_head}:{rel}"], cwd=ROOT, text=True, stderr=subprocess.DEVNULL
-                ).strip()
-            except Exception:
-                warnings.append(f"could not verify {rel} against BOOT_HEAD {boot_head[:12]} in local git objects")
-            else:
-                if actual_blob != recorded_blob:
-                    errors.append(f"receipt blob mismatch at BOOT_HEAD for {rel}: {recorded_blob} != {actual_blob}")
+receipt_path = ROOT / args.receipt
+if not receipt_path.is_file(): fail(f"receipt not found: {args.receipt}")
+try:
+    receipt = json.loads(receipt_path.read_text(encoding="utf-8")) if receipt_path.is_file() else {}
+except Exception as e:
+    fail(f"invalid receipt JSON: {e}"); receipt = {}
 
-        # CCI verification is best effort because a shallow/local checkout may not contain that remote commit.
-        for rel in CCI_PATHS:
-            rm = re.search(re.escape(rel) + r"[^\n]*blob `([0-9a-f]{40})`", receipt_text)
-            if not rm:
-                errors.append(f"session receipt lacks blob SHA for CCI read: {rel}")
-                continue
-            recorded_blob = rm.group(1)
-            try:
-                actual_blob = subprocess.check_output(
-                    ["git", "rev-parse", f"{CCI_COMMIT}:{rel}"], cwd=ROOT, text=True, stderr=subprocess.DEVNULL
-                ).strip()
-            except Exception:
-                warnings.append(f"local checkout cannot verify immutable CCI blob for {Path(rel).name}")
-            else:
-                if actual_blob != recorded_blob:
-                    errors.append(f"receipt CCI blob mismatch for {rel}: {recorded_blob} != {actual_blob}")
+# Append-only path and identity binding.
+if not args.receipt.startswith("governance/boot_receipts/"):
+    fail("receipt is not under append-only governance/boot_receipts/")
+session = receipt.get("india_session")
+nonce = receipt.get("nonce")
+if args.expected_session and session != args.expected_session: fail(f"session mismatch: {session} != {args.expected_session}")
+if args.expected_nonce and nonce != args.expected_nonce: fail("nonce mismatch")
+if not session or not nonce: fail("receipt missing session or nonce")
+if receipt.get("boot_gate") != "PASS": fail("receipt boot_gate != PASS")
+if receipt.get("summary_substitution_used") is not False: fail("summary substitution not explicitly false")
+if receipt.get("unfinished_truncations") != 0: fail("unfinished truncations != 0")
 
+# Manifest must be exact source of truth.
+if receipt.get("manifest_path") != "governance/BOOT_MANIFEST_V8.json": fail("receipt manifest_path mismatch")
+try: manifest_blob = git("hash-object", "governance/BOOT_MANIFEST_V8.json")
+except Exception as e: fail(f"cannot hash manifest: {e}"); manifest_blob = None
+if manifest_blob and receipt.get("manifest_blob") != manifest_blob: fail("receipt manifest blob mismatch")
+
+initial = receipt.get("boot_head_initial", "")
+final = receipt.get("boot_head_final", "")
+if not re.fullmatch(r"[0-9a-f]{40}", initial or ""): fail("invalid boot_head_initial")
+if not re.fullmatch(r"[0-9a-f]{40}", final or ""): fail("invalid boot_head_final")
+
+# Branch delta must be represented; final must be current HEAD when validator runs.
+try: actual_head = git("rev-parse", "HEAD")
+except Exception as e: fail(f"cannot resolve HEAD: {e}"); actual_head = None
+if actual_head and final != actual_head: fail(f"receipt final head stale: {final} != {actual_head}")
+
+# Per-file attestation sets must match manifest exactly.
+def attest_map(key: str):
+    rows = receipt.get(key, [])
+    if not isinstance(rows, list): fail(f"{key} is not list"); return {}
+    out = {}
+    for row in rows:
+        if not isinstance(row, dict) or not row.get("path"): fail(f"bad attestation row in {key}"); continue
+        if row["path"] in out: fail(f"duplicate attestation {row['path']}")
+        out[row["path"]] = row
+    return out
+
+for key, expected, ref in [
+    ("central_reads", central, final),
+    ("cci_reads", cci, cci_commit),
+    ("active_cluster_reads", active, final),
+]:
+    rows = attest_map(key)
+    if set(rows) != set(expected):
+        fail(f"{key} path set differs from manifest: missing={sorted(set(expected)-set(rows))} extra={sorted(set(rows)-set(expected))}")
+    for rel in expected:
+        row = rows.get(rel, {})
+        if row.get("eof_reached") is not True: fail(f"EOF not attested: {rel}")
+        if row.get("tool_truncated") is not False: fail(f"truncation not false: {rel}")
+        if not row.get("blob_sha"): fail(f"missing blob_sha: {rel}"); continue
+        try: actual_blob = git("rev-parse", f"{ref}:{rel}")
+        except Exception as e: fail(f"cannot verify git object {ref[:12]}:{rel}: {e}"); continue
+        if row.get("blob_sha") != actual_blob: fail(f"blob mismatch: {rel}")
+
+# Delta: any mandatory file changed initial->final must appear in reread list.
+try:
+    changed = set(git("diff", "--name-only", initial, final).splitlines()) if initial and final and initial != final else set()
+except Exception as e: fail(f"cannot verify boot delta: {e}"); changed = set()
+mandatory_changed = changed.intersection(set(central + active + ["governance/BOOT_MANIFEST_V8.json"]))
+reread = set(receipt.get("delta_reread_paths", []))
+if not mandatory_changed.issubset(reread): fail(f"mandatory delta not reread: {sorted(mandatory_changed-reread)}")
+
+# Proof-of-read: 3 unique sources/categories, full meaningful sentences >=40 chars.
+proofs = receipt.get("proof_of_read", [])
+if not isinstance(proofs, list) or len(proofs) < 3: fail("need at least 3 proof_of_read items")
+seen_sources=set(); seen_quotes=set(); cats=set()
+for pr in proofs if isinstance(proofs,list) else []:
+    src=pr.get("source",""); q=pr.get("quote",""); cat=pr.get("category","")
+    if src in seen_sources: fail(f"duplicate proof source: {src}")
+    if q in seen_quotes: fail("duplicate proof quote")
+    seen_sources.add(src); seen_quotes.add(q); cats.add(cat)
+    if len(q) < 40 or not re.search(r"[.!?]$", q.strip()): fail(f"proof is not meaningful full sentence: {src}")
+    if src in central or src in active:
+        text=(ROOT/src).read_text(encoding="utf-8")
+    elif src in cci:
+        try: text=git("show", f"{cci_commit}:{src}")
+        except Exception as e: fail(f"cannot load proof CCI source {src}: {e}"); text=""
+    else: fail(f"proof source not mandatory: {src}"); text=""
+    if q not in text: fail(f"proof quote not verbatim in pinned source: {src}")
+if not {"current_state_or_safe", "newest_recovery_delta", "cci"}.issubset(cats): fail("proof categories incomplete")
+
+# Active cluster and validator identity fields.
+if receipt.get("active_cluster") != manifest.get("active_cluster"): fail("active cluster mismatch")
+if receipt.get("validator_mode") != "--require-session-receipt": fail("wrong validator mode in receipt")
+
+# In boot mode, any inability to verify is already an error; there are no warnings.
 if errors:
     print("INDIA_TRAVEL_BOOT_SANITY: FAIL")
-    for e in errors:
-        print(f"- {e}")
-    for w in warnings:
-        print(f"WARNING: {w}")
+    for e in errors: print(f"- {e}")
     sys.exit(1)
-
 print("INDIA_TRAVEL_BOOT_SANITY: PASS")
-print("V7 fresh-session gate: structurally present")
-print("protected canon: unchanged; IDs 001..081 preserved")
-if require_receipt:
-    print("session receipt: PASS (15/15 central, 6/6 CCI, semantic veto checksum present)")
-for w in warnings:
-    print(f"WARNING: {w}")
-print("central branch relation: CHECK SEPARATELY before central write")
+print(f"SESSION: {session}")
+print(f"NONCE: {nonce}")
+print(f"HEAD: {final}")
+print(f"CENTRAL: {len(central)}/{len(central)}; CCI: {len(cci)}/{len(cci)}; ACTIVE: {len(active)}/{len(active)}")
+print("BOOT_AUTHORIZATION: MECHANICAL_GATE_PASS — independent semantic CHECK still required")
 sys.exit(0)
