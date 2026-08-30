@@ -1,0 +1,397 @@
+{
+  "india_session": "TEST_FIXTURE_GOLDEN",
+  "nonce": "GOLDEN7Q2F9K",
+  "receipt_created_utc": "2026-08-30T15:00:00Z",
+  "boot_head_initial": "dbb5b47e5d25f89944197453b232cb83634ebd3f",
+  "boot_head_final": "dc992532748e0ea8e08f33421f9870c686a812e3",
+  "manifest_path": "governance/BOOT_MANIFEST_V8.json",
+  "manifest_blob": "2eb21176a1b59b910f322ec38e0b90bcf4496abf",
+  "central_reads": [
+    {
+      "path": "governance/FRESH_SESSION_BOOT_GATE.md",
+      "blob_sha": "b1f4e8822869581cef95115e33fe41f7f49cb6d5",
+      "eof_reached": true,
+      "tool_truncated": false,
+      "byte_length": 6464,
+      "read_ranges": [
+        [
+          0,
+          6464
+        ]
+      ]
+    },
+    {
+      "path": "governance/INDIA_MASTER_BOOT.md",
+      "blob_sha": "114a87c544c7556d297ceb0bfe125e26ecb513c5",
+      "eof_reached": true,
+      "tool_truncated": false,
+      "byte_length": 41766,
+      "read_ranges": [
+        [
+          0,
+          41766
+        ]
+      ]
+    },
+    {
+      "path": "governance/INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md",
+      "blob_sha": "8830af87a5c3847522da1ac41196d0f329f2f893",
+      "eof_reached": true,
+      "tool_truncated": false,
+      "byte_length": 18523,
+      "read_ranges": [
+        [
+          0,
+          18523
+        ]
+      ]
+    },
+    {
+      "path": "governance/MARK_TRAVEL_PREFERENCES_CURRENT.md",
+      "blob_sha": "e06cca4de7509f2b6628f69ccf8283ced4e7c464",
+      "eof_reached": true,
+      "tool_truncated": false,
+      "byte_length": 21241,
+      "read_ranges": [
+        [
+          0,
+          21241
+        ]
+      ]
+    },
+    {
+      "path": "governance/MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md",
+      "blob_sha": "c4eba34b6306665444b058740bf9efffff8ae6a4",
+      "eof_reached": true,
+      "tool_truncated": false,
+      "byte_length": 9332,
+      "read_ranges": [
+        [
+          0,
+          9332
+        ]
+      ]
+    },
+    {
+      "path": "governance/MAP_COORDINATE_VERIFICATION_RULE.md",
+      "blob_sha": "37e2aec6ecb3dff495732d2271193d3e399331fd",
+      "eof_reached": true,
+      "tool_truncated": false,
+      "byte_length": 12299,
+      "read_ranges": [
+        [
+          0,
+          12299
+        ]
+      ]
+    },
+    {
+      "path": "governance/INDIA_HUMAN_CENTERED_COMPLEX_TRIP_PLANNING_STANDARD.md",
+      "blob_sha": "19821e7c09c6b37fa836605d05d2fc9fbaaa1924",
+      "eof_reached": true,
+      "tool_truncated": false,
+      "byte_length": 19640,
+      "read_ranges": [
+        [
+          0,
+          19640
+        ]
+      ]
+    },
+    {
+      "path": "governance/FINAL_COMFORT_SWEEP_RULE_2026-08-23.md",
+      "blob_sha": "3e3d833d5f22b7d05801361a61c013fd5690b72e",
+      "eof_reached": true,
+      "tool_truncated": false,
+      "byte_length": 5303,
+      "read_ranges": [
+        [
+          0,
+          5303
+        ]
+      ]
+    },
+    {
+      "path": "governance/TRIP_FRAME_HARD.md",
+      "blob_sha": "5c61ce61e857379a09b10b596d75c5c41843f581",
+      "eof_reached": true,
+      "tool_truncated": false,
+      "byte_length": 3271,
+      "read_ranges": [
+        [
+          0,
+          3271
+        ]
+      ]
+    },
+    {
+      "path": "governance/CURRENT_DECISIONS_MASTER.md",
+      "blob_sha": "34e9a1501b89d7779fde1f62fec2e8fcdd2482bf",
+      "eof_reached": true,
+      "tool_truncated": false,
+      "byte_length": 13810,
+      "read_ranges": [
+        [
+          0,
+          13810
+        ]
+      ]
+    },
+    {
+      "path": "governance/DECISION_LEDGER.jsonl",
+      "blob_sha": "39f143c669cdf1cc918714e7236335f43ddde87b",
+      "eof_reached": true,
+      "tool_truncated": false,
+      "byte_length": 27355,
+      "read_ranges": [
+        [
+          0,
+          27355
+        ]
+      ]
+    },
+    {
+      "path": "governance/CURRENT_STATE.md",
+      "blob_sha": "811d243bad184e618398bd1675b2e4c335903ce1",
+      "eof_reached": true,
+      "tool_truncated": false,
+      "byte_length": 9470,
+      "read_ranges": [
+        [
+          0,
+          9470
+        ]
+      ]
+    },
+    {
+      "path": "governance/SUCCESSOR_SAFE_STATE.md",
+      "blob_sha": "d7ebb069764aa546045f2b2d64821d543383d20f",
+      "eof_reached": true,
+      "tool_truncated": false,
+      "byte_length": 7419,
+      "read_ranges": [
+        [
+          0,
+          7419
+        ]
+      ]
+    },
+    {
+      "path": "governance/INDIA_RECOVERY_DELTAS_CURRENT.md",
+      "blob_sha": "62ff2529e8abcbb6975fdbb0ce03b5b19435f6fb",
+      "eof_reached": true,
+      "tool_truncated": false,
+      "byte_length": 23991,
+      "read_ranges": [
+        [
+          0,
+          23991
+        ]
+      ]
+    },
+    {
+      "path": "governance/INDIA_CURRENT_KNOWLEDGE_MAP.md",
+      "blob_sha": "84bd17496045446b736fb0a9d14fa9a30899e002",
+      "eof_reached": true,
+      "tool_truncated": false,
+      "byte_length": 23460,
+      "read_ranges": [
+        [
+          0,
+          23460
+        ]
+      ]
+    }
+  ],
+  "cci_reads": [
+    {
+      "path": "runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUCCESSOR_START_HERE.md",
+      "blob_sha": "4d44f6e65c78e37417aad4f55c29eac778a1c72d",
+      "eof_reached": true,
+      "tool_truncated": false,
+      "byte_length": 12814,
+      "read_ranges": [
+        [
+          0,
+          12814
+        ]
+      ]
+    },
+    {
+      "path": "runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUPERSEDED_AND_DO_NOT_REVIVE.md",
+      "blob_sha": "d4d44b4324f99fa25c9ab66c2711f833146ce974",
+      "eof_reached": true,
+      "tool_truncated": false,
+      "byte_length": 16649,
+      "read_ranges": [
+        [
+          0,
+          16649
+        ]
+      ]
+    },
+    {
+      "path": "runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/MARK_CURRENT_CANON_MASTER.md",
+      "blob_sha": "8bacfe65eaca2ca7d1d6cd4afc36de449a555b07",
+      "eof_reached": true,
+      "tool_truncated": false,
+      "byte_length": 51311,
+      "read_ranges": [
+        [
+          0,
+          51311
+        ]
+      ]
+    },
+    {
+      "path": "runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/PROJECT_PHILOSOPHY_AND_SELECTION_MODEL.md",
+      "blob_sha": "33b80cdf9a6fceebee75482d2f4db7fde08639b0",
+      "eof_reached": true,
+      "tool_truncated": false,
+      "byte_length": 28366,
+      "read_ranges": [
+        [
+          0,
+          28366
+        ]
+      ]
+    },
+    {
+      "path": "runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/OPEN_MARK_DECISIONS_ONLY.md",
+      "blob_sha": "0ae043fc71805b925a5ce0ea78cfb0484ac11db6",
+      "eof_reached": true,
+      "tool_truncated": false,
+      "byte_length": 13736,
+      "read_ranges": [
+        [
+          0,
+          13736
+        ]
+      ]
+    },
+    {
+      "path": "runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/CURRENT_TRAVEL_EXECUTION_CANON.md",
+      "blob_sha": "d4fbd1edd26733e626af443df2623d2484e9d1c6",
+      "eof_reached": true,
+      "tool_truncated": false,
+      "byte_length": 40501,
+      "read_ranges": [
+        [
+          0,
+          40501
+        ]
+      ]
+    }
+  ],
+  "active_cluster_reads": [
+    {
+      "path": "runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_PREP_PACKET_2026-08-27.md",
+      "blob_sha": "1a4171923256cb16d1154c09ecc6d7344007a033",
+      "eof_reached": true,
+      "tool_truncated": false,
+      "byte_length": 10806,
+      "read_ranges": [
+        [
+          0,
+          10806
+        ]
+      ]
+    },
+    {
+      "path": "runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_DURATION_DECISION_SURFACE_2026-08-29.md",
+      "blob_sha": "3bbf4d3fa968c8b208c792cc08e4bd0b67cc2476",
+      "eof_reached": true,
+      "tool_truncated": false,
+      "byte_length": 19819,
+      "read_ranges": [
+        [
+          0,
+          19819
+        ]
+      ]
+    },
+    {
+      "path": "runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_4_NIGHT_TRIAL_EXECUTION_PRESENTATION_2026-08-30.md",
+      "blob_sha": "5519f0cbcc01b4386353ba8d65d1048f3d690dfc",
+      "eof_reached": true,
+      "tool_truncated": false,
+      "byte_length": 17391,
+      "read_ranges": [
+        [
+          0,
+          17391
+        ]
+      ]
+    },
+    {
+      "path": "runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_SRI_RAMANASRAMAM_STAY_MODEL_2026-08-30.md",
+      "blob_sha": "a15faa4f3a177818c193cf9f7b151e78f3aee03e",
+      "eof_reached": true,
+      "tool_truncated": false,
+      "byte_length": 10012,
+      "read_ranges": [
+        [
+          0,
+          10012
+        ]
+      ]
+    },
+    {
+      "path": "runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_TRANSFER_MODE_CORRECTION_2026-08-30.md",
+      "blob_sha": "ea62be5771d74b1fdc46339c1c9fd6b1c2ecdfa1",
+      "eof_reached": true,
+      "tool_truncated": false,
+      "byte_length": 3941,
+      "read_ranges": [
+        [
+          0,
+          3941
+        ]
+      ]
+    },
+    {
+      "path": "governance/COORDINATE_INTEGRITY_GATE.md",
+      "blob_sha": "c3892c5624e2769b1dbc41cbd03d02dcddbf75a7",
+      "eof_reached": true,
+      "tool_truncated": false,
+      "byte_length": 8849,
+      "read_ranges": [
+        [
+          0,
+          8849
+        ]
+      ]
+    }
+  ],
+  "delta_reread_paths": [
+    "governance/CURRENT_STATE.md",
+    "governance/FRESH_SESSION_BOOT_GATE.md",
+    "governance/INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md",
+    "governance/INDIA_CURRENT_KNOWLEDGE_MAP.md",
+    "governance/INDIA_MASTER_BOOT.md",
+    "governance/INDIA_RECOVERY_DELTAS_CURRENT.md",
+    "governance/SUCCESSOR_SAFE_STATE.md"
+  ],
+  "proof_of_read": [
+    {
+      "source": "governance/CURRENT_STATE.md",
+      "category": "current_state_or_safe",
+      "quote": "Repository memory was NOT missing. The transport rule was already redundant across the master boot, Mark profile, hard trip frame, current decisions master, decision ledger `DL-0009`, and CCI parity `MRK-028`."
+    },
+    {
+      "source": "governance/INDIA_RECOVERY_DELTAS_CURRENT.md",
+      "category": "newest_recovery_delta",
+      "quote": "A governance system with multiple owner files for the same boot concept will drift the moment one of those files is edited without the others."
+    },
+    {
+      "source": "runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUCCESSOR_START_HERE.md",
+      "category": "cci",
+      "quote": "The eight ALWAYS-READ central boot files, in order, at one pinned BOOT_HEAD: governance/INDIA_MASTER_BOOT.md; MARK_TRAVEL_PREFERENCES_CURRENT.md; TRIP_FRAME_HARD.md; CURRENT_DECISIONS_MASTER.md; DECISION_LEDGER.jsonl; CURRENT_STATE.md; INDIA_RECOVERY_DELTAS_CURRENT.md; INDIA_CURRENT_KNOWLEDGE_MAP.md. Boot is not complete because filenames were mentioned \u2014 actually read them."
+    }
+  ],
+  "active_cluster": "TIRUVANNAMALAI_ARUNACHALA",
+  "validator_mode": "--require-session-receipt",
+  "summary_substitution_used": false,
+  "unfinished_truncations": 0,
+  "boot_gate": "PASS"
+}
