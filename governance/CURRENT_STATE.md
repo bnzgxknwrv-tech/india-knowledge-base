@@ -1,6 +1,6 @@
 # CURRENT STATE — INDIA
 
-state_revision: 2026-08-30_INDIA13_CCI_PARITY_BOOT_INTEGRATED__TIRUVANNAMALAI_DURATION_MARK_CHOICE_READY
+state_revision: 2026-08-30_INDIA13_FULL_CCI_PARITY_REREAD_COMPLETE__TIRUVANNAMALAI_DURATION_MARK_CHOICE_READY
 branch: `agent/india8-cluster-casting`
 status: FIXED_CORE_DURATION_CLOSURE_ACTIVE__MARK_ONLY_DURATION_CHOICE
 boot_authority: `governance/INDIA_MASTER_BOOT.md` **V6 CCI-PARITY + CONTINUOUS SUCCESSOR MEMORY**
@@ -11,14 +11,41 @@ decision_ledger: `governance/DECISION_LEDGER.jsonl`
 planning_service_standard: `governance/INDIA_HUMAN_CENTERED_COMPLEX_TRIP_PLANNING_STANDARD.md`
 map_verification_rule: `governance/MAP_COORDINATE_VERIFICATION_RULE.md`
 final_comfort_rule: `governance/FINAL_COMFORT_SWEEP_RULE_2026-08-23.md`
+knowledge_map: `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md` **V4 CCI-PARITY-SYNCHRONIZED**
+behavior_contract: `governance/INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md` **CCI parity rules promoted 2026-08-30**
 latest_successor_checkpoint: `governance/INDIA12_FINAL_SUCCESSOR_CHECKPOINT_2026-08-29.md`
 train_booking_rule: `governance/INDIA_TRAIN_BOOKING_ROUND_CURRENT.md`
 packing_list: `governance/MARK_INDIA_PACKING_LIST_CURRENT.md`
 
-## SUCCESSOR MEMORY SYSTEM — CCI PARITY REPAIR NOW ACTIVE
-INDIA13 reviewed the completed CCI full-repository harvest. CCI reports 4,192 manifest objects, 2,002 unique tip blobs, 89 recovered deleted/renamed blobs, 218 PR comments, 1,779 commit messages and 206 materialized knowledge atoms, followed by nine successor-parity iterations ending in PASS.
+## SUCCESSOR MEMORY SYSTEM — FULL CCI PARITY REREAD COMPLETE
+INDIA13 reviewed the completed CCI full-repository harvest and then, after Mark challenged the speed/depth of the first boot, re-read the **six mandatory successor files completely in bounded overlapping chunks rather than relying on truncated summaries**.
 
-The central master boot now makes the CCI successor-parity package mandatory after the normal central durable core. This repairs the demonstrated problem that a fresh INDIA could execute the former boot correctly yet still miss item-level grades, P0 transfer closures, route/topology facts, recovered Mark WHY/wishes, superseded traps, event-date signals and other cross-generation knowledge.
+CCI reports 4,192 manifest objects, 2,002 unique tip blobs, 89 recovered deleted/renamed blobs, 218 PR comments, 1,779 commit messages and 206 materialized knowledge atoms, followed by nine successor-parity iterations ending in PASS.
+
+Structural repairs now central:
+- master boot V6 makes the immutable CCI successor package mandatory;
+- `INDIA_CURRENT_KNOWLEDGE_MAP.md` V4 repaired a serious stale-map defect: the old map still had the obsolete eight-file boot summary and still pointed the frontier back to Bodh Gaya;
+- `INDIA_RECOVERY_DELTAS_CURRENT.md` now records the former boot insufficiency as a major predecessor/system failure and adds boot/map-sync + CCI-filter guards;
+- `INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md` now includes continuous successor-memory, CCI parity, capability honesty, one-block iPhone copy-paste and the recovered explicit `NU_DOEN` closure rule;
+- `CURRENT_DECISIONS_MASTER.md` now promotes recovered cross-trip Mark truth concerning Ramakrishna, Sri Aurobindo/Puducherry and the Anandamayi Ma × Yogananda joint-photo override.
+
+Three-way CCI filter is mandatory:
+1. CURRENT/STILL_VALID — preserve/promote/routable;
+2. LIVE_RECHECK_LATER — preserve signal, revalidate at relevant planning stage;
+3. SUPERSEDED — provenance only, never overwrite newer central truth.
+
+Concrete filtered examples:
+- CCI frozen Bodh Gaya open frontier = SUPERSEDED; current Bodh Gaya closure wins.
+- CCI old Maya Heritage “not locked” statement = SUPERSEDED; Maya Heritage is now LOCKED_BY_MARK.
+- CCI old Chennai-primary southbound inbound hypothesis = SUPERSEDED for the current duration surface by INDIA13's later timing-aware Bengaluru-inbound working hypothesis; exact flight operation remains LIVE_RECHECK_LATER.
+- Haridwar Ardh Kumbh/Makar Sankranti 14 Jan 2027 and YSS Dwarahat Christmas Long Meditation 20 Dec 2026 = LIVE_RECHECK_LATER opportunity signals, not route/date locks.
+- item-level grades, transfer accounting, Varanasi geo weaknesses/identity split, Sarnath UNESCO precision, Varanasi emotional sequencing, Ramakrishna/Sri Aurobindo motivations, joint-photo override and communication/replaceability rules = STILL_VALID unless later explicit Mark truth supersedes them.
+
+Additional CCI anti-regression detail now guaranteed by mandatory boot even where not duplicated in CURRENT_STATE:
+- Bhumiadhar (Neem Karoli Baba / Ram Dass first-meeting place) and Bhumiya Dhara (Anandamayi Ma) are different places; never merge on name similarity;
+- an old Incredible India claim of a Neem Karoli Baba samadhi at Kainchi is wrong and must not be propagated;
+- incompatible historical numbering systems must never be reconciled by number alone; current permanent location numbering 001–081 + separate accommodation IDs controls;
+- CCI's recovered Varanasi working pins are not automatically current verified pins; current map-verification rules still govern.
 
 New hard memory rule: materially useful knowledge learned by INDIA may not remain only in chat, temporary context, an unlinked run file, worker branch or PR comment. Before reply it must be promoted into the appropriate living central file/artifact or be explicitly reachable through mandatory boot/knowledge-map routing. `CURRENT_STATE.md` remains a pointer, not a history dump.
 
@@ -31,7 +58,7 @@ Mandatory cluster prep:
 Current decision-ready surface:
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_DURATION_DECISION_SURFACE_2026-08-29.md`
 
-INDIA13 completed the active fixed-core geo/base/day-module/robustness pass. Do NOT restart Bodh Gaya. Do NOT ballot optional worlds. Do NOT re-ballot the protected Tiruvannamalai A/A+/B items.
+INDIA13 completed the active fixed-core geo/base/day-module/robustness pass. Do NOT restart Bodh Gaya. Do NOT ballot optional worlds. Do NOT re-ballot protected Tiruvannamalai A/A+/B items.
 
 ### EXACT MARK-ONLY CHOICE NOW
 - **4 nights** = inbound arrival + 3 full local days; technically possible but requires meaningful compression; `SENSITIVE / COMPACT`.
@@ -144,7 +171,7 @@ Geo status for this duration decision:
 Current topology hypothesis under fixed-A+ skeleton:
 - predecessor = Varanasi/Sarnath;
 - current stronger inbound human-time hypothesis = Varanasi airport -> direct midday Bengaluru flight if actual-date operation works -> private car Bengaluru Airport -> Tiruvannamalai;
-- the previously assumed late direct Chennai arrival is inferior if it forces an airport hotel/overnight drive;
+- previously assumed late direct Chennai arrival is inferior if it forces an airport hotel/overnight drive;
 - successor = Delhi/international exit;
 - natural exit hypothesis = Tiruvannamalai -> Chennai Airport by car -> nonstop Chennai -> Delhi flight;
 - both bridges are substantial/full occupied travel-day class after real door-to-door friction.
@@ -174,32 +201,23 @@ Side-question protections only:
 Exact rule: `decisions/NEEM_KAROLI_VRINDAVAN_RED_HOUSE_ROUTE_RULE_2026-08-29.md`.
 
 ## CCI RECOVERED SIGNALS — DO NOT LOSE / DO NOT SILENTLY PROMOTE
-The mandatory CCI layer also preserves still-relevant cross-generation signals that were absent from the former boot. They do not override newer central truth and are not automatic route locks, but must be surfaced at the correct planning gate:
 - Haridwar Ardh Kumbh / Makar Sankranti Snan signal on 14 Jan 2027 if/when the Haridwar/Kankhal/Rishikesh optional-world ballot is run; no later westward return may be invented merely for it.
-- YSS Dwarahat Christmas Long Meditation signal on 20 Dec 2026; recheck live once exact Kumaon dates are closed and surface only if the internal sequence can fit naturally.
-- recovered Mark personal wish concerning Sri Aurobindo/Puducherry belongs in the prepared southern/open layer when that layer is legitimately reached; it must not be silently lost, but the current fixed-A+-only duration calculation still excludes optional southern additions.
+- YSS Dwarahat Christmas Long Meditation signal on 20 Dec 2026; recheck live once exact Kumaon dates are closed and surface only if internal sequence can fit naturally.
+- Sri Aurobindo/Puducherry preference belongs in later legitimate southern/open layer; do not silently lose it and do not smuggle it into current fixed-A+-only duration arithmetic.
 - Varanasi Lahiri Mahasaya Samadhi/Satyalok identity split and old Varanasi KML pin-quality repair remain INDIA reconciliation work, not fresh Mark grade questions.
 - P0 Kumaon transfer closures remain required before final detailed day/calendar production; old shortcut values may not be reused by habit.
 
 ## GLOBAL TRAIN BOOKING — LATER MANDATORY ACTION
 Mark explicitly wants all used train journeys later locked/booked once the exact calendar is stable.
-Read:
-`governance/INDIA_TRAIN_BOOKING_ROUND_CURRENT.md`
-
+Read `governance/INDIA_TRAIN_BOOKING_ROUND_CURRENT.md`.
 Do not confuse current timetable candidates with final bookings.
 
 ## PACKING LIST
-Current durable list:
-`governance/MARK_INDIA_PACKING_LIST_CURRENT.md`
-
-Current explicit items:
-- walking/trekking poles;
-- water shoes;
-- gaiters/gamaschen.
+Current durable list: `governance/MARK_INDIA_PACKING_LIST_CURRENT.md`.
+Current explicit items: walking/trekking poles; water shoes; gaiters/gamaschen.
 
 ## MAP / GEO HARD GUARD
-`governance/MAP_COORDINATE_VERIFICATION_RULE.md` remains mandatory.
-No decision-relevant map/proximity/route claim may use an unverified ambiguous pin. Distinguish entity location from routing-access location. Old provisional coordinates are not grandfathered.
+`governance/MAP_COORDINATE_VERIFICATION_RULE.md` remains mandatory. No decision-relevant map/proximity/route claim may use an unverified ambiguous pin. Distinguish entity location from routing-access location. Old provisional coordinates are not grandfathered.
 
 ## USER-FACING NAME HARD GUARD
 Every unfamiliar Indian location name must be recognition-rich on EVERY occurrence, including second mentions, tables, route strings and conclusions. Bare Indian names are a presentation failure.
@@ -209,11 +227,5 @@ Every unfamiliar Indian location name must be recognition-rich on EVERY occurren
 2. Present the complete 4/5/6-night scenario delta with INDIA recommendation = 5 nights.
 3. After Mark decides, record WHAT + WHY in ledger/master/exact decision/current state.
 4. Then automatically continue to the next fixed-core closure without asking permission.
-
-## CCI FULL-REPO HARVEST
-Completed parity package is mandatory boot input at immutable worker commit:
-`agent/cci-full-repo-knowledge-harvest@b5349afe41f98eb4870728aaff2c633899afc1fa`.
-
-Authority rule: newer explicit Mark/central truth wins over the frozen CCI frontier. CCI remains authoritative recovery evidence for predecessor knowledge not later superseded.
 
 END CURRENT STATE
