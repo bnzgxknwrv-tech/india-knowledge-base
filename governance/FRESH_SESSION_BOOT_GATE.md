@@ -43,7 +43,7 @@ Before the first substantive India conclusion, recommendation, route statement, 
 `governance/BOOT_SESSION_RECEIPT.md` must contain at minimum:
 - INDIA/session label;
 - exact `BOOT_HEAD`;
-- `CENTRAL_FULL_READS: 14/14`;
+- `CENTRAL_FULL_READS: 15/15`;
 - `CCI_FULL_READS: 6/6`;
 - exact file paths read;
 - blob SHA for each file when available;
@@ -61,9 +61,20 @@ Before the first substantive India conclusion, recommendation, route statement, 
   - `CCI_THREE_WAY_FILTER`;
   - `SAFE_STATE_UNSAVED_RISK_GEEN`;
   - `FULL_SOURCE_LAYER_WHEN_REQUESTED`;
-  - `NU_DOEN_EXPLICIT_NEXT_ACTION`.
+  - `NU_DOEN_EXPLICIT_NEXT_ACTION`;
+- a `PROOF_OF_READ_CHALLENGE` block (see below).
 
 A receipt saying only `boot complete` is invalid.
+
+## PROOF-OF-READ CHALLENGE — CLOSES THE BLOB-SHA-WITHOUT-CONTENT GAP
+A correct blob SHA proves the session correctly identified the current version of a file. It does NOT prove the session's context window ever held that file's actual text: `git rev-parse <head>:<path>` (or the connector-equivalent metadata call) returns the exact same SHA without reading a single byte of content, and an unchanged file's SHA is identical to the previous session's receipt and can be copied forward.
+
+Therefore, before `BOOT_GATE: PASS`, the receipt must also contain a `PROOF_OF_READ_CHALLENGE` block with THREE items, each a **verbatim quote** (not a paraphrase, not a summary) of one full sentence that:
+1. is copied exactly, character-for-character, from `governance/CURRENT_STATE.md` or `governance/SUCCESSOR_SAFE_STATE.md` — content that changes across sessions and cannot be answered from training data or a stale memorized answer;
+2. is copied exactly from `governance/INDIA_RECOVERY_DELTAS_CURRENT.md` — pick the most recently added R-item, not R01;
+3. is copied exactly from one CCI successor-parity file at the immutable harvest commit, naming which file.
+
+A paraphrase, a description of what the sentence says, or a quote that does not exactly match the source text character-for-character is a `PROOF_OF_READ_CHALLENGE: FAIL` and therefore `BOOT_GATE: FAIL`, regardless of how correct the surrounding receipt looks. This cannot be satisfied by a metadata-only operation; it requires the file's actual text to have been loaded into the session.
 
 ## FAIL-CLOSED RULE
 If any required file is not fully read in the current session, or a tool response was truncated and not continued to EOF:

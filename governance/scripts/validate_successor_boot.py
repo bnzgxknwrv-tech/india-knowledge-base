@@ -186,6 +186,49 @@ if require_receipt:
     if CCI_COMMIT not in receipt_text:
         errors.append("session receipt does not pin immutable CCI completion commit")
 
+    # PROOF_OF_READ_CHALLENGE: a correct blob SHA proves the session identified the
+    # right version of a file, not that its content was ever loaded (a metadata-only
+    # `git rev-parse <head>:<path>` returns the same SHA without reading a byte, and an
+    # unchanged file's SHA can be copied forward from a previous receipt unread). Each
+    # quote must be an exact substring of its named source file's actual text.
+    if "PROOF_OF_READ_CHALLENGE" not in receipt_text:
+        errors.append("session receipt missing PROOF_OF_READ_CHALLENGE block")
+    else:
+        quotes = re.findall(
+            r"SOURCE:\s*([^\n]+)\nQUOTE:\s*\"([^\"]+)\"", receipt_text
+        )
+        if len(quotes) < 3:
+            errors.append(
+                f"PROOF_OF_READ_CHALLENGE has {len(quotes)} SOURCE/QUOTE pairs, need at least 3"
+            )
+        for source_rel, quote in quotes:
+            source_rel = source_rel.strip()
+            quote = quote.strip()
+            if not quote:
+                errors.append(f"PROOF_OF_READ_CHALLENGE has an empty quote for {source_rel}")
+                continue
+            source_path = ROOT / source_rel
+            if source_path.is_file():
+                if quote not in read(source_path):
+                    errors.append(
+                        f"PROOF_OF_READ_CHALLENGE quote not found verbatim in local {source_rel} "
+                        f"(paraphrase, mismatch, or fabricated)"
+                    )
+            elif source_rel.startswith("runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/"):
+                try:
+                    cci_text = subprocess.check_output(
+                        ["git", "show", f"{CCI_COMMIT}:{source_rel}"], cwd=ROOT, text=True, stderr=subprocess.DEVNULL
+                    )
+                except Exception:
+                    warnings.append(f"could not verify PROOF_OF_READ_CHALLENGE quote against immutable CCI {source_rel} locally")
+                else:
+                    if quote not in cci_text:
+                        errors.append(
+                            f"PROOF_OF_READ_CHALLENGE quote not found verbatim in CCI {source_rel} at {CCI_COMMIT}"
+                        )
+            else:
+                errors.append(f"PROOF_OF_READ_CHALLENGE cites unrecognized/unreadable source: {source_rel}")
+
     bm = re.search(r"BOOT_HEAD(?:_READ)?:\s*`([0-9a-f]{40})`", receipt_text)
     if not bm:
         errors.append("session receipt lacks exact 40-char BOOT_HEAD")
