@@ -1,0 +1,78 @@
+{
+  "india_session": "TEST_FIXTURE_GOLDEN3",
+  "start_nonce": "GOLDEN3NONCE01",
+  "check_nonce": "CHECK3NONCE02",
+  "receipt_path": "governance/boot_receipts/test_fixtures/TEST_FIXTURE_GOLDEN3__GOLDEN3NONCE01.json",
+  "boot_head_final": "8842a0c6c16d168cc580409d634467a32faf6b47",
+  "receipt_commit": "2d4c8ea7fc349e0aae31716553ffeea7a5807d3a",
+  "new_quotes": [
+    {
+      "source": "governance/MARK_TRAVEL_PREFERENCES_CURRENT.md",
+      "quote": "Model intelligence is a bonus; GitHub carries continuity."
+    },
+    {
+      "source": "governance/MAP_COORDINATE_VERIFICATION_RULE.md",
+      "quote": "A map shown to Mark is decision evidence."
+    }
+  ],
+  "challenges": [
+    {
+      "topic": "TRAIN_FIRST_DOOR_TO_DOOR",
+      "question": "Given a Varanasi->Tiruvannamalai transfer scenario, is a taxi-heavy plan correct by default?",
+      "start_session_answer": "No, a taxi-heavy or flight-first default is not correct. The hierarchy requires testing rail-first with a genuine true door-to-door benefit comparison before any flight or long private-car segment is accepted; the prior boot failure on 2026-08-30 happened precisely because that hierarchy was skipped, not because the rule was missing from the repository.",
+      "checker_evidence": "governance/CURRENT_STATE.md TRAVEL FRONTIER PRESERVED section states train is tested first and flight may win only on meaningful true door-to-door benefit; governance/INDIA_RECOVERY_DELTAS_CURRENT.md documents the taxi-heavy failure that triggered this whole repair chain.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "AL_BESLIST",
+      "question": "If presented with the Bodh Gaya Maya Heritage hotel as an open choice, is that correct?",
+      "start_session_answer": "No, that is incorrect. CURRENT_STATE.md records Maya Heritage under FIXED-CORE STATUS as LOCKED_BY_MARK for Bodh Gaya/Gaya, so it must not be re-presented as if it were still an open decision awaiting Mark's input.",
+      "checker_evidence": "governance/CURRENT_STATE.md FIXED-CORE STATUS section lists Bodh Gaya / Gaya content/execution/duration rule as closed with Maya Heritage LOCKED_BY_MARK.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "C_DO_NOT_RE_PRESENT",
+      "question": "May a current-trip C-grade (reject) item be shown again as a live option without Mark reopening it?",
+      "start_session_answer": "No, a C-grade item must stay absent from live presentation once rejected. It may only return to consideration if Mark explicitly reopens it himself; the session must not silently re-litigate a closed rejection on its own initiative.",
+      "checker_evidence": "governance/INDIA_MASTER_BOOT.md grade-semantics sections require a rejected (C) item to remain absent unless Mark explicitly reopens it, matching the AL BESLIST discipline recorded in governance/CURRENT_STATE.md HARD PRE-CONTENT CHECKSUM.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "NEWER_CENTRAL_OVER_CCI",
+      "question": "If the CCI harvest's frozen frontier text conflicts with a newer central CURRENT_STATE.md fact, which wins?",
+      "start_session_answer": "The newer central fact wins. The CCI harvest is a frozen, pinned reconciliation snapshot at a fixed commit, not a live or continuously-updated source, so any conflict with the current central checkpoint resolves in favor of the current central file.",
+      "checker_evidence": "governance/CURRENT_STATE.md cci_successor_parity_source line pins the CCI harvest to a fixed commit (b5349afe...), and governance/BOOT_MANIFEST_V8.json's cci_commit field is likewise fixed, establishing CCI as frozen evidence rather than a moving source of truth.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "GEO_VETO",
+      "question": "May a decision map pin be rendered for an unresolved/ambiguous location?",
+      "start_session_answer": "No, a pin must not be rendered for a location whose physical identity has not been sufficiently verified. The correct behavior is NO PIN / NO GEOMETRY CONCLUSION until the location is properly resolved, rather than guessing coordinates from a similar-sounding name.",
+      "checker_evidence": "governance/MAP_COORDINATE_VERIFICATION_RULE.md's CORE RULE section requires NO PIN / NO GEOMETRY CONCLUSION for an unresolved or ambiguous physical location.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "CURRENT_FRONTIER",
+      "question": "What is the exact current operational frontier per CURRENT_STATE.md at this boot_head_final?",
+      "start_session_answer": "The current frontier is the system/governance layer, not travel content: the first Work-audit's 6 MUST_FIX items were repaired and fast-forward pushed, a fresh independent Work re-audit of that repair then found 2 further MUST_FIX items, and this checkpoint records that second repair while travel content (the Tiruvannamalai rail-first rebuild) stays held pending one more fresh re-audit.",
+      "checker_evidence": "governance/CURRENT_STATE.md state_revision and status lines and its EXACT NEXT EXECUTION section describe exactly this repaired-pending-second-reaudit frontier.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "ACTION_FIRST",
+      "question": "Does the receipt/session output contain forbidden deferral phrasing such as 'ik ga onderzoeken' or 'wil je dat ik verderga?'",
+      "start_session_answer": "No, none of the reviewed governance edits or this receipt contain that kind of deferral phrasing; the repair was carried out and reported directly rather than asking permission to proceed with work already authorized.",
+      "checker_evidence": "Manual scan of the reviewed diff and governance/INDIA_MASTER_BOOT.md's ACTION-FIRST veto section found no instance of the forbidden deferral phrasing in the governance-file changes for this round.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "DURABLE_WHAT_WHY",
+      "question": "If this chat died right now, where would the new knowledge from this second repair round (R32, the schema/validator change) durably live for INDIA(N+1)?",
+      "start_session_answer": "It would live in governance/INDIA_RECOVERY_DELTAS_CURRENT.md under the new R32 entry for WHAT and WHY, in governance/CURRENT_STATE.md and governance/SUCCESSOR_SAFE_STATE.md for the current frontier and next step, and in governance/BOOT_MANIFEST_V8.json plus the updated validate_independent_check.py script for the actual enforcement mechanism -- all committed to GitHub, not dependent on this conversation continuing.",
+      "checker_evidence": "governance/INDIA_RECOVERY_DELTAS_CURRENT.md R32 section states the hard correction and general principle; governance/SUCCESSOR_SAFE_STATE.md CONTROLLING_ARTIFACTS list names all of these files explicitly.",
+      "checker_verdict": "PASS"
+    }
+  ],
+  "check_created_utc": "2026-08-30T20:18:00Z",
+  "check_gate": "PASS"
+}
