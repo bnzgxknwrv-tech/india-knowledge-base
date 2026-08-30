@@ -1,8 +1,8 @@
 # CURRENT STATE — INDIA
 
-state_revision: 2026-08-30_INDIA13_CRASH_SAFE_SUCCESSOR_CHECKPOINT_ACTIVE__TIRUVANNAMALAI_DURATION_MARK_CHOICE_READY
+state_revision: 2026-08-30_BOOT_EXECUTION_FAILURE_REPAIRED__TIRUVANNAMALAI_RAIL_FIRST_TRANSFER_REEVALUATION
 branch: `agent/india8-cluster-casting`
-status: FIXED_CORE_DURATION_CLOSURE_ACTIVE__MARK_ONLY_DURATION_CHOICE
+status: FIXED_CORE_DURATION_CLOSURE_ACTIVE__TIRUVANNAMALAI_DURATION_OPEN__RAIL_FIRST_EDGE_REEVALUATION
 boot_authority: `governance/INDIA_MASTER_BOOT.md` V6 CCI-PARITY + CONTINUOUS SUCCESSOR MEMORY
 successor_safe_state: `governance/SUCCESSOR_SAFE_STATE.md` **MANDATORY CRASH-RECOVERY POINTER**
 knowledge_map: `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md` V4 CCI-PARITY-SYNCHRONIZED
@@ -22,16 +22,32 @@ After every material India research/reconciliation/decision/method change/worker
 
 A fresh successor reads the normal mandatory boot and then `governance/SUCCESSOR_SAFE_STATE.md` as the final crash-recovery pointer. If this file, CURRENT_STATE or current decision truth disagree materially, reconcile immediately; newest explicit Mark/current authority wins.
 
-## SUCCESSOR MEMORY / CCI PARITY — CLOSED AS SYSTEM REPAIR
-INDIA13 performed a full reread of the six mandatory CCI successor-parity files after the first boot was challenged as too shallow. Valid recovered knowledge is filtered as CURRENT/STILL_VALID, LIVE_RECHECK_LATER, or SUPERSEDED. CCI frozen frontier never overrides later central truth.
+## BOOT EXECUTION FAILURE + REPAIR — 2026-08-30
+A fresh-session INDIA instance began substantive Tiruvannamalai advice without first executing the current V6 master boot in this session. It relied on predecessor/conversation summary plus selective active-cluster reads. Mark caught the failure when INDIA recommended multi-hour private-car/taxi legs despite the hard existing transport hierarchy.
 
-The knowledge map was repaired after a stale-map defect was found. Material knowledge may not remain only in chat, an unlinked worker file, PR comment or temporary context.
+Repository architecture was NOT the cause. `train first when practical` was already redundantly durable in:
+- `INDIA_MASTER_BOOT.md`;
+- `MARK_TRAVEL_PREFERENCES_CURRENT.md`;
+- `TRIP_FRAME_HARD.md`;
+- `CURRENT_DECISIONS_MASTER.md`;
+- `DECISION_LEDGER.jsonl` event `DL-0009`;
+- CCI parity `MARK_CURRENT_CANON_MASTER.md` item `MRK-028`.
+
+Hard correction:
+- a conversation/predecessor summary is never a substitute for actually reading the current mandatory boot files;
+- a fresh INDIA must pin BOOT_HEAD and execute the V6 boot before substantive advice;
+- the previous taxi-heavy south-gateway advice is INVALIDATED AS A WORKING HYPOTHESIS, not as a Mark decision;
+- Tiruvannamalai duration remains open; no A+/A/A*/B/C, hotel/base or duration decision changed;
+- inbound and outbound Tiruvannamalai edges must now be rebuilt RAIL-FIRST before the duration surface is considered decision-ready.
+
+## SUCCESSOR MEMORY / CCI PARITY — CURRENT
+The V6 boot and all six mandatory immutable CCI successor-parity files were re-read during the recovery. Valid CCI knowledge remains filtered as CURRENT/STILL_VALID, LIVE_RECHECK_LATER, or SUPERSEDED. Frozen CCI route/frontier text never overrides newer explicit Mark/current central truth.
 
 ## FIXED-CORE STATUS
 - KUMAON: DURATION_CLOSED — 9 occupied days / 9 nights through final Dunagiri night; Delhi->Haidakhan inbound included; eastern exit charged separately once.
 - VARANASI / SARNATH: DURATION_CLOSED — 8 occupied days / 8 nights through final Varanasi night; Bodh Gaya->Varanasi arrival/wind-down + 7 local days included.
 - BODH GAYA / GAYA: content + execution + duration rule closed; Maya Heritage LOCKED_BY_MARK; default 2 hotel nights if early inbound, 3 only if late/disrupted or consciously deeper, max 3.
-- TIRUVANNAMALAI / ARUNACHALA: objective duration surface closed; current Mark-only choice = 4 / 5 / 6 nights.
+- TIRUVANNAMALAI / ARUNACHALA: objective local-content duration surface exists; duration NOT chosen. Five nights remains the current INDIA recommendation because it is the first clean structure with one whole Sri Ramanasramam day plus caves, early-Ramana town history and full Girivalam on separate local days.
 - DELHI: prepared, not duration-closed.
 - AGRA / TAJ: prepared, not duration-closed.
 
@@ -52,6 +68,9 @@ Do NOT reopen Bodh Gaya. Do NOT re-ballot protected Tiruvannamalai A+/A/B items.
 Mandatory current sources:
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_PREP_PACKET_2026-08-27.md`
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_DURATION_DECISION_SURFACE_2026-08-29.md`
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_4_NIGHT_TRIAL_EXECUTION_PRESENTATION_2026-08-30.md`
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_SRI_RAMANASRAMAM_STAY_MODEL_2026-08-30.md`
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_TRANSFER_MODE_CORRECTION_2026-08-30.md`
 - `governance/COORDINATE_INTEGRITY_GATE.md`
 
 Protected content:
@@ -68,29 +87,36 @@ Protected content:
 
 Desired true ashram sleep #2 = Sri Ramanasramam itself if accepted/available; fallback normal lodging immediately around/opposite the ashram.
 
-### EXACT MARK-ONLY CHOICE
-- 4 nights = inbound arrival + 3 full local days; `SENSITIVE / COMPACT`.
-- 5 nights = inbound arrival + 4 clean full local A days; `ROBUST / BALANCED`; **INDIA13 recommendation**.
-- 6 nights = inbound arrival + 5 full local days; extra unstructured Ramana/Arunachala depth day; `VERY ROBUST / DELIBERATELY DEEP`.
-
-After Mark chooses:
-1. record WHAT + WHY in DECISION_LEDGER;
-2. update CURRENT_DECISIONS_MASTER;
-3. write/update exact Tiruvannamalai duration decision artifact;
-4. update CURRENT_STATE + SUCCESSOR_SAFE_STATE;
-5. continue automatically to next fixed-core closure until next genuine Mark-only decision.
+### CURRENT DURATION INTERPRETATION — NO LOCK
+- 4 nights = viable only under distributed ashram immersion; materially compressed if one whole ashram day is protected.
+- 5 nights = first clean no-stacking structure with one whole ashram day; current INDIA recommendation.
+- 6 nights = extra deliberately unstructured depth/recovery beyond objective execution need.
 
 ## CURRENT TIRUVANNAMALAI EXECUTION CHECKSUM
-Local A-only structure under 5-night recommended case:
-1. inbound full travel/arrival day, no serious content promised;
-2. deep Sri Ramanasramam day;
+Five-night clean local structure under review:
+1. inbound full travel/arrival day, no serious local content promised;
+2. deep whole Sri Ramanasramam day;
 3. Skandashram + Virupaksha Cave spiritual hill walk;
 4. Arunachaleswarar Temple + Gurumurtam + Pavalakunru early-Ramana day;
-5. dedicated full 14 km Girivalam day.
+5. dedicated full 14 km Girivalam day;
+6. outbound edge after final Tiruvannamalai night is separate.
 
-Geo status: PASS FOR DURATION DECISION; final detailed KML/pairwise routing still later where unresolved.
+Geo status: PASS FOR DURATION-SCALE LOCAL GEOMETRY; final detailed KML/pairwise routing still later where unresolved.
 
-Working inbound hypothesis: Varanasi -> Bengaluru midday flight if actual-date service works -> private car to Tiruvannamalai. Working exit hypothesis: Tiruvannamalai -> Chennai Airport by car -> Chennai -> Delhi flight. Exact services = LIVE_RECHECK_LATER.
+### INTER-CORE TRANSPORT — HARD RAIL-FIRST REEVALUATION
+The former working default `Varanasi -> Bengaluru/Chennai flight -> multi-hour private car to Tiruvannamalai` and `Tiruvannamalai -> Chennai by multi-hour car -> Delhi flight` is no longer accepted as the planning default.
+
+Apply the already-existing hard transport hierarchy:
+1. TRAIN FIRST when practical, 1A target for overnight rail where appropriate;
+2. a rail solution may be preferred even if modestly slower when it materially improves calm, predictability and usable rest;
+3. flight only when it creates meaningful TRUE door-to-door gain after airport friction;
+4. private car/taxi primarily for short last-mile, mountains, or where rail is genuinely impractical/unreasonably slower;
+5. no long-distance bus fallback.
+
+Both edges now require objective rail-heavy route comparison before Mark is shown a final duration/transfer surface:
+- Varanasi/Sarnath -> Tiruvannamalai/Arunachala;
+- Tiruvannamalai/Arunachala -> Delhi/international-exit world.
+Exact Dec 2026/Jan 2027 services = LIVE_RECHECK_LATER; current service structure may be used for feasibility, not calendar lock.
 
 Typical second-half-January climatology, not forecast:
 - 06:00 ~18–20 C;
@@ -100,23 +126,17 @@ Typical second-half-January climatology, not forecast:
 - sunset ~17:59–18:15.
 Full moon 22 Jan 2027 is after booked 21 Jan international departure.
 
-## CCI RECOVERED SIGNALS — PRESERVE, DO NOT SILENTLY PROMOTE
-- Haridwar Ardh Kumbh / Makar Sankranti signal 14 Jan 2027 = LIVE_RECHECK_LATER if optional Haridwar world reaches ballot.
-- YSS Dwarahat Christmas Long Meditation signal 20 Dec 2026 = LIVE_RECHECK_LATER once exact Kumaon dates exist.
-- Sri Aurobindo/Puducherry is a real Mark preference for later southern/open review, not current fixed-A+-duration arithmetic.
-- Varanasi Lahiri Mahasaya Samadhi/Satyalok identity split + old weak KML pins remain INDIA technical reconciliation work, not Mark grade questions.
-- P0 Kumaon transfer closures remain required before final detailed calendar/day production.
-
 ## HARD GUARDS
 - Run `AL BESLIST?` before presenting any choice.
 - Follow `governance/MAP_COORDINATE_VERIFICATION_RULE.md`; no guessed decision pin.
 - Every unfamiliar Indian place name must be recognition-rich in every user-facing occurrence.
 - Full human transfer burden, not raw timetable time.
+- Train-first is a hard planning invariant, not an optional stylistic preference.
 - Same-turn durable memory after every material Mark choice/correction.
 - Final comfort/food/human-texture sweep remains mandatory before final day cards.
 - `governance/SUCCESSOR_SAFE_STATE.md` must be SAFE_TO_HANDOFF with UNSAVED_RISK=GEEN before every substantive reply.
 
 ## EXACT NEXT EXECUTION
-WAITING_FOR_MARK: Tiruvannamalai / Arunachala duration = 4 / 5 / 6 nights; recommendation 5.
+INDIA-owned: rebuild the two Tiruvannamalai inter-core transport edges rail-first, then fold the result into the five-night human schedule. Stop only after the corrected decision surface reaches the genuine Mark-only duration choice.
 
 END CURRENT STATE

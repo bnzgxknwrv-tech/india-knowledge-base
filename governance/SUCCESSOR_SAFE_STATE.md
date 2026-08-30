@@ -32,43 +32,43 @@ Every update must leave these fields current:
 3. A Mark side-question does not erase the underlying frontier; preserve both and resume automatically unless Mark explicitly cancels/replaces it.
 4. `CURRENT_STATE.md` remains the richer cockpit. If this file and `CURRENT_STATE.md` differ materially, that is a memory-system failure: reconcile immediately using newest explicit Mark/current authority.
 5. Never use this checkpoint to override a newer Mark decision, current decision master, decision ledger, or exact current cluster artifact.
-6. A successor must read this file after the mandatory boot/current-state layer and use it as the final crash-recovery pointer.
-7. **ATOMICITY — HARD:** whenever a turn changes both `CURRENT_STATE.md` and this file, commit them together in a single git commit, never as two sequential commits. Two sequential commits leave a real (if narrow) window where a crash between them leaves the two files inconsistent — a single commit is atomic and closes that window entirely. This file is itself ALWAYS-READ in `governance/INDIA_MASTER_BOOT.md` §2 and `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md` §A — it is not reachable only through a `CURRENT_STATE.md` pointer.
+6. A successor must read this file as an explicit mandatory ALWAYS-read source and use it as the final crash-recovery pointer.
+7. **ATOMICITY — HARD:** whenever a turn changes both `CURRENT_STATE.md` and this file, commit them together in a single git commit, never as two sequential commits.
 
 ---
 
 STATUS: SAFE_TO_HANDOFF
 
 FRONTIER:
-Fixed-core duration closure. Mark has NOT chosen a duration yet. He asked INDIA to use **4 nights as a trial scenario** and interrogate whether that remains humanly correct once the actual Sri Ramanasramam stay model is understood.
+Tiruvannamalai/Arunachala fixed-core duration closure remains active. Mark has NOT chosen 4/5/6 nights. The immediate INDIA-owned prerequisite is to repair the transfer surface: rebuild Varanasi/Sarnath -> Tiruvannamalai/Arunachala and Tiruvannamalai/Arunachala -> Delhi using the already-existing TRAIN-FIRST transport hierarchy before Mark is asked to lock duration.
 
 LAST_COMPLETED:
-- INDIA13 completed the CCI full-repository successor-parity reread and central parity repairs.
-- CCI later strengthened the crash-safe architecture; `SUCCESSOR_SAFE_STATE.md` is ALWAYS-read and the boot validator is repaired.
-- Tiruvannamalai's central prep packet already contains the `STRICT LONELY PLANET / TRAVELER LAYER — CURRENT UNION`; no new LP sweep is needed before the fixed-core duration test.
-- A full 4-night trial execution surface is durably materialized at `TIRUVANNAMALAI_4_NIGHT_TRIAL_EXECUTION_PRESENTATION_2026-08-30.md`.
-- Fresh 2026-08-30 official research has now closed a previously under-modeled issue: **Sri Ramanasramam is not a hotel, but neither is it a compulsory-program retreat**. Accommodation is restricted to genuine Ramana devotees/seekers and intended for quiet study, reflection, meditation and immersion in Bhagavan's teachings. However, the official site explicitly says there is no requirement to participate in any particular belief/worship practice; guests choose activities/resources themselves. No compulsory chore/seva/attendance requirement was found.
-- 'Free time' at Sri Ramanasramam is therefore real contemplative time: silent sitting, self-enquiry, reading, library/grounds, rest, optional chanting/puja/readings and Ramana/Arunachala devotional outings. General sightseeing is a poor fit for using ashram accommodation.
-- Important accommodation nuance: an approved Sri Ramanasramam guest room may be in an ashram-run guest facility **outside the main compound within walking distance**, not necessarily physically behind the main gate; exact room/building is management-assigned.
-- This correction is durably recorded at `TIRUVANNAMALAI_SRI_RAMANASRAMAM_STAY_MODEL_2026-08-30.md`.
-- Duration implication: 4 nights remains objectively viable only under the distributed-ashram model. If the qualitative goal is one genuine whole day with nowhere else to be except Sri Ramanasramam, then only two other local days remain for three major modules (caves, full Girivalam, Temple+Gurumurtam+Pavalakunru), forcing stacking/compression. **5 nights is the first clean no-stacking structure with one full ashram day.** This is planning evidence, NOT a Mark duration decision.
+- A serious fresh-session boot execution failure was identified by Mark on 2026-08-30: INDIA had relied on predecessor/conversation summary plus selective Tiruvannamalai reads instead of executing the current V6 mandatory boot before substantive advice.
+- Repository architecture was verified NOT to be the cause. The train-first hierarchy was already redundantly present in master boot, Mark profile, TRIP_FRAME_HARD, CURRENT_DECISIONS_MASTER, DECISION_LEDGER `DL-0009`, and CCI parity `MRK-028`.
+- The V6 central boot and all six mandatory immutable CCI successor-parity files were re-read during recovery and reconciled against newer central truth.
+- The previous taxi-heavy Varanasi/Bengaluru/Chennai/Tiruvannamalai advice is invalidated as a working hypothesis only. It was never a Mark route decision and changed no grade/duration/base lock.
+- Sri Ramanasramam stay-model research remains current: it is not a hotel and not a compulsory-program retreat; one whole unstructured ashram day is a strong planning recommendation if accommodation is accepted.
+- Five nights remains the first clean no-stacking local structure with arrival + whole ashram day + cave day + early-Ramana town day + full 14 km Girivalam day. This remains advice, NOT a Mark duration decision.
+- Exact correction recorded at `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_TRANSFER_MODE_CORRECTION_2026-08-30.md`.
 
 NEXT_AUTOMATIC_STEP:
-Explain the real Sri Ramanasramam stay/free-time model to Mark and make the duration consequence explicit. If Mark wants the authentic full-ashram-day interpretation, rebuild/present the 5-night clean structure or a deliberately compressed 4-night alternative before asking for a final duration lock. If he explicitly chooses 4/5/6 nights, record WHAT + WHY in the decision ledger/master/exact decision artifact, update CURRENT_STATE + this checkpoint as required, and automatically continue to the next fixed-core closure.
+Research and compare the two Tiruvannamalai inter-core edges RAIL-FIRST. Prefer train for the major ground distance even when modestly slower if it materially improves calm/predictability; use taxi/private car only for short last-mile or if rail is genuinely impractical/unreasonably slower. Then rebuild the five-night clock-level presentation including arrival and departure burden.
 
 WAITING_FOR_MARK:
-Does the intended Sri Ramanasramam experience require one complete day whose only purpose is being in/around the ashram (with optional self-directed chanting, meditation, reading and rest), or is distributed ashram immersion around the other Ramana/Arunachala days sufficient? No duration is locked yet.
+GEEN. The transport rebuild is objective INDIA work. The genuine Mark-only duration choice remains pending until the corrected rail-first presentation is shown.
 
 CONTROLLING_ARTIFACTS:
 - `governance/INDIA_MASTER_BOOT.md`
 - `governance/CURRENT_STATE.md`
 - `governance/CURRENT_DECISIONS_MASTER.md`
 - `governance/DECISION_LEDGER.jsonl`
+- `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md`
 - `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md`
+- `governance/INDIA_RECOVERY_DELTAS_CURRENT.md`
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_PREP_PACKET_2026-08-27.md`
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_DURATION_DECISION_SURFACE_2026-08-29.md`
-- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_4_NIGHT_TRIAL_EXECUTION_PRESENTATION_2026-08-30.md`
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_SRI_RAMANASRAMAM_STAY_MODEL_2026-08-30.md`
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_TRANSFER_MODE_CORRECTION_2026-08-30.md`
 
 UNSAVED_RISK:
 GEEN
