@@ -1,99 +1,72 @@
 # CURRENT STATE — INDIA
 
-state_revision: 2026-08-30_V8_FINAL_SANITY_CHECK_STALE_POINTER_REPAIRED__TIRUVANNAMALAI_RAIL_FIRST_FRONTIER_HELD_PENDING_MARK
+state_revision: 2026-08-31_V8_1_SUCCESSOR_BOOT_STREAMLINED__INDIA14_AUTHORIZED__TRAVEL_FRONTIER_RAIL_FIRST
 branch: `agent/india8-cluster-casting`
-status: V8_MERGED_AT_366328029B6BB7B7B0AB36F6683E7086BF4FF33D__THREE_INDEPENDENT_WORK_AUDIT_ROUNDS_ALL_MUST_FIX_CLOSED__NO_OPEN_CODE_LEVEL_FINDING__TRAVEL_FRONTIER_HELD_PENDING_MARK
-boot_authority: `governance/INDIA_MASTER_BOOT.md` V8 MANIFEST-DRIVEN BOOT + APPEND-ONLY RECEIPT + INDEPENDENT CHECK
-boot_manifest: `governance/BOOT_MANIFEST_V8.json` **SOLE MACHINE-READABLE AUTHORITY for central/CCI/active-cluster membership**
-fresh_session_gate: `governance/FRESH_SESSION_BOOT_GATE.md` V8 **MANDATORY BEFORE CONTENT**
-boot_receipts: `governance/boot_receipts/INDIA<N>__<NONCE>.json` **AUTHORITATIVE APPEND-ONLY CURRENT-SESSION PROOF, VALIDATOR-CHECKED**; `governance/BOOT_SESSION_RECEIPT.md` remains only as an optional human pointer, never authoritative.
-independent_check: `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md` — mechanical receipt PASS is explicitly NOT content authorization until a separate CHECK session passes.
-successor_safe_state: `governance/SUCCESSOR_SAFE_STATE.md`
-knowledge_map: `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md` V8
-cci_successor_parity_source: `agent/cci-full-repo-knowledge-harvest@b5349afe41f98eb4870728aaff2c633899afc1fa`
+status: INDIA14_CONTENT_AUTHORIZED__SUCCESSOR_BOOT_V8_1_STREAMLINED__NO_OPEN_BOOT_ARCHITECTURE_TASK
+boot_authority: `governance/INDIA_MASTER_BOOT.md` + `governance/FRESH_SESSION_BOOT_GATE.md` + `governance/BOOT_MANIFEST_V8.json`
+canonical_start_check_protocol: `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md` — legacy filename retained for compatibility; content is explicitly universal for INDIA14/15/16/...
 
-## V8 FINALIZATION — WHAT THIS CHECKPOINT RECORDS
-The V8 finalization work (`governance/scripts/validate_successor_boot.py`, `governance/scripts/boot_gate.py`, `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md`, R30) landed as branch `agent/india8-v8-finalization` / PR #28 and was **merged to this central branch at `366328029b6bb7b7b0ab36f6683e7086bf4ff33d`.**
+## WHAT JUST CLOSED
+INDIA14 completed the real V8 boot and independent semantic CHECK:
+- receipt: `governance/boot_receipts/INDIA14__ZK6VSGHURI3P.json`;
+- receipt commit R: `4625d7036a1c93e291eff78807fa447569dc7a4a`;
+- independent check: `governance/boot_checks/INDIA14_CHECK__ZK6VSGHURI3P.json`;
+- check commit K: `77ca2fe05e271738bb6b2cdb1d5563eb3d850040`;
+- all eight semantic challenge verdicts: PASS;
+- canonical `final_authorization.py INDIA14 ZK6VSGHURI3P J5E04QTWM2O7` was executed against a live Git checkout by GitHub Actions and printed literal `CONTENT_AUTHORIZATION: GRANTED`.
 
-An independent ChatGPT Work audit then reviewed that merged state fresh and posted `WORK_RESULT — INDIA14 V8 FINAL INDEPENDENT AUDIT` on PR #23 (comment `5470210435`): `V8_REPOSITORY_STATUS: FAIL`, `INDIA14_START_STATUS: NOT_READY`, 6 MUST_FIX items (HEAD/receipt-logic contradiction between the START protocol and the validator; the independent CHECK not being fail-closed/manifest-mandatory; loose session/nonce binding; stale `BOOT_SESSION_RECEIPT.md` references; stale `CURRENT_STATE.md`/`SUCCESSOR_SAFE_STATE.md` checkpoints; full-byte-read coverage being self-reported without the second validator to compensate).
+The only late CHECK failure was tooling-related: the CHECK chat itself lacked a live Git checkout for the final Python wrapper. The evidence/check content was already valid. That failure class is now structurally removed for future sessions.
 
-Mark gave direct, real-time authorization in the live chat session to repair those points, on the explicit condition that each claim be independently re-verified rather than blindly implemented. That first repair round (fast-forward pushed to central at `a9093560b7e0c858967756087f824bda26ec7247`) recorded all 6 MUST_FIX items independently confirmed genuine and fixed as one coherent system — see the `CCI_RESULT — V8 WORK-AUDIT MUST_FIX REPAIR` comment on PR #23 (comment `5470740209`) for the full per-item verdict and verbatim test matrix.
+## V8.1 SUCCESSOR STREAMLINING — CURRENT
+Future INDIA sessions use the same start architecture; Mark does not need to redesign the start prompt per successor.
 
-A fresh independent Work re-audit then reviewed that repaired state and posted `WORK_RESULT — INDIA14 V8 FRESH RE-AUDIT` on PR #23 (comment `5470939825`): `V8_REPOSITORY_STATUS: FAIL`, `INDIA14_START_STATUS: NOT_READY`, 2 new MUST_FIX items (the independent-CHECK validator only required each challenge's `answer`/`evidence` to be non-empty, letting a checker self-author eight trivial placeholder answers plus self-declared PASS verdicts and still reach `CONTENT_AUTHORIZATION: GRANTED`; and `SUCCESSOR_SAFE_STATE.md`'s `NEXT_AUTOMATIC_STEP` telling a successor to redo the already-posted `CCI_RESULT — V8 WORK-AUDIT MUST_FIX REPAIR` comment). Mark again authorized repair on his own-judgment standing instruction, on the same independent-verification condition. This checkpoint records that repair: both MUST_FIX items were independently reproduced/confirmed genuine before any change (including literally reproducing the `"x"`-placeholder bypass locally/unpushed before fixing it) and fixed — see the `CCI_RESULT — V8 FRESH RE-AUDIT MUST_FIX REPAIR` comment on PR #23 for the full per-item verdict, the bypass before/after test, and the verbatim adversarial test matrix. **This repair work, like the V8 finalization and the first MUST_FIX repair before it, did NOT change any A+/A/A*/B/C grade, hotel/base, route, or duration decision.**
+Permanent mechanics now exist on central:
+- `.github/workflows/india-boot-receipt.yml` — automatically validates every new live R receipt commit on `agent/india8-cluster-casting` with the canonical `boot_gate.py` command;
+- `.github/workflows/india-final-authorization.yml` — automatically validates every new live K check commit with canonical `final_authorization.py`;
+- `BOOT_MANIFEST_V8.json` machine-routes both workflow paths and the preferred/fallback challenge relay modes;
+- `INDIA14_START_AND_INDEPENDENT_CHECK.md` is now explicitly a future-universal protocol despite its retained compatibility filename;
+- eight semantic challenges remain mandatory, but transport is one batch rather than eight separate copy/paste cycles;
+- preferred challenge transport is PR #23: CHECK posts one question batch, START posts one answer batch; Mark only nudges each session to read the relevant PR comment;
+- fallback is one block pasted each direction;
+- if no check nonce is supplied, CHECK may generate a fresh valid nonce after binding to the receipt;
+- absence of a local chat Git shell is no longer a valid failure reason when canonical Actions CI succeeds.
 
-## BOOT FAILURE — ROOT CAUSE CLOSED
-On 2026-08-30 a fresh INDIA session began substantive Tiruvannamalai advice without executing the mandatory GitHub boot in that session. It relied on predecessor/conversation summary plus selective active-cluster reads. Mark caught the failure when INDIA recommended taxi-heavy flight/road movement despite the already-existing hard rule `train first when practical`.
+A real GitHub Actions structural test against the post-streamlining central state returned:
+`INDIA_BOOT_STRUCTURE: PASS`.
 
-Repository memory was NOT missing. The transport rule was already redundant across the master boot, Mark profile, hard trip frame, current decisions master, decision ledger `DL-0009`, and CCI parity `MRK-028`.
-
-The failure class is therefore: **SESSION BOOT SKIPPED / SUMMARY SUBSTITUTED FOR ACTUAL READ**.
-
-## V7 PREVENTION ARCHITECTURE — HISTORICAL (SUPERSEDED BY V8 BELOW)
-The V7 system repair, for provenance (items 7-8 are superseded — see V8 note beneath):
-1. every fresh INDIA session starts `UNBOOTED`, regardless of injected/predecessor/model context;
-2. `FRESH_SESSION_BOOT_GATE.md` is an explicit mandatory read in both master boot and knowledge map;
-3. master boot V7 canonical start prompt names the gate directly, so the rule is visible even before the master body is processed;
-4. mandatory central read count is 16/16 plus 6/6 immutable CCI files;
-5. truncated connector/file reads do not count until continued to EOF;
-6. summary/pointer/context-only exposure counts as NOT_READ_IN_THIS_SESSION;
-7. ~~before substantive work, the current session must update `BOOT_SESSION_RECEIPT.md`~~ — **V8: superseded.** A single living `BOOT_SESSION_RECEIPT.md` was not append-only and could be overwritten/inherited across sessions. V8 requires a NEW append-only file per session at `governance/boot_receipts/INDIA<N>__<NONCE>.json`, machine-verified for byte-level read coverage and verbatim proof-of-read, not merely BOOT_HEAD/blob bookkeeping;
-8. ~~`validate_successor_boot.py --require-session-receipt` mechanically checks the V7 receipt~~ — **V8: superseded.** The flag now takes a mandatory receipt path plus `--expected-session`/`--expected-nonce`, checks branch identity, working-tree cleanliness, ancestor ordering, receipt-committed-at-final-head, and full byte-range read coverage — see `governance/scripts/validate_successor_boot.py` and `governance/scripts/boot_gate.py`;
-9. an independent CHECK prompt must verify the receipt and semantic parity; verbal claims alone are not PASS — **still current in V8**, see `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md`.
-
-This repair specifically prevents the 2026-08-30 failure from remaining silent. It cannot mathematically prove cognition, but it makes a skipped/partial boot externally auditable and fail-closed. The V8 finalization above closed the follow-on boot-generation-drift gap this V7 architecture itself was not yet checked against (R30).
-
-## WHAT THE PREVIOUSLY MISSED BOOT MATERIAL INCLUDED
-Before the recovery, the fresh session had NOT validly loaded large parts of the mandatory layer. The missed risk surface included, among other things:
-- train-first / true door-to-door transport hierarchy;
-- `AL BESLIST?` before every choice;
-- every-occurrence recognition-rich Indian location naming;
-- GEO_VERIFIED_FOR_DECISION / no guessed geometry;
-- action-first / no deferral;
-- same-turn durable memory writes;
-- CCI CURRENT / LIVE_RECHECK_LATER / SUPERSEDED filtering;
-- successor safe-state / UNSAVED_RISK discipline;
-- full requested source-layer visibility before subjective filtering;
-- explicit `NU_DOEN` continuation;
-- pairwise proximity, marginal burden, displacement, +30/+60 robustness and human-energy checks;
-- mandatory 06:00/13:00/18:00 climate snapshot for substantive cluster/day/base presentations;
-- final comfort/food/human-texture sweep;
-- item-level anti-regression and do-not-revive traps in the CCI parity layer.
-
-These rules are now reloaded and represented in the V7 receipt/control checksum. Their existence in GitHub was never the problem; execution was.
+This streamlining changes no A+/A/A*/B/C grade, hotel/base choice, route choice, duration decision or optional-world decision.
 
 ## FIXED-CORE STATUS — UNCHANGED
-- KUMAON: DURATION_CLOSED — 9 occupied days / 9 nights through final Dunagiri night; Delhi -> Haidakhan inbound included; eastern exit separate.
-- VARANASI / SARNATH: DURATION_CLOSED — 8 occupied days / 8 nights including inbound arrival/wind-down + 7 local days; outbound separate.
+- KUMAON: DURATION_CLOSED — 9 occupied days / 9 nights through final Dunagiri night; eastern exit separate.
+- VARANASI / SARNATH: DURATION_CLOSED — 8 occupied days / 8 nights including inbound arrival/wind-down; outbound edge separate.
 - BODH GAYA / GAYA: content/execution/duration rule closed; Maya Heritage LOCKED_BY_MARK; 2 hotel nights default if early inbound, 3 only late/disrupted/consciously deeper, max 3.
-- TIRUVANNAMALAI / ARUNACHALA: no duration locked. Five nights remains the clean local-content recommendation, but the inter-core edges must be rebuilt rail-first before the duration surface is decision-ready again.
+- TIRUVANNAMALAI / ARUNACHALA: no duration locked. Five nights remains the current clean local-content recommendation, but inter-core edges must be rebuilt rail-first before 4/5/6 nights is decision-ready.
 - DELHI: prepared, not duration-closed.
 - AGRA / TAJ: prepared, not duration-closed.
 
-Current fixed-A+-only skeleton remains:
+Current fixed-A+-world skeleton remains:
 `DELHI -> KUMAON -> AGRA/TAJ -> BODH GAYA/GAYA -> VARANASI/SARNATH -> TIRUVANNAMALAI/ARUNACHALA -> DELHI/INTERNATIONAL EXIT`.
 
-## TRAVEL FRONTIER PRESERVED — CURRENT USER REQUEST HAS PRIORITY
-Underlying project frontier remains objective rail-first rebuilding of:
-- Varanasi/Sarnath -> Tiruvannamalai/Arunachala;
-- Tiruvannamalai/Arunachala -> Delhi/international-exit world.
+## CURRENT TRAVEL FRONTIER
+Boot architecture is no longer the project frontier.
 
-The former air + multi-hour private-car defaults are non-controlling. Train is tested first; flight may win only on meaningful TRUE door-to-door benefit after airport/road friction.
+Resume objective rail-first rebuilding of:
+1. `VARANASI / SARNATH -> TIRUVANNAMALAI / ARUNACHALA`;
+2. `TIRUVANNAMALAI / ARUNACHALA -> DELHI / INTERNATIONAL EXIT`.
 
-However the current user instruction is explicitly to FIRST close the boot/successor failure and audit what else was missed. Do not resume travel content before answering/closing that system question.
+The former flight + multi-hour private-car assumptions are non-controlling. Train is tested first; overnight rail targets 1A/First AC where appropriate; flight may win only after full true-door-to-door/human-burden comparison shows a meaningful usable advantage.
 
-## HARD PRE-CONTENT / PRE-ANSWER CHECKSUM
-- Fresh session: 16/16 central + 6/6 CCI + current receipt PASS + independent CHECK GRANTED before content.
-- Active cluster package read before touching that world.
-- `AL BESLIST?` before every choice.
-- Train first; 1A where appropriate; true door-to-door burden controls.
-- Recognition-rich name on every relevant occurrence.
-- GEO verified or no geometry conclusion.
-- Action first; side question preserves underlying frontier.
-- Mark-only only after objective work is complete.
-- Same-turn durable memory.
-- SAFE_TO_HANDOFF + UNSAVED_RISK=GEEN before substantive reply.
+The Tiruvannamalai 4/5/6-night Mark choice remains deferred until both transfer burdens are rebuilt and presented decision-ready.
+
+## SUCCESSOR REPLACEABILITY RULE
+Every material research result, reconciliation, decision, WHY, supersession, next action and decision-relevant uncertainty must be durable and GitHub-routable before substantive reply.
+
+Crash test before every material response:
+`IF THIS CHAT DIES NOW, CAN INDIA(N+1) CONTINUE FROM GITHUB WITHOUT MARK REPEATING OR RECONSTRUCTING ANYTHING?`
+
+If no: write it first. No material project knowledge may depend on this conversation surviving.
 
 ## EXACT NEXT EXECUTION
-V8 finalization (PR #28) is merged to this central branch at `366328029b6bb7b7b0ab36f6683e7086bf4ff33d`. Three independent ChatGPT Work audit rounds have now run against successive repairs: round 1 found 6 MUST_FIX items (repaired, PR #23 comment `5470740209`); round 2 found 2 further MUST_FIX items (repaired, PR #23 comment `5471479783`); round 3 ("final practical sanity check") found exactly one remaining issue — `governance/SUCCESSOR_SAFE_STATE.md`'s `NEXT_AUTOMATIC_STEP` was again stale, describing a comment-posting action that had already happened — fixed and confirmed (PR #23 comments `5471545851`, `5471550948`; see `governance/INDIA_RECOVERY_DELTAS_CURRENT.md` R33 for the root-cause note on this recurring class). No code-level MUST_FIX is open from any of the three rounds. Per Mark's explicit instruction, the live next action is exactly one more short independent Work practical re-check of this stale-routing fix — if PASS/READY, boot-architecture repair work STOPS entirely and Tiruvannamalai/Arunachala rail-first travel content resumes, with no further open-ended judgment call needed. If that re-check instead finds a genuine new issue, that one issue is handled on its own merits, not as a reason to reopen the whole line. Once closed (or a further re-audit is satisfied), the first real INDIA14 session must exercise the full V8 flow for real — start nonce from Mark, append-only receipt, mechanical validator PASS, then a genuinely separate independent CHECK session with its own fresh check nonce that runs the §2.4a challenge-response round trip (Mark relays each question to the real START session and its verbatim reply back to the checker) rather than self-authoring answers, then `governance/scripts/final_authorization.py` returning `CONTENT_AUTHORIZATION: GRANTED` — before any Tiruvannamalai rail-first travel content resumes.
+Under ACTION_FIRST, the next substantive India work is the rail-first inter-core transfer rebuild above. Continue autonomously through objective research/reconciliation and durable writes; stop only at a genuine Mark-only decision or real external blocker.
 
 END CURRENT STATE
