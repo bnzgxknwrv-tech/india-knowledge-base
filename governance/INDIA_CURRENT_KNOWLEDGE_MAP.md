@@ -1,19 +1,26 @@
 # INDIA CURRENT KNOWLEDGE MAP — WAT MOET JE LEZEN / WAT IS OUD
 
-Status: **CURRENT LIVING SOURCE MAP — V4 / CCI-PARITY-SYNCHRONIZED**
+Status: **CURRENT LIVING SOURCE MAP — V5 / FRESH-SESSION-BOOT-PROOF + CCI-PARITY-SYNCHRONIZED**
 Updated: 2026-08-30
 Branch: `agent/india8-cluster-casting`
-Boot owner: `governance/INDIA_MASTER_BOOT.md`
+Boot owner: `governance/INDIA_MASTER_BOOT.md` V7
 Decision-ledger migration: **DECISION_LEDGER_BACKFILL_COMPLETE**
 CCI parity source: immutable completed harvest `b5349afe41f98eb4870728aaff2c633899afc1fa`
 
-Purpose: every successor must know which files are ALWAYS current, which are required only for one cluster/topic, which are frozen recovery evidence, which are SEARCH_ONLY provenance, and which may NEVER independently control current truth.
+Purpose: every successor must know which files are ALWAYS current, which are required only for one cluster/topic, which are frozen recovery evidence, which are SEARCH_ONLY provenance, which may NEVER independently control current truth, and whether the CURRENT session actually executed the boot.
 
-## A. ALWAYS — EXACTLY FOLLOW MASTER BOOT
+## A. ALWAYS — EXACTLY FOLLOW MASTER BOOT V7
 
 `governance/INDIA_MASTER_BOOT.md` is the sole authority for the current every-boot read order. The knowledge map MUST NOT maintain a shorter competing boot list.
 
-Current master boot V6 requires the central durable core including:
+Fresh-session rule before content:
+- every new INDIA session starts `UNBOOTED`, regardless of predecessor/chat/model summary;
+- `governance/FRESH_SESSION_BOOT_GATE.md` is an explicit mandatory read, not a pointer-only file;
+- after all reads, `governance/BOOT_SESSION_RECEIPT.md` must be updated for the CURRENT session and must show `BOOT_GATE: PASS` before substantive work;
+- partial/truncated/summary-only reads do not count.
+
+Current master boot V7 requires the central durable core including:
+- `governance/FRESH_SESSION_BOOT_GATE.md`;
 - `governance/INDIA_MASTER_BOOT.md`;
 - `governance/INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md`;
 - `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md`;
@@ -29,6 +36,8 @@ Current master boot V6 requires the central durable core including:
 - `governance/INDIA_RECOVERY_DELTAS_CURRENT.md`;
 - this `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md`.
 
+Central mandatory full-read count = `15/15`.
+
 Then the mandatory CCI successor-parity layer at immutable completed commit `b5349afe41f98eb4870728aaff2c633899afc1fa` on `agent/cci-full-repo-knowledge-harvest`:
 1. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUCCESSOR_START_HERE.md`
 2. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUPERSEDED_AND_DO_NOT_REVIVE.md`
@@ -38,6 +47,8 @@ Then the mandatory CCI successor-parity layer at immutable completed commit `b53
 6. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/CURRENT_TRAVEL_EXECUTION_CANON.md`
 
 CCI is frozen recovery/reconciliation evidence, not a time machine. Newer explicit Mark decisions and newer current central artifacts win. In particular, old CCI frontier text and old route hypotheses must be reconciled, never copied blindly.
+
+`governance/BOOT_SESSION_RECEIPT.md` is a mandatory fresh-session OUTPUT, not a shortcut input. It records exact BOOT_HEAD, file/blob evidence, 15/15 + 6/6 full reads, no unfinished truncation, no summary substitution, active-cluster gate and control-veto checksum. Git history preserves prior receipts.
 
 Reference only when needed: CCI `KNOWLEDGE_ATOMS.jsonl`, `COVERAGE_MANIFEST.csv`, `HARVEST_REPORT.md`, `work/NEW_KNOWLEDGE_CANDIDATES.md`.
 
@@ -55,7 +66,7 @@ Duration status:
 - KUMAON: DURATION_CLOSED — 9 occupied days / 9 nights through final Dunagiri night; Delhi -> Haidakhan inbound occupied day included; eastern exit separate full-travel adjacent edge charged once later.
 - VARANASI / SARNATH: DURATION_CLOSED — 8 occupied days / 8 nights through final Varanasi night; Bodh Gaya/Gaya -> Varanasi arrival/wind-down + 7 local days included.
 - BODH GAYA / GAYA: content + execution + duration RULE closed; default 2 hotel nights if early inbound, 3 only for late/disrupted inbound or conscious extra sacred-core time, max 3; Maya Heritage LOCKED_BY_MARK.
-- TIRUVANNAMALAI / ARUNACHALA: objective duration surface closed; **current genuine Mark-only frontier = choose 4 / 5 / 6 nights; INDIA13 recommends 5**.
+- TIRUVANNAMALAI / ARUNACHALA: local duration surface exists and no duration is locked; 5 nights remains the current clean local recommendation, but **the current operational frontier is rail-first re-evaluation of the inbound/outbound inter-core edges before the duration surface is decision-ready again**. Previous flight + multi-hour-car defaults are not controlling.
 - DELHI: prepared, not duration-closed.
 - AGRA / TAJ: prepared, not duration-closed.
 
@@ -97,12 +108,13 @@ When CCI and central differ, classify before use:
 - historic pastry/sweets/coffee/human-texture sensitivity;
 - final comfort sweep mandatory;
 - reverse discovery may add findings without silently changing old grades;
-- exact map identity/coordinates require current verification.
+- exact map identity/coordinates require current verification;
+- fresh-session context/summary is not a boot; a current session receipt is required before substantive work.
 
 ### Superseded by newer central truth
 - CCI's frozen Bodh Gaya OPEN frontier is closed; never re-present that six-item ballot.
 - CCI's old Bodh Gaya sleep statement that Maya Heritage was not locked is superseded: Maya Heritage is now LOCKED_BY_MARK.
-- CCI's frozen `VNS -> Chennai primary / Bengaluru fallback` south-gateway hypothesis is superseded for the current duration decision by INDIA13's newer timing-aware working hypothesis: midday Varanasi -> Bengaluru + private car is currently stronger for same-evening arrival; Chennai remains the natural outbound gateway. Exact flights remain LIVE_RECHECK_LATER.
+- CCI's frozen `VNS -> Chennai primary / Bengaluru fallback` south-gateway hypothesis and the later central `Bengaluru inbound + private car` working hypothesis are BOTH non-controlling after the 2026-08-30 boot-execution repair. The next operational task is rail-first re-evaluation under the hard transport hierarchy. Exact train/flight services remain LIVE_RECHECK_LATER until they affect the real edge decision.
 - any CCI statement that only reflected frozen central commit `a374236...` loses to a later explicit central decision/artifact.
 
 ## D. CONDITIONAL ANTI-FORGET REGISTERS
@@ -150,14 +162,17 @@ Geo warning: old delivered KML pins are not automatically safe. Before final map
 ## H. REQUIRED_BEFORE_TOUCHING_TIRUVANNAMALAI / ARUNACHALA
 Read:
 1. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_PREP_PACKET_2026-08-27.md`
-2. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_DURATION_DECISION_SURFACE_2026-08-29.md` — **current decision surface**.
-3. `governance/COORDINATE_INTEGRITY_GATE.md` — current duration-scale geo status.
-4. `decisions/ARUNACHALA_TIRUVANNAMALAI_A_ANCHOR_2026-08-18.md` when parent/child provenance or Sri Aurobindo preference detail matters.
-5. conditional A+ register when exact historical grade provenance is needed.
+2. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_DURATION_DECISION_SURFACE_2026-08-29.md` — current local duration surface.
+3. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_4_NIGHT_TRIAL_EXECUTION_PRESENTATION_2026-08-30.md` — 4-night trial evidence, not a Mark lock.
+4. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_SRI_RAMANASRAMAM_STAY_MODEL_2026-08-30.md` — current ashram stay/free-time model.
+5. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_TRANSFER_MODE_CORRECTION_2026-08-30.md` — boot-failure transfer correction; rail-first re-evaluation required.
+6. `governance/COORDINATE_INTEGRITY_GATE.md` — current duration-scale geo status.
+7. `decisions/ARUNACHALA_TIRUVANNAMALAI_A_ANCHOR_2026-08-18.md` when parent/child provenance or Sri Aurobindo preference detail matters.
+8. conditional A+ register when exact historical grade provenance is needed.
 
 Hard recognition: Arunachala/Ramana world A+ parent; protected A children Sri Ramanasramam, Virupaksha Cave, Skandashram, Arunachaleswarar/Annamalaiyar Temple, Gurumurtam, Pavalakunru, full 14 km Giripradakshina/Girivalam; Sri Ramanasramam desired true ashram sleep #2 if accepted/available.
 
-**Current Mark-only:** choose 4 / 5 / 6 nights; 5 = INDIA13 recommended robust/balanced case.
+Current status: no duration locked. Five nights is still the clean local-content recommendation, but do NOT present the final 4/5/6 duration choice until the inbound/outbound edges are rebuilt rail-first and whole-human burden is compared against any flight alternative.
 
 Do NOT fold Gingee/Mamallapuram/Puducherry/Sri Aurobindo into the fixed-A+-only duration arithmetic now. Preserve Mark's real Sri Aurobindo interest for the later southern optional/gateway review.
 
@@ -192,9 +207,10 @@ Use when route/global-edge work is active:
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/GLOBAL_TRANSFER_LEDGER_2026-08-25.md`
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CLUSTER_TOPOLOGY_FEASIBILITY_2026-08-25.md`
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CLUSTER_TOPOLOGY_QUANTIFIED_DELTA_2026-08-26.md`
-- current fixed-A+-only route artifact(s) dated 2026-08-29 or later.
+- current fixed-A+-only route artifact(s) dated 2026-08-29 or later;
+- for current south-edge work: `TIRUVANNAMALAI_TRANSFER_MODE_CORRECTION_2026-08-30.md` and the hard `train first` transport hierarchy.
 
-Old exact V1/V2 calendars are provenance only. Full human transfer burden controls; raw vehicle time never equals occupied travel time.
+Old exact V1/V2 calendars are provenance only. Full human transfer burden controls; raw vehicle time never equals occupied travel time. For the current Tiruvannamalai edges, rail must be tested first before flight+road can be recommended as a meaningful door-to-door win.
 
 ## M. BOOKING / LIVE LOGISTICS — CONDITIONAL
 `runs/active/INDIA10-BOOKING-SEQUENCE-CLOSURE-001/BOOKING_ACTION_BOARD.md` = SEARCH_ONLY provenance/live-source lead. Old V2 dates/base choices are not current route truth.
@@ -240,7 +256,8 @@ Never independently mutate current planning from:
 - old booking-board date/base;
 - protected-baseline grade against a later Mark decision;
 - unreconciled PR comment;
-- frozen CCI statement contradicted by later central truth.
+- frozen CCI statement contradicted by later central truth;
+- predecessor/model/context summary used as a substitute for this session's boot.
 
 ## Q. INTEGRATION STATE VOCABULARY
 Use one of: RECEIVED_UNREVIEWED / REVIEWED_NOT_ADOPTED / PARTIALLY_ADOPTED / ADOPTED / PROVENANCE_ONLY / REJECTED_OR_SUPERSEDED.
@@ -253,8 +270,10 @@ After every material event, not only Mark decisions:
 4. update profile for durable Mark preference/WHY;
 5. update recovery deltas for reusable failure traps;
 6. update THIS map whenever a successor must know a new source path or a current source is superseded;
-7. before reply test: `IF THIS CHAT DIES NOW, CAN INDIA(N+1) RECOVER THIS FROM MASTER BOOT + THIS MAP WITHOUT MARK?`
+7. keep `SUCCESSOR_SAFE_STATE.md` current and atomically aligned with CURRENT_STATE when both change;
+8. every fresh successor updates `BOOT_SESSION_RECEIPT.md` only after complete 15/15 central + 6/6 CCI reads and before content;
+9. before reply test: `IF THIS CHAT DIES NOW, CAN INDIA(N+1) RECOVER THIS FROM MASTER BOOT + THIS MAP WITHOUT MARK?`
 
-**MAP-SYNC GUARD:** after every change to `INDIA_MASTER_BOOT.md` that adds/removes/changes a mandatory read, update section A of this map in the same execution cycle. After every frontier closure, update section B and the relevant cluster section in the same execution cycle. A stale map is a successor-memory failure, not harmless documentation drift.
+**MAP-SYNC GUARD:** after every change to `INDIA_MASTER_BOOT.md` that adds/removes/changes a mandatory read, update section A of this map in the same execution cycle. After every frontier closure or material operational-frontier change, update section B and the relevant cluster section in the same execution cycle. A stale map is a successor-memory failure, not harmless documentation drift.
 
 END CURRENT KNOWLEDGE MAP
