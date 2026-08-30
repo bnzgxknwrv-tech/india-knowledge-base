@@ -378,4 +378,18 @@ Hard correction:
 General principle:
 **A validator that only checks "not empty" invites exactly the minimum-effort content that satisfies it and nothing more. When one party can author both the claim and the grade of that claim in a single field, the "second key" collapses back into the first one wearing a different filename — the fix is structurally separating who authors the content under test from who grades it, plus a content floor even the honor-system relay cannot fully replace.**
 
+
+# R33 — A CHECKPOINT'S "NEXT STEP" MUST NEVER DESCRIBE THE ACTION ITS OWN WRITER IS MID-WAY THROUGH
+Failure exposed 2026-08-30, three separate times across the R30-R32 repair sequence (V8 Work-audit MUST_FIX repair, PR #23 comment `5470740209`; V8 fresh re-audit MUST_FIX repair, comment `5471479783`; V8 final practical sanity check, `WORK_RESULT`): each repair round updated `governance/SUCCESSOR_SAFE_STATE.md`'s `NEXT_AUTOMATIC_STEP` field to say "post the CCI_RESULT comment for this round" — but by the time any successor session actually reads that field, the comment described has, without exception, already been posted (the session writing the checkpoint is either about to post it or has just posted it in the same work session). Every subsequent independent Work audit correctly flagged this as a stale-redo instruction, making it the single most repeated defect class of this entire repair sequence — one narrow bug rediscovered three times because the fix pattern used to close it each time reintroduced the same shape of bug.
+
+Root cause: a checkpoint field describing "what happens next" was being written from the perspective of the moment of writing (when the described action is imminent or just-completed and therefore true) rather than from the perspective of the moment of reading (when a fresh successor session opens the file and the described action is already history). These two perspectives are not interchangeable, and no amount of re-fixing the specific comment ID or wording closes the class — only changing what kind of statement is allowed in that field does.
+
+Hard correction:
+1. `NEXT_AUTOMATIC_STEP` (and any field with a similar "what to do next" role in any governance file) must never describe posting, committing, or pushing an artifact that the same commit/round is itself producing — if an action is being completed as part of writing the checkpoint, it belongs in `LAST_COMPLETED`, never in `NEXT_AUTOMATIC_STEP`;
+2. before finalizing any checkpoint update, the writer must explicitly ask "will this sentence still be true in the future tense for a reader who opens this file after my own commit exists?" — if the honest answer requires assuming the reader is looking at a moment before this commit is even pushed, the sentence is mis-scoped and belongs in LAST_COMPLETED instead;
+3. a `NEXT_AUTOMATIC_STEP` that names a decision only Mark can make (as opposed to a mechanical action a session can perform) should say so explicitly and stop there, rather than also listing a mechanical sub-step that this same commit is completing.
+
+General principle:
+**A "next step" field is read in the future by someone who was not present when it was written. If it describes an action synchronous with its own writing, it is already false the moment it is committed — write every forward-looking field as if the ink is already dry on everything this commit did.**
+
 END OF CURRENT RECOVERY DELTAS
