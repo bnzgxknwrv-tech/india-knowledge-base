@@ -265,24 +265,24 @@ Failure exposed by CCI full-repository harvest and then reproduced by INDIA13's 
 - missing layers included item-level grades, transfer-edge closures, optional-world topology/event signals, Mark WHY/preferences, communication rules and execution sequencing;
 - INDIA13 initially reached substantive work too quickly because the completed CCI parity package had not yet been made mandatory in the central boot.
 
-Hard correction from 2026-08-30:
-- `INDIA_MASTER_BOOT.md` V6 makes the completed CCI successor package mandatory after the central durable core;
+Current hard correction:
+- `INDIA_MASTER_BOOT.md` V7 makes the completed CCI successor package mandatory after the central durable core;
 - the immutable CCI completion commit is `b5349afe41f98eb4870728aaff2c633899afc1fa`;
 - every successor must filter CCI through newer-central authority rather than treating frozen recovery evidence as current frontier;
-- no future INDIA may declare itself boot-ready merely because it read the central top files; it must also pass the CCI parity layer and the boot self-test.
+- no future INDIA may declare itself boot-ready merely because it read central top files; it must pass the complete CCI parity layer, fresh-session gate, receipt and boot self-test.
 
-This is considered a **major predecessor handoff/system failure**, not a minor reading omission. If Mark ever again says a successor knows materially less than its predecessor, treat that as a boot-architecture defect and repair durable routing before continuing.
+This is a **major predecessor handoff/system failure**, not a minor reading omission. If Mark ever again says a successor knows materially less than its predecessor, treat that as a boot-architecture defect and repair durable routing before continuing.
 
 # R26 — BOOT/MAP DRIFT IS A HARD MEMORY FAILURE
 Failure exposed 2026-08-30 during INDIA13 parity audit:
 - `INDIA_MASTER_BOOT.md` had advanced to a much richer V5/V6 architecture;
 - `INDIA_CURRENT_KNOWLEDGE_MAP.md` still listed an old eight-file always-read layer and still pointed the current frontier back to already-closed Bodh Gaya work;
-- this meant the knowledge map itself could send INDIA14 backward even after the master boot improved.
+- this meant the knowledge map itself could send a successor backward even after the master boot improved.
 
-Hard correction:
-- `INDIA_CURRENT_KNOWLEDGE_MAP.md` V4 is synchronized with master boot and the actual Tiruvannamalai duration frontier;
+Current correction:
+- `INDIA_CURRENT_KNOWLEDGE_MAP.md` V5 is synchronized with master boot V7 and the actual rail-first Tiruvannamalai operational frontier;
 - every future master-boot read-list change requires a same-cycle knowledge-map section-A update;
-- every frontier closure requires same-cycle `CURRENT_STATE.md` + knowledge-map frontier/cluster routing update;
+- every frontier closure/material operational-frontier change requires same-cycle CURRENT_STATE + relevant knowledge-map update;
 - contradictory boot/map pointers are never resolved by asking Mark; INDIA reconciles them from authority precedence.
 
 # R27 — CCI MUST BE FILTERED, NOT COPIED
@@ -296,18 +296,43 @@ Three-way filter before adoption:
 Known examples:
 - CCI frozen Bodh Gaya open ballot = SUPERSEDED; cluster later closed.
 - CCI old statement that Maya Heritage was not a lock = SUPERSEDED; Maya Heritage later LOCKED_BY_MARK.
-- CCI frozen Chennai-primary south-gateway hypothesis = SUPERSEDED for the current duration decision by INDIA13's later timing-aware Bengaluru-inbound working hypothesis; exact flights remain live-recheck-later.
+- CCI frozen Chennai-primary south-gateway hypothesis and the later central Bengaluru-inbound + long-car working hypothesis are BOTH non-controlling after the 2026-08-30 boot repair; current objective work must re-evaluate the relevant edges rail-first. Exact live services remain LIVE_RECHECK_LATER until the edge is operationally closed.
 - Haridwar 14 Jan 2027 Ardh Kumbh/Makar Sankranti signal and YSS Dwarahat 20 Dec 2026 Christmas Long Meditation signal = LIVE_RECHECK_LATER, not route/date locks.
 - item-level grade protection, transfer accounting, Varanasi GEO weakness, Ramakrishna/Sri Aurobindo motivations, joint-photo override, successor-memory rules = STILL VALID unless a later explicit Mark statement says otherwise.
 
 # R28 — A MANDATORY FILE REACHABLE ONLY BY POINTER IS NOT MANDATORY
-`governance/SUCCESSOR_SAFE_STATE.md` (the crash-recovery checkpoint) was added on 2026-08-30 but, at the moment of a CCI review the same day, was reachable only through prose inside `CURRENT_STATE.md` — it was NOT itself a numbered item in `INDIA_MASTER_BOOT.md` §2 or `INDIA_CURRENT_KNOWLEDGE_MAP.md` §A, the two files that claim to list every ALWAYS-read source. A successor following the master boot's own literal numbered list ("Boot is not complete because filenames were mentioned: actually read them") would never open it.
+`governance/SUCCESSOR_SAFE_STATE.md` was added on 2026-08-30 but at first was reachable only through prose inside `CURRENT_STATE.md`; it was NOT itself a numbered item in `INDIA_MASTER_BOOT.md` §2 or `INDIA_CURRENT_KNOWLEDGE_MAP.md` §A.
 
-This is the same failure class the 2026-08-28 CCI harvest already found at the whole-boot level (eleven self-declared "the boot" files outside the real list) — recurring here at single-file scale. Repaired same-day: `SUCCESSOR_SAFE_STATE.md` is now an explicit numbered item in both lists.
+This repeated the same failure class the 2026-08-28 CCI harvest had already found at whole-boot level.
 
 Hard correction, generalized:
-- a file is not "mandatory" because another mandatory file's prose mentions it; it must be a numbered/listed entry in the actual ALWAYS-read enumeration itself;
-- when adding any new mandatory file, add it to `INDIA_MASTER_BOOT.md` §2 (or §2A) AND `INDIA_CURRENT_KNOWLEDGE_MAP.md` §A in the same change — never one without the other, and never a pointer-only cross-reference as the sole route;
-- also fixed same-day: `SUCCESSOR_SAFE_STATE.md` and `CURRENT_STATE.md` had been written in two sequential commits 48 seconds apart rather than one atomic commit — see `SUCCESSOR_SAFE_STATE.md`'s own UPDATE DISCIPLINE item 7. Whenever both files change in the same turn, commit them together.
+- a file is not mandatory because another mandatory file's prose mentions it; it must be a numbered/listed entry in the actual ALWAYS-read enumeration itself;
+- when adding any new mandatory-read file, add it to `INDIA_MASTER_BOOT.md` and `INDIA_CURRENT_KNOWLEDGE_MAP.md` in the same change;
+- when CURRENT_STATE and SUCCESSOR_SAFE_STATE both change, commit them atomically.
+
+V7 application: `governance/FRESH_SESSION_BOOT_GATE.md` is directly listed in BOTH master boot and knowledge-map ALWAYS enumeration; `BOOT_SESSION_RECEIPT.md` is explicitly defined as mandatory output rather than hidden pointer.
+
+# R29 — A PREDECESSOR/CONTEXT SUMMARY IS NEVER A FRESH-SESSION BOOT
+Failure exposed 2026-08-30 after the V6 parity architecture itself was already correct:
+- a fresh INDIA session received rich predecessor/context memory;
+- it therefore behaved as if the boot knowledge was already loaded and began substantive work after only selective active-cluster reads;
+- the actual 20-file V6 boot had NOT been executed in that session;
+- because of that, a hard rule redundantly present in multiple mandatory files — `train first when practical; true door-to-door gain controls` — was not applied as a veto, and taxi-heavy air/road advice was produced;
+- Mark caught the contradiction.
+
+This is categorically different from R25: R25 was **boot content incomplete**; R29 is **boot execution skipped even though boot content was sufficient**.
+
+Hard correction from V7:
+1. every fresh INDIA session starts `UNBOOTED`, regardless of summary/model/predecessor context;
+2. `governance/FRESH_SESSION_BOOT_GATE.md` is mandatory before content;
+3. all 15 central + 6 CCI files must be fully read in THIS session; truncated responses must be continued to EOF;
+4. summary/pointer/context-only exposure counts as `NOT_READ_IN_THIS_SESSION`;
+5. before content, update `governance/BOOT_SESSION_RECEIPT.md` with exact BOOT_HEAD, file/blob evidence, 15/15 + 6/6, no unfinished truncation, no summary substitution, active-cluster status and semantic control-veto checksum;
+6. where local execution is available, `validate_successor_boot.py --require-session-receipt` must PASS;
+7. the independent post-start CHECK prompt must verify the receipt and semantic rules; a verbal `ik heb alles gelezen` is not enough;
+8. if a session already gave substantive advice before the gate passed, invalidate affected new working hypotheses, execute the full boot, identify affected hard rules, repair durable state, and only then resume.
+
+General principle:
+**GitHub can preserve perfect memory and still fail operationally if the current model does not actually load it. Successor safety therefore needs both durable memory and auditable fresh-session execution.**
 
 END OF CURRENT RECOVERY DELTAS
