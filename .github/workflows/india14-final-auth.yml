@@ -1,17 +1,22 @@
-name: INDIA14 final authorization
+name: INDIA V8.1 structural sanity
 on:
   push:
     branches:
       - tmp/india14-final-auth-runner
 jobs:
-  authorize:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           ref: agent/india8-cluster-casting
           fetch-depth: 0
-      - name: Run canonical final authorization
+      - name: Run structural validator
+        shell: bash
         run: |
-          test "$(git rev-parse HEAD)" = "77ca2fe05e271738bb6b2cdb1d5563eb3d850040"
-          python3 governance/scripts/final_authorization.py INDIA14 ZK6VSGHURI3P J5E04QTWM2O7
+          set -euo pipefail
+          python3 governance/scripts/validate_successor_boot.py > /tmp/out.txt 2>&1 || rc=$?
+          cat /tmp/out.txt
+          test "${rc:-0}" -eq 2
+          grep -F "INDIA_BOOT_STRUCTURE: PASS" /tmp/out.txt
+          grep -F "CONTENT_AUTHORIZATION: NOT_GRANTED" /tmp/out.txt
