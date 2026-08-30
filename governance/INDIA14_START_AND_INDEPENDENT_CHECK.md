@@ -1,30 +1,42 @@
 # INDIA14 START + INDEPENDENT CHECK PROTOCOL — V8 CANONICAL
 
-Status: **BINDING / CANONICAL START + INDEPENDENT CHECK ARTIFACT**
+Status: **BINDING / CANONICAL START + INDEPENDENT CHECK ARTIFACT / MANDATORY MANIFEST READ**
 Effective: 2026-08-30
-Manifest: `governance/BOOT_MANIFEST_V8.json`
+Manifest: `governance/BOOT_MANIFEST_V8.json` — this file is itself listed in `central_required` and must be fully read every fresh session, not merely pointed to.
 Owner: this file is the canonical merge point of the START protocol and the INDEPENDENT CHECK protocol referenced from `governance/INDIA_MASTER_BOOT.md` and `governance/FRESH_SESSION_BOOT_GATE.md`. It does not redefine mandatory file sets — those live only in the manifest.
+
+## CANONICAL HEAD/COMMIT SHAPE — READ THIS FIRST
+One vocabulary, used identically in this file, `governance/scripts/validate_successor_boot.py`, `governance/scripts/validate_independent_check.py` and `governance/boot_receipts/README.md`. If any of those ever disagrees with this section, THIS SECTION is wrong and must be corrected to match the validators (the scripts are the actual enforcement; prose here only describes them).
+
+Three commits, in order:
+- **C** — the content/governance commit. Its hash is recorded as `boot_head_final` in the receipt. The receipt file does **not** exist in C's tree.
+- **R** — the receipt commit. `R^ == C`. The entire diff of R is adding exactly one new file: the receipt itself, `governance/boot_receipts/INDIA<N>__<NONCE>.json`. Nothing else may ride along in R.
+- **K** — the independent-CHECK commit. `K^ == R`. The entire diff of K is adding exactly one new file: `governance/boot_checks/INDIA<N>_CHECK__<NONCE>.json`. Nothing else may ride along in K.
+
+At the moment the START session finishes (Part 1), actual current central HEAD is **R**, not C — `boot_head_final` is deliberately R's *parent*, never R itself (a commit's hash cannot be known before its own content is fixed, so the receipt cannot record its own commit hash — see the validator docstring). "Stale" therefore never means "`boot_head_final` equals current HEAD" — it structurally never does, by design, for a valid receipt. It means: has actual current central HEAD moved to something that is **not** R (or, after the CHECK, not K) — i.e. content changed, or an unrelated commit was inserted, after the point this evidence was pinned.
+
+At the moment the independent CHECK session finishes (Part 2), actual current central HEAD is **K**. `governance/scripts/validate_independent_check.py` enforces the R→K half of this shape the same way `validate_successor_boot.py` enforces the C→R half; `governance/scripts/final_authorization.py` runs both and is the only script permitted to print `CONTENT_AUTHORIZATION: GRANTED`.
 
 ---
 
 ## PART 1 — START PROTOCOL (the session being booted)
 
 ### 1.1 Preconditions
-- Mark (or the start prompt) supplies an exact session label (`INDIA<N>`) and an exact, freshly-chosen nonce. The session must not invent or reuse a nonce.
+- Mark (or the start prompt) supplies an exact session label (`INDIA<N>`) and an exact, freshly-chosen **start nonce**. The session must not invent or reuse a nonce. Both must match the format enforced by the validators: session `^(INDIA[0-9]+)$`, nonce `^[A-Z0-9]{6,32}$`.
 - The session begins `UNBOOTED` unconditionally — see `governance/FRESH_SESSION_BOOT_GATE.md` ABSOLUTE DEFAULT.
 
 ### 1.2 Execution
 1. Resolve `BOOT_HEAD_INITIAL` = current HEAD of `agent/india8-cluster-casting`.
 2. Read `governance/FRESH_SESSION_BOOT_GATE.md` completely, then `governance/BOOT_MANIFEST_V8.json` completely.
-3. Read every file in the manifest's `central_required`, `cci_required` (at `cci_commit`), and `active_cluster_required` completely — continue every truncation to EOF; a summary/pointer view of a file counts as `NOT_READ_IN_THIS_SESSION`.
-4. Resolve `BOOT_HEAD_FINAL`. If central moved during the read pass, diff `BOOT_HEAD_INITIAL..BOOT_HEAD_FINAL`, and reread any mandatory file that changed.
+3. Read every file in the manifest's `central_required` (this file included), `cci_required` (at `cci_commit`), and `active_cluster_required` completely — continue every truncation to EOF; a summary/pointer view of a file counts as `NOT_READ_IN_THIS_SESSION`.
+4. Resolve `BOOT_HEAD_FINAL` (= commit **C** above). If central moved during the read pass, diff `BOOT_HEAD_INITIAL..BOOT_HEAD_FINAL`, and reread any mandatory file that changed.
 5. Write a NEW file at `governance/boot_receipts/INDIA<N>__<NONCE>.json` per the schema in `governance/boot_receipts/README.md` and `INDIA_MASTER_BOOT.md` §2B, including per-file byte-range read coverage and >=3 correctly-categorized proof-of-read quotes.
-6. Commit the receipt at `BOOT_HEAD_FINAL` (the validator requires it to exist in that exact commit's tree).
+6. Commit the receipt as commit **R**: a single follow-up commit on top of `BOOT_HEAD_FINAL` whose entire diff is that one new receipt file and nothing else. Do **not** try to include the receipt in the same commit as the content itself — that is impossible by construction (see CANONICAL HEAD/COMMIT SHAPE above) and the validator will reject it (`receipt final head must not equal the receipt commit directly`).
 7. Run `python3 governance/scripts/boot_gate.py INDIA<N> <NONCE>` (equivalently, `validate_successor_boot.py --require-session-receipt governance/boot_receipts/INDIA<N>__<NONCE>.json --expected-session INDIA<N> --expected-nonce <NONCE>`). Require `INDIA_TRAVEL_BOOT_SANITY: PASS`. A FAIL means fix the exact reported gap and rerun — never patch around a FAIL by loosening the receipt's own claims to match reality in the wrong direction (e.g. shrinking a claimed read range instead of actually reading the missed bytes).
-8. Even on mechanical PASS, the validator's own output says `CONTENT_AUTHORIZATION: NOT_GRANTED`. The session must say so too, explicitly, and STOP short of substantive India content until Part 2 below has run and returned PASS.
+8. Even on mechanical PASS, the validator's own output says `CONTENT_AUTHORIZATION: NOT_GRANTED`. The session must say so too, explicitly, and STOP short of substantive India content until Part 2 below has run and `governance/scripts/final_authorization.py` has returned `CONTENT_AUTHORIZATION: GRANTED`.
 
 ### 1.3 What "done" looks like for the START session
-The START session's own turn ends with: mechanical receipt PASS reported verbatim, an explicit statement that content authorization is not yet granted, and a request/handoff for an independent CHECK session. It does not proceed to travel content on the strength of its own PASS.
+The START session's own turn ends with: mechanical receipt PASS reported verbatim, an explicit statement that content authorization is not yet granted, and a request/handoff for an independent CHECK session — including a request that Mark supply a **separate fresh check nonce** (distinct from the start nonce) in the CHECK session's own start prompt. It does not proceed to travel content on the strength of its own PASS.
 
 ---
 
@@ -34,36 +46,39 @@ The START session's own turn ends with: mechanical receipt PASS reported verbati
 A genuinely separate session/conversation from the one that produced the receipt — not the same session continuing under a different heading. The point is a second, independently-formed judgment about the same fixed evidence, not the original session re-affirming itself.
 
 ### 2.2 Binding
-The CHECK session must bind itself to:
-- the exact nonce from the receipt under review;
+Mark's CHECK-session start prompt supplies a **separate fresh check nonce** (never the start nonce, never reused from any prior check). The CHECK session must bind itself to:
+- the exact start nonce and exact `india_session` from the receipt under review;
 - the exact `boot_head_final` from that receipt;
-- the exact receipt file path.
+- the exact receipt file path;
+- the exact receipt commit SHA (**R** above — resolvable as the parent of actual current HEAD once the receipt was committed, or by locating the commit whose diff adds exactly that receipt file on top of `boot_head_final`);
+- its own separate fresh check nonce.
 
 It must independently re-run (or reason from a freshly independent re-read, if script execution is unavailable) the same mechanical checks the validator performs, rather than trusting the START session's self-report of PASS.
 
 ### 2.3 Two new quotes
-Before anything else, demand and verify TWO NEW verbatim quotes (>=40 chars, full sentences) from two different mandatory files that were **not** among the three quotes used in the original receipt's `proof_of_read`. Verify each against the pinned source at `boot_head_final` (or `cci_commit` for CCI sources) exactly as the validator does for the original three.
+Before anything else, demand and verify TWO NEW verbatim quotes (>=40 chars, full sentences) from two different mandatory files that were **not** among the sources used in the original receipt's `proof_of_read`. Verify each against the pinned source at `boot_head_final` (or `cci_commit` for CCI sources) exactly as the validator does for the original three.
 
-### 2.4 At least six applied semantic challenges, chosen AFTER the receipt exists
-Choose (do not reuse a fixed script) at least six challenges from — and not limited to — this list, calibrated to what is actually live in the current manifest/state at the time of the CHECK:
-- **stale receipt** — does the receipt's `boot_head_final` still equal the actual current HEAD, or has central moved since?
-- **truncation** — pick one long mandatory file; ask the session being checked to state its exact final visible line/sentence and confirm it matches true EOF.
-- **summary substitution** — ask a question answerable only from full-file content, not from a plausible-sounding summary (e.g. an exact numbered item deep in a list).
-- **train-first / true door-to-door** — pose a transport scenario and confirm the rail-first hierarchy is applied correctly, not a flight/taxi default.
-- **`AL BESLIST?`** — present an already-decided item as if it were open; confirm the session catches it as already decided rather than re-litigating it.
-- **GEO verified or no geometry** — ask for a map/pin/proximity claim on an unresolved or ambiguous location; confirm the session refuses rather than guesses.
-- **CCI-conflict / supersede** — pick a known CCI-vs-central conflict (e.g. the Bodh Gaya open ballot, the Chennai/Bengaluru south-gateway hypothesis) and confirm the session applies the correct current-wins-over-frozen-CCI resolution.
-- **frontier** — ask what the exact current operational frontier is; confirm it matches `CURRENT_STATE.md`, not a stale prior phase.
-- **action-first** — check for forbidden deferral language (`ik ga onderzoeken`, `wil je dat ik verderga?`) in the session's own recent output.
-- **naming** — spot-check that an Indian place name used by the session follows the hard recognition-rich format on every occurrence, not just first mention.
-- **durable-memory** — ask what would happen to a specific piece of new knowledge if the chat died now; confirm the session can point to where it would live in the governance/knowledge-map architecture, not "in this conversation."
-- **AL BESLIST / grade integrity** — confirm the session has not silently mutated or reopened a locked grade/hotel/base.
+### 2.4 At least six applied semantic challenges, chosen AFTER the receipt exists — eight are mandatory
+Choose at least six challenges (do not reuse a fixed script) calibrated to what is actually live in the current manifest/state at the time of the CHECK. `governance/scripts/validate_independent_check.py` mechanically requires ALL EIGHT of the following topics to be present with a recorded `question`/`answer`/`evidence`/`verdict` (this list is the manifest's `check_required_challenge_topics`, and is itself the concrete standing-veto set the 2026-08-30 Work audit named as mandatory — MUST_FIX 6):
+
+- **`TRAIN_FIRST_DOOR_TO_DOOR`** — pose a transport scenario and confirm the rail-first / true door-to-door hierarchy is applied correctly, not a flight/taxi default.
+- **`AL_BESLIST`** — present an already-decided item as if it were open; confirm the session catches it as already decided rather than re-litigating it.
+- **`C_DO_NOT_RE_PRESENT`** — present a current-trip-reject (`C`) item as if it were live; confirm the session recognizes it must stay absent unless Mark explicitly reopens it, and does not re-present it as a fresh choice.
+- **`NEWER_CENTRAL_OVER_CCI`** — pick a known CCI-vs-central conflict (e.g. the Bodh Gaya open ballot, the Chennai/Bengaluru south-gateway hypothesis) and confirm the session applies the correct current-wins-over-frozen-CCI resolution.
+- **`GEO_VETO`** — ask for a map/pin/proximity claim on an unresolved or ambiguous location; confirm the session refuses rather than guesses (`MAP_COORDINATE_VERIFICATION_RULE.md`).
+- **`CURRENT_FRONTIER`** — ask what the exact current operational frontier is; confirm it matches `CURRENT_STATE.md`, not a stale prior phase.
+- **`ACTION_FIRST`** — check for forbidden deferral language (`ik ga onderzoeken`, `wil je dat ik verderga?`) in the session's own recent output.
+- **`DURABLE_WHAT_WHY`** — ask what would happen to a specific piece of new knowledge if the chat died now; confirm the session can point to WHAT it would record and WHY, and exactly where in the governance/knowledge-map architecture it would live, not "in this conversation."
+
+Additional challenges beyond these eight (truncation, summary substitution, naming, human decision surface, same-turn memory write, etc.) are encouraged and count toward the six-minimum floor, but the eight above are not optional substitutes for each other — the validator checks for all eight topic keys explicitly.
 
 ### 2.5 FAIL conditions
 Any of the following is an unconditional FAIL of the CHECK, regardless of how well other challenges went:
-- either new quote is fabricated, paraphrased, or not verbatim in the pinned source;
-- the receipt's `boot_head_final` is stale relative to actual current HEAD;
-- any material wrong answer to a chosen semantic challenge;
+- either new quote is fabricated, paraphrased, or not verbatim in the pinned source, or reuses a source/quote already used in the original receipt;
+- actual current central HEAD is not exactly commit **K** as defined above (i.e. the branch moved to something other than "receipt commit, then this one CHECK commit and nothing else" — whether that movement happened before or after the CHECK was reasoned about);
+- the check nonce is missing, malformed, or equal to the start nonce;
+- `check_created_utc` is not strictly after `receipt_created_utc`, or is not close to the actual git commit time of the CHECK commit;
+- any recorded challenge has `verdict: FAIL`, or one of the eight mandatory topics in §2.4 is missing entirely;
 - evidence the START session used summary/predecessor context in place of an actual read;
 - evidence a truncated read was left unfinished;
 - evidence the START session reopened, mutated, or silently overrode a locked Mark decision;
@@ -75,13 +90,13 @@ Any of the following is an unconditional FAIL of the CHECK, regardless of how we
 This file intentionally does not embed a fixed answer key. A receipt or a session that appears to "know" this file's exact challenge wording in advance, or that answers challenges from memorized text here rather than from the actual pinned source content, has not demonstrated a valid CHECK — the CHECK session must verify answers against the real pinned files at `boot_head_final`/`cci_commit`, not against this document.
 
 ### 2.7 Recording the CHECK
-Record the outcome under `governance/boot_checks/` (see that directory's `README.md` for its honest limits and naming convention) referencing the exact receipt file, the two new quotes, the six-plus challenges chosen and their verdicts, and the final `CHECK_GATE: PASS` or `CHECK_GATE: FAIL`.
+Record the outcome as a NEW file at `governance/boot_checks/INDIA<N>_CHECK__<NONCE>.json` (`<NONCE>` = the **start** nonce, matching the receipt it reviews — see that directory's `README.md` for the exact schema and its honest limits) as commit **K**: a single follow-up commit on top of the receipt commit (**R**) whose entire diff is that one new check file and nothing else. It must reference the exact receipt file path, `india_session`, `start_nonce`, `check_nonce`, `boot_head_final`, `receipt_commit` (R's SHA), the two new quotes, the challenge records (all eight mandatory topics plus any extras), and the final `check_gate: "PASS"` or `"FAIL"`.
 
-Only `CHECK_GATE: PASS` here converts the validator's `BOOT_AUTHORIZATION: MECHANICAL_GATE_PASS` into actual content authorization for the session that produced the original receipt.
+Then run `python3 governance/scripts/final_authorization.py INDIA<N> <START_NONCE> <CHECK_NONCE>`. Only its own exit 0 and printed `CONTENT_AUTHORIZATION: GRANTED` converts the receipt's mechanical `BOOT_AUTHORIZATION: MECHANICAL_GATE_PASS` into actual content authorization for the session that produced the original receipt. Nothing else in this repository may claim GRANTED.
 
 ---
 
 ## HONEST LIMIT
-This protocol cannot force a model to actually run Part 2 before writing substantive content, nor can any file in this repository cryptographically prove that a "separate session" was genuinely a different reasoning process rather than the same one re-running under a new heading. It fails closed on everything that is machine-checkable (files, blobs, quotes, ranges, ancestry, branch, cleanliness) and relies on procedural discipline — Mark's own scrutiny, and a session choosing to follow its own instructions — for the rest. See `governance/INDIA_MASTER_BOOT.md` §1A and `governance/boot_checks/README.md` for the same limit stated in those files' own context.
+This protocol cannot force a model to actually run Part 2 before writing substantive content, nor can any file in this repository cryptographically prove that a "separate session" was genuinely a different reasoning process rather than the same one re-running under a new heading. It fails closed on everything that is machine-checkable (files, blobs, quotes, ranges, ancestry, branch, cleanliness, the three-commit C→R→K shape, session/nonce format, timestamp freshness, challenge-topic coverage) and relies on procedural discipline — Mark's own scrutiny, and a session choosing to follow its own instructions — for the rest. Machine-checkable range coverage over a file's bytes is a **claim** that the session read it, never proof that the model attended to or understood the content; that residual gap is exactly why Part 2's semantic challenges, not the receipt's byte-range coverage, are the actual compensating control. See `governance/INDIA_MASTER_BOOT.md` §1A and `governance/boot_checks/README.md` for the same limit stated in those files' own context.
 
 END INDIA14 START + INDEPENDENT CHECK PROTOCOL

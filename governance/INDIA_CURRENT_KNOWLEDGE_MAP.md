@@ -36,9 +36,10 @@ Current master boot V8 requires the central durable core including:
 - `governance/CURRENT_STATE.md`;
 - `governance/SUCCESSOR_SAFE_STATE.md` — crash-recovery checkpoint; read even if `CURRENT_STATE.md` seems complete, reconcile immediately if they disagree;
 - `governance/INDIA_RECOVERY_DELTAS_CURRENT.md`;
-- this `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md`.
+- this `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md`;
+- `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md` — added 2026-08-30 as a mandatory manifest read (V8 Work-audit MUST_FIX repair, R31): the canonical START/CHECK protocol and commit-shape must itself be read, not merely invoked from memory.
 
-Central mandatory full-read count = `15/15`.
+Central mandatory full-read count = `16/16`.
 
 Then the mandatory CCI successor-parity layer at immutable completed commit `b5349afe41f98eb4870728aaff2c633899afc1fa` on `agent/cci-full-repo-knowledge-harvest`:
 1. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUCCESSOR_START_HERE.md`
@@ -50,7 +51,7 @@ Then the mandatory CCI successor-parity layer at immutable completed commit `b53
 
 CCI is frozen recovery/reconciliation evidence, not a time machine. Newer explicit Mark decisions and newer current central artifacts win. In particular, old CCI frontier text and old route hypotheses must be reconciled, never copied blindly.
 
-The append-only receipt at `governance/boot_receipts/INDIA<N>__<NONCE>.json` is the mandatory fresh-session OUTPUT, not a shortcut input. It records exact BOOT_HEAD, per-file blob evidence and byte-level read coverage, 15/15 + 6/6 full reads, no unfinished truncation, no summary substitution, active-cluster gate, proof-of-read quotes and control-veto checksum. Being append-only, prior sessions' receipts are never overwritten. `governance/BOOT_SESSION_RECEIPT.md` may be refreshed as a convenience pointer to the latest one but carries no independent authority.
+The append-only receipt at `governance/boot_receipts/INDIA<N>__<NONCE>.json` is the mandatory fresh-session OUTPUT, not a shortcut input. It records exact BOOT_HEAD, per-file blob evidence and byte-level read coverage, 16/16 + 6/6 full reads, no unfinished truncation, no summary substitution, active-cluster gate, proof-of-read quotes and control-veto checksum. Being append-only, prior sessions' receipts are never overwritten. `governance/BOOT_SESSION_RECEIPT.md` may be refreshed as a convenience pointer to the latest one but carries no independent authority.
 
 Reference only when needed: CCI `KNOWLEDGE_ATOMS.jsonl`, `COVERAGE_MANIFEST.csv`, `HARVEST_REPORT.md`, `work/NEW_KNOWLEDGE_CANDIDATES.md`.
 
@@ -273,7 +274,7 @@ After every material event, not only Mark decisions:
 5. update recovery deltas for reusable failure traps;
 6. update THIS map whenever a successor must know a new source path or a current source is superseded;
 7. keep `SUCCESSOR_SAFE_STATE.md` current and atomically aligned with CURRENT_STATE when both change;
-8. every fresh successor writes a new `governance/boot_receipts/INDIA<N>__<NONCE>.json` (and may refresh `BOOT_SESSION_RECEIPT.md` as a pointer) only after complete 15/15 central + 6/6 CCI reads and before content;
+8. every fresh successor writes a new `governance/boot_receipts/INDIA<N>__<NONCE>.json` (and may refresh `BOOT_SESSION_RECEIPT.md` as a pointer) only after complete 16/16 central + 6/6 CCI reads and before content;
 9. before reply test: `IF THIS CHAT DIES NOW, CAN INDIA(N+1) RECOVER THIS FROM MASTER BOOT + THIS MAP WITHOUT MARK?`
 
 **MAP-SYNC GUARD:** after every change to `INDIA_MASTER_BOOT.md` that adds/removes/changes a mandatory read, update section A of this map in the same execution cycle. After every frontier closure or material operational-frontier change, update section B and the relevant cluster section in the same execution cycle. A stale map is a successor-memory failure, not harmless documentation drift.

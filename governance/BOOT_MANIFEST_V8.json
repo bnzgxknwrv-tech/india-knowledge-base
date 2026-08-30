@@ -16,7 +16,8 @@
     "governance/CURRENT_STATE.md",
     "governance/SUCCESSOR_SAFE_STATE.md",
     "governance/INDIA_RECOVERY_DELTAS_CURRENT.md",
-    "governance/INDIA_CURRENT_KNOWLEDGE_MAP.md"
+    "governance/INDIA_CURRENT_KNOWLEDGE_MAP.md",
+    "governance/INDIA14_START_AND_INDEPENDENT_CHECK.md"
   ],
   "cci_commit": "b5349afe41f98eb4870728aaff2c633899afc1fa",
   "cci_required": [
@@ -39,6 +40,22 @@
   "receipt_mode": "append_only_per_session",
   "receipt_directory": "governance/boot_receipts",
   "independent_check_required_before_content": true,
+  "check_directory": "governance/boot_checks",
+  "check_validator_required_mode": "--check",
+  "check_nonce_required": true,
+  "check_required_challenge_topics": [
+    "TRAIN_FIRST_DOOR_TO_DOOR",
+    "AL_BESLIST",
+    "C_DO_NOT_RE_PRESENT",
+    "NEWER_CENTRAL_OVER_CCI",
+    "GEO_VETO",
+    "CURRENT_FRONTIER",
+    "ACTION_FIRST",
+    "DURABLE_WHAT_WHY"
+  ],
+  "check_min_new_quotes": 2,
+  "check_min_challenges": 6,
+  "final_authorization_script": "governance/scripts/final_authorization.py",
   "validator_required_mode": "--require-session-receipt",
   "warnings_are_fatal_in_boot_mode": true
 }

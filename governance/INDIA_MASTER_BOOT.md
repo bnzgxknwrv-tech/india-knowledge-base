@@ -73,21 +73,22 @@ Read IN THIS SESSION and in this order:
 13. `governance/SUCCESSOR_SAFE_STATE.md` — **HARD CRASH-RECOVERY CHECKPOINT, READ EVEN IF `CURRENT_STATE.md` SEEMS COMPLETE.** If the two differ materially, that is itself a memory-system failure: reconcile using newest explicit Mark/current authority before advice.
 14. `governance/INDIA_RECOVERY_DELTAS_CURRENT.md` — anti-regression traps recovered from INDIA1–12 failures.
 15. `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md` — conditional routing to exact cluster/detail/provenance sources.
+16. `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md` — **HARD START + INDEPENDENT CHECK PROTOCOL**: the canonical two/three-commit HEAD shape, the receipt/CHECK mechanics, and the mandatory eight-topic semantic veto challenge set; read completely, not merely invoked from memory.
 
-Boot is not complete because filenames were mentioned: actually read them. `14/14` language from V6 is now obsolete; the central mandatory read count is **15/15**.
+Boot is not complete because filenames were mentioned: actually read them. `14/14`/`15/15` language from V6/early-V8 is now obsolete; the central mandatory read count is **16/16** (this file, `INDIA14_START_AND_INDEPENDENT_CHECK.md`, added 2026-08-30 as a mandatory manifest read — see R30 supersede note in `INDIA_RECOVERY_DELTAS_CURRENT.md`).
 
 ## 2A. CCI FULL-REPOSITORY SUCCESSOR-PARITY LAYER — MANDATORY
 
 The 2026-08-29 CCI full-repository harvest inspected 70 refs, 4,192 manifest objects, 2,002 unique tip blobs, 89 recovered deleted/renamed blobs, 218 PR comments and 1,779 commit messages; it materialized 206 knowledge atoms and passed a nine-iteration successor parity test. It found still-valid knowledge that was NOT recoverable from the former central boot alone. Therefore this is no longer optional archaeology.
 
-After the 15 central files above, every fresh INDIA successor MUST read the following CCI files from the immutable completed harvest commit `b5349afe41f98eb4870728aaff2c633899afc1fa` on `agent/cci-full-repo-knowledge-harvest`, in this order:
+After the 16 central files above, every fresh INDIA successor MUST read the following CCI files from the immutable completed harvest commit `b5349afe41f98eb4870728aaff2c633899afc1fa` on `agent/cci-full-repo-knowledge-harvest`, in this order:
 
-16. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUCCESSOR_START_HERE.md` — boot routing + parity warnings.
-17. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUPERSEDED_AND_DO_NOT_REVIVE.md` — vocabulary drift, invalidated facts, old route/sleep modules and other anti-revival traps.
-18. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/MARK_CURRENT_CANON_MASTER.md` — reconciled Mark decisions/WHY, including recovered items absent from the former central layer.
-19. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/PROJECT_PHILOSOPHY_AND_SELECTION_MODEL.md` — recovered selection philosophy, AOAY/Top-11, NOT_TO_BE_MISSED, evidence and discovery rules needed to judge NEW findings correctly.
-20. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/OPEN_MARK_DECISIONS_ONLY.md` — genuine open Mark gates plus INDIA-only repairs, conflicts and date-linked opportunities; ALWAYS reconcile against newer central state because the harvest froze against an older central commit.
-21. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/CURRENT_TRAVEL_EXECUTION_CANON.md` — execution/transfer/topology/day-order facts, weak pins and live-recheck boundaries.
+17. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUCCESSOR_START_HERE.md` — boot routing + parity warnings.
+18. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUPERSEDED_AND_DO_NOT_REVIVE.md` — vocabulary drift, invalidated facts, old route/sleep modules and other anti-revival traps.
+19. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/MARK_CURRENT_CANON_MASTER.md` — reconciled Mark decisions/WHY, including recovered items absent from the former central layer.
+20. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/PROJECT_PHILOSOPHY_AND_SELECTION_MODEL.md` — recovered selection philosophy, AOAY/Top-11, NOT_TO_BE_MISSED, evidence and discovery rules needed to judge NEW findings correctly.
+21. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/OPEN_MARK_DECISIONS_ONLY.md` — genuine open Mark gates plus INDIA-only repairs, conflicts and date-linked opportunities; ALWAYS reconcile against newer central state because the harvest froze against an older central commit.
+22. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/CURRENT_TRAVEL_EXECUTION_CANON.md` — execution/transfer/topology/day-order facts, weak pins and live-recheck boundaries.
 
 The CCI files are **recovery evidence frozen in time, not a higher authority than later central Mark decisions**. Apply §4 precedence. If a CCI frontier/open item has since been closed centrally, the newer central truth wins; the recovered philosophy/WHY/anti-regression knowledge remains valuable unless explicitly superseded.
 
@@ -96,7 +97,7 @@ Reference-only when needed: `KNOWLEDGE_ATOMS.jsonl`, `COVERAGE_MANIFEST.csv`, `H
 **The former temporary eleven-file migration-safety read is retired.** `INDIA_CURRENT_KNOWLEDGE_MAP.md` is now `DECISION_LEDGER_BACKFILL_COMPLETE`. Detailed legacy IDs/grades remain conditionally available through the knowledge map; the CCI parity layer above is additive and mandatory because the parity audit proved the former boot alone still lost material predecessor knowledge.
 
 ## 2B. APPEND-ONLY SESSION RECEIPT — MANDATORY OUTPUT, NOT A SUBSTITUTE READ
-After all 21 mandatory reads and BEFORE substantive work, create a NEW append-only receipt file at `governance/boot_receipts/INDIA<N>__<NONCE>.json` for the CURRENT session. This is the authoritative machine-verifiable proof; `governance/BOOT_SESSION_RECEIPT.md` may optionally still be refreshed as a human-readable pointer/index to the latest receipt, but it is NEVER itself sufficient proof and the validator does not trust it.
+After all 22 mandatory reads and BEFORE substantive work, create a NEW append-only receipt file at `governance/boot_receipts/INDIA<N>__<NONCE>.json` for the CURRENT session. This is the authoritative machine-verifiable proof; `governance/BOOT_SESSION_RECEIPT.md` may optionally still be refreshed as a human-readable pointer/index to the latest receipt, but it is NEVER itself sufficient proof and the validator does not trust it.
 
 Minimum PASS fields in the JSON receipt (see `governance/boot_receipts/README.md` for the exact schema and `governance/scripts/validate_successor_boot.py` for the enforced contract):
 - `india_session` / `nonce` — exact expected INDIA label and exact start-prompt nonce, never reused from a prior session;
@@ -115,7 +116,7 @@ Minimum PASS fields in the JSON receipt (see `governance/boot_receipts/README.md
 
 If any required read is partial/summary-only/unresolved: `boot_gate: "FAIL"`. Do not start travel content.
 
-**Exact commit shape (read before writing a receipt):** a commit's hash cannot be known before its content is fixed, so `boot_head_final` can never literally equal the hash of the very commit that adds the receipt file itself. The required shape is two commits: (1) commit all mandatory content changes first and record THAT commit's hash as `boot_head_final`; (2) as a separate follow-up commit whose diff contains ONLY the new receipt file and nothing else, commit the receipt. The validator checks that current HEAD's parent equals `boot_head_final` and that the one-commit diff between them is exactly the receipt file — anything else (more than one commit, unrelated changes riding along, a receipt that was never actually committed) is a hard FAIL (`receipt final head stale` / `receipt not committed at current head`).
+**Exact commit shape (read before writing a receipt):** a commit's hash cannot be known before its content is fixed, so `boot_head_final` can never literally equal the hash of the very commit that adds the receipt file itself. The required shape is two commits: (1) commit all mandatory content changes first and record THAT commit's hash as `boot_head_final`; (2) as a separate follow-up commit whose diff contains ONLY the new receipt file and nothing else, commit the receipt. The validator checks that the receipt commit's parent equals `boot_head_final` and that the one-commit diff between them is exactly the receipt file — anything else (more than one commit, unrelated changes riding along, a receipt that was never actually committed) is a hard FAIL (`receipt final head stale` / `receipt not committed at current head`). A THIRD commit follows the same pattern for the independent CHECK artifact (receipt commit -> check commit, diff = the check file only) — see `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md`'s "CANONICAL HEAD/COMMIT SHAPE" section for the full C→R→K chain and why `validate_successor_boot.py --receipt-commit` exists to validate the C→R half after the CHECK commit has moved actual HEAD past it.
 
 # 3. WHAT EACH TOP-LAYER FILE OWNS
 Do not blur responsibilities:
@@ -167,7 +168,7 @@ Before substantive advice, duration, route or a choice batch for any world:
 5. build the applicable decision surface from `INDIA_HUMAN_CENTERED_COMPLEX_TRIP_PLANNING_STANDARD.md` — do not ask Mark before geography, marginal burden, natural bundles, displacement and decision-critical uncertainty are visible;
 6. before rendering any map or using a coordinate/proximity claim, execute `MAP_COORDINATE_VERIFICATION_RULE.md`; a name-only geocoder result is not verification;
 7. run the applicable vetoes in `INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md`;
-8. record active-cluster package completion in `BOOT_SESSION_RECEIPT.md` before the first substantive work in that cluster;
+8. record active-cluster package completion in the CURRENT session's append-only receipt at `governance/boot_receipts/INDIA<N>__<NONCE>.json` (the `active_cluster_reads` attestation) before the first substantive work in that cluster — `BOOT_SESSION_RECEIPT.md` is at most an optional human-readable pointer to that receipt and is never itself where completion is recorded;
 9. present only genuine OPEN choices.
 
 Changing cluster requires loading that cluster package first.
@@ -350,7 +351,7 @@ Do not continuously poll PR #23. Reconcile only material new information into ce
 # 15. BOOT SELF-TEST — BEFORE FIRST SUBSTANTIVE ADVICE
 A successor must be able to answer internally, from GitHub, without asking Mark:
 1. What exact BOOT_HEAD did I read, and did central move during boot?
-2. Did I actually read all 15 central + 6 CCI mandatory files in THIS session, continue every truncation to EOF, and write a current `BOOT_SESSION_RECEIPT.md` with `BOOT_GATE: PASS`?
+2. Did I actually read all 16 central + 6 CCI mandatory files in THIS session, continue every truncation to EOF, and write a NEW append-only receipt at `governance/boot_receipts/INDIA<N>__<NONCE>.json` with `boot_gate: PASS` (never merely `BOOT_SESSION_RECEIPT.md`, which is at most an optional human pointer, not authoritative proof)?
 3. What are the exact international flight times and why are there 33 India nights?
 4. What do A+, A, A*, B, C mean?
 5. What are the six fixed worlds?

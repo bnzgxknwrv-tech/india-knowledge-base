@@ -322,14 +322,14 @@ Failure exposed 2026-08-30 after the V6 parity architecture itself was already c
 
 This is categorically different from R25: R25 was **boot content incomplete**; R29 is **boot execution skipped even though boot content was sufficient**.
 
-Hard correction from V7:
+Hard correction from V7 — **items 3 and 5 below are V7-era mechanism, superseded by V8/R30 (see that entry and `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md`): the file/count is now 16 central + 6 CCI, and step 5's `BOOT_SESSION_RECEIPT.md` update is replaced by writing a NEW append-only receipt at `governance/boot_receipts/INDIA<N>__<NONCE>.json`. Kept below verbatim as history/provenance for what V7 actually required, not as current instruction — do not follow items 3/5 literally in a V8 session.**
 1. every fresh INDIA session starts `UNBOOTED`, regardless of summary/model/predecessor context;
 2. `governance/FRESH_SESSION_BOOT_GATE.md` is mandatory before content;
-3. all 15 central + 6 CCI files must be fully read in THIS session; truncated responses must be continued to EOF;
+3. ~~all 15 central + 6 CCI files must be fully read in THIS session; truncated responses must be continued to EOF~~ — V8: file count is now 16 central (this file's mandatory-read logic is unchanged, only the count and the added file differ);
 4. summary/pointer/context-only exposure counts as `NOT_READ_IN_THIS_SESSION`;
-5. before content, update `governance/BOOT_SESSION_RECEIPT.md` with exact BOOT_HEAD, file/blob evidence, 15/15 + 6/6, no unfinished truncation, no summary substitution, active-cluster status and semantic control-veto checksum;
+5. ~~before content, update `governance/BOOT_SESSION_RECEIPT.md` with exact BOOT_HEAD, file/blob evidence, 15/15 + 6/6, no unfinished truncation, no summary substitution, active-cluster status and semantic control-veto checksum~~ — V8: write a NEW append-only receipt at `governance/boot_receipts/INDIA<N>__<NONCE>.json` instead; `BOOT_SESSION_RECEIPT.md` is at most an optional non-authoritative pointer and is never itself where boot evidence is recorded;
 6. where local execution is available, `validate_successor_boot.py --require-session-receipt` must PASS;
-7. the independent post-start CHECK prompt must verify the receipt and semantic rules; a verbal `ik heb alles gelezen` is not enough;
+7. the independent post-start CHECK prompt must verify the receipt and semantic rules; a verbal `ik heb alles gelezen` is not enough — V8: this is now a mechanically fail-closed second validator, `governance/scripts/validate_independent_check.py`, not only a prompt discipline;
 8. if a session already gave substantive advice before the gate passed, invalidate affected new working hypotheses, execute the full boot, identify affected hard rules, repair durable state, and only then resume.
 
 General principle:
@@ -349,5 +349,19 @@ Hard correction, generalized:
 
 General principle:
 **A governance system with multiple owner files for the same boot concept will drift the moment one of those files is edited without the others. The fix is not "remember to update all of them" — memory is exactly what already failed once (R26, R28). The fix is one machine-readable manifest as sole authority, plus a validator that mechanically checks every other file still points at it.**
+
+# R31 — A "TWO KEYS" GATE IS ONLY FAIL-CLOSED IF THE SECOND KEY HAS ITS OWN VALIDATOR
+Failure exposed 2026-08-30, immediately after R30/V8 landed (PR #28 merged to central at `366328029b6bb7b7b0ab36f6683e7086bf4ff33d`): an independent ChatGPT Work audit (PR #23 comment `5470210435`) found that V8's own "independent CHECK is a second key" design was itself not mechanically enforced. Specifically: the canonical START/CHECK protocol file was not in the mandatory manifest read set; there was no validator for a `boot_checks/` artifact at all; the START protocol's own step 6 and the CHECK's stale-receipt test described the receipt/HEAD relationship inconsistently with each other and with what the validator actually checked; and session/nonce values were accepted as any non-empty string with no format or freshness check. A mechanically-PASSing first key (the receipt) could therefore still reach something functionally indistinguishable from authorization without a real, bound, fail-closed second key ever running.
+
+This is a direct generalization of R30 one layer up: R30 was about a mandatory *file set* drifting out of sync; R31 is about a mandatory *second validator* being designed in prose but never actually built, so the "two keys" property was aspirational rather than enforced.
+
+Hard correction:
+1. if a protocol document declares that a second, independent verification step is required before some authorization may be granted, that declaration is not complete until (a) the document itself is in the mandatory read set a validator checks for, and (b) a SEPARATE script mechanically validates the second artifact against the first, with its own fail-closed checks — not merely a written expectation that a future session will do the right thing;
+2. the two validators must agree on ONE canonical description of any shared mechanism (here: the commit-chain HEAD/receipt shape) — restated inconsistently in multiple files is itself a defect even if each restatement is individually well-intentioned;
+3. any identity/freshness field accepted from the command line or written self-report (session labels, nonces, timestamps) must be format-validated and, where the underlying git/commit evidence allows it, cross-checked against that independent evidence — not merely checked for non-emptiness or internal self-consistency;
+4. exactly one script should be the sole place a system prints its final "authorization granted" string, composing the sub-validators rather than duplicating their logic, so there is never more than one place that claim could be made incorrectly.
+
+General principle:
+**Declaring a second key in prose does not create a second key. A "two keys" authorization design is only as fail-closed as its least-enforced key — build and test the second validator with the same rigor as the first, in the same change, not as a documented intention for later.**
 
 END OF CURRENT RECOVERY DELTAS

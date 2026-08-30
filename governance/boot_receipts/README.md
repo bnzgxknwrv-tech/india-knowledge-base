@@ -38,9 +38,21 @@ print `INDIA_TRAVEL_BOOT_SANITY: PASS` proves:
 - at least 3 required verbatim quotes exist, are unique, are full sentences,
   and are genuinely present in the pinned source text (not paraphrased or
   fabricated);
-- the receipt was actually committed at the exact final HEAD the validator
-  is currently running against, on the correct branch, from a clean tree;
-- the initial HEAD is an ancestor of the final HEAD (no time-travel).
+- the receipt commit sits EXACTLY one commit on top of `boot_head_final` —
+  i.e. the receipt commit's own parent equals `boot_head_final`, and the
+  receipt commit's entire diff adds only the receipt file itself and nothing
+  else. **The receipt file is never expected to exist in the same commit as
+  `boot_head_final`** — a commit's hash cannot be known before its own
+  content is fixed, so the receipt cannot record its own commit's hash. See
+  `governance/scripts/validate_successor_boot.py`'s docstring and
+  `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md`'s "CANONICAL
+  HEAD/COMMIT SHAPE" section for the same two/three-commit shape stated
+  identically in both places;
+- this holds on the correct branch, from a clean tree;
+- the initial HEAD is an ancestor of the final HEAD (no time-travel);
+- `india_session`/`nonce` match the required format, and `receipt_created_utc`
+  is close to the receipt commit's actual git commit time, not merely
+  well-formed.
 
 It does **not** prove:
 - that the model actually attended to / understood the content it claims to
@@ -55,7 +67,16 @@ That is why `boot_gate: PASS` here is explicitly followed by
 `CONTENT_AUTHORIZATION: NOT_GRANTED` in the validator's own output until a
 **separate, independent CHECK session** (see
 `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md`) verifies the receipt and
-passes semantic challenges chosen after the receipt already exists.
+passes semantic challenges chosen after the receipt already exists. That
+second key is enforced mechanically by
+`governance/scripts/validate_independent_check.py` against an artifact under
+`governance/boot_checks/`; `governance/scripts/final_authorization.py` runs
+both validators and is the ONLY script that may print
+`CONTENT_AUTHORIZATION: GRANTED`. Because that second validator runs after
+the independent-CHECK commit has already moved actual current HEAD one step
+past the receipt commit, it is invoked with `validate_successor_boot.py
+--receipt-commit <R-sha>` rather than relying on actual HEAD directly — see
+that flag's help text for why this does not weaken the check.
 
 ## Test fixtures are not live receipts
 `governance/boot_receipts/test_fixtures/` holds adversarial-test receipts

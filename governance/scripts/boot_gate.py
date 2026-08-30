@@ -26,12 +26,22 @@ Exit codes mirror validate_successor_boot.py's receipt-mode behavior:
 """
 from __future__ import annotations
 
+import re
 import subprocess
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 VALIDATOR = ROOT / "governance/scripts/validate_successor_boot.py"
+
+# Kept identical to validate_successor_boot.py's SESSION_RE/NONCE_RE. This
+# wrapper deliberately duplicates the check rather than importing it, so it
+# fails closed even if invoked in an environment where the validator module
+# cannot be imported (it always shells out to it, never imports it) -- an
+# obviously wrong session/nonce is rejected here, at the earliest point,
+# before ever spawning the validator subprocess.
+SESSION_RE = re.compile(r"^(INDIA[0-9]+|TEST_FIXTURE_[A-Z0-9_]+)$")
+NONCE_RE = re.compile(r"^[A-Z0-9]{6,32}$")
 
 
 def main() -> int:
@@ -43,6 +53,12 @@ def main() -> int:
     session, nonce = sys.argv[1], sys.argv[2]
     if not session or not nonce:
         print("FAIL: session and nonce must both be non-empty", file=sys.stderr)
+        return 1
+    if not SESSION_RE.fullmatch(session):
+        print(f"FAIL: session does not match required format {SESSION_RE.pattern}: {session!r}", file=sys.stderr)
+        return 1
+    if not NONCE_RE.fullmatch(nonce):
+        print(f"FAIL: nonce does not match required format {NONCE_RE.pattern}: {nonce!r}", file=sys.stderr)
         return 1
 
     receipt_path = f"governance/boot_receipts/{session}__{nonce}.json"

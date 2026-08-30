@@ -30,35 +30,39 @@ Crash test:
 5. Never override newer explicit Mark/current authority.
 6. This file is an explicit mandatory ALWAYS-read source.
 7. Whenever CURRENT_STATE and this file both change, commit them atomically in one commit.
-8. A fresh successor is not allowed to inherit predecessor boot status: it starts UNBOOTED and must pass `FRESH_SESSION_BOOT_GATE.md` + current-session `BOOT_SESSION_RECEIPT.md` itself.
+8. A fresh successor is not allowed to inherit predecessor boot status: it starts UNBOOTED and must pass `FRESH_SESSION_BOOT_GATE.md` and write its OWN new append-only receipt at `governance/boot_receipts/INDIA<N>__<NONCE>.json` (never the old living `BOOT_SESSION_RECEIPT.md`, which is at most an optional non-authoritative pointer), then pass the independent CHECK.
 
 ---
 
 STATUS: SAFE_TO_HANDOFF
 
 FRONTIER:
-V8 boot-generation finalization is current. The 2026-08-30 boot-generation-drift gap (V7-era `INDIA_MASTER_BOOT.md`/`INDIA_CURRENT_KNOWLEDGE_MAP.md` not pointing to the already-V8 `BOOT_MANIFEST_V8.json`/`FRESH_SESSION_BOOT_GATE.md`; `governance/boot_receipts/` not existing) has been structurally repaired and adversarially tested. Underlying travel frontier remains Tiruvannamalai/Arunachala inter-core edge rebuilding RAIL-FIRST before duration becomes decision-ready again. Travel content remains held pending Mark's review/merge of the V8 finalization branch/PR and, ideally, a fresh independent ChatGPT Work audit.
+V8 boot-generation finalization (PR #28) is merged to this central branch at `366328029b6bb7b7b0ab36f6683e7086bf4ff33d`. An independent ChatGPT Work audit reviewed that merged state fresh (PR #23 comment `5470210435`) and returned `V8_REPOSITORY_STATUS: FAIL` / `INDIA14_START_STATUS: NOT_READY` with 6 MUST_FIX items. This checkpoint records that Mark gave direct, real-time authorization to repair those items with independent verification rather than blind implementation, and that repair is what produced this commit — see the `CCI_RESULT — V8 WORK-AUDIT MUST_FIX REPAIR` comment on PR #23 for the full per-item verdict and test matrix. Underlying travel frontier remains Tiruvannamalai/Arunachala inter-core edge rebuilding RAIL-FIRST before duration becomes decision-ready again; travel content remains held pending a fresh independent Work re-audit of this repair.
 
-LAST_COMPLETED:
+LAST_COMPLETED (V8 finalization, PR #28, merged):
 - Root cause established (R30): a boot generation (V8) had been partially shipped — some owner files upgraded, others still describing the prior generation (V7) — with no single machine-checkable authority forcing synchronization.
 - `governance/BOOT_MANIFEST_V8.json` confirmed as the sole machine-readable authority for central/CCI/active-cluster membership; `INDIA_MASTER_BOOT.md`, `INDIA_CURRENT_KNOWLEDGE_MAP.md` and `FRESH_SESSION_BOOT_GATE.md` now all explicitly reference it and carry no competing mandatory set.
 - `governance/INDIA_MASTER_BOOT.md` repaired to V8 semantics: append-only per-session receipts under `governance/boot_receipts/`, corrected validator invocation with explicit receipt path + session + nonce, explicit structural-mode-is-not-authorization and mechanical-PASS-is-not-authorization statements, canonical `governance/scripts/boot_gate.py` wrapper that cannot be invoked without receipt+session+nonce.
-- `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md` relabeled V8 and synchronized to the manifest, cluster/detail routing preserved unchanged.
-- Created `governance/boot_receipts/` (with `README.md` and a `test_fixtures/` subdirectory whose fixtures carry `boot_gate: TEST_ONLY` and can never be mistaken for live receipts) and `governance/boot_checks/` (with `README.md` documenting its honest, non-cryptographic limits).
-- `governance/scripts/validate_successor_boot.py` hardened: branch-identity check, clean-tracked-working-tree requirement (all proof now read via pinned `git show`, never the working tree), initial-HEAD-is-ancestor-of-final-HEAD check, receipt-committed-at-final-head check, mandatory `--expected-session`/`--expected-nonce` in receipt mode, `receipt_created_utc` format check, full non-overlapping byte-range read-coverage per attested file, newest-R-item-scoped recovery-delta proof, category<->source binding that forbids relabeling, and explicit `CONTENT_AUTHORIZATION: NOT_GRANTED` in every non-independent-CHECK output.
-- `governance/scripts/boot_gate.py` added as the canonical content-gate entrypoint.
-- `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md` created: final START protocol + independent CHECK protocol, >=6 post-receipt semantic challenges, no hard-coded answers.
-- Added R30 to `governance/INDIA_RECOVERY_DELTAS_CURRENT.md`.
-- `governance/INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md` given a minimal V8 pointer/patch (no duplication of boot mechanics it doesn't own).
-- Adversarial test matrix actually run (structural PASS/FAIL, genuine receipt PASS fixture, ~16 single-dimension mutation FAILs, test-fixture-cannot-become-live-receipt check) — see the `CCI_RESULT — V8 FINALIZATION + ADVERSARIAL TESTS` comment on PR #23 for the full verbatim matrix.
-- No A+/A/A*/B/C, hotel/base, duration or optional-world decision was changed by this system repair; verified via `git diff` restricted to non-`governance/` paths against the pre-task HEAD.
-- Landed as branch `agent/india8-v8-finalization` / PR against `agent/india8-cluster-casting`, NOT a direct push to central, because the task's claimed live-chat authorization from Mark could not be independently verified by the executing session — see the PR comment for the full explanation.
+- `governance/scripts/validate_successor_boot.py` hardened: branch-identity check, clean-tracked-working-tree requirement, initial-HEAD-is-ancestor-of-final-HEAD check, receipt-committed-at-final-head check, mandatory `--expected-session`/`--expected-nonce` in receipt mode, full non-overlapping byte-range read-coverage per attested file, category<->source binding that forbids relabeling.
+- `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md`, `governance/boot_receipts/`, `governance/boot_checks/`, R30 added.
+- No A+/A/A*/B/C, hotel/base, duration or optional-world decision was changed by this system repair.
+
+LAST_COMPLETED (V8 Work-audit MUST_FIX repair, this commit):
+- Independently re-verified each of the 6 Work-audit MUST_FIX claims against the actual merged files/scripts before changing anything — see the PR #23 result comment for the per-item verdict (all 6 confirmed genuine on independent review).
+- MUST_FIX 1 (HEAD/receipt contradiction): unified the canonical C→R (content→receipt) commit-shape language across `INDIA14_START_AND_INDEPENDENT_CHECK.md`, `governance/boot_receipts/README.md` and the validator; the CHECK stale-test no longer reads as "boot_head_final == current HEAD" (which was structurally never true for a valid receipt).
+- MUST_FIX 2 (second key not fail-closed): `INDIA14_START_AND_INDEPENDENT_CHECK.md` added to `BOOT_MANIFEST_V8.json` `central_required` (16/16); new `governance/scripts/validate_independent_check.py` mechanically binds a `governance/boot_checks/` artifact to the exact receipt/session/start-nonce/`boot_head_final`/receipt-commit, a separate fresh `check_nonce`, two not-previously-used verbatim quotes, and >=6 challenges covering all 8 mandatory veto topics; new `governance/scripts/final_authorization.py` is now the ONLY script that may print `CONTENT_AUTHORIZATION: GRANTED`.
+- MUST_FIX 3 (loose session/nonce binding): `validate_successor_boot.py`, `validate_independent_check.py` and `boot_gate.py` now enforce `^(INDIA[0-9]+|TEST_FIXTURE_[A-Z0-9_]+)$` / `^[A-Z0-9]{6,32}$` on every session/nonce value, and `receipt_created_utc`/`check_created_utc` are checked against the ACTUAL git commit timestamp, not just ISO-8601 shape.
+- MUST_FIX 4 (stale `BOOT_SESSION_RECEIPT.md` references): `INDIA_MASTER_BOOT.md` §5 point 8 and §15 point 2, and this file's UPDATE DISCIPLINE point 8, now point at the append-only receipt + independent CHECK; R29 in `INDIA_RECOVERY_DELTAS_CURRENT.md` kept as history with an explicit V8/R30 supersede note.
+- MUST_FIX 5 (stale checkpoints): this file and `governance/CURRENT_STATE.md` updated atomically with the realized PR #28 merge SHA and this Work-audit's FAIL/NOT_READY verdict; no open-merge-action language remains.
+- MUST_FIX 6 (full-byte-read self-report honesty): documentation now states explicitly that range coverage is a claim, not attention-proof, and the mandatory 8-topic veto challenge set in the new independent-CHECK validator is the actual compensating enforcement (this is functionally the same fix as MUST_FIX 2).
+- Full test matrix actually run: structural validator, receipt-fixture PASS, independent-check-fixture PASS, `final_authorization.py` reaching `CONTENT_AUTHORIZATION: GRANTED`, then each of stale/wrong session, wrong start nonce, wrong check_nonce, wrong HEAD/ancestry, copied receipt, old/replayed check, reused-quote violation, <6 challenges, one semantic FAIL, and branch movement after check deliberately broken and confirmed to fail closed with the specific expected error — verbatim output in the PR #23 result comment.
+- No A+/A/A*/B/C, hotel/base, duration or optional-world decision was changed by this repair either; verified via `git diff` restricted to non-`governance/` paths against `366328029b6bb7b7b0ab36f6683e7086bf4ff33d`.
 
 NEXT_AUTOMATIC_STEP:
-Post the `CCI_RESULT — V8 FINALIZATION + ADVERSARIAL TESTS` comment to PR #23 with exact pre/post HEAD, files changed, verbatim validator/test output, honest residual limits, and `V8_REPOSITORY_STATUS` / `INDIA14_START_STATUS`. After that, preserve the underlying project frontier: do NOT silently resume Tiruvannamalai travel content. The PR itself is the next Mark-only action (review + merge, or explicit further instruction).
+Post the `CCI_RESULT — V8 WORK-AUDIT MUST_FIX REPAIR` comment to PR #23 with START/FINAL HEAD, per-item verdicts, verbatim test matrix, and `V8_REPOSITORY_STATUS`/`INDIA14_START_STATUS`. Preserve the underlying project frontier: do NOT silently resume Tiruvannamalai travel content. Per the original task's own instruction, one more fresh independent Work re-audit of this repair is still recommended before Mark actually starts a real INDIA14 boot, regardless of this session's own verdict.
 
 WAITING_FOR_MARK:
-Review and merge (or reject/amend) the V8 finalization PR against `agent/india8-cluster-casting` — this is the actual, directly-verifiable authorization step for landing on central, since a GitHub merge action performed by the repository owner is unambiguous in a way a relayed comment/claim is not. The genuine travel Mark-only duration choice remains deferred until the rail-first transfer surface is rebuilt.
+A fresh independent ChatGPT Work re-audit of this repair (recommended, not a hard code-level gate — this repair landed directly on central per Mark's live-chat authorization, verified by this session against the actual PR #23 audit comment before any change was made). The genuine travel Mark-only duration choice remains deferred until the rail-first transfer surface is rebuilt.
 
 CONTROLLING_ARTIFACTS:
 - `governance/BOOT_MANIFEST_V8.json`
@@ -69,6 +73,8 @@ CONTROLLING_ARTIFACTS:
 - `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md` V8
 - `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md`
 - `governance/scripts/validate_successor_boot.py`
+- `governance/scripts/validate_independent_check.py`
+- `governance/scripts/final_authorization.py`
 - `governance/scripts/boot_gate.py`
 - `governance/CURRENT_STATE.md`
 - `governance/SUCCESSOR_SAFE_STATE.md`

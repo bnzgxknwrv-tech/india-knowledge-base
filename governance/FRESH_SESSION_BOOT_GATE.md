@@ -34,7 +34,7 @@ Before ANY substantive India advice, research synthesis, route/duration/hotel/ba
 ## CANONICAL COUNTS
 Counts come ONLY from `BOOT_MANIFEST_V8.json`.
 Current manifest counts:
-- central mandatory: 15;
+- central mandatory: 16;
 - CCI mandatory: 6;
 - active-cluster mandatory: 6.
 
@@ -89,19 +89,17 @@ In boot mode:
 - active cluster mismatch is fatal.
 
 ## SEMANTIC SECOND GATE
-Reading is necessary but not sufficient. The independent CHECK chooses at least six applied challenges AFTER receipt creation, including from:
-- stale receipt;
-- truncation;
-- summary substitution;
-- train-first / true door-to-door;
-- AL BESLIST?;
-- CCI supersede conflict;
-- GEO verified or no geometry;
-- current frontier;
-- action-first/durable memory;
-- recognition-rich naming;
-- human decision surface;
-- same-turn memory write.
+Reading is necessary but not sufficient. The independent CHECK chooses at least six applied challenges AFTER receipt creation. Mechanically enforced by `governance/scripts/validate_independent_check.py`: ALL EIGHT of these topics are mandatory, not optional examples —
+- `TRAIN_FIRST_DOOR_TO_DOOR`;
+- `AL_BESLIST`;
+- `C_DO_NOT_RE_PRESENT`;
+- `NEWER_CENTRAL_OVER_CCI`;
+- `GEO_VETO`;
+- `CURRENT_FRONTIER`;
+- `ACTION_FIRST`;
+- `DURABLE_WHAT_WHY`.
+
+Additional challenges (stale receipt, truncation, summary substitution, recognition-rich naming, human decision surface, same-turn memory write, ...) are encouraged on top of these eight. See `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md` §2.4 for the exact wording of each.
 
 Any material wrong answer = FAIL.
 

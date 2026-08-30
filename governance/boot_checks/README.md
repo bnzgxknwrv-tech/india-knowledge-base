@@ -20,7 +20,41 @@ records rather than one session grading itself.
 `INDIA<N>_CHECK__<NONCE>.json`, referencing the exact `boot_receipts/
 INDIA<N>__<NONCE>.json` file it checked, plus the two NEW verbatim quotes it
 demanded (from mandatory files not used in the original receipt's proof) and
-the outcome of the >=6 chosen semantic challenges.
+the outcome of the >=6 chosen semantic challenges. `<NONCE>` here is the
+**start** nonce (matching the receipt's own filename), not the check nonce.
+
+## Validator — this is no longer merely honor-system evidence
+`governance/scripts/validate_independent_check.py --check <this file>
+--receipt <the reviewed receipt> --expected-session <N> --expected-start-nonce
+<start nonce> --expected-check-nonce <check nonce>` mechanically enforces:
+- the exact receipt path/session/start-nonce/`boot_head_final` bind to the
+  reviewed receipt;
+- a separate fresh `check_nonce`, distinct from the start nonce;
+- the exact three-commit shape C→R→K (content, receipt, check) — see
+  `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md`'s "CANONICAL
+  HEAD/COMMIT SHAPE" section — including that actual current HEAD really is
+  the check commit and nothing has moved since;
+- `check_created_utc` strictly after `receipt_created_utc`, and close to the
+  check commit's actual git commit time;
+- two NEW verbatim quotes from two mandatory sources not already used in the
+  receipt's own `proof_of_read`;
+- at least 6 challenge records, and specifically ALL EIGHT mandatory veto
+  topics from the manifest's `check_required_challenge_topics` (train-first/
+  door-to-door, `AL_BESLIST`, `C`/do-not-re-present, newer-central-over-CCI,
+  GEO veto, current frontier, action-first, durable WHAT+WHY);
+- no challenge with `verdict: FAIL` anywhere.
+
+`governance/scripts/final_authorization.py <N> <start nonce> <check nonce>`
+runs this validator together with the receipt validator and is the ONLY
+script permitted to print `CONTENT_AUTHORIZATION: GRANTED`. Neither
+validator alone ever prints that string.
+
+### Required JSON fields
+`india_session`, `start_nonce`, `check_nonce`, `receipt_path`,
+`boot_head_final`, `receipt_commit` (the SHA of commit R), `new_quotes[]`
+(each `{source, quote}`, >=2, from distinct not-yet-used mandatory sources),
+`challenges[]` (each `{topic, question, answer, evidence, verdict}`, >=6,
+covering all 8 mandatory topics), `check_created_utc`, `check_gate`.
 
 ## HONEST LIMIT — read this before treating anything here as strong proof
 **This is not cryptographic identity proof of anything.** In particular:
@@ -29,12 +63,16 @@ the outcome of the >=6 chosen semantic challenges.
   produced the original receipt, as opposed to the same underlying model
   re-running in a way that reproduces similar blind spots. A GitHub commit
   cannot attest to *which* conversation produced it.
-- Nothing here proves the challenge questions were genuinely chosen *after*
-  the receipt (i.e. not designed in a way that the boot receipt already
-  anticipated) beyond the ordinary evidence of file timestamps/commit order,
-  which is not tamper-proof against a determined bad actor with write access.
-  For a personal single-maintainer repository this is an acceptable
-  practical standard, not a formal security guarantee.
+- The validator now mechanically enforces that this file's commit sits
+  strictly after the receipt's commit in git's own history (the C→R→K chain)
+  and that `check_created_utc` is strictly after `receipt_created_utc` and
+  close to the actual commit time — but that is still ordinary git/timestamp
+  evidence, not tamper-proof against a determined bad actor with local write
+  access who could construct a fake history. For a personal
+  single-maintainer repository this is an acceptable practical standard, not
+  a formal security guarantee. It does NOT prove the challenge *content* was
+  reasoned about fresh rather than pre-written to a known answer key — that
+  remains the residual, irreducible limit.
 - Nothing here can force a model to actually run this second CHECK before
   producing content — see the honest limit already documented in
   `governance/INDIA_MASTER_BOOT.md` §1A: enforcement of "run the gate before

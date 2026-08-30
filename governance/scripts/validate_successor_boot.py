@@ -8,6 +8,18 @@ Boot PASS requires an append-only per-session JSON receipt and explicit
 mode: every inability-to-verify condition is treated as FAIL, never as a
 soft pass.
 
+`india_session`/`nonce` (and the matching `--expected-session`/`--expected-nonce`
+CLI values) are format-validated against SESSION_RE/NONCE_RE below, and
+`receipt_created_utc` is checked against the ACTUAL git commit timestamp of
+the commit that added the receipt, not merely its own ISO-8601 shape. This
+closes the "any non-empty string mechanically passes" gap: a mechanical PASS
+now at least proves the session/nonce look like real values and the claimed
+creation time is not fabricated relative to git's own clock. It still does
+NOT prove the nonce/session actually originated in Mark's start prompt
+rather than being invented by the same session that wrote the receipt --
+only the independent CHECK (governance/INDIA14_START_AND_INDEPENDENT_CHECK.md,
+enforced by governance/scripts/validate_independent_check.py) can bind that.
+
 HONEST LIMIT: this script cannot prove what a model actually attended to.
 It proves machine-checkable facts only — pinned git content, blob identity,
 ancestor/branch/cleanliness of the repository state, receipt structure, and
@@ -36,10 +48,27 @@ import json
 import re
 import subprocess
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 MANIFEST = ROOT / "governance/BOOT_MANIFEST_V8.json"
+
+# Session labels: real INDIA sessions (`INDIA14`, ...) or explicitly-namespaced
+# test fixtures (`TEST_FIXTURE_GOLDEN`, ...) that can never collide with a real
+# label (see governance/boot_receipts/README.md safeguard 2). Nothing else —
+# empty, lowercase, garbage, or a real-looking-but-malformed label — passes.
+SESSION_RE = re.compile(r"^(INDIA[0-9]+|TEST_FIXTURE_[A-Z0-9_]+)$")
+# Nonces: uppercase alphanumeric, 6-32 chars. Deliberately strict — a nonce is
+# supposed to be a short fresh token from Mark's start prompt, not free text.
+NONCE_RE = re.compile(r"^[A-Z0-9]{6,32}$")
+# Tolerance between a receipt's self-reported `receipt_created_utc` and the
+# actual git commit timestamp of the commit that added it. This is what makes
+# `receipt_created_utc` a freshness check rather than a format-only field: a
+# receipt whose claimed creation time drifts far from when it was actually
+# committed is evidence the timestamp was copied/fabricated rather than
+# generated live at commit time.
+RECEIPT_TIMESTAMP_TOLERANCE_SECONDS = 6 * 3600
 RECOVERY_DELTAS = "governance/INDIA_RECOVERY_DELTAS_CURRENT.md"
 CURRENT_STATE = "governance/CURRENT_STATE.md"
 SAFE_STATE = "governance/SUCCESSOR_SAFE_STATE.md"
@@ -55,6 +84,17 @@ p.add_argument("--require-session-receipt", dest="receipt", default=None,
                     "e.g. governance/boot_receipts/INDIA14__<NONCE>.json")
 p.add_argument("--expected-session", default=None,
                 help="mandatory in receipt mode: exact expected INDIA session label")
+p.add_argument("--receipt-commit", dest="receipt_commit", default=None,
+                help="OPTIONAL: pinned 40-char SHA of the commit that added the receipt "
+                     "file, when it is not literally the current actual HEAD (e.g. when "
+                     "a later independent-CHECK commit has since been added on top by "
+                     "governance/scripts/final_authorization.py). Defaults to actual "
+                     "current HEAD when omitted, matching the original START-time usage. "
+                     "When given, it must still be a real ancestor-or-self of actual "
+                     "current HEAD and must itself satisfy the exact required shape "
+                     "(parent == boot_head_final, diff == the one receipt file) -- this "
+                     "flag relaxes WHERE the receipt commit may sit relative to current "
+                     "HEAD, never WHAT shape it must have.")
 p.add_argument("--expected-nonce", default=None,
                 help="mandatory in receipt mode: exact expected start-prompt nonce")
 args = p.parse_args()
@@ -93,7 +133,7 @@ active = manifest.get("active_cluster_required", [])
 cci_commit = manifest.get("cci_commit", "")
 manifest_branch = manifest.get("branch", "")
 
-if len(central) != 15: fail(f"manifest central count {len(central)} != 15")
+if len(central) != 16: fail(f"manifest central count {len(central)} != 16")
 if len(cci) != 6: fail(f"manifest CCI count {len(cci)} != 6")
 if len(active) < 1: fail("manifest active-cluster set empty")
 if len(set(central)) != len(central): fail("duplicate central path in manifest")
@@ -140,8 +180,12 @@ if args.receipt is None:
 # ---------------------------------------------------------------------------
 if not args.expected_session:
     fail("--expected-session is mandatory in receipt mode")
+elif not SESSION_RE.fullmatch(args.expected_session):
+    fail(f"--expected-session does not match required format {SESSION_RE.pattern}: {args.expected_session!r}")
 if not args.expected_nonce:
     fail("--expected-nonce is mandatory in receipt mode")
+elif not NONCE_RE.fullmatch(args.expected_nonce):
+    fail(f"--expected-nonce does not match required format {NONCE_RE.pattern}: {args.expected_nonce!r}")
 
 receipt_path = ROOT / args.receipt
 if not receipt_path.is_file():
@@ -159,12 +203,17 @@ if not args.receipt.startswith("governance/boot_receipts/"):
     fail("receipt is not under append-only governance/boot_receipts/")
 session = receipt.get("india_session")
 nonce = receipt.get("nonce")
+if not session or not nonce:
+    fail("receipt missing session or nonce")
+else:
+    if not SESSION_RE.fullmatch(session):
+        fail(f"receipt india_session does not match required format {SESSION_RE.pattern}: {session!r}")
+    if not NONCE_RE.fullmatch(nonce):
+        fail(f"receipt nonce does not match required format {NONCE_RE.pattern}: {nonce!r}")
 if args.expected_session and session != args.expected_session:
     fail(f"session mismatch: {session} != {args.expected_session}")
 if args.expected_nonce and nonce != args.expected_nonce:
     fail("nonce mismatch")
-if not session or not nonce:
-    fail("receipt missing session or nonce")
 if receipt.get("boot_gate") != "PASS": fail("receipt boot_gate != PASS")
 if receipt.get("summary_substitution_used") is not False: fail("summary substitution not explicitly false")
 if receipt.get("unfinished_truncations") != 0: fail("unfinished truncations != 0")
@@ -202,30 +251,53 @@ try:
 except Exception as e:
     fail(f"cannot resolve HEAD: {e}")
     actual_head = None
-if actual_head and final:
-    if final == actual_head:
-        fail("receipt final head must not equal current HEAD directly: "
+
+# The receipt commit is normally exactly current actual HEAD (the START
+# session just committed it). But this same validator is also invoked LATER,
+# by governance/scripts/final_authorization.py, after a further independent-
+# CHECK commit has been added on top of the receipt commit -- at that point
+# actual HEAD is the CHECK commit, not the receipt commit. --receipt-commit
+# lets the caller pin explicitly WHICH commit is being validated as the
+# receipt commit in that case; it defaults to actual_head, preserving the
+# original START-time behavior unchanged when omitted.
+pinned_receipt_commit = args.receipt_commit or actual_head
+if args.receipt_commit and not re.fullmatch(r"[0-9a-f]{40}", args.receipt_commit or ""):
+    fail(f"--receipt-commit is not a 40-char SHA: {args.receipt_commit!r}")
+    pinned_receipt_commit = None
+
+if pinned_receipt_commit and final:
+    if final == pinned_receipt_commit:
+        fail("receipt final head must not equal the receipt commit directly: "
              "the receipt commit itself must sit on top of boot_head_final "
              "as its own single commit (see script docstring)")
     else:
         try:
-            first_parent = git("rev-parse", f"{actual_head}^")
+            first_parent = git("rev-parse", f"{pinned_receipt_commit}^")
         except Exception as e:
-            fail(f"cannot resolve parent of HEAD: {e}")
+            fail(f"cannot resolve parent of receipt commit: {e}")
             first_parent = None
         if first_parent != final:
-            fail(f"receipt final head stale: current HEAD's parent {first_parent} "
+            fail(f"receipt final head stale: receipt commit's parent {first_parent} "
                  f"!= receipt boot_head_final {final} (more than one commit, or an "
-                 f"unrelated commit, lies between the pinned content and current HEAD)")
+                 f"unrelated commit, lies between the pinned content and the receipt commit)")
         else:
             try:
-                receipt_commit_files = git("diff", "--name-only", final, actual_head).splitlines()
+                receipt_commit_files = git("diff", "--name-only", final, pinned_receipt_commit).splitlines()
             except Exception as e:
                 fail(f"cannot diff receipt commit: {e}")
                 receipt_commit_files = None
             if receipt_commit_files != [args.receipt]:
                 fail(f"receipt commit on top of boot_head_final must add ONLY the receipt "
                      f"file itself; found: {receipt_commit_files}")
+        # If a receipt commit was pinned explicitly (rather than defaulted from
+        # actual_head), it must still be a real ancestor-of-or-equal-to actual
+        # current HEAD -- it cannot point at an unrelated or future commit that
+        # merely happens to satisfy the shape check above in isolation.
+        if args.receipt_commit and actual_head and pinned_receipt_commit != actual_head:
+            if not git_ok("merge-base", "--is-ancestor", pinned_receipt_commit, actual_head):
+                fail(f"--receipt-commit {pinned_receipt_commit[:12]} is not an ancestor of "
+                     f"actual current HEAD {actual_head[:12]} (branch moved to an unrelated "
+                     f"state, or the pinned commit is stale/wrong)")
 
 # Branch identity: current branch must equal the manifest's declared branch.
 try:
@@ -259,6 +331,25 @@ if initial and final:
 if actual_head and re.fullmatch(r"[0-9a-f]{40}", actual_head or ""):
     if not git_ok("cat-file", "-e", f"{actual_head}:{args.receipt}"):
         fail(f"receipt not committed at current head: {args.receipt} not found in {actual_head[:12]}")
+
+# receipt_created_utc freshness: the claimed timestamp must be close to the
+# ACTUAL git commit time of the commit that added the receipt
+# (pinned_receipt_commit -- actual_head by default, or the explicitly pinned
+# receipt commit when this runs post-CHECK), not merely well-formed. A
+# receipt copied/reused/fabricated long after (or before) it was actually
+# committed fails here even though the ISO-8601 format check above would
+# have let it through.
+if created and pinned_receipt_commit and re.fullmatch(r"[0-9a-f]{40}", pinned_receipt_commit or ""):
+    try:
+        commit_ts = git("log", "-1", "--format=%cI", pinned_receipt_commit)
+        commit_dt = datetime.fromisoformat(commit_ts)
+        claimed_dt = datetime.fromisoformat(created.replace("Z", "+00:00"))
+        delta = abs((commit_dt - claimed_dt).total_seconds())
+        if delta > RECEIPT_TIMESTAMP_TOLERANCE_SECONDS:
+            fail(f"receipt_created_utc {created} is {delta:.0f}s from actual commit time {commit_ts} "
+                 f"of {pinned_receipt_commit[:12]} (tolerance {RECEIPT_TIMESTAMP_TOLERANCE_SECONDS}s)")
+    except Exception as e:
+        fail(f"cannot verify receipt_created_utc freshness against commit time: {e}")
 
 # Per-file attestation sets must match manifest exactly, and content is
 # fetched from the pinned ref via `git show`, never from the working tree.
