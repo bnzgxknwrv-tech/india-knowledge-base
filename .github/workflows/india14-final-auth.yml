@@ -1,0 +1,17 @@
+name: INDIA14 final authorization
+on:
+  push:
+    branches:
+      - tmp/india14-final-auth-runner
+jobs:
+  authorize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/india8-cluster-casting
+          fetch-depth: 0
+      - name: Run canonical final authorization
+        run: |
+          test "$(git rev-parse HEAD)" = "77ca2fe05e271738bb6b2cdb1d5563eb3d850040"
+          python3 governance/scripts/final_authorization.py INDIA14 ZK6VSGHURI3P J5E04QTWM2O7
