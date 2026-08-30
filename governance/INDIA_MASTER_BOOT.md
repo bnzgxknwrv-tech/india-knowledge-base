@@ -1,7 +1,7 @@
 # INDIA MASTER BOOT — ENIGE OPSTARTINGANG VOOR ALLE INDIA-OPVOLGERS
 
-Status: **BINDING / SINGLE BOOT AUTHORITY — V5 MAP-SAFE HUMAN-CENTERED DECISION SUPPORT**
-Effective: 2026-08-29
+Status: **BINDING / SINGLE BOOT AUTHORITY — V6 CCI-PARITY + CONTINUOUS SUCCESSOR MEMORY**
+Effective: 2026-08-30
 Branch: `agent/india8-cluster-casting`
 Purpose: every INDIA13/14/15/... must inherit at least the same relevant project memory as its predecessor, without Mark rebuilding that memory.
 
@@ -40,7 +40,24 @@ Read IN THIS SESSION and in this order:
 
 Boot is not complete because filenames were mentioned: actually read them.
 
-**The former temporary eleven-file migration-safety read is retired.** `INDIA_CURRENT_KNOWLEDGE_MAP.md` is now `DECISION_LEDGER_BACKFILL_COMPLETE`. Still-valid always-needed knowledge was harvested into the durable layer above; detailed legacy IDs/grades remain conditionally available through the knowledge map.
+## 2A. CCI FULL-REPOSITORY SUCCESSOR-PARITY LAYER — MANDATORY
+
+The 2026-08-29 CCI full-repository harvest inspected 70 refs, 4,192 manifest objects, 2,002 unique tip blobs, 89 recovered deleted/renamed blobs, 218 PR comments and 1,779 commit messages; it materialized 206 knowledge atoms and passed a nine-iteration successor parity test. It found still-valid knowledge that was NOT recoverable from the former central boot alone. Therefore this is no longer optional archaeology.
+
+After the 13 central files above, every fresh INDIA successor MUST read the following CCI files from the immutable completed harvest commit `b5349afe41f98eb4870728aaff2c633899afc1fa` on `agent/cci-full-repo-knowledge-harvest`, in this order:
+
+14. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUCCESSOR_START_HERE.md` — boot routing + parity warnings.
+15. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUPERSEDED_AND_DO_NOT_REVIVE.md` — vocabulary drift, invalidated facts, old route/sleep modules and other anti-revival traps.
+16. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/MARK_CURRENT_CANON_MASTER.md` — reconciled Mark decisions/WHY, including recovered items absent from the former central layer.
+17. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/PROJECT_PHILOSOPHY_AND_SELECTION_MODEL.md` — recovered selection philosophy, AOAY/Top-11, NOT_TO_BE_MISSED, evidence and discovery rules needed to judge NEW findings correctly.
+18. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/OPEN_MARK_DECISIONS_ONLY.md` — genuine open Mark gates plus INDIA-only repairs, conflicts and date-linked opportunities; ALWAYS reconcile against newer central state because the harvest froze against an older central commit.
+19. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/CURRENT_TRAVEL_EXECUTION_CANON.md` — execution/transfer/topology/day-order facts, weak pins and live-recheck boundaries.
+
+The CCI files are **recovery evidence frozen in time, not a higher authority than later central Mark decisions**. Apply §4 precedence. If a CCI frontier/open item has since been closed centrally, the newer central truth wins; the recovered philosophy/WHY/anti-regression knowledge remains valuable unless explicitly superseded.
+
+Reference-only when needed: `KNOWLEDGE_ATOMS.jsonl`, `COVERAGE_MANIFEST.csv`, `HARVEST_REPORT.md`, and `work/NEW_KNOWLEDGE_CANDIDATES.md` on that immutable harvest commit.
+
+**The former temporary eleven-file migration-safety read is retired.** `INDIA_CURRENT_KNOWLEDGE_MAP.md` is now `DECISION_LEDGER_BACKFILL_COMPLETE`. Detailed legacy IDs/grades remain conditionally available through the knowledge map; the CCI parity layer above is additive and mandatory because the parity audit proved the former boot alone still lost material predecessor knowledge.
 
 # 3. WHAT EACH TOP-LAYER FILE OWNS
 Do not blur responsibilities:
@@ -57,6 +74,7 @@ Do not blur responsibilities:
 - `CURRENT_STATE.md` = compact **WHERE THE PROJECT IS / WHAT NEXT**.
 - `INDIA_RECOVERY_DELTAS_CURRENT.md` = reusable **FAILURE TRAPS / ANTI-REGRESSION**.
 - `INDIA_CURRENT_KNOWLEDGE_MAP.md` = **WHAT EXTRA TO READ WHEN TOUCHING A CLUSTER/TOPIC**.
+- CCI successor-parity files = **RECOVERED CROSS-GENERATION MEMORY THAT MUST NOT FALL OUT OF THE BOOT AGAIN**; frozen provenance/reconciliation layer, subordinate to newer explicit Mark/central truth.
 
 Do not make new successor-specific handoff/recovery stacks when one of these living layers can carry the information.
 
@@ -71,7 +89,8 @@ For the same fact/entity:
 6. Mark profile for durable human preferences, never as a site-grade ledger;
 7. conditional protected ID/grade registers where exact detail is needed;
 8. centrally adopted research outputs;
-9. old handoffs/routes/calendars/worker files/PR comments as provenance only.
+9. CCI harvest as frozen reconciliation/recovery evidence where not superseded;
+10. old handoffs/routes/calendars/worker files/PR comments as provenance only.
 
 Research never silently changes a subjective Mark grade. A question/hypothesis is never a decision.
 
@@ -234,13 +253,32 @@ After every new explicit material Mark decision/correction, in the same executio
 
 A decision saved without its important reason is an incomplete memory write.
 
+## 13A. CONTINUOUS SUCCESSOR MEMORY — NOT ONLY MARK DECISIONS
+The replaceability requirement applies to **all materially useful knowledge INDIA learns**, not only explicit Mark choices.
+
+Before every substantive reply and after every material research/reconciliation/execution step, ask:
+`IF THIS CHAT DIES NOW, CAN INDIA(N+1) RECOVER THIS NEW KNOWLEDGE FROM THE MANDATORY BOOT + ITS EXPLICIT KNOWLEDGE-MAP ROUTES WITHOUT MARK OR CHAT HISTORY?`
+
+If NO, write it before replying. Use the existing architecture rather than a private session note:
+- current factual/research truth for a cluster -> exact current cluster/execution artifact;
+- frontier, completed work, next executable action, material current assumptions -> `CURRENT_STATE.md`;
+- durable decision truth -> `CURRENT_DECISIONS_MASTER.md` + `DECISION_LEDGER.jsonl`;
+- durable Mark preference/WHY -> `MARK_TRAVEL_PREFERENCES_CURRENT.md`;
+- reusable failure/anti-revival trap -> `INDIA_RECOVERY_DELTAS_CURRENT.md`;
+- source routing needed by successors -> `INDIA_CURRENT_KNOWLEDGE_MAP.md`;
+- durable behavior/planning rule -> the owning governance standard.
+
+**No material knowledge may live only in chat, a worker branch, an unlinked run file, a PR comment, or INDIA's temporary context.** If it matters for a later decision, route, duration, hotel/base, safety, execution, interpretation, WHY, or anti-regression, it must be either promoted into the living central layer or explicitly routed from the mandatory boot/knowledge map.
+
+Do not bloat `CURRENT_STATE.md` into history: it remains a pointer. Put detail in the exact artifact and make the pointer/routing unambiguous.
+
 # 14. PR #23 / CCI / MAJOR INTEGRATION RULE
 PR #23 is relay/provenance, not automatically current truth.
 Check it:
 - at the start of a major integration/build;
 - immediately before a material central write.
 
-CCI full-repository harvest interim/final reports are additional recovery evidence. Before major synthesis/integration/route-duration conclusions, check `agent/cci-full-repo-knowledge-harvest` for newer knowledge and reconcile any material finding against current Mark authority. Do not wait for COMPLETE when an interim report already contains useful knowledge.
+CCI full-repository harvest interim/final reports are additional recovery evidence. The completed CCI successor-parity package at immutable commit `b5349afe41f98eb4870728aaff2c633899afc1fa` is now mandatory boot input under §2A. Before major synthesis/integration/route-duration conclusions, also check whether the CCI branch has moved beyond that completed checkpoint or whether a newer explicit central reconciliation exists. Do not let frozen CCI frontier text override newer central decisions.
 
 Do not continuously poll PR #23. Reconcile only material new information into central durable truth.
 
@@ -264,8 +302,10 @@ A successor must be able to answer internally, from GitHub, without asking Mark:
 16. Can I identify the decision-critical unknowns and avoid wasting time on low-value uncertainty?
 17. Can I stress-test the proposed day at +30/+60 min and identify the first sacrificial B/A*?
 18. Can I execute the entire current pre-answer veto without a NO, including the ABSOLUTE no-bare-name scan and required 06:00/13:00/18:00 climate snapshot for substantive cluster/day/base presentations?
-19. Did I check current CCI status before a major synthesis/integration?
-20. Do I know that the FINAL COMFORT / FOOD / HUMAN-TEXTURE SWEEP is mandatory before final day cards, and can I build it from the actual hotel/day locations with nearby breakfast, coffee, lunch, dinner and memorable local stops rather than a generic city restaurant list?
+19. Did I read the completed CCI successor-parity package and reconcile its frozen frontier against newer central truth?
+20. Can I name the CCI parity warnings that were missing from the former boot: item-level grade ledger, P0 transfer closures, optional-world topology/event dates, recovered Mark wishes/rules, communication/copy-paste rules and execution sequencing?
+21. Do I know that the FINAL COMFORT / FOOD / HUMAN-TEXTURE SWEEP is mandatory before final day cards, and can I build it from the actual hotel/day locations with nearby breakfast, coffee, lunch, dinner and memorable local stops rather than a generic city restaurant list?
+22. Have I written every material new fact/WHY/research result from this session somewhere INDIA(N+1) is guaranteed to reach through boot or knowledge-map routing?
 
 If a material answer is unclear or contradictory: do not ask Mark to reconstruct it. Read the mapped conditional/history source and reconcile first.
 
@@ -280,6 +320,7 @@ A successor is ready only when it can continue the real frontier without Mark re
 - where the project stopped;
 - what the next genuine Mark-only choice is;
 - how to construct the entire human decision environment before asking him to choose;
-- **and why no decision map or proximity statement may contain a guessed location.**
+- why no decision map or proximity statement may contain a guessed location;
+- **and every material piece of new knowledge learned by the outgoing INDIA that could affect later work.**
 
-The goal is not to read every byte every session. The goal is that GitHub materializes enough durable current truth that INDIA(N+1) starts with the same relevant project memory as INDIA(N), or better.
+The goal is not to read every byte every session. The goal is that GitHub materializes enough durable current truth that INDIA(N+1) starts with the same relevant project memory as INDIA(N), or better. A successor who must ask Mark to reconstruct something materially known by the predecessor is evidence of a memory-system failure and must trigger a durable repair, not another ad-hoc handoff.
