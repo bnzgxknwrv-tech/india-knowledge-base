@@ -33,6 +33,7 @@ Every update must leave these fields current:
 4. `CURRENT_STATE.md` remains the richer cockpit. If this file and `CURRENT_STATE.md` differ materially, that is a memory-system failure: reconcile immediately using newest explicit Mark/current authority.
 5. Never use this checkpoint to override a newer Mark decision, current decision master, decision ledger, or exact current cluster artifact.
 6. A successor must read this file after the mandatory boot/current-state layer and use it as the final crash-recovery pointer.
+7. **ATOMICITY — HARD:** whenever a turn changes both `CURRENT_STATE.md` and this file, commit them together in a single git commit, never as two sequential commits. Two sequential commits leave a real (if narrow) window where a crash between them leaves the two files inconsistent — a single commit is atomic and closes that window entirely. This file is itself ALWAYS-READ in `governance/INDIA_MASTER_BOOT.md` §2 and `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md` §A — it is not reachable only through a `CURRENT_STATE.md` pointer.
 
 ---
 

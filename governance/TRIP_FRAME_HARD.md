@@ -47,3 +47,9 @@ These are NOT immutable and must be rechecked only when they affect a real booki
 - opening/access/weather/safety.
 
 Source provenance: `runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/TRIP_FIXED_FLIGHTS_AND_NIGHTS_2026-08-23.md` plus current Mark profile. This file supersedes the need to recover the hard flight/night frame from any old exact route.
+
+## PROTECTED CANON INTEGRITY ANCHOR
+`governance/scripts/validate_successor_boot.py` checks this exact blob SHA against `PROTECTED_CANON_BASELINE.csv` to detect a silent mutation. This anchor lives here, not in `CURRENT_STATE.md`, precisely because this file is not rewritten every turn — a rewritten narrative file previously destroyed this same anchor the day after it was added.
+
+Current protected blob (`runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv`):
+`a607241caa41637e2167d0f56781bf663f038932`

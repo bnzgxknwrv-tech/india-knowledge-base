@@ -25,6 +25,7 @@ Current master boot V6 requires the central durable core including:
 - `governance/CURRENT_DECISIONS_MASTER.md`;
 - `governance/DECISION_LEDGER.jsonl`;
 - `governance/CURRENT_STATE.md`;
+- `governance/SUCCESSOR_SAFE_STATE.md` — crash-recovery checkpoint; read even if `CURRENT_STATE.md` seems complete, reconcile immediately if they disagree;
 - `governance/INDIA_RECOVERY_DELTAS_CURRENT.md`;
 - this `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md`.
 

@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
-"""Light sanity validator for the INDIA travel knowledge base.
+"""Light sanity validator for the INDIA travel knowledge base — V6 architecture.
 
 Checks only the expensive-to-miss failures:
-- current-state/start files exist;
-- protected canon still matches the SHA recorded in CURRENT_STATE;
+- required boot/state files exist (master boot, current state, safe state, knowledge
+  map, trip frame, collaboration protocol, protected canon);
+- SUCCESSOR_SAFE_STATE.md is actually listed in both ALWAYS-read enumerations, not
+  reachable only via a pointer in another file's prose (2026-08-30 regression, R28);
+- SUCCESSOR_SAFE_STATE.md reports STATUS: SAFE_TO_HANDOFF and UNSAVED_RISK: GEEN;
+- CURRENT_STATE.md does not still claim BACKFILL_NOT_COMPLETE after the backfill closed;
+- protected canon still matches the SHA anchored in TRIP_FRAME_HARD.md;
 - permanent protected IDs 001..081 are still present exactly once;
 - the simplified boot did not accidentally re-activate the old brute-force mechanics.
 
@@ -24,13 +29,20 @@ ROOT = Path(__file__).resolve().parents[2]
 errors: list[str] = []
 
 CURRENT = ROOT / "governance/CURRENT_STATE.md"
+SAFE_STATE = ROOT / "governance/SUCCESSOR_SAFE_STATE.md"
+MASTER_BOOT = ROOT / "governance/INDIA_MASTER_BOOT.md"
+KNOWLEDGE_MAP = ROOT / "governance/INDIA_CURRENT_KNOWLEDGE_MAP.md"
+TRIP_FRAME = ROOT / "governance/TRIP_FRAME_HARD.md"
 CANON_REL = "runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv"
 CANON = ROOT / CANON_REL
 
 required = [
     ROOT / "README.md",
+    MASTER_BOOT,
     CURRENT,
-    ROOT / "governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md",
+    SAFE_STATE,
+    KNOWLEDGE_MAP,
+    TRIP_FRAME,
     ROOT / "governance/CCI_COLLABORATION_PROTOCOL.md",
     CANON,
 ]
@@ -40,12 +52,35 @@ for p in required:
         errors.append(f"missing required file: {p.relative_to(ROOT)}")
 
 current_text = CURRENT.read_text(encoding="utf-8") if CURRENT.is_file() else ""
+safe_state_text = SAFE_STATE.read_text(encoding="utf-8") if SAFE_STATE.is_file() else ""
+master_boot_text = MASTER_BOOT.read_text(encoding="utf-8") if MASTER_BOOT.is_file() else ""
+knowledge_map_text = KNOWLEDGE_MAP.read_text(encoding="utf-8") if KNOWLEDGE_MAP.is_file() else ""
+trip_frame_text = TRIP_FRAME.read_text(encoding="utf-8") if TRIP_FRAME.is_file() else ""
 
-# CURRENT_STATE deliberately carries the expected protected-canon blob so a silent
-# mutation is caught without a separate receipt/registry system.
-m = re.search(r"Current protected blob[^\n]*:\s*\n`([0-9a-f]{40})`", current_text)
+# A mandatory file is only mandatory if it is a listed item in the actual ALWAYS-read
+# enumerations, not merely mentioned in another file's prose (R28: this exact bug
+# shipped for SUCCESSOR_SAFE_STATE.md on the day it was created).
+if "SUCCESSOR_SAFE_STATE.md" not in master_boot_text:
+    errors.append("SUCCESSOR_SAFE_STATE.md is not listed in INDIA_MASTER_BOOT.md's ALWAYS-read enumeration")
+if "SUCCESSOR_SAFE_STATE.md" not in knowledge_map_text:
+    errors.append("SUCCESSOR_SAFE_STATE.md is not listed in INDIA_CURRENT_KNOWLEDGE_MAP.md's ALWAYS section")
+
+# The crash-safe checkpoint must actually be in a handoff-safe state, and must not
+# silently disagree with CURRENT_STATE about basic architecture facts.
+if safe_state_text:
+    if "STATUS: SAFE_TO_HANDOFF" not in safe_state_text:
+        errors.append("SUCCESSOR_SAFE_STATE.md STATUS is not SAFE_TO_HANDOFF")
+    if not re.search(r"UNSAVED_RISK:\s*\nGEEN", safe_state_text):
+        errors.append("SUCCESSOR_SAFE_STATE.md UNSAVED_RISK is not GEEN")
+if "BACKFILL_NOT_COMPLETE" in current_text:
+    errors.append("CURRENT_STATE.md still claims BACKFILL_NOT_COMPLETE, contradicting the completed decision-ledger backfill")
+
+# The protected-canon blob anchor lives in TRIP_FRAME_HARD.md (a file that is not
+# rewritten every turn) rather than CURRENT_STATE.md, which destroyed this same
+# anchor one day after it was first added there.
+m = re.search(r"Current protected blob[^\n]*:\s*\n`([0-9a-f]{40})`", trip_frame_text)
 if not m:
-    errors.append("CURRENT_STATE does not contain the expected protected-canon blob SHA")
+    errors.append("TRIP_FRAME_HARD.md does not contain the expected protected-canon blob SHA")
 else:
     expected = m.group(1)
     try:
@@ -68,10 +103,9 @@ if CANON.is_file():
             errors.append(f"protected permanent ID {eid} occurs {permanent_ids.count(eid)} times; expected 1")
 
 readme = (ROOT / "README.md").read_text(encoding="utf-8") if (ROOT / "README.md").is_file() else ""
-boot = (ROOT / "governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md").read_text(encoding="utf-8") if (ROOT / "governance/INDIA_SUCCESSOR_BOOT_PROTOCOL.md").is_file() else ""
 
 for forbidden in ["GEHELE REPO LEZEN", "byte_weighted_knowledge_pct"]:
-    if forbidden in readme or forbidden in boot:
+    if forbidden in readme or forbidden in master_boot_text:
         errors.append(f"old heavy boot mechanic became active again: {forbidden}")
 
 if errors:

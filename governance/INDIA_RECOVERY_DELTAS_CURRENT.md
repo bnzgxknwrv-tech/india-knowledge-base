@@ -300,4 +300,14 @@ Known examples:
 - Haridwar 14 Jan 2027 Ardh Kumbh/Makar Sankranti signal and YSS Dwarahat 20 Dec 2026 Christmas Long Meditation signal = LIVE_RECHECK_LATER, not route/date locks.
 - item-level grade protection, transfer accounting, Varanasi GEO weakness, Ramakrishna/Sri Aurobindo motivations, joint-photo override, successor-memory rules = STILL VALID unless a later explicit Mark statement says otherwise.
 
+# R28 — A MANDATORY FILE REACHABLE ONLY BY POINTER IS NOT MANDATORY
+`governance/SUCCESSOR_SAFE_STATE.md` (the crash-recovery checkpoint) was added on 2026-08-30 but, at the moment of a CCI review the same day, was reachable only through prose inside `CURRENT_STATE.md` — it was NOT itself a numbered item in `INDIA_MASTER_BOOT.md` §2 or `INDIA_CURRENT_KNOWLEDGE_MAP.md` §A, the two files that claim to list every ALWAYS-read source. A successor following the master boot's own literal numbered list ("Boot is not complete because filenames were mentioned: actually read them") would never open it.
+
+This is the same failure class the 2026-08-28 CCI harvest already found at the whole-boot level (eleven self-declared "the boot" files outside the real list) — recurring here at single-file scale. Repaired same-day: `SUCCESSOR_SAFE_STATE.md` is now an explicit numbered item in both lists.
+
+Hard correction, generalized:
+- a file is not "mandatory" because another mandatory file's prose mentions it; it must be a numbered/listed entry in the actual ALWAYS-read enumeration itself;
+- when adding any new mandatory file, add it to `INDIA_MASTER_BOOT.md` §2 (or §2A) AND `INDIA_CURRENT_KNOWLEDGE_MAP.md` §A in the same change — never one without the other, and never a pointer-only cross-reference as the sole route;
+- also fixed same-day: `SUCCESSOR_SAFE_STATE.md` and `CURRENT_STATE.md` had been written in two sequential commits 48 seconds apart rather than one atomic commit — see `SUCCESSOR_SAFE_STATE.md`'s own UPDATE DISCIPLINE item 7. Whenever both files change in the same turn, commit them together.
+
 END OF CURRENT RECOVERY DELTAS

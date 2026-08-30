@@ -21,6 +21,8 @@ Before reading project truth:
 
 Do not construct one boot from multiple moving branch moments.
 
+If shell/script execution is available, run `python3 governance/scripts/validate_successor_boot.py` and require `INDIA_TRAVEL_BOOT_SANITY: PASS` before substantive advice; a FAIL means repair the exact reported gap first, not proceed around it. If script execution is not available in the current environment, this step is skipped rather than blocking.
+
 # 2. ALWAYS-READ DURABLE MEMORY CORE
 Read IN THIS SESSION and in this order:
 
@@ -35,8 +37,9 @@ Read IN THIS SESSION and in this order:
 9. `governance/CURRENT_DECISIONS_MASTER.md` — **WHAT IS CURRENT NOW**; primary fast `AL BESLIST?` view.
 10. `governance/DECISION_LEDGER.jsonl` — **WHY / PROVENANCE / SUPERSEDES**; durable append-only decision-event memory.
 11. `governance/CURRENT_STATE.md` — compact current frontier, closed footprints and exact next Mark-only action.
-12. `governance/INDIA_RECOVERY_DELTAS_CURRENT.md` — anti-regression traps recovered from INDIA1–12 failures.
-13. `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md` — conditional routing to exact cluster/detail/provenance sources.
+12. `governance/SUCCESSOR_SAFE_STATE.md` — **HARD CRASH-RECOVERY CHECKPOINT, READ EVEN IF `CURRENT_STATE.md` SEEMS COMPLETE.** If the two differ materially, that is itself a memory-system failure: reconcile using newest explicit Mark/current authority before advice.
+13. `governance/INDIA_RECOVERY_DELTAS_CURRENT.md` — anti-regression traps recovered from INDIA1–12 failures.
+14. `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md` — conditional routing to exact cluster/detail/provenance sources.
 
 Boot is not complete because filenames were mentioned: actually read them.
 
@@ -44,14 +47,14 @@ Boot is not complete because filenames were mentioned: actually read them.
 
 The 2026-08-29 CCI full-repository harvest inspected 70 refs, 4,192 manifest objects, 2,002 unique tip blobs, 89 recovered deleted/renamed blobs, 218 PR comments and 1,779 commit messages; it materialized 206 knowledge atoms and passed a nine-iteration successor parity test. It found still-valid knowledge that was NOT recoverable from the former central boot alone. Therefore this is no longer optional archaeology.
 
-After the 13 central files above, every fresh INDIA successor MUST read the following CCI files from the immutable completed harvest commit `b5349afe41f98eb4870728aaff2c633899afc1fa` on `agent/cci-full-repo-knowledge-harvest`, in this order:
+After the 14 central files above, every fresh INDIA successor MUST read the following CCI files from the immutable completed harvest commit `b5349afe41f98eb4870728aaff2c633899afc1fa` on `agent/cci-full-repo-knowledge-harvest`, in this order:
 
-14. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUCCESSOR_START_HERE.md` — boot routing + parity warnings.
-15. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUPERSEDED_AND_DO_NOT_REVIVE.md` — vocabulary drift, invalidated facts, old route/sleep modules and other anti-revival traps.
-16. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/MARK_CURRENT_CANON_MASTER.md` — reconciled Mark decisions/WHY, including recovered items absent from the former central layer.
-17. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/PROJECT_PHILOSOPHY_AND_SELECTION_MODEL.md` — recovered selection philosophy, AOAY/Top-11, NOT_TO_BE_MISSED, evidence and discovery rules needed to judge NEW findings correctly.
-18. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/OPEN_MARK_DECISIONS_ONLY.md` — genuine open Mark gates plus INDIA-only repairs, conflicts and date-linked opportunities; ALWAYS reconcile against newer central state because the harvest froze against an older central commit.
-19. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/CURRENT_TRAVEL_EXECUTION_CANON.md` — execution/transfer/topology/day-order facts, weak pins and live-recheck boundaries.
+15. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUCCESSOR_START_HERE.md` — boot routing + parity warnings.
+16. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUPERSEDED_AND_DO_NOT_REVIVE.md` — vocabulary drift, invalidated facts, old route/sleep modules and other anti-revival traps.
+17. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/MARK_CURRENT_CANON_MASTER.md` — reconciled Mark decisions/WHY, including recovered items absent from the former central layer.
+18. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/PROJECT_PHILOSOPHY_AND_SELECTION_MODEL.md` — recovered selection philosophy, AOAY/Top-11, NOT_TO_BE_MISSED, evidence and discovery rules needed to judge NEW findings correctly.
+19. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/OPEN_MARK_DECISIONS_ONLY.md` — genuine open Mark gates plus INDIA-only repairs, conflicts and date-linked opportunities; ALWAYS reconcile against newer central state because the harvest froze against an older central commit.
+20. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/CURRENT_TRAVEL_EXECUTION_CANON.md` — execution/transfer/topology/day-order facts, weak pins and live-recheck boundaries.
 
 The CCI files are **recovery evidence frozen in time, not a higher authority than later central Mark decisions**. Apply §4 precedence. If a CCI frontier/open item has since been closed centrally, the newer central truth wins; the recovered philosophy/WHY/anti-regression knowledge remains valuable unless explicitly superseded.
 
@@ -72,6 +75,7 @@ Do not blur responsibilities:
 - `CURRENT_DECISIONS_MASTER.md` = materialized **WHAT IS TRUE NOW**.
 - `DECISION_LEDGER.jsonl` = append-only **DECISION EVENTS + WHY + SUPERSEDES**.
 - `CURRENT_STATE.md` = compact **WHERE THE PROJECT IS / WHAT NEXT**.
+- `SUCCESSOR_SAFE_STATE.md` = minimal **CRASH-RECOVERY CHECKPOINT**: survives an abrupt context-cap stop with zero warning; must be updated in the SAME commit as `CURRENT_STATE.md` whenever both change, so the two can never disagree from a partial write.
 - `INDIA_RECOVERY_DELTAS_CURRENT.md` = reusable **FAILURE TRAPS / ANTI-REGRESSION**.
 - `INDIA_CURRENT_KNOWLEDGE_MAP.md` = **WHAT EXTRA TO READ WHEN TOUCHING A CLUSTER/TOPIC**.
 - CCI successor-parity files = **RECOVERED CROSS-GENERATION MEMORY THAT MUST NOT FALL OUT OF THE BOOT AGAIN**; frozen provenance/reconciliation layer, subordinate to newer explicit Mark/central truth.
