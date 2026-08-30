@@ -1,9 +1,10 @@
 # CURRENT STATE — INDIA
 
-state_revision: 2026-08-29_INDIA13_TIRUVANNAMALAI_DURATION_MARK_CHOICE_READY
+state_revision: 2026-08-30_INDIA13_CCI_PARITY_BOOT_INTEGRATED__TIRUVANNAMALAI_DURATION_MARK_CHOICE_READY
 branch: `agent/india8-cluster-casting`
 status: FIXED_CORE_DURATION_CLOSURE_ACTIVE__MARK_ONLY_DURATION_CHOICE
-boot_authority: `governance/INDIA_MASTER_BOOT.md`
+boot_authority: `governance/INDIA_MASTER_BOOT.md` **V6 CCI-PARITY + CONTINUOUS SUCCESSOR MEMORY**
+cci_successor_parity_source: `agent/cci-full-repo-knowledge-harvest@b5349afe41f98eb4870728aaff2c633899afc1fa`
 trip_frame: `governance/TRIP_FRAME_HARD.md`
 current_decisions: `governance/CURRENT_DECISIONS_MASTER.md`
 decision_ledger: `governance/DECISION_LEDGER.jsonl`
@@ -13,6 +14,13 @@ final_comfort_rule: `governance/FINAL_COMFORT_SWEEP_RULE_2026-08-23.md`
 latest_successor_checkpoint: `governance/INDIA12_FINAL_SUCCESSOR_CHECKPOINT_2026-08-29.md`
 train_booking_rule: `governance/INDIA_TRAIN_BOOKING_ROUND_CURRENT.md`
 packing_list: `governance/MARK_INDIA_PACKING_LIST_CURRENT.md`
+
+## SUCCESSOR MEMORY SYSTEM — CCI PARITY REPAIR NOW ACTIVE
+INDIA13 reviewed the completed CCI full-repository harvest. CCI reports 4,192 manifest objects, 2,002 unique tip blobs, 89 recovered deleted/renamed blobs, 218 PR comments, 1,779 commit messages and 206 materialized knowledge atoms, followed by nine successor-parity iterations ending in PASS.
+
+The central master boot now makes the CCI successor-parity package mandatory after the normal central durable core. This repairs the demonstrated problem that a fresh INDIA could execute the former boot correctly yet still miss item-level grades, P0 transfer closures, route/topology facts, recovered Mark WHY/wishes, superseded traps, event-date signals and other cross-generation knowledge.
+
+New hard memory rule: materially useful knowledge learned by INDIA may not remain only in chat, temporary context, an unlinked run file, worker branch or PR comment. Before reply it must be promoted into the appropriate living central file/artifact or be explicitly reachable through mandatory boot/knowledge-map routing. `CURRENT_STATE.md` remains a pointer, not a history dump.
 
 ## CURRENT FRONTIER — TIRUVANNAMALAI / ARUNACHALA
 **OBJECTIVE PREP IS CLOSED ENOUGH FOR THE FIRST GENUINE MARK-ONLY CHOICE:** felt duration / nights for **Tiruvannamalai / Arunachala — Ramana Maharshi sacred mountain/ashram world (Tamil Nadu) [A+ parent]**.
@@ -165,6 +173,14 @@ Side-question protections only:
 - Red House / 4 Church Lane in Prayagraj = B / ONLY_IF_ALREADY_IN_PRAYAGRAJ / ACCESS_CONFIRMED / ZERO INDEPENDENT ROUTE WEIGHT.
 Exact rule: `decisions/NEEM_KAROLI_VRINDAVAN_RED_HOUSE_ROUTE_RULE_2026-08-29.md`.
 
+## CCI RECOVERED SIGNALS — DO NOT LOSE / DO NOT SILENTLY PROMOTE
+The mandatory CCI layer also preserves still-relevant cross-generation signals that were absent from the former boot. They do not override newer central truth and are not automatic route locks, but must be surfaced at the correct planning gate:
+- Haridwar Ardh Kumbh / Makar Sankranti Snan signal on 14 Jan 2027 if/when the Haridwar/Kankhal/Rishikesh optional-world ballot is run; no later westward return may be invented merely for it.
+- YSS Dwarahat Christmas Long Meditation signal on 20 Dec 2026; recheck live once exact Kumaon dates are closed and surface only if the internal sequence can fit naturally.
+- recovered Mark personal wish concerning Sri Aurobindo/Puducherry belongs in the prepared southern/open layer when that layer is legitimately reached; it must not be silently lost, but the current fixed-A+-only duration calculation still excludes optional southern additions.
+- Varanasi Lahiri Mahasaya Samadhi/Satyalok identity split and old Varanasi KML pin-quality repair remain INDIA reconciliation work, not fresh Mark grade questions.
+- P0 Kumaon transfer closures remain required before final detailed day/calendar production; old shortcut values may not be reused by habit.
+
 ## GLOBAL TRAIN BOOKING — LATER MANDATORY ACTION
 Mark explicitly wants all used train journeys later locked/booked once the exact calendar is stable.
 Read:
@@ -195,7 +211,9 @@ Every unfamiliar Indian location name must be recognition-rich on EVERY occurren
 4. Then automatically continue to the next fixed-core closure without asking permission.
 
 ## CCI FULL-REPO HARVEST
-CCI remains complete as reconciliation/archaeology evidence; it does not independently change subjective grades. Useful outputs remain under:
-`runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/`.
+Completed parity package is mandatory boot input at immutable worker commit:
+`agent/cci-full-repo-knowledge-harvest@b5349afe41f98eb4870728aaff2c633899afc1fa`.
+
+Authority rule: newer explicit Mark/central truth wins over the frozen CCI frontier. CCI remains authoritative recovery evidence for predecessor knowledge not later superseded.
 
 END CURRENT STATE
