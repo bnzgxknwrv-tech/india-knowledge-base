@@ -39,10 +39,14 @@
   ],
   "receipt_mode": "append_only_per_session",
   "receipt_directory": "governance/boot_receipts",
+  "receipt_ci_workflow": ".github/workflows/india-boot-receipt.yml",
   "independent_check_required_before_content": true,
   "check_directory": "governance/boot_checks",
   "check_validator_required_mode": "--check",
   "check_nonce_required": true,
+  "check_nonce_source": "prompt_supplied_or_checker_generated_fresh",
+  "check_relay_preferred": "github_pr23_single_batch_each_direction",
+  "check_relay_fallback": "single_copy_paste_batch_each_direction",
   "check_required_challenge_topics": [
     "TRAIN_FIRST_DOOR_TO_DOOR",
     "AL_BESLIST",
@@ -59,6 +63,7 @@
   "check_min_answer_words": 8,
   "check_min_evidence_chars": 25,
   "final_authorization_script": "governance/scripts/final_authorization.py",
+  "final_authorization_ci_workflow": ".github/workflows/india-final-authorization.yml",
   "validator_required_mode": "--require-session-receipt",
   "warnings_are_fatal_in_boot_mode": true
 }
