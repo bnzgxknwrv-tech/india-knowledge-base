@@ -1,0 +1,44 @@
+{
+  "schema_version": "V8",
+  "branch": "agent/india8-cluster-casting",
+  "central_required": [
+    "governance/FRESH_SESSION_BOOT_GATE.md",
+    "governance/INDIA_MASTER_BOOT.md",
+    "governance/INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md",
+    "governance/MARK_TRAVEL_PREFERENCES_CURRENT.md",
+    "governance/MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md",
+    "governance/MAP_COORDINATE_VERIFICATION_RULE.md",
+    "governance/INDIA_HUMAN_CENTERED_COMPLEX_TRIP_PLANNING_STANDARD.md",
+    "governance/FINAL_COMFORT_SWEEP_RULE_2026-08-23.md",
+    "governance/TRIP_FRAME_HARD.md",
+    "governance/CURRENT_DECISIONS_MASTER.md",
+    "governance/DECISION_LEDGER.jsonl",
+    "governance/CURRENT_STATE.md",
+    "governance/SUCCESSOR_SAFE_STATE.md",
+    "governance/INDIA_RECOVERY_DELTAS_CURRENT.md",
+    "governance/INDIA_CURRENT_KNOWLEDGE_MAP.md"
+  ],
+  "cci_commit": "b5349afe41f98eb4870728aaff2c633899afc1fa",
+  "cci_required": [
+    "runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUCCESSOR_START_HERE.md",
+    "runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUPERSEDED_AND_DO_NOT_REVIVE.md",
+    "runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/MARK_CURRENT_CANON_MASTER.md",
+    "runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/PROJECT_PHILOSOPHY_AND_SELECTION_MODEL.md",
+    "runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/OPEN_MARK_DECISIONS_ONLY.md",
+    "runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/CURRENT_TRAVEL_EXECUTION_CANON.md"
+  ],
+  "active_cluster": "TIRUVANNAMALAI_ARUNACHALA",
+  "active_cluster_required": [
+    "runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_PREP_PACKET_2026-08-27.md",
+    "runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_DURATION_DECISION_SURFACE_2026-08-29.md",
+    "runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_4_NIGHT_TRIAL_EXECUTION_PRESENTATION_2026-08-30.md",
+    "runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_SRI_RAMANASRAMAM_STAY_MODEL_2026-08-30.md",
+    "runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_TRANSFER_MODE_CORRECTION_2026-08-30.md",
+    "governance/COORDINATE_INTEGRITY_GATE.md"
+  ],
+  "receipt_mode": "append_only_per_session",
+  "receipt_directory": "governance/boot_receipts",
+  "independent_check_required_before_content": true,
+  "validator_required_mode": "--require-session-receipt",
+  "warnings_are_fatal_in_boot_mode": true
+}
