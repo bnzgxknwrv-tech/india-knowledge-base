@@ -27,8 +27,8 @@ Before ANY substantive India advice, research synthesis, route/duration/hotel/ba
 10. resolve the final central HEAD as `BOOT_HEAD_FINAL`, inspect EVERY commit/file delta from initial to final, and reread any changed mandatory file;
 11. create a NEW append-only session receipt under `governance/boot_receipts/` — never overwrite or inherit another session's receipt;
 12. the session receipt MUST contain the exact INDIA label and the exact nonce supplied in the start prompt;
-13. if executable, run `governance/scripts/validate_successor_boot.py --require-session-receipt <receipt-path>`; default-mode PASS is NOT boot PASS;
-14. an independent second CHECK session must verify the receipt and run semantic challenges;
+13. if executable, run `governance/scripts/validate_successor_boot.py --require-session-receipt <receipt-path> --expected-session <session> --expected-nonce <nonce>` (or the canonical wrapper `governance/scripts/boot_gate.py <session> <nonce>`, which has no structural-only escape hatch); default-mode PASS is NOT boot PASS;
+14. an independent second CHECK session must verify the receipt and run semantic challenges, following `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md`;
 15. substantive work is forbidden until that independent CHECK returns PASS.
 
 ## CANONICAL COUNTS
@@ -68,9 +68,11 @@ The append-only receipt must contain at least three unique verbatim full-sentenc
 2. newest recovery-delta R-item;
 3. one immutable CCI successor-parity source.
 
-Each quote must be a meaningful full sentence, at least 40 characters, unique, from the correct pinned source/ref. One-letter/substrings, duplicate quotes or duplicate source-category tricks FAIL.
+Each quote must be a meaningful full sentence, at least 40 characters, unique, from the correct pinned source/ref. One-letter/substrings, duplicate quotes, duplicate source-category tricks, or a quote correctly sourced but wrongly categorized (e.g. labeling a CCI quote as `current_state_or_safe`) all FAIL — categories cannot be satisfied by relabeling.
 
-The independent CHECK must additionally demand TWO NEW verbatim quotes from two different mandatory files not used in the receipt proof.
+Full-file coverage, not just a quote: each attested read also carries `byte_length` and non-overlapping `read_ranges` that must union to the entire pinned file. A quote alone proves a snippet was seen; the range coverage is the claim that the whole file was read.
+
+The independent CHECK must additionally demand TWO NEW verbatim quotes from two different mandatory files not used in the receipt proof. See `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md` for the full independent-CHECK protocol.
 
 ## ACTIVE-CLUSTER PROOF
 `active_cluster_required` is machine-defined by the manifest. The receipt must enumerate every active-cluster file with blob/ref/read-completion evidence. `cluster loaded` without exact files is FAIL.
