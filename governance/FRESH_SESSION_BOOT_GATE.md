@@ -1,106 +1,118 @@
 # INDIA FRESH-SESSION BOOT GATE
 
-Status: **HARD / PRE-CONTENT / ALL FUTURE INDIA SUCCESSORS**
+Status: **HARD / PRE-CONTENT / ALL FUTURE INDIA SUCCESSORS — V8**
 Effective: 2026-08-30
 Branch: `agent/india8-cluster-casting`
-Purpose: prevent a fresh INDIA session from substituting conversation context, a predecessor summary, model memory, or selective cluster reads for the mandatory GitHub boot.
-
-## FAILURE CLASS THIS GATE CLOSES
-On 2026-08-30 a fresh INDIA session began substantive Tiruvannamalai advice before executing `governance/INDIA_MASTER_BOOT.md` in that session. The repository already contained the hard transport rule `train first when practical`, redundantly in multiple mandatory files, yet the assistant recommended a taxi-heavy flight/road hypothesis because it relied on predecessor/context summary plus selective reads.
-
-This proves that a perfect repository read-list is insufficient if a successor silently skips the read itself.
+Canonical manifest: `governance/BOOT_MANIFEST_V8.json`
 
 ## ABSOLUTE DEFAULT
-Every fresh INDIA chat/session is:
+Every fresh INDIA session starts:
 
 `BOOT_STATUS = UNBOOTED`
 
-regardless of:
-- how much predecessor/chat context is injected;
-- how detailed a handoff/summary is;
-- whether the model says it already knows the project;
-- whether the previous INDIA had completed a valid boot;
-- whether CURRENT_STATE or SUCCESSOR_SAFE_STATE is already visible in model context.
+No predecessor summary, model context, memory, old receipt, CURRENT_STATE excerpt or claim of prior knowledge counts as a current-session boot.
 
-A predecessor summary is navigation help only. It is NEVER proof that the current session executed the boot.
+## FAIL-CLOSED START
+Before ANY substantive India advice, research synthesis, route/duration/hotel/base judgment or Mark-only choice, the session MUST:
 
-## HARD PRE-CONTENT GATE
-Before the first substantive India conclusion, recommendation, route statement, duration statement, hotel/base judgment, Mark-only choice, or travel-research synthesis, the fresh successor MUST:
+1. resolve current central HEAD as `BOOT_HEAD_INITIAL`;
+2. read this gate completely;
+3. read `governance/BOOT_MANIFEST_V8.json` completely;
+4. read every file in `central_required` completely at the pinned snapshot;
+5. read every file in `cci_required` completely at the manifest's immutable `cci_commit`;
+6. read every file in `active_cluster_required` completely;
+7. treat any truncated/partial/tool-limited content read as incomplete until EOF is demonstrably reached;
+8. treat summary/context/pointer-only exposure as `NOT_READ_IN_THIS_SESSION`;
+9. reconcile CCI only as CURRENT/STILL_VALID, LIVE_RECHECK_LATER or SUPERSEDED;
+10. resolve the final central HEAD as `BOOT_HEAD_FINAL`, inspect EVERY commit/file delta from initial to final, and reread any changed mandatory file;
+11. create a NEW append-only session receipt under `governance/boot_receipts/` — never overwrite or inherit another session's receipt;
+12. the session receipt MUST contain the exact INDIA label and the exact nonce supplied in the start prompt;
+13. if executable, run `governance/scripts/validate_successor_boot.py --require-session-receipt <receipt-path>`; default-mode PASS is NOT boot PASS;
+14. an independent second CHECK session must verify the receipt and run semantic challenges;
+15. substantive work is forbidden until that independent CHECK returns PASS.
 
-1. resolve the current central branch HEAD and call it `BOOT_HEAD`;
-2. read `governance/INDIA_MASTER_BOOT.md` completely at that snapshot;
-3. read all 14 central ALWAYS-read files completely in the current session;
-4. read all 6 mandatory immutable CCI successor-parity files completely;
-5. treat any connector/tool truncation as an incomplete read and continue until EOF;
-6. treat any file seen only through a summary, quotation, pointer, predecessor handoff or model context as `NOT_READ_IN_THIS_SESSION`;
-7. reconcile CCI as CURRENT / LIVE_RECHECK_LATER / SUPERSEDED against newer central truth;
-8. read the active cluster/topic package required by `INDIA_CURRENT_KNOWLEDGE_MAP.md` before touching that cluster substantively;
-9. run the master-boot self-test and applicable validator(s);
-10. write/update `governance/BOOT_SESSION_RECEIPT.md` with a session-specific PASS record;
-11. only then set `BOOT_STATUS = BOOTED` and begin substantive work.
+## CANONICAL COUNTS
+Counts come ONLY from `BOOT_MANIFEST_V8.json`.
+Current manifest counts:
+- central mandatory: 15;
+- CCI mandatory: 6;
+- active-cluster mandatory: 6.
 
-## RECEIPT REQUIREMENTS
-`governance/BOOT_SESSION_RECEIPT.md` must contain at minimum:
-- INDIA/session label;
-- exact `BOOT_HEAD`;
-- `CENTRAL_FULL_READS: 15/15`;
-- `CCI_FULL_READS: 6/6`;
-- exact file paths read;
-- blob SHA for each file when available;
-- `TRUNCATED_READS_LEFT_UNFINISHED: GEEN`;
-- `SUMMARY_SUBSTITUTION_USED: NEE`;
-- active cluster/topic gate status;
-- validator status;
-- a control-veto checksum proving that the session surfaced at least these rules:
-  - `TRAIN_FIRST_TRUE_DOOR_TO_DOOR`;
-  - `AL_BESLIST_BEFORE_CHOICE`;
-  - `RECOGNITION_RICH_EVERY_LOCATION_OCCURRENCE`;
-  - `GEO_VERIFIED_FOR_DECISION_OR_NO_GEOMETRY`;
-  - `ACTION_FIRST_NO_DEFERRAL`;
-  - `SAME_TURN_DURABLE_MEMORY`;
-  - `CCI_THREE_WAY_FILTER`;
-  - `SAFE_STATE_UNSAVED_RISK_GEEN`;
-  - `FULL_SOURCE_LAYER_WHEN_REQUESTED`;
-  - `NU_DOEN_EXPLICIT_NEXT_ACTION`;
-- a `PROOF_OF_READ_CHALLENGE` block (see below).
+No prose copy of these lists is authoritative if it disagrees with the manifest.
 
-A receipt saying only `boot complete` is invalid.
+## APPEND-ONLY RECEIPT — REQUIRED FIELDS
+Receipt path format:
+`governance/boot_receipts/INDIA<N>__<NONCE>.json`
 
-## PROOF-OF-READ CHALLENGE — CLOSES THE BLOB-SHA-WITHOUT-CONTENT GAP
-A correct blob SHA proves the session correctly identified the current version of a file. It does NOT prove the session's context window ever held that file's actual text: `git rev-parse <head>:<path>` (or the connector-equivalent metadata call) returns the exact same SHA without reading a single byte of content, and an unchanged file's SHA is identical to the previous session's receipt and can be copied forward.
+Required fields:
+- `india_session` — exact expected INDIA label;
+- `nonce` — exact start-prompt nonce;
+- `boot_head_initial`;
+- `boot_head_final`;
+- `receipt_created_utc`;
+- `manifest_path` + manifest blob SHA;
+- per central/CCI/active-cluster file: path, pinned ref, blob SHA, fetched line/byte ranges where available, total length where available, `eof_reached`, `tool_truncated`;
+- `summary_substitution_used: false`;
+- `unfinished_truncations: 0`;
+- complete branch delta initial→final and reread status for changed mandatory files;
+- semantic proof/challenge material;
+- validator mode/result;
+- `boot_gate: PASS` only after all required checks.
 
-Therefore, before `BOOT_GATE: PASS`, the receipt must also contain a `PROOF_OF_READ_CHALLENGE` block with THREE items, each a **verbatim quote** (not a paraphrase, not a summary) of one full sentence that:
-1. is copied exactly, character-for-character, from `governance/CURRENT_STATE.md` or `governance/SUCCESSOR_SAFE_STATE.md` — content that changes across sessions and cannot be answered from training data or a stale memorized answer;
-2. is copied exactly from `governance/INDIA_RECOVERY_DELTAS_CURRENT.md` — pick the most recently added R-item, not R01;
-3. is copied exactly from one CCI successor-parity file at the immutable harvest commit, naming which file.
+A living `BOOT_SESSION_RECEIPT.md` may remain as a human pointer/index, but is NEVER sufficient proof and is not the authoritative session receipt.
 
-A paraphrase, a description of what the sentence says, or a quote that does not exactly match the source text character-for-character is a `PROOF_OF_READ_CHALLENGE: FAIL` and therefore `BOOT_GATE: FAIL`, regardless of how correct the surrounding receipt looks. This cannot be satisfied by a metadata-only operation; it requires the file's actual text to have been loaded into the session.
+## PROOF-OF-READ
+Blob metadata alone does not prove content was loaded.
+The append-only receipt must contain at least three unique verbatim full-sentence quotes from distinct categories:
+1. CURRENT_STATE or SUCCESSOR_SAFE_STATE;
+2. newest recovery-delta R-item;
+3. one immutable CCI successor-parity source.
 
-## FAIL-CLOSED RULE
-If any required file is not fully read in the current session, or a tool response was truncated and not continued to EOF:
+Each quote must be a meaningful full sentence, at least 40 characters, unique, from the correct pinned source/ref. One-letter/substrings, duplicate quotes or duplicate source-category tricks FAIL.
 
-`BOOT_GATE = FAIL`
+The independent CHECK must additionally demand TWO NEW verbatim quotes from two different mandatory files not used in the receipt proof.
 
-The successor may do only boot/recovery/routing repair. It may not continue substantive trip work.
+## ACTIVE-CLUSTER PROOF
+`active_cluster_required` is machine-defined by the manifest. The receipt must enumerate every active-cluster file with blob/ref/read-completion evidence. `cluster loaded` without exact files is FAIL.
 
-If substantive advice was already given before the gate passed:
-1. mark the affected new conclusions as untrusted/provisional;
-2. execute the full boot;
-3. identify which hard rules could have changed the advice;
-4. repair current durable state if any bad working hypothesis entered GitHub;
-5. record the failure class in the living recovery layer;
-6. only then resume.
+## VALIDATOR RULE
+In boot mode:
+- `--require-session-receipt <path>` is mandatory;
+- warnings are fatal;
+- missing/unverifiable git objects are fatal;
+- stale INDIA label is fatal;
+- wrong/missing nonce is fatal;
+- receipt not bound to the current boot delta is fatal;
+- manifest mismatch is fatal;
+- active cluster mismatch is fatal.
 
-## WHY THIS IS SEPARATE FROM THE MASTER BOOT
-This is deliberately a PRE-CONTENT anti-skip gate. The 2026-08-30 incident showed that adding still more instructions only inside the master boot cannot prevent a successor that never actually executes that boot.
+## SEMANTIC SECOND GATE
+Reading is necessary but not sufficient. The independent CHECK chooses at least six applied challenges AFTER receipt creation, including from:
+- stale receipt;
+- truncation;
+- summary substitution;
+- train-first / true door-to-door;
+- AL BESLIST?;
+- CCI supersede conflict;
+- GEO verified or no geometry;
+- current frontier;
+- action-first/durable memory;
+- recognition-rich naming;
+- human decision surface;
+- same-turn memory write.
 
-Therefore every future INDIA start prompt must explicitly state BOTH:
-- read and execute `governance/INDIA_MASTER_BOOT.md`;
-- do not perform substantive work until `governance/BOOT_SESSION_RECEIPT.md` proves the current session passed this fresh-session gate.
+Any material wrong answer = FAIL.
 
-The second independent boot/parity audit prompt must verify the receipt rather than accepting a verbal claim.
+## PRE-REPLY BEHAVIORAL GATE
+Even after boot PASS, each substantive reply must still apply `INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md`. A correct boot does not prove correct answer-time behavior.
+
+## HARD FAILURE
+If substantive advice is sent before independent BOOT CHECK PASS:
+- that new advice is untrusted;
+- no new travel hypothesis from it may control state;
+- boot/recovery repair only until a new independent PASS exists.
 
 ## HONEST LIMIT
-A GitHub receipt cannot prove a model's internal cognition with mathematical certainty. It makes the process externally auditable and converts a silent skipped boot into a detectable failure. The independent post-start audit remains the second key.
+No GitHub file can mathematically prove internal model attention. V8 therefore does not pretend self-attestation is certainty: it combines machine-verifiable refs/blobs/deltas, append-only nonce-bound receipts, EOF evidence where the tool exposes it, and an independent semantic checker. If current tooling cannot provide the required evidence, the correct result is FAIL — not a weaker self-certified PASS.
 
 END FRESH-SESSION BOOT GATE
