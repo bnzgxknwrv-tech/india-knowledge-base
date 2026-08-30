@@ -1,7 +1,7 @@
 # INDIA RECOVERY DELTAS — CURRENT LIVING ANTI-REGRESSION FILE
 
 Status: **CURRENT / MUST READ AT EVERY SUCCESSOR BOOT**
-Updated: 2026-08-29
+Updated: 2026-08-30
 Branch: `agent/india8-cluster-casting`
 Owner: `governance/INDIA_MASTER_BOOT.md`
 
@@ -231,7 +231,7 @@ Structural correction completed:
 - `governance/DECISION_LEDGER.jsonl` now exists as append-only WHAT+WHY+source+supersedes memory;
 - `governance/CURRENT_DECISIONS_MASTER.md` now exists as the fast current `AL BESLIST?` view;
 - `MARK_TRAVEL_PREFERENCES_CURRENT.md` remains the durable human/vision layer;
-- `INDIA_CURRENT_KNOWLEDGE_MAP.md` now says `DECISION_LEDGER_BACKFILL_COMPLETE`;
+- `INDIA_CURRENT_KNOWLEDGE_MAP.md` says `DECISION_LEDGER_BACKFILL_COMPLETE`;
 - the former eleven-file every-boot migration-safety list is retired;
 - detailed legacy IDs/grade rows are not deleted: they remain conditional anti-forget/provenance sources through the knowledge map;
 - after every future explicit material Mark decision, ledger + current master must be updated in the same execution cycle and the important WHY must be preserved, not only the label.
@@ -257,5 +257,47 @@ Hard correction:
 
 Current known legacy warning:
 - historical PR #23 reported a Varanasi geo layer with only 5 CONFIRMED and 35 PROVISIONAL records, plus a missing safe point and a ~3 km source discrepancy. Those historical pins are provenance, not automatically current routing truth; relevant retained points must be reverified before new/final geometry use.
+
+# R25 — INDIA12 SUCCESSOR-PARITY FAILURE: CENTRAL BOOT ALONE WAS NOT ENOUGH
+Failure exposed by CCI full-repository harvest and then reproduced by INDIA13's first boot:
+- a successor could read the then-current central boot correctly and still miss material current knowledge;
+- CCI needed nine parity iterations before a fresh-successor simulation stopped finding structural gaps;
+- missing layers included item-level grades, transfer-edge closures, optional-world topology/event signals, Mark WHY/preferences, communication rules and execution sequencing;
+- INDIA13 initially reached substantive work too quickly because the completed CCI parity package had not yet been made mandatory in the central boot.
+
+Hard correction from 2026-08-30:
+- `INDIA_MASTER_BOOT.md` V6 makes the completed CCI successor package mandatory after the central durable core;
+- the immutable CCI completion commit is `b5349afe41f98eb4870728aaff2c633899afc1fa`;
+- every successor must filter CCI through newer-central authority rather than treating frozen recovery evidence as current frontier;
+- no future INDIA may declare itself boot-ready merely because it read the central top files; it must also pass the CCI parity layer and the boot self-test.
+
+This is considered a **major predecessor handoff/system failure**, not a minor reading omission. If Mark ever again says a successor knows materially less than its predecessor, treat that as a boot-architecture defect and repair durable routing before continuing.
+
+# R26 — BOOT/MAP DRIFT IS A HARD MEMORY FAILURE
+Failure exposed 2026-08-30 during INDIA13 parity audit:
+- `INDIA_MASTER_BOOT.md` had advanced to a much richer V5/V6 architecture;
+- `INDIA_CURRENT_KNOWLEDGE_MAP.md` still listed an old eight-file always-read layer and still pointed the current frontier back to already-closed Bodh Gaya work;
+- this meant the knowledge map itself could send INDIA14 backward even after the master boot improved.
+
+Hard correction:
+- `INDIA_CURRENT_KNOWLEDGE_MAP.md` V4 is synchronized with master boot and the actual Tiruvannamalai duration frontier;
+- every future master-boot read-list change requires a same-cycle knowledge-map section-A update;
+- every frontier closure requires same-cycle `CURRENT_STATE.md` + knowledge-map frontier/cluster routing update;
+- contradictory boot/map pointers are never resolved by asking Mark; INDIA reconciles them from authority precedence.
+
+# R27 — CCI MUST BE FILTERED, NOT COPIED
+CCI's completed harvest is deliberately frozen against an older central commit. Some atoms remain valuable; some frontier/route statements are now stale.
+
+Three-way filter before adoption:
+1. **CURRENT / STILL VALID** — preserve and route it if no newer Mark/central source supersedes it.
+2. **LIVE_RECHECK_LATER** — preserve the opportunity/risk but revalidate at the stage where it can matter.
+3. **SUPERSEDED** — keep only provenance; never overwrite newer central truth.
+
+Known examples:
+- CCI frozen Bodh Gaya open ballot = SUPERSEDED; cluster later closed.
+- CCI old statement that Maya Heritage was not a lock = SUPERSEDED; Maya Heritage later LOCKED_BY_MARK.
+- CCI frozen Chennai-primary south-gateway hypothesis = SUPERSEDED for the current duration decision by INDIA13's later timing-aware Bengaluru-inbound working hypothesis; exact flights remain live-recheck-later.
+- Haridwar 14 Jan 2027 Ardh Kumbh/Makar Sankranti signal and YSS Dwarahat 20 Dec 2026 Christmas Long Meditation signal = LIVE_RECHECK_LATER, not route/date locks.
+- item-level grade protection, transfer accounting, Varanasi GEO weakness, Ramakrishna/Sri Aurobindo motivations, joint-photo override, successor-memory rules = STILL VALID unless a later explicit Mark statement says otherwise.
 
 END OF CURRENT RECOVERY DELTAS
