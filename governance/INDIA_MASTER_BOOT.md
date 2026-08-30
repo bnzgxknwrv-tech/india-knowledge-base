@@ -1,16 +1,32 @@
 # INDIA MASTER BOOT — ENIGE OPSTARTINGANG VOOR ALLE INDIA-OPVOLGERS
 
-Status: **BINDING / SINGLE BOOT AUTHORITY — V6 CCI-PARITY + CONTINUOUS SUCCESSOR MEMORY**
+Status: **BINDING / SINGLE BOOT AUTHORITY — V7 FRESH-SESSION PROOF + CCI-PARITY + CONTINUOUS SUCCESSOR MEMORY**
 Effective: 2026-08-30
 Branch: `agent/india8-cluster-casting`
-Purpose: every INDIA13/14/15/... must inherit at least the same relevant project memory as its predecessor, without Mark rebuilding that memory.
+Purpose: every INDIA13/14/15/... must inherit at least the same relevant project memory as its predecessor, without Mark rebuilding that memory, and must prove that the CURRENT session actually executed that boot.
 
 ## 0. CANONICAL TINY START PROMPT
 Mark only needs:
 
-`JIJ BENT INDIA<N>. Repo bnzgxknwrv-tech/india-knowledge-base, branch uitsluitend agent/india8-cluster-casting. Lees governance/INDIA_MASTER_BOOT.md VOLLEDIG en voer die boot exact uit vóór inhoudelijk India-werk. Ga daarna zelfstandig verder vanaf de huidige frontier tot de eerstvolgende echte Mark-only beslissing.`
+`JIJ BENT INDIA<N>. Repo bnzgxknwrv-tech/india-knowledge-base, branch uitsluitend agent/india8-cluster-casting. Lees governance/FRESH_SESSION_BOOT_GATE.md VOLLEDIG. Lees daarna governance/INDIA_MASTER_BOOT.md VOLLEDIG en voer die boot exact uit. Werk governance/BOOT_SESSION_RECEIPT.md bij voor DEZE sessie en begin GEEN inhoudelijk India-werk vóór BOOT_GATE=PASS. Ga daarna zelfstandig verder vanaf de huidige frontier tot de eerstvolgende echte Mark-only beslissing.`
 
 Only `<N>` changes. No old README/session-start/handoff may define a different boot.
+
+## 0A. FRESH-SESSION ANTI-SKIP GATE — FAIL CLOSED
+A fresh INDIA chat/session is ALWAYS `UNBOOTED` at start, regardless of predecessor summary, injected model context, remembered facts, visible CURRENT_STATE, or confidence that the project is already known.
+
+This rule exists because on 2026-08-30 a fresh INDIA session skipped the actual boot, relied on predecessor/context summary plus selective cluster reads, and then violated an already-redundant hard transport rule (`train first when practical`). Repository memory was correct; boot execution failed.
+
+Therefore BEFORE any substantive India conclusion/recommendation/research synthesis/route/duration/hotel/base/Mark-only choice:
+1. fully read `governance/FRESH_SESSION_BOOT_GATE.md`;
+2. execute this master boot in the current session;
+3. any truncated tool/file response is INCOMPLETE until continued to EOF;
+4. any file seen only through summary/pointer/predecessor context counts as `NOT_READ_IN_THIS_SESSION`;
+5. after all mandatory central + CCI reads and the active cluster gate, update `governance/BOOT_SESSION_RECEIPT.md` with exact BOOT_HEAD, full-read counts and control-veto checksum;
+6. require `BOOT_GATE: PASS`;
+7. only then may substantive India work begin.
+
+A verbal claim such as `ik ben volledig geboot` is not proof. The GitHub receipt plus the independent audit prompt are the external checks.
 
 # 1. PIN THE BOOT SNAPSHOT FIRST
 Before reading project truth:
@@ -21,40 +37,41 @@ Before reading project truth:
 
 Do not construct one boot from multiple moving branch moments.
 
-If shell/script execution is available, run `python3 governance/scripts/validate_successor_boot.py` and require `INDIA_TRAVEL_BOOT_SANITY: PASS` before substantive advice; a FAIL means repair the exact reported gap first, not proceed around it. If script execution is not available in the current environment, this step is skipped rather than blocking.
+If shell/script execution is available, run `python3 governance/scripts/validate_successor_boot.py` as the structural precheck. After the session receipt is written, run `python3 governance/scripts/validate_successor_boot.py --require-session-receipt` and require `INDIA_TRAVEL_BOOT_SANITY: PASS` before substantive advice. A FAIL means repair the exact reported gap first, not proceed around it. If script execution is unavailable in the current environment, script execution itself may be marked `TOOL_LIMITED`, but the full file reads + receipt + semantic self-test are still mandatory and may NOT be skipped.
 
 # 2. ALWAYS-READ DURABLE MEMORY CORE
 Read IN THIS SESSION and in this order:
 
-1. `governance/INDIA_MASTER_BOOT.md` — this file completely.
-2. `governance/INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md` — **HARD PRE-ANSWER VETO distilled from predecessor rules; read completely and apply before every substantive India reply.**
-3. `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md` — **WHY MARK**: who he is as traveler, spiritual/pacing/taste/communication logic.
-4. `governance/MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md` — **HARD UNIVERSAL USER-FACING NAME + GEOGRAPHIC BURDEN FORMAT**; every India chat, every location.
-5. `governance/MAP_COORDINATE_VERIFICATION_RULE.md` — **HARD MAP/PIN/COORDINATE VETO**: no user-facing decision map, pin, route relationship or proximity conclusion from an unverified/ambiguous geocoder result; unresolved coordinate means NO PIN.
-6. `governance/INDIA_HUMAN_CENTERED_COMPLEX_TRIP_PLANNING_STANDARD.md` — **HARD DECISION-SUPPORT STANDARD**: proximity matrices, marginal burden, `je bent er toch` combinations, displacement, uncertainty/VOI, robustness, human energy, temporal fit and scenario deltas. This is mandatory immediate memory, not optional methodology reading.
-7. `governance/FINAL_COMFORT_SWEEP_RULE_2026-08-23.md` — **HARD END-STAGE FOOD / COFFEE / BREAKFAST / LUNCH / DINNER / HUMAN-TEXTURE RULE** anchored to the actual chosen sleep base and real day corridor; never omit it from final day-card production.
-8. `governance/TRIP_FRAME_HARD.md` — exact booked international flights + 33-India-night envelope.
-9. `governance/CURRENT_DECISIONS_MASTER.md` — **WHAT IS CURRENT NOW**; primary fast `AL BESLIST?` view.
-10. `governance/DECISION_LEDGER.jsonl` — **WHY / PROVENANCE / SUPERSEDES**; durable append-only decision-event memory.
-11. `governance/CURRENT_STATE.md` — compact current frontier, closed footprints and exact next Mark-only action.
-12. `governance/SUCCESSOR_SAFE_STATE.md` — **HARD CRASH-RECOVERY CHECKPOINT, READ EVEN IF `CURRENT_STATE.md` SEEMS COMPLETE.** If the two differ materially, that is itself a memory-system failure: reconcile using newest explicit Mark/current authority before advice.
-13. `governance/INDIA_RECOVERY_DELTAS_CURRENT.md` — anti-regression traps recovered from INDIA1–12 failures.
-14. `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md` — conditional routing to exact cluster/detail/provenance sources.
+1. `governance/FRESH_SESSION_BOOT_GATE.md` — **HARD PRE-CONTENT ANTI-SKIP GATE; conversation/model/predecessor summary never substitutes for this session's boot.**
+2. `governance/INDIA_MASTER_BOOT.md` — this file completely.
+3. `governance/INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md` — **HARD PRE-ANSWER VETO distilled from predecessor rules; read completely and apply before every substantive India reply.**
+4. `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md` — **WHY MARK**: who he is as traveler, spiritual/pacing/taste/communication logic.
+5. `governance/MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md` — **HARD UNIVERSAL USER-FACING NAME + GEOGRAPHIC BURDEN FORMAT**; every India chat, every location.
+6. `governance/MAP_COORDINATE_VERIFICATION_RULE.md` — **HARD MAP/PIN/COORDINATE VETO**: no user-facing decision map, pin, route relationship or proximity conclusion from an unverified/ambiguous geocoder result; unresolved coordinate means NO PIN.
+7. `governance/INDIA_HUMAN_CENTERED_COMPLEX_TRIP_PLANNING_STANDARD.md` — **HARD DECISION-SUPPORT STANDARD**: proximity matrices, marginal burden, `je bent er toch` combinations, displacement, uncertainty/VOI, robustness, human energy, temporal fit and scenario deltas. This is mandatory immediate memory, not optional methodology reading.
+8. `governance/FINAL_COMFORT_SWEEP_RULE_2026-08-23.md` — **HARD END-STAGE FOOD / COFFEE / BREAKFAST / LUNCH / DINNER / HUMAN-TEXTURE RULE** anchored to the actual chosen sleep base and real day corridor; never omit it from final day-card production.
+9. `governance/TRIP_FRAME_HARD.md` — exact booked international flights + 33-India-night envelope.
+10. `governance/CURRENT_DECISIONS_MASTER.md` — **WHAT IS CURRENT NOW**; primary fast `AL BESLIST?` view.
+11. `governance/DECISION_LEDGER.jsonl` — **WHY / PROVENANCE / SUPERSEDES**; durable append-only decision-event memory.
+12. `governance/CURRENT_STATE.md` — compact current frontier, closed footprints and exact next Mark-only action.
+13. `governance/SUCCESSOR_SAFE_STATE.md` — **HARD CRASH-RECOVERY CHECKPOINT, READ EVEN IF `CURRENT_STATE.md` SEEMS COMPLETE.** If the two differ materially, that is itself a memory-system failure: reconcile using newest explicit Mark/current authority before advice.
+14. `governance/INDIA_RECOVERY_DELTAS_CURRENT.md` — anti-regression traps recovered from INDIA1–12 failures.
+15. `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md` — conditional routing to exact cluster/detail/provenance sources.
 
-Boot is not complete because filenames were mentioned: actually read them.
+Boot is not complete because filenames were mentioned: actually read them. `14/14` language from V6 is now obsolete; the central mandatory read count is **15/15**.
 
 ## 2A. CCI FULL-REPOSITORY SUCCESSOR-PARITY LAYER — MANDATORY
 
 The 2026-08-29 CCI full-repository harvest inspected 70 refs, 4,192 manifest objects, 2,002 unique tip blobs, 89 recovered deleted/renamed blobs, 218 PR comments and 1,779 commit messages; it materialized 206 knowledge atoms and passed a nine-iteration successor parity test. It found still-valid knowledge that was NOT recoverable from the former central boot alone. Therefore this is no longer optional archaeology.
 
-After the 14 central files above, every fresh INDIA successor MUST read the following CCI files from the immutable completed harvest commit `b5349afe41f98eb4870728aaff2c633899afc1fa` on `agent/cci-full-repo-knowledge-harvest`, in this order:
+After the 15 central files above, every fresh INDIA successor MUST read the following CCI files from the immutable completed harvest commit `b5349afe41f98eb4870728aaff2c633899afc1fa` on `agent/cci-full-repo-knowledge-harvest`, in this order:
 
-15. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUCCESSOR_START_HERE.md` — boot routing + parity warnings.
-16. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUPERSEDED_AND_DO_NOT_REVIVE.md` — vocabulary drift, invalidated facts, old route/sleep modules and other anti-revival traps.
-17. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/MARK_CURRENT_CANON_MASTER.md` — reconciled Mark decisions/WHY, including recovered items absent from the former central layer.
-18. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/PROJECT_PHILOSOPHY_AND_SELECTION_MODEL.md` — recovered selection philosophy, AOAY/Top-11, NOT_TO_BE_MISSED, evidence and discovery rules needed to judge NEW findings correctly.
-19. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/OPEN_MARK_DECISIONS_ONLY.md` — genuine open Mark gates plus INDIA-only repairs, conflicts and date-linked opportunities; ALWAYS reconcile against newer central state because the harvest froze against an older central commit.
-20. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/CURRENT_TRAVEL_EXECUTION_CANON.md` — execution/transfer/topology/day-order facts, weak pins and live-recheck boundaries.
+16. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUCCESSOR_START_HERE.md` — boot routing + parity warnings.
+17. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUPERSEDED_AND_DO_NOT_REVIVE.md` — vocabulary drift, invalidated facts, old route/sleep modules and other anti-revival traps.
+18. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/MARK_CURRENT_CANON_MASTER.md` — reconciled Mark decisions/WHY, including recovered items absent from the former central layer.
+19. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/PROJECT_PHILOSOPHY_AND_SELECTION_MODEL.md` — recovered selection philosophy, AOAY/Top-11, NOT_TO_BE_MISSED, evidence and discovery rules needed to judge NEW findings correctly.
+20. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/OPEN_MARK_DECISIONS_ONLY.md` — genuine open Mark gates plus INDIA-only repairs, conflicts and date-linked opportunities; ALWAYS reconcile against newer central state because the harvest froze against an older central commit.
+21. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/CURRENT_TRAVEL_EXECUTION_CANON.md` — execution/transfer/topology/day-order facts, weak pins and live-recheck boundaries.
 
 The CCI files are **recovery evidence frozen in time, not a higher authority than later central Mark decisions**. Apply §4 precedence. If a CCI frontier/open item has since been closed centrally, the newer central truth wins; the recovered philosophy/WHY/anti-regression knowledge remains valuable unless explicitly superseded.
 
@@ -62,9 +79,28 @@ Reference-only when needed: `KNOWLEDGE_ATOMS.jsonl`, `COVERAGE_MANIFEST.csv`, `H
 
 **The former temporary eleven-file migration-safety read is retired.** `INDIA_CURRENT_KNOWLEDGE_MAP.md` is now `DECISION_LEDGER_BACKFILL_COMPLETE`. Detailed legacy IDs/grades remain conditionally available through the knowledge map; the CCI parity layer above is additive and mandatory because the parity audit proved the former boot alone still lost material predecessor knowledge.
 
+## 2B. SESSION RECEIPT — MANDATORY OUTPUT, NOT A SUBSTITUTE READ
+After all 21 mandatory reads and BEFORE substantive work, update `governance/BOOT_SESSION_RECEIPT.md` for the CURRENT session.
+
+Minimum PASS fields:
+- session/INDIA label;
+- exact `BOOT_HEAD`;
+- `CENTRAL_FULL_READS: 15/15`;
+- `CCI_FULL_READS: 6/6`;
+- exact paths and blob SHAs where available;
+- `TRUNCATED_READS_LEFT_UNFINISHED: GEEN`;
+- `SUMMARY_SUBSTITUTION_USED: NEE`;
+- active cluster/topic gate status;
+- validator status or explicit `TOOL_LIMITED`;
+- control-veto checksum containing at least TRAIN_FIRST, AL_BESLIST, naming-every-occurrence, GEO verification, action-first, same-turn durable memory, CCI three-way filter, safe-state, full-source-layer, and NU_DOEN.
+
+If any required read is partial/summary-only/unresolved: `BOOT_GATE: FAIL`. Do not start travel content.
+
 # 3. WHAT EACH TOP-LAYER FILE OWNS
 Do not blur responsibilities:
 
+- `FRESH_SESSION_BOOT_GATE.md` = mandatory **WHETHER THIS CHAT IS ALLOWED TO START CONTENT AT ALL**; current-session read proof, not predecessor confidence.
+- `BOOT_SESSION_RECEIPT.md` = auditable **PROOF RECORD OF THE CURRENT SESSION'S BOOT**; written after reads, never a substitute for them.
 - `INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md` = mandatory **HOW INDIA MUST THINK/ACT/PRESENT BEFORE REPLYING**; predecessor behavior rules materialized as one executable veto.
 - `MARK_TRAVEL_PREFERENCES_CURRENT.md` = durable **WHY MARK / HOW HE TRAVELS**.
 - `MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md` = mandatory **HOW EVERY LOCATION IS NAMED + GEOGRAPHIC BURDEN SHOWN**.
@@ -107,7 +143,8 @@ Before substantive advice, duration, route or a choice batch for any world:
 5. build the applicable decision surface from `INDIA_HUMAN_CENTERED_COMPLEX_TRIP_PLANNING_STANDARD.md` — do not ask Mark before geography, marginal burden, natural bundles, displacement and decision-critical uncertainty are visible;
 6. before rendering any map or using a coordinate/proximity claim, execute `MAP_COORDINATE_VERIFICATION_RULE.md`; a name-only geocoder result is not verification;
 7. run the applicable vetoes in `INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md`;
-8. present only genuine OPEN choices.
+8. record active-cluster package completion in `BOOT_SESSION_RECEIPT.md` before the first substantive work in that cluster;
+9. present only genuine OPEN choices.
 
 Changing cluster requires loading that cluster package first.
 
@@ -289,27 +326,28 @@ Do not continuously poll PR #23. Reconcile only material new information into ce
 # 15. BOOT SELF-TEST — BEFORE FIRST SUBSTANTIVE ADVICE
 A successor must be able to answer internally, from GitHub, without asking Mark:
 1. What exact BOOT_HEAD did I read, and did central move during boot?
-2. What are the exact international flight times and why are there 33 India nights?
-3. What do A+, A, A*, B, C mean?
-4. What are the six fixed worlds?
-5. Which cores are DURATION_CLOSED and how are inbound/outbound edges counted?
-6. What is the exact current frontier and its genuine OPEN choices?
-7. Which optional worlds are deferred and which east route family was explicitly skipped?
-8. Which current hotel/ashram/sleep locks materially affect the plan — including Dunagiri primary/Joshi fallback?
-9. What are current Barabar, Braj, Kakrighat, Manikarnika and Rajgir/Brahmakund statuses?
-10. Which exact cluster sources govern the active frontier?
-11. What important WHY explains current decisions/pacing rather than only their labels?
-12. Which facts are live-recheck-later rather than hard current truth?
-13. Can I separate INTRINSIC VALUE, MARGINAL BURDEN, ROBUSTNESS and CONFIDENCE rather than mixing them into one grade?
-14. Before asking Mark about a place, can I show hotel/host/companion km+time, natural `je bent er toch` bundles, whole marginal burden and displacement?
-15. If I show a map, can I prove the exact physical identity and verified coordinate/business-ref/address basis of EVERY pin, identify same-name traps, omit unresolved pins, and distinguish visual orientation from actual road/walk routing evidence?
-16. Can I identify the decision-critical unknowns and avoid wasting time on low-value uncertainty?
-17. Can I stress-test the proposed day at +30/+60 min and identify the first sacrificial B/A*?
-18. Can I execute the entire current pre-answer veto without a NO, including the ABSOLUTE no-bare-name scan and required 06:00/13:00/18:00 climate snapshot for substantive cluster/day/base presentations?
-19. Did I read the completed CCI successor-parity package and reconcile its frozen frontier against newer central truth?
-20. Can I name the CCI parity warnings that were missing from the former boot: item-level grade ledger, P0 transfer closures, optional-world topology/event dates, recovered Mark wishes/rules, communication/copy-paste rules and execution sequencing?
-21. Do I know that the FINAL COMFORT / FOOD / HUMAN-TEXTURE SWEEP is mandatory before final day cards, and can I build it from the actual hotel/day locations with nearby breakfast, coffee, lunch, dinner and memorable local stops rather than a generic city restaurant list?
-22. Have I written every material new fact/WHY/research result from this session somewhere INDIA(N+1) is guaranteed to reach through boot or knowledge-map routing?
+2. Did I actually read all 15 central + 6 CCI mandatory files in THIS session, continue every truncation to EOF, and write a current `BOOT_SESSION_RECEIPT.md` with `BOOT_GATE: PASS`?
+3. What are the exact international flight times and why are there 33 India nights?
+4. What do A+, A, A*, B, C mean?
+5. What are the six fixed worlds?
+6. Which cores are DURATION_CLOSED and how are inbound/outbound edges counted?
+7. What is the exact current frontier and its genuine OPEN choices?
+8. Which optional worlds are deferred and which east route family was explicitly skipped?
+9. Which current hotel/ashram/sleep locks materially affect the plan — including Dunagiri primary/Joshi fallback?
+10. What are current Barabar, Braj, Kakrighat, Manikarnika and Rajgir/Brahmakund statuses?
+11. Which exact cluster sources govern the active frontier?
+12. What important WHY explains current decisions/pacing rather than only their labels?
+13. Which facts are live-recheck-later rather than hard current truth?
+14. Can I separate INTRINSIC VALUE, MARGINAL BURDEN, ROBUSTNESS and CONFIDENCE rather than mixing them into one grade?
+15. Before asking Mark about a place, can I show hotel/host/companion km+time, natural `je bent er toch` bundles, whole marginal burden and displacement?
+16. If I show a map, can I prove the exact physical identity and verified coordinate/business-ref/address basis of EVERY pin, identify same-name traps, omit unresolved pins, and distinguish visual orientation from actual road/walk routing evidence?
+17. Can I identify the decision-critical unknowns and avoid wasting time on low-value uncertainty?
+18. Can I stress-test the proposed day at +30/+60 min and identify the first sacrificial B/A*?
+19. Can I execute the entire current pre-answer veto without a NO, including the ABSOLUTE no-bare-name scan and required 06:00/13:00/18:00 climate snapshot for substantive cluster/day/base presentations?
+20. Did I read the completed CCI successor-parity package and reconcile its frozen frontier against newer central truth?
+21. Can I name the CCI parity warnings that were missing from the former boot: item-level grade ledger, P0 transfer closures, optional-world topology/event dates, recovered Mark wishes/rules, communication/copy-paste rules and execution sequencing?
+22. Do I know that the FINAL COMFORT / FOOD / HUMAN-TEXTURE SWEEP is mandatory before final day cards, and can I build it from the actual hotel/day locations with nearby breakfast, coffee, lunch, dinner and memorable local stops rather than a generic city restaurant list?
+23. Have I written every material new fact/WHY/research result from this session somewhere INDIA(N+1) is guaranteed to reach through boot or knowledge-map routing?
 
 If a material answer is unclear or contradictory: do not ask Mark to reconstruct it. Read the mapped conditional/history source and reconcile first.
 
