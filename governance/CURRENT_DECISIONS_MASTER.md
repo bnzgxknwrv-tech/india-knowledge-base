@@ -1,7 +1,7 @@
 # INDIA CURRENT DECISIONS MASTER — MATERIALIZED CURRENT TRUTH
 
 Status: **CURRENT / ALWAYS READ / DERIVED VIEW**
-Updated: 2026-08-29
+Updated: 2026-08-30
 Branch: `agent/india8-cluster-casting`
 Event/provenance layer: `governance/DECISION_LEDGER.jsonl`
 Human/WHY layer: `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md`
@@ -23,11 +23,14 @@ Purpose: answer `AL BESLIST?` quickly and preserve operative WHAT without recons
 - spiritually open and evidence-critical;
 - Haidakhan Babaji and Mahavatar Babaji claims remain distinct;
 - Arunachala/Ramana is experiential: sitting/meditation/time, not checkbox pacing;
+- **Ramakrishna is one of the greats for Mark and feels underrepresented in the project; Mark wants at least one substantial Ramakrishna place if it fits the final route logically, but this is not a hard detour obligation.**
+- **Sri Aurobindo/Puducherry is a real personal wish/positive candidate, but it becomes actionable only if the later southern/gateway review shows enough total value for the detour; it does not automatically follow from the Arunachala world.**
+- **Anandamayi Ma × Yogananda joint-photo override:** if a physically resolvable place where they are documented together in a photograph lies inside a cluster that Mark includes, it must be explicitly surfaced and treated as `MUST_VISIT_WITHIN_INCLUDED_CLUSTER` unless access/physical resolution makes that impossible; this does not by itself force an excluded macro-region into the route.
 - human texture, local food, workshops/markets and meaningful accommodations can materially improve the journey when naturally integrated;
 - Delhi bounded/quiet; Old Delhi not mandatory merely because famous;
 - relaxed != empty: normally 2, preferably 3 meaningful local-day blocks;
 - meaningful/pleasant walking and walkable sacred-core bases matter;
-- Mark cannot be expected to know Indian geography: **before subjective grading, show km + conservative time from hotel, nearest retained A+/A and logical companion stops; explicitly identify `je bent er toch` bundles and full-day detours.** Proximity may materially change Mark's grade.
+- Mark cannot be expected to know Indian geography: before subjective grading, show km + conservative time from hotel, nearest retained A+/A and logical companion stops; explicitly identify `je bent er toch` bundles and full-day detours. Proximity may materially change Mark's grade.
 - Mark decides content; INDIA does research/GitHub/logistics and continues automatically until a genuine Mark-only choice.
 
 ## 3. GRADE SEMANTICS
@@ -67,6 +70,7 @@ Method:
 - Kakrighat — A* / SKIP_FIRST.
 - Turiya Niwas + Bodh Ashram — C.
 - Dunagiri Retreat = PRIMARY; Joshi Guest House, Kukuchina = FALLBACK_IF_DUNAGIRI_UNAVAILABLE. Do not reopen unless Mark asks or Dunagiri is unavailable/unworkable.
+- Exact item-level protection is broader than this short list; load `A_PLUS_MARK_DECISION_LOG.md` before detailed Kumaon content/day work.
 
 ## 7. VARANASI / SARNATH — DURATION_CLOSED
 - 8 occupied days / 8 nights; includes Bodh Gaya/Gaya -> Varanasi arrival/wind-down + 7 local days; outbound edge excluded.
@@ -74,12 +78,15 @@ Method:
 - Manikarnika Ghat — A+; final content block of day, no hard end; Ratneshwar before it.
 - Bhrigu Karyalaya / Bhadury Sadan, Ramapura-Luxa — A+ LOCKED_BY_MARK because of Swami Kriyananda / Book of Bhrigu motivation; never on Manikarnika day.
 - Delhi Bhrigu backup only if Varanasi fails.
+- Exact A+/A/A*/B/C spine is broader than this short list; load `A_PLUS_MARK_DECISION_LOG.md` before detailed content/day work.
+- Emotional sequencing: connect early in the stay with Lahiri Mahasaya/Kriya + Assi/Ganges orientation; Manikarnika may deliberately come later for acclimatization.
+- Sarnath UNESCO precision: only Chaukhandi Stupa + Archaeological Remains are the two inscribed serial components; museum and modern Mulagandha Kuti Vihara are visit content, not UNESCO components.
 
-## 8. BODH GAYA / GAYA — BALLOT CLOSED, EXECUTION GEOMETRY REBUILT
-Canonical decision artifact:
-`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_OPEN_BATCH_MARK_DECISIONS_2026-08-28.md`
+## 8. BODH GAYA / GAYA — BALLOT CLOSED, EXECUTION + DURATION RULE CLOSED
+Canonical closure:
+`decisions/BODHGAYA_CLUSTER_CLOSURE_MARK_DECISION_2026-08-29.md`
 
-Already decided core:
+Current core:
 - Mahabodhi Temple Complex + Bodhi Tree [UNESCO WH] — A+.
 - Sujata Stupa — A+.
 - Dungeshwari/Mahakala Caves — A+.
@@ -89,39 +96,35 @@ Already decided core:
 - Mangala Gauri Temple — C / DO NOT RE-PRESENT unless Mark explicitly reopens.
 - Jagannath Temple — B.
 - Barabar/Nagarjuni Caves — C / DO NOT RE-PRESENT.
-- other current C items remain protected in the Bodh prep packet.
 
 Former six-item OPEN batch is CLOSED, with 2026-08-29 correction:
-1. **Nalanda Mahavihara — boeddhistische universiteitsruïnes (Nalanda) [C] [UNESCO WH].**
-2. **Brahmakund — heilige warmwaterbronnen/badervaring (Rajgir) [A* / ONLY_IF_NATURAL_CORRIDOR_BYCATCH / SKIP_FIRST].** Newest explicit Mark correction: he does NOT want a dedicated Rajgir excursion; only if the real route naturally passes it. This supersedes the over-simplified earlier `A` lock. Current expected corridor does not naturally pass Rajgir, so it is not in the working Bodh footprint.
-3. **Vishwa Shanti Stupa + Rajgir Ropeway — Peace Pagoda + kabelbaan (Rajgir) [B / ONLY_IF_RAJGIR_ALREADY_HAPPENS].** Sounds fun if already there, but never creates the Rajgir trip. Roughly 3–5 km / ~10–15 min local drive from the hot-spring zone if Rajgir ever survives for another reason.
-4. **Patharkatti/Pattharkatti black-stone craft village — C.**
-5. **Sher Shah Suri Tomb, Sasaram — C.**
-6. **Gaya Tilkut winter food/human micro-experience — A*.** Mark wants to look/taste if naturally nearby; no independent detour/day/night/base.
+1. Nalanda Mahavihara [C] [UNESCO WH].
+2. Brahmakund, Rajgir [A* / ONLY_IF_NATURAL_CORRIDOR_BYCATCH / SKIP_FIRST]. No dedicated Rajgir excursion.
+3. Vishwa Shanti Stupa + Rajgir Ropeway [B / ONLY_IF_RAJGIR_ALREADY_HAPPENS].
+4. Patharkatti/Pattharkatti black-stone craft village [C].
+5. Sher Shah Suri Tomb, Sasaram [C].
+6. Gaya Tilkut winter food/human micro-experience [A*].
 
 Tutla Bhawani = winter-mismatch provenance, not Mark C.
 
-Selected base: **Maya Heritage — LOCKED_BY_MARK**. Practical walk to the usable Mahabodhi visitor approach: roughly 650–900 m / use ~10–15 min walk planning.
+Selected base: **Maya Heritage — LOCKED_BY_MARK**.
 
-Distance-first current geometry:
-- hotel -> Mahabodhi/Bodhi Tree A+: ~0.65–0.9 km / ~10–15 min walk;
-- hotel -> Archaeological Museum B: ~0.4–0.6 km / ~5–10 min walk;
-- hotel -> Great Buddha A: ~0.7–1.0 km class / ~10–15 min walk;
-- hotel -> Tergar B: ~1.7 km / ~20–25 min walk or ~5–10 min auto;
-- hotel/core -> Sujata Stupa A+: ~2–3 km class, use ~10–15 min vehicle until foot/river crossing is live-confirmed;
-- hotel/core -> Dungeshwari/Mahakala Caves A+: official ~12 km from Bodh Gaya; use ~30–40 min vehicle planning;
-- Bodh Gaya -> Rajgir: ~71.5 km one way; use ~1 h 30 min planning each way. Dedicated Rajgir combo would become roughly 7–9 h door-to-door and is therefore excluded under Mark's current corridor-only condition.
+Protected pilgrimage day:
+`Mahabodhi/Bodhi Tree -> WALK -> Sujata milk-rice stupa -> WALK -> Dungeshwari ascetic caves -> TRY ancient stupa ridge -> PREARRANGED CAR RETURN`.
 
-Current logical combination: Dungeshwari A+ -> Sujata A+ -> Mahabodhi/Bodhi Tree A+ as one physical/narrative Buddha story arc; local museum/statue/Tergar are cheap sacred-core additions based on actual proximity.
+Duration rule: 2 hotel nights default if inbound morning arrival creates a real first day; 3 only for late/disrupted inbound or conscious extra sacred-core time; max 3.
 
-Duration consequence: removing the mistaken mandatory Rajgir day makes **2 Bodh Gaya hotel nights the evidence-based default if inbound arrival is early (~08:30–09:00 hotel class)**; max 3 nights per Mark if arrival is later or he wants more unstructured sacred-core time.
+Current inbound rail candidate from Agra: 12988 Ajmer–Sealdah Superfast, Agra Fort 18:45 -> Gaya Junction 07:50, ~13h05, current daily, 1A preferred, LIVE/PROVISIONAL until exact-date recheck.
 
-## 9. TIRUVANNAMALAI / ARUNACHALA — PREPARED, NOT DURATION_CLOSED
+Current outbound rail candidate to Varanasi: 20887 Vande Bharat, Gaya Junction 09:55 -> Varanasi Junction 13:00, ~3h05, current six days/week, LIVE/PROVISIONAL until exact-date recheck.
+
+## 9. TIRUVANNAMALAI / ARUNACHALA — CURRENT MARK-ONLY DURATION FRONTIER
 - Arunachala/Ramana sacred world — A+ parent.
 - A children: Sri Ramanasramam; Virupaksha Cave; Skandashram; Arunachaleswarar/Annamalaiyar Temple; Gurumurtam; Pavalakunru; Giripradakshina/Girivalam 14 km.
 - Mango Tree Cave — B; Pachaiamman Temple — B.
-- desired true ashram sleep #2 = Sri Ramanasramam itself if accepted/available; fallback lodging zone Ramana Nagar/Chengam Road.
+- desired true ashram sleep #2 = Sri Ramanasramam itself if accepted/available; fallback lodging zone immediately around/opposite the ashram.
 - preserve deep sitting/meditation time and Yogananda–Ramana 29 Nov 1935 context.
+- decision surface: 4 nights compact/sensitive; 5 nights robust/balanced and INDIA13 recommendation; 6 nights deliberately deep/very robust.
 
 ## 10. DELHI — PREPARED, NOT DURATION_CLOSED
 - Nirmal Dham, Chhawla — A+.
@@ -137,9 +140,9 @@ Duration consequence: removing the mistaken mandatory Rajgir day makes **2 Bodh 
 
 ## 12. OPTIONAL WORLDS — DEFERRED
 After fixed-core budget only:
-- **Braj / Mathura–Vrindavan–Govardhan — NOT dropped; inclusion unresolved/deferred; NOT A+ by inference.** Existing site grades remain protected. **Neeb/Neem Karoli Baba Ashram + Mahasamadhi Mandir — active ashram containing Neem Karoli Baba's samadhi shrine in Krishna's pilgrimage city (Vrindavan, Uttar Pradesh) [A]** remains a protected site-level A, but Mark explicitly clarified on 2026-08-29 that his train-corridor question must not pollute the route book by promoting the whole optional Braj world. Exact handoff: `decisions/NEEM_KAROLI_VRINDAVAN_RED_HOUSE_ROUTE_RULE_2026-08-29.md`.
-- **Haridwar / Kankhal / Rishikesh.**
-- **Prayagraj — samenvloeiingsstad van Ganges/Yamuna met Sangam/Kumbh-context (Uttar Pradesh), inclusion unresolved/deferred.** If Prayagraj survives for independent reasons, also surface **Red House / 4 Church Lane — Dada en Kamala Mukerjee's historische huis waar Neem Karoli Baba vele winters verbleef, met een echte puja/darshan-shrine rond zijn takhat (Prayagraj, Uttar Pradesh) [B / ONLY_IF_ALREADY_IN_PRAYAGRAJ / ACCESS_CONFIRMED / ZERO INDEPENDENT ROUTE WEIGHT]**. It is a private historic residence with documented shrine/darshan use, not a formal public mandir with guaranteed opening hours. Exact building coordinate remains GEO-unclosed; no pin/distance claim until verified. See `decisions/NEEM_KAROLI_VRINDAVAN_RED_HOUSE_ROUTE_RULE_2026-08-29.md`.
+- Braj / Mathura–Vrindavan–Govardhan — NOT dropped; inclusion unresolved/deferred; NOT A+ by inference. Neeb/Neem Karoli Baba Ashram + Mahasamadhi Mandir in Vrindavan remains protected site-level A; does not promote whole Braj world.
+- Haridwar / Kankhal / Rishikesh — inclusion unresolved/deferred. Anandamayi Ma Samadhi in Kankhal is an existing A and must be named as a major casualty if this optional world is later dropped. Recheck the 14 Jan 2027 Ardh Kumbh/Makar Sankranti signal at that ballot; it is not a route lock.
+- Prayagraj — inclusion unresolved/deferred. Red House / 4 Church Lane remains B / ONLY_IF_ALREADY_IN_PRAYAGRAJ / ACCESS_CONFIRMED / ZERO INDEPENDENT ROUTE WEIGHT. Direct Agra->Gaya overnight means Prayagraj is not route-required.
 
 Hard excluded unless explicit reopen:
 - Ranchi + Kolkata/Hooghly/Serampore/Dakshineswar + Puri/Odisha.
@@ -149,6 +152,9 @@ Hard excluded unless explicit reopen:
 - Haidakhan Babaji and Mahavatar Babaji identity claims stay distinct;
 - YSS Dwarahat significance does not imply YSS overnight;
 - Anandamayi Ma: only a few truly important destinations, not exhaustive collection;
+- **exception: Anandamayi Ma × Yogananda joint-photo locations inside an included cluster are mandatory to surface and presumptively visit if physically resolvable/access feasible; this does not force an excluded macro-region;**
+- Ramakrishna route-logical substantial place is a real Mark wish, not a hard detour;
+- Sri Aurobindo/Puducherry remains a real positive candidate for later south-gateway review, not current fixed-core duration content;
 - meaningful food/human texture stays when naturally integrated;
 - impossible-window discoveries remain provenance, not ballot items.
 
@@ -156,17 +162,23 @@ Hard excluded unless explicit reopen:
 - old V1/V2 exact calendars are PROVENANCE_ONLY; transfers were undercharged;
 - Kumaon internal order: Haidakhan -> Nainital -> Kainchi -> Dwarahat -> Dunagiri/Kukuchina;
 - Bodh Gaya/Gaya + Varanasi form a natural eastern pair;
-- every non-local A/A*/B must be checked against predecessor/current/successor corridor geometry and NET marginal detour before being classified as a separate excursion;
-- every candidate presentation must show enough inter-location km/minutes for Mark to see natural combinations before grading;
-- **Red House / 4 Church Lane — Neem Karoli Baba's historic winter home with devotional shrine in Prayagraj [B] may never be used to create Prayagraj inclusion or a detour; it is capture-only if Prayagraj already survives and live access is confirmed.**
-- **Neeb/Neem Karoli Baba Ashram + Mahasamadhi Mandir — active samadhi shrine in Vrindavan [A] retains its protected site-level A if Braj/Vrindavan naturally survives; this does not promote Braj to A+ or force Braj inclusion.**
-- final south-gateway/live transport facts rechecked at topology/calendar stage.
+- every non-local A/A*/B checked against predecessor/current/successor corridor geometry and NET marginal detour;
+- full human transfer accounting controls; raw drive/train/flight time is never the whole occupied block;
+- Haridwar/Kankhal/Rishikesh, if retained later, belongs before Kumaon rather than after eastern Kumaon;
+- direct Agra->Gaya overnight removes any route necessity for Prayagraj;
+- final south-gateway/live transport facts rechecked at topology/calendar stage. Current timing-aware working hypothesis favors Varanasi -> Bengaluru midday + car inbound to the Arunachala world, with Chennai the natural outbound airport; CCI's older Chennai-primary inbound hypothesis is superseded for current duration planning.
 
 ## 15. LIVE FACTS — RECHECK WHEN MATERIAL
 Visa, train classes/services, flights, hotels/ashram acceptance, openings/access, winter safety, prices and availability are rechecked when they affect actual advice/booking, not every boot.
 
-## 16. FILE / WORKER INTEGRATION RULE
-Worker `COMPLETE` does not equal central adoption. Use actual adoption/reconciliation state. PR #23 is relay/provenance, not automatically current truth.
+Preserved date-linked signals, not locks:
+- Haridwar Ardh Kumbh/Makar Sankranti around 14 Jan 2027 — recheck when optional-world ballot reached.
+- YSS Dwarahat Christmas Long Meditation around 20 Dec 2026 — recheck when exact Kumaon dates are built.
 
-## 17. AFTER EVERY NEW MARK DECISION
-Record WHAT + WHY in durable provenance, materialize current truth here, update exact decision artifact, and update CURRENT_STATE when the frontier changes. Do not make Mark repeat settled choices.
+## 16. FILE / WORKER INTEGRATION RULE
+Worker `COMPLETE` does not equal central adoption. PR #23 is relay/provenance, not automatically current truth. Completed CCI parity package is mandatory recovery input but frozen against an older central commit; filter CURRENT / LIVE_RECHECK_LATER / SUPERSEDED.
+
+## 17. AFTER EVERY MATERIAL EVENT
+For a Mark decision: record WHAT + WHY in durable provenance, materialize current truth here, update exact decision artifact and current state when frontier changes.
+
+For material research/reconciliation/execution knowledge: make it recoverable via the mandatory boot or explicit knowledge-map routing before replying. No material successor knowledge may live only in chat.
