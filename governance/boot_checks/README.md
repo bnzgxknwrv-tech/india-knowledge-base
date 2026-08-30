@@ -42,7 +42,19 @@ the outcome of the >=6 chosen semantic challenges. `<NONCE>` here is the
   topics from the manifest's `check_required_challenge_topics` (train-first/
   door-to-door, `AL_BESLIST`, `C`/do-not-re-present, newer-central-over-CCI,
   GEO veto, current frontier, action-first, durable WHAT+WHY);
-- no challenge with `verdict: FAIL` anywhere.
+- no challenge with `checker_verdict: FAIL` anywhere;
+- **(2026-08-30 fresh re-audit, MUST_FIX 1 — PR #23 comment `5470939825`;
+  see `governance/INDIA_RECOVERY_DELTAS_CURRENT.md` R32)** each challenge's
+  `start_session_answer` and `checker_evidence` are non-trivial: not empty,
+  not a known placeholder/filler string (`"x"`, `"n/a"`, `"tbd"`, a
+  single repeated character, etc.), meeting minimum length/word-count
+  floors (`check_min_answer_chars`/`check_min_answer_words`/
+  `check_min_evidence_chars` in the manifest), not identical to each other,
+  and — for `checker_evidence` — citing a concrete path from the mandatory
+  source set (or the reviewed receipt) that the validator can recognize.
+  Before this, the validator only checked that `answer`/`evidence` were
+  non-empty, which a checker could satisfy by writing `"x"` into all eight
+  fields while self-declaring `PASS` — defeating the point of a second key.
 
 `governance/scripts/final_authorization.py <N> <start nonce> <check nonce>`
 runs this validator together with the receipt validator and is the ONLY
@@ -53,8 +65,29 @@ validator alone ever prints that string.
 `india_session`, `start_nonce`, `check_nonce`, `receipt_path`,
 `boot_head_final`, `receipt_commit` (the SHA of commit R), `new_quotes[]`
 (each `{source, quote}`, >=2, from distinct not-yet-used mandatory sources),
-`challenges[]` (each `{topic, question, answer, evidence, verdict}`, >=6,
-covering all 8 mandatory topics), `check_created_utc`, `check_gate`.
+`challenges[]` (each `{topic, question, start_session_answer,
+checker_evidence, checker_verdict}`, >=6, covering all 8 mandatory topics —
+see "Schema note" below for what each of the three content fields must be
+and who authors it), `check_created_utc`, `check_gate`.
+
+### Schema note — who authors which field (2026-08-30 fresh re-audit repair)
+Each challenge record now separates three roles into three fields, so no
+single party can author both the content under test and its own grade of
+that content:
+- `question` — chosen by the CHECK session, after the receipt already
+  exists (§2.4 of `INDIA14_START_AND_INDEPENDENT_CHECK.md`).
+- `start_session_answer` — the VERBATIM reply relayed back from the
+  ORIGINAL START session (via Mark — see that file's new §2.4a
+  challenge-response round trip). The checker must not author this text
+  itself.
+- `checker_evidence` / `checker_verdict` — the CHECK session's own citation
+  of concrete pinned source material and its PASS/FAIL grading of
+  `start_session_answer` against that material.
+The validator enforces a minimum-substance floor on `start_session_answer`
+and `checker_evidence` (length, word count, no known placeholder pattern,
+the two fields not identical, `checker_evidence` naming a real mandatory/
+receipt path) — see HONEST LIMIT below for exactly what that floor does and
+does not prove.
 
 ## HONEST LIMIT — read this before treating anything here as strong proof
 **This is not cryptographic identity proof of anything.** In particular:
@@ -73,6 +106,20 @@ covering all 8 mandatory topics), `check_created_utc`, `check_gate`.
   a formal security guarantee. It does NOT prove the challenge *content* was
   reasoned about fresh rather than pre-written to a known answer key — that
   remains the residual, irreducible limit.
+- **`start_session_answer` is a file/git architecture's best honest
+  approximation of a live challenge-response round trip, not the real
+  thing.** This repository has no live channel through which the CHECK
+  session can interrogate the START session directly; the actual mechanism
+  is Mark manually relaying the question to the START session and pasting
+  its exact reply back (§2.4a of `INDIA14_START_AND_INDEPENDENT_CHECK.md`).
+  Nothing here can cryptographically verify that relay happened faithfully,
+  that Mark did not paraphrase or shorten the reply, or that the "START
+  session" queried is in fact the genuine original session rather than a
+  fresh one asked to reconstruct an answer. The anti-triviality checks
+  (length/word-count/placeholder/citation) are a FLOOR against a checker
+  self-authoring trivial content for both sides of the record — they raise
+  the cost of gaming the gate, they do not make gaming it impossible, and
+  they say nothing about travel-domain correctness.
 - Nothing here can force a model to actually run this second CHECK before
   producing content — see the honest limit already documented in
   `governance/INDIA_MASTER_BOOT.md` §1A: enforcement of "run the gate before

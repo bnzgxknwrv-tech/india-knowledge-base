@@ -19,58 +19,58 @@
     {
       "topic": "TRAIN_FIRST_DOOR_TO_DOOR",
       "question": "Given a Varanasi->Tiruvannamalai transfer scenario, is a taxi-heavy plan correct by default?",
-      "answer": "No \u2014 train/rail-first with true door-to-door benefit test governs; a taxi/flight default without that test is the exact violation R29/CURRENT_STATE.md name.",
-      "evidence": "governance/CURRENT_STATE.md TRAVEL FRONTIER section; governance/INDIA_RECOVERY_DELTAS_CURRENT.md R29.",
-      "verdict": "PASS"
+      "start_session_answer": "No — train/rail-first with true door-to-door benefit test governs; a taxi/flight default without that test is the exact violation R29/CURRENT_STATE.md name.",
+      "checker_evidence": "governance/CURRENT_STATE.md TRAVEL FRONTIER section; governance/INDIA_RECOVERY_DELTAS_CURRENT.md R29.",
+      "checker_verdict": "PASS"
     },
     {
       "topic": "AL_BESLIST",
       "question": "If presented with the Bodh Gaya Maya Heritage hotel as an open choice, is that correct?",
-      "answer": "No \u2014 CURRENT_STATE.md records Maya Heritage as LOCKED_BY_MARK; it must not be re-presented as open.",
-      "evidence": "governance/CURRENT_STATE.md FIXED-CORE STATUS section.",
-      "verdict": "PASS"
+      "start_session_answer": "No — CURRENT_STATE.md records Maya Heritage as LOCKED_BY_MARK; it must not be re-presented as open.",
+      "checker_evidence": "governance/CURRENT_STATE.md FIXED-CORE STATUS section.",
+      "checker_verdict": "PASS"
     },
     {
       "topic": "C_DO_NOT_RE_PRESENT",
       "question": "May a current-trip C-grade (reject) item be shown again as a live option without Mark reopening it?",
-      "answer": "No \u2014 INDIA_MASTER_BOOT.md section 7/6 requires a C item stay absent unless Mark explicitly reopens it.",
-      "evidence": "governance/INDIA_MASTER_BOOT.md section 6 (AL BESLIST?) and section 7 (grade semantics).",
-      "verdict": "PASS"
+      "start_session_answer": "No — INDIA_MASTER_BOOT.md section 7/6 requires a C item stay absent unless Mark explicitly reopens it.",
+      "checker_evidence": "governance/INDIA_MASTER_BOOT.md section 6 (AL BESLIST?) and section 7 (grade semantics).",
+      "checker_verdict": "PASS"
     },
     {
       "topic": "NEWER_CENTRAL_OVER_CCI",
       "question": "If the CCI harvest's frozen frontier text conflicts with a newer central CURRENT_STATE.md fact, which wins?",
-      "answer": "The newer central fact wins; CCI is frozen recovery/reconciliation evidence, not a time machine.",
-      "evidence": "governance/INDIA_MASTER_BOOT.md section 4 AUTHORITY PRECEDENCE and section 2A.",
-      "verdict": "PASS"
+      "start_session_answer": "The newer central fact wins; CCI is frozen recovery/reconciliation evidence, not a time machine.",
+      "checker_evidence": "governance/INDIA_MASTER_BOOT.md section 4 AUTHORITY PRECEDENCE and section 2A.",
+      "checker_verdict": "PASS"
     },
     {
       "topic": "GEO_VETO",
       "question": "May a decision map pin be rendered for an unresolved/ambiguous location?",
-      "answer": "No \u2014 MAP_COORDINATE_VERIFICATION_RULE.md requires NO PIN / NO GEOMETRY CONCLUSION when the physical location is not sufficiently verified.",
-      "evidence": "governance/MAP_COORDINATE_VERIFICATION_RULE.md CORE RULE section.",
-      "verdict": "PASS"
+      "start_session_answer": "No — MAP_COORDINATE_VERIFICATION_RULE.md requires NO PIN / NO GEOMETRY CONCLUSION when the physical location is not sufficiently verified.",
+      "checker_evidence": "governance/MAP_COORDINATE_VERIFICATION_RULE.md CORE RULE section.",
+      "checker_verdict": "PASS"
     },
     {
       "topic": "CURRENT_FRONTIER",
       "question": "What is the exact current operational frontier per CURRENT_STATE.md at boot_head_final?",
-      "answer": "V8 finalization (PR #28) merged at 366328029b6bb7b7b0ab36f6683e7086bf4ff33d; this Work-audit MUST_FIX repair is the current system-level frontier, travel frontier held pending fresh re-audit.",
-      "evidence": "governance/CURRENT_STATE.md state_revision/status lines and EXACT NEXT EXECUTION section.",
-      "verdict": "PASS"
+      "start_session_answer": "V8 finalization (PR #28) merged at 366328029b6bb7b7b0ab36f6683e7086bf4ff33d; this Work-audit MUST_FIX repair is the current system-level frontier, travel frontier held pending fresh re-audit.",
+      "checker_evidence": "governance/CURRENT_STATE.md state_revision/status lines and EXACT NEXT EXECUTION section.",
+      "checker_verdict": "PASS"
     },
     {
       "topic": "ACTION_FIRST",
       "question": "Does the receipt/session output contain forbidden deferral phrasing such as 'ik ga onderzoeken' or 'wil je dat ik verderga?'",
-      "answer": "No such phrasing appears in the receipt or governance edits reviewed for this CHECK.",
-      "evidence": "Manual scan of governance/INDIA_MASTER_BOOT.md section 12 ACTION-FIRST veto and the reviewed diff.",
-      "verdict": "PASS"
+      "start_session_answer": "No such phrasing appears in the receipt or governance edits reviewed for this CHECK.",
+      "checker_evidence": "Manual scan of governance/INDIA_MASTER_BOOT.md section 12 ACTION-FIRST veto and the reviewed diff.",
+      "checker_verdict": "PASS"
     },
     {
       "topic": "DURABLE_WHAT_WHY",
       "question": "If this chat died now, where would the new knowledge from this repair (R31, the new validators) durably live for INDIA(N+1)?",
-      "answer": "governance/INDIA_RECOVERY_DELTAS_CURRENT.md R31 (WHAT+WHY), governance/CURRENT_STATE.md and governance/SUCCESSOR_SAFE_STATE.md (frontier/next-step), governance/BOOT_MANIFEST_V8.json + the new scripts (mechanism) \u2014 all GitHub-routable, not only this conversation.",
-      "evidence": "governance/INDIA_RECOVERY_DELTAS_CURRENT.md R31 section; governance/SUCCESSOR_SAFE_STATE.md CONTROLLING_ARTIFACTS list.",
-      "verdict": "PASS"
+      "start_session_answer": "governance/INDIA_RECOVERY_DELTAS_CURRENT.md R31 (WHAT+WHY), governance/CURRENT_STATE.md and governance/SUCCESSOR_SAFE_STATE.md (frontier/next-step), governance/BOOT_MANIFEST_V8.json + the new scripts (mechanism) — all GitHub-routable, not only this conversation.",
+      "checker_evidence": "governance/INDIA_RECOVERY_DELTAS_CURRENT.md R31 section; governance/SUCCESSOR_SAFE_STATE.md CONTROLLING_ARTIFACTS list.",
+      "checker_verdict": "PASS"
     }
   ],
   "check_created_utc": "2026-08-30T18:21:00Z",

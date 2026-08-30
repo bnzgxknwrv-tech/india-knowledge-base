@@ -10,18 +10,46 @@ verbatim quotes from sources not already used in the receipt, and recorded
 at least the mandatory set of semantic challenges. A stale, copied, or
 self-declared CHECK could otherwise be treated as content authorization.
 
+CONTENT-SUBSTANCE HARDENING (2026-08-30 FRESH RE-AUDIT, PR #23 comment
+5470939825, MUST_FIX 1): the first version of this script only checked that
+each challenge's `answer`/`evidence` fields were non-empty -- an auditor
+demonstrated that replacing all eight with the literal string "x" (valid
+topics/questions/verdicts, valid C->R->K git shape otherwise intact) still
+produced exit 0 / CONTENT_AUTHORIZATION: GRANTED. Two changes close that:
+  1. Schema split: each challenge now records `start_session_answer` (the
+     verbatim reply relayed back from the ORIGINAL START session, via Mark
+     -- see governance/INDIA14_START_AND_INDEPENDENT_CHECK.md section 2.4a)
+     separately from `checker_evidence` (the CHECK session's own citation of
+     concrete pinned source material) and `checker_verdict`. A checker can
+     no longer author both the "answer" and its own grading of that answer
+     as one self-authored field.
+  2. Anti-triviality floor: both fields are rejected if empty, a known
+     placeholder/filler string, too short, too few words, identical to each
+     other, or -- for checker_evidence -- lacking a concrete citation of a
+     real governance/ or runs/ file path drawn from the mandatory source set
+     or the reviewed receipt.
+This is explicitly a FLOOR, not a complete solution -- see HONEST LIMIT
+below and governance/boot_checks/README.md: nothing here cryptographically
+proves start_session_answer was actually relayed verbatim from a genuinely
+separate session rather than authored by the checker itself. It does,
+however, close the concrete demonstrated bypass: a checker can no longer
+get to GRANTED by self-authoring eight trivial one-character non-answers.
+
 This script validates ONE check artifact against ONE receipt artifact and
 the live git state. It does NOT re-validate the receipt itself (that is
 validate_successor_boot.py's job) -- governance/scripts/final_authorization.py
 runs both and is the ONLY place that may print CONTENT_AUTHORIZATION: GRANTED.
 
 HONEST LIMIT: same as validate_successor_boot.py -- this proves machine-
-checkable facts (paths, git shape, verbatim quotes, non-empty structured
-challenge records) only. It cannot prove the challenge answers are actually
-correct in a travel-domain sense, nor that the "CHECK" session is a
-genuinely different reasoning process from the START session. See
-governance/boot_checks/README.md and governance/INDIA14_START_AND_INDEPENDENT_CHECK.md
-section 2.6/HONEST LIMIT for that residual, irreducible limit.
+checkable facts (paths, git shape, verbatim quotes, minimum-substance and
+source-citation checks on structured challenge records) only. It cannot
+prove the challenge answers are actually correct in a travel-domain sense,
+that start_session_answer was genuinely relayed verbatim from the real
+START session rather than authored by the checker, nor that the "CHECK"
+session is a genuinely different reasoning process from the START session.
+See governance/boot_checks/README.md and
+governance/INDIA14_START_AND_INDEPENDENT_CHECK.md section 2.6/HONEST LIMIT
+for that residual, irreducible limit.
 
 RECEIPT/CHECK COMMIT SHAPE: three commits in a chain --
   C (content, hash = boot_head_final)
@@ -44,6 +72,54 @@ MANIFEST = ROOT / "governance/BOOT_MANIFEST_V8.json"
 SESSION_RE = re.compile(r"^(INDIA[0-9]+|TEST_FIXTURE_[A-Z0-9_]+)$")
 NONCE_RE = re.compile(r"^[A-Z0-9]{6,32}$")
 CHECK_TIMESTAMP_TOLERANCE_SECONDS = 6 * 3600
+
+# ---------------------------------------------------------------------------
+# Anti-triviality floor for start_session_answer / checker_evidence (Work
+# audit 2026-08-30 fresh re-audit, MUST_FIX 1 -- see module docstring). This
+# is a FLOOR against self-authored placeholder text, not proof of substance:
+# it cannot verify travel-domain correctness or that an answer was actually
+# relayed from a separate session. It can and does reject the concrete
+# demonstrated bypass (all fields replaced by "x" or similar filler).
+# ---------------------------------------------------------------------------
+_BANNED_TRIVIAL_NORMALIZED = {
+    "x", "xx", "xxx", "xxxx", "na", "none", "null", "tbd", "todo", "wip",
+    "placeholder", "test", "testing", "asdf", "answer", "evidence", "yes",
+    "no", "pass", "fail", "ok", "okay", "correct", "wrong", "true", "false",
+    "seenote", "asabove", "samasanswer", "n a",
+}
+SOURCE_PATH_RE = re.compile(
+    r"(?:governance|runs)/[A-Za-z0-9_\-./]+\.(?:md|json|jsonl)"
+)
+
+
+def _normalize(text: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", (text or "").lower())
+
+
+def is_trivial_text(text: str) -> bool:
+    """True if `text` is empty, whitespace-only, a known placeholder/filler
+    string (after stripping punctuation/case), or made of a single repeated
+    character (e.g. "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")."""
+    t = (text or "").strip()
+    if not t:
+        return True
+    norm = _normalize(t)
+    if not norm:
+        return True
+    if norm in _BANNED_TRIVIAL_NORMALIZED:
+        return True
+    if len(set(norm)) <= 1:
+        return True
+    return False
+
+
+def cited_mandatory_paths(text: str, mandatory: set[str], extra: set[str]) -> set[str]:
+    """Paths in `text` that look like a real repo source path AND are
+    actually in the mandatory source set (or `extra`, e.g. the reviewed
+    receipt path) -- i.e. a concrete, checkable citation, not just any
+    path-shaped substring."""
+    found = {m.group(0) for m in SOURCE_PATH_RE.finditer(text or "")}
+    return found & (mandatory | extra)
 
 p = argparse.ArgumentParser()
 p.add_argument("--check", required=True,
@@ -94,6 +170,9 @@ manifest_branch = manifest.get("branch", "")
 required_topics = set(manifest.get("check_required_challenge_topics", []))
 min_new_quotes = manifest.get("check_min_new_quotes", 2)
 min_challenges = manifest.get("check_min_challenges", 6)
+min_answer_chars = manifest.get("check_min_answer_chars", 40)
+min_answer_words = manifest.get("check_min_answer_words", 8)
+min_evidence_chars = manifest.get("check_min_evidence_chars", 25)
 check_dir = manifest.get("check_directory", "governance/boot_checks")
 
 if not required_topics:
@@ -363,6 +442,23 @@ if len({nq.get("source") for nq in new_quotes if isinstance(nq, dict)}) < min_ne
 # ---------------------------------------------------------------------------
 # Semantic challenges: >= min_challenges, structured, unique, covering the
 # full mandatory veto topic set, with NO material FAIL verdict anywhere.
+#
+# Each challenge splits the old single self-authored `answer`/`evidence`
+# pair into two independently-sourced fields (Work audit fresh re-audit,
+# MUST_FIX 1 -- see module docstring):
+#   - start_session_answer: the verbatim reply relayed back from the
+#     ORIGINAL START session (via Mark -- see
+#     INDIA14_START_AND_INDEPENDENT_CHECK.md section 2.4a). This is the
+#     content actually being tested; the checker must not author it.
+#   - checker_evidence: the CHECK session's own citation of concrete pinned
+#     source material used to grade start_session_answer -- must name a
+#     real mandatory (or receipt) file path, not just assert a verdict.
+#   - checker_verdict: the checker's PASS/FAIL judgment, unchanged in kind
+#     from the old `verdict` field but now clearly scoped as the checker's
+#     own grading of a separately-sourced answer, not of its own text.
+# Both text fields are rejected if empty, a known placeholder/filler string,
+# too short, too few words, or identical to each other -- an anti-triviality
+# FLOOR, not proof of substance (see HONEST LIMIT in the module docstring).
 # ---------------------------------------------------------------------------
 challenges = check.get("challenges", [])
 if not isinstance(challenges, list) or len(challenges) < min_challenges:
@@ -378,20 +474,37 @@ for ch in challenges:
         continue
     topic = ch.get("topic", "")
     question = ch.get("question", "")
-    answer = ch.get("answer", "")
-    evidence = ch.get("evidence", "")
-    verdict = ch.get("verdict", "")
+    answer = ch.get("start_session_answer", "")
+    evidence = ch.get("checker_evidence", "")
+    verdict = ch.get("checker_verdict", "")
 
     if not topic:
         fail("challenge missing topic")
     if not question or len(question) < 10:
         fail(f"challenge question missing/too short: topic={topic}")
-    if not answer:
-        fail(f"challenge answer missing: topic={topic}")
-    if not evidence:
-        fail(f"challenge evidence missing: topic={topic}")
+
+    if is_trivial_text(answer):
+        fail(f"challenge start_session_answer missing, empty, or a placeholder/filler "
+             f"string (must be the ORIGINAL START session's verbatim relayed reply): topic={topic}")
+    elif len(answer.strip()) < min_answer_chars:
+        fail(f"challenge start_session_answer too short (<{min_answer_chars} chars): topic={topic}")
+    elif len(answer.strip().split()) < min_answer_words:
+        fail(f"challenge start_session_answer too few words (<{min_answer_words}): topic={topic}")
+
+    if is_trivial_text(evidence):
+        fail(f"challenge checker_evidence missing, empty, or a placeholder/filler string: topic={topic}")
+    elif len(evidence.strip()) < min_evidence_chars:
+        fail(f"challenge checker_evidence too short (<{min_evidence_chars} chars): topic={topic}")
+    elif not cited_mandatory_paths(evidence, mandatory_sources, {args.receipt}):
+        fail(f"challenge checker_evidence does not cite a concrete mandatory source path "
+             f"(governance/... or runs/...) or the reviewed receipt path: topic={topic}")
+
+    if (answer or "").strip() and (evidence or "").strip() and answer.strip() == evidence.strip():
+        fail(f"challenge start_session_answer and checker_evidence must not be identical "
+             f"(the checker's own citation cannot double as the answer being graded): topic={topic}")
+
     if verdict not in ("PASS", "FAIL"):
-        fail(f"challenge verdict must be PASS or FAIL, got {verdict!r}: topic={topic}")
+        fail(f"challenge checker_verdict must be PASS or FAIL, got {verdict!r}: topic={topic}")
     if verdict == "FAIL":
         any_fail_verdict = True
 

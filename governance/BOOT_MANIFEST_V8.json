@@ -55,6 +55,9 @@
   ],
   "check_min_new_quotes": 2,
   "check_min_challenges": 6,
+  "check_min_answer_chars": 40,
+  "check_min_answer_words": 8,
+  "check_min_evidence_chars": 25,
   "final_authorization_script": "governance/scripts/final_authorization.py",
   "validator_required_mode": "--require-session-receipt",
   "warnings_are_fatal_in_boot_mode": true
