@@ -1,6 +1,6 @@
 # CURRENT STATE — INDIA
 
-state_revision: 2026-08-31_V8_1_SUCCESSOR_BOOT_STREAMLINED__INDIA14_AUTHORIZED__TAJ_YOGANANDA_CUE__TRAVEL_FRONTIER_RAIL_FIRST
+state_revision: 2026-08-31_V8_1_SUCCESSOR_BOOT_STREAMLINED__INDIA14_AUTHORIZED__AGRA_TAJ_ONLY_LOCK__TRAVEL_FRONTIER_RAIL_FIRST
 branch: `agent/india8-cluster-casting`
 status: INDIA14_CONTENT_AUTHORIZED__SUCCESSOR_BOOT_V8_1_STREAMLINED__NO_OPEN_BOOT_ARCHITECTURE_TASK
 boot_authority: `governance/INDIA_MASTER_BOOT.md` + `governance/FRESH_SESSION_BOOT_GATE.md` + `governance/BOOT_MANIFEST_V8.json`
@@ -36,13 +36,13 @@ A real GitHub Actions structural test against the post-streamlining central stat
 
 This streamlining changes no A+/A/A*/B/C grade, hotel/base choice, route choice, duration decision or optional-world decision.
 
-## FIXED-CORE STATUS — UNCHANGED
+## FIXED-CORE STATUS — CURRENT
 - KUMAON: DURATION_CLOSED — 9 occupied days / 9 nights through final Dunagiri night; eastern exit separate.
 - VARANASI / SARNATH: DURATION_CLOSED — 8 occupied days / 8 nights including inbound arrival/wind-down; outbound edge separate.
 - BODH GAYA / GAYA: content/execution/duration rule closed; Maya Heritage LOCKED_BY_MARK; 2 hotel nights default if early inbound, 3 only late/disrupted/consciously deeper, max 3.
 - TIRUVANNAMALAI / ARUNACHALA: no duration locked. Five nights remains the current clean local-content recommendation, but inter-core edges must be rebuilt rail-first before 4/5/6 nights is decision-ready.
 - DELHI: prepared, not duration-closed.
-- AGRA / TAJ: prepared, not duration-closed.
+- AGRA / TAJ: fixed-core content is now **TAJ MAHAL ONLY — LOCKED_BY_MARK**; still not duration-closed. Do not create extra Agra-region days/nights for Agra Fort, Fatehpur Sikri, Keoladeo/Bharatpur, Chambal, Baby Taj, Mehtab Bagh, Sikandra, Wildlife SOS or other researched additions unless Mark explicitly reopens one. Canonical decision: `decisions/AGRA_TAJ_ONLY_FIXED_CORE_MARK_DECISION_2026-08-31.md`.
 
 Current fixed-A+-world skeleton remains:
 `DELHI -> KUMAON -> AGRA/TAJ -> BODH GAYA/GAYA -> VARANASI/SARNATH -> TIRUVANNAMALAI/ARUNACHALA -> DELHI/INTERNATIONAL EXIT`.
@@ -60,6 +60,20 @@ Resume objective rail-first rebuilding of:
 The former flight + multi-hour private-car assumptions are non-controlling. Train is tested first; overnight rail targets 1A/First AC where appropriate; flight may win only after full true-door-to-door/human-burden comparison shows a meaningful usable advantage.
 
 The Tiruvannamalai 4/5/6-night Mark choice remains deferred until both transfer burdens are rebuilt and presented decision-ready.
+
+## CANONICAL WORK ORDER — DO NOT JUMP TO FINAL DAY CARDS
+Controlling project sequence from `governance/CURRENT_DECISIONS_MASTER.md`:
+`FIXED CORE CONTENT/CANON -> FULL RELEVANT SOURCE VISIBILITY -> EXECUTION GEOMETRY -> MARK PACE/DWELL -> DURATION_CLOSED x6 -> REAL INTER-CORE EDGES -> FIXED_CORE_34_DAY_BUDGET -> OPTIONAL WORLD SURVIVAL -> FINAL TOPOLOGY -> LIVE LOGISTICS -> EXACT CALENDAR -> FINAL COMFORT SWEEP / DAY CARDS`.
+
+Current practical application:
+1. finish the Arunachala rail-first edge rebuild;
+2. present the corrected 4/5/6-night Arunachala choice and obtain Mark's duration lock;
+3. close the remaining not-yet-duration-closed fixed cores: AGRA/TAJ (Taj-only) and DELHI;
+4. only after all six fixed cores are closed, build the complete mandatory edge set and 34-day fixed-core budget;
+5. only then revisit optional worlds;
+6. exact calendar/day-by-day presentation comes near the end, not now.
+
+No current central canon imposes a mandatory relative workflow order between AGRA/TAJ and DELHI after Arunachala; both must close before the six-core gate passes.
 
 ## SUCCESSOR REPLACEABILITY RULE
 Every material research result, reconciliation, decision, WHY, supersession, next action and decision-relevant uncertainty must be durable and GitHub-routable before substantive reply.
