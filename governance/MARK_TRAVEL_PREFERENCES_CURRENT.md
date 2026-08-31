@@ -1,7 +1,7 @@
 # MARK — LIVING INDIA PROJECT PROFILE / CURRENT HUMAN CONTEXT CANON
 
 Status: HARD LIVING HUMAN CONTEXT CANON
-Updated: 2026-08-29
+Updated: 2026-08-31
 Branch: `agent/india8-cluster-casting`
 Canonical file: `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md`
 
@@ -115,6 +115,34 @@ A technical 45-minute visit is not a command to spend only 45 minutes there. A p
 
 INDIA should nevertheless make a **reasoned dwell recommendation** so Mark has something concrete to judge.
 
+## Geometry is part of the human decision interface
+`HARD_CURRENT — MARK 2026-08-31`
+Before Mark can decide how many days/nights a fixed world genuinely needs, he must be able to **mentally live the proposed days**. Map, distance and movement are not merely back-end logistics; they are the decision surface that lets Mark judge energy, combinations, breathing room and whether a day feels full or sparse.
+
+Therefore, before `DURATION_CLOSED`, a Mark-facing cluster dayplan must show, in ordinary human terms:
+- where the day actually starts from the real sleep base;
+- practical km + realistic travel/walk time to the first stop;
+- walking versus auto/rickshaw/taxi where there is a genuine choice;
+- practical km + realistic movement time between every later stop;
+- where a walk starts and ends and how much total walking it really creates from the sleep base;
+- a verified-location map whenever spatial relationships materially help Mark understand the day;
+- enough slack that Mark can see what remains possible later that morning/afternoon/evening.
+
+The purpose is **not** for INDIA to decide Mark's energy or felt pace. INDIA proposes the best objective execution surface; Mark then sees, for example, that a four-hour walk starting at the ashram can still leave an evening free, or that a visually small site actually costs substantial transport. Only after seeing that surface does Mark judge whether the world needs more/fewer days or a different combination.
+
+Do not ask Mark to lock duration from an abstract site list or from visit times that hide the movement between them.
+
+## Dwell calibration follows experience type, not famousness
+`HARD_CURRENT — MARK 2026-08-31`
+INDIA's dwell recommendation should reflect what Mark is likely to **do there**, not how famous or physically large the object is.
+
+Useful current calibration examples (guidance, not rigid automatic locks):
+- a spiritually meaningful cave/meditation place can reasonably deserve **about 1 hour** because Mark may actually sit, meditate and experience the place rather than merely inspect it;
+- a standalone statue/image/object such as a Buddha statue may need only **about 15 minutes** if the experience is essentially look, absorb, photograph and continue;
+- a larger living temple/ashram/ritual environment can justify much longer because participation, sitting, atmosphere and repeated use create the value.
+
+These are preference calibrators. Site-specific meaning can override them, and only Mark fixes the final felt dwell.
+
 ## Full relevant source layer before subjective time filtering
 `HARD_CURRENT — MARK 2026-08-27`
 When Mark uses a source layer such as Lonely Planet/traveler research to decide dwell, INDIA shows the **full relevant actionable layer first**. INDIA may give technical timing/geography but may not silently demote an item to “texture” because it looks small.
@@ -192,12 +220,12 @@ Count complete human door-to-door burden: checkout/loading/access/waiting/fog/tr
 Do not hide an inbound travel day outside cluster footprint.
 
 ## Final day rhythm
-`HARD_CURRENT`
-- roughly 15-minute detail where useful;
+`HARD_CURRENT — refined Mark 2026-08-31`
+- use human-scale **15- or 30-minute planning blocks** for ordinary local days; exact minutes only when an external service/event actually fixes them;
 - early starts/relatively early bed tend to suit Mark;
 - ~1 h evening dinner;
 - no obligatory formal lunch block every day;
-- actual hotel/ashram doors as start/end;
+- actual hotel/ashram base as start/end, without irrelevant wake-up/get-dressed micro-scheduling;
 - overnight rail may convert movement to sleep;
 - if a day only works under perfect assumptions, call it OVERLOADED rather than shaving buffers.
 
