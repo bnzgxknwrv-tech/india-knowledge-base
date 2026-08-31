@@ -52,6 +52,12 @@ Its likely payoff for Mark is therefore:
 
 Because Mark explicitly says caves attract him, use a **20–30 minute natural-stop target** rather than a photo-stop if access is comfortable. This is a dwell preference only, not a grade upgrade.
 
+## MANDATORY ROUTE / WAYFINDING SOURCE FOR FINAL DOCUMENT
+Mark explicitly supplied this page as a **handy source for finding the way to Mango Tree Cave**:
+https://richardarunachala.wordpress.com/2009/06/13/mango-tree-cave-where-ramana-stayed/
+
+This URL is not merely background research. It MUST be surfaced in the eventual final Tiruvannamalai / Arunachala travel document/card at the **Mango Tree Cave [B / ONLY_IF_NATURAL_ON_A_ROUTE]** entry as a practical route/wayfinding reference. Do not drop it in later summarization.
+
 ## SOURCE BASE
 - Arunachala Ashrama, `Sri Ramana Maharshi Life Timeline`: Mango Tree Cave near Mulaipal Tirtham used as summer residence during Virupaksha period. https://arunachala.org/sri-ramana-maharshi/ramana-maharshi-life-timeline/
 - Arunachala archive, `Sage of Arunachala`: Virupaksha became hot/dry in summer; Ramana moved to nearby Mango Tree Cave with perennial water. https://archive.arunachala.org/docs/sage-oa/
