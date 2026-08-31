@@ -1,6 +1,6 @@
 # CURRENT STATE — INDIA
 
-state_revision: 2026-09-01_INDIA14_FIXED_CORE_EDGES_BUDGET_COMPLETE__OPTIONAL_WORLD_SURVIVAL_ACTIVE
+state_revision: 2026-09-01_INDIA14_OPTIONAL_WORLD_SURVIVAL_DECISION_READY
 branch: `agent/india8-cluster-casting`
 status: INDIA14_CONTENT_AUTHORIZED__TRAVEL_WORK_ACTIVE
 boot_authority: `governance/INDIA_MASTER_BOOT.md` + `governance/FRESH_SESSION_BOOT_GATE.md` + `governance/BOOT_MANIFEST_V8.json`
@@ -8,158 +8,145 @@ boot_authority: `governance/INDIA_MASTER_BOOT.md` + `governance/FRESH_SESSION_BO
 ## BOOT / SUCCESSOR ARCHITECTURE — CLOSED
 INDIA14 completed V8 boot + independent CHECK with CONTENT_AUTHORIZATION: GRANTED. Future sessions use V8.1. Do not reopen boot architecture without a real failure.
 
-## SIX FIXED A+ WORLDS — GUARANTEED LOCAL FOOTPRINTS CLOSED
-1. **DELHI — DURATION_CLOSED / MINIMAL GUARANTEED MODEL LOCKED_BY_MARK / TRUE TRAVELER RESERVE PREPARED / ACTIVE B RESERVES.**
-   - Fixed content driver: Nirmal Dham, Chhawla [A+].
-   - One genuine guaranteed local-content arrival day; one arrival hotel night; one final Delhi international-flight buffer hotel night; zero guaranteed generic sightseeing days.
-   - True LP/traveler layer means broad non-pilgrim discovery: icons, superlatives/views, gardens, food, cinema, street art, markets, oddities, human texture and forum sleepers. TOP-X/spiritual research is separate.
-   - Mark explicitly wants reserve options available in **both Delhi windows**: beginning and end of trip.
-   - Active B reserves LOCKED_BY_MARK:
-     - **PVR Priya IMAX — grote laser-IMAX; Bollywood/Hindi-filmervaring in India (Vasant Vihar, Delhi) [B]**.
-     - **Hauz Khas Village — bohemien cafés/live-muziek/shops + middeleeuwse ruïnes rond reservoir (south Delhi) [B]**.
-     - **Humayun's Tomb — groot Mughal-tuingraf, Taj-voorloper (Nizamuddin, Delhi) [B] [UNESCO WH]**.
-     - **Sunder Nursery — 36 ha gerestaureerde erfgoedtuin naast Humayun's Tomb (Nizamuddin, Delhi) [B]**.
-   - No B above may force an extra Delhi night/day; choose on site from actual time, energy, traffic/AQI and live film/opening data.
-   - Final food/cinema traveler pass is complete and mandatory for final reserve merge: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_TRAVELER_FOOD_CINEMA_FINAL_PASS_2026-09-01.md`.
-   - That pass preserves Moti Mahal/Daryaganj butter-chicken history with an explicit contested-origin caveat; Karim's 1913; Wenger's 1924/1926 Connaught Place bakery history; Kuremal 1906 stuffed-fruit kulfi; Indian Coffee House cooperative history; and the cinema distinction Priya IMAX vs Select Citywalk vs Delite.
-   - Cinema rule: no fake `best in world` claim. Priya = strongest current enthusiast pick for large modern Delhi IMAX; Delite = potentially stronger specifically Delhi/Hindi-crowd cultural experience if the right film is playing.
-   - Decision files: `decisions/DELHI_MINIMAL_FIXED_CORE_MARK_DECISION_2026-08-31.md`; `decisions/DELHI_SPARE_TIME_OPTION_LAYER_MARK_DECISION_2026-08-31.md`; `decisions/DELHI_RESERVE_B_GRADES_MARK_DECISION_2026-08-31.md`.
-   - Broad traveler research: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_SPARE_DAY_LP_TOPX_LAYER_2026-08-31.md`.
+## COMPLETED GLOBAL STAGES
+The following project stages are now complete at the currently required planning precision:
+- `DURATION_CLOSED x6` for the guaranteed fixed A+ worlds;
+- true LP/general-traveler-layer integrity for all six fixed worlds;
+- real fixed-core inter-core edges at planning class;
+- fixed-core 34-day / 33-India-night budget;
+- Delhi food/cinema/IMAX fine-detail pass.
 
-2. **KUMAON — DURATION_CLOSED / TRAVELER-LAYER INTEGRITY PASS.**
-   - 9 occupied days / 9 nights through final Dunagiri night; eastern exit separate and now charged exactly once in the fixed-core edge pass.
-   - Haidakhan 3 nights / 2 complete quiet days LOCKED_BY_MARK.
-   - Existing traveler universe already broad across water/nature/wildlife/caves/views/food/crafts/markets/human texture.
-   - Controlling execution: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_COMPLETE_EXECUTION_DRAFT_2026-08-26.md`.
+Controlling artifacts:
+- fixed edges + budget: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/FIXED_CORE_REAL_INTERCORE_EDGES_AND_34_DAY_BUDGET_2026-09-01.md`
+- traveler integrity audit: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRAVELER_LAYER_INTEGRITY_AUDIT_2026-08-31.md`
+- traveler repairs: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRAVELER_LAYER_TARGETED_REPAIRS_2026-09-01.md`
+- Delhi broad traveler reserve: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_SPARE_DAY_LP_TOPX_LAYER_2026-08-31.md`
+- Delhi food/cinema detail: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_TRAVELER_FOOD_CINEMA_FINAL_PASS_2026-09-01.md`
 
-3. **AGRA / TAJ MAHAL — DURATION_CLOSED / 1 HOTEL NIGHT LOCKED_BY_MARK / TRAVELER-LAYER REPAIR COMPLETE.**
-   - Fixed content: Taj Mahal [A+] [UNESCO WH] only.
-   - Position day before -> one Agra hotel night -> earliest practical Taj morning ~3–3.5 h -> rest -> same-evening overnight rail toward Gaya if actual-date product is sane.
-   - Second Agra night = logistics fallback only.
-   - Traveler repair recovered food/market texture; no new grade or route reopening.
-   - HARD GUARD: Taj-only lock remains; no old Agra sightseeing is reactivated.
-   - Decisions: `decisions/AGRA_TAJ_ONLY_FIXED_CORE_MARK_DECISION_2026-08-31.md`; `decisions/AGRA_TAJ_1_NIGHT_MARK_DECISION_2026-08-31.md`.
-   - Yogananda historical-photo onsite cue remains mandatory.
+## SIX FIXED A+ WORLDS — GUARANTEED FOOTPRINTS CLOSED
+1. **Delhi** — minimal fixed-core model LOCKED_BY_MARK. Nirmal Dham [A+] fixed driver; one first Delhi hotel night + one final international-flight buffer hotel night; zero guaranteed generic sightseeing days. Active Delhi B reserves remain available on site and cannot force another night/day.
+2. **Kumaon** — 9 occupied days / 9 nights through final Dunagiri night. Haidakhan Vishwa Mahadham/Ashram 3 nights / 2 full quiet days LOCKED_BY_MARK. Eastern exit charged exactly once later.
+3. **Agra / Taj Mahal** — Taj Mahal [A+] [UNESCO WH] only; one Agra hotel night LOCKED_BY_MARK; earliest practical Taj morning ~3–3.5 h; second night logistics fallback only.
+4. **Bodh Gaya / Gaya** — Maya Heritage LOCKED_BY_MARK; 2 hotel nights default under useful early inbound, 3 only late/disrupted/consciously deeper; max 3. Protected pilgrimage walk remains Mahabodhi/Bodhi Tree -> Sujata -> Dungeshwari -> try ridge -> prearranged car return.
+5. **Varanasi / Sarnath** — 8 occupied days / 8 nights; Sahi River View Guesthouse, Assi Ghat LOCKED_BY_MARK; Manikarnika [A+] and Bhrigu Karyalaya/Bhadury Sadan [A+] protected under their current day rules.
+6. **Tiruvannamalai / Arunachala** — 5 nights LOCKED_BY_MARK; low tempo + standalone full Sri Ramanasramam immersion day. Protected A: Sri Ramanasramam; Virupaksha Cave; Skandashram; Arunachaleswarar/Annamalaiyar Temple; Gurumurtam; Pavalakunru/Pavazhakundru; Giripradakshina/Girivalam. Mango Tree Cave [B / ONLY_IF_NATURAL_ON_A_ROUTE]; Pachaiamman Temple [B / ONLY_IF_NATURALLY_EASY]. Old additional LP layer remains DROPPED_BY_MARK. Richard Clarke Mango Tree Cave route page is mandatory in final document.
 
-4. **BODH GAYA / GAYA — CONTENT/EXECUTION/DURATION CLOSED / TRAVELER-LAYER REPAIR COMPLETE.**
-   - Maya Heritage LOCKED_BY_MARK.
-   - 2 hotel nights default if useful early inbound; 3 only late/disrupted/consciously deeper; max 3.
-   - Protected pilgrimage: Mahabodhi/Bodhi Tree -> WALK -> Sujata -> WALK -> Dungeshwari caves -> TRY ridge -> prearranged car return.
-   - Traveler repair preserves winter international food/cafe ecosystem, Gaya Tilkut/anarsa and Patharkatti craft knowledge without changing existing grades/C decisions/A* corridor conditions.
-   - Decision: `decisions/BODHGAYA_CLUSTER_CLOSURE_MARK_DECISION_2026-08-29.md`.
+## DELHI RESERVE — CURRENT B TRUTH
+These are active on-site reserves, not extra-day drivers:
+- **PVR Priya IMAX — grote laser-IMAX; Bollywood/Hindi-filmervaring in India (Vasant Vihar, Delhi) [B]**.
+- **Hauz Khas Village — bohemien cafés/live-muziek/shops + middeleeuwse ruïnes rond reservoir (south Delhi) [B]**.
+- **Humayun's Tomb — groot Mughal-tuingraf, Taj-voorloper (Nizamuddin, Delhi) [B] [UNESCO WH]**.
+- **Sunder Nursery — 36 ha gerestaureerde erfgoedtuin naast Humayun's Tomb (Nizamuddin, Delhi) [B]**.
+Cinema guard: Priya = strongest current enthusiast pick for large modern Delhi IMAX; never claim `best cinema in world`; Delite is an OPEN historic 1954 Delhi movie-palace alternative if a strong Hindi-film/crowd experience fits.
 
-5. **VARANASI / SARNATH — DURATION_CLOSED / TRAVELER-LAYER INTEGRITY PASS.**
-   - 8 occupied days / 8 nights including inbound arrival/wind-down; outbound edge now handled in fixed-core edge pass.
-   - Sahi River View Guesthouse, Assi Ghat LOCKED_BY_MARK.
-   - Manikarnika A+ later in stay as final content block; Bhrigu Karyalaya/Bhadury Sadan A+ protected.
-   - Existing traveler universe is already broad: river/boats, crafts/weaving, food, lanes, observatory, fort/corridor, akhada/human culture and other non-person content.
+## TRUE LP / GENERAL-TRAVELER LAYER — DEFINITION CLOSED
+LP/traveler means broad non-pilgrim traveler discovery and must remain separate from TOP-X/person/spiritual research. Completeness checks:
+1 classic guidebook magnets;
+2 superlatives/records/views;
+3 food origins/cult institutions/destination-worthy food;
+4 oddities/curiosities;
+5 nature/active/gardens/water/hot springs/caves/walks;
+6 contemporary culture/cinema/street art/music;
+7 markets/crafts/human texture/transport;
+8 forum/Reddit/travelogue sleepers;
+9 Dec–Jan fit;
+10 geography/bundling only after discovery.
 
-6. **TIRUVANNAMALAI / ARUNACHALA — DURATION_CLOSED / 5 NIGHTS LOCKED_BY_MARK / TRAVELER-LAYER REPAIR COMPLETE.**
-   - WHY: low tempo and immersion; standalone full Sri Ramanasramam day retained.
-   - Protected A: Sri Ramanasramam; Virupaksha Cave; Skandashram; Arunachaleswarar/Annamalaiyar Temple; Gurumurtam; Pavalakunru/Pavazhakundru; Giripradakshina/Girivalam 14 km.
-   - Conditional B: Mango Tree Cave [ONLY_IF_NATURAL_ON_A_ROUTE]; Pachaiamman Temple [ONLY_IF_NATURALLY_EASY].
-   - Mango Tree Cave route/context: likely natural descent stop; Mark supplied Richard Clarke route page and wants it mandatory in final document.
-   - Traveler repair conclusion: no hidden Delhi-sized non-pilgrim universe was missed. Useful recovered microtexture includes Dreaming Tree seeker-cafe, Premalaya/Shanthimalai women-artisan craft corridor, Ekalokam photography lead, and clearer Sathanur Dam/crocodile context. None reopens the dropped extra layer or locked 5 nights.
-   - Decision: `decisions/TIRUVANNAMALAI_5_NIGHTS_MARK_DECISION_2026-08-31.md`.
-   - Human dayplan: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_MARK_DECISION_HUMAN_DAYPLAN_2026-08-31.md`.
+Current fixed-world status: Delhi COMPLETE ENOUGH; Kumaon PASS; Agra COMPLETE ENOUGH after food/market repair; Bodh/Gaya COMPLETE ENOUGH after winter-food/craft repair; Varanasi PASS; Tiruvannamalai COMPLETE ENOUGH after microtexture repair. None of these research results auto-regrades prior Mark decisions.
 
-## TRUE TRAVELER / LONELY-PLANET LAYER — INTEGRITY CLOSED FOR SIX FIXED WORLDS
-Controlling audit:
-`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRAVELER_LAYER_INTEGRITY_AUDIT_2026-08-31.md`
-Targeted repair synthesis:
-`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRAVELER_LAYER_TARGETED_REPAIRS_2026-09-01.md`
+## REAL FIXED-CORE EDGE RESULT — CLOSED AT PLANNING CLASS
+1. Delhi -> Haidakhan/Kumaon: inside Kumaon K0; prearranged direct car full travel day; do not double-count.
+2. Final Dunagiri -> Agra: separate full positioning day; direct private car current humane baseline because railhead+rail is materially longer and current useful products do not improve comfort enough.
+3. Agra/Taj -> Gaya: current strongest baseline 12988 Agra Fort ~18:45 -> Gaya ~07:50, ~13h05, current daily and 1A exists; exact date/inventory LIVE_RECHECK_LATER.
+4. Gaya -> Varanasi: current strongest baseline 20887 ~09:55 -> ~13:00, ~3h05; exact Jan operating day LIVE_RECHECK_LATER; absorbed into Varanasi V0.
+5. Varanasi -> Tiruvannamalai: flight VNS->MAA + rail-first MAA/Tambaram->Tiruvannamalai comparison under Mark's <=~1.5 h comfort rule; this is T0 inside the locked five-night footprint.
+6. Tiruvannamalai -> Delhi: direct comparator only; NOT topology-locked because optional southern content may intervene.
 
-Traveler completeness requires checking:
-1. classic guidebook magnets;
-2. superlatives / records / viewpoints;
-3. food origins / cult historic institutions / destination-worthy food;
-4. oddities / curiosities / strange institutions;
-5. nature / active experiences / gardens / hot springs / water / caves / walks;
-6. contemporary culture / cinema / street art / music / modern neighborhoods;
-7. markets / crafts / human texture / transport experiences;
-8. forum/Reddit/travelogue sleeper tips;
-9. Dec–Jan fit;
-10. only after discovery: geography/corridor/burden/bundling.
+## FIXED-CORE BUDGET
+Trip envelope: arrival India 19 Dec 2026; departure 21 Jan 2027; 34 India calendar days / 33 India nights.
 
-Current fixed-world integrity status:
-- Delhi — COMPLETE ENOUGH including final food/cinema pass.
-- Kumaon — PASS.
-- Agra — COMPLETE ENOUGH after food/market repair.
-- Bodh Gaya/Gaya — COMPLETE ENOUGH after winter/human-texture repair.
-- Varanasi/Sarnath — PASS.
-- Tiruvannamalai/Arunachala — COMPLETE ENOUGH after microtexture repair.
-
-These completeness findings do not auto-regrade or reopen any prior Mark decision.
-
-## REAL INTER-CORE EDGE PASS — COMPLETE AT PLANNING CLASS
-Controlling artifact:
-`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/FIXED_CORE_REAL_INTERCORE_EDGES_AND_34_DAY_BUDGET_2026-09-01.md`
-
-Results:
-1. **Delhi -> Haidakhan/Kumaon:** already included as Kumaon K0 full travel day; direct prearranged car remains the closed planning class; do not double-count.
-2. **Final Dunagiri -> Agra/Taj hotel:** separate full positioning day; current humane baseline = direct private car because mountain railhead access + rail is materially longer and current useful through rail products do not offer preferred 1A. Charge eastern Kumaon exit exactly once here.
-3. **Agra/Taj -> Gaya/Bodh:** current strongest baseline = 12988 Agra Fort ~18:45 -> Gaya ~07:50, ~13h05, current daily service with 1A available as a real class; exact date/inventory LIVE_RECHECK_LATER.
-4. **Gaya/Bodh -> Varanasi:** current strongest daytime baseline = 20887 Gaya ~09:55 -> Varanasi ~13:00, ~3h05; exact Jan operating day LIVE_RECHECK_LATER because current sources disagree on daily vs six-day operation. Transfer is absorbed into Varanasi V0, not a separate day.
-5. **Varanasi -> Tiruvannamalai:** flight VNS->MAA + rail-first Chennai->Tiruvannamalai comparison under Mark's <=~1.5 h comfort rule; transfer is T0 inside the locked five-night footprint.
-6. **Tiruvannamalai -> Delhi:** direct comparator prepared only; NOT topology-locked because an optional world may intervene.
-
-## FIXED-CORE 34-DAY BUDGET — COMPUTED
-Trip envelope convention:
-- arrival India 19 Dec 2026;
-- departure India 21 Jan 2027;
-- 34 India calendar days inclusive;
-- **33 India nights**.
-
-Structurally committed nights in the current guaranteed fixed core:
-- first Delhi hotel: 1
-- Kumaon: 9
-- Agra hotel: 1
-- Agra->Gaya overnight train: 1
-- Bodh Gaya default hotels: 2
-- Varanasi: 8
-- Tiruvannamalai: 5
-- final Delhi international-flight buffer: 1
+Committed night slots:
+- first Delhi hotel 1
+- Kumaon 9
+- Agra hotel 1
+- Agra->Gaya overnight train 1
+- Bodh Gaya default hotels 2
+- Varanasi 8
+- Tiruvannamalai 5
+- final Delhi buffer 1
 
 **TOTAL COMMITTED = 28 NIGHTS.**
-**CURRENT UNALLOCATED / OPTIONAL-WORLD ENVELOPE = 5 NIGHTS.**
+**REAL OPTIONAL-WORLD ENVELOPE = 5 NIGHTS.**
+Do not precharge contingencies. If Bodh later actually needs its authorized third hotel night or Agra actually needs fallback second night, optional capacity drops by one for each realized contingency.
 
-This 5-night envelope is real but not a promise that five full sightseeing days survive: optional-world access/exit geometry must be charged honestly. Do not precharge contingencies. If Bodh later needs its already-authorized third hotel night or Agra needs its logistics-fallback second night, optional capacity falls by one night for each realized contingency.
+## OPTIONAL WORLD SURVIVAL — DECISION READY
+Controlling comparison:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/OPTIONAL_WORLD_SURVIVAL_DECISION_READY_2026-09-01.md`
+
+### Braj / Mathura–Vrindavan–Govardhan — DEFERRED / INCLUSION UNRESOLVED
+NOT dropped; old drop was invalidated.
+Protected existing A:
+- **Neeb/Neem Karoli Baba Ashram + Mahasamadhi Mandir — active Maharaj-ji ashram with samadhi shrine (Vrindavan) [A]**.
+- **Katyayani Peeth / Keshav Ashram — Shakti/Kriya-lineage place associated with Swami Keshavanand (Vrindavan) [A]**.
+Best lean survival footprint = **1 night**: final Dunagiri -> Vrindavan full travel day; one useful Vrindavan day; Vrindavan -> Agra ~63–70 km / plan ~1.5–2 h; sleep Agra. Very strong payoff/friction.
+
+### Haridwar / Kankhal / Rishikesh — DEFERRED / INCLUSION UNRESOLVED
+Protected existing A:
+- **Shree Shree Ma Anandamayee Ashram + Samadhi Mandir — Anandamayi Ma ashram and samadhi complex (Kankhal/Haridwar) [A]**.
+Best insertion = **before Kumaon**, not after it.
+Recommended minimum if surviving = **2 nights**: Delhi->Haridwar direct train current ~4.25–4.75 h; one full local day; Haridwar->Haldwani current ~5h45 direct rail + Haidakhan last mile = full onward travel day. Strong content, medium friction.
+Do not use stale Kumbh/Ardh-Kumbh claims as a survival reason.
+
+### Prayagraj — DEFERRED BUT CURRENT SURVIVAL RECOMMENDATION = NO
+- **Red House / 4 Church Lane — Neem Karoli Baba winter home with shrine/darshan tradition (Prayagraj) [B / ONLY_IF_ALREADY_IN_PRAYAGRAJ / ACCESS_CONFIRMED]** has zero independent route weight.
+- Agra->Prayagraj current direct trains ~6.5–9 h; Prayagraj->Gaya current direct trains ~4–7 h.
+- Inclusion destroys the very efficient Taj -> 12988 overnight -> Gaya morning edge and lacks a protected A/A+ carrier.
+- Later-January event logic is not naturally aligned with the fixed route date position and may not be used to manufacture route fit.
+
+### Puducherry + Mamallapuram southern gateway — POSITIVE / INCLUSION UNRESOLVED
+No Mark grade inferred.
+Current differentiated content includes:
+- **Sri Aurobindo Ashram — Sri Aurobindo and the Mother's living ashram with their samadhi (White Town, Puducherry) [OPEN / NOT GRADED]**.
+- **Puducherry White Town — French/Tamil coastal quarter with pastel heritage streets, promenade, cafés and bakeries (Puducherry) [OPEN / NOT GRADED]**.
+- **Group of Monuments at Mahabalipuram / Mamallapuram — Pallava rock-cut caves, monolithic rathas, giant reliefs and Shore Temple (Mamallapuram) [OPEN / NOT GRADED] [UNESCO WH]**.
+Current geometry: Tiruvannamalai->Puducherry ~100–120 km / plan ~2 h car; Puducherry->Mamallapuram ~95 km / ~1.5–2 h; Mamallapuram->Chennai Airport ~51 km / human plan ~1–1.5 h. This naturally replaces part of the mandatory south exit instead of creating a major backtrack.
+Recommended survival footprint if selected = **3 nights** (2 Puducherry + 1 Mamallapuram); compressed form = 2 nights.
+
+### Ramakrishna
+Durable wish remains to capture one substantial route-logical genuine Ramakrishna place if possible, but no current optional corridor has produced a strong historical Ramakrishna life-site that should independently consume the five-night envelope. Modern mission branches must not be misrepresented as places Ramakrishna personally visited.
+
+## OPTIONAL PACKAGE OPTIONS READY FOR MARK
+A = **INDIA recommendation:** Braj 1 + South 3 + 1 flex.
+B = Haridwar 2 + Braj 1 + South 2.
+C = Haridwar 2 + South 3; no Braj.
+D = Braj 2 + South 3; no slack.
+E = Haridwar 2 + Braj 1 + 2 flex; no South.
+Mark may give a custom combination instead.
+
+Why A is the current recommendation:
+- Braj protects two existing A sites for only ~1 optional night and tiny Agra-side geometry penalty;
+- Puducherry/Mamallapuram turns the necessary Tiruvannamalai exit toward Chennai into differentiated travel content;
+- Sri Aurobindo + French/Tamil coast + UNESCO Pallava monuments add a different chapter rather than another similar pilgrimage world;
+- one flex night keeps the route robust before live rail/ashram/calendar closure.
 
 ## HUMAN PLANNING RULES — HARD
-- Recognition-rich names + visible grades for every graded visit location on every user-facing occurrence.
-- Map when spatial relationships matter.
-- Stop-to-stop movement: from -> to -> km -> realistic time -> mode -> rounded arrival -> dwell.
-- Human-scale 15/30-minute blocks for ordinary local planning; exact minutes only for external fixed services/events.
-- Fit-for-purpose GEO, not precision theatre.
-- Mark decides felt dwell/duration after seeing real movement, effort and rich place context.
-- Full requested source layer must be shown before silent filtering when Mark is making content/duration choices.
-- Side questions do not cancel authorized underlying work; automatically resume the main frontier after answering them.
-
-## FIXED-CORE SKELETON
-`DELHI -> KUMAON -> AGRA/TAJ -> BODH GAYA/GAYA -> VARANASI/SARNATH -> TIRUVANNAMALAI/ARUNACHALA`.
-Do not yet freeze the post-Tiruvannamalai destination; optional-world survival/topology may insert another world before final Delhi/exit.
+- recognition-rich full names + visible grades on every graded visit occurrence;
+- maps whenever spatial relationships materially help;
+- from -> to -> km -> human travel range -> mode -> rounded timing -> dwell;
+- ordinary planning in 15/30-minute blocks; exact minutes only where externally fixed;
+- fit-for-purpose GEO, no precision theatre;
+- Mark decides subjective value/dwell/duration after objective execution surface is visible;
+- side questions never cancel authorized underlying work; resume automatically.
 
 ## CANONICAL GLOBAL WORK ORDER
 `FIXED CORE CONTENT/CANON -> FULL RELEVANT SOURCE VISIBILITY -> EXECUTION GEOMETRY -> MARK PACE/DWELL -> DURATION_CLOSED x6 -> REAL INTER-CORE EDGES -> FIXED_CORE_34_DAY_BUDGET -> OPTIONAL WORLD SURVIVAL -> FINAL TOPOLOGY -> LIVE LOGISTICS -> EXACT CALENDAR -> FINAL COMFORT SWEEP / DAY CARDS`.
 
-Completed now:
-- `DURATION_CLOSED x6`;
-- fixed-world traveler-layer integrity;
-- REAL INTER-CORE EDGES at planning class;
-- FIXED_CORE_34_DAY_BUDGET.
-
-## NEXT FRONTIER — ACTIVE
-Proceed automatically to **OPTIONAL WORLD SURVIVAL** using the real **5-night envelope**, then present Mark only the genuine subjective survival decision(s).
-
-Do not solve optional-world survival by raw attraction count. Reconcile:
-- existing A+/A/A*/B/C and explicit drops;
-- full person + traveler source visibility;
-- route relation after Tiruvannamalai and/or earlier insertion opportunities;
-- true access/exit occupied time;
-- whether an optional world adds a genuinely different chapter versus duplicating fixed-core content;
-- any existing Mark WHY/preferences or old decisions that remain unsuperseded.
-
-Only after optional-world survival is decided may the project freeze FINAL TOPOLOGY.
+## NEXT FRONTIER — MARK-ONLY BLOCKER
+Await Mark's optional-world survival choice from A/B/C/D/E or a custom combination. **Do not ask any other planning question first.**
+After Mark decides, automatically:
+1. record survival decision + WHY;
+2. freeze FINAL TOPOLOGY;
+3. continue to live-logistics/calendar stage until the next genuine Mark-only decision.
 
 ## SUCCESSOR REPLACEABILITY RULE
 Every material research result, Mark decision, WHY, supersession, next action and decision-relevant uncertainty must be durable and GitHub-routable before substantive reply.
