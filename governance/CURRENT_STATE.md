@@ -1,6 +1,6 @@
 # CURRENT STATE — INDIA
 
-state_revision: 2026-08-31_INDIA14_TIRUVANNAMALAI_DAYPLAN_REBUILD_REQUIRED
+state_revision: 2026-08-31_INDIA14_TIRUVANNAMALAI_HUMAN_DAYPLAN_REBUILD_REQUIRED
 branch: `agent/india8-cluster-casting`
 status: INDIA14_CONTENT_AUTHORIZED__TRAVEL_WORK_ACTIVE
 boot_authority: `governance/INDIA_MASTER_BOOT.md` + `governance/FRESH_SESSION_BOOT_GATE.md` + `governance/BOOT_MANIFEST_V8.json`
@@ -12,7 +12,7 @@ INDIA14 completed V8 boot + independent CHECK with literal CONTENT_AUTHORIZATION
 - KUMAON: DURATION_CLOSED — 9 occupied days / 9 nights through final Dunagiri night; eastern exit separate.
 - VARANASI / SARNATH: DURATION_CLOSED — 8 occupied days / 8 nights including inbound arrival/wind-down; outbound edge separate.
 - BODH GAYA / GAYA: content/execution/duration rule closed; Maya Heritage LOCKED_BY_MARK; 2 hotel nights default if early inbound, 3 only late/disrupted/consciously deeper, max 3.
-- TIRUVANNAMALAI / ARUNACHALA: ACTIVE FRONTIER; LP-extra layer DROPPED_BY_MARK; duration NOT locked. Existing numbered dayplan is CONTENT-LOGIC INPUT ONLY and is NOT MARK-READY until the stop-by-stop geometry/map presentation rebuild below is complete.
+- TIRUVANNAMALAI / ARUNACHALA: ACTIVE FRONTIER; LP-extra layer DROPPED_BY_MARK; duration NOT locked. Existing numbered dayplan is CONTENT-LOGIC INPUT ONLY and is NOT MARK-READY until the stop-by-stop geometry/map presentation rebuild below is complete under the human-scale timing rule.
 - AGRA / TAJ: fixed-core content = TAJ MAHAL ONLY — LOCKED_BY_MARK; duration not yet locked; advance prep exists.
 - DELHI: duration not yet locked; advance prep exists.
 
@@ -42,6 +42,7 @@ Supporting research:
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_4_NIGHT_TRIAL_EXECUTION_PRESENTATION_2026-08-30.md`
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_SRI_RAMANASRAMAM_STAY_MODEL_2026-08-30.md`
 - `governance/COORDINATE_INTEGRITY_GATE.md`
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KOMOOT_WALK_DISCOVERY_LAYER_2026-08-25.md`
 
 Earlier INDIA14 `TIRUVANNAMALAI_ADVANCE_DECISION_READY_PREP_2026-08-31.md` is background only where it conflicts with newer explicit Mark corrections.
 
@@ -52,6 +53,9 @@ Earlier INDIA14 `TIRUVANNAMALAI_ADVANCE_DECISION_READY_PREP_2026-08-31.md` is ba
 4. A 3–4 h taxi/private-car ride is not preferred merely to save modest time.
 5. If rail arrival is too late for Sri Ramanasramam institutional check-in, one first night in a hotel immediately opposite/near the ashram is acceptable, followed by move into approved ashram accommodation next morning.
 6. Do not close outbound inter-core routing yet; first close all fixed A+ cluster local footprints.
+7. Dayplanning must use human-scale precision: normally quarter-hour blocks, often half-hour blocks; no irrelevant wake-up/get-out-of-bed times; no pseudo-precise `06:12` arrivals when `ca. 06:15` is the honest useful planning value; exact minutes only for externally fixed train/flight/reservation/ceremony times.
+8. Small coordinate/distance differences that cannot alter travel mode, burden, arrival block, day/night count or decision are immaterial. Apply fit-for-purpose GEO verification, not precision theatre.
+9. For **Giripradakshina / Girivalam — volledige 14 km heilige rondgang rond Arunachala (Tiruvannamalai) [A]**, the operational start/end is Mark's actual Tiruvannamalai sleep base in/near the Sri Ramanasramam zone: walk from the base onto the circuit, follow the best verified official/Komoot-compatible route, and return on foot where practical. Include connector walking in the total rather than inventing a taxi/trailhead problem.
 
 ## PROTECTED TIRUVANNAMALAI / ARUNACHALA CONTENT — NO RE-BALLOT
 - Sri Ramanasramam [A].
@@ -72,19 +76,21 @@ Working content sequence remains:
 - Day 2: complete Sri Ramanasramam immersion day; move into approved ashram accommodation if accepted.
 - Day 3: Arunachaleswarar / Annamalaiyar Temple + Gurumurtam + Pavalakunru/Pavazhakundru early; long Sri Ramanasramam afternoon/evening.
 - Day 4: Skandashram + Virupaksha Cave hill pilgrimage; long Sri Ramanasramam afternoon/evening; Mango Tree Cave B only if nearly free.
-- Day 5: full 14 km Giripradakshina/Girivalam early; recovery + final long Sri Ramanasramam afternoon/evening; Pachaiamman Temple B only if nearly free.
+- Day 5: full Giripradakshina/Girivalam walking day starting/ending at the actual sleep base; recovery + final long Sri Ramanasramam afternoon/evening; Pachaiamman Temple B only if nearly free.
 
 This sequence must NOT yet be used for Mark's duration decision because the human-readable movement layer is incomplete.
 
 ## GEO / PRESENTATION GAPS THAT MUST CLOSE BEFORE NEXT MARK DAYPLAN
 - Reverify and calculate practical stop-to-stop km/min/mode from the assumed/actual sleep base.
-- Gurumurtam exact pairwise road km/min remain final-routing work.
-- Pavalakunru/Pavazhakundru exact approach/stairs/vehicle endpoint remain final-routing work.
-- Virupaksha Cave final authoritative map pin requires recheck because of coordinate conflict in older/current public renderings.
-- Giripradakshina/Girivalam exact chosen start/end access must be set for the dayplan.
-- Varanasi/Sarnath geometry is re-audit-required before new exact predecessor-sleep-base -> airport distance claims are treated as decision-grade.
-- Sri Ramanasramam exact guest-room/building may be unknown until institutional allocation; use an explicitly declared planning anchor/range rather than fake door precision.
-- Include a map with VERIFIED locations when the interface supports it; no unverified pin may be presented as authoritative.
+- Use fit-for-purpose precision: tens of metres or small km/timing differences that cannot change the planning result do NOT block presentation.
+- Gurumurtam pairwise road km/min must be resolved to a realistic planning band; exact-door precision is unnecessary.
+- Pavalakunru/Pavazhakundru approach/stairs/vehicle access must be resolved enough to determine walk-vs-auto and realistic burden; do not demand irrelevant metre precision.
+- Virupaksha Cave physical identity/route must be secure; minor same-site pin disagreement that cannot change the hill-walk module is not itself a blocker. A materially different cave/access location would be.
+- Giripradakshina/Girivalam starts at the actual sleep base; match/verify the best official/Komoot-compatible circuit and include the connector in total walking km/time.
+- Varanasi/Sarnath predecessor hotel -> airport geometry may be recalculated from the known locked Sahi River View Guesthouse property using fit-for-purpose route geometry; a small property/entrance uncertainty is not a blocker.
+- Sri Ramanasramam guest-room/building allocation may be unknown; use the ashram/nearby sleep-base zone when any few-minute difference cannot affect the dayplan.
+- Include a map with VERIFIED locations when the interface supports it; no genuinely ambiguous/wrong-entity pin may be presented as authoritative.
+- All ordinary local times rounded to useful 15/30-minute planning blocks with realistic slack; exact minute precision reserved for externally fixed services/events.
 
 ## DURATION STATUS
 Earlier research suggests:
@@ -107,6 +113,6 @@ Every material research result, Mark decision, WHY, supersession, next action an
 Crash test: `IF THIS CHAT DIES NOW, CAN INDIA(N+1) CONTINUE FROM GITHUB WITHOUT MARK REPEATING OR RECONSTRUCTING ANYTHING?`
 
 ## EXACT NEXT EXECUTION
-Do NOT ask Mark for 4/5/6 yet. First rebuild the Tiruvannamalai / Arunachala numbered dayplan under the hard clock-level dayplan format: verify needed routing/access points; show every movement origin -> destination with km/min/mode; compare walk vs auto where relevant; include a verified-location map; show totals/load/robustness. Then present that corrected dayplan and only after Mark can mentally follow it ask the duration question.
+Do NOT ask Mark for 4/5/6 yet. First rebuild the Tiruvannamalai / Arunachala numbered dayplan under the hard human-scale clock-level dayplan format: verify only planning-relevant routing/access; show every movement origin -> destination with rounded km/time/mode; compare walk vs auto where relevant; use quarter-/half-hour blocks rather than pseudo-precision; start/end Girivalam at the actual sleep base; include a verified-location map; show totals/load/robustness. Then present that corrected dayplan and only after Mark can mentally follow it ask the duration question.
 
 END CURRENT STATE
