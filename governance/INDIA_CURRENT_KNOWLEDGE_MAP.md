@@ -1,7 +1,7 @@
 # INDIA CURRENT KNOWLEDGE MAP — WAT MOET JE LEZEN / WAT IS OUD
 
 Status: **CURRENT LIVING SOURCE MAP — V8 / MANIFEST-DRIVEN + FRESH-SESSION-BOOT-PROOF + CCI-PARITY-SYNCHRONIZED**
-Updated: 2026-08-30
+Updated: 2026-08-31
 Branch: `agent/india8-cluster-casting`
 Canonical manifest: **`governance/BOOT_MANIFEST_V8.json`** — the single machine-readable authority for exactly which files/counts are mandatory. This map explains ROUTING and WHY; it does not define a competing mandatory set. If a count or file list below ever disagrees with the manifest, the manifest wins and this map must be corrected in the same change.
 Boot owner: `governance/INDIA_MASTER_BOOT.md` V8
@@ -17,8 +17,9 @@ Purpose: every successor must know which files are ALWAYS current, which are req
 Fresh-session rule before content:
 - every new INDIA session starts `UNBOOTED`, regardless of predecessor/chat/model summary;
 - `governance/FRESH_SESSION_BOOT_GATE.md` is an explicit mandatory read, not a pointer-only file;
-- after all reads, the CURRENT session must write a NEW append-only receipt under `governance/boot_receipts/INDIA<N>__<NONCE>.json` (per `governance/BOOT_MANIFEST_V8.json`'s `receipt_directory`/`receipt_mode`) showing `boot_gate: PASS`, and pass `governance/scripts/validate_successor_boot.py --require-session-receipt <path> --expected-session <N> --expected-nonce <NONCE>`; `governance/BOOT_SESSION_RECEIPT.md` may still be refreshed as a human pointer but is never itself sufficient proof;
-- even a mechanical receipt PASS is not content authorization until an independent CHECK session passes (`governance/INDIA14_START_AND_INDEPENDENT_CHECK.md`);
+- after all reads, the CURRENT session must write a NEW append-only receipt under `governance/boot_receipts/INDIA<N>__<NONCE>.json` (per `governance/BOOT_MANIFEST_V8.json`'s `receipt_directory`/`receipt_mode`) showing `boot_gate: PASS`, and pass the current canonical boot validator;
+- `governance/BOOT_SESSION_RECEIPT.md` may still be refreshed as a human pointer but is never itself sufficient proof;
+- even a mechanical receipt PASS is not content authorization until the independent CHECK/final authorization passes under the current streamlined protocol;
 - partial/truncated/summary-only reads do not count.
 
 Current master boot V8 requires the central durable core including:
@@ -37,9 +38,9 @@ Current master boot V8 requires the central durable core including:
 - `governance/SUCCESSOR_SAFE_STATE.md` — crash-recovery checkpoint; read even if `CURRENT_STATE.md` seems complete, reconcile immediately if they disagree;
 - `governance/INDIA_RECOVERY_DELTAS_CURRENT.md`;
 - this `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md`;
-- `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md` — added 2026-08-30 as a mandatory manifest read (V8 Work-audit MUST_FIX repair, R31): the canonical START/CHECK protocol and commit-shape must itself be read, not merely invoked from memory.
+- `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md` — canonical START/CHECK protocol, now generalized for later INDIA versions despite historical filename.
 
-Central mandatory full-read count = `16/16`.
+Central mandatory full-read count = `16/16` unless the machine-readable manifest itself changes.
 
 Then the mandatory CCI successor-parity layer at immutable completed commit `b5349afe41f98eb4870728aaff2c633899afc1fa` on `agent/cci-full-repo-knowledge-harvest`:
 1. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUCCESSOR_START_HERE.md`
@@ -51,7 +52,7 @@ Then the mandatory CCI successor-parity layer at immutable completed commit `b53
 
 CCI is frozen recovery/reconciliation evidence, not a time machine. Newer explicit Mark decisions and newer current central artifacts win. In particular, old CCI frontier text and old route hypotheses must be reconciled, never copied blindly.
 
-The append-only receipt at `governance/boot_receipts/INDIA<N>__<NONCE>.json` is the mandatory fresh-session OUTPUT, not a shortcut input. It records exact BOOT_HEAD, per-file blob evidence and byte-level read coverage, 16/16 + 6/6 full reads, no unfinished truncation, no summary substitution, active-cluster gate, proof-of-read quotes and control-veto checksum. Being append-only, prior sessions' receipts are never overwritten. `governance/BOOT_SESSION_RECEIPT.md` may be refreshed as a convenience pointer to the latest one but carries no independent authority.
+The append-only receipt at `governance/boot_receipts/INDIA<N>__<NONCE>.json` is the mandatory fresh-session OUTPUT, not a shortcut input. It records exact BOOT_HEAD and machine-checkable read evidence. Being append-only, prior sessions' receipts are never overwritten.
 
 Reference only when needed: CCI `KNOWLEDGE_ATOMS.jsonl`, `COVERAGE_MANIFEST.csv`, `HARVEST_REPORT.md`, `work/NEW_KNOWLEDGE_CANDIDATES.md`.
 
@@ -69,36 +70,38 @@ Duration status:
 - KUMAON: DURATION_CLOSED — 9 occupied days / 9 nights through final Dunagiri night; Delhi -> Haidakhan inbound occupied day included; eastern exit separate full-travel adjacent edge charged once later.
 - VARANASI / SARNATH: DURATION_CLOSED — 8 occupied days / 8 nights through final Varanasi night; Bodh Gaya/Gaya -> Varanasi arrival/wind-down + 7 local days included.
 - BODH GAYA / GAYA: content + execution + duration RULE closed; default 2 hotel nights if early inbound, 3 only for late/disrupted inbound or conscious extra sacred-core time, max 3; Maya Heritage LOCKED_BY_MARK.
-- TIRUVANNAMALAI / ARUNACHALA: local duration surface exists and no duration is locked; 5 nights remains the current clean local recommendation, but **the current operational frontier is rail-first re-evaluation of the inbound/outbound inter-core edges before the duration surface is decision-ready again**. Previous flight + multi-hour-car defaults are not controlling.
+- TIRUVANNAMALAI / ARUNACHALA: **CURRENT MARK-ONLY DURATION FRONTIER**. Human/geographic decision-ready plan now exists at `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_MARK_DECISION_HUMAN_DAYPLAN_2026-08-31.md`. INDIA recommendation = 5 nights; Mark has not locked duration yet.
+- AGRA / TAJ: fixed-core content is now **TAJ MAHAL ONLY — LOCKED_BY_MARK**; duration still to close from that minimal content footprint.
 - DELHI: prepared, not duration-closed.
-- AGRA / TAJ: prepared, not duration-closed.
 
-Current fixed-A+-only route skeleton:
-`DELHI -> KUMAON -> AGRA/TAJ -> BODH GAYA/GAYA -> VARANASI/SARNATH -> TIRUVANNAMALAI/ARUNACHALA -> DELHI/INTERNATIONAL EXIT`.
+Current fixed-A+-world local-closure skeleton:
+`DELHI -> KUMAON -> AGRA/TAJ -> BODH GAYA/GAYA -> VARANASI/SARNATH -> TIRUVANNAMALAI/ARUNACHALA`.
 
-Deferred optional worlds:
+**DO NOT freeze the post-Tiruvannamalai destination yet.** Mark explicitly wants all fixed A+ local footprints/durations closed first; only after the six-core budget is known do optional worlds compete and real inter-core topology/edges get finalized. An optional world may ultimately sit between Tiruvannamalai and Delhi/exit.
+
+Deferred optional worlds include:
 - Braj / Mathura–Vrindavan–Govardhan;
 - Haridwar / Kankhal / Rishikesh;
-- Prayagraj.
+- Prayagraj;
+- other already-researched optional southern worlds only at the later survival/topology stage, not inside the fixed Tiruvannamalai duration.
 
 Hard route guard:
 - Ranchi + Kolkata/Hooghly/Serampore/Dakshineswar + Puri/Odisha route family explicitly skipped for this trip unless Mark explicitly reopens.
 
 ## C. CCI PARITY FILTER — CURRENT / RECHECK / SUPERSEDED
 
-When CCI and central differ, classify before use:
+When CCI and central differ, classify before use.
 
 ### Still-valid and successor-relevant
 - item-level grade protection is much larger than the short master summaries; use `A_PLUS_MARK_DECISION_LOG.md` when exact active-cluster item truth matters;
-- full human transfer accounting from `GLOBAL_TRANSFER_LEDGER_2026-08-25.md` remains controlling when edges are built;
-- four Kumaon execution edges/operations remain P0_TO_RECLOSE where explicitly marked; never resurrect the invalid old shortcut;
-- optional-world geometry remains: Braj low insertion tax near Delhi/Agra; Prayagraj corridor-compatible but not route-required because direct Agra->Gaya overnight exists; Haridwar/Kankhal/Rishikesh is materially heavier and, if retained, belongs before Kumaon;
-- Varanasi delivered legacy KML contains weak/unconfirmed pins; recovered better working points exist but must pass the current `MAP_COORDINATE_VERIFICATION_RULE.md` before decision use;
+- full human transfer accounting from `GLOBAL_TRANSFER_LEDGER_2026-08-25.md` remains controlling when edges are eventually built;
+- optional-world geometry remains relevant only after fixed-core duration closure;
+- Varanasi delivered legacy KML contains weak/unconfirmed pins; recovered better working points exist but must pass the current fit-for-purpose map-verification gate before decision use;
 - VNS-CAND-001 Lahiri Mahasaya Samadhi/Satyalok identity split remains an INDIA data-repair issue, not a Mark choice;
 - NKB Vrindavan coordinates remain conflicted in old registries; no route pin until reverified;
 - Varanasi emotional sequencing preference remains valid: connect early with Lahiri/Kriya + Assi/Ganges; Manikarnika can deliberately come later for acclimatization;
-- Sarnath UNESCO precision remains valid: the inscribed serial property comprises Chaukhandi Stupa + Archaeological Remains; museum and modern Mulagandha Kuti Vihara are visit content, not UNESCO components;
-- Haridwar Ardh Kumbh/Makar Sankranti signal around 14 Jan 2027 and YSS Dwarahat Christmas Long Meditation signal around 20 Dec 2026 are `LIVE_RECHECK_LATER` opportunities, not route locks;
+- Sarnath UNESCO precision remains valid: exact inscribed components matter;
+- Haridwar Ardh Kumbh/Makar Sankranti and YSS Dwarahat event signals remain `LIVE_RECHECK_LATER`, not route locks;
 - Mark's Ramakrishna concern, Sri Aurobindo/Puducherry interest, Anandamayi Ma x Yogananda joint-photo override, copy-paste/iPhone rule and explicit-next-action rule remain successor-relevant unless a newer explicit Mark statement supersedes them.
 
 ### Already centrally adopted / do not duplicate as new discovery
@@ -111,20 +114,21 @@ When CCI and central differ, classify before use:
 - historic pastry/sweets/coffee/human-texture sensitivity;
 - final comfort sweep mandatory;
 - reverse discovery may add findings without silently changing old grades;
-- exact map identity/coordinates require current verification;
-- fresh-session context/summary is not a boot; a current session receipt is required before substantive work.
+- exact map identity/coordinates require fit-for-purpose current verification;
+- fresh-session context/summary is not a boot.
 
 ### Superseded by newer central truth
-- CCI's frozen Bodh Gaya OPEN frontier is closed; never re-present that six-item ballot.
-- CCI's old Bodh Gaya sleep statement that Maya Heritage was not locked is superseded: Maya Heritage is now LOCKED_BY_MARK.
-- CCI's frozen `VNS -> Chennai primary / Bengaluru fallback` south-gateway hypothesis and the later central `Bengaluru inbound + private car` working hypothesis are BOTH non-controlling after the 2026-08-30 boot-execution repair. The next operational task is rail-first re-evaluation under the hard transport hierarchy. Exact train/flight services remain LIVE_RECHECK_LATER until they affect the real edge decision.
-- any CCI statement that only reflected frozen central commit `a374236...` loses to a later explicit central decision/artifact.
+- CCI's frozen Bodh Gaya OPEN frontier is closed; never re-present that ballot.
+- CCI's old Maya Heritage non-lock is superseded: Maya Heritage is LOCKED_BY_MARK.
+- CCI's frozen `VNS -> Chennai primary / Bengaluru fallback` and later `Bengaluru inbound + long private car` defaults are non-controlling.
+- The 2026-08-30 instruction that Tiruvannamalai inbound **and outbound** edges had to be fully rebuilt before Mark could choose 4/5/6 nights is now itself superseded by Mark's newer work-order clarification: close all fixed A+ local footprints/durations first. Current inbound planning assumption may use flight to Chennai + rail to Tiruvannamalai for realistic arrival burden; **outbound topology remains deliberately open until the later global edge stage**.
+- any frozen CCI statement contradicted by a later explicit central Mark decision loses.
 
 ## D. CONDITIONAL ANTI-FORGET REGISTERS
 
 Mandatory when their detail can affect `AL BESLIST?`:
 - `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv` — permanent IDs + protected older decisions; old grade never beats later explicit Mark decision.
-- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md` — later item-level grade/A+ truth; especially important because the short boot summary cannot list all ~60+ graded items.
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md` — later item-level grade/A+ truth.
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CURRENT_OLD_A_PROMOTION_MASTER.md` — promotion/regrade provenance; later decision log wins where different.
 - durable `decisions/*.md` originals — targeted provenance where master/ledger points.
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRIP_PLANNING_META_CONTROLLER_2026-08-26.md` — method provenance/controller detail.
@@ -149,7 +153,7 @@ Read:
 4. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md` for exact item grades.
 5. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/GLOBAL_TRANSFER_LEDGER_2026-08-25.md` before detailed day bundles/edges.
 
-Hard current: 9/9 closed; Haidakhan 3 nights/2 quiet days; Hotel Evelyn A+; Kainchi Dham A+; Mahavatar Babaji Cave A+; YSS Dwarahat A full day/no overnight; Kakrighat A*/SKIP_FIRST; Dunagiri Retreat primary/Joshi fallback. CCI also protects less-visible item grades such as Naini Lake loop A+, historic Haidakhan cave A+, Bhumiadhar A, Hanuman Garhi/Maharajji-kuti A, Dunagiri Temple A, Babaji Smriti Bhavan A and Dhokaney Waterfall A.
+Hard current: 9/9 closed; Haidakhan 3 nights/2 quiet days; Hotel Evelyn A+; Kainchi Dham A+; Mahavatar Babaji Cave A+; YSS Dwarahat A full day/no overnight; Kakrighat A*/SKIP_FIRST; Dunagiri Retreat primary/Joshi fallback. CCI also protects less-visible item grades.
 
 ## G. REQUIRED_BEFORE_TOUCHING_VARANASI / SARNATH
 Read:
@@ -160,24 +164,35 @@ Read:
 5. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/VARANASI_HISTORICAL_PACE_PREFERENCE_RECOVERY_2026-08-27.md` before final sequencing.
 6. `runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/NUMBERING_REGISTRY.jsonl` when immutable 001–040 identity matters.
 
-Geo warning: old delivered KML pins are not automatically safe. Before final maps/day-routing, reconcile CCI EXE-009..011 against the current map-verification gate. VNS-CAND-001 identity split is INDIA work; do not ask Mark to choose a coordinate.
+Geo warning: old delivered KML pins are not automatically safe. Before final maps/day-routing, reverify the retained points fit-for-purpose; do not demand irrelevant front-door precision.
 
 ## H. REQUIRED_BEFORE_TOUCHING_TIRUVANNAMALAI / ARUNACHALA
-Read:
-1. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_PREP_PACKET_2026-08-27.md`
-2. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_DURATION_DECISION_SURFACE_2026-08-29.md` — current local duration surface.
-3. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_4_NIGHT_TRIAL_EXECUTION_PRESENTATION_2026-08-30.md` — 4-night trial evidence, not a Mark lock.
-4. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_SRI_RAMANASRAMAM_STAY_MODEL_2026-08-30.md` — current ashram stay/free-time model.
-5. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_TRANSFER_MODE_CORRECTION_2026-08-30.md` — boot-failure transfer correction; rail-first re-evaluation required.
-6. `governance/COORDINATE_INTEGRITY_GATE.md` — current duration-scale geo status.
-7. `decisions/ARUNACHALA_TIRUVANNAMALAI_A_ANCHOR_2026-08-18.md` when parent/child provenance or Sri Aurobindo preference detail matters.
-8. conditional A+ register when exact historical grade provenance is needed.
+Read in this order for current work:
+1. **CURRENT MARK-FACING decision surface:** `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_MARK_DECISION_HUMAN_DAYPLAN_2026-08-31.md`.
+2. `decisions/TIRUVANNAMALAI_LONELY_PLANET_LAYER_DROPPED_BY_MARK_2026-08-31.md` — complete extra LP layer dropped; do not re-present.
+3. `decisions/TIRUVANNAMALAI_INBOUND_COMFORT_PREFERENCE_MARK_DECISION_2026-08-31.md` — Chennai arrival: rail preferred over long taxi when roughly <=1.5 h slower; 3–4 h taxi disliked for modest saving.
+4. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_DAYPLAN_PRESENTATION_AUDIT_2026-08-31.md` — why old dayplan was not human-readable and what must never regress.
+5. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_PREP_PACKET_2026-08-27.md` — deep source/content background.
+6. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_DURATION_DECISION_SURFACE_2026-08-29.md` — earlier duration/geo evidence; route-order statements can be superseded by newer central truth.
+7. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_SRI_RAMANASRAMAM_STAY_MODEL_2026-08-30.md` — ashram stay/free-time detail.
+8. `governance/COORDINATE_INTEGRITY_GATE.md` plus `governance/MAP_COORDINATE_VERIFICATION_RULE.md` — apply fit-for-purpose, no precision theatre.
+9. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KOMOOT_WALK_DISCOVERY_LAYER_2026-08-25.md` when walking/navigation detail is touched.
+10. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_TRANSFER_MODE_CORRECTION_2026-08-30.md` only as historical transport correction/evidence; its earlier sequencing requirement is superseded where newer Mark work order differs.
 
-Hard recognition: Arunachala/Ramana world A+ parent; protected A children Sri Ramanasramam, Virupaksha Cave, Skandashram, Arunachaleswarar/Annamalaiyar Temple, Gurumurtam, Pavalakunru, full 14 km Giripradakshina/Girivalam; Sri Ramanasramam desired true ashram sleep #2 if accepted/available.
+Hard recognition: **Tiruvannamalai / Arunachala — Ramana Maharshi sacred mountain/ashram world [A+ parent]**. Protected A children: Sri Ramanasramam; Virupaksha Cave; Skandashram; Arunachaleswarar/Annamalaiyar Temple; Gurumurtam; Pavalakunru/Pavazhakundru; full 14 km Giripradakshina/Girivalam. B reserves: Mango Tree Cave only if natural on hill route; Pachaiamman Temple only if naturally easy. Sri Ramanasramam is desired true ashram sleep #2 if accepted/available.
 
-Current status: no duration locked. Five nights is still the clean local-content recommendation, but do NOT present the final 4/5/6 duration choice until the inbound/outbound edges are rebuilt rail-first and whole-human burden is compared against any flight alternative.
+**Full additional LP layer is DROPPED_BY_MARK.** Do not show Gingee, Tirumalai Jain, Parvathamalai, Mamandur, Jawadhu, Jambai etc. as current Tiruvannamalai choices.
 
-Do NOT fold Gingee/Mamallapuram/Puducherry/Sri Aurobindo into the fixed-A+-only duration arithmetic now. Preserve Mark's real Sri Aurobindo interest for the later southern optional/gateway review.
+Current recommendation, not Mark lock: **5 nights = arrival night + four local days**:
+- full standalone Ramanasramam immersion;
+- Big Temple + Gurumurtam + Pavalakunru execution day;
+- Skandashram + Virupaksha point-to-point hill pilgrimage;
+- 14 km Girivalam from/to actual sleep base;
+- long Ramanasramam afternoons/evenings preserved.
+
+Mark is NOW entitled to choose 4/5/6 or alter/drop specific A content because the human decision surface exposes km/time/mode, physical scale, crowd/feel and dwell recommendation. Do NOT postpone this choice for outbound-route research.
+
+Human precision guard: ordinary times quarter-/half-hour blocks; no pseudo-exact 06:12 arrivals; small same-entity pin/door differences that cannot affect mode/burden/day count do not block planning.
 
 ## I. REQUIRED_BEFORE_TOUCHING_DELHI
 Read:
@@ -187,11 +202,13 @@ Read:
 Hard: Nirmal Dham A+; bounded/quiet Delhi, no forced generic Old Delhi; Delhi Bhrigu only backup if Varanasi Bhrigu fails; duration open.
 
 ## J. REQUIRED_BEFORE_TOUCHING_AGRA / TAJ
-Read:
-1. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/AGRA_PREP_PACKET_2026-08-27.md`
-2. current master/profile; conditional A+ register if exact grade provenance matters.
+Read newest Mark lock first:
+1. `decisions/AGRA_TAJ_ONLY_FIXED_CORE_MARK_DECISION_2026-08-31.md`
+2. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/AGRA_TAJ_ONLY_ADVANCE_DECISION_READY_PREP_2026-08-31.md`
+3. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/AGRA_TAJ_MAHAL_YOGANANDA_ONSITE_MEMORY_CUE_2026-08-31.md`
+4. older `AGRA_PREP_PACKET_2026-08-27.md` only as background/provenance, NOT as a reason to reopen extra Agra attractions.
 
-Hard: Taj Mahal [UNESCO WH] A+; sunrise/earliest practical opening; old 1-night Taj-only baseline nonbinding; prepared open layer must be shown before duration closure; hotel still open.
+Hard current: **Taj Mahal [A+] [UNESCO WH] ONLY for the fixed Agra world — LOCKED_BY_MARK**. Mark wants earliest practical morning Taj experience and otherwise minimal Agra time; same-day onward after Taj is acceptable if the later route naturally supports it. Fatehpur Sikri, Keoladeo, Chambal, Agra Fort, Baby Taj, Mehtab etc. do NOT receive extra day/night weight unless Mark explicitly reopens them. Yogananda-at-Taj photo memory cue from Ananda video ~04:44 must surface on-site.
 
 ## K. OPTIONAL WORLDS — LOAD ONLY AFTER FIXED-CORE BUDGET
 
@@ -199,21 +216,21 @@ Hard: Taj Mahal [UNESCO WH] A+; sunrise/earliest practical opening; old 1-night 
 Not dropped, not mandatory, not A+ by inference. Load current/protected decisions + regional/traveler packets. Mandatory Neem Karoli Baba anti-forget: `decisions/NEEM_KAROLI_VRINDAVAN_RED_HOUSE_ROUTE_RULE_2026-08-29.md`. NKB Vrindavan Ashram + Mahasamadhi Mandir remains site-level A. Old coordinate registries conflict; reverify before map use.
 
 ### Haridwar / Kankhal / Rishikesh
-Load current site decisions + regional freeze + traveler layer + CCI `OPN-012`/`EXE-044` context. Parmarth Niketan is experience only unless Mark explicitly chooses a sleep base. Anandamayi Ma Samadhi at Kankhal is an important existing A and a major content casualty if this optional world is dropped; show that trade-off explicitly. Recheck the 14 Jan 2027 Ardh Kumbh/Makar Sankranti signal live when this ballot is actually reached.
+Load current site decisions + regional freeze + traveler layer + CCI context. Parmarth Niketan is experience only unless Mark explicitly chooses a sleep base. Anandamayi Ma Samadhi at Kankhal is an important existing A and a major content casualty if this optional world is dropped; show that trade-off explicitly. Recheck January event signals live when this ballot is actually reached.
 
 ### Prayagraj
-Load current decisions + regional/traveler layer. Direct Agra->Gaya overnight means Prayagraj is not route-required. Mandatory Neem Karoli Baba anti-forget: `decisions/NEEM_KAROLI_VRINDAVAN_RED_HOUSE_ROUTE_RULE_2026-08-29.md`. Red House / 4 Church Lane remains B / only if Prayagraj already happens / access confirmed / zero independent route weight.
+Load current decisions + regional/traveler layer. Direct Agra->Gaya overnight means Prayagraj is not route-required. Red House / 4 Church Lane remains B / only if Prayagraj already happens / access confirmed / zero independent route weight.
 
-## L. ROUTE / TRANSFER — CONDITIONAL
-Use when route/global-edge work is active:
+## L. ROUTE / TRANSFER — CONDITIONAL, ONLY AFTER FIXED-CORE DURATIONS
+Use when route/global-edge work becomes active:
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/ROUTE_PLANNING_SYSTEM_CORRECTION_2026-08-25.md`
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/GLOBAL_TRANSFER_LEDGER_2026-08-25.md`
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CLUSTER_TOPOLOGY_FEASIBILITY_2026-08-25.md`
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CLUSTER_TOPOLOGY_QUANTIFIED_DELTA_2026-08-26.md`
 - current fixed-A+-only route artifact(s) dated 2026-08-29 or later;
-- for current south-edge work: `TIRUVANNAMALAI_TRANSFER_MODE_CORRECTION_2026-08-30.md` and the hard `train first` transport hierarchy.
+- `TIRUVANNAMALAI_TRANSFER_MODE_CORRECTION_2026-08-30.md` as transport-hierarchy evidence, filtered through newer current work-order truth.
 
-Old exact V1/V2 calendars are provenance only. Full human transfer burden controls; raw vehicle time never equals occupied travel time. For the current Tiruvannamalai edges, rail must be tested first before flight+road can be recommended as a meaningful door-to-door win.
+Old exact V1/V2 calendars are provenance only. Full human transfer burden controls; raw vehicle time never equals occupied travel time. Train-first remains a hard transport principle, but it does NOT justify doing final outbound topology before Mark has closed all fixed A+ local durations.
 
 ## M. BOOKING / LIVE LOGISTICS — CONDITIONAL
 `runs/active/INDIA10-BOOKING-SEQUENCE-CLOSURE-001/BOOKING_ACTION_BOARD.md` = SEARCH_ONLY provenance/live-source lead. Old V2 dates/base choices are not current route truth.
@@ -232,7 +249,7 @@ Apply as needed:
 
 Hard recovered personal guard: a physically resolved India location where Anandamayi Ma and Paramahansa Yogananda are documented together in a photograph must be surfaced as `MUST_VISIT_WITHIN_INCLUDED_CLUSTER` if that cluster is included; it does not by itself force an excluded macro-region.
 
-Top-11 research-depth guard: full deep sweep specifically for Yogananda, Lahiri Mahasaya, Sri Yukteswar, Neem Karoli Baba, Ram Dass, Ramana Maharshi and Ramakrishna; Mahavatar Babaji was bundled with Lahiri/Sri Yukteswar; Anandamayi Ma already had broad treatment. Ramakrishna is personally underrepresented in Mark's view and a substantial route-logical Ramakrishna place is desired, without a hard detour obligation.
+Top-11 research-depth guard remains: deep evidence follows personal relevance; Ramakrishna is personally underrepresented in Mark's view and substantial route-logical Ramakrishna places deserve attention later without forcing detours.
 
 ## O. SEARCH_ONLY / PROVENANCE
 Never independently current unless explicitly re-adopted/reconciled:
@@ -273,8 +290,8 @@ After every material event, not only Mark decisions:
 4. update profile for durable Mark preference/WHY;
 5. update recovery deltas for reusable failure traps;
 6. update THIS map whenever a successor must know a new source path or a current source is superseded;
-7. keep `SUCCESSOR_SAFE_STATE.md` current and atomically aligned with CURRENT_STATE when both change;
-8. every fresh successor writes a new `governance/boot_receipts/INDIA<N>__<NONCE>.json` (and may refresh `BOOT_SESSION_RECEIPT.md` as a pointer) only after complete 16/16 central + 6/6 CCI reads and before content;
+7. keep `SUCCESSOR_SAFE_STATE.md` aligned when its crash checkpoint materially changes;
+8. every fresh successor executes the current manifest/receipt/CHECK mechanics rather than relying on old session state;
 9. before reply test: `IF THIS CHAT DIES NOW, CAN INDIA(N+1) RECOVER THIS FROM MASTER BOOT + THIS MAP WITHOUT MARK?`
 
 **MAP-SYNC GUARD:** after every change to `INDIA_MASTER_BOOT.md` that adds/removes/changes a mandatory read, update section A of this map in the same execution cycle. After every frontier closure or material operational-frontier change, update section B and the relevant cluster section in the same execution cycle. A stale map is a successor-memory failure, not harmless documentation drift.
