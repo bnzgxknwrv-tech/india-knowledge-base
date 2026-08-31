@@ -1,155 +1,137 @@
-# DELHI — SPARE HALF/FULL-DAY LONELY-PLANET + TOP-X LAYER — 2026-08-31
+# DELHI — SPARE HALF/FULL-DAY TRUE LONELY PLANET / NON-PILGRIM TRAVELER LAYER — 2026-08-31
 
 Status: **PREPARED / ON-SITE OPTIONAL / ZERO GUARANTEED DAY-NIGHT WEIGHT / NO NEW GRADES**
 Branch: `agent/india8-cluster-casting`
 
-## WHY THIS EXISTS
-Mark clarified after accepting the minimal Delhi fixed core that the last Delhi buffer/arrival geometry should not be treated as a command to do nothing if a genuine half or full day becomes available. He rarely expects to be in Delhi and wants useful, distinctive options prepared in advance, while deciding only when the real available time, energy, traffic and mood are known.
+## SCOPE CORRECTION — MARK, 2026-08-31
+The earlier reserve presentation drifted too far toward temples, ashrams and TOP-X spiritual overlap. Mark corrected the intended meaning of the **Lonely Planet layer**: it must answer **what ordinary/non-pilgrim travelers actually go to Delhi for**, including world-famous landmarks, superlatives, skyline/viewpoints, gardens, street art, bazaars, food, cinemas, museums, unusual/quirky attractions, design/architecture and memorable urban experiences.
 
-This does **not** reopen the fixed Nirmal Dham content or automatically add a Delhi day/night. It creates a decision-ready reserve layer.
+TOP-X/spiritual overlap may exist as a secondary overlay, but it may not replace the traveler layer.
 
-## AUDIT RESULT — DID A DELHI LP/TRAVELER LAYER ALREADY EXIST?
-YES. `DELHI_ADVANCE_DECISION_READY_PREP_2026-08-31.md` already contained a useful LP/traveler set: Humayun's Tomb + Sunder Nursery; Nizamuddin Dargah/qawwali; Gurudwara Bangla Sahib; Qutb Minar + Mehrauli Archaeological Park; Red Fort; Feroz Shah Kotla; plus small food/culture texture.
+This file now controls that scope.
 
-The gap was not the absence of LP research. The gap was that it had not yet been reframed as a **spare-time on-site decision layer**, and the personal TOP-X overlay was incomplete. In particular, Anandamayi Ma's genuine Delhi ashram deserved explicit surfacing.
+## WHAT CURRENT LONELY PLANET 2026 ACTUALLY PUTS IN ITS DELHI TOP 11
+Current source: Lonely Planet, `11 Best Things to Do in Delhi`, 12 Mar 2026.
 
-## WORLD-FAMOUS DELHI MAGNETS — CURRENT TRAVELER CHECK
-Current Lonely Planet 2026 material continues to treat the major Delhi magnets as Red Fort/Old Delhi, Humayun's Tomb, Qutb Minar, Nizamuddin, Akshardham and related historic/spiritual worlds. UNESCO confirms Humayun's Tomb, Qutb Minar and Red Fort as Delhi World Heritage properties.
+1. **Red Fort — groot Mughal-keizerlijk fort en klassieke Old-Delhi-icoon (Old Delhi) [OPEN / NOT GRADED] [UNESCO WH]**.
+2. **Lodhi Colony Street Art — openluchtwijk met tientallen grote internationale murals (Lodhi Colony / south-central Delhi) [OPEN / NOT GRADED]**, naturally paired with **Lodhi Garden — grote groene stadsparkwereld met 15e/16e-eeuwse tombes, vogels en lokaal leven (Lodhi Road) [OPEN / NOT GRADED]**.
+3. **Jhandewalan Hanuman Temple — bizarre 34 m hoge Hanuman met ingang door de bek van een demon en kunstmatige grot vol levensgrote godenbeelden (Karol Bagh edge) [OPEN / NOT GRADED]**. This is relevant here because LP treats it explicitly as a surreal city experience, not only as pilgrimage.
+4. **Baba Kharak Singh Marg State Emporiums — halve kilometer winkels met ambachten uit heel India (Connaught Place) [OPEN / NOT GRADED]**, with detour to **Jantar Mantar — gigantische roze/witte 18e-eeuwse astronomische meetinstrumenten en enorme zonnewijzers (Connaught Place) [OPEN / NOT GRADED]**.
+5. **Humayun's Tomb — monumentaal 16e-eeuws Mughal-tuingraf, directe architectonische voorloper van de Taj Mahal (Nizamuddin) [OPEN / NOT GRADED] [UNESCO WH]**, plus **Sunder Nursery — 36 ha gerestaureerde Mughal-erfgoedtuin met water, bloemen, tombes en wandelpaden (Nizamuddin) [OPEN / NOT GRADED]**.
+6. **Swaminarayan Akshardham — gigantisch modern tempel/cultuurcomplex met animatronics, bootrit door Indiase geschiedenis, grootbeeldfilm en avondshow (east Delhi) [OPEN / NOT GRADED]**. LP itself describes the exhibitions as theme-park-like; traveler value is spectacle/experience, not only religion.
+7. **Qutb Minar and its Monuments — bijna 73 m hoge middeleeuwse overwinnings-/minarettoren en ruïnecomplex (Mehrauli) [OPEN / NOT GRADED] [UNESCO WH]**. LP calls it the world's tallest brick minaret. The tower itself can no longer be climbed.
+8. **Hauz Khas Village — bohemien wijk met cafés, art shops, live muziek, platen, tattoo/fashion en middeleeuwse ruïnes rond een reservoir (south Delhi) [OPEN / NOT GRADED]**.
+9. **Lotus Temple / Bahá'í House of Worship — wereldberoemd modern lotusgebouw met 27 witte marmeren 'bloemblaadjes' in grote tuinen (Kalkaji) [OPEN / NOT GRADED]**.
+10. **Delhi museum layer [OPEN / NOT GRADED]**: National Museum / future Yuge Yugeen Bharat transition, National Gallery of Modern Art, Gandhi/Indira/Nehru museums, and especially **National Crafts Museum — deels openluchtmuseum met ambachtslieden en circa 35.000 traditionele objecten (Pragati Maidan) [OPEN / NOT GRADED]** + Cafe Lota.
+11. **Vedic astrologer consultation — één-op-één Jyotish-ervaring bij een goed beoordeelde astroloog (south Delhi) [OPEN / NOT GRADED]**. This is a human/quirky traveler experience, not a site.
 
-No grade below is inferred. All new/unselected items stay `[OPEN / NOT GRADED]` until Mark explicitly grades/selects them.
+## THE SUPERLATIVE / 'WAAR GAAT DE TOERIST VOOR?' LAYER
+### **Qutb Minar — bijna 73 m hoge UNESCO-toren, door Lonely Planet aangeduid als 's werelds hoogste bakstenen minaret (Mehrauli) [OPEN / NOT GRADED] [UNESCO WH]**
+- Best answer to 'indrukwekkende hoge historische toren'.
+- Cannot be climbed.
+- Real view alternative: **Jama Masjid Southern Minaret — 40 m hoge beklimbare minaret met uitzicht over Old Delhi (Old Delhi) [OPEN / NOT GRADED]**; LP says one minaret can be climbed for a major rooftop panorama.
 
-## 1 — BEST OVERALL FIT: NIZAMUDDIN / HUMAYUN MICROCLUSTER
-### **Humayun's Tomb — groot 16e-eeuws Mughal-tuingraf en architectonische voorloper van de Taj Mahal (Nizamuddin, Delhi) [OPEN / NOT GRADED] [UNESCO WH]**
-WHAT: enormous formal garden-tomb complex; UNESCO describes it as the first grand garden-tomb on the Indian subcontinent and a direct architectural precursor whose innovations culminated in the Taj Mahal.
-WHY IT MAY FIT: substantial world-history/architecture, visual payoff, garden geometry, and direct thematic connection with the Taj rather than generic city sightseeing.
-DWELL: roughly 1.5–2.5 h depending photography/sitting.
+### **Sunder Nursery — 36 ha zorgvuldig gerestaureerde erfgoedtuin met waterpartijen, bloemperken, lotusvijver, boomgaarden en Mughal-monumenten (Nizamuddin) [OPEN / NOT GRADED]**
+- Strong candidate for 'mooiste gecureerde tuin'.
+- Time Out Delhi rated it 5/5 in Jun 2026 and called it arguably Delhi's most popular outdoor space.
+- Better polished-garden experience than merely 'a park'.
 
-### **Sunder Nursery — groot gerestaureerd historisch tuin- en erfgoedpark direct naast Humayun's Tomb (Nizamuddin, Delhi) [OPEN / NOT GRADED]**
-WHAT: landscaped heritage park with monuments, water/gardens and much more breathing room than Old Delhi.
-CURRENT PUBLIC SIGNAL: ~4.6/5 from >21k current map reviews in the Aug-2026 search snapshot.
-WHY IT MAY FIT: quiet decompression paired almost for free with the major monument; strong fit with Mark's preference for space/low sensory load.
-DWELL: ~1–2 h.
+### **Lodhi Garden — zeer geliefd groen stadspark waar Delhiërs joggen/picknicken tussen monumentale tombes (Lodhi Road) [OPEN / NOT GRADED]**
+- Better answer to 'mooiste levende lokale tuin/park'.
+- LP explicitly pairs it with Lodhi Colony street art.
 
-### **Hazrat Nizamuddin Auliya Dargah — levende Chishti-Sufi-heiligdomwereld met devotie, rozenoffers en qawwali (Nizamuddin, Delhi) [OPEN / NOT GRADED]**
-WHAT: dense living shrine/bazaar environment around one of South Asia's great Sufi saints. Lonely Planet calls this one of Delhi's most mystical experiences and notes devotional qawwali on some evenings.
-WHY IT MAY FIT: living spirituality/culture rather than a dead monument.
-CAUTION: much more crowded/intense than Humayun/Sunder; qawwali schedule must be live-checked and should not be assumed from an old Thursday rule.
-DWELL: ~1–2 h, more if music/session naturally holds attention.
+### **Garden of Five Senses — 20-acre landschapspark met thematuinen, rotsen, water, watervallen en sculpturen (Saket/Mehrauli) [OPEN / NOT GRADED]**
+- Not in LP's top 11, but official Incredible India traveler layer.
+- Interesting if Mark wants designed nature/art rather than history.
 
-**Natural package:** Humayun + Sunder are essentially one easy microcluster; Nizamuddin Dargah is nearby and can turn it into a richer 5–7 h day if energy/crowd tolerance is good.
-**INDIA current recommendation:** strongest spare half/full-day package for Mark because it combines world-class Delhi, gardens, history and living spirituality without forcing Old Delhi.
+## CINEMA / MOVIE CULTURE — REAL TRAVELER ADDITION
+There is no credible basis to call any Delhi cinema 'the best cinema in the world'. Do not manufacture that superlative.
 
-## 2 — BEST COMPACT LIVING-SPIRITUAL STOP
-### **Gurudwara Bangla Sahib — grote levende Sikh-gurdwara met kirtan, heilige sarovar, langar en seva (central Delhi) [OPEN / NOT GRADED]**
-WHAT: major Sikh house of worship; the experience is sound, water, prayer, communal kitchen and service, not only architecture.
-WHY IT MAY FIT: distinct spiritual world and easy to understand/experience in a few hours.
-DWELL: ~1.5–2 h onsite.
-OCCUPIED BLOCK from an airport/southwest base: generally plan ~3–4 h including city movement until final hotel is known.
-**Use case:** best if only 2–4 useful hours remain rather than a whole day.
+### **PVR Priya IMAX — grote 4K-laser IMAX in een historische Delhi-bioscooplocatie (Vasant Vihar) [OPEN / NOT GRADED]**
+- Current 2026 cinema-community signal: one of Delhi-NCR's strongest IMAX choices; about 69 ft wide screen, 4K laser/12-channel class in current specialist listings.
+- If the goal is 'een spectaculaire moderne Indiase bioscoopervaring', this is a serious candidate.
 
-## 3 — BEST PURE WORLD-HISTORY / UNESCO HALF-DAY
-### **Qutb Minar and its Monuments — 72.5 m hoge vroege Delhi-Sultanaatminaret met grote ruïne-/moskeecluster (Mehrauli, south Delhi) [OPEN / NOT GRADED] [UNESCO WH]**
-WHAT: UNESCO complex with the 72.5 m sandstone minaret, Alai Darwaza, Quwwat-ul-Islam mosque, tombs and early Sultanate archaeology.
-WHY IT MAY FIT: genuinely one of the monuments people travel to Delhi to see; very different historical layer from Mughal/Taj India.
-DWELL: ~2–3 h.
+### **PVR Select City Walk IMAX — premium IMAX-laserervaring in groot winkelcentrum (Saket) [OPEN / NOT GRADED]**
+- Current technical guides rank it among the strongest overall Delhi IMAX packages.
 
-### **Mehrauli Archaeological Park — uitgestrekt ruïnelandschap met eeuwen Delhi-geschiedenis naast de Qutb-zone (Mehrauli, south Delhi) [OPEN / NOT GRADED]**
-WHAT: dispersed tombs/ruins/greenery rather than one compact monument.
-WHY IT MAY FIT: walking + archaeology + less checklist feel.
-DWELL: ~1.5–3 h depending selected loop.
+### **Delite Cinema — historische single-screen Bollywoodbioscoop uit 1954 met klassieke Delhi-filmgeschiedenis (Daryaganj) [OPEN / NOT GRADED]**
+- Better if Mark wants the cultural experience of watching a Hindi blockbuster with a local crowd rather than maximum screen technology.
+- Indian Express documents its long cinema/theatre history; it is one of the surviving names from Delhi's classic single-screen era.
 
-**Natural package:** 4–6 h serious half-day. South-Delhi geography is generally friendlier from an airport-side hotel than Old Delhi.
+### **PVR Plaza / Connaught Place cinema heritage — historische bioscoopwereld in het oude filmhart van Connaught Place (central Delhi) [OPEN / NOT GRADED]**
+- Current sources trace Plaza's marquee/cinema tradition to 1938.
+- Incredible India explicitly notes Connaught Place's heritage-cinema culture.
 
-## 4 — STRONG NEW TOP-X OVERLAY: ANANDAMAYI MA
-### **Shree Shree Ma Anandamayee Ashram — authentieke Delhi-ashram waar Anandamayi Ma zelf verbleef en die in haar aanwezigheid werd ingewijd (Kalkaji / south Delhi) [OPEN / NOT GRADED]**
-WHAT: not merely a modern fan-centre. Official Sangha history records the Kalkaji ashram as established in the 1950s; the new ashram was inaugurated in Ma's presence in 1954. The complex includes the Naam Brahma Mandir, several temples, gardens, meditation space and a house/room used by Ma when she stayed in Delhi. Official archival material records repeated events here in her presence.
-WHY IT MAY FIT: this is a real person-linked place, not generic Delhi. It fills a gap in the earlier Delhi reserve layer and directly overlaps the project's Anandamayi-Ma world.
-DWELL: provisional ~1.5–2 h if open/quiet; potentially longer if a satsang/kirtan naturally aligns.
-LIVE CHECK: visitor hours/program on the actual day.
+**Decision later should distinguish:** spectacular screen vs historic Bollywood crowd experience.
 
-### **Lotus Temple — iconisch wit lotusvormig Bahá'í Huis van Aanbidding en stille gebedsruimte (Kalkaji, south Delhi) [OPEN / NOT GRADED]**
-WHAT: globally recognized modern Delhi landmark, open to people of all religions, built as a large lotus of white-clad concrete/marble petals.
-WHY IT MAY FIT: architecture plus silence rather than monument checklist.
-DWELL: ~1–1.5 h depending queue.
+## QUIRKY / RARE / 'DIT IS GEK GENOEG OM TE ONTHOUDEN'
+### **Sulabh International Museum of Toilets — museum over 5000 jaar toiletten en sanitatie, van oude privies tot moderne wc's (Mahavir Enclave / southwest Delhi) [OPEN / NOT GRADED]**
+- Official museum still active in 2026; free entry/guided tours according to its site.
+- Official India tourism itself calls it a quirky Delhi museum.
+- Strong weirdness-per-minute candidate, especially because it is southwest/airport-side rather than across the whole city.
 
-**Natural corridor idea:** Anandamayi Ma Ashram and Lotus Temple are both in the Kalkaji world. Verify exact road/walk geometry at execution stage, but they are close enough at planning scale to treat as a natural south-Delhi pairing rather than separate city crossings.
-**INDIA judgment:** this is probably the most personally relevant addition discovered in the Top-X overlay.
+### **Agrasen ki Baoli — diepe oude trappenwaterput die onverwacht tussen moderne hoogbouw ligt (central Delhi) [OPEN / NOT GRADED]**
+- Strong photography/architecture oddity; Atlas Obscura calls it a hidden subterranean marvel.
+- Short visit rather than half-day driver.
 
-## 5 — RAMAKRISHNA OVERLAY, WITH IMPORTANT LIMITATION
-### **Ramakrishna Mission New Delhi — levende Ramakrishna/Vivekananda-missie en tempel, Delhi-branch opgericht in 1927 (Ramakrishna Ashrama Marg / central Delhi) [OPEN / NOT GRADED]**
-WHAT: official Belur Math branch centre, established in Delhi in 1927 and based at Paharganj from 1935; active spiritual/service institution.
-WHY IT MAY FIT: Ramakrishna is personally important in the trip profile.
-LIMITATION: this is **not a Ramakrishna life-site**; Sri Ramakrishna died decades before the Delhi branch existed. Therefore do not falsely use it as equivalent to a substantial historic Ramakrishna anchor such as the Bengal world that was excluded from this trip.
-DWELL: ~1–1.5 h if Mark specifically wants a Ramakrishna/Vivekananda institutional connection.
-CURRENT PRIORITY: below Anandamayi Kalkaji and below the strongest world-class Delhi bundles unless personal pull on the day is high.
+### **Khari Baoli Spice Market — chaotische historische specerijenmarkt met enorme zakken chili, kurkuma, kardemom en komijn (Old Delhi) [OPEN / NOT GRADED]**
+- Lonely Planet's Old Delhi itinerary treats this as one of the defining bazaar experiences.
+- Atlas Obscura additionally highlights the rooftop/view world around the market.
+- Human/sensory Delhi, not a monument.
 
-## 6 — NEEM KAROLI BABA OVERLAY
-### **Baba Neem Karoli Ashram Hanuman Mandir — groene Maharajji/Hanuman-ashramtempel in Jaunapur (south Delhi) [OPEN / NOT GRADED]**
-WHAT: established Delhi Maharajji temple/ashram world. Current Google Maps search signal is about 4.8/5 from ~1.2k reviews; visitor descriptions emphasize greenery/quiet. Published Maharajji literature refers to Jaunapur as Maharajji's new temple in New Delhi; secondary visitor material says he installed the Hanuman image around 1970.
-WHY IT MAY FIT: direct Neem Karoli Baba connection and geographically southward/less Old-Delhi-like.
-WHY NOT AUTOMATIC: Mark already has much stronger protected Maharajji content in Kumaon/Kainchi and a significant optional Vrindavan site. Delhi Jaunapur may therefore duplicate rather than add a new chapter.
-DWELL: ~1–1.5 h.
-CURRENT PRIORITY: keep prepared, use only if it feels strongly attractive or becomes route-easy on the actual Delhi geometry.
+### **Jantar Mantar — enorme 1725 astronomische sculptuurmachines, waaronder een trapvormige zonnewijzer en vreemde geometrische tijdinstrumenten (Connaught Place) [OPEN / NOT GRADED]**
+- One of the clearest 'rare object' fits in the actual Lonely Planet article.
 
-## 7 — YOGANANDA/YSS OVERLAY
-### **Yogoda Satsanga Dhyana Kendra Delhi — moderne YSS-meditatieplek met groepsmeditaties en Yogananda-onderricht (Gole Market / central Delhi) [OPEN / NOT GRADED]**
-WHAT: active YSS meditation centre, not currently evidenced as an important historical Yogananda life-site.
-WHY NOT HIGH PRIORITY: Mark is Ananda/Kriya-oriented and the project explicitly avoids equating lineage interest with generic YSS institutional completeness.
-CURRENT PRIORITY: low unless an actual program or personal reason makes it attractive on the day.
+### **National Rail Museum — grote collectie historische locomotieven en spoorwegerfgoed (Chanakyapuri) [OPEN / NOT GRADED]**
+- Official India traveler layer; potentially strong if machinery/transport appeals.
 
-## 8 — CLASSIC 'THE WORLD COMES TO DELHI FOR THIS' RESERVES
-### **Red Fort — monumentaal Mughal-keizerlijk fort van Shah Jahan in Old Delhi (Old Delhi) [OPEN / NOT GRADED] [UNESCO WH]**
-World-class historical importance and a canonical Delhi icon. But the total experience includes cross-city traffic, security and Old Delhi intensity. Keep as a bounded object if selected; do not automatically bolt on an exhausting bazaar day.
+### **Shankar's International Dolls Museum — enorme internationale poppencollectie uit tientallen landen (ITO) [OPEN / NOT GRADED]**
+- Official India traveler layer; quirky but likely lower intrinsic value unless the oddity itself attracts.
 
-### **Jama Masjid — enorme 17e-eeuwse Mughal-moskee van Shah Jahan boven Old Delhi (Old Delhi) [OPEN / NOT GRADED]**
-One of the classic visual/religious anchors of Delhi and natural only if the Old Delhi world is consciously chosen.
+### **Feroz Shah Kotla djinn-petition world — middeleeuwse ruïnes waar bezoekers traditioneel brieven/vragen aan djinns achterlaten (central/east-central Delhi) [OPEN / NOT GRADED]**
+- Existing project traveler microtexture; unusual living folklore. Day/time practice must be live-checked before use.
 
-### **Swaminarayan Akshardham — zeer groot modern Hindu-tempel- en cultuurcomplex met extreem rijk steensnijwerk (east Delhi) [OPEN / NOT GRADED]**
-WHAT: vast 2005 complex; current map result ~4.6/5 from >54k reviews. Lonely Planet emphasizes its extraordinary scale/carving but also describes a theme-park-like exhibition layer.
-BURDEN: treat as a ~4–6 h destination, not a quick stop; security restrictions are significant and exact current rules must be checked.
-WHY MAY/MAY NOT FIT: visually exceptional, but modern and programmatic rather than a historic person-linked pilgrimage anchor.
+## URBAN / NON-MONUMENT DELHI
+### **Lodhi Colony Street Art — tientallen grote murals van Indiase en internationale kunstenaars (Lodhi Colony) [OPEN / NOT GRADED]**
+- LP #2 and one of its best free Delhi experiences.
+- Naturally pair with Lodhi Garden and a café.
 
-### **Lotus Temple — iconisch Bahá'í lotusgebouw en stille gebedsruimte (Kalkaji / south Delhi) [OPEN / NOT GRADED]**
-Already listed under the Anandamayi corridor because that is the smarter use for Mark; do not count it twice.
+### **Hauz Khas Village — cafés, platen, indie shops, live muziek, tattoo/fashion en oude ruïnes rond water (south Delhi) [OPEN / NOT GRADED]**
+- LP #8; one of the clearer places to see a modern/young Delhi rather than pilgrimage Delhi.
 
-## ON-SITE DECISION MENU — NO PRECOMMITMENT
-If real free time turns out to be:
-- **~2–3 h:** choose one compact living-spiritual stop: Bangla Sahib, or Anandamayi Kalkaji if personal pull dominates.
-- **~4–5 h:** Humayun + Sunder Nursery is the safest high-payoff choice; Qutb alone/with a short Mehrauli sample is the archaeology alternative.
-- **~5–7 h:** Humayun + Sunder + Nizamuddin Dargah if crowd/energy feel good; or Anandamayi Kalkaji + Lotus Temple + slow meal/rest in south Delhi.
-- **a genuine full day and high energy:** build one coherent corridor, not a cross-city trophy hunt. Preferred baseline is Nizamuddin/Humayun/Sunder. Alternative = Qutb/Mehrauli plus one south-Delhi spiritual stop.
-- **tired / bad air / bad traffic:** do nothing beyond the hotel/airport buffer. Prepared options are permission, not obligation.
+### **Connaught Place — ronde koloniale stadswijk met winkels, cafés, bioscoophistorie en Jantar Mantar ernaast (central Delhi) [OPEN / NOT GRADED]**
+- Useful urban-life anchor; not a standalone sacred/historic monument.
 
-## CURRENT PRIORITY FOR MARK — RESEARCH RECOMMENDATION, NOT GRADE
-1. Humayun's Tomb + Sunder Nursery + optional Nizamuddin Dargah — best blend of world-class Delhi + space + living spirituality.
-2. Anandamayi Ma Ashram Kalkaji + Lotus Temple — strongest personal Top-X/south-Delhi discovery.
-3. Gurudwara Bangla Sahib — best compact spiritual option.
-4. Qutb Minar + Mehrauli — best pure historical/UNESCO alternative.
-5. Jaunapur Neem Karoli — personally relevant but potentially duplicative.
-6. Ramakrishna Mission Delhi — personally relevant institution, but not a historic Ramakrishna life-site.
-7. Red Fort/Old Delhi — world-famous but highest sensory load for Mark.
-8. Akshardham — spectacular modern complex but large time/security commitment.
+### **Chandni Chowk / Old Delhi street-food world — fiets-rickshaws, bazaars, jalebi, chaat, chhole bhature en extreem straatleven (Old Delhi) [OPEN / NOT GRADED]**
+- Lonely Planet's 2025 'perfect 24 hours' starts here and its 2026 Red Fort article explicitly recommends the surrounding food world.
+- High sensory load, but this is exactly where many non-pilgrims go for 'Delhi itself'.
 
-No grade is assigned by INDIA; this ranking is only decision support.
+### **Baba Kharak Singh Marg State Emporiums — winkelen door bijna heel India zonder Delhi te verlaten (Connaught Place) [OPEN / NOT GRADED]**
+- LP top-11 item; practical for high-quality handicrafts/souvenirs without hunting across multiple regions.
 
-## FINAL-DOCUMENT REQUIREMENT
-The eventual Delhi/final trip document must include a clearly labeled **SPARE-TIME DELHI RESERVE** rather than presenting these as fixed itinerary stops. It should include:
-- recognition-rich names + actual Mark grade if later assigned, otherwise OPEN/NOT GRADED;
-- map/corridor groupings;
-- expected occupied time from the final hotel geometry;
-- live access/opening/traffic/AQI check;
-- explicit 'choose on the day' instruction.
+## CORRECTED SHORTLIST BY MARK'S EXAMPLES — STILL NOT GRADED
+If Mark says:
+- **'hoogste / indrukwekkendste toren'** -> Qutb Minar; if actual climb/view matters -> Jama Masjid southern minaret.
+- **'mooiste tuin'** -> Sunder Nursery for curated beauty; Lodhi Garden for lived-in local beauty; Garden of Five Senses for designed sensory landscaping.
+- **'beste/spectaculairste bioscoop'** -> PVR Priya IMAX or Select City Walk IMAX; for memorable Bollywood culture -> Delite Cinema.
+- **'raarste ding'** -> Sulabh Toilet Museum, Jantar Mantar, Agrasen ki Baoli, Jhandewalan demon-mouth experience, or Feroz Shah Kotla djinn petitions.
+- **'waar gaan gewone toeristen echt heen?'** -> Red Fort + Old Delhi/Chandni Chowk, Qutb Minar, Humayun's Tomb/Sunder Nursery, Lodhi street art/garden, Hauz Khas, museums, bazaars/food; that is the actual LP/traveler universe.
 
-## SOURCE BASE — CURRENT AUG 2026 CHECK
-- Lonely Planet 2026, `11 best things to do in Delhi (with planning tips)`: https://www.lonelyplanet.com/articles/top-things-to-do-in-delhi
-- Lonely Planet, Delhi history itinerary: https://www.lonelyplanet.com/articles/delhi-itinerary
-- UNESCO Humayun's Tomb: https://whc.unesco.org/en/list/232
-- UNESCO Qutb Minar and its Monuments: https://whc.unesco.org/en/list/233
-- Shree Shree Anandamayee Sangha ashram list: https://www.shreeshreeanandamayeesangha.org/ashrams.html
-- Anandamayee Delhi Ashram official site: https://anandamayee.org/delhiashram/
-- Anandamayi official life-history 1953–1962: https://www.anandamayi.org/life-history-1953-1962/
-- Ramakrishna Mission New Delhi official: https://www.rkmdelhi.org/
-- YSS Delhi official: https://yssofindia.org/location/delhi
-- Jaunapur supporting provenance: `Miracle of Love` text + current Google Maps/visitor corroboration; do not overstate historical details without stronger primary-source confirmation.
+## ON-SITE USE
+This layer remains a reserve. No extra Delhi day is automatically added. Once final hotel/date/available hours are known, build one geographically coherent menu from this traveler layer and only then ask Mark what he feels like doing.
+
+## SOURCES CHECKED AUG 31 2026
+- Lonely Planet — `11 Best Things to Do in Delhi`, 12 Mar 2026: https://www.lonelyplanet.com/articles/top-things-to-do-in-delhi
+- Lonely Planet — `24 Hours in Delhi`, 20 Mar 2025: https://www.lonelyplanet.com/articles/24-hours-in-delhi
+- Lonely Planet — Delhi history itinerary: https://www.lonelyplanet.com/articles/delhi-itinerary
+- Lonely Planet — Qutb Minar attraction page.
+- Lonely Planet — Jama Masjid attraction page.
+- Lonely Planet — Sunder Nursery attraction page.
+- Time Out Delhi — Sunder Nursery, Jun 2026.
+- Incredible India — Delhi official destination/attractions pages, including Sulabh, Rail Museum, Dolls Museum, Gardens.
+- Sulabh International Museum of Toilets — official 2026 visitor page.
+- Atlas Obscura — New Delhi unusual attractions + Agrasen ki Baoli.
+- Indian Express — Delite Cinema heritage.
+- current 2026 cinema technical/community sources for PVR Priya / Select City Walk IMAX; exact film/show/product recheck only if selected.
 
 END
