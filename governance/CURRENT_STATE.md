@@ -1,6 +1,6 @@
 # CURRENT STATE — INDIA
 
-state_revision: 2026-08-31_INDIA14_TIRUVANNAMALAI_MARK_READY_HUMAN_DAYPLAN
+state_revision: 2026-08-31_INDIA14_TIRUVANNAMALAI_5_NIGHTS_LOCKED_BY_MARK__MANGO_CAVE_CONTEXT
 branch: `agent/india8-cluster-casting`
 status: INDIA14_CONTENT_AUTHORIZED__TRAVEL_WORK_ACTIVE
 boot_authority: `governance/INDIA_MASTER_BOOT.md` + `governance/FRESH_SESSION_BOOT_GATE.md` + `governance/BOOT_MANIFEST_V8.json`
@@ -12,7 +12,7 @@ INDIA14 completed V8 boot + independent CHECK with literal CONTENT_AUTHORIZATION
 - KUMAON: DURATION_CLOSED — 9 occupied days / 9 nights through final Dunagiri night; eastern exit separate.
 - VARANASI / SARNATH: DURATION_CLOSED — 8 occupied days / 8 nights including inbound arrival/wind-down; outbound edge separate.
 - BODH GAYA / GAYA: content/execution/duration rule closed; Maya Heritage LOCKED_BY_MARK; 2 hotel nights default if early inbound, 3 only late/disrupted/consciously deeper, max 3.
-- TIRUVANNAMALAI / ARUNACHALA: ACTIVE MARK-ONLY DURATION FRONTIER; LP-extra layer DROPPED_BY_MARK; corrected human/geographic 5-night proposal now MARK-READY; duration NOT yet locked.
+- TIRUVANNAMALAI / ARUNACHALA: **DURATION_CLOSED — 5 NIGHTS LOCKED_BY_MARK**; LP-extra layer DROPPED_BY_MARK; current human/geographic 5-night plan retained because Mark explicitly wants low-tempo immersion and a standalone ashram day.
 - AGRA / TAJ: fixed-core content = TAJ MAHAL ONLY — LOCKED_BY_MARK; duration not yet locked; advance prep exists.
 - DELHI: duration not yet locked; advance prep exists.
 
@@ -24,8 +24,14 @@ Do not freeze the post-Tiruvannamalai destination yet; optional-world survival/t
 Hard naming + geographic/dayplan presentation protocol:
 `governance/MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md`
 
-CURRENT MARK-FACING human decision dayplan:
+Current Mark duration decision:
+`decisions/TIRUVANNAMALAI_5_NIGHTS_MARK_DECISION_2026-08-31.md`
+
+CURRENT human dayplan retained under that locked duration:
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_MARK_DECISION_HUMAN_DAYPLAN_2026-08-31.md`
+
+Current Mango Tree Cave route/experience context:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_MANGO_TREE_CAVE_CONTEXT_2026-08-31.md`
 
 Presentation audit that caused the rebuild:
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_DAYPLAN_PRESENTATION_AUDIT_2026-08-31.md`
@@ -59,7 +65,9 @@ Earlier INDIA14 `TIRUVANNAMALAI_ADVANCE_DECISION_READY_PREP_2026-08-31.md` is ba
 7. Dayplanning uses human-scale precision: quarter-/half-hour blocks; no wake-up pseudo-schedule; exact minutes only for fixed trains/flights/reservations/ceremonies.
 8. Small coordinate/distance differences that cannot alter mode, burden, day/night count or decision are immaterial. Fit-for-purpose GEO, not precision theatre.
 9. Giripradakshina / Girivalam operational start/end = actual Ramanasramam-area sleep base; walk onto circuit and return on foot; practical total ~14–15 km.
-10. Mark can judge duration only after seeing map + movement + rich place context; that decision surface is now materialized.
+10. Mark can judge duration only after seeing map + movement + rich place context; that decision surface was materialized.
+11. **Tiruvannamalai / Arunachala = 5 nights LOCKED_BY_MARK.** Keep the standalone full Sri Ramanasramam immersion day. WHY: immersion in this place needs time and the desired tempo is low.
+12. Mark explicitly says caves attract him. This raises dwell/experience relevance for Mango Tree Cave but is **not** a grade change by itself.
 
 ## PROTECTED TIRUVANNAMALAI / ARUNACHALA CONTENT — NO RE-BALLOT
 - Sri Ramanasramam [A].
@@ -74,38 +82,36 @@ Earlier INDIA14 `TIRUVANNAMALAI_ADVANCE_DECISION_READY_PREP_2026-08-31.md` is ba
 
 User-facing replies must use full recognition-rich naming format on every occurrence.
 
-## CURRENT MARK-READY 5-NIGHT PROPOSAL — NOT LOCKED
+## CURRENT 5-NIGHT PLAN — LOCKED_BY_MARK
 - Day 1: locked Varanasi sleep base -> Varanasi Airport -> current-class nonstop Chennai flight -> preferred favorable Chennai-airport rail chain -> Tiruvannamalai -> nearby first-night hotel if institutional check-in is not comfortably possible. No protected local content loaded.
 - Day 2: full Sri Ramanasramam immersion day; move into approved ashram accommodation if accepted.
 - Day 3: early Arunachaleswarar / Annamalaiyar Temple; Gurumurtam; Pavalakunru flexibly late afternoon because live opening data conflict; long Ramanasramam middle/evening. If morning Pavalakunru opening is confirmed, use the more efficient Temple -> Pavalakunru -> Gurumurtam loop.
-- Day 4: Ramanasramam rear -> Skandashram -> Virupaksha Cave -> town-side descent -> short auto back; Mango Tree Cave B only if <=10–15 min genuinely extra; long Ramanasramam afternoon/evening.
+- Day 4: Ramanasramam rear -> Skandashram -> Virupaksha Cave -> town-side descent -> short auto back. Current research shows Mango Tree Cave lies below Virupaksha on the common town-side approach and is therefore **likely a natural descent stop**; if live signage/access confirms, give it ~20–30 min because caves attract Mark. Preserve B grade; no extra night or separate trip.
 - Day 5: full 14 km Giripradakshina/Girivalam from/to sleep base, 5–6 h human pilgrimage pace; recovery + final long Ramanasramam block; Pachaiamman B not forced.
 
-Planning-scale geometry and user-facing explanation are now sufficient for Mark to judge felt duration. Exact Jan rail/flight schedules, Pavalakunru live opening, institutional accommodation allocation and final ticket/calendar details remain later live checks and do not block the duration decision.
+Planning-scale geometry and user-facing explanation are sufficient for the closed duration choice. Exact Jan rail/flight schedules, Pavalakunru live opening, institutional accommodation allocation and final ticket/calendar details remain later live checks.
 
-## CURRENT HUMAN/GEO FINDINGS THAT MATTER FOR MARK'S DECISION
+## CURRENT HUMAN/GEO FINDINGS THAT MATTER
 - Sri Ramanasramam -> Main Temple: official ~2 km relation; practical walk ~25–35 min / auto ~10–15 min.
 - Temple is huge (~25 acres; >100 shrines; 217 ft east tower); 2.5–3 h is a reasoned early-morning dwell, not quick darshan.
 - Temple -> Pavalakunru is a natural close microcluster (~0.8–1 km practical walk class), but Pavalakunru access hours are inconsistent; recent 2026 visitor reports 250–300 steps and a very quiet site.
 - Pavalakunru -> Gurumurtam and Gurumurtam -> Ramanasramam remain short local-auto classes (~10–15 min each), enough for decision geometry without fake meter precision.
 - Ramanasramam -> Skandashram = official 1.5 km climb class; Skandashram -> Virupaksha a few hundred metres / ~15–20 min hill trail; whole point-to-point hill module roughly 3–4 km walking but physically much harder than flat distance.
-- Mango Tree Cave current mapped position is genuinely very close to the Virupaksha/Skanda trail; B capture only if actual signed route makes it near-zero burden.
+- **Mango Tree Cave** is below Virupaksha Cave on the common/main town-side route to Virupaksha, near Mulaipal Tirtham. For the current Skandashram -> Virupaksha -> town descent, it is likely a natural stop rather than a real detour. Final signed-path/access check remains live execution detail.
 - Pachaiamman is ~1.7 km from Pavalakunru in a recent 2026 walking report, but baseline skips it because B must not displace stronger Ramanasramam evening/recovery.
 - Girivalam = road/pilgrimage circuit, not forest hike; official 14 km; ordinary early morning is preferred over mass full-moon conditions.
 - Typical Jan planning class: ~18–20 C around 06:00, ~29–31 C around 13:00.
 
-## DURATION FRONTIER — NOW GENUINELY MARK-ONLY
-INDIA recommendation = **5 nights**:
+## TIRUVANNAMALAI DURATION — CLOSED
+**5 nights = LOCKED_BY_MARK.**
 - arrival night + 4 complete local days;
-- preserves one genuine standalone ashram day;
-- keeps caves and Girivalam separate;
-- no protected A is forced into a rushed transfer day.
+- one genuine standalone ashram day;
+- caves and Girivalam stay separate;
+- no protected A is forced into a rushed transfer day;
+- low tempo and immersion are intentional, not inefficiency.
 
-If Mark wants 4 nights without dropping A content: remove standalone ashram day and rely on long Ramanasramam afternoons/evenings around the three local execution days.
-
-If Mark wants 4 nights and wants fewer small A sites: INDIA's rational first comparison candidates are Gurumurtam [A] and Pavalakunru [A], because their physical/visual payoff is smaller than the main ashram, giant Shiva temple, hill-cave world and 14 km circuit. This is recommendation only; Mark alone changes A.
-
-6 nights = blank extra depth/recovery/repeat day; no protected A requires it.
+4 nights is no longer an active alternative and must not be re-presented unless Mark explicitly reopens duration.
+6 nights is not required by current protected A content and must not be re-presented as an unresolved choice.
 
 ## AGRA / TAJ MAHAL — CURRENT MARK LOCK
 `decisions/AGRA_TAJ_ONLY_FIXED_CORE_MARK_DECISION_2026-08-31.md`
@@ -121,6 +127,6 @@ Every material research result, Mark decision, WHY, supersession, next action an
 Crash test: `IF THIS CHAT DIES NOW, CAN INDIA(N+1) CONTINUE FROM GITHUB WITHOUT MARK REPEATING OR RECONSTRUCTING ANYTHING?`
 
 ## EXACT NEXT EXECUTION
-Present the current human/geographic dayplan + verified local map to Mark. Mark then gives the genuine subjective correction: 5 nights accepted, 4/6 nights, different dwell, or explicit A/B drop/change. Record WHAT + WHY immediately. After Tiruvannamalai duration is closed, continue fixed-A+ local closure work in canonical order; do NOT yet freeze outbound inter-core topology.
+Tiruvannamalai duration is closed. Do not reopen 4/5/6. Preserve the locked five-night human plan and the natural Mango Tree Cave descent stop as supporting detail. Continue the next unresolved fixed-A+ local duration/closure work in canonical order; do not yet freeze outbound inter-core topology.
 
 END CURRENT STATE
