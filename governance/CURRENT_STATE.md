@@ -1,6 +1,6 @@
 # CURRENT STATE — INDIA
 
-state_revision: 2026-08-31_INDIA14_ALL_SIX_FIXED_CORE_LOCAL_FOOTPRINTS_CLOSED
+state_revision: 2026-08-31_INDIA14_ALL_SIX_FIXED_CORE_LOCAL_FOOTPRINTS_CLOSED__DELHI_SPARE_TIME_RESERVE_PREPARED
 branch: `agent/india8-cluster-casting`
 status: INDIA14_CONTENT_AUTHORIZED__TRAVEL_WORK_ACTIVE
 boot_authority: `governance/INDIA_MASTER_BOOT.md` + `governance/FRESH_SESSION_BOOT_GATE.md` + `governance/BOOT_MANIFEST_V8.json`
@@ -9,12 +9,15 @@ boot_authority: `governance/INDIA_MASTER_BOOT.md` + `governance/FRESH_SESSION_BO
 INDIA14 completed V8 boot + independent CHECK with CONTENT_AUTHORIZATION: GRANTED. Future sessions use V8.1. Do not reopen boot architecture without a real failure.
 
 ## SIX FIXED A+ WORLDS — LOCAL FOOTPRINTS NOW CLOSED
-1. **DELHI — DURATION_CLOSED / MINIMAL MODEL LOCKED_BY_MARK.**
+1. **DELHI — FIXED-CORE DURATION_CLOSED / MINIMAL GUARANTEED MODEL LOCKED_BY_MARK / SPARE-TIME RESERVE PREPARED.**
    - Fixed content: Nirmal Dham, Chhawla [A+].
-   - One genuine local-content day: international arrival day -> Nirmal Dham ~4–5 h -> quiet southwest/airport-side hotel.
+   - One genuine guaranteed local-content day: international arrival day -> Nirmal Dham ~4–5 h -> quiet southwest/airport-side hotel.
    - One arrival hotel night + one final Delhi international-flight buffer hotel night across the whole trip.
-   - Zero dedicated generic Delhi sightseeing days.
-   - Decision: `decisions/DELHI_MINIMAL_FIXED_CORE_MARK_DECISION_2026-08-31.md`.
+   - Zero **guaranteed** generic Delhi sightseeing days.
+   - IMPORTANT later clarification: if a genuine half/full spare day appears in Delhi, Mark does not want to waste it by having nothing prepared. A strong LP/traveler + TOP-X reserve is now prepared and may be chosen **on site** based on actual time, energy, traffic, AQI and mood. This reserve has zero automatic day/night weight and does not reopen the fixed minimal footprint.
+   - Fixed decision: `decisions/DELHI_MINIMAL_FIXED_CORE_MARK_DECISION_2026-08-31.md`.
+   - Spare-time decision: `decisions/DELHI_SPARE_TIME_OPTION_LAYER_MARK_DECISION_2026-08-31.md`.
+   - Reserve research: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_SPARE_DAY_LP_TOPX_LAYER_2026-08-31.md`.
 
 2. **KUMAON — DURATION_CLOSED.**
    - 9 occupied days / 9 nights through final Dunagiri night; eastern exit separate.
@@ -80,17 +83,39 @@ Human planning rules remain hard:
 - Current candidate same-evening 12988 Agra Fort -> Gaya, target 1A, LIVE_RECHECK_LATER.
 - Exact hotel/date/Friday/sunrise/security/train product remain live operational checks only.
 
-## DELHI — LOCKED MINIMAL MODEL
+## DELHI — MINIMAL GUARANTEED MODEL + PREPARED SPARE-TIME RESERVE
+Guaranteed fixed core:
 - Nirmal Dham [A+] is the sole fixed Delhi content driver.
 - Arrival 19 Dec 2026 ~10:15 -> airport formalities -> Nirmal Dham ~4–5 h -> quiet southwest/airport hotel.
-- Next morning leave for Kumaon; no generic sightseeing day.
-- Final Delhi hotel night before 21 Jan 2027 12:20 international departure is a gateway/safety buffer, not sightseeing.
-- Prepared Humayun/Sunder Nursery, Bangla Sahib, Nizamuddin, Qutb/Mehrauli, Red Fort etc. remain open/unselected provenance only and have zero current day/night weight.
+- Next morning leave for Kumaon; no generic sightseeing day is guaranteed.
+- Final Delhi hotel night before 21 Jan 2027 12:20 international departure remains a gateway/safety buffer.
+
+Prepared reserve — **choose only if real time exists**:
+1. Humayun's Tomb [OPEN / NOT GRADED] [UNESCO WH] + Sunder Nursery [OPEN / NOT GRADED] + optional Nizamuddin Dargah [OPEN / NOT GRADED] = strongest overall world-class/history/garden/living-spiritual bundle.
+2. Shree Shree Ma Anandamayee Ashram, Kalkaji [OPEN / NOT GRADED] + Lotus Temple [OPEN / NOT GRADED] = strongest newly surfaced personal TOP-X/south-Delhi corridor. The Anandamayi ashram is authentic person-linked history: established in the 1950s, inaugurated in Ma's presence, with a house/room she used on Delhi stays.
+3. Gurudwara Bangla Sahib [OPEN / NOT GRADED] = best compact living-spiritual option.
+4. Qutb Minar and its Monuments [OPEN / NOT GRADED] [UNESCO WH] + Mehrauli Archaeological Park [OPEN / NOT GRADED] = best archaeology/world-history half-day.
+5. Baba Neem Karoli Ashram Hanuman Mandir, Jaunapur [OPEN / NOT GRADED] = personal Maharajji reserve but possibly duplicative after stronger Kumaon content.
+6. Ramakrishna Mission New Delhi [OPEN / NOT GRADED] = personally relevant active institution but explicitly **not** a historic Sri Ramakrishna life-site.
+7. Red Fort [OPEN / NOT GRADED] [UNESCO WH] / Jama Masjid [OPEN / NOT GRADED] / Old Delhi = world-famous but high sensory load; use only by conscious choice.
+8. Swaminarayan Akshardham [OPEN / NOT GRADED] = visually exceptional modern complex but large time/security commitment.
+9. YSS Delhi Dhyana Kendra [OPEN / NOT GRADED] = modern YSS centre; low priority absent a specific program/personal reason.
+
+On-site decision bands:
+- ~2–3 h: one compact spiritual stop (Bangla Sahib or Anandamayi Kalkaji).
+- ~4–5 h: Humayun + Sunder; or Qutb-focused half-day.
+- ~5–7 h: Humayun + Sunder + Nizamuddin if energy/crowd tolerance are good; or Anandamayi Kalkaji + Lotus Temple.
+- full day: choose one coherent corridor, not cross-city trophy hunting.
+- bad air/traffic/tired: reserve may be skipped entirely.
+
+Reserve file: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_SPARE_DAY_LP_TOPX_LAYER_2026-08-31.md`.
+Decision: `decisions/DELHI_SPARE_TIME_OPTION_LAYER_MARK_DECISION_2026-08-31.md`.
+No reserve item has an inferred A/B/C grade; Mark may grade/select later or decide on-site.
 
 ## CANONICAL GLOBAL WORK ORDER
 `FIXED CORE CONTENT/CANON -> FULL RELEVANT SOURCE VISIBILITY -> EXECUTION GEOMETRY -> MARK PACE/DWELL -> DURATION_CLOSED x6 -> REAL INTER-CORE EDGES -> FIXED_CORE_34_DAY_BUDGET -> OPTIONAL WORLD SURVIVAL -> FINAL TOPOLOGY -> LIVE LOGISTICS -> EXACT CALENDAR -> FINAL COMFORT SWEEP / DAY CARDS`.
 
-**The project has now completed `DURATION_CLOSED x6`.**
+**The project has completed `DURATION_CLOSED x6` for guaranteed fixed-core footprint.** The Delhi spare-time reserve is prepared but carries zero guaranteed day/night weight.
 
 ## NEXT FRONTIER
 Proceed to **REAL INTER-CORE EDGES** for the six fixed worlds, with honest occupied-time/human-burden accounting and no optional-world decisions yet.
