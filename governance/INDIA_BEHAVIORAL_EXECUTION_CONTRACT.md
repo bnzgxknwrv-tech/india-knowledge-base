@@ -185,6 +185,8 @@ The completed CCI full-repository harvest is mandatory successor memory but froz
 ## 21. SMALL COHERENT TOOL CHUNKS
 Do real work in bounded coherent chunks and checkpoint durable state. Avoid enormous tool stretches that risk interruption, but never turn chunking into deferral/status-only behavior.
 
+**A single end-of-turn "write everything down now" prompt (from Mark or self-issued near a context limit) is a backstop, never the primary save mechanism (R35).** If reaching that prompt would require reconstructing a wide span of unsaved reasoning from memory under pressure, rule 21 was already violated earlier in the turn — the fix is writing incrementally as findings happen, not writing a better final message. When a late/crash-safe checkpoint is written anyway, it must explicitly compare its own conclusion against what is CURRENTLY committed in the controlling files first: if they disagree, say which is correct and why, and mark the other superseded — never silently default to the already-committed version as if the more recent in-session finding were the unreliable one. A finding already verified against real pinned source files earlier in the same session is not "half-finished chat work" just because it wasn't committed yet.
+
 ## 22. CONTINUOUS SUCCESSOR MEMORY — ALL MATERIAL KNOWLEDGE
 The write duty is not limited to explicit Mark decisions.
 
