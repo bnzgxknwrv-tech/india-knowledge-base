@@ -1,10 +1,11 @@
-# INDIA14 -> INDIA15 HANDOFF — ITERATION 3 FINAL — 2026-09-01
+# INDIA14 -> INDIA15 HANDOFF — ITERATION 3 FINAL + POST-VERIFY — 2026-09-01
 
-Status: **FINAL / SAFE FOR INDIA15 / THREE-PASS AUDITED**
+Status: **FINAL / SAFE FOR INDIA15 / THREE-PASS AUDITED / POST-VERIFY REPAIRED**
 Branch: `agent/india8-cluster-casting`
 Pre-handoff central HEAD before handoff work: `e437a7d03f089162f2bf60ac9e8706b52792acc3`
 Iteration-1 commit: `ba20472d11a4859734e6e3b136ed968e8c33c366`
 Iteration-2 commit: `e8d533e9dec10b77a94d7016b05c0512f08c2d9a`
+Iteration-3 commit: `0af22c48de5224e6be4485cba6585aa68098208e`
 
 ## PURPOSE
 Make INDIA14 fully replaceable. This file records where work truly stopped, which interrupted tasks are complete, which errors must not recur, what successor-governance drift was found during handoff, and the exact first substantive action INDIA15 must take after its own boot authorization.
@@ -16,7 +17,7 @@ This is a detailed transition artifact, not a new decision authority. Current tr
 4. current knowledge-map routing and exact research artifacts;
 5. older/CCI/handoff material only after reconciliation.
 
-The boot manifest now makes this file part of the **active frontier required read set** for fresh INDIA15, so it cannot be skipped as a mere optional pointer. It still never outranks newer Mark/current authority.
+The boot manifest makes this file part of the **active frontier required read set** for fresh INDIA15, so it cannot be skipped as a mere optional pointer. It still never outranks newer Mark/current authority.
 
 # 1. WHERE INDIA14 ACTUALLY STOPPED
 The work Mark had interrupted several times is NOT still hanging in the background. INDIA14 completed the ordered chain:
@@ -120,11 +121,15 @@ These are the mistakes/failure classes INDIA15 must not repeat.
 
 5. **Knowledge-map frontier drift.** `INDIA_CURRENT_KNOWLEDGE_MAP.md`, despite being a mandatory boot read, still said Tiruvannamalai 4/5/6 was open, Agra duration needed closure and Delhi was not duration-closed. This could have sent INDIA15 backward even after a correct boot.
 
-6. **Manifest active-cluster drift.** During the third handoff audit, `BOOT_MANIFEST_V8.json` itself was found still forcing the old `TIRUVANNAMALAI_ARUNACHALA` active read set. This was the most serious handoff defect because a mechanically valid fresh successor boot could therefore load a stale active work package. It has now been repaired to `GLOBAL_OPTIONAL_WORLD_SURVIVAL` and requires the current handoff + edge/budget + traveler integrity/repairs + Delhi cinema + optional survival artifacts.
+6. **Manifest active-cluster drift.** During the third handoff audit, `BOOT_MANIFEST_V8.json` itself was found still forcing the old `TIRUVANNAMALAI_ARUNACHALA` active read set. A mechanically valid fresh successor boot could therefore load a stale active work package. It was repaired to `GLOBAL_OPTIONAL_WORLD_SURVIVAL` and now requires the current handoff + edge/budget + traveler integrity/repairs + Delhi cinema + optional survival artifacts.
 
-7. **Boot architecture consumed too much project attention.** V8.1 is now closed for ordinary travel work. Do not reopen boot mechanics unless a real failure exists. The correct response to current travel work is travel work, not another architecture project.
+7. **Current-decisions-master frontier drift.** A post-iteration-3 verification found one more contradiction: `CURRENT_DECISIONS_MASTER.md` still said the project was at `REAL INTER-CORE EDGES`, still framed optional worlds as deferred until a budget that had already been completed, and had not materialized the current Delhi B-reserve truth. This would have violated the new PASS-1 authority-parity rule. The master was repaired on 2026-09-01 to the optional-world Mark-only frontier, 28/5 night budget, current packages and Delhi B reserves.
 
-8. **Current-service evidence is not exact-trip certainty.** Current rail/flight schedules support planning-class geometry only. Exact Jan 2027 operating days, inventories, acceptance, showtimes and similar live details remain `LIVE_RECHECK_LATER` until the proper stage.
+8. **Decision-ledger tail debt.** The ledger ended at DL-0049 and did not yet carry later explicit Delhi reserve B grades or the two most important user-method corrections from the Tiruvannamalai discussion. It was append-repaired with DL-0050 through DL-0053 for Delhi B reserves, human-scale timing, Girivalam start/end at the real sleep base and the separation of LP/general-traveler discovery from person/spiritual/TOP-X research.
+
+9. **Boot architecture consumed too much project attention.** V8.1 is now closed for ordinary travel work. Do not reopen boot mechanics unless a real failure exists. The correct response to current travel work is travel work, not another architecture project.
+
+10. **Current-service evidence is not exact-trip certainty.** Current rail/flight schedules support planning-class geometry only. Exact Jan 2027 operating days, inventories, acceptance, showtimes and similar live details remain `LIVE_RECHECK_LATER` until the proper stage.
 
 # 6. WHAT WAS IMPROVED IN THE BOOT FOR INDIA15+
 Without creating a new successor-specific architecture, the universal V8.1 protocol at legacy path `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md` was strengthened.
@@ -151,18 +156,35 @@ Additional hardening:
 - the boot manifest active frontier itself now points to `GLOBAL_OPTIONAL_WORLD_SURVIVAL`;
 - this final handoff is an active mandatory read for the current frontier, not a hidden pointer;
 - `NEXT_AUTOMATIC_STEP` retains the future-reader test: it cannot describe work the same writer is already completing;
-- the universal protocol still remains one V8.1 architecture for INDIA15/16/etc; this file does not spawn a new boot generation.
+- the universal protocol remains one V8.1 architecture for INDIA15/16/etc; this file does not spawn a new boot generation.
 
-# 7. ITERATION 3 — FINAL THREE-PASS AUDIT RESULT
-## PASS 1 — AUTHORITY PARITY: PASS
-After repairs:
-- `CURRENT_STATE.md` says all six fixed footprints, fixed edges/budget, traveler repairs and Delhi cinema are complete; optional-world survival is the current Mark-only frontier.
-- `SUCCESSOR_SAFE_STATE.md` now says the same and carries `STATUS: SAFE_TO_HANDOFF` + `UNSAVED_RISK: GEEN` as required by the structural boot validator.
-- `CURRENT_DECISIONS_MASTER.md` already carries the newer fixed-world locks and optional-world status; it does not create a competing later frontier.
-- `INDIA_CURRENT_KNOWLEDGE_MAP.md` now says all six fixed footprints are closed and optional-world survival is current.
-- `BOOT_MANIFEST_V8.json` now loads the current global optional-world active set instead of stale Tiruvannamalai-only files.
+# 7. THREE ITERATIONS + POST-VERIFY AUDIT RESULT
+## ITERATION 1
+Reconstructed the interrupted work sequence and exact current optional-world blocker; identified stale crash-safe state as remaining debt.
 
-## PASS 2 — INTERRUPTION / BACKLOG RECONSTRUCTION: PASS
+## ITERATION 2
+Cross-checked authority surfaces; detected stale `SUCCESSOR_SAFE_STATE.md` and stale `INDIA_CURRENT_KNOWLEDGE_MAP.md`; defined required boot frontier-parity hardening.
+
+## ITERATION 3
+Repaired crash-safe state, knowledge map, universal START/CHECK protocol, active boot manifest and current state; classified backlog and wrote the exact INDIA15 first action.
+
+## POST-ITERATION-3 VERIFICATION
+A final re-read deliberately challenged the claimed PASS instead of trusting it. It found two additional durable-state gaps:
+- `CURRENT_DECISIONS_MASTER.md` still exposed the previous `REAL INTER-CORE EDGES` frontier and stale optional-world timing;
+- `DECISION_LEDGER.jsonl` lacked current Delhi B reserve and later method-rule entries.
+Both were repaired before handoff completion. This is why the final status is `POST-VERIFY REPAIRED` rather than pretending iteration 3 had been flawless.
+
+### FINAL PASS 1 — AUTHORITY PARITY: PASS AFTER REPAIR
+Current authority now agrees materially:
+- all six fixed footprints/durations are closed;
+- fixed edges and 34-day budget are complete;
+- LP/general-traveler integrity and repairs are complete;
+- Delhi cinema/IMAX detail is complete enough for this stage;
+- fixed core = 28 committed India nights; optional envelope = 5 nights;
+- current owner/blocker = Mark, optional-world survival;
+- first successor content action = that choice, not another research task.
+
+### FINAL PASS 2 — INTERRUPTION / BACKLOG RECONSTRUCTION: PASS
 Classification:
 - six fixed durations = COMPLETE — DO NOT RESTART;
 - fixed inter-core edges + 34-day budget = COMPLETE — DO NOT RESTART;
@@ -174,8 +196,8 @@ Classification:
 - exact Jan rail/flight inventory, ashram acceptance, Delhi showtimes etc. = LATER / LIVE_RECHECK_LATER;
 - older Tiruvannamalai 4/5/6 and old edge-first frontier text = SUPERSEDED / DO NOT REVIVE.
 
-## PASS 3 — EXACT FIRST ACTION: PASS
-`After authorization, the first substantive action is: present/continue Mark's existing optional-world survival choice from A/B/C/D/E or custom, with A as the current INDIA recommendation, because CURRENT_STATE.md and OPTIONAL_WORLD_SURVIVAL_DECISION_READY_2026-09-01.md say this is the sole current Mark-only blocker.`
+### FINAL PASS 3 — EXACT FIRST ACTION: PASS
+`After authorization, the first substantive action is: present/continue Mark's existing optional-world survival choice from A/B/C/D/E or custom, with A as the current INDIA recommendation, because CURRENT_STATE.md, CURRENT_DECISIONS_MASTER.md and OPTIONAL_WORLD_SURVIVAL_DECISION_READY_2026-09-01.md now agree this is the sole current Mark-only blocker.`
 
 This is still open, owned by Mark, not already completed, and no other planning question should precede it.
 
@@ -186,7 +208,7 @@ Fresh INDIA15:
 3. manifest active cluster is `GLOBAL_OPTIONAL_WORLD_SURVIVAL`;
 4. after GRANTED, run the three-pass parity audit;
 5. first content action = optional-world survival choice only;
-6. after Mark chooses, durably record WHY and proceed automatically to FINAL TOPOLOGY -> LIVE LOGISTICS -> EXACT CALENDAR -> FINAL COMFORT SWEEP / DAY CARDS.
+6. after Mark chooses, durably record WHAT + WHY and proceed automatically to FINAL TOPOLOGY -> LIVE LOGISTICS -> EXACT CALENDAR -> FINAL COMFORT SWEEP / DAY CARDS.
 
 No user reconstruction is required.
 
