@@ -13,7 +13,7 @@ The boot system exists to prevent successor knowledge loss, not to become the pr
 Human orchestration must be minimized:
 - no successor-specific rewrite of the start protocol;
 - no manual shell command required from Mark;
-- no eight separate copy/paste round trips;
+- no per-topic separate copy/paste round trips (all mandatory topics — see `BOOT_MANIFEST_V8.json`'s `check_required_challenge_topics` for the current exact list/count — travel as one batch, §2.4);
 - no request that Mark reconstruct project state;
 - no substantive content before the two-key gate really passes;
 - no weakening of fail-closed checks merely to save time;
@@ -66,10 +66,10 @@ After real receipt PASS, report only the compact handoff facts needed for CHECK:
 
 ### 2.0 TIER DETERMINATION — DECIDE THIS BEFORE ANYTHING ELSE IN PART 2
 
-**Why this exists (R34):** running the full eight-topic, separate-session, Mark-relayed CHECK (§2.1-2.7 below) on every single fresh `INDIA<N>` session was disproportionately costly. Mark needed fresh sessions frequently (ChatGPT's own session limits forced INDIA12→13→14→15 in rapid succession), and each full CHECK cost him real manual relay time and a whole second ChatGPT conversation — even for a routine continuation where nothing about the project's governing knowledge had actually changed since the last time a full CHECK passed. Part 1 (the mechanical boot + receipt, §1 above) is unaffected by any of this and stays mandatory, unweakened, for every single fresh session — it is what directly fixes "successor doesn't load current state" (the 2026-08-30 taxi-heavy incident) and it is already cheap (no second session, no manual relay). Only Part 2 — the independent CHECK — is now proportional.
+**Why this exists (R34):** running the full-topic-set, separate-session, Mark-relayed CHECK (§2.1-2.7 below) on every single fresh `INDIA<N>` session was disproportionately costly. Mark needed fresh sessions frequently (ChatGPT's own session limits forced INDIA12→13→14→15 in rapid succession), and each full CHECK cost him real manual relay time and a whole second ChatGPT conversation — even for a routine continuation where nothing about the project's governing knowledge had actually changed since the last time a full CHECK passed. Part 1 (the mechanical boot + receipt, §1 above) is unaffected by any of this and stays mandatory, unweakened, for every single fresh session — it is what directly fixes "successor doesn't load current state" (the 2026-08-30 taxi-heavy incident) and it is already cheap (no second session, no manual relay). Only Part 2 — the independent CHECK — is now proportional.
 
 **Two tiers exist:**
-- **FULL CHECK** — §2.1-2.7 below, completely unchanged mechanics: a genuinely separate CHECK session, all eight mandatory topics, two new verbatim quotes, a real START-answer relay, `check_mode: "FULL"` in the K artifact.
+- **FULL CHECK** — §2.1-2.7 below, completely unchanged mechanics: a genuinely separate CHECK session, all mandatory topics (the manifest's `check_required_challenge_topics` — see §2.3), two new verbatim quotes, a real START-answer relay, `check_mode: "FULL"` in the K artifact.
 - **LIGHT SPOT-CHECK** — §2.8 below: the SAME START session answers 2-3 deterministically-chosen topics itself, no second session, no relay, `check_mode: "LIGHT"` in the K artifact.
 
 **How a session determines which tier it is ALLOWED to use — mechanical, not a judgment call:**
@@ -77,7 +77,7 @@ After real receipt PASS, report only the compact handoff facts needed for CHECK:
 A FULL CHECK is required (never substitute LIGHT) when ANY of these is true:
 1. **No prior FULL check has ever PASSED against the CURRENT exact `central_required` file content.** Concretely: `governance/scripts/validate_independent_check.py` walks `governance/boot_checks/` (live directory + its `test_fixtures/` subdirectory) for every check artifact whose `check_mode` is `"FULL"` (or absent — every check written before 2026-09-01 counts as FULL) and whose own `check_gate` is `"PASS"`; for each, it reads that check's reviewed receipt's `boot_head_final` and computes the real git blob SHA of every path in the manifest's `central_required` array AT THAT COMMIT; it then compares that map, path-for-path, against the same map computed at the CURRENT session's own `boot_head_final`. If ANY prior FULL check's map is an EXACT match, LIGHT is eligible. If none match — because a `central_required` file's content differs even by one byte, a `central_required` path was added/removed, or no prior FULL check exists at all — LIGHT is NOT eligible and a FULL CHECK is required.
    - **This is deliberately never a hand-maintained pointer/version field.** R30 already established that a manually-tracked sync field rots the moment one governance file is edited without the tracker being updated in the same breath. Tier eligibility is instead recomputed live, every time, straight from git blob SHAs and the actual `governance/boot_checks/` history — there is nothing to forget to update.
-   - **This scope is `central_required` ONLY** (the 16-file governance/behavior core), never `cci_required` (pinned/immutable, cannot change) or `active_cluster_required` (changes constantly with ordinary travel-content progress — tying tiering to it would force a FULL check on every routine cluster update and defeat the entire point).
+   - **This scope is `central_required` ONLY** (the governance/behavior core — 17 files as of this consensus patch; read `BOOT_MANIFEST_V8.json` for the exact current count/list rather than trusting a number written here), never `cci_required` (pinned/immutable, cannot change) or `active_cluster_required` (changes constantly with ordinary travel-content progress — tying tiering to it would force a FULL check on every routine cluster update and defeat the entire point).
    - Practical consequence: **any commit that changes a `central_required` file's content — including this very redesign — makes the FIRST session to boot afterward require a FULL CHECK**, because no prior FULL check's blob-SHA map can match the new content yet. That first FULL check then becomes the new baseline every subsequent LIGHT-eligible session compares against. This is intentional: a change to the governing rules themselves should be verified once against the new rules, not silently grandfathered in.
 2. **Mark explicitly requests a FULL check for any reason** — he does not need to justify it; "doe toch maar de volledige CHECK" is sufficient.
 3. **Any prior LIGHT spot-check in the current repository state FAILED and has not since been superseded by a passing FULL check.** A spot-check FAIL always escalates to requiring a FULL check next; it never silently degrades further and never gets a second LIGHT attempt in its place.
@@ -96,18 +96,11 @@ The CHECK independently verifies the mechanical evidence; it never trusts START'
 ### 2.2 Two new quotes
 Demand and verify TWO NEW verbatim full-sentence quotes, each >=40 characters, from two different mandatory files not used as sources in the receipt's original `proof_of_read`. Verify against the pinned source at C or immutable CCI commit.
 
-### 2.3 Eight mandatory applied challenges
-All eight manifest topics are mandatory:
-- `TRAIN_FIRST_DOOR_TO_DOOR`
-- `AL_BESLIST`
-- `C_DO_NOT_RE_PRESENT`
-- `NEWER_CENTRAL_OVER_CCI`
-- `GEO_VETO`
-- `CURRENT_FRONTIER`
-- `ACTION_FIRST`
-- `DURABLE_WHAT_WHY`
+### 2.3 Mandatory applied challenges — full manifest topic set
 
-Questions must be chosen after R exists and applied to the actual current pinned state, not copied as a fixed answer key. Additional challenges are allowed.
+**All topics in `BOOT_MANIFEST_V8.json`'s `check_required_challenge_topics` array are mandatory.** That array is the single authority for the exact current list and count — it is deliberately NOT re-enumerated here as a second hand-maintained copy (the R30 lesson: a hand-copied list rots the moment the manifest changes without this file being edited in the same breath; that exact staleness is what the INDIA16 consensus patch closed for the central-file count, and this file must not reintroduce the same failure shape for the topic list). Read the manifest directly before running a CHECK.
+
+Questions must be chosen after R exists and applied to the actual current pinned state, not copied as a fixed answer key. Additional challenges beyond the mandatory set are allowed.
 
 Each challenge record contains:
 - `topic`
@@ -118,23 +111,25 @@ Each challenge record contains:
 
 The validator's minimum length/word/citation floors remain binding.
 
-### 2.4 One batched round trip — preferred; eight separate relays are unnecessary
-The eight challenges remain independent records, but they SHOULD be transported as one batch.
+**`FRONTIER_CONTRADICTION_CHECK` — extended evidence requirement (INDIA16 consensus patch, 2026-09-02):** this topic exists specifically to test whether the mandatory current-state sources actually agree with each other (the confirmed `READ_COMPLETE != ACTIVE_MEMORY_COMPILED` failure class — see `INDIA_RECOVERY_DELTAS_CURRENT.md` and `INDIA_ACTIVE_MEMORY_COMPILATION_GATE.md`). For this one topic ONLY, `checker_evidence` must concretely cite all THREE of `governance/CURRENT_STATE.md`, `governance/CURRENT_DECISIONS_MASTER.md` and `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md` — a single-source citation, sufficient for every other topic, is not sufficient here. `validate_independent_check.py` enforces this mechanically (it verifies the three citations name real mandatory files, not that their content is actually reconciled — that judgment stays with the CHECK session and, ultimately, Mark).
+
+### 2.4 One batched round trip — preferred; per-topic separate relays are unnecessary
+The mandatory-topic challenges (§2.3) remain independent records, but they SHOULD be transported as one batch.
 
 Preferred relay when both sessions have GitHub access:
-1. CHECK posts one clearly identified challenge-batch comment on PR #23 containing all eight questions, session, start nonce and check nonce.
+1. CHECK posts one clearly identified challenge-batch comment on PR #23 containing all mandatory-topic questions, session, start nonce and check nonce.
 2. Mark only needs to return to the START session and say that the CHECK questions are on PR #23; he does not need to copy the questions.
-3. START independently fetches that exact comment, answers all eight under the exact topic labels from its loaded context, and posts one clearly identified answer-batch comment on PR #23.
+3. START independently fetches that exact comment, answers every question under the exact topic labels from its loaded context, and posts one clearly identified answer-batch comment on PR #23.
 4. Mark only needs to tell CHECK that the answers are on PR #23.
 5. CHECK fetches the exact START answer comment, records each answer verbatim, grades it against pinned sources, then creates K.
 
 Fallback when GitHub-comment relay is unavailable:
-- CHECK gives all eight questions in one block;
+- CHECK gives all mandatory-topic questions in one block;
 - Mark pastes that block once to START;
-- START answers all eight in one block;
+- START answers all of them in one block;
 - Mark pastes that block once back to CHECK.
 
-Eight separate question-by-question copy/paste cycles are explicitly unnecessary.
+Per-topic, question-by-question copy/paste cycles are explicitly unnecessary.
 
 PR #23 remains relay/provenance only. The durable authorization evidence is still the receipt/check artifacts and Git/Actions validation; a PR comment never becomes controlling travel truth.
 
@@ -167,7 +162,7 @@ This is the full mechanical procedure for the LIGHT tier. It reuses the exact sa
 **2.8.1 No second session, no relay.** The SAME START session that just completed Part 1 (the mechanical boot + receipt) does this itself, immediately, in the same session. There is no separate CHECK session, no Mark relay, no PR #23 batch exchange for this tier.
 
 **2.8.2 Determine the exact topic set — do this by computation, not by picking.**
-1. Take the manifest's `check_required_challenge_topics` array (the same fixed 8-topic pool used by FULL), deduplicate and sort it ascending — this is `pool`.
+1. Take the manifest's `check_required_challenge_topics` array (the same full topic pool used by FULL — see §2.3 for why this file does not re-enumerate it), deduplicate and sort it ascending — this is `pool`.
 2. Take `light_check_challenge_count` from the manifest (currently 3).
 3. For `i` in `0 .. light_check_challenge_count-1`: compute `digest = sha256(f"{boot_head_final}:LIGHT_CHECK_TOPIC_SELECT:{i}")`; `idx = int(digest.hexdigest(), 16) % len(pool)`; pop `pool[idx]` and append it to the selected list.
 4. The resulting topic set is fixed by `boot_head_final` alone — anyone can recompute it from the pinned commit hash, so it cannot be gamed by picking convenient topics, even though (unlike a FULL check's freshly-authored questions) it is not adversarially unpredictable. This is an explicit, accepted simplification for the routine case, not an oversight.
@@ -256,7 +251,7 @@ This protocol defines topics and mechanics, not a fixed answer key. CHECK must v
 Git/GitHub Actions can prove repository shape, files, script exit codes and literal validator output. They cannot prove model attention or that two conversations are cryptographically distinct. The independent semantic challenge remains the compensating human/model second opinion — **for a FULL check.** A LIGHT spot-check (§2.8) explicitly does not have that second opinion at all; §2.8.7 states that limit plainly and it must never be described as equally strong as FULL.
 
 The streamlining here intentionally removes **friction**, not **independence**, for the FULL tier itself:
-- one batch instead of eight manual relays;
+- one batch instead of one manual relay per topic;
 - GitHub comments instead of copying large blocks when possible;
 - automatic Actions instead of requiring a chat sandbox to have Git/Python network access;
 - same start architecture for every `INDIA<N>`;
