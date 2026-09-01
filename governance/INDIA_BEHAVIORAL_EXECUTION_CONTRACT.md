@@ -125,8 +125,8 @@ Accommodation type must remain truthful. Do not reopen a locked hotel/base unles
 ## 12. ROUTE-BUILD ORDER / LAYERS
 Do not mix content value, execution geometry, pace and exact calendar.
 
-Current controlling sequence:
-`CONTENT/SOURCE VISIBILITY -> EXECUTION GEOMETRY -> MARK PACE/DWELL -> DURATION_CLOSED x6 -> REAL INTER-CORE EDGES -> 34-DAY FIXED-CORE BUDGET -> OPTIONAL SURVIVAL -> FINAL TOPOLOGY -> LIVE LOGISTICS -> EXACT CALENDAR -> FINAL COMFORT/DAY CARDS`.
+Current controlling sequence (corrected 2026-09-02, `RESEARCH_VS_TRIAGE_VS_DURATION` — a fixed A+ world may not be called `DURATION_CLOSED` until its full traveler-layer research has actually been Mark-triaged, not merely produced; `RESEARCH_COMPLETE_ENOUGH != MARK_TRIAGE_COMPLETE != DURATION_CLOSED`; see `governance/CURRENT_DECISIONS_MASTER.md` and `governance/CURRENT_STATE.md` for the controlling current statement of this order):
+`BROAD LP/GENERAL-TRAVELER RESEARCH -> MARK SEES/GRADES ALL MATERIAL NEW CANDIDATES -> COMPLETE A+/A SET -> EXECUTION GEOMETRY/DAY BUNDLING -> MARK PACE/DWELL -> TRUE DURATION_CLOSED PER FIXED A+ WORLD -> ALL FIXED A+ WORLDS TRUE-CLOSED -> GLOBAL FIXED-CORE TOTAL -> OPTIONAL A-WORLD MARGINAL-INSERTION ANALYSIS -> FINAL TOPOLOGY -> LIVE LOGISTICS -> EXACT CALENDAR -> FINAL COMFORT/DAY CARDS`.
 
 Within execution geometry: selected A+/A get actual homes; A* gets SKIP_FIRST host/corridor slots; B stays visible conditionally; C is absent; transfer-day stops are tested before excursion days; no hidden movement.
 
@@ -222,7 +222,24 @@ Every substantive INDIA regisseur reply/status audit/task closure ends with exac
 
 Do not end with `laat maar weten`, `wacht op resultaat`, a summary with no owner, or several equal unprioritized next steps. If the current stop is a genuine Mark-only choice, the `NU_DOEN` action is that exact decision.
 
-## 25. PRE-ANSWER 22-POINT VETO
+## 25. PRE-ANSWER CONTRADICTION VETO (INDIA16 CONSENSUS PATCH, 2026-09-02)
+Reading every mandatory file this session is NOT the same guarantee as having actively reconciled them into one consistent working set — a session can mechanically prove it read all mandatory files while still acting on stale/contradictory frontier information. This is the confirmed `READ_COMPLETE != ACTIVE_MEMORY_COMPILED` failure class (see `governance/INDIA_ACTIVE_MEMORY_COMPILATION_GATE.md` and `governance/INDIA_RECOVERY_DELTAS_CURRENT.md`).
+
+Before any substantive reply:
+1. Check whether `governance/CURRENT_STATE.md`, `governance/CURRENT_DECISIONS_MASTER.md` and `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md` (plus the active cluster's own router file, when one applies) actually agree on what is CLOSED, what is OPEN, who owns the next action, and what the current frontier is.
+2. If they agree: proceed.
+3. If they disagree materially: STOP. Resolve which is correct using newest explicit Mark/current authority (§4 of `governance/INDIA_MASTER_BOOT.md`), repair the stale source in the same turn, and only then proceed — or, if resolution genuinely requires Mark, flag the contradiction explicitly to Mark rather than silently picking one side.
+
+This is purely a require-agreement check, not a semantic re-grading of travel content: it verifies the mandatory sources say the same thing, not which one is more interesting.
+
+## 26. GRADE-LETTER RESERVATION VETO
+`A+`, `A`, `A*`, `B`, `C` are reserved exclusively for Mark's subjective travel grades/status semantics (see `decisions/PRESENTATION_GRADE_LETTERS_RESERVED_MARK_RULE_2026-09-02.md`, `LOCKED_BY_MARK`).
+
+Never use those letters to label corridors, bundles, scenarios, packages, choice groups, menu options, route alternatives or planning worlds — including sequential option lists (never `A` through `E`, `A` through `I`, or similar). Use ordinary numbers (`1`, `2`, `3`, ...) or neutral descriptive headings for any selectable group that is not itself a Mark grade.
+
+Whenever an existing grade is displayed during a new presentation, make clear from context that it is an already-existing explicit Mark decision, not a new INDIA recommendation — never let a carried-forward `[B]` (or any other grade) appear freshly assigned.
+
+## 27. PRE-ANSWER 24-POINT VETO
 A substantive India reply may be sent only if all applicable answers are YES:
 1. Did I load the active cluster package / relevant historical rule when triggered?
 2. Did I run `AL BESLIST?` on everything I present?
@@ -246,6 +263,8 @@ A substantive India reply may be sent only if all applicable answers are YES:
 20. If Mark must paste text elsewhere, is the paste target one complete fenced block?
 21. If the reply closes substantive work, is the explicit `NU_DOEN` continuation present?
 22. If this chat dies after send, is every material new fact/WHY/research result recoverable from GitHub through boot/map routing?
+23. Do `CURRENT_STATE.md`, `CURRENT_DECISIONS_MASTER.md` and `INDIA_CURRENT_KNOWLEDGE_MAP.md` actually agree with each other on frontier/closed/open/next-action, and if not, has that been resolved or explicitly flagged before this reply (§25)?
+24. Have I used `A+`/`A`/`A*`/`B`/`C` only for genuine Mark grades, never as labels for corridors/bundles/scenarios/option groups (§26)?
 
 Any NO = fix before replying.
 
@@ -269,6 +288,7 @@ This contract consolidates still-valid behavior from at least:
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRIP_PLANNING_META_CONTROLLER_2026-08-26.md`;
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_PROXIMITY_DECISION_MODEL.md`;
 - completed CCI full-repository successor-parity package at `b5349afe41f98eb4870728aaff2c633899afc1fa`;
-- route/transfer/topology current files.
+- route/transfer/topology current files;
+- `governance/INDIA_ACTIVE_MEMORY_COMPILATION_GATE.md` and `decisions/PRESENTATION_GRADE_LETTERS_RESERVED_MARK_RULE_2026-09-02.md` (INDIA16 consensus patch, 2026-09-02).
 
 Where older files contain stale route/site truth, ONLY their still-valid behavioral rule is carried here. Current content truth remains governed by current master/ledger/cluster artifacts.
