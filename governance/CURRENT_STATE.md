@@ -1,15 +1,18 @@
 # CURRENT STATE — INDIA
 
-state_revision: 2026-09-01_INDIA14_TO_INDIA15_OPTIONAL_WORLD_MARK_BLOCKER
+state_revision: 2026-09-01_INDIA14_TO_INDIA15_OPTIONAL_WORLD_MARK_BLOCKER_FINAL
 branch: `agent/india8-cluster-casting`
-status: INDIA14_HANDOFF_FINALIZING__TRAVEL_FRONTIER_OPTIONAL_WORLD_SURVIVAL
+status: INDIA14_HANDOFF_COMPLETE__WAITING_MARK_OPTIONAL_WORLD_SURVIVAL
 boot_authority: `governance/INDIA_MASTER_BOOT.md` + `governance/FRESH_SESSION_BOOT_GATE.md` + `governance/BOOT_MANIFEST_V8.json`
+manifest_active_cluster: `GLOBAL_OPTIONAL_WORLD_SURVIVAL`
 detailed_handoff: `governance/INDIA14_TO_INDIA15_HANDOFF_2026-09-01.md`
 
 ## BOOT / SUCCESSOR ARCHITECTURE — CLOSED
 INDIA14 completed V8 boot + independent CHECK with CONTENT_AUTHORIZATION: GRANTED. Future sessions use the universal V8.1 protocol stored at legacy path `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md`. Do not reopen boot architecture without a real failure.
 
 For INDIA15 specifically: a fresh session still starts UNBOOTED and must complete its own receipt + independent CHECK/final authorization. After GRANTED, the universal protocol now requires a three-pass frontier parity audit before the first substantive content reply.
+
+The boot manifest's active frontier has been synchronized to `GLOBAL_OPTIONAL_WORLD_SURVIVAL`; its active required set now contains the final INDIA14->INDIA15 handoff, fixed-edge/budget, traveler-integrity, traveler-repair, Delhi food/cinema and optional-world decision-ready artifacts. The old Tiruvannamalai-only active boot set is superseded.
 
 ## COMPLETED GLOBAL STAGES
 The following project stages are complete at the currently required planning precision:
@@ -166,13 +169,13 @@ Automatically:
 5. continue to live logistics/calendar until the next genuine Mark-only decision.
 
 ## INDIA14 -> INDIA15 HANDOFF / ERRORS
-Detailed three-iteration handoff:
+Detailed three-iteration final handoff:
 `governance/INDIA14_TO_INDIA15_HANDOFF_2026-09-01.md`.
 
 Key anti-regressions from this predecessor:
 - pseudo-precision/personal-routine Tiruvannamalai timing was wrong and is superseded by human-scale planning;
 - side interruptions must not erase the underlying task or work order;
-- `SUCCESSOR_SAFE_STATE.md` and `INDIA_CURRENT_KNOWLEDGE_MAP.md` were found stale relative to this file during handoff and were explicitly repaired;
+- `SUCCESSOR_SAFE_STATE.md`, `INDIA_CURRENT_KNOWLEDGE_MAP.md` and the manifest active-cluster set were found stale during handoff and were explicitly repaired;
 - LP/general-traveler and person/spiritual layers remain separate;
 - current transport products are planning-class evidence, not exact Jan-2027 guarantees;
 - V8.1 boot architecture is closed for ordinary travel work.
