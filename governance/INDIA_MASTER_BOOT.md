@@ -18,7 +18,7 @@ Mark only needs:
 
 Even a full mechanical receipt PASS (`--require-session-receipt` with matching session/nonce) is **still not content authorization** — it proves the machine-checkable facts (files pinned, blobs matched, quotes verbatim, coverage complete) but not that the model actually reasoned correctly about them. Substantive India content may begin only after an **independent CHECK** (see `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md` §2.0) separately PASSes and final authorization prints `CONTENT_AUTHORIZATION: GRANTED`.
 
-**Two CHECK tiers exist (V8.2/R34, 2026-09-01) — determine which one applies via §2.0, do not assume:** a **FULL** check (a genuinely separate session, not this one grading itself, verifying the receipt and passing all eight mandatory semantic challenges) is required unless a prior PASSing FULL check already exists whose reviewed receipt's `central_required` git-blob-SHA set exactly matches THIS session's own — that match is computed live from git every time, never read from a hand-maintained pointer. Only when that match genuinely holds (and Mark has not asked for FULL, and no unresolved prior spot-check FAIL exists) may this same session instead self-answer a **LIGHT** spot-check of 2-3 deterministically-selected topics with no second session and no Mark relay. LIGHT is real content authorization when it PASSes, not a weaker substitute pretending to be equal — but it is honestly weaker (no separated-authorship second opinion) and says so.
+**Two CHECK tiers exist (V8.2/R34, 2026-09-01) — determine which one applies via §2.0, do not assume:** a **FULL** check (a genuinely separate session, not this one grading itself, verifying the receipt and passing all mandatory semantic challenges — the manifest-derived topic set at `BOOT_MANIFEST_V8.json`'s `check_required_challenge_topics`, never a count hand-copied into this file) is required unless a prior PASSing FULL check already exists whose reviewed receipt's `central_required` git-blob-SHA set exactly matches THIS session's own — that match is computed live from git every time, never read from a hand-maintained pointer. Only when that match genuinely holds (and Mark has not asked for FULL, and no unresolved prior spot-check FAIL exists) may this same session instead self-answer a **LIGHT** spot-check of 2-3 deterministically-selected topics with no second session and no Mark relay. LIGHT is real content authorization when it PASSes, not a weaker substitute pretending to be equal — but it is honestly weaker (no separated-authorship second opinion) and says so.
 
 ## 0A. FRESH-SESSION ANTI-SKIP GATE — FAIL CLOSED
 A fresh INDIA chat/session is ALWAYS `UNBOOTED` at start, regardless of predecessor summary, injected model context, remembered facts, visible CURRENT_STATE, or confidence that the project is already known.
@@ -63,34 +63,35 @@ Read IN THIS SESSION and in this order:
 1. `governance/FRESH_SESSION_BOOT_GATE.md` — **HARD PRE-CONTENT ANTI-SKIP GATE; conversation/model/predecessor summary never substitutes for this session's boot.**
 2. `governance/INDIA_MASTER_BOOT.md` — this file completely.
 3. `governance/INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md` — **HARD PRE-ANSWER VETO distilled from predecessor rules; read completely and apply before every substantive India reply.**
-4. `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md` — **WHY MARK**: who he is as traveler, spiritual/pacing/taste/communication logic.
-5. `governance/MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md` — **HARD UNIVERSAL USER-FACING NAME + GEOGRAPHIC BURDEN FORMAT**; every India chat, every location.
-6. `governance/MAP_COORDINATE_VERIFICATION_RULE.md` — **HARD MAP/PIN/COORDINATE VETO**: no user-facing decision map, pin, route relationship or proximity conclusion from an unverified/ambiguous geocoder result; unresolved coordinate means NO PIN.
-7. `governance/INDIA_HUMAN_CENTERED_COMPLEX_TRIP_PLANNING_STANDARD.md` — **HARD DECISION-SUPPORT STANDARD**: proximity matrices, marginal burden, `je bent er toch` combinations, displacement, uncertainty/VOI, robustness, human energy, temporal fit and scenario deltas. This is mandatory immediate memory, not optional methodology reading.
-8. `governance/FINAL_COMFORT_SWEEP_RULE_2026-08-23.md` — **HARD END-STAGE FOOD / COFFEE / BREAKFAST / LUNCH / DINNER / HUMAN-TEXTURE RULE** anchored to the actual chosen sleep base and real day corridor; never omit it from final day-card production.
-9. `governance/TRIP_FRAME_HARD.md` — exact booked international flights + 33-India-night envelope.
-10. `governance/CURRENT_DECISIONS_MASTER.md` — **WHAT IS CURRENT NOW**; primary fast `AL BESLIST?` view.
-11. `governance/DECISION_LEDGER.jsonl` — **WHY / PROVENANCE / SUPERSEDES**; durable append-only decision-event memory.
-12. `governance/CURRENT_STATE.md` — compact current frontier, closed footprints and exact next Mark-only action.
-13. `governance/SUCCESSOR_SAFE_STATE.md` — **HARD CRASH-RECOVERY CHECKPOINT, READ EVEN IF `CURRENT_STATE.md` SEEMS COMPLETE.** If the two differ materially, that is itself a memory-system failure: reconcile using newest explicit Mark/current authority before advice.
-14. `governance/INDIA_RECOVERY_DELTAS_CURRENT.md` — anti-regression traps recovered from INDIA1–12 failures.
-15. `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md` — conditional routing to exact cluster/detail/provenance sources.
-16. `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md` — **HARD START + INDEPENDENT CHECK PROTOCOL**: the canonical two/three-commit HEAD shape, the receipt/CHECK mechanics, §2.0's FULL-vs-LIGHT tier determination, the mandatory eight-topic semantic veto set for FULL, and the deterministic 2-3-topic LIGHT spot-check procedure (§2.8); read completely, not merely invoked from memory.
+4. `governance/INDIA_ACTIVE_MEMORY_COMPILATION_GATE.md` — **HARD PRE-ANSWER COMPILATION CHECK**: read-without-compilation (mechanically proving every mandatory file was read while still acting on a stale/contradictory working set) is a distinct failure from not reading at all; this gate closes that gap by requiring the mandatory current-state/decisions/knowledge-map sources to be actively reconciled against each other, not merely individually read, before substantive reply.
+5. `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md` — **WHY MARK**: who he is as traveler, spiritual/pacing/taste/communication logic.
+6. `governance/MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md` — **HARD UNIVERSAL USER-FACING NAME + GEOGRAPHIC BURDEN FORMAT**; every India chat, every location.
+7. `governance/MAP_COORDINATE_VERIFICATION_RULE.md` — **HARD MAP/PIN/COORDINATE VETO**: no user-facing decision map, pin, route relationship or proximity conclusion from an unverified/ambiguous geocoder result; unresolved coordinate means NO PIN.
+8. `governance/INDIA_HUMAN_CENTERED_COMPLEX_TRIP_PLANNING_STANDARD.md` — **HARD DECISION-SUPPORT STANDARD**: proximity matrices, marginal burden, `je bent er toch` combinations, displacement, uncertainty/VOI, robustness, human energy, temporal fit and scenario deltas. This is mandatory immediate memory, not optional methodology reading.
+9. `governance/FINAL_COMFORT_SWEEP_RULE_2026-08-23.md` — **HARD END-STAGE FOOD / COFFEE / BREAKFAST / LUNCH / DINNER / HUMAN-TEXTURE RULE** anchored to the actual chosen sleep base and real day corridor; never omit it from final day-card production.
+10. `governance/TRIP_FRAME_HARD.md` — exact booked international flights + 33-India-night envelope.
+11. `governance/CURRENT_DECISIONS_MASTER.md` — **WHAT IS CURRENT NOW**; primary fast `AL BESLIST?` view.
+12. `governance/DECISION_LEDGER.jsonl` — **WHY / PROVENANCE / SUPERSEDES**; durable append-only decision-event memory.
+13. `governance/CURRENT_STATE.md` — compact current frontier, closed footprints and exact next Mark-only action.
+14. `governance/SUCCESSOR_SAFE_STATE.md` — **HARD CRASH-RECOVERY CHECKPOINT, READ EVEN IF `CURRENT_STATE.md` SEEMS COMPLETE.** If the two differ materially, that is itself a memory-system failure: reconcile using newest explicit Mark/current authority before advice.
+15. `governance/INDIA_RECOVERY_DELTAS_CURRENT.md` — anti-regression traps recovered from INDIA1–12 failures.
+16. `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md` — conditional routing to exact cluster/detail/provenance sources.
+17. `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md` — **HARD START + INDEPENDENT CHECK PROTOCOL**: the canonical two/three-commit HEAD shape, the receipt/CHECK mechanics, §2.0's FULL-vs-LIGHT tier determination, the mandatory manifest-derived semantic veto topic set for FULL (`BOOT_MANIFEST_V8.json`'s `check_required_challenge_topics` — read the manifest for the current exact list/count, never a count hand-copied into prose), and the deterministic LIGHT spot-check procedure (§2.8); read completely, not merely invoked from memory.
 
-Boot is not complete because filenames were mentioned: actually read them. `14/14`/`15/15` language from V6/early-V8 is now obsolete; the central mandatory read count is **16/16** (this file, `INDIA14_START_AND_INDEPENDENT_CHECK.md`, added 2026-08-30 as a mandatory manifest read — see R30 supersede note in `INDIA_RECOVERY_DELTAS_CURRENT.md`).
+Boot is not complete because filenames were mentioned: actually read them. `14/14`/`15/15`/`16/16` language from V6/early-V8/pre-INDIA16 is now obsolete; the central mandatory read count is authoritatively `len(BOOT_MANIFEST_V8.json["central_required"])` — **17/17** as of this consensus patch (this file, `INDIA14_START_AND_INDEPENDENT_CHECK.md`, added 2026-08-30; `INDIA_ACTIVE_MEMORY_COMPILATION_GATE.md` added 2026-09-02 — see R30/R36 supersede notes in `INDIA_RECOVERY_DELTAS_CURRENT.md`). If this number and the manifest's own count ever disagree, the manifest wins.
 
 ## 2A. CCI FULL-REPOSITORY SUCCESSOR-PARITY LAYER — MANDATORY
 
 The 2026-08-29 CCI full-repository harvest inspected 70 refs, 4,192 manifest objects, 2,002 unique tip blobs, 89 recovered deleted/renamed blobs, 218 PR comments and 1,779 commit messages; it materialized 206 knowledge atoms and passed a nine-iteration successor parity test. It found still-valid knowledge that was NOT recoverable from the former central boot alone. Therefore this is no longer optional archaeology.
 
-After the 16 central files above, every fresh INDIA successor MUST read the following CCI files from the immutable completed harvest commit `b5349afe41f98eb4870728aaff2c633899afc1fa` on `agent/cci-full-repo-knowledge-harvest`, in this order:
+After the 17 central files above, every fresh INDIA successor MUST read the following CCI files from the immutable completed harvest commit `b5349afe41f98eb4870728aaff2c633899afc1fa` on `agent/cci-full-repo-knowledge-harvest`, in this order:
 
-17. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUCCESSOR_START_HERE.md` — boot routing + parity warnings.
-18. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUPERSEDED_AND_DO_NOT_REVIVE.md` — vocabulary drift, invalidated facts, old route/sleep modules and other anti-revival traps.
-19. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/MARK_CURRENT_CANON_MASTER.md` — reconciled Mark decisions/WHY, including recovered items absent from the former central layer.
-20. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/PROJECT_PHILOSOPHY_AND_SELECTION_MODEL.md` — recovered selection philosophy, AOAY/Top-11, NOT_TO_BE_MISSED, evidence and discovery rules needed to judge NEW findings correctly.
-21. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/OPEN_MARK_DECISIONS_ONLY.md` — genuine open Mark gates plus INDIA-only repairs, conflicts and date-linked opportunities; ALWAYS reconcile against newer central state because the harvest froze against an older central commit.
-22. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/CURRENT_TRAVEL_EXECUTION_CANON.md` — execution/transfer/topology/day-order facts, weak pins and live-recheck boundaries.
+18. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUCCESSOR_START_HERE.md` — boot routing + parity warnings.
+19. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUPERSEDED_AND_DO_NOT_REVIVE.md` — vocabulary drift, invalidated facts, old route/sleep modules and other anti-revival traps.
+20. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/MARK_CURRENT_CANON_MASTER.md` — reconciled Mark decisions/WHY, including recovered items absent from the former central layer.
+21. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/PROJECT_PHILOSOPHY_AND_SELECTION_MODEL.md` — recovered selection philosophy, AOAY/Top-11, NOT_TO_BE_MISSED, evidence and discovery rules needed to judge NEW findings correctly.
+22. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/OPEN_MARK_DECISIONS_ONLY.md` — genuine open Mark gates plus INDIA-only repairs, conflicts and date-linked opportunities; ALWAYS reconcile against newer central state because the harvest froze against an older central commit.
+23. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/CURRENT_TRAVEL_EXECUTION_CANON.md` — execution/transfer/topology/day-order facts, weak pins and live-recheck boundaries.
 
 The CCI files are **recovery evidence frozen in time, not a higher authority than later central Mark decisions**. Apply §4 precedence. If a CCI frontier/open item has since been closed centrally, the newer central truth wins; the recovered philosophy/WHY/anti-regression knowledge remains valuable unless explicitly superseded.
 
@@ -99,7 +100,7 @@ Reference-only when needed: `KNOWLEDGE_ATOMS.jsonl`, `COVERAGE_MANIFEST.csv`, `H
 **The former temporary eleven-file migration-safety read is retired.** `INDIA_CURRENT_KNOWLEDGE_MAP.md` is now `DECISION_LEDGER_BACKFILL_COMPLETE`. Detailed legacy IDs/grades remain conditionally available through the knowledge map; the CCI parity layer above is additive and mandatory because the parity audit proved the former boot alone still lost material predecessor knowledge.
 
 ## 2B. APPEND-ONLY SESSION RECEIPT — MANDATORY OUTPUT, NOT A SUBSTITUTE READ
-After all 22 mandatory reads and BEFORE substantive work, create a NEW append-only receipt file at `governance/boot_receipts/INDIA<N>__<NONCE>.json` for the CURRENT session. This is the authoritative machine-verifiable proof; `governance/BOOT_SESSION_RECEIPT.md` may optionally still be refreshed as a human-readable pointer/index to the latest receipt, but it is NEVER itself sufficient proof and the validator does not trust it.
+After all 23 mandatory reads (17 central + 6 CCI) and BEFORE substantive work, create a NEW append-only receipt file at `governance/boot_receipts/INDIA<N>__<NONCE>.json` for the CURRENT session. This is the authoritative machine-verifiable proof; `governance/BOOT_SESSION_RECEIPT.md` may optionally still be refreshed as a human-readable pointer/index to the latest receipt, but it is NEVER itself sufficient proof and the validator does not trust it.
 
 Minimum PASS fields in the JSON receipt (see `governance/boot_receipts/README.md` for the exact schema and `governance/scripts/validate_successor_boot.py` for the enforced contract):
 - `india_session` / `nonce` — exact expected INDIA label and exact start-prompt nonce, never reused from a prior session;
@@ -208,8 +209,8 @@ Six fixed A+ worlds:
 5. VARANASI / SARNATH
 6. TIRUVANNAMALAI / ARUNACHALA
 
-Active sequence:
-`FIXED CORE CONTENT/CANON -> FULL RELEVANT SOURCE VISIBILITY -> EXECUTION GEOMETRY -> MARK PACE/DWELL -> DURATION_CLOSED x6 -> REAL INTER-CORE EDGES -> FIXED_CORE_34_DAY_BUDGET -> OPTIONAL WORLD SURVIVAL -> FINAL TOPOLOGY -> LIVE LOGISTICS -> EXACT CALENDAR -> FINAL COMFORT SWEEP / DAY CARDS`.
+Active sequence (corrected 2026-09-02, `RESEARCH_VS_TRIAGE_VS_DURATION` — see `governance/CURRENT_DECISIONS_MASTER.md` and `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/MARK_TRAVELER_LAYER_TO_DURATION_ORDER_CORRECTION_2026-09-02.md`; the former sequence let a fixed A+ world be called `DURATION_CLOSED` before Mark had actually triaged all its material traveler-layer findings — `RESEARCH_COMPLETE_ENOUGH != MARK_TRIAGE_COMPLETE != DURATION_CLOSED`):
+`BROAD LP/GENERAL-TRAVELER RESEARCH -> MARK SEES/GRADES ALL MATERIAL NEW CANDIDATES -> COMPLETE A+/A SET -> EXECUTION GEOMETRY/DAY BUNDLING -> MARK PACE/DWELL -> TRUE DURATION_CLOSED PER FIXED A+ WORLD -> ALL FIXED A+ WORLDS TRUE-CLOSED -> GLOBAL FIXED-CORE TOTAL -> OPTIONAL A-WORLD MARGINAL-INSERTION ANALYSIS -> FINAL TOPOLOGY -> LIVE LOGISTICS -> EXACT CALENDAR -> FINAL COMFORT/DAY CARDS`.
 
 No optional-world ballot and no exact final calendar before fixed-core gates close.
 
@@ -353,7 +354,7 @@ Do not continuously poll PR #23. Reconcile only material new information into ce
 # 15. BOOT SELF-TEST — BEFORE FIRST SUBSTANTIVE ADVICE
 A successor must be able to answer internally, from GitHub, without asking Mark:
 1. What exact BOOT_HEAD did I read, and did central move during boot?
-2. Did I actually read all 16 central + 6 CCI mandatory files in THIS session, continue every truncation to EOF, and write a NEW append-only receipt at `governance/boot_receipts/INDIA<N>__<NONCE>.json` with `boot_gate: PASS` (never merely `BOOT_SESSION_RECEIPT.md`, which is at most an optional human pointer, not authoritative proof)?
+2. Did I actually read all 17 central + 6 CCI mandatory files in THIS session (exact current count always taken live from `BOOT_MANIFEST_V8.json`, never from a hand-copied number), continue every truncation to EOF, and write a NEW append-only receipt at `governance/boot_receipts/INDIA<N>__<NONCE>.json` with `boot_gate: PASS` (never merely `BOOT_SESSION_RECEIPT.md`, which is at most an optional human pointer, not authoritative proof)?
 3. What are the exact international flight times and why are there 33 India nights?
 4. What do A+, A, A*, B, C mean?
 5. What are the six fixed worlds?
