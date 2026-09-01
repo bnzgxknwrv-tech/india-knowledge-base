@@ -1,7 +1,7 @@
 # INDIA SUCCESSOR START + INDEPENDENT CHECK PROTOCOL — V8.1 CANONICAL
 
 Status: **BINDING / CANONICAL START + INDEPENDENT CHECK ARTIFACT / MANDATORY MANIFEST READ**
-Effective: 2026-08-31
+Effective: 2026-09-01
 Manifest: `governance/BOOT_MANIFEST_V8.json`
 Path note: this protocol deliberately remains stored at `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md` for backward compatibility with existing prompts, validators and manifests. **Its scope is NOT INDIA14-specific. It governs INDIA14, INDIA15 and every later `INDIA<N>` successor until explicitly superseded in central governance.**
 Owner: this file is the canonical merge point of the START protocol and INDEPENDENT CHECK protocol referenced from `governance/INDIA_MASTER_BOOT.md` and `governance/FRESH_SESSION_BOOT_GATE.md`. Mandatory file membership lives only in the manifest.
@@ -15,10 +15,12 @@ Human orchestration must be minimized:
 - no eight separate copy/paste round trips;
 - no request that Mark reconstruct project state;
 - no substantive content before the two-key gate really passes;
-- no weakening of fail-closed checks merely to save time.
+- no weakening of fail-closed checks merely to save time;
+- after authorization, no restarting completed predecessor work because an older pointer still says it is open;
+- side questions and interruptions never erase the underlying frontier unless Mark explicitly replaces it.
 
 The preferred future flow is:
-`START -> full manifest read -> R receipt -> automatic receipt CI PASS -> one independent CHECK -> one batched challenge round trip via GitHub relay (fallback: one copy/paste each way) -> K check commit -> automatic final-authorization CI -> CONTENT_AUTHORIZATION: GRANTED -> actual travel work`.
+`START -> full manifest read -> R receipt -> automatic receipt CI PASS -> one independent CHECK -> one batched challenge round trip via GitHub relay (fallback: one copy/paste each way) -> K check commit -> automatic final-authorization CI -> CONTENT_AUTHORIZATION: GRANTED -> three-pass frontier parity check -> actual travel work`.
 
 ## 1. CANONICAL HEAD/COMMIT SHAPE
 Three commits, in order:
@@ -134,9 +136,59 @@ If the CHECK environment itself has a real live Git checkout, it may additionall
 If CI fails, inspect and fix the exact failure; do not weaken validator requirements. If central moved after K, fail closed and re-establish a valid fresh boot chain rather than pretending the stale K still authorizes content.
 
 ## PART 3 — AFTER GRANTED
-Once a successful final-authorization run tied to K has printed `CONTENT_AUTHORIZATION: GRANTED`, START may resume the real current frontier immediately under ACTION_FIRST.
+Once a successful final-authorization run tied to K has printed `CONTENT_AUTHORIZATION: GRANTED`, START may resume the real current frontier under ACTION_FIRST — but only after the following three-pass successor handoff audit.
 
 The START session should verify the run itself from GitHub if necessary; Mark need not paste long validator logs. A short “CHECK klaar” or equivalent is sufficient for START to inspect K and the tied Actions result.
+
+### 3.1 THREE-PASS FRONTIER PARITY AUDIT — HARD BEFORE FIRST CONTENT REPLY
+This audit exists because predecessor chats can be interrupted, `CURRENT_STATE.md` can advance while a crash checkpoint or knowledge-map frontier lags, and an otherwise correctly booted successor can still restart completed work.
+
+**PASS 1 — CURRENT AUTHORITY PARITY**
+Compare, at the same current central state:
+- `governance/CURRENT_STATE.md`;
+- `governance/SUCCESSOR_SAFE_STATE.md`;
+- `governance/CURRENT_DECISIONS_MASTER.md`;
+- `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md` section B plus the relevant active section.
+
+Ask only: do they agree on what is CLOSED, what is OPEN, who owns the next action, and what the current frontier is?
+
+If they disagree materially, STOP content and repair the stale central pointer from newer explicit/current authority. Do not ask Mark to reconcile repository drift.
+
+**PASS 2 — INTERRUPTION / BACKLOG RECONSTRUCTION**
+Identify all work streams mentioned by the predecessor/current state and classify each:
+- `COMPLETE — DO NOT RESTART`;
+- `ACTIVE UNDERLYING TASK — RESUME`;
+- `MARK_ONLY BLOCKER — ASK ONLY THIS`;
+- `LATER / LIVE_RECHECK_LATER`;
+- `SUPERSEDED / DO NOT REVIVE`.
+
+A side question, clarification, LP sub-pass, cinema detail, map correction or other interruption never silently becomes the new global frontier unless Mark explicitly changed the work order. Completed side work belongs in `LAST_COMPLETED`, not in the successor's first action.
+
+**PASS 3 — EXACT FIRST-ACTION TEST**
+Write privately one sentence:
+`After authorization, the first substantive action is: <exact action>, because <controlling current file says so>.`
+
+Then test:
+- Is this action still open NOW?
+- Is it owned by INDIA or by Mark?
+- Am I about to redo something already completed in the same current state?
+- Am I asking a different question before the genuine Mark-only blocker?
+- If this chat died after my next reply, would the next successor know the same first action from GitHub?
+
+Only after all answers are clean may substantive work resume.
+
+### 3.2 CURRENT PREDECESSOR HANDOFF POINTERS
+A successor-specific detailed handoff may exist for crash explanation, but it never replaces the mandatory current authority stack. If `CURRENT_STATE.md` or `SUCCESSOR_SAFE_STATE.md` explicitly points to a current predecessor handoff, read it after authorization for sequence/error context, then filter it through current authority.
+
+For the INDIA14->INDIA15 transition, the detailed current pointer is:
+`governance/INDIA14_TO_INDIA15_HANDOFF_2026-09-01.md`.
+
+Do not create a new successor-specific boot architecture merely because the handoff file names INDIA15. This universal protocol remains the boot.
+
+### 3.3 FORWARD-FIELD FUTURE-READER TEST
+Before writing any checkpoint's `NEXT_AUTOMATIC_STEP`, ask:
+`Will this sentence still be future-tense true for a fresh reader after the commit containing it already exists?`
+If not, the action belongs in `LAST_COMPLETED`.
 
 ## DO NOT HARD-CODE ANSWERS
 This protocol defines topics and mechanics, not a fixed answer key. CHECK must validate against the actual pinned mandatory sources. Current facts change; the topics are standing vetoes, not memorized prose.
@@ -148,6 +200,7 @@ The streamlining here intentionally removes **friction**, not **independence**:
 - one batch instead of eight manual relays;
 - GitHub comments instead of copying large blocks when possible;
 - automatic Actions instead of requiring a chat sandbox to have Git/Python network access;
-- same start architecture for every `INDIA<N>`.
+- same start architecture for every `INDIA<N>`;
+- three-pass post-authorization parity instead of relying on one potentially stale frontier pointer.
 
 END INDIA SUCCESSOR START + INDEPENDENT CHECK PROTOCOL
