@@ -44,4 +44,6 @@ Mechanical receipt PASS still prints/means `CONTENT_AUTHORIZATION: NOT_GRANTED` 
 ## Test fixtures
 `governance/boot_receipts/test_fixtures/` is test-only. `TEST_FIXTURE_*` labels can never authorize a real `INDIA<N>` session.
 
+Each fixture is pinned to one specific historical `boot_head_final` and validates only when that exact commit is actual current HEAD — by design, the same way a real receipt does. As `central_required` legitimately grows (e.g. 16 -> 17 in the INDIA16 consensus patch) or the branch simply moves forward, an older fixture stops mechanically validating against the live tip; that is expected point-in-time behavior, not fixture rot, and does not need "fixing" by editing its pinned content after the fact. It does mean an older FULL fixture can no longer serve as a `find_prior_full_check_match` baseline for LIGHT-tier eligibility once `central_required`'s content has changed — which is the correct R34 behavior (a governance-rule change requires one fresh FULL check as the new baseline), not a defect in the fixture.
+
 See `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md` (legacy filename; future-universal protocol) and `governance/scripts/validate_successor_boot.py`.
