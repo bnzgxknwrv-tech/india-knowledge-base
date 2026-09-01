@@ -18,7 +18,7 @@ Crash test:
 2. Update owning detailed files first, then this compact checkpoint.
 3. Side questions preserve the underlying frontier unless Mark explicitly replaces it.
 4. `CURRENT_STATE.md` and this file must agree materially.
-5. `INDIA_CURRENT_KNOWLEDGE_MAP.md` must not point to a superseded frontier.
+5. `CURRENT_DECISIONS_MASTER.md` and `INDIA_CURRENT_KNOWLEDGE_MAP.md` must not point to a superseded frontier.
 6. Never override newer explicit Mark/current authority.
 7. A fresh successor always starts UNBOOTED and must create its own receipt/check chain.
 8. No material knowledge may live only in chat.
@@ -51,6 +51,9 @@ LAST_COMPLETED:
 - `INDIA_CURRENT_KNOWLEDGE_MAP.md` repaired from stale Tiruvannamalai/Agra/Delhi open-duration pointers to the real optional-world frontier.
 - universal V8.1 START/CHECK protocol strengthened with a post-authorization three-pass frontier parity audit.
 - `BOOT_MANIFEST_V8.json` active cluster moved from stale `TIRUVANNAMALAI_ARUNACHALA` to `GLOBAL_OPTIONAL_WORLD_SURVIVAL` with six current mandatory active files.
+- post-iteration verification found and repaired `CURRENT_DECISIONS_MASTER.md`, which still exposed `REAL INTER-CORE EDGES` as current and had stale optional-world/Delhi reserve materialization.
+- `DECISION_LEDGER.jsonl` append-repaired through DL-0053, adding current Delhi B reserve grades plus human-scale timing, Girivalam sleep-base start/end and LP-vs-person-layer method guards.
+- detailed handoff updated to `ITERATION 3 FINAL + POST-VERIFY` and explicitly records that the post-verify caught real defects rather than claiming the third iteration was flawless.
 
 CURRENT OPTIONAL-WORLD DECISION SURFACE:
 - **Braj / Mathura–Vrindavan–Govardhan** — inclusion unresolved; protected existing A sites include Neem Karoli Baba Ashram + Mahasamadhi Mandir and Katyayani Peeth / Keshav Ashram. Lean survival = 1 night; very strong payoff/friction beside Agra.
@@ -68,15 +71,16 @@ PACKAGES READY FOR MARK:
 - custom combination allowed.
 
 DELHI / IMAX STATE:
-Do not reopen as unfinished. Current Mark B reserves include PVR Priya IMAX, Hauz Khas Village, Humayun's Tomb [UNESCO WH], and Sunder Nursery. The later cinema research file does not assign grades and therefore may show OPEN research labels; the explicit Mark decision artifact controls grade truth. PVR Priya is the current large-modern-IMAX enthusiast pick, with exact film/showtime/subtitle/screen live-rechecked only at the final Delhi day-card stage; Delite remains an OPEN cultural-cinema alternative, not a forced stop.
+Do not reopen as unfinished. Current Mark B reserves include PVR Priya IMAX, Hauz Khas Village, Humayun's Tomb [UNESCO WH], and Sunder Nursery. The later cinema research file does not assign grades and therefore may show OPEN research labels; the explicit Mark decision artifact and DL-0050 control grade truth. PVR Priya is the current large-modern-IMAX enthusiast pick, with exact film/showtime/subtitle/screen live-rechecked only at the final Delhi day-card stage; Delite remains an OPEN cultural-cinema alternative, not a forced stop.
 
 KNOWN INDIA14 FAILURE MODES NOW DURABLE:
 - avoid pseudo-precise local schedules and personal-routine micromanagement; use human quarter/half-hour timing and fit-for-purpose travel ranges;
 - small same-site coordinate differences do not justify precision theatre, while wrong entity/access geometry remains a hard veto;
+- Girivalam operationally starts/ends at the actual Tiruvannamalai sleep base; do not invent a separate route-app trailhead transfer;
 - interruptions never cancel the active authorized task unless Mark explicitly replaces it;
 - LP/general-traveler discovery remains separate from person/spiritual/TOP-X research;
 - planning-class current transport products remain `LIVE_RECHECK_LATER`, not Jan-2027 guarantees;
-- crash state, knowledge map and manifest active frontier must move with the real frontier; stale successor pointers are a hard memory-system defect;
+- crash state, decision master, knowledge map, decision ledger and manifest active frontier must move with the real frontier; stale successor pointers are a hard memory-system defect;
 - boot architecture V8.1 is closed for ordinary travel work; do not reopen it without a real failure.
 
 NEXT_AUTOMATIC_STEP:
