@@ -133,7 +133,15 @@ active = manifest.get("active_cluster_required", [])
 cci_commit = manifest.get("cci_commit", "")
 manifest_branch = manifest.get("branch", "")
 
-if len(central) != 16: fail(f"manifest central count {len(central)} != 16")
+# R36: do NOT hardcode an exact expected central_required count here. A
+# literal exact-count trip wire (formerly "!= 16") mechanically FAILs every
+# session the moment central_required legitimately grows (e.g. the
+# compilation-gate file added in this consensus patch took it 16 -> 17) --
+# that staleness is itself the READ_COMPLETE != ACTIVE_MEMORY_COMPILED
+# failure class this patch exists to close, so this validator must not
+# reproduce it. Only a non-empty floor is enforced; the real count is always
+# read live from the manifest itself (`len(central)` throughout this file).
+if len(central) < 1: fail("manifest central_required is empty")
 if len(cci) != 6: fail(f"manifest CCI count {len(cci)} != 6")
 if len(active) < 1: fail("manifest active-cluster set empty")
 if len(set(central)) != len(central): fail("duplicate central path in manifest")
@@ -154,6 +162,29 @@ for rel in CROSS_REF_FILES:
     txt = fp.read_text(encoding="utf-8")
     if "BOOT_MANIFEST_V8.json" not in txt:
         fail(f"{rel} does not point to canonical V8 manifest")
+
+# R36 / confirmed INDIA16 bug: this validator used to check a receipt's
+# active_cluster only against the MANIFEST's own active_cluster field, with
+# no cross-check against governance/CURRENT_STATE.md's `manifest_active_cluster:`
+# value -- the more authoritative, human-legible source. A session that
+# correctly derived the frontier from CURRENT_STATE.md could mechanically
+# FAIL while one that echoed a stale manifest value would PASS. This is a
+# narrow, purely structural string-equality check: it does not judge which
+# value is "right," only that the two currently-designated authorities agree.
+current_state_fp = ROOT / CURRENT_STATE
+if not current_state_fp.is_file():
+    fail(f"missing {CURRENT_STATE}")
+else:
+    cs_text = current_state_fp.read_text(encoding="utf-8")
+    m = re.search(r"^manifest_active_cluster:\s*`([^`]+)`", cs_text, flags=re.MULTILINE)
+    if not m:
+        fail(f"{CURRENT_STATE} has no parseable `manifest_active_cluster:` line")
+    else:
+        manifest_active_cluster_value = m.group(1)
+        if manifest_active_cluster_value != manifest.get("active_cluster"):
+            fail(f"active_cluster mismatch: {CURRENT_STATE} manifest_active_cluster "
+                 f"{manifest_active_cluster_value!r} != manifest active_cluster "
+                 f"{manifest.get('active_cluster')!r}")
 
 # Existing crash-safe hard fields remain mandatory.
 safe = ROOT / "governance/SUCCESSOR_SAFE_STATE.md"
