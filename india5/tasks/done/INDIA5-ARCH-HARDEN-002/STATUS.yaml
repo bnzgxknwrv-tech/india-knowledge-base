@@ -1,0 +1,45 @@
+task_id: INDIA5-ARCH-HARDEN-002
+state: COMPLETED
+claimed_at: '2026-08-02T20:31:24.590909+00:00'
+claimed_by: CCI
+started_at: '2026-08-02T20:31:24.590909+00:00'
+completed_at: '2026-08-02T20:45:38.507458+00:00'
+git_commit_at_claim: null
+git_commit_at_complete: null
+completion_marker_found: true
+failure_reason: null
+pre_existing_dirty_paths:
+- india4/protocols/INDIA5-PROTOCOL.md
+- india4/registries/
+- india4/roles/BRONS.md
+- india4/roles/PRE-BRONS.md
+- india4/scripts/
+- india4/templates/BATCH_OUTPUT.md
+- india4/templates/PRE_BRONS_REGION_CONTENT_BRIEF_TEMPLATE.md
+hold:
+  active: false
+  reason: null
+  set_at: null
+  set_by: null
+result_comment_posted: true
+history:
+- at: '2026-08-02T20:30:00Z'
+  event: ISSUED
+  detail: 'Taak overgenomen uit PR #23 CCI_TASK_ENVELOPE (INDIA2) en vastgelegd als
+    canoniek taakbestand. GECORRIGEERD 2026-08-02: het origineel had een niet-gequote
+    "#23" die door YAML als commentaar werd geinterpreteerd en stilzwijgend werd afgekapt
+    bij de eerste her-serialisatie (echte bevinding uit INDIA5-ARCH-HARDEN-002, zie
+    RESULT.md).'
+- at: '2026-08-02T20:31:24.590909+00:00'
+  event: CLAIMED
+  detail: queue -> active, door CCI
+- at: '2026-08-02T20:31:24.590910+00:00'
+  event: HARDENING_PATCH
+  detail: pre_existing_dirty_paths retroactief toegevoegd (feature bestond nog niet
+    op claimmoment); YAML-truncatiebug in bovenstaande ISSUED-regel gecorrigeerd.
+- at: '2026-08-02T20:45:38.507458+00:00'
+  event: COMPLETED
+  detail: active -> done, door CCI
+- at: '2026-08-02T21:15:00Z'
+  event: RESULT_COMMENT_POSTED
+  detail: 'CCI_RESULT_ENVELOPE geplaatst op PR #23 (comment 5160266108).'
