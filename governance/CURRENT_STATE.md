@@ -1,31 +1,31 @@
 # CURRENT STATE — INDIA
 
-state_revision: 2026-09-01_INDIA14_TO_INDIA15_OPTIONAL_WORLD_MARK_BLOCKER_FINAL
+state_revision: 2026-09-01_SESSION_END_CRASH_SAFE_OPTIONAL_WORLD_MARK_BLOCKER
 branch: `agent/india8-cluster-casting`
-status: INDIA14_HANDOFF_COMPLETE__WAITING_MARK_OPTIONAL_WORLD_SURVIVAL
+status: WAITING_MARK_OPTIONAL_WORLD_SURVIVAL__ALL_PRECEDING_WORKSTREAMS_COMPLETE
 boot_authority: `governance/INDIA_MASTER_BOOT.md` + `governance/FRESH_SESSION_BOOT_GATE.md` + `governance/BOOT_MANIFEST_V8.json`
 manifest_active_cluster: `GLOBAL_OPTIONAL_WORLD_SURVIVAL`
 detailed_handoff: `governance/INDIA14_TO_INDIA15_HANDOFF_2026-09-01.md`
 
 ## BOOT / SUCCESSOR ARCHITECTURE — CLOSED
-INDIA14 completed V8 boot + independent CHECK with CONTENT_AUTHORIZATION: GRANTED. Future sessions use the universal V8.2 protocol stored at legacy path `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md`. Do not reopen boot architecture without a real failure.
+Use the universal V8.2 protocol stored at `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md`. Do not reopen boot architecture without a real failure.
 
-2026-09-01 R34 update: Part 2 (the independent CHECK) is now two-tier — FULL (unchanged) or a self-answered LIGHT spot-check, chosen by `INDIA14_START_AND_INDEPENDENT_CHECK.md` §2.0 from live git blob-SHA comparison against `governance/boot_checks/` history, never a hand-maintained pointer. Because this very change edits several `central_required` files, **the first session to boot after this commit must run a FULL check** — no prior FULL check's blob-SHA map can match yet. That FULL check becomes the baseline every later LIGHT-eligible session compares against. Part 1 (mechanical boot + receipt) is completely unchanged.
+Latest repository boot evidence before this checkpoint:
+- INDIA15 receipt `governance/boot_receipts/INDIA15__9WT6G2WTETWAC.json`: `boot_gate = PASS`;
+- INDIA15 LIGHT-check artifact `governance/boot_checks/INDIA15_CHECK__9WT6G2WTETWAC.json`: `check_gate = PASS`, committed at `624cd60fdfefebd8e277fe9f3e33eb876be85a79`;
+- the LIGHT check's `CURRENT_FRONTIER` challenge explicitly confirms that fixed-core edge, budget, traveler-layer and Delhi fine-detail work are already complete and must not be reopened before the Mark-only optional-world choice.
 
-**INDIA15 receipt superseded by concurrent timing — action required before CHECK:** `governance/boot_receipts/INDIA15__HX1N4JPO3FGCFO.json` was committed (pinned `boot_head_final` = `a57218a8d5ee0221109b8e0dfb309c97e78bfde9`) while this R34 redesign was in progress; this redesign commit landed immediately after it. No `CONTENT_AUTHORIZATION` had been granted at that point (Phase 2 CHECK had not started), so nothing real is lost — but that receipt's pinned commit is no longer the branch tip and several `central_required` files it attested reading now have different content, so it can no longer serve as the R half of a valid C→R→K chain (the CHECK commit's parent must equal the exact receipt commit, and no unrelated commit may sit between them — this redesign commit is exactly such an unrelated commit). **Before attempting either CHECK tier, redo Phase 1 only:** resolve a fresh `BOOT_HEAD_FINAL` at the new HEAD, reread the changed mandatory files (this file, `SUCCESSOR_SAFE_STATE.md`, `INDIA_RECOVERY_DELTAS_CURRENT.md`, `INDIA_MASTER_BOOT.md`, `INDIA14_START_AND_INDEPENDENT_CHECK.md`, `FRESH_SESSION_BOOT_GATE.md`, `BOOT_MANIFEST_V8.json`), and write a NEW receipt under a fresh nonce (the old nonce `HX1N4JPO3FGCFO` and its receipt file remain permanent historical evidence — do not edit or delete them). The START prompt Mark already has for nonce `HX1N4JPO3FGCFO` is otherwise still valid in substance (session label, branch, procedure); only the nonce/receipt need to be fresh. Then proceed to a FULL CHECK per the R34 update above.
-
-For INDIA15 specifically: a fresh receipt + a FULL independent CHECK/final authorization (see immediately above) are both required. After GRANTED, the universal protocol still requires a three-pass frontier parity audit before the first substantive content reply.
-
-The boot manifest's active frontier has been synchronized to `GLOBAL_OPTIONAL_WORLD_SURVIVAL`; its active required set now contains the final INDIA14->INDIA15 handoff, fixed-edge/budget, traveler-integrity, traveler-repair, Delhi food/cinema and optional-world decision-ready artifacts. The old Tiruvannamalai-only active boot set is superseded.
+This session-end checkpoint itself changes central-required state files. Therefore a future fresh session must boot against the new HEAD and let V8.2 recompute CHECK eligibility from real blob SHAs. Never reuse a prior receipt/check as authorization for another fresh session and never infer LIGHT/FULL from a stale prose pointer.
 
 ## COMPLETED GLOBAL STAGES
 The following project stages are complete at the currently required planning precision:
 - `DURATION_CLOSED x6` for the guaranteed fixed A+ worlds;
 - true LP/general-traveler-layer integrity for all six fixed worlds;
+- targeted LP/traveler repairs;
 - real fixed-core inter-core edges at planning class;
 - fixed-core 34-day / 33-India-night budget;
 - Delhi food/cinema/IMAX fine-detail pass;
-- optional-world survival comparison against the real 5-night envelope.
+- objective optional-world survival comparison against the real 5-night envelope.
 
 Controlling artifacts:
 - fixed edges + budget: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/FIXED_CORE_REAL_INTERCORE_EDGES_AND_34_DAY_BUDGET_2026-09-01.md`
@@ -35,13 +35,25 @@ Controlling artifacts:
 - Delhi food/cinema detail: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_TRAVELER_FOOD_CINEMA_FINAL_PASS_2026-09-01.md`
 - optional-world decision surface: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/OPTIONAL_WORLD_SURVIVAL_DECISION_READY_2026-09-01.md`
 
+## SESSION-END INTERRUPTION RECONCILIATION — AUTHORITATIVE
+Mark explicitly warned that this conversation had been interrupted several times and asked the controller to finish the earlier work first, then the Lonely Planet layer, and only afterward the Delhi IMAX/cinema detail. Direct repository reconciliation shows:
+1. the earlier fixed-core edge/budget work = **COMPLETE**;
+2. the LP/general-traveler integrity + targeted repair work = **COMPLETE**;
+3. the Delhi cinema/IMAX fine-detail work = **COMPLETE**;
+4. the objective optional-world comparison = **COMPLETE / DECISION-READY**.
+
+The partial conversational attempt in this final session to re-enter research after that warning created no authoritative research file, no new Mark decision and no travel-content commit. It is therefore:
+`HALF_FINISHED_CHAT_WORK = NIET_MEER_GELDIG / DO_NOT_RESUME / DO_NOT_TREAT_AS_EVIDENCE`.
+
+No new Mark grade, travel choice, factual LP/IMAX finding, method correction or research result from that partial attempt remains only in chat. R21 already durably states that interruptions do not cancel underlying work, while the current INDIA15 LIGHT-check artifact explicitly states that completed edge/budget/traveler/Delhi work must not be reopened.
+
 ## SIX FIXED A+ WORLDS — GUARANTEED FOOTPRINTS CLOSED
 1. **Delhi** — minimal fixed-core model LOCKED_BY_MARK. Nirmal Dham [A+] fixed driver; one first Delhi hotel night + one final international-flight buffer hotel night; zero guaranteed generic sightseeing days. Active Delhi B reserves remain available on site and cannot force another night/day.
 2. **Kumaon** — 9 occupied days / 9 nights through final Dunagiri night. Haidakhan Vishwa Mahadham/Ashram 3 nights / 2 full quiet days LOCKED_BY_MARK. Eastern exit charged exactly once later.
 3. **Agra / Taj Mahal** — Taj Mahal [A+] [UNESCO WH] only; one Agra hotel night LOCKED_BY_MARK; earliest practical Taj morning ~3–3.5 h; second night logistics fallback only.
 4. **Bodh Gaya / Gaya** — Maya Heritage LOCKED_BY_MARK; 2 hotel nights default under useful early inbound, 3 only late/disrupted/consciously deeper; max 3. Protected pilgrimage walk remains Mahabodhi/Bodhi Tree -> Sujata -> Dungeshwari -> try ridge -> prearranged car return.
 5. **Varanasi / Sarnath** — 8 occupied days / 8 nights; Sahi River View Guesthouse, Assi Ghat LOCKED_BY_MARK; Manikarnika [A+] and Bhrigu Karyalaya/Bhadury Sadan [A+] protected under their current day rules.
-6. **Tiruvannamalai / Arunachala** — 5 nights LOCKED_BY_MARK; low tempo + standalone full Sri Ramanasramam immersion day. Protected A: Sri Ramanasramam; Virupaksha Cave; Skandashram; Arunachaleswarar/Annamalaiyar Temple; Gurumurtam; Pavalakunru/Pavazhakundru; Giripradakshina/Girivalam. Mango Tree Cave [B / ONLY_IF_NATURAL_ON_A_ROUTE]; Pachaiamman Temple [B / ONLY_IF_NATURALLY_EASY]. Old additional local LP layer remains DROPPED_BY_MARK. Richard Clarke Mango Tree Cave route page is mandatory in final document.
+6. **Tiruvannamalai / Arunachala** — 5 nights LOCKED_BY_MARK; low tempo + standalone full Sri Ramanasramam immersion day. Protected A: Sri Ramanasramam; Virupaksha Cave; Skandashram; Arunachaleswarar/Annamalaiyar Temple; Gurumurtam; Pavalakunru/Pavazhakundru; Giripradakshina/Girivalam. Mango Tree Cave [B / ONLY_IF_NATURAL_ON_A_ROUTE]; Pachaiamman Temple [B / ONLY_IF_NATURALLY_EASY]. Old additional local LP layer remains DROPPED_BY_MARK.
 
 ## DELHI RESERVE — CURRENT B TRUTH
 These are active on-site reserves, not extra-day drivers:
@@ -112,9 +124,7 @@ Do not use stale Kumbh/Ardh-Kumbh claims as a survival reason.
 
 ### Prayagraj — DEFERRED BUT CURRENT SURVIVAL RECOMMENDATION = NO
 - **Red House / 4 Church Lane — Neem Karoli Baba winter home with shrine/darshan tradition (Prayagraj) [B / ONLY_IF_ALREADY_IN_PRAYAGRAJ / ACCESS_CONFIRMED]** has zero independent route weight.
-- Agra->Prayagraj current direct trains ~6.5–9 h; Prayagraj->Gaya current direct trains ~4–7 h.
-- Inclusion destroys the very efficient Taj -> 12988 overnight -> Gaya morning edge and lacks a protected A/A+ carrier.
-- Later-January event logic is not naturally aligned with the fixed route date position and may not be used to manufacture route fit.
+- Inclusion destroys the efficient Taj -> overnight rail -> Gaya morning edge and lacks a protected A/A+ carrier.
 
 ### Puducherry + Mamallapuram southern gateway — POSITIVE / INCLUSION UNRESOLVED
 No Mark grade inferred.
@@ -122,11 +132,10 @@ Current differentiated content includes:
 - **Sri Aurobindo Ashram — Sri Aurobindo and the Mother's living ashram with their samadhi (White Town, Puducherry) [OPEN / NOT GRADED]**.
 - **Puducherry White Town — French/Tamil coastal quarter with pastel heritage streets, promenade, cafés and bakeries (Puducherry) [OPEN / NOT GRADED]**.
 - **Group of Monuments at Mahabalipuram / Mamallapuram — Pallava rock-cut caves, monolithic rathas, giant reliefs and Shore Temple (Mamallapuram) [OPEN / NOT GRADED] [UNESCO WH]**.
-Current geometry: Tiruvannamalai->Puducherry ~100–120 km / plan ~2 h car; Puducherry->Mamallapuram ~95 km / ~1.5–2 h; Mamallapuram->Chennai Airport ~51 km / human plan ~1–1.5 h. This naturally replaces part of the mandatory south exit instead of creating a major backtrack.
-Recommended survival footprint if selected = **3 nights** (2 Puducherry + 1 Mamallapuram); compressed form = 2 nights.
+Current geometry: Tiruvannamalai->Puducherry ~100–120 km / plan ~2 h car; Puducherry->Mamallapuram ~95 km / ~1.5–2 h; Mamallapuram->Chennai Airport ~51 km / human plan ~1–1.5 h. Recommended survival footprint if selected = **3 nights** (2 Puducherry + 1 Mamallapuram); compressed form = 2 nights.
 
 ### Ramakrishna
-Durable wish remains to capture one substantial route-logical genuine Ramakrishna place if possible, but no current optional corridor has produced a strong historical Ramakrishna life-site that should independently consume the five-night envelope. Modern mission branches must not be misrepresented as places Ramakrishna personally visited.
+Durable wish remains to capture one substantial route-logical genuine Ramakrishna place if possible, but no current optional corridor has produced a strong historical Ramakrishna life-site that should independently consume the five-night envelope.
 
 ## OPTIONAL PACKAGE OPTIONS READY FOR MARK
 A = **INDIA recommendation:** Braj 1 + South 3 + 1 flex.
@@ -155,14 +164,18 @@ Why A is the current recommendation:
 ## CANONICAL GLOBAL WORK ORDER
 `FIXED CORE CONTENT/CANON -> FULL RELEVANT SOURCE VISIBILITY -> EXECUTION GEOMETRY -> MARK PACE/DWELL -> DURATION_CLOSED x6 -> REAL INTER-CORE EDGES -> FIXED_CORE_34_DAY_BUDGET -> OPTIONAL WORLD SURVIVAL -> FINAL TOPOLOGY -> LIVE LOGISTICS -> EXACT CALENDAR -> FINAL COMFORT SWEEP / DAY CARDS`.
 
-Everything through `OPTIONAL WORLD SURVIVAL` objective comparison is complete. The subjective survival choice itself is the current gate.
+Everything through the objective `OPTIONAL WORLD SURVIVAL` comparison is complete. The subjective survival choice itself is the current gate.
 
-## INDIA15 EXACT FIRST SUBSTANTIVE ACTION — HARD
-After INDIA15 completes its own V8.2 boot + independent FULL CHECK final authorization (see BOOT / SUCCESSOR ARCHITECTURE — CLOSED above) and the mandatory three-pass frontier parity audit:
+## EXACT FIRST SUBSTANTIVE ACTION — HARD
+After any future fresh controller completes its own V8.2 boot + the CHECK tier required by live V8.2 eligibility + final authorization + three-pass frontier parity audit:
 
-`FIRST_CONTENT_ACTION = present/continue the existing OPTIONAL WORLD SURVIVAL choice from A/B/C/D/E or custom, with A as current INDIA recommendation.`
+**De eerste inhoudelijke actie na mij is: presenteer/continueer de bestaande OPTIONAL WORLD SURVIVAL-keuze uit pakket A/B/C/D/E of een eigen combinatie, met pakket A als huidige INDIA-aanbeveling, omdat `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/OPTIONAL_WORLD_SURVIVAL_DECISION_READY_2026-09-01.md` en dit `governance/CURRENT_STATE.md` dit als de huidige Mark-only frontier vastleggen.**
 
+`OWNER = MARK_ONLY_DECISION`.
 Do not research another subtopic first. Do not restart fixed-core edges, LP/traveler integrity, Delhi food/cinema/IMAX or six-world duration closure. Do not ask another planning question before this Mark-only gate.
+
+WAITING_FOR_MARK:
+Exactly one content choice: allocation of the 5-night optional-world envelope.
 
 ## AFTER MARK CHOOSES
 Automatically:
@@ -171,18 +184,6 @@ Automatically:
 3. refresh `CURRENT_DECISIONS_MASTER.md`, `CURRENT_STATE.md`, `SUCCESSOR_SAFE_STATE.md` and affected knowledge-map routing in the same cycle;
 4. freeze FINAL TOPOLOGY;
 5. continue to live logistics/calendar until the next genuine Mark-only decision.
-
-## INDIA14 -> INDIA15 HANDOFF / ERRORS
-Detailed three-iteration final handoff:
-`governance/INDIA14_TO_INDIA15_HANDOFF_2026-09-01.md`.
-
-Key anti-regressions from this predecessor:
-- pseudo-precision/personal-routine Tiruvannamalai timing was wrong and is superseded by human-scale planning;
-- side interruptions must not erase the underlying task or work order;
-- `SUCCESSOR_SAFE_STATE.md`, `INDIA_CURRENT_KNOWLEDGE_MAP.md` and the manifest active-cluster set were found stale during handoff and were explicitly repaired;
-- LP/general-traveler and person/spiritual layers remain separate;
-- current transport products are planning-class evidence, not exact Jan-2027 guarantees;
-- boot architecture (now V8.2, R34 two-tier CHECK) is closed for ordinary travel work; do not reopen it without a real failure or explicit Mark request.
 
 ## SUCCESSOR REPLACEABILITY RULE
 Every material research result, Mark decision, WHY, supersession, next action and decision-relevant uncertainty must be durable and GitHub-routable before substantive reply.
