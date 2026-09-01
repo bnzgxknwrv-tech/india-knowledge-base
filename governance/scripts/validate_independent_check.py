@@ -42,8 +42,10 @@ runs both and is the ONLY place that may print CONTENT_AUTHORIZATION: GRANTED.
 
 TWO-TIER CHECK (2026-09-01, R34 -- see INDIA_RECOVERY_DELTAS_CURRENT.md and
 governance/INDIA14_START_AND_INDEPENDENT_CHECK.md section 2.0/2.8): running
-the full eight-topic, separate-session, Mark-relayed CHECK on every single
-fresh INDIA<N> session was disproportionately costly for routine continuations
+the full manifest-topic-set (eight topics at the time R34 was written; the
+pool has since grown -- see check_required_challenge_topics), separate-session,
+Mark-relayed CHECK on every single fresh INDIA<N> session was disproportionately
+costly for routine continuations
 where nothing about the mandatory governance file set had actually changed.
 A check artifact now declares its own `check_mode`: `"FULL"` (unchanged
 mechanics, mandatory when missing/legacy) or `"LIGHT"` (a cheaper self-
@@ -116,6 +118,24 @@ _BANNED_TRIVIAL_NORMALIZED = {
 SOURCE_PATH_RE = re.compile(
     r"(?:governance|runs)/[A-Za-z0-9_\-./]+\.(?:md|json|jsonl)"
 )
+
+# FRONTIER_CONTRADICTION_CHECK (added to check_required_challenge_topics in
+# the INDIA16 consensus patch): this one topic exists specifically to catch
+# the confirmed failure class where mandatory current-state sources disagree
+# with each other (READ_COMPLETE != ACTIVE_MEMORY_COMPILED). Its
+# checker_evidence must therefore cite all THREE of these mandatory sources
+# by name, not just the usual single citation -- reusing the same citation-
+# detection machinery as every other topic (cited_mandatory_paths /
+# is_trivial_text), extended only in HOW MANY distinct mandatory sources are
+# required for this one topic. This verifies citations exist and name real
+# files, not that the cited content is actually reconciled -- that judgment
+# stays a human/semantic layer, not a mechanical one.
+FRONTIER_CONTRADICTION_CHECK_TOPIC = "FRONTIER_CONTRADICTION_CHECK"
+FRONTIER_CONTRADICTION_REQUIRED_SOURCES = {
+    "governance/CURRENT_STATE.md",
+    "governance/CURRENT_DECISIONS_MASTER.md",
+    "governance/INDIA_CURRENT_KNOWLEDGE_MAP.md",
+}
 
 
 def _normalize(text: str) -> str:
@@ -271,9 +291,18 @@ def validate_challenge_floor(ch, mandatory_sources: set[str], extra_paths: set[s
         fail(f"challenge checker_evidence missing, empty, or a placeholder/filler string: topic={topic}")
     elif len(evidence.strip()) < min_evidence_chars:
         fail(f"challenge checker_evidence too short (<{min_evidence_chars} chars): topic={topic}")
-    elif not cited_mandatory_paths(evidence, mandatory_sources, extra_paths):
-        fail(f"challenge checker_evidence does not cite a concrete mandatory source path "
-             f"(governance/... or runs/...) or the reviewed receipt path: topic={topic}")
+    else:
+        cited = cited_mandatory_paths(evidence, mandatory_sources, extra_paths)
+        if not cited:
+            fail(f"challenge checker_evidence does not cite a concrete mandatory source path "
+                 f"(governance/... or runs/...) or the reviewed receipt path: topic={topic}")
+        elif topic == FRONTIER_CONTRADICTION_CHECK_TOPIC:
+            missing_frontier_sources = FRONTIER_CONTRADICTION_REQUIRED_SOURCES - cited
+            if missing_frontier_sources:
+                fail(f"challenge checker_evidence for {FRONTIER_CONTRADICTION_CHECK_TOPIC} must cite "
+                     f"all three of {sorted(FRONTIER_CONTRADICTION_REQUIRED_SOURCES)} (a single-source "
+                     f"citation is not sufficient for this topic); missing: "
+                     f"{sorted(missing_frontier_sources)}")
 
     if (answer or "").strip() and (evidence or "").strip() and answer.strip() == evidence.strip():
         fail(f"challenge start_session_answer and checker_evidence must not be identical "
@@ -622,7 +651,10 @@ else:
 # ---------------------------------------------------------------------------
 # Semantic challenges.
 #
-# FULL: >= min_challenges, covering the full mandatory eight-topic veto set,
+# FULL: >= min_challenges, covering the full mandatory manifest-derived veto
+# topic set (check_required_challenge_topics; eight topics when this section
+# was first written, now larger -- never hand-copied here, see missing_topics
+# below which is always computed live from the manifest),
 # with NO material FAIL verdict anywhere. Each challenge splits the old
 # single self-authored `answer`/`evidence` pair into two independently-
 # sourced fields (Work audit fresh re-audit, MUST_FIX 1 -- see module
@@ -640,7 +672,7 @@ else:
 #
 # LIGHT (R34): exactly light_check_challenge_count topics (default 3),
 # chosen deterministically from `boot_head_final` (see
-# deterministic_light_topics above) rather than the full eight -- and the
+# deterministic_light_topics above) rather than the full manifest topic set -- and the
 # SAME session self-authors BOTH the answer and the checker_evidence/verdict
 # grading it. This is the explicit, documented tradeoff: the separated-
 # authorship protection (R31/R32) is dropped for cheapness, but the SAME
