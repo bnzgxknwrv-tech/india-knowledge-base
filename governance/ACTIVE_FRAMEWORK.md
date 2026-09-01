@@ -1,36 +1,23 @@
-# ACTIVE FRAMEWORK — CURRENT MAP
+# ACTIVE_FRAMEWORK — DEPRECATED ROUTER
 
-Effective: 2026-08-23
+Status: **SUPERSEDED / PROVENANCE POINTER ONLY**
+Effective supersession: 2026-09-02
+Branch: `agent/india8-cluster-casting`
 
-This page answers one question: what should an INDIA session treat as current authority versus useful history?
+This file was once a current authority map, but that role has been superseded by the manifest-driven successor architecture.
 
-## Current operational authority
-Use, in order of practical importance:
-1. explicit current Mark decisions and locks;
-2. `governance/CURRENT_STATE.md`;
-3. `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv` for protected permanent decisions/IDs;
-4. current task `TASK.md`/`STATUS.md` and current outputs relevant to the question;
-5. current `india4/` research workflow where a task still uses it.
+Do NOT use this file to determine boot membership, precedence, current frontier, grades, active task or cluster status.
 
-When a newer explicit Mark decision conflicts with an older stored decision, the newer explicit decision wins and the durable canon should be updated clearly.
+Use instead:
+- mandatory membership / active package: `governance/BOOT_MANIFEST_V8.json`;
+- authority and boot process: `governance/INDIA_MASTER_BOOT.md` + `governance/FRESH_SESSION_BOOT_GATE.md`;
+- current frontier: `governance/CURRENT_STATE.md` + `governance/SUCCESSOR_SAFE_STATE.md`;
+- current decisions: `governance/CURRENT_DECISIONS_MASTER.md` + `governance/DECISION_LEDGER.jsonl`;
+- conditional source routing: `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md`;
+- answer-time behavior: `governance/INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md` + `governance/INDIA_ACTIVE_MEMORY_COMPILATION_GATE.md`.
 
-## Useful history / provenance
-The following remain useful evidence but are not routine boot authority:
-- `governance/ACTIVE_STATE.md` and older session-start/handoff files;
-- old `pipeline/`, earlier `india4/india5` generations not used by the current task;
-- `governance/PRECEDENCE_MAP.jsonl`;
-- `governance/SEMANTIC_IMPORT_REGISTRY_2026-08-23.jsonl`;
-- `governance/CENTRAL_INTEGRATION_REGISTRY.jsonl`;
-- `governance/KNOWLEDGE_BASELINE_*` and INDIA9 audit archives;
-- old worker branches, staging queues, read streams and review volumes.
+The former content and older precedence model remain recoverable in Git history for provenance only.
 
-Do not delete useful history merely because it is no longer routine authority. Read it when a concrete provenance question or conflict requires it.
+Hard anti-poison rule: any older document that calls this file `CURRENT`, `ACTIVE`, `canonical authority map`, or equivalent is stale on that point. Follow the current manifest/current-state architecture instead.
 
-## Worker-output rule
-`COMPLETE` on a worker branch means the worker completed its own task. It is not automatically a new Mark decision, permanent canon or central route truth.
-
-## Time-sensitive rule
-Old logistical facts can stay in the repository. Revalidate them when they are actually about to matter to advice or booking.
-
-## Scope rule
-This is a travel knowledge base. Prefer a small number of readable current files over expanding governance layers. If a new governance mechanism does not clearly reduce repeated travel work, forgotten decisions or handoff confusion, do not add it.
+END DEPRECATED ACTIVE_FRAMEWORK
