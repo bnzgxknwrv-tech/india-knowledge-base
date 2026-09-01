@@ -1,10 +1,11 @@
 # INDIA SUCCESSOR SAFE STATE — CRASH-SAFE HANDOFF CHECKPOINT
 
 Status: **HARD LIVING CHECKPOINT / MUST BE CURRENT AFTER EVERY MATERIAL INDIA TURN**
-Effective: 2026-08-31
+Effective: 2026-09-01
 Branch: `agent/india8-cluster-casting`
 Owner: `governance/INDIA_MASTER_BOOT.md`
 Boot manifest: `governance/BOOT_MANIFEST_V8.json`
+Detailed predecessor handoff: `governance/INDIA14_TO_INDIA15_HANDOFF_2026-09-01.md`
 
 ## HARD RULE
 After every material India research, reconciliation, Mark decision, methodology correction, route/duration step, worker/CCI integration or meaningful new fact, this checkpoint must be true BEFORE substantive reply.
@@ -17,63 +18,89 @@ Crash test:
 2. Update owning detailed files first, then this compact checkpoint.
 3. Side questions preserve the underlying frontier unless Mark explicitly replaces it.
 4. `CURRENT_STATE.md` and this file must agree materially.
-5. Never override newer explicit Mark/current authority.
-6. A fresh successor always starts UNBOOTED and must create its own receipt/check chain.
-7. No material knowledge may live only in chat.
-8. Future boot mechanics are universal across `INDIA<N>`; do not create a new one-off boot design for INDIA15/16/etc unless central governance itself is deliberately superseded.
+5. `INDIA_CURRENT_KNOWLEDGE_MAP.md` must not point to a superseded frontier.
+6. Never override newer explicit Mark/current authority.
+7. A fresh successor always starts UNBOOTED and must create its own receipt/check chain.
+8. No material knowledge may live only in chat.
+9. Future boot mechanics are universal across `INDIA<N>`; do not create a new one-off boot design for INDIA15/16/etc unless central governance itself is deliberately superseded.
+10. `NEXT_AUTOMATIC_STEP` must be written from the future reader's perspective; actions completed by the same commit belong in `LAST_COMPLETED`, never in `NEXT_AUTOMATIC_STEP`.
 
 ---
 
-STATUS: SAFE_TO_HANDOFF
+STATUS: SAFE_TO_HANDOFF_AFTER_CURRENT_SYNC
 
 FRONTIER:
-The V8 boot/successor-recovery line is CLOSED for normal project work. INDIA14 successfully completed the actual receipt + independent CHECK + live canonical final authorization. The successor flow was then streamlined as V8.1 so future sessions can use the same start architecture without repeated manual technical orchestration. The live travel frontier is again the Tiruvannamalai/Arunachala rail-first inter-core transfer rebuild.
+All six guaranteed fixed A+ worlds are locally duration/footprint closed. Real fixed-core inter-core edges, the fixed-core 34-day/33-India-night budget, the true LP/general-traveler integrity audit and targeted repairs, and the final Delhi food/cinema/IMAX fine-detail pass are complete. The fixed core currently commits 28 India-night slots and leaves **5 genuinely unallocated nights** before contingencies are actually realized.
+
+The live frontier is now the genuine Mark-only `OPTIONAL WORLD SURVIVAL` choice. INDIA14 has already prepared the decision-ready comparison; INDIA15 must not restart completed edge/budget/LP/IMAX work before presenting/continuing this gate.
 
 LAST_COMPLETED:
-- INDIA14 receipt `governance/boot_receipts/INDIA14__ZK6VSGHURI3P.json` committed as R `4625d7036a1c93e291eff78807fa447569dc7a4a`.
-- Independent check `governance/boot_checks/INDIA14_CHECK__ZK6VSGHURI3P.json` committed as K `77ca2fe05e271738bb6b2cdb1d5563eb3d850040`; all eight semantic challenge verdicts PASS.
-- Canonical live command `python3 governance/scripts/final_authorization.py INDIA14 ZK6VSGHURI3P J5E04QTWM2O7` executed in GitHub Actions against K and printed literal `CONTENT_AUTHORIZATION: GRANTED`.
-- Root tooling friction found: a CHECK chat can lack a live Git checkout even when the repository evidence is valid.
-- Permanent `.github/workflows/india-boot-receipt.yml` added: every future receipt R on central automatically executes the canonical receipt gate.
-- Permanent `.github/workflows/india-final-authorization.yml` added: every future check K on central automatically executes canonical final authorization.
-- `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md` rewritten as the future-universal V8.1 successor protocol while retaining its old path for compatibility.
-- CHECK relay streamlined: all eight questions in one batch; preferred transport through two PR #23 comments, fallback one paste each direction.
-- `BOOT_MANIFEST_V8.json` now machine-identifies the two CI workflows, nonce source rule and relay modes.
-- `FRESH_SESSION_BOOT_GATE.md`, receipt README and check README updated consistently.
-- Real GitHub Actions structural validation against the new central state returned `INDIA_BOOT_STRUCTURE: PASS`.
-- `CURRENT_STATE.md` rewritten to remove stale boot-audit next-action text and restore the actual rail-first travel frontier.
-- No A+/A/A*/B/C, hotel/base, duration or optional-world decision changed during this streamlining.
+- Six fixed A+ local footprints/durations closed, including Delhi minimal fixed core, Kumaon 9 nights, Agra/Taj 1 hotel night, Bodh Gaya default 2 hotel nights under useful early inbound, Varanasi 8 nights, Tiruvannamalai 5 nights LOCKED_BY_MARK.
+- Fixed-core real inter-core edge and 34-day budget artifact completed:
+  `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/FIXED_CORE_REAL_INTERCORE_EDGES_AND_34_DAY_BUDGET_2026-09-01.md`.
+- Traveler/LP integrity audit completed:
+  `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRAVELER_LAYER_INTEGRITY_AUDIT_2026-08-31.md`.
+- Targeted traveler repairs completed:
+  `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRAVELER_LAYER_TARGETED_REPAIRS_2026-09-01.md`.
+- Delhi food/cinema/IMAX fine-detail completed:
+  `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_TRAVELER_FOOD_CINEMA_FINAL_PASS_2026-09-01.md`.
+- Optional-world comparison completed and decision-ready:
+  `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/OPTIONAL_WORLD_SURVIVAL_DECISION_READY_2026-09-01.md`.
+- Detailed INDIA14->INDIA15 handoff created and iterated; final version must remain consistent with this checkpoint.
+
+CURRENT OPTIONAL-WORLD DECISION SURFACE:
+- **Braj / Mathura–Vrindavan–Govardhan** — inclusion unresolved; protected existing A sites include Neem Karoli Baba Ashram + Mahasamadhi Mandir and Katyayani Peeth / Keshav Ashram. Lean survival = 1 night; very strong payoff/friction beside Agra.
+- **Haridwar / Kankhal / Rishikesh** — inclusion unresolved; protected existing A = Shree Shree Ma Anandamayee Ashram + Samadhi Mandir in Kankhal. Best insertion before Kumaon; 2 nights recommended if surviving.
+- **Prayagraj** — current survival recommendation NO; Red House / 4 Church Lane remains B / ONLY_IF_ALREADY_IN_PRAYAGRAJ / ACCESS_CONFIRMED / zero independent route weight.
+- **Puducherry + Mamallapuram southern gateway** — positive ungraded candidate with unusually efficient Tiruvannamalai->coast->Chennai-exit geometry; 3 nights ideal, 2 compressed.
+- **Ramakrishna** — durable wish for one substantial genuine route-logical historical place, but no current candidate independently merits consuming the five-night envelope.
+
+PACKAGES READY FOR MARK:
+- A — INDIA recommendation: Braj 1 + South 3 + 1 flex.
+- B — Haridwar 2 + Braj 1 + South 2.
+- C — Haridwar 2 + South 3; no Braj.
+- D — Braj 2 + South 3; no slack.
+- E — Haridwar 2 + Braj 1 + 2 flex; no South.
+- custom combination allowed.
+
+DELHI / IMAX STATE:
+Do not reopen as unfinished. Current Mark B reserves include PVR Priya IMAX, Hauz Khas Village, Humayun's Tomb [UNESCO WH], and Sunder Nursery. The later cinema research file does not assign grades and therefore may show OPEN research labels; the explicit Mark decision artifact controls grade truth. PVR Priya is the current large-modern-IMAX enthusiast pick, with exact film/showtime/subtitle/screen live-rechecked only at the final Delhi day-card stage; Delite remains an OPEN cultural-cinema alternative, not a forced stop.
+
+KNOWN INDIA14 FAILURE MODES NOW DURABLE:
+- avoid pseudo-precise local schedules and personal-routine micromanagement; use human quarter/half-hour timing and fit-for-purpose travel ranges;
+- small same-site coordinate differences do not justify precision theatre, while wrong entity/access geometry remains a hard veto;
+- interruptions never cancel the active authorized task unless Mark explicitly replaces it;
+- LP/general-traveler discovery remains separate from person/spiritual/TOP-X research;
+- planning-class current transport products remain `LIVE_RECHECK_LATER`, not Jan-2027 guarantees;
+- boot architecture V8.1 is closed for ordinary travel work; do not reopen it without a real failure.
 
 NEXT_AUTOMATIC_STEP:
-Resume objective rail-first rebuilding of both live inter-core edges:
-1. `VARANASI / SARNATH -> TIRUVANNAMALAI / ARUNACHALA`;
-2. `TIRUVANNAMALAI / ARUNACHALA -> DELHI / INTERNATIONAL EXIT`.
-Do the objective research, true-door-to-door/human-burden comparison and durable recording automatically. Stop only when a genuine Mark-only choice remains.
+None until Mark resolves the current optional-world survival gate. INDIA15's first substantive content action after its own successful V8.1 boot + independent authorization is to present/continue the existing optional-world survival choice from package A/B/C/D/E or a custom combination, with A as the current INDIA recommendation. Do not ask any other planning question first.
 
 WAITING_FOR_MARK:
-Nothing on boot architecture. The next genuine travel Mark-only decision remains the Tiruvannamalai 4/5/6-night choice, but only after both rail-first transfer edges are rebuilt decision-ready.
+Exactly one current choice: how to spend the 5-night optional-world envelope.
+
+AFTER MARK DECIDES:
+- record exact choice + WHY in a durable decision artifact;
+- append `DECISION_LEDGER.jsonl` and refresh `CURRENT_DECISIONS_MASTER.md`, `CURRENT_STATE.md`, this safe state and relevant knowledge-map routing in the same execution cycle;
+- freeze FINAL TOPOLOGY;
+- continue automatically into live logistics/calendar until the next genuine Mark-only decision.
 
 CONTROLLING_ARTIFACTS:
 - `governance/BOOT_MANIFEST_V8.json`
 - `governance/FRESH_SESSION_BOOT_GATE.md`
 - `governance/INDIA_MASTER_BOOT.md`
 - `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md` — legacy path, universal V8.1 content
-- `governance/boot_receipts/README.md`
-- `governance/boot_checks/README.md`
-- `.github/workflows/india-boot-receipt.yml`
-- `.github/workflows/india-final-authorization.yml`
-- `governance/scripts/boot_gate.py`
-- `governance/scripts/validate_successor_boot.py`
-- `governance/scripts/validate_independent_check.py`
-- `governance/scripts/final_authorization.py`
 - `governance/CURRENT_STATE.md`
 - `governance/CURRENT_DECISIONS_MASTER.md`
 - `governance/DECISION_LEDGER.jsonl`
 - `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md`
 - `governance/INDIA_RECOVERY_DELTAS_CURRENT.md`
-- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_TRANSFER_MODE_CORRECTION_2026-08-30.md`
+- `governance/INDIA14_TO_INDIA15_HANDOFF_2026-09-01.md`
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/FIXED_CORE_REAL_INTERCORE_EDGES_AND_34_DAY_BUDGET_2026-09-01.md`
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/OPTIONAL_WORLD_SURVIVAL_DECISION_READY_2026-09-01.md`
 
 UNSAVED_RISK:
-GEEN
+`INDIA_CURRENT_KNOWLEDGE_MAP.md` still needs same-handoff synchronization if it retains the superseded Tiruvannamalai/Agra/Delhi open-duration frontier. INDIA14 must repair that before final handoff says OK.
 
 END SUCCESSOR SAFE STATE
