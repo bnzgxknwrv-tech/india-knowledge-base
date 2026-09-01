@@ -13,96 +13,114 @@ Crash test:
 `IF THIS CHAT ENDS NOW, CAN INDIA(N+1) IDENTIFY WHAT WAS COMPLETED, WHAT REMAINS, WHAT IT MUST DO NEXT, WHETHER MARK OWNS THE NEXT ACTION, AND WHERE THE REQUIRED KNOWLEDGE LIVES?`
 
 ## UPDATE DISCIPLINE
-1. Update owning detailed files first, then this compact checkpoint.
+1. Update owning detailed files first, then this checkpoint.
 2. `CURRENT_STATE.md` and this file must agree materially.
 3. Never override newer explicit Mark/current authority.
 4. No material knowledge may live only in chat.
 5. Checkpoint each completed piece immediately; one giant end-of-session save is a backstop only.
 6. `RESEARCH_COMPLETE_ENOUGH != MARK_TRIAGE_COMPLETE != DURATION_CLOSED`.
-7. If fresh GitHub conflicts with an already-established active-conversation fact, state and reconcile the conflict explicitly.
+7. `READ_COMPLETE != ACTIVE_MEMORY_COMPILED`.
+8. If mandatory/current sources conflict, resolve and repair routing before advice; byte-read PASS is not permission to ignore contradictions.
 
 ---
 
-STATUS: SAFE_TO_HANDOFF__FIXED_A_PLUS_TRAVELER_TRIAGE_INCOMPLETE
+STATUS: SAFE_TO_HANDOFF__ACTIVE_MEMORY_HARDENING_IN_PROGRESS__TRAVEL_FRONTIER_PRESERVED
 
-## CONTROLLING PROCESS TRUTH
-`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/MARK_TRAVELER_LAYER_TO_DURATION_ORDER_CORRECTION_2026-09-02.md`
+## CURRENT INCIDENT
+INDIA15 reproduced a successor-memory failure despite the mature V8 boot architecture: it had mandatory knowledge available/read but failed to consistently activate/reconcile it at answer time.
 
-Mark clarified the actual planning structure:
+Observed failures:
+- stale optional-world frontier in mandatory/current sources overrode newer correction;
+- later traveler-repair completion was confused with Mark triage completion;
+- mandatory human presentation format was not automatically applied;
+- A/B/C grade letters were reused as traveler-world option labels;
+- existing Mark B grades were shown with insufficient provenance clarity;
+- Agra/Bodh/Tiruv cluster indexes themselves routed successors toward the stale conclusion that repairs were non-blocking.
 
-`BROAD LP/GENERAL-TRAVELER VISIBILITY -> MARK TRIAGE/GRADES ALL MATERIAL NEW FINDINGS -> COMPLETE A+/A CONTENT SET -> EXECUTION GEOMETRY/DAY BUNDLES -> MARK PACE/DWELL -> TRUE DURATION_CLOSED -> GLOBAL FIXED-CORE TOTAL -> OPTIONAL A-WORLDS BY MARGINAL ROUTE BURDEN -> FINAL TOPOLOGY -> LIVE LOGISTICS -> EXACT CALENDAR`.
+Root class:
+`READ-WITHOUT-COMPILATION`.
 
-A research repair being complete does NOT mean Mark has seen or graded its findings. A newly discovered item can still become A and change a fixed cluster's required days.
+## COMPLETED REPAIR CHECKPOINTS
+- Active-memory compilation design file created: `governance/INDIA_ACTIVE_MEMORY_COMPILATION_GATE.md`, commit `83678161a144248bea87259c67280683df8592df`.
+- Delhi decision-surface A-I option labels removed: `a0c74b4f008a0baa3ba125a7b10f2f4eab7830f9`.
+- Mark rule reserving grade letters: `decisions/PRESENTATION_GRADE_LETTERS_RESERVED_MARK_RULE_2026-09-02.md`, commit `cd4eb7010b3b7f5d38beb88234af61616a2bc35b`.
+- Manifest active frontier corrected to `DELHI_FINAL_DAY_LP_MARK_TRIAGE`: `efd89c449bf8aefe7cda3e5a744de86b7e9e1bbe`.
+- `CURRENT_DECISIONS_MASTER.md` reconciled: `02be4fb3d264a0236a01efb6c1ce5a1a8fe03c02`.
+- Agra router corrected: `ffdd00e165b8ef60935887b829d399ee7c44d1f2`.
+- Bodh Gaya/Gaya router corrected: `c0bb669c2b966e4609442c33478120e656cf8977`.
+- Tiruvannamalai router corrected: `abbdf3061730a98d9364de07f6bec862b7cf8a87`.
+- Delhi router updated: `f76734cf49ae8fd3a20e32989d650908a839efb7`.
+- Knowledge map rebuilt: `433d3bbc75dfcef5fba06a3e7fd438a2cefc6ea9`.
+- Fresh-session boot gate hardened with post-read contradiction/compilation pass and no hardcoded manifest counts: `8d41edc2b661cd0a6dbaaa611c345e14122341c4`.
+- Current state checkpoint updated: `b6b46a2bb9d892e8808c5d2edc2d8ec8e67befbd`.
 
-## CRITICAL CORRECTIONS
-1. `eab5aff...` was wrong to advance to OPTIONAL_WORLD_SURVIVAL while Delhi broad traveler rows remained ungraded.
-2. The first Delhi-only correction was itself incomplete: Mark now explicitly states that repaired findings for Agra/Braj, Bodh Gaya/Gaya and Tiruvannamalai/Arunachala have also not all been presented to him.
-3. Therefore Delhi is not the only open Layer-A/Mark-triage problem.
-4. Prior `DURATION_CLOSED` labels for affected fixed A+ worlds are provisional against the repaired traveler universe until Mark sees/grades the genuinely new findings and execution/duration is reconciled.
+## CCI REVIEW / CONSENSUS — NOT YET COMPLETE
+INDIA15 posted PR #23 issue comment `5501659593`:
+`CCI_TASK — INDIA16 SUCCESSOR-MEMORY FAILURE AUDIT + CONSENSUS`.
 
-## FIXED A+ WORLD STATUS
-- **Delhi** — broad LP/general-traveler universe prepared; Mark triage incomplete. Existing B grades and other explicit decisions remain valid.
-- **Kumaon** — traveler integrity PASS / STRONG; no wholesale reopening absent a specific later unseen candidate.
-- **Agra / Taj Mahal** — traveler repair produced new food/market/oddity/human-texture material that Mark says he has not all seen. Mark triage required. Existing Taj-only/one-night decisions remain protected unless Mark explicitly changes them after seeing new material.
-- **Bodh Gaya / Gaya** — traveler repair produced new winter-food/craft/oddity/human-texture material unseen by Mark. Mark triage required before final duration closure.
-- **Varanasi / Sarnath** — traveler integrity PASS / STRONG; no wholesale reopening absent a specific later unseen candidate.
-- **Tiruvannamalai / Arunachala** — highest-priority repair generated new human-scale traveler microtexture unseen by Mark. Mark triage required before the existing five-night decision can be regarded as final against the repaired universe. Preserve the existing five-night Mark decision as prior truth, but reconcile if a newly surfaced item receives A.
+Requested result heading:
+`CCI_RESULT — INDIA16 ACTIVE MEMORY CONSENSUS`.
 
-## PRESERVE OLD DECISIONS, BUT DO NOT HIDE NEW FINDINGS
-Existing explicit A+/A/A*/B/C, C/drop decisions, hotel/base locks and prior duration preferences remain authoritative.
+Task asks CCI to independently reproduce the V8.2 gap, audit all stale mandatory pointers, review proposed compiled-working-set/validator/check changes, identify non-mechanically-enforceable limits and provide a minimal patch/test sequence.
 
-However, genuinely new traveler findings discovered after those decisions must still be surfaced. Do not let an old duration lock auto-delete later research candidates. Only Mark may decide whether a new candidate changes active content or duration.
+At this checkpoint no CCI result exists yet. Do not pretend consensus was reached. Continue independent audit while waiting for CCI to be run/reply; when result appears, reconcile it before finalizing INDIA16 governance/start prompt.
 
-## CURRENT LIVE WORK
-For every affected cluster:
-1. reconcile repair findings against `AL BESLIST?` and `AL AAN MARK GEPRESENTEERD?`;
-2. present only genuinely unseen candidates in true general-traveler form — sights + experiences + food + cinema + markets + crafts + nature + oddities + contemporary culture + human texture;
-3. provide enough geography/burden context for Mark to grade intelligently;
-4. commit each Mark triage piece immediately;
-5. when all material new findings in that cluster are triaged, rebuild/reconcile its A+/A day bundles;
-6. then determine Mark's true pace/dwell and final nights/days;
-7. only then call that affected cluster truly duration-closed.
+## CURRENT TRAVEL PROCESS
+Controlling correction:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/MARK_TRAVELER_LAYER_TO_DURATION_ORDER_CORRECTION_2026-09-02.md`.
 
-Expected affected sequence:
-- Delhi;
-- Tiruvannamalai/Arunachala;
-- Bodh Gaya/Gaya;
-- Agra/Braj;
-while Kumaon and Varanasi/Sarnath stay closed unless a concrete unseen candidate is found.
+`BROAD LP/GENERAL-TRAVELER RESEARCH -> MARK SEES/GRADES ALL MATERIAL NEW CANDIDATES -> COMPLETE A+/A SET -> EXECUTION GEOMETRY/DAY BUNDLING -> MARK PACE/DWELL -> TRUE DURATION_CLOSED PER FIXED A+ WORLD -> ALL FIXED A+ WORLDS TRUE-CLOSED -> GLOBAL FIXED-CORE TOTAL -> OPTIONAL A-WORLD MARGINAL INSERTION -> FINAL TOPOLOGY -> LIVE LOGISTICS -> EXACT CALENDAR`.
 
-## AFTER ALL FIXED A+ CLUSTERS ARE TRUE-DURATION-CLOSED
-Only then:
-1. total fixed A+ days/nights and transfer burden;
-2. inspect remaining A-grade optional worlds/clusters;
-3. compare by **marginal insertion burden**;
-4. recognize that an A world lying naturally between two A+ clusters may add little real travel time and therefore be much easier to retain;
-5. decide which optional A worlds fit;
-6. freeze topology;
-7. live logistics;
-8. exact calendar.
+Affected triage order remains:
+1. Delhi — current first traveler task.
+2. Tiruvannamalai/Arunachala — old LP ballot dropped remains dropped; later repair microtexture unseen.
+3. Bodh Gaya/Gaya — later repair unseen; preserve existing grades/C/base.
+4. Agra/Taj — later repair unseen; preserve prior Taj-only/one-night and rejected sightseeing unless explicitly changed.
 
-## LATER-STAGE ARTIFACTS — NOT CURRENT DECISION SURFACE
-- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/FIXED_CORE_REAL_INTERCORE_EDGES_AND_34_DAY_BUDGET_2026-09-01.md`
-- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/OPTIONAL_WORLD_SURVIVAL_DECISION_READY_2026-09-01.md`
+Kumaon and Varanasi/Sarnath remain traveler-integrity PASS/STRONG absent a concrete unseen finding.
 
-The earlier 28-night / 5-night optional calculation is provisional until affected fixed-cluster traveler triage and durations are revalidated.
-A/B/C/D/E optional packages remain withdrawn as current action.
+## DELHI HARD CONTEXT
+Source: `decisions/DELHI_FINAL_DAY_LP_WINDOW_MARK_CONTEXT_2026-09-02.md`.
 
-## EXACT FIRST NEXT ACTION
-**De eerste inhoudelijke actie is: reconstructeer en presenteer de werkelijk nog niet aan Mark getoonde Delhi LP/general-traveler candidates, checkpoint zijn triage, en ga daarna door met de nog niet gepresenteerde repair findings voor Tiruvannamalai/Arunachala, Bodh Gaya/Gaya en Agra/Braj voordat enig betrokken A+ cluster definitief duration-closed wordt genoemd, omdat `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/MARK_TRAVELER_LAYER_TO_DURATION_ORDER_CORRECTION_2026-09-02.md` dit proces controleert.**
+- Arrival day: airport -> **Nirmal Dham — fixed spiritual destination (Chhawla) [A+]** -> rest/sleep -> onward route. No LP/general-traveler sightseeing.
+- LP/general-traveler content belongs to the final Delhi window.
+- Working assumption: about one free final Delhi day.
+- Exact hotel unknown; Mark prefers a calm hotel reasonably close to IGI Airport.
+- IGI/Aerocity is a comparison proxy only until hotel lock.
 
-OWNERSHIP:
-`MARK_TRIAGE_WITH_INDIA_DECISION_SUPPORT`.
+Explicit Mark B reserve grades — source `decisions/DELHI_RESERVE_B_GRADES_MARK_DECISION_2026-08-31.md`:
+- PVR Priya IMAX [B];
+- Hauz Khas Village [B];
+- Humayun's Tomb [B] [UNESCO WH];
+- Sunder Nursery [B].
+They are prior Mark grades, not INDIA recommendations.
 
-## KEY SOURCES
-- `governance/CURRENT_STATE.md`
-- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/MARK_TRAVELER_LAYER_TO_DURATION_ORDER_CORRECTION_2026-09-02.md`
-- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRAVELER_LAYER_INTEGRITY_AUDIT_2026-08-31.md`
-- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRAVELER_LAYER_TARGETED_REPAIRS_2026-09-01.md`
-- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_SPARE_DAY_LP_TOPX_LAYER_2026-08-31.md`
-- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_TRAVELER_FOOD_CINEMA_FINAL_PASS_2026-09-01.md`
+## PRESENTATION HARD RULE
+Source: `decisions/PRESENTATION_GRADE_LETTERS_RESERVED_MARK_RULE_2026-09-02.md`.
+
+A+/A/A*/B/C are grades only. Never label corridors, bundles, scenarios, packages or option groups with A/B/C/D/E letters. Use descriptions and numbers.
+
+Before a burden-sensitive grade, Mark must see WHAT/WHY/status/base or transparent proxy/nearest retained A+/A/natural neighbor/walking/`JE BENT ER TOCH` marginal burden/whole human burden/dwell+why/displacement/timing/confidence.
+
+## GOVERNANCE WORK STILL OPEN BEFORE INDIA16
+1. Receive/read CCI result and reach explicit INDIA15+CCI consensus.
+2. Finish broad stale-pointer/missing-active-memory audit.
+3. Decide and implement manifest integration of `INDIA_ACTIVE_MEMORY_COMPILATION_GATE.md` or the consensus replacement.
+4. Add machine-readable compiled-working-set evidence/cross-file consistency checks to receipt/validator if consensus supports it.
+5. Harden FULL semantic challenges for this failure class.
+6. Synchronize `INDIA_MASTER_BOOT.md`, `INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md`, relevant planning/presentation standards, receipt/check READMEs, validator/tests.
+7. Append the new Mark/process/presentation events to `DECISION_LEDGER.jsonl` without rewriting existing history.
+8. Run/inspect structural and test validation on final governance.
+9. Finalize current/safe/map pointers.
+10. Only then write the INDIA16 start prompt.
+
+## NEXT EXECUTABLE ACTION
+Continue the independent audit now; do not stop merely because CCI has not yet replied. Fetch/reconcile the CCI result immediately when it appears.
+
+## NEXT TRAVEL ACTION AFTER GOVERNANCE HARDENING
+Continue the unresolved Delhi final-day broad LP/general-traveler triage in the one-free-day airport-side context, then the unseen Tiruvannamalai, Bodh Gaya and Agra traveler-repair findings cluster-by-cluster. Checkpoint each Mark decision immediately.
 
 UNSAVED_RISK:
-GEEN — the corrected planning order and widened traveler-triage frontier are durable.
+GEEN — the active governance incident, completed repair steps, pending CCI consensus and preserved travel frontier are recorded here.
 
 END SUCCESSOR SAFE STATE
