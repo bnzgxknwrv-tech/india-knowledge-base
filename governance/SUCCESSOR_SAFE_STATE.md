@@ -1,7 +1,7 @@
 # INDIA SUCCESSOR SAFE STATE — CRASH-SAFE HANDOFF CHECKPOINT
 
 Status: **HARD LIVING CHECKPOINT / MUST BE CURRENT AFTER EVERY MATERIAL INDIA TURN**
-Effective: 2026-09-01 23:52 CEST
+Effective: 2026-09-02
 Branch: `agent/india8-cluster-casting`
 Owner: `governance/INDIA_MASTER_BOOT.md`
 Boot manifest: `governance/BOOT_MANIFEST_V8.json`
@@ -23,72 +23,123 @@ Crash test:
 7. A fresh successor always starts UNBOOTED and must create its own receipt/check chain.
 8. No material knowledge may live only in chat.
 9. `NEXT_AUTOMATIC_STEP` must be written from the future reader's perspective; actions completed by the same commit belong in `LAST_COMPLETED`.
+10. `RESEARCH_COMPLETE_ENOUGH != LAYER_A_MARK_TRIAGE_COMPLETE`.
 
 ---
 
-STATUS: SAFE_TO_HANDOFF__WAITING_MARK_OPTIONAL_WORLD_SURVIVAL
+STATUS: SAFE_TO_HANDOFF__WAITING_MARK_DELHI_BROAD_LP_TRIAGE
 
-FRONTIER:
-All six guaranteed fixed A+ worlds are locally duration/footprint closed. Real fixed-core inter-core edges, the fixed-core 34-day/33-India-night budget, the true LP/general-traveler integrity audit and targeted repairs, the Delhi food/cinema/IMAX fine-detail pass, and the objective optional-world survival comparison are complete. The fixed core commits 28 India-night slots and leaves **5 genuinely unallocated nights** before contingencies are actually realized.
+## FRONTIER — CORRECTED
+The live frontier is **Delhi broad LP/general-traveler Layer-A triage**.
 
-The live frontier is the genuine Mark-only `OPTIONAL WORLD SURVIVAL` choice. Do not restart completed edge/budget/LP/traveler/Delhi-IMAX work before this gate is resolved.
+Do **NOT** present the optional-world A/B/C/D/E package choice yet.
+Do **NOT** treat the existence of later fixed-core budget / optional-world artifacts as proof that an earlier unresolved Layer-A gate is closed.
 
-LAST_COMPLETED:
-- Six fixed A+ local footprints/durations closed: Delhi minimal fixed core; Kumaon 9 nights; Agra/Taj 1 hotel night; Bodh Gaya default 2 hotel nights under useful early inbound; Varanasi 8 nights; Tiruvannamalai 5 nights LOCKED_BY_MARK.
-- Fixed-core edge + budget artifact complete: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/FIXED_CORE_REAL_INTERCORE_EDGES_AND_34_DAY_BUDGET_2026-09-01.md`.
-- Traveler/LP integrity audit complete: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRAVELER_LAYER_INTEGRITY_AUDIT_2026-08-31.md`.
-- Targeted traveler repairs complete: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRAVELER_LAYER_TARGETED_REPAIRS_2026-09-01.md`.
-- Delhi food/cinema/IMAX fine-detail complete: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_TRAVELER_FOOD_CINEMA_FINAL_PASS_2026-09-01.md`.
-- Optional-world comparison complete and decision-ready: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/OPTIONAL_WORLD_SURVIVAL_DECISION_READY_2026-09-01.md`.
-- INDIA15 fresh boot receipt `governance/boot_receipts/INDIA15__9WT6G2WTETWAC.json` exists with `boot_gate: PASS`.
-- INDIA15 V8.2 LIGHT-check artifact `governance/boot_checks/INDIA15_CHECK__9WT6G2WTETWAC.json` exists at commit `624cd60fdfefebd8e277fe9f3e33eb876be85a79` with `check_gate: PASS`; its first challenge explicitly confirms that fixed-core edges, budget, traveler layer and Delhi fine-detail must NOT be reopened before the optional-world gate.
+Controlling Delhi file:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_SPARE_DAY_LP_TOPX_LAYER_2026-08-31.md`
 
-CURRENT OPTIONAL-WORLD DECISION SURFACE:
-- **Braj / Mathura–Vrindavan–Govardhan** — inclusion unresolved; protected A sites include Neem Karoli Baba Ashram + Mahasamadhi Mandir and Katyayani Peeth / Keshav Ashram. Lean survival = 1 night; strong payoff/friction beside Agra.
-- **Haridwar / Kankhal / Rishikesh** — inclusion unresolved; protected A = Shree Shree Ma Anandamayee Ashram + Samadhi Mandir in Kankhal. Best insertion before Kumaon; 2 nights recommended if surviving.
-- **Prayagraj** — current survival recommendation NO; Red House / 4 Church Lane remains B / ONLY_IF_ALREADY_IN_PRAYAGRAJ / ACCESS_CONFIRMED / zero independent route weight.
-- **Puducherry + Mamallapuram southern gateway** — positive ungraded candidate with efficient Tiruvannamalai->coast->Chennai-exit geometry; 3 nights ideal, 2 compressed.
-- **Ramakrishna** — durable wish for one substantial genuine route-logical historical place, but no current candidate independently merits consuming the five-night envelope.
+That file is explicitly `PREPARED / ON-SITE OPTIONAL / ZERO GUARANTEED DAY-NIGHT WEIGHT / NO NEW GRADES` and still contains many `[OPEN / NOT GRADED]` traveler items that Mark has not triaged.
 
-PACKAGES READY FOR MARK:
-- A — INDIA recommendation: Braj 1 + South 3 + 1 flex.
-- B — Haridwar 2 + Braj 1 + South 2.
-- C — Haridwar 2 + South 3; no Braj.
-- D — Braj 2 + South 3; no slack.
-- E — Haridwar 2 + Braj 1 + 2 flex; no South.
-- custom combination allowed.
+Supplement:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_TRAVELER_FOOD_CINEMA_FINAL_PASS_2026-09-01.md`
 
-DELHI / IMAX STATE:
-COMPLEET. Do not reopen as unfinished. Current Mark B reserves include PVR Priya IMAX, Hauz Khas Village, Humayun's Tomb [UNESCO WH], and Sunder Nursery. PVR Priya is the current large-modern-IMAX enthusiast pick; exact film/showtime/subtitle/screen is `LIVE_RECHECK_LATER` only at final Delhi day-card stage. Delite remains an OPEN cultural-cinema alternative, not a forced stop.
+That file explicitly says it **supplements** the broad controlling Delhi reserve and explicitly says `No item is graded here`. Therefore it cannot be used as evidence that the broad Delhi reserve was Mark-triaged or Layer-A closed.
 
-SESSION-END INTERRUPTION AUDIT — 2026-09-01:
-Mark warned that several interruptions had occurred and instructed the controller to finish the older active work first, then the Lonely Planet layer, then IMAX. Repository reconciliation shows those three workstreams were already durably COMPLETE before this final turn. The attempted conversational re-entry into optional-world research after that warning produced no new authoritative research artifact, no new Mark decision, and no travel-content commit.
+## CRITICAL CORRECTION OF PREVIOUS CRASH-SAFE COMMIT
+Commit `eab5affee9956b76c5be7d656bcdcb1957adcd79` (`INDIA15: crash-safe final checkpoint before context limit`) was **FACTUALLY WRONG ON ONE MATERIAL POINT**.
 
-HALF-FINISHED WORK STATUS:
-`NIET_MEER_GELDIG / DO_NOT_RESUME_AS_RESEARCH_OUTPUT` — the partial chat-only reconstruction/research attempt in this last session is discarded. A successor must not repeat it or treat it as evidence. The durable decision-ready optional-world artifact already supersedes it.
+It incorrectly advanced the live frontier to `OPTIONAL_WORLD_SURVIVAL` by treating Delhi traveler research/fine-detail completeness as if it also meant Mark had triaged the broad Delhi LP/general-traveler reserve.
 
-STEP-2 UNSAVED-KNOWLEDGE AUDIT:
-No new Mark travel decision, grade, route choice, LP finding, IMAX finding, method rule or factual research result from this final interrupted segment remains only in chat. The interruption rule is already durable in `governance/INDIA_RECOVERY_DELTAS_CURRENT.md` R21, and the no-reopen-completed-work rule is additionally explicit in the INDIA15 LIGHT-check artifact named above. Therefore no decision-ledger or recovery-delta append is required by this final turn.
+Why that was wrong:
+- the controlling broad Delhi reserve still contains ungraded OPEN rows;
+- the later food/cinema file is only a supplement;
+- the later file itself assigns no grades;
+- therefore the broad Delhi Layer-A gate remained open.
 
-BOOT NOTE FOR THE NEXT FRESH SESSION:
-This checkpoint commit changes `CURRENT_STATE.md` and `SUCCESSOR_SAFE_STATE.md`, both central boot inputs. Therefore any future fresh controller must boot against the new branch HEAD and let V8.2 recompute the required CHECK tier from live blob SHAs. Do not reuse the prior INDIA15 receipt/check as authorization for a future fresh session and do not hard-code LIGHT/FULL from this text.
+ANTI-REGRESSION:
+A later supplementary research pass may add facts and still be `COMPLETE_ENOUGH` as research without closing an earlier Mark-facing OPEN list. Never infer completion of Mark triage from research completeness alone.
 
-EXACT FIRST NEXT ACTION:
-**De eerste inhoudelijke actie na mij is: presenteer/continueer de bestaande OPTIONAL WORLD SURVIVAL-keuze uit pakket A/B/C/D/E of een eigen combinatie, met pakket A als huidige INDIA-aanbeveling, omdat `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/OPTIONAL_WORLD_SURVIVAL_DECISION_READY_2026-09-01.md` en `governance/CURRENT_STATE.md` dit als de huidige Mark-only frontier vastleggen.**
+Correcting `CURRENT_STATE.md` commit:
+`133320b7fdb0bbee4295dd1e1f08a52d8b3be217`.
+
+## WHAT REMAINS VALID / DO NOT THROW AWAY
+These results remain valid background/canon and are not being erased:
+- six fixed A+ worlds are established;
+- Kumaon traveler/LP integrity is PASS/strong;
+- Varanasi/Sarnath traveler/LP integrity is PASS/strong;
+- targeted traveler completeness repairs for Tiruvannamalai/Arunachala, Bodh Gaya/Gaya and Agra/Braj are complete enough as research;
+- Delhi broad traveler discovery is prepared;
+- Delhi food/cinema/IMAX fine-detail supplement is complete enough as research;
+- real fixed-core inter-core edge work exists;
+- fixed-core 34-day/33-night budget artifact exists;
+- optional-world comparison artifact exists.
+
+But the last three are **later-stage background artifacts**, not the current decision surface until the earlier Delhi Layer-A gate is genuinely closed and downstream implications are revalidated.
+
+## CANONICAL GLOBAL WORK ORDER — HARD
+`FIXED CORE CONTENT/CANON -> FULL RELEVANT SOURCE VISIBILITY -> LAYER-A TRIAGE -> EXECUTION GEOMETRY -> MARK PACE/DWELL -> DURATION_CLOSED x6 -> REAL INTER-CORE EDGES -> FIXED_CORE_34_DAY_BUDGET -> OPTIONAL WORLD SURVIVAL -> FINAL TOPOLOGY -> LIVE LOGISTICS -> EXACT CALENDAR -> FINAL COMFORT SWEEP / DAY CARDS`.
+
+Do not silently skip backward or forward across this sequence because a later artifact happens to exist.
+
+## FIXED-WORLD STATUS RELEVANT TO THIS FRONTIER
+- **Delhi** — Nirmal Dham [A+] remains fixed. The broad LP/general-traveler reserve is NOT fully Mark-triaged. Existing explicit Delhi grades/locks remain valid and must not be re-presented as fresh choices.
+- **Kumaon** — 9 nights / 9 occupied days; Haidakhan 3 nights / 2 complete quiet days LOCKED_BY_MARK; traveler layer PASS/strong.
+- **Agra / Taj Mahal** — Taj Mahal [A+] only; one hotel night LOCKED_BY_MARK; targeted traveler repair exists; rejected Agra sightseeing stays rejected unless explicitly reopened.
+- **Bodh Gaya / Gaya** — Maya Heritage LOCKED_BY_MARK; 2 hotel nights default under useful early inbound, authorized max 3 under the known conditions; targeted traveler repair exists.
+- **Varanasi / Sarnath** — 8 nights; Sahi River View Guesthouse LOCKED_BY_MARK; traveler layer PASS/strong.
+- **Tiruvannamalai / Arunachala** — 5 nights LOCKED_BY_MARK; targeted traveler repair exists; old additional LP layer remains DROPPED_BY_MARK.
+
+## DELHI — WHAT EXACTLY IS OPEN
+Use the broad controlling reserve and present only still-unresolved rows. Examples include major traveler categories such as:
+- Red Fort;
+- Qutb Minar;
+- Lodhi Colony Street Art / Lodhi Garden;
+- Sunder Nursery where still unresolved versus any prior explicit grade;
+- Hauz Khas Village where still unresolved versus any prior explicit grade;
+- Lotus Temple;
+- Jantar Mantar;
+- museum layer;
+- Old Delhi / markets / human-texture options;
+- oddities/curiosities;
+- food/cinema supplement rows that remain OPEN.
+
+Before presenting any item, reconcile against current explicit Mark grades/locks so an already-decided item is not re-presented.
+
+## OPTIONAL WORLD SURVIVAL — WITHDRAWN AS CURRENT ACTION
+Artifact remains:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/OPTIONAL_WORLD_SURVIVAL_DECISION_READY_2026-09-01.md`
+
+Its A/B/C/D/E packages are **withdrawn as the current action** until Delhi broad LP/general-traveler triage is completed and downstream duration/budget implications are reconciled.
+
+Do not ask Mark to choose A/B/C/D/E now.
+
+## LAST_COMPLETED
+- Direct source verification proved the broad Delhi reserve remains OPEN/NOT_GRADED at Layer A.
+- Direct source verification proved the food/cinema pass is only a supplement and says no item is graded there.
+- `governance/CURRENT_STATE.md` was corrected in commit `133320b7fdb0bbee4295dd1e1f08a52d8b3be217`.
+- This safe-state correction aligns successor recovery with that source truth.
+
+## EXACT FIRST NEXT ACTION
+**De eerste inhoudelijke actie is: presenteer de nog OPEN/NOT_GRADED items uit de brede controlerende Delhi LP/general-traveler reserve aan Mark voor triage, zonder reeds besliste Delhi-items opnieuw open te breken, omdat `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_SPARE_DAY_LP_TOPX_LAYER_2026-08-31.md` die brede reserve controleert en nog ongegradeerde items bevat.**
 
 OWNERSHIP:
-`MARK_ONLY_DECISION` — de opvolger mag de bestaande beslissurface uitleggen/tonen, maar mag niet zelf kiezen hoe de vijf vrije nachten worden verdeeld.
+`MARK_TRIAGE_WITH_INDIA_DECISION_SUPPORT` — INDIA must organize/explain/compare the unresolved items, but Mark owns subjective keep/drop/grade decisions.
 
 WAITING_FOR_MARK:
-Exactly one current content choice: how to spend the 5-night optional-world envelope.
+Delhi broad LP/general-traveler OPEN-item triage. Not optional-world package allocation.
 
-AFTER MARK DECIDES:
-- record exact choice + WHY in a durable decision artifact;
-- append `DECISION_LEDGER.jsonl` and refresh `CURRENT_DECISIONS_MASTER.md`, `CURRENT_STATE.md`, this safe state and relevant knowledge-map routing in the same execution cycle;
-- freeze FINAL TOPOLOGY;
-- continue automatically into live logistics/calendar until the next genuine Mark-only decision.
+## AFTER EACH TRIAGE PIECE
+Checkpoint immediately, not at the end of a giant batch:
+1. record each material Mark grade/drop/keep decision + WHY in the appropriate durable decision source;
+2. refresh crash-state files as needed before continuing;
+3. reconcile the next unresolved Delhi subset;
+4. when Delhi Layer A is genuinely closed, move automatically to the next gate in canonical order;
+5. revalidate later fixed-core budget / optional-world artifacts before presenting them again.
 
-CONTROLLING_ARTIFACTS:
+## CONFLICT RULE
+If a newly read GitHub source conflicts with a fact already established earlier in the active conversation, explicitly state the conflict and explain which source is controlling/newer. Never silently fall back to older prose.
+
+## CONTROLLING ARTIFACTS
 - `governance/BOOT_MANIFEST_V8.json`
 - `governance/FRESH_SESSION_BOOT_GATE.md`
 - `governance/INDIA_MASTER_BOOT.md`
@@ -98,13 +149,13 @@ CONTROLLING_ARTIFACTS:
 - `governance/DECISION_LEDGER.jsonl`
 - `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md`
 - `governance/INDIA_RECOVERY_DELTAS_CURRENT.md`
-- `governance/INDIA14_TO_INDIA15_HANDOFF_2026-09-01.md`
-- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/FIXED_CORE_REAL_INTERCORE_EDGES_AND_34_DAY_BUDGET_2026-09-01.md`
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRIP_PLANNING_META_CONTROLLER_2026-08-26.md`
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRAVELER_LAYER_INTEGRITY_AUDIT_2026-08-31.md`
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRAVELER_LAYER_TARGETED_REPAIRS_2026-09-01.md`
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_SPARE_DAY_LP_TOPX_LAYER_2026-08-31.md`
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_TRAVELER_FOOD_CINEMA_FINAL_PASS_2026-09-01.md`
-- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/OPTIONAL_WORLD_SURVIVAL_DECISION_READY_2026-09-01.md`
 
 UNSAVED_RISK:
-GEEN
+GEEN — this checkpoint records the corrected frontier.
 
 END SUCCESSOR SAFE STATE
