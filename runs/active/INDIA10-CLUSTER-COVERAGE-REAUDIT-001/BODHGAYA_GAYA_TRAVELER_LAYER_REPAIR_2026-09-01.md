@@ -1,6 +1,7 @@
 # BODH GAYA / GAYA — TARGETED TRUE TRAVELER-LAYER REPAIR — 2026-09-01
 
 Status: **REPAIR_COMPLETE_ENOUGH / KNOWLEDGE ONLY / NO LOCK REOPENED / NO NEW GRADES**
+Controlling: NO — knowledge-only repair. HARD GUARD below states "the Bodh Gaya/Gaya cluster remains closed under the existing Mark decision" and "this repair does not reactivate C or add a day." Its OPEN items are optional reserve, not a gate on Bodh Gaya/Gaya's Layer-A pass.
 Branch: `agent/india8-cluster-casting`
 
 ## HARD GUARD

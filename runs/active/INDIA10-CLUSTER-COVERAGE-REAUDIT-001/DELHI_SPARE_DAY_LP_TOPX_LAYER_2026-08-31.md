@@ -1,6 +1,7 @@
 # DELHI — SPARE HALF/FULL-DAY TRUE LONELY PLANET / NON-PILGRIM TRAVELER LAYER — 2026-08-31
 
 Status: **PREPARED / ON-SITE OPTIONAL / ZERO GUARANTEED DAY-NIGHT WEIGHT / NO NEW GRADES**
+Controlling: YES — this is the broad controlling Delhi LP/general-traveler reserve. "Zero guaranteed day/night weight" (below) means an item's inclusion never *forces* an extra Delhi day — it does not mean the item is exempt from ever needing a Mark grade. Per `governance/CURRENT_STATE.md`'s 2026-09-02 correction (`RESEARCH_COMPLETE_ENOUGH != LAYER_A_MARK_TRIAGE_COMPLETE`): this file's 32 `[OPEN / NOT GRADED]` rows are genuinely un-triaged by Mark and DO gate whether Delhi's Layer-A pass can be called done. Active triage tracking: `DELHI_BROAD_LP_MARK_TRIAGE_2026-09-02.md` (`Controlling: YES`).
 Branch: `agent/india8-cluster-casting`
 
 ## SCOPE CORRECTION — MARK, 2026-08-31

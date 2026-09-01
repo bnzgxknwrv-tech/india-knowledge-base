@@ -1,6 +1,7 @@
 # INDIA14 — TRAVELER / LONELY-PLANET LAYER INTEGRITY AUDIT — 2026-08-31
 
 Status: **AUDIT_COMPLETE / TARGETED_REPAIR_REQUIRED / NO EXISTING MARK GRADE OR DURATION REOPENED**
+Controlling: NO — HISTORICAL. This audit is a diagnostic, not itself a per-cluster content gate; it triggered the research pass done in `TRAVELER_LAYER_TARGETED_REPAIRS_2026-09-01.md` and the per-cluster `*_TRAVELER_LAYER_REPAIR_2026-09-01.md` files. IMPORTANT — do not read "repair executed" as "Layer-A triage complete": for Agra/Bodh Gaya/Tiruvannamalai the repair genuinely closed the gap (confirmed fine), but for Delhi the repair (`DELHI_TRAVELER_FOOD_CINEMA_FINAL_PASS_2026-09-01.md`) was only a research supplement and explicitly did NOT close Delhi's separate Mark-triage gate — see `DELHI_SPARE_DAY_LP_TOPX_LAYER_2026-08-31.md` (`Controlling: YES`) and `governance/CURRENT_STATE.md`'s 2026-09-02 correction. Kept here for provenance of why the repair happened.
 Branch: `agent/india8-cluster-casting`
 
 ## TRIGGER

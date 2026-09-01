@@ -1,6 +1,7 @@
 # AGRA / TAJ — TARGETED TRUE TRAVELER-LAYER REPAIR — 2026-09-01
 
 Status: **REPAIR_COMPLETE_ENOUGH / KNOWLEDGE ONLY / TAJ-ONLY LOCK UNCHANGED / NO NEW GRADES**
+Controlling: NO — knowledge-only repair. Status line says it plainly: repair complete enough, knowledge only, Taj-only lock unchanged. Its `[OPEN / NOT GRADED]` items are optional reserve, not a gate on Agra's Layer-A pass.
 Branch: `agent/india8-cluster-casting`
 
 ## HARD GUARD

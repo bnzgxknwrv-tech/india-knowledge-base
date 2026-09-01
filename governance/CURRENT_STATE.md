@@ -49,8 +49,11 @@ Controlling artifacts:
 - traveler repairs: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRAVELER_LAYER_TARGETED_REPAIRS_2026-09-01.md`
 - Delhi broad controlling traveler reserve: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_SPARE_DAY_LP_TOPX_LAYER_2026-08-31.md`
 - Delhi food/cinema supplement: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_TRAVELER_FOOD_CINEMA_FINAL_PASS_2026-09-01.md`
+- Delhi live triage tracking: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_BROAD_LP_MARK_TRIAGE_2026-09-02.md`
 - fixed edges + budget background artifact: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/FIXED_CORE_REAL_INTERCORE_EDGES_AND_34_DAY_BUDGET_2026-09-01.md`
 - optional-world comparison background artifact: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/OPTIONAL_WORLD_SURVIVAL_DECISION_READY_2026-09-01.md`
+
+STRUCTURAL NOTE (2026-09-02, CCI): every active cluster/reserve/traveler-layer file that carries a `Status:` line now also carries an explicit `Controlling: YES/NO` field, stating whether that file's own completeness gates its cluster's Layer-A pass — the exact distinction this correction is about (`RESEARCH_COMPLETE_ENOUGH != LAYER_A_MARK_TRIAGE_COMPLETE`). `DELHI_SPARE_DAY_LP_TOPX_LAYER_2026-08-31.md` and `DELHI_BROAD_LP_MARK_TRIAGE_2026-09-02.md` are both `Controlling: YES`; the food/cinema supplement is `Controlling: NO`. See `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_FILE_INDEX.md` (and the equivalent `*_FILE_INDEX.md` for Agra, Bodh Gaya/Gaya, Tiruvannamalai, Varanasi, Kumaon) for a short per-cluster map of current vs superseded files. Full detail: PR #23 comment `CCI_RESULT — REPO STRUCTURAL HEALTH: CONTROLLING-FLAG + CLUSTER INDEX`. This is purely a structural/organizational addition — it changed no grade, hotel, route or duration and does not affect the content correction above.
 
 ## CANONICAL WORK ORDER — RESTORED
 `FIXED CORE CONTENT/CANON -> FULL RELEVANT SOURCE VISIBILITY -> LAYER-A TRIAGE -> EXECUTION GEOMETRY -> MARK PACE/DWELL -> DURATION_CLOSED x6 -> REAL INTER-CORE EDGES -> FIXED_CORE_34_DAY_BUDGET -> OPTIONAL WORLD SURVIVAL -> FINAL TOPOLOGY -> LIVE LOGISTICS -> EXACT CALENDAR -> FINAL COMFORT SWEEP / DAY CARDS`.

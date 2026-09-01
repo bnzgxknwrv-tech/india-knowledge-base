@@ -1,6 +1,7 @@
 # TIRUVANNAMALAI / ARUNACHALA — LONELY PLANET MARK BALLOT — 2026-08-31
 
 Status: **CURRENT MARK-FACING LP BALLOT / BEFORE DAYPLAN / BEFORE DURATION**
+Controlling: NO — SUPERSEDED. `TIRUVANNAMALAI_TRAVELER_LAYER_REPAIR_2026-09-01.md` (latest, `Controlling: NO`) states of this ballot's items: "Existing project status remains historical/dropped with the old additional layer; this repair does not reopen it." This ballot is no longer an active decision surface; its 3 items do not gate Tiruvannamalai's Layer-A pass. Kept for historical provenance only.
 Branch: `agent/india8-cluster-casting`
 
 ## PURPOSE

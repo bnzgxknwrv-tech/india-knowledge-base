@@ -1,6 +1,7 @@
 # OPTIONAL WORLD SURVIVAL — MARK DECISION PREP — 2026-09-01
 
 Status: **MARK_DECISION_READY / EXISTING GRADES PRESERVED / NO INCLUSION INFERRED**
+Controlling: NO — this file IS the Mark-choice surface itself, not a reserve someone else must finish. "No existing Mark A/B/C/A+/A* grade changes here. No cluster is included or dropped until Mark decides" (below). Its ungraded/OPEN items are the deliberate candidates for Mark's own upcoming decision, not a sign of incomplete research.
 Branch: `agent/india8-cluster-casting`
 
 ## PURPOSE

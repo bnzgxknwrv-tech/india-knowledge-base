@@ -1,6 +1,7 @@
 # INDIA10 — TRAVELER / EXPERIENCE MASTER UNION LEDGER
 
 status: UNION_LEDGER_V1__SOURCE_DEDUP_COMPLETE__FACT_VERIFY_PARTIAL
+controlling: NO — raw deduplicated source ledger, not a decision surface. Its own PURPOSE line says it plainly: "It does NOT assign A/B/C or A+." Referenced by later cluster files as provenance only.
 date: 2026-08-24
 central_branch: agent/india8-cluster-casting
 

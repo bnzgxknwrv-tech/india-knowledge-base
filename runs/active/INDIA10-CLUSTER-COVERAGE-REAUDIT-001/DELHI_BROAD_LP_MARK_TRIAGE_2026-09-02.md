@@ -1,6 +1,7 @@
 # DELHI — BROAD LP / GENERAL-TRAVELER MARK TRIAGE — 2026-09-02
 
 Status: **ACTIVE / MARK_TRIAGE_IN_PROGRESS**
+Controlling: YES — this file tracks the live triage of the controlling Delhi reserve's outstanding `[OPEN / NOT GRADED]` rows (see `DELHI_SPARE_DAY_LP_TOPX_LAYER_2026-08-31.md`, `Controlling: YES`). Delhi's Layer-A pass is not done until this triage closes.
 Branch: `agent/india8-cluster-casting`
 
 ## PURPOSE

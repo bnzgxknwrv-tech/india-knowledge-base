@@ -1,6 +1,7 @@
 # DELHI — MINIMAL FIXED-CORE HUMAN DECISION PREP — 2026-08-31
 
 Status: **MARK-READY PREP / NIRMAL DHAM A+ FIXED / DURATION NOT YET LOCKED**
+Controlling: NO — for the OPEN Delhi-sightseeing list this file also carries; it is not an independent gate. Its rows (Humayun's Tomb, Qutb Minar, Red Fort, etc.) overlap with and are covered by the controlling reserve, `DELHI_SPARE_DAY_LP_TOPX_LAYER_2026-08-31.md` (`Controlling: YES`) — treat that file as the single source of truth for outstanding Delhi traveler triage rather than tracking this smaller list separately. (This field is about that reserve content only; it does not speak to the separate Nirmal Dham A+/duration decision, which stays exclusively Mark's.)
 Branch: `agent/india8-cluster-casting`
 
 ## PURPOSE

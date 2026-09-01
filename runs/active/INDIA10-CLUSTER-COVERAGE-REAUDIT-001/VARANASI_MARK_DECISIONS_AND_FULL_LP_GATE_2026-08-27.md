@@ -1,6 +1,7 @@
 # VARANASI / SARNATH — MARK DECISIONS + FULL LONELY PLANET GATE — 2026-08-27
 
 status: LP_REVIEW_MARK_DECISIONS_RECORDED__THREE_SMALL_POINTS_PENDING__DURATION_NOT_READY
+controlling: NO — SUPERSEDED, by the file's own text: "`VARANASI_LP_MARK_TIME_DECISIONS_2026-08-27.md` ... supersedes the earlier OPEN states below and preserves Mark's grades + subjective time instincts losslessly" (below). Read that file instead for Varanasi's current LP/traveler state.
 branch: agent/india8-cluster-casting
 
 ## CANONICAL LATEST LP REVIEW RECORD

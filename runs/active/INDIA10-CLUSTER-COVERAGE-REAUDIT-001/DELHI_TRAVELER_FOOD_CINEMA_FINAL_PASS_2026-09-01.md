@@ -1,6 +1,7 @@
 # DELHI — TRUE TRAVELER FOOD-ORIGIN + CINEMA FINAL PASS — 2026-09-01
 
 Status: **COMPLETE_ENOUGH / MANDATORY MERGE INTO FINAL DELHI RESERVE / NO NEW GRADES**
+Controlling: NO — this file is itself only a supplement to the controlling Delhi reserve (`DELHI_SPARE_DAY_LP_TOPX_LAYER_2026-08-31.md`, `Controlling: YES`), not an independent gate. IMPORTANT (per `governance/CURRENT_STATE.md`'s 2026-09-02 correction): "`Controlling: NO`" here does NOT mean Delhi's Layer-A pass is done — it means this file's own completeness/incompleteness is not the thing to check; check the controlling file instead. This file "does no grading" by its own text below, so its 8 `[OPEN / NOT GRADED]` food/cinema rows still need Mark triage same as the controlling file's rows — read them together.
 Branch: `agent/india8-cluster-casting`
 
 ## PURPOSE

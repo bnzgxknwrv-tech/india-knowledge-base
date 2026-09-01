@@ -1,6 +1,7 @@
 # INDIA14 — OPTIONAL WORLD SURVIVAL — DECISION READY — 2026-09-01
 
 Status: **READY_FOR_MARK_ONLY_SURVIVAL_DECISION / 5-NIGHT ENVELOPE / NO AUTO-GRADING**
+Controlling: NO — this file IS the Mark-choice surface itself, not a reserve someone else must finish. "No subjective grade is changed here. Existing A/B/C/A*/A+ remain intact. OPEN traveler items remain OPEN" (below) by design, pending Mark's own survival decision among the three already-graded optional worlds.
 Branch: `agent/india8-cluster-casting`
 
 ## PURPOSE

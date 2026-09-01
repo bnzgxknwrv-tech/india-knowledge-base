@@ -1,6 +1,7 @@
 # TIRUVANNAMALAI / ARUNACHALA — LP LAYER SEQUENCE CORRECTION — 2026-08-31
 
 Status: **CURRENT / MARK INSTRUCTION / PRESENTATION-SEQUENCE CORRECTION**
+Controlling: NO — SUPERSEDED. This is the procedural instruction that led into `TIRUVANNAMALAI_LP_MARK_BALLOT_2026-08-31.md`, which is itself superseded/dropped per `TIRUVANNAMALAI_TRAVELER_LAYER_REPAIR_2026-09-01.md` (latest, `Controlling: NO`). The candidate items listed below do not gate Tiruvannamalai's Layer-A pass. Kept for historical provenance only.
 Branch: `agent/india8-cluster-casting`
 
 ## WHY THIS EXISTS

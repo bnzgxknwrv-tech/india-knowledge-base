@@ -1,6 +1,7 @@
 # INDIA14 — TARGETED LP / GENERAL-TRAVELER LAYER REPAIRS — 2026-09-01
 
 Status: **TARGETED_REPAIR_COMPLETE_ENOUGH / NO GRADE OR DURATION REOPENED**
+Controlling: NO — this is the cross-cluster dispatch/tracking document, not itself a gate. Its own status says "repair COMPLETE ENOUGH" — that is a research-completeness claim, not a Mark-triage-completeness claim (`RESEARCH_COMPLETE_ENOUGH != LAYER_A_MARK_TRIAGE_COMPLETE`, per `governance/CURRENT_STATE.md`'s 2026-09-02 correction). The per-cluster files it spawned are the ones to read for each cluster's actual state: `AGRA_TRAVELER_LAYER_REPAIR_2026-09-01.md`, `BODHGAYA_GAYA_TRAVELER_LAYER_REPAIR_2026-09-01.md`, `TIRUVANNAMALAI_TRAVELER_LAYER_REPAIR_2026-09-01.md` (all `Controlling: NO` — genuinely closed) and `DELHI_TRAVELER_FOOD_CINEMA_FINAL_PASS_2026-09-01.md` (`Controlling: NO`, but Delhi's actual gate is the separate `DELHI_SPARE_DAY_LP_TOPX_LAYER_2026-08-31.md`, `Controlling: YES` — still open).
 Branch: `agent/india8-cluster-casting`
 
 ## PURPOSE

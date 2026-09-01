@@ -1,6 +1,7 @@
 # TIRUVANNAMALAI / ARUNACHALA — TARGETED TRUE TRAVELER-LAYER REPAIR — 2026-09-01
 
 Status: **REPAIR_COMPLETE_ENOUGH / KNOWLEDGE ONLY / NO LOCK REOPENED / NO NEW GRADES**
+Controlling: NO — knowledge-only repair. HARD GUARD below states "Mark's 5-night Tiruvannamalai / Arunachala fixed plan remains LOCKED_BY_MARK" and "the old additional LP layer remains dropped." Its OPEN items are optional reserve, not a gate on Tiruvannamalai's Layer-A pass. This file is also the authoritative latest word on the earlier LP ballot (see `TIRUVANNAMALAI_LP_MARK_BALLOT_2026-08-31.md`, `Controlling: NO`).
 Branch: `agent/india8-cluster-casting`
 
 ## HARD GUARD

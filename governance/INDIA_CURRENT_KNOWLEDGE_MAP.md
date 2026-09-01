@@ -151,6 +151,7 @@ Mandatory when their detail can affect `AL BESLIST?`:
 If current master + active cluster package do not resolve an entity confidently, consult these before asking Mark to reconstruct anything.
 
 ## E. REQUIRED_BEFORE_TOUCHING_BODH_GAYA
+File map/orientation (which of the 13 active Bodh Gaya files is current vs superseded): `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_GAYA_FILE_INDEX.md`.
 Read current closure first, then older prep only for detail:
 1. `decisions/BODHGAYA_CLUSTER_CLOSURE_MARK_DECISION_2026-08-29.md`
 2. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_PREP_PACKET_2026-08-27.md`
@@ -160,7 +161,10 @@ Read current closure first, then older prep only for detail:
 
 Hard current checksum: Mahabodhi/Bodhi Tree A+ [UNESCO WH]; Sujata Stupa A+; Dungeshwari/Mahakala Caves A+; Great Buddha A; Barabar/Nagarjuni C / DO NOT RE-PRESENT; Maya Heritage LOCKED_BY_MARK; former six-item open batch CLOSED.
 
+OPEN QUESTION (flagged, not resolved, 2026-09-02 structural pass): whether file #4's own remaining rows (Sher Shah Suri's Tomb, Patharkatti, Tutla Bhawani) still need Mark triage the way Delhi's did, or are genuinely covered by later work, was found genuinely ambiguous from the files alone and was deliberately left unmarked pending a real Mark/INDIA check — do not assume either answer without checking directly, given the Delhi precedent for this exact category of mistake.
+
 ## F. REQUIRED_BEFORE_TOUCHING_KUMAON
+File map/orientation (which of the 13 active Kumaon files is current vs superseded): `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_FILE_INDEX.md`.
 Read:
 1. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_DURATION_MARK_DECISION_2026-08-27.md`
 2. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_COMPLETE_EXECUTION_DRAFT_2026-08-26.md`
@@ -171,6 +175,7 @@ Read:
 Hard current: 9/9 closed; Haidakhan 3 nights/2 quiet days; Hotel Evelyn A+; Kainchi Dham A+; Mahavatar Babaji Cave A+; YSS Dwarahat A full day/no overnight; Kakrighat A*/SKIP_FIRST; Dunagiri Retreat primary/Joshi fallback. CCI also protects less-visible item grades.
 
 ## G. REQUIRED_BEFORE_TOUCHING_VARANASI / SARNATH
+File map/orientation (which of the 15 active Varanasi files is current vs superseded): `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/VARANASI_FILE_INDEX.md`.
 Read:
 1. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/VARANASI_DURATION_MARK_DECISION_2026-08-27.md`
 2. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BHRIGU_BHADURY_A_PLUS_OPERATIONAL_CLOSURE_2026-08-27.md`
@@ -182,6 +187,7 @@ Read:
 Geo warning: old delivered KML pins are not automatically safe. Before final maps/day-routing, reverify the retained points fit-for-purpose; do not demand irrelevant front-door precision.
 
 ## H. REQUIRED_BEFORE_TOUCHING_TIRUVANNAMALAI / ARUNACHALA
+File map/orientation (which of the 14 active Tiruvannamalai files is current vs superseded — the LP ballot in items below was later dropped, see index): `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_FILE_INDEX.md`.
 Read current locks first:
 1. `decisions/TIRUVANNAMALAI_5_NIGHTS_MARK_DECISION_2026-08-31.md` — **5 nights LOCKED_BY_MARK**.
 2. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_MARK_DECISION_HUMAN_DAYPLAN_2026-08-31.md` — current human/geographic dayplan surface.
@@ -202,12 +208,15 @@ Current lock = **5 nights**: arrival night + four local days, preserving a stand
 Human precision guard: ordinary times quarter-/half-hour blocks; no pseudo-exact local arrivals; no wake-up/get-out-of-bed micromanagement; small same-entity pin/door differences that cannot affect mode/burden/day count do not block planning.
 
 ## I. REQUIRED_BEFORE_TOUCHING_DELHI
+File map/orientation (which of the 7 active Delhi files is current fixed-core vs the controlling reserve vs historical): `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_FILE_INDEX.md`.
+**The broad Delhi LP/general-traveler reserve is NOT fully Mark-triaged — see `governance/CURRENT_STATE.md`'s 2026-09-02 correction before treating Delhi as complete.**
 Read:
 1. `decisions/DELHI_MINIMAL_FIXED_CORE_MARK_DECISION_2026-08-31.md`.
 2. `decisions/DELHI_RESERVE_B_GRADES_MARK_DECISION_2026-08-31.md`.
-3. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_SPARE_DAY_LP_TOPX_LAYER_2026-08-31.md` for broad traveler reserve.
-4. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_TRAVELER_FOOD_CINEMA_FINAL_PASS_2026-09-01.md` for food/cinema fine detail.
-5. older `DELHI_PREP_PACKET_2026-08-27.md` only when deeper background is needed.
+3. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_SPARE_DAY_LP_TOPX_LAYER_2026-08-31.md` — the broad controlling Delhi traveler reserve (`Controlling: YES`); still has genuinely un-triaged `[OPEN / NOT GRADED]` rows.
+4. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_TRAVELER_FOOD_CINEMA_FINAL_PASS_2026-09-01.md` for food/cinema fine detail (`Controlling: NO` — a supplement; grades nothing, does not close #3's gate).
+5. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_BROAD_LP_MARK_TRIAGE_2026-09-02.md` — live tracking of Mark's triage of #3 (`Controlling: YES`).
+6. older `DELHI_PREP_PACKET_2026-08-27.md` only when deeper background is needed.
 
 Hard current:
 - Nirmal Dham [A+] is the sole fixed Delhi content driver.
@@ -218,6 +227,7 @@ Hard current:
 - bounded/quiet Delhi; no forced generic Old Delhi.
 
 ## J. REQUIRED_BEFORE_TOUCHING_AGRA / TAJ
+File map/orientation (which of the 6 active Agra files is current fixed-core vs reserve vs historical): `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/AGRA_FILE_INDEX.md`.
 Read newest Mark locks first:
 1. `decisions/AGRA_TAJ_ONLY_FIXED_CORE_MARK_DECISION_2026-08-31.md`
 2. `decisions/AGRA_TAJ_1_NIGHT_MARK_DECISION_2026-08-31.md`
