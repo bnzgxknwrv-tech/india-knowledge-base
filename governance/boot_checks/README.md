@@ -13,14 +13,14 @@ The file references the exact receipt `INDIA<N>__<START_NONCE>.json` and also co
 
 ## Required JSON — FULL
 `india_session`, `start_nonce`, `check_nonce`, `receipt_path`, `boot_head_final`, `receipt_commit`,
-`check_mode` (`"FULL"` or absent), `new_quotes[]`, `challenges[]` (all eight mandatory topics), `check_created_utc`, `check_gate`.
+`check_mode` (`"FULL"` or absent), `new_quotes[]`, `challenges[]` (all mandatory topics), `check_created_utc`, `check_gate`.
 
 Each challenge:
 `topic`, `question`, `start_session_answer`, `checker_evidence`, `checker_verdict`.
 
-The manifest requires all eight standing topics:
-`TRAIN_FIRST_DOOR_TO_DOOR`, `AL_BESLIST`, `C_DO_NOT_RE_PRESENT`, `NEWER_CENTRAL_OVER_CCI`,
-`GEO_VETO`, `CURRENT_FRONTIER`, `ACTION_FIRST`, `DURABLE_WHAT_WHY`.
+The manifest's `check_required_challenge_topics` array in `BOOT_MANIFEST_V8.json` is the single authority for the exact current standing-topic list and count — it is deliberately NOT re-enumerated here as a second hand-maintained copy (R30: a hand-copied list rots the moment the manifest changes without this file being edited in the same breath). Read the manifest directly rather than trusting a count/list written in prose.
+
+One topic, `FRONTIER_CONTRADICTION_CHECK` (added in the INDIA16 consensus patch), carries an extended evidence requirement: its `checker_evidence` must concretely cite all three of `governance/CURRENT_STATE.md`, `governance/CURRENT_DECISIONS_MASTER.md` and `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md` — every other topic needs only a single mandatory-source citation.
 
 ## Required JSON — LIGHT
 Same identity fields as FULL (`india_session`, `start_nonce`, `check_nonce`, `receipt_path`, `boot_head_final`, `receipt_commit`, `check_created_utc`, `check_gate`), plus:
@@ -47,16 +47,16 @@ LIGHT is allowed only when some prior PASSing FULL check's reviewed receipt has 
 ## Streamlined relay — one batch (FULL tier only)
 LIGHT has no relay at all — same session, no Mark round trip (§2.8). This section is FULL-only.
 
-Do NOT force Mark through eight individual copy/paste loops.
+Do NOT force Mark through one individual copy/paste loop per topic.
 
 Preferred when both sessions have GitHub:
-1. CHECK posts all eight questions in ONE labelled PR #23 comment.
+1. CHECK posts all mandatory-topic questions in ONE labelled PR #23 comment.
 2. Mark tells START only that the questions are on PR #23.
-3. START fetches that exact comment, answers all eight in ONE labelled PR #23 comment.
+3. START fetches that exact comment, answers every question in ONE labelled PR #23 comment.
 4. Mark tells CHECK only that the answers are on PR #23.
 5. CHECK fetches the exact answer comment, grades and records each answer verbatim.
 
-Fallback: one eight-question block pasted once to START, one eight-answer block pasted once back.
+Fallback: one question block pasted once to START, one answer block pasted once back.
 
 PR #23 is transport/provenance only, not controlling travel truth.
 
