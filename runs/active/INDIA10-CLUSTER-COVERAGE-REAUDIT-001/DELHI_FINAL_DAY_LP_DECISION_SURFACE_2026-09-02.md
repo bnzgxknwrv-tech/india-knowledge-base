@@ -11,7 +11,12 @@ Branch: `agent/india8-cluster-casting`
 - Final hotel not selected; Mark prefers reasonably close to IGI Airport for rest/flight safety.
 - Until hotel lock, use IGI Airport / Aerocity as burden-comparison proxy.
 
-## EXISTING MARK B ITEMS — DO NOT RE-GRADE AS FRESH
+## PRESENTATION GUARD — GRADE LETTERS ARE RESERVED
+Do **not** label corridors, bundles, scenarios or menu groups with `A/B/C/D/E/...` because those letters collide with Mark's A+/A/A*/B/C grading system and are confusing.
+Use neutral descriptive names and, where a reply needs selectable groups, ordinary numbers only.
+
+## EXISTING MARK B ITEMS — PROVENANCE / DO NOT RE-GRADE AS FRESH
+The following `[B]` statuses are not INDIA recommendations. They come from the explicit Mark decision artifact `decisions/DELHI_RESERVE_B_GRADES_MARK_DECISION_2026-08-31.md` and remain current unless Mark explicitly changes them:
 - PVR Priya IMAX, Vasant Vihar [B].
 - Hauz Khas Village [B].
 - Humayun's Tomb [B] [UNESCO WH].
@@ -34,7 +39,7 @@ These are planning ranges, not exact live-traffic promises. Re-run from exact ho
 
 ## HUMAN CORRIDORS / MARGINAL-BURDEN LOGIC
 
-### A. SOUTH / MEHRAULI / VASANT VIHAR — LOWEST-BURDEN MAJOR WORLD
+### South / Mehrauli / Vasant Vihar — lowest-burden major world
 Core candidates:
 - Qutb Minar and Monuments [OPEN] [UNESCO WH] — ~1.5–2 h.
 - Garden of Five Senses [OPEN] — ~45–75 min; low marginal burden if Qutb is already selected.
@@ -42,9 +47,9 @@ Existing nearby B anchors:
 - PVR Priya IMAX [B] — evening film candidate.
 - Hauz Khas Village [B] — modern/local Delhi reserve.
 Additional route-dependent cinema fallback: PVR Select Citywalk IMAX [OPEN], only if film/showtime/geography beats Priya.
-Human logic: this corridor is naturally strong from airport-side because Qutb and the existing B south-Delhi experiences are all on the same side of the city. A moderate item can become A*/B-worthy bycatch once one south-Delhi anchor is selected.
+Human logic: this corridor is naturally strong from airport-side because Qutb and the existing B south-Delhi experiences are all on the same side of the city. A moderate item can become operationally much more attractive once one south-Delhi anchor is selected.
 
-### B. LODHI / NIZAMUDDIN — MEDIUM BURDEN, HIGH BUNDLE DENSITY
+### Lodhi / Nizamuddin — medium burden, high bundle density
 Open:
 - Lodhi Colony Street Art [OPEN] — ~60–90 min walk/photo.
 - Lodhi Garden [OPEN] — ~45–75 min.
@@ -53,7 +58,7 @@ Existing B:
 - Sunder Nursery [B].
 Human logic: once Humayun/Sunder is activated, Lodhi becomes a low-marginal-burden extension rather than a separate cross-city expedition.
 
-### C. CENTRAL DELHI — MEDIUM BURDEN, COMPACT MULTI-ITEM BUNDLE
+### Central Delhi — medium burden, compact multi-item bundle
 Open:
 - Jantar Mantar [OPEN] — ~30–45 min.
 - Agrasen ki Baoli [OPEN] — ~20–30 min.
@@ -63,7 +68,7 @@ Open:
 - Indian Coffee House [OPEN] — cultural/history candidate, exact current historic venue recheck later.
 Human logic: no single small item needs to justify airport->central travel alone. If one central anchor is selected, the others become cheap walking/short-hop bycatch.
 
-### D. OLD DELHI / DARYAGANJ — HIGHEST-DENSITY HUMAN EXPERIENCE, HIGHER ACCESS BURDEN
+### Old Delhi / Daryaganj — highest-density human experience, higher access burden
 Open major anchors:
 - Red Fort [OPEN] [UNESCO WH] — ~1.5–2 h.
 - Chandni Chowk / Old Delhi human street world [OPEN].
@@ -77,24 +82,24 @@ Cinema/culture:
 - Delite Cinema [OPEN] — 1954 movie-palace/Hindi crowd experience when film fit is strong.
 Human logic: treat as one integrated world, not seven separate detours. High outbound/return burden from airport-side, but once there most items are compact enough for walking/rickshaw/short-hop bundling. Red Fort alone is less efficient than an intentional Old Delhi half/full-day experience.
 
-### E. SOUTHWEST / AIRPORT-SIDE ODDITY — VERY LOW MARGINAL BURDEN
+### Southwest / airport-side oddity — very low marginal burden
 - Sulabh International Museum of Toilets [OPEN] — quirky sanitation/toilet-history museum; ~30–45 min.
 Human logic: unusually relevant because it sits on the same broad southwest side as airport/Aerocity. Moderate intrinsic attraction can become operationally attractive because marginal travel burden is small.
 
-### F. CHANAKYAPURI / PRIYA-NEIGHBOR
+### Chanakyapuri / Priya-neighbor
 - National Rail Museum [OPEN] — locomotives/rail heritage; ~1–2 h depending interest.
 Existing nearby evening anchor: PVR Priya IMAX [B].
 Human logic: potentially useful day-to-evening pairing with Priya rather than a standalone cross-city objective.
 
-### G. SOUTH / KALKAJI
+### South / Kalkaji
 - Lotus Temple [OPEN] — iconic Bahá'í lotus architecture/gardens; ~30–60 min.
 Human logic: ordinary-traveler architecture magnet, but not as route-cheap as Qutb from airport-side and not a full-day world on its own. Can pair with south/east movement if other content warrants it.
 
-### H. EAST DELHI — HIGHER BURDEN / LARGE EXPERIENCE
+### East Delhi — higher burden / large experience
 - Swaminarayan Akshardham [OPEN] — large modern culture/temple spectacle with exhibitions/film/boat/show; potentially several hours.
 Human logic: substantial destination and farthest major candidate from airport-side among the core shortlist. Must win on intrinsic interest because it consumes both travel and dwell time.
 
-### I. QUIRKY / SPECIAL HUMAN EXPERIENCES — OPEN
+### Quirky / special human experiences — open
 - Jhandewalan giant Hanuman/demon-mouth surreal experience [OPEN].
 - Feroz Shah Kotla djinn-petition folklore world [OPEN].
 - Shankar's International Dolls Museum [OPEN].
@@ -102,18 +107,10 @@ Human logic: substantial destination and farthest major candidate from airport-s
 These belong in the LP/general-traveler universe because they are experiences/oddities, not because they fit pilgrimage canon. Grade only after showing actual geography relative to a selected corridor.
 
 ## DECISION PRINCIPLE
-Mark should first decide which one or two **Delhi worlds** feel worth the single final free day. Then smaller rows inside selected worlds can gain value through `JE BENT ER TOCH` geometry. Do not grade every small candidate as though each requires a separate airport round-trip.
+Mark should first understand which one or two **Delhi worlds** feel worth the single final free day. Then smaller rows inside selected worlds can gain value through `JE BENT ER TOCH` geometry. Do not grade every small candidate as though each requires a separate airport round-trip.
 
-## FIRST DECISION QUESTION
-Which worlds are intrinsically attractive enough to survive to detailed item grading?
-A South/Mehrauli/Priya-Hauz
-B Lodhi/Nizamuddin
-C Central Delhi
-D Old Delhi/Daryaganj
-E Southwest Sulabh oddity
-F Rail Museum/Priya
-G Lotus Temple south
-H Akshardham east
-I quirky/special experiences
+## NEXT DECISION PRESENTATION
+Present the worlds with neutral descriptive headings or ordinary numbers only. Never prefix them with A/B/C/D/E-style option letters.
+Within any world, every actual place remains individually recognition-rich and retains its true `[A+] / [A] / [A*] / [B] / [C] / [OPEN]` status.
 
 END
