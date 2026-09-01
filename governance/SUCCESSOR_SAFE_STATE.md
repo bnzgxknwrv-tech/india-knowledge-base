@@ -27,12 +27,14 @@ Crash test:
 
 ---
 
-STATUS: SAFE_TO_HANDOFF_AFTER_CURRENT_SYNC
+STATUS: SAFE_TO_HANDOFF
 
 FRONTIER:
-All six guaranteed fixed A+ worlds are locally duration/footprint closed. Real fixed-core inter-core edges, the fixed-core 34-day/33-India-night budget, the true LP/general-traveler integrity audit and targeted repairs, and the final Delhi food/cinema/IMAX fine-detail pass are complete. The fixed core currently commits 28 India-night slots and leaves **5 genuinely unallocated nights** before contingencies are actually realized.
+All six guaranteed fixed A+ worlds are locally duration/footprint closed. Real fixed-core inter-core edges, the fixed-core 34-day/33-India-night budget, the true LP/general-traveler integrity audit and targeted repairs, the final Delhi food/cinema/IMAX fine-detail pass, and the objective optional-world survival comparison are complete. The fixed core currently commits 28 India-night slots and leaves **5 genuinely unallocated nights** before contingencies are actually realized.
 
-The live frontier is now the genuine Mark-only `OPTIONAL WORLD SURVIVAL` choice. INDIA14 has already prepared the decision-ready comparison; INDIA15 must not restart completed edge/budget/LP/IMAX work before presenting/continuing this gate.
+The live frontier is the genuine Mark-only `OPTIONAL WORLD SURVIVAL` choice. INDIA14 has already prepared the decision-ready comparison; INDIA15 must not restart completed edge/budget/LP/IMAX work before presenting/continuing this gate.
+
+The manifest active frontier has been synchronized to `GLOBAL_OPTIONAL_WORLD_SURVIVAL`, and its mandatory active read set now includes this transition's detailed handoff plus the fixed-edge/budget, traveler-integrity, traveler-repair, Delhi cinema and optional-survival artifacts. A fresh INDIA15 boot therefore cannot legitimately complete while still loading the old Tiruvannamalai-only active cluster set.
 
 LAST_COMPLETED:
 - Six fixed A+ local footprints/durations closed, including Delhi minimal fixed core, Kumaon 9 nights, Agra/Taj 1 hotel night, Bodh Gaya default 2 hotel nights under useful early inbound, Varanasi 8 nights, Tiruvannamalai 5 nights LOCKED_BY_MARK.
@@ -46,7 +48,9 @@ LAST_COMPLETED:
   `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_TRAVELER_FOOD_CINEMA_FINAL_PASS_2026-09-01.md`.
 - Optional-world comparison completed and decision-ready:
   `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/OPTIONAL_WORLD_SURVIVAL_DECISION_READY_2026-09-01.md`.
-- Detailed INDIA14->INDIA15 handoff created and iterated; final version must remain consistent with this checkpoint.
+- `INDIA_CURRENT_KNOWLEDGE_MAP.md` repaired from stale Tiruvannamalai/Agra/Delhi open-duration pointers to the real optional-world frontier.
+- universal V8.1 START/CHECK protocol strengthened with a post-authorization three-pass frontier parity audit.
+- `BOOT_MANIFEST_V8.json` active cluster moved from stale `TIRUVANNAMALAI_ARUNACHALA` to `GLOBAL_OPTIONAL_WORLD_SURVIVAL` with six current mandatory active files.
 
 CURRENT OPTIONAL-WORLD DECISION SURFACE:
 - **Braj / Mathura–Vrindavan–Govardhan** — inclusion unresolved; protected existing A sites include Neem Karoli Baba Ashram + Mahasamadhi Mandir and Katyayani Peeth / Keshav Ashram. Lean survival = 1 night; very strong payoff/friction beside Agra.
@@ -72,10 +76,11 @@ KNOWN INDIA14 FAILURE MODES NOW DURABLE:
 - interruptions never cancel the active authorized task unless Mark explicitly replaces it;
 - LP/general-traveler discovery remains separate from person/spiritual/TOP-X research;
 - planning-class current transport products remain `LIVE_RECHECK_LATER`, not Jan-2027 guarantees;
+- crash state, knowledge map and manifest active frontier must move with the real frontier; stale successor pointers are a hard memory-system defect;
 - boot architecture V8.1 is closed for ordinary travel work; do not reopen it without a real failure.
 
 NEXT_AUTOMATIC_STEP:
-None until Mark resolves the current optional-world survival gate. INDIA15's first substantive content action after its own successful V8.1 boot + independent authorization is to present/continue the existing optional-world survival choice from package A/B/C/D/E or a custom combination, with A as the current INDIA recommendation. Do not ask any other planning question first.
+None until Mark resolves the current optional-world survival gate. INDIA15's first substantive content action after its own successful V8.1 boot + independent authorization + three-pass frontier parity audit is to present/continue the existing optional-world survival choice from package A/B/C/D/E or a custom combination, with A as the current INDIA recommendation. Do not ask any other planning question first.
 
 WAITING_FOR_MARK:
 Exactly one current choice: how to spend the 5-night optional-world envelope.
@@ -101,6 +106,6 @@ CONTROLLING_ARTIFACTS:
 - `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/OPTIONAL_WORLD_SURVIVAL_DECISION_READY_2026-09-01.md`
 
 UNSAVED_RISK:
-`INDIA_CURRENT_KNOWLEDGE_MAP.md` still needs same-handoff synchronization if it retains the superseded Tiruvannamalai/Agra/Delhi open-duration frontier. INDIA14 must repair that before final handoff says OK.
+GEEN
 
 END SUCCESSOR SAFE STATE
