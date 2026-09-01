@@ -65,5 +65,28 @@
   "final_authorization_script": "governance/scripts/final_authorization.py",
   "final_authorization_ci_workflow": ".github/workflows/india-final-authorization.yml",
   "validator_required_mode": "--require-session-receipt",
-  "warnings_are_fatal_in_boot_mode": true
+  "warnings_are_fatal_in_boot_mode": true,
+  "_R34_proportional_check_tiering_comment": "Added 2026-09-01, R34 (see INDIA_RECOVERY_DELTAS_CURRENT.md). Two CHECK tiers now exist: FULL (unchanged mechanics above, all check_* fields) and LIGHT (a cheaper self-answered spot-check). Which tier a given boot needs is NEVER read from a hand-maintained field here or anywhere else -- per the R30 lesson, a manually-tracked sync/version pointer rots. It is instead DERIVED LIVE at CHECK time by validate_independent_check.py, which walks governance/boot_checks/ for the most recent PASSing check whose check_mode is FULL (or absent, for pre-tiering legacy checks), reads that check's reviewed receipt's boot_head_final, computes the actual git blob SHA of every path in central_required at that commit, and compares that map byte-for-byte against the same map computed at the CURRENT session's own boot_head_final. LIGHT is eligible only on an exact match across every central_required path; any difference (a changed file, an added/removed central_required path, or no prior FULL check found at all) fails LIGHT closed and demands FULL. This scope is deliberately central_required ONLY -- cci_required is pinned/immutable and active_cluster_required changes with ordinary travel-content progress, so tying tiering to either of those would defeat the entire point (routine continuations where governance itself has not changed should stay cheap).",
+  "check_mode_values": ["FULL", "LIGHT"],
+  "check_mode_field": "check_mode",
+  "check_mode_default_when_absent": "FULL",
+  "check_tier_scope": "central_required",
+  "check_tier_detection_method": "live_git_blob_sha_comparison_against_boot_checks_history_not_a_hand_maintained_pointer",
+  "full_check_required_when": [
+    "no_prior_PASSing_FULL_check_has_a_reviewed_receipt_boot_head_final_whose_central_required_blob_sha_map_exactly_matches_this_session_boot_head_final",
+    "mark_explicitly_requests_a_full_check_for_any_reason",
+    "any_prior_light_spot_check_in_this_repository_state_failed_and_has_not_since_been_superseded_by_a_passing_full_check"
+  ],
+  "light_check_allowed_when": "a FULL check has already PASSed whose reviewed receipt's central_required blob-SHA set exactly equals the current session's own boot_head_final central_required blob-SHA set",
+  "light_check_second_session_required": false,
+  "light_check_self_graded": true,
+  "light_check_new_quotes_required": false,
+  "light_check_challenge_count": 3,
+  "light_check_topic_pool": "check_required_challenge_topics",
+  "light_check_selection_seed_field": "boot_head_final",
+  "light_check_selection_algorithm": "pool = sorted(set(check_required_challenge_topics)); for i in range(light_check_challenge_count): idx = int(sha256(f'{boot_head_final}:LIGHT_CHECK_TOPIC_SELECT:{i}').hexdigest(), 16) % len(pool); selected.append(pool.pop(idx)) -- deterministic, reproducible by anyone from boot_head_final alone, not chosen freely by the session being tested",
+  "light_check_answer_floor_fields": ["check_min_answer_chars", "check_min_answer_words", "check_min_evidence_chars"],
+  "light_check_directory": "governance/boot_checks",
+  "light_check_artifact_naming": "same as full check: INDIA<N>_CHECK__<START_NONCE>.json, distinguished only by the check_mode field -- same C-R-K commit shape, same append-only directory, same automatic india-final-authorization.yml trigger; no new directory or workflow needed",
+  "light_check_honest_limit": "LIGHT intentionally drops the separated-authorship protection R31/R32 built for FULL (a genuinely separate session authoring the question and grading a relayed answer). In LIGHT mode the same session authors the question, the answer and the grade. This is a deliberate, explicit, Mark-approved cost/rigor tradeoff for the routine case, not an oversight or a claim of equal strength -- see R34."
 }

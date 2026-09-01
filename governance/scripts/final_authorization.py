@@ -20,6 +20,14 @@ Usage:
 HONEST LIMIT: see validate_successor_boot.py and validate_independent_check.py
 docstrings, and governance/INDIA14_START_AND_INDEPENDENT_CHECK.md's own
 HONEST LIMIT section. This script proves machine-checkable facts only.
+
+TWO-TIER CHECK (2026-09-01, R34): this wrapper's own CLI/behavior is
+UNCHANGED by the FULL/LIGHT tier split -- it always takes the same three
+positional args and always runs the same two sub-validators. Which tier is
+in play is entirely a property of the check ARTIFACT itself (its own
+`check_mode` field), read and enforced inside validate_independent_check.py.
+This keeps the permanent `.github/workflows/india-final-authorization.yml`
+trigger and invocation working unchanged for both tiers.
 """
 from __future__ import annotations
 

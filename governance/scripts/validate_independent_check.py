@@ -40,6 +40,31 @@ the live git state. It does NOT re-validate the receipt itself (that is
 validate_successor_boot.py's job) -- governance/scripts/final_authorization.py
 runs both and is the ONLY place that may print CONTENT_AUTHORIZATION: GRANTED.
 
+TWO-TIER CHECK (2026-09-01, R34 -- see INDIA_RECOVERY_DELTAS_CURRENT.md and
+governance/INDIA14_START_AND_INDEPENDENT_CHECK.md section 2.0/2.8): running
+the full eight-topic, separate-session, Mark-relayed CHECK on every single
+fresh INDIA<N> session was disproportionately costly for routine continuations
+where nothing about the mandatory governance file set had actually changed.
+A check artifact now declares its own `check_mode`: `"FULL"` (unchanged
+mechanics, mandatory when missing/legacy) or `"LIGHT"` (a cheaper self-
+answered spot-check, only 2-3 deterministically-chosen topics, no separate
+session, no new_quotes requirement). Which tier a given boot is ALLOWED to
+use is never read from a hand-maintained pointer/version field -- per the R30
+lesson that manually-tracked sync state rots -- it is derived LIVE here, at
+validation time, from real git blob SHAs: LIGHT is eligible only when some
+prior PASSing FULL check's reviewed receipt has a `central_required` blob-SHA
+map that exactly equals the current session's own. Any mismatch, or no prior
+FULL check at all, fails LIGHT closed and the message says a FULL check is
+required -- LIGHT never silently substitutes for a required FULL check. The
+LIGHT topic selection is itself deterministic (seeded from the session's own
+`boot_head_final`, see `deterministic_light_topics` below) so the specific
+topics cannot be known or gamed before the real boot is actually done, even
+though -- unlike FULL's live unpredictability -- the mechanism is simple
+enough to be reproduced by anyone from the pinned commit hash alone. That
+predictability-under-scrutiny is an explicit, accepted tradeoff for the
+routine case, not an oversight (see BOOT_MANIFEST_V8.json
+`light_check_honest_limit`).
+
 HONEST LIMIT: same as validate_successor_boot.py -- this proves machine-
 checkable facts (paths, git shape, verbatim quotes, minimum-substance and
 source-citation checks on structured challenge records) only. It cannot
@@ -59,6 +84,7 @@ RECEIPT/CHECK COMMIT SHAPE: three commits in a chain --
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
 import subprocess
@@ -121,6 +147,141 @@ def cited_mandatory_paths(text: str, mandatory: set[str], extra: set[str]) -> se
     found = {m.group(0) for m in SOURCE_PATH_RE.finditer(text or "")}
     return found & (mandatory | extra)
 
+
+# ---------------------------------------------------------------------------
+# TWO-TIER CHECK (R34) -- LIGHT-mode helpers. See module docstring.
+# ---------------------------------------------------------------------------
+def deterministic_light_topics(boot_head_final: str, topic_pool, count: int) -> list[str]:
+    """Deterministically select `count` topics from `topic_pool`, seeded
+    ONLY by `boot_head_final` -- reproducible by anyone from the pinned
+    commit hash alone (BOOT_MANIFEST_V8.json light_check_selection_algorithm),
+    so a session cannot pick its own easy topics, but simple enough that the
+    topics are not adversarially unpredictable the way a live FULL-check
+    session's freshly-authored questions are (an explicit, accepted tradeoff
+    for the routine case -- see light_check_honest_limit)."""
+    remaining = sorted(set(topic_pool))
+    count = min(count, len(remaining))
+    selected: list[str] = []
+    for i in range(count):
+        digest = hashlib.sha256(f"{boot_head_final}:LIGHT_CHECK_TOPIC_SELECT:{i}".encode()).hexdigest()
+        idx = int(digest, 16) % len(remaining)
+        selected.append(remaining.pop(idx))
+    return selected
+
+
+def central_blob_map(ref: str, central_paths) -> dict[str, str] | None:
+    """path -> blob SHA for every central_required path, pinned at `ref`.
+    Returns None if any path cannot be resolved at that ref (fail-closed
+    caller treats that as no match, never as an empty/vacuous match)."""
+    out: dict[str, str] = {}
+    for rel in central_paths:
+        try:
+            out[rel] = git("rev-parse", f"{ref}:{rel}")
+        except Exception:
+            return None
+    return out
+
+
+def find_prior_full_check_match(root: Path, check_dir_rel: str, central_paths,
+                                  current_map: dict[str, str], exclude_file: Path):
+    """Walk every *_CHECK__*.json under check_dir_rel (live + test_fixtures/),
+    keep only PASSing FULL (or legacy, mode-absent) checks, and look for one
+    whose reviewed receipt's boot_head_final has an IDENTICAL central_required
+    blob-SHA map to `current_map`. Returns (True, matched_check_relpath) on
+    the first exact match, else (False, None). This is the ENTIRE tier-
+    eligibility mechanism -- derived live from git + this directory's actual
+    history, never from a hand-maintained pointer (R30)."""
+    base = root / check_dir_rel
+    if not base.is_dir():
+        return False, None
+    try:
+        exclude_resolved = exclude_file.resolve()
+    except Exception:
+        exclude_resolved = None
+    for f in sorted(base.rglob("*_CHECK__*.json")):
+        if exclude_resolved is not None:
+            try:
+                if f.resolve() == exclude_resolved:
+                    continue
+            except Exception:
+                pass
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        if not isinstance(data, dict):
+            continue
+        if data.get("check_mode", "FULL") != "FULL":
+            continue
+        if data.get("check_gate") != "PASS":
+            continue
+        receipt_rel = data.get("receipt_path")
+        if not receipt_rel:
+            continue
+        receipt_file = root / receipt_rel
+        if not receipt_file.is_file():
+            continue
+        try:
+            receipt_data = json.loads(receipt_file.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        prior_final = receipt_data.get("boot_head_final")
+        if not prior_final or not re.fullmatch(r"[0-9a-f]{40}", prior_final):
+            continue
+        prior_map = central_blob_map(prior_final, central_paths)
+        if prior_map is not None and prior_map == current_map:
+            try:
+                return True, str(f.relative_to(root))
+            except Exception:
+                return True, str(f)
+    return False, None
+
+
+def validate_challenge_floor(ch, mandatory_sources: set[str], extra_paths: set[str],
+                               min_answer_chars: int, min_answer_words: int,
+                               min_evidence_chars: int) -> None:
+    """Shared per-challenge anti-triviality floor, used by BOTH the FULL and
+    LIGHT branches so the two tiers can never silently diverge on how hard it
+    is to satisfy an individual challenge record -- only on HOW MANY/WHICH
+    topics are required and who authored the answer. Appends to the module-
+    level `errors` list via `fail()`, matching the rest of this script's style."""
+    if not isinstance(ch, dict):
+        fail("malformed challenge item")
+        return
+    topic = ch.get("topic", "")
+    question = ch.get("question", "")
+    answer = ch.get("start_session_answer", "")
+    evidence = ch.get("checker_evidence", "")
+    verdict = ch.get("checker_verdict", "")
+
+    if not topic:
+        fail("challenge missing topic")
+    if not question or len(question) < 10:
+        fail(f"challenge question missing/too short: topic={topic}")
+
+    if is_trivial_text(answer):
+        fail(f"challenge start_session_answer missing, empty, or a placeholder/filler "
+             f"string: topic={topic}")
+    elif len(answer.strip()) < min_answer_chars:
+        fail(f"challenge start_session_answer too short (<{min_answer_chars} chars): topic={topic}")
+    elif len(answer.strip().split()) < min_answer_words:
+        fail(f"challenge start_session_answer too few words (<{min_answer_words}): topic={topic}")
+
+    if is_trivial_text(evidence):
+        fail(f"challenge checker_evidence missing, empty, or a placeholder/filler string: topic={topic}")
+    elif len(evidence.strip()) < min_evidence_chars:
+        fail(f"challenge checker_evidence too short (<{min_evidence_chars} chars): topic={topic}")
+    elif not cited_mandatory_paths(evidence, mandatory_sources, extra_paths):
+        fail(f"challenge checker_evidence does not cite a concrete mandatory source path "
+             f"(governance/... or runs/...) or the reviewed receipt path: topic={topic}")
+
+    if (answer or "").strip() and (evidence or "").strip() and answer.strip() == evidence.strip():
+        fail(f"challenge start_session_answer and checker_evidence must not be identical "
+             f"(the checker's own citation cannot double as the answer being graded): topic={topic}")
+
+    if verdict not in ("PASS", "FAIL"):
+        fail(f"challenge checker_verdict must be PASS or FAIL, got {verdict!r}: topic={topic}")
+
 p = argparse.ArgumentParser()
 p.add_argument("--check", required=True,
                 help="path to the independent CHECK artifact, e.g. "
@@ -174,6 +335,8 @@ min_answer_chars = manifest.get("check_min_answer_chars", 40)
 min_answer_words = manifest.get("check_min_answer_words", 8)
 min_evidence_chars = manifest.get("check_min_evidence_chars", 25)
 check_dir = manifest.get("check_directory", "governance/boot_checks")
+light_challenge_count = manifest.get("light_check_challenge_count", 3)
+check_mode_values = set(manifest.get("check_mode_values", ["FULL", "LIGHT"]))
 
 if not required_topics:
     fail("manifest check_required_challenge_topics is empty -- cannot enforce mandatory veto challenge set")
@@ -215,6 +378,17 @@ else:
     except Exception as e:
         fail(f"invalid receipt JSON: {e}")
         receipt = {}
+
+# ---------------------------------------------------------------------------
+# check_mode (R34 two-tier check) -- absent/missing is treated as FULL for
+# backward compatibility with every check artifact written before this field
+# existed (including the real INDIA14 CHECK). An unrecognized value fails
+# closed as FULL (the stricter path) rather than being ignored.
+# ---------------------------------------------------------------------------
+check_mode = check.get("check_mode", "FULL") if isinstance(check, dict) else "FULL"
+if check_mode not in check_mode_values:
+    fail(f"check_mode must be one of {sorted(check_mode_values)}, got {check_mode!r}")
+    check_mode = "FULL"
 
 # ---------------------------------------------------------------------------
 # Identity/binding fields
@@ -399,53 +573,60 @@ def pinned_text_for(src: str) -> str | None:
 
 
 new_quotes = check.get("new_quotes", [])
-if not isinstance(new_quotes, list) or len(new_quotes) < min_new_quotes:
-    fail(f"need at least {min_new_quotes} new_quotes items")
-    new_quotes = []
+if check_mode == "FULL":
+    if not isinstance(new_quotes, list) or len(new_quotes) < min_new_quotes:
+        fail(f"need at least {min_new_quotes} new_quotes items")
+        new_quotes = []
 
-seen_new_sources: set[str] = set()
-seen_new_quotes: set[str] = set()
-for nq in new_quotes:
-    if not isinstance(nq, dict):
-        fail("malformed new_quotes item")
-        continue
-    src = nq.get("source", "")
-    q = nq.get("quote", "")
-    if src in seen_new_sources:
-        fail(f"duplicate new_quotes source: {src}")
-    if q in seen_new_quotes:
-        fail("duplicate new_quotes quote")
-    seen_new_sources.add(src)
-    seen_new_quotes.add(q)
+    seen_new_sources: set[str] = set()
+    seen_new_quotes: set[str] = set()
+    for nq in new_quotes:
+        if not isinstance(nq, dict):
+            fail("malformed new_quotes item")
+            continue
+        src = nq.get("source", "")
+        q = nq.get("quote", "")
+        if src in seen_new_sources:
+            fail(f"duplicate new_quotes source: {src}")
+        if q in seen_new_quotes:
+            fail("duplicate new_quotes quote")
+        seen_new_sources.add(src)
+        seen_new_quotes.add(q)
 
-    if len(q) < 40 or not re.search(r"[.!?]$", q.strip()):
-        fail(f"new_quotes item is not a meaningful full sentence (>=40 chars, ends in . ! or ?): {src}")
-    if src not in mandatory_sources:
-        fail(f"new_quotes source is not a mandatory file: {src}")
-        continue
-    if src in receipt_proof_sources:
-        fail(f"new_quotes source was already used as a proof_of_read source in the "
-             f"original receipt (must be a NOT-yet-used mandatory source): {src}")
-    if q in receipt_proof_quotes:
-        fail(f"new_quotes quote duplicates a quote already used in the original receipt: {src}")
+        if len(q) < 40 or not re.search(r"[.!?]$", q.strip()):
+            fail(f"new_quotes item is not a meaningful full sentence (>=40 chars, ends in . ! or ?): {src}")
+        if src not in mandatory_sources:
+            fail(f"new_quotes source is not a mandatory file: {src}")
+            continue
+        if src in receipt_proof_sources:
+            fail(f"new_quotes source was already used as a proof_of_read source in the "
+                 f"original receipt (must be a NOT-yet-used mandatory source): {src}")
+        if q in receipt_proof_quotes:
+            fail(f"new_quotes quote duplicates a quote already used in the original receipt: {src}")
 
-    text = pinned_text_for(src)
-    if text is None:
-        fail(f"no pinned content available for new_quotes source: {src}")
-        continue
-    if q not in text:
-        fail(f"new_quotes quote not verbatim in pinned source: {src}")
+        text = pinned_text_for(src)
+        if text is None:
+            fail(f"no pinned content available for new_quotes source: {src}")
+            continue
+        if q not in text:
+            fail(f"new_quotes quote not verbatim in pinned source: {src}")
 
-if len({nq.get("source") for nq in new_quotes if isinstance(nq, dict)}) < min_new_quotes:
-    fail(f"new_quotes must come from at least {min_new_quotes} DISTINCT sources")
+    if len({nq.get("source") for nq in new_quotes if isinstance(nq, dict)}) < min_new_quotes:
+        fail(f"new_quotes must come from at least {min_new_quotes} DISTINCT sources")
+else:
+    # LIGHT mode: new_quotes are not required at all (manifest
+    # light_check_new_quotes_required: false) -- this is part of the
+    # explicit, documented cost/rigor tradeoff for the routine case.
+    pass
 
 # ---------------------------------------------------------------------------
-# Semantic challenges: >= min_challenges, structured, unique, covering the
-# full mandatory veto topic set, with NO material FAIL verdict anywhere.
+# Semantic challenges.
 #
-# Each challenge splits the old single self-authored `answer`/`evidence`
-# pair into two independently-sourced fields (Work audit fresh re-audit,
-# MUST_FIX 1 -- see module docstring):
+# FULL: >= min_challenges, covering the full mandatory eight-topic veto set,
+# with NO material FAIL verdict anywhere. Each challenge splits the old
+# single self-authored `answer`/`evidence` pair into two independently-
+# sourced fields (Work audit fresh re-audit, MUST_FIX 1 -- see module
+# docstring):
 #   - start_session_answer: the verbatim reply relayed back from the
 #     ORIGINAL START session (via Mark -- see
 #     INDIA14_START_AND_INDEPENDENT_CHECK.md section 2.4a). This is the
@@ -456,71 +637,110 @@ if len({nq.get("source") for nq in new_quotes if isinstance(nq, dict)}) < min_ne
 #   - checker_verdict: the checker's PASS/FAIL judgment, unchanged in kind
 #     from the old `verdict` field but now clearly scoped as the checker's
 #     own grading of a separately-sourced answer, not of its own text.
-# Both text fields are rejected if empty, a known placeholder/filler string,
-# too short, too few words, or identical to each other -- an anti-triviality
-# FLOOR, not proof of substance (see HONEST LIMIT in the module docstring).
+#
+# LIGHT (R34): exactly light_check_challenge_count topics (default 3),
+# chosen deterministically from `boot_head_final` (see
+# deterministic_light_topics above) rather than the full eight -- and the
+# SAME session self-authors BOTH the answer and the checker_evidence/verdict
+# grading it. This is the explicit, documented tradeoff: the separated-
+# authorship protection (R31/R32) is dropped for cheapness, but the SAME
+# anti-triviality floor (validate_challenge_floor) still applies to every
+# individual challenge record -- a light-mode session cannot pass with
+# placeholder text any more than a full-mode one could.
+#
+# Both modes reject a field that is empty, a known placeholder/filler
+# string, too short, too few words, or identical to the paired field -- an
+# anti-triviality FLOOR, not proof of substance (see HONEST LIMIT in the
+# module docstring).
 # ---------------------------------------------------------------------------
 challenges = check.get("challenges", [])
-if not isinstance(challenges, list) or len(challenges) < min_challenges:
-    fail(f"need at least {min_challenges} challenges")
-    challenges = []
-
 seen_pairs: set[tuple] = set()
 topics_seen: set[str] = set()
 any_fail_verdict = False
-for ch in challenges:
-    if not isinstance(ch, dict):
-        fail("malformed challenge item")
-        continue
-    topic = ch.get("topic", "")
-    question = ch.get("question", "")
-    answer = ch.get("start_session_answer", "")
-    evidence = ch.get("checker_evidence", "")
-    verdict = ch.get("checker_verdict", "")
 
-    if not topic:
-        fail("challenge missing topic")
-    if not question or len(question) < 10:
-        fail(f"challenge question missing/too short: topic={topic}")
+if check_mode == "FULL":
+    if not isinstance(challenges, list) or len(challenges) < min_challenges:
+        fail(f"need at least {min_challenges} challenges")
+        challenges = []
 
-    if is_trivial_text(answer):
-        fail(f"challenge start_session_answer missing, empty, or a placeholder/filler "
-             f"string (must be the ORIGINAL START session's verbatim relayed reply): topic={topic}")
-    elif len(answer.strip()) < min_answer_chars:
-        fail(f"challenge start_session_answer too short (<{min_answer_chars} chars): topic={topic}")
-    elif len(answer.strip().split()) < min_answer_words:
-        fail(f"challenge start_session_answer too few words (<{min_answer_words}): topic={topic}")
+    for ch in challenges:
+        validate_challenge_floor(ch, mandatory_sources, {args.receipt},
+                                  min_answer_chars, min_answer_words, min_evidence_chars)
+        if not isinstance(ch, dict):
+            continue
+        topic = ch.get("topic", "")
+        question = ch.get("question", "")
+        verdict = ch.get("checker_verdict", "")
+        if verdict == "FAIL":
+            any_fail_verdict = True
+        pair = (topic, question)
+        if pair in seen_pairs:
+            fail(f"duplicate challenge (topic, question): {pair}")
+        seen_pairs.add(pair)
+        topics_seen.add(topic)
 
-    if is_trivial_text(evidence):
-        fail(f"challenge checker_evidence missing, empty, or a placeholder/filler string: topic={topic}")
-    elif len(evidence.strip()) < min_evidence_chars:
-        fail(f"challenge checker_evidence too short (<{min_evidence_chars} chars): topic={topic}")
-    elif not cited_mandatory_paths(evidence, mandatory_sources, {args.receipt}):
-        fail(f"challenge checker_evidence does not cite a concrete mandatory source path "
-             f"(governance/... or runs/...) or the reviewed receipt path: topic={topic}")
+    missing_topics = required_topics - topics_seen
+    if missing_topics:
+        fail(f"challenge set is missing mandatory veto topics: {sorted(missing_topics)}")
 
-    if (answer or "").strip() and (evidence or "").strip() and answer.strip() == evidence.strip():
-        fail(f"challenge start_session_answer and checker_evidence must not be identical "
-             f"(the checker's own citation cannot double as the answer being graded): topic={topic}")
+else:  # LIGHT
+    # 1. Tier eligibility -- derived LIVE from git blob SHAs against
+    #    governance/boot_checks/ history, never a hand-maintained pointer.
+    #    Fail-closed: this MUST hold regardless of how good the self-graded
+    #    answers below look, because LIGHT must never silently substitute
+    #    for a required FULL check (R34 hard requirement).
+    eligible = False
+    matched_check = None
+    if boot_head_final and re.fullmatch(r"[0-9a-f]{40}", boot_head_final or ""):
+        current_map = central_blob_map(boot_head_final, central)
+        if current_map is not None:
+            eligible, matched_check = find_prior_full_check_match(
+                ROOT, check_dir, central, current_map, check_path)
+    if not eligible:
+        fail("LIGHT check attempted but no prior PASSing FULL check was found whose "
+             "reviewed receipt's central_required blob-SHA set exactly matches this "
+             "session's boot_head_final -- a FULL CHECK is required for this boot, not "
+             "a LIGHT spot-check (fail-closed: LIGHT never silently substitutes for a "
+             "required FULL check; see BOOT_MANIFEST_V8.json full_check_required_when)")
 
-    if verdict not in ("PASS", "FAIL"):
-        fail(f"challenge checker_verdict must be PASS or FAIL, got {verdict!r}: topic={topic}")
-    if verdict == "FAIL":
-        any_fail_verdict = True
+    # 2. Deterministic topic selection from boot_head_final -- reproducible
+    #    by anyone, not chosen freely by the session being tested.
+    expected_topics: list[str] = []
+    if boot_head_final and re.fullmatch(r"[0-9a-f]{40}", boot_head_final or ""):
+        expected_topics = deterministic_light_topics(boot_head_final, required_topics, light_challenge_count)
 
-    pair = (topic, question)
-    if pair in seen_pairs:
-        fail(f"duplicate challenge (topic, question): {pair}")
-    seen_pairs.add(pair)
-    topics_seen.add(topic)
+    if not isinstance(challenges, list) or len(challenges) != light_challenge_count:
+        fail(f"LIGHT check must contain exactly {light_challenge_count} challenges, got "
+             f"{len(challenges) if isinstance(challenges, list) else 'not a list'}")
+        challenges = challenges if isinstance(challenges, list) else []
 
-missing_topics = required_topics - topics_seen
-if missing_topics:
-    fail(f"challenge set is missing mandatory veto topics: {sorted(missing_topics)}")
+    for ch in challenges:
+        validate_challenge_floor(ch, mandatory_sources, {args.receipt},
+                                  min_answer_chars, min_answer_words, min_evidence_chars)
+        if not isinstance(ch, dict):
+            continue
+        topic = ch.get("topic", "")
+        question = ch.get("question", "")
+        verdict = ch.get("checker_verdict", "")
+        if verdict == "FAIL":
+            any_fail_verdict = True
+        pair = (topic, question)
+        if pair in seen_pairs:
+            fail(f"duplicate challenge (topic, question): {pair}")
+        seen_pairs.add(pair)
+        topics_seen.add(topic)
+
+    if expected_topics and topics_seen != set(expected_topics):
+        fail(f"LIGHT check deterministic topic-selection mismatch for boot_head_final "
+             f"{boot_head_final[:12] if boot_head_final else '?'}: expected exactly "
+             f"{sorted(expected_topics)}, got {sorted(topics_seen)} -- LIGHT topics must "
+             f"come from the manifest's deterministic selection, never be chosen freely "
+             f"(this is what stops the topic set itself from being gamed)")
 
 if any_fail_verdict:
-    fail("at least one challenge has verdict FAIL -- any material wrong answer is an "
-         "unconditional FAIL of the CHECK, per INDIA14_START_AND_INDEPENDENT_CHECK.md section 2.5")
+    fail(f"at least one {check_mode} challenge has verdict FAIL -- any material wrong "
+         f"answer is an unconditional FAIL of the CHECK, per "
+         f"INDIA14_START_AND_INDEPENDENT_CHECK.md section 2.5")
 
 # check_gate field itself (declared) must say PASS -- necessary but, exactly
 # like the receipt's boot_gate field, never sufficient on its own; every
@@ -542,7 +762,12 @@ print(f"START_NONCE: {start_nonce}")
 print(f"CHECK_NONCE: {check_nonce}")
 print(f"RECEIPT: {args.receipt}")
 print(f"CHECK: {args.check}")
-print(f"NEW_QUOTES: {len(new_quotes)} from {len(seen_new_sources)} distinct not-previously-used sources")
-print(f"CHALLENGES: {len(challenges)}; required topics covered: {len(required_topics)}/{len(required_topics)}")
+print(f"CHECK_MODE: {check_mode}")
+if check_mode == "FULL":
+    print(f"NEW_QUOTES: {len(new_quotes)} from {len(seen_new_sources)} distinct not-previously-used sources")
+    print(f"CHALLENGES: {len(challenges)}; required topics covered: {len(topics_seen)}/{len(required_topics)}")
+else:
+    print(f"LIGHT_TIER_ELIGIBLE_VIA: {matched_check}")
+    print(f"CHALLENGES: {len(challenges)}; deterministic topics: {sorted(topics_seen)}")
 print("CHECK_GATE: PASS")
 sys.exit(0)

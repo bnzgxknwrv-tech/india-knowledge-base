@@ -3,14 +3,17 @@
 ## Purpose
 This directory holds the durable second-key evidence required after a valid receipt. The protocol path remains `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md` for compatibility, but its content applies to **all future `INDIA<N>` successors**.
 
+## TWO TIERS (V8.2 / R34, 2026-09-01)
+Every check artifact declares its own `check_mode`: `"FULL"` or `"LIGHT"`. A missing `check_mode` (every check written before 2026-09-01) is treated as `"FULL"`. Which tier a session is ALLOWED to use is decided by `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md` §2.0 and enforced live by `validate_independent_check.py` from real git blob SHAs — never from a hand-maintained pointer. See that file's §2.0 and §2.8 for the full mechanics; this README only documents the resulting artifact shape.
+
 ## File naming
-`INDIA<N>_CHECK__<START_NONCE>.json`
+`INDIA<N>_CHECK__<START_NONCE>.json` — same convention for BOTH tiers, in this same directory. There is no separate directory or filename pattern for LIGHT; the `check_mode` field is what distinguishes them, and both use the identical C→R→K commit shape and the same automatic `india-final-authorization.yml` trigger.
 
 The file references the exact receipt `INDIA<N>__<START_NONCE>.json` and also contains a separate fresh `check_nonce`.
 
-## Required JSON
+## Required JSON — FULL
 `india_session`, `start_nonce`, `check_nonce`, `receipt_path`, `boot_head_final`, `receipt_commit`,
-`new_quotes[]`, `challenges[]`, `check_created_utc`, `check_gate`.
+`check_mode` (`"FULL"` or absent), `new_quotes[]`, `challenges[]` (all eight mandatory topics), `check_created_utc`, `check_gate`.
 
 Each challenge:
 `topic`, `question`, `start_session_answer`, `checker_evidence`, `checker_verdict`.
@@ -19,15 +22,31 @@ The manifest requires all eight standing topics:
 `TRAIN_FIRST_DOOR_TO_DOOR`, `AL_BESLIST`, `C_DO_NOT_RE_PRESENT`, `NEWER_CENTRAL_OVER_CCI`,
 `GEO_VETO`, `CURRENT_FRONTIER`, `ACTION_FIRST`, `DURABLE_WHAT_WHY`.
 
+## Required JSON — LIGHT
+Same identity fields as FULL (`india_session`, `start_nonce`, `check_nonce`, `receipt_path`, `boot_head_final`, `receipt_commit`, `check_created_utc`, `check_gate`), plus:
+- `check_mode: "LIGHT"`;
+- `challenges[]` — exactly `light_check_challenge_count` (currently 3) items, whose `topic` set MUST equal the manifest's deterministic selection seeded from `boot_head_final` (see `INDIA14_START_AND_INDEPENDENT_CHECK.md` §2.8.2); a topic set that doesn't match that computation fails as a selection-mismatch, not a missing-topic error.
+- **No `new_quotes[]` requirement** — LIGHT skips it entirely.
+
 ## Who authors what
+**FULL:**
 - CHECK authors `question`.
 - Original START authors the answer.
 - CHECK records START's answer verbatim as `start_session_answer`.
 - CHECK independently authors `checker_evidence` and `checker_verdict`.
 
-The validator enforces non-trivial answer/evidence floors and concrete source-path evidence.
+**LIGHT — this is the honest, documented tradeoff, not an oversight:**
+- The SAME START session authors `question`, `start_session_answer`, `checker_evidence` and `checker_verdict` — all four fields.
+- There is no separated-authorship protection in this tier (see `INDIA14_START_AND_INDEPENDENT_CHECK.md` §2.8.7).
 
-## Streamlined relay — one batch
+In both tiers the validator enforces the SAME non-trivial answer/evidence floors and concrete source-path evidence (`check_min_answer_chars`/`check_min_answer_words`/`check_min_evidence_chars`) — LIGHT is cheaper in HOW MANY topics and WHO authors them, never in how easy an individual answer is to fake.
+
+## LIGHT tier eligibility
+LIGHT is allowed only when some prior PASSing FULL check's reviewed receipt has a `central_required` git-blob-SHA map that exactly matches the current session's own `boot_head_final` map. `validate_independent_check.py` walks this directory (including `test_fixtures/`) to find that match live, every time — see `BOOT_MANIFEST_V8.json`'s `check_tier_detection_method`/`full_check_required_when`/`light_check_allowed_when` fields. A LIGHT check attempted without a matching prior FULL check FAILS closed with an explicit error demanding a FULL check instead; it never silently downgrades.
+
+## Streamlined relay — one batch (FULL tier only)
+LIGHT has no relay at all — same session, no Mark round trip (§2.8). This section is FULL-only.
+
 Do NOT force Mark through eight individual copy/paste loops.
 
 Preferred when both sessions have GitHub:
@@ -60,4 +79,6 @@ Authorization exists only when the run/job succeeds and its log literally contai
 A CHECK chat without a local Git checkout must use this Actions result; absence of local shell alone is no longer a valid reason to fail a structurally valid CHECK.
 
 ## Honest limit
-This is not cryptographic proof of distinct minds or model attention. It is a durable, independently-produced second data point plus fail-closed Git/script checks. The goal is to catch successor misunderstanding without turning Mark into the transport layer for technical artifacts.
+**FULL:** this is not cryptographic proof of distinct minds or model attention. It is a durable, independently-produced second data point plus fail-closed Git/script checks. The goal is to catch successor misunderstanding without turning Mark into the transport layer for technical artifacts.
+
+**LIGHT:** has none of the "independently-produced second data point" property above — see the "Who authors what" section. It keeps the fail-closed Git/script floor (non-trivial, cited, deterministically-selected) but not the separated authorship. This is a deliberate, Mark-approved cost/rigor tradeoff for the routine case, stated plainly rather than overclaimed.

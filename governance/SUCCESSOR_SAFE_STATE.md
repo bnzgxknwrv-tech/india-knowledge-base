@@ -51,6 +51,8 @@ LAST_COMPLETED:
 - `INDIA_CURRENT_KNOWLEDGE_MAP.md` repaired from stale Tiruvannamalai/Agra/Delhi open-duration pointers to the real optional-world frontier.
 - universal V8.1 START/CHECK protocol strengthened with a post-authorization three-pass frontier parity audit.
 - `BOOT_MANIFEST_V8.json` active cluster moved from stale `TIRUVANNAMALAI_ARUNACHALA` to `GLOBAL_OPTIONAL_WORLD_SURVIVAL` with six current mandatory active files.
+- 2026-09-01 R34: the independent CHECK is now two-tier (FULL, unchanged; or a self-answered LIGHT spot-check on 2-3 deterministically-selected topics) with eligibility derived live from git blob SHAs, never a hand-maintained pointer — pure governance/plumbing, Mark-approved, zero travel-content change. Because this change itself edits several `central_required` files, the first session to boot afterward must run a FULL check; that FULL check becomes the baseline every later LIGHT-eligible session compares against.
+- INDIA15's receipt `governance/boot_receipts/INDIA15__HX1N4JPO3FGCFO.json` landed (pinned at `a57218a8d5ee0221109b8e0dfb309c97e78bfde9`) concurrently with this R34 redesign, immediately before it. It remains permanent historical evidence and is not edited, but it can no longer serve as a valid R for a CHECK commit because this redesign commit sits between it and any future K. No authorization had been granted from it (Phase 2 had not started), so no real work is lost — but Phase 1 (the receipt) must be redone fresh at the new HEAD before either CHECK tier is attempted. See `CURRENT_STATE.md` BOOT / SUCCESSOR ARCHITECTURE section for the exact repair instruction.
 - post-iteration verification found and repaired `CURRENT_DECISIONS_MASTER.md`, which still exposed `REAL INTER-CORE EDGES` as current and had stale optional-world/Delhi reserve materialization.
 - `DECISION_LEDGER.jsonl` append-repaired through DL-0053, adding current Delhi B reserve grades plus human-scale timing, Girivalam sleep-base start/end and LP-vs-person-layer method guards.
 - detailed handoff updated to `ITERATION 3 FINAL + POST-VERIFY` and explicitly records that the post-verify caught real defects rather than claiming the third iteration was flawless.
@@ -81,10 +83,10 @@ KNOWN INDIA14 FAILURE MODES NOW DURABLE:
 - LP/general-traveler discovery remains separate from person/spiritual/TOP-X research;
 - planning-class current transport products remain `LIVE_RECHECK_LATER`, not Jan-2027 guarantees;
 - crash state, decision master, knowledge map, decision ledger and manifest active frontier must move with the real frontier; stale successor pointers are a hard memory-system defect;
-- boot architecture V8.1 is closed for ordinary travel work; do not reopen it without a real failure.
+- boot architecture (now V8.2, R34 two-tier CHECK) is closed for ordinary travel work; do not reopen it without a real failure or explicit Mark request.
 
 NEXT_AUTOMATIC_STEP:
-None until Mark resolves the current optional-world survival gate. INDIA15's first substantive content action after its own successful V8.1 boot + independent authorization + three-pass frontier parity audit is to present/continue the existing optional-world survival choice from package A/B/C/D/E or a custom combination, with A as the current INDIA recommendation. Do not ask any other planning question first.
+None until Mark resolves the current optional-world survival gate. Before that: INDIA15 (or whichever session continues it) must redo its Phase 1 receipt fresh at the new HEAD (its prior receipt HX1N4JPO3FGCFO is superseded by concurrent R34 timing, see LAST_COMPLETED and CURRENT_STATE.md), then complete a FULL CHECK (mandatory first-boot-after-R34, not LIGHT). INDIA15's first substantive content action after that successful V8.2 boot + independent FULL CHECK authorization + three-pass frontier parity audit is to present/continue the existing optional-world survival choice from package A/B/C/D/E or a custom combination, with A as the current INDIA recommendation. Do not ask any other planning question first.
 
 WAITING_FOR_MARK:
 Exactly one current choice: how to spend the 5-night optional-world envelope.
@@ -99,7 +101,7 @@ CONTROLLING_ARTIFACTS:
 - `governance/BOOT_MANIFEST_V8.json`
 - `governance/FRESH_SESSION_BOOT_GATE.md`
 - `governance/INDIA_MASTER_BOOT.md`
-- `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md` — legacy path, universal V8.1 content
+- `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md` — legacy path, universal V8.2 content (two-tier CHECK, R34)
 - `governance/CURRENT_STATE.md`
 - `governance/CURRENT_DECISIONS_MASTER.md`
 - `governance/DECISION_LEDGER.jsonl`

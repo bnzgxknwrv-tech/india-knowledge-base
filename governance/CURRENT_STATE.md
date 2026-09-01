@@ -8,9 +8,13 @@ manifest_active_cluster: `GLOBAL_OPTIONAL_WORLD_SURVIVAL`
 detailed_handoff: `governance/INDIA14_TO_INDIA15_HANDOFF_2026-09-01.md`
 
 ## BOOT / SUCCESSOR ARCHITECTURE — CLOSED
-INDIA14 completed V8 boot + independent CHECK with CONTENT_AUTHORIZATION: GRANTED. Future sessions use the universal V8.1 protocol stored at legacy path `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md`. Do not reopen boot architecture without a real failure.
+INDIA14 completed V8 boot + independent CHECK with CONTENT_AUTHORIZATION: GRANTED. Future sessions use the universal V8.2 protocol stored at legacy path `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md`. Do not reopen boot architecture without a real failure.
 
-For INDIA15 specifically: a fresh session still starts UNBOOTED and must complete its own receipt + independent CHECK/final authorization. After GRANTED, the universal protocol now requires a three-pass frontier parity audit before the first substantive content reply.
+2026-09-01 R34 update: Part 2 (the independent CHECK) is now two-tier — FULL (unchanged) or a self-answered LIGHT spot-check, chosen by `INDIA14_START_AND_INDEPENDENT_CHECK.md` §2.0 from live git blob-SHA comparison against `governance/boot_checks/` history, never a hand-maintained pointer. Because this very change edits several `central_required` files, **the first session to boot after this commit must run a FULL check** — no prior FULL check's blob-SHA map can match yet. That FULL check becomes the baseline every later LIGHT-eligible session compares against. Part 1 (mechanical boot + receipt) is completely unchanged.
+
+**INDIA15 receipt superseded by concurrent timing — action required before CHECK:** `governance/boot_receipts/INDIA15__HX1N4JPO3FGCFO.json` was committed (pinned `boot_head_final` = `a57218a8d5ee0221109b8e0dfb309c97e78bfde9`) while this R34 redesign was in progress; this redesign commit landed immediately after it. No `CONTENT_AUTHORIZATION` had been granted at that point (Phase 2 CHECK had not started), so nothing real is lost — but that receipt's pinned commit is no longer the branch tip and several `central_required` files it attested reading now have different content, so it can no longer serve as the R half of a valid C→R→K chain (the CHECK commit's parent must equal the exact receipt commit, and no unrelated commit may sit between them — this redesign commit is exactly such an unrelated commit). **Before attempting either CHECK tier, redo Phase 1 only:** resolve a fresh `BOOT_HEAD_FINAL` at the new HEAD, reread the changed mandatory files (this file, `SUCCESSOR_SAFE_STATE.md`, `INDIA_RECOVERY_DELTAS_CURRENT.md`, `INDIA_MASTER_BOOT.md`, `INDIA14_START_AND_INDEPENDENT_CHECK.md`, `FRESH_SESSION_BOOT_GATE.md`, `BOOT_MANIFEST_V8.json`), and write a NEW receipt under a fresh nonce (the old nonce `HX1N4JPO3FGCFO` and its receipt file remain permanent historical evidence — do not edit or delete them). The START prompt Mark already has for nonce `HX1N4JPO3FGCFO` is otherwise still valid in substance (session label, branch, procedure); only the nonce/receipt need to be fresh. Then proceed to a FULL CHECK per the R34 update above.
+
+For INDIA15 specifically: a fresh receipt + a FULL independent CHECK/final authorization (see immediately above) are both required. After GRANTED, the universal protocol still requires a three-pass frontier parity audit before the first substantive content reply.
 
 The boot manifest's active frontier has been synchronized to `GLOBAL_OPTIONAL_WORLD_SURVIVAL`; its active required set now contains the final INDIA14->INDIA15 handoff, fixed-edge/budget, traveler-integrity, traveler-repair, Delhi food/cinema and optional-world decision-ready artifacts. The old Tiruvannamalai-only active boot set is superseded.
 
@@ -154,7 +158,7 @@ Why A is the current recommendation:
 Everything through `OPTIONAL WORLD SURVIVAL` objective comparison is complete. The subjective survival choice itself is the current gate.
 
 ## INDIA15 EXACT FIRST SUBSTANTIVE ACTION — HARD
-After INDIA15 completes its own V8.1 boot + independent final authorization and the mandatory three-pass frontier parity audit:
+After INDIA15 completes its own V8.2 boot + independent FULL CHECK final authorization (see BOOT / SUCCESSOR ARCHITECTURE — CLOSED above) and the mandatory three-pass frontier parity audit:
 
 `FIRST_CONTENT_ACTION = present/continue the existing OPTIONAL WORLD SURVIVAL choice from A/B/C/D/E or custom, with A as current INDIA recommendation.`
 
@@ -178,7 +182,7 @@ Key anti-regressions from this predecessor:
 - `SUCCESSOR_SAFE_STATE.md`, `INDIA_CURRENT_KNOWLEDGE_MAP.md` and the manifest active-cluster set were found stale during handoff and were explicitly repaired;
 - LP/general-traveler and person/spiritual layers remain separate;
 - current transport products are planning-class evidence, not exact Jan-2027 guarantees;
-- V8.1 boot architecture is closed for ordinary travel work.
+- boot architecture (now V8.2, R34 two-tier CHECK) is closed for ordinary travel work; do not reopen it without a real failure or explicit Mark request.
 
 ## SUCCESSOR REPLACEABILITY RULE
 Every material research result, Mark decision, WHY, supersession, next action and decision-relevant uncertainty must be durable and GitHub-routable before substantive reply.

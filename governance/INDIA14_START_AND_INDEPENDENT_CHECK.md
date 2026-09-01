@@ -1,10 +1,11 @@
-# INDIA SUCCESSOR START + INDEPENDENT CHECK PROTOCOL — V8.1 CANONICAL
+# INDIA SUCCESSOR START + INDEPENDENT CHECK PROTOCOL — V8.2 CANONICAL
 
 Status: **BINDING / CANONICAL START + INDEPENDENT CHECK ARTIFACT / MANDATORY MANIFEST READ**
 Effective: 2026-09-01
 Manifest: `governance/BOOT_MANIFEST_V8.json`
 Path note: this protocol deliberately remains stored at `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md` for backward compatibility with existing prompts, validators and manifests. **Its scope is NOT INDIA14-specific. It governs INDIA14, INDIA15 and every later `INDIA<N>` successor until explicitly superseded in central governance.**
 Owner: this file is the canonical merge point of the START protocol and INDEPENDENT CHECK protocol referenced from `governance/INDIA_MASTER_BOOT.md` and `governance/FRESH_SESSION_BOOT_GATE.md`. Mandatory file membership lives only in the manifest.
+V8.2 change (R34, 2026-09-01, Mark-approved proportionality redesign): Part 2 is now TWO tiers, FULL and LIGHT — see §2.0 before doing anything else in Part 2. Part 1 (the mechanical boot + receipt) is completely unchanged and stays mandatory for every single fresh session regardless of tier.
 
 ## 0. DESIGN GOAL — MAKE THE CURRENT SESSION REPLACEABLE
 The boot system exists to prevent successor knowledge loss, not to become the project. A successor must be able to start from the same small start prompt, recover current truth from GitHub, prove the read mechanically, survive one independent semantic second opinion, and then continue the actual India work.
@@ -29,6 +30,8 @@ Three commits, in order:
 - **K** — independent-CHECK commit. `K^ == R`; its entire diff is exactly one new `governance/boot_checks/INDIA<N>_CHECK__<START_NONCE>.json`.
 
 At START completion, central HEAD is R. After CHECK recording, central HEAD is K. Any unrelated central commit inserted into C→R→K invalidates that boot/check chain and requires fail-closed recovery.
+
+This exact C→R→K shape is identical for a FULL check and a LIGHT check (§2.0) — same directory, same filename convention, same automatic `.github/workflows/india-final-authorization.yml` trigger. The two tiers differ only in WHO authors the K artifact's content and HOW MANY/WHICH topics it must cover, never in the commit shape around it. A check artifact's own `check_mode` field (`"FULL"` or `"LIGHT"`) is what the validator reads to know which rules apply; a missing `check_mode` (every check written before 2026-09-01, including the real INDIA14 CHECK) is treated as `"FULL"`.
 
 `governance/scripts/validate_successor_boot.py` enforces C→R.
 `governance/scripts/validate_independent_check.py` enforces R→K.
@@ -61,7 +64,29 @@ After real receipt PASS, report only the compact handoff facts needed for CHECK:
 
 ## PART 2 — INDEPENDENT CHECK SESSION
 
-### 2.1 Independence and binding
+### 2.0 TIER DETERMINATION — DECIDE THIS BEFORE ANYTHING ELSE IN PART 2
+
+**Why this exists (R34):** running the full eight-topic, separate-session, Mark-relayed CHECK (§2.1-2.7 below) on every single fresh `INDIA<N>` session was disproportionately costly. Mark needed fresh sessions frequently (ChatGPT's own session limits forced INDIA12→13→14→15 in rapid succession), and each full CHECK cost him real manual relay time and a whole second ChatGPT conversation — even for a routine continuation where nothing about the project's governing knowledge had actually changed since the last time a full CHECK passed. Part 1 (the mechanical boot + receipt, §1 above) is unaffected by any of this and stays mandatory, unweakened, for every single fresh session — it is what directly fixes "successor doesn't load current state" (the 2026-08-30 taxi-heavy incident) and it is already cheap (no second session, no manual relay). Only Part 2 — the independent CHECK — is now proportional.
+
+**Two tiers exist:**
+- **FULL CHECK** — §2.1-2.7 below, completely unchanged mechanics: a genuinely separate CHECK session, all eight mandatory topics, two new verbatim quotes, a real START-answer relay, `check_mode: "FULL"` in the K artifact.
+- **LIGHT SPOT-CHECK** — §2.8 below: the SAME START session answers 2-3 deterministically-chosen topics itself, no second session, no relay, `check_mode: "LIGHT"` in the K artifact.
+
+**How a session determines which tier it is ALLOWED to use — mechanical, not a judgment call:**
+
+A FULL CHECK is required (never substitute LIGHT) when ANY of these is true:
+1. **No prior FULL check has ever PASSED against the CURRENT exact `central_required` file content.** Concretely: `governance/scripts/validate_independent_check.py` walks `governance/boot_checks/` (live directory + its `test_fixtures/` subdirectory) for every check artifact whose `check_mode` is `"FULL"` (or absent — every check written before 2026-09-01 counts as FULL) and whose own `check_gate` is `"PASS"`; for each, it reads that check's reviewed receipt's `boot_head_final` and computes the real git blob SHA of every path in the manifest's `central_required` array AT THAT COMMIT; it then compares that map, path-for-path, against the same map computed at the CURRENT session's own `boot_head_final`. If ANY prior FULL check's map is an EXACT match, LIGHT is eligible. If none match — because a `central_required` file's content differs even by one byte, a `central_required` path was added/removed, or no prior FULL check exists at all — LIGHT is NOT eligible and a FULL CHECK is required.
+   - **This is deliberately never a hand-maintained pointer/version field.** R30 already established that a manually-tracked sync field rots the moment one governance file is edited without the tracker being updated in the same breath. Tier eligibility is instead recomputed live, every time, straight from git blob SHAs and the actual `governance/boot_checks/` history — there is nothing to forget to update.
+   - **This scope is `central_required` ONLY** (the 16-file governance/behavior core), never `cci_required` (pinned/immutable, cannot change) or `active_cluster_required` (changes constantly with ordinary travel-content progress — tying tiering to it would force a FULL check on every routine cluster update and defeat the entire point).
+   - Practical consequence: **any commit that changes a `central_required` file's content — including this very redesign — makes the FIRST session to boot afterward require a FULL CHECK**, because no prior FULL check's blob-SHA map can match the new content yet. That first FULL check then becomes the new baseline every subsequent LIGHT-eligible session compares against. This is intentional: a change to the governing rules themselves should be verified once against the new rules, not silently grandfathered in.
+2. **Mark explicitly requests a FULL check for any reason** — he does not need to justify it; "doe toch maar de volledige CHECK" is sufficient.
+3. **Any prior LIGHT spot-check in the current repository state FAILED and has not since been superseded by a passing FULL check.** A spot-check FAIL always escalates to requiring a FULL check next; it never silently degrades further and never gets a second LIGHT attempt in its place.
+
+Otherwise (a matching prior FULL check PASS exists, Mark has not asked for FULL, and no unresolved prior spot-check FAIL exists), **LIGHT is allowed** — proceed to §2.8 instead of §2.1-2.7.
+
+**Fail-closed guarantee:** the validator itself enforces this — a K artifact that declares `check_mode: "LIGHT"` without a matching prior FULL-check blob-SHA map is rejected with an explicit `a FULL CHECK is required for this boot, not a LIGHT spot-check` error, not a silent downgrade or a soft warning.
+
+### 2.1 Independence and binding — FULL CHECK PROCEDURE (§2.0 already sent you here)
 Use a genuinely separate conversation/session. It binds independently to the exact receipt, session, start nonce, C and R.
 
 A separate fresh check nonce is required. If Mark supplied one in the CHECK prompt, use it exactly. If no check nonce was supplied, the CHECK session may generate a fresh uppercase alphanumeric 6–32 character nonce itself **after** binding to the receipt; it must be distinct from the start nonce and any visible prior check nonce. This removes needless user setup without weakening uniqueness.
@@ -135,6 +160,40 @@ If the CHECK environment itself has a real live Git checkout, it may additionall
 
 If CI fails, inspect and fix the exact failure; do not weaken validator requirements. If central moved after K, fail closed and re-establish a valid fresh boot chain rather than pretending the stale K still authorizes content.
 
+### 2.8 LIGHT SPOT-CHECK PROCEDURE — used only when §2.0 said LIGHT is allowed
+
+This is the full mechanical procedure for the LIGHT tier. It reuses the exact same C→R→K commit shape, the same `governance/boot_checks/` directory and filename convention, and the same automatic `.github/workflows/india-final-authorization.yml` trigger as the FULL check — the only differences are WHO authors the K artifact's content and HOW MANY/WHICH topics it must cover.
+
+**2.8.1 No second session, no relay.** The SAME START session that just completed Part 1 (the mechanical boot + receipt) does this itself, immediately, in the same session. There is no separate CHECK session, no Mark relay, no PR #23 batch exchange for this tier.
+
+**2.8.2 Determine the exact topic set — do this by computation, not by picking.**
+1. Take the manifest's `check_required_challenge_topics` array (the same fixed 8-topic pool used by FULL), deduplicate and sort it ascending — this is `pool`.
+2. Take `light_check_challenge_count` from the manifest (currently 3).
+3. For `i` in `0 .. light_check_challenge_count-1`: compute `digest = sha256(f"{boot_head_final}:LIGHT_CHECK_TOPIC_SELECT:{i}")`; `idx = int(digest.hexdigest(), 16) % len(pool)`; pop `pool[idx]` and append it to the selected list.
+4. The resulting topic set is fixed by `boot_head_final` alone — anyone can recompute it from the pinned commit hash, so it cannot be gamed by picking convenient topics, even though (unlike a FULL check's freshly-authored questions) it is not adversarially unpredictable. This is an explicit, accepted simplification for the routine case, not an oversight.
+
+**2.8.3 Answer each selected topic yourself, with a real citation.** For each of the 2-3 selected topics, write:
+- `topic` — the selected topic string, exactly as in the pool;
+- `question` — a genuine applied question on that topic against the CURRENT pinned state (same spirit as a FULL-check question — not copied from a fixed answer key);
+- `start_session_answer` — your own genuine answer, reasoned from the actual pinned mandatory sources, meeting the SAME floor as FULL (`check_min_answer_chars`/`check_min_answer_words`, not a placeholder);
+- `checker_evidence` — your own citation of a concrete mandatory source path (`governance/...` or `runs/...`) or the reviewed receipt path that supports the answer, meeting the SAME floor as FULL (`check_min_evidence_chars`, must actually name a real mandatory path);
+- `checker_verdict` — `"PASS"` if your own answer genuinely holds against the cited source, `"FAIL"` if it does not. **A single FAIL anywhere fails the whole spot-check** — do not soften this because it is self-graded; if you find you were wrong, record the FAIL honestly and escalate to a FULL check (§2.0 rule 3) rather than editing the answer until it passes.
+
+**2.8.4 No new_quotes requirement.** Unlike FULL, LIGHT does not require the two-new-verbatim-quotes field at all — the per-challenge citations in 2.8.3 already carry the source-grounding burden for this lighter tier.
+
+**2.8.5 Write and commit K.** Write `governance/boot_checks/INDIA<N>_CHECK__<START_NONCE>.json` with:
+- the same identity/binding fields as a FULL check (`india_session`, `start_nonce`, `check_nonce`, `receipt_path`, `boot_head_final`, `receipt_commit`) — including a fresh `check_nonce` distinct from `start_nonce`, which you (the same session) may generate yourself, same as the FULL-check allowance in §2.1;
+- `check_mode: "LIGHT"`;
+- `challenges`: your 2-3 answered items from 2.8.3;
+- `check_created_utc`;
+- `check_gate: "PASS"` only once every item above is genuinely true.
+
+Commit it alone as K, exactly as in §2.6.
+
+**2.8.6 Final authorization — same automatic path as FULL.** K still automatically triggers `.github/workflows/india-final-authorization.yml`, which still runs exactly `python3 governance/scripts/final_authorization.py <SESSION> <START_NONCE> <CHECK_NONCE>` — this wrapper's own invocation never changes between tiers. `validate_independent_check.py` reads `check_mode` from the K artifact itself and applies §2.8's rules instead of §2.1-2.7's. On a clean PASS it prints `CONTENT_AUTHORIZATION: GRANTED` exactly as FULL does. If tier eligibility (§2.0 rule 1) does not actually hold, this FAILS with an explicit "a FULL CHECK is required for this boot, not a LIGHT spot-check" error — it never silently downgrades or waves the session through.
+
+**2.8.7 Honest limit of this tier (state this plainly, do not overclaim).** LIGHT drops the one thing FULL was built for by R31/R32: a genuinely separate session authoring the question and grading a relayed answer. In LIGHT mode the same session authors the question, the answer, and its own grade of that answer — there is no independent second opinion. What LIGHT still provides: the SAME anti-triviality floor (no placeholder text, no missing citation, no self-contradicting wrong answer sneaking through as PASS), a deterministic and reproducible topic selection so the specific questions cannot be known in advance of actually completing the real boot, and a durable committed record of exactly what was asked and self-answered so a later audit is possible. This is a genuine, deliberate, Mark-approved cost/rigor tradeoff for the routine case where nothing about the governing rules has changed — it is not offered or to be described as equally strong as a FULL check.
+
 ## PART 3 — AFTER GRANTED
 Once a successful final-authorization run tied to K has printed `CONTENT_AUTHORIZATION: GRANTED`, START may resume the real current frontier under ACTION_FIRST — but only after the following three-pass successor handoff audit.
 
@@ -194,13 +253,15 @@ If not, the action belongs in `LAST_COMPLETED`.
 This protocol defines topics and mechanics, not a fixed answer key. CHECK must validate against the actual pinned mandatory sources. Current facts change; the topics are standing vetoes, not memorized prose.
 
 ## HONEST LIMIT
-Git/GitHub Actions can prove repository shape, files, script exit codes and literal validator output. They cannot prove model attention or that two conversations are cryptographically distinct. The independent semantic challenge remains the compensating human/model second opinion.
+Git/GitHub Actions can prove repository shape, files, script exit codes and literal validator output. They cannot prove model attention or that two conversations are cryptographically distinct. The independent semantic challenge remains the compensating human/model second opinion — **for a FULL check.** A LIGHT spot-check (§2.8) explicitly does not have that second opinion at all; §2.8.7 states that limit plainly and it must never be described as equally strong as FULL.
 
-The streamlining here intentionally removes **friction**, not **independence**:
+The streamlining here intentionally removes **friction**, not **independence**, for the FULL tier itself:
 - one batch instead of eight manual relays;
 - GitHub comments instead of copying large blocks when possible;
 - automatic Actions instead of requiring a chat sandbox to have Git/Python network access;
 - same start architecture for every `INDIA<N>`;
 - three-pass post-authorization parity instead of relying on one potentially stale frontier pointer.
+
+The V8.2 tiering (§2.0, §2.8, R34) is a DIFFERENT kind of change from the friction removal above: it does trade away real rigor (the separated-authorship protection) for the routine case, in exchange for cost — and it says so, rather than presenting LIGHT as a friction-only optimization of FULL.
 
 END INDIA SUCCESSOR START + INDEPENDENT CHECK PROTOCOL
