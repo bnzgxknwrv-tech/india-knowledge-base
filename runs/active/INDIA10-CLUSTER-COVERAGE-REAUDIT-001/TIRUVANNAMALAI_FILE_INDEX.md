@@ -2,28 +2,52 @@
 
 Status: **ORIENTATION ONLY / NO CONTENT DECISION / POINTER, NOT A NEW SOURCE**
 Branch: `agent/india8-cluster-casting`
+Updated: 2026-09-02
 
 ## PURPOSE
-Tiruvannamalai has 14 active files in this directory, built up over several working sessions including one presentation that had to be rebuilt. This index tells a fresh session which to read, in what order, and which are reserve/superseded. It adds no new travel-content decision.
+Route a successor through the Tiruvannamalai/Arunachala file history without reviving superseded dayplan attempts, without re-presenting the old LP ballot Mark already dropped, and without hiding genuinely new traveler-repair findings discovered afterward.
 
 ## READ IN THIS ORDER
 
-| # | File | Role | Controlling? |
+| # | File | Role | Current use |
 |---|------|------|---|
-| 1 | `TIRUVANNAMALAI_PREP_PACKET_2026-08-27.md` | Earliest prep packet. Background context. | n/a (prep/context) |
-| 2 | `TIRUVANNAMALAI_A_PLUS_MARK_SELECTION_SLICE.md` | Original A+ selection mechanism doc. Historical — resolved to the Arunachala/Ramana A+ parent. | n/a (mechanism, historical) |
-| 3 | `TIRUVANNAMALAI_DURATION_DECISION_SURFACE_2026-08-29.md` | Objective prep closing the ground before the duration choice; does not itself assign duration. | n/a (objective prep) |
-| 4 | `TIRUVANNAMALAI_4_NIGHT_TRIAL_EXECUTION_PRESENTATION_2026-08-30.md` | 4-night trial scenario — explicitly "NOT a Mark duration decision," decision-support only. | n/a (trial/decision-support) |
-| 5 | `TIRUVANNAMALAI_SRI_RAMANASRAMAM_STAY_MODEL_2026-08-30.md` | Clarifies what staying at the ashram actually means (not a hotel, not compulsory-program). Planning input. | n/a (planning input) |
-| 6 | `TIRUVANNAMALAI_TRANSFER_MODE_CORRECTION_2026-08-30.md` | Correction: rail-first transfer hierarchy was not applied; reevaluation required. | n/a (correction, applied downstream) |
-| 7 | `TIRUVANNAMALAI_LP_LAYER_SEQUENCE_CORRECTION_2026-08-31.md` | Procedural instruction that led into the LP ballot (#8). | `Controlling: NO` — SUPERSEDED |
-| 8 | `TIRUVANNAMALAI_LP_MARK_BALLOT_2026-08-31.md` | The 3-item Lonely Planet ballot (Gingee Fort, Parvathamalai, Mamandur). Later dropped by Mark. | `Controlling: NO` — SUPERSEDED |
-| 9 | `TIRUVANNAMALAI_FIXED_A_NUMBERED_DAYPLAN_2026-08-31.md` | First numbered dayplan attempt; drops the LP layer entirely. Was superseded by the presentation audit below. | n/a — superseded, see #10 |
-| 10 | `TIRUVANNAMALAI_DAYPLAN_PRESENTATION_AUDIT_2026-08-31.md` | Correction: #9 was not Mark-ready (missing bed-to-bed geography context); rebuild required. | n/a (correction, applied in #11) |
-| 11 | `TIRUVANNAMALAI_MARK_DECISION_HUMAN_DAYPLAN_2026-08-31.md` | Rebuilt human-facing dayplan proposal; 5-night recommendation, not yet Mark-locked at time of writing. | n/a (proposal) |
-| 12 | `TIRUVANNAMALAI_ADVANCE_DECISION_READY_PREP_2026-08-31.md` | Objective prep updated with the rail-first comparison; duration not yet locked at time of writing. | n/a (objective prep) |
-| 13 | `TIRUVANNAMALAI_MANGO_TREE_CAVE_CONTEXT_2026-08-31.md` | Confirms **duration is now locked at 5 nights** and adds cave context; no grade change. | n/a (context note, post-lock) |
-| 14 | `TIRUVANNAMALAI_TRAVELER_LAYER_REPAIR_2026-09-01.md` | **Latest word on the cluster.** Reconfirms "5-night ... plan remains LOCKED_BY_MARK" and repairs the traveler/LP reserve layer. | `Controlling: NO` |
+| 1 | `TIRUVANNAMALAI_PREP_PACKET_2026-08-27.md` | Earliest prep packet. | Background context. |
+| 2 | `TIRUVANNAMALAI_A_PLUS_MARK_SELECTION_SLICE.md` | Original A+ selection mechanism. | Historical; resolved to Arunachala/Ramana A+ parent. |
+| 3 | `TIRUVANNAMALAI_DURATION_DECISION_SURFACE_2026-08-29.md` | Objective pre-duration prep. | Provenance. |
+| 4 | `TIRUVANNAMALAI_4_NIGHT_TRIAL_EXECUTION_PRESENTATION_2026-08-30.md` | 4-night trial, explicitly not a Mark decision. | Superseded scenario only. |
+| 5 | `TIRUVANNAMALAI_SRI_RAMANASRAMAM_STAY_MODEL_2026-08-30.md` | Explains actual ashram-stay model. | Still useful planning input. |
+| 6 | `TIRUVANNAMALAI_TRANSFER_MODE_CORRECTION_2026-08-30.md` | Rail-first correction. | Still-valid transport anti-regression. |
+| 7 | `TIRUVANNAMALAI_LP_LAYER_SEQUENCE_CORRECTION_2026-08-31.md` | Procedural step leading to old LP ballot. | SUPERSEDED as live action. |
+| 8 | `TIRUVANNAMALAI_LP_MARK_BALLOT_2026-08-31.md` | Old 3-item LP ballot (Gingee Fort, Parvathamalai, Mamandur) Mark actually saw and dropped. | **DO NOT RE-PRESENT as fresh choices.** |
+| 9 | `TIRUVANNAMALAI_FIXED_A_NUMBERED_DAYPLAN_2026-08-31.md` | First dayplan attempt. | Superseded by presentation audit/rebuild. |
+| 10 | `TIRUVANNAMALAI_DAYPLAN_PRESENTATION_AUDIT_2026-08-31.md` | Found missing bed-to-bed geography. | Important anti-regression/provenance. |
+| 11 | `TIRUVANNAMALAI_MARK_DECISION_HUMAN_DAYPLAN_2026-08-31.md` | Rebuilt human-facing dayplan. | Basis for prior five-night Mark decision. |
+| 12 | `TIRUVANNAMALAI_ADVANCE_DECISION_READY_PREP_2026-08-31.md` | Objective prep incl. rail-first comparison. | Supporting decision context. |
+| 13 | `TIRUVANNAMALAI_MANGO_TREE_CAVE_CONTEXT_2026-08-31.md` | Post-lock cave context; records prior five-night lock. | Preserve prior Mark decision/context. |
+| 14 | `TIRUVANNAMALAI_TRAVELER_LAYER_REPAIR_2026-09-01.md` | Later ordinary-traveler repair after the old LP ballot: seeker café/crafts/art/oddity microtexture etc. | **CURRENT INPUT TO MARK TRIAGE; research-complete does not mean Mark-triaged.** |
 
-## BOTTOM LINE
-Tiruvannamalai's fixed core + duration is closed: 5 nights, LOCKED_BY_MARK (confirmed as of file #14). The old additional Lonely Planet layer (files #7–#8) was fully dropped and has zero day/night weight; do not re-present it as a live choice. The current traveler layer (#14) is knowledge-only reserve and never blocks calling the cluster's Layer-A pass done. Files #9–#12 are intermediate drafts superseded by the final locked dayplan/duration; files #1–#2 are historical background.
+## HARD RECONCILIATION — 2026-09-02
+Mark explicitly states that the later traveler-repair findings in/behind file #14 have **not all been presented to him**. Therefore the former index conclusion that #14 is a knowledge-only reserve that can never affect Layer A is superseded.
+
+Do not confuse two different things:
+1. **Old LP ballot #8** — Mark actually saw it and dropped it. Keep dropped; do not revive Gingee/Parvathamalai/Mamandur as a fresh ballot without explicit reason/reopening.
+2. **Later traveler repair #14** — contains new general-traveler microtexture found after that ballot. Mark says he has not all been shown this new material. Genuine unseen rows must still be triaged.
+
+Hard distinction:
+`RESEARCH_COMPLETE_ENOUGH != MARK_TRIAGE_COMPLETE != DURATION_CLOSED`.
+
+Prior five-night lock remains a real explicit Mark decision and is not automatically cancelled. Current rule is only that its **procedural finality against the later repaired traveler universe must be reconciled after Mark sees the genuinely new findings**. If no new A/day-changing content survives, five nights can remain unchanged.
+
+Before presenting #14 rows:
+- run `AL BESLIST? / AL AAN MARK GEPRESENTEERD?`;
+- preserve all existing A+/A/A*/B/C grades;
+- show ordinary-traveler relevance independent from Ramana/spiritual filtering;
+- give actual/provisional sleep-base geometry, nearest retained A+/A, natural bundle, walking, marginal extra burden, dwell, displacement and confidence;
+- only Mark changes subjective grade.
+
+## CURRENT PROCESS OWNER
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/MARK_TRAVELER_LAYER_TO_DURATION_ORDER_CORRECTION_2026-09-02.md`.
+
+Delhi is the current first traveler-triage frontier. Tiruvannamalai follows only when the canonical sequence reaches it; this index then prevents the successor from mistaking the old dropped ballot for the new repair layer or treating #14's research status as a Mark decision.
+
+END TIRUVANNAMALAI FILE INDEX
