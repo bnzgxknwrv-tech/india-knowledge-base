@@ -2,27 +2,58 @@
 
 Status: **ORIENTATION ONLY / NO CONTENT DECISION / POINTER, NOT A NEW SOURCE**
 Branch: `agent/india8-cluster-casting`
+Updated: 2026-09-02
 
 ## PURPOSE
-Bodh Gaya/Gaya has 13 active files in this directory, built up over several working sessions. This index tells a fresh session which to read, in what order, and which are reserve/superseded. It adds no new travel-content decision.
+Route a successor through the accumulated Bodh Gaya/Gaya files without reviving superseded grades, losing the corrected geography, or falsely treating later traveler research as if Mark already triaged it.
 
 ## READ IN THIS ORDER
 
-| # | File | Role | Controlling? |
+| # | File | Role | Current use |
 |---|------|------|---|
-| 1 | `BODHGAYA_PREP_PACKET_2026-08-27.md` | Earliest prep, method rules for the review. Background context. | n/a (prep/context) |
-| 2 | `BODHGAYA_A_PLUS_CORRIDOR_MATRIX.md` | Geometry/corridor context (2026-08-24). Historical framing. | n/a (context, historical) |
-| 3 | `BODHGAYA_GAYA_A_PLUS_MARK_SELECTION_SLICE.md` | Original A+ selection mechanism doc (2026-08-24). Historical — resolved to Mahabodhi/Sujata/Dungeshwari A+. | n/a (mechanism, historical) |
-| 4 | `BODHGAYA_HISTORICAL_BASE_DWELL_RECOVERY_2026-08-27.md` | Recovered historical sleep-base baseline. Self-labeled "NOT current duration lock." | n/a (historical, explicitly not current) |
-| 5 | `BODHGAYA_STRICT_LP_LAYER_GATE_2026-08-27.md` | Original strict-LP review gate; several rows still labeled OPEN (Sher Shah Suri's Tomb, Patharkatti, Tutla Bhawani). Bodh Gaya duration has since closed, but whether these specific rows were actually Mark-triaged (vs. just no longer forcing a day) could not be confirmed from the files alone. | **AMBIGUOUS — deliberately left unmarked, see BOTTOM LINE** |
-| 6 | `BODHGAYA_INDIA12_BOUNDED_CURRENT_CHECK_2026-08-27.md` | Bounded live-fact checks feeding the OPEN batch below (recovery-patched 08-28). | n/a (interim check) |
-| 7 | `BODHGAYA_OPEN_BATCH_MARK_DECISIONS_2026-08-28.md` | Mark's actual grade decisions from the OPEN batch (Brahmakund corridor, Mangla Gauri C, etc.). | n/a (Mark decision record) |
-| 8 | `BODHGAYA_MARK_PACE_PRESENTATION_2026-08-28.md` | Pace/duration presentation: Maya Heritage sleep base locked, max 3 nights. | n/a (execution/pace) |
-| 9 | `BODHGAYA_EXECUTION_GEOMETRY_2026-08-28.md` (rebuilt 08-29) | Layer-B execution geometry; Rajgir removed as a dedicated day. | n/a (execution) |
-| 10 | `BODHGAYA_DUNGESHWARI_ULTRANEAR_DISCOVERY_2026-08-29.md` | Near-cave discovery findings, partially decided (Stupa Ridge A). | n/a (discovery, partial) |
-| 11 | `BODHGAYA_LIVE_PRESENTATION_RECHECK_2026-08-29.md` | Live timing/climate/crowd recheck; no grade change. | n/a (live-fact recheck) |
-| 12 | `BODHGAYA_VERIFIED_MAP_COORDINATES_2026-08-29.md` | Corrected geo registry after a bad map pin was found decision-corrupting. Required before any Bodh Gaya map/geometry claim. | n/a (geo QA gate — still binding for map accuracy, not content) |
-| 13 | `BODHGAYA_GAYA_TRAVELER_LAYER_REPAIR_2026-09-01.md` | **Latest word on the cluster.** Confirms "the Bodh Gaya/Gaya cluster remains closed" and repairs the traveler/LP reserve layer. | `Controlling: NO` |
+| 1 | `BODHGAYA_PREP_PACKET_2026-08-27.md` | Earliest prep/method context. | Historical/context. |
+| 2 | `BODHGAYA_A_PLUS_CORRIDOR_MATRIX.md` | Earlier corridor framing. | Historical geometry context; current geometry must use verified map layer. |
+| 3 | `BODHGAYA_GAYA_A_PLUS_MARK_SELECTION_SLICE.md` | Original A+ selection mechanism. | Historical; resolved to current A+ set. |
+| 4 | `BODHGAYA_HISTORICAL_BASE_DWELL_RECOVERY_2026-08-27.md` | Historical sleep-base baseline; self-labeled not current duration lock. | Provenance only. |
+| 5 | `BODHGAYA_STRICT_LP_LAYER_GATE_2026-08-27.md` | Original strict LP gate; contains older OPEN labels. | **Must be reconciled row-by-row with later Mark decisions; never trust OPEN labels blindly.** |
+| 6 | `BODHGAYA_INDIA12_BOUNDED_CURRENT_CHECK_2026-08-27.md` | Bounded live-fact checks. | Supporting evidence. |
+| 7 | `BODHGAYA_OPEN_BATCH_MARK_DECISIONS_2026-08-28.md` | Actual Mark grade decisions from the earlier open batch. | Current grade provenance unless later superseded. |
+| 8 | `BODHGAYA_MARK_PACE_PRESENTATION_2026-08-28.md` | Pace/duration presentation; Maya Heritage lock/max-three framing. | Preserve prior Mark pace/base decisions. |
+| 9 | `BODHGAYA_EXECUTION_GEOMETRY_2026-08-28.md` | Layer-B execution geometry; Rajgir dedicated day removed. | Execution provenance; revalidate if content changes. |
+| 10 | `BODHGAYA_DUNGESHWARI_ULTRANEAR_DISCOVERY_2026-08-29.md` | Near-cave discovery/partial decisions. | Supporting current content history. |
+| 11 | `BODHGAYA_LIVE_PRESENTATION_RECHECK_2026-08-29.md` | Timing/climate/crowd recheck. | Live-fact provenance; volatile facts recheck later. |
+| 12 | `BODHGAYA_VERIFIED_MAP_COORDINATES_2026-08-29.md` | Corrected geo registry after decision-corrupting bad pin. | **Mandatory before Bodh Gaya map/proximity use.** |
+| 13 | `BODHGAYA_GAYA_TRAVELER_LAYER_REPAIR_2026-09-01.md` | Later ordinary-traveler repair: food/café, craft, oddity/human texture. | **CURRENT INPUT TO MARK TRIAGE; research-complete does not mean Mark-triaged.** |
 
-## BOTTOM LINE
-Bodh Gaya/Gaya's fixed core + duration (Maya Heritage, max 3 nights, existing A+/A/A*/B/C) is closed — confirmed as of file #13. The traveler layer researched in #13 is knowledge-only reserve and does not block calling the cluster's Layer-A pass done (parallel to Agra's and Tiruvannamalai's confirmed-fine repair files). File #5's few still-OPEN corridor rows (Sher Shah Suri's Tomb, Patharkatti, Tutla Bhawani) are a genuine open question — do NOT assume they are either closed or still-blocking without checking directly; Delhi's `DELHI_SPARE_DAY_LP_TOPX_LAYER_2026-08-31.md` shows exactly this kind of assumption can be wrong. Files #1–#4 are historical background/context.
+## HARD RECONCILIATION — 2026-09-02
+Mark explicitly states that the later Bodh Gaya/Gaya traveler-repair findings have **not all been presented to him**. Therefore the former conclusion that file #13 is only a non-blocking reserve and that cluster finality is automatically unaffected is superseded.
+
+Hard distinction:
+`RESEARCH_COMPLETE_ENOUGH != MARK_TRIAGE_COMPLETE != DURATION_CLOSED`.
+
+Before presenting repaired/older-open rows:
+1. run `AL BESLIST?` against current decisions + ledger + #7;
+2. preserve later explicit grades: research cannot silently reset a C/B/A*/A/A+ to OPEN;
+3. present only genuinely unseen/open material;
+4. apply the current human-centered geography/marginal-burden decision surface;
+5. only Mark assigns or changes grades.
+
+Known protected current truth includes, subject only to newer explicit Mark decisions:
+- Mahabodhi Temple Complex + Bodhi Tree [A+] [UNESCO WH];
+- Sujata Stupa [A+];
+- Dungeshwari / Mahakala Caves [A+];
+- Great Buddha Statue [A];
+- Maya Heritage = LOCKED_BY_MARK;
+- Barabar/Nagarjuni Caves remain C / DO NOT RE-PRESENT;
+- Patharkatti/Pattharkatti currently C unless Mark explicitly reopens;
+- Sher Shah Suri Tomb currently C unless Mark explicitly reopens;
+- Rajgir Brahmakund is A*/corridor-only under current truth.
+
+The earlier two-night/default, max-three duration rule remains a real prior Mark decision. Its **procedural finality against the repaired traveler universe waits until all genuinely unseen repair findings are triaged**. New traveler findings may leave the duration unchanged; that determination happens after Mark sees them.
+
+## CURRENT PROCESS OWNER
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/MARK_TRAVELER_LAYER_TO_DURATION_ORDER_CORRECTION_2026-09-02.md`.
+
+Delhi is the current first traveler-triage frontier. When Bodh Gaya's turn comes, read #13 together with current decisions and this index; do not infer completion from #13's own research-complete status wording.
+
+END BODH GAYA / GAYA FILE INDEX
