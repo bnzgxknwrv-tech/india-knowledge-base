@@ -63,7 +63,23 @@ Hard consequence:
 - `[C]` items above are do-not-represent unless Mark explicitly reopens them.
 - PVR Priya IMAX must henceforth be treated as `[A]`, not carried forward as `[B]` from the older reserve decision.
 
+## MARK PRESENTATION CORRECTION — RECOGNITION FIRST + VISUALS — 2026-09-02
+Mark explicitly stopped the next Delhi batch because unfamiliar Indian names were again used as shorthand (`Hauz Khas`, `Qutb`, `Vasant Vihar`, etc.) even though the hard naming protocol already forbids this.
+
+Controlling user-facing rule remains `governance/MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md`:
+`FULL CANONICAL PLACE NAME — SHORT DUTCH RECOGNITION HOOK (CITY / MICROCLUSTER) [GRADE]`.
+The recognition hook must answer `WAT IS DIT / WAAROM HERKEN IK HET?` and must be repeated wherever Mark needs to understand the reference; no bare-name shorthand escape.
+
+For Delhi traveler triage specifically:
+- every candidate card must start with the full name plus a short Dutch physical/experiential hook;
+- every retained comparison point must also remain recognition-rich, e.g. `PVR Priya IMAX — Bollywood op groot laser-IMAX-scherm [A]`, not bare `Priya`;
+- distance/time lines must say what BOTH endpoints are, not rely on Mark remembering Indian names;
+- when visual appearance is materially part of why the item is proposed (architecture, gardens, murals, oddities), include a few representative photos in the user-facing presentation where the interface supports it;
+- the human test is: Mark must be able to decide without separately googling the name to learn what he is looking at.
+
+This correction changes presentation only, not any existing grade.
+
 NEXT_AUTOMATIC_STEP:
-Continue Delhi final-day traveler triage with only genuinely unresolved items after AL BESLIST reconciliation, using the airport-side final-day context and full human presentation format.
+Re-present the currently unresolved Delhi final-day candidates using recognition-rich labels on every relevant occurrence, representative photos, airport-side burden, and net extra travel from retained **PVR Priya IMAX — Bollywood op groot laser-IMAX-scherm [A]**, **Qutb Minar and its Monuments — 73 m hoge middeleeuwse UNESCO-toren + ruïnecomplex [B] [UNESCO WH]**, and **Hauz Khas Village — cafés/kunst + middeleeuwse ruïnes rond reservoir [B]**.
 
 END
