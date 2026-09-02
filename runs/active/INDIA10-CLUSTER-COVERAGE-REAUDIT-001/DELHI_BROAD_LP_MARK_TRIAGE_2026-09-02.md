@@ -48,7 +48,22 @@ High-signal still-open general-traveler items for first Mark batch:
 
 No grade is inferred here.
 
+## MARK TRIAGE DECISION SET — 2026-09-02 — AIRPORT-SIDE FINAL-DAY PRESENTATION
+Newest explicit Mark grades from the human-centered airport-side presentation:
+- **Qutb Minar and its Monuments [B] [UNESCO WH]**.
+- **Hauz Khas Village [B]** — reaffirmed; no grade change.
+- **PVR Priya IMAX [A]** — supersedes the earlier explicit Mark grade `[B]`; newest explicit Mark decision wins.
+- **Sulabh International Museum of Toilets [C]**.
+- **Dilli Haat INA [C]**.
+- **National Rail Museum [C]**.
+
+No WHY beyond Mark's explicit grading is inferred here. The separate human-centered presentation/context remains the decision-support provenance; any later WHY stated by Mark must be appended rather than invented.
+
+Hard consequence:
+- `[C]` items above are do-not-represent unless Mark explicitly reopens them.
+- PVR Priya IMAX must henceforth be treated as `[A]`, not carried forward as `[B]` from the older reserve decision.
+
 NEXT_AUTOMATIC_STEP:
-Present this first batch to Mark with concise recognition hooks and practical burden/context; record his grades immediately after response.
+Continue Delhi final-day traveler triage with only genuinely unresolved items after AL BESLIST reconciliation, using the airport-side final-day context and full human presentation format.
 
 END
