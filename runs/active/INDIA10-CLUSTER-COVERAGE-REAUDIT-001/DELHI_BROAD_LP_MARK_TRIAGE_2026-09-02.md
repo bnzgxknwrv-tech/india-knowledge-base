@@ -74,7 +74,8 @@ For Delhi traveler triage specifically:
 - every candidate card must start with the full name plus a short Dutch physical/experiential hook;
 - every retained comparison point must also remain recognition-rich, e.g. `PVR Priya IMAX — Bollywood op groot laser-IMAX-scherm [A]`, not bare `Priya`;
 - distance/time lines must say what BOTH endpoints are, not rely on Mark remembering Indian names;
-- when visual appearance is materially part of why the item is proposed (architecture, gardens, murals, oddities), include a few representative photos in the user-facing presentation where the interface supports it;
+- when visual appearance is materially part of why the item is proposed (architecture, gardens, murals, oddities), include preferably about three representative photos in the user-facing presentation where the interface supports it;
+- **place those photos directly with/under the correct candidate card, not detached, ambiguously grouped or visually associated with the next/previous item**;
 - the human test is: Mark must be able to decide without separately googling the name to learn what he is looking at.
 
 This correction changes presentation only, not any existing grade.
@@ -98,7 +99,19 @@ After comparing the two Delhi IMAX venues, Mark explicitly decided:
 
 This supersedes the earlier provisional `5 A` fragment, which was never final because Mark immediately interrupted it with a question before confirming a grade.
 
+## MARK TRIAGE DECISION SET — 2026-09-02 — CENTRAL / OLD-DELHI BATCH
+Newest explicit Mark grades:
+- **Red Fort — groot rood Mughal-keizerlijk paleisfort (Old Delhi) [B] [UNESCO WH]**.
+- **Jantar Mantar — 18e-eeuwse gigantische astronomische meetinstrumenten en zonnewijzers (central Delhi) [C]**.
+- **Swaminarayan Akshardham — enorm modern tempel/cultuur-showcomplex met film, bootrit en water-/lasershow (east Delhi) [C]**.
+- **Chandni Chowk + Khari Baoli — extreem drukke historische bazaar- en specerijenmarktwereld (Old Delhi) [C]**.
+- **Agrasen ki Baoli — diepe historische trappenwaterput tussen moderne hoogbouw (central Delhi) [C]**.
+
+Hard consequences:
+- the four `[C]` rows above are do-not-represent unless Mark explicitly reopens them;
+- **Red Fort — rood Mughal-keizerlijk paleisfort [B] [UNESCO WH]** remains active conditional reserve, but **Chandni Chowk + Khari Baoli — drukke bazaar/specerijenwereld [C]** no longer provides a retained Old-Delhi bundle justification; judge any later Red Fort use on its own actual burden.
+
 NEXT_AUTOMATIC_STEP:
-Continue Delhi LP triage with only genuinely unresolved items, using recognition-rich labels, representative photos where visual appearance matters, airport-side burden, and net extra travel from retained A/B anchors.
+Continue with the smaller genuinely unresolved Delhi LP layer only, preserving all current A/B/C decisions. Use recognition-rich labels, put approximately three representative photos directly with the correct visual candidate, show airport-side burden plus net extra travel from retained A/B anchors, and never re-present C items.
 
 END
