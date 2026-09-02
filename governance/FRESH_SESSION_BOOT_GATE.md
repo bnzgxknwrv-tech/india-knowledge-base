@@ -5,6 +5,7 @@ Effective: 2026-09-02
 Branch: `agent/india8-cluster-casting`
 Canonical manifest: `governance/BOOT_MANIFEST_V8.json`
 Canonical protocol path (legacy filename, future-universal content): `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md`
+Final active-memory checksum: `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md`
 
 ## ABSOLUTE DEFAULT
 Every fresh INDIA session starts:
@@ -25,7 +26,10 @@ Therefore a valid boot requires both:
 
 Repository design/review owner for this failure class:
 `governance/INDIA_ACTIVE_MEMORY_COMPILATION_GATE.md`.
-Until the final CCI/INDIA consensus patch makes its machine-readable enforcement complete, the semantic requirements below are already fail-closed procedure for every successor.
+The final human-behavior checksum for repeatedly-forgotten rules is:
+`governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md`.
+
+The handoff is deliberately present twice in the manifest: once in `central_required` so a handoff change changes the central blob-SHA set and therefore forces a new FULL semantic baseline when required, and once as the final `active_cluster_required` item so it is reread only after current cluster truth has been loaded. This redundancy is intentional.
 
 ## FAIL-CLOSED START
 Before ANY substantive India advice, research synthesis, route/duration/hotel/base judgment or Mark-only choice, the session MUST:
@@ -48,17 +52,18 @@ Before ANY substantive India advice, research synthesis, route/duration/hotel/ba
    - current route/planning phase;
    - any contradictions found and how they were resolved;
 10. **FAIL CLOSED ON CONTRADICTION:** if two mandatory/current sources materially disagree and the session cannot resolve the conflict from newer explicit Mark/current authority, content is forbidden. Do not merely note the conflict and continue. Repair durable routing first or stop on the exact unresolved authority conflict;
-11. apply `governance/INDIA_ACTIVE_MEMORY_COMPILATION_GATE.md` when it is in the manifest's required set; even before final manifest integration, any session started after 2026-09-02 must treat its rules as the current design correction if it appears in the active required package;
-12. resolve `BOOT_HEAD_FINAL`, inspect the complete initial->final delta, and reread every mandatory file that changed;
-13. create a NEW append-only receipt `governance/boot_receipts/INDIA<N>__<START_NONCE>.json`;
-14. bind it to the exact session and exact start nonce;
-15. commit that receipt alone as R on top of C;
-16. obtain a **real** `INDIA_TRAVEL_BOOT_SANITY: PASS` either from a live local `boot_gate.py` run or from the permanent GitHub Actions receipt runner `.github/workflows/india-boot-receipt.yml` tied to R;
-17. only after step 16 may START determine which independent-CHECK tier applies (`INDIA14_START_AND_INDEPENDENT_CHECK.md` §2.0) and proceed to it;
-18. a **FULL** check follows the canonical protocol; a **LIGHT** spot-check is permitted only by the exact live blob-SHA eligibility rule;
-19. CHECK commits K alone;
-20. K must receive a successful permanent `.github/workflows/india-final-authorization.yml` run whose log literally contains `CONTENT_AUTHORIZATION: GRANTED`;
-21. only then may substantive travel work resume.
+11. apply `governance/INDIA_ACTIVE_MEMORY_COMPILATION_GATE.md` fully;
+12. **FINAL SEMANTIC READ:** reread `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` completely AFTER the compilation pass and AFTER the other active-cluster material. This is the last semantic boot read. Apply its `LAATSTE PRE-ANSWER TEST — HARD VETO`. `I read it` is not sufficient; any relevant NO/UNKNOWN blocks content until retrieve/reconcile/repair is complete;
+13. resolve `BOOT_HEAD_FINAL`, inspect the complete initial->final delta, and reread every mandatory file that changed. If the handoff, manifest or any authority source changed in the delta, repeat step 12 against the final pinned version;
+14. create a NEW append-only receipt `governance/boot_receipts/INDIA<N>__<START_NONCE>.json`;
+15. bind it to the exact session and exact start nonce;
+16. commit that receipt alone as R on top of C;
+17. obtain a **real** `INDIA_TRAVEL_BOOT_SANITY: PASS` either from a live local `boot_gate.py` run or from the permanent GitHub Actions receipt runner `.github/workflows/india-boot-receipt.yml` tied to R;
+18. only after step 17 may START determine which independent-CHECK tier applies (`INDIA14_START_AND_INDEPENDENT_CHECK.md` §2.0) and proceed to it;
+19. a **FULL** check follows the canonical protocol; a **LIGHT** spot-check is permitted only by the exact live blob-SHA eligibility rule;
+20. CHECK commits K alone;
+21. K must receive a successful permanent `.github/workflows/india-final-authorization.yml` run whose log literally contains `CONTENT_AUTHORIZATION: GRANTED`;
+22. only then may substantive travel work resume.
 
 A missing local shell is not a FAIL if the canonical Actions runner succeeds. A self-declared equivalent validator is not enough when canonical CI is available.
 
@@ -70,14 +75,16 @@ Do not maintain a copied `16/6/6`, `16/6/10` or any other count here. The active
 ## RECEIPT PROOF
 The receipt schema and proof requirements are defined by `governance/boot_receipts/README.md` and enforced by `validate_successor_boot.py`, including full-file coverage, categorized proof quotes, delta rereads, no summary substitution, zero unfinished truncations and exact C->R shape.
 
-**Known hardening gap under active CCI/INDIA review (2026-09-02):** the current validator proves byte-level reads and receipt mechanics but does not yet fully machine-validate a compiled working-set artifact or every cross-file semantic contradiction. Do not overclaim that a mechanical PASS proves active-memory application. The next governance patch must close as much of this gap as can be made machine-checkable and use FULL semantic CHECK for what cannot.
+Because `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` is present in both the central and final active-cluster required sets, a valid receipt must attest the same pinned handoff blob in both required read sets. The validator proves complete byte coverage; the semantic CHECK and live pre-answer veto address application.
+
+**Honest machine limit:** the validator proves byte-level reads and receipt mechanics but cannot directly inspect the hidden working memory that generates the next sentence. Therefore mechanical PASS never by itself proves active-memory application. The mandatory final handoff read, FULL semantic challenge after central handoff changes, and per-reply hard veto are layered specifically around that limitation.
 
 ## INDEPENDENT CHECK PROOF — TWO TIERS
 The independent CHECK schema is defined by `governance/boot_checks/README.md` and enforced by `validate_independent_check.py`. `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md` §2.0 determines the tier mechanically.
 
 Current legacy/full topic pool remains whatever `BOOT_MANIFEST_V8.json` declares at the pinned snapshot. Do not copy a separate authoritative topic list here.
 
-A governance change to any `central_required` file changes its blob-SHA set. Therefore the first fresh successor after this 2026-09-02 hardening is expected to require a **FULL** check unless an exact prior FULL baseline somehow already matches the new central set; the validator, not prose, decides.
+A governance change to any `central_required` file changes its blob-SHA set. `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` is intentionally central-required, so every material update to the repeated-failure checksum invalidates an older exact FULL baseline. The first fresh successor after such a change is therefore expected to require a **FULL** check unless an exact prior FULL baseline already matches the new complete central set; the validator, not prose, decides.
 
 ## PRE-REPLY BEHAVIORAL / ACTIVE-MEMORY GATE
 Even after final authorization, each substantive reply must apply:
@@ -85,14 +92,19 @@ Even after final authorization, each substantive reply must apply:
 - `governance/INDIA_HUMAN_CENTERED_COMPLEX_TRIP_PLANNING_STANDARD.md`;
 - `governance/MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md`;
 - `governance/MAP_COORDINATE_VERIFICATION_RULE.md` where geography is decision evidence;
-- the current active-memory compilation/contradiction rules.
+- `governance/INDIA_ACTIVE_MEMORY_COMPILATION_GATE.md`;
+- **the final `LAATSTE PRE-ANSWER TEST — HARD VETO` in `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md`.**
 
-Correct boot does not prove correct answer-time behavior. If Mark says `dit hadden we al`, `je mist veel`, `dit is niet het format`, or equivalent, treat it as a memory-system incident: stop new conclusions, widen reads, identify the missed rule/truth, repair routing, record the failure mode, then resume.
+Correct boot does not prove correct answer-time behavior. The handoff is therefore not a one-time startup note: its veto is an answer-time requirement.
+
+If Mark says `dit hadden we al`, `je mist veel`, `dit is niet het format`, `je hebt het wel gelezen maar je doet het niet`, or equivalent, treat it as a memory-system incident: stop new conclusions, widen reads, identify the missed rule/truth, repair routing, update the successor handoff if this is a recurring/new failure pattern, then resume.
 
 ## HARD FAILURE
 If substantive advice is sent before final `CONTENT_AUTHORIZATION: GRANTED`, that advice is untrusted and cannot control state.
 
 If the read set was complete but mandatory/current sources were materially contradictory and the session skipped reconciliation, the session is also untrusted for the affected conclusion even if the receipt was mechanically valid.
+
+If the handoff was read but a directly applicable hard-veto rule was ignored, that answer is a `READ_BUT_NOT_ACTIVE` failure. Repair the answer and, if the failure reveals a reusable gap, harden the handoff/governance before continuing.
 
 ## SUCCESSOR REPLACEABILITY
 After every material work step ask:
@@ -100,12 +112,17 @@ After every material work step ask:
 If not, durable-write the missing WHAT + WHY + source/routing before replying.
 
 ## HONEST LIMIT
-Git/GitHub can prove bytes, hashes, commit shape and some machine-readable consistency. It cannot prove that a language model truly attended to or will apply a rule in every generated sentence. The architecture therefore needs layered protection:
-1. machine-readable canonical truth where practical;
-2. cross-file consistency validation;
-3. session-specific compiled-working-set evidence where practical;
-4. FULL applied semantic challenge after governance changes;
-5. pre-answer veto + incremental durable writes;
-6. Mark's corrections treated as system incidents, not local wording complaints.
+Git/GitHub can prove bytes, hashes, commit shape and some machine-readable consistency. It cannot cryptographically force a language model to attend to every rule in every generated sentence.
+
+What this architecture CAN now enforce:
+1. the handoff is mandatory manifest content;
+2. every handoff change changes the central SHA-set;
+3. the handoff is required again as the final active-cluster read;
+4. the receipt proves the current session covered its complete bytes at the pinned snapshot;
+5. governance changes force a new FULL semantic baseline when the exact central set differs;
+6. each substantive reply is procedurally vetoed by the handoff's explicit checklist;
+7. Mark corrections become memory-system incidents and update the checksum rather than disappearing into chat.
+
+That is the strongest honest guarantee available inside this GitHub + model architecture. It materially reduces the chance of repeat failures; it does not make model behavior mathematically infallible.
 
 END FRESH-SESSION BOOT GATE
