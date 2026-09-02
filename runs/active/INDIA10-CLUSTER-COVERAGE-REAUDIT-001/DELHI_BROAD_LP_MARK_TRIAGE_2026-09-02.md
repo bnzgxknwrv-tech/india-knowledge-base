@@ -79,7 +79,33 @@ For Delhi traveler triage specifically:
 
 This correction changes presentation only, not any existing grade.
 
+## MARK TRIAGE DECISION SET — 2026-09-02 — RECOGNITION-RICH SOUTH DELHI BATCH
+Newest explicit Mark grades after the corrected recognition-rich + visual presentation:
+- **Garden of Five Senses — aangelegde tuin met waterpartijen, bloemen, rotsen, beelden en kunst (south Delhi / Qutub-side) [B]**.
+- **Lotus Temple / Bahá'í House of Worship — spectaculaire witte lotusbloemtempel met waterbassins (Kalkaji / south Delhi) [A]**.
+- **Lodhi Art District — gewone woonstraten met complete huizenblokken vol grote kleurrijke street-art murals (Lodhi Colony / south-central Delhi) [C]**.
+- **Lodhi Garden — groot groen stadspark met 15e/16e-eeuwse koepelgraven, bomen, vogels en lokaal leven (Lodhi Road / south-central Delhi) [B]**.
+
+Hard consequences:
+- **Lodhi Art District — woonstraten vol grote murals [C]** is do-not-represent unless Mark explicitly reopens it.
+- **Lotus Temple — witte lotusbloemtempel [A]** is now intrinsic selected Delhi content and must be used as a retained route/geometry anchor in later Delhi comparisons.
+- **Garden of Five Senses — tuin met water + kunst [B]** and **Lodhi Garden — groen stadspark met oude koepelgraven [B]** remain active conditional reserve.
+
+### PVR SELECT CITYWALK IMAX — GRADE NOT YET FINAL
+Mark initially typed `5 A` for **PVR Select Citywalk IMAX — tweede moderne laser-IMAX in een groot winkelcentrum (Saket / south Delhi)** but immediately interrupted that grading to ask whether this is a second cinema, which of the two IMAX venues is better and which is geometrically more favorable relative to other retained A content. Per `A QUESTION IS NOT A DECISION`, do NOT freeze `[A]` yet.
+
+Required next decision support:
+Compare **PVR Priya IMAX — grote Bollywood/Hindi-filmervaring op groot laser-IMAX-scherm in historische bioscooplocatie (Vasant Vihar) [A]** versus **PVR Select Citywalk IMAX — moderne laser-IMAX in mall (Saket) [OPEN]** on:
+- screen/projection/sound quality;
+- specifically Indian/Bollywood cultural value;
+- route burden from the airport-side hotel proxy;
+- route burden from **Lotus Temple — witte lotusbloemtempel [A]**;
+- route burden from **Qutb Minar and its Monuments — 73 m UNESCO-toren + ruïnecomplex [B] [UNESCO WH]**;
+- route burden from **Garden of Five Senses — tuin met water + kunst [B]**;
+- showtime/film flexibility on the actual date.
+Mark explicitly wants BOTH cinemas retained in the eventual travel guide because a different worthwhile film/showtime may make each useful.
+
 NEXT_AUTOMATIC_STEP:
-Re-present the currently unresolved Delhi final-day candidates using recognition-rich labels on every relevant occurrence, representative photos, airport-side burden, and net extra travel from retained **PVR Priya IMAX — Bollywood op groot laser-IMAX-scherm [A]**, **Qutb Minar and its Monuments — 73 m hoge middeleeuwse UNESCO-toren + ruïnecomplex [B] [UNESCO WH]**, and **Hauz Khas Village — cafés/kunst + middeleeuwse ruïnes rond reservoir [B]**.
+Give the two-IMAX comparison first; then continue Delhi LP triage with only genuinely unresolved items, using recognition-rich labels, representative photos where visual appearance matters, airport-side burden, and net extra travel from retained A/B anchors.
 
 END
