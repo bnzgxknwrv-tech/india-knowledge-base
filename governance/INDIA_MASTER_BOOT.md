@@ -30,7 +30,7 @@ Therefore BEFORE any substantive India conclusion/recommendation/research synthe
 2. execute this master boot in the current session;
 3. any truncated tool/file response is INCOMPLETE until continued to EOF;
 4. any file seen only through summary/pointer/predecessor context counts as `NOT_READ_IN_THIS_SESSION`;
-5. after all mandatory central + CCI reads and the active cluster gate, write a NEW append-only session receipt at `governance/boot_receipts/INDIA<N>__<NONCE>.json` (never overwrite/inherit another session's receipt) with exact BOOT_HEAD, full-read counts, byte-level read-coverage per file, proof-of-read quotes and control-veto checksum; optionally also refresh `governance/BOOT_SESSION_RECEIPT.md` as a human-readable pointer, but that file is NEVER itself authoritative proof;
+5. after all mandatory central + CCI reads and the active cluster gate, reconcile current truth and then reread `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` as the **LAST semantic boot read**; run its `LAATSTE PRE-ANSWER TEST — HARD VETO`; only after that write a NEW append-only session receipt at `governance/boot_receipts/INDIA<N>__<NONCE>.json` (never overwrite/inherit another session's receipt) with exact BOOT_HEAD, full-read counts, byte-level read-coverage per file, proof-of-read quotes and control-veto checksum; optionally also refresh `governance/BOOT_SESSION_RECEIPT.md` as a human-readable pointer, but that file is NEVER itself authoritative proof;
 6. require `BOOT_GATE: PASS` in the append-only receipt, then `python3 governance/scripts/validate_successor_boot.py --require-session-receipt governance/boot_receipts/INDIA<N>__<NONCE>.json --expected-session INDIA<N> --expected-nonce <NONCE>` returning `INDIA_TRAVEL_BOOT_SANITY: PASS`;
 7. even after that mechanical PASS, `CONTENT_AUTHORIZATION` remains `NOT_GRANTED` until an independent second CHECK session (§0B, `INDIA14_START_AND_INDEPENDENT_CHECK.md`) separately passes;
 8. only then may substantive India work begin.
@@ -55,7 +55,7 @@ and require `INDIA_TRAVEL_BOOT_SANITY: PASS` before substantive advice. A FAIL m
 ## 1A. CANONICAL HELPER — STRUCTURAL MODE CANNOT BE MISUSED AS THE GATE
 `governance/scripts/boot_gate.py` is the canonical entrypoint for the content gate. Unlike calling `validate_successor_boot.py` directly, it has no default/structural-only path: it requires an INDIA session label and nonce as positional arguments and always invokes the validator in `--require-session-receipt` mode against `governance/boot_receipts/INDIA<N>__<NONCE>.json`. Its own exit code and printed banner make it impossible to mistake a bare structural check for content authorization. Use it instead of calling `validate_successor_boot.py` directly whenever the point of the run is to gate content, not merely to sanity-check the governance files themselves.
 
-**Honest limit:** no tool available to this repository can force ChatGPT/INDIA's own prose generation to consult this gate before it writes a sentence — that is a model-behavior question, not a file-permission question. `boot_gate.py`'s exit code can only be enforced by whatever *process* around the model chooses to check it (a human, a CI step, or a disciplined session following `FRESH_SESSION_BOOT_GATE.md`'s own instruction to run it and treat FAIL as blocking). The repository fails closed — it never claims PASS when it cannot verify — but it cannot mechanically stop a model from ignoring its own instructions and answering anyway. That gap is closed procedurally (§0B, independent CHECK, Mark's own scrutiny), not cryptographically.
+**Honest limit:** no tool available to this repository can force ChatGPT/INDIA's own prose generation to consult this gate before it writes a sentence — that is a model-behavior question, not a file-permission question. `boot_gate.py`'s exit code can only be enforced by whatever *process* around the model chooses to check it (a human, a CI step, or a disciplined session following `FRESH_SESSION_BOOT_GATE.md`'s own instruction to run it and treat FAIL as blocking). The repository fails closed — it never claims PASS when it cannot verify — but it cannot mechanically stop a model from ignoring its own instructions and answering anyway. That gap is closed procedurally (§0B, independent CHECK, the mandatory final active-memory handoff, answer-time vetoes, and Mark's own scrutiny), not cryptographically.
 
 # 2. ALWAYS-READ DURABLE MEMORY CORE
 Read IN THIS SESSION and in this order:
@@ -77,21 +77,22 @@ Read IN THIS SESSION and in this order:
 15. `governance/INDIA_RECOVERY_DELTAS_CURRENT.md` — anti-regression traps recovered from INDIA1–12 failures.
 16. `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md` — conditional routing to exact cluster/detail/provenance sources.
 17. `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md` — **HARD START + INDEPENDENT CHECK PROTOCOL**: the canonical two/three-commit HEAD shape, the receipt/CHECK mechanics, §2.0's FULL-vs-LIGHT tier determination, the mandatory manifest-derived semantic veto topic set for FULL (`BOOT_MANIFEST_V8.json`'s `check_required_challenge_topics` — read the manifest for the current exact list/count, never a count hand-copied into prose), and the deterministic LIGHT spot-check procedure (§2.8); read completely, not merely invoked from memory.
+18. `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` — **HARD ACTIVE-MEMORY CHECKSUM OF REPEATED SUCCESSOR FAILURES.** This file is deliberately central-required so every material change to it changes the exact FULL-baseline blob set. It is ALSO the final `active_cluster_required` file and MUST be reread after CCI + active-cluster reconciliation as the last semantic boot read; its `LAATSTE PRE-ANSWER TEST — HARD VETO` is then applied before every substantive reply.
 
-Boot is not complete because filenames were mentioned: actually read them. `14/14`/`15/15`/`16/16` language from V6/early-V8/pre-INDIA16 is now obsolete; the central mandatory read count is authoritatively `len(BOOT_MANIFEST_V8.json["central_required"])` — **17/17** as of this consensus patch (this file, `INDIA14_START_AND_INDEPENDENT_CHECK.md`, added 2026-08-30; `INDIA_ACTIVE_MEMORY_COMPILATION_GATE.md` added 2026-09-02 — see R30/R36 supersede notes in `INDIA_RECOVERY_DELTAS_CURRENT.md`). If this number and the manifest's own count ever disagree, the manifest wins.
+Boot is not complete because filenames were mentioned: actually read them. Historical copied count language is non-authoritative; the central mandatory read count is always `len(BOOT_MANIFEST_V8.json["central_required"])` — **18/18 at this repository state**, with the handoff checksum added 2026-09-02. If this number and the manifest's own count ever disagree, the manifest wins and this prose must be repaired.
 
 ## 2A. CCI FULL-REPOSITORY SUCCESSOR-PARITY LAYER — MANDATORY
 
 The 2026-08-29 CCI full-repository harvest inspected 70 refs, 4,192 manifest objects, 2,002 unique tip blobs, 89 recovered deleted/renamed blobs, 218 PR comments and 1,779 commit messages; it materialized 206 knowledge atoms and passed a nine-iteration successor parity test. It found still-valid knowledge that was NOT recoverable from the former central boot alone. Therefore this is no longer optional archaeology.
 
-After the 17 central files above, every fresh INDIA successor MUST read the following CCI files from the immutable completed harvest commit `b5349afe41f98eb4870728aaff2c633899afc1fa` on `agent/cci-full-repo-knowledge-harvest`, in this order:
+After the 18 central files above, every fresh INDIA successor MUST read the following CCI files from the immutable completed harvest commit `b5349afe41f98eb4870728aaff2c633899afc1fa` on `agent/cci-full-repo-knowledge-harvest`, in this order:
 
-18. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUCCESSOR_START_HERE.md` — boot routing + parity warnings.
-19. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUPERSEDED_AND_DO_NOT_REVIVE.md` — vocabulary drift, invalidated facts, old route/sleep modules and other anti-revival traps.
-20. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/MARK_CURRENT_CANON_MASTER.md` — reconciled Mark decisions/WHY, including recovered items absent from the former central layer.
-21. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/PROJECT_PHILOSOPHY_AND_SELECTION_MODEL.md` — recovered selection philosophy, AOAY/Top-11, NOT_TO_BE_MISSED, evidence and discovery rules needed to judge NEW findings correctly.
-22. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/OPEN_MARK_DECISIONS_ONLY.md` — genuine open Mark gates plus INDIA-only repairs, conflicts and date-linked opportunities; ALWAYS reconcile against newer central state because the harvest froze against an older central commit.
-23. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/CURRENT_TRAVEL_EXECUTION_CANON.md` — execution/transfer/topology/day-order facts, weak pins and live-recheck boundaries.
+19. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUCCESSOR_START_HERE.md` — boot routing + parity warnings.
+20. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUPERSEDED_AND_DO_NOT_REVIVE.md` — vocabulary drift, invalidated facts, old route/sleep modules and other anti-revival traps.
+21. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/MARK_CURRENT_CANON_MASTER.md` — reconciled Mark decisions/WHY, including recovered items absent from the former central layer.
+22. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/PROJECT_PHILOSOPHY_AND_SELECTION_MODEL.md` — recovered selection philosophy, AOAY/Top-11, NOT_TO_BE_MISSED, evidence and discovery rules needed to judge NEW findings correctly.
+23. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/OPEN_MARK_DECISIONS_ONLY.md` — genuine open Mark gates plus INDIA-only repairs, conflicts and date-linked opportunities; ALWAYS reconcile against newer central state because the harvest froze against an older central commit.
+24. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/CURRENT_TRAVEL_EXECUTION_CANON.md` — execution/transfer/topology/day-order facts, weak pins and live-recheck boundaries.
 
 The CCI files are **recovery evidence frozen in time, not a higher authority than later central Mark decisions**. Apply §4 precedence. If a CCI frontier/open item has since been closed centrally, the newer central truth wins; the recovered philosophy/WHY/anti-regression knowledge remains valuable unless explicitly superseded.
 
@@ -99,25 +100,27 @@ Reference-only when needed: `KNOWLEDGE_ATOMS.jsonl`, `COVERAGE_MANIFEST.csv`, `H
 
 **The former temporary eleven-file migration-safety read is retired.** `INDIA_CURRENT_KNOWLEDGE_MAP.md` is now `DECISION_LEDGER_BACKFILL_COMPLETE`. Detailed legacy IDs/grades remain conditionally available through the knowledge map; the CCI parity layer above is additive and mandatory because the parity audit proved the former boot alone still lost material predecessor knowledge.
 
+After CCI and the manifest-selected active-cluster package have been read and reconciled, reread `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` one final time. Its second manifest occurrence is intentional: it refreshes the repeated-failure checksum only after the successor knows the current facts to which those behavioral rules must be applied.
+
 ## 2B. APPEND-ONLY SESSION RECEIPT — MANDATORY OUTPUT, NOT A SUBSTITUTE READ
-After all 23 mandatory reads (17 central + 6 CCI) and BEFORE substantive work, create a NEW append-only receipt file at `governance/boot_receipts/INDIA<N>__<NONCE>.json` for the CURRENT session. This is the authoritative machine-verifiable proof; `governance/BOOT_SESSION_RECEIPT.md` may optionally still be refreshed as a human-readable pointer/index to the latest receipt, but it is NEVER itself sufficient proof and the validator does not trust it.
+After all 24 central+CCI mandatory reads (18 central + 6 CCI), the manifest-selected active-cluster reads, the post-read compilation pass, and the final handoff reread — and BEFORE substantive work — create a NEW append-only receipt file at `governance/boot_receipts/INDIA<N>__<NONCE>.json` for the CURRENT session. This is the authoritative machine-verifiable proof; `governance/BOOT_SESSION_RECEIPT.md` may optionally still be refreshed as a human-readable pointer/index to the latest receipt, but it is NEVER itself sufficient proof and the validator does not trust it.
 
 Minimum PASS fields in the JSON receipt (see `governance/boot_receipts/README.md` for the exact schema and `governance/scripts/validate_successor_boot.py` for the enforced contract):
 - `india_session` / `nonce` — exact expected INDIA label and exact start-prompt nonce, never reused from a prior session;
 - `receipt_created_utc`;
 - `boot_head_initial` / `boot_head_final` — 40-char commit SHAs; initial must be an ancestor of final;
 - `manifest_path: "governance/BOOT_MANIFEST_V8.json"` + `manifest_blob`;
-- `central_reads` / `cci_reads` / `active_cluster_reads` — one row per manifest file with `path`, `blob_sha`, `eof_reached: true`, `tool_truncated: false`, `byte_length`, and `read_ranges` (non-overlapping `[start,end]` byte ranges whose union is the full file — partial/skimmed reads cannot pass);
+- `central_reads` / `cci_reads` / `active_cluster_reads` — one row per manifest file with `path`, `blob_sha`, `eof_reached: true`, `tool_truncated: false`, `byte_length`, and `read_ranges` (non-overlapping `[start,end]` byte ranges whose union is the full file — partial/skimmed reads cannot pass). The handoff checksum is intentionally attested in both `central_reads` and `active_cluster_reads` because it serves both central-baseline and final-reread roles;
 - `delta_reread_paths` — every mandatory file that changed between `boot_head_initial` and `boot_head_final`;
 - `proof_of_read` — at least 3 unique verbatim full-sentence quotes (>=40 chars) from distinct categories: one from `CURRENT_STATE.md` or `SUCCESSOR_SAFE_STATE.md`, one from the newest `# Rnn —` item in `INDIA_RECOVERY_DELTAS_CURRENT.md`, one from any of the six immutable CCI sources — each quote verified verbatim against the pinned ref, and a category cannot be satisfied by a quote from the wrong file;
 - `active_cluster` matching the manifest's `active_cluster`;
 - `validator_mode: "--require-session-receipt"`;
 - `summary_substitution_used: false`;
 - `unfinished_truncations: 0`;
-- control-veto checksum containing at least TRAIN_FIRST, AL_BESLIST, naming-every-occurrence, GEO verification, action-first, same-turn durable memory, CCI three-way filter, safe-state, full-source-layer, and NU_DOEN;
+- control-veto checksum containing at least TRAIN_FIRST, AL_BESLIST, naming-every-occurrence, GEO verification, action-first, same-turn durable memory, CCI three-way filter, safe-state, full-source-layer, NU_DOEN, and the final successor active-memory handoff veto;
 - `boot_gate: "PASS"` only once every field above is actually true.
 
-If any required read is partial/summary-only/unresolved: `boot_gate: "FAIL"`. Do not start travel content.
+If any required read is partial/summary-only/unresolved, or the final handoff veto still has a relevant NO/UNKNOWN: `boot_gate: "FAIL"`. Do not start travel content.
 
 **Exact commit shape (read before writing a receipt):** a commit's hash cannot be known before its content is fixed, so `boot_head_final` can never literally equal the hash of the very commit that adds the receipt file itself. The required shape is two commits: (1) commit all mandatory content changes first and record THAT commit's hash as `boot_head_final`; (2) as a separate follow-up commit whose diff contains ONLY the new receipt file and nothing else, commit the receipt. The validator checks that the receipt commit's parent equals `boot_head_final` and that the one-commit diff between them is exactly the receipt file — anything else (more than one commit, unrelated changes riding along, a receipt that was never actually committed) is a hard FAIL (`receipt final head stale` / `receipt not committed at current head`). A THIRD commit follows the same pattern for the independent CHECK artifact (receipt commit -> check commit, diff = the check file only) — see `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md`'s "CANONICAL HEAD/COMMIT SHAPE" section for the full C→R→K chain and why `validate_successor_boot.py --receipt-commit` exists to validate the C→R half after the CHECK commit has moved actual HEAD past it.
 
@@ -130,6 +133,8 @@ Do not blur responsibilities:
 - `BOOT_SESSION_RECEIPT.md` = an OPTIONAL human-readable pointer to the latest append-only receipt; convenient for a person skimming the repo, but not itself trusted by the validator and not authoritative proof.
 - `governance/boot_checks/` = optional durable evidence from an independent CHECK session (second-key confirmation); documents its own honest limits and makes no claim of cryptographic identity proof.
 - `INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md` = mandatory **HOW INDIA MUST THINK/ACT/PRESENT BEFORE REPLYING**; predecessor behavior rules materialized as one executable veto.
+- `INDIA_ACTIVE_MEMORY_COMPILATION_GATE.md` = mandatory **READ-WITHOUT-COMPILATION DEFENSE**; current mandatory sources must become one reconciled working model before content.
+- `MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` = mandatory **FINAL ACTIVE-MEMORY CHECKSUM OF REPEATED SUCCESSOR FAILURES**; not a state owner, but the last semantic boot read and a per-answer hard veto. Update it when Mark has to reteach a recurring rule or a successor repeats a known failure despite having read the normal governance.
 - `MARK_TRAVEL_PREFERENCES_CURRENT.md` = durable **WHY MARK / HOW HE TRAVELS**.
 - `MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md` = mandatory **HOW EVERY LOCATION IS NAMED + GEOGRAPHIC BURDEN SHOWN**.
 - `MAP_COORDINATE_VERIFICATION_RULE.md` = mandatory **WHETHER A PLACE MAY BE PINNED/MAPPED AND WHETHER MAP-DERIVED GEOGRAPHY MAY BE USED FOR A DECISION**; exact entity first, coordinate cross-check, same-name disambiguation, sanity check, no guessed pins, actual route evidence for route claims.
@@ -144,7 +149,7 @@ Do not blur responsibilities:
 - `INDIA_CURRENT_KNOWLEDGE_MAP.md` = **WHAT EXTRA TO READ WHEN TOUCHING A CLUSTER/TOPIC**.
 - CCI successor-parity files = **RECOVERED CROSS-GENERATION MEMORY THAT MUST NOT FALL OUT OF THE BOOT AGAIN**; frozen provenance/reconciliation layer, subordinate to newer explicit Mark/central truth.
 
-Do not make new successor-specific handoff/recovery stacks when one of these living layers can carry the information.
+Do not create additional successor-specific handoff/recovery stacks. The single `MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` is the designated repeated-failure checksum; mutable project truth belongs in its existing owning state/decision/cluster files.
 
 # 4. AUTHORITY PRECEDENCE
 For the same fact/entity:
@@ -160,7 +165,7 @@ For the same fact/entity:
 9. CCI harvest as frozen reconciliation/recovery evidence where not superseded;
 10. old handoffs/routes/calendars/worker files/PR comments as provenance only.
 
-Research never silently changes a subjective Mark grade. A question/hypothesis is never a decision.
+`MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` is intentionally absent from this fact-authority ladder: it governs active application/behavior, not mutable travel facts. Research never silently changes a subjective Mark grade. A question/hypothesis is never a decision.
 
 # 5. CLUSTER GATE — HARVESTED BOOT DOES NOT MEAN IGNORE DETAIL
 Before substantive advice, duration, route or a choice batch for any world:
@@ -171,10 +176,11 @@ Before substantive advice, duration, route or a choice batch for any world:
 5. build the applicable decision surface from `INDIA_HUMAN_CENTERED_COMPLEX_TRIP_PLANNING_STANDARD.md` — do not ask Mark before geography, marginal burden, natural bundles, displacement and decision-critical uncertainty are visible;
 6. before rendering any map or using a coordinate/proximity claim, execute `MAP_COORDINATE_VERIFICATION_RULE.md`; a name-only geocoder result is not verification;
 7. run the applicable vetoes in `INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md`;
-8. record active-cluster package completion in the CURRENT session's append-only receipt at `governance/boot_receipts/INDIA<N>__<NONCE>.json` (the `active_cluster_reads` attestation) before the first substantive work in that cluster — `BOOT_SESSION_RECEIPT.md` is at most an optional human-readable pointer to that receipt and is never itself where completion is recorded;
-9. present only genuine OPEN choices.
+8. reread/apply the final `LAATSTE PRE-ANSWER TEST — HARD VETO` in `MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md`; any relevant NO/UNKNOWN blocks presentation until repaired;
+9. record active-cluster package completion in the CURRENT session's append-only receipt at `governance/boot_receipts/INDIA<N>__<NONCE>.json` (the `active_cluster_reads` attestation) before the first substantive work in that cluster — `BOOT_SESSION_RECEIPT.md` is at most an optional human-readable pointer to that receipt and is never itself where completion is recorded;
+10. present only genuine OPEN choices.
 
-Changing cluster requires loading that cluster package first.
+Changing cluster requires loading that cluster package first and reapplying the handoff veto to the new cluster's current truth.
 
 # 6. AL BESLIST? — HARD
 Never present a previously decided A+/A/A*/B/C, hotel, sleeping base, cluster or route as a fresh choice unless there is a material new delta or Mark explicitly reopens it.
@@ -241,7 +247,9 @@ The profile, map-verification rule, human-centered planning standard, final-comf
 - **FINAL COMFORT / FOOD / HUMAN-TEXTURE SWEEP IS MANDATORY after route, nights, exact calendar, hotels/bases and day structure are stable and BEFORE final day cards are considered complete. Research from the ACTUAL chosen hotel/ashram and actual day endpoints, not a generic city. Per base/day provide a SHORT supported nearby shortlist as relevant for early breakfast, genuinely good coffee, lunch, dinner, historic/cult bakery or patisserie, local sweet/regional specialty, characterful café/tea house, strong restaurant and transfer-day comfort. Show what to order, real walk/vehicle distance and time from where Mark actually is, opening/daypart fit, reservation/access risk, detour cost and whether the detour is worth it. Recheck volatile food/opening facts live at this final stage. Never dump generic top-10 restaurant lists. This layer enriches the settled trip and may NOT silently force a route bend, extra hotel night or loss of protected A+/A content.**
 - before unfamiliar choice: WHAT / WHY / recommended dwell + reason / real movement burden / natural bundle / displacement / confidence;
 - one contiguous numbered choice block;
-- after Mark answers a mini-ballot, record it and continue automatically until next real Mark-only decision.
+- after Mark answers a mini-ballot, record it and continue automatically until next real Mark-only decision;
+- visually-driven candidates should include representative imagery when the interface supports it, so Mark does not have to discover the attraction by Googling it himself;
+- before send, run the final successor handoff's hard veto as a live answer-time checklist, not as remembered background prose.
 
 # 10. FILE / WORKER / HISTORY RULE
 Worker `COMPLETE` means worker finished, NOT central adoption.
@@ -307,8 +315,9 @@ A Mark side-question does not cancel authorized ongoing work; incorporate it and
 1. execute the full `INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md` pre-answer veto;
 2. if a map/pin/route-proximity claim appears, execute `MAP_COORDINATE_VERIFICATION_RULE.md` with no unresolved decision pin;
 3. execute the relevant `INDIA_HUMAN_CENTERED_COMPLEX_TRIP_PLANNING_STANDARD.md` human-service check;
-4. search the intended reply for future-tense promises about work INDIA could execute now;
-5. if any veto fails: DO/FIX/RECORD first and only then reply.
+4. execute the `LAATSTE PRE-ANSWER TEST — HARD VETO` from `MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` against the actual intended reply;
+5. search the intended reply for future-tense promises about work INDIA could execute now;
+6. if any veto fails: DO/FIX/RECORD first and only then reply.
 
 # 13. SAME-TURN MEMORY WRITE — WHAT + WHY, NOT LABEL ONLY
 After every new explicit material Mark decision/correction, in the same execution cycle:
@@ -318,7 +327,8 @@ After every new explicit material Mark decision/correction, in the same executio
 4. update `CURRENT_STATE.md` if frontier/closed footprint/next action or critical methodology state changed;
 5. update `MARK_TRAVEL_PREFERENCES_CURRENT.md` only if Mark revealed a genuinely durable preference/vision rule;
 6. update `INDIA_RECOVERY_DELTAS_CURRENT.md` only if a reusable anti-regression trap was discovered;
-7. update the human-centered/map-verification standards when Mark reveals a durable improvement to how decision support itself must work.
+7. update the human-centered/map-verification standards when Mark reveals a durable improvement to how decision support itself must work;
+8. update `MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` when the correction exposes a repeated successor behavior/application failure that must be immediately active in every later session.
 
 A decision saved without its important reason is an incomplete memory write.
 
@@ -335,7 +345,8 @@ If NO, write it before replying. Use the existing architecture rather than a pri
 - durable Mark preference/WHY -> `MARK_TRAVEL_PREFERENCES_CURRENT.md`;
 - reusable failure/anti-revival trap -> `INDIA_RECOVERY_DELTAS_CURRENT.md`;
 - source routing needed by successors -> `INDIA_CURRENT_KNOWLEDGE_MAP.md`;
-- durable behavior/planning rule -> the owning governance standard.
+- durable behavior/planning rule -> the owning governance standard;
+- repeated `read but did not apply` / successor behavior failure -> `MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` as the final active-memory checksum.
 
 **No material knowledge may live only in chat, a worker branch, an unlinked run file, a PR comment, or INDIA's temporary context.** If it matters for a later decision, route, duration, hotel/base, safety, execution, interpretation, WHY, or anti-regression, it must be either promoted into the living central layer or explicitly routed from the mandatory boot/knowledge map.
 
@@ -354,7 +365,7 @@ Do not continuously poll PR #23. Reconcile only material new information into ce
 # 15. BOOT SELF-TEST — BEFORE FIRST SUBSTANTIVE ADVICE
 A successor must be able to answer internally, from GitHub, without asking Mark:
 1. What exact BOOT_HEAD did I read, and did central move during boot?
-2. Did I actually read all 17 central + 6 CCI mandatory files in THIS session (exact current count always taken live from `BOOT_MANIFEST_V8.json`, never from a hand-copied number), continue every truncation to EOF, and write a NEW append-only receipt at `governance/boot_receipts/INDIA<N>__<NONCE>.json` with `boot_gate: PASS` (never merely `BOOT_SESSION_RECEIPT.md`, which is at most an optional human pointer, not authoritative proof)?
+2. Did I actually read all current `central_required` + 6 CCI + active-cluster mandatory files in THIS session (exact current counts always taken live from `BOOT_MANIFEST_V8.json`, never from a hand-copied number), continue every truncation to EOF, reread `MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` as the final semantic boot read, apply its hard veto, and write a NEW append-only receipt at `governance/boot_receipts/INDIA<N>__<NONCE>.json` with `boot_gate: PASS`?
 3. What are the exact international flight times and why are there 33 India nights?
 4. What do A+, A, A*, B, C mean?
 5. What are the six fixed worlds?
@@ -371,11 +382,12 @@ A successor must be able to answer internally, from GitHub, without asking Mark:
 16. If I show a map, can I prove the exact physical identity and verified coordinate/business-ref/address basis of EVERY pin, identify same-name traps, omit unresolved pins, and distinguish visual orientation from actual road/walk routing evidence?
 17. Can I identify the decision-critical unknowns and avoid wasting time on low-value uncertainty?
 18. Can I stress-test the proposed day at +30/+60 min and identify the first sacrificial B/A*?
-19. Can I execute the entire current pre-answer veto without a NO, including the ABSOLUTE no-bare-name scan and required 06:00/13:00/18:00 climate snapshot for substantive cluster/day/base presentations?
+19. Can I execute the entire current pre-answer veto without a NO, including the ABSOLUTE no-bare-name scan, the final successor-handoff checksum, and required 06:00/13:00/18:00 climate snapshot for substantive cluster/day/base presentations?
 20. Did I read the completed CCI successor-parity package and reconcile its frozen frontier against newer central truth?
 21. Can I name the CCI parity warnings that were missing from the former boot: item-level grade ledger, P0 transfer closures, optional-world topology/event dates, recovered Mark wishes/rules, communication/copy-paste rules and execution sequencing?
 22. Do I know that the FINAL COMFORT / FOOD / HUMAN-TEXTURE SWEEP is mandatory before final day cards, and can I build it from the actual hotel/day locations with nearby breakfast, coffee, lunch, dinner and memorable local stops rather than a generic city restaurant list?
 23. Have I written every material new fact/WHY/research result from this session somewhere INDIA(N+1) is guaranteed to reach through boot or knowledge-map routing?
+24. Which repeated successor failure in `MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` is most likely to matter to the reply I am about to send, and can I point to how the intended reply actually complies with it?
 
 If a material answer is unclear or contradictory: do not ask Mark to reconstruct it. Read the mapped conditional/history source and reconcile first.
 
@@ -391,6 +403,7 @@ A successor is ready only when it can continue the real frontier without Mark re
 - what the next genuine Mark-only choice is;
 - how to construct the entire human decision environment before asking him to choose;
 - why no decision map or proximity statement may contain a guessed location;
+- which rules earlier successors repeatedly read but nevertheless failed to apply, and how the current reply visibly applies them;
 - **and every material piece of new knowledge learned by the outgoing INDIA that could affect later work.**
 
-The goal is not to read every byte every session. The goal is that GitHub materializes enough durable current truth that INDIA(N+1) starts with the same relevant project memory as INDIA(N), or better. A successor who must ask Mark to reconstruct something materially known by the predecessor is evidence of a memory-system failure and must trigger a durable repair, not another ad-hoc handoff.
+The goal is not merely to read every byte every session. The goal is that GitHub materializes enough durable current truth, plus one deliberately active repeated-failure checksum, that INDIA(N+1) starts with the same relevant project memory as INDIA(N), or better, and actually uses it. A successor who must ask Mark to reconstruct something materially known by the predecessor — or who has read a rule but behaves as though it were absent — is evidence of a memory-system failure and must trigger a durable repair.
