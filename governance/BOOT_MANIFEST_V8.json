@@ -18,7 +18,8 @@
     "governance/SUCCESSOR_SAFE_STATE.md",
     "governance/INDIA_RECOVERY_DELTAS_CURRENT.md",
     "governance/INDIA_CURRENT_KNOWLEDGE_MAP.md",
-    "governance/INDIA14_START_AND_INDEPENDENT_CHECK.md"
+    "governance/INDIA14_START_AND_INDEPENDENT_CHECK.md",
+    "governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md"
   ],
   "cci_commit": "b5349afe41f98eb4870728aaff2c633899afc1fa",
   "cci_required": [
@@ -40,7 +41,8 @@
     "runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_BROAD_LP_MARK_TRIAGE_2026-09-02.md",
     "decisions/DELHI_FINAL_DAY_LP_WINDOW_MARK_CONTEXT_2026-09-02.md",
     "runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_FINAL_DAY_LP_DECISION_SURFACE_2026-09-02.md",
-    "decisions/PRESENTATION_GRADE_LETTERS_RESERVED_MARK_RULE_2026-09-02.md"
+    "decisions/PRESENTATION_GRADE_LETTERS_RESERVED_MARK_RULE_2026-09-02.md",
+    "governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md"
   ],
   "receipt_mode": "append_only_per_session",
   "receipt_directory": "governance/boot_receipts",
@@ -63,7 +65,8 @@
     "DURABLE_WHAT_WHY",
     "PRESENTATION_AND_GRADE_LETTERS",
     "RESEARCH_VS_TRIAGE_VS_DURATION",
-    "FRONTIER_CONTRADICTION_CHECK"
+    "FRONTIER_CONTRADICTION_CHECK",
+    "SUCCESSOR_ACTIVE_MEMORY_HANDOFF"
   ],
   "check_min_new_quotes": 2,
   "check_min_challenges": 6,
@@ -90,11 +93,11 @@
   "light_check_self_graded": true,
   "light_check_new_quotes_required": false,
   "light_check_challenge_count": 3,
+  "light_check_directory": "governance/boot_checks",
   "light_check_topic_pool": "check_required_challenge_topics",
   "light_check_selection_seed_field": "boot_head_final",
   "light_check_selection_algorithm": "pool = sorted(set(check_required_challenge_topics)); for i in range(light_check_challenge_count): idx = int(sha256(f'{boot_head_final}:LIGHT_CHECK_TOPIC_SELECT:{i}').hexdigest(), 16) % len(pool); selected.append(pool.pop(idx))",
   "light_check_answer_floor_fields": ["check_min_answer_chars", "check_min_answer_words", "check_min_evidence_chars"],
-  "light_check_directory": "governance/boot_checks",
   "light_check_artifact_naming": "same as full check: INDIA<N>_CHECK__<START_NONCE>.json, distinguished by check_mode; same C-R-K commit shape and final-authorization workflow",
   "light_check_honest_limit": "LIGHT intentionally drops separated-authorship protection: the same session authors question, answer and grade. This is a deliberate cost/rigor tradeoff for governance-identical routine continuations, never a claim of equal strength to FULL."
 }
