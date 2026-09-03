@@ -25,8 +25,8 @@ Mark explicitly says ordinary bazaars/markets are not enjoyable for him. Therefo
 - **Bedai breakfast at Deviram's — klassiek Agra-ontbijt met pittige gefrituurde broodjes en aardappelcurry (Agra) [A]**.
 - **Kinari Bazaar — drukke smalle Old-Agra marktwereld achter Jama Masjid (Agra) [C]**.
 - **Sadar Bazaar / Chaat Gali — avondmarkt-/streetfoodwereld (Agra) [C]**.
-- **Petha — Agra's kenmerkende doorschijnende zoete ash-gourd/wintermeloen-snoep [OPEN]**.
-- **Dalmoth — pittige zoute knapperige Agra-snackmix van linzen/sev/noten/specerijen [OPEN]**.
-- **Gajak — winterse sesam-jaggery/suiker-krokante zoetigheid [OPEN]**.
+- **Petha — Agra's kenmerkende doorschijnende zoete ash-gourd/wintermeloen-snoep [A]**. Mark reaction: "leuk".
+- **Dalmoth — pittige zoute knapperige Agra-snackmix van linzen/sev/noten/specerijen [B]**.
+- **Gajak — winterse sesam-jaggery/suiker-krokante zoetigheid [A]**. Mark reaction: "lekker".
 
 HARD GUARD: Taj Mahal [A+] remains the sole fixed-core Agra sightseeing reason and the existing one-hotel-night geometry is not reopened by these food decisions.
