@@ -7,25 +7,34 @@ Purpose: trip-wide first-pass sweep after Mark disclosed very high cashew intere
 
 ## CASHEW — ROUTE-WIDE FIRST PASS
 
-### 1. Panruti / Cuddalore, Tamil Nadu — strongest production-world hit
+### 1. Tiruvannamalai itself — strongest near-free processing hit
+- **Sun Thermo Process — real cashew processing factory ~15 km outside Tiruvannamalai**.
+- Company states facility began in 2007/2008 and processes about 12 MT raw cashews/day, with steam cooking, shelling, borma treatment, humidification, peeling, colour sorting, grading and vacuum/nitrogen packing.
+- Factory: C. Gengampattu, Tiruvannamalai–Kanji Road, Chengam Taluk.
+- This is much cheaper geographically than Panruti because Mark already has a five-night Tiruvannamalai/Arunachala world.
+- Public tourist/visitor access is NOT yet proven. Company/AICA material shows factory-tour media but does not yet establish walk-in visitor tours.
+- FIRST PRIORITY: contact/verify whether Mark can visit the actual production floor, taste/buy fresh kernels, and whether a curry-leaf/chilli preparation can be sourced locally.
+
+### 2. Panruti / Cuddalore, Tamil Nadu — strongest production-region hit
 - Panruti Cashew is an officially registered GI (certificate 31-03-2025; valid to 2032).
 - Tamil Nadu Agricultural University identifies Cuddalore as a major cashew district and Panruti as a major market; Panruti/Cuddalore has real cultivation/processing history.
 - If optional Puducherry later survives, current road geometry makes Panruti only a small route bend between Tiruvannamalai and Puducherry.
-- Exact visitor-accessible processor/factory still must be proven.
-- Mark directive: PROVISIONALLY KEEP RESEARCHING.
+- APEDA has documented visits to active Panruti processing units; several processors publicly show their facilities.
+- Exact ordinary-tourist visitor access still must be proven.
+- Mark directive: PROVISIONALLY KEEP RESEARCHING, but only after testing the much cheaper Tiruvannamalai factory option.
 
-### 2. Delhi — premium specialist nut-shop possibility, no bazaar requirement
+### 3. Delhi — premium specialist nut-shop possibility, no bazaar requirement
 - Current 2025/2026 traveler/business evidence repeatedly highlights Bellanuts / Anand Bhandar (Karol Bagh) for premium cashews; reviews specifically mention very large W120/jumbo cashews and repeat ordering/home delivery.
 - This is a FINAL COMFORT / BUY-TO-TAKE-HOME candidate only; it does not create sightseeing weight.
 - Mark dislikes ordinary bazaars, so Khari Baoli wholesale-market shopping is not promoted merely for cashews.
 
-### 3. Varanasi — strong zero-burden cashew-food crossover
+### 4. Varanasi — strong zero-burden cashew-food crossover
 - Shri Annapurna Sweets (25-year Varanasi sweet/namkeen maker) currently sells Kaju Dalmoth: crisp green boondi + masoor dal + spices + whole cashews; also Royal Kaju Katli and other cashew sweets.
 - Current official site offers pan-India shipping; useful later for exact buy/order recommendation.
 - This is a strong FINAL COMFORT candidate in an already fixed 8-night world, not a reason to bend route.
 
-### 4. Kumaon / Agra / Bodh Gaya-Gaya — no production-grade cashew reason found in first pass
-- No evidence yet of a cashew production/processing world comparable to Panruti.
+### 5. Kumaon / Agra / Bodh Gaya-Gaya — no production-grade cashew reason found in first pass
+- No evidence yet of a cashew production/processing world comparable to Tiruvannamalai/Panruti.
 - Ordinary shops or generic kaju sweets should not be surfaced as travel content unless a renowned institution/product is independently compelling.
 - Continue shop-level sweep only as part of final comfort layer.
 
@@ -47,8 +56,9 @@ Purpose: trip-wide first-pass sweep after Mark disclosed very high cashew intere
 - Do not fill the category with generic eucalyptus trees, pharmacies or bottled-oil shops.
 
 ## CURRENT CONCLUSION
-- Best production cashew lead = Panruti, especially if Puducherry becomes near-free optional south.
-- Best route-compatible cashew-food/shop leads outside Panruti = Varanasi Shri Annapurna Kaju Dalmoth; Delhi premium specialist shop for buy-to-take-home/order-later.
+- Best almost-free cashew lead = Sun Thermo Process near Tiruvannamalai, IF genuine visitor access can be arranged.
+- Best cashew production-region lead = Panruti, especially if Puducherry becomes near-free optional south.
+- Best route-compatible cashew-food/shop leads outside Tamil Nadu = Varanasi Shri Annapurna Kaju Dalmoth; Delhi premium specialist shop for buy-to-take-home/order-later.
 - Best eucalyptus lead = Ooty/Nilgiris, but only if working distillery access can be proven; otherwise DROP as a detour.
 - No fixed-core cluster currently deserves an eucalyptus route bend.
 
