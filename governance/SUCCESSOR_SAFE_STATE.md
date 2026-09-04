@@ -1,7 +1,7 @@
 # INDIA SUCCESSOR SAFE STATE — CRASH-SAFE HANDOFF CHECKPOINT
 
 Status: **HARD LIVING CHECKPOINT / MUST BE CURRENT AFTER EVERY MATERIAL INDIA TURN**
-Updated: 2026-09-04
+Updated: 2026-09-05
 Branch: `agent/india8-cluster-casting`
 
 ## HARD RULE — MAKE THE CURRENT INDIA REPLACEABLE
@@ -22,6 +22,32 @@ Update discipline:
 
 STATUS: SAFE_TO_HANDOFF__BODHGAYA_EXECUTION_GEOMETRY_TRUE_DURATION_ACTIVE
 manifest_active_cluster: `BODHGAYA_EXECUTION_GEOMETRY_TRUE_DURATION`
+
+## DONE — 2026-09-05 WHOLE-CONVERSATION MARK-KNOWLEDGE AUDIT
+Mark explicitly requested a knowledge audit for small/durable things he had told/corrected/explained that could otherwise disappear outside the main travel decisions.
+
+Recovered/promoted into current owners:
+- `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md` now centrally owns:
+  - ordinary bazaars/markets are not enjoyable Mark-facing candidates;
+  - restaurant/café grades belong to FINAL COMFORT and create zero independent sightseeing/day/night burden unless a true experience/production visit is separately graded;
+  - cashew, distinctive sweets, serious portafilter/barista espresso, fragrance/aromatic plants/essential-oil/distillation interests;
+  - eucalyptus-specific detour hunting is dropped;
+  - Sri Aurobindo: genuine current reading/interest but not TOP-X; Puducherry near-free-only;
+  - visual rule: preferably ~3 images directly under the correct visual candidate;
+  - workflow rule: in a known authorized sequence, prepare the next likely batch ahead where feasible so Mark does not repeatedly wait after each short grading reply; never fake preparation and never bypass a Mark-only decision;
+  - reinforced make-yourself-disposable checkpoint discipline.
+- `decisions/DELHI_FINAL_LP_REST_MARK_DECISIONS_2026-09-03.md` now also owns:
+  - Jhandewalan giant Hanuman [C];
+  - National Crafts Museum [C];
+  - Delite Cinema [C], with Mark WHY preserved: concept `superleuk`, but too busy/crowded and evening-dependent;
+  - Jama Masjid remains individually OPEN/UNGRADED, with a strong Mark combination preference with Red Fort [B]; no invented A bundle/site grade.
+- `governance/CURRENT_DECISIONS_MASTER.md` was stale and is now reconciled to the real current state:
+  - PVR Priya IMAX is [A], superseding older [B];
+  - fixed traveler triage is DONE enough;
+  - current first action is Bodh Gaya execution geometry/true duration;
+  - current special-interest and latest traveler deltas are materialized.
+
+Audit did NOT create a new route/duration choice. It only preserved newest explicit Mark truth and promoted durable preferences to their correct current owner.
 
 ## DONE — FIXED TRAVELER TRIAGE
 The fixed-cluster LP/general-traveler discovery and Mark-triage phase is complete enough to move on.
@@ -126,6 +152,7 @@ Restaurant/comfort preferences carry zero independent sightseeing/day/night weig
 - Use full canonical Indian name + short Dutch recognition hook + city/microcluster + grade/status.
 - For burden-sensitive choices expose real km/time, base relation, nearest retained A+/A, natural companion, walk/drive burden, `JE BENT ER TOCH` net extra burden, dwell and displacement.
 - Photos belong directly under the correct candidate; preferably around three when visual evidence helps.
+- In a known authorized workflow sequence, prepare the next likely batch ahead where feasible; never claim it is prepared if it is not.
 
 ## WHAT A SUCCESSOR MUST NOT DO
 - do not restart Delhi/Tiruvannamalai/Agra/Bodh traveler discovery wholesale;
@@ -134,7 +161,10 @@ Restaurant/comfort preferences carry zero independent sightseeing/day/night weig
 - do not spend optional-world nights before fixed-core durations are true-closed;
 - do not make Puducherry/Aurobindo or aroma/cashew special interests route-driving without Mark's explicit later choice;
 - do not replace the protected Bodh Gaya walking pilgrimage day with the older vehicle-loop module;
-- do not claim Bodh Gaya's 2-night rule was freshly revalidated after monastery belt [A] until the exact next geometry step above has actually been completed.
+- do not claim Bodh Gaya's 2-night rule was freshly revalidated after monastery belt [A] until the exact next geometry step above has actually been completed;
+- do not send Mark through ordinary bazaars as a default traveler experience;
+- do not detach images from the candidate they illustrate;
+- do not make Mark wait through a predictable next research cycle when the next authorized batch could have been prepared ahead.
 
 UNSAVED_RISK:
 GEEN
