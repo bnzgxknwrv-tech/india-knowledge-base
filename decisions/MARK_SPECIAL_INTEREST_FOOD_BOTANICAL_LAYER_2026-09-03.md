@@ -2,68 +2,66 @@
 
 Status: CURRENT MARK PREFERENCE / DISCOVERY DIRECTIVE
 Branch: `agent/india8-cluster-casting`
+Updated by explicit Mark refinement: 2026-09-04
 
-This file records personal-interest signals that should influence later trip-wide discovery and the final comfort layer. They are NOT automatic A/A+ route locks and may not inflate duration unless Mark explicitly grades a concrete finding.
+This file records personal-interest signals that should influence later trip-wide discovery and the final comfort layer. They are NOT automatic route locks and may not inflate duration unless Mark explicitly grades a concrete finding.
 
 ## 1. CASHEW NUTS — VERY HIGH PERSONAL INTEREST
-Mark explicitly says he is **GEK op cashewnoten**.
+Mark is **gek op cashewnoten**.
 
-Specific remembered taste target:
-- in Sri Lanka Mark repeatedly enjoyed fried/devilled cashews served as an appetizer with crispy aromatic leaves;
-- the leaves are very likely **curry leaves**, commonly combined with chilli/salt/spices;
-- actively look for a South-Indian / Tamil / Kerala-style equivalent: fried or roasted cashews with curry leaves, chilli and salt, not only plain packaged nuts.
+Specific taste target:
+- Sri-Lanka-style fried/devilled cashews with crispy aromatic leaves, very likely curry leaves, chilli/salt/spices;
+- actively look for a South-Indian/Tamil equivalent;
+- identify renowned specialist nut shops, origins/processors and exact cashews worth buying/taking home/ordering later.
 
-Discovery directive:
-- run a trip-wide search for unusually good / fresh / locally produced cashews on or near the eventual route;
-- prefer genuine production regions, roasters, farms/processors, specialist nut shops or distinctive preparations over generic packaged supermarket cashews;
-- include **renowned specialist nut shops / famous dry-fruit shops** where the quality/freshness is materially noteworthy;
-- also identify which origin / processor is genuinely worth buying to take home or order later;
-- surface a detour only when the experience is materially better than simply buying cashews elsewhere;
-- record best edible variant(s), freshness, local specialty, practical buying point, route burden and whether it can be folded into an existing day.
-
-### Panruti provisional survival instruction
-**Panruti Cashew — GI cashew-production world (Tamil Nadu) [OPEN / PROVISIONALLY KEEP RESEARCHING]** is NOT dropped for being a detour. Mark explicitly says: **voorlopig wel proberen**.
-
-Important geometry interaction to test later:
-- if **Puducherry / Mamallapuram southern gateway world [OPTIONAL / UNRESOLVED]** survives, Panruti may become a very cheap route-compatible cashew stop rather than a standalone detour;
-- current raw road comparison (2026-09-03 research): Tiruvannamalai -> Panruti ~79 km / ~1h13; Panruti -> Puducherry ~47 km / ~50m; Tiruvannamalai -> Puducherry direct ~100 km / ~1h39. Via Panruti therefore adds only roughly 25–30 km / ~25 min raw driving before visit-time;
-- exact factory/processor visitability must still be proven before Mark is asked for a travel grade.
+Current routing refinements:
+- **Sun Thermo Process — large cashew processor near Tiruvannamalai [ACTIVE RESEARCH / VISITOR ACCESS TO PROVE]** is especially attractive because it is close to the already-fixed Tiruvannamalai world; investigate genuine factory/process access.
+- **Panruti Cashew — GI cashew-production region (Tamil Nadu) [OPEN / PROVISIONALLY KEEP RESEARCHING]** remains alive, especially if optional Puducherry later survives and makes Panruti nearly route-compatible.
+- **Delhi special cashew shopping is NOT a destination**. Do not send Mark to a Delhi nut shop merely for cashews. Mention only if an exceptional shop falls within roughly a five-minute practical add-on from something Mark is already doing.
 
 ## 2. SWEETS / LOCAL CONFECTIONERY — HIGH PERSONAL INTEREST
-Mark explicitly likes sweets and wants a separate search for the best / tastiest / most distinctive sweets along the trip.
+Mark likes sweets and wants a route-wide search for the best / tastiest / most distinctive sweets.
 
 Discovery directive:
-- create a route-wide sweets layer across fixed worlds and later any optional worlds;
 - prioritize highly place-specific sweets, old specialist makers, winter-season specialties and things genuinely difficult to replicate elsewhere;
-- actively identify **renowned / institution-level sweet shops** and the one or two exact things worth ordering there;
+- identify renowned/institution-level sweet shops and the exact one or two things worth ordering there;
 - ordinary sweet shops do not deserve separate sightseeing weight;
-- best candidates should feed the later FINAL COMFORT / food layer unless an exceptional production visit or place experience merits separate Mark grading.
+- best candidates feed the later FINAL COMFORT / food layer unless an exceptional production visit merits separate Mark grading.
 
-Current Agra signal reinforces this: **Petha [A]**, **Gajak [A]**, **Dalmoth [B]**.
+Current Agra signal: **Petha [A]**, **Gajak [A]**, **Dalmoth [B]**.
 
 ## 3. SERIOUS ESPRESSO / BARISTA COFFEE — HIGH COMFORT INTEREST
-Mark likes **Italian-style espresso made on a proper portafilter espresso machine by a real barista**. Generic automatic-machine / hotel coffee is not the target.
+Mark likes Italian-style espresso made on a proper portafilter/piston espresso machine by a real barista. Generic automatic-machine/hotel coffee is not the target.
 
 Discovery directive:
-- for every eventual sleep base / major route world, identify the strongest serious espresso option when one exists;
-- prefer specialty roasters, freshly roasted traceable Indian beans, proper espresso extraction, competent baristas, and places that can make espresso/cortado/cappuccino correctly;
+- for each eventual sleep base / major route world, identify the strongest serious espresso option when one exists;
+- prefer specialty roasters, freshly roasted traceable Indian beans, proper espresso extraction and competent baristas;
 - distinguish genuine specialty coffee from photogenic cafés whose coffee is secondary;
-- where a serious roastery is directly route-compatible, flag it for the later FINAL COMFORT layer;
-- coffee alone creates no large detour or extra night unless a genuinely exceptional farm/roastery/production experience merits separate Mark grading.
+- coffee alone creates no large detour or extra night.
 
-Current strong examples discovered:
-- **Blue Tokai Coffee Roasters, Vasant Vihar — serious specialty espresso in the same PVR Priya complex (Delhi) [FINAL COMFORT CANDIDATE]**; this is almost zero burden if PVR Priya IMAX is used.
-- **Coffee Ideas / former Marc's Café — specialty roastery + café + barista/training world (Auroville near Puducherry) [FINAL COMFORT / OPTIONAL-SOUTH SYNERGY CANDIDATE]**; roasts Indian coffees and explicitly serves espresso/cappuccino, with espresso/barista training.
+Known strong examples:
+- Blue Tokai Coffee Roasters, Vasant Vihar — essentially zero burden if PVR Priya IMAX is used in Delhi;
+- Coffee Ideas / former Marc's Café — specialty roastery + café/training world near optional Puducherry/Auroville.
 
-## 4. EUCALYPTUS — HIGH QUIRK / BOTANICAL / PRODUCTION INTEREST
-Mark explicitly says he is very interested in **eucalyptus trees, eucalyptus sweets/candies, eucalyptus oil and eucalyptus-oil production/distillation**. He is open to a 'very strange detour' if the experience is genuinely special.
+## 4. FRAGRANCE / ESSENTIAL-OIL / DISTILLATION — HIGH PERSONAL INTEREST; EUCALYPTUS DETOUR DROPPED
+Mark now explicitly says: **forget eucalyptus as a separate route-search/detour**. Do not keep hunting for an eucalyptus-specific world or revive Ooty/Nilgiris merely for eucalyptus.
 
-Discovery directive:
-- search for a route-plausible place where several layers coincide: eucalyptus landscape/trees + oil distillation/production + possibly traditional eucalyptus products/candies;
-- distinguish true oil distillation/production from tourist shops that merely sell bottled eucalyptus oil;
-- a major detour must earn itself through a real process/landscape experience, not just shopping;
-- compare marginal route burden against the eventual southern route and optional-world geometry;
-- keep this OPEN until a concrete candidate is researched and Mark grades it.
+What remains highly interesting is the broader category:
+- fragrant/aromatic plants;
+- essential oils;
+- steam/hydro distillation;
+- perfume/fragrance production;
+- smelling and comparing real oils/materials;
+- seeing an actual processing/distillation setup.
+
+Current Mark grade:
+- **Kumaon / Nainital aromatic-oil and distillation experience — real fragrance/essential-oil production visit [B / EXACT SITE + ACCESS TO RESOLVE]**.
+
+Research directive:
+- prioritize a real working process, not a perfume shop or spa;
+- first try to find a low-burden appointment/exposure visit in the Nainital/Bhowali/Bhimtal/Ramgarh/Haldwani corridor already used by the Kumaon route;
+- only consider a farther institutional site if it can be folded into an existing transfer and does not displace higher-priority Kumaon A+/A content;
+- exact visitability, production on that date, scents/oils available to smell/buy, and route burden must be confirmed before final day placement.
 
 ## GOVERNANCE / ROUTING GUARD
-These interests create a **SPECIAL-INTEREST DISCOVERY LAYER**, not a new fixed route. Search and shortlist first; Mark grades concrete findings later. Food-only findings normally feed the final lunch/dinner/comfort layer. Production/farm/distillery experiences may be surfaced separately when their experience is independently worthwhile.
+These interests form a SPECIAL-INTEREST DISCOVERY layer, not a new fixed route. Food/shop-only findings normally feed the final comfort layer. A real production/factory/distillery experience may be separately scheduled only when its marginal burden is justified by Mark's grade and the final route geometry.
