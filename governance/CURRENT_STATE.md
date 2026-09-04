@@ -1,6 +1,6 @@
 # CURRENT STATE — INDIA
 
-state_revision: 2026-09-04_BODHGAYA_EXECUTION_GEOMETRY_TRUE_DURATION_ACTIVE
+state_revision: 2026-09-05_KNOWLEDGE_AUDIT__BODHGAYA_FRONTIER_UNCHANGED
 branch: `agent/india8-cluster-casting`
 status: TRAVEL_FRONTIER_ACTIVE__BODHGAYA_EXECUTION_GEOMETRY_TRUE_DURATION
 boot_authority: `governance/INDIA_MASTER_BOOT.md` + `governance/FRESH_SESSION_BOOT_GATE.md` + `governance/BOOT_MANIFEST_V8.json`
@@ -13,6 +13,35 @@ After every material India research result, Mark decision, route/duration change
 3. leave explicit DONE / OPEN / EXACT NEXT ACTION / OPEN RISKS;
 4. no material knowledge may exist only in chat;
 5. crash test: `IF THIS CHAT ENDS NOW, CAN A NEW INDIA CONTINUE WITHOUT ASKING MARK TO RECONSTRUCT THE STATE?`
+
+## KNOWLEDGE AUDIT — 2026-09-05 — COMPLETED WITHOUT ROUTE/DURATION MUTATION
+Mark explicitly requested a whole-conversation audit for small/durable user knowledge that may have remained chat-only or lived only in a low-level file.
+
+Audit repairs completed:
+- `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md` promoted/reconciled newest cross-cluster preferences:
+  - ordinary bazaars/markets are not a Mark travel draw;
+  - restaurant/café grades are FINAL COMFORT preferences with zero independent sightseeing/day/night weight unless Mark separately grades a true experience/production visit;
+  - very high cashew interest, place-specific sweets, serious Italian-style portafilter/barista coffee, fragrance/aromatic plants/essential-oil/distillation interest;
+  - eucalyptus-specific detour hunting is dropped;
+  - Sri Aurobindo is a genuine current reading/interest but not TOP-X and Puducherry is near-free-only;
+  - visual candidate cards should place preferably ~3 representative photos directly under the correct candidate;
+  - when a known authorized sequence exists, prepare the next likely batch ahead where feasible so Mark does not repeatedly wait after each short grading reply; never fake that preparation is complete and never bypass a Mark-only choice;
+  - reinforced crash-safe checkpoint discipline / make-current-INDIA-replaceable.
+- `decisions/DELHI_FINAL_LP_REST_MARK_DECISIONS_2026-09-03.md` recovered late Delhi statements that were not durably in that current delta:
+  - Jhandewalan giant Hanuman [C];
+  - National Crafts Museum [C];
+  - Delite Cinema [C], preserving WHY: concept `superleuk` but too busy/crowded and evening-dependent;
+  - Jama Masjid remains individually OPEN/UNGRADED but has a strong Mark combination preference with Red Fort [B]; no invented bundle/site A grade.
+- `governance/CURRENT_DECISIONS_MASTER.md` was materially stale and has been reconciled:
+  - PVR Priya IMAX is current [A], not older [B];
+  - fixed-cluster traveler triage is DONE enough, not still pending;
+  - current first action is Bodh Gaya execution geometry + true-duration recheck, not Delhi triage;
+  - latest Agra/Tiruvannamalai/Bodh special-interest and traveler decisions are materialized.
+
+Hard audit guard:
+- no existing route, duration or subjective grade was changed except to materialize an explicit Mark statement that already existed in chat/detail provenance;
+- uncertain/inferred personal traits were not promoted as travel rules;
+- exact travel frontier is unchanged by this audit.
 
 ## WHERE TRAVEL WORK ACTUALLY IS NOW
 The fixed-cluster LP/general-traveler discovery + Mark-triage phase is complete enough.
@@ -106,6 +135,8 @@ Restaurants, serious coffee, renowned sweets/nut shops and meal placement wait u
 - C items stay suppressed unless Mark explicitly reopens them.
 - Use full canonical Indian name + short Dutch recognition hook + city/microcluster + grade/status.
 - For burden-sensitive choices expose real km/time, base relation, nearest retained A+/A, natural companion, walk/drive burden, `JE BENT ER TOCH` net delta, dwell and displacement.
+- When visual evidence matters, preferably ~3 photos belong directly under the correct candidate.
+- In a known authorized sequence, prepare the next likely batch ahead where feasible; do not falsely claim it is prepared when it is not.
 
 UNSAVED_RISK:
 GEEN
