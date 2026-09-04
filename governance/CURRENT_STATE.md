@@ -4,6 +4,9 @@ state_revision: 2026-09-04_FIXED_TRAVELER_TRIAGE_COMPLETE__DURATION_GEOMETRY_NEX
 branch: `agent/india8-cluster-casting`
 status: TRAVEL_FRONTIER_ACTIVE__FIXED_WORLD_EXECUTION_GEOMETRY_AND_TRUE_DURATION
 boot_authority: `governance/INDIA_MASTER_BOOT.md` + `governance/FRESH_SESSION_BOOT_GATE.md` + `governance/BOOT_MANIFEST_V8.json`
+manifest_active_cluster: `DELHI_FINAL_DAY_LP_MARK_TRIAGE`
+
+**KNOWN STALENESS — FLAGGED, NOT YET RESOLVED (2026-09-04+):** the line above restores the mechanical cross-check field a prior CURRENT_STATE.md rewrite dropped (this caused a real `INDIA_BOOT_STRUCTURE: FAIL` on central, independently found and fixed by CCI). Its value still matches `BOOT_MANIFEST_V8.json`'s current `active_cluster`, which is itself content-stale: this file's own "WHERE TRAVEL WORK ACTUALLY IS NOW" section below states Delhi traveler-triage is COMPLETE and the live frontier has moved to Bodh Gaya/Gaya execution-geometry/duration work. Whoever next touches `active_cluster`/`active_cluster_required` must rebuild it for the Bodh Gaya frontier (see `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_GAYA_FILE_INDEX.md` for the candidate file set) rather than leaving it pointed at the now-closed Delhi set — do not just copy this placeholder value forward again without checking.
 
 ## SUCCESSOR REPLACEABILITY — HARD
 After every material India research result, Mark decision, route/duration change, supersession, access finding, or frontier transition:

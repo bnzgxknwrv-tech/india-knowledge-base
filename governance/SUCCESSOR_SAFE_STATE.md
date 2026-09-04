@@ -107,6 +107,6 @@ Prepare a realistic 2-night vs 3-night schedule from the current A+/A set, inclu
 - do not make Puducherry/Aurobindo or aroma/cashew special interests route-driving without Mark's explicit later choice.
 
 UNSAVED_RISK:
-**GEEN BEKENDE MATERIËLE REISRISICO'S IN CHAT ONLY.** Current frontier, latest Mark choices and non-blocking open items are GitHub-routable at this checkpoint.
+GEEN — **BEKENDE MATERIËLE REISRISICO'S IN CHAT ONLY.** Current frontier, latest Mark choices and non-blocking open items are GitHub-routable at this checkpoint. (Formatting-only fix: a prior rewrite put `**` markdown bold directly before `GEEN`, which the mechanical validator's `UNSAVED_RISK:\nGEEN` pattern requires to start the line unformatted — this is why `INDIA_BOOT_STRUCTURE` was reporting FAIL despite there being no actual unsaved risk.)
 
 END SUCCESSOR SAFE STATE
