@@ -1,7 +1,7 @@
 # MARK — LIVING INDIA PROJECT PROFILE / CURRENT HUMAN CONTEXT CANON
 
 Status: HARD LIVING HUMAN CONTEXT CANON
-Updated: 2026-08-31
+Updated: 2026-09-05
 Branch: `agent/india8-cluster-casting`
 Canonical file: `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md`
 
@@ -75,7 +75,7 @@ Haidakhan Babaji and Mahavatar Babaji/Kriya both matter, but their physical/hist
 - **Arunachala / Ramana — HARD_CURRENT:** strong personal attraction; experiential spiritual stay, not micro-site checklist.
 - **Ramakrishna — HARD_CURRENT / RESEARCH WEIGHT:** Mark regards him as **one of the greats**; meaningful route-logical places deserve strong attention.
 - **Anandamayi Ma — HARD_CURRENT / EDITORIAL:** a few truly important magnets beat house-by-house completeness.
-- **Sri Aurobindo — DURABLE_PATTERN:** real interest, but not enough by itself to make Puducherry mandatory.
+- **Sri Aurobindo — HARD_CURRENT / MARK 2026-09-03:** Mark is currently reading Sri Aurobindo and is genuinely interested, but Sri Aurobindo is **not in Mark's personal TOP-X**. Puducherry must not steal meaningful time/nights/pace from higher-priority fixed worlds. Sri Aurobindo Ashram is a wanted inclusion only if the eventual southern exit makes Puducherry/Mamallapuram almost free or very cheap. Exact route guard: `decisions/SRI_AUROBINDO_PUDUCHERRY_NEAR_FREE_ONLY_MARK_RULE_2026-09-03.md`.
 - **Research depth — HARD_CURRENT:** depth follows personal relevance and potential trip impact, not bureaucratic symmetry. Central lines historically include Yogananda, Lahiri, Sri Yukteswar, Mahavatar Babaji, Neem Karoli Baba, Ram Dass, Ramana, Ramakrishna and Anandamayi Ma.
 
 # 4. HOW MARK DECIDES
@@ -255,8 +255,25 @@ Overnight train target: **1A / First AC**; 2A only after Mark accepts fallback. 
 
 # 11. FOOD / HUMAN TEXTURE / FINAL COMFORT
 
-`HARD_CURRENT — reinforced by Mark 2026-08-29`
-Small memorable institutions can matter enormously: historic bakeries/patisseries, regional sweets, characterful cafés/tea houses, genuinely good coffee, deliberately good restaurants, old shops/markets/institutions with story, quality transfer-day comfort stops.
+`HARD_CURRENT — updated by Mark 2026-09-03/04`
+Small memorable institutions can matter enormously: historic bakeries/patisseries, regional sweets, characterful cafés/tea houses, genuinely good coffee, deliberately good restaurants, renowned specialist food shops and quality transfer-day comfort stops. **Ordinary bazaars/markets are not part of this preference.**
+
+## Ordinary bazaars/markets are NOT a Mark travel draw
+`HARD_CURRENT — MARK 2026-09-03`
+Mark explicitly says ordinary bazaars/markets are not enjoyable for him and do not need to be offered as future candidate cards.
+- do not promote a bazaar/market merely for bustle, shopping or generic street texture;
+- it may be mentioned incidentally when unavoidable for geography/context;
+- only surface a market-like place when there is a materially exceptional non-bazaar reason that genuinely changes the experience;
+- a famous specialist sweet shop or nut shop is still valid when the point is the exact food/product/institution, not “going to a bazaar”.
+
+This supersedes older broad language that could be read as if markets were normally a positive traveler category for Mark.
+
+## Restaurants/cafés belong to the later comfort layer
+`HARD_CURRENT — MARK 2026-09-03/04`
+When Mark reacts A/B/C to a restaurant/café during discovery, treat that as a **restaurant/comfort preference**, not independent sightseeing, unless Mark explicitly says the place itself is a travel experience.
+- restaurant/café preference creates zero independent route/day/night weight;
+- exact breakfast/lunch/dinner placement comes after route, nights, hotel/base and day geometry stabilize;
+- a true production/factory/process visit may be travel content if Mark separately grades that experience.
 
 The final comfort layer must answer the practical question from **where Mark actually is** — the chosen hotel/ashram, current day block or real end point — not from a generic city centre. Once route/nights/calendar/day structure are stable, INDIA must research a short supported nearby shortlist as relevant for:
 - early breakfast compatible with the actual start time;
@@ -272,6 +289,15 @@ The final comfort layer must answer the practical question from **where Mark act
 Do not dump generic restaurant lists. Prefer a short supported shortlist with why special, what to try/order, real walk/vehicle distance and time from the point Mark is actually at, opening/daypart fit, reservation/access risk, detour cost, route fit and whether the detour is worth it.
 
 Food/coffee/opening facts are volatile: recheck them at the final comfort stage. This layer is meant to make the settled trip nicer and more human; it does not silently create a major route bend or extra hotel night.
+
+## Special-interest taste / production profile
+`HARD_CURRENT — MARK 2026-09-03/04`
+Detailed living owner: `decisions/MARK_SPECIAL_INTEREST_FOOD_BOTANICAL_LAYER_2026-09-03.md`.
+
+- **Cashews — VERY HIGH:** Mark is gek op cashewnoten. Specific remembered target is Sri-Lanka-style fried/devilled cashews with crispy aromatic leaves (very likely curry leaves) plus chilli/salt/spices. Search for unusually fresh/local cashews, renowned processors or specialist nut shops, exact best variants, take-home value and later online reorder. Do not create a special Delhi cashew trip; in Delhi only mention it if the practical add-on is roughly five minutes from something already retained. A real low-burden factory/process visit near an existing fixed world is much more interesting.
+- **Sweets — HIGH:** Mark likes sweets. Seek place-specific/winter specialties and renowned/institution-level sweet shops, with the exact one or two things worth trying/buying, rather than generic sweet-shop lists.
+- **Serious espresso/barista coffee — HIGH COMFORT:** Mark wants Italian-style espresso from a proper portafilter/piston machine made by a competent barista. Generic automatic-machine/hotel coffee is not the target. Coffee alone does not justify a large detour.
+- **Fragrance / aromatic plants / essential oils / distillation — HIGH:** Mark is very interested in real fragrance/essential-oil production and distillation, smelling materials/oils and seeing the process. The earlier eucalyptus-specific detour hunt is explicitly dropped. The current Kumaon/Nainital real aromatic-oil/distillation experience has Mark grade [B], with exact site/access still to resolve and no independent extra day.
 
 Final comfort sweep is mandatory after route/nights/day structure stabilize and before final day cards are considered complete. Detailed executable rule: `governance/FINAL_COMFORT_SWEEP_RULE_2026-08-23.md`.
 
@@ -289,6 +315,13 @@ If INDIA can safely research/reconcile/calculate/integrate/commit without a Mark
 `HARD_CURRENT — MARK 2026-08-27`
 After Mark answers a mini-ballot/last open items in an already-authorized workflow, INDIA must **continue automatically** until the next genuine Mark-only decision. Do not stop merely to report that choices were stored. A side question does not cancel the underlying task unless Mark explicitly replaces/stops it.
 
+## Prepare the next known batch ahead
+`HARD_CURRENT — MARK 2026-09-03/04`
+When an authorized workflow has a known sequence of research/choice batches, proactively prepare the next likely batch while progressing the current one where feasible, so Mark does not repeatedly have to wait for another full research cycle after every short grading reply.
+- never bypass a Mark-only decision;
+- never falsely claim a later layer is already researched/prepared when it is not;
+- this means doing the work in the active run/turn where possible, not promising asynchronous background work.
+
 ## Recognition-rich Indian names
 `HARD_CURRENT`
 Repeat full names with short Dutch recognition hooks. Mark should never have to remember dozens of unfamiliar names.
@@ -296,6 +329,13 @@ Repeat full names with short Dutch recognition hooks. Mark should never have to 
 ### Umbrella names must expose physical visit content
 `HARD_CURRENT`
 A parent/complex/wijk name must immediately name the important physical components. `Sarnath — A+` alone is insufficient; Mark must see what he actually visits and, where relevant, which exact pieces carry UNESCO status.
+
+## Visuals belong to the exact candidate
+`HARD_CURRENT — MARK 2026-09-02`
+When appearance is materially relevant and the interface supports images, use preferably about three representative images and place them **directly with/under the correct candidate**.
+- do not detach a mixed photo set from several choices;
+- do not let a photo visually appear to belong to the previous/next candidate;
+- the visual should help Mark decide without separately googling an unfamiliar Indian name.
 
 ## One contiguous choice block
 `HARD_CURRENT`
@@ -316,8 +356,15 @@ Mark wants to learn why recommendations make sense. Explain decision-relevant pr
 # 13. AI / GITHUB COLLABORATION
 
 ## Make yourself disposable
-`HARD_CURRENT`
+`HARD_CURRENT — reinforced by Mark 2026-09-04`
 Before every material reply ask: `CAN INDIA(N+1) CONTINUE FROM GITHUB WITHOUT MARK REPEATING OR RECONSTRUCTING ANYTHING?` If no, checkpoint first.
+
+Checkpoint discipline:
+- write the owning detailed file after every material Mark decision/research result/access finding/supersession;
+- when current truth/frontier changes, update `governance/CURRENT_STATE.md` and `governance/SUCCESSOR_SAFE_STATE.md`;
+- preserve explicit `DONE / OPEN / EXACT NEXT ACTION / decision-relevant uncertainty`;
+- do not wait until session end to reconstruct what happened;
+- no material knowledge may live only in chat.
 
 ## One living human profile
 `HARD_CURRENT`
@@ -390,7 +437,11 @@ If Mark really must paste something externally: entire paste target in one stand
 - make Mark courier worker results already in GitHub;
 - stop after mini-ballot while authorized work remains;
 - create multiple current persona files;
-- leave material truth only in chat.
+- leave material truth only in chat;
+- present ordinary bazaars/markets as if generic bustle/shopping were a positive draw for Mark;
+- treat restaurant/café preference as independent sightseeing/day/night weight;
+- detach visual evidence from the candidate it belongs to;
+- claim a next research layer is prepared when it has not actually been done.
 
 # 17. UNKNOWN / DO-NOT-GUESS
 This profile covers Mark within the India project, not his entire private life. Do not infer unrelated sensitive/private traits.
