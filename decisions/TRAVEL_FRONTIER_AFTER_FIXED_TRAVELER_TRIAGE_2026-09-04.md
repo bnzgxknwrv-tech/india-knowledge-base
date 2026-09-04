@@ -3,6 +3,16 @@
 Status: CURRENT TRAVEL FRONTIER CHECKPOINT
 Branch: `agent/india8-cluster-casting`
 
+## REPLACEABILITY / CHECKPOINT DISCIPLINE — HARD
+Mark explicitly requires the active INDIA to make itself replaceable.
+
+Therefore after every material research result, Mark decision, route/duration lock, supersession, access finding or frontier transition:
+- write the owning detailed file immediately;
+- update `governance/CURRENT_STATE.md` and `governance/SUCCESSOR_SAFE_STATE.md` whenever current truth/frontier changed;
+- record what is DONE, what remains OPEN, the EXACT NEXT ACTION and any decision-relevant uncertainty;
+- do not leave material knowledge only in chat;
+- use the crash test: if the chat ends now, a successor must be able to continue without asking Mark to reconstruct the state.
+
 ## WHERE WE ARE
 The fixed-cluster LP/general-traveler discovery + Mark-triage phase is now complete enough to move on.
 
