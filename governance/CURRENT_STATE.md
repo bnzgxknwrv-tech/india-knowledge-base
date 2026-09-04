@@ -32,36 +32,51 @@ Hard process:
 `FIXED A+/A SET -> EXECUTION GEOMETRY/DAY BUNDLING -> MARK PACE/DWELL WHERE NEEDED -> TRUE DURATION_CLOSED PER FIXED WORLD -> GLOBAL FIXED-CORE TOTAL -> OPTIONAL-WORLD MARGINAL INSERTION -> FINAL TOPOLOGY -> LIVE LOGISTICS -> EXACT CALENDAR -> FINAL COMFORT/DAY CARDS`.
 
 ## STEP 1 — BODH GAYA/GAYA — EXACT STATUS
-We are **inside step 1 at the start of the post-triage geometry rebuild**. The current full A+/A set is:
-- **Mahabodhi Temple Complex + Bodhi Tree [A+] [UNESCO WH]**;
-- **Sujata Stupa [A+]**;
-- **Dungeshwari / Mahakala Caves [A+]**;
-- **Great Buddha Statue [A]**;
+We are inside step 1. Bodh Gaya/Gaya is **NOT TRUE-DURATION-CLOSED** after the latest traveler addition.
+
+### Current retained A+/A content
+- **Mahabodhi Temple Complex + Bodhi Tree [A+] [UNESCO WH]**.
+- **Sujata Stupa [A+]**.
+- **Dungeshwari / Mahakala Caves [A+]**.
+- **Ancient Pragbodhi/Dungeshwari stupa ridge [A / SAME-HILL ONLY / ZERO EXTRA ROUTE WEIGHT]**.
+- **Great Buddha Statue [A]**.
 - **International monastery belt [A]**.
 
-### Existing day modules from the previous geometry build
-Source: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_EXECUTION_GEOMETRY_2026-08-28.md`.
+### Day concept already fixed by Mark
+`decisions/BODHGAYA_PILGRIMAGE_WALK_DAY_MARK_DECISION_2026-08-29.md` is CURRENT:
+1. early Mahabodhi [A+];
+2. walk to Sujata Stupa [A+];
+3. continue on foot toward Dungeshwari / Mahakala Caves [A+] via the historical/pilgrimage corridor, subject to live path/water/access verification;
+4. while already at the caves, attempt Ancient Pragbodhi/Dungeshwari stupa ridge [A / SAME-HILL ONLY] if safe/clear;
+5. return by pre-arranged car/driver from the cave area; no walking return.
 
+This **walking pilgrimage day is a protected Mark decision**. The older execution module that used vehicle connectors for Dungeshwari/Sujata is fallback geometry/research and may not overwrite the later Mark walk-day concept.
+
+### Existing older modules that still help but require reconciliation
+Source: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_EXECUTION_GEOMETRY_2026-08-28.md`.
 - **BG-1**: early arrival (~08:30–09:00 hotel class) -> reset/breakfast -> long Mahabodhi [A+] block -> rest -> Great Buddha [A] -> optional Archaeological Museum [B] -> possible evening Mahabodhi return.
-- **BG-2**: pre-dawn Mahabodhi -> breakfast/reset -> Dungeshwari [A+] (~30–40 min vehicle planned) -> ~1.5–2 h dwell -> Sujata [A+] (~30–40 min conservative connector) -> ~1–1.5 h dwell -> return/end at Mahabodhi.
+- **BG-2**: old pre-dawn Mahabodhi -> Dungeshwari -> Sujata -> Mahabodhi vehicle-loop model. This must be rewritten around the protected Mahabodhi -> Sujata -> Dungeshwari WALK OUT / CAR BACK day.
 - **BG-3**: departure/local slack; no Rajgir day; optional cheap B/A* only if time/route fits, then onward transfer.
 
-### What is still open inside step 1
-The modules above predate International monastery belt [A]. Therefore:
-- monastery belt has not yet been integrated into the day geometry;
-- no current-final Maya Heritage -> sacred-core/monastery/Great Buddha walking loop has been calculated;
-- no post-triage 2-night human schedule has yet been rerun;
-- Bodh Gaya/Gaya is NOT TRUE-DURATION-CLOSED.
+### What remains open inside step 1
+- International monastery belt [A] has not yet been integrated into the arrival/local day geometry.
+- The current-final Maya Heritage -> Mahabodhi / monastery-belt / Great Buddha walking loop has not yet been recalculated from the verified coordinate layer.
+- BG-2 has not yet been rewritten around the protected walking pilgrimage day.
+- The preferred outbound candidate in prior current planning is Gaya Junction ~09:55 -> Varanasi Junction ~13:00; therefore a 2-night plan cannot assume substantial departure-morning sightseeing without rechecking the transfer burden.
+- No complete post-triage 2-night human schedule has yet been rerun.
 
 ### 2-night default / max-3 rule status
-The prior rule remains real: **2 hotel nights default if inbound is early enough; 3 only for materially later/disrupted inbound, an outer-A+ day that proves too compressed, or an explicit extra sacred-core day; max 3**.
+The prior Mark rule remains real:
+- **2 hotel nights default** when inbound reaches Maya Heritage early enough (roughly morning / by ~10:00) to create a genuinely usable arrival day;
+- **3 nights only** if actual inbound is materially later/disrupted or Mark consciously chooses additional unstructured sacred-core time;
+- max 3.
 
-However it was tested before the new International monastery belt [A]. It has **NOT yet been re-tested against the complete current A+/A set**. Therefore it is a protected baseline, not yet the reconfirmed final duration.
+This prior rule already coexisted with the protected pilgrimage walking day and same-hill stupa-ridge [A]. It has **NOT yet been re-tested after adding International monastery belt [A] and reconciling the day modules to the protected walk-day decision**. Therefore it is a protected baseline, not yet freshly reconfirmed TRUE duration.
 
 ## EXACT NEXT EXECUTABLE ACTION — CONCRETE SUB-POINT
-**Use `BODHGAYA_VERIFIED_MAP_COORDINATES_2026-08-29.md` and Maya Heritage as the locked base to rebuild BG-1 first: calculate the practical sacred-core walking loop that inserts International monastery belt [A] as a 45–75 minute visit to 2–3 distinct monasteries around the Mahabodhi / Great Buddha geography, and prove whether it fits without shortening the long Mahabodhi [A+] block. Then rerun BG-1 + BG-2 + BG-3 as one complete 2-night human schedule; only after that compare the 3-night fallback and ask Mark any genuine pace/dwell choice.**
+**Start with the arrival/local day. Open `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_VERIFIED_MAP_COORDINATES_2026-08-29.md`, use locked base Maya Heritage, and calculate the practical arrival-day sacred-core loop containing a long Mahabodhi [A+] block + Great Buddha [A] + International monastery belt [A] as a 45–75 minute 2–3-monastery block. Prove whether all three fit on an early-arrival BG-1 without shortening Mahabodhi. Then rewrite BG-2 explicitly as the protected Mahabodhi -> Sujata -> Dungeshwari (+ same-hill stupa ridge) WALK OUT / CAR BACK day. Finally test the complete 2-night schedule against inbound and likely early outbound transfer; only then compare the 3-night fallback and ask Mark any genuine pace/dwell choice.**
 
-Do NOT ask Mark `2 of 3 nachten?` before that calculation is done.
+Do NOT ask Mark `2 of 3 nachten?` before that concrete re-test is done.
 
 ## WORKING SEQUENCE AFTER BODH GAYA TRUE-CLOSE
 1. Tiruvannamalai/Arunachala — revalidate prior 5 nights; Sun Thermo Process only if actual visitor access is proven and cheap.
@@ -70,7 +85,7 @@ Do NOT ask Mark `2 of 3 nachten?` before that calculation is done.
 4. Kumaon — preserve prior ~9-night footprint; aromatic-oil/distillation [B] only if route-cheap around Nainital/Bhowali/Kainchi.
 5. Varanasi/Sarnath — short consistency recheck of prior ~8-night footprint.
 6. Sum fixed-core nights/overnight-transport slots against the 33 India slots.
-7. Only then compare optional worlds by WITH vs WITHOUT marginal burden: Braj/Vrindavan, Haridwar/Kankhal/Rishikesh, Puducherry/Mamallapuram and other still-valid optional worlds.
+7. Only then compare optional worlds by WITH vs WITHOUT marginal burden.
 8. Mark chooses optional survivors -> final topology -> live logistics -> exact calendar -> FINAL COMFORT -> final day cards.
 
 ## SPECIAL-INTEREST CURRENT TRUTH — NON-BLOCKING
