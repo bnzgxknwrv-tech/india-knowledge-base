@@ -2,10 +2,10 @@
 
 Status: **ORIENTATION ONLY / NO CONTENT DECISION / POINTER, NOT A NEW SOURCE**
 Branch: `agent/india8-cluster-casting`
-Updated: 2026-09-02
+Updated: 2026-09-05
 
 ## PURPOSE
-Route a successor through Delhi's fixed spiritual context and the still-open broad LP/general-traveler triage without reviving stale OPEN labels, mixing arrival-day and final-day content, or confusing carried-forward Mark grades with INDIA recommendations.
+Route a successor through Delhi's fixed spiritual context, completed-enough traveler triage, final-window geometry work, and first-arrival execution without reviving stale OPEN labels, mixing arrival-day and final-day content, or confusing carried-forward Mark grades with INDIA recommendations.
 
 ## READ IN THIS ORDER
 
@@ -13,40 +13,45 @@ Route a successor through Delhi's fixed spiritual context and the still-open bro
 |---|------|------|---|
 | 1 | `DELHI_PREP_PACKET_2026-08-27.md` | Earliest context; Mark's preference to keep Delhi bounded/quiet. | Background only. |
 | 2 | `DELHI_A_PLUS_MARK_SELECTION_SLICE.md` | Original A+ selection mechanism. | Historical; resolved to Nirmal Dham A+. |
-| 3 | `DELHI_ADVANCE_DECISION_READY_PREP_2026-08-31.md` | Fixed-core prep before later corrections. | Historical/current context only; not the live traveler frontier. |
+| 3 | `DELHI_ADVANCE_DECISION_READY_PREP_2026-08-31.md` | Fixed-core prep before later corrections. | Historical/current context only; not the live frontier. |
 | 4 | `DELHI_MINIMAL_FIXED_CORE_MARK_DECISION_HUMAN_PREP_2026-08-31.md` | Human-facing minimal fixed-core prep. | Prior context; do not use its small shortlist as the full LP layer. |
-| 5 | `DELHI_SPARE_DAY_LP_TOPX_LAYER_2026-08-31.md` | **Broad controlling LP/general-traveler discovery reserve** with many `[OPEN / NOT GRADED]` rows. | **Controlling discovery source; labels must be reconciled against later Mark decisions.** |
-| 6 | `DELHI_TRAVELER_FOOD_CINEMA_FINAL_PASS_2026-09-01.md` | Food/cinema supplement to #5; explicitly grades nothing. | Supplement only; feeds triage, never closes it. |
-| 7 | `DELHI_BROAD_LP_MARK_TRIAGE_2026-09-02.md` | Live triage tracker and first `AL BESLIST?` reconciliation. | **Controlling live triage tracker.** |
-| 8 | `decisions/DELHI_FINAL_DAY_LP_WINDOW_MARK_CONTEXT_2026-09-02.md` | New Mark context: arrival day = Nirmal Dham + rest, no LP; broad LP belongs to one approximate free final Delhi day; final hotel should be reasonably airport-side; Aerocity/IGI only proxy until hotel selected. | **Hard current context.** |
-| 9 | `DELHI_FINAL_DAY_LP_DECISION_SURFACE_2026-09-02.md` | Airport-side human/geographic decision surface for the open traveler layer. | **Current presentation/execution input; Mark triage pending.** |
+| 5 | `DELHI_SPARE_DAY_LP_TOPX_LAYER_2026-08-31.md` | Broad LP/general-traveler discovery reserve with many historical `[OPEN / NOT GRADED]` labels. | Discovery provenance only after later Mark triage; labels MUST be reconciled. |
+| 6 | `DELHI_TRAVELER_FOOD_CINEMA_FINAL_PASS_2026-09-01.md` | Food/cinema supplement to #5; explicitly grades nothing. | Supplement/provenance; restaurant/food remains FINAL COMFORT unless separately graded as a true experience. |
+| 7 | `DELHI_BROAD_LP_MARK_TRIAGE_2026-09-02.md` | Live-era triage tracker and `AL BESLIST?` reconciliation. | Triage provenance; newer explicit Mark decisions win. |
+| 8 | `decisions/DELHI_FINAL_DAY_LP_WINDOW_MARK_CONTEXT_2026-09-02.md` | Mark context: arrival day = Nirmal Dham + rest, no LP; broad LP belongs to one approximate free final Delhi day; final hotel should be reasonably airport-side; Aerocity/IGI only proxy until hotel selected. | **Hard current context unless newer Mark truth supersedes it.** |
+| 9 | `DELHI_FINAL_DAY_LP_DECISION_SURFACE_2026-09-02.md` | Airport-side human/geographic decision surface created before later triage completion. | Geometry provenance/input only; never trust its old OPEN/B labels without current reconciliation. |
+| 10 | `DELHI_ARRIVAL_TO_HAIDAKHAN_FIRST_48H_TIMING_2026-09-05.md` | Ticket-anchored first-48h timing: arrival, Nirmal Dham, jetlag sleep, direct-car baseline, 15013 1A night-train alternative, Shatabdi/Sampark comparison. | **Current provisional execution packet / not a Mark lock / train & road facts LIVE_RECHECK_LATER.** |
 
 External Mark presentation rule relevant here:
 `decisions/PRESENTATION_GRADE_LETTERS_RESERVED_MARK_RULE_2026-09-02.md` — never label traveler worlds/corridors with A/B/C/D/E letters; those are reserved for grades.
 
 ## `AL BESLIST?` RECONCILIATION — HARD
-The older broad reserve #5 still labels several rows OPEN that later received explicit Mark grades. Newer explicit Mark truth wins.
+Older Delhi files contain stale `[OPEN]`, `[B]`, `CURRENT`, `DECISION_SURFACE` and `TRIAGE_PENDING` labels that were true at creation time but are not safe current truth by themselves.
 
-Do NOT re-present as fresh choices:
-- PVR Priya IMAX — modern Hindi/Bollywood large-screen experience (Vasant Vihar) [B];
-- Hauz Khas Village — cafés/art/music + reservoir/ruin world (south Delhi) [B];
-- Humayun's Tomb — Mughal garden tomb / Taj precursor (Nizamuddin) [B] [UNESCO WH];
-- Sunder Nursery — restored heritage garden beside Humayun's Tomb (Nizamuddin) [B].
+Current central state now says fixed-cluster LP/general-traveler discovery + Mark triage is **DONE enough** and the active Delhi task is **FINAL WINDOW GEOMETRY**, not replaying the broad LP ballot.
 
-Provenance: `decisions/DELHI_RESERVE_B_GRADES_MARK_DECISION_2026-08-31.md`.
-These are Mark grades, not INDIA recommendations.
+Before every Delhi item shown to Mark:
+1. check `governance/CURRENT_STATE.md`;
+2. check `governance/CURRENT_DECISIONS_MASTER.md` / newest explicit Mark decision artifact;
+3. preserve current A+/A/A*/B/C exactly;
+4. suppress C/do-not-represent;
+5. never infer current grade from an older file's label.
 
-All other #5/#6 rows must still be checked against current decisions/ledger before being called OPEN. Never trust an older `[OPEN]` label without reconciliation.
+## HARD DELHI WINDOWS
+### Arrival window
+- 19 Dec: international arrival -> Nirmal Dham [A+] -> rest/sleep -> onward route.
+- **NO LP/general-traveler sightseeing.**
+- First-48h current provisional timing and rail-vs-road comparison lives in #10.
 
-## HARD DELHI WINDOW
-- Arrival 19 Dec: international arrival -> Nirmal Dham [A+] -> rest/sleep -> onward route. **NO LP/general-traveler sightseeing.**
-- Broad LP/general-traveler content: final Delhi window only.
+### Final Delhi window
+- Broad LP/general-traveler content belongs to the final Delhi window only.
 - Working assumption: approximately one free final Delhi day.
 - Exact final hotel not selected; current preference is calm and reasonably close to IGI Airport.
 - Until hotel selection, use IGI/Aerocity only as an explicit comparison proxy; remeasure from the real hotel later.
+- Current frontier is to rebuild/revalidate realistic final-day geometry around the retained current set, not to rediscover Delhi.
 
 ## PRESENTATION REQUIREMENT
-Do not show Delhi as a bare attraction list. Before Mark grades an unfamiliar/burden-sensitive item, show:
+Do not show Delhi as a bare attraction list. Before Mark grades or reconsiders an unfamiliar/burden-sensitive item, show:
 - what it physically is / what he sees or does;
 - why it belongs in the ordinary-traveler layer;
 - current true status;
@@ -57,9 +62,14 @@ Do not show Delhi as a bare attraction list. Before Mark grades an unfamiliar/bu
 - whole human time cost;
 - dwell + why;
 - what it displaces inside the one free day;
-- timing/access/confidence where material.
+- timing/access/confidence where material;
+- representative images when appearance materially drives the choice and the interface supports them.
 
 ## BOTTOM LINE
-Delhi is the current first traveler-triage frontier. The broad research exists, but Mark has not completed the full broad traveler grading. The food/cinema pass is a supplement, not completion proof. Arrival-day and final-day content are separate. Existing explicit grades are preserved; only genuinely unresolved rows are presented.
+Delhi traveler discovery/Mark triage is complete enough to move on. Do NOT replay the broad LP/general-traveler ballot merely because older files still say OPEN/TRIAGE_PENDING.
+
+Current Delhi content work is:
+1. final-window realistic geometry against the current retained set;
+2. separately, the first-arrival execution packet (#10) may be refined when Mark asks about the start-of-trip timing, without replacing the final-window frontier.
 
 END DELHI FILE INDEX
