@@ -18,9 +18,10 @@ Route a successor through Delhi's fixed spiritual context, completed-enough trav
 | 5 | `DELHI_SPARE_DAY_LP_TOPX_LAYER_2026-08-31.md` | Broad LP/general-traveler discovery reserve with many historical `[OPEN / NOT GRADED]` labels. | Discovery provenance only after later Mark triage; labels MUST be reconciled. |
 | 6 | `DELHI_TRAVELER_FOOD_CINEMA_FINAL_PASS_2026-09-01.md` | Food/cinema supplement to #5; explicitly grades nothing. | Supplement/provenance; restaurant/food remains FINAL COMFORT unless separately graded as a true experience. |
 | 7 | `DELHI_BROAD_LP_MARK_TRIAGE_2026-09-02.md` | Live-era triage tracker and `AL BESLIST?` reconciliation. | Triage provenance; newer explicit Mark decisions win. |
-| 8 | `decisions/DELHI_FINAL_DAY_LP_WINDOW_MARK_CONTEXT_2026-09-02.md` | Mark context before later arrival-sequence refinement: arrival day contains Nirmal Dham + rest, no LP; broad LP belongs to one approximate free final Delhi day; final hotel should be reasonably airport-side; Aerocity/IGI only proxy until hotel selected. | **Hard final-window context; arrival-order detail is superseded by #10.** |
+| 8 | `decisions/DELHI_FINAL_DAY_LP_WINDOW_MARK_CONTEXT_2026-09-02.md` | Mark context before later arrival-sequence refinement: arrival day contains Nirmal Dham + rest, no LP; broad LP belongs to one approximate free final Delhi day; final hotel should be reasonably airport-side; Aerocity/IGI only proxy until hotel selected. | **Hard final-window context; arrival-order detail is superseded by #10/#11.** |
 | 9 | `DELHI_FINAL_DAY_LP_DECISION_SURFACE_2026-09-02.md` | Airport-side human/geographic decision surface created before later triage completion. | Geometry provenance/input only; never trust its old OPEN/B labels without current reconciliation. |
-| 10 | `DELHI_ARRIVAL_TO_HAIDAKHAN_FIRST_48H_TIMING_2026-09-05.md` | Ticket-anchored first-72h timing, including Mark's explicit HOTEL-FIRST preference, Nirmal Dham Saturday rhythm, jetlag sleep, direct-car baseline, and 15013 Gurgaon 1A alternative. | **Current arrival-sequence owner / hotel not yet locked / train & road facts LIVE_RECHECK_LATER.** |
+| 10 | `DELHI_ARRIVAL_TO_HAIDAKHAN_FIRST_48H_TIMING_2026-09-05.md` | Ticket-anchored first-72h packet that captured HOTEL-FIRST but still contains a now-superseded direct-car baseline. | **Read for hotel/jetlag/Nirmal-Dham prep; transport recommendation superseded by #11.** |
+| 11 | `DELHI_ARRIVAL_RAIL_FIRST_SUPERSEDE_2026-09-05.md` | Explicit Mark correction: no preferred 8–9 h Delhi-Haidakhan car day; train first, 15013/1A rail gateway, exact HDW-vs-KGM last mile to close; mini-cluster free-vs-detour test. | **Controlling arrival-to-Kumaon transport preference.** |
 
 External Mark presentation rule relevant here:
 `decisions/PRESENTATION_GRADE_LETTERS_RESERVED_MARK_RULE_2026-09-02.md` — never label traveler worlds/corridors with A/B/C/D/E letters; those are reserved for grades.
@@ -38,12 +39,14 @@ Before every Delhi item shown to Mark:
 5. never infer current grade from an older file's label.
 
 ## HARD DELHI WINDOWS
-### Arrival window — NEWER MARK PREFERENCE CONTROLS
-- 19 Dec: **international arrival -> HOTEL FIRST -> drop bags / shower / freshen / short recovery -> Nirmal Dham [A+] -> hotel sleep -> early road departure next morning**.
+### Arrival window — NEWEST MARK PREFERENCE CONTROLS
+- 19 Dec: **international arrival -> HOTEL FIRST -> drop bags / shower / freshen / short recovery -> Nirmal Dham [A+] -> preferably rail toward Kumaon**.
 - **NO LP/general-traveler sightseeing.**
-- First-72h current timing, hotel geometry and rail-vs-road comparison live in #10.
-- Current leading provisional hotel geometry is Dwarka Sector 21; named hotel is NOT locked.
-- Current baseline exit is early private car on 20 Dec to true Haidakhan Vishwa Mahadham [A+]; 15013 from Gurgaon remains a real 1A alternative/backup, not baseline.
+- The named arrival hotel is NOT locked; room/shower access before Nirmal Dham matters.
+- Long direct Delhi -> Haidakhan private car is **fallback only**, not the preferred baseline.
+- Current leading rail spine to develop: `GGN -> 15013 Ranikhet Express in 1A -> HDW or KGM -> pre-arranged exact-entity last mile -> Haidakhan Vishwa Mahadham [A+]`.
+- Exact HDW-vs-KGM alight point and true-Haidakhan road time remain decision-grade geometry work because official ~90 km and secondary shorter route classes conflict.
+- Do not insert an optional mini-cluster merely to break travel. Nainital/Kainchi are already-required Kumaon content but are not proven route-free before Haidakhan; Haridwar/Rishikesh is coherent before Kumaon but explicitly not free.
 
 ### Final Delhi window
 - Broad LP/general-traveler content belongs to the final Delhi window only.
@@ -72,6 +75,6 @@ Delhi traveler discovery/Mark triage is complete enough to move on. Do NOT repla
 
 Current Delhi content work is:
 1. final-window realistic geometry against the current retained set;
-2. separately, the first-arrival execution packet (#10) is now prepared far enough that hotel/driver/train facts can be live-rechecked at booking time without redoing the planning logic.
+2. separately, the first-arrival transport preference is now rail-first under #11; the exact rail alight point / true-Haidakhan road leg still needs decision-grade closure before booking.
 
 END DELHI FILE INDEX
