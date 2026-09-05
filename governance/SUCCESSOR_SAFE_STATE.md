@@ -2,7 +2,7 @@
 
 STATUS: SAFE_TO_HANDOFF
 
-Full status: **HARD LIVING CHECKPOINT / SAFE_TO_HANDOFF / AGRA_TRUE_CLOSED / DELHI_FINAL_WINDOW_NEXT**.
+Full status: **HARD LIVING CHECKPOINT / SAFE_TO_HANDOFF / AGRA_TRUE_CLOSED / DELHI_FINAL_WINDOW_NEXT / DELHI_ARRIVAL_RAIL_FIRST**.
 Updated: 2026-09-05
 Branch: `agent/india8-cluster-casting`
 
@@ -81,13 +81,28 @@ Agra LIVE_RECHECK_LATER:
 - luggage/station buffers;
 - food openings only at FINAL COMFORT.
 
+## DELHI ARRIVAL / NORTHBOUND — NEWEST MARK TRUTH
+Owner:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_ARRIVAL_RAIL_FIRST_SUPERSEDE_2026-09-05.md`.
+
+- AI156 arrival day stays free of LP/general sightseeing.
+- **HOTEL FIRST** after landing: bags / shower / clean clothes / food / brief recovery.
+- Then **Nirmal Dham [A+]**.
+- Then **TRAIN FIRST toward Kumaon**.
+- Mark explicitly does **not** prefer the ~8–9 h Delhi -> Haidakhan private-car day; direct long car = fallback only.
+- Current leading rail product to develop: **15013 Ranikhet Express**, current Gurgaon/Gurugram ~20:02 -> Haldwani/Kathgodam early morning; target **1A / First AC**.
+- Exact 19 Dec 2026 timetable, 1A inventory and winter/fog punctuality remain LIVE_RECHECK_LATER.
+- Exact Haldwani-vs-Kathgodam alight point + road to the **true Haidakhan Vishwa Mahadham [A+]** remains OPEN because official gateway distance (~90 km class) conflicts with materially shorter secondary route classes. Never use a generic Haidakhan pin.
+- Nainital/Kainchi are already-required Kumaon content but are NOT yet proven route-free before Haidakhan; current order hypothesis Haidakhan -> Nainital -> Kainchi remains unless net geometry proves re-ordering better.
+- Haridwar/Rishikesh is coherent before Kumaon and can support a rail-heavy bridge if it later survives as an optional world, but it is not free and must not be inserted merely as a travel break.
+
 ## EXACT NEXT EXECUTABLE ACTION
 **DELHI FINAL WINDOW — REBUILD REALISTIC FINAL-DAY GEOMETRY.**
 
 Do this action-first:
 1. open `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_FILE_INDEX.md`;
 2. load current final-window grades and the existing decision surface;
-3. preserve arrival day as international arrival -> Nirmal Dham [A+] -> rest/sleep -> onward; no LP sightseeing there;
+3. keep arrival-side transport separate: newest arrival sequence = **AI156 -> HOTEL FIRST -> Nirmal Dham [A+] -> rail-first toward Kumaon**; no LP sightseeing there;
 4. use a calm airport-side/Aerocity-class base only as a transparent provisional proxy until final hotel selection;
 5. rebuild final free-day geometry around current A/B/open content without reviving C items;
 6. PVR Priya IMAX [A] is date/title dependent: only include if a worthwhile actual Hindi/IMAX film exists; exact showtime/title = LIVE_RECHECK_LATER;
