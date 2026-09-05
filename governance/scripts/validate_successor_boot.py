@@ -576,6 +576,35 @@ if not {"current_state_or_safe", "newest_recovery_delta", "cci"}.issubset(cats):
 if receipt.get("active_cluster") != manifest.get("active_cluster"): fail("active cluster mismatch")
 if receipt.get("validator_mode") != "--require-session-receipt": fail("wrong validator mode in receipt")
 
+# Control-veto checksum. governance/INDIA_MASTER_BOOT.md SS2B documents this as
+# a "Minimum PASS field" ("control-veto checksum containing at least
+# TRAIN_FIRST, AL_BESLIST, naming-every-occurrence, GEO verification,
+# action-first, same-turn durable memory, CCI three-way filter, safe-state,
+# full-source-layer, NU_DOEN, and the final successor active-memory handoff
+# veto") but nothing here ever checked for it -- a receipt could omit the
+# field entirely, including the final-handoff-veto attestation, and still
+# print BOOT_AUTHORIZATION: MECHANICAL_GATE_PASS. This closes that gap.
+REQUIRED_CONTROL_VETO_KEYS = (
+    "TRAIN_FIRST_DOOR_TO_DOOR",
+    "AL_BESLIST",
+    "NAMING_EVERY_OCCURRENCE",
+    "GEO_VERIFICATION_NO_GUESSED_PIN",
+    "ACTION_FIRST",
+    "SAME_TURN_DURABLE_WHAT_WHY",
+    "CCI_THREE_WAY_FILTER",
+    "SAFE_STATE",
+    "FULL_SOURCE_LAYER",
+    "NU_DOEN",
+    "SUCCESSOR_ACTIVE_MEMORY_HANDOFF_VETO",
+)
+checksum = receipt.get("control_veto_checksum")
+if not isinstance(checksum, dict):
+    fail("receipt missing control_veto_checksum object (see INDIA_MASTER_BOOT.md SS2B)")
+else:
+    missing_veto_keys = [k for k in REQUIRED_CONTROL_VETO_KEYS if not checksum.get(k)]
+    if missing_veto_keys:
+        fail(f"control_veto_checksum missing/false required keys: {missing_veto_keys}")
+
 # In boot mode, any inability to verify is already an error; there are no warnings.
 if errors:
     print("INDIA_TRAVEL_BOOT_SANITY: FAIL")
