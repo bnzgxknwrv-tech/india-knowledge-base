@@ -2,7 +2,7 @@
 
 STATUS: SAFE_TO_HANDOFF
 
-Full status: **HARD LIVING CHECKPOINT / SAFE_TO_HANDOFF / TIRUVANNAMALAI_TRUE_DURATION_NEXT**. (Formatting-only fix: the mechanical validator requires the literal, case-exact substring `STATUS: SAFE_TO_HANDOFF` on its own; a prior rewrite folded it into a longer mixed-case line, which is what caused `INDIA_BOOT_STRUCTURE: FAIL` here a second time.)
+Full status: **HARD LIVING CHECKPOINT / SAFE_TO_HANDOFF / TIRUVANNAMALAI_TRUE_CLOSED / AGRA_ONE_NIGHT_RECHECK_NEXT**.
 Updated: 2026-09-05
 Branch: `agent/india8-cluster-casting`
 
@@ -27,11 +27,8 @@ Delhi, Kumaon, Agra/Taj, Bodh Gaya/Gaya, Varanasi/Sarnath and Tiruvannamalai/Aru
 
 Restaurants/cafés, serious coffee, renowned sweet/nut shops and meal placement are deferred to FINAL COMFORT and carry no independent sightseeing/day/night weight unless Mark separately grades a true production/experience visit.
 
-Controlling frontier:
-`decisions/TRAVEL_FRONTIER_AFTER_FIXED_TRAVELER_TRIAGE_2026-09-04.md`.
-
 ## BODH GAYA/GAYA — DONE / TRUE_DURATION_CLOSED
-Current retained A+/A:
+Protected truth:
 - Mahabodhi Temple Complex + Bodhi Tree [A+] [UNESCO WH];
 - Sujata Stupa [A+];
 - Dungeshwari / Mahakala Caves [A+];
@@ -39,80 +36,95 @@ Current retained A+/A:
 - Great Buddha Statue [A];
 - International monastery belt [A].
 
-### Incremental owning files — completed in Mark-requested order
-1. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_POST_TRIAGE_BG1_ARRIVAL_LOOP_2026-09-05.md`
-   - early-arrival BG-1 PASS;
-   - long ~3.5–4 h Mahabodhi first block preserved;
-   - monastery belt [A] fits as 45–75 min / 2–3 monasteries;
-   - Great Buddha [A] fits afterward;
-   - no Mahabodhi compression.
+Protected Mark walk:
+**Mahabodhi [A+] -> Sujata [A+] -> Dungeshwari [A+] (+ same-hill ridge [A]) WALK OUT / PREARRANGED CAR BACK**.
 
-2. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_POST_TRIAGE_BG2_PILGRIMAGE_WALK_2026-09-05.md`
-   - protected Mark walk restored explicitly:
-     **Mahabodhi [A+] -> Sujata [A+] -> Dungeshwari [A+] (+ same-hill ridge [A]) WALK OUT / PREARRANGED CAR BACK**;
-   - old vehicle-loop module is not current execution truth;
-   - Jan-2026 Gyan Yatra supports ~8 km pilgrimage-corridor scale;
-   - exact future crossing/path/safety remains LIVE_RECHECK_LATER.
-
-3. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_POST_TRIAGE_2_NIGHT_STRESS_TEST_2026-09-05.md`
-   - complete two-hotel-night human schedule PASS;
-   - inbound benchmark 12988 Agra Fort 18:45 -> Gaya 07:50;
-   - outbound stress test 20887 Gaya 09:55 -> Varanasi 13:00;
-   - departure morning carries zero core sightseeing;
-   - all retained A+/A completes before departure.
-
-4. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_POST_TRIAGE_3_NIGHT_MARGINAL_COMPARISON_2026-09-05.md`
-   - third night adds no missing A+/A;
-   - mainly extra Mahabodhi/rest/B-reserve depth;
-   - opportunity cost exists elsewhere in finite trip budget.
-
-### Current duration rule — freshly revalidated after monastery-belt A
+Current duration rule:
 - **2 Maya Heritage hotel nights = DEFAULT** when inbound reaches hotel usefully early (~morning / by ~10:00 class).
-- **3 hotel nights = CONDITIONAL FALLBACK** only for materially late/disrupted inbound, unexpectedly slow/unsafe pilgrimage-walk logistics, or Mark consciously requesting extra unstructured sacred-core time.
+- **3 hotel nights = CONDITIONAL FALLBACK** only for materially late/disrupted inbound, unexpectedly slow/unsafe pilgrimage-walk logistics, or Mark consciously requesting extra sacred-core depth.
 - **maximum = 3**.
 
-Do not ask Mark a fresh `2 or 3?` question now. The full calculation reproduced his earlier rule.
+Do not reopen a fresh `2 or 3?` ballot.
 
-### Bodh Gaya LIVE_RECHECK_LATER
-- Jan-2027 train running days/reservations;
-- Mahabodhi/Sujata pedestrian river crossing;
-- Sujata->Dungeshwari exact footpath/guide;
-- dogs/rabies, monkeys, snakes/brush, water/daylight;
-- exact Dungeshwari pickup gate;
-- same-hill ridge access.
+## TIRUVANNAMALAI / ARUNACHALA — DONE / TRUE_DURATION_CLOSED
+Owning detailed proof:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_POST_TRIAGE_TRUE_DURATION_REVALIDATION_2026-09-05.md`.
 
-These are logistics/safety checks and do not reopen content/duration now.
+### Protected Mark truth
+- Arunachala/Ramana sacred world [A+] parent.
+- A children: Sri Ramanasramam; Virupaksha Cave; Skandashram; Arunachaleswarar/Annamalaiyar Temple; Gurumurtam; Pavalakunru/Pavazhakundru; full Giripradakshina/Girivalam 14 km.
+- Mango Tree Cave [B / ONLY_IF_NATURAL_ON_A_ROUTE].
+- Pachaiamman Temple [B / ONLY_IF_NATURALLY_EASY].
+- Sri Ramanasramam desired true ashram sleep if accepted/available.
+- **5 nights LOCKED_BY_MARK = arrival night + four complete local days**, intentionally low tempo with standalone deep ashram time.
+
+### Fresh execution result — 2026-09-05
+The post-triage schedule cleanly reproduces the lock:
+1. transfer / arrival night;
+2. deep Sri Ramanasramam [A] day;
+3. Arunachaleswarar Temple [A] + Gurumurtam [A] + Pavalakunru [A] town/early-Ramana day;
+4. Skandashram [A] + Virupaksha Cave [A] dedicated hill-pilgrimage day;
+5. full 14 km Giripradakshina / Girivalam [A] dedicated walking day + recovery.
+
+Current official evidence rechecked 2026-09-05:
+- Sri Ramanasramam shrine/ashram: 05:30–11:00 and 14:00–20:30;
+- Skandashram/Virupaksha: 08:30–16:30 and 1.5 km climb class;
+- Arunachaleswarar Temple: official darshan opening class from 05:30;
+- Tiruvannamalai District: Girivalam road circuit = 14 km.
+
+Duration stress test:
+- four nights compresses/merges a protected module and damages the low-tempo / standalone-ashram intent;
+- five nights gives all four protected local modules their own human-scale day;
+- six nights is not required by any missing retained A+/A and mainly adds discretionary depth.
+
+**TRUE DURATION = 5 NIGHTS, CONFIRMED.**
+
+This is INDIA's objective confirmation of an existing Mark lock, not a new Mark decision.
+
+### Side-interest guard
+- Sathanur Dam [C] and temple-market/street-life [C] remain suppressed.
+- Dreaming Tree / Inner Child / Amutham positive grades are FINAL COMFORT only; zero sightseeing/day/night weight.
+- Auro Usha [C — FINAL COMFORT].
+- Sun Thermo Process is a verified real cashew processor at C. Gengampattu, about 15 km from Tiruvannamalai town according to its own current site. No public visitor-tour regime was found. Status remains **OPEN / ACCESS TO PROVE** and it receives zero baseline duration weight.
+
+### LIVE_RECHECK_LATER — Tiruvannamalai
+- final adjacent-world topology and exact train-first / whole-human inbound/outbound comparison;
+- Jan-2027 services/running days/1A availability;
+- Sri Ramanasramam accommodation acceptance and exact arrival feasibility;
+- actual full-moon/festival/crowd dates;
+- Gurumurtam exact visit access;
+- Pavalakunru opening/access/approach;
+- exact hill microgeometry for conditional Mango Tree Cave;
+- travel-date weather/walk safety;
+- Sun Thermo only if an actual process-visit appointment is obtainable.
+
+These do not reopen duration unless a later fact removes a complete protected local day.
 
 ## EXACT NEXT EXECUTABLE ACTION
-**TIRUVANNAMALAI / ARUNACHALA — REVALIDATE THE PRIOR 5-NIGHT FOOTPRINT AGAINST THE COMPLETED TRAVELER TRIAGE.**
+**AGRA / TAJ — REVALIDATE THE EXISTING ONE-HOTEL-NIGHT TAJ GEOMETRY AGAINST THE COMPLETED TRAVELER TRIAGE.**
 
 Do this action-first:
-1. open `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_FILE_INDEX.md`;
-2. read the current 5-night Mark decision and current execution/day-geometry owners it points to;
-3. preserve the slow experiential Arunachala/Ramana character;
-4. preserve a standalone deep **Sri Ramanasramam — Ramana Maharshi ashram / true ashram world (Tiruvannamalai) [A]** day / unhurried ashram time according to current Mark truth;
-5. rebuild practical day modules around the complete retained A+/A set, including Girivalam, Virupaksha Cave, Skandashram, Arunachaleswarar Temple, Gurumurtam and Pavalakunru according to current grades/conditions;
-6. restaurants/cafés remain FINAL COMFORT and must not inflate sightseeing;
-7. **Sun Thermo Process — real cashew-processing factory near Tiruvannamalai [OPEN / ACCESS TO PROVE]** can enter only if a real process visit is appointment-confirmed and route-cheap; it may not silently add a day/night;
-8. checkpoint each sub-result immediately;
-9. only after concrete day geometry is rebuilt may the 5-night baseline be declared freshly TRUE_DURATION_CLOSED or any genuine Mark pace question be asked.
+1. load the current Agra/Taj retained Mark grades and the existing one-night/day-geometry owner;
+2. preserve **Taj Mahal [A+]** as the fixed-core Agra sightseeing anchor under current Mark truth;
+3. distinguish food decisions from sightseeing: Bedai breakfast [A], Petha [A], Gajak [A], Dalmoth [B] do not silently create an extra hotel night; Kinari Bazaar [C] and Sadar Bazaar/Chaat Gali [C] remain suppressed;
+4. verify current entry/access/opening geometry and real bed-to-bed transfer burden at planning scale;
+5. stress-test the one-hotel-night footprint without financing core sightseeing from an optimistic transfer;
+6. checkpoint the objective result before asking Mark anything;
+7. only a genuine unresolved Mark-only pace/dwell choice may stop autonomous execution.
 
-Do NOT ask Mark to change 5 nights before doing this calculation.
-
-## AFTER TIRUVANNAMALAI TRUE-CLOSE
-1. Agra/Taj — confirm one-night Taj geometry; food creates no extra day.
-2. Delhi final window — build realistic final-day geometry; PVR Priya IMAX [A] only if genuinely worthwhile Hindi/IMAX film exists.
-3. Kumaon — short recheck of prior ~9-night footprint; aromatic-oil/distillation [B] only if route-cheap around Nainital/Bhowali/Kainchi.
-4. Varanasi/Sarnath — short consistency recheck of prior ~8-night footprint.
-5. Sum fixed-core accommodation/overnight-transport slots against 33 India slots.
-6. Compare optional worlds only then by WITH vs WITHOUT marginal burden.
-7. Mark chooses optional survivors -> final topology -> live logistics -> exact calendar -> FINAL COMFORT -> final day cards.
+## AFTER AGRA RECHECK
+1. Delhi final window — realistic final-day geometry; PVR Priya IMAX [A] only if genuinely worthwhile Hindi/IMAX title exists.
+2. Kumaon — short recheck of prior ~9-night footprint; aromatic-oil/distillation [B] only if route-cheap around Nainital/Bhowali/Kainchi.
+3. Varanasi/Sarnath — short consistency recheck of prior ~8-night footprint.
+4. Sum fixed-core accommodation/overnight-transport slots against 33 India slots.
+5. Compare optional worlds only then by WITH vs WITHOUT marginal burden.
+6. Mark chooses optional survivors -> final topology -> live logistics -> exact calendar -> FINAL COMFORT -> final day cards.
 
 ## OPEN SPECIAL-INTEREST ITEMS — NON-BLOCKING
-- Sun Thermo Process near Tiruvannamalai — actual visitor access to prove.
+- Sun Thermo Process near Tiruvannamalai — actual visitor access to prove; zero baseline duration weight.
 - Panruti cashew — background/provisional mainly if optional Puducherry survives naturally.
 - Delhi cashew shopping — not a destination; ignore unless essentially zero-burden.
-- Kumaon/Nainital aromatic-oil/distillation [B] — seek local working unit around Bhowali/Bhimtal/Ramgarh; Pantnagar only if cheap on a transfer edge; never a separate day.
+- Kumaon/Nainital aromatic-oil/distillation [B] — seek local working unit around Bhowali/Bhimtal/Ramgarh; Pantnagar only if cheap on transfer edge; never a separate day.
 - Eucalyptus-specific detour hunting — dropped.
 - Sri Aurobindo Ashram/Puducherry — genuine interest but not TOP-X; near-free-only conditional wish; cannot displace higher-priority content.
 
@@ -132,7 +144,7 @@ After topology/dates/bases/day geometry stabilize:
 - no Puducherry/Aurobindo, cashew or aroma interest may become route-driving without Mark's later explicit choice;
 - use full canonical Indian name + Dutch recognition hook + city/microcluster + grade/status;
 - expose real burden before Mark grades unfamiliar places;
-- photos belong directly under the correct candidate, preferably ~3 when useful;
+- geometry claims require decision-grade entity/access/routing verification at use time; old pins are not grandfathered;
 - prepare the next authorized batch ahead where feasible; never fake preparation and never bypass Mark-only decisions.
 
 UNSAVED_RISK:
