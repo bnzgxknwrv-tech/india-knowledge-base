@@ -1,6 +1,6 @@
 # CURRENT STATE — INDIA
 
-state_revision: 2026-09-05_AGRA_TRUE_CLOSED__DELHI_FINAL_WINDOW_NEXT
+state_revision: 2026-09-05_AGRA_TRUE_CLOSED__DELHI_FINAL_WINDOW_NEXT__ARRIVAL_RAIL_FIRST
 branch: `agent/india8-cluster-casting`
 status: TRAVEL_FRONTIER_ACTIVE__DELHI_FINAL_WINDOW_GEOMETRY_NEXT
 boot_authority: `governance/INDIA_MASTER_BOOT.md` + `governance/FRESH_SESSION_BOOT_GATE.md` + `governance/BOOT_MANIFEST_V8.json`
@@ -94,13 +94,33 @@ Food guard:
 - station/luggage buffers;
 - food-shop exact openings at FINAL COMFORT.
 
+## DELHI ARRIVAL / NORTHBOUND — EXPLICIT MARK RAIL-FIRST PREFERENCE
+Owning supersede:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_ARRIVAL_RAIL_FIRST_SUPERSEDE_2026-09-05.md`.
+
+Newest Mark truth:
+- after AI156 arrival, **HOTEL FIRST** for bags / shower / clean clothes / food / brief recovery;
+- then **Nirmal Dham [A+]**;
+- then **TRAIN FIRST toward Kumaon**;
+- Mark does **not** prefer an ~8–9 h Delhi -> Haidakhan private-car day;
+- the long direct-car leg is fallback only;
+- current leading rail product to develop is **15013 Ranikhet Express**, current GGN ~20:02 -> HDW/KGM early morning, target **1A / First AC**;
+- exact 19 Dec 2026 timetable, 1A inventory and winter punctuality remain LIVE_RECHECK_LATER;
+- exact Haldwani-vs-Kathgodam alight point and road burden to the **true Haidakhan Vishwa Mahadham [A+]** remain OPEN because the official ~90 km gateway statement conflicts with materially shorter secondary route classes;
+- an already-required mini-cluster may only be called `free` after WITH-vs-WITHOUT geometry proves no material extra road/base-change burden.
+
+Current cluster-insertion reading:
+- **Nainital/Kainchi** are already-required Kumaon content, but are NOT yet proven free *before* Haidakhan; current canonical order hypothesis remains Haidakhan -> Nainital -> Kainchi -> Dwarahat -> Dunagiri/Kukuchina, so re-order only after net-backtracking proof;
+- **Haridwar/Rishikesh** is geographically coherent before Kumaon and can be rail-friendly, but remains an OPTIONAL world with real extra base/dwell/transfer cost; not free;
+- Braj and Prayagraj are not natural first-leg Delhi -> Kumaon break clusters.
+
 ## EXACT NEXT EXECUTABLE ACTION
 **DELHI FINAL WINDOW — BUILD/REVALIDATE THE REALISTIC FINAL-DAY GEOMETRY AGAINST THE COMPLETED TRAVELER TRIAGE.**
 
 Required next actions:
 1. open `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_FILE_INDEX.md`;
 2. load current final-window Mark grades and existing final-day decision surface;
-3. preserve arrival day as international arrival -> Nirmal Dham [A+] -> rest/sleep -> onward, with no LP/general sightseeing added there;
+3. keep arrival-side logistics separate from final-window LP content; the newest arrival sequence is **AI156 -> HOTEL FIRST -> Nirmal Dham [A+] -> rail-first toward Kumaon**, with no LP/general sightseeing added there;
 4. use a calm airport-side/Aerocity-class proxy only transparently until a real final hotel is selected;
 5. rebuild the final free-day geometry around the current retained A/B/open set without reviving C items;
 6. **PVR Priya IMAX [A]** only becomes practical execution content if a genuinely worthwhile Hindi/IMAX film exists on the actual date; showtime/title is LIVE_RECHECK_LATER;
