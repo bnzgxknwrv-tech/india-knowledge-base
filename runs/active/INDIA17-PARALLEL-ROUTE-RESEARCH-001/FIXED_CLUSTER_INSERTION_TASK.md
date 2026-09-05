@@ -9,7 +9,14 @@ Find where already-retained A+/A cluster content can reduce travel burden by bei
 - current master decisions / knowledge map / current state;
 - current fixed-core cluster execution files;
 - global transfer ledger and topology feasibility files;
-- current Nainital-first recheck.
+- current Nainital-first recheck;
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/GLOBAL_SLOT_TALLY_OPTIONAL_WINDOW_2026-09-05.md`.
+
+## HARD CALENDAR INPUT
+- Delhi arrival: Saturday 19 Dec 2026 10:15.
+- Leading Kumaon calendar: Nainital 20-22 Dec, Dunagiri 23-25 Dec, Haidakhan 26-28 Dec, outbound rail-gateway night Tuesday 29 Dec.
+- Do NOT assume Varanasi is the next destination after Haidakhan. Final global order remains open.
+- Fixed Agra/Taj still needs placement before the eastern chain unless independent topology proves a better whole-trip order.
 
 ## QUESTIONS
 For every major fixed-core transfer edge that remains plausible, ask:
@@ -22,13 +29,16 @@ For every major fixed-core transfer edge that remains plausible, ask:
 Pay special attention to:
 - Delhi -> Kumaon;
 - internal Kumaon;
-- Kumaon -> Varanasi/Sarnath;
-- Varanasi/Sarnath -> Bodh Gaya/Gaya;
-- Bodh Gaya/Gaya -> Agra or reverse;
-- north/central India -> Tiruvannamalai/Arunachala;
+- **Haidakhan/Kumaon exit on Tuesday 29 Dec -> Agra/Taj / Braj corridor / other fixed core; do not force Varanasi next**;
+- Agra -> Bodh Gaya/Gaya;
+- Agra -> optional Prayagraj -> Bodh Gaya/Gaya;
+- Bodh Gaya/Gaya -> Varanasi/Sarnath;
+- Varanasi/Sarnath -> Tiruvannamalai/Arunachala;
 - Tiruvannamalai/Arunachala -> final Delhi.
 
 Also flag OPTIONAL worlds only if they are genuinely near-free geometrically, but do NOT promote them or decide inclusion. Use `OPTIONAL_INSERTION_CANDIDATE` only.
+
+Mark transport preference must be active: TRAIN FIRST, target 1A sleeper where practical, even when train is reasonably longer than road. Compare whole-human burden, not only km.
 
 ## OUTPUT
 Write:
