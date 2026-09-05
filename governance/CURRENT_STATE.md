@@ -1,6 +1,6 @@
 # CURRENT STATE — INDIA
 
-state_revision: 2026-09-05_AGRA_TRUE_CLOSED__DELHI_FINAL_WINDOW_NEXT__ARRIVAL_RAIL_FIRST
+state_revision: 2026-09-05_AGRA_TRUE_CLOSED__DELHI_FINAL_WINDOW_NEXT__ARRIVAL_RAIL_FIRST__KUMAON_NAINITAL_FIRST_LEADING
 branch: `agent/india8-cluster-casting`
 status: TRAVEL_FRONTIER_ACTIVE__DELHI_FINAL_WINDOW_GEOMETRY_NEXT
 boot_authority: `governance/INDIA_MASTER_BOOT.md` + `governance/FRESH_SESSION_BOOT_GATE.md` + `governance/BOOT_MANIFEST_V8.json`
@@ -109,10 +109,29 @@ Newest Mark truth:
 - exact Haldwani-vs-Kathgodam alight point and road burden to the **true Haidakhan Vishwa Mahadham [A+]** remain OPEN because the official ~90 km gateway statement conflicts with materially shorter secondary route classes;
 - an already-required mini-cluster may only be called `free` after WITH-vs-WITHOUT geometry proves no material extra road/base-change burden.
 
-Current cluster-insertion reading:
-- **Nainital/Kainchi** are already-required Kumaon content, but are NOT yet proven free *before* Haidakhan; current canonical order hypothesis remains Haidakhan -> Nainital -> Kainchi -> Dwarahat -> Dunagiri/Kukuchina, so re-order only after net-backtracking proof;
-- **Haridwar/Rishikesh** is geographically coherent before Kumaon and can be rail-friendly, but remains an OPTIONAL world with real extra base/dwell/transfer cost; not free;
-- Braj and Prayagraj are not natural first-leg Delhi -> Kumaon break clusters.
+## KUMAON INTERNAL ORDER — NEWEST MARK PREFERENCE: NAINITAL FIRST
+Owner:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_NAINITAL_FIRST_TOPOLOGY_RECHECK_2026-09-05.md`.
+
+Newest Mark truth/question:
+- **Nainital first** after the night train is now the leading human-experience preference;
+- go directly from Kathgodam terminal to **Hotel Evelyn [A+]** and use Nainital as decompression/acclimatisation before deeper ashram life;
+- Mark currently prefers the narrative possibility `NAINITAL -> KAINCHI/BHUMIADHAR -> DUNAGIRI/KUKUCHINA / MAHAVATAR BABAJI CAVE -> HAIDAKHAN VISHWA MAHADHAM -> onward` over immediate Haidakhan immersion;
+- this reopens INTERNAL ORDER only; no grade change and no automatic extra night yet.
+
+Fresh objective findings:
+- 15013 does **not** continue to Nainital; Kathgodam is the rail terminus at current ~05:05;
+- official Kathgodam -> Nainital road distance is ~34 km, so dawn Hotel Evelyn arrival is structurally plausible with a prearranged taxi;
+- Hotel Evelyn standard published check-in is around noon/14:00 depending source, despite 24-hour-front-desk listings; guaranteed ~06:xx room access therefore needs explicit early-check-in confirmation or previous-night booking;
+- existing 3 Nainital nights can already function as one recovery day + one Nainital local day + one Kainchi/Bhumiadhar day without increasing the physical 9-night Kumaon stay;
+- the main tax of putting Haidakhan last is **Dunagiri/Kukuchina -> true Haidakhan Vishwa Mahadham**, currently a long ~4 h raw-class internal mountain transfer by secondary route evidence;
+- however ending at Haidakhan returns Mark toward the Haldwani/Kathgodam/Lal Kuan rail-gateway side before Varanasi/Sarnath, so whole-human topology may still beat the old shortest-internal-km order.
+
+Current comparison to close later:
+1. `NAINITAL -> HAIDAKHAN -> KAINCHI -> DUNAGIRI/CAVE -> exit` = likely road-shorter after Nainital-first;
+2. `NAINITAL -> KAINCHI -> DUNAGIRI/CAVE -> HAIDAKHAN -> rail -> onward` = psychologically stronger for Mark, potentially globally competitive because Haidakhan becomes final quiet-retreat/rail-gateway-side block.
+
+Do **not** revert to Haidakhan-first as baseline without explicit new Mark input. Do **not** lock cave-before-Haidakhan until exact winter road + onward rail geometry is closed.
 
 ## EXACT NEXT EXECUTABLE ACTION
 **DELHI FINAL WINDOW — BUILD/REVALIDATE THE REALISTIC FINAL-DAY GEOMETRY AGAINST THE COMPLETED TRAVELER TRIAGE.**
@@ -128,7 +147,7 @@ Required next actions:
 8. checkpoint objective geometry before any genuine Mark-only choice.
 
 ## SEQUENCE AFTER DELHI
-1. Kumaon — short recheck of prior ~9-night footprint; aromatic-oil/distillation [B] only if route-cheap.
+1. Kumaon — short recheck of prior ~9-night footprint; carry **Nainital-first** as the newest leading topology preference; aromatic-oil/distillation [B] only if route-cheap.
 2. Varanasi/Sarnath — short consistency recheck of prior ~8-night footprint.
 3. Sum fixed-core accommodation/overnight-transport slots against 33 India slots.
 4. Compare optional worlds by marginal WITH vs WITHOUT burden only then.
