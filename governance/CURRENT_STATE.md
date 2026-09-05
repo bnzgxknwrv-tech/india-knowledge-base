@@ -4,6 +4,9 @@ state_revision: 2026-09-05_BODHGAYA_TRUE_CLOSED__TIRUVANNAMALAI_NEXT
 branch: `agent/india8-cluster-casting`
 status: TRAVEL_FRONTIER_ACTIVE__TIRUVANNAMALAI_TRUE_DURATION_REVALIDATION_NEXT
 boot_authority: `governance/INDIA_MASTER_BOOT.md` + `governance/FRESH_SESSION_BOOT_GATE.md` + `governance/BOOT_MANIFEST_V8.json`
+manifest_active_cluster: `BODHGAYA_EXECUTION_GEOMETRY_TRUE_DURATION`
+
+**KNOWN STALENESS — FLAGGED (2026-09-05):** restored again by CCI after a second rewrite dropped this line (see the 2026-09-04 note this replaces — this is now a recurring pattern, not a one-off). The value above still matches `BOOT_MANIFEST_V8.json`'s current `active_cluster`, which is itself content-stale: this file's own frontier has moved on to Tiruvannamalai true-duration revalidation. Whoever next touches `active_cluster`/`active_cluster_required` should rebuild it for Tiruvannamalai (see `TIRUVANNAMALAI_FILE_INDEX.md`) rather than copying this placeholder forward again.
 
 ## SUCCESSOR REPLACEABILITY — HARD
 After every material India research result, Mark decision, route/duration change, supersession, access finding, or frontier transition:

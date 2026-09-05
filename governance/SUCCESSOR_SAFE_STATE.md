@@ -1,6 +1,8 @@
 # INDIA SUCCESSOR SAFE STATE — CRASH-SAFE HANDOFF CHECKPOINT
 
-Status: **HARD LIVING CHECKPOINT / SAFE_TO_HANDOFF / TIRUVANNAMALAI_TRUE_DURATION_NEXT**
+STATUS: SAFE_TO_HANDOFF
+
+Full status: **HARD LIVING CHECKPOINT / SAFE_TO_HANDOFF / TIRUVANNAMALAI_TRUE_DURATION_NEXT**. (Formatting-only fix: the mechanical validator requires the literal, case-exact substring `STATUS: SAFE_TO_HANDOFF` on its own; a prior rewrite folded it into a longer mixed-case line, which is what caused `INDIA_BOOT_STRUCTURE: FAIL` here a second time.)
 Updated: 2026-09-05
 Branch: `agent/india8-cluster-casting`
 
