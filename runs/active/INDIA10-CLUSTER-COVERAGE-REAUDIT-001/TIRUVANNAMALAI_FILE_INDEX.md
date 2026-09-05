@@ -2,7 +2,7 @@
 
 Status: **ORIENTATION ONLY / NO CONTENT DECISION / POINTER, NOT A NEW SOURCE**
 Branch: `agent/india8-cluster-casting`
-Updated: 2026-09-02
+Updated: 2026-09-05
 
 ## PURPOSE
 Route a successor through the Tiruvannamalai/Arunachala file history without reviving superseded dayplan attempts, without re-presenting the old LP ballot Mark already dropped, and without hiding genuinely new traveler-repair findings discovered afterward.
@@ -45,9 +45,37 @@ Before presenting #14 rows:
 - give actual/provisional sleep-base geometry, nearest retained A+/A, natural bundle, walking, marginal extra burden, dwell, displacement and confidence;
 - only Mark changes subjective grade.
 
+## SUCCESSOR PRACTICAL LESSONS — 2026-09-05
+These are lessons from the live Mark interaction, added because the standard boot/process rules alone did not prevent the mistakes in practice.
+
+1. **Do not treat restaurant grades as sightseeing grades.**
+   - Mark explicitly wants the restaurant/coffee/sweets layer only at the final comfort stage, after route, bases and day structure stabilize.
+   - During the Tiruvannamalai traveler-repair discussion, `The Dreaming Tree`, `The Inner Child` and `Amutham` received positive Mark interest/restaurant grades, but they must NOT add sightseeing weight, create an extra day, or be used to argue for more nights.
+   - Conversely, restaurant/café C does not mean a nearby place attraction was rejected; keep surface types separate.
+
+2. **Ordinary bazaars/markets are a known poor fit for Mark.**
+   - Do not consume Mark-facing triage time with generic market/bazaar candidates unless there is an independently exceptional, route-specific reason.
+   - This is especially important in Tiruvannamalai because the later traveler-repair layer contains human-texture/market-style material that can look like unfinished triage even when it is not useful for Mark.
+
+3. **The later Tiruvannamalai repair has now largely been human-triaged in chat; do not blindly replay file #14.**
+   - Concrete outcomes from the live triage include: Sathanur Dam C; temple-market/street-life C; the restaurant/café items belong to final comfort, not sightseeing.
+   - Before showing any remaining row, verify it is genuinely unseen/open rather than assuming the old `CURRENT INPUT TO MARK TRIAGE` wording still means the whole file is pending.
+
+4. **The five-night duration test must use actual retained travel content, not every positive side-interest discovered later.**
+   - High-risk regression: counting restaurant A's, cashew-factory curiosity, coffee, sweets, or other special-interest research as if they were fixed A sightseeing blocks.
+   - `Sun Thermo Process` near Tiruvannamalai is a special-interest access lead only: it should matter only if a real visit is confirmed and the marginal burden is cheap; it cannot silently inflate the five-night lock.
+
+5. **Check the newest explicit Mark decisions before trusting stale frontier prose.**
+   - During the live session, `governance/CURRENT_STATE.md` still pointed at an earlier Delhi LP frontier after later Mark decisions had already advanced the project through Tiruvannamalai/Agra/Bodh Gaya triage.
+   - Therefore, for immediate execution, reconcile this file/index + newest decision artifacts/commits before relying on old central frontier wording. Do not move backwards merely because an older cockpit says a prior phase is next.
+
+6. **Presentation speed matters.**
+   - Mark repeatedly asked that the next layer be prepared in advance so he does not wait between grade batches.
+   - For Tiruvannamalai duration/day-geometry work, precompute the full human decision surface before asking him anything: bed-to-bed day structure, natural bundles, transfer burden, and what truly changes between four/five/six-night shapes. Do not make him answer one micro-question and then wait while the next one is researched.
+
 ## CURRENT PROCESS OWNER
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/MARK_TRAVELER_LAYER_TO_DURATION_ORDER_CORRECTION_2026-09-02.md`.
 
-Delhi is the current first traveler-triage frontier. Tiruvannamalai follows only when the canonical sequence reaches it; this index then prevents the successor from mistaking the old dropped ballot for the new repair layer or treating #14's research status as a Mark decision.
+The old line that Delhi is the next traveler-triage frontier is stale as execution guidance. Use newest explicit Mark decisions and current checkpoints to determine the real frontier. This index exists to prevent revival of old dropped LP material, confusion between traveler content and final-comfort food, and false duration inflation from later side-interest discoveries.
 
 END TIRUVANNAMALAI FILE INDEX
