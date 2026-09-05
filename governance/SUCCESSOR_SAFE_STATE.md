@@ -2,7 +2,7 @@
 
 STATUS: SAFE_TO_HANDOFF
 
-Full status: **HARD LIVING CHECKPOINT / SAFE_TO_HANDOFF / AGRA_TRUE_CLOSED / DELHI_FINAL_WINDOW_NEXT / DELHI_ARRIVAL_RAIL_FIRST**.
+Full status: **HARD LIVING CHECKPOINT / SAFE_TO_HANDOFF / AGRA_TRUE_CLOSED / DELHI_FINAL_WINDOW_NEXT / DELHI_ARRIVAL_RAIL_FIRST / KUMAON_NAINITAL_FIRST_LEADING**.
 Updated: 2026-09-05
 Branch: `agent/india8-cluster-casting`
 
@@ -93,8 +93,31 @@ Owner:
 - Current leading rail product to develop: **15013 Ranikhet Express**, current Gurgaon/Gurugram ~20:02 -> Haldwani/Kathgodam early morning; target **1A / First AC**.
 - Exact 19 Dec 2026 timetable, 1A inventory and winter/fog punctuality remain LIVE_RECHECK_LATER.
 - Exact Haldwani-vs-Kathgodam alight point + road to the **true Haidakhan Vishwa Mahadham [A+]** remains OPEN because official gateway distance (~90 km class) conflicts with materially shorter secondary route classes. Never use a generic Haidakhan pin.
-- Nainital/Kainchi are already-required Kumaon content but are NOT yet proven route-free before Haidakhan; current order hypothesis Haidakhan -> Nainital -> Kainchi remains unless net geometry proves re-ordering better.
 - Haridwar/Rishikesh is coherent before Kumaon and can support a rail-heavy bridge if it later survives as an optional world, but it is not free and must not be inserted merely as a travel break.
+
+## KUMAON — NAINITAL-FIRST NOW LEADING HUMAN TOPOLOGY
+Owner:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_NAINITAL_FIRST_TOPOLOGY_RECHECK_2026-09-05.md`.
+
+Newest Mark truth:
+- **Nainital first** after the night train feels materially better and is now the leading human-experience preference.
+- Go from Kathgodam terminal directly to **Hotel Evelyn [A+]** for decompression/acclimatisation before deep ashram life.
+- Mark is positively considering `NAINITAL -> KAINCHI/BHUMIADHAR -> DUNAGIRI/KUKUCHINA / MAHAVATAR BABAJI CAVE -> HAIDAKHAN VISHWA MAHADHAM -> onward`.
+- This is NOT yet a final topology lock and does not change grades or the existing Haidakhan 3-night/2-full-day dwell lock.
+
+Objective recheck:
+- 15013 terminates at Kathgodam around current 05:05; there is no rail line continuing to Nainital.
+- Official Kathgodam -> Nainital road distance ~34 km.
+- Very-early Hotel Evelyn room access is not guaranteed by public check-in data; require explicit early-check-in confirmation or book previous calendar night if immediate bed/shower matters.
+- Existing 3 Nainital physical nights can already yield: arrival/recovery day + Nainital local day + Kainchi/Bhumiadhar day.
+- Main geometry tax of Haidakhan-last is long **Dunagiri/Kukuchina -> true Haidakhan Vishwa Mahadham** transfer, current secondary raw class ~4 h; exact winter routing remains open.
+- Potential compensation: ending at Haidakhan returns Mark toward Haldwani/Kathgodam/Lal Kuan rail-gateway side before Varanasi/Sarnath, potentially removing/reducing the old separate highland exit burden.
+
+Current comparison still open:
+1. `NAINITAL -> HAIDAKHAN -> KAINCHI -> DUNAGIRI/CAVE -> exit` likely road-shorter;
+2. `NAINITAL -> KAINCHI -> DUNAGIRI/CAVE -> HAIDAKHAN -> rail -> onward` better matches Mark's desired emotional/spiritual progression and may be globally competitive.
+
+Do not revert to Haidakhan-first baseline absent new Mark input. Do not silently call the cave-before-Haidakhan order final until exact road/outbound-rail geometry is closed.
 
 ## EXACT NEXT EXECUTABLE ACTION
 **DELHI FINAL WINDOW — REBUILD REALISTIC FINAL-DAY GEOMETRY.**
@@ -110,7 +133,7 @@ Do this action-first:
 8. checkpoint before any genuine Mark-only choice.
 
 ## AFTER DELHI
-1. Kumaon short recheck of prior ~9-night footprint; aromatic-oil/distillation [B] only if route-cheap.
+1. Kumaon short recheck of prior ~9-night footprint, carrying **Nainital-first** as newest leading topology preference; aromatic-oil/distillation [B] only if route-cheap.
 2. Varanasi/Sarnath short consistency recheck of prior ~8-night footprint.
 3. Sum fixed-core accommodation/overnight-transport slots against 33 India slots.
 4. Compare optional worlds only then by WITH vs WITHOUT marginal burden.
