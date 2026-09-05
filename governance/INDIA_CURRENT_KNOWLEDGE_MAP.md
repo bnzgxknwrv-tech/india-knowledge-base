@@ -1,7 +1,7 @@
 # INDIA CURRENT KNOWLEDGE MAP — WAT MOET JE LEZEN / WAT IS OUD
 
 Status: **CURRENT LIVING SOURCE ROUTER — V8 / MANIFEST-DRIVEN / CCI-PARITY FILTERED**
-Updated: 2026-09-02
+Updated: 2026-09-05
 Branch: `agent/india8-cluster-casting`
 Canonical mandatory-set authority: `governance/BOOT_MANIFEST_V8.json`
 Boot owner: `governance/INDIA_MASTER_BOOT.md`
@@ -9,254 +9,234 @@ Frozen CCI parity source: commit `b5349afe41f98eb4870728aaff2c633899afc1fa`
 
 ## PURPOSE
 This file is a ROUTER, not a competing current-state summary.
-It tells a successor:
-- what must always be read because the manifest says so;
-- where the current frontier lives;
-- which cluster index to use before touching a cluster;
-- which sources own current grades/WHY/provenance;
-- which old files are useful history but may never independently control current truth;
-- where known successor traps live.
+It tells a successor where current truth lives and which historical layers are only provenance.
 
-If this map, `CURRENT_STATE.md`, `CURRENT_DECISIONS_MASTER.md`, `SUCCESSOR_SAFE_STATE.md`, or the manifest disagree, that disagreement is itself a memory-system incident. Reconcile from newest explicit Mark/current authority and repair the stale router before substantive advice.
+If this map, `CURRENT_STATE.md`, `CURRENT_DECISIONS_MASTER.md`, `SUCCESSOR_SAFE_STATE.md`, or the manifest disagree, that disagreement is itself a memory-system incident. Reconcile by current authority/chronology, repair stale routing before substantive advice, and never choose an older file merely because its heading says CURRENT/FINAL/LOCKED.
 
-# A. ALWAYS — FOLLOW `BOOT_MANIFEST_V8.json`, NOT THIS PROSE LIST
-The manifest is the sole machine-readable membership authority. At the current commit its `central_required` set is the following 16 files:
-1. `governance/FRESH_SESSION_BOOT_GATE.md`
-2. `governance/INDIA_MASTER_BOOT.md`
-3. `governance/INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md`
-4. `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md`
-5. `governance/MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md`
-6. `governance/MAP_COORDINATE_VERIFICATION_RULE.md`
-7. `governance/INDIA_HUMAN_CENTERED_COMPLEX_TRIP_PLANNING_STANDARD.md`
-8. `governance/FINAL_COMFORT_SWEEP_RULE_2026-08-23.md`
-9. `governance/TRIP_FRAME_HARD.md`
-10. `governance/CURRENT_DECISIONS_MASTER.md`
-11. `governance/DECISION_LEDGER.jsonl`
-12. `governance/CURRENT_STATE.md`
-13. `governance/SUCCESSOR_SAFE_STATE.md`
-14. `governance/INDIA_RECOVERY_DELTAS_CURRENT.md`
-15. `governance/INDIA_CURRENT_KNOWLEDGE_MAP.md`
-16. `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md`
+# A. BOOT / MANDATORY MEMBERSHIP
+**Do not copy a prose file-count or hard-coded mandatory list from this router.**
 
-Every fresh session starts UNBOOTED. Summary/context/memory does not count as read evidence. Continue truncations to EOF, create the fresh append-only receipt, pass canonical receipt validation, then the applicable FULL/LIGHT check and final authorization.
+The sole machine-readable membership authority is:
+- `governance/BOOT_MANIFEST_V8.json`.
 
-## CCI parity layer — mandatory exactly as manifest says
-Read at immutable commit `b5349afe41f98eb4870728aaff2c633899afc1fa`:
-1. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUCCESSOR_START_HERE.md`
-2. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUPERSEDED_AND_DO_NOT_REVIVE.md`
-3. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/MARK_CURRENT_CANON_MASTER.md`
-4. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/PROJECT_PHILOSOPHY_AND_SELECTION_MODEL.md`
-5. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/OPEN_MARK_DECISIONS_ONLY.md`
-6. `runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/CURRENT_TRAVEL_EXECUTION_CANON.md`
+Every fresh INDIA session must follow the current boot/check protocol and read exactly the manifest-selected central, immutable CCI and active-package sources. Summary/context/memory never substitutes for those reads.
 
-CCI is frozen recovery evidence. Reconcile each useful fact as CURRENT/STILL_VALID, LIVE_RECHECK_LATER or SUPERSEDED before use. Never let frozen CCI frontier prose overwrite newer central/Mark truth.
+Important current note:
+- the manifest's `active_cluster` label is known to lag the travel-content frontier;
+- that boot-package staleness does **not** make an older travel frontier controlling;
+- travel execution truth comes from current central state/decision authority after contradiction reconciliation.
+
+## Frozen CCI parity layer
+Read exactly as the current manifest requires at immutable commit `b5349afe41f98eb4870728aaff2c633899afc1fa`.
+
+CCI is frozen recovery evidence. Classify useful statements as CURRENT/STILL_VALID, LIVE_RECHECK_LATER or SUPERSEDED. Never let frozen CCI frontier prose overwrite newer central/Mark truth.
 
 # B. CURRENT FRONTIER — EXACT ROUTING
-Current controlling cockpit:
+Controlling cockpit:
 - `governance/CURRENT_STATE.md`
 - `governance/SUCCESSOR_SAFE_STATE.md`
 
-Current process correction:
-- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/MARK_TRAVELER_LAYER_TO_DURATION_ORDER_CORRECTION_2026-09-02.md`
+Current durable travel frontier:
+- **Bodh Gaya/Gaya: TRUE_DURATION_CLOSED**.
+- **Tiruvannamalai/Arunachala: TRUE_DURATION_CLOSED at the existing 5-night Mark lock**.
+- **EXACT NEXT = AGRA / TAJ one-hotel-night geometry revalidation**.
+
+Current Tiruvannamalai execution owner:
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_POST_TRIAGE_TRUE_DURATION_REVALIDATION_2026-09-05.md`.
 
 Current sequence:
-`BROAD LP/GENERAL-TRAVELER RESEARCH -> MARK SEES/GRADES ALL MATERIAL NEW CANDIDATES -> COMPLETE A+/A SET -> EXECUTION GEOMETRY/DAY BUNDLING -> MARK PACE/DWELL -> TRUE DURATION_CLOSED PER FIXED A+ WORLD -> ALL FIXED A+ WORLDS TRUE-CLOSED -> GLOBAL FIXED-CORE TOTAL -> OPTIONAL A-WORLD MARGINAL-INSERTION ANALYSIS -> FINAL TOPOLOGY -> LIVE LOGISTICS -> EXACT CALENDAR -> FINAL COMFORT/DAY CARDS`.
+`FIXED A+/A SET -> EXECUTION GEOMETRY/DAY BUNDLING -> TRUE DURATION PER FIXED WORLD -> GLOBAL FIXED-CORE TOTAL -> OPTIONAL-WORLD MARGINAL INSERTION -> FINAL TOPOLOGY -> LIVE LOGISTICS -> EXACT CALENDAR -> FINAL COMFORT -> FINAL DAY CARDS`.
 
 Hard distinction:
 `RESEARCH_COMPLETE_ENOUGH != MARK_TRIAGE_COMPLETE != DURATION_CLOSED`.
 
-The old `DURATION_CLOSED x6 -> OPTIONAL_WORLD_SURVIVAL` frontier is superseded as current process state.
-
 ## Current first content action
-Current manifest `active_cluster = DELHI_FINAL_DAY_LP_MARK_TRIAGE`.
-Read every file in the manifest's current `active_cluster_required` set. Current first Mark-facing content task is Delhi broad LP/general-traveler triage in the final-day airport-side context, preserving existing grades and using the human-centered decision format.
+After a valid boot/check and no newer Mark/central authority:
+**open the Agra/Taj router and revalidate the existing one-hotel-night Taj geometry.**
+
+Do not restart Delhi broad traveler triage, Bodh Gaya, or Tiruvannamalai duration as the first task.
 
 # C. CORE DECISION / WHY ROUTING
 For `AL BESLIST?`:
-1. `governance/CURRENT_DECISIONS_MASTER.md` — fast current materialized WHAT.
+1. `governance/CURRENT_DECISIONS_MASTER.md` — fast materialized current WHAT.
 2. `governance/DECISION_LEDGER.jsonl` — event/provenance/supersedes/WHY.
-3. exact `decisions/*.md` artifact referenced by the master/cluster index.
-4. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md` when exact item-level grade history is needed.
-5. `runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv` as anti-forget/provenance only; later explicit truth wins.
+3. exact `decisions/*.md` owner referenced by master/cluster index.
+4. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/A_PLUS_MARK_DECISION_LOG.md` when exact item-grade history is needed.
+5. protected baselines are anti-forget/provenance only; later explicit truth wins.
 
-For WHY/Mark preferences:
+For Mark preferences / WHY:
 - `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md`.
 
-Never infer a Mark decision from a worker result, assistant recommendation, research status, question, old route shorthand or file status word such as `COMPLETE`.
+Never infer a Mark decision from a worker result, assistant recommendation, research status, question, old route shorthand or file-status word.
 
 # D. UNIVERSAL HUMAN / PRESENTATION ROUTING
-Before any Mark-facing place choice or cluster review, the following rules control:
+Before any Mark-facing choice or geometry claim use:
 - `governance/INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md`
+- `governance/INDIA_ACTIVE_MEMORY_COMPILATION_GATE.md`
 - `governance/INDIA_HUMAN_CENTERED_COMPLEX_TRIP_PLANNING_STANDARD.md`
 - `governance/MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md`
 - `governance/MAP_COORDINATE_VERIFICATION_RULE.md`
+- `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md`
 
-Decision-ready place surface must cover where material:
+Decision-ready surface, where material:
 - WHAT physically exists / what Mark sees or does;
-- WHY it matters / why it belongs in the current source layer;
-- current true grade/OPEN/lock;
+- WHY it matters;
+- current true Mark grade/OPEN/lock;
 - actual base or transparent provisional proxy;
 - nearest retained A+/A;
 - natural previous/next stop;
-- walking km/time when realistic;
-- `JE BENT ER TOCH` net extra km/min and newly cheap companions;
-- whole human burden, not visit duration only;
+- walking km/time when decision-grade;
+- `JE BENT ER TOCH` marginal burden;
+- whole-human burden, not visit duration only;
 - dwell recommendation + WHY;
 - displacement/opportunity cost;
-- opening/time/season constraints;
-- confidence/uncertainty/live-recheck class;
+- time/access/season constraints;
+- confidence / LIVE_RECHECK_LATER;
 - INDIA recommendation without assigning Mark's subjective grade.
 
-Hard presentation decision:
-- `decisions/PRESENTATION_GRADE_LETTERS_RESERVED_MARK_RULE_2026-09-02.md`
-- A+/A/A*/B/C letters are reserved for grades. Never use A/B/C/D/E as bundle/scenario/package/corridor labels.
+Grade letters are reserved for Mark grades. Never use A/B/C/D/E as bundle/scenario/package labels.
 
-# E. LP / GENERAL-TRAVELER SOURCE-LAYER ROUTING
-Traveler integrity audit:
-- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRAVELER_LAYER_INTEGRITY_AUDIT_2026-08-31.md`
+# E. LP / GENERAL-TRAVELER LAYER
+Fixed-cluster traveler discovery + Mark triage is **DONE ENOUGH**. Do not wholesale restart it.
 
-Targeted repair synthesis:
-- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRAVELER_LAYER_TARGETED_REPAIRS_2026-09-01.md`
+Research != triage != duration. A stale repair file saying OPEN or “needs triage” must be reconciled against newer Mark decisions before anything is shown again.
 
-LP/general-traveler is deliberately independent from spiritual/person/TOP-X research. Mandatory lenses:
-1. classic guidebook magnets;
-2. superlatives/records/views;
-3. food as place-specific travel content;
-4. oddities/curiosities;
-5. nature/active/gardens/water/caves;
-6. contemporary culture/cinema/art/modern neighborhoods;
-7. markets/crafts/human texture/transport;
-8. forum/community sleeper tips;
-9. Dec-Jan season/window fit;
-10. geography/bundling after discovery visibility.
+Ordinary bazaars/markets are a known poor Mark fit and are not future Mark-facing candidate cards absent an exceptional non-bazaar reason.
 
-Do not use a spiritual list as a substitute and do not silently demote a new small traveler finding before Mark sees its actual marginal burden.
+Restaurants/cafés and food placement belong to FINAL COMFORT and carry zero independent sightseeing/day/night weight unless Mark separately grades a genuine production/experience visit.
 
-# F. CLUSTER ROUTERS — READ THE INDEX BEFORE TOUCHING THE CLUSTER
+# F. CLUSTER ROUTERS — READ INDEX BEFORE TOUCHING A WORLD
 
 ## Delhi
 Router:
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_FILE_INDEX.md`
 
-Current critical files:
-- `DELHI_SPARE_DAY_LP_TOPX_LAYER_2026-08-31.md` — broad controlling traveler discovery reserve;
-- `DELHI_TRAVELER_FOOD_CINEMA_FINAL_PASS_2026-09-01.md` — supplement, no grades;
-- `DELHI_BROAD_LP_MARK_TRIAGE_2026-09-02.md` — live triage tracker;
-- `decisions/DELHI_FINAL_DAY_LP_WINDOW_MARK_CONTEXT_2026-09-02.md` — arrival day no LP; final free-day context; airport-side base preference/proxy rule;
-- `DELHI_FINAL_DAY_LP_DECISION_SURFACE_2026-09-02.md` — current geometry/presentation surface;
-- `decisions/DELHI_RESERVE_B_GRADES_MARK_DECISION_2026-08-31.md` — provenance for existing Delhi B grades.
-
-Critical trap: old broad reserve OPEN labels do not override later explicit grades. Four current B reserves must not be re-presented as fresh: PVR Priya IMAX, Hauz Khas Village, Humayun's Tomb [UNESCO WH], Sunder Nursery.
+Current use:
+- traveler triage is already done enough;
+- later task is final-window/day geometry, not a fresh broad ballot;
+- PVR Priya IMAX [A] only if a genuinely worthwhile Hindi/IMAX title exists on the actual date.
 
 ## Kumaon
 Router:
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_FILE_INDEX.md`
 
-Terminal current files:
-- `KUMAON_COMPLETE_EXECUTION_DRAFT_2026-08-26.md`
-- `KUMAON_DURATION_MARK_DECISION_2026-08-27.md`
-- exact grades: `A_PLUS_MARK_DECISION_LOG.md`
+Current use:
+- traveler integrity PASS/STRONG;
+- prior ~9-night footprint receives only a short consistency recheck later;
+- aromatic-oil/distillation [B] only if route-cheap; never a separate day by stealth.
 
-Traveler integrity PASS/STRONG. Do not reopen wholesale absent a concrete later unseen finding.
-
-## Agra / Taj Mahal
+## Agra / Taj Mahal — CURRENT ACTIVE WORLD
 Router:
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/AGRA_FILE_INDEX.md`
 
-Critical current repair input:
-- `AGRA_TRAVELER_LAYER_REPAIR_2026-09-01.md`
+Current decision owner:
+- `decisions/MARK_TRAVELER_GRADES_TIRUVANNAMALAI_AGRA_2026-09-03.md`.
 
-Prior Taj-only/one-night Mark decisions remain real. Previously rejected sightseeing stays rejected unless explicitly reopened. But genuinely new/unseen traveler repair findings must be triaged before procedural duration finality.
+Current fixed truth:
+- Taj Mahal [A+] [UNESCO WH] is the fixed-core Agra sightseeing anchor;
+- existing one-hotel-night walkable East Gate/Shilpgram baseline is a prior Mark lock to revalidate objectively;
+- previously rejected Agra sightseeing remains rejected unless Mark explicitly reopens;
+- Bedai [A], Petha [A], Gajak [A], Dalmoth [B] are food/travel-content decisions and do not automatically add a hotel night;
+- Kinari Bazaar [C] and Sadar Bazaar/Chaat Gali [C] remain suppressed.
 
-## Bodh Gaya / Gaya
+Exact current task:
+**prove whether the one-hotel-night Taj geometry still works under real bed-to-bed transfer burden and current access/opening evidence.**
+
+## Bodh Gaya / Gaya — CLOSED
 Router:
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_GAYA_FILE_INDEX.md`
 
-Critical sources:
-- `BODHGAYA_OPEN_BATCH_MARK_DECISIONS_2026-08-28.md` — earlier Mark grades;
-- `BODHGAYA_VERIFIED_MAP_COORDINATES_2026-08-29.md` — mandatory geo source before decision maps/proximity;
-- `BODHGAYA_GAYA_TRAVELER_LAYER_REPAIR_2026-09-01.md` — later traveler repair needing unseen-row triage;
-- current closure/base decision provenance under `decisions/` referenced by current master.
+Current duration:
+- 2 Maya Heritage nights default on useful early inbound;
+- 3 conditional fallback only;
+- max 3;
+- protected Mahabodhi -> Sujata -> Dungeshwari WALK OUT / CAR BACK day.
 
-Critical trap: old OPEN labels and later repair rows must first be reconciled against existing current C/B/A*/A/A+ decisions. Research never silently reopens C.
+Do not restart old Bodh OPEN batches or ask a fresh 2-vs-3 question.
 
 ## Varanasi / Sarnath
 Router:
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/VARANASI_FILE_INDEX.md`
 
-Terminal truth:
-- `VARANASI_LP_MARK_TIME_DECISIONS_2026-08-27.md`
-- `VARANASI_DURATION_MARK_DECISION_2026-08-27.md`
+Current use:
+- traveler integrity PASS/STRONG;
+- prior ~8-night footprint gets a later short consistency recheck;
+- no wholesale reopening absent genuinely new material.
 
-Traveler integrity PASS/STRONG. Do not reopen wholesale absent a concrete unseen finding. Exact map pins from older Varanasi geo deliveries are not automatically current routing truth; fit-for-purpose reverify relevant pins before new/final geometry.
-
-## Tiruvannamalai / Arunachala
+## Tiruvannamalai / Arunachala — CLOSED
 Router:
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_FILE_INDEX.md`
 
-Critical distinction:
-- `TIRUVANNAMALAI_LP_MARK_BALLOT_2026-08-31.md` = old 3-item LP ballot Mark actually saw/dropped; do not revive as fresh;
-- `TIRUVANNAMALAI_TRAVELER_LAYER_REPAIR_2026-09-01.md` = later new ordinary-traveler repair findings Mark says he has not all seen; genuine unseen rows still need triage;
-- prior five-night decision remains real, but procedural finality waits for new repair-row reconciliation.
+Current closure owner:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_POST_TRIAGE_TRUE_DURATION_REVALIDATION_2026-09-05.md`.
 
-# G. OPTIONAL WORLDS / GLOBAL ROUTE — HOLD UNTIL EARLIER GATES CLOSE
-Background only for now:
-- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/FIXED_CORE_REAL_INTERCORE_EDGES_AND_34_DAY_BUDGET_2026-09-01.md`
-- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/OPTIONAL_WORLD_SURVIVAL_DECISION_READY_2026-09-01.md`
+Current truth:
+- five nights LOCKED_BY_MARK and now freshly TRUE_DURATION_CLOSED;
+- arrival night + four complete local days;
+- separate deep Sri Ramanasramam day;
+- separate town/early-Ramana day;
+- separate Skandashram + Virupaksha hill day;
+- separate full 14 km Girivalam day;
+- Sathanur/market C remain suppressed;
+- restaurants remain FINAL COMFORT;
+- Sun Thermo Process stays OPEN / ACCESS TO PROVE and carries zero baseline duration weight.
 
-Do not present the old A/B/C/D/E package ballot as current action. Besides being premature, those option letters now violate the hard presentation rule reserving A/B/C for grades.
+Do not replay the older whole traveler-repair file as an unfinished ballot and do not reopen 4/5/6 nights without a genuine later material delta.
 
-When optional A worlds return, compare marginal insertion burden against the actual fixed route: WITHOUT / WITH / NET extra km + human time + nights + backtracking + displacement + newly cheap companions.
+# G. OPTIONAL WORLDS / GLOBAL ROUTE
+Hold until fixed-world duration rechecks are complete and fixed-core total is known.
+
+When optional worlds return, compare marginal insertion burden against the actual fixed route:
+WITHOUT / WITH / NET extra km + human time + nights + backtracking + displacement + newly cheap companions.
+
+Never resurrect old package letters A/B/C/D/E as option labels.
 
 Ranchi + Kolkata/Hooghly/Serampore/Dakshineswar + Puri/Odisha route family remains excluded unless explicitly reopened.
 
 # H. GEO / MAP / LIVE FACT ROUTING
 Map/coordinate owner:
-- `governance/MAP_COORDINATE_VERIFICATION_RULE.md`
+- `governance/MAP_COORDINATE_VERIFICATION_RULE.md`.
 
-Never use an ambiguous geocoder result as decision evidence. Correct entity first, then fit-for-purpose location/access point. No verified decision-grade coordinate = NO PIN.
+Correct entity first, then fit-for-purpose access point and actual movement route. Old pins/dayplans do not grandfather exact `5 min`, `walkable`, `on route`, `JE BENT ER TOCH` or drop-off claims.
 
-Live volatile facts (train inventory/timetables, flights, hotel/ashram acceptance, openings, cinema showtimes, prices, weather, final food openings) are rechecked when they become decision/booking/calendar-critical; they are not all revalidated every boot.
+Existing Mark grades survive geo uncertainty; new/reused operational geometry must be reverified.
+
+Volatile facts — train inventory/timetables, flights, hotel/ashram acceptance, openings, cinema showtimes, weather, exact food openings — are rechecked when decision/booking/calendar-critical, not mechanically every boot.
 
 # I. FINAL COMFORT / FOOD ROUTING
-After route, exact dates, bases/hotels and day structure stabilize:
-- `governance/FINAL_COMFORT_SWEEP_RULE_2026-08-23.md`
+Owner:
+- `governance/FINAL_COMFORT_SWEEP_RULE_2026-08-23.md`.
 
-Use actual hotel/ashram/day geography, not generic city centers. Historic/cult bakeries, sweets, serious coffee, useful restaurants and transfer-day comfort can be real travel value, but the final comfort sweep may not silently force route bends or extra nights.
+After route, dates, bases/hotels and day geometry stabilize, place meals/coffee/sweets/nuts against actual day geography. They may improve a day but not force route bends/nights by stealth.
 
 # J. SUCCESSOR MEMORY / FAILURE ROUTING
-Always read:
+Always use:
 - `governance/INDIA_RECOVERY_DELTAS_CURRENT.md`
-
-If Mark says `we hadden dit al`, `je mist veel`, `dit is niet het format`, or a successor knows materially less than its predecessor:
-1. stop new travel conclusions;
-2. widen reads current + mapped history + CCI parity as relevant;
-3. identify exact missed truth/rule and why mandatory boot did not activate it;
-4. promote/repair the living top layer/router;
-5. only then resume.
-
-Current governance review artifact created after INDIA15 reproduced READ-WITHOUT-COMPILATION failure:
 - `governance/INDIA_ACTIVE_MEMORY_COMPILATION_GATE.md`
+- `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md`
 
-At the moment this map is written, that new gate exists and is under CCI/INDIA15 architecture review but is **not yet a member of the manifest's `central_required` set**. Do not falsely claim it is already mandatory until the manifest/validator/protocol are updated together after consensus.
+If Mark says “we hadden dit al”, “je mist veel”, “dit is niet het format”, or a successor knows materially less than its predecessor:
+1. stop new travel conclusions;
+2. widen current + mapped history + CCI parity reads as relevant;
+3. identify the exact missed truth/rule and why mandatory boot failed to activate it;
+4. repair the living top layer/router;
+5. then resume.
 
 # K. PROVENANCE / SEARCH-ONLY
-Old handoffs, old exact calendars, `ACTIVE_STATE` generations, worker outputs, old package ballots, PR comments, archived/freezed candidate lists and superseded dayplan drafts remain useful only for provenance/recovery when a current source points to them or Mark says something is missing.
+Old handoffs, old exact calendars, historical ACTIVE_STATE generations, worker outputs, old package ballots, frozen CCI frontier text and superseded dayplan drafts remain useful for provenance/recovery only when a current source points to them or Mark says something is missing.
 
-Never let `COMPLETE`, `CLOSED`, `LOCKED`, or `CURRENT` in an old file outrank a newer explicit Mark correction merely because the old heading looks authoritative.
+Never let `COMPLETE`, `CLOSED`, `LOCKED` or `CURRENT` in an older file outrank a newer explicit Mark correction/current execution result merely because the heading looks authoritative.
 
 # L. PRE-CONTENT ROUTING TEST
-Before first substantive content after boot, a successor must be able to answer from current sources:
-- What is the exact current frontier?
-- What exact file controls the process order?
-- Which cluster index controls the first task?
-- Which prior Mark grades must not be re-presented?
-- What is the decision-ready presentation format?
-- What does LP/general-traveler mean independently of spiritual research?
-- Why is research-complete not Mark-triage-complete?
-- Which later-stage artifacts are background only?
-- What is the exact next executable action?
+Before substantive content after boot, successor must be able to answer from current sources:
+- exact current frontier;
+- what is already decided and must not be re-presented;
+- complete current retained A+/A set for the active world;
+- whether research, Mark triage and duration are separately closed/open;
+- which geometry statements are genuinely decision-grade;
+- what belongs to LIVE_RECHECK_LATER;
+- what material output must be recorded durably before reply.
 
-If any answer is unclear or sources conflict, resolve and repair routing before content.
+If any answer is unclear or living sources conflict, reconcile/repair first.
 
 END INDIA CURRENT KNOWLEDGE MAP
