@@ -10,6 +10,8 @@ Do a zoomed-out route-optimization pass across the ALREADY RETAINED/FIXED India 
 - `governance/SUCCESSOR_SAFE_STATE.md`
 - `governance/CURRENT_DECISIONS_MASTER.md`
 - `decisions/TRAVEL_FRONTIER_AFTER_FIXED_TRAVELER_TRIAGE_2026-09-04.md`
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/CLUSTER_TOPOLOGY_FEASIBILITY_2026-08-25.md`
+- `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/GLOBAL_SLOT_TALLY_OPTIONAL_WINDOW_2026-09-05.md`
 - terminal/current files for Delhi, Kumaon, Varanasi/Sarnath, Agra/Taj, Bodh Gaya/Gaya, Tiruvannamalai/Arunachala.
 - hard trip dates / booked flight logistics.
 
@@ -20,6 +22,8 @@ Do a zoomed-out route-optimization pass across the ALREADY RETAINED/FIXED India 
 - Mark prefers train first, overnight 1A where sensible; 2A only explicit fallback.
 - Whole-human burden beats raw map time.
 - Current trip has the hard 33 India accommodation/overnight-transport slots.
+- Leading first-leg calendar now gives a concrete **Tuesday 29 Dec 2026** outbound rail-gateway night after Haidakhan-last.
+- Do **NOT** assume Varanasi is automatically next after Kumaon. The recent narrow Haidakhan->Varanasi working assumption is premature; fixed Agra/Taj and optional corridor worlds still need global placement.
 
 ## QUESTION
 Without deciding optional worlds, determine the most promising GLOBAL ORDER of the fixed core from Delhi arrival to Delhi departure.
@@ -43,7 +47,20 @@ Compare multiple plausible orderings rather than assuming the historic one. For 
 - whether southern Tiruvannamalai creates an obvious airport/rail exit strategy;
 - effect on final Delhi departure protection.
 
-Do not use exact-calendar false precision where Dec 2026 timetables are not yet bookable. Distinguish STRUCTURAL FEASIBILITY from LIVE_RECHECK_LATER.
+## REQUIRED 29 DEC TEST
+From the real post-Haidakhan rail gateways (Kathgodam/Haldwani/Lal Kuan) on Tuesday 29 Dec, compare at minimum:
+1. train-first toward Delhi -> Braj/Agra corridor;
+2. train-first toward Haridwar/Rishikesh first, then Braj/Agra corridor;
+3. train-first east via Lucknow / direct weekly products where weekday-compatible;
+4. any better fixed-core sequence you can prove.
+
+Explicitly distinguish:
+- current structural timetable;
+- actual-date weekday fit;
+- 1A vs 2A quality;
+- genuine extra nights versus an overnight train that merely replaces a generic transfer night.
+
+Do not use exact-calendar false precision where Dec 2026 inventory is not yet bookable. Distinguish STRUCTURAL FEASIBILITY from LIVE_RECHECK_LATER.
 
 ## OUTPUT
 Write:
