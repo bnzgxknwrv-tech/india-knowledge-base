@@ -1,18 +1,13 @@
 # INDIA SUCCESSOR SAFE STATE — CRASH-SAFE HANDOFF CHECKPOINT
 
-Status: **HARD LIVING CHECKPOINT / MUST BE CURRENT AFTER EVERY MATERIAL INDIA TURN**
+Status: **HARD LIVING CHECKPOINT / SAFE_TO_HANDOFF / TIRUVANNAMALAI_TRUE_DURATION_NEXT**
 Updated: 2026-09-05
 Branch: `agent/india8-cluster-casting`
 
 ## HARD RULE — MAKE THE CURRENT INDIA REPLACEABLE
-After every material India research result, Mark decision, methodology correction, route/duration step, access finding, worker/CCI integration or frontier transition, this file must be materially true BEFORE substantive reply.
-
-Crash test:
-`IF THIS CHAT ENDS NOW, CAN INDIA(N+1) IDENTIFY WHAT WAS COMPLETED, WHAT REMAINS, WHAT IT MUST DO NEXT, WHICH CHOICES BELONG TO MARK, AND WHERE THE REQUIRED KNOWLEDGE LIVES?`
-
-Update discipline:
-1. update owning detailed files first;
-2. if current truth/frontier changed, update `governance/CURRENT_STATE.md` and this file;
+After every material India research result, Mark decision, route/duration step, access finding, worker integration or frontier transition:
+1. update the owning detailed file first;
+2. update `governance/CURRENT_STATE.md` and this file when current truth/frontier changes;
 3. record DONE / OPEN / EXACT NEXT ACTION / RISKS;
 4. no material knowledge may live only in chat;
 5. checkpoint each completed piece immediately rather than waiting for session end;
@@ -20,57 +15,21 @@ Update discipline:
 7. `RESEARCH_COMPLETE_ENOUGH != MARK_TRIAGE_COMPLETE != DURATION_CLOSED`;
 8. `READ_COMPLETE != ACTIVE_MEMORY_COMPILED`.
 
-STATUS: SAFE_TO_HANDOFF__BODHGAYA_EXECUTION_GEOMETRY_TRUE_DURATION_ACTIVE
-manifest_active_cluster: `BODHGAYA_EXECUTION_GEOMETRY_TRUE_DURATION`
+Crash test:
+`IF THIS CHAT ENDS NOW, CAN INDIA(N+1) CONTINUE WITHOUT ASKING MARK TO RECONSTRUCT STATE?`
 
-## DONE — 2026-09-05 WHOLE-CONVERSATION MARK-KNOWLEDGE AUDIT
-Mark explicitly requested a knowledge audit for small/durable things he had told/corrected/explained that could otherwise disappear outside the main travel decisions.
+Current answer: **YES**.
 
-Recovered/promoted into current owners:
-- `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md` now centrally owns:
-  - ordinary bazaars/markets are not enjoyable Mark-facing candidates;
-  - restaurant/café grades belong to FINAL COMFORT and create zero independent sightseeing/day/night burden unless a true experience/production visit is separately graded;
-  - cashew, distinctive sweets, serious portafilter/barista espresso, fragrance/aromatic plants/essential-oil/distillation interests;
-  - eucalyptus-specific detour hunting is dropped;
-  - Sri Aurobindo: genuine current reading/interest but not TOP-X; Puducherry near-free-only;
-  - visual rule: preferably ~3 images directly under the correct visual candidate;
-  - workflow rule: in a known authorized sequence, prepare the next likely batch ahead where feasible so Mark does not repeatedly wait after each short grading reply; never fake preparation and never bypass a Mark-only decision;
-  - reinforced make-yourself-disposable checkpoint discipline.
-- `decisions/DELHI_FINAL_LP_REST_MARK_DECISIONS_2026-09-03.md` now also owns:
-  - Jhandewalan giant Hanuman [C];
-  - National Crafts Museum [C];
-  - Delite Cinema [C], with Mark WHY preserved: concept `superleuk`, but too busy/crowded and evening-dependent;
-  - Jama Masjid remains individually OPEN/UNGRADED, with a strong Mark combination preference with Red Fort [B]; no invented A bundle/site grade.
-- `governance/CURRENT_DECISIONS_MASTER.md` was stale and is now reconciled to the real current state:
-  - PVR Priya IMAX is [A], superseding older [B];
-  - fixed traveler triage is DONE enough;
-  - current first action is Bodh Gaya execution geometry/true duration;
-  - current special-interest and latest traveler deltas are materialized.
+## FIXED TRAVELER TRIAGE — DONE
+Delhi, Kumaon, Agra/Taj, Bodh Gaya/Gaya, Varanasi/Sarnath and Tiruvannamalai/Arunachala are traveler-triaged enough to proceed through geometry/duration closure.
 
-Audit did NOT create a new route/duration choice. It only preserved newest explicit Mark truth and promoted durable preferences to their correct current owner.
+Restaurants/cafés, serious coffee, renowned sweet/nut shops and meal placement are deferred to FINAL COMFORT and carry no independent sightseeing/day/night weight unless Mark separately grades a true production/experience visit.
 
-## DONE — FIXED TRAVELER TRIAGE
-The fixed-cluster LP/general-traveler discovery and Mark-triage phase is complete enough to move on.
-
-Completed/reconciled:
-- Delhi final-day traveler layer;
-- Tiruvannamalai/Arunachala later traveler repair;
-- Agra/Taj later traveler repair;
-- Bodh Gaya/Gaya later traveler repair;
-- Kumaon traveler integrity remains PASS/STRONG;
-- Varanasi/Sarnath traveler integrity remains PASS/STRONG.
-
-Latest explicit Bodh Gaya addition:
-- **International monastery belt — Thai/Bhutanese/Japanese monastery world around Mahabodhi (Bodh Gaya) [A]**.
-- Mark intent: `zeker zien`.
-- Intended implementation: roughly 45–75 min among 2–3 distinct monasteries, compactly and not at the expense of Mahabodhi [A+].
-- Restaurants/food are NOT sightseeing and remain deferred to final comfort.
-
-Primary frontier artifact:
+Controlling frontier:
 `decisions/TRAVEL_FRONTIER_AFTER_FIXED_TRAVELER_TRIAGE_2026-09-04.md`.
 
-## STEP 1 — BODH GAYA/GAYA — EXACT HANDOFF STATUS
-Current retained A+/A content:
+## BODH GAYA/GAYA — DONE / TRUE_DURATION_CLOSED
+Current retained A+/A:
 - Mahabodhi Temple Complex + Bodhi Tree [A+] [UNESCO WH];
 - Sujata Stupa [A+];
 - Dungeshwari / Mahakala Caves [A+];
@@ -78,93 +37,101 @@ Current retained A+/A content:
 - Great Buddha Statue [A];
 - International monastery belt [A].
 
-### Day concept already fixed by Mark — DO NOT LOSE
-`decisions/BODHGAYA_PILGRIMAGE_WALK_DAY_MARK_DECISION_2026-08-29.md` is CURRENT.
+### Incremental owning files — completed in Mark-requested order
+1. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_POST_TRIAGE_BG1_ARRIVAL_LOOP_2026-09-05.md`
+   - early-arrival BG-1 PASS;
+   - long ~3.5–4 h Mahabodhi first block preserved;
+   - monastery belt [A] fits as 45–75 min / 2–3 monasteries;
+   - Great Buddha [A] fits afterward;
+   - no Mahabodhi compression.
 
-Mark wants one dedicated Buddha-landscape walking pilgrimage day:
-1. early Mahabodhi [A+];
-2. walk to Sujata Stupa [A+];
-3. continue on foot to Dungeshwari / Mahakala Caves [A+] along the historical/pilgrimage corridor, subject to live path/water/access verification;
-4. attempt Ancient Pragbodhi/Dungeshwari stupa ridge [A / SAME-HILL ONLY] while already at the cave hill if safe/clear;
-5. return by pre-arranged car/driver from the cave area; no walking return.
+2. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_POST_TRIAGE_BG2_PILGRIMAGE_WALK_2026-09-05.md`
+   - protected Mark walk restored explicitly:
+     **Mahabodhi [A+] -> Sujata [A+] -> Dungeshwari [A+] (+ same-hill ridge [A]) WALK OUT / PREARRANGED CAR BACK**;
+   - old vehicle-loop module is not current execution truth;
+   - Jan-2026 Gyan Yatra supports ~8 km pilgrimage-corridor scale;
+   - exact future crossing/path/safety remains LIVE_RECHECK_LATER.
 
-This is a wanted day, not an optional routing idea. Older assistant geometry that used vehicle connectors for the full outer arc may not overwrite this later explicit Mark decision.
+3. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_POST_TRIAGE_2_NIGHT_STRESS_TEST_2026-09-05.md`
+   - complete two-hotel-night human schedule PASS;
+   - inbound benchmark 12988 Agra Fort 18:45 -> Gaya 07:50;
+   - outbound stress test 20887 Gaya 09:55 -> Varanasi 13:00;
+   - departure morning carries zero core sightseeing;
+   - all retained A+/A completes before departure.
 
-### Older execution modules that remain useful as geometry input
-Source: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_EXECUTION_GEOMETRY_2026-08-28.md`.
-- **BG-1**: early arrival (~08:30–09:00 hotel class) -> reset/breakfast -> long Mahabodhi [A+] block -> rest -> Great Buddha [A] -> optional Archaeological Museum [B] -> possible evening Mahabodhi return.
-- **BG-2**: old pre-dawn Mahabodhi -> Dungeshwari -> Sujata -> Mahabodhi vehicle-loop model; must now be rewritten to the protected Mahabodhi -> Sujata -> Dungeshwari WALK OUT / CAR BACK day.
-- **BG-3**: departure/local slack; no Rajgir day; optional cheap B/A* only if time/route fits, then onward transfer.
+4. `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_POST_TRIAGE_3_NIGHT_MARGINAL_COMPARISON_2026-09-05.md`
+   - third night adds no missing A+/A;
+   - mainly extra Mahabodhi/rest/B-reserve depth;
+   - opportunity cost exists elsewhere in finite trip budget.
 
-### What remains open inside step 1
-- International monastery belt [A] has NOT yet been integrated into the arrival/local day geometry.
-- The current-final Maya Heritage -> Mahabodhi / monastery-belt / Great Buddha walking loop has NOT yet been recalculated from verified coordinates.
-- BG-2 has NOT yet been rewritten around the protected walk day.
-- The preferred prior outbound candidate is Gaya Junction ~09:55 -> Varanasi Junction ~13:00; therefore 2 nights cannot assume substantial departure-morning sightseeing without an explicit transfer recheck.
-- The complete post-triage 2-night human schedule has NOT yet been rerun.
-- Bodh Gaya/Gaya is NOT TRUE-DURATION-CLOSED.
+### Current duration rule — freshly revalidated after monastery-belt A
+- **2 Maya Heritage hotel nights = DEFAULT** when inbound reaches hotel usefully early (~morning / by ~10:00 class).
+- **3 hotel nights = CONDITIONAL FALLBACK** only for materially late/disrupted inbound, unexpectedly slow/unsafe pilgrimage-walk logistics, or Mark consciously requesting extra unstructured sacred-core time.
+- **maximum = 3**.
 
-### 2-night / max-3 status
-Protected prior Mark rule:
-- 2 hotel nights default if inbound is early enough;
-- 3 only for materially later/disrupted inbound or conscious extra sacred-core time;
-- max 3.
+Do not ask Mark a fresh `2 or 3?` question now. The full calculation reproduced his earlier rule.
 
-This prior rule already coexisted with the dedicated pilgrimage walk day and same-hill stupa-ridge [A]. It has **NOT yet been freshly re-tested after adding International monastery belt [A] and reconciling the execution modules to the protected walk-day decision**. Do not report 2 nights as newly reconfirmed final duration yet.
+### Bodh Gaya LIVE_RECHECK_LATER
+- Jan-2027 train running days/reservations;
+- Mahabodhi/Sujata pedestrian river crossing;
+- Sujata->Dungeshwari exact footpath/guide;
+- dogs/rabies, monkeys, snakes/brush, water/daylight;
+- exact Dungeshwari pickup gate;
+- same-hill ridge access.
 
-## EXACT NEXT EXECUTABLE ACTION — DO THIS FIRST
-**Open `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_VERIFIED_MAP_COORDINATES_2026-08-29.md` and rebuild the arrival/local BG-1 from locked base Maya Heritage. Calculate the practical loop containing a long Mahabodhi [A+] block + Great Buddha [A] + International monastery belt [A] as a 45–75 minute 2–3-monastery block, and prove whether it fits on an early-arrival day without shortening Mahabodhi. Then rewrite BG-2 explicitly as the protected Mahabodhi -> Sujata -> Dungeshwari (+ same-hill stupa ridge) WALK OUT / CAR BACK day. Finally test the complete 2-night schedule against inbound and likely early outbound transfer. Only after that compare the 3-night fallback and ask Mark any genuine pace/dwell question.**
+These are logistics/safety checks and do not reopen content/duration now.
 
-Do NOT ask Mark `2 of 3 nachten?` before the geometry re-test above is complete.
+## EXACT NEXT EXECUTABLE ACTION
+**TIRUVANNAMALAI / ARUNACHALA — REVALIDATE THE PRIOR 5-NIGHT FOOTPRINT AGAINST THE COMPLETED TRAVELER TRIAGE.**
 
-## AFTER BODH GAYA TRUE-CLOSE
-1. Tiruvannamalai/Arunachala — revalidate prior 5 nights; Sun Thermo Process only if actual visitor access is proven and cheap.
-2. Agra/Taj — confirm one-night Taj geometry; food creates no extra day.
-3. Delhi final window — build real final-day geometry; PVR Priya IMAX only if a genuinely worthwhile Hindi/IMAX film exists.
-4. Kumaon — preserve prior ~9-night footprint; aromatic-oil/distillation [B] only if route-cheap around Nainital/Bhowali/Kainchi.
-5. Varanasi/Sarnath — short consistency recheck of prior ~8-night footprint.
-6. Sum fixed-core nights against 33 India accommodation/overnight-transport slots.
-7. Compare optional worlds only then by marginal WITH vs WITHOUT burden.
-8. Mark chooses optional survivors -> final topology -> live logistics -> exact calendar -> FINAL COMFORT -> final day cards.
+Do this action-first:
+1. open `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_FILE_INDEX.md`;
+2. read the current 5-night Mark decision and current execution/day-geometry owners it points to;
+3. preserve the slow experiential Arunachala/Ramana character;
+4. preserve a standalone deep **Sri Ramanasramam — Ramana Maharshi ashram / true ashram world (Tiruvannamalai) [A]** day / unhurried ashram time according to current Mark truth;
+5. rebuild practical day modules around the complete retained A+/A set, including Girivalam, Virupaksha Cave, Skandashram, Arunachaleswarar Temple, Gurumurtam and Pavalakunru according to current grades/conditions;
+6. restaurants/cafés remain FINAL COMFORT and must not inflate sightseeing;
+7. **Sun Thermo Process — real cashew-processing factory near Tiruvannamalai [OPEN / ACCESS TO PROVE]** can enter only if a real process visit is appointment-confirmed and route-cheap; it may not silently add a day/night;
+8. checkpoint each sub-result immediately;
+9. only after concrete day geometry is rebuilt may the 5-night baseline be declared freshly TRUE_DURATION_CLOSED or any genuine Mark pace question be asked.
+
+Do NOT ask Mark to change 5 nights before doing this calculation.
+
+## AFTER TIRUVANNAMALAI TRUE-CLOSE
+1. Agra/Taj — confirm one-night Taj geometry; food creates no extra day.
+2. Delhi final window — build realistic final-day geometry; PVR Priya IMAX [A] only if genuinely worthwhile Hindi/IMAX film exists.
+3. Kumaon — short recheck of prior ~9-night footprint; aromatic-oil/distillation [B] only if route-cheap around Nainital/Bhowali/Kainchi.
+4. Varanasi/Sarnath — short consistency recheck of prior ~8-night footprint.
+5. Sum fixed-core accommodation/overnight-transport slots against 33 India slots.
+6. Compare optional worlds only then by WITH vs WITHOUT marginal burden.
+7. Mark chooses optional survivors -> final topology -> live logistics -> exact calendar -> FINAL COMFORT -> final day cards.
 
 ## OPEN SPECIAL-INTEREST ITEMS — NON-BLOCKING
-- **Sun Thermo Process — cashew processor near Tiruvannamalai [OPEN / ACCESS TO PROVE]**. Mark is highly interested if a real factory/process visit can be arranged cheaply.
-- Panruti cashew remains provisional/background, especially if optional Puducherry naturally survives.
-- Delhi cashew shop is not a destination; ignore unless essentially zero-burden.
-- **Kumaon/Nainital aromatic-oil/distillation experience [B]**. Mark is very interested in fragrances, essential oils and real distillation. Seek a working Bhowali/Bhimtal/Ramgarh unit first; Pantnagar only if cheap on a transfer edge. Never create a separate day or displace A+/A.
-- Eucalyptus-specific detour hunting is dropped.
-- **Sri Aurobindo Ashram — historic residence/work/samadhi complex (Puducherry) [OPEN / CONDITIONAL WISH]**. Include only if Puducherry becomes nearly free/very cheap on the southern exit; do not steal time from higher priorities.
+- Sun Thermo Process near Tiruvannamalai — actual visitor access to prove.
+- Panruti cashew — background/provisional mainly if optional Puducherry survives naturally.
+- Delhi cashew shopping — not a destination; ignore unless essentially zero-burden.
+- Kumaon/Nainital aromatic-oil/distillation [B] — seek local working unit around Bhowali/Bhimtal/Ramgarh; Pantnagar only if cheap on a transfer edge; never a separate day.
+- Eucalyptus-specific detour hunting — dropped.
+- Sri Aurobindo Ashram/Puducherry — genuine interest but not TOP-X; near-free-only conditional wish; cannot displace higher-priority content.
 
-## FINAL COMFORT — DEFERRED BY DESIGN
-After topology/dates/bases/day geometry stabilize, resolve:
+## FINAL COMFORT — DEFERRED
+After topology/dates/bases/day geometry stabilize:
 - breakfast/lunch/dinner by actual route;
-- serious Italian-style portafilter espresso / competent barista;
-- renowned sweet shops and exact place-specific sweets;
-- renowned nut shops and best cashews, including fried/devilled curry-leaf style;
-- take-home practicality and later online reorder where useful.
+- serious portafilter espresso / competent barista;
+- renowned sweet shops and exact local sweets;
+- renowned nut shops / cashews including fried/devilled curry-leaf style;
+- take-home and later online reorder where useful.
 
-Restaurant/comfort preferences carry zero independent sightseeing/day/night weight unless Mark separately grades a true production/experience visit.
-
-## HARD PRESENTATION / DECISION GUARDS
-- Ordinary bazaars/markets are not Mark-facing candidates.
-- A+/A/A*/B/C are Mark-only grades; never use them for package names.
-- C items stay suppressed unless Mark explicitly reopens them.
-- Use full canonical Indian name + short Dutch recognition hook + city/microcluster + grade/status.
-- For burden-sensitive choices expose real km/time, base relation, nearest retained A+/A, natural companion, walk/drive burden, `JE BENT ER TOCH` net extra burden, dwell and displacement.
-- Photos belong directly under the correct candidate; preferably around three when visual evidence helps.
-- In a known authorized workflow sequence, prepare the next likely batch ahead where feasible; never claim it is prepared if it is not.
-
-## WHAT A SUCCESSOR MUST NOT DO
-- do not restart Delhi/Tiruvannamalai/Agra/Bodh traveler discovery wholesale;
-- do not re-present dropped C items;
-- do not turn restaurants into sightseeing;
-- do not spend optional-world nights before fixed-core durations are true-closed;
-- do not make Puducherry/Aurobindo or aroma/cashew special interests route-driving without Mark's explicit later choice;
-- do not replace the protected Bodh Gaya walking pilgrimage day with the older vehicle-loop module;
-- do not claim Bodh Gaya's 2-night rule was freshly revalidated after monastery belt [A] until the exact next geometry step above has actually been completed;
-- do not send Mark through ordinary bazaars as a default traveler experience;
-- do not detach images from the candidate they illustrate;
-- do not make Mark wait through a predictable next research cycle when the next authorized batch could have been prepared ahead.
+## HARD GUARDS
+- ordinary bazaars/markets are not Mark-facing candidates;
+- A+/A/A*/B/C are Mark-only grades;
+- C items stay suppressed unless Mark explicitly reopens;
+- no restaurant grade may add route/day/night weight by stealth;
+- no Puducherry/Aurobindo, cashew or aroma interest may become route-driving without Mark's later explicit choice;
+- use full canonical Indian name + Dutch recognition hook + city/microcluster + grade/status;
+- expose real burden before Mark grades unfamiliar places;
+- photos belong directly under the correct candidate, preferably ~3 when useful;
+- prepare the next authorized batch ahead where feasible; never fake preparation and never bypass Mark-only decisions.
 
 UNSAVED_RISK:
 GEEN
