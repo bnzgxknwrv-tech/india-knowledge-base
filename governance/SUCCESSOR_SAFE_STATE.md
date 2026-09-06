@@ -110,6 +110,8 @@ CCI lost-grade recovery found that Kolkata/Puri/Ranchi appear never to have rece
 ## CCI ACTIVE WORK
 - P0 Varanasi/Bodh Gaya lossless canon recovery remains active from CCI note `5558174336`.
 - optional-world research scope is now the hard pair (Braj+Puri vs Kolkata) exact-calendar-proven above. Rishikesh is removed from active comparison immediately; already-completed Rishikesh research remains provenance only.
+- **standing rule recovered 2026-09-06 from INDIA17's final extraction, confirmed directly by Mark same day**: `decisions/CONTENT_BEFORE_CALENDAR_OPTIONAL_WORLD_CHOICE_MARK_RULE_2026-09-06.md` — Mark's actual choice between optional-world packages must be preceded by a full content-richness presentation (photos, explanations, Top-11/saint connections) of the surviving A/B material, not driven by calendar/burden results alone. A `WORK_TASK — PRESENTATIE-DOSSIER BRAJ + KOLKATA + PURI` was drafted the same day to deliver this, separate from the calendar work above.
+- INDIA17's legacy extraction is IN: `runs/active/INDIA-LEGACY-EXTRACTION-001/INDIA17_FINAL_EXTRACTION_2026-09-06.md` (11th session extracted before chat rollover; original raw dump on branch `extraction/india17-2026-09-06`, commit `2979070`, folded into central here).
 
 ## CURRENT FRONTIER
 Underlying frontier remains DELHI FINAL WINDOW / realistic final-day geometry; after that Kumaon short recheck -> Varanasi/Sarnath consistency -> fixed-core total -> Mark's subjective content choice between the two exact-calendar-proven optional packages.
