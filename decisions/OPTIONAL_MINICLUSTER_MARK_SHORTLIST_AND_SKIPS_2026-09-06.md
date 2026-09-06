@@ -6,19 +6,19 @@ Status: CURRENT
 
 Purpose: preserve Mark's explicit shortlist/skip decision after a lossless content review of previously researched mini-clusters. Cluster status and site-level A+/A/A*/B/C grades remain separate axes; this file does not alter any site grade.
 
-## SHORTLIST — FOUR WORLDS TO INVESTIGATE
+## SHORTLIST — THREE WORLDS TO INVESTIGATE
 
-Mark has now explicitly reduced the optional-world investigation pool to exactly these four:
+Mark has now explicitly reduced the optional-world investigation pool to exactly these three:
 
 1. **Braj / Mathura–Vrindavan–Govardhan** — KEEP AS CANDIDATE / INVESTIGATE FURTHER.
-2. **Haridwar–Kankhal–Rishikesh** — KEEP AS CANDIDATE / INVESTIGATE FURTHER, including whether Rishikesh is independently strong for beautiful-India landscape/adventure value rather than only spirituality.
-3. **Kolkata/Calcutta–Hooghly–Serampore–Dakshineswar / Bengal lineage world** — KEEP AS CANDIDATE / INVESTIGATE FURTHER after the burden check showed it is not inherently route-breaking between Varanasi and Chennai.
-4. **Puri/Odisha / Karar Ashram–Sri Yukteswar–Kriya world** — KEEP AS CANDIDATE / INVESTIGATE FURTHER after the burden check showed it is not inherently route-breaking between Varanasi and Chennai.
+2. **Kolkata/Calcutta–Hooghly–Serampore–Dakshineswar / Bengal lineage world** — KEEP AS CANDIDATE / INVESTIGATE FURTHER after the burden check showed it is not inherently route-breaking between Varanasi and Chennai.
+3. **Puri/Odisha / Karar Ashram–Sri Yukteswar–Kriya world** — KEEP AS CANDIDATE / INVESTIGATE FURTHER after the burden check showed it is not inherently route-breaking between Varanasi and Chennai.
 
-No inclusion lock yet for any of these four. They are the only optional clusters currently to receive comparative content + marginal-burden research unless Mark explicitly reopens another world.
+No inclusion lock yet for any of these three. They are the only optional clusters currently to receive comparative content + marginal-burden research unless Mark explicitly reopens another world.
 
 ## FINAL SKIP — DO NOT RE-PRESENT AS OPTIONAL CLUSTER
 
+- **Haridwar–Kankhal–Rishikesh** — FINAL SKIP BY MARK. This supersedes the immediately prior four-world shortlist. Existing site grades such as Anandamayi Ma Mahasamadhi, Har Ki Pauri Aarti, Beatles Ashram and rafting remain preserved; only cluster inclusion is rejected for this trip.
 - **Prayagraj / Allahabad** — FINAL SKIP BY MARK.
 - **Mysuru/Mysore–Bengaluru** — FINAL SKIP BY MARK.
 - **Kasar Devi–Almora / Crank's Ridge dedicated mini-module** — FINAL SKIP BY MARK as a cluster/module. Existing individual site grades/provenance are not rewritten; only true route-free ride-alongs may remain under their own prior rules if independently applicable.
@@ -39,7 +39,7 @@ Current result:
 
 ## PRESENTATION GUARD
 
-When comparing these four, use ordinary numbering only. A+/A/A*/B/C remain exclusively existing Mark grades of places, never scenario labels.
+When comparing these three, use ordinary numbering only. A+/A/A*/B/C remain exclusively existing Mark grades of places, never scenario labels.
 
 For each world, show enough content that Mark can judge it as if reviewing the world fresh: full recognisable place names, what it is, what he sees/does, why it matched his interests, existing grade where one exists, route/night burden, and what experience is unique versus duplicated elsewhere.
 
