@@ -69,8 +69,8 @@ Owner:
 Owner: `decisions/OPTIONAL_WORLD_FINAL_PAIR_SCOPE_2026-09-06.md`.
 
 Mark's newest scope: the final optional-package comparison is ONLY
-- **A. BRAJ + PURI**, or
-- **B. KOLKATA**.
+1. **BRAJ + PURI**, or
+2. **KOLKATA**.
 
 Braj-only, Puri-only, Braj+Kolkata, Kolkata+Puri and all-three are internal diagnostics only, not user-facing alternatives. Haridwar/Kankhal/Rishikesh and other final skips (list below) stay suppressed.
 
@@ -123,7 +123,6 @@ Underlying frontier remains DELHI FINAL WINDOW / realistic final-day geometry; a
 - material decisions must be recorded before reply.
 - C/FINAL SKIP clusters do not return as fresh choices unless Mark explicitly reopens them.
 
-UNSAVED_RISK:
-CURRENT_STATE.md may still contain stale optional-pool wording; CURRENT_DECISIONS_MASTER + owning decision file + this mandatory crash-safe handoff contain the newest controlling Mark truth.
+UNSAVED_RISK: GEEN.
 
 END SUCCESSOR SAFE STATE
