@@ -1,7 +1,7 @@
 # INDIA CURRENT KNOWLEDGE MAP — WAT MOET JE LEZEN / WAT IS OUD
 
 Status: **CURRENT LIVING SOURCE ROUTER — V8 / MANIFEST-DRIVEN / CCI-PARITY FILTERED**
-Updated: 2026-09-05
+Updated: 2026-09-06
 Branch: `agent/india8-cluster-casting`
 Canonical mandatory-set authority: `governance/BOOT_MANIFEST_V8.json`
 Boot owner: `governance/INDIA_MASTER_BOOT.md`
@@ -103,8 +103,24 @@ Router: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_FILE_IN
 Owner: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_POST_TRIAGE_TRUE_DURATION_REVALIDATION_2026-09-05.md`.
 Five nights freshly TRUE_DURATION_CLOSED; do not reopen 4/5/6 without material later delta. Sun Thermo remains OPEN/access-to-prove with zero baseline duration weight.
 
-# G. OPTIONAL WORLDS / GLOBAL ROUTE
-Hold until fixed-world duration rechecks are complete and fixed-core total known. Later compare WITHOUT / WITH / NET extra km + human time + nights + backtracking + displacement + newly cheap companions. Do not use old A/B/C/D/E package letters.
+# G. OPTIONAL WORLDS / GLOBAL ROUTE — CURRENT FINAL PAIR SCOPE, LATER THAN DELHI FRONTIER
+Current scope owner:
+`decisions/OPTIONAL_WORLD_FINAL_PAIR_SCOPE_2026-09-06.md`.
+
+Current standing presentation owner:
+`decisions/CONTENT_BEFORE_CALENDAR_OPTIONAL_WORLD_CHOICE_MARK_RULE_2026-09-06.md`.
+
+The final user-facing optional-package comparison is ONLY:
+1. **Braj + Puri** — Braj / Mathura–Vrindavan–Govardhan plus Puri/Odisha / Karar Ashram–Sri Yukteswar–Kriya world.
+2. **Kolkata** — Kolkata/Calcutta–Hooghly–Serampore–Dakshineswar/Panihati Bengal-lineage world.
+
+Do not present Braj-only, Puri-only, Braj+Kolkata, Kolkata+Puri or Braj+Kolkata+Puri as final alternatives; they are internal diagnostics only. Haridwar/Kankhal/Rishikesh and other final-skipped optional clusters remain suppressed unless Mark explicitly reopens them.
+
+Haidakhan Vishwa Mahadham [A+] remains included/LOCKED_BY_MARK. Any H− calculation is sensitivity only and is not permission to remove it.
+
+The exact-calendar/whole-human burden comparison is necessary feasibility evidence but does NOT choose the winner. Before Mark makes the optional-world choice, present a full content-richness dossier for the two surviving packages: reconstruct the complete relevant historical Mark grades losslessly, explain what each place physically is and what Mark sees/does, preserve Top-11/AOAY/person links, separate cluster status from site grade, and show representative photos when appearance materially matters. Mark must be able to judge content without Googling or opening Maps.
+
+This optional-package choice is not the current content action. Finish the Delhi final-window frontier and the prescribed fixed-core consistency/total steps first unless newer explicit Mark truth changes the sequence.
 
 # H. GEO / MAP / LIVE FACT ROUTING
 Owner: `governance/MAP_COORDINATE_VERIFICATION_RULE.md`.
