@@ -1,6 +1,6 @@
 # CURRENT STATE — INDIA
 
-state_revision: 2026-09-06_AGRA_TRUE_CLOSED__DELHI_FINAL_WINDOW_NEXT__ARRIVAL_RAIL_FIRST__KUMAON_NAINITAL_FIRST_LEADING__AUROBINDO_PUDUCHERRY_EXCLUDED
+state_revision: 2026-09-06_AGRA_TRUE_CLOSED__DELHI_FINAL_WINDOW_NEXT__ARRIVAL_RAIL_FIRST__KUMAON_NAINITAL_FIRST_LEADING__AUROBINDO_PUDUCHERRY_EXCLUDED__OPTIONAL_PAIR_SCOPE_BRAJPURI_VS_KOLKATA_EXACT_PASS_DONE
 branch: `agent/india8-cluster-casting`
 status: TRAVEL_FRONTIER_ACTIVE__DELHI_FINAL_WINDOW_GEOMETRY_NEXT
 boot_authority: `governance/INDIA_MASTER_BOOT.md` + `governance/FRESH_SESSION_BOOT_GATE.md` + `governance/BOOT_MANIFEST_V8.json`
@@ -148,10 +148,25 @@ Required next actions:
 
 ## SEQUENCE AFTER DELHI
 1. Kumaon — short recheck of prior ~9-night footprint; carry **Nainital-first** as the newest leading topology preference; aromatic-oil/distillation [B] only if route-cheap.
-2. Varanasi/Sarnath — short consistency recheck of prior ~8-night footprint.
+2. Varanasi/Sarnath — short consistency recheck of prior ~8-night footprint. Rechecked again 2026-09-06 (see exact-pass file below); no later explicit Mark decision found that changes the 8-night lock — this line's "recheck" wording itself still needs a one-line owner edit, not yet done.
 3. Sum fixed-core accommodation/overnight-transport slots against 33 India slots.
 4. Compare optional worlds by marginal WITH vs WITHOUT burden only then.
 5. Mark chooses survivors -> final topology -> live logistics -> exact calendar -> FINAL COMFORT -> final day cards.
+
+## OPTIONAL-WORLD PAIR SCOPE — EXACT CALENDAR PASS DONE (2026-09-06)
+Hard scope (`decisions/OPTIONAL_WORLD_FINAL_PAIR_SCOPE_2026-09-06.md`): the only two final optional packages under comparison are **BRAJ+PURI** and **KOLKATA**. Braj-only, Puri-only, Braj+Kolkata, Kolkata+Puri and all-three are internal diagnostics only, not user-facing alternatives.
+
+Exact-date calendar pass against real 2026/27 weekdays:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BRAJ_PURI_VS_KOLKATA_EXACT_CALENDAR_PASS_2026-09-06.md`.
+
+Headline results:
+- **Braj+Puri / H+ (Haidakhan retained)**: the scope file's stated 3-night minimum collides with a real date fact (1 Jan 2027 is a Friday, Taj closed Fridays); corrected minimum is Braj 2 + Puri 2 = 4 nights, fitting exactly 33/33 with zero spare and one unresolved weekday-fragile flight (VNS->BBI). Comfortable (5 nights) overshoots by 1 night — FAIL under H+.
+- **Braj+Puri / H− (hypothetical Haidakhan drop, sensitivity only)**: comfortable (5 nights) fits with 3 spare nights; Friday-Taj collision does not arise because the whole spine shifts 3 days earlier.
+- **Kolkata / H+**: comfortable (3 nights) fits with 1 spare night positioned right before the international departure; no weekday-fragile edge (VNS-CCU and CCU-MAA both daily).
+- **Kolkata / H−**: comfortable (3 nights) fits with 4 spare nights.
+- Bodh Gaya's conditional 3rd night can flip Braj+Puri/H+ to FAIL entirely and erodes Kolkata/H+'s buffer to zero — see the sensitivity table in the owning file.
+
+No package winner chosen. Haidakhan's inclusion/lock is unchanged; H− remains sensitivity only.
 
 ## SPECIAL-INTEREST CURRENT TRUTH — NON-BLOCKING
 - Sun Thermo Process near Tiruvannamalai [OPEN / ACCESS TO PROVE]; zero baseline duration weight.

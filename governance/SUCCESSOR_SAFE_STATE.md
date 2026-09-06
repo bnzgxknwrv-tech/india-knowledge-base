@@ -2,7 +2,7 @@
 
 STATUS: SAFE_TO_HANDOFF
 
-Full status: **HARD LIVING CHECKPOINT / SAFE_TO_HANDOFF / AGRA_TRUE_CLOSED / DELHI_FINAL_WINDOW_NEXT / DELHI_ARRIVAL_RAIL_FIRST / KUMAON_NAINITAL_FIRST_LEADING / OPTIONAL_SHORTLIST_BRAJ_KOLKATA_PURI / RISHIKESH_FINAL_SKIP / AUROBINDO_PUDUCHERRY_EXCLUDED**.
+Full status: **HARD LIVING CHECKPOINT / SAFE_TO_HANDOFF / AGRA_TRUE_CLOSED / DELHI_FINAL_WINDOW_NEXT / DELHI_ARRIVAL_RAIL_FIRST / KUMAON_NAINITAL_FIRST_LEADING / OPTIONAL_PAIR_SCOPE_BRAJPURI_VS_KOLKATA / RISHIKESH_FINAL_SKIP / AUROBINDO_PUDUCHERRY_EXCLUDED**.
 Updated: 2026-09-06
 Branch: `agent/india8-cluster-casting`
 
@@ -65,14 +65,32 @@ Owner:
 - Haidakhan Vishwa Mahadham [A+] remains 3 nights / 2 complete full quiet days LOCKED_BY_MARK.
 - exact Haidakhan gateway and final outbound rail geometry still require closure.
 
-## OPTIONAL MINICLUSTERS — NEWEST MARK TRUTH
+## OPTIONAL WORLD — HARD PAIR SCOPE (SUPERSEDES THE THREE-CANDIDATE LIST BELOW)
+Owner: `decisions/OPTIONAL_WORLD_FINAL_PAIR_SCOPE_2026-09-06.md`.
+
+Mark's newest scope: the final optional-package comparison is ONLY
+- **A. BRAJ + PURI**, or
+- **B. KOLKATA**.
+
+Braj-only, Puri-only, Braj+Kolkata, Kolkata+Puri and all-three are internal diagnostics only, not user-facing alternatives. Haridwar/Kankhal/Rishikesh and other final skips (list below) stay suppressed.
+
+Exact-date calendar proof against real 2026/27 weekdays is DONE:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BRAJ_PURI_VS_KOLKATA_EXACT_CALENDAR_PASS_2026-09-06.md`.
+
+Headline results (H+ = Haidakhan retained/canon, H− = hypothetical drop, sensitivity only, not a decision):
+- Braj+Puri/H+: the coarse "3-night minimum" collides with a real date fact (1 Jan 2027 is a Friday, Taj closed Fridays); corrected minimum is 4 nights (Braj 2 + Puri 2), fitting 33/33 with zero spare and one unresolved weekday-fragile flight (VNS->BBI). Comfortable (5 nights) overshoots by 1 night — FAIL.
+- Braj+Puri/H−: comfortable (5 nights) fits with 3 spare nights; Friday collision does not arise.
+- Kolkata/H+: comfortable (3 nights) fits with 1 spare night before international departure; no weekday-fragile edge.
+- Kolkata/H−: comfortable (3 nights) fits with 4 spare nights.
+- Bodh Gaya's conditional 3rd night can flip Braj+Puri/H+ to FAIL outright and erodes Kolkata/H+'s buffer to zero.
+
+No package winner chosen. This is the current controlling optional-world truth; the three-candidate framing below is superseded background only.
+
+## OPTIONAL MINICLUSTERS — SUPERSEDED BACKGROUND (see hard pair scope above)
 Detailed owner:
 `decisions/OPTIONAL_MINICLUSTER_MARK_SHORTLIST_AND_SKIPS_2026-09-06.md`.
 
-Only THREE optional worlds remain candidates for research:
-- **Braj / Mathura–Vrindavan–Govardhan — Krishna/Yogananda/NKB/Ram Dass/Ramakrishna/Anandamayi Ma overlap world** — CANDIDATE.
-- **Kolkata/Calcutta–Hooghly–Serampore–Dakshineswar/Panihati — Bengal lineage world** — CANDIDATE.
-- **Puri/Odisha / Karar Ashram–Sri Yukteswar–Kriya world** — CANDIDATE.
+Originally three candidates were open for research (Braj, Kolkata, Puri); Mark has since narrowed final comparison to exactly the two packages above.
 
 FINAL SKIP / DO NOT RE-PRESENT unless Mark explicitly reopens:
 - **Haridwar–Kankhal–Rishikesh — FINAL SKIP BY MARK on 2026-09-06.** This supersedes the immediately prior candidate status after Mark considered both the spiritual layer and the scenic/non-spiritual Rishikesh value. Existing individual site grades are preserved; only cluster inclusion is rejected.
@@ -91,10 +109,10 @@ CCI lost-grade recovery found that Kolkata/Puri/Ranchi appear never to have rece
 
 ## CCI ACTIVE WORK
 - P0 Varanasi/Bodh Gaya lossless canon recovery remains active from CCI note `5558174336`.
-- optional-world research scope is now **Braj + Kolkata/Bengal + Puri/Odisha only**. Rishikesh is removed from active comparison immediately; already-completed Rishikesh research remains provenance only.
+- optional-world research scope is now the hard pair (Braj+Puri vs Kolkata) exact-calendar-proven above. Rishikesh is removed from active comparison immediately; already-completed Rishikesh research remains provenance only.
 
 ## CURRENT FRONTIER
-Underlying frontier remains DELHI FINAL WINDOW / realistic final-day geometry; after that Kumaon short recheck -> Varanasi/Sarnath consistency -> fixed-core total -> optional marginal insertion using only the three surviving candidate worlds.
+Underlying frontier remains DELHI FINAL WINDOW / realistic final-day geometry; after that Kumaon short recheck -> Varanasi/Sarnath consistency -> fixed-core total -> Mark's subjective content choice between the two exact-calendar-proven optional packages.
 
 ## HARD GUARDS
 - A+/A/A*/B/C are Mark-only grades.
