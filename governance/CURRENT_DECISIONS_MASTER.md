@@ -168,19 +168,19 @@ Owner: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_POST_TRI
 
 Sun Thermo Process remains OPEN / ACCESS TO PROVE; real factory about 15 km from town, no public visitor-tour regime found, zero baseline duration weight.
 
-## 12. OPTIONAL WORLDS — FOUR-WORLD INVESTIGATION POOL
-Newest explicit Mark truth supersedes the older blanket East-family wording for Kolkata/Puri.
+## 12. OPTIONAL WORLDS — THREE-WORLD INVESTIGATION POOL
+Newest explicit Mark truth controls.
 
 Detailed owner:
 `decisions/OPTIONAL_MINICLUSTER_MARK_SHORTLIST_AND_SKIPS_2026-09-06.md`.
 
 The ONLY optional worlds currently to investigate are:
 1. **Braj / Mathura–Vrindavan–Govardhan — Krishna/Yogananda/NKB/Ram Dass/Ramakrishna/Anandamayi Ma overlap world** — CANDIDATE, not included yet.
-2. **Haridwar–Kankhal–Rishikesh — Ganges/Anandamayi Ma/yoga/adventure/foothill world** — CANDIDATE, not included yet; explicitly investigate whether Rishikesh is independently compelling as beautiful India / landscape-adventure content, not merely spiritual content.
-3. **Kolkata/Calcutta–Hooghly–Serampore–Dakshineswar/Panihati — Bengal lineage world with Yogananda/Kriya/Ramakrishna history** — REOPENED FOR CANDIDATE RESEARCH by Mark after objective burden showed it is not inherently route-breaking between Varanasi and Chennai; no historic Mark site-grading round recovered, so do not invent grades.
-4. **Puri/Odisha / Karar Ashram–Sri Yukteswar–Kriya world** — REOPENED FOR CANDIDATE RESEARCH by Mark after objective burden showed it is not inherently route-breaking between Varanasi and Chennai; no historic Mark site-grading round recovered, so do not invent grades.
+2. **Kolkata/Calcutta–Hooghly–Serampore–Dakshineswar/Panihati — Bengal lineage world with Yogananda/Kriya/Ramakrishna history** — REOPENED FOR CANDIDATE RESEARCH by Mark after objective burden showed it is not inherently route-breaking between Varanasi and Chennai; no historic Mark site-grading round recovered, so do not invent grades.
+3. **Puri/Odisha / Karar Ashram–Sri Yukteswar–Kriya world** — REOPENED FOR CANDIDATE RESEARCH by Mark after objective burden showed it is not inherently route-breaking between Varanasi and Chennai; no historic Mark site-grading round recovered, so do not invent grades.
 
 Final skips / do not re-present as optional cluster unless Mark explicitly reopens:
+- **Haridwar–Kankhal–Rishikesh — FINAL SKIP BY MARK.** Existing site grades remain preserved; this is a cluster-inclusion decision only.
 - Prayagraj / Allahabad — FINAL SKIP.
 - Mysuru/Mysore–Bengaluru — FINAL SKIP.
 - Kasar Devi–Almora / Crank's Ridge dedicated module — FINAL SKIP as module; individual route-free ride-along rules/grades remain separate.
@@ -192,7 +192,7 @@ Existing burden result:
 - Puri after Varanasi before Chennai: not route-breaking; 2 hotel nights credible minimum, 3 comfortable, but more transfer friction via Bhubaneswar.
 - exact Jan-2027 services/fare remain LIVE_RECHECK_LATER.
 
-Do not ask Mark to choose among the four until the four-world content + marginal-burden research surface is complete enough to judge without Googling.
+Do not ask Mark to choose among the three until the content + marginal-burden research surface is complete enough to judge without Googling.
 
 ## 13. SPECIAL-INTEREST / FINAL-COMFORT BOUNDARY
 Food/shop-only findings normally wait for FINAL COMFORT. A real factory/process/distillation visit can be separate travel content only if Mark grades that concrete experience and its marginal burden is justified.
@@ -214,9 +214,9 @@ Sequence:
 
 Parallel authorized work now active:
 - CCI P0 Varanasi/Bodh Gaya lossless canon recovery from note `5558174336`;
-- CCI four-world deep optional decision surface for Braj, Haridwar/Rishikesh, Kolkata/Bengal and Puri/Odisha.
+- CCI optional decision surface is now scoped to **Braj, Kolkata/Bengal and Puri/Odisha only**; any already-spent Rishikesh research is provenance, not a reason to re-present it.
 
-After Delhi: Kumaon -> Varanasi consistency rechecks -> fixed-core total -> optional-world marginal insertion using only the four-world pool above.
+After Delhi: Kumaon -> Varanasi consistency rechecks -> fixed-core total -> optional-world marginal insertion using only the three-world pool above.
 
 ## 16. AFTER EVERY MATERIAL EVENT
 Mark decisions: preserve WHAT + WHY + provenance. Material execution/research: write owning file and synchronize current state/routing before reply. A successor must continue from GitHub without Mark reconstructing chat history.
