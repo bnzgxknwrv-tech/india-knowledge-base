@@ -74,15 +74,15 @@ Mark's newest scope: the final optional-package comparison is ONLY
 
 Braj-only, Puri-only, Braj+Kolkata, Kolkata+Puri and all-three are internal diagnostics only, not user-facing alternatives. Haridwar/Kankhal/Rishikesh and other final skips (list below) stay suppressed.
 
-Exact-date calendar proof against real 2026/27 weekdays is DONE:
+Exact-date calendar proof against real 2026/27 weekdays is DONE and has been reconciled with an independent Work audit that found arithmetic inconsistencies in the first version:
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BRAJ_PURI_VS_KOLKATA_EXACT_CALENDAR_PASS_2026-09-06.md`.
 
-Headline results (H+ = Haidakhan retained/canon, H− = hypothetical drop, sensitivity only, not a decision):
-- Braj+Puri/H+: the coarse "3-night minimum" collides with a real date fact (1 Jan 2027 is a Friday, Taj closed Fridays); corrected minimum is 4 nights (Braj 2 + Puri 2), fitting 33/33 with zero spare and one unresolved weekday-fragile flight (VNS->BBI). Comfortable (5 nights) overshoots by 1 night — FAIL.
-- Braj+Puri/H−: comfortable (5 nights) fits with 3 spare nights; Friday collision does not arise.
-- Kolkata/H+: comfortable (3 nights) fits with 1 spare night before international departure; no weekday-fragile edge.
-- Kolkata/H−: comfortable (3 nights) fits with 4 spare nights.
-- Bodh Gaya's conditional 3rd night can flip Braj+Puri/H+ to FAIL outright and erodes Kolkata/H+'s buffer to zero.
+Headline results, corrected and reconciled (H+ = Haidakhan retained/canon, H− = hypothetical drop, sensitivity only, not a decision):
+- Braj+Puri/H+: the coarse "3-night minimum" collides with a real date fact (1 Jan 2027 is a Friday, Taj closed Fridays, re-verified via Zeller's congruence); corrected minimum is 4 nights (Braj 2 + Puri 2), fitting 33/33 with zero spare. Also depends on an unverified same-morning Delhi Cantt->Mathura connection with no recovery capacity — **verdict FAIL**, not merely MARGINAL (CCI agrees with the independent audit's stricter call; a current-evidence verdict, reversible if that connection is later verified as safe). Comfortable (5 nights) consumes all 33 nights finishing Tiruvannamalai alone with zero nights left for any Delhi leg — FAIL, more severely than a simple overshoot.
+- Braj+Puri/H−: comfortable (5 nights) fits with **2** spare nights (corrected from an initially miscounted 3); Friday collision does not arise. PASS.
+- Kolkata/H+: comfortable (3 nights) fits with 1 spare night before international departure (recount confirms); no weekday-fragile edge. PASS.
+- Kolkata/H−: comfortable (3 nights) fits with 4 spare nights (recount confirms). PASS.
+- Bodh Gaya's conditional 3rd night erodes every family's remaining buffer by 1 night; already-FAIL families stay FAIL, already-PASS families lose one night of margin.
 
 No package winner chosen. This is the current controlling optional-world truth; the three-candidate framing below is superseded background only.
 

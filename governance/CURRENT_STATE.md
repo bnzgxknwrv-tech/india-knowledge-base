@@ -153,17 +153,17 @@ Required next actions:
 4. Compare optional worlds by marginal WITH vs WITHOUT burden only then.
 5. Mark chooses survivors -> final topology -> live logistics -> exact calendar -> FINAL COMFORT -> final day cards.
 
-## OPTIONAL-WORLD PAIR SCOPE — EXACT CALENDAR PASS DONE (2026-09-06)
+## OPTIONAL-WORLD PAIR SCOPE — EXACT CALENDAR PASS DONE, RECONCILED WITH INDEPENDENT AUDIT (2026-09-06)
 Hard scope (`decisions/OPTIONAL_WORLD_FINAL_PAIR_SCOPE_2026-09-06.md`): the only two final optional packages under comparison are **BRAJ+PURI** and **KOLKATA**. Braj-only, Puri-only, Braj+Kolkata, Kolkata+Puri and all-three are internal diagnostics only, not user-facing alternatives.
 
-Exact-date calendar pass against real 2026/27 weekdays:
+Exact-date calendar pass against real 2026/27 weekdays, revised after an independent Work audit found arithmetic inconsistencies in the first version (numbers below are the corrected, date-by-date-verified ones):
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BRAJ_PURI_VS_KOLKATA_EXACT_CALENDAR_PASS_2026-09-06.md`.
 
 Headline results:
-- **Braj+Puri / H+ (Haidakhan retained)**: the scope file's stated 3-night minimum collides with a real date fact (1 Jan 2027 is a Friday, Taj closed Fridays); corrected minimum is Braj 2 + Puri 2 = 4 nights, fitting exactly 33/33 with zero spare and one unresolved weekday-fragile flight (VNS->BBI). Comfortable (5 nights) overshoots by 1 night — FAIL under H+.
-- **Braj+Puri / H− (hypothetical Haidakhan drop, sensitivity only)**: comfortable (5 nights) fits with 3 spare nights; Friday-Taj collision does not arise because the whole spine shifts 3 days earlier.
-- **Kolkata / H+**: comfortable (3 nights) fits with 1 spare night positioned right before the international departure; no weekday-fragile edge (VNS-CCU and CCU-MAA both daily).
-- **Kolkata / H−**: comfortable (3 nights) fits with 4 spare nights.
+- **Braj+Puri / H+ (Haidakhan retained)**: the scope file's stated 3-night minimum collides with a real date fact (1 Jan 2027 is a Friday, Taj closed Fridays, re-verified via Zeller's congruence); corrected minimum is Braj 2 + Puri 2 = 4 nights, fitting exactly 33/33 with zero spare. Also depends on an unverified same-morning Delhi Cantt->Mathura connection with no recovery capacity if it fails — **verdict FAIL, not merely MARGINAL** (CCI reconciled to agree with the stricter independent-audit call; current-evidence verdict, not permanent). Comfortable (5 nights) consumes all 33 nights finishing Tiruvannamalai alone, leaving zero nights for any Delhi leg — **FAIL**, more severely than a simple 1-night overshoot.
+- **Braj+Puri / H− (hypothetical Haidakhan drop, sensitivity only)**: comfortable (5 nights) fits with **2** spare nights (corrected from an initially miscounted 3); Friday-Taj collision does not arise because the whole spine shifts 3 days earlier. **PASS.**
+- **Kolkata / H+**: comfortable (3 nights) fits with 1 spare night positioned right before the international departure (corrected recount, same conclusion); no weekday-fragile edge. **PASS.**
+- **Kolkata / H−**: comfortable (3 nights) fits with 4 spare nights (corrected recount, same conclusion). **PASS.**
 - Bodh Gaya's conditional 3rd night can flip Braj+Puri/H+ to FAIL entirely and erodes Kolkata/H+'s buffer to zero — see the sensitivity table in the owning file.
 
 No package winner chosen. Haidakhan's inclusion/lock is unchanged; H− remains sensitivity only.
