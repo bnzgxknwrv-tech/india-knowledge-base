@@ -1,6 +1,6 @@
 # CURRENT STATE — INDIA
 
-state_revision: 2026-09-05_AGRA_TRUE_CLOSED__DELHI_FINAL_WINDOW_NEXT__ARRIVAL_RAIL_FIRST__KUMAON_NAINITAL_FIRST_LEADING
+state_revision: 2026-09-06_AGRA_TRUE_CLOSED__DELHI_FINAL_WINDOW_NEXT__ARRIVAL_RAIL_FIRST__KUMAON_NAINITAL_FIRST_LEADING__AUROBINDO_PUDUCHERRY_EXCLUDED
 branch: `agent/india8-cluster-casting`
 status: TRAVEL_FRONTIER_ACTIVE__DELHI_FINAL_WINDOW_GEOMETRY_NEXT
 boot_authority: `governance/INDIA_MASTER_BOOT.md` + `governance/FRESH_SESSION_BOOT_GATE.md` + `governance/BOOT_MANIFEST_V8.json`
@@ -155,11 +155,11 @@ Required next actions:
 
 ## SPECIAL-INTEREST CURRENT TRUTH — NON-BLOCKING
 - Sun Thermo Process near Tiruvannamalai [OPEN / ACCESS TO PROVE]; zero baseline duration weight.
-- Panruti cashew background/provisional mainly if optional Puducherry survives naturally.
+- Panruti cashew background/provisional only; it no longer creates a Puducherry/Aurobindo cluster candidate.
+- **Sri Aurobindo Ashram / Puducherry — incidental side-cluster from the old Panruti-cashew adjacency chain — EXCLUDED_BY_MARK / DO NOT RE-PRESENT unless explicitly reopened.**
 - Delhi cashew-shopping is not a destination.
 - Kumaon/Nainital aromatic-oil/distillation [B] only if route-cheap; no separate day.
 - Eucalyptus-specific detour search dropped.
-- Sri Aurobindo Ashram/Puducherry [OPEN / CONDITIONAL WISH] only if southern exit makes it nearly free/very cheap.
 - ordinary bazaars/markets are not Mark-facing candidates.
 
 ## HARD PRESENTATION / DECISION GUARDS
