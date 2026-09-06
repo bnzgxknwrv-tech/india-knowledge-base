@@ -1,0 +1,8 @@
+# INDIA2 FINAL EXTRACTION — 2026-09-06
+
+1. WAAROM: Bij Haidakhan Vishwa Mahadham is de reden achter Marks A-keuze belangrijker dan alleen de A-status: sterke persoonlijke aantrekking tot Haidakhan Babaji en de wens om een levende ashramervaring te hebben, terwijl de identificatie met Mahavatar Babaji nadrukkelijk niet als feit geldt.
+2. AFGEWEZEN OPTIES: Mount Kailash in Tibet, Adi Kailash, Om Parvat en Badrinath vielen voor deze winterreis af door seizoens-/winteronhaalbaarheid en werden bewust als toekomstige aparte pelgrimages bewaard; Tiruvannamalai/Arunachala werd nog niet gekozen maar als serieuze kandidaatmodule uitgesteld tot eerlijke vergelijking met Puri.
+3. FOUT GECORRIGEERD: Een belangrijke terugkerende fout was te vroeg diep onderzoek doen vóór de basisarchitectuur van clusters vaststond; correctie: eerst basiskaart en cluster-sweep, daarna pas dagen, nachten, hotels en detaillogistiek.
+4. LOSSE OPMERKING VAN MARK: Mark liet duidelijk blijken dat hij waarschijnlijk meer waarde hecht aan rust, levende ashrams, spirituele verdieping en twee volledige dagen op één plek dan aan het toevoegen van nog een stad; bij Haidakhan neigt hij daarom naar drie nachten als werkhypothese.
+5. HALF AFGEROND: De eerstvolgende inhoudelijke klus was een BASIS-SWEEP van Vrindavan / Mathura / Govardhan / Agra; daarvoor is een generieke sweep-startvraag gemaakt, maar de eigenlijke sweep zelf was nog niet uitgevoerd.
+6. VERWARRING OVER GITHUB: Tijdens dit gesprek bleken meerdere continuïteitsbestanden en actuele besluiten aanvankelijk achter te lopen op de chat, waardoor expliciet een CHATGPT_ROLE, CHATGPT_HANDOFF, geactualiseerde CURRENT_FOCUS en formele Haidakhan-DECISION nodig waren om chatkennis niet als enige opslagplaats te laten bestaan.
