@@ -168,31 +168,45 @@ Owner: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_POST_TRI
 
 Sun Thermo Process remains OPEN / ACCESS TO PROVE; real factory about 15 km from town, no public visitor-tour regime found, zero baseline duration weight.
 
-## 12. OPTIONAL WORLDS — THREE-WORLD INVESTIGATION POOL
+## 12. OPTIONAL WORLDS — FINAL PAIR SCOPE / LATER THAN CURRENT DELHI FRONTIER
 Newest explicit Mark truth controls.
 
-Detailed owner:
-`decisions/OPTIONAL_MINICLUSTER_MARK_SHORTLIST_AND_SKIPS_2026-09-06.md`.
+Current scope owner:
+`decisions/OPTIONAL_WORLD_FINAL_PAIR_SCOPE_2026-09-06.md`.
 
-The ONLY optional worlds currently to investigate are:
-1. **Braj / Mathura–Vrindavan–Govardhan — Krishna/Yogananda/NKB/Ram Dass/Ramakrishna/Anandamayi Ma overlap world** — CANDIDATE, not included yet.
-2. **Kolkata/Calcutta–Hooghly–Serampore–Dakshineswar/Panihati — Bengal lineage world with Yogananda/Kriya/Ramakrishna history** — REOPENED FOR CANDIDATE RESEARCH by Mark after objective burden showed it is not inherently route-breaking between Varanasi and Chennai; no historic Mark site-grading round recovered, so do not invent grades.
-3. **Puri/Odisha / Karar Ashram–Sri Yukteswar–Kriya world** — REOPENED FOR CANDIDATE RESEARCH by Mark after objective burden showed it is not inherently route-breaking between Varanasi and Chennai; no historic Mark site-grading round recovered, so do not invent grades.
+Standing choice-presentation owner:
+`decisions/CONTENT_BEFORE_CALENDAR_OPTIONAL_WORLD_CHOICE_MARK_RULE_2026-09-06.md`.
+
+The ONLY final user-facing optional-package alternatives are:
+1. **Braj + Puri** — Braj / Mathura–Vrindavan–Govardhan overlap world together with Puri/Odisha / Karar Ashram–Sri Yukteswar–Kriya world.
+2. **Kolkata** — Kolkata/Calcutta–Hooghly–Serampore–Dakshineswar/Panihati Bengal-lineage world.
+
+Do not continue presenting Braj-only, Puri-only, Braj+Kolkata, Kolkata+Puri or Braj+Kolkata+Puri as final alternatives. They may be used only as internal diagnostics when needed for transport arithmetic.
 
 Final skips / do not re-present as optional cluster unless Mark explicitly reopens:
-- **Haridwar–Kankhal–Rishikesh — FINAL SKIP BY MARK.** Existing site grades remain preserved; this is a cluster-inclusion decision only.
+- Haridwar–Kankhal–Rishikesh — FINAL SKIP BY MARK; existing individual site grades stay preserved.
 - Prayagraj / Allahabad — FINAL SKIP.
 - Mysuru/Mysore–Bengaluru — FINAL SKIP.
 - Kasar Devi–Almora / Crank's Ridge dedicated module — FINAL SKIP as module; individual route-free ride-along rules/grades remain separate.
 - Ranchi — FINAL SKIP.
 - Sri Aurobindo Ashram / Puducherry — FINAL SKIP / DO NOT RE-PRESENT.
 
-Existing burden result:
-- Kolkata after Varanasi before Chennai: not route-breaking; 2 hotel nights compressed credible lower bound, 3 more comfortable.
-- Puri after Varanasi before Chennai: not route-breaking; 2 hotel nights credible minimum, 3 comfortable, but more transfer friction via Bhubaneswar.
-- exact Jan-2027 services/fare remain LIVE_RECHECK_LATER.
+Haidakhan sensitivity:
+- Haidakhan Vishwa Mahadham [A+] remains included/LOCKED_BY_MARK.
+- H+ means Haidakhan retained and is current canon.
+- H− is hypothetical sensitivity only; it is not permission to remove Haidakhan.
 
-Do not ask Mark to choose among the three until the content + marginal-burden research surface is complete enough to judge without Googling.
+Current exact-calendar/whole-human burden evidence is already produced and independently reconciled. It is feasibility evidence, not the subjective choice driver. No package winner has been chosen.
+
+Hard standing Mark rule before the eventual package choice:
+- present a full content-richness dossier for both surviving package alternatives before asking Mark to choose;
+- reconstruct existing historical site-level grades losslessly; cluster status and site grade are separate axes;
+- explain what each place physically is and what Mark sees/does there;
+- preserve Top-11/AOAY/person links and the reason each location mattered;
+- show representative photos when appearance materially affects attractiveness;
+- calendar/burden PASS/FAIL and spare-night arithmetic answer `kan het passen?`, not `wil Mark dit inhoudelijk?`.
+
+This optional-package decision is not the current content action. Delhi final-window geometry remains first under current frontier routing.
 
 ## 13. SPECIAL-INTEREST / FINAL-COMFORT BOUNDARY
 Food/shop-only findings normally wait for FINAL COMFORT. A real factory/process/distillation visit can be separate travel content only if Mark grades that concrete experience and its marginal burden is justified.
@@ -212,11 +226,12 @@ Sequence:
 6. protect international departure and whole-human burden;
 7. checkpoint objective result before any Mark-only choice.
 
-Parallel authorized work now active:
-- CCI P0 Varanasi/Bodh Gaya lossless canon recovery from note `5558174336`;
-- CCI optional decision surface is now scoped to **Braj, Kolkata/Bengal and Puri/Odisha only**; any already-spent Rishikesh research is provenance, not a reason to re-present it.
+Parallel/recent work state:
+- CCI P0 Varanasi/Bodh Gaya lossless canon recovery from note `5558174336` remains active unless newer central output closes it;
+- optional-package exact-calendar work has already been produced and reconciled for the hard pair scope **Braj+Puri versus Kolkata**;
+- before the eventual optional choice, the separate full content-richness dossier required by `decisions/CONTENT_BEFORE_CALENDAR_OPTIONAL_WORLD_CHOICE_MARK_RULE_2026-09-06.md` must be available and applied.
 
-After Delhi: Kumaon -> Varanasi consistency rechecks -> fixed-core total -> optional-world marginal insertion using only the three-world pool above.
+After Delhi: Kumaon -> Varanasi consistency rechecks -> fixed-core total -> optional final-pair process using only Braj+Puri versus Kolkata, with the content-first choice rule preserved.
 
 ## 16. AFTER EVERY MATERIAL EVENT
 Mark decisions: preserve WHAT + WHY + provenance. Material execution/research: write owning file and synchronize current state/routing before reply. A successor must continue from GitHub without Mark reconstructing chat history.
