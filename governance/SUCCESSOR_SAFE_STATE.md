@@ -2,7 +2,7 @@
 
 STATUS: SAFE_TO_HANDOFF
 
-Full status: **HARD LIVING CHECKPOINT / SAFE_TO_HANDOFF / AGRA_TRUE_CLOSED / DELHI_FINAL_WINDOW_NEXT / DELHI_ARRIVAL_RAIL_FIRST / KUMAON_NAINITAL_FIRST_LEADING / OPTIONAL_SHORTLIST_BRAJ_RISHIKESH / KOLKATA_PURI_BURDEN_OPEN / AUROBINDO_PUDUCHERRY_EXCLUDED**.
+Full status: **HARD LIVING CHECKPOINT / SAFE_TO_HANDOFF / AGRA_TRUE_CLOSED / DELHI_FINAL_WINDOW_NEXT / DELHI_ARRIVAL_RAIL_FIRST / KUMAON_NAINITAL_FIRST_LEADING / OPTIONAL_SHORTLIST_BRAJ_KOLKATA_PURI / RISHIKESH_FINAL_SKIP / AUROBINDO_PUDUCHERRY_EXCLUDED**.
 Updated: 2026-09-06
 Branch: `agent/india8-cluster-casting`
 
@@ -44,146 +44,66 @@ Owner:
 - Skandashram [A] + Virupaksha Cave [A] hill day;
 - full 14 km Girivalam [A] day + recovery.
 
-Four nights compresses protected content; six is not required by missing retained A+/A. Restaurants remain FINAL COMFORT. Sathanur/market C stay suppressed. Sun Thermo stays OPEN / ACCESS TO PROVE with zero baseline duration weight.
-
 ## AGRA / TAJ — DONE / TRUE_DURATION_CLOSED
 Owner:
 `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/AGRA_POST_TRIAGE_ONE_NIGHT_REVALIDATION_2026-09-05.md`.
 
-Protected truth:
-- Taj Mahal [A+] [UNESCO WH] is the sole fixed-core Agra sightseeing anchor;
-- one Agra hotel night in genuinely walkable East Gate/Shilpgram geometry is the prior Mark lock;
-- rejected Agra monuments remain rejected absent explicit reopen;
-- Yogananda historical-photo cue at Taj remains required.
+- Taj Mahal [A+] [UNESCO WH] sole fixed-core sightseeing anchor.
+- one Agra hotel night in genuinely walkable East Gate/Shilpgram geometry = LOCKED_BY_MARK and objectively confirmed.
+- same-evening Agra Fort -> Gaya sleeper class currently remains the leading execution class; exact Jan-2027 service is LIVE_RECHECK_LATER.
 
-Fresh execution result:
-- inbound charged as full positioning day, no Agra sightseeing assumed;
-- one East Gate/Shilpgram-zone hotel night;
-- earliest/sunrise-class Taj visit with ~3–3.5 h protected dwell;
-- long rest/pack/luggage buffer;
-- current 12988 class still supports same-evening Agra Fort ~18:45 -> Gaya ~07:50 and currently shows 1A;
-- zero hotel nights would degrade the A+ visit;
-- two hotel nights unlock no missing retained A+/A and are fallback only.
+## DELHI ARRIVAL / NORTHBOUND
+- AI156 arrival 19 Dec 2026 10:15.
+- HOTEL FIRST after landing -> Nirmal Dham [A+] -> TRAIN FIRST toward Kumaon.
+- current leading rail product: 15013 Ranikhet Express, target 1A.
+- newest end-positioning preference: arrive Delhi on 20 Jan 2027 rather than sacrifice a full 20 Jan to Delhi, unless robustness later proves that unsafe.
 
-**AGRA / TAJ = TRUE_DURATION_CLOSED AT 1 AGRA HOTEL NIGHT.**
-This is an objective confirmation of the existing Mark lock, not a new Mark decision.
+## KUMAON — NAINITAL-FIRST LEADING
+- Nainital first after the night train is the leading human-experience preference.
+- Hotel Evelyn [A+] directly after Kathgodam for decompression.
+- leading order under closure: Nainital -> Kainchi/Bhumiadhar -> Dunagiri/Kukuchina/Mahavatar Babaji Cave -> true Haidakhan Vishwa Mahadham -> onward.
+- Haidakhan Vishwa Mahadham [A+] remains 3 nights / 2 complete full quiet days LOCKED_BY_MARK.
+- exact Haidakhan gateway and final outbound rail geometry still require closure.
 
-Food guard:
-- Bedai [A], Petha [A], Gajak [A], Dalmoth [B] may fit route-naturally but do not create another hotel night;
-- Kinari Bazaar [C] and Sadar Bazaar/Chaat Gali [C] remain suppressed.
-
-Agra LIVE_RECHECK_LATER:
-- final topology / inbound whole-human burden;
-- exact Jan-2027 date and Friday avoidance;
-- sunrise/fog/crowd/security;
-- final walkable East Gate hotel/access proof;
-- 12988 running/time/1A/punctuality;
-- luggage/station buffers;
-- food openings only at FINAL COMFORT.
-
-## DELHI ARRIVAL / NORTHBOUND — NEWEST MARK TRUTH
-Owner:
-`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_ARRIVAL_RAIL_FIRST_SUPERSEDE_2026-09-05.md`.
-
-- AI156 arrival day stays free of LP/general sightseeing.
-- **HOTEL FIRST** after landing: bags / shower / clean clothes / food / brief recovery.
-- Then **Nirmal Dham [A+]**.
-- Then **TRAIN FIRST toward Kumaon**.
-- Mark explicitly does **not** prefer the ~8–9 h Delhi -> Haidakhan private-car day; direct long car = fallback only.
-- Current leading rail product to develop: **15013 Ranikhet Express**, current Gurgaon/Gurugram ~20:02 -> Haldwani/Kathgodam early morning; target **1A / First AC**.
-- Exact 19 Dec 2026 timetable, 1A inventory and winter/fog punctuality remain LIVE_RECHECK_LATER.
-- Exact Haldwani-vs-Kathgodam alight point + road to the **true Haidakhan Vishwa Mahadham [A+]** remains OPEN because official gateway distance (~90 km class) conflicts with materially shorter secondary route classes. Never use a generic Haidakhan pin.
-- Haridwar/Rishikesh is coherent before Kumaon and can support a rail-heavy bridge if it later survives as an optional world, but it is not free and must not be inserted merely as a travel break.
-
-## KUMAON — NAINITAL-FIRST NOW LEADING HUMAN TOPOLOGY
-Owner:
-`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_NAINITAL_FIRST_TOPOLOGY_RECHECK_2026-09-05.md`.
-
-Newest Mark truth:
-- **Nainital first** after the night train feels materially better and is now the leading human-experience preference.
-- Go from Kathgodam terminal directly to **Hotel Evelyn [A+]** for decompression/acclimatisation before deep ashram life.
-- Mark is positively considering `NAINITAL -> KAINCHI/BHUMIADHAR -> DUNAGIRI/KUKUCHINA / MAHAVATAR BABAJI CAVE -> HAIDAKHAN VISHWA MAHADHAM -> onward`.
-- This is NOT yet a final topology lock and does not change grades or the existing Haidakhan 3-night/2-full-day dwell lock.
-
-Objective recheck:
-- 15013 terminates at Kathgodam around current 05:05; there is no rail line continuing to Nainital.
-- Official Kathgodam -> Nainital road distance ~34 km.
-- Very-early Hotel Evelyn room access is not guaranteed by public check-in data; require explicit early-check-in confirmation or book previous calendar night if immediate bed/shower matters.
-- Existing 3 Nainital physical nights can already yield: arrival/recovery day + Nainital local day + Kainchi/Bhumiadhar day.
-- Main geometry tax of Haidakhan-last is long **Dunagiri/Kukuchina -> true Haidakhan Vishwa Mahadham** transfer, current secondary raw class ~4 h; exact winter routing remains open.
-- Potential compensation: ending at Haidakhan returns Mark toward Haldwani/Kathgodam/Lal Kuan rail-gateway side before Varanasi/Sarnath, potentially removing/reducing the old separate highland exit burden.
-
-Current comparison still open:
-1. `NAINITAL -> HAIDAKHAN -> KAINCHI -> DUNAGIRI/CAVE -> exit` likely road-shorter;
-2. `NAINITAL -> KAINCHI -> DUNAGIRI/CAVE -> HAIDAKHAN -> rail -> onward` better matches Mark's desired emotional/spiritual progression and may be globally competitive.
-
-Do not revert to Haidakhan-first baseline absent new Mark input. Do not silently call the cave-before-Haidakhan order final until exact road/outbound-rail geometry is closed.
-
-## OPTIONAL MINICLUSTERS — NEWEST MARK DECISION + EAST BURDEN
-Owning Mark decision:
+## OPTIONAL MINICLUSTERS — NEWEST MARK TRUTH
+Detailed owner:
 `decisions/OPTIONAL_MINICLUSTER_MARK_SHORTLIST_AND_SKIPS_2026-09-06.md`.
 
-Owning objective burden comparison:
-`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/EAST_OPTIONAL_KOLKATA_VS_PURI_MARGINAL_BURDEN_2026-09-06.md`.
+Only THREE optional worlds remain candidates for research:
+- **Braj / Mathura–Vrindavan–Govardhan — Krishna/Yogananda/NKB/Ram Dass/Ramakrishna/Anandamayi Ma overlap world** — CANDIDATE.
+- **Kolkata/Calcutta–Hooghly–Serampore–Dakshineswar/Panihati — Bengal lineage world** — CANDIDATE.
+- **Puri/Odisha / Karar Ashram–Sri Yukteswar–Kriya world** — CANDIDATE.
 
-Newest explicit Mark truth:
-- **Braj / Mathura–Vrindavan–Govardhan = KEEP AS CANDIDATE**; not yet included.
-- **Haridwar–Kankhal–Rishikesh = KEEP AS CANDIDATE**; not yet included.
-- **Prayagraj = FINAL SKIP**.
-- **Mysuru/Mysore–Bengaluru = FINAL SKIP**.
-- **Kasar Devi–Almora / Crank's Ridge dedicated module = FINAL SKIP**; individual old site grades are not rewritten and true route-free ride-along rules may still apply where separately valid.
-- **Ranchi = FINAL SKIP**.
-- **Sri Aurobindo Ashram / Puducherry = FINAL SKIP / DO_NOT_REPRESENT reconfirmed**.
-- **Kolkata/Calcutta–Hooghly–Serampore–Dakshineswar/Panihati = OPEN only pending Mark judgment after burden analysis**.
-- **Puri/Odisha / Karar Ashram–Sri Yukteswar–Kriya = OPEN only pending Mark judgment after burden analysis**.
+FINAL SKIP / DO NOT RE-PRESENT unless Mark explicitly reopens:
+- **Haridwar–Kankhal–Rishikesh — FINAL SKIP BY MARK on 2026-09-06.** This supersedes the immediately prior candidate status after Mark considered both the spiritual layer and the scenic/non-spiritual Rishikesh value. Existing individual site grades are preserved; only cluster inclusion is rejected.
+- Prayagraj / Allahabad.
+- Mysuru/Mysore–Bengaluru.
+- Kasar Devi–Almora / Crank's Ridge dedicated module.
+- Ranchi.
+- Sri Aurobindo Ashram / Puducherry.
 
-Fresh burden result relative to the current fixed `VARANASI -> CHENNAI -> TIRUVANNAMALAI` southbound bridge:
-- neither Kolkata nor Puri is a route-breaking geographic detour if inserted once after Varanasi and before Chennai/Tiruvannamalai;
-- Kolkata is operationally easier: current VNS->CCU nonstop daily (~1h15–1h25) and CCU->MAA many daily (~2h15–2h35), no long airport feeder road; 2 hotel nights = compressed credible lower bound, 3 hotel nights = more appropriate for the spread central-Kolkata + northern Hooghly belt; relative to baseline roughly +2 or +3 calendar days respectively;
-- Puri is slightly more friction-heavy but geographically coherent: current VNS->BBI nonstop ~3 weekly (~1h20), official BBI<->Puri ~60 km / ~1h20 road each way, BBI->MAA daily ~1h45–1h55; 2 hotel nights = credible minimum, 3 = comfortable; relative to baseline roughly +2 or +3 calendar days respectively;
-- one Puri night and sub-2-night Kolkata are not recommended because transfer friction would dominate the spiritual content.
+Objective east-world burden already established:
+- Kolkata after Varanasi before Chennai is not route-breaking; 2 hotel nights compressed lower bound, 3 more comfortable.
+- Puri in the same slot is also not route-breaking; 2 nights credible minimum, 3 comfortable, but more transfer friction via Bhubaneswar.
 - exact Jan-2027 flight days/times/fares remain LIVE_RECHECK_LATER.
 
-CCI exhaustive lost-grade recovery result (worker commit `4f31bb2`, read 2026-09-06): real missing grades were recovered for Mysuru/Bengaluru and Haridwar, but **Ranchi/Kolkata/Puri had no recoverable historical Mark grading round**; the East-family skip preceded the later site-grading rounds. Therefore do not invent A/B/C for East-family sites and do not ask Mark to re-grade unless one of Kolkata/Puri actually survives to a content decision surface.
+CCI lost-grade recovery found that Kolkata/Puri/Ranchi appear never to have received a historical Mark site-grading round before the East-family skip. Do not invent grades. If Kolkata or Puri survives to a Mark content decision, present the full researched site content first so Mark can grade then.
 
-## EXACT NEXT EXECUTABLE ACTION
-**DELHI FINAL WINDOW — REBUILD REALISTIC FINAL-DAY GEOMETRY.**
+## CCI ACTIVE WORK
+- P0 Varanasi/Bodh Gaya lossless canon recovery remains active from CCI note `5558174336`.
+- optional-world research scope is now **Braj + Kolkata/Bengal + Puri/Odisha only**. Rishikesh is removed from active comparison immediately; already-completed Rishikesh research remains provenance only.
 
-Do this action-first:
-1. open `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_FILE_INDEX.md`;
-2. load current final-window grades and the existing decision surface;
-3. keep arrival-side transport separate: newest arrival sequence = **AI156 -> HOTEL FIRST -> Nirmal Dham [A+] -> rail-first toward Kumaon**; no LP sightseeing there;
-4. use a calm airport-side/Aerocity-class base only as a transparent provisional proxy until final hotel selection;
-5. rebuild final free-day geometry around current A/B/open content without reviving C items;
-6. PVR Priya IMAX [A] is date/title dependent: only include if a worthwhile actual Hindi/IMAX film exists; exact showtime/title = LIVE_RECHECK_LATER;
-7. expose whole-human burden and protect international-departure logistics;
-8. checkpoint before any genuine Mark-only choice.
-
-## AFTER DELHI
-1. Kumaon short recheck of prior ~9-night footprint, carrying **Nainital-first** as newest leading topology preference; aromatic-oil/distillation [B] only if route-cheap.
-2. Varanasi/Sarnath short consistency recheck of prior ~8-night footprint.
-3. Sum fixed-core accommodation/overnight-transport slots against 33 India slots.
-4. Compare optional worlds only then by WITH vs WITHOUT marginal burden, using the newest shortlist/skip decisions above.
-5. Mark chooses optional survivors -> final topology -> live logistics -> exact calendar -> FINAL COMFORT -> final day cards.
-
-## OPEN / EXCLUDED SPECIAL-INTEREST ITEMS — NON-BLOCKING
-- Sun Thermo Process near Tiruvannamalai — access to prove; zero baseline duration weight.
-- Panruti cashew — background/provisional only; no longer a reason to create a Puducherry side-cluster.
-- **Sri Aurobindo Ashram / Puducherry — incidental side-cluster that grew from the earlier Panruti-cashew adjacency idea — FINAL SKIP BY MARK / DO NOT RE-PRESENT unless explicitly reopened.**
-- Delhi cashew shopping — not a destination.
-- Kumaon/Nainital aromatic-oil/distillation [B] — route-cheap working unit only; never a separate day.
+## CURRENT FRONTIER
+Underlying frontier remains DELHI FINAL WINDOW / realistic final-day geometry; after that Kumaon short recheck -> Varanasi/Sarnath consistency -> fixed-core total -> optional marginal insertion using only the three surviving candidate worlds.
 
 ## HARD GUARDS
-- ordinary bazaars/markets are not Mark-facing candidates;
-- A+/A/A*/B/C are Mark-only grades;
-- C items stay suppressed unless Mark explicitly reopens;
-- no restaurant/food grade may add route/day/night weight by stealth;
-- use full canonical Indian name + Dutch recognition hook + city/microcluster + grade/status;
-- expose real burden before Mark grades unfamiliar places;
-- geometry claims require decision-grade entity/access/routing verification; old pins are not grandfathered;
-- prepare the next authorized batch ahead where feasible; never fake preparation and never bypass Mark-only decisions.
+- A+/A/A*/B/C are Mark-only grades.
+- full canonical name + Dutch recognition hook + place/microcluster + grade/status for unfamiliar Indian names.
+- new Mark message does not cancel previous pending valid work.
+- material decisions must be recorded before reply.
+- C/FINAL SKIP clusters do not return as fresh choices unless Mark explicitly reopens them.
 
 UNSAVED_RISK:
-CURRENT_STATE.md still needs synchronization of the newest optional-shortlist / Kolkata-Puri burden truth if this session continues; owning decision + owning burden file + this mandatory crash-safe handoff already preserve it.
+CURRENT_STATE.md may still contain stale optional-pool wording; CURRENT_DECISIONS_MASTER + owning decision file + this mandatory crash-safe handoff contain the newest controlling Mark truth.
 
 END SUCCESSOR SAFE STATE
