@@ -1,7 +1,7 @@
 # INDIA CURRENT DECISIONS MASTER — MATERIALIZED CURRENT TRUTH
 
 Status: **CURRENT / ALWAYS READ / DERIVED VIEW**
-Updated: 2026-09-05
+Updated: 2026-09-06
 Branch: `agent/india8-cluster-casting`
 Event/provenance layer: `governance/DECISION_LEDGER.jsonl`
 Human/WHY layer: `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md`
@@ -164,7 +164,9 @@ Sun Thermo Process remains OPEN / ACCESS TO PROVE; real factory about 15 km from
 ## 12. OPTIONAL WORLDS — DEFER
 Do not ask Mark to choose optional worlds until fixed duration rechecks and fixed-core total are complete. Later compare WITHOUT vs WITH net km/human time/nights/backtracking/displacement/newly cheap companions.
 
-Sri Aurobindo/Puducherry remains OPEN / CONDITIONAL WISH only if near-free/very cheap. Ranchi + Kolkata/Hooghly/Serampore/Dakshineswar + Puri/Odisha family remains excluded absent explicit reopen.
+**Sri Aurobindo Ashram / Puducherry — incidental Aurobindo/coastal side-cluster reached only through the earlier Panruti-cashew adjacency idea — EXCLUDED_BY_MARK / DO NOT RE-PRESENT unless Mark explicitly reopens it.** This is an optional-world inclusion decision, not an A/B/C grade change.
+
+Ranchi + Kolkata/Hooghly/Serampore/Dakshineswar + Puri/Odisha family remains excluded absent explicit reopen.
 
 ## 13. SPECIAL-INTEREST / FINAL-COMFORT BOUNDARY
 Food/shop-only findings normally wait for FINAL COMFORT. A real factory/process/distillation visit can be separate travel content only if Mark grades that concrete experience and its marginal burden is justified.
