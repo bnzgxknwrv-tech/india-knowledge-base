@@ -7,9 +7,18 @@ Applied: `decisions/INTERRUPTION_DOES_NOT_CANCEL_PENDING_WORK_MARK_RULE_2026-09-
 
 No A+/A/A*/B/C grade, cluster status, fixed duration, route lock, or hotel lock changed anywhere in this file.
 
-## HEADLINE PROVENANCE FINDING
+## REVISION NOTE (this version)
+This is a corrected re-run of the same task. Mark independently flagged that the first version (committed `e5a4fd9`, PR comment `5557907840`) undercounted real historical grades — he was right. A deeper search of `runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/` and `runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/` (not fully searched in the first pass) surfaced **12 confirmed Braj A's instead of 2**, and **real confirmed grades for Prayagraj (0 → 3 A's, 1 B, 2 C's) that the first version reported as entirely ungraded**. Every correction below is stated explicitly, not silently absorbed.
 
-**Haridwar/Kankhal/Rishikesh was explicitly DROPPED as a standalone cluster by Mark on 2026-08-19** (`runs/active/INDIA8-CLUSTER-CASTING-001/MARK_DECISION_HARIDWAR_KANKHAL_RISHIKESH.md`) — *and* it simultaneously carries a real site-level **A** grade (Anandamayi Ma Ashram + Samadhi Mandir, Kankhal) plus three **B**'s. Five days later (2026-08-24), a new regional sweep (`HARIDWAR_RISHIKESH_A_PLUS_MARK_SELECTION_SLICE.md`) reframed the cluster as `READY_FOR_MARK_A_PLUS_SELECTION`, describing the prior status only as "B/reserve rather than core route" — quietly softer than the actual recorded word **"DROP."** Current `governance/CURRENT_DECISIONS_MASTER.md` and `CURRENT_STATE.md` both now list it simply as `OPEN`, with no visible record of Mark ever explicitly re-opening the Aug-19 DROP. Per precedence (newest explicit Mark truth wins), `OPEN` is the current controlling status — but the transition itself was never logged as a named Mark reopening, which is exactly the kind of untracked mutable-pointer drift this project's own R-items exist to catch. Reported here, not silently corrected.
+## HEADLINE PROVENANCE FINDING — A REPEATING BUG, NOT AN ISOLATED ONE
+
+The same failure class recurs **at least three times independently** across two different clusters:
+
+1. **Braj:** `runs/active/INDIA8-ALL-FINDINGS-LOCATION-CLOSURE-001/VRINDAVAN_BRAJ_PARENT_DECISION_MAP.md` (2026-08-20) records 12 confirmed A visit-units. The later 2026-08-24 `BRAJ_A_PLUS_MARK_SELECTION_SLICE.md` re-presents at least two of them — **Madan Mohan Temple** and **Nidhivan grove** — as fresh, ungraded "candidates," with no reference to the 2026-08-20 map at all.
+2. **Prayagraj:** `runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/PRAYAGRAJ_MARK_DECISIONS_RECONCILED_2026-08-23.md` — itself already a repair of an earlier omission ("repair omission from latest cluster-level summary; do NOT ask Mark to re-grade these") — records **Triveni Sangam, Akshayavat, and Bade/Lete Hanuman Ji as confirmed A**. The very next day, the 2026-08-24 `PRAYAGRAJ_A_PLUS_MARK_SELECTION_SLICE.md` re-presents **Triveni Sangam itself** as candidate item #1 of an ungraded "merged A+-selection universe," again with no reference to the Aug-23 reconciliation.
+3. **Haridwar/Kankhal/Rishikesh:** was explicitly **DROPPED** as a standalone cluster by Mark on 2026-08-19 (`MARK_DECISION_HARIDWAR_KANKHAL_RISHIKESH.md`), carrying a real site-level **A** (Anandamayi Ma Ashram + Samadhi Mandir, Kankhal). On 2026-08-22 this softened to cluster-level **B** ("attractive but currently not strong enough"). By 2026-08-24 it had become `READY_FOR_MARK_A_PLUS_SELECTION` (`OPEN`), with the 2026-08-19 word **"DROP"** never mentioned again. Current central files (`CURRENT_DECISIONS_MASTER.md`, `CURRENT_STATE.md`) list it simply as `OPEN`.
+
+The common pattern: **each 2026-08-24 "selection slice" sweep appears to have been built without reading the corresponding 2026-08-19/20/22/23 decision files that already existed one to five days earlier**, in the same repository, in adjacent directories. This is not one clerical slip — it is a systematic gap in how that particular round of regional sweeps was scoped. Reported here as a pattern, not silently patched.
 
 ---
 
@@ -39,28 +48,55 @@ No A+/A/A*/B/C grade, cluster status, fixed duration, route lock, or hotel lock 
 # TASK B — HISTORICAL MARK ABC LEDGER PER CLUSTER
 
 ## 1. BRAJ
-**Confirmed SITE-level grades (A+/A/A*/B/C):**
-- `Katyayani Peeth / Keshav Ashram — Shakti-tempel/Kriya-lineage via Swami Keshavanand, Vrindavan (Braj)` — **A** (DECISION-0008, 2026-07-14)
-- `Neem Karoli Baba Ashram en samadhi — ashram en rustplaats van Maharaj-ji, Vrindavan (Braj)` — **A** (DECISION-0008, 2026-07-14; explicitly moved from B to A per follow-up commit `7675ac1`)
+**Confirmed SITE-level grades**, per `VRINDAVAN_BRAJ_PARENT_DECISION_MAP.md` (2026-08-20, `status: ACTIVE_MARK_REVIEW`, definitive settled language throughout — not a blank ballot):
 
-**CLUSTER-level status:** `A+ GATE OPEN` — the two A's are fixed and non-negotiable; the surrounding 23-item candidate expansion (Govardhan Parikrama, Radha Kund, Keshi Ghat, etc. — see prior `CCI_OPTIONAL_CLUSTER_VALUE_AND_CORRIDOR_CLOSURE.md`) remains entirely ungraded.
+| Plek | Wat het is | Persoon/laag | Grade |
+|---|---|---|---|
+| Vrindavan Railway Station | Historisch station, aankomstplek in Yogananda's jeugdvlucht-episode (AOAY hfst 11) | Yogananda/AOAY | **A** |
+| Madan Mohan Temple | Tempel die Yogananda persoonlijk bezocht (AOAY hfst 11) | Yogananda/AOAY | **A** |
+| Keshabananda / Katyayani Peeth-terrein | Historisch ashram/kluizenaarsterrein, Kriya-lijn | Yogananda + Keshabananda + Lahiri Mahasaya-lijn | **A** |
+| Samb Sadashiv Kunj | Plek verbonden aan de Mahavatar Babaji-overlevering | Babaji-lijn | **A** |
+| Neem Karoli Baba Vrindavan Ashram | Ashram met samadhi, Maharajji-kantoor, tempelhof | Neem Karoli Baba + Ram Dass | **A** |
+| Hathiwale Baba hut-terrein / huidige Gore Dauji-plek | Historische NKB-hutlocatie, huidige opvolgerplek | Neem Karoli Baba | **A** |
+| Seth Anandram Jaipuria Bhawan | Pand waar Ram Dass verbleef; mogelijk overnachtingsoptie | Ram Dass | **A** |
+| Banke Bihari Temple | Grote tempel, zowel Ram Dass- als Ramakrishna-verband | Ram Dass + Sri Ramakrishna | **A** |
+| Fouzdar Kunj | Historisch pand met kamer + veranda waar Ramakrishna verbleef | Sri Ramakrishna | **A** |
+| Nidhivan (heilig bosje) | Heilige plek, onderdeel van het Krishna/Braj-landschap | Sri Ramakrishna + Krishna-landschap | **A** |
+| Anandamayi Ma Vrindavan Ashram | Ashram waar Anandamayi Ma zelf herhaaldelijk aanwezig was | Anandamayi Ma | **A** |
+| Yamuna-rivierbezoek, Vrindavan | Rivierervaring | Ram Dass + algemeen Krishna/Braj | **A** |
+| Ganga Mata hut-terrein/opvolgerpand | Bij Nidhivan | Sri Ramakrishna + Ganga Mata | **B** (→A indien praktisch gratis meelift met Nidhivan) |
+| Vardhaman/Burdwan Kunj | Verblijfplek Anandamayi Ma, toegang lastiger | Anandamayi Ma | **B** |
+| Mathura station (NKB laatste-reis-claim) | Tegenstrijdige bronnen, geen sterke bezoekervaring | Neem Karoli Baba | **C** |
 
-**A*/B/C found for this cluster:** none currently recorded at site level beyond the two A's.
+Twee verder onderzochte items (Mani Sen-huis/parlour, Sri Radhakanta-tempel) bleken bij locatiecontrole in **Panihati, West-Bengalen** te liggen, niet in Vrindavan/Braj — expliciet uit deze lijst verwijderd door de bron zelf.
+
+**CLUSTER-level status:** `A+ GATE OPEN` — 12 A's + 2 B's zijn vast en niet-onderhandelbaar; het aparte 25-item regionale uitbreidingsaanbod (Govardhan Parikrama, Radha Kund, etc. — zie `CCI_OPTIONAL_CLUSTER_VALUE_AND_CORRIDOR_CLOSURE.md`) blijft ongegradeerd. Of de hele CLUSTER een routebepalende A+ krijgt is een aparte, nog open vraag — zie HEADLINE FINDING.
 
 ## 2. HARIDWAR–KANKHAL–RISHIKESH
-**Confirmed SITE-level grades**, all dated 2026-08-19 (`MARK_DECISION_HARIDWAR_KANKHAL_RISHIKESH.md`):
+**Confirmed SITE-level grades**, dated 2026-08-19 (`MARK_DECISION_HARIDWAR_KANKHAL_RISHIKESH.md`) plus one from 2026-08-22 (`HARIDWAR_KANKHAL_RISHIKESH_CLUSTER_DECISION.md`):
 - `Anandamayi Ma Ashram + Samadhi Mandir, Kankhal — ashram en rustplaats van Anandamayi Ma` — **A**
 - `Matri Smriti Museum + bewaarde Anandamayi Ma-kamer, Kankhal — museumkamer waar Ma haar laatste maanden doorbracht` — **B**
 - `Parmarth Niketan, Rishikesh — groot ashramcomplex` — **B**
 - `Sivananda Ashram / Divine Life Society, Rishikesh` — **B**
 - `Sapt Rishi Ashram, Haridwar` — **B**
+- `Haridwar station — historische doorreis-/transitcontext, geen bestemmingswaarde op zich` — **C** (2026-08-22)
 - `AOAY Haridwar hoofdstuk-4-gebeurtenisplek` — **POTENTIALLY A, NOT YET FINAL** (exact physical micro-site unresolved)
 
-**CLUSTER-level status:** see HEADLINE FINDING — DROP (2026-08-19) as standalone cluster, currently treated as OPEN in later files without a logged explicit reopening. **This is the exact conflict Task E asks to resolve; see below.**
+**CLUSTER-level status:** see HEADLINE FINDING — DROP (2026-08-19) → cluster-level B (2026-08-22) → currently treated as OPEN (2026-08-24 onward) without a logged explicit reopening statement at either transition. **This is the exact conflict Task E asks to resolve; see below.**
 
 ## 3. PRAYAGRAJ
-**Confirmed SITE-level grades:** **none found.** All 19 candidate items in `PRAYAGRAJ_A_PLUS_MARK_SELECTION_SLICE.md` remain ungraded.
-**CLUSTER-level status:** `OPEN`/`CORRIDOR_COMPATIBLE`, INDIA11's own provisional (non-binding) regie preference: `RETAIN_ONLY_IF_MAGH_MELA_ALIGNS`.
+**Confirmed SITE-level grades**, per `PRAYAGRAJ_MARK_DECISIONS_RECONCILED_2026-08-23.md` (itself explicitly a repair of an earlier omission — "do NOT ask Mark to re-grade these"):
+- `Triveni Sangam — samenvloeiing van Ganges, Yamuna en de traditionele Saraswati, de kern-Sangam-rivierervaring` — **A**
+- `Akshayavat — heilige "onsterfelijke" banyanboom binnen het Allahabad Fort/Patalpuri-gebied` — **A**
+- `Bade/Lete Hanuman Ji — beroemd liggend Hanuman-heiligdom vlak bij de Sangam` — **A**
+- `Bharadwaj Ashram — traditioneel ashram/tempelterrein van wijze Bharadwaj` — **B**
+- `Anandamayi Ma standalone Prayagraj-locatie — onvoldoende zelfstandig gewicht t.o.v. haar sterkere kernplekken` — **C**
+- `4 Church Lane — historisch privéhuis met Neem Karoli Baba/Ram Dass-verband, geen duidelijk openbaar heiligdomsadres` — **C**
+- Yogananda familiehuis-kandidaat in Prayagraj: expliciet GEEN routestop tenzij ooit een publiek heiligdom/museum/duidelijk bezoekbaar adres bewezen wordt — geen privé-huis-aan-de-deur-bezoek.
+
+**Routingregel uit dezelfde bron:** test Prayagraj als één compacte overnachting/corridordag met de drie A's; de B mag alleen meeliften als het geografisch/tijdsefficiënt is; C's kosten geen routetijd.
+
+**CLUSTER-level status:** `OPEN`/`CORRIDOR_COMPATIBLE`, INDIA11's own provisional (non-binding) regie preference: `RETAIN_ONLY_IF_MAGH_MELA_ALIGNS`. **Zie HEADLINE FINDING: dezelfde re-presentatiefout als bij Braj trof ook hier Triveni Sangam zelf, exact één dag na de reconciliatie die dit repareerde.**
 
 ## 4. MYSURU/MYSORE–BENGALURU
 **Confirmed SITE-level grades:** **none found** anywhere in governance or decisions. Four Karnataka traveler rows preserved below the reopening threshold (Somanathapura Keshava Temple, Mysore Palace illumination, Shettihalli Rosary Church, Shravanabelagola) — **ungraded candidates, not A's.**
@@ -90,7 +126,7 @@ No A+/A/A*/B/C grade, cluster status, fixed duration, route lock, or hotel lock 
 
 | Cluster | Original appeal | Current status | Reason skipped/deferred | Category | Reopen rule |
 |---|---|---|---|---|---|
-| Braj | Two Vrindavan A-anchors (Kriya lineage, Neem Karoli Baba) already fixed; broader Krishna-pilgrimage landscape richly researched | `A+ GATE OPEN` | Not skipped — genuinely still open, awaiting Mark's A+ scope choice (A-anchors-only / core-plus / broader) | none — open, not dropped | N/A, awaiting Mark |
+| Braj | 12 Vrindavan A-anchors already fixed (Yogananda/AOAY, Babaji lineage, Neem Karoli Baba, Ram Dass, Sri Ramakrishna, Anandamayi Ma — spanning nearly every Top-11 person layer at once) | `A+ GATE OPEN` | Not skipped — genuinely still open, awaiting Mark's A+ scope choice (A-anchors-only / core-plus / broader) | none — open, not dropped | N/A, awaiting Mark |
 | Haridwar–Kankhal–Rishikesh | Anandamayi Ma is "highly interesting to Mark" (Mark's own words in the 2026-08-19 decision) | `OPEN` (current), was `DROP` (2026-08-19) | Mark's stated reason for the 2026-08-19 drop: **"the cluster is not a sufficiently strong personal magnet... visiting a small number of truly important Anandamayi Ma sites is enough; the broader Rishikesh/Haridwar corridor does not currently justify the extra travel time."** This is **ROUTE BURDEN relative to person-interest density**, not content weakness — the content (Anandamayi Ma) was explicitly praised. | ROUTE_BURDEN (explicitly, in Mark's own words) | The 2026-08-19 file itself already anticipated a reopen path: "if a later route naturally passes through the corridor... individual sites may still be reconsidered." The 2026-08-24 sweep appears to have exercised exactly that path without a separate explicit Mark reopening statement being logged. |
 | Prayagraj | Triveni Sangam confluence; potential Magh Mela overlap | `OPEN`, `CORRIDOR_COMPATIBLE / NOT_ROUTE_REQUIRED` | Not dropped — the direct Agra→Gaya overnight sleeper is simply a more time-efficient existing alternative; per INDIA11's own judgment, Prayagraj "has the weakest time-efficiency of the three open decisions" | ROUTE_BURDEN (relative efficiency, not exclusion) | INDIA11's own conditional: `RETAIN_ONLY_IF_MAGH_MELA_ALIGNS` |
 | Mysuru/Bengaluru | none documented as ever having strong personal pull | `EXCLUDED/CONTROL` | Geographic/route detour, no independent content strong enough absent Hampi | ROUTE_BURDEN + CONTENT_WEAKNESS (until Hampi challenged it) | Mark may assign A+ to Hampi or another Karnataka challenger |
@@ -120,10 +156,13 @@ No A+/A/A*/B/C grade, cluster status, fixed duration, route lock, or hotel lock 
 # TASK E — PROVENANCE CONFLICTS
 
 ## 1. Haridwar/Kankhal/Rishikesh — RESOLVED (with the gap named, not silently closed)
-The historical cluster source (`MARK_DECISION_HARIDWAR_KANKHAL_RISHIKESH.md`, 2026-08-19) **does** carry a real site-level **A** for Anandamayi Ma Ashram + Samadhi Mandir, Kankhal — my own prior `CCI_OPTIONAL_CLUSTER_VALUE_AND_CORRIDOR_CLOSURE.md` report was **wrong** to say this cluster has "0 confirmed A grades"; that report only checked the 2026-08-24 selection-slice file and missed the earlier, still-valid 2026-08-19 site-level decision. **Correction issued here.** Which source controls: per standard precedence, the **site-level A from 2026-08-19 remains valid and current** (never explicitly revoked), while the **cluster-level status has moved from DROP (2026-08-19) to OPEN (current)** without a logged explicit Mark reopening statement — this is the real, still-open gap (see HEADLINE FINDING), not silently regraded here.
+The historical cluster source (`MARK_DECISION_HARIDWAR_KANKHAL_RISHIKESH.md`, 2026-08-19) **does** carry a real site-level **A** for Anandamayi Ma Ashram + Samadhi Mandir, Kankhal — my own prior two reports were **wrong** to say this cluster has "0 confirmed A grades"; those reports only checked the 2026-08-24 selection-slice file and missed the earlier, still-valid 2026-08-19 site-level decision. **Correction issued here, twice now.** Which source controls: per standard precedence, the **site-level A from 2026-08-19 remains valid and current** (never explicitly revoked), while the **cluster-level status has moved DROP (2026-08-19) → B (2026-08-22) → OPEN (2026-08-24 onward)** without a logged explicit Mark reopening statement at either transition — this is the real, still-open gap (see HEADLINE FINDING), not silently regraded here.
 
-## 2. Braj — historical A vs. current candidates, cleanly separated
-No conflict: the two confirmed A's (Katyayani Peeth/Keshav Ashram; Neem Karoli Baba Ashram) are stable, undisputed, and dated (2026-07-14, DECISION-0008). The 25-item candidate pool from the 2026-08-24 sweep was always explicitly additive/ungraded, never claimed as decided. No regrading occurred anywhere in the provenance chain.
+## 2. Braj — historical A's vs. current candidates, NOT cleanly separated (corrected from the prior version of this file)
+The prior version of this section said there was "no conflict" between 2 historical A's and 25 ungraded candidates. That was itself incomplete: there are **12 historical A's**, not 2 (see Task B, corrected), and **at least 2 of those 12 — Madan Mohan Temple and Nidhivan grove — are re-listed as ungraded candidates in the 2026-08-24 sweep**, which is a genuine re-presentation conflict, not a clean separation. The remaining 23 candidate items appear to be genuinely new/additive (no matching prior grade found for them), but given this session found 2 real collisions purely by cross-checking file dates and names, a full name-by-name cross-check of all 25 candidates against the 2026-08-20 parent decision map is recommended before the candidate pool is presented to Mark again as if entirely fresh.
+
+## 4. Prayagraj — historical A's vs. current candidates, same conflict as Braj
+`PRAYAGRAJ_MARK_DECISIONS_RECONCILED_2026-08-23.md` confirms Triveni Sangam, Akshayavat, and Bade/Lete Hanuman Ji as **A**. The 2026-08-24 `PRAYAGRAJ_A_PLUS_MARK_SELECTION_SLICE.md` lists Triveni Sangam again as candidate item #1 of an ungraded pool, one day after the reconciliation that fixed this exact problem once already. Same pattern as Braj; not resolved by this report, only named.
 
 ## 3. Mysore/Bengaluru — cluster exclusion vs. historical site A's
 **No conflict found.** No historical site-level A was located anywhere in governance or decisions for Mysore/Bengaluru itself — only four sub-threshold traveler rows (Task B, item 4), explicitly below the reopening threshold. The only real challenger is Hampi, which is itself ungraded (`READY_FOR_MARK_A_PLUS_SELECTION`), not a historical A being overridden.
