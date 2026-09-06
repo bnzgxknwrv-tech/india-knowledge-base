@@ -39,6 +39,7 @@ Purpose: answer `AL BESLIST?` quickly. Detailed decision files and ledger retain
 - 33 India accommodation/overnight-transport slots; 34-day planning-budget convention.
 - no exact final calendar yet.
 - train first when practical; target 1A; flight only for meaningful real door-to-door gain; private car mountains/last mile; no long-distance bus.
+- newest Mark end-positioning preference: arrive in Delhi on **20 Jan 2027**, not 19 Jan + a full extra Delhi day, unless robustness later proves that unsafe.
 
 ## 5. CURRENT GLOBAL PROCESS
 Fixed-cluster traveler discovery + Mark triage is complete enough.
@@ -105,6 +106,7 @@ Current task: rebuild the final free-day/window geometry around the current reta
 - Dunagiri Retreat = PRIMARY; Joshi Guest House = fallback.
 - prior footprint ~9 occupied days / 9 nights; later short recheck only.
 - aromatic-oil/distillation experience [B] only if route-cheap; no separate day.
+- newest leading human order remains Nainital first -> Kainchi/Bhumiadhar -> Dunagiri/Kukuchina/Babaji Cave -> true Haidakhan Vishwa Mahadham -> onward; exact final topology still requires road/rail closure.
 
 ## 8. AGRA / TAJ — DONE / TRUE_DURATION_CLOSED
 - Taj Mahal [A+] [UNESCO WH] sole fixed-core sightseeing anchor.
@@ -131,18 +133,23 @@ Fresh execution result:
 **TRUE_DURATION_CLOSED = 1 AGRA HOTEL NIGHT.**
 Owner: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/AGRA_POST_TRIAGE_ONE_NIGHT_REVALIDATION_2026-09-05.md`.
 
-## 9. BODH GAYA / GAYA — DONE / TRUE_DURATION_CLOSED
-Retained: Mahabodhi [A+] [UNESCO WH], Sujata [A+], Dungeshwari [A+], same-hill ridge [A], Great Buddha [A], international monastery belt [A].
+## 9. BODH GAYA / GAYA — DONE / TRUE_DURATION_CLOSED, CANON RECOVERY AUDIT ACTIVE
+Retained current materialized set: Mahabodhi [A+] [UNESCO WH], Sujata [A+], Dungeshwari [A+], same-hill ridge [A], Great Buddha [A], international monastery belt [A].
 Protected day: Mahabodhi -> Sujata -> Dungeshwari (+ ridge) WALK OUT / PREARRANGED CAR BACK.
 Duration: 2 Maya Heritage nights default, 3 conditional fallback, max 3. No fresh ballot.
 
-## 10. VARANASI / SARNATH — PRIOR CANON STRONG
+CCI legacy-extraction note `5558174336` independently flagged a possible undercount/misstatement in older handoffs and proposed a lossless recovery pass. That P0 audit is now actively delegated. Do NOT mutate any grade from the note alone; source-level reconstruction controls.
+
+## 10. VARANASI / SARNATH — PRIOR CANON STRONG, CANON RECOVERY AUDIT ACTIVE
 - prior ~8 nights, later short consistency recheck.
 - Sahi River View Guesthouse, Assi Ghat = LOCKED_BY_MARK; balcony room desired; Jitendre; greetings from Debby.
 - Manikarnika Ghat [A+] final content block of its day.
 - Bhrigu Karyalaya / Bhadury Sadan [A+] LOCKED_BY_MARK; never on Manikarnika day.
 - early Lahiri/Kriya + Assi/Ganges orientation protected.
-- Sarnath UNESCO precision remains required.
+- PR #23 itself states the full historic Mark selection as 32 A, 5 B, 3 C; a CCI legacy-extraction note flagged that some working summaries/handoffs undercounted this set and that items 041–045 require explicit precedence repair.
+- Sarnath is current UNESCO World Heritage (2026 inscription); stale `Tentative` wording must not survive final presentation.
+
+P0 lossless recovery is actively delegated to CCI; do not change grades from worker inference, only reconcile existing Mark truth.
 
 ## 11. TIRUVANNAMALAI / ARUNACHALA — DONE / TRUE_DURATION_CLOSED
 Protected:
@@ -161,12 +168,31 @@ Owner: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_POST_TRI
 
 Sun Thermo Process remains OPEN / ACCESS TO PROVE; real factory about 15 km from town, no public visitor-tour regime found, zero baseline duration weight.
 
-## 12. OPTIONAL WORLDS — DEFER
-Do not ask Mark to choose optional worlds until fixed duration rechecks and fixed-core total are complete. Later compare WITHOUT vs WITH net km/human time/nights/backtracking/displacement/newly cheap companions.
+## 12. OPTIONAL WORLDS — FOUR-WORLD INVESTIGATION POOL
+Newest explicit Mark truth supersedes the older blanket East-family wording for Kolkata/Puri.
 
-**Sri Aurobindo Ashram / Puducherry — incidental Aurobindo/coastal side-cluster reached only through the earlier Panruti-cashew adjacency idea — EXCLUDED_BY_MARK / DO NOT RE-PRESENT unless Mark explicitly reopens it.** This is an optional-world inclusion decision, not an A/B/C grade change.
+Detailed owner:
+`decisions/OPTIONAL_MINICLUSTER_MARK_SHORTLIST_AND_SKIPS_2026-09-06.md`.
 
-Ranchi + Kolkata/Hooghly/Serampore/Dakshineswar + Puri/Odisha family remains excluded absent explicit reopen.
+The ONLY optional worlds currently to investigate are:
+1. **Braj / Mathura–Vrindavan–Govardhan — Krishna/Yogananda/NKB/Ram Dass/Ramakrishna/Anandamayi Ma overlap world** — CANDIDATE, not included yet.
+2. **Haridwar–Kankhal–Rishikesh — Ganges/Anandamayi Ma/yoga/adventure/foothill world** — CANDIDATE, not included yet; explicitly investigate whether Rishikesh is independently compelling as beautiful India / landscape-adventure content, not merely spiritual content.
+3. **Kolkata/Calcutta–Hooghly–Serampore–Dakshineswar/Panihati — Bengal lineage world with Yogananda/Kriya/Ramakrishna history** — REOPENED FOR CANDIDATE RESEARCH by Mark after objective burden showed it is not inherently route-breaking between Varanasi and Chennai; no historic Mark site-grading round recovered, so do not invent grades.
+4. **Puri/Odisha / Karar Ashram–Sri Yukteswar–Kriya world** — REOPENED FOR CANDIDATE RESEARCH by Mark after objective burden showed it is not inherently route-breaking between Varanasi and Chennai; no historic Mark site-grading round recovered, so do not invent grades.
+
+Final skips / do not re-present as optional cluster unless Mark explicitly reopens:
+- Prayagraj / Allahabad — FINAL SKIP.
+- Mysuru/Mysore–Bengaluru — FINAL SKIP.
+- Kasar Devi–Almora / Crank's Ridge dedicated module — FINAL SKIP as module; individual route-free ride-along rules/grades remain separate.
+- Ranchi — FINAL SKIP.
+- Sri Aurobindo Ashram / Puducherry — FINAL SKIP / DO NOT RE-PRESENT.
+
+Existing burden result:
+- Kolkata after Varanasi before Chennai: not route-breaking; 2 hotel nights compressed credible lower bound, 3 more comfortable.
+- Puri after Varanasi before Chennai: not route-breaking; 2 hotel nights credible minimum, 3 comfortable, but more transfer friction via Bhubaneswar.
+- exact Jan-2027 services/fare remain LIVE_RECHECK_LATER.
+
+Do not ask Mark to choose among the four until the four-world content + marginal-burden research surface is complete enough to judge without Googling.
 
 ## 13. SPECIAL-INTEREST / FINAL-COMFORT BOUNDARY
 Food/shop-only findings normally wait for FINAL COMFORT. A real factory/process/distillation visit can be separate travel content only if Mark grades that concrete experience and its marginal burden is justified.
@@ -186,7 +212,11 @@ Sequence:
 6. protect international departure and whole-human burden;
 7. checkpoint objective result before any Mark-only choice.
 
-After Delhi: Kumaon -> Varanasi consistency rechecks -> fixed-core total -> optional-world marginal insertion.
+Parallel authorized work now active:
+- CCI P0 Varanasi/Bodh Gaya lossless canon recovery from note `5558174336`;
+- CCI four-world deep optional decision surface for Braj, Haridwar/Rishikesh, Kolkata/Bengal and Puri/Odisha.
+
+After Delhi: Kumaon -> Varanasi consistency rechecks -> fixed-core total -> optional-world marginal insertion using only the four-world pool above.
 
 ## 16. AFTER EVERY MATERIAL EVENT
 Mark decisions: preserve WHAT + WHY + provenance. Material execution/research: write owning file and synchronize current state/routing before reply. A successor must continue from GitHub without Mark reconstructing chat history.
