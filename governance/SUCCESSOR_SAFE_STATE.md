@@ -2,8 +2,8 @@
 
 STATUS: SAFE_TO_HANDOFF
 
-Full status: **HARD LIVING CHECKPOINT / SAFE_TO_HANDOFF / AGRA_TRUE_CLOSED / DELHI_FINAL_WINDOW_NEXT / DELHI_ARRIVAL_RAIL_FIRST / KUMAON_NAINITAL_FIRST_LEADING**.
-Updated: 2026-09-05
+Full status: **HARD LIVING CHECKPOINT / SAFE_TO_HANDOFF / AGRA_TRUE_CLOSED / DELHI_FINAL_WINDOW_NEXT / DELHI_ARRIVAL_RAIL_FIRST / KUMAON_NAINITAL_FIRST_LEADING / AUROBINDO_PUDUCHERRY_EXCLUDED**.
+Updated: 2026-09-06
 Branch: `agent/india8-cluster-casting`
 
 ## HARD RULE — MAKE THE CURRENT INDIA REPLACEABLE
@@ -139,12 +139,12 @@ Do this action-first:
 4. Compare optional worlds only then by WITH vs WITHOUT marginal burden.
 5. Mark chooses optional survivors -> final topology -> live logistics -> exact calendar -> FINAL COMFORT -> final day cards.
 
-## OPEN SPECIAL-INTEREST ITEMS — NON-BLOCKING
+## OPEN / EXCLUDED SPECIAL-INTEREST ITEMS — NON-BLOCKING
 - Sun Thermo Process near Tiruvannamalai — access to prove; zero baseline duration weight.
-- Panruti cashew — background/provisional mainly if optional Puducherry survives naturally.
+- Panruti cashew — background/provisional only; no longer a reason to create a Puducherry side-cluster.
+- **Sri Aurobindo Ashram / Puducherry — incidental side-cluster that grew from the earlier Panruti-cashew adjacency idea — EXCLUDED_BY_MARK / DO NOT RE-PRESENT unless explicitly reopened.**
 - Delhi cashew shopping — not a destination.
 - Kumaon/Nainital aromatic-oil/distillation [B] — route-cheap working unit only; never a separate day.
-- Sri Aurobindo Ashram/Puducherry — genuine interest, near-free-only conditional wish.
 
 ## HARD GUARDS
 - ordinary bazaars/markets are not Mark-facing candidates;
