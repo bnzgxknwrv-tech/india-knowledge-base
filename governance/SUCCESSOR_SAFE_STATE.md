@@ -2,7 +2,7 @@
 
 STATUS: SAFE_TO_HANDOFF
 
-Full status: **HARD LIVING CHECKPOINT / SAFE_TO_HANDOFF / AGRA_TRUE_CLOSED / DELHI_FINAL_WINDOW_NEXT / DELHI_ARRIVAL_RAIL_FIRST / KUMAON_NAINITAL_FIRST_LEADING / AUROBINDO_PUDUCHERRY_EXCLUDED**.
+Full status: **HARD LIVING CHECKPOINT / SAFE_TO_HANDOFF / AGRA_TRUE_CLOSED / DELHI_FINAL_WINDOW_NEXT / DELHI_ARRIVAL_RAIL_FIRST / KUMAON_NAINITAL_FIRST_LEADING / OPTIONAL_SHORTLIST_BRAJ_RISHIKESH / KOLKATA_PURI_BURDEN_OPEN / AUROBINDO_PUDUCHERRY_EXCLUDED**.
 Updated: 2026-09-06
 Branch: `agent/india8-cluster-casting`
 
@@ -119,6 +119,33 @@ Current comparison still open:
 
 Do not revert to Haidakhan-first baseline absent new Mark input. Do not silently call the cave-before-Haidakhan order final until exact road/outbound-rail geometry is closed.
 
+## OPTIONAL MINICLUSTERS — NEWEST MARK DECISION + EAST BURDEN
+Owning Mark decision:
+`decisions/OPTIONAL_MINICLUSTER_MARK_SHORTLIST_AND_SKIPS_2026-09-06.md`.
+
+Owning objective burden comparison:
+`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/EAST_OPTIONAL_KOLKATA_VS_PURI_MARGINAL_BURDEN_2026-09-06.md`.
+
+Newest explicit Mark truth:
+- **Braj / Mathura–Vrindavan–Govardhan = KEEP AS CANDIDATE**; not yet included.
+- **Haridwar–Kankhal–Rishikesh = KEEP AS CANDIDATE**; not yet included.
+- **Prayagraj = FINAL SKIP**.
+- **Mysuru/Mysore–Bengaluru = FINAL SKIP**.
+- **Kasar Devi–Almora / Crank's Ridge dedicated module = FINAL SKIP**; individual old site grades are not rewritten and true route-free ride-along rules may still apply where separately valid.
+- **Ranchi = FINAL SKIP**.
+- **Sri Aurobindo Ashram / Puducherry = FINAL SKIP / DO_NOT_REPRESENT reconfirmed**.
+- **Kolkata/Calcutta–Hooghly–Serampore–Dakshineswar/Panihati = OPEN only pending Mark judgment after burden analysis**.
+- **Puri/Odisha / Karar Ashram–Sri Yukteswar–Kriya = OPEN only pending Mark judgment after burden analysis**.
+
+Fresh burden result relative to the current fixed `VARANASI -> CHENNAI -> TIRUVANNAMALAI` southbound bridge:
+- neither Kolkata nor Puri is a route-breaking geographic detour if inserted once after Varanasi and before Chennai/Tiruvannamalai;
+- Kolkata is operationally easier: current VNS->CCU nonstop daily (~1h15–1h25) and CCU->MAA many daily (~2h15–2h35), no long airport feeder road; 2 hotel nights = compressed credible lower bound, 3 hotel nights = more appropriate for the spread central-Kolkata + northern Hooghly belt; relative to baseline roughly +2 or +3 calendar days respectively;
+- Puri is slightly more friction-heavy but geographically coherent: current VNS->BBI nonstop ~3 weekly (~1h20), official BBI<->Puri ~60 km / ~1h20 road each way, BBI->MAA daily ~1h45–1h55; 2 hotel nights = credible minimum, 3 = comfortable; relative to baseline roughly +2 or +3 calendar days respectively;
+- one Puri night and sub-2-night Kolkata are not recommended because transfer friction would dominate the spiritual content.
+- exact Jan-2027 flight days/times/fares remain LIVE_RECHECK_LATER.
+
+CCI exhaustive lost-grade recovery result (worker commit `4f31bb2`, read 2026-09-06): real missing grades were recovered for Mysuru/Bengaluru and Haridwar, but **Ranchi/Kolkata/Puri had no recoverable historical Mark grading round**; the East-family skip preceded the later site-grading rounds. Therefore do not invent A/B/C for East-family sites and do not ask Mark to re-grade unless one of Kolkata/Puri actually survives to a content decision surface.
+
 ## EXACT NEXT EXECUTABLE ACTION
 **DELHI FINAL WINDOW — REBUILD REALISTIC FINAL-DAY GEOMETRY.**
 
@@ -136,13 +163,13 @@ Do this action-first:
 1. Kumaon short recheck of prior ~9-night footprint, carrying **Nainital-first** as newest leading topology preference; aromatic-oil/distillation [B] only if route-cheap.
 2. Varanasi/Sarnath short consistency recheck of prior ~8-night footprint.
 3. Sum fixed-core accommodation/overnight-transport slots against 33 India slots.
-4. Compare optional worlds only then by WITH vs WITHOUT marginal burden.
+4. Compare optional worlds only then by WITH vs WITHOUT marginal burden, using the newest shortlist/skip decisions above.
 5. Mark chooses optional survivors -> final topology -> live logistics -> exact calendar -> FINAL COMFORT -> final day cards.
 
 ## OPEN / EXCLUDED SPECIAL-INTEREST ITEMS — NON-BLOCKING
 - Sun Thermo Process near Tiruvannamalai — access to prove; zero baseline duration weight.
 - Panruti cashew — background/provisional only; no longer a reason to create a Puducherry side-cluster.
-- **Sri Aurobindo Ashram / Puducherry — incidental side-cluster that grew from the earlier Panruti-cashew adjacency idea — EXCLUDED_BY_MARK / DO NOT RE-PRESENT unless explicitly reopened.**
+- **Sri Aurobindo Ashram / Puducherry — incidental side-cluster that grew from the earlier Panruti-cashew adjacency idea — FINAL SKIP BY MARK / DO NOT RE-PRESENT unless explicitly reopened.**
 - Delhi cashew shopping — not a destination.
 - Kumaon/Nainital aromatic-oil/distillation [B] — route-cheap working unit only; never a separate day.
 
@@ -157,6 +184,6 @@ Do this action-first:
 - prepare the next authorized batch ahead where feasible; never fake preparation and never bypass Mark-only decisions.
 
 UNSAVED_RISK:
-GEEN
+CURRENT_STATE.md still needs synchronization of the newest optional-shortlist / Kolkata-Puri burden truth if this session continues; owning decision + owning burden file + this mandatory crash-safe handoff already preserve it.
 
 END SUCCESSOR SAFE STATE
