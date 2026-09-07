@@ -1,6 +1,6 @@
 # FINAL EXECUTION READINESS / NO-SURPRISES AUDIT — 2026-09-07
 
-Status: WORKER RESEARCH OUTPUT — NO MARK GRADES CHANGED
+Status: WORKER RESEARCH OUTPUT — CCI-RECONCILED — NO MARK GRADES CHANGED
 Branch: `worker/final-execution-readiness-audit`
 Scope: convert the now-mature India itinerary from researched/selected into actually executable.
 
@@ -8,13 +8,21 @@ Scope: convert the now-mature India itinerary from researched/selected into actu
 
 The highest remaining project risk is no longer destination discovery. It is **execution debt**: several high-value anchors and sleep bases still depend on advance permission, scarce accommodation, booking windows, or future live rechecks, while those obligations are scattered across region files.
 
+A read-only CCI strategic challenge on PR #23 (`5571364353`) independently agreed that execution-readiness is the right next category of work (`GOOD_BUT_MISSING_X`) and identified corrections now incorporated here:
+- Kolkata's exact day plan is **NOT closed**; four candidates remain for Mark grading;
+- e-Visa deserves a hard date-window track;
+- Final Delhi is already **LOCKED_BY_MARK to one night** and must not be reopened;
+- trip-wide health/insurance prep must not fall through an anchor-by-anchor structure;
+- a total-cost consolidation remains a later project gap, but is lower priority than securing access/bookings.
+
 Highest-leverage correction: maintain one control tower with:
 1. DO NOW actions;
-2. decision gates that block irreversible bookings;
+2. decision gates that truly remain open;
 3. exact recheck dates rather than vague `LIVE_RECHECK_LATER`;
 4. advance-access/contact queue;
 5. transport booking windows;
-6. fallback for every scarce/permission-dependent item.
+6. fallback for every scarce/permission-dependent item;
+7. trip-wide admin/health/insurance preparation.
 
 The route/world lock remains untouched. Puri, Serampore trip-world, and Vrindavan/Braj stay OUT.
 
@@ -27,8 +35,8 @@ The route/world lock remains untouched. Puri, Serampore trip-world, and Vrindava
 ### Finding
 Netherlands is on the Government of India e-Visa eligibility list. For e-Tourist Visa, the official application window is up to **120 days before proposed travel**, minimum four days before arrival. Mark's expected arrival is 19 Dec 2026, so the window is already open on 7 Sep 2026.
 
-Passport requirements on the official portal:
-- at least six months validity at time of e-Visa application;
+Passport requirements on the official portal include:
+- at least six months validity;
 - at least two blank pages;
 - return/onward journey ticket and sufficient funds expected.
 
@@ -39,7 +47,7 @@ Passport requirements on the official portal:
 3. save ETA PDF both offline and cloud/phone.
 
 ### Separate T-72h action
-The Government of India now states that foreign nationals/OCI holders **must complete the free e-Arrival Card** before reaching immigration; the portal allows it within 72 hours before arrival. This is arrival information, not the visa.
+The Government of India now states that foreign nationals/OCI holders **must complete the free e-Arrival Card** before reaching immigration; the official portal permits submission within 72 hours before arrival. This is arrival information, not the visa.
 
 ### Sources
 - https://indianvisaonline.gov.in/evisa/
@@ -62,7 +70,7 @@ This means the project should not wait until T-60 merely to discover account/mob
 ### Action
 **DO NOW:** create/verify the IRCTC international account, international mobile, passport/profile and payment path.
 
-Do **not** irreversibly book disputed route edges until the calendar gates in §2 are closed.
+Do **not** irreversibly book the disputed Kumaon outbound architecture until that gate in §2 is closed.
 
 ### Normal-ARP dates for current route proxy
 - 19 Dec rail edge → normal ARP opens about **20 Oct 2026**
@@ -108,7 +116,7 @@ Do not consider Haidakhan accommodation `CLOSED` until written acceptance exists
 Dunagiri Retreat itself recommends booking **2–6 months in advance**. The current late-Dec window is therefore already inside the recommended booking period.
 
 ### Action
-If Dunagiri Retreat remains the primary sleep base for the Dunagiri/Kukuchina/Babaji block and it is not already reserved: **reserve now**, subject only to the final exact-date confirmation.
+If Dunagiri Retreat remains the primary sleep base for the Dunagiri/Kukuchina/Babaji block and it is not already reserved: **reserve now**, subject only to final exact-date confirmation.
 
 Keep Joshi fallback alive until reservation is confirmed.
 
@@ -127,23 +135,47 @@ If not already booked: secure the exact river-view/balcony room for all 8 nights
 
 ---
 
-# 2. DECISION GATES — CLOSE BEFORE IRREVERSIBLE ROUTE BOOKINGS
+# 2. TRUE DECISION GATES — CLOSE BEFORE IRREVERSIBLE ROUTE BOOKINGS
 
-## GATE 1 — Final Delhi: 19 Jan versus 20 Jan
+## CLOSED — Final Delhi = one night
 
-There is a real unresolved conflict:
-- Mark's standing preference: final Delhi arrival **20 Jan**;
-- uncommitted route-worker improvement: arrive **19 Jan** to preserve a complete retry/recovery day on 20 Jan before AI155 on 21 Jan.
+This is **NOT OPEN**.
 
-**Rule:** no worker may silently overwrite the 20-Jan preference. Mark must explicitly choose before final MAA→DEL booking.
+Canonical decision: `decisions/FINAL_DELHI_ONE_NIGHT_MARK_DECISION_2026-09-07.md`.
 
-## GATE 2 — Kolkata/Dakshineswar true duration
+Mark explicitly declined a generic two-Delhi-night ending. Current intended structure:
+- 19 Jan = upstream/Chennai-airport positioning/recovery slot;
+- 20 Jan = Delhi arrival + one final Delhi night;
+- 21 Jan = AI155 12:20.
 
-Kolkata/Dakshineswar cluster is [A+] LOCKED, but **3 nights is still a planning proxy**, not a true-duration lock. 2/3/4 nights changes downstream dates and may change Ramanasramam availability / final Delhi buffer.
+Do not reintroduce a 19-Jan Delhi arrival / two-Delhi-night variant unless a **new, concrete safety failure** compromises the existing Chennai-positioning buffer and Mark explicitly reopens the decision.
 
-Close this before submitting date-rigid Sri Ramanasramam accommodation.
+## GATE 1 — Kolkata/Dakshineswar true duration + remaining grades
 
-## GATE 3 — Kumaon outbound rail architecture
+Kolkata/Dakshineswar cluster is [A+] LOCKED, but **3 nights is still a planning proxy**, not a true-duration lock.
+
+CCI's latest grade-ready filter (`5571208012`) leaves four real Mark questions:
+1. Balaram Mandir — Ramakrishna/Vivekananda founding house [UNGRADED]
+2. Mayer Bari / Udbodhan — Sarada Devi's actual home [UNGRADED]
+3. Vivekananda Ancestral House — birth/childhood home [UNGRADED]
+4. Kamarpukur + Jayrambati — rural Ramakrishna/Sarada birthplace excursion [UNGRADED]
+
+Already closed and not to be re-asked:
+- Dakshineswar Kali Temple [A+]
+- YSS Dakshineswar [A+]
+- Belur Math [A]
+- 4 Garpar Road [A+]
+- YSS Garpar Dhyana Kendra [A+]
+- Cossipore Udyanbati [B]
+- Baranagar Math = BUNDLE_ONLY
+- Alambazar Math = BUNDLE_ONLY
+
+### Control rule
+`KOLKATA DAY-PLAN: PENDING MARK GRADING`.
+
+Do NOT build a supposedly final day-by-day Kolkata schedule or date-rigid hotel logic around those four until Mark grades them. The execution audit may secure **base accommodation and A+ access**, because those survive any of the four choices.
+
+## GATE 2 — Kumaon outbound rail architecture
 
 Two materially different patterns exist in current project history:
 - committed model with an overnight 15014-type exit and a fragile same-morning Delhi transfer;
@@ -209,7 +241,7 @@ It is still not a normal public museum with published walk-in hours.
 ### Best practical route
 Use **YSS Garpar Dhyana Kendra** as the facilitator/contact because it is a short walk away and has a current public phone/email.
 
-Source:
+Sources:
 - https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar
 - https://yssofindia.org/blog/yss-srf-president-swami-chidananda-visits-ashrams-in-india
 
@@ -226,7 +258,7 @@ Official page says group meditations/satsangas are open to the public, but for t
 
 ### Action
 - **T-60:** check whether Jan 2027 event/schedule has been published.
-- **T-30:** email/call with exact Kolkata dates and ask for the group-meditation schedule + help/introductions for 4 Garpar Road.
+- **T-30:** email/call with exact Kolkata dates and ask for group-meditation schedule + help/introductions for 4 Garpar Road.
 - **T-7:** reconfirm.
 
 Source: https://yssofindia.org/location/garpar
@@ -240,6 +272,8 @@ Priority remains Mark's explicit hierarchy, not a hotel selection:
 2. Ramakrishna/Belur devotee guest accommodation;
 3. spiritual/local homestay around Dakshineswar;
 4. ordinary hotel fallback.
+
+This base search can proceed **before** the four remaining Kolkata grades because the locked A+/A core survives all outcomes.
 
 ## 4.1 YSS Dakshineswar [A+] stay attempt
 
@@ -260,7 +294,7 @@ Official Belur Math states guesthouse accommodation is **only for devotees who c
 A new **Ma Sarada Bhavan (Yatri Nivas)** was inaugurated in May 2026 to expand devotee accommodation capacity, materially strengthening this fallback.
 
 ### Action
-Contact **now / as soon as 11–14 Jan proxy is accepted as inquiry dates**, explicitly as a pilgrimage stay. Ask whether dates can be held or adjusted by ±1 day while final Kolkata duration closes.
+Contact **now / using the current Kolkata proxy as provisional dates**, explicitly as a pilgrimage stay. Ask whether dates can be held or adjusted by ±1 day while final Kolkata duration closes.
 
 Sources:
 - https://belurmath.org/
@@ -298,8 +332,8 @@ Official sources:
 - https://www.gururamana.org/Ashram/accommodation
 - https://stay.gururamana.org/
 
-### Additional fallback worth keeping
-Athithi Ashram publicly says it provides visiting pilgrims/Ramana devotees with accommodation and simple vegetarian food, subject to prior information and availability. This is a spiritually aligned fallback if Sri Ramanasramam itself rejects the request.
+### Additional spiritually aligned fallback
+Athithi Ashram publicly says it provides visiting pilgrims/Ramana devotees with accommodation and simple vegetarian food, subject to prior information and availability.
 - https://athithiashram.org/contact-us/
 
 ---
@@ -307,7 +341,7 @@ Athithi Ashram publicly says it provides visiting pilgrims/Ramana devotees with 
 # 6. FIXED CLOSURE / CALENDAR CHECKS ALREADY RESOLVED
 
 ## Taj Mahal [A+]
-Official ASI Agra: Taj Mahal is closed to visitors on **Friday**. The working Taj morning of Thu 31 Dec 2026 is therefore structurally safe if that calendar survives final route freeze.
+Official ASI Agra: Taj Mahal is closed to visitors on **Friday**. The working Taj morning of Thu 31 Dec 2026 is structurally safe if that calendar survives final route freeze.
 Source: https://www.asiagracircle.in/visitor-information.html
 
 ## Sarnath Museum
@@ -320,7 +354,36 @@ Source: https://yssofindia.org/location/dakshineswar
 
 ---
 
-# 7. SLEEP-BASE MATURITY / BOOKING QUEUE
+# 7. TRIP-WIDE HEALTH / INSURANCE PREP — NOT AN ANCHOR ITEM
+
+This is intentionally a separate project-wide lane; no personalized medical conclusion is made here.
+
+## Travel-health appointment
+GGD Reisvaccinaties' current India guidance lists general recommendations including DTP, hepatitis A and typhoid, and notes malaria risk varies by region. Personal advice depends on itinerary, prior vaccinations and individual circumstances.
+
+GGD Region Utrecht recommends scheduling travel advice **6–8 weeks before departure**, and offers appointments in Amersfoort/Utrecht or online.
+
+### Action
+- **NOW or by early October:** book a travel-health consult for late Oct / early Nov if not already handled.
+- bring existing vaccination history and full itinerary.
+- let the travel-health professional decide what is actually indicated; do not self-select from a generic country list.
+
+Sources:
+- https://www.ggdreisvaccinaties.nl/land/india
+- https://ggdru.nl/thema/gezond-op-reis/reisadvies-en-vaccinaties/
+
+## Travel insurance / medical repatriation
+NederlandWereldwijd explicitly advises a good travel insurance policy for India covering extra medical costs and repatriation; basic Dutch health insurance may not cover all costs, and serious illness may require private-clinic transfer.
+
+### Action
+**BY T-60:** verify policy validity for the full 5-week period, India coverage, medical expenses, repatriation, missed/changed transport and any activity exclusions relevant to the actual itinerary.
+
+Source:
+- https://www.nederlandwereldwijd.nl/reisadvies/india
+
+---
+
+# 8. SLEEP-BASE MATURITY / BOOKING QUEUE
 
 | Region | Current project state | Execution status | Next action |
 |---|---|---|---|
@@ -329,15 +392,15 @@ Source: https://yssofindia.org/location/dakshineswar
 | Dunagiri/Kukuchina | Dunagiri Retreat primary; Joshi fallback | TIME-SENSITIVE | book primary now if not already reserved |
 | Haidakhan | ashram stay integral | PERMISSION-DEPENDENT | submit official inquiry now; retain written acceptance |
 | Agra | East Gate/Shilpgram 1 night | PROPERTY OPEN | choose/book after exact arrival/train freeze |
-| Bodh Gaya | Maya Heritage default 2n, 3 conditional | BOOKABLE | cancellable reservation after 2-vs-3 calendar gate |
+| Bodh Gaya | Maya Heritage default 2n, 3 conditional | BOOKABLE | cancellable reservation after 2-vs-3 calendar gate if still relevant |
 | Varanasi | Sahi River View Guesthouse locked | ROOM-SUBTYPE RISK | exact river-view/balcony room, 8 nights |
-| Kolkata/Dakshineswar | YSS→Ramakrishna→homestay→hotel hierarchy | OPEN / research underway | parallel spiritual inquiries + cancellable local fallback |
+| Kolkata/Dakshineswar | YSS→Ramakrishna→homestay→hotel hierarchy | OPEN / research underway | parallel spiritual inquiries + cancellable local fallback; day plan pending grades |
 | Tiruvannamalai | 5 nights locked, property not selected in current audit state | HIGH PRIORITY | decide whether Ramanasramam attempt; apply after exact dates freeze; hotel fallback |
-| final Delhi | date 19-vs-20 gate unresolved | BLOCKED BY MARK DATE DECISION | book after gate closes |
+| final Delhi | **1 night LOCKED** | PROPERTY OPEN | book one-night airport-practical option after final flight edge is fixed |
 
 ---
 
-# 8. TRANSPORT / RECHECK CONTROL TOWER
+# 9. TRANSPORT / RECHECK CONTROL TOWER
 
 ## DO NOT use generic `LIVE_RECHECK_LATER`
 Every future fact should have an owner date.
@@ -363,7 +426,9 @@ For the leading macro-order, the critical flight chain is Varanasi→Kolkata, Ko
 
 ---
 
-# 9. ADMIN / ENTRY ACTION CALENDAR
+# 10. PRE-DEPARTURE ACTION CALENDAR — SEP → 19 DEC 2026
+
+This is the end product CCI recommended. It intentionally stops short of a final Kolkata day-plan.
 
 ## NOW — 7–14 Sep 2026
 - passport validity + blank pages
@@ -372,20 +437,24 @@ For the leading macro-order, the critical flight chain is Varanasi→Kolkata, Ko
 - Haidakhan official accommodation request
 - Dunagiri Retreat booking if not already reserved
 - Sahi River View exact balcony/river-view room if not already reserved
-- start YSS Dakshineswar + Belur Math accommodation inquiries with provisional dates
+- start YSS Dakshineswar + Belur Math accommodation inquiries using provisional dates
 - identify cancellable Kolkata ordinary fallback
+- **KOLKATA DAY-PLAN remains PENDING MARK GRADING**
 
 ## BY END OF SEPTEMBER
+- Mark grades Balaram Mandir, Mayer Bari/Udbodhan, Vivekananda Ancestral House, Kamarpukur+Jayrambati
 - close Kolkata 2/3/4-night duration
-- close final Delhi 19-vs-20 Jan
 - close Kumaon outbound rail architecture
 - decide whether Sri Ramanasramam accommodation is desired
 - if yes, submit Sri Ramanasramam online request immediately after exact dates freeze
 - secure Tiruvannamalai fallback lodging
+- choose/book remaining cancellable hotel gaps once route dates are stable
 
 ## OCTOBER
 - freeze exact intercity rail products
 - use FTQ where advantageous or ensure normal ARP dates are calendared
+- book/confirm robust domestic nonstop flight chain after calendar freeze
+- book travel-health consultation if not already scheduled
 - around 20 Oct: first normal-ARP northbound rail opening
 - around 30–31 Oct: 29/30 Dec rail normal-ARP openings
 
@@ -397,6 +466,7 @@ For the leading macro-order, the critical flight chain is Varanasi→Kolkata, Ko
 - check YSS Jan 2027 events/schedules
 - Garpar group-meditation schedule first check
 - Belur/ferry festival operating assumptions recheck
+- verify travel insurance incl. medical/repatriation if not already done
 
 ## T-30
 - Bhrigu Karyalaya/Bhadury Sadan appointment contact
@@ -417,22 +487,21 @@ For the leading macro-order, the critical flight chain is Varanasi→Kolkata, Ko
 - complete free Government of India e-Arrival Card
 - save confirmation offline
 
-## T-48h FOR EACH FRAGILE EDGE
-- fog/weather
-- train live-running / cancellation
-- airline operation/terminal
-- Kumaon road condition
-- local closure/festival restrictions
+## T-48h BEFORE ARRIVAL / FIRST FRAGILE EDGE
+- Delhi/north-India fog outlook
+- AI156 operational status
+- first rail live-running
+- Kumaon road condition and driver reconfirmation
 
 ---
 
-# 10. BIGGEST FIVE 'NO-SURPRISES' FAILURE MODES
+# 11. BIGGEST FIVE 'NO-SURPRISES' FAILURE MODES
 
 1. **Haidakhan not accepted** while the itinerary assumes sleeping inside/at the ashram.
-   - Mitigation: written request now + nearby fallback not treated as equivalent spiritual experience but operationally available.
+   - Mitigation: written request now + operational fallback.
 
 2. **Sri Ramanasramam lodging assumed rather than approved**, especially during Pongal/Sankranti.
-   - Mitigation: date freeze → immediate online request + cancellable walking-distance fallback.
+   - Mitigation: exact-date freeze → immediate online request + cancellable walking-distance fallback.
 
 3. **Private A+ visit not arranged** (4 Garpar Road or Bhrigu/Bhadury).
    - Mitigation: named contact owner + T-30/T-7 process.
@@ -440,29 +509,48 @@ For the leading macro-order, the critical flight chain is Varanasi→Kolkata, Ko
 4. **Rail account / quota / route-edge problem discovered only at booking opening**, especially around the disputed Kumaon→Delhi→Agra edge.
    - Mitigation: IRCTC readiness now; close route architecture before purchase; FTQ understood correctly.
 
-5. **Final-flight buffer silently eroded** by Kolkata/Tiruvannamalai duration or a 20-Jan final arrival.
-   - Mitigation: Mark explicitly closes 19-vs-20 and Kolkata duration; no downstream booking may silently decide it.
+5. **Open Kolkata grading silently leaks into bookings/day-plans**, creating unnecessary rework or wrong duration.
+   - Mitigation: base accommodation may proceed; exact Kolkata day-plan stays `PENDING MARK GRADING` until four questions close.
 
 ---
 
-# 11. THINGS THAT DO NOT JUSTIFY ANOTHER DEEP HOUR NOW
+# 12. BUDGET / COST GAP — REAL, BUT SECOND PRIORITY
 
-Unless new Mark truth reopens them, do NOT spend another major research pass on:
+CCI correctly notes that no trip-wide cost consolidation exists. That is a genuine no-surprises gap, but it should **not displace** the current permission/booking/deadline work.
+
+Recommended next financial artifact after exact route + hotel reservations start landing:
+- international flights already paid/known separately;
+- actual hotel/ashram confirmed costs by region;
+- rail booked fares;
+- domestic flight booked fares;
+- major taxi/driver blocks;
+- entrance/permit costs;
+- 10–15% operational contingency.
+
+Do not build a fake precise total today from volatile unbooked fares. Build it from confirmations as they arrive.
+
+---
+
+# 13. THINGS THAT DO NOT JUSTIFY ANOTHER DEEP HOUR NOW
+
+CCI independently agreed these are low marginal value. Unless new Mark truth reopens them, do NOT spend another major pass on:
+- more Kolkata candidate discovery;
+- re-verifying macro-order A versus B again;
+- further GEO refinement of already suppressed Kolkata candidates;
 - Puri/Odisha;
 - Serampore as trip-world/excursion;
 - Vrindavan/Braj;
-- generic central-Kolkata sightseeing suppressed by the Dakshineswar-base filter;
-- repeating already-deep A+/A place discovery in Varanasi/Bodh Gaya/Tiruvannamalai without an execution question;
-- full fare modelling months ahead;
+- another spare-night arithmetic pass;
+- full fare modelling before real bookings;
 - exact Jan 2027 flight inventory treated as permanent fact.
 
 The marginal value is now in execution closure, not more candidate volume.
 
 ---
 
-# 12. RECOMMENDED DURABLE PROJECT CHANGE
+# 14. RECOMMENDED DURABLE PROJECT CHANGE
 
-Create/maintain one canonical execution register after route freeze:
+After route/date freeze, create/maintain one canonical execution register:
 
 `governance/TRIP_EXECUTION_CONTROL_TOWER.md`
 
@@ -483,8 +571,13 @@ This avoids the current failure mode in which a place can be perfectly researche
 
 ---
 
-# 13. ITEMS NEEDING FINAL RECONCILIATION WITH CCI
+# 15. CCI RECONCILIATION
 
-A separate read-only strategic CCI challenge was posted to PR #23 to test whether this execution audit is indeed the highest remaining leverage and to identify any larger blind spot. Its result should be reconciled into this worker output before central adoption.
+Strategic challenge: PR #23 comment `5571364353`.
+Verdict: `GOOD_BUT_MISSING_X` — execution readiness is the right category, with Kolkata-grading, final-Delhi-lock, visa-window, budget and health/insurance corrections.
+
+Remaining Kolkata filter: PR #23 comment `5571208012`.
+
+This worker output now reconciles those findings.
 
 No central write from this worker. No grade/duration/site-world changes made.
