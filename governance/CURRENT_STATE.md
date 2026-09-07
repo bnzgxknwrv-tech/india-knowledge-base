@@ -1,6 +1,6 @@
 # CURRENT STATE — INDIA
 
-state_revision: 2026-09-06_AGRA_TRUE_CLOSED__DELHI_FINAL_WINDOW_NEXT__ARRIVAL_RAIL_FIRST__KUMAON_NAINITAL_FIRST_LEADING__AUROBINDO_PUDUCHERRY_EXCLUDED__OPTIONAL_PAIR_SCOPE_BRAJPURI_VS_KOLKATA_EXACT_PASS_DONE
+state_revision: 2026-09-07_AGRA_TRUE_CLOSED__DELHI_FINAL_WINDOW_NEXT__ARRIVAL_RAIL_FIRST__KUMAON_NAINITAL_FIRST_LEADING__AUROBINDO_PUDUCHERRY_EXCLUDED__FINAL_TRIP_WORLDS_LOCKED_HAIDAKHAN_KOLKATA
 branch: `agent/india8-cluster-casting`
 status: TRAVEL_FRONTIER_ACTIVE__DELHI_FINAL_WINDOW_GEOMETRY_NEXT
 boot_authority: `governance/INDIA_MASTER_BOOT.md` + `governance/FRESH_SESSION_BOOT_GATE.md` + `governance/BOOT_MANIFEST_V8.json`
@@ -153,20 +153,18 @@ Required next actions:
 4. Compare optional worlds by marginal WITH vs WITHOUT burden only then.
 5. Mark chooses survivors -> final topology -> live logistics -> exact calendar -> FINAL COMFORT -> final day cards.
 
-## OPTIONAL-WORLD PAIR SCOPE — EXACT CALENDAR PASS DONE, RECONCILED WITH INDEPENDENT AUDIT (2026-09-06)
-Hard scope (`decisions/OPTIONAL_WORLD_FINAL_PAIR_SCOPE_2026-09-06.md`): the only two final optional packages under comparison are **BRAJ+PURI** and **KOLKATA**. Braj-only, Puri-only, Braj+Kolkata, Kolkata+Puri and all-three are internal diagnostics only, not user-facing alternatives.
+## FINAL TRIP WORLDS — LOCKED (2026-09-07, SUPERSEDES THE OPTIONAL-PAIR FRAMING BELOW)
+`decisions/FINAL_TRIP_WORLDS_LOCK_2026-09-07.md` is now the controlling truth: this is no longer an optional-world *choice* between packages. Trip-content worlds are fixed:
+- **Haidakhan Vishwa Mahadham/Ashram [A+]** — retained, existing 3-night/2-complete-quiet-day lock stands.
+- **Kolkata/Dakshineswar — FINAL INCLUDED.** Sleep-base is now Mark-preferred as spiritual-core-anchored (Dakshineswar/Belur, not central Kolkata) per `decisions/KOLKATA_DAKSHINESWAR_SPIRITUAL_SLEEPBASE_PREFERENCE_2026-09-07.md` and `decisions/DAKSHINESWAR_YSS_LODGING_LINEAGE_COMPATIBILITY_2026-09-07.md`. Three anchor grades exist: Dakshineswar Kali Temple [A+], Yogoda Satsanga Math Dakshineswar [A+], Belur Math [A]. Remaining ~29 candidates (deep-pass dossier, `worker/kolkata-dakshineswar-deep-pass` commit `8e6758a`) are still UNGRADED and pending a distance/burden filter from the Dakshineswar/YSS zero-point before presentation to Mark.
+- **Puri/Odisha — FINAL EXCLUDED.**
+- **Serampore/Srirampur — FINAL EXCLUDED** as a trip stop/base; historical AOAY/Sri Yukteswar provenance is preserved, not erased.
+- **Vrindavan/Braj — FINAL EXCLUDED.**
 
-Exact-date calendar pass against real 2026/27 weekdays, revised after an independent Work audit found arithmetic inconsistencies in the first version (numbers below are the corrected, date-by-date-verified ones):
-`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BRAJ_PURI_VS_KOLKATA_EXACT_CALENDAR_PASS_2026-09-06.md`.
+Still open: exact world order, exact calendar dates, Kolkata site-level grading/dwell/sleep-base finalization. This is now a full-trip topology+calendar optimization problem, not a package-selection problem — see `CCI_RESULT — FINAL-TRIP TOPOLOGY/CALENDAR STRATEGY REVIEW` on PR #23 (2026-09-07) for the current strategy.
 
-Headline results:
-- **Braj+Puri / H+ (Haidakhan retained)**: the scope file's stated 3-night minimum collides with a real date fact (1 Jan 2027 is a Friday, Taj closed Fridays, re-verified via Zeller's congruence); corrected minimum is Braj 2 + Puri 2 = 4 nights, fitting exactly 33/33 with zero spare. Also depends on an unverified same-morning Delhi Cantt->Mathura connection with no recovery capacity if it fails — **verdict FAIL, not merely MARGINAL** (CCI reconciled to agree with the stricter independent-audit call; current-evidence verdict, not permanent). Comfortable (5 nights) consumes all 33 nights finishing Tiruvannamalai alone, leaving zero nights for any Delhi leg — **FAIL**, more severely than a simple 1-night overshoot.
-- **Braj+Puri / H− (hypothetical Haidakhan drop, sensitivity only)**: comfortable (5 nights) fits with **2** spare nights (corrected from an initially miscounted 3); Friday-Taj collision does not arise because the whole spine shifts 3 days earlier. **PASS.**
-- **Kolkata / H+**: comfortable (3 nights) fits with 1 spare night positioned right before the international departure (corrected recount, same conclusion); no weekday-fragile edge. **PASS.**
-- **Kolkata / H−**: comfortable (3 nights) fits with 4 spare nights (corrected recount, same conclusion). **PASS.**
-- Bodh Gaya's conditional 3rd night can flip Braj+Puri/H+ to FAIL entirely and erodes Kolkata/H+'s buffer to zero — see the sensitivity table in the owning file.
-
-No package winner chosen. Haidakhan's inclusion/lock is unchanged; H− remains sensitivity only.
+### Superseded background (kept for provenance, do not treat as current)
+The `BRAJ+PURI vs KOLKATA` exact-calendar apparatus below (`decisions/OPTIONAL_WORLD_FINAL_PAIR_SCOPE_2026-09-06.md`, `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BRAJ_PURI_VS_KOLKATA_EXACT_CALENDAR_PASS_2026-09-06.md`) predates the 2026-09-07 lock. Its underlying *methods* (real-date placement against actual weekdays, weekly-closure checking, same-morning-connection skepticism) remain valid and reusable; its *conclusions* about Braj+Puri packages no longer apply now that Braj and Puri are excluded outright, not compared against Kolkata. Do not quote the old FAIL/PASS verdicts as if they still govern a live choice — there is no more choice between these packages, only the topology/calendar problem above.
 
 ## SPECIAL-INTEREST CURRENT TRUTH — NON-BLOCKING
 - Sun Thermo Process near Tiruvannamalai [OPEN / ACCESS TO PROVE]; zero baseline duration weight.

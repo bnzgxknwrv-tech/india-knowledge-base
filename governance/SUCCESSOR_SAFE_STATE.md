@@ -65,52 +65,37 @@ Owner:
 - Haidakhan Vishwa Mahadham [A+] remains 3 nights / 2 complete full quiet days LOCKED_BY_MARK.
 - exact Haidakhan gateway and final outbound rail geometry still require closure.
 
-## OPTIONAL WORLD — HARD PAIR SCOPE (SUPERSEDES THE THREE-CANDIDATE LIST BELOW)
-Owner: `decisions/OPTIONAL_WORLD_FINAL_PAIR_SCOPE_2026-09-06.md`.
+## FINAL TRIP WORLDS — LOCKED (2026-09-07, SUPERSEDES THE OPTIONAL-PAIR SCOPE BELOW)
+Owner: `decisions/FINAL_TRIP_WORLDS_LOCK_2026-09-07.md`.
 
-Mark's newest scope: the final optional-package comparison is ONLY
-1. **BRAJ + PURI**, or
-2. **KOLKATA**.
+This is no longer an optional-world *choice*. Trip-content worlds are fixed:
+- **Haidakhan Vishwa Mahadham/Ashram [A+]** — retained.
+- **Kolkata/Dakshineswar — FINAL INCLUDED.** Sleep-base preference is now spiritual-core-anchored (Dakshineswar/Belur, not central Kolkata): `decisions/KOLKATA_DAKSHINESWAR_SPIRITUAL_SLEEPBASE_PREFERENCE_2026-09-07.md`, `decisions/DAKSHINESWAR_YSS_LODGING_LINEAGE_COMPATIBILITY_2026-09-07.md` (Mark is Kriyaban via Ananda lineage, not YSS/SRF — do not assume YSS lodging eligibility without explicit confirmation). Three anchor grades exist: Dakshineswar Kali Temple [A+], Yogoda Satsanga Math Dakshineswar [A+], Belur Math [A]. ~29 remaining deep-pass candidates (`worker/kolkata-dakshineswar-deep-pass` commit `8e6758a`, `runs/active/INDIA_KOLKATA_DAKSHINESWAR_DEEP_PASS_FINAL_DOSSIER.md`) are UNGRADED, pending a distance/burden filter from the Dakshineswar/YSS zero-point.
+- **Puri/Odisha — FINAL EXCLUDED.**
+- **Serampore/Srirampur — FINAL EXCLUDED** as a trip stop/base; AOAY/Sri Yukteswar historical provenance is preserved, not erased.
+- **Vrindavan/Braj — FINAL EXCLUDED.**
 
-Braj-only, Puri-only, Braj+Kolkata, Kolkata+Puri and all-three are internal diagnostics only, not user-facing alternatives. Haridwar/Kankhal/Rishikesh and other final skips (list below) stay suppressed.
+Still open: exact world order, exact calendar dates, Kolkata site-level grading/dwell/sleep-base finalization. Now a full-trip topology+calendar optimization problem — see `CCI_RESULT — FINAL-TRIP TOPOLOGY/CALENDAR STRATEGY REVIEW` on PR #23 (2026-09-07).
 
-Exact-date calendar proof against real 2026/27 weekdays is DONE and has been reconciled with an independent Work audit that found arithmetic inconsistencies in the first version:
-`runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BRAJ_PURI_VS_KOLKATA_EXACT_CALENDAR_PASS_2026-09-06.md`.
+### Superseded background — do not treat as current
+The `BRAJ+PURI vs KOLKATA` exact-calendar apparatus (`decisions/OPTIONAL_WORLD_FINAL_PAIR_SCOPE_2026-09-06.md`, `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BRAJ_PURI_VS_KOLKATA_EXACT_CALENDAR_PASS_2026-09-06.md`, its FAIL/PASS verdicts for Braj+Puri under H+/H−) predates the 2026-09-07 lock. Its *methods* (real-date placement, weekly-closure checking, same-morning-connection skepticism) remain valid and reusable; its *conclusions* no longer apply — there is no more Braj+Puri-vs-Kolkata choice, Braj and Puri are simply excluded.
 
-Headline results, corrected and reconciled (H+ = Haidakhan retained/canon, H− = hypothetical drop, sensitivity only, not a decision):
-- Braj+Puri/H+: the coarse "3-night minimum" collides with a real date fact (1 Jan 2027 is a Friday, Taj closed Fridays, re-verified via Zeller's congruence); corrected minimum is 4 nights (Braj 2 + Puri 2), fitting 33/33 with zero spare. Also depends on an unverified same-morning Delhi Cantt->Mathura connection with no recovery capacity — **verdict FAIL**, not merely MARGINAL (CCI agrees with the independent audit's stricter call; a current-evidence verdict, reversible if that connection is later verified as safe). Comfortable (5 nights) consumes all 33 nights finishing Tiruvannamalai alone with zero nights left for any Delhi leg — FAIL, more severely than a simple overshoot.
-- Braj+Puri/H−: comfortable (5 nights) fits with **2** spare nights (corrected from an initially miscounted 3); Friday collision does not arise. PASS.
-- Kolkata/H+: comfortable (3 nights) fits with 1 spare night before international departure (recount confirms); no weekday-fragile edge. PASS.
-- Kolkata/H−: comfortable (3 nights) fits with 4 spare nights (recount confirms). PASS.
-- Bodh Gaya's conditional 3rd night erodes every family's remaining buffer by 1 night; already-FAIL families stay FAIL, already-PASS families lose one night of margin.
-
-No package winner chosen. This is the current controlling optional-world truth; the three-candidate framing below is superseded background only.
-
-## OPTIONAL MINICLUSTERS — SUPERSEDED BACKGROUND (see hard pair scope above)
-Detailed owner:
-`decisions/OPTIONAL_MINICLUSTER_MARK_SHORTLIST_AND_SKIPS_2026-09-06.md`.
-
-Originally three candidates were open for research (Braj, Kolkata, Puri); Mark has since narrowed final comparison to exactly the two packages above.
-
+## OPTIONAL MINICLUSTERS — FINAL SKIP LIST (still current)
 FINAL SKIP / DO NOT RE-PRESENT unless Mark explicitly reopens:
-- **Haridwar–Kankhal–Rishikesh — FINAL SKIP BY MARK on 2026-09-06.** This supersedes the immediately prior candidate status after Mark considered both the spiritual layer and the scenic/non-spiritual Rishikesh value. Existing individual site grades are preserved; only cluster inclusion is rejected.
+- **Haridwar–Kankhal–Rishikesh — FINAL SKIP BY MARK on 2026-09-06.** Existing individual site grades are preserved; only cluster inclusion is rejected.
 - Prayagraj / Allahabad.
 - Mysuru/Mysore–Bengaluru.
 - Kasar Devi–Almora / Crank's Ridge dedicated module.
 - Ranchi.
 - Sri Aurobindo Ashram / Puducherry.
+- Puri/Odisha, Serampore/Srirampur, Vrindavan/Braj — FINAL EXCLUDED per the 2026-09-07 lock above (superseding their earlier "candidate" framing).
 
-Objective east-world burden already established:
-- Kolkata after Varanasi before Chennai is not route-breaking; 2 hotel nights compressed lower bound, 3 more comfortable.
-- Puri in the same slot is also not route-breaking; 2 nights credible minimum, 3 comfortable, but more transfer friction via Bhubaneswar.
-- exact Jan-2027 flight days/times/fares remain LIVE_RECHECK_LATER.
-
-CCI lost-grade recovery found that Kolkata/Puri/Ranchi appear never to have received a historical Mark site-grading round before the East-family skip. Do not invent grades. If Kolkata or Puri survives to a Mark content decision, present the full researched site content first so Mark can grade then.
+CCI lost-grade recovery found that Kolkata/Puri/Ranchi never received a historical Mark site-grading round. Do not invent grades — present full researched site content first so Mark can grade.
 
 ## CCI ACTIVE WORK
 - P0 Varanasi/Bodh Gaya lossless canon recovery remains active from CCI note `5558174336`.
-- optional-world research scope is now the hard pair (Braj+Puri vs Kolkata) exact-calendar-proven above. Rishikesh is removed from active comparison immediately; already-completed Rishikesh research remains provenance only.
-- **standing rule recovered 2026-09-06 from INDIA17's final extraction, confirmed directly by Mark same day**: `decisions/CONTENT_BEFORE_CALENDAR_OPTIONAL_WORLD_CHOICE_MARK_RULE_2026-09-06.md` — Mark's actual choice between optional-world packages must be preceded by a full content-richness presentation (photos, explanations, Top-11/saint connections) of the surviving A/B material, not driven by calendar/burden results alone. A `WORK_TASK — PRESENTATIE-DOSSIER BRAJ + KOLKATA + PURI` was drafted the same day to deliver this, separate from the calendar work above.
+- Trip-content scope is now the 2026-09-07 final lock (Haidakhan + Kolkata/Dakshineswar) above; Braj+Puri-vs-Kolkata comparison work is closed/superseded, not active.
+- **standing rule** (`decisions/CONTENT_BEFORE_CALENDAR_OPTIONAL_WORLD_CHOICE_MARK_RULE_2026-09-06.md`) still applies in spirit to Kolkata's own site-grading: present full content-richness (photos, explanations, Top-11/saint links) before/alongside Mark's A/B/C round, not calendar-burden-only.
 - INDIA17's legacy extraction is IN: `runs/active/INDIA-LEGACY-EXTRACTION-001/INDIA17_FINAL_EXTRACTION_2026-09-06.md` (11th session extracted before chat rollover; original raw dump on branch `extraction/india17-2026-09-06`, commit `2979070`, folded into central here).
 
 ## CURRENT FRONTIER

@@ -168,20 +168,18 @@ Owner: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_POST_TRI
 
 Sun Thermo Process remains OPEN / ACCESS TO PROVE; real factory about 15 km from town, no public visitor-tour regime found, zero baseline duration weight.
 
-## 12. OPTIONAL WORLDS — FINAL PAIR SCOPE / LATER THAN CURRENT DELHI FRONTIER
-Newest explicit Mark truth controls.
+## 12. FINAL TRIP WORLDS — LOCKED (2026-09-07) / LATER THAN CURRENT DELHI FRONTIER
+Newest explicit Mark truth controls. This is no longer an optional-package *choice* — it is superseded by a direct lock.
 
 Current scope owner:
-`decisions/OPTIONAL_WORLD_FINAL_PAIR_SCOPE_2026-09-06.md`.
+`decisions/FINAL_TRIP_WORLDS_LOCK_2026-09-07.md`.
 
-Standing choice-presentation owner:
-`decisions/CONTENT_BEFORE_CALENDAR_OPTIONAL_WORLD_CHOICE_MARK_RULE_2026-09-06.md`.
-
-The ONLY final user-facing optional-package alternatives are:
-1. **Braj + Puri** — Braj / Mathura–Vrindavan–Govardhan overlap world together with Puri/Odisha / Karar Ashram–Sri Yukteswar–Kriya world.
-2. **Kolkata** — Kolkata/Calcutta–Hooghly–Serampore–Dakshineswar/Panihati Bengal-lineage world.
-
-Do not continue presenting Braj-only, Puri-only, Braj+Kolkata, Kolkata+Puri or Braj+Kolkata+Puri as final alternatives. They may be used only as internal diagnostics when needed for transport arithmetic.
+Fixed trip-content worlds:
+1. **Haidakhan Vishwa Mahadham/Ashram [A+]** — retained, existing 3-night/2-complete-quiet-day lock stands.
+2. **Kolkata/Dakshineswar — FINAL INCLUDED.** Anchor grades: Dakshineswar Kali Temple [A+], Yogoda Satsanga Math Dakshineswar [A+], Belur Math [A]. Sleep-base preference is spiritual-core-anchored (Dakshineswar/Belur): `decisions/KOLKATA_DAKSHINESWAR_SPIRITUAL_SLEEPBASE_PREFERENCE_2026-09-07.md`, `decisions/DAKSHINESWAR_YSS_LODGING_LINEAGE_COMPATIBILITY_2026-09-07.md` (Mark is Kriyaban via Ananda lineage, not YSS/SRF — do not assume YSS lodging eligibility). ~29 further deep-pass candidates (`worker/kolkata-dakshineswar-deep-pass` commit `8e6758a`) are UNGRADED, pending a distance/burden filter from the Dakshineswar/YSS zero-point.
+3. **Puri/Odisha — FINAL EXCLUDED.**
+4. **Serampore/Srirampur — FINAL EXCLUDED** as a trip stop/base; historical AOAY/Sri Yukteswar provenance preserved, not erased.
+5. **Vrindavan/Braj — FINAL EXCLUDED.**
 
 Final skips / do not re-present as optional cluster unless Mark explicitly reopens:
 - Haridwar–Kankhal–Rishikesh — FINAL SKIP BY MARK; existing individual site grades stay preserved.
@@ -191,22 +189,19 @@ Final skips / do not re-present as optional cluster unless Mark explicitly reope
 - Ranchi — FINAL SKIP.
 - Sri Aurobindo Ashram / Puducherry — FINAL SKIP / DO NOT RE-PRESENT.
 
-Haidakhan sensitivity:
-- Haidakhan Vishwa Mahadham [A+] remains included/LOCKED_BY_MARK.
-- H+ means Haidakhan retained and is current canon.
-- H− is hypothetical sensitivity only; it is not permission to remove Haidakhan.
+Still open: exact world order, exact calendar dates, Kolkata site-level grading/dwell/sleep-base finalization — see `CCI_RESULT — FINAL-TRIP TOPOLOGY/CALENDAR STRATEGY REVIEW` on PR #23 (2026-09-07) for current strategy.
 
-Current exact-calendar/whole-human burden evidence is already produced and independently reconciled. It is feasibility evidence, not the subjective choice driver. No package winner has been chosen.
+**Superseded background, do not treat as current**: the earlier `decisions/OPTIONAL_WORLD_FINAL_PAIR_SCOPE_2026-09-06.md` / Braj+Puri-vs-Kolkata exact-calendar apparatus predates this lock. Its verification *methods* remain reusable; its FAIL/PASS *conclusions* about Braj+Puri no longer apply — there is no more comparison, Braj and Puri are simply excluded.
 
-Hard standing Mark rule before the eventual package choice:
-- present a full content-richness dossier for both surviving package alternatives before asking Mark to choose;
+Content-presentation standard for Kolkata's own upcoming site-grading round still applies from `decisions/CONTENT_BEFORE_CALENDAR_OPTIONAL_WORLD_CHOICE_MARK_RULE_2026-09-06.md`:
+- present full content-richness before/alongside grading, not calendar-burden-only;
 - reconstruct existing historical site-level grades losslessly; cluster status and site grade are separate axes;
 - explain what each place physically is and what Mark sees/does there;
 - preserve Top-11/AOAY/person links and the reason each location mattered;
 - show representative photos when appearance materially affects attractiveness;
 - calendar/burden PASS/FAIL and spare-night arithmetic answer `kan het passen?`, not `wil Mark dit inhoudelijk?`.
 
-This optional-package decision is not the current content action. Delhi final-window geometry remains first under current frontier routing.
+This is not the current content action. Delhi final-window geometry remains first under current frontier routing.
 
 ## 13. SPECIAL-INTEREST / FINAL-COMFORT BOUNDARY
 Food/shop-only findings normally wait for FINAL COMFORT. A real factory/process/distillation visit can be separate travel content only if Mark grades that concrete experience and its marginal burden is justified.
@@ -228,10 +223,10 @@ Sequence:
 
 Parallel/recent work state:
 - CCI P0 Varanasi/Bodh Gaya lossless canon recovery from note `5558174336` remains active unless newer central output closes it;
-- optional-package exact-calendar work has already been produced and reconciled for the hard pair scope **Braj+Puri versus Kolkata**;
-- before the eventual optional choice, the separate full content-richness dossier required by `decisions/CONTENT_BEFORE_CALENDAR_OPTIONAL_WORLD_CHOICE_MARK_RULE_2026-09-06.md` must be available and applied.
+- trip-content worlds are now locked (Haidakhan + Kolkata/Dakshineswar; Puri/Serampore/Braj excluded) per `decisions/FINAL_TRIP_WORLDS_LOCK_2026-09-07.md` — the old Braj+Puri-vs-Kolkata comparison work is closed/superseded;
+- Kolkata's own site-level grading needs the full content-richness presentation standard from `decisions/CONTENT_BEFORE_CALENDAR_OPTIONAL_WORLD_CHOICE_MARK_RULE_2026-09-06.md` applied before/alongside Mark's A/B/C round.
 
-After Delhi: Kumaon -> Varanasi consistency rechecks -> fixed-core total -> optional final-pair process using only Braj+Puri versus Kolkata, with the content-first choice rule preserved.
+After Delhi: Kumaon -> Varanasi consistency rechecks -> fixed-core total -> full-trip topology/calendar optimization across the now-locked worlds (see PR #23 strategy review), with Kolkata site-grading and the content-first standard applied in parallel.
 
 ## 16. AFTER EVERY MATERIAL EVENT
 Mark decisions: preserve WHAT + WHY + provenance. Material execution/research: write owning file and synchronize current state/routing before reply. A successor must continue from GitHub without Mark reconstructing chat history.

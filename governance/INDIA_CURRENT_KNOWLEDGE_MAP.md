@@ -103,24 +103,24 @@ Router: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_FILE_IN
 Owner: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_POST_TRIAGE_TRUE_DURATION_REVALIDATION_2026-09-05.md`.
 Five nights freshly TRUE_DURATION_CLOSED; do not reopen 4/5/6 without material later delta. Sun Thermo remains OPEN/access-to-prove with zero baseline duration weight.
 
-# G. OPTIONAL WORLDS / GLOBAL ROUTE — CURRENT FINAL PAIR SCOPE, LATER THAN DELHI FRONTIER
+# G. FINAL TRIP WORLDS — LOCKED (2026-09-07), LATER THAN DELHI FRONTIER
 Current scope owner:
-`decisions/OPTIONAL_WORLD_FINAL_PAIR_SCOPE_2026-09-06.md`.
+`decisions/FINAL_TRIP_WORLDS_LOCK_2026-09-07.md`.
 
-Current standing presentation owner:
-`decisions/CONTENT_BEFORE_CALENDAR_OPTIONAL_WORLD_CHOICE_MARK_RULE_2026-09-06.md`.
+This is no longer an optional-package *comparison* — it is a direct lock:
+1. **Haidakhan Vishwa Mahadham/Ashram [A+]** — retained, existing 3-night/2-complete-quiet-day lock stands.
+2. **Kolkata/Dakshineswar — FINAL INCLUDED.** Anchor grades: Dakshineswar Kali Temple [A+], Yogoda Satsanga Math Dakshineswar [A+], Belur Math [A]. Sleep-base preference is spiritual-core-anchored (Dakshineswar/Belur, not central Kolkata): `decisions/KOLKATA_DAKSHINESWAR_SPIRITUAL_SLEEPBASE_PREFERENCE_2026-09-07.md`, `decisions/DAKSHINESWAR_YSS_LODGING_LINEAGE_COMPATIBILITY_2026-09-07.md` (Mark is Kriyaban via Ananda lineage, not YSS/SRF — do not assume YSS lodging eligibility without explicit confirmation). ~29 further deep-pass candidates (`worker/kolkata-dakshineswar-deep-pass` commit `8e6758a`, `runs/active/INDIA_KOLKATA_DAKSHINESWAR_DEEP_PASS_FINAL_DOSSIER.md`) are UNGRADED, pending a distance/burden filter from the Dakshineswar/YSS zero-point.
+3. **Puri/Odisha — FINAL EXCLUDED.**
+4. **Serampore/Srirampur — FINAL EXCLUDED** as a trip stop/base; AOAY/Sri Yukteswar provenance preserved, not erased.
+5. **Vrindavan/Braj — FINAL EXCLUDED.**
 
-The final user-facing optional-package comparison is ONLY:
-1. **Braj + Puri** — Braj / Mathura–Vrindavan–Govardhan plus Puri/Odisha / Karar Ashram–Sri Yukteswar–Kriya world.
-2. **Kolkata** — Kolkata/Calcutta–Hooghly–Serampore–Dakshineswar/Panihati Bengal-lineage world.
+Haridwar/Kankhal/Rishikesh and other final-skipped optional clusters remain suppressed unless Mark explicitly reopens them.
 
-Do not present Braj-only, Puri-only, Braj+Kolkata, Kolkata+Puri or Braj+Kolkata+Puri as final alternatives; they are internal diagnostics only. Haridwar/Kankhal/Rishikesh and other final-skipped optional clusters remain suppressed unless Mark explicitly reopens them.
+**Superseded background, do not treat as current**: `decisions/OPTIONAL_WORLD_FINAL_PAIR_SCOPE_2026-09-06.md` and the Braj+Puri-vs-Kolkata exact-calendar FAIL/PASS verdicts predate this lock. Their verification *methods* remain reusable; their *conclusions* no longer apply.
 
-Haidakhan Vishwa Mahadham [A+] remains included/LOCKED_BY_MARK. Any H− calculation is sensitivity only and is not permission to remove it.
+Content-presentation standard (`decisions/CONTENT_BEFORE_CALENDAR_OPTIONAL_WORLD_CHOICE_MARK_RULE_2026-09-06.md`) still governs Kolkata's own upcoming site-grading round: reconstruct existing historical grades losslessly, explain what each place physically is and what Mark sees/does, preserve Top-11/AOAY/person links, separate cluster status from site grade, show representative photos when appearance materially matters. Mark must be able to judge content without Googling or opening Maps.
 
-The exact-calendar/whole-human burden comparison is necessary feasibility evidence but does NOT choose the winner. Before Mark makes the optional-world choice, present a full content-richness dossier for the two surviving packages: reconstruct the complete relevant historical Mark grades losslessly, explain what each place physically is and what Mark sees/does, preserve Top-11/AOAY/person links, separate cluster status from site grade, and show representative photos when appearance materially matters. Mark must be able to judge content without Googling or opening Maps.
-
-This optional-package choice is not the current content action. Finish the Delhi final-window frontier and the prescribed fixed-core consistency/total steps first unless newer explicit Mark truth changes the sequence.
+This is not the current content action. Finish the Delhi final-window frontier and the prescribed fixed-core consistency/total steps first, then the full-trip topology/calendar optimization (see PR #23 strategy review) in parallel with Kolkata site-grading.
 
 # H. GEO / MAP / LIVE FACT ROUTING
 Owner: `governance/MAP_COORDINATE_VERIFICATION_RULE.md`.
