@@ -27,6 +27,33 @@ Before final allocation of any night released by a possible 5→4 Tiruvannamalai
 
 Reason: Mark does not want to sit in an airport hotel while a genuinely exceptional Chennai place is available. It is acceptable if Chennai has zero A+ candidates; do not inflate grades.
 
+## NEW MARK PREFERENCE — FREED NIGHT MAY STAY IN CHENNAI
+
+If Tiruvannamalai can safely/content-wise fall from 5n to 4n, the released night is **not automatically a Kumaon night**.
+
+Mark explicitly wants Chennai/direct surroundings included in the allocation comparison if the Chennai deep pass finds genuine A/A+ value. A Chennai overnight may therefore be superior because it can combine:
+- meaningful content;
+- recovery after Tiruvannamalai road transfer;
+- a much cleaner early next-day MAA→DEL flight setup.
+
+The existing north/mountain extra-night preference remains a tie-break, not an automatic override.
+
+Canonical decision:
+`decisions/CHENNAI_BUFFER_AND_EARLY_DELHI_FLIGHT_PREFERENCE_2026-09-07.md`
+
+## NEW MARK PREFERENCE — EARLY MAA→DEL FOR REDUNDANCY
+
+If the final route keeps Chennai before Delhi, Mark prefers a **sufficiently early MAA→DEL flight** on the final Delhi-transfer day, provided the prior-night geometry makes it humane.
+
+Reason: an early booked flight leaves multiple later same-day flights as recovery options if the booked flight is cancelled or badly disrupted. Mark has personally experienced this kind of cancellation/recovery situation before and values this redundancy.
+
+Solver rule:
+- explicitly score same-day replacement-flight depth AFTER the booked departure;
+- prefer an early flight if several realistic later flights remain;
+- do not create an unsafe pre-dawn Tiruvannamalai→MAA road dependency merely to catch the earliest flight;
+- a prior Chennai overnight materially strengthens the early-flight option;
+- exact Jan-2027 schedules remain `LIVE_RECHECK_LATER` until sufficiently firm.
+
 ## INDEPENDENT FINAL-CALENDAR CHECK NOW EXISTS
 
 Worker branch:
