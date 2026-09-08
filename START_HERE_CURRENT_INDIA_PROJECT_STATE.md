@@ -11,11 +11,9 @@ This file exists because successive ChatGPT/CCI sessions have repeatedly risked 
 
 ## 1. CURRENT PHASE IN ONE SENTENCE
 
-Destination/world selection is effectively finished. The project is now in the **FINAL BOOKING CALENDAR** phase: determine one exact, fully checked 33-overnight calendar for 19 Dec 2026 through 20 Jan 2027, then and only then open the booking/contact phase.
+**FINAL BOOKING CALENDAR LOCKED (structure) as of 2026-09-08** — see `decisions/FINAL_BOOKING_CALENDAR_LOCKED_2026-09-08.md`, produced by CCI reconciling the full multi-AI ensemble (Deep Research + 5 free AIs + CCI master-solve + independent audit + clean synthesis). The night-by-night skeleton (which cluster each of the 33 nights sleeps in, every duration, macro-order, Kumaon internal order) is final; exact train/flight numbers/times remain `LIVE_RECHECK_LATER` as they always have been for every segment in this project. The project is now in the **BOOKING/CONTACT** phase: build the second execution/control-tower document with exact-dated action items, then begin actual reservations/contact.
 
-**DO NOT start booking, emailing trip-specific accommodation/ashrams, calling for date-dependent access, or buying domestic transport until the calendar is explicitly locked as `FINAL BOOKING CALENDAR LOCKED`.**
-
-The older execution-readiness audit contains useful research about what eventually needs to be booked/contacted, but any wording there suggesting trip-specific mail/reservation “now” is superseded by Mark's newer rule above.
+The older execution-readiness audit's research remains useful for what needs to be booked/contacted — it is no longer superseded, since the calendar lock it was waiting for has now happened.
 
 ---
 
@@ -151,13 +149,11 @@ Once exact Kolkata dates are final:
 
 ---
 
-## 6. CURRENT EXACT 33-SLOT INCUMBENT — CANDIDATE, NOT FINAL LOCK
+## 6. CURRENT EXACT 33-SLOT CALENDAR — LOCKED (STRUCTURE)
 
-Source of record:
-- branch `worker/final-route-calendar-optimizer`
-- commit `6c75c9576f28c50c56f95d90baccafbb924e2a2`
-- `runs/active/FINAL_EXACT_33_SLOT_BOOKING_CALENDAR_CANDIDATE_2026-09-07.md`
-- CCI result on PR #23: comment `5574796407`.
+Source of record: `decisions/FINAL_BOOKING_CALENDAR_LOCKED_2026-09-08.md`. Superseded background (candidate history, still useful for reasoning trail): branch `worker/final-route-calendar-optimizer` commit `f9b6c0b`, `worker/final-calendar-master-cci` commit `336ac9f`, CCI result on PR #23 comment `5574796407`.
+
+One change from the last candidate: night 11 (29 Dec) now prefers daytime train 12039 (Kathgodam→New Delhi 15:15→20:55) + a normal Delhi transit-hotel, with the 15014-overnight+DLI-alighting plan retained as explicit fallback if the ground-level winter margin doesn't hold. No other night changed.
 
 Current incumbent macrospine:
 **Delhi → Nainital → Dunagiri → Haidakhan → Agra → Bodh Gaya → Varanasi → Kolkata/Dakshineswar → Tiruvannamalai → Chennai-positioning → Delhi.**
@@ -289,18 +285,11 @@ Do not mistake existence of the task file for a completed result.
 
 ## 12. BOOKING / CONTACT BOUNDARY
 
-**Current rule from Mark: first finish the exact calendar.**
+**`FINAL BOOKING CALENDAR LOCKED` as of 2026-09-08 (see `decisions/FINAL_BOOKING_CALENDAR_LOCKED_2026-09-08.md`). The pre-lock boundary below no longer applies — trip-date-dependent requests, stay attempts, and rail/flight bookings against the locked dates may now proceed.**
 
-Before `FINAL BOOKING CALENDAR LOCKED`:
-- no trip-date-dependent ashram/hotel requests;
-- no domestic train/flight purchases;
-- no Garpar access email;
-- no YSS/Ramanasramam stay requests based on provisional dates;
-- no date-dependent reservation calls.
+Historical pre-lock rule, kept for reference only: before lock, no trip-date-dependent ashram/hotel requests, no domestic train/flight purchases, no Garpar access email, no YSS/Ramanasramam stay requests, no date-dependent reservation calls.
 
-Date-independent preparation may be done separately if useful, but it must not create commitments tied to provisional dates.
-
-After calendar lock, immediately build a second execution/control-tower document with exact dates for:
+Immediate next step: build the second execution/control-tower document with exact dates for:
 - Haidakhan stay request;
 - Dunagiri stay;
 - Varanasi river-view/balcony room;
