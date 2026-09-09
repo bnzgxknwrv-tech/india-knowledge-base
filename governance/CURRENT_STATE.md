@@ -1,9 +1,12 @@
 # CURRENT STATE — INDIA
 
-state_revision: `2026-09-09_ROUTE_REOPEN__FULL_A_COVERAGE__NIRMAL_FINAL_BUFFER__SIX_AI_RECONCILIATION`
+state_revision: `2026-09-09_ROUTE_REOPEN__FULL_A_COVERAGE__NIRMAL_FINAL_BUFFER__FOUR_AI_RECONCILIATION`
 branch: `agent/india8-cluster-casting`
 status: `ROUTE_TOPOLOGY_RECONCILIATION_ACTIVE__NO_BOOKING_YET`
+manifest_active_cluster: `BODHGAYA_EXECUTION_GEOMETRY_TRUE_DURATION`
 latest_successor_handoff: `handoffs/INDIA_SUCCESSOR_ZERO_LOSS_HANDOFF_2026-09-09.md`
+
+Correction: an earlier pass mislabeled the route reconciliation as involving six external AI route analyses. Per `runs/active/INDIA18_FINAL_EXTRACTION_2026-09-09.md` §13.1, there were only **four** complete external AI analyses. Do not treat a "six AI" reference anywhere else in governance as current; it is stale.
 
 ## CRITICAL PRECEDENCE
 

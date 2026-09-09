@@ -1,6 +1,7 @@
 # INDIA SUCCESSOR SAFE STATE — CRASH-SAFE HANDOFF CHECKPOINT
 
-STATUS: **SAFE_TO_HANDOFF / 2026-09-09**
+STATUS: SAFE_TO_HANDOFF
+Date: 2026-09-09
 Branch: `agent/india8-cluster-casting`
 Full handoff: `handoffs/INDIA_SUCCESSOR_ZERO_LOSS_HANDOFF_2026-09-09.md`
 
@@ -114,7 +115,7 @@ Do not hide required sites under vague cluster labels when judging duration.
 
 ## EXACT NEXT ACTIONS
 
-1. Reconcile six external AI route analyses with new Nirmal placement.
+1. Reconcile the four external AI route analyses with new Nirmal placement (corrected count; an earlier pass said six in error — see `runs/active/INDIA18_FINAL_EXTRACTION_2026-09-09.md` §13.1).
 2. Compare synthesis with CCI/Work; rerun top contenders if Nirmal change could alter rank.
 3. Finish exact full A/A+ current-canon coverage matrix.
 4. Build complete waking-hours itinerary with every retained A/A+ explicit.
@@ -132,5 +133,8 @@ Do not hide required sites under vague cluster labels when judging duration.
 - material knowledge must not remain chat-only.
 
 For the complete reasoning and context, read `handoffs/INDIA_SUCCESSOR_ZERO_LOSS_HANDOFF_2026-09-09.md`.
+
+UNSAVED_RISK:
+GEEN
 
 END SUCCESSOR SAFE STATE
