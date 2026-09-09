@@ -4,12 +4,15 @@
 **Branch:** `agent/india8-cluster-casting`  
 **Status:** CURRENT SUCCESSOR ENTRYPOINT — ROUTE/A-COVERAGE RECONCILIATION ACTIVE
 
-## READ FIRST
+## READ FIRST — CRASH-SAFE BOOT
 
-The detailed crash-safe handoff is:
-`handoffs/INDIA_SUCCESSOR_ZERO_LOSS_HANDOFF_2026-09-09.md`
+A successor must read, in this order:
+1. `handoffs/INDIA_SUCCESSOR_ZERO_LOSS_HANDOFF_2026-09-09.md` — full current knowledge/reasoning handoff.
+2. `governance/INDIA_SUCCESSOR_CRASH_TEST_3PASS_2026-09-09.md` — three-pass audit proving what was checked/repaired.
+3. `runs/active/SIX_AI_ROUTE_RECONCILIATION_TASK_2026-09-09.md` — exact executable NEXT task, already updated for the Nirmal-end decision.
 
-Read that file before relying on older calendar/booking documents. It is the current successor checkpoint and contains the reasoning trail, known errors/corrections, route metrics, A/A+ coverage defect, six-AI reconciliation frontier and exact next actions.
+Practical ground-transport research captured after crash test:
+`research/INDIA_RIDEHAILING_INTERCITY_WORKING_NOTE_2026-09-09.md`.
 
 ### Explicit supersession warning
 
@@ -139,13 +142,16 @@ This is a valid 33/33 test surface. Macro order remains reopened and 19 Dec must
 
 Six blind independent free-AI route analyses are complete. Next step is **reconciliation, not majority vote**.
 
+Exact executable task:
+`runs/active/SIX_AI_ROUTE_RECONCILIATION_TASK_2026-09-09.md`.
+
 Rules:
 - evidence > reasoning quality > vote count;
 - a minority outlier can be right;
 - verify decisive factual conflicts;
 - normalize duplicate route families;
 - a new seventh synthesis route may be constructed;
-- inject the newest Nirmal-final-buffer rule because the reconciliation prompt/outputs may predate it.
+- inject the newest Nirmal-final-buffer rule because source answers may predate it.
 
 ## 11. PDF / DAY-PLAN USABILITY RULE
 
@@ -159,16 +165,24 @@ For every unfamiliar Indian/site name in any next itinerary show:
 
 Do not hide many A-sites under vague labels like “ghats/temples” if Mark needs to judge whether eight nights really fit.
 
-## 12. EXACT NEXT ACTION
+## 12. PRACTICAL GROUND TRANSPORT NOTE
 
-1. Reconcile the six external AI route analyses with the Nirmal 20-Jan override injected.
+`research/INDIA_RIDEHAILING_INTERCITY_WORKING_NOTE_2026-09-09.md` preserves the current Uber/private-driver conclusion:
+- urban/easily replaceable legs: Uber/app taxi can be practical;
+- Tiruvannamalai->Chennai Uber Intercity current snapshot ~₹3,807 / ~193 km / ~4 h, schedulable up to 30 days on current route page;
+- critical remote Kumaon legs, especially Haidakhan exit to fixed rail, should use a pre-arranged named private driver rather than Uber as the sole robustness layer;
+- all fares/availability live-recheck later.
+
+## 13. EXACT NEXT ACTION
+
+1. Execute/reconcile `runs/active/SIX_AI_ROUTE_RECONCILIATION_TASK_2026-09-09.md` with the six completed outputs.
 2. Reconcile that result against CCI/Work/current canon; rerun top contenders if the Nirmal change is material.
 3. Complete exact full A/A+ canonical coverage audit.
 4. Build a new waking-hours itinerary with every retained physical A/A+ individually visible by name/date/time + WHAT/WHY.
 5. Mark reviews durations/fit.
 6. Only after route/duration/A-coverage closure: booking/contact execution.
 
-## 13. OPERATING GUARDS
+## 14. OPERATING GUARDS
 
 - Mark alone changes subjective A/A+/A*/B/C grades and explicit personal choices.
 - No silent grade/lock changes by AI.
