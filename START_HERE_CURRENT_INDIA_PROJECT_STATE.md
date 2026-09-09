@@ -1,387 +1,180 @@
 # START HERE — CURRENT INDIA PROJECT STATE
 
-**Date:** 2026-09-07  
-**Purpose:** canonical successor entrypoint for the current India-project phase.  
+**Updated:** 2026-09-09  
 **Branch:** `agent/india8-cluster-casting`  
-**Read this file FIRST when taking over the project.**
+**Status:** CURRENT SUCCESSOR ENTRYPOINT — ROUTE/A-COVERAGE RECONCILIATION ACTIVE
+
+## READ FIRST
+
+The detailed crash-safe handoff is:
+`handoffs/INDIA_SUCCESSOR_ZERO_LOSS_HANDOFF_2026-09-09.md`
 
-This file exists because successive ChatGPT/CCI sessions have repeatedly risked losing current truth. A successor should be able to reconstruct the active problem from this file plus the explicitly linked source files, without relying on chat history.
+Read that file before relying on older calendar/booking documents. It is the current successor checkpoint and contains the reasoning trail, known errors/corrections, route metrics, A/A+ coverage defect, six-AI reconciliation frontier and exact next actions.
 
----
+### Explicit supersession warning
 
-## 1. CURRENT PHASE IN ONE SENTENCE
+Older project text that says any of the following is historical on that point and MUST NOT drive current work:
+- `FINAL BOOKING CALENDAR LOCKED` / proceed directly to bookings;
+- Bodh Gaya 2n is closed/fixed;
+- Tiruvannamalai 5n is still an unreopenable lock;
+- Nirmal Dham belongs on arrival day 19 Dec;
+- same-day DEL->GAY is impossible.
 
-**FINAL BOOKING CALENDAR LOCKED (structure) as of 2026-09-08** — see `decisions/FINAL_BOOKING_CALENDAR_LOCKED_2026-09-08.md`, produced by CCI reconciling the full multi-AI ensemble (Deep Research + 5 free AIs + CCI master-solve + independent audit + clean synthesis). The night-by-night skeleton (which cluster each of the 33 nights sleeps in, every duration, macro-order, Kumaon internal order) is final; exact train/flight numbers/times remain `LIVE_RECHECK_LATER` as they always have been for every segment in this project. The project is now in the **BOOKING/CONTACT** phase: build the second execution/control-tower document with exact-dated action items, then begin actual reservations/contact.
+Current truth instead:
+- macro route/topology is reopened for final reconciliation;
+- a full named A/A+ coverage audit is still required;
+- BODH3/TIRU4 is the current serious review surface, not yet a final duration lock;
+- Nirmal Dham is moved to final Delhi buffer, normally 20 Jan;
+- DEL->GAY same-day is a real candidate via published Air India winter service;
+- bookings/contacts wait until the reopened route + A/A+ fit are closed.
 
-The older execution-readiness audit's research remains useful for what needs to be booked/contacted — it is no longer superseded, since the calendar lock it was waiting for has now happened.
+## 1. HARD TRIP ENVELOPE
 
----
+- AI156 AMS->DEL: depart 18 Dec 2026 ~20:35, scheduled arrival 19 Dec ~10:15.
+- AI155 DEL->AMS: depart 21 Jan 2027 ~12:20.
+- Exactly 33 physical India nights: 19 Dec through 20 Jan inclusive.
+- Exactly ONE final Delhi night immediately before AI155 is `LOCKED_BY_MARK`.
 
-## 2. TRIP ENVELOPE
+## 2. FINAL WORLDS
 
-International flights are fixed:
-- **AI156 AMS→DEL:** depart 18 Dec 2026 about 20:35; arrive Delhi 19 Dec 2026 about 10:15.
-- **AI155 DEL→AMS:** depart 21 Jan 2027 about 12:20.
+IN:
+- Delhi operationally / Nirmal Dham [A+] at final buffer placement;
+- Kumaon: Nainital, Dunagiri/Kukuchina, true Haidakhan Vishwa Mahadham;
+- Agra/Taj;
+- Bodh Gaya;
+- Varanasi/Sarnath;
+- Kolkata/Dakshineswar;
+- Tiruvannamalai/Arunachala;
+- Chennai as content/positioning/buffer when useful.
 
-India contains exactly **33 physical overnight slots**: nights of 19 Dec 2026 through 20 Jan 2027 inclusive.
+FINAL OUT — never re-present unless Mark explicitly reopens:
+- Puri/Odisha;
+- Serampore/Srirampur as trip stop/world/sleep/excursion;
+- Vrindavan/Braj/Mathura/Govardhan.
 
-The final calendar must prove:
-- 33/33 nights;
-- no duplicate or missing night;
-- every transfer date consistent with check-in/check-out;
-- every locked duration preserved;
-- no FINAL OUT world reintroduced.
+## 3. HARD DURATIONS VS LIVE SENSITIVITY
 
----
+Hard/current:
+- Nainital 3n.
+- Dunagiri/Kukuchina 3n.
+- Haidakhan Vishwa Mahadham 3n with 2 complete protected quiet ashram days.
+- Agra 1 hotel night in retained architecture; Taj [A+] protected.
+- Varanasi/Sarnath 8n `LOCKED_BY_MARK`.
+- Kolkata/Dakshineswar retained, current serious block 3n.
+- final Delhi exactly 1n.
 
-## 3. FINAL TRIP WORLDS — DO NOT REOPEN WITHOUT MARK
+Live:
+- Bodh Gaya 3n is strongly supported and current review surface; 2n remains comparison baseline.
+- Tiruvannamalai 4n is a serious live option; old 5n state was explicitly reopened.
+- Sri Chakra Puja is optional bonus, not a mandatory Mark-graded anchor and not a veto forcing Tiru5.
 
-Source: `decisions/FINAL_TRIP_WORLDS_LOCK_2026-09-07.md`.
+## 4. NEWEST MARK OVERRIDE — NIRMAL DHAM
 
-### INCLUDED
-- Delhi arrival/final positioning.
-- Kumaon / Nainital / Dunagiri / Haidakhan.
-- Agra.
-- Bodh Gaya.
-- Varanasi / Sarnath.
-- Kolkata / Dakshineswar.
-- Tiruvannamalai.
+Owner: `decisions/NIRMAL_DHAM_FINAL_DELHI_PLACEMENT_MARK_DECISION_2026-09-09.md`.
 
-### FINAL OUT — suppress from active planning
-- **Puri / Odisha.**
-- **Serampore / Srirampur** as trip stop, sleep base or excursion. Historical AOAY/Sri Yukteswar provenance may remain.
-- **Vrindavan / Braj / Mathura–Vrindavan–Govardhan.**
+- DO NOT plan Nirmal Dham on 19 Dec.
+- Default: 20 Jan during final Delhi safety/buffer after positioning into Delhi.
+- If disruption consumes buffer, AI155 safety wins; Nirmal may be shortened/skipped operationally.
+- 19 Dec is now free for the objectively best onward route.
+- Same-day DEL->GAY/VNS/CCU/MAA or onward Kumaon must be assessed without an arrival-day Nirmal constraint.
 
-Never re-present these as options unless Mark explicitly reopens them.
+## 5. FULL A/A+ COVERAGE IS NOT YET PROVED
 
----
+Owner: `decisions/FULL_A_COVERAGE_AND_GLOBAL_ROUTE_TOPOLOGY_REOPTIMIZATION_2026-09-09.md`.
 
-## 4. HARD / CURRENT DURATION AND BASE TRUTH
+The current 22-page review itinerary is useful and Mark likes its format, but it does NOT individually expose every retained A/A+ site. Before duration/calendar lock, build exact canonical inventory and classify every physical A/A+ as `EXPLICIT_GUARANTEED`, `HIDDEN_IN_CLUSTER`, `CONDITIONAL`, `MISSING`, or `SPECIAL_STATUS`.
 
-Do not silently change these.
+Known seed requiring verification:
+- MISSING: Bodh same-hill ridge/context; Maa Annapurna Temple; Vishalakshi Gauri Temple; Bhaskarananda Samadhi/Anand Bagh; Saranganath Temple; Tulsi Manas Temple.
+- CONDITIONAL/not guaranteed: Lahiri Mahasaya original/family house; Shitala Mata Temple.
+- HIDDEN in broad Sarnath block: Dhamek Stupa; Mulagandha Kuti Vihara; Chaukhandi Stupa; Deer Park.
+- SPECIAL: Karkrighat [A*/SKIP_FIRST], not a normal required A/A+.
 
-### Kumaon
-- **Haidakhan Vishwa Mahadham [A+] = 3 nights / 2 complete quiet days LOCKED.**
-- Nainital sleep geometry: **Hotel Evelyn [A+]**.
-- Dunagiri Retreat is the primary Dunagiri/Kukuchina/Babaji-area sleep concept; Joshi is fallback if needed.
-- Important content: Kainchi [A+], Mahavatar Babaji Cave [A+], YSS Dwarahat [A], Karkrighat [A*/SKIP_FIRST].
-- Turiya Niwas + Bodh Ashram [C].
+Do not call 12 the final omission count; full current canon audit still must close it and avoid parent/child double-counting.
 
-### Agra
-- One hotel night in the current architecture.
-- **Taj Mahal [A+]** is the fixed sightseeing anchor.
-- Taj is closed Fridays; current candidate uses Thursday 31 Dec.
+## 6. GLOBAL TOPOLOGY RESULT — INFORMATIVE, BUT PRE-NIRMAL
 
-### Bodh Gaya
-- Mahabodhi Temple Complex [A+].
-- Sujata Stupa [A+].
-- Dungeshwari / Mahakala Caves [A+].
-- Great Buddha [A].
-- Central temple-zone sleep geometry; Maya Heritage is current primary proxy.
-- **2 nights = current default. 3 nights = valid sensitivity/conditional possibility, NOT a separately locked Mark preference.**
-- Mark has said that if a zero-spare comparison were `Bodh 2 + Kolkata 4` versus `Bodh 3 + Kolkata 3`, he would prefer the latter. This is a comparison preference, not a final duration lock.
+Global stress test on worker branch `worker/global-route-topology-reoptimization`, commit `7c206ece6efee0f548e3b72ebf3022f3573282ca`, tested 11 materially different route families.
 
-### Varanasi / Sarnath
-- **8 nights LOCKED.**
-- Sleep base **Sahi River View Guesthouse, Assi Ghat LOCKED_BY_MARK**; balcony/river-view room desired.
-- Manikarnika [A+] is a final-content block of its day.
-- Bhrigu Karyalaya / Bhadury Sadan [A+] must not be placed on the same day as Manikarnika.
+Before the Nirmal override:
+- incumbent ~57 lost waking travel hours, 2 heavy days, sleep ~4.0/5;
+- same-day GAY/Bodh ~55.5 h, 4 heavy days, sleep ~2.8/5;
+- same-day VNS ~56 h;
+- Agra-first ~58.5 h;
+- Agra-last/reverse ~60 h;
+- same-day MAA ~64 h;
+- same-day CCU ~67 h;
+- train-heavy ~75–82 h and infeasible without cuts.
 
-### Kolkata / Dakshineswar
-- Cluster itself = **[A+] LOCKED / FINAL INCLUDED**.
-- Duration still must be derived objectively; do not ask Mark to pick 2/3/4 nights merely by taste now that content grading is closed.
-- Preferred sleep zero-point is Dakshineswar/YSS core, not central Kolkata.
+Pre-override verdict: `KEEP INCUMBENT`, confidence ~0.70 bounded optimum.
 
-### Tiruvannamalai
-- **5 nights LOCKED.**
-- Arunachala/Ramana parent world [A+].
-- Sri Ramanasramam, Virupaksha, Skandashram, Arunachaleswarar, Gurumurtam, Pavalakunru, Girivalam [A].
+**Do not promote that to final truth now.** One explicit disadvantage of GAY-first was later Delhi/Nirmal staging; that constraint is deliberately removed by Mark. Reconcile/rerun top contenders with Nirmal at final Delhi.
 
-### Final Delhi
-Source: `decisions/FINAL_DELHI_ONE_NIGHT_MARK_DECISION_2026-09-07.md`.
-- **Exactly ONE final Delhi night immediately before AI155 is LOCKED_BY_MARK.**
-- Do not quietly recreate a generic two-Delhi-night ending.
-- If a genuinely new safety failure makes one Delhi night unsafe, re-raise with Mark rather than silently overriding.
+## 7. DEL->GAYA CORRECTION
 
----
-
-## 5. LATEST KOLKATA / DAKSHINESWAR TRUTH
+Earlier CCI statement “same-day DEL->GAY impossible” was wrong and explicitly retracted after Work caught it.
 
-### Core locked sites
-Source: `decisions/KOLKATA_DAKSHINESWAR_MARK_SITE_DECISIONS_2026-09-07.md`.
+Air India's official Winter Schedule 2026 publishes daily **AI429 DEL 15:00 -> GAY 16:40** from 25 Oct 2026. AI156 scheduled arrival is 10:15, giving nominal ~4h45.
 
-- **Dakshineswar Kali Temple — Ramakrishna room/Panchavati [A+].**
-- **Yogoda Satsanga Math, Dakshineswar [A+].**
-- **Belur Math [A].**
-- **4 Garpar Road — Yogananda family home/attic [A+].**
-- **Yogoda Satsanga Dhyana Kendra – Garpar, 37A Raja Dinendra Street [A+].**
-- Do not conflate 4 Garpar Road and the Dhyana Kendra; they are separate A+ places.
-- **Cossipore Udyanbati [B]**; worthwhile mainly if easy from Dakshineswar. It is not Ramakrishna's ash/resting place.
-- Baranagar Math remains **UNGRADED / BUNDLE_ONLY**; no special trip.
-- Alambazar Math remains **UNGRADED / BUNDLE_ONLY**; no special trip.
+Still test ticket protection, immigration, bags, terminal procedure, AI156 delay/reaccommodation and arrival fatigue. But never exclude GAY-first as structurally impossible.
 
-### Remaining Kolkata grading is now CLOSED
-Source: `decisions/KOLKATA_REMAINING_MARK_GRADES_2026-09-07.md`, commit `4136098777f9269717f1129656e30dcb785aaee0`.
+## 8. AGRA DIRECTIONAL LOGIC
 
-- **Balaram Mandir [B]** — only if time remains / natural bundle.
-- **Mayer Bari / Udbodhan [B]** — only if time remains / natural bundle.
-- **Swami Vivekananda Ancestral House [B]** — only if time remains / natural bundle.
-- **Kamarpukur + Jayrambati [C]** — too far; suppress from active route.
+Agra's current placement looks costly on a day card but has a powerful directional edge:
+- Delhi->Agra is short/dense;
+- 12988 Agra Fort ~18:45 -> Gaya ~07:50 turns the long eastbound distance into ~8–8.5 h sleepable rail;
+- reverse Gaya->Agra is a daytime-heavy edge (~14 waking h model);
+- Agra-last often doubles Delhi->Agra->Delhi near AI155.
 
-Do not ask Mark to grade these again.
+Any new route must beat this whole-human geometry, not just map distance.
 
-### Kolkata sleep preference
-Source: `decisions/KOLKATA_DAKSHINESWAR_SPIRITUAL_SLEEPBASE_PREFERENCE_2026-09-07.md`.
+## 9. WORKING BODH3/TIRU4 33/33 SURFACE — NOT FINAL MACRO LOCK
 
-Priority after exact dates are locked:
-1. TRY Yogoda Satsanga Math Dakshineswar.
-2. Genuine Ramakrishna Math/Mission/devotee spiritual lodging around Dakshineswar–Belur.
-3. Authentic small homestay near the core.
-4. Good normal hotel near Dakshineswar.
+Pre-Nirmal-review geometry:
+19 Dec rail -> Kumaon; 20–22 Nainital; 23–25 Dunagiri; 26–28 Haidakhan; 29 Delhi transit; 30 Agra; 31 overnight Agra->Gaya; 1–3 Jan Bodh Gaya; 4–11 Varanasi; 12–14 Kolkata; 15–18 Tiru; 19 Chennai; 20 final Delhi; 21 AI155.
 
-Important lineage context: Mark is already **Kriyaban through the Ananda lineage, not YSS/SRF**. Never assume YSS/SRF Lessons-student eligibility and never tell Mark to become one. When dates are locked, ask YSS neutrally whether an initiated Kriyaban from another legitimate Kriya lineage may stay as pilgrim/visitor.
+This is a valid 33/33 test surface. Macro order remains reopened and 19 Dec must now be reconsidered without Nirmal.
 
-### Future Garpar actions — NOT BEFORE DATE LOCK
-Once exact Kolkata dates are final:
-- email/request access for 4 Garpar Road; do not assume walk-in;
-- contact YSS Garpar for the actual Jan-2027 group meditation/satsanga schedule;
-- current official page says regular group meditation is public, but exact Jan-2027 schedule is `LIVE_RECHECK_LATER`.
+## 10. SIX EXTERNAL AI ANALYSES
 
----
+Six blind independent free-AI route analyses are complete. Next step is **reconciliation, not majority vote**.
 
-## 6. CURRENT EXACT 33-SLOT CALENDAR — LOCKED (STRUCTURE)
+Rules:
+- evidence > reasoning quality > vote count;
+- a minority outlier can be right;
+- verify decisive factual conflicts;
+- normalize duplicate route families;
+- a new seventh synthesis route may be constructed;
+- inject the newest Nirmal-final-buffer rule because the reconciliation prompt/outputs may predate it.
 
-Source of record: `decisions/FINAL_BOOKING_CALENDAR_LOCKED_2026-09-08.md`. Superseded background (candidate history, still useful for reasoning trail): branch `worker/final-route-calendar-optimizer` commit `f9b6c0b`, `worker/final-calendar-master-cci` commit `336ac9f`, CCI result on PR #23 comment `5574796407`.
+## 11. PDF / DAY-PLAN USABILITY RULE
 
-One change from the last candidate: night 11 (29 Dec) now prefers daytime train 12039 (Kathgodam→New Delhi 15:15→20:55) + a normal Delhi transit-hotel, with the 15014-overnight+DLI-alighting plan retained as explicit fallback if the ground-level winter margin doesn't hold. No other night changed.
+A 22-page BODH3/TIRU4 review PDF was made in chat. It is a working review artifact, not booking truth. Mark explicitly likes the format.
 
-Current incumbent macrospine:
-**Delhi → Nainital → Dunagiri → Haidakhan → Agra → Bodh Gaya → Varanasi → Kolkata/Dakshineswar → Tiruvannamalai → Chennai-positioning → Delhi.**
+For every unfamiliar Indian/site name in any next itinerary show:
+1. WHAT it is;
+2. WHY Mark wanted it / its relevant spiritual-historical-general-traveler meaning;
+3. grade/status if already owned by Mark;
+4. exact date/time block if required content.
 
-This macrospine has repeatedly beaten the serious alternate in prior stress tests, but the final optimization phase is allowed to challenge it if a demonstrably better exact calendar is found without violating locks.
+Do not hide many A-sites under vague labels like “ghats/temples” if Mark needs to judge whether eight nights really fit.
 
-### Current baseline exact nights
-1. Sat 19 Dec — 15013 Ranikhet Express Gurugram→Kathgodam after AI156/recovery/Nirmal Dham.
-2–4. 20–22 Dec — Nainital / Hotel Evelyn, 3 nights.
-5–7. 23–25 Dec — Dunagiri, 3 nights.
-8–10. 26–28 Dec — Haidakhan, 3 nights.
-11. 29 Dec — overnight rail Kumaon→Delhi.
-12. 30 Dec — Agra hotel.
-13. 31 Dec — overnight 12988 Agra Fort→Gaya; Taj early Thursday.
-14–15. 1–2 Jan — Bodh Gaya, 2 nights baseline.
-16–23. 3–10 Jan — Varanasi/Sarnath, 8 nights.
-24–26. 11–13 Jan — Kolkata/Dakshineswar, 3 nights baseline.
-27–31. 14–18 Jan — Tiruvannamalai, 5 nights.
-32. 19 Jan — Chennai-airport positioning hotel in incumbent.
-33. 20 Jan — Delhi/IGI airport-side hotel.
-21 Jan — AI155 12:20, no India overnight slot.
+## 12. EXACT NEXT ACTION
 
-Incumbent night proof = **33/33**.
+1. Reconcile the six external AI route analyses with the Nirmal 20-Jan override injected.
+2. Reconcile that result against CCI/Work/current canon; rerun top contenders if the Nirmal change is material.
+3. Complete exact full A/A+ canonical coverage audit.
+4. Build a new waking-hours itinerary with every retained physical A/A+ individually visible by name/date/time + WHAT/WHY.
+5. Mark reviews durations/fit.
+6. Only after route/duration/A-coverage closure: booking/contact execution.
 
-### Key calendar effects already known
-- Taj: Thu 31 Dec avoids Friday closure.
-- Belur museum is closed Monday; incumbent Mon 11 Jan is therefore light arrival, not Belur museum day.
-- Tue 12 Jan = Vivekananda/National Youth Day; potentially valuable and crowded.
-- Gangasagar/Makar Sankranti pressure rises around 14 Jan.
-- Tiruvannamalai block overlaps Pongal period.
-- Winter fog/mist matters for north-India rail/air and mountain roads.
-- Avoid brittle same-morning connections where a delay would cascade.
+## 13. OPERATING GUARDS
 
----
+- Mark alone changes subjective A/A+/A*/B/C grades and explicit personal choices.
+- No silent grade/lock changes by AI.
+- No majority voting.
+- PR #23 is CCI/Work relay.
+- Exact Jan-2027 transport/access not finalized must remain `LIVE_RECHECK_LATER`.
+- `Handel eerst, praat daarna`; material new knowledge belongs in GitHub before relying on chat memory.
 
-## 7. CURRENT SOLVER MATRIX / REAL ALTERNATIVES
-
-CCI evaluated 2 Kumaon orders × Bodh 2/3 × Kolkata 2/3/4.
-
-### Kumaon order
-Preferred/retained operating order:
-**Nainital → Dunagiri → Haidakhan.**
-
-CCI eliminated **Nainital → Haidakhan → Dunagiri** on whole-human geometry: heaviest ashram adaptation earlier, worse final descent before onward rail, and less natural progression. A future optimizer may challenge this only with materially stronger evidence; do not casually reopen.
-
-### Arithmetic facts
-- Bodh 3 + Kolkata 4 = 34 committed slots → impossible without reopening another lock.
-- Bodh 2 + Kolkata 3 = incumbent with one movable/spare capacity unit currently used as Chennai positioning.
-- Bodh 3 + Kolkata 2 reaches the same downstream date pattern as Bodh 2 + Kolkata 3.
-- Bodh 2 + Kolkata 4 and Bodh 3 + Kolkata 3 are both zero-spare / compressed downstream patterns.
-- Mark prefers **Bodh 3 + Kolkata 3 over Bodh 2 + Kolkata 4** if choosing between those two zero-spare concepts.
-
----
-
-## 8. NEWEST MARK PREFERENCE — EXTRA / MOVABLE NIGHT
-
-Source: `decisions/NORTH_EXTRA_NIGHT_PREFERENCE_2026-09-07.md`, commit `7e968198ec97c482fad893b165915f8666d5bb7b`.
-
-If, AFTER respecting hard locks, A+/A obligations, real safety buffers, closures/festivals and connection robustness, the calendar has a genuinely movable/free night or multiple equally viable calendars remain, Mark prefers to spend that extra time in **Kumaon / the north / mountain worlds** rather than extra city time.
-
-Interpretation:
-- preference/tie-break, not a forced lock;
-- never sacrifice international-flight safety or a genuinely necessary buffer merely for more mountains;
-- if genuine tradeoffs remain, Mark is happy to receive up to **three human-readable candidate scenarios** such as SAFE / BALANCED / NORTH-HEAVY.
-
-This means the next optimizer must explicitly test whether the incumbent's 19-Jan Chennai-positioning spare is truly indispensable, or whether a safe version can allocate an extra night in Kumaon. Do not assume either answer.
-
----
-
-## 9. MARK DECISION STATUS
-
-The subjective destination/content selection is now **essentially closed enough for objective calendar optimization**.
-
-Do NOT reflexively ask Mark:
-- how many Kolkata nights he 'feels like';
-- whether to reopen FINAL OUT worlds;
-- whether Balaram/Mayer Bari/Vivekananda House/Kamarpukur-Jayrambati need grading again;
-- whether final Delhi should be two nights.
-
-The optimizer should derive durations/placement from the existing grades, hard locks, calendar and transport facts.
-
-Only return to Mark if there remains a true value tradeoff that cannot be resolved objectively. If so, show at most about three clear alternatives and explain what is gained/lost.
-
----
-
-## 10. MULTI-AI FINAL-CALENDAR STRATEGY — NEWEST MARK INSTRUCTION
-
-This supersedes the earlier idea that the five free AIs should each get a different narrow specialist role.
-
-Mark has **five additional free AI systems with NO GitHub access**. His preferred workflow, based on prior successful project experience, is:
-
-1. Give **all five free AIs the SAME complete, high-quality, frozen planning/audit task** and the SAME self-contained input packet.
-2. Keep those five runs **blind and independent of one another**; do not seed them with each other's conclusions.
-3. Encourage each to search broadly enough to surface clever calendar/transport/festival/safety ideas nobody else noticed, while treating all hard Mark locks and FINAL OUT rules as inviolable.
-4. Do NOT use simple majority voting. A single well-evidenced outlier may be more valuable than four models repeating the same assumption.
-5. After all five finish, paste their complete outputs into a **fresh, clean ChatGPT synthesis chat** rather than this long-running regisseur chat. Purpose: avoid context pollution and have a clean model extract:
-   - consensus findings;
-   - unique novel ideas;
-   - contradictions;
-   - duplicated assumptions;
-   - evidence quality;
-   - candidate improvements that merit verification.
-6. The clean synthesis is not allowed to change canon by itself. Its shortlisted corrections/ideas come back to the canon-aware regisseur + CCI for verification against GitHub truth, exact 33-slot arithmetic and current web facts.
-7. Only after that reconciliation may the project declare **`FINAL BOOKING CALENDAR LOCKED`**.
-
-### Roles
-- **CCI:** GitHub/canon-aware constraint engine, calculator, checker and architecture partner.
-- **Independent Deep Research ChatGPT:** separate strong web-based optimizer that may challenge the incumbent route/calendar while preserving Mark locks.
-- **Five free AIs:** same comprehensive frozen prompt, blind independent runs, no GitHub.
-- **Clean synthesis ChatGPT:** receives the five outputs together and mines all useful differences/consensus without majority voting.
-- **Main regisseur + CCI:** final evidence/canon reconciliation and lock decision.
-
-Important design question for CCI: whether CCI/Deep-Research conclusions should be withheld from the five blind AIs until after their runs to reduce anchoring/correlation. Default preference is independence unless CCI gives a stronger reason otherwise.
-
----
-
-## 11. PREPARED BUT NOT YET AUTHORITATIVE OPTIMIZER WORK
-
-A separate deep-optimizer branch has been prepared:
-- branch: `worker/final-calendar-deep-optimizer`
-- task: `runs/active/FINAL_CALENDAR_DEEP_OPTIMIZER_TASK_2026-09-07.md`
-- task commit: `f4d107dcf5a190b4d5f072e6debf9262aff19a11`.
-
-Its intended framing is to challenge the current incumbent and, if useful, produce no more than SAFE / BALANCED / NORTH-HEAVY exact scenarios.
-
-Do not mistake existence of the task file for a completed result.
-
----
-
-## 12. BOOKING / CONTACT BOUNDARY
-
-**`FINAL BOOKING CALENDAR LOCKED` as of 2026-09-08 (see `decisions/FINAL_BOOKING_CALENDAR_LOCKED_2026-09-08.md`). The pre-lock boundary below no longer applies — trip-date-dependent requests, stay attempts, and rail/flight bookings against the locked dates may now proceed.**
-
-Historical pre-lock rule, kept for reference only: before lock, no trip-date-dependent ashram/hotel requests, no domestic train/flight purchases, no Garpar access email, no YSS/Ramanasramam stay requests, no date-dependent reservation calls.
-
-Immediate next step: build the second execution/control-tower document with exact dates for:
-- Haidakhan stay request;
-- Dunagiri stay;
-- Varanasi river-view/balcony room;
-- Kolkata/YSS/Belur/spiritual-lodging attempts;
-- Garpar Road access + Garpar meditation schedule;
-- Tiruvannamalai/Ramanasramam accommodation attempt + fallback;
-- rail bookings / FTQ where applicable;
-- VNS→CCU, CCU→MAA, MAA→DEL domestic flights;
-- drivers/transfers;
-- exact later live rechecks for closures/ferries/weather/fog/roads/timetables.
-
-### Insurance status
-Mark's insurance adviser is Nico. Mark has already emailed Nico asking whether his ongoing travel insurance adequately covers India, the trip duration, medical/private-hospital costs, repatriation, any advisable extra cover and whether anything must be reported/changed. **Status: question sent; await Nico. Do not duplicate.**
-
----
-
-## 13. IMPORTANT EXECUTION-READINESS RESEARCH TO PRESERVE FOR AFTER DATE LOCK
-
-Useful research exists at:
-- branch `worker/final-execution-readiness-audit`
-- `runs/active/FINAL_EXECUTION_READINESS_NO_SURPRISES_AUDIT_2026-09-07.md`
-- reconciled commit around `cb4f0d917d5fbdfe930464e7be1bba332e000f51`.
-
-It identifies later operational items such as e-Visa/e-Arrival, IRCTC/FTQ, Haidakhan acceptance, Dunagiri scarcity, Varanasi balcony room, Garpar private/semi-private access, YSS/Belur spiritual lodging, Bhrigu appointment, Ramanasramam scarcity, health/insurance prep.
-
-**But the newest Mark rule in §12 controls timing.** Preserve the research; do not follow stale “contact/reserve now” language before the final calendar lock.
-
----
-
-## 14. CCI RELAY
-
-Repository: `bnzgxknwrv-tech/india-knowledge-base`  
-PR: **#23**
-
-Standard relay:
-- ChatGPT posts a PR comment headed `CCI_TASK`.
-- Mark starts CCI with exactly: `Voer de nieuwste CCI_TASK op PR #23 uit.`
-- CCI posts a `CCI_RESULT` back to PR #23.
-
-Relevant recent CCI result:
-- `5574796407` — FINAL EXACT 33-SLOT BOOKING-CALENDAR SOLVER.
-
-Do not trust an old PR task/result merely because it is recent; always find the newest task that has not yet been superseded.
-
----
-
-## 15. NEXT ALLOWED PROJECT ACTION
-
-Before any booking work, design and run the **independent multi-AI final-calendar ensemble**:
-
-1. CCI and main regisseur settle the exact frozen-packet / same-prompt architecture.
-2. Run the independent Deep Research ChatGPT optimizer without allowing it to change Mark's hard decisions.
-3. Freeze a self-contained input packet that a no-GitHub AI can understand completely.
-4. Give the identical comprehensive prompt + frozen packet to all five free AIs, blind and independently.
-5. Put all five results into a fresh clean synthesis ChatGPT.
-6. Verify every proposed correction/improvement against canon + current web evidence.
-7. Recalculate exact 33/33 nights.
-8. If one best solution emerges, write and commit `FINAL BOOKING CALENDAR LOCKED`.
-9. Only then begin reservation/contact/booking execution.
-
----
-
-## 16. SUCCESSOR SELF-CHECK
-
-A new regisseur is not ready until it can answer, from GitHub rather than chat memory:
-
-1. What worlds are final IN and FINAL OUT?
-2. What durations/bases are locked?
-3. What is the exact incumbent 33-slot calendar?
-4. Why is it still CANDIDATE rather than FINAL LOCKED?
-5. Which Kolkata grades were just closed?
-6. What is Mark's north/mountain extra-night preference and what outranks it?
-7. Why must final Delhi remain one night unless a genuinely new safety issue appears?
-8. What is the newest rule about date-dependent bookings/emails?
-9. How must the five free AIs be used now?
-10. What role does the clean synthesis ChatGPT have?
-11. Where is the prepared Deep Research optimizer task?
-12. What is the exact next phase before any reservations?
-
-If any answer is unclear, update THIS FILE or the linked canonical source before continuing.
-
----
-
-## 17. GOVERNANCE / DO NOT DRIFT
-
-- Mark alone assigns or changes subjective A+/A/A*/B/C grades and explicit personal locks.
-- Do not silently alter locked durations.
-- Do not resurrect FINAL OUT worlds.
-- Distinguish research recommendation from Mark decision.
-- `RESEARCH_COMPLETE_ENOUGH != MARK_TRIAGE_COMPLETE != DURATION_CLOSED != FINAL_BOOKING_CALENDAR_LOCKED`.
-- When a fact is future-dependent, mark it `LIVE_RECHECK_LATER` rather than pretending it is final.
-- Prefer official/primary sources for timetables, closures, admission/access and festival facts; use current web verification before a booking-hard conclusion.
-- A single evidence-backed minority AI finding can override a repeated but unsupported consensus.
-
-END — CURRENT SUCCESSOR ENTRYPOINT
+For full detail and reasoning, read `handoffs/INDIA_SUCCESSOR_ZERO_LOSS_HANDOFF_2026-09-09.md`.
