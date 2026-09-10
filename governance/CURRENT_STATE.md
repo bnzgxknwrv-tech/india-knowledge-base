@@ -22,7 +22,7 @@ Superseded on their conflicting points:
 ## CURRENT PHASE
 
 Do NOT book/contact yet. Current work is:
-1. reconcile six completed blind external-AI global route analyses;
+1. reconcile four completed blind external-AI global route analyses;
 2. inject Mark's newest Nirmal-final-Delhi override;
 3. reconcile/rerun CCI/Work contenders as needed;
 4. close exact named A/A+ coverage;
@@ -98,9 +98,9 @@ Known seed:
 
 Full exact audit remains required; do not treat this seed as the final count.
 
-## SIX-AI FRONTIER
+## FOUR-AI FRONTIER
 
-Six independent external AI analyses of the full route question are complete. Reconcile them; do not majority-vote. Evidence outranks consensus. A minority finding or synthesized seventh route may win. Any reconciliation must inject the new Nirmal 20-Jan rule even if source answers predate it.
+Four independent external AI analyses of the full route question are complete. Reconcile them; do not majority-vote. Evidence outranks consensus. A minority finding or synthesized fifth route may win. Any reconciliation must inject the new Nirmal 20-Jan rule even if source answers predate it.
 
 ## PDF / DAY-CARD RULE
 
