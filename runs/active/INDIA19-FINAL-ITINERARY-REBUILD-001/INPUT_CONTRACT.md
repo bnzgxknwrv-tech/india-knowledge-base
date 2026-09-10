@@ -6,6 +6,12 @@ Task source: PR #23, INDIA19 dispatch "CCI_TASK — INDIA19 INPUT FREEZE PHASE 1
 Branch: `agent/india8-cluster-casting`
 **Central HEAD/SHA used to build this packet: `8e7419d6120556c8151f2654bce33bcac85ca678`**
 Packet directory: `runs/active/INDIA19-FINAL-ITINERARY-REBUILD-001/`
+**Packet version: v2 (repaired). v1 = commit `c0338559222959d4a2fe4ac67ef5f8bf877c6b58`.**
+
+## PACKET REVISION LOG
+
+- **v2 — 2026-09-10 — CCI repair pass following independent auditor WORK's `FAIL_WITH_GAPS` review of v1 (commit `c0338559222959d4a2fe4ac67ef5f8bf877c6b58`).** Every one of WORK's claims was independently re-verified against the actual cited source files (not taken on trust) before any fix was made; see `INPUT_COMPLETENESS_GATE.md` for the full CONFIRMED/DISPUTED/PARTIALLY-CONFIRMED breakdown per gap. Summary of what changed: added 21 previously-omitted physical rows to the coverage ledger (19 Varanasi/Sarnath entities reconciled against `PROTECTED_CANON_BASELINE.csv`/`MARK_DECISIONS_2026-08-02.jsonl`/`A_PLUS_MARK_DECISION_LOG.md`, plus the Bodh Gaya international monastery belt and Gaya Tilkut) — total physical rows 68 → 89; corrected one row's identity from a generic label to its actual sourced name (`BOD-05`, the Ancient Pragbodhi/Dungeshwari stupa ridge); corrected one stale provenance citation (`DEL-02` PVR Priya IMAX, now citing its actual 2026-09-02 supersede decision instead of a superseded 2026-08-31 ledger entry); corrected one grade (`VNS-20` Lahiri Mahasaya family house, A → A+, per an explicit "Mark: A+" baseline entry); flagged two grades as `CONFLICT_UNRESOLVED` rather than guessing (`VNS-13` Bhaskarananda Samadhi, `VNS-19` Tulsi Manas Temple — see the conflict register in `CLOSED_FACTS_OPEN_VARIABLES.md`); corrected three stale/superseded grade claims in `CLOSED_FACTS_OPEN_VARIABLES.md` Category-5 prose (Mangala Gauri Temple B→C, Patharkatti/Sher Shah Suri Tomb "open"→C, Gaya Tilkut "not yet graded"→A*, now its own ledger row); corrected the north/Kumaon start-preference wording in `OBJECTIVE_AND_HUMANE_GATES.md` from "mild tie-break after tiers 1-8" to the actual "strong preference, overridden only by ~8-10+ waking hours of material whole-trip gain" recorded in `decisions/QUIET_NORTH_START_OVERRIDE_THRESHOLD_MARK_DECISION_2026-09-09.md`; removed/reframed the invalid Gate item 7 that treated already-decided A-grade inclusion as an open preference question; added a `STABLE_SOURCE_ID` column to the ledger CSV mapping every row to its immutable canon permanent ID where one exists (see §10 below); improved WHY text for rows WORK correctly flagged as provenance-only. No Mark grade, lock, or duration was invented — every change above is a citation of an existing source, a correction of a stale/incorrect citation, or an explicit unresolved-conflict flag. See `INPUT_COMPLETENESS_GATE.md` for the new overall verdict.
+- **v1 — 2026-09-10 (originally built same day as v2, see PR #23 task) — commit `c0338559222959d4a2fe4ac67ef5f8bf877c6b58`.** Original Phase-1 packet build, 68 physical rows, `CONDITIONAL PASS` self-verdict. Superseded in place by v2 above (same files, versioned in place per this project's working-packet convention — not an append-only receipt).
 
 This file pins the binding inputs that any later route/calendar solve (by CCI, WORK or INDIA19) must treat as fixed. It changes nothing; it only freezes and cites current truth.
 
@@ -90,7 +96,21 @@ Additional final-skipped optional clusters (not FINAL OUT "worlds" in the same s
 
 Any later day-card/calendar build must show every retained physical A+/A/A* site **individually**, even where a parent/child pair legitimately shares one visit block — never hidden under a vague cluster label (`governance/CURRENT_STATE.md` §PDF/DAY-CARD RULE; `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` FOUT 21/22). Cluster status (e.g. "duration live", "world reopened") and individual site grade are separate axes — a cluster being under review never blanks or erases an existing site-level grade.
 
-## 10. COMPANION FILES
+## 10. STABLE IDENTIFIER MAPPING (ADDED v2, 2026-09-10)
+
+WORK's audit found that this packet's own `VNS-01`, `VNS-02`... row-numbering sequence is a packet-local convenience label, not the project's actual immutable physical-entity ID scheme — e.g. packet `VNS-01` = Manikarnika Ghat, while the real immutable permanent ID for Manikarnika Ghat (`runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv`) is `003`, and permanent `001` is a different site (Lahiri Mahasaya Samadhi / Satyalok) that was missing from the packet entirely.
+
+Renumbering the packet's existing `VNS-`/`KUM-`/`BOD-`/`DEL-`/`KOL-`/`TIR-` row IDs to the canon permanent numbers was **not** done on this pass: those IDs are already cross-referenced throughout this packet's own `PARENT_CHILD_RELATION` prose and would require a full internal-reference rewrite for no lossless-reconciliation gain, and several in-scope clusters (Delhi, Agra, Kolkata, Tiruvannamalai) have **no** canon permanent-ID coverage in `PROTECTED_CANON_BASELINE.csv` at all, so a full renumbering could not be uniform anyway.
+
+Instead, `PHYSICAL_A_PLUS_A_COVERAGE_LEDGER.csv` now carries a **`STABLE_SOURCE_ID`** column on every row:
+- `PERMANENT-NNN` — the immutable numeric ID from `PROTECTED_CANON_BASELINE.csv` (e.g. `PERMANENT-001`), for every Varanasi/Bodh Gaya/Kumaon entity that has one.
+- `LEGACY-<name>` — a legacy (non-global) protected identifier from the same file (e.g. `LEGACY-KAINCHI_EXISTING`), for the few rows that only have a legacy ID.
+- The literal accommodation ID `VNS-HOTEL-001` for the Sahi River View Guesthouse row.
+- `NOT_IN_PERMANENT_REGISTRY` for every row whose cluster or entity type (Delhi, Agra, Kolkata, Tiruvannamalai; food/restaurant items; experience-blocks such as walks/boat rides; a few Kumaon/Bodh Gaya items) has no canon permanent-ID entry at all — this is an honest "no stable ID exists yet," not a claim that one was assigned and lost.
+
+A later solver or successor doing entity reconciliation should join on `STABLE_SOURCE_ID` wherever it is a real `PERMANENT-`/`LEGACY-` value, and treat the packet's own `ID` column as a display-only convenience label, never as a claim of canonical numbering.
+
+## 11. COMPANION FILES
 
 - `PHYSICAL_A_PLUS_A_COVERAGE_LEDGER.csv` — the full inventory (see also `LEDGER_SUMMARY.md`).
 - `CLOSED_FACTS_OPEN_VARIABLES.md` — the four-category evidence separation.
