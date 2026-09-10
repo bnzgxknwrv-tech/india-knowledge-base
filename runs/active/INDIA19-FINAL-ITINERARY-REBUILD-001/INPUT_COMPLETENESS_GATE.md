@@ -1,8 +1,8 @@
 # INPUT COMPLETENESS GATE — CCI SELF-CHECK
 
-Status: **v2 — CCI'S RESPONSE TO WORK'S INDEPENDENT AUDIT OF v1, PLUS THE ORIGINAL v1 SELF-CHECK BELOW**
+Status: **v3 — CCI'S RESPONSE TO WORK'S SECOND INDEPENDENT AUDIT (OF v2), PLUS v2's RESPONSE TO WORK'S FIRST AUDIT (OF v1), PLUS THE ORIGINAL v1 SELF-CHECK BELOW**
 
-Pinned to central HEAD `8e7419d6120556c8151f2654bce33bcac85ca678` (see `INPUT_CONTRACT.md` §2); packet version = the six files in this directory as committed on the 2026-09-10 repair pass (v2), superseding the audited v1 at commit `c0338559222959d4a2fe4ac67ef5f8bf877c6b58`.
+Pinned to central HEAD `8e7419d6120556c8151f2654bce33bcac85ca678` (see `INPUT_CONTRACT.md` §2); packet version = the six files in this directory as committed on the 2026-09-10 second repair pass (v3), superseding v2 (commit `e9e5603c770d822c198045ed3b0002a2fc41ea55`), which itself superseded the audited v1 at commit `c0338559222959d4a2fe4ac67ef5f8bf877c6b58`.
 
 ---
 
@@ -49,6 +49,26 @@ Independent auditor WORK reviewed v1 of this packet and returned `FAIL_WITH_GAPS
 
 ---
 
+## PART A2 — RESPONSE TO WORK'S SECOND FAIL_WITH_GAPS AUDIT, OF v2 (2026-09-10)
+
+WORK independently rechecked v2 (commit `e9e5603c770d822c198045ed3b0002a2fc41ea55`) and returned `FAIL_WITH_GAPS` again, but narrower: it confirmed every v2 repair as correctly landed, and raised exactly two residual defects. Both were independently re-verified before acting, per the same evidence-over-authority standard as Part A.
+
+### Residual Defect 1 — VNS-13/VNS-19 should be resolved as B, not left CONFLICT_UNRESOLVED
+
+**CONFIRMED-AND-FIXED — v2's own reasoning was wrong, WORK's is right.** v2 declined to pick a side because the 2026-09-09 file "is dated after both 'B' sources" and its own-grade-change disclaimer "cuts both ways." Re-reading that disclaimer directly: `decisions/FULL_A_COVERAGE_AND_GLOBAL_ROUTE_TOPOLOGY_REOPTIMIZATION_2026-09-09.md` states, in its own status line, "It does NOT change any Mark grade" — this is not ambiguous or double-edged; a file that explicitly disclaims changing grades cannot be read as a fresh regrade merely because of its later date. Its incidental "A" mention is therefore evidence of *what an earlier compiler believed the grade was*, not a new grade-setting act. The actual latest grade-setting record is `A_PLUS_MARK_DECISION_LOG.md`'s section explicitly headed **"LATEST VARANASI ORDINARY GRADES — MARK 2026-08-27"** — a section whose own heading claims to be Mark's latest word on exactly this class of grade — which records both sites as B, consistent with the closed `CURRENT_OLD_A_PROMOTION_MASTER.md` (2026-08-24). v2's stated worry (that the 2026-08-24/27 "B" sources might themselves be "a review pass, not a verbatim quoted Mark chat line") applies equally or worse to the 2026-09-09 "A" mention, so it cannot justify preferring A over B.
+
+**Fix applied:** `VNS-13` and `VNS-19` are now recorded as **B** in prose (`CLOSED_FACTS_OPEN_VARIABLES.md`, "RESOLVED GRADE CONFLICTS") and **removed from `PHYSICAL_A_PLUS_A_COVERAGE_LEDGER.csv`** entirely, since B-graded sites are out of scope for this A+/A/A* packet by design (same rule that already excludes ordinary B/C reserves elsewhere). The two `MARK_DECISION_REQUIRED` mentions of these rows in `OBJECTIVE_AND_HUMANE_GATES.md` were removed — this is a canon/precedence repair, not a new grade decision, so no Mark input is actually required here.
+
+### Residual Defect 2 — coverage checksum mis-scoped (89 included non-graded rows)
+
+**CONFIRMED-AND-FIXED.** WORK correctly noted that `LEDGER_SUMMARY.md`'s `TOTAL_PHYSICAL_A_PLUS_A = 89` conflated the full CSV row count with the actual A+/A/A*-graded obligation count (it included 1 accommodation row and 2 conflict rows that are not sightseeing grade obligations). The checksum now reads `TOTAL_PHYSICAL_A_PLUS_A = 86` (the A+/A/A*-graded population only), with the CSV's full row count (87, after also removing the two resolved-B rows) stated separately and clearly labelled as a different, broader population. See `LEDGER_SUMMARY.md`.
+
+### Net effect on row counts
+
+67→68 (v1) → 68→89 (v2, +21 genuine additions) → 89→87 (v3, -2 resolved-B removals). **Final v3 total: 87 CSV rows = 86 A+/A/A*-graded + 1 accommodation-grade.** WORK's independently-observed grade breakdown (24 A+, 55 A, 7 A*) is unchanged by this pass and is confirmed correct against the live CSV.
+
+---
+
 ## PART B — ORIGINAL v1 SELF-CHECK (retained for history, pinned to `c0338559222959d4a2fe4ac67ef5f8bf877c6b58`)
 
 ### 1. Missing rows (real A+/A/A* sites not in the ledger)
@@ -63,11 +83,11 @@ Independent auditor WORK reviewed v1 of this packet and returned `FAIL_WITH_GAPS
 
 ## OVERALL VERDICT
 
-**CONDITIONAL PASS — narrower and more specific than v1's, not a plain PASS.**
+**CONDITIONAL PASS — v3, same residual scope as v2, both v2-specific defects now closed.**
 
-Rationale: v1's `CONDITIONAL PASS` correctly predicted its own biggest risk (an unaudited residual gap from files outside the documented router path) and that risk materialized exactly as flagged, at real scale (21 missing rows, not the single row v1's self-check had caught). This v2 repair pass directly reconciled the ledger against the three primary canon sources WORK named (`PROTECTED_CANON_BASELINE.csv`, `MARK_DECISIONS_2026-08-02.jsonl`, `A_PLUS_MARK_DECISION_LOG.md`) plus `CURRENT_OLD_A_PROMOTION_MASTER.md` and `SELECTED_A_PLUS_ANCHOR_IDENTITY_BASELINE.md`, which meaningfully narrows (but does not eliminate) the residual-gap risk for Varanasi/Sarnath and Bodh Gaya specifically. It does **not** extend the same primary-source reconciliation to Delhi, Kumaon, Kolkata/Dakshineswar or Tiruvannamalai/Arunachala, where no equivalent canon-baseline CSV was found to cross-check against (a targeted search found `PROTECTED_CANON_BASELINE.csv` covers only VARANASI, BODHGAYA_GAYA and a handful of KUMAON permanent IDs) — those clusters' completeness still rests on the same router-file-trust basis as v1, unchanged and unaudited on this pass. Two grade conflicts (`VNS-13`, `VNS-19`) were found genuinely unresolvable by CCI and are correctly left open as `CONFLICT_UNRESOLVED` rather than guessed.
+Rationale: v2's own two residual defects (the VNS-13/VNS-19 conflict-register call, and the mis-scoped checksum) are now both fixed and independently re-derivable from the CSV itself (verified: `86` graded rows, `87` total, `0` FINAL OUT, `0` remaining conflict rows — recomputed directly from the live CSV, not asserted). v2's own correctly-flagged unresolved risk **still stands unchanged**: the primary-source reconciliation that fixed Varanasi/Sarnath and Bodh Gaya was not extended to Delhi, Kumaon, Kolkata/Dakshineswar or Tiruvannamalai/Arunachala, since no equivalent canon-baseline file was found there. That is a real, named, unaudited gap, not a new one introduced by this pass — it keeps this verdict at CONDITIONAL PASS rather than a plain PASS.
 
-Given: (a) a large, specific, independently-reproduced defect was found and fully repaired with primary-source citations, not just re-asserted; (b) two of WORK's authority claims were independently checked and found to need a *more careful* resolution than WORK itself proposed (the conflict register, rather than a silent B); and (c) a real, named, unaudited residual area remains (non-Varanasi/Bodh-Gaya clusters against any canon-baseline-style source, if one exists and was not found) — **CONDITIONAL PASS** is the accurate verdict. A plain `PASS` would overstate certainty; a repeat `FAIL_WITH_GAPS` would understate the scale of what was actually fixed and independently re-verified on this pass.
+Given: (a) both defects from WORK's second audit are confirmed real, fixed, and independently re-verified against the live CSV rather than re-asserted; (b) v2's own self-identified residual risk (non-Varanasi/Bodh-Gaya clusters unaudited against a canon-baseline source) remains open and unchanged; and (c) no new defect was found or introduced while making these fixes — **CONDITIONAL PASS** remains the accurate verdict. A plain `PASS` would still overstate certainty about the unaudited clusters; a repeat `FAIL_WITH_GAPS` would understate that both of WORK's specific v2 findings are now closed.
 
 **`ROUTE_SOLVE_STARTED = NO`.**
 
