@@ -1,0 +1,61 @@
+# CLOSED FACTS / OPEN VARIABLES — PHASE 1 INPUT FREEZE
+
+Pinned to central HEAD `8e7419d6120556c8151f2654bce33bcac85ca678`. Purpose: separate four categories of truth so no later solver (CCI, WORK, INDIA19) confuses them.
+
+---
+
+## CATEGORY 1 — BINDING MARK/CANON TRUTH (locked; a solver may not silently change these)
+
+1. **International envelope**: AI156 AMS->DEL 18 Dec 2026 ~20:35 dep / 19 Dec ~10:15 arr; AI155 DEL->AMS 21 Jan 2027 ~12:20 dep. Already owned/booked by Mark. Exactly 33 India nights (19 Dec-20 Jan). — `governance/CURRENT_STATE.md`, `governance/DECISION_LEDGER.jsonl` DL-0010.
+2. **Locked durations**: Nainital 3n; Dunagiri/Kukuchina 3n; Haidakhan 3n incl. 2 complete protected quiet days; Agra 1 hotel night (Taj [A+] protected, Taj-only content rule); Varanasi/Sarnath 8n; final Delhi exactly 1n (20 Jan). — DL-0022/0023/0026/0048; `decisions/AGRA_TAJ_ONLY_DEPART_ASAP_MARK_DECISION_2026-09-09.md`; `decisions/FINAL_DELHI_ONE_NIGHT_MARK_DECISION_2026-09-07.md`.
+3. **Nirmal Dham placement rule**: not on arrival day; default final Delhi buffer 20 Jan; AI155 safety outranks the visit. — `decisions/NIRMAL_DHAM_FINAL_DELHI_PLACEMENT_MARK_DECISION_2026-09-09.md` (verbatim).
+4. **FINAL OUT worlds**: Puri/Odisha; Serampore/Srirampur (as trip stop/world/sleep/excursion); Vrindavan/Braj/Mathura/Govardhan. Also final-skipped clusters: Haridwar-Kankhal-Rishikesh; Prayagraj/Allahabad (cluster-level, individual site grades preserved as history); Mysuru-Bengaluru; Kasar Devi-Almora/Crank's Ridge module; Ranchi; Sri Aurobindo Ashram/Puducherry. — `decisions/FINAL_TRIP_WORLDS_LOCK_2026-09-07.md`.
+5. **Every A+/A/A* Mark grade currently recorded in `PHYSICAL_A_PLUS_A_COVERAGE_LEDGER.csv`** (67 rows) — each individually cited to its owning decision file/ledger entry in the CSV's SOURCE_PROVENANCE column. A cluster's live-review/reopened status (Bodh Gaya, Tiruvannamalai, global macro order) never blanks or erases an individual site's existing grade (`governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` FOUT 21).
+6. **Grade-letter reservation rule**: A+/A/A*/B/C are Mark grades only, never structural/scenario/option labels. — DL-0056; `decisions/PRESENTATION_GRADE_LETTERS_RESERVED_MARK_RULE_2026-09-02.md`.
+7. **Presentation rule**: every retained physical A+/A must remain individually visible in any later day-card build, even when sharing a block with a parent/child site. — `governance/CURRENT_STATE.md` §PDF/DAY-CARD RULE.
+
+## CATEGORY 2 — VERIFIED REUSABLE OPERATIONAL FACTS / RESEARCH (usable evidence, not itself a Mark decision)
+
+1. **Agra->Gaya corridor operational-delta result** (`runs/active/AGRA_GAYA_CORRIDOR_OPERATIONAL_DELTA_RESULT_2026-09-09.md`, commit `928052f16edfeaf75aba1e60d8c587036eb94e64` on `worker/agra-gaya-corridor-opportunity-stop`): tested inserting a Prayagraj stop between the protected Taj morning and the Gaya sleeper; verdict `KEEP_12988_DIRECT` — no Prayagraj insertion is both content-real and roughly equal to the direct 12988 sleeper in whole-human terms. This is a completed, reusable operational finding, not a fresh research task, and not itself a Mark lock (see Category 3 below for its status boundary).
+2. **Bodh Gaya coordinate registry**: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/BODHGAYA_VERIFIED_MAP_COORDINATES_2026-08-29.md` is the mandatory corrected geo source for Bodh Gaya proximity/routing claims (supersedes an earlier decision-corrupting bad pin).
+3. **Kumaon 9-day/9-night footprint arithmetic**: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/KUMAON_COMPLETE_EXECUTION_DRAFT_2026-08-26.md` — content + day-bundling structure behind the closed Kumaon duration, reusable as execution-geometry evidence.
+4. **Independent final-bookable-calendar audit** (`worker/final-bookable-calendar-independent-check`, commit `2879705a83325734ba2f2f20ccad7ef857bf9267`, PR #23 comment `5574847392`, verdict `PASS_WITH_CORRECTIONS`): confirms 33-slot arithmetic passes with no missing/duplicate night under the tested geometry, and flags several date-collision corrections (e.g. Belur Math museum closed 12 Jan for National Youth Day; Kolkata 4n vs Sankranti/Pongal collision). Reusable evidence for a later calendar solve, not itself canon.
+5. **Global route-topology stress test** (`worker/global-route-topology-reoptimization`, commit `7c206ece6efee0f548e3b72ebf3022f3573282ca`): tested 11 route families pre-Nirmal-override; verdict `KEEP INCUMBENT` at confidence ~0.70. Explicitly flagged by governance as informative-but-not-final after the Nirmal 20-Jan move; reusable as prior evidence, not a final verdict.
+6. **Four-AI route reconciliation challenger**: a Varanasi-first east-to-south-to-north-to-Agra topology exists as a genuine challenger with a full 33-night geometry sketch (`INDIA18_FINAL_EXTRACTION_2026-09-09.md` §2.2). Reusable as a candidate for later comparison; not adopted or rejected by this packet.
+7. **Agra post-Taj deep pass** (`runs/active/AGRA_POST_TAJ_DEEP_PASS_RESULT_2026-09-09.md`, commit `d14c3383e9a7a8c17873b41555d03e16dc5139a6`) — reused as input by the Agra-Gaya corridor result above; not independently re-read line-by-line in this packet but cited as existing evidence per its citation chain.
+
+## CATEGORY 3 — PRIOR ANALYTICAL CONCLUSIONS THAT MAY BE CHALLENGED BY A NEW ROUTE SOLUTION (evidence, explicitly not binding canon)
+
+1. **`KEEP_12988_DIRECT`** (Agra->Gaya corridor result, commit `928052f16edfeaf75aba1e60d8c587036eb94e64`) — a worker recommendation based on tested timetables at the time of writing. A future solver may re-test it only if a genuinely new timetable/material fact appears; absent that, it should be reused rather than re-researched, but it is not a Mark lock and does not itself close the Agra-position-in-topology question.
+2. **`KEEP INCUMBENT` global topology verdict** (commit `7c206ece6efee0f548e3b72ebf3022f3573282ca`, confidence ~0.70) — predates the Nirmal-20-Jan override and the Agra Taj-only/depart-ASAP rule; explicitly not final per `governance/CURRENT_STATE.md`/`SUCCESSOR_SAFE_STATE.md`.
+3. **Bodh Gaya 3n / Tiruvannamalai 4n as "current serious/leading" forms** — these are the currently-favoured points within an explicitly still-open sensitivity range (2-3n and 4-5n respectively), not `TRUE_DURATION_CLOSED`. A new route solution may legitimately land on either endpoint of each range; this packet takes no position and records both endpoints as open in `INPUT_CONTRACT.md` §4.
+4. **The four-AI Varanasi-first challenger's specific 33-night night-by-night geometry** (`INDIA18_FINAL_EXTRACTION_2026-09-09.md` §2.2) — a reconciler's proposal, explicitly labeled "not a Mark-locked final topology" by its own source, carrying identified unresolved penalties (unprotected self-connect risk, later-January mountain/fog proximity to AI155, possible loss of a YSS Christmas-timing date-quality benefit, a heavy Jan-8 flight+night-train transfer chain, a 04:10 Delhi-arrival risk). Available as a challenger to test, not as a recommendation to adopt.
+5. **Baranagar Math grade discrepancy — RESOLVED IN FAVOR OF THE EXPLICIT MARK DECISION FILE.** `runs/active/INDIA18_FINAL_EXTRACTION_2026-09-09.md` §9 asserts "the current START_HERE has already updated Baranagar Math to A." This claim was checked against `START_HERE_CURRENT_INDIA_PROJECT_STATE.md` at the pinned HEAD (`grep -n -i "baranagar"` returns zero hits) and against every decisions/governance file: the actual explicit Mark decision, `decisions/KOLKATA_DAKSHINESWAR_MARK_SITE_DECISIONS_2026-09-07.md`, states plainly "MARK GRADE: remains UNGRADED... only visit if already very close/naturally bundled; NO special trip for this site alone," and the contemporaneous `runs/active/FINAL_MULTI_AI_PROMPT_PACKAGE_2026-09-07.md` independently confirms "Baranagar/Alambazar = bundle-only." **Per DL-0037 (worker/self-report COMPLETE does not equal central adoption) and FOUT 15 of the successor handoff (a file's own status word is not authority), Baranagar Math is treated as UNGRADED and is correctly EXCLUDED from `PHYSICAL_A_PLUS_A_COVERAGE_LEDGER.csv`.** INDIA18's uncorroborated claim should not be propagated forward as fact; a later solver may raise this to Mark as a genuine open item if desired, but must not silently treat it as an existing A grade.
+
+## CATEGORY 4 — TIME-SENSITIVE / UNRESOLVED ITEMS REQUIRING LIVE_RECHECK_LATER OR FURTHER PROOF
+
+Consolidated by reference to `runs/active/INDIA18_FINAL_EXTRACTION_2026-09-09.md` §15 (30-item list) rather than reproduced in full; the categories most relevant to this packet's ledger:
+
+1. Exact access/booking for `KOL-04` (4 Garpar Road) — hard pre-arrival email action required, walk-in access not assumed.
+2. Exact Jan-2027 satsanga/meditation schedule at `KOL-05` (YSS Garpar Dhyana Kendra) — call ahead.
+3. Exact access confirmation for `VNS-20` (Lahiri Mahasaya family house) and a real visit-block (not just positional context) for `VNS-21` (Shitala Mata Temple).
+4. Exact access/routing for the five MISSING Varanasi/Sarnath items (`VNS-11/12/13/18/19`) and the Bodh Gaya ridge item (`BOD-05`) — none of these have been independently re-verified for coordinates/access in this packet; they are frozen as MISSING per governance's own seed, not newly researched.
+5. PVR Priya IMAX (`DEL-02`) exact film/showtime on the actual final-Delhi date.
+6. All train/flight timetables, hotel/ashram acceptance, opening hours, and festival/closure dates referenced anywhere in this packet or its sources — every one of these remains `LIVE_RECHECK_LATER` until booking-critical, per DL-0038. This packet does not re-verify any of them; it only freezes which sites/durations/rules are currently binding.
+7. Sri Chakra Puja exact date — optional bonus only, must not force the route (`governance/CURRENT_STATE.md`).
+8. YSS Christmas 2026 meditation/programme accessibility at the Dunagiri/Kukuchina/YSS layer — real date-quality value if confirmed, but unverified.
+
+---
+
+## CATEGORY-5 NOTE — B/C RESERVES EXIST BUT ARE OUT OF SCOPE FOR THIS PACKET
+
+Per the CCI task definition, only A+/A/A* rows are carried in the coverage ledger. B and C graded items are **not silently implied to not exist** — they remain real, recorded Mark decisions, out of scope for this packet only:
+
+- **Delhi B reserve**: Qutb Minar and its Monuments [B][UNESCO WH]; Hauz Khas Village [B]; Humayun's Tomb [B][UNESCO WH]; Sunder Nursery [B]; Garden of Five Senses [B]; Lodhi Garden [B]; Red Fort [B][UNESCO WH]. Delhi C/suppressed list also exists (Sulabh Museum, Dilli Haat INA, National Rail Museum, etc.) — `governance/CURRENT_DECISIONS_MASTER.md` §6.
+- **Kumaon B/conditional**: Naina Peak short summit walk [B]; Ghorakhal Golu Devta Mandir [B]; Katarmal Sun Temple walk [B] — `KUMAON_COMPLETE_EXECUTION_DRAFT_2026-08-26.md`.
+- **Bodh Gaya B**: Archaeological Museum [B]; Tergar Monastery [B]; Mangala Gauri Temple [B]; Jagannath Temple [B]. Bodh Gaya open batch (not yet Mark-graded as A/A+): Nalanda Mahavihara [UNESCO WH]; Rajgir Vishwa Shanti Stupa+ropeway [B, corridor-conditional]; Patharkatti craft village; Sher Shah Suri Tomb; Gaya Tilkut winter food — DL-0031/DL-0032. Barabar/Nagarjuni Caves remain C/do-not-re-present (DL-0030).
+- **Tiruvannamalai B**: Mango Tree Cave [B, only if natural]; Pachaiamman Temple [B, only if easy]. Auro Usha [C, FINAL COMFORT]. Sathanur Dam [C]; market world [C] — `governance/CURRENT_DECISIONS_MASTER.md` §11.
+- **Kolkata B/C**: Cossipore Udyanbati [B]; Balaram Mandir [B]; Mayer Bari/Udbodhan [B]; Swami Vivekananda Ancestral House [B]; Kamarpukur+Jayrambati [C, suppressed] — `decisions/KOLKATA_DAKSHINESWAR_MARK_SITE_DECISIONS_2026-09-07.md`, `decisions/KOLKATA_REMAINING_MARK_GRADES_2026-09-07.md`.
+- **Chennai**: no A+/A grade currently exists. `decisions/TIRUVANNAMALAI_DURATION_REOPEN_AND_CHENNAI_DEEP_PASS_2026-09-07.md` explicitly frames Chennai's deep pass as still-open research ("Output should allow 0, 1, or 2 real A+ CANDIDATES") — this is `RESEARCH_COMPLETE_ENOUGH != MARK_TRIAGE_COMPLETE` territory, not yet a closed grade, so **zero Chennai rows appear in the ledger** (correctly, not by omission error).
+
+END CLOSED FACTS / OPEN VARIABLES
