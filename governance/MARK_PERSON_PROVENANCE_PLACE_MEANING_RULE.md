@@ -81,6 +81,35 @@ Every future detailed PDF/day-card/decision-card for an A+/A item must contain, 
 12. `VAN VORIGE / NAAR VOLGENDE A`
     Keep the already-required distance/reistime context so spiritual value and practical burden can be judged together.
 
+## INDEPENDENT RELEVANCE / RECOMMENDATION LAYER
+
+Facts alone are not enough for the final Mark-facing surface. After the factual person-place provenance is reconstructed, there must also be an independent relevance analysis.
+
+For every retained A+/A, INDIA/CCI/WORK must distinguish:
+
+1. `FACTUAL PHYSICAL LINK`
+   What is actually evidenced about person, place and event.
+
+2. `CASE FOR MARK`
+   The strongest reason this exact place may be personally valuable to Mark, especially if it is a true physical-life site of one of his priority people.
+
+3. `CASE AGAINST OVERVALUING`
+   The strongest reason the place may be less important than the current grade/presentation suggests: e.g. later memorial only, name-only dedication, indirect lineage association, weak/uncertain tradition, duplicated experience elsewhere, or little unique physical continuity.
+
+4. `INDEPENDENT RELEVANCE SIGNAL`
+   An advisory assessment such as VERY_STRONG / STRONG / MIXED / WEAK. This is NOT a Mark grade and may never autonomously change A+/A/A*/B/C.
+
+5. `DWELL RECOMMENDATION`
+   Explain whether the place is best treated as LOOK / VISIT / SIT_30M / SIT_60M_OR_MORE / PILGRIMAGE_BLOCK, and WHY. The recommendation should reflect the person-link and the likely value of simply being there, not merely sightseeing duration.
+
+6. `NEW DISCOVERY`
+   Any web-researched fact that materially changes the meaning of the place for Mark must be surfaced even if it was absent from the earlier GitHub record.
+
+7. `CHALLENGE`
+   If earlier GitHub wording materially overstates or understates the person-place link, explicitly challenge it with sources. Do not preserve a bad rationale merely because it is old canon; preserve Mark's grade while escalating the factual discrepancy.
+
+This relevance layer must use both repository provenance and fresh external research where useful. The web pass should prefer primary/official lineage, ashram, temple, museum, archival and government sources, then strong biographies/scholarly sources. Secondary devotional/travel sources may support discovery but must not be promoted to certainty without qualification.
+
 ## ABSOLUTE DISTINCTION
 
 A later temple, ashram, memorial or institution `in the name of` a person is NOT equivalent to a place where that person actually lived, taught, meditated, met someone, founded the site, died, was cremated, or had another documented physical event.
@@ -109,6 +138,12 @@ Before any pace-based A→B proposal or Mark tempo review:
 
 must be true.
 
+For the fully decision-safe surface, also require:
+
+`INDEPENDENT_RELEVANCE_CHALLENGE_COMPLETE = YES`
+
+so Mark sees not only the restored historical reason but also the strongest sourced argument for and against the location's present personal relevance.
+
 ## PRESENTATION PRINCIPLE
 
 For Mark, the important sentence is often not:
@@ -132,5 +167,8 @@ A successor must be able to answer for every retained A+/A:
 - what exact sub-place should Mark seek out?
 - is this an original site or a later memorial/institution?
 - where in GitHub is the original reason/grade provenance?
+- what is the strongest sourced case FOR Mark spending time here?
+- what is the strongest sourced case AGAINST overvaluing it?
+- what dwell style fits the true person-place meaning?
 
 If any answer is missing, the Mark-facing place description is incomplete.
