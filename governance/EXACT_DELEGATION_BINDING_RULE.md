@@ -76,6 +76,8 @@ De blokken mogen kort zijn, maar mogen de noodzakelijke binding niet verliezen.
 
 Iedere nieuwe INDIA-sessie moet deze regel actief toepassen alsof Mark hem zojuist in de chat heeft herhaald.
 
+Daarnaast is vanaf 2026-09-11 de inhoud van `governance/MARK_PERSON_PROVENANCE_PLACE_MEANING_RULE.md` **verplicht actieve opvolgerskennis** voor ieder Mark-facing reisdossier, tempo-overzicht, A/A+-beoordeling en PDF-build. Een opvolger die deze exact-delegation-regel leest, moet dat bestand eveneens lezen en toepassen vóór hij Mark een locatie laat beoordelen, skippen, inkorten of downgraden.
+
 Pre-answer/delegation test:
 
 - `EXACT_TASK_COMMENT_BOUND?`
@@ -83,5 +85,6 @@ Pre-answer/delegation test:
 - `EXACT_ARTIFACT_BOUND?`
 - `EXPECTED_RESULT_HEADER_BOUND?`
 - `CURRENT_STATUS_RECHECKED?`
+- `PERSON_PROVENANCE_RULE_ACTIVE_WHEN_MARK_EVALUATES_PLACES?`
 
-Eén relevante `NO` of `UNKNOWN` = **niet delegeren; eerst exact binden of status ophalen**.
+Eén relevante `NO` of `UNKNOWN` = **niet delegeren; eerst exact binden/status ophalen of de persoonsprovenance herstellen**.
