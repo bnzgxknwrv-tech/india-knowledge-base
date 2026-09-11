@@ -19,7 +19,8 @@
     "governance/INDIA_RECOVERY_DELTAS_CURRENT.md",
     "governance/INDIA_CURRENT_KNOWLEDGE_MAP.md",
     "governance/INDIA14_START_AND_INDEPENDENT_CHECK.md",
-    "governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md"
+    "governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md",
+    "governance/EXACT_DELEGATION_BINDING_RULE.md"
   ],
   "cci_commit": "b5349afe41f98eb4870728aaff2c633899afc1fa",
   "cci_required": [
@@ -44,7 +45,8 @@
     "decisions/BODHGAYA_INTERNATIONAL_MONASTERY_BELT_MARK_DECISION_2026-09-04.md",
     "decisions/TRAVEL_FRONTIER_AFTER_FIXED_TRAVELER_TRIAGE_2026-09-04.md",
     "decisions/PRESENTATION_GRADE_LETTERS_RESERVED_MARK_RULE_2026-09-02.md",
-    "governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md"
+    "governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md",
+    "governance/EXACT_DELEGATION_BINDING_RULE.md"
   ],
   "receipt_mode": "append_only_per_session",
   "receipt_directory": "governance/boot_receipts",
@@ -68,7 +70,8 @@
     "PRESENTATION_AND_GRADE_LETTERS",
     "RESEARCH_VS_TRIAGE_VS_DURATION",
     "FRONTIER_CONTRADICTION_CHECK",
-    "SUCCESSOR_ACTIVE_MEMORY_HANDOFF"
+    "SUCCESSOR_ACTIVE_MEMORY_HANDOFF",
+    "EXACT_DELEGATION_BINDING"
   ],
   "check_min_new_quotes": 2,
   "check_min_challenges": 6,
