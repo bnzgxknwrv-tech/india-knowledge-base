@@ -1,56 +1,84 @@
 # CURRENT STATE — INDIA
 
-state_revision: `2026-09-13_INDIA20_LIVE_LEDGER_CARDS_CLOCK_REPAIRED__FIRST_MARK_DECISION_REACHED`
+state_revision: `2026-09-13_INDIA20_MARK_PDF_ITEM_REVIEW_ACTIVE__RICH_SOURCE_RECONCILIATION`
 branch: `agent/india8-cluster-casting`
-status: `MARK_DECISION_REQUIRED__BODH3_TIRU4_VS_BODH2_TIRU5__NO_BOOKING_YET`
+status: `MARK_PDF_ITEM_GRADE_REVIEW_ACTIVE__BODH_TIRU_DECISION_DEFERRED__NO_BOOKING_YET`
 manifest_active_cluster: `BODHGAYA_EXECUTION_GEOMETRY_TRUE_DURATION`
 latest_successor_handoff: `runs/active/INDIA19_FINAL_EXTRACTION_2026-09-13.md`
 
 ## EXACT CURRENT FRONTIER
 
-INDIA20 has completed the factual/live-repair work required by the INDIA19 extraction and the independent INDIA20 boot checker before asking Mark another subjective question.
+Mark is currently reviewing the existing v3 PDF **item by item / page by page**, judging whether retained locations deserve their current grade and trying to free time. He explicitly corrected INDIA20 after it advanced too quickly to the Bodh-Gaya/Tiruvannamalai duration choice.
 
-Current owning artifacts:
-- live derived place/grade ledger: `runs/active/INDIA20-LIVE-LEDGER-V4-REPAIR-001/LIVE_DERIVED_PLACE_GRADE_LEDGER_2026-09-13.csv`;
-- complete live A+/A Mark-facing card source: `runs/active/INDIA20-LIVE-LEDGER-V4-REPAIR-001/MARK_FACING_LIVE_A_PLUS_A_CARDS_V4_SOURCE_2026-09-13.md`;
-- repaired live B3/T4 clock family: `runs/active/INDIA20-LIVE-LEDGER-V4-REPAIR-001/LIVE_CLOCK_PLAN_V4_REPAIR_2026-09-13.md`;
-- first genuine Mark-only decision surface: `runs/active/INDIA20-LIVE-LEDGER-V4-REPAIR-001/MARK_DECISION_SURFACE_BODH3_TIRU4_VS_BODH2_TIRU5_2026-09-13.md`.
+The immediate human frontier is therefore:
 
-`NEXT_MODE = WAIT_FOR_MARK_BODH_TIRU_DURATION_LOCK`
+`NEXT_MODE = MARK_PDF_ITEM_BY_ITEM_REVIEW_AND_RICH_SOURCE_RECONCILIATION`
 
-The prior `LIVE_LEDGER_AND_MARK_FACING_V4_REPAIR` phase is complete enough for this first Mark decision. Do **not** ask setup questions and do **not** restart research already completed.
+The Bodh 3n/Tiru 4n versus Bodh 2n/Tiru 5n duration surface remains prepared, but it is **DEFERRED** until Mark finishes enough of the current location/grade review to trust the live content set.
 
-## FIRST GENUINE MARK-ONLY DECISION
+Current review rule:
+- do NOT judge a place from the short PDF wording alone;
+- current PDF/card descriptions are materially too terse in places and may omit the original WHY, person/event, exact sub-place or lived experience;
+- before recommending that an existing A/A+ be shortened/downgraded, restore the richest honest card from current grades/supersedes + original research/provenance + relevant official/traveler/pilgrimage sources;
+- only Mark changes A+/A/A*/B/C;
+- after each explicit Mark grade decision, write it durably and continue with the PDF review rather than jumping to duration.
 
-Mark must now choose one night allocation:
+## CURRENT RICH-SOURCE INPUTS FOR THIS REVIEW
 
-1. **Bodh Gaya 3 nights + Tiruvannamalai 4 nights** — current working family and current evidence-based fit with Mark's earlier signal that Bodh felt too short / Tiru too long. The third Bodh night now has a concrete purpose because the full Dungeshwari -> seven-stupa ridge -> Gyan Yatra/Buddha Marg -> Sujata offering -> Sujata Stupa -> Bodhi Tree pilgrimage is a real 9–11 km-class day, while four Tiru nights still preserve a standalone full Ramanasramam immersion day.
-2. **Bodh Gaya 2 nights + Tiruvannamalai 5 nights** — trades one Bodh night for an additional low-tempo/recovery night at Arunachala; objectively viable but compresses the now-richer Bodh pilgrimage/Mahabodhi/recovery structure.
+Core current/live layers:
+- `runs/active/INDIA20-LIVE-LEDGER-V4-REPAIR-001/LIVE_DERIVED_PLACE_GRADE_LEDGER_2026-09-13.csv`;
+- `runs/active/INDIA20-LIVE-LEDGER-V4-REPAIR-001/MARK_FACING_LIVE_A_PLUS_A_CARDS_V4_SOURCE_2026-09-13.md`;
+- `runs/active/INDIA20-LIVE-LEDGER-V4-REPAIR-001/LIVE_CLOCK_PLAN_V4_REPAIR_2026-09-13.md`;
+- `runs/active/INDIA19-FINAL-ITINERARY-REBUILD-001/person-provenance/INDIA19_A79_V3_PERSON_PROVENANCE_RECONCILIATION_2026-09-11.md`.
 
-CCI/WORK previously found no objective winner. INDIA must not convert this to a lock without Mark.
+Raw/source layers that must be reopened when a place needs deeper review rather than trusting compact cards:
+- CCI frozen worker `970fe70c7ed534fb30af2cf23172df4960b5a3ca`: `A79_PERSON_PROVENANCE_RESTORATION.csv/.md` + gaps/contradictions;
+- WORK frozen worker `9762d341c12c00921654e598c18f4e0d299e7e46`: `WORK_A79_RELEVANCE_MATRIX.csv`, independent challenge and new-discoveries/challenges;
+- item-level historic/current grade logs and later `decisions/...` supersedes;
+- owning discovery/AOAY/person/cluster research for the specific place;
+- current official/traveler sources when they add material physical/experiential knowledge.
 
-Do not combine this question with Pongal, formal macro lock or Haidakhan-summit guarantee in the same decision turn.
+New source enrichment produced during this review:
+- `research/PATH2YOGA_RELEVANT_SITEWIDE_PLACE_MEANING_HARVEST_2026-09-13.md` at commit `06a077509aae12c2144739067c9ff76c87ce43ff`.
+  This preserves Path2Yoga micro-location/lived-experience details for active places including Dakshineswar, Garpar, Belur, Lahiri/Varanasi, Babaji Cave/Dunagiri, YSS Dwarahat, Ramanasramam and Virupaksha, while explicitly preventing source richness from changing grades or resurrecting FINAL OUT worlds by itself.
+
+Governing active-memory repair:
+- `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` now includes FOUT 24: `BOOT_COMPLETE != TASK_RELEVANT_RICH_SOURCE_MEMORY_COMPILED`.
+
+## KNOWN LIVE-LEDGER DEFECT TO REPAIR BEFORE V4
+
+The current derived live ledger correctly removed the six Sep-13 downgraded sites from A+/A/A* coverage weight, but it omitted those B rows entirely instead of retaining them as B in a complete living place/grade memory.
+
+Those sites remain current B and must not disappear from project memory:
+- A023 Shitala Mata Temple;
+- A044 Adi Keshava Ghat + Temple;
+- A047 Bindu Madhav Temple;
+- A050 Sankatha Devi Temple;
+- A059 Shreyansanath Jain Tirth;
+- A060 Saranganath Temple.
+
+Repair the complete living ledger before v4/final mechanical verification. Do not mistake `not A/A+` for `nonexistent`.
 
 ## CRITICAL PRECEDENCE / NO-REDO
 
-Newest explicit Mark truth and later dated owning decision/research files outrank stale summaries. `runs/active/INDIA19_FINAL_EXTRACTION_2026-09-13.md` remains the zero-loss successor source for the pre-INDIA20 handoff; the four INDIA20 artifacts above are the newer live working layer.
+Newest explicit Mark truth and later dated owning decisions outrank stale summaries. `runs/active/INDIA19_FINAL_EXTRACTION_2026-09-13.md` remains the zero-loss pre-INDIA20 source; INDIA20 live files are newer execution sources, but their frontier wording is superseded where Mark explicitly said the duration choice was premature.
 
-Already complete and processed; do not restart merely because worker branches remain unmerged:
+Already complete; do not restart merely because raw worker branches remain unmerged:
 - frozen A79 coverage gate;
-- CCI and WORK independent macro solves;
-- mutual cross-red-team;
-- CCI 79/79 person-provenance restoration;
+- CCI/WORK independent macro solves and mutual cross-red-team;
+- CCI 79/79 person-provenance research;
 - WORK 79/79 relevance challenge;
-- Haidakhan local-Kailash classification-leak investigation;
+- Haidakhan local-Kailash classification research;
 - official Gyan Yatra / Buddha Marg existence research;
-- seven Pragbodhi stupa-remains research;
-- Sujata offering-place versus Sujata Stupa separation/regrade work;
-- global route topology research;
-- v1/v2/v3 historical PDF audits.
+- seven Pragbodhi stupa-remains existence/mapping research;
+- Sujata offering-place versus Sujata Stupa separation research;
+- global topology solve.
+
+Important distinction for current review: **do not redo these research projects globally, but DO reopen their raw outputs when needed to recover rich per-place meaning that compact cards lost.**
 
 `UNMERGED_BRANCH != UNFINISHED_TASK`.
 
-Frozen A79 at commit `a2b71b2563f446480b012f0b9176a87e96fcb003` is historical audit evidence. Historic A001–A079 IDs remain recognition/provenance IDs; they are **not** a live grade source after later Mark decisions.
+Frozen A79 commit `a2b71b2563f446480b012f0b9176a87e96fcb003` remains historic audit evidence. A001–A079 are stable recognition/provenance IDs, not automatic live grades.
 
 ## HARD TRIP ENVELOPE
 
@@ -69,113 +97,75 @@ Delhi operational/Nirmal; Kumaon (Nainital, Dunagiri/Kukuchina, true Haidakhan);
 FINAL OUT unless Mark explicitly reopens:
 Puri/Odisha; Serampore/Srirampur as travel stop/world/sleep/excursion; Vrindavan/Braj/Mathura/Govardhan; Haridwar-Kankhal-Rishikesh dedicated world; Prayagraj; Mysuru-Bengaluru; Kasar Devi-Almora dedicated module; Ranchi; Sri Aurobindo/Puducherry.
 
+Source/research information about a FINAL OUT world may be preserved as provenance without reopening it operationally.
+
 ## HARD / LIVE DURATION TRUTH
 
 Hard:
 - Nainital 3n.
 - Dunagiri/Kukuchina 3n.
 - Haidakhan 3n + 2 full protected quiet days.
-- Agra 1 hotel night; Taj [A+] sole protected sightseeing anchor, depart ASAP afterward.
+- Agra 1 hotel night; Taj [A+] protected.
 - Varanasi/Sarnath 8n `LOCKED_BY_MARK`.
 - Kolkata/Dakshineswar current serious block 3n.
 - final Delhi exactly 1n.
 
-Open now:
-- Bodh 3n / Tiru 4n versus Bodh 2n / Tiru 5n = Mark-only.
+Prepared but **not current question while PDF review is active**:
+- Bodh 3n / Tiru 4n versus Bodh 2n / Tiru 5n.
 
-## CURRENT LEADING MACRO — NO NEW GLOBAL SOLVE
+Grade/time savings inside a duration-locked world do not automatically change that duration. Finish content/value review first, then assess whether accumulated deltas justify reopening any duration.
 
-North-first remains the three-party leading macro:
-`Kumaon -> Delhi transit bed -> Agra/Taj -> 12988 -> Bodh Gaya -> Varanasi/Sarnath -> Kolkata/Dakshineswar -> Tiruvannamalai -> Chennai airport-side -> final Delhi -> AI155`.
+## POST-FREEZE MARK TRUTH MATERIALIZED SO FAR
 
-`GLOBAL_REOPTIMIZATION_REQUIRED = NO` unless a genuinely new hard fact or Mark decision appears.
-
-Current B3/T4 working dates:
-- 19 Dec: 15013 sleeper.
-- 20–22 Dec: Nainital 3n.
-- 23–25 Dec: Dunagiri/Kukuchina 3n.
-- 26–28 Dec: Haidakhan 3n; quiet days 27+28.
-- 29 Dec: Delhi transit bed.
-- 30 Dec: Agra.
-- 31 Dec: Taj + 12988 overnight.
-- 1–3 Jan: Bodh Gaya 3n.
-- 4–11 Jan: Varanasi/Sarnath 8n.
-- 12–14 Jan: Kolkata/Dakshineswar 3n.
-- 15–18 Jan: Tiruvannamalai 4n.
-- 19 Jan: Chennai airport-side.
-- 20 Jan: final Delhi/Nirmal buffer.
-- 21 Jan: AI155.
-
-Formal final macro-route lock remains Mark-only after the duration/Pongal surface is resolved; do not resurrect Varanasi-first absent a genuinely new hard fact.
-
-## POST-FREEZE MARK TRUTH NOW MATERIALIZED
-
-The live ledger/cards/clock incorporate, among other later decisions:
 - A003 Hanuman Garhi + Maharajji-kuti = **A+**; Maharajji-kuti is the center of gravity.
 - A006 Dhokaney Waterfall = **conditional A***, corridor only.
 - A013 Bedai, A014 Petha, A015 Gajak = **B opportunistic**.
-- Haidakhan local-Kailash summit / summit temple = **new A**, separate from ashram and cave; execution on-site conditional unless Mark later demands a guarantee.
-- Sujata milk-offering spot / Sujata Temple / traditional banyan = **new A+**.
-- Sujata Stupa/Garh = **A**, separate place.
+- Haidakhan local-Kailash summit / summit temple = **A**, separate from ashram and cave; execution on-site conditional unless Mark later requires a guarantee.
+- Sujata milk-offering spot / Sujata Temple / traditional banyan = **A+**.
+- Sujata Stupa/Garh = **A**, separate physical place.
 - A023 Shitala, A044 Adi Keshava, A047 Bindu Madhav, A050 Sankatha Devi, A059 Shreyansanath Jain Tirth, A060 Saranganath = **B**.
 - A035 Lolark Kund = **conditional A***.
 - A037 Subah-e-Banaras = **conditional A***, zero-cost only.
-- A043 Kedareshwar/Kedar Ghat remains **A** and is excluded from the downgrade batch because a Sri Ramakrishna connection was restored.
+- A043 Kedareshwar/Kedar Ghat remains **A** with restored Sri Ramakrishna relevance.
 - tradition is valid pilgrimage evidence; Mark-facing prose must not turn the trip into a courtroom.
 
-## BODH GAYA EXECUTION NOW REPAIRED
+Recent PDF-review guidance:
+- A058 Mulagandha Kuti Vihara should not be downgraded merely from the current terse card; first expose its stronger actual content. Time reduction may be preferable to grade reduction.
+- A036 Shree Shree Ma Anandamayi Ashram, Bhadaini is Mark's principal Anandamayi Ma place in the retained route; Kankhal is the heavier samadhi world historically but FINAL OUT as a dedicated world, so Bhadaini is not duplicated later by a stronger active-route Anandamayi site.
+- A037 is Subah-e-Banaras and is already conditional A*, not the Anandamayi site.
 
-Protected 3-Jan B3-family direction:
-1. taxi only at start to Dungeshwari;
-2. A021 cave / quiet sit;
-3. A022 all-seven Pragbodhi ridge out-and-back;
-4. Gyan Yatra / Buddha Marg countryside walk;
-5. new Sujata milk-offering location [A+];
-6. Sujata Stupa/Garh [A];
-7. river/countryside corridor toward Mahabodhi/Bodhi Tree;
-8. recovery and free Bodhi Tree return.
+## CURRENT LEADING MACRO — PARKED, NOT CANCELLED
 
-Likely total walking ~9–11 km plus ridge out-and-back. Do not invent a descent beyond Stupa 7. Remaining details are operational live alignment/guide/crossing checks, not a reason to redo the existence research.
+North-first remains the leading macro:
+`Kumaon -> Delhi transit bed -> Agra/Taj -> 12988 -> Bodh Gaya -> Varanasi/Sarnath -> Kolkata/Dakshineswar -> Tiruvannamalai -> Chennai airport-side -> final Delhi -> AI155`.
 
-## CLOCK REPAIRS NOW MATERIALIZED
+`GLOBAL_REOPTIMIZATION_REQUIRED = NO` absent a genuinely new hard fact or material Mark decision.
+Do not use this parked macro as a reason to hurry Mark through the active PDF/item review.
 
-- Agra food no longer occupies mandatory A blocks.
-- Haidakhan summit visible without silently consuming protected quiet days.
-- Bhrigu visit is an appointment gate, not unconditional.
-- downgraded B sites no longer occupy mandatory A clock blocks.
-- Manikarnika is `15:05 -> open end`, no contradictory fixed 18:30 departure.
-- Sarnath current working day is Sunday 10 Jan; museum Friday closure avoided.
-- Varanasi 9 Jan long day is materially lighter after B downgrades.
-- Virupaksha Cave now starts at 08:30; climb time to Skandashram is explicitly represented.
-- Garpar exact A064->A065 geometry is not asserted before exact access points are verified.
-- per-night/early-wake cumulative-burden register is explicit in the live clock repair.
+## BODH GAYA EXECUTION RESEARCH — RETAINED, NOT CURRENT FIRST QUESTION
 
-## NEXT MARK-ONLY ITEMS AFTER THE CURRENT DECISION
+Protected working direction:
+`Dungeshwari -> all-seven Pragbodhi ridge out-and-back -> Gyan Yatra/Buddha Marg -> Sujata offering [A+] -> Sujata Stupa [A] -> river/countryside -> Mahabodhi/Bodhi Tree`.
 
-Do not jump ahead before Mark answers the Bodh/Tiru allocation.
-
-Then, in order as needed:
-1. Pongal / 15 Jan 2027 operational implications for Kolkata -> south / Tiruvannamalai; exact bookable transport remains `LIVE_RECHECK_LATER`.
-2. formal final macro-route lock.
-3. Haidakhan summit: retain on-site conditional versus guarantee it and explicitly trade against the two complete quiet days.
+Do not redo its existence research and do not invent a descent beyond Stupa 7. Operational alignment/guide/crossing remain later live checks.
 
 ## V4 PDF RULE
 
-Do **not** call v3 final. V4 generation occurs after the genuine Mark choices required by the extraction. V4 must be generated from the live derived ledger + live card source + repaired clock plan, then mechanically verify:
-- all live A+/A visible;
-- two new entities visible;
-- historic IDs stable and decoupled from live grade;
-- exact 33 nights;
-- no FINAL OUT resurrection;
-- current grades only;
-- Mark-facing spiritual/tourism-quality tone;
-- no `STERKSTE TEGENARGUMENT` surface.
+Do **not** call v3 final. V4 can only be trustworthy after the current Mark PDF/item review and rich-source reconciliation have been incorporated into the live grade/card source.
+
+Before v4:
+- repair the complete live ledger including retained B rows;
+- incorporate every new explicit Mark grade decision from this review;
+- enrich cards where original WHY/micro-location/experience was lost;
+- then resolve still-genuine duration/macro choices;
+- mechanically verify live A+/A coverage, new entities, stable historic IDs, 33 nights, current grades, FINAL OUT suppression and tone.
 
 ## OPERATING GUARDS
 
 - Mark owns A+/A/A*/B/C grades and subjective choices.
 - those letters are never scenario labels.
-- no silent lock or grade changes.
+- no downgrade recommendation from an impoverished card.
+- no silent grade/lock changes.
 - no booking before final Mark choices and execution-grade live checks.
 - exact future transport/access = `LIVE_RECHECK_LATER` until verified.
 - geometry claims require correct entity + relevant access point + movement route; no guessed pins.
