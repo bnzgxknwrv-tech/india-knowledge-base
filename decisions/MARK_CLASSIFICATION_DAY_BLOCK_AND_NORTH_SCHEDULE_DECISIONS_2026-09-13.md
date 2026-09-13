@@ -21,45 +21,21 @@ Decision on whether one or more can be skipped is deferred until the real clock/
 Distinct physical site from both 4 Garpar Road and YSS Garpar. Preserve the exact shrine/home meaning and meditation value.
 
 ### 50 Amherst Street / Master Mahasaya / Yogananda family-history house
-Mark rule: **A only if it is a genuine shrine/visitor-accessible devotional site; otherwise B.**
-
-Current verification on 2026-09-13:
-- official YSS identifies it as the historic residence/site connected with Master Mahasaya, Yogananda's family, his mother's death and later repeated visits;
-- official YSS does NOT describe 50 Amherst Street as a shrine and does NOT explicitly say it is open to devotees;
-- third-party pilgrimage material suggests visits can sometimes be arranged, but that does not satisfy Mark's shrine/open-devotee condition.
-
-Therefore under Mark's explicit rule:
-**GRADE = B**.
-
-Do not silently upgrade merely because an appointment might occasionally be possible.
+Newest Mark decision elsewhere supersedes the earlier B treatment: **A***.
+Keep visible as an access-sensitive historic Yogananda/Master Mahasaya site even if only exterior/provenance presence is possible.
 
 ### Nagendra Math / Bhaduri Mahasaya house — “The Levitating Saint”
-Mark rule: if converted to a shrine/math and visitable by devotees -> **A+**.
-
-Official YSS currently says the former house has been converted into **Nagendra Math** and is **open to devotees**.
-
-Therefore:
+Official YSS says the former house has been converted into **Nagendra Math** and is **open to devotees**.
 **GRADE = A+**.
 
 ### Pandavkholi / Pandukholi above Babaji Cave
 **GRADE = A**, execution/access gated.
 
-Mark wants it if genuinely possible. Keep it as a separate physical place from Mahavatar Babaji's Cave and from Haidakhan local-Kailash. Winter safety, access and incremental climb must be checked before execution.
-
 ### Kalighat Kali Temple / Yogananda childhood Kali-image sanctification event
 **GRADE = A+**.
 
-Preserve exact AOAY/Yogananda event meaning in future cards/day blocks.
-
 ### Dihika Retreat / birthplace of YSS
-Mark rule: if operationally too expensive/burdensome, **C**.
-
-Current route test uses the working Varanasi -> Howrah Vibhuti Express architecture. Current schedule reaches Asansol around 04:02 while official YSS Dihika day-visitor opening is 08:00. Dihika then still requires transfer/visit/onward movement, consuming a material part of the Kolkata arrival day and damaging overnight recovery.
-
-Therefore under the current route geometry:
-**GRADE = C / CURRENT-ROUTE REJECT**.
-
-Reopen only if a later transport architecture makes Dihika effectively cheap rather than by creating a new dedicated burden.
+Newest Mark decision elsewhere supersedes the prior C-current-route treatment: **A*** / keep alive as a possible meaningful optional world if later calendar capacity makes it viable.
 
 ## 3. COMPLETE PLACE MEMORY / FUTURE DAY PLANNING
 
@@ -69,7 +45,7 @@ This does NOT mean every B/C/Open item becomes a fixed visit. It means they must
 
 ## 4. PDF / MARK-FACING PLANNING FORMAT
 
-A separate governance rule is created at:
+A separate governance rule exists at:
 `governance/MARK_DAY_BLOCK_ONLY_PDF_RULE_2026-09-13.md`.
 
 Binding intent: future Mark-facing itinerary/PDF material must be organized exclusively as self-contained **DAY BLOCKS**. All meaningful information for a day must be in that day's block; no substantive itinerary information may be scattered into front/back appendices that Mark has to reconcile manually.
@@ -78,20 +54,9 @@ Do NOT generate the new PDF yet. First finish content/classification and then re
 
 ## 5. 19 DEC — DELHI ARRIVAL / TRAIN-HOTEL PRINCIPLE
 
-After AI156 arrives Delhi around 10:15 on 19 Dec, Mark wants to go **directly from DEL airport to a day hotel very close to the exact evening departure station**, ideally walkable.
+After AI156 arrives Delhi around 10:15 on 19 Dec, Mark wants to go directly from DEL airport to the now-locked **Hotel New Frontier**, very close to Old Delhi / Delhi Junction (DLI), with prebooked meet-and-greet pickup. See the later dedicated New Frontier lock file for the controlling execution details.
 
-Goals:
-- remove unnecessary city movement;
-- create very large practical train safety margin;
-- allow Mark to inspect the station/entrance/area calmly during the afternoon;
-- eat/rest/walk nearby;
-- walk to the train in the evening rather than schedule another cross-city transfer.
-
-Current 15013 Ranikhet Express schedule verification on 2026-09-13 shows the relevant Delhi boarding stop as **Old Delhi / Delhi Junction (DLI)**, currently 21:50 arrival / 22:05 departure toward Kathgodam. Exact December 2026 ticket/timetable must be rechecked at booking/execution, but the current hotel search should be anchored to **DLI, not NDLS**.
-
-Hotel stay is operational rest/storage, not a sightseeing block.
-
-## 6. 20 DEC — NAINITAL CONTENT MOVED FORWARD / FULL DAY RECOVERED
+## 6. 20 DEC — NAINITAL CONTENT MOVED FORWARD / ONE WHOLE DAY ACTUALLY RECOVERED
 
 Mark explicitly moves BOTH of the former 21 Dec Nainital obligations to **20 Dec**:
 - A002 Naini Lake / lake experience;
@@ -100,16 +65,35 @@ Mark explicitly moves BOTH of the former 21 Dec Nainital obligations to **20 Dec
 Current 15013 working schedule reaches Kathgodam around 05:05. After transfer to Nainital, the day is operationally usable.
 
 Working human rhythm:
-- morning arrival / bags / breakfast / settle naturally at Hotel Evelyn — no separate sightseeing-time allocation for the hotel;
+- arrival / bags / settle naturally at Hotel Evelyn;
 - Naini Lake during the day;
-- Hanuman Garhi + Maharajji-kuti late afternoon, naturally using the 16:00 reopening and sunset window;
-- 20 Dec 2026 sunset in Nainital is approximately 17:17.
+- Hanuman Garhi + Maharajji-kuti late afternoon, naturally using the 16:00 reopening and sunset window.
 
-**Consequence: 21 Dec becomes a COMPLETE RECOVERED LOCAL DAY.**
+### CRITICAL CALENDAR CONSEQUENCE — CORRECTION 2026-09-13
+The earlier wording `21 Dec becomes a COMPLETE RECOVERED LOCAL DAY; preserve it there` was too static and caused a planning misunderstanding.
 
-Do NOT auto-fill 21 Dec yet. Preserve the recovered day until the content review/day-plan rebuild determines its highest-value use.
+**Mark's intended meaning of “we recovered a whole day” is calendar capacity, not an automatically idle Nainital day.**
 
-## 7. 22 DEC — KAINCHI DHAM + BHUMIADHAR
+Therefore, unless Mark deliberately chooses to spend that recovered day again before leaving Kumaon, the downstream chain shifts **one calendar day earlier**.
+
+Provisional shifted north sequence becomes:
+- **20 Dec** — Naini Lake + Hanuman Garhi/Maharajji-kuti.
+- **21 Dec** — Kainchi Dham 08:00 + 13:00 departure toward Bhumiadhar; rest of day free.
+- **22 Dec** — Nainital -> Dunagiri/Kukuchina Vivekananda-rich transfer day: Swami Vivekananda Jnana Vriksha / Knowledge Tree — microcosm–macrocosm realization site [A+] + Kasar Devi Cave / Grot Vivekananda [A+], with one prebooked full-day driver; waterfall only if truly cheap.
+- **23 Dec** — Dunagiri Temple + Babaji Smriti Bhavan + Mahavatar Babaji's Cave + Pandavkholi ridge if feasible.
+- **24 Dec** — YSS Dwarahat full-day practice/meditation day, **if no recovered day is intentionally reinserted before this point**.
+- **25 Dec onward** — subsequent north chain likewise shifts one day earlier until the recovered day is deliberately reinvested somewhere later in the itinerary or a genuinely fixed-date transport/event constraint stops the shift.
+
+This means:
+- YSS Dwarahat is **NOT automatically 25 Dec / Christmas Day anymore** under the compressed calendar;
+- it would remain on 25 Dec only if Mark consciously spends the recovered day somewhere before YSS Dwarahat;
+- the recovered capacity should ultimately be assigned where it adds the most value (for example potentially Kolkata/Serampore/Dihika or another later pressure point), rather than silently remaining as an empty 21 Dec.
+
+`RECOVERED_DAY_IS_MOVABLE_CAPACITY = YES`
+`DO_NOT_AUTO_PRESERVE_DEC21_AS_IDLE_DAY = YES`
+`DOWNSTREAM_SHIFT_EARLIER_UNTIL_REINVESTMENT = YES`
+
+## 7. KAINCHI DHAM + BHUMIADHAR — NOW PROVISIONALLY 21 DEC AFTER RECOVERED-DAY SHIFT
 
 Mark wants:
 - **08:00 at A004 Kainchi Dham**;
@@ -123,10 +107,8 @@ Current geography supports this pairing:
 - thematically both belong to the Neem Karoli Baba / Ram Dass physical-life geography.
 
 Transport preference:
-- Uber currently operates in Nainital and offers Reserve up to 30 days ahead;
-- however do NOT rely on finding a fresh on-demand car after a long Kainchi visit or at Bhumiadhar;
-- preferred execution is one pre-arranged private car/driver from Nainital for the entire Nainital -> Kainchi -> Bhumiadhar -> return chain, booked through the hotel/local operator or equivalent;
-- Uber Reserve may be tested as a secondary option when dates open, but same-driver private hire is the robust default.
+- use one pre-arranged private car/driver for the entire Nainital -> Kainchi -> Bhumiadhar -> return chain;
+- Uber Reserve may be tested as secondary option, but same-driver private hire is the robust default.
 
 ## 8. SERAMPORE ARCHIVE CLARIFICATION
 
@@ -147,20 +129,18 @@ Recovered/archive Serampore content already included:
 - Panthi boarding-house geography;
 - Serampore College.
 
-Current official YSS/SRF research has since strengthened and updated that older archive layer, especially the institutional preservation of the hermitage property and Rai Ghat pilgrimage site and the demolition of the old Panthi building.
-
 ## GOVERNANCE
 
 Newest explicit Mark decisions here outrank stale grade/clock wording in older files.
 
 `A069_A070_A071_KEEP_UNTIL_REAL_CLOCK = YES`
 `TULSI_BOSE = A+`
-`50_AMHERST = B_UNDER_CURRENT_MARK_RULE`
+`50_AMHERST = A_STAR`
 `NAGENDRA_MATH = A+`
 `PANDAVKHOLI = A_ACCESS_GATE`
 `KALIGHAT = A+`
-`DIHIKA = C_CURRENT_ROUTE`
+`DIHIKA = A_STAR_OPTION`
 `DEC20_NAINI_PLUS_HANUMAN_GARHI = LOCKED`
-`DEC21_FULL_DAY_RECOVERED_UNALLOCATED = YES`
-`DEC22_0800_KAINCHI_1300_DEPART_BHUMIADHAR = LOCKED`
-`DELHI_ARRIVAL_HOTEL_ANCHOR = DLI_STATION_AREA`
+`RECOVERED_DAY_IS_MOVABLE_CAPACITY = YES`
+`DEC21_KAINCHI_BHUMIADHAR_PROVISIONAL_AFTER_SHIFT = YES`
+`DOWNSTREAM_SHIFT_ONE_DAY_EARLIER_UNTIL_REINVESTMENT = YES`
