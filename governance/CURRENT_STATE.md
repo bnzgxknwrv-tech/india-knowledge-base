@@ -1,10 +1,10 @@
 # CURRENT STATE — INDIA
 
-state_revision: `2026-09-13_INDIA20_CLASSIFICATION_REGRESSION_AUDIT_EXPANDED__LEDGER_COMPLETENESS_BLOCKED`
+state_revision: `2026-09-13_CCI_LIVE_LEDGER_SYNC_REPAIR__CLASSIFICATION_GAPS_CLEARED__LEDGER_COMPLETENESS_STILL_BLOCKED`
 branch: `agent/india8-cluster-casting`
-status: `MARK_PDF_ITEM_REVIEW_ACTIVE__CLASSIFICATION_AND_LEDGER_AUDITS_OPEN__NO_BOOKING_YET`
+status: `MARK_PDF_ITEM_REVIEW_ACTIVE__LEDGER_COMPLETENESS_AUDIT_OPEN__NO_BOOKING_YET`
 manifest_active_cluster: `BODHGAYA_EXECUTION_GEOMETRY_TRUE_DURATION`
-latest_successor_handoff: `runs/active/INDIA19_FINAL_EXTRACTION_2026-09-13.md`
+latest_successor_handoff: `runs/active/INDIA20_FINAL_EXTRACTION_2026-09-13.md`
 
 ## EXACT CURRENT FRONTIER
 
@@ -119,22 +119,31 @@ Systemic anti-regression classes now include:
 - `ADJACENT_DISTINCT_PILGRIMAGE_PROPERTY_ABSORBED_BY_NEARBY_ENTITY`;
 - `WHOLE_ROUTE_RESEARCH_STOP_THEN_PARTIAL_REOPEN_WITHOUT_LOST_CHILD_REDISCOVERY`.
 
-## HIGH-PRIORITY RECOVERED OPEN CANDIDATES — MUST GO TO MARK
+## HIGH-PRIORITY RECOVERED CANDIDATES — RESOLVED 2026-09-13 (CCI SYNC REPAIR)
 
-These are explicit OPEN rows in the live ledger. INDIA has **not** graded them.
+**Correction, found and fixed by CCI while writing `runs/active/INDIA20_FINAL_EXTRACTION_2026-09-13.md`:** this section previously listed the six candidates below as still-OPEN/not-yet-graded. That was stale. All six already have a locked Mark decision on record; the live ledger CSV simply never got synced to reflect it, which is its own instance of the `GRADE_SCOPED_LEDGER_MISTAKEN_FOR_COMPLETE_MEMORY` failure class named above. CCI has now written the correct grade back into `LIVE_DERIVED_PLACE_GRADE_LEDGER_2026-09-13.csv` for each. **Do not re-ask Mark about any of these.**
 
-- `KOL-NEW-TULSI-BOSE` — **Tulsi Bose Shrine / historic Tulsi Bose family home**. Distinct from both 4 Garpar and YSS Garpar. Current Ananda Kolkata material says Yogananda repeatedly meditated/stayed here; the preserved shrine contains beds used by Yogananda and Sri Yukteswar and guru relics. This is a major classification omission.
-- `KOL-NEW-50-AMHERST` — **50 Amherst Street**. Yogananda's mother died here; Master Mahasaya later lived here; YSS records Yogananda and his brother having a vision of their mother while meditating here with Master Mahasaya.
-- `KOL-NEW-NAGENDRA-MATH` — **Nagendra Math / Bhaduri Mahasaya house (`The Levitating Saint`)**. About 0.5 km from Garpar according to YSS; young Yogananda repeatedly visited for spiritual discussions; current YSS wording says open to devotees.
-- `KUM-NEW-PANDAVKHOLI` — **Pandavkholi/Pandukholi above Babaji Cave**. Distinct ridge-top mandir/dharamshala continuation beyond A+ Babaji Cave; current winter/access/incremental burden must be checked before Mark grades it.
-- `KOL-NEW-KALIGHAT-AOAY` — **Kalighat Kali Temple**. Exact AOAY childhood event where Mukunda/Yogananda brought a Kali image given by his father to be sanctified.
-- `WB-NEW-DIHIKA` — **Dihika Retreat / original 1917 Yogananda school site / birthplace of YSS**. Current YSS says Yogananda began his organized school work here on 22 March 1917; living retreat on original land with Smriti Sthal/meditation. It is near Asansol and may be expensive, but the Varanasi–Howrah rail corridor often passes Asansol, so actual marginal corridor burden must be tested before Mark grades it.
+- `KOL-NEW-TULSI-BOSE` — **Tulsi Bose Shrine** = **A+** (`decisions/INDIA20_KAKRIGHAT_AMHERST_DIHIKA_RICH_LOCATION_CARD_MARK_DECISIONS_2026-09-13.md` family / live ledger `L099`, already synced correctly before this repair).
+- `KOL-NEW-50-AMHERST` — **50 Amherst Street** = **A*** (`decisions/INDIA20_KAKRIGHAT_AMHERST_DIHIKA_RICH_LOCATION_CARD_MARK_DECISIONS_2026-09-13.md` sec.2 — this explicitly supersedes an earlier provisional "B" framing from a same-day north-schedule decision file; live ledger `L095`, already synced correctly).
+- `KOL-NEW-NAGENDRA-MATH` — **Nagendra Math** = **A+** (live ledger `L096`, already synced correctly).
+- `KUM-NEW-PANDAVKHOLI` — **Pandavkholi/Pandukholi** = **A**, access/winter-safety gated (live ledger `L097`, already synced correctly).
+- `KOL-NEW-KALIGHAT-AOAY` — **Kalighat Kali Temple** = **A+** (live ledger `L098`, already synced correctly).
+- `WB-NEW-DIHIKA` — **Dihika Retreat** = **A*** (`decisions/INDIA20_KAKRIGHAT_AMHERST_DIHIKA_RICH_LOCATION_CARD_MARK_DECISIONS_2026-09-13.md` sec.3 — explicitly supersedes an earlier provisional "C" framing; live ledger `L100`, already synced correctly).
+
+Also found and fixed in the same repair pass (these were never listed above, but had the identical CSV-not-synced defect):
+- `KUM-NEW-KASAR-DEVI` (Kasar Devi Cave / **"Grot Vivekananda"**) = **A+** (`decisions/INDIA20_DEC23_24_KUMAON_VIVEKANANDA_TRANSIT_AND_BABAJI_DAY_MARK_DECISION_2026-09-13.md` sec.6 explicitly states the OPEN framing was stale; live ledger `L101` corrected).
+- `KOL-NEW-VIVEKANANDA-BIRTHPLACE` = **A+**, `Cossipore/Kashipur Udyanbati` = **A+**, `Balaram Mandir` = **A+**, `Shyampukur Bati` = **A** (`decisions/INDIA20_KOLKATA_VIVEKANANDA_PRIORITY_AND_CHENNAI_BYCATCH_MARK_DECISION_2026-09-13.md` sec.1, which itself explicitly supersedes an earlier mistaken numbered mapping in the same file; live ledger `L102`-`L105` corrected).
+- `Chennai Vivekananda House/Ice House` = **A***, buffer-bycatch only, never a dedicated day/night (same decision file sec.3; live ledger `L106` corrected).
+
+Genuinely still OPEN (no Mark decision exists yet for these — this part of the prior framing was correct):
+- `KUM-NEW-LALA-BADRI-SHAH` (Lala Badri Shah House, Almora) — live ledger `L107`.
+- `KOL-NEW-JC-BOSE` (J.C. Bose residence/laboratory) — live ledger `L108`; exact surviving entity/access still needs verification before it can even be presented to Mark.
 
 Lower-priority queue also includes AOAY institutional geography such as Calcutta University / Scottish Church College: first determine whether Mark already saw/rejected each versus silent disappearance. Do not auto-add.
 
 Potential Lahiri Mahasaya birth/early-life candidates such as Ghurni remain under identity/physical-survival verification and are **not yet promoted to confirmed OPEN misses**.
 
-`V4_BLOCKED_UNTIL_HIGH_PRIORITY_CLASSIFICATION_GAPS_TRIAGED = YES`.
+`V4_BLOCKED_UNTIL_HIGH_PRIORITY_CLASSIFICATION_GAPS_TRIAGED = NO_LONGER_BLOCKING` — the classification-regression side of the v4 gate is cleared as of this repair. **`LIVE_LEDGER_COMPLETENESS` (next section) remains the only open blocker from this half of the gate.**
 
 ## LIVE LEDGER COMPLETENESS — STILL NOT MECHANICALLY COMPLETE
 

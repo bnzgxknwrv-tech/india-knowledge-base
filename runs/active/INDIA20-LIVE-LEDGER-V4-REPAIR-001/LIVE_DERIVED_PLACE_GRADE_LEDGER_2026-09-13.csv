@@ -1,109 +1,109 @@
 LIVE_ID,HISTORIC_CARD_ID,SOURCE_ID,WORLD,PLACE,LIVE_GRADE,LIVE_EXECUTION_CLASS,NOTE
-L001,A077,DEL-01,Delhi,Nirmal Dham / Shri Mataji Nirmala Devi Ashram,A+,CORE,"Shri Mataji samadhi/mausoleum; final-Delhi buffer; AI155 safety outranks visit"
-L002,A079,DEL-02,Delhi,PVR Priya IMAX,A*,SKIP_FIRST,"MARK CHANGE 2026-09-13: A -> A*; fun extra only; no important time and never weaken final-flight safety"
-L003,A078,DEL-03,Delhi,Lotus Temple / Baha'i House of Worship,A*,SKIP_FIRST,"MARK CHANGE 2026-09-13: A -> A*; enjoyable extra only if effectively cheap inside safe final-Delhi window"
-L004,A011,KUM-01,Kumaon,Haidakhan Vishwa Mahadham / Haidakhan Ashram,A+,CORE,"Three nights; two full protected quiet days"
-L005,A012,KUM-02,Kumaon,Historic Haidakhan cave / gufa,A+,CORE,"Separate devotional point inside ashram world"
+L001,A077,DEL-01,Delhi,Nirmal Dham / Shri Mataji Nirmala Devi Ashram,A+,CORE,Shri Mataji samadhi/mausoleum; final-Delhi buffer; AI155 safety outranks visit
+L002,A079,DEL-02,Delhi,PVR Priya IMAX,A*,SKIP_FIRST,MARK CHANGE 2026-09-13: A -> A*; fun extra only; no important time and never weaken final-flight safety
+L003,A078,DEL-03,Delhi,Lotus Temple / Baha'i House of Worship,A*,SKIP_FIRST,MARK CHANGE 2026-09-13: A -> A*; enjoyable extra only if effectively cheap inside safe final-Delhi window
+L004,A011,KUM-01,Kumaon,Haidakhan Vishwa Mahadham / Haidakhan Ashram,A+,CORE,Three nights; two full protected quiet days
+L005,A012,KUM-02,Kumaon,Historic Haidakhan cave / gufa,A+,CORE,Separate devotional point inside ashram world
 L006,,KUM-NEW-KAILASH,Kumaon,Haidakhan local-Kailash summit / summit temple,A,CONDITIONAL_ONSITE,"NEW live entity; Haidakhan Babaji prolonged meditation/early teaching place; grade A fixed, execution on-site conditional"
-L007,A001,KUM-03,Kumaon,Hotel Evelyn,A+,CORE,"Ram Dass historical-property atmosphere; sleep base"
-L008,A002,KUM-04,Kumaon,Naini Lake circumambulation walk,A+,CORE,"Full lakeside walking circuit; gentle experiential Nainital anchor"
-L009,A004,KUM-05,Kumaon,Kainchi Dham,A+,CORE,"Central later Neem Karoli Baba/Ram Dass guru-ashram world; not first-meeting site"
-L010,A009,KUM-06,Kumaon,Mahavatar Babaji's Cave,A+,CORE,"Central Kriya pilgrimage anchor"
-L011,A005,KUM-07,Kumaon,Bhumiadhar,A,CORE,"Best current evidence for first Ram Dass-Neem Karoli Baba physical meeting"
+L007,A001,KUM-03,Kumaon,Hotel Evelyn,A+,CORE,Ram Dass historical-property atmosphere; sleep base
+L008,A002,KUM-04,Kumaon,Naini Lake circumambulation walk,A+,CORE,Full lakeside walking circuit; gentle experiential Nainital anchor
+L009,A004,KUM-05,Kumaon,Kainchi Dham,A+,CORE,Central later Neem Karoli Baba/Ram Dass guru-ashram world; not first-meeting site
+L010,A009,KUM-06,Kumaon,Mahavatar Babaji's Cave,A+,CORE,Central Kriya pilgrimage anchor
+L011,A005,KUM-07,Kumaon,Bhumiadhar,A,CORE,Best current evidence for first Ram Dass-Neem Karoli Baba physical meeting
 L012,A003,KUM-08,Kumaon,Hanuman Garhi + Maharajji-kuti,A+,CORE,"PROMOTED 2026-09-13; Maharajji kuti is center of gravity, temple is host context"
-L013,A006,KUM-09,Kumaon,Dhokaney Waterfall,A*,CORRIDOR_BYCATCH,"Conditional A*: include only if free on transfer corridor; never extra day/detour"
-L014,A010,KUM-10,Kumaon,Yogoda Satsanga Sakha Ashram Dwarahat,A,CORE,"Dedicated full-day Yogananda/Kriya visit; no overnight assumption"
-L015,A007,KUM-11,Kumaon,Dunagiri Temple / Maa Dunagiri Vaishnavi Temple,A,CORE,"Recognition hook: Bell Temple; long climb/corridor through hundreds of bells"
+L013,A006,KUM-09,Kumaon,Dhokaney Waterfall,A*,CORRIDOR_BYCATCH,Conditional A*: include only if free on transfer corridor; never extra day/detour
+L014,A010,KUM-10,Kumaon,Yogoda Satsanga Sakha Ashram Dwarahat,A,CORE,Dedicated full-day Yogananda/Kriya visit; no overnight assumption
+L015,A007,KUM-11,Kumaon,Dunagiri Temple / Maa Dunagiri Vaishnavi Temple,A,CORE,Recognition hook: Bell Temple; long climb/corridor through hundreds of bells
 L016,A008,KUM-12,Kumaon,Babaji Smriti Bhavan,A,CORE,"MEANING REPAIR 2026-09-13: meditation hall/shrine just below Babaji Cave; paired 1861 Babaji-Lahiri initiation world and pilgrimage tradition of golden-palace area, not a generic memorial building"
-L017,,KUM-13,Kumaon,Sattal / Seven Lakes,A*,SKIP_FIRST,"Only natural transfer bycatch; no dedicated excursion"
-L018,,KUM-14,Kumaon,Sakley's Restaurant & Pastry Shop,A*,FINAL_COMFORT,"Food/coffee; zero independent night weight"
-L019,,KUM-15,Kumaon,Swami Vivekananda Jnana Vriksha / Knowledge Tree — Kakrighat — microcosm–macrocosm realization site,A+,CORE_DETOUR,"MARK PROMOTION 2026-09-13: major Vivekananda realization site; 29 Aug 1890 meditation under sacred tree and microcosm–macrocosm unity realization; excellent detour despite ~45–60 min extra mountain driving order-of-magnitude"
-L020,,KUM-16,Kumaon,Dwarahat historic temple groups,A*,SKIP_FIRST,"Architectural corridor bycatch"
-L021,A016,AGR-01,Agra,Taj Mahal,A+,CORE,"Sole protected Agra sightseeing anchor; Yogananda onsite photo/memory cue; depart ASAP afterward"
-L022,A013,,Agra,Bedai at Deviram's,B,OPPORTUNISTIC,"Historic A013 now B; zero/near-zero marginal burden only"
-L023,A014,,Agra,Petha,B,OPPORTUNISTIC,"Historic A014 now B; zero/near-zero marginal burden only"
-L024,A015,,Agra,Gajak,B,OPPORTUNISTIC,"Historic A015 now B; zero/near-zero marginal burden only"
-L025,A017,BOD-01,Bodh Gaya,Mahabodhi Temple Complex + Bodhi Tree,A+,CORE,"Enlightenment anchor; unhurried Bodhi Tree presence"
-L026,A020,BOD-02,Bodh Gaya,Sujata Stupa / Garh,A,CORE,"LIVE grade A; separate archaeological stupa from milk-offering place"
-L027,A021,BOD-03,Bodh Gaya,Dungeshwari / Mahakala Caves,A+,CORE,"Start of protected pilgrimage walk; Buddha's ascetic-period cave world"
-L028,A018,BOD-04,Bodh Gaya,Great Buddha Statue,A,CORE,"Low-burden Buddhist landmark near monastery belt"
-L029,A022,BOD-05,Bodh Gaya,Pragbodhi seven-stupa ridge,A,CORE_IF_SAFE,"Seven ancient stupa remains/markers; ridge out-and-back; 1.5-2.25h; local monk/guide strongly preferred"
-L030,,BOD-NEW-SUJATA-OFFERING,Bodh Gaya,Sujata milk-offering spot / Sujata Temple / traditional banyan,A+,CORE,"NEW live entity; Middle Way turning-point place; separate from Sujata Stupa"
-L031,,BOD-06,Bodh Gaya,Rajgir Brahmakund hot springs,A*,SKIP_FIRST,"Only natural corridor bycatch; never dedicated Rajgir day"
-L032,A019,BOD-07,Bodh Gaya,International monastery belt,A,CORE,"Flexible 2-3-monastery walk; cultural breadth without checklist behavior"
-L033,,BOD-08,Bodh Gaya,Gaya Tilkut micro-experience,A*,FINAL_COMFORT,"Only if already passing through Gaya"
-L034,A052,VNS-01,Varanasi/Sarnath,Manikarnika Ghat,A+,CORE,"Lahiri Mahasaya cremation place + active cremation/moksha reality; open-ended final block"
-L035,A038,VNS-02,Varanasi/Sarnath,New Bhrigu Karyalaya / Bhadury Sadan,A+,APPOINTMENT_GATE,"Mark's present-day Bhrigu experience; appointment required; Kriyananda's 1959 reading was Barnala"
-L036,A024,VNS-03,Varanasi/Sarnath,Dashashwamedh Ghat + evening Ganga Aarti,A+,CORE,"Defining Varanasi experience + AOAY Babaji/Mataji/Ram Gopal Dasasamedh layer"
-L037,A053,VNS-04,Varanasi/Sarnath,Sarnath sacred-archaeological world,A+,CORE,"Buddha first-sermon parent world; child sites remain individually visible"
-L038,A051,VNS-05,Varanasi/Sarnath,Ratneshwar Mahadev leaning river temple,A+,CORE,"Distinctive leaning/submerged temple beside Manikarnika"
-L039,A030,VNS-06,Varanasi/Sarnath,Banarasi paan,A,SMALL_ROUTE_ITEM,"Local-culture tasting while already in Old City"
-L040,A029,VNS-07,Varanasi/Sarnath,Bengali Tola-Thatheri Bazaar-Chowk lanes,A,CORE,"Lahiri school involvement in Bengalitola + Old Kashi human texture"
-L041,A032,VNS-08,Varanasi/Sarnath,Assi-Tulsi slow dawn ghat walk,A,CORE,"Atmosphere/intrinsic experience is itself A-value; distinct from boat/program"
-L042,A037,VNS-09,Varanasi/Sarnath,Subah-e-Banaras at Assi Ghat,A*,ZERO_COST_ONLY,"Conditional A*: only if hotel/route makes it effectively free; never extra night"
-L043,A025,VNS-10,Varanasi/Sarnath,Ganges dawn rowboat,A,CORE,"Protected separate dawn river experience"
-L044,A027,VNS-11,Varanasi/Sarnath,Maa Annapurna Temple,A,CORE,"Annapurna temple in Vishwanath sacred microcluster"
-L045,A028,VNS-12,Varanasi/Sarnath,Vishalakshi Gauri Temple,A,CORE,"One of the 51 Shakti Peethas; major pilgrimage-network reason independent of person links"
-L046,A054,VNS-16,Varanasi/Sarnath,Chaukhandi Stupa,A,CORE,"Traditional Buddha-first-five-disciples meeting marker"
+L017,,KUM-13,Kumaon,Sattal / Seven Lakes,A*,SKIP_FIRST,Only natural transfer bycatch; no dedicated excursion
+L018,,KUM-14,Kumaon,Sakley's Restaurant & Pastry Shop,A*,FINAL_COMFORT,Food/coffee; zero independent night weight
+L019,,KUM-15,Kumaon,Swami Vivekananda Jnana Vriksha / Knowledge Tree — Kakrighat — microcosm–macrocosm realization site,A+,CORE_DETOUR,MARK PROMOTION 2026-09-13: major Vivekananda realization site; 29 Aug 1890 meditation under sacred tree and microcosm–macrocosm unity realization; excellent detour despite ~45–60 min extra mountain driving order-of-magnitude
+L020,,KUM-16,Kumaon,Dwarahat historic temple groups,A*,SKIP_FIRST,Architectural corridor bycatch
+L021,A016,AGR-01,Agra,Taj Mahal,A+,CORE,Sole protected Agra sightseeing anchor; Yogananda onsite photo/memory cue; depart ASAP afterward
+L022,A013,,Agra,Bedai at Deviram's,B,OPPORTUNISTIC,Historic A013 now B; zero/near-zero marginal burden only
+L023,A014,,Agra,Petha,B,OPPORTUNISTIC,Historic A014 now B; zero/near-zero marginal burden only
+L024,A015,,Agra,Gajak,B,OPPORTUNISTIC,Historic A015 now B; zero/near-zero marginal burden only
+L025,A017,BOD-01,Bodh Gaya,Mahabodhi Temple Complex + Bodhi Tree,A+,CORE,Enlightenment anchor; unhurried Bodhi Tree presence
+L026,A020,BOD-02,Bodh Gaya,Sujata Stupa / Garh,A,CORE,LIVE grade A; separate archaeological stupa from milk-offering place
+L027,A021,BOD-03,Bodh Gaya,Dungeshwari / Mahakala Caves,A+,CORE,Start of protected pilgrimage walk; Buddha's ascetic-period cave world
+L028,A018,BOD-04,Bodh Gaya,Great Buddha Statue,A,CORE,Low-burden Buddhist landmark near monastery belt
+L029,A022,BOD-05,Bodh Gaya,Pragbodhi seven-stupa ridge,A,CORE_IF_SAFE,Seven ancient stupa remains/markers; ridge out-and-back; 1.5-2.25h; local monk/guide strongly preferred
+L030,,BOD-NEW-SUJATA-OFFERING,Bodh Gaya,Sujata milk-offering spot / Sujata Temple / traditional banyan,A+,CORE,NEW live entity; Middle Way turning-point place; separate from Sujata Stupa
+L031,,BOD-06,Bodh Gaya,Rajgir Brahmakund hot springs,A*,SKIP_FIRST,Only natural corridor bycatch; never dedicated Rajgir day
+L032,A019,BOD-07,Bodh Gaya,International monastery belt,A,CORE,Flexible 2-3-monastery walk; cultural breadth without checklist behavior
+L033,,BOD-08,Bodh Gaya,Gaya Tilkut micro-experience,A*,FINAL_COMFORT,Only if already passing through Gaya
+L034,A052,VNS-01,Varanasi/Sarnath,Manikarnika Ghat,A+,CORE,Lahiri Mahasaya cremation place + active cremation/moksha reality; open-ended final block
+L035,A038,VNS-02,Varanasi/Sarnath,New Bhrigu Karyalaya / Bhadury Sadan,A+,APPOINTMENT_GATE,Mark's present-day Bhrigu experience; appointment required; Kriyananda's 1959 reading was Barnala
+L036,A024,VNS-03,Varanasi/Sarnath,Dashashwamedh Ghat + evening Ganga Aarti,A+,CORE,Defining Varanasi experience + AOAY Babaji/Mataji/Ram Gopal Dasasamedh layer
+L037,A053,VNS-04,Varanasi/Sarnath,Sarnath sacred-archaeological world,A+,CORE,Buddha first-sermon parent world; child sites remain individually visible
+L038,A051,VNS-05,Varanasi/Sarnath,Ratneshwar Mahadev leaning river temple,A+,CORE,Distinctive leaning/submerged temple beside Manikarnika
+L039,A030,VNS-06,Varanasi/Sarnath,Banarasi paan,A,SMALL_ROUTE_ITEM,Local-culture tasting while already in Old City
+L040,A029,VNS-07,Varanasi/Sarnath,Bengali Tola-Thatheri Bazaar-Chowk lanes,A,CORE,Lahiri school involvement in Bengalitola + Old Kashi human texture
+L041,A032,VNS-08,Varanasi/Sarnath,Assi-Tulsi slow dawn ghat walk,A,CORE,Atmosphere/intrinsic experience is itself A-value; distinct from boat/program
+L042,A037,VNS-09,Varanasi/Sarnath,Subah-e-Banaras at Assi Ghat,A*,ZERO_COST_ONLY,Conditional A*: only if hotel/route makes it effectively free; never extra night
+L043,A025,VNS-10,Varanasi/Sarnath,Ganges dawn rowboat,A,CORE,Protected separate dawn river experience
+L044,A027,VNS-11,Varanasi/Sarnath,Maa Annapurna Temple,A,CORE,Annapurna temple in Vishwanath sacred microcluster
+L045,A028,VNS-12,Varanasi/Sarnath,Vishalakshi Gauri Temple,A,CORE,One of the 51 Shakti Peethas; major pilgrimage-network reason independent of person links
+L046,A054,VNS-16,Varanasi/Sarnath,Chaukhandi Stupa,A,CORE,Traditional Buddha-first-five-disciples meeting marker
 L047,A055,VNS-38,Varanasi/Sarnath,Sarnath Archaeological Museum,A,CORE,"Holds original Ashoka Lion Capital, source of India's national emblem; Friday closed"
-L048,A056,VNS-14,Varanasi/Sarnath,Dhamek Stupa,A,CORE,"Monumental first-sermon sacred-zone anchor"
-L049,A057,VNS-17,Varanasi/Sarnath,Deer Park,A,CORE,"First-sermon landscape/breathing space"
-L050,A058,VNS-15,Varanasi/Sarnath,Mulagandha Kuti Vihara,A,CORE,"Living Buddhist practice + murals of Buddha's life"
-L051,A039,VNS-20,Varanasi/Sarnath,Lahiri Mahasaya original/family house,A+,ACCESS_GATE,"Core Lahiri residence/teaching/death house; January interior access must be confirmed"
-L052,,VNS-22,Varanasi/Sarnath,Sahi River View Guesthouse,SPECIAL/ACCOMMODATION,LOCKED_BASE,"Locked Assi Ghat sleep base; balcony room desired; Jitendre; Debby greeting"
-L053,A040,VNS-24,Varanasi/Sarnath,Lahiri Mahasaya Samadhi / Satyalok,A,CORE,"Separate ashes/samadhi/lineage site; likely more accessible devotional contact than house"
-L054,A045,VNS-25,Varanasi/Sarnath,Shri Tailanga Swami Math,A,CORE,"Direct Trailanga Swami life/samadhi world with Ramakrishna/Lahiri relevance"
-L055,A036,VNS-26,Varanasi/Sarnath,Shree Shree Ma Anandamayi Ashram Bhadaini,A+,CORE,"Direct Anandamayi life-site; do not relocate Yogananda's famous meeting here"
+L048,A056,VNS-14,Varanasi/Sarnath,Dhamek Stupa,A,CORE,Monumental first-sermon sacred-zone anchor
+L049,A057,VNS-17,Varanasi/Sarnath,Deer Park,A,CORE,First-sermon landscape/breathing space
+L050,A058,VNS-15,Varanasi/Sarnath,Mulagandha Kuti Vihara,A,CORE,Living Buddhist practice + murals of Buddha's life
+L051,A039,VNS-20,Varanasi/Sarnath,Lahiri Mahasaya original/family house,A+,ACCESS_GATE,Core Lahiri residence/teaching/death house; January interior access must be confirmed
+L052,,VNS-22,Varanasi/Sarnath,Sahi River View Guesthouse,SPECIAL/ACCOMMODATION,LOCKED_BASE,Locked Assi Ghat sleep base; balcony room desired; Jitendre; Debby greeting
+L053,A040,VNS-24,Varanasi/Sarnath,Lahiri Mahasaya Samadhi / Satyalok,A,CORE,Separate ashes/samadhi/lineage site; likely more accessible devotional contact than house
+L054,A045,VNS-25,Varanasi/Sarnath,Shri Tailanga Swami Math,A,CORE,Direct Trailanga Swami life/samadhi world with Ramakrishna/Lahiri relevance
+L055,A036,VNS-26,Varanasi/Sarnath,Shree Shree Ma Anandamayi Ashram Bhadaini,A+,CORE,Direct Anandamayi life-site; do not relocate Yogananda's famous meeting here
 L056,A026,VNS-27,Varanasi/Sarnath,Shri Kashi Vishwanath Temple,A,CORE,"Major Jyotirlinga and living sacred core of Kashi; destination-level travel value, not generic temple"
-L057,A033,VNS-28,Varanasi/Sarnath,Assi Ghat,A+,CORE,"Physical ghat anchor distinct from experiences occurring there"
-L058,A046,VNS-29,Varanasi/Sarnath,Panchganga Ghat,A,CORE,"Physical center of Trailanga/Panchganga world; direct yogic-life geography"
-L059,A041,VNS-30,Varanasi/Sarnath,Sankat Mochan Hanuman Temple,A,CORE,"Hanuman-darshan/Tulsidas founding legend; worth A independent of Top-X person list"
-L060,A042,VNS-31,Varanasi/Sarnath,Durga Temple and Durga Kund,A,CORE,"Varanasi 'Monkey Temple'; highly recognizable/photogenic general-traveler highlight"
-L061,A043,VNS-33,Varanasi/Sarnath,Kedareshwar Temple and Kedar Ghat,A,CORE,"Protected A; newly restored Sri Ramakrishna connection prevents downgrade"
-L062,A048,VNS-34,Varanasi/Sarnath,Lalita Ghat,A,CORE,"Nepali riverfront architectural setting; pair with Kathwala Temple"
-L063,A049,VNS-35,Varanasi/Sarnath,Nepali / Kathwala Temple,A,CORE,"Unique Kathmandu-like Nepali wooden pagoda architecture in Varanasi"
-L064,A031,VNS-37,Varanasi/Sarnath,Kabir Chaura Math,A,CORE,"Living Kabir/Kabir Panth center; major devotional-literary tradition"
-L065,A034,VNS-39,Varanasi/Sarnath,Tulsi Ghat,A,CORE,"Tulsidas residence/death geography; place/legend itself justifies A"
-L066,A035,VNS-40,Varanasi/Sarnath,Lolark Kund,A*,CORRIDOR_BYCATCH,"Conditional A*: only free while already in Bhadaini-Assi block"
-L067,,VNS-42,Varanasi/Sarnath,Alamgir Mosque / Dharahara,A*,SKIP_FIRST,"Architectural/historical bycatch only while already at Panchganga"
-L068,A061,KOL-01,Kolkata/Dakshineswar,Dakshineswar Kali Temple,A+,CORE,"Dense Ramakrishna/Sarada/Vivekananda/Yogananda physical-life world; Panchavati/room/Nahabat matter"
-L069,A062,KOL-02,Kolkata/Dakshineswar,Yogoda Satsanga Math Dakshineswar,A+,CORE,"Direct Yogananda/Kriya living ashram anchor"
-L070,A063,KOL-03,Kolkata/Dakshineswar,Belur Math,A,CORE,"Vivekananda founded/lived/died/was cremated here; Ramakrishna relic focus"
-L071,A064,KOL-04,Kolkata/Dakshineswar,4 Garpar Road,A+,PREARRIVAL_ACCESS_GATE,"Yogananda Kolkata youth/family/meditation house; not birth house; email access in advance"
-L072,A065,KOL-05,Kolkata/Dakshineswar,YSS Dhyana Kendra Garpar,A+,PROGRAM_GATE,"Historic early meditation-circle location + living YSS practice; exact Jan programme recheck; DISTINCT from adjacent Tulsi Bose Shrine"
-L073,A066,TIR-01,Tiruvannamalai/Arunachala,Arunachala / Ramana sacred mountain world,A+,CORE,"Low-tempo sacred-mountain presence is the parent value"
+L057,A033,VNS-28,Varanasi/Sarnath,Assi Ghat,A+,CORE,Physical ghat anchor distinct from experiences occurring there
+L058,A046,VNS-29,Varanasi/Sarnath,Panchganga Ghat,A,CORE,Physical center of Trailanga/Panchganga world; direct yogic-life geography
+L059,A041,VNS-30,Varanasi/Sarnath,Sankat Mochan Hanuman Temple,A,CORE,Hanuman-darshan/Tulsidas founding legend; worth A independent of Top-X person list
+L060,A042,VNS-31,Varanasi/Sarnath,Durga Temple and Durga Kund,A,CORE,Varanasi 'Monkey Temple'; highly recognizable/photogenic general-traveler highlight
+L061,A043,VNS-33,Varanasi/Sarnath,Kedareshwar Temple and Kedar Ghat,A,CORE,Protected A; newly restored Sri Ramakrishna connection prevents downgrade
+L062,A048,VNS-34,Varanasi/Sarnath,Lalita Ghat,A,CORE,Nepali riverfront architectural setting; pair with Kathwala Temple
+L063,A049,VNS-35,Varanasi/Sarnath,Nepali / Kathwala Temple,A,CORE,Unique Kathmandu-like Nepali wooden pagoda architecture in Varanasi
+L064,A031,VNS-37,Varanasi/Sarnath,Kabir Chaura Math,A,CORE,Living Kabir/Kabir Panth center; major devotional-literary tradition
+L065,A034,VNS-39,Varanasi/Sarnath,Tulsi Ghat,A,CORE,Tulsidas residence/death geography; place/legend itself justifies A
+L066,A035,VNS-40,Varanasi/Sarnath,Lolark Kund,A*,CORRIDOR_BYCATCH,Conditional A*: only free while already in Bhadaini-Assi block
+L067,,VNS-42,Varanasi/Sarnath,Alamgir Mosque / Dharahara,A*,SKIP_FIRST,Architectural/historical bycatch only while already at Panchganga
+L068,A061,KOL-01,Kolkata/Dakshineswar,Dakshineswar Kali Temple,A+,CORE,Dense Ramakrishna/Sarada/Vivekananda/Yogananda physical-life world; Panchavati/room/Nahabat matter
+L069,A062,KOL-02,Kolkata/Dakshineswar,Yogoda Satsanga Math Dakshineswar,A+,CORE,Direct Yogananda/Kriya living ashram anchor
+L070,A063,KOL-03,Kolkata/Dakshineswar,Belur Math,A,CORE,Vivekananda founded/lived/died/was cremated here; Ramakrishna relic focus
+L071,A064,KOL-04,Kolkata/Dakshineswar,4 Garpar Road,A+,PREARRIVAL_ACCESS_GATE,Yogananda Kolkata youth/family/meditation house; not birth house; email access in advance
+L072,A065,KOL-05,Kolkata/Dakshineswar,YSS Dhyana Kendra Garpar,A+,PROGRAM_GATE,Historic early meditation-circle location + living YSS practice; exact Jan programme recheck; DISTINCT from adjacent Tulsi Bose Shrine
+L073,A066,TIR-01,Tiruvannamalai/Arunachala,Arunachala / Ramana sacred mountain world,A+,CORE,Low-tempo sacred-mountain presence is the parent value
 L074,A067,TIR-09,Tiruvannamalai/Arunachala,The Dreaming Tree,A*,FINAL_COMFORT,"MARK CHANGE 2026-09-13: A -> A*; comfort/food value, zero independent night weight; include according to actual route cost"
-L075,A068,TIR-03,Tiruvannamalai/Arunachala,Virupaksha Cave,A+,CORE,"MARK CHANGE 2026-09-13: A -> A+; Ramana residence for about 17 years; real meditation/sit; access no earlier than current opening window"
-L076,A069,TIR-04,Tiruvannamalai/Arunachala,Skandashram,A,CORE,"Ramana residence; mother Alagammal's final period/death here; Mark considering sacrifice for Serampore but no grade change yet"
-L077,A070,TIR-06,Tiruvannamalai/Arunachala,Gurumurtam,A,CORE,"Specific early-Ramana biographical site; Mark considering sacrifice for Serampore but no grade change yet"
-L078,A071,TIR-07,Tiruvannamalai/Arunachala,Pavalakunru,A,CORE,"Early Ramana-era Arunachala spur/temple; Mark considering sacrifice for Serampore but no grade change yet"
-L079,A072,TIR-10,Tiruvannamalai/Arunachala,The Inner Child,A,FINAL_COMFORT,"Mark-graded restaurant; zero independent night weight"
-L080,A073,TIR-08,Tiruvannamalai/Arunachala,Giripradakshina / Girivalam 14 km,A,CORE,"Central Arunachala pilgrimage practice; start/end actual sleep base"
-L081,A074,TIR-05,Tiruvannamalai/Arunachala,Arunachaleswarar / Annamalaiyar Temple,A,CORE,"Ramana's 1896 arrival world; Patala Lingam deep-samadhi episode; huge living Shiva temple"
-L082,A075,TIR-11,Tiruvannamalai/Arunachala,Amutham,A,FINAL_COMFORT,"Mark-graded restaurant; zero independent night weight"
-L083,A076,TIR-02,Tiruvannamalai/Arunachala,Sri Ramanasramam,A,CORE,"Ramana 1922-1950 residence/teaching/death/samadhi complex + documented Yogananda visit"
-L084,A023,VNS-21,Varanasi/Sarnath,Shitala Mata Temple,B,RESERVE,"MARK DOWNGRADE 2026-09-13: retained in complete living memory as B"
-L085,A044,VNS-41,Varanasi/Sarnath,Adi Keshava Ghat + Temple,B,RESERVE,"MARK DOWNGRADE 2026-09-13: retained in complete living memory as B"
-L086,A047,VNS-36,Varanasi/Sarnath,Bindu Madhav Temple,B,RESERVE,"MARK DOWNGRADE 2026-09-13: retained in complete living memory as B"
-L087,A050,VNS-32,Varanasi/Sarnath,Sankatha Devi Temple,B,RESERVE,"MARK DOWNGRADE 2026-09-13: retained in complete living memory as B"
-L088,A059,VNS-23,Varanasi/Sarnath,Shreyansanath Jain Tirth,B,RESERVE,"MARK DOWNGRADE 2026-09-13: retained in complete living memory as B"
-L089,A060,VNS-18,Varanasi/Sarnath,Saranganath Temple,B,RESERVE,"MARK DOWNGRADE 2026-09-13: retained in complete living memory as B"
-L090,,SER-01,Kolkata/Hooghly/Serampore,Sri Sri Swami Sri Yukteswar Giri Smriti Mandir / original hermitage property,A+,CORE_ACCESS_GATE,"MARK GRADE 2026-09-13; 2h on-site dwell wanted with real meditation/quiet time; exact Jan public access recheck"
-L091,,SER-02,Kolkata/Hooghly/Serampore,Rai Ghat sacred banyan / Babaji-Sri Yukteswar 1894 event site,A+,CORE,"MARK GRADE 2026-09-13; direct Babaji-Sri Yukteswar Holy Science event geography"
-L092,,SER-03,Kolkata/Hooghly/Serampore,Anandaloka / YSS Serampore Retreat / Yogananda student-era room,A*,PREARRIVAL_ACCESS_GRADE_GATE,"MARK CONDITIONAL GRADE: A+ if exact preserved Anandaloka room can be entered and used for meditation; otherwise A*. YSS centre has public meditation but exact room access not yet proven"
-L093,,SER-04,Kolkata/Hooghly/Serampore,Serampore College,C,REJECT_CURRENT_TRIP,"MARK GRADE 2026-09-13"
-L094,,SER-05,Kolkata/Hooghly/Serampore,Former Panthi boarding-house plot,C,REJECT_CURRENT_TRIP,"MARK GRADE 2026-09-13; old structure demolished; provenance only"
-L095,,KOL-NEW-50-AMHERST,Kolkata,50 Amherst Street / Master Mahasaya residence / Yogananda mother-death house,A*,OPTIONAL_ACCESS_EXTERIOR_OK,"MARK GRADE 2026-09-13: A*; Yogananda family residence where his mother died; Master Mahasaya later lived here and Yogananda visited repeatedly; Mark wants to go if practical even if only exterior access"
-L096,,KOL-NEW-NAGENDRA-MATH,Kolkata,Nagendra Math / Bhaduri Mahasaya house (The Levitating Saint),A+,CORE_IF_OPEN,"MARK GRADE 2026-09-13: A+; former Bhaduri Mahasaya house transformed into Math; official YSS says open to devotees; ~0.5 km from Garpar"
-L097,,KUM-NEW-PANDAVKHOLI,Kumaon/Dunagiri,Pandavkholi / Pandukholi ridge-top mandir and dharamshala above Babaji Cave,A,ACCESS_WEATHER_GATE,"MARK GRADE 2026-09-13: A if feasible; distinct uphill continuation beyond A+ Babaji Cave; winter/access/incremental burden must be verified"
-L098,,KOL-NEW-KALIGHAT-AOAY,Kolkata,Kalighat Kali Temple / Yogananda childhood image-sanctification event,A+,CORE,"MARK GRADE 2026-09-13: A+; childhood Mukunda brought Kali image given by father here to be sanctified; exact AOAY life-site"
-L099,,KOL-NEW-TULSI-BOSE,Kolkata,Tulsi Bose Shrine / historic Tulsi Bose family home,A+,CORE_ACCESS_GATE,"MARK GRADE 2026-09-13: A+; distinct from 4 Garpar and YSS Garpar; Yogananda repeatedly meditated/stayed here; preserved shrine with Yogananda/Sri Yukteswar beds and guru relics per current Ananda Kolkata"
+L075,A068,TIR-03,Tiruvannamalai/Arunachala,Virupaksha Cave,A+,CORE,MARK CHANGE 2026-09-13: A -> A+; Ramana residence for about 17 years; real meditation/sit; access no earlier than current opening window
+L076,A069,TIR-04,Tiruvannamalai/Arunachala,Skandashram,A,CORE,Ramana residence; mother Alagammal's final period/death here; Mark considering sacrifice for Serampore but no grade change yet
+L077,A070,TIR-06,Tiruvannamalai/Arunachala,Gurumurtam,A,CORE,Specific early-Ramana biographical site; Mark considering sacrifice for Serampore but no grade change yet
+L078,A071,TIR-07,Tiruvannamalai/Arunachala,Pavalakunru,A,CORE,Early Ramana-era Arunachala spur/temple; Mark considering sacrifice for Serampore but no grade change yet
+L079,A072,TIR-10,Tiruvannamalai/Arunachala,The Inner Child,A,FINAL_COMFORT,Mark-graded restaurant; zero independent night weight
+L080,A073,TIR-08,Tiruvannamalai/Arunachala,Giripradakshina / Girivalam 14 km,A,CORE,Central Arunachala pilgrimage practice; start/end actual sleep base
+L081,A074,TIR-05,Tiruvannamalai/Arunachala,Arunachaleswarar / Annamalaiyar Temple,A,CORE,Ramana's 1896 arrival world; Patala Lingam deep-samadhi episode; huge living Shiva temple
+L082,A075,TIR-11,Tiruvannamalai/Arunachala,Amutham,A,FINAL_COMFORT,Mark-graded restaurant; zero independent night weight
+L083,A076,TIR-02,Tiruvannamalai/Arunachala,Sri Ramanasramam,A,CORE,Ramana 1922-1950 residence/teaching/death/samadhi complex + documented Yogananda visit
+L084,A023,VNS-21,Varanasi/Sarnath,Shitala Mata Temple,B,RESERVE,MARK DOWNGRADE 2026-09-13: retained in complete living memory as B
+L085,A044,VNS-41,Varanasi/Sarnath,Adi Keshava Ghat + Temple,B,RESERVE,MARK DOWNGRADE 2026-09-13: retained in complete living memory as B
+L086,A047,VNS-36,Varanasi/Sarnath,Bindu Madhav Temple,B,RESERVE,MARK DOWNGRADE 2026-09-13: retained in complete living memory as B
+L087,A050,VNS-32,Varanasi/Sarnath,Sankatha Devi Temple,B,RESERVE,MARK DOWNGRADE 2026-09-13: retained in complete living memory as B
+L088,A059,VNS-23,Varanasi/Sarnath,Shreyansanath Jain Tirth,B,RESERVE,MARK DOWNGRADE 2026-09-13: retained in complete living memory as B
+L089,A060,VNS-18,Varanasi/Sarnath,Saranganath Temple,B,RESERVE,MARK DOWNGRADE 2026-09-13: retained in complete living memory as B
+L090,,SER-01,Kolkata/Hooghly/Serampore,Sri Sri Swami Sri Yukteswar Giri Smriti Mandir / original hermitage property,A+,CORE_ACCESS_GATE,MARK GRADE 2026-09-13; 2h on-site dwell wanted with real meditation/quiet time; exact Jan public access recheck
+L091,,SER-02,Kolkata/Hooghly/Serampore,Rai Ghat sacred banyan / Babaji-Sri Yukteswar 1894 event site,A+,CORE,MARK GRADE 2026-09-13; direct Babaji-Sri Yukteswar Holy Science event geography
+L092,,SER-03,Kolkata/Hooghly/Serampore,Anandaloka / YSS Serampore Retreat / Yogananda student-era room,A*,PREARRIVAL_ACCESS_GRADE_GATE,MARK CONDITIONAL GRADE: A+ if exact preserved Anandaloka room can be entered and used for meditation; otherwise A*. YSS centre has public meditation but exact room access not yet proven
+L093,,SER-04,Kolkata/Hooghly/Serampore,Serampore College,C,REJECT_CURRENT_TRIP,MARK GRADE 2026-09-13
+L094,,SER-05,Kolkata/Hooghly/Serampore,Former Panthi boarding-house plot,C,REJECT_CURRENT_TRIP,MARK GRADE 2026-09-13; old structure demolished; provenance only
+L095,,KOL-NEW-50-AMHERST,Kolkata,50 Amherst Street / Master Mahasaya residence / Yogananda mother-death house,A*,OPTIONAL_ACCESS_EXTERIOR_OK,MARK GRADE 2026-09-13: A*; Yogananda family residence where his mother died; Master Mahasaya later lived here and Yogananda visited repeatedly; Mark wants to go if practical even if only exterior access
+L096,,KOL-NEW-NAGENDRA-MATH,Kolkata,Nagendra Math / Bhaduri Mahasaya house (The Levitating Saint),A+,CORE_IF_OPEN,MARK GRADE 2026-09-13: A+; former Bhaduri Mahasaya house transformed into Math; official YSS says open to devotees; ~0.5 km from Garpar
+L097,,KUM-NEW-PANDAVKHOLI,Kumaon/Dunagiri,Pandavkholi / Pandukholi ridge-top mandir and dharamshala above Babaji Cave,A,ACCESS_WEATHER_GATE,MARK GRADE 2026-09-13: A if feasible; distinct uphill continuation beyond A+ Babaji Cave; winter/access/incremental burden must be verified
+L098,,KOL-NEW-KALIGHAT-AOAY,Kolkata,Kalighat Kali Temple / Yogananda childhood image-sanctification event,A+,CORE,MARK GRADE 2026-09-13: A+; childhood Mukunda brought Kali image given by father here to be sanctified; exact AOAY life-site
+L099,,KOL-NEW-TULSI-BOSE,Kolkata,Tulsi Bose Shrine / historic Tulsi Bose family home,A+,CORE_ACCESS_GATE,MARK GRADE 2026-09-13: A+; distinct from 4 Garpar and YSS Garpar; Yogananda repeatedly meditated/stayed here; preserved shrine with Yogananda/Sri Yukteswar beds and guru relics per current Ananda Kolkata
 L100,,WB-NEW-DIHIKA,West Bengal corridor,Dihika Retreat / original 1917 Yogananda school site / birthplace of YSS,A*,OPTIONAL_IF_DAY_FREED,"MARK GRADE 2026-09-13: A*; keep alive even though current Varanasi→Kolkata transfer makes it expensive; original 1917 Yogoda school site, YSS birthplace and Smriti Sthal/meditation world; execute only if a genuinely available day/corridor makes burden acceptable"
-L101,,KUM-NEW-KASAR-DEVI,Kumaon/Almora,Kasar Devi Cave / Swami Vivekananda mission-turning-point cave,OPEN,MARK_TRIAGE_REQUIRED,"NEW KAKRIGHAT-TYPE FIND 2026-09-13; official Ramakrishna Kutir: 2–3 days intense meditation in Sep 1890, higher illuminations, then powerful call to leave personal bliss and serve humanity; roughly +30 km / ~1h driving order-of-magnitude via Almora before dwell"
-L102,,KOL-NEW-VIVEKANANDA-BIRTHPLACE,Kolkata,Swami Vivekananda Ancestral House and Birthplace / 105 Vivekananda Road,OPEN,MARK_TRIAGE_REQUIRED,"MAJOR CLASSIFICATION GAP 2026-09-13; actual birthplace and childhood ancestral house; active Ramakrishna Mission centre; Sri Ramakrishna visited the house several times; likely low marginal burden inside central/north Kolkata"
-L103,,KOL-NEW-COSSIPORE-UDYANBATI,Kolkata,Cossipore / Kashipur Udyanbati — Sri Ramakrishna final residence and Mahasamadhi,OPEN,MARK_TRIAGE_REQUIRED,"MAJOR CLASSIFICATION GAP 2026-09-13; Sri Ramakrishna spent final months here with disciples and attained Mahasamadhi in 1886; preserved Ramakrishna Math + cremation memorial; direct young Narendra/Vivekananda world"
-L104,,KOL-NEW-BALARAM-MANDIR,Kolkata,Balaram Mandir / Ramakrishna Mission founding site,OPEN,MARK_TRIAGE_REQUIRED,"RECOVERED MAJOR EVENT SITE 2026-09-13; frequent Sri Ramakrishna/Holy Mother/disciple house; Swami Vivekananda founded/inaugurated Ramakrishna Mission Association here on 1 May 1897"
-L105,,KOL-NEW-SHYAMPUKUR-BATI,Kolkata,Shyampukur Bati / Sri Ramakrishna 1885 residence,OPEN,MARK_TRIAGE_REQUIRED,"RECOVERED LIFE-SITE 2026-09-13; Sri Ramakrishna stayed about 70 days here in 1885 before Cossipore; Holy Mother and disciples also stayed; preserved Ramakrishna Math"
-L106,,CHE-NEW-VIVEKANANDA-HOUSE,Chennai,Vivekananda House / Vivekanandar Illam / Ice House — historic room,OPEN,MARK_TRIAGE_REQUIRED,"MAJOR MISSED SITE 2026-09-13; Vivekananda stayed here 6–14 Feb 1897; exact historic room can be entered and current RKM reporting shows meditation there; public museum/pilgrimage centre; meaningful but moderate/high Chennai-city detour from airport route"
-L107,,KUM-NEW-LALA-BADRI-SHAH,Kumaon/Almora,Lala Badri Shah House / Swami Vivekananda Almora stay house,OPEN,MARK_TRIAGE_REQUIRED,"NEW ALMORA SUBSITE 2026-09-13; Vivekananda stayed here during 1890 wandering period and again in 1897; official Ramakrishna Kutir material says public access on request after ~15:00; lower priority than Kasar Devi Cave"
-L108,,KOL-NEW-JC-BOSE,Kolkata,J. C. Bose residence / laboratory context — Yogananda visit and crescograph world,OPEN,MARK_TRIAGE_REQUIRED,"RECOVERED GARPAR-MICROCLUSTER CANDIDATE 2026-09-13; Yogananda visited Jagadish Chandra Bose and his laboratory/crescograph world; exact surviving entity/access still requires verification before grade"
+L101,,KUM-NEW-KASAR-DEVI,Kumaon/Almora,Kasar Devi Cave / Swami Vivekananda mission-turning-point cave,A+,CORE_DETOUR,MARK GRADE 2026-09-13 (CCI sync repair): A+; 'Any older wording treating Kasar Devi Cave as OPEN grade is stale' per decisions/INDIA20_DEC23_24_KUMAON_VIVEKANANDA_TRANSIT_AND_BABAJI_DAY_MARK_DECISION_2026-09-13.md sec.6; canonical name must retain 'Grot Vivekananda'; execute on 23 Dec transfer if feasible.
+L102,,KOL-NEW-VIVEKANANDA-BIRTHPLACE,Kolkata,Swami Vivekananda Ancestral House and Birthplace / 105 Vivekananda Road,A+,CORE_IF_TIME_ALLOWS,"MARK GRADE 2026-09-13 (CCI sync repair): A+, explicit Mark acceptance of INDIA20 recommendation per decisions/INDIA20_KOLKATA_VIVEKANANDA_PRIORITY_AND_CHENNAI_BYCATCH_MARK_DECISION_2026-09-13.md sec.1 item 1 (supersedes the file's own earlier mistaken numbered mapping); Yogananda/Sri Yukteswar content still outranks this when time conflicts."
+L103,,KOL-NEW-COSSIPORE-UDYANBATI,Kolkata,Cossipore / Kashipur Udyanbati — Sri Ramakrishna final residence and Mahasamadhi,A+,CORE_IF_TIME_ALLOWS,"MARK GRADE 2026-09-13 (CCI sync repair): A+, explicit Mark acceptance of INDIA20 recommendation per decisions/INDIA20_KOLKATA_VIVEKANANDA_PRIORITY_AND_CHENNAI_BYCATCH_MARK_DECISION_2026-09-13.md sec.1 item 2; final-life/mahasamadhi/Kalpataru site."
+L104,,KOL-NEW-BALARAM-MANDIR,Kolkata,Balaram Mandir / Ramakrishna Mission founding site,A+,CORE_IF_TIME_ALLOWS,"MARK GRADE 2026-09-13 (CCI sync repair): A+, explicit Mark acceptance of INDIA20 recommendation per decisions/INDIA20_KOLKATA_VIVEKANANDA_PRIORITY_AND_CHENNAI_BYCATCH_MARK_DECISION_2026-09-13.md sec.1 item 3; Ramakrishna Mission founding house, >100 Ramakrishna visits, Holy Mother shrine."
+L105,,KOL-NEW-SHYAMPUKUR-BATI,Kolkata,Shyampukur Bati / Sri Ramakrishna 1885 residence,A,CORE_IF_TIME_ALLOWS,"MARK GRADE 2026-09-13 (CCI sync repair): A, explicit Mark acceptance of INDIA20 recommendation per decisions/INDIA20_KOLKATA_VIVEKANANDA_PRIORITY_AND_CHENNAI_BYCATCH_MARK_DECISION_2026-09-13.md sec.1 item 4; rank below Cossipore/Balaram if day overloaded."
+L106,,CHE-NEW-VIVEKANANDA-HOUSE,Chennai,Vivekananda House / Vivekanandar Illam / Ice House — historic room,A*,BUFFER_BYCATCH_NO_EXTRA_DAY,"MARK GRADE 2026-09-13 (CCI sync repair): A*, buffer-bycatch only, per decisions/INDIA20_KOLKATA_VIVEKANANDA_PRIORITY_AND_CHENNAI_BYCATCH_MARK_DECISION_2026-09-13.md sec.3; execute only inside existing Chennai waiting/positioning window before MAA->DEL, never a dedicated day/night, never weakens flight-safety buffer."
+L107,,KUM-NEW-LALA-BADRI-SHAH,Kumaon/Almora,Lala Badri Shah House / Swami Vivekananda Almora stay house,OPEN,MARK_TRIAGE_REQUIRED,NEW ALMORA SUBSITE 2026-09-13; Vivekananda stayed here during 1890 wandering period and again in 1897; official Ramakrishna Kutir material says public access on request after ~15:00; lower priority than Kasar Devi Cave
+L108,,KOL-NEW-JC-BOSE,Kolkata,J. C. Bose residence / laboratory context — Yogananda visit and crescograph world,OPEN,MARK_TRIAGE_REQUIRED,RECOVERED GARPAR-MICROCLUSTER CANDIDATE 2026-09-13; Yogananda visited Jagadish Chandra Bose and his laboratory/crescograph world; exact surviving entity/access still requires verification before grade
