@@ -1,107 +1,154 @@
 # CURRENT STATE — INDIA
 
-state_revision: `2026-09-13_INDIA20_MARK_PDF_REVIEW__SERAMPORE_REOPENED__A067_A068_UPDATED__NET_TIME_FIELDS`
+state_revision: `2026-09-13_INDIA20_CLASSIFICATION_REGRESSION_AUDIT__SERAMPORE_GRADED__TIRU_TRADEOFF_ACTIVE`
 branch: `agent/india8-cluster-casting`
-status: `MARK_PDF_ITEM_GRADE_REVIEW_ACTIVE__SERAMPORE_REOPENED_FOR_TRIAGE__BODH_TIRU_DEFERRED__NO_BOOKING_YET`
+status: `MARK_PDF_ITEM_REVIEW_ACTIVE__CLASSIFICATION_REGRESSION_AUDIT_OPEN__NO_BOOKING_YET`
 manifest_active_cluster: `BODHGAYA_EXECUTION_GEOMETRY_TRUE_DURATION`
 latest_successor_handoff: `runs/active/INDIA19_FINAL_EXTRACTION_2026-09-13.md`
 
 ## EXACT CURRENT FRONTIER
 
-Mark is currently reviewing the existing v3 PDF **item by item / page by page**, judging whether retained locations deserve their current grade and trying to free time. He explicitly corrected INDIA20 after it advanced too quickly to the Bodh-Gaya/Tiruvannamalai duration choice.
+Mark is still reviewing the v3/PDF content item by item. Do **not** jump to the Bodh/Tiru duration ballot or generate v4 yet.
 
-The immediate human frontier is therefore:
+Current mode:
+`MARK_PDF_ITEM_REVIEW + RICH_SOURCE_RECONCILIATION + ACTIVE_WORLD_CLASSIFICATION_REGRESSION_AUDIT`
 
-`NEXT_MODE = MARK_PDF_ITEM_BY_ITEM_REVIEW_AND_RICH_SOURCE_RECONCILIATION`
+The Serampore discovery proved that a physical place can have strong source support yet disappear from the live trip because of stale parent-world exclusion or because research prose never became a durable entity. Therefore the new regression audit must clear before v4.
 
-The Bodh 3n/Tiru 4n versus Bodh 2n/Tiru 5n duration surface remains prepared, but it is **DEFERRED** until Mark finishes enough of the current location/grade review to trust the live content set.
+Current audit owner:
+`research/ACTIVE_WORLD_CLASSIFICATION_REGRESSION_AUDIT_2026-09-13.md`.
 
-Current review rule:
-- do NOT judge a place from the short PDF wording alone;
-- current PDF/card descriptions are materially too terse in places and may omit the original WHY, person/event, exact sub-place or lived experience;
-- before recommending that an existing A/A+ be shortened/downgraded, restore the richest honest card from current grades/supersedes + original research/provenance + relevant official/traveler/pilgrimage sources;
-- only Mark changes A+/A/A*/B/C;
-- after each explicit Mark grade decision, write it durably and continue with the PDF review rather than jumping to duration.
+Current live truth owner:
+`runs/active/INDIA20-LIVE-LEDGER-V4-REPAIR-001/LIVE_DERIVED_PLACE_GRADE_LEDGER_2026-09-13.csv`.
 
-## CURRENT RICH-SOURCE INPUTS FOR THIS REVIEW
+Latest Mark-facing overlay:
+`runs/active/INDIA20-LIVE-LEDGER-V4-REPAIR-001/MARK_FACING_CARD_DELTA_SERAMPORE_TIRU_DELHI_AND_RECOVERED_GAPS_2026-09-13.md`.
 
-Core current/live layers:
-- `runs/active/INDIA20-LIVE-LEDGER-V4-REPAIR-001/LIVE_DERIVED_PLACE_GRADE_LEDGER_2026-09-13.csv`;
-- `runs/active/INDIA20-LIVE-LEDGER-V4-REPAIR-001/MARK_FACING_LIVE_A_PLUS_A_CARDS_V4_SOURCE_2026-09-13.md`;
-- `runs/active/INDIA20-LIVE-LEDGER-V4-REPAIR-001/LIVE_CLOCK_PLAN_V4_REPAIR_2026-09-13.md`;
-- `runs/active/INDIA19-FINAL-ITINERARY-REBUILD-001/person-provenance/INDIA19_A79_V3_PERSON_PROVENANCE_RECONCILIATION_2026-09-11.md`.
+Latest Serampore/Tiru time analysis:
+`runs/active/INDIA20-LIVE-LEDGER-V4-REPAIR-001/LIVE_CLOCK_DELTA_SERAMPORE_TIRU_TRADEOFF_2026-09-13.md`.
 
-Raw/source layers that must be reopened when a place needs deeper review rather than trusting compact cards:
-- CCI frozen worker `970fe70c7ed534fb30af2cf23172df4960b5a3ca`: `A79_PERSON_PROVENANCE_RESTORATION.csv/.md` + gaps/contradictions;
-- WORK frozen worker `9762d341c12c00921654e598c18f4e0d299e7e46`: `WORK_A79_RELEVANCE_MATRIX.csv`, independent challenge and new-discoveries/challenges;
-- item-level historic/current grade logs and later `decisions/...` supersedes;
-- owning discovery/AOAY/person/cluster research for the specific place;
-- current official/traveler sources when they add material physical/experiential knowledge.
+## CURRENT REVIEW RULE
 
-New source enrichment produced during this review:
-- `research/PATH2YOGA_RELEVANT_SITEWIDE_PLACE_MEANING_HARVEST_2026-09-13.md` — preserves Path2Yoga micro-location/lived-experience details for active places and Serampore provenance.
-- `research/SERAMPORE_SRI_YUKTESWAR_REOPEN_REASSESSMENT_2026-09-13.md` — current reassessment after Mark explicitly reopened Serampore; uses Path2Yoga + current SRF/YSS institutional confirmation + current Hooghly transport geometry.
+- Do not judge a place from terse PDF wording alone.
+- Restore original person/event/room/tree/cave/WHY before a grade/time decision.
+- Only Mark changes A+/A/A*/B/C.
+- Every distinct physical place found in relevant active-world research must have a durable entity/status; `research prose only` is not enough.
+- B/OPEN/C entities remain in complete living memory even when they carry zero mandatory clock weight.
+- After every explicit Mark decision: write it durably and continue the item/classification review rather than jumping to duration.
 
-Governing active-memory repair:
-- `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` includes FOUT 24: `BOOT_COMPLETE != TASK_RELEVANT_RICH_SOURCE_MEMORY_COMPILED`.
-- `governance/MARK_FACING_PLACE_CARD_TRAVEL_VALUE_RULE_2026-09-13.md` now contains the mandatory net time-accounting fields requested by Mark.
+## HARD TIME-ACCOUNTING RULE
 
-## LIVE-LEDGER REPAIR STATUS
+For current place `B` between predecessor `A` and successor `C`:
 
-The prior live-ledger defect has now been repaired: the six Sep-13 downgraded Varanasi/Sarnath sites are retained as current **B** rows rather than disappearing from living memory.
+`TOTALE TIJD VOOR DEZE LOCATIE = A -> B travel + B dwell + B -> C travel`
 
-Current live ledger also incorporates the latest Tiruvannamalai Mark changes:
-- A067 The Dreaming Tree = **A***;
-- A068 Virupaksha Cave = **A+**.
+`TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT = A -> B + dwell B + B -> C - recalculated direct A -> C`
 
-## SERAMPORE / SRIRAMPUR — EXPLICITLY REOPENED BY MARK
+Use whole-human door-to-door time. Never substitute dwell time for skip-saving. Do not blindly sum card total-times because adjacent cards share legs.
 
-Old state:
-Serampore was inherited as FINAL OUT from the 2026-08-19 decision that skipped the entire EAST_ROUTE_FAMILY, including Kolkata/Dakshineswar/Serampore.
+Owner:
+`governance/MARK_FACING_PLACE_CARD_TRAVEL_VALUE_RULE_2026-09-13.md`.
 
-Material chronology change:
-Kolkata/Dakshineswar later returned as an active serious block, while Serampore remained FINAL OUT without a fresh same-metro/Hooghly marginal-burden review.
+## SERAMPORE — NOW GRADED CORE, NOT FINAL OUT
 
-Mark explicitly reopened Serampore on 2026-09-13 after seeing the Sri Yukteswar/Yogananda physical-site density and proximity to Kolkata.
+Serampore/Srirampur is no longer FINAL OUT. The old exclusion was inherited from the 2026-08-19 whole EAST_ROUTE_FAMILY skip. Kolkata/Dakshineswar later returned, but Serampore was not re-evaluated as a nearby Hooghly microcluster. Mark explicitly reopened it on 2026-09-13.
 
-Current status:
-`SERAMPORE = REOPENED_FOR_MARK_REVIEW__KOLKATA_HOOGHLY_MICROCLUSTER__NOT_YET_SITE_GRADED_OR_ROUTE_LOCKED`
+Current binding grades:
+- `SER-01` Sri Sri Swami Sri Yukteswar Giri Smriti Mandir / original main hermitage property = **A+**; Mark wants **2 hours onsite** including real meditation/quiet time if access permits.
+- `SER-02` Rai Ghat sacred banyan / Babaji–Sri Yukteswar 1894 event site = **A+**.
+- `SER-03` Anandaloka / YSS Serampore Retreat = **A+ if the exact preserved Yogananda room can be entered and used for meditation; otherwise A***.
+- `SER-04` Serampore College = **C**.
+- `SER-05` former Panthi boarding-house plot = **C**; old structure demolished.
+
+Current YSS information confirms the Serampore Retreat is a living meditation centre with public group meditations; this does not yet prove unrestricted meditation access inside the exact Anandaloka room. That exact room is a pre-arrival access/grade gate.
+
+Serampore does not automatically create a separate sleep world. First rebuild the 3-night Kolkata/Hooghly block around its real A+ content and calculate marginal time.
 
 Owning decision:
-`decisions/SERAMPORE_REOPENED_FOR_MARK_REVIEW_2026-09-13.md`
+`decisions/SERAMPORE_GRADES_DELHI_ASTAR_AND_TIRU_TRADEOFF_MARK_DECISION_2026-09-13.md`.
 
-Owning research:
-`research/SERAMPORE_SRI_YUKTESWAR_REOPEN_REASSESSMENT_2026-09-13.md`
+## TIRUVANNAMALAI — CURRENT TRADEOFF, NO A069/A070/A071 GRADE CHANGE YET
 
-At minimum Mark must now be shown rich cards for:
-1. Sri Sri Swami Sri Yukteswar Giri Smriti Mandir / original main hermitage property;
-2. Rai Ghat sacred banyan — AOAY/YSS Babaji-to-Sri-Yukteswar 1894 event site;
-3. Anandaloka / Sarada Prasad Ghosh house — Yogananda room/meditation room, subject to current access verification;
-4. Panthi boarding-house remains — only if current physical identity/value survives verification;
-5. Serampore College — judged separately as Yogananda student geography + historic college.
+Latest Mark changes:
+- A067 The Dreaming Tree = **A***.
+- A068 Virupaksha Cave = **A+**.
 
-Current evidence does NOT support treating Serampore as a required separate sleep world. It does support serious classification as a Kolkata/Hooghly excursion/microcluster.
+Still unchanged pending Mark decision:
+- A069 Skandashram = **A**.
+- A070 Gurumurtam = **A**.
+- A071 Pavalakunru = **A**.
 
-## CRITICAL PRECEDENCE / NO-REDO
+Mark is considering sacrificing A069/A070/A071 for more Serampore time.
 
-Newest explicit Mark truth and later dated owning decisions outrank stale summaries. `runs/active/INDIA19_FINAL_EXTRACTION_2026-09-13.md` remains the zero-loss pre-INDIA20 source; INDIA20 live files are newer execution sources, but their frontier wording is superseded where Mark explicitly said the duration choice was premature.
+Current clock analysis:
+- dropping all three releases roughly **3h30–4h30**, planning magnitude ~4h, pending final exact geometry;
+- this does **not** cleanly release a whole Tiruvannamalai calendar day/night because A068 remains A+ and still occupies a real hill/meditation morning;
+- reducing Tiru from 4n to 3n would force A068 into either the 14 km Girivalam + Arunachaleswarar day or the standalone Ramanasramam immersion day, both poor fits.
 
-Already complete; do not restart merely because raw worker branches remain unmerged:
-- frozen A79 coverage gate;
-- CCI/WORK independent macro solves and mutual cross-red-team;
-- CCI 79/79 person-provenance research;
-- WORK 79/79 relevance challenge;
-- Haidakhan local-Kailash classification research;
-- official Gyan Yatra / Buddha Marg existence research;
-- seven Pragbodhi stupa-remains existence/mapping research;
-- Sujata offering-place versus Sujata Stupa separation research;
-- global topology solve.
+Current burden/value recommendation, not a Mark grade:
+- if cutting secondary Ramana geography, A070 then A071 are easier sacrifices;
+- A069 is harder to cut because it is the natural continuation from A068, Ramana lived there, his mother Alagammal spent her final period/died there, and that event bridges the mountain phase to Ramanasramam below.
 
-Important distinction for current review: **do not redo these research projects globally, but DO reopen their raw outputs when needed to recover rich per-place meaning that compact cards lost.**
+Owner:
+`runs/active/INDIA20-LIVE-LEDGER-V4-REPAIR-001/LIVE_CLOCK_DELTA_SERAMPORE_TIRU_TRADEOFF_2026-09-13.md`.
 
-`UNMERGED_BRANCH != UNFINISHED_TASK`.
+## DELHI LATEST MARK GRADES
 
-Frozen A79 commit `a2b71b2563f446480b012f0b9176a87e96fcb003` remains historic audit evidence. A001–A079 are stable recognition/provenance IDs, not automatic live grades.
+- A078 Lotus Temple = **A***.
+- A079 PVR Priya IMAX = **A***.
+
+Both are nice extras but may consume no important trip time and may never weaken the final flight-safety buffer.
+
+## CLASSIFICATION REGRESSION AUDIT — CONFIRMED PAST FAILURES
+
+Already identified/repaired failure classes:
+1. **Serampore stale parent exclusion:** whole eastern route family went OUT; Kolkata later came back but Serampore silently stayed OUT.
+2. **Haidakhan local-Kailash:** meaningful research existed but no durable physical candidate survived; later recovered and Mark graded A.
+3. **Sujata physical conflation:** milk-offering location/Temple/banyan and Sujata Stupa/Garh were distinct but had been flattened together; now separate A+ and A entities.
+4. **B-row disappearance:** six Sep-13 Varanasi/Sarnath A->B sites were omitted from the first supposedly complete live ledger because an A+/A/A*-scoped source was mistaken for complete place memory; repaired.
+
+Systemic anti-regression classes:
+- `PARENT_WORLD_OUT_INHERITED_AFTER_CONTEXT_CHANGED`;
+- `RESEARCH_PROSE_WITHOUT_DURABLE_ENTITY`;
+- `GRADE_SCOPED_LEDGER_MISTAKEN_FOR_COMPLETE_MEMORY`;
+- `COMPACT_CARD_LOSES_ORIGINAL_WHY`;
+- `EXISTING_CANDIDATE_VERIFICATION_MISTAKEN_FOR_DISCOVERY`;
+- `DISTINCT_PHYSICAL_CHILDREN_COLLAPSED_UNDER_PARENT`.
+
+## HIGH-PRIORITY RECOVERED OPEN CANDIDATES — MUST GO TO MARK
+
+These are now explicit OPEN rows in the live ledger. INDIA has **not** graded them.
+
+- `KOL-NEW-50-AMHERST` — 50 Amherst Street, Kolkata: Yogananda's mother died here; Master Mahasaya later lived here; YSS records Yogananda and his brother having a vision of their mother while meditating here with Master Mahasaya.
+- `KOL-NEW-NAGENDRA-MATH` — Nagendra Math / Bhaduri Mahasaya (`The Levitating Saint`): ~0.5 km from Garpar according to YSS; young Yogananda regularly visited for spiritual discussions; current YSS wording says open to devotees.
+- `KUM-NEW-PANDAVKHOLI` — Pandavkholi/Pandukholi above Babaji Cave: distinct ridge-top mandir/dharamshala continuation beyond the A+ cave; project research had preserved it but no durable classification survived. Winter/access/incremental burden must be checked before Mark grades it.
+- `KOL-NEW-KALIGHAT-AOAY` — Kalighat Kali Temple: exact AOAY childhood event geography where Mukunda/Yogananda brought a Kali image given by his father to be sanctified. Requires explicit Mark classification, not auto-inclusion.
+
+Lower-priority queue also includes AOAY institutional geography such as Calcutta University / Scottish Church College: first determine whether Mark already saw/rejected each versus silent disappearance. Do not auto-add.
+
+`V4_BLOCKED_UNTIL_HIGH_PRIORITY_CLASSIFICATION_GAPS_TRIAGED = YES`.
+
+## LIVE LEDGER REPAIR STATUS
+
+The prior six B-row omission defect is repaired. The live ledger now retains A+/A/A*/B/C/Open entities as living memory where recovered.
+
+Current material post-freeze truth also includes:
+- A003 Hanuman Garhi + Maharajji-kuti = A+.
+- A006 Dhokaney = conditional A*.
+- A013/A014/A015 Agra foods = B opportunistic.
+- Haidakhan local-Kailash summit = A, separate physical entity, on-site conditional.
+- Sujata milk-offering spot / Temple / banyan = A+.
+- Sujata Stupa/Garh = A.
+- A023/A044/A047/A050/A059/A060 = B and retained.
+- A035 Lolark = conditional A*.
+- A037 Subah-e-Banaras = conditional A*, zero-cost only.
+- A043 Kedareshwar remains A with restored Sri Ramakrishna relevance.
+- A067 = A*.
+- A068 = A+.
+- A078/A079 = A*.
+- SER-01/SER-02 = A+; SER-03 conditional A+/A*; SER-04/SER-05 = C.
+
+Tradition remains valid pilgrimage evidence; Mark-facing prose must not become courtroom prose.
 
 ## HARD TRIP ENVELOPE
 
@@ -109,113 +156,78 @@ Frozen A79 commit `a2b71b2563f446480b012f0b9176a87e96fcb003` remains historic au
 - AI155 DEL -> AMS: 21 Jan 2027 ~12:20.
 - exactly 33 physical India nights, 19 Dec through 20 Jan.
 - exactly one final Delhi hotel night immediately before AI155: 20 Jan.
-- flight safety outranks Nirmal Dham and all final-day content.
+- flight safety outranks Nirmal Dham and all final-day extras.
 - no booking/contact yet.
+
+Hard/current footprints:
+- Nainital 3n.
+- Dunagiri/Kukuchina 3n.
+- Haidakhan 3n + 2 full protected quiet days.
+- Agra 1 hotel night.
+- Varanasi/Sarnath 8n locked.
+- Kolkata/Dakshineswar current serious block 3n; Serampore must first be tested inside/rebuilt around this block.
+- final Delhi exactly 1n.
+
+Bodh/Tiru duration ballot remains **DEFERRED during current item/classification review**.
 
 ## FINAL WORLD SCOPE
 
 IN:
-Delhi operational/Nirmal; Kumaon (Nainital, Dunagiri/Kukuchina, true Haidakhan); Agra/Taj; Bodh Gaya; Varanasi/Sarnath; Kolkata/Dakshineswar; Tiruvannamalai/Arunachala; Chennai positioning; final Delhi.
+Delhi operational/Nirmal; Kumaon; Agra/Taj; Bodh Gaya; Varanasi/Sarnath; Kolkata/Dakshineswar; Tiruvannamalai/Arunachala; Chennai positioning; final Delhi.
 
-REOPENED / CURRENT MARK TRIAGE:
-Serampore/Srirampur as a **Kolkata/Hooghly microcluster**; not yet an included sleep world and not yet site-graded.
+REOPENED / ACTIVE CONTENT:
+Serampore/Srirampur as Kolkata/Hooghly pilgrimage microcluster with graded A+ core; no separate sleep-world assumption.
 
-FINAL OUT unless Mark explicitly reopens:
+FINAL OUT unless later explicitly reopened:
 Puri/Odisha; Vrindavan/Braj/Mathura/Govardhan; Haridwar-Kankhal-Rishikesh dedicated world; Prayagraj; Mysuru-Bengaluru; Kasar Devi-Almora dedicated module; Ranchi; Sri Aurobindo/Puducherry.
 
-Source/research information about a FINAL OUT world may be preserved as provenance without reopening it operationally.
+## CURRENT LEADING MACRO — PARKED
 
-## HARD / LIVE DURATION TRUTH
+`Kumaon -> Delhi transit bed -> Agra/Taj -> 12988 -> Bodh Gaya -> Varanasi/Sarnath -> Kolkata/Dakshineswar + Serampore -> Tiruvannamalai -> Chennai airport-side -> final Delhi -> AI155`
 
-Hard:
-- Nainital 3n.
-- Dunagiri/Kukuchina 3n.
-- Haidakhan 3n + 2 full protected quiet days.
-- Agra 1 hotel night; Taj [A+] protected.
-- Varanasi/Sarnath 8n `LOCKED_BY_MARK`.
-- Kolkata/Dakshineswar current serious block 3n; Serampore review does not automatically add a night.
-- final Delhi exactly 1n.
+`GLOBAL_REOPTIMIZATION_REQUIRED = NO` for now. First solve local Kolkata/Hooghly content/time after classification. Only a material later result can trigger a global solve.
 
-Prepared but **not current question while PDF review is active**:
-- Bodh 3n / Tiru 4n versus Bodh 2n / Tiru 5n.
+## BODH EXECUTION — RETAINED, NOT CURRENT FIRST QUESTION
 
-Grade/time savings inside a duration-locked world do not automatically change that duration. Finish content/value review first, then assess whether accumulated deltas justify reopening any duration.
+Working pilgrimage direction remains:
+`Dungeshwari -> seven-stupa ridge out-and-back -> Gyan Yatra/Buddha Marg -> Sujata offering A+ -> Sujata Stupa A -> river/countryside -> Mahabodhi/Bodhi Tree`.
 
-## POST-FREEZE MARK TRUTH MATERIALIZED SO FAR
+Do not redo existence research or invent descent beyond Stupa 7.
 
-- A003 Hanuman Garhi + Maharajji-kuti = **A+**; Maharajji-kuti is the center of gravity.
-- A006 Dhokaney Waterfall = **conditional A***, corridor only.
-- A013 Bedai, A014 Petha, A015 Gajak = **B opportunistic**.
-- Haidakhan local-Kailash summit / summit temple = **A**, separate from ashram and cave; execution on-site conditional unless Mark later requires a guarantee.
-- Sujata milk-offering spot / Sujata Temple / traditional banyan = **A+**.
-- Sujata Stupa/Garh = **A**, separate physical place.
-- A023 Shitala, A044 Adi Keshava, A047 Bindu Madhav, A050 Sankatha Devi, A059 Shreyansanath Jain Tirth, A060 Saranganath = **B** and are retained in the complete live ledger.
-- A035 Lolark Kund = **conditional A***.
-- A037 Subah-e-Banaras = **conditional A***, zero-cost only.
-- A043 Kedareshwar/Kedar Ghat remains **A** with restored Sri Ramakrishna relevance.
-- A067 The Dreaming Tree = **A***, changed by Mark 2026-09-13.
-- A068 Virupaksha Cave = **A+**, changed by Mark 2026-09-13.
-- Serampore/Srirampur = explicitly **REOPENED FOR MARK REVIEW**, site grades still open.
-- tradition is valid pilgrimage evidence; Mark-facing prose must not turn the trip into a courtroom.
+## V4 GATE
 
-Recent PDF-review guidance:
-- A058 Mulagandha Kuti Vihara should not be downgraded merely from the current terse card; first expose its stronger actual content. Time reduction may be preferable to grade reduction.
-- A036 Shree Shree Ma Anandamayi Ashram, Bhadaini is Mark's principal Anandamayi Ma place in the retained route; Kankhal is the heavier samadhi world historically but FINAL OUT as a dedicated world, so Bhadaini is not duplicated later by a stronger active-route Anandamayi site.
-- A037 is Subah-e-Banaras and is already conditional A*, not the Anandamayi site.
+Do not call v3 final and do not generate final v4 until:
+- current item/grade review is stable;
+- classification-regression high-priority gaps are Mark-triaged;
+- complete live ledger retains all recovered grades/statuses;
+- latest grade/card overlays are materialized;
+- Serampore/Kolkata geometry has exact marginal-time fields where neighbors are assigned;
+- still-genuine duration choices are then resolved;
+- mechanical verification passes for 33 nights, stable IDs, current grades, physical entities, FINAL OUT suppression, time fields and tone.
 
-## HARD LOCATION TIME-ACCOUNTING RULE — MARK 2026-09-13
+## NO GLOBAL REDO
 
-For every decision-grade location card once predecessor and successor are assigned:
+Already complete; do not restart globally:
+- frozen A79 coverage gate;
+- CCI/WORK macro solves + mutual red-team;
+- 79/79 person-provenance/relevance work;
+- Haidakhan local-Kailash research;
+- Gyan Yatra/Buddha Marg existence research;
+- seven Pragbodhi stupa research;
+- Sujata offering-vs-stupa research;
+- global topology solve.
 
-`TOTALE TIJD VOOR DEZE LOCATIE = vorige -> locatie + dwell/bezoek + locatie -> volgende`
-
-`TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT = vorige -> locatie + dwell + locatie -> volgende - nieuwe directe vorige -> volgende`
-
-The direct predecessor-to-successor movement must be genuinely recalculated. Do not substitute dwell time or nominal detour time.
-
-Use door-to-door / whole-human travel: walking, relevant station/ferry/parking/access transfer, realistic waiting/slack and mode changes where material.
-
-Governing file:
-`governance/MARK_FACING_PLACE_CARD_TRAVEL_VALUE_RULE_2026-09-13.md`.
-
-## CURRENT LEADING MACRO — PARKED, NOT CANCELLED
-
-North-first remains the leading macro:
-`Kumaon -> Delhi transit bed -> Agra/Taj -> 12988 -> Bodh Gaya -> Varanasi/Sarnath -> Kolkata/Dakshineswar [Serampore microcluster now under live re-review] -> Tiruvannamalai -> Chennai airport-side -> final Delhi -> AI155`.
-
-`GLOBAL_REOPTIMIZATION_REQUIRED = NO` at this stage. Serampore creates a local Kolkata/Hooghly content/burden reassessment first; do not run a new global solve unless Mark's later grades or real timing force it.
-Do not use this parked macro as a reason to hurry Mark through the active PDF/item review.
-
-## BODH GAYA EXECUTION RESEARCH — RETAINED, NOT CURRENT FIRST QUESTION
-
-Protected working direction:
-`Dungeshwari -> all-seven Pragbodhi ridge out-and-back -> Gyan Yatra/Buddha Marg -> Sujata offering [A+] -> Sujata Stupa [A] -> river/countryside -> Mahabodhi/Bodhi Tree`.
-
-Do not redo its existence research and do not invent a descent beyond Stupa 7. Operational alignment/guide/crossing remain later live checks.
-
-## V4 PDF RULE
-
-Do **not** call v3 final. V4 can only be trustworthy after the current Mark PDF/item review and rich-source reconciliation have been incorporated into the live grade/card source.
-
-Before v4:
-- current complete live ledger must retain B as well as A+/A/A* knowledge;
-- incorporate every new explicit Mark grade decision from this review;
-- enrich cards where original WHY/micro-location/experience was lost;
-- present and grade the reopened Serampore microcluster before suppressing or scheduling it;
-- include the mandatory `TOTALE TIJD VOOR DEZE LOCATIE` and `TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT` fields wherever route neighbors are assigned;
-- then resolve still-genuine duration/macro choices;
-- mechanically verify live A+/A coverage, new entities, stable historic IDs, 33 nights, current grades, FINAL OUT suppression and tone.
+`NO_REDO != DO_NOT_READ`: reopen raw outputs where needed to recover per-place meaning or find classification omissions.
 
 ## OPERATING GUARDS
 
-- Mark owns A+/A/A*/B/C grades and subjective choices.
-- those letters are never scenario labels.
-- no downgrade recommendation from an impoverished card.
-- no silent grade/lock changes.
-- no booking before final Mark choices and execution-grade live checks.
-- exact future transport/access = `LIVE_RECHECK_LATER` until verified.
-- geometry claims require correct entity + relevant access point + movement route; no guessed pins.
-- PR #23 remains relay; future delegation must satisfy `governance/EXACT_DELEGATION_BINDING_RULE.md`.
-- no material truth may live only in chat.
+- Mark owns all subjective grades.
+- no downgrade from an impoverished card.
+- no silent entity deletion because a place becomes B/C/Open.
+- no booking yet.
+- exact future access/timetables remain `LIVE_RECHECK_LATER` until execution critical.
+- geometry requires correct entity + access point + real movement route.
+- PR #23 remains relay.
+- no material current truth may live only in chat.
 
 END CURRENT STATE
