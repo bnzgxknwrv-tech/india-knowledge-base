@@ -1,75 +1,96 @@
 # INDIA CURRENT DECISIONS MASTER — MATERIALIZED CURRENT TRUTH
 
 Status: **CURRENT / ALWAYS READ / DERIVED VIEW**
-Updated: 2026-09-10
+Updated: 2026-09-13
 Branch: `agent/india8-cluster-casting`
 Event/provenance layer: `governance/DECISION_LEDGER.jsonl`
 Human/WHY layer: `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md`
 Frontier cockpit: `governance/CURRENT_STATE.md`
 Crash-safe checkpoint: `governance/SUCCESSOR_SAFE_STATE.md`
+Newest successor truth: `runs/active/INDIA19_FINAL_EXTRACTION_2026-09-13.md` at `06a8dc145cb3ab1d73dabc5b85624719442be62c`
 
-Purpose: answer `AL BESLIST?` quickly. Detailed decision files and ledger retain full provenance. Newest explicit Mark truth always outranks stale materialized wording.
+Purpose: answer `AL BESLIST?` quickly. Detailed decision files and the ledger retain full provenance. Newest explicit Mark truth and newer owning decision files always outrank stale materialized wording.
 
 ## 1. AUTHORITY / DO-NOT-INFER
+
 - Only Mark assigns/changes subjective `A+ / A / A* / B / C`, personal hotel/base selection, subjective dwell/pace and optional-world inclusion.
 - Research/execution can confirm feasibility but is not a new Mark decision.
 - New discovery never silently reopens C or mutates an existing grade.
 - Before presenting a choice: `AL BESLIST?` + `AL AAN MARK GEPRESENTEERD?`.
 - `RESEARCH_COMPLETE_ENOUGH != MARK_TRIAGE_COMPLETE != DURATION_CLOSED`.
+- A frozen worker/A79 grade is not live truth after a later explicit Mark decision; preserve historic IDs and provenance, but derive live grades separately.
 
 ## 2. MARK / TRIP-VISION CHECKSUM
+
 - spiritual depth and personally resonant places > maximizing site count;
 - Arunachala/Ramana is experiential and low-tempo;
 - ordinary bazaars/markets are not a positive Mark-facing category;
-- restaurants/cafés are FINAL COMFORT and zero independent day/night weight;
+- restaurants/cafés are FINAL COMFORT and zero independent day/night weight unless a concrete process/production experience is separately graded;
 - high cashew, sweets, serious coffee and fragrance/distillation interest;
 - eucalyptus-specific detour search dropped;
 - relaxed != empty;
 - Mark decides subjective value; INDIA owns research, geography, burden, bundling, robustness and recommendation framing.
 
 ## 3. PRESENTATION / GRADE RULE
+
 - A+/A/A*/B/C are reserved for Mark grades; never use them as scenario/bundle labels.
 - unfamiliar places require canonical name + Dutch recognition hook + city/microcluster + current grade/status.
-- burden-sensitive choices require real base relation, nearest retained A+/A, natural companion, whole-human burden, dwell, displacement and uncertainty.
+- every live A+/A card must make the place recognizable and decision-usable: what physically, unique/recognition feature, person/event/original WHY, what Mark experiences, why he may care, meaningful sub-place, realistic dwell, and only material uncertainty.
+- do not use the old legalistic `strongest counterargument` rubric as the main Mark-facing format.
+- burden-sensitive choices require real base relation, natural companions, whole-human burden, dwell, displacement and uncertainty.
 - geometry claims require decision-grade entity/access/routing verification; old pins are not grandfathered.
 
 ## 4. HARD TRIP FRAME
+
 - AMS -> DEL 18 Dec 2026 20:35; arrival 19 Dec 10:15.
 - DEL -> AMS 21 Jan 2027 12:20; arrival 18:35.
-- 33 India accommodation/overnight-transport slots; 34-day planning-budget convention.
-- no exact final calendar yet.
-- train first when practical; target 1A; flight only for meaningful real door-to-door gain; private car mountains/last mile; no long-distance bus.
-- newest Mark end-positioning preference: arrive in Delhi on **20 Jan 2027**, not 19 Jan + a full extra Delhi day, unless robustness later proves that unsafe.
+- exactly 33 physical India nights, 19 Dec through 20 Jan.
+- exactly one final Delhi night immediately before AI155.
+- train first where practical; target 1A; flight only for meaningful real door-to-door gain; private car mountains/last mile; no long-distance bus.
+- final Delhi positioning is 20 Jan, not a default extra full Delhi day on 19 Jan.
 
-## 5. CURRENT GLOBAL PROCESS — ROUTE TOPOLOGY REOPENED
-Fixed-cluster traveler discovery + Mark triage is complete enough, but the exact global order and two duration sensitivities were explicitly reopened on 2026-09-09 by `decisions/FULL_A_COVERAGE_AND_GLOBAL_ROUTE_TOPOLOGY_REOPTIMIZATION_2026-09-09.md`.
+## 5. CURRENT GLOBAL PROCESS — LIVE LEDGER / MARK-FACING V4 REPAIR
+
+The 2026-09-09 route-topology reopening has been worked through. The four external analyses, frozen A79 gate, independent CCI/WORK macro solves, mutual cross-red-team and 79/79 person-provenance/relevance work are already complete. They are evidence/provenance, not current TODOs.
+
+`NEXT_MODE = LIVE_LEDGER_AND_MARK_FACING_V4_REPAIR`
 
 Current sequence:
-`RECONCILE FOUR EXTERNAL ROUTE ANALYSES + NIRMAL-20-JAN OVERRIDE -> RECORD WHAT+WHY -> CLOSE EXACT A/A+ COVERAGE -> BUILD FULL WAKING-HOURS DAY CARDS -> MARK CLOSES REMAINING DURATION/FIT -> LIVE LOGISTICS -> EXACT CALENDAR -> FINAL COMFORT`.
+1. build a NEW LIVE derived place/grade ledger without mutating frozen A79;
+2. apply all post-freeze Mark decisions while preserving stable historic IDs;
+3. rewrite every live A+/A card to the current Mark-facing place-card rule;
+4. repair the current clock family with corrected live grades/entities and the Bodh pilgrimage direction;
+5. return only genuine Mark-only decisions;
+6. only after those decisions generate v4 and mechanically verify live A+/A coverage, 33 nights, FINAL OUT suppression, stable IDs and current grades;
+7. then proceed to decision/booking-critical live logistics and later FINAL COMFORT.
 
 Current duration truth:
-- Bodh Gaya/Gaya: **NOT duration-closed**; 3 nights is strongly supported/current review surface, 2 nights is the comparison baseline.
-- Tiruvannamalai/Arunachala: **NOT duration-closed**; 4 nights is a serious live option, 5 nights is older state explicitly reopened.
-- Agra/Taj: 1 Agra hotel night remains the current retained hard architecture; Taj [A+] protected.
+- Bodh Gaya/Gaya: **NOT duration-closed**; 3 nights is current subjective/clock-family lead, 2 nights remains the objective alternative.
+- Tiruvannamalai/Arunachala: **NOT duration-closed**; 4 nights is paired with B3 in the current lead, 5 nights remains paired with B2 in the alternative.
+- CCI B3/T4 and WORK B2/T5 remained a genuine Mark-value tie after cross-red-team; no objective winner was established.
+- Mark previously said Bodh felt too short and Tiru too long; that gives B3/T4 the current subjective lead but **not a formal lock**.
+- Agra/Taj: 1 Agra hotel night remains the retained hard architecture; Taj [A+] protected.
 - Varanasi/Sarnath: 8 nights `LOCKED_BY_MARK`.
-- Kolkata/Dakshineswar: current serious working block 3 nights.
-- Final Delhi: exactly 1 night immediately before AI155.
+- Kolkata/Dakshineswar: current serious block 3 nights.
+- Haidakhan: 3 nights + 2 full protected quiet days `LOCKED_BY_MARK`.
+- final Delhi: exactly 1 night immediately before AI155.
 
-Current active frontier: **GLOBAL ROUTE-TOPOLOGY RECONCILIATION + EXACT A/A+ COVERAGE, NO BOOKING YET.**
+Current active frontier: **LIVE DERIVED LEDGER + MARK-FACING CARD/CLOCK REPAIR. NO GLOBAL REOPTIMIZATION. NO BOOKING YET.**
 
 ## 6. DELHI — RETAINED WORLD / FINAL-BUFFER RULE
+
 Current Nirmal rule:
 - **Nirmal Dham — Mataji/Nirmala Devi sacred ashram destination (Chhawla, southwest Delhi) [A+]** remains IN.
-- It is **NOT** an arrival-day 19 Dec stop.
+- It is NOT an arrival-day 19 Dec stop.
 - Default placement is the final Delhi safety/buffer on 20 Jan after positioning into Delhi.
 - AI155/international-flight safety outranks the visit; if disruption consumes the buffer, shorten/skip Nirmal operationally rather than weaken departure protection.
 - 19 Dec is free to optimize solely for onward movement.
 
-Current selected Delhi content preserved for later final-day/day-card placement where topology and safety allow:
+Selected Delhi content preserved for final-window placement where safety allows:
 - **PVR Priya IMAX — historic standalone Hindi/Bollywood cinema experience (Vasant Vihar) [A]**; practical only if a genuinely worthwhile Hindi/IMAX title exists on actual date.
 - **Lotus Temple / Bahá’í House of Worship (Kalkaji / south Delhi) [A]**.
 
-Current B reserve:
+B reserve:
 - Qutb Minar and its Monuments [B] [UNESCO WH].
 - Hauz Khas Village [B].
 - Humayun’s Tomb [B] [UNESCO WH].
@@ -82,150 +103,185 @@ Genuine open/ungraded:
 - **Jama Masjid [OPEN]**; strong Mark combo preference with Red Fort but no individual grade.
 - **Vedic / Jyotish astrologer consultation [MARK_INTERESTED / UNGRADED]**; only a reputable English-speaking appointment-based practitioner without obvious gemstone/remedy upsell dominance.
 
-C / suppress unless reopened:
-- Sulabh International Museum of Toilets;
-- Dilli Haat INA;
-- National Rail Museum;
-- Lodhi Art District;
-- PVR Select Citywalk IMAX;
-- Jantar Mantar;
-- Swaminarayan Akshardham;
-- Chandni Chowk + Khari Baoli;
-- Agrasen ki Baoli;
-- Jhandewalan 108 Foot Hanuman Temple;
-- National Crafts Museum;
-- Delite Cinema;
-- Feroz Shah Kotla Fort;
-- Shankar’s International Dolls Museum.
+C / suppress unless explicitly reopened:
+Sulabh International Museum of Toilets; Dilli Haat INA; National Rail Museum; Lodhi Art District; PVR Select Citywalk IMAX; Jantar Mantar; Swaminarayan Akshardham; Chandni Chowk + Khari Baoli; Agrasen ki Baoli; Jhandewalan 108 Foot Hanuman Temple; National Crafts Museum; Delite Cinema; Feroz Shah Kotla Fort; Shankar’s International Dolls Museum.
 
-Delhi geometry is **not** the current first content action. Revisit exact final-window/day-card geometry only after the reopened route topology and A/A+ coverage are reconciled.
+Delhi geometry is not the current first content action.
 
-## 7. KUMAON — PRIOR CANON STRONG
-- Haidakhan Vishwa Mahadham/Ashram [A+]; 3 nights / 2 complete quiet days LOCKED_BY_MARK.
+## 7. KUMAON / HAIDAKHAN — PRIOR CANON STRONG, ONE NEW LIVE A
+
 - Hotel Evelyn [A+].
 - Kainchi Dham [A+].
 - Mahavatar Babaji Cave [A+].
+- Haidakhan Vishwa Mahadham/Ashram [A+].
 - YSS Dwarahat [A], full day/no overnight.
+- **Haidakhan local Kailash summit / summit temple [A]** — prolonged meditation and early teaching place of Haidakhan Babaji; separate from ashram and cave; mandatory visibility; actual climb on-site conditional unless Mark explicitly chooses to guarantee it.
 - Kakrighat [A* / SKIP_FIRST].
 - Turiya Niwas + Bodh Ashram [C].
 - Dunagiri Retreat = PRIMARY; Joshi Guest House = fallback.
-- prior footprint ~9 occupied days / 9 nights; later short recheck only.
 - aromatic-oil/distillation experience [B] only if route-cheap; no separate day.
-- newest leading human order remains Nainital first -> Kainchi/Bhumiadhar -> Dunagiri/Kukuchina/Babaji Cave -> true Haidakhan Vishwa Mahadham -> onward; exact global topology remains under reconciliation.
 
-## 8. AGRA / TAJ — CURRENT RETAINED 1-NIGHT ARCHITECTURE
+Hard duration: Nainital 3n + Dunagiri/Kukuchina 3n + Haidakhan 3n with 2 full quiet days.
+
+Current human order remains Nainital -> Kainchi/Bhumiadhar -> Dunagiri/Kukuchina/Babaji Cave -> true Haidakhan Vishwa Mahadham -> onward.
+
+The local Kailash summit creates a genuine execution tension only if Mark wants the summit guaranteed: a real summit pilgrimage can consume much of a day, while two full quiet days are already protected. Do not silently consume a quiet day.
+
+## 8. AGRA / TAJ — 1-NIGHT ARCHITECTURE, FOOD POST-FREEZE CORRECTED
+
 - Taj Mahal [A+] [UNESCO WH] sole fixed-core sightseeing anchor.
-- one Agra hotel night in genuinely walkable East Gate/Shilpgram geometry = prior LOCKED_BY_MARK/current retained architecture.
+- one Agra hotel night in genuinely walkable East Gate/Shilpgram geometry remains the retained architecture.
 - rejected Agra sightseeing remains rejected.
 - Yogananda historical-photo cue at Taj remains required.
-- newest Mark rule: earliest practical Taj morning, then depart as soon as the first genuinely good whole-human onward connection permits; no filler sightseeing.
+- earliest practical Taj morning, then depart as soon as the first genuinely good whole-human onward connection permits; no filler sightseeing.
+- WORK commit `928052f16edfeaf75aba1e60d8c587036eb94e64` already tested the Agra->Gaya/Prayagraj corridor and retained direct 12988 as the whole-human winner (`KEEP_12988_DIRECT`); do not re-research that corridor absent a material new fact.
 
-Current traveler/food grades:
-- Bedai at Deviram's [A].
-- Petha [A].
-- Gajak [A].
+Post-freeze Mark correction:
+- Bedai [B] — opportunistic.
+- Petha [B] — opportunistic.
+- Gajak [B] — opportunistic.
+- all three: `TRY_TO_INCLUDE_IF_ZERO_OR_NEAR_ZERO_MARGINAL_BURDEN`; first drops under pressure.
 - Dalmoth [B].
 - Kinari Bazaar [C].
 - Sadar Bazaar / Chaat Gali [C].
 
-Current operational evidence:
-- inbound charged as full positioning day;
-- one hotel night;
-- earliest/sunrise-class Taj morning with ~3–3.5 h protected dwell;
-- WORK commit `928052f16edfeaf75aba1e60d8c587036eb94e64` independently tested the Agra->Gaya/Prayagraj corridor and retained direct 12988 as the whole-human winner (`KEEP_12988_DIRECT`);
-- do not re-research that closed corridor unless a genuinely new timetable/material fact appears.
+Any older A013–A015=A wording is superseded as live grade truth.
 
-## 9. BODH GAYA / GAYA — RETAINED / DURATION LIVE
-Retained current materialized set: Mahabodhi [A+] [UNESCO WH], Sujata [A+], Dungeshwari [A+], same-hill ridge [A], Great Buddha [A], international monastery belt [A].
-Protected day: Mahabodhi -> Sujata -> Dungeshwari (+ ridge) WALK OUT / PREARRANGED CAR BACK.
+## 9. BODH GAYA / GAYA — RETAINED, EXECUTION NARRATIVE REPAIRED, DURATION LIVE
 
-Current duration status after the 2026-09-09 reopen:
-- 3 nights = strongly supported/current review surface;
-- 2 nights = comparison baseline;
-- **not `TRUE_DURATION_CLOSED`** and not for INDIA to close subjectively without Mark.
+Current live materialized anchors include:
+- Mahabodhi Temple / Bodhi Tree [A+] [UNESCO WH].
+- Dungeshwari cave A021 [A+].
+- Pragbodhi seven-stupa ridge A022 [A].
+- **Sujata milk-offering spot / Sujata Temple / traditional banyan location [A+]**.
+- **Sujata Stupa/Garh [A]** — separate physical place from the milk-offering location.
+- Great Buddha [A].
+- international monastery belt [A].
 
-The full A/A+ coverage audit must explicitly include the same-hill ridge/context and must verify the exact current retained set without parent/child double-counting.
+Do not revive the older Mahabodhi -> Sujata -> Dungeshwari walk-out/car-back as the preferred narrative. Current strongest pilgrimage direction is:
+`taxi to Dungeshwari -> cave -> all-seven Pragbodhi ridge out-and-back -> established Gyan Yatra / Buddha Marg countryside route -> Sujata milk-offering spot -> Sujata Stupa/Garh -> river corridor -> Mahabodhi/Bodhi Tree/hotel`.
 
-## 10. VARANASI / SARNATH — PRIOR CANON STRONG, 8 NIGHTS LOCKED
+The official Gyan Yatra/Buddha Marg and the seven Pragbodhi stupa remains are already researched facts. Do not rediscover them. Safest current ridge geometry is cave-side out-and-back; do not invent a descent beyond Stupa 7. Remaining work is operational alignment/guide/river-field crossing/live timing.
+
+Current duration status:
+- 3 nights = current subjective/clock-family lead and strengthened by the fuller pilgrimage day;
+- 2 nights = objective alternative retained;
+- **not duration-closed** until Mark decides.
+
+## 10. VARANASI / SARNATH — 8 NIGHTS LOCKED, COVERAGE RESEARCH COMPLETE
+
 - Varanasi/Sarnath = 8 nights `LOCKED_BY_MARK`.
 - Sahi River View Guesthouse, Assi Ghat = LOCKED_BY_MARK; balcony room desired; Jitendre; greetings from Debby.
 - Manikarnika Ghat [A+] final content block of its day.
-- Bhrigu Karyalaya / Bhadury Sadan [A+] LOCKED_BY_MARK; never on Manikarnika day.
+- Bhrigu Karyalaya / Bhadury Sadan [A+] LOCKED_BY_MARK; never on Manikarnika day; access/appointment gate must remain explicit.
 - early Lahiri/Kriya + Assi/Ganges orientation protected.
-- PR #23 itself states the full historic Mark selection as 32 A, 5 B, 3 C; later recovery/audit work must preserve Mark truth rather than infer new grades.
-- Sarnath is current UNESCO World Heritage (2026 inscription); stale `Tentative` wording must not survive final presentation.
-- exact A/A+ coverage is still open because several retained sites are missing/hidden/conditional in the current 22-page review surface.
+- historic Mark selection remains preserved; later audit work must not infer new grades.
+- Sarnath UNESCO status/current presentation must be current, not stale Tentative wording.
 
-## 11. TIRUVANNAMALAI / ARUNACHALA — RETAINED / DURATION LIVE
+The old statement that exact A/A+ coverage is still open is superseded. Frozen A79 coverage and later person-provenance/relevance work are complete. Current work is **live-ledger/card/clock repair**, not another coverage sweep.
+
+Clock rule: Sarnath museum must be placed on an open-museum date; current working placement is Sunday 10 Jan 2027, not Friday.
+
+## 11. KOLKATA / DAKSHINESWAR — INCLUDED, 3-NIGHT WORKING BLOCK
+
+- Kolkata/Dakshineswar is FINAL INCLUDED.
+- Dakshineswar Kali Temple [A+].
+- Yogoda Satsanga Math Dakshineswar [A+].
+- Belur Math [A].
+- person-provenance restoration/relevance challenge is complete; do not restart it because worker branches remain unmerged.
+- historical 4 Garpar Road and the current YSS Garpar centre remain distinct physical entities; exact A064->A065 geometry may not be presented as decision-grade until both relevant access points are verified.
+- sleep-base preference remains spiritual-core-anchored around Dakshineswar/Belur; YSS lodging eligibility must not be assumed.
+
+Exact visitor/program hours, ferry/museum sessions and January access are `LIVE_RECHECK_LATER` when calendar/booking critical.
+
+## 12. TIRUVANNAMALAI / ARUNACHALA — RETAINED / DURATION LIVE
+
 Protected:
-- Arunachala/Ramana [A+] parent;
+- Arunachala/Ramana [A+] parent experience;
 - Sri Ramanasramam, Virupaksha Cave, Skandashram, Arunachaleswarar Temple, Gurumurtam, Pavalakunru, Girivalam 14 km [A];
 - Mango Tree Cave [B only if natural]; Pachaiamman Temple [B only if easy].
 
-Current duration status after the 2026-09-09 reopen:
-- 4 nights = serious live option / current stress-test surface;
-- 5 nights = older state explicitly reopened, not an unreopenable present lock;
+Current duration status:
+- 4 nights = paired with B3 in the current subjective/clock-family lead;
+- 5 nights = paired with B2 in the objective alternative;
 - Sri Chakra Puja = optional bonus, not a separately Mark-graded mandatory anchor and not a Tiru5 veto;
-- Mark, not INDIA, closes the final subjective pace/fit choice.
+- Mark, not INDIA, closes final subjective pace/fit.
 
 Later decisions preserved:
 - Sathanur Dam [C]; market world [C];
 - Dreaming Tree [A — FINAL COMFORT]; Inner Child [A — FINAL COMFORT]; Auro Usha [C — FINAL COMFORT]; Amutham [A — FINAL COMFORT].
 
-Sun Thermo Process remains OPEN / ACCESS TO PROVE; real factory about 15 km from town, no public visitor-tour regime found, zero baseline duration weight.
+Sun Thermo Process remains OPEN / ACCESS TO PROVE; zero baseline duration weight.
 
-## 12. FINAL TRIP WORLDS — LOCKED (2026-09-07), ORDER REOPENED (2026-09-09)
-Newest explicit Mark truth controls. World inclusion is locked; **macro order is not**.
+## 13. FINAL TRIP WORLDS — INCLUSION LOCKED; NORTH-FIRST MACRO LEADS, FINAL LOCK MARK-ONLY
 
-Current scope owner:
-`decisions/FINAL_TRIP_WORLDS_LOCK_2026-09-07.md` plus the later route-topology override `decisions/FULL_A_COVERAGE_AND_GLOBAL_ROUTE_TOPOLOGY_REOPTIMIZATION_2026-09-09.md`.
+World inclusion is locked. Current three-party macro evidence leads north-first; do not resurrect Varanasi-first absent a genuinely new hard fact. Literal FINAL macro lock remains Mark-only.
 
 Fixed trip-content worlds:
-1. **Haidakhan Vishwa Mahadham/Ashram [A+]** — retained, existing 3-night/2-complete-quiet-day lock stands.
-2. **Kolkata/Dakshineswar — FINAL INCLUDED.** Anchor grades: Dakshineswar Kali Temple [A+], Yogoda Satsanga Math Dakshineswar [A+], Belur Math [A]. Sleep-base preference is spiritual-core-anchored (Dakshineswar/Belur): `decisions/KOLKATA_DAKSHINESWAR_SPIRITUAL_SLEEPBASE_PREFERENCE_2026-09-07.md`, `decisions/DAKSHINESWAR_YSS_LODGING_LINEAGE_COMPATIBILITY_2026-09-07.md` (Mark is Kriyaban via Ananda lineage, not YSS/SRF — do not assume YSS lodging eligibility). ~29 further deep-pass candidates (`worker/kolkata-dakshineswar-deep-pass` commit `8e6758a`) are UNGRADED, pending a distance/burden filter from the Dakshineswar/YSS zero-point.
-3. **Puri/Odisha — FINAL EXCLUDED.**
-4. **Serampore/Srirampur — FINAL EXCLUDED** as a trip stop/base; historical AOAY/Sri Yukteswar provenance preserved, not erased.
-5. **Vrindavan/Braj — FINAL EXCLUDED.**
+1. Haidakhan Vishwa Mahadham/Ashram [A+] — retained with 3n/2 quiet-day lock.
+2. Kolkata/Dakshineswar — FINAL INCLUDED.
+3. Puri/Odisha — FINAL EXCLUDED.
+4. Serampore/Srirampur — FINAL EXCLUDED as a trip stop/base; historical provenance preserved.
+5. Vrindavan/Braj/Mathura/Govardhan — FINAL EXCLUDED.
 
-Final skips / do not re-present as optional cluster unless Mark explicitly reopens:
-- Haridwar–Kankhal–Rishikesh — FINAL SKIP BY MARK; existing individual site grades stay preserved.
-- Prayagraj / Allahabad — FINAL SKIP.
-- Mysuru/Mysore–Bengaluru — FINAL SKIP.
-- Kasar Devi–Almora / Crank's Ridge dedicated module — FINAL SKIP as module; individual route-free ride-along rules/grades remain separate.
-- Ranchi — FINAL SKIP.
-- Sri Aurobindo Ashram / Puducherry — FINAL SKIP / DO NOT RE-PRESENT.
+Final skips / do not re-present unless Mark explicitly reopens:
+- Haridwar–Kankhal–Rishikesh dedicated world;
+- Prayagraj / Allahabad;
+- Mysuru/Mysore–Bengaluru;
+- Kasar Devi–Almora / Crank's Ridge dedicated module;
+- Ranchi;
+- Sri Aurobindo Ashram / Puducherry.
 
-Still open: exact world order, exact calendar dates, Bodh 2/3 fit, Tiru 4/5 fit, exact full A/A+ coverage, Kolkata site-level grading/dwell/sleep-base finalization.
+Current leading B3/T4 clock family:
+- 19 Dec onward positioning/sleeper; no Nirmal;
+- Nainital 3n;
+- Dunagiri/Kukuchina 3n;
+- Haidakhan 3n;
+- 29 Dec Delhi transit bed;
+- 30 Dec Agra;
+- 31 Dec earliest practical Taj + 12988 overnight;
+- 1–3 Jan Bodh Gaya;
+- 4–11 Jan Varanasi/Sarnath;
+- 12–14 Jan Kolkata/Dakshineswar;
+- 15–18 Jan Tiruvannamalai;
+- 19 Jan Chennai positioning/content;
+- 20 Jan final Delhi/Nirmal safety-buffer;
+- 21 Jan AI155.
 
-**Superseded background, do not treat as current**: the earlier `decisions/OPTIONAL_WORLD_FINAL_PAIR_SCOPE_2026-09-06.md` / Braj+Puri-vs-Kolkata exact-calendar apparatus predates the world lock. Its verification *methods* remain reusable; its FAIL/PASS *conclusions* about Braj+Puri no longer apply — there is no more comparison, Braj and Puri are simply excluded.
+Exact future transport/access inventory remains `LIVE_RECHECK_LATER` until decision/booking critical.
 
-Content-presentation standard for Kolkata's own upcoming site-grading round still applies from `decisions/CONTENT_BEFORE_CALENDAR_OPTIONAL_WORLD_CHOICE_MARK_RULE_2026-09-06.md`:
-- present full content-richness before/alongside grading, not calendar-burden-only;
-- reconstruct existing historical site-level grades losslessly; cluster status and site grade are separate axes;
-- explain what each place physically is and what Mark sees/does there;
-- preserve Top-11/AOAY/person links and the reason each location mattered;
-- show representative photos when appearance materially affects attractiveness;
-- calendar/burden PASS/FAIL and spare-night arithmetic answer `kan het passen?`, not `wil Mark dit inhoudelijk?`.
+## 14. GENUINE MARK-ONLY DECISIONS STILL OPEN
 
-## 13. SPECIAL-INTEREST / FINAL-COMFORT BOUNDARY
-Food/shop-only findings normally wait for FINAL COMFORT. A real factory/process/distillation visit can be separate travel content only if Mark grades that concrete experience and its marginal burden is justified.
+1. **Duration lock:** Bodh Gaya 3n + Tiruvannamalai 4n versus Bodh Gaya 2n + Tiruvannamalai 5n. B3/T4 leads subjectively but is not formally locked.
+2. **Pongal / 15 Jan 2027 implications:** exact effect on Kolkata -> south transfer/Tiruvannamalai calendar remains open and must be presented as a factual risk surface, not guessed away.
+3. **Formal macro-route lock:** north-first is current leading macro; literal FINAL_LOCK is Mark-only.
+4. **Haidakhan summit execution:** current A is locked and visibility mandatory; on-site conditional execution is valid. If Mark wants summit guaranteed, explicitly resolve the conflict with two full quiet days.
 
-## 14. TRANSFER / ROUTE STATUS
-Train-first and whole-human-door-to-door remain hard. Exact Jan-2027 trains/flights/hotels/openings/cinema/food facts are LIVE_RECHECK_LATER until decision/booking/calendar critical. Coordinates/access used for decisions require fit-for-purpose verification at use time.
+## 15. EXACT CURRENT FIRST ACTION / NO-REDO BOUNDARY
 
-## 15. EXACT CURRENT FIRST ACTION
-`FIRST_CONTENT_ACTION = RECONCILE FOUR EXTERNAL GLOBAL ROUTE ANALYSES WITH NIRMAL-20-JAN OVERRIDE.`
+`FIRST_CONTENT_ACTION = BUILD_NEW_LIVE_DERIVED_PLACE_GRADE_LEDGER_FROM_FROZEN_A79_PLUS_POST_FREEZE_MARK_TRUTH.`
 
-Sequence:
-1. treat the four external AI analyses as evidence, not votes;
-2. inject `NIRMAL_DHAM_PLACEMENT = FINAL_DELHI_BUFFER (default 20 Jan), NOT ARRIVAL_DAY` into every contender;
-3. retain WORK `928052f` Agra->Gaya corridor result as closed input (`KEEP_12988_DIRECT`), not a research task;
-4. compare incumbent, Varanasi-first/same-day VNS, same-day GAY and any evidence-supported synthesis on exact 33-night, failure tolerance and whole-human burden;
-5. durably record WHAT+WHY at `runs/active/INDIA19_ROUTE_TOPOLOGY_RECONCILIATION_2026-09-10.md` before moving on;
-6. then close the exact A/A+ coverage audit and expose each retained physical A/A+ individually in the next waking-hours schedule;
-7. only after Mark closes remaining duration/fit may booking/execution resume.
+Then:
+1. rewrite all live A+/A cards to `governance/MARK_FACING_PLACE_CARD_TRAVEL_VALUE_RULE_2026-09-13.md`;
+2. repair the current clock plan with the corrected live ledger and Bodh direction;
+3. prepare the first genuine Mark-only decision surface;
+4. only after Mark decisions build v4 and run mechanical checks.
+
+Do NOT redo:
+- frozen A79 gate;
+- independent macro solves;
+- mutual cross-red-team;
+- 79/79 person-provenance restoration;
+- 79/79 relevance challenge;
+- Haidakhan summit classification investigation;
+- Gyan Yatra existence research;
+- seven-stupa existence/mapping research;
+- Sujata offering-vs-stupa separation/grades.
+
+`UNMERGED_BRANCH != UNFINISHED_TASK`.
 
 ## 16. AFTER EVERY MATERIAL EVENT
-Mark decisions: preserve WHAT + WHY + provenance. Material execution/research: write owning file and synchronize current state/routing before reply. A successor must continue from GitHub without Mark reconstructing chat history.
+
+Mark decisions: preserve WHAT + WHY + provenance in a new owning `decisions/...` artifact and append the decision ledger/current routing as applicable. Material execution/research: write an owning file and synchronize current state/routing before reply. A successor must continue from GitHub without Mark reconstructing chat history.
 
 END CURRENT DECISIONS MASTER
