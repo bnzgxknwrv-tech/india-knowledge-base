@@ -13,10 +13,12 @@ This file is the durable handoff after INDIA19 reached context limit. It is inte
 `SUBSTANTIVE_BASELINE_HEAD_BEFORE_EXTRACTION = 13a19c939dbb3403308291b6aac67f76641f9544`
 Message: `Define executable seven-stupa plus Gyan Yatra Bodh Gaya walk`.
 
-Extraction pass 1 was committed as:
-`b3eeda79d0d06ac806d74a2beb35757882da0fef`
+Extraction review commits before the final pass:
+- initial extraction: `948f712b5a40258d15ed595dfb3716b72f3defde`
+- pass 1: `b3eeda79d0d06ac806d74a2beb35757882da0fef`
+- pass 2: `4effc5e7450fa15f3f021e2d05059951420823b9`
 
-The final extraction commit will necessarily be newer than the substantive baseline and cannot self-reference its own final hash. The shutdown chat must report the final commit hash after the third review pass.
+The final extraction commit is necessarily newer than the substantive baseline and cannot self-reference its own final hash. The shutdown chat must report the final pass commit after verifying the central branch ref.
 
 **Worker divergence counts below are a snapshot against substantive baseline `13a19c...`.** Extraction-only commits naturally increase worker `behind_by` counts afterward; that does NOT create new worker content. The listed unique worker content and `ahead_by` state are the substantive facts that matter.
 
@@ -37,12 +39,23 @@ Recent substantive central chain, newest before extraction:
 
 ### Source hierarchy / successor method
 
-GitHub is canonical. Use the newest binding Mark decisions and governance first; then verified source research; then analytical conclusions. Frozen audit artifacts remain historical evidence but do not override later Mark decisions.
+GitHub is canonical. Use newest binding Mark decisions and governance first; then verified source research; then analytical conclusions. Frozen audit artifacts remain historical evidence but do not override later Mark decisions.
 
-Do NOT reconstruct the project from this extraction alone when exact detail is needed: use the exact paths/commits named here. But do NOT start a new research cycle for facts already resolved here.
+Do NOT reconstruct the project from this extraction alone when exact detail is needed: use exact paths/commits named here. But do NOT start a new research cycle for facts already resolved here.
 
-Mark's person-priority ordering to preserve when interpreting direct-life geography:
-G1 Yogananda; G2 Babaji; G3 Lahiri Mahasaya; G4 Sri Yukteswar; G5 Ram Dass; G6 Neem Karoli Baba + Buddha; G7 Anandamayi Ma; G8 Ramakrishna + Ramana Maharshi; G9 Hariharananda + Vivekananda. These are equal groups; do not silently reorder inside a group.
+Mark's person-priority ordering for interpreting direct-life geography:
+G1 Yogananda; G2 Babaji; G3 Lahiri Mahasaya; G4 Sri Yukteswar; G5 Ram Dass; G6 Neem Karoli Baba + Buddha; G7 Anandamayi Ma; G8 Ramakrishna + Ramana Maharshi; G9 Hariharananda + Vivekananda. Equal groups; do not silently reorder inside a group.
+
+### Successor boot/read order — before any new India content work
+
+1. Read this extraction fully.
+2. Read `governance/EXACT_DELEGATION_BINDING_RULE.md`.
+3. Read `governance/MARK_PERSON_PROVENANCE_PLACE_MEANING_RULE.md`.
+4. Read `governance/MARK_FACING_PLACE_CARD_TRAVEL_VALUE_RULE_2026-09-13.md`.
+5. Read frozen ledger `runs/active/INDIA19-FINAL-ITINERARY-REBUILD-001/PHYSICAL_A_PLUS_A_COVERAGE_LEDGER.csv` only as historical audit baseline, not live grade truth.
+6. Read v3 reconciliation `runs/active/INDIA19-FINAL-ITINERARY-REBUILD-001/person-provenance/INDIA19_A79_V3_PERSON_PROVENANCE_RECONCILIATION_2026-09-11.md`.
+7. Read post-v3 decision/research files named in sections 6 and 7 below.
+8. Do NOT ask Mark to repeat already captured choices. First action is the live-ledger/v4 repair in section 12.
 
 ---
 
@@ -128,7 +141,7 @@ Checked old branches with no unique commits (`ahead=0`): `worker/nirmal-dham-fin
 
 INDIA19's latest 13-Sep Mark-facing decisions/research were written directly to central, not left on a separate INDIA19 workerbranch.
 
-**Do not merge old workers just to make the graph tidy.** Merge only if a future task specifically requires their raw artifacts on central; otherwise preserve them as provenance.
+**Do not merge old workers just to make the graph tidy.** Merge only if a future task specifically requires raw artifacts on central; otherwise preserve them as provenance.
 
 ---
 
@@ -145,35 +158,35 @@ v1:
 - audit manifest head `be3221681e634bf3be2538793c29d7c7c1789b59`.
 - CCI PR #23 comment `5631777382`: PASS_WITH_CORRECTIONS.
 - WORK PR #23 comment `5632780362`: PASS_WITH_CORRECTIONS.
-- both audit results processed.
+- both processed.
 
 v2:
 - reconciliation central commit `55f4498b51fcf32d588f051e501d3b872ba02d2e`.
 - useful 28-page clock skeleton/baseline.
-- NOT Mark-decision-safe; semantic flattening explicitly revoked its use as a sufficient basis for dropping/downgrading content.
+- NOT Mark-decision-safe; semantic flattening explicitly revoked its use as sufficient basis for dropping/downgrading content.
 
 v3:
 - latest generated Mark-facing PDF: `/mnt/data/INDIA19_Kloktijdplanning_A79_v3_PersonProvenance.pdf`.
 - reported 64 pages, 79 unique historic A-card IDs present.
 - SHA256 `c7bba0e9f67b9a17f0b748f48a0331a2a75403a8103b275c38cc251af9064c3c`.
 - durable reconciliation/index central commit `afb3ae4386e71935232baf94557334a26b14379a`.
-- **The PDF binary itself was a chat sandbox artifact, not a GitHub binary.** Durable sources/reconciliation/hash are in GitHub. If a successor cannot access the sandbox binary, regenerate from the durable source state rather than assuming it was deleted from GitHub.
-- **v3 is the latest PDF but is NOT current final truth.**
-- **No new CCI/WORK audit has validated a PDF containing the binding 13-Sep changes below. Therefore do not call v3 audited-final after those changes.**
+- **PDF binary was a chat sandbox artifact, not a GitHub binary.** Durable sources/reconciliation/hash are in GitHub. Regenerate if sandbox binary is unavailable.
+- **v3 is latest PDF but NOT current final truth.**
+- **No fresh CCI/WORK audit has validated a PDF containing the binding 13-Sep changes. Do not call v3 audited-final after those changes.**
 
 Open v4 corrections:
 1. Remove `STERKSTE TEGENARGUMENT` / courtroom/adversarial rubric from Mark-facing copy. Keep falsification internal.
-2. Spiritual/traditional meaning first; surface uncertainty prominently only when it can materially change destination/access/choice.
-3. Every card needs a recognition-first physical/experiential hook. Canonical trigger: A007 = Dunagiri **Bell Temple**, the long climb/corridor through hundreds of bells.
-4. Every card must explain travel value at least as well as a competent tourism office: what is unique, what Mark experiences, why it matters, what is lost if skipped. Canonical trigger: A026 Kashi Vishwanath.
-5. A013/A014/A015 remain stable historic card IDs but live grades are B opportunistic.
-6. Haidakhan local-Kailash summit is a separate NEW A entity; never merge into ashram/cave.
-7. Sujata milk-offering spot / traditional banyan/Sujata Temple is separate A+.
+2. Spiritual/traditional meaning first; surface uncertainty prominently only when it materially changes destination/access/choice.
+3. Recognition-first physical/experiential hook on every card. Trigger: A007 = Dunagiri **Bell Temple**, long climb/corridor through hundreds of bells.
+4. Explain travel value at least as well as a competent tourism office: unique feature, lived experience, why it matters, what is lost if skipped. Trigger: A026 Kashi Vishwanath.
+5. A013/A014/A015 stable historic IDs but live grades B opportunistic.
+6. Haidakhan local-Kailash summit = separate NEW A entity.
+7. Sujata milk-offering spot/traditional banyan/Sujata Temple = separate A+.
 8. Sujata Stupa/Garh = A.
-9. A022 Pragbodhi ridge = seven ancient stupa remains/markers; no longer a vague 45-minute ruin add-on.
-10. Bodh day direction becomes Dungeshwari -> ridge -> countryside/Gyan Yatra -> Sujata -> Bodhi Tree.
-11. A004/A005: best current location evidence places first Ram Dass/NKB physical meeting at Bhumiadhar; Kainchi remains central later guru/ashram world.
-12. Decouple stable A001–A079 card IDs from live grades. Do not renumber historic IDs merely because grades changed; add new entity IDs cleanly.
+9. A022 Pragbodhi ridge = seven ancient stupa remains/markers, not vague 45-minute ruin add-on.
+10. Bodh day direction = Dungeshwari -> ridge -> countryside/Gyan Yatra -> Sujata -> Bodhi Tree.
+11. A004/A005: best current evidence places first Ram Dass/NKB physical meeting at Bhumiadhar; Kainchi remains central later guru/ashram world.
+12. Decouple stable A001–A079 card IDs from live grades; add new entities cleanly.
 
 `NEXT_PDF = v4`, not a silent v3 patch.
 
@@ -183,21 +196,29 @@ Open v4 corrections:
 
 Research status: COMPLETE. Do not restart.
 
-CCI:
+CCI result:
 - PR #23 comment `5634842039`.
 - header `CCI_RESULT — INDIA19 A79 PERSON-PROVENANCE / ORIGINAL-WHY RESTORATION`.
 - status COMPLETE.
-- worker head `970fe70c7ed534fb30af2cf23172df4960b5a3ca`.
+- worker `worker/india19-cci-person-provenance-merged`, head `970fe70c7ed534fb30af2cf23172df4960b5a3ca`.
+- raw artifacts on that worker:
+  - `runs/active/INDIA19-FINAL-ITINERARY-REBUILD-001/person-provenance/A79_PERSON_PROVENANCE_RESTORATION.csv`
+  - `runs/active/INDIA19-FINAL-ITINERARY-REBUILD-001/person-provenance/A79_PERSON_PROVENANCE_RESTORATION.md`
+  - `runs/active/INDIA19-FINAL-ITINERARY-REBUILD-001/person-provenance/A79_PROVENANCE_GAPS_AND_CONTRADICTIONS.md`
 - 79/79 complete; web enrichment YES; 19 gaps/contradictions retained explicitly.
 
-WORK:
+WORK result:
 - PR #23 comment `5634831232`.
 - header `WORK_RESULT — INDIA19 A79 INDEPENDENT RELEVANCE CHALLENGE + WEB RESEARCH`.
 - status COMPLETE.
-- worker head `9762d341c12c00921654e598c18f4e0d299e7e46`.
+- worker `worker/india19-a79-independent-relevance-challenge`, head `9762d341c12c00921654e598c18f4e0d299e7e46`.
+- raw artifacts:
+  - `runs/active/INDIA19-FINAL-ITINERARY-REBUILD-001/person-provenance/WORK_A79_INDEPENDENT_RELEVANCE_CHALLENGE_2026-09-11.md`
+  - `runs/active/INDIA19-FINAL-ITINERARY-REBUILD-001/person-provenance/WORK_A79_RELEVANCE_MATRIX.csv`
+  - `runs/active/INDIA19-FINAL-ITINERARY-REBUILD-001/person-provenance/WORK_A79_NEW_DISCOVERIES_AND_CHALLENGES.md`
 - independent 79/79 challenge completed before reading CCI future result.
 
-Central `afb3ae...` consumed both into v3 reconciliation. Raw worker artifacts being unmerged does NOT mean the research is incomplete.
+Central `afb3ae...` consumed both into v3 reconciliation. Raw worker artifacts being unmerged does NOT mean research incomplete.
 
 Material discoveries to preserve:
 - A003 Hanuman Garhi: Maharajji/kuti is meaningful target; not generic Hanuman temple.
@@ -244,7 +265,7 @@ Supporting correction:
 
 Live truth: **Haidakhan local Kailash summit / summit temple — prolonged meditation and early teaching place of Haidakhan Babaji = A.** Separate from ashram and cave. Mandatory visibility. Actual climb on-site conditional by Mark. Conditional execution is NOT grade downgrade.
 
-Scheduling tension remains: 3 Haidakhan nights + two protected full quiet days versus a summit pilgrimage that can consume much of a day. If Mark wants guaranteed summit, return conflict to Mark.
+Scheduling tension: 3 Haidakhan nights + two protected full quiet days versus summit pilgrimage consuming much of a day. If Mark wants guaranteed summit, return conflict to Mark.
 
 ## 6.4 Agra food A013–A015
 `decisions/AGRA_FOOD_A013_A015_B_OPPORTUNISTIC_MARK_DECISION_2026-09-13.md`, commit `514f38157f79a245e20945c516cb158771eb22c4`.
@@ -326,7 +347,7 @@ Cross-red-team:
 
 Person provenance/relevance complete per section 5.
 
-Do NOT restart any of these because branches remain technically unmerged.
+Do NOT restart any because branches remain technically unmerged.
 
 ---
 
@@ -358,6 +379,8 @@ Nothing in 1–9 needs rediscovery.
 ---
 
 # 12. Successor's first real work
+
+**Do not ask Mark a setup question. Act first from GitHub.** Only return to Mark for genuine Mark-only choices after the factual/live-ledger repair is complete enough to make the choice meaningful.
 
 **A. Build a new LIVE derived place/grade ledger without mutating frozen A79.** Apply post-freeze Mark decisions: A013–A015 B opportunistic; Haidakhan summit new A; Sujata offering spot A+; Sujata Stupa A; preserve A021 A+, A022 A; decouple historic IDs from live grades.
 
@@ -393,18 +416,25 @@ If detail is needed, open exact central decision/research files and raw worker a
 
 # 14. Extraction validation / successor mode
 
-Pass 1 corrections preserved:
-- exact binding Haidakhan summit decision-file path;
-- explicit v3-not-re-audited-after-13-Sep warning;
+Pass 1 corrections:
+- exact binding Haidakhan summit decision-file path added;
+- explicit v3-not-re-audited-after-13-Sep warning added;
 - old frozen A79/clock cards forbidden as live grade truth.
 
-Pass 2 corrections added:
-- distinction between substantive baseline head and extraction-only commits;
-- worker divergence counts labeled as baseline snapshot so extraction commits cannot be misread as new branch drift;
+Pass 2 corrections:
+- substantive baseline vs extraction-only commits separated;
+- worker divergence counts labeled baseline snapshot;
 - v3 PDF binary durability clarified;
-- Mark Top-X person-priority ordering added;
-- canonical source-hierarchy/successor method added;
-- explicit `do not merge old workers merely for graph tidiness` rule added.
+- Mark Top-X priority ordering added;
+- source hierarchy/successor method added;
+- old workers not to be merged merely for graph tidiness.
+
+Pass 3 corrections:
+- exact successor boot/read order added;
+- exact CCI and WORK provenance artifact paths added;
+- explicit `do not ask Mark a setup question` instruction added;
+- successor first action pinned to live derived ledger + v4 repair;
+- final extraction commit must be verified against central branch ref before shutdown confirmation.
 
 `NEXT_MODE = LIVE_LEDGER_AND_MARK_FACING_V4_REPAIR`
 `GLOBAL_REOPTIMIZATION_REQUIRED = NO`
