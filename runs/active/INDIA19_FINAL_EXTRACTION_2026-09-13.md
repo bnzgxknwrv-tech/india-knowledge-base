@@ -10,11 +10,15 @@ This file is the durable handoff after INDIA19 reached context limit. It is inte
 
 ## 0. Hash semantics / exact central state
 
-`BASELINE_HEAD_BEFORE_EXTRACTION = 13a19c939dbb3403308291b6aac67f76641f9544`
-
+`SUBSTANTIVE_BASELINE_HEAD_BEFORE_EXTRACTION = 13a19c939dbb3403308291b6aac67f76641f9544`
 Message: `Define executable seven-stupa plus Gyan Yatra Bodh Gaya walk`.
 
-This baseline already contains the latest substantive Bodh Gaya work. The extraction itself is committed after that baseline, so its own final commit cannot self-reference its final hash; the final shutdown chat must report that final commit hash.
+Extraction pass 1 was committed as:
+`b3eeda79d0d06ac806d74a2beb35757882da0fef`
+
+The final extraction commit will necessarily be newer than the substantive baseline and cannot self-reference its own final hash. The shutdown chat must report the final commit hash after the third review pass.
+
+**Worker divergence counts below are a snapshot against substantive baseline `13a19c...`.** Extraction-only commits naturally increase worker `behind_by` counts afterward; that does NOT create new worker content. The listed unique worker content and `ahead_by` state are the substantive facts that matter.
 
 Recent substantive central chain, newest before extraction:
 - `13a19c939dbb3403308291b6aac67f76641f9544` — executable 7-stupa + Gyan Yatra/Buddha Marg walk.
@@ -30,6 +34,15 @@ Recent substantive central chain, newest before extraction:
 - `e2dabfb4d86df0eb4cf73bc1bfc7629895d68d0f` — A012 cave-vs-summit correction.
 - `41f3e0d033aeee6a4c409f9273f30c693ac44077` — spiritual Mark-facing tone rule.
 - `afb3ae4386e71935232baf94557334a26b14379a` — v3 person-provenance reconciliation/index.
+
+### Source hierarchy / successor method
+
+GitHub is canonical. Use the newest binding Mark decisions and governance first; then verified source research; then analytical conclusions. Frozen audit artifacts remain historical evidence but do not override later Mark decisions.
+
+Do NOT reconstruct the project from this extraction alone when exact detail is needed: use the exact paths/commits named here. But do NOT start a new research cycle for facts already resolved here.
+
+Mark's person-priority ordering to preserve when interpreting direct-life geography:
+G1 Yogananda; G2 Babaji; G3 Lahiri Mahasaya; G4 Sri Yukteswar; G5 Ram Dass; G6 Neem Karoli Baba + Buddha; G7 Anandamayi Ma; G8 Ramakrishna + Ramana Maharshi; G9 Hariharananda + Vivekananda. These are equal groups; do not silently reorder inside a group.
 
 ---
 
@@ -71,7 +84,6 @@ Current locks/durations:
 # 2. Current leading macro / 33-night family
 
 Independent CCI + WORK solves and mutual cross-red-team converged on:
-
 `Kumaon -> Delhi transit bed -> Agra/Taj -> 12988 -> Bodh Gaya -> Varanasi/Sarnath -> Kolkata/Dakshineswar -> Tiruvannamalai -> Chennai airport-side -> final Delhi -> AI155`
 
 Current B3/T4 working geometry:
@@ -96,7 +108,7 @@ Current B3/T4 working geometry:
 
 # 3. ALL technically unmerged worker branches
 
-Meaning of this section: `ahead_by > 0` versus current central at extraction. Technical unmerged state is NOT the same as unfinished content.
+Technical state snapshot against substantive baseline `13a19c...`; extraction-only commits after it are irrelevant to substantive branch status.
 
 1. `worker/india19-a79-clocktime-pdf-v1-independent-audit` — ahead1/behind22; WORK v1 independent PDF audit. `CONTENT_ALREADY_PROCESSED=YES`; fed v1 -> v2 corrections.
 2. `worker/india19-a79-independent-relevance-challenge` — ahead3/behind17; frozen head `9762d341c12c00921654e598c18f4e0d299e7e46`; WORK 79/79 relevance matrix/challenge/new discoveries. `CONTENT_ALREADY_PROCESSED=YES` into v3/reconciliation; raw artifacts remain worker-only.
@@ -116,6 +128,8 @@ Checked old branches with no unique commits (`ahead=0`): `worker/nirmal-dham-fin
 
 INDIA19's latest 13-Sep Mark-facing decisions/research were written directly to central, not left on a separate INDIA19 workerbranch.
 
+**Do not merge old workers just to make the graph tidy.** Merge only if a future task specifically requires their raw artifacts on central; otherwise preserve them as provenance.
+
 ---
 
 # 4. A79 clocktime planning — exact version status
@@ -125,7 +139,7 @@ Frozen audit input:
 commit `a2b71b2563f446480b012f0b9176a87e96fcb003`.
 At freeze: 24 A+, 55 A, 7 A*; 79 ordinary A+/A.
 
-**This frozen ledger and the old A001–A079 clock cards are historical audit artifacts, NOT the live grade source after 13 Sep. Never use them alone to infer current grade. Never rewrite their frozen hash. Build a new derived live ledger.**
+**The frozen ledger and old A001–A079 clock cards are historical audit artifacts, NOT the live grade source after 13 Sep. Never use them alone to infer current grade. Never rewrite their frozen hash. Build a new derived live ledger.**
 
 v1:
 - audit manifest head `be3221681e634bf3be2538793c29d7c7c1789b59`.
@@ -143,21 +157,22 @@ v3:
 - reported 64 pages, 79 unique historic A-card IDs present.
 - SHA256 `c7bba0e9f67b9a17f0b748f48a0331a2a75403a8103b275c38cc251af9064c3c`.
 - durable reconciliation/index central commit `afb3ae4386e71935232baf94557334a26b14379a`.
+- **The PDF binary itself was a chat sandbox artifact, not a GitHub binary.** Durable sources/reconciliation/hash are in GitHub. If a successor cannot access the sandbox binary, regenerate from the durable source state rather than assuming it was deleted from GitHub.
 - **v3 is the latest PDF but is NOT current final truth.**
 - **No new CCI/WORK audit has validated a PDF containing the binding 13-Sep changes below. Therefore do not call v3 audited-final after those changes.**
 
 Open v4 corrections:
 1. Remove `STERKSTE TEGENARGUMENT` / courtroom/adversarial rubric from Mark-facing copy. Keep falsification internal.
-2. Spiritual/traditional meaning first; surface uncertainty prominently only when it can materially change the destination/access/choice.
+2. Spiritual/traditional meaning first; surface uncertainty prominently only when it can materially change destination/access/choice.
 3. Every card needs a recognition-first physical/experiential hook. Canonical trigger: A007 = Dunagiri **Bell Temple**, the long climb/corridor through hundreds of bells.
-4. Every card must explain travel value at least as well as a competent tourism office: what is unique, what Mark actually experiences, why it matters, what is lost if skipped. Canonical trigger: A026 Kashi Vishwanath.
-5. A013/A014/A015 remain stable historic card IDs but live grades are now B opportunistic.
+4. Every card must explain travel value at least as well as a competent tourism office: what is unique, what Mark experiences, why it matters, what is lost if skipped. Canonical trigger: A026 Kashi Vishwanath.
+5. A013/A014/A015 remain stable historic card IDs but live grades are B opportunistic.
 6. Haidakhan local-Kailash summit is a separate NEW A entity; never merge into ashram/cave.
 7. Sujata milk-offering spot / traditional banyan/Sujata Temple is separate A+.
 8. Sujata Stupa/Garh = A.
-9. A022 Pragbodhi ridge = seven ancient stupa remains/markers on the ridge; no longer a vague 45-minute ruin add-on.
+9. A022 Pragbodhi ridge = seven ancient stupa remains/markers; no longer a vague 45-minute ruin add-on.
 10. Bodh day direction becomes Dungeshwari -> ridge -> countryside/Gyan Yatra -> Sujata -> Bodhi Tree.
-11. A004/A005: best current location evidence places first Ram Dass/NKB physical meeting at Bhumiadhar; Kainchi remains the central later guru/ashram world.
+11. A004/A005: best current location evidence places first Ram Dass/NKB physical meeting at Bhumiadhar; Kainchi remains central later guru/ashram world.
 12. Decouple stable A001–A079 card IDs from live grades. Do not renumber historic IDs merely because grades changed; add new entity IDs cleanly.
 
 `NEXT_PDF = v4`, not a silent v3 patch.
@@ -184,16 +199,16 @@ WORK:
 
 Central `afb3ae...` consumed both into v3 reconciliation. Raw worker artifacts being unmerged does NOT mean the research is incomplete.
 
-Material reconciled discoveries to preserve:
-- A003 Hanuman Garhi: Maharajji/kuti is the meaningful target; not generic Hanuman temple.
+Material discoveries to preserve:
+- A003 Hanuman Garhi: Maharajji/kuti is meaningful target; not generic Hanuman temple.
 - A004/A005: Bhumiadhar best current evidence for first Ram Dass/NKB physical meeting; Kainchi central later relationship/ashram world.
-- A016 Taj: Yogananda has real historical onsite visit/photo-memory relevance.
-- A024 Dashashwamedh: AOAY Babaji/Mataji/Ram Gopal layer; exact stair not required to preserve meaning.
-- A029 Bengali Tola: Lahiri school involvement at neighborhood level.
+- A016 Taj: Yogananda onsite visit/photo-memory relevance.
+- A024 Dashashwamedh: AOAY Babaji/Mataji/Ram Gopal layer.
+- A029 Bengali Tola: Lahiri school involvement.
 - A034 Tulsi Ghat: Tulsidas residence/death geography.
 - A036 Bhadaini: real Anandamayi presence; do not relocate Yogananda's meeting there.
-- A038 Bhadury Sadan: Mark's intended analogous Bhrigu consultation; Kriyananda's documented 1959 reading was Barnala, Punjab.
-- A039 Lahiri house: core physical site; January interior access is an operational issue.
+- A038 Bhadury Sadan: Mark's analogous Bhrigu consultation; Kriyananda's 1959 reading was Barnala, Punjab.
+- A039 Lahiri house: core physical site; January interior access is operational issue.
 - A052 Manikarnika: Lahiri Mahasaya cremation place.
 - A061 Dakshineswar: dense Ramakrishna/Sarada/Vivekananda/Yogananda physical-life world.
 - A063 Belur: Vivekananda founded/lived/died/cremated; Ramakrishna relic focus.
@@ -208,95 +223,89 @@ Material reconciled discoveries to preserve:
 # 6. Binding post-v3 Mark rules and decisions
 
 ## 6.1 Mark-facing tone
+`governance/MARK_PERSON_PROVENANCE_PLACE_MEANING_RULE.md`, relevant commit `41f3e0d033aeee6a4c409f9273f30c693ac44077`.
 
-Central governance: `governance/MARK_PERSON_PROVENANCE_PLACE_MEANING_RULE.md`, relevant commit `41f3e0d033aeee6a4c409f9273f30c693ac44077`.
-
-Hard principle: this is a spiritual/pilgrimage journey, not a lawsuit. Internal evidence checking can be rigorous; Mark-facing prose leads with meaning, lived history, tradition, recognition and experience. Do not foreground phrases like `plausible but not definitive` when they add no travel-decision value. Surface uncertainty when it can send Mark to the wrong place/person, confuse successor-vs-historic location, affect access, safety or materially change the choice.
+Hard principle: spiritual/pilgrimage journey, not a lawsuit. Internal evidence checking may remain rigorous; Mark-facing prose leads with meaning, lived history, tradition, recognition and experience. Do not foreground `plausible but not definitive` when it adds no travel-decision value. Surface uncertainty only when materially relevant to place/person/access/safety/choice.
 
 ## 6.2 Recognition/tourism-quality cards
+`governance/MARK_FACING_PLACE_CARD_TRAVEL_VALUE_RULE_2026-09-13.md`, commit `740dace155da0ffb2272f80bba4821750a3db3be`.
 
-Central rule: `governance/MARK_FACING_PLACE_CARD_TRAVEL_VALUE_RULE_2026-09-13.md`, commit `740dace155da0ffb2272f80bba4821750a3db3be`.
-
-Every live card must quickly answer: what is this physically; what makes it unique; what person/event/original WHY applies; what Mark actually experiences; why he might care; exact meaningful sub-place where relevant; practical burden only after meaning.
+Every card quickly answers: what physically; unique feature; person/event/original WHY; what Mark actually experiences; why he might care; exact meaningful sub-place; burden only after meaning.
 
 ## 6.3 Haidakhan local Kailash summit = A
-
 Root-cause incident:
 `governance/INCIDENT_HAIDAKHAN_KAILASH_SUMMIT_CLASSIFICATION_LEAK_2026-09-13.md`, commit `1c27ecd37a995f35a1654b0b081899882c7cbb9a`.
 
-Binding Mark decision file:
+Binding Mark decision:
 `decisions/HAIDAKHAN_LOCAL_KAILASH_SUMMIT_A_MARK_DECISION_2026-09-13.md`.
 
-Supporting cave-vs-summit correction:
+Supporting correction:
 `person-provenance/A012_HAIDAKHAN_KAILASH_SUMMIT_CORRECTION_2026-09-13.md`, commit `e2dabfb4d86df0eb4cf73bc1bfc7629895d68d0f`.
 
-Live truth: **Haidakhan local Kailash summit / summit temple — prolonged meditation and early teaching place of Haidakhan Babaji = A.** Separate from ashram and cave. Mandatory visibility in every overview. Actual climb decided on-site by Mark based on trail/weather/energy. Conditional execution is NOT a grade downgrade.
+Live truth: **Haidakhan local Kailash summit / summit temple — prolonged meditation and early teaching place of Haidakhan Babaji = A.** Separate from ashram and cave. Mandatory visibility. Actual climb on-site conditional by Mark. Conditional execution is NOT grade downgrade.
 
-Scheduling tension remains: 3 Haidakhan nights + two protected full quiet days versus a summit pilgrimage that can consume much of a day. Do not silently destroy either rule. If Mark later wants the summit guaranteed, return this conflict to Mark.
+Scheduling tension remains: 3 Haidakhan nights + two protected full quiet days versus a summit pilgrimage that can consume much of a day. If Mark wants guaranteed summit, return conflict to Mark.
 
 ## 6.4 Agra food A013–A015
-
 `decisions/AGRA_FOOD_A013_A015_B_OPPORTUNISTIC_MARK_DECISION_2026-09-13.md`, commit `514f38157f79a245e20945c516cb158771eb22c4`.
 
-A013 Bedai, A014 Petha, A015 Gajak = **B**, with `TRY_TO_INCLUDE_IF_ZERO_OR_NEAR_ZERO_MARGINAL_BURDEN`. Actively slot if nearly free; first drops under any pressure; never endanger Taj, sleep, checkout, train, transfer or buffer.
+A013 Bedai, A014 Petha, A015 Gajak = **B**, `TRY_TO_INCLUDE_IF_ZERO_OR_NEAR_ZERO_MARGINAL_BURDEN`; first drops under pressure.
 
 ## 6.5 Bodh grades
-
 Commit `71a27dc8f634473522cb2ccd44faca2079069f7c`:
 - **Sujata milk-offering spot / Sujata Temple / traditional banyan location = A+.**
 - **Sujata Stupa/Garh = A.**
-They are separate physical places. A021 Dungeshwari cave remains A+. A022 Pragbodhi stupa ridge remains A.
+Separate physical places. A021 Dungeshwari cave remains A+. A022 Pragbodhi stupa ridge remains A.
 
 ---
 
 # 7. Latest Bodh Gaya work — DO NOT REDO
 
 Current central research:
-`research/BODHGAYA_GYAN_YATRA_PLUS_SEVEN_STUPAS_EXECUTABLE_WALK_2026-09-13.md`
-contained in baseline head `13a19c939dbb3403308291b6aac67f76641f9544`.
+`research/BODHGAYA_GYAN_YATRA_PLUS_SEVEN_STUPAS_EXECUTABLE_WALK_2026-09-13.md`, contained in baseline head `13a19c...`.
 
-Key discovery: Mark is NOT inventing a novel walk. There is a recurring official **Gyan Yatra / Buddha Marg** organized by Gaya district administration/tourism/BTMC, with recent editions around 1,000 participants, running roughly 8–9 km from the Dungeshwari/Pragbodhi world via Sujata Garh toward Mahabodhi.
+Key discovery: Mark is NOT inventing a novel walk. There is a recurring official **Gyan Yatra / Buddha Marg** organized by Gaya district administration/tourism/BTMC, with recent editions around 1,000 participants, roughly 8–9 km from Dungeshwari/Pragbodhi via Sujata Garh toward Mahabodhi.
 
 Seven-stupa ridge:
 - 2025 archaeological survey mapped seven ancient stupa structures/remains on Pragbodhi ridge above Dungeshwari cave.
 - Cave -> Stupa 7 ~442 m straight-line, ~+108 m elevation; difficulty is steep/rough/unmaintained ridge, not distance.
-- safest current planning = **ridge out-and-back**; do not blindly descend beyond Stupa 7 into the NE valley.
-- return to cave/regular foothill descent, then join Gyan Yatra/Buddha Marg toward Sujata.
-- Stupa 2 has a publication-coordinate duplication; identify by ridge sequence/local guide rather than inventing a false exact point.
-- allocate ~1.5–2.25 h for all seven ridge remains, plus cave dwell; local monk/guide strongly preferred.
+- safest current plan = **ridge out-and-back**; do not blindly descend beyond Stupa 7 into NE valley.
+- return to cave/regular foothill descent; then join Gyan Yatra/Buddha Marg toward Sujata.
+- Stupa 2 has publication-coordinate duplication; identify by sequence/local guide, not invented exact point.
+- allocate ~1.5–2.25 h all-seven ridge, plus cave dwell; local monk/guide strongly preferred.
 
 Strongest proposed 3 Jan 2027 day:
 - ~06:45–07:15 taxi hotel -> Dungeshwari.
 - ~07:15–07:55 A021 cave / quiet sit.
-- ~07:55–09:45 A022 all-seven-stupa ridge out-and-back.
-- ~09:45–10:00 return/refill at regular descent.
-- ~10:00–12:00/12:30 follow established Buddha Marg/Gyan Yatra through countryside.
+- ~07:55–09:45 A022 all-seven ridge out-and-back.
+- ~09:45–10:00 return/refill.
+- ~10:00–12:00/12:30 established Buddha Marg/Gyan Yatra through countryside.
 - ~12:00/12:30–13:00 Sujata milk-offering spot [A+].
 - ~13:00–13:25 Sujata Stupa/Garh [A].
-- ~13:25–14:00/14:30 continue via river corridor to Mahabodhi/Bodhi Tree/hotel zone.
+- ~13:25–14:00/14:30 river corridor -> Mahabodhi/Bodhi Tree/hotel.
 - afternoon recovery/free Bodhi Tree return.
 
-Likely total walking ~9–11 km plus ~1 km-class ridge out-and-back, depending current alignment.
+Likely total walking ~9–11 km plus ~1 km-class ridge out-and-back.
 
 Narrative: **ascetic cave -> ancient ridge/stupa markers -> descent from Pragbodhi -> countryside pilgrimage -> Sujata milk offering/Middle Way turning point -> Sujata Garh -> Niranjana/Falgu landscape -> Bodhi Tree/enlightenment.** Mark explicitly prefers this direction and taxi-only-at-start logic.
 
 Remaining work is OPERATIONAL ONLY:
-- find/verify best current GPX/Komoot/Wikiloc or local guide alignment if one exists;
-- confirm exact path to all seven remains and safe cave-side return;
-- live-check river/field crossing near Sujata for travel date;
-- identify local monk/guide/driver familiar with ridge;
+- best current GPX/Komoot/Wikiloc or local guide alignment if one exists;
+- exact all-seven path and safe cave-side return;
+- live river/field crossing near Sujata;
+- local monk/guide/driver familiar with ridge;
 - integrate timings into live ledger/v4.
 
-No perfect public Komoot track containing all seven + entire onward route had yet been found. That does NOT mean the route is novel; official Gyan Yatra establishes the onward pilgrimage walk.
+No perfect public Komoot track containing all seven + entire onward route had yet been found. That does NOT mean route is novel; official Gyan Yatra establishes the onward pilgrimage walk.
 
 ---
 
 # 8. Mark-only decisions still open
 
-1. **Bodh Gaya 2 vs 3 nights / Tiruvannamalai 5 vs 4 nights.** CCI B3/T4 vs WORK B2/T5 remained objective tie through hard hierarchy. Mark had already said Bodh felt too short / Tiru too long, so B3/T4 is current subjective lead and current clock family, but do not call formally LOCKED until Mark does. New full Bodh pilgrimage strengthens B3.
-2. **Pongal / 15 Jan 2027.** Mark explicitly named this in the shutdown request. Exact Pongal-date implications for the 15 Jan south transfer/Tiruvannamalai calendar remain OPEN. Reconcile against live dates; do not infer resolution from stale files.
-3. **Formal final macro-route lock.** North-first is current three-party leading macro and needs no new solve. A literal FINAL_LOCK is Mark-only. Do not resurrect Varanasi-first absent a new hard fact.
-4. **Haidakhan summit execution vs two full quiet days.** Grade A is locked; execution currently on-site conditional. If Mark asks to guarantee summit, explicitly surface the conflict.
+1. **Bodh Gaya 2 vs 3 nights / Tiruvannamalai 5 vs 4 nights.** CCI B3/T4 vs WORK B2/T5 objective tie. Mark previously said Bodh too short / Tiru too long; B3/T4 current subjective lead and current clock family, but not formal LOCK until Mark says so. New full Bodh pilgrimage strengthens B3.
+2. **Pongal / 15 Jan 2027.** Mark explicitly named this in shutdown request. Exact Pongal-date implications for 15 Jan south transfer/Tiruvannamalai calendar remain OPEN. Reconcile against live dates; do not infer from stale files.
+3. **Formal final macro-route lock.** North-first current three-party leading macro; no new solve. Literal FINAL_LOCK is Mark-only. Do not resurrect Varanasi-first absent new hard fact.
+4. **Haidakhan summit execution vs two full quiet days.** Grade A locked; execution on-site conditional. If Mark asks to guarantee summit, surface conflict.
 
 ---
 
@@ -307,15 +316,15 @@ Frozen A79 coverage gate:
 - INDIA19 final check PASS: PR #23 `5621379604`.
 
 Independent macro solves:
-- CCI result PR #23 `5621613342`, head `b52ea7157803e8b2061191061e65804e6b44e0c1`, recommended B3/T4.
-- WORK result PR #23 `5621960813`, head `594b430f235ebf49dcfa3f4a142717961480c0c1`, recommended B2/T5.
-- both converged on north-first macro.
+- CCI PR #23 `5621613342`, head `b52ea7157803e8b2061191061e65804e6b44e0c1`, B3/T4.
+- WORK PR #23 `5621960813`, head `594b430f235ebf49dcfa3f4a142717961480c0c1`, B2/T5.
+- same north-first macro.
 
 Cross-red-team:
-- CCI result `5624011208`: PASS_WORK; B3/T4 vs B2/T5 genuine Mark-value tie; Sarnath Friday museum defect found.
-- WORK result `5625663228`: DEFECTS_FOUND; same Sarnath issue plus conditional Kolkata/humane-burden challenges; no objective winner.
+- CCI `5624011208`: PASS_WORK; B3/T4 vs B2/T5 genuine Mark-value tie; Sarnath Friday museum defect.
+- WORK `5625663228`: DEFECTS_FOUND; same Sarnath issue + conditional Kolkata/humane-burden challenges; no objective winner.
 
-Person provenance/relevance: complete per section 5.
+Person provenance/relevance complete per section 5.
 
 Do NOT restart any of these because branches remain technically unmerged.
 
@@ -327,22 +336,22 @@ Do NOT restart any of these because branches remain technically unmerged.
 
 Every future CCI/WORK task must bind exact PR number, task comment ID, task header, commit/AUDIT_PACKET_HEAD/frozen input, artifact path, counterparty result/commit where relevant, what must NOT be redone, expected result header, and independence/solution-blind condition where needed.
 
-Never delegate only `do newest task` / `continue where you were` if ambiguity is possible. Inspect PR #23 for an existing exact result header before starting anything.
+Never delegate only `do newest task` / `continue where you were` if ambiguity is possible. Inspect PR #23 for existing exact result header first.
 
 ---
 
 # 11. What INDIA19 was doing when context filled
 
-This was no longer global route optimization. It was a Mark-facing truth/meaning repair:
-1. removed legalistic `strongest counterargument` tone from future Mark-facing output;
-2. A007 exposed missing recognition-feature layer (`bell temple`);
-3. Haidakhan local-Kailash summit classification leak reconstructed and repaired; summit now A;
-4. A013–A015 downgraded to opportunistic B;
-5. Bodh pilgrimage reoriented in Buddha-life direction;
+No longer global optimization. Current workstream = Mark-facing truth/meaning repair:
+1. remove legalistic `strongest counterargument` tone;
+2. A007 exposed recognition-feature loss (`bell temple`);
+3. Haidakhan local-Kailash classification leak repaired; summit A;
+4. A013–A015 -> opportunistic B;
+5. Bodh pilgrimage reversed toward Bodh Gaya;
 6. Sujata offering place separated from Stupa and graded A+ vs A;
-7. A022 rediscovered as seven-stupa Pragbodhi ridge, not a minor ruin;
-8. official Gyan Yatra/Buddha Marg found, proving established onward pilgrimage walk;
-9. A026 exposed that dry administrative descriptions cannot support Mark's choices, so tourism-quality card rule was added.
+7. A022 restored as seven-stupa Pragbodhi ridge;
+8. official Gyan Yatra/Buddha Marg found;
+9. A026 exposed dry descriptions cannot support choices; tourism-quality card rule added.
 
 Nothing in 1–9 needs rediscovery.
 
@@ -350,15 +359,15 @@ Nothing in 1–9 needs rediscovery.
 
 # 12. Successor's first real work
 
-**A. Build a new LIVE derived place/grade ledger without mutating frozen A79.** Apply post-freeze Mark decisions: A013–A015 B opportunistic; Haidakhan summit new A; Sujata offering spot A+; Sujata Stupa A; preserve A021 A+, A022 A; decouple historic card IDs from live grades.
+**A. Build a new LIVE derived place/grade ledger without mutating frozen A79.** Apply post-freeze Mark decisions: A013–A015 B opportunistic; Haidakhan summit new A; Sujata offering spot A+; Sujata Stupa A; preserve A021 A+, A022 A; decouple historic IDs from live grades.
 
-**B. Rewrite EVERY live A+/A card to the new Mark-facing standard.** Recognition feature + person/event/original WHY + unique spiritual/historical/cultural/visual value + what Mark experiences + meaningful sub-place + dwell + only material uncertainty. No `strongest counterargument` rubric.
+**B. Rewrite EVERY live A+/A card to new Mark-facing standard.** Recognition feature + person/event/original WHY + unique spiritual/historical/cultural/visual value + what Mark experiences + meaningful sub-place + dwell + only material uncertainty. No `strongest counterargument` rubric.
 
 **C. Repair clock plan.** Integrate Dungeshwari-first all-seven-stupa + Gyan Yatra/Sujata route; make A013–A015 optional B; keep Haidakhan summit visible without silently consuming quiet-day lock; keep Sarnath on open-museum date (current working date Sun 10 Jan).
 
 **D. Resolve only genuine Mark-only choices**: formal B3/T4 lock, Pongal implications, guarantee-vs-on-site-conditional Haidakhan summit.
 
-**E. Generate v4 only after A–D**, then mechanically verify live A+/A coverage, new entities, exact 33 nights, no FINAL OUT resurrection, stable historic IDs, current grades, and correct Mark-facing tone. Only then consider a narrowly scoped fresh audit.
+**E. Generate v4 only after A–D**, then mechanically verify live A+/A coverage, new entities, exact 33 nights, no FINAL OUT resurrection, stable historic IDs, current grades, and correct Mark-facing tone. Only then consider narrowly scoped fresh audit.
 
 ---
 
@@ -366,7 +375,7 @@ Nothing in 1–9 needs rediscovery.
 
 **NIETS OPNIEUW UITZOEKEN WAT HIERBOVEN AL STAAT.**
 
-Specifically do NOT redo:
+Do NOT redo:
 - frozen A79 coverage gate;
 - CCI/WORK independent macro solves;
 - mutual cross-red-team;
@@ -378,16 +387,24 @@ Specifically do NOT redo:
 - separation and Mark grades of Sujata offering spot vs Stupa;
 - decision that v3 is not final live truth.
 
-If more detail is needed, open the exact central decision/research files and raw worker artifacts named above. **`UNMERGED_BRANCH != UNFINISHED_TASK`.**
+If detail is needed, open exact central decision/research files and raw worker artifacts named above. **`UNMERGED_BRANCH != UNFINISHED_TASK`.**
 
 ---
 
 # 14. Extraction validation / successor mode
 
-Pass-1 review fixes included in this revision:
-- explicit binding Haidakhan summit decision-file path added;
-- explicit warning added that v3 has NOT been re-audited after 13-Sep binding changes;
-- explicit ban added on treating frozen A79/old clock cards as live grade truth.
+Pass 1 corrections preserved:
+- exact binding Haidakhan summit decision-file path;
+- explicit v3-not-re-audited-after-13-Sep warning;
+- old frozen A79/clock cards forbidden as live grade truth.
+
+Pass 2 corrections added:
+- distinction between substantive baseline head and extraction-only commits;
+- worker divergence counts labeled as baseline snapshot so extraction commits cannot be misread as new branch drift;
+- v3 PDF binary durability clarified;
+- Mark Top-X person-priority ordering added;
+- canonical source-hierarchy/successor method added;
+- explicit `do not merge old workers merely for graph tidiness` rule added.
 
 `NEXT_MODE = LIVE_LEDGER_AND_MARK_FACING_V4_REPAIR`
 `GLOBAL_REOPTIMIZATION_REQUIRED = NO`
