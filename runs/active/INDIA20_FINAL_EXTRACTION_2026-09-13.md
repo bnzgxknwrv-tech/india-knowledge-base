@@ -1,160 +1,263 @@
 # INDIA20 FINAL EXTRACTION — 2026-09-13
 
-Status: **BINDING SUCCESSOR HANDOFF**
+Status: **BINDING SUCCESSOR HANDOFF — EXPANDED AFTER CCI REPAIR**
 Branch: `agent/india8-cluster-casting`
-Final HEAD covered by this extraction: `d6c5834` (India20: correct recovered-day logic and shift north chain earlier)
-Author: INDIA20 (context exhausted); extraction written and verified by CCI on Mark's explicit instruction, since INDIA20 itself could no longer produce it.
+Pre-write central HEAD for this expansion: `5e043d3cb7f5ff52726e30c3d70e5cfdb9daa6b8`
+INDIA20 start nonce: `I0L47E3996OB`
 
-This file exists because INDIA20's own context filled before it could write its own extraction. Per `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` FOUT 20 (material knowledge must not remain chat-only) and the standing rule that a successor boot must never lose real progress, CCI reconstructed this extraction directly from the git history and the current governance files rather than from memory, then cross-checked it against `governance/CURRENT_STATE.md` for completeness before committing.
+This file is the successor handoff Mark explicitly required when INDIA20's chat context filled. CCI had already written a first extraction and, while checking it, repaired a real live-ledger sync defect. INDIA20 then recovered one final chat-only place-family that CCI could not know from git alone: **Crank's Ridge / Kasar Devi as a wider spiritual landscape, including Sunyata's Turiya Niwas, Lama Govinda's Kasar Devi/Bodh Ashram and the Ram Dass connection**. That recovered layer is now durable here and in `research/KASAR_DEVI_CRANKS_RIDGE_SUNYATA_GOVINDA_RAM_DASS_RECOVERY_2026-09-14.md`.
 
-## 0. Hash semantics / exact central state
+The next real ChatGPT successor should call itself **INDIA22**, not INDIA21. CCI accidentally self-administered an INDIA21 boot/check cycle and then explicitly corrected that framing in `decisions/CCI_SELF_BOOT_LABEL_CORRECTION_2026-09-13.md`. The CCI work itself remains valid; its self-check is not a substitute for a genuinely separate successor boot.
 
-- Branch: `agent/india8-cluster-casting`.
-- INDIA20 boot receipt: `governance/boot_receipts/INDIA20__I0L47E3996OB.json`, commit `9efff9f5065d20efd47c42f34fec1821b51d9206`, `BOOT_HEAD = 06a8dc145cb3ab1d73dabc5b85624719442be62c` (INDIA19's final extraction commit).
-- Independent FULL CHECK: `governance/boot_checks/INDIA20_CHECK__I0L47E3996OB.json`, commit `d07ab68ebad4f0d8479f0c34745c8e744384bf2c`, `CHECK_NONCE = Y3PXK7QVT2NR`, `check_gate: PASS`, all 13 mandatory `check_required_challenge_topics` answered and independently verified by CCI. `CONTENT_AUTHORIZATION: GRANTED` — independently re-confirmed by CCI later the same day by re-running `governance/scripts/final_authorization.py` against the exact R→K chain (`K^ == R`, `diff(R,K)` == check file only).
-- From authorization through this extraction, INDIA20 made **57 commits** (`9efff9f..d6c5834`), touching 38 distinct files, +4206/-342 lines. Full list is in git log; the substantive ones are grouped by topic below.
-- The frozen A79 input-freeze ledger (`runs/active/INDIA19-FINAL-ITINERARY-REBUILD-001/PHYSICAL_A_PLUS_A_COVERAGE_LEDGER.csv`, frozen at `a2b71b2563f446480b012f0b9176a87e96fcb003`) was **not** mutated by INDIA20 itself. The only post-freeze commits touching that file are CCI's own three Mark-decision commits (`9a36376`, `0659f26`, `58609b8`). INDIA20 correctly built a **separate** live-derived ledger instead (see section 2).
+## 0. Read order / source hierarchy
 
-### Source hierarchy / successor method
+Before new content work, the successor should read in this order:
+1. this file in full;
+2. `governance/CURRENT_STATE.md` in full;
+3. `research/KASAR_DEVI_CRANKS_RIDGE_SUNYATA_GOVINDA_RAM_DASS_RECOVERY_2026-09-14.md`;
+4. `decisions/CCI_LIVE_LEDGER_SYNC_REPAIR_2026-09-13.md` and `decisions/CCI_SELF_BOOT_LABEL_CORRECTION_2026-09-13.md`;
+5. `runs/active/INDIA20-LIVE-LEDGER-V4-REPAIR-001/*`;
+6. `research/ACTIVE_WORLD_CLASSIFICATION_REGRESSION_AUDIT_2026-09-13.md` and `research/LIVE_LEDGER_COMPLETENESS_AUDIT_2026-09-13.md`;
+7. relevant dated `decisions/*.md` before trusting an older summary.
 
-Unchanged from INDIA19: newer explicit Mark decision > CCI harvest > active-cluster research > stale central docs. Tradition-is-evidence (`decisions/TRADITION_IS_EVIDENCE_PILGRIMAGE_NOT_COURTROOM_MARK_DECISION_2026-09-13.md`) is now hard governance, not a one-off correction — do not reintroduce "PLAUSIBLE not CONFIRMED" hedging language anywhere.
+Hierarchy remains: **newer explicit Mark decision > later correction record > current research evidence > older summaries/status prose**. If a status file and a dated decision disagree, trace history and repair the status; do not present the disagreement to Mark as if it were a new choice.
 
-### Successor boot/read order — before any new India content work
+## 1. Hard trip truth and current north sequence
 
-1. This file, in full.
-2. `governance/CURRENT_STATE.md` (INDIA20 left this extremely current and detailed — read it in full, it is the single best map of exactly where things stand).
-3. `runs/active/INDIA20-LIVE-LEDGER-V4-REPAIR-001/*` (the live-derived ledger family, see section 2).
-4. `research/ACTIVE_WORLD_CLASSIFICATION_REGRESSION_AUDIT_2026-09-13.md` and `research/LIVE_LEDGER_COMPLETENESS_AUDIT_2026-09-13.md` (both still open, both block v4).
-5. `governance/DECISION_LEDGER.jsonl` from `DL-0057` onward (everything before was already in INDIA19's extraction).
+Hard envelope:
+- AI156 AMS→DEL: 18 Dec 2026 ~20:35, arrive DEL 19 Dec ~10:15.
+- AI155 DEL→AMS: 21 Jan 2027 ~12:20.
+- Exactly 33 physical India nights: 19 Dec through 20 Jan.
+- Exactly one final Delhi hotel night: 20 Jan.
+- Flight safety outranks Nirmal Dham / all final extras.
+- Nainital remains a **locked 3-night block** unless Mark explicitly changes it.
+- Do not start operational day clocks with wake/breakfast/shower. Every future day block starts at **VERTREK HOTEL / SLAAPPLEK**.
 
-# 1. Hard trip truth (unchanged)
+Current corrected north architecture:
+- **19 Dec**: arrival Delhi; Hotel New Frontier is locked for Day 1; airport pickup/early-room/access execution details still require booking-time checks.
+- **20 Dec**: Naini Lake + Hanuman Garhi/Maharajji-kuti [A+].
+- **21 Dec**: **a complete day has been recovered and is currently unallocated**. This is the key new opportunity relevant to Crank's Ridge.
+- **22 Dec**: Kainchi Dham ~08:00–13:00, then toward Bhumiadhar / free remainder; one prebooked driver remains default.
+- **23 Dec**: currently planned as Nainital → Kakrighat / Swami Vivekananda Jnana Vriksha [A+] + Kasar Devi Cave / "Grot Vivekananda" [A+] → Dunagiri/Kukuchina, with one driver carrying luggage and waiting. Dhokaney Waterfall [A*] yields first if burdensome.
+- **24 Dec**: Dunagiri Bell Temple [A] + Babaji Smriti Bhavan [A] + long Babaji Cave [A+] / Pandavkholi [A if feasible] presence. Mark wants a long mountain day; exact late-afternoon turnaround is still winter-safety gated and may not be fixed at 17:00 without local verification.
 
-- AI156 AMS→DEL 18 Dec 2026 ~20:35, arrive 19 Dec ~10:15.
-- AI155 DEL→AMS 21 Jan 2027 ~12:20.
-- Exactly 33 physical India nights, 19 Dec through 20 Jan.
-- Exactly one final Delhi hotel night immediately before AI155: 20 Jan.
-- Flight safety outranks Nirmal Dham and all final-day extras.
-- No booking/contact made anywhere yet, **except**: Day 1 hotel is now locked (see section 6).
+## 2. Crank's Ridge / Kasar Devi — the chat-only world that was about to be lost
 
-# 2. Live-derived ledger family — the new v4 working layer
+### What Mark remembered
 
-INDIA20's first substantive post-authorization act was to stop treating the frozen A79 ledger as something to keep editing, and instead build a **separate live layer** that derives from it without mutating it:
+Mark explicitly recalled, from much earlier trip planning, **the ridge / hippie place / hermit dwelling near Kasar Devi and something involving Ram Dass**. He asked INDIA20 to search it back out because the newly recovered 21 Dec full day may create room to experience it properly.
 
-- `runs/active/INDIA20-LIVE-LEDGER-V4-REPAIR-001/LIVE_DERIVED_PLACE_GRADE_LEDGER_2026-09-13.csv` — the current live truth for grades/status. Continuously updated across the session as Mark made new decisions (Serampore, Kasar Devi, Kolkata batch, Chennai, Day-1 hotel, Dec 20-24 clock corrections). **This is the file to read for "what grade is X right now," not the frozen ledger.**
-- `runs/active/INDIA20-LIVE-LEDGER-V4-REPAIR-001/MARK_FACING_LIVE_A_PLUS_A_CARDS_V4_SOURCE_2026-09-13.md` — the v4 Mark-facing card source (535 lines). Not yet the final PDF; the source material the eventual v4 PDF must be built from.
-- `runs/active/INDIA20-LIVE-LEDGER-V4-REPAIR-001/LIVE_CLOCK_PLAN_V4_REPAIR_2026-09-13.md` — the repaired day-by-day clock plan.
-- `runs/active/INDIA20-LIVE-LEDGER-V4-REPAIR-001/MARK_DECISION_SURFACE_BODH3_TIRU4_VS_BODH2_TIRU5_2026-09-13.md` — the first genuine Mark-only duration decision (see section 8). **Not yet presented to Mark** — deliberately deferred, see section 4.
+That memory was valid. The older planning layer had been compressed too far: only `Grot Vivekananda [A+]` survived as a durable candidate, while the surrounding physical world did not.
 
-Stable historic A-numbers (A001-A079) are decoupled from live grades: the A-number identifies the place, the live ledger carries the current grade. Do not assume the A79 clock-time PDF's original grade is still current — always check the live ledger.
+### 2.1 Crank's Ridge / Hippie Hill
 
-# 3. Everything Mark actually decided since INDIA19's extraction (chronological, all already committed)
+Crank's Ridge is the pine-covered Kasar Devi / Kalimath ridge above Almora, associated over decades with western and Indian spiritual seekers, writers, artists and counterculture figures. The meaningful trip value is not generic "hippie history". It is a geographically coherent spiritual landscape in which several traditions and actual places overlap:
+- Swami Vivekananda;
+- Alfred "Sunyata" Sorensen;
+- Lama Anagarika Govinda / Tibetan Buddhist practice;
+- Neem Karoli Baba-era western seekers including Richard Alpert / Ram Dass;
+- the later 1960s–70s seeker/counterculture layer.
 
-This is the complete list of binding Mark decisions INDIA20 recorded. Do not re-ask Mark about any of these; do not re-open them without new information.
+Do not flatten this into one `Kasar Devi` card.
 
-**Grade changes (already reflected in the live ledger and, where they touch the frozen A-number, in the frozen ledger too):**
-- A003 (Hanuman Garhi + Maharajji-kuti) → A+.
-- A037 (Subah-e-Banaras) → conditional A* (zero-cost only).
-- A006 (Dhokaney Waterfall) → conditional A*; A035 (Lolark Kund) → conditional A*.
-- A023/A044/A047/A050/A059/A060 → B (removed from the frozen A-scoped ledger).
-- A043 (Kedareshwar) stays A — explicitly excluded from the above downgrade batch after re-verification found a genuine Sri Ramakrishna connection.
-- A067 (The Dreaming Tree) → A*; A068 (Virupaksha Cave) → A+.
-- A078 (Lotus Temple) → A*; A079 (PVR Priya IMAX) → A*.
-- Kakrighat → renamed/fixed to its canonical name **Swami Vivekananda Jnana Vriksha / Knowledge Tree** and promoted to **A+** (microcosm–macrocosm realization site).
-- Kasar Devi Cave ("Grot Vivekananda") → **A+**; the "Grot Vivekananda" naming must always be retained on every Mark-facing occurrence.
-- Chennai Vivekananda House/Ice House → **A***, buffer-bycatch only (existing waiting window, never a dedicated stop, never weakens the MAA→DEL safety margin).
+### 2.2 Turiya Niwas — Sunyata's hermit house
 
-**Serampore/Srirampur (reopened, was stale FINAL OUT):**
-- SER-01 Sri Yukteswar main hermitage/Smriti Mandir = **A+**, 2h onsite incl. real meditation/quiet time if access permits.
-- SER-02 Rai Ghat sacred banyan (Babaji–Sri Yukteswar 1894 site) = **A+**.
-- SER-03 Anandaloka/YSS Serampore Retreat = **A+ if the exact preserved Yogananda room is enterable for meditation, otherwise A***.
-- SER-04 Serampore College = **C**. SER-05 former Panthi boarding-house plot = **C** (structure demolished).
-- Serampore does not create a separate sleep-world; it must be absorbed into the existing 3-night Kolkata/Dakshineswar block.
+This is a distinct candidate from Grot Vivekananda and from Lama Govinda's ashram.
 
-**Kolkata numbered follow-up batch (superseded once by newer INDIA20 research per Mark's own "newer wins" rule — use these final values, not any earlier tentative ones):**
-1. Vivekananda Ancestral House/Birthplace = **A+**.
-2. Cossipore/Kashipur Udyanbati = **A+**.
-3. Balaram Mandir = **A+**.
-4. Shyampukur Bati = **A**.
-- Tulsi Bose Shrine (distinct from 4 Garpar and YSS Garpar) = **A+**.
-- 50 Amherst Street = **B** (Mark's own rule: not currently proven as a formal shrine/open-to-devotees site).
-- Nagendra Math/Bhaduri Mahasaya house = **A+** (official YSS: converted Math, open to devotees).
-- Pandavkholi/Pandukholi (above Babaji Cave) = **A**, access/winter-safety gated.
-- Kalighat Kali Temple (exact AOAY childhood event site) = **A+**.
-- Dihika (original 1917 Yogananda school, birthplace of YSS) = **A***, kept alive as an optional meaningful world even though the current Varanasi→Kolkata train geometry makes it expensive; execute only if a genuinely available day/corridor makes the burden acceptable. (`decisions/INDIA20_KAKRIGHAT_AMHERST_DIHIKA_RICH_LOCATION_CARD_MARK_DECISIONS_2026-09-13.md` sec.3 explicitly supersedes an earlier same-day "C under current route burden" framing — the A* is Mark's actual last word.)
-- 50 Amherst Street = **A*** — Mark wants to go if practical even for exterior-only access. (Same decision file sec.2 explicitly supersedes an earlier same-day "B, not proven as formal shrine" framing.)
-- Kasar Devi Cave, canonical name **"Grot Vivekananda"** = **A+** (`decisions/INDIA20_DEC23_24_KUMAON_VIVEKANANDA_TRANSIT_AND_BABAJI_DAY_MARK_DECISION_2026-09-13.md` sec.6: "any older wording treating Kasar Devi Cave as OPEN grade is stale").
+Recovered evidence:
+- Alfred "Sunyata" Sorensen lived for decades on the ridge.
+- Anandamayi-related material describes his stone house on Crank's/Kalimath Ridge as **Turiya Niwas**, with a `Silence!` sign; `Turiya` referred to the fourth/highest state of consciousness.
+- a current Airbnb listing retrieved 14 Sep 2026 advertises **Turiya Niwas** as an approximately 100-year-old Himalayan heritage home on Crank Ridge, around ten minutes from Kasar Devi Temple and one minute from the main road, explicitly saying it was once Sunyata Baba's home and offering the whole house to guests.
 
-**Day-block / schedule decisions:**
-- Every future day plan now starts the operational clock at **VERTREK HOTEL** — private morning routine, wake, breakfast are removed from the clock entirely.
-- **Day 1 hotel is LOCKED: Hotel New Frontier**, 19 Dec 2026. Required execution before travel: prebook airport pickup via hotel/formal driver with meet-and-greet/name board; get driver name + mobile/WhatsApp in advance; get the hotel's 24h fallback number; confirm exact meeting point, delay/waiting policy, and price/payment before departure. Still open before booking: guaranteed daytime/early room access, request a quiet room, save contacts offline, re-verify train 15013 still boards at DLI, optionally daylight-walk hotel→DLI once.
-- 19 Dec: arrival → hotel walkable to Old Delhi/Delhi Junction (DLI) for the current 15013 boarding plan; live-recheck station/timetable at booking time.
-- 20 Dec: Naini Lake + Hanuman Garhi/Maharajji-kuti moved onto this day; Hotel Evelyn needs no separate sightseeing block.
-- 21 Dec: a complete day was recovered by the correction in commit `d6c5834`; currently left unallocated.
-- 22 Dec: Kainchi Dham at 08:00, depart 13:00 toward Bhumiadhar, rest of day free; default transport = one prebooked driver.
-- 23 Dec: one prebooked private driver for the full Nainital→Vivekananda-detours→Dunagiri/Kukuchina transfer with luggage/waiting; protect the two Vivekananda anchors (Kakrighat A+, Kasar Devi A+ if executable on the transfer); Dhokaney (A*) yields if it adds >20 min net driving and can never displace the Vivekananda anchors.
-- 24 Dec (Mark's own stated intent, not yet a locked clock): 08:30 VERTREK HOTEL → 09:15 A007 Dunagiri Bell Temple → 10:30 depart toward A008/trail → climb 11:15–12:15 toward A009 → long A009 Mahavatar Babaji Cave + Pandavkholi ridge presence through the afternoon if feasible. Mark wants ~17:00 cave/ridge presence; sunset is ~17:15–17:25. **This exact turnaround time cannot be locked yet** — winter trail condition, guide availability and return geometry must be checked first. This is the single open safety-gated item in the north schedule.
-- Governing rule for all of the above and future PDFs: `governance/MARK_DAY_BLOCK_ONLY_PDF_RULE_2026-09-13.md` — the v4 PDF must be **day-block only**: every day self-contained with all travel/content/WHY/access/timing information inline, no substantive front/back appendices. **Do not generate the PDF yet.**
+Interpretation:
+- this is strong evidence that the remembered **kluizenaarswoning** survives physically and may be visitable/stayable;
+- the listing alone is not sufficient to prove every historical detail, so exact identity/continuity should still be independently checked before a grade card;
+- it is potentially a powerful way to *inhabit* the ridge instead of checking it off, but **do not silently replace a locked Nainital night**. Any sleep-base change must be put to Mark explicitly after geometry.
 
-**Other governance additions:**
-- `governance/PERMANENT_PLACE_NUMBER_RULE_2026-09-13.md` (also `4d4ad6f`): place numbers (A001-A079 etc.) are now permanent identifiers across all Mark-facing outputs, decoupled from grade.
-- `governance/MARK_FACING_PLACE_CARD_TRAVEL_VALUE_RULE_2026-09-13.md`: the hard time-accounting formula for what a place actually costs/saves — `TOTAL TIME = A→B travel + B dwell + B→C travel`; `TIME FREED IF SKIPPED = (A→B + dwell B + B→C) − recalculated direct A→C`. Never substitute dwell time for skip-saving; never blindly sum card times when adjacent cards share a travel leg.
-- A008 Babaji Smriti Bhavan's description was repaired from generic "memorial" wording to its real meaning: the meditation hall/shrine just below Babaji Cave, inside the 1861 Babaji–Lahiri-Mahasaya initiation world. Grade unchanged (A); meaning was the defect.
+### 2.3 Lama Govinda's Kasar Devi Ashram / Bodh Ashram — strongest direct Ram Dass connection
 
-# 4. Why v4 (the next PDF) is still BLOCKED — read this before doing anything else
+This is another distinct physical/historical entity.
 
-Two separate problems were gating v4 as of INDIA20's last commit (`d6c5834`). **CCI resolved the first one while writing this extraction; the second remains open:**
+The historical property is associated with W. Y. Evans-Wentz, then Lama Anagarika Govinda and Li Gotami, later a Drikung Kagyu / Tibetan Buddhist lineage. Current/near-current lineage sources still refer to Govinda's Kasar Devi Ashram and later retreat use. Secondary descriptions call the site **Bodh Ashram**.
 
-1. **Classification regression — RESOLVED 2026-09-13 by CCI.** The six high-priority candidates INDIA20 had flagged as "found but not yet graded" (Tulsi Bose Shrine, 50 Amherst Street, Nagendra Math, Pandavkholi, Kalighat Kali Temple, Dihika) **already had locked Mark decisions on record** — the live ledger CSV had simply never been synced to reflect them (a `GRADE_SCOPED_LEDGER_MISTAKEN_FOR_COMPLETE_MEMORY`-class bug, applied to itself). Same defect also affected Kasar Devi Cave and the four-site Kolkata Vivekananda/Ramakrishna batch (Vivekananda Ancestral House, Cossipore, Balaram Mandir, Shyampukur Bati) and the Chennai Vivekananda House. CCI wrote all correct grades back into `LIVE_DERIVED_PLACE_GRADE_LEDGER_2026-09-13.csv` (rows `L101`-`L106`) and corrected `governance/CURRENT_STATE.md`'s stale framing. **Do not re-present any of these to Mark; see section 3 for final values.** Two items in this family remain genuinely open with no Mark decision yet: Lala Badri Shah House (`L107`) and J.C. Bose residence (`L108`, needs existence/access verification before it can even be presented).
-2. **Ledger completeness — STILL OPEN.** (`research/LIVE_LEDGER_COMPLETENESS_AUDIT_2026-09-13.md`): the live derived ledger is still not a mechanically complete memory of every B/C/OPEN decision ever made — it currently only reliably tracks A+/A/A* rows plus whatever B/C rows happened to get carried over. Confirmed still-missing examples: Delhi B reserves (Qutb Minar, Hauz Khas Village, Humayun's Tomb, Sunder Nursery, Garden of Five Senses, Lodhi Garden, Red Fort), Delhi OPEN items (Jama Masjid/astrology-interest), Tiruvannamalai B reserves (Mango Tree Cave, Pachaiamman Temple), and other historic C/reject items. This is a memory-model defect (a place must be distinguishably `B/C/OPEN`, never silently `never existed`), **not** permission to schedule any of these — just a completeness gap that must close before v4 can be trusted as authoritative.
+The recovered Ram Dass connection is direct and important: official Ram Dass material records Maharajji / Neem Karoli Baba telling Ram Dass **"Go see Lama Govinda"**; Ram Dass describes the meeting with Govinda as a profound surrender / coming-home experience. This makes the Govinda place-world directly relevant to Mark's Ram Dass layer, not merely background counterculture history.
 
-`LIVE_LEDGER_MECHANICALLY_COMPLETE = NO` remains true. **Do not generate v4 yet.** The classification-regression blocker on the Bodh/Tiru duration ballot is cleared, but `CURRENT_STATE.md`'s full "V4 GATE" checklist has several other conditions (Serampore/Kolkata exact marginal-time fields, mechanical 33-night/stable-ID/tone verification) beyond just these two audits — read that section before assuming v4 is close.
+Hard distinction:
+- **Turiya Niwas = Sunyata's hermit house**.
+- **Govinda/Bodh Ashram = Lama Govinda's Buddhist ashram/property and the strongest direct Ram Dass site candidate on the ridge**.
+- **Grot Vivekananda = already-locked A+ Vivekananda cave**.
 
-# 5. Mark-only decisions still open (do not decide these yourself)
+Do not merge these three.
 
-1. **Lala Badri Shah House and J.C. Bose residence** — the only two genuinely still-ungraded candidates from the classification-regression batch (see section 4.1). J.C. Bose needs an existence/access verification pass before it can even be presented; Lala Badri Shah House can be presented to Mark now, one item at a time, the same way A003/A037/A006 were done.
-2. **Bodh Gaya 3n+Tiruvannamalai 4n vs Bodh Gaya 2n+Tiruvannamalai 5n** — fully prepared in `MARK_DECISION_SURFACE_BODH3_TIRU4_VS_BODH2_TIRU5_2026-09-13.md`, CCI and WORK already independently stress-tested both allocations and found no objective winner. **Deliberately not yet asked** — the classification-regression blocker on this is now cleared (section 4.1), but it is still deferred behind ledger completeness (section 4.2) and the rest of `CURRENT_STATE.md`'s V4 GATE checklist. Once those clear, this is the very next question for Mark.
-3. **A069/A070/A071 (Skandashram/Gurumurtam/Pavalakunru) possible sacrifice for more Serampore time** — Mark is *considering* this, has **not** decided. Current analysis: dropping all three frees ~3h30-4h30 (not a clean day), A070 then A071 are the easier cuts, A069 is the hardest to cut (natural continuation of A068, Ramana's mother Alagammal's final period/death site, bridges the mountain phase to Ramanasramam).
-4. **SER-03 Anandaloka's exact grade (A+ vs A*)** depends on a pre-arrival access check: can the exact preserved Yogananda meditation room actually be entered and used for meditation. Not resolvable until closer to booking.
+What is **not** yet proven: a direct documentary statement that Ram Dass stayed at Turiya Niwas itself. Never call Turiya Niwas `Ram Dass's house` on current evidence.
 
-# 6. High-priority recovered candidates — resolved by CCI, do not re-litigate
+### 2.4 Grot Vivekananda [A+] — already decided
 
-This section originally flagged a real internal inconsistency between `CURRENT_STATE.md` (framing these as still-OPEN) and later commits that showed durable grades for several of them. **CCI traced every one of them to its authoritative decision file and confirmed the grades were genuinely locked by Mark; the live ledger CSV had just never been synced.** CCI fixed the CSV (`L101`-`L106`) and `CURRENT_STATE.md`'s stale section. See section 3 for the final values and section 4.1 for the fix itself. Only `L107` (Lala Badri Shah House) and `L108` (J.C. Bose residence) remain genuinely open — do not re-ask Mark about anything else in this family.
+Kasar Devi Cave / **"Grot Vivekananda"** is already a locked A+ Mark decision. The recognition hook is mandatory: future Mark-facing text must preserve `Grot Vivekananda`, not merely `Kasar Devi Cave`.
 
-# 7. CCI/WORK status — already complete, do not redo
+Before the ridge recovery, the cave was protected on the 23 Dec transfer. That remains binding until Mark changes it. The recovered 21 Dec day now allows a serious alternative: move/expand the wider Kasar Devi world into a dedicated day and thereby reduce pressure on 23 Dec.
 
-Unchanged from INDIA19's extraction — still true:
-- Frozen A79 coverage gate: complete.
-- CCI/WORK macro solves + mutual red-team: complete.
-- 79/79 person-provenance/relevance work (both re-verification passes): complete.
-- Haidakhan local-Kailash research: complete, Mark graded A.
-- Gyan Yatra/Buddha Marg existence research: complete.
-- Seven Pragbodhi stupa research: complete.
-- Sujata offering-vs-stupa research: complete (now two separate entities, A+ and A).
-- Global topology solve: complete for the current macro; `GLOBAL_REOPTIMIZATION_REQUIRED = NO` — a global re-solve is not warranted by anything found this session.
+## 3. The exact open question created by the recovered 21 Dec day
 
-`NO_REDO != DO_NOT_READ`: reopen raw outputs where needed to recover per-place meaning or find classification omissions — this is exactly how INDIA20 found Serampore, Kakrighat's naming, and A008's meaning defect.
+The next successor should **not** simply ask Mark whether he "likes Crank's Ridge". The actual decision surface is:
 
-# 8. What INDIA20 was doing when context filled
+> Now that 21 Dec is a genuinely free full day, should it be developed as a **dedicated Kasar Devi / Crank's Ridge immersion day**, potentially combining Grot Vivekananda [A+], Turiya Niwas / Sunyata, Lama Govinda's former Kasar Devi/Bodh Ashram with the Ram Dass connection, ridge walking / quiet meditation and the historically meaningful seeker-community layer — instead of treating Kasar Devi mainly as a 23 Dec transfer stop?
 
-INDIA20 was mid-repair on the Kolkata numbered-candidate grade bookkeeping when context ran out, leaving `CURRENT_STATE.md` and the live ledger CSV out of sync with the actual locked Mark decisions (see sections 4.1 and 6 — CCI found and fixed this while writing this extraction). INDIA20's last commit (`d6c5834`) corrected a recovered-day/north-chain scheduling logic error and is internally consistent at the file level.
+Do not ask Mark to lock this until the physical geometry has been worked out. First determine:
+- exact current identity and access for Turiya Niwas;
+- exact surviving Govinda/Bodh Ashram property, current name and visitor/meditation access;
+- walking/driving relations among Grot Vivekananda, Kasar Devi Temple, Turiya Niwas and Govinda/Bodh Ashram;
+- whole-human day-trip burden from the **current Nainital sleep base** on 21 Dec, including winter daylight and real quiet dwell;
+- what moving Grot Vivekananda off 23 Dec genuinely frees on the Nainital→Dunagiri transfer;
+- whether there is any compelling reason to propose a sleep-base change despite the locked Nainital 3 nights. Do not change nights silently.
 
-# 9. Successor's first real work
+After this, any newly recovered physical candidates must be shown to Mark **one by one for grading**. INDIA must not assign A+/A/A*/B/C itself.
 
-In order:
-1. Read this file and `CURRENT_STATE.md` in full.
-2. Present Lala Badri Shah House to Mark (one item, same pattern as A003/A037); run an existence/access verification pass on J.C. Bose residence before presenting it.
-3. Continue the `LIVE_LEDGER_COMPLETENESS_AUDIT` — close the gap between "A+/A/A* scoped" and "mechanically complete B/C/OPEN memory." This is now the only classification-side blocker left on v4.
-4. Once ledger completeness and the rest of `CURRENT_STATE.md`'s V4 GATE checklist are actually closed (not just progressed), present the Bodh Gaya 3n+4n vs 2n+5n choice to Mark using the already-prepared `MARK_DECISION_SURFACE` file — do not build a new one.
-5. Resolve the Dec 24 Babaji Cave/Pandavkholi winter turnaround safety gate before it becomes execution-critical.
-6. Only after all Mark-only choices are resolved: generate v4 as a day-block-only PDF per `governance/MARK_DAY_BLOCK_ONLY_PDF_RULE_2026-09-13.md`.
-7. **Process note for whichever session reads this next:** when a governance/status file (`CURRENT_STATE.md`, a live ledger, a knowledge map) and a dated decision file disagree, do not average them or present both as open — trace the actual commit history (`git log -S`, `git show`) to find which one is genuinely newer and cite it, the way section 4.1 of this file did. A stale status file is a bug to fix, not a second opinion to weigh.
+## 4. New side-find while completing this extraction
 
-# 10. ABSOLUTE NO-REDO WARNING
+### 4.1 Lala Badri Shah House — Almora [OPEN, but access now substantially verified]
 
-Do not re-run: the A79 person-provenance restoration, the CCI/WORK macro solves, the Haidakhan/Gyan-Yatra/Sujata/seven-stupa research, or a global topology re-solve. All of these are complete and their outputs are cited throughout `CURRENT_STATE.md` and this file. Re-doing any of them wastes a successor's entire context on work that is already done and would not surface anything new — the actual remaining work is narrow and is listed in section 9.
+CCI correctly left `KUM-NEW-LALA-BADRI-SHAH` open. The final recovery pass now found a strong official access source from Ramakrishna Kutir Almora:
+- Vivekananda, Akhandananda and others stayed there in Aug–Sep 1890;
+- Vivekananda stayed there again on 11 May 1897 after returning from the West;
+- a marble plaque marks the house;
+- **open to the public on request after 15:00**;
+- only a few steps from Raghunath Temple; approximately 2 km from Ramakrishna Kutir.
 
-# 11. Extraction validation
+This means the successor need not spend another pass merely asking `does it exist / can it be visited?`. It is ready for a rich Mark-facing card and Mark grade, unless a still-later decision file supersedes OPEN.
 
-This extraction was built directly from `git log`, `governance/CURRENT_STATE.md` (read in full), `governance/DECISION_LEDGER.jsonl` (tail from `DL-0057`), and the INDIA20 boot/check artifacts — not from unverified memory. CCI cross-checked every commit hash and file path cited above against the actual repository before committing this file. One internal inconsistency was found during that check (section 6/8: `CURRENT_STATE.md` framed six-plus candidates as still-OPEN while later decision files showed them already locked by Mark). CCI resolved it by tracing each candidate through `git log -S`/`git show` to its authoritative, most-recent decision file rather than leaving it as an open question for the successor or for Mark — the live ledger CSV and `CURRENT_STATE.md` were both corrected accordingly (section 4.1). This extraction was reviewed by CCI three times before commit: once for completeness against the full commit list, once for internal consistency after the sync-repair fix was applied, and once for a final read-through against `CURRENT_STATE.md` as committed.
+Official source preserved in the Crank's Ridge research note: `https://almora.rkmm.org/places_of_interest`.
+
+### 4.2 J.C. Bose — the previous OPEN candidate was physically conflated
+
+The earlier `J.C. Bose residence/laboratory` wording is too loose. Current research resolves at least two distinct entities:
+- **Acharya Bhaban**, 93 Acharya Prafulla Chandra Road, Kolkata: J.C. Bose's 1902 residence, now a science-heritage museum. Current Museum of India information presents it as public/free with limited visiting hours (currently shown Wed/Thu 14:00–16:00; live-recheck later). It preserves Bose artefacts/instruments including a crescograph and records Vivekananda among historic guests.
+- **Bose Institute Main Campus**, 93/1 Acharya Prafulla Chandra Road: separate institutional/laboratory site founded in 1917.
+
+Before Mark grades any Yogananda/J.C.-Bose candidate, recover the exact AOAY event location and map it to the correct surviving physical entity. Do **not** grade a blended `residence/laboratory` card.
+
+This is a new instance of the existing anti-regression rule: `DISTINCT_PHYSICAL_ENTITIES_COLLAPSED_INTO_ONE_CARD`.
+
+## 5. CCI repair that must be preserved
+
+While writing its first INDIA20 extraction, CCI discovered that six recovered candidates already had locked Mark grades but were still incorrectly shown as OPEN in the live ledger/current-state prose. CCI repaired the mechanical sync. Do not re-ask Mark about them.
+
+Final resolved values include:
+- Kasar Devi Cave / Grot Vivekananda = **A+**.
+- Vivekananda Ancestral House/Birthplace = **A+**.
+- Cossipore/Kashipur Udyanbati = **A+**.
+- Balaram Mandir = **A+**.
+- Shyampukur Bati = **A**.
+- Chennai Vivekananda House/Ice House = **A***, buffer-bycatch only.
+- Tulsi Bose Shrine = **A+**.
+- 50 Amherst Street = **A*** (newer Mark decision supersedes earlier provisional B).
+- Nagendra Math = **A+**.
+- Pandavkholi/Pandukholi = **A**, winter/access gated.
+- Kalighat Kali Temple = **A+**.
+- Dihika Retreat = **A*** (newer Mark decision supersedes earlier provisional C framing).
+
+Only Lala Badri Shah House and J.C. Bose remained genuinely open in that recovered family; this extraction now advances their research state as described above without assigning Mark's grade.
+
+## 6. Other binding Mark decisions / meaning repairs successor must not re-litigate
+
+The live-derived ledger remains the current grade surface, not the frozen A79 ledger. Important current truth includes:
+- A003 Hanuman Garhi + Maharajji-kuti = **A+**.
+- A006 Dhokaney Waterfall = conditional **A***.
+- A008 Babaji Smriti Bhavan = **A**, but its meaning is repaired: meditation hall/shrine just below Babaji Cave inside the 1861 Babaji–Lahiri initiation world, not a generic memorial.
+- A013/A014/A015 Agra foods = **B opportunistic**.
+- Haidakhan local-Kailash summit = **A**, distinct physical entity, execute only if on-site feasible.
+- Sujata milk-offering spot / Temple / banyan = **A+**; Sujata Stupa/Garh = **A**. Never collapse them.
+- A023/A044/A047/A050/A059/A060 = **B** and must remain in knowledge memory even when absent from A-scoped surfaces.
+- A035 Lolark Kund = conditional **A***.
+- A037 Subah-e-Banaras = conditional **A***, only if effectively zero-cost.
+- A043 Kedareshwar remains **A**; Sri Ramakrishna relevance was recovered.
+- A067 Dreaming Tree = **A***.
+- A068 Virupaksha Cave = **A+**.
+- A078 Lotus Temple = **A***.
+- A079 PVR Priya IMAX = **A***.
+- Kakrighat / **Swami Vivekananda Jnana Vriksha / Knowledge Tree** = **A+**; every future mention must retain the microcosm–macrocosm realization meaning and the reading cue to *Complete Works*, Vol. 9, `Macrocosm and Microcosm`.
+
+Serampore final current grades:
+- SER-01 Sri Yukteswar main hermitage / Smriti Mandir = **A+**, Mark wants ~2h onsite incl. real meditation if access permits.
+- SER-02 Rai Ghat sacred banyan = **A+**.
+- SER-03 Anandaloka/YSS Serampore Retreat = **A+ if exact preserved Yogananda room can be entered/meditated in, otherwise A***.
+- SER-04 Serampore College = **C**.
+- SER-05 former Panthi boarding-house plot = **C**.
+- Serampore remains inside the existing Kolkata/Dakshineswar world, not a separate sleep-world.
+
+## 7. Other open conversations / tradeoffs that remain active
+
+These are not all chat-only — most are already in repo — but a successor must know they are still unresolved:
+
+1. **Item-by-item place review remains the active user mode.** Mark is manually reviewing meaning/grades to free real trip time. Do **not** jump to the final duration ballot, bookings, Pongal, macro lock or PDF generation. Stay with physical-place review / classification audit until Mark indicates otherwise.
+2. **A069/A070/A071 versus Serampore time:** Mark is considering whether Skandashram / Gurumurtam / Pavalakunru should be sacrificed to create more Serampore time. No grade change has been made. Current skip estimate for all three together is only ~3h30–4h30, not a whole Tiru day. If cuts are ever needed, A070 then A071 are easier sacrifices; A069 is hardest because it naturally continues from A068 and carries Ramana's mother Alagammal's final-period/death geography.
+3. **Bodh Gaya 3n + Tiruvannamalai 4n versus Bodh Gaya 2n + Tiruvannamalai 5n:** decision surface already exists and CCI/WORK found no objective winner. **Do not ask it yet.** It is deliberately deferred until the live ledger / place-review layer is trustworthy and Mark is ready.
+4. **SER-03 Anandaloka A+ vs A*** remains conditional on exact room access; this is an execution/access fact, not a judgment to improvise.
+5. **24 Dec Babaji Cave/Pandavkholi late-afternoon turnaround** remains winter-safety gated. Preserve Mark's desire for long quiet presence but never lock a dark descent merely to hit 17:00.
+6. **V4 PDF remains blocked.** Do not generate it yet. The live ledger is still not mechanically complete across historical B/C/OPEN decisions.
+
+## 8. Live-ledger completeness / classification rules that remain essential
+
+`LIVE_LEDGER_MECHANICALLY_COMPLETE = NO` remains true.
+
+Known missing memory classes include older/current B, C and OPEN decisions even where A+/A/A* is well represented. Absence from the live CSV is therefore **not evidence a place never existed**. This exact bug caused multiple earlier losses.
+
+Hard anti-regression lessons:
+- bad/sparse PDF wording is never evidence a place is spiritually weak;
+- recover the original WHY/person/event/tradition before recommending a downgrade;
+- tradition is valid pilgrimage evidence; do not convert Mark-facing writing into courtroom prose;
+- separate physical entities remain separate even when adjacent;
+- adjacent places may share travel legs: never sum card totals blindly;
+- skipping a place requires recalculating A→C, not merely subtracting dwell;
+- whole-human burden includes walking, parking, stations, waiting, mode changes, access friction and recovery burden;
+- cluster status is not a site grade;
+- B/C/OPEN rows remain knowledge and must not disappear from memory merely because a PDF is A+/A-focused.
+
+## 9. Exact next concrete work for successor
+
+Do not start with route macro-optimization. Start here:
+
+1. Boot as **INDIA22** with a fresh nonce and get an actually independent check/authorization.
+2. Read the Crank's Ridge recovery note and verify exact present-day physical/access geometry for **Turiya Niwas** and **Lama Govinda/Bodh Ashram**.
+3. Calculate the real 21 Dec Nainital→Crank's Ridge→Nainital day burden and the delta if Grot Vivekananda moves off 23 Dec.
+4. Present newly recovered ridge places to Mark **one at a time**, with rich WHY + exact physical identity + access + time fields. Mark alone grades them.
+5. Present **Lala Badri Shah House** as a rich OPEN candidate; its existence/access question is already substantially resolved by the official Ramakrishna Kutir source.
+6. Resolve the exact Yogananda/J.C. Bose event entity before presenting J.C. Bose to Mark; distinguish Acharya Bhaban from Bose Institute.
+7. Continue ledger-completeness reconciliation so B/C/OPEN memory cannot silently disappear.
+8. Keep Bodh/Tiru duration, bookings and v4 PDF deferred until Mark explicitly moves past place review.
+
+## 10. Public-source trail for the final recovered layer
+
+Full source trail is in:
+`research/KASAR_DEVI_CRANKS_RIDGE_SUNYATA_GOVINDA_RAM_DASS_RECOVERY_2026-09-14.md`
+
+Key sources preserved there:
+- Ram Dass official: Maharajji's `Go see Lama Govinda` instruction and Govinda encounter;
+- Dharmazentrum/Arya Maitreya material: Kasar Devi Ashram lineage;
+- Anandamayi Amrit Varta: Sunyata / Turiya Niwas;
+- current Turiya Niwas Airbnb listing;
+- Almora district Kasar Devi page;
+- Ramakrishna Kutir Almora official Lala Badri Shah access page;
+- Museum of India / Bose Institute sources distinguishing Acharya Bhaban and Bose Institute.
+
+Do not repeat the popular `Van Allen belt gap / NASA proved special energy` claim as established science. It can be mentioned, if ever relevant, only as modern local lore.
+
+## 11. Final successor warning
+
+INDIA20's main failure mode at the end was not lack of research; it was **meaning and entity loss during compression**. Crank's Ridge is the final clear example: the A+ Vivekananda cave survived, while Sunyata's hermit house, Govinda's ashram and the Ram Dass connection nearly vanished from the planning memory.
+
+The next successor should therefore prefer: **recover exact physical entity → recover WHY → verify access → calculate true burden → show Mark → only then schedule/cut**.
+
+`CRANKS_RIDGE_WORLD_RECOVERED = YES`
+`TURIYA_NIWAS_DISTINCT_ENTITY = YES`
+`GOVINDA_BODH_ASHRAM_DISTINCT_ENTITY = YES`
+`RAM_DASS_DIRECT_LINK_TO_GOVINDA = YES`
+`RAM_DASS_DIRECT_LINK_TO_TURIYA_NIWAS = NOT_PROVEN`
+`DEC21_DEDICATED_RIDGE_DAY = OPEN_MARK_DECISION_AFTER_GEOMETRY`
+`LALA_BADRI_SHAH_ACCESS_VERIFIED_ENOUGH_FOR_MARK_CARD = YES`
+`JC_BOSE_RESIDENCE_LAB_CONFLATION = MUST_SPLIT`
+`LIVE_LEDGER_MECHANICALLY_COMPLETE = NO`
+`V4_PDF = BLOCKED`
+`NEXT_REAL_SUCCESSOR = INDIA22`
 
 END INDIA20 FINAL EXTRACTION
