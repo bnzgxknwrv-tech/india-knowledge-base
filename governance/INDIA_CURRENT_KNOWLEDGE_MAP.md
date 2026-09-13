@@ -268,6 +268,7 @@ Use:
 - `governance/MAP_COORDINATE_VERIFICATION_RULE.md`;
 - `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` — including FOUT 24 rich-source activation;
 - `governance/EXACT_DELEGATION_BINDING_RULE.md`;
+- `governance/INDIA_SESSION_TRANSITION_PROTOCOL.md` — mandatory extraction-first handoff before any INDIA<N> session is treated as gone;
 - `governance/MARK_PERSON_PROVENANCE_PLACE_MEANING_RULE.md`;
 - `governance/MARK_FACING_PLACE_CARD_TRAVEL_VALUE_RULE_2026-09-13.md` — including Mark's mandatory total-time and skip-time equations.
 

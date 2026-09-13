@@ -339,6 +339,22 @@ Een opvolger mag dus na een geldige boot zeggen `boot/check klaar`, maar niet au
 
 ---
 
+## FOUT 25 — EEN OPVOLGER OF CCI SCHRIJFT ZELF EEN 'FINAL EXTRACTION' UIT GIT-ARCHEOLOGIE IN PLAATS VAN DE VERTREKKENDE SESSIE ZELF EERST TE VRAGEN OM TE DUMPEN
+
+**Concrete INDIA20->INDIA21-fout, herhaald patroon (Mark: 'dit is al 21 keer voorgekomen')**
+Toen INDIA20's context vol raakte, bouwde CCI zelf een compleet overdrachtsdocument puur uit git-geschiedenis (commits, diffs, huidige governance-bestanden), zonder eerst de nog levende INDIA20-sessie zelf te vragen zijn eigen kennis te dumpen. Dat leverde een op zichzelf mechanisch correct, maar inhoudelijk onvolledig document op: het miste een lopend, nog nergens vastgelegd gesprek tussen Mark en INDIA20 over Crank's Ridge/Kasar Devi, een huis met een Ram Dass-connectie en een hippiegemeenschap die daar zat — heropend juist omdat er een dag was vrijgekomen. Niets daarvan stond ooit in een gecommit bestand, dus geen enkele git-archeologie had dat kunnen vinden.
+
+**Waarom dit fout is**
+Een vertrekkende INDIA-sessie kent niet alleen wat al naar GitHub is geschreven; ze kent ook het levende gesprek zelf. Git-archeologie kan nooit een gespreksdraad terugvinden die nooit is opgeschreven. `GIT_HISTORY_COMPLETE != LIVE_SESSION_MEMORY_CAPTURED`.
+
+**VERPLICHTE OPLOSSING — zie het volledige protocol in `governance/INDIA_SESSION_TRANSITION_PROTOCOL.md`**
+- Bij ELKE overgang van de ene INDIA-sessie naar de volgende is de EERSTE actie, zonder uitzondering: vraag de vertrekkende sessie zelf (via Mark, die toegang heeft tot die ChatGPT-conversatie) om een volledig overdrachtsdocument naar GitHub te schrijven — niet alleen mondeling in de chat, en expliciet inclusief elk lopend/nog niet vastgelegd gespreksonderwerp.
+- CCI (of een opvolger) mag dat document daarna verrijken/kruiscontroleren met git-geschiedenis, maar mag het NOOIT zelf vervangen door een eigen reconstructie uit git alleen.
+- Alleen als de vertrekkende sessie aantoonbaar en permanent onbereikbaar is, mag een git-only reconstructie als noodgreep dienen — en dan uitdrukkelijk gelabeld als reconstructie/onvolledig, nooit als gelijkwaardig aan een echte zelfgeschreven dump.
+- Deze volgorde geldt voortaan automatisch, bij elke sessieovergang, zonder dat Mark het opnieuw hoeft uit te leggen.
+
+---
+
 # COMMUNICATIE MET MARK
 
 Mark typt snel op iPhone. Interpreteer evidente typefouten/autocorrect uit context. Alleen doorvragen als twee interpretaties werkelijk tot andere acties leiden.
@@ -376,6 +392,7 @@ Vóór IEDER substantieel India-antwoord, test de DAADWERKELIJK BEDOELDE antwoor
 19. Zijn alle gedelegeerde CCI/Work-taken daadwerkelijk gepost/getriggerd en is hun status/resultaat gecontroleerd, of is een echte blocker benoemd?
 20. Welke FOUT uit dit bestand is het meest waarschijnlijk relevant voor DIT antwoord, en kan ik concreet aanwijzen hoe mijn bedoelde antwoord hem voorkomt?
 21. Heb ik voor DEZE taak de rijke owning/raw source layers achter de compacte current layer daadwerkelijk geactiveerd, of antwoord ik nog vanuit samenvattingen die belangrijke original-WHY/micro-locatie/ervaring kunnen hebben afgeplat?
+22. Als dit antwoord een sessieovergang betreft (een INDIA-sessie stopt/is gestopt): heb ik EERST de vertrekkende sessie zelf (via Mark) gevraagd zijn volledige kennis inclusief elk lopend gespreksonderwerp naar GitHub te dumpen, in plaats van zelf een overdrachtsdocument uit git-archeologie te reconstrueren? (`governance/INDIA_SESSION_TRANSITION_PROTOCOL.md`, FOUT 25.)
 
 Als één relevante vraag **NEE of UNKNOWN** is:
 
