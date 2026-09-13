@@ -312,6 +312,33 @@ De uitgebreidere interruptieregel werd eerst alleen in een los `decisions/...`-b
 
 ---
 
+## FOUT 24 — BOOT KLAAR, MAAR DE RIJKE BRONLAAG ACHTER DE ACTUELE TAAK NIET ACTIEF
+
+**Concrete INDIA20-fout / oudere structurele voorgangerfout**
+Een opvolger kan de volledige verplichte boot, current state, knowledge map en zelfs een compacte reconciliatie correct lezen en tóch onvoldoende weten om een plek goed aan Mark uit te leggen. De boot is sterk in status, besluiten, locks en routing, maar een compacte top-layer kan onmogelijk alle oorspronkelijke WHY-, micro-locatie-, persoon/event-, access-, lived-experience- en source-detail van honderden plekken dragen.
+
+Dit werd opnieuw zichtbaar tijdens Marks PDF-review: correcte maar te summiere kaarten konden belangrijke redengevende kennis verbergen. Voorbeelden zijn exacte meditatiekamers, kuti's, portico's, grotten, bomen, samadhi's, historische kamers, levensgebeurtenissen, living-practice details en oude discovery-redenen die wel in worker matrices, oorspronkelijke research, AOAY/person sweeps, travelogues of cluster-dossiers stonden maar niet volledig in de compacte kaart.
+
+**VERPLICHTE OPLOSSING — POST-BOOT RICH-SOURCE ACTIVATION**
+Nadat de normale boot/check is geslaagd en vóór inhoudelijk werk aan de actuele frontier:
+1. bepaal eerst welke **kennissoorten** de komende taak nodig heeft: grades/supersedes, original WHY, person/event provenance, micro-locations, lived experience, access, GEO, transfer burden, hotel/base, source-layer completeness, enz.;
+2. open vervolgens dynamisch de **owning/raw source layers** achter die kennis — niet alleen de samenvatting die ernaar verwijst;
+3. voor plaats-/PDF-/grade-review betekent dit minimaal: item-level grade/supersede-provenance, relevante original-discovery/cluster dossiers, person/AOAY/Top-X provenance, 79/79/raw relevance matrices waar van toepassing, traveler/LP/official-source lagen, en relevante externe pelgrims-/travelogue-bronnen die concrete subplaatsen of ervaringen bevatten;
+4. gebruik CCI/WORK/raw matrices als feiten- en archaeologybron, maar filter oude sceptische/evidence-strength framing door nieuwere Mark-truth (`tradition is evidence`, pilgrimage not courtroom) en laat worker-signalen nooit zelfstandig grades veranderen;
+5. voer een **LOST-PHYSICAL-ENTITY CHECK** uit: zoek naar materiële fysieke plekken die ooit als `relevant this trip`, `ungraded`, `winter-check later`, `possible walk`, `needs Mark classification` of vergelijkbaar zijn onderzocht maar door ontbreken van eigen entity/classification later uit compacte ledgers konden verdwijnen; de Haidakhan-local-Kailash-summit is het precedent;
+6. downgraded B-items blijven in een volledige levende kennislaag zichtbaar als B; `niet meer A/A+` mag niet betekenen `uit het geheugen verdwenen`;
+7. vóór advies om een bestaande A/A+ te verkorten/downgraden: reconstrueer eerst het **rijkste eerlijke kaartbeeld** — original WHY, unieke identiteit, relevante persoon/event, exact te zoeken subplaats, wat Mark werkelijk doet/ervaart, en eventuele materiële access-/identity-caveat. Een arme kaart is nooit bewijs dat de plek arm is;
+8. third-party travelogues mogen concrete ervaring/micro-locaties toevoegen maar nooit zelfstandig een grade wijzigen, FINAL OUT heropenen of oude logistiek tot huidige waarheid verheffen;
+9. alleen kennis die voor de actuele/komende frontier materieel is hoeft actief te worden geladen: dit is geen opdracht om bij iedere chat de hele repository opnieuw te lezen;
+10. sluit af met een applied parity test: **welke 5–10 concrete dingen uit deze rijke bronlaag zouden zonder deze pass waarschijnlijk niet in mijn eerstvolgende antwoord hebben gezeten?** Als het antwoord niet concreet is, is de laag nog niet actief genoeg.
+
+**HARD GEDRAG**
+`BOOT_COMPLETE != TASK_RELEVANT_RICH_SOURCE_MEMORY_COMPILED`.
+
+Een opvolger mag dus na een geldige boot zeggen `boot/check klaar`, maar niet automatisch `inhoudelijk volledig klaar`. Voor de eerstvolgende taak moet ook de taakrelevante rijke bronlaag zijn gecompileerd.
+
+---
+
 # COMMUNICATIE MET MARK
 
 Mark typt snel op iPhone. Interpreteer evidente typefouten/autocorrect uit context. Alleen doorvragen als twee interpretaties werkelijk tot andere acties leiden.
@@ -348,6 +375,7 @@ Vóór IEDER substantieel India-antwoord, test de DAADWERKELIJK BEDOELDE antwoor
 18. Zijn gewone nummers de enige structurele identifiers in Mark-facing keuzeoverzichten?
 19. Zijn alle gedelegeerde CCI/Work-taken daadwerkelijk gepost/getriggerd en is hun status/resultaat gecontroleerd, of is een echte blocker benoemd?
 20. Welke FOUT uit dit bestand is het meest waarschijnlijk relevant voor DIT antwoord, en kan ik concreet aanwijzen hoe mijn bedoelde antwoord hem voorkomt?
+21. Heb ik voor DEZE taak de rijke owning/raw source layers achter de compacte current layer daadwerkelijk geactiveerd, of antwoord ik nog vanuit samenvattingen die belangrijke original-WHY/micro-locatie/ervaring kunnen hebben afgeplat?
 
 Als één relevante vraag **NEE of UNKNOWN** is:
 
@@ -357,7 +385,6 @@ Als één relevante vraag **NEE of UNKNOWN** is:
 
 De bedoeling is NIET dat een opvolger kan zeggen:
 `ik heb alle bestanden gelezen`.
-
 De bedoeling is dat Mark aan het antwoord merkt:
 `de opvolger gedraagt zich alsof ik deze foutenlijst zojuist persoonlijk in de chat heb geplakt`.
 
