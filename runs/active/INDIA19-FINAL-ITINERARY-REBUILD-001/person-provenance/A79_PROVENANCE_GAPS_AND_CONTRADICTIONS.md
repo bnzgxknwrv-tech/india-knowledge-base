@@ -17,6 +17,21 @@ Dit bestand somt elk genuine onopgelost provenance-hiaat of bronconflict op dat 
 
 ---
 
+## 0. NIEUW GEVONDEN PERSOONSLINKS BIJ HERVERIFICATIE 2026-09-13 (geen gaps — al gecorrigeerd in CSV/MD)
+
+Aanleiding: Mark ontdekte dat A052 Manikarnika Ghat ten onrechte als "geen directe link" was geclassificeerd, terwijl AOAY hoofdstuk 36 expliciet Lahiri Mahasaya's crematie daar beschrijft. Dit vroeg om een actieve herverificatie van A001-A040 tegen elke prioriteitspersoon, niet alleen een herlezing van wat er al stond. Drie echte, eerder gemiste links zijn gevonden en direct in de CSV/MD gecorrigeerd (geen gap, wel hier vermeld voor transparantie):
+
+- **A017 (Mahabodhi Temple/Bodhi Tree):** Swami Vivekananda (als jonge Narendra, vóór hij die monastieke naam droeg) bezocht Bodh Gaya vóór Ramakrishna's dood (1886) en mediteerde er voor het Boeddhabeeld en bij de Bodhiboom — vastgelegd in de Kathamrita/Gospel of Sri Ramakrishna (deel 2/3, "The Master and Buddha"), verteld door Ramakrishna zelf aan M. Dit stond nergens in de bestaande kaart.
+- **A026 (Shri Kashi Vishwanath Temple):** zowel Sri Ramakrishna (tijdens zijn 1868 Kashi-pelgrimage, bevestigd door Ramakrishna Math Varanasi's eigen geschiedenispagina) als Sarada Devi (tijdens haar pelgrimstocht na Ramakrishna's dood) bezochten deze tempel. De bestaande kaart zei ten onrechte dat er geen prioriteitspersoon-verband was gevonden — dit is van hetzelfde type als de Manikarnika-fout.
+- **A002 (Naini Lake circumambulation walk):** Swami Vivekananda verbleef in 1890 (zes dagen) en 1898 in de stad Nainital zelf, vlak voordat hij zijn beroemde voettocht naar Almora begon — algemene, goed gedocumenteerde stadsaanwezigheid, niet specifiek aan de meerroute gekoppeld (zo ook eerlijk vermeld, geen route-claim gedaan).
+- **A027 (Maa Annapurna Temple):** Sri Ramakrishna zag hier, tijdens dezelfde 1868-Kashi-pelgrimage als A026, op de avond van Diwali het gouden beeld van Annapurna, vastgelegd in Swami Saradananda's biografie *Sri Ramakrishna, the Great Master*. De bestaande kaart zei ten onrechte dat hier geen prioriteitspersoon-verband bestond.
+
+**Ook gecheckt en NIET bevestigd (dus terecht niet toegevoegd):** Vivekananda's bezoek aan Hanuman Garhi Nainital (A003, geen bron — Wikipedia noemt uitsluitend Neem Karoli Baba); Vivekananda's bezoek aan déze specifieke Kashi Vishwanath-tempel (A026 — de eigen Ramakrishna Math Varanasi-bron over zijn bezoek noemt specifiek de Kedareshwar-tempel, niet Vishwanath, dus bewust niet aan hem toegeschreven om niet te overclaimen); Ram Dass' bezoek aan Bodh Gaya (geen bron gevonden); Babaji's bezoek aan Lahiri Mahasaya's Varanasi-huis (A039, geen bron gevonden boven wat al in AOAY hfst. 32-36 staat).
+
+**Voor de A041-A079-agent (buiten mijn bereik, hier alleen ter info):** Sri Ramakrishna had tijdens zijn 1868-Kashi-pelgrimage ook een gedocumenteerde visioen-ervaring bij Manikarnika Ghat (A052, per Ramakrishna Math Varanasi's eigen geschiedenispagina) — mogelijk een aanvullende link naast de reeds gecorrigeerde crematie van Lahiri Mahasaya daar. Ook bezochten zowel Ramakrishna als Vivekananda de Kedareshwar-tempel/Kedar Ghat (mogelijk A043 in het A041-A079-bereik) — dit is niet door mij geverifieerd tegen die specifieke rij.
+
+---
+
 ## 1. A003 (Hanuman Garhi + Maharajji-kuti) — bewijssterkte van de kuti-claim zelf
 
 Het project's eigen `NEEM_KAROLI_BABA_V2_PRE_EXTERNAL_FREEZE.md` classificeerde deze locatie aanvankelijk als `ONZEKER` / `ALLEEN_PLAATS` ("genoemd als aan hem gelieerde ashramlocatie... geen aparte gebeurtenis gevonden"). Een latere externe reconciliatiepas (CCI_TASK 091-delta) verhoogde dit naar `JA`/`EXACT`, maar expliciet gemarkeerd als **PLAUSIBLE, niet CONFIRMED** — de onderliggende externe bronnen (aangeduid als S9/S5) zijn niet zelfstandig binnen dit project nagetrokken.
@@ -35,11 +50,13 @@ Dit staat lijnrecht tegenover het diepere brononderzoek in `RAM_DASS_V2_PRE_EXTE
 
 ---
 
-## 3. A008/A009 (Babaji Smriti Bhavan / Mahavatar Babaji's Cave) — exacte plek-identiteit is een latere laag, niet AOAY-tekst zelf
+## 3. A008/A009 (Babaji Smriti Bhavan / Mahavatar Babaji's Cave) — Drongiri/Dunagiri-naamskwestie — GROTENDEELS OPGELOST bij herverificatie 2026-09-13
 
-*Autobiography of a Yogi* zelf noemt de initiatieplek "Drongiri Mountain, near Ranikhet" en gebruikt nergens de namen "Kukuchina", "Dunagiri" of "Dwarahat". De identificatie van de huidige, bezoekbare grot bij Kukuchina/Dunagiri (ca. 25 km van Dwarahat) met AOAY's Drongiri-grot komt uit het project's eigen Fase-4 (institutionele/webresearch)-laag, niet uit de primaire tekst.
+*Autobiography of a Yogi* zelf noemt de initiatieplek "Drongiri Mountain, near Ranikhet" en gebruikt nergens de namen "Kukuchina", "Dunagiri" of "Dwarahat" in die spelling. Dit werd eerder (2026-09-11) gelezen als een mogelijk interpretatiegat: dat de identificatie van de huidige, bezoekbare grot bij Kukuchina/Dunagiri met AOAY's Drongiri-grot een latere, institutionele laag zou zijn, niet iets uit de primaire tekst zelf.
 
-**Gap:** dit is geen fout, maar een reëel, nooit volledig dichtgeplozen interpretatiegat. Er bestaat geen in dit project geverifieerde, onafhankelijke bronketen die AOAY's "Drongiri Mountain" letterlijk aan de huidige Kukuchina/Dunagiri-locatie koppelt, buiten de algemene, brede webconsensus dat dit "de" moderne Babaji-grot is. Voor Mark maakt dit weinig praktisch verschil (de huidige grot is wat bezocht wordt), maar het moet niet worden voorgesteld als een AOAY-tekstueel feit.
+**Wat CCI bij herverificatie (2026-09-13) heeft gevonden:** meerdere onafhankelijke pelgrims- en reisbronnen (o.a. path2yoga.net, dunagiri.com, euttaranchal.com) gebruiken "Dronagiri" en "Dunagiri" consistent door elkaar voor exact deze berg bij Ranikhet/Dwarahat. Dit maakt het aanzienlijk waarschijnlijker dat "Drongiri" in AOAY's Engelse vertaling simpelweg een oudere/alternatieve transcriptie is van dezelfde bergnaam, geen aanwijzing voor een andere, niet-geïdentificeerde berg. Dit is geen 100% sluitend taalkundig bewijs (er is geen bron gevonden die expliciet zegt "Drongiri is dezelfde spelling als Dunagiri"), maar de brede, consistente naamsoverlap bij een verder zeer specifieke locatie (dezelfde berg, dezelfde regio bij Ranikhet, hetzelfde Lahiri Mahasaya-initiatieverhaal) maakt een toevallige verwarring met een andere berg onwaarschijnlijk.
+
+**Resterend, klein punt:** geen enkele bron in of buiten dit project citeert een taalkundige/etymologische bron die de spellingsvariatie "Drongiri" → "Dronagiri/Dunagiri" expliciet bevestigt; dit blijft technisch een gevolgtrekking uit consistente naamsoverlap, geen bevestigd feit. Voor Mark maakt dit weinig praktisch verschil (de huidige grot is wat bezocht wordt en is de traditioneel aanvaarde plek binnen de Kriya-lijn); de CSV/MD presenteren dit nu als de traditioneel aanvaarde plek, zonder overdreven voorbehoud.
 
 ---
 

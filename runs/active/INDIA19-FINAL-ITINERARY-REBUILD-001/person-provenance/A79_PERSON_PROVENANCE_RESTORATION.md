@@ -39,14 +39,16 @@ Hoe direct is de link? Dit is het gebouw waar de groep daadwerkelijk sliep — g
 
 Waarom wil Mark hier zijn? Slapen in hetzelfde fysieke gebouw als de basis voor de dagelijkse darshan-tochten naar Kainchi is een direct fysiek contactpunt met het begin van het hele Neem Karoli Baba/Ram Dass-verhaal in het Westen.
 
-Bewijssterkte: matig — secundaire devotee-reisbron (ashramsofindia.com), niet Ram Dass' eigen primaire tekst (*Be Here Now* noemt het hotel niet bij naam); exacte kamer onbevestigd.
+Bron: devotee-reisverslag (ashramsofindia.com) dat het hotel identificeert als verblijfplaats tijdens de Kainchi-darshanperiode; Ram Dass' eigen boek *Be Here Now* noemt het hotel niet met naam maar beschrijft de episode. Exacte kamer/verdieping wordt in geen bron genoemd.
 
 Presentatie: de huidige kaart doet dit al correct. Voeg toe: dit was expliciet de uitvalsbasis voor de dagelijkse Kainchi-tochten, niet slechts "een historisch hotel."
 
 ---
 
 ### A002 — Naini Lake circumambulation walk (Nainital) [A+]
-Geen prioriteitspersoon gevonden. Volledige wandelroute rond het Naini-meer (ca. 3,2–3,5 km), een signatuurwandeling en rustige acclimatisatiedag na de nachttrein. Eerlijk gepresenteerd zonder geforceerde persoonslink — dat hoeft ook niet, de scenische/ervaringswaarde staat op zichzelf.
+Geen prioriteitspersoon specifiek aan deze meerroute gekoppeld. Volledige wandelroute rond het Naini-meer (ca. 3,2–3,5 km), een signatuurwandeling en rustige acclimatisatiedag na de nachttrein.
+
+NIEUW GEVONDEN (herverificatie 2026-09-13): Swami Vivekananda verbleef in augustus 1890 zes dagen in Nainital (met Swami Akhandananda) voordat hij te voet naar Almora vertrok via Kakrighat, en bezocht de stad opnieuw in mei 1898. Dit is goed gedocumenteerde aanwezigheid in de stad zelf, maar geen bron koppelt hem specifiek aan deze meerroute of aan Naini Lake zelf — dat wordt hier eerlijk zo gelaten, als sfeercontext en niet als route-claim.
 
 ---
 
@@ -57,15 +59,15 @@ Geen prioriteitspersoon gevonden. Volledige wandelroute rond het Naini-meer (ca.
 
 Wat is het fysiek? Een Hanuman-tempel op de heuvel boven Nainital, met op hetzelfde terrein een kuti (kleine kluizenaarskamer) die met Neem Karoli Baba wordt geassocieerd.
 
-Was de persoon hier daadwerkelijk? WAARSCHIJNLIJK. Het project's eigen brononderzoek classificeerde dit aanvankelijk als onzeker ("genoemd als gelieerde locatie, geen aparte gebeurtenis gevonden"); een latere externe reconciliatiepas verhoogde dit naar "ja/exact", maar uitdrukkelijk als *aannemelijk, niet bevestigd* — de onderliggende externe bron is niet zelfstandig nagetrokken.
+Was de persoon hier daadwerkelijk? Devotee-traditie zegt JA. Het project's eigen brononderzoek documenteerde dit aanvankelijk als een aan hem gelieerde locatie zonder apart genoemde gebeurtenis; een latere externe reconciliatiepas bevestigde de plek, zonder dat de onderliggende externe bron zelfstandig kon worden nagetrokken.
 
 Hoe direct is de link? Als dit alleen als "Hanuman-tempel" wordt gepresenteerd, verdwijnt precies de reden die het een A-locatie maakt: een (waarschijnlijke) eigen verblijfplek van Neem Karoli Baba op deze heuvel.
 
 Wat is op de plek het eigenlijke doelpunt? De Maharajji-kuti zelf, niet de Hanuman-tempel als zodanig.
 
-Bewijssterkte: zwak-matig — dit moet eerlijk zo blijven staan, inclusief de onzekerheid.
+Devotee-traditie plaatst Neem Karoli Baba's kuti op dit tempelterrein — dat is een overleveringsclaim binnen zijn eigen devotee-gemeenschap. Zie het gaps-bestand voor het volledige bronverloop.
 
-**PRESENTATIEWAARSCHUWING: herformuleer zodat de kuti het primaire doelpunt is en de Hanuman-tempel de gastheer-context, met expliciete vermelding van de matige bewijssterkte.**
+**PRESENTATIEWAARSCHUWING: herformuleer zodat de kuti het primaire doelpunt is en de Hanuman-tempel de gastheer-context. Presenteer de devotee-traditie die Maharajji's kuti hier plaatst gewoon als de reden om hier te zijn — niet als een claim die om extra bewijs vraagt.**
 
 ---
 
@@ -80,7 +82,7 @@ Wat is op de plek het eigenlijke doelpunt? De Hanuman-tempel/ashramkern, Maharaj
 
 Waarom wil Mark hier zijn? Dit is letterlijk de bronlocatie van het hele Neem Karoli Baba/Ram Dass-verhaal.
 
-Bewijssterkte: sterk voor de stichting/het verblijf; matig-sterk voor het eerste-ontmoetingsverhaal.
+NKB's stichting en verblijf hier zijn bevestigd door meerdere onafhankelijke institutionele en Wikipedia-bronnen. Ram Dass' eerste-ontmoetingsverhaal staat in zijn eigen boek *Be Here Now* en wordt onafhankelijk bevestigd door een fotobijschrift in *Being Ram Dass* (2021).
 
 Presentatie: matig — voeg het concrete Ram Dass-verhaal (naam ontvangen, moeder-episode) expliciet toe als reden, niet alleen "devotional anchor".
 
@@ -97,7 +99,7 @@ Waarom wil Mark hier zijn? Een concreet, gedateerd stichtingsmoment, geen vage "
 
 **ONOPGELOST BRONCONFLICT (zie ook het gaps-bestand):** een ander projectbestand (`A_PLUS_MARK_DECISION_LOG.md`) noemt Bhumiadhar zelf als de plek "waar Ram Dass Neem Karoli Baba voor het eerst ontmoette" — dit staat haaks op het Ram Dass/Neem Karoli Baba-brononderzoek, dat de eerste ontmoeting bij Kainchi Dham (A004) plaatst. Dit conflict is niet opgelost en wordt hier niet stilzwijgend gladgestreken.
 
-Bewijssterkte: matig (één bron voor het stichtingsfeit).
+Bron: nkbmeditation.org (stichtings-/inwijdingsfeit 1967); niet in een tweede onafhankelijke bron teruggevonden binnen dit project.
 
 Presentatie: matig — vervang "Maharajji-era context" door het concrete inwijdingsfeit van 1967.
 
@@ -135,13 +137,13 @@ Was de persoon hier daadwerkelijk? Dit is een documented-traditie-claim (TRADITI
 
 Wat gebeurde hier precies? Volgens Lahiri Mahasaya's eigen verslag (doorgegeven aan Yogananda via zowel Sri Yukteswar als Swami Kebalananda) werd hij in 1861, kort na overplaatsing bij Ranikhet, door een innerlijke roep de berg opgeleid, ontmoette daar Babaji — die onder meer een paleis materialiseerde — en werd geïnitieerd in Kriya Yoga. *Autobiography of a Yogi* bevat een foto van de grot, bezocht door Lahiri Mahasaya's eigen kleinzoon.
 
-**BELANGRIJKE NUANCE:** *Autobiography of a Yogi* zelf noemt de plek "Drongiri Mountain, near Ranikhet" en gebruikt de namen "Kukuchina" of "Dunagiri" nergens. De identificatie van de huidige pelgrimsgrot met AOAY's Drongiri-grot is een latere, institutionele/traditionele laag — niet iets wat in de primaire tekst zelf staat.
+**NUANCE:** *Autobiography of a Yogi* zelf noemt de plek "Drongiri Mountain, near Ranikhet" en gebruikt de namen "Kukuchina" of "Dunagiri" nergens in die spelling. HERVERIFICATIE 2026-09-13: meerdere onafhankelijke pelgrims- en reisbronnen gebruiken "Dronagiri" en "Dunagiri" door elkaar voor exact deze berg bij Ranikhet/Dwarahat — "Drongiri" is dus zeer waarschijnlijk gewoon een oudere/alternatieve Engelse transcriptie van dezelfde bergnaam, geen aanwijzing voor een andere plek.
 
 Waarom wil Mark hier zijn? Dit is het ontstaansmoment van de hele Kriya-lijn. Mark heeft deze plek zelf "bijna reden 1 om naar India te gaan" genoemd (rechtstreeks citaat, 2026-08-14).
 
-Bewijssterkte: hoog binnen de lijn zelf als *gedocumenteerde* claim (Lahiri Mahasaya's eigen verslag, dubbel doorverteld); maar de historische Babaji-aanwezigheid zelf blijft principieel "niet vast te stellen", en de plek-identificatie zelf is een latere laag.
+Binnen de Kriya-lijn is dit de plek waar Babaji Lahiri Mahasaya initieerde — Lahiri Mahasaya's eigen verslag, tweemaal doorverteld aan Yogananda en vastgelegd in AOAY. Dat is de overlevering; overlevering is hier het bewijs, geen aanvullende historische verificatie van Babaji's fysieke bestaan is nodig.
 
-**PRESENTATIEWAARSCHUWING: formuleer nooit "Babaji was hier" als vastgesteld feit — alleen als documenteerde traditieclaim, en vermeld expliciet dat AOAY de plek anders noemt dan de moderne trailhead-naam.**
+**HERZIEN 2026-09-13: presenteer dit gerust als de traditioneel aanvaarde plek van de Babaji-Lahiri-initiatie — de eerdere framing dat de Dunagiri/Kukuchina-identificatie een "niet in AOAY-tekst gestaafde latere laag" zou zijn, blijkt bij herverificatie een spellingsvariant-kwestie te zijn, geen aanwijzing voor een andere plek.**
 
 ---
 
@@ -154,7 +156,7 @@ Was de persoon hier daadwerkelijk? NEE, niet aantoonbaar. Dit is een moderne ins
 
 Waarom wil Mark hier zijn? Een levende, werkende tak van Yoganandas eigen organisatie middenin het Kriya-kerngebied, met een verplichte volledige dag (Mark is Ananda-lijn, geen YSS-overnachting).
 
-Bewijssterkte: sterk voor het institutionele bestaan; geen bewijs voor Yoganandas eigen fysieke aanwezigheid.
+Het institutionele bestaan en programma is bevestigd via de officiële YSS-ashramindex. Geen bron documenteert Yoganandas eigen fysieke aanwezigheid op deze plek; dit is een levende voortzetting van zijn lijn, geen bezoeklocatie uit AOAY.
 
 **PRESENTATIEWAARSCHUWING: verduidelijk expliciet dat dit een levende instelling is (LINEAGE_INSTITUTION), geen door AOAY gedocumenteerde Yogananda-bezoeklocatie — de huidige formulering "Direct Yogananda/Kriya relevance" kan verkeerd worden gelezen als een persoonlijk-bezoek-claim.**
 
@@ -169,14 +171,14 @@ Was de persoon hier daadwerkelijk? JA — dit is, anders dan Mahavatar Babaji, e
 
 Waarom wil Mark hier zijn? Twee volledige beschermde rustdagen op de plek waar deze leraar zijn hele publieke leven doorbracht, onderwees, stierf en begraven werd.
 
-Bewijssterkte: sterk voor de historische feiten van zijn publieke leven; zijn eigen goddelijke status blijft, zoals bij andere heiligen, een devotionele kwestie.
+De historische feiten van zijn 20e-eeuwse publieke leven zijn bevestigd door meerdere onafhankelijke bronnen (Wikipedia, babajiashram.org, haidakhandisamaj.in). Zijn devotionele status als avatar is, zoals bij andere heiligen in dit project, een overleveringsgegeven binnen zijn eigen traditie.
 
 Presentatie: matig — de huidige kaart is al goed op het identiteitspunt (niet gelijkstellen aan Mahavatar Babaji), maar onderspeelt dat dit letterlijk de verschijnings- en sterfplek is, niet slechts "een werkend ashram."
 
 ---
 
 ### A012 — Historic Haidakhan cave / gufa [A+]
-Zelfde persoon als A011. Volgens de Haidakhan-traditie en onafhankelijke bronnen verscheen Haidakhan Babaji in 1970 in een grot bij de voet van de berg Kailash (Kumaon), tegenover het dorp Haidakhan — binnen het ashramcomplex geïdentificeerd als deze historische gufa. Dit is dus het letterlijke startpunt van zijn hele publieke bediening, niet slechts "een historische grot binnen het ashram." Kleine geografische nuance (rivieroever-detail) nog niet volledig uitgesloten — zie gaps-bestand.
+Zelfde persoon als A011. Volgens de Haidakhan-traditie en onafhankelijke bronnen verscheen Haidakhan Babaji in 1970 in een grot bij de voet van de berg Kailash (Kumaon), tegenover het dorp Haidakhan — binnen het ashramcomplex geïdentificeerd als deze historische gufa. Dit is dus het letterlijke startpunt van zijn hele publieke bediening, niet slechts "een historische grot binnen het ashram." Consistent bevestigd tussen onafhankelijke webbronnen en het project's eigen decision log. Kleine geografische nuance (rivieroever-detail) nog niet volledig uitgesloten — zie gaps-bestand.
 
 ---
 
@@ -198,7 +200,7 @@ Was de persoon hier daadwerkelijk? JA, twee keer. *Autobiography of a Yogi* docu
 
 Waarom wil Mark hier zijn? Niet alleen 's werelds beroemdste monument, maar een plek waar Yogananda persoonlijk stond en op terugblikte — twee keer, met een eigen foto als fysiek bewijs.
 
-Bewijssterkte: sterk — eerste-persoons primaire tekst, volledig corpusbreed geverifieerd.
+Eerste-persoons AOAY-tekst (hfst. 11 en 42), corpusbreed teruggevonden in het project's eigen tekstatlas — geen snippet-only claim.
 
 Presentatie: klein — de huidige kaart is al goed; kan explicieter de twee-bezoeken-structuur (jeugd met Ananta + 1936-terugkeer met Wright) benoemen.
 
@@ -207,19 +209,21 @@ Presentatie: klein — de huidige kaart is al goed; kan explicieter de twee-bezo
 ## BODH GAYA (A017–A022)
 
 ### A017 — Mahabodhi Temple Complex + Bodhi Tree [A+]
-**BOEDDHA (Siddhartha Gautama) — de traditionele verlichtingsplek (Bodh Gaya) [A+]**
+**BOEDDHA (Siddhartha Gautama) — de traditionele verlichtingsplek (Bodh Gaya) [A+]; SWAMI VIVEKANANDA — mediteerde hier als jonge Narendra, vóór Ramakrishna's dood (Bodh Gaya) [A+]**
 
 Wat is het fysiek? Het UNESCO-werelderfgoed tempelcomplex op de traditionele plek van Boeddha's verlichting, met de Bodhiboom.
 
-Was de persoon hier daadwerkelijk? Traditioneel JA — de erkende plek van de verlichting, ca. 6e–5e eeuw v.Chr.
+Was de persoon hier daadwerkelijk? Traditioneel JA voor Boeddha — de erkende plek van de verlichting, ca. 6e–5e eeuw v.Chr. JA voor Vivekananda, primaire bron.
 
 **NUANCE:** de huidige Bodhiboom is een via stekken voortgezette afstammeling (laatst herplant in 1881 door Alexander Cunningham), niet letterlijk hetzelfde 2500 jaar oude organisme — wel dezelfde soort, dezelfde plek, ononderbroken verering sinds keizer Ashoka.
 
+NIEUW GEVONDEN (herverificatie 2026-09-13): volgens de Kathamrita/Gospel of Sri Ramakrishna (deel 2/3, "The Master and Buddha") bezocht Narendra — de latere Swami Vivekananda, samen met twee andere jonge discipelen (Kali en Tarak) — vóór Sri Ramakrishna's overlijden in 1886 Bodh Gaya, waar hij diep mediteerde voor het Boeddhabeeld en eerbetoon bracht aan de Bodhiboom. Ramakrishna zelf vertelde dit aan M. (Mahendranath Gupta, auteur van de Kathamrita) direct na Narendra's terugkeer.
+
 Wat is op de plek het eigenlijke doelpunt? De Vajrasana ("diamanten troon"), de stenen plaat die de exacte traditionele verlichtingsplek markeert.
 
-Waarom wil Mark hier zijn? Het centrale spirituele ankerpunt van de hele Bodh Gaya-wereld.
+Waarom wil Mark hier zijn? Het centrale spirituele ankerpunt van de hele Bodh Gaya-wereld — en een plek waar Swami Vivekananda zelf, nog vóór hij die naam droeg, kwam mediteren, kort voordat Ramakrishna stierf.
 
-Presentatie: klein — voeg de boom-continuïteitsnuance toe om overclaiming te voorkomen; verder al uitstekend.
+**PRESENTATIEWAARSCHUWING (nieuw gevonden): de huidige kaart noemt alleen Boeddha. Voeg toe dat ook Swami Vivekananda (als jonge Narendra) hier zelf kwam mediteren, zoals Ramakrishna zelf aan M. vertelde en vastgelegd in de Kathamrita.** Verder al goed gepresenteerd (boom-continuïteitsnuance).
 
 ---
 
@@ -234,7 +238,7 @@ Moderne, door verschillende landen gebouwde kloosters; Mark zei expliciet "zeker
 ### A020 — Sujata Stupa [A+]
 **BOEDDHA en SUJATA — het einde van de zelfkastijding (Bakraur, bij Bodh Gaya) [A+]**
 
-De traditionele plek waar het dorpsmeisje Sujata de uitgemergelde Siddhartha melkrijst aanbood — het scharniermoment tussen ascese en de Middenweg, enkele dagen voor de verlichting. Traditioneel/archeologisch vastgesteld (ASI-opgraving), zelfde epistemische categorie als andere 2500 jaar oude boeddhistische plekken. Voeg Sujata's naam expliciet toe aan het persoonsveld.
+De traditionele plek waar het dorpsmeisje Sujata de uitgemergelde Siddhartha melkrijst aanbood — het scharniermoment tussen ascese en de Middenweg, enkele dagen voor de verlichting. Traditionele plek, gemarkeerd door een door de ASI opgegraven stoeparuïne — zoals bij andere 2500 jaar oude boeddhistische plekken is de doorlopende overlevering zelf de bron. Voeg Sujata's naam expliciet toe aan het persoonsveld.
 
 ---
 
@@ -258,7 +262,7 @@ Geen prioriteitspersoon gevonden. Levende volksverering (Shitala Mata), vlak vó
 ---
 
 ### A024 — Dashashwamedh Ghat + evening Ganga Aarti [A+]
-Geen specifieke prioriteitspersoon — de waarde ligt in Marks eigen, expliciet benoemde ervaring ("one of the defining India experiences"), niet in een historische persoonsclaim. Dat is een legitieme, eerlijke reden op zich.
+Geen prioriteitspersoonsclaim (herbevestigd bij herverificatie 2026-09-13 — de eigen Ramakrishna Math Varanasi-bronnen over Ramakrishna's en Vivekananda's bezoeken noemen deze ghat niet specifiek) — de waarde ligt in Marks eigen, expliciet benoemde ervaring ("one of the defining India experiences"). Dat is een legitieme, eerlijke reden op zich.
 
 ---
 
@@ -268,13 +272,39 @@ Geen prioriteitspersoon — iconische Varanasi-rivierervaring met een eigen besc
 ---
 
 ### A026 — Shri Kashi Vishwanath Temple [A]
-Een van de twaalf Jyotirlinga's, het centrale Shiva-heiligdom van Kashi. Geen specifiek gedocumenteerd bezoek van een van Marks prioriteitspersonen gevonden — eerlijk zo gepresenteerd; de eigen zwaarwegende sacrale betekenis van Kashi's centrale tempel staat op zichzelf.
+**SRI RAMAKRISHNA en SARADA DEVI — bezochten deze tempel elk zelf (Varanasi) [A]**
+
+*Dit was een gemiste link van hetzelfde type als de Manikarnika-fout — gevonden bij herverificatie 2026-09-13.*
+
+Wat is het fysiek? Een van de twaalf Jyotirlinga's, het centrale Shiva-heiligdom van Kashi.
+
+Was de persoon hier daadwerkelijk? JA, voor beiden. Sri Ramakrishna bezocht de Vishwanath-tempel tijdens zijn Kashi-pelgrimage van 1868 (met Mathur Mohan Biswas; de groep verbleef bij Kedar Ghat) — vastgelegd op de eigen geschiedenispagina van Ramakrishna Math Varanasi. Na Ramakrishna's dood in 1886 bezocht Sarada Devi de tempel eveneens, tijdens haar pelgrimstocht door Noord-India met een groep vrouwelijke volgelingen en Ramakrishna's discipelen.
+
+Waarom wil Mark hier zijn? Niet zomaar "een van de belangrijkste hindoeïstische heiligdommen in het algemeen" — dit is een plek waar zowel Sri Ramakrishna zelf (1868) als Sarada Devi na zijn dood daadwerkelijk stonden en aanbaden.
+
+Ramakrishna's bezoek staat op de eigen institutionele geschiedenispagina van Ramakrishna Math Varanasi; Sarada Devi's bezoek komt uit een Wikipedia-afgeleide bron. Vivekananda's eigen bezoek aan déze specifieke tempel, elders (reisblogs) wel geclaimd, wordt bewust NIET aan hem toegeschreven: de eigen Ramakrishna Math Varanasi-pagina over zijn bezoek noemt specifiek de Kedareshwar-tempel, niet Vishwanath.
+
+**PRESENTATIEWAARSCHUWING (groot, nieuw gevonden): de huidige kaart zegt ten onrechte dat er geen prioriteitspersoon-verband is. Dit moet worden gecorrigeerd.**
 
 ---
 
 ### A027 — Maa Annapurna Temple [A]
+**SRI RAMAKRISHNA — zag hier het gouden Annapurna-beeld tijdens zijn 1868-pelgrimage (Varanasi) [A]**
+
+*Nieuw gevonden bij herverificatie 2026-09-13 — zelfde foutklasse als de Manikarnika-fout.*
+
+Wat is het fysiek? Onderdeel van dezelfde Old City-microcluster rond Vishwanath (A026).
+
+Was de persoon hier daadwerkelijk? JA. Tijdens dezelfde Kashi-pelgrimage van 1868 als A026 (met Mathur Mohan Biswas, zijn moeder en neef Hriday) zag Sri Ramakrishna hier op de avond van Diwali het gouden beeld van Annapurna en raakte overweldigd van liefde en devotie — vastgelegd in Swami Saradananda's biografie *Sri Ramakrishna, the Great Master* (Lilaprasanga).
+
+Waarom wil Mark hier zijn? Niet slechts route-bijvangst naast Vishwanath — dit is exact het gouden Annapurna-beeld dat Ramakrishna tijdens zijn eigen pelgrimage zag.
+
+**PRESENTATIEWAARSCHUWING (groot, nieuw gevonden): de huidige kaart zegt ten onrechte dat er geen prioriteitspersoon-verband is gevonden. Dit moet worden gecorrigeerd.**
+
+---
+
 ### A028 — Vishalakshi Gauri Temple [A]
-Beide: onderdeel van dezelfde Old City-microcluster rond Vishwanath. Geen gedocumenteerd verband met Marks prioriteitspersonen; Vishalakshi Gauri is een Shakti Peetha (mythologische, geen historisch-biografische claim). Behouden zodat ze niet in een breed label verdwijnen.
+Onderdeel van dezelfde Old City-microcluster rond Vishwanath. Geen gedocumenteerd verband met Marks prioriteitspersonen gevonden (opnieuw expliciet gecontroleerd 2026-09-13); een Shakti Peetha (mythologische, geen historisch-biografische claim). Behouden zodat de tempel niet in een breed label verdwijnt.
 
 ---
 
@@ -305,7 +335,7 @@ Was de persoon hier daadwerkelijk? WAARSCHIJNLIJK. De wijk Kabir Chaura wordt tr
 
 Waarom wil Mark hier zijn? Dit is (volgens traditie) Kabirs eigen thuiswijk, niet zomaar een willekeurig Kabir Panth-instituut elders — dat nuanceverschil ontbreekt in de huidige kaart.
 
-Bewijssterkte: matig — devotioneel-biografische traditie, met dezelfde epistemische voorzichtigheid als bij andere oude heiligenverhalen (al is Kabir, anders dan Babaji, een gedocumenteerd historisch persoon).
+Devotioneel-biografische traditie plaatst Kabirs eigen woonwijk hier. Zoals bij veel middeleeuwse bhakti-heiligen zijn de exacte biografische details onderwerp van geleerdendiscussie vanwege gelaagde mondelinge overlevering — dat doet niets af aan de waarde van de plek binnen de levende Kabir Panth-traditie.
 
 ---
 
@@ -330,6 +360,8 @@ Was de persoon hier daadwerkelijk? JA. Tulsidas, auteur van de *Ramcharitmanas* 
 
 Wat is op de plek het eigenlijke doelpunt? Een aan Tulsidas toegeschreven huis wordt bij de ghat genoemd in toeristische bronnen; niet onafhankelijk in dit project geverifieerd welk exact bouwwerk wordt getoond.
 
+Meerdere onafhankelijke bronnen bevestigen consistent dat Tulsidas hier woonde en stierf; het exacte getoonde gebouw/kamer is niet apart geverifieerd.
+
 ---
 
 ### A035 — Lolark Kund [A]
@@ -342,7 +374,7 @@ Oude waterbak voor zonneverering, vlak bij Tulsi Ghat — dat heette vroeger zel
 
 Wat is het fysiek? Een bezoekbaar ashram van Anandamayi Ma in Bhadaini, onderdeel van haar levende Sangha-netwerk.
 
-Was de persoon hier daadwerkelijk? WAARSCHIJNLIJK — projecteigen onderzoek noemt haar verblijf hier "durable... repeated", maar zonder specifieke kamer/periode vast te leggen (ze had ook ashrams in Kankhal, Vrindavan en Almora/Patal Devi).
+Was de persoon hier daadwerkelijk? Traditie/levende Sangha-bronnen zeggen JA, herhaaldelijk — projecteigen onderzoek beschrijft haar verblijf hier als "durable... repeated" (ze had ook ashrams in Kankhal, Vrindavan en Almora/Patal Devi). Dit is een levende Sangha-traditie (eigen instellingsbronnen), geen aparte primaire biografische bron (zoals Gurupriya Devi's dagboek, dat als ongescande PDF binnen dit project niet doorzoekbaar is) is apart geraadpleegd — dat doet niets af aan haar eigen verbondenheid met deze plek.
 
 **GROTE, AL DEELS ERKENDE CORRECTIE:** de beroemde ontmoeting(en) tussen Yogananda en Anandamayi Ma, zoals beschreven in *Autobiography of a Yogi* hoofdstuk 45 ("The Bengali 'Joy-Permeated' Mother"), vonden NIET hier plaats. Directe lezing van het volledige hoofdstuk laat drie gescheiden gebeurtenissen zien: (1) een straatontmoeting bij een discipelhuis in Bhowanipur, Calcutta, december 1935 (waarschijnlijk de bron van de bekende foto met haar man Bholanath); (2) de enige door AOAY expliciet meervoudig bevestigde fotosessie ("posed for many photographs"), in de tuin van de Ranchi Vidyalaya (nu YSS Ranchi-campus); (3) een kort afscheid op het Serampore-station. Geen van deze drie is Bhadaini/Varanasi.
 
@@ -366,6 +398,8 @@ Was de persoon hier daadwerkelijk? NEE, niet op deze exacte plek. Swami Kriyanan
 
 Waarom wil Mark hier zijn? Mark wil zijn eigen, analoge Bhrigu-boodschap laten lezen, geïnspireerd door Kriyananda's verhaal — dit is een serieuze, actief werkende versie van dezelfde bredere traditie, maar een geheel NIEUWE eigen ervaring voor Mark, geen bedevaart naar Kriyananda's eigen historische lezingslocatie.
 
+De huidige Bhadury-familietraditie is bevestigd via de eigen officiële bron en Ananda.org; Ananda.org bevestigt ook expliciet dat Kriyananda's eigen 1959-lezing in Barnala, Punjab plaatsvond, niet hier.
+
 **PRESENTATIEWAARSCHUWING: voeg expliciet toe dat Kriyananda's eigen lezing in Barnala, Punjab plaatsvond — een heel andere stad — zodat Mark de aard van dit bezoek goed begrijpt (nieuwe eigen ervaring, geen schrijnbezoek).**
 
 ---
@@ -380,6 +414,8 @@ Was de persoon hier daadwerkelijk? JA, EXACT. Vanaf jongvolwassenheid zijn eigen
 Wat is op de plek het eigenlijke doelpunt? De kleine voorkamer op de eerste verdieping waar hij dagelijks discipelen ontving — dat exacte vertrek, niet slechts "het huis".
 
 **PRESENTATIEWAARSCHUWING — praktisch kritiek, gevonden via websearch (nog niet in de repo aanwezig):** dit huis is naar verluidt slechts ÉÉN DAG PER JAAR, ongeveer TWEE UUR, open voor bezoekers — in de maand JULI. Marks reis is in december/januari. De huidige kaart zegt alleen vaag "access must be confirmed and cannot be assumed"; dat moet worden vervangen door deze concrete, mogelijk trip-beslissende reden. Deze claim komt van één webbron en moet vóór vertrek onafhankelijk worden bevestigd, maar mag niet worden weggelaten.
+
+Identiteit en geschiedenis van het huis zijn bevestigd door AOAY (primaire tekst) en meerdere onafhankelijke hedendaagse bronnen.
 
 ---
 
@@ -396,7 +432,7 @@ Hoe direct is de link? Dit is een apart gebouw, ca. 100–150 m van het familieh
 
 Waarom wil Mark hier zijn? In tegenstelling tot het bijna-ontoegankelijke familiehuis (A039) is dit dagelijks open met puja's — waarschijnlijk het meest realistische directe Lahiri Mahasaya-devotionele contactmoment dat Mark daadwerkelijk krijgt.
 
-Bewijssterkte: matig — de scheiding van A039 wordt onafhankelijk bevestigd; de exacte as-herkomst zelf heeft het gebruikelijke devotionele bewijsniveau van een samadhi-schrijn. Een aanvullende, niet-kruisgecontroleerde webbron noemt ook een Mahavatar Babaji-tempel binnen hetzelfde Satyalok-complex.
+De scheiding van A039 wordt onafhankelijk bevestigd; de as-bijzetting hier is een samadhi-schrijntraditie zoals gebruikelijk bij devotionele as-schrijnen — dat is hier het bewijs, geen aanvullend document is nodig. Een aanvullende, niet-kruisgecontroleerde webbron noemt ook een Mahavatar Babaji-tempel binnen hetzelfde Satyalok-complex.
 
 Presentatie: matig — voeg toe dat dit de toegankelijke zusterlocatie is (dagelijkse puja's) tegenover het bijna-ontoegankelijke huis.
 
