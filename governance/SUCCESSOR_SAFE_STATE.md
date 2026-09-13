@@ -1,140 +1,146 @@
 # INDIA SUCCESSOR SAFE STATE — CRASH-SAFE HANDOFF CHECKPOINT
 
 STATUS: SAFE_TO_HANDOFF
-Date: 2026-09-09
+Date: 2026-09-14
 Branch: `agent/india8-cluster-casting`
-Full handoff: `handoffs/INDIA_SUCCESSOR_ZERO_LOSS_HANDOFF_2026-09-09.md`
+Current cockpit: `governance/CURRENT_STATE.md`
+Binding successor handoff: `runs/active/INDIA20_FINAL_EXTRACTION_2026-09-13.md`
+Recovered frontier note: `research/KASAR_DEVI_CRANKS_RIDGE_SUNYATA_GOVINDA_RAM_DASS_RECOVERY_2026-09-14.md`
 
 ## CRASH RULE
 
 `IF THIS CHAT ENDS NOW, CAN INDIA(N+1) CONTINUE WITHOUT ASKING MARK TO RECONSTRUCT STATE?`
 
-Required answer: **YES**. If a later material Mark decision is not reflected here or in the full handoff, update GitHub before relying on chat memory.
-
-## LATEST PHASE
-
-**ROUTE TOPOLOGY + FULL A/A+ COVERAGE REOPENED FOR FINAL RECONCILIATION. NO BOOKING/CONTACT YET.**
-
-Older files declaring `FINAL BOOKING CALENDAR LOCKED` and booking phase are superseded on that phase/status point by the 2026-09-09 reopen:
-`decisions/FULL_A_COVERAGE_AND_GLOBAL_ROUTE_TOPOLOGY_REOPTIMIZATION_2026-09-09.md`.
+Required answer: **YES**. New material truth must be checkpointed before relying on chat memory.
 
 ## HARD ENVELOPE
 
-- AI156: AMS->DEL, depart 18 Dec 2026 ~20:35, arrive 19 Dec ~10:15.
-- AI155: DEL->AMS, depart 21 Jan 2027 ~12:20.
+- AI156: AMS -> DEL, depart 18 Dec 2026 ~20:35, arrive 19 Dec ~10:15.
+- AI155: DEL -> AMS, depart 21 Jan 2027 ~12:20.
 - exactly 33 physical India nights, 19 Dec through 20 Jan.
-- exactly ONE final Delhi night immediately before AI155 `LOCKED_BY_MARK`.
+- exactly ONE final Delhi night immediately before AI155.
+- train first where practical; target 1A; no long-distance bus; real door-to-door burden controls.
+- flight safety outranks Nirmal Dham/final-day extras.
+- no booking/contact yet.
 
-## FINAL WORLD LOCK
+## HARD/CURRENT FOOTPRINTS
 
-IN: Delhi operational/Nirmal, Kumaon, Agra, Bodh Gaya, Varanasi/Sarnath, Kolkata/Dakshineswar, Tiruvannamalai/Arunachala, Chennai positioning/content if useful.
+- Nainital 3n `LOCKED_BY_MARK`.
+- Dunagiri/Kukuchina 3n.
+- Haidakhan Vishwa Mahadham 3n + 2 complete protected quiet days `LOCKED_BY_MARK`.
+- Agra 1 hotel night; Taj [A+] protected.
+- Varanasi/Sarnath 8n `LOCKED_BY_MARK`.
+- Kolkata/Dakshineswar serious current block 3n.
+- final Delhi exactly 1n on 20 Jan.
 
-FINAL OUT — never re-present unless Mark explicitly reopens:
+Bodh Gaya/Gaya and Tiruvannamalai/Arunachala remain duration-live; B3/T4 is the current subjective lead and B2/T5 the objective alternative. Do not ask that ballot yet.
+
+## CURRENT WORLD SCOPE
+
+IN:
+Delhi operational/Nirmal; Kumaon; Agra/Taj; Bodh Gaya/Gaya; Varanasi/Sarnath; Kolkata/Dakshineswar with graded Serampore/Hooghly microcluster; Tiruvannamalai/Arunachala; Chennai positioning; final Delhi.
+
+FINAL OUT unless Mark explicitly reopens:
 - Puri/Odisha;
-- Serampore/Srirampur as trip world/stop/sleep/excursion;
-- Vrindavan/Braj/Mathura/Govardhan.
+- Vrindavan/Braj/Mathura/Govardhan;
+- Haridwar/Kankhal/Rishikesh dedicated world;
+- Prayagraj;
+- Mysuru/Bengaluru;
+- Ranchi;
+- Puducherry/Sri Aurobindo dedicated world.
 
-## HARD DURATIONS / LIVE SENSITIVITY
+**Serampore is NOT FINAL OUT.** It is already graded inside the active Kolkata/Hooghly world.
 
-Hard:
-- Nainital 3n;
-- Dunagiri/Kukuchina 3n;
-- Haidakhan Vishwa Mahadham 3n + 2 complete protected quiet days;
-- Agra 1 hotel night in retained architecture, Taj [A+] protected;
-- Varanasi/Sarnath 8n `LOCKED_BY_MARK`;
-- Kolkata/Dakshineswar current serious block 3n;
-- final Delhi 1n.
+**Kasar Devi/Almora / Crank's Ridge dedicated 21-Dec immersion-day question is NOT FINAL OUT.** It is OPEN after identity/access/geometry and does not itself add a night.
 
-Live current review:
-- Bodh Gaya 3n strongly supported/current review surface; 2n comparison baseline.
-- Tiruvannamalai 4n serious live option; old 5n state was explicitly reopened.
-- Sri Chakra Puja is optional bonus, not a separate Mark-graded mandatory anchor; do not force Tiru5 because of it.
+## SERAMPORE CURRENT GRADES — DO NOT RE-ASK
 
-## NEWEST MARK DECISION — NIRMAL DHAM
+- SER-01 Sri Sri Swami Sri Yukteswar Giri Smriti Mandir / original hermitage property = A+; 2h onsite desired with meditation/quiet if access permits.
+- SER-02 Rai Ghat sacred banyan / Babaji–Sri Yukteswar 1894 event site = A+.
+- SER-03 Anandaloka / YSS Serampore Retreat = A+ if exact preserved Yogananda room is accessible for meditation; otherwise A*.
+- SER-04 Serampore College = C.
+- SER-05 former Panthi boarding-house plot = C.
 
-Owner: `decisions/NIRMAL_DHAM_FINAL_DELHI_PLACEMENT_MARK_DECISION_2026-09-09.md`.
+No separate Serampore hotel/night is implied.
 
-- Nirmal Dham remains IN and grade unchanged.
-- **NOT on arrival day 19 Dec.**
-- default **20 Jan final Delhi safety/buffer** after positioning into Delhi.
-- if disruption consumes buffer, AI155 safety wins; Nirmal may be shortened/skipped operationally.
-- 19 Dec is free to optimize for onward travel; do not penalize same-day GAY/VNS/CCU/MAA for missing arrival-day Nirmal.
+## CRANK'S RIDGE / KASAR DEVI — EXACT RECOVERED STATE
 
-## GLOBAL TOPOLOGY CHECKPOINT
+A late INDIA20 live-memory extraction recovered a wider spiritual landscape that was not fully durable before.
 
-Pre-Nirmal global test on `worker/global-route-topology-reoptimization`, commit `7c206ece6efee0f548e3b72ebf3022f3573282ca`, tested 11 route families.
+Keep these separate:
+1. **Kasar Devi Cave / Grot Vivekananda [A+]** — already decided by Mark; currently part of 23-Dec transfer architecture with Kakrighat/Jnana Vriksha [A+].
+2. **Turiya Niwas — Sunyata's hermit house** — distinct recovered physical candidate; exact historical continuity/current access still requires verification before Mark grading.
+3. **Lama Govinda's Kasar Devi/Bodh Ashram property** — different recovered physical candidate; exact surviving entity/current name/access requires verification. Direct Ram Dass relevance is real: official Ram Dass material preserves Maharajji's `Go see Lama Govinda` instruction and the spiritually important Govinda encounter.
 
-Pre-override metrics:
-- incumbent ~57 lost waking h; 2 heavy days; sleep ~4.0/5;
-- same-day GAY ~55.5 h; 4 heavy days; sleep ~2.8/5;
-- same-day VNS ~56 h;
-- Agra-first ~58.5 h;
-- Agra-last/reverse ~60 h;
-- MAA-first ~64 h; CCU-first ~67 h; train-heavy ~75–82 h.
+Do not call Turiya Niwas a Ram Dass house/site; that direct connection is not proven.
 
-Pre-override verdict `KEEP INCUMBENT`, confidence ~0.70, is **NOT a final post-Nirmal verdict**. One disadvantage of GAY-first was later Nirmal staging and that constraint is now removed. Reconcile/rerun rather than blindly inherit.
+Do not transfer the old combined `Turiya Niwas + Bodh Ashram = C` shorthand onto these newly separated recovered physical entities. They are OPEN/UNGRADED until exact identity is solved and Mark grades them.
 
-### Corrected fact
+Nainital 3 nights remains locked. Never silently substitute a Turiya Niwas/Kasar Devi night.
 
-Same-day DEL->GAY is NOT impossible. Air India official Winter Schedule 2026 publishes daily **AI429 15:00 DEL -> 16:40 GAY** effective 25 Oct 2026. After AI156 scheduled 10:15 arrival that is nominal ~4h45. Still test protection/terminal/immigration/bags/delay/fatigue.
+## CORRECTED NORTH SEQUENCE
 
-### Agra insight
+- 20 Dec: Naini Lake + Hanuman Garhi / Maharajji-kuti.
+- **21 Dec: complete recovered/unallocated day.**
+- 22 Dec: Kainchi Dham 08:00–13:00, then Bhumiadhar/free remainder.
+- 23 Dec: Nainital -> Kakrighat/Jnana Vriksha [A+] + Grot Vivekananda [A+] -> Dunagiri/Kukuchina.
+- 24 Dec: Dunagiri Bell Temple + Babaji Smriti Bhavan + Babaji Cave/Pandavkholi mountain-presence day; winter-safety turnaround remains operationally unresolved.
 
-Agra current bridge has directional sleep value: Delhi->Agra is short, then 12988 Agra Fort ~18:45 -> Gaya ~07:50 can convert ~8–8.5 h into sleepable rail. Reverse Gaya->Agra is daytime-heavy. Agra-last tends to duplicate Delhi->Agra->Delhi. Preserve this reasoning in any new solve.
+## EXACT NEXT AUTOMATIC ACTION
 
-## A/A+ COVERAGE — OPEN BLOCKER
+After INDIA22's boot receipt + genuinely independent FULL CHECK + final `CONTENT_AUTHORIZATION: GRANTED`:
 
-The 22-page BODH3/TIRU4 review itinerary does not individually guarantee every retained A/A+ site. Known audit seed:
-- missing: Bodh same-hill ridge/context; Maa Annapurna; Vishalakshi Gauri; Bhaskarananda/Anand Bagh; Saranganath; Tulsi Manas;
-- conditional: Lahiri Mahasaya family house; Shitala Mata;
-- hidden under Sarnath: Dhamek, Mulagandha Kuti Vihara, Chaukhandi, Deer Park;
-- special: Karkrighat [A*/SKIP_FIRST].
+1. verify Turiya Niwas exact identity/continuity/current access;
+2. verify Lama Govinda/Bodh Ashram exact present physical entity/name/access;
+3. verify decision-grade ridge geometry against Grot Vivekananda, Kasar Devi Temple and Nainital base;
+4. calculate whole-human 21-Dec Nainital -> ridge -> Nainital burden with winter daylight and realistic quiet dwell;
+5. recalculate 23-Dec transfer if Grot Vivekananda moves to 21 Dec;
+6. then present the first newly recovered ridge candidate to Mark one-by-one for grade.
 
-Full exact audit still required; avoid parent-child double counting. Never claim the seed is the final exact omission count.
+This is an objective INDIA-owned sequence until step 6. Do not stop early for a Mark choice that lacks completed geometry.
 
-## SIX EXTERNAL AIs — READY FOR RECONCILIATION
+## NEXT CANDIDATES AFTER RIDGE
 
-Six independent blind route analyses are complete. They must be reconciled, not majority-voted.
-- evidence > majority;
-- minority finding may be right;
-- verify factual conflicts;
-- synthesize a seventh route if stronger;
-- prove 33/33;
-- inject Nirmal-final-buffer rule even if the six answers predate it.
+- **Lala Badri Shah House, Almora** = OPEN/UNGRADED; official Ramakrishna Kutir evidence substantially resolves existence/access; rich Mark-facing grade card next when its turn is reached.
+- **J.C. Bose candidate, Kolkata** = OPEN/UNGRADED; Acharya Bhaban residence/museum and Bose Institute Main Campus are distinct; exact Yogananda/AOAY event entity must be resolved before Mark presentation.
 
-## DAY-PLAN USABILITY RULE
+## ACTIVE BACKGROUND WORK / NOT THE FIRST ACTION
 
-Mark likes the current 22-page review format. Next itinerary must show each retained physical A/A+ individually with:
-- full recognizable name;
-- WHAT it is;
-- WHY Mark wanted it / relevance;
-- current grade/status;
-- exact date/time block.
+- Mark/PDF item-by-item rich-source review remains active context.
+- live-ledger completeness remains open: B/C/OPEN rows must remain durable even with zero mandatory clock weight.
+- `LIVE_LEDGER_MECHANICALLY_COMPLETE = NO` until its audit is genuinely closed.
 
-Do not hide required sites under vague cluster labels when judging duration.
+## DO NOT REDO / DEFERRED
 
-## EXACT NEXT ACTIONS
+Do not restart:
+- frozen A79 coverage gate;
+- external route reconciliation;
+- CCI/WORK macro solves/cross-red-team;
+- 79/79 person-provenance/relevance;
+- Gyan Yatra/Buddha Marg existence research;
+- seven Pragbodhi stupa mapping;
+- Sujata offering-vs-stupa separation;
+- Haidakhan local-Kailash classification;
+- global route-topology solve.
 
-1. Reconcile the four external AI route analyses with new Nirmal placement (corrected count; an earlier pass said six in error — see `runs/active/INDIA18_FINAL_EXTRACTION_2026-09-09.md` §13.1).
-2. Compare synthesis with CCI/Work; rerun top contenders if Nirmal change could alter rank.
-3. Finish exact full A/A+ current-canon coverage matrix.
-4. Build complete waking-hours itinerary with every retained A/A+ explicit.
-5. Let Mark judge remaining duration/fit.
-6. Only then reopen bookings/contacts.
+Deferred until controlling gates are reached:
+- Bodh/Tiru duration ballot;
+- booking/contact;
+- v4 PDF;
+- fresh global macro re-solve;
+- final comfort/day cards.
 
 ## GUARDS
 
-- Mark alone owns subjective A/A+/A*/B/C grades and personal choices.
+- Mark alone owns subjective grades and personal choices.
 - no silent grade/lock changes.
-- no FINAL OUT resurrection.
-- no premature booking.
-- future operational claims verified or `LIVE_RECHECK_LATER`.
-- PR #23 is CCI/Work relay.
-- material knowledge must not remain chat-only.
-
-For the complete reasoning and context, read `handoffs/INDIA_SUCCESSOR_ZERO_LOSS_HANDOFF_2026-09-09.md`.
+- no guessed pins or map-derived burden from unresolved entities.
+- every unfamiliar Mark-facing place must carry recognition-rich context.
+- material research/WHY/frontier results must be durable in the same execution cycle.
+- PR #23 is relay/provenance, not travel truth by itself.
+- newer explicit Mark/current owning truth beats frozen CCI/historical summaries.
 
 UNSAVED_RISK:
-GEEN
+`NONE_KNOWN_AFTER_INDIA20_FINAL_EXTRACTION_AND_2026_09_14_CRANKS_RIDGE_RECOVERY`
 
 END SUCCESSOR SAFE STATE
