@@ -24,7 +24,9 @@ Mark explicitly wants BOTH of these Vivekananda locations included if execution 
 - Mark regards this as an excellent detour and major spiritual content, not bycatch;
 - real dwell should permit quiet presence / meditation rather than a photo stop.
 
-### Kasar Devi Cave — grot waar Vivekananda 2–3 dagen diep mediteerde en zijn roeping tot dienstbaarheid scherp werd (Almora) [OPEN GRADE / MARK WANTS VISIT IF FEASIBLE]
+### Kasar Devi Cave / Grot Vivekananda — grot waar Vivekananda 2–3 dagen diep mediteerde en zijn roeping tot dienstbaarheid scherp werd (Kasar Devi / Almora) [A+]
+- **GRADE = A+**, explicit Mark decision 2026-09-13;
+- canonical Mark-facing name must preserve **`Grot Vivekananda`** so Mark immediately recognizes the meaning;
 - Mark recognized this as the Vivekananda cave he already wanted to visit;
 - execution intent is affirmative if it can be captured on the 23 Dec transfer;
 - do NOT lose it behind an old route/world classification.
@@ -106,9 +108,11 @@ This is a safety/execution constraint, not a reduction in spiritual dwell priori
 ## 6. Supersede note
 
 Any older 23 Dec text saying Kakrighat is `skip-first/bycatch` is stale.
+Any older wording treating Kasar Devi Cave as OPEN grade is stale; it is now **A+** and must be named with `Grot Vivekananda`.
 Any older 24 Dec clock with a short A009 visit and early descent is superseded by this Mark decision.
 Any older dayplan beginning with `breakfast` / `wake` is stale presentation and must be rebuilt from `VERTREK HOTEL`.
 
 `DEC23_VIVEKANANDA_TRANSIT_REBUILT = YES`
+`KASAR_DEVI_VIVEKANANDA_CAVE = A_PLUS`
 `DEC24_LONG_BABAJI_MOUNTAIN_PRESENCE = YES`
 `DEC24_1700_EXACT_TURNAROUND = NOT_YET_SAFETY_LOCKED`
