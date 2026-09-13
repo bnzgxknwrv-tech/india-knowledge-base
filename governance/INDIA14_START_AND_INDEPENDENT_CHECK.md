@@ -198,7 +198,7 @@ LIGHT intentionally lacks separated-authorship independent review and must never
 
 # PART 3 — AFTER `CONTENT_AUTHORIZATION: GRANTED`
 
-Before the first substantive reply, perform all four passes below, then execute the concrete, self-contained universal question in `governance/INDIA_POST_BOOT_ACTIVE_MEMORY_PARITY_CHECK.md` — that file operationalizes these four passes (plus communication/presentation-rule parity) into one copy-paste-able check so it never has to be reworded from scratch.
+Before the first substantive reply, perform all four passes below, then execute the universal post-boot active-memory parity check embedded in `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` FOUT 24 — that self-contained copy-paste question operationalizes these four passes (plus communication/presentation-rule parity) so it never has to be reworded from scratch.
 
 ## PASS 1 — CURRENT AUTHORITY PARITY
 Compare current:

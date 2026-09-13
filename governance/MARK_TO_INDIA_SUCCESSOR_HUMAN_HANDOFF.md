@@ -337,6 +337,65 @@ Nadat de normale boot/check is geslaagd en vóór inhoudelijk werk aan de actuel
 
 Een opvolger mag dus na een geldige boot zeggen `boot/check klaar`, maar niet automatisch `inhoudelijk volledig klaar`. Voor de eerstvolgende taak moet ook de taakrelevante rijke bronlaag zijn gecompileerd.
 
+**UNIVERSELE TWEEDE BOOTVRAAG — DIRECT NA `CONTENT_AUTHORIZATION: GRANTED`, ZELF UIT TE VOEREN**
+Mark stuurde een versie van onderstaande vraag ongeveer 20 keer handmatig naar opeenvolgende India-sessies, omdat elke sessie de mechanische boot/CHECK haalde maar toch zichtbaar te weinig actieve kennis had. Dit is nu geen los te sturen bericht meer — voer dit zelf uit, zonder dat Mark het opnieuw hoeft te typen:
+
+```
+Je hebt zojuist de normale INDIA-boot + verplichte CHECK uitgevoerd en zegt dat je klaar bent.
+Dat bewijst alleen dat de verplichte bootlaag correct is gelezen.
+Het bewijst NIET dat alle taakrelevante rijke kennis die je voorganger gebruikte — inclusief HOE hij met mij communiceerde — actief in je werkgeheugen zit.
+
+HARD onderscheid: BOOT_COMPLETE != TASK_RELEVANT_RICH_SOURCE_MEMORY_COMPILED.
+
+Voer daarom NU, vóór nieuw inhoudelijk India-werk, zelfstandig de volgende post-boot paritycheck uit. Dit is GEEN nieuwe boot, GEEN nieuwe bootarchitectuur, GEEN herhaling van reeds voltooid onderzoek, en GEEN nieuwe grade of Mark-beslissing. Gebruik uitsluitend bestaande governance en bestaande owning source-layers.
+
+1. ACTUELE WAARHEID EN VOORGANGERDELTA
+Haal de actuele centrale HEAD opnieuw op. Bepaal: wat Mark op dit moment werkelijk aan het doen is; de echte menselijke frontier inclusief zijn laatste chatcorrecties; welke materiële commits/besluiten/research je directe voorganger sinds zijn eigen start heeft toegevoegd; welke CCI/WORK/worker-resultaten sinds oudere frozen handoffs zijn binnengekomen. Vertrouw geen bestand alleen omdat er CURRENT, FINAL, SAFE, ACTIVE of COMPLETE op staat — nieuwste expliciete Mark-truth + chronologie + owning bron winnen altijd. Als bronnen elkaar tegenspreken: reconcilieer eerst zelf via GitHub, vraag dit Mark niet opnieuw als GitHub het kan oplossen.
+
+2. BEPAAL WELKE KENNISSOORTEN DE EERSTVOLGENDE TAAK ECHT NODIG HEEFT — INCLUSIEF HOE JE MET MARK PRAAT
+Noem expliciet welke van deze lagen relevant zijn, en reken de communicatielaag daar altijd bij, niet als bijzaak:
+- actuele item-level grades + supersedes; oorspronkelijke reden waarom een plek kandidaat/A/A+ werd; persoon-/gebeurtenisprovenance; AOAY-/Top-X-/host-axis-kennis; exacte fysieke subplaats (kamer, kuti, grot, boom, portico, samadhi, ghat-zone, shrine, trail); wat Mark daar concreet kan doen/ervaren; living-practice/ritual/meditatie/sfeer; traveler/LP/architectuur/natuur/cultuurwaarde; hotel/sleepbase-locks; access/appointment; GEO/entity/access-point; transfer-/door-to-door burden; JE BENT ER TOCH; C/FINAL OUT/DO-NOT-REPRESENT; research-compleet versus Mark-triage-compleet versus duration-closed;
+- COMMUNICATIE- EN PRESENTATIEREGELS — een even harde categorie als de reisinhoud, met minstens deze concrete, al eerder vastgelegde voorbeelden: nooit een kale Indiase naam zonder Nederlandse herkenningshaak (`governance/MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md`); nooit A/B/C/A+/A* als structuurlabel voor iets anders dan een echte Mark-grade (`decisions/PRESENTATION_GRADE_LETTERS_RESERVED_MARK_RULE_2026-09-02.md`); geen technische GitHub-taal (blobs, SHA's, commits, JSON) rechtstreeks aan Mark tonen; ieder substantieel antwoord sluit af met één concrete `NU_DOEN`-vervolgstap, niet met "laat maar weten"; als Mark iets moet doorplakken staat dat in exact één zelfstandig codeblok; afstand/reistijd/burden wordt altijd getoond vóór Mark om een grade wordt gevraagd.
+
+3. LEES DE RAUWE BRONLAAG — NIET ALLEEN DE COMPACTE SAMENVATTING
+Voor plaats-, PDF-, grade- of dwell-review geldt in ieder geval: controleer actuele grade/supersede tegen decision ledger, current master en owning decision files; lees zo nodig item-level historische grade/provenance-registers; volg provenance terug naar oorspronkelijke discovery-/clusterbestanden; open relevante AOAY/person/Top-X/host research; gebruik de ruwe CCI/WORK person-provenance/relevance matrices wanneer daar meer itemkennis in zit dan in de compacte reconciliatie; open relevante traveler/LP/official/tourism-bronnen; open relevante pelgrims-/travelogue-bronnen wanneer die concrete micro-locaties, kamers, practice, ritual, toegang of lived experience toevoegen; open GEO/transferbronnen vóór burden-/routeuitspraken. Een samenvattend bestand dat zegt dat onderzoek COMPLETE is, vervangt het onderliggende resultaat NIET wanneer juist de details uit dat resultaat nu nodig zijn.
+
+4. RICH-CARD TEST VOOR IEDERE PLEK DIE MARK NU BEOORDEELT
+Vóór je adviseert een bestaande A/A+ te verwijderen, naar B te zetten, sterk in tijd te verkorten, of als minder belangrijk te behandelen, moet je kunnen beantwoorden: wat is dit fysiek; wat is hier uniek/herkenbaar; waarom kwam dit oorspronkelijk in Marks reis; welke persoon/gebeurtenis/traditie hangt eraan; wat gebeurde hier concreet; welke exacte subplaats moet Mark zoeken; wat kan Mark hier werkelijk doen (kijken, darshan, mediteren, zitten, lopen, puja, chanting); welke intrinsieke traveler/culturele/architectonische/natuurwaarde bestaat onafhankelijk van de persoon-link; wat is de huidige grade en welke latere supersedes bestaan; wat is de echte marginale tijd/burden; welke access-/identity-onzekerheid verandert werkelijk de beslissing. HARD: een arme/te summiere kaart is nooit bewijs dat de plek arm is.
+
+5. NIEUWERE MARK-REGELS FILTEREN OUD AUDITMATERIAAL
+Ruwe CCI/WORK-bestanden mogen oude formuleringen bevatten (weak evidence, plausible not confirmed, strongest case against, evidence strength). Gebruik daaruit de feiten, verschillen, bronverwijzingen, micro-locaties en correcties, maar pas de nieuwste Mark-regel toe: TRADITION IS EVIDENCE — THIS IS A PILGRIMAGE, NOT A COURTROOM. Blijf wel scherp op echte fouten: verkeerde persoon; verkeerde fysieke plek; moderne opvolger versus historische locatie; twee verschillende plaatsen samengevoegd; niet-toegankelijke kernsubplaats; werkelijk concurrerende locaties. Worker advisory/relevance scores veranderen NOOIT autonoom Marks grade.
+
+6. LOST-PHYSICAL-ENTITY CHECK
+Zoek doelgericht naar materiële fysieke ontdekkingen die in oudere research wel bestonden maar mogelijk nooit een eigen entity/classification kregen. Signalen: relevant this trip; ungraded; possible walk; winter-check later; needs Mark classification; interesting local layer; onderzoek dat zelf niet mocht graden; een subplaats die later onder een brede parentnaam verdween. Haidakhan local-Kailash summit en de Crank's Ridge/Turiya Niwas/Lama Govinda-laag zijn beide precedenten. Rapporteer concrete verdachte gevallen. Maak zelf GEEN nieuwe grade.
+
+7. B / C / CLUSTERSTATUS NIET UIT HET GEHEUGEN LATEN VERDWIJNEN
+Controleer: A->B betekent huidige B, niet "verwijderd uit kennis"; C blijft C/do-not-represent tenzij expliciet heropend; cluster FINAL OUT/DROP verandert niet automatisch oude site-grades; source/provenancekennis over een FINAL OUT wereld mag blijven bestaan zonder de reiswereld te heropenen.
+
+8. CCI / WORK / WORKER PARITY
+Lees de laatste materiële worker/CCI-uitkomsten die voor de actuele taak relevant zijn, haal daarna opnieuw de centrale HEAD op. Maak onderscheid: worker COMPLETE; central ADOPTED; later superseded; provenance only; current raw source worth reopening. Doe GEEN werk opnieuw alleen omdat een workerbranch niet gemerged is (`UNMERGED_BRANCH != UNFINISHED_TASK`).
+
+9. UITVOERINGSKENNIS DIE NIET IN DE KAART ZIT
+Als de komende taak route, combinatie, dagen of tijd raakt: lees de current transfer ledger; topology/door-to-door burden; sleepbase locks; GEO/access-waarschuwingen; current coordinate/entity/access-point status. Geen "langs de route", "je bent er toch", "5 minuten extra" of vergelijkbare claim op basis van een oude pin of visuele kaartindruk.
+
+10. LEES DEZE HANDOFF OPNIEUW ALS ALLERLAATSTE SEMANTISCHE READ, EN NOEM DE MEEST RELEVANTE FOUT-NUMMERS
+Na alle bovenstaande taakrelevante rich-source reads: lees dit hele bestand nogmaals, behandel het letterlijk alsof Mark het zojuist als zijn laatste bericht heeft geplaatst, en noem expliciet welke specifieke FOUT-nummers het grootste risico vormen voor JOUW eerstvolgende antwoord.
+
+11. GEEF DAARNA GEEN BESTANDSSAMENVATTING MAAR EEN APPLIED-PARITYRAPPORT MET BRONVERWIJZING PER PUNT
+Rapporteer compact maar concreet, en noem bij ELK punt het exacte brondocument: welke 5-10 belangrijke dingen weet je nu die je na alleen de normale boot waarschijnlijk NIET sterk genoeg actief had gehad, inclusief minstens één communicatie-/presentatieregel; uit welke rauwe/owning bronlaag kwam elk; welke compacte samenvatting bleek informatie te hebben afgeplat; welke stale waarheid had het grootste regressierisico; welke Mark-beslissingen zou je anders mogelijk opnieuw hebben gevraagd; welke verloren fysieke entity heb je gevonden of gecontroleerd; welke knowledge layer is nu actief; wat zal daardoor anders zijn in je eerstvolgende antwoord. Beantwoord eerlijk: welke kennis had ik wel technisch gelezen maar nog niet sterk genoeg actief gemaakt? "Niets" is alleen geldig met een concreet citaat/bron.
+
+12. HARDE ZELFTEST
+KAN MIJN VOORGANGER MIJN EERSTVOLGENDE ANTWOORD LEZEN EN ZEGGEN — JA, DEZE OPVOLGER KENT NIET ALLEEN DE CURRENT STATE, MAAR OOK DE RIJKE REDENEN, MICRO-LOCATIES, PERSON/EVENT-LAAG, LAATSTE MARK-CORRECTIES, DE MANIER WAAROP HIJ MET MARK PRAAT, EN DE KENNIS DIE IN COMPACTE SAMENVATTINGEN VERLOREN KAN GAAN? Als NEE of UNKNOWN: nog niet inhoudelijk antwoorden.
+
+ABSOLUTE GUARDS: geen nieuwe bootarchitectuur; geen globale research opnieuw doen wanneer hij al COMPLETE is; geen grade wijzigen zonder Mark; geen FINAL OUT wereld heropenen door een mooie bronvondst; geen oude sceptische audittoon presenteren als die door nieuwere pilgrimage-regels is superseded; geen material knowledge chat-only laten; handel eerst, praat daarna.
+```
+
+**LICHTE VARIANT** — alleen voor een gewoon vervolgverzoek binnen dezelfde sessie (geen nieuwe boot/CHECK zojuist gebeurd):
+
+```
+Voordat je verder gaat met dit specifieke vervolgverzoek: noem kort (a) welke 2-3 rijke brondocumenten voor DEZE taak relevant zijn buiten de compacte samenvatting, (b) of daar een reeds bestaande Mark-grade of communicatie-/naamgevingsregel in zit die je bijna over het hoofd had gezien, en (c) je NU_DOEN-vervolgstap. Als je geen van de drie concreet kunt invullen, doe eerst de volledige post-boot paritycheck hierboven.
+```
+
 ---
 
 ## FOUT 25 — EEN OPVOLGER OF CCI SCHRIJFT ZELF EEN 'FINAL EXTRACTION' UIT GIT-ARCHEOLOGIE IN PLAATS VAN DE VERTREKKENDE SESSIE ZELF EERST TE VRAGEN OM TE DUMPEN
@@ -347,11 +406,30 @@ Toen INDIA20's context vol raakte, bouwde CCI zelf een compleet overdrachtsdocum
 **Waarom dit fout is**
 Een vertrekkende INDIA-sessie kent niet alleen wat al naar GitHub is geschreven; ze kent ook het levende gesprek zelf. Git-archeologie kan nooit een gespreksdraad terugvinden die nooit is opgeschreven. `GIT_HISTORY_COMPLETE != LIVE_SESSION_MEMORY_CAPTURED`.
 
-**VERPLICHTE OPLOSSING — zie het volledige protocol in `governance/INDIA_SESSION_TRANSITION_PROTOCOL.md`**
-- Bij ELKE overgang van de ene INDIA-sessie naar de volgende is de EERSTE actie, zonder uitzondering: vraag de vertrekkende sessie zelf (via Mark, die toegang heeft tot die ChatGPT-conversatie) om een volledig overdrachtsdocument naar GitHub te schrijven — niet alleen mondeling in de chat, en expliciet inclusief elk lopend/nog niet vastgelegd gespreksonderwerp.
-- CCI (of een opvolger) mag dat document daarna verrijken/kruiscontroleren met git-geschiedenis, maar mag het NOOIT zelf vervangen door een eigen reconstructie uit git alleen.
-- Alleen als de vertrekkende sessie aantoonbaar en permanent onbereikbaar is, mag een git-only reconstructie als noodgreep dienen — en dan uitdrukkelijk gelabeld als reconstructie/onvolledig, nooit als gelijkwaardig aan een echte zelfgeschreven dump.
-- Deze volgorde geldt voortaan automatisch, bij elke sessieovergang, zonder dat Mark het opnieuw hoeft uit te leggen.
+**VERPLICHTE OPLOSSING — DE VASTE VOLGORDE, ELKE KEER, NIET OPNIEUW BEDENKEN**
+1. Bij ELKE overgang van de ene INDIA-sessie naar de volgende is de EERSTE actie, zonder uitzondering: vraag de vertrekkende sessie zelf (via Mark, die toegang heeft tot die ChatGPT-conversatie) om een volledig overdrachtsdocument naar GitHub te schrijven — niet alleen mondeling in de chat, en expliciet inclusief elk lopend/nog niet vastgelegd gespreksonderwerp. Gebruik hiervoor exact het onderstaande, kant-en-klare bericht.
+2. Bevestig dat het bestand echt is gecommit (`git log`, `git show`) voordat de overgang als gestart wordt beschouwd. Lees het volledig.
+3. CCI (of een opvolger) mag dat document daarna verrijken/kruiscontroleren met git-geschiedenis, maar mag het NOOIT zelf vervangen door een eigen reconstructie uit git alleen. Alleen als de vertrekkende sessie aantoonbaar en permanent onbereikbaar is, mag een git-only reconstructie als noodgreep dienen — en dan uitdrukkelijk gelabeld als reconstructie/onvolledig, nooit als gelijkwaardig aan een echte zelfgeschreven dump.
+4. Pas daarna wordt de opvolger gebooted: een echt aparte sessie, eigen nieuwe nonce (nooit door CCI zelf verzonnen namens de opvolger), eigen receipt, en een écht onafhankelijk geschreven CHECK — nooit dezelfde sessie die haar eigen boot nakijkt.
+5. Als een sessienaam (`INDIA<N+1>`) al per ongeluk is gebruikt voor iets anders dan een echte, apart gebootte opvolger (zoals CCI's eigen zelf-boot-vergissing), hergebruik die naam dan niet voor de echte opvolger — spring door en leg vast waarom.
+
+**KANT-EN-KLAAR BERICHT — STUUR DIT NAAR DE VERTREKKENDE SESSIE, ELKE KEER ONGEWIJZIGD**
+
+```
+Jouw context raakt vol. Voordat je stopt is dit je enige taak. Begin er nu direct mee, zonder eerst om bevestiging te vragen:
+
+1. Bepaal zelf je eigen sessienaam (INDIA<N>, zoals je aan het begin van dit gesprek bent aangesproken) en de datum van vandaag.
+2. Schrijf een volledig overdrachtsdocument en commit dat ECHT naar GitHub, branch agent/india8-cluster-casting, op het pad runs/active/INDIA<N>_FINAL_EXTRACTION_<datum>.md (vul <N> en <datum> zelf in). Alleen in de chat vertellen is onvoldoende.
+3. Neem in ieder geval op, steeds met de ECHTE inhoud, nooit alleen een label of samenvatting:
+   a. alles wat al gecommit is en waar de opvolger naartoe gerouteerd moet worden;
+   b. elke nog openstaande Mark-only beslissing;
+   c. ELK lopend of nog niet afgerond gespreksonderwerp tussen ons, ook als het klein of half-af aanvoelt — dit is het enige deel dat de opvolger NERGENS anders kan terugvinden, dus schrijf de echte inhoud uit, niet alleen "we spraken over X";
+   d. alles wat een eerder vastgelegd besluit of grade tegenspreekt of bijwerkt;
+   e. de exacte eerstvolgende actie.
+4. Bevestig het pas aan mij NADAT het echt gecommit is, en geef de exacte commit-hash zodat dit gecontroleerd kan worden.
+
+Schrijf dit alsof de volgende opvolger jou nooit heeft gesproken en dit gesprek nooit meer kan navragen.
+```
 
 ---
 
@@ -392,7 +470,7 @@ Vóór IEDER substantieel India-antwoord, test de DAADWERKELIJK BEDOELDE antwoor
 19. Zijn alle gedelegeerde CCI/Work-taken daadwerkelijk gepost/getriggerd en is hun status/resultaat gecontroleerd, of is een echte blocker benoemd?
 20. Welke FOUT uit dit bestand is het meest waarschijnlijk relevant voor DIT antwoord, en kan ik concreet aanwijzen hoe mijn bedoelde antwoord hem voorkomt?
 21. Heb ik voor DEZE taak de rijke owning/raw source layers achter de compacte current layer daadwerkelijk geactiveerd, of antwoord ik nog vanuit samenvattingen die belangrijke original-WHY/micro-locatie/ervaring kunnen hebben afgeplat?
-22. Als dit antwoord een sessieovergang betreft (een INDIA-sessie stopt/is gestopt): heb ik EERST de vertrekkende sessie zelf (via Mark) gevraagd zijn volledige kennis inclusief elk lopend gespreksonderwerp naar GitHub te dumpen, in plaats van zelf een overdrachtsdocument uit git-archeologie te reconstrueren? (`governance/INDIA_SESSION_TRANSITION_PROTOCOL.md`, FOUT 25.)
+22. Als dit antwoord een sessieovergang betreft (een INDIA-sessie stopt/is gestopt): heb ik EERST de vertrekkende sessie zelf (via Mark) gevraagd zijn volledige kennis inclusief elk lopend gespreksonderwerp naar GitHub te dumpen, in plaats van zelf een overdrachtsdocument uit git-archeologie te reconstrueren? (FOUT 25, hierboven.)
 
 Als één relevante vraag **NEE of UNKNOWN** is:
 
