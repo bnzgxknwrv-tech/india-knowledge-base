@@ -26,13 +26,32 @@ This applies even if CCI, a prior extraction, or the committed governance files 
 5. **THEN, AND ONLY THEN, BOOT THE SUCCESSOR.** Follow `governance/INDIA_MASTER_BOOT.md` and `governance/INDIA14_START_AND_INDEPENDENT_CHECK.md` exactly as written: a genuinely separate session boots as INDIA<N+1> with its own fresh nonce (never invented by CCI on the successor's behalf — the nonce comes from Mark or the start prompt), writes its own receipt, and gets a genuinely independently-authored CHECK — never the same session grading its own boot.
 6. **NUMBER CLASH GUARD.** If a label (`INDIA<N+1>`) was already used for anything other than a real, separately-booted successor session (for example, a self-administered exercise CCI ran under that label by mistake), do not reuse that exact label for the real successor — increment past it and record why, so `boot_receipts/`/`boot_checks/` history stays unambiguous about which artifact came from a genuinely separate session.
 
-## COPY-PASTE REQUEST — SEND THIS TO THE OUTGOING SESSION, EVERY TIME
+## COPY-PASTE REQUEST — SEND THIS TO THE OUTGOING SESSION, EVERY TIME, UNCHANGED
+
+This is the universal, self-contained extraction question. It requires **no manual editing** before sending — the outgoing session fills in its own session name and date itself, which also doubles as a check that it actually knows which session it is. Paste it exactly as written, every single time, for every future INDIA<N>.
 
 ```
-Je context raakt vol. Voordat je stopt: schrijf NU een volledig overdrachtsdocument naar GitHub (niet alleen aan mij in de chat vertellen) op het pad runs/active/INDIA<N>_FINAL_EXTRACTION_<datum>.md, commit het naar branch agent/india8-cluster-casting. Dit moet in elk geval bevatten: (1) alles wat al gecommit is en waar een opvolger naartoe moet worden gerouteerd; (2) alle nog openstaande Mark-only beslissingen; (3) ELK lopend, nog niet ergens vastgelegd gespreksonderwerp tussen jou en mij, ook als het nog niet af is — dit is het deel dat een opvolger NERGENS anders kan terugvinden; (4) de exacte eerstvolgende actie. Schrijf dit alsof de volgende opvolger jou nooit heeft gesproken en dit gesprek dus nooit meer kan navragen.
+Jouw context raakt vol. Voordat je stopt is dit je enige taak. Begin er nu direct mee, zonder eerst om bevestiging te vragen:
+
+1. Bepaal zelf je eigen sessienaam (INDIA<N>, zoals je aan het begin van dit gesprek bent aangesproken) en de datum van vandaag.
+2. Schrijf een volledig overdrachtsdocument en commit dat ECHT naar GitHub, branch agent/india8-cluster-casting, op het pad runs/active/INDIA<N>_FINAL_EXTRACTION_<datum>.md (vul <N> en <datum> zelf in). Alleen in de chat vertellen is onvoldoende.
+3. Volg daarbij governance/INDIA_SESSION_TRANSITION_PROTOCOL.md.
+4. Neem in ieder geval op, steeds met de ECHTE inhoud, nooit alleen een label of samenvatting:
+   a. alles wat al gecommit is en waar de opvolger naartoe gerouteerd moet worden;
+   b. elke nog openstaande Mark-only beslissing;
+   c. ELK lopend of nog niet afgerond gespreksonderwerp tussen ons, ook als het klein of half-af aanvoelt — dit is het enige deel dat de opvolger NERGENS anders kan terugvinden, dus schrijf de echte inhoud uit, niet alleen "we spraken over X";
+   d. alles wat een eerder vastgelegd besluit of grade tegenspreekt of bijwerkt;
+   e. de exacte eerstvolgende actie.
+5. Bevestig het pas aan mij NADAT het echt gecommit is, en geef de exacte commit-hash zodat dit gecontroleerd kan worden.
+
+Schrijf dit alsof de volgende opvolger jou nooit heeft gesproken en dit gesprek nooit meer kan navragen.
 ```
 
-Replace `<N>` and `<datum>` with the actual session number and date before sending.
+### Why this exact wording (three-pass refinement, 2026-09-13)
+
+- **Pass 1** (the version first used for INDIA20) required Mark to manually substitute `<N>` and `<datum>` before sending — a small but real violation of the standing rule that a paste-target must be self-contained with zero assembly (`MRK-071` / `governance/EXTERNAL_AI_PROMPT_RULES.md`). Fixed by having the outgoing session determine both itself; this also acts as a small self-check that it actually knows which session it is.
+- **Pass 2** added: an explicit "start immediately, do not ask for confirmation first" instruction (matching `ACTION_FIRST`); a requirement for the *real content* behind each point, not a label or one-line summary (directly closing the gap that caused the Crank's Ridge miss — "we discussed X" would not have been enough); an explicit point (d) for anything that contradicts or updates an already-recorded decision/grade, so a live correction is never silently lost; and a requirement to confirm only after the commit is real, with the exact hash, so a claimed-but-unperformed dump cannot pass unnoticed.
+- **Pass 3** tightened wording for a single ChatGPT session to execute unambiguously in one pass (numbered steps, one sentence per requirement, no compound clauses that could be partially skipped), and pointed it at this protocol file directly so future extractions inherit any later refinement here without the copy-paste text itself needing to change every time.
 
 ## SUCCESSOR RULE
 
