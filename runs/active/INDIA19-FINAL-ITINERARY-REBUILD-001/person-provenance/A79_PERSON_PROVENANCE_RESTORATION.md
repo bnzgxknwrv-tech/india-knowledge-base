@@ -458,14 +458,14 @@ A-number → source-ID mapping taken from `clock-audit/INDIA19_Kloktijdplanning_
 
 ## DEEL A — ZUID-VARANASI TEMPELMICROCLUSTER (A041–A044)
 
-### A041 [VNS-30] Sankat Mochan Hanuman Temple — A
+### A041 [VNS-30] Sankat Mochan Hanuman Temple — A ⚠️ AANGEVULD 2026-09-13
 **Wat is het fysiek?** Een levende, dagelijks druk bezochte Hanuman-tempel in zuid-Varanasi.
-**Belangrijke persoon/personen?** TULSIDAS — 16e-eeuwse dichter-heilige, auteur van de Ramcharitmanas en de Hanuman Chalisa (geen lid van Marks vaste 13-persoonsindex, maar een breed erkende hindoeïstische heilige).
-**Was de persoon hier daadwerkelijk?** TRADITION_CLAIM — de brede, algemeen erkende traditie zegt dat Tulsidas hier een directe verschijning (darshan) van Hanuman kreeg en daarop de tempel op precies deze plek stichtte.
-**Hoe direct is de link?** Stichtingslegende, niet apart tegen een primaire tekst geverifieerd door CCI in dit taakbudget.
+**Belangrijke persoon/personen?** NEEM KAROLI BABA (Maharajji) — een devotee-overlevering plaatst hem hier persoonlijk — ÉN TULSIDAS — 16e-eeuwse dichter-heilige, auteur van de Ramcharitmanas en de Hanuman Chalisa (geen lid van Marks vaste 13-persoonsindex, maar wel de reden van de stichting zelf).
+**Was de persoon hier daadwerkelijk?** TRADITION_CLAIM voor beiden. De brede, algemeen erkende traditie zegt dat Tulsidas hier een directe verschijning (darshan) van Hanuman kreeg en daarop de tempel op precies deze plek stichtte. AANGEVULD 2026-09-13: daarnaast bestaat er een specifiek, met naam overgeleverd Neem Karoli Baba-verhaal (het Devkamta Dixit-verhaal, maharajji.love "A Visit to Varanasi"): Maharajji bracht een devotee hierheen — in plaats van naar de Vishwanath-tempel of rechtstreeks naar het huis van de familie van de overleden Maharaja van Vijayanagaram — waarna precies die familie toevallig ook in deze tempel bleek te zijn, wat tot de gewenste ontmoeting leidde.
+**Hoe direct is de link?** Stichtingslegende (Tulsidas) plus een eigen devotee-overgeleverde lila (Neem Karoli Baba) — beide traditieclaims, geen primaire-tekstverificatie binnen dit taakbudget.
 **Wat is het eigenlijke doelpunt?** Het hoofdschrijn met de Hanuman-murti.
-**Waarom zou Mark hier zijn?** Levende, drukbezochte verering plus een concrete stichter-legende die de plek meer geeft dan "nog een Hanuman-tempel."
-**Presentatiewaarschuwing:** het label "Hanuman-tempel" alleen verhult de Tulsidas-stichtingslegende.
+**Waarom zou Mark hier zijn?** Twee lagen op één plek: de Tulsidas-stichtingslegende én een eigen, met naam overgeleverd Neem Karoli Baba-bezoekverhaal — dit laatste was voorheen volledig afwezig, terwijl Maharajji een van Marks dertien prioriteitspersonen is.
+**Presentatiewaarschuwing:** het label "Hanuman-tempel/Tulsidas-stichting" alleen liet een echt Neem Karoli Baba-bezoekverhaal op dezelfde plek onvermeld — toegevoegd 2026-09-13.
 
 ### A042 [VNS-31] Durga Temple en Durga Kund — A
 **Wat is het fysiek?** Een roodgeschilderde, levende Durga-tempel met een aangrenzende heilige vijver (kund), 18e eeuw gebouwd door de Bengaalse Maharani Bhabani.
@@ -474,11 +474,13 @@ A-number → source-ID mapping taken from `clock-audit/INDIA19_Kloktijdplanning_
 **Waarom zou Mark hier zijn?** Authentieke levende Shakti-tempelervaring direct naast Sankat Mochan; eigen intrinsieke waarde.
 **Eerlijkheid:** dit is een van de gevallen waar er bewust GEEN persoonslink is uitgevonden — de plek staat op eigen merites.
 
-### A043 [VNS-33] Kedareshwar Temple en Kedar Ghat — A
+### A043 [VNS-33] Kedareshwar Temple en Kedar Ghat — A ⚠️⚠️ GECORRIGEERD 2026-09-13 — ZELFDE FOUTKLASSE ALS DE A052 MANIKARNIKA-FOUT
 **Wat is het fysiek?** Een Shiva-tempel met een zelf-gemanifesteerde (swayambhu) lingam, geliefd bij Zuid-Indiase/Tamil pelgrims, plus de aangrenzende ghat.
-**Belangrijke persoon/personen?** Geen van Marks prioriteitspersonen; mythologisch verbonden aan de wijze Rishi Kedar (legende, geen historische persoon).
-**Hoe direct is de link?** Governance beschermt deze plek expliciet als "immutable A" (verbiedt een downgrade), maar dat besluit betreft behoud van bestaande status, geen nieuwe persoon-onderbouwing.
-**Waarom zou Mark hier zijn?** Levende tempel/ghat-combinatie met eigen mythologische diepte, onafhankelijk van een Mark-prioriteitspersoon.
+**Belangrijke persoon/personen?** SRI RAMAKRISHNA (WEL gedocumenteerd) — mythologisch daarnaast ook verbonden aan de wijze Rishi Kedar (legende, geen historische persoon).
+**Was de persoon hier daadwerkelijk?** JA. Tijdens Sri Ramakrishna's grote Kasi-pelgrimage (jan.-mei 1868) huurde zijn patroon Mathur Mohan Biswas twee huizen vlak bij Kedar Ghat als verblijfplaats voor het hele gezelschap (ca. 125 personen, incl. Ramakrishna's moeder en neef Hriday); het gezelschap verbleef ook in het huis van Mathur's vriend Kalinath Bapuli, vlak bij Kedar Ghat — dat huis staat nu bekend als "Paduka Mandir," waar Ramakrishna's eigen sandalen worden vereerd. Volgens dezelfde biografische bron (Swami Saradananda, via sriramakrishna.in) beleefde Ramakrishna bij de Kedarnath-tempel zelf specifiek een diepe ecstase ("especially experienced ecstasy").
+**Wat is het eigenlijke doelpunt?** De Kedareshwar-lingam-schrijn zelf (waar Ramakrishna's ecstase-ervaring plaatsvond); Kedar Ghat als geheel (tijdelijke verblijfplek van zijn hele gezelschap in 1868).
+**Waarom zou Mark hier zijn?** Dit was ten onrechte gepresenteerd als "geen prioriteitspersoon" — in werkelijkheid is dit een van de weinige plekken in heel Varanasi waar Ramakrishna zelf tijdelijk verbleef ÉN waar hij volgens zijn eigen biografie een specifieke, benoemde ecstase-ervaring had.
+**PRESENTATIEWAARSCHUWING:** de vorige versie van dit bestand claimde expliciet "geen prioriteitspersoon" voor deze plek. GRADE niet gewijzigd (was al A, blijft A).
 
 ### A044 [VNS-41] Adi Keshava Ghat + Temple — A
 **Wat is het fysiek?** Een oud Vishnu-heiligdom bij de samenvloeiing van de Varuna- en Ganga-rivier — de klassieke, naamgevende noordgrens van heilig Kashi (samen met Assi Ghat als zuidgrens).
@@ -498,7 +500,7 @@ A-number → source-ID mapping taken from `clock-audit/INDIA19_Kloktijdplanning_
 **Link-type:** EXACT_RESIDENCE + EXACT_DEATH_SAMADHI_ASHES_SITE (Trailanga Swami) + EXACT_MEETING_INITIATION_SITE (Ramakrishna).
 **Wat is het eigenlijke doelpunt?** De samadhi-plek/lingam van Trailanga Swami, direct naast het Kali/Shiva-beeld.
 **Waarom zou Mark hier zijn?** Dit is een echte, drieweg-geverifieerde ontmoetingsplek tussen twee grote 19e-eeuwse heiligen, waarvan één een expliciete Mark-prioriteitspersoon.
-**Bewijssterkte:** sterk voor de ontmoeting zelf (drieweg bevestigd tegen Ramakrishna-biografische bronnen); matig voor de exacte ghat-naam — sommige bronnen plaatsen de ontmoeting "bij Manikarnika," andere bij Panchganga Ghat (de twee liggen dicht bij elkaar in dezelfde ghat-boog).
+**Bewijssterkte:** de ontmoeting zelf is drieweg bevestigd tegen Ramakrishna-biografische bronnen. Bronnen verschillen over de exacte ghat: Swami Saradananda's eigen biografie (via sriramakrishna.in) noemt Manikarnika Ghat, terwijl ramdass.org/shreemaa.org Trailanga Swami's decennialange woon-/samadhiplek specifiek bij Panchganga Ghat plaatsen — beide liggen dicht bij elkaar in dezelfde ghat-boog (aangevuld 2026-09-13).
 **PRESENTATIEWAARSCHUWING — HOOG:** de huidige PDF-tekst ("AOAY relevance is indirect; no specific episode is required") is een misleidende onderschatting. De Math staat letterlijk op Trailanga Swami's eigen samadhi-plek en is de plaats van een drieweg-geverifieerde ontmoeting met Ramakrishna — precies het soort verhaal dat een generiek label verhult.
 
 ### A046 [VNS-29] Panchganga Ghat — A
@@ -575,12 +577,12 @@ Shiva-tempel gewijd aan "Saranganath" ("Heer van het Hert") — de naam waaraan 
 
 Dit is een van de rijkste, best gedocumenteerde clusters van de hele reis en verdient veel meer diepgang dan "tempelbezoek."
 
-### A061 [KOL-01] Dakshineswar Kali Temple — A+ ⚠️ PRESENTATIE-KRITIEKE CORRECTIE
-**Wat is het fysiek?** Sri Ramakrishna's Kali-tempel, inclusief zijn eigen kamer en de Panchavati-boomgroep.
-**Belangrijke persoon/personen?** SRI RAMAKRISHNA (Bengaalse mysticus, priester van deze Kali-tempel, 1855–1886) ÉN PARAMAHANSA YOGANANDA (auteur van Autobiography of a Yogi, oprichter van Yogoda Satsanga/SRF).
-**Was de persoon hier daadwerkelijk?** JA voor beiden. Ramakrishna woonde en mediteerde hier van 1855 tot zijn vertrek naar Kolkata in 1885/86; zijn centrale God-realisaties vonden hier plaats, inclusief in de Panchavati. Yogananda werd geboren NA Ramakrishna's dood (1893, in Gorakhpur), maar bezocht Dakshineswar zelf herhaaldelijk: volgens zijn eigen Autobiography of a Yogi mediteerde hij urenlang in de portiek, in Ramakrishna's eigen kamer, en onder de banyanboom in de Panchavati (waar Ramakrishna zijn illuminatie ontving). Yogananda had hier zelf een extatisch visioen, onder andere tijdens een bezoek met zijn zus Roma en zwager Satish.
-**Wat is het eigenlijke doelpunt?** Ramakrishna's eigen kamer; de Panchavati-boomgroep en specifiek de banyanboom daarin.
-**PRESENTATIEWAARSCHUWING — HOOG:** de huidige PDF-tekst ("Yogananda reveres the broader Ramakrishna/Vivekananda tradition, but this is not a Yogananda biographical site") is feitelijk onjuist/onvolledig. Yogananda had hier zelf herhaalde, fysieke meditatie-ervaringen en minstens één gedocumenteerd extatisch visioen — dit IS mede een Yogananda-biografische plek, niet slechts eerbied voor een bredere traditie.
+### A061 [KOL-01] Dakshineswar Kali Temple — A+ ⚠️⚠️ PRESENTATIE-KRITIEKE CORRECTIE, AANGEVULD 2026-09-13
+**Wat is het fysiek?** Sri Ramakrishna's Kali-tempel, inclusief zijn eigen kamer, de Nahabat en de Panchavati-boomgroep.
+**Belangrijke persoon/personen?** SRI RAMAKRISHNA (Bengaalse mysticus, priester van deze Kali-tempel, 1855–1886); SARADA DEVI (zijn echtgenote, de "Heilige Moeder," woonde hier 1855–1885 in de Nahabat); SWAMI VIVEKANANDA (frequent bezoeker vanaf nov. 1881, incl. de beroemde "gebed tot Kali"-episode op 16 sept. 1884); PARAMAHANSA YOGANANDA (auteur van Autobiography of a Yogi, herhaalde persoonlijke bezoeken/meditatie).
+**Was de persoon hier daadwerkelijk?** JA voor alle vier. Ramakrishna woonde en mediteerde hier van 1855 tot zijn vertrek naar Kolkata in 1885/86; zijn centrale God-realisaties vonden hier plaats, inclusief in de Panchavati. Yogananda werd geboren NA Ramakrishna's dood (1893, in Gorakhpur), maar bezocht Dakshineswar zelf herhaaldelijk: volgens zijn eigen Autobiography of a Yogi mediteerde hij urenlang in de portiek, in Ramakrishna's eigen kamer, en onder de banyanboom in de Panchavati. AANGEVULD 2026-09-13: Sarada Devi woonde van 1855 tot 1885 in de Nahabat, een klein (<50 m²), tweeverdiepingen tellend achtkantig baksteengebouw op zo'n 75 voet ten noorden van Ramakrishna's eigen kamer — het gebouw staat nog steeds (belurmath.org, officiële biografie). De jonge Narendranath Datta (de latere Swami Vivekananda) bezocht Ramakrishna hier vanaf november 1881 herhaaldelijk; op 16 september 1884 stuurde Ramakrishna hem drie keer alleen de Kali-tempel in om geld voor zijn arme familie te vragen, maar Narendra vroeg telkens in plaats daarvan om onderscheidingsvermogen en goddelijke kennis — een scharniermoment in zijn eigen spirituele vorming, dat zich letterlijk in het Kali-schrijn van deze tempel afspeelde.
+**Wat is het eigenlijke doelpunt?** Ramakrishna's eigen kamer; de Panchavati-boomgroep en specifiek de banyanboom daarin; de Nahabat (Sarada Devi's woonkamer); het Kali-schrijn zelf (Vivekananda's "gebed tot Kali"-episode).
+**PRESENTATIEWAARSCHUWING — ZEER HOOG:** de vorige versie corrigeerde al de Yogananda-framing, maar het persoonsveld noemde nog steeds alleen Ramakrishna en Yogananda, terwijl Sarada Devi en Vivekananda hier allebei een van de best gedocumenteerde episodes van hun hele biografie hebben — dit is dezelfde foutklasse als de A052 Manikarnika-fout. Toegevoegd 2026-09-13.
 
 ### A062 [KOL-02] Yogoda Satsanga Math, Dakshineswar — A+ ⚠️ ONZEKERHEID EXPLICIET GEMAAKT
 **Wat is het fysiek?** YSS/Yogananda-ashram en organisatorisch hoofdkwartier, direct naast de Dakshineswar Kali-tempel.
@@ -590,7 +592,7 @@ Dit is een van de rijkste, best gedocumenteerde clusters van de hele reis en ver
 
 ### A063 [KOL-03] Belur Math — A ⚠️ PRESENTATIE-KRITIEKE CORRECTIE
 **Wat is het fysiek?** Hoofdkwartier van de Ramakrishna Math en Missie, met tempels voor Ramakrishna, Sarada Devi en Vivekananda.
-**Belangrijke persoon/personen?** SWAMI VIVEKANANDA (Ramakrishna's belangrijkste discipel, stichter van de Ramakrishna Mission) — de sterkste directe-persoon-link in dit hele cluster; SRI RAMAKRISHNA (relieken/as, postuum geïnstalleerd); SARADA DEVI (de "Heilige Moeder," Ramakrishna's echtgenote/spirituele opvolgster — incidenteel verblijf in latere jaren, zwakker onderbouwd).
+**Belangrijke persoon/personen?** SWAMI VIVEKANANDA (Ramakrishna's belangrijkste discipel, stichter van de Ramakrishna Mission) — de sterkste directe-persoon-link in dit hele cluster; SRI RAMAKRISHNA (relieken/as, postuum geïnstalleerd); SARADA DEVI (de "Heilige Moeder," Ramakrishna's echtgenote/spirituele opvolgster — bezocht Belur Math incidenteel in haar latere jaren; haar hoofdverblijf was Udbodhan House, Bagbazar).
 **Was de persoon hier daadwerkelijk?** JA voor Vivekananda (leefde en werkte hier tot zijn dood). Vivekananda stichtte Belur Math in 1898/99, woonde en werkte hier tot zijn dood op 4 juli 1902 (mahasamadhi), en werd op het terrein gecremeerd. Ramakrishna zelf heeft hier NOOIT gewoond — hij stierf in 1886 in Cossipore, vóór de stichting van Belur Math; zijn fysieke relieken/as werden na crematie in Cossipore verzameld en later in een schrijn op Belur Math geïnstalleerd (postuum, geen levenslange woonplek). Sarada Devi verbleef in haar latere jaren af en toe op Belur Math, maar haar hoofdverblijf was Udbodhan House in Bagbazar, Kolkata (buiten deze trip, apart B-gegradeerd).
 **PRESENTATIEWAARSCHUWING — HOOG:** het huidige label "headquarters with temples" verhult dat dit letterlijk de plek is waar Vivekananda zijn laatste jaren woonde, stierf en gecremeerd werd. Dit verdient een veel explicietere EXACT_DEATH_SAMADHI_ASHES_SITE-presentatie voor Vivekananda specifiek, met het Ramakrishna-relekenverband duidelijk als postuum (niet levenslang) gemarkeerd.
 
@@ -622,8 +624,8 @@ Ramana woonde hier van ca. 1899 tot 1916 (17 jaar) — zijn langste enkele verbl
 ### A069 [TIR-04] Skandashram — A ⚠️ PRESENTATIE-KRITIEKE CORRECTIE
 Ramana woonde hier van 1916 tot 1922. **In 1922 overleed zijn moeder Alagammal OP DEZE PLEK** — haar overlijden hier was het directe biografische keerpunt dat leidde tot de stichting van Sri Ramanasramam bij haar samadhi-plek onderaan de heuvel (het huidige A076). **Presentatiewaarschuwing — HOOG:** het huidige label ("hermitage where Ramana later lived") verbergt volledig dat dit ook de sterfplek van zijn moeder is.
 
-### A070 [TIR-06] Gurumurtam — A ⚠️
-Ramana verbleef hier kort na zijn aankomst als 16-jarige in Tiruvannamalai (jaartal 1897 vs. 1898 drievoudig erkend, onopgelost bronconflict — zie gaps), in een vervallen tempel, in zo'n diepe meditatieve verzonkenheid dat hij zich niet bewust was van insectenbeten en de verwaarlozing van zijn eigen lichaam. **Presentatiewaarschuwing:** het huidige "Site associated with Ramana's early period" is te vaag voor een van de intensere, lichamelijk-extreme episodes uit zijn biografie.
+### A070 [TIR-06] Gurumurtam — A ⚠️ JAARTAL-CONFLICT OPGELOST 2026-09-13
+Ramana verbleef hier kort na zijn aankomst als 16-jarige in Tiruvannamalai, in een vervallen tempel, in zo'n diepe meditatieve verzonkenheid dat hij zich niet bewust was van insectenbeten en de verwaarlozing van zijn eigen lichaam. OPGELOST 2026-09-13: het eerder drievoudig erkende, onopgeloste 1897/1898-jaartalconflict is nu opgelost via Sri Ramanasramam's eigen officiële tijdlijn (gururamana.org): aankomst in Tiruvannamalai op 1 september 1896, verhuizing naar Gurumurtam in februari 1897. **Presentatiewaarschuwing:** het huidige "Site associated with Ramana's early period" is te vaag voor een van de intensere, lichamelijk-extreme episodes uit zijn biografie.
 
 ### A071 [TIR-07] Pavalakunru — A
 Arunachala-uitloper met eigen tempel, onderdeel van Ramana's vroege omzwervingen rond de voet van de berg vóór zijn permanente vestiging op de heuvel zelf.
@@ -643,13 +645,13 @@ Ramana beval giripradakshina expliciet aan en beoefende het zelf herhaaldelijk a
 ### A075 [TIR-11] Amutham — A
 Restaurant, Mark-graad zonder sightseeing-gewicht. Geen persoonslink.
 
-### A076 [TIR-02] Sri Ramanasramam — A ⚠️⚠️ TWEEDE BELANGRIJKSTE CORRECTIE
+### A076 [TIR-02] Sri Ramanasramam — A ⚠️⚠️⚠️ TWEEDE ÉN DERDE BELANGRIJKSTE CORRECTIE (AANGEVULD 2026-09-13)
 **Wat is het fysiek?** Ramana Maharshi's ashram aan de voet van Arunachala, met samadhi-hallen en bibliotheek.
-**Belangrijke persoon/personen?** SRI RAMANA MAHARSHI (leefde en onderwees hier van 1922 tot zijn dood op 14 april 1950; de Samadhi Hall bevat zijn fysieke rustplaats) ÉN PARAMAHANSA YOGANANDA, die hem hier persoonlijk bezocht op 29 november 1935.
-**Wat gebeurde hier precies?** Yogananda arriveerde met vier anderen om 8:45 uur en at die dag met de groep in de ashram (vastgelegd in *Talks with Sri Ramana Maharshi*, Talk 106–108). Bewaard gebleven archieffilmbeeld toont Ramana gezeten op een bankje direct ten noorden van de Old Hall, met Yogananda en Paul Brunton in de buurt.
-**Wat is het eigenlijke doelpunt?** De Samadhi Hall; Mother's Shrine; de Old Hall; het bankje direct ten noorden van de Old Hall — de exacte plek van het bewaarde gefilmde Yogananda-moment (met de erkende kanttekening dat dit de plek van de GEFILMDE scène is, niet met zekerheid van het VOLLEDIGE gesprek).
-**Waarom zou Mark hier zijn?** Mark zelf zei expliciet dat het kennen van de exacte fysieke plek van Yogananda's ontmoeting met Ramana Maharshi zeer belangrijk voor hem is en zijn bezoekwens materieel vergroot (`research/YOGANANDA_RAMANA_ARUNACHALA_POST_FREEZE_NOTE_2026-08-18.md`).
-**PRESENTATIEWAARSCHUWING — ZEER HOOG:** dit is de belangrijkste gemiste presentatiekans in de hele Tiruvannamalai-cluster — de huidige PDF noemt Yogananda nergens bij Ramanasramam.
+**Belangrijke persoon/personen?** SRI RAMANA MAHARSHI (leefde en onderwees hier van 1922 tot zijn dood op 14 april 1950; de Samadhi Hall bevat zijn fysieke rustplaats); PARAMAHANSA YOGANANDA, die hem hier persoonlijk bezocht op 29 november 1935; ANANDAMAYI MA (AANGEVULD 2026-09-13), die hier op 5 november 1952 persoonlijk de eerste steen legde voor Ramana's samadhischrijn.
+**Wat gebeurde hier precies?** Yogananda arriveerde met vier anderen om 8:45 uur en at die dag met de groep in de ashram (vastgelegd in *Talks with Sri Ramana Maharshi*, Talk 106–108). Bewaard gebleven archieffilmbeeld toont Ramana gezeten op een bankje direct ten noorden van de Old Hall, met Yogananda en Paul Brunton in de buurt. AANGEVULD 2026-09-13: Anandamayi Ma bezocht Sri Ramanasramam van 4 tot 7 november 1952 en legde op 5 november 1952 om 9 uur 's ochtends, in aanwezigheid van devotees en het bestuur, persoonlijk de eerste steen voor het bouwwerk boven Bhagavans Samadhi — het begin van een achttienjarig bouwproject. Bij de plechtigheid zei ze: "Here is the sun; we are all the stars in daytime." (bron: Sri Ramanasramam's eigen Saranagati-nieuwsbrief, sriramana.org).
+**Wat is het eigenlijke doelpunt?** De Samadhi Hall (Ramana's rustplaats, én de plek van Anandamayi Ma's eerstesteenlegging); Mother's Shrine; de Old Hall; het bankje direct ten noorden van de Old Hall — de exacte plek van het bewaarde gefilmde Yogananda-moment (met de erkende kanttekening dat dit de plek van de GEFILMDE scène is, niet met zekerheid van het VOLLEDIGE gesprek).
+**Waarom zou Mark hier zijn?** Mark zelf zei expliciet dat het kennen van de exacte fysieke plek van Yogananda's ontmoeting met Ramana Maharshi zeer belangrijk voor hem is en zijn bezoekwens materieel vergroot (`research/YOGANANDA_RAMANA_ARUNACHALA_POST_FREEZE_NOTE_2026-08-18.md`). Met de Anandamayi Ma-toevoeging is dit nu een kruispunt van drie van Marks prioriteitspersonen op één exacte plek.
+**PRESENTATIEWAARSCHUWING — ZEER HOOG:** naast de reeds herstelde Yogananda-ontmoeting miste deze rij ook Anandamayi Ma's eigen, met naam en datum overgeleverde bezoek en eerstesteenlegging op 5 november 1952 — toegevoegd 2026-09-13.
 
 ---
 

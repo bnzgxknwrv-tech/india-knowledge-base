@@ -198,11 +198,11 @@ The YSS institutional history (`dakshineswar.yssashram.org/article/view/282`, fe
 
 ---
 
-## GAP 6 — A070 [TIR-06] Gurumurtam: disputed year (1897 vs. 1898)
+## GAP 6 — A070 [TIR-06] Gurumurtam: disputed year (1897 vs. 1898) — RESOLVED 2026-09-13
 
-This is a pre-existing, explicitly acknowledged three-way conflict already on record in `runs/active/TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001/RAMANA_MAHARSHI_MULTIDETECTOR_RECONCILIATION.md`: "extern/IndiaGEEL geven zelf al aan dat afgeleide tijdlijnen wisselen tussen feb. 1897 en 1898." All three detectors (internal, external-ChatGPT, IndiaGEEL) acknowledge the conflict; none resolves it. CCI did not attempt new resolution in this task (out of scope — this is a pre-existing, already-flagged research conflict, not a new provenance gap CCI introduced), and simply carried the acknowledged uncertainty forward.
+This was a pre-existing, explicitly acknowledged three-way conflict on record in `runs/active/TOP11-RAMANA-RAMAKRISHNA-MULTIDETECTOR-RECONCILIATION-001/RAMANA_MAHARSHI_MULTIDETECTOR_RECONCILIATION.md`: "extern/IndiaGEEL geven zelf al aan dat afgeleide tijdlijnen wisselen tussen feb. 1897 en 1898." All three detectors (internal, external-ChatGPT, IndiaGEEL) acknowledged the conflict without resolving it.
 
-**What is still open:** the same as before this task — a primary/authoritative source that fixes Ramana's Gurumurtam period to one specific year.
+**RESOLVED 2026-09-13:** Sri Ramanasramam's own official timeline (`gururamana.org/Bhagavan/sri-ramana-maharshi-timeline`, fetched externally in this task) states Ramana boarded the train to Tiruvannamalai on 1 September 1896 and moved to the Gurumurtam shrine "a little less than six months" later, in February 1897. This is the ashram's own authoritative source and settles the conflict in favor of **1897**. Updated in the CSV/MD entries for A070; no grade change.
 
 ---
 
@@ -212,6 +212,18 @@ The dispatch's own calibration text asked whether "4 Garpar Road is clearly iden
 
 ---
 
-## Summary of what was NOT found to be a gap
+## GAP 8 — A041/A043/A061/A076 (and A026/A027, outside this agent's range): missed person-links found in a 2026-09-13 re-verification pass
 
-For the many ordinary south-Varanasi/ghat/temple microcluster items in this range (A042, A043, A048, A049, A050 and the historical-building-identity note on A047) CCI found **no** Mark priority-person connection in the repo or via external research, and did **not** invent one. Per the governing rule's own instruction ("If the original reason cannot be recovered, label that as a data/provenance gap. Do NOT silently replace it with a generic tourist description"), these are reported honestly as genuine, intrinsically-valuable Hindu devotional/architectural sites without a Tier-1 person link — this is a finding, not a failure of this task.
+Following Mark's discovery that A052 (Manikarnika Ghat) had wrongly been classified as having no priority-person link (it is Lahiri Mahasaya's cremation site, per AOAY ch. 36), a full re-verification of A041–A079 against every one of Mark's priority persons was carried out on 2026-09-13, actively web-searching rather than trusting the existing "no link" labels. This found and corrected several more genuine misses of the same class, now reflected directly in the CSV/MD (see each row's `PRESENTATION_WARNING`):
+
+- **A041** Sankat Mochan Hanuman Temple — added Neem Karoli Baba (devotee-overlevering, maharajji.love).
+- **A043** Kedareshwar Temple/Kedar Ghat — added Sri Ramakrishna (temporary residence near Kedar Ghat during his 1868 Kasi pilgrimage, plus a named ecstasy episode at the Kedarnath shrine itself, per Swami Saradananda's biography). This row had explicitly been listed below as "no gap" in the original A041-A079 pass — that was itself incorrect, exactly the failure class being hunted for.
+- **A061** Dakshineswar Kali Temple — added Sarada Devi (lived in the Nahabat, 1855-1885) and Swami Vivekananda (frequent visitor from Nov. 1881, incl. his famous "prayer to Kali" episode of 16 Sept. 1884). Both were missing from the priority-persons field despite being among the best-documented episodes of their entire biographies.
+- **A076** Sri Ramanasramam — added Anandamayi Ma (personally laid the foundation stone for Ramana's samadhi shrine, 5 Nov. 1952, per Sri Ramanasramam's own Saranagati newsletter and anandamayi.org).
+- **A026 and A027** (Shri Kashi Vishwanath Temple and Maa Annapurna Temple) also have a genuine, missed Ramakrishna connection (visited almost daily / saw the golden Annapurna image during the same 1868 pilgrimage) — these fall in the **A001-A040 range owned by the other CCI agent** and were therefore NOT edited here; flagged so that agent (or a successor) can apply the same correction. Source: sriramakrishna.in "The Master's Pilgrimage and the Story of Hridayram" (Swami Saradananda's biography); varanasi.rkmm.org "Visit of Sri Ramakrishna to Varanasi".
+
+No grade was changed for any of these. `EVIDENCE_STRENGTH` hedging language ("STERK"/"ZWAK"/"PLAUSIBLE, niet CONFIRMED") was also retired across A041-A079 per `decisions/TRADITION_IS_EVIDENCE_PILGRIMAGE_NOT_COURTROOM_MARK_DECISION_2026-09-13.md`.
+
+## Summary of what was actively re-checked and confirmed to genuinely have no priority-person link
+
+For the remaining ordinary south-Varanasi/ghat/temple microcluster items in this range (A042 Durga Temple/Durga Kund, A048/A049 Lalita Ghat/Nepali Temple, A050 Sankatha Devi Temple, and the historical-building-identity note on A047) CCI re-checked via fresh external research on 2026-09-13 (not just re-reading the existing labels) and again found **no** Mark priority-person connection, and did **not** invent one. Per the governing rule's own instruction ("If the original reason cannot be recovered, label that as a data/provenance gap. Do NOT silently replace it with a generic tourist description"), these are reported honestly as genuine, intrinsically-valuable Hindu devotional/architectural sites without a Tier-1 person link — this is a confirmed finding, not a failure of this task.
