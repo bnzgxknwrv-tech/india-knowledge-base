@@ -20,9 +20,21 @@ This applies equally to newly recovered locations such as Dihika, Kasar Devi, Ka
 Mark explicitly wants BOTH of these Vivekananda locations included if execution is feasible:
 
 ### Swami Vivekananda Jnana Vriksha / Knowledge Tree — boomplek van Vivekananda's microkosmos–macrokosmos-realisatie (Kakrighat) [A+]
-- canonical naming must preserve `Jnana Vriksha / Knowledge Tree` AND `microcosm–macrocosm` recognition;
+- canonical naming must preserve `Jnana Vriksha / Knowledge Tree` AND **`microcosm–macrocosm`** recognition;
+- **EVERY future Mark-facing mention of this location must explicitly couple it to the microcosm–macrocosm realization.** Bare `Kakrighat` is forbidden.
 - Mark regards this as an excellent detour and major spiritual content, not bycatch;
 - real dwell should permit quiet presence / meditation rather than a photo stop.
+
+### REQUIRED READING NOTE — HARD / must appear in the day plan
+Before or during the Kakrighat visit, Mark wants to read the short primary-text fragment connected to this realization:
+- **Swami Vivekananda, *The Complete Works of Swami Vivekananda*, Volume 9**;
+- section: **“Macrocosm and Microcosm”**;
+- standard Complete Works pagination: **starts around p. 322** (edition pagination to be checked against Mark's actual copy if needed).
+
+Future day blocks / PDFs must visibly include a cue such as:
+**LEZEN VOOR/BIJ KAKRIGHAT: Complete Works Vol. 9 — “Macrocosm and Microcosm” — Vivekananda's eigen notities bij deze realisatie.**
+
+This reading is part of the meaning of the location, not a detached bibliography item.
 
 ### Kasar Devi Cave / Grot Vivekananda — grot waar Vivekananda 2–3 dagen diep mediteerde en zijn roeping tot dienstbaarheid scherp werd (Kasar Devi / Almora) [A+]
 - **GRADE = A+**, explicit Mark decision 2026-09-13;
@@ -108,11 +120,15 @@ This is a safety/execution constraint, not a reduction in spiritual dwell priori
 ## 6. Supersede note
 
 Any older 23 Dec text saying Kakrighat is `skip-first/bycatch` is stale.
+Any future location label for Kakrighat that omits **microcosm–macrocosm** is incomplete.
+Any future 23 Dec day block that omits the **Vol. 9 “Macrocosm and Microcosm” reading cue** is incomplete.
 Any older wording treating Kasar Devi Cave as OPEN grade is stale; it is now **A+** and must be named with `Grot Vivekananda`.
 Any older 24 Dec clock with a short A009 visit and early descent is superseded by this Mark decision.
 Any older dayplan beginning with `breakfast` / `wake` is stale presentation and must be rebuilt from `VERTREK HOTEL`.
 
 `DEC23_VIVEKANANDA_TRANSIT_REBUILT = YES`
+`KAKRIGHAT_MICROCOSM_MACROCOSM_COUPLING = HARD`
+`KAKRIGHAT_VOL9_READING_CUE = HARD`
 `KASAR_DEVI_VIVEKANANDA_CAVE = A_PLUS`
 `DEC24_LONG_BABAJI_MOUNTAIN_PRESENCE = YES`
 `DEC24_1700_EXACT_TURNAROUND = NOT_YET_SAFETY_LOCKED`
