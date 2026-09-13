@@ -141,6 +141,6 @@ Deferred until controlling gates are reached:
 - newer explicit Mark/current owning truth beats frozen CCI/historical summaries.
 
 UNSAVED_RISK:
-`NONE_KNOWN_AFTER_INDIA20_FINAL_EXTRACTION_AND_2026_09_14_CRANKS_RIDGE_RECOVERY`
+GEEN
 
 END SUCCESSOR SAFE STATE
