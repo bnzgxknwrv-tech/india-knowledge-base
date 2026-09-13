@@ -498,10 +498,10 @@ Devi-tempel op de oude-stad ghat-wandelroute. Geen Mark-prioriteitspersoon gedoc
 **Waarom zou Mark hier zijn?** Markant fysiek/visueel landmark direct voorafgaand aan Manikarnika.
 
 ### A052 [VNS-01] Manikarnika Ghat — A+
+**GECORRIGEERD 2026-09-13 — dit was fout in de eerdere versie van dit bestand.**
 **Wat is het fysiek?** Varanasi's belangrijkste crematieghat, een van de meest intense heilige plekken van de stad.
-**Belangrijke persoon/personen?** Geen direct gedocumenteerde Mark-prioriteitspersoon; mogelijk (bronafhankelijk, niet zeker) dezelfde Ramakrishna-Trailanga Swami-episode als A045/A046.
-**Waarom zou Mark hier zijn?** Mark's eigen woorden: "deep experiential/spiritual anchor" — bewust open einde, geen strak vertrekdoel. Dit is een aanwezigheids-plek, geen bezienswaardigheid.
-**Eerlijkheid:** dit is een van de weinige plekken waar het ontbreken van een naam-persoon-claim GEEN tekortkoming is — de intrinsieke kracht van de plek zelf is een expliciet geldige eigen reden volgens dit project se eigen "krachtveld"-principe (PROJECT.md). De huidige presentatie is hier al eerlijk en gepast.
+**Belangrijke persoon/personen?** Lahiri Mahasaya. Autobiography of a Yogi hoofdstuk 36 zegt letterlijk dat zijn lichaam "was cremated with solemn householder rites at Manikarnika Ghat by the holy Ganges" — hij overleed op 26 september 1895. Daarnaast mogelijk (niet zeker) dezelfde Ramakrishna-Trailanga Swami-episode als A045/A046.
+**Waarom zou Mark hier zijn?** Dit is de plek waar Lahiri Mahasaya zijn lichaam achterliet — rechtstreeks uit Autobiography of a Yogi zelf. Daarnaast, ongeacht die link, Mark's eigen woorden: "deep experiential/spiritual anchor" — bewust open einde, geen strak vertrekdoel. Dit is een aanwezigheids-plek, geen bezienswaardigheid.
 
 ---
 
