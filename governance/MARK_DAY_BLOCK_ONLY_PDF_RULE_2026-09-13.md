@@ -33,6 +33,21 @@ For each physical calendar day, that day's block must contain ALL information Ma
 - live-recheck items and material uncertainty;
 - hotel/check-in/baggage logistics only to the extent they affect the actual day.
 
+## Operational day start — HARD
+
+Future Mark-facing schedules MUST start the operational day at **`VERTREK HOTEL`** (or `VERTREK SLAAPPLEK` when that wording is materially clearer).
+
+Do NOT schedule, display or allocate clock slots for:
+- breakfast / ontbijt;
+- wake-up;
+- showering;
+- dressing;
+- other ordinary private morning routine.
+
+Mark handles those himself. The first operational clock item is departure from the actual sleep base unless an externally fixed event happens earlier and genuinely requires mention.
+
+This applies UNIVERSALLY across all future day plans, working clocks and PDFs. Existing older working plans containing `breakfast` / `ontbijt` / `wake` are stale presentation and must be normalized when rebuilt; they are not controlling against this rule.
+
 ## No split information
 
 Substantive itinerary information may NOT be parked in separate front/back sections that Mark must cross-reference.
@@ -68,4 +83,6 @@ Do NOT generate the next PDF yet. First finish the current content/classificatio
 `DAY_BLOCK_ONLY = YES`
 `ALL_DAY_INFO_INSIDE_OWN_DAY = YES`
 `SUBSTANTIVE_FRONT_BACK_APPENDICES = NO`
+`OPERATIONAL_DAY_START = VERTREK_HOTEL`
+`BREAKFAST_CLOCK_ITEMS = FORBIDDEN`
 `NEW_PDF_NOW = NO`
