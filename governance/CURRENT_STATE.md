@@ -1,22 +1,23 @@
 # CURRENT STATE — INDIA
 
-state_revision: `2026-09-13_INDIA20_CLASSIFICATION_REGRESSION_AUDIT__SERAMPORE_GRADED__TIRU_TRADEOFF_ACTIVE`
+state_revision: `2026-09-13_INDIA20_CLASSIFICATION_REGRESSION_AUDIT_EXPANDED__LEDGER_COMPLETENESS_BLOCKED`
 branch: `agent/india8-cluster-casting`
-status: `MARK_PDF_ITEM_REVIEW_ACTIVE__CLASSIFICATION_REGRESSION_AUDIT_OPEN__NO_BOOKING_YET`
+status: `MARK_PDF_ITEM_REVIEW_ACTIVE__CLASSIFICATION_AND_LEDGER_AUDITS_OPEN__NO_BOOKING_YET`
 manifest_active_cluster: `BODHGAYA_EXECUTION_GEOMETRY_TRUE_DURATION`
 latest_successor_handoff: `runs/active/INDIA19_FINAL_EXTRACTION_2026-09-13.md`
 
 ## EXACT CURRENT FRONTIER
 
-Mark is still reviewing the v3/PDF content item by item. Do **not** jump to the Bodh/Tiru duration ballot or generate v4 yet.
+Mark is still reviewing the v3/PDF content item by item. Do **not** jump to the Bodh/Tiru duration ballot and do not generate v4 yet.
 
 Current mode:
-`MARK_PDF_ITEM_REVIEW + RICH_SOURCE_RECONCILIATION + ACTIVE_WORLD_CLASSIFICATION_REGRESSION_AUDIT`
+`MARK_PDF_ITEM_REVIEW + RICH_SOURCE_RECONCILIATION + ACTIVE_WORLD_CLASSIFICATION_REGRESSION_AUDIT + LIVE_LEDGER_COMPLETENESS_AUDIT`
 
-The Serampore discovery proved that a physical place can have strong source support yet disappear from the live trip because of stale parent-world exclusion or because research prose never became a durable entity. Therefore the new regression audit must clear before v4.
+The Serampore discovery proved that a strong physical pilgrimage place can disappear from the live trip because of stale parent-world exclusion or because research prose never became a durable entity. The wider audit has now found additional active-world gaps and a separate mechanical defect: the current live CSV still does not comprehensively retain all historical/current B/C/Open decisions.
 
-Current audit owner:
-`research/ACTIVE_WORLD_CLASSIFICATION_REGRESSION_AUDIT_2026-09-13.md`.
+Current audit owners:
+- `research/ACTIVE_WORLD_CLASSIFICATION_REGRESSION_AUDIT_2026-09-13.md`;
+- `research/LIVE_LEDGER_COMPLETENESS_AUDIT_2026-09-13.md`.
 
 Current live truth owner:
 `runs/active/INDIA20-LIVE-LEDGER-V4-REPAIR-001/LIVE_DERIVED_PLACE_GRADE_LEDGER_2026-09-13.csv`.
@@ -49,7 +50,7 @@ Use whole-human door-to-door time. Never substitute dwell time for skip-saving. 
 Owner:
 `governance/MARK_FACING_PLACE_CARD_TRAVEL_VALUE_RULE_2026-09-13.md`.
 
-## SERAMPORE — NOW GRADED CORE, NOT FINAL OUT
+## SERAMPORE — GRADED CORE, NOT FINAL OUT
 
 Serampore/Srirampur is no longer FINAL OUT. The old exclusion was inherited from the 2026-08-19 whole EAST_ROUTE_FAMILY skip. Kolkata/Dakshineswar later returned, but Serampore was not re-evaluated as a nearby Hooghly microcluster. Mark explicitly reopened it on 2026-09-13.
 
@@ -99,42 +100,66 @@ Owner:
 
 Both are nice extras but may consume no important trip time and may never weaken the final flight-safety buffer.
 
-## CLASSIFICATION REGRESSION AUDIT — CONFIRMED PAST FAILURES
+## CLASSIFICATION REGRESSION AUDIT — CONFIRMED FAILURE TYPES
 
-Already identified/repaired failure classes:
-1. **Serampore stale parent exclusion:** whole eastern route family went OUT; Kolkata later came back but Serampore silently stayed OUT.
+Confirmed or already repaired examples:
+1. **Serampore stale parent exclusion:** entire eastern family went OUT; Kolkata later came back but Serampore silently stayed OUT.
 2. **Haidakhan local-Kailash:** meaningful research existed but no durable physical candidate survived; later recovered and Mark graded A.
 3. **Sujata physical conflation:** milk-offering location/Temple/banyan and Sujata Stupa/Garh were distinct but had been flattened together; now separate A+ and A entities.
-4. **B-row disappearance:** six Sep-13 Varanasi/Sarnath A->B sites were omitted from the first supposedly complete live ledger because an A+/A/A*-scoped source was mistaken for complete place memory; repaired.
+4. **B-row disappearance:** six Sep-13 Varanasi/Sarnath A->B sites disappeared from the first supposedly complete live ledger; repaired.
+5. **A008 Babaji Smriti Bhavan meaning flattening:** the place survived, but `generic memorial` wording lost its real meditation-hall/shrine and 1861 Babaji–Lahiri initiation-world meaning. Grade remains A; meaning repaired before any future cut.
 
-Systemic anti-regression classes:
+Systemic anti-regression classes now include:
 - `PARENT_WORLD_OUT_INHERITED_AFTER_CONTEXT_CHANGED`;
 - `RESEARCH_PROSE_WITHOUT_DURABLE_ENTITY`;
 - `GRADE_SCOPED_LEDGER_MISTAKEN_FOR_COMPLETE_MEMORY`;
 - `COMPACT_CARD_LOSES_ORIGINAL_WHY`;
 - `EXISTING_CANDIDATE_VERIFICATION_MISTAKEN_FOR_DISCOVERY`;
-- `DISTINCT_PHYSICAL_CHILDREN_COLLAPSED_UNDER_PARENT`.
+- `DISTINCT_PHYSICAL_CHILDREN_COLLAPSED_UNDER_PARENT`;
+- `ADJACENT_DISTINCT_PILGRIMAGE_PROPERTY_ABSORBED_BY_NEARBY_ENTITY`;
+- `WHOLE_ROUTE_RESEARCH_STOP_THEN_PARTIAL_REOPEN_WITHOUT_LOST_CHILD_REDISCOVERY`.
 
 ## HIGH-PRIORITY RECOVERED OPEN CANDIDATES — MUST GO TO MARK
 
-These are now explicit OPEN rows in the live ledger. INDIA has **not** graded them.
+These are explicit OPEN rows in the live ledger. INDIA has **not** graded them.
 
-- `KOL-NEW-50-AMHERST` — 50 Amherst Street, Kolkata: Yogananda's mother died here; Master Mahasaya later lived here; YSS records Yogananda and his brother having a vision of their mother while meditating here with Master Mahasaya.
-- `KOL-NEW-NAGENDRA-MATH` — Nagendra Math / Bhaduri Mahasaya (`The Levitating Saint`): ~0.5 km from Garpar according to YSS; young Yogananda regularly visited for spiritual discussions; current YSS wording says open to devotees.
-- `KUM-NEW-PANDAVKHOLI` — Pandavkholi/Pandukholi above Babaji Cave: distinct ridge-top mandir/dharamshala continuation beyond the A+ cave; project research had preserved it but no durable classification survived. Winter/access/incremental burden must be checked before Mark grades it.
-- `KOL-NEW-KALIGHAT-AOAY` — Kalighat Kali Temple: exact AOAY childhood event geography where Mukunda/Yogananda brought a Kali image given by his father to be sanctified. Requires explicit Mark classification, not auto-inclusion.
+- `KOL-NEW-TULSI-BOSE` — **Tulsi Bose Shrine / historic Tulsi Bose family home**. Distinct from both 4 Garpar and YSS Garpar. Current Ananda Kolkata material says Yogananda repeatedly meditated/stayed here; the preserved shrine contains beds used by Yogananda and Sri Yukteswar and guru relics. This is a major classification omission.
+- `KOL-NEW-50-AMHERST` — **50 Amherst Street**. Yogananda's mother died here; Master Mahasaya later lived here; YSS records Yogananda and his brother having a vision of their mother while meditating here with Master Mahasaya.
+- `KOL-NEW-NAGENDRA-MATH` — **Nagendra Math / Bhaduri Mahasaya house (`The Levitating Saint`)**. About 0.5 km from Garpar according to YSS; young Yogananda repeatedly visited for spiritual discussions; current YSS wording says open to devotees.
+- `KUM-NEW-PANDAVKHOLI` — **Pandavkholi/Pandukholi above Babaji Cave**. Distinct ridge-top mandir/dharamshala continuation beyond A+ Babaji Cave; current winter/access/incremental burden must be checked before Mark grades it.
+- `KOL-NEW-KALIGHAT-AOAY` — **Kalighat Kali Temple**. Exact AOAY childhood event where Mukunda/Yogananda brought a Kali image given by his father to be sanctified.
+- `WB-NEW-DIHIKA` — **Dihika Retreat / original 1917 Yogananda school site / birthplace of YSS**. Current YSS says Yogananda began his organized school work here on 22 March 1917; living retreat on original land with Smriti Sthal/meditation. It is near Asansol and may be expensive, but the Varanasi–Howrah rail corridor often passes Asansol, so actual marginal corridor burden must be tested before Mark grades it.
 
 Lower-priority queue also includes AOAY institutional geography such as Calcutta University / Scottish Church College: first determine whether Mark already saw/rejected each versus silent disappearance. Do not auto-add.
 
+Potential Lahiri Mahasaya birth/early-life candidates such as Ghurni remain under identity/physical-survival verification and are **not yet promoted to confirmed OPEN misses**.
+
 `V4_BLOCKED_UNTIL_HIGH_PRIORITY_CLASSIFICATION_GAPS_TRIAGED = YES`.
 
-## LIVE LEDGER REPAIR STATUS
+## LIVE LEDGER COMPLETENESS — STILL NOT MECHANICALLY COMPLETE
 
-The prior six B-row omission defect is repaired. The live ledger now retains A+/A/A*/B/C/Open entities as living memory where recovered.
+The six Sep-13 B-row omission is repaired, and current/new Serampore + recovered OPEN candidates are materialized. However a wider comparison against current decision material shows that older/current B/C/Open decisions are still not comprehensively represented in the live CSV.
 
-Current material post-freeze truth also includes:
+Confirmed examples still absent include:
+- Delhi B reserves such as Qutb Minar, Hauz Khas Village, Humayun's Tomb, Sunder Nursery, Garden of Five Senses, Lodhi Garden and Red Fort;
+- Delhi OPEN items such as Jama Masjid / astrology-interest surfaces;
+- Tiruvannamalai B reserves such as Mango Tree Cave and Pachaiamman Temple;
+- many explicit C/current-trip-reject items preserved in decision history.
+
+This is a memory-model defect, not permission to schedule those places. A complete living ledger must distinguish `B/C/OPEN` from `never existed`.
+
+Owner:
+`research/LIVE_LEDGER_COMPLETENESS_AUDIT_2026-09-13.md`.
+
+`LIVE_LEDGER_MECHANICALLY_COMPLETE = NO`.
+`V4_LEDGER_GATE = BLOCKED`.
+
+## MATERIAL POST-FREEZE TRUTH
+
+Current live truth includes at least:
 - A003 Hanuman Garhi + Maharajji-kuti = A+.
 - A006 Dhokaney = conditional A*.
+- A008 Babaji Smriti Bhavan = A, with repaired meditation/initiation meaning.
 - A013/A014/A015 Agra foods = B opportunistic.
 - Haidakhan local-Kailash summit = A, separate physical entity, on-site conditional.
 - Sujata milk-offering spot / Temple / banyan = A+.
@@ -185,7 +210,7 @@ Puri/Odisha; Vrindavan/Braj/Mathura/Govardhan; Haridwar-Kankhal-Rishikesh dedica
 
 `Kumaon -> Delhi transit bed -> Agra/Taj -> 12988 -> Bodh Gaya -> Varanasi/Sarnath -> Kolkata/Dakshineswar + Serampore -> Tiruvannamalai -> Chennai airport-side -> final Delhi -> AI155`
 
-`GLOBAL_REOPTIMIZATION_REQUIRED = NO` for now. First solve local Kolkata/Hooghly content/time after classification. Only a material later result can trigger a global solve.
+`GLOBAL_REOPTIMIZATION_REQUIRED = NO` for now. First clear classification/content and local Kolkata/Hooghly burden. Only a material later result can trigger a global solve.
 
 ## BODH EXECUTION — RETAINED, NOT CURRENT FIRST QUESTION
 
@@ -199,7 +224,7 @@ Do not redo existence research or invent descent beyond Stupa 7.
 Do not call v3 final and do not generate final v4 until:
 - current item/grade review is stable;
 - classification-regression high-priority gaps are Mark-triaged;
-- complete live ledger retains all recovered grades/statuses;
+- full grade/status ledger reconciliation has materialized current B/C/Open as well as A+/A/A*;
 - latest grade/card overlays are materialized;
 - Serampore/Kolkata geometry has exact marginal-time fields where neighbors are assigned;
 - still-genuine duration choices are then resolved;
