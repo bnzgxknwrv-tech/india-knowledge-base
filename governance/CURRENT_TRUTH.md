@@ -19,17 +19,17 @@ If something in this file conflicts with an older file, **this file wins**, unle
 - Exactly 33 India nights: 19 Dec – 20 Jan.
 - Exactly one final Delhi hotel night, 20 Jan, right before the return flight.
 - Train preferred where practical (target 1st AC); flight only for real time savings; private car in the mountains; no long-distance bus.
-- No bookings made yet anywhere.
+- No trip bookings made yet. Some research/access contacts already exist, including Turiya Niwas host Harshit Karki.
 
 ## THE 33-NIGHT SKELETON (locked structure; exact train/flight times still to reconfirm closer to the date)
 
 | # | Date | Where | Note |
 |---:|---|---|---|
-| 1 | Sat 19 Dec | train to Kathgodam | after AI156 arrival |
+| 1 | Sat 19 Dec | train to Kathgodam | after AI156 arrival; **Hotel New Frontier remains the locked Day-1 Delhi base before the night train** |
 | 2 | Sun 20 Dec | Nainital / Hotel Evelyn | arrival day |
-| 3 | Mon 21 Dec | Nainital | **see Kumaon section — open question about content** |
+| 3 | Mon 21 Dec | Nainital | dedicated Crank's Ridge / Govinda immersion day; **Grot Vivekananda is NOT on this day** |
 | 4 | Tue 22 Dec | Nainital | Kainchi Dham + Bhumiadhar |
-| 5 | Wed 23 Dec | Dunagiri/Kukuchina | transfer day — **see Kumaon section — open question about content** |
+| 5 | Wed 23 Dec | Dunagiri/Kukuchina | transfer via **Kakrighat/Jnana Vriksha [A+] + Grot Vivekananda/Kasar Devi Cave [A+]** |
 | 6 | Thu 24 Dec | Dunagiri/Kukuchina | Babaji's Cave mountain-presence day |
 | 7 | Fri 25 Dec | Dunagiri/Kukuchina | YSS Dwarahat day |
 | 8 | Sat 26 Dec | Haidakhan Vishwa Mahadham | arrival |
@@ -58,18 +58,19 @@ If something in this file conflicts with an older file, **this file wins**, unle
 
 **Graded (A+/A*/A):** Kainchi Dham [A+], Hanuman Garhi + Maharajji-kuti [A+], Mahavatar Babaji's Cave [A+], Haidakhan Vishwa Mahadham [A+], YSS Dwarahat [A], Dhokaney waterfall [conditional A*], Kakrighat/Jnana Vriksha [A+], Grot Vivekananda/Kasar Devi Cave [A+], Turiya Niwas/Sunyata's hermit house [A*], Haidakhan local-Kailash [A].
 
-**⚠️ OPEN — NEEDS MARK'S DIRECT CONFIRMATION: where does Grot Vivekananda go, 21 or 23 December?**
-- Mark's own explicit decision on 13 Sep put Grot Vivekananda + Kakrighat together on 23 Dec, with a required reading (Vivekananda's "Macrocosm and Microcosm," Complete Works Vol. 9) and one dedicated driver for the whole day (`decisions/INDIA20_DEC23_24_KUMAON_VIVEKANANDA_TRANSIT_AND_BABAJI_DAY_MARK_DECISION_2026-09-13.md`).
-- On 14 Sep, WORK's objective solve recommended moving Grot to a new dedicated 21-Dec ridge day instead (`runs/active/WORK_KUMAON_CRANKS_RIDGE_GOVINDA_FINAL_BASE_CORRIDOR_SOLVE_2026-09-14.md`), reasoning that combining Grot + the new Crank's Ridge/Govinda content on 23 Dec would overload that transfer day (12–14h, dark arrival).
-- Mark then challenged that move, and CCI's marginal-driving check (PR #23 comment) concluded the opposite: keeping Grot on 23 Dec costs only ~1.5–2.25h extra there, while removing it from 21 Dec only saves ~1–1.25h on a day that stays long anyway (the ridge/Govinda drive itself is the big cost, not Grot) — so the recommendation was **move Grot back to 23 Dec**.
-- **Neither the WORK move nor CCI's push-back is a locked decision.** Mark needs to say plainly which he wants. Nothing else about 21/23 Dec content depends on this — it only decides which day Grot sits in.
+**LOCKED BY MARK 2026-09-14 — Grot Vivekananda goes on 23 December.**
+- Mark explicitly closed the former 21-vs-23 question with: **"23 ok"**.
+- Binding decision record: `decisions/INDIA22_GROT_VIVEKANANDA_23_DEC_MARK_DECISION_2026-09-14.md`.
+- **21 Dec:** dedicated Hotel Evelyn → Crank's Ridge / Govinda world → Hotel Evelyn immersion day, without Grot Vivekananda. This protects more ridge quiet and reduces day load.
+- **23 Dec:** Hotel Evelyn → **Kakrighat / Swami Vivekananda Jnana Vriksha [A+]** → **Grot Vivekananda / Kasar Devi Cave [A+]** → Dunagiri Retreat primary. Preserve the Kakrighat recognition hook: Vivekananda's microcosm–macrocosm realization and the reading cue to *Complete Works*, Vol. 9, `Macrocosm and Microcosm`.
+- Do not reopen this placement through later routing optimization unless Mark explicitly asks to reconsider it.
 
 **Crank's Ridge / Govinda world (new this week, from Mark directly):**
 - Jageshwar Dham is **removed from active planning** — Mark doesn't want it included.
 - **Turiya Niwas = A\***, but only if it adds essentially zero detour — not worth a special trip on its own.
 - **Crank's Ridge / Hippie Hill** — Mark actively wants to go; its reputation as a spiritually-charged landscape and 1960s/70s seeker history matter to him in their own right, not just as a container for other sites.
 - **Lama Govinda's world** — Mark actively wants this, conditional on identifying and visiting the actual historic place. Current best target found: **Evam Choskhorling Monastery / Drikung Kagyu Meditation Centre**, Kasar Devi (on Govinda's historic estate, transferred to the Drikung lineage in the 1970s). Govinda's original house / exact Ram Dass meeting room has **not** been proven to survive — don't call any current building "Govinda's house."
-- No extra luggage move / hotel change for any of this — either a day trip from Hotel Evelyn, or folded into the 23-Dec transfer.
+- No extra luggage move / hotel change for any of this — 21 Dec remains a day trip from Hotel Evelyn.
 
 **Before booking, still needs real-world confirmation (not more desk research):**
 1. Direct permission from Evam Choskhorling / Drikung Kagyu Meditation Centre to visit — a map "open" listing is not enough; one visitor report said it's normally closed except for events.
@@ -123,15 +124,14 @@ If something in this file conflicts with an older file, **this file wins**, unle
 
 ## OPEN DECISIONS — THE FULL LIST
 
-1. Grot Vivekananda: 21 or 23 December? (see Kumaon section — needs Mark's word)
-2. Bodh Gaya 2 vs 3 nights / Tiruvannamalai 5 vs 4 nights trade-off.
-3. Evam Choskhorling visit permission (Kumaon).
-4. Turiya Niwas host confirmation of identity + short visit (Kumaon).
-5. Local guide confirmation of a safe December ridge walk (Kumaon).
-6. J.C. Bose site identity (Kolkata).
-7. Lala Badri Shah House — not yet presented to Mark for a grade (Kumaon).
-8. Jama Masjid and the astrologer/Jyotish visit — ungraded.
-9. No bookings/contact made anywhere yet — that phase hasn't started.
+1. Bodh Gaya 2 vs 3 nights / Tiruvannamalai 5 vs 4 nights trade-off.
+2. Evam Choskhorling visit permission (Kumaon).
+3. Turiya Niwas host confirmation of identity + short visit (Kumaon).
+4. Local guide confirmation of a safe December ridge walk (Kumaon).
+5. J.C. Bose site identity (Kolkata).
+6. Lala Badri Shah House — not yet presented to Mark for a grade (Kumaon).
+7. Jama Masjid and the astrologer/Jyotish visit — ungraded.
+8. Trip booking phase has not started yet.
 
 ## PROJECT-LEVEL AGREEMENTS (2026-09-14)
 
