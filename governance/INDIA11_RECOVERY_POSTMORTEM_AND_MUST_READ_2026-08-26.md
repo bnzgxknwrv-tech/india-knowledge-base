@@ -1,8 +1,8 @@
 # INDIA11 RECOVERY POSTMORTEM + MUST-READ FAILURE GUARDS — 2026-08-26
 
-Status: HARD / MUST READ FOR NEXT INDIA SUCCESSOR UNTIL EXPLICITLY RETIRED
+Status: **RETIRED 2026-09-14** — no longer boot-mandatory. Found during a repo-wide orphan-scan (governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md FOUT 24 step 0) still self-declaring "MUST READ UNTIL EXPLICITLY RETIRED" while absent from `governance/BOOT_MANIFEST_V8.json` since at least the V8 manifest generation — exactly the silent-orphan failure class this retirement closes. Its case-specific content (Braj/Vrindavan drift, question-vs-decision confusion, A+/A cluster semantics) is generalized into `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` FOUT 8/10/11, and Braj/Vrindavan itself is now FINAL OUT. Kept for historical provenance only; do not add back to the manifest without a fresh reason.
 Scope: concrete regie failures observed during INDIA11 takeover and fixed-core/Kumaon continuation.
-Purpose: prevent INDIA12+ from repeating mistakes that forced Mark to reconstruct prior work and decisions.
+Purpose (historical): prevent INDIA12+ from repeating mistakes that forced Mark to reconstruct prior work and decisions.
 
 ## 1. ROOT-CAUSE VERDICT — PROMPT VS EXECUTION
 The INDIA11 takeover prompt was a LIGHT successor prompt. It explicitly told INDIA to start with README, CURRENT_STATE, protected baseline, then only current task/output files and recent unprocessed PR #23 material, with no routine full-repo reread unless a real contradiction or provenance gap appeared.

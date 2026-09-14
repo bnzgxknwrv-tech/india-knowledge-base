@@ -1,8 +1,8 @@
 # INDIA SUCCESSOR ZERO-LOSS HANDOFF — 2026-09-09
 
-Status: **CURRENT / CRASH-SAFE / READ BEFORE OLDER CALENDAR FILES**
+Status: **SUPERSEDED 2026-09-14 by `governance/SUCCESSOR_SAFE_STATE.md`** (same crash-safe-checkpoint role, newer, already boot-mandatory). Found still self-declaring CURRENT/boot-relevant during a repo-wide orphan-scan while absent from `governance/BOOT_MANIFEST_V8.json` — kept for historical provenance only, not required reading.
 Branch: `agent/india8-cluster-casting`
-Purpose: a successor must be able to continue without asking Mark to reconstruct what happened in chat.
+Purpose (historical): a successor must be able to continue without asking Mark to reconstruct what happened in chat.
 
 ## 0. PRECEDENCE — READ THIS FIRST
 
