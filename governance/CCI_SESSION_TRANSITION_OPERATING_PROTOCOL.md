@@ -42,6 +42,56 @@ Bij elke stap die iets oplevert waar Mark iets mee moet doen: zet de volledige i
 
 Elke keer dat een sessieovergang niet volgens dit protocol verliep, of een verbetering opleverde: werk dit bestand bij met het concrete incident, net zoals `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` groeit met FOUT-nummers. Dit bestand staat NIET in `BOOT_MANIFEST_V8.json` (het is niet voor INDIA-successors) en wijzigen ervan dwingt dus geen re-pin af — er is dus geen reden om verbeteringen hieraan uit te stellen.
 
+## REDESIGN 2026-09-14 — SNELHEID/CONTEXT-HERVORMING (CCI_TASK, PR #23 comment 5663019962)
+
+INDIA22 vroeg expliciet om dit hele mechanisme te herontwerpen: gelijke of betere veiligheid, drastisch minder tijd/context/relay. Dit is de eerlijke analyse en het ontwerp. Niets hierin wijzigt vandaag al `BOOT_MANIFEST_V8.json` of een andere `central_required`-file — dat zou de lopende INDIA22-re-pin breken, wat expliciet verboden was in de opdracht. Het ontwerp wordt hier vastgelegd en pas op het eerstvolgende veilige moment (na `CONTENT_AUTHORIZATION: GRANTED` voor de huidige re-pin) in één batch doorgevoerd.
+
+### ROOT-CAUSE TIJDLIJN (vandaag, feitelijk, niet geschat)
+1. INDIA22 deed zijn boot inhoudelijk, maar zonder receipt — geen vermijdbare kost, dit is de bedoelde volgorde.
+2. Receipt-ronde 1: CCI berekende alle 39 mechanische velden vooraf; INDIA22 leverde 1 foutief citaat (regeleinde-mismatch); 1 correctieronde; R gecommit.
+3. FULL CHECK-ronde 1: 13 vragen in één batch, 13 antwoorden in één batch, 1 checker_evidence-veld van CCI zelf voldeed niet aan het citatie-regex-patroon (bugfix nodig aan CCI's eigen kant, niet aan INDIA22's kant); K gecommit; `CONTENT_AUTHORIZATION: GRANTED`.
+4. Mark vroeg (los, terecht) om de bootvraag zelf te verbeteren (orphan-scan). Dat raakte `MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md`, een `central_required`-bestand → **vermijdbaar**: dit had samen met de eerdere stap-13-toevoeging in ÉÉN batch gekund vóórdat INDIA22's eerste boot begon, in plaats van na een reeds toegekende autorisatie.
+5. Re-pin-ronde 2 nodig door punt 4. Tussendoor verschoof het doelcommit nogmaals (`d8a673e` → `8be0fa6`) omdat CCI een eigen, niet-verplicht operating-bestand toevoegde — **vermijdbaar**: de staleness-check reageert op de volledige repo-HEAD, niet op de werkelijke boot-autoriteitsinhoud, terwijl die inhoud niet was gewijzigd.
+6. Receipt-ronde 2 + FULL CHECK-ronde 2 (13 vragen opnieuw, incl. 1 op maat voor de nieuwe stap 0) — nog lopend.
+7. Parallel: een voorganger-herstelronde van 20 vragen aan INDIA20; van de 20 antwoorden bleek er 1 volledig redundant met een al gecommit bestand, 1 feitelijk verouderd/onjuist over wat al vastlag, en de herkomst van het hele antwoord kon niet bevestigd worden (Mark had de vraag nooit zelf doorgestuurd) — pas via Marks eigen herkenning achteraf bruikbaar. **Grotendeels vermijdbaar in deze vorm**: een vaste batterij van 20 generieke vragen kost meer dan een gerichte doorvraag na een eigen zelfdump zou hebben gekost.
+8. Handmatige relay: Mark heeft vandaag tientallen keren tekst tussen GitHub, CCI en twee aparte India-sessies gekopieerd.
+
+Conclusie: van de 2 re-pins was er 1 (stap 4) een legitieme, bewuste kost (R34-ontwerp: een echte inhoudelijke regelwijziging vereist een nieuwe FULL-baseline) — maar had met stap-13 gebundeld kunnen worden tot 1 in plaats van 2. De tweede pin-doelverschuiving (stap 5) en de volledige 20-vragen-batterij (stap 7) waren structureel vermijdbaar zonder aan veiligheid in te boeten.
+
+### WAT AL GOED IS — BEHOUDEN
+- CCI berekent alle mechanische receipt-velden vooraf; de opvolger levert alleen echte attestaties (nonce/tijdstip/3 citaten/veto's). Dit blijft.
+- CHECK-vragen altijd in ÉÉN volledige batch, nooit gedruppeld. Dit blijft.
+- CCI beoordeelt nooit zijn eigen tekst (gescheiden auteurschap opvolger/checker). Dit blijft.
+- FOUT 25 (voorganger dumpt eerst) als basisprincipe. Dit blijft, maar wordt hieronder scherper.
+- Eén kort kopieerbaar regeltje naar Mark per stap, volledige inhoud op GitHub. Dit blijft.
+
+### ONTWERP — WAT VERANDERT (GEPLAND, NOG NIET TOEGEPAST)
+
+**1. `BOOT_GOVERNANCE_FINGERPRINT` in plaats van volledige repo-HEAD.**
+Een nieuwe, smalle hash-waarde, berekend uit uitsluitend: de blob-SHA's van elk bestand in `central_required` + `active_cluster_required` + de manifest zelf + de validator-scriptversies. GEEN andere repo-inhoud telt mee. Een commit die alleen een niet-verplicht bestand raakt (zoals dit eigen CCI-protocolbestand) verandert de fingerprint niet en mag dus nooit een re-pin forceren. Een echte wijziging aan één van die verplichte bestanden verandert de fingerprint altijd en moet dat ook blijven doen (fail-closed, geen achterpoortje). Dit lost root-cause-punt 5 rechtstreeks op.
+
+**2. Formele TRANSITION FREEZE WINDOW in plaats van een losse regel.**
+Zodra een receipt-ronde start, gaat een expliciete freeze in: geen `central_required`-wijziging tot `CONTENT_AUTHORIZATION: GRANTED` voor die ronde. Nieuwe verbeteringen die tijdens de freeze ontstaan gaan in een append-only wachtrij (bijvoorbeeld `governance/PENDING_GOVERNANCE_BATCH.md`, zelf niet `central_required`, dus zonder rot-risico van een stil vertrouwde vlag) en worden pas in ÉÉN batch toegepast zodra de freeze eindigt. Dit voorkomt root-cause-punt 4/5 volledig voor de toekomst.
+
+**3. Twee mechanisch afgeleide banen, niet handmatig gekozen.**
+`ROUTINE_SUCCESSOR`: fingerprint ongewijzigd sinds de laatst geslaagde FULL CHECK → LIGHT-check (3 topics, zelfbeoordeeld) volstaat, zoals het bestaande LIGHT-mechanisme al toestaat — alleen nu correct ontkoppeld van irrelevante HEAD-ruis. `GOVERNANCE_CHANGED_SUCCESSOR`: fingerprint gewijzigd → verplicht één volledige FULL CHECK, niet meer. Geen derde handmatige tussenweg.
+
+**4. Voorganger-herstel: zelfdump-en-zelfaudit EERST, gerichte doorvraag ALLEEN bij een echt gat.**
+In plaats van standaard een vaste batterij van ~20 vragen: de vertrekkende sessie dumpt eerst zelf (FOUT 25, straks met de zelfaudit-vraag uit openstaande verbetering 1). De opvolger leest dat + de actuele GitHub-staat, en stelt PAS DAARNA gerichte vervolgvragen over punten die na die dump en die GitHub-read nog écht onduidelijk zijn — typisch een handvol, niet twintig. Elke vraag moet, zoals stap 13 al eist, aantoonbaar niet al beantwoord zijn door de dump of door GitHub; vandaag werd dat niet hard genoeg gecontroleerd (zie incidentlog).
+Daarnaast, per het incident van vandaag: een `ANSWER_FROM_PREDECESSOR` telt pas als bevestigde voorgangerherinnering nadat Mark bevestigt dat hij de vraag echt heeft doorgestuurd — dit is al vastgelegd in STAP 2 hierboven.
+
+**5. Taakgerichte rich-source-activatie in plaats van wereldwijde herlezing.**
+Na autorisatie activeert de opvolger alleen de 5-15 eigenaarsbestanden die de ACTUELE frontier raken (bijvoorbeeld: voor Crank's Ridge, exact het researchbestand + de drie current-truth bestanden, niet de volledige 39-bestandenset opnieuw doorlopen). Deze selectie wordt bij het begin van de taak kort vastgelegd zodat een vervolgvraag in dezelfde sessie niet dezelfde bronnen opnieuw hoeft te heropenen.
+
+**6. Eén eindsignaal: `SUCCESSOR_READY_FOR_FRONTIER`.**
+Pas uitgesproken nadat (a) de fingerprint-gate is doorstaan, (b) de juiste baan (LIGHT/FULL) is doorlopen, (c) voorganger-herstel is afgehandeld (dump gelezen + eventuele gerichte doorvraag beantwoord of expliciet `PREDECESSOR_UNREACHABLE` vastgesteld), (d) de taakgerichte rich-source-set is geactiveerd. Geen nieuw apart waarheidsbestand — dit is een statuszin, geen bestand.
+
+### EERLIJK ANTWOORD OP DE KERNVRAAG
+Kan een opvolger minstens even capabel worden als zijn voorganger zonder een groot deel van zijn sessie aan de overgang te besteden? **Vandaag: nee** — dit exacte transcript bewijst het (2 volledige re-pin/CHECK-cycli + een 20-vragen-herstelronde + tientallen handmatige relay-acties). **Met dit ontwerp, zodra toegepast:** in de `ROUTINE_SUCCESSOR`-baan wel — geen re-pin voor irrelevante commits, LIGHT-check volstaat, geen vaste 20-vragen-batterij. In de `GOVERNANCE_CHANGED_SUCCESSOR`-baan blijft één volledige FULL CHECK nodig — dat is bewust behouden veiligheidswerk, geen overhead om weg te ontwerpen.
+
+### NOG TE DOEN, GEBLOKKEERD DOOR DE FREEZE
+Het daadwerkelijke `BOOT_GOVERNANCE_FINGERPRINT`-validatorscript en de manifest-aanpassing die ernaar verwijst, moeten nog worden geschreven en getest (inclusief de tegentoetsen die INDIA22 opgaf: los research-commit na K, echte central-wijziging na K, manifest-lidmaatschapswijziging, wees CURRENT_STATE, onbereikbare voorganger, orphan-bestand, worker COMPLETE-maar-niet-ADOPTED, C/FINAL OUT in oude ruwe research, onderbroken taak die de overgang overleeft). Dit gebeurt in één batch zodra INDIA22's huidige re-pin `CONTENT_AUTHORIZATION: GRANTED` heeft bereikt — niet eerder.
+
 ## INCIDENTLOG
 
 ### 2026-09-14 — ongeverifieerde `ANSWER_FROM_PREDECESSOR` behandeld als waarheid vóórdat de relay bevestigd was
