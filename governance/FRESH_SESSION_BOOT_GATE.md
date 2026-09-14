@@ -1,5 +1,7 @@
 # INDIA FRESH-SESSION BOOT GATE
 
+**SLIMMED 2026-09-14 — the mandatory reading list below is now short.** `governance/BOOT_MANIFEST_V8.json`'s `central_required` is down to 7 files: this gate, `governance/INDIA_MASTER_BOOT.md`, `governance/CURRENT_TRUTH.md`, `governance/CURRENT_FRONTIER.md`, `governance/HOW_TO_WORK_WITH_MARK.md`, `governance/GUARDRAILS.md`, `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md`. Read those seven, then the receipt/CHECK/authorization mechanics below still apply exactly as written — only WHAT you read got smaller, not the safety mechanism itself. Everything this used to force you to read (the old 19-file central set, the old active-cluster pack) is unchanged on disk and stays available on demand; see `governance/ARCHIVE_INDEX.md`.
+
 Status: **HARD / PRE-CONTENT / ALL FUTURE INDIA SUCCESSORS — V8.3 READ+COMPILE HARDENING**
 Effective: 2026-09-02
 Branch: `agent/india8-cluster-casting`

@@ -1,5 +1,7 @@
 # INDIA MAP / COORDINATE VERIFICATION RULE
 
+**NO LONGER REQUIRED READING 2026-09-14** — condensed into `governance/GUARDRAILS.md` as part of the successor-boot slimming (PR #23). Kept here as full archive/evidence with all original reasoning and examples; consult it only if `governance/GUARDRAILS.md` is unclear or contested for something this file covers.
+
 Status: **HARD / UNIVERSAL / ALL INDIA GEOMETRY / ALL SUCCESSORS**
 Effective: 2026-08-29
 Hardened: 2026-08-29 — FIT-FOR-PURPOSE 100% GEO VERIFICATION

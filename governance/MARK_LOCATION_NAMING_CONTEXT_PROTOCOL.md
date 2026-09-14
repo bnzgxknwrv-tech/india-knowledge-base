@@ -1,5 +1,7 @@
 # MARK LOCATION NAMING + GEOGRAPHIC CONTEXT PROTOCOL
 
+**NO LONGER REQUIRED READING 2026-09-14** — condensed into `governance/HOW_TO_WORK_WITH_MARK.md` as part of the successor-boot slimming (PR #23). Kept here as full archive/evidence with all original reasoning and examples; consult it only if `governance/HOW_TO_WORK_WITH_MARK.md` is unclear or contested for something this file covers.
+
 Status: **HARD / UNIVERSAL / ALL INDIA CHATS / ALL USER-FACING LOCATION OUTPUT**
 Effective: 2026-08-28
 Authority: newest explicit Mark presentation requirement.

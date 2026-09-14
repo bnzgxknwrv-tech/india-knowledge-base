@@ -1,5 +1,7 @@
 # MARK INDIA PACKING LIST — CURRENT
 
+**Canonical packing list 2026-09-14** — `governance/MARK_PACKING_LIST_CURRENT.md` was an independent duplicate of this file (found during the successor-boot slimming, PR #23) and now points here. Add future items to this file.
+
 Status: **CURRENT / GROWING LIST**
 Updated: 2026-08-29
 

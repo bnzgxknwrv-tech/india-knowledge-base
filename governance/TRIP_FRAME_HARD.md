@@ -1,5 +1,7 @@
 # INDIA TRIP FRAME — HARD IMMUTABLE ENVELOPE
 
+**NO LONGER REQUIRED READING 2026-09-14** — condensed into `governance/CURRENT_TRUTH.md` as part of the successor-boot slimming (PR #23). Kept here as full archive/evidence with all original reasoning and examples; consult it only if `governance/CURRENT_TRUTH.md` is unclear or contested for something this file covers.
+
 Status: HARD CURRENT TRIP FRAME
 Updated: 2026-08-28
 Branch: `agent/india8-cluster-casting`

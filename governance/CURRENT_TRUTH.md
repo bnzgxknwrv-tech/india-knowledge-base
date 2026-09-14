@@ -150,6 +150,8 @@ If something in this file conflicts with an older file, **this file wins**, unle
 
 ## WHERE TO LOOK FOR MORE DEPTH (only when needed)
 
+- What's archived where, and what NOT to re-read by default: `governance/ARCHIVE_INDEX.md`
+- How this repository is laid out, in plain language: `governance/REPOSITORY_ARCHITECTURE.md`
 - Why Mark feels the way he does about places/pace/comfort: `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md`
 - Full decision history, one event per entry: `governance/DECISION_LEDGER.jsonl`
 - Individual dated decisions: `decisions/`

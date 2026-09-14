@@ -1,5 +1,7 @@
 # INDIA ACTIVE MEMORY COMPILATION GATE — READ IS NOT ENOUGH
 
+**NO LONGER REQUIRED READING 2026-09-14** — condensed into `governance/GUARDRAILS.md` as part of the successor-boot slimming (PR #23). Kept here as full archive/evidence with all original reasoning and examples; consult it only if `governance/GUARDRAILS.md` is unclear or contested for something this file covers.
+
 Status: **HARD / PRE-CONTENT / ALL SUCCESSORS / ACTIVE WORKING MEMORY**
 Effective: 2026-09-02
 Branch: `agent/india8-cluster-casting`

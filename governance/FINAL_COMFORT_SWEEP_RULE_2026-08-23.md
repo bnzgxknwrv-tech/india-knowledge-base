@@ -1,5 +1,7 @@
 # FINAL COMFORT SWEEP — HARD TRAVEL PHASE
 
+**NO LONGER REQUIRED READING 2026-09-14** — condensed into `governance/GUARDRAILS.md` as part of the successor-boot slimming (PR #23). Kept here as full archive/evidence with all original reasoning and examples; consult it only if `governance/GUARDRAILS.md` is unclear or contested for something this file covers.
+
 Date: 2026-08-23
 Hardened: 2026-08-29
 Status: MANDATORY AFTER ROUTE / NIGHTS / DAY STRUCTURE ARE STABLE

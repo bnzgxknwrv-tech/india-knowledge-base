@@ -1,5 +1,7 @@
 # EXACT DELEGATION BINDING RULE
 
+**NO LONGER REQUIRED READING 2026-09-14** — condensed into `governance/GUARDRAILS.md` section 4 as part of the successor-boot slimming (PR #23). Kept here as full archive/evidence with the complete field list, forbidden phrases and pre-answer test; consult it if `GUARDRAILS.md` is unclear about a specific CCI/WORK delegation.
+
 Status: **HARD / SUCCESSOR-REQUIRED / CCI-WORK DISPATCH SAFETY**
 Effective: 2026-09-11
 Owner: Mark / INDIA regie
