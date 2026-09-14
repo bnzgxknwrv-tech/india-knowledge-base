@@ -1,5 +1,7 @@
 # CURRENT STATE — INDIA
 
+**DEPRECATED 2026-09-14 — read `governance/CURRENT_TRUTH.md` instead.** This file is kept as archive/evidence only, per the 2026-09-14 consolidation agreement between Mark, INDIA22 and CCI (PR #23). Do not treat it as the operational reference going forward.
+
 state_revision: `2026-09-14_KUMAON_CRANKS_RIDGE_GOVINDA_FINAL_BASE_CORRIDOR_SOLVED`
 branch: `agent/india8-cluster-casting`
 status: `RIDGE_IDENTITY_GEOMETRY_SOLVED__ACCESS_CONFIRMATION_NEXT__NO_BOOKING_YET`

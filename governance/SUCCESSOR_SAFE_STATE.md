@@ -1,5 +1,7 @@
 # INDIA SUCCESSOR SAFE STATE — CRASH-SAFE HANDOFF CHECKPOINT
 
+**DEPRECATED 2026-09-14 — read `governance/CURRENT_TRUTH.md` instead.** This file is kept as archive/evidence only, per the 2026-09-14 consolidation agreement between Mark, INDIA22 and CCI (PR #23). Do not treat it as the operational reference going forward.
+
 STATUS: SAFE_TO_HANDOFF
 Date: 2026-09-14
 Branch: `agent/india8-cluster-casting`

@@ -1,5 +1,7 @@
 # INDIA CURRENT DECISIONS MASTER — MATERIALIZED CURRENT TRUTH
 
+**DEPRECATED 2026-09-14 — read `governance/CURRENT_TRUTH.md` instead.** This file is kept as archive/evidence only, per the 2026-09-14 consolidation agreement between Mark, INDIA22 and CCI (PR #23). Do not treat it as the operational reference going forward.
+
 Status: **CURRENT / ALWAYS READ / DERIVED VIEW**
 Updated: 2026-09-14
 Branch: `agent/india8-cluster-casting`
