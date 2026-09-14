@@ -91,6 +91,19 @@ Kan een opvolger minstens even capabel worden als zijn voorganger zonder een gro
 
 ### NOG TE DOEN, GEBLOKKEERD DOOR DE FREEZE
 Het daadwerkelijke `BOOT_GOVERNANCE_FINGERPRINT`-validatorscript en de manifest-aanpassing die ernaar verwijst, moeten nog worden geschreven en getest (inclusief de tegentoetsen die INDIA22 opgaf: los research-commit na K, echte central-wijziging na K, manifest-lidmaatschapswijziging, wees CURRENT_STATE, onbereikbare voorganger, orphan-bestand, worker COMPLETE-maar-niet-ADOPTED, C/FINAL OUT in oude ruwe research, onderbroken taak die de overgang overleeft). Dit gebeurt in één batch zodra INDIA22's huidige re-pin `CONTENT_AUTHORIZATION: GRANTED` heeft bereikt — niet eerder.
+**Update:** `governance/scripts/boot_governance_fingerprint.py` is inmiddels geschreven en zelfstandig getest tegen echte geschiedenis (commits `a6470a8`, `45a45ba`) — nog NIET ingebouwd in de live validators; die inbouwstap blijft geblokkeerd door de freeze.
+
+### ORCHESTRATOR_MODE — GEQUEUEDE OPVOLGERREGEL (CCI_TASK_ADDENDUM, PR #23 comment 5663476998)
+Mark's aanvullende eis: INDIA is primair regisseur/beslisser, geen bulk-onderzoeker. Zware taken (repo-brede audits, lange documentreads, mechanische validatie, research) horen gedelegeerd te worden aan CCI/een aparte worker wanneer dat lossless kan, in plaats van de volledige ruwe output in het INDIA-gesprek te laden. Dit raakt uiteindelijk `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` (`central_required`) en wordt daarom, zoals expliciet geëist, NIET nu toegepast maar hier ontworpen en gequeued tot na de huidige re-pin:
+
+- **CONTEXT_BUDGET-regel**: geen hele PR-threads, hele lange bestanden of repo-brede zoekresultaten in het levende INDIA-gesprek laden als een gerichte fetch/zoekopdracht/precompiled pakket volstaat.
+- **MUST_THIS_RUN_IN_ORCHESTRATOR_CHAT?-poort**: vóór elke actie die waarschijnlijk grote tool-output genereert, expliciet toetsen; zo niet noodzakelijk voor het live gesprek/Marks voorkeur zelf, delegeren.
+- **Vast worker-resultaatcontract**: `WHAT_FOUND`, `WHY_IT_MATTERS`, `CURRENT_TRUTH_CHANGE?`, `EXACT_SOURCE_PATHS`, `OPEN_UNCERTAINTY`, `NEXT_ACTION` — ruwe evidence blijft op GitHub tenzij INDIA het letterlijk nodig heeft.
+- **Boot activeert alleen de taakgerichte rich-source-laag** (zie punt 5 van het REDESIGN hierboven), nooit de hele repository, en CCI berekent zoveel mogelijk mechanisch vooraf (al bestaand principe, hier bevestigd als harde regel).
+- **Overgang draagt een compact actief-frontier-pakket over, geen transcript-equivalente replay** van de voorganger — voorganger-levendgeheugenherstel blijft verplicht, maar alleen echt nieuwe chat-only deltas worden gepromoveerd (sluit aan bij de al bestaande zelfdump-eerst-hervorming hierboven).
+- **Expliciet doel**: de bruikbare levensduur van de INDIA-regisseursessie maximaliseren — een opvolger mag geen substantieel deel van zijn eigen bruikbare context verbruiken aan alleen maar de voorganger opnieuw worden.
+
+Dit wordt, samen met de fingerprint-inbouw, in ÉÉN batch verwerkt in `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` zodra INDIA22's huidige re-pin `CONTENT_AUTHORIZATION: GRANTED` heeft — niet eerder, en niet los van elkaar (dat zou weer twee re-pins in plaats van één betekenen, exact de fout van vandaag).
 
 ## INCIDENTLOG
 
