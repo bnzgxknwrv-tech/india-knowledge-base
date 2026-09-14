@@ -17,7 +17,7 @@ What's actually happening now: walking through the already-locked A/A+ places **
 
 ## LIVE WORK IN PROGRESS — DO NOT DUPLICATE
 
-**Kumaon 20–23 December sleep-base/timing solve** was running separately as a WORK task (PR #23 comment `5670452609`); its result has now landed at `runs/active/WORK_KUMAON_20_23_DEC_FINAL_SLEEPBASE_WINTER_ROAD_REALITY_SOLVE_2026-09-14.md` but has **not yet been folded into `governance/CURRENT_TRUTH.md`** — that content-integration step is separate from this structural pass and still needs doing. Whoever does it: update `CURRENT_TRUTH.md`'s Kumaon section from that WORK result directly, not from a parallel guess, then remove this note.
+**Kumaon 20–23 December sleep-base/timing solve** was running separately as a WORK task (PR #23 comment `5670452609`); its result has now landed at `runs/active/WORK_KUMAON_20_23_DEC_FINAL_SLEEPBASE_WINTER_ROAD_REALITY_SOLVE_2026-09-14.md`. A related follow-on, `runs/active/INDIA8-CLUSTER-CASTING-001/KUMAON_HAIDAKHAN_FULL_CLUSTER_TOPOLOGY_RESOLVE_2026-09-14.md`, has also landed. **Neither has been folded into `governance/CURRENT_TRUTH.md` yet** — that content-integration step is separate from this structural pass and still needs doing. Whoever does it: update `CURRENT_TRUTH.md`'s Kumaon section from those two results directly, not from a parallel guess, then remove this note.
 
 ## REAL OPEN DECISIONS (nothing else counts as open)
 

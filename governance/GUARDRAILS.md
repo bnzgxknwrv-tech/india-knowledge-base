@@ -3,8 +3,7 @@
 Status: **ACTIVE COCKPIT — read this before your first substantive reply**
 Last updated: 2026-09-14
 
-This file condenses the actual hard rules from several older, much longer governance files into one place. The originals stay as archive with their full reasoning, incident history and worked examples — read them only if something here is genuinely unclear or contested:
-`governance/INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md`, `governance/INDIA_ACTIVE_MEMORY_COMPILATION_GATE.md`, `governance/EXACT_DELEGATION_BINDING_RULE.md`, `governance/MAP_COORDINATE_VERIFICATION_RULE.md`, `governance/FINAL_COMFORT_SWEEP_RULE_2026-08-23.md`, `governance/INDIA_HUMAN_CENTERED_COMPLEX_TRIP_PLANNING_STANDARD.md`, `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md`.
+This file condenses the actual hard rules from several older, much longer governance files into one place, as a quick-reference layer, not a replacement. **Update 2026-09-14, same day:** `governance/INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md`, `governance/INDIA_ACTIVE_MEMORY_COMPILATION_GATE.md`, `governance/MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md` and `governance/INDIA_HUMAN_CENTERED_COMPLEX_TRIP_PLANNING_STANDARD.md` were found to lose real behavioral detail when only summarized here, and are back in `BOOT_MANIFEST_V8.json`'s `central_required` — read those four in full, this section is only a refresher. Genuinely still archive/on-demand (read only if this file is unclear or contested): `governance/EXACT_DELEGATION_BINDING_RULE.md`, `governance/MAP_COORDINATE_VERIFICATION_RULE.md`, `governance/FINAL_COMFORT_SWEEP_RULE_2026-08-23.md`. `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` is separately mandatory (see the manifest).
 
 ## 1. AUTHORITY ORDER
 

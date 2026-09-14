@@ -130,11 +130,20 @@ SOURCE_PATH_RE = re.compile(
 # required for this one topic. This verifies citations exist and name real
 # files, not that the cited content is actually reconciled -- that judgment
 # stays a human/semantic layer, not a mechanical one.
+#
+# UPDATED 2026-09-14 (successor-boot slimming, PR #23): the original three
+# sources (CURRENT_STATE.md, CURRENT_DECISIONS_MASTER.md,
+# INDIA_CURRENT_KNOWLEDGE_MAP.md) are no longer in central_required -- they
+# were consolidated into governance/CURRENT_TRUTH.md and
+# governance/CURRENT_FRONTIER.md precisely to remove the multiple-competing-
+# current-state-files problem this topic was built to catch. A checker could
+# otherwise have been asked to cite files the boot no longer requires reading.
+# Repointed at the files that could now actually disagree with each other.
 FRONTIER_CONTRADICTION_CHECK_TOPIC = "FRONTIER_CONTRADICTION_CHECK"
 FRONTIER_CONTRADICTION_REQUIRED_SOURCES = {
-    "governance/CURRENT_STATE.md",
-    "governance/CURRENT_DECISIONS_MASTER.md",
-    "governance/INDIA_CURRENT_KNOWLEDGE_MAP.md",
+    "governance/CURRENT_TRUTH.md",
+    "governance/CURRENT_FRONTIER.md",
+    "governance/HOW_TO_WORK_WITH_MARK.md",
 }
 
 
@@ -171,22 +180,34 @@ def cited_mandatory_paths(text: str, mandatory: set[str], extra: set[str]) -> se
 # ---------------------------------------------------------------------------
 # TWO-TIER CHECK (R34) -- LIGHT-mode helpers. See module docstring.
 # ---------------------------------------------------------------------------
-def deterministic_light_topics(boot_head_final: str, topic_pool, count: int) -> list[str]:
+def deterministic_light_topics(boot_head_final: str, topic_pool, count: int,
+                                always_required=()) -> list[str]:
     """Deterministically select `count` topics from `topic_pool`, seeded
     ONLY by `boot_head_final` -- reproducible by anyone from the pinned
     commit hash alone (BOOT_MANIFEST_V8.json light_check_selection_algorithm),
     so a session cannot pick its own easy topics, but simple enough that the
     topics are not adversarially unpredictable the way a live FULL-check
     session's freshly-authored questions are (an explicit, accepted tradeoff
-    for the routine case -- see light_check_honest_limit)."""
-    remaining = sorted(set(topic_pool))
-    count = min(count, len(remaining))
-    selected: list[str] = []
-    for i in range(count):
+    for the routine case -- see light_check_honest_limit).
+
+    `always_required` (BOOT_MANIFEST_V8.json light_check_always_required_topics,
+    added 2026-09-14 after a confirmed READ_COMPLETE != MARK_WORKING_MODEL_ACTIVE
+    failure) is included first, unconditionally, before the deterministic fill --
+    exactly the algorithm the manifest itself documents: 'always include
+    light_check_always_required_topics first; fill remaining slots
+    deterministically from sorted(set(check_required_challenge_topics) -
+    always_required)'. Previously this field existed only as manifest prose;
+    this function did not read it, so a LIGHT check could silently omit an
+    always-required topic. Fixed here, not just documented."""
+    always = [t for t in sorted(set(always_required)) if t in set(topic_pool)]
+    remaining = sorted(set(topic_pool) - set(always))
+    fill_count = max(0, min(count - len(always), len(remaining)))
+    selected: list[str] = list(always)
+    for i in range(fill_count):
         digest = hashlib.sha256(f"{boot_head_final}:LIGHT_CHECK_TOPIC_SELECT:{i}".encode()).hexdigest()
         idx = int(digest, 16) % len(remaining)
         selected.append(remaining.pop(idx))
-    return selected
+    return selected[:count]
 
 
 def central_blob_map(ref: str, central_paths) -> dict[str, str] | None:
@@ -365,6 +386,7 @@ min_answer_words = manifest.get("check_min_answer_words", 8)
 min_evidence_chars = manifest.get("check_min_evidence_chars", 25)
 check_dir = manifest.get("check_directory", "governance/boot_checks")
 light_challenge_count = manifest.get("light_check_challenge_count", 3)
+light_always_required_topics = manifest.get("light_check_always_required_topics", [])
 check_mode_values = set(manifest.get("check_mode_values", ["FULL", "LIGHT"]))
 
 if not required_topics:
@@ -739,7 +761,9 @@ else:  # LIGHT
     #    by anyone, not chosen freely by the session being tested.
     expected_topics: list[str] = []
     if boot_head_final and re.fullmatch(r"[0-9a-f]{40}", boot_head_final or ""):
-        expected_topics = deterministic_light_topics(boot_head_final, required_topics, light_challenge_count)
+        expected_topics = deterministic_light_topics(boot_head_final, required_topics,
+                                                       light_challenge_count,
+                                                       always_required=light_always_required_topics)
 
     if not isinstance(challenges, list) or len(challenges) != light_challenge_count:
         fail(f"LIGHT check must contain exactly {light_challenge_count} challenges, got "

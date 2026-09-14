@@ -1,6 +1,6 @@
 # INDIA MASTER BOOT — ENIGE OPSTARTINGANG VOOR ALLE INDIA-OPVOLGERS
 
-**SLIMMED 2026-09-14** — `governance/BOOT_MANIFEST_V8.json`'s `central_required` now lists only 7 files (this one, `governance/FRESH_SESSION_BOOT_GATE.md`, `governance/CURRENT_TRUTH.md`, `governance/CURRENT_FRONTIER.md`, `governance/HOW_TO_WORK_WITH_MARK.md`, `governance/GUARDRAILS.md`, `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md`). The mechanics below (receipt/CHECK/`CONTENT_AUTHORIZATION`) are unchanged — only the required reading got smaller. The 19-file 2026-09-02 set this replaces, and the old Bodh-Gaya-specific active-cluster pack, are unchanged on disk as on-demand archive; see `governance/ARCHIVE_INDEX.md`.
+**SLIMMED 2026-09-14, then re-hardened the same day.** `governance/BOOT_MANIFEST_V8.json`'s `central_required` was first cut to 7 files, found too aggressive against Mark's actual working model, and restored to **15 files** — see `governance/FRESH_SESSION_BOOT_GATE.md`'s banner for the exact list, and `governance/HOW_TO_WORK_WITH_MARK.md` (hard-locked; do not re-slim without Mark's explicit approval) for why. The mechanics below (receipt/CHECK/`CONTENT_AUTHORIZATION`) are unchanged, plus the mandatory Mark-working-model active-recall startcheck (`HOW_TO_WORK_WITH_MARK.md` §21) before content authorization. Still far short of the old 19+14-file set, which stays on disk as on-demand archive; see `governance/ARCHIVE_INDEX.md`.
 
 Status: **BINDING / SINGLE BOOT AUTHORITY — V8 MANIFEST-DRIVEN BOOT + APPEND-ONLY RECEIPT + INDEPENDENT CHECK**
 Effective: 2026-08-30

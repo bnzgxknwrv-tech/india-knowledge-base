@@ -1,6 +1,6 @@
 # INDIA BEHAVIORAL EXECUTION CONTRACT — PRE-ANSWER VETO
 
-**NO LONGER REQUIRED READING 2026-09-14** — condensed into `governance/GUARDRAILS.md` as part of the successor-boot slimming (PR #23). Kept here as full archive/evidence with all original reasoning and examples; consult it only if `governance/GUARDRAILS.md` is unclear or contested for something this file covers.
+**BACK IN REQUIRED READING 2026-09-14** — briefly condensed out of the boot into `governance/GUARDRAILS.md` during the successor-boot slimming (PR #23), then restored to `BOOT_MANIFEST_V8.json`'s `central_required` the same day after a confirmed `READ_COMPLETE != MARK_WORKING_MODEL_ACTIVE` failure showed the condensed version lost real behavioral detail. Read this file in full; `governance/GUARDRAILS.md` and `governance/HOW_TO_WORK_WITH_MARK.md` summarize parts of it but do not replace it.
 
 Status: **HARD / UNIVERSAL / ALL INDIA CHATS / EVERY SUBSTANTIVE REPLY**
 Effective: 2026-08-30

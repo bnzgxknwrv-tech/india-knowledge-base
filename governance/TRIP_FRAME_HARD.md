@@ -51,7 +51,10 @@ These are NOT immutable and must be rechecked only when they affect a real booki
 Source provenance: `runs/active/INDIA8-MARK-CLUSTER-DECISIONS-2026-08-20/TRIP_FIXED_FLIGHTS_AND_NIGHTS_2026-08-23.md` plus current Mark profile. This file supersedes the need to recover the hard flight/night frame from any old exact route.
 
 ## PROTECTED CANON INTEGRITY ANCHOR
-`governance/scripts/validate_successor_boot.py` checks this exact blob SHA against `PROTECTED_CANON_BASELINE.csv` to detect a silent mutation. This anchor lives here, not in `CURRENT_STATE.md`, precisely because this file is not rewritten every turn — a rewritten narrative file previously destroyed this same anchor the day after it was added.
+
+**CORRECTION 2026-09-14 (successor-boot slimming, PR #23):** the claim below that `validate_successor_boot.py` mechanically checks this blob SHA is **not true of the current script** — verified by inspection, no such check exists in it today. This was either an aspirational design note that was never implemented, or an enforcement that was later removed without updating this prose. Not fixed by implementing the check in this pass (no evidence anyone still relies on it); flagging honestly rather than either silently implementing new enforcement or silently deleting the claim. Treat the paragraph below as historical intent, not current mechanical fact.
+
+~~`governance/scripts/validate_successor_boot.py` checks this exact blob SHA against `PROTECTED_CANON_BASELINE.csv` to detect a silent mutation.~~ This anchor lives here, not in `CURRENT_STATE.md`, precisely because this file is not rewritten every turn — a rewritten narrative file previously destroyed this same anchor the day after it was added.
 
 Current protected blob (`runs/active/INDIAZILVER-ENTITY-ID-PROXIMITY-BACKFILL-001/PROTECTED_CANON_BASELINE.csv`):
 `a607241caa41637e2167d0f56781bf663f038932`

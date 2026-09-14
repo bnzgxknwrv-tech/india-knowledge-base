@@ -1,6 +1,6 @@
 # MARK LOCATION NAMING + GEOGRAPHIC CONTEXT PROTOCOL
 
-**NO LONGER REQUIRED READING 2026-09-14** — condensed into `governance/HOW_TO_WORK_WITH_MARK.md` as part of the successor-boot slimming (PR #23). Kept here as full archive/evidence with all original reasoning and examples; consult it only if `governance/HOW_TO_WORK_WITH_MARK.md` is unclear or contested for something this file covers.
+**BACK IN REQUIRED READING 2026-09-14** — briefly condensed out of the boot into `governance/HOW_TO_WORK_WITH_MARK.md` during the successor-boot slimming (PR #23), then restored to `BOOT_MANIFEST_V8.json`'s `central_required` the same day after a confirmed `READ_COMPLETE != MARK_WORKING_MODEL_ACTIVE` failure showed the condensed version lost real behavioral detail. Read this file in full; `governance/HOW_TO_WORK_WITH_MARK.md` §5 summarizes it but does not replace it.
 
 Status: **HARD / UNIVERSAL / ALL INDIA CHATS / ALL USER-FACING LOCATION OUTPUT**
 Effective: 2026-08-28
