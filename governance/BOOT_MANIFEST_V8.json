@@ -1,7 +1,7 @@
 {
   "schema_version": "V8",
   "branch": "agent/india8-cluster-casting",
-  "_central_required_note": "Slimmed 2026-09-14 (INDIA22->23 successor boot rebuild, PR #23), down from 19 files to 7. This is now the small active cockpit a fresh successor must read. MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md stays required (unlike the other 18 old entries) because FRESH_SESSION_BOOT_GATE.md's own step-by-step text mechanically depends on rereading it byte-for-byte (its final semantic read, and the R34 rule that a change to it forces a fresh FULL check) -- GUARDRAILS.md condenses its practical content for everyday use, but the file itself remains load-bearing, not just narrative. Everything else this replaced (the rest of the 19-file 2026-09-02 set) stays on disk, unmodified in substance, as on-demand archive/evidence -- see governance/ARCHIVE_INDEX.md. governance/CURRENT_STATE.md and governance/SUCCESSOR_SAFE_STATE.md are intentionally NOT in this list any more (their content is superseded by CURRENT_TRUTH.md/CURRENT_FRONTIER.md) but the files themselves must keep existing with their exact current technical fields (manifest_active_cluster line; STATUS: SAFE_TO_HANDOFF; UNSAVED_RISK: GEEN) because governance/scripts/validate_successor_boot.py checks them directly by hardcoded path, independent of this array.",
+  "_central_required_note": "HARDENED 2026-09-14 after confirmed INDIA22 READ_BUT_NOT_ACTIVE failure. The attempted 7-file slim boot was too aggressive for Mark-working-model parity. The active cockpit now requires 15 files: compact current truth/frontier plus the Mark-specific behavior/presentation/decision sources and active-memory compilation layer. HOW_TO_WORK_WITH_MARK.md is HARD LOCKED and may not be removed/slimmed/deprecated without Mark's explicit approval. This change intentionally invalidates older exact FULL baselines and forces a new FULL successor check.",
   "central_required": [
     "governance/FRESH_SESSION_BOOT_GATE.md",
     "governance/INDIA_MASTER_BOOT.md",
@@ -9,9 +9,17 @@
     "governance/CURRENT_FRONTIER.md",
     "governance/HOW_TO_WORK_WITH_MARK.md",
     "governance/GUARDRAILS.md",
+    "governance/MARK_TRAVEL_PREFERENCES_CURRENT.md",
+    "governance/INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md",
+    "governance/INDIA_ACTIVE_MEMORY_COMPILATION_GATE.md",
+    "governance/MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md",
+    "governance/INDIA_HUMAN_CENTERED_COMPLEX_TRIP_PLANNING_STANDARD.md",
+    "governance/MARK_PERSON_PROVENANCE_PLACE_MEANING_RULE.md",
+    "governance/MARK_FACING_PLACE_CARD_TRAVEL_VALUE_RULE_2026-09-13.md",
+    "governance/MARK_DAY_BLOCK_ONLY_PDF_RULE_2026-09-13.md",
     "governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md"
   ],
-  "_cci_required_note": "Left untouched 2026-09-14 during the successor-boot slimming. validate_successor_boot.py hardcodes exactly 6 cci_required paths -- changing that number requires editing the validator script itself, which was deliberately not risked in that same pass (no local way to exercise the wired GitHub Actions CI). Content-wise this frozen 2026-08-29 harvest is now superseded in practice by governance/CURRENT_TRUTH.md; a fresh successor should trust CURRENT_TRUTH.md over anything here if they ever disagree. Follow-up: someone with CI access should repoint this set (and cci_commit) at current files, or drop the hardcoded ==6 check, deliberately and separately from this pass.",
+  "_cci_required_note": "Left untouched 2026-09-14 during successor-boot work. validate_successor_boot.py currently expects exactly 6 cci_required paths. Frozen CCI material is recovery evidence; newer CURRENT_TRUTH/CURRENT_FRONTIER and explicit Mark truth outrank it when they disagree.",
   "cci_commit": "b5349afe41f98eb4870728aaff2c633899afc1fa",
   "cci_required": [
     "runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUCCESSOR_START_HERE.md",
@@ -21,7 +29,7 @@
     "runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/OPEN_MARK_DECISIONS_ONLY.md",
     "runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/CURRENT_TRAVEL_EXECUTION_CANON.md"
   ],
-  "_active_cluster_required_note": "Slimmed 2026-09-14. The Bodh Gaya duration question is still genuinely open (see governance/CURRENT_FRONTIER.md) but no longer needs its own 14-file mandatory pack -- CURRENT_FRONTIER.md now names every real open item project-wide, including this one. The active_cluster string below is left unchanged on purpose: governance/scripts/validate_successor_boot.py cross-checks it byte-for-byte against governance/CURRENT_STATE.md's `manifest_active_cluster:` line, and that file is kept on disk for exactly that technical reason even though it is no longer required reading.",
+  "_active_cluster_required_note": "CURRENT_FRONTIER.md is the compact active project-wide frontier. Legacy CURRENT_STATE/SUCCESSOR_SAFE_STATE remain on disk because validator code still cross-checks technical fields there, but they are not the human successor cockpit.",
   "active_cluster": "BODHGAYA_EXECUTION_GEOMETRY_TRUE_DURATION",
   "active_cluster_required": [
     "governance/CURRENT_FRONTIER.md"
@@ -30,6 +38,8 @@
   "receipt_directory": "governance/boot_receipts",
   "receipt_ci_workflow": ".github/workflows/india-boot-receipt.yml",
   "independent_check_required_before_content": true,
+  "mark_working_model_startcheck_required": true,
+  "mark_working_model_owner": "governance/HOW_TO_WORK_WITH_MARK.md",
   "check_directory": "governance/boot_checks",
   "check_validator_required_mode": "--check",
   "check_nonce_required": true,
@@ -37,6 +47,7 @@
   "check_relay_preferred": "github_pr23_single_batch_each_direction",
   "check_relay_fallback": "single_copy_paste_batch_each_direction",
   "check_required_challenge_topics": [
+    "MARK_WORKING_MODEL_ACTIVE_RECALL",
     "TRAIN_FIRST_DOOR_TO_DOOR",
     "AL_BESLIST",
     "C_DO_NOT_RE_PRESENT",
@@ -60,7 +71,7 @@
   "final_authorization_ci_workflow": ".github/workflows/india-final-authorization.yml",
   "validator_required_mode": "--require-session-receipt",
   "warnings_are_fatal_in_boot_mode": true,
-  "_R34_proportional_check_tiering_comment": "Added 2026-09-01, R34 (see INDIA_RECOVERY_DELTAS_CURRENT.md). Two CHECK tiers exist: FULL and LIGHT. Tier eligibility is derived live by validate_independent_check.py from exact central_required blob-SHA maps, never from a hand-maintained pointer. Because central_required changes in this consensus patch, the first fresh successor after it cannot reuse the prior FULL baseline and must FULL-check unless a later exact-matching FULL baseline already exists.",
+  "_R34_proportional_check_tiering_comment": "Two CHECK tiers remain. Because central_required changed materially in this hardening patch, the first successor on this exact set requires a fresh FULL check unless an exact prior FULL baseline somehow already matches the complete central blob map. MARK_WORKING_MODEL_ACTIVE_RECALL is mandatory in FULL and is also forced into every LIGHT check by validate_independent_check.py.",
   "check_mode_values": [
     "FULL",
     "LIGHT"
@@ -79,15 +90,18 @@
   "light_check_self_graded": true,
   "light_check_new_quotes_required": false,
   "light_check_challenge_count": 3,
+  "light_check_always_required_topics": [
+    "MARK_WORKING_MODEL_ACTIVE_RECALL"
+  ],
   "light_check_directory": "governance/boot_checks",
   "light_check_topic_pool": "check_required_challenge_topics",
   "light_check_selection_seed_field": "boot_head_final",
-  "light_check_selection_algorithm": "pool = sorted(set(check_required_challenge_topics)); for i in range(light_check_challenge_count): idx = int(sha256(f'{boot_head_final}:LIGHT_CHECK_TOPIC_SELECT:{i}').hexdigest(), 16) % len(pool); selected.append(pool.pop(idx))",
+  "light_check_selection_algorithm": "always include light_check_always_required_topics first; fill remaining slots deterministically from sorted(set(check_required_challenge_topics) - always_required) using sha256(f'{boot_head_final}:LIGHT_CHECK_TOPIC_SELECT:{i}')",
   "light_check_answer_floor_fields": [
     "check_min_answer_chars",
     "check_min_answer_words",
     "check_min_evidence_chars"
   ],
   "light_check_artifact_naming": "same as full check: INDIA<N>_CHECK__<START_NONCE>.json, distinguished by check_mode; same C-R-K commit shape and final-authorization workflow",
-  "light_check_honest_limit": "LIGHT intentionally drops separated-authorship protection: the same session authors question, answer and grade. This is a deliberate cost/rigor tradeoff for governance-identical routine continuations, never a claim of equal strength to FULL."
+  "light_check_honest_limit": "LIGHT intentionally drops separated-authorship protection, but it may never skip the MARK_WORKING_MODEL_ACTIVE_RECALL challenge."
 }
