@@ -52,13 +52,17 @@ MANIFEST_PATH = "governance/BOOT_MANIFEST_V8.json"
 # Validator scripts that participate in the boot/check/authorization chain.
 # Listed explicitly (not glob-discovered) so a stray unrelated future script
 # dropped into this directory can never silently join the fingerprint surface
-# without a deliberate edit here.
+# without a deliberate edit here. Deliberately excludes THIS script itself:
+# self-inclusion would make the fingerprint change the moment this file was
+# first created (a bootstrap artifact, not a real governance-authority
+# change) -- and once this script is actually wired into the live gate, that
+# wiring edit necessarily touches one of the files below anyway, which still
+# correctly flips the fingerprint at that point.
 FINGERPRINT_VALIDATOR_SCRIPTS = [
     "governance/scripts/validate_successor_boot.py",
     "governance/scripts/validate_independent_check.py",
     "governance/scripts/final_authorization.py",
     "governance/scripts/boot_gate.py",
-    "governance/scripts/boot_governance_fingerprint.py",
 ]
 
 
