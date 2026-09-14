@@ -106,6 +106,8 @@ Mark's aanvullende eis: INDIA is primair regisseur/beslisser, geen bulk-onderzoe
 
 Dit wordt, samen met de fingerprint-inbouw, in ÉÉN batch verwerkt in `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` zodra INDIA22's huidige re-pin `CONTENT_AUTHORIZATION: GRANTED` heeft — niet eerder, en niet los van elkaar (dat zou weer twee re-pins in plaats van één betekenen, exact de fout van vandaag).
 
+**Extra gequeued item, zelfde batch:** Marks power-place/sacred-landscape-voorkeur (Crank's Ridge vergeleken met Machu Picchu/Uluru), vastgelegd in `decisions/MARK_POWER_PLACE_SACRED_LANDSCAPE_PREFERENCE_2026-09-14.md`, moet ook in `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md` (`central_required`) worden opgenomen — Mark vroeg zelf expliciet om dit tot na de freeze te bewaren.
+
 ## INCIDENTLOG
 
 ### 2026-09-14 — ongeverifieerde `ANSWER_FROM_PREDECESSOR` behandeld als waarheid vóórdat de relay bevestigd was
