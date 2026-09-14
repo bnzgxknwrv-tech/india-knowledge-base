@@ -72,21 +72,31 @@ Mark's explicit filter: only retain a candidate if it has (a) a direct, specific
 
 **Consequence: Jageshwar fails the heavy-A threshold.** It is genuinely spectacular and was Mark's own early memory, but on person-lineage grounds — the explicit test Mark just set — it does not compete with the ridge's direct Vivekananda/Ram Dass/Maharajji links. **Scenario 4 (dedicated Jageshwar day) is withdrawn from the Mark-facing recommendation.** Jageshwar itself is not deleted from canon (still plain A, still a legitimate future reconsideration if Mark's own priority differs from this filter), but it should not be presented as competing for the recovered 21-Dec day under the criteria just set.
 
-## 5. NULL/FALLBACK OPTION — REQUIRED BY THE ADDENDUM
+## 5. NULL/FALLBACK OPTIONS — REQUIRED BY THE ADDENDUM (3 NAMED VARIANTS)
 
-**NO NEW CORRIDOR DAY** — use the recovered 21 Dec for extra protected immersion in the already-central YSS Dwarahat / Dunagiri-Babaji world, or leave the Nainital block more spacious (less rushed Kainchi/Bhumiadhar pacing, more unhurried Naini Lake/Hanuman Garhi time). This costs nothing new, adds zero driving, and directly serves the same "quiet dwell over site count" priority already recovered from INDIA20's live memory.
+Verified against the actual current calendar (`KUMAON_CALENDAR_FIRST_LEG_2026-12-19_TO_29.md`): **Friday 25 Dec 2026 is already the protected YSS Dwarahat full day** (night D3, Dunagiri Retreat base) — this is real current truth, not assumed.
 
-## 6. RECOMMENDATION (REVISED UNDER THE HEAVY-A FILTER)
+1. **NO NEW CORRIDOR DAY — keep Nainital more spacious.** Recovered 21 Dec stays in the Nainital block with lighter pacing (less rushed Kainchi/Bhumiadhar, more unhurried Naini Lake/Hanuman Garhi time). Zero new driving, zero calendar change.
+2. **EXTRA YSS/DWARAHAT IMMERSION.** Restructure 23–25 Dec so Mark gets additional meaningful time at Yogoda Satsanga Sakha Ashram, Dwarahat, beyond the already-protected 25-Dec full day. This is a genuine calendar-level restructure (not just "more time on the same day") and would need its own geometry pass if Mark wants it explored further — flagged here as a real option, not fully solved in this pass.
+3. **EXTRA BABAJI/KRIYA IMMERSION.** A second or longer Mahavatar Babaji's Cave / Babaji Smriti Bhavan / wider Dunagiri-world experience, potentially combined with YSS only if it stays whole-human and unhurried (i.e. not stacked onto the already-full 25-Dec YSS day).
 
-Only two real options remain after the filter — the ridge (via Scenario 2's routing) and the null/fallback option. Both pass the heavy-A bar honestly: the ridge on direct person-lineage grounds, the fallback because more immersion in an already-A+/A+ world (Haidakhan, Babaji's Cave, Kainchi) needs no new justification at all.
+All three cost nothing new in driving and directly serve the "quiet dwell over site count" priority already recovered from INDIA20's live memory — and options 2/3 additionally deepen time with people/lineages (Yogananda, Mahavatar Babaji) already at the absolute center of Mark's trip, which the ridge option can only partially match (Ram Dass/Maharajji/Vivekananda, all real, but not Mark's single most central lineage anchor).
 
-**Scenario 2 (23-Dec transfer via Almora, ridge picked up nearly free) is the recommended structure IF Mark still wants the ridge world itself** — it is the only surviving corridor candidate, it carries the strongest single Ram Dass/Maharajji link found in this whole recovery ("Go see Lama Govinda"), and it costs the least (the detour is added once, on an already-scheduled transfer day, not as a new day).
+## 6. RECOMMENDATION (REVISED UNDER THE HEAVY-A FILTER + 3 NAMED FALLBACKS)
 
-**The NULL/fallback option is equally legitimate and should be presented to Mark as a genuine equal, not a consolation prize** — more unhurried time in the Babaji/YSS world he is already fully committed to may simply be worth more to him than a new (even heavy-A) place. This is Mark's call, not a CCI default.
+Four real options survive the filter — Scenario 2 (ridge) and the three named fallbacks in section 5. All pass the heavy-A bar honestly.
 
-**Scenario 1 (dedicated 21-Dec ridge daytrip) and Scenario 3 (everything in one transfer day) remain viable mechanically but are inferior to Scenario 2** for the same reasons as before (Scenario 1 spends the rest day on driving; Scenario 3 overloads one winter day).
+**Scenario 2 (23-Dec transfer via Almora, ridge picked up nearly free)** — the only surviving corridor candidate; carries the strongest single Ram Dass/Maharajji link found in this recovery ("Go see Lama Govinda"); costs least (detour added once, on an already-scheduled transfer day).
 
-**Scenario 4 is withdrawn** per section 4 above — Jageshwar does not meet the heavy-A bar Mark just set, however impressive it looks.
+**Fallback 1 (spacious Nainital)** — zero cost, zero risk, purely a pacing choice.
+
+**Fallback 2 (extra YSS/Dwarahat immersion) and Fallback 3 (extra Babaji/Kriya immersion)** — these deepen time with Yogananda and Mahavatar Babaji, arguably Mark's single most central lineage anchors in this entire trip, more directly than the ridge (Ram Dass/Maharajji/Vivekananda, real but one layer further from the Kriya/Yogananda core). Fallback 2 needs its own calendar-restructure pass if pursued further; Fallback 3 is the more mechanically simple of the two (extends an existing dedicated world rather than moving the protected 25-Dec YSS day).
+
+**None of these four is a CCI default — this is explicitly Mark's choice**, between visiting a genuinely new heavy-A place (the ridge) versus going deeper into worlds already at the absolute center of the trip (Fallbacks 2/3) versus simple rest (Fallback 1).
+
+**Scenario 1 (dedicated 21-Dec ridge daytrip) and Scenario 3 (everything in one transfer day) remain mechanically viable but inferior to Scenario 2** for the same reasons as before.
+
+**Scenario 4 is withdrawn** per section 4 — Jageshwar does not meet the heavy-A bar, however impressive it looks.
 
 This is a structural recommendation, not a grade or a lock — Mark still decides, especially the rest-day-vs-Jageshwar tradeoff in Scenario 2 vs. 4.
 
