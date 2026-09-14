@@ -1,9 +1,9 @@
 # MARK DELTA — POWER-PLACE / SACRED-LANDSCAPE PREFERENCE — 2026-09-14
 
-Status: **DURABLE MARK PREFERENCE — QUEUED FOR NEXT SAFE GOVERNANCE BATCH**
+Status: **DURABLE MARK PREFERENCE — FOLDED INTO LIVING PROFILE**
 Branch: `agent/india8-cluster-casting`
 Source: PR #23 comment, posted by Mark during the Kumaon corridor task.
-Owner-in-waiting: `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md` (a `central_required` file — not edited directly here, because a mid-boot edit to it would force an unnecessary re-pin during the currently in-flight INDIA22 authorization cycle; Mark himself explicitly asked for this to wait for a safe batch).
+Owner: `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md`; folded in by the authorized final Kumaon solve after INDIA22's literal `CONTENT_AUTHORIZATION: GRANTED`.
 
 ## THE PREFERENCE
 
@@ -23,8 +23,8 @@ The existing `HEAVY-A` person/lineage filter (see `runs/active/KUMAON-NORTH-CORR
 - Does not change any lock (Nainital 3n, Hotel Evelyn, Dunagiri Retreat all untouched).
 - Does not itself resolve Turiya Niwas/Govinda-Bodh Ashram's exact physical identity/access — that gate is unchanged.
 
-## NEXT STEP
+## COMPLETION
 
-Fold this into `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md` as a new preference entry in the same safe governance batch as the queued `BOOT_GOVERNANCE_FINGERPRINT` wiring and `ORCHESTRATOR_MODE` design (see `governance/CCI_SESSION_TRANSITION_OPERATING_PROTOCOL.md`), once INDIA22's current re-pin reaches `CONTENT_AUTHORIZATION: GRANTED`.
+Folded into `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md` on 2026-09-14 by `runs/active/WORK_KUMAON_CRANKS_RIDGE_GOVINDA_FINAL_BASE_CORRIDOR_SOLVE_2026-09-14.md`. This preference changes the ridge evaluation axis but assigns no general-purpose grade to other power-place claims.
 
 END MARK DELTA — POWER-PLACE / SACRED-LANDSCAPE PREFERENCE

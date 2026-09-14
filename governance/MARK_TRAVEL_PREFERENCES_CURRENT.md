@@ -1,7 +1,7 @@
 # MARK — LIVING INDIA PROJECT PROFILE / CURRENT HUMAN CONTEXT CANON
 
 Status: HARD LIVING HUMAN CONTEXT CANON
-Updated: 2026-09-05
+Updated: 2026-09-14
 Branch: `agent/india8-cluster-casting`
 Canonical file: `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md`
 
@@ -63,6 +63,16 @@ Mark wants spiritual meaning and historical honesty simultaneously.
 - do not fake certainty for a cleaner pilgrimage story.
 
 Mahavatar Babaji is the clearest proof case.
+
+## Power places / spiritually charged landscapes
+`HARD_CURRENT — MARK 2026-09-14`
+Mark can value a sacred or spiritually charged landscape in its own right, not only through a named person, institution or building. Remoteness, atmosphere, contemplative presence, seeker history and a place's lived reputation as a power place can carry independent travel value; Mark explicitly related this to his experiences of Machu Picchu and Uluru/Ayers Rock.
+
+Keep two truth layers separate:
+- the **experiential/cultural reputation** can be a valid reason for Mark to visit and spend unhurried time;
+- geomagnetic, vortex, Van Allen or similar scientific-sounding explanations require actual evidence and must never be presented as proven merely because the sacred reputation is strong.
+
+Current concrete application: Crank's Ridge / Hippie Hill is meaningful as a ridge landscape, not merely as a container for Grot Vivekananda, Lama Govinda or counterculture biography.
 
 ## Keep distinct traditions distinct
 `HARD_CURRENT`

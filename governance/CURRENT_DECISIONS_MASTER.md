@@ -59,7 +59,7 @@ The following are COMPLETE and must not be globally restarted:
 Current working layers remain:
 - item-by-item Mark/PDF rich-source review;
 - live-ledger completeness repair so B/C/OPEN knowledge cannot disappear;
-- exact recovered Crank's Ridge / Kasar Devi physical-entity/access/geometry work before the next Mark-only choice.
+- operational access confirmation for the solved Crank's Ridge / Kasar Devi day before any booking.
 
 No v4 PDF, booking, global macro re-solve or Bodh/Tiru lock before the current frontier permits it.
 
@@ -87,7 +87,7 @@ Existing retained truth includes:
 - Kasar Devi Cave / **Grot Vivekananda** = A+.
 - Dunagiri Retreat = PRIMARY; Joshi Guest House, Kukuchina = fallback if Dunagiri unavailable.
 
-### Crank's Ridge / Kasar Devi recovered physical world — OPEN AFTER IDENTITY/GEOMETRY
+### Crank's Ridge / Kasar Devi recovered physical world — IDENTITY/GEOMETRY SOLVED
 
 Owning recovery:
 `research/KASAR_DEVI_CRANKS_RIDGE_SUNYATA_GOVINDA_RAM_DASS_RECOVERY_2026-09-14.md`.
@@ -96,14 +96,14 @@ Binding successor handoff:
 `runs/active/INDIA20_FINAL_EXTRACTION_2026-09-13.md`.
 
 Current truth:
-- 21 Dec 2026 is a complete recovered/unallocated day.
-- **Turiya Niwas — Sunyata's hermit house on Crank's Ridge** is a distinct recovered physical candidate; exact historic continuity/current access must be verified before Mark sees a grade card.
-- **Lama Anagarika Govinda's Kasar Devi/Bodh Ashram property** is a different distinct recovered physical candidate; current surviving entity/name/access must be verified. It carries the direct Ram Dass relevance: official Ram Dass material records Maharajji telling Ram Dass `Go see Lama Govinda` and Ram Dass describing the encounter as spiritually important.
-- Turiya Niwas is **not proven** to be a Ram Dass house/site and must not be called that.
-- the former combined `Turiya Niwas + Bodh Ashram = C` shorthand must **not** be transferred to these newly separated recovered physical entities. No new grade is assigned here; each remains OPEN/UNGRADED until Mark grades the exact verified entity.
-- Nainital 3 nights stays locked. No silent sleep-base change.
-- a dedicated **21-Dec Kasar Devi / Crank's Ridge immersion day** is OPEN for Mark only **after** exact identity/access and whole-human geometry are complete.
-- current 23-Dec architecture still protects Kakrighat / Jnana Vriksha [A+] + Grot Vivekananda [A+] on Nainital -> Dunagiri transfer until Mark changes it.
+- Direct Mark truth: **Turiya Niwas [A*]**; Crank's Ridge/Hippie Hill strongly wanted; the historic Govinda estate/house/meeting zone strongly wanted if the actual site can be identified and visited; Grot Vivekananda remains [A+].
+- **Turiya Niwas** is a findable current Balt Bari lodging/house and plausible Sunyata-house continuity, but exact continuity and visit permission remain host-confirmation gates. It is not proven to be a Ram Dass house/site.
+- The strongest safe current Govinda-continuity target is **Evam Choskhorling Monastery / Drikung Kagyu Meditation Centre**, Buddha Ashram, Kasar Devi, on the historic estate transferred to the Drikung lineage. Govinda's original house and exact Ram Dass meeting room are not proven to survive.
+- The old combined `Turiya Niwas + Bodh Ashram = C` shorthand is superseded and must not control the separated entities.
+- Nainital 3 nights stay locked; no silent sleep-base change.
+- Completed whole-human solve recommends **21 Dec = dedicated Hotel Evelyn -> ridge/Govinda -> Hotel Evelyn immersion day**, with Turiya only as pre-confirmed near-zero bycatch.
+- Completed transfer solve recommends **23 Dec = Hotel Evelyn -> Kakrighat/Jnana Vriksha [A+] -> Dunagiri Retreat primary**. Grot receives its full visit on 21 Dec; Dhokaney yields.
+- Owning solve: `runs/active/WORK_KUMAON_CRANKS_RIDGE_GOVINDA_FINAL_BASE_CORRIDOR_SOLVE_2026-09-14.md`.
 
 Other OPEN Kumaon candidate:
 - **Lala Badri Shah House, Almora** = OPEN/UNGRADED; official Ramakrishna Kutir evidence substantially resolves existence/access and it is ready for a rich Mark-facing grade card after the ridge-first frontier reaches it.
@@ -199,17 +199,15 @@ FINAL OUT / do not re-present unless Mark explicitly reopens:
 
 **Not FINAL OUT:**
 - Serampore/Srirampur: graded current Kolkata/Hooghly microcluster.
-- Kasar Devi/Crank's Ridge dedicated **21-Dec immersion-day question**: OPEN after exact recovered-entity/access/geometry work. This does not change Nainital 3 nights and does not create a new sleep world by itself.
+- Kasar Devi/Crank's Ridge dedicated **21-Dec immersion day**: RECOMMENDED by the completed final base/corridor solve; access confirmation remains. This does not change Nainital 3 nights or create a new sleep world.
 
 ## 12. EXACT CURRENT FRONTIER
 
-Before the next Mark-only decision:
-1. verify current exact physical identity/access for **Turiya Niwas / Sunyata's hermit house, Crank's Ridge near Kasar Devi/Almora**;
-2. verify exact surviving current physical entity/name/access for **Lama Govinda's Kasar Devi/Bodh Ashram property, Crank's Ridge near Kasar Devi/Almora**;
-3. verify decision-grade microcluster geometry among those two, **Grot Vivekananda / Kasar Devi Cave [A+]**, Kasar Devi Temple and the Nainital sleep base;
-4. calculate whole-human **21 Dec Nainital -> Crank's Ridge/Kasar Devi -> Nainital** burden including winter daylight, quiet dwell and robustness;
-5. recalculate the 23-Dec Nainital -> Kakrighat/Jnana Vriksha [A+] -> Grot Vivekananda [A+] -> Dunagiri transfer if Grot Vivekananda moves to 21 Dec;
-6. only then present the first newly recovered ridge physical candidate to Mark one-by-one for grade.
+The objective ridge identity, base and corridor solve is complete. Before booking/contact execution:
+1. obtain direct visitor permission/current access from **Evam Choskhorling / Drikung Kagyu Meditation Centre**;
+2. ask the Turiya host to confirm historic-house identity and whether a 15–20-minute visit is welcome;
+3. have one local driver/guide validate the exact safe December ridge walk;
+4. preserve the no-invented-pin rule if any access answer is negative.
 
 After that, continue with Lala Badri Shah House and exact J.C. Bose entity, then ledger-completeness work. Bodh/Tiru duration, booking, macro re-solve and v4 PDF stay deferred until their controlling gates are genuinely reached.
 

@@ -87,7 +87,7 @@ Explicit Mark refresh on 2026-08-28 resolves the provenance ambiguity and preser
 Also:
 - Hotel Evelyn remains active and is A+;
 - old Kasar Devi/Almora/Turiya sleep module is not part of the current trip;
-- Turiya Niwas/Bodh Ashram current grades are C in the later decision layer.
+- **superseded 2026-09-14:** the former combined `Turiya Niwas/Bodh Ashram = C` shorthand no longer controls the now-separated entities. Current direct Mark truth is Turiya Niwas [A*], Crank's Ridge strongly wanted, and the Govinda historic-estate target strongly wanted if visitable; see the final ridge solve.
 
 # R09 — KUMAON INBOUND TRAVEL DAY COUNTS
 Repeated error: inbound travel to Kumaon was parked as `later global` while calculating cluster duration.

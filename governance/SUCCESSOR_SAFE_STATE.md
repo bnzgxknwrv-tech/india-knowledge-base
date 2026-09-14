@@ -51,7 +51,7 @@ FINAL OUT unless Mark explicitly reopens:
 
 **Serampore is NOT FINAL OUT.** It is already graded inside the active Kolkata/Hooghly world.
 
-**Kasar Devi/Almora / Crank's Ridge dedicated 21-Dec immersion-day question is NOT FINAL OUT.** It is OPEN after identity/access/geometry and does not itself add a night.
+**Kasar Devi/Almora / Crank's Ridge dedicated 21-Dec immersion day is RECOMMENDED by the completed objective solve.** It does not add or move a night; operational access confirmation remains.
 
 ## SERAMPORE CURRENT GRADES — DO NOT RE-ASK
 
@@ -63,41 +63,38 @@ FINAL OUT unless Mark explicitly reopens:
 
 No separate Serampore hotel/night is implied.
 
-## CRANK'S RIDGE / KASAR DEVI — EXACT RECOVERED STATE
+## CRANK'S RIDGE / KASAR DEVI — FINAL BASE+CORRIDOR SOLVED STATE
 
 A late INDIA20 live-memory extraction recovered a wider spiritual landscape that was not fully durable before.
 
 Keep these separate:
-1. **Kasar Devi Cave / Grot Vivekananda [A+]** — already decided by Mark; currently part of 23-Dec transfer architecture with Kakrighat/Jnana Vriksha [A+].
-2. **Turiya Niwas — Sunyata's hermit house** — distinct recovered physical candidate; exact historical continuity/current access still requires verification before Mark grading.
-3. **Lama Govinda's Kasar Devi/Bodh Ashram property** — different recovered physical candidate; exact surviving entity/current name/access requires verification. Direct Ram Dass relevance is real: official Ram Dass material preserves Maharajji's `Go see Lama Govinda` instruction and the spiritually important Govinda encounter.
+1. **Kasar Devi Cave / Grot Vivekananda [A+]** — already decided by Mark; protect its full visit on the recommended 21-Dec ridge day.
+2. **Turiya Niwas — Sunyata's hermit house [A*]** — direct Mark grade. A current findable Balt Bari house/listing makes continuity plausible, but the host must confirm exact identity and brief-visit permission. It is near-zero bycatch only.
+3. **Lama Govinda's Kasar Devi/Bodh Ashram property** — strongest safe current continuity target is **Evam Choskhorling Monastery / Drikung Kagyu Meditation Centre**, Buddha Ashram, Kasar Devi, on the historic Govinda estate. The original house and exact Ram Dass meeting structure are not proven to survive; access must be arranged.
+4. **Crank's Ridge / Hippie Hill** — strongly wanted by direct Mark truth as a spiritually charged/seeker landscape. Preserve experiential reputation while keeping vortex/geomagnetic claims separate from scientific proof.
 
 Do not call Turiya Niwas a Ram Dass house/site; that direct connection is not proven.
 
-Do not transfer the old combined `Turiya Niwas + Bodh Ashram = C` shorthand onto these newly separated recovered physical entities. They are OPEN/UNGRADED until exact identity is solved and Mark grades them.
+Do not transfer the old combined `Turiya Niwas + Bodh Ashram = C` shorthand onto these newly separated entities. It is superseded.
 
 Nainital 3 nights remains locked. Never silently substitute a Turiya Niwas/Kasar Devi night.
 
 ## CORRECTED NORTH SEQUENCE
 
 - 20 Dec: Naini Lake + Hanuman Garhi / Maharajji-kuti.
-- **21 Dec: complete recovered/unallocated day.**
+- **21 Dec: recommended Hotel Evelyn -> dedicated ridge/Govinda immersion -> Hotel Evelyn; no luggage move.**
 - 22 Dec: Kainchi Dham 08:00–13:00, then Bhumiadhar/free remainder.
-- 23 Dec: Nainital -> Kakrighat/Jnana Vriksha [A+] + Grot Vivekananda [A+] -> Dunagiri/Kukuchina.
+- 23 Dec: recommended Nainital -> Kakrighat/Jnana Vriksha [A+] -> Dunagiri Retreat primary; Grot moves to 21 Dec and Dhokaney yields.
 - 24 Dec: Dunagiri Bell Temple + Babaji Smriti Bhavan + Babaji Cave/Pandavkholi mountain-presence day; winter-safety turnaround remains operationally unresolved.
 
 ## EXACT NEXT AUTOMATIC ACTION
 
-After INDIA22's boot receipt + genuinely independent FULL CHECK + final `CONTENT_AUTHORIZATION: GRANTED`:
+The objective solve is complete in `runs/active/WORK_KUMAON_CRANKS_RIDGE_GOVINDA_FINAL_BASE_CORRIDOR_SOLVE_2026-09-14.md`. Next, before any booking:
 
-1. verify Turiya Niwas exact identity/continuity/current access;
-2. verify Lama Govinda/Bodh Ashram exact present physical entity/name/access;
-3. verify decision-grade ridge geometry against Grot Vivekananda, Kasar Devi Temple and Nainital base;
-4. calculate whole-human 21-Dec Nainital -> ridge -> Nainital burden with winter daylight and realistic quiet dwell;
-5. recalculate 23-Dec transfer if Grot Vivekananda moves to 21 Dec;
-6. then present the first newly recovered ridge candidate to Mark one-by-one for grade.
-
-This is an objective INDIA-owned sequence until step 6. Do not stop early for a Mark choice that lacks completed geometry.
+1. obtain direct visitor permission/current access from Evam Choskhorling;
+2. confirm Turiya identity/brief-visit permission with its host;
+3. have one local driver/guide validate the exact safe December ridge walk;
+4. if access fails, protect Grot + ridge quiet and do not invent a substitute Govinda-house pin.
 
 ## NEXT CANDIDATES AFTER RIDGE
 
