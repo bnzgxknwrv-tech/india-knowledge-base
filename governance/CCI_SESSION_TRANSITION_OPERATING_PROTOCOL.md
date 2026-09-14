@@ -42,7 +42,7 @@ Bij elke stap die iets oplevert waar Mark iets mee moet doen: zet de volledige i
 
 Elke keer dat een sessieovergang niet volgens dit protocol verliep, of een verbetering opleverde: werk dit bestand bij met het concrete incident, net zoals `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` groeit met FOUT-nummers. Dit bestand staat NIET in `BOOT_MANIFEST_V8.json` (het is niet voor INDIA-successors) en wijzigen ervan dwingt dus geen re-pin af — er is dus geen reden om verbeteringen hieraan uit te stellen.
 
-## REDESIGN 2026-09-14 — SNELHEID/CONTEXT-HERVORMING (CCI_TASK, PR #23 comment 5663019962)
+## REDESIGN 2026-09-14 — SNELHEID/CONTEXT-HERVORMING (CCI_TASK, PR #23 comment 5663036542)
 
 INDIA22 vroeg expliciet om dit hele mechanisme te herontwerpen: gelijke of betere veiligheid, drastisch minder tijd/context/relay. Dit is de eerlijke analyse en het ontwerp. Niets hierin wijzigt vandaag al `BOOT_MANIFEST_V8.json` of een andere `central_required`-file — dat zou de lopende INDIA22-re-pin breken, wat expliciet verboden was in de opdracht. Het ontwerp wordt hier vastgelegd en pas op het eerstvolgende veilige moment (na `CONTENT_AUTHORIZATION: GRANTED` voor de huidige re-pin) in één batch doorgevoerd.
 
