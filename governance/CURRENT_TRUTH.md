@@ -56,7 +56,9 @@ If something in this file conflicts with an older file, **this file wins**, unle
 
 **Locked:** Hotel Evelyn (Nainital) 3 nights. Dunagiri Retreat 3 nights (Joshi Guest House, Kukuchina = fallback only). Haidakhan 3 nights + 2 full quiet days. No luggage moves beyond this skeleton.
 
-**Graded (A+/A*/A):** Kainchi Dham [A+], Hanuman Garhi + Maharajji-kuti [A+], Mahavatar Babaji's Cave [A+], Haidakhan Vishwa Mahadham [A+], YSS Dwarahat [A], Dhokaney waterfall [conditional A*], Kakrighat/Jnana Vriksha [A+], Grot Vivekananda/Kasar Devi Cave [A+], Turiya Niwas/Sunyata's hermit house [A*], Haidakhan local-Kailash [A].
+**Graded (A+/A*/A):** Kainchi Dham [A+], Hanuman Garhi + Maharajji-kuti [A+], Mahavatar Babaji's Cave [A+], Haidakhan Vishwa Mahadham [A+], YSS Dwarahat [A], Kakrighat/Jnana Vriksha [A+], Grot Vivekananda/Kasar Devi Cave [A+], Turiya Niwas/Sunyata's hermit house [A*], Haidakhan local-Kailash [A].
+
+**REMOVED BY MARK 2026-09-14:** Dhokaney waterfall is OUT of the active trip. Do not schedule it or use it as filler/bycatch; Mark does not want extra mountain-road time for a waterfall. Historical `conditional A*` references are provenance only. Binding decision: `decisions/INDIA22_DHOKANEY_WATERFALL_OUT_MARK_DECISION_2026-09-14.md`.
 
 **LOCKED BY MARK 2026-09-14 — Grot Vivekananda goes on 23 December.**
 - Mark explicitly closed the former 21-vs-23 question with: **"23 ok"**.
