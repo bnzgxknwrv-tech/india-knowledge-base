@@ -1,7 +1,7 @@
 # HOW TO WORK WITH MARK — HARD LOCKED ACTIVE WORKING MODEL
 
 Status: **HARD LOCK / CENTRAL-REQUIRED / READ + ACTIVE-RECALL BEFORE FIRST SUBSTANTIVE REPLY**
-Last updated: 2026-09-14
+Last updated: 2026-09-15
 Owner: Mark
 
 ## ABSOLUTE PROTECTION
@@ -175,7 +175,7 @@ A place far from the hotel may be nearly free on the onward corridor. A closer p
 
 On-site dwell is not trip cost.
 
-Include, where material: drive/rail/flight access, realistic walking, waiting/security, luggage, checkout/check-in, fog/traffic/winter slack, food/toilet/rest, daylight, driver repositioning and human energy.
+Include, where material: drive/rail/flight access, realistic walking, waiting/security, luggage, checkout/check-in, fog/traffic/winter slack, food/rest, daylight, driver repositioning and human energy.
 
 For a location B between A and C:
 
@@ -203,22 +203,28 @@ Use human-scale 15/30-minute planning blocks unless an external timetable fixes 
 Every future Mark-facing itinerary/PDF is day-by-day with each day self-contained.
 
 Operational day starts at `VERTREK HOTEL` / `VERTREK SLAAPPLEK`.
-Do not schedule wake-up, shower, dressing, breakfast, etc. unless functionally necessary.
+Do not schedule wake-up, shower, dressing, breakfast, toilet, routine comfort stops, perronhandelingen or other trivial micro-actions unless one is genuinely functionally necessary for that specific day.
 
 Each day block contains its own relevant:
 - date/weekday;
 - start/end/sleep base;
 - transport legs + real time;
 - every planned place in execution order;
-- recognition-rich name + grade/status;
+- recognition-rich name + grade/status **on every occurrence that matters; never bare unfamiliar Indian names**;
 - WHY/person/event/experience;
 - dwell;
 - access/opening gates;
 - whole-human predecessor/successor burden;
-- meals/rest/buffer;
+- meals/rest/buffer only at a useful human planning level (e.g. `lunch` or `vroege lunch`), not patronizing micro-instructions such as `warme drank / toilet / droge kleding`;
 - relevant A*/B reserve;
 - live recheck uncertainty;
 - hotel/baggage logistics that actually affect the day.
+
+Timing presentation is also hard:
+- Mark-controlled itinerary times use normal human quarter-hour / half-hour planning; do not invent 17:18/19:24 precision;
+- externally fixed times (train, flight, official meditation, booked opening/event) are reproduced exactly when known, even if they are 18:04 or 06:37;
+- show the operationally important times Mark needs to execute the day, especially `VERTREK HOTEL/SLAAPPLEK`, fixed train/flight departure and arrival, and meaningful visit start/end;
+- do not clutter the plan with every tiny walk, station action or routine buffer as its own timestamp.
 
 Do not scatter day-critical information into appendices that Mark must mentally reconcile.
 
