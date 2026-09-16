@@ -119,6 +119,10 @@ If something in this file conflicts with an older file, **this file wins**, unle
 - Arunachala/Ramana experience [A+]. The Dreaming Tree [A*], Virupaksha Cave [A+], Skandashram/Gurumurtam/Pavalakunru [A].
 - **Open:** 4 or 5 nights (paired with the Bodh Gaya 2-vs-3 question).
 
+## CHENNAI
+
+- **Vivekanandar Illam / Ice House — OPEN / UNGRADED, to be assessed later.** The audit recovered solid evidence that Vivekananda actually stayed here (6–14 Feb 1897) and that a visitable meditation room survives. Mark does **not** currently treat this as a must-see: by this point in the trip he will already have visited several more important Vivekananda sites, and whether this Chennai stop is worth the available buffer time still needs a personal grade/decision. Do not silently schedule it or promote it because of the recovered evidence alone.
+
 ## TRIP WORLDS — WHAT'S IN, WHAT'S OUT
 
 **In:** Delhi, Kumaon/Haidakhan, Agra/Taj, Bodh Gaya, Varanasi/Sarnath, Kolkata/Dakshineswar (with Serampore as a day trip), Tiruvannamalai, Chennai positioning, final Delhi.
@@ -134,7 +138,8 @@ If something in this file conflicts with an older file, **this file wins**, unle
 5. J.C. Bose site identity (Kolkata).
 6. Lala Badri Shah House — not yet presented to Mark for a grade (Kumaon).
 7. Jama Masjid and the astrologer/Jyotish visit — ungraded.
-8. Trip booking phase has not started yet.
+8. Vivekanandar Illam / Ice House, Chennai — recovered valid Vivekananda residence/meditation-room site, but Mark wants it left OPEN/UNGRADED until Chennai time and personal value are assessed.
+9. Trip booking phase has not started yet.
 
 ## PROJECT-LEVEL AGREEMENTS (2026-09-14)
 
