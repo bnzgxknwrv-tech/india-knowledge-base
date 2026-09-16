@@ -50,4 +50,54 @@ An overnight working exists on this exact route pair in the reverse direction (1
 
 This is comparison research for INDIA audit and eventual Mark decision, per the task's own output discipline. No route lock made here.
 
+---
+
+# REVISION 2 — 2026-09-16
+
+Triggered by valid audit `INDIA22_AUDIT` (PR #23 comment `5689117970`) against `CCI_RESULT` `5688060064` / commit `8ade142`.
+
+## THE AUDIT WAS CORRECT — ACKNOWLEDGED PLAINLY
+
+I failed to find **15014 Ranikhet Express** (Kathgodam 20:35 → Old Delhi 04:10, daily) — a real overnight service that was already documented in repo canon (`decisions/FINAL_BOOKING_CALENDAR_LOCKED_2026-09-08.md`, as the existing 12039 fallback) before I even started researching. That's a repository-read miss, not just a web-search gap, and it meant Structure 2 (the genuine sleeper) was never actually tested — so calling Structure 3 the "winner" was premature, exactly as the audit says. I independently re-verified 15014's KGM 20:35 → Old Delhi 04:10 timing via fresh web search before writing this revision, rather than taking the audit's number on faith.
+
+## RECALCULATION
+
+**A. 15014 sleeper, then Mathura/Vrindavan, then Agra (the real winner):**
+- 29 Dec: Haidakhan → mountain-road exit (~90 km) → Kathgodam, board **15014 at 20:35**. Because this departs 5+ hours later than 12039's 15:15, the mountain exit itself stops being time-pressured — Haidakhan departure can be mid-afternoon rather than an early rushed morning, which is itself a whole-human improvement the audit didn't ask for but the sleeper unlocks.
+- Sleep onboard KGM→DLI (~7h35 overnight, real sleep instead of a full day seated).
+- 30 Dec: alight Old Delhi **04:10** → rest at the station / a nearby retiring room until a reasonable ~06:00–08:00 departure (this early-hours gap is a real, honestly-flagged downside, not glossed over) → Delhi→Mathura (~1h15–1h20, frequent service) → taxi to Vrindavan (~20–30 min) → **Neem Karoli Baba Ashram/Samadhi Mandir [A]** with real dwell → back to Mathura Jn → Mathura→Agra (~35 min) → **Agra by early-to-mid afternoon.**
+
+This is strictly better than both my Revision 1 (which left the 29-Dec daytime burden untouched) and a sleeper-only run to Agra with no Mathura stop (which would still waste the 30-Dec day) — it fixes **both** of Mark's stated complaints at once.
+
+**B. Where to alight — tested, DLI confirmed correct.** 15014 continues from Delhi toward Rajasthan (Jaipur/Jodhpur/Jaisalmer direction) — away from Mathura/Agra, not toward it. There is no better alighting point than Old Delhi for this specific train; going further would move away from the destination.
+
+**C. Other gateways/direct topologies bypassing central Delhi — tested, none found.** Kathgodam/Haldwani-area rail service toward the Mathura/Agra direction structurally funnels through the Delhi node; I found no realistic direct or sleeper alternative from Lalkuan, Rudrapur, or elsewhere that reaches Mathura/Agra without it. Reported as a checked negative, not skipped.
+
+**D. Against the baselines:**
+
+| Structure | 29-Dec burden | 30-Dec burden | Fixes empty-Agra-day? | Fixes daytime-rail burden? |
+|---|---|---|---|---|
+| 1. Incumbent 12039 + early Agra | Rushed exit + 5h40 seated daytime rail | Very early Agra, long wait | No | No |
+| 2. 15014 sleeper straight to Agra (no Mathura) | Relaxed exit + real sleep | Early Agra, long wait | No | Yes |
+| 3. 12039 + Mathura (Revision 1) | Rushed exit + 5h40 seated daytime rail | Afternoon Agra via Mathura | Yes | No |
+| **A. 15014 + Mathura (this revision)** | **Relaxed exit + real sleep** | **Afternoon Agra via Mathura** | **Yes** | **Yes** |
+
+**Revised verdict: Structure A wins outright** — it's the only one that solves both problems Mark actually raised, not just one.
+
+## GRADE/SCOPE — UNCHANGED, CORRECTLY PRESERVED
+
+Still no A+ in the Braj/Mathura/Vrindavan/Govardhan world; Neem Karoli Baba Ashram/Samadhi Mandir remains existing **A**, not upgraded. Braj/Mathura/Vrindavan/Govardhan remain reopened only for this scoped corridor test, per the exception.
+
+## STILL LIVE_RECHECK BEFORE ANY LOCK
+
+1. 15014's exact December 2026 consist/berth availability (1A/2A/3A/SL) and on-time reliability in winter fog conditions on this stretch — a missed/delayed connection here has real consequences given the early alighting time.
+2. Whether a comfortable wait option (retiring room, waiting lounge) exists at Old Delhi for the 04:10–06:00ish window, or whether the first Mathura-bound departure should simply be taken as soon as practical instead of a fixed wait.
+3. Same items as Revision 1: exact Dec-2026 Delhi–Mathura/Mathura–Agra timetables, and Neem Karoli Baba Ashram Vrindavan's actual visiting hours on a Wednesday in late December.
+
+## CURRENT_TRUTH_CHANGE: NO
+
+Still comparison research for INDIA audit and eventual Mark decision.
+
+END REVISION 2
+
 END CCI KUMAON EXIT 29-30 DEC SOLVE
