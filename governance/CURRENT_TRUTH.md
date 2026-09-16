@@ -130,7 +130,9 @@ If something in this file conflicts with an older file, **this file wins**, unle
 
 **In:** Delhi, Kumaon/Haidakhan, Agra/Taj, Bodh Gaya, Varanasi/Sarnath, Kolkata/Dakshineswar (with Serampore as a day trip), Tiruvannamalai, Chennai positioning, final Delhi.
 
-**Out, unless Mark explicitly reopens it:** Puri/Odisha, Vrindavan/Braj/Mathura/Govardhan, Haridwar/Kankhal/Rishikesh, Prayagraj, Mysuru/Bengaluru, Ranchi, Puducherry/Sri Aurobindo.
+**Out, unless Mark explicitly reopens it:** Puri/Odisha, Haridwar/Kankhal/Rishikesh, Prayagraj, Mysuru/Bengaluru, Ranchi, Puducherry/Sri Aurobindo.
+
+**Vrindavan/Braj/Mathura/Govardhan** stays OUT as a separate travel world/overnight base — no extra night, no separate base, no broader rediscovery. **Narrow exception (2026-09-16):** explicitly open as a **30 Dec private-car corridor test only** (Delhi→Agra now runs by private car, not train), per `decisions/INDIA22_VRINDAVAN_30DEC_CORRIDOR_GRADE_REPAIRS_2026-09-16.md`. See KUMAON/HAIDAKHAN-style corridor logic applied to this one transfer day; do not read this as a Braj cluster reopen.
 
 ## OPEN DECISIONS — THE FULL LIST
 

@@ -11,17 +11,18 @@ Owner of A/B/C choices: Mark
 
 ## MARK DECISIONS
 
-### 1 — Vrindavan Railway Station — A
+### 1 — Vrindavan Railway Station — B (was A; changed 2026-09-16)
 Person/layer: Paramahansa Yogananda / AOAY.
-Decision: A.
+Decision: B. **Changed from A to B by Mark on 2026-09-16** — see `decisions/INDIA22_VRINDAVAN_30DEC_CORRIDOR_GRADE_REPAIRS_2026-09-16.md`. A dedicated station stop is no longer needed for its own sake now that the 30 Dec corridor is a private car, not a rail journey through/via this station.
 Operational fold-in:
 - `M1`: AOAY Kriya initiation scene with Pratap near Vrindavan station. Exact micro-point unresolved (R5). Mark originally viewed this as B in isolation, but wants it folded into station visit; station parent remains A.
 Travel-guide requirement: explain historical arrival scene, station continuity, one-platform/end-station context if still supportable at final pre-trip check, and M1 uncertainty.
 
-### 2 — Madan Mohan Temple — A
+### 2 — Madan Mohan Temple — A (priority note added 2026-09-16)
 Person/layer: Paramahansa Yogananda / AOAY.
-Decision: A.
+Decision: A (unchanged).
 Reason: exact AOAY temple; Mark explicitly wants to visit.
+**Priority note (2026-09-16):** for the 30 Dec corridor day specifically, Mark places this BELOW Anandamayi Ma Vrindavan Ashram in priority — see `decisions/INDIA22_VRINDAVAN_30DEC_CORRIDOR_GRADE_REPAIRS_2026-09-16.md`. This is a stated priority ordering, not a grade change.
 
 ### 3 — former standalone Kriya-initiation spot — FOLDED INTO 1/M1
 No separate Mark A/B/C operational stop. Physical/source row remains distinct in master.
@@ -32,15 +33,16 @@ New evidence checked 2026-08-20:
 - Katyayani Peeth Trust states Swami Keshavananda came to Vrindavan, acquired the land and built the present temple and an ashram in 1923, where he lived until 1942.
 - AOAY ch42 describes Yogananda being received by Keshabananda at his `Katayani Peith Ashram`, an imposing brick building with black pillars, and being taken into a sitting room with a Lahiri Mahasaya picture.
 - Ananda India identifies steps at Katyayani Peeth as the spot where Yogananda was photographed with Keshabananda; their site displays/describes the historic photo.
-Implication: this is substantially stronger continuity than the earlier R4-style caution suggested. Do NOT yet invent which room survives unchanged; but the present Katyayani Peeth/ashram is a strong historic-site continuity candidate and should be treated as Mark A unless a later dedicated fabric check disproves it.
+Implication: this is substantially stronger continuity than the earlier R4-style caution suggested. Do NOT yet invent which room survives unchanged; but the present Katyayani Peeth/ashram is a strong historic-site continuity candidate.
+**Changed from A to A+ by Mark on 2026-09-16** — see `decisions/INDIA22_VRINDAVAN_30DEC_CORRIDOR_GRADE_REPAIRS_2026-09-16.md`.
 Final-guide requirement: identify photographed steps and, if evidence permits, historic sitting room / building fabric; distinguish proven spot from tradition.
 
 ### 5 — Samb Sadashiv Kunj — OPEN, REQUIRES CLEARER EXPLANATION BEFORE MARK CHOICE
 Do not assign yet. Mark found prior description too opaque. Explain in ordinary language: what kind of place it is, whose institution/tradition, what exact Babaji event/claim connects to it, whether claimant is Mahavatar Babaji vs Haidakhan Babaji or another Babaji tradition, why it matters, and current access. Do not let the Indian proper noun carry the explanation.
 
-### 6 — Neem Karoli Baba Vrindavan Ashram — A
+### 6 — Neem Karoli Baba Vrindavan Ashram — A+ (was A; changed 2026-09-16)
 People: Neem Karoli Baba + Ram Dass.
-Decision: A.
+Decision: A+. **Changed from A to A+ by Mark on 2026-09-16** — see `decisions/INDIA22_VRINDAVAN_30DEC_CORRIDOR_GRADE_REPAIRS_2026-09-16.md`.
 Microsites use neutral codes, NOT A/B/C letters:
 - M1 Maharajji office/room
 - M2 temple courtyard / funeral-bhandara-fire-platform context
