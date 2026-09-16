@@ -1,108 +1,115 @@
-# KUMAON — CURRENT BEST DAYPLAN, 19–29 DECEMBER 2026
+# KUMAON — CURRENT BEST DAYPLAN, 19–29 DECEMBER 2026 (v2 — met kloktijden)
 
-Source for the Mark-facing PDF. One recommended executable plan, day-by-day, each day self-contained per `governance/MARK_DAY_BLOCK_ONLY_PDF_RULE_2026-09-13.md`. Operational day starts at vertrek hotel/slaapplek — no wake-up/ontbijt/douche items.
+Source for the Mark-facing PDF. v2 corrects v1's biggest fout: ontbrekende kloktijden. Elke dag heeft nu concrete vertrek-/aankomsttijden in humane kwartier/half-uur-blokken; extern vastgelegde tijden (trein, YSS-meditaties) exact. Alle reistijden zijn schattingen op basis van bronvermelde afstanden — expliciet gemarkeerd waar een schatting nog LIVE_RECHECK nodig heeft, maar er staat altijd een concreet voorstel, nooit een lege plek.
 
-Change note: what is Mark-explicit vs CCI-recommended is marked inline as **[MARK]** or **[CCI-AANBEVELING]**. No grade changed except Dhokaney Waterfall, explicitly restored to A* by Mark as a zero-time optional reserve (see `decisions/INDIA22_DHOKANEY_WATERFALL_A_STAR_OPTIONAL_RESERVE_MARK_DECISION_2026-09-16.md`).
+**Waarom geen 04:10 Old Delhi:** dat was specifiek de afgewezen aankomsttijd op het GROTE, minder overzichtelijke Old Delhi-station op de TERUGWEG (29 dec). Een vroege aankomst op het KLEINE Kathgodam-station met een vooraf geregelde auto (19→20 dec heenweg) is een heel andere situatie — dat is het normale patroon om de bergen in te gaan en wordt hieronder wel voorgesteld, met duidelijke reden waarom dat oké is.
 
 ---
 
 ## ZATERDAG 19 DECEMBER — Delhi aankomst → nachttrein naar Kathgodam
 
-**Start:** aankomst AI156, Delhi (~10:15). **Einde/slaapplek:** nachttrein richting Kathgodam.
+**Start:** aankomst AI156, Delhi. **Slaapplek vannacht:** nachttrein.
 
-- **09:45–10:15** — Landing AI156 Amsterdam → Delhi. Douane/bagage, taxi naar hotel.
-- **Hotel New Frontier, Delhi [LOCKED]** — dag-1 basis, rust/omschakeling voor de nachttrein. Geen inhoudelijke bezoeken vandaag; reisdag na een lange vlucht.
-- **Avond: nachttrein Delhi → Kathgodam** — exact treinnummer/klasse **LIVE_RECHECK** (voorkeur 1st AC per staand reisbeleid; dit is niet dezelfde trein als de uitgesloten 04:10-optie op 29 dec, dat is de terugweg).
+- **09:45–10:15** — Landing AI156 Amsterdam → Delhi.
+- **10:15–11:00** — Douane/bagage, taxi naar Hotel New Frontier.
+- **11:00–20:30** — Hotel New Frontier, Delhi [LOCKED]. Rust/omschakeling na de lange vlucht, geen inhoudelijke bezoeken.
+- **20:30–21:45** — Uitchecken, taxi naar New Delhi-station.
+- **22:05** — Vertrek **trein 15013 Ranikhet Express, New Delhi → Kathgodam** (EXTERN VAST, LIVE_RECHECK voor dec-2026 dienstregeling). Voorkeur 1st AC/2AC, te bevestigen.
 
-`OPTIONEEL A* ALS DE DAG VEEL RUIMTE OVER HEEFT`: geen — reisdag, geen ruimte voor extra's.
+`OPTIONEEL A* ALS DE DAG VEEL RUIMTE OVER HEEFT`: geen — reisdag.
 
 ---
 
 ## ZONDAG 20 DECEMBER — Aankomst Nainital
 
-**Start:** aankomst per trein/auto Kathgodam. **Slaapplek:** Hotel Evelyn, Nainital [LOCKED, 3 nachten].
+**Start:** trein 15013. **Slaapplek:** Hotel Evelyn, Nainital [LOCKED, 3 nachten].
 
-- Aankomst Kathgodam in de ochtend, auto naar Nainital (~35 km/~1–1,5u).
-- Inchecken Hotel Evelyn. Rest van de dag: acclimatiseren, Naini Lake-omgeving, geen geplande zware inhoud.
-- Geen luggage move vandaag verder nodig.
+- **05:05** — Aankomst Kathgodam (EXTERN VAST, zelfde LIVE_RECHECK als hierboven).
+- **05:15–06:45** — Vooraf geregelde auto Kathgodam → Nainital (~35 km/~1–1,5 u).
+- **06:45** — Aankomst Hotel Evelyn. Vroege check-in vooraf regelen (aankomst is voor de normale check-in-tijd) — **LIVE_RECHECK bij het hotel**.
+- **06:45–15:00** — Vrij: rust/inhalen slaap, acclimatiseren.
+- **15:00–17:00** — Wandeling rond Naini Lake, vrij tempo.
+- **Avond** — vrij, vroeg diner mogelijk.
 
-`OPTIONEEL A* ALS DE DAG VEEL RUIMTE OVER HEEFT`: geen specifiek voor deze dag.
+`OPTIONEEL A* ALS DE DAG VEEL RUIMTE OVER HEEFT`: geen specifiek.
 
 ---
 
-## MAANDAG 21 DECEMBER — Crank's Ridge / Lama Govinda's wereld (Kasar Devi)
+## MAANDAG 21 DECEMBER — Crank's Ridge / Lama Govinda's wereld
 
-**Start/einde:** Hotel Evelyn, Nainital (dagtrip, geen bagage-move). **Grot Vivekananda staat NIET op deze dag** — dat is bewust verplaatst naar 23 dec.
+**Start/einde:** Hotel Evelyn (dagtrip, geen bagage-move). Grot Vivekananda staat hier NIET.
 
-- **Ochtend:** vertrek Hotel Evelyn → Kasar Devi-omgeving (~1–1,5u rijden, deel van dezelfde Nainital–Almora-corridor).
-- **Bodh Ashram / Lama Anagarika Govinda's historische wereld op Crank's Ridge (Hippie Hill)** [herkenning: de plek waar Ram Dass en Lama Govinda samenkwamen; huidige toegang/continuïteit via de Evam Choskhorling / Drikung Kagyu Meditation Centre, alleen als locatiekwalificatie, niet als de historische naam] — **DIRECT-CONFIRM**: toegang normaal alleen bij events, permission nog niet bevestigd. Geen bewezen origineel Govinda-huis of exacte Ram Dass-ontmoetingsruimte; niet als zodanig presenteren.
-- Rondlopen op Crank's Ridge zelf: de spiritueel geladen sfeer en seeker-geschiedenis van de jaren '60/'70 is zelfstandige waarde, los van één gebouw.
-- **Local guide nog te bevestigen** voor een veilige december-ridgewandeling (geen officieel pad op papier).
-- Terug naar Hotel Evelyn, geen tweede overnachting elders.
+- **09:00** — Vertrek Hotel Evelyn → Kasar Devi-omgeving (~1–1,5 u).
+- **10:15–10:30** — Aankomst. **Bodh Ashram / Lama Anagarika Govinda's historische wereld, Crank's Ridge (Hippie Hill)** — DIRECT-CONFIRM, toegang normaal alleen bij events.
+- **10:30–13:30** — Vrij rondlopen Crank's Ridge, sfeer/seeker-geschiedenis, eventueel korte ridge-wandeling (lokale gids nog te bevestigen).
+- **13:30–14:00** — Lunch ter plaatse of onderweg.
+- **14:00–15:30** — Terugrit naar Hotel Evelyn.
+- **15:30** — Aankomst Hotel Evelyn, vrije avond.
 
-`OPTIONEEL A* ALS DE DAG VEEL RUIMTE OVER HEEFT`: geen voor deze dag (Dhokaney hoort bij de 23-dec transfer, niet hier).
-
-**Open/DIRECT-CONFIRM:** Evam Choskhorling toegang; ridge-wandelroute; Turiya Niwas blijft NIET gepland (recente Mark-correctie 2026-09-15) — alleen noemen als het letterlijk zonder kosten op de route ligt, geen apart bezoek inplannen.
+`OPTIONEEL A* ALS DE DAG VEEL RUIMTE OVER HEEFT`: geen voor deze dag.
 
 ---
 
 ## DINSDAG 22 DECEMBER — Kainchi Dham eerst, dan Bhumiadhar
 
-**Start/einde:** Hotel Evelyn, Nainital (dagtrip).
+**Start/einde:** Hotel Evelyn (dagtrip).
 
-- **Vertrek Hotel Evelyn** → **Kainchi Dham [A+]** (Neem Karoli Baba/Maharajji's hoofdashram) — ~40–50 min rijden.
-  - Beschermde minimum-tijd: **3 uur**, geen harde bovengrens — als het voelt als 4–5 uur, mag de dag dat gracieus toestaan.
-- **Kainchi Dham → Bhumiadhar [A]** (rustigere Maharajji/Hanuman-ashram-wereld, ~11,6 km/~25–30 min) — **na** Kainchi, niet ervoor (recente Mark-correctie op eerdere foutieve volgorde).
-  - Realistische verblijftijd: ~45–55 minuten. Geen bevestigd "360°-uitzichtpunt" — behandel als rustige tweede Maharajji-stop, niet als belofte van een view.
-- Terug naar Hotel Evelyn.
+- **08:30** — Vertrek Hotel Evelyn → Kainchi Dham (~40–50 min).
+- **09:15–12:30** — **Kainchi Dham [A+]**, beschermde minimum 3 uur (mag gracieus doorlopen tot 13:15 als het voelt als 4 uur).
+- **12:30–13:00** — Rit Kainchi → Bhumiadhar (~11,6 km/~25–30 min).
+- **13:00–13:50** — **Bhumiadhar [A]**, ~45–55 min. Lunch hier of net ervoor/erna.
+- **13:50–14:45** — Terugrit naar Hotel Evelyn (~17–20 km/45–60 min).
+- **14:45** — Aankomst Hotel Evelyn, vrije avond.
 
-`OPTIONEEL A* ALS DE DAG VEEL RUIMTE OVER HEEFT`: geen specifiek voor deze dag.
+`OPTIONEEL A* ALS DE DAG VEEL RUIMTE OVER HEEFT`: geen specifiek.
 
 ---
 
 ## WOENSDAG 23 DECEMBER — Kakrighat (twee lagen) + Grot Vivekananda → Dunagiri/Kukuchina
 
-**Start:** Hotel Evelyn, Nainital. **Einde/slaapplek:** Dunagiri Retreat (Kukuchina = fallback) [LOCKED, 3 nachten vanaf vanavond].
+**Start:** Hotel Evelyn. **Slaapplek:** Dunagiri Retreat/Kukuchina [LOCKED, 3 nachten].
 
-Dit is de grote bergdag: ~140–150 km bergrijden in totaal. Vertrek op een humane ochtenduur (±08:00–08:30).
+Grote bergdag: ~140–150 km bergrijden totaal.
 
-- **Vertrek Hotel Evelyn (±08:00–08:30)** → onderweg naar Almora op de Nainital–Almora-weg (NH109).
-- **OPTIONEEL A* ALS DE DAG VEEL RUIMTE OVER HEEFT: Dhokaney Waterfall** — boswaterval bij Suyalbari, letterlijk op deze route. **Geen geplande tijd in het basisschema.** Alleen overwegen als de dag merkbaar vroeg loopt, energie hoog is, en het weer/de weg/het daglicht goed zijn — mag nooit hogere-prioriteit-inhoud verdringen.
-- **Kakrighat [A+] — twee fysieke sublagen, samen in hetzelfde kleine rivieroever-complex aan de Kosi, beide expliciet bezoeken (30–45 minuten totaal):**
-  1. **Swami Vivekananda Jnana Vriksha / Karkateshwar Mahadev-zijde** — de heropgeplante heilige pipal-boom en het kleine Shiva-tempeltje aan de rivier, op de plek waar Vivekananda in augustus 1890 zijn microkosmos–macrokosmos-realisatie had. Leesverwijzing: *Complete Works*, Vol. 9, `Macrocosm and Microcosm`.
-  2. **Neem Karoli Baba Kakrighat Dham / Hanuman-tempel-zijde** — Hanuman-tempel en de samadhi/oude kluis van Sombari Baba (met Panjabi Baba als gedeelde heilige-plek-context), later voortgezet door Maharajji zelf.
-  - Beide liggen op loopafstand van elkaar binnen hetzelfde kleine complex — geen aparte rit nodig tussen de twee.
-- **Verder naar Grot Vivekananda / Kasar Devi Cave [A+]** — beschermde, betekenisvolle meditatietijd, niet inkorten voor de planning.
-- **Optioneel ±19:30 kennismakingsbezoek YSS Dwarahat** — **DIRECT-CONFIRM**, alleen als het Grot Vivekananda/Kakrighat niet opjaagt; niet als vaste afspraak presenteren.
-- **Verder naar Dunagiri Retreat / Kukuchina** (voorbij Almora → Dwarahat ~61 km → Dunagiri nog ~14 km verder) — inchecken voor 3 nachten.
+- **08:00** — Vertrek Hotel Evelyn richting Almora (NH109).
+- **±08:45–09:15** — **Optioneel: Dhokaney Waterfall** (Suyalbari, letterlijk op de route) — alleen als de dag hier al vroeg loopt; geen geplande tijd, dus dit venster is indicatief, niet verplicht.
+- **09:15–10:00** — **Kakrighat [A+], twee sublagen samen (30–45 min dwell)**: (1) Swami Vivekananda Jnana Vriksha/Karkateshwar Mahadev — microkosmos–macrokosmos-realisatie 1890; (2) Neem Karoli Baba Kakrighat Dham/Hanuman-tempel — Sombari Baba/Panjabi Baba-context.
+- **10:00–10:45** — Rit naar Almora/Kasar Devi (~35 km incl. Almora-doorreis).
+- **10:45–13:15** — **Grot Vivekananda/Kasar Devi Cave [A+]**, beschermde meditatietijd (~2,5 u), niet inkorten.
+- **13:15–13:45** — Lunch ter plaatse/onderweg.
+- **13:45–16:00** — Rit Almora → Dwarahat (~61 km/~2–2,3 u).
+- **16:00–16:30** — Rit Dwarahat → Dunagiri Retreat/Kukuchina (~14 km/~25–30 min). Inchecken.
+- **±19:00–19:15** — indien energie het toelaat: terugrit naar Dwarahat voor het optionele ±19:30 kennismakingsbezoek YSS Dwarahat — **DIRECT-CONFIRM**, alleen doen als het de dag niet overbelast; anders vervalt dit zonder gevolgen.
 
-`23_DEC_EXTRA_ROAD_TIME`: vrijwel nul voor Kakrighat zelf — het ligt direct op de al geplande route. Dit is en blijft een volle bergdag.
+`23_DEC_EXTRA_ROAD_TIME`: vrijwel nul voor Kakrighat zelf.
 
 ---
 
 ## DONDERDAG 24 DECEMBER — Mahavatar Babaji's Cave
 
-**Start/einde:** Dunagiri Retreat/Kukuchina (geen bagage-move).
+**Start/einde:** Dunagiri Retreat/Kukuchina.
 
-- Dunagiri/Kukuchina ligt al dicht bij het beginpunt van de beklimming ("voorbij Kukuchina" is de officiële YSS-omschrijving van de bergroute) — de rit naar het startpunt is korter dan vanuit Dwarahat/adiMOUNT (waar de eerder onderzochte route van uitging).
-- **Vooraf geregelde lokale taxi/chauffeur** naar het praktische trailhead, dan **~1 uur beklimming** naar **Mahavatar Babaji's Cave [A+]**.
-- Realistische schatting vanaf Dunagiri/Kukuchina: **~5–7 uur totaal** (korter dan YSS's officiële 6–8 uur, die vanaf de Dwarahat-ashram gerekend is, ~14 km verder weg) — **LIVE_RECHECK met lokale chauffeur/gids zodra ter plaatse**, niet aannemen zonder bevestiging.
-- Beschermde meditatie-/aanwezigheidstijd bij de grot; dit is geen tokenbezoek.
-- Terugweg dezelfde route/chauffeur naar Dunagiri/Kukuchina.
-- **Maa Dunagiri/Bell Temple [A]** en **Babaji Smriti [A]** wijken voor grotkwaliteit als de dag uitloopt.
+- **07:45** — Vertrek per vooraf geregelde lokale taxi naar het praktische trailhead (korte rit, Dunagiri/Kukuchina ligt al dicht bij "voorbij Kukuchina").
+- **08:00–09:00** — Beklimming naar **Mahavatar Babaji's Cave [A+]** (~1 u).
+- **09:00–11:30** — Beschermde meditatie-/aanwezigheidstijd bij de grot (~2,5 u) — geen tokenbezoek.
+- **11:30–12:30** — Afdaling (~1 u).
+- **12:30–13:00** — Terugrit naar Dunagiri/Kukuchina.
+- **13:00** — Aankomst, lunch/rust.
+- **15:00–16:30** — Optioneel: Maa Dunagiri/Bell Temple [A] of Babaji Smriti [A], rustig, geen verplichting — wijkt voor grotkwaliteit als de ochtend uitliep.
 
-`OPTIONEEL A* ALS DE DAG VEEL RUIMTE OVER HEEFT`: geen — dit is al een volle, beschermde dag.
+`LIVE_RECHECK`: exacte duur met lokale chauffeur/gids ter plaatse bevestigen (schatting 5–7 u totaal, korter dan YSS's officiële 6–8 u vanaf de verder gelegen Dwarahat-ashram).
 
 ---
 
 ## VRIJDAG 25 DECEMBER — YSS Dwarahat kerstdag
 
-**Start/einde:** Dunagiri Retreat/Kukuchina (~14 km/~25–30 min naar Dwarahat, geen bagage-move).
+**Start/einde:** Dunagiri Retreat/Kukuchina.
 
-- **06:30–08:00 (exact, extern vastgelegd)** — Christmas Morning Meditation, YSS Dwarahat.
-- Tussen de meditaties: vrije, ongehaaste tijd in de YSS-wereld — maaltijden/volledige dagtoegang blijven **DIRECT-CONFIRM**, niet aangenomen.
-- **16:30–18:30 (exact, extern vastgelegd)** — Christmas Evening Meditation, YSS Dwarahat.
-- Terug naar Dunagiri Retreat/Kukuchina voor de nacht.
+- **05:55** — Vertrek Dunagiri/Kukuchina → YSS Dwarahat (~14 km/~25–30 min).
+- **06:30–08:00** — **Christmas Morning Meditation, YSS Dwarahat** (EXTERN VAST, exact).
+- **08:00–16:00** — Vrije, ongehaaste tijd in de YSS-wereld — maaltijden/volledige dagtoegang **DIRECT-CONFIRM**.
+- **16:30–18:30** — **Christmas Evening Meditation, YSS Dwarahat** (EXTERN VAST, exact).
+- **18:30–19:00** — Terugrit naar Dunagiri Retreat/Kukuchina.
 
 `OPTIONEEL A* ALS DE DAG VEEL RUIMTE OVER HEEFT`: geen specifiek.
 
@@ -110,15 +117,17 @@ Dit is de grote bergdag: ~140–150 km bergrijden in totaal. Vertrek op een huma
 
 ## ZATERDAG 26 DECEMBER — Dunagiri/Kukuchina → Haidakhan Vishwa Mahadham
 
-**Start:** Dunagiri Retreat/Kukuchina. **Einde/slaapplek:** Haidakhan Vishwa Mahadham-omgeving [LOCKED, 3 nachten].
+**Start:** Dunagiri Retreat/Kukuchina. **Slaapplek:** Haidakhan Vishwa Mahadham-omgeving [LOCKED, 3 nachten].
 
-**Let op naamsverwarring:** dit is **Haidakhan Vishwa Mahadham bij Haldwani/Bhimtal** (de hoofd-ashram), **niet** het kleinere "Haidakhan Temple" bij Ranikhet — twee verschillende plekken met een vergelijkbare naam.
+**Let op naamsverwarring:** Haidakhan Vishwa Mahadham bij Haldwani/Bhimtal, NIET het kleinere "Haidakhan Temple" bij Ranikhet.
 
-- **Vertrek Dunagiri/Kukuchina** → Dwarahat (~14 km) → richting Haldwani op NH109, afslag bij Bhimtal vóór Haldwani-stad zelf.
-- **26_DEC_ROUTE_RECONCILED:** eerdere schattingen liepen uiteen (CCI eerder ~105–120 km/3,5–4,5u vanaf Dwarahat; WORK eerder ~150 km/5u15+ totaal). Herrekend vanaf Dunagiri/Kukuchina: ~14 km Kukuchina→Dwarahat + bevestigde ~121 km Dwarahat→Haldwani-richting, minus de laatste ~12–16 km vóór Haldwani-stad (Haidakhan/Bhimtal-afslag ligt daarvóór) ≈ **~120–135 km / ~4,5–5,5 uur** conservatief bergrijden. Dit is de beste onderbouwde schatting uit twee bevestigde deeltrajecten, geen gemiddelde van de twee oude cijfers — **nog steeds LIVE_RECHECK met een echte kaarttool voordat dit geboekt wordt**.
-- Aankomst, inchecken voor 3 nachten.
+- **08:00** — Vertrek Dunagiri/Kukuchina.
+- **08:00–08:30** — Naar Dwarahat (~14 km).
+- **08:30–13:00–13:30** — Dwarahat → Haldwani-richting, afslag Bhimtal vóór Haldwani-stad. Herrekende schatting: **~120–135 km/~4,5–5,5 u** conservatief bergrijden (uit twee bevestigde deeltrajecten, geen gemiddelde van oude cijfers — **LIVE_RECHECK met kaarttool vóór boeking**).
+- **±13:00–13:30** — Aankomst Haidakhan Vishwa Mahadham-omgeving, inchecken voor 3 nachten.
+- **Middag/avond** — vrij, aankomen/settelen.
 
-`OPTIONEEL A* ALS DE DAG VEEL RUIMTE OVER HEEFT`: geen — dit is al een lange transferdag.
+`OPTIONEEL A* ALS DE DAG VEEL RUIMTE OVER HEEFT`: geen — lange transferdag.
 
 ---
 
@@ -126,8 +135,7 @@ Dit is de grote bergdag: ~140–150 km bergrijden in totaal. Vertrek op een huma
 
 **Start/einde:** Haidakhan Vishwa Mahadham-omgeving.
 
-- Geen sightseeing ingepland. Dit is bewust een rustige ashram-dag.
-- **Haidakhan Vishwa Mahadham [A+]** zelf, in eigen tempo — geen tijdschema opgelegd.
+- **Bewust geen vast tijdschema** — dit is een beschermde ashram-rustdag. **Haidakhan Vishwa Mahadham [A+]** in eigen tempo, geen kloktijden opgelegd.
 
 ---
 
@@ -135,24 +143,28 @@ Dit is de grote bergdag: ~140–150 km bergrijden in totaal. Vertrek op een huma
 
 **Start/einde:** Haidakhan Vishwa Mahadham-omgeving.
 
-- Zelfde beschermde opzet als 27 dec. **Haidakhan local-Kailash [A]** kan hier passen als het rustig past, zonder verplichting.
+- Zelfde beschermde opzet als 27 dec, bewust geen vast tijdschema.
+- Optioneel, los tijdstip naar keuze: **Haidakhan local-Kailash [A]**, als het rustig past.
 
 ---
 
 ## DINSDAG 29 DECEMBER — Haidakhan → Kathgodam → daytrein naar Delhi
 
-**Start:** Haidakhan Vishwa Mahadham-omgeving. **Einde/slaapplek:** Delhi-transithotel.
+**Start:** Haidakhan Vishwa Mahadham-omgeving. **Slaapplek:** Delhi-transithotel.
 
-**Kakrighat staat hier NIET op de route** — de 16-sep microtopologie/plaatsingsoplossing (PR #23, comment 5703520181) liet zien dat een Kakrighat-omweg vanaf Haidakhan ~2–3 uur extra zou kosten (Haidakhan ligt via Haldwani, een heel andere kant op dan Kakrighat) en de treinbuffer zou opeten. Kakrighat blijft op 23 dec.
+**Kakrighat staat hier NIET op de route** (microtopologie/plaatsingsoplossing 16 sep, PR #23 comment 5703520181 — ~2–3 u omweg via Haldwani, geen andere kant dan Kakrighat).
 
-- **Vertrek Haidakhan** (humane ochtenduur) → direct naar Kathgodam (~40 km/~1–1,5u, via Haldwani-kant, geen omweg).
-- Ruime buffer op station Kathgodam vóór vertrek.
-- **Trein 12039 Kathgodam → New Delhi, werkveronderstelling 15:15 → ~20:55 (LIVE_RECHECK voor dec 2026)** — dit is de **Shatabdi Express**, die alleen **AC Chair Car (CC)** en **Executive Chair Car (EC)** aanbiedt, **geen 1AC/slaapklasse**. Beste beschikbare klasse: **Executive Chair Car (EC)**.
-- **Expliciet uitgesloten:** de overnachtingstrein-optie met aankomst ~04:10 Old Delhi (Mark: harde no) en trein 15014 als hoofdplan.
-- Aankomst New Delhi rond 20:55, taxi naar Delhi-transithotel voor de nacht.
+- **10:45** — Vertrek Haidakhan (humane ochtenduur).
+- **10:45–12:15** — Direct naar Kathgodam (~40 km/~1–1,5 u via Haldwani-kant, geen omweg).
+- **12:15–15:00** — Ruime buffer op station Kathgodam.
+- **15:15** — Vertrek **trein 12039 Kathgodam → New Delhi Shatabdi Express** (EXTERN VAST, LIVE_RECHECK voor dec 2026). Beste beschikbare klasse: **Executive Chair Car (EC)** — geen 1AC/slaapklasse op deze trein.
+- **20:55** — Aankomst New Delhi (EXTERN VAST, LIVE_RECHECK).
+- **20:55–21:45** — Taxi naar Delhi-transithotel.
 
-`29_DEC_TRAIN_BUFFER`: directe route laat een ruime buffer intact vóór 15:15; een +30/+60 min vertraging is comfortabel op te vangen.
+**Expliciet uitgesloten:** overnachtingstrein-optie met aankomst ~04:10 Old Delhi (Mark: harde no) en trein 15014 als hoofdplan.
+
+`29_DEC_TRAIN_BUFFER`: ruime buffer intact vóór 15:15; +30/+60 min vertraging comfortabel op te vangen.
 
 ---
 
-END SOURCE DAYPLAN
+END SOURCE DAYPLAN v2
