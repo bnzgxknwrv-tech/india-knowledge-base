@@ -100,4 +100,51 @@ Still comparison research for INDIA audit and eventual Mark decision.
 
 END REVISION 2
 
+---
+
+# REVISION 3 — 2026-09-16 — ADVERSARIAL SOLVE, ELIMINATE 04:10 AS PREFERRED PLAN
+
+Task: PR #23 comment `5692622603`. Start head: `a1953381abf729567794361ce61d676cfc433912`.
+**Independence note:** I read WORK's parallel task definition (`5692621321`) because it arrived in the same notification batch as my own task — I have not read and will not read any WORK *result* for this solve before freezing this one.
+
+## GENUINE ATTEMPT TO FALSIFY REVISION 2 — RESULT: IT FAILS THE NEW HUMAN GATE
+
+I searched specifically for an overnight train from this corridor with a more humane arrival (target ~06:30+). **None exists.** The only Kathgodam-area overnight service toward Delhi is 15014 (20:35→04:10) — inherently a pre-dawn-arrival train, not a scheduling accident I can route around. The reverse-direction overnight (15013, NDLS 22:05→KGM 05:05) confirms the same corridor produces the same class of timing in both directions — this is how the service is timetabled, not a fixable detail. **Revision 2 is falsified as the preferred plan.** I'm not defending it.
+
+## BROADER SEARCH — GATEWAYS AND MODES
+
+- **Haldwani / Lal Kuan:** well-connected locally (10+ trains to/from each other, 12+ Lal Kuan–Moradabad), but no distinct overnight service with a better arrival time than the Kathgodam-based one — same regional timetable family, same pre-dawn pattern where an overnight option exists at all.
+- **Pantnagar flight:** IndiGo, Pantnagar→Delhi, ~7 weekly departures, 55min–1h05, departures reported in an 08:30–15:00 window (exact Dec-2026 date-specific schedule unconfirmed — `LIVE_RECHECK`). Door-to-door: Haidakhan→Pantnagar drive (not yet independently measured here) + airport buffer (~1.5–2h domestic) + flight + Delhi airport→onward. Plausible but **not clearly better** than rail once buffers are counted, and carries real schedule-confirmation risk for one specific date with weekly-only frequency. Kept as a fallback, not the primary recommendation, pending that confirmation.
+- **Partial-corridor + intermediate hotel (Mark's original concept, explicitly tested):** board a train only part-way 29 Dec, sleep in a real bed at an intermediate town, continue 30 Dec. Workable in principle, but every concretely-checked intermediate town on this specific corridor (Moradabad, checked in the original Revision 1 pass) turned out poorly connected onward toward Mathura/Agra — it solves the sleep problem but reintroduces a connectivity problem instead. Not the winner, but not dismissed by assumption: checked and found weaker than the option below.
+
+## THE ACTUAL FIX: GO BACK TO DAYTIME RAIL FOR THE TRANSFER ITSELF
+
+The honest conclusion, after trying to beat it: **there is no confirmed overnight-sleeper option on this corridor that avoids a pre-dawn arrival — so the fix isn't a better overnight train, it's not using an overnight train for this leg at all.**
+
+**Recommended construction:**
+- **29 Dec:** Haidakhan → mountain-road exit → Kathgodam, board the **daytime Shatabdi-class service (12039, KGM 15:15 → New Delhi ~20:55, ~5h40, seated)** → arrive Delhi area at a completely normal evening hour → check into a Delhi-area hotel → **a real, full night's sleep in an actual bed, no forced wake.**
+- **30 Dec:** normal-time morning departure, Delhi→Mathura (~1h15–1h20) → Neem Karoli Baba Ashram/Samadhi Mandir, Vrindavan **[existing A, not upgraded]** → Mathura→Agra (~35 min) → **afternoon Agra arrival.**
+
+This directly satisfies the new human gate (no forced alighting before 06:30, zero pre-dawn station loitering — the transfer's only inconvenience is a seated afternoon/evening train, at completely normal waking hours) while keeping the genuine improvement from Revision 1/2: the previously-wasted 30-Dec day becomes a real pilgrimage stop and Agra is reached in the afternoon instead of the old baseline's very-early/all-day-waiting pattern.
+
+**What this gives up, honestly:** the ~5h40 daytime seated leg is real and was the thing Revision 2 was trying to avoid. But between "5h40 seated in daylight, then a normal night's sleep" and "sleep on a train, then forced awake and off it at 4am," the second is worse by Mark's own new, explicit criterion — a seated daytime train is a known, bounded, ordinary travel-day cost; a 4am pre-dawn platform is a genuine human/circadian hit with no recovery before the day's activity starts. This is a real trade-off, not a free win, and I'm naming it as one rather than hiding it.
+
+## VERDICT
+
+**Preferred: daytime 12039 + Mathura/Vrindavan on 30 Dec (above).** Solves the human gate cleanly and still fixes the wasted-Agra-day problem.
+
+**Fallback 1:** Pantnagar flight in place of the 29-Dec rail leg, if the exact Dec-2026 flight date/time is confirmed and door-to-door burden checks out — same 30-Dec Mathura/Vrindavan/Agra continuation either way.
+
+**Fallback 2:** partial-corridor + intermediate hotel (Mark's original concept), only if a materially better-connected intermediate town than Moradabad is found on closer inspection — not currently demonstrated.
+
+**Not recommended, explicitly falsified:** 15014 overnight to Old Delhi (Revision 2) — real sleep on paper, but the mandatory 04:10 alighting is exactly the defect Mark named.
+
+## GRADE/SCOPE — UNCHANGED
+
+Still no A+ anywhere in Braj/Mathura/Vrindavan/Govardhan; Neem Karoli Baba Ashram/Samadhi Mandir remains existing A. Corridor exception scope unchanged.
+
+## CURRENT_TRUTH_CHANGE: NO
+
+END REVISION 3
+
 END CCI KUMAON EXIT 29-30 DEC SOLVE
