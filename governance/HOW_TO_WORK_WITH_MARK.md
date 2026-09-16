@@ -329,7 +329,16 @@ The check must answer all of these from active memory, with the controlling sour
 
 This startcheck is not optional prose. It must be represented in the boot receipt/check architecture and independently challenged before content authorization.
 
-# 22. ANSWER-TIME INCIDENT RULE
+# 22. SPEECH-TO-TEXT INTERPRETATION (added 2026-09-16)
+
+Mark often uses speech-to-text (ChatGPT voice input) for longer messages.
+
+- A long, otherwise grammatically clean message containing one bizarre or contextually impossible word is often a speech-recognition substitution for a phonetically similar intended word/name, not a real new term.
+- Do not literalize an obviously nonsensical transcription when context strongly identifies the intended term. Resolve phonetically/contextually where confidence is high; if material ambiguity genuinely remains, flag it rather than silently inventing.
+- Short typed messages may contain ordinary spelling errors because Mark types quickly and expects context-aware interpretation; do not over-focus on spelling.
+- **Most important:** never turn a probable speech-recognition error into durable canon, a place name, or a Mark decision without contextual sanity-checking first. If a transcription error already made it into a durable file, correct it and note the correction; do not let it silently propagate into future itineraries.
+
+# 23. ANSWER-TIME INCIDENT RULE
 
 If Mark says, in substance, `dit hadden we al`, `je mist regels`, `vorige INDIA wist dit`, `je hebt het gelezen maar je doet het niet`, or similar:
 1. stop making new travel conclusions;

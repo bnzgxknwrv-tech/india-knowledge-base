@@ -29,7 +29,7 @@ If something in this file conflicts with an older file, **this file wins**, unle
 | 2 | Sun 20 Dec | Nainital / Hotel Evelyn | arrival day |
 | 3 | Mon 21 Dec | Nainital | dedicated Crank's Ridge / Govinda immersion day; **Grot Vivekananda is NOT on this day** |
 | 4 | Tue 22 Dec | Nainital | Kainchi Dham + Bhumiadhar |
-| 5 | Wed 23 Dec | Dunagiri/Kukuchina | transfer via **Kakrighat/Jnana Vriksha [A+] + Grot Vivekananda/Kasar Devi Cave [A+]** |
+| 5 | Wed 23 Dec | Dunagiri/Kukuchina | transfer via **Kakrighat [A+, two subplaces] + Grot Vivekananda/Kasar Devi Cave [A+]**; optional Dhokaney Waterfall [A*, zero-time reserve] |
 | 6 | Thu 24 Dec | Dunagiri/Kukuchina | Babaji's Cave mountain-presence day |
 | 7 | Fri 25 Dec | Dunagiri/Kukuchina | YSS Dwarahat day |
 | 8 | Sat 26 Dec | Haidakhan Vishwa Mahadham | arrival |
@@ -56,16 +56,19 @@ If something in this file conflicts with an older file, **this file wins**, unle
 
 **Locked:** Hotel Evelyn (Nainital) 3 nights. Dunagiri Retreat 3 nights (Joshi Guest House, Kukuchina = fallback only). Haidakhan 3 nights + 2 full quiet days. No luggage moves beyond this skeleton.
 
-**Graded (A+/A*/A):** Kainchi Dham [A+], Hanuman Garhi + Maharajji-kuti [A+], Mahavatar Babaji's Cave [A+], Haidakhan Vishwa Mahadham [A+], YSS Dwarahat [A], Kakrighat/Jnana Vriksha [A+], Grot Vivekananda/Kasar Devi Cave [A+], Turiya Niwas/Sunyata's hermit house [A*], Haidakhan local-Kailash [A].
+**Graded (A+/A*/A):** Kainchi Dham [A+], Hanuman Garhi + Maharajji-kuti [A+], Mahavatar Babaji's Cave [A+], Haidakhan Vishwa Mahadham [A+], YSS Dwarahat [A], Kakrighat [A+, two subplaces — see dual-subplace rule below], Grot Vivekananda/Kasar Devi Cave [A+], Turiya Niwas/Sunyata's hermit house [A*], Haidakhan local-Kailash [A], Dhokaney Waterfall [A*, optional zero-time reserve, 23 Dec corridor].
 
-**REMOVED BY MARK 2026-09-14:** Dhokaney waterfall is OUT of the active trip. Do not schedule it or use it as filler/bycatch; Mark does not want extra mountain-road time for a waterfall. Historical `conditional A*` references are provenance only. Binding decision: `decisions/INDIA22_DHOKANEY_WATERFALL_OUT_MARK_DECISION_2026-09-14.md`.
+**RESTORED BY MARK 2026-09-16 — Dhokaney Waterfall = A\*, optional zero-time reserve.** Supersedes the 2026-09-14 OUT decision. Dhokaney (forest waterfall near Suyalbari, on the Nainital–Almora corridor, i.e. the 23 Dec transfer day) gets **zero planned base-schedule time** and must never force a detour, but must be **visibly shown** on 23 Dec as an `OPTIONEEL A*` reserve so Mark isn't shown a silently erased option. Binding decision: `decisions/INDIA22_DHOKANEY_WATERFALL_A_STAR_OPTIONAL_RESERVE_MARK_DECISION_2026-09-16.md`.
 
 **LOCKED BY MARK 2026-09-14 — Grot Vivekananda goes on 23 December.**
 - Mark explicitly closed the former 21-vs-23 question with: **"23 ok"**.
 - Binding decision record: `decisions/INDIA22_GROT_VIVEKANANDA_23_DEC_MARK_DECISION_2026-09-14.md`.
 - **21 Dec:** dedicated Hotel Evelyn → Crank's Ridge / Govinda world → Hotel Evelyn immersion day, without Grot Vivekananda. This protects more ridge quiet and reduces day load.
-- **23 Dec:** Hotel Evelyn → **Kakrighat / Swami Vivekananda Jnana Vriksha [A+]** → **Grot Vivekananda / Kasar Devi Cave [A+]** → Dunagiri Retreat primary. Preserve the Kakrighat recognition hook: Vivekananda's microcosm–macrocosm realization and the reading cue to *Complete Works*, Vol. 9, `Macrocosm and Microcosm`.
+- **23 Dec:** Hotel Evelyn → **Kakrighat [A+] (two subplaces, both always shown per the dual-subplace rule below)** → **Grot Vivekananda / Kasar Devi Cave [A+]** → Dunagiri Retreat primary. Preserve the Kakrighat recognition hook: Vivekananda's microcosm–macrocosm realization and the reading cue to *Complete Works*, Vol. 9, `Macrocosm and Microcosm`.
 - Do not reopen this placement through later routing optimization unless Mark explicitly asks to reconsider it.
+- **Confirmed 2026-09-16** (`runs/active/KAKRIGHAT_MICROTOPOLOGY_23DEC_VS_29DEC_PLACEMENT_2026-09-16.md`, PR #23 comment 5703520181): Kakrighat sits directly on the Nainital→Almora road already driven this day at near-zero extra cost; moving it to 29 Dec would add a real ~2–3h detour (Haidakhan sits via Haldwani, a different direction) and eat into the 29 Dec train buffer. 23 Dec placement stays.
+
+**Kakrighat dual-subplace presentation rule (Mark decision 2026-09-16, `decisions/INDIA22_KAKRIGHAT_DUAL_SUBPLACE_PRESENTATION_RULE_2026-09-16.md`):** Kakrighat may never again be shown as one generic stop or only one layer. Every Mark-facing rendering must visibly name BOTH: (1) **Swami Vivekananda Jnana Vriksha / Karkateshwar Mahadev side** — the microcosm–macrocosm realization layer; (2) **Neem Karoli Baba Kakrighat Dham / Hanuman-temple side** — the Maharajji/Sombari Baba/Panjabi Baba layer. Microtopology (2026-09-16) confirms both sit in the same small riverside compound (no source gives an exact meters figure, but consistent independent descriptions place them together) — one travel stop is fine operationally, but both must be named as two things to visit, with a combined 30–45 min dwell recommended.
 
 **Crank's Ridge / Govinda world (new this week, from Mark directly):**
 - Jageshwar Dham is **removed from active planning** — Mark doesn't want it included.
