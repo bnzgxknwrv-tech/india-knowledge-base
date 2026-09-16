@@ -1,7 +1,7 @@
 # CURRENT TRUTH — INDIA TRIP, 19 DEC 2026 – 20 JAN 2027
 
 Status: **THE operational reference — read this first, not the older CURRENT_STATE / CURRENT_DECISIONS_MASTER / SUCCESSOR_SAFE_STATE files**
-Last updated: 2026-09-14
+Last updated: 2026-09-16
 Built by: CCI, per the consolidation model agreed by Mark and INDIA22 on 2026-09-14 (PR #23)
 
 ## WHAT THIS FILE IS
@@ -103,6 +103,7 @@ If something in this file conflicts with an older file, **this file wins**, unle
 
 - 8 nights, **locked**. Sahi River View Guesthouse, Assi Ghat — **locked**, balcony room requested, contact Jitendre.
 - Manikarnika Ghat [A+] (closing block of its day). Bhrigu Karyalaya/Bhadury Sadan [A+, locked] — needs an appointment, keep off the Manikarnika day.
+- **Dashashwamedh Ghat — DO NOT DROP / preserve the AOAY-Kriya meaning even though the physical stop is already scheduled for Ganga Aarti.** In *Autobiography of a Yogi* ch. 33 this is the central Babaji–Mataji–Lahiri Mahasaya scene witnessed by Ram Gopal: Lahiri sends Ram Gopal to the ghat; Mataji appears from the hidden/underground cave setting and summons Babaji and Lahiri; Babaji then gives the famous assurance that he will not abandon his physical body and will remain visible to at least a few on earth. This makes the already-planned Dashashwamedh visit a direct **Mahavatar Babaji + Lahiri Mahasaya + Mataji + Ram Gopal / AOAY** anchor, not merely a Ganga-Aarti stop. Any future calendar/PDF must carry this recognition hook explicitly so the Kriya/AOAY significance cannot be lost again. Do **not** assert that a currently marketed "Babaji cave/temple" is the exact AOAY cave unless exact physical provenance is separately proven.
 
 ## KOLKATA / DAKSHINESWAR / SERAMPORE
 
