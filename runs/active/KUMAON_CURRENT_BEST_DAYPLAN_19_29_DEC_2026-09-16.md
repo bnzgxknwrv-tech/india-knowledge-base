@@ -1,4 +1,4 @@
-# KUMAON — CURRENT BEST DAYPLAN, 19–29 DECEMBER 2026 (v4 — 21 dec semantisch hersteld)
+# KUMAON — CURRENT BEST DAYPLAN, 19–29 DECEMBER 2026 (v5 — 21 dec concrete lineaire wandeling)
 
 Source for the Mark-facing PDF. v2 voegde kloktijden toe. **v3 corrigeert een echte fout**: v2 gebruikte nog "Dunagiri Retreat/Kukuchina" (~14 km van YSS Dwarahat) als slaapbasis 23–25 dec, terwijl Mark's eigen eerdere correctie (2026-09-15) al uitging van **Hotel adiMOUNT, Dwarahat** — ~840 m/~5 min lopen van de YSS-poort. CURRENT_TRUTH.md was hierop nooit bijgewerkt; Mark heeft dat zelf opgemerkt (21 sep). Hotel adiMOUNT is nu overal de vaste basis; dit vereenvoudigt 25 dec (lopen i.p.v. rijden) en verkort 26 dec (geen tussenstop naar Dwarahat meer nodig).
 
@@ -35,20 +35,26 @@ Source for the Mark-facing PDF. v2 voegde kloktijden toe. **v3 corrigeert een ec
 
 ---
 
-## MAANDAG 21 DECEMBER — Crank's Ridge / Hippie Hill + Lama Govinda's wereld (v4 — inhoudelijk hersteld)
+## MAANDAG 21 DECEMBER — Kasar Devi Temple & Crank's Ridge Trail (lineaire wandeling) + Lama Govinda's wereld (v5 — concrete route toegevoegd)
 
 **Start/einde:** Hotel Evelyn (dagtrip, geen bagage-move). Grot Vivekananda staat hier NIET — dat blijft bindend op 23 dec ("23 ok", Mark-besluit 2026-09-14).
 
-**Herstelreden (2026-09-21):** in v3 was deze dag verplat tot één generiek blok "vrij rondlopen Crank's Ridge". De echte, al bestaande inhoud (uit `research/KASAR_DEVI_CRANKS_RIDGE_SUNYATA_GOVINDA_RAM_DASS_RECOVERY_2026-09-14.md` en `runs/active/WORK_KUMAON_CRANKS_RIDGE_GOVINDA_FINAL_BASE_CORRIDOR_SOLVE_2026-09-14.md`) is hier hersteld. Turiya Niwas is NIET teruggeplaatst — die is op 2026-09-21 door Mark van A* naar B gezet en volledig uit de actieve planning gehaald (PR #23 comment 5766129444): geen bezoek, geen 15–20 minutenstop, geen contact met Harshit Karki meer nodig.
+**v5-aanvulling (2026-09-21, Mark-besluit):** Mark kiest definitief voor de Kasar Devi Temple & Crank's Ridge Trail als echte wandeling/ervaring, ~3 uur gereserveerd. Privéchauffeur aanwezig → lineaire wandeling ontworpen (drop-off ≠ pick-up), geen georganiseerde tour (niet nodig gebleken uit praktisch onderzoek). Details/bronnen: `decisions/INDIA22_KASAR_DEVI_CRANKS_RIDGE_WALK_MARK_DECISION_2026-09-21.md`. Turiya Niwas blijft B, volledig buiten deze wandeling.
 
-- **08:00** — Vertrek Hotel Evelyn, met vooraf geregelde chauffeur, geen bagage.
-- **08:00–10:30** — Rit naar de Kasar Devi-bergkam (~65–70 km, ~2u15–2u45 in winterse omstandigheden).
-- **10:30–12:30** — **Crank's Ridge (ook: Hippie Hill)** — een dennenbos-bergkam rond/voorbij Kasar Devi boven Almora, zonder één officieel gemarkeerd pad (lokale gids/chauffeur nodig). **Wat het is:** een fysiek samenhangend spiritueel landschap, al decennia bekend als toevluchtsoord voor westerse kluizenaars/zoekers — W.Y. Evans-Wentz, Lama Anagarika Govinda, de Deense mysticus Alfred "Sunyata" Sorensen, en later de tegencultuurgeneratie (Allen Ginsberg, Gary Snyder, Timothy Leary, Ralph Metzner, Richard Alpert/Ram Dass). **Waarom relevant voor jou:** dit is zelf een bestemming die je wilt — een "power place"/geladen landschap met seeker-geschiedenis, niet slechts decor. Ongegradeerd als landschap (geen los A/B/C-object), wel expliciet een bestemming op zich. Hier loop je rond, ben je stil aanwezig — geen tijdschema binnen dit blok.
-- **12:30–13:45** — **Lama Anagarika Govinda's historische Kasar Devi Ashram ("Bodh Ashram")**, huidige fysieke voortzetting: **Evam Choskhorling Monastery / Drikung Kagyu Meditation Centre**. **Wat het is:** een boeddhistisch klooster/retraiteterrein (oorspronkelijk ~16 hectare), gebouwd op het landgoed dat eerst bij W.Y. Evans-Wentz hoorde en daarna bij Lama Govinda en Li Gotami; eind jaren '70 overgedragen aan de Drikung Kagyu-lijn. **Wie/gebeurtenis:** Neem Karoli Baba (Maharajji) gaf Ram Dass persoonlijk de instructie "ga Lama Govinda bezoeken" — Ram Dass beschreef die ontmoeting later als een diepe overgave-/thuiskomstervaring. **Waarom relevant:** dit is de directe Maharajji → Ram Dass → Govinda-lijn, een kernverbinding in jouw Neem Karoli Baba/Ram Dass-wereld. **Let op:** geen bewezen origineel Govinda-huis of exacte Ram Dass-ontmoetingsruimte op het huidige terrein — dat wordt niet beweerd. **Toegang: DIRECT-CONFIRM** — een bezoekersverslag noemt het terrein normaal gesloten behalve bij events; geen officiële bezoekurenpagina gevonden, vooraf toestemming nodig. Als toegang niet lukt: extra rustige tijd op de ridge zelf, geen verzonnen vervangende plek.
-- **13:45–14:30** — Lunch ter plaatse of onderweg.
-- **14:30** — Vertrek terug naar Hotel Evelyn.
-- **14:30–17:00** — Terugrit (~2u15–2u45).
-- **17:00** — Aankomst Hotel Evelyn, ruim voor zonsondergang (~17:16 op 21 dec), vrije avond.
+- **07:45** — Vertrek Hotel Evelyn, met vooraf geregelde chauffeur, geen bagage.
+- **07:45–10:00** — Rit naar **Evam Choskhorling Monastery / Drikung Kagyu Meditation Centre** (~65–70 km, ~2u15).
+- **10:00–11:00** — **Lama Anagarika Govinda's historische Kasar Devi Ashram ("Bodh Ashram")**, huidige voortzetting Evam Choskhorling. **Wat het is:** boeddhistisch klooster/retraiteterrein (oorspr. ~16 ha), landgoed van eerst W.Y. Evans-Wentz, daarna Lama Govinda en Li Gotami, eind jaren '70 overgedragen aan de Drikung Kagyu-lijn. **Wie/gebeurtenis:** Neem Karoli Baba (Maharajji) gaf Ram Dass de instructie "ga Lama Govinda bezoeken" — Ram Dass noemde die ontmoeting een diepe overgave-/thuiskomstervaring. **Waarom relevant:** directe Maharajji→Ram Dass→Govinda-lijn, kernverbinding in je NKB/Ram Dass-wereld. Geen bewezen origineel Govinda-huis of exacte Ram Dass-kamer — niet beweerd. **DIRECT-CONFIRM** toegang; lukt dit niet, dan meer tijd voor de wandeling hierna, geen verzonnen vervangende plek.
+- **11:00–11:20** — Chauffeur rijdt naar het startpunt van de wandeling, **Kasar Devi Temple** (gratis parkeren bij de tempelingang, direct per auto bereikbaar) — aangenomen korte rit binnen dezelfde bergkam-cluster, **LIVE_RECHECK** exacte tijd.
+- **11:20–14:20** — **Lineaire wandeling, ~3 uur (incl. tempel, uitzicht, foto's, zitten/mediteren — geen 3 uur onafgebroken stevig lopen):**
+  1. **Kasar Devi Temple** — tempel op de bergkam, oorsprong 2e eeuw, waar ook Vivekananda eind 19e eeuw kwam mediteren (los van de reeds vastgelegde Grot Vivekananda op 23 dec).
+  2. Kort (~20–30 min) klimmend pad naar **Crank's Ridge (Hippie Hill)** — de dennenbos-bergkam zelf, decennialang toevluchtsoord voor westerse kluizenaars/zoekers (W.Y. Evans-Wentz, Lama Govinda, de Deense mysticus Alfred "Sunyata" Sorensen, en later Allen Ginsberg, Gary Snyder, Timothy Leary, Ralph Metzner, Richard Alpert/Ram Dass).
+  3. Verder over de bergkam (~3–4 km bospad door grove den, eik en rododendron, vogelrijk) naar **Kalimath** — een oud Shiva-heiligdom/tempel-gehucht met panoramisch zonsondergangs-/riviervalleiuitzicht over Hawalbagh en de Koshi.
+  - **Moeilijkheidsgraad:** meerdere onafhankelijke bronnen noemen dit pad "makkelijk", op bestaande lokale wegen/bospaden, geen steile klimmen — geen aanwijzing gevonden dat decemberomstandigheden een professionele gids noodzakelijk maken. Praktisch advies: vertrouw op de kennis van je privéchauffeur en vraag ter plekke bij de tempel naar de actuele route, in plaats van vooraf een aparte gids te boeken — eindoordeel bij de chauffeur op de dag zelf.
+  - **Nog LIVE_RECHECK:** geen geverifieerde Komoot/Wikiloc/AllTrails-track gevonden (een AllTrails-pagina bestaat wel, kon niet direct opgehaald worden); exacte lengte/hoogteprofiel niet onafhankelijk bevestigd, alleen consistente reisbeschrijvingen.
+- **14:20** — Chauffeur pick-up bij **Kalimath** (apart, via de weg bereikbaar, ~10 km via de weg vanaf Almora — een echte lineaire wandeling, geen retourtocht).
+- **14:20–14:50** — Lunch/buffer onderweg.
+- **14:50–17:00** — Terugrit naar Hotel Evelyn (~2u10, LIVE_RECHECK exacte extra afstand vanaf Kalimath).
+- **17:00** — Aankomst Hotel Evelyn, ruim voor zonsondergang (~17:16 op 21 dec) — de wandeling zelf is al om 14:20 afgerond, dus ruim vóór donker. Vrije avond.
 
 `OPTIONEEL A* ALS DE DAG VEEL RUIMTE OVER HEEFT`: geen voor deze dag.
 `DIRECT-CONFIRM`: (1) toestemming Evam Choskhorling/Drikung Kagyu Meditation Centre; (2) lokale gids/chauffeur voor een veilige decemberwandeling op de ridge (geen officieel pad op papier).
