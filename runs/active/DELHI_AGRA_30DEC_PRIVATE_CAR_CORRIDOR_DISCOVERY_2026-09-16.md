@@ -80,6 +80,8 @@ Not restarted. Existing truth stands: Yogananda's Anandamayi Ma encounter in Bho
 
 ## I. BOTTOM LINE
 
-The research supports **both** things Mark asked to hear honestly: the existing two-A+ baseline (Katyayani Peeth + NKB Vrindavan) already stands on its own as a strong, clean private-car corridor day, and it does NOT need Nidhivan to be worthwhile. At the same time, the private-car reframing did surface one genuinely new, well-evidenced candidate that the old rail/station-biased research missed — Nidhivan — which costs virtually nothing extra to add if Mark wants it, precisely because it sits in the same town as the two already-decided A+ stops. This is not a "we found nothing" result and not a "we found a mandatory new site" result; it is a real, bounded, single addition worth 60 seconds of Mark's attention, nothing more.
+The research supported both things Mark asked to hear honestly: the existing two-A+ baseline (Katyayani Peeth + NKB Vrindavan) already stands on its own as a strong, clean private-car corridor day, and it does NOT need Nidhivan to be worthwhile. The private-car reframing did surface one genuinely new, well-evidenced candidate that the old rail/station-biased research missed — Nidhivan.
+
+**DECLINED BY MARK 2026-09-21** (`decisions/INDIA22_NIDHIVAN_VRINDAVAN_DECLINED_MARK_DECISION_2026-09-21.md`): after the full decision-ready card was presented, including the corrected geometry (Nidhivan↔Katyayani Peeth is close/walkable, but the NKB Ashram is a real further ~5–8 km/~15–25 min transfer — a genuine third stop, not a free add-on), Mark chose not to add a third stop to the day — too much for one day. **30 Dec stays the clean two-A+ baseline.** Nidhivan remains a known, documented, ungraded candidate; do not re-present unless Mark explicitly reopens it.
 
 END RESULT

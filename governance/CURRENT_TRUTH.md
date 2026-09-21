@@ -84,7 +84,7 @@ If something in this file conflicts with an older file, **this file wins**, unle
 2. The Turiya Niwas host (Facebook/WhatsApp contact: Harshit Karki, already reached in July 2026) confirming (a) this is really the historic Sunyata house, and (b) a short 15–20 min visit is welcome even though Mark won't sleep there.
 3. A local driver/guide confirming an actual safe ridge walk in December (no official "Crank's Ridge trail" exists on paper).
 
-**Other open Kumaon candidate:** Lala Badri Shah House, Almora — ungraded, evidence looks solid (Vivekananda stayed there, plaque survives, public after 15:00), just hasn't been presented to Mark yet.
+**DECLINED BY MARK 2026-09-21 — Lala Badri Shah House, Almora.** Presented as a decision-ready card (real Vivekananda residence 1890 + 1897, marble plaque, but only open on request after 15:00, which conflicts with the current 23 Dec morning drive-through of Almora). Mark does not want it — too much for one day. Do not re-present unless Mark explicitly reopens it. Binding decision: `decisions/INDIA22_LALA_BADRI_SHAH_HOUSE_DECLINED_MARK_DECISION_2026-09-21.md`.
 
 ## DELHI
 
@@ -143,7 +143,7 @@ If something in this file conflicts with an older file, **this file wins**, unle
 3. Turiya Niwas host confirmation of identity + short visit (Kumaon).
 4. Local guide confirmation of a safe December ridge walk (Kumaon).
 5. J.C. Bose site identity (Kolkata).
-6. Lala Badri Shah House — not yet presented to Mark for a grade (Kumaon).
+6. ~~Lala Badri Shah House~~ — CLOSED 2026-09-21: Mark declined (see Kumaon section above).
 7. Jama Masjid and the astrologer/Jyotish visit — ungraded.
 8. Vivekanandar Illam / Ice House, Chennai — recovered valid Vivekananda residence/meditation-room site, but Mark wants it left OPEN/UNGRADED until Chennai time and personal value are assessed.
 9. Trip booking phase has not started yet.
