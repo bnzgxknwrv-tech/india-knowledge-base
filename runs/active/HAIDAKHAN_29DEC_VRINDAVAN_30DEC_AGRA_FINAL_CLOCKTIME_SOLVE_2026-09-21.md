@@ -66,6 +66,24 @@ Considered and **rejected outright**: this would require idling in Vrindavan thr
 
 This does not touch 27/28 Dec Haidakhan, does not use the 04:10 Old Delhi arrival, does not default to 12039 "automatically" (it was re-tested against four real alternatives and won on its own merits, now specifically re-verified against the newly-discovered closure-hours constraint), and does not add Nidhivan, Anandamayi Vrindavan, Madan Mohan, the Railway Station, or any other Braj site.
 
+## TRANSFER COUNT & MAIN FAILURE MODE (per finalist, added for the dual-launch task's exact field list — PR #23 comment 5766317187)
+
+### Finalist A (winner)
+- **Transfer count**: 6 — (1) Haidakhan hotel → car; (2) car → 12039 at Kathgodam; (3) 12039 → Delhi hotel taxi; (4) Delhi hotel → NDLS-Mathura train; (5) Mathura Jn → taxi → Katyayani Peeth; (6) Katyayani Peeth → transfer → NKB Ashram → private car → Agra (counted as one continuous car leg, no further mode change).
+- **Main failure mode**: 12039 running late into New Delhi — absorbed easily (arrival is already evening, only affects hotel check-in time, not the next day). Second-order risk: the early-morning NDLS→Mathura train running late enough to eat into the pre-12:00 window — this is the one genuinely schedule-sensitive link, since both A+ sites' closure is fixed and not negotiable. Mitigation: pick the earliest reliable morning departure (buffer built in via the ~2h+ margin before Katyayani Peeth even opens at 07:00), and treat Katyayani Peeth (shorter, closer) as the one that can be shortened first if running behind, protecting Neem Karoli Baba Ashram's longer dwell.
+
+### Finalist B (Pantnagar fallback)
+- **Transfer count**: 7 — adds a Haidakhan→Pantnagar airport car leg and airport buffer versus Finalist A's direct Kathgodam-train boarding.
+- **Main failure mode**: weekly-frequency flight not actually operating on Tue 29 Dec 2026, or a schedule/date mismatch discovered too late to rebook rail — a harder failure than Finalist A's, since it is a single low-frequency service with no same-day same-mode fallback once other legs are booked around it.
+
+### Finalist C (full private car, rejected)
+- **Transfer count**: 3 (fewer transfers, the only structural advantage found) — but total elapsed/fatigue time is worse, not better, so lower transfer count does not translate into lower human burden here.
+- **Main failure mode**: driver fatigue over a 7–9h+ continuous drive after already having done the Haidakhan–Kathgodam mountain leg, with no rest break built into the plan — a safety failure mode, not just a schedule one.
+
+### Finalist D (same-night continuation, rejected)
+- **Transfer count**: 7 — adds a late-night Delhi-area connecting train plus a second very-late hotel check-in versus Finalist A.
+- **Main failure mode**: any delay on 12039 cascades directly into a missed or very-late night connection, with no buffer left before a very late hotel check-in — materially less robust than sleeping in Delhi first.
+
 ## LIVE_RECHECK GATES BEFORE BOOKING
 
 1. Exact Dec-2026 12039 schedule/class availability (reused flag, not new).
