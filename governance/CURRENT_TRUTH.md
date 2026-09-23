@@ -1,7 +1,7 @@
 # CURRENT TRUTH — INDIA TRIP, 19 DEC 2026 – 20 JAN 2027
 
 Status: **THE operational reference — read this first, not the older CURRENT_STATE / CURRENT_DECISIONS_MASTER / SUCCESSOR_SAFE_STATE files**
-Last updated: 2026-09-16
+Last updated: 2026-09-23
 Built by: CCI, per the consolidation model agreed by Mark and INDIA22 on 2026-09-14 (PR #23)
 
 ## WHAT THIS FILE IS
@@ -34,10 +34,10 @@ If something in this file conflicts with an older file, **this file wins**, unle
 | 7 | Fri 25 Dec | Hotel adiMOUNT (Dwarahat) | YSS Dwarahat day — hotel is ~840m/~5 min walk from the YSS gate |
 | 8 | Sat 26 Dec | Haidakhan Vishwa Mahadham | arrival |
 | 9 | Sun 27 Dec | Haidakhan | protected quiet day 1/2 |
-| 10 | Mon 28 Dec | Haidakhan | protected quiet day 2/2 |
-| 11 | Tue 29 Dec | Delhi transit hotel | via Kathgodam→Delhi train |
-| 12 | Wed 30 Dec | Agra | Taj Mahal |
-| 13 | Thu 31 Dec | train to Gaya | |
+| 10 | Mon 28 Dec | Haidakhan | protected quiet day 2/2; **local road go/no-go for 29 Dec. If current road knowledge says the early-train connection is unsafe/too long, leave Haidakhan in the afternoon and sleep near Kathgodam station as the pre-locked fallback.** |
+| 11 | Tue 29 Dec | **Greater Noida / Pari Chowk** | **05:30 Haidakhan → Kathgodam; 08:40 train 15036; get off Ghaziabad 14:39; private car ~15:00→~16:00 Greater Noida; rest. Avoid central Delhi.** |
+| 12 | Wed 30 Dec | **Agra / Taj-area hotel** | **07:00 Greater Noida → Vrindavan; Katyayani Peeth [A+] + NKB Vrindavan Ashram/Mahasamadhi [A+] in morning; lunch; ~13:00 depart; ~15:00 Agra/Taj hotel.** |
+| 13 | Thu 31 Dec | **early Taj Mahal, then onward toward Gaya/Bodh Gaya** | Taj at earliest practical opening; exact post-Taj transport is the next work package and is not locked here. |
 | 14 | Fri 1 Jan | Bodh Gaya | arrival |
 | 15 | Sat 2 Jan | Bodh Gaya | protected day |
 | 16 | Sun 3 Jan | Varanasi / Sahi River View | |
@@ -80,6 +80,15 @@ If something in this file conflicts with an older file, **this file wins**, unle
 - **Lama Anagarika Govinda's historic Kasar Devi Ashram ("Bodh Ashram")** — Mark actively wants this, because of the direct **Neem Karoli Baba (Maharajji) → Ram Dass → Govinda** link: official Ram Dass material records Maharajji's instruction "Go see Lama Govinda," and Ram Dass described the resulting meeting as a profound surrender/coming-home experience. Current physical continuity target: **Evam Choskhorling Monastery / Drikung Kagyu Meditation Centre**, Kasar Devi (on Govinda's historic ~16-hectare estate, transferred to the Drikung Kagyu lineage in the late 1970s). Govinda's original house / exact Ram Dass meeting room has **not** been proven to survive — don't call any current building "Govinda's house."
 - **Turiya Niwas is OUT of active planning** — see the downgrade above; do not present it as a stop, reserve, or open confirmation item.
 - No extra luggage move / hotel change for any of this — 21 Dec remains a day trip from Hotel Evelyn.
+
+**LOCKED BY MARK 2026-09-23 — 28–31 DEC HAIDAKHAN → GHAZIABAD → GREATER NOIDA → VRINDAVAN → AGRA/Taj corridor.** Binding decision: `decisions/INDIA22_HAIDAKHAN_GHAZIABAD_GREATER_NOIDA_VRINDAVAN_AGRA_DEFINITIVE_LOCK_2026-09-23.md`.
+
+- **Fact-gate operating class:** intended Vishwa Mahadham location reconciled around 29.2473, 79.6559; Kathgodam road is treated operationally as ~30–45 km / ~1.5–2 h normal. Use **2–2.5 h protected road allowance** for a train in late December. Exact kilometres remain LIVE_RECHECK; the old ~90 km value is not used as planning truth.
+- **28 Dec local safety gate:** default is to remain at Haidakhan for the night. Ask the ashram/regular driver for the current winter departure needed to reach Kathgodam station before ~08:00. If local evidence says the trip is materially longer/unreliable, activate the already-locked fallback: leave Haidakhan during the afternoon of 28 Dec and sleep at/near Kathgodam station. Do not solve that risk by pushing the 29 Dec departure earlier into an unreasonable night drive.
+- **29 Dec default clock plan:** 05:30 leave Haidakhan → protected arrival Kathgodam ~08:00 → train **15036 08:40** → **Ghaziabad 14:39** → meet pre-booked driver with luggage → ~15:00–16:00 drive to **Greater Noida / Pari Chowk hotel zone** → rest/no sightseeing. Do not continue into central Delhi by plan.
+- **30 Dec:** **07:00** leave Greater Noida in one private car with all luggage → target Vrindavan ~09:00 → Katyayani Peeth/Keshabananda [A+] about 09:10–10:20 → local transfer about 10:20–10:45 → Neem Karoli Baba Vrindavan Ashram/Mahasamadhi [A+] about 10:45–11:50 (linger only if current opening hours permit) → lunch/rest ~12:00–13:00 → same car to Agra → target Taj-area hotel ~15:00. Exactly these two Vrindavan A+ stops; no broader Braj/Mathura reopening.
+- **31 Dec:** earliest practical Taj Mahal [A+] morning. Current official rule is opening 30 minutes before sunrise; live-check the exact gate/opening shortly before travel. Post-Taj Agra→Gaya/Bodh Gaya remains the next transport solve.
+- Hotel **zones/functions are locked** (Greater Noida/Pari Chowk; Agra/Taj-practical), exact hotel properties are booking-stage choices.
 
 **Before booking, still needs real-world confirmation (not more desk research):**
 1. Direct permission from Evam Choskhorling / Drikung Kagyu Meditation Centre to visit — a map "open" listing is not enough; one visitor report said it's normally closed except for events.
@@ -135,7 +144,7 @@ If something in this file conflicts with an older file, **this file wins**, unle
 
 **Out, unless Mark explicitly reopens it:** Puri/Odisha, Haridwar/Kankhal/Rishikesh, Prayagraj, Mysuru/Bengaluru, Ranchi, Puducherry/Sri Aurobindo.
 
-**Vrindavan/Braj/Mathura/Govardhan** stays OUT as a separate travel world/overnight base — no extra night, no separate base, no broader rediscovery. **Narrow exception (2026-09-16):** explicitly open as a **30 Dec private-car corridor test only** (Delhi→Agra now runs by private car, not train), per `decisions/INDIA22_VRINDAVAN_30DEC_CORRIDOR_GRADE_REPAIRS_2026-09-16.md`. See KUMAON/HAIDAKHAN-style corridor logic applied to this one transfer day; do not read this as a Braj cluster reopen.
+**Vrindavan/Braj/Mathura/Govardhan** stays OUT as a separate travel world/overnight base — no extra Vrindavan night and no broader rediscovery. **Corridor exception is now LOCKED (2026-09-23):** 30 Dec contains exactly two morning A+ visits — Katyayani Peeth / historic Keshabananda ashram-hermitage and Neem Karoli Baba Vrindavan Ashram / Mahasamadhi — reached by private car from the Greater Noida/Pari Chowk overnight base, then the same car continues to the Agra/Taj hotel. No third Braj/Mathura stop. Binding decision: `decisions/INDIA22_HAIDAKHAN_GHAZIABAD_GREATER_NOIDA_VRINDAVAN_AGRA_DEFINITIVE_LOCK_2026-09-23.md`.
 
 ## OPEN DECISIONS — THE FULL LIST
 
