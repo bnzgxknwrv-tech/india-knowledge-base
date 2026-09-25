@@ -115,7 +115,7 @@ Minimum PASS fields in the JSON receipt (see `governance/boot_receipts/README.md
 - `manifest_path: "governance/BOOT_MANIFEST_V8.json"` + `manifest_blob`;
 - `central_reads` / `cci_reads` / `active_cluster_reads` — one row per manifest file with `path`, `blob_sha`, `eof_reached: true`, `tool_truncated: false`, `byte_length`, and `read_ranges` (non-overlapping `[start,end]` byte ranges whose union is the full file — partial/skimmed reads cannot pass). The handoff checksum is intentionally attested in both `central_reads` and `active_cluster_reads` because it serves both central-baseline and final-reread roles;
 - `delta_reread_paths` — every mandatory file that changed between `boot_head_initial` and `boot_head_final`;
-- `proof_of_read` — at least 3 unique verbatim full-sentence quotes (>=40 chars) from distinct categories: one from `CURRENT_STATE.md` or `SUCCESSOR_SAFE_STATE.md`, one from the newest `# Rnn —` item in `INDIA_RECOVERY_DELTAS_CURRENT.md`, one from any of the six immutable CCI sources — each quote verified verbatim against the pinned ref, and a category cannot be satisfied by a quote from the wrong file;
+- `proof_of_read` — at least 3 unique verbatim full-sentence quotes (>=40 chars) from distinct current categories: one from `CURRENT_TRUTH.md`, one from `MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md`, and one from any of the six immutable CCI sources — each quote verified verbatim against the pinned ref, and a category cannot be satisfied by a quote from the wrong file; the older CURRENT_STATE/SAFE_STATE/RECOVERY_DELTAS proof schema was retired with the compact cockpit on 2026-09-14;
 - `active_cluster` matching the manifest's `active_cluster`;
 - `validator_mode: "--require-session-receipt"`;
 - `summary_substitution_used: false`;
