@@ -71,6 +71,9 @@ NONCE_RE = re.compile(r"^[A-Z0-9]{6,32}$")
 RECEIPT_TIMESTAMP_TOLERANCE_SECONDS = 6 * 3600
 CURRENT_TRUTH = "governance/CURRENT_TRUTH.md"
 ACTIVE_MEMORY_HANDOFF = "governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md"
+# Kept for the legacy structural active-cluster cross-check below; this deprecated
+# file is not a proof-of-read source and is not restored to central_required.
+CURRENT_STATE = "governance/CURRENT_STATE.md"
 CROSS_REF_FILES = [
     "governance/INDIA_MASTER_BOOT.md",
     "governance/INDIA_CURRENT_KNOWLEDGE_MAP.md",
