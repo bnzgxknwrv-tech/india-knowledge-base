@@ -69,9 +69,8 @@ NONCE_RE = re.compile(r"^[A-Z0-9]{6,32}$")
 # committed is evidence the timestamp was copied/fabricated rather than
 # generated live at commit time.
 RECEIPT_TIMESTAMP_TOLERANCE_SECONDS = 6 * 3600
-RECOVERY_DELTAS = "governance/INDIA_RECOVERY_DELTAS_CURRENT.md"
-CURRENT_STATE = "governance/CURRENT_STATE.md"
-SAFE_STATE = "governance/SUCCESSOR_SAFE_STATE.md"
+CURRENT_TRUTH = "governance/CURRENT_TRUTH.md"
+ACTIVE_MEMORY_HANDOFF = "governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md"
 CROSS_REF_FILES = [
     "governance/INDIA_MASTER_BOOT.md",
     "governance/INDIA_CURRENT_KNOWLEDGE_MAP.md",
@@ -484,24 +483,14 @@ if not mandatory_changed.issubset(reread):
 
 # ---------------------------------------------------------------------------
 # Proof-of-read: >=3 unique verbatim full-sentence quotes from distinct,
-# correctly-labeled categories, verified against pinned source text. A
-# category cannot be satisfied by a quote from the wrong source ("relabeling").
+# correctly-labeled CURRENT mandatory categories, verified against pinned text.
+#
+# 2026-09-25 repair: the compact successor cockpit retired CURRENT_STATE,
+# SUCCESSOR_SAFE_STATE and INDIA_RECOVERY_DELTAS_CURRENT from mandatory boot
+# reading on 2026-09-14. Requiring proof quotes from those deprecated files made
+# a receipt for the live compact manifest mechanically impossible. Proof now
+# samples the current truth owner, the final active-memory handoff, and CCI.
 # ---------------------------------------------------------------------------
-def newest_recovery_section(text: str) -> tuple[str, str]:
-    """Return (heading, section_text) for the highest-numbered '# Rxx —' item."""
-    headings = list(re.finditer(r"^# R(\d+)\s*—.*$", text, flags=re.MULTILINE))
-    if not headings:
-        return "", ""
-    newest = max(headings, key=lambda m: int(m.group(1)))
-    start = newest.end()
-    later = [h for h in headings if h.start() > newest.start()]
-    end = min((h.start() for h in later), default=len(text))
-    also_end = text.find("\n# ", start)
-    if also_end != -1 and also_end < end:
-        end = also_end
-    return newest.group(0), text[newest.start():end]
-
-
 proofs = receipt.get("proof_of_read", [])
 if not isinstance(proofs, list) or len(proofs) < 3:
     fail("need at least 3 proof_of_read items")
@@ -510,12 +499,6 @@ if not isinstance(proofs, list) or len(proofs) < 3:
 seen_sources: set[str] = set()
 seen_quotes: set[str] = set()
 cats: set[str] = set()
-
-recovery_heading, recovery_section = ("", "")
-if RECOVERY_DELTAS in pinned_text:
-    recovery_heading, recovery_section = newest_recovery_section(pinned_text[RECOVERY_DELTAS])
-    if not recovery_heading:
-        fail(f"could not locate a newest R-item heading in {RECOVERY_DELTAS}")
 
 for pr in proofs:
     if not isinstance(pr, dict):
@@ -533,15 +516,10 @@ for pr in proofs:
     if len(q) < 40 or not re.search(r"[.!?]$", q.strip()):
         fail(f"proof is not a meaningful full sentence (>=40 chars, ends in . ! or ?): {src}")
 
-    if src in central or src in active:
+    if src in central or src in active or src in cci:
         text = pinned_text.get(src)
         if text is None:
             fail(f"no pinned content available for proof source: {src}")
-            continue
-    elif src in cci:
-        text = pinned_text.get(src)
-        if text is None:
-            fail(f"no pinned content available for CCI proof source: {src}")
             continue
     else:
         fail(f"proof source not mandatory: {src}")
@@ -552,15 +530,12 @@ for pr in proofs:
 
     # Category <-> source binding. A category cannot be satisfied by
     # relabeling a quote from an unrelated file.
-    if cat == "current_state_or_safe":
-        if src not in (CURRENT_STATE, SAFE_STATE):
-            fail(f"category current_state_or_safe requires source {CURRENT_STATE} or {SAFE_STATE}, got {src}")
-    elif cat == "newest_recovery_delta":
-        if src != RECOVERY_DELTAS:
-            fail(f"category newest_recovery_delta requires source {RECOVERY_DELTAS}, got {src}")
-        elif recovery_section and q not in recovery_section:
-            fail(f"newest_recovery_delta proof quote is not inside the newest R-item "
-                 f"({recovery_heading.strip()}): {src}")
+    if cat == "current_truth":
+        if src != CURRENT_TRUTH:
+            fail(f"category current_truth requires source {CURRENT_TRUTH}, got {src}")
+    elif cat == "active_memory_handoff":
+        if src != ACTIVE_MEMORY_HANDOFF:
+            fail(f"category active_memory_handoff requires source {ACTIVE_MEMORY_HANDOFF}, got {src}")
     elif cat == "cci":
         if src not in cci:
             fail(f"category cci requires a source from the six immutable CCI files, got {src}")
@@ -569,8 +544,8 @@ for pr in proofs:
     # other/unknown categories are allowed as extra evidence but do not
     # satisfy the three mandatory categories below.
 
-if not {"current_state_or_safe", "newest_recovery_delta", "cci"}.issubset(cats):
-    fail("proof categories incomplete: need current_state_or_safe, newest_recovery_delta, cci")
+if not {"current_truth", "active_memory_handoff", "cci"}.issubset(cats):
+    fail("proof categories incomplete: need current_truth, active_memory_handoff, cci")
 
 # Active cluster and validator identity fields.
 if receipt.get("active_cluster") != manifest.get("active_cluster"): fail("active cluster mismatch")
