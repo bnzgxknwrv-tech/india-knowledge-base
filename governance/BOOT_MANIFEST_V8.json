@@ -1,7 +1,7 @@
 {
   "schema_version": "V8",
   "branch": "agent/india8-cluster-casting",
-  "_central_required_note": "HARDENED 2026-09-14 after confirmed INDIA22 READ_BUT_NOT_ACTIVE failure. The attempted 7-file slim boot was too aggressive for Mark-working-model parity. The active cockpit now requires 15 files: compact current truth/frontier plus the Mark-specific behavior/presentation/decision sources and active-memory compilation layer. HOW_TO_WORK_WITH_MARK.md is HARD LOCKED and may not be removed/slimmed/deprecated without Mark's explicit approval. This change intentionally invalidates older exact FULL baselines and forces a new FULL successor check.",
+  "_central_required_note": "HARDENED 2026-09-25 by INDIA23 orphan-scan after the 2026-09-14 15-file cockpit hardening. Active cockpit now requires 16 files: the existing 15 plus decisions/INDIA_TO_CCI_RATIONALE_FIRST_DELEGATION_RULE_2026-09-14.md, which declares a HARD successor requirement and was not losslessly integrated into the mandatory cockpit. HOW_TO_WORK_WITH_MARK.md remains HARD LOCKED and may not be removed/slimmed/deprecated without Mark's explicit approval. This material central_required change intentionally invalidates older exact FULL baselines and forces a fresh FULL successor check.",
   "central_required": [
     "governance/FRESH_SESSION_BOOT_GATE.md",
     "governance/INDIA_MASTER_BOOT.md",
@@ -17,6 +17,7 @@
     "governance/MARK_PERSON_PROVENANCE_PLACE_MEANING_RULE.md",
     "governance/MARK_FACING_PLACE_CARD_TRAVEL_VALUE_RULE_2026-09-13.md",
     "governance/MARK_DAY_BLOCK_ONLY_PDF_RULE_2026-09-13.md",
+    "decisions/INDIA_TO_CCI_RATIONALE_FIRST_DELEGATION_RULE_2026-09-14.md",
     "governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md"
   ],
   "_cci_required_note": "Left untouched 2026-09-14 during successor-boot work. validate_successor_boot.py currently expects exactly 6 cci_required paths. Frozen CCI material is recovery evidence; newer CURRENT_TRUTH/CURRENT_FRONTIER and explicit Mark truth outrank it when they disagree.",
