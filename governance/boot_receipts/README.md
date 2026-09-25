@@ -18,7 +18,8 @@ The validator-enforced minimum includes:
 Each read row contains `path`, `blob_sha`, `eof_reached`, `tool_truncated`, `byte_length`, `read_ranges`.
 
 `proof_of_read` contains >=3 unique verbatim full-sentence quotes from the required categories:
-`current_state_or_safe`, `newest_recovery_delta`, `cci`.
+`current_truth`, `active_memory_handoff`, `cci`.
+The first quote must come from `governance/CURRENT_TRUTH.md`, the second from `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md`, and the third from one of the six immutable manifest `cci_required` sources. This 2026-09-25 schema replaces the pre-consolidation proof categories that pointed at deprecated `CURRENT_STATE` / `SUCCESSOR_SAFE_STATE` / `INDIA_RECOVERY_DELTAS_CURRENT` files.
 
 `control_veto_checksum` is an object attesting the per-answer control vetoes named in `governance/INDIA_MASTER_BOOT.md` §2B. It must contain a truthy value for every one of these keys:
 `TRAIN_FIRST_DOOR_TO_DOOR`, `AL_BESLIST`, `NAMING_EVERY_OCCURRENCE`, `GEO_VERIFICATION_NO_GUESSED_PIN`, `ACTION_FIRST`, `SAME_TURN_DURABLE_WHAT_WHY`, `CCI_THREE_WAY_FILTER`, `SAFE_STATE`, `FULL_SOURCE_LAYER`, `NU_DOEN`, `SUCCESSOR_ACTIVE_MEMORY_HANDOFF_VETO`.
