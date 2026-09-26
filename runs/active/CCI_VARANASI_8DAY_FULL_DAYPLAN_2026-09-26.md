@@ -35,7 +35,7 @@ Clustered by real ghat/city geography (south→north along the river, Sarnath as
 
 ## Wed 6 Jan — Lahiri Mahasaya / AOAY core day → Dashashwamedh Aarti
 
-- **Lahiri Mahasaya original/family house [A+]** — core residence/teaching/death house. Access gate: interior visit for January must be confirmed before this day is finalized (LIVE_RECHECK).
+- **Lahiri Mahasaya original/family house [A+] — LOCKED BY MARK 2026-09-26: exterior-only, ~30 minutes.** House only opens to visitors on Guru Purnima (June/July), closed otherwise including January. Mark wants to go and sit outside regardless; grade stays A+, this is not reopened as a "should we still go" question in any future presentation.
 - **Lahiri Mahasaya Samadhi / Satyalok [A]** — separate ashes/samadhi/lineage site, likely more reliably accessible than the house itself.
 - **Bengali Tola–Thatheri Bazaar–Chowk lanes [A]** — Lahiri's own school involvement here, plus general Old Kashi human texture.
 - **Shri Kashi Vishwanath Temple [A]** — the living sacred core of Kashi, major Jyotirlinga.

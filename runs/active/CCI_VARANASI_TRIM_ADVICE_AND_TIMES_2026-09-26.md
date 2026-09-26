@@ -37,7 +37,7 @@ The good news: **Lahiri Mahasaya Samadhi / Satyalok (A040, [A])** is a *differen
 
 | Location | Lineage/Top-X link | Real dwell | Prior-stop → here | My cut advice |
 |---|---|---|---|---|
-| Lahiri Mahasaya original house [A+] | **direct lineage — but closed except Guru Purnima, see above** | exterior only, 10–15 min | — | fixed grade, but treat as exterior-only; do not schedule interior time |
+| Lahiri Mahasaya original house [A+] | **direct lineage — but closed except Guru Purnima, see above** | **LOCKED BY MARK 2026-09-26: exterior only, ~30 minutes, sit outside regardless of closure** | — | fixed grade, not a cut candidate, not reopened as a "still worth going" question |
 | Lahiri Mahasaya Samadhi/Satyalok [A] | direct lineage — Lingam, statues, **Babaji meditation cave**, regularly open | 45–60 min, longer if you want to actually sit | ~10 min from the house exterior (same Bengali Tola neighborhood) | KEEP — this is now doing double duty for the lineage day |
 | Bengali Tola/Thatheri Bazaar/Chowk lanes [A] | Lahiri's own school was here — real but diffuse | 20–30 min (it's a walk-through, not a stop) | 0 (same neighborhood) | KEEP — costs almost nothing since you're already there |
 | Kashi Vishwanath Temple [A] | major Jyotirlinga — not personally lineage-linked, but the living sacred core of the whole city | 45–90 min incl. security/queue | ~10–15 min walk | KEEP — this is the kind of "top-X of Hinduism itself" stop, not a person-lineage one, but it's the city's actual center of gravity |
