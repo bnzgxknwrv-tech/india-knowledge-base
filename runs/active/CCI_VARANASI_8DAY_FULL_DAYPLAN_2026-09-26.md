@@ -1,24 +1,24 @@
-# VARANASI — FULL 8-DAY PLAN, ALL CURRENT GRADED LOCATIONS
+# VARANASI — FULL 7-DAY PLAN, ALL CURRENT GRADED LOCATIONS
 
-Date: 2026-09-26
+Date: 2026-09-26 (updated same day: Sarnath cut, 8 nights → 7 nights)
 Scope: arrival from Bodh Gaya through departure to next cluster (Kolkata).
 Status: MARK-REVIEW WORKING PLAN. Geographic clustering + all current grades reconciled from `governance/CURRENT_TRUTH.md`, the master ledger (`runs/active/INDIA20-LIVE-LEDGER-V4-REPAIR-001/LIVE_DERIVED_PLACE_GRADE_LEDGER_2026-09-13.csv`), and today's grade batch (`decisions/INDIA23_BODH_VARANASI_GRADE_BATCH_MARK_DECISION_2026-09-26.md`).
 
-## DATE CASCADE — RESOLVED 2026-09-26
+## SARNATH CUT — LOCKED 2026-09-26
 
-Bodh Gaya 3 nights / Tiruvannamalai 4 nights is now **locked** (`decisions/INDIA23_BODHGAYA_3N_TIRUVANNAMALAI_4N_NIGHT_TRADE_LOCK_MARK_DECISION_2026-09-26.md`), matching the original `INDIA19_Kloktijdplanning_A79` PDF split. This confirms, not just provisionally assumes, the dates below: Varanasi runs 4–11 Jan, Kolkata shifts to 12–14 Jan, and Tiruvannamalai (now 4 nights instead of 5) still departs 19 Jan exactly as before — the fixed 33-night frame, Chennai buffer, and final Delhi night are unaffected.
+Mark decided the Buddha-life theme is already fully covered by Bodh Gaya's 3 nights (Bodhi Tree + Dungeshwari cave); a full extra day for Sarnath (Buddha's first sermon) inside Varanasi is more Buddhist-history depth than he wants, at the cost of time he'd rather protect for other cities later in the trip. Sarnath (Dhamek Stupa, Chaukhandi Stupa, Deer Park, Mulagandha Kuti Vihara, Archaeological Museum) is cut entirely, not trimmed. Varanasi drops from 8 to 7 nights. Binding decision: `decisions/INDIA23_VARANASI_SARNATH_CUT_7N_MARK_DECISION_2026-09-26.md`.
 
-Dates used below: arrival Mon 4 Jan 2027, 8 occupied days (4–11 Jan), depart Tue 12 Jan.
+Dates used below: arrival Mon 4 Jan 2027, 7 occupied days (4–10 Jan), depart Mon 11 Jan. Where the freed night goes (proposal: +1 Kolkata night) is tracked in `governance/CURRENT_TRUTH.md`, not repeated here since it doesn't affect Varanasi's own content.
 
 ## STRUCTURE PRINCIPLE
 
-Clustered by real ghat/city geography (south→north along the river, Sarnath as a separate out-of-town day), so no day requires doubling back across the whole city. Manikarnika Ghat is kept off the same day as the Bhrigu appointment, per the existing hard rule. Dashashwamedh Ghat's evening Ganga Aarti [A+] is the natural closing block wherever the day ends near the central ghats; it can informally repeat any evening Mark wants, but is graded once.
+Clustered by real ghat/city geography (south→north along the river). Manikarnika Ghat is kept off the same day as the Bhrigu appointment, per the existing hard rule. Dashashwamedh Ghat's evening Ganga Aarti [A+] is the natural closing block wherever the day ends near the central ghats; it can informally repeat any evening Mark wants, but is graded once.
 
 ---
 
 ## Mon 4 Jan — Arrival / wind-down
 
-- 07:50 arrival Gaya Junction → private car → Varanasi transport bookend (see note below; not yet the same-day option — see the actual Bodh Gaya plan for the Gaya→Varanasi leg, train 20887, arrival Varanasi Jn ~13:00).
+- 07:50 arrival Gaya Junction → private car → Varanasi transport bookend (see the Bodh Gaya plan for the Gaya→Varanasi leg, train 20887, arrival Varanasi Jn ~13:00).
 - ~13:45–14:15 arrive **Sahi River View Guesthouse, Assi Ghat** [LOCKED_BY_MARK] — balcony room, contact Jitendre.
 - Unpack, rest. Optional easy first evening: walk to Assi Ghat at dusk, no scheduled content.
 
@@ -53,41 +53,31 @@ Clustered by real ghat/city geography (south→north along the river, Sarnath as
 - **Shri Tailanga Swami Math [A]** — direct Trailanga Swami life/samadhi site, with a documented Ramakrishna/Lahiri relevance.
 - **Alamgir Mosque / Dharahara [A\*, bycatch only]** — only while already at Panchganga, never a special trip.
 
-## Fri 8 Jan — Kedar Ghat + flex/appointment day (Sarnath Museum is closed Fridays, so Sarnath is deliberately NOT today)
+## Fri 8 Jan — Kedar Ghat + Bhrigu appointment day
 
 - **Kedareshwar Temple + Kedar Ghat [A]** — protected from the 2026-09-13 downgrade batch specifically because of Sri Ramakrishna's 1868 Kasi-pilgrimage residence and a named ecstasy episode here.
 - **New Bhrigu Karyalaya / Bhadury Sadan, Ramapura-Luxa [A+]** — Mark's Swami Kriyananda/Book of Bhrigu motivation. **Appointment required** — this is the natural day to hold that slot if the actual appointment time doesn't land elsewhere; exact scheduling depends on when the appointment can be booked (LIVE_RECHECK, contact ahead of arrival).
 - Remainder of day: flex/rest, buffer for whichever of the above overruns.
 
-## Sat 9 Jan — Sarnath (separate town, full/half day; Museum open Saturdays)
+## Sat 9 Jan — Reserve / flex day
 
-- **Sarnath sacred-archaeological world [A+]** (parent) — Buddha's first-sermon site.
-  - **Dhamek Stupa [A]** — monumental first-sermon sacred-zone anchor.
-  - **Chaukhandi Stupa [A]** — traditional marker of Buddha meeting his first five disciples.
-  - **Deer Park [A]** — first-sermon landscape/breathing space.
-  - **Mulagandha Kuti Vihara [A]** — living Buddhist practice, murals of Buddha's life.
-  - **Sarnath Archaeological Museum [A]** — holds the original Ashoka Lion Capital, source of India's national emblem. **Closed Fridays — this is why Sarnath is scheduled today, not 8 Jan.**
-
-## Sun 10 Jan — Reserve / flex day
-
-- No new mandatory content — this is the buffer the 8-day block needs given Manikarnika's open-ended time, the Bhrigu appointment's uncertain exact slot, and the Lahiri house access-gate uncertainty.
+- No new mandatory content — this is the buffer the block needs given Manikarnika's open-ended time, the Bhrigu appointment's uncertain exact slot, and the Lahiri house access-gate uncertainty.
 - Genuine options if the day is running free: repeat the dawn rowboat or Ganga Aarti informally, visit any B-reserve item Mark wants to see anyway (Shitala Mata Temple, Adi Keshava Ghat, Bindu Madhav Temple, Sankatha Devi Temple, Shreyansanath Jain Tirth, Saranganath Temple, Vishalakshi Gauri Temple, Kabir Chaura Math — all real, all currently B/retained-in-memory, none scheduled by default), or simply rest.
 
-## Mon 11 Jan — Final Varanasi day
+## Sun 10 Jan — Final Varanasi day
 
 - Any overflow from the open-ended Manikarnika day or the Bhrigu appointment lands here if needed.
 - Otherwise: free, pack, a last unhurried evening at Assi Ghat.
 - Final night at Sahi River View Guesthouse.
 
-## Tue 12 Jan — Depart Varanasi → next cluster (Kolkata)
+## Mon 11 Jan — Depart Varanasi → next cluster (Kolkata)
 
-**NOT YET SOLVED.** Preliminary web checks this session found several Varanasi Jn↔Howrah options (a Rajdhani via DDU/Mughalsarai with an awkward ~01:30 departure; a "Kolkata Express" and "Gurumukhi Express" both departing Varanasi around 00:50–01:10; none of these are a clean civilized evening-departure/morning-arrival match like the lucky Agra→Gaya pairing). This needs the same dedicated, properly cross-verified research pass the Agra→Gaya leg got — not a rushed guess. Recommend dispatching this as its own bounded CCI/WORK task before locking a departure time or hotel checkout plan for 11/12 Jan.
+**NOT YET SOLVED.** Preliminary web checks this session found several Varanasi Jn↔Howrah options (a Rajdhani via DDU/Mughalsarai with an awkward ~01:30 departure; a "Kolkata Express" and "Gurumukhi Express" both departing Varanasi around 00:50–01:10; none of these are a clean civilized evening-departure/morning-arrival match like the lucky Agra→Gaya pairing). This needs the same dedicated, properly cross-verified research pass the Agra→Gaya leg got — not a rushed guess. Recommend dispatching this as its own bounded CCI/WORK task before locking a departure time or hotel checkout plan for 10/11 Jan.
 
 ## LIVE_RECHECK BEFORE BOOKING
 
-1. Lahiri Mahasaya house January interior-access confirmation.
+1. Lahiri Mahasaya house January exterior-access practicalities (interior confirmed closed except Guru Purnima, see above).
 2. New Bhrigu Karyalaya/Bhadury Sadan exact appointment date/time.
-3. Sarnath Archaeological Museum current Friday-closure rule still in force closer to travel.
-4. Both Vrindavan-style "current hours" caveats do not apply here, but Manikarnika/Dashashwamedh have no fixed hours to verify — general ghat/temple access only.
-5. The Bodh Gaya 3-night cascade's effect on the total 33-night frame (separate, outstanding — flagged above).
-6. Varanasi→Kolkata transport — separate dedicated task, not yet done.
+3. Manikarnika/Dashashwamedh have no fixed hours to verify — general ghat/temple access only.
+4. Whether the freed Sarnath night goes to Kolkata (current proposal) or elsewhere — Mark confirmation pending, see `governance/CURRENT_TRUTH.md`.
+5. Varanasi→Kolkata transport — separate dedicated task, not yet done.
