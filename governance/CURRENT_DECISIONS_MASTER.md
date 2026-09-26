@@ -114,7 +114,7 @@ Other OPEN Kumaon candidate:
 
 - Taj Mahal = A+; one Agra hotel night retained.
 - earliest practical Taj morning; onward 12988 remains the tested whole-human rail winner unless a material new fact appears.
-- Bedai, Petha, Gajak = B opportunistic/near-zero-burden; Dalmoth = B.
+- **A013 Bedai at Deviram's = A\***, **A014 Petha = A\***, **A015 Gajak = A\***: Mark 2026-09-26 — fun if naturally available, but zero independent priority; Agra is for the earliest-practical Taj Mahal [A+] morning. Dalmoth = B.
 - Kinari Bazaar and Sadar Bazaar/Chaat Gali = C.
 
 ## 7. BODH GAYA / GAYA — CURRENT
