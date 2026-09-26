@@ -110,12 +110,13 @@ If something in this file conflicts with an older file, **this file wins**, unle
 
 ## BODH GAYA / GAYA
 
-- Mahabodhi Temple/Bodhi Tree [A+], Dungeshwari cave [A+], Sujata milk-offering spot/temple [A+], Pragbodhi seven-stupa ridge [A], Sujata Stupa/Garh [A], Great Buddha statue [A], international monastery belt [A].
+- Mahabodhi Temple/Bodhi Tree [A+], Dungeshwari cave [A+], Sujata milk-offering spot/temple [A+], **Sujata Stupa/Garh [A+] (Mark promotion 2026-09-26)**, Pragbodhi seven-stupa ridge [A], Great Buddha statue [A], international monastery belt [A].
 - Route: Dungeshwari cave → seven-stupa ridge → Sujata sites → river corridor → Mahabodhi/Bodhi Tree.
 - **Open:** 2 or 3 nights (paired with the Tiruvannamalai 4-vs-5 question).
 
 ## VARANASI / SARNATH
 
+- **MARK GRADE CHANGES 2026-09-26:** A025 Ganges dawn rowboat [A+]; A028 Vishalakshi Gauri Temple [B]; A031 Kabir Chaura Math [B]. Binding decision: `decisions/INDIA23_BODH_VARANASI_GRADE_BATCH_MARK_DECISION_2026-09-26.md`.
 - 8 nights, **locked**. Sahi River View Guesthouse, Assi Ghat — **locked**, balcony room requested, contact Jitendre.
 - Manikarnika Ghat [A+] (closing block of its day). Bhrigu Karyalaya/Bhadury Sadan [A+, locked] — needs an appointment, keep off the Manikarnika day.
 - **Dashashwamedh Ghat — DO NOT DROP / preserve the AOAY-Kriya meaning even though the physical stop is already scheduled for Ganga Aarti.** In *Autobiography of a Yogi* ch. 33 this is the central Babaji–Mataji–Lahiri Mahasaya scene witnessed by Ram Gopal: Lahiri sends Ram Gopal to the ghat; Mataji appears from the hidden/underground cave setting and summons Babaji and Lahiri; Babaji then gives the famous assurance that he will not abandon his physical body and will remain visible to at least a few on earth. This makes the already-planned Dashashwamedh visit a direct **Mahavatar Babaji + Lahiri Mahasaya + Mataji + Ram Gopal / AOAY** anchor, not merely a Ganga-Aarti stop. Any future calendar/PDF must carry this recognition hook explicitly so the Kriya/AOAY significance cannot be lost again. Do **not** assert that a currently marketed "Babaji cave/temple" is the exact AOAY cave unless exact physical provenance is separately proven.
