@@ -24,7 +24,7 @@ L022,A013,,Agra,Bedai at Deviram's,B,OPPORTUNISTIC,Historic A013 now B; zero/nea
 L023,A014,,Agra,Petha,B,OPPORTUNISTIC,Historic A014 now B; zero/near-zero marginal burden only
 L024,A015,,Agra,Gajak,B,OPPORTUNISTIC,Historic A015 now B; zero/near-zero marginal burden only
 L025,A017,BOD-01,Bodh Gaya,Mahabodhi Temple Complex + Bodhi Tree,A+,CORE,Enlightenment anchor; unhurried Bodhi Tree presence
-L026,A020,BOD-02,Bodh Gaya,Sujata Stupa / Garh,A,CORE,LIVE grade A; separate archaeological stupa from milk-offering place
+L026,A020,BOD-02,Bodh Gaya,Sujata Stupa / Garh,A+,CORE,MARK PROMOTION 2026-09-26: A -> A+; separate archaeological stupa from milk-offering place
 L027,A021,BOD-03,Bodh Gaya,Dungeshwari / Mahakala Caves,A+,CORE,Start of protected pilgrimage walk; Buddha's ascetic-period cave world
 L028,A018,BOD-04,Bodh Gaya,Great Buddha Statue,A,CORE,Low-burden Buddhist landmark near monastery belt
 L029,A022,BOD-05,Bodh Gaya,Pragbodhi seven-stupa ridge,A,CORE_IF_SAFE,Seven ancient stupa remains/markers; ridge out-and-back; 1.5-2.25h; local monk/guide strongly preferred
@@ -41,9 +41,9 @@ L039,A030,VNS-06,Varanasi/Sarnath,Banarasi paan,A,SMALL_ROUTE_ITEM,Local-culture
 L040,A029,VNS-07,Varanasi/Sarnath,Bengali Tola-Thatheri Bazaar-Chowk lanes,A,CORE,Lahiri school involvement in Bengalitola + Old Kashi human texture
 L041,A032,VNS-08,Varanasi/Sarnath,Assi-Tulsi slow dawn ghat walk,A,CORE,Atmosphere/intrinsic experience is itself A-value; distinct from boat/program
 L042,A037,VNS-09,Varanasi/Sarnath,Subah-e-Banaras at Assi Ghat,A*,ZERO_COST_ONLY,Conditional A*: only if hotel/route makes it effectively free; never extra night
-L043,A025,VNS-10,Varanasi/Sarnath,Ganges dawn rowboat,A,CORE,Protected separate dawn river experience
+L043,A025,VNS-10,Varanasi/Sarnath,Ganges dawn rowboat,A+,CORE,MARK PROMOTION 2026-09-26: A -> A+; protected separate dawn river experience
 L044,A027,VNS-11,Varanasi/Sarnath,Maa Annapurna Temple,A,CORE,Annapurna temple in Vishwanath sacred microcluster
-L045,A028,VNS-12,Varanasi/Sarnath,Vishalakshi Gauri Temple,A,CORE,One of the 51 Shakti Peethas; major pilgrimage-network reason independent of person links
+L045,A028,VNS-12,Varanasi/Sarnath,Vishalakshi Gauri Temple,B,RESERVE,MARK DOWNGRADE 2026-09-26: A -> B; retained in complete living memory
 L046,A054,VNS-16,Varanasi/Sarnath,Chaukhandi Stupa,A,CORE,Traditional Buddha-first-five-disciples meeting marker
 L047,A055,VNS-38,Varanasi/Sarnath,Sarnath Archaeological Museum,A,CORE,"Holds original Ashoka Lion Capital, source of India's national emblem; Friday closed"
 L048,A056,VNS-14,Varanasi/Sarnath,Dhamek Stupa,A,CORE,Monumental first-sermon sacred-zone anchor
@@ -62,7 +62,7 @@ L060,A042,VNS-31,Varanasi/Sarnath,Durga Temple and Durga Kund,A,CORE,Varanasi 'M
 L061,A043,VNS-33,Varanasi/Sarnath,Kedareshwar Temple and Kedar Ghat,A,CORE,Protected A; newly restored Sri Ramakrishna connection prevents downgrade
 L062,A048,VNS-34,Varanasi/Sarnath,Lalita Ghat,A,CORE,Nepali riverfront architectural setting; pair with Kathwala Temple
 L063,A049,VNS-35,Varanasi/Sarnath,Nepali / Kathwala Temple,A,CORE,Unique Kathmandu-like Nepali wooden pagoda architecture in Varanasi
-L064,A031,VNS-37,Varanasi/Sarnath,Kabir Chaura Math,A,CORE,Living Kabir/Kabir Panth center; major devotional-literary tradition
+L064,A031,VNS-37,Varanasi/Sarnath,Kabir Chaura Math,B,RESERVE,MARK DOWNGRADE 2026-09-26: A -> B; retained in complete living memory
 L065,A034,VNS-39,Varanasi/Sarnath,Tulsi Ghat,A,CORE,Tulsidas residence/death geography; place/legend itself justifies A
 L066,A035,VNS-40,Varanasi/Sarnath,Lolark Kund,A*,CORRIDOR_BYCATCH,Conditional A*: only free while already in Bhadaini-Assi block
 L067,,VNS-42,Varanasi/Sarnath,Alamgir Mosque / Dharahara,A*,SKIP_FIRST,Architectural/historical bycatch only while already at Panchganga
