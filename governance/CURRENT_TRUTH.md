@@ -42,19 +42,17 @@ If something in this file conflicts with an older file, **this file wins**, unle
 | 15 | Sat 2 Jan | Bodh Gaya | full Buddha-life pilgrimage walk day (Dungeshwari → Sujata → Mahabodhi) |
 | 16 | Sun 3 Jan | Bodh Gaya | **3rd night — LOCKED BY MARK 2026-09-26**, extra depth/recovery/unstructured Mahabodhi time |
 | 17 | Mon 4 Jan | Varanasi / Sahi River View | arrival |
-| 18–23 | Tue 5 – Sun 10 Jan | Varanasi | **6 more protected days (7 nights total) — LOCKED BY MARK 2026-09-26: Sarnath cut entirely, not just trimmed** (see Varanasi section below); freed night reassigned, proposal below awaiting final confirmation |
-| 24 | Mon 11 Jan | Kolkata/Dakshineswar | arrival — **PROPOSED: +1 night here (3→4 nights) to absorb Varanasi's freed night; awaiting Mark confirmation** |
-| 25 | Tue 12 Jan | Kolkata | |
-| 26 | Wed 13 Jan | Kolkata | |
-| 27 | Thu 14 Jan | Kolkata | **proposed 4th night** |
-| 28 | Fri 15 Jan | Tiruvannamalai | via Chennai + road — unchanged either way, since Varanasi's −1 and Kolkata's proposed +1 cancel out |
+| 18–22 | Tue 5 – Sat 9 Jan | Varanasi | **5 more protected days (6 nights total) — LOCKED BY MARK 2026-09-26: Sarnath cut entirely, AND the reserve/flex day cut** (see Varanasi section below) |
+| 23 | Sun 10 Jan | Kolkata/Dakshineswar | arrival (transport leg not yet verified, see `runs/active/CCI_VARANASI_FULL_CLOCKTIME_PROPOSAL_2026-09-26.md`) |
+| 24–27 | Mon 11 – Thu 14 Jan | Kolkata | **default 5 nights total (10–14 Jan) — NOT a decision**, just where the two nights freed from Varanasi flow to automatically, since Tiruvannamalai's 15-Jan arrival is separately locked below. Mark is reviewing cluster by cluster and has not yet decided whether Kolkata keeps this surplus or some of it moves elsewhere (e.g. a possible Puri reopening) |
+| 28 | Fri 15 Jan | Tiruvannamalai | via Chennai + road — unaffected by the Varanasi change either way |
 | 29–31 | Sat 16 – Mon 18 Jan | Tiruvannamalai | 3 protected days (4 nights total) — LOCKED BY MARK 2026-09-26, reduced from 5 nights to pair with Bodh Gaya's 3rd night |
 | 32 | Tue 19 Jan | Chennai | buffer before flight |
 | 33 | Wed 20 Jan | Delhi | final night before AI155 |
 
 **LOCKED BY MARK 2026-09-26 — Bodh Gaya 3 nights / Tiruvannamalai 4 nights** (matches `INDIA19_Kloktijdplanning_A79` PDF's original split; resolves the previously-open trade-off by pairing Bodh Gaya's extra night with an equal reduction at Tiruvannamalai). This keeps the fixed 33-night total, the fixed Chennai buffer (19 Jan) and the fixed final Delhi night (20 Jan) exactly unchanged.
 
-**LOCKED BY MARK 2026-09-26 — Varanasi Sarnath day cut, night given back to the trip.** Mark decided the Buddha-life content is already fully covered by Bodh Gaya's 3 nights, so a full extra Sarnath day inside Varanasi is unnecessary. Varanasi drops from 8 to 7 nights (4–10 Jan). Where the freed night goes is the one open sub-question: current proposal is +1 Kolkata night (3→4), which keeps Tiruvannamalai/Chennai/Delhi dates exactly as already locked — awaiting Mark's confirmation. Binding decision: `decisions/INDIA23_VARANASI_SARNATH_CUT_7N_MARK_DECISION_2026-09-26.md`.
+**LOCKED BY MARK 2026-09-26 — Varanasi: Sarnath cut entirely, reserve/flex day also cut. 8 nights → 6 nights (4–9 Jan).** Mark decided the Buddha-life content is already fully covered by Bodh Gaya's 3 nights, so Sarnath added nothing essential; the reserve day had "no verplichte inhoud" by design, so Mark said cut it too ("Uiteraard verwijderen"). Where these two freed nights land is explicitly **not yet decided** — Mark is reviewing cluster by cluster and said Kolkata is "almost certainly" but not 100% confirmed. Until he decides otherwise, they flow to Kolkata by simple calendar arithmetic (Tiruvannamalai's 15-Jan arrival is a separate, already-locked constraint), not because that's been chosen. Binding decisions: `decisions/INDIA23_VARANASI_SARNATH_CUT_7N_MARK_DECISION_2026-09-26.md` and `decisions/INDIA23_VARANASI_RESERVE_DAY_CUT_6N_MARK_DECISION_2026-09-26.md`.
 
 ## KUMAON / HAIDAKHAN
 
@@ -121,15 +119,16 @@ If something in this file conflicts with an older file, **this file wins**, unle
 ## VARANASI (Sarnath cut out — see below)
 
 - **MARK GRADE CHANGES 2026-09-26:** A025 Ganges dawn rowboat [A+]; A028 Vishalakshi Gauri Temple [B]; A031 Kabir Chaura Math [B]. Binding decision: `decisions/INDIA23_BODH_VARANASI_GRADE_BATCH_MARK_DECISION_2026-09-26.md`.
-- **LOCKED BY MARK 2026-09-26: 7 nights** (4–10 Jan), down from 8 — Sarnath (Dhamek Stupa, Deer Park, Mulagandha Kuti Vihara, Archaeological Museum, all under the former [A+] Sarnath parent) is cut entirely, not trimmed. Mark's reasoning: the Buddha-life content is already fully covered by Bodh Gaya's 3 nights (Bodhi Tree + Dungeshwari cave); a full extra day for Buddha's first-sermon site on top of that is more Buddhist-history depth than he wants, and he'd rather protect time for other cities later in the trip. Binding decision: `decisions/INDIA23_VARANASI_SARNATH_CUT_7N_MARK_DECISION_2026-09-26.md`.
-- Full location-by-location dayplan (post-cut): `runs/active/CCI_VARANASI_8DAY_FULL_DAYPLAN_2026-09-26.md` (title kept for provenance; content now reflects 7 days) and trim advice `runs/active/CCI_VARANASI_TRIM_ADVICE_AND_TIMES_2026-09-26.md`.
+- **LOCKED BY MARK 2026-09-26: 6 nights** (4–9 Jan), down from 8. Two cuts: (1) Sarnath (Dhamek Stupa, Deer Park, Mulagandha Kuti Vihara, Archaeological Museum, all under the former [A+] Sarnath parent) cut entirely — Mark's reasoning: Buddha-life content is already fully covered by Bodh Gaya's 3 nights (Bodhi Tree + Dungeshwari cave); (2) the reserve/flex day cut too, on Mark's own instruction ("Uiteraard verwijderen") once it was clear it carried no mandatory content. Binding decisions: `decisions/INDIA23_VARANASI_SARNATH_CUT_7N_MARK_DECISION_2026-09-26.md`, `decisions/INDIA23_VARANASI_RESERVE_DAY_CUT_6N_MARK_DECISION_2026-09-26.md`.
+- Full location-by-location dayplan, trim advice, and the complete hotel-to-hotel clock-time proposal: `runs/active/CCI_VARANASI_8DAY_FULL_DAYPLAN_2026-09-26.md`, `runs/active/CCI_VARANASI_TRIM_ADVICE_AND_TIMES_2026-09-26.md`, `runs/active/CCI_VARANASI_FULL_CLOCKTIME_PROPOSAL_2026-09-26.md`.
+- The clocktime proposal applies CCI's own recommended defaults for two still-adjustable cuts (Sankat Mochan Hanuman Temple + Durga Mandir; Lalita Ghat + Nepali/Kathwala Temple) — not yet Mark-confirmed, easy to reverse.
 - Sahi River View Guesthouse, Assi Ghat — **locked**, balcony room requested, contact Jitendre.
 - Manikarnika Ghat [A+] (closing block of its day). Bhrigu Karyalaya/Bhadury Sadan [A+, locked] — needs an appointment, keep off the Manikarnika day.
 - **Dashashwamedh Ghat — DO NOT DROP / preserve the AOAY-Kriya meaning even though the physical stop is already scheduled for Ganga Aarti.** In *Autobiography of a Yogi* ch. 33 this is the central Babaji–Mataji–Lahiri Mahasaya scene witnessed by Ram Gopal: Lahiri sends Ram Gopal to the ghat; Mataji appears from the hidden/underground cave setting and summons Babaji and Lahiri; Babaji then gives the famous assurance that he will not abandon his physical body and will remain visible to at least a few on earth. This makes the already-planned Dashashwamedh visit a direct **Mahavatar Babaji + Lahiri Mahasaya + Mataji + Ram Gopal / AOAY** anchor, not merely a Ganga-Aarti stop. Any future calendar/PDF must carry this recognition hook explicitly so the Kriya/AOAY significance cannot be lost again. Do **not** assert that a currently marketed "Babaji cave/temple" is the exact AOAY cave unless exact physical provenance is separately proven.
 
 ## KOLKATA / DAKSHINESWAR / SERAMPORE
 
-- **PROPOSED 2026-09-26: 4-night block** (11–14 Jan), absorbing the night freed by the Varanasi Sarnath cut — awaiting Mark's confirmation. Until confirmed, the 3-night default (`decisions/...`) is not yet superseded; this is a live proposal, not a lock.
+- **DEFAULT AS OF 2026-09-26: 5-night block** (10–14 Jan) — not a Mark decision, just where the two nights freed from Varanasi's cuts flow to by calendar arithmetic while Tiruvannamalai's 15-Jan arrival stays fixed. Mark is reviewing cluster by cluster and has not yet confirmed Kolkata keeps this; some could still move elsewhere (e.g. a possible Puri reopening, currently just a live discussion, not decided).
 - [A+]: Dakshineswar Kali Temple, Yogoda Satsanga Math Dakshineswar, Tulsi Bose Shrine, Nagendra Math, Kalighat Kali Temple, Vivekananda Birthplace, Cossipore/Kashipur Udyanbati, Balaram Mandir.
 - [A]: Belur Math, Shyampukur Bati.
 - [A*]: 50 Amherst Street, Dihika Retreat.
