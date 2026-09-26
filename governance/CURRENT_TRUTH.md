@@ -105,8 +105,8 @@ If something in this file conflicts with an older file, **this file wins**, unle
 
 ## AGRA
 
-- Taj Mahal [A+], 1 hotel night, earliest practical morning visit (Thursday works, Friday it's closed).
-- Food bycatch [B]: Bedai, Petha, Gajak, Dalmoth. Markets [C]: Kinari Bazaar, Sadar Bazaar/Chaat Gali.
+- Taj Mahal [A+], 1 hotel night, earliest practical morning visit (Thursday works, Friday it's closed). **Mark's explicit Agra purpose is the Taj in the early morning.**
+- **MARK DECISION 2026-09-26:** A013 Bedai at Deviram's [A*], A014 Petha [A*], A015 Gajak [A*] — pleasant opportunistic bycatch only, **zero independent priority**; never spend Taj sleep/quality, onward-transport robustness, or a detour on them. Dalmoth remains [B]. Markets [C]: Kinari Bazaar, Sadar Bazaar/Chaat Gali. Binding decision: `decisions/INDIA23_AGRA_A013_A015_FOOD_DOWNGRADE_TO_ASTAR_MARK_DECISION_2026-09-26.md`.
 
 ## BODH GAYA / GAYA
 
