@@ -9,6 +9,29 @@ Scope: **Varanasi only.** Kolkata is explicitly out of scope for this file — M
 
 Mark asked for a "real dagplanning zoals in de PDF" — exact times in quarter-hours, hotel departure through hotel return, leg-by-leg, with a photo and an explicit "why do I want to go here / what's the link with my lineage or Top-X people" for every stop, so he can judge whether the plan is humanly doable. The earlier `CCI_VARANASI_FULL_CLOCKTIME_PROPOSAL` had the times but not the photos or the explicit why-text in a reviewable, non-chat format — this file (and its visual twin) fixes that.
 
+## DAGBELASTING IN ÉÉN BLIK
+
+Mark's expliciete instructie: net als de oude PDF moet dit zichtbaar maken welke dagen te vroeg beginnen, te lang duren of te veel stops hebben — niet wegpoetsen.
+
+| Dag | Wektijd | Vertrek–terug | Actieve tijd | Stops | Belasting |
+|---|---|---|---|---|---|
+| Ma 4 jan | — | aankomst 13:30 | ~1u | 0 | LICHT |
+| Di 5 jan | ~05:45 | 06:15–09:30 | ~3u15 | 3 | MIDDEN |
+| Wo 6 jan | ~07:30 | 08:00–19:15 | ~7u45 actief (11u15 met lange pauze) | 6 | MIDDEN |
+| **Do 7 jan** | **~05:15** | **05:45–14:30** | **~8u45 + open einde** | **6** | **ZWAAR — vroegste wektijd, langste dag, meeste stops** |
+| Vr 8 jan | ~08:30 | 09:00–12:30 | ~3u30 | 2 | LICHT — klaar om 12:30 |
+| Za 9 jan | vrij | — | 0 (buffer) | 0 | RESERVE |
+
+## CCI-ADVIES: WAT IK ZOU SCHRAPPEN
+
+Op Mark's directe vraag "welke moet ik laten vallen volgens jou" — cost/benefit, niet neutraal:
+
+1. **Lalita Ghat + Nepali/Kathwala Temple — SCHRAPPEN.** Geen lineage-link, en ze vallen op donderdag: de zwaarste dag van het hele cluster. Dit is niet zomaar een keuze — donderdag is de dag die het hardst een reductie nodig heeft.
+2. **Alamgir Mosque/Dharahara — SCHRAPPEN.** Eerder aangemerkt als "kost geen extra tijd", maar dat is niet waar: 15 minuten op een dag die al te lang is, zijn geen gratis 15 minuten. Geen lineage-link.
+3. **Sankat Mochan Hanuman Temple + Durga Temple/Durga Kund — GEEN STERKE VOORKEUR.** Geen lineage-link, maar ze staan op dinsdag, de lichtste dag (klaar om 09:30, daarna vrij). Ze schrappen ontlast donderdag niet — dat is een andere dag. Dit is puur een vraag van totale reisbelasting/interesse, niet van deze specifieke dag redden.
+
+**Over zaterdag (reservedag) en vrijdag (klaar om 12:30):** bewust niet gebruikt om de geschrapte locaties hierboven alsnog in te passen. Donderdag's Manikarnika-blok is expliciet open-einde en vrijdag's Bhrigu-afspraaktijd staat nog niet vast — die twee onzekerheden hebben de vrije ruimte het hardst nodig als buffer. Wordt zaterdag toch gevuld met sightseeing, dan is er geen vangnet meer als een van die twee uitloopt.
+
 ## MON 4 JAN — Aankomst
 
 | Tijd | Wat |
