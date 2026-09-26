@@ -28,7 +28,7 @@ L026,A020,BOD-02,Bodh Gaya,Sujata Stupa / Garh,A+,CORE,MARK PROMOTION 2026-09-26
 L027,A021,BOD-03,Bodh Gaya,Dungeshwari / Mahakala Caves,A+,CORE,Start of protected pilgrimage walk; Buddha's ascetic-period cave world
 L028,A018,BOD-04,Bodh Gaya,Great Buddha Statue,A,CORE,Low-burden Buddhist landmark near monastery belt
 L029,A022,BOD-05,Bodh Gaya,Pragbodhi seven-stupa ridge,A,CORE_IF_SAFE,Seven ancient stupa remains/markers; ridge out-and-back; 1.5-2.25h; local monk/guide strongly preferred
-L030,,BOD-NEW-SUJATA-OFFERING,Bodh Gaya,Sujata milk-offering spot / Sujata Temple / traditional banyan,A+,CORE,NEW live entity; Middle Way turning-point place; separate from Sujata Stupa
+L030,A080,BOD-NEW-SUJATA-OFFERING,Bodh Gaya,Sujata milk-offering spot / Sujata Temple / traditional banyan,A+,CORE,PERMANENT A080 assigned 2026-09-26; Middle Way turning-point place; separate from A020 Sujata Stupa
 L031,,BOD-06,Bodh Gaya,Rajgir Brahmakund hot springs,A*,SKIP_FIRST,Only natural corridor bycatch; never dedicated Rajgir day
 L032,A019,BOD-07,Bodh Gaya,International monastery belt,A,CORE,Flexible 2-3-monastery walk; cultural breadth without checklist behavior
 L033,,BOD-08,Bodh Gaya,Gaya Tilkut micro-experience,A*,FINAL_COMFORT,Only if already passing through Gaya
