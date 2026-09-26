@@ -129,7 +129,7 @@ If something in this file conflicts with an older file, **this file wins**, unle
 ## KOLKATA / DAKSHINESWAR / SERAMPORE
 
 - **DEFAULT AS OF 2026-09-26: 5-night block** (10–14 Jan) — not a Mark decision, just where the two nights freed from Varanasi's cuts flow to by calendar arithmetic while Tiruvannamalai's 15-Jan arrival stays fixed. Mark is reviewing cluster by cluster and has not yet confirmed Kolkata keeps this; some could still move elsewhere (e.g. a possible Puri reopening, currently just a live discussion, not decided).
-- [A+]: Dakshineswar Kali Temple, Yogoda Satsanga Math Dakshineswar, Tulsi Bose Shrine, Nagendra Math, Kalighat Kali Temple, Vivekananda Birthplace, Cossipore/Kashipur Udyanbati, Balaram Mandir.
+- [A+]: Dakshineswar Kali Temple, Yogoda Satsanga Math Dakshineswar, Tulsi Bose Shrine, Nagendra Math, Kalighat Kali Temple, Vivekananda Birthplace, Cossipore/Kashipur Udyanbati, Balaram Mandir, **4 Garpar Road** (Yogananda's family house — attic meditation room + first-floor Babaji-encounter room; access needs advance email), **YSS Dhyana Kendra Garpar** (current living YSS meditation center, distinct from the historical house above; Jan programme to recheck).
 - [A]: Belur Math, Shyampukur Bati.
 - [A*]: 50 Amherst Street, Dihika Retreat.
 - **Serampore (day trip from Kolkata, not a separate hotel night):** Sri Yukteswar's hermitage [A+, 2h onsite with meditation], Rai Ghat sacred banyan [A+], Anandaloka/YSS Serampore Retreat [A+ if the Yogananda room is accessible, else A*]. Serampore College and the old Panthi plot = C.
