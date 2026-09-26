@@ -110,7 +110,7 @@ If something in this file conflicts with an older file, **this file wins**, unle
 
 ## BODH GAYA / GAYA
 
-- Mahabodhi Temple/Bodhi Tree [A+], Dungeshwari cave [A+], Sujata milk-offering spot/temple [A+], **Sujata Stupa/Garh [A+] (Mark promotion 2026-09-26)**, Pragbodhi seven-stupa ridge [A], Great Buddha statue [A], international monastery belt [A].
+- Mahabodhi Temple/Bodhi Tree [A+], Dungeshwari cave [A+], **A080 Sujata milk-offering spot/temple [A+]**, **A020 Sujata Stupa/Garh [A+] (Mark promotion 2026-09-26)**, Pragbodhi seven-stupa ridge [A], Great Buddha statue [A], international monastery belt [A].
 - Route: Dungeshwari cave → seven-stupa ridge → Sujata sites → river corridor → Mahabodhi/Bodhi Tree.
 - **Open:** 2 or 3 nights (paired with the Tiruvannamalai 4-vs-5 question).
 
