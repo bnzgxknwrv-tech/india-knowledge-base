@@ -4,9 +4,9 @@ Date: 2026-09-26
 Scope: arrival from Bodh Gaya through departure to next cluster (Kolkata).
 Status: MARK-REVIEW WORKING PLAN. Geographic clustering + all current grades reconciled from `governance/CURRENT_TRUTH.md`, the master ledger (`runs/active/INDIA20-LIVE-LEDGER-V4-REPAIR-001/LIVE_DERIVED_PLACE_GRADE_LEDGER_2026-09-13.csv`), and today's grade batch (`decisions/INDIA23_BODH_VARANASI_GRADE_BATCH_MARK_DECISION_2026-09-26.md`).
 
-## OPEN DEPENDENCY — DATE CASCADE NOT YET CONFIRMED
+## DATE CASCADE — RESOLVED 2026-09-26
 
-Mark accepted Bodh Gaya as **3 nights** (arrival 1 Jan, departure 4 Jan) in this same conversation, one night more than the 2-night default that `runs/active/INDIA23_HAIDAKHAN_TO_VARANASI_VIA_BODHGAYA_REVISED_DAYPLAN_2026-09-26.md` tested as sufficient. That pushes Varanasi arrival from Sun 3 Jan to **Mon 4 Jan**, and the whole downstream skeleton (Kolkata, Tiruvannamalai, Chennai, final Delhi night) by +1 day. Mark explicitly flagged that this needs a fits-check against the fixed 33-night frame (19 Dec–20 Jan) and the fixed final Delhi night (20 Jan) before it's final. **This file uses the shifted dates provisionally** so the day-plan has real dates to work with; the cascade-fits check is separate, outstanding work, not resolved here.
+Bodh Gaya 3 nights / Tiruvannamalai 4 nights is now **locked** (`decisions/INDIA23_BODHGAYA_3N_TIRUVANNAMALAI_4N_NIGHT_TRADE_LOCK_MARK_DECISION_2026-09-26.md`), matching the original `INDIA19_Kloktijdplanning_A79` PDF split. This confirms, not just provisionally assumes, the dates below: Varanasi runs 4–11 Jan, Kolkata shifts to 12–14 Jan, and Tiruvannamalai (now 4 nights instead of 5) still departs 19 Jan exactly as before — the fixed 33-night frame, Chennai buffer, and final Delhi night are unaffected.
 
 Dates used below: arrival Mon 4 Jan 2027, 8 occupied days (4–11 Jan), depart Tue 12 Jan.
 

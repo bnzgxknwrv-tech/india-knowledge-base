@@ -37,20 +37,21 @@ If something in this file conflicts with an older file, **this file wins**, unle
 | 10 | Mon 28 Dec | Haidakhan | protected quiet day 2/2; **local road go/no-go for 29 Dec. If current road knowledge says the early-train connection is unsafe/too long, leave Haidakhan in the afternoon and sleep near Kathgodam station as the pre-locked fallback.** |
 | 11 | Tue 29 Dec | **Greater Noida / Pari Chowk** | **05:30 Haidakhan → Kathgodam; 08:40 train 15036; get off Ghaziabad 14:39; private car ~15:00→~16:00 Greater Noida; rest. Avoid central Delhi.** |
 | 12 | Wed 30 Dec | **Agra / Taj-area hotel** | **07:00 Greater Noida → Vrindavan; Katyayani Peeth [A+] + NKB Vrindavan Ashram/Mahasamadhi [A+] in morning; lunch; ~13:00 depart; ~15:00 Agra/Taj hotel.** |
-| 13 | Thu 31 Dec | **early Taj Mahal, then onward toward Gaya/Bodh Gaya** | Taj at earliest practical opening; exact post-Taj transport is the next work package and is not locked here. |
-| 14 | Fri 1 Jan | Bodh Gaya | arrival |
-| 15 | Sat 2 Jan | Bodh Gaya | protected day |
-| 16 | Sun 3 Jan | Varanasi / Sahi River View | |
-| 17–23 | Mon 4 – Sun 10 Jan | Varanasi | 7 more protected days (8 nights total) |
-| 24 | Mon 11 Jan | Kolkata/Dakshineswar | arrival |
-| 25 | Tue 12 Jan | Kolkata | |
+| 13 | Thu 31 Dec | **early Taj Mahal, then overnight train** | Taj at earliest practical opening; **train 12988 Agra Fort 18:45 → Gaya Junction 07:50 (1 Jan), locked** — see the Kumaon/Haidakhan section below for the full clock chain. |
+| 14 | Fri 1 Jan | Bodh Gaya | arrival + Mahabodhi Temple/Bodhi Tree [A+] |
+| 15 | Sat 2 Jan | Bodh Gaya | full Buddha-life pilgrimage walk day (Dungeshwari → Sujata → Mahabodhi) |
+| 16 | Sun 3 Jan | Bodh Gaya | **3rd night — LOCKED BY MARK 2026-09-26**, extra depth/recovery/unstructured Mahabodhi time |
+| 17 | Mon 4 Jan | Varanasi / Sahi River View | arrival |
+| 18–24 | Tue 5 – Mon 11 Jan | Varanasi | 7 more protected days (8 nights total) |
+| 25 | Tue 12 Jan | Kolkata/Dakshineswar | arrival |
 | 26 | Wed 13 Jan | Kolkata | |
-| 27 | Thu 14 Jan | Tiruvannamalai | via Chennai + road |
-| 28–31 | Fri 15 – Mon 18 Jan | Tiruvannamalai | 4 protected days (5 nights total) |
+| 27 | Thu 14 Jan | Kolkata | |
+| 28 | Fri 15 Jan | Tiruvannamalai | via Chennai + road |
+| 29–31 | Sat 16 – Mon 18 Jan | Tiruvannamalai | **3 protected days (4 nights total) — LOCKED BY MARK 2026-09-26, reduced from 5 nights to pair with Bodh Gaya's 3rd night** |
 | 32 | Tue 19 Jan | Chennai | buffer before flight |
 | 33 | Wed 20 Jan | Delhi | final night before AI155 |
 
-**Nights not yet duration-locked:** Bodh Gaya (2 vs 3 nights) and Tiruvannamalai (5 vs 4 nights) — this trade-off is still open, deliberately deferred.
+**LOCKED BY MARK 2026-09-26 — Bodh Gaya 3 nights / Tiruvannamalai 4 nights** (matches `INDIA19_Kloktijdplanning_A79` PDF's original split; resolves the previously-open trade-off by pairing Bodh Gaya's extra night with an equal reduction at Tiruvannamalai). This keeps the fixed 33-night total, the fixed Chennai buffer (19 Jan) and the fixed final Delhi night (20 Jan) exactly unchanged — only the internal Varanasi (now 4–11 Jan) and Kolkata (now 12–14 Jan) dates shift by one day each. Binding decision: `decisions/INDIA23_BODHGAYA_3N_TIRUVANNAMALAI_4N_NIGHT_TRADE_LOCK_MARK_DECISION_2026-09-26.md`.
 
 ## KUMAON / HAIDAKHAN
 
@@ -112,7 +113,7 @@ If something in this file conflicts with an older file, **this file wins**, unle
 
 - Mahabodhi Temple/Bodhi Tree [A+], Dungeshwari cave [A+], **A080 Sujata milk-offering spot/temple [A+]**, **A020 Sujata Stupa/Garh [A+] (Mark promotion 2026-09-26)**, Pragbodhi seven-stupa ridge [A], Great Buddha statue [A], international monastery belt [A].
 - Route: Dungeshwari cave → seven-stupa ridge → Sujata sites → river corridor → Mahabodhi/Bodhi Tree.
-- **Open:** 2 or 3 nights (paired with the Tiruvannamalai 4-vs-5 question).
+- **LOCKED BY MARK 2026-09-26: 3 nights** (1–3 Jan), paired with Tiruvannamalai reduced to 4 nights. See the 33-night skeleton above and `decisions/INDIA23_BODHGAYA_3N_TIRUVANNAMALAI_4N_NIGHT_TRADE_LOCK_MARK_DECISION_2026-09-26.md`.
 
 ## VARANASI / SARNATH
 
@@ -133,7 +134,7 @@ If something in this file conflicts with an older file, **this file wins**, unle
 ## TIRUVANNAMALAI / ARUNACHALA
 
 - Arunachala/Ramana experience [A+]. The Dreaming Tree [A*], Virupaksha Cave [A+], Skandashram/Gurumurtam/Pavalakunru [A].
-- **Open:** 4 or 5 nights (paired with the Bodh Gaya 2-vs-3 question).
+- **LOCKED BY MARK 2026-09-26: 4 nights** (15–18 Jan), paired with Bodh Gaya's 3rd night. See `decisions/INDIA23_BODHGAYA_3N_TIRUVANNAMALAI_4N_NIGHT_TRADE_LOCK_MARK_DECISION_2026-09-26.md`.
 
 ## CHENNAI
 
@@ -149,7 +150,7 @@ If something in this file conflicts with an older file, **this file wins**, unle
 
 ## OPEN DECISIONS — THE FULL LIST
 
-1. Bodh Gaya 2 vs 3 nights / Tiruvannamalai 5 vs 4 nights trade-off.
+1. ~~Bodh Gaya 2 vs 3 nights / Tiruvannamalai 5 vs 4 nights trade-off~~ — CLOSED 2026-09-26: Mark locked Bodh Gaya 3 nights / Tiruvannamalai 4 nights (see the 33-night skeleton above).
 2. Evam Choskhorling visit permission (Kumaon).
 3. ~~Turiya Niwas host confirmation~~ — CLOSED 2026-09-21: Mark downgraded to B and removed from active planning; no confirmation needed (see Kumaon section above).
 4. Local guide confirmation of a safe December ridge walk (Kumaon).
