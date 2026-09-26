@@ -194,4 +194,8 @@ This is a MARK-REVIEW working plan, not a new subjective lock.
 - 20887 exact 3 Jan 2027 operation/time/class.
 - Varanasi pickup/Assi last-mile.
 
+## CCI/WORK independent reconciliation — 2026-09-26
+
+After this plan was assembled, the isolated CCI solve posted its frozen result. It independently converges with WORK on the same primary Agra->Gaya chain: 12988 Agra Fort 18:45 -> Gaya 07:50, target First AC, normal Bodh Gaya hotel arrival about 08:30-09:00. Both also retain 12320 as a strong same-night comfort fallback if the primary train/1A inventory fails. No change to the dayplan is required; the transport spine is now independently corroborated by both lanes.
+
 END
