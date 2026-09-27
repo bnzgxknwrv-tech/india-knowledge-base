@@ -55,13 +55,24 @@ Een langzame wandeling direct vanaf het hotel langs de ghats (de brede stenen tr
 WAAROM WIL JIJ, MARK, HIERHEEN?
 Geen persoon-link — de reden is de sfeer zelf: het eerste ochtendlicht op de Ganges, bootjes, ochtendbaders en rituelen, direct vanaf je eigen hotel, zonder enige omweg.
 
-**GECORRIGEERD 2026-09-27 (Mark-verificatievraag):** Lolark Kund viel per ongeluk weg uit deze beschrijving toen de exacte afstand naar Tulsi Ghat werd toegevoegd — het stond origineel als "langs Tulsi Ghat en Lolark Kund", en dat tweede deel is nu hersteld. Lolark Kund (VNS-40) is een A*-item ("corridor bycatch — alleen gratis omdat je al in dit blok loopt"): een heilige waterbak/kund die in verband wordt gebracht met vruchtbaarheids-verering; geen lineage-link, puur bijvangst omdat hij letterlijk op de wandelroute ligt tussen Assi Ghat en Tulsi Ghat.
+**GECORRIGEERD 2026-09-27 (Mark-verificatievraag):** Lolark Kund viel per ongeluk weg uit deze beschrijving toen de exacte afstand naar Tulsi Ghat werd toegevoegd — het stond origineel als "langs Tulsi Ghat en Lolark Kund", en dat tweede deel is nu hersteld. Lolark Kund (VNS-40, A*, corridor bycatch) is een rechthoekige, verzonken stenen waterbak (ca. 23×15m) met een gebogen oostmuur die zo is uitgelijnd dat bij zonsopgang het licht van de "trillende zon" (lolark) in het water weerspiegelt — gedateerd rond 1000 n.Chr., het metselwerk vaak toegeschreven aan de Gahadavala-dynastie (1089-1197). Gewijd aan Lolark Aditya (een vorm van zonnegod Surya); beroemd vruchtbaarheidsbad, vooral tijdens het jaarlijkse Lolark Shashti-festival (duizenden koppels/aanstaande moeders).
+
+VOLLEDIGE ONDERZOEK LOLARK KUND (2026-09-27): geen enkele AOAY- of Top-X-vermelding gevonden, ook na grondig zoeken — dit is eerlijk zo, geen link verzonnen. Wel een reëel historisch detail: Tulsi Ghat (verderop op deze wandeling) heette vóór Tulsidas' tijd "Lolark Ghat" — de zonnegod-verering hier ging dus aan Tulsidas' aanwezigheid vooraf en vormde er de religieuze bodem voor. Als "oudste steen op de route, met een nog levende, bijna-millennium-oude cultus" is de A* op zichzelf te verdedigen, niet vanuit lineage.
+
+BRONNEN: en.wikipedia.org/wiki/Lolark_Sasthi, kashi.gov.in/listing-details/lolark-kund, roobaroowalks.com/lolark-kund-varanasi, muraliduggineni.com (Lolark Kund sacred stepwell), varanasiguru.com/lolark-kund.
 
 WIE WAS HIER / WAT GEBEURDE HIER?
 Tulsi Ghat is genoemd naar Tulsidas, de grote Hindi-dichter-heilige die de Ramcharitmanas (de Hindi-versie van het Ramayana-epos) schreef; hij bracht hier zijn laatste levensjaren door en stierf hier in 1623. Dit is geen Top-X-persoon voor jouw lineage, maar wel een reëel, herkenbaar feit over de plek zelf.
 
 WAT MOET JE HIER PRECIES ZOEKEN?
-Geen specifieke kamer of shrine — de waarde ligt in de wandeling zelf langs de opeenvolgende ghats.
+De samenvloeiing (vaak droog/zanderig) van de Assi met de Ganges; de stenen trappen (traditioneel geteld als "tachtig treden"); en de kleinere ghats onderweg (Chet Singh Ghat, Mahanirvani Ghat — een naga-sadhu ghat) voordat je Lolark Kund bereikt.
+
+VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27):
+De naam "Varanasi" zelf komt van de twee begrenzende rivieren: Varuna in het noorden en Assi in het zuiden — dit is dus letterlijk een van de twee geografische ankerpunten die de naam van de stad vormen. Twee verklaringen voor "Assi": (1) een legende dat Durga hier na het verslaan van de demonen Shumbha en Nishumbha haar zwaard (Sanskriet: asi) wegwierp, waarna een stroompje ontstond; (2) een prozaïschere etymologie naar asta ("tachtig" treden). De ghat wordt genoemd in de Kurma, Matsya, Padma en Agni Purana.
+
+Geen directe AOAY-vermelding gevonden van Assi Ghat zelf, ook niet in Hoofdstuk 28 ("Kashi, Reborn and Rediscovered", dat overigens NIET over de stad Kashi gaat maar over een jongensvriend genaamd Kashi die stierf en herboren werd). Er is ook geen document dat Lahiri Mahasaya, Sri Yukteswar of Yogananda zelf specifiek bij Assi Ghat plaatst. Eerlijke conclusie: op AOAY/Top-X-gronden alleen verdient dit geen A+; de waarde zit in de Purana-verankerde heiligheid, het feit dat dit de zuidgrens is van het hele Kashi-gebied waarin de lineage zich afspeelt, en de link naar Tulsidas/de Ramcharitmanas (via Tulsi Ghat, verderop op deze wandeling).
+
+BRONNEN: en.wikipedia.org/wiki/Assi_River, en.wikipedia.org/wiki/Ghats_in_Varanasi, incredibleindia.gov.in/en/uttar-pradesh/varanasi/assi-ghat, roobaroowalks.com (Assi Ghat Varanasi Morning Aarti), en.wikisource.org/wiki/Autobiography_of_a_Yogi (hoofdstuk 28, ter controle).
 
 HOE WIL JE HIER ZIJN?
 Rustig lopen, kijken, geen vast programma. 45 minuten is genoeg.
@@ -86,7 +97,14 @@ WIE WAS HIER / WAT GEBEURDE HIER?
 Tulsidas schreef hier de Ramcharitmanas en stierf hier in 1623.
 
 WAT MOET JE HIER PRECIES ZOEKEN?
-De ghat zelf; er is ook een levende Tulsi Ghat Akhada (worstelschool) die 's ochtends actief kan zijn — dit is een nog niet aan jou voorgelegd los item, zie OPEN ITEMS onderaan.
+De vroege-ochtend training in de aarden worstelkuil (meestal net na zonsopgang); het huis/schrijn dat aan Tulsidas' verblijf wordt toegeschreven; de aangrenzende Sankat Mochan-tempel (vrijdag). Er is ook een levende Tulsi Ghat Akhada (worstelschool) — nog niet los aan jou voorgelegd, zie OPEN ITEMS onderaan.
+
+VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27):
+Voor Tulsidas heette deze ghat "Lolark Ghat" (zie hierboven). In 1941 liet industrieel Baldeo Das Birla de ghat verstenen — de huidige trappen zijn dus relatief jong, de plek en zijn associatie eeuwenoud. Op de ghat staat de Tulsidas Akhada (ook Swaminath Akhada), een ca. 400 jaar oude worstelschool die volgens overlevering door Tulsidas zelf gesticht is op de plek waar hij delen van de Ramcharitmanas schreef. Nog steeds actief: ~100 worstelaars, beheerd door de familie van mahant Vishwambhar Nath Mishra (13 generaties, ook verbonden aan Sankat Mochan-tempel), sinds de film *Dangal* ook met vrouwelijke worstelaars.
+
+Geen directe AOAY-vermelding van Tulsi Ghat zelf. Wel een indirecte culturele lineage-lijn: Sri Ramakrishna (Top-X) citeerde Tulsidas' Ramcharitmanas actief in zijn onderricht — Tulsidas' bhakti-theologie is precies de bredere stroom waarin ook de Kriya-lineage staat. Geen document verbindt Lahiri Mahasaya, Sri Yukteswar of Yogananda persoonlijk aan Tulsi Ghat. Waarom toch A: dit is de enige plek in de cluster die woon-, schrijf- én sterfplek is van een van de grootste Noord-Indiase bhakti-heiligen, met een nog levende, ononderbroken 400-jarige instelling die je in actie kunt zien — zeldzaam tussen overwegend mythologische of gemusealiseerde plekken.
+
+BRONNEN: en.wikipedia.org/wiki/Tulsi_Ghat, en.wikipedia.org/wiki/Tulsidas, theprint.in (IIT PhD scholar saving Tulsidas Akhada), thebetterindia.com (Dangal-inspired women wrestlers), varanasiguru.com/tulsi-ghat.
 
 HOE WIL JE HIER ZIJN?
 Onderdeel van de wandeling, geen apart bezoek nodig — tenzij je de akhada wilt zien, dan een paar minuten extra stilstaan.
@@ -111,7 +129,14 @@ WIE WAS HIER / WAT GEBEURDE HIER?
 Geen historische persoon-link; dit is een moderne, doorlopende culturele traditie.
 
 WAT MOET JE HIER PRECIES ZOEKEN?
-Het podium/ritueelpunt direct aan Assi Ghat.
+De volgorde van het programma (mantra's → Sapta Aarti/yajna → Prabhati-raga's → yoga); dat het gratis en publiek toegankelijk is (in tegenstelling tot veel inmiddels commerciële "aarti"-ervaringen).
+
+VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27):
+Subah-e-Banaras is een dagelijks, gratis openluchtprogramma, gestart op 24 november 2014 als initiatief van de deelstaatregering Uttar Pradesh, georganiseerd door het lokale cultuurcomité. Begint ~45 minuten voor zonsopgang tijdens Brahma Muhurta: Vedische mantra's, Sapta Aarti (zeven-lamp-ritueel) en yajna, klassieke muziek (Prabhati-raga's, traditioneel bij zonsopgang), afgesloten met openluchtyoga. Bedoeld als moderne ochtend-tegenhanger van de avond-Ganga Aarti bij Dashashwamedh.
+
+Eerlijke conclusie: geen enkele AOAY/Top-X-link mogelijk of gevonden — het programma bestaat pas sinds eind 2014, decennia na Yogananda's dood (1952). Dit is puur modern ritueel-theater, geen lineage-plek. De A*-status (voorwaardelijk, alleen als het niets kost) is dus terecht: sfeervolle bonus-ervaring op de route, geen bestemming op zich.
+
+BRONNEN: roobaroowalks.com (Subah-e-Banaras timings), lakshmisharath.com, subahebanaras.net.
 
 HOE WIL JE HIER ZIJN?
 Alleen meekijken als het toevallig loopt terwijl je er al bent — geen apart bezoek waard.
@@ -139,7 +164,16 @@ WIE WAS HIER / WAT GEBEURDE HIER?
 De kennis is doorgegeven van Sri Sudhir Ranjan Bhadury naar zijn zoon Sri Brahma Gopal Bhadury naar de huidige beoefenaar, Acharya Hemant K. Bhadury — drie generaties van dezelfde familie die de Bhrigu-lezingen geven.
 
 WAT MOET JE HIER PRECIES ZOEKEN?
-De praktijkruimte van Acharya Hemant K. Bhadury zelf; vraag vooraf naar de exacte procedure (welke gegevens hij nodig heeft, taal, opname/meenemen van de lezing).
+De praktijkruimte van Acharya Hemant K. Bhadury zelf; vraag vooraf naar de exacte procedure (welke gegevens hij nodig heeft, taal, opname/meenemen van de lezing). Vraag bij aankomst ook of hij de familiegeschiedenis met Lahiri Mahasaya kan toelichten — dat gesprek zelf is waardevol. Kijk naar de fysieke manuscriptenverzameling (40.000+ stuks, deels uit Tibet) als die getoond wordt.
+
+VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27) — DE RIJKSTE VONDST VAN DE HELE DAG:
+Opgericht 1973 door **Sri Sudhir Ranjan Bhadury** (geboren 1880 in Nabadvip, West-Bengalen, Bengaals brahmaans/koninklijk milieu — bronnen wisselen tussen 1880 en 1889). Volgens de familietraditie gaf hij zijn koninklijke afkomst op, trok naar Varanasi op zoek naar een spiritueel meester, en na drie dagen vasten bij Kashi Vishwanath zou wijze Bhrigu zich aan hem geopenbaard hebben en hem ingewijd hebben in astrologie en de "Brahma Chinta Pranali". Hij verzamelde daarna twintig jaar lang manuscripten van de Bhrigu Chinta door heel India en Tibet — zijn familiebibliotheek in Varanasi telt nu minstens 40.000 manuscripten. Zoon Sri Brahma Gopal Bhadury zette het werk voort; diens tweelingzoons Dr. Jayant Kumar Bhadury en Acharya Hemant Kumar Bhadury vormen de huidige, derde generatie.
+
+**Direct gedocumenteerd: Sudhir Ranjan Bhadury ontmoette Lahiri Mahasaya persoonlijk in Varanasi en studeerde bij hem Raja Yoga, Karma Yoga én Kriya Yoga — met uitwisseling van astrologiekennis.** Dit komt van de familie-eigen bronnen (bhrigu.yoga, briguyoga.co.il) — dus promotioneel materiaal, geen onafhankelijke academische bron, maar het detail is te specifiek voor loze marketing. Eén bron plaatst Bhadury zelfs in één zin naast Yogananda als begunstigde van dezelfde Babaji→Lahiri-lijn. Onafhankelijke, wél verifieerbare bevestiging: de Britse schrijver Paul Brunton documenteerde een ontmoeting met Sudhir Ranjan Bhadury rond 1920 in zijn invloedrijke boek *A Search in Secret India* — bewijs dat Bhadury destijds al een reëel, bekend fenomeen was, van buiten de familiekring. Swami Kriyananda's eigen Bhrigu-lezing (uit *The Book of Bhrigu*) vond overigens plaats in Barnala, Punjab (1959), niet bij de Bhadury's — er is geen bron die Kriyananda direct aan Bhadury Sadan koppelt, wel schreef hij over exact dezelfde bredere traditie.
+
+Waarom dit mogelijk de hoogste score van de hele reis rechtvaardigt: als de Lahiri-connectie klopt, is dit een van de weinige plekken in heel Varanasi waar je een levende, functionerende instelling bezoekt, opgericht door een directe persoonlijke leerling van Lahiri Mahasaya, drie generaties ononderbroken doorgegeven tot vandaag. Niet museaal ("hier stond ooit...") maar interactief: Bhrigu leest ook jouw eigen levenslijn voor, in de traditie die Lahiri's eigen leerling meehielp funderen.
+
+BRONNEN: bhrigu.yoga/about1, bhrigu.yoga/dr-jayant-k-hemant-k-bhadury, briguyoga.co.il/onearticleEng.asp (ArticleNum 305), justdial.com (Bhrigu Karyalaya Bhadury Sadan), ananda.org/jyotish-and-devi/bhrigu-reading-swami-kriyananda (Kriyananda's eigen lezing, Barnala), en.wikipedia.org/wiki/Bhrigu_Samhita.
 
 HOE WIL JE HIER ZIJN?
 Een echt pelgrimsblok/consult, geen snel bezoekje. Het beschermde venster van 3 uur (aankomst/check-in, de echte lezing, Engelse uitleg/vertaling, uitloop) volgt de al bestaande operationele regel voor deze plek — geen schatting, een vastgelegde regel. Bevestigt Bhadury zelf 60-90 minuten, dan wordt de rest gewoon vrije tijd.
@@ -170,7 +204,14 @@ WIE WAS HIER / WAT GEBEURDE HIER?
 Sri Ramakrishna verbleef hier tijdens zijn Kasi-pelgrimage van 1868, met een gedocumenteerde ecstase-episode op deze exacte plek — dit is precies de reden waarom deze tempel in 2026 beschermd is gebleven tegen een bredere gradenverlaging-batch.
 
 WAT MOET JE HIER PRECIES ZOEKEN?
-De tempel zelf en de ghat direct ervoor, waar de episode plaatsvond.
+De rood-wit gestreepte tempelgevel (afwijkend van de rest van Varanasi); de natuurlijke, ongepolijste linga met de witte ader (swayambhu, "zelf-gemanifesteerd"); de Zuid-Indiase rituele stijl en Zuid-Indiase pelgrims.
+
+VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27):
+Kedar Ghat is een van de oudste ghats van Kashi; de centrale linga is geen mensenwerk maar een natuurlijke rotsuitstulping, traditioneel "zelf-gemanifesteerd" genoemd. Legende: Shiva verscheen hier als bedelmonnik aan wijze Mandhata, die had gesmeekt om de Kedarnath-linga (Himalaya) ook in Kashi te mogen aanschouwen — vandaar het geloof dat een bezoek hier gelijkstaat aan een pilgrimage naar het echte Kedarnath. Koningin Ahilyabai Holkar liet de tempel in de 18e eeuw herbouwen; hij bleef naar overlevering ongeschonden tijdens Aurangzebs vernielingen (1668-1670).
+
+Sterkste, best gedocumenteerde link van de hele dag — via Sri Ramakrishna, niet via AOAY-tekst zelf: tijdens Ramakrishna's grote Kashi-pilgrimage in 1868 (met Mathur Mohan Biswas, ~125 reisgenoten) huurde Mathur Babu **twee huizen bij Kedar Ghat** als verblijfplaats voor het hele gezelschap. Vanuit die uitvalsbasis bezocht Ramakrishna talloze heiligdommen en raakte herhaaldelijk in samadhi/ecstase, met name in de Kedarnath/Kedareshwar-tempel. Tijdens dit verblijf bezocht Ramakrishna ook **Trailanga Swami** (toen zwijgend levend bij Manikarnika Ghat) en voedde hem persoonlijk met rijstepap uit eerbied — een direct, gedocumenteerd contact tussen twee Top-X-figuren tijdens hetzelfde verblijf waarin Kedar Ghat de uitvalsbasis was. Geen directe AOAY-tekstverwijzing naar Kedar Ghat zelf gevonden.
+
+BRONNEN: varanasi.rkmm.org/visit-of-sri-ramakrishna-to-varanasi, ramakrishnavivekananda.info (pilgrimage), en.wikiversity.org/wiki/The_Varanasi_Heritage_Dossier/Kedara_Ghat_and_Kedareshvara_temple, hindutemples-india.blogspot.com (Kedareshwar legends), en.wikisource.org/wiki/Autobiography_of_a_Yogi/Chapter_31 (ter controle, geen Kedar-vermelding).
 
 HOE WIL JE HIER ZIJN?
 Een kort, bewust bezoek — 30 minuten is genoeg voor tempel, ghat en het moment van erkenning.
@@ -195,10 +236,14 @@ WAAROM WIL JIJ, MARK, HIERHEEN?
 Anandamayi Ma is een van je genoteerde Top-X-personen; dit is haar eigen ashram, een directe persoonlijke link, geen bijvangst.
 
 WIE WAS HIER / WAT GEBEURDE HIER?
-Anandamayi Ma leefde en onderwees hier. Niet te verwarren met de plek waar Yogananda haar ontmoette tijdens zijn reis (die ontmoeting wordt geassocieerd met de Rana Mahal/Panchganga-omgeving, een andere locatie dan deze ashram).
+Anandamayi Ma kocht dit terrein (destijds Imalia Ghat, van de Britse autoriteiten) in 1944 en zette er in maart 1944 voor het eerst voet op; in 1945 werd het onderste deel verstenigd door filantroop Shiv Prasad Gupt en werd de Ma Anandamayee Kanyapith (een school voor meisjes) hier permanent gevestigd. Tussen 1947-1950 werd hier de langdurige Savitri Yagna gehouden; in 1968 werd het Ananda Jyoti Mandir op het terrein ingewijd. Dit is dus geen museaal punt maar een 80 jaar oud, nog altijd actief ashram-complex.
+
+**CORRECTIE 2026-09-27 (online verificatie):** eerdere versies van dit plan koppelden Yogananda's ontmoeting met Anandamayi Ma aan "Rana Mahal/Panchganga" — dat klopt niet. De volledige tekst van AOAY Hoofdstuk 45 ("The Bengali 'Joy-Permeated Mother'") plaatst die ontmoeting in **Calcutta, wijk Bhowanipur**, in december 1935 — bevestigd door de officiële Anandamayi Ma-tijdlijn (anandamayi.org). Chronologisch kan het ook niet anders: in 1935 bestond dit Bhadaini-ashram nog niet eens (aangekocht in 1944, negen jaar later). Rana Mahal Ghat is een apart, 17e-eeuws Rajasthaans paleisghat zonder gevonden Anandamayi Ma-connectie. Dit ashram staat dus op eigen kracht (Anandamayi Ma's eigen stichting), niet als AOAY-ontmoetingsplek.
 
 WAT MOET JE HIER PRECIES ZOEKEN?
-De shrine/meditatieruimte van de ashram. Exacte binnenindeling nog `LIVE_RECHECK` — dit is de plek zelf die telt, niet één specifieke bekende kamer zoals bij Lahiri Mahasaya's huis.
+De Annapurna/Shiva-tempel en de grote yajna-hal op het bovenste terrein; het Ananda Jyoti Mandir (1968); de nog actieve Kanyapith-meisjesschool.
+
+BRONNEN: anandamayi.org/bhadaini, anandamayi.org/life-history-1933-1942, anandamayi.org/life-history-1943-1952, shreeshreeanandamayeesangha.org/varanasi.html, en.wikisource.org/wiki/Autobiography_of_a_Yogi/Chapter_45 (volledig gecontroleerd), en.wikiversity.org/wiki/The_Varanasi_Heritage_Dossier/Rana_Mahal_Ghat.
 
 HOE WIL JE HIER ZIJN?
 **LOCKED BY MARK 2026-09-27: dit is een plek voor worship, geen foto-en-weer-weg-stop.** Minimaal 3 uur, open einde, jij bepaalt wanneer je weggaat. Daarom is dit bewust de laatste stop van de dag — niets erna staat onder druk als je langer blijft.
@@ -237,7 +282,16 @@ WIE WAS HIER / WAT GEBEURDE HIER?
 Lahiri Mahasaya leefde hier met zijn familie terwijl hij ook zijn spirituele werk en onderwijs deed.
 
 WAT MOET JE HIER PRECIES ZOEKEN?
-De buitenkant van het huis en de stoep ervoor. Het huis is het hele jaar dicht behalve op Guru Purnima (juni/juli) — in januari dus altijd gesloten van binnen.
+De buitenkant van het huis en de stoep ervoor. Het huis is het hele jaar dicht behalve op Guru Purnima (juni/juli) — in januari dus altijd gesloten van binnen. Zoek het naambord "B. Lahiry" op de houten deur, en de nauwe, smalle steegjes die ernaartoe leiden — dezelfde route die Yogananda's ouders beschrijven.
+
+VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27):
+Shyama Charan Lahiri (Lahiri Mahasaya, 1828-1895) woonde hier tientallen jaren met zijn gezin. Na de dood van zijn moeder bij een overstroming in 1832 verhuisde het gezin van Ghurni (Bengalen) naar Varanasi, waar zij zich vestigden in Bengali Tola — een wijk die zijn naam kreeg omdat de Bengaalse koningin Rani Bhabani hier vanaf 1757 de eerste Bengaalse families liet vestigen. Lahiri Mahasaya trouwde in 1846 met Kashimoni (die hij zelf leerde lezen en schrijven) en werkte vanaf 1851 als kantoorbediende bij de overheid — hij was letterlijk een getrouwde ambtenaar, geen monnik. Op 27 november 1861 ontmoette hij bij Ranikhet in de Himalaya-uitlopers Mahavatar Babaji, die hem Kriya Yoga leerde en opdracht gaf terug te keren naar Varanasi om de techniek publiekelijk te verspreiden. Vanaf toen werd dit huis het middelpunt van zijn onderricht: zijn "Gita Assembly", ontvangst van honderden zoekers, terwijl hij overdag als klerk bleef werken.
+
+**Dit is een van de sterkste directe AOAY-locaties die bestaan.** In Hoofdstuk 1 ("My Parents and Early Life") beschrijft Yogananda hoe zijn ouders naar dit huis in Benares reisden: *"We took a horse cart the following day, and then had to walk through narrow lanes to my guru's secluded home. Entering his little parlor, we bowed before the master, enlocked in his habitual lotus posture."* Daar werden zij door Lahiri Mahasaya in Kriya Yoga geïnitieerd. In hetzelfde hoofdstuk vertelt Yogananda's moeder op haar sterfbed hoe zij de baby Mukunda (de latere Yogananda) naar dit huis droeg: *"I carried you then to the home of my guru in Benares... My master seated you on his lap, placing his hand on your forehead by way of spiritually baptizing you. 'Little mother, thy son will be a yogi. As a spiritual engine, he will carry many souls to God's kingdom.'"* Dit is dus letterlijk de plek waar Yogananda's eigen levensmissie werd voorspeld. Hoofdstuk 35 ("The Christlike Life of Lahiri Mahasaya") vermeldt bovendien dat hij *"organized many study groups, and played an active part in the growth of a large high school in the Bengalitola section of Benares"* — de link naar de wandeling hieronder. Sri Yukteswar (Yogananda's eigen guru) was een directe discipel van Lahiri Mahasaya en bezocht dit huis eveneens.
+
+Waarom dit A+ rechtvaardigt: dit is niet slechts een "geïnspireerde plek" maar de daadwerkelijke, gedocumenteerde locatie van de kern-scène uit AOAY Hoofdstuk 1 — de zegening en voorspelling over Yogananda zelf. Het is de plaats waar de moderne Kriya Yoga-traditie letterlijk vanuit werd verspreid, waar Sri Yukteswar en Yogananda's ouders fysiek samenkwamen. De extreme beperktheid van toegang (1 dag per jaar) maakt een bezoek — ook van buitenaf, op een andere dag — uitzonderlijk zeldzaam.
+
+BRONNEN: rishikeshdaytour.com/blog/lahiri-mahasaya-home-in-varanasi, incredibleindia.gov.in (Our Special Find in Benaras), travellingcamera.com (The House of Lahiri Maharaj), anandapilgrimages.org (Pilgrimage to Varanasi/Guru Purnima), en.wikipedia.org/wiki/Lahiri_Mahasaya, gutenberg.org/files/7452 (AOAY volledige tekst, Hfst. 1), en.wikisource.org/wiki/Autobiography_of_a_Yogi/Chapter_35, yssofindia.org/about/lahiri-mahasaya.
 
 HOE WIL JE HIER ZIJN? — **GECORRIGEERD 2026-09-27, Mark's eigen woorden: "Is 'uitsluitend een gevel'?! Nee. Is een plek om mss wel een uur stil te zitten op de stoep."**
 Dit is geen quick-stop omdat het dicht is — het dicht zijn is een toegangsfeit, geen oordeel over hoe lang de plek de moeite waard is. Dit is een krachtplek van je eigen lineage. **Hoeveel tijd wil je hier zijn?** De planningsbasis hieronder gaat uit van 1 uur stil zitten op de stoep, niet 30 minuten — pas dit aan naar wat jij wilt.
@@ -266,7 +320,16 @@ WIE WAS HIER / WAT GEBEURDE HIER?
 Dit is de as-/samadhi-plek in de Lahiri Mahasaya-lineage; de Babaji-meditatieruimte hier wordt binnen de Kriya-traditie gebruikt als zitplek, los van de Dashashwamedh-scène.
 
 WAT MOET JE HIER PRECIES ZOEKEN?
-De meditatieruimte/kamer die specifiek met Babaji geassocieerd wordt binnen dit heiligdom.
+De grote Shiva-lingam in de hoofdtempel; het beeld van Lahiri Mahasaya; de aangrenzende grot-ruimte gewijd aan Babaji. Mogelijk ontmoeting met een nazaat van Lahiri Mahasaya als gastheer — het ashram staat nu onder Shibendu Lahiri, achterachterkleinzoon van Lahiri Mahasaya.
+
+VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27):
+Satyalok (D22/3-4, Hathi Phatak, naast Chaustti Ghat) is een apart heiligdom — niet het woonhuis — met de samadhi/askengedenkplaats van Lahiri Mahasaya en, direct ernaast, een grot-achtige ruimte specifiek gewijd aan Mahavatar Babaji, door ooggetuigen beschreven als "a perfect place to sit in meditation." Lahiri Mahasaya stierf op 26 september 1895 (vier dagen voor zijn 67e verjaardag) in Benares; volgens overlevering draaide hij zijn lichaam drie keer om, keerde naar het noorden en verliet bewust zijn lichaam (mahasamadhi). Hij werd volgens Hindoe-Brahmaanse riten gecremeerd bij Manikarnika Ghat (zie donderdag). Satyalok wordt al generaties in stand gehouden binnen de familie Lahiri.
+
+Er is geen letterlijk AOAY-citaat dat "Satyalok" of "Chaustti Ghat" bij naam noemt — de link loopt indirect via Hoofdstuk 35 (het leven en de dood van Lahiri Mahasaya) en de bevestigde historische feiten van zijn mahasamadhi. De Babaji-koppeling is wel stevig gedocumenteerd door meerdere onafhankelijke bezoekersverslagen.
+
+Waarom dit A rechtvaardigt: waar het huis in Bengali Tola de plek van zijn léven is, is dit de plek van zijn dood/nagedachtenis én het enige punt in Varanasi waar een ruimte specifiek aan Babaji is toegewijd — een zeldzame, tastbare "ontmoetingsplek" tussen beide figuren.
+
+BRONNEN: path2yoga.net/2020/07/lahiri-mahasaya-temple-varanasi, trip.com (Satyalok Lahiri Mahasaya Temple), yappe.in (Satyalok), anandapilgrimages.org, lahirikriyayoga.com, en.wikipedia.org/wiki/Lahiri_Mahasaya.
 
 HOE WIL JE HIER ZIJN? — **Hoeveel tijd wil je hier zijn?**
 Zitten en mediteren, niet alleen bekijken — dit is ook een krachtplek van je lineage, geen bezichtiging. Planningsbasis 60 minuten, maar dit is jouw keuze, niet een vast advies.
@@ -291,7 +354,14 @@ WIE WAS HIER / WAT GEBEURDE HIER?
 Lahiri Mahasaya was betrokken bij onderwijs in deze buurt (schoolcontext); geen los, apart bezoekbaar gebouw, maar de wijk zelf draagt die geschiedenis.
 
 WAT MOET JE HIER PRECIES ZOEKEN?
-Geen specifiek gebouw — de wandeling door Thatheri Bazaar en Chowk is de ervaring.
+De zeven door Rani Bhabani gestichte tempels in Bengali Tola (waaronder Tilbhandeshwar Mahadev); het smeedwerk van koper/messing-ambachtslieden in Thatheri Bazaar, rechtstreeks te zien vanaf de straat; de oude gevels en nauwe gullies richting Chowk.
+
+VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27):
+Bengali Tola werd vanaf 1757 gesticht door de Bengaalse koningin Rani Bhabani als nederzetting voor Bengaalse families, met zeven door haar gebouwde tempels. Thatheri Bazaar is een van de oudste markten van Varanasi, wereldberoemd om traditioneel met de hand gesmeed koper- en messingwerk. Chowk is het historische commerciële hart van de oude stad.
+
+Directe lineage-link, al gedocumenteerd via AOAY Hoofdstuk 35: Lahiri Mahasaya *"organized many study groups, and played an active part in the growth of a large high school in the Bengalitola section of Benares."* Voor Thatheri Bazaar en Chowk specifiek is geen directe lineage-vermelding gevonden — hun waarde is de fysieke, ongewijzigde omgeving waar Lahiri Mahasaya doorheen liep: niet een op-zichzelf-staand monument, maar de "leefwereld" die het huis en Satyalok tot leven brengt.
+
+BRONNEN: en.wikisource.org/wiki/Autobiography_of_a_Yogi/Chapter_35, en.wikipedia.org/wiki/Shri_Tilbhandeshwar_Mahadev_Mandir, gostops.com (Thatheri Bazaar), en.wikipedia.org/wiki/Chowk_Bazaar.
 
 HOE WIL JE HIER ZIJN?
 Rustig lopen, de sfeer opnemen. 30 minuten.
@@ -313,7 +383,14 @@ WIE WAS HIER / WAT GEBEURDE HIER?
 Geen persoon-link — lokale voedselcultuur, onderdeel van de bredere Oud-Kashi-ervaring.
 
 WAT MOET JE HIER PRECIES ZOEKEN?
-Een gerenommeerde paan-verkoper in de bazaar-omgeving; exacte beste kraam nog te verifiëren.
+Een gerenommeerde paan-verkoper in de bazaar-omgeving; exacte beste kraam nog te verifiëren. Het met de hand vouwen van het betelblad met de vulling; de varianten (meetha/zoet vs. saada).
+
+VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27):
+Paan (betelblad met kalk, areca-noot, specerijen) gaat terug tot de Ayurvedische teksten, waar het als medicinaal en verfrissingsmiddel voor koningen/geleerden/heiligen wordt genoemd; de huidige vorm kristalliseerde verder uit tijdens de Mogol-periode. Banarasi paan werd beroemd doordat Varanasi eeuwenlang een handels-/cultuurknooppunt was. Paan werd een symbool van gastvrijheid — een gast werd traditioneel niet weggestuurd zonder paan.
+
+Eerlijke conclusie, zoals al in de opdracht zelf benoemd: geen enkele lineage- of AOAY-link gevonden, ook na zoeken. Dit is puur cultureel-culinair, geen spirituele plek — waardevol als authentieke lokale ervaring binnen de wandeling, niet als lineage-bestemming op zich.
+
+BRONNEN: en.wikipedia.org/wiki/Banaras_Pan, holyvoyages.com (Banarasi Paan Varanasi), mrpaanwala.com (History of Kashi/paan), banarastrip.com (Story Behind Banarasi Paan).
 
 HOE WIL JE HIER ZIJN?
 Proeven, niet meer dan dat — geen apart bezoek, gewoon meenemen tijdens de wandeling.
@@ -343,7 +420,14 @@ WIE WAS HIER / WAT GEBEURDE HIER?
 De huidige tempel werd in 1780 herbouwd door Ahilyabai Holkar; het is al eeuwenlang één van de sterkste levende Shiva-pelgrimsplekken van heel India.
 
 WAT MOET JE HIER PRECIES ZOEKEN?
-De Vishwanath-lingam zelf, in het hoofdheiligdom.
+De Vishwanath-lingam zelf, in het hoofdheiligdom; de Gyanvapi-put en -moskee direct naast de tempel; de vergulde koepels (geschenk van Maharaja Ranjit Singh, 1835); de vroege-ochtend Mangala Aarti (04:00-06:00).
+
+VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27):
+Eén van de twaalf Jyotirlinga's — Shiva manifesteerde zich hier volgens de mythologie als oneindige lichtkolom tijdens een twist tussen Brahma en Vishnu. Roerige geschiedenis: verwoest in 1194 (Muhammad Ghori), 1490 (Sikandar Lodi) en 1669 (Aurangzeb, die op de tempelgrond de Gyanvapi-moskee liet bouwen die er nog steeds direct naast staat, met de heilige Gyanvapi-put ertussen). De huidige structuur werd in 1780 gebouwd door Maratha-koningin Ahilyabai Holkar. In 2021 werd de Kashi Vishwanath Corridor ingewijd, die meer dan 40 vergeten oude tempeltjes blootlegde.
+
+AOAY noemt deze tempel niet met naam (Hoofdstuk 28 gaat, ter verduidelijking, NIET over de tempel maar over een jongensvriend genaamd Kashi). De echte, sterke link loopt via Sri Ramakrishna: tijdens zijn 1868-pelgrimage bezocht hij vrijwel dagelijks Vishwanath en raakte er herhaaldelijk in trance/samadhi, kreeg bij de ghats een visioen van Shiva en Parvati die zielen van gecremeerden nectar/verlossing schonken. In dezelfde periode bezocht hij ook Trailanga Swami (eveneens Top-X, zie donderdag), die vlak bij deze tempel bij Manikarnika verbleef.
+
+BRONNEN: en.wikipedia.org/wiki/Kashi_Vishwanath_Temple, varanasi.rkmm.org/visit-of-sri-ramakrishna-to-varanasi, sriramakrishna.in (pilgrimage), trailangaswami.in (Trailanga Swami and Ramkrishna Paramahansa), en.wikisource.org/wiki/Autobiography_of_a_Yogi/Chapter_28 (ter verduidelijking).
 
 HOE WIL JE HIER ZIJN?
 Darshan/bezoek, geen lang zitten — reken op de volle tijd door beveiliging en wachtrij.
@@ -373,7 +457,14 @@ WIE WAS HIER / WAT GEBEURDE HIER?
 Geen specifiek persoon-event; onderdeel van de bredere Kashi-verering rond voeding en overvloed.
 
 WAT MOET JE HIER PRECIES ZOEKEN?
-Het hoofdheiligdom van Annapurna, direct naast Vishwanath.
+Het bronzen dagelijkse beeld van Annapurna (het gouden beeld is alleen zichtbaar tijdens Annakut, de dag na Diwali); het zilveren Shiva-beeld ("Bholenath") ernaast.
+
+VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27):
+Gebouwd in 1729 door Maratha Peshwa Baji Rao, Nagara-stijl. Centrale legende: Shiva noemde de materiële wereld/voedsel ooit illusie (maya), wat Parvati zo kwaad maakte dat zij verdween — waarna de hele wereld getroffen werd door hongersnood, zelfs de goden vonden geen voedsel meer. Eén keuken bleef voorradig: in Kashi, gerund door Parvati als Annapurna. Shiva kwam er met zijn eigen bedelnap voedsel vragen, erkende zijn fout, en Parvati/Annapurna voedde hem met haar eigen handen — sindsdien wordt Annapurna in Kashi vereerd als degene die zelfs Shiva moet voeden.
+
+Geen directe AOAY- of Top-X-vermelding gevonden; plausibel maar niet hard bevestigd dat Ramakrishna (die tijdens zijn 1868-bezoek "vele andere tempels" naast Vishwanath bezocht) ook hier kwam — deur-aan-deur met Vishwanath. De echte kracht van deze plek is thematisch: het idee dat spiritueel (Shiva) en stoffelijk/voedend (Annapurna) elkaar nodig hebben, resoneert sterk met Lahiri Mahasaya's eigen levensfilosofie als "householder-guru" die liet zien dat spirituele verwerkelijking te combineren is met een volwaardig wereldlijk leven.
+
+BRONNEN: en.wikipedia.org/wiki/Annapurna_Devi_Mandir, kashiannapurnatemple.com (mythologische geschiedenis), incredibleindia.gov.in/en/uttar-pradesh/varanasi/maa-annapurna-temple, sanatanajourney.com (Story of Goddess Annapurna).
 
 HOE WIL JE HIER ZIJN?
 Kort bezoek, aansluitend op Vishwanath.
@@ -409,7 +500,14 @@ WIE WAS HIER / WAT GEBEURDE HIER?
 Geen specifiek persoon-event; de rivier zelf en de rij ghats zijn de ervaring.
 
 WAT MOET JE HIER PRECIES ZOEKEN?
-Geen specifieke plek — het panoramische uitzicht op de ghats vanaf het water, inclusief een eerste blik op Manikarnika Ghat waar je later die ochtend aan land gaat.
+Geen specifieke plek — het panoramische uitzicht op de ghats vanaf het water, inclusief een eerste blik op Manikarnika Ghat waar je later die ochtend aan land gaat. Let specifiek op **Anandamayi Ghat** (ghat nr. 7 vanaf Assi Ghat, dus vroeg op de route).
+
+VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27):
+Deze route passeert ~55 ghats. Geen specifieke AOAY-passage beschrijft deze exacte boottocht bij naam, maar Kashi/Benares als stad is voortdurend aanwezig in AOAY (Lahiri Mahasaya's hele leven speelt zich hier af, hfst. 26, 31-36) en de Ganges is een terugkerend motief door het hele boek. **Belangrijke vondst:** de route passeert Anandamayi Ghat, officieel genoemd naar en direct verbonden met Anandamayi Ma (Top-X) — zij kocht dit stuk grond in 1944 (destijds Imalia Ghat) en vestigde er een ashram voor meisjes (zie ook dinsdag, Anandamayi Ashram Bhadaini). De boottocht vaart dus letterlijk langs een door een Top-X-heilige gestichte plek, kort na vertrek.
+
+Waarom A+: niet vanwege een expliciete AOAY-scène, maar omdat dit de enige manier is om de geografische/rituele eenheid van het hele ghat-systeem te ervaren zoals Lahiri Mahasaya en Trailanga Swami die decennialang langs deze oever leefden zagen, de tocht een authentieke Top-X-locatie passeert, en eindigt bij/nabij Manikarnika en Panchganga — de twee zwaarste lineage-locaties van de dag.
+
+BRONNEN: roobaroowalks.com (Assi Ghat morning history), varanasiguru.com/assi-ghat, en.wikipedia.org/wiki/Assi_Ghat, kashi.gov.in/listing-details/anandmayi-ghat, en.wikipedia.org/wiki/Ghats_in_Varanasi.
 
 HOE WIL JE HIER ZIJN?
 Rustig meevaren, kijken, geen programma. 90 minuten.
@@ -436,7 +534,16 @@ WIE WAS HIER / WAT GEBEURDE HIER?
 Trailanga Swami leefde en had zijn samadhi hier; zowel Ramakrishna als Lahiri Mahasaya worden in de overlevering met hem in verband gebracht.
 
 WAT MOET JE HIER PRECIES ZOEKEN?
-Het samadhi-heiligdom en de Shiva-lingam op deze plek.
+De ondergrondse meditatiekamer onder zijn standbeeld (plek van zijn maha-samadhi/overlijden); de Shivling die hij naar verluidt zelf uit de Ganges haalde; de Kali-murti die hij zelf vereerde.
+
+VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27):
+Trailanga Swami leefde naar overlevering circa 300 jaar, at zelden, dronk publiekelijk dodelijk gif zonder schade en bleef dagenlang op/onder het Gangeswater zonder te verdrinken. Overleed maandagavond 26 december 1887; kreeg een jala samadhi (waterbegrafenis) in de Ganges.
+
+**Bevestigd in AOAY Hoofdstuk 31 ("An Interview with the Sacred Mother"), letterlijk citaat:** *"Lahiri Mahasaya had a very famous friend, Swami Trailanga, who was reputed to be over three hundred years old."* Yogananda beschrijft hoe Trailanga — bekend om zijn stilzwijgen — publiekelijk eer bewees aan Lahiri Mahasaya (een huisvader, geen monnik), met het beroemde citaat als antwoord op een verbaasde discipel: *"Lahiri Mahasaya is like a divine kitten, remaining wherever the Cosmic Mother has placed him."*
+
+De tweede lineage-link (Ramakrishna) is niet in AOAY te vinden maar wel goed gedocumenteerd in de Ramakrishna-traditie zelf: Ramakrishna bezocht Trailanga Swami tijdens zijn 1868-pelgrimage, verklaarde dat hij in werkelijkheid Shiva zelf was, kookte zelf rijstepap voor hem. Dit maakt Trailanga Swami een van de zeer weinige figuren die door zowel Lahiri Mahasaya als Ramakrishna persoonlijk werd gerespecteerd — een authentiek kruispunt tussen twee anders gescheiden lineages.
+
+BRONNEN: en.wikisource.org/wiki/Autobiography_of_a_Yogi/Chapter_31, crystalclarity.com/yogananda/chapter-31, shreemaa.org (Shree Maa Trailinga Swami deel 4), varanasi.rkmm.org/visit-of-sri-ramakrishna-to-varanasi, varanasiguru.com/trailanga-swami-the-walking-shiva-of-kashi, en.wikipedia.org/wiki/Trailanga.
 
 HOE WIL JE HIER ZIJN?
 Een bewust, kort bezoek — 45 minuten, direct na de boottocht.
@@ -461,7 +568,14 @@ WIE WAS HIER / WAT GEBEURDE HIER?
 Geen specifiek persoon-event; de samenvloeiingstraditie zelf is de betekenis.
 
 WAT MOET JE HIER PRECIES ZOEKEN?
-De ghat zelf, met uitzicht op de rivier.
+De trappen waarop Trailanga Swami placht te zitten; het punt waar (volgens traditie) de vijf rivieren samenkomen; de Gurudwara ter herdenking van Guru Nanak's bezoek; pal ernaast de Alamgir-moskee.
+
+VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27):
+Staat traditioneel voor de onzichtbare samenvloeiing van vijf heilige rivieren (Ganga, Yamuna, Saraswati, Kirana, Dhutapapa) — genoemd in de Matsya Purana (6e eeuw) en de Kashi Khanda. Alleen de Ganga is fysiek zichtbaar. Huidige structuur grotendeels gebouwd in 1580 door Raja Todar Mal (minister van Akbar), later gerestaureerd door de Maratha's. De grote Vedanta-leraar Ramananda doceerde hier; zijn discipel Kabir droeg die leer verder. Ook Guru Nanak verbleef hier naar overlevering.
+
+Geen direct AOAY-citaat over deze ghat specifiek. De lineage-relevantie loopt via de geografische functie: dit is het toegangspunt tot Tailanga Swami Math — Trailanga Swami zat hier decennialang mediterend, en ontving bezoekers, inclusief naar overlevering Ramakrishna. De A komt dus vooral van de combinatie met Tailanga Swami Math ernaast, plus de onafhankelijke Ramananda-Kabir-lijn die de plek al tot een zwaargewicht maakt, los van de Kriya-lineage.
+
+BRONNEN: varanasiguru.com/panchganga-ghat, roobaroowalks.com (Panchganga Ghat), kashi.gov.in/listing-details/panchganga-ghat, en.wikiversity.org/wiki/The_Varanasi_Heritage_Dossier/Pancaganga_Ghat_and_Temple.
 
 HOE WIL JE HIER ZIJN?
 Even aanwezig zijn, geen los programma. 30 minuten.
@@ -488,7 +602,14 @@ WIE WAS HIER / WAT GEBEURDE HIER?
 Geen specifiek persoon-event bekend; de fysieke verzakking/scheve stand zelf is de reden dat de tempel bekend is.
 
 WAT MOET JE HIER PRECIES ZOEKEN?
-De zichtbare scheve stand van de toren, vanaf de ghat of het water.
+De hoek van de helling vanaf het water; het niveau waarop het water de shikhara (torentje) raakt, afhankelijk van het seizoen.
+
+VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27):
+Helt circa 9 graden — méér dan de Toren van Pisa (ca. 4 graden). Exacte bouwdatum onzeker: legende noemt een dienaar van Raja Man Singh die de tempel ca. 500 jaar geleden voor zijn moeder Ratna Bai bouwde, kadastrale bronnen wijzen op 1825-1830, andere overleveringen noemen koningin Baija Bai van Gwalior. Legende achter het hellen: de dienaar beweerde met de bouw zijn schuld aan zijn moeder te hebben afbetaald, waarop zij hem vervloekte met de uitspraak dat een schuld aan je moeder nooit kan worden afbetaald — sindsdien "buigt" de tempel als symbool voor die onmogelijke schuld. Foto's uit de jaren 1860 tonen de tempel nog rechtop; de helling is een geleidelijk, later fenomeen door verzakking, watererosie en golfslag.
+
+Geen documenteerbare AOAY- of Top-X-connectie gevonden — dit wordt eerlijk zo gerapporteerd. De waarde is puur visueel-symbolisch: een van de krachtigste symbolen van vergankelijkheid en moksha in heel Varanasi, een tempel die letterlijk "verdrinkt" naast de plek waar lichamen worden verbrand voor bevrijding — versterkt het thema van de hele Manikarnika-dag.
+
+BRONNEN: en.wikipedia.org/wiki/Ratneshwar_Mahadev_temple, outlooktraveller.com (leaning temple), varanasiguru.com/ratneshwar-mahadev-temple, ramanisblog.in (leaning temple of Rateneshwar).
 
 HOE WIL JE HIER ZIJN?
 Even bekijken, fotograferen. 15 minuten.
@@ -513,7 +634,16 @@ WIE WAS HIER / WAT GEBEURDE HIER?
 Lahiri Mahasaya's crematie vond hier plaats. De ghat wordt binnen de hindoetraditie ook gezien als een moksha-plek (bevrijding via crematie/dood in Varanasi).
 
 WAT MOET JE HIER PRECIES ZOEKEN?
-De ghat zelf, waar doorlopend crematies plaatsvinden — geen specifiek gebouw of kamer.
+Het eeuwige vuur (naar overlevering circa 3.500 jaar oud, nooit gedoofd) en de Dom-bewakers; de plek aan de Ganges waar crematies plaatsvinden (met respect, zonder foto's).
+
+VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27) — ZWAARSTE, MEEST DIRECT GEDOCUMENTEERDE LINEAGE-LOCATIE VAN DE HELE CLUSTER:
+Naar schatting worden hier 200-300 lichamen per dag gecremeerd, 365 dagen per jaar. Mythologie: een oorbel (manikarnika) van Parvati (of Shiva, afhankelijk van de versie) viel hier in een put; Shiva beloofde dat iedereen die hier gecremeerd wordt moksha bereikt.
+
+**Bevestigd via Hoofdstuk 36 ("Babaji's Interest in the West"), letterlijk citaat:** *"Lahiri Mahasaya's beautiful body, so dear to the devotees, was cremated with solemn householder rites at Manikarnika Ghat by the holy Ganges."* Lahiri Mahasaya stierf op 26 september 1895 (vier dagen voor zijn 67e verjaardag), in lotushouding naar het noorden gekeerd, in bewuste mahasamadhi. **Nog opmerkelijker:** AOAY documenteert dat de dag na de crematie, om precies tien uur 's ochtends, drie verschillende discipelen (Keshabananda, Panchanon Bhattacharya, Swami Pranabananda) in drie verschillende steden onafhankelijk van elkaar Lahiri Mahasaya in vlees en bloed voor zich zagen verschijnen, met het citaat: *"my room was suffused with a great light. Lo! before me stood the flesh and blood form of Lahiri Mahasaya!"* en zijn eigen verklaring: *"From the disintegrated atoms of my cremated body, I have resurrected a remodeled form."*
+
+Dit rechtvaardigt de hoogste graad zonder twijfel: de plek waar een Top-X-hoofdfiguur daadwerkelijk gecremeerd is, met letterlijk citeerbaar AOAY-hoofdstuk en -citaat, gecombineerd met de status van Manikarnika als hét moksha-brandpunt van heel het Hindoeïsme.
+
+BRONNEN: en.wikisource.org/wiki/Autobiography_of_a_Yogi/Chapter_36, crystalclarity.com (chapter 36), en.wikipedia.org/wiki/Lahiri_Mahasaya, ancient-origins.net (Manikarnika Ghat), en.wikipedia.org/wiki/Manikarnika_Ghat.
 
 HOE WIL JE HIER ZIJN?
 **Bescherm dit blok boven alles.** Open einde, geen toeristenstop: aanwezig zijn bij een actieve crematie/moksha-realiteit. Dit is de reden voor de hele dag — laat niets anders dit blok inkorten.
@@ -534,10 +664,17 @@ TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: niet van toepassing — vastgelegd, bes
 ### Alamgir Mosque/Dharahara — moskee met een minaret-achtige structuur, bijvangst direct bij Panchganga Ghat (Panchganga-omgeving, Varanasi) [A*, geen vast tijdslot]
 
 WAT IS DIT IN GEWOON NEDERLANDS?
-Een moskee met opvallende, minaret-achtige torens, direct bij Panchganga Ghat.
+Een moskee met opvallende, minaret-achtige torens, direct bij Panchganga Ghat — gebouwd op de ruïnes van een van de vijf belangrijkste Vishnu-tempels van heel Kashi.
+
+VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27, extra zoekpoging naar verborgen lineage-laag zoals gevraagd):
+Gebouwd in 1669 in opdracht van keizer Aurangzeb, vernoemd naar zijn eigen eretitel "Alamgir". Cruciaal: de moskee staat op de ruïnes van de **Beni Madhav-tempel** (Bindu Madhav-tempel), een grote Vishnu-tempel die één van de vijf gewijde "Pancha Madhava"-heiligdommen van Kashi was — een pelgrimage naar Kashi werd traditioneel als onvolledig beschouwd zonder darshan van Bindu Madhav. De Franse juwelier/reiziger Jean-Baptiste Tavernier bezocht de tempel in 1665 (enkele jaren vóór de vernietiging) en noemde haar "de grote pagode": een kruisvormige tempel met een 1,80m hoog, met robijnen en parels behangen Vishnu-beeld — volgens Tavernier de beroemdste tempel van het land na de Jagannath-tempel in Puri. In 1673 liet Aurangzeb de tempel vernietigen en de moskee erop bouwen; de onderste muren van de moskee bestaan letterlijk uit hergebruikte stenen van de Hindoe-tempel — fysiek zichtbaar. Het oorspronkelijke zwart-marmeren Vishnu-beeld overleefde en wordt sindsdien vereerd in een nabijgelegen huis, nog steeds bekend als de (nieuwe) Bindu Madhav-tempel. De moskee kreeg oorspronkelijk twee minaretten; in 1948 stortte één in tijdens overstromingen met dodelijke slachtoffers, waarna de tweede uit veiligheid werd gesloopt.
+
+**Eerlijke conclusie na grondig zoeken:** geen documenteerbare connectie met Top-X-figuren of AOAY gevonden, ook niet na uitgebreid doorzoeken. Wat wél gevonden werd, en de "pure bijvangst"-status nuanceert: dit is niet religieus-historisch leeg, maar draagt een zware, goed gedocumenteerde Hindoe-Moslim imperiale geschiedenislaag — de vernietiging van een van de vijf belangrijkste Vishnu-heiligdommen van heel Kashi (bevestigd door een onafhankelijke 17e-eeuwse ooggetuige), direct naast de Tailanga Swami Math.
 
 WAAROM ZOU DIT INTERESSANT ZIJN?
-Geen lineage-link — puur bijvangst als je toch al bij Panchganga Ghat staat, geen reden voor een eigen bezoek.
+Geen lineage-link — maar wel de fysieke, tastbare herinnering aan de vernietiging van een van de belangrijkste tempels van Kashi, op exact dezelfde plek als de Tailanga Swami Math. Op lineage-gronden alleen geen A/A+ te rechtvaardigen; als algemeen-historische locatie (Mughal-Hindoe geschiedenis) een eerlijke B/A, niet A+ zonder feiten te verdraaien.
+
+BRONNEN: en.wikipedia.org/wiki/Alamgir_Mosque, varanasiguru.com/alamgir-mosque, kashivacations.com (Alamgir Mosque/Beni Madhav ka Darera), kashi.gov.in/listing-details/beni-madhav-temple, tirthayatra.org/bindu-madhav-temple.
 
 CCI-ADVIES: geen vast tijdslot toekennen zolang niet bevestigd; alleen een blik werpen als je er toch loopt.
 
@@ -565,7 +702,14 @@ WIE WAS HIER / WAT GEBEURDE HIER?
 Geen specifiek persoon-event voor jouw lineage; algemene Durga-verering.
 
 WAT MOET JE HIER PRECIES ZOEKEN?
-De rode toren (shikhara) en de waterbak ernaast.
+De rode Nagara-architectuur (Bengaals-geïnspireerd, zeldzaam qua kleur in Varanasi); het swayambhu-beeld (zelf-gemanifesteerd) in het binnenste heiligdom; de rituele baden aan de kund-trappen.
+
+VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27):
+Gebouwd in de 18e eeuw (soms specifiek 1760) door Rani Bhabani van Natore, een machtige Bengaalse weduwe-koningin bekend voor het financieren van tempels/ghats langs de Ganges (dezelfde Rani Bhabani die Bengali Tola stichtte, zie woensdag). Consecratie door de heilige Narayana Dikshit rond 1772. Volgens de Kashi Khanda-traditie smeekte koning Subahu van Kashi de godin Durga zich hier te vestigen; zij stemde toe "zolang deze schepping bestaat". Het beeld wordt beschreven als swayambhu. De Devi wordt hier vereerd in haar Kushmanda-vorm, één van de negen vormen uit de Navadurga-cyclus.
+
+Eerlijke conclusie: geen directe, documenteerbare vermelding in AOAY, geen gevonden verband met een van de Top-X-figuren op deze exacte locatie. De rechtvaardiging is niet lineage-gebaseerd maar wel stevig: dit is een van de weinige plekken waar swayambhu-mythologie, Kashi Khanda-kosmologie én levende volksreligiositeit (de apen, de rituele baden, de drukte van gewone pelgrims) samenkomen — niet-gefilterde, lokale Sakta-verering.
+
+BRONNEN: en.wikipedia.org/wiki/Durga_Mandir,_Varanasi, incredibleindia.gov.in/en/uttar-pradesh/varanasi/durga-temple, sahasa.in (Durga Kund Kushmanda Durga Temple), kashibanaras.com/durga-kund-temple.
 
 HOE WIL JE HIER ZIJN?
 Bekijken, fotograferen. 30 minuten.
@@ -590,7 +734,14 @@ WIE WAS HIER / WAT GEBEURDE HIER?
 De tempel wordt in verband gebracht met Tulsidas — dezelfde dichter-heilige als bij Tulsi Ghat — als sticht(er)-traditie van deze Hanuman-verering.
 
 WAT MOET JE HIER PRECIES ZOEKEN?
-Het hoofdheiligdom met het Hanuman-beeld.
+Het hoofdheiligdom met het Hanuman-beeld; besef dat je hier op de plek staat waar Tulsidas (zie Tulsi Ghat, dinsdag) naar overlevering een visioen van Hanuman had.
+
+VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27):
+Gesticht door dichter-heilige Goswami Tulsidas (1511-1623) begin 16e eeuw, op de plek van zijn visioen van Hanuman. Tulsidas is auteur van de Ramcharitmanas (Hindi-Ramayana) en de Hanuman Chalisa; naar overlevering schreef hij een substantieel deel van de Ramcharitmanas op of nabij deze plek. "Sankat Mochan" betekent "verlosser van beproevingen". De huidige structuur werd herbouwd door Pandit Madan Mohan Malviya, oprichter van Banaras Hindu University — een moderne nationalistisch-religieuze laag erbovenop. Dinsdagen/zaterdagen trekken duizenden bezoekers.
+
+Geen directe AOAY-vermelding, geen gedocumenteerd bezoek van een Top-X-figuur aan deze specifieke tempel. Tulsidas zelf staat niet op Mark's Top-X-lijst (oudere, aparte Vaishnava/Rama-bhakti-traditie), maar is een van de grootste heiligen van Kashi in het algemeen. De rechtvaardiging: dit is een van de weinige plekken in heel India waar een geverifieerd historisch persoon een van de invloedrijkste religieuze teksten van het subcontinent schreef op de exacte fysieke plek die je bezoekt — vergelijkbaar in gewicht (voor het Rama-bhakti-universum) met wat het Lahiri Mahasaya-huis is voor de Kriya-lijn.
+
+BRONNEN: en.wikipedia.org/wiki/Sankat_Mochan_Hanuman_Temple, en.wikipedia.org/wiki/Tulsidas, kashi.gov.in/listing-details/shri-sankat-mochan-temple, sankatmochanmandirvaranasi.com/about-us.
 
 HOE WIL JE HIER ZIJN?
 Kort bezoek, darshan. 30 minuten.
@@ -617,7 +768,14 @@ WIE WAS HIER / WAT GEBEURDE HIER?
 Geen specifiek persoon-event; de architecturale herkomst (Nepalese bouwstijl aan de Ganges) is zelf de reden.
 
 WAT MOET JE HIER PRECIES ZOEKEN?
-De Nepalese-stijl tempel direct aan de ghat.
+De trappen van de ghat zelf; het kleine Lalita Gauri-schrijn; het uitzicht op/de nabijheid van Manikarnika Ghat vlak ernaast.
+
+VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27):
+Gebouwd begin 19e eeuw, gecommissioneerd door Rana Bahadur Shah, koning van Nepal, die van 1800-1804 in ballingschap in Varanasi verbleef (als "Swami Nirgunanda"). Vernoemd naar de godin Lalita. Hij werd op 25 april 1806 vermoord door zijn stiefbroer, vóórdat ghat en tempel af waren; zijn zoon Girvan Yuddha Bikram Shah Deva voltooide het — bouw duurde in totaal ~40 jaar.
+
+Geen documenteerbare AOAY- of Top-X-connectie. De rechtvaardiging: dit is de enige plek in Varanasi waar een buitenlandse (Nepalese) koninklijke ballingschap fysiek zijn stempel op de rivieroever drukte, direct naast Manikarnika (de plek van rituele bevrijding) — voor wie de volle spirituele geografie van Kashi wil doorleven (leven, dood, verlichting, verbanning) een essentiële schakel, ook zonder directe Kriya-lineage-link.
+
+BRONNEN: en.wikipedia.org/wiki/Lalita_Ghat, livehistoryindia.com (Pashupatinath Temple), en.wikipedia.org/wiki/Lalita_Gauri_Mandir, trawell.in (Lalita Ghat Nepali Temple).
 
 HOE WIL JE HIER ZIJN?
 Bekijken, fotograferen. 30 minuten.
@@ -642,7 +800,14 @@ WIE WAS HIER / WAT GEBEURDE HIER?
 Geen specifiek persoon-event; de bouwstijl en de bijzondere houtsnijwerken zijn zelf de aantrekkingskracht.
 
 WAT MOET JE HIER PRECIES ZOEKEN?
-De houtsnijwerken op de dakbalken en gevel.
+De meerlaagse houten pagodedaken, de fijne houtsnijwerken (waaronder de erotische panelen), en het contrast met de stenen tempels er direct omheen.
+
+VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27):
+Officieel vaak "Nepali Mandir"/"Samrajeshwar Pashupatinath Mahadev Temple", volksmond "Kathwala" (kath = hout). Een bewuste replica van de Pashupatinath-tempel in Kathmandu, gebouwd in opdracht van dezelfde Rana Bahadur Shah die Lalita Ghat liet aanleggen; voltooid door zijn zoon rond 1843. Opgetrokken uit termietbestendig hout speciaal uit Nepal geïmporteerd, bouwstijl verwant aan het Kasthamandap-type gebouwen van Kathmandu (waar de naam "Kathmandu" zelf vandaan komt). Bekend als "Mini Khajuraho" vanwege kleine erotische houtsnijwerken op de gevels.
+
+Geen gevonden verband met AOAY of Top-X-figuren — zuiver Nepalees-koninklijke geschiedenis. De rechtvaardiging: architectonisch en cultureel het meest zeldzame gebouw aan de hele Ganges-oever in Varanasi, en de erotische snijwerken geven een broodnodig tegenwicht tegen een te ascetisch beeld van hindoeïstische tempelkunst — tantrische/erotische iconografie is een serieuze, oude religieuze traditie (net als in Khajuraho), niet een curiositeit.
+
+BRONNEN: en.wikipedia.org/wiki/Nepali_Mandir, livehistoryindia.com (Pashupatinath Temple), audiala.com/en/india/varanasi/nepali-mandir, thedivineindia.com.
 
 HOE WIL JE HIER ZIJN?
 Bekijken, de details opzoeken. 45 minuten.
@@ -656,6 +821,12 @@ TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: 45 min.
 11:30–12:15 transfer terug naar hotel, ~45 min.
 
 **12:15–15:30 (~3u15) — Assi Ghat zelf + contemplatie-reserve, geen losse vrije tijd.** Assi Ghat is zelf een eigen A+-gegradeerd item in de ledger ("fysieke ghat-anker, los van de ervaringen die er plaatsvinden"), maar had nog geen eigen moment gekregen — het werd alleen impliciet meegenomen als hotel-locatie en wandelroute. Dit blok is die eigen tijd: gewoon aanwezig zijn bij Assi Ghat, zonder programma. Het is ook bewust de plek waar extra contemplatietijd naartoe kan als Lahiri Mahasaya's huis, Satyalok of de Anandamayi Ma Ashram op hun eigen dagen meer tijd nodig hadden dan gepland — die dagen hoeven daarvoor niet ingekort te worden, dit blok vangt het op.
+
+VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK OP ASSI GHAT ZELF (online research 2026-09-27): Assi Ghat markeert de zuidgrens van heilig Varanasi, op de plek waar de kleine Assi-rivier oorspronkelijk in de Ganges uitmondde (samenvloeiing in 1981-82 ~0,5 km naar het zuiden verschoven). Al genoemd in Gahadavala-inscripties (11e-12e eeuw) en in de Kurma, Matsya en Padma Purana — een van de oudste tekstueel-geattesteerde ghats van de stad. Tot in de 19e eeuw grotendeels natuurlijk/onverhard; in 1902 kocht koningin Radha Dulari Kunwar (Sursand-landgoed, Bihar) het zuidelijke deel en bouwde er een klein paleis (nu Hotel Ganga View); pas in 1988 werd de huidige stenen ghat aangelegd. Er is een Sangameshvara-schrijn met marmeren plaquette, onderdeel van de Panchakroshi-pelgrimsroute.
+
+Geen directe AOAY-vermelding van Assi Ghat zelf. **Wel een sterke Top-X-connectie:** Trailanga Swami (zie donderdag) woonde volgens meerdere bronnen op verschillende momenten in zijn extreem lange leven (stierf 1887, vestigde zich 1737 in Varanasi) onder andere op Assi Ghat, naast de Vedavyas Ashrama bij Hanuman Ghat en Dashashwamedh Ghat — een reëel, meermaals gedocumenteerd biografisch feit. Dat betekent dat je hier, op je eigen uitvalsbasis, letterlijk slaapt en ontwaakt op de plek waar deze door zowel Ramakrishna als de yogatraditie erkende siddha rondliep.
+
+BRONNEN: en.wikipedia.org/wiki/Assi_Ghat, en.wikiversity.org/wiki/The_Varanasi_Heritage_Dossier/Assi_Ghat, varanasiguru.com/assi-ghat, ramdass.org (Sri Trailanga Swami, The Walking Lord Shiva of Varanasi), vedicfeed.com/sri-trailanga-swami.
 
 ### Transfer
 15:30–16:00 transfer naar Dashashwamedh Ghat, ~30 min.
@@ -673,8 +844,19 @@ Dit is niet zomaar een Aarti-stop: het is één van de diepste AOAY/Kriya-lineag
 WIE WAS HIER / WAT GEBEURDE HIER?
 In *Autobiography of a Yogi* hoofdstuk 33 stuurt Lahiri Mahasaya hier Ram Gopal heen; Mataji verschijnt vanuit een verborgen/ondergrondse grot-setting, roept Babaji en Lahiri Mahasaya op, en Babaji geeft hier zijn beroemde belofte dat hij zijn lichaam niet zal verlaten en zichtbaar zal blijven voor een select aantal mensen op aarde. Babaji, Lahiri Mahasaya, Mataji én Ram Gopal komen hier allemaal samen in één scène.
 
+VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27) — VOLLEDIGE HOOFDSTUK 33-ACCOUNT, GEVERIFIEERD TEGEN DE BRONTEKST:
+Dashashwamedh is de grootste, drukste ghat van Varanasi. Naam van Sanskriet dasha (tien) en ashwamedha (paardenoffer): volgens mythologie voerde Brahma hier tien paardenoffers uit om Shiva te vereren. Eerste permanente stenen structuur gebouwd 1738-1740 door Balaji Bajirao (Nanasaheb), Peshwa van het Maratha-rijk; verder gerenoveerd 1774-1776 door Maharani Ahilyabai Holkar (dezelfde die Kashi Vishwanath herbouwde). De huidige, wereldberoemde dagelijkse Ganga Aarti is relatief jong: opgezet in 1991 door de trust Ganga Seva Nidhi, als revival van een oudere, sporadische traditie (voorheen alleen op Dev Deepawali/Ganga Dussehra). Sindsdien nooit overgeslagen, ook niet tijdens overstromingen of corona. Zeven priesters voeren de ceremonie synchroon uit met meerlaagse koperen olielampen (panch diya), wierook, schelphoorns, gezangen.
+
+**Volledige AOAY hoofdstuk 33-account ("Babaji, the Yogi-Christ of Modern India"):** Ram Gopal Muzumdar — de "sleepless saint" uit hoofdstuk 13, die zich normaal 20 uur per dag, 25 jaar lang in geïsoleerde grotten in West-Bengalen aan Kriya Yoga wijdde — vertelt Yogananda hoe hij Babaji voor het eerst ontmoette tijdens een bezoek aan zijn goeroe Lahiri Mahasaya in Benares. De kern, letterlijk gesitueerd op Dashashwamedh Ghat: Lahiri Mahasaya gaf hem de opdracht *"Ram Gopal, go at once to the Dasasamedh bathing ghat."* Op de ghat zag Ram Gopal, vlak bij zijn voeten, een grote stenen plaat langzaam omhoog rijzen, die een verborgen ondergrondse grot onthulde. Uit die grot verscheen een gesluierde, opvallend mooie jonge vrouw: *"I am Mataji, the sister of Babaji."* Mataji legde uit dat zij Babaji en Lahiri Mahasaya had gevraagd naar haar grot te komen voor een belangrijke zaak; een lichtvlek zweefde over de Ganges en verdichtte zich tot Lahiri Mahasaya's gestalte. In de ontmoeting overweegt Babaji zijn lichaam op te geven, maar Mataji smeekt hem dit niet te doen — waarop zijn beroemde, plechtige belofte volgt: *"Be it so," Babaji said solemnly. "I will never leave my physical body. It will always remain visible to at least a small number of people on this earth."* Dit wordt in de tekst nadrukkelijk neergezet als een "onvergankelijke belofte" (immortal vow), afgelegd in aanwezigheid van getuigen — precies de reden waarom veel Kriya-beoefenaars geloven dat Babaji nog altijd, letterlijk, in een fysiek lichaam aanwezig is.
+
+**Extra Top-X-laag:** onafhankelijk van deze scène is Dashashwamedh Ghat ook (net als Assi Ghat) een van de plekken waar Trailanga Swami volgens meerdere biografische bronnen woonde/verbleef tijdens zijn zeer lange leven in Varanasi — een tweede, los-van-Babaji lineage-laag op dezelfde plek.
+
+Dit is denk ik zonder twijfel een van de zwaarst gewogen locaties van je hele reis: niet "een ghat met Ganga Aarti in de buurt van je lineage" — het is letterlijk de met naam genoemde locatie waar, volgens de canonieke tekst van je hele traditie, Babaji zijn centrale onsterfelijkheidsbelofte aflegde, in aanwezigheid van Lahiri Mahasaya en Mataji.
+
 WAT MOET JE HIER PRECIES ZOEKEN?
-De ghat zelf, waar de Aarti elke avond wordt gehouden — dit is een plek-erkenning, geen specifiek gebouw of kamer.
+De ghat zelf, waar de Aarti elke avond wordt gehouden — dit is een plek-erkenning, geen specifiek gebouw of kamer. Sta bewust een moment stil bij de bovenste/oudste trappen (richting het midden) en visualiseer de stenen plaat die zich volgens het verhaal daar opende.
+
+BRONNEN: en.wikisource.org/wiki/Autobiography_of_a_Yogi/Chapter_33, anandaindia.org/paramhansa-yogananda/autobiography-of-a-yogi/babaji-the-yogi-christ-of-modern-india, crystalclarity.com (chapter 33), anandaindia.org (hoofdstuk 13, introductie Ram Gopal), en.wikipedia.org/wiki/Dashashwamedh_Ghat, muraliduggineni.com (From Brahma's Yajnas to the Ganga Aarti), ramdass.org (Trailanga Swami op Dashashwamedh Ghat).
 
 HOE WIL JE HIER ZIJN?
 Bewuste aanwezigheid vóór de drukte begint, dan de Aarti meemaken. 60 minuten bewuste aanwezigheid, dan de ceremonie zelf.
