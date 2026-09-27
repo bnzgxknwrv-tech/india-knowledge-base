@@ -465,6 +465,19 @@ Vier afzonderlijke regeldocumenten bleken niet genoeg om het daadwerkelijke gedr
 - Nooit `ontbijt`/`wake`/`douchen` als kloktijd-item; de operationele dag begint bij `VERTREK HOTEL`.
 - Bij twijfel of een kaart compleet is: reread het hele sjabloonbestand, niet het geheugen ervan.
 
+## FOUT 27 — BREDE-TRAVELER-LAAG ("LONELY PLANET-LAAG") EN OUDE VNS-LEDGER NIET GECONTROLEERD VOORDAT EEN EERSTE CLUSTERPLAN AAN MARK WERD GEPRESENTEERD
+
+**Concrete CCI-fout, 2026-09-27**
+CCI bouwde de eerste versies van het Varanasi-kwartierplan zonder eerst `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/VARANASI_REMAINING_TRAVELER_REGIONAL_LAYER_2026-08-27.md` te controleren — een bestand dat al sinds 27 augustus 2026 klaarlag met 13 genummerde, onderzochte maar nooit-getriageerde kandidaten, inclusief de letterlijke zin "Mark may answer all 13 in ONE compact numbered response". Ook viel het A*-item Lolark Kund (VNS-40) later per ongeluk stil uit een kaart weg tijdens een niet-inhoudelijke tekstbewerking (afstand toevoegen), zonder dat dit werd opgemerkt totdat Mark er zelf naar vroeg. Beide gaten werden alleen gevonden doordat Mark expliciet vroeg: "wat mis je? Lonely Planet-laag? Kijk breder?" — een reactieve vondst, geen proactieve stap.
+
+**Waarom dit fout is**
+De volledige VNS-ledger (alle grades A+/A/A*/B/C voor een cluster) en elk bestaand "remaining traveler layer"/Lonely-Planet-achtig onderzoeksbestand voor dat cluster hadden een verplichte controlestap moeten zijn VOORDAT de eerste versie van een clusterplan aan Mark gepresenteerd wordt — niet iets dat pas na een klacht achteraf boven water komt. Een edit die alleen bedoeld is om één detail toe te voegen (zoals een afstand) mag nooit stilzwijgend een ander, al bestaand item uit dezelfde zin verwijderen.
+
+**VERPLICHTE OPLOSSING**
+- Vóór de EERSTE presentatie van een nieuw clusterplan: doorloop de volledige VNS/A###-ledger voor dat cluster (alle grades, ook A* en B) én zoek expliciet naar bestaande "remaining traveler layer"/regionale-laag-onderzoeksbestanden in `runs/active/`. Beide zijn verplichte stappen, geen optionele extra's.
+- Bij elke tekst-edit op een bestaande locatiekaart: expliciet controleren of de edit een ander item uit dezelfde zin/kaart per ongeluk laat vallen, vóórdat de edit als voltooid wordt beschouwd.
+- Een gevonden-maar-nooit-getriageerd onderzoeksbestand is een `RESEARCH_COMPLETE_ENOUGH`-status, geen `MARK_TRIAGE_COMPLETE` — behandel het altijd als open, nooit als stilzwijgend verworpen of stilzwijgend meegenomen.
+
 ---
 
 # COMMUNICATIE MET MARK
@@ -508,6 +521,7 @@ Vóór IEDER substantieel India-antwoord, test de DAADWERKELIJK BEDOELDE antwoor
 23. Blijft er een concreet, beslisrelevant gat over dat vermoedelijk alleen in het levende voorgangergesprek zat en niet uit GitHub op te lossen is? Zo ja: heb ik dat als expliciete `QUESTION_FOR_PREDECESSOR`-vraag op PR #23 gezet in plaats van te gokken of Mark te vragen het zelf te reconstrueren? (FOUT 24 stap 13, hierboven.)
 24. Heb ik bij deze boot de orphan-scan (FOUT 24 stap 0) echt uitgevoerd, niet alleen aangenomen dat de manifest compleet is? Is elk nog-levend gevonden bestand zowel actief gebruikt als toegevoegd aan `BOOT_MANIFEST_V8.json`, zodat het niet opnieuw stil wegrot voor de volgende opvolger?
 25. Heb ik voor ELKE locatie in dit antwoord `governance/MARK_FACING_LOCATION_CARD_TEMPLATE.md` letterlijk langsgelopen — niet uit het geheugen, maar het bestand zelf — en elk toepasselijk veld ingevuld (FOUT 26)?
+26. Als dit de EERSTE presentatie van een nieuw clusterplan is: heb ik de volledige VNS/A###-ledger (alle grades, ook A* en B) én elk bestaand "remaining traveler layer"-onderzoeksbestand voor dat cluster gecontroleerd, in plaats van te wachten tot Mark er zelf naar moet vragen (FOUT 27)?
 
 Als één relevante vraag **NEE of UNKNOWN** is:
 

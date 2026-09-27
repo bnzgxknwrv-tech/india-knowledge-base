@@ -5,6 +5,8 @@ Status: **DEFINITIEVE TIMING** (per de WORK-reconciliatie en de drie latere aanp
 Visual versie: https://claude.ai/artifact/2dRBNaopomGuYTHhfQVeaV
 Scope: **Varanasi only.** Kolkata blijft buiten scope.
 
+**LOCKED CUT, EXPLICIET GENOEMD 2026-09-27 (Mark-verificatievraag "staan alle A+ en A erin?"):** Sarnath (VNS-04, A+, "sacred-archaeological world" parent) + zijn 5 A-child-sites (Chaukhandi Stupa VNS-16, Sarnath Archaeological Museum VNS-38, Dhamek Stupa VNS-14, Deer Park VNS-17, Mulagandha Kuti Vihara VNS-15) staan NIET in dit plan. Dit is geen gemiste stop maar een vastgelegde Mark-beslissing: `decisions/INDIA23_VARANASI_SARNATH_CUT_7N_MARK_DECISION_2026-09-26.md` / ledger `DL-0066` — Boeddha-levensinhoud is al volledig gedekt door Bodh Gaya (3 nachten), en een volle extra Sarnath-dag was meer Boeddhistische diepgang dan gewenst, tegen de kosten van tijd elders in de reis. Tot nu toe stond deze cut nergens in dit specifieke document zelf — dat is hierbij gerepareerd.
+
 ## WAT ER AAN DEZE VERSIE VERANDERDE
 
 Mark's directe klacht: kaarten waren niet meer dan een Indiase naam, een kloktijd en één dunne regel — vaak alleen "geen lineage-link". Dat is nu gerepareerd voor elke locatie: wat het is, waarom Mark er specifiek heen wil, wie hier was/wat hier gebeurde, wat hij precies moet zoeken, hoe hij er wil zijn, en het unieke herkenningspunt. Ook zijn de verplichte tijd-boekhoudvelden toegevoegd, en de `ontbijt`-kloktijditems verwijderd (die mogen niet in het schema staan, `MARK_DAY_BLOCK_ONLY_PDF_RULE_2026-09-13.md`).
@@ -48,10 +50,12 @@ Mark's directe klacht: kaarten waren niet meer dan een Indiase naam, een kloktij
 TIJD: 06:15–07:00
 
 WAT IS DIT IN GEWOON NEDERLANDS?
-Een langzame wandeling direct vanaf het hotel langs de ghats (de brede stenen trappen naar de rivier) bij zonsopgang, van Assi Ghat naar Tulsi Ghat.
+Een langzame wandeling direct vanaf het hotel langs de ghats (de brede stenen trappen naar de rivier) bij zonsopgang, van Assi Ghat naar Tulsi Ghat, met Lolark Kund (VNS-40, A*, bijvangst) direct op de route ertussenin.
 
 WAAROM WIL JIJ, MARK, HIERHEEN?
 Geen persoon-link — de reden is de sfeer zelf: het eerste ochtendlicht op de Ganges, bootjes, ochtendbaders en rituelen, direct vanaf je eigen hotel, zonder enige omweg.
+
+**GECORRIGEERD 2026-09-27 (Mark-verificatievraag):** Lolark Kund viel per ongeluk weg uit deze beschrijving toen de exacte afstand naar Tulsi Ghat werd toegevoegd — het stond origineel als "langs Tulsi Ghat en Lolark Kund", en dat tweede deel is nu hersteld. Lolark Kund (VNS-40) is een A*-item ("corridor bycatch — alleen gratis omdat je al in dit blok loopt"): een heilige waterbak/kund die in verband wordt gebracht met vruchtbaarheids-verering; geen lineage-link, puur bijvangst omdat hij letterlijk op de wandelroute ligt tussen Assi Ghat en Tulsi Ghat.
 
 WIE WAS HIER / WAT GEBEURDE HIER?
 Tulsi Ghat is genoemd naar Tulsidas, de grote Hindi-dichter-heilige die de Ramcharitmanas (de Hindi-versie van het Ramayana-epos) schreef; hij bracht hier zijn laatste levensjaren door en stierf hier in 1623. Dit is geen Top-X-persoon voor jouw lineage, maar wel een reëel, herkenbaar feit over de plek zelf.
@@ -707,6 +711,8 @@ TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: niet van toepassing — beschermd blok,
 ## COMPLETENESS-AUDIT 2026-09-27 — 13 ITEMS UIT AUG 2026 DIE NOOIT AAN MARK ZIJN VOORGELEGD
 
 Op Mark's directe vraag ("wat mis je, kijk breder, Lonely Planet-laag") is de volledige VNS-ledger gecontroleerd tegen dit plan, én de oudere brede-traveler-laag opnieuw doorzocht. Twee echte gaten zijn hierboven al gefixt (Banarasi paan, Tulsi Ghat). Maar er is een derde, groter gat gevonden: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/VARANASI_REMAINING_TRAVELER_REGIONAL_LAYER_2026-08-27.md` bevat 13 genummerde kandidaten die op 27 augustus 2026 zijn onderzocht maar NOOIT aan Mark zijn voorgelegd — het bestand zegt zelf letterlijk "Mark may answer all 13 in ONE compact numbered response", en dat antwoord is er nooit gekomen. Dit is precies het soort verloren-item Mark vroeg te zoeken. Niet zelf gegradeerd hier — dat is aan Mark:
+
+**EERLIJK ANTWOORD OP "WAAROM NIET EERST GEVRAAGD" (Mark-vraag 2026-09-27):** dit bestand bestond al vóór de huidige planningsronde begon — het lag klaar sinds 27 augustus 2026, inclusief de zin dat het antwoord van Mark nog moest komen. Het is niet gecheckt tóen dit Varanasi-plan voor het eerst werd opgebouwd; het is alleen gevonden omdát Mark nu expliciet om een completeness-audit vroeg. Dat is de fout: deze brede-laag-check had een standaardstap moeten zijn vóórdat een eerste versie van een cluster-plan wordt gepresenteerd, niet iets dat achteraf, reactief, na een klacht wordt gevonden. Zie ook `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` voor FOUT-nummering van dit type fout in toekomstige clusters.
 
 1. **Banaras Gulabi Meenakari-ateliers** — levend, GI-geregistreerd roze-emaille-metaalambacht, Gay Ghat/Lal Ghat-omgeving. CCI-advies destijds: A als een echt werkend atelier te regelen is, anders B.
 2. **Bharat Kala Bhavan, BHU** — groot kunst/archeologiemuseum, dicht bij Assi/Sankat Mochan/Durga. CCI-advies: B tenzij de collectie je intrinsiek aanspreekt.
