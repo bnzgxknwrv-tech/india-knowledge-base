@@ -68,6 +68,31 @@ De rij stenen ghat-trappen die direct de rivier in lopen, met ochtendbaders en k
 TOTALE TIJD VOOR DEZE LOCATIE: 45 min (geen aparte reis nodig, begint direct bij het hotel).
 TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: 45 min, maar dan begint de dag met een lege ochtend — niet aanbevolen.
 
+### Tulsi Ghat — eigen A-gegradeerde stop, woon-/sterfplek van Tulsidas (~0,6 km vanaf Assi Ghat, te lopen, ~10 min) [A — TOEGEVOEGD 2026-09-27, was eerder alleen in een bijzin genoemd]
+
+TIJD: aansluitend op de dageraadwandeling, geen apart tijdsblok, ~10 min lopen vanaf het hotel
+
+WAT IS DIT IN GEWOON NEDERLANDS?
+De ghat waar de dichter-heilige Tulsidas zijn laatste jaren doorbracht en stierf — niet zomaar een doorgangspunt op de wandeling.
+
+WAAROM WIL JIJ, MARK, HIERHEEN?
+**COMPLETENESS-FIX 2026-09-27:** dit stond al los als A-gegradeerd item in de ledger (VNS-39), maar had tot nu toe geen eigen kaart — alleen "langs Tulsi Ghat" in een bijzin. Geen Top-X-persoonlink, maar de plek/legende zelf rechtvaardigt de A volgens de eigen grade-provenance.
+
+WIE WAS HIER / WAT GEBEURDE HIER?
+Tulsidas schreef hier de Ramcharitmanas en stierf hier in 1623.
+
+WAT MOET JE HIER PRECIES ZOEKEN?
+De ghat zelf; er is ook een levende Tulsi Ghat Akhada (worstelschool) die 's ochtends actief kan zijn — dit is een nog niet aan jou voorgelegd los item, zie OPEN ITEMS onderaan.
+
+HOE WIL JE HIER ZIJN?
+Onderdeel van de wandeling, geen apart bezoek nodig — tenzij je de akhada wilt zien, dan een paar minuten extra stilstaan.
+
+UNIEK HERKENNINGSPUNT
+De ghat waar Tulsidas zijn laatste jaren woonde, met soms zichtbare worstel-training op de ghat zelf.
+
+TOTALE TIJD VOOR DEZE LOCATIE: al meegerekend in de dageraadwandeling hierboven, ~10 min vanaf het hotel.
+TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: niet van toepassing, ligt op de wandelroute.
+
 ### Subah-e-Banaras — ochtend-cultuurprogramma met muziek en ritueel bij Assi Ghat, een soort "ochtend-Aarti" (Assi Ghat, Varanasi) [A*]
 
 TIJD: 07:00–07:30 (alleen als het geen tijd kost)
@@ -269,6 +294,31 @@ Rustig lopen, de sfeer opnemen. 30 minuten.
 
 UNIEK HERKENNINGSPUNT
 Metaalbewerkers-bazaar (Thatheri = koperslagers) en de dichte, oude stadstructuur van Chowk.
+
+### Banarasi paan — geproefd tijdens de wandeling, geen apart bezoek (Thatheri Bazaar/Chowk, Varanasi) [A — TOEGEVOEGD 2026-09-27, ontbrak volledig]
+
+TIJD: onderdeel van de wandeling hierboven, geen apart blok
+
+WAT IS DIT IN GEWOON NEDERLANDS?
+Een met bladeren omwikkelde, gekruide mondverfrisser — een lokale specialiteit van Varanasi.
+
+WAAROM WIL JIJ, MARK, HIERHEEN?
+**COMPLETENESS-FIX 2026-09-27:** dit stond al A-gegradeerd in de ledger ("A / 1u / alleen als het natuurlijk op de route ligt") maar ontbrak volledig in het vorige plan. Precies hier, in Thatheri Bazaar/Chowk, ligt het natuurlijk op de route.
+
+WIE WAS HIER / WAT GEBEURDE HIER?
+Geen persoon-link — lokale voedselcultuur, onderdeel van de bredere Oud-Kashi-ervaring.
+
+WAT MOET JE HIER PRECIES ZOEKEN?
+Een gerenommeerde paan-verkoper in de bazaar-omgeving; exacte beste kraam nog te verifiëren.
+
+HOE WIL JE HIER ZIJN?
+Proeven, niet meer dan dat — geen apart bezoek, gewoon meenemen tijdens de wandeling.
+
+UNIEK HERKENNINGSPUNT
+Het met bladgroen omwikkelde pakketje, vers bereid voor je neus.
+
+TOTALE TIJD VOOR DEZE LOCATIE: enkele minuten, al meegerekend in de wandeling.
+TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: niet van toepassing.
 
 TOTALE TIJD VOOR DEZE LOCATIE: 30 min, direct aansluitend op de vorige stop, geen aparte transfer.
 TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: 30 min.
@@ -599,7 +649,9 @@ Houten pagode-architectuur met kleine erotische snijwerken, ongewoon voor Varana
 TOTALE TIJD VOOR DEZE LOCATIE: 45 min, direct naast de vorige stop.
 TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: 45 min.
 
-11:30–12:15 transfer terug naar hotel, ~45 min. 12:15–15:30 rust/vrije tijd (~3u15) — korter dan voorheen omdat de dag nu bij 08:30 begint in plaats van 07:00, precies zoals Mark's nieuwe regel bedoelt: geen vroege start zonder dat de vrijgekomen tijd ook echt gebruikt wordt.
+11:30–12:15 transfer terug naar hotel, ~45 min.
+
+**12:15–15:30 (~3u15) — Assi Ghat zelf + contemplatie-reserve, geen losse vrije tijd.** Assi Ghat is zelf een eigen A+-gegradeerd item in de ledger ("fysieke ghat-anker, los van de ervaringen die er plaatsvinden"), maar had nog geen eigen moment gekregen — het werd alleen impliciet meegenomen als hotel-locatie en wandelroute. Dit blok is die eigen tijd: gewoon aanwezig zijn bij Assi Ghat, zonder programma. Het is ook bewust de plek waar extra contemplatietijd naartoe kan als Lahiri Mahasaya's huis, Satyalok of de Anandamayi Ma Ashram op hun eigen dagen meer tijd nodig hadden dan gepland — die dagen hoeven daarvoor niet ingekort te worden, dit blok vangt het op.
 
 ### Transfer
 15:30–16:00 transfer naar Dashashwamedh Ghat, ~30 min.
@@ -651,6 +703,26 @@ TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: niet van toepassing — beschermd blok,
 **BOEKING — ACTIE VOOR MARK, NIET UITSTELLEN:** de gewone boekingstermijn (60 dagen) opent **maandag 9 november 2026 om 08:00 IST (03:30 CET)**, omdat deze trein vrijdagavond in Ghazipur City start. 2A is een kleine, krappe klasse (recente steekproef: RAC voor een vergelijkbare datum) — Foreign Tourist Quota-boeking is nu al mogelijk (tot 365 dagen vooruit) als alternatief voor wachten tot 9 november. Uitwijkvolgorde als 2A niet lukt: 22324 in 3A/3E, dan 13152 (zelfde nacht, 2u55 later in Kolkata), dan 13010/13006 alleen als de aankomstdag mag verschuiven. Volledige onderbouwing: `runs/active/WORK_INDIA24_VARANASI_KOLKATA_BOOKING_READY_TRAIN_STATION_LOGISTICS_2026-09-27.md`.
 
 ---
+
+## COMPLETENESS-AUDIT 2026-09-27 — 13 ITEMS UIT AUG 2026 DIE NOOIT AAN MARK ZIJN VOORGELEGD
+
+Op Mark's directe vraag ("wat mis je, kijk breder, Lonely Planet-laag") is de volledige VNS-ledger gecontroleerd tegen dit plan, én de oudere brede-traveler-laag opnieuw doorzocht. Twee echte gaten zijn hierboven al gefixt (Banarasi paan, Tulsi Ghat). Maar er is een derde, groter gat gevonden: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/VARANASI_REMAINING_TRAVELER_REGIONAL_LAYER_2026-08-27.md` bevat 13 genummerde kandidaten die op 27 augustus 2026 zijn onderzocht maar NOOIT aan Mark zijn voorgelegd — het bestand zegt zelf letterlijk "Mark may answer all 13 in ONE compact numbered response", en dat antwoord is er nooit gekomen. Dit is precies het soort verloren-item Mark vroeg te zoeken. Niet zelf gegradeerd hier — dat is aan Mark:
+
+1. **Banaras Gulabi Meenakari-ateliers** — levend, GI-geregistreerd roze-emaille-metaalambacht, Gay Ghat/Lal Ghat-omgeving. CCI-advies destijds: A als een echt werkend atelier te regelen is, anders B.
+2. **Bharat Kala Bhavan, BHU** — groot kunst/archeologiemuseum, dicht bij Assi/Sankat Mochan/Durga. CCI-advies: B tenzij de collectie je intrinsiek aanspreekt.
+3. **Khojwa/Kashmiri Ganj houten-lakwerk-speelgoedatelier** — GI-geregistreerd ambacht, zuid-stad, dicht bij Assi. CCI-advies: A/B-grens.
+4. **Ramnagar Fort Museum** — 18e-eeuws fort met koninklijke koetsen/wapens/textiel, oostoever, ~14 km, echte oversteek nodig. Al B, alleen tijd-vraag openstaand.
+5. **The Ram Bhandar** — historisch Banarasi-ontbijtinstitution (kachori-sabzi/jalebi), letterlijk in de al-A Thatheri Bazaar/Chowk-wereld die je al bezoekt. CCI-advies: A, past bij je voorkeur voor historische food-instituties, kost bijna niets extra.
+6. **Tulsi Ghat Akhada** — levende worstelschool op Tulsi Ghat zelf, waar je al langsloopt. CCI-advies: A/B-grens.
+7. **Ganga Aarti vanaf het water** — dezelfde Dashashwamedh-ceremonie, maar vanaf een boot i.p.v. de kant. Vraag: kant, water, of beide op verschillende avonden?
+8. **Winterse Malaiyo/Makhan Malai** — zeer seizoensgebonden melkschuim-zoetigheid, precies in het seizoen van je reis (december/januari). CCI-advies: A, past bij je bekende zoetigheden-voorkeur, kost bijna niets.
+9. **Lange Varanasi–Chunar-boottocht** — apart van de korte dageraad-roeiboot, ~8 uur. CCI-advies: C, dupliceert water-tijd die je al hebt (roeiboot + ghatwandeling).
+10. **Jnana-Pravaha/Banaras Gallery** — cultuurcentrum met speelgoed/metaalwerk/foto's, ten zuiden van Samne Ghat. CCI-advies: B.
+11. **Rajghat-heuvel + Tomb of Lal Khan** — diepe nederzettingsarcheologie + beschermd 1773-mausoleum, noord-Varanasi. CCI-advies: A/B-grens.
+12. **Alamgir Mosque/Dharahara, visuele geschiedenislaag** — al genoemd als A* bijvangst bij Panchganga in dit plan; dit item voegt de bredere 17e-eeuwse Hindoe-Moslim/keizerlijke geschiedenislaag toe.
+13. **Zuid-Varanasi Jain-laag** (Parshvanath Bhelupur + Suparshvanath Jain Ghat/Bhadaini) — twee Jain-pelgrimsplekken, dicht bij Assi/Anandamayi. CCI-advies: B, tenzij je sterkere Jain-interesse hebt.
+
+**Dit blokkeert de rest van dit plan niet** — het staat als apart, compact te beantwoorden lijstje (net als het bestand zelf al voorstelde: 1 genummerd antwoord voor alle 13).
 
 ## OPEN ITEMS
 
