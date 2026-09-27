@@ -53,6 +53,8 @@ KORTE NUANCE — ALLEEN ALS DIE ERTOE DOET
 5. **Lead with meaning, not logistics.** Practical reality (queues, security, access) comes AFTER the spiritual/experiential content, never before it.
 6. **Original WHY, not invented WHY.** Before filling `WIE WAS HIER / WAT GEBEURDE HIER`, search the owning research (grade-provenance files, AOAY/person sweeps, decision files) for why the place actually entered the retained set — do not fabricate a person-link that was never the real reason, and do not flatten a real one into silence.
 7. **Photos where appearance matters and one is available**, per FOUT 5 of the successor handoff.
+8. **No empty-photo placeholder boxes.** When no free-to-use photo exists, show nothing — no gray placeholder box, no "geen foto gevonden" text. Mark 2026-09-27: "als er geen foto is ook geen lege ruimte laten zien. Onzinnig." An absent-photo placeholder is itself a form of bare, meaningless content — exactly what this template exists to prevent, just visually instead of textually.
+9. **Apply this template identically to every Mark-facing output for the same content**, not just the one most recently edited. If both a markdown plan and a visual artifact exist for the same cluster, a template fix in one is not done until it is verified card-by-card in the other too (FOUT 28).
 
 ## PRE-SEND TEST — MANDATORY, EVERY LOCATION, EVERY TIME
 

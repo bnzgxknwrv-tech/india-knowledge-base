@@ -478,6 +478,19 @@ De volledige VNS-ledger (alle grades A+/A/A*/B/C voor een cluster) en elk bestaa
 - Bij elke tekst-edit op een bestaande locatiekaart: expliciet controleren of de edit een ander item uit dezelfde zin/kaart per ongeluk laat vallen, vóórdat de edit als voltooid wordt beschouwd.
 - Een gevonden-maar-nooit-getriageerd onderzoeksbestand is een `RESEARCH_COMPLETE_ENOUGH`-status, geen `MARK_TRIAGE_COMPLETE` — behandel het altijd als open, nooit als stilzwijgend verworpen of stilzwijgend meegenomen.
 
+## FOUT 28 — TEMPLATE-REGEL TOEGEPAST OP DE MARKDOWN, MAAR NIET OP HET VISUELE ARTIFACT DAT MARK ECHT LEEST
+
+**Concrete CCI-fout, 2026-09-27, herhaling van FOUT 26 in een ander bestand**
+Na FOUT 26 werd `governance/MARK_FACING_LOCATION_CARD_TEMPLATE.md` correct toegepast op de markdown-versie van het Varanasi-plan — elke kaart kreeg wat/waarom/wie/wat-zoeken/hoe/herkenningspunt. Maar het HTML-artifact (de versie die Mark daadwerkelijk opent en leest, `https://claude.ai/artifact/...`) werd bij daaropvolgende syncs alleen bijgewerkt op de specifiek aangewezen wijzigingen (tijden, nieuwe kaarten), niet op de volledige template-kwaliteit. Kaarten als "Subah-e-Banaras" bleven in het artifact een kale titel + kloktijd + één dunne zin, terwijl de markdown-versie van dezelfde kaart al lang het volledige sjabloon had. Mark moest dit zelf weer opmerken. Daarnaast toonde het artifact bij elke ontbrekende foto een lege grijze placeholder-box — expliciet ongewenst ("als er geen foto is, ook geen lege ruimte laten zien").
+
+**Waarom dit fout is**
+Een template-fix die alleen op één van twee Mark-facing outputs (markdown óf artifact) wordt toegepast, is geen fix — Mark leest voornamelijk het visuele artifact. `GELEZEN/TOEGEPAST-IN-BESTAND-A -> NIET GECONTROLEERD IN BESTAND-B` is een nieuwe variant van FOUT 26. Ook: een placeholder tonen voor iets dat er niet is ("geen foto gevonden") is zelf al een vorm van kale, betekenisloze content — exact wat FOUT 26 wilde voorkomen, maar dan visueel.
+
+**VERPLICHTE OPLOSSING**
+- Als een Mark-facing content-regel (zoals het locatiekaart-sjabloon) wordt toegepast op één output-formaat, controleer ALTIJD of er een parallelle output is (markdown ↔ artifact, of andersom) en pas hem daar identiek toe — niet alleen op de specifiek gevraagde wijziging, maar op de volledige kaart.
+- Bij ontbrekende media (foto/afbeelding): toon niets, geen placeholder-tekst, geen grijze box. Een kaart zonder foto ziet er gewoon uit als een kaart zonder foto-element, niet als een kaart met een zichtbaar gat.
+- Bij twijfel of het artifact echt gesynchroniseerd is met de markdown: doorloop beide bestanden kaart voor kaart en vergelijk het aantal "why"-achtige velden, niet alleen de kloktijden.
+
 ---
 
 # COMMUNICATIE MET MARK
@@ -522,6 +535,7 @@ Vóór IEDER substantieel India-antwoord, test de DAADWERKELIJK BEDOELDE antwoor
 24. Heb ik bij deze boot de orphan-scan (FOUT 24 stap 0) echt uitgevoerd, niet alleen aangenomen dat de manifest compleet is? Is elk nog-levend gevonden bestand zowel actief gebruikt als toegevoegd aan `BOOT_MANIFEST_V8.json`, zodat het niet opnieuw stil wegrot voor de volgende opvolger?
 25. Heb ik voor ELKE locatie in dit antwoord `governance/MARK_FACING_LOCATION_CARD_TEMPLATE.md` letterlijk langsgelopen — niet uit het geheugen, maar het bestand zelf — en elk toepasselijk veld ingevuld (FOUT 26)?
 26. Als dit de EERSTE presentatie van een nieuw clusterplan is: heb ik de volledige VNS/A###-ledger (alle grades, ook A* en B) én elk bestaand "remaining traveler layer"-onderzoeksbestand voor dat cluster gecontroleerd, in plaats van te wachten tot Mark er zelf naar moet vragen (FOUT 27)?
+27. Als dit antwoord zowel een markdown- als een artifact-versie van locatiekaarten raakt: heb ik het volledige sjabloon (`MARK_FACING_LOCATION_CARD_TEMPLATE.md`) in BEIDE bestanden identiek toegepast, kaart voor kaart, niet alleen in de meest recent bewerkte? Bevat het artifact geen lege foto-placeholder-boxen (FOUT 28)?
 
 Als één relevante vraag **NEE of UNKNOWN** is:
 
