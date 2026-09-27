@@ -22,7 +22,7 @@ Mark's directe klacht: kaarten waren niet meer dan een Indiase naam, een kloktij
 | Wo 6 jan | 08:45 | ~16:30 | MIDDEN |
 | Do 7 jan | 06:15 | ~14:45+ (open einde) | ZWAAR — vroeg, wandelen, emotioneel intens, open einde |
 | Vr 8 jan | 08:30 | ~19:45 | MIDDEN — ochtend + avond, rust ertussen (start gecorrigeerd naar 08:30, was 07:00 zonder reden) |
-| Za 9 jan | 23:00 (vertrek) | — | Nachttrein naar Kolkata |
+| Za 9 jan | ~00:10 (vertrek, gecorrigeerd van 23:00) | — | Nachttrein 22324, boekingsklaar |
 
 ---
 
@@ -633,29 +633,31 @@ TOTALE TIJD VOOR DEZE LOCATIE: transfer 30 min + aanwezigheid/wachten 105 min + 
 TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: niet van toepassing — beschermd blok, één van de diepste AOAY-ankers van de hele reis.
 
 ### Avond
-18:45–19:45 drukte laten wegtrekken, auto naar hotel (~1 uur incl. avondverkeer). 19:45–20:30 diner. 20:30–22:45 kamer/rust/pakken. 22:45 definitieve check-out, bagage klaar — de vijfde betaalde nacht staat laat kamergebruik toe. **23:00 vertrek Sahi River View Guesthouse.**
+18:45–19:45 drukte laten wegtrekken, auto naar hotel (~1 uur incl. avondverkeer). 19:45–20:45 diner, rustiger dan voorheen. 20:45–23:45 kamer/rust/pakken — **veel meer tijd dan eerder aangenomen**, zie hieronder waarom. 23:45 definitieve check-out, bagage klaar — de vijfde betaalde nacht staat laat kamergebruik toe. **Vertrek Sahi River View Guesthouse ~00:10** (gecorrigeerd, was 23:00 — zie ZA 9 JAN).
 
 ---
 
 ## ZA 9 JAN — Vertrek naar Kolkata: trein 22324 Shabd Bhedi Express
 
-**Status: boekingsklare gegevens in onderzoek bij WORK (zie `governance/CURRENT_TRUTH.md`).**
+**BOEKINGSKLAAR (WORK, 2026-09-27):** de echte rijtijd hotel→station is maar 16-40 min (6,0-6,7 km) — jouw eigen inschatting dat 1u45 wachten overdreven aanvoelde, klopte. De oude 23:00/1u45-aanname was ~70 min te vroeg en is nu vervangen.
 
-- 23:00–23:45 auto Assi → Varanasi Junction (BSB), ~45 min.
-- 23:45 aankomst station.
+- **~00:10 vertrek Sahi River View Guesthouse** (auto vooraf bestellen voor 00:00; Assi Ghat heeft smalle straten, dus laat het guesthouse vooraf helpen met bagage naar het vaste ophaalpunt).
+- **~00:40–00:45 aankomst Varanasi Junction (BSB)** — dat is 45-50 min vóór vertrek, genoeg voor entree/bordcontrole/loopbrug zonder overdreven marge.
 - **01:30 vertrek 22324 Shabd Bhedi Express, Varanasi Junction → Kolkata Chitpur.**
 - **13:05 aankomst Kolkata Chitpur (KOAA), ~11u35 onderweg.**
-- Klasse: doel 2A — een echte slaapklasse (ligcoupé), geen zitplaats. "Geen 1A" betekent alleen dat de duurste, meest private klasse er niet is; dit is en blijft een nachttrein met bedden.
+- Klasse: doel 2A — een echte slaapklasse (ligcoupé), geen zitplaats. "Geen 1A" betekent alleen dat de duurste, meest private klasse er niet is; dit is en blijft een nachttrein met bedden. Huidige indicatieve prijs ~₹1.520.
 - 13:05 verder: Kolkata-hoteltransfer/inhoud valt buiten dit Varanasi-plan.
+
+**BOEKING — ACTIE VOOR MARK, NIET UITSTELLEN:** de gewone boekingstermijn (60 dagen) opent **maandag 9 november 2026 om 08:00 IST (03:30 CET)**, omdat deze trein vrijdagavond in Ghazipur City start. 2A is een kleine, krappe klasse (recente steekproef: RAC voor een vergelijkbare datum) — Foreign Tourist Quota-boeking is nu al mogelijk (tot 365 dagen vooruit) als alternatief voor wachten tot 9 november. Uitwijkvolgorde als 2A niet lukt: 22324 in 3A/3E, dan 13152 (zelfde nacht, 2u55 later in Kolkata), dan 13010/13006 alleen als de aankomstdag mag verschuiven. Volledige onderbouwing: `runs/active/WORK_INDIA24_VARANASI_KOLKATA_BOOKING_READY_TRAIN_STATION_LOGISTICS_2026-09-27.md`.
 
 ---
 
 ## OPEN ITEMS
 
-1. Alamgir Mosque/Dharahara — geen vast tijdslot, niet Mark-bevestigd.
-2. Trein 22324 en de hotel→station-logistiek — boekingsklare verificatie loopt (WORK gedispacht 2026-09-27).
+1. **BOEKING TREIN 22324 — actie voor Mark, deadline 9 november 2026 08:00 IST** (gewone boekingstermijn) of nu al via Foreign Tourist Quota. Zie ZA 9 JAN hierboven.
+2. Alamgir Mosque/Dharahara — geen vast tijdslot, niet Mark-bevestigd.
 3. Bhrigu Karyalaya-afspraak: rechtstreeks contact met Acharya Hemant K. Bhadury nodig vóór vertrek.
-4. Lahiri Mahasaya-huis: rechtstreeks lokaal contact voor de exacte buitenkant-toegang.
+4. Lahiri Mahasaya-huis en Satyalok: hoeveel tijd wil je hier zijn? Nog jouw keuze, planningsbasis is nu 1 uur respectievelijk 60 minuten.
 5. Satyalok (~10:30-opening) en de exacte binnenindeling van de Anandamayi Ma Ashram: LIVE_RECHECK direct vóór vertrek.
 6. De Garpar-microcluster bij Kolkata: al vastgelegd als must-visit, komt inhoudelijk aan de orde als dit Varanasi-cluster is afgerond.
 
