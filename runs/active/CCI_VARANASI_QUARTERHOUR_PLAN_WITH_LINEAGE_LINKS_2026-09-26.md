@@ -9,6 +9,10 @@ Scope: **Varanasi only.** Kolkata blijft buiten scope.
 
 Mark's directe klacht: kaarten waren niet meer dan een Indiase naam, een kloktijd en één dunne regel — vaak alleen "geen lineage-link". Dat is nu gerepareerd voor elke locatie: wat het is, waarom Mark er specifiek heen wil, wie hier was/wat hier gebeurde, wat hij precies moet zoeken, hoe hij er wil zijn, en het unieke herkenningspunt. Ook zijn de verplichte tijd-boekhoudvelden toegevoegd, en de `ontbijt`-kloktijditems verwijderd (die mogen niet in het schema staan, `MARK_DAY_BLOCK_ONLY_PDF_RULE_2026-09-13.md`).
 
+**Twee nieuwe, structurele correcties (LOCKED BY MARK 2026-09-27, zie `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md`):**
+1. **Standaard dagstart ~08:30**, niet eerder, tenzij een echt vast extern gegeven (zonsopgang-gebonden ervaring, vaste afspraak, trein/vlucht) een vroegere start echt nodig maakt. Vrijdag begon voorheen om 07:00 zonder enige echte reden en had daarna een dode middag — dat is nu gecorrigeerd naar 08:30. Dinsdag en donderdag beginnen wel vroeg (dageraad-wandeling/roeiboot), maar dat is een echte uitzondering, geen gewoonte.
+2. **Krachtplekken van je lineage krijgen geen voorgeschreven duur, maar een vraag.** Lahiri Mahasaya's huis is geen "gevel, 30 minuten" — het is een krachtplek waar je misschien een uur stil wilt zitten op de stoep. Satyalok krijgt dezelfde behandeling. De genoemde tijden zijn een planningsbasis, niet een advies dat de plek klein maakt.
+
 ## DAGBELASTING IN ÉÉN BLIK
 
 | Dag | Vertrek hotel | Terug bij hotel | Karakter |
@@ -17,7 +21,7 @@ Mark's directe klacht: kaarten waren niet meer dan een Indiase naam, een kloktij
 | Di 5 jan | 06:15 | ~15:45+ (open einde) | ZWAAR qua klok, lichter qua energie (Bhrigu zittend), open einde |
 | Wo 6 jan | 08:45 | ~16:30 | MIDDEN |
 | Do 7 jan | 06:15 | ~14:45+ (open einde) | ZWAAR — vroeg, wandelen, emotioneel intens, open einde |
-| Vr 8 jan | 07:00 | ~19:45 | MIDDEN — ochtend + avond, rust ertussen |
+| Vr 8 jan | 08:30 | ~19:45 | MIDDEN — ochtend + avond, rust ertussen (start gecorrigeerd naar 08:30, was 07:00 zonder reden) |
 | Za 9 jan | 23:00 (vertrek) | — | Nachttrein naar Kolkata |
 
 ---
@@ -90,7 +94,7 @@ TOTALE TIJD VOOR DEZE LOCATIE: 30 min, direct op de route.
 TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: 30 min.
 
 ### Ontbijt en transfer
-07:30–08:00 ontbijt (hotel of ghat-side, geen apart geplande kloktijd-inhoud). 08:00–08:15 transfer rechtstreeks naar Ramapura-Luxa (~45 min, CCI-inschatting, nog niet apart geverifieerd zoals de oorspronkelijke samengevoegde route).
+07:30–08:00 ontbijt (hotel of ghat-side, geen apart geplande kloktijd-inhoud). 08:00–08:15 transfer rechtstreeks naar Ramapura-Luxa (~45 min met auto/taxi — niet te lopen, dit is dwars door de oude stad; CCI-inschatting inclusief marge voor drukte, nog niet apart geverifieerd zoals de oorspronkelijke samengevoegde route).
 
 ### New Bhrigu Karyalaya / Bhadury Sadan — de plek waar Acharya Hemant K. Bhadury de eeuwenoude Bhrigu-astrologie-lezing geeft (Ramapura-Luxa, Varanasi) [A+, beschermd venster: 3 uur]
 
@@ -192,7 +196,7 @@ TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: niet van toepassing — dit is een vast
 
 ### Lahiri Mahasaya's originele/familiehuis — het woonhuis van Lahiri Mahasaya, alleen van buiten te bezoeken (Bengali Tola, Varanasi) [A+, VASTGELEGD]
 
-TIJD: 09:15–09:45
+TIJD: 09:15–?? (jij bepaalt de duur — zie hieronder)
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Het huis waar Lahiri Mahasaya woonde en zijn gezinsleven leidde, in de oude wijk Bengali Tola.
@@ -204,22 +208,24 @@ WIE WAS HIER / WAT GEBEURDE HIER?
 Lahiri Mahasaya leefde hier met zijn familie terwijl hij ook zijn spirituele werk en onderwijs deed.
 
 WAT MOET JE HIER PRECIES ZOEKEN?
-De buitenkant van het huis. Het huis is het hele jaar dicht behalve op Guru Purnima (juni/juli) — in januari dus altijd gesloten van binnen.
+De buitenkant van het huis en de stoep ervoor. Het huis is het hele jaar dicht behalve op Guru Purnima (juni/juli) — in januari dus altijd gesloten van binnen.
 
-HOE WIL JE HIER ZIJN?
-Je hebt dit al besloten en het staat vast: toch gaan, buiten zitten, 30 minuten is genoeg. Niet opnieuw ter discussie.
+HOE WIL JE HIER ZIJN? — **GECORRIGEERD 2026-09-27, Mark's eigen woorden: "Is 'uitsluitend een gevel'?! Nee. Is een plek om mss wel een uur stil te zitten op de stoep."**
+Dit is geen quick-stop omdat het dicht is — het dicht zijn is een toegangsfeit, geen oordeel over hoe lang de plek de moeite waard is. Dit is een krachtplek van je eigen lineage. **Hoeveel tijd wil je hier zijn?** De planningsbasis hieronder gaat uit van 1 uur stil zitten op de stoep, niet 30 minuten — pas dit aan naar wat jij wilt.
 
 UNIEK HERKENNINGSPUNT
 Het exacte woonhuis van Lahiri Mahasaya zelf, te midden van de smalle straatjes van Bengali Tola.
 
-TOTALE TIJD VOOR DEZE LOCATIE: transfer 30 min + bezoek 30 min + wandeling naar volgende stop 30 min ≈ 1u30.
+TOTALE TIJD VOOR DEZE LOCATIE: transfer 30 min + bezoek (basis 1 uur, jouw keuze) + wandeling naar volgende stop 30 min ≈ 2 uur (bij 1 uur bezoek).
 TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: niet van toepassing — vastgelegd, geen schrapkandidaat.
+
+**Alle klokttijden hierna zijn een planningsbasis, geen vaste grens** — zowel het huis als Satyalok zijn krachtplekken waar jij de duur bepaalt, niet CCI. Wandeling/thee-blokken schuiven simpelweg mee.
 
 09:45–10:15 langzame wandeling naar Chaustti Ghat/Satyalok. 10:15–10:30 thee/rust buiten — opening-slack, geen kunstmatig wachten.
 
 ### Lahiri Mahasaya Samadhi / Satyalok — apart samadhi-/asse-heiligdom met een Babaji-meditatieruimte (Chaustti Ghat, Varanasi) [A, opent ~10:30]
 
-TIJD: 10:30–11:30
+TIJD: 10:30–?? (jij bepaalt de duur — zie hieronder)
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Een apart heiligdom, los van het woonhuis, waar Lahiri Mahasaya's samadhi/as-herdenking plaatsvindt — met een specifieke ruimte die geassocieerd wordt met Babaji-meditatie.
@@ -233,8 +239,8 @@ Dit is de as-/samadhi-plek in de Lahiri Mahasaya-lineage; de Babaji-meditatierui
 WAT MOET JE HIER PRECIES ZOEKEN?
 De meditatieruimte/kamer die specifiek met Babaji geassocieerd wordt binnen dit heiligdom.
 
-HOE WIL JE HIER ZIJN?
-Zitten en mediteren, niet alleen bekijken. 60 minuten.
+HOE WIL JE HIER ZIJN? — **Hoeveel tijd wil je hier zijn?**
+Zitten en mediteren, niet alleen bekijken — dit is ook een krachtplek van je lineage, geen bezichtiging. Planningsbasis 60 minuten, maar dit is jouw keuze, niet een vast advies.
 
 UNIEK HERKENNINGSPUNT
 De aparte Babaji-meditatieruimte binnen het samadhi-heiligdom.
@@ -485,15 +491,15 @@ CCI-ADVIES: geen vast tijdslot toekennen zolang niet bevestigd; alleen een blik 
 
 ## VR 8 JAN — Ochtendlocaties + Dashashwamedh Ghat in de avond
 
-**LOCKED BY MARK 2026-09-27 (tweemaal aangepast):** deze dag was volledig leeg na de ochtend. Eerst kregen vier zwevende tempels hun plek hier (07:00–10:45). Toen bleek woensdag te laat te eindigen voor donderdags vroege start, verhuisde Dashashwamedh Ghat + Ganga Aarti ook naar hier.
+**LOCKED BY MARK 2026-09-27 (driemaal aangepast):** deze dag was volledig leeg na de ochtend. Eerst kregen vier zwevende tempels hun plek hier. Toen bleek woensdag te laat te eindigen voor donderdags vroege start, verhuisde Dashashwamedh Ghat + Ganga Aarti ook naar hier. **Daarna gecorrigeerd naar het nieuwe 08:30-startprincipe** (`governance/MARK_TRAVEL_PREFERENCES_CURRENT.md`): geen van deze vier tempels heeft een sunrise-achtige reden om vroeg te beginnen, dus een start om 07:00 met daarna een dode middag was zelf de fout — niet de tempels. Nu 08:30 start, kortere rustperiode ertussen.
 
-**VERTREK HOTEL: 07:00**
+**VERTREK HOTEL: 08:30**
 
-07:00–07:15 transfer naar Durga Kund-zone, ~15 min, dichtbij.
+08:30–08:45 transfer naar Durga Kund-zone, ~15 min, dichtbij.
 
 ### Durga Temple/Durga Kund — "de Apentempel", rode Nagara-architectuur met een heilige waterbak (Durga Kund, Varanasi) [A]
 
-TIJD: 07:15–07:45
+TIJD: 08:45–09:15
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Een rode, Nagara-stijl tempel voor de godin Durga, bekend als "de Apentempel" vanwege de vele apen op het terrein, met een aangrenzende heilige waterbak (kund).
@@ -518,7 +524,7 @@ TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: ~30 min, want Sankat Mochan ligt direct
 
 ### Sankat Mochan Hanuman Temple — grote Hanuman-tempel, gesticht in de traditie van Tulsidas (Durga Kund-omgeving, Varanasi) [A]
 
-TIJD: 07:45–08:15
+TIJD: 09:15–09:45
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Een grote, levendige Hanuman-tempel, direct naast Durga Kund, met veel apen.
@@ -541,11 +547,11 @@ Levendige, drukke tempel met veel apen op het terrein.
 TOTALE TIJD VOOR DEZE LOCATIE: 30 min, direct naast de vorige stop.
 TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: 30 min.
 
-08:15–08:45 transfer noordwaarts naar Lalita Ghat-zone, ~30 min door de stad.
+09:45–10:15 transfer noordwaarts naar Lalita Ghat-zone, ~30 min door de stad.
 
 ### Lalita Ghat — ghat met kenmerkende Nepalese rivieroever-architectuur (Lalita Ghat, Varanasi) [A]
 
-TIJD: 08:45–09:15
+TIJD: 10:15–10:45
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Een ghat met een opvallende, Nepalese-stijl gebouwde tempel aan de rivier.
@@ -570,7 +576,7 @@ TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: ~30 min, want de Nepali/Kathwala Temple
 
 ### Nepali/Kathwala Temple — Kathmandu-stijl houten pagodetempel, met kleine erotische houtsnijwerken vergelijkbaar met Khajuraho (direct naast Lalita Ghat, Varanasi) [A]
 
-TIJD: 09:15–10:00
+TIJD: 10:45–11:30
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Een houten pagodetempel in Kathmandu-stijl, met kleine erotische houtsnijwerken die vaak vergeleken worden met de beroemdere Khajuraho-tempels.
@@ -593,7 +599,7 @@ Houten pagode-architectuur met kleine erotische snijwerken, ongewoon voor Varana
 TOTALE TIJD VOOR DEZE LOCATIE: 45 min, direct naast de vorige stop.
 TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: 45 min.
 
-10:00–10:45 transfer terug naar hotel, ~45 min. 10:45–15:30 rust/vrije tijd (~4u45).
+11:30–12:15 transfer terug naar hotel, ~45 min. 12:15–15:30 rust/vrije tijd (~3u15) — korter dan voorheen omdat de dag nu bij 08:30 begint in plaats van 07:00, precies zoals Mark's nieuwe regel bedoelt: geen vroege start zonder dat de vrijgekomen tijd ook echt gebruikt wordt.
 
 ### Transfer
 15:30–16:00 transfer naar Dashashwamedh Ghat, ~30 min.

@@ -74,6 +74,16 @@ Keep two truth layers separate:
 
 Current concrete application: Crank's Ridge / Hippie Hill is meaningful as a ridge landscape, not merely as a container for Grot Vivekananda, Lama Govinda or counterculture biography.
 
+## Exterior-only access is never a reason to undersell a lineage site
+`HARD_CURRENT — MARK 2026-09-27`
+Mark's own words, after CCI described Lahiri Mahasaya's house as "alleen buitenkant, 30 minuten is genoeg": *"Is 'uitsluitend een gevel'?! Nee. Is een plek om mss wel een uur stil te zitten op de stoep. Je moet inhoud leren zien en belangrijker maken. Het gaat mij om mijn lineage."*
+
+A house/site being closed to interior visitors (e.g. only open on Guru Purnima) is an **access fact**, not a **dwell-time verdict**. A locked door does not shrink a `KRACHTPLEK` of Mark's own lineage into a quick photo stop. The correct default posture is the opposite of what CCI did: present the site as a place where Mark may want real, unhurried, silent time on the doorstep/exterior — sitting, not just looking — and let him set the actual duration.
+
+## Always ASK Mark's desired dwell at ashrams, samadhi sites and lineage power-places — never just prescribe one
+`HARD_CURRENT — MARK 2026-09-27`
+For ashrams, samadhi/mahasamadhi sites, meditation caves/rooms and any other place tied to Mark's own lineage (Yogananda, Babaji, Lahiri Mahasaya, Sri Yukteswar, Anandamayi Ma, Ramakrishna, Ramana Maharshi, etc.), do not silently assign a dwell time (not even a generous one) and move on. Explicitly ask Mark: **"Hoeveel tijd wil je hier zijn?"** A planning default may still be shown as a starting baseline for scheduling purposes, but it must be presented as a question to Mark, not a closed recommendation — these are exactly the places where INDIA's technical dwell estimate is least likely to match what the place is actually worth to Mark.
+
 ## Keep distinct traditions distinct
 `HARD_CURRENT`
 Haidakhan Babaji and Mahavatar Babaji/Kriya both matter, but their physical/history claims are not automatically the same entity.
@@ -230,14 +240,27 @@ Count complete human door-to-door burden: checkout/loading/access/waiting/fog/tr
 Do not hide an inbound travel day outside cluster footprint.
 
 ## Final day rhythm
-`HARD_CURRENT — refined Mark 2026-08-31`
+`HARD_CURRENT — refined Mark 2026-08-31, start-time rule superseded by Mark 2026-09-27`
 - use human-scale **15- or 30-minute planning blocks** for ordinary local days; exact minutes only when an external service/event actually fixes them;
-- early starts/relatively early bed tend to suit Mark;
 - ~1 h evening dinner;
 - no obligatory formal lunch block every day;
 - actual hotel/ashram base as start/end, without irrelevant wake-up/get-dressed micro-scheduling;
 - overnight rail may convert movement to sleep;
 - if a day only works under perfect assumptions, call it OVERLOADED rather than shaving buffers.
+
+## Standard day start ~08:30 — HARD CONDITION FOR ALL FUTURE CLUSTER PLANNING
+`HARD_CURRENT — MARK 2026-09-27, supersedes the older "early starts tend to suit Mark" line above`
+Mark's own words: *"Probeer begintijden altijd van alle dagen rond 08:30 te maken. Dan is er een normale nachtrust en tempo mogelijk. Pas als echt niet anders kan dan pas eerder plannen. Liever een dag van 08:30 tot 16:00 dan van 07:00-14:30."*
+
+Rules:
+- default `VERTREK HOTEL` for every local day is **~08:30**, not earlier, unless a genuinely fixed external constraint makes an earlier start unavoidable (a sunrise-tied experience such as a dawn boat/dawn walk that only has value at that hour, a fixed appointment time, a train/flight departure);
+- when an earlier start is genuinely required for one specific block, do not then also front-load the rest of the day early "while you're up" — only the block that actually needs the early hour should move earlier;
+- an early start is only justified if the freed time afterward is actually used, not left as a long unstructured afternoon gap. A day shaped `08:30–16:00` with content spread through it is preferred over a day shaped `07:00–14:30` with the same total content but a big dead gap created by starting too early;
+- this is a **hard condition for all future cluster/day planning**, not a one-off Varanasi fix — apply it to Kolkata, Tiruvannamalai and every other remaining cluster.
+
+## Re-verify inter-location transfer times for realism, every time
+`HARD_CURRENT — MARK 2026-09-27`
+Before presenting a day plan, actually check each transfer between locations, not just estimate by feel: is it realistically walkable, or does it need a taxi/auto-rickshaw; does crowding/traffic at that time of day change it; is real margin built in. A transfer that is genuinely walkable is likely fine as stated; one that needs motorized transport needs an honest, margin-inclusive estimate, not an optimistic map-time number.
 
 # 8. WALKING / NATURE
 
