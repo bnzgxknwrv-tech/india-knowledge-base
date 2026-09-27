@@ -1,7 +1,7 @@
 {
   "schema_version": "V8",
   "branch": "agent/india8-cluster-casting",
-  "_central_required_note": "HARDENED 2026-09-25 by INDIA23 orphan-scan after the 2026-09-14 15-file cockpit hardening. Active cockpit now requires 16 files: the existing 15 plus decisions/INDIA_TO_CCI_RATIONALE_FIRST_DELEGATION_RULE_2026-09-14.md, which declares a HARD successor requirement and was not losslessly integrated into the mandatory cockpit. HOW_TO_WORK_WITH_MARK.md remains HARD LOCKED and may not be removed/slimmed/deprecated without Mark's explicit approval. This material central_required change intentionally invalidates older exact FULL baselines and forces a fresh FULL successor check.",
+  "_central_required_note": "HARDENED 2026-09-27 after a confirmed CCI presentation failure (bare name + time cards on the Varanasi plan/artifact, despite the four presentation rules already being central_required) added governance/MARK_FACING_LOCATION_CARD_TEMPLATE.md as the mandatory fill-in-the-blank consolidation of those four rules. Active cockpit now requires 17 files. Previously HARDENED 2026-09-25 by INDIA23 orphan-scan after the 2026-09-14 15-file cockpit hardening, which added decisions/INDIA_TO_CCI_RATIONALE_FIRST_DELEGATION_RULE_2026-09-14.md. HOW_TO_WORK_WITH_MARK.md remains HARD LOCKED and may not be removed/slimmed/deprecated without Mark's explicit approval. This material central_required change intentionally invalidates older exact FULL baselines and forces a fresh FULL successor check.",
   "central_required": [
     "governance/FRESH_SESSION_BOOT_GATE.md",
     "governance/INDIA_MASTER_BOOT.md",
@@ -17,6 +17,7 @@
     "governance/MARK_PERSON_PROVENANCE_PLACE_MEANING_RULE.md",
     "governance/MARK_FACING_PLACE_CARD_TRAVEL_VALUE_RULE_2026-09-13.md",
     "governance/MARK_DAY_BLOCK_ONLY_PDF_RULE_2026-09-13.md",
+    "governance/MARK_FACING_LOCATION_CARD_TEMPLATE.md",
     "decisions/INDIA_TO_CCI_RATIONALE_FIRST_DELEGATION_RULE_2026-09-14.md",
     "governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md"
   ],

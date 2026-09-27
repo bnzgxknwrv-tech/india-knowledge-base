@@ -450,6 +450,23 @@ Schrijf dit alsof de volgende opvolger jou nooit heeft gesproken en dit gesprek 
 
 ---
 
+## FOUT 26 — VIER PRESENTATIEREGELS ALLEMAAL GELEZEN, TOCH KALE NAAM+TIJD-KAARTEN LEVEREN
+
+**Concrete CCI-fout, 2026-09-27, herhaling van FOUT 2/3/4**
+CCI had `MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md`, `MARK_PERSON_PROVENANCE_PLACE_MEANING_RULE.md`, `MARK_FACING_PLACE_CARD_TRAVEL_VALUE_RULE_2026-09-13.md` en `MARK_DAY_BLOCK_ONLY_PDF_RULE_2026-09-13.md` allemaal al gelezen (ze stonden al in `central_required`), en leverde toch een Varanasi-artifact/markdown met kaarten die niet veel meer waren dan een Indiase naam, een kloktijd en één dunne zin. Ook stonden er `ontbijt`-kloktijden in, wat `MARK_DAY_BLOCK_ONLY_PDF_RULE_2026-09-13.md` al expliciet verbiedt. Mark moest dit — in zijn eigen woorden — "al meerdere keren zeggen".
+
+**Waarom dit fout is**
+Vier afzonderlijke regeldocumenten bleken niet genoeg om het daadwerkelijke gedrag te forceren. `GELEZEN -> NIET ACTIEF TOEGEPAST`, exact FOUT 2/3/4, maar dan met een nog specifiekere, herhaalde trigger: complete kaartvelden (WAT IS DIT, WIE WAS HIER, WAT MOET JE ZOEKEN, HOE WIL JE ZIJN, UNIEK HERKENNINGSPUNT, de twee tijd-boekhoudvelden) werden overgeslagen ten gunste van een korte "waarom"-zin.
+
+**VERPLICHTE OPLOSSING**
+- Gebruik voortaan altijd `governance/MARK_FACING_LOCATION_CARD_TEMPLATE.md` — het letterlijke, invulbare sjabloon dat alle vier bovenstaande regeldocumenten samenvoegt tot één kopieerbare structuur per locatie. Dit bestand staat nu ook in `central_required`.
+- Vóór elke presentatie met locaties: loop het sjabloon per locatie letterlijk langs. Een kaart die niet elk toepasselijk veld invult is niet verzendklaar.
+- "Geen lineage-link" is nooit een compleet antwoord op `WAAROM WIL JIJ, MARK, HIERHEEN?` — zeg altijd wat de eigenlijke reden wél is (sfeer, architectuur, algemeen-religieuze kern, bijvangst) en waarom dat de moeite waard kan zijn.
+- Nooit `ontbijt`/`wake`/`douchen` als kloktijd-item; de operationele dag begint bij `VERTREK HOTEL`.
+- Bij twijfel of een kaart compleet is: reread het hele sjabloonbestand, niet het geheugen ervan.
+
+---
+
 # COMMUNICATIE MET MARK
 
 Mark typt snel op iPhone. Interpreteer evidente typefouten/autocorrect uit context. Alleen doorvragen als twee interpretaties werkelijk tot andere acties leiden.
@@ -490,6 +507,7 @@ Vóór IEDER substantieel India-antwoord, test de DAADWERKELIJK BEDOELDE antwoor
 22. Als dit antwoord een sessieovergang betreft (een INDIA-sessie stopt/is gestopt): heb ik EERST de vertrekkende sessie zelf (via Mark) gevraagd zijn volledige kennis inclusief elk lopend gespreksonderwerp naar GitHub te dumpen, in plaats van zelf een overdrachtsdocument uit git-archeologie te reconstrueren? (FOUT 25, hierboven.)
 23. Blijft er een concreet, beslisrelevant gat over dat vermoedelijk alleen in het levende voorgangergesprek zat en niet uit GitHub op te lossen is? Zo ja: heb ik dat als expliciete `QUESTION_FOR_PREDECESSOR`-vraag op PR #23 gezet in plaats van te gokken of Mark te vragen het zelf te reconstrueren? (FOUT 24 stap 13, hierboven.)
 24. Heb ik bij deze boot de orphan-scan (FOUT 24 stap 0) echt uitgevoerd, niet alleen aangenomen dat de manifest compleet is? Is elk nog-levend gevonden bestand zowel actief gebruikt als toegevoegd aan `BOOT_MANIFEST_V8.json`, zodat het niet opnieuw stil wegrot voor de volgende opvolger?
+25. Heb ik voor ELKE locatie in dit antwoord `governance/MARK_FACING_LOCATION_CARD_TEMPLATE.md` letterlijk langsgelopen — niet uit het geheugen, maar het bestand zelf — en elk toepasselijk veld ingevuld (FOUT 26)?
 
 Als één relevante vraag **NEE of UNKNOWN** is:
 
