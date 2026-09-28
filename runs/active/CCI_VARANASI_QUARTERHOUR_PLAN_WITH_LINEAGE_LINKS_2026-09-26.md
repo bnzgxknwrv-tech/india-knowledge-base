@@ -898,21 +898,25 @@ Op Mark's directe vraag ("wat mis je, kijk breder, Lonely Planet-laag") is de vo
 
 **EERLIJK ANTWOORD OP "WAAROM NIET EERST GEVRAAGD" (Mark-vraag 2026-09-27):** dit bestand bestond al vóór de huidige planningsronde begon — het lag klaar sinds 27 augustus 2026, inclusief de zin dat het antwoord van Mark nog moest komen. Het is niet gecheckt tóen dit Varanasi-plan voor het eerst werd opgebouwd; het is alleen gevonden omdát Mark nu expliciet om een completeness-audit vroeg. Dat is de fout: deze brede-laag-check had een standaardstap moeten zijn vóórdat een eerste versie van een cluster-plan wordt gepresenteerd, niet iets dat achteraf, reactief, na een klacht wordt gevonden. Zie ook `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md` voor FOUT-nummering van dit type fout in toekomstige clusters.
 
-1. **Banaras Gulabi Meenakari-ateliers** — levend, GI-geregistreerd roze-emaille-metaalambacht, Gay Ghat/Lal Ghat-omgeving. CCI-advies destijds: A als een echt werkend atelier te regelen is, anders B.
-2. **Bharat Kala Bhavan, BHU** — groot kunst/archeologiemuseum, dicht bij Assi/Sankat Mochan/Durga. CCI-advies: B tenzij de collectie je intrinsiek aanspreekt.
-3. **Khojwa/Kashmiri Ganj houten-lakwerk-speelgoedatelier** — GI-geregistreerd ambacht, zuid-stad, dicht bij Assi. CCI-advies: A/B-grens.
-4. **Ramnagar Fort Museum** — 18e-eeuws fort met koninklijke koetsen/wapens/textiel, oostoever, ~14 km, echte oversteek nodig. Al B, alleen tijd-vraag openstaand.
-5. **The Ram Bhandar** — historisch Banarasi-ontbijtinstitution (kachori-sabzi/jalebi), letterlijk in de al-A Thatheri Bazaar/Chowk-wereld die je al bezoekt. CCI-advies: A, past bij je voorkeur voor historische food-instituties, kost bijna niets extra.
-6. **Tulsi Ghat Akhada** — levende worstelschool op Tulsi Ghat zelf, waar je al langsloopt. CCI-advies: A/B-grens.
-7. **Ganga Aarti vanaf het water** — dezelfde Dashashwamedh-ceremonie, maar vanaf een boot i.p.v. de kant. Vraag: kant, water, of beide op verschillende avonden?
-8. **Winterse Malaiyo/Makhan Malai** — zeer seizoensgebonden melkschuim-zoetigheid, precies in het seizoen van je reis (december/januari). CCI-advies: A, past bij je bekende zoetigheden-voorkeur, kost bijna niets.
-9. **Lange Varanasi–Chunar-boottocht** — apart van de korte dageraad-roeiboot, ~8 uur. CCI-advies: C, dupliceert water-tijd die je al hebt (roeiboot + ghatwandeling).
-10. **Jnana-Pravaha/Banaras Gallery** — cultuurcentrum met speelgoed/metaalwerk/foto's, ten zuiden van Samne Ghat. CCI-advies: B.
-11. **Rajghat-heuvel + Tomb of Lal Khan** — diepe nederzettingsarcheologie + beschermd 1773-mausoleum, noord-Varanasi. CCI-advies: A/B-grens.
-12. **Alamgir Mosque/Dharahara, visuele geschiedenislaag** — al genoemd als A* bijvangst bij Panchganga in dit plan; dit item voegt de bredere 17e-eeuwse Hindoe-Moslim/keizerlijke geschiedenislaag toe.
-13. **Zuid-Varanasi Jain-laag** (Parshvanath Bhelupur + Suparshvanath Jain Ghat/Bhadaini) — twee Jain-pelgrimsplekken, dicht bij Assi/Anandamayi. CCI-advies: B, tenzij je sterkere Jain-interesse hebt.
+**GEACTUALISEERD 28-9-2026 met echte afstandsresearch (geen advies meer zonder onderbouwing) — zie `governance/MARK_CLUSTER_PREFLIGHT_PROTOCOL_2026-09-27.md` Fase 0,5: verdere reistijd-verfijning van de bestaande dagen ligt stil totdat jij deze 13 items gegradeerd hebt, want nieuwe A/A+'s hierin kunnen de dagindeling nog veranderen.**
 
-**Dit blokkeert de rest van dit plan niet** — het staat als apart, compact te beantwoorden lijstje (net als het bestand zelf al voorstelde: 1 genummerd antwoord voor alle 13).
+1. **Banaras Gulabi Meenakari-werkplaats(en)** — levend, GI-geregistreerd (2015) roze-emaille-metaalambacht, Gai Ghat-omgeving (6 generaties families, huisateliers). Afstand: ~0,5-1 km / 10-15 min lopen voorbij Panchganga Ghat noordwaarts — vrijwel gratis mee te nemen op de donderdagroute.
+2. **Bharat Kala Bhavan, BHU** — groot kunst-/archeologiemuseum (Mughal-miniaturen, Varanasi-archeologie) op de BHU-campus. Afstand: ~1,5-3 km tot Assi Ghat/Sankat Mochan, plus nog ~1,5-2 km binnen de grote campus zelf (10-15 min) — geen omweg maar ook niet gratis: een aparte rit van 10-15 min.
+3. **Khojwa/Kashmiri Ganj houten-lakwerk-speelgoedwerkplaats** — GI-geregistreerd (2015) ambacht (Kunder Kharadi-gemeenschap). Afstand: ~1-1,5 km / 15-20 min lopen vanaf Anandamayi Ashram Bhadaini, zelfde zuidelijke oude-stadscluster — vrijwel gratis.
+4. **Ramnagar Fort Museum** — 18e-eeuws fort van de Kashi Naresh-familie, koninklijke koetsen/wapens/textiel, OOSTOEVER. Afstand: 5-8 km over de weg vanaf Assi Ghat, of een boot vanaf Assi/Tulsi Ghat (20-30 min varen) — echte omweg, geen "erbij"-stop, vergt een halve dag (heen, bezoek, terug).
+5. **The Ram Bhandar** — legendarisch Banarasi ontbijtadres (kachori-sabzi/jalebi, 07:30-11:00), adres letterlijk IN Thatheri Bazaar. Afstand: 0 — ligt op de al-bestaande wandelroute "Bengali Tola-Thatheri Bazaar-Chowk". Volledig gratis, wel alleen 's ochtends open.
+6. **Tulsi Ghat Akhada** — levende worstelschool direct op Tulsi Ghat zelf. Afstand: 0 — zelfde anker als Tulsi Ghat, gewoon binnenlopen tijdens het bestaande bezoek.
+7. **Ganga Aarti vanaf het water** — dezelfde Dashashwamedh-ceremonie, bekeken vanaf een boot i.p.v. de kant. Afstand: 0 (zelfde locatie, ander perspectief) — praktisch: vereist een vooraf geboekte boot (30-60 min van tevoren) en een kleine meerprijs, geen reistijd-omweg.
+8. **Winterse Malaiyo/Makhan Malai** — seizoensgebonden melkschuim-zoetigheid, alleen nov-feb, vóór 11:00. Verkrijgbaar in Thatheri Bazaar/Chaukambha én bij Vishwanath Gali — afstand 0 op de bestaande route. Let op: dit is een winter-only item, praktisch niet uitvoerbaar buiten die maanden ongeacht afstand.
+9. **Lange Varanasi–Chunar-boottocht (~8 uur)** — apart van de korte dageraad-roeiboot, naar Chunar Fort (~32 km zuid van Varanasi), vertrek meestal vanaf Assi Ghat. Echte, grote omweg — een aparte dagbesteding van ~8 uur, geen combineerbare stop.
+10. **Jnana-Pravaha/Banaras Gallery** — cultuurcentrum (speelgoed/metaalwerk/foto's), net ten zuiden van Samne Ghat. Afstand: ~2-3 km / ~10 min per riksja vanaf Assi Ghat — kleine, haalbare omweg (kort ritje, geen half dagdeel).
+11. **Rajghat-heuvel + Tomb of Lal Khan** — diepe nederzettingsarcheologie (pre-Mauryaans) + beschermd 1773-mausoleum, uiterste noorden van de stad bij Malviya Bridge. Afstand: ~2-2,5 km voorbij Panchganga Ghat noordwaarts (~25-35 min lopen langs de ghats, of ~10 min per auto via de weg) — echte, aparte omweg, geen "erbij" bij een Panchganga-bezoek.
+12. **Alamgir Mosque/Dharahara** — al bevestigd: staat letterlijk óp/aan Panchganga Ghat. Afstand 0, al meegenomen in het donderdagplan als open item.
+13. **Zuid-Varanasi Jain-laag** (Parshvanath Bhelupur + Suparshvanath Jain Ghat/Bhadaini) — twee Jain-bedevaartsplekken (Varanasi = geboorteplaats-traditie van zowel Parshvanath als Suparshvanath). Het Suparshvanath-heiligdom ligt vrijwel op dezelfde plek als de Anandamayi Ashram (afstand 0); de Parshvanath-tempel in Bhelupur ligt daar nog ~1,5 km / 15-20 min lopen vandaan.
+
+**Samenvatting gratis vs. omweg:** items 5, 6, 7, 8, 12 zijn feitelijk gratis (letterlijk op/naast bestaande ankers, al is 8 alleen haalbaar in de winter). Items 1, 3, 10, 13 zijn kleine, goedkope omwegen (0,5-3 km, minuten tot een kwartier extra). Items 2 en 11 zijn middelgrote, bewuste beslissingen (aparte rit/wandeling nodig). Items 4 en 9 zijn de enige echte tijdrovende excursies (rivieroversteek naar Ramnagar, resp. de 8-uur Chunar-cruise).
+
+**Dit blokkeert nu wél de verdere verfijning van de rest van dit plan** (Fase 0,5 Grade-Completeness-Gate, FOUT 29) — zodra jij deze 13 items in één genummerd antwoord (A/B/C) gegradeerd hebt, wordt de kwartierplanning definitief afgerond en pas dan verder gesynchroniseerd naar het artifact.
 
 ## OPEN ITEMS
 
