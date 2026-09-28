@@ -493,6 +493,21 @@ Een template-fix die alleen op één van twee Mark-facing outputs (markdown óf 
 
 ---
 
+## FOUT 29 — KWARTIER-KLOKTIJDPLANNING GEBOUWD VOORDAT ALLE KANDIDAAT-LOCATIES GEGRADEERD WAREN
+
+**Concrete CCI-fout, 2026-09-27/28, de zwaarste fout van de Varanasi-ronde**
+CCI bouwde een volledige, gedetailleerde kwartier-voor-kwartier dagplanning voor de hele Varanasi-cluster terwijl er nog 13 nooit-getriageerde "Lonely Planet-laag"-kandidaten open stonden (zie FOUT 27) — kandidaten die, eenmaal door Mark gegradeerd als A of A+, de hele dagindeling kunnen omgooien. Mark's eigen woorden: "hoe kunnen we in hemelsnaam een planning maken terwijl er allerlei locaties niet een A/B/C hebben?! Zometeen zitten er drie A's bij en moeten we alles omgooien?!" en zijn vergelijking: "Alsof je een muur metselt en daarna beseft dat je nog specie ertussen moest doen. Je moet dan helemaal opnieuw beginnen."
+
+**Waarom dit fout is**
+Dit is een fundamentelere fout dan FOUT 27 zelf. FOUT 27 was: de brede laag niet proactief gevonden. FOUT 29 is erger: zelfs toen de laag al wél gevonden en aan Mark voorgelegd was (in de completeness-audit), ging CCI gewoon door met het bouwen en verfijnen van de kwartier-kloktijdplanning (reistijden verifiëren, AOAY-diepte toevoegen, artifact syncen) VOORDAT Mark de 13 items had gegradeerd. Dat betekent dat al dat verfijningswerk mogelijk grotendeels overgedaan moet worden zodra er nieuwe A/A+-items bijkomen die een andere dagindeling vereisen. Een kloktijdplanning bouwen op een onvolledige locatielijst is als een huis bouwen op een fundering waarvan nog niet vaststaat hoe groot hij wordt.
+
+**VERPLICHTE OPLOSSING — HARDE VOLGORDE-REGEL**
+- **Grade-completeness is een harde voorwaarde vóór kwartier-kloktijdplanning, niet een parallel spoor.** Zodra een "remaining traveler layer"/Lonely-Planet-achtig bestand wordt gevonden (FOUT 27-stap), wordt eerst het volledige genummerde A/B/C-verzoek aan Mark gestuurd — inclusief naam, wat het is, waarom hij erheen zou willen, en de echte afstand/reistijd vanaf het dichtstbijzijnde al bevestigde anker (gratis mee te nemen of een echte omweg) — en wordt er NIET verder gewerkt aan reistijd-verificatie, AOAY-diepte-onderzoek of artifact-sync voor die cluster totdat de gradering binnen is.
+- Uitzondering: structurele/logistieke elementen (hotel, trein, vaste beschermde blokken als Manikarnika/Bhrigu/Dashashwamedh/Anandamayi Ashram) mogen wel vast onderzocht worden, want die veranderen niet door een nieuwe B/A*-gradering.
+- Deze regel is nu ook opgenomen als een verplichte Fase in `governance/MARK_CLUSTER_PREFLIGHT_PROTOCOL_2026-09-27.md` (Fase 0,5 — Grade-Completeness-Gate).
+
+---
+
 # COMMUNICATIE MET MARK
 
 Mark typt snel op iPhone. Interpreteer evidente typefouten/autocorrect uit context. Alleen doorvragen als twee interpretaties werkelijk tot andere acties leiden.
@@ -536,6 +551,7 @@ Vóór IEDER substantieel India-antwoord, test de DAADWERKELIJK BEDOELDE antwoor
 25. Heb ik voor ELKE locatie in dit antwoord `governance/MARK_FACING_LOCATION_CARD_TEMPLATE.md` letterlijk langsgelopen — niet uit het geheugen, maar het bestand zelf — en elk toepasselijk veld ingevuld (FOUT 26)?
 26. Als dit de EERSTE presentatie van een nieuw clusterplan is: heb ik de volledige VNS/A###-ledger (alle grades, ook A* en B) én elk bestaand "remaining traveler layer"-onderzoeksbestand voor dat cluster gecontroleerd, in plaats van te wachten tot Mark er zelf naar moet vragen (FOUT 27)?
 27. Als dit antwoord zowel een markdown- als een artifact-versie van locatiekaarten raakt: heb ik het volledige sjabloon (`MARK_FACING_LOCATION_CARD_TEMPLATE.md`) in BEIDE bestanden identiek toegepast, kaart voor kaart, niet alleen in de meest recent bewerkte? Bevat het artifact geen lege foto-placeholder-boxen (FOUT 28)?
+28. Staat er nog een niet-gegradeerd "remaining traveler layer"-bestand open voor dit cluster? Zo ja: heb ik verdere kwartier-kloktijdplanning/reistijd-verificatie/artifact-sync gepauzeerd totdat Mark die gradering heeft gegeven, in plaats van door te bouwen op een onvolledige locatielijst (FOUT 29)?
 
 Als één relevante vraag **NEE of UNKNOWN** is:
 

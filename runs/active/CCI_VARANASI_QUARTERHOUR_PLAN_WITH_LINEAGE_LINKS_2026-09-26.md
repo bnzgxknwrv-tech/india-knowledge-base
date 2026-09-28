@@ -148,11 +148,13 @@ TOTALE TIJD VOOR DEZE LOCATIE: 30 min, direct op de route.
 TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: 30 min.
 
 ### Ontbijt en transfer
-07:30–08:00 ontbijt (hotel of ghat-side, geen apart geplande kloktijd-inhoud). 08:00–08:15 transfer rechtstreeks naar Ramapura-Luxa (~45 min met auto/taxi — niet te lopen, dit is dwars door de oude stad; CCI-inschatting inclusief marge voor drukte, nog niet apart geverifieerd zoals de oorspronkelijke samengevoegde route).
+07:30–08:00 ontbijt (hotel of ghat-side, geen apart geplande kloktijd-inhoud). 08:00–08:30 transfer naar Ramapura-Luxa.
+
+**GEVERIFIEERD 27-9-2026 (echte reistijd-research, geen CCI-schatting meer):** ~3,5-4 km via Assi Ghat Road → Durgakund Road/Bhelupur → Lahurabir/Englishia Line → Luxa Road. Auto/auto-riksja, realistisch 20-35 min afhankelijk van drukte bij de Bhelupur-kruising en Luxa Road-markt (was ~45 min CCI-schatting, nu gecorrigeerd naar 30 min blok — 15 min vrijgemaakt). Lopen zou 45-60 min zijn (geen doorlopende rivierpromenade, dwars door druk stadsverkeer) — niet aan te raden. Bron: tirth.com, ayodhyavaranasitourism.com, mapsofindia.com/varanasi/localities/ramapura-luxa.
 
 ### New Bhrigu Karyalaya / Bhadury Sadan — de plek waar Acharya Hemant K. Bhadury de eeuwenoude Bhrigu-astrologie-lezing geeft (Ramapura-Luxa, Varanasi) [A+, beschermd venster: 3 uur]
 
-TIJD: 08:15–11:15
+TIJD: 08:30–11:30
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Een persoonlijke astrologische lezing volgens de Bhrigu Samhita-traditie — een eeuwenoud systeem van voorspellende astrologie, doorgegeven binnen één familie, in hun eigen huis/praktijkruimte.
@@ -883,7 +885,7 @@ TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: niet van toepassing — beschermd blok,
 - **~00:40–00:45 aankomst Varanasi Junction (BSB)** — dat is 45-50 min vóór vertrek, genoeg voor entree/bordcontrole/loopbrug zonder overdreven marge.
 - **01:30 vertrek 22324 Shabd Bhedi Express, Varanasi Junction → Kolkata Chitpur.**
 - **13:05 aankomst Kolkata Chitpur (KOAA), ~11u35 onderweg.**
-- Klasse: doel 2A — een echte slaapklasse (ligcoupé), geen zitplaats. "Geen 1A" betekent alleen dat de duurste, meest private klasse er niet is; dit is en blijft een nachttrein met bedden. Huidige indicatieve prijs ~₹1.520.
+- Klasse: doel 2A — een echte slaapklasse (ligcoupé), geen zitplaats. "Geen 1A" betekent alleen dat de duurste, meest private klasse er niet is; dit is en blijft een nachttrein met bedden. Huidige indicatieve prijs ~₹1.520 (≈ €16, indicatieve omrekening 27-9-2026 — **voortaan altijd in euro's vermeld per Mark's instructie**).
 - 13:05 verder: Kolkata-hoteltransfer/inhoud valt buiten dit Varanasi-plan.
 
 **BOEKING — ACTIE VOOR MARK, NIET UITSTELLEN:** de gewone boekingstermijn (60 dagen) opent **maandag 9 november 2026 om 08:00 IST (03:30 CET)**, omdat deze trein vrijdagavond in Ghazipur City start. 2A is een kleine, krappe klasse (recente steekproef: RAC voor een vergelijkbare datum) — Foreign Tourist Quota-boeking is nu al mogelijk (tot 365 dagen vooruit) als alternatief voor wachten tot 9 november. Uitwijkvolgorde als 2A niet lukt: 22324 in 3A/3E, dan 13152 (zelfde nacht, 2u55 later in Kolkata), dan 13010/13006 alleen als de aankomstdag mag verschuiven. Volledige onderbouwing: `runs/active/WORK_INDIA24_VARANASI_KOLKATA_BOOKING_READY_TRAIN_STATION_LOGISTICS_2026-09-27.md`.

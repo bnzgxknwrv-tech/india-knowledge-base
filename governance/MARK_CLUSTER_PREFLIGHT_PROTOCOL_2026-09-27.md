@@ -34,6 +34,16 @@ Zolang een antwoord hierop echt beslissingsrelevant is en niet uit GitHub te rec
 
 ---
 
+## FASE 0,5 — GRADE-COMPLETENESS-GATE (TOEGEVOEGD 2026-09-28, NA FOUT 29)
+
+**Harde regel, geen aanbeveling:** zodra Batch A (Fase 1) een "remaining traveler layer"/Lonely-Planet-achtig bestand met nooit-getriageerde kandidaten oplevert, wordt EERST het volledige genummerde A/B/C-verzoek aan Mark gestuurd — met naam, wat het is, waarom hij erheen zou willen, en de echte afstand/reistijd vanaf het dichtstbijzijnde al bevestigde anker (gratis mee te nemen of een echte omweg, met bronvermelding). **Kwartier-kloktijdplanning, reistijd-verificatie tussen dagblokken en artifact-sync voor die cluster gaan pas verder nadat deze gradering binnen is.**
+
+Reden: dit werk verfijnt een dagindeling die zelf nog kan veranderen zodra nieuwe A/A+-items uit de brede laag bijkomen — dat is potentieel dubbel werk en precies de fout die deze gate voorkomt (FOUT 29, Varanasi-cluster, 2026-09-27/28: een volledige kwartierplanning werd gebouwd en verfijnd terwijl 13 kandidaten nog open stonden).
+
+Uitzondering: structurele/logistieke elementen die niet veranderen door een nieuwe gradering (hotel, trein/vlucht, al beschermde blokken als een crematieghat- of ashrambezoek) mogen wel vast onderzocht worden.
+
+---
+
 ## FASE 1 — DE PARALLELLE RESEARCHGOLF (ALLES TEGELIJK, NIET SERIEEL)
 
 Zodra Fase 0 binnen is, wordt in ÉÉN golf, met meerdere gelijktijdige dispatches (Agent-tool parallel, of WORK als Mark dat expliciet aanzet), het volgende opgehaald — nooit achteraf, nooit één voor één na een klacht:

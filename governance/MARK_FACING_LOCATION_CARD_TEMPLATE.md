@@ -55,6 +55,7 @@ KORTE NUANCE — ALLEEN ALS DIE ERTOE DOET
 7. **Photos where appearance matters and one is available**, per FOUT 5 of the successor handoff.
 8. **No empty-photo placeholder boxes.** When no free-to-use photo exists, show nothing — no gray placeholder box, no "geen foto gevonden" text. Mark 2026-09-27: "als er geen foto is ook geen lege ruimte laten zien. Onzinnig." An absent-photo placeholder is itself a form of bare, meaningless content — exactly what this template exists to prevent, just visually instead of textually.
 9. **Apply this template identically to every Mark-facing output for the same content**, not just the one most recently edited. If both a markdown plan and a visual artifact exist for the same cluster, a template fix in one is not done until it is verified card-by-card in the other too (FOUT 28).
+10. **All prices in euros (€), never bare rupees.** Mark 2026-09-27/28: "Prijzen in je pdf en html voortaan uiteraard in euro's!" Convert at the time of writing and state it's an approximate/indicative conversion.
 
 ## PRE-SEND TEST — MANDATORY, EVERY LOCATION, EVERY TIME
 
