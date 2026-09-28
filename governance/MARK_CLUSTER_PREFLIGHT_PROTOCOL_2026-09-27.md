@@ -146,6 +146,40 @@ Het systeem had geen verplichte POORT die het onmogelijk maakt om een eerste ver
 
 Vanaf de volgende cluster (Kolkata, of welke cluster als eerste aan de beurt is): Fase 0-vragen worden als eerste, genummerd blok gesteld voordat er research start. Geen enkele eerste versie van een cluster wordt gepresenteerd zonder de Fase 4 Pre-Send Gate te hebben doorlopen.
 
+---
+
+## META-ANALYSE VAN DE KOLKATA-RONDE (TOEGEVOEGD 2026-09-28, OP VERZOEK VAN MARK)
+
+Mark, direct: *"Graag ook meta kijken en leren van je eerste uitprobeersels met plannen. Wat deed je verkeerd. Welke fouten ga je nu weer maken. Wat kun je beter doen? Meta. Zoom uit. Bedenk de structuur."*
+
+### Laag 1 — Wat er concreet misging
+
+**De kernfout: ik overtrad Batch C van mijn eigen protocol, op de eerstvolgende cluster nadat ik het had opgeschreven.** Batch C (regel 60-64 hierboven) eist letterlijk: "nooit een ongeverifieerde CCI-inschatting", met een marge van max ±10-15 min. Toch bevatte de eerste volledige versie van `CCI_KOLKATA_QUARTERHOUR_PLAN...md` zes transfers die letterlijk zo gelabeld waren: *"~20-30 min, CCI-inschatting, nog niet apart geverifieerd."* Pas nadat Mark er impliciet op aandrong (de stress-test-vraag), is dat achteraf alsnog onderzocht — en toen bleek een deel realistisch 30-50 min i.p.v. 20-30 min (hotel↔Dakshineswar, Bagbazar↔Dakshineswar), en één traject (Cossipore↔Bagbazar) had helemaal geen bron, alleen een geografische gok.
+
+**Tweede, kleinere fout, binnen dezelfde sessie gevangen vóór verzending:** bij het herstructureren van zo 10/ma 11 jan (hoofdtempel en Yogoda Math als flexibele eindblokken) heb ik eerst alleen de samenvattingstabel bijgewerkt en pas in een volgende stap de volledige dagkaarten — een kort moment van inconsistentie tussen twee representaties van hetzelfde feit, exact hetzelfde patroon als FOUT 28 (markdown/artifact-desync) bij Varanasi, nu tussen tabel en kaart-body.
+
+**Derde, nieuwe foutcategorie (nog niet eerder benoemd):** ik behandelde een punt dat Mark zelf al had opgelost (de Sri Chakra Puja-afweging — "ik ga naar een hotel daar, dus ik kan altijd beslissen te gaan") als iets dat nog een formeel ledger-besluit nodig had. Mark's eigen woorden: *"Je maakt dit nu stress om niks. Jammer van de tokens en mijn braintokens."*
+
+### Laag 2 — Waarom dit steeds gebeurt (root cause)
+
+1. **Batch C krijgt in de praktijk minder gewicht dan Batch B.** Inhoudelijke diepte (AOAY/Top-X/geschiedenis) voelt als de kern van de spirituele planning; reistijden voelen als een administratieve bijzaak die "later nog even" geverifieerd kan worden. Voor Mark is het precies omgekeerd relevant: een optimistische reistijd-gok is wat op de grond tot stress, gemiste avondprogramma's of een gemiste vlucht leidt — geen bijzaak.
+2. **Mijn CCI-inschattingen zijn systematisch optimistisch, niet neutraal geschat.** Zowel de vliegveld-transfer (eerst 25-35 min, realistisch 30-90 min) als nu de Kolkata-transfers (eerst 20-30 min, realistisch 30-50 min) vielen in dezelfde richting — te kort, nooit te lang. Dat is geen toeval maar een herhaald kalibratie-patroon: bij onzekerheid kies ik onbewust een comfortabel middengetal in plaats van het pessimistische eind van de plausibele bandbreedte.
+3. **Ik mis een scherp filter voor "is dit nog een open beslissing?"** voordat ik iets formaliseer of aan Mark voorleg. Als Mark iets in dezelfde ademtocht zelf al oplost, moet dat stil in `CURRENT_TRUTH.md` landen als vastgesteld feit — niet worden teruggekaatst als vraag of ledger-item.
+4. **Seriële micro-edits blijven het edit-consistentie-risico uit de Varanasi-ronde herhalen**, ook al is dit keer niets stuk naar Mark gegaan — de onderliggende gewoonte (tabel eerst, body later, in aparte stappen) is dezelfde.
+
+### Laag 3 — De structurele fix, nu concreet in dit protocol
+
+Geen "wees grondiger" — dat is geen uitvoerbare regel, dat werd bij Varanasi al geconstateerd en toch weer overtreden bij Kolkata omdat een geschreven intentie zonder harde poort niet standhoudt. Daarom, vanaf nu, hard in Fase 1/2 zelf:
+
+- **Fase 2 mag niet beginnen zolang Batch C nog "CCI-inschatting" als eindstatus heeft voor een transfer die in de dagplanning komt.** Ontbreekt een geverifieerd cijfer, dan krijgt de HELE clusterversie een zichtbare bovenaan-status "REISTIJDEN NOG NIET GEVERIFIEERD — DRAFT", niet losse verstopte voetnoten per regel. Geen cluster gaat naar Mark als "eerste volledige versie" met dat label nog actief.
+- **Kalibratie-regel: een ongeverifieerde schatting wordt standaard aan het langzame/ruime eind van de plausibele bandbreedte geschreven, niet het comfortabele midden.** Bij twijfel: noem het "waarschijnlijk optimistisch, reken op het bovenste getal" in plaats van een enkel getal te presenteren alsof het zeker is.
+- **"Is dit al opgelost door Mark zelf?"-filter, letterlijk toe te passen vóór elk ledger-item of elke vraag aan Mark:** als zijn eigen bericht al een duidelijke keuze bevat, wordt die keuze stil vastgelegd, niet nogmaals als open punt gepresenteerd.
+- **Batch B en Batch C krijgen expliciet gelijk gewicht in dezelfde dispatch-golf** — niet "inhoud nu, logistiek als er tijd over is."
+
+### Voorspelling — welke fout ik hierna waarschijnlijk weer maak, tenzij ik dit actief tegenhoud
+
+Bij Tiruvannamalai (de volgende cluster) is het meest waarschijnlijke herhalingsrisico: opnieuw een eerste kwartierplanning schrijven met CCI-inschattingen voor hotel↔Ramanasramam, Ramanasramam↔heuvel-trailhead en de Girivalam-startlocatie, en die pas verifiëren nadat Mark ernaar vraagt. Dit keer wordt Batch C voor Tiruvannamalai vóór Fase 2 letterlijk afgevinkt tegen deze regel, niet achteraf.
+
 ## BRONNEN / GERELATEERDE BESTANDEN
 - `governance/INDIA_HUMAN_CENTERED_COMPLEX_TRIP_PLANNING_STANDARD.md` — de analytische standaard (WAT).
 - `governance/MARK_FACING_LOCATION_CARD_TEMPLATE.md` — het verplichte kaartsjabloon per locatie.
