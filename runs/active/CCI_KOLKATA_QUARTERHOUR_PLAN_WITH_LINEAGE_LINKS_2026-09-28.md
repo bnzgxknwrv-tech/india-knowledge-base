@@ -28,7 +28,7 @@ Geen hotel/ashram vastgelegd. Mark gaf volledige vrije keuze, eventueel meerdere
 |---|---|---|
 | Za 9 jan | Aankomst nachttrein ~13:05, inchecken, rust | LICHT |
 | Zo 10 jan | Dakshineswar-complex — eigen dag: kleinere onderdelen 's ochtends, hoofdtempel (Ramakrishna) als flexibel eind-van-dag-blok | ZWAAR qua inhoud, open einde |
-| Ma 11 jan | Shyampukur Bati → Cossipore Udyanbati → Balaram Mandir (Ramakrishna's laatste hoofdstuk) → Yogoda Satsanga Math, 3,5u flexibel eind-van-dag-blok | ZWAAR, twee open-einde-achtige blokken op één dag |
+| Ma 11 jan | Shyampukur Bati → Cossipore Udyanbati (2u, Mark's wens) → Balaram Mandir (1,5u, eerste inkort-optie) → Yogoda Satsanga Math, start ~15:25, flexibel eind-van-dag-blok | ZWAAR — lange dag als alles vol wordt uitgevoerd, Balaram Mandir is het drukventiel |
 | Di 12 jan | Serampore-dagtocht: Sri Yukteswar's hermitage (3u) + Rai Ghat + Anandaloka | ZWAAR qua klok (reistijd), rijk qua inhoud |
 | Wo 13 jan | Belur Math (volledige dag) | MIDDEN, één grote locatie |
 | Do 14 jan | Garpar-microcluster (ochtend) → J.C. Bose/Acharya Bhaban (14:00-16:00, enige geldige dag) → vroege afsluiting voor de vlucht | VOLWAARDIG maar bewust vroeg afgerond |
@@ -170,7 +170,7 @@ Transfer naar hotel: zodra je zelf vertrekt, realistisch 30-50 min terug (zelfde
 
 08:30–09:00 transfer naar Shyampukur (~20-30 min, CCI-inschatting, noordelijke zone dichtbij Dakshineswar-as, nog niet apart geverifieerd).
 
-### Shyampukur Bati [A, geen A* filler — echte lineage-plek zonder AOAY-citaat]
+### Shyampukur Bati [A*, Mark's eigen grade 28 sep — geen AOAY-citaat, wel sterke Ramakrishna-lineage-waardering]
 
 TIJD: 09:00–09:45
 
@@ -197,7 +197,7 @@ MAGNETISCHE PLEK? Deels — actieve Ramakrishna Math-tak, geen specifiek bevesti
 
 ### Cossipore (Kashipur) Udyanbati [A+]
 
-TIJD: 10:05–11:15
+TIJD: 10:10–12:10 (2 uur, zoals jij zelf aangaf 28 sep — "trekt me wel erg aan")
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 De tuinvilla waar Ramakrishna zijn laatste 249 dagen doorbracht en op 16 augustus 1886 stierf — de sterkste Ramakrishna-plek van de hele cluster na Dakshineswar zelf.
@@ -220,13 +220,13 @@ MAGNETISCHE PLEK? Ja — de sterfkamer is expliciet bewaard als shrine.
 
 BRONNEN: belurmath.org, rkmudyanbati.org.
 
-11:15–11:45 lunch/rust.
+12:10–12:40 lunch/rust.
 
-11:45–12:15 transfer naar Balaram Mandir, Bagbazar (**geen betrouwbare bron gevonden voor dit specifieke traject** — onderzoek 28 sep. Geografische inferentie, laag vertrouwen: Cossipore en Bagbazar zijn aangrenzende wijken, dus vermoedelijk 2-4 km / 10-20 min, ter plekke te bevestigen met chauffeur/gids. Ruimer ingepland dan die inferentie voorschrijft, als marge).
+12:40–13:10 transfer naar Balaram Mandir, Bagbazar (**geen betrouwbare bron gevonden voor dit specifieke traject** — onderzoek 28 sep. Geografische inferentie, laag vertrouwen: Cossipore en Bagbazar zijn aangrenzende wijken, dus vermoedelijk 2-4 km / 10-20 min, ter plekke te bevestigen met chauffeur/gids. Ruimer ingepland dan die inferentie voorschrijft, als marge).
 
 ### Balaram Mandir [A, geen AOAY-citaat maar zeer sterke Ramakrishna/Vivekananda-link]
 
-TIJD: 12:15–13:00
+TIJD: 13:10–14:40 (1,5 uur, zoals jij zelf aangaf 28 sep — wel iets minder aangetrokken dan Cossipore). **Mark's eigen voorwaarde: "als dat enorm veel tijd kost misschien niet."** Dit is dus bewust de eerste plek om in te korten als de dag tegen die tijd al lang loopt — niet Cossipore, niet het Yogoda-eindblok.
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Het voormalige privéhuis van Balaram Bose, een welgestelde lekendiscipel — Ramakrishna's "Calcutta-citadel", zijn meest gebruikte stadsbasis buiten Dakshineswar.
@@ -247,7 +247,7 @@ Het hoogste aantal gedocumenteerde persoonlijke bezoeken van Ramakrishna van all
 
 MAGNETISCHE PLEK? Ja — actieve Mission-tak met huisschrijn.
 
-13:00–~13:45 transfer naar Yogoda Satsanga Math, Dakshineswar (**realistisch 25-45 min, niet 20-30 min** — onderzoek 28 sep: ~8 km, vergelijkbare BT Road-congestie als de ochtendtransfer, plus ~5 min extra omdat Yogoda Math ~1 km verder ligt dan de Kali-tempel zelf). **Consequentie:** schuift in het al flexibele eindblok, geen probleem.
+14:40–~15:25 transfer naar Yogoda Satsanga Math, Dakshineswar (**realistisch 25-45 min, niet 20-30 min** — onderzoek 28 sep: ~8 km, vergelijkbare BT Road-congestie als de ochtendtransfer, plus ~5 min extra omdat Yogoda Math ~1 km verder ligt dan de Kali-tempel zelf). **Eerlijke consequentie van de verlengde Cossipore/Balaram Mandir-tijd (28 sep):** Yogoda Math start nu rond 15:25 i.p.v. 13:30 — bijna 2 uur later. Als je daar de volle 3,5 uur wilt (tot ~19:00), wordt het een lange dag. Dit is precies waarom Balaram Mandir hierboven als eerste inkort-optie staat.
 
 ### Yogoda Satsanga Math, Dakshineswar [A+]
 
