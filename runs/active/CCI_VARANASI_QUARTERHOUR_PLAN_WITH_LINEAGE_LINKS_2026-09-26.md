@@ -988,13 +988,47 @@ Mark's vraag ("is de Lonely Planet-laag wel goed uitgevoerd?") bleek terecht: `g
 
 ## OPEN ITEMS
 
+0. **⚠️ URGENT — CONTROLEER OF JE HOTEL EN DE BLUE LASSI SHOP NOG BESTAAN.** Bij het opzoeken van adressen (zie hieronder) bleek dat zowel **Sahi River View Guest House** als **Blue Lassi Shop** op Justdial als "Closed Down" gemarkeerd staan, terwijl Booking.com/Tripadvisor beide nog als actief tonen (109+ recente Booking.com-reviews voor het hotel; Blue Lassi is wereldberoemd en wordt elders nog actief besproken). Vermoedelijk een verouderde Justdial-vermelding, maar dit is je slaapbasis voor alle vijf nachten — bevestig de boeking rechtstreeks (bel/mail) vóórdat je verder plant, dit is niet iets om op te laten aankomen.
 1. **BOEKING TREIN 22324 — actie voor Mark, deadline 9 november 2026 08:00 IST** (gewone boekingstermijn) of nu al via Foreign Tourist Quota. Zie ZA 9 JAN hierboven.
 2. Alamgir Mosque/Dharahara — geen vast tijdslot, niet Mark-bevestigd.
 3. Bhrigu Karyalaya-afspraak: rechtstreeks contact met Acharya Hemant K. Bhadury nodig vóór vertrek.
 4. Lahiri Mahasaya-huis en Satyalok: hoeveel tijd wil je hier zijn? Nog jouw keuze, planningsbasis is nu 1 uur respectievelijk 60 minuten.
 5. Satyalok (~10:30-opening) en de exacte binnenindeling van de Anandamayi Ma Ashram: LIVE_RECHECK direct vóór vertrek.
 6. De Garpar-microcluster bij Kolkata: al vastgelegd als must-visit, komt inhoudelijk aan de orde als dit Varanasi-cluster is afgerond.
-7. **NIEUW 28-9-2026: Stichting Duniya-schooltje, wijk Nagwa** — bevestigd door Mark als bezoek via een persoonlijke bekende (2 uur gewenst). Nagwa ligt vrijwel direct achter/naast **Assi Ghat** (zelfde zuidelijke zone als het hotel, ~10 min lopen/riksja) — dus in principe vrijwel gratis in te passen, geen aparte reisdag. Geen publiek adres vindbaar (bewust, privacy van de kinderen) — actie voor Mark: exacte locatie/afspraak regelen via zijn bekende, of via info@duniya.org / mirjam@duniya.org. Nog niet ingepland: welke dag/moment (2 uur), aangezien dit wacht op de Fase 0,5 Grade-Completeness-Gate (13-item gradering) voordat de kwartierplanning definitief wordt herzien.
+7. **Stichting Duniya-schooltje, wijk Nagwa — nu INGEPLAND**, vrijdag 12:00-14:00 (zie VR 8 JAN). Geen publiek adres vindbaar (bewust, privacy van de kinderen) — actie voor Mark: exacte locatie/afspraak regelen via je bekende, of via info@duniya.org / mirjam@duniya.org, vóór vertrek.
+
+## ADRESSEN EN COÖRDINATEN (online research 28-9-2026)
+
+Op Mark's verzoek: een echt adres of GPS-coördinaat voor elke locatie in dit plan, niet alleen een ghatnaam. Waar geen straatadres bestaat (de meeste ghats/tempels in de oude stad), is dat de lokale realiteit — Google Maps, Justdial en het officiële Kashi-portaal (kashi.gov.in) hanteren zelf ook alleen ghat-/wijknaam als "adres". GPS-coördinaten zijn dan het preciezere alternatief.
+
+| # | Locatie | Adres / coördinaten |
+|---|---|---|
+| 1 | Sahi River View Guest House (hotel) | B1/158 A2, Assi Ghat Rd, Varanasi 221005. Tel. +91 542 236 6730. **⚠️ zie OPEN ITEM 0 — bevestig actief vóór vertrek.** |
+| 2 | Assi Ghat | Geen straatadres. GPS 25.28865°N, 83.00676°E. |
+| 3 | Tulsi Ghat | Geen straatadres. GPS 25.28983°N, 83.00651°E. |
+| 4 | Lolark Kund | Lolark Kund, Shivala, Varanasi 221001. |
+| 5 | Bhrigu Karyalaya/Bhadury Sadan | Near Bipin Bihari School, Ramapura (Luxa Road), Varanasi 221001. |
+| 6 | Kedareshwar Temple/Kedar Ghat | B-6/102, Kedar Ghat, Mansarovar Ghat, Varanasi 221001. |
+| 7 | Anandamayi Ashram, Bhadaini | Bhadaini, Varanasi 221001. Tel. 0542 4083111. |
+| 8 | Lahiri Mahasaya's huis | D 31/58, Madanpura Road, Bangali Tola, Varanasi 221001. |
+| 9 | Satyalok/Samadhi | D22/4, Hathi Phatak, naast Shiva Kashi Guest House, Chausatti Ghat, Bangali Tola, Varanasi 221001. |
+| 10 | Kashi Vishwanath Temple | Lahori Tola, Varanasi 221001. GPS 25.31078°N, 83.01061°E. |
+| 11 | Annapurna Temple | D 9/1, Vishwanath Galli, Gate No. 1, Varanasi 221001. |
+| 12 | Tailanga Swami Math | K.23/95, Panchganga Ghat, Ghasi Tola, Varanasi 221001. |
+| 13 | Panchganga Ghat | Geen straatadres; gebruik "Panchganga Ghat" direct in Google Maps. Ruwe schatting 25.313-25.314°N, 83.011°E. |
+| 14 | Ratneshwar Mahadev | Naast Manikarnika Ghat, Varanasi 221001. |
+| 15 | Manikarnika Ghat | Lahori Tola, Varanasi 221001. GPS 25.31087°N, 83.01409°E. |
+| 16 | Alamgir Mosque/Dharahara | Panchganga Ghat, Godowlia, Varanasi 221002. |
+| 17 | Durga Temple/Durga Kund | 27, Durgakund Rd, Durgakund, Bhelupur, Varanasi 221005. Tel. 09198898999. |
+| 18 | Sankat Mochan Hanuman Temple | Sankat Mochan Road, Nagwa Lanka, Varanasi 221005. Tel. +91-542-2313884. |
+| 19 | Lalita Ghat | Banaras Ghat Rd, Bangali Tola, Varanasi 221001. GPS 25.31001°N, 83.01328°E. |
+| 20 | Nepali/Kathwala Temple | Lalita Ghat, Varanasi 221001 (~100m van Manikarnika). GPS ca. 25.30972°N, 83.01278°E. |
+| 21 | Dashashwamedh Ghat | Dashashwamedh Ghat Rd, Godowlia, Varanasi 221001. GPS 25.30717°N, 83.01034°E. |
+| 22 | Varanasi Junction (BSB) | Railwayganj Colony, Cantonment, Varanasi 221002. |
+| 23 | The Ram Bhandar | C.K. 15/29, Katra Ratanlal, Thatheri Bazar, Varanasi 221001 (gebruik de naam zelf in Google Maps — huisnummering wisselt licht per bron). |
+| 24 | Blue Lassi Shop | CK 12/1, Kunj Gali, Kachaudi Gali, Govindpura, Varanasi 221001. Tel. 8429192305. **⚠️ zie OPEN ITEM 0.** |
+| 25 | Tulsi Ghat Akhada | Zelfde locatie als #3 Tulsi Ghat. |
+| — | Stichting Duniya-schooltje | Geen publiek adres (privacy kinderen) — via je bekende of info@duniya.org / mirjam@duniya.org. Wijk Nagwa, direct naast Assi Ghat. |
 
 ## SOURCES
 
