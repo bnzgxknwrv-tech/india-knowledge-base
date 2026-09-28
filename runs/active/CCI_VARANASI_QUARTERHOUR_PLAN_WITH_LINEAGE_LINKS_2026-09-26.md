@@ -23,7 +23,7 @@ Mark's directe klacht: kaarten waren niet meer dan een Indiase naam, een kloktij
 | Di 5 jan | 06:15 | ~15:45+ (open einde) | ZWAAR qua klok, lichter qua energie (Bhrigu zittend), open einde |
 | Wo 6 jan | 08:45 | ~16:30 | MIDDEN |
 | Do 7 jan | 06:15 | ~14:45+ (open einde) | ZWAAR — vroeg, wandelen, emotioneel intens, open einde |
-| Vr 8 jan | 08:30 | ~19:45 | MIDDEN — ochtend + avond, rust ertussen (start gecorrigeerd naar 08:30, was 07:00 zonder reden) |
+| Vr 8 jan | 08:30 (flexibel) | ~19:45 | LICHT/RESERVE — tempels nu optioneel (A\*), vaste inhoud is Duniya-schooltje (2u) + Dashashwamedh-avond; ochtend is bewuste overloop-ruimte voor di/wo/do |
 | Za 9 jan | ~00:10 (vertrek, gecorrigeerd van 23:00) | — | Nachttrein 22324, boekingsklaar |
 
 ---
@@ -682,15 +682,17 @@ CCI-ADVIES: geen vast tijdslot toekennen zolang niet bevestigd; alleen een blik 
 
 ---
 
-## VR 8 JAN — Ochtendlocaties + Dashashwamedh Ghat in de avond
+## VR 8 JAN — Reserve/overloop-dag: optionele tempels + Duniya-schooltje + Dashashwamedh in de avond
 
-**LOCKED BY MARK 2026-09-27 (driemaal aangepast):** deze dag was volledig leeg na de ochtend. Eerst kregen vier zwevende tempels hun plek hier. Toen bleek woensdag te laat te eindigen voor donderdags vroege start, verhuisde Dashashwamedh Ghat + Ganga Aarti ook naar hier. **Daarna gecorrigeerd naar het nieuwe 08:30-startprincipe** (`governance/MARK_TRAVEL_PREFERENCES_CURRENT.md`): geen van deze vier tempels heeft een sunrise-achtige reden om vroeg te beginnen, dus een start om 07:00 met daarna een dode middag was zelf de fout — niet de tempels. Nu 08:30 start, kortere rustperiode ertussen.
+**HERZIEN 28-9-2026 (vierde aanpassing, structurele koerswijziging):** Durga Temple, Sankat Mochan, Lalita Ghat en Nepali/Kathwala Temple zijn door Mark hergegradeerd van A naar **A\*** — precies omdat ze niets met zijn lineage te maken hebben. Mark's eigen woorden: "Alles wat er stond op vrijdag is A* geworden geen A... Leuk om bijna gratis mee te nemen. Anders niet. Liever de zware andere dagen deels laten overvloeien in de vrijdag zodat minder druk op die dagen komt." Vrijdag is daarom niet langer een dag met vier vaste tempel-tijdblokken, maar een **reserve/overloop-dag**: de vaste inhoud is nu het Duniya-schooltje (2 uur, nieuw bevestigd) en de beschermde Dashashwamedh-avond; de vier tempels zijn puur optioneel geworden, en de ochtend/vroege middag is bewust ruimte om overloop van dinsdag (Anandamayi Ashram, open einde), woensdag (Lahiri huis/Satyalok, jouw eigen tempo) of donderdag (Manikarnika, open einde) op te vangen zonder die dagen zelf te moeten inkorten.
 
-**VERTREK HOTEL: 08:30**
+**VERTREK HOTEL: 08:30** (planningsbasis — schuift mee als een eerdere dag is uitgelopen)
+
+**08:30–11:30 — OPTIONEEL BLOK, ALLEEN ALS HET NOG TREKT EN NIETS IS UITGELOPEN:** Durga Kund → Sankat Mochan → Lalita Ghat → Nepali Temple, in die volgorde, zoals hieronder uitgewerkt. Dit is nu bewust vrijblijvend: geen enkele lineage-reden om dit te doen, puur sfeer/architectuur/curiositeit. Sla dit blok zonder spijt over als dinsdag/woensdag/donderdag meer tijd nodig hadden, of als je liever eerder rust.
 
 08:30–08:45 transfer naar Durga Kund-zone, ~15 min, dichtbij.
 
-### Durga Temple/Durga Kund — "de Apentempel", rode Nagara-architectuur met een heilige waterbak (Durga Kund, Varanasi) [A]
+### Durga Temple/Durga Kund — "de Apentempel", rode Nagara-architectuur met een heilige waterbak (Durga Kund, Varanasi) [A\* — GEHERGRADEERD 28-9-2026, was A]
 
 TIJD: 08:45–09:15
 
@@ -722,7 +724,7 @@ De felrode Nagara-architectuur en de vele apen op het terrein.
 TOTALE TIJD VOOR DEZE LOCATIE: transfer 15 min + bezoek 30 min ≈ 45 min.
 TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: ~30 min, want Sankat Mochan ligt direct ernaast.
 
-### Sankat Mochan Hanuman Temple — grote Hanuman-tempel, gesticht in de traditie van Tulsidas (Durga Kund-omgeving, Varanasi) [A]
+### Sankat Mochan Hanuman Temple — grote Hanuman-tempel, gesticht in de traditie van Tulsidas (Durga Kund-omgeving, Varanasi) [A\* — GEHERGRADEERD 28-9-2026, was A]
 
 TIJD: 09:15–09:45
 
@@ -756,7 +758,7 @@ TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: 30 min.
 
 09:45–10:15 transfer noordwaarts naar Lalita Ghat-zone, ~30 min door de stad.
 
-### Lalita Ghat — ghat met kenmerkende Nepalese rivieroever-architectuur (Lalita Ghat, Varanasi) [A]
+### Lalita Ghat — ghat met kenmerkende Nepalese rivieroever-architectuur (Lalita Ghat, Varanasi) [A\* — GEHERGRADEERD 28-9-2026, was A]
 
 TIJD: 10:15–10:45
 
@@ -788,7 +790,7 @@ Nepalese pagode-architectuur, ongewoon voor de Varanasi-rivieroever.
 TOTALE TIJD VOOR DEZE LOCATIE: transfer 30 min + bezoek 30 min ≈ 1 uur.
 TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: ~30 min, want de Nepali/Kathwala Temple ligt er direct naast.
 
-### Nepali/Kathwala Temple — Kathmandu-stijl houten pagodetempel, met kleine erotische houtsnijwerken vergelijkbaar met Khajuraho (direct naast Lalita Ghat, Varanasi) [A]
+### Nepali/Kathwala Temple — Kathmandu-stijl houten pagodetempel, met kleine erotische houtsnijwerken vergelijkbaar met Khajuraho (direct naast Lalita Ghat, Varanasi) [A\* — GEHERGRADEERD 28-9-2026, was A]
 
 TIJD: 10:45–11:30
 
@@ -820,9 +822,34 @@ Houten pagode-architectuur met kleine erotische snijwerken, ongewoon voor Varana
 TOTALE TIJD VOOR DEZE LOCATIE: 45 min, direct naast de vorige stop.
 TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: 45 min.
 
-11:30–12:15 transfer terug naar hotel, ~45 min.
+11:30–12:00 transfer terug naar hotel/Assi-zone, ~30 min (was 45 min naar Assi Ghat exact; Nagwa/Duniya-schooltje ligt op dezelfde route, dus geen extra omweg).
 
-**12:15–15:30 (~3u15) — Assi Ghat zelf + contemplatie-reserve, geen losse vrije tijd.** Assi Ghat is zelf een eigen A+-gegradeerd item in de ledger ("fysieke ghat-anker, los van de ervaringen die er plaatsvinden"), maar had nog geen eigen moment gekregen — het werd alleen impliciet meegenomen als hotel-locatie en wandelroute. Dit blok is die eigen tijd: gewoon aanwezig zijn bij Assi Ghat, zonder programma. Het is ook bewust de plek waar extra contemplatietijd naartoe kan als Lahiri Mahasaya's huis, Satyalok of de Anandamayi Ma Ashram op hun eigen dagen meer tijd nodig hadden dan gepland — die dagen hoeven daarvoor niet ingekort te worden, dit blok vangt het op.
+### Stichting Duniya-schooltje, wijk Nagwa — bevestigd via persoonlijke bekende [nog niet gegradeerd, wel bevestigd bezoek]
+
+TIJD: 12:00–14:00 (2 uur, zoals gevraagd)
+
+WAT IS DIT IN GEWOON NEDERLANDS?
+Een kleinschalig Nederlands vrijwilligersproject (Stichting Duniya, sinds 1996) in de sloppenwijk Nagwa — dagelijks basisonderwijs aan ~50 kinderen vanaf 4 jaar, schoolmaaltijden, en twee beroepsopleidingen (naaien, schoonheidsspecialiste) op dezelfde locatie.
+
+WAAROM WIL JIJ, MARK, HIERHEEN?
+Bevestigd door jou: een persoonlijke connectie via een bekende. Geen lineage-link, een eigen, persoonlijke reden.
+
+WIE WAS HIER / WAT GEBEURDE HIER?
+Voorzitter Mirjam Letsch (25+ jaar betrokken) leidt het Nederlandse bestuur; een lokaal team van 7 (Sukhmani, Asha, Ranjana, Anita, Sheela, Angad, Raj) runt het project ter plekke.
+
+WAT MOET JE HIER PRECIES ZOEKEN?
+Geen publiek adres beschikbaar (privacy van de kinderen) — regel de exacte locatie/afspraak via je eigen bekende, of via info@duniya.org / mirjam@duniya.org.
+
+HOE WIL JE HIER ZIJN?
+Op basis van een eerder bezoekverslag: klasbezoek, kennismaking met de leerlingen, samen eten, kijkje bij de beroepsopleidingen.
+
+UNIEK HERKENNINGSPUNT
+Nagwa ligt vrijwel direct achter/naast Assi Ghat — dezelfde zuidelijke zone als je hotel, dus praktisch geen extra reistijd.
+
+TOTALE TIJD VOOR DEZE LOCATIE: 2 uur, nauwelijks extra transfer t.o.v. toch al terug naar Assi-zone gaan.
+TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: niet van toepassing — dit is nu bevestigd, geen schrapkandidaat.
+
+**14:00–15:30 (~1u30) — Assi Ghat zelf + contemplatie-/overloop-reserve.** Assi Ghat is zelf een eigen A+-gegradeerd item in de ledger ("fysieke ghat-anker, los van de ervaringen die er plaatsvinden"). Dit blok is bewust de plek waar extra tijd naartoe kan als dinsdag (Anandamayi Ashram), woensdag (Lahiri Mahasaya's huis/Satyalok) of donderdag (Manikarnika) meer tijd nodig hadden dan gepland — die dagen hoeven daarvoor niet ingekort te worden, dit blok vangt het op. Is er niets opgevangen nodig: gewoon aanwezig zijn, zonder programma.
 
 VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK OP ASSI GHAT ZELF (online research 2026-09-27): Assi Ghat markeert de zuidgrens van heilig Varanasi, op de plek waar de kleine Assi-rivier oorspronkelijk in de Ganges uitmondde (samenvloeiing in 1981-82 ~0,5 km naar het zuiden verschoven). Al genoemd in Gahadavala-inscripties (11e-12e eeuw) en in de Kurma, Matsya en Padma Purana — een van de oudste tekstueel-geattesteerde ghats van de stad. Tot in de 19e eeuw grotendeels natuurlijk/onverhard; in 1902 kocht koningin Radha Dulari Kunwar (Sursand-landgoed, Bihar) het zuidelijke deel en bouwde er een klein paleis (nu Hotel Ganga View); pas in 1988 werd de huidige stenen ghat aangelegd. Er is een Sangameshvara-schrijn met marmeren plaquette, onderdeel van de Panchakroshi-pelgrimsroute.
 
