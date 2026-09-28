@@ -26,9 +26,9 @@ Geen hotel/ashram vastgelegd. Mark gaf volledige vrije keuze, eventueel meerdere
 
 | Dag | Inhoud | Karakter |
 |---|---|---|
-| Za 9 jan | Aankomst nachttrein ~13:05, inchecken, rust | LICHT |
+| Za 9 jan | Aankomst nachttrein ~13:05, inchecken → Yogoda Satsanga Math, ruim 4u (verplaatst hierheen, eerste inhoudelijke stop + info vragen over de rest van de week) | MINDER LICHT dan voorheen — bewuste keuze van Mark |
 | Zo 10 jan | Dakshineswar-complex — eigen dag: kleinere onderdelen 's ochtends, hoofdtempel (Ramakrishna) als flexibel eind-van-dag-blok | ZWAAR qua inhoud, open einde |
-| Ma 11 jan | Shyampukur Bati → Cossipore Udyanbati (2u, Mark's wens) → Balaram Mandir (1,5u, eerste inkort-optie) → Yogoda Satsanga Math, start ~15:25, flexibel eind-van-dag-blok | ZWAAR — lange dag als alles vol wordt uitgevoerd, Balaram Mandir is het drukventiel |
+| Ma 11 jan | Shyampukur Bati → Cossipore Udyanbati (2u, Mark's wens) → Balaram Mandir (1,5u, eerste inkort-optie) | ZWAAR maar weer één blok — Yogoda Math is eruit, naar zaterdag |
 | Di 12 jan | Serampore-dagtocht: Sri Yukteswar's hermitage (3u) + Rai Ghat + Anandaloka | ZWAAR qua klok (reistijd), rijk qua inhoud |
 | Wo 13 jan | Belur Math (volledige dag) | MIDDEN, één grote locatie |
 | Do 14 jan | Garpar-microcluster (ochtend) → J.C. Bose/Acharya Bhaban (14:00-16:00, enige geldige dag) → vroege afsluiting voor de vlucht | VOLWAARDIG maar bewust vroeg afgerond |
@@ -43,8 +43,39 @@ Geen hotel/ashram vastgelegd. Mark gaf volledige vrije keuze, eventueel meerdere
 **AANKOMST: trein 22324 Shabd Bhedi Express, Kolkata Chitpur (KOAA) ~13:05.**
 
 - 13:05–13:45 station uit, bagage, transfer naar hotel (Shyambazar/Fariapukur-zone) — **reistijd Chitpur→Dakshineswar-zone geverifieerd 25-40 min taxi, of metro Belgachia→Dakshineswar-lijn ~10 min** (metro-optie mogelijk sneller, maar met bagage minder praktisch); voor de hotelzone zelf reken een vergelijkbare 25-35 min.
-- 13:45–16:00 inchecken, lunch, rust — geen bezichtigingsdruk na de nachttrein.
-- Rest van de dag vrij: een korte avondwandeling in de buurt van het hotel, niets gepland. Bewust licht gehouden vóór de rijke dagen die volgen.
+- 13:45–14:45 inchecken, lunch, kort opfrissen na de nachttrein (ingekort t.o.v. eerdere versie om ruimte te maken voor YSS hieronder).
+
+**Herstructurering op verzoek van Mark (28 sep): YSS Dakshineswar Math (verplaatst van MA 11 JAN) wordt nu het eerste inhoudelijke ding dat je doet in Kolkata**, om er lang te mediteren en de aanwezige staff te vragen naar praktische informatie voor de komende dagen (o.a. hoe de Serampore-dagtocht via hen te regelen — onderzoek 28 sep vond dat dit in de praktijk via Dakshineswar-staff loopt, niet via een apart Serampore-loket).
+
+- 14:45–~15:25 transfer naar Yogoda Satsanga Math, Dakshineswar (**realistisch 30-50 min** — zelfde BT Road-route/onderzoek als de zondagtransfer hieronder).
+
+### Yogoda Satsanga Math, Dakshineswar [A+]
+
+TIJD: ~15:25–19:30 (ruim 4 uur, zoals jij zelf aangaf — "mss wel vier uur of langer". Terrein open tot 21:00, dus ruime marge; blijf langer als je wilt.)
+
+WAT IS DIT IN GEWOON NEDERLANDS?
+Yogananda's eigen, door hemzelf gestichte ashram — **fysiek een apart terrein, 1 km van de Kali-tempel, geen onderdeel daarvan.**
+
+WAAROM WIL JIJ, MARK, HIERHEEN, EN NU ALS EERSTE?
+De enige plek in dit hele cluster die 100% "van Yogananda zelf" is. En praktisch: dit is de plek waar je (per onderzoek) het beste terechtkunt voor begeleiding/informatie over de rest van je Kolkata-verblijf, dus logisch om als eerste te gaan, niet als laatste.
+
+WIE WAS HIER / WAT GEBEURDE HIER?
+Yogananda schrijft zelf, AOAY Hoofdstuk 46: *"A stately Yogoda Math in Dakshineswar, fronting the Ganges, was dedicated in 1939."* Gesticht tijdens zijn 1935-36-terugkeerbezoek aan India; nu hoofdkwartier in India van Yogoda Satsanga Society.
+
+WAT MOET JE HIER PRECIES ZOEKEN EN DOEN?
+De shrine-ruimte (foto's/relieken van de Kriya-lijn: Babaji, Lahiri Mahasaya, Sri Yukteswar, Yogananda — exacte inrichting niet apart bevestigd, ter plekke zien). Vraag de aanwezige swami/staff naar: Serampore-bezoek regelen, het gastenverblijf (zie open items — mogelijk toekomstige basis), en eventuele andere Kolkata-tips.
+
+HOE WIL JE HIER ZIJN?
+Ruim de tijd nemen — dit is bewust je eerste diepe moment in Kolkata, geen doorloopstop.
+
+UNIEK HERKENNINGSPUNT
+Het enige "eigen" instituut van Yogananda in deze hele cluster — en je eerste stop.
+
+MAGNETISCHE PLEK? Waarschijnlijk ja (YSS-ashrams hebben doorgaans een lineage-shrine), maar exacte interieur niet apart bevestigd — ter plekke verifiëren.
+
+19:30–~20:10 transfer terug naar hotel (realistisch 30-50 min), diner/rust.
+
+**Eerlijke consequentie:** dit maakt de aankomstdag minder puur rustdag dan de vorige versie ("LICHT, geen bezichtigingsdruk") — je gaat dezelfde middag nog ruim 4 uur mediteren/praten na de nachttrein. Zeg het als je dit liever een dag later doet.
 
 ---
 
@@ -52,7 +83,7 @@ Geen hotel/ashram vastgelegd. Mark gaf volledige vrije keuze, eventueel meerdere
 
 **VERTREK HOTEL: 08:30.**
 
-**Belangrijke disambiguatie, vooraf:** dit zijn **twee fysiek gescheiden plekken, 1 km uit elkaar**, en een derde (de Ramakrishna Mission's eigen Dakshineswar-tak) bestaat ook nog los daarvan. Verwar ze niet: (1) de Kali-tempel zelf, eigendom van de Rani Rashmoni-stichting — hier gebeurden alle Ramakrishna-visioenen; (2) Yogoda Satsanga Math, Yogananda's eigen, in 1939 gestichte instelling, 1 km verderop — **verplaatst naar het eind van MA 11 JAN**, zie dat dagdeel; (3) een aparte Ramakrishna Mission-tak, ook in Dakshineswar, verder los van dit plan.
+**Belangrijke disambiguatie, vooraf:** dit zijn **twee fysiek gescheiden plekken, 1 km uit elkaar**, en een derde (de Ramakrishna Mission's eigen Dakshineswar-tak) bestaat ook nog los daarvan. Verwar ze niet: (1) de Kali-tempel zelf, eigendom van de Rani Rashmoni-stichting — hier gebeurden alle Ramakrishna-visioenen; (2) Yogoda Satsanga Math, Yogananda's eigen, in 1939 gestichte instelling, 1 km verderop — **verplaatst naar ZA 9 JAN, direct na aankomst**, zie dat dagdeel; (3) een aparte Ramakrishna Mission-tak, ook in Dakshineswar, verder los van dit plan.
 
 **Herstructurering op verzoek van Mark (28 sep):** de kleinere onderdelen van het Kali-tempelcomplex staan nu 's ochtends, en de hoofdtempel zelf (waar de Ramakrishna/Yogananda-visioenen plaatsvonden) is verplaatst naar het eind van de dag als open, flexibel blok — geen vast eindtijdstip, geen vervolgprogramma erna.
 
@@ -162,11 +193,11 @@ Transfer naar hotel: zodra je zelf vertrekt, realistisch 30-50 min terug (zelfde
 
 ---
 
-## MA 11 JAN — Ramakrishna's laatste hoofdstuk + Yogoda Satsanga Math (flexibel eind-blok)
+## MA 11 JAN — Ramakrishna's laatste hoofdstuk: Shyampukur → Cossipore → Balaram Mandir
 
 **VERTREK HOTEL: 08:30.**
 
-**Chronologische logica van deze dag:** Ramakrishna werd medio 1885 ziek (keelkanker), verhuisde voor behandeling naar Shyampukur (70 dagen), daarna naar de tuinvilla in Cossipore voor zijn laatste 249 dagen tot zijn dood op 16 augustus 1886. Balaram Mandir was zijn "Calcutta-citadel" tijdens zijn gezonde jaren én de plek waar Vivekananda in 1897 de Ramakrishna Mission formeel oprichtte — chronologisch een uitstapje terug, maar geografisch in dezelfde noordelijke zone. **Toegevoegd op verzoek van Mark (28 sep):** Yogoda Satsanga Math (verplaatst van ZO 10 JAN) sluit deze dag af als tweede flexibel eind-blok — Balaram Mandir/Bagbazar ligt geografisch dicht genoeg bij Dakshineswar om dit in dezelfde dag te combineren.
+**Chronologische logica van deze dag:** Ramakrishna werd medio 1885 ziek (keelkanker), verhuisde voor behandeling naar Shyampukur (70 dagen), daarna naar de tuinvilla in Cossipore voor zijn laatste 249 dagen tot zijn dood op 16 augustus 1886. Balaram Mandir was zijn "Calcutta-citadel" tijdens zijn gezonde jaren én de plek waar Vivekananda in 1897 de Ramakrishna Mission formeel oprichtte — chronologisch een uitstapje terug, maar geografisch in dezelfde noordelijke zone. **Update 28 sep:** Yogoda Satsanga Math stond hier kort gepland als tweede eind-blok, maar is nu verplaatst naar ZA 9 JAN (direct na aankomst) op Marks verzoek — deze dag eindigt weer gewoon na Balaram Mandir.
 
 08:30–09:00 transfer naar Shyampukur (~20-30 min, CCI-inschatting, noordelijke zone dichtbij Dakshineswar-as, nog niet apart geverifieerd).
 
@@ -247,33 +278,7 @@ Het hoogste aantal gedocumenteerde persoonlijke bezoeken van Ramakrishna van all
 
 MAGNETISCHE PLEK? Ja — actieve Mission-tak met huisschrijn.
 
-14:40–~15:25 transfer naar Yogoda Satsanga Math, Dakshineswar (**realistisch 25-45 min, niet 20-30 min** — onderzoek 28 sep: ~8 km, vergelijkbare BT Road-congestie als de ochtendtransfer, plus ~5 min extra omdat Yogoda Math ~1 km verder ligt dan de Kali-tempel zelf). **Eerlijke consequentie van de verlengde Cossipore/Balaram Mandir-tijd (28 sep):** Yogoda Math start nu rond 15:25 i.p.v. 13:30 — bijna 2 uur later. Als je daar de volle 3,5 uur wilt (tot ~19:00), wordt het een lange dag. Dit is precies waarom Balaram Mandir hierboven als eerste inkort-optie staat.
-
-### Yogoda Satsanga Math, Dakshineswar [A+]
-
-TIJD: 13:30–17:00 (3,5 uur gereserveerd, flexibel eind-van-dag-blok — blijf zolang je wilt, geen vervolgprogramma vandaag)
-
-WAT IS DIT IN GEWOON NEDERLANDS?
-Yogananda's eigen, door hemzelf gestichte ashram — **fysiek een apart terrein, 1 km van de Kali-tempel, geen onderdeel daarvan.**
-
-WAAROM WIL JIJ, MARK, HIERHEEN?
-De enige plek in dit hele cluster die 100% "van Yogananda zelf" is — gesticht en ingewijd door zijn eigen hand en wil, in tegenstelling tot de andere plekken waar hij pelgrim/bezoeker was.
-
-WIE WAS HIER / WAT GEBEURDE HIER?
-Yogananda schrijft zelf, AOAY Hoofdstuk 46: *"A stately Yogoda Math in Dakshineswar, fronting the Ganges, was dedicated in 1939."* Gesticht tijdens zijn 1935-36-terugkeerbezoek aan India; nu hoofdkwartier in India van Yogoda Satsanga Society.
-
-WAT MOET JE HIER PRECIES ZOEKEN?
-De shrine-ruimte — vraag specifiek of er foto's/relieken van de Kriya-lijn (Babaji, Lahiri Mahasaya, Sri Yukteswar, Yogananda) hangen, zoals gebruikelijk bij YSS/SRF-ashrams (exacte inrichting van deze specifieke locatie niet apart bevestigd in onderzoek).
-
-HOE WIL JE HIER ZIJN?
-Rustige aanwezigheid, eventueel meditatie als er een sessie loopt — als tweede open eindblok van de dag, bewust zonder vervolgafspraak.
-
-UNIEK HERKENNINGSPUNT
-Het enige "eigen" instituut van Yogananda in deze hele cluster.
-
-MAGNETISCHE PLEK? Waarschijnlijk ja (YSS-ashrams hebben doorgaans een lineage-shrine), maar exacte interieur niet apart bevestigd — ter plekke verifiëren.
-
-Transfer naar hotel: zodra je zelf vertrekt, realistisch 25-45 min (geen probleem, ook dit is het open einde van de dag).
+14:40–~15:10 transfer terug naar hotel (~25-45 min, zelfde route als de ochtendtransfer). **Yogoda Satsanga Math is verplaatst naar ZA 9 JAN** (direct na aankomst, zie dat dagdeel) — deze dag eindigt nu gewoon na Balaram Mandir, geen tweede open eindblok meer.
 
 ---
 
