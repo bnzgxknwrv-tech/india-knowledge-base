@@ -20,7 +20,7 @@ Mark's directe klacht: kaarten waren niet meer dan een Indiase naam, een kloktij
 | Dag | Vertrek hotel | Terug bij hotel | Karakter |
 |---|---|---|---|
 | Ma 4 jan | — | 14:00 (aankomst) | LICHT |
-| Di 5 jan | 06:15 | ~14:45+ (open einde) | ZWAAR qua klok, lichter qua energie (Bhrigu zittend), open einde — nu lichter: Kedar Ghat verhuisd naar vrijdag |
+| Di 5 jan | 06:15 | ~15:15+ (open einde) | ZWAAR qua klok, lichter qua energie (Bhrigu zittend), open einde — nu lichter: Kedar Ghat verhuisd naar vrijdag |
 | Wo 6 jan | 08:45 | ~13:30 | LICHT — Vishwanath/Annapurna verhuisd naar vrijdag, dag eindigt na lunch |
 | Do 7 jan | 06:15 | ~14:45+ (open einde) | ZWAAR — vroeg, wandelen, emotioneel intens, open einde |
 | Vr 8 jan | 08:30 | ~20:00 | VOLWAARDIG — Duniya-schooltje + Kedar Ghat (was di) + Vishwanath/Annapurna (was wo) + Dashashwamedh-avond, één doorlopende boog |
@@ -39,7 +39,7 @@ Mark's directe klacht: kaarten waren niet meer dan een Indiase naam, een kloktij
 
 ---
 
-## DI 5 JAN — Samengevoegde dag: Bhrigu Karyalaya → Kedar Ghat → Anandamayi Ma Ashram
+## DI 5 JAN — Samengevoegde dag: Bhrigu Karyalaya → Anandamayi Ma Ashram (Kedar Ghat verhuisd naar vrijdag)
 
 **LOCKED BY MARK 2026-09-27:** Bhrigu Karyalaya staat in de ochtend; Anandamayi Ma Ashram is de laatste stop van de dag, beschermd en open-einde (minimaal 3 uur) omdat dit een plek voor worship is, geen foto-stop. Eerlijk: dit maakt dinsdag zelf ook open-einde, net als donderdag.
 
@@ -192,11 +192,11 @@ TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: niet van toepassing — dit is Mark's e
 ### Transfer
 **VERPLAATST 28-9-2026:** Kedareshwar Temple/Kedar Ghat is verhuisd naar vrijdagmiddag (zie VR 8 JAN) om dinsdag lichter te maken, op Mark's uitdrukkelijke verzoek om de zware dagen te verlichten door er inhoud van weg te halen — niet door tempels zonder lineage-link als vaste vulling te houden. Volledige kaart en onderzoek staan nu bij vrijdag.
 
-11:15–11:45 transfer rechtstreeks naar Bhadaini, ~30 min (geconsolideerd nu de Kedar Ghat-tussenstop is verplaatst).
+11:30–12:00 transfer rechtstreeks naar Bhadaini, ~30 min (geconsolideerd nu de Kedar Ghat-tussenstop is verplaatst).
 
 ### Shree Shree Ma Anandamayi Ashram, Bhadaini — Anandamayi Ma's eigen ashram/leefplek in Varanasi (Bhadaini, Varanasi) [A+, beschermd, open einde]
 
-TIJD: vanaf 11:45 (vroeger dan voorheen, nu Kedar Ghat is verhuisd), minimaal 3 uur, geen harde grens
+TIJD: vanaf 12:00 (vroeger dan voorheen, nu Kedar Ghat is verhuisd), minimaal 3 uur, geen harde grens
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Anandamayi Ma's eigen ashram in Varanasi — een levende plek van worship, niet een museum of foto-stop.
@@ -859,7 +859,7 @@ Mark's vraag ("is de Lonely Planet-laag wel goed uitgevoerd?") bleek terecht: `g
 4. Lahiri Mahasaya-huis en Satyalok: hoeveel tijd wil je hier zijn? Nog jouw keuze, planningsbasis is nu 1 uur respectievelijk 60 minuten.
 5. Satyalok (~10:30-opening) en de exacte binnenindeling van de Anandamayi Ma Ashram: LIVE_RECHECK direct vóór vertrek.
 6. De Garpar-microcluster bij Kolkata: al vastgelegd als must-visit, komt inhoudelijk aan de orde als dit Varanasi-cluster is afgerond.
-7. **Stichting Duniya-schooltje, wijk Nagwa — nu INGEPLAND**, vrijdag 12:00-14:00 (zie VR 8 JAN). Geen publiek adres vindbaar (bewust, privacy van de kinderen) — actie voor Mark: exacte locatie/afspraak regelen via je bekende, of via info@duniya.org / mirjam@duniya.org, vóór vertrek.
+7. **Stichting Duniya-schooltje, wijk Nagwa — nu INGEPLAND**, vrijdag 08:45-10:45 (zie VR 8 JAN). Geen publiek adres vindbaar (bewust, privacy van de kinderen) — actie voor Mark: exacte locatie/afspraak regelen via je bekende, of via info@duniya.org / mirjam@duniya.org, vóór vertrek.
 
 ## ADRESSEN EN COÖRDINATEN (online research 28-9-2026)
 
