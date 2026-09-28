@@ -942,6 +942,23 @@ Op Mark's directe vraag ("wat mis je, kijk breder, Lonely Planet-laag") is de vo
 
 **Item 8 (Malaiyo) is A, maar seizoensafhankelijk (alleen nov-feb, vóór 11:00)** — wordt ingepland als kans-item op de bestaande ochtendroutes (Thatheri Bazaar-wandeling of Vishwanath Gali), niet als los tijdblok.
 
+## AANVULLENDE RONDE 28-9-2026 — ECHTE NATUUR/WATERVAL/NIET-SPIRITUELE-CURIOSA-LAAG (FOUT 30-REPARATIE)
+
+Mark's vraag ("is de Lonely Planet-laag wel goed uitgevoerd?") bleek terecht: `governance/LONELY_PLANET_LAYER_RULE_2026-08-22.md` eiste al sinds augustus 2026 expliciet een natuur/waterval/wildlife-categorie, die in de eerste 13-item-ronde volledig ontbrak. Nieuw onderzoek (28-9-2026) leverde het volgende op — ook hier: niet zelf gegradeerd, aan Mark:
+
+14. **Rajdari & Devdari-watervallen** (Chandraprabha Wildlife Sanctuary, Chandauli-district) — tweelingwatervallen (Rajdari ~65m hoog), in een wildlife sanctuary met Aziatische leeuwen/herten/luipaarden. Afstand: ~60-70 km / 1,5-2 uur rijden. Populaire lokale picknickplek, geen enkele religieuze lading.
+15. **Lakhaniya Dari-waterval** (Mirzapur-district) — verscholen waterval, vereist een boswandeling van ~1-1,5 uur vanaf de parking; heeft een eigen Wikipedia-pagina, "hidden gem" bij backpackers. Afstand: ~48-54 km / 1,5-2,5 uur rijden. Beste tijd: net na moesson (juli-oktober).
+16. **Chunadari-waterval** (Jangal Mahal, Chunar, Mirzapur) — ~50m waterval op de Karamnasa-rivier. Afstand: ~40 km. Minder gedocumenteerd (vooral YouTube/Flickr, geen Wikipedia) — echt maar meer een lokaal geheim dan een vaststaande trekpleister.
+17. **Aurwatand-waterval** (Chandauli-district) — hogere waterval (~60m), omgeven door prehistorische rotsschilderingen; wordt door de UP-overheid ontwikkeld tot eco-toerisme. Afstand: ~70-90 km, ~25 km van Rajdari-Devdari — te combineren in één dagtrip met item 14.
+18. **Akhara-bezoek (Kushti-modderworstelen)** — traditionele worstelschool, gratis toe te kijken tijdens de ochtendtraining. In de stad zelf, geen reistijd. Fysiek, kleurrijk, nul religieuze lading.
+19. **Bhang Lassi bij Blue Lassi Shop** — 90 jaar oud winkeltje bij Manikarnika Ghat, beroemd/berucht om cannabis-lassi, muren vol foto's van backpackers wereldwijd. In de stad, geen reistijd. Puur reizigerscultuur-curiositeit.
+20. **Ganges-dolfijnen spotten** (boottocht) — vroege-ochtend boottocht specifiek gericht op de zeldzame Ganges-rivierdolfijn ("Susu"). Zelfde rivier als de bestaande dageraad-boottocht, maar wildlife-invalshoek in plaats van ritueel.
+21. **Luchtballonvaart boven Varanasi** — ~1 uur, vogelperspectief over de ghats. Start net buiten de stad. ₹12.000-20.000 p.p. (≈ €125-210). Pure adventure-activiteit.
+
+**Bonus, geen apart gradeerbaar item:** Nandeshwar Ghat is filmlocatie van 50+ Bollywood-films — een leuk weetje om te noemen tijdens een toch al geplande ghat-wandeling, geen eigen bezoek nodig. Ratneshwar Mahadev (de scheve tempel, al A+ in het donderdagplan) kan ook puur als natuurkundige curiositeit gepresenteerd worden i.p.v. spiritueel bezoek, als je dat prettiger vindt.
+
+**Eerlijkheid over schaal:** dit zijn geen Niagara-achtige spektakels — bescheiden, seizoensgebonden (vooral juni-oktober, moesson) watervallen die vooral bij regionale/lokale toeristen populair zijn, niet bij internationale reisgidsen als "must-see". Wel degelijk echt, met verifieerbare afstanden — precies het soort "niet-spiritueel natuurding" dat je vroeg.
+
 ## OPEN ITEMS
 
 1. **BOEKING TREIN 22324 — actie voor Mark, deadline 9 november 2026 08:00 IST** (gewone boekingstermijn) of nu al via Foreign Tourist Quota. Zie ZA 9 JAN hierboven.
