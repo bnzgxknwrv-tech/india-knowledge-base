@@ -92,7 +92,7 @@ WAT IS DIT IN GEWOON NEDERLANDS?
 Een groep van vijf heilige bomen (oorspronkelijk banyan, peepal, neem, amalaki/ashoka, bel) direct ten noorden van het tempelterrein, waar Ramakrishna het grootste deel van zijn intensieve sadhana deed.
 
 WAAROM WIL JIJ, MARK, HIERHEEN?
-Ook hier mediteerde Yogananda zelf, "urenlang onder de banyanboom" — en het is de plek van Ramakrishna's hoogste yogische verwezenlijking.
+**Correctie 28 sep:** eerdere tekst hier claimde dat Yogananda zelf "urenlang onder de banyanboom" mediteerde — dat is bij nader onderzoek NIET bevestigd. Yogananda's eigen tamarinde-bosje-visioen (AOAY hoofdstuk 9) wordt in geen enkele bron die ik kon vinden expliciet gelijkgesteld aan Panchavati; die link is onbevestigde devotee-associatie, geen vaststaand feit. Wat wél blijft staan: dit is de plek van Ramakrishna's hoogste yogische verwezenlijking (zie hieronder) — de reden om hierheen te gaan is dus Ramakrishna-lineage, niet een bevestigde eigen Yogananda-ervaring.
 
 WIE WAS HIER / WAT GEBEURDE HIER?
 Hier initieerde de rondtrekkende monnik Totapuri Ramakrishna in het sannyas en leidde hem naar Nirvikalpa Samadhi — de hoogste non-duale verzonkenheid, die dagen tot maanden duurde volgens overlevering. Ook hier, volgens eigen overlevering, had Ramakrishna een visioen van Christus tijdens het wandelen.
@@ -106,7 +106,7 @@ Voor een Kriya-beoefenaar wellicht spiritueel nog zwaarder dan de tempel zelf �
 UNIEK HERKENNINGSPUNT
 De letterlijke plek van Ramakrishna's hoogste yogische attainment.
 
-MAGNETISCHE PLEK? Ja — klein platform/schrijn, gemarkeerd, en Yogananda's eigen meditatieplek.
+MAGNETISCHE PLEK? Ja voor de Ramakrishna-lineage — klein platform/schrijn, gemarkeerd. **Niet** bevestigd als Yogananda's eigen meditatieplek (zie correctie hierboven).
 
 ### Nahabat — Sarada Devi's kamer [B, bijvangst]
 
@@ -568,8 +568,8 @@ Per `governance/LONELY_PLANET_LAYER_RULE_2026-08-22.md` en het Cluster Pre-Fligh
 
 ## OPEN ITEMS
 
-1. **Hotel/basis niet geboekt** — CCI-voorstel Glenburn Penthouse, Shyambazar-zone, nog te bevestigen door jou.
-2. **YSS Dakshineswar Math-toegang** — waarschijnlijk niet beschikbaar voor niet-SRF/YSS Kriyabans; e-mail-navraag aanbevolen, niet op plannen.
+1. **Hotel/basis niet geboekt — GECORRIGEERD 28 sep, betere opties gevonden dan eerder gedacht.** YSS Dakshineswar Math heeft een eigen gastenverblijf, open voor iedereen die de YSS/SRF Lessons volgt (jij komt hiervoor in aanmerking als Kriyaban), boekbaar via yssofindia.org/request-accommodation, max 5 dagen, goedkeuring via gesprek met de aanwezige swami — niet automatisch. Tulsi Bose Shrine (Ananda Sangha, Garpar-buurt) biedt sinds 2022 ook overnachtingen met verzorger/eten. Zie `runs/active/CCI_KOLKATA_UITGEBREIDE_LEESVERSIE_2026-09-28.md` voor volledige details en een derde, neutrale heritage-homestay-optie (Bhubanbari, Shyambazar-zone) als fallback. CCI-advies: YSS Dakshineswar-gastenverblijf eerst navragen.
+2. **YSS Dakshineswar Math-toegang — GECORRIGEERD 28 sep.** Eerdere aanname "waarschijnlijk niet beschikbaar" was te pessimistisch: wel degelijk beschikbaar voor YSS/SRF Lessons-studenten (breder dan alleen ingewijde Kriyabans), zie punt 1.
 3. **4 Garpar Road-bezoek** — vereist vooraf regelen (via YSS Dakshineswar-ashram of rechtstreeks contact custodiaan Somnath Ghosh), geen walk-in.
 4. **Sri Yukteswar's hermitage-restauratiestatus** — onderzoek 28 sep bevestigt de 2023-eigendomsverwerving en uitgesproken restauratie-intentie, maar **geen enkele gedateerde 2024/2025-bron gevonden** die zegt of de bouw af is, loopt, of dat de locatie open/dicht/deels toegankelijk is. Eén ongeverifieerde aanwijzing dat zaterdagse groepsmeditaties op het terrein doorgaan (Smriti Mandir, 1977 gebouwd), maar niet te bevestigen als actueel. `LIVE_RECHECK` blijft staan — bel YSS Dakshineswar-ashram rechtstreeks vlak vóór vertrek.
 5. **YSS Dhyana Kendra Garpar-sessietijden** — adres/telefoon bevestigd: 37A Raja Dinendra Street, Garpar, Kolkata 700009, (033) 2350-5380. Bekend (matig vertrouwen): lange groepsmeditatie op zaterdag, AOAY-leesgroep (Engels+Bengaals) op donderdag. **Geen exacte kloktijden gepubliceerd** — niet verzonnen, bel het nummer.
