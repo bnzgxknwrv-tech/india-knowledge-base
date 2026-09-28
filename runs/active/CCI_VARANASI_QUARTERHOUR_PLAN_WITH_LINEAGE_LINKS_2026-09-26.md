@@ -926,6 +926,7 @@ Op Mark's directe vraag ("wat mis je, kijk breder, Lonely Planet-laag") is de vo
 4. Lahiri Mahasaya-huis en Satyalok: hoeveel tijd wil je hier zijn? Nog jouw keuze, planningsbasis is nu 1 uur respectievelijk 60 minuten.
 5. Satyalok (~10:30-opening) en de exacte binnenindeling van de Anandamayi Ma Ashram: LIVE_RECHECK direct vóór vertrek.
 6. De Garpar-microcluster bij Kolkata: al vastgelegd als must-visit, komt inhoudelijk aan de orde als dit Varanasi-cluster is afgerond.
+7. **NIEUW 28-9-2026: Stichting Duniya-schooltje, wijk Nagwa** — bevestigd door Mark als bezoek via een persoonlijke bekende (2 uur gewenst). Nagwa ligt vrijwel direct achter/naast **Assi Ghat** (zelfde zuidelijke zone als het hotel, ~10 min lopen/riksja) — dus in principe vrijwel gratis in te passen, geen aparte reisdag. Geen publiek adres vindbaar (bewust, privacy van de kinderen) — actie voor Mark: exacte locatie/afspraak regelen via zijn bekende, of via info@duniya.org / mirjam@duniya.org. Nog niet ingepland: welke dag/moment (2 uur), aangezien dit wacht op de Fase 0,5 Grade-Completeness-Gate (13-item gradering) voordat de kwartierplanning definitief wordt herzien.
 
 ## SOURCES
 
