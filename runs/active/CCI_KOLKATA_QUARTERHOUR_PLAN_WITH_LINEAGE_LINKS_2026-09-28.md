@@ -1,0 +1,579 @@
+# KOLKATA / DAKSHINESWAR / SERAMPORE — VOLLEDIGE KAARTEN PER LOCATIE (6-NACHTEN-STRUCTUUR)
+
+Date: 2026-09-28, gebouwd volgens `governance/MARK_CLUSTER_PREFLIGHT_PROTOCOL_2026-09-27.md` (Fase 0 t/m Fase 2), na de volledige Fase 0-intake en een parallelle Fase 1-onderzoeksgolf (5 gelijktijdige researchdispatches: Dakshineswar-complex, Garpar/Serampore, reistijden, hotel/vlucht, J.C. Bose + Lonely Planet-laag).
+Status: **EERSTE VOLLEDIGE VERSIE — nog niet Mark-bevestigd.**
+Scope: **Kolkata/Dakshineswar/Serampore only**, 6 nachten (9/10–14 jan 2027), vertrek vrijdagochtend 15 jan naar Chennai/Tiruvannamalai.
+
+## NIEUW CRITERIUM VAN MARK — "MAGNETISCHE PLEKKEN"
+
+Mark: *"De belangrijkste meter... of er een plek is waar een foto van Yogananda staat met bloemen eromheen. Shrines. Of die in de AOAY staan en écht als shrine ingericht zijn omdat hij daar geweest is."* Elke kaart hieronder heeft daarom een apart veld **MAGNETISCHE PLEK?** — is dit een levende shrine (foto/altaar/bewaarde relikwieën/kamer, actief vanwege de aanwezigheid van de figuur), of is het "alleen" historisch/institutioneel belangrijk zonder dat shrine-karakter? Beide categorieën staan in het plan, maar eerlijk gelabeld.
+
+## HOTEL/BASIS — NOG NIET GEBOEKT, VOORSTEL
+
+Geen hotel/ashram vastgelegd. Mark gaf volledige vrije keuze, eventueel meerdere bases. **Onderzoeksbevinding:** YSS Dakshineswar Math accepteert alleen gasten met een SRF/YSS-lesnummer — jij bent Kriyaban via de Ananda-lijn, dus waarschijnlijk niet in aanmerking (wel een mailtje waard om te bevestigen, niet op plannen). Ramakrishna Math/Belur heeft een gastenverblijf, maar overvraagd en alleen per e-mail te boeken, geen garantie. **CCI-advies: één vaste basis in de Shyambazar/Fariapukur-zone** (bv. Glenburn Penthouse, 5 Radha Kanta Jew Street — een karaktervol 9-kamers-hotel van de Glenburn Tea Estate-familie), centraal tussen Dakshineswar/Belur (noord) en Garpar/College Street (zuid), 15-30 min van bijna alles in dit plan. Een gesplitste basis is hier niet nodig — Serampore is sowieso een dagtocht vanaf elke noord-Kolkata-basis.
+
+## VERTREK NAAR TIRUVANNAMALAI — VRIJDAG 15 JAN
+
+**GEVERIFIEERD 2026-09-28 (echte reistijd-research):** CCU→MAA is een drukke binnenlandse route (~63 wekelijkse non-stopvluchten, IndiGo/Air India/Air India Express/SpiceJet), vluchtduur 2u10-2u20. **Beste doelvenster: vertrek 06:00-08:00**, aankomst Chennai ~08:15-08:30 — geeft de volle dag voor de 175km/3,5-4,5u rit naar Tiruvannamalai, met ruimte voor de avond-Sri Chakra Puja (18:00-20:45) als je die wilt meemaken. CCU-luchthavenbuffer: 2 uur vóór vertrek (binnenlandse standaard). Exacte januari-2027-dienstregeling nog niet gepubliceerd — dit is het huidige daggemiddelde patroon, niet een geboekte vlucht.
+
+---
+
+## DAGBELASTING IN ÉÉN BLIK
+
+| Dag | Inhoud | Karakter |
+|---|---|---|
+| Za 9 jan | Aankomst nachttrein ~13:05, inchecken, rust | LICHT |
+| Zo 10 jan | Dakshineswar-complex (alle onderdelen) + Yogoda Satsanga Math | ZWAAR, rijkste dag |
+| Ma 11 jan | Shyampukur Bati → Cossipore Udyanbati → Balaram Mandir (Ramakrishna's laatste hoofdstuk, chronologisch) | ZWAAR emotioneel, compacte geografie |
+| Di 12 jan | Serampore-dagtocht: Sri Yukteswar's hermitage (3u) + Rai Ghat + Anandaloka | ZWAAR qua klok (reistijd), rijk qua inhoud |
+| Wo 13 jan | Belur Math (volledige dag) | MIDDEN, één grote locatie |
+| Do 14 jan | Garpar-microcluster (ochtend) → J.C. Bose/Acharya Bhaban (14:00-16:00, enige geldige dag) → vroege afsluiting voor de vlucht | VOLWAARDIG maar bewust vroeg afgerond |
+| Vr 15 jan vroeg | Vertrek hotel ~04:00-04:30 → CCU-vlucht 06:00-08:00-venster → Chennai → Tiruvannamalai | Valt buiten Kolkata's 6 nachten, zie Tiruvannamalai-plan |
+
+**Nog niet ingepland, bewust:** Kalighat Kali Temple (geen geverifieerde lineage-link — puur "als er tijd over is", geen vaste dag) en Vivekananda Birthplace (wel A+, geen AOAY-citaat gevonden — voorgesteld als optioneel donderdagmiddag-verlengstuk, zie onder). De Lonely Planet-laag (Victoria Memorial, Howrah Bridge, etc.) staat aan het eind, nog niet gegradeerd door jou.
+
+---
+
+## ZA 9 JAN — Aankomst
+
+**AANKOMST: trein 22324 Shabd Bhedi Express, Kolkata Chitpur (KOAA) ~13:05.**
+
+- 13:05–13:45 station uit, bagage, transfer naar hotel (Shyambazar/Fariapukur-zone) — **reistijd Chitpur→Dakshineswar-zone geverifieerd 25-40 min taxi, of metro Belgachia→Dakshineswar-lijn ~10 min** (metro-optie mogelijk sneller, maar met bagage minder praktisch); voor de hotelzone zelf reken een vergelijkbare 25-35 min.
+- 13:45–16:00 inchecken, lunch, rust — geen bezichtigingsdruk na de nachttrein.
+- Rest van de dag vrij: een korte avondwandeling in de buurt van het hotel, niets gepland. Bewust licht gehouden vóór de rijke dagen die volgen.
+
+---
+
+## ZO 10 JAN — Dakshineswar-complex + Yogoda Satsanga Math
+
+**VERTREK HOTEL: 08:30.**
+
+**Belangrijke disambiguatie, vooraf:** dit zijn **twee fysiek gescheiden plekken, 1 km uit elkaar**, en een derde (de Ramakrishna Mission's eigen Dakshineswar-tak) bestaat ook nog los daarvan. Verwar ze niet: (1) de Kali-tempel zelf, eigendom van de Rani Rashmoni-stichting — hier gebeurden alle Ramakrishna-visioenen; (2) Yogoda Satsanga Math, Yogananda's eigen, in 1939 gestichte instelling, 1 km verderop; (3) een aparte Ramakrishna Mission-tak, ook in Dakshineswar, verder los van dit plan.
+
+08:30–08:50 transfer naar Dakshineswar (auto, ~20-30 min vanaf Shyambazar-zone, CCI-inschatting op basis van de kortere afstand tot de hotelzone — nog niet apart geverifieerd).
+
+### Dakshineswar Kali Temple — hoofdtempel (Sri Sri Bhavatarini Kali) [A+]
+
+TIJD: 08:50–09:35
+
+WAT IS DIT IN GEWOON NEDERLANDS?
+De negen-torige (navaratna) hoofdtempel van het hele complex, met het zwarte stenen Kali-beeld ("Bhavatarini") op een zilveren lotus met duizend gedreven bladeren, en een klein zilveren Shiva-beeld eronder.
+
+WAAROM WIL JIJ, MARK, HIERHEEN?
+Dit was Ramakrishna's eigen werkplek: hij werd hier priester in 1856 en bleef dat tot zijn dood in 1886. Direct verbonden aan Yogananda zelf: hij bezocht deze exacte tempel en had hier een visioen.
+
+WIE WAS HIER / WAT GEBEURDE HIER?
+AOAY Hoofdstuk 9 ("The Blissful Devotee and His Cosmic Romance"), na een boottocht met Master Mahasaya: *"We entered the nine-domed Temple of Kali, where the figures of the Divine Mother and Shiva rest on a burnished silver lotus, its thousand petals meticulously chiseled."* Yogananda beschrijft daarna een visioen waarbij hij "tijdelijk afwezig uit het lichaam" was. Apart, Hoofdstuk 22 ("The Heart of a Stone Image"): Yogananda's eigen visioen van het levend wordende Kali-beeld, met het gebed *"Silent Mother with stony heart, Thou becamest filled with life at the request of Thy beloved devotee Ramakrishna..."* — een directe verwijzing naar Ramakrishna's eigen visioenen bij hetzelfde beeld. Onafhankelijk: op 16 september 1884 stuurde Ramakrishna de jonge Vivekananda hier drie keer heen om voor geldnood te bidden — telkens vergat hij dat en vroeg in plaats daarvan om "kennis en devotie". Zijn eigen woorden later: *"I had to accept her at last!"*
+
+WAT MOET JE HIER PRECIES ZOEKEN?
+De voet van de negen-torige koepel, de zilveren lotus-sokkel en het zwarte Kali-beeld — hetzelfde fysieke object van Ramakrishna's én Yogananda's visioenen.
+
+HOE WIL JE HIER ZIJN?
+Ruim de tijd nemen — dit is de kern van de hele Ramakrishna-lineage, geen doorloopstop.
+
+UNIEK HERKENNINGSPUNT
+De negen torenspitsen (navaratna), van buiten te tellen — architectonisch afwijkend van elke andere tempel op deze lijst.
+
+MAGNETISCHE PLEK? Ja — actief vereerd altaar, direct object van meerdere Top-X-visioenen.
+
+BRONNEN: en.wikipedia.org/wiki/Dakshineswar_Kali_Temple, en.wikisource.org/wiki/Autobiography_of_a_Yogi (hfst. 9, 22).
+
+### Ramakrishna's kamer [A+]
+
+TIJD: 09:35–10:20
+
+WAT IS DIT IN GEWOON NEDERLANDS?
+Een bescheiden kamer in de noordwesthoek van het tempelterrein, met een halfronde veranda aan de Ganges, waar Ramakrishna de laatste ~30 jaar van zijn leven daadwerkelijk woonde — hier vonden de meeste van zijn opgetekende visioenen en gesprekken (de Kathamrita) plaats.
+
+WAAROM WIL JIJ, MARK, HIERHEEN?
+Yogananda zelf mediteerde in deze exacte kamer.
+
+WIE WAS HIER / WAT GEBEURDE HIER?
+Bevestigd door YSS's eigen bron: *"Yogananda used to often visit the temple and meditate, first in the portico in front of the temple, then in Sri Ramakrishna's room..."*
+
+WAT MOET JE HIER PRECIES ZOEKEN?
+De kamer zelf (bewaard met zijn persoonlijke spullen: bedstee, zitplaats) en de veranda aan de rivier waar hij vaak stond en waar veel discipelen hem voor het eerst ontmoetten. Vraag specifiek naar deze kamer — gidsen tonen soms alleen de hoofdtempel.
+
+HOE WIL JE HIER ZIJN?
+Stil zitten waar Ramakrishna zat, en waar Yogananda zelf mediteerde — een dubbele lineage-laag op één plek.
+
+UNIEK HERKENNINGSPUNT
+De enige plek in dit hele complex met een directe, bronvermelde bevestiging dat Yogananda zelf hier mediteerde.
+
+MAGNETISCHE PLEK? Ja — bewaarde kamer met persoonlijke bezittingen, functioneert als shrine.
+
+BRONNEN: yssofindia.org (Dakshineswar-ashrampagina).
+
+### Panchavati (de boomgroep) [A]
+
+TIJD: 10:20–10:50
+
+WAT IS DIT IN GEWOON NEDERLANDS?
+Een groep van vijf heilige bomen (oorspronkelijk banyan, peepal, neem, amalaki/ashoka, bel) direct ten noorden van het tempelterrein, waar Ramakrishna het grootste deel van zijn intensieve sadhana deed.
+
+WAAROM WIL JIJ, MARK, HIERHEEN?
+Ook hier mediteerde Yogananda zelf, "urenlang onder de banyanboom" — en het is de plek van Ramakrishna's hoogste yogische verwezenlijking.
+
+WIE WAS HIER / WAT GEBEURDE HIER?
+Hier initieerde de rondtrekkende monnik Totapuri Ramakrishna in het sannyas en leidde hem naar Nirvikalpa Samadhi — de hoogste non-duale verzonkenheid, die dagen tot maanden duurde volgens overlevering. Ook hier, volgens eigen overlevering, had Ramakrishna een visioen van Christus tijdens het wandelen.
+
+WAT MOET JE HIER PRECIES ZOEKEN?
+Een klein platform/schrijn onder de banyanboom — vraag er specifiek naar, het is makkelijk voorbij te lopen zonder gids.
+
+HOE WIL JE HIER ZIJN?
+Voor een Kriya-beoefenaar wellicht spiritueel nog zwaarder dan de tempel zelf — dit gaat over praktijk, niet verering.
+
+UNIEK HERKENNINGSPUNT
+De letterlijke plek van Ramakrishna's hoogste yogische attainment.
+
+MAGNETISCHE PLEK? Ja — klein platform/schrijn, gemarkeerd, en Yogananda's eigen meditatieplek.
+
+### Nahabat — Sarada Devi's kamer [B, bijvangst]
+
+TIJD: 10:50–11:05 (kort, geen apart hoofdblok)
+
+WAT IS DIT IN GEWOON NEDERLANDS?
+Een tweeverdiepingen bakstenen gebouw ~23 meter noordelijk van Ramakrishna's kamer, waar Sarada Devi ("Holy Mother") ~8 jaar in een piepklein achthoekig kamertje (~4,6 m²) woonde, kookte en vanuit daar het huishouden beheerde.
+
+WAAROM WIL JIJ, MARK, HIERHEEN?
+Sarada Devi staat op je Top-X-lijst; dit is haar eigen leefruimte, al is er geen direct AOAY-citaat voor deze specifieke kamer gevonden — eerlijk gezegd, geen link verzonnen.
+
+WAT MOET JE HIER PRECIES ZOEKEN?
+De piepkleine achthoekige kamer en de trap in de noordoosthoek.
+
+UNIEK HERKENNINGSPUNT
+Het schrille contrast tussen deze extreem kleine ruimte en haar latere status als "Heilige Moeder".
+
+MAGNETISCHE PLEK? Deels — bewaarde leefruimte, geen apart altaar/foto-shrine gevonden in onderzoek.
+
+### 12 Shiva-tempels + baadghat [C, bijvangst, geen apart tijdsblok]
+
+Twaalf identieke Shiva-schrijnen langs de rivier, plus de baadghat waar Totapuri naar verluidt aankwam. Geen specifiek AOAY- of Ramakrishna-citaat gevonden voor een van beide — puur architecturale/sfeer-bijvangst tijdens de wandeling door het complex, geen aparte tijd nodig.
+
+11:05–11:35 lunch/rust op het terrein of net erbuiten.
+
+11:35–11:50 transfer naar Yogoda Satsanga Math Dakshineswar (~1 km, 10-15 min lopen of kort ritje).
+
+### Yogoda Satsanga Math, Dakshineswar [A+]
+
+TIJD: 11:50–13:00
+
+WAT IS DIT IN GEWOON NEDERLANDS?
+Yogananda's eigen, door hemzelf gestichte ashram — **fysiek een apart terrein, 1 km van de Kali-tempel, geen onderdeel daarvan.**
+
+WAAROM WIL JIJ, MARK, HIERHEEN?
+De enige plek in dit hele cluster die 100% "van Yogananda zelf" is — gesticht en ingewijd door zijn eigen hand en wil, in tegenstelling tot de andere plekken waar hij pelgrim/bezoeker was.
+
+WIE WAS HIER / WAT GEBEURDE HIER?
+Yogananda schrijft zelf, AOAY Hoofdstuk 46: *"A stately Yogoda Math in Dakshineswar, fronting the Ganges, was dedicated in 1939."* Gesticht tijdens zijn 1935-36-terugkeerbezoek aan India; nu hoofdkwartier in India van Yogoda Satsanga Society.
+
+WAT MOET JE HIER PRECIES ZOEKEN?
+De shrine-ruimte — vraag specifiek of er foto's/relieken van de Kriya-lijn (Babaji, Lahiri Mahasaya, Sri Yukteswar, Yogananda) hangen, zoals gebruikelijk bij YSS/SRF-ashrams (exacte inrichting van deze specifieke locatie niet apart bevestigd in onderzoek).
+
+HOE WIL JE HIER ZIJN?
+Rustige aanwezigheid, eventueel meditatie als er een sessie loopt.
+
+UNIEK HERKENNINGSPUNT
+Het enige "eigen" instituut van Yogananda in deze hele cluster.
+
+MAGNETISCHE PLEK? Waarschijnlijk ja (YSS-ashrams hebben doorgaans een lineage-shrine), maar exacte interieur niet apart bevestigd — ter plekke verifiëren.
+
+13:00–13:30 transfer naar hotel (~20-30 min).
+
+---
+
+## MA 11 JAN — Ramakrishna's laatste hoofdstuk: Shyampukur → Cossipore → Balaram Mandir
+
+**VERTREK HOTEL: 08:30.**
+
+**Chronologische logica van deze dag:** Ramakrishna werd medio 1885 ziek (keelkanker), verhuisde voor behandeling naar Shyampukur (70 dagen), daarna naar de tuinvilla in Cossipore voor zijn laatste 249 dagen tot zijn dood op 16 augustus 1886. Balaram Mandir was zijn "Calcutta-citadel" tijdens zijn gezonde jaren én de plek waar Vivekananda in 1897 de Ramakrishna Mission formeel oprichtte — chronologisch een uitstapje terug, maar geografisch in dezelfde noordelijke zone.
+
+08:30–09:00 transfer naar Shyampukur (~20-30 min, CCI-inschatting, noordelijke zone dichtbij Dakshineswar-as, nog niet apart geverifieerd).
+
+### Shyampukur Bati [A, geen A* filler — echte lineage-plek zonder AOAY-citaat]
+
+TIJD: 09:00–09:45
+
+WAT IS DIT IN GEWOON NEDERLANDS?
+Een gehuurd huis in Shyampukur/Shyambazar waar Ramakrishna's discipelen hem heen brachten voor medische behandeling toen zijn keelziekte serieus werd — de eerste fase van zijn laatste ziekte, vóór Cossipore.
+
+WAAROM WIL JIJ, MARK, HIERHEEN?
+Het "rustige middenhoofdstuk" tussen zijn gezonde leven in Dakshineswar en zijn dood in Cossipore — hij bleef hier actief onderwijzen terwijl hij ernstig ziek was.
+
+WIE WAS HIER / WAT GEBEURDE HIER?
+70 dagen (medio-eind 1885), met dr. Mahendralal Sarkar als behandelend arts. Girish Ghosh, de "Jongere Naren", Sarat (later Swami Saradananda), Sashi en Narendra (Vivekananda) verzamelden zich hier om hem te verzorgen — deze verpleegperiode smeedde de hechte band tussen de jonge discipelen die later de monastieke Orde zouden stichten. Sarada Devi verbleef hier ook.
+
+WAT MOET JE HIER PRECIES ZOEKEN?
+De kamer op de eerste verdieping waar hij met discipelen zat tijdens de behandeling.
+
+VOLLEDIGE EERLIJKHEID: geen AOAY-citaat gevonden voor deze plek — de link loopt volledig via Ramakrishna/Vivekananda-geschiedenis (Kathamrita), niet via Yogananda's boek.
+
+UNIEK HERKENNINGSPUNT
+Het enige punt in de hele cluster dat Ramakrishna toont terwijl hij, ziek, tóch actief bleef onderwijzen — een intiemer, minder climactisch register dan Cossipore.
+
+MAGNETISCHE PLEK? Deels — actieve Ramakrishna Math-tak, geen specifiek bevestigd foto-altaar gevonden.
+
+09:45–10:05 transfer naar Cossipore/Kashipur (~15-20 min, geverifieerd als dichtbij Dakshineswar-zone; Shyampukur→Cossipore zelf niet apart gemeten, vergelijkbare afstand aangenomen — CCI-inschatting).
+
+### Cossipore (Kashipur) Udyanbati [A+]
+
+TIJD: 10:05–11:15
+
+WAT IS DIT IN GEWOON NEDERLANDS?
+De tuinvilla waar Ramakrishna zijn laatste 249 dagen doorbracht en op 16 augustus 1886 stierf — de sterkste Ramakrishna-plek van de hele cluster na Dakshineswar zelf.
+
+WAAROM WIL JIJ, MARK, HIERHEEN?
+Dit is letterlijk de plek waar Ramakrishna zijn geestelijke kracht overdroeg aan Vivekananda als zijn opvolger, én waar hij zijn eigen goddelijke natuur openlijk erkende.
+
+WIE WAS HIER / WAT GEBEURDE HIER?
+Twee kernmomenten: (1) mediterend bij een brandend vuur in de tuin droeg Ramakrishna zijn spirituele kracht over aan Narendra via aanraking — Narendra ervoer dagenlang het hele universum als doordrenkt van hetzelfde goddelijke; (2) **Kalpataru-dag, 1 januari 1886**: Ramakrishna vroeg discipel Girish "Wie zeg jij dat ik ben?", en toen Girish antwoordde "God incarnate", raakte Ramakrishna in extase en zegende alle aanwezige volgelingen één voor één — nog altijd jaarlijks herdacht in de hele Ramakrishna Orde als de dag waarop hij openlijk zijn goddelijke natuur toonde. Hier vormden de jonge monastieke discipelen, wakend bij hun stervende meester, de kern van de latere Ramakrishna Math/Mission.
+
+WAT MOET JE HIER PRECIES ZOEKEN?
+De kamer waar hij stierf (bewaard als shrine); de plek in de tuin onder de boom waar de overdracht aan Narendra plaatsvond; een markering voor de Kalpataru-gebeurtenis.
+
+VOLLEDIGE EERLIJKHEID: geen specifiek AOAY-citaat gevonden voor Cossipore zelf — de link loopt via Ramakrishna/Vivekananda's gedocumenteerde geschiedenis, niet via Yogananda's boek.
+
+UNIEK HERKENNINGSPUNT
+De enige gedocumenteerde **sterfplek** van een Top-X-figuur op deze hele reis, gecombineerd met de letterlijke overdracht van het meesterschap aan Vivekananda.
+
+MAGNETISCHE PLEK? Ja — de sterfkamer is expliciet bewaard als shrine.
+
+BRONNEN: belurmath.org, rkmudyanbati.org.
+
+11:15–11:45 lunch/rust.
+
+11:45–12:15 transfer naar Balaram Mandir, Bagbazar (~20-30 min, geverifieerd Dakshineswar↔Bagbazar; Cossipore→Bagbazar vergelijkbare zone, CCI-inschatting).
+
+### Balaram Mandir [A, geen AOAY-citaat maar zeer sterke Ramakrishna/Vivekananda-link]
+
+TIJD: 12:15–13:00
+
+WAT IS DIT IN GEWOON NEDERLANDS?
+Het voormalige privéhuis van Balaram Bose, een welgestelde lekendiscipel — Ramakrishna's "Calcutta-citadel", zijn meest gebruikte stadsbasis buiten Dakshineswar.
+
+WAAROM WIL JIJ, MARK, HIERHEEN?
+Ramakrishna bezocht dit huis **meer dan honderd keer** — de hoogste concentratie persoonlijke aanwezigheid van alle niet-Dakshineswar-locaties. En hier, op 1 mei 1897, richtte Vivekananda formeel de "Ramakrishna Mission Association" op — de letterlijke oprichtingsplek van de hele beweging.
+
+WIE WAS HIER / WAT GEBEURDE HIER?
+Balaram onderhield een Jagannath-huisschrijn met jaarlijkse Rath Yatra-vieringen waarbij Ramakrishna regelmatig in extase raakte — uitgebreid vastgelegd in de Kathamrita. Sarada Devi woonde hier ook meerdere keren.
+
+WAT MOET JE HIER PRECIES ZOEKEN?
+De vergaderzaal op de eerste verdieping (oprichtingsplek van de Mission, 1897) én de Jagannath-huisschrijn, twee aparte dingen.
+
+VOLLEDIGE EERLIJKHEID: geen AOAY-citaat gevonden — puur Ramakrishna/Vivekananda-geschiedenis.
+
+UNIEK HERKENNINGSPUNT
+Het hoogste aantal gedocumenteerde persoonlijke bezoeken van Ramakrishna van alle locaties op deze lijst (100+) — een informeel "tweede huis"-register, heel anders dan het ceremoniële Dakshineswar.
+
+MAGNETISCHE PLEK? Ja — actieve Mission-tak met huisschrijn.
+
+13:00–13:30 transfer naar hotel (~20-30 min).
+
+---
+
+## DI 12 JAN — Serampore-dagtocht: Sri Yukteswar's hermitage, Rai Ghat, Anandaloka
+
+**VERTREK HOTEL: 08:00** (uitzondering op standaard 08:30 — Serampore is de verste bestemming, ~45-75 min enkele reis, en dit is de dag met de rijkste, langste inhoud).
+
+08:00–09:00 transfer naar Serampore (auto, ~45-60 min vanaf Dakshineswar-zone, geverifieerd; trein is een alternatief maar vergt overstappen — auto aanbevolen voor flexibiliteit met deze volle dag).
+
+### Sri Yukteswar's hermitage, Serampore [A+, beschermd, 3 uur]
+
+TIJD: 09:00–12:00 (3 uur, zoals jij zelf aangaf)
+
+WAT IS DIT IN GEWOON NEDERLANDS?
+Sri Yukteswar's eigen ashram — de plek waar Yogananda ongeveer tien jaar onder zijn guru trainde. Waarschijnlijk de belangrijkste fysieke AOAY-locatie buiten Dakshineswar/Puri.
+
+WAAROM WIL JIJ, MARK, HIERHEEN?
+Minstens vier grote AOAY-hoofdstukken spelen zich hier af, over Yogananda's hele relatie met zijn guru.
+
+WIE WAS HIER / WAT GEBEURDE HIER?
+Hoofdstuk 10 ("I Meet My Master"): Sri Yukteswar noemt het adres zelf bij hun eerste ontmoeting: *"My chief hermitage is in Serampore, on Rai Ghat Lane."* Hoofdstuk 12 ("Years in My Master's Hermitage"): rijke fysieke beschrijving — *"Large, ancient and well-built, the hermitage was surrounded by a massive-pillared courtyard... A narrow stairway led to Sri Yukteswar's sitting room, whose small balcony overlooked the street."* Dagelijks ritme: voordageraad-meditatie, ochtendwandelingen langs de Ganges, eenvoudige maaltijden, bezoekers "met gelijke hoffelijkheid ongeacht status" ontvangen, avondmaaltijden die uitliepen in nachtelijke filosofische gesprekken. Hoofdstuk 36 ("Babaji's Interest in the West"): opent op de veranda van deze hermitage, waar Sri Yukteswar zijn drie ontmoetingen met Babaji vertelt. Hoofdstuk 42 ("Last Days With My Guru"): het laatste grote Winterzonnewende-festival, december 1935, in de grote binnenplaats hier — Yogananda naast zijn guru, gevraagd de aanwezige devotees in het Engels toe te spreken.
+
+WAT MOET JE HIER PRECIES ZOEKEN?
+De plek van de binnenplaats (1935-festival); de smalle trap en het balkon van Sri Yukteswar's eigen zitkamer (indien gerestaureerd/toegankelijk); het gedenkschrijn Smriti Mandir zelf (gebouwd 1973, ingewijd 1977).
+
+BELANGRIJKE ACTUALITEIT: het originele gebouw uit AOAY bestaat niet meer in zijn oorspronkelijke staat. YSS verwierf in **2023 de volledige eigendom** van het complex (voorheen gedeeld met de Karar-familie, Sri Yukteswar's eigen geboortefamilie) en is bezig het terug te bouwen naar de oorspronkelijke staat — geen vaste einddatum bekend, dus de staat van restauratie in januari 2027 is `LIVE_RECHECK` vlak voor vertrek.
+
+HOE WIL JE HIER ZIJN?
+Drie volle uren — geen enkele andere plek op deze hele reis draagt zoveel verhaal-diepte (vier hoofdstukken, een decennium van Yogananda's leven speelde zich hier af).
+
+UNIEK HERKENNINGSPUNT
+De enige plek die tegelijk bij naam genoemd wordt in de tekst, het toneel is van meerdere hoofdgebeurtenissen, én actief wordt gerestaureerd — je 2027-bezoek kan een wezenlijk andere staat treffen dan oudere reisverslagen beschrijven.
+
+MAGNETISCHE PLEK? Ja — de Smriti Mandir is een echte gedenktempel.
+
+BRONNEN: en.wikisource.org/wiki/Autobiography_of_a_Yogi (hfst. 10, 12, 36, 42, 43), yssofindia.org.
+
+12:00–12:15 korte wandeling naar Rai Ghat (vlakbij, zelfde ochtendwandel-route als Yogananda en Sri Yukteswar zelf namen).
+
+### Rai Ghat — de heilige banyanboom [A+]
+
+TIJD: 12:15–12:45
+
+WAT IS DIT IN GEWOON NEDERLANDS?
+Een badghat aan de Hooghly, vlak bij de hermitage, met een oude banyanboom.
+
+WAAROM WIL JIJ, MARK, HIERHEEN?
+De letterlijke plek van een directe Babaji-verschijning, verteld door Sri Yukteswar zelf — een van de weinige concrete, bezoekbare Babaji-ontmoetingsplekken (de meeste Babaji-verhalen spelen zich af in onbezoekbare Himalaya-locaties).
+
+WIE WAS HIER / WAT GEBEURDE HIER?
+AOAY Hoofdstuk 36: na het voltooien van zijn boek *The Holy Science* (1894), liep Sri Yukteswar terug van deze ghat naar de hermitage: *"As I passed beyond the site of the large banyan tree near the river bank, a strong impulse urged me to look back. There, under the shade of the banyan, and surrounded by a few disciples, sat the great Babaji!"* Babaji: *"I see you have successfully completed your book. As I promised, I am here to thank you."* Ook de plek van de dagelijkse ochtend-bad/wandelroutine tussen guru en discipel (Hoofdstuk 12).
+
+WAT MOET JE HIER PRECIES ZOEKEN?
+De banyanboom zelf (naar verluidt nog steeds levend/staand) en de ghat-trappen naar de rivier.
+
+UNIEK HERKENNINGSPUNT
+Een directe, bij naam genoemde Babaji-materialisatie op een gewone, bezoekbare plek.
+
+MAGNETISCHE PLEK? Ja, in de zin van een gemarkeerd wonder-plek — YSS heeft in 2023 ook een gebouw naast de boom plus beheersrechten over de ghat verworven.
+
+12:45–13:15 lunch/rust in Serampore.
+
+13:15–13:30 korte transfer naar Anandaloka.
+
+### Anandaloka / YSS Serampore Retreat [A+ — toegankelijk bevestigd]
+
+TIJD: 13:30–14:15
+
+WAT IS DIT IN GEWOON NEDERLANDS?
+Yogananda's eigen studentenkamer bij zijn oom Sarada Prasad Ghosh, tijdens zijn Serampore College-jaren — later omgebouwd tot meditatieschrijn door zijn neef.
+
+WAAROM WIL JIJ, MARK, HIERHEEN?
+Een ander soort link dan de guru-hermitage: dit is zijn gewone, niet-monastieke familieleven als student, een tegenhanger van de buitengewone guru-training hierboven.
+
+WIE WAS HIER / WAT GEBEURDE HIER?
+Yogananda's neef Sri Prabhas Chandra Ghosh zette de kamer waar Yogananda verbleef om tot de schrijn "Anandaloka" ("verblijf van vreugde"). Nu onderdeel van het functionerende YSS Serampore Retreat-terrein (ochtendmeditatie 07:00-08:00, avondsatsang 17:30-19:00).
+
+WAT MOET JE HIER PRECIES ZOEKEN?
+De Anandaloka-kamer zelf, nu ingericht als klein meditatieschrijn, toegankelijk om even te gaan zitten.
+
+VOLLEDIGE EERLIJKHEID: geen specifiek AOAY-citaat gevonden voor deze exacte kamer — de link is genealogisch/institutioneel bevestigd (YSS-eigen bronnen), niet tekstueel gepind.
+
+UNIEK HERKENNINGSPUNT
+De enige plek in Serampore die Yogananda's gewone studentenleven toont, niet zijn spirituele training.
+
+MAGNETISCHE PLEK? Ja — expliciet omgebouwd tot shrine, actief te bezoeken.
+
+14:15–15:15 transfer terug naar hotel (~45-60 min).
+
+---
+
+## WO 13 JAN — Belur Math
+
+**VERTREK HOTEL: 08:30.**
+
+08:30–09:15 transfer naar Belur Math (~30-45 min, Howrah-oever, geverifieerd via Garpar↔Belur-data; vanaf hotelzone vergelijkbaar).
+
+### Belur Math [A]
+
+TIJD: 09:15–13:00 (ruim de tijd — groot, actief kloosterterrein)
+
+WAT IS DIT IN GEWOON NEDERLANDS?
+Het internationale hoofdkwartier van de Ramakrishna Math en Mission, gesticht door Vivekananda, op de westelijke Hooghly-oever.
+
+WAAROM WIL JIJ, MARK, HIERHEEN?
+De enige plek op deze lijst die een actief, functionerend kloosterhoofdkwartier is — geen huis-museum maar levend religieus leven, met Ramakrishna's eigen relieken.
+
+WIE WAS HIER / WAT GEBEURDE HIER?
+Vivekananda verwierf begin 1898 dit terrein voor een permanent thuis voor de monastieke orde. Op 9 december 1898 consacreerde hij het terrein zelf door een urn met Ramakrishna's relieken te plaatsen — de formele stichtingsdaad. Citaat bij de consecratie: *"The blazing light of universal harmony that will emanate from here will flood the whole world."* De relieken werden 40 jaar in de "Oude Schrijn" bewaard tot de huidige hoofdtempel gereed was (14 januari 1938) — een levensgroot marmeren Ramakrishna-beeld op een honderdbladige lotus, met de relieken in de trommelvormige sokkel eronder. Vivekananda zelf stierf hier in 1902.
+
+**Eerlijke AOAY-kanttekening:** geen passage gevonden waarin Yogananda zelf Belur Math bezoekt. Wel een indirecte Vivekananda-link elders in het boek (Hoofdstuk 47): een Amerikaanse discipel vertelt Yogananda over een ontmoeting met Vivekananda in Chicago 1893, met de voorspelling *"Your teacher will come later. He will give you a silver cup"* — maar dit speelt zich af in Chicago, niet in Belur (dat pas in 1898 gesticht werd).
+
+WAT MOET JE HIER PRECIES ZOEKEN?
+De hoofdtempel (marmeren beeld + relieken) EN de aparte, oudere "Oude Schrijn" (plek van de originele 1898-consecratie, 40 jaar in gebruik) — twee verschillende gebouwen, niet met elkaar verwarren; ook een apart Vivekananda-schrijn op de plek van zijn crematie.
+
+HOE WIL JE HIER ZIJN?
+Rustig, met ruimte voor de schaal van het complex — dit is geen kwartier-stop maar een halve dag.
+
+UNIEK HERKENNINGSPUNT
+Monniken in saffraan gewaad, actief kloosterleven, en de bewust religie-overstijgende architectuur (Hindoe-Islamitisch-Christelijke motieven) die Vivekananda zelf liet ontwerpen.
+
+MAGNETISCHE PLEK? Ja — Ramakrishna's relieken liggen letterlijk verzegeld onder het altaarbeeld, actief vereerd.
+
+BRONNEN: belurmath.org, en.wikisource.org/wiki/Autobiography_of_a_Yogi (hfst. 47, ter vergelijking).
+
+13:00–13:45 lunch/rust op of nabij het terrein.
+
+13:45–14:30 transfer naar hotel (~30-45 min).
+
+---
+
+## DO 14 JAN — Garpar-microcluster + J.C. Bose (Acharya Bhaban) — laatste volledige dag
+
+**VERTREK HOTEL: 08:30.** Bewust een vroege afsluiting vanavond — morgenvroeg (vr 15 jan) een zeer vroege vlucht naar Chennai.
+
+08:30–08:50 transfer naar Garpar Road-zone (~10-20 min vanaf de hotelzone, geverifieerd als korte stadsafstand).
+
+**Alle vier onderstaande Garpar-locaties liggen binnen ~0,5 km van elkaar — lopen tussen de stops.**
+
+### 4 Garpar Road — Yogananda's familiehuis [A+, VASTGELEGD]
+
+TIJD: 08:50–09:35
+
+WAT IS DIT IN GEWOON NEDERLANDS?
+Het huis in Noord-Kolkata waar de tienerjaren-Yogananda (toen Mukunda Lal Ghosh) zijn eigen kamer had en zijn vroegste meditaties deed — nog steeds in familiebezit.
+
+WAAROM WIL JIJ, MARK, HIERHEEN?
+Het meest tekstueel verankerde adres van de hele reis — AOAY noemt het letterlijke huisnummer.
+
+WIE WAS HIER / WAT GEBEURDE HIER?
+Hoofdstuk 4: *"The family was living now in Calcutta... now at 4 Gurpar Road."* Hoofdstuk 9: na een bezoek aan Master Mahasaya keert Yogananda hierheen terug, rouwend om zijn moeder: *"My steps were eager as I returned to my Gurpar Road home. Seeking the seclusion of my small attic, I remained in meditation until ten o'clock..."* — gevolgd door het Divine Mother-visioen: *"Always have I loved thee! Ever shall I love thee!"*
+
+**Belangrijke correctie t.o.v. veel reisblogs:** zijn moeder stierf NIET in dit huis, maar op 50 Amherst Street (een ander huis, gebruikt voor een broers-huwelijk). Garpar Road is waar hij als jongeman leefde en mediteerde en waar het Divine Mother-visioen plaatsvond — niet het sterfhuis.
+
+WAT MOET JE HIER PRECIES ZOEKEN?
+De **zolderkamer op de derde verdieping** — de eigenlijke meditatie-heiligdom, klein, "getuige van zoveel scènes van mijn onstuimige sadhana". Ook de kamer op de begane grond/eerste verdieping bij de ingang — in de mondelinge overlevering (niet letterlijk tekstueel gepind) de plek van Babaji's zegen vlak vóór zijn vertrek naar Amerika (Hoofdstuk 37).
+
+HOE WIL JE HIER ZIJN?
+Vooraf regelen (via de Dakshineswar YSS-ashram of rechtstreeks) — geen walk-in museum; een nazaat (custodiaan, gemeld als Somnath Ghosh) rondt doorgaans rond.
+
+UNIEK HERKENNINGSPUNT
+Het enige adres dat letterlijk, met huisnummer, in Yogananda's eigen tekst genoemd wordt.
+
+MAGNETISCHE PLEK? Ja — familiehuis, actief in stand gehouden als bezoekbare herinneringsplek.
+
+09:35–09:40 lopen naar YSS Dhyana Kendra Garpar (vlakbij).
+
+### YSS Dhyana Kendra Garpar [A+]
+
+TIJD: 09:40–10:15
+
+WAT IS DIT IN GEWOON NEDERLANDS?
+Een actief functionerend YSS-meditatiecentrum — geen museum maar een levende instelling met publieke meditatiesessies.
+
+WAAROM WIL JIJ, MARK, HIERHEEN?
+De letterlijke geboorteplek van Yogananda's georganiseerde meditatiepraktijk: in 1911 als jongen begon hij hier, met schoolvrienden, systematisch te mediteren — een directe voorloper van YSS/SRF zelf (formeel gesticht 1917).
+
+WAT MOET JE HIER PRECIES ZOEKEN?
+De Dhyana Mandir (meditatiehal) — hier kun je daadwerkelijk zelf mediteren in een ruimte met 110+ jaar ononderbroken institutionele lijn terug naar Yogananda's eigen jeugdpraktijk. Bel vooraf voor sessietijden: (033) 2350-5380.
+
+UNIEK HERKENNINGSPUNT
+De enige Garpar-plek waar je zelf kunt mediteren, niet alleen kijken.
+
+MAGNETISCHE PLEK? Ja — levende meditatiepraktijk in directe lijn van Yogananda's eigen jeugd.
+
+10:15–10:25 lopen naar Nagendra Math.
+
+### Nagendra Math — Bhaduri Mahasaya's huis [A]
+
+TIJD: 10:25–11:00
+
+WAT IS DIT IN GEWOON NEDERLANDS?
+Het huis van yogi Nagendranath Bhaduri, in AOAY "de Levitatie-heilige" genoemd — nu een instituut, ~0,5 km van Garpar.
+
+WAAROM WIL JIJ, MARK, HIERHEEN?
+Yogananda bezocht hem als schooljongen herhaaldelijk na school om samen te mediteren.
+
+WIE WAS HIER / WAT GEBEURDE HIER?
+Hoofdstuk 7 ("The Levitating Saint"): Bhaduri leefde 20 jaar in afzondering op de bovenverdieping. Citaten: *"My rule of seclusion is not for my own comfort, but for that of others. Worldly people do not like the candor which shatters their delusions."* En, over voedsel vs. meditatie: *"People in general are more fond of Jala Yoga (union with food) than of Dhyana Yoga (union with God)."*
+
+WAT MOET JE HIER PRECIES ZOEKEN?
+De eerste verdieping (zijn afzonderingsruimte, ~20 jaar) én een lager, halfdonker Kali-schrijnkamertje — bezoekers melden een opvallend contrast tussen beide verdiepingen.
+
+UNIEK HERKENNINGSPUNT
+Dat contrast tussen licht (afzonderingsverdieping) en donker (Kali-schrijn) wordt herhaaldelijk als het meest onderscheidende kenmerk van de hele Garpar-cluster genoemd.
+
+MAGNETISCHE PLEK? Ja — Kali-schrijnkamer actief, plus de sfeervol beschreven afzonderingsverdieping.
+
+11:00–11:10 lopen naar Tulsi Bose Shrine.
+
+### Tulsi Bose Shrine [A+]
+
+TIJD: 11:10–11:50
+
+WAT IS DIT IN GEWOON NEDERLANDS?
+Het huis van Tulsi Bose, Yogananda's jeugdvriend en levenslange discipel — bewaard met fysieke relieken.
+
+WAAROM WIL JIJ, MARK, HIERHEEN?
+De enige plek in de hele cluster met bewaarde, aan Babaji én Sri Yukteswar toegeschreven fysieke voorwerpen — geen kamer-als-herinnering, maar tastbare relieken.
+
+WIE WAS HIER / WAT GEBEURDE HIER?
+Tulsi Bose ontving Yogananda tijdens zijn 1935-36-terugkeerbezoek. Volgens Yogananda's eigen Divine Mother-visioen werd hem gezegd: *"That boy is a good devotee, and loves me very much. You will get all the help you want from him and his family."*
+
+**Eerlijke bronvermelding, belangrijk:** Tulsi Bose wordt NIET met naam genoemd in de gepubliceerde AOAY-tekst zelf. Het bekende "Twee Berooide Jongens in Brindaban"-verhaal (Hoofdstuk 11) noemt de metgezel "Jitendra Mazumdar", niet Tulsi Bose. Dit verhaal komt uit Ananda's eigen mondelinge overlevering en familiegeheugen — reëel en goed onderbouwd, maar geen letterlijk AOAY-citaat.
+
+WAT MOET JE HIER PRECIES ZOEKEN?
+De bewaarde bedden van Yogananda én Sri Yukteswar; een drietand toegeschreven aan Babaji; Tulsi Bose's eigen Kriya-mala.
+
+UNIEK HERKENNINGSPUNT
+De enige plek met fysieke, aan Babaji en Sri Yukteswar toegeschreven objecten — een andere categorie dan "kamer waar iets gebeurde".
+
+MAGNETISCHE PLEK? Ja — sterkste relieken-shrine van de hele Kolkata-cluster.
+
+11:50–12:20 lunch/rust.
+
+12:20–13:45 transfer + wachttijd naar Acharya Bhaban (het gebouw is pal in dezelfde buurt — "close to mine on Gurpar Road" volgens AOAY zelf — maar opent pas 14:00; gebruik deze marge voor lunch/rust in de buurt, geen aparte lange transfer nodig).
+
+### J.C. Bose-huis, Acharya Bhaban [A — nieuw opgelost knooppunt]
+
+TIJD: 14:00–15:30 (enige geldige tijdvenster: **alleen woensdag en donderdag, 14:00-16:00**)
+
+WAT IS DIT IN GEWOON NEDERLANDS?
+Het woonhuis/laboratorium van wetenschapper Jagadish Chandra Bose uit 1902, nu een klein wetenschapshistorisch museum, op/nabij Yogananda's eigen Garpar-buurt.
+
+WAAROM WIL JIJ, MARK, HIERHEEN?
+**Definitief opgelost (twee onafhankelijke onderzoeken kwamen tot dezelfde conclusie):** AOAY Hoofdstuk 8 beschrijft Yogananda's bezoek aan Bose's huis, expliciet gelokaliseerd "close to mine on Gurpar Road" — vrijwel naast zijn eigen ouderlijk huis. Bose demonstreert hier persoonlijk de crescograaf en bespreekt de spirituele dimensie van wetenschappelijk onderzoek.
+
+WIE WAS HIER / WAT GEBEURDE HIER?
+De rijke, persoonlijke scène (crescograaf-demonstratie, het gesprek) speelde zich hier af, in zijn woonhuis (vanaf 1902) — niet op het latere Bose Institute-hoofdterrein (pas gesticht 1917), dat slechts kort, terzijde genoemd wordt (Yogananda bezocht ook de opening van dat instituut, een apart, veel korter vermeld moment).
+
+WAT MOET JE HIER PRECIES ZOEKEN?
+Bose's originele instrumenten, waaronder de crescograaf zelf.
+
+MAGNETISCHE PLEK? Nee — een museum over Bose, geen shrine voor Yogananda. Tekstueel sterk, maar niet het "foto-met-bloemen"-type plek. Wel het beter passende van de twee Bose-locaties: devotee-toegankelijk (museum), in tegenstelling tot het Bose Institute (actieve onderzoekscampus, niet geschikt voor een devotee-bezoek).
+
+KORTE NUANCE: alleen open wo/do 14:00-16:00 — dit is dus de enige dag in dit hele plan waarop een bezoek kan.
+
+BRONNEN: en.wikisource.org/wiki/Autobiography_of_a_Yogi (hfst. 8).
+
+15:30–16:00 transfer naar hotel (~10-20 min, zelfde korte stadsafstand als de heenreis).
+
+16:00–18:00 rust/pakken — bewust vroeg vanwege de zeer vroege vertrektijd morgenvroeg.
+18:00–19:00 vroeg diner.
+19:00–23:00 kamer/pakken.
+
+**OPTIONEEL, NIET INGEPLAND:** Vivekananda Birthplace (A+, geen AOAY-citaat) zou hier eventueel tussen 11:00-12:00 of na Acharya Bhaban kunnen, als je energie/tijd overhoudt — exacte reistijd vanaf Garpar niet apart geverifieerd, geschatte 10-20 min gezien beide in Noord-Kolkata liggen. Niet vast ingepland om de dag niet te overladen vlak vóór de vroege vertrekdag.
+
+---
+
+## VR 15 JAN — Vertrek naar Chennai/Tiruvannamalai
+
+**Vroeg vertrek:** hotel verlaten ~04:00-04:30 (afhankelijk van gekozen vlucht in het 06:00-08:00-venster en CCU-luchthavenbuffer van 2 uur voor binnenlandse vertrek). Zie het Tiruvannamalai-plan voor de dag zelf.
+
+---
+
+## COMPLETENESS-AUDIT — LONELY PLANET-LAAG KOLKATA, NOG NIET DOOR MARK GEGRADEERD
+
+Per `governance/LONELY_PLANET_LAYER_RULE_2026-08-22.md` en het Cluster Pre-Flight Protocol: dit is niet zelf gegradeerd, dat is aan jou. Geen tijd toegekend, puur ter beoordeling:
+
+1. **Victoria Memorial** — grote witmarmeren koloniale monument/museum (1921), Kolkata's meest gefotografeerde landmark. Afstand: ~45-60 min, centraal/zuid-Kolkata — een halve dag, geen "erbij"-stop.
+2. **Howrah Bridge** — iconische cantileverbrug (1943), een van de drukste ter wereld. Afstand: dicht bij de Belur/Dakshineswar-oever — kost slechts minuten als het op de route ligt.
+3. **Indian Museum** — oudste en grootste museum van Azië (1814). Afstand: centraal Kolkata, ~45 min — halve dag.
+4. **College Street/Boi Para + Indian Coffee House** — 's werelds grootste tweedehands-boekenmarkt; het café is een intellectuelenhistorie-plek (Tagore, Satyajit Ray). Afstand: vlak bij Garpar — kost minuten tot een uur, kan bij de Garpar-dag.
+5. **Kumartuli-pottenbakkerswijk** — eeuwenoude kleifiguren-maker-wijk voor Durga Puja. Afstand: Noord-Kolkata, dicht bij Garpar — kleine omweg.
+6. **Marble Palace** — 1835 privéhuis, 126 soorten marmer, originele schilderijen, nog steeds familie-bewoond. Afstand: dicht bij Garpar — kleine omweg, let op: gesloten ma/do, vergunning vooraf nodig.
+7. **South Park Street Cemetery** — een van 's werelds oudste niet-kerkelijke begraafplaatsen (1767). Afstand: centraal/zuid — ~45 min, halve dag.
+8. **BBD Bagh/Dalhousie koloniale architectuur** — dichte cluster 18e/19e-eeuwse Britse gebouwen. Afstand: centraal Kolkata, ~30-45 min.
+9. **Oude zoetwarenzaken (K.C. Das, Flurys)** — K.C. Das claimt de geboorteplek van rosogolla; Flurys is een historische theesalon uit 1927. Afstand: centraal Kolkata, kost minuten als gecombineerd.
+10. **Hooghly-zonsondergangboottocht** — kan direct vanaf de Dakshineswar/Belur-ghats vertrekken, kost niets extra.
+
+**Nog niet ingepland:** Kalighat Kali Temple (A+ qua status maar géén geverifieerde lineage-link — puur "als er tijd over is", geen vaste dag toegekend) en Vivekananda Birthplace (zie donderdag-nuance hierboven).
+
+## OPEN ITEMS
+
+1. **Hotel/basis niet geboekt** — CCI-voorstel Glenburn Penthouse, Shyambazar-zone, nog te bevestigen door jou.
+2. **YSS Dakshineswar Math-toegang** — waarschijnlijk niet beschikbaar voor niet-SRF/YSS Kriyabans; e-mail-navraag aanbevolen, niet op plannen.
+3. **4 Garpar Road-bezoek** — vereist vooraf regelen (via YSS Dakshineswar-ashram of rechtstreeks contact custodiaan Somnath Ghosh), geen walk-in.
+4. **Sri Yukteswar's hermitage-restauratiestatus** — YSS verwierf in 2023 volledige eigendom, herbouw-status voor januari 2027 `LIVE_RECHECK` vlak vóór vertrek.
+5. **YSS Dhyana Kendra Garpar-sessietijden** — niet online gepubliceerd, bel (033) 2350-5380.
+6. **CCU→Chennai-vlucht** — nog niet geboekt, exacte januari-2027-dienstregeling nog niet gepubliceerd.
+7. **Alle inter-locatie-reistijden binnen Kolkata die als "CCI-inschatting" gemarkeerd staan** (niet apart geverifieerd) — voor definitieve klokvastlegging nog te bevestigen met een lokale chauffeur/gids.
+
+## SOURCES
+
+- 5 parallelle Fase 1-onderzoeken, 2026-09-28 (Dakshineswar-complex, Garpar/Serampore, Kolkata-reistijden, hotel/vlucht, J.C. Bose + Lonely Planet-laag).
+- `governance/CURRENT_TRUTH.md` (Kolkata/Dakshineswar/Serampore-sectie).
+- `decisions/INDIA23_GARPAR_MICROCLUSTER_MUST_VISIT_LOCK_MARK_DECISION_2026-09-26.md`.
+- `decisions/KOLKATA_DAKSHINESWAR_SPIRITUAL_SLEEPBASE_PREFERENCE_2026-09-07.md`, `decisions/DAKSHINESWAR_YSS_LODGING_LINEAGE_COMPATIBILITY_2026-09-07.md`.
+- `governance/MARK_CLUSTER_PREFLIGHT_PROTOCOL_2026-09-27.md`, `governance/MARK_FACING_LOCATION_CARD_TEMPLATE.md`.
