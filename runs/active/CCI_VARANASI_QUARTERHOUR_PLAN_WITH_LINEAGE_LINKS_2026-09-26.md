@@ -20,10 +20,10 @@ Mark's directe klacht: kaarten waren niet meer dan een Indiase naam, een kloktij
 | Dag | Vertrek hotel | Terug bij hotel | Karakter |
 |---|---|---|---|
 | Ma 4 jan | — | 14:00 (aankomst) | LICHT |
-| Di 5 jan | 06:15 | ~15:45+ (open einde) | ZWAAR qua klok, lichter qua energie (Bhrigu zittend), open einde |
-| Wo 6 jan | 08:45 | ~16:30 | MIDDEN |
+| Di 5 jan | 06:15 | ~14:45+ (open einde) | ZWAAR qua klok, lichter qua energie (Bhrigu zittend), open einde — nu lichter: Kedar Ghat verhuisd naar vrijdag |
+| Wo 6 jan | 08:45 | ~13:30 | LICHT — Vishwanath/Annapurna verhuisd naar vrijdag, dag eindigt na lunch |
 | Do 7 jan | 06:15 | ~14:45+ (open einde) | ZWAAR — vroeg, wandelen, emotioneel intens, open einde |
-| Vr 8 jan | 08:30 (flexibel) | ~19:45 | LICHT/RESERVE — tempels nu optioneel (A\*), vaste inhoud is Duniya-schooltje (2u) + Dashashwamedh-avond; ochtend is bewuste overloop-ruimte voor di/wo/do |
+| Vr 8 jan | 08:30 | ~20:00 | VOLWAARDIG — Duniya-schooltje + Kedar Ghat (was di) + Vishwanath/Annapurna (was wo) + Dashashwamedh-avond, één doorlopende boog |
 | Za 9 jan | ~00:10 (vertrek, gecorrigeerd van 23:00) | — | Nachttrein 22324, boekingsklaar |
 
 ---
@@ -97,7 +97,7 @@ WIE WAS HIER / WAT GEBEURDE HIER?
 Tulsidas schreef hier de Ramcharitmanas en stierf hier in 1623.
 
 WAT MOET JE HIER PRECIES ZOEKEN?
-De vroege-ochtend training in de aarden worstelkuil (meestal net na zonsopgang); het huis/schrijn dat aan Tulsidas' verblijf wordt toegeschreven; de aangrenzende Sankat Mochan-tempel (vrijdag). Er is ook een levende Tulsi Ghat Akhada (worstelschool) — nog niet los aan jou voorgelegd, zie OPEN ITEMS onderaan.
+De vroege-ochtend training in de aarden worstelkuil (meestal net na zonsopgang); het huis/schrijn dat aan Tulsidas' verblijf wordt toegeschreven. **GESCHRAPT 28-9-2026:** de aangrenzende Sankat Mochan-tempel stond hier eerder als "(vrijdag)" genoemd — die is volledig geschrapt uit de planning, niet alleen hier weggehaald (zie VR 8 JAN). Er is ook een levende Tulsi Ghat Akhada (worstelschool) — nog niet los aan jou voorgelegd, zie OPEN ITEMS onderaan.
 
 VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27):
 Voor Tulsidas heette deze ghat "Lolark Ghat" (zie hierboven). In 1941 liet industrieel Baldeo Das Birla de ghat verstenen — de huidige trappen zijn dus relatief jong, de plek en zijn associatie eeuwenoud. Op de ghat staat de Tulsidas Akhada (ook Swaminath Akhada), een ca. 400 jaar oude worstelschool die volgens overlevering door Tulsidas zelf gesticht is op de plek waar hij delen van de Ramcharitmanas schreef. Nog steeds actief: ~100 worstelaars, beheerd door de familie van mahant Vishwambhar Nath Mishra (13 generaties, ook verbonden aan Sankat Mochan-tempel), sinds de film *Dangal* ook met vrouwelijke worstelaars.
@@ -190,46 +190,13 @@ TOTALE TIJD VOOR DEZE LOCATIE: transfer 45 min + bezoek 3u + terugtransfer naar 
 TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: niet van toepassing — dit is Mark's eigen hoofdmotivatie voor deze dag, geen kandidaat om te schrappen.
 
 ### Transfer
-11:15–11:45 transfer naar Kedar Ghat, ~30 min.
+**VERPLAATST 28-9-2026:** Kedareshwar Temple/Kedar Ghat is verhuisd naar vrijdagmiddag (zie VR 8 JAN) om dinsdag lichter te maken, op Mark's uitdrukkelijke verzoek om de zware dagen te verlichten door er inhoud van weg te halen — niet door tempels zonder lineage-link als vaste vulling te houden. Volledige kaart en onderzoek staan nu bij vrijdag.
 
-### Kedareshwar Temple + Kedar Ghat — rood-wit gestreepte Shiva-tempel aan de ghats, waar Ramakrishna een ecstase-ervaring had (Kedar Ghat, Varanasi) [A]
-
-TIJD: 11:45–12:15
-
-WAT IS DIT IN GEWOON NEDERLANDS?
-Een Shiva-tempel met een opvallende rood-wit gestreepte gevel, direct aan een eigen ghat.
-
-WAAROM WIL JIJ, MARK, HIERHEEN?
-Directe link met Sri Ramakrishna, een van je Top-X-personen.
-
-WIE WAS HIER / WAT GEBEURDE HIER?
-Sri Ramakrishna verbleef hier tijdens zijn Kasi-pelgrimage van 1868, met een gedocumenteerde ecstase-episode op deze exacte plek — dit is precies de reden waarom deze tempel in 2026 beschermd is gebleven tegen een bredere gradenverlaging-batch.
-
-WAT MOET JE HIER PRECIES ZOEKEN?
-De rood-wit gestreepte tempelgevel (afwijkend van de rest van Varanasi); de natuurlijke, ongepolijste linga met de witte ader (swayambhu, "zelf-gemanifesteerd"); de Zuid-Indiase rituele stijl en Zuid-Indiase pelgrims.
-
-VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27):
-Kedar Ghat is een van de oudste ghats van Kashi; de centrale linga is geen mensenwerk maar een natuurlijke rotsuitstulping, traditioneel "zelf-gemanifesteerd" genoemd. Legende: Shiva verscheen hier als bedelmonnik aan wijze Mandhata, die had gesmeekt om de Kedarnath-linga (Himalaya) ook in Kashi te mogen aanschouwen — vandaar het geloof dat een bezoek hier gelijkstaat aan een pilgrimage naar het echte Kedarnath. Koningin Ahilyabai Holkar liet de tempel in de 18e eeuw herbouwen; hij bleef naar overlevering ongeschonden tijdens Aurangzebs vernielingen (1668-1670).
-
-Sterkste, best gedocumenteerde link van de hele dag — via Sri Ramakrishna, niet via AOAY-tekst zelf: tijdens Ramakrishna's grote Kashi-pilgrimage in 1868 (met Mathur Mohan Biswas, ~125 reisgenoten) huurde Mathur Babu **twee huizen bij Kedar Ghat** als verblijfplaats voor het hele gezelschap. Vanuit die uitvalsbasis bezocht Ramakrishna talloze heiligdommen en raakte herhaaldelijk in samadhi/ecstase, met name in de Kedarnath/Kedareshwar-tempel. Tijdens dit verblijf bezocht Ramakrishna ook **Trailanga Swami** (toen zwijgend levend bij Manikarnika Ghat) en voedde hem persoonlijk met rijstepap uit eerbied — een direct, gedocumenteerd contact tussen twee Top-X-figuren tijdens hetzelfde verblijf waarin Kedar Ghat de uitvalsbasis was. Geen directe AOAY-tekstverwijzing naar Kedar Ghat zelf gevonden.
-
-BRONNEN: varanasi.rkmm.org/visit-of-sri-ramakrishna-to-varanasi, ramakrishnavivekananda.info (pilgrimage), en.wikiversity.org/wiki/The_Varanasi_Heritage_Dossier/Kedara_Ghat_and_Kedareshvara_temple, hindutemples-india.blogspot.com (Kedareshwar legends), en.wikisource.org/wiki/Autobiography_of_a_Yogi/Chapter_31 (ter controle, geen Kedar-vermelding).
-
-HOE WIL JE HIER ZIJN?
-Een kort, bewust bezoek — 30 minuten is genoeg voor tempel, ghat en het moment van erkenning.
-
-UNIEK HERKENNINGSPUNT
-De rood-wit gestreepte gevel, direct herkenbaar tussen de andere ghat-tempels.
-
-TOTALE TIJD VOOR DEZE LOCATIE: transfer 30 min + bezoek 30 min + transfer 20 min ≈ 1u20.
-TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: ~50 min (bezoek + het verschil tussen deze omweg en een rechtstreekse route naar Bhadaini) — klein, want de plek ligt al op de terugweg.
-
-### Transfer
-12:15–12:35 transfer naar Bhadaini, ~20 min zuidwaarts.
+11:15–11:45 transfer rechtstreeks naar Bhadaini, ~30 min (geconsolideerd nu de Kedar Ghat-tussenstop is verplaatst).
 
 ### Shree Shree Ma Anandamayi Ashram, Bhadaini — Anandamayi Ma's eigen ashram/leefplek in Varanasi (Bhadaini, Varanasi) [A+, beschermd, open einde]
 
-TIJD: vanaf 12:35, minimaal 3 uur, geen harde grens
+TIJD: vanaf 11:45 (vroeger dan voorheen, nu Kedar Ghat is verhuisd), minimaal 3 uur, geen harde grens
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Anandamayi Ma's eigen ashram in Varanasi — een levende plek van worship, niet een museum of foto-stop.
@@ -258,7 +225,7 @@ TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: niet van toepassing — dit is een vast
 
 ---
 
-**Openstaande keuze, verplaatst naar vrijdagochtend, niet hier toegevoegd:** Sankat Mochan Hanuman Temple en Durga Temple/Durga Kund (zie vrijdag).
+**GESCHRAPT 28-9-2026, niet hier of elders toegevoegd:** Sankat Mochan Hanuman Temple en Durga Temple/Durga Kund — Mark: geen lineage-link, wil er niet heen.
 
 ---
 
@@ -406,79 +373,12 @@ TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: niet van toepassing.
 TOTALE TIJD VOOR DEZE LOCATIE: 30 min, direct aansluitend op de vorige stop, geen aparte transfer.
 TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: 30 min.
 
-12:00–13:00 lunch/rust. 13:00–13:30 wandeling/beveiligingsaanpak naar Kashi Vishwanath.
-
-### Shri Kashi Vishwanath Temple — Kashi's Gouden Tempel, één van de twaalf Jyotirlinga's van Shiva (Vishwanath-cluster, oude stad, Varanasi) [A]
-
-TIJD: 13:30–15:00
-
-WAT IS DIT IN GEWOON NEDERLANDS?
-Het centrale Shiva-heiligdom van Varanasi/Kashi: één van Hindoeïsme's twaalf Jyotirlinga's en één van de belangrijkste pelgrimsbestemmingen van de stad, herkenbaar aan de gouden torenspitsen.
-
-WAAROM WIL JIJ, MARK, HIERHEEN?
-Geen directe link met je eigen lineage-personen; de waarde is het binnengaan van de dichte, levende heilige wereld van de oude stad en het ontvangen van darshan van de Vishwanath-lingam — Shiva als "Heer van het Universum" — middenin actieve verering, niet als museumstuk.
-
-WIE WAS HIER / WAT GEBEURDE HIER?
-De huidige tempel werd in 1780 herbouwd door Ahilyabai Holkar; het is al eeuwenlang één van de sterkste levende Shiva-pelgrimsplekken van heel India.
-
-WAT MOET JE HIER PRECIES ZOEKEN?
-De Vishwanath-lingam zelf, in het hoofdheiligdom; de Gyanvapi-put en -moskee direct naast de tempel; de vergulde koepels (geschenk van Maharaja Ranjit Singh, 1835); de vroege-ochtend Mangala Aarti (04:00-06:00).
-
-VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27):
-Eén van de twaalf Jyotirlinga's — Shiva manifesteerde zich hier volgens de mythologie als oneindige lichtkolom tijdens een twist tussen Brahma en Vishnu. Roerige geschiedenis: verwoest in 1194 (Muhammad Ghori), 1490 (Sikandar Lodi) en 1669 (Aurangzeb, die op de tempelgrond de Gyanvapi-moskee liet bouwen die er nog steeds direct naast staat, met de heilige Gyanvapi-put ertussen). De huidige structuur werd in 1780 gebouwd door Maratha-koningin Ahilyabai Holkar. In 2021 werd de Kashi Vishwanath Corridor ingewijd, die meer dan 40 vergeten oude tempeltjes blootlegde.
-
-AOAY noemt deze tempel niet met naam (Hoofdstuk 28 gaat, ter verduidelijking, NIET over de tempel maar over een jongensvriend genaamd Kashi). De echte, sterke link loopt via Sri Ramakrishna: tijdens zijn 1868-pelgrimage bezocht hij vrijwel dagelijks Vishwanath en raakte er herhaaldelijk in trance/samadhi, kreeg bij de ghats een visioen van Shiva en Parvati die zielen van gecremeerden nectar/verlossing schonken. In dezelfde periode bezocht hij ook Trailanga Swami (eveneens Top-X, zie donderdag), die vlak bij deze tempel bij Manikarnika verbleef.
-
-BRONNEN: en.wikipedia.org/wiki/Kashi_Vishwanath_Temple, varanasi.rkmm.org/visit-of-sri-ramakrishna-to-varanasi, sriramakrishna.in (pilgrimage), trailangaswami.in (Trailanga Swami and Ramkrishna Paramahansa), en.wikisource.org/wiki/Autobiography_of_a_Yogi/Chapter_28 (ter verduidelijking).
-
-HOE WIL JE HIER ZIJN?
-Darshan/bezoek, geen lang zitten — reken op de volle tijd door beveiliging en wachtrij.
-
-UNIEK HERKENNINGSPUNT
-De gouden torenspitsen, zichtbaar boven de dichte oude stad.
-
-KORTE NUANCE
-Zeer druk, veel beveiliging, mogelijk wachtrij-intensief — dit beïnvloedt de ervaring materieel, dus vermeld hier wel (dit is praktische realiteit, geen scepsis over de plek zelf).
-
-TOTALE TIJD VOOR DEZE LOCATIE: wandeling 30 min + bezoek 90 min ≈ 2 uur.
-TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: ~2 uur, maar dit is het levende religieuze hart van de hele stad — niet aanbevolen om te schrappen.
-
-15:00–15:30 naar Annapurna — vangt eventuele wachttijd-overloop op, respecteert de middagheropening.
-
-### Maa Annapurna Temple — godin van voeding/overvloed, direct naast Kashi Vishwanath (Vishwanath-cluster, Varanasi) [A]
-
-TIJD: 15:30–16:00
-
-WAT IS DIT IN GEWOON NEDERLANDS?
-Een tempel voor Annapurna, de godin van voedsel en overvloed, in dezelfde tempelcluster als Vishwanath.
-
-WAAROM WIL JIJ, MARK, HIERHEEN?
-Geen eigen lineage-link — bijvangst direct naast Vishwanath, in dezelfde heilige microcluster, kost nauwelijks extra tijd.
-
-WIE WAS HIER / WAT GEBEURDE HIER?
-Geen specifiek persoon-event; onderdeel van de bredere Kashi-verering rond voeding en overvloed.
-
-WAT MOET JE HIER PRECIES ZOEKEN?
-Het bronzen dagelijkse beeld van Annapurna (het gouden beeld is alleen zichtbaar tijdens Annakut, de dag na Diwali); het zilveren Shiva-beeld ("Bholenath") ernaast.
-
-VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27):
-Gebouwd in 1729 door Maratha Peshwa Baji Rao, Nagara-stijl. Centrale legende: Shiva noemde de materiële wereld/voedsel ooit illusie (maya), wat Parvati zo kwaad maakte dat zij verdween — waarna de hele wereld getroffen werd door hongersnood, zelfs de goden vonden geen voedsel meer. Eén keuken bleef voorradig: in Kashi, gerund door Parvati als Annapurna. Shiva kwam er met zijn eigen bedelnap voedsel vragen, erkende zijn fout, en Parvati/Annapurna voedde hem met haar eigen handen — sindsdien wordt Annapurna in Kashi vereerd als degene die zelfs Shiva moet voeden.
-
-Geen directe AOAY- of Top-X-vermelding gevonden; plausibel maar niet hard bevestigd dat Ramakrishna (die tijdens zijn 1868-bezoek "vele andere tempels" naast Vishwanath bezocht) ook hier kwam — deur-aan-deur met Vishwanath. De echte kracht van deze plek is thematisch: het idee dat spiritueel (Shiva) en stoffelijk/voedend (Annapurna) elkaar nodig hebben, resoneert sterk met Lahiri Mahasaya's eigen levensfilosofie als "householder-guru" die liet zien dat spirituele verwerkelijking te combineren is met een volwaardig wereldlijk leven.
-
-BRONNEN: en.wikipedia.org/wiki/Annapurna_Devi_Mandir, kashiannapurnatemple.com (mythologische geschiedenis), incredibleindia.gov.in/en/uttar-pradesh/varanasi/maa-annapurna-temple, sanatanajourney.com (Story of Goddess Annapurna).
-
-HOE WIL JE HIER ZIJN?
-Kort bezoek, aansluitend op Vishwanath.
-
-UNIEK HERKENNINGSPUNT
-Onderdeel van dezelfde tempelcluster als Vishwanath, herkenbaar aan de Annapurna-beelden/afbeeldingen.
-
-TOTALE TIJD VOOR DEZE LOCATIE: 30 min, direct naast de vorige stop.
-TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: 30 min.
+12:00–13:00 lunch/rust.
 
 ### Terug naar hotel
-16:00–16:30 terug naar hotel, ~30 min. **Deze dag eindigt hier — flink eerder dan voorheen, omdat Dashashwamedh Ghat + Ganga Aarti verplaatst is naar vrijdagavond (LOCKED BY MARK 2026-09-27). De AOAY/Kriya-erkenning blijft volledig aan de plek gekoppeld, ongeacht de kalenderdag — zie vrijdag voor de volledige kaart.**
+**VERPLAATST 28-9-2026:** Shri Kashi Vishwanath Temple en Maa Annapurna Temple zijn verhuisd naar vrijdagmiddag (zie VR 8 JAN), samen met Kedar Ghat, als één doorlopende boog die eindigt bij Dashashwamedh Ghat — op Mark's uitdrukkelijke verzoek om woensdag lichter te maken door er echte inhoud van weg te halen, in plaats van vrijdag te vullen met tempels zonder lineage-link. Volledige kaarten en onderzoek staan nu bij vrijdag.
+
+13:00–13:30 terug naar hotel, ~30 min. **Deze dag eindigt hier — flink eerder dan voorheen (rond 13:30 i.p.v. 16:30). De AOAY/Kriya-erkenning van Dashashwamedh Ghat blijft volledig aan de plek gekoppeld, ongeacht de kalenderdag — zie vrijdag voor de volledige kaart.**
 
 ---
 
@@ -682,151 +582,17 @@ CCI-ADVIES: geen vast tijdslot toekennen zolang niet bevestigd; alleen een blik 
 
 ---
 
-## VR 8 JAN — Reserve/overloop-dag: optionele tempels + Duniya-schooltje + Dashashwamedh in de avond
+## VR 8 JAN — Volwaardige dag: Duniya-schooltje + Kedar Ghat + Vishwanath/Annapurna + Dashashwamedh-avond
 
-**HERZIEN 28-9-2026 (vierde aanpassing, structurele koerswijziging):** Durga Temple, Sankat Mochan, Lalita Ghat en Nepali/Kathwala Temple zijn door Mark hergegradeerd van A naar **A\*** — precies omdat ze niets met zijn lineage te maken hebben. Mark's eigen woorden: "Alles wat er stond op vrijdag is A* geworden geen A... Leuk om bijna gratis mee te nemen. Anders niet. Liever de zware andere dagen deels laten overvloeien in de vrijdag zodat minder druk op die dagen komt." Vrijdag is daarom niet langer een dag met vier vaste tempel-tijdblokken, maar een **reserve/overloop-dag**: de vaste inhoud is nu het Duniya-schooltje (2 uur, nieuw bevestigd) en de beschermde Dashashwamedh-avond; de vier tempels zijn puur optioneel geworden, en de ochtend/vroege middag is bewust ruimte om overloop van dinsdag (Anandamayi Ashram, open einde), woensdag (Lahiri huis/Satyalok, jouw eigen tempo) of donderdag (Manikarnika, open einde) op te vangen zonder die dagen zelf te moeten inkorten.
+**HERZIEN 28-9-2026 (vijfde aanpassing, definitieve structuur):** Durga Temple, Sankat Mochan, Lalita Ghat en Nepali/Kathwala Temple zijn volledig geschrapt, niet optioneel — Mark: "Die dingen wil ik niet naartoe... die onderdelen hebben niets met mijn lineage te maken." Vrijdag is geen restdag geworden, maar een volwaardige dag, precies zoals Mark vroeg: "vrijdag kan net zo'n dag worden als een van de andere dagen om juist die dagen lichter te maken... het feit dat ik 's avonds vertrek betekent niet dat ik dan de hele dag niets kan doen." Concreet gerealiseerd door twee bestaande, echte items te verplaatsen: **Kedareshwar Temple/Kedar Ghat** (van dinsdag, Ramakrishna-link) en **Shri Kashi Vishwanath Temple + Maa Annapurna Temple** (van woensdag, algemeen-religieus hart van de stad) — samen met het Duniya-schooltje vormen deze één doorlopende boog zuid-naar-noord langs de rivier, die eindigt bij Dashashwamedh Ghat voor de avond-Aarti. Dit verlicht zowel dinsdag (geen Kedar-tussenstop meer) als woensdag (eindigt nu na de lunch) merkbaar, en combineert bovendien twee aparte heen-en-terugritjes vanaf het hotel (voorheen: een naar Vishwanath op woensdag, een naar Dashashwamedh op vrijdag) tot één doorlopende middag/avond — minder totale reistijd over de week, niet meer.
 
-**VERTREK HOTEL: 08:30** (planningsbasis — schuift mee als een eerdere dag is uitgelopen)
+**VERTREK HOTEL: 08:30**
 
-**08:30–11:30 — OPTIONEEL BLOK, ALLEEN ALS HET NOG TREKT EN NIETS IS UITGELOPEN:** Durga Kund → Sankat Mochan → Lalita Ghat → Nepali Temple, in die volgorde, zoals hieronder uitgewerkt. Dit is nu bewust vrijblijvend: geen enkele lineage-reden om dit te doen, puur sfeer/architectuur/curiositeit. Sla dit blok zonder spijt over als dinsdag/woensdag/donderdag meer tijd nodig hadden, of als je liever eerder rust.
+08:30–08:45 transfer naar Nagwa, ~15 min, dichtbij (zelfde zuidelijke zone als het hotel).
 
-08:30–08:45 transfer naar Durga Kund-zone, ~15 min, dichtbij.
+### Stichting Duniya-schooltje, wijk Nagwa — bevestigd via persoonlijke bekende
 
-### Durga Temple/Durga Kund — "de Apentempel", rode Nagara-architectuur met een heilige waterbak (Durga Kund, Varanasi) [A\* — GEHERGRADEERD 28-9-2026, was A]
-
-TIJD: 08:45–09:15
-
-WAT IS DIT IN GEWOON NEDERLANDS?
-Een rode, Nagara-stijl tempel voor de godin Durga, bekend als "de Apentempel" vanwege de vele apen op het terrein, met een aangrenzende heilige waterbak (kund).
-
-WAAROM WIL JIJ, MARK, HIERHEEN?
-Geen eigen lineage-link — de reden is architectuur en sfeer: felrode, fotogenieke tempelarchitectuur, en nu op een dag met genoeg ruimte ervoor.
-
-WIE WAS HIER / WAT GEBEURDE HIER?
-Geen specifiek persoon-event voor jouw lineage; algemene Durga-verering.
-
-WAT MOET JE HIER PRECIES ZOEKEN?
-De rode Nagara-architectuur (Bengaals-geïnspireerd, zeldzaam qua kleur in Varanasi); het swayambhu-beeld (zelf-gemanifesteerd) in het binnenste heiligdom; de rituele baden aan de kund-trappen.
-
-VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27):
-Gebouwd in de 18e eeuw (soms specifiek 1760) door Rani Bhabani van Natore, een machtige Bengaalse weduwe-koningin bekend voor het financieren van tempels/ghats langs de Ganges (dezelfde Rani Bhabani die Bengali Tola stichtte, zie woensdag). Consecratie door de heilige Narayana Dikshit rond 1772. Volgens de Kashi Khanda-traditie smeekte koning Subahu van Kashi de godin Durga zich hier te vestigen; zij stemde toe "zolang deze schepping bestaat". Het beeld wordt beschreven als swayambhu. De Devi wordt hier vereerd in haar Kushmanda-vorm, één van de negen vormen uit de Navadurga-cyclus.
-
-Eerlijke conclusie: geen directe, documenteerbare vermelding in AOAY, geen gevonden verband met een van de Top-X-figuren op deze exacte locatie. De rechtvaardiging is niet lineage-gebaseerd maar wel stevig: dit is een van de weinige plekken waar swayambhu-mythologie, Kashi Khanda-kosmologie én levende volksreligiositeit (de apen, de rituele baden, de drukte van gewone pelgrims) samenkomen — niet-gefilterde, lokale Sakta-verering.
-
-BRONNEN: en.wikipedia.org/wiki/Durga_Mandir,_Varanasi, incredibleindia.gov.in/en/uttar-pradesh/varanasi/durga-temple, sahasa.in (Durga Kund Kushmanda Durga Temple), kashibanaras.com/durga-kund-temple.
-
-HOE WIL JE HIER ZIJN?
-Bekijken, fotograferen. 30 minuten.
-
-UNIEK HERKENNINGSPUNT
-De felrode Nagara-architectuur en de vele apen op het terrein.
-
-TOTALE TIJD VOOR DEZE LOCATIE: transfer 15 min + bezoek 30 min ≈ 45 min.
-TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: ~30 min, want Sankat Mochan ligt direct ernaast.
-
-### Sankat Mochan Hanuman Temple — grote Hanuman-tempel, gesticht in de traditie van Tulsidas (Durga Kund-omgeving, Varanasi) [A\* — GEHERGRADEERD 28-9-2026, was A]
-
-TIJD: 09:15–09:45
-
-WAT IS DIT IN GEWOON NEDERLANDS?
-Een grote, levendige Hanuman-tempel, direct naast Durga Kund, met veel apen.
-
-WAAROM WIL JIJ, MARK, HIERHEEN?
-Geen eigen lineage-link — grote, bekende tempel; de reden om te gaan is de sfeer en de stichtingslegende, niet een persoonlijke lineagelink.
-
-WIE WAS HIER / WAT GEBEURDE HIER?
-De tempel wordt in verband gebracht met Tulsidas — dezelfde dichter-heilige als bij Tulsi Ghat — als sticht(er)-traditie van deze Hanuman-verering.
-
-WAT MOET JE HIER PRECIES ZOEKEN?
-Het hoofdheiligdom met het Hanuman-beeld; besef dat je hier op de plek staat waar Tulsidas (zie Tulsi Ghat, dinsdag) naar overlevering een visioen van Hanuman had.
-
-VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27):
-Gesticht door dichter-heilige Goswami Tulsidas (1511-1623) begin 16e eeuw, op de plek van zijn visioen van Hanuman. Tulsidas is auteur van de Ramcharitmanas (Hindi-Ramayana) en de Hanuman Chalisa; naar overlevering schreef hij een substantieel deel van de Ramcharitmanas op of nabij deze plek. "Sankat Mochan" betekent "verlosser van beproevingen". De huidige structuur werd herbouwd door Pandit Madan Mohan Malviya, oprichter van Banaras Hindu University — een moderne nationalistisch-religieuze laag erbovenop. Dinsdagen/zaterdagen trekken duizenden bezoekers.
-
-Geen directe AOAY-vermelding, geen gedocumenteerd bezoek van een Top-X-figuur aan deze specifieke tempel. Tulsidas zelf staat niet op Mark's Top-X-lijst (oudere, aparte Vaishnava/Rama-bhakti-traditie), maar is een van de grootste heiligen van Kashi in het algemeen. De rechtvaardiging: dit is een van de weinige plekken in heel India waar een geverifieerd historisch persoon een van de invloedrijkste religieuze teksten van het subcontinent schreef op de exacte fysieke plek die je bezoekt — vergelijkbaar in gewicht (voor het Rama-bhakti-universum) met wat het Lahiri Mahasaya-huis is voor de Kriya-lijn.
-
-BRONNEN: en.wikipedia.org/wiki/Sankat_Mochan_Hanuman_Temple, en.wikipedia.org/wiki/Tulsidas, kashi.gov.in/listing-details/shri-sankat-mochan-temple, sankatmochanmandirvaranasi.com/about-us.
-
-HOE WIL JE HIER ZIJN?
-Kort bezoek, darshan. 30 minuten.
-
-UNIEK HERKENNINGSPUNT
-Levendige, drukke tempel met veel apen op het terrein.
-
-TOTALE TIJD VOOR DEZE LOCATIE: 30 min, direct naast de vorige stop.
-TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: 30 min.
-
-09:45–10:15 transfer noordwaarts naar Lalita Ghat-zone, ~30 min door de stad.
-
-### Lalita Ghat — ghat met kenmerkende Nepalese rivieroever-architectuur (Lalita Ghat, Varanasi) [A\* — GEHERGRADEERD 28-9-2026, was A]
-
-TIJD: 10:15–10:45
-
-WAT IS DIT IN GEWOON NEDERLANDS?
-Een ghat met een opvallende, Nepalese-stijl gebouwde tempel aan de rivier.
-
-WAAROM WIL JIJ, MARK, HIERHEEN?
-Geen eigen lineage-link — architectuur/sfeer: een ongewoon Nepalees bouwstijl-eiland midden in de Varanasi-ghats.
-
-WIE WAS HIER / WAT GEBEURDE HIER?
-Geen specifiek persoon-event; de architecturale herkomst (Nepalese bouwstijl aan de Ganges) is zelf de reden.
-
-WAT MOET JE HIER PRECIES ZOEKEN?
-De trappen van de ghat zelf; het kleine Lalita Gauri-schrijn; het uitzicht op/de nabijheid van Manikarnika Ghat vlak ernaast.
-
-VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27):
-Gebouwd begin 19e eeuw, gecommissioneerd door Rana Bahadur Shah, koning van Nepal, die van 1800-1804 in ballingschap in Varanasi verbleef (als "Swami Nirgunanda"). Vernoemd naar de godin Lalita. Hij werd op 25 april 1806 vermoord door zijn stiefbroer, vóórdat ghat en tempel af waren; zijn zoon Girvan Yuddha Bikram Shah Deva voltooide het — bouw duurde in totaal ~40 jaar.
-
-Geen documenteerbare AOAY- of Top-X-connectie. De rechtvaardiging: dit is de enige plek in Varanasi waar een buitenlandse (Nepalese) koninklijke ballingschap fysiek zijn stempel op de rivieroever drukte, direct naast Manikarnika (de plek van rituele bevrijding) — voor wie de volle spirituele geografie van Kashi wil doorleven (leven, dood, verlichting, verbanning) een essentiële schakel, ook zonder directe Kriya-lineage-link.
-
-BRONNEN: en.wikipedia.org/wiki/Lalita_Ghat, livehistoryindia.com (Pashupatinath Temple), en.wikipedia.org/wiki/Lalita_Gauri_Mandir, trawell.in (Lalita Ghat Nepali Temple).
-
-HOE WIL JE HIER ZIJN?
-Bekijken, fotograferen. 30 minuten.
-
-UNIEK HERKENNINGSPUNT
-Nepalese pagode-architectuur, ongewoon voor de Varanasi-rivieroever.
-
-TOTALE TIJD VOOR DEZE LOCATIE: transfer 30 min + bezoek 30 min ≈ 1 uur.
-TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: ~30 min, want de Nepali/Kathwala Temple ligt er direct naast.
-
-### Nepali/Kathwala Temple — Kathmandu-stijl houten pagodetempel, met kleine erotische houtsnijwerken vergelijkbaar met Khajuraho (direct naast Lalita Ghat, Varanasi) [A\* — GEHERGRADEERD 28-9-2026, was A]
-
-TIJD: 10:45–11:30
-
-WAT IS DIT IN GEWOON NEDERLANDS?
-Een houten pagodetempel in Kathmandu-stijl, met kleine erotische houtsnijwerken die vaak vergeleken worden met de beroemdere Khajuraho-tempels.
-
-WAAROM WIL JIJ, MARK, HIERHEEN?
-Geen eigen lineage-link — unieke architectuur, één van de weinige houten Nepalese pagodetempels buiten Nepal.
-
-WIE WAS HIER / WAT GEBEURDE HIER?
-Geen specifiek persoon-event; de bouwstijl en de bijzondere houtsnijwerken zijn zelf de aantrekkingskracht.
-
-WAT MOET JE HIER PRECIES ZOEKEN?
-De meerlaagse houten pagodedaken, de fijne houtsnijwerken (waaronder de erotische panelen), en het contrast met de stenen tempels er direct omheen.
-
-VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27):
-Officieel vaak "Nepali Mandir"/"Samrajeshwar Pashupatinath Mahadev Temple", volksmond "Kathwala" (kath = hout). Een bewuste replica van de Pashupatinath-tempel in Kathmandu, gebouwd in opdracht van dezelfde Rana Bahadur Shah die Lalita Ghat liet aanleggen; voltooid door zijn zoon rond 1843. Opgetrokken uit termietbestendig hout speciaal uit Nepal geïmporteerd, bouwstijl verwant aan het Kasthamandap-type gebouwen van Kathmandu (waar de naam "Kathmandu" zelf vandaan komt). Bekend als "Mini Khajuraho" vanwege kleine erotische houtsnijwerken op de gevels.
-
-Geen gevonden verband met AOAY of Top-X-figuren — zuiver Nepalees-koninklijke geschiedenis. De rechtvaardiging: architectonisch en cultureel het meest zeldzame gebouw aan de hele Ganges-oever in Varanasi, en de erotische snijwerken geven een broodnodig tegenwicht tegen een te ascetisch beeld van hindoeïstische tempelkunst — tantrische/erotische iconografie is een serieuze, oude religieuze traditie (net als in Khajuraho), niet een curiositeit.
-
-BRONNEN: en.wikipedia.org/wiki/Nepali_Mandir, livehistoryindia.com (Pashupatinath Temple), audiala.com/en/india/varanasi/nepali-mandir, thedivineindia.com.
-
-HOE WIL JE HIER ZIJN?
-Bekijken, de details opzoeken. 45 minuten.
-
-UNIEK HERKENNINGSPUNT
-Houten pagode-architectuur met kleine erotische snijwerken, ongewoon voor Varanasi.
-
-TOTALE TIJD VOOR DEZE LOCATIE: 45 min, direct naast de vorige stop.
-TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: 45 min.
-
-11:30–12:00 transfer terug naar hotel/Assi-zone, ~30 min (was 45 min naar Assi Ghat exact; Nagwa/Duniya-schooltje ligt op dezelfde route, dus geen extra omweg).
-
-### Stichting Duniya-schooltje, wijk Nagwa — bevestigd via persoonlijke bekende [nog niet gegradeerd, wel bevestigd bezoek]
-
-TIJD: 12:00–14:00 (2 uur, zoals gevraagd)
+TIJD: 08:45–10:45 (2 uur, zoals gevraagd)
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Een kleinschalig Nederlands vrijwilligersproject (Stichting Duniya, sinds 1996) in de sloppenwijk Nagwa — dagelijks basisonderwijs aan ~50 kinderen vanaf 4 jaar, schoolmaaltijden, en twee beroepsopleidingen (naaien, schoonheidsspecialiste) op dezelfde locatie.
@@ -846,23 +612,121 @@ Op basis van een eerder bezoekverslag: klasbezoek, kennismaking met de leerlinge
 UNIEK HERKENNINGSPUNT
 Nagwa ligt vrijwel direct achter/naast Assi Ghat — dezelfde zuidelijke zone als je hotel, dus praktisch geen extra reistijd.
 
-TOTALE TIJD VOOR DEZE LOCATIE: 2 uur, nauwelijks extra transfer t.o.v. toch al terug naar Assi-zone gaan.
-TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: niet van toepassing — dit is nu bevestigd, geen schrapkandidaat.
+TOTALE TIJD VOOR DEZE LOCATIE: 2 uur.
+TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: niet van toepassing — bevestigd, geen schrapkandidaat.
 
-**14:00–15:30 (~1u30) — Assi Ghat zelf + contemplatie-/overloop-reserve.** Assi Ghat is zelf een eigen A+-gegradeerd item in de ledger ("fysieke ghat-anker, los van de ervaringen die er plaatsvinden"). Dit blok is bewust de plek waar extra tijd naartoe kan als dinsdag (Anandamayi Ashram), woensdag (Lahiri Mahasaya's huis/Satyalok) of donderdag (Manikarnika) meer tijd nodig hadden dan gepland — die dagen hoeven daarvoor niet ingekort te worden, dit blok vangt het op. Is er niets opgevangen nodig: gewoon aanwezig zijn, zonder programma.
+10:45–11:15 transfer naar Kedar Ghat, ~30 min (noordwaarts langs/via de ghats).
 
-VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK OP ASSI GHAT ZELF (online research 2026-09-27): Assi Ghat markeert de zuidgrens van heilig Varanasi, op de plek waar de kleine Assi-rivier oorspronkelijk in de Ganges uitmondde (samenvloeiing in 1981-82 ~0,5 km naar het zuiden verschoven). Al genoemd in Gahadavala-inscripties (11e-12e eeuw) en in de Kurma, Matsya en Padma Purana — een van de oudste tekstueel-geattesteerde ghats van de stad. Tot in de 19e eeuw grotendeels natuurlijk/onverhard; in 1902 kocht koningin Radha Dulari Kunwar (Sursand-landgoed, Bihar) het zuidelijke deel en bouwde er een klein paleis (nu Hotel Ganga View); pas in 1988 werd de huidige stenen ghat aangelegd. Er is een Sangameshvara-schrijn met marmeren plaquette, onderdeel van de Panchakroshi-pelgrimsroute.
+### Kedareshwar Temple + Kedar Ghat — rood-wit gestreepte Shiva-tempel aan de ghats, waar Ramakrishna een ecstase-ervaring had (Kedar Ghat, Varanasi) [A]
 
-Geen directe AOAY-vermelding van Assi Ghat zelf. **Wel een sterke Top-X-connectie:** Trailanga Swami (zie donderdag) woonde volgens meerdere bronnen op verschillende momenten in zijn extreem lange leven (stierf 1887, vestigde zich 1737 in Varanasi) onder andere op Assi Ghat, naast de Vedavyas Ashrama bij Hanuman Ghat en Dashashwamedh Ghat — een reëel, meermaals gedocumenteerd biografisch feit. Dat betekent dat je hier, op je eigen uitvalsbasis, letterlijk slaapt en ontwaakt op de plek waar deze door zowel Ramakrishna als de yogatraditie erkende siddha rondliep.
+TIJD: 11:15–11:45
 
-BRONNEN: en.wikipedia.org/wiki/Assi_Ghat, en.wikiversity.org/wiki/The_Varanasi_Heritage_Dossier/Assi_Ghat, varanasiguru.com/assi-ghat, ramdass.org (Sri Trailanga Swami, The Walking Lord Shiva of Varanasi), vedicfeed.com/sri-trailanga-swami.
+WAT IS DIT IN GEWOON NEDERLANDS?
+Een Shiva-tempel met een opvallende rood-wit gestreepte gevel, direct aan een eigen ghat.
 
-### Transfer
-15:30–16:00 transfer naar Dashashwamedh Ghat, ~30 min.
+WAAROM WIL JIJ, MARK, HIERHEEN?
+Directe link met Sri Ramakrishna, een van je Top-X-personen.
+
+WIE WAS HIER / WAT GEBEURDE HIER?
+Sri Ramakrishna verbleef hier tijdens zijn Kasi-pelgrimage van 1868, met een gedocumenteerde ecstase-episode op deze exacte plek — dit is precies de reden waarom deze tempel in 2026 beschermd is gebleven tegen een bredere gradenverlaging-batch.
+
+WAT MOET JE HIER PRECIES ZOEKEN?
+De rood-wit gestreepte tempelgevel (afwijkend van de rest van Varanasi); de natuurlijke, ongepolijste linga met de witte ader (swayambhu, "zelf-gemanifesteerd"); de Zuid-Indiase rituele stijl en Zuid-Indiase pelgrims.
+
+VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27):
+Kedar Ghat is een van de oudste ghats van Kashi; de centrale linga is geen mensenwerk maar een natuurlijke rotsuitstulping, traditioneel "zelf-gemanifesteerd" genoemd. Legende: Shiva verscheen hier als bedelmonnik aan wijze Mandhata, die had gesmeekt om de Kedarnath-linga (Himalaya) ook in Kashi te mogen aanschouwen — vandaar het geloof dat een bezoek hier gelijkstaat aan een pilgrimage naar het echte Kedarnath. Koningin Ahilyabai Holkar liet de tempel in de 18e eeuw herbouwen; hij bleef naar overlevering ongeschonden tijdens Aurangzebs vernielingen (1668-1670).
+
+Sterkste, best gedocumenteerde link — via Sri Ramakrishna, niet via AOAY-tekst zelf: tijdens Ramakrishna's grote Kashi-pilgrimage in 1868 (met Mathur Mohan Biswas, ~125 reisgenoten) huurde Mathur Babu **twee huizen bij Kedar Ghat** als verblijfplaats voor het hele gezelschap. Vanuit die uitvalsbasis bezocht Ramakrishna talloze heiligdommen en raakte herhaaldelijk in samadhi/ecstase, met name in de Kedarnath/Kedareshwar-tempel. Tijdens dit verblijf bezocht Ramakrishna ook **Trailanga Swami** (toen zwijgend levend bij Manikarnika Ghat) en voedde hem persoonlijk met rijstepap uit eerbied — een direct, gedocumenteerd contact tussen twee Top-X-figuren tijdens hetzelfde verblijf waarin Kedar Ghat de uitvalsbasis was. Geen directe AOAY-tekstverwijzing naar Kedar Ghat zelf gevonden.
+
+BRONNEN: varanasi.rkmm.org/visit-of-sri-ramakrishna-to-varanasi, ramakrishnavivekananda.info (pilgrimage), en.wikiversity.org/wiki/The_Varanasi_Heritage_Dossier/Kedara_Ghat_and_Kedareshvara_temple, hindutemples-india.blogspot.com (Kedareshwar legends), en.wikisource.org/wiki/Autobiography_of_a_Yogi/Chapter_31 (ter controle, geen Kedar-vermelding).
+
+HOE WIL JE HIER ZIJN?
+Een kort, bewust bezoek — 30 minuten is genoeg voor tempel, ghat en het moment van erkenning.
+
+UNIEK HERKENNINGSPUNT
+De rood-wit gestreepte gevel, direct herkenbaar tussen de andere ghat-tempels.
+
+TOTALE TIJD VOOR DEZE LOCATIE: transfer 30 min + bezoek 30 min ≈ 1 uur.
+TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: ~30 min — ligt al op de route naar Vishwanath, klein voordeel.
+
+11:45–12:15 transfer naar de Vishwanath-cluster, ~30 min.
+
+12:15–13:00 lunch/rust. 13:00–13:30 wandeling/beveiligingsaanpak naar Kashi Vishwanath.
+
+### Shri Kashi Vishwanath Temple — Kashi's Gouden Tempel, één van de twaalf Jyotirlinga's van Shiva (Vishwanath-cluster, oude stad, Varanasi) [A]
+
+TIJD: 13:30–15:00
+
+WAT IS DIT IN GEWOON NEDERLANDS?
+Het centrale Shiva-heiligdom van Varanasi/Kashi: één van Hindoeïsme's twaalf Jyotirlinga's en één van de belangrijkste pelgrimsbestemmingen van de stad, herkenbaar aan de gouden torenspitsen.
+
+WAAROM WIL JIJ, MARK, HIERHEEN?
+Geen directe link met je eigen lineage-personen; de waarde is het binnengaan van de dichte, levende heilige wereld van de oude stad en het ontvangen van darshan van de Vishwanath-lingam — Shiva als "Heer van het Universum" — middenin actieve verering, niet als museumstuk.
+
+WIE WAS HIER / WAT GEBEURDE HIER?
+De huidige tempel werd in 1780 herbouwd door Ahilyabai Holkar; het is al eeuwenlang één van de sterkste levende Shiva-pelgrimsplekken van heel India.
+
+WAT MOET JE HIER PRECIES ZOEKEN?
+De Vishwanath-lingam zelf, in het hoofdheiligdom; de Gyanvapi-put en -moskee direct naast de tempel; de vergulde koepels (geschenk van Maharaja Ranjit Singh, 1835); de vroege-ochtend Mangala Aarti (04:00-06:00).
+
+VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27):
+Eén van de twaalf Jyotirlinga's — Shiva manifesteerde zich hier volgens de mythologie als oneindige lichtkolom tijdens een twist tussen Brahma en Vishnu. Roerige geschiedenis: verwoest in 1194 (Muhammad Ghori), 1490 (Sikandar Lodi) en 1669 (Aurangzeb, die op de tempelgrond de Gyanvapi-moskee liet bouwen die er nog steeds direct naast staat, met de heilige Gyanvapi-put ertussen). De huidige structuur werd in 1780 gebouwd door Maratha-koningin Ahilyabai Holkar. In 2021 werd de Kashi Vishwanath Corridor ingewijd, die meer dan 40 vergeten oude tempeltjes blootlegde.
+
+AOAY noemt deze tempel niet met naam (Hoofdstuk 28 gaat, ter verduidelijking, NIET over de tempel maar over een jongensvriend genaamd Kashi). De echte, sterke link loopt via Sri Ramakrishna: tijdens zijn 1868-pelgrimage bezocht hij vrijwel dagelijks Vishwanath en raakte er herhaaldelijk in trance/samadhi, kreeg bij de ghats een visioen van Shiva en Parvati die zielen van gecremeerden nectar/verlossing schonken. In dezelfde periode bezocht hij ook Trailanga Swami (eveneens Top-X, zie donderdag), die vlak bij deze tempel bij Manikarnika verbleef.
+
+BRONNEN: en.wikipedia.org/wiki/Kashi_Vishwanath_Temple, varanasi.rkmm.org/visit-of-sri-ramakrishna-to-varanasi, sriramakrishna.in (pilgrimage), trailangaswami.in (Trailanga Swami and Ramkrishna Paramahansa), en.wikisource.org/wiki/Autobiography_of_a_Yogi/Chapter_28 (ter verduidelijking).
+
+HOE WIL JE HIER ZIJN?
+Darshan/bezoek, geen lang zitten — reken op de volle tijd door beveiliging en wachtrij.
+
+UNIEK HERKENNINGSPUNT
+De gouden torenspitsen, zichtbaar boven de dichte oude stad.
+
+KORTE NUANCE
+Zeer druk, veel beveiliging, mogelijk wachtrij-intensief — dit beïnvloedt de ervaring materieel, dus vermeld hier wel (dit is praktische realiteit, geen scepsis over de plek zelf).
+
+TOTALE TIJD VOOR DEZE LOCATIE: wandeling 30 min + bezoek 90 min ≈ 2 uur.
+TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: ~2 uur, maar dit is het levende religieuze hart van de hele stad — niet aanbevolen om te schrappen.
+
+15:00–15:30 naar Annapurna — vangt eventuele wachttijd-overloop op.
+
+### Maa Annapurna Temple — godin van voeding/overvloed, direct naast Kashi Vishwanath (Vishwanath-cluster, Varanasi) [A]
+
+TIJD: 15:30–16:00
+
+WAT IS DIT IN GEWOON NEDERLANDS?
+Een tempel voor Annapurna, de godin van voedsel en overvloed, in dezelfde tempelcluster als Vishwanath.
+
+WAAROM WIL JIJ, MARK, HIERHEEN?
+Geen eigen lineage-link — bijvangst direct naast Vishwanath, in dezelfde heilige microcluster, kost nauwelijks extra tijd.
+
+WIE WAS HIER / WAT GEBEURDE HIER?
+Geen specifiek persoon-event; onderdeel van de bredere Kashi-verering rond voeding en overvloed.
+
+WAT MOET JE HIER PRECIES ZOEKEN?
+Het bronzen dagelijkse beeld van Annapurna (het gouden beeld is alleen zichtbaar tijdens Annakut, de dag na Diwali); het zilveren Shiva-beeld ("Bholenath") ernaast.
+
+VOLLEDIGE GESCHIEDENIS EN AOAY/TOP-X-ONDERZOEK (online research 2026-09-27):
+Gebouwd in 1729 door Maratha Peshwa Baji Rao, Nagara-stijl. Centrale legende: Shiva noemde de materiële wereld/voedsel ooit illusie (maya), wat Parvati zo kwaad maakte dat zij verdween — waarna de hele wereld getroffen werd door hongersnood, zelfs de goden vonden geen voedsel meer. Eén keuken bleef voorradig: in Kashi, gerund door Parvati als Annapurna. Shiva kwam er met zijn eigen bedelnap voedsel vragen, erkende zijn fout, en Parvati/Annapurna voedde hem met haar eigen handen — sindsdien wordt Annapurna in Kashi vereerd als degene die zelfs Shiva moet voeden.
+
+Geen directe AOAY- of Top-X-vermelding gevonden; plausibel maar niet hard bevestigd dat Ramakrishna (die tijdens zijn 1868-bezoek "vele andere tempels" naast Vishwanath bezocht) ook hier kwam — deur-aan-deur met Vishwanath. De echte kracht van deze plek is thematisch: het idee dat spiritueel (Shiva) en stoffelijk/voedend (Annapurna) elkaar nodig hebben, resoneert sterk met Lahiri Mahasaya's eigen levensfilosofie als "householder-guru" die liet zien dat spirituele verwerkelijking te combineren is met een volwaardig wereldlijk leven.
+
+BRONNEN: en.wikipedia.org/wiki/Annapurna_Devi_Mandir, kashiannapurnatemple.com (mythologische geschiedenis), incredibleindia.gov.in/en/uttar-pradesh/varanasi/maa-annapurna-temple, sanatanajourney.com (Story of Goddess Annapurna).
+
+HOE WIL JE HIER ZIJN?
+Kort bezoek, aansluitend op Vishwanath.
+
+UNIEK HERKENNINGSPUNT
+Onderdeel van dezelfde tempelcluster als Vishwanath, herkenbaar aan de Annapurna-beelden/afbeeldingen.
+
+TOTALE TIJD VOOR DEZE LOCATIE: 30 min, direct naast de vorige stop.
+TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: 30 min.
+
+16:00–16:15 korte wandeling naar Dashashwamedh Ghat, ~10-15 min (nagenoeg naast elkaar — dezelfde microcluster als Vishwanath/Annapurna).
 
 ### Dashashwamedh Ghat + Ganga Aarti — de hoofdghat van Varanasi, waar de AOAY-scène met Babaji, Mataji, Lahiri Mahasaya en Ram Gopal plaatsvond (Varanasi) [A+, beschermd]
 
-TIJD: 16:00–18:45 (Aarti ~18:00-18:45, exacte starttijd LIVE_RECHECK)
+TIJD: 16:15–19:00 (Aarti ~18:00-18:45, exacte starttijd LIVE_RECHECK)
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 De centrale, grootste ghat van Varanasi, waar elke avond een grote, publieke Ganga Aarti-ceremonie (vuurritueel) wordt gehouden.
@@ -894,13 +758,13 @@ UNIEK HERKENNINGSPUNT
 De grootste, drukste Aarti-ceremonie van Varanasi, met vuur, muziek en honderden toeschouwers.
 
 KORTE NUANCE
-Verplaatst van woensdag hierheen (LOCKED BY MARK 2026-09-27) omdat de Aarti elke avond plaatsvindt en nooit datum-vast was aan die specifieke dag — de erkenning hierboven blijft volledig aan de plek gekoppeld, ongeacht de kalenderdag.
+Verplaatst van woensdag hierheen (LOCKED BY MARK 2026-09-27) omdat de Aarti elke avond plaatsvindt en nooit datum-vast was aan die specifieke dag — de erkenning hierboven blijft volledig aan de plek gekoppeld, ongeacht de kalenderdag. Bereikt nu via een korte wandeling vanaf Vishwanath/Annapurna in plaats van een aparte transfer vanaf het hotel — één doorlopende middag/avond in plaats van twee losse ritjes.
 
-TOTALE TIJD VOOR DEZE LOCATIE: transfer 30 min + aanwezigheid/wachten 105 min + Aarti 45 min + terugtransfer 60 min ≈ 4 uur.
+TOTALE TIJD VOOR DEZE LOCATIE: aanwezigheid/wachten ~105 min + Aarti 45 min ≈ 2u45 (exclusief de al bestaande wandeling ernaartoe).
 TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: niet van toepassing — beschermd blok, één van de diepste AOAY-ankers van de hele reis.
 
 ### Avond
-18:45–19:45 drukte laten wegtrekken, auto naar hotel (~1 uur incl. avondverkeer). 19:45–20:45 diner, rustiger dan voorheen. 20:45–23:45 kamer/rust/pakken — **veel meer tijd dan eerder aangenomen**, zie hieronder waarom. 23:45 definitieve check-out, bagage klaar — de vijfde betaalde nacht staat laat kamergebruik toe. **Vertrek Sahi River View Guesthouse ~00:10** (gecorrigeerd, was 23:00 — zie ZA 9 JAN).
+19:00–20:00 drukte laten wegtrekken, auto naar hotel (~1 uur incl. avondverkeer). 20:00–21:00 diner, rustiger dan voorheen. 21:00–23:45 kamer/rust/pakken. 23:45 definitieve check-out, bagage klaar — de vijfde betaalde nacht staat laat kamergebruik toe. **Vertrek Sahi River View Guesthouse ~00:10** (gecorrigeerd, was 23:00 — zie ZA 9 JAN).
 
 ---
 
@@ -1019,10 +883,10 @@ Op Mark's verzoek: een echt adres of GPS-coördinaat voor elke locatie in dit pl
 | 14 | Ratneshwar Mahadev | Naast Manikarnika Ghat, Varanasi 221001. |
 | 15 | Manikarnika Ghat | Lahori Tola, Varanasi 221001. GPS 25.31087°N, 83.01409°E. |
 | 16 | Alamgir Mosque/Dharahara | Panchganga Ghat, Godowlia, Varanasi 221002. |
-| 17 | Durga Temple/Durga Kund | 27, Durgakund Rd, Durgakund, Bhelupur, Varanasi 221005. Tel. 09198898999. |
-| 18 | Sankat Mochan Hanuman Temple | Sankat Mochan Road, Nagwa Lanka, Varanasi 221005. Tel. +91-542-2313884. |
-| 19 | Lalita Ghat | Banaras Ghat Rd, Bangali Tola, Varanasi 221001. GPS 25.31001°N, 83.01328°E. |
-| 20 | Nepali/Kathwala Temple | Lalita Ghat, Varanasi 221001 (~100m van Manikarnika). GPS ca. 25.30972°N, 83.01278°E. |
+| 17 | Durga Temple/Durga Kund — **GESCHRAPT 28-9-2026** | 27, Durgakund Rd, Durgakund, Bhelupur, Varanasi 221005. Tel. 09198898999. |
+| 18 | Sankat Mochan Hanuman Temple — **GESCHRAPT 28-9-2026** | Sankat Mochan Road, Nagwa Lanka, Varanasi 221005. Tel. +91-542-2313884. |
+| 19 | Lalita Ghat — **GESCHRAPT 28-9-2026** | Banaras Ghat Rd, Bangali Tola, Varanasi 221001. GPS 25.31001°N, 83.01328°E. |
+| 20 | Nepali/Kathwala Temple — **GESCHRAPT 28-9-2026** | Lalita Ghat, Varanasi 221001 (~100m van Manikarnika). GPS ca. 25.30972°N, 83.01278°E. |
 | 21 | Dashashwamedh Ghat | Dashashwamedh Ghat Rd, Godowlia, Varanasi 221001. GPS 25.30717°N, 83.01034°E. |
 | 22 | Varanasi Junction (BSB) | Railwayganj Colony, Cantonment, Varanasi 221002. |
 | 23 | The Ram Bhandar | C.K. 15/29, Katra Ratanlal, Thatheri Bazar, Varanasi 221001 (gebruik de naam zelf in Google Maps — huisnummering wisselt licht per bron). |
