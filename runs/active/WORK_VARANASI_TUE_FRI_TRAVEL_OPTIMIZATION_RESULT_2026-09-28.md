@@ -1,5 +1,7 @@
 # WORK_RESULT — Varanasi Tuesday/Friday travel-time optimization
 
+> **SUPERSEDED FOR END-TO-END PLANNING:** this bounded Tuesday/Friday solve is retained as evidence, but the user clarified that the required scope is the complete Varanasi stay from arrival through train departure. The controlling end-to-end recommendation is now `runs/active/WORK_VARANASI_FULL_STAY_ARRIVAL_TO_TRAIN_RESULT_2026-09-28.md`.
+
 Status: **COMPLETE**  
 Input branch/head: `agent/india8-cluster-casting` @ `d5503bba4f12690b47cf68104898dc482549932b`  
 Work branch: `worker/varanasi-tue-fri-travel-optimization-work`  
