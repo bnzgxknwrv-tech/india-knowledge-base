@@ -56,7 +56,7 @@ Geen hotel/ashram vastgelegd. Mark gaf volledige vrije keuze, eventueel meerdere
 
 **Herstructurering op verzoek van Mark (28 sep):** de kleinere onderdelen van het Kali-tempelcomplex staan nu 's ochtends, en de hoofdtempel zelf (waar de Ramakrishna/Yogananda-visioenen plaatsvonden) is verplaatst naar het eind van de dag als open, flexibel blok — geen vast eindtijdstip, geen vervolgprogramma erna.
 
-08:30–08:50 transfer naar Dakshineswar (auto, ~20-30 min vanaf Shyambazar-zone, CCI-inschatting op basis van de kortere afstand tot de hotelzone — nog niet apart geverifieerd).
+08:30–~09:10 transfer naar Dakshineswar (auto, **realistisch 30-50 min, niet 20-30 min** — onderzoek 28 sep: ~7-8,5 km via de BT Road-corridor, bekende congestie vooral in het weekend en op drukke darshan-dagen; sourced via reisaggregators + algemene kennis van Kolkata-verkeer, geen live-geverifieerd cijfer). **Consequentie:** de dag kan 10-20 min later op gang komen dan de onderstaande kaarttijden suggereren — dat schuift in het open eindblok aan het eind van de dag, niet in de vaste onderdelen.
 
 ### Ramakrishna's kamer [A+]
 
@@ -158,7 +158,7 @@ MAGNETISCHE PLEK? Ja — actief vereerd altaar, direct object van meerdere Top-X
 
 BRONNEN: en.wikipedia.org/wiki/Dakshineswar_Kali_Temple, en.wikisource.org/wiki/Autobiography_of_a_Yogi (hfst. 9, 22).
 
-Transfer naar hotel: zodra je zelf vertrekt, ~20-30 min terug (CCI-inschatting, zelfde route als de ochtendtransfer — nog niet apart geverifieerd).
+Transfer naar hotel: zodra je zelf vertrekt, realistisch 30-50 min terug (zelfde BT Road-route als de ochtendtransfer, geen probleem want dit is toch al het open einde van de dag).
 
 ---
 
@@ -193,7 +193,7 @@ Het enige punt in de hele cluster dat Ramakrishna toont terwijl hij, ziek, tóch
 
 MAGNETISCHE PLEK? Deels — actieve Ramakrishna Math-tak, geen specifiek bevestigd foto-altaar gevonden.
 
-09:45–10:05 transfer naar Cossipore/Kashipur (~15-20 min, geverifieerd als dichtbij Dakshineswar-zone; Shyampukur→Cossipore zelf niet apart gemeten, vergelijkbare afstand aangenomen — CCI-inschatting).
+09:45–10:10 transfer naar Cossipore/Kashipur (afstand 3,5 km — bevestigd door twee onafhankelijke bronnen, redelijk vertrouwen; reistijd zelf niet gesourced, schatting 15-25 min gezien smalle, drukke noord-Kolkata woonstraten).
 
 ### Cossipore (Kashipur) Udyanbati [A+]
 
@@ -222,7 +222,7 @@ BRONNEN: belurmath.org, rkmudyanbati.org.
 
 11:15–11:45 lunch/rust.
 
-11:45–12:15 transfer naar Balaram Mandir, Bagbazar (~20-30 min, geverifieerd Dakshineswar↔Bagbazar; Cossipore→Bagbazar vergelijkbare zone, CCI-inschatting).
+11:45–12:15 transfer naar Balaram Mandir, Bagbazar (**geen betrouwbare bron gevonden voor dit specifieke traject** — onderzoek 28 sep. Geografische inferentie, laag vertrouwen: Cossipore en Bagbazar zijn aangrenzende wijken, dus vermoedelijk 2-4 km / 10-20 min, ter plekke te bevestigen met chauffeur/gids. Ruimer ingepland dan die inferentie voorschrijft, als marge).
 
 ### Balaram Mandir [A, geen AOAY-citaat maar zeer sterke Ramakrishna/Vivekananda-link]
 
@@ -247,7 +247,7 @@ Het hoogste aantal gedocumenteerde persoonlijke bezoeken van Ramakrishna van all
 
 MAGNETISCHE PLEK? Ja — actieve Mission-tak met huisschrijn.
 
-13:00–13:30 transfer naar Yogoda Satsanga Math, Dakshineswar (~20-30 min, CCI-inschatting — Bagbazar→Dakshineswar vergelijkbare zone/afstand als hotel↔Dakshineswar, niet apart geverifieerd).
+13:00–~13:45 transfer naar Yogoda Satsanga Math, Dakshineswar (**realistisch 25-45 min, niet 20-30 min** — onderzoek 28 sep: ~8 km, vergelijkbare BT Road-congestie als de ochtendtransfer, plus ~5 min extra omdat Yogoda Math ~1 km verder ligt dan de Kali-tempel zelf). **Consequentie:** schuift in het al flexibele eindblok, geen probleem.
 
 ### Yogoda Satsanga Math, Dakshineswar [A+]
 
@@ -273,7 +273,7 @@ Het enige "eigen" instituut van Yogananda in deze hele cluster.
 
 MAGNETISCHE PLEK? Waarschijnlijk ja (YSS-ashrams hebben doorgaans een lineage-shrine), maar exacte interieur niet apart bevestigd — ter plekke verifiëren.
 
-Transfer naar hotel: zodra je zelf vertrekt, ~20-30 min (CCI-inschatting, niet apart geverifieerd).
+Transfer naar hotel: zodra je zelf vertrekt, realistisch 25-45 min (geen probleem, ook dit is het open einde van de dag).
 
 ---
 
@@ -571,10 +571,10 @@ Per `governance/LONELY_PLANET_LAYER_RULE_2026-08-22.md` en het Cluster Pre-Fligh
 1. **Hotel/basis niet geboekt** — CCI-voorstel Glenburn Penthouse, Shyambazar-zone, nog te bevestigen door jou.
 2. **YSS Dakshineswar Math-toegang** — waarschijnlijk niet beschikbaar voor niet-SRF/YSS Kriyabans; e-mail-navraag aanbevolen, niet op plannen.
 3. **4 Garpar Road-bezoek** — vereist vooraf regelen (via YSS Dakshineswar-ashram of rechtstreeks contact custodiaan Somnath Ghosh), geen walk-in.
-4. **Sri Yukteswar's hermitage-restauratiestatus** — YSS verwierf in 2023 volledige eigendom, herbouw-status voor januari 2027 `LIVE_RECHECK` vlak vóór vertrek.
-5. **YSS Dhyana Kendra Garpar-sessietijden** — niet online gepubliceerd, bel (033) 2350-5380.
+4. **Sri Yukteswar's hermitage-restauratiestatus** — onderzoek 28 sep bevestigt de 2023-eigendomsverwerving en uitgesproken restauratie-intentie, maar **geen enkele gedateerde 2024/2025-bron gevonden** die zegt of de bouw af is, loopt, of dat de locatie open/dicht/deels toegankelijk is. Eén ongeverifieerde aanwijzing dat zaterdagse groepsmeditaties op het terrein doorgaan (Smriti Mandir, 1977 gebouwd), maar niet te bevestigen als actueel. `LIVE_RECHECK` blijft staan — bel YSS Dakshineswar-ashram rechtstreeks vlak vóór vertrek.
+5. **YSS Dhyana Kendra Garpar-sessietijden** — adres/telefoon bevestigd: 37A Raja Dinendra Street, Garpar, Kolkata 700009, (033) 2350-5380. Bekend (matig vertrouwen): lange groepsmeditatie op zaterdag, AOAY-leesgroep (Engels+Bengaals) op donderdag. **Geen exacte kloktijden gepubliceerd** — niet verzonnen, bel het nummer.
 6. **CCU→Chennai-vlucht** — nog niet geboekt, exacte januari-2027-dienstregeling nog niet gepubliceerd.
-7. **Alle inter-locatie-reistijden binnen Kolkata die als "CCI-inschatting" gemarkeerd staan** (niet apart geverifieerd) — voor definitieve klokvastlegging nog te bevestigen met een lokale chauffeur/gids.
+7. **Overige inter-locatie-reistijden** — de vier hoofdtrajecten binnen Kolkata zijn op 28 sep onderzocht (zie kaarttijden hierboven, nu met bronvermelding/vertrouwensniveau i.p.v. "CCI-inschatting"); geen van deze cijfers is live-geverifieerd met actueel verkeer — voor definitieve klokvastlegging nog te bevestigen met een lokale chauffeur/gids, met name het Cossipore→Bagbazar-traject (geen bron gevonden, alleen geografische inferentie).
 
 ## SOURCES
 
