@@ -27,8 +27,8 @@ Geen hotel/ashram vastgelegd. Mark gaf volledige vrije keuze, eventueel meerdere
 | Dag | Inhoud | Karakter |
 |---|---|---|
 | Za 9 jan | Aankomst nachttrein ~13:05, inchecken, rust | LICHT |
-| Zo 10 jan | Dakshineswar-complex (alle onderdelen) + Yogoda Satsanga Math | ZWAAR, rijkste dag |
-| Ma 11 jan | Shyampukur Bati → Cossipore Udyanbati → Balaram Mandir (Ramakrishna's laatste hoofdstuk, chronologisch) | ZWAAR emotioneel, compacte geografie |
+| Zo 10 jan | Dakshineswar-complex — eigen dag: kleinere onderdelen 's ochtends, hoofdtempel (Ramakrishna) als flexibel eind-van-dag-blok | ZWAAR qua inhoud, open einde |
+| Ma 11 jan | Shyampukur Bati → Cossipore Udyanbati → Balaram Mandir (Ramakrishna's laatste hoofdstuk) → Yogoda Satsanga Math, 3,5u flexibel eind-van-dag-blok | ZWAAR, twee open-einde-achtige blokken op één dag |
 | Di 12 jan | Serampore-dagtocht: Sri Yukteswar's hermitage (3u) + Rai Ghat + Anandaloka | ZWAAR qua klok (reistijd), rijk qua inhoud |
 | Wo 13 jan | Belur Math (volledige dag) | MIDDEN, één grote locatie |
 | Do 14 jan | Garpar-microcluster (ochtend) → J.C. Bose/Acharya Bhaban (14:00-16:00, enige geldige dag) → vroege afsluiting voor de vlucht | VOLWAARDIG maar bewust vroeg afgerond |
@@ -48,43 +48,19 @@ Geen hotel/ashram vastgelegd. Mark gaf volledige vrije keuze, eventueel meerdere
 
 ---
 
-## ZO 10 JAN — Dakshineswar-complex + Yogoda Satsanga Math
+## ZO 10 JAN — Dakshineswar-complex, eigen dag (hoofdtempel als flexibel eind-blok)
 
 **VERTREK HOTEL: 08:30.**
 
-**Belangrijke disambiguatie, vooraf:** dit zijn **twee fysiek gescheiden plekken, 1 km uit elkaar**, en een derde (de Ramakrishna Mission's eigen Dakshineswar-tak) bestaat ook nog los daarvan. Verwar ze niet: (1) de Kali-tempel zelf, eigendom van de Rani Rashmoni-stichting — hier gebeurden alle Ramakrishna-visioenen; (2) Yogoda Satsanga Math, Yogananda's eigen, in 1939 gestichte instelling, 1 km verderop; (3) een aparte Ramakrishna Mission-tak, ook in Dakshineswar, verder los van dit plan.
+**Belangrijke disambiguatie, vooraf:** dit zijn **twee fysiek gescheiden plekken, 1 km uit elkaar**, en een derde (de Ramakrishna Mission's eigen Dakshineswar-tak) bestaat ook nog los daarvan. Verwar ze niet: (1) de Kali-tempel zelf, eigendom van de Rani Rashmoni-stichting — hier gebeurden alle Ramakrishna-visioenen; (2) Yogoda Satsanga Math, Yogananda's eigen, in 1939 gestichte instelling, 1 km verderop — **verplaatst naar het eind van MA 11 JAN**, zie dat dagdeel; (3) een aparte Ramakrishna Mission-tak, ook in Dakshineswar, verder los van dit plan.
+
+**Herstructurering op verzoek van Mark (28 sep):** de kleinere onderdelen van het Kali-tempelcomplex staan nu 's ochtends, en de hoofdtempel zelf (waar de Ramakrishna/Yogananda-visioenen plaatsvonden) is verplaatst naar het eind van de dag als open, flexibel blok — geen vast eindtijdstip, geen vervolgprogramma erna.
 
 08:30–08:50 transfer naar Dakshineswar (auto, ~20-30 min vanaf Shyambazar-zone, CCI-inschatting op basis van de kortere afstand tot de hotelzone — nog niet apart geverifieerd).
 
-### Dakshineswar Kali Temple — hoofdtempel (Sri Sri Bhavatarini Kali) [A+]
-
-TIJD: 08:50–09:35
-
-WAT IS DIT IN GEWOON NEDERLANDS?
-De negen-torige (navaratna) hoofdtempel van het hele complex, met het zwarte stenen Kali-beeld ("Bhavatarini") op een zilveren lotus met duizend gedreven bladeren, en een klein zilveren Shiva-beeld eronder.
-
-WAAROM WIL JIJ, MARK, HIERHEEN?
-Dit was Ramakrishna's eigen werkplek: hij werd hier priester in 1856 en bleef dat tot zijn dood in 1886. Direct verbonden aan Yogananda zelf: hij bezocht deze exacte tempel en had hier een visioen.
-
-WIE WAS HIER / WAT GEBEURDE HIER?
-AOAY Hoofdstuk 9 ("The Blissful Devotee and His Cosmic Romance"), na een boottocht met Master Mahasaya: *"We entered the nine-domed Temple of Kali, where the figures of the Divine Mother and Shiva rest on a burnished silver lotus, its thousand petals meticulously chiseled."* Yogananda beschrijft daarna een visioen waarbij hij "tijdelijk afwezig uit het lichaam" was. Apart, Hoofdstuk 22 ("The Heart of a Stone Image"): Yogananda's eigen visioen van het levend wordende Kali-beeld, met het gebed *"Silent Mother with stony heart, Thou becamest filled with life at the request of Thy beloved devotee Ramakrishna..."* — een directe verwijzing naar Ramakrishna's eigen visioenen bij hetzelfde beeld. Onafhankelijk: op 16 september 1884 stuurde Ramakrishna de jonge Vivekananda hier drie keer heen om voor geldnood te bidden — telkens vergat hij dat en vroeg in plaats daarvan om "kennis en devotie". Zijn eigen woorden later: *"I had to accept her at last!"*
-
-WAT MOET JE HIER PRECIES ZOEKEN?
-De voet van de negen-torige koepel, de zilveren lotus-sokkel en het zwarte Kali-beeld — hetzelfde fysieke object van Ramakrishna's én Yogananda's visioenen.
-
-HOE WIL JE HIER ZIJN?
-Ruim de tijd nemen — dit is de kern van de hele Ramakrishna-lineage, geen doorloopstop.
-
-UNIEK HERKENNINGSPUNT
-De negen torenspitsen (navaratna), van buiten te tellen — architectonisch afwijkend van elke andere tempel op deze lijst.
-
-MAGNETISCHE PLEK? Ja — actief vereerd altaar, direct object van meerdere Top-X-visioenen.
-
-BRONNEN: en.wikipedia.org/wiki/Dakshineswar_Kali_Temple, en.wikisource.org/wiki/Autobiography_of_a_Yogi (hfst. 9, 22).
-
 ### Ramakrishna's kamer [A+]
 
-TIJD: 09:35–10:20
+TIJD: 08:50–09:35
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Een bescheiden kamer in de noordwesthoek van het tempelterrein, met een halfronde veranda aan de Ganges, waar Ramakrishna de laatste ~30 jaar van zijn leven daadwerkelijk woonde — hier vonden de meeste van zijn opgetekende visioenen en gesprekken (de Kathamrita) plaats.
@@ -110,7 +86,7 @@ BRONNEN: yssofindia.org (Dakshineswar-ashrampagina).
 
 ### Panchavati (de boomgroep) [A]
 
-TIJD: 10:20–10:50
+TIJD: 09:35–10:05
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Een groep van vijf heilige bomen (oorspronkelijk banyan, peepal, neem, amalaki/ashoka, bel) direct ten noorden van het tempelterrein, waar Ramakrishna het grootste deel van zijn intensieve sadhana deed.
@@ -134,7 +110,7 @@ MAGNETISCHE PLEK? Ja — klein platform/schrijn, gemarkeerd, en Yogananda's eige
 
 ### Nahabat — Sarada Devi's kamer [B, bijvangst]
 
-TIJD: 10:50–11:05 (kort, geen apart hoofdblok)
+TIJD: 10:05–10:20 (kort, geen apart hoofdblok)
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Een tweeverdiepingen bakstenen gebouw ~23 meter noordelijk van Ramakrishna's kamer, waar Sarada Devi ("Holy Mother") ~8 jaar in een piepklein achthoekig kamertje (~4,6 m²) woonde, kookte en vanuit daar het huishouden beheerde.
@@ -154,43 +130,43 @@ MAGNETISCHE PLEK? Deels — bewaarde leefruimte, geen apart altaar/foto-shrine g
 
 Twaalf identieke Shiva-schrijnen langs de rivier, plus de baadghat waar Totapuri naar verluidt aankwam. Geen specifiek AOAY- of Ramakrishna-citaat gevonden voor een van beide — puur architecturale/sfeer-bijvangst tijdens de wandeling door het complex, geen aparte tijd nodig.
 
-11:05–11:35 lunch/rust op het terrein of net erbuiten.
+10:20–10:50 lunch/rust op het terrein of net erbuiten.
 
-11:35–11:50 transfer naar Yogoda Satsanga Math Dakshineswar (~1 km, 10-15 min lopen of kort ritje).
+### Dakshineswar Kali Temple — hoofdtempel (Sri Sri Bhavatarini Kali) [A+]
 
-### Yogoda Satsanga Math, Dakshineswar [A+]
-
-TIJD: 11:50–13:00
+TIJD: vanaf 10:50, minimaal tot 11:35 gereserveerd — **daarna volledig open. Blijf zolang je wilt. Geen vervolgprogramma vandaag.**
 
 WAT IS DIT IN GEWOON NEDERLANDS?
-Yogananda's eigen, door hemzelf gestichte ashram — **fysiek een apart terrein, 1 km van de Kali-tempel, geen onderdeel daarvan.**
+De negen-torige (navaratna) hoofdtempel van het hele complex, met het zwarte stenen Kali-beeld ("Bhavatarini") op een zilveren lotus met duizend gedreven bladeren, en een klein zilveren Shiva-beeld eronder.
 
 WAAROM WIL JIJ, MARK, HIERHEEN?
-De enige plek in dit hele cluster die 100% "van Yogananda zelf" is — gesticht en ingewijd door zijn eigen hand en wil, in tegenstelling tot de andere plekken waar hij pelgrim/bezoeker was.
+Dit was Ramakrishna's eigen werkplek: hij werd hier priester in 1856 en bleef dat tot zijn dood in 1886. Direct verbonden aan Yogananda zelf: hij bezocht deze exacte tempel en had hier een visioen.
 
 WIE WAS HIER / WAT GEBEURDE HIER?
-Yogananda schrijft zelf, AOAY Hoofdstuk 46: *"A stately Yogoda Math in Dakshineswar, fronting the Ganges, was dedicated in 1939."* Gesticht tijdens zijn 1935-36-terugkeerbezoek aan India; nu hoofdkwartier in India van Yogoda Satsanga Society.
+AOAY Hoofdstuk 9 ("The Blissful Devotee and His Cosmic Romance"), na een boottocht met Master Mahasaya: *"We entered the nine-domed Temple of Kali, where the figures of the Divine Mother and Shiva rest on a burnished silver lotus, its thousand petals meticulously chiseled."* Yogananda beschrijft daarna een visioen waarbij hij "tijdelijk afwezig uit het lichaam" was. Apart, Hoofdstuk 22 ("The Heart of a Stone Image"): Yogananda's eigen visioen van het levend wordende Kali-beeld, met het gebed *"Silent Mother with stony heart, Thou becamest filled with life at the request of Thy beloved devotee Ramakrishna..."* — een directe verwijzing naar Ramakrishna's eigen visioenen bij hetzelfde beeld. Onafhankelijk: op 16 september 1884 stuurde Ramakrishna de jonge Vivekananda hier drie keer heen om voor geldnood te bidden — telkens vergat hij dat en vroeg in plaats daarvan om "kennis en devotie". Zijn eigen woorden later: *"I had to accept her at last!"*
 
 WAT MOET JE HIER PRECIES ZOEKEN?
-De shrine-ruimte — vraag specifiek of er foto's/relieken van de Kriya-lijn (Babaji, Lahiri Mahasaya, Sri Yukteswar, Yogananda) hangen, zoals gebruikelijk bij YSS/SRF-ashrams (exacte inrichting van deze specifieke locatie niet apart bevestigd in onderzoek).
+De voet van de negen-torige koepel, de zilveren lotus-sokkel en het zwarte Kali-beeld — hetzelfde fysieke object van Ramakrishna's én Yogananda's visioenen.
 
 HOE WIL JE HIER ZIJN?
-Rustige aanwezigheid, eventueel meditatie als er een sessie loopt.
+Ruim de tijd nemen — dit is de kern van de hele Ramakrishna-lineage, en nu bewust als open eindblok gepland: geen doorloopstop, geen volgende afspraak die aan je trekt.
 
 UNIEK HERKENNINGSPUNT
-Het enige "eigen" instituut van Yogananda in deze hele cluster.
+De negen torenspitsen (navaratna), van buiten te tellen — architectonisch afwijkend van elke andere tempel op deze lijst.
 
-MAGNETISCHE PLEK? Waarschijnlijk ja (YSS-ashrams hebben doorgaans een lineage-shrine), maar exacte interieur niet apart bevestigd — ter plekke verifiëren.
+MAGNETISCHE PLEK? Ja — actief vereerd altaar, direct object van meerdere Top-X-visioenen.
 
-13:00–13:30 transfer naar hotel (~20-30 min).
+BRONNEN: en.wikipedia.org/wiki/Dakshineswar_Kali_Temple, en.wikisource.org/wiki/Autobiography_of_a_Yogi (hfst. 9, 22).
+
+Transfer naar hotel: zodra je zelf vertrekt, ~20-30 min terug (CCI-inschatting, zelfde route als de ochtendtransfer — nog niet apart geverifieerd).
 
 ---
 
-## MA 11 JAN — Ramakrishna's laatste hoofdstuk: Shyampukur → Cossipore → Balaram Mandir
+## MA 11 JAN — Ramakrishna's laatste hoofdstuk + Yogoda Satsanga Math (flexibel eind-blok)
 
 **VERTREK HOTEL: 08:30.**
 
-**Chronologische logica van deze dag:** Ramakrishna werd medio 1885 ziek (keelkanker), verhuisde voor behandeling naar Shyampukur (70 dagen), daarna naar de tuinvilla in Cossipore voor zijn laatste 249 dagen tot zijn dood op 16 augustus 1886. Balaram Mandir was zijn "Calcutta-citadel" tijdens zijn gezonde jaren én de plek waar Vivekananda in 1897 de Ramakrishna Mission formeel oprichtte — chronologisch een uitstapje terug, maar geografisch in dezelfde noordelijke zone.
+**Chronologische logica van deze dag:** Ramakrishna werd medio 1885 ziek (keelkanker), verhuisde voor behandeling naar Shyampukur (70 dagen), daarna naar de tuinvilla in Cossipore voor zijn laatste 249 dagen tot zijn dood op 16 augustus 1886. Balaram Mandir was zijn "Calcutta-citadel" tijdens zijn gezonde jaren én de plek waar Vivekananda in 1897 de Ramakrishna Mission formeel oprichtte — chronologisch een uitstapje terug, maar geografisch in dezelfde noordelijke zone. **Toegevoegd op verzoek van Mark (28 sep):** Yogoda Satsanga Math (verplaatst van ZO 10 JAN) sluit deze dag af als tweede flexibel eind-blok — Balaram Mandir/Bagbazar ligt geografisch dicht genoeg bij Dakshineswar om dit in dezelfde dag te combineren.
 
 08:30–09:00 transfer naar Shyampukur (~20-30 min, CCI-inschatting, noordelijke zone dichtbij Dakshineswar-as, nog niet apart geverifieerd).
 
@@ -271,7 +247,33 @@ Het hoogste aantal gedocumenteerde persoonlijke bezoeken van Ramakrishna van all
 
 MAGNETISCHE PLEK? Ja — actieve Mission-tak met huisschrijn.
 
-13:00–13:30 transfer naar hotel (~20-30 min).
+13:00–13:30 transfer naar Yogoda Satsanga Math, Dakshineswar (~20-30 min, CCI-inschatting — Bagbazar→Dakshineswar vergelijkbare zone/afstand als hotel↔Dakshineswar, niet apart geverifieerd).
+
+### Yogoda Satsanga Math, Dakshineswar [A+]
+
+TIJD: 13:30–17:00 (3,5 uur gereserveerd, flexibel eind-van-dag-blok — blijf zolang je wilt, geen vervolgprogramma vandaag)
+
+WAT IS DIT IN GEWOON NEDERLANDS?
+Yogananda's eigen, door hemzelf gestichte ashram — **fysiek een apart terrein, 1 km van de Kali-tempel, geen onderdeel daarvan.**
+
+WAAROM WIL JIJ, MARK, HIERHEEN?
+De enige plek in dit hele cluster die 100% "van Yogananda zelf" is — gesticht en ingewijd door zijn eigen hand en wil, in tegenstelling tot de andere plekken waar hij pelgrim/bezoeker was.
+
+WIE WAS HIER / WAT GEBEURDE HIER?
+Yogananda schrijft zelf, AOAY Hoofdstuk 46: *"A stately Yogoda Math in Dakshineswar, fronting the Ganges, was dedicated in 1939."* Gesticht tijdens zijn 1935-36-terugkeerbezoek aan India; nu hoofdkwartier in India van Yogoda Satsanga Society.
+
+WAT MOET JE HIER PRECIES ZOEKEN?
+De shrine-ruimte — vraag specifiek of er foto's/relieken van de Kriya-lijn (Babaji, Lahiri Mahasaya, Sri Yukteswar, Yogananda) hangen, zoals gebruikelijk bij YSS/SRF-ashrams (exacte inrichting van deze specifieke locatie niet apart bevestigd in onderzoek).
+
+HOE WIL JE HIER ZIJN?
+Rustige aanwezigheid, eventueel meditatie als er een sessie loopt — als tweede open eindblok van de dag, bewust zonder vervolgafspraak.
+
+UNIEK HERKENNINGSPUNT
+Het enige "eigen" instituut van Yogananda in deze hele cluster.
+
+MAGNETISCHE PLEK? Waarschijnlijk ja (YSS-ashrams hebben doorgaans een lineage-shrine), maar exacte interieur niet apart bevestigd — ter plekke verifiëren.
+
+Transfer naar hotel: zodra je zelf vertrekt, ~20-30 min (CCI-inschatting, niet apart geverifieerd).
 
 ---
 
