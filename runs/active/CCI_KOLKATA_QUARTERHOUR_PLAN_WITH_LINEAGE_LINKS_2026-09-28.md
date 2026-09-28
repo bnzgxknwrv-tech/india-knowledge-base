@@ -14,7 +14,11 @@ Geen hotel/ashram vastgelegd. Mark gaf volledige vrije keuze, eventueel meerdere
 
 ## VERTREK NAAR TIRUVANNAMALAI — VRIJDAG 15 JAN
 
-**GEVERIFIEERD 2026-09-28 (echte reistijd-research):** CCU→MAA is een drukke binnenlandse route (~63 wekelijkse non-stopvluchten, IndiGo/Air India/Air India Express/SpiceJet), vluchtduur 2u10-2u20. **Beste doelvenster: vertrek 06:00-08:00**, aankomst Chennai ~08:15-08:30 — geeft de volle dag voor de 175km/3,5-4,5u rit naar Tiruvannamalai, met ruimte voor de avond-Sri Chakra Puja (18:00-20:45) als je die wilt meemaken. CCU-luchthavenbuffer: 2 uur vóór vertrek (binnenlandse standaard). Exacte januari-2027-dienstregeling nog niet gepubliceerd — dit is het huidige daggemiddelde patroon, niet een geboekte vlucht.
+**HERZIEN 28-9-2026 (Mark-keuze):** de eerdere 06:00-08:00-vertrekvenster was gebaseerd op het openhouden van de avond-Sri Chakra Puja als vaste optie — maar die puja is inmiddels A*/optioneel (je beslist toch ter plekke, geen geforceerde keuze, want je slaapt al in Tiruvannamalai zelf). Zonder die druk is een vroege vlucht niet nodig.
+
+**GEKOZEN: vertrek 09:00** (CCU→MAA is een drukke binnenlandse route, ~63 wekelijkse non-stopvluchten, IndiGo/Air India/Air India Express/SpiceJet, vluchtduur 2u10-2u20). Aankomst Chennai ~11:10-11:20, dan de 175km/3,5-4,5u rit naar Tiruvannamalai, aankomst ~15:00-16:30 — nog steeds ruim op tijd om in te checken en desgewenst de avondpuja mee te maken. CCU-luchthavenbuffer: 2 uur vóór vertrek → **vertrek hotel ~06:30-07:00**, een normale, niet-uitputtende ochtend. Exacte januari-2027-dienstregeling nog niet gepubliceerd — dit is het huidige daggemiddelde patroon, niet een geboekte vlucht.
+
+**Hotelbasis-gevolg:** met een normale 06:30-07:00-vertrektijd is een aparte overnachting bij het vliegveld niet nodig — **één vaste basis voor alle 6 nachten** (Shyambazar/Fariapukur-zone) blijft de eenvoudigste keuze, geen extra inpak-/verhuismoment op donderdagavond.
 
 ---
 
@@ -28,7 +32,7 @@ Geen hotel/ashram vastgelegd. Mark gaf volledige vrije keuze, eventueel meerdere
 | Di 12 jan | Serampore-dagtocht: Sri Yukteswar's hermitage (3u) + Rai Ghat + Anandaloka | ZWAAR qua klok (reistijd), rijk qua inhoud |
 | Wo 13 jan | Belur Math (volledige dag) | MIDDEN, één grote locatie |
 | Do 14 jan | Garpar-microcluster (ochtend) → J.C. Bose/Acharya Bhaban (14:00-16:00, enige geldige dag) → vroege afsluiting voor de vlucht | VOLWAARDIG maar bewust vroeg afgerond |
-| Vr 15 jan vroeg | Vertrek hotel ~04:00-04:30 → CCU-vlucht 06:00-08:00-venster → Chennai → Tiruvannamalai | Valt buiten Kolkata's 6 nachten, zie Tiruvannamalai-plan |
+| Vr 15 jan | Vertrek hotel ~06:30-07:00 → CCU-vlucht 09:00 → Chennai ~11:10-11:20 → Tiruvannamalai | Valt buiten Kolkata's 6 nachten, zie Tiruvannamalai-plan |
 
 **Nog niet ingepland, bewust:** Kalighat Kali Temple (geen geverifieerde lineage-link — puur "als er tijd over is", geen vaste dag) en Vivekananda Birthplace (wel A+, geen AOAY-citaat gevonden — voorgesteld als optioneel donderdagmiddag-verlengstuk, zie onder). De Lonely Planet-laag (Victoria Memorial, Howrah Bridge, etc.) staat aan het eind, nog niet gegradeerd door jou.
 
@@ -539,7 +543,7 @@ BRONNEN: en.wikisource.org/wiki/Autobiography_of_a_Yogi (hfst. 8).
 
 ## VR 15 JAN — Vertrek naar Chennai/Tiruvannamalai
 
-**Vroeg vertrek:** hotel verlaten ~04:00-04:30 (afhankelijk van gekozen vlucht in het 06:00-08:00-venster en CCU-luchthavenbuffer van 2 uur voor binnenlandse vertrek). Zie het Tiruvannamalai-plan voor de dag zelf.
+**GEKOZEN 28-9-2026:** hotel verlaten ~06:30-07:00, vlucht CCU→MAA 09:00 (CCU-luchthavenbuffer 2 uur). Een normale, niet-uitputtende ochtend — geen vliegveldhotel nodig, zelfde basis als de rest van het verblijf. Zie het Tiruvannamalai-plan voor de dag zelf.
 
 ---
 
