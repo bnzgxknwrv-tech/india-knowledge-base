@@ -506,6 +506,18 @@ Dit is een fundamentelere fout dan FOUT 27 zelf. FOUT 27 was: de brede laag niet
 - Uitzondering: structurele/logistieke elementen (hotel, trein, vaste beschermde blokken als Manikarnika/Bhrigu/Dashashwamedh/Anandamayi Ashram) mogen wel vast onderzocht worden, want die veranderen niet door een nieuwe B/A*-gradering.
 - Deze regel is nu ook opgenomen als een verplichte Fase in `governance/MARK_CLUSTER_PREFLIGHT_PROTOCOL_2026-09-27.md` (Fase 0,5 — Grade-Completeness-Gate).
 
+## FOUT 30 — "LONELY PLANET-LAAG" VOOR VARANASI VOLDEED NIET AAN DE EIGEN, AL BESTAANDE GOVERNANCE-DEFINITIE (NATUUR/WATERVALLEN ONTBRAKEN VOLLEDIG)
+
+**Concrete CCI-fout, ontdekt 2026-09-28**
+Er bestaat al sinds 2026-08-22 een governance-bestand, `governance/LONELY_PLANET_LAYER_RULE_2026-08-22.md`, dat exact definieert wat de "Lonely Planet-laag" moet bevatten: niet alleen ambachten/musea/eetculturen, maar expliciet ook "outstanding natural landscapes, waterfalls, caves, lakes, rivers, canyons, viewpoints, wildlife or geological features" — met de zin "Strong preference for nature and visually exceptional places. Water, waterfalls, caves, mountains, exceptionally clear/blue water and unusual landscapes are high-interest" als vastgelegde Mark-voorkeur. De 13-item Varanasi-lijst uit augustus 2026 (en de completeness-audit die deze later terugvond) bevatte GEEN enkel natuur-/waterval-/landschapsitem — alleen ambachten, een museum, een fort, eetculturen, archeologie en een Jain-laag. Mark zelf merkte dit op: "Mijn idee erbij was meer watervallen, mooie natuurdingen, bijzondere grappige dingen waar niet-spirituele mensen heen gaan... Is dit wel goed uitgevoerd?"
+
+**Waarom dit fout is**
+De regel bestond al, was zelfs specifiek en gedetailleerd (met concrete voorbeeldcategorieën), maar is niet toegepast toen de "remaining traveler layer" voor Varanasi werd onderzocht op 27 augustus 2026. Dit is dus geen ontbrekende regel maar een `GELEZEN/BESTAAND -> NIET TOEGEPAST`-fout, dezelfde familie als FOUT 2/3/4/26 maar dan op de natuur-/landschapscategorie in plaats van op locatiekaarten.
+
+**VERPLICHTE OPLOSSING**
+- Bij elke "remaining traveler layer"/Lonely-Planet-onderzoeksronde: doorloop `governance/LONELY_PLANET_LAYER_RULE_2026-08-22.md` letterlijk als checklist, categorie voor categorie (natuur/watervallen/grotten/wildlife, iconische monumenten, superlatieven, uitzonderlijke eetculturen, unieke lokale ervaringen) — niet alleen de categorieën die toevallig als eerste worden gevonden.
+- Specifiek: zoek ALTIJD expliciet naar natuurlijke bezienswaardigheden (watervallen, natuurgebieden, wildlife-sanctuaries) binnen redelijke dagtocht-afstand van elk cluster, ook als de stad zelf (zoals Varanasi) primair religieus/cultureel bekendstaat — de regio eromheen kan alsnog natuurlijke trekpleisters bevatten die nooit gezocht worden als je alleen binnen de stadsgrenzen kijkt.
+
 ---
 
 # COMMUNICATIE MET MARK
@@ -552,6 +564,7 @@ Vóór IEDER substantieel India-antwoord, test de DAADWERKELIJK BEDOELDE antwoor
 26. Als dit de EERSTE presentatie van een nieuw clusterplan is: heb ik de volledige VNS/A###-ledger (alle grades, ook A* en B) én elk bestaand "remaining traveler layer"-onderzoeksbestand voor dat cluster gecontroleerd, in plaats van te wachten tot Mark er zelf naar moet vragen (FOUT 27)?
 27. Als dit antwoord zowel een markdown- als een artifact-versie van locatiekaarten raakt: heb ik het volledige sjabloon (`MARK_FACING_LOCATION_CARD_TEMPLATE.md`) in BEIDE bestanden identiek toegepast, kaart voor kaart, niet alleen in de meest recent bewerkte? Bevat het artifact geen lege foto-placeholder-boxen (FOUT 28)?
 28. Staat er nog een niet-gegradeerd "remaining traveler layer"-bestand open voor dit cluster? Zo ja: heb ik verdere kwartier-kloktijdplanning/reistijd-verificatie/artifact-sync gepauzeerd totdat Mark die gradering heeft gegeven, in plaats van door te bouwen op een onvolledige locatielijst (FOUT 29)?
+29. Heb ik bij een Lonely-Planet-laag-onderzoek `governance/LONELY_PLANET_LAYER_RULE_2026-08-22.md` letterlijk als checklist doorlopen, inclusief de natuur/watervallen/wildlife-categorie — niet alleen ambachten/musea/eetculturen (FOUT 30)?
 
 Als één relevante vraag **NEE of UNKNOWN** is:
 

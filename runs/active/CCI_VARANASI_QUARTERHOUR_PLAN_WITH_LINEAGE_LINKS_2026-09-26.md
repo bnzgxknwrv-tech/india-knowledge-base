@@ -918,6 +918,30 @@ Op Mark's directe vraag ("wat mis je, kijk breder, Lonely Planet-laag") is de vo
 
 **Dit blokkeert nu wél de verdere verfijning van de rest van dit plan** (Fase 0,5 Grade-Completeness-Gate, FOUT 29) — zodra jij deze 13 items in één genummerd antwoord (A/B/C) gegradeerd hebt, wordt de kwartierplanning definitief afgerond en pas dan verder gesynchroniseerd naar het artifact.
 
+**MARK-GRADERING ONTVANGEN EN VASTGELEGD (28-9-2026):**
+
+| # | Locatie | Graad |
+|---|---|---|
+| 1 | Banaras Gulabi Meenakari-werkplaats | **C** |
+| 2 | Bharat Kala Bhavan, BHU | **C** |
+| 3 | Khojwa/Kashmiri Ganj lakwerk-speelgoed | **C** |
+| 4 | Ramnagar Fort Museum | **C** |
+| 5 | The Ram Bhandar | **A** |
+| 6 | Tulsi Ghat Akhada | **C** |
+| 7 | Ganga Aarti vanaf het water | **C** |
+| 8 | Winterse Malaiyo/Makhan Malai | **A** |
+| 9 | Lange Varanasi-Chunar-boottocht | **C** |
+| 10 | Jnana-Pravaha/Banaras Gallery | **C** |
+| 11 | Rajghat-heuvel + Tomb of Lal Khan | **C** |
+| 12 | Alamgir Mosque/Dharahara | **A\*, optioneel — "als ik er dichtbij ben"** |
+| 13 | Zuid-Varanasi Jain-laag | **C** |
+
+**Waarom is item 5 (The Ram Bhandar) bijzonder? (Mark's vraag)** Dit valt onder een categorie die al langer voor jou vastligt in `governance/LONELY_PLANET_LAYER_RULE_2026-08-22.md`: "exceptional food/café/bakery/confectionery institutions with real regional or national reputation/history" — dus niet zomaar een goed ontbijtplekje, maar een instelling met echte, regionaal/nationaal erkende reputatie en geschiedenis. Ram Bhandar geldt in meerdere onafhankelijke bronnen als hét referentiepunt voor Banarasi kachori-sabzi en jalebi — het soort plek waar generaties Varanasi-bewoners al staand op straat ontbijten, geen toeristenval maar een levend stuk lokale ochtendcultuur. Het ligt bovendien letterlijk op je al-bestaande wandelroute, dus de "bijzonderheid" (culinair-historisch gewicht) komt zonder enige extra reistijd.
+
+**Items 6, 7, 12 blijven wél genoemd in de planning, ook al zijn 6 en 7 een C** — puur als "als je er toch loopt/vaart"-opmerking, geen apart tijdslot. Item 12 krijgt een expliciete optionele markering (zie donderdag).
+
+**Item 8 (Malaiyo) is A, maar seizoensafhankelijk (alleen nov-feb, vóór 11:00)** — wordt ingepland als kans-item op de bestaande ochtendroutes (Thatheri Bazaar-wandeling of Vishwanath Gali), niet als los tijdblok.
+
 ## OPEN ITEMS
 
 1. **BOEKING TREIN 22324 — actie voor Mark, deadline 9 november 2026 08:00 IST** (gewone boekingstermijn) of nu al via Foreign Tourist Quota. Zie ZA 9 JAN hierboven.
