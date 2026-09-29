@@ -54,7 +54,7 @@ Zie `runs/active/CCI_KOLKATA_UITGEBREIDE_LEESVERSIE_2026-09-28.md` voor de eerde
 | Do 14 jan | Garpar-microcluster (ochtend, dwell-tijden Mark's eigen keuze) → J.C. Bose/Acharya Bhaban (14:00-16:00, enige geldige dag, OPEN/UNGRADED) → transfer naar vliegveldhotel | **GECORRIGEERD 29 sep:** transfer naar Garpar nu 60-80 min (was 10-20 min); eindigt bij het vliegveld, niet meer bij de basis |
 | Vr 15 jan | Al bij/op het vliegveld → CCU-vlucht ~09:00 → Chennai ~11:10-11:20 → Tiruvannamalai (realistisch 4-5u rijden, Pongal-periode) | **Vereenvoudigd 29 sep** — geen risicovolle vroege stadstransfer meer, valt buiten Kolkata's 6 nachten |
 
-**Nog niet ingepland — REËLE GAT, WORK-vondst 29 sep:** Kalighat Kali Temple is géén "geen lineage-link" — het staat als **A+ CORE gelockt in CURRENT_TRUTH.md** (Yogananda's eigen jeugd-Kali-beeld-heiligingsgebeurtenis). Dit hele plan mist dus momenteel een volledig gelockte A+ locatie zonder toegewezen dag — **aan Mark voor te leggen, niet stilzwijgend oplossen.** Ook nog zichtbaar te maken: 50 Amherst Street [A*] en Dihika Retreat [A*], die nu nergens in dit plan voorkomen. Vivekananda Birthplace (A+, geen AOAY-citaat) blijft voorgesteld als optioneel donderdagmiddag-verlengstuk. De Lonely Planet-laag (Victoria Memorial, Howrah Bridge, etc.) staat aan het eind, nog niet gegradeerd door jou.
+**Kalighat Kali Temple: BEWUST GECUT, 29 sep.** Bleek bij onderzoek te rusten op een jeugd-Kali-beeld-heiligingsverhaal dat waarschijnlijk niet echt in AOAY staat (conflatie van twee losse, ongerelateerde hoofdstukken). Mark, na deze correctie: "Okee kalighat skippen." Zie `decisions/KALIGHAT_AOAY_SOURCING_ERROR_MARK_SKIP_DECISION_2026-09-29.md`. Nog wel zichtbaar te maken: 50 Amherst Street [A*] en Dihika Retreat [A*], die nu nergens in dit plan voorkomen. Vivekananda Birthplace (A+, geen AOAY-citaat) blijft voorgesteld als optioneel donderdagmiddag-verlengstuk. De Lonely Planet-laag (Victoria Memorial, Howrah Bridge, etc.) staat aan het eind, nog niet gegradeerd door jou.
 
 ---
 
@@ -616,7 +616,7 @@ Per `governance/LONELY_PLANET_LAYER_RULE_2026-08-22.md` en het Cluster Pre-Fligh
 9. **Oude zoetwarenzaken (K.C. Das, Flurys)** — K.C. Das claimt de geboorteplek van rosogolla; Flurys is een historische theesalon uit 1927. Afstand: centraal Kolkata, kost minuten als gecombineerd.
 10. **Hooghly-zonsondergangboottocht** — kan direct vanaf de Dakshineswar/Belur-ghats vertrekken, kost niets extra.
 
-**Nog niet ingepland:** Kalighat Kali Temple (A+ qua status maar géén geverifieerde lineage-link — puur "als er tijd over is", geen vaste dag toegekend) en Vivekananda Birthplace (zie donderdag-nuance hierboven).
+**Nog niet ingepland:** Vivekananda Birthplace (zie donderdag-nuance hierboven). Kalighat Kali Temple is bewust gecut, zie boven — de AOAY-link bleek waarschijnlijk niet te kloppen en Mark koos ervoor het te laten vallen.
 
 ## OPEN ITEMS
 
