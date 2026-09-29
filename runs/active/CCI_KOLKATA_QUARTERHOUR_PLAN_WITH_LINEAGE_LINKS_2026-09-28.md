@@ -524,7 +524,7 @@ MAGNETISCHE PLEK? Ja — sterkste relieken-shrine van de hele Kolkata-cluster.
 
 11:50–12:20 lunch/rust.
 
-12:20–13:45 transfer + wachttijd naar Acharya Bhaban (het gebouw is pal in dezelfde buurt — "close to mine on Gurpar Road" volgens AOAY zelf — maar opent pas 14:00; gebruik deze marge voor lunch/rust in de buurt, geen aparte lange transfer nodig).
+12:20–13:45 vrije tijd/rust in de buurt vóór Acharya Bhaban (het gebouw is pal in dezelfde buurt — "close to mine on Gurpar Road" volgens AOAY zelf — maar opent pas 14:00; lunch is al gehad, geen aparte lange transfer nodig, dit is puur wachttijd tot opening).
 
 ### J.C. Bose-huis, Acharya Bhaban [A — nieuw opgelost knooppunt]
 
