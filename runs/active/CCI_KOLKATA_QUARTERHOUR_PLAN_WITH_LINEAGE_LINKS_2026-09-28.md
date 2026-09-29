@@ -389,13 +389,15 @@ MAGNETISCHE PLEK? Ja — expliciet omgebouwd tot shrine, actief te bezoeken.
 
 ## WO 13 JAN — Belur Math
 
-**VERTREK HOTEL: 08:30.**
+**CORRECTIE 29 sep (WORK): een doorlopend 09:15-13:00-bezoek is fysiek onmogelijk.** Belur Math sluit voor de lunch: campus/tempels 06:30-11:30 en 15:30-20:30, museum 08:30-11:30 en 15:30-17:30 (gesloten op maandag/feestdagen). Herzien naar twee sessies, net als zondag.
 
-08:30–09:15 transfer naar Belur Math (~30-45 min, Howrah-oever, geverifieerd via Garpar↔Belur-data; vanaf hotelzone vergelijkbaar).
+**VERTREK BASIS: 08:00** (uitzondering op 08:30 — nodig om vóór de 11:30-sluiting nog echt tijd te hebben).
 
-### Belur Math [A]
+08:00–08:45 naar Belur Math: **voorkeur de veerdienst vanaf Ma Bhabatarini Ferry Ghat** (officiële route, kale overtocht 10-25 min, maar deur-tot-deur inclusief lopen/wachten realistisch 45-75 min — WORK-onderzoek 29 sep), **achtervang: auto over de weg via Vivekananda Setu, 35-50 min**. Boot geeft de mooiste binnenkomst (rivierervaring), maar houd een oproepbare auto als fallback (weersafhankelijk, geen gegarandeerde januari-2027-dienstregeling).
 
-TIJD: 09:15–13:00 (ruim de tijd — groot, actief kloosterterrein)
+### Belur Math, sessie 1/ochtend [A, ongewijzigd — CURRENT_TRUTH bevestigt A]
+
+TIJD: ~08:45–11:15 (tot vlak vóór de 11:30-sluiting)
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Het internationale hoofdkwartier van de Ramakrishna Math en Mission, gesticht door Vivekananda, op de westelijke Hooghly-oever.
@@ -419,11 +421,17 @@ Monniken in saffraan gewaad, actief kloosterleven, en de bewust religie-overstij
 
 MAGNETISCHE PLEK? Ja — Ramakrishna's relieken liggen letterlijk verzegeld onder het altaarbeeld, actief vereerd.
 
-BRONNEN: belurmath.org, en.wikisource.org/wiki/Autobiography_of_a_Yogi (hfst. 47, ter vergelijking).
+BRONNEN: belurmath.org, en.wikisource.org/wiki/Autobiography_of_a_Yogi (hfst. 47, ter vergelijking), officiële openingstijden via belurmath.org/our-location.
 
-13:00–13:45 lunch/rust op of nabij het terrein.
+11:15–15:30 middagsluiting — lunch/rust. Met de ferry dichtbij kun je teruggaan naar de basis (45-75 min deur tot deur) of in de buurt van Belur Math blijven; nog geen lunchoptie ter plekke onderzocht.
 
-13:45–14:30 transfer naar hotel (~30-45 min).
+### Belur Math, sessie 2/middag-avond [A]
+
+TIJD: 15:30–~18:30 (campus open tot 20:30, museum tot 17:30 — plan het museumdeel vóór 17:30 als je dat nog niet zag)
+
+Rustig, met ruimte voor de schaal van het complex — dit hoeft geen tweede volle sessie te zijn als de ochtend al voldoende voelde; flexibel korter of langer, geen vast eindtijdstip vandaag.
+
+Transfer naar basis: zodra je vertrekt, ferry 45-75 min deur tot deur of auto 35-50 min.
 
 ---
 
