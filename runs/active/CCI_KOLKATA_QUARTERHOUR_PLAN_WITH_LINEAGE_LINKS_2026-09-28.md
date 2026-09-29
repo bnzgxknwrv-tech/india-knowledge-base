@@ -68,16 +68,16 @@ Zie `runs/active/CCI_KOLKATA_UITGEBREIDE_LEESVERSIE_2026-09-28.md` voor de eerde
 
 **AANKOMST: trein 22324 Shabd Bhedi Express, Kolkata Chitpur (KOAA) ~13:05.**
 
-- 13:05–13:45 station uit, bagage, transfer naar hotel (Shyambazar/Fariapukur-zone) — **reistijd Chitpur→Dakshineswar-zone geverifieerd 25-40 min taxi, of metro Belgachia→Dakshineswar-lijn ~10 min** (metro-optie mogelijk sneller, maar met bagage minder praktisch); voor de hotelzone zelf reken een vergelijkbare 25-35 min.
-- 13:45–14:45 inchecken, lunch, kort opfrissen na de nachttrein (ingekort t.o.v. eerdere versie om ruimte te maken voor YSS hieronder).
+- **GECORRIGEERD 29 sep (WORK): rechtstreeks naar de nieuwe YSS-basis, niet meer via een aparte Shyambazar-hotelzone.** 13:05–13:45 station uit, bagage, transfer direct naar de homestay op ~10 min lopen van YSS (~25-40 min auto vanaf Chitpur, live Google Maps-klasse).
+- 13:45–14:45 inchecken, lunch, kort opfrissen na de nachttrein.
 
 **Herstructurering op verzoek van Mark (28 sep): YSS Dakshineswar Math (verplaatst van MA 11 JAN) wordt nu het eerste inhoudelijke ding dat je doet in Kolkata**, om er lang te mediteren en de aanwezige staff te vragen naar praktische informatie voor de komende dagen (o.a. hoe de Serampore-dagtocht via hen te regelen — onderzoek 28 sep vond dat dit in de praktijk via Dakshineswar-staff loopt, niet via een apart Serampore-loket).
 
-- 14:45–~15:25 transfer naar Yogoda Satsanga Math, Dakshineswar (**realistisch 30-50 min** — zelfde BT Road-route/onderzoek als de zondagtransfer hieronder).
+- 14:45–14:55 lopen naar Yogoda Satsanga Math (**~10 min, gecorrigeerd 29 sep — dit is nu een wandeling, geen 30-50 min autorit meer, dankzij de nieuwe basis vlakbij**).
 
 ### Yogoda Satsanga Math, Dakshineswar [A+]
 
-TIJD: ~15:25–19:30 (ruim 4 uur, zoals jij zelf aangaf — "mss wel vier uur of langer". Terrein open tot 21:00, dus ruime marge; blijf langer als je wilt.)
+TIJD: ~14:55–19:00 (ruim 4 uur, zoals jij zelf aangaf — "mss wel vier uur of langer". Terrein open tot 21:00, dus ruime marge; blijf langer als je wilt. Eerder op gang dan de vorige versie, dankzij de korte 10-min-wandeling i.p.v. een autorit.)
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Yogananda's eigen instituut, gevestigd vanuit zijn visie en richting — **fysiek een apart terrein, 1 km van de Kali-tempel, geen onderdeel daarvan.**
@@ -99,7 +99,7 @@ Het enige "eigen" instituut van Yogananda in deze hele cluster — en je eerste 
 
 MAGNETISCHE PLEK? Waarschijnlijk ja (YSS-ashrams hebben doorgaans een lineage-shrine), maar exacte interieur niet apart bevestigd — ter plekke verifiëren.
 
-19:30–~20:10 transfer terug naar hotel (realistisch 30-50 min), diner/rust.
+19:00–19:10 lopen terug naar de basis (**~10 min, gecorrigeerd 29 sep**), diner/rust.
 
 **Eerlijke consequentie:** dit maakt de aankomstdag minder puur rustdag dan de vorige versie ("LICHT, geen bezichtigingsdruk") — je gaat dezelfde middag nog ruim 4 uur mediteren/praten na de nachttrein. Zeg het als je dit liever een dag later doet.
 
