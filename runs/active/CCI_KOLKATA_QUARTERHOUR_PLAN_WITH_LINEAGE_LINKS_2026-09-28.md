@@ -12,12 +12,25 @@ Mark: *"De belangrijkste meter... of er een plek is waar een foto van Yogananda 
 
 **GEKOZEN DOOR MARK, 29-9-2026: reken met een homestay op ~10 minuten lopen van YSS Dakshineswar Math als basis voor za t/m woe/do-nachten, en een hotel bij/op het vliegveld voor de láátste nacht (do 14→vr 15 jan) i.v.m. rust vóór de vlucht.** Dit vervangt de eerdere Shyambazar/Fariapukur-aanname als rekenbasis voor de hele planning. Mark heeft ook zelf een mail gestuurd naar YSS Dakshineswar (zie Open Items) met de vraag naar hun eigen gastenverblijf of een homestay-aanbeveling in de buurt — zodra dat antwoord er is, wordt de exacte 10-min-optie concreet ingevuld; tot die tijd rekent dit hele plan met die 10-minuten-loopafstand als aanname.
 
-**Concreet gevolg voor de reistijden in dit bestand — GROTENDEELS NOG TE HERZIEN:**
-- Za 9 jan, Zo 10 jan, Wo 13 jan (via de Dakshineswar↔Belur Math-veerdienst, 10-15 min): transfers worden VEEL korter dan hieronder her en der nog staat (die teksten gingen nog uit van de Shyambazar-basis) — **nog niet overal herrekend, zie taak aan WORK hieronder.**
-- Ma 11 jan (Shyampukur/Cossipore/Balaram Mandir) en Do 14 jan (Garpar): transfers vanaf een Dakshineswar-basis zijn WAARSCHIJNLIJK LANGER dan de huidige "~20-30 min"-teksten (die gingen uit van Shyambazar, dat dichter bij die cluster ligt) — **nieuwe reistijden nog niet onderzocht, expliciete taak aan WORK.**
-- Do 14 jan avond: in plaats van terug naar de Dakshineswar-basis, nu een transfer naar een hotel bij/op het vliegveld — **nieuwe transfer (Garpar→vliegveld-zone), nog niet onderzocht.**
+**BIJGEWERKT 29 sep met WORK's live-Google-Maps-onderzoek — reistijden nu concreet:**
+- YSS → Shyampukur Bati: **50-70 min** (conservatieve plannorm)
+- YSS → Cossipore Udyanbati: **40-55 min**
+- YSS → Balaram Mandir: **50-70 min** (retour in namiddag/avond 55-75 min)
+- YSS → Garpar-cluster: **60-80 min heen, 65-90 min terug** (de zwaarste rit van de week)
+- YSS → CCU (vliegveld): **35-60 min**, ruim voor 09:00-vlucht met vertrek 05:15-05:30
+- YSS ↔ Belur Math: **veerdienst 45-75 min deur-tot-deur** (niet 10-15 min — dat was alleen de kale overtocht; ticket/wachten/lopen komen erbij), of **auto 35-50 min** als weersafhankelijke achtervang
+- Garpar → vliegveldzone (do 14 jan avond): **nog niet onderzocht**, taak staat uit bij WORK
 
-Zie `runs/active/CCI_KOLKATA_UITGEBREIDE_LEESVERSIE_2026-09-28.md` voor de eerdere hotel-vergelijking (blijft relevant als YSS geen plek/suggestie heeft).
+**Belangrijke structurele gate, WORK-vondst 29 sep: YSS Dakshineswar Math's eigen gastenverblijf zegt "up to five days" — Kolkata telt hier 6 nachten.** Eén YSS-basis voor de hele cluster mag dus niet zomaar worden aangenomen totdat schriftelijk bevestigd is hoe die vijf dagen precies geteld worden of dat een uitzondering mogelijk is (dit zit al in Mark's verstuurde mail, zie Open Items).
+
+**Drie echte, op loopafstand geverifieerde hotelkandidaten (WORK, live Google Maps 29 sep) als YSS geen (volledige) uitkomst biedt:**
+1. **STAYMAKER Addyama Hotel** (D.D. Mondal Ghat Road, tegenover Adyapith Temple) — 750-800m/10-11 min lopen, 4,2/5 bij ~155 reviews.
+2. **Hotel Dolphin Guest House / Adyapeath Mandir** (53 D.D. Mondal Ghat Road) — 800-900m/11-12 min lopen, 3,8/5 bij ~119 reviews.
+3. **Tirupati Guest House** — ~1,1km/14 min lopen, lagere confidence (2,5/5 op MakeMyTrip, klachten over onduidelijke locatie).
+
+**Eerlijke kanttekening (WORK):** dit zijn eenvoudige budget-/pelgrimsverblijven — "op loopafstand" is bewezen, maar "geschikt voor 6 rustige nachten" nog niet. Vóór boeking bij Addyama/Dolphin rechtstreeks navragen: buitenlandse gast/FRRO-registratie, stille kamer weg van straat/tempeldrukte, warm water/airco/wifi, 24-uursreceptie, vooraf geboekte auto tot aan de deur, en een annuleerbare boeking voor 9-15 januari 2027.
+
+Zie `runs/active/CCI_KOLKATA_UITGEBREIDE_LEESVERSIE_2026-09-28.md` voor de eerdere, bredere hotel-vergelijking.
 
 ## VERTREK NAAR TIRUVANNAMALAI — VRIJDAG 15 JAN
 
@@ -437,15 +450,17 @@ Transfer naar basis: zodra je vertrekt, ferry 45-75 min deur tot deur of auto 35
 
 ## DO 14 JAN — Garpar-microcluster + J.C. Bose (Acharya Bhaban) — laatste volledige dag
 
-**VERTREK HOTEL: 08:30.** Bewust een vroege afsluiting vanavond — morgenvroeg (vr 15 jan) een zeer vroege vlucht naar Chennai.
+**CORRECTIE 29 sep (WORK, nieuwe basis): de transfer naar Garpar is vanaf de YSS-basis 60-80 min heen, 65-90 min terug** (niet de oude "10-20 min", die ging uit van de Shyambazar-aanname) — dit is nu de duurste rit van de week. Ook: **dwell-tijden voor 4 Garpar Road en Tulsi Bose Shrine moeten Mark zelf kiezen**, niet vooraf vastgezet — de eigen uitgebreide leesversie vond meerdere-uren-bezoeken bij familieaccounts, terwijl de kaarten hieronder nog een kort, route-efficiënt tijdvak tonen. Hieronder een BASISinvulling, geen voorschrift.
 
-08:30–08:50 transfer naar Garpar Road-zone (~10-20 min vanaf de hotelzone, geverifieerd als korte stadsafstand).
+**VERTREK BASIS: 08:00** (uitzondering op 08:30, nodig vanwege de lange rit hierheen).
+
+08:00–~09:15 transfer naar Garpar Road-zone (60-80 min vanaf de YSS-basis, auto vooraf boeken — WORK-onderzoek 29 sep, live Google Maps).
 
 **Alle vier onderstaande Garpar-locaties liggen binnen ~0,5 km van elkaar — lopen tussen de stops.**
 
 ### 4 Garpar Road — Yogananda's familiehuis [A+, VASTGELEGD]
 
-TIJD: 08:50–09:35
+TIJD: 09:15–10:00 (BASIS 45 min — **kies zelf hoeveel langer je hier wilt zijn**; dit is de zwaarste AOAY-plek van de hele cluster, drie hoofdstukken diep, dus een langere tijd is goed te verdedigen als de rest van de dag dat toelaat)
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Het huis in Noord-Kolkata waar de tienerjaren-Yogananda (toen Mukunda Lal Ghosh) zijn eigen kamer had en zijn vroegste meditaties deed — nog steeds in familiebezit.
@@ -469,11 +484,11 @@ Het enige adres dat letterlijk, met huisnummer, in Yogananda's eigen tekst genoe
 
 MAGNETISCHE PLEK? Ja — familiehuis, actief in stand gehouden als bezoekbare herinneringsplek.
 
-09:35–09:40 lopen naar YSS Dhyana Kendra Garpar (vlakbij).
+10:00–10:05 lopen naar YSS Dhyana Kendra Garpar (vlakbij).
 
 ### YSS Dhyana Kendra Garpar [A+]
 
-TIJD: 09:40–10:15
+TIJD: 10:05–10:40
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Een actief functionerend YSS-meditatiecentrum — geen museum maar een levende instelling met publieke meditatiesessies.
@@ -489,11 +504,11 @@ De enige Garpar-plek waar je zelf kunt mediteren, niet alleen kijken.
 
 MAGNETISCHE PLEK? Ja — levende meditatiepraktijk in directe lijn van Yogananda's eigen jeugd.
 
-10:15–10:25 lopen naar Nagendra Math.
+10:40–10:50 lopen naar Nagendra Math.
 
 ### Nagendra Math — Bhaduri Mahasaya's huis [A+, GECORRIGEERD 29 sep — CURRENT_TRUTH/Mark-besluit zegt A+, niet A]
 
-TIJD: 10:25–11:00
+TIJD: 10:50–11:25
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Het huis van yogi Nagendranath Bhaduri, in AOAY "de Levitatie-heilige" genoemd — nu een instituut, ~0,5 km van Garpar.
@@ -512,11 +527,11 @@ Dat contrast tussen licht (afzonderingsverdieping) en donker (Kali-schrijn) word
 
 MAGNETISCHE PLEK? Ja — Kali-schrijnkamer actief, plus de sfeervol beschreven afzonderingsverdieping.
 
-11:00–11:10 lopen naar Tulsi Bose Shrine.
+11:25–11:35 lopen naar Tulsi Bose Shrine.
 
 ### Tulsi Bose Shrine [A+]
 
-TIJD: 11:10–11:50
+TIJD: 11:35–12:15 (BASIS 40 min — **kies zelf hoeveel langer**; Ananda-pelgrimsgroepen reserveren hier soms een aparte 1,5-uur-meditatiesessie, plus overnachtingen zijn hier zelfs mogelijk. Een korter bezoek nu is prima als je liever bij 4 Garpar Road meer tijd nam.)
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Het huis van Tulsi Bose, Yogananda's jeugdvriend en levenslange discipel — bewaard met fysieke relieken.
@@ -537,11 +552,11 @@ De enige plek met fysieke, aan Babaji en Sri Yukteswar toegeschreven objecten �
 
 MAGNETISCHE PLEK? Ja — sterkste relieken-shrine van de hele Kolkata-cluster.
 
-11:50–12:20 lunch/rust.
+12:15–12:45 lunch/rust.
 
-12:20–13:45 vrije tijd/rust in de buurt vóór Acharya Bhaban (het gebouw is pal in dezelfde buurt — "close to mine on Gurpar Road" volgens AOAY zelf — maar opent pas 14:00; lunch is al gehad, geen aparte lange transfer nodig, dit is puur wachttijd tot opening).
+12:45–13:45 vrije tijd/rust in de buurt vóór Acharya Bhaban (het gebouw is pal in dezelfde buurt — "close to mine on Gurpar Road" volgens AOAY zelf — maar opent pas 14:00; lunch is al gehad, geen aparte lange transfer nodig, dit is puur wachttijd tot opening).
 
-### J.C. Bose-huis, Acharya Bhaban [A — nieuw opgelost knooppunt]
+### J.C. Bose-huis, Acharya Bhaban [OPEN/UNGRADED, GECORRIGEERD 29 sep — WORK: identiteit is opgelost, maar dat is nog geen Mark-grade. Niet als "A" behandelen totdat jij dat zelf beslist]
 
 TIJD: 14:00–15:30 (enige geldige tijdvenster: **alleen woensdag en donderdag, 14:00-16:00**)
 
@@ -563,11 +578,7 @@ KORTE NUANCE: alleen open wo/do 14:00-16:00 — dit is dus de enige dag in dit h
 
 BRONNEN: en.wikisource.org/wiki/Autobiography_of_a_Yogi (hfst. 8).
 
-15:30–16:00 transfer naar hotel (~10-20 min, zelfde korte stadsafstand als de heenreis).
-
-16:00–18:00 rust/pakken — bewust vroeg vanwege de zeer vroege vertrektijd morgenvroeg.
-18:00–19:00 vroeg diner.
-19:00–23:00 kamer/pakken.
+**GEWIJZIGD 29 sep: geen terugkeer naar de YSS-basis meer vanavond.** In plaats daarvan een transfer naar het hotel bij/op het vliegveld (Mark's beslissing, i.v.m. rust vóór de vroege vlucht) — **deze specifieke Garpar→vliegveld-transfertijd is nog niet onderzocht, taak staat uit bij WORK.** Voorlopig ruim inplannen (schatting, niet gesourced): 15:30–17:00 transfer, dan inchecken/rust/pakken/vroeg diner op of bij het vliegveld.
 
 **OPTIONEEL, NIET INGEPLAND:** Vivekananda Birthplace (A+, geen AOAY-citaat) zou hier eventueel tussen 11:00-12:00 of na Acharya Bhaban kunnen, als je energie/tijd overhoudt — exacte reistijd vanaf Garpar niet apart geverifieerd, geschatte 10-20 min gezien beide in Noord-Kolkata liggen. Niet vast ingepland om de dag niet te overladen vlak vóór de vroege vertrekdag.
 
@@ -575,9 +586,16 @@ BRONNEN: en.wikisource.org/wiki/Autobiography_of_a_Yogi (hfst. 8).
 
 ## VR 15 JAN — Vertrek naar Chennai/Tiruvannamalai
 
-**GEKOZEN 28-9-2026:** vlucht CCU→MAA 09:00 (CCU-luchthavenbuffer 2 uur, dus aankomst luchthaven ~07:00).
+**VEREENVOUDIGD 29 sep — deze dag is nu simpel omdat je de nacht ervoor al bij/op het vliegveld slaapt.** De hele eerdere discussie over een risicovolle 05:30-05:45-stadstransfer (VIP Road-congestie, Metro-bouw, Uber/Ola-annuleringsrisico) is niet meer relevant.
 
-**CORRECTIE 28-9-2026, nog niet eerder in dit bestand verwerkt:** de oorspronkelijke aanname "hotel verlaten ~06:30-07:00" bleek bij gericht onderzoek te optimistisch. Realistisch is de rit hotel→CCU **30-90 min**, niet 25-35 min — VIP Road heeft bekende congestie plus actieve Metro Orange Line-bouwwerkzaamheden (huidig, niet historisch), en Uber/Ola hebben een gedocumenteerd patroon van annuleringen bij vroege ochtendritten in Kolkata. **Advies: vertrek hotel 05:30-05:45, met vooraf geboekte hotelauto (geen Uber/Ola-gok voor deze rit).** Dit maakt de ochtend minder "normaal en niet-uitputtend" dan hierboven stond — eerlijke correctie, nog niet eerder door Mark bevestigd. Alternatief, nog niet gekozen: overnachten bij/op het vliegveld de laatste nacht (Mark opperde dit al, nog niet verder uitgewerkt).
+**Vlucht: CCU→MAA rond 09:00** (nog geen bewezen/geboekt exact vluchtnummer voor januari 2027 — WORK-correctie 29 sep: schrijf dit niet als "gekozen vlucht" totdat er echt geboekt is).
+
+**Nieuwe aandachtspunten van WORK's audit (29 sep), nog niet eerder genoemd:**
+- Binnenlandse balies in India sluiten doorgaans **60 min vóór vertrek**, gates ~20-25 min ervoor — 2 uur van tevoren aanwezig zijn blijft verstandig, ook al slaap je al dichtbij.
+- **Bagage:** een los binnenlands ticket (CCU→MAA) krijgt niet automatisch je internationale bagage-allowance — IndiGo's typische binnenlandse limiet is 15 kg ruimbagage + 7 kg handbagage. Bij een reis van 33 nachten kan dit een echt kostenpunt zijn — vergelijk vooraf gekochte extra kilo's tussen aanbieders.
+- **MAA-landing is niet meteen vertrek:** reserveer apart 45-75 min voor uitstappen, bagage, chauffeur ontmoeten, terminal uit.
+- **Chennai→Tiruvannamalai is realistischer 4-5 uur, niet 3,5 uur** (175-190 km) — een landing rond 11:10 geeft dus eerder ~15:30-17:30+ aankomst dan de eerder genoemde 15:00-16:30.
+- 15 januari valt middenin **Pongal** — chauffeur vooraf vastleggen, weg-/ashramimpact vlak van tevoren live checken, avondprogramma (Sri Chakra Puja) niet garanderen.
 
 ---
 
