@@ -550,7 +550,9 @@ BRONNEN: en.wikisource.org/wiki/Autobiography_of_a_Yogi (hfst. 8).
 
 ## VR 15 JAN — Vertrek naar Chennai/Tiruvannamalai
 
-**GEKOZEN 28-9-2026:** hotel verlaten ~06:30-07:00, vlucht CCU→MAA 09:00 (CCU-luchthavenbuffer 2 uur). Een normale, niet-uitputtende ochtend — geen vliegveldhotel nodig, zelfde basis als de rest van het verblijf. Zie het Tiruvannamalai-plan voor de dag zelf.
+**GEKOZEN 28-9-2026:** vlucht CCU→MAA 09:00 (CCU-luchthavenbuffer 2 uur, dus aankomst luchthaven ~07:00).
+
+**CORRECTIE 28-9-2026, nog niet eerder in dit bestand verwerkt:** de oorspronkelijke aanname "hotel verlaten ~06:30-07:00" bleek bij gericht onderzoek te optimistisch. Realistisch is de rit hotel→CCU **30-90 min**, niet 25-35 min — VIP Road heeft bekende congestie plus actieve Metro Orange Line-bouwwerkzaamheden (huidig, niet historisch), en Uber/Ola hebben een gedocumenteerd patroon van annuleringen bij vroege ochtendritten in Kolkata. **Advies: vertrek hotel 05:30-05:45, met vooraf geboekte hotelauto (geen Uber/Ola-gok voor deze rit).** Dit maakt de ochtend minder "normaal en niet-uitputtend" dan hierboven stond — eerlijke correctie, nog niet eerder door Mark bevestigd. Alternatief, nog niet gekozen: overnachten bij/op het vliegveld de laatste nacht (Mark opperde dit al, nog niet verder uitgewerkt).
 
 ---
 
